@@ -3,12 +3,12 @@
   "q": "Homem de 68 anos, hipertenso e diabético em uso de metformina, procura o ambulatório com palpitações há três semanas. O eletrocardiograma mostra fibrilação atrial. Não há histórico de acidente vascular cerebral, insuficiência cardíaca ou doença arterial periférica. Qual é a conduta antitrombótica indicada pela diretriz vigente?",
   "alts": [
    "Ácido acetilsalicílico em dose baixa agora, deixando o anticoagulante para depois do primeiro AVC.",
-   "Anticoagulação oral plena desde já, porque o escore CHA₂DS₂-VA soma três pontos nesse paciente.",
    "Nenhum antitrombótico neste momento, já que o escore só indica tratamento a partir dos 75 anos.",
+   "Anticoagulação oral plena desde já: todo escore CHA₂DS₂-VA de dois ou mais manda anticoagular.",
    "Anticoagular somente se o ecocardiograma transesofágico revelar trombo no apêndice atrial esquerdo.",
    "Dupla antiagregação com ácido acetilsalicílico e clopidogrel, que substitui a anticoagulação aqui."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -17,8 +17,8 @@
   "coment": "A diretriz europeia de 2024 substituiu o CHA₂DS₂-VASc pelo CHA₂DS₂-VA: o ponto atribuído ao sexo feminino saiu do escore, que passou a ter máximo de 8. Aqui somam-se idade entre 65 e 74 anos (1), hipertensão (1) e diabetes (1) = 3 pontos. Com escore ≥2 a anticoagulação oral é recomendação classe I, com preferência pelos anticoagulantes orais diretos sobre a varfarina em pacientes sem estenose mitral moderada a grave ou prótese mecânica. O antiagregante plaquetário não tem papel na profilaxia de embolia na fibrilação atrial: não reduz AVC de forma comparável e mantém risco de sangramento.",
   "porAlt": [
    "O AAS foi abandonado na profilaxia de embolia da fibrilação atrial — é muito menos eficaz que o anticoagulante e não é opção mais segura.",
-   "Correta: três pontos no CHA₂DS₂-VA (idade 65–74, hipertensão e diabetes) colocam o paciente na recomendação classe I de anticoagulação oral.",
    "A idade entre 65 e 74 anos já pontua 1; somada a hipertensão e diabetes, ultrapassa o limiar de 2 pontos. Esperar os 75 anos custa AVC evitável.",
+   "Correta: três pontos no CHA₂DS₂-VA (idade 65–74, hipertensão e diabetes) colocam o paciente na recomendação classe I de anticoagulação oral.",
    "Trombo no apêndice não é pré-requisito para anticoagular: o escore clínico é que define a indicação, e o eco negativo não exclui risco embólico.",
    "A dupla antiagregação soma sangramento sem oferecer a proteção do anticoagulante; só entra em situações específicas de doença coronária, e por tempo limitado."
   ]
@@ -26,13 +26,13 @@
  {
   "q": "Mulher de 72 anos com fibrilação atrial permanente e escore CHA₂DS₂-VA de 4 pontos usa rivaroxabana. Chega à emergência com hematêmese e queda de 3 g/dL na hemoglobina, pressão arterial de 92/60 mmHg e frequência de 110 bpm. Tomou a última dose há seis horas. Qual é a prioridade imediata do atendimento?",
   "alts": [
-   "Aplicar vitamina K por via endovenosa em dose alta, que reverte o efeito anticoagulante da rivaroxabana.",
-   "Transfundir plaquetas antes de qualquer procedimento, pois o fármaco age inibindo a agregação delas.",
+   "Aplicar vitamina K endovenosa em dose máxima, que reverte o efeito anticoagulante da rivaroxabana.",
    "Suspender o anticoagulante e estabilizar a paciente, acionando a endoscopia digestiva alta de urgência.",
+   "Transfundir plaquetas antes de qualquer procedimento, pois o fármaco age inibindo a agregação delas.",
    "Manter a anticoagulação sem alteração, já que interrompê-la implica risco proibitivo de AVC agora.",
    "Solicitar a dosagem do INR e adiar a endoscopia até que o resultado desse exame esteja abaixo de 1,5."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -41,8 +41,8 @@
   "coment": "Diante de sangramento maior em uso de anticoagulante oral direto, a sequência é suspender o fármaco, ressuscitar volemicamente, transfundir conforme alvo restritivo e controlar a fonte — aqui, endoscopia digestiva alta em até 24 horas, antecipada quando há instabilidade. A vitamina K reverte antagonistas da vitamina K, não inibidores diretos do fator Xa; para estes existe agente específico (andexanete alfa) ou, na indisponibilidade, complexo protrombínico. Como a rivaroxabana tem meia-vida curta, a suspensão já reduz o efeito em poucas horas. O INR não mede de forma confiável o efeito dos anticoagulantes diretos.",
   "porAlt": [
    "A vitamina K só reverte antagonistas da vitamina K, como a varfarina; não tem qualquer efeito sobre inibidores diretos do fator Xa.",
-   "A rivaroxabana inibe o fator Xa e não a função plaquetária; transfundir plaquetas sem plaquetopenia não corrige a coagulopatia do caso.",
    "Correta: suspender o anticoagulante, ressuscitar e levar à endoscopia é a sequência do sangramento maior com instabilidade hemodinâmica.",
+   "A rivaroxabana inibe o fator Xa e não a função plaquetária; transfundir plaquetas sem plaquetopenia não corrige a coagulopatia do caso.",
    "Sangramento maior com hipotensão obriga a suspender o anticoagulante; o risco tromboembólico de dias sem droga é bem menor que o da hemorragia.",
    "O INR não afere o efeito dos anticoagulantes diretos, e esperar o exame só atrasa o controle endoscópico da fonte do sangramento."
   ]
@@ -52,9 +52,9 @@
   "alts": [
    "Administrar fibrinolítico agora no próprio serviço e transferir em seguida para coronariografia.",
    "Transferir sem trombolisar, porque a angioplastia primária é superior em qualquer tempo de trajeto.",
-   "Aguardar a curva de troponina no local antes de decidir entre trombolisar ou apenas transferir.",
+   "Aguardar a curva de troponina no serviço antes de decidir se vai trombolisar ou só transferir.",
    "Iniciar heparina isolada em infusão contínua e reservar a reperfusão para depois das 12 horas.",
-   "Prescrever nitrato e morfina e reavaliar o eletrocardiograma em duas horas antes de reperfundir."
+   "Prescrever nitrato e morfina e repetir o eletrocardiograma após duas horas, antes de reperfundir."
   ],
   "gab": 0,
   "tema": "cardio",

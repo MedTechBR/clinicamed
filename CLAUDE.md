@@ -78,6 +78,13 @@ e mostra a matriz cenário × competência (lacuna ali costuma ser jeito de pens
   Resolvido por especificidade (`.bt.mini`, `.bt.sec.mini`), não por ordem.
 - **Mapa de abas resolvido na chamada**: `PINTA` referenciando funções declaradas em blocos
   `<script>` posteriores derruba o boot inteiro. Usar `()=>pintaX()`.
+- **Equilíbrio do gabarito é GLOBAL, nunca por leva**: a versão herdada distribuía com
+  `[i % 5 for i in range(n)]` dentro de cada arquivo; com levas de 3 ou 4 questões isso nunca
+  alcança as posições D e E, e o banco inteiro saiu **sem nenhuma resposta na letra E** — viés
+  que o aluno explora em prova de 5 alternativas e que o validador não acusa. Passar sempre
+  `lotes-questoes/leva*.json` inteiro para o `equilibra_gabarito.py`.
+- **Corrigir um tell de linguagem quebra o comprimento**: toda troca de redação reabre o viés de
+  tamanho. `ajusta_alts.py` escolhe, entre variantes, a que cai na janela de 95–108%.
 
 ## Identidade visual — "Papel de ECG"
 Tirada do próprio assunto, não decorativa: papel quente com a grade milimetrada no cabeçalho, tinta
@@ -91,6 +98,8 @@ Auditoria de contraste por DOM: **0 falhas** nos 8 painéis × 2 temas (≥4,5:1
 2. `node --check` na sintaxe de todos os `.js` e dos blocos inline do index.
 3. Servir com `servir.py` (launch.json → `clinicamed`, porta 8711) e rodar asserções por DOM.
 4. Auditoria de contraste nos 8 painéis × 2 temas — exigido: `total: 0`.
+   Conferir também a distribuição do gabarito impressa pelo validador: as cinco letras devem
+   aparecer, e nenhuma pode ficar zerada.
 5. Só então: commit, **bump do `CACHE` do sw.js** e push.
 
 ### Receita de fechamento de leva
@@ -102,12 +111,26 @@ Auditoria de contraste por DOM: **0 falhas** nos 8 painéis × 2 temas (≥4,5:1
 4. `python3 monta_banco.py` e conferir "OK: nenhum erro duro".
 
 ## Estado do conteúdo (04/09/2026)
-- **20 questões** em 6 levas, 20 chaves únicas, zero erros duros. Gabarito A:6 B:6 C:6 D:2.
-- Cobertura: cardio 3 · emergências 4 · pneumo 4 · endócrino 3 · nefro 3 · neuro 3.
-  **12 das 18 áreas ainda sem nenhuma questão** (infecto, gastro, SUS, hemato, reumato, geriatria,
-  onco, derma, psiq, oftalmo, ORL, GO). Alvo do validador: peso × 3 = 360 questões.
+- **42 questões** em 13 levas, 42 chaves únicas, **zero erros duros e zero avisos**.
+- Gabarito uniforme: A:9 B:9 C:8 D:8 E:8. Correta é a mais longa em 11,9%; folga mediana 1,1%.
+- Matrizes do edital: cenário amb 22 · emg 10 · enf 6 · uti 4; competência tto 20 · urg 8 · prev 8 ·
+  dx 6; nível r1 11 · r2 11 · r3 8 · título 12.
+- **13 das 18 áreas cobertas.** Ainda sem nenhuma questão, todas de baixo peso (12 pontos somados
+  dos 120): dermatologia, psiquiatria, oftalmologia, otorrinolaringologia e ginecologia/obstetrícia.
+- Cobertura ante o alvo (peso × 3): cardio 3/42 · emergências 4/36 · infecto 4/30 · pneumo 4/27 ·
+  gastro 4/27 · endócrino 3/24 · nefro 3/24 · neuro 3/24 · SUS 3/21 · hemato 3/18 · reumato 3/18 ·
+  geriatria 3/18 · onco 2/15.
 - **0 questões de prova real** — o banco misto foi decidido, mas só a parte autoral existe hoje.
 - 18 cartões · 3 estações · 2 leituras (sepse e AVC).
+
+### Diretrizes já verificadas em fonte (reusar a âncora, não reinventar)
+GINA 2026 · GOLD 2026 · Surviving Sepsis 2026 · ADA 2026 · KDIGO 2024 · AHA/ASA 2026 (AVC) ·
+ESC 2024 (fibrilação atrial) · ESC 2023 (síndromes coronárias) · ATS 2025 (pneumonia comunitária,
+duração curta) · Baveno VII 2022 · EASL 2018 (cirrose descompensada) · ACR 2020 (gota) ·
+ACR 2021 (artrite reumatoide) · EULAR 2023 (lúpus) · IMWG 2014 (mieloma) · BSG 2021 (ferropenia) ·
+ASH 2020 (falciforme) · AGS Beers 2023 · Ministério da Saúde 2025 + Lei 15.284/2025 (mamografia a
+partir dos 40 anos — mudou em 2025, o conhecimento de modelo ainda diz 50 a 69) · nota técnica
+INCA 2023 (não rastreamento populacional de próstata).
 
 ## Hospedagem
 GitHub Pages, repo público `MedTechBR/clinicamed` → medtechbr.github.io/clinicamed/.

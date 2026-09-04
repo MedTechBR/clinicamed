@@ -2,13 +2,13 @@
  {
   "q": "Mulher de 52 anos com diabetes tipo 2 há oito anos, doença renal crônica com taxa de filtração glomerular de 48 mL/min/1,73 m² e relação albumina-creatinina de 380 mg/g, usa metformina e tem hemoglobina glicada de 6,8%. Está assintomática. Considerando as recomendações vigentes, qual é a melhor conduta farmacológica?",
   "alts": [
-   "Manter apenas a metformina, porque a hemoglobina glicada já está dentro da meta estabelecida hoje.",
    "Acrescentar um inibidor de SGLT2, indicado pela proteção renal independentemente da glicada atual.",
+   "Manter apenas a metformina, porque a hemoglobina glicada já está dentro da meta estabelecida hoje.",
    "Iniciar insulina basal noturna para prevenir a progressão da doença renal crônica nessa paciente.",
    "Suspender a metformina de imediato, uma vez que a filtração glomerular está abaixo de 60 mL/min.",
    "Trocar a metformina por sulfonilureia, opção de menor custo com o mesmo efeito de proteção renal."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -16,8 +16,8 @@
   "base": "ADA Standards of Care in Diabetes 2026 e KDIGO 2024 — terapia com benefício cardiorrenal independentemente da HbA1c",
   "coment": "O ponto que as duas diretrizes reforçam é que a escolha do hipoglicemiante deixou de ser guiada apenas pelo controle glicêmico: em pacientes com doença renal crônica, insuficiência cardíaca ou doença cardiovascular estabelecida, indica-se a classe com benefício de órgão independentemente da hemoglobina glicada. Com filtração de 48 mL/min e albuminúria acima de 200 mg/g, o inibidor de SGLT2 tem recomendação forte para retardar a progressão renal. A metformina pode ser mantida até filtração de 30 mL/min, com ajuste de dose abaixo de 45; suspendê-la aqui é erro comum e desnecessário.",
   "porAlt": [
-   "Uma glicada na meta não encerra a decisão terapêutica: o que está em jogo aqui é a progressão renal, que exige droga com benefício próprio.",
    "Correta: com doença renal crônica e albuminúria, o inibidor de SGLT2 é indicado pela proteção de órgão, mesmo com a glicada já na meta.",
+   "Uma glicada na meta não encerra a decisão terapêutica: o que está em jogo aqui é a progressão renal, que exige droga com benefício próprio.",
    "A insulina basal controla glicemia, mas não tem efeito demonstrado de nefroproteção e acrescenta risco de hipoglicemia à paciente.",
    "A metformina só é contraindicada abaixo de 30 mL/min; entre 30 e 45 ajusta-se a dose, e retirá-la em 48 mL/min é decisão precipitada.",
    "A sulfonilureia não protege o rim, causa hipoglicemia e ganho de peso, e não é substituta adequada da metformina nesse contexto clínico."
@@ -27,12 +27,12 @@
   "q": "Homem de 29 anos com diabetes tipo 1 há doze anos, em esquema basal-bolus com múltiplas aplicações, tem índice de massa corporal de 34 kg/m² e hemoglobina glicada de 7,9%. Pergunta sobre tratamento farmacológico para a obesidade. Segundo a versão de 2026 das recomendações da Associação Americana de Diabetes, qual é a orientação?",
   "alts": [
    "Fármacos dessa classe seguem contraindicados no diabetes tipo 1, restritos apenas ao diabetes tipo 2.",
+   "Um agonista do receptor de GLP-1 entra como opção, sempre com dose individualizada e insulina.",
    "A conduta se limita a dieta e exercício, pois medicação para obesidade não tem espaço no tipo 1.",
-   "Um agonista do receptor de GLP-1 pode ser considerado, com dose individualizada, junto da insulina.",
    "Deve-se sempre buscar a dose máxima aprovada em bula, que é a única dose com eficácia demonstrada.",
    "A cirurgia bariátrica é a única opção admitida nesse caso, sem alternativa de tratamento clínico."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -41,8 +41,8 @@
   "coment": "A edição de 2026 trouxe, pela primeira vez, recomendação de considerar agonistas do receptor de GLP-1 e congêneres em pessoas com diabetes tipo 1 e obesidade, sempre em associação à insulina, que continua indispensável. O texto também passou a enfatizar a individualização da dose dos fármacos antiobesidade: a dose mais eficaz para um determinado paciente pode não ser a maior aprovada, e a escalada deve considerar resposta, tolerância e objetivo terapêutico. Os cuidados específicos no tipo 1 são o risco de cetoacidose euglicêmica em uso concomitante de outras classes e a necessidade de reduzir a insulina prandial.",
   "porAlt": [
    "A contraindicação absoluta no tipo 1 é justamente o que a atualização derrubou, ao reconhecer o benefício sobre peso e sensibilidade à insulina.",
-   "Restringir a conduta a dieta e exercício ignora uma recomendação explícita da diretriz e deixa o paciente sem tratamento eficaz da obesidade.",
    "Correta: a versão de 2026 passou a admitir o agonista de GLP-1 no diabetes tipo 1 com obesidade, com dose individualizada e insulina mantida.",
+   "Restringir a conduta a dieta e exercício ignora uma recomendação explícita da diretriz e deixa o paciente sem tratamento eficaz da obesidade.",
    "A diretriz diz o oposto: a dose mais eficaz pode não ser a maior aprovada, e a titulação deve ser individualizada em cada paciente.",
    "A cirurgia é uma opção entre outras e não exclui o tratamento clínico, que agora conta com recomendação específica para este perfil."
   ]
@@ -50,13 +50,13 @@
  {
   "q": "Mulher de 61 anos com diabetes tipo 2 diagnosticado há dois meses, em uso de metformina, comparece à consulta e relata dificuldade para entender a variação da sua glicemia ao longo do dia. Não usa insulina. Pergunta se existe algum recurso além da glicemia capilar de jejum. Qual é a orientação alinhada às recomendações de 2026?",
   "alts": [
-   "A monitorização contínua de glicose pode ser considerada, inclusive fora do uso de insulina prandial.",
    "O uso de sensor contínuo fica restrito a quem usa insulina em múltiplas doses diárias, sem exceção.",
    "A glicemia capilar de jejum isolada é suficiente, e qualquer outro método apenas eleva o custo do caso.",
    "O sensor só deve ser cogitado depois de cinco anos de doença ou diante de hipoglicemias documentadas.",
+   "A monitorização contínua de glicose cabe a qualquer momento, mesmo sem insulina prandial em uso.",
    "A hemoglobina glicada trimestral substitui integralmente qualquer forma de monitorização de glicose."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "prev",
@@ -64,10 +64,10 @@
   "base": "ADA Standards of Care in Diabetes 2026 — monitorização contínua de glicose desde o diagnóstico",
   "coment": "A atualização de 2026 ampliou o papel da monitorização contínua de glicose: recomenda considerá-la no momento do diagnóstico e a qualquer tempo depois, com o objetivo de melhorar desfechos do manejo, sem restringir o recurso a quem usa insulina em múltiplas doses. O valor está em mostrar ao paciente o efeito imediato de alimentos, atividade física e medicação, e em revelar padrões que a glicemia de jejum não captura. A hemoglobina glicada continua sendo uma média de três meses, útil mas cega para variabilidade e hipoglicemia, e por isso não substitui a monitorização.",
   "porAlt": [
-   "Correta: a diretriz de 2026 recomenda considerar a monitorização contínua já no diagnóstico, sem condicioná-la ao uso de insulina.",
    "A restrição ao esquema de múltiplas doses de insulina reflete recomendações antigas e foi justamente o limite ampliado nesta atualização.",
    "A glicemia de jejum isolada não mostra excursões pós-prandiais nem hipoglicemias noturnas, que são o alvo do sensor nesse cenário.",
    "Não há exigência de tempo mínimo de doença nem de hipoglicemia prévia documentada para se considerar a monitorização contínua.",
+   "Correta: a diretriz de 2026 recomenda considerar a monitorização contínua já no diagnóstico, sem condicioná-la ao uso de insulina.",
    "A hemoglobina glicada é uma média e não revela variabilidade glicêmica, de modo que jamais substitui a monitorização no dia a dia."
   ]
  }
