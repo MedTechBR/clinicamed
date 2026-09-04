@@ -85,6 +85,10 @@ e mostra a matriz cenário × competência (lacuna ali costuma ser jeito de pens
   `lotes-questoes/leva*.json` inteiro para o `equilibra_gabarito.py`.
 - **Corrigir um tell de linguagem quebra o comprimento**: toda troca de redação reabre o viés de
   tamanho. `ajusta_alts.py` escolhe, entre variantes, a que cai na janela de 95–108%.
+- **`.nojekyll` é obrigatório**: o GitHub Pages roda Jekyll, que **ignora arquivos começados com
+  `_`**. Sem o arquivo `.nojekyll` na raiz, `leituras/_leitura.css` e `_leitura.js` respondem **404
+  em produção** — as leituras abrem sem estilo nenhum e sem tema, ilegíveis no escuro, enquanto no
+  servidor local tudo parece perfeito. Foi assim que o app foi ao ar em 04/09/2026.
 - **Aba nova NÃO basta para testar o service worker**: se o SW já está registrado naquele origin,
   ele continua servindo o banco velho em qualquer aba. Ao verificar mudança de conteúdo,
   desregistrar (`getRegistrations().then(rs=>rs.map(r=>r.unregister()))`) e limpar `caches` antes

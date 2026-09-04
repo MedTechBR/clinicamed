@@ -5,6 +5,11 @@
 html[data-tema="escuro"]{--papel:#121010;--sup:#1C1918;--sup2:#252120;--ink:#EFE8E3;--ink2:#A99E97;
  --linha:#332D2B;--brand:#4FB8BD;--brandInk:#4FB8BD;--brandSup:#132A2C;--ok:#5FCB8E;--okSup:#14291D;
  --err:#F0837A;--errSup:#301A18;--avi:#E0AE5A;--aviSup:#2C2418}
+/* Rede de segurança: se o ?tema= não chegar (JS bloqueado, arquivo com "_" servido como 404 pelo
+   Jekyll, iframe aberto direto), o escuro do sistema ainda precisa render leitura legível. */
+@media (prefers-color-scheme:dark){html:not([data-tema="claro"]){--papel:#121010;--sup:#1C1918;--sup2:#252120;--ink:#EFE8E3;--ink2:#A99E97;
+ --linha:#332D2B;--brand:#4FB8BD;--brandInk:#4FB8BD;--brandSup:#132A2C;--ok:#5FCB8E;--okSup:#14291D;
+ --err:#F0837A;--errSup:#301A18;--avi:#E0AE5A;--aviSup:#2C2418}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--papel);color:var(--ink);
  font:16px/1.65 Inter,system-ui,-apple-system,sans-serif;padding:0 0 60px}
@@ -31,6 +36,8 @@ details{border:1px solid var(--linha);border-radius:10px;padding:11px 14px;margi
 summary{cursor:pointer;font-weight:600}
 footer{margin-top:34px;border-top:1px solid var(--linha);padding-top:16px;font-size:13.5px;color:var(--ink2)}
 footer ol{padding-left:20px}
+a{color:var(--brandInk)}
+strong,b{color:var(--ink)}
 .vaiQuestoes{display:inline-block;background:var(--brand);color:#fff;border:0;border-radius:10px;
  padding:12px 18px;font-weight:600;cursor:pointer;margin-top:20px;text-decoration:none;min-height:44px}
 html[data-tema="escuro"] .vaiQuestoes{color:#0E1414}
