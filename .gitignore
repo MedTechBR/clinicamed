@@ -1,3 +1,6 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# texto extraído das diretrizes (grande, de terceiros)
+fontes/

@@ -153,6 +153,17 @@ ASH 2020 (falciforme) · AGS Beers 2023 · Ministério da Saúde 2025 + Lei 15.2
 partir dos 40 anos — mudou em 2025, o conhecimento de modelo ainda diz 50 a 69) · nota técnica
 INCA 2023 (não rastreamento populacional de próstata).
 
+## Biblioteca de fontes (04/09/2026)
+O Matheus deu acesso a `~/Documents/Livros/` — diretrizes em PDF e livros. O catálogo, com o que é
+âncora válida e **o que é referência antiga a não usar**, está em `docs/FONTES.md`. Regras:
+- Os PDFs **não** entram no repo (grandes, de terceiros). O texto extraído vai para `fontes/`, que
+  está no `.gitignore`. Reextrair com `pdftotext -layout`.
+- **Proibido ancorar em referência antiga** (Cecil 25ª ed., Diagnóstico por Imagem 2015, toxicologia
+  2017). Sem diretriz recente na biblioteca, usar a bibliografia oficial do edital.
+- Quando houver PDF da diretriz, **ler o PDF em vez de confiar em busca web**: a diretriz brasileira
+  de hipertensão de 2025 mostrou que a busca dava a régua americana (dupla acima de 150/90) enquanto
+  a fonte primária recomenda dupla para a **maioria** dos pacientes, com meta única de <130/80.
+
 ## Hospedagem
 GitHub Pages, repo público `MedTechBR/clinicamed` → medtechbr.github.io/clinicamed/.
 Conteúdo 100% autoral. Se entrarem questões transcritas de provas reais, reavaliar: material de

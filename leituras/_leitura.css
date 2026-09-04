@@ -42,3 +42,27 @@ strong,b{color:var(--ink)}
  padding:12px 18px;font-weight:600;cursor:pointer;margin-top:20px;text-decoration:none;min-height:44px}
 html[data-tema="escuro"] .vaiQuestoes{color:#0E1414}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* --- tabela de recomendação: classe e nível de evidência --- */
+.rec{width:100%;border-collapse:collapse;font-size:14.5px;margin:14px 0}
+.rec th{font-size:12.5px;color:var(--ink2);font-weight:600;text-align:left;padding:8px 10px;border-bottom:1px solid var(--linha)}
+.rec td{padding:10px;border-bottom:1px solid var(--linha);vertical-align:top}
+.rec td.c{width:1%;white-space:nowrap;text-align:center}
+.cls{display:inline-block;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:700;letter-spacing:.02em}
+.c1{background:var(--okSup);color:var(--ok)}
+.c2a{background:var(--brandSup);color:var(--brandInk)}
+.c2b{background:var(--sup2);color:var(--ink2)}
+.c3{background:var(--errSup);color:var(--err)}
+.niv{font-size:11.5px;color:var(--ink2);display:block;margin-top:3px}
+.legenda{font-size:12.5px;color:var(--ink2);margin:-6px 0 16px}
+/* --- passos numerados e caixa de dose --- */
+.passos{counter-reset:p;list-style:none;padding:0}
+.passos li{counter-increment:p;position:relative;padding:0 0 0 34px;margin:10px 0}
+.passos li::before{content:counter(p);position:absolute;left:0;top:1px;width:24px;height:24px;border-radius:50%;
+ background:var(--brand);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
+html[data-tema="escuro"] .passos li::before{color:#0E1414}
+@media (prefers-color-scheme:dark){html:not([data-tema="claro"]) .passos li::before{color:#0E1414}}
+.dose{background:var(--sup2);border:1px solid var(--linha);border-radius:10px;padding:12px 14px;margin:12px 0;font-size:14.5px}
+.dose b{display:block;margin-bottom:6px}
+h2{border-top:1px solid var(--linha);padding-top:22px}
+h2:first-of-type{border-top:0;padding-top:0}

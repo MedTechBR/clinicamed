@@ -1501,14 +1501,14 @@ window.BANCO=[
 "cenario": "amb",
 "comp": "tto",
 "nivel": "r2",
-"base": "Diretriz Brasileira de Hipertensão Arterial — Sociedade Brasileira de Cardiologia, 2025",
-"coment": "A diretriz brasileira reforçou o conceito de tratamento combinado desde o início, sobretudo em pressão a partir de 150/90 mmHg ou em pacientes de alto risco cardiovascular, com preferência pela combinação em dose fixa em comprimido único, que melhora adesão e acelera o controle. As mudanças de estilo de vida são recomendadas em todos os estágios e não competem com o fármaco: caminham junto. O cálculo do risco cardiovascular global é o que define a intensidade da intervenção e a urgência de iniciar medicação. O betabloqueador não é primeira escolha na ausência de indicação específica.",
+"base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025, capítulo 7 (tratamento medicamentoso)",
+"coment": "A diretriz brasileira de 2025 recomenda, com força FORTE, iniciar o tratamento da hipertensão com associação dupla de medicamentos em doses baixas, preferencialmente em comprimido único, para a MAIORIA dos pacientes — e não apenas nos de pressão mais alta. A monoterapia ficou com recomendação fraca e reservada a situações específicas: pressão de 130-139/80-89 mmHg com alto risco cardiovascular, hipertensão estágio 1 de baixo risco a critério médico, pacientes frágeis, muito idosos com 80 anos ou mais e hipotensão ortostática sintomática. As classes preferenciais são diurético tiazídico ou similar, inibidor da enzima conversora ou bloqueador do receptor, e bloqueador de canal de cálcio. A meta é pressão abaixo de 130/80 mmHg para todos os hipertensos, independentemente do risco cardiovascular ser baixo, moderado ou alto.",
 "porAlt": [
-"A monoterapia prolongada nesse patamar atrasa o controle e reduz adesão, sem vantagem sobre a combinação inicial.",
+"A monoterapia tem recomendação fraca e é reservada a perfis específicos — frágil, muito idoso, estágio 1 de baixo risco —, o que não é o caso deste paciente de alto risco.",
 "Adiar o fármaco por um ano em paciente de alto risco com estágio 2 deixa exposição pressórica acumulada sem necessidade.",
 "Três classes de saída não é o padrão inicial; a escalada para o terceiro fármaco vem se a meta não for alcançada.",
 "O betabloqueador entra por indicação própria, como coronariopatia ou arritmia, e não como primeira escolha isolada.",
-"Correta: pressão a partir de 150/90 mmHg ou alto risco indica começar já com duas classes, de preferência em comprimido único."
+"Correta: a diretriz brasileira de 2025 indica começar com associação dupla em doses baixas, de preferência em comprimido único, para a maioria dos pacientes."
 ]
 },
 {
