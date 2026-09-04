@@ -153,6 +153,22 @@ ASH 2020 (falciforme) · AGS Beers 2023 · Ministério da Saúde 2025 + Lei 15.2
 partir dos 40 anos — mudou em 2025, o conhecimento de modelo ainda diz 50 a 69) · nota técnica
 INCA 2023 (não rastreamento populacional de próstata).
 
+## Contestação de conteúdo (04/09/2026)
+Pedido do Matheus: o usuário que discorda de uma questão ou de uma leitura sinaliza, e aquilo chega
+ao e-mail do MedTech para ele e o Claude avaliarem.
+
+- Botão **"Discordo desta questão"** aparece no rodapé do feedback, depois de responder; **"Discordo"**
+  aparece na barra da leitura aberta.
+- O modal tem motivos **diferentes por tipo** (questão × leitura), texto obrigatório com pelo menos 10
+  caracteres e e-mail de contato opcional.
+- Envio por `mailto:` para **medtechbr1@gmail.com**, com o conteúdo INTEIRO no corpo — enunciado, as
+  cinco alternativas com o gabarito marcado, comentário, âncora, procedência e versão do app. Quem
+  revisa não precisa abrir o app para entender o caso.
+- **Cópia local sempre**: a contestação é gravada em `ST.contest` (chave `cm_contest`) antes de abrir
+  o e-mail, e listada em Ajustes com "Reabrir e-mail" e "Copiar". Sem backend, o `mailto:` pode não
+  abrir — e sem essa cópia a contestação se perderia em silêncio.
+- Contraste do modal auditado nos dois temas: 0 falhas.
+
 ## Biblioteca de fontes (04/09/2026)
 O Matheus deu acesso a `~/Documents/Livros/` — diretrizes em PDF e livros. O catálogo, com o que é
 âncora válida e **o que é referência antiga a não usar**, está em `docs/FONTES.md`. Regras:

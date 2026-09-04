@@ -120,6 +120,18 @@ body.lendo{padding-bottom:0}
 body.lendo main{padding-bottom:0}
 hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 .mini{font-size:12.5px;color:var(--ink2)}
+/* modal de contestação */
+.fundo{position:fixed;inset:0;background:rgba(10,8,8,.55);z-index:80;display:flex;align-items:flex-start;
+  justify-content:center;padding:18px;overflow-y:auto}
+.modal{background:var(--sup);border:1px solid var(--linha);border-radius:var(--r);max-width:620px;width:100%;
+  padding:18px;box-shadow:0 12px 40px rgba(0,0,0,.3);margin:auto}
+.modal h3{margin:0 0 4px}
+.modal label.cmp{margin-top:12px}
+.modal textarea{width:100%}
+.opcs{display:flex;flex-direction:column;gap:6px;margin-top:6px}
+.opcs label{display:flex;gap:9px;align-items:flex-start;background:var(--sup2);border:1px solid var(--linha);
+  border-radius:9px;padding:10px;cursor:pointer;font-size:14px}
+.opcs input{margin-top:2px}
 /* `.mini` é usada em dois papéis: texto auxiliar e modificador de botão (.bt.mini). Como as duas
    regras têm a mesma especificidade, a última vencia e pintava o texto do botão primário de cinza
    sobre o teal (1,23:1). As duas regras abaixo resolvem por especificidade, não por ordem. */
@@ -197,7 +209,7 @@ const UI={banner(tipo,msg,fixa){
 
 /* ---------- blindagem de armazenamento ----------
    load() que falha TRAVA a gravação da chave: melhor não salvar do que salvar vazio por cima. */
-const CHAVES=["resp","fav","flash","erros","cfg","sim","simativo","pos","treino","atividade","lidas"].map(k=>PREF+k);
+const CHAVES=["resp","fav","flash","erros","cfg","sim","simativo","pos","treino","atividade","lidas","contest"].map(k=>PREF+k);
 const ARM={
  db:null,travas:{},tsBackup:0,recuperado:null,persistOK:null,
  async boot(){
@@ -275,7 +287,7 @@ function carregaEstado(){ST={
   resp:ARM.load(PREF+"resp",{}), fav:ARM.load(PREF+"fav",{}), flash:ARM.load(PREF+"flash",{}),
   erros:ARM.load(PREF+"erros",[]), cfg:ARM.load(PREF+"cfg",{}), sim:ARM.load(PREF+"sim",[]),
   simativo:ARM.load(PREF+"simativo",null), pos:ARM.load(PREF+"pos",{}), treino:ARM.load(PREF+"treino",{}),
-  atividade:ARM.load(PREF+"atividade",{}), lidas:ARM.load(PREF+"lidas",{})
+  atividade:ARM.load(PREF+"atividade",{}), lidas:ARM.load(PREF+"lidas",{}), contest:ARM.load(PREF+"contest",[])
 }}
 const salva=(k,v)=>ARM.save(PREF+k,v);
 function atividade(n){const d=dataISO();ST.atividade[d]=(ST.atividade[d]||0)+n;salva("atividade",ST.atividade)}
@@ -355,6 +367,105 @@ function aplicaTema(){const t=ST.cfg.tema||"auto";
 }
 const temaEfetivo=()=>{const t=ST.cfg.tema||"auto";
   return t!=="auto"?t:(matchMedia("(prefers-color-scheme:dark)").matches?"escuro":"claro")};
+
+/* ================= contestação de conteúdo =================
+   O app não tem backend. A contestação abre o e-mail do MedTech já preenchido com TODO o contexto
+   (enunciado, alternativas, gabarito, âncora, versão) e guarda uma cópia local — assim, se o
+   cliente de e-mail não abrir, o texto continua recuperável e copiável em Ajustes. */
+const EMAIL_MEDTECH="medtechbr1@gmail.com";
+const MOTIVOS={
+ questão:[
+  ["gabarito","O gabarito está errado — a alternativa correta é outra"],
+  ["desatualizado","A conduta está desatualizada frente à diretriz vigente"],
+  ["comentario","O comentário ou a explicação de alguma alternativa está incorreta"],
+  ["ambiguo","O enunciado é ambíguo ou tem mais de uma resposta defensável"],
+  ["fonte","A fonte citada não sustenta o que está escrito"],
+  ["outro","Outro motivo"]],
+ leitura:[
+  ["erro","Há informação clinicamente incorreta no texto"],
+  ["desatualizado","O texto está desatualizado frente à diretriz vigente"],
+  ["fonte","A fonte citada não sustenta o que está escrito"],
+  ["incompleto","Falta um ponto importante, ou está superficial demais"],
+  ["confuso","O texto está confuso ou mal explicado neste trecho"],
+  ["outro","Outro motivo"]]
+};
+
+function contextoQuestao(q){
+  const t=TAX.find(x=>x.id===q.tema)||{};
+  return {tipo:"questão", ref:q._ch, area:t.nome||q.tema,
+    corpo:[`Questão (chave ${q._ch})`,`Área: ${t.nome||q.tema} · ${NCEN[q.cenario]||""} · ${NCOMP[q.comp]||""} · ${NNIV[q.nivel]||""}`,
+      "", "ENUNCIADO:", q.q, "", "ALTERNATIVAS:",
+      ...q.alts.map((a,i)=>`${LETRAS[i]}${i===q.gab?" (gabarito)":""}) ${a}`),
+      "", "COMENTÁRIO:", q.coment, "", `ÂNCORA: ${q.base}`,
+      q.fonte?`PROCEDÊNCIA: ${q.fonte.banca} ${q.fonte.ano}`:"PROCEDÊNCIA: autoral"].join("\n")};
+}
+function contextoLeitura(f){
+  const l=LEITURAS.find(x=>x.f===f)||{};
+  return {tipo:"leitura", ref:f, area:NOME[l.area]||l.area||"",
+    corpo:[`Leitura: ${l.t||f}`,`Arquivo: leituras/${f}`,`Fonte declarada: ${l.tipo||""}`,`Área: ${NOME[l.area]||l.area||""}`].join("\n")};
+}
+
+function abreContestacao(ctx){
+  const d=document.createElement("div"); d.className="fundo";
+  d.innerHTML=`<div class="modal" role="dialog" aria-modal="true">
+   <h3>Discordo deste conteúdo</h3>
+   <p class="mini">A mensagem vai para ${EMAIL_MEDTECH} com o conteúdo completo anexado no corpo, para revisão.
+    Uma cópia fica salva aqui no aparelho, em Ajustes, mesmo que o e-mail não abra.</p>
+   <div class="opcs">${(MOTIVOS[ctx.tipo]||MOTIVOS["questão"]).map(([v,n],i)=>
+     `<label><input type="radio" name="motivo" value="${v}"${i===0?" checked":""}><span>${esc(n)}</span></label>`).join("")}</div>
+   <label class="cmp">O que está errado, e o que deveria ser (quanto mais específico, melhor)
+    <textarea id="cTexto" placeholder="Ex.: a diretriz X de 2026 mudou esse corte para Y; a alternativa C também estaria correta porque…"></textarea></label>
+   <label class="cmp">Seu e-mail, se quiser resposta (opcional)
+    <input type="text" id="cEmail" placeholder="voce@exemplo.com"></label>
+   <hr>
+   <div class="linha">
+    <button class="bt" id="cEnviar">Enviar por e-mail</button>
+    <button class="bt sec" id="cCopiar">Copiar texto</button>
+    <button class="bt sec" id="cFechar" style="margin-left:auto">Cancelar</button>
+   </div>
+  </div>`;
+  document.body.appendChild(d);
+  const fecha=()=>d.remove();
+  d.onclick=e=>{if(e.target===d)fecha()};
+  $("#cFechar",d).onclick=fecha;
+
+  const monta=()=>{
+    const motivo=($("input[name=motivo]:checked",d)||{}).value||"outro";
+    const lista=MOTIVOS[ctx.tipo]||MOTIVOS["questão"];
+    const nomeMotivo=(lista.find(m=>m[0]===motivo)||[])[1]||motivo;
+    const texto=$("#cTexto",d).value.trim(), email=$("#cEmail",d).value.trim();
+    const assunto=`[ClínicaMed] Contestação de ${ctx.tipo} — ${ctx.area} — ${ctx.ref}`;
+    const corpo=[`Motivo: ${nomeMotivo}`,"",
+      "O QUE O USUÁRIO APONTA:", texto||"(não preenchido)","",
+      email?`Contato: ${email}`:"Contato: não informado","",
+      "————————————————————————","CONTEÚDO CONTESTADO","————————————————————————",
+      ctx.corpo,"","————————————————————————",
+      `App: ClínicaMed ${V} · ${new Date().toISOString().slice(0,16).replace("T"," ")}`].join("\n");
+    return {motivo,nomeMotivo,texto,email,assunto,corpo};
+  };
+  const guarda=m=>{
+    ST.contest.unshift({quando:new Date().toISOString(),tipo:ctx.tipo,ref:ctx.ref,area:ctx.area,
+      motivo:m.nomeMotivo,texto:m.texto,assunto:m.assunto,corpo:m.corpo});
+    if(ST.contest.length>60)ST.contest=ST.contest.slice(0,60);
+    salva("contest",ST.contest);
+  };
+  $("#cEnviar",d).onclick=()=>{
+    const m=monta();
+    if(m.texto.length<10)return UI.banner("avi","Escreva o que está errado — sem isso não dá para avaliar a contestação.");
+    guarda(m);
+    location.href=`mailto:${EMAIL_MEDTECH}?subject=${encodeURIComponent(m.assunto)}&body=${encodeURIComponent(m.corpo)}`;
+    fecha(); UI.banner("ok","Contestação registrada e e-mail aberto. A cópia fica em Ajustes.");
+  };
+  $("#cCopiar",d).onclick=async()=>{
+    const m=monta();
+    if(m.texto.length<10)return UI.banner("avi","Escreva o que está errado antes de copiar.");
+    guarda(m);
+    try{await navigator.clipboard.writeText(`Para: ${EMAIL_MEDTECH}\nAssunto: ${m.assunto}\n\n${m.corpo}`);
+      UI.banner("ok","Texto copiado. Cole em um e-mail para "+EMAIL_MEDTECH+".");
+    }catch(e){UI.banner("avi","Não consegui copiar; o texto está salvo em Ajustes.")}
+    fecha();
+  };
+}
 
 /* ================= aba QUESTÕES ================= */
 function filtroAtual(){const f=ST.pos.fq||{};return {area:f.area||"",cen:f.cen||"",comp:f.comp||"",niv:f.niv||"",modo:f.modo||"todas"}}
@@ -462,7 +573,12 @@ function responde(q,j,l,i){
    <div class="coment">
     <b>${ok?"Correta.":"Resposta correta: "+LETRAS[q.gab]+"."}</b> ${esc(q.coment)}
     <div class="base">Âncora: ${esc(q.base)}</div>
+   </div>
+   <div class="linha" style="margin-top:10px">
+    <button class="bt sec mini" id="btDiscordo">Discordo desta questão</button>
+    <span class="mini">Contestação vai para revisão no MedTech, com a questão inteira anexada.</span>
    </div>`;
+  $("#btDiscordo").onclick=()=>abreContestacao(contextoQuestao(q));
 }
 
 /* ================= aba SIMULADO ================= */
@@ -729,12 +845,14 @@ function pintaLeituras(){
      <div class="cx"><div class="linha">
        <button class="bt sec mini" id="fecharL">← voltar</button>
        <span class="mini">${esc(it?it.t:"")}</span>
-       <button class="bt mini" id="marcaL" style="margin-left:auto">${ST.lidas[aberta]?"✓ lida":"marcar como lida"}</button>
+       <button class="bt sec mini" id="discordoL" style="margin-left:auto">Discordo</button>
+       <button class="bt mini" id="marcaL">${ST.lidas[aberta]?"✓ lida":"marcar como lida"}</button>
      </div></div>
      <iframe class="quadro" id="quadroLeitura" src="leituras/${encodeURIComponent(aberta)}?tema=${temaEfetivo()}" title="${esc(it?it.t:"leitura")}"></iframe>`;
     document.body.classList.add("lendo");
     ajustaQuadro();addEventListener("resize",ajustaQuadro);
     $("#fecharL").onclick=()=>{ST.cfg.lendo=null;salva("cfg",ST.cfg);document.body.classList.remove("lendo");pintaLeituras()};
+    $("#discordoL").onclick=()=>abreContestacao(contextoLeitura(aberta));
     $("#marcaL").onclick=()=>{ST.lidas[aberta]=!ST.lidas[aberta];if(!ST.lidas[aberta])delete ST.lidas[aberta];
       salva("lidas",ST.lidas);atividade(2);pintaLeituras()};
     return;
@@ -900,6 +1018,16 @@ async function pintaAjustes(){
    <p class="mini" style="margin-top:12px">Armazenamento persistente: ${ARM.persistOK===true?"concedido pelo navegador":ARM.persistOK===false?"NÃO concedido — o navegador pode limpar os dados sob pressão de espaço":"desconhecido"}.</p>
   </div>
   <div class="cx">
+   <h3 style="margin:0 0 8px">Contestações que você enviou</h3>
+   <p class="mini">Toda vez que você discorda de uma questão ou de uma leitura, a mensagem vai para ${EMAIL_MEDTECH} e uma cópia integral fica aqui — útil se o e-mail não abriu ou se você quiser reenviar.</p>
+   ${ST.contest.length?ST.contest.slice(0,15).map((c,i)=>`
+     <details style="margin-top:8px"><summary>${esc(c.quando.slice(0,10))} · ${esc(c.tipo)} · ${esc(c.area||"")} — ${esc(c.motivo)}</summary>
+      <p class="mini" style="margin:8px 0">${esc(c.texto)}</p>
+      <div class="linha"><button class="bt sec mini" data-reenv="${i}">Reabrir e-mail</button>
+       <button class="bt sec mini" data-copiar="${i}">Copiar</button></div>
+     </details>`).join(""):`<p class="mini">Nenhuma contestação registrada.</p>`}
+  </div>
+  <div class="cx">
    <h3 style="margin:0 0 8px">Sobre</h3>
    <p class="mini">ClínicaMed ${V} · ${BANCO.length} questões · ${FLASH.length} cartões · ${PRATICA.length} estações · ${LEITURAS.filter(l=>l.f).length} leituras.
    Conteúdo autoral ancorado em diretriz com ano declarado. Nenhuma conduta aqui substitui a diretriz na fonte: em prova e em plantão, confira a versão vigente.</p>
@@ -926,6 +1054,11 @@ async function pintaAjustes(){
     ${bks.map(b=>`<tr><td>${esc(b.quando.replace("T"," ").slice(0,16))}</td><td>${esc(b.motivo)}</td><td>${b.n}</td>
       <td><button class="bt sec mini" data-bk="${b.id}">restaurar</button></td></tr>`).join("")}</table></div>`
     :`<p class="mini">Nenhum ponto de restauração ainda.</p>`;
+  $$("[data-reenv]").forEach(b=>b.onclick=()=>{const c=ST.contest[+b.dataset.reenv];
+    location.href=`mailto:${EMAIL_MEDTECH}?subject=${encodeURIComponent(c.assunto)}&body=${encodeURIComponent(c.corpo)}`});
+  $$("[data-copiar]").forEach(b=>b.onclick=async()=>{const c=ST.contest[+b.dataset.copiar];
+    try{await navigator.clipboard.writeText(`Para: ${EMAIL_MEDTECH}\nAssunto: ${c.assunto}\n\n${c.corpo}`);
+      UI.banner("ok","Copiado.")}catch(e){UI.banner("avi","Não consegui copiar neste navegador.")}});
   $$("[data-bk]").forEach(b=>b.onclick=async()=>{
     if(!confirm("Restaurar este ponto? O estado atual é salvo antes, como ponto de restauração."))return;
     const ok=await ARM.restaura(+b.dataset.bk);
