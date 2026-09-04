@@ -5,10 +5,10 @@
    "Não pode fazer, porque o rastreamento no país só começa a partir dos cinquenta anos de idade.",
    "Deve fazer obrigatoriamente todo ano, sem qualquer discussão prévia sobre danos do rastreamento.",
    "Só poderá fazer o exame caso apresente um nódulo palpável ao exame clínico feito na consulta.",
-   "Pode fazer o exame, decidindo com o profissional de saúde depois de discutir riscos e benefícios.",
-   "Deve ser encaminhada para ressonância de mamas, exame que substituiu a mamografia no rastreio."
+   "Deve ser encaminhada para ressonância de mamas, exame que substituiu a mamografia no rastreio.",
+   "Pode fazer o exame, decidindo com o profissional de saúde depois de discutir riscos e benefícios."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
@@ -19,20 +19,20 @@
    "O corte de cinquenta anos era a regra anterior; a diretriz de 2025 e a lei sancionada naquele ano ampliaram o acesso desde os 40.",
    "Rastreamento não é obrigação e a periodicidade anual nessa faixa não é o que a diretriz define — a decisão é compartilhada.",
    "Nódulo palpável não é rastreamento, é investigação diagnóstica: são situações distintas com condutas e prazos distintos.",
-   "Correta: a partir dos 40 anos o exame está disponível no SUS por decisão compartilhada, após discussão de riscos e benefícios.",
-   "A ressonância é reservada a situações específicas, como risco muito elevado, e não substituiu a mamografia no rastreamento."
+   "A ressonância é reservada a situações específicas, como risco muito elevado, e não substituiu a mamografia no rastreamento.",
+   "Correta: a partir dos 40 anos o exame está disponível no SUS por decisão compartilhada, após discussão de riscos e benefícios."
   ]
  },
  {
   "q": "Homem de 57 anos, assintomático, sem história familiar de neoplasia, chega ao ambulatório dizendo que viu uma campanha e quer 'fazer o exame da próstata'. Considerando o posicionamento do Ministério da Saúde e do INCA, qual é a conduta apropriada?",
   "alts": [
-   "Discutir riscos e benefícios e decidir com ele, já que não há rastreamento populacional recomendado.",
    "Solicitar de imediato PSA e toque retal, exames que compõem o rastreamento populacional oficial.",
    "Recusar qualquer investigação, pois o rastreamento é formalmente proibido em homens assintomáticos.",
    "Solicitar ressonância multiparamétrica de próstata como primeiro exame de rastreio nessa faixa etária.",
-   "Encaminhar direto ao urologista para biópsia prostática, independentemente de qualquer exame prévio."
+   "Encaminhar direto ao urologista para biópsia prostática, independentemente de qualquer exame prévio.",
+   "Discutir riscos e benefícios e decidir com ele, já que não há rastreamento populacional recomendado."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
@@ -40,11 +40,11 @@
   "base": "Nota técnica do Ministério da Saúde e do INCA, 2023 — não recomendação do rastreamento populacional do câncer de próstata",
   "coment": "O Ministério da Saúde e o INCA não recomendam o rastreamento populacional do câncer de próstata: os estudos não mostraram impacto relevante sobre a mortalidade e há dano documentado por sobrediagnóstico e sobretratamento, com incontinência e disfunção erétil. O que se orienta é a decisão compartilhada com o homem que procura o serviço solicitando o exame, após discussão franca de riscos e benefícios — posição diferente de proibir o exame. Note o contraste com o rastreamento de mama, que é organizado e recomendado por faixa etária; confundir os dois é erro frequente.",
   "porAlt": [
-   "Correta: não há rastreamento populacional recomendado, e a conduta é a decisão compartilhada com quem procura o serviço pedindo o exame.",
    "Não existe programa de rastreamento populacional de próstata no país, e solicitar de rotina contraria a nota técnica vigente.",
    "O posicionamento é de não recomendar o rastreamento organizado, e não de proibir o exame a quem decide fazê-lo após ser informado.",
    "A ressonância multiparamétrica tem papel na investigação de alterações já detectadas, e não como exame inicial de rastreamento.",
-   "Biópsia sem indicação prévia é conduta invasiva e injustificada em homem assintomático, sem exame nenhum que a fundamente."
+   "Biópsia sem indicação prévia é conduta invasiva e injustificada em homem assintomático, sem exame nenhum que a fundamente.",
+   "Correta: não há rastreamento populacional recomendado, e a conduta é a decisão compartilhada com quem procura o serviço pedindo o exame."
   ]
  }
 ]

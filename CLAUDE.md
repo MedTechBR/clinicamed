@@ -85,6 +85,10 @@ e mostra a matriz cenário × competência (lacuna ali costuma ser jeito de pens
   `lotes-questoes/leva*.json` inteiro para o `equilibra_gabarito.py`.
 - **Corrigir um tell de linguagem quebra o comprimento**: toda troca de redação reabre o viés de
   tamanho. `ajusta_alts.py` escolhe, entre variantes, a que cai na janela de 95–108%.
+- **Aba nova NÃO basta para testar o service worker**: se o SW já está registrado naquele origin,
+  ele continua servindo o banco velho em qualquer aba. Ao verificar mudança de conteúdo,
+  desregistrar (`getRegistrations().then(rs=>rs.map(r=>r.unregister()))`) e limpar `caches` antes
+  de recarregar — foi o que fez o app mostrar 42 questões depois de o banco já ter 48.
 
 ## Identidade visual — "Papel de ECG"
 Tirada do próprio assunto, não decorativa: papel quente com a grade milimetrada no cabeçalho, tinta
@@ -111,15 +115,15 @@ Auditoria de contraste por DOM: **0 falhas** nos 8 painéis × 2 temas (≥4,5:1
 4. `python3 monta_banco.py` e conferir "OK: nenhum erro duro".
 
 ## Estado do conteúdo (04/09/2026)
-- **42 questões** em 13 levas, 42 chaves únicas, **zero erros duros e zero avisos**.
-- Gabarito uniforme: A:9 B:9 C:8 D:8 E:8. Correta é a mais longa em 11,9%; folga mediana 1,1%.
-- Matrizes do edital: cenário amb 22 · emg 10 · enf 6 · uti 4; competência tto 20 · urg 8 · prev 8 ·
-  dx 6; nível r1 11 · r2 11 · r3 8 · título 12.
-- **13 das 18 áreas cobertas.** Ainda sem nenhuma questão, todas de baixo peso (12 pontos somados
-  dos 120): dermatologia, psiquiatria, oftalmologia, otorrinolaringologia e ginecologia/obstetrícia.
-- Cobertura ante o alvo (peso × 3): cardio 3/42 · emergências 4/36 · infecto 4/30 · pneumo 4/27 ·
-  gastro 4/27 · endócrino 3/24 · nefro 3/24 · neuro 3/24 · SUS 3/21 · hemato 3/18 · reumato 3/18 ·
-  geriatria 3/18 · onco 2/15.
+- **48 questões** em 15 levas, 48 chaves únicas, **zero erros duros e zero avisos**.
+- **As 18 áreas do conteúdo programático têm questão.** Nenhuma vazia.
+- Gabarito uniforme: A:10 B:10 C:10 D:9 E:9. Correta é a mais longa em 10,4%; folga mediana 1,1%.
+- Matrizes do edital: cenário amb 22 · emg 14 · enf 8 · uti 4; competência tto 21 · urg 13 · prev 8 ·
+  dx 6; nível r1 14 · r2 13 · título 13 · r3 8.
+- Verificado por DOM: simulado de 48 questões com **0 pares adjacentes do mesmo tema** e 12 temas
+  distintos nas 20 primeiras.
+- Todas as áreas seguem **abaixo do alvo** de peso × 3 (banco cheio = 360). As mais distantes são as
+  de maior peso: cardiologia 3/42, emergências 4/36, infectologia 4/30.
 - **0 questões de prova real** — o banco misto foi decidido, mas só a parte autoral existe hoje.
 - 18 cartões · 3 estações · 2 leituras (sepse e AVC).
 

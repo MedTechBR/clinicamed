@@ -3,12 +3,12 @@
   "q": "Homem de 58 anos com cirrose compensada por esteatose hepática metabólica tem elastografia hepática de 22 kPa e plaquetas de 118.000/mm³. Está assintomático, sem ascite ou encefalopatia, e a endoscopia recente não mostrou varizes esofágicas. Segundo o consenso vigente de hipertensão portal, qual é a conduta?",
   "alts": [
    "Não tratar e repetir a endoscopia em dois anos, já que sem varizes não há o que prevenir agora.",
-   "Iniciar carvedilol, indicado na hipertensão portal clinicamente significativa mesmo sem varizes.",
    "Indicar ligadura elástica profilática, procedimento que dispensa a terapia farmacológica dele.",
    "Iniciar propranolol quando surgirem varizes de médio calibre na próxima endoscopia de controle.",
-   "Solicitar medida direta do gradiente de pressão venosa hepática antes de qualquer intervenção."
+   "Solicitar medida direta do gradiente de pressão venosa hepática antes de qualquer intervenção.",
+   "Iniciar carvedilol, indicado na hipertensão portal clinicamente significativa mesmo sem varizes."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
@@ -17,22 +17,22 @@
   "coment": "O consenso de Baveno VII deslocou o alvo do tratamento: deixou de ser a variz e passou a ser a hipertensão portal clinicamente significativa, que a elastografia acima de 20 a 25 kPa com plaquetopenia permite presumir sem medir o gradiente. Nesse cenário indica-se betabloqueador não seletivo para prevenir descompensação — ascite, sangramento, encefalopatia —, com preferência pelo carvedilol na cirrose compensada, por reduzir mais a pressão portal graças ao bloqueio alfa-1 adicional. A conduta antiga, de só tratar quem já tem varizes de médio calibre, perde a janela em que a prevenção rende mais.",
   "porAlt": [
    "Esperar a variz aparecer desperdiça a fase em que o betabloqueador previne ascite e outras descompensações, não apenas o sangramento.",
-   "Correta: elastografia acima de 20 a 25 kPa com plaquetopenia presume hipertensão portal significativa, e o carvedilol previne descompensação.",
    "A ligadura profilática se aplica a varizes de risco já existentes, e este paciente sequer tem varizes na endoscopia recente.",
    "Amarrar o tratamento ao calibre da variz é a lógica anterior ao consenso, que passou a tratar a hipertensão portal em si.",
-   "A medida do gradiente é invasiva e dispensável quando os critérios não invasivos já bastam para presumir o diagnóstico."
+   "A medida do gradiente é invasiva e dispensável quando os critérios não invasivos já bastam para presumir o diagnóstico.",
+   "Correta: elastografia acima de 20 a 25 kPa com plaquetopenia presume hipertensão portal significativa, e o carvedilol previne descompensação."
   ]
  },
  {
   "q": "Mulher de 61 anos com cirrose alcoólica teve hemorragia digestiva por varizes esofágicas, tratada com ligadura elástica e vasoconstritor esplâncnico, com controle do sangramento. Está estável, sem ascite volumosa, com pressão de 118/72 mmHg e frequência de 76 bpm. Qual é a profilaxia secundária indicada na alta?",
   "alts": [
    "Somente inibidor de bomba de prótons em dose dobrada, por tempo indefinido após a alta.",
+   "Betabloqueador não seletivo somado à ligadura seriada até erradicar todas as varizes.",
    "Manter só a ligadura elástica, sem betabloqueador, preservando a perfusão hepática.",
    "Anastomose portossistêmica intra-hepática eletiva logo após o primeiro sangramento.",
-   "Betabloqueador não seletivo somado à ligadura seriada até erradicar todas as varizes.",
    "Betabloqueador isolado, dispensando quaisquer novas sessões endoscópicas adiante."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
@@ -41,9 +41,9 @@
   "coment": "Depois de um episódio de hemorragia varicosa, o risco de ressangramento sem profilaxia chega a 60% em um ano, com mortalidade alta. A primeira linha da profilaxia secundária é a terapia combinada: betabloqueador não seletivo, com preferência ao carvedilol pela maior redução da pressão portal, somado a sessões de ligadura elástica até a erradicação das varizes. Nenhuma das duas isolada iguala a combinação. O inibidor de bomba tem papel limitado no pós-ligadura, para úlcera da banda, e não previne ressangramento varicoso. A derivação portossistêmica fica reservada a falha da profilaxia combinada ou a critérios de alto risco definidos.",
   "porAlt": [
    "O inibidor de bomba não previne ressangramento varicoso; seu papel se restringe à úlcera pós-ligadura e por período curto.",
+   "Correta: a primeira linha é a combinação de betabloqueador não seletivo com ligadura elástica seriada até erradicar as varizes.",
    "A ligadura isolada é inferior à combinação, porque não reduz a pressão portal que gera as varizes que voltarão a se formar.",
    "A derivação eletiva não é conduta universal após o primeiro episódio: fica para falha da profilaxia ou critérios de alto risco.",
-   "Correta: a primeira linha é a combinação de betabloqueador não seletivo com ligadura elástica seriada até erradicar as varizes.",
    "O betabloqueador isolado deixa de erradicar as varizes existentes e é inferior à combinação na prevenção de novo sangramento."
   ]
  },
@@ -51,12 +51,12 @@
   "q": "Homem de 55 anos com cirrose chega à emergência com hematêmese. Está com pressão de 104/64 mmHg, frequência de 98 bpm, sem dor torácica e sem doença coronária conhecida. A hemoglobina inicial é de 7,4 g/dL e o sangramento parece controlado após a estabilização inicial. Qual é a estratégia transfusional adequada?",
   "alts": [
    "Estratégia liberal, transfundindo até que a hemoglobina alcance a faixa de 10 a 11 g/dL.",
-   "Estratégia restritiva, transfundindo com alvo de hemoglobina em torno de 7 a 8 g/dL.",
    "Não transfundir em nenhuma hipótese enquanto houver sangramento digestivo em atividade.",
+   "Estratégia restritiva, transfundindo com alvo de hemoglobina em torno de 7 a 8 g/dL.",
    "Transfundir plasma fresco para corrigir o tempo de protrombina alargado à admissão.",
    "Transfundir concentrado de plaquetas já à admissão, mesmo com plaquetas acima de 50.000."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "urg",
@@ -65,8 +65,8 @@
   "coment": "A estratégia restritiva é recomendada na hemorragia digestiva do cirrótico, com alvo de hemoglobina em torno de 7 a 8 g/dL. O motivo é fisiopatológico e foi demonstrado em ensaio clínico: transfundir de forma liberal eleva a volemia e, com ela, a pressão portal, aumentando ressangramento e mortalidade. O alvo deve ser individualizado em pacientes com doença cardiovascular. A correção rotineira do tempo de protrombina com plasma fresco não é recomendada — o alargamento no cirrótico não reflete tendência a sangrar, porque há redução equilibrada de fatores pró e anticoagulantes, e o volume infundido eleva a pressão portal.",
   "porAlt": [
    "A estratégia liberal aumenta a volemia e a pressão portal, com mais ressangramento e mortalidade — foi abandonada por ensaio clínico.",
-   "Correta: o alvo restritivo de 7 a 8 g/dL reduz ressangramento e mortalidade por evitar a elevação da pressão portal.",
    "Não transfundir de forma alguma é o extremo oposto e igualmente errado: existe alvo, e ele orienta quando transfundir.",
+   "Correta: o alvo restritivo de 7 a 8 g/dL reduz ressangramento e mortalidade por evitar a elevação da pressão portal.",
    "O alargamento do tempo de protrombina no cirrótico não prediz sangramento, e o plasma de rotina só acrescenta volume e pressão portal.",
    "A transfusão de plaquetas com contagem acima de 50.000 não é indicada de rotina e não melhora o controle do sangramento."
   ]
@@ -74,13 +74,13 @@
  {
   "q": "Mulher de 67 anos com cirrose e ascite é internada por dor abdominal difusa e febre. A paracentese diagnóstica mostra 620 neutrófilos/mm³ no líquido ascítico, com cultura em andamento. A creatinina é de 1,4 mg/dL e a bilirrubina de 3,2 mg/dL. Além do antimicrobiano, qual medida reduz mortalidade nesse quadro?",
   "alts": [
-   "Albumina endovenosa, 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro dia de tratamento.",
    "Furosemida endovenosa em dose alta, para acelerar a resolução da ascite da paciente.",
    "Paracentese de alívio diária até secar completamente a ascite ao longo da internação atual.",
    "Betabloqueador não seletivo em dose plena iniciado no mesmo dia do diagnóstico da infecção.",
-   "Restrição hídrica intensa, limitando a oferta a menos de 500 mL em vinte e quatro horas."
+   "Restrição hídrica intensa, limitando a oferta a menos de 500 mL em vinte e quatro horas.",
+   "Albumina endovenosa, 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro dia de tratamento."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
@@ -88,11 +88,11 @@
   "base": "EASL 2018 — Clinical Practice Guidelines for the management of patients with decompensated cirrhosis",
   "coment": "Contagem de neutrófilos igual ou superior a 250/mm³ no líquido ascítico fecha o diagnóstico de peritonite bacteriana espontânea, mesmo antes da cultura. Além da cefalosporina de terceira geração, a albumina endovenosa em 1,5 g/kg no dia do diagnóstico e 1,0 g/kg no terceiro dia reduz a incidência de síndrome hepatorrenal e a mortalidade, com benefício maior em quem já tem creatinina ou bilirrubina elevadas — o caso descrito. Diuréticos devem ser suspensos na vigência de injúria renal, e o betabloqueador é evitado ou suspenso em quem tem instabilidade, ascite refratária ou infecção grave.",
   "porAlt": [
-   "Correta: albumina em 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro reduz síndrome hepatorrenal e mortalidade nesse cenário.",
    "Diurético em dose alta durante infecção com creatinina elevada precipita injúria renal; o correto costuma ser suspender, não intensificar.",
    "Paracentese de repetição não trata a infecção e a retirada agressiva de volume agrava a disfunção circulatória do cirrótico.",
    "O betabloqueador deve ser evitado ou suspenso durante infecção grave e instabilidade, e não iniciado em dose plena nesse momento.",
-   "Restrição hídrica intensa não integra o tratamento da peritonite e piora a perfusão renal já ameaçada pela infecção."
+   "Restrição hídrica intensa não integra o tratamento da peritonite e piora a perfusão renal já ameaçada pela infecção.",
+   "Correta: albumina em 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro reduz síndrome hepatorrenal e mortalidade nesse cenário."
   ]
  }
 ]

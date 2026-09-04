@@ -3,12 +3,12 @@ window.BANCO=[
 "q": "Homem de 68 anos, hipertenso e diabético em uso de metformina, procura o ambulatório com palpitações há três semanas. O eletrocardiograma mostra fibrilação atrial. Não há histórico de acidente vascular cerebral, insuficiência cardíaca ou doença arterial periférica. Qual é a conduta antitrombótica indicada pela diretriz vigente?",
 "alts": [
 "Ácido acetilsalicílico em dose baixa agora, deixando o anticoagulante para depois do primeiro AVC.",
-"Nenhum antitrombótico neste momento, já que o escore só indica tratamento a partir dos 75 anos.",
 "Anticoagulação oral plena desde já: todo escore CHA₂DS₂-VA de dois ou mais manda anticoagular.",
+"Nenhum antitrombótico neste momento, já que o escore só indica tratamento a partir dos 75 anos.",
 "Anticoagular somente se o ecocardiograma transesofágico revelar trombo no apêndice atrial esquerdo.",
 "Dupla antiagregação com ácido acetilsalicílico e clopidogrel, que substitui a anticoagulação aqui."
 ],
-"gab": 2,
+"gab": 1,
 "tema": "cardio",
 "cenario": "amb",
 "comp": "tto",
@@ -17,8 +17,8 @@ window.BANCO=[
 "coment": "A diretriz europeia de 2024 substituiu o CHA₂DS₂-VASc pelo CHA₂DS₂-VA: o ponto atribuído ao sexo feminino saiu do escore, que passou a ter máximo de 8. Aqui somam-se idade entre 65 e 74 anos (1), hipertensão (1) e diabetes (1) = 3 pontos. Com escore ≥2 a anticoagulação oral é recomendação classe I, com preferência pelos anticoagulantes orais diretos sobre a varfarina em pacientes sem estenose mitral moderada a grave ou prótese mecânica. O antiagregante plaquetário não tem papel na profilaxia de embolia na fibrilação atrial: não reduz AVC de forma comparável e mantém risco de sangramento.",
 "porAlt": [
 "O AAS foi abandonado na profilaxia de embolia da fibrilação atrial — é muito menos eficaz que o anticoagulante e não é opção mais segura.",
-"A idade entre 65 e 74 anos já pontua 1; somada a hipertensão e diabetes, ultrapassa o limiar de 2 pontos. Esperar os 75 anos custa AVC evitável.",
 "Correta: três pontos no CHA₂DS₂-VA (idade 65–74, hipertensão e diabetes) colocam o paciente na recomendação classe I de anticoagulação oral.",
+"A idade entre 65 e 74 anos já pontua 1; somada a hipertensão e diabetes, ultrapassa o limiar de 2 pontos. Esperar os 75 anos custa AVC evitável.",
 "Trombo no apêndice não é pré-requisito para anticoagular: o escore clínico é que define a indicação, e o eco negativo não exclui risco embólico.",
 "A dupla antiagregação soma sangramento sem oferecer a proteção do anticoagulante; só entra em situações específicas de doença coronária, e por tempo limitado."
 ]
@@ -27,12 +27,12 @@ window.BANCO=[
 "q": "Mulher de 72 anos com fibrilação atrial permanente e escore CHA₂DS₂-VA de 4 pontos usa rivaroxabana. Chega à emergência com hematêmese e queda de 3 g/dL na hemoglobina, pressão arterial de 92/60 mmHg e frequência de 110 bpm. Tomou a última dose há seis horas. Qual é a prioridade imediata do atendimento?",
 "alts": [
 "Aplicar vitamina K endovenosa em dose máxima, que reverte o efeito anticoagulante da rivaroxabana.",
-"Suspender o anticoagulante e estabilizar a paciente, acionando a endoscopia digestiva alta de urgência.",
 "Transfundir plaquetas antes de qualquer procedimento, pois o fármaco age inibindo a agregação delas.",
 "Manter a anticoagulação sem alteração, já que interrompê-la implica risco proibitivo de AVC agora.",
+"Suspender o anticoagulante e estabilizar a paciente, acionando a endoscopia digestiva alta de urgência.",
 "Solicitar a dosagem do INR e adiar a endoscopia até que o resultado desse exame esteja abaixo de 1,5."
 ],
-"gab": 1,
+"gab": 3,
 "tema": "cardio",
 "cenario": "emg",
 "comp": "urg",
@@ -41,9 +41,9 @@ window.BANCO=[
 "coment": "Diante de sangramento maior em uso de anticoagulante oral direto, a sequência é suspender o fármaco, ressuscitar volemicamente, transfundir conforme alvo restritivo e controlar a fonte — aqui, endoscopia digestiva alta em até 24 horas, antecipada quando há instabilidade. A vitamina K reverte antagonistas da vitamina K, não inibidores diretos do fator Xa; para estes existe agente específico (andexanete alfa) ou, na indisponibilidade, complexo protrombínico. Como a rivaroxabana tem meia-vida curta, a suspensão já reduz o efeito em poucas horas. O INR não mede de forma confiável o efeito dos anticoagulantes diretos.",
 "porAlt": [
 "A vitamina K só reverte antagonistas da vitamina K, como a varfarina; não tem qualquer efeito sobre inibidores diretos do fator Xa.",
-"Correta: suspender o anticoagulante, ressuscitar e levar à endoscopia é a sequência do sangramento maior com instabilidade hemodinâmica.",
 "A rivaroxabana inibe o fator Xa e não a função plaquetária; transfundir plaquetas sem plaquetopenia não corrige a coagulopatia do caso.",
 "Sangramento maior com hipotensão obriga a suspender o anticoagulante; o risco tromboembólico de dias sem droga é bem menor que o da hemorragia.",
+"Correta: suspender o anticoagulante, ressuscitar e levar à endoscopia é a sequência do sangramento maior com instabilidade hemodinâmica.",
 "O INR não afere o efeito dos anticoagulantes diretos, e esperar o exame só atrasa o controle endoscópico da fonte do sangramento."
 ]
 },
@@ -77,10 +77,10 @@ window.BANCO=[
 "Ofertar oxigênio sob máscara com reservatório a 15 L/min para manter a saturação acima de 98% agora.",
 "Ofertar oxigênio por cateter nasal a 3 L/min de rotina em toda crise asmática atendida no setor.",
 "Indicar ventilação não invasiva imediatamente, antes mesmo da segunda série de broncodilatador.",
-"Ofertar oxigênio apenas se a gasometria arterial mostrar pressão parcial de oxigênio menor que 80.",
-"Não ofertar oxigênio suplementar: só se indica a oferta quando a saturação cai abaixo do limiar."
+"Não ofertar oxigênio suplementar: só se indica a oferta quando a saturação cai abaixo do limiar.",
+"Ofertar oxigênio apenas se a gasometria arterial mostrar pressão parcial de oxigênio menor que 80."
 ],
-"gab": 4,
+"gab": 3,
 "tema": "pneumo",
 "cenario": "emg",
 "comp": "urg",
@@ -91,20 +91,20 @@ window.BANCO=[
 "Máscara com reservatório a alto fluxo produz hiperóxia, que na crise asmática piora a troca gasosa e pode elevar a pressão de dióxido de carbono.",
 "Oxigênio de rotina em toda crise foi justamente a prática que a diretriz passou a desaconselhar, por não trazer benefício e acrescentar risco.",
 "A ventilação não invasiva não é passo inicial da crise asmática; a prioridade é broncodilatador em série e corticoide sistêmico precoce.",
-"A gasometria arterial não é exigida para decidir oxigenoterapia na crise; a oximetria de pulso guia a indicação e o alvo de saturação.",
-"Correta: com saturação de 94% a paciente já está na faixa-alvo, e o GINA 2026 só indica oxigênio quando a saturação cai abaixo de 92%."
+"Correta: com saturação de 94% a paciente já está na faixa-alvo, e o GINA 2026 só indica oxigênio quando a saturação cai abaixo de 92%.",
+"A gasometria arterial não é exigida para decidir oxigenoterapia na crise; a oximetria de pulso guia a indicação e o alvo de saturação."
 ]
 },
 {
 "q": "Homem de 26 anos, asmático, é atendido minutos após comer camarão em uma festa. Apresenta sibilância difusa, edema de lábios, urticária no tronco e pressão arterial de 84/50 mmHg. Já está em uso de sua bombinha de resgate sem melhora. Qual é a primeira medida a ser tomada?",
 "alts": [
-"Adrenalina intramuscular na face lateral da coxa, antes de repetir o broncodilatador inalatório.",
 "Salbutamol inalatório em série contínua, deixando a adrenalina para caso não haja resposta em 20 min.",
+"Adrenalina intramuscular na face lateral da coxa, antes de repetir o broncodilatador inalatório.",
 "Corticoide endovenoso em dose alta, que reverte com rapidez o broncoespasmo e a hipotensão do caso.",
 "Anti-histamínico endovenoso associado a expansão volêmica, adiando a adrenalina para a sala vermelha.",
 "Intubação orotraqueal imediata, pois a via aérea está inevitavelmente perdida nesse tipo de quadro."
 ],
-"gab": 0,
+"gab": 1,
 "tema": "pneumo",
 "cenario": "emg",
 "comp": "urg",
@@ -112,8 +112,8 @@ window.BANCO=[
 "base": "GINA 2026 — recomendação nova sobre asma com achados de anafilaxia (adrenalina antes do broncodilatador)",
 "coment": "O GINA 2026 acrescentou uma recomendação específica para o cenário em que o paciente se apresenta com achados de anafilaxia e de asma ao mesmo tempo: dá-se primeiro a adrenalina e só depois os broncodilatadores. O caso reúne exposição a alérgeno, acometimento cutâneo-mucoso, broncoespasmo e hipotensão — anafilaxia por definição. A adrenalina intramuscular na face anterolateral da coxa é a única medida que atua nos três eixos do quadro: broncodilatação, vasoconstrição e estabilização do mastócito. Corticoide e anti-histamínico são adjuvantes e não substituem nem justificam adiar a adrenalina.",
 "porAlt": [
-"Correta: diante de anafilaxia com asma, o GINA 2026 orienta administrar a adrenalina primeiro e só então os broncodilatadores inalatórios.",
 "O beta-agonista trata o broncoespasmo, mas não reverte a hipotensão nem o edema de via aérea; adiar a adrenalina é a principal causa de morte evitável.",
+"Correta: diante de anafilaxia com asma, o GINA 2026 orienta administrar a adrenalina primeiro e só então os broncodilatadores inalatórios.",
 "O corticoide leva horas para agir e não tem efeito vasopressor; ele previne a reação bifásica, mas nunca é a primeira medida da anafilaxia.",
 "O anti-histamínico age apenas na urticária e no prurido; usá-lo como medida inicial atrasa a única droga que muda o desfecho do quadro.",
 "A intubação precoce sem tentativa de adrenalina é desnecessária na maioria dos casos e pode se tornar via aérea difícil pelo próprio edema."
@@ -122,13 +122,13 @@ window.BANCO=[
 {
 "q": "Homem de 67 anos com DPOC usa broncodilatador de ação longa duplo (LABA associado a LAMA). No último ano teve uma exacerbação moderada, tratada com corticoide oral em domicílio, sem internação. Está com dispneia mMRC 2 e contagem de eosinófilos sanguíneos de 340 células/µL. Segundo a versão vigente do relatório GOLD, qual é a conduta?",
 "alts": [
-"Escalonar para terapia tripla com corticoide inalatório: qualquer exacerbação moderada já basta.",
 "Manter o esquema atual, porque só duas ou mais exacerbações moderadas justificariam escalonar hoje.",
+"Escalonar para terapia tripla com corticoide inalatório: qualquer exacerbação moderada já basta.",
 "Trocar a dupla broncodilatação por corticoide inalatório associado a beta-agonista de longa ação.",
 "Suspender o LAMA e manter apenas o LABA, reduzindo o risco de eventos adversos anticolinérgicos.",
 "Iniciar azitromicina em dose baixa por doze meses antes de considerar qualquer ajuste do inalatório."
 ],
-"gab": 0,
+"gab": 1,
 "tema": "pneumo",
 "cenario": "amb",
 "comp": "tto",
@@ -136,8 +136,8 @@ window.BANCO=[
 "base": "GOLD 2026 — Global Strategy for Diagnosis, Management and Prevention of COPD (limiar de uma exacerbação moderada)",
 "coment": "O relatório GOLD de 2026 baixou o limiar para escalonamento: passou a recomendar intensificar o tratamento já após uma única exacerbação moderada, dentro do conceito de reduzir a atividade da doença — meta de nenhuma exacerbação, nenhuma piora de sintomas e nenhuma perda acelerada de função pulmonar. A escolha do corticoide inalatório é guiada por biomarcador: eosinófilos acima de 300 células/µL predizem boa resposta e sustentam a tripla terapia. Retirar broncodilatador ou substituir a dupla broncodilatação por corticoide com beta-agonista contraria a lógica de manter a base broncodilatadora.",
 "porAlt": [
-"Correta: o GOLD 2026 recomenda escalonar após uma exacerbação moderada, e a eosinofilia de 340 células/µL sustenta acrescentar o corticoide inalatório.",
 "O limiar de duas exacerbações pertence a versões anteriores do relatório; manter a conduta aqui deixa passar uma janela de prevenção já sinalizada.",
+"Correta: o GOLD 2026 recomenda escalonar após uma exacerbação moderada, e a eosinofilia de 340 células/µL sustenta acrescentar o corticoide inalatório.",
 "Retirar o antimuscarínico de longa ação piora a broncodilatação de base; o corticoide entra somado à dupla, e não no lugar de um dos broncodilatadores.",
 "O LAMA é peça central da prevenção de exacerbação na DPOC, e efeitos anticolinérgicos relevantes são incomuns nas doses inalatórias usuais.",
 "A azitromicina profilática é opção de exceção, para exacerbadores apesar de terapia inalatória otimizada, e traz risco cardíaco e de resistência."
@@ -146,13 +146,13 @@ window.BANCO=[
 {
 "q": "Homem de 54 anos com DPOC moderada, ex-tabagista, comparece à consulta de rotina para atualizar o calendário vacinal. Já recebeu as vacinas contra influenza e pneumococo neste ciclo. Pergunta se existe algo mais indicado para a sua doença pulmonar. Segundo o relatório GOLD vigente, o que se recomenda quanto à vacina contra o vírus sincicial respiratório?",
 "alts": [
+"Indicá-la agora, porque a recomendação passou a valer a partir dos 50 anos nesse grupo de pacientes.",
 "Adiar a indicação até os 60 anos, faixa etária em que a vacina permanece recomendada atualmente.",
 "Restringir a vacina aos pacientes com oxigenoterapia domiciliar contínua ou VEF₁ abaixo de trinta.",
 "Considerá-la somente após duas internações por exacerbação ocorridas dentro do mesmo ano civil.",
-"Indicá-la agora, porque a recomendação passou a valer a partir dos 50 anos nesse grupo de pacientes.",
 "Dispensar a vacina, uma vez que a proteção da influenza cobre também o vírus sincicial respiratório."
 ],
-"gab": 3,
+"gab": 0,
 "tema": "pneumo",
 "cenario": "amb",
 "comp": "prev",
@@ -160,10 +160,10 @@ window.BANCO=[
 "base": "GOLD 2026 — atualização da recomendação de vacina contra VSR (idade reduzida de 60 para 50 anos)",
 "coment": "Entre as mudanças do relatório GOLD de 2026 está a redução da idade recomendada para a vacina contra o vírus sincicial respiratório em pacientes com DPOC: passou de 60 para 50 anos. A justificativa é o peso do VSR como causa de exacerbação e de hospitalização nesse grupo, com carga de doença comparável à da influenza em adultos com doença pulmonar crônica. As vacinas são imunologicamente distintas e não há proteção cruzada entre influenza e VSR. Não há exigência de gravidade funcional, de oxigenoterapia ou de número prévio de internações para indicar a vacinação.",
 "porAlt": [
+"Correta: o GOLD 2026 reduziu para 50 anos a idade a partir da qual a vacina contra o VSR é recomendada em pacientes com DPOC.",
 "A faixa dos 60 anos era a da versão anterior do relatório; manter esse corte deixa sem proteção uma década inteira de pacientes de risco.",
 "A recomendação é etária e não depende de oxigenoterapia domiciliar nem de um valor específico de VEF₁ para ser aplicada ao paciente.",
 "Não se exige histórico de internação para vacinar: a indicação é preventiva e antecede o evento que se pretende justamente evitar.",
-"Correta: o GOLD 2026 reduziu para 50 anos a idade a partir da qual a vacina contra o VSR é recomendada em pacientes com DPOC.",
 "São vacinas contra vírus distintos, sem proteção cruzada; a imunização contra influenza não confere qualquer cobertura contra o VSR."
 ]
 },
@@ -195,12 +195,12 @@ window.BANCO=[
 "q": "Paciente de 61 anos internado em UTI com choque séptico por pneumonia recebeu a dose de ataque de piperacilina-tazobactam. A equipe discute como programar as doses de manutenção nas próximas 48 horas. Considerando a diretriz de sepse vigente, qual estratégia é recomendada?",
 "alts": [
 "Manter todas as doses em bolus rápido de trinta minutos, esquema que apresenta a melhor evidência.",
+"Fazer a manutenção do betalactâmico em infusão prolongada, depois da dose de ataque já administrada.",
 "Espaçar as doses para uma vez ao dia, aproveitando o efeito pós-antibiótico próprio dos betalactâmicos.",
 "Trocar por um aminoglicosídeo em dose única diária, cuja ação depende do pico sérico alcançado.",
-"Fazer a manutenção do betalactâmico em infusão prolongada, depois da dose de ataque já administrada.",
 "Suspender o antimicrobiano por 24 horas para colher novas culturas em vigência de janela terapêutica."
 ],
-"gab": 3,
+"gab": 1,
 "tema": "emergencias",
 "cenario": "uti",
 "comp": "tto",
@@ -209,22 +209,22 @@ window.BANCO=[
 "coment": "Entre as novidades da diretriz de 2026 está a recomendação, e não mais apenas sugestão, de usar infusão prolongada de betalactâmicos na manutenção, após o bolus inicial, em vez da infusão convencional. O racional é farmacodinâmico: a eficácia dos betalactâmicos depende do tempo em que a concentração livre permanece acima da concentração inibitória mínima, e a infusão estendida amplia esse intervalo, sobretudo em patógenos com CIM elevada e em pacientes com volume de distribuição aumentado. A dose de ataque continua sendo em bolus, para atingir depressa a concentração-alvo. Suspender antimicrobiano em choque séptico para colher cultura é conduta perigosa.",
 "porAlt": [
 "O bolus convencional na manutenção deixa vales abaixo da concentração inibitória mínima, justamente o que a infusão estendida vem corrigir.",
+"Correta: a diretriz de 2026 recomenda infusão prolongada dos betalactâmicos na manutenção, mantendo o bolus apenas para a dose de ataque.",
 "Betalactâmicos praticamente não têm efeito pós-antibiótico contra bacilos gram-negativos, de modo que espaçar as doses reduz a eficácia.",
 "O aminoglicosídeo tem morte bacteriana dependente de pico, mas não substitui o betalactâmico como terapia principal na pneumonia grave.",
-"Correta: a diretriz de 2026 recomenda infusão prolongada dos betalactâmicos na manutenção, mantendo o bolus apenas para a dose de ataque.",
 "Suspender o antimicrobiano em vigência de choque séptico para colher cultura aumenta mortalidade e não tem respaldo em nenhuma diretriz."
 ]
 },
 {
 "q": "Mulher de 45 anos com sepse abdominal recebeu 30 mL/kg de cristaloide nas primeiras três horas. Está com pressão arterial média de 68 mmHg sem vasopressor, perfusão periférica adequada e diurese preservada, mas o lactato permanece em 3,2 mmol/L, com valor anterior de 4,0. Qual é a conduta correta quanto à reposição volêmica?",
 "alts": [
+"Individualizar a reposição após o bolus inicial, sem infundir volume apenas para baixar o lactato.",
 "Infundir cristaloide em bolus repetidos até que o lactato sérico fique abaixo de 2,0 mmol/L no exame.",
 "Trocar todo o cristaloide restante por albumina a 20%, que corrige o lactato de forma mais rápida.",
 "Iniciar transfusão de concentrado de hemácias para melhorar o transporte de oxigênio e o lactato.",
-"Suspender qualquer reavaliação do lactato, já que o exame não guia a ressuscitação da sepse hoje.",
-"Individualizar a reposição após o bolus inicial, sem infundir volume apenas para baixar o lactato."
+"Suspender qualquer reavaliação do lactato, já que o exame não guia a ressuscitação da sepse hoje."
 ],
-"gab": 4,
+"gab": 0,
 "tema": "emergencias",
 "cenario": "emg",
 "comp": "tto",
@@ -232,23 +232,23 @@ window.BANCO=[
 "base": "Surviving Sepsis Campaign 2026 — lactato seriado e individualização da fluidoterapia após o bolus inicial",
 "coment": "A diretriz de 2026 sugere medidas seriadas de lactato para guiar a ressuscitação, mas foi explícita ao separar duas coisas que costumavam ser confundidas: acompanhar a tendência do lactato não significa infundir volume até que ele normalize. Depois do bolus inicial, a administração de fluidos deve ser individualizada, guiada por resposta hemodinâmica e por marcadores de perfusão, porque a hiperidratação piora desfechos. A paciente está com pressão adequada sem vasopressor, perfusão satisfatória e lactato em queda: a tendência já é favorável e o excesso de volume traria edema pulmonar, edema intestinal e disfunção renal.",
 "porAlt": [
+"Correta: após o bolus inicial a fluidoterapia é individualizada, e a diretriz desaconselha infundir volume apenas para normalizar o lactato.",
 "Perseguir lactato abaixo de 2,0 mmol/L com bolus repetidos leva a sobrecarga hídrica, com piora de troca gasosa e de função renal.",
 "A albumina é alternativa em pacientes que já receberam grande volume de cristaloide, e não um agente que corrija o lactato mais depressa.",
 "Transfundir sem anemia significativa não melhora a perfusão tecidual e expõe a paciente aos riscos próprios da transfusão sanguínea.",
-"O lactato seriado continua sugerido como ferramenta de acompanhamento; o que a diretriz nega é usá-lo como meta de infusão de volume.",
-"Correta: após o bolus inicial a fluidoterapia é individualizada, e a diretriz desaconselha infundir volume apenas para normalizar o lactato."
+"O lactato seriado continua sugerido como ferramenta de acompanhamento; o que a diretriz nega é usá-lo como meta de infusão de volume."
 ]
 },
 {
 "q": "Homem de 58 anos com choque séptico iniciou meropeném associado a vancomicina empiricamente. No terceiro dia, está estável, sem vasopressor, e a hemocultura identifica Escherichia coli sensível a ceftriaxona. As culturas de vigilância não mostram germe resistente. Qual é a conduta recomendada quanto ao esquema antimicrobiano?",
 "alts": [
+"Descalonar o esquema para ceftriaxona, guiando-se pelo agente isolado e pelo perfil de sensibilidade.",
 "Manter meropeném e vancomicina até completar catorze dias, para não arriscar a recidiva da infecção.",
 "Acrescentar um aminoglicosídeo ao esquema atual, buscando sinergismo contra o bacilo gram-negativo.",
-"Descalonar o esquema para ceftriaxona, guiando-se pelo agente isolado e pelo perfil de sensibilidade.",
 "Suspender de imediato todo antimicrobiano, uma vez que o paciente já se encontra clinicamente estável.",
 "Trocar a vancomicina por daptomicina e conservar o carbapenêmico até a alta hospitalar do paciente."
 ],
-"gab": 2,
+"gab": 0,
 "tema": "emergencias",
 "cenario": "uti",
 "comp": "tto",
@@ -256,9 +256,9 @@ window.BANCO=[
 "base": "Surviving Sepsis Campaign 2026 — recomendação de descalonamento diante de diagnóstico microbiológico confirmado",
 "coment": "A diretriz de 2026 elevou o descalonamento ao status de recomendação: havendo diagnóstico microbiológico confirmado e perfil de sensibilidade disponível, deve-se estreitar o espectro em vez de manter a cobertura empírica ampla. Isolada Escherichia coli sensível a ceftriaxona, com paciente em melhora e sem evidência de cocos gram-positivos, mantêm-se apenas a droga necessária: retira-se a vancomicina e substitui-se o carbapenêmico. O benefício é duplo, individual e coletivo — menos toxicidade, menos infecção por Clostridioides difficile e menor pressão seletiva para resistência. Descalonar não é o mesmo que interromper o tratamento.",
 "porAlt": [
+"Correta: com germe identificado e sensível, a diretriz recomenda descalonar para o antimicrobiano de menor espectro que cubra o agente isolado.",
 "Manter carbapenêmico e vancomicina sem indicação amplia toxicidade e pressão seletiva, sem reduzir a chance de recidiva da infecção tratada.",
 "O sinergismo com aminoglicosídeo não traz benefício na bacteriemia por gram-negativo sensível e acrescenta nefrotoxicidade ao tratamento.",
-"Correta: com germe identificado e sensível, a diretriz recomenda descalonar para o antimicrobiano de menor espectro que cubra o agente isolado.",
 "Descalonar não significa suspender: a bacteriemia por Escherichia coli exige completar o tempo de tratamento previsto para o foco encontrado.",
 "A daptomicina não cobriria melhor este caso, e não há razão para manter cobertura para gram-positivos sem germe correspondente isolado."
 ]
@@ -266,13 +266,13 @@ window.BANCO=[
 {
 "q": "Mulher de 52 anos com diabetes tipo 2 há oito anos, doença renal crônica com taxa de filtração glomerular de 48 mL/min/1,73 m² e relação albumina-creatinina de 380 mg/g, usa metformina e tem hemoglobina glicada de 6,8%. Está assintomática. Considerando as recomendações vigentes, qual é a melhor conduta farmacológica?",
 "alts": [
-"Acrescentar um inibidor de SGLT2, indicado pela proteção renal independentemente da glicada atual.",
 "Manter apenas a metformina, porque a hemoglobina glicada já está dentro da meta estabelecida hoje.",
 "Iniciar insulina basal noturna para prevenir a progressão da doença renal crônica nessa paciente.",
+"Acrescentar um inibidor de SGLT2, indicado pela proteção renal independentemente da glicada atual.",
 "Suspender a metformina de imediato, uma vez que a filtração glomerular está abaixo de 60 mL/min.",
 "Trocar a metformina por sulfonilureia, opção de menor custo com o mesmo efeito de proteção renal."
 ],
-"gab": 0,
+"gab": 2,
 "tema": "endocrino",
 "cenario": "amb",
 "comp": "tto",
@@ -280,9 +280,9 @@ window.BANCO=[
 "base": "ADA Standards of Care in Diabetes 2026 e KDIGO 2024 — terapia com benefício cardiorrenal independentemente da HbA1c",
 "coment": "O ponto que as duas diretrizes reforçam é que a escolha do hipoglicemiante deixou de ser guiada apenas pelo controle glicêmico: em pacientes com doença renal crônica, insuficiência cardíaca ou doença cardiovascular estabelecida, indica-se a classe com benefício de órgão independentemente da hemoglobina glicada. Com filtração de 48 mL/min e albuminúria acima de 200 mg/g, o inibidor de SGLT2 tem recomendação forte para retardar a progressão renal. A metformina pode ser mantida até filtração de 30 mL/min, com ajuste de dose abaixo de 45; suspendê-la aqui é erro comum e desnecessário.",
 "porAlt": [
-"Correta: com doença renal crônica e albuminúria, o inibidor de SGLT2 é indicado pela proteção de órgão, mesmo com a glicada já na meta.",
 "Uma glicada na meta não encerra a decisão terapêutica: o que está em jogo aqui é a progressão renal, que exige droga com benefício próprio.",
 "A insulina basal controla glicemia, mas não tem efeito demonstrado de nefroproteção e acrescenta risco de hipoglicemia à paciente.",
+"Correta: com doença renal crônica e albuminúria, o inibidor de SGLT2 é indicado pela proteção de órgão, mesmo com a glicada já na meta.",
 "A metformina só é contraindicada abaixo de 30 mL/min; entre 30 e 45 ajusta-se a dose, e retirá-la em 48 mL/min é decisão precipitada.",
 "A sulfonilureia não protege o rim, causa hipoglicemia e ganho de peso, e não é substituta adequada da metformina nesse contexto clínico."
 ]
@@ -291,12 +291,12 @@ window.BANCO=[
 "q": "Homem de 29 anos com diabetes tipo 1 há doze anos, em esquema basal-bolus com múltiplas aplicações, tem índice de massa corporal de 34 kg/m² e hemoglobina glicada de 7,9%. Pergunta sobre tratamento farmacológico para a obesidade. Segundo a versão de 2026 das recomendações da Associação Americana de Diabetes, qual é a orientação?",
 "alts": [
 "Fármacos dessa classe seguem contraindicados no diabetes tipo 1, restritos apenas ao diabetes tipo 2.",
-"Um agonista do receptor de GLP-1 entra como opção, sempre com dose individualizada e insulina.",
 "A conduta se limita a dieta e exercício, pois medicação para obesidade não tem espaço no tipo 1.",
+"Um agonista do receptor de GLP-1 entra como opção, sempre com dose individualizada e insulina.",
 "Deve-se sempre buscar a dose máxima aprovada em bula, que é a única dose com eficácia demonstrada.",
 "A cirurgia bariátrica é a única opção admitida nesse caso, sem alternativa de tratamento clínico."
 ],
-"gab": 1,
+"gab": 2,
 "tema": "endocrino",
 "cenario": "amb",
 "comp": "tto",
@@ -305,8 +305,8 @@ window.BANCO=[
 "coment": "A edição de 2026 trouxe, pela primeira vez, recomendação de considerar agonistas do receptor de GLP-1 e congêneres em pessoas com diabetes tipo 1 e obesidade, sempre em associação à insulina, que continua indispensável. O texto também passou a enfatizar a individualização da dose dos fármacos antiobesidade: a dose mais eficaz para um determinado paciente pode não ser a maior aprovada, e a escalada deve considerar resposta, tolerância e objetivo terapêutico. Os cuidados específicos no tipo 1 são o risco de cetoacidose euglicêmica em uso concomitante de outras classes e a necessidade de reduzir a insulina prandial.",
 "porAlt": [
 "A contraindicação absoluta no tipo 1 é justamente o que a atualização derrubou, ao reconhecer o benefício sobre peso e sensibilidade à insulina.",
-"Correta: a versão de 2026 passou a admitir o agonista de GLP-1 no diabetes tipo 1 com obesidade, com dose individualizada e insulina mantida.",
 "Restringir a conduta a dieta e exercício ignora uma recomendação explícita da diretriz e deixa o paciente sem tratamento eficaz da obesidade.",
+"Correta: a versão de 2026 passou a admitir o agonista de GLP-1 no diabetes tipo 1 com obesidade, com dose individualizada e insulina mantida.",
 "A diretriz diz o oposto: a dose mais eficaz pode não ser a maior aprovada, e a titulação deve ser individualizada em cada paciente.",
 "A cirurgia é uma opção entre outras e não exclui o tratamento clínico, que agora conta com recomendação específica para este perfil."
 ]
@@ -316,11 +316,11 @@ window.BANCO=[
 "alts": [
 "O uso de sensor contínuo fica restrito a quem usa insulina em múltiplas doses diárias, sem exceção.",
 "A glicemia capilar de jejum isolada é suficiente, e qualquer outro método apenas eleva o custo do caso.",
-"O sensor só deve ser cogitado depois de cinco anos de doença ou diante de hipoglicemias documentadas.",
 "A monitorização contínua de glicose cabe a qualquer momento, mesmo sem insulina prandial em uso.",
+"O sensor só deve ser cogitado depois de cinco anos de doença ou diante de hipoglicemias documentadas.",
 "A hemoglobina glicada trimestral substitui integralmente qualquer forma de monitorização de glicose."
 ],
-"gab": 3,
+"gab": 2,
 "tema": "endocrino",
 "cenario": "amb",
 "comp": "prev",
@@ -330,8 +330,8 @@ window.BANCO=[
 "porAlt": [
 "A restrição ao esquema de múltiplas doses de insulina reflete recomendações antigas e foi justamente o limite ampliado nesta atualização.",
 "A glicemia de jejum isolada não mostra excursões pós-prandiais nem hipoglicemias noturnas, que são o alvo do sensor nesse cenário.",
-"Não há exigência de tempo mínimo de doença nem de hipoglicemia prévia documentada para se considerar a monitorização contínua.",
 "Correta: a diretriz de 2026 recomenda considerar a monitorização contínua já no diagnóstico, sem condicioná-la ao uso de insulina.",
+"Não há exigência de tempo mínimo de doença nem de hipoglicemia prévia documentada para se considerar a monitorização contínua.",
 "A hemoglobina glicada é uma média e não revela variabilidade glicêmica, de modo que jamais substitui a monitorização no dia a dia."
 ]
 },
@@ -341,10 +341,10 @@ window.BANCO=[
 "Associar um bloqueador do receptor de angiotensina à dose de enalapril que ele já vem usando hoje.",
 "Prescrever alopurinol de rotina, cuja redução do ácido úrico freia a perda de função renal do paciente.",
 "Restringir a proteína da dieta a 0,3 g/kg/dia, sem suplementação de cetoanálogos, para poupar o rim.",
-"Acrescentar um inibidor de SGLT2, que tem recomendação forte nesse patamar de albuminúria e filtração.",
-"Iniciar diálise peritoneal preventiva agora, antes que a filtração glomerular caia abaixo de 30 mL/min."
+"Iniciar diálise peritoneal preventiva agora, antes que a filtração glomerular caia abaixo de 30 mL/min.",
+"Acrescentar um inibidor de SGLT2, que tem recomendação forte nesse patamar de albuminúria e filtração."
 ],
-"gab": 3,
+"gab": 4,
 "tema": "nefro",
 "cenario": "amb",
 "comp": "tto",
@@ -355,20 +355,20 @@ window.BANCO=[
 "O duplo bloqueio do sistema renina-angiotensina aumenta hipercalemia e injúria renal aguda sem melhorar desfechos, e foi abandonado por isso.",
 "O alopurinol trata hiperuricemia sintomática, mas os ensaios não confirmaram benefício em retardar a progressão da doença renal crônica.",
 "Restrição proteica tão intensa sem cetoanálogos produz desnutrição e sarcopenia, com risco que supera qualquer ganho renal esperado.",
-"Correta: filtração acima de 20 mL/min com albuminúria acima de 200 mg/g coloca o inibidor de SGLT2 em recomendação forte, mesmo sem diabetes.",
-"A indicação de diálise depende de sintomas urêmicos e de distúrbios refratários, e não de um número isolado de filtração glomerular."
+"A indicação de diálise depende de sintomas urêmicos e de distúrbios refratários, e não de um número isolado de filtração glomerular.",
+"Correta: filtração acima de 20 mL/min com albuminúria acima de 200 mg/g coloca o inibidor de SGLT2 em recomendação forte, mesmo sem diabetes."
 ]
 },
 {
 "q": "Mulher de 57 anos com diabetes tipo 2 e doença renal crônica mantém relação albumina-creatinina de 450 mg/g apesar de dose máxima de losartana e de empagliflozina há oito meses. A filtração glomerular é de 42 mL/min/1,73 m², o potássio é de 4,4 mEq/L e a pressão está controlada. Qual é a conduta com melhor respaldo para reduzir a albuminúria residual?",
 "alts": [
-"Acrescentar antagonista mineralocorticoide não esteroidal, com controle seriado do potássio sérico.",
 "Substituir a empagliflozina por pioglitazona, que reduz a albuminúria de forma mais consistente aqui.",
 "Elevar a losartana acima da dose máxima de bula, buscando bloqueio ainda maior do sistema renal.",
 "Iniciar espironolactona em dose plena, opção preferida pela menor chance de hipercalemia da classe.",
+"Acrescentar antagonista mineralocorticoide não esteroidal, com controle seriado do potássio sérico.",
 "Aceitar a albuminúria residual, já que nenhuma droga adicional altera o desfecho renal nesse ponto."
 ],
-"gab": 0,
+"gab": 3,
 "tema": "nefro",
 "cenario": "amb",
 "comp": "tto",
@@ -376,23 +376,23 @@ window.BANCO=[
 "base": "KDIGO 2024 — antagonista mineralocorticoide não esteroidal (finerenona) na albuminúria residual do diabetes tipo 2",
 "coment": "Na doença renal do diabetes tipo 2 com albuminúria persistente apesar de bloqueio do sistema renina-angiotensina e de inibidor de SGLT2 em doses otimizadas, a diretriz de 2024 admite acrescentar um antagonista mineralocorticoide não esteroidal, a finerenona, como terceiro pilar do tratamento. Os ensaios mostraram redução de desfechos renais e cardiovasculares nesse cenário. O cuidado obrigatório é a monitorização do potássio, com dosagem antes do início e nas semanas seguintes. A espironolactona, esteroidal, tem mais hipercalemia e ginecomastia e não é a opção estudada com esse desenho de proteção renal.",
 "porAlt": [
-"Correta: a finerenona é o terceiro pilar quando persiste albuminúria apesar de bloqueio do sistema e de inibidor de SGLT2, com controle do potássio.",
 "A pioglitazona pode reduzir albuminúria, mas causa retenção hídrica e fratura, e não substitui o inibidor de SGLT2 já bem indicado no caso.",
 "Ultrapassar a dose máxima do bloqueador do receptor não acrescenta nefroproteção comprovada e eleva o risco de hipercalemia e hipotensão.",
 "O antagonista esteroidal traz mais hipercalemia e efeitos hormonais, e não é a droga com evidência específica de desfecho renal nesse cenário.",
+"Correta: a finerenona é o terceiro pilar quando persiste albuminúria apesar de bloqueio do sistema e de inibidor de SGLT2, com controle do potássio.",
 "Existe conduta adicional com benefício demonstrado, de modo que aceitar a albuminúria residual desperdiça uma oportunidade de proteção."
 ]
 },
 {
 "q": "Homem de 70 anos é admitido com vômitos há cinco dias por obstrução pilórica. A gasometria arterial mostra pH 7,52, pressão parcial de gás carbônico de 48 mmHg e bicarbonato de 38 mEq/L. O cloro urinário está em 8 mEq/L e ele apresenta sinais de desidratação. Qual é a interpretação e a conduta inicial adequadas?",
 "alts": [
+"Alcalose metabólica responsiva ao cloro, tratada com reposição de solução salina e de potássio.",
 "Alcalose respiratória primária por dor, que se corrige com controle da frequência respiratória.",
 "Alcalose metabólica resistente ao cloro, com indicação de espironolactona por hiperaldosteronismo.",
-"Alcalose metabólica responsiva ao cloro, tratada com reposição de solução salina e de potássio.",
 "Acidose metabólica com ânion gap elevado, que exige infusão imediata de bicarbonato de sódio.",
 "Distúrbio misto sem tradução clínica, cuja conduta é observar sem reposição volêmica agora."
 ],
-"gab": 2,
+"gab": 0,
 "tema": "nefro",
 "cenario": "enf",
 "comp": "dx",
@@ -400,9 +400,9 @@ window.BANCO=[
 "base": "KDIGO 2024 e Cecil Medicina, 26ª edição, 2022 — abordagem dos distúrbios ácido-básicos pelo cloro urinário",
 "coment": "O quadro é de alcalose metabólica com compensação respiratória apropriada — a pressão de gás carbônico sobe cerca de 0,7 mmHg para cada 1 mEq/L de bicarbonato acima do normal. A chave diagnóstica é o cloro urinário: valores abaixo de 20 mEq/L caracterizam a forma responsiva ao cloro, típica de perdas gástricas e de uso de diurético, em que há contração de volume e ávida reabsorção tubular de cloro. O tratamento é reposição de cloreto de sódio isotônico com potássio, o que restaura o volume e permite ao rim excretar o excesso de bicarbonato. Cloro urinário acima de 20 mEq/L apontaria excesso de mineralocorticoide.",
 "porAlt": [
+"Correta: alcalose metabólica com cloro urinário abaixo de 20 mEq/L é responsiva ao cloro, e a reposição de salina com potássio corrige o distúrbio.",
 "Na alcalose respiratória a pressão de gás carbônico estaria baixa, e não elevada como neste paciente, o que exclui a hipótese de imediato.",
 "A forma resistente ao cloro cursa com cloro urinário acima de 20 mEq/L e volume expandido, quadro oposto ao deste paciente desidratado.",
-"Correta: alcalose metabólica com cloro urinário abaixo de 20 mEq/L é responsiva ao cloro, e a reposição de salina com potássio corrige o distúrbio.",
 "O pH está acima de 7,45 e o bicarbonato elevado, de modo que não há acidose alguma; infundir bicarbonato agravaria seriamente o distúrbio.",
 "Há distúrbio único com compensação adequada, e a desidratação com perda de cloro exige reposição, não apenas observação clínica."
 ]
@@ -413,10 +413,10 @@ window.BANCO=[
 "Usar somente alteplase, porque a tenecteplase só é liberada em protocolos experimentais de pesquisa.",
 "Adiar a trombólise até a angiotomografia, exame obrigatório antes de qualquer decisão de trombolisar.",
 "Reduzir a pressão arterial abaixo de 120/80 mmHg antes de iniciar o trombolítico endovenoso agora.",
-"Aguardar a ressonância magnética com difusão para confirmar a área isquêmica antes de trombolisar.",
-"Usar tenecteplase 0,25 mg/kg: ela substitui a alteplase em qualquer caso elegível até 4,5 horas."
+"Usar tenecteplase 0,25 mg/kg: ela substitui a alteplase em qualquer caso elegível até 4,5 horas.",
+"Aguardar a ressonância magnética com difusão para confirmar a área isquêmica antes de trombolisar."
 ],
-"gab": 4,
+"gab": 3,
 "tema": "neuro",
 "cenario": "emg",
 "comp": "urg",
@@ -427,8 +427,8 @@ window.BANCO=[
 "A tenecteplase deixou de ser restrita a pesquisa: ensaios de não inferioridade sustentaram sua incorporação formal à recomendação atual.",
 "A angiotomografia é essencial para selecionar trombectomia, mas não pode retardar a trombólise endovenosa de quem já preenche critérios.",
 "O alvo antes de trombolisar é abaixo de 185/110 mmHg; buscar normotensão compromete a perfusão da área de penumbra ainda salvável.",
-"A ressonância tem papel no AVC de horário indeterminado, e não em paciente com início bem definido dentro da janela terapêutica.",
-"Correta: a diretriz de 2026 aceita a tenecteplase em 0,25 mg/kg como alternativa plena à alteplase na janela de até quatro horas e meia."
+"Correta: a diretriz de 2026 aceita a tenecteplase em 0,25 mg/kg como alternativa plena à alteplase na janela de até quatro horas e meia.",
+"A ressonância tem papel no AVC de horário indeterminado, e não em paciente com início bem definido dentro da janela terapêutica."
 ]
 },
 {
@@ -460,11 +460,11 @@ window.BANCO=[
 "alts": [
 "Escores abaixo de seis pontos contraindicam a trombólise de modo absoluto em qualquer situação clínica.",
 "A decisão passa a depender exclusivamente da idade, que acima de setenta anos exclui a trombólise.",
-"Nenhum escore baixo, isoladamente, justifica negar a trombólise a uma paciente elegível como ela.",
 "O déficit leve exige aguardar 24 horas de observação clínica antes de qualquer decisão terapêutica.",
+"Nenhum escore baixo, isoladamente, justifica negar a trombólise a uma paciente elegível como ela.",
 "A trombólise só é admitida quando o escore ultrapassa dez pontos na avaliação inicial da emergência."
 ],
-"gab": 2,
+"gab": 3,
 "tema": "neuro",
 "cenario": "emg",
 "comp": "urg",
@@ -474,8 +474,8 @@ window.BANCO=[
 "porAlt": [
 "Não existe contraindicação absoluta por escore: a avaliação é se o déficit incapacita aquele paciente na sua função e no seu contexto.",
 "A idade isolada não contraindica a trombólise; o que pesa é a independência funcional prévia e a ausência de contraindicações formais.",
-"Correta: a diretriz é explícita ao dizer que o escore baixo, isoladamente, não justifica negar a trombólise a um paciente elegível.",
 "Observar por 24 horas desperdiça toda a janela terapêutica e transforma um déficit potencialmente reversível em sequela definitiva.",
+"Correta: a diretriz é explícita ao dizer que o escore baixo, isoladamente, não justifica negar a trombólise a um paciente elegível.",
 "Não há limiar superior de escore exigido para trombolisar; a régua é a elegibilidade clínica e temporal, não um número mínimo de pontos."
 ]
 },
@@ -483,12 +483,12 @@ window.BANCO=[
 "q": "Homem de 44 anos, sem comorbidades, é atendido no ambulatório com tosse produtiva, febre e radiografia mostrando consolidação em base direita. Recebe alta com antibiótico oral. No terceiro dia retorna afebril, com frequência cardíaca de 78 bpm, frequência respiratória de 18 irpm, saturação de 97% em ar ambiente, pressão de 124/78 mmHg e orientado. Qual é a conduta quanto à duração do tratamento?",
 "alts": [
 "Manter o antibiótico por dez dias no total, duração clássica que reduz a chance de recidiva.",
+"Suspender o antibiótico ao completar o terceiro dia, pois ele já alcançou estabilidade clínica.",
 "Manter o antibiótico até que a radiografia de tórax mostre resolução completa da consolidação.",
 "Trocar por um macrolídeo e completar mais sete dias, ampliando a cobertura para germe atípico.",
-"Prolongar o esquema por catorze dias porque a consolidação lobar indica doença pneumocócica.",
-"Suspender o antibiótico ao completar o terceiro dia, pois ele já alcançou estabilidade clínica."
+"Prolongar o esquema por catorze dias porque a consolidação lobar indica doença pneumocócica."
 ],
-"gab": 4,
+"gab": 1,
 "tema": "infecto",
 "cenario": "amb",
 "comp": "tto",
@@ -497,22 +497,22 @@ window.BANCO=[
 "coment": "A diretriz de 2025 mudou de forma relevante o que se ensinava desde 2019: em adultos com pneumonia adquirida na comunidade tratados em ambulatório que atingem estabilidade clínica, sugere-se menos de cinco dias de antibiótico, com mínimo de três, em vez de cinco ou mais. Estabilidade clínica é definida por estar afebril, frequência cardíaca abaixo de 100 bpm, frequência respiratória abaixo de 24 irpm, saturação de pelo menos 90% em ar ambiente, pressão sistólica de pelo menos 90 mmHg e estado mental normal — exatamente o quadro descrito. Tratamento prolongado acrescenta infecção por Clostridioides difficile, injúria renal e pressão seletiva, sem ganho de cura.",
 "porAlt": [
 "Dez dias é herança de recomendações antigas; a evidência de não inferioridade dos esquemas curtos derrubou essa duração na pneumonia não grave.",
+"Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três — que ele já completou.",
 "A imagem melhora semanas depois da cura clínica; guiar a duração por radiografia prolonga o antibiótico sem qualquer benefício ao paciente.",
 "Não há motivo para trocar a classe em quem respondeu bem, e estender por mais sete dias contraria a recomendação de curso curto.",
-"O padrão lobar não define duração nem exige esquema prolongado; o que define é a resposta clínica e a gravidade da apresentação inicial.",
-"Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três — que ele já completou."
+"O padrão lobar não define duração nem exige esquema prolongado; o que define é a resposta clínica e a gravidade da apresentação inicial."
 ]
 },
 {
 "q": "Mulher de 63 anos está internada em UTI com pneumonia adquirida na comunidade grave, em ventilação mecânica e vasopressor desde a admissão. No quarto dia melhorou: está sem vasopressor, afebril e com parâmetros ventilatórios em redução. A equipe questiona se pode suspender o antimicrobiano hoje. Qual é a orientação da diretriz vigente?",
 "alts": [
-"Suspender hoje mesmo, já que a melhora clínica no quarto dia autoriza encerrar o tratamento.",
 "Manter o antimicrobiano por pelo menos cinco dias, patamar recomendado na apresentação grave.",
+"Suspender hoje mesmo, já que a melhora clínica no quarto dia autoriza encerrar o tratamento.",
 "Manter o antimicrobiano até a alta hospitalar, independentemente do tempo total de tratamento.",
 "Suspender e substituir por profilaxia com azitromicina em dias alternados por três semanas.",
 "Manter por vinte e um dias, duração exigida em toda pneumonia que precisou de ventilação."
 ],
-"gab": 1,
+"gab": 0,
 "tema": "infecto",
 "cenario": "uti",
 "comp": "tto",
@@ -520,8 +520,8 @@ window.BANCO=[
 "base": "American Thoracic Society 2025 — recomendação forte de cinco dias ou mais na pneumonia grave",
 "coment": "A diretriz de 2025 separa com clareza dois cenários. Na pneumonia não grave, ambulatorial ou internada, sugere curso curto — menos de cinco dias, com mínimo de três — assim que houver estabilidade clínica. Na pneumonia grave, porém, a recomendação é forte no sentido oposto: cinco dias ou mais de tratamento. A gravidade da apresentação inicial, e não a velocidade da melhora, é o que define esse piso. Encerrar no quarto dia por resposta favorável contraria a recomendação; por outro lado, prolongar indefinidamente até a alta é o extremo oposto e igualmente sem respaldo.",
 "porAlt": [
-"A melhora precoce não rebaixa a gravidade da apresentação inicial, que é justamente o critério usado para definir o piso de duração.",
 "Correta: a apresentação grave carrega recomendação forte de pelo menos cinco dias, independentemente de a melhora ter vindo antes disso.",
+"A melhora precoce não rebaixa a gravidade da apresentação inicial, que é justamente o critério usado para definir o piso de duração.",
 "Amarrar a duração do antimicrobiano à data da alta é decisão administrativa, não clínica, e costuma resultar em tratamento excessivo.",
 "Azitromicina profilática prolongada não tem papel na pneumonia comunitária e traz risco cardíaco e de indução de resistência.",
 "Não existe regra de vinte e um dias por uso de ventilação; a duração é definida pela gravidade e pela resposta, não pelo suporte usado."
@@ -533,10 +533,10 @@ window.BANCO=[
 "Levofloxacino em monoterapia, que deve ser a primeira escolha no paciente ambulatorial saudável.",
 "Amoxicilina com clavulanato somada a macrolídeo, cobrindo germe atípico de forma rotineira.",
 "Ceftriaxona intramuscular diária por cinco dias, garantindo adesão melhor que a via oral.",
-"Azitromicina isolada na região onde ele atua, sem checar a resistência local do pneumococo.",
-"Amoxicilina em dose alta como monoterapia, reservando doxiciclina como alternativa aceitável."
+"Amoxicilina em dose alta como monoterapia, reservando doxiciclina como alternativa aceitável.",
+"Azitromicina isolada na região onde ele atua, sem checar a resistência local do pneumococo."
 ],
-"gab": 4,
+"gab": 3,
 "tema": "infecto",
 "cenario": "amb",
 "comp": "tto",
@@ -547,20 +547,20 @@ window.BANCO=[
 "A fluoroquinolona é droga de reserva: seleciona resistência, mascara tuberculose e tem alertas de segurança que desaconselham o uso de rotina.",
 "Associar clavulanato e macrolídeo é esquema de paciente com comorbidade ou uso recente de antibiótico, e não do adulto hígido descrito.",
 "A via intramuscular diária não traz vantagem em quem tolera via oral, e o cenário ambulatorial não justifica esse incômodo ao paciente.",
-"O macrolídeo isolado só é aceitável onde a resistência local do pneumococo é inferior a 25%, o que precisa ser conhecido antes de prescrever.",
-"Correta: monoterapia com amoxicilina em dose alta é a escolha inicial nesse perfil, com doxiciclina como alternativa razoável."
+"Correta: monoterapia com amoxicilina em dose alta é a escolha inicial nesse perfil, com doxiciclina como alternativa razoável.",
+"O macrolídeo isolado só é aceitável onde a resistência local do pneumococo é inferior a 25%, o que precisa ser conhecido antes de prescrever."
 ]
 },
 {
 "q": "Durante a visita na enfermaria, o preceptor pede que o residente diga se um paciente internado por pneumonia atingiu estabilidade clínica, critério que orienta a decisão de encerrar o antimicrobiano. Qual conjunto de achados corresponde à definição usada pela diretriz vigente?",
 "alts": [
 "Proteína C reativa reduzida à metade e leucograma inteiramente normalizado no exame de controle.",
+"Afebril, frequência cardíaca abaixo de 100 bpm, respiratória abaixo de 24 irpm e sem confusão.",
 "Radiografia de tórax com resolução completa e ausculta pulmonar sem qualquer ruído adventício.",
 "Hemocultura negativa em duas amostras colhidas após vinte e quatro horas de antimicrobiano.",
-"Ausência de tosse e de expectoração por um período mínimo de quarenta e oito horas seguidas.",
-"Afebril, frequência cardíaca abaixo de 100 bpm, respiratória abaixo de 24 irpm e sem confusão."
+"Ausência de tosse e de expectoração por um período mínimo de quarenta e oito horas seguidas."
 ],
-"gab": 4,
+"gab": 1,
 "tema": "infecto",
 "cenario": "enf",
 "comp": "dx",
@@ -569,22 +569,22 @@ window.BANCO=[
 "coment": "A definição é clínica e composta: paciente afebril, frequência cardíaca abaixo de 100 bpm, frequência respiratória abaixo de 24 irpm, saturação de pelo menos 90% em ar ambiente ou pressão parcial de oxigênio de ao menos 60 mmHg, pressão sistólica de pelo menos 90 mmHg e estado mental normal. Importa porque é esse conjunto, e não exame de imagem ou marcador inflamatório, que autoriza encerrar o antimicrobiano no curso curto. A radiografia melhora semanas após a cura clínica, e usar a imagem como critério é a causa mais comum de tratamento desnecessariamente prolongado.",
 "porAlt": [
 "Marcadores inflamatórios não fazem parte da definição e sua normalização costuma ser bem mais lenta que a recuperação clínica.",
+"Correta: a estabilidade clínica é definida por sinais vitais e estado mental, o conjunto que autoriza encerrar o antimicrobiano.",
 "A imagem melhora semanas depois da cura clínica: exigir resolução radiológica é a causa mais frequente de tratamento prolongado à toa.",
 "A hemocultura negativa não define estabilidade, até porque a maioria das pneumonias comunitárias cursa sem bacteriemia documentada.",
-"A tosse pode persistir por semanas depois da cura e não integra os critérios objetivos usados pela definição da diretriz.",
-"Correta: a estabilidade clínica é definida por sinais vitais e estado mental, o conjunto que autoriza encerrar o antimicrobiano."
+"A tosse pode persistir por semanas depois da cura e não integra os critérios objetivos usados pela definição da diretriz."
 ]
 },
 {
 "q": "Homem de 58 anos com cirrose compensada por esteatose hepática metabólica tem elastografia hepática de 22 kPa e plaquetas de 118.000/mm³. Está assintomático, sem ascite ou encefalopatia, e a endoscopia recente não mostrou varizes esofágicas. Segundo o consenso vigente de hipertensão portal, qual é a conduta?",
 "alts": [
 "Não tratar e repetir a endoscopia em dois anos, já que sem varizes não há o que prevenir agora.",
-"Iniciar carvedilol, indicado na hipertensão portal clinicamente significativa mesmo sem varizes.",
 "Indicar ligadura elástica profilática, procedimento que dispensa a terapia farmacológica dele.",
 "Iniciar propranolol quando surgirem varizes de médio calibre na próxima endoscopia de controle.",
-"Solicitar medida direta do gradiente de pressão venosa hepática antes de qualquer intervenção."
+"Solicitar medida direta do gradiente de pressão venosa hepática antes de qualquer intervenção.",
+"Iniciar carvedilol, indicado na hipertensão portal clinicamente significativa mesmo sem varizes."
 ],
-"gab": 1,
+"gab": 4,
 "tema": "gastro",
 "cenario": "amb",
 "comp": "prev",
@@ -593,22 +593,22 @@ window.BANCO=[
 "coment": "O consenso de Baveno VII deslocou o alvo do tratamento: deixou de ser a variz e passou a ser a hipertensão portal clinicamente significativa, que a elastografia acima de 20 a 25 kPa com plaquetopenia permite presumir sem medir o gradiente. Nesse cenário indica-se betabloqueador não seletivo para prevenir descompensação — ascite, sangramento, encefalopatia —, com preferência pelo carvedilol na cirrose compensada, por reduzir mais a pressão portal graças ao bloqueio alfa-1 adicional. A conduta antiga, de só tratar quem já tem varizes de médio calibre, perde a janela em que a prevenção rende mais.",
 "porAlt": [
 "Esperar a variz aparecer desperdiça a fase em que o betabloqueador previne ascite e outras descompensações, não apenas o sangramento.",
-"Correta: elastografia acima de 20 a 25 kPa com plaquetopenia presume hipertensão portal significativa, e o carvedilol previne descompensação.",
 "A ligadura profilática se aplica a varizes de risco já existentes, e este paciente sequer tem varizes na endoscopia recente.",
 "Amarrar o tratamento ao calibre da variz é a lógica anterior ao consenso, que passou a tratar a hipertensão portal em si.",
-"A medida do gradiente é invasiva e dispensável quando os critérios não invasivos já bastam para presumir o diagnóstico."
+"A medida do gradiente é invasiva e dispensável quando os critérios não invasivos já bastam para presumir o diagnóstico.",
+"Correta: elastografia acima de 20 a 25 kPa com plaquetopenia presume hipertensão portal significativa, e o carvedilol previne descompensação."
 ]
 },
 {
 "q": "Mulher de 61 anos com cirrose alcoólica teve hemorragia digestiva por varizes esofágicas, tratada com ligadura elástica e vasoconstritor esplâncnico, com controle do sangramento. Está estável, sem ascite volumosa, com pressão de 118/72 mmHg e frequência de 76 bpm. Qual é a profilaxia secundária indicada na alta?",
 "alts": [
 "Somente inibidor de bomba de prótons em dose dobrada, por tempo indefinido após a alta.",
+"Betabloqueador não seletivo somado à ligadura seriada até erradicar todas as varizes.",
 "Manter só a ligadura elástica, sem betabloqueador, preservando a perfusão hepática.",
 "Anastomose portossistêmica intra-hepática eletiva logo após o primeiro sangramento.",
-"Betabloqueador não seletivo somado à ligadura seriada até erradicar todas as varizes.",
 "Betabloqueador isolado, dispensando quaisquer novas sessões endoscópicas adiante."
 ],
-"gab": 3,
+"gab": 1,
 "tema": "gastro",
 "cenario": "enf",
 "comp": "tto",
@@ -617,9 +617,9 @@ window.BANCO=[
 "coment": "Depois de um episódio de hemorragia varicosa, o risco de ressangramento sem profilaxia chega a 60% em um ano, com mortalidade alta. A primeira linha da profilaxia secundária é a terapia combinada: betabloqueador não seletivo, com preferência ao carvedilol pela maior redução da pressão portal, somado a sessões de ligadura elástica até a erradicação das varizes. Nenhuma das duas isolada iguala a combinação. O inibidor de bomba tem papel limitado no pós-ligadura, para úlcera da banda, e não previne ressangramento varicoso. A derivação portossistêmica fica reservada a falha da profilaxia combinada ou a critérios de alto risco definidos.",
 "porAlt": [
 "O inibidor de bomba não previne ressangramento varicoso; seu papel se restringe à úlcera pós-ligadura e por período curto.",
+"Correta: a primeira linha é a combinação de betabloqueador não seletivo com ligadura elástica seriada até erradicar as varizes.",
 "A ligadura isolada é inferior à combinação, porque não reduz a pressão portal que gera as varizes que voltarão a se formar.",
 "A derivação eletiva não é conduta universal após o primeiro episódio: fica para falha da profilaxia ou critérios de alto risco.",
-"Correta: a primeira linha é a combinação de betabloqueador não seletivo com ligadura elástica seriada até erradicar as varizes.",
 "O betabloqueador isolado deixa de erradicar as varizes existentes e é inferior à combinação na prevenção de novo sangramento."
 ]
 },
@@ -627,12 +627,12 @@ window.BANCO=[
 "q": "Homem de 55 anos com cirrose chega à emergência com hematêmese. Está com pressão de 104/64 mmHg, frequência de 98 bpm, sem dor torácica e sem doença coronária conhecida. A hemoglobina inicial é de 7,4 g/dL e o sangramento parece controlado após a estabilização inicial. Qual é a estratégia transfusional adequada?",
 "alts": [
 "Estratégia liberal, transfundindo até que a hemoglobina alcance a faixa de 10 a 11 g/dL.",
-"Estratégia restritiva, transfundindo com alvo de hemoglobina em torno de 7 a 8 g/dL.",
 "Não transfundir em nenhuma hipótese enquanto houver sangramento digestivo em atividade.",
+"Estratégia restritiva, transfundindo com alvo de hemoglobina em torno de 7 a 8 g/dL.",
 "Transfundir plasma fresco para corrigir o tempo de protrombina alargado à admissão.",
 "Transfundir concentrado de plaquetas já à admissão, mesmo com plaquetas acima de 50.000."
 ],
-"gab": 1,
+"gab": 2,
 "tema": "gastro",
 "cenario": "emg",
 "comp": "urg",
@@ -641,8 +641,8 @@ window.BANCO=[
 "coment": "A estratégia restritiva é recomendada na hemorragia digestiva do cirrótico, com alvo de hemoglobina em torno de 7 a 8 g/dL. O motivo é fisiopatológico e foi demonstrado em ensaio clínico: transfundir de forma liberal eleva a volemia e, com ela, a pressão portal, aumentando ressangramento e mortalidade. O alvo deve ser individualizado em pacientes com doença cardiovascular. A correção rotineira do tempo de protrombina com plasma fresco não é recomendada — o alargamento no cirrótico não reflete tendência a sangrar, porque há redução equilibrada de fatores pró e anticoagulantes, e o volume infundido eleva a pressão portal.",
 "porAlt": [
 "A estratégia liberal aumenta a volemia e a pressão portal, com mais ressangramento e mortalidade — foi abandonada por ensaio clínico.",
-"Correta: o alvo restritivo de 7 a 8 g/dL reduz ressangramento e mortalidade por evitar a elevação da pressão portal.",
 "Não transfundir de forma alguma é o extremo oposto e igualmente errado: existe alvo, e ele orienta quando transfundir.",
+"Correta: o alvo restritivo de 7 a 8 g/dL reduz ressangramento e mortalidade por evitar a elevação da pressão portal.",
 "O alargamento do tempo de protrombina no cirrótico não prediz sangramento, e o plasma de rotina só acrescenta volume e pressão portal.",
 "A transfusão de plaquetas com contagem acima de 50.000 não é indicada de rotina e não melhora o controle do sangramento."
 ]
@@ -650,13 +650,13 @@ window.BANCO=[
 {
 "q": "Mulher de 67 anos com cirrose e ascite é internada por dor abdominal difusa e febre. A paracentese diagnóstica mostra 620 neutrófilos/mm³ no líquido ascítico, com cultura em andamento. A creatinina é de 1,4 mg/dL e a bilirrubina de 3,2 mg/dL. Além do antimicrobiano, qual medida reduz mortalidade nesse quadro?",
 "alts": [
-"Albumina endovenosa, 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro dia de tratamento.",
 "Furosemida endovenosa em dose alta, para acelerar a resolução da ascite da paciente.",
 "Paracentese de alívio diária até secar completamente a ascite ao longo da internação atual.",
 "Betabloqueador não seletivo em dose plena iniciado no mesmo dia do diagnóstico da infecção.",
-"Restrição hídrica intensa, limitando a oferta a menos de 500 mL em vinte e quatro horas."
+"Restrição hídrica intensa, limitando a oferta a menos de 500 mL em vinte e quatro horas.",
+"Albumina endovenosa, 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro dia de tratamento."
 ],
-"gab": 0,
+"gab": 4,
 "tema": "gastro",
 "cenario": "enf",
 "comp": "tto",
@@ -664,23 +664,23 @@ window.BANCO=[
 "base": "EASL 2018 — Clinical Practice Guidelines for the management of patients with decompensated cirrhosis",
 "coment": "Contagem de neutrófilos igual ou superior a 250/mm³ no líquido ascítico fecha o diagnóstico de peritonite bacteriana espontânea, mesmo antes da cultura. Além da cefalosporina de terceira geração, a albumina endovenosa em 1,5 g/kg no dia do diagnóstico e 1,0 g/kg no terceiro dia reduz a incidência de síndrome hepatorrenal e a mortalidade, com benefício maior em quem já tem creatinina ou bilirrubina elevadas — o caso descrito. Diuréticos devem ser suspensos na vigência de injúria renal, e o betabloqueador é evitado ou suspenso em quem tem instabilidade, ascite refratária ou infecção grave.",
 "porAlt": [
-"Correta: albumina em 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro reduz síndrome hepatorrenal e mortalidade nesse cenário.",
 "Diurético em dose alta durante infecção com creatinina elevada precipita injúria renal; o correto costuma ser suspender, não intensificar.",
 "Paracentese de repetição não trata a infecção e a retirada agressiva de volume agrava a disfunção circulatória do cirrótico.",
 "O betabloqueador deve ser evitado ou suspenso durante infecção grave e instabilidade, e não iniciado em dose plena nesse momento.",
-"Restrição hídrica intensa não integra o tratamento da peritonite e piora a perfusão renal já ameaçada pela infecção."
+"Restrição hídrica intensa não integra o tratamento da peritonite e piora a perfusão renal já ameaçada pela infecção.",
+"Correta: albumina em 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro reduz síndrome hepatorrenal e mortalidade nesse cenário."
 ]
 },
 {
 "q": "Durante a discussão de um caso na enfermaria, o residente questiona por que um paciente do interior teve de ser transferido para a capital para fazer um exame que existe no município vizinho, mais próximo. A resposta passa por um princípio organizativo do SUS previsto em lei. Qual é esse princípio?",
 "alts": [
 "Universalidade do acesso, que garante atendimento a qualquer cidadão em qualquer serviço.",
+"Regionalização e hierarquização, que organizam a rede em níveis de complexidade por região.",
 "Integralidade da assistência, que reúne ações preventivas e curativas em um mesmo serviço.",
 "Equidade no financiamento, que distribui os recursos federais conforme a receita do município.",
-"Regionalização e hierarquização, que organizam a rede em níveis de complexidade por região.",
 "Participação da comunidade, exercida por conferências e conselhos de saúde nas três esferas."
 ],
-"gab": 3,
+"gab": 1,
 "tema": "sus",
 "cenario": "amb",
 "comp": "prev",
@@ -689,9 +689,9 @@ window.BANCO=[
 "coment": "A Lei Orgânica da Saúde lista a regionalização e a hierarquização entre os princípios e diretrizes do SUS, e o Decreto nº 7.508/2011 detalhou o desenho: a região de saúde é o espaço em que se organiza a rede, com portas de entrada definidas e fluxo de referência pactuado na Comissão Intergestores. É por isso que o percurso do paciente segue a pactuação regional e não a simples proximidade geográfica — o município vizinho pode pertencer a outra região de saúde. Universalidade, integralidade e participação da comunidade também são princípios do SUS, mas respondem a outras perguntas.",
 "porAlt": [
 "A universalidade trata de quem tem direito ao atendimento, e não de como a rede se organiza no território para ofertá-lo.",
+"Correta: regionalização e hierarquização organizam a rede por região de saúde e níveis de complexidade, com fluxos pactuados entre gestores.",
 "A integralidade trata do conjunto de ações a que o usuário tem direito, e não da distribuição dos serviços entre municípios.",
 "O financiamento tem regras próprias de repasse e não é o princípio que explica o percurso assistencial descrito no caso.",
-"Correta: regionalização e hierarquização organizam a rede por região de saúde e níveis de complexidade, com fluxos pactuados entre gestores.",
 "A participação da comunidade se dá em conselhos e conferências, instâncias de controle social, e não no fluxo de referência."
 ]
 },
@@ -723,12 +723,12 @@ window.BANCO=[
 "q": "Uma equipe de Saúde da Família acompanha um território com alta prevalência de hipertensão e diabetes, com muitas internações por complicações evitáveis. A coordenação propõe reorganizar o cuidado. Qual estratégia corresponde ao modelo de atenção às condições crônicas preconizado no SUS?",
 "alts": [
 "Ampliar o número de consultas de pronto atendimento, absorvendo a demanda espontânea gerada.",
-"Estratificar o risco da população e organizar o cuidado continuado com plano por usuário.",
 "Encaminhar todos os hipertensos e diabéticos ao especialista focal para seguimento definitivo.",
 "Concentrar os recursos na compra de medicamentos, única medida com impacto real sobre o dano.",
-"Priorizar campanhas pontuais de aferição de pressão, repetidas duas vezes ao longo de cada ano."
+"Priorizar campanhas pontuais de aferição de pressão, repetidas duas vezes ao longo de cada ano.",
+"Estratificar o risco da população e organizar o cuidado continuado com plano por usuário."
 ],
-"gab": 1,
+"gab": 4,
 "tema": "sus",
 "cenario": "amb",
 "comp": "prev",
@@ -737,10 +737,10 @@ window.BANCO=[
 "coment": "O modelo de atenção às condições crônicas parte de uma constatação: a condição crônica não se resolve pela lógica do atendimento por queixa aguda. A proposta é conhecer a população adscrita, estratificar risco, definir plano de cuidado individual com metas pactuadas, apoiar o autocuidado e reservar o especialista para o apoio matricial e os casos de maior complexidade. Ampliar pronto atendimento trata a descompensação depois que ela ocorre e não reduz internação evitável. Campanhas pontuais de aferição captam casos, mas sem continuidade do cuidado não mudam desfecho.",
 "porAlt": [
 "Ampliar pronto atendimento absorve a descompensação já instalada e não atua sobre a causa das internações evitáveis.",
-"Correta: estratificação de risco da população adscrita e plano de cuidado continuado por usuário são o núcleo do modelo.",
 "Encaminhar todos ao especialista desorganiza a rede e retira da atenção primária a coordenação do cuidado que lhe cabe.",
 "Medicamento é peça necessária mas insuficiente: sem vínculo, plano de cuidado e apoio ao autocuidado a adesão não se sustenta.",
-"Campanhas pontuais até identificam casos, mas sem continuidade do cuidado não alteram o desfecho da condição crônica."
+"Campanhas pontuais até identificam casos, mas sem continuidade do cuidado não alteram o desfecho da condição crônica.",
+"Correta: estratificação de risco da população adscrita e plano de cuidado continuado por usuário são o núcleo do modelo."
 ]
 },
 {
@@ -749,10 +749,10 @@ window.BANCO=[
 "Não pode fazer, porque o rastreamento no país só começa a partir dos cinquenta anos de idade.",
 "Deve fazer obrigatoriamente todo ano, sem qualquer discussão prévia sobre danos do rastreamento.",
 "Só poderá fazer o exame caso apresente um nódulo palpável ao exame clínico feito na consulta.",
-"Pode fazer o exame, decidindo com o profissional de saúde depois de discutir riscos e benefícios.",
-"Deve ser encaminhada para ressonância de mamas, exame que substituiu a mamografia no rastreio."
+"Deve ser encaminhada para ressonância de mamas, exame que substituiu a mamografia no rastreio.",
+"Pode fazer o exame, decidindo com o profissional de saúde depois de discutir riscos e benefícios."
 ],
-"gab": 3,
+"gab": 4,
 "tema": "onco",
 "cenario": "amb",
 "comp": "prev",
@@ -763,20 +763,20 @@ window.BANCO=[
 "O corte de cinquenta anos era a regra anterior; a diretriz de 2025 e a lei sancionada naquele ano ampliaram o acesso desde os 40.",
 "Rastreamento não é obrigação e a periodicidade anual nessa faixa não é o que a diretriz define — a decisão é compartilhada.",
 "Nódulo palpável não é rastreamento, é investigação diagnóstica: são situações distintas com condutas e prazos distintos.",
-"Correta: a partir dos 40 anos o exame está disponível no SUS por decisão compartilhada, após discussão de riscos e benefícios.",
-"A ressonância é reservada a situações específicas, como risco muito elevado, e não substituiu a mamografia no rastreamento."
+"A ressonância é reservada a situações específicas, como risco muito elevado, e não substituiu a mamografia no rastreamento.",
+"Correta: a partir dos 40 anos o exame está disponível no SUS por decisão compartilhada, após discussão de riscos e benefícios."
 ]
 },
 {
 "q": "Homem de 57 anos, assintomático, sem história familiar de neoplasia, chega ao ambulatório dizendo que viu uma campanha e quer 'fazer o exame da próstata'. Considerando o posicionamento do Ministério da Saúde e do INCA, qual é a conduta apropriada?",
 "alts": [
-"Discutir riscos e benefícios e decidir com ele, já que não há rastreamento populacional recomendado.",
 "Solicitar de imediato PSA e toque retal, exames que compõem o rastreamento populacional oficial.",
 "Recusar qualquer investigação, pois o rastreamento é formalmente proibido em homens assintomáticos.",
 "Solicitar ressonância multiparamétrica de próstata como primeiro exame de rastreio nessa faixa etária.",
-"Encaminhar direto ao urologista para biópsia prostática, independentemente de qualquer exame prévio."
+"Encaminhar direto ao urologista para biópsia prostática, independentemente de qualquer exame prévio.",
+"Discutir riscos e benefícios e decidir com ele, já que não há rastreamento populacional recomendado."
 ],
-"gab": 0,
+"gab": 4,
 "tema": "onco",
 "cenario": "amb",
 "comp": "prev",
@@ -784,11 +784,11 @@ window.BANCO=[
 "base": "Nota técnica do Ministério da Saúde e do INCA, 2023 — não recomendação do rastreamento populacional do câncer de próstata",
 "coment": "O Ministério da Saúde e o INCA não recomendam o rastreamento populacional do câncer de próstata: os estudos não mostraram impacto relevante sobre a mortalidade e há dano documentado por sobrediagnóstico e sobretratamento, com incontinência e disfunção erétil. O que se orienta é a decisão compartilhada com o homem que procura o serviço solicitando o exame, após discussão franca de riscos e benefícios — posição diferente de proibir o exame. Note o contraste com o rastreamento de mama, que é organizado e recomendado por faixa etária; confundir os dois é erro frequente.",
 "porAlt": [
-"Correta: não há rastreamento populacional recomendado, e a conduta é a decisão compartilhada com quem procura o serviço pedindo o exame.",
 "Não existe programa de rastreamento populacional de próstata no país, e solicitar de rotina contraria a nota técnica vigente.",
 "O posicionamento é de não recomendar o rastreamento organizado, e não de proibir o exame a quem decide fazê-lo após ser informado.",
 "A ressonância multiparamétrica tem papel na investigação de alterações já detectadas, e não como exame inicial de rastreamento.",
-"Biópsia sem indicação prévia é conduta invasiva e injustificada em homem assintomático, sem exame nenhum que a fundamente."
+"Biópsia sem indicação prévia é conduta invasiva e injustificada em homem assintomático, sem exame nenhum que a fundamente.",
+"Correta: não há rastreamento populacional recomendado, e a conduta é a decisão compartilhada com quem procura o serviço pedindo o exame."
 ]
 },
 {
@@ -796,11 +796,11 @@ window.BANCO=[
 "alts": [
 "Manter a dose atual e acrescentar zolpidem à noite, para melhorar a qualidade do sono dela.",
 "Substituir por um benzodiazepínico de meia-vida mais longa, que costuma provocar menos queda.",
-"Suspender o clonazepam de forma abrupta hoje, já que a droga é inadequada para essa idade.",
 "Planejar a retirada gradual do benzodiazepínico, associando medidas de higiene do sono.",
+"Suspender o clonazepam de forma abrupta hoje, já que a droga é inadequada para essa idade.",
 "Acrescentar um anti-histamínico de primeira geração à noite, opção mais segura para idosos."
 ],
-"gab": 3,
+"gab": 2,
 "tema": "geriatria",
 "cenario": "amb",
 "comp": "tto",
@@ -810,8 +810,8 @@ window.BANCO=[
 "porAlt": [
 "O zolpidem consta da mesma lista de medicamentos inapropriados e associa-se a queda e fratura, somando risco em vez de resolver.",
 "Meia-vida longa é justamente o que piora o acúmulo e a sonolência residual no idoso, com mais queda, e não menos.",
-"A retirada abrupta após oito anos de uso arrisca abstinência, com ansiedade de rebote, insônia grave e até convulsão.",
 "Correta: desprescrição gradual com medidas não farmacológicas é a conduta indicada diante de quedas e sonolência em uso crônico.",
+"A retirada abrupta após oito anos de uso arrisca abstinência, com ansiedade de rebote, insônia grave e até convulsão.",
 "Anti-histamínicos de primeira geração são fortemente anticolinérgicos e constam da lista de inapropriados por delirium e retenção."
 ]
 },
@@ -819,12 +819,12 @@ window.BANCO=[
 "q": "Homem de 84 anos, internado há três dias por pneumonia, apresenta início agudo de desorientação, com flutuação ao longo do dia, desatenção e inversão do ciclo sono-vigília. Não há déficit focal novo e a tomografia de crânio é normal. Qual é a abordagem inicial correta?",
 "alts": [
 "Iniciar haloperidol de horário para todos os dias da internação, prevenindo novos episódios.",
-"Buscar e corrigir todas as causas, com medidas ambientais e de reorientação como primeira linha.",
 "Prescrever benzodiazepínico à noite, que seria a droga de escolha no manejo inicial do quadro.",
 "Solicitar ressonância de crânio com contraste antes de qualquer intervenção terapêutica dele.",
+"Buscar e corrigir todas as causas, com medidas ambientais e de reorientação como primeira linha.",
 "Instituir contenção mecânica no leito de rotina, garantindo a segurança do paciente à noite."
 ],
-"gab": 1,
+"gab": 3,
 "tema": "geriatria",
 "cenario": "enf",
 "comp": "dx",
@@ -833,22 +833,22 @@ window.BANCO=[
 "coment": "O quadro é delirium: início agudo, curso flutuante, desatenção e alteração do nível de consciência. O tratamento é a correção da causa — infecção, dor, retenção urinária, constipação, distúrbio hidroeletrolítico, droga nova — somada a medidas não farmacológicas: reorientação, mobilização precoce, óculos e aparelho auditivo disponíveis, higiene do sono, presença de familiar. Antipsicótico é reservado para agitação que ameaça a segurança, na menor dose e pelo menor tempo, nunca de horário profilático. Benzodiazepínico piora o delirium, exceto na abstinência alcoólica. Contenção mecânica de rotina agrava agitação e aumenta lesão.",
 "porAlt": [
 "Antipsicótico de horário como profilaxia não reduz delirium e acrescenta risco cardiovascular e extrapiramidal ao idoso.",
-"Correta: a base do tratamento é corrigir a causa e aplicar medidas não farmacológicas de reorientação e higiene do sono.",
 "Benzodiazepínico agrava o delirium na imensa maioria dos casos; a exceção é o delirium por abstinência alcoólica.",
 "A tomografia já é normal e não há déficit focal: pedir ressonância antes de tratar atrasa a correção da causa real.",
+"Correta: a base do tratamento é corrigir a causa e aplicar medidas não farmacológicas de reorientação e higiene do sono.",
 "A contenção mecânica de rotina aumenta agitação, lesão de pele e tempo de delirium, além de ferir a dignidade do paciente."
 ]
 },
 {
 "q": "Durante a consulta de um homem de 79 anos com hipertensão, diabetes e artrose, o residente aplica um instrumento que avalia funcionalidade, cognição, humor, mobilidade, nutrição, suporte social e medicamentos em uso, para então definir o plano de cuidado. Que abordagem é essa e qual sua principal utilidade?",
 "alts": [
-"Anamnese dirigida por aparelhos, que substitui com vantagem a avaliação funcional do idoso.",
 "Avaliação geriátrica ampla, que identifica problemas não detectados na consulta convencional.",
+"Anamnese dirigida por aparelhos, que substitui com vantagem a avaliação funcional do idoso.",
 "Triagem de fragilidade isolada, cujo único objetivo é decidir sobre internação de longa duração.",
 "Escala prognóstica de mortalidade, usada apenas para definir quem recebe cuidados paliativos.",
 "Rastreamento oncológico ampliado, que orienta quais exames de imagem devem ser solicitados."
 ],
-"gab": 1,
+"gab": 0,
 "tema": "geriatria",
 "cenario": "amb",
 "comp": "prev",
@@ -856,8 +856,8 @@ window.BANCO=[
 "base": "Diretrizes de avaliação geriátrica ampla — Ministério da Saúde, Caderno de Atenção Básica nº 19, e AGS 2023",
 "coment": "A avaliação geriátrica ampla é multidimensional: examina funcionalidade nas atividades básicas e instrumentais, cognição, humor, mobilidade e risco de queda, nutrição, continência, visão e audição, suporte social e medicamentos em uso. Seu valor está em revelar o que a consulta orientada por queixa não alcança — declínio cognitivo inicial, depressão, sarcopenia, polifarmácia, isolamento —, condições que mudam o plano terapêutico e predizem desfecho melhor que o diagnóstico isolado. É ferramenta de planejamento do cuidado, não escala prognóstica nem critério para institucionalização.",
 "porAlt": [
-"A anamnese por aparelhos não capta funcionalidade, cognição, humor nem suporte social, que são os eixos que mudam o plano.",
 "Correta: é a avaliação geriátrica ampla, cuja força está em detectar problemas que a consulta orientada por queixa não revela.",
+"A anamnese por aparelhos não capta funcionalidade, cognição, humor nem suporte social, que são os eixos que mudam o plano.",
 "A avaliação vai muito além de triar fragilidade e não tem como finalidade decidir internação de longa permanência.",
 "Não se trata de escala prognóstica: o objetivo é planejar o cuidado, e não selecionar quem recebe cuidados paliativos.",
 "Rastreamento oncológico é apenas um item possível do plano, e não o objetivo de uma avaliação multidimensional."
@@ -866,13 +866,13 @@ window.BANCO=[
 {
 "q": "Homem de 52 anos, obeso e hipertenso, está no terceiro dia de crise de gota confirmada em primeiro pododáctilo, com boa resposta à anti-inflamatória. O ácido úrico é de 9,2 mg/dL e ele já teve três crises no último ano. Nunca usou terapia hipouricemiante. Qual é a conduta correta agora?",
 "alts": [
-"Iniciar alopurinol já, sempre com profilaxia anti-inflamatória e alvo de urato abaixo de 6 mg/dL.",
 "Aguardar a resolução completa da crise por trinta dias antes de iniciar qualquer hipouricemiante.",
 "Iniciar apenas dieta com restrição de purinas, que sozinha alcança o alvo de urato na maioria.",
 "Prescrever colchicina em uso contínuo isolado, sem associar qualquer droga que reduza o urato.",
+"Iniciar alopurinol já, sempre com profilaxia anti-inflamatória e alvo de urato abaixo de 6 mg/dL.",
 "Indicar o febuxostate como primeira escolha em todos os pacientes com indicação de tratamento."
 ],
-"gab": 0,
+"gab": 3,
 "tema": "reumato",
 "cenario": "amb",
 "comp": "tto",
@@ -880,10 +880,10 @@ window.BANCO=[
 "base": "American College of Rheumatology 2020 — Guideline for the Management of Gout",
 "coment": "A diretriz de 2020 recomenda fortemente a terapia hipouricemiante para quem tem duas ou mais crises por ano, tofos ou dano radiográfico — este paciente teve três. O alopurinol é a primeira linha, inclusive em doença renal crônica, iniciado em dose baixa e titulado até o alvo de urato sérico abaixo de 6 mg/dL, com profilaxia anti-inflamatória por três a seis meses para evitar as crises de mobilização. Outra mudança relevante: não é preciso esperar a crise passar para começar, desde que o paciente esteja em tratamento anti-inflamatório adequado. O febuxostate é segunda linha, com alerta cardiovascular.",
 "porAlt": [
-"Correta: com três crises no ano há indicação forte de hipouricemiante, começando alopurinol com profilaxia e alvo abaixo de 6 mg/dL.",
 "A recomendação atual permite iniciar durante a crise, desde que sob tratamento anti-inflamatório — esperar só adia a prevenção.",
 "A dieta isolada reduz pouco o urato sérico e raramente alcança o alvo em quem já tem crises recorrentes documentadas.",
 "A colchicina isolada previne crises, mas não reduz o urato nem dissolve os depósitos que causam a doença.",
+"Correta: com três crises no ano há indicação forte de hipouricemiante, começando alopurinol com profilaxia e alvo abaixo de 6 mg/dL.",
 "O febuxostate é alternativa de segunda linha e carrega alerta de mortalidade cardiovascular em pacientes de risco."
 ]
 },
@@ -892,11 +892,11 @@ window.BANCO=[
 "alts": [
 "Corticoide em dose alta de forma contínua e indefinida, base do tratamento de manutenção do lúpus.",
 "Apenas anti-inflamatórios não esteroidais, reservando imunossupressor para quadros bem mais graves.",
-"Hidroxicloroquina, recomendada para todos os pacientes com lúpus, salvo contraindicação formal.",
 "Metotrexato isolado como droga de escolha em qualquer manifestação renal do lúpus eritematoso.",
-"Rituximabe em primeira linha para todos os casos com envolvimento renal detectado no diagnóstico."
+"Rituximabe em primeira linha para todos os casos com envolvimento renal detectado no diagnóstico.",
+"Hidroxicloroquina, recomendada para todos os pacientes com lúpus, salvo contraindicação formal."
 ],
-"gab": 2,
+"gab": 4,
 "tema": "reumato",
 "cenario": "amb",
 "comp": "tto",
@@ -906,21 +906,21 @@ window.BANCO=[
 "porAlt": [
 "Corticoide em dose alta e contínua é a principal fonte de dano acumulado no lúpus; a meta é a menor dose com desmame.",
 "Anti-inflamatório isolado não controla atividade sistêmica e ainda arrisca a função renal já comprometida pela proteinúria.",
-"Correta: hidroxicloroquina é indicada a todos os pacientes com lúpus, salvo contraindicação, com controle oftalmológico periódico.",
 "Metotrexato ajuda em manifestação articular e cutânea, mas não é a droga de escolha para o acometimento renal do lúpus.",
-"Rituximabe é opção de resgate em doença refratária, e não terapia inicial universal para todo envolvimento renal."
+"Rituximabe é opção de resgate em doença refratária, e não terapia inicial universal para todo envolvimento renal.",
+"Correta: hidroxicloroquina é indicada a todos os pacientes com lúpus, salvo contraindicação, com controle oftalmológico periódico."
 ]
 },
 {
 "q": "Mulher de 46 anos tem poliartrite simétrica de pequenas articulações das mãos há cinco meses, com rigidez matinal de duas horas, fator reumatoide e anti-CCP positivos e erosões incipientes em radiografia. Foi confirmado o diagnóstico de artrite reumatoide. Qual é a conduta inicial recomendada?",
 "alts": [
+"Iniciar metotrexato como droga modificadora de primeira escolha, com corticoide em ponte breve.",
 "Iniciar imunobiológico anti-TNF de imediato, dispensando as drogas sintéticas convencionais.",
 "Prescrever anti-inflamatório e reavaliar em seis meses antes de decidir a terapia de base dela.",
-"Iniciar metotrexato como droga modificadora de primeira escolha, com corticoide em ponte breve.",
 "Iniciar corticoide isolado em dose baixa por tempo indeterminado, sem droga modificadora dela.",
 "Aguardar novas erosões radiográficas antes de introduzir droga modificadora do curso da doença."
 ],
-"gab": 2,
+"gab": 0,
 "tema": "reumato",
 "cenario": "amb",
 "comp": "tto",
@@ -928,9 +928,9 @@ window.BANCO=[
 "base": "American College of Rheumatology 2021 — Guideline for the Treatment of Rheumatoid Arthritis",
 "coment": "O metotrexato é a droga modificadora de primeira escolha na artrite reumatoide, inclusive na doença moderada a grave, por eficácia, custo e experiência acumulada. O corticoide pode ser usado como ponte, na menor dose e pelo menor tempo, enquanto a droga modificadora atinge o efeito pleno em oito a doze semanas. O conceito que orienta tudo é a janela de oportunidade: iniciar nos primeiros meses muda a história natural da doença e previne dano estrutural. Esperar novas erosões para tratar é exatamente o erro que a estratégia de tratamento por meta veio corrigir.",
 "porAlt": [
+"Correta: metotrexato é a primeira escolha, com corticoide apenas como ponte breve até a droga modificadora agir.",
 "O anti-TNF entra após falha ou intolerância ao metotrexato; usá-lo de saída eleva custo e risco sem ganho demonstrado.",
 "Anti-inflamatório apenas alivia sintoma e não impede erosão; adiar seis meses desperdiça a janela de oportunidade.",
-"Correta: metotrexato é a primeira escolha, com corticoide apenas como ponte breve até a droga modificadora agir.",
 "Corticoide isolado por tempo indeterminado não controla a progressão estrutural e acumula dano ósseo e metabólico.",
 "Esperar novas erosões para tratar inverte a lógica atual, que é tratar cedo e por meta para evitar o dano."
 ]
@@ -938,13 +938,13 @@ window.BANCO=[
 {
 "q": "Homem de 68 anos apresenta lombalgia progressiva, anemia com hemoglobina de 8,9 g/dL, creatinina de 2,3 mg/dL e cálcio de 11,6 mg/dL. A eletroforese mostra pico monoclonal e a medula tem 42% de plasmócitos clonais. Considerando os critérios diagnósticos vigentes, o que o quadro caracteriza?",
 "alts": [
-"Mieloma múltiplo, pois há plasmocitose clonal com lesão de órgão-alvo atribuível à doença.",
 "Gamopatia monoclonal de significado indeterminado, que dispensa tratamento e só exige controle.",
 "Mieloma indolente, condição sem lesão de órgão-alvo e que também não requer tratamento imediato.",
 "Amiloidose de cadeia leve, hipótese que a plasmocitose medular elevada torna praticamente certa.",
+"Mieloma múltiplo, pois há plasmocitose clonal com lesão de órgão-alvo atribuível à doença.",
 "Metástase óssea de tumor sólido oculto, explicando de forma mais simples a hipercalcemia do caso."
 ],
-"gab": 0,
+"gab": 3,
 "tema": "hemato",
 "cenario": "amb",
 "comp": "dx",
@@ -952,10 +952,10 @@ window.BANCO=[
 "base": "International Myeloma Working Group, 2014 — critérios diagnósticos revisados (CRAB e critérios SLiM)",
 "coment": "O diagnóstico exige plasmócitos clonais na medula em 10% ou mais, ou plasmocitoma comprovado, somados a pelo menos um evento definidor. Os eventos clássicos formam o acrônimo CRAB: hipercalcemia, insuficiência renal, anemia e lesão óssea. Os critérios revisados acrescentaram os eventos SLiM, que definem mieloma mesmo sem lesão de órgão: plasmocitose medular de 60% ou mais, relação de cadeias leves livres envolvida sobre não envolvida de 100 ou mais, e mais de uma lesão focal à ressonância. Este paciente reúne plasmocitose de 42% com hipercalcemia, insuficiência renal e anemia — três eventos CRAB.",
 "porAlt": [
-"Correta: plasmocitose clonal acima de 10% com hipercalcemia, insuficiência renal e anemia fecha o diagnóstico de mieloma múltiplo.",
 "A gamopatia de significado indeterminado exige plasmocitose abaixo de 10% e ausência de lesão de órgão, o oposto do quadro.",
 "O mieloma indolente pressupõe justamente a ausência de lesão de órgão-alvo, que aqui está presente em três eixos distintos.",
 "A amiloidose exige comprovação de depósito amiloide em tecido, e a plasmocitose medular sozinha não estabelece esse diagnóstico.",
+"Correta: plasmocitose clonal acima de 10% com hipercalcemia, insuficiência renal e anemia fecha o diagnóstico de mieloma múltiplo.",
 "Metástase de tumor sólido não explica o pico monoclonal nem a plasmocitose clonal encontrada no aspirado de medula óssea."
 ]
 },
@@ -963,12 +963,12 @@ window.BANCO=[
 "q": "Homem de 61 anos, assintomático, tem hemoglobina de 10,2 g/dL, volume corpuscular médio de 72 fL e ferritina de 8 ng/mL em exames de rotina. Não usa anti-inflamatório e não tem sangramento aparente. Além de repor ferro, qual é a conduta obrigatória nesse caso?",
 "alts": [
 "Repor ferro por três meses e repetir apenas o hemograma, sem qualquer investigação adicional.",
-"Solicitar mielograma como primeiro exame, para excluir doença primária da medula óssea dele.",
 "Investigar todo o trato gastrointestinal com endoscopia alta e colonoscopia para achar a perda.",
+"Solicitar mielograma como primeiro exame, para excluir doença primária da medula óssea dele.",
 "Transfundir concentrado de hemácias antes de qualquer investigação diagnóstica desse paciente.",
 "Repetir a ferritina em um ano, já que ele está assintomático e não relata perda de sangue visível."
 ],
-"gab": 2,
+"gab": 1,
 "tema": "hemato",
 "cenario": "amb",
 "comp": "dx",
@@ -977,8 +977,8 @@ window.BANCO=[
 "coment": "Anemia ferropriva em homem adulto ou em mulher após a menopausa é perda sanguínea gastrointestinal até prova em contrário, e a investigação com endoscopia alta e colonoscopia é obrigatória mesmo sem sangramento visível — o objetivo é encontrar câncer colorretal ou gástrico em fase tratável. Repor ferro sem investigar corrige o número e mascara a doença, um dos erros mais custosos da clínica ambulatorial. Ferritina abaixo de 30 ng/mL já confirma deficiência de ferro; abaixo de 15 é diagnóstica com certeza ainda maior. Mielograma não é exame de primeira linha nesse contexto.",
 "porAlt": [
 "Repor ferro e acompanhar apenas o hemograma normaliza o exame e mascara a neoplasia que poderia ser achada a tempo.",
-"O mielograma é invasivo e desnecessário aqui: a ferritina baixa já define a causa da anemia como carência de ferro.",
 "Correta: em homem com anemia ferropriva, a investigação endoscópica alta e baixa é obrigatória para localizar a perda oculta.",
+"O mielograma é invasivo e desnecessário aqui: a ferritina baixa já define a causa da anemia como carência de ferro.",
 "Não há indicação de transfusão em paciente assintomático com esse nível de hemoglobina e anemia de instalação lenta.",
 "Adiar a investigação por um ano em quem tem ferropenia franca é justamente o atraso que muda o estágio de um tumor."
 ]
@@ -1005,6 +1005,150 @@ window.BANCO=[
 "Correta: opioide parenteral na primeira hora, com reavaliação frequente e titulação, é o padrão para a crise vaso-oclusiva.",
 "Analgésico simples e seis horas de espera em dor 9 de 10 configura subtratamento, um problema bem documentado nessa população.",
 "Transfusão não está indicada de rotina na crise dolorosa não complicada, e expõe a paciente a aloimunização evitável."
+]
+},
+{
+"q": "Homem de 62 anos, diabético, é internado com febre e dor intensa em perna direita, desproporcional aos achados. A pele mostra eritema de limites imprecisos, bolhas hemorrágicas e áreas acinzentadas, com crepitação à palpação. Está taquicárdico e hipotenso. Qual é a conduta imediata?",
+"alts": [
+"Acionar a cirurgia para exploração e desbridamento, junto de antimicrobiano de amplo espectro.",
+"Iniciar cefalexina por via oral e reavaliar a lesão em quarenta e oito horas de acompanhamento.",
+"Solicitar ressonância magnética do membro antes de qualquer decisão sobre abordagem cirúrgica.",
+"Prescrever corticoide sistêmico para reduzir o edema e a inflamação local antes de outra medida.",
+"Elevar o membro e aplicar compressas frias, reavaliando a evolução ao longo do próximo plantão."
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "IDSA 2014 — Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections",
+"coment": "Dor desproporcional aos achados de pele, bolhas hemorrágicas, áreas acinzentadas de necrose, crepitação e sinais sistêmicos configuram fasciíte necrosante — emergência cirúrgica. O diagnóstico é clínico e a exploração cirúrgica é ao mesmo tempo diagnóstica e terapêutica: nenhum exame de imagem deve atrasá-la em paciente com quadro compatível e instabilidade. O antimicrobiano de amplo espectro cobre gram-positivos, gram-negativos e anaeróbios, com clindamicina pelo efeito antitoxina, mas é adjuvante — o que muda a mortalidade é o desbridamento precoce.",
+"porAlt": [
+"Correta: fasciíte necrosante é emergência cirúrgica; a exploração precoce com antimicrobiano de amplo espectro é o que reduz mortalidade.",
+"Antibiótico oral para celulite não trata infecção necrosante e desperdiça as horas em que o desbridamento ainda mudaria o desfecho.",
+"A ressonância pode auxiliar em casos duvidosos e estáveis, mas aqui atrasaria a cirurgia em paciente já com sinais de choque.",
+"Corticoide não tem papel no tratamento e a imunossupressão adicional pode favorecer a progressão da infecção nos tecidos.",
+"Medidas locais são conduta de celulite não complicada e deixariam progredir uma necrose que avança em horas pelo plano fascial."
+]
+},
+{
+"q": "Mulher de 41 anos com lúpus é internada por atividade de doença e recebe prednisona em dose alta. No quinto dia surgem lesões cutâneas, e o exame mostra descolamento epidérmico ao atrito lateral, com acometimento de mucosa oral e ocular, após ter iniciado sulfametoxazol-trimetoprima há dez dias. Qual é a conduta prioritária?",
+"alts": [
+"Manter o antimicrobiano e apenas acrescentar anti-histamínico para o controle sintomático das lesões.",
+"Iniciar imunoglobulina venosa como primeira e única medida, sem alterar o esquema em uso agora.",
+"Suspender de imediato todo fármaco suspeito e transferir para unidade de cuidado especializado.",
+"Aplicar corticoide tópico potente nas lesões e reavaliar a evolução na visita do dia seguinte.",
+"Aumentar a dose da prednisona e manter todos os fármacos, atribuindo o quadro à atividade do lúpus."
+],
+"gab": 2,
+"tema": "derma",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r2",
+"base": "Diretrizes de manejo da necrólise epidérmica tóxica — British Association of Dermatologists, 2016",
+"coment": "O sinal de Nikolsky com acometimento de duas ou mais mucosas, surgindo entre uma e três semanas após início de fármaco de alto risco — sulfonamidas, alopurinol, anticonvulsivantes, nevirapina, oxicams —, é síndrome de Stevens-Johnson ou necrólise epidérmica tóxica. A medida isolada com maior impacto na mortalidade é a suspensão imediata do fármaco causador, seguida de cuidado em unidade de queimados ou terapia intensiva, com suporte hidroeletrolítico, controle de dor, cuidado ocular precoce e vigilância de infecção. Atribuir o quadro à doença de base e manter a droga é o erro mais custoso.",
+"porAlt": [
+"Manter o fármaco causador perpetua a agressão epidérmica, e anti-histamínico não tem qualquer efeito sobre a necrólise em curso.",
+"A imunoglobulina é discutida como adjuvante, mas jamais substitui a suspensão do fármaco e o suporte em unidade especializada.",
+"Correta: suspender o fármaco suspeito de imediato e transferir para cuidado especializado é o que mais impacta a mortalidade.",
+"Corticoide tópico é inócuo diante de descolamento epidérmico extenso, e esperar até o dia seguinte custa área de pele acometida.",
+"Atribuir ao lúpus e manter todas as drogas é o erro clássico: a cronologia e o sinal de Nikolsky apontam para reação ao fármaco."
+]
+},
+{
+"q": "Homem de 47 anos, etilista crônico, está internado por pancreatite. Cerca de 60 horas após a última dose de álcool, apresenta tremor, agitação, alucinações visuais, desorientação, taquicardia e febre baixa. Não há sinais de infecção nem alteração tomográfica. Qual é o tratamento de primeira linha?",
+"alts": [
+"Haloperidol em dose alta como droga isolada, por controlar melhor a alucinação visual do quadro.",
+"Reintroduzir bebida alcoólica de forma controlada até que os sintomas de abstinência desapareçam.",
+"Benzodiazepínico titulado por escala de sintomas, associado à reposição de tiamina parenteral.",
+"Contenção mecânica com observação clínica, evitando qualquer sedação que mascare a evolução.",
+"Infusão de glicose hipertônica isolada, antes de qualquer outra medida farmacológica no caso."
+],
+"gab": 2,
+"tema": "psiq",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r1",
+"base": "American Society of Addiction Medicine, 2020 — Clinical Practice Guideline on Alcohol Withdrawal Management",
+"coment": "O quadro é delirium tremens: surge entre 48 e 96 horas após a última dose, com alteração do sensório, alucinações, hiperatividade autonômica e febre, e tem mortalidade relevante se não tratado. O tratamento de primeira linha é o benzodiazepínico, titulado por escala de sintomas como a CIWA-Ar, associado à tiamina parenteral antes de qualquer carga de glicose — administrar glicose primeiro em desnutrido pode precipitar encefalopatia de Wernicke. O antipsicótico é adjuvante para alucinação persistente, nunca substituto, porque reduz o limiar convulsivo e não previne convulsão de abstinência.",
+"porAlt": [
+"O haloperidol isolado reduz o limiar convulsivo e não previne a convulsão de abstinência, sendo apenas adjuvante da agitação.",
+"Reintroduzir álcool não é tratamento: não corrige a hiperexcitabilidade e mantém a dependência que motivou o quadro atual.",
+"Correta: benzodiazepínico titulado por escala somado a tiamina parenteral é o tratamento de primeira linha do delirium tremens.",
+"Contenção sem sedação adequada agrava agitação, rabdomiólise e hipertermia, além de não tratar a hiperatividade autonômica.",
+"Glicose antes da tiamina em paciente desnutrido pode precipitar encefalopatia de Wernicke, e isolada não trata a abstinência."
+]
+},
+{
+"q": "Mulher de 68 anos chega à emergência com dor ocular intensa à direita, visão embaçada com halos ao redor das luzes, náusea e vômito. Ao exame, o olho está hiperemiado, a córnea embaçada e a pupila em midríase média, pouco reativa. Qual é a conduta correta?",
+"alts": [
+"Tratar como glaucoma agudo de ângulo fechado e acionar a oftalmologia com urgência máxima.",
+"Prescrever colírio de tropicamida para dilatar a pupila e facilitar o exame de fundo de olho.",
+"Tratar como conjuntivite viral com colírio lubrificante e reavaliar em uma semana no ambulatório.",
+"Ocluir o olho com curativo compressivo e prescrever analgésico simples por via oral em casa.",
+"Solicitar tomografia de crânio e adiar a avaliação oftalmológica até que o exame fique pronto."
+],
+"gab": 0,
+"tema": "oftalmo",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "American Academy of Ophthalmology, 2020 — Preferred Practice Pattern: Primary Angle Closure Disease",
+"coment": "Dor ocular intensa com halos, náusea, olho vermelho, córnea embaçada e pupila em midríase média fixa é glaucoma agudo de ângulo fechado — emergência que leva a perda visual irreversível em horas. A conduta é acionar a oftalmologia de imediato e iniciar redução da pressão intraocular com hipotensores tópicos e sistêmicos, seguida de iridotomia a laser. O erro mais grave é dilatar a pupila: midriático fecha ainda mais o ângulo e agrava a crise. Náusea e vômito com cefaleia frequentemente desviam o raciocínio para abdome ou crânio, atrasando o diagnóstico.",
+"porAlt": [
+"Correta: o quadro é glaucoma agudo de ângulo fechado, emergência que exige oftalmologia imediata e redução da pressão intraocular.",
+"Dilatar a pupila fecha ainda mais o ângulo e agrava a crise — é a conduta mais perigosa diante dessa apresentação clínica.",
+"A conjuntivite não cursa com dor intensa, halos, córnea embaçada nem alteração pupilar; tratar assim custa a visão do olho.",
+"A oclusão não reduz a pressão intraocular e o analgésico apenas mascara o sintoma enquanto o nervo óptico sofre dano.",
+"A tomografia não faz o diagnóstico e o atraso na avaliação oftalmológica é o que determina a perda visual definitiva."
+]
+},
+{
+"q": "Homem de 52 anos, hipertenso, chega à emergência com epistaxe volumosa à direita há 40 minutos, sem trauma. A pressão arterial é de 178/98 mmHg. Após compressão digital das asas nasais por 15 minutos, o sangramento persiste e ele engole sangue. Qual é a conduta seguinte?",
+"alts": [
+"Manter apenas a compressão digital por mais uma hora antes de considerar qualquer intervenção.",
+"Inclinar a cabeça para trás, para reduzir o gotejamento anterior enquanto o sangramento cessa.",
+"Realizar tamponamento nasal anterior e avaliar sinais de sangramento posterior associado.",
+"Aplicar bolsa de gelo na região cervical, medida que costuma interromper o sangramento.",
+"Solicitar angiotomografia de artérias nasais antes de qualquer tentativa de tamponamento local."
+],
+"gab": 2,
+"tema": "orl",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "American Academy of Otolaryngology–Head and Neck Surgery, 2020 — Clinical Practice Guideline: Nosebleed (Epistaxis)",
+"coment": "Falhada a compressão digital correta — sobre as asas nasais, cabeça inclinada para a frente, por 10 a 15 minutos ininterruptos —, o passo seguinte é o tamponamento nasal anterior, com avaliação de sangramento posterior. Sangue escorrendo pela orofaringe sugere origem posterior, que costuma exigir tamponamento específico e internação, pelo risco de sangramento volumoso e de complicações. Inclinar a cabeça para trás faz o paciente deglutir sangue, mascara o volume perdido e provoca vômito com risco de aspiração. Gelo cervical não tem eficácia demonstrada e não substitui o tamponamento.",
+"porAlt": [
+"Prolongar a compressão por mais uma hora após a falha só adia o controle e aumenta a perda sanguínea do paciente.",
+"Inclinar a cabeça para trás faz deglutir sangue, mascara o volume perdido e arrisca vômito com aspiração.",
+"Correta: falhada a compressão, o passo é o tamponamento anterior, checando se há sangramento posterior associado.",
+"O gelo cervical não tem eficácia demonstrada para interromper epistaxe e não substitui o tamponamento nasal.",
+"A angiotomografia se reserva a sangramento refratário ou suspeita de lesão vascular, e não precede o tamponamento inicial."
+]
+},
+{
+"q": "Mulher de 27 anos chega à emergência com dor pélvica há três dias, corrimento vaginal e febre de 38,2 °C. Ao exame, há dor à mobilização do colo uterino e à palpação anexial, sem sinais de abdome agudo cirúrgico. O teste de gravidez é negativo e ela está hemodinamicamente estável. Qual é a conduta?",
+"alts": [
+"Aguardar o resultado da cultura endocervical antes de iniciar o antimicrobiano específico.",
+"Solicitar laparoscopia diagnóstica, exame obrigatório para confirmar o diagnóstico antes de tratar.",
+"Iniciar antimicrobiano para doença inflamatória pélvica, pois os critérios mínimos já bastam.",
+"Prescrever apenas anti-inflamatório e reavaliar em sete dias na unidade básica de referência.",
+"Indicar internação para todas as pacientes com essa apresentação, sem exceção de gravidade."
+],
+"gab": 2,
+"tema": "go",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "CDC 2021 — Sexually Transmitted Infections Treatment Guidelines, seção de doença inflamatória pélvica",
+"coment": "O tratamento empírico da doença inflamatória pélvica deve começar diante dos critérios mínimos em mulher sexualmente ativa com dor pélvica sem outra causa: dor à mobilização do colo, dor uterina ou dor anexial. O limiar é deliberadamente baixo porque o atraso custa infertilidade, dor pélvica crônica e gravidez ectópica, enquanto o custo de tratar sem confirmação é pequeno. Não se espera cultura para iniciar, e a laparoscopia é reservada a dúvida diagnóstica ou falha terapêutica. A internação é indicada em situações específicas — gestação, abscesso tubo-ovariano, falha do esquema oral, quadro grave —, não em todas.",
+"porAlt": [
+"Esperar a cultura atrasa o tratamento em dias e não muda a conduta inicial, que é empírica por definição nesse quadro.",
+"A laparoscopia não é exigida para o diagnóstico e fica reservada a casos duvidosos ou refratários ao esquema instituído.",
+"Correta: presentes os critérios mínimos, inicia-se o antimicrobiano empírico de imediato, pelo custo do atraso em sequelas.",
+"Anti-inflamatório isolado não trata a infecção e a espera de sete dias é exatamente o intervalo que gera sequela tubária.",
+"A internação tem critérios definidos e não se aplica a toda paciente estável que possa cumprir o esquema por via oral."
 ]
 }
 ];

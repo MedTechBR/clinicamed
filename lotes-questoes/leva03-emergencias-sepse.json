@@ -27,12 +27,12 @@
   "q": "Paciente de 61 anos internado em UTI com choque séptico por pneumonia recebeu a dose de ataque de piperacilina-tazobactam. A equipe discute como programar as doses de manutenção nas próximas 48 horas. Considerando a diretriz de sepse vigente, qual estratégia é recomendada?",
   "alts": [
    "Manter todas as doses em bolus rápido de trinta minutos, esquema que apresenta a melhor evidência.",
+   "Fazer a manutenção do betalactâmico em infusão prolongada, depois da dose de ataque já administrada.",
    "Espaçar as doses para uma vez ao dia, aproveitando o efeito pós-antibiótico próprio dos betalactâmicos.",
    "Trocar por um aminoglicosídeo em dose única diária, cuja ação depende do pico sérico alcançado.",
-   "Fazer a manutenção do betalactâmico em infusão prolongada, depois da dose de ataque já administrada.",
    "Suspender o antimicrobiano por 24 horas para colher novas culturas em vigência de janela terapêutica."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -41,22 +41,22 @@
   "coment": "Entre as novidades da diretriz de 2026 está a recomendação, e não mais apenas sugestão, de usar infusão prolongada de betalactâmicos na manutenção, após o bolus inicial, em vez da infusão convencional. O racional é farmacodinâmico: a eficácia dos betalactâmicos depende do tempo em que a concentração livre permanece acima da concentração inibitória mínima, e a infusão estendida amplia esse intervalo, sobretudo em patógenos com CIM elevada e em pacientes com volume de distribuição aumentado. A dose de ataque continua sendo em bolus, para atingir depressa a concentração-alvo. Suspender antimicrobiano em choque séptico para colher cultura é conduta perigosa.",
   "porAlt": [
    "O bolus convencional na manutenção deixa vales abaixo da concentração inibitória mínima, justamente o que a infusão estendida vem corrigir.",
+   "Correta: a diretriz de 2026 recomenda infusão prolongada dos betalactâmicos na manutenção, mantendo o bolus apenas para a dose de ataque.",
    "Betalactâmicos praticamente não têm efeito pós-antibiótico contra bacilos gram-negativos, de modo que espaçar as doses reduz a eficácia.",
    "O aminoglicosídeo tem morte bacteriana dependente de pico, mas não substitui o betalactâmico como terapia principal na pneumonia grave.",
-   "Correta: a diretriz de 2026 recomenda infusão prolongada dos betalactâmicos na manutenção, mantendo o bolus apenas para a dose de ataque.",
    "Suspender o antimicrobiano em vigência de choque séptico para colher cultura aumenta mortalidade e não tem respaldo em nenhuma diretriz."
   ]
  },
  {
   "q": "Mulher de 45 anos com sepse abdominal recebeu 30 mL/kg de cristaloide nas primeiras três horas. Está com pressão arterial média de 68 mmHg sem vasopressor, perfusão periférica adequada e diurese preservada, mas o lactato permanece em 3,2 mmol/L, com valor anterior de 4,0. Qual é a conduta correta quanto à reposição volêmica?",
   "alts": [
+   "Individualizar a reposição após o bolus inicial, sem infundir volume apenas para baixar o lactato.",
    "Infundir cristaloide em bolus repetidos até que o lactato sérico fique abaixo de 2,0 mmol/L no exame.",
    "Trocar todo o cristaloide restante por albumina a 20%, que corrige o lactato de forma mais rápida.",
    "Iniciar transfusão de concentrado de hemácias para melhorar o transporte de oxigênio e o lactato.",
-   "Suspender qualquer reavaliação do lactato, já que o exame não guia a ressuscitação da sepse hoje.",
-   "Individualizar a reposição após o bolus inicial, sem infundir volume apenas para baixar o lactato."
+   "Suspender qualquer reavaliação do lactato, já que o exame não guia a ressuscitação da sepse hoje."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "tto",
@@ -64,23 +64,23 @@
   "base": "Surviving Sepsis Campaign 2026 — lactato seriado e individualização da fluidoterapia após o bolus inicial",
   "coment": "A diretriz de 2026 sugere medidas seriadas de lactato para guiar a ressuscitação, mas foi explícita ao separar duas coisas que costumavam ser confundidas: acompanhar a tendência do lactato não significa infundir volume até que ele normalize. Depois do bolus inicial, a administração de fluidos deve ser individualizada, guiada por resposta hemodinâmica e por marcadores de perfusão, porque a hiperidratação piora desfechos. A paciente está com pressão adequada sem vasopressor, perfusão satisfatória e lactato em queda: a tendência já é favorável e o excesso de volume traria edema pulmonar, edema intestinal e disfunção renal.",
   "porAlt": [
+   "Correta: após o bolus inicial a fluidoterapia é individualizada, e a diretriz desaconselha infundir volume apenas para normalizar o lactato.",
    "Perseguir lactato abaixo de 2,0 mmol/L com bolus repetidos leva a sobrecarga hídrica, com piora de troca gasosa e de função renal.",
    "A albumina é alternativa em pacientes que já receberam grande volume de cristaloide, e não um agente que corrija o lactato mais depressa.",
    "Transfundir sem anemia significativa não melhora a perfusão tecidual e expõe a paciente aos riscos próprios da transfusão sanguínea.",
-   "O lactato seriado continua sugerido como ferramenta de acompanhamento; o que a diretriz nega é usá-lo como meta de infusão de volume.",
-   "Correta: após o bolus inicial a fluidoterapia é individualizada, e a diretriz desaconselha infundir volume apenas para normalizar o lactato."
+   "O lactato seriado continua sugerido como ferramenta de acompanhamento; o que a diretriz nega é usá-lo como meta de infusão de volume."
   ]
  },
  {
   "q": "Homem de 58 anos com choque séptico iniciou meropeném associado a vancomicina empiricamente. No terceiro dia, está estável, sem vasopressor, e a hemocultura identifica Escherichia coli sensível a ceftriaxona. As culturas de vigilância não mostram germe resistente. Qual é a conduta recomendada quanto ao esquema antimicrobiano?",
   "alts": [
+   "Descalonar o esquema para ceftriaxona, guiando-se pelo agente isolado e pelo perfil de sensibilidade.",
    "Manter meropeném e vancomicina até completar catorze dias, para não arriscar a recidiva da infecção.",
    "Acrescentar um aminoglicosídeo ao esquema atual, buscando sinergismo contra o bacilo gram-negativo.",
-   "Descalonar o esquema para ceftriaxona, guiando-se pelo agente isolado e pelo perfil de sensibilidade.",
    "Suspender de imediato todo antimicrobiano, uma vez que o paciente já se encontra clinicamente estável.",
    "Trocar a vancomicina por daptomicina e conservar o carbapenêmico até a alta hospitalar do paciente."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -88,9 +88,9 @@
   "base": "Surviving Sepsis Campaign 2026 — recomendação de descalonamento diante de diagnóstico microbiológico confirmado",
   "coment": "A diretriz de 2026 elevou o descalonamento ao status de recomendação: havendo diagnóstico microbiológico confirmado e perfil de sensibilidade disponível, deve-se estreitar o espectro em vez de manter a cobertura empírica ampla. Isolada Escherichia coli sensível a ceftriaxona, com paciente em melhora e sem evidência de cocos gram-positivos, mantêm-se apenas a droga necessária: retira-se a vancomicina e substitui-se o carbapenêmico. O benefício é duplo, individual e coletivo — menos toxicidade, menos infecção por Clostridioides difficile e menor pressão seletiva para resistência. Descalonar não é o mesmo que interromper o tratamento.",
   "porAlt": [
+   "Correta: com germe identificado e sensível, a diretriz recomenda descalonar para o antimicrobiano de menor espectro que cubra o agente isolado.",
    "Manter carbapenêmico e vancomicina sem indicação amplia toxicidade e pressão seletiva, sem reduzir a chance de recidiva da infecção tratada.",
    "O sinergismo com aminoglicosídeo não traz benefício na bacteriemia por gram-negativo sensível e acrescenta nefrotoxicidade ao tratamento.",
-   "Correta: com germe identificado e sensível, a diretriz recomenda descalonar para o antimicrobiano de menor espectro que cubra o agente isolado.",
    "Descalonar não significa suspender: a bacteriemia por Escherichia coli exige completar o tempo de tratamento previsto para o foco encontrado.",
    "A daptomicina não cobriria melhor este caso, e não há razão para manter cobertura para gram-positivos sem germe correspondente isolado."
   ]

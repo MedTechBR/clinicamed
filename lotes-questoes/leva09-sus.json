@@ -3,12 +3,12 @@
   "q": "Durante a discussão de um caso na enfermaria, o residente questiona por que um paciente do interior teve de ser transferido para a capital para fazer um exame que existe no município vizinho, mais próximo. A resposta passa por um princípio organizativo do SUS previsto em lei. Qual é esse princípio?",
   "alts": [
    "Universalidade do acesso, que garante atendimento a qualquer cidadão em qualquer serviço.",
+   "Regionalização e hierarquização, que organizam a rede em níveis de complexidade por região.",
    "Integralidade da assistência, que reúne ações preventivas e curativas em um mesmo serviço.",
    "Equidade no financiamento, que distribui os recursos federais conforme a receita do município.",
-   "Regionalização e hierarquização, que organizam a rede em níveis de complexidade por região.",
    "Participação da comunidade, exercida por conferências e conselhos de saúde nas três esferas."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -17,9 +17,9 @@
   "coment": "A Lei Orgânica da Saúde lista a regionalização e a hierarquização entre os princípios e diretrizes do SUS, e o Decreto nº 7.508/2011 detalhou o desenho: a região de saúde é o espaço em que se organiza a rede, com portas de entrada definidas e fluxo de referência pactuado na Comissão Intergestores. É por isso que o percurso do paciente segue a pactuação regional e não a simples proximidade geográfica — o município vizinho pode pertencer a outra região de saúde. Universalidade, integralidade e participação da comunidade também são princípios do SUS, mas respondem a outras perguntas.",
   "porAlt": [
    "A universalidade trata de quem tem direito ao atendimento, e não de como a rede se organiza no território para ofertá-lo.",
+   "Correta: regionalização e hierarquização organizam a rede por região de saúde e níveis de complexidade, com fluxos pactuados entre gestores.",
    "A integralidade trata do conjunto de ações a que o usuário tem direito, e não da distribuição dos serviços entre municípios.",
    "O financiamento tem regras próprias de repasse e não é o princípio que explica o percurso assistencial descrito no caso.",
-   "Correta: regionalização e hierarquização organizam a rede por região de saúde e níveis de complexidade, com fluxos pactuados entre gestores.",
    "A participação da comunidade se dá em conselhos e conferências, instâncias de controle social, e não no fluxo de referência."
   ]
  },
@@ -51,12 +51,12 @@
   "q": "Uma equipe de Saúde da Família acompanha um território com alta prevalência de hipertensão e diabetes, com muitas internações por complicações evitáveis. A coordenação propõe reorganizar o cuidado. Qual estratégia corresponde ao modelo de atenção às condições crônicas preconizado no SUS?",
   "alts": [
    "Ampliar o número de consultas de pronto atendimento, absorvendo a demanda espontânea gerada.",
-   "Estratificar o risco da população e organizar o cuidado continuado com plano por usuário.",
    "Encaminhar todos os hipertensos e diabéticos ao especialista focal para seguimento definitivo.",
    "Concentrar os recursos na compra de medicamentos, única medida com impacto real sobre o dano.",
-   "Priorizar campanhas pontuais de aferição de pressão, repetidas duas vezes ao longo de cada ano."
+   "Priorizar campanhas pontuais de aferição de pressão, repetidas duas vezes ao longo de cada ano.",
+   "Estratificar o risco da população e organizar o cuidado continuado com plano por usuário."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -65,10 +65,10 @@
   "coment": "O modelo de atenção às condições crônicas parte de uma constatação: a condição crônica não se resolve pela lógica do atendimento por queixa aguda. A proposta é conhecer a população adscrita, estratificar risco, definir plano de cuidado individual com metas pactuadas, apoiar o autocuidado e reservar o especialista para o apoio matricial e os casos de maior complexidade. Ampliar pronto atendimento trata a descompensação depois que ela ocorre e não reduz internação evitável. Campanhas pontuais de aferição captam casos, mas sem continuidade do cuidado não mudam desfecho.",
   "porAlt": [
    "Ampliar pronto atendimento absorve a descompensação já instalada e não atua sobre a causa das internações evitáveis.",
-   "Correta: estratificação de risco da população adscrita e plano de cuidado continuado por usuário são o núcleo do modelo.",
    "Encaminhar todos ao especialista desorganiza a rede e retira da atenção primária a coordenação do cuidado que lhe cabe.",
    "Medicamento é peça necessária mas insuficiente: sem vínculo, plano de cuidado e apoio ao autocuidado a adesão não se sustenta.",
-   "Campanhas pontuais até identificam casos, mas sem continuidade do cuidado não alteram o desfecho da condição crônica."
+   "Campanhas pontuais até identificam casos, mas sem continuidade do cuidado não alteram o desfecho da condição crônica.",
+   "Correta: estratificação de risco da população adscrita e plano de cuidado continuado por usuário são o núcleo do modelo."
   ]
  }
 ]

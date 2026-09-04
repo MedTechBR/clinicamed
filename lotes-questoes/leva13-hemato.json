@@ -2,13 +2,13 @@
  {
   "q": "Homem de 68 anos apresenta lombalgia progressiva, anemia com hemoglobina de 8,9 g/dL, creatinina de 2,3 mg/dL e cálcio de 11,6 mg/dL. A eletroforese mostra pico monoclonal e a medula tem 42% de plasmócitos clonais. Considerando os critérios diagnósticos vigentes, o que o quadro caracteriza?",
   "alts": [
-   "Mieloma múltiplo, pois há plasmocitose clonal com lesão de órgão-alvo atribuível à doença.",
    "Gamopatia monoclonal de significado indeterminado, que dispensa tratamento e só exige controle.",
    "Mieloma indolente, condição sem lesão de órgão-alvo e que também não requer tratamento imediato.",
    "Amiloidose de cadeia leve, hipótese que a plasmocitose medular elevada torna praticamente certa.",
+   "Mieloma múltiplo, pois há plasmocitose clonal com lesão de órgão-alvo atribuível à doença.",
    "Metástase óssea de tumor sólido oculto, explicando de forma mais simples a hipercalcemia do caso."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
@@ -16,10 +16,10 @@
   "base": "International Myeloma Working Group, 2014 — critérios diagnósticos revisados (CRAB e critérios SLiM)",
   "coment": "O diagnóstico exige plasmócitos clonais na medula em 10% ou mais, ou plasmocitoma comprovado, somados a pelo menos um evento definidor. Os eventos clássicos formam o acrônimo CRAB: hipercalcemia, insuficiência renal, anemia e lesão óssea. Os critérios revisados acrescentaram os eventos SLiM, que definem mieloma mesmo sem lesão de órgão: plasmocitose medular de 60% ou mais, relação de cadeias leves livres envolvida sobre não envolvida de 100 ou mais, e mais de uma lesão focal à ressonância. Este paciente reúne plasmocitose de 42% com hipercalcemia, insuficiência renal e anemia — três eventos CRAB.",
   "porAlt": [
-   "Correta: plasmocitose clonal acima de 10% com hipercalcemia, insuficiência renal e anemia fecha o diagnóstico de mieloma múltiplo.",
    "A gamopatia de significado indeterminado exige plasmocitose abaixo de 10% e ausência de lesão de órgão, o oposto do quadro.",
    "O mieloma indolente pressupõe justamente a ausência de lesão de órgão-alvo, que aqui está presente em três eixos distintos.",
    "A amiloidose exige comprovação de depósito amiloide em tecido, e a plasmocitose medular sozinha não estabelece esse diagnóstico.",
+   "Correta: plasmocitose clonal acima de 10% com hipercalcemia, insuficiência renal e anemia fecha o diagnóstico de mieloma múltiplo.",
    "Metástase de tumor sólido não explica o pico monoclonal nem a plasmocitose clonal encontrada no aspirado de medula óssea."
   ]
  },
@@ -27,12 +27,12 @@
   "q": "Homem de 61 anos, assintomático, tem hemoglobina de 10,2 g/dL, volume corpuscular médio de 72 fL e ferritina de 8 ng/mL em exames de rotina. Não usa anti-inflamatório e não tem sangramento aparente. Além de repor ferro, qual é a conduta obrigatória nesse caso?",
   "alts": [
    "Repor ferro por três meses e repetir apenas o hemograma, sem qualquer investigação adicional.",
-   "Solicitar mielograma como primeiro exame, para excluir doença primária da medula óssea dele.",
    "Investigar todo o trato gastrointestinal com endoscopia alta e colonoscopia para achar a perda.",
+   "Solicitar mielograma como primeiro exame, para excluir doença primária da medula óssea dele.",
    "Transfundir concentrado de hemácias antes de qualquer investigação diagnóstica desse paciente.",
    "Repetir a ferritina em um ano, já que ele está assintomático e não relata perda de sangue visível."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
@@ -41,8 +41,8 @@
   "coment": "Anemia ferropriva em homem adulto ou em mulher após a menopausa é perda sanguínea gastrointestinal até prova em contrário, e a investigação com endoscopia alta e colonoscopia é obrigatória mesmo sem sangramento visível — o objetivo é encontrar câncer colorretal ou gástrico em fase tratável. Repor ferro sem investigar corrige o número e mascara a doença, um dos erros mais custosos da clínica ambulatorial. Ferritina abaixo de 30 ng/mL já confirma deficiência de ferro; abaixo de 15 é diagnóstica com certeza ainda maior. Mielograma não é exame de primeira linha nesse contexto.",
   "porAlt": [
    "Repor ferro e acompanhar apenas o hemograma normaliza o exame e mascara a neoplasia que poderia ser achada a tempo.",
-   "O mielograma é invasivo e desnecessário aqui: a ferritina baixa já define a causa da anemia como carência de ferro.",
    "Correta: em homem com anemia ferropriva, a investigação endoscópica alta e baixa é obrigatória para localizar a perda oculta.",
+   "O mielograma é invasivo e desnecessário aqui: a ferritina baixa já define a causa da anemia como carência de ferro.",
    "Não há indicação de transfusão em paciente assintomático com esse nível de hemoglobina e anemia de instalação lenta.",
    "Adiar a investigação por um ano em quem tem ferropenia franca é justamente o atraso que muda o estágio de um tumor."
   ]
