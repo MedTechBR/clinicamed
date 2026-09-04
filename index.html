@@ -1,0 +1,1014 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0B6A72">
+<title>ClínicaMed</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<script>
+/* tema antes do CSS para não piscar */
+(function(){try{var t=localStorage.getItem("cm_tema")||"auto";
+if(t==="claro"||t==="escuro")document.documentElement.setAttribute("data-tema",t);}catch(e){}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --papel:#FAF5F1; --sup:#FFFFFF; --sup2:#F4ECE6;
+  --ink:#191512; --ink2:#5B5049; --linha:#E3D3C8;
+  --brand:#0B6A72; --brandInk:#0B6A72; --brandSup:#E4F0F0; --brandTxt:#FFFFFF;
+  --ok:#1B7A45; --okSup:#E3F3EA; --err:#B3261E; --errSup:#FBE9E7;
+  --avi:#8A5A00; --aviSup:#FBF0DC;
+  --grade:rgba(196,120,90,.20);
+  --r:12px; --sombra:0 1px 2px rgba(25,21,18,.06),0 2px 8px rgba(25,21,18,.04);
+}
+@media (prefers-color-scheme:dark){:root:not([data-tema="claro"]){
+  --papel:#121010; --sup:#1C1918; --sup2:#252120;
+  --ink:#EFE8E3; --ink2:#A99E97; --linha:#332D2B;
+  --brand:#4FB8BD; --brandInk:#4FB8BD; --brandSup:#132A2C; --brandTxt:#0E1414;
+  --ok:#5FCB8E; --okSup:#14291D; --err:#F0837A; --errSup:#301A18;
+  --avi:#E0AE5A; --aviSup:#2C2418;
+  --grade:rgba(120,90,80,.16);
+  --sombra:0 1px 2px rgba(0,0,0,.4);
+}}
+:root[data-tema="escuro"]{
+  --papel:#121010; --sup:#1C1918; --sup2:#252120;
+  --ink:#EFE8E3; --ink2:#A99E97; --linha:#332D2B;
+  --brand:#4FB8BD; --brandInk:#4FB8BD; --brandSup:#132A2C; --brandTxt:#0E1414;
+  --ok:#5FCB8E; --okSup:#14291D; --err:#F0837A; --errSup:#301A18;
+  --avi:#E0AE5A; --aviSup:#2C2418;
+  --grade:rgba(120,90,80,.16);
+  --sombra:0 1px 2px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--ink);
+  font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+  -webkit-text-size-adjust:100%;padding-bottom:64px}
+h1,h2,h3,.serif{font-family:Newsreader,Georgia,serif;font-weight:600;letter-spacing:-.01em}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--brandInk)}
+
+/* cabeçalho: a faixa de papel milimetrado do ECG */
+header{position:sticky;top:0;z-index:30;background:var(--sup);border-bottom:1px solid var(--linha);
+  background-image:linear-gradient(var(--grade) 1px,transparent 1px),linear-gradient(90deg,var(--grade) 1px,transparent 1px);
+  background-size:16px 16px,16px 16px}
+.topo{max-width:1000px;margin:0 auto;padding:10px 14px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.marca{font-family:Newsreader,serif;font-weight:700;font-size:21px;letter-spacing:-.02em;display:flex;align-items:center;gap:8px}
+.marca svg{display:block}
+.contador{margin-left:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.contador select{background:var(--sup2);border:1px solid var(--linha);border-radius:999px;padding:7px 10px;max-width:210px}
+.dias{background:var(--brandSup);color:var(--brandInk);border-radius:999px;padding:7px 12px;font-weight:600;font-size:13px;white-space:nowrap}
+.btTema{background:var(--sup2);border:1px solid var(--linha);border-radius:999px;padding:7px 12px;cursor:pointer;min-height:38px}
+nav.abas{max-width:1000px;margin:0 auto;padding:0 10px 10px;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+nav.abas::-webkit-scrollbar{display:none}
+nav.abas button{white-space:nowrap;background:transparent;border:1px solid transparent;color:var(--ink2);
+  border-radius:999px;padding:9px 14px;cursor:pointer;font-weight:500;min-height:40px}
+nav.abas button:hover{background:var(--sup2)}
+nav.abas button[aria-selected="true"]{background:var(--brand);color:var(--brandTxt);font-weight:600}
+
+main{max-width:1000px;margin:0 auto;padding:16px 14px 40px}
+section[hidden]{display:none!important}
+.cx{background:var(--sup);border:1px solid var(--linha);border-radius:var(--r);padding:16px;box-shadow:var(--sombra);margin-bottom:14px}
+.linha{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.bt{background:var(--brand);color:var(--brandTxt);border:0;border-radius:10px;padding:11px 16px;font-weight:600;cursor:pointer;min-height:44px}
+.bt.sec{background:var(--sup2);color:var(--ink);border:1px solid var(--linha)}
+.bt.mini{padding:7px 11px;min-height:38px;font-size:13px}
+.bt:disabled{opacity:.5;cursor:default}
+select,input[type=text],input[type=number],textarea{background:var(--sup);border:1px solid var(--linha);border-radius:10px;padding:10px;min-height:44px;max-width:100%}
+textarea{min-height:120px;line-height:1.5}
+label.cmp{display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--ink2);font-weight:500}
+.pilula{display:inline-block;background:var(--sup2);border:1px solid var(--linha);border-radius:999px;padding:3px 9px;font-size:11.5px;color:var(--ink2);font-weight:500}
+.pilula.b{background:var(--brandSup);color:var(--brandInk);border-color:transparent}
+.pilula.ok{background:var(--okSup);color:var(--ok);border-color:transparent}
+.pilula.er{background:var(--errSup);color:var(--err);border-color:transparent}
+.enun{font-size:16.5px;line-height:1.6;margin:12px 0 14px}
+.alt{display:flex;gap:11px;width:100%;text-align:left;background:var(--sup);border:1px solid var(--linha);
+  border-radius:10px;padding:13px;margin-bottom:8px;cursor:pointer;align-items:flex-start;min-height:44px}
+.alt:hover{border-color:var(--brand)}
+.alt .let{font-weight:700;color:var(--ink2);min-width:18px;font-family:Newsreader,serif}
+.alt.certa{background:var(--okSup);border-color:var(--ok)}
+.alt.errada{background:var(--errSup);border-color:var(--err)}
+.alt[disabled]{cursor:default}
+.coment{background:var(--sup2);border-left:3px solid var(--brand);border-radius:0 10px 10px 0;padding:13px;margin-top:12px;font-size:14.5px}
+.coment .base{font-size:12.5px;color:var(--ink2);margin-top:9px;padding-top:9px;border-top:1px solid var(--linha)}
+.expl{font-size:13.5px;color:var(--ink2);margin:6px 0 0 29px}
+.grade2{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
+.kpi{background:var(--sup2);border-radius:10px;padding:13px}
+.kpi b{display:block;font-family:Newsreader,serif;font-size:27px;font-weight:600;line-height:1.1}
+.kpi span{font-size:12px;color:var(--ink2)}
+.barra{height:7px;background:var(--sup2);border-radius:99px;overflow:hidden;margin-top:6px}
+.barra i{display:block;height:100%;background:var(--brand)}
+.rolagem{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--linha)}
+th{font-size:12px;color:var(--ink2);text-transform:none;font-weight:600}
+.faixas{position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px;display:flex;flex-direction:column;gap:8px;pointer-events:none}
+.faixa{pointer-events:auto;max-width:640px;margin:0 auto;width:100%;display:flex;gap:10px;align-items:center;
+  border-radius:10px;padding:11px 13px;font-size:14px;box-shadow:0 4px 16px rgba(0,0,0,.18)}
+.faixa span{flex:1}
+.faixa button{background:transparent;border:0;cursor:pointer;font-size:16px;padding:4px 8px;min-height:36px}
+.faixa.ok{background:var(--okSup);color:var(--ok);border:1px solid var(--ok)}
+.faixa.erro{background:var(--errSup);color:var(--err);border:1px solid var(--err)}
+.faixa.avi{background:var(--aviSup);color:var(--avi);border:1px solid var(--avi)}
+.vazio{color:var(--ink2);font-size:14px;padding:22px 0;text-align:center}
+.crono{font-family:Newsreader,serif;font-size:30px;font-weight:600;font-variant-numeric:tabular-nums}
+details{border:1px solid var(--linha);border-radius:10px;padding:11px 13px;margin-bottom:8px;background:var(--sup)}
+summary{cursor:pointer;font-weight:600}
+.quadro{width:100%;border:1px solid var(--linha);border-radius:var(--r);background:var(--sup)}
+body.lendo{padding-bottom:0}
+body.lendo main{padding-bottom:0}
+hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
+.mini{font-size:12.5px;color:var(--ink2)}
+/* `.mini` é usada em dois papéis: texto auxiliar e modificador de botão (.bt.mini). Como as duas
+   regras têm a mesma especificidade, a última vencia e pintava o texto do botão primário de cinza
+   sobre o teal (1,23:1). As duas regras abaixo resolvem por especificidade, não por ordem. */
+.bt.mini{color:var(--brandTxt)}
+.bt.sec.mini{color:var(--ink)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+@media(max-width:520px){.contador select{max-width:150px}.marca{font-size:19px}}
+</style>
+
+<header>
+ <div class="topo">
+  <div class="marca">
+   <svg width="26" height="18" viewBox="0 0 52 24" fill="none" aria-hidden="true">
+    <path d="M1 16h9l3-9 4 15 4-20 4 14 3-6h5l3 6h11" stroke="var(--brand)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+   </svg>
+   ClínicaMed
+  </div>
+  <div class="contador">
+   <label class="cmp" style="gap:0">
+    <select id="selProva" aria-label="Prova alvo"></select>
+   </label>
+   <span class="dias" id="dias"></span>
+   <button class="btTema" id="btTema" title="Alternar tema">◐</button>
+  </div>
+ </div>
+ <nav class="abas" id="abas" role="tablist"></nav>
+</header>
+
+<main>
+ <section id="sec-questoes"></section>
+ <section id="sec-simulado" hidden></section>
+ <section id="sec-pratica" hidden></section>
+ <section id="sec-trilha" hidden></section>
+ <section id="sec-leituras" hidden></section>
+ <section id="sec-cartoes" hidden></section>
+ <section id="sec-painel" hidden></section>
+ <section id="sec-ajustes" hidden></section>
+</main>
+<div class="faixas" id="faixas"></div>
+
+<script src="taxonomia.js"></script>
+<script src="provas.js"></script>
+<script src="banco.js"></script>
+<script src="flash.js"></script>
+<script src="pratica.js"></script>
+<script src="trilha.js"></script>
+<script src="leituras.js"></script>
+<script>
+"use strict";
+const V="1.0.0", PREF="cm_";
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const dataISO=(d=new Date())=>{const p=n=>String(n).padStart(2,"0");return `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())}`};
+const LETRAS="ABCDE";
+const pct=(a,b)=>b?Math.round(a/b*100):0;
+
+/* ---------- chave estável por conteúdo (djb2+FNV com Math.imul) ----------
+   NUNCA indexar progresso por posição no banco: reordenar a leva desalinharia todo o histórico. */
+function hashTxt(s){let h1=5381,h2=0x811c9dc5;
+  for(let i=0;i<s.length;i++){const c=s.charCodeAt(i);h1=((h1<<5)+h1+c)>>>0;h2=Math.imul(h2^c,0x01000193)>>>0}
+  return (h1.toString(36)+h2.toString(36)).slice(0,10)}
+function chaveTxt(t){return hashTxt(String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,""))}
+const chaveQ=q=>chaveTxt(q.q);
+
+const BANCO=window.BANCO||[], TAX=window.TAXONOMIA||[], CEN=window.CENARIOS||[], COMP=window.COMPETENCIAS||[],
+      NIVEIS=window.NIVEIS||[], PROVAS=window.PROVAS||[], FLASH=window.FLASH||[], PRATICA=window.PRATICA||[],
+      TRILHA=window.TRILHA||[], LEITURAS=window.LEITURAS||[];
+const QIDX=new Map();
+BANCO.forEach(q=>{const ch=chaveQ(q); if(QIDX.has(ch))console.warn("COLISÃO de chave:",ch,q.q.slice(0,60)); QIDX.set(ch,q); q._ch=ch});
+const NOME=Object.fromEntries(TAX.map(t=>[t.id,t.nome]));
+const NCEN=Object.fromEntries(CEN.map(t=>[t.id,t.nome]));
+const NCOMP=Object.fromEntries(COMP.map(t=>[t.id,t.nome]));
+const NNIV=Object.fromEntries(NIVEIS.map(t=>[t.id,t.nome]));
+
+const UI={banner(tipo,msg,fixa){
+  const d=document.createElement("div");d.className="faixa "+tipo;
+  d.innerHTML=`<span>${esc(msg)}</span><button aria-label="fechar">✕</button>`;
+  d.querySelector("button").onclick=()=>d.remove();
+  $("#faixas").appendChild(d); if(!fixa)setTimeout(()=>d.remove(),11000);
+}};
+
+/* ---------- blindagem de armazenamento ----------
+   load() que falha TRAVA a gravação da chave: melhor não salvar do que salvar vazio por cima. */
+const CHAVES=["resp","fav","flash","erros","cfg","sim","simativo","pos","treino","atividade","lidas","trilha"].map(k=>PREF+k);
+const ARM={
+ db:null,travas:{},tsBackup:0,recuperado:null,persistOK:null,
+ async boot(){
+  this.db=await Promise.race([new Promise(r=>setTimeout(()=>r(null),2500)),new Promise(res=>{
+    try{const rq=indexedDB.open("cm-db",1);
+      rq.onupgradeneeded=()=>{const d=rq.result;
+        if(!d.objectStoreNames.contains("espelho"))d.createObjectStore("espelho");
+        if(!d.objectStoreNames.contains("backups"))d.createObjectStore("backups",{autoIncrement:true})};
+      rq.onsuccess=()=>res(rq.result);rq.onerror=()=>res(null);rq.onblocked=()=>res(null);
+    }catch(e){res(null)}})]);
+  let canario=null; try{canario=localStorage.getItem(PREF+"canary")}catch(e){}
+  if(!canario&&this.db){
+    const esp=await this.idbTudo("espelho");
+    const ks=Object.keys(esp).filter(k=>CHAVES.includes(k));
+    if(ks.length){ks.forEach(k=>{try{localStorage.setItem(k,esp[k])}catch(e){}});
+      this.recuperado={n:ks.length,quando:esp.__quando||"data desconhecida"}}
+  }
+  try{localStorage.setItem(PREF+"canary",new Date().toISOString())}catch(e){}
+  this.idbPut("__quando",new Date().toISOString());
+  if(navigator.storage&&navigator.storage.persist){try{this.persistOK=await navigator.storage.persist()}catch(e){this.persistOK=false}}
+ },
+ idbPut(k,v){if(!this.db)return;try{this.db.transaction("espelho","readwrite").objectStore("espelho").put(v,k)}catch(e){}},
+ idbTudo(loja){return new Promise(res=>{if(!this.db)return res({});
+   try{const out={},cur=this.db.transaction(loja,"readonly").objectStore(loja).openCursor();
+     cur.onsuccess=()=>{const c=cur.result;if(c){out[c.key]=c.value;c.continue()}else res(out)};
+     cur.onerror=()=>res({})}catch(e){res({})}})},
+ load(k,fb){let raw=null,falhou=false;
+   try{raw=localStorage.getItem(k)}catch(e){falhou=true;this.travas[k]="leitura falhou: "+e.message}
+   if(raw===null&&!falhou)return fb;
+   if(!falhou){try{return JSON.parse(raw)}catch(e){this.travas[k]="JSON corrompido"}}
+   UI.banner("erro",`Falha ao ler ${k}. Gravação BLOQUEADA nessa chave para não apagar dados — exporte o backup em Ajustes.`,true);
+   return fb},
+ save(k,v){
+   if(this.travas[k]){UI.banner("erro",`Não gravei ${k}: a leitura falhou neste boot (proteção contra sobrescrita).`);return false}
+   let s;try{s=JSON.stringify(v)}catch(e){return false}
+   try{localStorage.setItem(k,s)}catch(e){UI.banner("erro","Armazenamento cheio ou indisponível: "+e.message,true);return false}
+   this.idbPut(k,s);
+   const ag=Date.now(); if(ag-this.tsBackup>6e5){this.tsBackup=ag;this.snapshot("auto")}
+   return true},
+ snapshot(motivo){return new Promise(res=>{if(!this.db)return res(false);
+   const foto={__quando:new Date().toISOString(),__motivo:motivo||"manual"};
+   CHAVES.forEach(k=>{try{const v=localStorage.getItem(k);if(v!==null)foto[k]=v}catch(e){}});
+   try{const tx=this.db.transaction("backups","readwrite"),st=tx.objectStore("backups");
+     st.add(foto);const rq=st.getAllKeys();
+     rq.onsuccess=()=>{const ks=rq.result;
+       if(ks.length>12){const tx2=this.db.transaction("backups","readwrite");
+         ks.slice(0,ks.length-12).forEach(k=>tx2.objectStore("backups").delete(k))}
+       res(true)};
+     rq.onerror=()=>res(false)}catch(e){res(false)}})},
+ listaBackups(){return new Promise(res=>{if(!this.db)return res([]);
+   try{const out=[],cur=this.db.transaction("backups","readonly").objectStore("backups").openCursor();
+     cur.onsuccess=()=>{const c=cur.result;
+       if(c){out.push({id:c.key,quando:c.value.__quando,motivo:c.value.__motivo,
+         n:Object.keys(c.value).filter(k=>k.startsWith(PREF)).length});c.continue()}
+       else res(out.reverse())};
+     cur.onerror=()=>res([])}catch(e){res([])}})},
+ restaura(id){return new Promise(res=>{if(!this.db)return res(false);
+   try{const rq=this.db.transaction("backups","readonly").objectStore("backups").get(id);
+     rq.onsuccess=async()=>{const foto=rq.result;if(!foto)return res(false);
+       await this.snapshot("antes-de-restaurar");
+       Object.keys(foto).filter(k=>k.startsWith(PREF)).forEach(k=>{try{localStorage.setItem(k,foto[k])}catch(e){}});
+       res(true)};
+     rq.onerror=()=>res(false)}catch(e){res(false)}})},
+ exporta(){const out={__app:"clinicamed",__v:V,__quando:new Date().toISOString()};
+   CHAVES.forEach(k=>{try{const v=localStorage.getItem(k);if(v!==null)out[k]=v}catch(e){}});return out},
+ async importa(o){if(!o||o.__app!=="clinicamed")return null;
+   await this.snapshot("antes-de-importar");let n=0;
+   CHAVES.forEach(k=>{if(typeof o[k]==="string"){try{JSON.parse(o[k])}catch(e){return}
+     try{localStorage.setItem(k,o[k]);this.idbPut(k,o[k]);n++}catch(e){}}});
+   return n}
+};
+
+let ST={};
+function carregaEstado(){ST={
+  resp:ARM.load(PREF+"resp",{}), fav:ARM.load(PREF+"fav",{}), flash:ARM.load(PREF+"flash",{}),
+  erros:ARM.load(PREF+"erros",[]), cfg:ARM.load(PREF+"cfg",{}), sim:ARM.load(PREF+"sim",[]),
+  simativo:ARM.load(PREF+"simativo",null), pos:ARM.load(PREF+"pos",{}), treino:ARM.load(PREF+"treino",{}),
+  atividade:ARM.load(PREF+"atividade",{}), lidas:ARM.load(PREF+"lidas",{}), trilha:ARM.load(PREF+"trilha",{})
+}}
+const salva=(k,v)=>ARM.save(PREF+k,v);
+function atividade(n){const d=dataISO();ST.atividade[d]=(ST.atividade[d]||0)+n;salva("atividade",ST.atividade)}
+function registraResposta(q,alt,ok,modo){
+  const r=ST.resp[q._ch]||(ST.resp[q._ch]={hist:[]});
+  r.hist.push({d:dataISO(),ok,alt,m:modo,ts:Date.now()});
+  if(r.hist.length>60)r.hist=r.hist.slice(-60);
+  salva("resp",ST.resp);atividade(1);
+  if(!ok){ if(!ST.erros.includes(q._ch)){ST.erros.push(q._ch);salva("erros",ST.erros)} }
+  else { const i=ST.erros.indexOf(q._ch); if(i>=0&&acertosSeguidos(q)>=2){ST.erros.splice(i,1);salva("erros",ST.erros)} }
+}
+const respostaDe=q=>ST.resp[q._ch];
+function acertosSeguidos(q){const h=(respostaDe(q)||{}).hist||[];let n=0;
+  for(let i=h.length-1;i>=0;i--){if(h[i].ok)n++;else break}return n}
+
+/* ---------- sorteio: Fisher-Yates de verdade ----------
+   sort(()=>Math.random()-0.5) NÃO embaralha: o comparador é inconsistente e enviesa o começo do vetor. */
+function embaralha(a){const b=a.slice();
+  for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
+/* espalha por tema: a leva é temática, então a ordem crua sai agrupada. Sorteio PONDERADO pelo
+   que resta (o determinístico degenera em pingue-pongue entre os dois maiores temas). */
+function espalhaTemas(lista){
+  const grupos={};lista.forEach(q=>{(grupos[q.tema]=grupos[q.tema]||[]).push(q)});
+  Object.keys(grupos).forEach(k=>grupos[k]=embaralha(grupos[k]));
+  const out=[];let ant=null;
+  while(out.length<lista.length){
+    let cand=Object.keys(grupos).filter(k=>grupos[k].length&&k!==ant);
+    if(!cand.length)cand=Object.keys(grupos).filter(k=>grupos[k].length);
+    const total=cand.reduce((s,k)=>s+grupos[k].length,0);
+    let r=Math.random()*total,esc=cand[0];
+    for(const k of cand){r-=grupos[k].length;if(r<=0){esc=k;break}}
+    out.push(grupos[esc].shift());ant=esc;
+  }
+  return out;
+}
+</script>
+<script>
+/* ================= navegação ================= */
+const ABAS=[["questoes","Questões"],["simulado","Simulado"],["pratica","Prática"],["trilha","Trilha"],
+            ["leituras","Leituras"],["cartoes","Cartões"],["painel","Painel"],["ajustes","Ajustes"]];
+/* Resolvido na hora da chamada: cada aba é declarada num bloco <script> posterior a este,
+   então referenciar a função aqui na criação do objeto quebraria o boot inteiro. */
+const PINTA={questoes:()=>pintaQuestoes(),simulado:()=>pintaSimulado(),pratica:()=>pintaPratica(),
+             trilha:()=>pintaTrilha(),leituras:()=>pintaLeituras(),cartoes:()=>pintaCartoes(),
+             painel:()=>pintaPainel(),ajustes:()=>pintaAjustes()};
+function montaAbas(){
+  $("#abas").innerHTML=ABAS.map(([id,n])=>
+    `<button role="tab" data-aba="${id}" aria-selected="false">${n}</button>`).join("");
+  $$("#abas button").forEach(b=>b.onclick=()=>irAba(b.dataset.aba));
+}
+function irAba(id){
+  $$("#abas button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.aba===id)));
+  ABAS.forEach(([a])=>$("#sec-"+a).hidden=(a!==id));
+  document.body.classList.toggle("lendo",id==="leituras"&&!!ST.cfg.lendo);
+  ST.cfg.aba=id;salva("cfg",ST.cfg);
+  PINTA[id]();
+  if(id!=="leituras")window.scrollTo(0,0);
+}
+
+/* ================= prova alvo e contagem ================= */
+const provaAtual=()=>PROVAS.find(p=>p.id===(ST.cfg.prova||"tecm"))||PROVAS[0];
+function diasPara(iso){if(!iso)return null;
+  const h=new Date(dataISO()+"T12:00:00"),d=new Date(iso+"T12:00:00");
+  return Math.round((d-h)/864e5)}
+function pintaTopo(){
+  $("#selProva").innerHTML=PROVAS.map(p=>
+    `<option value="${p.id}"${p.id===provaAtual().id?" selected":""}>${esc(p.nome)}</option>`).join("");
+  const p=provaAtual(),d=diasPara(p.data),el=$("#dias");
+  if(d===null)el.textContent="estudo contínuo";
+  else if(d>0)el.textContent=`${d} ${d===1?"dia":"dias"} — ${p.oque}`;
+  else if(d===0)el.textContent="é hoje";
+  else el.textContent="prova realizada";
+}
+$("#selProva").onchange=e=>{ST.cfg.prova=e.target.value;salva("cfg",ST.cfg);pintaTopo();PINTA[ST.cfg.aba||"questoes"]()};
+$("#btTema").onclick=()=>{
+  const seq=["auto","claro","escuro"],at=ST.cfg.tema||"auto",nv=seq[(seq.indexOf(at)+1)%3];
+  ST.cfg.tema=nv;salva("cfg",ST.cfg);aplicaTema();
+  UI.banner("ok","Tema: "+({auto:"segue o sistema",claro:"claro",escuro:"escuro"}[nv]));
+};
+function aplicaTema(){const t=ST.cfg.tema||"auto";
+  if(t==="auto")document.documentElement.removeAttribute("data-tema");
+  else document.documentElement.setAttribute("data-tema",t);
+  try{localStorage.setItem(PREF+"tema",t)}catch(e){}
+  const ifr=$("#quadroLeitura"); if(ifr&&ifr.contentWindow)ifr.contentWindow.postMessage({cm:"tema",tema:temaEfetivo()},"*");
+}
+const temaEfetivo=()=>{const t=ST.cfg.tema||"auto";
+  return t!=="auto"?t:(matchMedia("(prefers-color-scheme:dark)").matches?"escuro":"claro")};
+
+/* ================= aba QUESTÕES ================= */
+function filtroAtual(){const f=ST.pos.fq||{};return {area:f.area||"",cen:f.cen||"",comp:f.comp||"",niv:f.niv||"",modo:f.modo||"todas"}}
+function aplicaFiltro(){
+  const f=filtroAtual();
+  let l=BANCO.filter(q=>(!f.area||q.tema===f.area)&&(!f.cen||q.cenario===f.cen)&&(!f.comp||q.comp===f.comp)&&(!f.niv||q.nivel===f.niv));
+  if(f.modo==="erros")l=l.filter(q=>ST.erros.includes(q._ch));
+  if(f.modo==="fav")l=l.filter(q=>ST.fav[q._ch]);
+  if(f.modo==="novas")l=l.filter(q=>!respostaDe(q));
+  return l;
+}
+const assinaturaFiltro=()=>JSON.stringify(filtroAtual());
+function ordemQuestoes(){
+  const lista=aplicaFiltro(), ass=assinaturaFiltro();
+  if(ST.pos.assq!==ass||!Array.isArray(ST.pos.ordq)||!ST.pos.ordq.length){
+    ST.pos.ordq=espalhaTemas(lista).map(q=>q._ch);ST.pos.assq=ass;ST.pos.chq=ST.pos.ordq[0]||null;
+    salva("pos",ST.pos);
+  }
+  const setch=new Set(lista.map(q=>q._ch));
+  let ord=ST.pos.ordq.filter(ch=>setch.has(ch));
+  /* Questão cuja chave não está na ordem salva entra no FIM, espalhada por tema — é o caso de
+     leva nova publicada e de enunciado corrigido (a chave deriva do texto). Sem isso ela ficaria
+     invisível; e se TODAS as chaves mudarem, a aba ficaria vazia para sempre com o filtro intacto. */
+  if(ord.length<lista.length){
+    const jaTem=new Set(ord);
+    ord=ord.concat(espalhaTemas(lista.filter(q=>!jaTem.has(q._ch))).map(q=>q._ch));
+    ST.pos.ordq=ord;salva("pos",ST.pos);
+  }
+  return ord.map(ch=>QIDX.get(ch)).filter(Boolean);
+}
+function pintaQuestoes(){
+  const l=ordemQuestoes(), f=filtroAtual();
+  if(!ST.pos.chq||!l.some(q=>q._ch===ST.pos.chq))ST.pos.chq=l.length?l[0]._ch:null;
+  const i=l.findIndex(q=>q._ch===ST.pos.chq), q=l[i];
+  const opt=(arr,v,vazio)=>`<option value="">${vazio}</option>`+arr.map(o=>
+    `<option value="${o.id}"${o.id===v?" selected":""}>${esc(o.nome)}</option>`).join("");
+  $("#sec-questoes").innerHTML=`
+  <div class="cx">
+   <div class="linha">
+    <label class="cmp">Área<select id="fArea">${opt(TAX,f.area,"todas as áreas")}</select></label>
+    <label class="cmp">Cenário<select id="fCen">${opt(CEN,f.cen,"todos")}</select></label>
+    <label class="cmp">Competência<select id="fComp">${opt(COMP,f.comp,"todas")}</select></label>
+    <label class="cmp">Nível<select id="fNiv">${opt(NIVEIS,f.niv,"todos")}</select></label>
+    <label class="cmp">Conjunto<select id="fModo">
+      <option value="todas"${f.modo==="todas"?" selected":""}>todas</option>
+      <option value="novas"${f.modo==="novas"?" selected":""}>ainda não respondidas</option>
+      <option value="erros"${f.modo==="erros"?" selected":""}>meus erros</option>
+      <option value="fav"${f.modo==="fav"?" selected":""}>marcadas</option>
+    </select></label>
+    <button class="bt sec mini" id="btEmb" style="align-self:flex-end">Embaralhar</button>
+   </div>
+   <div class="mini" style="margin-top:10px">${l.length} ${l.length===1?"questão":"questões"} no filtro${l.length?` — você está na ${i+1}ª`:""}</div>
+  </div>
+  <div id="qCartao"></div>`;
+  $("#fArea").onchange=e=>mudaFiltro("area",e.target.value);
+  $("#fCen").onchange=e=>mudaFiltro("cen",e.target.value);
+  $("#fComp").onchange=e=>mudaFiltro("comp",e.target.value);
+  $("#fNiv").onchange=e=>mudaFiltro("niv",e.target.value);
+  $("#fModo").onchange=e=>mudaFiltro("modo",e.target.value);
+  $("#btEmb").onclick=()=>{ST.pos.assq=null;salva("pos",ST.pos);pintaQuestoes()};
+  pintaCartaoQuestao(q,l,i);
+}
+function mudaFiltro(k,v){const f=filtroAtual();f[k]=v;ST.pos.fq=f;ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);pintaQuestoes()}
+function pintaCartaoQuestao(q,l,i){
+  const alvo=$("#qCartao");
+  if(!q){alvo.innerHTML=`<div class="cx"><p class="vazio">Nenhuma questão neste filtro. Troque o conjunto ou tire alguma restrição.</p></div>`;return}
+  const t=TAX.find(t=>t.id===q.tema)||{}, resp=respostaDe(q), ja=(resp&&resp.hist.length)?resp.hist[resp.hist.length-1]:null;
+  alvo.innerHTML=`
+  <div class="cx">
+   <div class="linha" style="gap:6px">
+    <span class="pilula b">${esc(t.nome||q.tema)}</span>
+    <span class="pilula">${esc(NCEN[q.cenario]||"")}</span>
+    <span class="pilula">${esc(NCOMP[q.comp]||"")}</span>
+    <span class="pilula">${esc((NNIV[q.nivel]||"").split("—")[0].trim())}</span>
+    ${q.fonte?`<span class="pilula">${esc(q.fonte.banca)} ${esc(String(q.fonte.ano))}</span>`:`<span class="pilula">autoral</span>`}
+    <button class="bt sec mini" id="btFav" style="margin-left:auto">${ST.fav[q._ch]?"★ marcada":"☆ marcar"}</button>
+   </div>
+   <p class="enun">${esc(q.q)}</p>
+   <div id="alts">${q.alts.map((a,j)=>
+     `<button class="alt" data-j="${j}"><span class="let">${LETRAS[j]}</span><span>${esc(a)}</span></button>`).join("")}</div>
+   <div id="fb"></div>
+   <hr>
+   <div class="linha">
+    <button class="bt sec" id="btAnt" ${i<=0?"disabled":""}>← anterior</button>
+    <button class="bt" id="btProx" ${i>=l.length-1?"disabled":""}>próxima →</button>
+    <span class="mini" style="margin-left:auto">${i+1} de ${l.length}${ja?` · última vez: ${ja.ok?"acertou":"errou"}`:""}</span>
+   </div>
+  </div>`;
+  $("#btFav").onclick=()=>{ST.fav[q._ch]=!ST.fav[q._ch];if(!ST.fav[q._ch])delete ST.fav[q._ch];salva("fav",ST.fav);pintaCartaoQuestao(q,l,i)};
+  $("#btAnt").onclick=()=>{ST.pos.chq=l[i-1]._ch;salva("pos",ST.pos);pintaQuestoes()};
+  $("#btProx").onclick=()=>{ST.pos.chq=l[i+1]._ch;salva("pos",ST.pos);pintaQuestoes()};
+  $$("#alts .alt").forEach(b=>b.onclick=()=>responde(q,+b.dataset.j,l,i));
+}
+function responde(q,j,l,i){
+  const ok=j===q.gab;
+  registraResposta(q,j,ok,"estudo");
+  $$("#alts .alt").forEach((b,k)=>{
+    b.disabled=true;
+    if(k===q.gab)b.classList.add("certa");
+    if(k===j&&!ok)b.classList.add("errada");
+    const e=document.createElement("div");e.className="expl";e.textContent=q.porAlt[k]||"";
+    b.after(e);
+  });
+  $("#fb").innerHTML=`
+   <div class="coment">
+    <b>${ok?"Correta.":"Resposta correta: "+LETRAS[q.gab]+"."}</b> ${esc(q.coment)}
+    <div class="base">Âncora: ${esc(q.base)}</div>
+   </div>`;
+}
+
+/* ================= aba SIMULADO ================= */
+function formatoSimulado(){
+  const p=provaAtual();
+  if(p.id==="tecm")return {n:120,min:300,nome:"TECM — 120 questões em 5 horas"};
+  if(p.id==="enare")return {n:80,min:240,nome:"ENARE R+ — 80 questões em 4 horas"};
+  return {n:30,min:60,nome:"Treino — 30 questões em 1 hora"};
+}
+function sorteiaProva(n){
+  /* sorteio PONDERADO pelo peso da área na prova: reproduz a matriz de especialidades do edital */
+  const porArea={};TAX.forEach(t=>porArea[t.id]=embaralha(BANCO.filter(q=>q.tema===t.id)));
+  const out=[];const pesos=TAX.map(t=>({id:t.id,p:t.peso}));
+  let guarda=0;
+  while(out.length<n&&guarda++<n*40){
+    const disp=pesos.filter(x=>porArea[x.id].length);
+    if(!disp.length)break;
+    const tot=disp.reduce((s,x)=>s+x.p,0);let r=Math.random()*tot,esc=disp[0];
+    for(const x of disp){r-=x.p;if(r<=0){esc=x;break}}
+    out.push(porArea[esc.id].shift());
+  }
+  return espalhaTemas(out);
+}
+function pintaSimulado(){
+  const s=ST.simativo, fmt=formatoSimulado();
+  if(s&&s.fim)return pintaResultadoSim(s);
+  if(s)return pintaSimEmCurso(s);
+  const hist=ST.sim.slice().reverse().slice(0,8);
+  $("#sec-simulado").innerHTML=`
+  <div class="cx">
+   <h2 style="margin:0 0 6px">Simulado no formato da prova</h2>
+   <p class="mini">${esc(fmt.nome)}. O sorteio é ponderado pelo peso de cada área na matriz de especialidades do edital, e a ordem espalha os temas — nada de blocos do mesmo assunto em sequência.</p>
+   <div class="linha" style="margin-top:12px">
+    <label class="cmp">Questões<input type="number" id="simN" value="${Math.min(fmt.n,BANCO.length)}" min="5" max="${BANCO.length}" style="width:110px"></label>
+    <label class="cmp">Minutos<input type="number" id="simM" value="${fmt.min}" min="5" max="360" style="width:110px"></label>
+    <button class="bt" id="btIniciar" style="align-self:flex-end">Iniciar</button>
+   </div>
+   ${BANCO.length<fmt.n?`<p class="mini" style="margin-top:10px">O banco tem ${BANCO.length} questões — menos que as ${fmt.n} do formato oficial. O simulado usa o que existe e a nota é proporcional.</p>`:""}
+  </div>
+  ${hist.length?`<div class="cx"><h3 style="margin:0 0 8px">Simulados anteriores</h3>
+   <div class="rolagem"><table><tr><th>Quando</th><th>Questões</th><th>Acertos</th><th>Nota</th><th>Tempo</th></tr>
+   ${hist.map(h=>`<tr><td>${esc(h.quando.slice(0,10))}</td><td>${h.n}</td><td>${h.acertos}</td>
+     <td><b>${h.nota.toFixed(1)}</b></td><td>${Math.round(h.dur/60)} min</td></tr>`).join("")}</table></div></div>`:""}`;
+  $("#btIniciar").onclick=()=>{
+    const n=Math.max(5,Math.min(+$("#simN").value||fmt.n,BANCO.length)), min=Math.max(5,+$("#simM").value||fmt.min);
+    const qs=sorteiaProva(n);
+    if(qs.length<5)return UI.banner("avi","Banco pequeno demais para um simulado. Adicione questões primeiro.");
+    ST.simativo={ini:Date.now(),dur:min*60,qs:qs.map(q=>q._ch),res:{},i:0,prova:provaAtual().id};
+    salva("simativo",ST.simativo);pintaSimulado();
+  };
+}
+function pintaSimEmCurso(s){
+  const q=QIDX.get(s.qs[s.i]);
+  const rest=()=>Math.max(0,s.dur-Math.floor((Date.now()-s.ini)/1000));
+  $("#sec-simulado").innerHTML=`
+  <div class="cx">
+   <div class="linha">
+    <span class="crono" id="crono"></span>
+    <span class="mini">questão ${s.i+1} de ${s.qs.length} · ${Object.keys(s.res).length} respondidas</span>
+    <button class="bt sec mini" id="btEncerrar" style="margin-left:auto">Encerrar e corrigir</button>
+   </div>
+   <div class="barra" style="margin-top:10px"><i style="width:${pct(Object.keys(s.res).length,s.qs.length)}%"></i></div>
+  </div>
+  <div class="cx">
+   <p class="enun">${esc(q.q)}</p>
+   <div id="simAlts">${q.alts.map((a,j)=>
+     `<button class="alt${s.res[q._ch]===j?" certa":""}" data-j="${j}"><span class="let">${LETRAS[j]}</span><span>${esc(a)}</span></button>`).join("")}</div>
+   <hr>
+   <div class="linha">
+    <button class="bt sec" id="sAnt" ${s.i<=0?"disabled":""}>← anterior</button>
+    <button class="bt sec" id="sPular">pular</button>
+    <button class="bt" id="sProx" ${s.i>=s.qs.length-1?"disabled":""}>próxima →</button>
+   </div>
+  </div>`;
+  const tick=()=>{const r=rest();
+    const el=$("#crono"); if(!el)return clearInterval(iv);
+    el.textContent=`${String(Math.floor(r/3600)).padStart(2,"0")}:${String(Math.floor(r%3600/60)).padStart(2,"0")}:${String(r%60).padStart(2,"0")}`;
+    if(r<=0){clearInterval(iv);encerraSim(true)}};
+  const iv=setInterval(tick,1000);tick();
+  $$("#simAlts .alt").forEach(b=>b.onclick=()=>{
+    s.res[q._ch]=+b.dataset.j;
+    if(s.i<s.qs.length-1)s.i++;                 /* clicar já avança: não clicar em "próxima" depois */
+    salva("simativo",s);clearInterval(iv);pintaSimulado();
+  });
+  $("#sAnt").onclick=()=>{s.i--;salva("simativo",s);clearInterval(iv);pintaSimulado()};
+  $("#sProx").onclick=()=>{s.i++;salva("simativo",s);clearInterval(iv);pintaSimulado()};
+  $("#sPular").onclick=()=>{if(s.i<s.qs.length-1)s.i++;salva("simativo",s);clearInterval(iv);pintaSimulado()};
+  $("#btEncerrar").onclick=()=>{clearInterval(iv);encerraSim(false)};
+}
+function notaSimulado(s,acertos){
+  /* TECM: as 100 primeiras valem 0,8 e as 20 últimas valem 1,0 (item 9.6 do edital).
+     Quando o banco não permite 120 questões, a nota é proporcional ao mesmo total de 100 pontos. */
+  if(s.prova==="tecm"){
+    let pts=0;s.qs.forEach((ch,k)=>{const q=QIDX.get(ch);if(s.res[ch]===q.gab)pts+=(k<100?0.8:1.0)});
+    const teto=s.qs.reduce((t,_,k)=>t+(k<100?0.8:1.0),0);
+    return teto?pts/teto*100:0;
+  }
+  if(s.prova==="enare")return acertos*1.25*(80/Math.max(1,s.qs.length));
+  return acertos/Math.max(1,s.qs.length)*100;
+}
+function encerraSim(porTempo){
+  const s=ST.simativo;if(!s)return;
+  let acertos=0;
+  s.qs.forEach(ch=>{const q=QIDX.get(ch);const r=s.res[ch];
+    if(r!==undefined){const ok=r===q.gab;if(ok)acertos++;registraResposta(q,r,ok,"simulado")}});
+  s.fim=Date.now();s.acertos=acertos;s.nota=notaSimulado(s,acertos);
+  ST.sim.push({quando:new Date().toISOString(),n:s.qs.length,acertos,nota:s.nota,
+    dur:Math.floor((s.fim-s.ini)/1000),prova:s.prova,qs:s.qs,res:s.res});
+  salva("sim",ST.sim);salva("simativo",s);
+  if(porTempo)UI.banner("avi","O tempo acabou. A prova foi corrigida com o que estava marcado.");
+  pintaSimulado();
+}
+function pintaResultadoSim(s){
+  const nota=s.nota, corte=s.prova==="tecm"?70:s.prova==="enare"?70:60;
+  const porArea={};
+  s.qs.forEach(ch=>{const q=QIDX.get(ch);const a=porArea[q.tema]||(porArea[q.tema]={n:0,ok:0});
+    a.n++;if(s.res[ch]===q.gab)a.ok++});
+  $("#sec-simulado").innerHTML=`
+  <div class="cx">
+   <h2 style="margin:0 0 10px">Resultado</h2>
+   <div class="grade2">
+    <div class="kpi"><b>${nota.toFixed(1)}</b><span>nota (corte ${corte})</span></div>
+    <div class="kpi"><b>${s.acertos}/${s.qs.length}</b><span>acertos</span></div>
+    <div class="kpi"><b>${pct(s.acertos,s.qs.length)}%</b><span>aproveitamento</span></div>
+    <div class="kpi"><b>${Math.round((s.fim-s.ini)/60000)}</b><span>minutos usados</span></div>
+   </div>
+   <p class="mini" style="margin-top:12px">${nota>=corte?"Acima da nota de corte desta prova.":"Abaixo da nota de corte desta prova."}
+    ${s.prova==="tecm"?"No TECM as 100 primeiras questões valem 0,8 e as 20 últimas valem 1,0; a análise curricular soma até 10 pontos, e as duas fases não se compensam.":""}</p>
+   <div class="linha" style="margin-top:12px">
+    <button class="bt" id="btRevisar">Revisar questão a questão</button>
+    <button class="bt sec" id="btNovo">Novo simulado</button>
+   </div>
+  </div>
+  <div class="cx"><h3 style="margin:0 0 8px">Por área</h3><div class="rolagem"><table>
+   <tr><th>Área</th><th>Acertos</th><th>%</th></tr>
+   ${Object.entries(porArea).sort((a,b)=>pct(a[1].ok,a[1].n)-pct(b[1].ok,b[1].n)).map(([id,a])=>
+     `<tr><td>${esc(NOME[id]||id)}</td><td>${a.ok}/${a.n}</td>
+      <td><span class="pilula ${pct(a.ok,a.n)>=70?"ok":"er"}">${pct(a.ok,a.n)}%</span></td></tr>`).join("")}
+  </table></div></div>
+  <div id="revisao"></div>`;
+  $("#btNovo").onclick=()=>{ST.simativo=null;salva("simativo",null);pintaSimulado()};
+  $("#btRevisar").onclick=()=>{
+    $("#revisao").innerHTML=s.qs.map((ch,k)=>{const q=QIDX.get(ch),r=s.res[ch],ok=r===q.gab;
+      return `<div class="cx"><div class="linha" style="gap:6px">
+        <span class="pilula ${ok?"ok":"er"}">${k+1}. ${ok?"acertou":r===undefined?"em branco":"errou"}</span>
+        <span class="pilula b">${esc(NOME[q.tema]||q.tema)}</span></div>
+       <p class="enun">${esc(q.q)}</p>
+       ${q.alts.map((a,j)=>`<div class="alt${j===q.gab?" certa":(j===r?" errada":"")}">
+         <span class="let">${LETRAS[j]}</span><span>${esc(a)}</span></div>`).join("")}
+       <div class="coment">${esc(q.coment)}<div class="base">Âncora: ${esc(q.base)}</div></div></div>`}).join("");
+    $("#btRevisar").disabled=true;
+  };
+}
+</script>
+<script>
+/* ================= aba PRÁTICA (estações da 2ª fase) ================= */
+function pintaPratica(){
+  const ativo=ST.cfg.estacao&&PRATICA.find(e=>e.id===ST.cfg.estacao);
+  if(ativo)return pintaEstacao(ativo);
+  const feitas=Object.keys(ST.treino).length;
+  $("#sec-pratica").innerHTML=`
+  <div class="cx">
+   <h2 style="margin:0 0 6px">Estações de proficiência clínica</h2>
+   <p class="mini">Formato do edital: 2 estações de 10 minutos, entrega sequencial dos dados, avaliação por Conhecimento, Habilidade e Atitude, 5 pontos por estação e corte de 7 nos 10 possíveis. Escreva sua conduta sem olhar; só depois abra o espelho e marque item a item o que você realmente disse.</p>
+   <div class="grade2" style="margin-top:12px">
+    <div class="kpi"><b>${feitas}</b><span>estações treinadas</span></div>
+    <div class="kpi"><b>${PRATICA.length}</b><span>disponíveis</span></div>
+    <div class="kpi"><b>${notaMediaEstacoes()}</b><span>nota média (0 a 5)</span></div>
+   </div>
+  </div>
+  ${PRATICA.map(e=>{const t=ST.treino[e.id];
+    return `<div class="cx"><div class="linha" style="gap:6px">
+      <span class="pilula b">${esc(NOME[e.area]||e.area)}</span>
+      <span class="pilula">${esc(NCEN[e.cenario]||"")}</span>
+      <span class="pilula">${e.tempo} min</span>
+      ${t?`<span class="pilula ${t.nota>=3.5?"ok":"er"}">nota ${t.nota.toFixed(1)}</span>`:""}
+     </div>
+     <h3 style="margin:9px 0 4px">${esc(e.titulo)}</h3>
+     <p class="mini">${esc(e.abertura.slice(0,150))}…</p>
+     <button class="bt mini" data-est="${e.id}" style="margin-top:9px">${t?"treinar de novo":"iniciar estação"}</button>
+    </div>`}).join("")}`;
+  $$("[data-est]").forEach(b=>b.onclick=()=>{ST.cfg.estacao=b.dataset.est;ST.cfg.etapa=0;ST.cfg.iniEst=Date.now();salva("cfg",ST.cfg);pintaPratica()});
+}
+function notaMediaEstacoes(){const v=Object.values(ST.treino);if(!v.length)return "—";
+  return (v.reduce((s,t)=>s+t.nota,0)/v.length).toFixed(1)}
+function pintaEstacao(e){
+  const et=ST.cfg.etapa||0, mostrando=Math.min(et,e.etapas.length-1);
+  const acabou=et>=e.etapas.length;
+  const rest=Math.max(0,e.tempo*60-Math.floor((Date.now()-(ST.cfg.iniEst||Date.now()))/1000));
+  $("#sec-pratica").innerHTML=`
+  <div class="cx">
+   <div class="linha">
+    <span class="crono" id="cronoEst">${String(Math.floor(rest/60)).padStart(2,"0")}:${String(rest%60).padStart(2,"0")}</span>
+    <span class="mini">${esc(e.titulo)}</span>
+    <button class="bt sec mini" id="sairEst" style="margin-left:auto">sair</button>
+   </div>
+  </div>
+  <div class="cx">
+   <b>Cenário</b>
+   <p class="enun" style="margin-top:6px">${esc(e.abertura)}</p>
+   ${e.etapas.slice(0,mostrando+1).map((p,k)=>`
+     <div class="coment" style="margin-bottom:10px">
+      <b>Etapa ${p.n}.</b> ${esc(p.tarefa)}
+      ${k<et?`<div class="base">${esc(p.entrega)}</div>`:""}
+     </div>`).join("")}
+   ${!acabou?`<button class="bt" id="btEtapa">Cumpri esta etapa — receber os dados</button>`:
+     `<label class="cmp" style="margin-top:10px">O que você disse/fez na estação (escreva antes de abrir o espelho)
+       <textarea id="txtEst" placeholder="Registre sua conduta como se estivesse falando com o examinador.">${esc((ST.treino[e.id]||{}).texto||"")}</textarea></label>
+      <button class="bt" id="btEspelho" style="margin-top:10px">Abrir o espelho de correção</button>`}
+  </div>
+  <div id="espelho"></div>`;
+  $("#sairEst").onclick=()=>{ST.cfg.estacao=null;salva("cfg",ST.cfg);pintaPratica()};
+  const cr=setInterval(()=>{const el=$("#cronoEst");if(!el)return clearInterval(cr);
+    const r=Math.max(0,e.tempo*60-Math.floor((Date.now()-(ST.cfg.iniEst||Date.now()))/1000));
+    el.textContent=`${String(Math.floor(r/60)).padStart(2,"0")}:${String(r%60).padStart(2,"0")}`;
+    if(r===0){clearInterval(cr);UI.banner("avi","Os 10 minutos acabaram — na prova o sinal soa aqui.")}},1000);
+  if($("#btEtapa"))$("#btEtapa").onclick=()=>{ST.cfg.etapa=et+1;salva("cfg",ST.cfg);clearInterval(cr);pintaPratica()};
+  if($("#btEspelho"))$("#btEspelho").onclick=()=>{
+    const texto=$("#txtEst").value.trim();
+    if(texto.length<30)return UI.banner("avi","Escreva sua conduta antes de abrir o espelho — abrir primeiro contamina a autoavaliação.");
+    ST.treino[e.id]={texto,nota:0,marcados:[],quando:new Date().toISOString()};salva("treino",ST.treino);
+    clearInterval(cr);desenhaEspelho(e);
+  };
+}
+function desenhaEspelho(e){
+  const t=ST.treino[e.id];
+  const teto=e.espelho.reduce((s,i)=>s+i.peso,0);
+  const eixo={C:"Conhecimento",H:"Habilidade",A:"Atitude"};
+  $("#espelho").innerHTML=`
+   <div class="cx">
+    <h3 style="margin:0 0 4px">Espelho de correção</h3>
+    <p class="mini">Marque apenas o que você realmente escreveu ou disse — não o que você "sabia". A nota sai da razão entre os pesos marcados e o total de ${teto.toFixed(1)} pontos.</p>
+    ${["C","H","A"].map(x=>{const itens=e.espelho.filter(i=>i.eixo===x);if(!itens.length)return "";
+      return `<h4 style="margin:14px 0 6px;font-family:Newsreader,serif">${eixo[x]}</h4>`+
+        itens.map(i=>{const k=e.espelho.indexOf(i);
+          return `<label class="alt" style="cursor:pointer"><input type="checkbox" data-k="${k}" ${t.marcados.includes(k)?"checked":""} style="min-height:auto;margin-top:3px">
+           <span>${esc(i.item)} <span class="pilula">${i.peso.toFixed(1)}</span></span></label>`}).join("")}).join("")}
+    <hr>
+    <div class="linha"><span class="crono" id="notaEst">0.0</span><span class="mini">de ${teto.toFixed(1)} pontos</span>
+     <button class="bt" id="btFecharEst" style="margin-left:auto">Salvar e voltar</button></div>
+    <p class="mini" style="margin-top:10px">Na prova real são 2 estações: soma-se as duas e o corte é 7 pontos em 10.</p>
+   </div>`;
+  const recalcula=()=>{
+    const ks=$$("#espelho input:checked").map(i=>+i.dataset.k);
+    const nota=ks.reduce((s,k)=>s+e.espelho[k].peso,0);
+    $("#notaEst").textContent=nota.toFixed(1);
+    ST.treino[e.id]={...ST.treino[e.id],nota,marcados:ks};salva("treino",ST.treino);
+  };
+  $$("#espelho input").forEach(i=>i.onchange=recalcula);recalcula();
+  $("#btFecharEst").onclick=()=>{ST.cfg.estacao=null;salva("cfg",ST.cfg);atividade(3);pintaPratica()};
+}
+
+/* ================= aba TRILHA ================= */
+function pintaTrilha(){
+  const ano=ST.cfg.ano||"r1";
+  const t=TRILHA.find(x=>x.ano===ano)||TRILHA[0];
+  $("#sec-trilha").innerHTML=`
+  <div class="cx">
+   <div class="linha">
+    ${TRILHA.map(x=>`<button class="bt ${x.ano===ano?"":"sec"} mini" data-ano="${x.ano}">${esc(x.titulo.split("—")[0].trim())}</button>`).join("")}
+   </div>
+   <h2 style="margin:12px 0 4px">${esc(t.titulo)}</h2>
+   <p class="mini">${esc(t.resumo)}</p>
+  </div>
+  ${t.blocos.map(b=>{
+    const feito=(ST.trilha[b.id]||[]);
+    return `<div class="cx">
+     <div class="linha" style="gap:6px">
+      <span class="pilula b">${b.semanas} semanas</span>
+      ${b.areas.slice(0,4).map(a=>`<span class="pilula">${esc(NOME[a]||a)}</span>`).join("")}
+      ${b.areas.length>4?`<span class="pilula">+${b.areas.length-4}</span>`:""}
+     </div>
+     <h3 style="margin:9px 0 4px">${esc(b.nome)}</h3>
+     <p class="mini">${esc(b.foco)}</p>
+     <div class="barra" style="margin:10px 0"><i style="width:${pct(feito.length,b.entregas.length)}%"></i></div>
+     ${b.entregas.map((e,k)=>`<label class="alt" style="cursor:pointer">
+        <input type="checkbox" data-b="${b.id}" data-k="${k}" ${feito.includes(k)?"checked":""} style="min-height:auto;margin-top:3px">
+        <span>${esc(e)}</span></label>`).join("")}
+     <button class="bt mini" data-treina="${b.id}" style="margin-top:9px">Treinar as questões deste rodízio</button>
+    </div>`}).join("")}`;
+  $$("[data-ano]").forEach(b=>b.onclick=()=>{ST.cfg.ano=b.dataset.ano;salva("cfg",ST.cfg);pintaTrilha()});
+  $$("#sec-trilha input[type=checkbox]").forEach(i=>i.onchange=()=>{
+    const id=i.dataset.b,k=+i.dataset.k,l=ST.trilha[id]||(ST.trilha[id]=[]);
+    const p=l.indexOf(k); if(i.checked&&p<0)l.push(k); if(!i.checked&&p>=0)l.splice(p,1);
+    salva("trilha",ST.trilha);pintaTrilha();
+  });
+  $$("[data-treina]").forEach(b=>b.onclick=()=>{
+    const bloco=t.blocos.find(x=>x.id===b.dataset.treina);
+    let nivel=t.ano==="r3"?"":t.ano;          /* R3 mistura níveis; R1/R2 filtram pelo próprio */
+    /* Enquanto o banco é pequeno, área + nível pode não ter nenhuma questão. Melhor abrir a área
+       inteira e dizer isso do que jogar o residente numa tela vazia. */
+    const area=bloco.areas.find(a=>BANCO.some(q=>q.tema===a&&(!nivel||q.nivel===nivel)))
+             ||bloco.areas.find(a=>BANCO.some(q=>q.tema===a))||bloco.areas[0];
+    if(nivel&&!BANCO.some(q=>q.tema===area&&q.nivel===nivel))nivel="";
+    ST.pos.fq={area,cen:"",comp:"",niv:nivel,modo:"todas"};
+    ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);
+    const n=BANCO.filter(q=>q.tema===area&&(!nivel||q.nivel===nivel)).length;
+    UI.banner(n?"ok":"avi",n?`${n} ${n===1?"questão":"questões"} de ${NOME[area]}${nivel?" no nível "+nivel.toUpperCase():""}.`
+      :`Ainda não há questões deste rodízio no banco. O filtro ficou em ${NOME[area]}.`);
+    irAba("questoes");
+  });
+}
+
+/* ================= aba LEITURAS ================= */
+function pintaLeituras(){
+  const aberta=ST.cfg.lendo;
+  if(aberta){
+    const it=LEITURAS.find(l=>l.f===aberta);
+    $("#sec-leituras").innerHTML=`
+     <div class="cx"><div class="linha">
+       <button class="bt sec mini" id="fecharL">← voltar</button>
+       <span class="mini">${esc(it?it.t:"")}</span>
+       <button class="bt mini" id="marcaL" style="margin-left:auto">${ST.lidas[aberta]?"✓ lida":"marcar como lida"}</button>
+     </div></div>
+     <iframe class="quadro" id="quadroLeitura" src="leituras/${encodeURIComponent(aberta)}?tema=${temaEfetivo()}" title="${esc(it?it.t:"leitura")}"></iframe>`;
+    document.body.classList.add("lendo");
+    ajustaQuadro();addEventListener("resize",ajustaQuadro);
+    $("#fecharL").onclick=()=>{ST.cfg.lendo=null;salva("cfg",ST.cfg);document.body.classList.remove("lendo");pintaLeituras()};
+    $("#marcaL").onclick=()=>{ST.lidas[aberta]=!ST.lidas[aberta];if(!ST.lidas[aberta])delete ST.lidas[aberta];
+      salva("lidas",ST.lidas);atividade(2);pintaLeituras()};
+    return;
+  }
+  document.body.classList.remove("lendo");
+  const lidas=Object.keys(ST.lidas).length, min=LEITURAS.filter(l=>l.f).reduce((s,l)=>s+(l.min||0),0);
+  $("#sec-leituras").innerHTML=LEITURAS.length?`
+  <div class="cx">
+   <h2 style="margin:0 0 6px">Leituras</h2>
+   <p class="mini">${LEITURAS.filter(l=>l.f).length} resumos, cerca de ${min} minutos no total — ${lidas} já lidos. Cada leitura fecha com as fontes primárias numeradas e um botão para treinar a área.</p>
+  </div>
+  ${LEITURAS.map(l=>l.grupo?`<h3 style="margin:20px 0 8px;font-family:Newsreader,serif">${esc(l.grupo)} <span class="mini" style="font-family:Inter">${esc(l.sub||"")}</span></h3>`:
+   `<div class="cx"><div class="linha" style="gap:6px">
+     <span class="pilula b">${esc(l.tipo||"")}</span><span class="pilula">${esc(NOME[l.area]||l.area||"")}</span>
+     <span class="pilula">${l.min} min</span>${ST.lidas[l.f]?`<span class="pilula ok">lida</span>`:""}</div>
+    <h3 style="margin:9px 0 4px">${esc(l.t)}</h3><p class="mini">${esc(l.s)}</p>
+    <button class="bt mini" data-ler="${esc(l.f)}" style="margin-top:9px">ler</button></div>`).join("")}`
+  :`<div class="cx"><p class="vazio">Nenhuma leitura publicada ainda. As leituras entram por <code>leituras.js</code> + um arquivo em <code>leituras/</code>.</p></div>`;
+  $$("[data-ler]").forEach(b=>b.onclick=()=>{ST.cfg.lendo=b.dataset.ler;salva("cfg",ST.cfg);pintaLeituras()});
+}
+function ajustaQuadro(){const f=$("#quadroLeitura");if(!f)return;
+  const topo=f.getBoundingClientRect().top;
+  f.style.height=Math.max(320,innerHeight-topo-12)+"px"}
+
+/* ================= aba CARTÕES (SM-2 enxuto) ================= */
+function cartaoDe(i){return ST.flash[i]||(ST.flash[i]={n:0,ef:2.5,int:0,prox:dataISO()})}
+function devidos(){return FLASH.map((c,i)=>({c,i,e:cartaoDe(i)})).filter(x=>x.e.prox<=dataISO())}
+function pintaCartoes(){
+  const d=devidos();
+  if(!d.length)return $("#sec-cartoes").innerHTML=`<div class="cx"><h2 style="margin:0 0 6px">Cartões</h2>
+    <p class="vazio">Nada para revisar hoje. São ${FLASH.length} cartões no total; volte amanhã.</p></div>`;
+  const {c,i}=d[0];
+  $("#sec-cartoes").innerHTML=`
+  <div class="cx"><div class="linha">
+    <span class="pilula b">${esc(NOME[c.tema]||c.tema)}</span>
+    <span class="mini" style="margin-left:auto">${d.length} para hoje</span></div>
+   <p class="enun">${esc(c.a)}</p>
+   <div id="verso"></div>
+   <button class="bt" id="btVirar">Mostrar a resposta</button>
+  </div>`;
+  $("#btVirar").onclick=()=>{
+    $("#verso").innerHTML=`<div class="coment">${esc(c.b)}</div>`;
+    $("#btVirar").outerHTML=`<div class="linha">
+      <button class="bt sec" data-q="0">errei</button>
+      <button class="bt sec" data-q="3">difícil</button>
+      <button class="bt" data-q="5">fácil</button></div>`;
+    $$("[data-q]").forEach(b=>b.onclick=()=>{avaliaCartao(i,+b.dataset.q);atividade(1);pintaCartoes()});
+  };
+}
+function avaliaCartao(i,q){
+  const e=cartaoDe(i);
+  if(q<3){e.n=0;e.int=1}
+  else{e.n++;e.int=e.n===1?1:e.n===2?6:Math.round(e.int*e.ef);
+       e.ef=Math.max(1.3,e.ef+(0.1-(5-q)*(0.08+(5-q)*0.02)))}
+  const d=new Date();d.setDate(d.getDate()+e.int);e.prox=dataISO(d);
+  ST.flash[i]=e;salva("flash",ST.flash);
+}
+</script>
+<script>
+/* ================= aba PAINEL ================= */
+function estatArea(){
+  return TAX.map(t=>{
+    const qs=BANCO.filter(q=>q.tema===t.id);
+    let n=0,ok=0;
+    qs.forEach(q=>{const h=(respostaDe(q)||{}).hist||[];if(h.length){n++;if(h[h.length-1].ok)ok++}});
+    const taxa=n?ok/n:null, cob=qs.length?n/qs.length:0;
+    /* prioridade = peso na prova × (o que você erra) × (o quanto ainda não viu) */
+    const prio=t.peso*(1-(taxa===null?0.5:taxa))*(1.3-cob);
+    return {t,total:qs.length,n,ok,taxa,cob,prio};
+  }).sort((a,b)=>b.prio-a.prio);
+}
+function pintaPainel(){
+  const respondidas=Object.keys(ST.resp).length;
+  let acertos=0,tent=0;
+  Object.values(ST.resp).forEach(r=>r.hist.forEach(h=>{tent++;if(h.ok)acertos++}));
+  const dias=Object.keys(ST.atividade).length;
+  const ea=estatArea();
+  const matriz={};
+  BANCO.forEach(q=>{const h=(respostaDe(q)||{}).hist||[];if(!h.length)return;
+    const k=q.cenario+"|"+q.comp,m=matriz[k]||(matriz[k]={n:0,ok:0});m.n++;if(h[h.length-1].ok)m.ok++});
+  $("#sec-painel").innerHTML=`
+  <div class="cx">
+   <h2 style="margin:0 0 10px">Onde você está</h2>
+   <div class="grade2">
+    <div class="kpi"><b>${respondidas}/${BANCO.length}</b><span>questões vistas</span></div>
+    <div class="kpi"><b>${pct(acertos,tent)}%</b><span>acerto geral (${tent} tentativas)</span></div>
+    <div class="kpi"><b>${ST.erros.length}</b><span>na fila de erros</span></div>
+    <div class="kpi"><b>${dias}</b><span>dias com estudo</span></div>
+   </div>
+  </div>
+  <div class="cx">
+   <h3 style="margin:0 0 4px">Prioridade de estudo</h3>
+   <p class="mini">Ordena pelo peso da área na prova × o que você erra × o que ainda não viu. Comece de cima.</p>
+   <div class="rolagem" style="margin-top:10px"><table>
+    <tr><th>Área</th><th>Peso</th><th>Vistas</th><th>Acerto</th><th>Cobertura</th></tr>
+    ${ea.map(a=>`<tr>
+      <td>${esc(a.t.nome)}</td><td>${a.t.peso}</td><td>${a.n}/${a.total}</td>
+      <td>${a.taxa===null?'<span class="mini">—</span>':`<span class="pilula ${a.taxa>=0.7?"ok":"er"}">${Math.round(a.taxa*100)}%</span>`}</td>
+      <td><div class="barra" style="min-width:70px"><i style="width:${Math.round(a.cob*100)}%"></i></div></td></tr>`).join("")}
+   </table></div>
+  </div>
+  <div class="cx">
+   <h3 style="margin:0 0 4px">Matriz do edital</h3>
+   <p class="mini">O edital cruza cenário e competência. Uma lacuna aqui é diferente de uma lacuna de conteúdo: costuma ser jeito de pensar, não falta de leitura.</p>
+   <div class="rolagem" style="margin-top:10px"><table>
+    <tr><th>Cenário</th>${COMP.map(c=>`<th>${esc(c.nome)}</th>`).join("")}</tr>
+    ${CEN.map(ce=>`<tr><td><b>${esc(ce.nome)}</b></td>${COMP.map(co=>{
+      const m=matriz[ce.id+"|"+co.id];
+      return `<td>${m?`<span class="pilula ${pct(m.ok,m.n)>=70?"ok":"er"}">${pct(m.ok,m.n)}%</span> <span class="mini">${m.n}</span>`:'<span class="mini">—</span>'}</td>`
+    }).join("")}</tr>`).join("")}
+   </table></div>
+  </div>
+  ${ST.erros.length?`<div class="cx"><h3 style="margin:0 0 8px">Erros a revisar</h3>
+   ${ST.erros.slice(0,12).map(ch=>{const q=QIDX.get(ch);if(!q)return "";
+     return `<details><summary>${esc(NOME[q.tema]||q.tema)} — ${esc(q.q.slice(0,90))}…</summary>
+      <p class="enun" style="font-size:15px">${esc(q.q)}</p>
+      <div class="coment"><b>Correta: ${LETRAS[q.gab]}.</b> ${esc(q.alts[q.gab])}<br><br>${esc(q.coment)}
+       <div class="base">Âncora: ${esc(q.base)}</div></div></details>`}).join("")}
+   <button class="bt mini" id="btTreinarErros" style="margin-top:8px">Treinar só os erros</button></div>`:""}
+  <div class="cx">
+   <h3 style="margin:0 0 8px">Progresso das outras frentes</h3>
+   <div class="grade2">
+    <div class="kpi"><b>${Object.keys(ST.treino).length}/${PRATICA.length}</b><span>estações treinadas</span></div>
+    <div class="kpi"><b>${Object.keys(ST.lidas).length}/${LEITURAS.filter(l=>l.f).length||0}</b><span>leituras concluídas</span></div>
+    <div class="kpi"><b>${devidos().length}</b><span>cartões para hoje</span></div>
+    <div class="kpi"><b>${ST.sim.length}</b><span>simulados feitos</span></div>
+   </div>
+  </div>`;
+  if($("#btTreinarErros"))$("#btTreinarErros").onclick=()=>{
+    ST.pos.fq={area:"",cen:"",comp:"",niv:"",modo:"erros"};ST.pos.assq=null;ST.pos.chq=null;
+    salva("pos",ST.pos);irAba("questoes")};
+}
+
+/* ================= aba AJUSTES ================= */
+async function pintaAjustes(){
+  const p=provaAtual();
+  $("#sec-ajustes").innerHTML=`
+  <div class="cx">
+   <h3 style="margin:0 0 8px">Prova alvo</h3>
+   <p class="mini">${esc(p.regra)}</p>
+   ${p.edital?`<p class="mini" style="margin-top:6px">Fonte: ${esc(p.edital)}</p>`:""}
+  </div>
+  <div class="cx">
+   <h3 style="margin:0 0 8px">Aparência</h3>
+   <div class="linha">
+    ${[["auto","segue o sistema"],["claro","claro"],["escuro","escuro"]].map(([v,n])=>
+      `<button class="bt ${((ST.cfg.tema||"auto")===v)?"":"sec"} mini" data-tema="${v}">${n}</button>`).join("")}
+   </div>
+  </div>
+  <div class="cx">
+   <h3 style="margin:0 0 8px">Seus dados</h3>
+   <p class="mini">Tudo fica neste aparelho (localStorage espelhado em IndexedDB). Não há servidor, login nem sincronização — e por isso o backup é responsabilidade sua.</p>
+   <div class="linha" style="margin-top:10px">
+    <button class="bt" id="btExp">Exportar backup</button>
+    <button class="bt sec" id="btImp">Importar backup</button>
+    <button class="bt sec" id="btSnap">Criar ponto de restauração</button>
+    <input type="file" id="arqImp" accept="application/json" hidden>
+   </div>
+   <div id="listaBk" style="margin-top:12px"></div>
+   <p class="mini" style="margin-top:12px">Armazenamento persistente: ${ARM.persistOK===true?"concedido pelo navegador":ARM.persistOK===false?"NÃO concedido — o navegador pode limpar os dados sob pressão de espaço":"desconhecido"}.</p>
+  </div>
+  <div class="cx">
+   <h3 style="margin:0 0 8px">Sobre</h3>
+   <p class="mini">ClínicaMed ${V} · ${BANCO.length} questões · ${FLASH.length} cartões · ${PRATICA.length} estações · ${LEITURAS.filter(l=>l.f).length} leituras.
+   Conteúdo autoral ancorado em diretriz com ano declarado. Nenhuma conduta aqui substitui a diretriz na fonte: em prova e em plantão, confira a versão vigente.</p>
+  </div>`;
+  $$("[data-tema]").forEach(b=>b.onclick=()=>{ST.cfg.tema=b.dataset.tema;salva("cfg",ST.cfg);aplicaTema();pintaAjustes()});
+  $("#btExp").onclick=()=>{
+    const blob=new Blob([JSON.stringify(ARM.exporta())],{type:"application/json"});
+    const a=document.createElement("a");a.href=URL.createObjectURL(blob);
+    a.download=`clinicamed-backup-${dataISO()}.json`;a.click();
+    setTimeout(()=>URL.revokeObjectURL(a.href),4000);
+  };
+  $("#btImp").onclick=()=>$("#arqImp").click();
+  $("#arqImp").onchange=async e=>{
+    const f=e.target.files[0];if(!f)return;
+    try{const n=await ARM.importa(JSON.parse(await f.text()));
+      if(n===null)return UI.banner("erro","Esse arquivo não é um backup do ClínicaMed.");
+      carregaEstado();UI.banner("ok",`${n} chaves restauradas.`);pintaAjustes();
+    }catch(err){UI.banner("erro","Não consegui ler o arquivo: "+err.message)}
+  };
+  $("#btSnap").onclick=async()=>{await ARM.snapshot("manual");UI.banner("ok","Ponto de restauração criado.");pintaAjustes()};
+  const bks=await ARM.listaBackups();
+  $("#listaBk").innerHTML=bks.length?`<div class="rolagem"><table>
+    <tr><th>Quando</th><th>Origem</th><th>Chaves</th><th></th></tr>
+    ${bks.map(b=>`<tr><td>${esc(b.quando.replace("T"," ").slice(0,16))}</td><td>${esc(b.motivo)}</td><td>${b.n}</td>
+      <td><button class="bt sec mini" data-bk="${b.id}">restaurar</button></td></tr>`).join("")}</table></div>`
+    :`<p class="mini">Nenhum ponto de restauração ainda.</p>`;
+  $$("[data-bk]").forEach(b=>b.onclick=async()=>{
+    if(!confirm("Restaurar este ponto? O estado atual é salvo antes, como ponto de restauração."))return;
+    const ok=await ARM.restaura(+b.dataset.bk);
+    if(ok){carregaEstado();UI.banner("ok","Backup restaurado.");pintaAjustes()}else UI.banner("erro","Não consegui restaurar.");
+  });
+}
+
+/* ================= boot ================= */
+(async function(){
+  carregaEstado();
+  await ARM.boot();
+  carregaEstado();
+  if(ARM.recuperado)UI.banner("ok",`Recuperei ${ARM.recuperado.n} chaves do espelho interno (backup de ${String(ARM.recuperado.quando).slice(0,10)}). Seus dados voltaram.`,true);
+  aplicaTema();
+  matchMedia("(prefers-color-scheme:dark)").addEventListener("change",()=>{if((ST.cfg.tema||"auto")==="auto")aplicaTema()});
+  montaAbas();pintaTopo();
+  /* deep-link das leituras: ../index.html?area=<tema>#questoes aplica o filtro e limpa a URL.
+     O parâmetro é `area` e não `tema` para não colidir com o ?tema= do claro/escuro. */
+  const par=new URLSearchParams(location.search), areaLink=par.get("area");
+  if(areaLink&&TAX.some(t=>t.id===areaLink)){
+    ST.pos.fq={area:areaLink,cen:"",comp:"",niv:"",modo:"todas"};
+    ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);ST.cfg.aba="questoes";ST.cfg.lendo=null;salva("cfg",ST.cfg);
+    history.replaceState(null,"",location.pathname);
+  }
+  irAba(ST.cfg.aba&&PINTA[ST.cfg.aba]?ST.cfg.aba:"questoes");
+  if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+  window.__cm={ST,ARM,BANCO,QIDX,chaveQ,embaralha,espalhaTemas,irAba,estatArea,V};
+})();
+</script>
