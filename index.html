@@ -148,7 +148,6 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
  <section id="sec-questoes"></section>
  <section id="sec-simulado" hidden></section>
  <section id="sec-pratica" hidden></section>
- <section id="sec-trilha" hidden></section>
  <section id="sec-leituras" hidden></section>
  <section id="sec-cartoes" hidden></section>
  <section id="sec-painel" hidden></section>
@@ -161,7 +160,6 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 <script src="banco.js"></script>
 <script src="flash.js"></script>
 <script src="pratica.js"></script>
-<script src="trilha.js"></script>
 <script src="leituras.js"></script>
 <script>
 "use strict";
@@ -182,7 +180,7 @@ const chaveQ=q=>chaveTxt(q.q);
 
 const BANCO=window.BANCO||[], TAX=window.TAXONOMIA||[], CEN=window.CENARIOS||[], COMP=window.COMPETENCIAS||[],
       NIVEIS=window.NIVEIS||[], PROVAS=window.PROVAS||[], FLASH=window.FLASH||[], PRATICA=window.PRATICA||[],
-      TRILHA=window.TRILHA||[], LEITURAS=window.LEITURAS||[];
+      LEITURAS=window.LEITURAS||[];
 const QIDX=new Map();
 BANCO.forEach(q=>{const ch=chaveQ(q); if(QIDX.has(ch))console.warn("COLISÃO de chave:",ch,q.q.slice(0,60)); QIDX.set(ch,q); q._ch=ch});
 const NOME=Object.fromEntries(TAX.map(t=>[t.id,t.nome]));
@@ -199,7 +197,7 @@ const UI={banner(tipo,msg,fixa){
 
 /* ---------- blindagem de armazenamento ----------
    load() que falha TRAVA a gravação da chave: melhor não salvar do que salvar vazio por cima. */
-const CHAVES=["resp","fav","flash","erros","cfg","sim","simativo","pos","treino","atividade","lidas","trilha"].map(k=>PREF+k);
+const CHAVES=["resp","fav","flash","erros","cfg","sim","simativo","pos","treino","atividade","lidas"].map(k=>PREF+k);
 const ARM={
  db:null,travas:{},tsBackup:0,recuperado:null,persistOK:null,
  async boot(){
@@ -277,7 +275,7 @@ function carregaEstado(){ST={
   resp:ARM.load(PREF+"resp",{}), fav:ARM.load(PREF+"fav",{}), flash:ARM.load(PREF+"flash",{}),
   erros:ARM.load(PREF+"erros",[]), cfg:ARM.load(PREF+"cfg",{}), sim:ARM.load(PREF+"sim",[]),
   simativo:ARM.load(PREF+"simativo",null), pos:ARM.load(PREF+"pos",{}), treino:ARM.load(PREF+"treino",{}),
-  atividade:ARM.load(PREF+"atividade",{}), lidas:ARM.load(PREF+"lidas",{}), trilha:ARM.load(PREF+"trilha",{})
+  atividade:ARM.load(PREF+"atividade",{}), lidas:ARM.load(PREF+"lidas",{})
 }}
 const salva=(k,v)=>ARM.save(PREF+k,v);
 function atividade(n){const d=dataISO();ST.atividade[d]=(ST.atividade[d]||0)+n;salva("atividade",ST.atividade)}
@@ -316,12 +314,12 @@ function espalhaTemas(lista){
 </script>
 <script>
 /* ================= navegação ================= */
-const ABAS=[["questoes","Questões"],["simulado","Simulado"],["pratica","Prática"],["trilha","Trilha"],
+const ABAS=[["questoes","Questões"],["simulado","Simulado"],["pratica","Prática"],
             ["leituras","Leituras"],["cartoes","Cartões"],["painel","Painel"],["ajustes","Ajustes"]];
 /* Resolvido na hora da chamada: cada aba é declarada num bloco <script> posterior a este,
    então referenciar a função aqui na criação do objeto quebraria o boot inteiro. */
 const PINTA={questoes:()=>pintaQuestoes(),simulado:()=>pintaSimulado(),pratica:()=>pintaPratica(),
-             trilha:()=>pintaTrilha(),leituras:()=>pintaLeituras(),cartoes:()=>pintaCartoes(),
+             leituras:()=>pintaLeituras(),cartoes:()=>pintaCartoes(),
              painel:()=>pintaPainel(),ajustes:()=>pintaAjustes()};
 function montaAbas(){
   $("#abas").innerHTML=ABAS.map(([id,n])=>
@@ -720,57 +718,6 @@ function desenhaEspelho(e){
   };
   $$("#espelho input").forEach(i=>i.onchange=recalcula);recalcula();
   $("#btFecharEst").onclick=()=>{ST.cfg.estacao=null;salva("cfg",ST.cfg);atividade(3);pintaPratica()};
-}
-
-/* ================= aba TRILHA ================= */
-function pintaTrilha(){
-  const ano=ST.cfg.ano||"r1";
-  const t=TRILHA.find(x=>x.ano===ano)||TRILHA[0];
-  $("#sec-trilha").innerHTML=`
-  <div class="cx">
-   <div class="linha">
-    ${TRILHA.map(x=>`<button class="bt ${x.ano===ano?"":"sec"} mini" data-ano="${x.ano}">${esc(x.titulo.split("—")[0].trim())}</button>`).join("")}
-   </div>
-   <h2 style="margin:12px 0 4px">${esc(t.titulo)}</h2>
-   <p class="mini">${esc(t.resumo)}</p>
-  </div>
-  ${t.blocos.map(b=>{
-    const feito=(ST.trilha[b.id]||[]);
-    return `<div class="cx">
-     <div class="linha" style="gap:6px">
-      <span class="pilula b">${b.semanas} semanas</span>
-      ${b.areas.slice(0,4).map(a=>`<span class="pilula">${esc(NOME[a]||a)}</span>`).join("")}
-      ${b.areas.length>4?`<span class="pilula">+${b.areas.length-4}</span>`:""}
-     </div>
-     <h3 style="margin:9px 0 4px">${esc(b.nome)}</h3>
-     <p class="mini">${esc(b.foco)}</p>
-     <div class="barra" style="margin:10px 0"><i style="width:${pct(feito.length,b.entregas.length)}%"></i></div>
-     ${b.entregas.map((e,k)=>`<label class="alt" style="cursor:pointer">
-        <input type="checkbox" data-b="${b.id}" data-k="${k}" ${feito.includes(k)?"checked":""} style="min-height:auto;margin-top:3px">
-        <span>${esc(e)}</span></label>`).join("")}
-     <button class="bt mini" data-treina="${b.id}" style="margin-top:9px">Treinar as questões deste rodízio</button>
-    </div>`}).join("")}`;
-  $$("[data-ano]").forEach(b=>b.onclick=()=>{ST.cfg.ano=b.dataset.ano;salva("cfg",ST.cfg);pintaTrilha()});
-  $$("#sec-trilha input[type=checkbox]").forEach(i=>i.onchange=()=>{
-    const id=i.dataset.b,k=+i.dataset.k,l=ST.trilha[id]||(ST.trilha[id]=[]);
-    const p=l.indexOf(k); if(i.checked&&p<0)l.push(k); if(!i.checked&&p>=0)l.splice(p,1);
-    salva("trilha",ST.trilha);pintaTrilha();
-  });
-  $$("[data-treina]").forEach(b=>b.onclick=()=>{
-    const bloco=t.blocos.find(x=>x.id===b.dataset.treina);
-    let nivel=t.ano==="r3"?"":t.ano;          /* R3 mistura níveis; R1/R2 filtram pelo próprio */
-    /* Enquanto o banco é pequeno, área + nível pode não ter nenhuma questão. Melhor abrir a área
-       inteira e dizer isso do que jogar o residente numa tela vazia. */
-    const area=bloco.areas.find(a=>BANCO.some(q=>q.tema===a&&(!nivel||q.nivel===nivel)))
-             ||bloco.areas.find(a=>BANCO.some(q=>q.tema===a))||bloco.areas[0];
-    if(nivel&&!BANCO.some(q=>q.tema===area&&q.nivel===nivel))nivel="";
-    ST.pos.fq={area,cen:"",comp:"",niv:nivel,modo:"todas"};
-    ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);
-    const n=BANCO.filter(q=>q.tema===area&&(!nivel||q.nivel===nivel)).length;
-    UI.banner(n?"ok":"avi",n?`${n} ${n===1?"questão":"questões"} de ${NOME[area]}${nivel?" no nível "+nivel.toUpperCase():""}.`
-      :`Ainda não há questões deste rodízio no banco. O filtro ficou em ${NOME[area]}.`);
-    irAba("questoes");
-  });
 }
 
 /* ================= aba LEITURAS ================= */

@@ -114,10 +114,12 @@ window.COMPETENCIAS=[
  {"id":"prev","nome":"Prevenção/Seguimento"}
 ];
 
-/* Nível de profundidade — o mesmo banco serve ao residente e ao candidato ao título. */
+/* Nível de profundidade da questão. Os `id` são históricos e NÃO devem mudar — o banco inteiro
+   os referencia e o progresso gravado depende deles. Os rótulos são neutros de propósito: o app
+   é de estudo de clínica médica e serve a qualquer público, não a um ano de residência. */
 window.NIVEIS=[
- {"id":"r1","nome":"R1 — enfermaria e plantão","desc":"O que se cobra no primeiro ano: reconhecer, estabilizar, prescrever o básico com segurança."},
- {"id":"r2","nome":"R2 — ambulatório e complexidade","desc":"Seguimento crônico, diagnóstico diferencial mais fino, indicação de exames."},
- {"id":"r3","nome":"R3 / subespecialidade","desc":"Profundidade de quem vai disputar vaga de acesso: nuance de diretriz, estudo que mudou a conduta."},
- {"id":"tit","nome":"Título de especialista","desc":"Nível TECM: cenário clínico completo com tomada de decisão."}
+ {"id":"r1","nome":"Essencial","desc":"Reconhecer, estabilizar e prescrever com segurança — o que não se pode errar."},
+ {"id":"r2","nome":"Intermediário","desc":"Diagnóstico diferencial mais fino, indicação de exames e seguimento crônico."},
+ {"id":"r3","nome":"Avançado","desc":"Nuance de diretriz e do estudo que mudou a conduta; profundidade de subespecialidade."},
+ {"id":"tit","nome":"Nível prova de título","desc":"Cenário clínico completo com tomada de decisão, no formato da prova de título."}
 ];

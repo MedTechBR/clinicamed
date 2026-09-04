@@ -3,12 +3,12 @@
   "q": "Mulher de 34 anos, asmática, chega à emergência com dispneia e sibilos difusos após quadro gripal. Está falando frases completas, com frequência respiratória de 24 irpm e oximetria de pulso de 94% em ar ambiente. Recebeu a primeira série de broncodilatador inalatório. Sobre a oxigenoterapia nesse atendimento, qual conduta segue a diretriz vigente?",
   "alts": [
    "Ofertar oxigênio sob máscara com reservatório a 15 L/min para manter a saturação acima de 98% agora.",
+   "Não ofertar oxigênio suplementar: só se indica a oferta quando a saturação cai abaixo do limiar.",
    "Ofertar oxigênio por cateter nasal a 3 L/min de rotina em toda crise asmática atendida no setor.",
    "Indicar ventilação não invasiva imediatamente, antes mesmo da segunda série de broncodilatador.",
-   "Não ofertar oxigênio suplementar: só se indica a oferta quando a saturação cai abaixo do limiar.",
    "Ofertar oxigênio apenas se a gasometria arterial mostrar pressão parcial de oxigênio menor que 80."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "urg",
@@ -17,22 +17,22 @@
   "coment": "A atualização de 2026 do GINA foi explícita ao desencorajar a oxigenoterapia liberal na crise asmática: o oxigênio suplementar não é recomendado enquanto a saturação estiver em 92% ou mais, e quando indicado o alvo é uma faixa controlada de 93% a 95% em adultos, adolescentes e crianças de 6 a 11 anos. A hiperóxia na asma aguda associa-se a piora da relação ventilação-perfusão e a retenção de dióxido de carbono. A paciente com 94% em ar ambiente já está dentro do alvo, e o que muda desfecho aqui é broncodilatador, corticoide sistêmico e reavaliação seriada.",
   "porAlt": [
    "Máscara com reservatório a alto fluxo produz hiperóxia, que na crise asmática piora a troca gasosa e pode elevar a pressão de dióxido de carbono.",
+   "Correta: com saturação de 94% a paciente já está na faixa-alvo, e o GINA 2026 só indica oxigênio quando a saturação cai abaixo de 92%.",
    "Oxigênio de rotina em toda crise foi justamente a prática que a diretriz passou a desaconselhar, por não trazer benefício e acrescentar risco.",
    "A ventilação não invasiva não é passo inicial da crise asmática; a prioridade é broncodilatador em série e corticoide sistêmico precoce.",
-   "Correta: com saturação de 94% a paciente já está na faixa-alvo, e o GINA 2026 só indica oxigênio quando a saturação cai abaixo de 92%.",
    "A gasometria arterial não é exigida para decidir oxigenoterapia na crise; a oximetria de pulso guia a indicação e o alvo de saturação."
   ]
  },
  {
   "q": "Homem de 26 anos, asmático, é atendido minutos após comer camarão em uma festa. Apresenta sibilância difusa, edema de lábios, urticária no tronco e pressão arterial de 84/50 mmHg. Já está em uso de sua bombinha de resgate sem melhora. Qual é a primeira medida a ser tomada?",
   "alts": [
-   "Salbutamol inalatório em série contínua, deixando a adrenalina para caso não haja resposta em 20 min.",
    "Adrenalina intramuscular na face lateral da coxa, antes de repetir o broncodilatador inalatório.",
+   "Salbutamol inalatório em série contínua, deixando a adrenalina para caso não haja resposta em 20 min.",
    "Corticoide endovenoso em dose alta, que reverte com rapidez o broncoespasmo e a hipotensão do caso.",
    "Anti-histamínico endovenoso associado a expansão volêmica, adiando a adrenalina para a sala vermelha.",
    "Intubação orotraqueal imediata, pois a via aérea está inevitavelmente perdida nesse tipo de quadro."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "urg",
@@ -40,8 +40,8 @@
   "base": "GINA 2026 — recomendação nova sobre asma com achados de anafilaxia (adrenalina antes do broncodilatador)",
   "coment": "O GINA 2026 acrescentou uma recomendação específica para o cenário em que o paciente se apresenta com achados de anafilaxia e de asma ao mesmo tempo: dá-se primeiro a adrenalina e só depois os broncodilatadores. O caso reúne exposição a alérgeno, acometimento cutâneo-mucoso, broncoespasmo e hipotensão — anafilaxia por definição. A adrenalina intramuscular na face anterolateral da coxa é a única medida que atua nos três eixos do quadro: broncodilatação, vasoconstrição e estabilização do mastócito. Corticoide e anti-histamínico são adjuvantes e não substituem nem justificam adiar a adrenalina.",
   "porAlt": [
-   "O beta-agonista trata o broncoespasmo, mas não reverte a hipotensão nem o edema de via aérea; adiar a adrenalina é a principal causa de morte evitável.",
    "Correta: diante de anafilaxia com asma, o GINA 2026 orienta administrar a adrenalina primeiro e só então os broncodilatadores inalatórios.",
+   "O beta-agonista trata o broncoespasmo, mas não reverte a hipotensão nem o edema de via aérea; adiar a adrenalina é a principal causa de morte evitável.",
    "O corticoide leva horas para agir e não tem efeito vasopressor; ele previne a reação bifásica, mas nunca é a primeira medida da anafilaxia.",
    "O anti-histamínico age apenas na urticária e no prurido; usá-lo como medida inicial atrasa a única droga que muda o desfecho do quadro.",
    "A intubação precoce sem tentativa de adrenalina é desnecessária na maioria dos casos e pode se tornar via aérea difícil pelo próprio edema."
@@ -51,12 +51,12 @@
   "q": "Homem de 67 anos com DPOC usa broncodilatador de ação longa duplo (LABA associado a LAMA). No último ano teve uma exacerbação moderada, tratada com corticoide oral em domicílio, sem internação. Está com dispneia mMRC 2 e contagem de eosinófilos sanguíneos de 340 células/µL. Segundo a versão vigente do relatório GOLD, qual é a conduta?",
   "alts": [
    "Manter o esquema atual, porque só duas ou mais exacerbações moderadas justificariam escalonar hoje.",
-   "Escalonar para terapia tripla com corticoide inalatório: qualquer exacerbação moderada já basta.",
    "Trocar a dupla broncodilatação por corticoide inalatório associado a beta-agonista de longa ação.",
    "Suspender o LAMA e manter apenas o LABA, reduzindo o risco de eventos adversos anticolinérgicos.",
+   "Escalonar para terapia tripla com corticoide inalatório: qualquer exacerbação moderada já basta.",
    "Iniciar azitromicina em dose baixa por doze meses antes de considerar qualquer ajuste do inalatório."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -65,22 +65,22 @@
   "coment": "O relatório GOLD de 2026 baixou o limiar para escalonamento: passou a recomendar intensificar o tratamento já após uma única exacerbação moderada, dentro do conceito de reduzir a atividade da doença — meta de nenhuma exacerbação, nenhuma piora de sintomas e nenhuma perda acelerada de função pulmonar. A escolha do corticoide inalatório é guiada por biomarcador: eosinófilos acima de 300 células/µL predizem boa resposta e sustentam a tripla terapia. Retirar broncodilatador ou substituir a dupla broncodilatação por corticoide com beta-agonista contraria a lógica de manter a base broncodilatadora.",
   "porAlt": [
    "O limiar de duas exacerbações pertence a versões anteriores do relatório; manter a conduta aqui deixa passar uma janela de prevenção já sinalizada.",
-   "Correta: o GOLD 2026 recomenda escalonar após uma exacerbação moderada, e a eosinofilia de 340 células/µL sustenta acrescentar o corticoide inalatório.",
    "Retirar o antimuscarínico de longa ação piora a broncodilatação de base; o corticoide entra somado à dupla, e não no lugar de um dos broncodilatadores.",
    "O LAMA é peça central da prevenção de exacerbação na DPOC, e efeitos anticolinérgicos relevantes são incomuns nas doses inalatórias usuais.",
+   "Correta: o GOLD 2026 recomenda escalonar após uma exacerbação moderada, e a eosinofilia de 340 células/µL sustenta acrescentar o corticoide inalatório.",
    "A azitromicina profilática é opção de exceção, para exacerbadores apesar de terapia inalatória otimizada, e traz risco cardíaco e de resistência."
   ]
  },
  {
   "q": "Homem de 54 anos com DPOC moderada, ex-tabagista, comparece à consulta de rotina para atualizar o calendário vacinal. Já recebeu as vacinas contra influenza e pneumococo neste ciclo. Pergunta se existe algo mais indicado para a sua doença pulmonar. Segundo o relatório GOLD vigente, o que se recomenda quanto à vacina contra o vírus sincicial respiratório?",
   "alts": [
-   "Indicá-la agora, porque a recomendação passou a valer a partir dos 50 anos nesse grupo de pacientes.",
    "Adiar a indicação até os 60 anos, faixa etária em que a vacina permanece recomendada atualmente.",
    "Restringir a vacina aos pacientes com oxigenoterapia domiciliar contínua ou VEF₁ abaixo de trinta.",
    "Considerá-la somente após duas internações por exacerbação ocorridas dentro do mesmo ano civil.",
-   "Dispensar a vacina, uma vez que a proteção da influenza cobre também o vírus sincicial respiratório."
+   "Dispensar a vacina, uma vez que a proteção da influenza cobre também o vírus sincicial respiratório.",
+   "Indicá-la agora, porque a recomendação passou a valer a partir dos 50 anos nesse grupo de pacientes."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
@@ -88,11 +88,11 @@
   "base": "GOLD 2026 — atualização da recomendação de vacina contra VSR (idade reduzida de 60 para 50 anos)",
   "coment": "Entre as mudanças do relatório GOLD de 2026 está a redução da idade recomendada para a vacina contra o vírus sincicial respiratório em pacientes com DPOC: passou de 60 para 50 anos. A justificativa é o peso do VSR como causa de exacerbação e de hospitalização nesse grupo, com carga de doença comparável à da influenza em adultos com doença pulmonar crônica. As vacinas são imunologicamente distintas e não há proteção cruzada entre influenza e VSR. Não há exigência de gravidade funcional, de oxigenoterapia ou de número prévio de internações para indicar a vacinação.",
   "porAlt": [
-   "Correta: o GOLD 2026 reduziu para 50 anos a idade a partir da qual a vacina contra o VSR é recomendada em pacientes com DPOC.",
    "A faixa dos 60 anos era a da versão anterior do relatório; manter esse corte deixa sem proteção uma década inteira de pacientes de risco.",
    "A recomendação é etária e não depende de oxigenoterapia domiciliar nem de um valor específico de VEF₁ para ser aplicada ao paciente.",
    "Não se exige histórico de internação para vacinar: a indicação é preventiva e antecede o evento que se pretende justamente evitar.",
-   "São vacinas contra vírus distintos, sem proteção cruzada; a imunização contra influenza não confere qualquer cobertura contra o VSR."
+   "São vacinas contra vírus distintos, sem proteção cruzada; a imunização contra influenza não confere qualquer cobertura contra o VSR.",
+   "Correta: o GOLD 2026 reduziu para 50 anos a idade a partir da qual a vacina contra o VSR é recomendada em pacientes com DPOC."
   ]
  }
 ]

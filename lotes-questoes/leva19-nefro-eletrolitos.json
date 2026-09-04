@@ -1,0 +1,122 @@
+[
+ {
+  "q": "Homem de 66 anos com doença renal crônica em uso de enalapril e espironolactona chega com fraqueza. O potássio é de 7,2 mEq/L e o eletrocardiograma mostra ondas T apiculadas com alargamento do QRS. Está estável hemodinamicamente. Qual é a primeira medida a ser tomada?",
+  "alts": [
+   "Resina de troca por via oral isolada, medida mais rápida para reduzir o potássio sérico agora.",
+   "Gluconato de cálcio endovenoso, que estabiliza a membrana do miócito e protege contra arritmia.",
+   "Hemodiálise imediata antes de qualquer droga, único recurso capaz de proteger este paciente.",
+   "Solução de glicose com insulina isolada, sem nova medida de estabilização da membrana antes.",
+   "Furosemida endovenosa isolada, suficiente para corrigir a hipercalemia com alteração no traçado."
+  ],
+  "gab": 1,
+  "tema": "nefro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "KDIGO 2024 e Harrison's Principles of Internal Medicine, 22ª edição, 2025 — manejo da hipercalemia grave",
+  "coment": "Hipercalemia com alteração eletrocardiográfica é emergência, e a sequência tem três tempos. Primeiro, estabilizar a membrana com gluconato de cálcio, que não reduz o potássio mas protege contra arritmia em minutos. Segundo, deslocar o potássio para o intracelular com insulina e glicose, e beta-agonista inalatório. Terceiro, remover potássio do corpo com resina de troca, diurético ou diálise, conforme função renal e gravidade. Suspender as drogas que retêm potássio — aqui, o inibidor da enzima conversora e a espironolactona — é parte obrigatória da conduta.",
+  "porAlt": [
+   "A resina age em horas e não protege o coração no intervalo em que a arritmia pode ocorrer neste paciente.",
+   "Correta: o cálcio estabiliza a membrana em minutos e protege contra arritmia, sendo a primeira medida da hipercalemia com alteração no eletrocardiograma.",
+   "A diálise é etapa de remoção e pode ser necessária, mas nunca antes da estabilização de membrana e do desvio intracelular.",
+   "Insulina com glicose desloca o potássio, mas deixar de estabilizar a membrana antes expõe o paciente à arritmia.",
+   "A furosemida contribui para a excreção, mas isolada é insuficiente diante de alteração eletrocardiográfica instalada."
+  ]
+ },
+ {
+  "q": "Mulher de 74 anos é internada com confusão e sódio sérico de 112 mEq/L, instalado ao longo de semanas em uso de hidroclorotiazida. Está sem convulsão. Qual é a estratégia de correção adequada?",
+  "alts": [
+   "Corrigir para valores normais em seis horas, com salina hipertônica em infusão rápida.",
+   "Correção lenta, limitando o aumento do sódio a cerca de 8 mEq/L nas primeiras 24 horas.",
+   "Restringir água livre apenas, sem qualquer reposição de sódio, mesmo com sintoma neurológico.",
+   "Infundir salina isotônica em grande volume até o sódio ultrapassar 135 mEq/L no mesmo dia.",
+   "Aguardar 48 horas de observação antes de intervir, pela instalação lenta do quadro."
+  ],
+  "gab": 1,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "European Clinical Practice Guideline on the diagnosis and treatment of hyponatraemia, 2014; Cecil Medicina, 26ª edição, 2022",
+  "coment": "Em hiponatremia crônica, o cérebro já se adaptou perdendo osmóis, e a correção rápida provoca síndrome de desmielinização osmótica, com quadro neurológico devastador dias depois. O limite recomendado é de cerca de 8 mEq/L em 24 horas, ainda mais conservador em pacientes de risco — desnutrição, alcoolismo, hipocalemia, hepatopatia. A suspensão do tiazídico é obrigatória. Salina hipertônica em bólus fica reservada a sintomas neurológicos graves, como convulsão ou rebaixamento importante, e mesmo assim com alvo de elevação de poucos mEq/L para reverter o edema cerebral.",
+  "porAlt": [
+   "Normalizar o sódio em seis horas é justamente o erro que produz desmielinização osmótica, com sequela neurológica grave.",
+   "Correta: em hiponatremia crônica o teto é de cerca de 8 mEq/L em 24 horas, para evitar desmielinização osmótica.",
+   "Restrição hídrica isolada é insuficiente em sódio de 112 mEq/L com sintoma neurológico já presente na paciente.",
+   "Salina isotônica em grande volume pode até piorar a hiponatremia em algumas etiologias e não permite controle da velocidade.",
+   "Observar por 48 horas mantém a paciente confusa e sob risco, quando existe correção segura e bem definida a fazer."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos internado por pneumonia evolui com creatinina de 0,9 para 2,4 mg/dL em 48 horas e débito urinário de 0,3 mL/kg/h nas últimas 12 horas. Recebeu contraste na admissão e usa vancomicina. Qual é a conduta inicial mais adequada?",
+  "alts": [
+   "Iniciar diálise imediatamente, indicada em toda injúria renal aguda com oligúria já documentada.",
+   "Prescrever furosemida em dose alta contínua, que converte a lesão oligúrica e melhora a sobrevida.",
+   "Manter todos os fármacos em uso e apenas repetir a creatinina em setenta e duas horas para reavaliar.",
+   "Infundir dopamina em dose renal, medida que protege o rim e restaura o débito urinário do paciente.",
+   "Avaliar volemia, suspender nefrotóxicos e ajustar doses, investigando causa pré-renal e obstrutiva."
+  ],
+  "gab": 4,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "KDIGO 2012 — Clinical Practice Guideline for Acute Kidney Injury; Harrison's, 22ª edição, 2025",
+  "coment": "O primeiro passo na injúria renal aguda é entender o mecanismo: avaliar volemia e perfusão, revisar todos os fármacos nefrotóxicos e suas doses, e afastar obstrução com ultrassonografia quando houver dúvida. Aqui há dois agressores identificáveis — contraste e vancomicina — além da própria sepse. A diálise tem indicações precisas: hipercalemia refratária, acidose grave, sobrecarga volêmica refratária, uremia sintomática. Diurético não previne nem trata injúria renal, apenas maneja volume; e a dopamina em dose renal foi abandonada por não proteger o rim e acrescentar arritmia.",
+  "porAlt": [
+   "A diálise tem indicações específicas e a oligúria isolada, sem distúrbio refratário, não é uma delas neste momento.",
+   "O diurético maneja volume mas não trata a lesão nem melhora sobrevida; converter para não oligúrica não muda desfecho.",
+   "Manter os nefrotóxicos e apenas reavaliar em três dias permite que a lesão progrida enquanto a causa segue atuando.",
+   "A dopamina em dose renal foi abandonada: não protege o rim e acrescenta risco de arritmia sem benefício demonstrado.",
+   "Correta: avaliar volemia, retirar nefrotóxicos, ajustar doses e afastar obstrução é o passo inicial na injúria renal aguda."
+  ]
+ },
+ {
+  "q": "Mulher de 39 anos tem edema periorbitário e de membros inferiores há três semanas, proteinúria de 6,8 g em 24 horas, albumina de 2,1 g/dL e colesterol total de 340 mg/dL. A creatinina é normal e não há hematúria dismórfica. Qual é a síndrome e a conduta inicial?",
+  "alts": [
+   "Síndrome nefrítica, cuja conduta é apenas restrição de sal e observação clínica por três meses.",
+   "Síndrome nefrótica, com indicação de biópsia renal em todo adulto para definir a doença e tratar.",
+   "Lesão renal aguda pré-renal, que se resolve exclusivamente com expansão volêmica endovenosa rápida.",
+   "Proteinúria fisiológica, achado sem relevância clínica quando a creatinina está dentro do normal.",
+   "Insuficiência cardíaca descompensada, e a proteinúria é apenas consequência da congestão venosa."
+  ],
+  "gab": 1,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "KDIGO 2021 — Glomerular Diseases Guideline; Cecil Medicina, 26ª edição, 2022",
+  "coment": "Proteinúria acima de 3,5 g em 24 horas com hipoalbuminemia, edema e dislipidemia define síndrome nefrótica. No adulto, a biópsia renal é habitualmente indicada, porque o tratamento depende do padrão histológico — doença de lesões mínimas, glomeruloesclerose segmentar e focal, nefropatia membranosa, entre outras — e porque muitas dessas doenças têm causa secundária a investigar. O manejo de suporte inclui bloqueio do sistema renina-angiotensina para reduzir proteinúria, controle de edema com restrição de sódio e diurético, e atenção ao risco trombótico, que é elevado nessa síndrome.",
+  "porAlt": [
+   "A síndrome nefrítica cursa com hematúria dismórfica, hipertensão e queda de filtração, ausentes neste quadro.",
+   "Correta: o conjunto define síndrome nefrótica, e no adulto a biópsia costuma ser necessária para definir a doença de base.",
+   "Não há elementos de hipoperfusão renal, e expandir volume não explica proteinúria maciça com hipoalbuminemia.",
+   "Proteinúria de quase 7 gramas nunca é fisiológica: a creatinina normal não afasta doença glomerular significativa.",
+   "A congestão pode causar proteinúria discreta, mas não nessa magnitude nem com hipoalbuminemia tão acentuada."
+  ]
+ },
+ {
+  "q": "Homem de 70 anos, diabético, tem taxa de filtração glomerular de 24 mL/min/1,73 m², fósforo elevado, paratormônio três vezes acima do normal e hemoglobina de 9,8 g/dL. Está assintomático. Quais complicações devem ser rastreadas e tratadas nesse estágio?",
+  "alts": [
+   "Apenas a anemia, que é a única complicação com tratamento comprovado nesse estágio de doença renal.",
+   "Somente o controle glicêmico, deixando as demais alterações para quando ele iniciar terapia dialítica.",
+   "Nenhuma, porque as complicações da doença renal crônica só surgem depois do início da hemodiálise.",
+   "Apenas o fósforo, sendo a anemia um achado esperado que não requer investigação nem tratamento.",
+   "Todas: distúrbio mineral e ósseo, anemia, acidose metabólica e risco cardiovascular no mesmo plano."
+  ],
+  "gab": 4,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "KDIGO 2024 — Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
+  "coment": "No estágio avançado pré-dialítico, o cuidado é multifrontal e simultâneo. O distúrbio mineral e ósseo exige controle de fósforo com dieta e quelantes, atenção ao paratormônio e à vitamina D. A anemia deve ser investigada quanto a ferro antes de considerar agente estimulador da eritropoese. A acidose metabólica é tratada com bicarbonato, o que retarda a progressão. O risco cardiovascular é a principal causa de morte nessa população e exige controle pressórico, estatina e bloqueio do sistema renina-angiotensina. Em paralelo, prepara-se o acesso e discute-se a modalidade de terapia renal substitutiva.",
+  "porAlt": [
+   "A anemia é uma das frentes, mas tratá-la isoladamente deixa progredir doença óssea, acidose e risco cardiovascular.",
+   "O controle glicêmico é necessário, mas adiar as demais frentes até a diálise permite dano ósseo e vascular acumulado.",
+   "As complicações começam bem antes da diálise e é justamente no pré-dialítico que o tratamento muda a evolução.",
+   "A anemia da doença renal tem tratamento definido e investigar ferro antes é passo obrigatório, não achado a ignorar.",
+   "Correta: distúrbio mineral e ósseo, anemia, acidose e risco cardiovascular são tratados em conjunto já no pré-diálise."
+  ]
+ }
+]

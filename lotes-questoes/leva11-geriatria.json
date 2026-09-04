@@ -4,11 +4,11 @@
   "alts": [
    "Manter a dose atual e acrescentar zolpidem à noite, para melhorar a qualidade do sono dela.",
    "Substituir por um benzodiazepínico de meia-vida mais longa, que costuma provocar menos queda.",
-   "Planejar a retirada gradual do benzodiazepínico, associando medidas de higiene do sono.",
    "Suspender o clonazepam de forma abrupta hoje, já que a droga é inadequada para essa idade.",
+   "Planejar a retirada gradual do benzodiazepínico, associando medidas de higiene do sono.",
    "Acrescentar um anti-histamínico de primeira geração à noite, opção mais segura para idosos."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
@@ -18,8 +18,8 @@
   "porAlt": [
    "O zolpidem consta da mesma lista de medicamentos inapropriados e associa-se a queda e fratura, somando risco em vez de resolver.",
    "Meia-vida longa é justamente o que piora o acúmulo e a sonolência residual no idoso, com mais queda, e não menos.",
-   "Correta: desprescrição gradual com medidas não farmacológicas é a conduta indicada diante de quedas e sonolência em uso crônico.",
    "A retirada abrupta após oito anos de uso arrisca abstinência, com ansiedade de rebote, insônia grave e até convulsão.",
+   "Correta: desprescrição gradual com medidas não farmacológicas é a conduta indicada diante de quedas e sonolência em uso crônico.",
    "Anti-histamínicos de primeira geração são fortemente anticolinérgicos e constam da lista de inapropriados por delirium e retenção."
   ]
  },
@@ -50,13 +50,13 @@
  {
   "q": "Durante a consulta de um homem de 79 anos com hipertensão, diabetes e artrose, o residente aplica um instrumento que avalia funcionalidade, cognição, humor, mobilidade, nutrição, suporte social e medicamentos em uso, para então definir o plano de cuidado. Que abordagem é essa e qual sua principal utilidade?",
   "alts": [
-   "Avaliação geriátrica ampla, que identifica problemas não detectados na consulta convencional.",
    "Anamnese dirigida por aparelhos, que substitui com vantagem a avaliação funcional do idoso.",
    "Triagem de fragilidade isolada, cujo único objetivo é decidir sobre internação de longa duração.",
+   "Avaliação geriátrica ampla, que identifica problemas não detectados na consulta convencional.",
    "Escala prognóstica de mortalidade, usada apenas para definir quem recebe cuidados paliativos.",
    "Rastreamento oncológico ampliado, que orienta quais exames de imagem devem ser solicitados."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "prev",
@@ -64,9 +64,9 @@
   "base": "Diretrizes de avaliação geriátrica ampla — Ministério da Saúde, Caderno de Atenção Básica nº 19, e AGS 2023",
   "coment": "A avaliação geriátrica ampla é multidimensional: examina funcionalidade nas atividades básicas e instrumentais, cognição, humor, mobilidade e risco de queda, nutrição, continência, visão e audição, suporte social e medicamentos em uso. Seu valor está em revelar o que a consulta orientada por queixa não alcança — declínio cognitivo inicial, depressão, sarcopenia, polifarmácia, isolamento —, condições que mudam o plano terapêutico e predizem desfecho melhor que o diagnóstico isolado. É ferramenta de planejamento do cuidado, não escala prognóstica nem critério para institucionalização.",
   "porAlt": [
-   "Correta: é a avaliação geriátrica ampla, cuja força está em detectar problemas que a consulta orientada por queixa não revela.",
    "A anamnese por aparelhos não capta funcionalidade, cognição, humor nem suporte social, que são os eixos que mudam o plano.",
    "A avaliação vai muito além de triar fragilidade e não tem como finalidade decidir internação de longa permanência.",
+   "Correta: é a avaliação geriátrica ampla, cuja força está em detectar problemas que a consulta orientada por queixa não revela.",
    "Não se trata de escala prognóstica: o objetivo é planejar o cuidado, e não selecionar quem recebe cuidados paliativos.",
    "Rastreamento oncológico é apenas um item possível do plano, e não o objetivo de uma avaliação multidimensional."
   ]

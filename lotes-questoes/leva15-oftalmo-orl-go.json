@@ -2,13 +2,13 @@
  {
   "q": "Mulher de 68 anos chega à emergência com dor ocular intensa à direita, visão embaçada com halos ao redor das luzes, náusea e vômito. Ao exame, o olho está hiperemiado, a córnea embaçada e a pupila em midríase média, pouco reativa. Qual é a conduta correta?",
   "alts": [
-   "Tratar como glaucoma agudo de ângulo fechado e acionar a oftalmologia com urgência máxima.",
    "Prescrever colírio de tropicamida para dilatar a pupila e facilitar o exame de fundo de olho.",
    "Tratar como conjuntivite viral com colírio lubrificante e reavaliar em uma semana no ambulatório.",
    "Ocluir o olho com curativo compressivo e prescrever analgésico simples por via oral em casa.",
-   "Solicitar tomografia de crânio e adiar a avaliação oftalmológica até que o exame fique pronto."
+   "Solicitar tomografia de crânio e adiar a avaliação oftalmológica até que o exame fique pronto.",
+   "Tratar como glaucoma agudo de ângulo fechado e acionar a oftalmologia com urgência máxima."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "oftalmo",
   "cenario": "emg",
   "comp": "urg",
@@ -16,11 +16,11 @@
   "base": "American Academy of Ophthalmology, 2020 — Preferred Practice Pattern: Primary Angle Closure Disease",
   "coment": "Dor ocular intensa com halos, náusea, olho vermelho, córnea embaçada e pupila em midríase média fixa é glaucoma agudo de ângulo fechado — emergência que leva a perda visual irreversível em horas. A conduta é acionar a oftalmologia de imediato e iniciar redução da pressão intraocular com hipotensores tópicos e sistêmicos, seguida de iridotomia a laser. O erro mais grave é dilatar a pupila: midriático fecha ainda mais o ângulo e agrava a crise. Náusea e vômito com cefaleia frequentemente desviam o raciocínio para abdome ou crânio, atrasando o diagnóstico.",
   "porAlt": [
-   "Correta: o quadro é glaucoma agudo de ângulo fechado, emergência que exige oftalmologia imediata e redução da pressão intraocular.",
    "Dilatar a pupila fecha ainda mais o ângulo e agrava a crise — é a conduta mais perigosa diante dessa apresentação clínica.",
    "A conjuntivite não cursa com dor intensa, halos, córnea embaçada nem alteração pupilar; tratar assim custa a visão do olho.",
    "A oclusão não reduz a pressão intraocular e o analgésico apenas mascara o sintoma enquanto o nervo óptico sofre dano.",
-   "A tomografia não faz o diagnóstico e o atraso na avaliação oftalmológica é o que determina a perda visual definitiva."
+   "A tomografia não faz o diagnóstico e o atraso na avaliação oftalmológica é o que determina a perda visual definitiva.",
+   "Correta: o quadro é glaucoma agudo de ângulo fechado, emergência que exige oftalmologia imediata e redução da pressão intraocular."
   ]
  },
  {
@@ -30,7 +30,7 @@
    "Inclinar a cabeça para trás, para reduzir o gotejamento anterior enquanto o sangramento cessa.",
    "Realizar tamponamento nasal anterior e avaliar sinais de sangramento posterior associado.",
    "Aplicar bolsa de gelo na região cervical, medida que costuma interromper o sangramento.",
-   "Solicitar angiotomografia de artérias nasais antes de qualquer tentativa de tamponamento local."
+   "Solicitar angiotomografia de artérias nasais antes de cada tentativa de tamponamento local."
   ],
   "gab": 2,
   "tema": "orl",
@@ -52,11 +52,11 @@
   "alts": [
    "Aguardar o resultado da cultura endocervical antes de iniciar o antimicrobiano específico.",
    "Solicitar laparoscopia diagnóstica, exame obrigatório para confirmar o diagnóstico antes de tratar.",
-   "Iniciar antimicrobiano para doença inflamatória pélvica, pois os critérios mínimos já bastam.",
    "Prescrever apenas anti-inflamatório e reavaliar em sete dias na unidade básica de referência.",
+   "Iniciar antimicrobiano para doença inflamatória pélvica, pois os critérios mínimos já bastam.",
    "Indicar internação para todas as pacientes com essa apresentação, sem exceção de gravidade."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "go",
   "cenario": "emg",
   "comp": "tto",
@@ -66,8 +66,8 @@
   "porAlt": [
    "Esperar a cultura atrasa o tratamento em dias e não muda a conduta inicial, que é empírica por definição nesse quadro.",
    "A laparoscopia não é exigida para o diagnóstico e fica reservada a casos duvidosos ou refratários ao esquema instituído.",
-   "Correta: presentes os critérios mínimos, inicia-se o antimicrobiano empírico de imediato, pelo custo do atraso em sequelas.",
    "Anti-inflamatório isolado não trata a infecção e a espera de sete dias é exatamente o intervalo que gera sequela tubária.",
+   "Correta: presentes os critérios mínimos, inicia-se o antimicrobiano empírico de imediato, pelo custo do atraso em sequelas.",
    "A internação tem critérios definidos e não se aplica a toda paciente estável que possa cumprir o esquema por via oral."
   ]
  }

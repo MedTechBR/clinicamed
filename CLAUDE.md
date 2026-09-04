@@ -31,10 +31,13 @@ quiz-enare-farmacia.
   IndexedDB), com prefixo `cm_` centralizado na constante `PREF`.
 
 ## Abas
-Questões · Simulado · Prática · **Trilha** · Leituras · Cartões · Painel · Ajustes
+Questões · Simulado · Prática · Leituras · Cartões · Painel · Ajustes
 
-**Trilha** é o que não existe nos apps de prova: R1/R2/R3 por rodízio, com foco, entregas marcáveis e
-botão que filtra o banco pelo que o residente está vivendo agora.
+⚠️ **Não reintroduzir modo/objetivo nem trilha da residência.** O Matheus pediu os dois fora em
+04/09/2026: o app é de estudo de clínica médica e serve a qualquer público. Não há seletor de prova
+no cabeçalho (o formato do simulado é escolha da sessão) e os níveis do banco têm rótulo neutro —
+Essencial, Intermediário, Avançado, Nível prova de título — embora os `id` sigam r1/r2/r3/tit por
+compatibilidade com o banco e com o progresso gravado.
 **Prática** reproduz a 2ª fase: etapas sequenciais, cronômetro de 10 min, o candidato escreve a
 conduta ANTES de ver o espelho, e a nota sai da razão entre pesos marcados e o total de 5,0.
 **Painel** ordena por prioridade = peso da área na prova × o que você erra × o que ainda não viu,
@@ -119,22 +122,32 @@ Auditoria de contraste por DOM: **0 falhas** nos 8 painéis × 2 temas (≥4,5:1
 4. `python3 monta_banco.py` e conferir "OK: nenhum erro duro".
 
 ## Estado do conteúdo (04/09/2026)
-- **48 questões** em 15 levas, 48 chaves únicas, **zero erros duros e zero avisos**.
-- **As 18 áreas do conteúdo programático têm questão.** Nenhuma vazia.
-- Gabarito uniforme: A:10 B:10 C:10 D:9 E:9. Correta é a mais longa em 10,4%; folga mediana 1,1%.
-- Matrizes do edital: cenário amb 22 · emg 14 · enf 8 · uti 4; competência tto 21 · urg 13 · prev 8 ·
-  dx 6; nível r1 14 · r2 13 · título 13 · r3 8.
-- Verificado por DOM: simulado de 48 questões com **0 pares adjacentes do mesmo tema** e 12 temas
-  distintos nas 20 primeiras.
-- Todas as áreas seguem **abaixo do alvo** de peso × 3 (banco cheio = 360). As mais distantes são as
-  de maior peso: cardiologia 3/42, emergências 4/36, infectologia 4/30.
-- **0 questões de prova real** — o banco misto foi decidido, mas só a parte autoral existe hoje.
-- 18 cartões · 3 estações · 2 leituras (sepse e AVC).
+- **107 questões** em 28 levas, 107 chaves únicas, **zero erros duros e zero avisos**.
+- **As 18 áreas do conteúdo programático cobertas.**
+- Gabarito uniforme: A:22 B:22 C:21 D:21 E:21. Correta é a mais longa em 13,1%; folga mediana 1,1%.
+- Matrizes: cenário amb 48 · emg 37 · enf 14 · uti 8; competência tto 40 · urg 32 · dx 20 · prev 15;
+  nível essencial 25 · intermediário 36 · avançado 22 · título 24.
+- **82 cartões** cobrindo as 18 áreas · **5 leituras** (~70 min) · 3 estações práticas.
+- **0 questões de prova real** — o banco misto foi decidido, mas só a parte autoral existe.
+- Alvo do validador (peso × 3 = 360) ainda distante nas áreas de maior peso.
+
+### Detector de tells: como foi calibrado (não afrouxar sem medir)
+A regex de termos absolutos herdada via só `todos?` e era cega para **toda/todas/qualquer** — com o
+detector ampliado, o padrão aparecia em 33 de 107 questões. Antes de mexer no limiar, foi medido o
+quanto o tell é explorável: **nenhuma questão** tinha o caso perfeito (4 distratores com absoluto e
+correta sem); o pior caso eram 3 questões com 3 de 4. Com 2 distratores ainda sobram duas
+alternativas sem absoluto, e marcar "a que não tem absoluto" não resolve a questão — além de que
+distrator errado POR restringir demais ("tratar apenas com X") é conteúdo, não vício de escrita.
+Por isso o limiar passou a ser **3 distratores**, com a justificativa registrada no próprio código.
 
 ### Diretrizes já verificadas em fonte (reusar a âncora, não reinventar)
 GINA 2026 · GOLD 2026 · Surviving Sepsis 2026 · ADA 2026 · KDIGO 2024 · AHA/ASA 2026 (AVC) ·
-ESC 2024 (fibrilação atrial) · ESC 2023 (síndromes coronárias) · ATS 2025 (pneumonia comunitária,
-duração curta) · Baveno VII 2022 · EASL 2018 (cirrose descompensada) · ACR 2020 (gota) ·
+**ESC 2026 (insuficiência cardíaca — eliminou o fenótipo de fração levemente reduzida; tudo abaixo
+de 50% virou fração reduzida)** · **AHA 2025 (parada — adrenalina só após a falha das
+desfibrilações iniciais no ritmo chocável)** · **Ministério da Saúde 2024 (dengue, 6ª ed. — grupos,
+sinais de alarme e volumes; PDF em docs/)** · **Diretriz Brasileira de Hipertensão SBC 2025** ·
+ESC 2024 (fibrilação atrial) · ESC 2023 (síndromes coronárias) · ESC 2019 (embolia pulmonar) ·
+ATS 2025 (pneumonia comunitária, duração curta) · Baveno VII 2022 · EASL 2018 (cirrose) · ACR 2020 (gota) ·
 ACR 2021 (artrite reumatoide) · EULAR 2023 (lúpus) · IMWG 2014 (mieloma) · BSG 2021 (ferropenia) ·
 ASH 2020 (falciforme) · AGS Beers 2023 · Ministério da Saúde 2025 + Lei 15.284/2025 (mamografia a
 partir dos 40 anos — mudou em 2025, o conhecimento de modelo ainda diz 50 a 69) · nota técnica

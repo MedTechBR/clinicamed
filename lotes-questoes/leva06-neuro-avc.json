@@ -5,10 +5,10 @@
    "Usar somente alteplase, porque a tenecteplase só é liberada em protocolos experimentais de pesquisa.",
    "Adiar a trombólise até a angiotomografia, exame obrigatório antes de qualquer decisão de trombolisar.",
    "Reduzir a pressão arterial abaixo de 120/80 mmHg antes de iniciar o trombolítico endovenoso agora.",
-   "Usar tenecteplase 0,25 mg/kg: ela substitui a alteplase em qualquer caso elegível até 4,5 horas.",
-   "Aguardar a ressonância magnética com difusão para confirmar a área isquêmica antes de trombolisar."
+   "Aguardar a ressonância magnética com difusão para confirmar a área isquêmica antes de trombolisar.",
+   "Usar tenecteplase 0,25 mg/kg: ela substitui a alteplase em qualquer caso elegível até 4,5 horas."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
@@ -19,8 +19,8 @@
    "A tenecteplase deixou de ser restrita a pesquisa: ensaios de não inferioridade sustentaram sua incorporação formal à recomendação atual.",
    "A angiotomografia é essencial para selecionar trombectomia, mas não pode retardar a trombólise endovenosa de quem já preenche critérios.",
    "O alvo antes de trombolisar é abaixo de 185/110 mmHg; buscar normotensão compromete a perfusão da área de penumbra ainda salvável.",
-   "Correta: a diretriz de 2026 aceita a tenecteplase em 0,25 mg/kg como alternativa plena à alteplase na janela de até quatro horas e meia.",
-   "A ressonância tem papel no AVC de horário indeterminado, e não em paciente com início bem definido dentro da janela terapêutica."
+   "A ressonância tem papel no AVC de horário indeterminado, e não em paciente com início bem definido dentro da janela terapêutica.",
+   "Correta: a diretriz de 2026 aceita a tenecteplase em 0,25 mg/kg como alternativa plena à alteplase na janela de até quatro horas e meia."
   ]
  },
  {

@@ -5,10 +5,10 @@
    "Associar um bloqueador do receptor de angiotensina à dose de enalapril que ele já vem usando hoje.",
    "Prescrever alopurinol de rotina, cuja redução do ácido úrico freia a perda de função renal do paciente.",
    "Restringir a proteína da dieta a 0,3 g/kg/dia, sem suplementação de cetoanálogos, para poupar o rim.",
-   "Iniciar diálise peritoneal preventiva agora, antes que a filtração glomerular caia abaixo de 30 mL/min.",
-   "Acrescentar um inibidor de SGLT2, que tem recomendação forte nesse patamar de albuminúria e filtração."
+   "Acrescentar um inibidor de SGLT2, que tem recomendação forte nesse patamar de albuminúria e filtração.",
+   "Iniciar diálise peritoneal preventiva agora, antes que a filtração glomerular caia abaixo de 30 mL/min."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "tto",
@@ -19,8 +19,8 @@
    "O duplo bloqueio do sistema renina-angiotensina aumenta hipercalemia e injúria renal aguda sem melhorar desfechos, e foi abandonado por isso.",
    "O alopurinol trata hiperuricemia sintomática, mas os ensaios não confirmaram benefício em retardar a progressão da doença renal crônica.",
    "Restrição proteica tão intensa sem cetoanálogos produz desnutrição e sarcopenia, com risco que supera qualquer ganho renal esperado.",
-   "A indicação de diálise depende de sintomas urêmicos e de distúrbios refratários, e não de um número isolado de filtração glomerular.",
-   "Correta: filtração acima de 20 mL/min com albuminúria acima de 200 mg/g coloca o inibidor de SGLT2 em recomendação forte, mesmo sem diabetes."
+   "Correta: filtração acima de 20 mL/min com albuminúria acima de 200 mg/g coloca o inibidor de SGLT2 em recomendação forte, mesmo sem diabetes.",
+   "A indicação de diálise depende de sintomas urêmicos e de distúrbios refratários, e não de um número isolado de filtração glomerular."
   ]
  },
  {

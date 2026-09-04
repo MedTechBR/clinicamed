@@ -45,7 +45,9 @@ def chave_q(q):
         h2 = ((h2 ^ c) * 0x01000193) & 0xFFFFFFFF
     return (b36(h1) + b36(h2))[:10]
 
-ABSOLUTOS = re.compile(r"\b(sempre|nunca|jamais|apenas|somente|exclusivamente|todos?|nenhum[a]?|invariavelmente)\b", re.I)
+# "toda/todas/qualquer" são tão absolutos quanto "todo/todos" e faltavam aqui: a regex herdada
+# via só o masculino e deixava passar o tell em um terço do banco.
+ABSOLUTOS = re.compile(r"\b(sempre|nunca|jamais|apenas|somente|exclusivamente|tod[oa]s?|nenhum[a]?|qualquer|quaisquer|invariavelmente)\b", re.I)
 CAUTELA   = re.compile(r"\b(pode(m)?|geralmente|costuma(m)?|tende(m)?|recomenda-se|habitualmente|em geral)\b", re.I)
 PREFIXO   = re.compile(r"^\s*[A-Ea-e][\)\.\-–]\s")
 ANO       = re.compile(r"\b(19|20)\d{2}\b")
@@ -115,9 +117,14 @@ def main():
             correta_mais_longa += 1
             folgas.append((Lc - max(outras)) / max(outras) * 100)
 
+        # Limiar 3, não 2: medido no banco de 107 questões, o padrão "2 distratores com absoluto e
+        # correta sem" ocorre em 23 questões mas ainda deixa 2 outras alternativas sem absoluto —
+        # marcar "a que não tem absoluto" não resolve a questão. O tell só fica explorável a partir
+        # de 3 distratores, quando sobra praticamente uma escolha. Distrator errado POR restringir
+        # demais ("tratar apenas com X") é conteúdo, não vício de escrita.
         abs_err = sum(1 for j, a in enumerate(alts) if j != gab and ABSOLUTOS.search(a))
-        if abs_err >= 2 and not ABSOLUTOS.search(alts[gab]):
-            avisos.append(f"{rot}: termos absolutos concentrados nos distratores")
+        if abs_err >= 3 and not ABSOLUTOS.search(alts[gab]):
+            avisos.append(f"{rot}: termos absolutos concentrados nos distratores ({abs_err} de 4)")
         if CAUTELA.search(alts[gab]) and not any(CAUTELA.search(a) for j, a in enumerate(alts) if j != gab):
             avisos.append(f"{rot}: linguagem cautelosa só na correta")
         tem_acento = lambda s: bool(re.search(r"[àáâãéêíóôõúç]", s, re.I))

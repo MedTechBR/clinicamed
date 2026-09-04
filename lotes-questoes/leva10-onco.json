@@ -2,13 +2,13 @@
  {
   "q": "Mulher de 44 anos, assintomática, sem história familiar de câncer de mama e sem fatores de risco identificados, pergunta na consulta se pode fazer mamografia pelo SUS. Considerando as diretrizes brasileiras vigentes, qual é a resposta correta?",
   "alts": [
+   "Pode fazer o exame, decidindo com o profissional de saúde depois de discutir riscos e benefícios.",
    "Não pode fazer, porque o rastreamento no país só começa a partir dos cinquenta anos de idade.",
    "Deve fazer obrigatoriamente todo ano, sem qualquer discussão prévia sobre danos do rastreamento.",
    "Só poderá fazer o exame caso apresente um nódulo palpável ao exame clínico feito na consulta.",
-   "Deve ser encaminhada para ressonância de mamas, exame que substituiu a mamografia no rastreio.",
-   "Pode fazer o exame, decidindo com o profissional de saúde depois de discutir riscos e benefícios."
+   "Deve ser encaminhada para ressonância de mamas, exame que substituiu a mamografia no rastreio."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
@@ -16,11 +16,11 @@
   "base": "Ministério da Saúde, setembro de 2025, e Lei nº 15.284/2025 — rastreamento mamográfico a partir dos 40 anos",
   "coment": "A diretriz brasileira mudou: desde a atualização de setembro de 2025, e com a Lei nº 15.284, sancionada em dezembro de 2025, mulheres de 40 a 49 anos podem realizar mamografia de rastreamento no SUS mesmo sem sinais ou sintomas, por decisão compartilhada com o profissional de saúde. A recomendação de rastreamento bienal foi mantida para a faixa de 50 a 74 anos, ampliada em relação ao limite anterior de 69 anos. Acima de 74 anos a indicação passa a considerar expectativa de vida e comorbidades. A faixa dos 40 aos 49 concentra cerca de 23% dos casos, o que motivou a mudança.",
   "porAlt": [
+   "Correta: a partir dos 40 anos o exame está disponível no SUS por decisão compartilhada, após discussão de riscos e benefícios.",
    "O corte de cinquenta anos era a regra anterior; a diretriz de 2025 e a lei sancionada naquele ano ampliaram o acesso desde os 40.",
    "Rastreamento não é obrigação e a periodicidade anual nessa faixa não é o que a diretriz define — a decisão é compartilhada.",
    "Nódulo palpável não é rastreamento, é investigação diagnóstica: são situações distintas com condutas e prazos distintos.",
-   "A ressonância é reservada a situações específicas, como risco muito elevado, e não substituiu a mamografia no rastreamento.",
-   "Correta: a partir dos 40 anos o exame está disponível no SUS por decisão compartilhada, após discussão de riscos e benefícios."
+   "A ressonância é reservada a situações específicas, como risco muito elevado, e não substituiu a mamografia no rastreamento."
   ]
  },
  {
@@ -29,7 +29,7 @@
    "Solicitar de imediato PSA e toque retal, exames que compõem o rastreamento populacional oficial.",
    "Recusar qualquer investigação, pois o rastreamento é formalmente proibido em homens assintomáticos.",
    "Solicitar ressonância multiparamétrica de próstata como primeiro exame de rastreio nessa faixa etária.",
-   "Encaminhar direto ao urologista para biópsia prostática, independentemente de qualquer exame prévio.",
+   "Encaminhar direto ao urologista para biópsia prostática, independentemente de cada exame prévio.",
    "Discutir riscos e benefícios e decidir com ele, já que não há rastreamento populacional recomendado."
   ],
   "gab": 4,

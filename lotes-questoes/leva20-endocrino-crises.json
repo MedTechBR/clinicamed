@@ -1,0 +1,98 @@
+[
+ {
+  "q": "Mulher de 24 anos com diabetes tipo 1 chega com vômitos, dor abdominal e respiração profunda. A glicemia é de 480 mg/dL, pH 7,12, bicarbonato 8 mEq/L, cetonemia positiva e potássio sérico de 3,1 mEq/L. Qual é a conduta inicial correta quanto à insulina?",
+  "alts": [
+   "Iniciar insulina em bolus alto imediatamente, já que a acidose é grave e exige correção mais rápida.",
+   "Iniciar insulina subcutânea de ação lenta como medida isolada, dispensando qualquer via endovenosa.",
+   "Adiar a insulina e repor potássio primeiro, porque abaixo de 3,3 mEq/L a insulina agrava a hipocalemia.",
+   "Iniciar insulina apenas quando a glicemia ultrapassar 600 mg/dL, patamar que define a sua indicação.",
+   "Corrigir a acidose com bicarbonato antes da insulina, porque o pH abaixo de 7,2 exige essa correção."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "American Diabetes Association, Standards of Care 2026, e consenso ADA/EASD 2024 sobre crises hiperglicêmicas",
+  "coment": "Na cetoacidose diabética, a insulina desloca potássio para o intracelular e pode precipitar arritmia fatal se o potássio inicial já estiver baixo. Por isso a regra: com potássio abaixo de 3,3 mEq/L, repõe-se potássio antes de iniciar a insulina, mantendo a hidratação. Com potássio entre 3,3 e 5,2, inicia-se insulina e repõe-se potássio junto. Acima de 5,2, inicia-se a insulina sem reposição, monitorando. O bicarbonato não é recomendado de rotina, ficando reservado a pH muito baixo, e o tratamento essencial é volume, insulina e correção eletrolítica.",
+  "porAlt": [
+   "Bolus alto de insulina com potássio de 3,1 mEq/L pode precipitar arritmia grave; a hipocalemia precede qualquer insulina.",
+   "A cetoacidose exige insulina por via endovenosa em infusão contínua, com titulação, e não apenas insulina basal.",
+   "Correta: com potássio abaixo de 3,3 mEq/L repõe-se potássio antes da insulina, que agravaria a hipocalemia e o risco de arritmia.",
+   "O diagnóstico não depende do valor da glicemia: existe cetoacidose euglicêmica, sobretudo em uso de inibidor de SGLT2.",
+   "O bicarbonato não é rotina e não precede a insulina; a acidose se resolve com volume, insulina e correção de eletrólitos."
+  ]
+ },
+ {
+  "q": "Homem de 68 anos, diabético tipo 2 em uso de dapagliflozina, chega com náusea, dor abdominal e respiração acidótica. A glicemia é de 190 mg/dL, pH 7,18, bicarbonato de 11 mEq/L e cetonemia fortemente positiva. Qual é a interpretação correta?",
+  "alts": [
+   "Acidose láctica pela metformina, hipótese confirmada apenas pela glicemia próxima do valor normal.",
+   "Quadro sem relação com o diabetes, uma vez que a glicemia abaixo de 250 mg/dL exclui cetoacidose.",
+   "Cetoacidose euglicêmica pelo inibidor de SGLT2, que deve ser suspenso e tratada como cetoacidose.",
+   "Cetose de jejum fisiológica, condição benigna que não exige tratamento nem suspensão de fármacos.",
+   "Estado hiperglicêmico hiperosmolar, definido pela cetonemia positiva com acidose metabólica grave."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "American Diabetes Association, Standards of Care 2026 — cetoacidose euglicêmica em uso de inibidor de SGLT2",
+  "coment": "A cetoacidose euglicêmica é armadilha diagnóstica clássica em usuários de inibidores de SGLT2: a glicosúria induzida pela droga mantém a glicemia relativamente baixa enquanto a cetogênese avança, de modo que o médico que exige glicemia acima de 250 mg/dL para pensar em cetoacidose deixa o diagnóstico passar. O tratamento é o mesmo — volume, insulina endovenosa com glicose associada para permitir a infusão de insulina sem hipoglicemia, e correção eletrolítica —, somado à suspensão do inibidor de SGLT2. O estado hiperosmolar, por definição, cursa com glicemia muito alta e sem cetoacidose significativa.",
+  "porAlt": [
+   "A acidose láctica pela metformina cursa com lactato elevado e sem cetonemia fortemente positiva como neste caso.",
+   "Exigir glicemia acima de 250 mg/dL para diagnosticar cetoacidose é exatamente o erro que essa apresentação revela.",
+   "Correta: é cetoacidose euglicêmica pelo inibidor de SGLT2, que deve ser suspenso, com tratamento igual ao da cetoacidose clássica.",
+   "A cetose de jejum não produz acidose metabólica com bicarbonato de 11 mEq/L nem esse grau de sintomas.",
+   "O estado hiperosmolar cursa com glicemia muito elevada, osmolaridade alta e sem cetoacidose significativa."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos tem TSH de 0,01 mUI/L, T4 livre elevado, bócio difuso, exoftalmia e tremor. A cintilografia mostra captação difusa e aumentada. Qual é o diagnóstico e a primeira linha de tratamento no Brasil?",
+  "alts": [
+   "Tireoidite subaguda, tratada apenas com anti-inflamatório e observação por algumas semanas.",
+   "Bócio multinodular tóxico, cuja cirurgia imediata é o único tratamento definitivo possível.",
+   "Doença de Graves, com metimazol como primeira escolha na maioria dos pacientes adultos.",
+   "Hipotireoidismo primário, tratado com levotiroxina em dose plena ajustada por peso corporal.",
+   "Adenoma hipofisário produtor de TSH, hipótese sustentada pelo valor suprimido do hormônio."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "American Thyroid Association, 2016 — Guidelines for Diagnosis and Management of Hyperthyroidism; Cecil, 26ª edição, 2022",
+  "coment": "A combinação de tireotoxicidade, bócio difuso, oftalmopatia e captação difusa aumentada define doença de Graves. As três opções de tratamento são droga antitireoidiana, iodo radioativo e cirurgia; no Brasil, o metimazol é a escolha inicial na maioria dos adultos, por eficácia e por permitir remissão em parte dos pacientes. O propiltiouracil fica reservado ao primeiro trimestre da gestação e à crise tireotóxica. O betabloqueador alivia sintomas adrenérgicos enquanto a droga age. A oftalmopatia moderada a grave pesa contra o iodo radioativo, que pode agravá-la.",
+  "porAlt": [
+   "A tireoidite subaguda cursa com captação baixa à cintilografia e dor cervical, não com captação difusa aumentada.",
+   "O bócio multinodular tóxico mostra captação heterogênea em nódulos, e não o padrão difuso descrito no exame.",
+   "Correta: o quadro é doença de Graves, e o metimazol é a primeira escolha para a maioria dos adultos no país.",
+   "O TSH suprimido com T4 livre elevado indica hipertireoidismo, o oposto de hipotireoidismo primário.",
+   "No adenoma produtor de TSH o hormônio estaria normal ou elevado, e não suprimido como neste caso."
+  ]
+ },
+ {
+  "q": "Homem de 74 anos, diabético tipo 2, é trazido com desidratação grave e rebaixamento de consciência. A glicemia é de 890 mg/dL, osmolaridade de 340 mOsm/kg, pH de 7,34, bicarbonato de 20 mEq/L e cetonemia fracamente positiva. Qual é a prioridade do tratamento inicial?",
+  "alts": [
+   "Insulina em bolus alto antes de qualquer volume, para reduzir a glicemia com a máxima rapidez.",
+   "Bicarbonato endovenoso imediato, indicado já pela osmolaridade muito elevada que ele apresenta.",
+   "Solução glicosada isotônica de início, para prevenir a hipoglicemia que costuma seguir o quadro.",
+   "Reposição volêmica vigorosa, pilar do tratamento desse quadro por causa do déficit hídrico enorme.",
+   "Restrição hídrica rigorosa, porque a osmolaridade elevada reflete excesso de água corporal total."
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "American Diabetes Association, Standards of Care 2026 — estado hiperglicêmico hiperosmolar",
+  "coment": "O estado hiperglicêmico hiperosmolar difere da cetoacidose por cursar com glicemia muito mais alta, osmolaridade elevada, acidose discreta ou ausente e cetonemia mínima, porque resta insulina suficiente para conter a cetogênese. O déficit de água costuma ser de 8 a 10 litros, e a reposição volêmica é o pilar do tratamento — corrige perfusão, reduz a glicemia por diluição e por melhora da filtração, e antecede a insulina, que só entra depois de iniciada a hidratação e com potássio conhecido. A mortalidade é maior que a da cetoacidose, sobretudo no idoso.",
+  "porAlt": [
+   "Insulina antes do volume agrava a hipovolemia ao deslocar água para o intracelular, com risco de colapso circulatório.",
+   "O bicarbonato não tem indicação aqui: a acidose é discreta e o problema central é hiperosmolaridade com desidratação.",
+   "Solução glicosada de início agravaria a hiperglicemia; ela entra depois, quando a glicemia cair a determinado patamar.",
+   "Correta: o déficit hídrico é enorme e a reposição volêmica é o pilar inicial, antes e junto de qualquer insulina.",
+   "A osmolaridade elevada reflete falta de água, não excesso; restringir líquido pioraria gravemente a perfusão."
+  ]
+ }
+]

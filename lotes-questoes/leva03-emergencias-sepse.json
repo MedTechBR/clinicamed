@@ -3,12 +3,12 @@
   "q": "Homem de 78 anos é admitido na UTI com choque séptico de foco urinário. Após a ressuscitação volêmica inicial, permanece com necessidade de noradrenalina. Está com pressão arterial média de 62 mmHg, lactato em queda, débito urinário de 0,6 mL/kg/h e extremidades aquecidas. Segundo a diretriz vigente de sepse, qual é a conduta quanto ao alvo pressórico?",
   "alts": [
    "Elevar a noradrenalina até uma pressão arterial média de 80 mmHg, protegendo a perfusão renal do idoso.",
+   "Manter o alvo entre 60 e 65 mmHg, faixa sugerida para pacientes com 65 anos ou mais nesse cenário.",
    "Reduzir o alvo para 55 mmHg enquanto o lactato estiver caindo, poupando a exposição ao vasopressor.",
    "Perseguir pressão arterial sistólica maior que 140 mmHg, por causa da hipertensão crônica do paciente.",
-   "Abandonar alvo pressórico e titular o vasopressor apenas pelo débito urinário aferido de hora em hora.",
-   "Manter o alvo entre 60 e 65 mmHg, faixa sugerida para pacientes com 65 anos ou mais nesse cenário."
+   "Abandonar alvo pressórico e titular o vasopressor apenas pelo débito urinário aferido de hora em hora."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -17,22 +17,22 @@
   "coment": "A atualização de 2026 da Surviving Sepsis Campaign manteve a pressão arterial média inicial de 65 mmHg como alvo geral, com aplicação prática de uma faixa em torno desse valor, e passou a sugerir explicitamente uma faixa de 60 a 65 mmHg para pacientes com 65 anos ou mais, em vez de alvos mais altos. A lógica é evitar exposição desnecessária a vasopressor sem ganho de desfecho nessa população, apoiada em ensaios de permissividade hipotensiva no idoso. O paciente descrito está com 62 mmHg, perfusão em melhora e lactato em queda: elevar a dose apenas para atingir número mais alto acrescenta risco sem benefício.",
   "porAlt": [
    "Alvos elevados de pressão média aumentam a dose de vasopressor e os eventos arrítmicos sem melhorar sobrevida nem função renal no choque séptico.",
+   "Correta: a diretriz de 2026 sugere faixa de 60 a 65 mmHg em pacientes com 65 anos ou mais, exatamente onde o paciente já se encontra.",
    "Reduzir o alvo abaixo de 60 mmHg não é recomendado: a faixa sugerida tem piso, e hipotensão sustentada compromete a perfusão de órgãos-alvo.",
    "Alvo de sistólica alta não faz parte de nenhuma recomendação de choque séptico; a variável monitorada e titulada é a pressão arterial média.",
-   "O débito urinário é um marcador de perfusão entre outros, mas não substitui o alvo pressórico na titulação do vasopressor à beira do leito.",
-   "Correta: a diretriz de 2026 sugere faixa de 60 a 65 mmHg em pacientes com 65 anos ou mais, exatamente onde o paciente já se encontra."
+   "O débito urinário é um marcador de perfusão entre outros, mas não substitui o alvo pressórico na titulação do vasopressor à beira do leito."
   ]
  },
  {
   "q": "Paciente de 61 anos internado em UTI com choque séptico por pneumonia recebeu a dose de ataque de piperacilina-tazobactam. A equipe discute como programar as doses de manutenção nas próximas 48 horas. Considerando a diretriz de sepse vigente, qual estratégia é recomendada?",
   "alts": [
-   "Manter todas as doses em bolus rápido de trinta minutos, esquema que apresenta a melhor evidência.",
    "Fazer a manutenção do betalactâmico em infusão prolongada, depois da dose de ataque já administrada.",
+   "Manter todas as doses em bolus rápido de trinta minutos, esquema que apresenta a melhor evidência.",
    "Espaçar as doses para uma vez ao dia, aproveitando o efeito pós-antibiótico próprio dos betalactâmicos.",
    "Trocar por um aminoglicosídeo em dose única diária, cuja ação depende do pico sérico alcançado.",
    "Suspender o antimicrobiano por 24 horas para colher novas culturas em vigência de janela terapêutica."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -40,8 +40,8 @@
   "base": "Surviving Sepsis Campaign 2026 — recomendação de infusão prolongada de betalactâmicos na manutenção",
   "coment": "Entre as novidades da diretriz de 2026 está a recomendação, e não mais apenas sugestão, de usar infusão prolongada de betalactâmicos na manutenção, após o bolus inicial, em vez da infusão convencional. O racional é farmacodinâmico: a eficácia dos betalactâmicos depende do tempo em que a concentração livre permanece acima da concentração inibitória mínima, e a infusão estendida amplia esse intervalo, sobretudo em patógenos com CIM elevada e em pacientes com volume de distribuição aumentado. A dose de ataque continua sendo em bolus, para atingir depressa a concentração-alvo. Suspender antimicrobiano em choque séptico para colher cultura é conduta perigosa.",
   "porAlt": [
-   "O bolus convencional na manutenção deixa vales abaixo da concentração inibitória mínima, justamente o que a infusão estendida vem corrigir.",
    "Correta: a diretriz de 2026 recomenda infusão prolongada dos betalactâmicos na manutenção, mantendo o bolus apenas para a dose de ataque.",
+   "O bolus convencional na manutenção deixa vales abaixo da concentração inibitória mínima, justamente o que a infusão estendida vem corrigir.",
    "Betalactâmicos praticamente não têm efeito pós-antibiótico contra bacilos gram-negativos, de modo que espaçar as doses reduz a eficácia.",
    "O aminoglicosídeo tem morte bacteriana dependente de pico, mas não substitui o betalactâmico como terapia principal na pneumonia grave.",
    "Suspender o antimicrobiano em vigência de choque séptico para colher cultura aumenta mortalidade e não tem respaldo em nenhuma diretriz."
@@ -74,13 +74,13 @@
  {
   "q": "Homem de 58 anos com choque séptico iniciou meropeném associado a vancomicina empiricamente. No terceiro dia, está estável, sem vasopressor, e a hemocultura identifica Escherichia coli sensível a ceftriaxona. As culturas de vigilância não mostram germe resistente. Qual é a conduta recomendada quanto ao esquema antimicrobiano?",
   "alts": [
-   "Descalonar o esquema para ceftriaxona, guiando-se pelo agente isolado e pelo perfil de sensibilidade.",
    "Manter meropeném e vancomicina até completar catorze dias, para não arriscar a recidiva da infecção.",
    "Acrescentar um aminoglicosídeo ao esquema atual, buscando sinergismo contra o bacilo gram-negativo.",
+   "Descalonar o esquema para ceftriaxona, guiando-se pelo agente isolado e pelo perfil de sensibilidade.",
    "Suspender de imediato todo antimicrobiano, uma vez que o paciente já se encontra clinicamente estável.",
    "Trocar a vancomicina por daptomicina e conservar o carbapenêmico até a alta hospitalar do paciente."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -88,9 +88,9 @@
   "base": "Surviving Sepsis Campaign 2026 — recomendação de descalonamento diante de diagnóstico microbiológico confirmado",
   "coment": "A diretriz de 2026 elevou o descalonamento ao status de recomendação: havendo diagnóstico microbiológico confirmado e perfil de sensibilidade disponível, deve-se estreitar o espectro em vez de manter a cobertura empírica ampla. Isolada Escherichia coli sensível a ceftriaxona, com paciente em melhora e sem evidência de cocos gram-positivos, mantêm-se apenas a droga necessária: retira-se a vancomicina e substitui-se o carbapenêmico. O benefício é duplo, individual e coletivo — menos toxicidade, menos infecção por Clostridioides difficile e menor pressão seletiva para resistência. Descalonar não é o mesmo que interromper o tratamento.",
   "porAlt": [
-   "Correta: com germe identificado e sensível, a diretriz recomenda descalonar para o antimicrobiano de menor espectro que cubra o agente isolado.",
    "Manter carbapenêmico e vancomicina sem indicação amplia toxicidade e pressão seletiva, sem reduzir a chance de recidiva da infecção tratada.",
    "O sinergismo com aminoglicosídeo não traz benefício na bacteriemia por gram-negativo sensível e acrescenta nefrotoxicidade ao tratamento.",
+   "Correta: com germe identificado e sensível, a diretriz recomenda descalonar para o antimicrobiano de menor espectro que cubra o agente isolado.",
    "Descalonar não significa suspender: a bacteriemia por Escherichia coli exige completar o tempo de tratamento previsto para o foco encontrado.",
    "A daptomicina não cobriria melhor este caso, e não há razão para manter cobertura para gram-positivos sem germe correspondente isolado."
   ]

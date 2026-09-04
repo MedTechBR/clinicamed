@@ -2,13 +2,13 @@
  {
   "q": "Homem de 62 anos, diabético, é internado com febre e dor intensa em perna direita, desproporcional aos achados. A pele mostra eritema de limites imprecisos, bolhas hemorrágicas e áreas acinzentadas, com crepitação à palpação. Está taquicárdico e hipotenso. Qual é a conduta imediata?",
   "alts": [
-   "Acionar a cirurgia para exploração e desbridamento, junto de antimicrobiano de amplo espectro.",
    "Iniciar cefalexina por via oral e reavaliar a lesão em quarenta e oito horas de acompanhamento.",
+   "Acionar a cirurgia para exploração e desbridamento, junto de antimicrobiano de amplo espectro.",
    "Solicitar ressonância magnética do membro antes de qualquer decisão sobre abordagem cirúrgica.",
    "Prescrever corticoide sistêmico para reduzir o edema e a inflamação local antes de outra medida.",
    "Elevar o membro e aplicar compressas frias, reavaliando a evolução ao longo do próximo plantão."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "derma",
   "cenario": "emg",
   "comp": "urg",
@@ -16,8 +16,8 @@
   "base": "IDSA 2014 — Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections",
   "coment": "Dor desproporcional aos achados de pele, bolhas hemorrágicas, áreas acinzentadas de necrose, crepitação e sinais sistêmicos configuram fasciíte necrosante — emergência cirúrgica. O diagnóstico é clínico e a exploração cirúrgica é ao mesmo tempo diagnóstica e terapêutica: nenhum exame de imagem deve atrasá-la em paciente com quadro compatível e instabilidade. O antimicrobiano de amplo espectro cobre gram-positivos, gram-negativos e anaeróbios, com clindamicina pelo efeito antitoxina, mas é adjuvante — o que muda a mortalidade é o desbridamento precoce.",
   "porAlt": [
-   "Correta: fasciíte necrosante é emergência cirúrgica; a exploração precoce com antimicrobiano de amplo espectro é o que reduz mortalidade.",
    "Antibiótico oral para celulite não trata infecção necrosante e desperdiça as horas em que o desbridamento ainda mudaria o desfecho.",
+   "Correta: fasciíte necrosante é emergência cirúrgica; a exploração precoce com antimicrobiano de amplo espectro é o que reduz mortalidade.",
    "A ressonância pode auxiliar em casos duvidosos e estáveis, mas aqui atrasaria a cirurgia em paciente já com sinais de choque.",
    "Corticoide não tem papel no tratamento e a imunossupressão adicional pode favorecer a progressão da infecção nos tecidos.",
    "Medidas locais são conduta de celulite não complicada e deixariam progredir uma necrose que avança em horas pelo plano fascial."
@@ -27,12 +27,12 @@
   "q": "Mulher de 41 anos com lúpus é internada por atividade de doença e recebe prednisona em dose alta. No quinto dia surgem lesões cutâneas, e o exame mostra descolamento epidérmico ao atrito lateral, com acometimento de mucosa oral e ocular, após ter iniciado sulfametoxazol-trimetoprima há dez dias. Qual é a conduta prioritária?",
   "alts": [
    "Manter o antimicrobiano e apenas acrescentar anti-histamínico para o controle sintomático das lesões.",
-   "Iniciar imunoglobulina venosa como primeira e única medida, sem alterar o esquema em uso agora.",
    "Suspender de imediato todo fármaco suspeito e transferir para unidade de cuidado especializado.",
+   "Iniciar imunoglobulina venosa como primeira e única medida, sem alterar o esquema em uso agora.",
    "Aplicar corticoide tópico potente nas lesões e reavaliar a evolução na visita do dia seguinte.",
    "Aumentar a dose da prednisona e manter todos os fármacos, atribuindo o quadro à atividade do lúpus."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "derma",
   "cenario": "enf",
   "comp": "urg",
@@ -41,8 +41,8 @@
   "coment": "O sinal de Nikolsky com acometimento de duas ou mais mucosas, surgindo entre uma e três semanas após início de fármaco de alto risco — sulfonamidas, alopurinol, anticonvulsivantes, nevirapina, oxicams —, é síndrome de Stevens-Johnson ou necrólise epidérmica tóxica. A medida isolada com maior impacto na mortalidade é a suspensão imediata do fármaco causador, seguida de cuidado em unidade de queimados ou terapia intensiva, com suporte hidroeletrolítico, controle de dor, cuidado ocular precoce e vigilância de infecção. Atribuir o quadro à doença de base e manter a droga é o erro mais custoso.",
   "porAlt": [
    "Manter o fármaco causador perpetua a agressão epidérmica, e anti-histamínico não tem qualquer efeito sobre a necrólise em curso.",
-   "A imunoglobulina é discutida como adjuvante, mas jamais substitui a suspensão do fármaco e o suporte em unidade especializada.",
    "Correta: suspender o fármaco suspeito de imediato e transferir para cuidado especializado é o que mais impacta a mortalidade.",
+   "A imunoglobulina é discutida como adjuvante, mas jamais substitui a suspensão do fármaco e o suporte em unidade especializada.",
    "Corticoide tópico é inócuo diante de descolamento epidérmico extenso, e esperar até o dia seguinte custa área de pele acometida.",
    "Atribuir ao lúpus e manter todas as drogas é o erro clássico: a cronologia e o sinal de Nikolsky apontam para reação ao fármaco."
   ]
@@ -52,11 +52,11 @@
   "alts": [
    "Haloperidol em dose alta como droga isolada, por controlar melhor a alucinação visual do quadro.",
    "Reintroduzir bebida alcoólica de forma controlada até que os sintomas de abstinência desapareçam.",
-   "Benzodiazepínico titulado por escala de sintomas, associado à reposição de tiamina parenteral.",
    "Contenção mecânica com observação clínica, evitando qualquer sedação que mascare a evolução.",
+   "Benzodiazepínico titulado por escala de sintomas, associado à reposição de tiamina parenteral.",
    "Infusão de glicose hipertônica isolada, antes de qualquer outra medida farmacológica no caso."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "psiq",
   "cenario": "enf",
   "comp": "urg",
@@ -66,8 +66,8 @@
   "porAlt": [
    "O haloperidol isolado reduz o limiar convulsivo e não previne a convulsão de abstinência, sendo apenas adjuvante da agitação.",
    "Reintroduzir álcool não é tratamento: não corrige a hiperexcitabilidade e mantém a dependência que motivou o quadro atual.",
-   "Correta: benzodiazepínico titulado por escala somado a tiamina parenteral é o tratamento de primeira linha do delirium tremens.",
    "Contenção sem sedação adequada agrava agitação, rabdomiólise e hipertermia, além de não tratar a hiperatividade autonômica.",
+   "Correta: benzodiazepínico titulado por escala somado a tiamina parenteral é o tratamento de primeira linha do delirium tremens.",
    "Glicose antes da tiamina em paciente desnutrido pode precipitar encefalopatia de Wernicke, e isolada não trata a abstinência."
   ]
  }
