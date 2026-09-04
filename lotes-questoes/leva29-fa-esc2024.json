@@ -1,0 +1,146 @@
+[
+ {
+  "q": "Homem de 71 anos com fibrilação atrial e cardiomiopatia hipertrófica tem escore CHA₂DS₂-VA de 1 ponto. Está assintomático, com pressão controlada e sem sangramento prévio. Segundo a diretriz europeia vigente, qual é a conduta antitrombótica?",
+  "alts": [
+   "Não anticoagular agora, uma vez que o escore de apenas um ponto não alcança o limiar de indicação formal.",
+   "Anticoagular sempre, porque a cardiomiopatia hipertrófica indica anticoagulação independentemente do escore.",
+   "Prescrever ácido acetilsalicílico isolado, alternativa aceita quando o escore fica exatamente em um ponto.",
+   "Repetir o escore em doze meses e decidir depois, mantendo o paciente sem qualquer terapia antitrombótica.",
+   "Indicar oclusão do apêndice atrial esquerdo, primeira escolha nesse grupo por dispensar anticoagulação oral."
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2024 — Guidelines for the management of atrial fibrillation, Recommendation Table 6 (classe I, nível B)",
+  "coment": "A diretriz de 2024 traz recomendação classe I, nível B, de anticoagulação oral em TODOS os pacientes com fibrilação atrial e cardiomiopatia hipertrófica ou amiloidose cardíaca, independentemente do escore CHA₂DS₂-VA. Nessas duas condições o escore simplesmente não se aplica: o risco embólico decorre da própria doença estrutural, com átrio doente e fluxo lentificado. Também vale lembrar que a diretriz classifica como classe III, nível A, o uso de antiagregante como alternativa à anticoagulação — o ácido acetilsalicílico não protege contra embolia na fibrilação atrial.",
+  "porAlt": [
+   "O escore não se aplica a essas duas condições: nelas a indicação vem da doença estrutural, e não da pontuação clínica.",
+   "Correta: cardiomiopatia hipertrófica e amiloidose cardíaca anticoagulam sempre, com recomendação classe I, independentemente do escore.",
+   "O antiagregante como alternativa à anticoagulação é classe III nível A — não protege contra embolia na fibrilação atrial.",
+   "Adiar por um ano mantém sem proteção um paciente que tem indicação formal e imediata de anticoagulação oral plena.",
+   "A oclusão do apêndice é opção para quem não pode anticoagular, e não primeira escolha em paciente elegível à droga."
+  ]
+ },
+ {
+  "q": "Mulher de 79 anos, 55 kg, creatinina de 1,1 mg/dL, com fibrilação atrial e escore CHA₂DS₂-VA de 4 pontos, vai iniciar apixabana. O médico pensa em prescrever a dose reduzida por causa da idade e do peso. Qual é a conduta correta?",
+  "alts": [
+   "Prescrever a dose reduzida, já que idade avançada isoladamente é critério suficiente para reduzir.",
+   "Prescrever a dose plena, porque ela preenche apenas um dos três critérios de redução da apixabana.",
+   "Prescrever a dose reduzida, porque peso abaixo de sessenta quilos sozinho já obriga a redução da dose.",
+   "Trocar por varfarina, opção preferida em toda paciente idosa com risco elevado de sangramento.",
+   "Prescrever metade da dose reduzida, ajuste individualizado indicado às pacientes muito idosas."
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESC 2024 — Table 11 (doses de anticoagulante oral direto) e recomendação classe III contra subdose",
+  "coment": "A apixabana só tem dose reduzida para 2,5 mg de doze em doze horas quando o paciente preenche DOIS dos três critérios: idade de 80 anos ou mais, peso de 60 kg ou menos, creatinina de 1,5 mg/dL ou mais. A paciente tem 79 anos e 55 kg com creatinina normal, ou seja, apenas um critério — mantém-se a dose plena de 5 mg de doze em doze horas. A diretriz de 2024 é explícita ao classificar como recomendação classe III o uso de dose reduzida sem preenchimento dos critérios específicos, justamente para evitar subdose e eventos tromboembólicos evitáveis.",
+  "porAlt": [
+   "A idade isolada não basta para a apixabana: são necessários dois dos três critérios definidos pela bula e pela diretriz.",
+   "Correta: com apenas um dos três critérios, a apixabana mantém a dose plena; reduzir seria a subdose que a diretriz classifica como classe III.",
+   "O peso abaixo de sessenta quilos é um critério, mas sozinho não autoriza a redução da dose desse anticoagulante.",
+   "Trocar por varfarina em paciente elegível ao anticoagulante direto contraria a preferência atual e exige controle de INR.",
+   "Não existe metade da dose reduzida: prescrever esquema fora da bula deixa a paciente sem proteção comprovada."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos com fibrilação atrial paroxística sintomática, ainda sem uso de antiarrítmico, pergunta sobre ablação. Está sem cardiopatia estrutural relevante e com boa capacidade funcional. Segundo a diretriz europeia vigente, qual a posição da ablação por cateter nesse caso?",
+  "alts": [
+   "Só é aceitável após falha documentada de pelo menos dois antiarrítmicos usados em dose plena por um ano.",
+   "Está contraindicada enquanto houver qualquer sintoma, pelo risco elevado de complicação periprocedimento.",
+   "É recomendada apenas em pacientes com fração de ejeção reduzida associada à fibrilação atrial documentada.",
+   "Deve ser oferecida somente depois dos setenta e cinco anos, faixa em que o benefício supera o risco.",
+   "É recomendada como opção de primeira linha em toda fibrilação paroxística, com decisão compartilhada."
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2024 — Recommendation Table 19, ablação como primeira linha na fibrilação paroxística (classe I, nível A)",
+  "coment": "A diretriz de 2024 elevou a ablação por cateter a recomendação classe I, nível A, como opção de primeira linha dentro de uma estratégia de controle de ritmo com decisão compartilhada, em pacientes com fibrilação atrial paroxística — para reduzir sintomas, recorrência e progressão da arritmia. Não é mais necessário falhar antes com antiarrítmico. Duas condições operacionais acompanham: trombo em átrio esquerdo é contraindicação, e pacientes com risco tromboembólico elevado devem estar anticoagulados por pelo menos três semanas completas antes do procedimento, sem interromper o anticoagulante no periprocedimento.",
+  "porAlt": [
+   "A exigência de falha de antiarrítmico permanece para a fibrilação persistente, mas deixou de valer para a paroxística.",
+   "Sintoma é justamente a indicação da estratégia de ritmo; não há contraindicação por sintomatologia presente.",
+   "A fração de ejeção reduzida reforça a indicação, mas a recomendação de primeira linha não depende dela.",
+   "Não existe corte etário para indicar ablação: a decisão pesa risco do procedimento, benefício esperado e preferência.",
+   "Correta: a ablação é classe I como primeira linha na fibrilação paroxística, com decisão compartilhada, sem exigir falha prévia."
+  ]
+ },
+ {
+  "q": "Paciente de 74 anos com fibrilação atrial em uso correto de rivaroxabana na dose plena sofre acidente vascular cerebral isquêmico. A investigação inicial não mostra estenose carotídea significativa. Qual é a conduta recomendada quanto à terapia antitrombótica?",
+  "alts": [
+   "Acrescentar ácido acetilsalicílico ao anticoagulante, para prevenir a recorrência do evento embólico.",
+   "Trocar de imediato para outro anticoagulante direto, medida que reduziria o risco já no próximo mês.",
+   "Trocar para varfarina com alvo de INR entre dois e três, esquema superior após falha do anticoagulante.",
+   "Investigar a fundo causa, dose e adesão, sem acrescentar antiagregante nem trocar o anticoagulante.",
+   "Suspender toda anticoagulação por trinta dias, para reduzir o risco de transformação hemorrágica ampla."
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2024 — recomendações sobre risco isquêmico residual (IIa B) e classe III contra antiagregante e troca sem indicação",
+  "coment": "A diretriz orienta, com classe IIa, investigação diagnóstica minuciosa em paciente que sofre evento isquêmico em uso de anticoagulante: procurar causas não cardioembólicas, avaliar fatores de risco vasculares, checar se a dose estava correta e verificar adesão. Duas condutas frequentes são explicitamente desaconselhadas com classe III: acrescentar antiagregante à anticoagulação para prevenir recorrência de AVC embólico, e trocar de um anticoagulante direto para outro, ou para antagonista da vitamina K, sem indicação clara. Na prática, a maior parte dessas falhas é de dose ou de adesão, e não da molécula.",
+  "porAlt": [
+   "Somar antiagregante ao anticoagulante para prevenir recorrência embólica é classe III: acrescenta sangramento sem benefício.",
+   "Trocar de um anticoagulante direto para outro sem indicação clara também é classe III na diretriz vigente.",
+   "A varfarina não é superior após evento em uso de anticoagulante direto, e exige controle de INR com mais interações.",
+   "Correta: a conduta é investigar causa, dose e adesão — somar antiagregante ou trocar a droga sem motivo são recomendações classe III.",
+   "Suspender por trinta dias expõe a novo evento embólico; o reinício é definido pelo tamanho do infarto e pelo risco."
+  ]
+ },
+ {
+  "q": "Mulher de 62 anos chega ao pronto-socorro com fibrilação atrial de início há cerca de três dias, sintomática mas estável, sem uso prévio de anticoagulante. O ecocardiograma transtorácico não mostra alterações significativas. Qual é a conduta antes de uma cardioversão eletiva?",
+  "alts": [
+   "Cardioverter de imediato, porque o início há três dias ainda está dentro da janela segura de quarenta e oito horas.",
+   "Cardioverter após heparina em dose única, dispensando anticoagulação oral depois do retorno ao ritmo sinusal normal.",
+   "Adiar a cardioversão por seis meses, tempo mínimo de anticoagulação exigido antes de qualquer tentativa de reversão.",
+   "Anticoagular por três semanas ou fazer ecocardiograma transesofágico, com quatro semanas de anticoagulação depois.",
+   "Cardioverter e suspender o anticoagulante assim que o ritmo sinusal for confirmado no eletrocardiograma já feito."
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESC 2024 — recomendações para cardioversão elétrica e farmacológica da fibrilação atrial",
+  "coment": "Com início há mais de 48 horas ou indeterminado, a cardioversão eletiva exige três semanas de anticoagulação efetiva prévia ou ecocardiograma transesofágico excluindo trombo em átrio esquerdo. Depois da cardioversão, mantêm-se pelo menos quatro semanas de anticoagulação em todos os pacientes, porque o átrio permanece atordoado e trombogênico mesmo em ritmo sinusal. Passado esse período, a manutenção do anticoagulante depende do escore CHA₂DS₂-VA, e não do sucesso da cardioversão — suspender porque o ritmo voltou é um dos erros mais comuns e mais custosos.",
+  "porAlt": [
+   "A janela de segurança é de 48 horas, e o quadro tem três dias — cardioverter agora arrisca embolia por trombo já formado.",
+   "Heparina em dose única não substitui a preparação, e a anticoagulação pós-cardioversão de quatro semanas é obrigatória.",
+   "Seis meses não é exigência de nenhuma diretriz: três semanas de anticoagulação efetiva já permitem a cardioversão.",
+   "Correta: acima de 48 horas exige três semanas de anticoagulação ou transesofágico, com quatro semanas de anticoagulação depois.",
+   "Suspender ao voltar ao ritmo sinusal ignora o átrio atordoado e a indicação definida pelo escore, não pelo ritmo."
+  ]
+ },
+ {
+  "q": "Durante consulta de seguimento, um paciente com fibrilação atrial permanente e escore CHA₂DS₂-VA de 3 pontos pergunta por que o médico insiste em tratar seu peso, sua apneia do sono e sua pressão, se ele já toma o anticoagulante. Qual é a justificativa correta?",
+  "alts": [
+   "São medidas apenas estéticas e de bem-estar, sem impacto sobre a arritmia ou sobre desfechos duros.",
+   "O tratamento das comorbidades reduz recorrência e progressão da arritmia, sendo pilar do cuidado.",
+   "Servem exclusivamente para permitir a retirada futura do anticoagulante oral que ele usa já hoje.",
+   "Só importam se ele for submetido a ablação, sendo dispensáveis em quem segue o controle de frequência.",
+   "Devem ser adiadas até que a arritmia esteja controlada, para não sobrecarregar o paciente com metas."
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "ESC 2024 — domínio [C] do caminho AF-CARE, manejo de comorbidades e fatores de risco",
+  "coment": "O caminho AF-CARE organiza o cuidado em quatro domínios, e o primeiro deles é justamente o manejo de comorbidades e fatores de risco: hipertensão, insuficiência cardíaca, diabetes, obesidade, apneia obstrutiva do sono e inatividade física. A diretriz recomenda controle pressórico com classe I para reduzir recorrência, AVC e sangramento, e redução de peso mirando ao menos 10% do peso corporal também com classe I. Tratar essas condições é tratamento antiarrítmico por outra via, porque age sobre o substrato que gera e perpetua a arritmia — e reduz recorrência inclusive após ablação.",
+  "porAlt": [
+   "Controle pressórico e redução de peso têm recomendação classe I na fibrilação atrial, com impacto sobre desfechos duros.",
+   "Correta: o manejo das comorbidades reduz recorrência e progressão da arritmia e é o primeiro domínio do caminho AF-CARE.",
+   "O anticoagulante segue indicado pelo escore; controlar comorbidades não é estratégia de retirada da anticoagulação.",
+   "O benefício não se limita a candidatos à ablação: vale também para quem segue apenas com controle de frequência.",
+   "Não há motivo para adiar: as comorbidades são parte do tratamento da arritmia, e não um cuidado posterior a ela."
+  ]
+ }
+]

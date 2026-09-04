@@ -2,13 +2,13 @@
  {
   "q": "Mulher de 63 anos, diabética, chega com dor torácica em aperto há 4 horas, em repouso. O eletrocardiograma mostra infradesnivelamento de ST de 1,5 mm em V4 a V6 e a troponina ultrassensível está elevada, com curva ascendente. Está estável, sem sinais de insuficiência cardíaca. Qual é a conduta?",
   "alts": [
-   "Internar sempre com antiagregação, anticoagulação e coronariografia precoce em 24 horas.",
    "Liberar após alívio da dor, com reavaliação ambulatorial marcada para dentro de trinta dias.",
    "Administrar fibrinolítico imediatamente, indicado sempre que a troponina estiver elevada.",
    "Solicitar teste ergométrico ainda hoje, antes de qualquer decisão sobre internação da paciente.",
-   "Apenas observar por doze horas sem medicação, repetindo o eletrocardiograma antes da alta."
+   "Apenas observar por doze horas sem medicação, repetindo o eletrocardiograma antes da alta.",
+   "Internar sempre com antiagregação, anticoagulação e coronariografia precoce em 24 horas."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -16,23 +16,23 @@
   "base": "European Society of Cardiology, 2023 — Guidelines for the management of acute coronary syndromes",
   "coment": "Trata-se de síndrome coronariana aguda sem supradesnivelamento de ST com troponina elevada, ou seja, infarto sem supra. A conduta é internação com dupla antiagregação conforme a estratégia planejada, anticoagulação parenteral e estratificação invasiva precoce, com coronariografia em até 24 horas nos pacientes de alto risco — critério que a elevação de troponina já preenche. Fibrinolítico é contraindicado na síndrome sem supra de ST: não há benefício e há risco de sangramento. Teste ergométrico é contraindicado em quadro instável com troponina positiva.",
   "porAlt": [
-   "Correta: infarto sem supra de ST é de alto risco e exige internação, antitrombóticos e coronariografia em até 24 horas.",
    "Liberar paciente com troponina em curva ascendente e dor em repouso arrisca infarto extenso e morte súbita.",
    "O fibrinolítico não tem indicação na síndrome sem supra de ST, onde acrescenta sangramento sem benefício.",
    "Teste ergométrico é formalmente contraindicado em síndrome coronariana instável com marcador já elevado.",
-   "Observar sem antitrombótico em quadro de alto risco desperdiça o tratamento que reduz eventos nas primeiras horas."
+   "Observar sem antitrombótico em quadro de alto risco desperdiça o tratamento que reduz eventos nas primeiras horas.",
+   "Correta: infarto sem supra de ST é de alto risco e exige internação, antitrombóticos e coronariografia em até 24 horas."
   ]
  },
  {
   "q": "Homem de 55 anos, sem doença cardiovascular estabelecida, tem LDL-colesterol de 168 mg/dL, hipertensão controlada e é tabagista. O risco cardiovascular calculado é alto. Qual é a conduta quanto ao tratamento hipolipemiante?",
   "alts": [
-   "Iniciar estatina de alta potência, com meta de LDL definida pela categoria de risco do paciente.",
    "Apenas orientar dieta por um ano, adiando qualquer estatina enquanto não houver evento clínico.",
+   "Iniciar estatina de alta potência, com meta de LDL definida pela categoria de risco do paciente.",
    "Iniciar fibrato como primeira escolha, classe preferida para já reduzir o LDL-colesterol elevado.",
    "Iniciar ezetimiba isolada, que reduz o LDL mais intensamente que qualquer estatina já disponível.",
    "Prescrever ômega-3 em dose alta como monoterapia, medida suficiente para atingir a meta lipídica."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -40,8 +40,8 @@
   "base": "Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose — SBC, 2017/2019; ESC 2019",
   "coment": "Em prevenção primária de alto risco, a estatina de alta potência é a base do tratamento, associada a mudanças de estilo de vida e, aqui, à cessação do tabagismo, que é a intervenção isolada de maior impacto neste paciente. As metas de LDL são progressivamente mais baixas conforme a categoria de risco, e a ezetimiba entra como associação quando a meta não é alcançada com estatina em dose otimizada. O fibrato atua sobretudo sobre triglicérides, não sendo a escolha para reduzir LDL, e o ômega-3 não substitui a estatina na prevenção de eventos.",
   "porAlt": [
-   "Correta: alto risco cardiovascular indica estatina de alta potência com meta de LDL definida pela categoria de risco.",
    "Adiar a estatina por um ano em paciente de alto risco acumula exposição ao LDL, que é causal na aterosclerose.",
+   "Correta: alto risco cardiovascular indica estatina de alta potência com meta de LDL definida pela categoria de risco.",
    "O fibrato reduz sobretudo triglicérides e tem efeito modesto sobre o LDL, não sendo a escolha nesse cenário.",
    "A ezetimiba isolada reduz bem menos o LDL que a estatina, e seu papel principal é como terapia associada.",
    "O ômega-3 não substitui a estatina e não demonstrou reduzir eventos como monoterapia nessa indicação."

@@ -5,10 +5,10 @@
    "Prescrever colírio de tropicamida para dilatar a pupila e facilitar o exame de fundo de olho.",
    "Tratar como conjuntivite viral com colírio lubrificante e reavaliar em uma semana no ambulatório.",
    "Ocluir o olho com curativo compressivo e prescrever analgésico simples por via oral em casa.",
-   "Solicitar tomografia de crânio e adiar a avaliação oftalmológica até que o exame fique pronto.",
-   "Tratar como glaucoma agudo de ângulo fechado e acionar a oftalmologia com urgência máxima."
+   "Tratar como glaucoma agudo de ângulo fechado e acionar a oftalmologia com urgência máxima.",
+   "Solicitar tomografia de crânio e adiar a avaliação oftalmológica até que o exame fique pronto."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "oftalmo",
   "cenario": "emg",
   "comp": "urg",
@@ -19,8 +19,8 @@
    "Dilatar a pupila fecha ainda mais o ângulo e agrava a crise — é a conduta mais perigosa diante dessa apresentação clínica.",
    "A conjuntivite não cursa com dor intensa, halos, córnea embaçada nem alteração pupilar; tratar assim custa a visão do olho.",
    "A oclusão não reduz a pressão intraocular e o analgésico apenas mascara o sintoma enquanto o nervo óptico sofre dano.",
-   "A tomografia não faz o diagnóstico e o atraso na avaliação oftalmológica é o que determina a perda visual definitiva.",
-   "Correta: o quadro é glaucoma agudo de ângulo fechado, emergência que exige oftalmologia imediata e redução da pressão intraocular."
+   "Correta: o quadro é glaucoma agudo de ângulo fechado, emergência que exige oftalmologia imediata e redução da pressão intraocular.",
+   "A tomografia não faz o diagnóstico e o atraso na avaliação oftalmológica é o que determina a perda visual definitiva."
   ]
  },
  {
@@ -28,11 +28,11 @@
   "alts": [
    "Manter apenas a compressão digital por mais uma hora antes de considerar qualquer intervenção.",
    "Inclinar a cabeça para trás, para reduzir o gotejamento anterior enquanto o sangramento cessa.",
-   "Realizar tamponamento nasal anterior e avaliar sinais de sangramento posterior associado.",
    "Aplicar bolsa de gelo na região cervical, medida que costuma interromper o sangramento.",
+   "Realizar tamponamento nasal anterior e avaliar sinais de sangramento posterior associado.",
    "Solicitar angiotomografia de artérias nasais antes de cada tentativa de tamponamento local."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "orl",
   "cenario": "emg",
   "comp": "urg",
@@ -42,8 +42,8 @@
   "porAlt": [
    "Prolongar a compressão por mais uma hora após a falha só adia o controle e aumenta a perda sanguínea do paciente.",
    "Inclinar a cabeça para trás faz deglutir sangue, mascara o volume perdido e arrisca vômito com aspiração.",
-   "Correta: falhada a compressão, o passo é o tamponamento anterior, checando se há sangramento posterior associado.",
    "O gelo cervical não tem eficácia demonstrada para interromper epistaxe e não substitui o tamponamento nasal.",
+   "Correta: falhada a compressão, o passo é o tamponamento anterior, checando se há sangramento posterior associado.",
    "A angiotomografia se reserva a sangramento refratário ou suspeita de lesão vascular, e não precede o tamponamento inicial."
   ]
  },

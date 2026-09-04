@@ -27,6 +27,16 @@ window.LEITURAS=[
   t:"Dengue: a fase crítica começa quando a febre cede",
   s:"Grupos A a D, os sete sinais de alarme e os volumes exatos — 10 mL/kg na primeira hora no grupo C, 20 mL/kg em 20 minutos no D, começando onde o paciente estiver."},
 
+ {f:"parada-cardiaca.html", tipo:"AHA 2025 · integral", area:"emergencias", min:19,
+  t:"Parada cardiorrespiratória: suporte avançado na AHA 2025",
+  s:"O momento da adrenalina muda com o ritmo, cálcio, bicarbonato e magnésio saíram do algoritmo de rotina, e entraram desfibrilação sequencial dupla, RCP com cabeça elevada e ultrassom."},
+ {f:"choque.html", tipo:"ESICM 2025 · integral", area:"emergencias", min:21,
+  t:"Choque circulatório: monitorização segundo a ESICM 2025",
+  s:"O enchimento capilar virou recomendação formal, a saturação venosa central e a Pv-aCO₂ entram juntas, e o alvo de pressão deixou de ser um número único — 80 mmHg no traumatismo craniano."},
+ {f:"sdra.html", tipo:"Definição global 2024", area:"emergencias", min:20,
+  t:"SDRA: a definição global de 2024 e o que fazer com ela",
+  s:"Cateter nasal de alto fluxo passou a contar, a oximetria substitui a gasometria (SpO₂/FiO₂ <315), o ultrassom vale como imagem — e a ventilação protetora com peso predito."},
+
  {grupo:"Respiratório e infeccioso", sub:"diretriz nova que ainda não chegou aos livros"},
  {f:"insuficiencia-cardiaca.html", tipo:"ESC 2026", area:"cardio", min:16,
   t:"Insuficiência cardíaca: o que a diretriz de 2026 mudou",

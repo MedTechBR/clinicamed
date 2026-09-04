@@ -4,11 +4,11 @@
   "alts": [
    "Iniciar quimioterapia imediata, indicada em toda leucemia linfocítica crônica no momento do diagnóstico.",
    "Realizar transplante de medula óssea de imediato, único tratamento capaz de curar a doença nessa idade.",
+   "Acompanhamento sem tratamento, pois a doença em estágio inicial assintomático não exige terapia agora.",
    "Prescrever corticoide contínuo em dose alta, capaz de normalizar a contagem de linfócitos do paciente.",
-   "Solicitar apenas mielograma seriado a cada mês, adiando qualquer decisão terapêutica por dois anos.",
-   "Acompanhamento sem tratamento, pois a doença em estágio inicial assintomático não exige terapia agora."
+   "Solicitar apenas mielograma seriado a cada mês, adiando qualquer decisão terapêutica por dois anos."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
@@ -18,9 +18,9 @@
   "porAlt": [
    "Tratar todo paciente ao diagnóstico expõe à toxicidade sem ganho de sobrevida demonstrado em ensaio clínico.",
    "O transplante tem indicações restritas na doença refratária e de alto risco, e não como conduta inicial nessa idade.",
+   "Correta: em estágio inicial e assintomático, a conduta é vigilância ativa — tratar cedo não prolonga a sobrevida.",
    "O corticoide contínuo não é tratamento da doença e traria imunossupressão adicional a um paciente já suscetível.",
-   "Mielograma mensal é invasivo e desnecessário: o acompanhamento se faz por clínica e hemograma periódicos.",
-   "Correta: em estágio inicial e assintomático, a conduta é vigilância ativa — tratar cedo não prolonga a sobrevida."
+   "Mielograma mensal é invasivo e desnecessário: o acompanhamento se faz por clínica e hemograma periódicos."
   ]
  },
  {
@@ -51,12 +51,12 @@
   "q": "Homem de 63 anos em tratamento de linfoma inicia quimioterapia e, 48 horas depois, apresenta potássio de 6,4 mEq/L, fósforo elevado, cálcio baixo, ácido úrico de 12 mg/dL e creatinina em elevação. Qual é o diagnóstico e a conduta?",
   "alts": [
    "Nefrite intersticial pelo quimioterápico, cuja conduta é apenas corticoide em dose imunossupressora.",
-   "Síndrome de lise tumoral, tratada com hidratação vigorosa, rasburicase e correção dos distúrbios.",
    "Hipercalcemia da malignidade, que explica a elevação da creatinina e o distúrbio eletrolítico do caso.",
+   "Síndrome de lise tumoral, tratada com hidratação vigorosa, rasburicase e correção dos distúrbios.",
    "Insuficiência adrenal aguda, sugerida pela hipercalemia associada à elevação da creatinina sérica.",
    "Rabdomiólise por imobilidade, hipótese preferida diante de hiperfosfatemia com hipocalcemia associada."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "onco",
   "cenario": "uti",
   "comp": "urg",
@@ -65,8 +65,8 @@
   "coment": "A tétrade — hipercalemia, hiperfosfatemia, hipocalcemia e hiperuricemia — surgindo em até 72 horas do início da quimioterapia em tumor de alta carga e alta taxa proliferativa define síndrome de lise tumoral. O tratamento é hidratação vigorosa para manter débito urinário, redução do ácido úrico com rasburicase nos casos de alto risco ou alopurinol na profilaxia, correção dos distúrbios eletrolíticos e monitorização estreita, com diálise se houver refratariedade. A hipocalcemia não deve ser corrigida agressivamente na presença de hiperfosfatemia, pelo risco de precipitação de cálcio e fósforo.",
   "porAlt": [
    "A nefrite intersticial não produz esse padrão eletrolítico característico nem essa cronologia tão próxima da quimioterapia.",
-   "Correta: a tétrade eletrolítica após quimioterapia define lise tumoral, tratada com hidratação, rasburicase e correção dos distúrbios.",
    "A hipercalcemia da malignidade cursa com cálcio alto, e aqui o cálcio está baixo — o oposto do que a hipótese exige.",
+   "Correta: a tétrade eletrolítica após quimioterapia define lise tumoral, tratada com hidratação, rasburicase e correção dos distúrbios.",
    "A insuficiência adrenal não explica hiperfosfatemia, hipocalcemia e hiperuricemia surgindo após a quimioterapia.",
    "A rabdomiólise cursaria com creatinoquinase muito elevada e não tem relação temporal com o início do tratamento."
   ]

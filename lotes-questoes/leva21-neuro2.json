@@ -3,12 +3,12 @@
   "q": "Mulher de 52 anos chega com cefaleia de início súbito, descrita como a pior da vida, atingindo intensidade máxima em segundos, com rigidez de nuca. A tomografia de crânio sem contraste, feita quatro horas depois, é normal. Qual é a conduta?",
   "alts": [
    "Liberar com analgesia oral, uma vez que a tomografia normal afasta com segurança causa estrutural.",
-   "Solicitar eletroencefalograma como próximo exame, para investigar a origem da dor referida por ela.",
    "Realizar punção lombar em busca de xantocromia, pois a tomografia normal não exclui a hemorragia.",
+   "Solicitar eletroencefalograma como próximo exame, para investigar a origem da dor referida por ela.",
    "Tratar como enxaqueca com triptano e reavaliar em ambulatório dentro das próximas quatro semanas.",
    "Iniciar corticoide em dose máxima empiricamente, cobrindo arterite temporal nessa faixa etária."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "dx",
@@ -17,8 +17,8 @@
   "coment": "Cefaleia em trovoada — início súbito com pico em segundos — obriga a excluir hemorragia subaracnóidea. A tomografia sem contraste tem sensibilidade próxima de 100% nas primeiras seis horas, mas cai progressivamente depois disso; quando a suspeita é forte e a tomografia é normal, a punção lombar em busca de xantocromia e hemácias que não clareiam segue indicada, idealmente após 12 horas do início. Angiotomografia é alternativa em protocolos específicos. Liberar o paciente sem completar a investigação é o erro que precede o ressangramento, que costuma ser fatal.",
   "porAlt": [
    "A tomografia perde sensibilidade após as primeiras horas e não afasta hemorragia subaracnóidea neste cenário.",
-   "O eletroencefalograma não tem papel na investigação de cefaleia em trovoada com suspeita de hemorragia.",
    "Correta: a suspeita de hemorragia subaracnóidea com tomografia normal exige punção lombar em busca de xantocromia.",
+   "O eletroencefalograma não tem papel na investigação de cefaleia em trovoada com suspeita de hemorragia.",
    "Tratar como enxaqueca ignora o padrão de início súbito, que é justamente a bandeira vermelha do quadro.",
    "A arterite temporal cursa com cefaleia subaguda em maiores de 50 anos, e não com início explosivo em segundos."
   ]
@@ -29,10 +29,10 @@
    "Iniciar antiepiléptico em todos os casos de primeira crise, independentemente do resultado dos exames.",
    "Internar para observação por trinta dias, período mínimo de vigilância após uma primeira crise assim.",
    "Solicitar apenas dosagem de prolactina para confirmar que a crise foi de origem realmente epiléptica.",
-   "Não iniciar nenhum antiepiléptico e orientar restrições e retorno, pois a recorrência é menos provável.",
-   "Iniciar dois antiepilépticos desde o começo, esquema que reduz mais a chance de nova crise no futuro."
+   "Iniciar dois antiepilépticos desde o começo, esquema que reduz mais a chance de nova crise no futuro.",
+   "Não iniciar nenhum antiepiléptico e orientar restrições e retorno, pois a recorrência é menos provável."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "tto",
@@ -43,20 +43,20 @@
    "Tratar toda primeira crise expõe o paciente a efeitos adversos sem melhorar o prognóstico a longo prazo.",
    "Não há indicação de internação prolongada em paciente recuperado, com exame e investigação normais.",
    "A prolactina tem janela curta e valor limitado, e não é o exame que define a conduta após a primeira crise.",
-   "Correta: com exames normais o risco de recorrência é menor e não se inicia antiepiléptico de rotina após a primeira crise.",
-   "Iniciar dois fármacos de saída é conduta de epilepsia refratária, e não de primeira crise não provocada."
+   "Iniciar dois fármacos de saída é conduta de epilepsia refratária, e não de primeira crise não provocada.",
+   "Correta: com exames normais o risco de recorrência é menor e não se inicia antiepiléptico de rotina após a primeira crise."
   ]
  },
  {
   "q": "Mulher de 76 anos apresenta declínio de memória há dois anos, com dificuldade progressiva para nomear objetos e desorientação em locais conhecidos. Não há flutuação, alucinação nem parkinsonismo. A investigação afastou causas reversíveis. Qual é a hipótese mais provável e a conduta inicial?",
   "alts": [
-   "Doença de Alzheimer, sempre combinando medida não farmacológica e inibidor de colinesterase hoje.",
    "Demência por corpos de Lewy, hipótese sustentada pela ausência de flutuação e de sintoma parkinsoniano.",
    "Demência vascular, definida sempre pelo padrão progressivo e insidioso do declínio cognitivo relatado.",
    "Delirium crônico, condição que se instala ao longo de anos em pacientes idosos institucionalizados.",
-   "Depressão maior isolada, que explica todo declínio cognitivo em idosos e dispensa outra investigação."
+   "Depressão maior isolada, que explica todo declínio cognitivo em idosos e dispensa outra investigação.",
+   "Doença de Alzheimer, sempre combinando medida não farmacológica e inibidor de colinesterase hoje."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "dx",
@@ -64,23 +64,23 @@
   "base": "National Institute on Aging e Alzheimer's Association, 2011, critérios revisados; Cecil Medicina, 26ª edição, 2022",
   "coment": "O padrão insidioso e progressivo, com perda de memória episódica seguida de alteração de linguagem e de orientação espacial, é típico de doença de Alzheimer. Corpos de Lewy cursaria com flutuação cognitiva, alucinações visuais bem formadas e parkinsonismo; demência vascular costuma ter curso em degraus e fatores de risco vasculares; e depressão pode causar déficit cognitivo, mas o quadro tende a melhorar com tratamento. O manejo combina intervenção não farmacológica — estimulação, exercício, ajuste ambiental, apoio ao cuidador — com inibidor de colinesterase, e exige rever a lista de medicamentos anticolinérgicos.",
   "porAlt": [
-   "Correta: o padrão insidioso com memória episódica, linguagem e orientação aponta Alzheimer, tratado com medidas não farmacológicas e inibidor de colinesterase.",
    "A demência por corpos de Lewy exige flutuação, alucinação visual ou parkinsonismo, justamente o que o enunciado nega.",
    "A demência vascular costuma ter curso em degraus, com achados focais e fatores de risco vasculares proeminentes.",
    "Delirium é agudo e flutuante por definição; não existe delirium que se instale ao longo de dois anos de evolução.",
-   "A depressão pode causar déficit cognitivo, mas não explica sozinha a progressão descrita e a investigação já foi feita."
+   "A depressão pode causar déficit cognitivo, mas não explica sozinha a progressão descrita e a investigação já foi feita.",
+   "Correta: o padrão insidioso com memória episódica, linguagem e orientação aponta Alzheimer, tratado com medidas não farmacológicas e inibidor de colinesterase."
   ]
  },
  {
   "q": "Homem de 43 anos tem crises de cefaleia pulsátil unilateral, com fotofobia, fonofobia e náusea, três a quatro vezes por mês, cada uma durando um dia inteiro e incapacitando-o para o trabalho. Usa analgésico comum sem alívio adequado. Qual é a conduta?",
   "alts": [
    "Manter apenas analgésico comum em dose maior, aumentando a frequência de uso conforme a dor piora.",
-   "Solicitar ressonância de crânio antes de qualquer tratamento, exame obrigatório em toda enxaqueca.",
    "Prescrever tratamento agudo específico e iniciar profilaxia, pela frequência e pela incapacidade.",
+   "Solicitar ressonância de crânio antes de qualquer tratamento, exame obrigatório em toda enxaqueca.",
    "Prescrever opioide de uso regular, que é a melhor opção para crises frequentes e incapacitantes.",
    "Iniciar profilaxia sem tratamento agudo, pois medicação de crise é dispensável quando há profilaxia."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -89,8 +89,8 @@
   "coment": "A enxaqueca tem dois eixos de tratamento. O agudo usa anti-inflamatório ou triptano, tomado cedo na crise. A profilaxia é indicada quando há quatro ou mais dias de dor por mês, ou quando as crises são incapacitantes ou não respondem bem ao tratamento agudo — o caso descrito —, com opções como betabloqueador, topiramato, amitriptilina, candesartana e, em falha, anticorpos contra o CGRP. Neuroimagem não é necessária na enxaqueca típica sem bandeira vermelha. O uso frequente de analgésico comum leva à cefaleia por uso excessivo de medicação, que perpetua o quadro.",
   "porAlt": [
    "Aumentar a frequência do analgésico comum leva à cefaleia por uso excessivo, que agrava e cronifica o quadro.",
-   "A enxaqueca típica sem bandeira vermelha dispensa neuroimagem, que não deve atrasar o início do tratamento.",
    "Correta: crises frequentes e incapacitantes indicam associar tratamento agudo específico e profilaxia regular.",
+   "A enxaqueca típica sem bandeira vermelha dispensa neuroimagem, que não deve atrasar o início do tratamento.",
    "Opioide na enxaqueca traz risco de dependência e de cefaleia por uso excessivo, sem vantagem sobre o triptano.",
    "A profilaxia reduz frequência mas não elimina crises, de modo que o tratamento agudo continua necessário."
   ]

@@ -4,11 +4,11 @@
   "alts": [
    "Insuficiência cardíaca com fração de ejeção levemente reduzida, categoria mantida na faixa de 41% a 49%.",
    "Insuficiência cardíaca com fração de ejeção preservada, uma vez que o valor está acima do limite de 40%.",
-   "Insuficiência cardíaca com fração de ejeção reduzida, categoria que passou a englobar tudo abaixo de 50%.",
    "Insuficiência cardíaca com fração de ejeção recuperada, categoria aplicada a qualquer valor entre 40% e 50%.",
-   "Não caracteriza insuficiência cardíaca, porque só se define a síndrome com fração de ejeção abaixo de 40%."
+   "Não caracteriza insuficiência cardíaca, porque só se define a síndrome com fração de ejeção abaixo de 40%.",
+   "Insuficiência cardíaca com fração de ejeção reduzida, categoria que passou a englobar tudo abaixo de 50%."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "dx",
@@ -18,9 +18,9 @@
   "porAlt": [
    "A faixa de 41% a 49% era a antiga fração levemente reduzida, categoria justamente eliminada nesta atualização.",
    "A fração preservada agora exige valor de 50% ou mais, de modo que 44% não se enquadra nessa definição atual.",
-   "Correta: com a mudança de 2026, tudo abaixo de 50% é fração reduzida, e a categoria intermediária deixou de existir.",
    "Fração recuperada descreve quem tinha fração baixa e melhorou com tratamento, não uma faixa numérica fixa.",
-   "O corte de 40% pertence a versões antigas; a síndrome se define pelo quadro clínico somado à alteração estrutural."
+   "O corte de 40% pertence a versões antigas; a síndrome se define pelo quadro clínico somado à alteração estrutural.",
+   "Correta: com a mudança de 2026, tudo abaixo de 50% é fração reduzida, e a categoria intermediária deixou de existir."
   ]
  },
  {
@@ -51,12 +51,12 @@
   "q": "Homem de 71 anos tem insuficiência cardíaca com fração de ejeção de 56%, índice de massa corporal de 36 kg/m², dispneia aos esforços e edema de membros inferiores. Já usa inibidor de SGLT2 e antagonista mineralocorticoide. Segundo a diretriz vigente, que terapia adicional pode ser considerada?",
   "alts": [
    "Betabloqueador em dose plena, que nesse fenótipo demonstra redução consistente de mortalidade cardiovascular.",
-   "Agonista do receptor de GLP-1, semaglutida ou tirzepatida, considerado em todo paciente com obesidade.",
    "Digoxina em dose de manutenção, indicada como terapia de base para todo paciente com fração preservada.",
    "Anticoagulação oral plena, recomendada a todos os pacientes com esse fenótipo independentemente do ritmo.",
-   "Bloqueador de canal de cálcio di-hidropiridínico, considerado o quarto pilar do tratamento nesse fenótipo."
+   "Bloqueador de canal de cálcio di-hidropiridínico, considerado o quarto pilar do tratamento nesse fenótipo.",
+   "Agonista do receptor de GLP-1, semaglutida ou tirzepatida, considerado em todo paciente com obesidade."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -65,10 +65,10 @@
   "coment": "Na fração de ejeção preservada, a base medicamentosa passou a ser antagonista mineralocorticoide somado a inibidor de SGLT2. A diretriz de 2026 acrescentou recomendação classe IIa para semaglutida ou tirzepatida em pacientes com fração preservada e obesidade, apoiada em ensaios que mostraram melhora de sintomas, de capacidade funcional e de qualidade de vida nesse fenótipo — em que a obesidade não é comorbidade acessória, e sim parte do mecanismo. O betabloqueador não tem benefício de mortalidade demonstrado na fração preservada e é usado por indicação própria, como controle de frequência.",
   "porAlt": [
    "O betabloqueador não demonstrou redução de mortalidade na fração preservada; entra por indicação própria, não como pilar.",
-   "Correta: a diretriz de 2026 passou a considerar semaglutida ou tirzepatida na fração preservada quando há obesidade associada.",
    "A digoxina não é terapia de base na fração preservada e pode ser mal tolerada, sobretudo no idoso com função renal limítrofe.",
    "A anticoagulação depende de fibrilação atrial ou de outra indicação específica, e não do fenótipo de insuficiência cardíaca.",
-   "Não há quarto pilar com bloqueador de canal de cálcio; essa classe não integra o tratamento de base desse fenótipo."
+   "Não há quarto pilar com bloqueador de canal de cálcio; essa classe não integra o tratamento de base desse fenótipo.",
+   "Correta: a diretriz de 2026 passou a considerar semaglutida ou tirzepatida na fração preservada quando há obesidade associada."
   ]
  },
  {

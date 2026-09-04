@@ -2,13 +2,13 @@
  {
   "q": "Mulher de 24 anos, hígida e não gestante, tem disúria, polaciúria e urgência há dois dias, sem febre, sem dor lombar e sem corrimento vaginal. É o primeiro episódio no ano. Qual é a conduta correta?",
   "alts": [
+   "Tratar empiricamente como cistite não complicada, sem necessidade de urocultura antes de iniciar.",
    "Solicitar urocultura e aguardar o resultado por três dias antes de prescrever qualquer antimicrobiano.",
    "Prescrever fluoroquinolona por sete dias, esquema preferido para cistite não complicada em mulheres.",
    "Solicitar tomografia de vias urinárias antes do tratamento, para afastar complicação neste episódio.",
-   "Tratar empiricamente como cistite não complicada, sem necessidade de urocultura antes de iniciar.",
    "Tratar com antimicrobiano por catorze dias, duração mínima recomendada em cada infecção urinária."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -16,10 +16,10 @@
   "base": "Infectious Diseases Society of America, 2011, atualizada; Harrison's Principles of Internal Medicine, 22ª edição, 2025",
   "coment": "Na cistite não complicada de mulher jovem, hígida e não gestante, o diagnóstico é clínico e o tratamento é empírico, sem necessidade de urocultura prévia. As opções de primeira linha são nitrofurantoína por cinco dias, fosfomicina em dose única e sulfametoxazol-trimetoprima por três dias, onde a resistência local permitir. As fluoroquinolonas são reservadas por seleção de resistência e por eventos adversos, ficando como alternativa. A urocultura é indicada em falha terapêutica, recorrência, gestação, homens, suspeita de pielonefrite ou fatores de complicação.",
   "porAlt": [
+   "Correta: cistite não complicada em mulher jovem é diagnóstico clínico com tratamento empírico, sem urocultura prévia.",
    "Aguardar três dias pela urocultura mantém a paciente sintomática sem necessidade e não muda a escolha inicial.",
    "A fluoroquinolona é alternativa, e não preferência, por seleção de resistência e pelos alertas de segurança da classe.",
    "A imagem não é indicada no primeiro episódio de cistite não complicada em paciente sem sinais de gravidade.",
-   "Correta: cistite não complicada em mulher jovem é diagnóstico clínico com tratamento empírico, sem urocultura prévia.",
    "Catorze dias é duração de infecção complicada; a cistita simples se resolve com esquemas de um a cinco dias."
   ]
  },
@@ -28,11 +28,11 @@
   "alts": [
    "Aguardar tomografia de crânio e o resultado da punção antes de iniciar qualquer antimicrobiano.",
    "Iniciar o antimicrobiano só depois de confirmada a bactéria na cultura do líquor colhido.",
-   "Realizar punção lombar de imediato e iniciar antimicrobiano somente se o líquido estiver turvo.",
    "Colher hemocultura, iniciar antimicrobiano e corticoide, e então realizar a punção lombar.",
+   "Realizar punção lombar de imediato e iniciar antimicrobiano somente se o líquido estiver turvo.",
    "Prescrever aciclovir isolado, cobrindo a causa mais provável de meningite comunitária no adulto."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
@@ -42,8 +42,8 @@
   "porAlt": [
    "Aguardar imagem e resultado de líquor atrasa horas o antimicrobiano, e esse atraso se traduz em mortalidade.",
    "Esperar a cultura leva dias e é incompatível com a velocidade de deterioração da meningite bacteriana aguda.",
-   "O aspecto macroscópico do líquor não decide tratamento: a suspeita clínica já obriga a iniciar antimicrobiano.",
    "Correta: sem indicação de imagem prévia, colhe-se hemocultura, inicia-se antimicrobiano com corticoide e então punciona-se.",
+   "O aspecto macroscópico do líquor não decide tratamento: a suspeita clínica já obriga a iniciar antimicrobiano.",
    "Aciclovir cobre encefalite herpética, mas não substitui a cobertura bacteriana na suspeita de meningite aguda."
   ]
  },
@@ -74,13 +74,13 @@
  {
   "q": "Mulher de 68 anos, portadora de prótese valvar aórtica, chega com febre há três semanas, perda de peso e sopro novo. Hemoculturas seriadas são positivas para Staphylococcus aureus. Qual é o exame que deve ser priorizado e por quê?",
   "alts": [
-   "Ecocardiograma transesofágico, pela sensibilidade superior na avaliação de prótese valvar infectada.",
    "Radiografia de tórax isolada, exame suficiente para o diagnóstico de endocardite infecciosa aguda.",
    "Tomografia de crânio, indicada como primeiro exame diante de qualquer febre prolongada no idoso.",
    "Ecocardiograma transtorácico apenas, que tem a mesma acurácia do transesofágico nesse contexto.",
+   "Ecocardiograma transesofágico, pela sensibilidade superior na avaliação de prótese valvar infectada.",
    "Cintilografia óssea, para localizar o foco infeccioso primário antes do estudo cardíaco dessa idosa."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
@@ -88,10 +88,10 @@
   "base": "European Society of Cardiology, 2023 — Guidelines for the management of endocarditis",
   "coment": "Em portador de prótese valvar com bacteriemia por Staphylococcus aureus, a suspeita de endocardite é alta e o ecocardiograma transesofágico é o exame de escolha: o transtorácico tem sensibilidade baixa em próteses, pela sombra acústica do material, e um exame negativo não afasta o diagnóstico. O transesofágico avalia melhor vegetações pequenas, abscesso de anel e deiscência. Bacteriemia por Staphylococcus aureus, sobretudo com material protético, exige investigação sistemática de foco endovascular, e a antibioticoterapia é prolongada e guiada pelo agente e pela suscetibilidade.",
   "porAlt": [
-   "Correta: em prótese valvar o transesofágico é o exame de escolha, pela baixa sensibilidade do transtorácico nesse cenário.",
    "A radiografia de tórax não diagnostica endocardite e serve apenas para avaliar complicações pulmonares associadas.",
    "A tomografia de crânio se justifica diante de sinais neurológicos, e não como primeiro exame de febre prolongada.",
    "O transtorácico tem sensibilidade bem inferior em próteses, e um resultado negativo não afasta a endocardite.",
+   "Correta: em prótese valvar o transesofágico é o exame de escolha, pela baixa sensibilidade do transtorácico nesse cenário.",
    "A cintilografia óssea não é o passo inicial: a bacteriemia com prótese aponta o coração como foco a investigar."
   ]
  }

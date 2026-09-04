@@ -2,13 +2,13 @@
  {
   "q": "Homem de 33 anos, sem comorbidades, está no quarto dia de febre que cessou ontem. Retorna à unidade referindo dor abdominal intensa e contínua e dois episódios de vômito. Está lúcido, com pressão de 118/76 mmHg, pulso de 88 bpm e prova do laço negativa. Segundo o manual do Ministério da Saúde, qual é a classificação e a conduta?",
   "alts": [
-   "Grupo C: internação com reposição volêmica endovenosa de 10 mL/kg de soro fisiológico na primeira hora.",
    "Grupo A: hidratação oral domiciliar de 60 mL/kg/dia e retorno apenas se surgir febre alta novamente.",
    "Grupo B: hidratação oral com hemograma de controle e liberação para casa após o resultado do exame.",
+   "Grupo C: internação com reposição volêmica endovenosa de 10 mL/kg de soro fisiológico na primeira hora.",
    "Grupo D: expansão imediata com 20 mL/kg em até 20 minutos, repetida por até três vezes seguidas hoje.",
    "Grupo A com repouso e sintomático, dispensando qualquer exame laboratorial ou reavaliação precoce."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
@@ -16,9 +16,9 @@
   "base": "Ministério da Saúde, 2024 — Dengue: diagnóstico e manejo clínico, adulto e criança, 6ª edição",
   "coment": "Dor abdominal intensa e contínua e vômitos persistentes são sinais de alarme, e a presença de qualquer um deles classifica o paciente no grupo C, independentemente de estar hemodinamicamente estável. A conduta é iniciar imediatamente reposição volêmica com 10 mL/kg de soro fisiológico na primeira hora, mantendo 10 mL/kg na segunda hora conforme resposta, com reavaliação após cada etapa. O momento é típico: os sinais de alarme surgem justamente quando a febre cede, entre o terceiro e o sexto dia, marcando o início da fase crítica pelo extravasamento plasmático.",
   "porAlt": [
-   "Correta: sinal de alarme presente classifica no grupo C, com reposição de 10 mL/kg de soro fisiológico na primeira hora.",
    "O grupo A é para quem não tem sinal de alarme, comorbidade nem risco social — a dor abdominal contínua já o exclui.",
    "O grupo B é definido por comorbidade, risco social ou condição especial sem sinal de alarme, o que não é o caso aqui.",
+   "Correta: sinal de alarme presente classifica no grupo C, com reposição de 10 mL/kg de soro fisiológico na primeira hora.",
    "O grupo D exige sinais de gravidade, como choque ou sangramento grave, ausentes neste paciente com pressão normal.",
    "Dispensar exame e reavaliação em paciente que iniciou a fase crítica é a conduta que antecede a maioria dos óbitos."
   ]
@@ -27,12 +27,12 @@
   "q": "Mulher de 26 anos, quinto dia de dengue, chega com extremidades frias, tempo de enchimento capilar de 4 segundos, pressão arterial de 90/78 mmHg e pulso filiforme. Está sonolenta. Qual é a conduta imediata segundo o manual vigente?",
   "alts": [
    "Hidratação oral vigorosa com sais de reidratação e observação por seis horas na sala de espera.",
-   "Expansão com 20 mL/kg de soro fisiológico em até 20 minutos, em qualquer nível de complexidade.",
    "Transferir para hospital terciário antes de iniciar qualquer expansão volêmica na unidade atual.",
    "Iniciar noradrenalina antes de qualquer prova de volume, por causa da hipotensão já instalada.",
+   "Expansão com 20 mL/kg de soro fisiológico em até 20 minutos, em qualquer nível de complexidade.",
    "Reposição de 10 mL/kg na primeira hora, mesma dose usada nos pacientes com sinais de alarme."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
@@ -41,9 +41,9 @@
   "coment": "Pressão convergente abaixo de 20 mmHg, extremidades frias, enchimento capilar lento e alteração do sensório configuram choque por dengue, que é grupo D. O manual é explícito: iniciar a expansão com 20 mL/kg em até 20 minutos em qualquer nível de complexidade, ou seja, sem esperar transferência. A reavaliação ocorre ao fim de cada etapa e a expansão pode ser repetida até três vezes. O erro que mata é transferir antes de expandir: o choque da dengue responde a volume, e o tempo gasto no transporte sem reposição é tempo de hipoperfusão.",
   "porAlt": [
    "A via oral não corrige choque estabelecido e a observação passiva desperdiça a janela de reversão do quadro.",
-   "Correta: choque na dengue é grupo D, com expansão de 20 mL/kg em até 20 minutos iniciada onde o paciente estiver.",
    "Transferir antes de expandir prolonga a hipoperfusão; o manual manda iniciar em qualquer nível de complexidade.",
    "O vasopressor entra só depois de reposição volêmica adequada, porque o mecanismo aqui é extravasamento plasmático.",
+   "Correta: choque na dengue é grupo D, com expansão de 20 mL/kg em até 20 minutos iniciada onde o paciente estiver.",
    "A dose de 10 mL/kg é a do grupo C, insuficiente para o choque já instalado nesta paciente com pressão convergente."
   ]
  },
@@ -52,11 +52,11 @@
   "alts": [
    "Grupo A: hidratação oral domiciliar sem qualquer exame, por não haver sinal de alarme presente.",
    "Grupo C: reposição endovenosa imediata, pela comorbidade que ele apresenta e que agrava o risco.",
-   "Grupo B: hidratação oral e hemograma para todos, com reavaliação orientada pelo hematócrito.",
    "Grupo D: expansão rápida preventiva, indicada em todo paciente hipertenso com suspeita de dengue.",
-   "Grupo A com alta e retorno apenas no sétimo dia de doença, para reavaliação clínica ambulatorial."
+   "Grupo A com alta e retorno apenas no sétimo dia de doença, para reavaliação clínica ambulatorial.",
+   "Grupo B: hidratação oral e hemograma para todos, com reavaliação orientada pelo hematócrito."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "dx",
@@ -66,21 +66,21 @@
   "porAlt": [
    "O grupo A é reservado a quem não tem comorbidade, condição especial nem risco social, o que não se aplica a ele.",
    "O grupo C exige sinal de alarme presente, e a comorbidade isolada não é suficiente para indicar volume endovenoso.",
-   "Correta: a comorbidade classifica no grupo B, que exige hemograma com o paciente aguardando o resultado na unidade.",
    "O grupo D exige sinais de gravidade; expandir preventivamente um paciente estável acrescenta risco de congestão.",
-   "Marcar retorno só no sétimo dia ignora que a fase crítica começa quando a febre cede, entre o terceiro e o sexto dia."
+   "Marcar retorno só no sétimo dia ignora que a fase crítica começa quando a febre cede, entre o terceiro e o sexto dia.",
+   "Correta: a comorbidade classifica no grupo B, que exige hemograma com o paciente aguardando o resultado na unidade."
   ]
  },
  {
   "q": "Um residente pergunta ao preceptor por que a maioria dos óbitos por dengue ocorre em pacientes que pareciam estar melhorando. Qual é a explicação fisiopatológica correta?",
   "alts": [
    "A febre alta é o principal determinante de gravidade, e sua queda indica melhora consistente do quadro.",
+   "A defervescência sempre marca o início da fase crítica, com extravasamento e risco de choque agora.",
    "O vírus só se replica enquanto há febre, de modo que a defervescência encerra o risco de complicação.",
    "A piora após a febre decorre sempre de infecção bacteriana secundária adquirida dentro do hospital.",
-   "O extravasamento plasmático ocorre apenas no primeiro dia de doença, antes mesmo do início da febre.",
-   "A defervescência sempre marca o início da fase crítica, com extravasamento e risco de choque agora."
+   "O extravasamento plasmático ocorre apenas no primeiro dia de doença, antes mesmo do início da febre."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
@@ -89,22 +89,22 @@
   "coment": "A dengue tem três fases: febril, crítica e de recuperação. A fase crítica começa justamente com o desaparecimento da febre, entre o terceiro e o sexto dia de doença, e é quando ocorre o aumento da permeabilidade capilar com extravasamento de plasma — daí a hemoconcentração, o acúmulo de líquidos em serosas e o choque. É por isso que o momento de maior vigilância é aquele em que o paciente e a família acham que está tudo resolvido. Orientar o retorno imediato diante de qualquer sinal de alarme é a intervenção mais eficaz na atenção básica.",
   "porAlt": [
    "A febre não determina gravidade na dengue; sua queda é justamente o marcador temporal de maior atenção clínica.",
+   "Correta: a fase crítica se inicia com a defervescência, quando o extravasamento plasmático pode levar ao choque.",
    "A viremia declina com a febre, mas a gravidade decorre da resposta imune e do extravasamento, não da replicação.",
    "Infecção bacteriana secundária pode ocorrer, mas não explica o padrão temporal típico da deterioração na dengue.",
-   "O extravasamento é fenômeno da fase crítica, que sucede a febril, e não antecede o início do quadro clínico.",
-   "Correta: a fase crítica se inicia com a defervescência, quando o extravasamento plasmático pode levar ao choque."
+   "O extravasamento é fenômeno da fase crítica, que sucede a febril, e não antecede o início do quadro clínico."
   ]
  },
  {
   "q": "Paciente do grupo C recebeu duas etapas de expansão com 10 mL/kg cada. Reavaliado, está com pressão arterial estável, diurese de 1,2 mL/kg/h e queda do hematócrito em relação ao inicial. Qual é a conduta seguinte?",
   "alts": [
+   "Passar à fase de manutenção: 25 mL/kg de soro em 6 horas e depois 25 mL/kg em 8 horas.",
    "Repetir mais três etapas de expansão rápida agora, para garantir a reserva volêmica.",
    "Suspender toda a hidratação e liberar o paciente, pois os parâmetros normalizaram.",
-   "Passar à fase de manutenção: 25 mL/kg de soro em 6 horas e depois 25 mL/kg em 8 horas.",
    "Iniciar transfusão de hemácias, indicada sempre que o hematócrito cai em dengue grave.",
    "Trocar o soro fisiológico por coloide sintético, de rotina após a segunda expansão."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
@@ -112,9 +112,9 @@
   "base": "Ministério da Saúde, 2024 — Dengue: fases de manutenção após resposta à expansão no grupo C",
   "coment": "Pressão estável, diurese adequada acima de 1 mL/kg/h e queda do hematócrito indicam boa resposta à expansão. O manual orienta então passar à manutenção em duas fases: 25 mL/kg em 6 horas e, mantida a melhora, 25 mL/kg em 8 horas com soro fisiológico. Continuar expandindo rapidamente um paciente que já respondeu produz congestão e desconforto respiratório, complicação frequente na fase de reabsorção. A queda do hematócrito nesse contexto é sinal de melhora, não de sangramento, e não indica transfusão por si só.",
   "porAlt": [
+   "Correta: respondida a expansão, passa-se à manutenção em duas fases, de 25 mL/kg em 6 horas e 25 mL/kg em 8 horas.",
    "Repetir expansão rápida em quem já respondeu causa congestão pulmonar, sobretudo na fase de reabsorção do plasma.",
    "Suspender toda hidratação logo após a resposta arrisca nova deterioração, porque a fase crítica ainda está em curso.",
-   "Correta: respondida a expansão, passa-se à manutenção em duas fases, de 25 mL/kg em 6 horas e 25 mL/kg em 8 horas.",
    "A queda do hematócrito aqui reflete melhora do extravasamento e hemodiluição, e não perda sanguínea a transfundir.",
    "O coloide é recurso de exceção no choque refratário, e não conduta de rotina depois da segunda etapa de expansão."
   ]
@@ -123,12 +123,12 @@
   "q": "Mulher de 61 anos, diabética, é atendida no sexto dia de dengue com melena e hematócrito em queda acentuada, pressão de 88/60 mmHg e taquicardia. Já recebeu duas expansões. Além de manter o suporte hemodinâmico, qual é a conduta específica indicada?",
   "alts": [
    "Transfundir plaquetas já à admissão, mesmo sem sangramento, se a contagem cair abaixo de 50.000.",
+   "Transfundir concentrado de hemácias, indicado no sangramento grave com repercussão hemodinâmica.",
    "Prescrever ácido acetilsalicílico para melhorar a perfusão periférica comprometida pelo quadro atual.",
    "Suspender toda a hidratação endovenosa, para não agravar o sangramento digestivo já em andamento.",
-   "Transfundir concentrado de hemácias, indicado no sangramento grave com repercussão hemodinâmica.",
    "Iniciar corticoide em dose máxima, medida que comprovadamente reduz a mortalidade da dengue grave."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "urg",
@@ -137,9 +137,9 @@
   "coment": "Sangramento grave com repercussão hemodinâmica é critério de dengue grave e indica transfusão de concentrado de hemácias, na faixa de 10 a 15 mL/kg/dia, mantida a reposição volêmica. A transfusão profilática de plaquetas apenas pela contagem não é recomendada na dengue e não previne sangramento. Salicilatos e anti-inflamatórios não esteroidais são contraindicados por agravarem o sangramento e a disfunção plaquetária. O corticoide não tem benefício comprovado sobre mortalidade e não faz parte do tratamento preconizado.",
   "porAlt": [
    "A transfusão profilática de plaquetas guiada só pela contagem não é recomendada na dengue e não previne o sangramento.",
+   "Correta: sangramento grave com instabilidade indica concentrado de hemácias, mantida a reposição volêmica em curso.",
    "Salicilatos são formalmente contraindicados na dengue por agravarem sangramento e disfunção plaquetária existentes.",
    "Suspender a hidratação em paciente hipotenso agrava a hipoperfusão; o suporte volêmico deve ser mantido e ajustado.",
-   "Correta: sangramento grave com instabilidade indica concentrado de hemácias, mantida a reposição volêmica em curso.",
    "O corticoide não demonstrou benefício de mortalidade na dengue grave e não integra o manejo preconizado pelo manual."
   ]
  }

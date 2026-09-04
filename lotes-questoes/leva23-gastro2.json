@@ -4,11 +4,11 @@
   "alts": [
    "Jejum absoluto prolongado por sete dias, com nutrição parenteral total desde a admissão hospitalar.",
    "Antibiótico profilático de amplo espectro para todos, prevenindo a necrose pancreática infectada.",
-   "Tomografia de abdome imediata na admissão, exame que define a conduta das primeiras horas do caso.",
    "Hidratação venosa precoce com cristaloide balanceado, analgesia e dieta oral precoce em todos.",
+   "Tomografia de abdome imediata na admissão, exame que define a conduta das primeiras horas do caso.",
    "Colangiopancreatografia endoscópica de urgência em todos os casos de pancreatite aguda instalada."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "tto",
@@ -18,8 +18,8 @@
   "porAlt": [
    "Jejum prolongado com nutrição parenteral foi abandonado: piora a barreira intestinal e não melhora o curso da doença.",
    "A profilaxia antibiótica não reduz necrose infectada nem mortalidade, e seleciona germes resistentes sem benefício.",
-   "A tomografia precoce subestima a necrose, que leva dias para se delimitar, e não muda a conduta das primeiras horas.",
    "Correta: hidratação precoce com cristaloide balanceado, analgesia e dieta oral precoce compõem o cuidado inicial que muda o desfecho.",
+   "A tomografia precoce subestima a necrose, que leva dias para se delimitar, e não muda a conduta das primeiras horas.",
    "A via endoscópica de urgência se reserva à colangite associada ou à obstrução biliar persistente, não a todos os casos."
   ]
  },
@@ -27,12 +27,12 @@
   "q": "Mulher de 31 anos tem diarreia crônica com sangue, dor abdominal e perda de 6 kg em quatro meses. A colonoscopia mostra acometimento contínuo desde o reto até o cólon descendente, com friabilidade e úlceras superficiais. A biópsia confirma inflamação limitada à mucosa. Qual é o diagnóstico?",
   "alts": [
    "Doença de Crohn, sustentada pelo padrão contínuo e pela ausência de acometimento transmural aqui.",
-   "Retocolite ulcerativa, pelo acometimento contínuo desde o reto com inflamação restrita à mucosa.",
    "Colite infecciosa aguda, hipótese preferida diante de quatro meses de sintomas e perda ponderal.",
    "Síndrome do intestino irritável, cujo diagnóstico é compatível com sangramento e emagrecimento.",
+   "Retocolite ulcerativa, pelo acometimento contínuo desde o reto com inflamação restrita à mucosa.",
    "Colite isquêmica crônica, achado esperado em mulheres jovens sem qualquer fator de risco vascular."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -41,9 +41,9 @@
   "coment": "A retocolite ulcerativa acomete o reto e se estende de forma contínua e proximal, com inflamação restrita à mucosa e submucosa — exatamente o descrito. A doença de Crohn tem acometimento descontínuo, com lesões salteadas, poupa frequentemente o reto, é transmural e pode acometer qualquer segmento do tubo digestivo, com fístulas e doença perianal. Colite infecciosa não se arrasta por meses com perda ponderal progressiva. Sangramento e emagrecimento são bandeiras vermelhas que afastam o diagnóstico de síndrome do intestino irritável, que é de exclusão e não cursa com esses achados.",
   "porAlt": [
    "A doença de Crohn tem padrão salteado e inflamação transmural, o oposto do que a colonoscopia e a biópsia mostraram.",
-   "Correta: acometimento contínuo a partir do reto com inflamação limitada à mucosa caracteriza retocolite ulcerativa.",
    "Colite infecciosa é aguda e autolimitada; quatro meses de sintomas com perda ponderal apontam doença inflamatória.",
    "Sangramento e emagrecimento são bandeiras vermelhas que excluem o diagnóstico de síndrome do intestino irritável.",
+   "Correta: acometimento contínuo a partir do reto com inflamação limitada à mucosa caracteriza retocolite ulcerativa.",
    "Colite isquêmica ocorre em idosos com doença vascular, tipicamente no cólon esquerdo e de forma aguda, não crônica."
   ]
  },
@@ -76,11 +76,11 @@
   "alts": [
    "Não há indicação de rastrear, pois sem história familiar o risco de câncer colorretal é desprezível.",
    "O rastreamento começa apenas aos setenta anos de idade para pessoas de risco habitual como ela.",
-   "Está na faixa de rastreamento, feito sempre por colonoscopia ou por pesquisa de sangue oculto.",
    "A colonoscopia deve ser repetida anualmente em todos os adultos, seja qual for o resultado já obtido.",
+   "Está na faixa de rastreamento, feito sempre por colonoscopia ou por pesquisa de sangue oculto.",
    "Somente a tomografia de abdome é aceita como método de rastreamento de câncer colorretal no país."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
@@ -90,8 +90,8 @@
   "porAlt": [
    "A maior parte dos casos de câncer colorretal ocorre sem história familiar, de modo que a ausência dela não dispensa rastrear.",
    "Começar aos setenta perde décadas de detecção precoce, justamente quando a remoção de pólipos previne o câncer.",
-   "Correta: ela está na faixa de rastreamento de risco habitual, que admite sangue oculto imunoquímico ou colonoscopia.",
    "Colonoscopia anual não é recomendada em risco habitual: o intervalo é de dez anos quando o exame é normal.",
+   "Correta: ela está na faixa de rastreamento de risco habitual, que admite sangue oculto imunoquímico ou colonoscopia.",
    "A tomografia não é método de rastreamento de rotina; a colonografia tem indicações restritas e não substitui os métodos padrão."
   ]
  }

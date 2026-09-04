@@ -4,11 +4,11 @@
   "alts": [
    "Manter o antibiótico por dez dias no total, duração clássica que reduz a chance de recidiva.",
    "Manter o antibiótico até que a radiografia de tórax mostre resolução completa da consolidação.",
+   "Suspender o antibiótico ao completar o terceiro dia, pois ele já alcançou estabilidade clínica.",
    "Trocar por um macrolídeo e completar mais sete dias, ampliando a cobertura para germe atípico.",
-   "Prolongar o esquema por catorze dias porque a consolidação lobar indica doença pneumocócica.",
-   "Suspender o antibiótico ao completar o terceiro dia, pois ele já alcançou estabilidade clínica."
+   "Prolongar o esquema por catorze dias porque a consolidação lobar indica doença pneumocócica."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -18,9 +18,9 @@
   "porAlt": [
    "Dez dias é herança de recomendações antigas; a evidência de não inferioridade dos esquemas curtos derrubou essa duração na pneumonia não grave.",
    "A imagem melhora semanas depois da cura clínica; guiar a duração por radiografia prolonga o antibiótico sem qualquer benefício ao paciente.",
+   "Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três — que ele já completou.",
    "Não há motivo para trocar a classe em quem respondeu bem, e estender por mais sete dias contraria a recomendação de curso curto.",
-   "O padrão lobar não define duração nem exige esquema prolongado; o que define é a resposta clínica e a gravidade da apresentação inicial.",
-   "Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três — que ele já completou."
+   "O padrão lobar não define duração nem exige esquema prolongado; o que define é a resposta clínica e a gravidade da apresentação inicial."
   ]
  },
  {
@@ -28,11 +28,11 @@
   "alts": [
    "Suspender hoje mesmo, já que a melhora clínica no quarto dia autoriza encerrar o tratamento.",
    "Manter o antimicrobiano até a alta hospitalar, independentemente do tempo total de tratamento.",
-   "Manter o antimicrobiano por pelo menos cinco dias, patamar recomendado na apresentação grave.",
    "Suspender e substituir por profilaxia com azitromicina em dias alternados por três semanas.",
+   "Manter o antimicrobiano por pelo menos cinco dias, patamar recomendado na apresentação grave.",
    "Manter por vinte e um dias, duração exigida em toda pneumonia que precisou de ventilação."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
@@ -42,8 +42,8 @@
   "porAlt": [
    "A melhora precoce não rebaixa a gravidade da apresentação inicial, que é justamente o critério usado para definir o piso de duração.",
    "Amarrar a duração do antimicrobiano à data da alta é decisão administrativa, não clínica, e costuma resultar em tratamento excessivo.",
-   "Correta: a apresentação grave carrega recomendação forte de pelo menos cinco dias, independentemente de a melhora ter vindo antes disso.",
    "Azitromicina profilática prolongada não tem papel na pneumonia comunitária e traz risco cardíaco e de indução de resistência.",
+   "Correta: a apresentação grave carrega recomendação forte de pelo menos cinco dias, independentemente de a melhora ter vindo antes disso.",
    "Não existe regra de vinte e um dias por uso de ventilação; a duração é definida pela gravidade e pela resposta, não pelo suporte usado."
   ]
  },
@@ -51,12 +51,12 @@
   "q": "Homem de 38 anos, hígido, sem uso de antimicrobiano nos últimos três meses e sem comorbidades, recebe diagnóstico de pneumonia adquirida na comunidade em consulta ambulatorial. Não há critérios de gravidade e ele será tratado em casa. Considerando a diretriz vigente, qual é o esquema inicial mais apropriado?",
   "alts": [
    "Levofloxacino em monoterapia, que deve ser a primeira escolha no paciente ambulatorial saudável.",
+   "Amoxicilina em dose alta como monoterapia, reservando doxiciclina como alternativa aceitável.",
    "Amoxicilina com clavulanato somada a macrolídeo, cobrindo germe atípico de forma rotineira.",
    "Ceftriaxona intramuscular diária por cinco dias, garantindo adesão melhor que a via oral.",
-   "Amoxicilina em dose alta como monoterapia, reservando doxiciclina como alternativa aceitável.",
    "Azitromicina isolada na região onde ele atua, sem checar a resistência local do pneumococo."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -65,9 +65,9 @@
   "coment": "Para o adulto ambulatorial sem comorbidades e sem uso recente de antimicrobiano, a diretriz mantém a monoterapia com amoxicilina em dose alta como escolha inicial, tipicamente 1 grama a cada 8 horas, tendo doxiciclina como alternativa e o macrolídeo condicionado a resistência local do pneumococo abaixo de 25%. Reservar a fluoroquinolona respiratória é decisão deliberada: ela seleciona resistência, mascara tuberculose e carrega alertas de tendinopatia, disglicemia e neuropatia. A cobertura de atípico não é obrigatória em todos os pacientes ambulatoriais sem comorbidade.",
   "porAlt": [
    "A fluoroquinolona é droga de reserva: seleciona resistência, mascara tuberculose e tem alertas de segurança que desaconselham o uso de rotina.",
+   "Correta: monoterapia com amoxicilina em dose alta é a escolha inicial nesse perfil, com doxiciclina como alternativa razoável.",
    "Associar clavulanato e macrolídeo é esquema de paciente com comorbidade ou uso recente de antibiótico, e não do adulto hígido descrito.",
    "A via intramuscular diária não traz vantagem em quem tolera via oral, e o cenário ambulatorial não justifica esse incômodo ao paciente.",
-   "Correta: monoterapia com amoxicilina em dose alta é a escolha inicial nesse perfil, com doxiciclina como alternativa razoável.",
    "O macrolídeo isolado só é aceitável onde a resistência local do pneumococo é inferior a 25%, o que precisa ser conhecido antes de prescrever."
   ]
  },
@@ -76,11 +76,11 @@
   "alts": [
    "Proteína C reativa reduzida à metade e leucograma inteiramente normalizado no exame de controle.",
    "Radiografia de tórax com resolução completa e ausculta pulmonar sem qualquer ruído adventício.",
-   "Afebril, frequência cardíaca abaixo de 100 bpm, respiratória abaixo de 24 irpm e sem confusão.",
    "Hemocultura negativa em duas amostras colhidas após vinte e quatro horas de antimicrobiano.",
-   "Ausência de tosse e de expectoração por um período mínimo de quarenta e oito horas seguidas."
+   "Ausência de tosse e de expectoração por um período mínimo de quarenta e oito horas seguidas.",
+   "Afebril, frequência cardíaca abaixo de 100 bpm, respiratória abaixo de 24 irpm e sem confusão."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
@@ -90,9 +90,9 @@
   "porAlt": [
    "Marcadores inflamatórios não fazem parte da definição e sua normalização costuma ser bem mais lenta que a recuperação clínica.",
    "A imagem melhora semanas depois da cura clínica: exigir resolução radiológica é a causa mais frequente de tratamento prolongado à toa.",
-   "Correta: a estabilidade clínica é definida por sinais vitais e estado mental, o conjunto que autoriza encerrar o antimicrobiano.",
    "A hemocultura negativa não define estabilidade, até porque a maioria das pneumonias comunitárias cursa sem bacteriemia documentada.",
-   "A tosse pode persistir por semanas depois da cura e não integra os critérios objetivos usados pela definição da diretriz."
+   "A tosse pode persistir por semanas depois da cura e não integra os critérios objetivos usados pela definição da diretriz.",
+   "Correta: a estabilidade clínica é definida por sinais vitais e estado mental, o conjunto que autoriza encerrar o antimicrobiano."
   ]
  }
 ]

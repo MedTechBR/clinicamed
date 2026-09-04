@@ -122,14 +122,21 @@ Auditoria de contraste por DOM: **0 falhas** nos 8 painéis × 2 temas (≥4,5:1
 4. `python3 monta_banco.py` e conferir "OK: nenhum erro duro".
 
 ## Estado do conteúdo (04/09/2026)
-- **107 questões** em 28 levas, 107 chaves únicas, **zero erros duros e zero avisos**.
-- **As 18 áreas do conteúdo programático cobertas.**
-- Gabarito uniforme: A:22 B:22 C:21 D:21 E:21. Correta é a mais longa em 13,1%; folga mediana 1,1%.
-- Matrizes: cenário amb 48 · emg 37 · enf 14 · uti 8; competência tto 40 · urg 32 · dx 20 · prev 15;
-  nível essencial 25 · intermediário 36 · avançado 22 · título 24.
-- **82 cartões** cobrindo as 18 áreas · **5 leituras** (~70 min) · 3 estações práticas.
+- **125 questões** em 31 levas, 125 chaves únicas, **zero erros duros e zero avisos**.
+- **As 18 áreas cobertas.** Gabarito uniforme: A:25 B:25 C:25 D:25 E:25.
+- **82 cartões** · **12 leituras (~225 min)** · 3 estações práticas.
+- Matrizes: cenário amb 53 · emg 41 · enf 16 · uti 15; competência tto 49 · urg 35 · dx 23 · prev 18.
+- Verificado por DOM: simulado de 120 questões com 0 pares adjacentes do mesmo tema e 12 temas
+  distintos nas 20 primeiras.
 - **0 questões de prova real** — o banco misto foi decidido, mas só a parte autoral existe.
-- Alvo do validador (peso × 3 = 360) ainda distante nas áreas de maior peso.
+
+### As leituras são o diferencial (não deixar regredir)
+As leituras nasceram curtas e o Matheus reprovou: *"a parte de leitura está péssima, básica e com
+pouco conteúdo"*. O padrão atual é **diretriz integral**, escrita a partir do PDF, com:
+tabela de recomendação com **classe e nível de evidência** (`table.rec` + badges `.cls .c1/.c2a/.c2b/.c3`),
+tabela de doses, passos numerados (`ol.passos`), caixas `.chave` e `.armadilha`, seção de armadilhas
+consolidadas, autoteste em `<details>` e fonte primária numerada no rodapé.
+Tamanho de referência: **1.200 a 2.100 palavras**. Um resumo de 600 palavras não passa.
 
 ### Detector de tells: como foi calibrado (não afrouxar sem medir)
 A regex de termos absolutos herdada via só `todos?` e era cega para **toda/todas/qualquer** — com o
