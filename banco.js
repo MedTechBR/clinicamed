@@ -1080,78 +1080,6 @@ window.BANCO=[
 ]
 },
 {
-"q": "Mulher de 68 anos chega à emergência com dor ocular intensa à direita, visão embaçada com halos ao redor das luzes, náusea e vômito. Ao exame, o olho está hiperemiado, a córnea embaçada e a pupila em midríase média, pouco reativa. Qual é a conduta correta?",
-"alts": [
-"Prescrever colírio de tropicamida para dilatar a pupila e facilitar o exame de fundo de olho.",
-"Tratar como conjuntivite viral com colírio lubrificante e reavaliar em uma semana no ambulatório.",
-"Tratar como glaucoma agudo de ângulo fechado e acionar a oftalmologia com urgência máxima.",
-"Ocluir o olho com curativo compressivo e prescrever analgésico simples por via oral em casa.",
-"Solicitar tomografia de crânio e adiar a avaliação oftalmológica até que o exame fique pronto."
-],
-"gab": 2,
-"tema": "oftalmo",
-"cenario": "emg",
-"comp": "urg",
-"nivel": "r1",
-"base": "American Academy of Ophthalmology, 2020 — Preferred Practice Pattern: Primary Angle Closure Disease",
-"coment": "Dor ocular intensa com halos, náusea, olho vermelho, córnea embaçada e pupila em midríase média fixa é glaucoma agudo de ângulo fechado — emergência que leva a perda visual irreversível em horas. A conduta é acionar a oftalmologia de imediato e iniciar redução da pressão intraocular com hipotensores tópicos e sistêmicos, seguida de iridotomia a laser. O erro mais grave é dilatar a pupila: midriático fecha ainda mais o ângulo e agrava a crise. Náusea e vômito com cefaleia frequentemente desviam o raciocínio para abdome ou crânio, atrasando o diagnóstico.",
-"porAlt": [
-"Dilatar a pupila fecha ainda mais o ângulo e agrava a crise — é a conduta mais perigosa diante dessa apresentação clínica.",
-"A conjuntivite não cursa com dor intensa, halos, córnea embaçada nem alteração pupilar; tratar assim custa a visão do olho.",
-"Correta: o quadro é glaucoma agudo de ângulo fechado, emergência que exige oftalmologia imediata e redução da pressão intraocular.",
-"A oclusão não reduz a pressão intraocular e o analgésico apenas mascara o sintoma enquanto o nervo óptico sofre dano.",
-"A tomografia não faz o diagnóstico e o atraso na avaliação oftalmológica é o que determina a perda visual definitiva."
-]
-},
-{
-"q": "Homem de 52 anos, hipertenso, chega à emergência com epistaxe volumosa à direita há 40 minutos, sem trauma. A pressão arterial é de 178/98 mmHg. Após compressão digital das asas nasais por 15 minutos, o sangramento persiste e ele engole sangue. Qual é a conduta seguinte?",
-"alts": [
-"Manter apenas a compressão digital por mais uma hora antes de considerar qualquer intervenção.",
-"Realizar tamponamento nasal anterior e avaliar sinais de sangramento posterior associado.",
-"Inclinar a cabeça para trás, para reduzir o gotejamento anterior enquanto o sangramento cessa.",
-"Aplicar bolsa de gelo na região cervical, medida que costuma interromper o sangramento.",
-"Solicitar angiotomografia de artérias nasais antes de cada tentativa de tamponamento local."
-],
-"gab": 1,
-"tema": "orl",
-"cenario": "emg",
-"comp": "urg",
-"nivel": "r1",
-"base": "American Academy of Otolaryngology–Head and Neck Surgery, 2020 — Clinical Practice Guideline: Nosebleed (Epistaxis)",
-"coment": "Falhada a compressão digital correta — sobre as asas nasais, cabeça inclinada para a frente, por 10 a 15 minutos ininterruptos —, o passo seguinte é o tamponamento nasal anterior, com avaliação de sangramento posterior. Sangue escorrendo pela orofaringe sugere origem posterior, que costuma exigir tamponamento específico e internação, pelo risco de sangramento volumoso e de complicações. Inclinar a cabeça para trás faz o paciente deglutir sangue, mascara o volume perdido e provoca vômito com risco de aspiração. Gelo cervical não tem eficácia demonstrada e não substitui o tamponamento.",
-"porAlt": [
-"Prolongar a compressão por mais uma hora após a falha só adia o controle e aumenta a perda sanguínea do paciente.",
-"Correta: falhada a compressão, o passo é o tamponamento anterior, checando se há sangramento posterior associado.",
-"Inclinar a cabeça para trás faz deglutir sangue, mascara o volume perdido e arrisca vômito com aspiração.",
-"O gelo cervical não tem eficácia demonstrada para interromper epistaxe e não substitui o tamponamento nasal.",
-"A angiotomografia se reserva a sangramento refratário ou suspeita de lesão vascular, e não precede o tamponamento inicial."
-]
-},
-{
-"q": "Mulher de 27 anos chega à emergência com dor pélvica há três dias, corrimento vaginal e febre de 38,2 °C. Ao exame, há dor à mobilização do colo uterino e à palpação anexial, sem sinais de abdome agudo cirúrgico. O teste de gravidez é negativo e ela está hemodinamicamente estável. Qual é a conduta?",
-"alts": [
-"Aguardar o resultado da cultura endocervical antes de iniciar o antimicrobiano específico.",
-"Solicitar laparoscopia diagnóstica, exame obrigatório para confirmar o diagnóstico antes de tratar.",
-"Iniciar antimicrobiano para doença inflamatória pélvica, pois os critérios mínimos já bastam.",
-"Prescrever apenas anti-inflamatório e reavaliar em sete dias na unidade básica de referência.",
-"Indicar internação para todas as pacientes com essa apresentação, sem exceção de gravidade."
-],
-"gab": 2,
-"tema": "go",
-"cenario": "emg",
-"comp": "tto",
-"nivel": "r2",
-"base": "CDC 2021 — Sexually Transmitted Infections Treatment Guidelines, seção de doença inflamatória pélvica",
-"coment": "O tratamento empírico da doença inflamatória pélvica deve começar diante dos critérios mínimos em mulher sexualmente ativa com dor pélvica sem outra causa: dor à mobilização do colo, dor uterina ou dor anexial. O limiar é deliberadamente baixo porque o atraso custa infertilidade, dor pélvica crônica e gravidez ectópica, enquanto o custo de tratar sem confirmação é pequeno. Não se espera cultura para iniciar, e a laparoscopia é reservada a dúvida diagnóstica ou falha terapêutica. A internação é indicada em situações específicas — gestação, abscesso tubo-ovariano, falha do esquema oral, quadro grave —, não em todas.",
-"porAlt": [
-"Esperar a cultura atrasa o tratamento em dias e não muda a conduta inicial, que é empírica por definição nesse quadro.",
-"A laparoscopia não é exigida para o diagnóstico e fica reservada a casos duvidosos ou refratários ao esquema instituído.",
-"Correta: presentes os critérios mínimos, inicia-se o antimicrobiano empírico de imediato, pelo custo do atraso em sequelas.",
-"Anti-inflamatório isolado não trata a infecção e a espera de sete dias é exatamente o intervalo que gera sequela tubária.",
-"A internação tem critérios definidos e não se aplica a toda paciente estável que possa cumprir o esquema por via oral."
-]
-},
-{
 "q": "Homem de 33 anos, sem comorbidades, está no quarto dia de febre que cessou ontem. Retorna à unidade referindo dor abdominal intensa e contínua e dois episódios de vômito. Está lúcido, com pressão de 118/76 mmHg, pulso de 88 bpm e prova do laço negativa. Segundo o manual do Ministério da Saúde, qual é a classificação e a conduta?",
 "alts": [
 "Grupo C: internação com reposição volêmica endovenosa de 10 mL/kg de soro fisiológico na primeira hora.",
@@ -7032,486 +6960,6 @@ window.BANCO=[
 ]
 },
 {
-"q": "Gestante de 32 semanas com pressão de 160/105 mmHg, proteinúria e cefaleia. Qual é a conduta imediata?",
-"alts": [
-"Anti-hipertensivo de ação rápida e sulfato de magnésio, sempre com avaliação de resolução da gestação.",
-"Anti-inflamatório não hormonal para a cefaleia e reavaliação pressórica ambulatorial em uma semana.",
-"Diurético tiazídico em dose plena como primeira medida para a redução da pressão arterial na gestante.",
-"Inibidor da enzima conversora de angiotensina por via oral, escolha preferencial na crise da gestação.",
-"Repouso domiciliar isolado sem qualquer medicação, medida suficiente para o controle desse quadro."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "emg",
-"comp": "urg",
-"nivel": "r2",
-"base": "FEBRASGO — Pré-eclâmpsia, 2023; ACOG Practice Bulletin — Gestational Hypertension and Preeclampsia, atualização 2022",
-"coment": "Pré-eclâmpsia com sinais de gravidade — pressão acima de 160 por 110 mmHg, cefaleia, alterações visuais, dor epigástrica, plaquetopenia ou disfunção de órgão — exige tratamento da emergência hipertensiva com hidralazina, nifedipino ou labetalol, sulfato de magnésio para prevenir eclâmpsia e definição do momento do parto, único tratamento definitivo. Inibidores da enzima conversora são contraindicados na gestação por fetotoxicidade.",
-"porAlt": [
-"Correta: anti-hipertensivo de ação rápida, sulfato de magnésio e definição do momento do parto.",
-"Anti-inflamatório não trata a doença e o adiamento por uma semana arrisca eclâmpsia e óbito.",
-"O tiazídico não é a escolha na emergência hipertensiva da gestação e reduz o volume plasmático.",
-"Os inibidores da enzima conversora são contraindicados na gestação por toxicidade fetal renal.",
-"Repouso isolado não controla a pressão nem previne a evolução para eclâmpsia neste quadro."
-]
-},
-{
-"q": "Mulher de 26 anos com atraso menstrual, dor pélvica intensa e beta-HCG positivo, sem saco gestacional intrauterino à ultrassonografia. Qual é a suspeita principal?",
-"alts": [
-"Gravidez ectópica, que exige sempre avaliação hemodinâmica e decisão entre conduta clínica e cirúrgica.",
-"Gestação tópica inicial normal, hipótese que dispensa qualquer seguimento ou avaliação adicional agora.",
-"Cisto ovariano funcional simples, diagnóstico que explica o beta-HCG positivo e a dor pélvica intensa.",
-"Miomatose uterina em degeneração, condição que cursa com útero vazio e beta-HCG positivo no exame.",
-"Infecção urinária baixa, que justifica a dor pélvica e a ausência de saco gestacional intrauterino."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "emg",
-"comp": "urg",
-"nivel": "r2",
-"base": "FEBRASGO — Gravidez ectópica, 2022; ACOG Practice Bulletin nº 193, revisão 2022",
-"coment": "Beta-HCG positivo com útero vazio e dor pélvica configura gestação de localização indeterminada, com gravidez ectópica como principal hipótese até prova em contrário. Acima da zona discriminatória de beta-HCG, tipicamente entre 1.500 e 3.500 mUI/mL, espera-se ver saco gestacional intrauterino. A conduta depende da estabilidade: instabilidade ou rotura indicam cirurgia imediata, enquanto casos selecionados estáveis com massa pequena e beta baixo podem receber metotrexato.",
-"porAlt": [
-"Correta: gravidez ectópica é a principal hipótese, com conduta definida pela estabilidade hemodinâmica.",
-"Assumir gestação tópica normal sem seguimento arrisca rotura tubária com hemorragia grave.",
-"O cisto funcional não produz beta-HCG positivo e não explica o conjunto descrito no enunciado.",
-"O mioma não eleva o beta-HCG e não explica a ausência de gestação intrauterina neste caso.",
-"A infecção urinária não eleva beta-HCG e não é a preocupação principal diante desse quadro."
-]
-},
-{
-"q": "Mulher de 52 anos com sangramento uterino após dois anos de amenorreia pós-menopausa. Qual é a conduta?",
-"alts": [
-"Investigar com ultrassonografia transvaginal e sempre avaliação histológica do endométrio espessado.",
-"Tranquilizar e reavaliar em doze meses, pois o sangramento pós-menopausa é achado fisiológico comum.",
-"Prescrever terapia hormonal e reavaliar somente se o sangramento persistir por mais de seis meses já.",
-"Solicitar apenas citologia oncótica cervical, exame que exclui a principal causa desse sangramento.",
-"Indicar histerectomia imediata sem qualquer investigação prévia da causa do sangramento observado."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "dx",
-"nivel": "r2",
-"base": "FEBRASGO — Sangramento uterino anormal, 2022; ACOG Committee Opinion nº 734, revisão 2023",
-"coment": "Sangramento pós-menopausa é câncer de endométrio até prova em contrário, embora a causa mais frequente seja atrofia. A avaliação inicial é ultrassonografia transvaginal: espessura endometrial acima de quatro milímetros, ou sangramento persistente mesmo com endométrio fino, indica avaliação histológica por biópsia ou histeroscopia. A citologia cervical rastreia colo uterino e não avalia o endométrio, de modo que não substitui a investigação indicada.",
-"porAlt": [
-"Correta: ultrassonografia transvaginal e avaliação histológica do endométrio quando espessado.",
-"Sangramento após a menopausa nunca é fisiológico e exige investigação de neoplasia endometrial.",
-"Prescrever hormônio sem investigar pode mascarar e atrasar o diagnóstico de câncer de endométrio.",
-"A citologia avalia o colo uterino e não fornece informação sobre a cavidade endometrial.",
-"A histerectomia sem diagnóstico expõe a cirurgia de grande porte sem indicação estabelecida."
-]
-},
-{
-"q": "Mulher de 24 anos com corrimento vaginal acinzentado de odor fétido, pH vaginal acima de 4,5 e teste das aminas positivo. Qual é o tratamento?",
-"alts": [
-"Metronidazol por via oral ou vaginal, sempre com orientação sobre abstinência de álcool no período.",
-"Fluconazol em dose única por via oral, tratamento de escolha para o corrimento acinzentado descrito.",
-"Aciclovir por via oral por sete dias, já tratamento indicado para o quadro vaginal descrito no enunciado.",
-"Antibiótico de amplo espectro endovenoso, conduta padrão para essa alteração da flora vaginal agora.",
-"Apenas ducha vaginal com antisséptico diário, medida suficiente para restaurar o pH vaginal normal."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r1",
-"base": "CDC Sexually Transmitted Infections Treatment Guidelines, 2021 com atualização 2024; Ministério da Saúde — PCDT IST, 2022",
-"coment": "Os critérios de Amsel — corrimento homogêneo acinzentado, pH acima de 4,5, teste das aminas positivo e células-guia — definem vaginose bacteriana, desequilíbrio da flora com predomínio de anaeróbios e redução de lactobacilos. O tratamento é metronidazol oral por sete dias ou gel vaginal, com clindamicina como alternativa. Duchas vaginais são desaconselhadas por perpetuar o desequilíbrio. A vaginose se associa a maior risco de parto prematuro e de aquisição de outras infecções.",
-"porAlt": [
-"Correta: metronidazol oral ou vaginal, com orientação sobre a interação do fármaco com o álcool.",
-"O fluconazol trata candidíase, que cursa com corrimento branco grumoso e pH vaginal normal.",
-"O aciclovir trata infecção herpética, que cursa com vesículas e úlceras dolorosas, não corrimento.",
-"A vaginose é tratada por via oral ou vaginal, sem qualquer necessidade de antibiótico endovenoso.",
-"As duchas vaginais agravam o desequilíbrio da flora e são desaconselhadas nessa condição."
-]
-},
-{
-"q": "Gestante de 28 semanas com glicemia de jejum de 98 mg/dL no teste de tolerância oral com 75 g. Qual é a interpretação?",
-"alts": [
-"Diabetes gestacional, que exige sempre orientação nutricional e monitorização da glicemia capilar.",
-"Resultado normal, dispensando qualquer acompanhamento adicional durante o restante da gestação.",
-"Diabetes pré-gestacional franco, diagnóstico definido por esse valor isolado de glicemia de jejum.",
-"Hipoglicemia gestacional, condição que exige aumento imediato da ingestão de carboidratos simples.",
-"Intolerância transitória sem repercussão, que dispensa qualquer intervenção clínica ou nutricional."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "dx",
-"nivel": "r2",
-"base": "Sociedade Brasileira de Diabetes — Diretriz 2024; ADA Standards of Care in Diabetes, 2025",
-"coment": "No teste de tolerância oral com 75 g entre 24 e 28 semanas, um único valor alterado já define diabetes gestacional: jejum a partir de 92 mg/dL, uma hora a partir de 180 mg/dL, ou duas horas a partir de 153 mg/dL. Glicemia de jejum de 98 mg/dL, portanto, fecha o diagnóstico. O tratamento começa com orientação nutricional, atividade física e monitorização capilar; insulina é acrescentada quando as metas não são atingidas, e a metformina é alternativa em casos selecionados.",
-"porAlt": [
-"Correta: jejum a partir de 92 mg/dL no teste com 75 g já define diabetes gestacional.",
-"O valor está acima do ponto de corte de jejum e, portanto, não configura resultado normal.",
-"Diabetes pré-gestacional exigiria jejum a partir de 126 mg/dL ou hemoglobina glicada elevada.",
-"O valor descrito é elevado para a gestação, e não corresponde a qualquer quadro de hipoglicemia.",
-"O diagnóstico está estabelecido e a ausência de tratamento aumenta o risco materno e fetal."
-]
-},
-{
-"q": "Mulher de 35 anos deseja contracepção e é tabagista de 20 cigarros por dia. Qual método é contraindicado?",
-"alts": [
-"Contraceptivo combinado com estrogênio, contraindicado sempre acima de trinta e cinco anos com tabagismo.",
-"Dispositivo intrauterino de cobre, método contraindicado nesse perfil pelo risco cardiovascular elevado.",
-"Implante subdérmico de etonogestrel, método contraindicado em fumantes acima de trinta e cinco anos.",
-"Preservativo masculino de látex, método contraindicado para essa paciente pelo risco tromboembólico.",
-"Minipílula de progestágeno isolado, método contraindicado por elevar o risco vascular na tabagista agora."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "prev",
-"nivel": "r1",
-"base": "OMS — Critérios Médicos de Elegibilidade para Uso de Contraceptivos, 5ª edição com atualização 2024; FEBRASGO, 2022",
-"coment": "Tabagismo a partir de quinze cigarros por dia em mulheres com trinta e cinco anos ou mais é categoria 4 dos critérios de elegibilidade da Organização Mundial da Saúde para contraceptivos combinados, ou seja, risco inaceitável, pelo efeito somado do estrogênio e do tabaco sobre o risco cardiovascular e tromboembólico. Métodos apenas com progestágeno, dispositivos intrauterinos e métodos de barreira permanecem seguros nesse perfil.",
-"porAlt": [
-"Correta: combinado com estrogênio é categoria 4 em fumante pesada com trinta e cinco anos ou mais.",
-"O dispositivo de cobre não tem componente hormonal e é seguro nesse perfil de paciente tabagista.",
-"O implante contém apenas progestágeno e não compartilha o risco vascular atribuído ao estrogênio.",
-"O preservativo não tem qualquer contraindicação relacionada ao tabagismo ou à idade da paciente.",
-"A minipílula de progestágeno isolado é considerada segura mesmo em fumantes acima dessa idade."
-]
-},
-{
-"q": "Puérpera de 2 horas apresenta sangramento vaginal volumoso e útero amolecido acima da cicatriz umbilical. Qual é a conduta inicial?",
-"alts": [
-"Massagem uterina e uterotônico endovenoso, sempre com acesso calibroso e reposição volêmica imediata.",
-"Aguardar a resolução espontânea do sangramento por duas horas antes de qualquer intervenção clínica.",
-"Histerectomia imediata como primeira medida diante de sangramento no pós-parto com útero amolecido.",
-"Prescrever apenas anti-inflamatório e observar clinicamente a evolução do sangramento puerperal.",
-"Realizar sutura de laceração cervical antes de qualquer avaliação do tônus uterino da puérpera agora."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "emg",
-"comp": "urg",
-"nivel": "r2",
-"base": "FEBRASGO — Hemorragia pós-parto, 2023; OMS — Recommendations on prevention and treatment of postpartum haemorrhage, 2022",
-"coment": "Atonia uterina responde pela maioria das hemorragias pós-parto, e o útero amolecido e alto confirma a suspeita. A conduta é simultânea: massagem uterina, ocitocina endovenosa, acesso venoso calibroso, reposição volêmica e ácido tranexâmico, que reduz mortalidade quando administrado nas primeiras três horas. Se não houver resposta, escalona-se para misoprostol ou ergometrina, balão intrauterino e, por fim, medidas cirúrgicas conservadoras antes da histerectomia.",
-"porAlt": [
-"Correta: massagem uterina, uterotônico endovenoso, acesso calibroso e reposição volêmica imediata.",
-"Aguardar duas horas em hemorragia pós-parto permite choque hipovolêmico e morte materna evitável.",
-"A histerectomia é medida de exceção, após a falha das intervenções conservadoras escalonadas.",
-"O anti-inflamatório não trata atonia uterina e a observação passiva permite a perda sanguínea.",
-"A avaliação do tônus vem primeiro; lacerações são procuradas quando o útero está bem contraído."
-]
-},
-{
-"q": "Mulher de 30 anos com dor pélvica, febre e dor à mobilização do colo uterino ao exame. Qual é a conduta?",
-"alts": [
-"Iniciar antibiótico com cobertura sempre para gonococo, clamídia e anaeróbios, e tratar as parcerias.",
-"Prescrever apenas analgésico e reavaliar clinicamente em duas semanas com nova avaliação pélvica.",
-"Solicitar apenas ultrassonografia pélvica e adiar o antibiótico até o resultado do exame de imagem.",
-"Indicar histerectomia de urgência em todos os casos que cursam com dor à mobilização do colo uterino.",
-"Prescrever antifúngico oral por sete dias, tratamento indicado para o quadro pélvico febril descrito."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "emg",
-"comp": "tto",
-"nivel": "r2",
-"base": "CDC STI Treatment Guidelines, 2021 com atualização 2024; Ministério da Saúde — PCDT IST, 2022",
-"coment": "A doença inflamatória pélvica é diagnosticada clinicamente: dor pélvica com dor à mobilização do colo, dor anexial ou dor uterina em mulher sexualmente ativa, sem outra causa. O limiar para tratar é baixo, porque o atraso aumenta infertilidade, dor crônica e gravidez ectópica. O esquema cobre gonococo, clamídia e anaeróbios, tipicamente ceftriaxona com doxiciclina e metronidazol. As parcerias sexuais dos últimos sessenta dias devem ser tratadas.",
-"porAlt": [
-"Correta: antibiótico cobrindo gonococo, clamídia e anaeróbios, com tratamento das parcerias sexuais.",
-"Adiar o tratamento por duas semanas aumenta o risco de infertilidade e de dor pélvica crônica.",
-"O diagnóstico é clínico e a imagem normal não exclui a doença, não devendo atrasar o antibiótico.",
-"A histerectomia não tem papel no tratamento inicial da doença inflamatória pélvica não complicada.",
-"O antifúngico não cobre os agentes bacterianos responsáveis pela doença inflamatória pélvica."
-]
-},
-{
-"q": "Mulher de 48 anos com fogachos intensos e insônia há um ano, sem contraindicações, com útero íntegro. Qual é a conduta?",
-"alts": [
-"Terapia hormonal com estrogênio associado sempre a progestágeno para proteção do endométrio agora.",
-"Estrogênio isolado por via oral, escolha preferencial para mulheres com útero íntegro e sintomas.",
-"Testosterona em dose plena, já tratamento de escolha para os sintomas vasomotores da menopausa.",
-"Apenas suplementação de cálcio e vitamina D, medida suficiente para controlar os fogachos intensos.",
-"Antibiótico profilático contínuo, medida indicada para o controle dos sintomas climatéricos descritos."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r2",
-"base": "The Menopause Society — position statement on hormone therapy, 2022 com revisão 2024; FEBRASGO — Climatério, 2023",
-"coment": "A terapia hormonal é o tratamento mais eficaz para sintomas vasomotores e tem melhor perfil de risco quando iniciada antes dos sessenta anos ou dentro de dez anos da menopausa. Em mulheres com útero, o estrogênio precisa ser associado a progestágeno, pois o estrogênio isolado aumenta o risco de hiperplasia e câncer de endométrio. Contraindicações incluem câncer de mama, doença coronariana, tromboembolismo prévio e hepatopatia grave.",
-"porAlt": [
-"Correta: estrogênio com progestágeno associado, indispensável para proteger o endométrio íntegro.",
-"O estrogênio isolado em mulher com útero aumenta o risco de hiperplasia e câncer de endométrio.",
-"A testosterona não é tratamento dos sintomas vasomotores, tendo papel restrito ao desejo sexual.",
-"Cálcio e vitamina D atuam na saúde óssea e não controlam os sintomas vasomotores descritos.",
-"Não há qualquer indicação de antibiótico profilático no manejo dos sintomas do climatério."
-]
-},
-{
-"q": "Gestante de 12 semanas apresenta sorologia com VDRL reagente 1:32 e teste treponêmico reagente, sem tratamento prévio. Qual é a conduta?",
-"alts": [
-"Penicilina benzatina conforme o estágio da doença e notificar sempre, tratando também a parceria.",
-"Doxiciclina por catorze dias, tratamento de escolha para a sífilis diagnosticada durante a gestação.",
-"Azitromicina em dose única, alternativa recomendada para o tratamento da sífilis na mulher gestante.",
-"Aguardar o parto para iniciar o tratamento e evitar reação adversa ao antibiótico durante a gestação.",
-"Apenas repetir a sorologia em três meses, sem qualquer tratamento durante o período gestacional."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r1",
-"base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com IST, 2022; CDC STI Guidelines, 2021",
-"coment": "A sífilis na gestação é tratada exclusivamente com penicilina benzatina, único fármaco que trata adequadamente o feto e previne sífilis congênita; a dose depende do estágio, sendo três doses semanais na forma latente tardia ou de duração ignorada. Alergia à penicilina indica dessensibilização, não substituição por outro antibiótico. A doença é de notificação compulsória, a parceria deve ser tratada e o seguimento é feito com titulação mensal do teste não treponêmico.",
-"porAlt": [
-"Correta: penicilina benzatina conforme o estágio, com notificação e tratamento da parceria sexual.",
-"A doxiciclina é contraindicada na gestação e não trata adequadamente a infecção fetal presente.",
-"A azitromicina tem falhas documentadas por resistência e não previne a sífilis congênita no feto.",
-"Adiar o tratamento até o parto permite a transmissão vertical e o desenvolvimento de sífilis congênita.",
-"Repetir a sorologia sem tratar mantém a infecção ativa e o risco de acometimento fetal grave."
-]
-},
-{
-"q": "Homem de 65 anos com dor ocular intensa, olho vermelho, visão borrada com halos e pupila em midríase média fixa. Qual é a conduta?",
-"alts": [
-"Encaminhamento oftalmológico de emergência e sempre início do tratamento para reduzir a pressão ocular.",
-"Colírio midriático para aliviar a dor ocular e reavaliação oftalmológica ambulatorial em uma semana.",
-"Colírio anestésico de uso contínuo domiciliar como principal medida de alívio dos sintomas oculares.",
-"Prescrever apenas analgésico oral e compressa morna, medidas suficientes para o quadro descrito agora.",
-"Antibiótico tópico isolado por sete dias, tratamento indicado para o olho vermelho com dor intensa."
-],
-"gab": 0,
-"tema": "oftalmo",
-"cenario": "emg",
-"comp": "urg",
-"nivel": "r2",
-"base": "American Academy of Ophthalmology — Primary Angle Closure Preferred Practice Pattern, 2020 com revisão 2023",
-"coment": "Glaucoma agudo de ângulo fechado é emergência: dor intensa, olho vermelho, halos coloridos, náusea, córnea edemaciada e pupila em midríase média pouco reativa. Sem tratamento em horas há perda visual permanente. O tratamento reduz a pressão intraocular com acetazolamida sistêmica, betabloqueador tópico, alfa-agonista e pilocarpina após a queda inicial, seguido de iridotomia a laser definitiva. Midriáticos são contraindicados por fecharem ainda mais o ângulo.",
-"porAlt": [
-"Correta: emergência oftalmológica, com redução imediata da pressão intraocular e iridotomia depois.",
-"O midriático fecha ainda mais o ângulo e agrava diretamente o quadro, sendo contraindicado.",
-"O anestésico tópico contínuo causa toxicidade epitelial e úlcera de córnea, sendo proibido em casa.",
-"Analgésico e compressa não reduzem a pressão intraocular e permitem a perda visual definitiva.",
-"O antibiótico tópico não trata glaucoma agudo, cuja causa é bloqueio do escoamento do humor aquoso."
-]
-},
-{
-"q": "Paciente diabético há 15 anos, sem sintomas visuais, pergunta sobre avaliação ocular. Qual é a recomendação?",
-"alts": [
-"Exame de fundo de olho com dilatação pupilar ao menos uma vez ao ano, sempre com retinógrafo ou especialista.",
-"Avaliação oftalmológica apenas quando surgirem sintomas visuais, como borramento ou perda de campo agora.",
-"Medida da acuidade visual isolada anual, exame suficiente para o rastreio de retinopatia diabética agora.",
-"Tonometria isolada bienal, exame recomendado para o rastreio das complicações oculares do diabetes agora.",
-"Nenhuma avaliação enquanto a hemoglobina glicada permanecer abaixo de oito por cento no paciente neste caso."
-],
-"gab": 0,
-"tema": "oftalmo",
-"cenario": "amb",
-"comp": "prev",
-"nivel": "r1",
-"base": "ADA Standards of Care in Diabetes, 2025; Sociedade Brasileira de Diabetes — Diretriz 2024",
-"coment": "A retinopatia diabética é assintomática até fases avançadas, o que torna o rastreio obrigatório: no diabetes tipo 2 começa no diagnóstico e no tipo 1 após cinco anos, com repetição anual, ou a cada dois anos se houver exames normais consecutivos e bom controle. O método é fundoscopia com dilatação ou retinografia. Esperar sintoma significa diagnosticar edema macular ou proliferação já instalada, quando o tratamento apenas limita a perda.",
-"porAlt": [
-"Correta: fundoscopia com dilatação ou retinografia ao menos anual, mesmo em paciente assintomático.",
-"Esperar sintomas significa diagnosticar a doença em fase avançada, com perda visual já instalada.",
-"A acuidade visual permanece normal na retinopatia inicial e não serve como método de rastreio.",
-"A tonometria mede pressão intraocular e não avalia as lesões retinianas próprias do diabetes.",
-"O controle glicêmico reduz o risco, mas não elimina a necessidade do rastreio oftalmológico."
-]
-},
-{
-"q": "Mulher de 30 anos com perda visual súbita unilateral, dor à movimentação ocular e defeito pupilar aferente relativo. Qual é a suspeita?",
-"alts": [
-"Neurite óptica, que exige sempre ressonância de encéfalo para avaliar risco de esclerose múltipla.",
-"Catarata de instalação súbita, condição que cursa com dor à movimentação ocular e defeito pupilar.",
-"Conjuntivite viral aguda, quadro que cursa com perda visual súbita e defeito pupilar aferente.",
-"Pterígio em progressão rápida, condição que justifica a perda visual súbita descrita no enunciado.",
-"Blefarite crônica agudizada, quadro que cursa com dor à movimentação ocular e perda visual súbita."
-],
-"gab": 0,
-"tema": "oftalmo",
-"cenario": "amb",
-"comp": "dx",
-"nivel": "r2",
-"base": "American Academy of Neurology — optic neuritis practice guidance, revisão 2022; AAO Preferred Practice Pattern, 2023",
-"coment": "A neurite óptica típica ocorre em mulheres jovens, com perda visual subaguda unilateral, dor à movimentação ocular, discromatopsia e defeito pupilar aferente relativo. A ressonância de encéfalo com contraste avalia lesões desmielinizantes que estratificam o risco de esclerose múltipla e orientam terapia modificadora. Corticoide endovenoso acelera a recuperação, sem alterar a acuidade final. Formas atípicas exigem pesquisa de anticorpos anti-aquaporina-4 e anti-MOG.",
-"porAlt": [
-"Correta: neurite óptica, com ressonância de encéfalo para estratificar o risco de esclerose múltipla.",
-"A catarata tem instalação progressiva, é indolor e não cursa com defeito pupilar aferente relativo.",
-"A conjuntivite não causa perda visual significativa nem defeito pupilar aferente no exame ocular.",
-"O pterígio é lesão conjuntival de crescimento lento e não produz perda visual súbita unilateral.",
-"A blefarite acomete a margem palpebral e não causa perda visual nem defeito pupilar aferente."
-]
-},
-{
-"q": "Paciente de 70 anos com perda visual súbita, indolor e unilateral, com fundo de olho mostrando retina pálida e mácula em cereja. Qual é o diagnóstico?",
-"alts": [
-"Oclusão da artéria central da retina, que exige sempre investigação urgente de fonte embólica.",
-"Descolamento de retina crônico, condição que cursa com mácula em cereja e retina difusamente pálida.",
-"Glaucoma crônico de ângulo aberto, que cursa com perda visual súbita e mancha vermelho-cereja.",
-"Degeneração macular seca avançada, quadro de instalação súbita com retina pálida à fundoscopia.",
-"Retinopatia hipertensiva leve, condição que produz mancha macular em cereja e perda visual súbita."
-],
-"gab": 0,
-"tema": "oftalmo",
-"cenario": "emg",
-"comp": "urg",
-"nivel": "r3",
-"base": "American Heart Association/American Stroke Association scientific statement on retinal ischemia, 2021; AAO Preferred Practice Pattern, 2023",
-"coment": "A oclusão da artéria central da retina é o equivalente ocular do acidente vascular cerebral: perda visual súbita, indolor, grave, com retina isquêmica pálida e mancha vermelho-cereja na fóvea. A conduta é tratar como evento cerebrovascular agudo, com investigação urgente de fonte embólica — carótidas, coração e ritmo — e prevenção secundária, pois o risco de acidente vascular cerebral nos dias seguintes é elevado. Em idosos, arterite de células gigantes deve ser afastada.",
-"porAlt": [
-"Correta: oclusão arterial retiniana, tratada como evento cerebrovascular com investigação de êmbolo.",
-"O descolamento de retina cursa com fotopsias, moscas volantes e sombra progressiva no campo visual.",
-"O glaucoma crônico de ângulo aberto cursa com perda periférica lenta, insidiosa e indolor.",
-"A degeneração macular seca tem evolução lenta e não produz o quadro súbito descrito no enunciado.",
-"A retinopatia hipertensiva leve é assintomática e não produz mancha em cereja nem perda súbita."
-]
-},
-{
-"q": "Paciente com olho vermelho, secreção purulenta bilateral, sem dor intensa e com acuidade visual preservada. Qual é a conduta?",
-"alts": [
-"Higiene ocular e colírio antibiótico tópico, sempre com orientação sobre medidas de higiene das mãos.",
-"Corticoide tópico em dose alta como tratamento inicial de escolha para a conjuntivite purulenta.",
-"Encaminhamento cirúrgico de urgência em todos os casos de conjuntivite bacteriana bilateral aguda.",
-"Colírio anestésico de uso contínuo domiciliar para o alívio dos sintomas até a resolução do quadro.",
-"Antibiótico sistêmico endovenoso, tratamento padrão para a conjuntivite bacteriana não complicada."
-],
-"gab": 0,
-"tema": "oftalmo",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r1",
-"base": "American Academy of Ophthalmology — Conjunctivitis Preferred Practice Pattern, 2023",
-"coment": "A conjuntivite bacteriana cursa com secreção purulenta, hiperemia e acuidade visual preservada, e costuma ser autolimitada. O antibiótico tópico acelera a resolução e reduz a transmissão. Corticoide tópico não deve ser prescrito sem avaliação especializada, porque agrava infecção herpética e favorece úlcera de córnea. Sinais de alarme que exigem encaminhamento são dor intensa, fotofobia, redução da acuidade e opacidade corneana.",
-"porAlt": [
-"Correta: higiene ocular e antibiótico tópico, com orientação de higiene para reduzir a transmissão.",
-"O corticoide tópico sem avaliação pode agravar infecção herpética e favorecer úlcera de córnea.",
-"A conjuntivite bacteriana não complicada não tem qualquer indicação de tratamento cirúrgico.",
-"O anestésico tópico contínuo causa toxicidade epitelial e não deve ser prescrito para uso em casa.",
-"O antibiótico sistêmico não é necessário na conjuntivite simples, sendo o tópico suficiente."
-]
-},
-{
-"q": "Homem de 50 anos com vertigem rotatória desencadeada por mudança de posição da cabeça, com duração de menos de um minuto por episódio. Qual é a conduta?",
-"alts": [
-"Manobra de Dix-Hallpike para confirmar e manobra de Epley sempre para reposicionamento dos otólitos.",
-"Prescrever anti-histamínico sedativo contínuo por seis meses como tratamento definitivo dessa vertigem.",
-"Solicitar ressonância de encéfalo em todos os casos antes de qualquer manobra diagnóstica ser realizada.",
-"Indicar cirurgia de labirinto imediatamente, já tratamento de escolha para a vertigem posicional descrita.",
-"Prescrever apenas repouso absoluto no leito por duas semanas até a resolução espontânea do quadro."
-],
-"gab": 0,
-"tema": "orl",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r1",
-"base": "AAO-HNS Clinical Practice Guideline — Benign Paroxysmal Positional Vertigo, atualização 2017 com revisão 2022",
-"coment": "A vertigem posicional paroxística benigna é a causa mais comum de vertigem, com episódios breves desencadeados por mudança de posição da cabeça. O diagnóstico é feito pela manobra de Dix-Hallpike, que reproduz o nistagmo característico, e o tratamento é a manobra de reposicionamento de Epley, com alta taxa de resolução. Supressores vestibulares não são recomendados para uso prolongado por prejudicarem a compensação central e aumentarem o risco de quedas.",
-"porAlt": [
-"Correta: Dix-Hallpike para confirmar e manobra de Epley para reposicionar os otólitos deslocados.",
-"Supressores vestibulares prolongados prejudicam a compensação central e aumentam o risco de quedas.",
-"A imagem se reserva a sinais de alarme neurológicos, ausentes na descrição clássica deste quadro.",
-"A cirurgia é excepcional, reservada a casos refratários a múltiplas manobras de reposicionamento.",
-"O repouso prolongado retarda a compensação e não trata o deslocamento dos otólitos no canal."
-]
-},
-{
-"q": "Paciente com dor de garganta, febre alta, exsudato amigdaliano e adenomegalia cervical dolorosa, sem tosse. Qual é a conduta?",
-"alts": [
-"Considerar etiologia estreptocócica e tratar com penicilina, sempre pesando escore clínico e teste rápido.",
-"Prescrever antibiótico de amplo espectro endovenoso para todo paciente com dor de garganta e febre agora.",
-"Prescrever apenas antitérmico e evitar antibiótico em todos os casos de faringite com exsudato agora.",
-"Iniciar antiviral oral por cinco dias, já tratamento indicado para a faringite exsudativa febril descrita.",
-"Indicar amigdalectomia de urgência diante do primeiro episódio de faringite com exsudato e febre agora."
-],
-"gab": 0,
-"tema": "orl",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r1",
-"base": "IDSA Practice Guideline for Group A Streptococcal Pharyngitis, revisão 2023; Ministério da Saúde — protocolo de IVAS, 2022",
-"coment": "Os critérios de Centor — febre, exsudato amigdaliano, adenomegalia cervical anterior dolorosa e ausência de tosse — estimam a probabilidade de faringite estreptocócica. Pontuação alta orienta teste rápido ou tratamento empírico com penicilina ou amoxicilina, cujo objetivo principal é prevenir febre reumática, além de reduzir sintomas e transmissão. Antibiótico de amplo espectro não é necessário, pois o estreptococo do grupo A permanece sensível à penicilina.",
-"porAlt": [
-"Correta: considerar etiologia estreptocócica pelo escore clínico e tratar com penicilina ou amoxicilina.",
-"O amplo espectro endovenoso é desnecessário e o estreptococo permanece sensível à penicilina.",
-"Evitar antibiótico em todos os casos deixa sem cobertura o paciente com risco de febre reumática.",
-"A maioria das faringites é viral, mas antiviral específico não é o tratamento da faringite comum.",
-"A amigdalectomia se discute na recorrência frequente, e não no primeiro episódio agudo descrito."
-]
-},
-{
-"q": "Homem de 45 anos com obstrução nasal, dor facial, secreção purulenta e febre há doze dias, com piora após melhora inicial. Qual é a conduta?",
-"alts": [
-"Antibiótico com cobertura para germes respiratórios comuns, sempre associado a lavagem nasal salina.",
-"Antibiótico de amplo espectro endovenoso e internação hospitalar imediata para todos esses pacientes.",
-"Apenas descongestionante tópico nasal por trinta dias contínuos como tratamento único do quadro.",
-"Corticoide sistêmico isolado em dose alta, tratamento de escolha para a rinossinusite bacteriana aguda.",
-"Punção de seio maxilar de rotina em todos os casos antes de qualquer prescrição de antibiótico oral."
-],
-"gab": 0,
-"tema": "orl",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r1",
-"base": "EPOS 2020 — European Position Paper on Rhinosinusitis; IDSA guideline for acute bacterial rhinosinusitis, revisão 2023",
-"coment": "A rinossinusite aguda bacteriana é sugerida por sintomas persistentes além de dez dias sem melhora, sintomas graves com febre alta e secreção purulenta por três a quatro dias, ou piora após melhora inicial, o padrão descrito. O tratamento é amoxicilina com ou sem clavulanato, associado a lavagem nasal salina e corticoide tópico. Descongestionante tópico é limitado a poucos dias pelo risco de rinite medicamentosa por efeito rebote.",
-"porAlt": [
-"Correta: antibiótico para germes respiratórios comuns associado a lavagem nasal com solução salina.",
-"A internação com antibiótico endovenoso se reserva a complicações orbitárias ou intracranianas.",
-"O descongestionante tópico prolongado causa rinite medicamentosa por rebote e não trata a infecção.",
-"O corticoide sistêmico isolado não trata a infecção bacteriana descrita no quadro apresentado.",
-"A punção de seio é reservada a casos refratários ou complicados, e não é conduta de rotina."
-]
-},
-{
-"q": "Paciente de 60 anos com perda auditiva neurossensorial súbita unilateral em menos de 72 horas, sem outra causa aparente. Qual é a conduta?",
-"alts": [
-"Corticoide sistêmico precoce e avaliação otorrinolaringológica urgente, sempre com audiometria imediata.",
-"Prescrever apenas lavagem de ouvido com soro e reavaliar clinicamente em trinta dias de seguimento já.",
-"Iniciar antibiótico oral por dez dias, tratamento de escolha para a perda auditiva súbita descrita.",
-"Aguardar recuperação espontânea por três meses antes de qualquer intervenção terapêutica indicada agora.",
-"Indicar implante coclear imediato como primeira conduta diante da perda auditiva súbita unilateral."
-],
-"gab": 0,
-"tema": "orl",
-"cenario": "emg",
-"comp": "urg",
-"nivel": "r3",
-"base": "AAO-HNS Clinical Practice Guideline — Sudden Hearing Loss, atualização 2019 com revisão 2023",
-"coment": "A perda auditiva neurossensorial súbita é emergência otológica: queda de pelo menos trinta decibéis em três frequências contíguas dentro de setenta e duas horas. O tratamento é corticoide sistêmico iniciado o mais cedo possível, idealmente nas primeiras duas semanas, com corticoide intratimpânico como resgate. Toda perda súbita exige ressonância ou avaliação para excluir schwannoma vestibular, e a audiometria confirma o caráter neurossensorial.",
-"porAlt": [
-"Correta: corticoide sistêmico precoce com avaliação urgente e audiometria para confirmar o padrão.",
-"Lavagem de ouvido trata cerume e não tem qualquer efeito sobre a perda neurossensorial súbita.",
-"O antibiótico não é o tratamento da perda súbita, cuja abordagem inicial é a corticoterapia.",
-"Aguardar três meses perde a janela terapêutica em que o corticoide melhora as chances de recuperação.",
-"O implante coclear é opção tardia para perda profunda bilateral, e não conduta inicial deste caso."
-]
-},
-{
-"q": "Paciente com epistaxe anterior ativa e estável hemodinamicamente. Qual é a primeira medida?",
-"alts": [
-"Compressão digital das asas nasais por dez minutos, sempre com a cabeça inclinada para a frente.",
-"Inclinar a cabeça para trás e engolir o sangue até a resolução espontânea do sangramento nasal.",
-"Realizar tamponamento posterior imediato em todos os casos de epistaxe anterior ativa e estável.",
-"Cauterizar às cegas toda a mucosa nasal antes de qualquer tentativa de compressão local externa.",
-"Prescrever anti-hipertensivo endovenoso já como primeira medida em todo paciente com epistaxe."
-],
-"gab": 0,
-"tema": "orl",
-"cenario": "emg",
-"comp": "urg",
-"nivel": "r1",
-"base": "AAO-HNS Clinical Practice Guideline — Nosebleed (Epistaxis), 2020 com revisão 2023",
-"coment": "A maioria das epistaxes é anterior, originada no plexo de Kiesselbach. A primeira medida é compressão firme e contínua das asas nasais contra o septo por dez a quinze minutos, com o paciente sentado e a cabeça inclinada para a frente, evitando deglutição de sangue e aspiração. Se persistir, usam-se vasoconstritor tópico e cauterização química dirigida do ponto sangrante. Tamponamento posterior se reserva a sangramento posterior, e é procedimento com riscos.",
-"porAlt": [
-"Correta: compressão firme das asas nasais por cerca de dez minutos com a cabeça inclinada à frente.",
-"Inclinar a cabeça para trás favorece deglutição e aspiração de sangue, além de mascarar a perda.",
-"O tamponamento posterior é reservado a sangramento posterior e tem risco de complicações relevantes.",
-"Cauterizar às cegas lesa mucosa sadia e pode causar perfuração septal sem controlar o sangramento.",
-"O anti-hipertensivo de rotina não é a primeira medida; controla-se primeiro o sangramento local."
-]
-},
-{
 "q": "Homem de 58 anos com dispneia progressiva, ortopneia e edema, com fração de ejeção de 30%. Já usa inibidor da enzima conversora e betabloqueador otimizados. Qual é o próximo passo?",
 "alts": [
 "Acrescentar antagonista mineralocorticoide e inibidor de SGLT2, sempre buscando as quatro classes basais.",
@@ -10872,246 +10320,6 @@ window.BANCO=[
 ]
 },
 {
-"q": "Gestante de 10 semanas com náuseas e vômitos persistentes, perda de 6% do peso e cetonúria. Qual é a conduta?",
-"alts": [
-"Internar para hidratação endovenosa com reposição de tiamina, associando sempre antiemético seguro.",
-"Prescrever apenas orientação dietética domiciliar e reavaliar clinicamente após quatro semanas.",
-"Iniciar corticoide sistêmico em dose alta como primeira escolha para o quadro de vômitos na gestação.",
-"Indicar interrupção da gestação em todos os casos de vômitos persistentes com perda ponderal agora.",
-"Administrar glicose endovenosa em alto volume antes de qualquer reposição de vitaminas do complexo B."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "enf",
-"comp": "tto",
-"nivel": "r2",
-"base": "FEBRASGO — Náuseas e vômitos na gestação, 2022; ACOG Practice Bulletin nº 189, revisão 2023",
-"coment": "A hiperêmese gravídica cursa com vômitos persistentes, perda maior que cinco por cento do peso, desidratação, cetonúria e distúrbios eletrolíticos. O tratamento inclui hidratação endovenosa, correção eletrolítica, antiemético seguro na gestação — piridoxina com doxilamina, metoclopramida ou ondansetrona conforme o caso — e reposição de tiamina antes de qualquer carga de glicose, para prevenir encefalopatia de Wernicke, complicação descrita nessa condição.",
-"porAlt": [
-"Correta: hidratação endovenosa com tiamina antes da glicose e antiemético seguro para a gestação.",
-"Orientação isolada é insuficiente diante de perda ponderal significativa e cetonúria documentada.",
-"O corticoide é opção de resgate em casos refratários, e não a primeira escolha do tratamento.",
-"A interrupção da gestação não é conduta indicada, pois a condição é tratável com suporte adequado.",
-"Glicose antes de tiamina pode precipitar encefalopatia de Wernicke na gestante desnutrida."
-]
-},
-{
-"q": "Mulher de 32 anos com ciclos irregulares, hirsutismo e ultrassonografia com ovários policísticos, sem outras causas. Qual é a conduta inicial?",
-"alts": [
-"Mudança de estilo de vida com controle do peso, associada sempre a contraceptivo combinado se não houver contraindicação.",
-"Indicar cirurgia ovariana imediata em todas as pacientes com esse conjunto de achados clínicos na avaliação inicial.",
-"Prescrever apenas corticoide sistêmico contínuo como tratamento de escolha para o hirsutismo descrito nesse contexto.",
-"Iniciar reposição de estrogênio isolado sem progestágeno como tratamento inicial nessa paciente para este paciente.",
-"Aguardar dois anos antes de qualquer intervenção clínica ou investigação adicional dessa paciente para este paciente."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r2",
-"base": "International evidence-based guideline for the assessment and management of polycystic ovary syndrome, 2023; FEBRASGO, 2022",
-"coment": "A síndrome dos ovários policísticos é diagnóstico de exclusão pelos critérios de Rotterdam, exigindo dois de três: oligo-anovulação, hiperandrogenismo clínico ou laboratorial e ovários policísticos à ultrassonografia. O tratamento de base é mudança de estilo de vida, com perda de peso quando há sobrepeso, que melhora ciclos, hiperandrogenismo e resistência insulínica. O contraceptivo combinado regulariza ciclos e trata hirsutismo; metformina auxilia no perfil metabólico.",
-"porAlt": [
-"Correta: mudança de estilo de vida com contraceptivo combinado quando não houver contraindicação.",
-"A cirurgia ovariana não é conduta inicial e se reserva a situações muito específicas de infertilidade.",
-"O corticoide não é o tratamento do hirsutismo na síndrome dos ovários policísticos.",
-"O estrogênio isolado em mulher com útero expõe o endométrio a hiperplasia por proliferação sem oposição.",
-"Aguardar dois anos deixa sem tratamento sintomas e riscos metabólicos já identificados."
-]
-},
-{
-"q": "Gestante com sorologia positiva para toxoplasmose aguda no primeiro trimestre. Qual é a conduta imediata?",
-"alts": [
-"Iniciar espiramicina imediatamente e investigar sempre a infecção fetal com exame do líquido amniótico.",
-"Aguardar o terceiro trimestre para iniciar qualquer tratamento da infecção materna diagnosticada agora.",
-"Iniciar sulfadiazina com pirimetamina no primeiro trimestre como esquema de escolha para a gestante já.",
-"Indicar interrupção da gestação em todos os casos de toxoplasmose aguda no primeiro trimestre agora.",
-"Prescrever apenas orientação alimentar, sem qualquer tratamento medicamentoso ou investigação fetal."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r3",
-"base": "Ministério da Saúde — Protocolo de vigilância da toxoplasmose gestacional e congênita, 2022; FEBRASGO, 2023",
-"coment": "Diante de infecção aguda materna, inicia-se espiramicina imediatamente, pois ela reduz a transmissão vertical sem atravessar bem a placenta. Investiga-se a infecção fetal por reação em cadeia da polimerase no líquido amniótico após dezesseis a dezoito semanas. Se a infecção fetal é confirmada, troca-se para sulfadiazina, pirimetamina e ácido folínico, evitados no primeiro trimestre pela toxicidade, além do acompanhamento ultrassonográfico seriado.",
-"porAlt": [
-"Correta: espiramicina imediata com investigação da infecção fetal pelo líquido amniótico no momento adequado.",
-"Aguardar o terceiro trimestre permite a transmissão vertical que a espiramicina precoce reduz.",
-"Sulfadiazina com pirimetamina é evitada no primeiro trimestre pela toxicidade, entrando após confirmação fetal.",
-"A interrupção não é conduta indicada, pois o tratamento reduz transmissão e gravidade do acometimento.",
-"Orientação alimentar é prevenção primária e não substitui o tratamento da infecção já estabelecida."
-]
-},
-{
-"q": "Mulher de 40 anos com sangramento uterino aumentado e útero aumentado com miomas intramurais, com anemia. Qual é a conduta inicial?",
-"alts": [
-"Tratar a anemia e o sangramento clinicamente, avaliando sempre a indicação cirúrgica conforme os sintomas.",
-"Indicar histerectomia imediata em todas as pacientes com miomas intramurais e sangramento aumentado agora já.",
-"Prescrever apenas analgésico comum e reavaliar clinicamente após doze meses de acompanhamento neste caso.",
-"Iniciar quimioterapia sistêmica como tratamento de escolha para os miomas uterinos diagnosticados agora.",
-"Indicar radioterapia pélvica como primeira linha de tratamento para o sangramento uterino descrito agora."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r2",
-"base": "FEBRASGO — Miomatose uterina, 2023; ACOG Practice Bulletin nº 228, revisão 2023",
-"coment": "O tratamento da miomatose sintomática é individualizado conforme sintomas, tamanho, localização, idade e desejo reprodutivo. O manejo inicial do sangramento inclui correção da anemia com ferro, sistema intrauterino liberador de levonorgestrel, ácido tranexâmico, anticoncepcional combinado e análogos de GnRH para preparo cirúrgico. Opções cirúrgicas vão de miomectomia a histerectomia, e a embolização de artérias uterinas é alternativa em casos selecionados.",
-"porAlt": [
-"Correta: tratar anemia e sangramento clinicamente, avaliando indicação cirúrgica conforme sintomas.",
-"A histerectomia é uma das opções, mas não a conduta inicial universal para toda miomatose sintomática.",
-"Analgésico isolado por doze meses mantém o sangramento e agrava a anemia já instalada.",
-"Quimioterapia não trata mioma, que é tumor benigno de musculatura lisa do útero.",
-"Radioterapia pélvica não é tratamento de miomatose uterina benigna em mulher em idade fértil."
-]
-},
-{
-"q": "Gestante de 36 semanas com perda de líquido claro pela vagina e teste confirmando ruptura de membranas, sem sinais de infecção. Qual é a conduta?",
-"alts": [
-"Internar, avaliar bem-estar fetal e programar sempre a resolução conforme a idade gestacional e o protocolo.",
-"Manter conduta expectante domiciliar até quarenta e duas semanas independentemente do quadro clínico agora.",
-"Prescrever apenas antibiótico ambulatorial e liberar a paciente com retorno agendado em uma semana agora.",
-"Realizar cesariana de urgência em todos os casos de ruptura de membranas com trinta e seis semanas agora.",
-"Iniciar tocólise prolongada por quatro semanas para prolongar ao máximo a gestação nessa idade neste caso."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "emg",
-"comp": "tto",
-"nivel": "r2",
-"base": "FEBRASGO — Ruptura prematura de membranas, 2022; ACOG Practice Bulletin nº 217, revisão 2023",
-"coment": "Na ruptura prematura de membranas a partir de trinta e quatro semanas, a conduta habitual é a resolução da gestação, pois o risco infeccioso supera o benefício de prolongar. A paciente é internada, avaliam-se bem-estar fetal e sinais de corioamnionite, e indica-se indução do parto quando não há contraindicação, com via de parto definida por indicação obstétrica. Antes de trinta e quatro semanas, considera-se conduta expectante com corticoide e antibiótico.",
-"porAlt": [
-"Correta: internar, avaliar bem-estar fetal e programar a resolução conforme a idade gestacional.",
-"A conduta expectante domiciliar até quarenta e duas semanas expõe a corioamnionite e sepse neonatal.",
-"Antibiótico ambulatorial com alta não é conduta segura diante de membranas rotas nessa idade.",
-"A cesariana não é indicada apenas pela ruptura; a via de parto segue indicação obstétrica.",
-"A tocólise prolongada não é indicada com membranas rotas nessa idade gestacional."
-]
-},
-{
-"q": "Mulher de 55 anos com queixa de secura vaginal e dispareunia após a menopausa, sem sintomas vasomotores. Qual é a conduta?",
-"alts": [
-"Estrogênio de uso vaginal em dose baixa, associado sempre a lubrificantes e hidratantes locais conforme a necessidade.",
-"Terapia hormonal sistêmica em dose plena como primeira escolha para os sintomas genitais isolados nesse contexto.",
-"Prescrever apenas antibiótico vaginal prolongado como tratamento dos sintomas genitais descritos para este paciente.",
-"Indicar cirurgia vaginal corretiva como tratamento inicial para a secura e a dispareunia relatadas nesse contexto já.",
-"Orientar apenas abstinência sexual como principal medida terapêutica para a dispareunia descrita para este paciente."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r2",
-"base": "The Menopause Society position statement on genitourinary syndrome of menopause, 2020 com revisão 2024; FEBRASGO — Climatério, 2023",
-"coment": "A síndrome geniturinária da menopausa decorre do hipoestrogenismo local e cursa com secura, dispareunia, prurido, urgência urinária e infecções recorrentes. Quando os sintomas são apenas locais, o tratamento de escolha é estrogênio vaginal em dose baixa, com absorção sistêmica desprezível e boa segurança, associado a lubrificantes para o intercurso e hidratantes vaginais de uso regular. Terapia sistêmica se reserva a sintomas vasomotores associados.",
-"porAlt": [
-"Correta: estrogênio vaginal em dose baixa com lubrificantes e hidratantes conforme a necessidade.",
-"A terapia sistêmica é desproporcional quando os sintomas são exclusivamente genitais e locais.",
-"O antibiótico vaginal não trata a atrofia, que decorre da queda estrogênica e não de infecção.",
-"A cirurgia não é tratamento da atrofia vaginal, condição que responde ao estrogênio tópico.",
-"Orientar abstinência não trata a causa e agrava a atrofia pela ausência de estímulo local."
-]
-},
-{
-"q": "Gestante com diagnóstico de infecção urinária assintomática confirmada por urocultura. Qual é a conduta?",
-"alts": [
-"Tratar com antibiótico seguro na gestação e realizar sempre urocultura de controle após o tratamento.",
-"Não tratar, pois a bacteriúria assintomática não tem qualquer repercussão clínica durante a gestação.",
-"Tratar apenas se surgirem sintomas urinários, mantendo somente observação clínica até esse momento.",
-"Prescrever quinolona por sete dias como antibiótico de escolha para a gestante com bacteriúria agora.",
-"Indicar internação hospitalar para antibiótico endovenoso em todos os casos de bacteriúria assintomática."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "prev",
-"nivel": "r1",
-"base": "IDSA Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria, 2019 com revisão 2023; FEBRASGO — Pré-natal, 2022",
-"coment": "A bacteriúria assintomática na gestação é uma das poucas situações em que se trata sem sintomas, porque aumenta o risco de pielonefrite, parto prematuro e baixo peso ao nascer. O rastreio com urocultura é rotina no pré-natal. O tratamento usa antibiótico seguro na gestação — nitrofurantoína fora do termo, amoxicilina, cefalexina ou fosfomicina — conforme o antibiograma, seguido de urocultura de controle. Quinolonas são evitadas na gestação.",
-"porAlt": [
-"Correta: tratar com antibiótico seguro e realizar urocultura de controle após o fim do tratamento.",
-"Na gestação a bacteriúria assintomática aumenta pielonefrite, prematuridade e baixo peso ao nascer.",
-"Esperar sintomas permite a evolução para pielonefrite, complicação grave no período gestacional.",
-"As quinolonas são evitadas na gestação pelo potencial de toxicidade sobre cartilagem fetal.",
-"O tratamento é ambulatorial e oral, sem qualquer necessidade de internação na bacteriúria."
-]
-},
-{
-"q": "Mulher de 27 anos com dor pélvica cíclica intensa, dismenorreia progressiva e dispareunia profunda, com ultrassonografia normal. Qual é a hipótese principal?",
-"alts": [
-"Endometriose, cuja ausência de achados na ultrassonografia não exclui sempre o diagnóstico clínico.",
-"Cistite intersticial isolada, condição definida por dismenorreia progressiva e dispareunia profunda.",
-"Síndrome do intestino irritável, quadro caracterizado por dor cíclica menstrual com dispareunia profunda.",
-"Miomatose uterina submucosa, condição que cursa com ultrassonografia normal e dor pélvica cíclica.",
-"Doença inflamatória pélvica crônica, definida por dor cíclica com ultrassonografia pélvica normal."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "amb",
-"comp": "dx",
-"nivel": "r2",
-"base": "ESHRE guideline on endometriosis, 2022; FEBRASGO — Endometriose, 2023",
-"coment": "A endometriose deve ser suspeitada diante de dismenorreia progressiva, dor pélvica crônica, dispareunia profunda, dor à evacuação ou à micção cíclica e infertilidade. A ultrassonografia transvaginal normal não exclui a doença, sobretudo nas formas superficiais peritoneais, e a ressonância aumenta a sensibilidade para endometriose profunda. As diretrizes atuais recomendam iniciar tratamento empírico com base na suspeita clínica, sem exigir confirmação laparoscópica.",
-"porAlt": [
-"Correta: endometriose, cujo diagnóstico é clínico e não é excluído por ultrassonografia normal.",
-"A cistite intersticial cursa com dor vesical e urgência urinária, sem a ciclicidade menstrual descrita.",
-"A síndrome do intestino irritável cursa com alteração do hábito intestinal e alívio após evacuação.",
-"O mioma submucoso costuma ser visível à ultrassonografia e cursa principalmente com sangramento.",
-"A doença inflamatória pélvica crônica decorre de infecção prévia e não tem o padrão cíclico descrito."
-]
-},
-{
-"q": "Gestante em trabalho de parto apresenta desaceleração tardia repetitiva no cardiotocograma, com variabilidade reduzida. Qual é a conduta?",
-"alts": [
-"Medidas de reanimação intrauterina e avaliação para resolução, considerando sempre a via mais rápida e segura.",
-"Aguardar a evolução espontânea do trabalho de parto por mais quatro horas sem qualquer intervenção agora.",
-"Aumentar a infusão de ocitocina para acelerar o trabalho de parto diante do padrão descrito no traçado agora.",
-"Prescrever apenas analgesia adicional e manter a conduta expectante até a dilatação estar completa agora.",
-"Colocar a gestante em decúbito dorsal horizontal como principal medida diante do padrão observado neste caso."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "emg",
-"comp": "urg",
-"nivel": "r3",
-"base": "FEBRASGO — Assistência ao parto, 2022; ACOG Practice Bulletin nº 106 sobre monitorização fetal intraparto, revisão 2023",
-"coment": "Desacelerações tardias repetitivas com variabilidade reduzida caracterizam traçado categoria III ou padrão preocupante, indicando insuficiência uteroplacentária. As medidas de reanimação intrauterina incluem decúbito lateral esquerdo, suspensão da ocitocina, oxigênio conforme indicação, correção de hipotensão com volume e vasopressor e consideração de tocolítico. Sem melhora rápida, indica-se a resolução pela via mais rápida e segura, geralmente cesariana.",
-"porAlt": [
-"Correta: reanimação intrauterina imediata e resolução pela via mais rápida se não houver melhora.",
-"Aguardar quatro horas diante de traçado preocupante permite acidose fetal e dano neurológico.",
-"Aumentar a ocitocina agrava a hipóxia ao intensificar a contratilidade e reduzir a perfusão placentária.",
-"A analgesia não corrige a insuficiência uteroplacentária evidenciada pelo padrão cardiotocográfico.",
-"O decúbito dorsal horizontal comprime a veia cava e agrava a hipoperfusão uteroplacentária."
-]
-},
-{
-"q": "Mulher de 33 anos com atraso menstrual e beta-HCG quantitativo que não dobra em 48 horas, com ultrassonografia sem imagem definida. Qual é a conduta?",
-"alts": [
-"Seguimento seriado do beta-HCG com ultrassonografia, mantendo sempre alerta para gravidez ectópica.",
-"Prescrever metotrexato imediatamente a todas as pacientes com essa evolução do beta-HCG quantitativo.",
-"Indicar curetagem uterina de urgência antes de qualquer definição do sítio de implantação da gestação.",
-"Tranquilizar e liberar sem qualquer seguimento, pois o quadro descrito indica gestação tópica normal.",
-"Indicar laparotomia exploradora imediata em todas as pacientes com essa curva de beta-HCG quantitativo já."
-],
-"gab": 0,
-"tema": "go",
-"cenario": "emg",
-"comp": "dx",
-"nivel": "r3",
-"base": "ACOG Practice Bulletin nº 193 — Tubal ectopic pregnancy, revisão 2022; FEBRASGO, 2022",
-"coment": "Em gestação de localização indeterminada com paciente estável, o seguimento combina dosagens seriadas de beta-HCG a cada quarenta e oito horas e ultrassonografia transvaginal. Aumento inferior ao esperado sugere gestação inviável ou ectópica, mas não define o sítio: tratar com metotrexato sem definição pode interromper gestação tópica viável. A paciente é orientada sobre sinais de alarme, e instabilidade ou dor intensa indicam abordagem cirúrgica imediata.",
-"porAlt": [
-"Correta: seguimento seriado do beta-HCG com ultrassonografia, mantendo alerta para gravidez ectópica.",
-"Metotrexato sem definição do sítio pode interromper gestação tópica potencialmente viável.",
-"A curetagem sem definição arrisca interromper gestação tópica e não trata a gestação ectópica.",
-"Liberar sem seguimento arrisca rotura tubária com hemorragia grave e risco de vida da paciente.",
-"A laparotomia é indicada na instabilidade ou na rotura, e não nessa paciente estável em investigação."
-]
-},
-{
 "q": "Paciente de 80 anos com múltiplas comorbidades pergunta sobre alvo de hemoglobina glicada no diabetes. Qual é a orientação?",
 "alts": [
 "Alvo individualizado e menos rigoroso, priorizando sempre evitar hipoglicemia e preservar a funcionalidade.",
@@ -11349,6 +10557,246 @@ window.BANCO=[
 "O antipsicótico não estimula apetite e aumenta mortalidade quando usado de rotina no idoso.",
 "Suspender hidratação e alimentação não é conduta terapêutica e agrava o quadro do paciente.",
 "A nutrição parenteral tem indicações restritas e não é a primeira medida diante desse quadro."
+]
+},
+{
+"q": "Paciente com diabetes tipo 2 em uso de metformina apresenta hemoglobina glicada de 8,0% e doença cardiovascular aterosclerótica estabelecida. Qual é o próximo passo?",
+"alts": [
+"Acrescentar agonista de GLP-1 ou inibidor de SGLT2 com benefício cardiovascular sempre comprovado em ensaios.",
+"Acrescentar sulfonilureia em dose plena como próxima escolha nesse paciente com doença aterosclerótica agora.",
+"Iniciar insulina basal isolada como próximo passo obrigatório antes de qualquer outro antidiabético oral.",
+"Acrescentar glitazona em dose plena, escolha preferencial pelo benefício cardiovascular demonstrado agora.",
+"Manter apenas a metformina e reavaliar somente após doze meses de acompanhamento ambulatorial neste caso."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024; ESC Guidelines on diabetes and cardiovascular disease, 2023",
+"coment": "Em diabetes tipo 2 com doença cardiovascular aterosclerótica estabelecida, a escolha do segundo fármaco é guiada pelo benefício cardiovascular demonstrado, e não apenas pela redução da glicemia: agonistas de GLP-1 como liraglutida, semaglutida e dulaglutida reduzem eventos ateroscleróticos maiores, e inibidores de SGLT2 reduzem sobretudo internação por insuficiência cardíaca e progressão renal. A indicação independe do valor da hemoglobina glicada.",
+"porAlt": [
+"Correta: agonista de GLP-1 ou inibidor de SGLT2, escolhidos pelo benefício cardiovascular comprovado.",
+"A sulfonilureia reduz glicemia mas não demonstrou benefício cardiovascular e causa hipoglicemia.",
+"A insulina basal não é o próximo passo obrigatório e não oferece a proteção cardiovascular buscada.",
+"A glitazona causa retenção hídrica e pode agravar insuficiência cardíaca nesse perfil de paciente.",
+"Manter apenas metformina com glicada de 8,0 por cento deixa o paciente sem controle adequado."
+]
+},
+{
+"q": "Paciente com TSH de 7,5 mUI/L, T4 livre normal, assintomático, sem anticorpos e com 45 anos. Qual é a conduta?",
+"alts": [
+"Repetir os exames em dois a três meses antes de decidir sempre sobre a indicação de reposição hormonal.",
+"Iniciar levotiroxina imediatamente em dose plena para todos os pacientes com esse valor de TSH agora já.",
+"Iniciar metimazol em dose plena para reduzir o valor do hormônio tireoestimulante encontrado no exame.",
+"Indicar tireoidectomia total como conduta diante do valor de TSH descrito no enunciado do caso agora já.",
+"Ignorar completamente o resultado e não repetir qualquer exame de função tireoidiana no seguimento."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; European Thyroid Association guideline on subclinical hypothyroidism, 2013 com revisão 2022",
+"coment": "O hipotireoidismo subclínico é definido por TSH elevado com T4 livre normal, e o TSH pode normalizar espontaneamente em parte dos casos, o que justifica repetir os exames em dois a três meses antes de tratar. Com TSH abaixo de 10 mUI/L em adulto jovem assintomático e sem anticorpos, a conduta habitual é observar. A reposição é indicada com TSH acima de 10, sintomas relevantes, anticorpos positivos, gestação ou desejo de engravidar.",
+"porAlt": [
+"Correta: repetir os exames em dois a três meses antes de decidir sobre a reposição hormonal.",
+"Tratar todo TSH levemente elevado sem confirmação expõe a sobretratamento e tireotoxicose iatrogênica.",
+"O metimazol trata hipertireoidismo e agravaria o quadro de hipofunção sugerido pelo exame.",
+"A tireoidectomia não tem qualquer indicação diante de alteração isolada e leve do TSH sérico.",
+"Ignorar sem repetir perde a chance de identificar progressão para hipotireoidismo franco."
+]
+},
+{
+"q": "Paciente com obesidade grau II sem diabetes deseja tratamento medicamentoso para perda de peso. Qual é a conduta?",
+"alts": [
+"Associar mudança de estilo de vida a fármaco aprovado, mantendo sempre acompanhamento clínico regular.",
+"Prescrever anfetamínico sem registro sanitário, alternativa habitual para o tratamento da obesidade.",
+"Prescrever diurético em dose alta como estratégia farmacológica para a redução do peso corporal agora.",
+"Indicar apenas dieta de altíssima restrição sem qualquer acompanhamento clínico ou nutricional agora.",
+"Prescrever hormônio tireoidiano em paciente eutireóideo como estratégia para acelerar o metabolismo."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ABESO/SBEM — Diretrizes brasileiras de obesidade, 2022; Endocrine Society guideline on pharmacological management of obesity, revisão 2023",
+"coment": "O tratamento farmacológico da obesidade é indicado com índice de massa corporal a partir de 30 kg/m², ou a partir de 27 kg/m² com comorbidades, sempre associado a mudança de estilo de vida. As opções aprovadas incluem análogos de GLP-1 como liraglutida e semaglutida, tirzepatida, orlistate e sibutramina em pacientes selecionados sem doença cardiovascular. Diuréticos e hormônio tireoidiano em eutireóideos não são tratamentos e são potencialmente perigosos.",
+"porAlt": [
+"Correta: mudança de estilo de vida associada a fármaco aprovado, com acompanhamento clínico regular.",
+"Prescrever substância sem registro sanitário é conduta insegura e eticamente inaceitável.",
+"O diurético reduz água corporal e não gordura, com risco de distúrbio hidroeletrolítico e renal.",
+"A restrição extrema sem acompanhamento causa perda de massa magra e deficiências nutricionais.",
+"O hormônio tireoidiano em eutireóideo causa tireotoxicose iatrogênica, com arritmia e perda óssea."
+]
+},
+{
+"q": "Paciente com hipoglicemia recorrente em jejum, com insulina e peptídeo C elevados e ausência de sulfonilureia detectável. Qual é o diagnóstico?",
+"alts": [
+"Insulinoma, cuja investigação exige sempre localização por imagem após a confirmação bioquímica do quadro.",
+"Hipoglicemia factícia por insulina exógena, definida por peptídeo C elevado com insulina também elevada.",
+"Insuficiência adrenal primária, condição caracterizada por insulina e peptídeo C elevados no jejum agora.",
+"Hipoglicemia reativa pós-prandial, quadro definido por episódios em jejum com peptídeo C elevado agora.",
+"Deficiência de hormônio de crescimento, condição definida por insulina e peptídeo C elevados no jejum."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Endocrine Society Clinical Practice Guideline — Evaluation and Management of Adult Hypoglycemic Disorders, revisão 2022",
+"coment": "A hipoglicemia hiperinsulinêmica endógena é caracterizada por glicemia baixa com insulina, peptídeo C e pró-insulina elevados e rastreio negativo para hipoglicemiantes orais. O insulinoma é a principal causa em adultos sem diabetes, e a confirmação é feita pelo teste de jejum prolongado de setenta e duas horas, seguido de localização por tomografia, ressonância ou ultrassonografia endoscópica. Insulina exógena cursa com peptídeo C suprimido, pois não estimula a produção endógena.",
+"porAlt": [
+"Correta: insulinoma, com confirmação bioquímica seguida de localização por métodos de imagem.",
+"A insulina exógena suprime o peptídeo C, que estaria baixo e não elevado como neste caso.",
+"A insuficiência adrenal causa hipoglicemia com insulina baixa, e não com hiperinsulinismo endógeno.",
+"A hipoglicemia reativa ocorre no período pós-prandial, e não durante o jejum prolongado.",
+"A deficiência de hormônio de crescimento causa hipoglicemia sem o hiperinsulinismo descrito."
+]
+},
+{
+"q": "Paciente com hipercalcemia leve assintomática, PTH elevado e fósforo baixo. Qual é o diagnóstico e a conduta?",
+"alts": [
+"Hiperparatireoidismo primário, avaliando sempre critérios de indicação cirúrgica e seguimento clínico.",
+"Hipercalcemia da malignidade, definida por PTH elevado com fósforo sérico persistentemente baixo.",
+"Intoxicação por vitamina D, condição caracterizada por PTH elevado com hipofosfatemia associada agora.",
+"Hipoparatireoidismo primário, quadro definido por hipercalcemia com paratormônio francamente elevado.",
+"Doença renal crônica avançada, caracterizada por hipercalcemia com fósforo sérico persistentemente baixo."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Fifth International Workshop on the Management of Primary Hyperparathyroidism, 2022",
+"coment": "Hipercalcemia com paratormônio elevado ou inapropriadamente normal e hipofosfatemia define hiperparatireoidismo primário, causado na maioria das vezes por adenoma único de paratireoide. A paratireoidectomia é indicada em pacientes sintomáticos e, nos assintomáticos, por critérios como cálcio acima de 1 mg/dL do limite superior, idade abaixo de cinquenta anos, osteoporose ou fratura vertebral, filtração glomerular reduzida e nefrolitíase ou hipercalciúria.",
+"porAlt": [
+"Correta: hiperparatireoidismo primário, com avaliação dos critérios de indicação cirúrgica e seguimento.",
+"A hipercalcemia da malignidade cursa com paratormônio suprimido, e não elevado como no caso.",
+"A intoxicação por vitamina D cursa com paratormônio suprimido e fósforo tipicamente elevado.",
+"O hipoparatireoidismo cursa com hipocalcemia e paratormônio baixo, o oposto do descrito aqui.",
+"A doença renal crônica cursa com hiperfosfatemia e hiperparatireoidismo secundário associado."
+]
+},
+{
+"q": "Homem de 35 anos com ginecomastia, redução da libido e testosterona total baixa em duas dosagens matinais. Qual é o próximo passo?",
+"alts": [
+"Dosar LH, FSH e prolactina para diferenciar sempre a causa primária da secundária do hipogonadismo.",
+"Iniciar reposição de testosterona imediatamente sem qualquer investigação da causa do hipogonadismo.",
+"Indicar mastectomia bilateral imediata como conduta inicial diante da ginecomastia descrita no caso já.",
+"Solicitar apenas ultrassonografia de abdome total como exame inicial da investigação desse quadro.",
+"Prescrever apenas anabolizante de uso contínuo como tratamento inicial do quadro clínico descrito."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Endocrine Society Clinical Practice Guideline — Testosterone Therapy in Men With Hypogonadism, revisão 2023",
+"coment": "Confirmado o hipogonadismo com duas dosagens matinais de testosterona total baixas, o passo seguinte é dosar LH e FSH para diferenciar hipogonadismo primário, com gonadotrofinas elevadas, de secundário, com gonadotrofinas baixas ou inapropriadamente normais. No secundário, dosa-se prolactina e avalia-se o eixo hipofisário com ressonância de sela quando indicado. Tratar sem investigar pode mascarar prolactinoma, hemocromatose ou outras causas tratáveis.",
+"porAlt": [
+"Correta: dosar LH, FSH e prolactina para diferenciar hipogonadismo primário de secundário.",
+"Repor sem investigar pode mascarar causas tratáveis como prolactinoma ou hemocromatose.",
+"A cirurgia da ginecomastia é considerada após tratar a causa e persistindo o quadro por tempo prolongado.",
+"A ultrassonografia de abdome não avalia o eixo hipotálamo-hipófise-gonadal do paciente.",
+"Anabolizantes suprimem ainda mais o eixo e agravam o hipogonadismo a médio e longo prazo."
+]
+},
+{
+"q": "Paciente em uso de corticoide sistêmico há oito meses precisa suspender o fármaco. Qual é a conduta?",
+"alts": [
+"Reduzir a dose de forma gradual e programada, atento sempre a sinais de insuficiência adrenal secundária.",
+"Suspender abruptamente o corticoide na mesma consulta, sem qualquer esquema de redução programada agora.",
+"Substituir por outro corticoide de meia-vida mais longa e manter indefinidamente a mesma dose diária.",
+"Duplicar a dose antes da suspensão para reduzir o risco de recidiva da doença de base do paciente agora.",
+"Manter o corticoide indefinidamente, pois a suspensão é sempre impossível após oito meses de uso agora."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Endocrine Society/ESE guideline on glucocorticoid-induced adrenal insufficiency, 2024",
+"coment": "O uso de corticoide em dose suprafisiológica por mais de três a quatro semanas suprime o eixo hipotálamo-hipófise-adrenal, e a suspensão abrupta pode precipitar crise adrenal. A retirada é gradual, com reduções progressivas e mais lentas ao se aproximar da dose fisiológica, monitorando sintomas de insuficiência adrenal como fadiga, náusea, hipotensão e mialgia. Em situações de estresse durante a retirada, indica-se dose adicional de corticoide.",
+"porAlt": [
+"Correta: redução gradual e programada, atento a sinais de insuficiência adrenal secundária.",
+"A suspensão abrupta pode precipitar crise adrenal, com hipotensão grave e risco de morte.",
+"Trocar por corticoide de meia-vida longa mantida indefinidamente agrava a supressão do eixo.",
+"Duplicar a dose antes de suspender aprofunda a supressão e a toxicidade sem qualquer benefício.",
+"A suspensão é possível com esquema gradual adequado e monitorização clínica cuidadosa."
+]
+},
+{
+"q": "Paciente com poliúria de grande volume, urina hipotônica e sódio sérico elevado, sem hiperglicemia. Qual é a hipótese?",
+"alts": [
+"Diabetes insipidus, cuja diferenciação entre a forma central e a nefrogênica exige sempre teste específico.",
+"Diabetes mellitus descompensado, condição definida por urina hipotônica com glicemia sempre normal agora.",
+"Síndrome da secreção inapropriada de hormônio antidiurético, definida por hipernatremia e urina hipotônica.",
+"Insuficiência renal crônica terminal, caracterizada por poliúria hipotônica com hipernatremia acentuada.",
+"Polidipsia psicogênica primária, condição definida por hipernatremia com urina persistentemente hipotônica."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "Endocrine Society/ESE clinical practice guideline on diabetes insipidus (arginine vasopressin deficiency), 2023",
+"coment": "Poliúria hipotônica com hipernatremia sugere diabetes insipidus, hoje denominado deficiência ou resistência à arginina vasopressina. A diferenciação entre a forma central e a nefrogênica é feita pelo teste de restrição hídrica com administração de desmopressina, ou pela dosagem de copeptina estimulada, que aumentou a acurácia diagnóstica. A polidipsia primária cursa com sódio normal ou baixo, porque a perda de água é secundária à ingestão excessiva.",
+"porAlt": [
+"Correta: diabetes insipidus, com diferenciação entre forma central e nefrogênica por teste específico.",
+"O diabetes mellitus descompensado cursa com glicosúria e urina não hipotônica, além de hiperglicemia.",
+"A secreção inapropriada de antidiurético cursa com hiponatremia e urina concentrada, o oposto do caso.",
+"A doença renal terminal cursa com retenção de solutos e não com esse padrão de poliúria hipotônica.",
+"A polidipsia primária cursa com sódio normal ou baixo, e não com a hipernatremia descrita."
+]
+},
+{
+"q": "Paciente com nódulo tireoidiano e TSH suprimido, com T4 livre discretamente elevado. Qual exame deve ser solicitado?",
+"alts": [
+"Cintilografia de tireoide para identificar nódulo hiperfuncionante, evitando sempre punção desnecessária.",
+"Punção aspirativa por agulha fina imediata, indicada em todos os nódulos independentemente do TSH sérico.",
+"Ressonância magnética de pescoço como exame inicial para a caracterização funcional do nódulo descrito.",
+"Tomografia de tórax com contraste iodado como primeiro exame na avaliação do nódulo tireoidiano agora.",
+"Apenas dosagem de calcitonina, exame que substitui a avaliação funcional do nódulo neste contexto agora."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "American Thyroid Association Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, revisão 2023",
+"coment": "Diante de nódulo tireoidiano com TSH suprimido, a cintilografia é indicada para identificar nódulo hiperfuncionante — o nódulo quente —, que raramente é maligno e dispensa punção, sendo tratado com iodo radioativo ou cirurgia. Com TSH normal ou elevado, a avaliação segue por ultrassonografia com estratificação de risco e punção conforme tamanho e características. Contraste iodado deve ser evitado quando se cogita terapia com iodo radioativo.",
+"porAlt": [
+"Correta: cintilografia para identificar nódulo hiperfuncionante, que raramente é maligno e dispensa punção.",
+"A punção é dispensável no nódulo quente, e o TSH suprimido muda a sequência da investigação.",
+"A ressonância não avalia a função do nódulo nem substitui a cintilografia neste contexto clínico.",
+"O contraste iodado deve ser evitado quando se cogita terapia com iodo radioativo posteriormente.",
+"A calcitonina rastreia carcinoma medular, mas não substitui a avaliação funcional indicada aqui."
+]
+},
+{
+"q": "Paciente com hiperglicemia importante, desidratação grave, sódio corrigido elevado, osmolalidade de 340 mOsm/kg e ausência de cetose significativa. Qual é o diagnóstico?",
+"alts": [
+"Estado hiperglicêmico hiperosmolar, cujo tratamento exige sempre reposição volêmica antes da insulina.",
+"Cetoacidose diabética clássica, definida por hiperosmolalidade acentuada sem qualquer cetose significativa.",
+"Acidose láctica por metformina, condição caracterizada por hiperosmolalidade sem cetose e sódio elevado.",
+"Hipoglicemia grave prolongada, quadro definido por osmolalidade elevada com desidratação acentuada.",
+"Insuficiência adrenal aguda, condição definida por hiperglicemia com hiperosmolalidade e sódio elevado."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r2",
+"base": "ADA/EASD consensus report on hyperglycaemic crises in adults, 2024",
+"coment": "O estado hiperglicêmico hiperosmolar cursa com glicemia muito elevada, osmolalidade acima de 320 mOsm/kg, desidratação profunda e ausência de cetose significativa, sendo mais frequente em idosos com diabetes tipo 2 e desencadeado por infecção ou baixa ingesta hídrica. O déficit de água é maior que na cetoacidose, e a prioridade é a reposição volêmica vigorosa, seguida de insulina em infusão e reposição de potássio conforme os níveis séricos.",
+"porAlt": [
+"Correta: estado hiperglicêmico hiperosmolar, com reposição volêmica precedendo a infusão de insulina.",
+"A cetoacidose cursa com cetose e acidose metabólica, ausentes na descrição deste caso clínico.",
+"A acidose láctica cursa com acidose metabólica de ânion gap elevado, sem a hiperglicemia extrema.",
+"O quadro descrito é de hiperglicemia grave, e não de hipoglicemia com rebaixamento de consciência.",
+"A insuficiência adrenal cursa com hipoglicemia e hiponatremia, exatamente o oposto do descrito."
 ]
 }
 ];

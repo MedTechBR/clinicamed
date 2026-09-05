@@ -12,18 +12,18 @@
    `sub`    = subtemas literais do edital, usados no filtro fino e no índice das leituras. */
 
 window.TAXONOMIA=[
-{"id":"cardio","nome":"Cardiologia","matriz":"Cardiologia","peso":14,"sub":[
+{"id":"cardio","nome":"Cardiologia","matriz":"Cardiologia","peso":15,"sub":[
  "Parada cardiorrespiratória","Síndrome coronária aguda","Síndrome coronária crônica",
  "Cardio-oncologia","Cardiomiopatias","Doença de Chagas","Fibrilação atrial",
  "Hipertensão arterial","Insuficiência cardíaca","Dislipidemias","Prevenção da aterosclerose",
  "Checkup e avaliação perioperatória","Miocardite e pericardite","Valvopatias"]},
 
-{"id":"emergencias","nome":"Emergências e terapia intensiva","matriz":"Clínica Geral","peso":12,"sub":[
+{"id":"emergencias","nome":"Emergências e terapia intensiva","matriz":"Clínica Geral","peso":13,"sub":[
  "Insuficiência respiratória aguda","Sepse","Abordagem inicial do paciente instável",
  "Paciente politraumatizado","Emergências em nefrologia","Emergências em neurologia",
  "Emergências em cardiologia"]},
 
-{"id":"infecto","nome":"Infectologia","matriz":"Infectologia","peso":10,"sub":[
+{"id":"infecto","nome":"Infectologia","matriz":"Infectologia","peso":11,"sub":[
  "Infecções bacterianas","Infecções virais","Infecções fúngicas","Infecções parasitárias",
  "Uso racional de antimicrobianos","Infecções relacionadas a dispositivos",
  "Controle de infecção hospitalar","Vacinas e imunizações","Infecções em populações especiais"]},
@@ -43,16 +43,16 @@ window.TAXONOMIA=[
  "Fisiopatologia e classificação da obesidade","Tirzepatida e incretinomiméticos",
  "Síndrome metabólica (critérios IDF)","Tireoide","Emergências endócrinas"]},
 
-{"id":"nefro","nome":"Nefrologia e distúrbios hidroeletrolíticos","matriz":"Nefrologia","peso":8,"sub":[
+{"id":"nefro","nome":"Nefrologia e distúrbios hidroeletrolíticos","matriz":"Nefrologia","peso":9,"sub":[
  "Doença renal crônica","Glomerulopatias","Nefropatia diabética",
  "Distúrbios ácido-básicos","Distúrbios hidroeletrolíticos","Hipertensão secundária",
  "Injúria renal aguda"]},
 
-{"id":"neuro","nome":"Neurologia","matriz":"Neurologia","peso":8,"sub":[
+{"id":"neuro","nome":"Neurologia","matriz":"Neurologia","peso":9,"sub":[
  "Epilepsia","Distúrbios do sono nas demências","Punção lombar",
  "AVC e diagnóstico diferencial","Síndromes demenciais","Cefaleias","Coma de origem central"]},
 
-{"id":"sus","nome":"SUS, ética e clínica geral","matriz":"Clínica Geral","peso":7,"sub":[
+{"id":"sus","nome":"SUS, ética e clínica geral","matriz":"Clínica Geral","peso":8,"sub":[
  "Política Nacional de Saúde","Epidemiologia e vigilância em saúde","Saúde da família e APS",
  "Atenção às condições crônicas","Saúde da mulher e da criança","Doenças infecciosas no SUS",
  "Atenção à urgência e emergência","Medicamentos e protocolos clínicos",
@@ -81,21 +81,7 @@ window.TAXONOMIA=[
  "Manifestações dermatológicas do paciente grave"]},
 
 {"id":"psiq","nome":"Psiquiatria","matriz":"Clínica Geral","peso":3,"sub":[
- "Esquizofrenia","Transtornos do humor","Transtornos de ansiedade","Abstinência alcoólica"]},
-
-{"id":"oftalmo","nome":"Oftalmologia para o clínico","matriz":"Clínica Geral","peso":2,"sub":[
- "Glaucoma agudo de ângulo fechado","Celulite orbitária vs. pré-septal",
- "Corpo estranho e trauma ocular","Perda visual súbita","Retinopatia diabética",
- "Sinais retinianos da hipertensão","Olho na sífilis, HIV e toxoplasmose",
- "Manifestações oculares das autoimunes"]},
-
-{"id":"orl","nome":"Otorrinolaringologia para o clínico","matriz":"Clínica Geral","peso":2,"sub":[
- "Otite média e externa","Rinossinusite aguda e crônica","Amigdalite e abscesso peritonsilar",
- "Epistaxe","Corpo estranho em vias aéreas superiores","Apneia obstrutiva do sono",
- "Vertigem e VPPB","Disfonia","Perda auditiva"]},
-
-{"id":"go","nome":"Ginecologia e obstetrícia para o clínico","matriz":"Clínica Geral","peso":2,"sub":[
- "Prenhez ectópica","Doença inflamatória pélvica","Sangramento uterino anormal"]}
+ "Esquizofrenia","Transtornos do humor","Transtornos de ansiedade","Abstinência alcoólica"]}
 ];
 
 /* Matriz por Cenário (item 9.6) — onde o paciente está muda a conduta certa. */
