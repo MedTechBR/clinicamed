@@ -14038,5 +14038,485 @@ window.BANCO=[
 "O transplante nessa indicação segue critérios rigorosos e não é indicado indiscriminadamente.",
 "Hepatoprotetores não têm eficácia demonstrada e não reduzem a mortalidade nesse quadro grave."
 ]
+},
+{
+"q": "Paciente com anemia e insuficiência renal crônica em hemodiálise, com ferro adequado. Qual é a conduta?",
+"alts": [
+"Iniciar agente estimulador da eritropoese com alvo restrito, evitando sempre correção completa da hemoglobina.",
+"Transfundir concentrado de hemácias mensalmente como estratégia de manutenção da hemoglobina no paciente.",
+"Normalizar completamente a hemoglobina acima de treze gramas por decilitro em todos os pacientes dialíticos.",
+"Iniciar apenas ácido fólico isolado como tratamento definitivo da anemia da doença renal crônica dialítica.",
+"Não tratar a anemia, pois ela não tem qualquer repercussão clínica em pacientes em hemodiálise crônica agora."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "KDIGO Clinical Practice Guideline for Anemia in CKD, revisão 2023; ASH/ASCO guidance on ESA use, 2019",
+"coment": "A anemia da doença renal crônica decorre principalmente da produção insuficiente de eritropoetina. Após garantir estoques adequados de ferro, indica-se agente estimulador da eritropoese com alvo restrito de hemoglobina, tipicamente entre 10 e 11,5 g/dL: ensaios clínicos mostraram que normalizar a hemoglobina aumenta eventos cardiovasculares, acidente vascular cerebral e trombose de acesso. Transfusões repetidas favorecem aloimunização e prejudicam futuro transplante.",
+"porAlt": [
+"Correta: agente estimulador da eritropoese com alvo restrito, evitando normalizar a hemoglobina.",
+"A transfusão mensal favorece aloimunização e sobrecarga de ferro, prejudicando futuro transplante.",
+"Normalizar a hemoglobina aumentou eventos cardiovasculares e trombóticos nos ensaios clínicos.",
+"O ácido fólico isolado não corrige a deficiência de eritropoetina que causa essa anemia.",
+"A anemia nessa população associa-se a pior qualidade de vida e a desfechos cardiovasculares."
+]
+},
+{
+"q": "Paciente jovem com trombose venosa profunda não provocada e história familiar de trombose. Qual é a conduta quanto à trombofilia?",
+"alts": [
+"Avaliar trombofilia apenas se o resultado mudar a conduta, evitando sempre a coleta durante o evento agudo.",
+"Solicitar painel completo de trombofilia imediatamente durante o evento agudo em todos esses pacientes.",
+"Nunca investigar trombofilia, pois o resultado jamais altera a conduta em qualquer situação clínica agora.",
+"Investigar trombofilia apenas depois de dez anos do evento trombótico inicial apresentado pelo paciente.",
+"Iniciar anticoagulação apenas se o painel de trombofilia resultar positivo em pelo menos um marcador agora."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ASH guidelines for management of venous thromboembolism, 2020 com revisão 2023; ISTH guidance on thrombophilia testing, 2023",
+"coment": "A pesquisa de trombofilia só se justifica quando o resultado muda a conduta, como na decisão sobre anticoagulação estendida em casos limítrofes, no aconselhamento de familiares e na síndrome antifosfolípide, que altera a escolha do anticoagulante. A coleta durante o evento agudo e em vigência de anticoagulação produz resultados falsamente alterados: proteínas C e S e antitrombina caem no evento e com anticoagulantes, exigindo coleta postergada.",
+"porAlt": [
+"Correta: investigar apenas se o resultado mudar a conduta, e nunca durante o evento agudo.",
+"A coleta na fase aguda e sob anticoagulação produz resultados falsamente alterados e inúteis.",
+"Há situações em que o resultado muda a conduta, como na síndrome antifosfolípide identificada.",
+"Aguardar dez anos não faz sentido; o momento correto é após o período agudo e sob condições adequadas.",
+"A anticoagulação do evento agudo independe totalmente do resultado do painel de trombofilia."
+]
+},
+{
+"q": "Paciente com anemia normocítica, ferritina elevada, saturação de transferrina baixa e doença inflamatória crônica. Qual é o diagnóstico?",
+"alts": [
+"Anemia de doença crônica, cujo tratamento é sempre o da doença de base que mantém a inflamação agora.",
+"Anemia ferropriva clássica, definida por ferritina elevada com saturação de transferrina reduzida.",
+"Talassemia menor, condição caracterizada por anemia normocítica com ferritina elevada e saturação baixa.",
+"Anemia megaloblástica por deficiência de vitamina B12, definida por esse perfil do metabolismo do ferro.",
+"Anemia hemolítica autoimune, quadro definido por ferritina elevada com saturação de transferrina reduzida."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "BSH guidelines on the laboratory diagnosis of functional iron deficiency, revisão 2023; NEJM review on anemia of inflammation, 2022",
+"coment": "Na anemia de doença crônica, ou anemia da inflamação, a hepcidina elevada bloqueia a liberação de ferro dos estoques e a absorção intestinal, resultando em ferritina normal ou elevada — porque é proteína de fase aguda e os estoques estão preservados — com saturação de transferrina baixa e capacidade total de ligação reduzida. A anemia é tipicamente normocítica e leve a moderada, e o tratamento é o da doença de base que mantém a inflamação.",
+"porAlt": [
+"Correta: anemia de doença crônica, com ferritina elevada e saturação baixa por bloqueio do ferro.",
+"A ferropenia cursa com ferritina baixa, o oposto do perfil descrito no enunciado deste caso.",
+"A talassemia cursa com microcitose acentuada e ferritina normal, sem o padrão inflamatório descrito.",
+"A deficiência de vitamina B12 cursa com macrocitose e não altera esse perfil do metabolismo do ferro.",
+"A hemólise cursa com reticulocitose, LDH elevada e haptoglobina baixa, ausentes na descrição."
+]
+},
+{
+"q": "Paciente em tratamento com varfarina precisa de procedimento cirúrgico eletivo de alto risco de sangramento. Qual é a conduta?",
+"alts": [
+"Suspender a varfarina com antecedência e avaliar sempre a necessidade de ponte conforme o risco tromboembólico.",
+"Manter a varfarina em dose plena durante todo o período perioperatório em todos os procedimentos cirúrgicos.",
+"Suspender a varfarina no dia da cirurgia sem qualquer antecedência ou avaliação do risco tromboembólico agora.",
+"Realizar ponte com heparina em todos os pacientes que usam varfarina, independentemente do risco embólico.",
+"Substituir definitivamente a varfarina por antiagregante plaquetário antes de qualquer procedimento eletivo."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "ACCP/CHEST Guideline on perioperative management of antithrombotic therapy, 2022; ASH guidelines, 2022",
+"coment": "Em cirurgia eletiva de alto risco de sangramento, a varfarina é suspensa cerca de cinco dias antes, com verificação do INR na véspera. A ponte com heparina é reservada a pacientes de alto risco tromboembólico — prótese mecânica mitral, fibrilação atrial com escore muito elevado ou evento tromboembólico recente —, porque ensaios mostraram que a ponte indiscriminada aumenta sangramento sem reduzir eventos embólicos na maioria dos pacientes.",
+"porAlt": [
+"Correta: suspender com antecedência e indicar ponte apenas conforme o risco tromboembólico do paciente.",
+"Manter a varfarina em cirurgia de alto risco de sangramento expõe a hemorragia perioperatória grave.",
+"Suspender no dia não permite a normalização do INR, que leva vários dias para ocorrer.",
+"A ponte indiscriminada aumenta sangramento sem reduzir eventos embólicos na maioria dos casos.",
+"O antiagregante não substitui a anticoagulação nas indicações em que ela é necessária."
+]
+},
+{
+"q": "Paciente com síndrome mielodisplásica de baixo risco, assintomático, com anemia leve. Qual é a conduta?",
+"alts": [
+"Acompanhamento com suporte conforme a necessidade, reservando sempre terapia específica à progressão ou aos sintomas.",
+"Iniciar quimioterapia intensiva imediatamente em todos os pacientes com síndrome mielodisplásica de baixo risco.",
+"Indicar transplante alogênico de medula óssea imediato para todos os pacientes com essa condição hematológica agora.",
+"Transfundir concentrado de hemácias semanalmente de rotina mesmo em pacientes assintomáticos e estáveis neste caso.",
+"Iniciar corticoide sistêmico contínuo em dose alta como tratamento padrão da síndrome mielodisplásica de baixo risco."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "NCCN Myelodysplastic Syndromes, 2024; ELN recommendations for the management of MDS, revisão 2023",
+"coment": "As síndromes mielodisplásicas são estratificadas por escores prognósticos que consideram citopenias, blastos e citogenética. Nas de baixo risco, assintomáticas, a conduta é observação com suporte transfusional conforme sintomas, agentes estimuladores da eritropoese na anemia sintomática com eritropoetina baixa, e opções específicas como luspatercepte em subgrupos. Quimioterapia intensiva e transplante alogênico ficam para doença de alto risco ou progressão.",
+"porAlt": [
+"Correta: acompanhamento com suporte conforme a necessidade, reservando terapia específica à progressão.",
+"A quimioterapia intensiva é reservada à doença de alto risco e traz toxicidade elevada e evitável.",
+"O transplante alogênico se indica na doença de alto risco em pacientes elegíveis, e não em todos.",
+"A transfusão de rotina em assintomático causa sobrecarga de ferro e aloimunização evitáveis.",
+"O corticoide não é tratamento padrão da síndrome mielodisplásica e não modifica sua evolução."
+]
+},
+{
+"q": "Paciente com hemocromatose hereditária confirmada e ferritina muito elevada. Qual é o tratamento de escolha?",
+"alts": [
+"Flebotomias terapêuticas seriadas, mantendo sempre alvo de ferritina definido e monitorização periódica dos exames.",
+"Suplementação oral de ferro para corrigir a alteração do metabolismo do ferro identificada no paciente neste caso.",
+"Transfusão de concentrado de hemácias como tratamento de escolha para a hemocromatose hereditária nesse contexto.",
+"Corticoide sistêmico contínuo em dose alta como tratamento padrão da sobrecarga de ferro hereditária neste caso.",
+"Apenas dieta com restrição total de carne vermelha como tratamento definitivo da hemocromatose hereditária agora."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "EASL Clinical Practice Guidelines on haemochromatosis, 2022; AASLD practice guidance, revisão 2023",
+"coment": "O tratamento da hemocromatose hereditária é a flebotomia terapêutica, inicialmente semanal, com alvo de ferritina em torno de cinquenta nanogramas por mililitro na fase de indução e manutenção posterior com flebotomias espaçadas. O tratamento previne cirrose, diabetes, cardiomiopatia e artropatia quando iniciado antes do dano orgânico. Quelantes de ferro se reservam a quem não tolera flebotomia, como pacientes com anemia significativa ou cardiopatia grave.",
+"porAlt": [
+"Correta: flebotomias terapêuticas seriadas com alvo de ferritina definido e monitorização periódica.",
+"A suplementação de ferro agrava diretamente a sobrecarga que caracteriza a doença do paciente.",
+"A transfusão adiciona ferro ao organismo e é o oposto do tratamento indicado na hemocromatose.",
+"O corticoide não tem qualquer papel no tratamento da sobrecarga de ferro hereditária.",
+"A dieta isolada tem impacto muito limitado sobre a sobrecarga de ferro já estabelecida."
+]
+},
+{
+"q": "Paciente em uso de anticoagulante oral direto apresenta sangramento grave com instabilidade. Qual é a conduta?",
+"alts": [
+"Suspender o fármaco e usar agente de reversão específico ou complexo protrombínico, com suporte sempre agressivo.",
+"Administrar vitamina K endovenosa como agente de reversão específico do anticoagulante oral direto neste caso.",
+"Manter o anticoagulante e apenas transfundir hemácias, sem qualquer tentativa de reversão do efeito neste caso.",
+"Administrar protamina endovenosa como agente de reversão de escolha do anticoagulante oral direto neste caso.",
+"Aguardar a eliminação espontânea do fármaco sem qualquer intervenção no paciente com sangramento grave agora."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "ISTH guidance on reversal of direct oral anticoagulants, revisão 2023; ACC Expert Consensus Decision Pathway, 2020",
+"coment": "No sangramento grave por anticoagulante oral direto, suspende-se o fármaco e oferece-se suporte agressivo com controle local, reposição volêmica e hemocomponentes. Existem agentes específicos: idarucizumabe para dabigatrana e andexanet alfa para inibidores do fator Xa. Na indisponibilidade, usa-se complexo protrombínico. Vitamina K reverte antagonistas da vitamina K e protamina reverte heparina, nenhuma delas com efeito sobre os anticoagulantes diretos.",
+"porAlt": [
+"Correta: suspender o fármaco e usar agente específico ou complexo protrombínico, com suporte agressivo.",
+"A vitamina K reverte antagonistas da vitamina K e não tem efeito sobre os anticoagulantes diretos.",
+"Manter o anticoagulante em sangramento grave perpetua a hemorragia e o risco de morte.",
+"A protamina reverte heparina e não tem qualquer efeito sobre os anticoagulantes orais diretos.",
+"Aguardar a eliminação em sangramento grave com instabilidade é conduta de risco inaceitável."
+]
+},
+{
+"q": "Paciente com linfonodomegalia cervical indolor, endurecida, com sudorese noturna e perda de peso. Qual é a conduta?",
+"alts": [
+"Biópsia excisional do linfonodo para avaliação histológica completa, evitando sempre a punção aspirativa isolada.",
+"Prescrever antibiótico por dez dias e reavaliar apenas se a linfonodomegalia persistir após o tratamento agora.",
+"Observar por doze meses antes de qualquer investigação da linfonodomegalia cervical descrita no caso neste caso.",
+"Realizar apenas punção aspirativa por agulha fina, exame suficiente para o diagnóstico e a classificação do linfoma.",
+"Prescrever apenas corticoide sistêmico em dose alta antes de qualquer investigação histológica do linfonodo."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "NCCN Hodgkin Lymphoma e B-Cell Lymphomas, 2024; BSH guideline on investigation of lymphadenopathy, revisão 2023",
+"coment": "Linfonodomegalia indolor, endurecida, persistente e acompanhada de sintomas B — febre, sudorese noturna e perda de peso — exige biópsia excisional, que preserva a arquitetura do linfonodo e permite classificação histológica e imuno-histoquímica, essencial para definir o subtipo e o tratamento. A punção aspirativa fornece células sem arquitetura e é insuficiente para o diagnóstico inicial de linfoma. Corticoide antes da biópsia pode inviabilizar o diagnóstico histológico.",
+"porAlt": [
+"Correta: biópsia excisional preserva a arquitetura e permite a classificação histológica completa.",
+"Antibiótico empírico atrasa o diagnóstico diante de linfonodo com características claramente suspeitas.",
+"Observar por doze meses permite progressão de uma neoplasia potencialmente curável no início.",
+"A punção aspirativa não preserva a arquitetura e é insuficiente para classificar o linfoma.",
+"O corticoide antes da biópsia pode lisar as células e inviabilizar o diagnóstico histológico."
+]
+},
+{
+"q": "Paciente com trombocitose de 700.000/mm³ persistente, sem causa reativa evidente. Qual é a conduta?",
+"alts": [
+"Investigar neoplasia mieloproliferativa com pesquisa molecular, avaliando sempre o risco trombótico do paciente.",
+"Iniciar transfusão de plaquetas para corrigir a contagem plaquetária elevada identificada no hemograma agora.",
+"Ignorar completamente o achado, pois a trombocitose nunca tem significado clínico relevante no adulto agora.",
+"Iniciar anticoagulação plena imediata em todos os pacientes com trombocitose persistente identificada agora.",
+"Indicar esplenectomia imediata em todos os pacientes com trombocitose persistente sem causa reativa neste caso já."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "OMS — classificação de neoplasias mieloides, 5ª edição, 2022; NCCN Myeloproliferative Neoplasms, 2024",
+"coment": "Trombocitose persistente sem causa reativa — ferropenia, inflamação, infecção, neoplasia, asplenia — sugere neoplasia mieloproliferativa, sobretudo trombocitemia essencial. A investigação inclui pesquisa de JAK2, CALR e MPL e, quando necessário, biópsia de medula óssea. O tratamento é definido pelo risco trombótico: ácido acetilsalicílico em dose baixa na maioria e citorredução com hidroxiureia nos pacientes de alto risco, com idade avançada ou trombose prévia.",
+"porAlt": [
+"Correta: investigar neoplasia mieloproliferativa com pesquisa molecular e estratificar o risco trombótico.",
+"A transfusão de plaquetas agravaria a contagem já elevada e não tem qualquer indicação aqui.",
+"A trombocitose persistente sem causa reativa exige investigação pelo risco trombótico associado.",
+"A anticoagulação plena não é indicada de rotina; a antiagregação é a conduta habitual inicial.",
+"A esplenectomia não trata trombocitemia essencial e pode inclusive elevar ainda mais as plaquetas."
+]
+},
+{
+"q": "Paciente recebe transfusão e apresenta dispneia e congestão pulmonar com hipertensão nas primeiras horas. Qual é a hipótese?",
+"alts": [
+"Sobrecarga circulatória associada à transfusão, cujo tratamento inclui sempre diurético e redução da velocidade.",
+"Reação hemolítica aguda por incompatibilidade ABO, definida por congestão pulmonar com hipertensão arterial.",
+"Reação alérgica leve por proteínas plasmáticas, quadro caracterizado por congestão pulmonar e hipertensão agora.",
+"Contaminação bacteriana da bolsa transfundida, definida por congestão pulmonar com pressão arterial elevada.",
+"Reação febril não hemolítica simples, condição caracterizada por congestão pulmonar e hipertensão arterial."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "AABB Standards, 2024; Ministério da Saúde — Guia para uso de hemocomponentes, 2021; ISBT definitions of transfusion reactions",
+"coment": "A sobrecarga circulatória associada à transfusão cursa com dispneia, congestão pulmonar, hipertensão arterial e elevação do peptídeo natriurético, tipicamente nas primeiras seis horas, sendo mais comum em idosos, cardiopatas, nefropatas e com infusão rápida ou de grande volume. O tratamento é interromper ou reduzir a infusão, oxigênio e diurético. A lesão pulmonar aguda relacionada à transfusão, em contraste, cursa com hipotensão e não responde a diurético.",
+"porAlt": [
+"Correta: sobrecarga circulatória associada à transfusão, tratada com diurético e redução da velocidade.",
+"A reação hemolítica aguda cursa com febre, dor lombar, hipotensão e hemoglobinúria, não congestão.",
+"A reação alérgica leve cursa com urticária e prurido, sem congestão pulmonar nem hipertensão.",
+"A contaminação bacteriana cursa com febre alta, calafrios e choque, e não com esse padrão congestivo.",
+"A reação febril não hemolítica cursa apenas com febre e calafrios, sem congestão pulmonar."
+]
+},
+{
+"q": "Paciente com artrite reumatoide em remissão sustentada há doze meses com metotrexato. Qual é a conduta?",
+"alts": [
+"Considerar redução gradual da dose com monitorização, evitando sempre a suspensão abrupta do tratamento.",
+"Suspender abruptamente todo o tratamento assim que a remissão for documentada em uma única consulta.",
+"Aumentar a dose do metotrexato apesar da remissão sustentada documentada ao longo dos doze meses agora.",
+"Substituir o metotrexato por corticoide sistêmico contínuo como estratégia de manutenção da remissão.",
+"Manter indefinidamente a mesma dose sem qualquer avaliação de redução mesmo com remissão sustentada."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "EULAR recommendations for the management of rheumatoid arthritis, 2022; ACR guideline, 2021",
+"coment": "Em remissão sustentada por pelo menos seis a doze meses, as diretrizes permitem considerar a redução gradual da terapia, começando pelo corticoide, depois pelo biológico e por último pela droga modificadora sintética, sempre com monitorização estreita da atividade. A suspensão completa associa-se a taxa elevada de recidiva, e por isso a redução é preferida à retirada, com retorno rápido à dose plena diante de qualquer sinal de reativação.",
+"porAlt": [
+"Correta: reduzir gradualmente com monitorização, evitando a suspensão abrupta do tratamento.",
+"A suspensão abrupta associa-se a alta taxa de recidiva e a nova progressão do dano articular.",
+"Aumentar a dose em remissão sustentada adiciona toxicidade sem qualquer benefício adicional.",
+"O corticoide contínuo não substitui a droga modificadora e traz toxicidade acumulada relevante.",
+"Nunca avaliar a redução mantém exposição desnecessária em paciente com remissão sustentada."
+]
+},
+{
+"q": "Paciente com gota e crises recorrentes apresenta ácido úrico de 9,5 mg/dL fora da crise. Qual é a conduta?",
+"alts": [
+"Iniciar hipouricemiante com meta de urato definida, associando sempre profilaxia de crise nos primeiros meses.",
+"Iniciar hipouricemiante sem qualquer profilaxia, pois a redução do urato nunca desencadeia novas crises agora.",
+"Prescrever apenas anti-inflamatório nas crises, sem qualquer tratamento hipouricemiante de manutenção agora.",
+"Suspender o hipouricemiante sempre que ocorrer uma nova crise de gota durante o tratamento de manutenção.",
+"Prescrever apenas dieta com restrição total de purinas como tratamento definitivo da gota recorrente agora."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ACR Guideline for the Management of Gout, 2020; EULAR recommendations, revisão 2020",
+"coment": "Crises recorrentes, tofos, artropatia gotosa ou nefrolitíase por urato indicam tratamento hipouricemiante contínuo, sendo o alopurinol a primeira linha, titulado até atingir urato abaixo de 6 mg/dL, ou abaixo de 5 mg/dL na doença tofosa. A redução do urato mobiliza cristais e pode desencadear crises, por isso associa-se profilaxia com colchicina por três a seis meses. O hipouricemiante não deve ser suspenso durante uma crise em quem já o usa.",
+"porAlt": [
+"Correta: hipouricemiante com meta de urato definida e profilaxia com colchicina nos primeiros meses.",
+"A redução do urato mobiliza cristais e desencadeia crises, o que justifica a profilaxia inicial.",
+"Tratar apenas as crises não impede a deposição progressiva de cristais e o dano articular.",
+"Suspender o hipouricemiante durante a crise prolonga o episódio e desorganiza o tratamento.",
+"A dieta isolada reduz pouco o urato e é insuficiente diante desse nível e dessa frequência de crises."
+]
+},
+{
+"q": "Paciente com lúpus e anticorpo antifosfolípide positivo, sem trombose prévia, deseja saber sobre prevenção. Qual é a conduta?",
+"alts": [
+"Hidroxicloroquina e controle de fatores de risco, considerando sempre antiagregante conforme o perfil de anticorpos.",
+"Anticoagulação plena para todos os pacientes com anticorpo antifosfolípide positivo, mesmo sem trombose prévia.",
+"Nenhuma medida preventiva, pois o anticorpo positivo sem trombose não confere qualquer risco adicional neste caso.",
+"Corticoide sistêmico contínuo em dose alta como estratégia de profilaxia primária de trombose nesses pacientes.",
+"Suspender a hidroxicloroquina em todos os pacientes com anticorpo antifosfolípide positivo e lúpus associado agora."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "EULAR recommendations for the management of antiphospholipid syndrome in adults, 2019 com revisão 2023",
+"coment": "Na profilaxia primária de portadores de anticorpo antifosfolípide sem trombose, recomenda-se hidroxicloroquina em pacientes com lúpus, pelo efeito antitrombótico e imunomodulador, controle rigoroso de fatores de risco cardiovascular e consideração de ácido acetilsalicílico em dose baixa, sobretudo no perfil de alto risco com tripla positividade. Anticoagulação plena não é indicada sem evento trombótico, pelo risco hemorrágico desproporcional ao benefício.",
+"porAlt": [
+"Correta: hidroxicloroquina e controle de fatores de risco, com antiagregante conforme o perfil sorológico.",
+"A anticoagulação plena sem evento trombótico expõe a hemorragia sem benefício proporcional.",
+"O anticorpo positivo confere risco trombótico aumentado e justifica medidas preventivas dirigidas.",
+"O corticoide não é estratégia de profilaxia primária de trombose e traz toxicidade relevante.",
+"A hidroxicloroquina é justamente recomendada nesses pacientes pelo efeito protetor demonstrado."
+]
+},
+{
+"q": "Paciente com miopatia inflamatória apresenta fraqueza proximal, CPK elevada e lesões cutâneas em pálpebras e articulações das mãos. Qual é a conduta adicional obrigatória?",
+"alts": [
+"Rastrear neoplasia oculta, pois a dermatomiosite do adulto associa-se sempre a risco aumentado de câncer.",
+"Não realizar qualquer rastreio oncológico, pois a dermatomiosite não guarda relação com neoplasia no adulto.",
+"Solicitar apenas radiografia de mãos como avaliação adicional obrigatória no paciente com dermatomiosite.",
+"Indicar biópsia muscular repetida a cada três meses como única avaliação adicional necessária no seguimento.",
+"Solicitar apenas densitometria óssea como avaliação adicional obrigatória em pacientes com dermatomiosite."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "EULAR/ACR classification criteria for idiopathic inflammatory myopathies; British Society for Rheumatology guideline on myositis, revisão 2023",
+"coment": "O heliótropo palpebral e as pápulas de Gottron sobre as articulações das mãos caracterizam dermatomiosite. No adulto, sobretudo acima de quarenta anos, a doença associa-se a risco aumentado de neoplasia — ovário, pulmão, mama, cólon, estômago e nasofaringe —, com maior incidência nos três anos ao redor do diagnóstico. O rastreio dirigido por idade, sexo e fatores de risco é obrigatório e repetido durante o seguimento inicial.",
+"porAlt": [
+"Correta: rastrear neoplasia oculta, pela associação estabelecida entre dermatomiosite do adulto e câncer.",
+"A associação com neoplasia está bem estabelecida e torna o rastreio obrigatório nesse contexto.",
+"A radiografia de mãos não é a avaliação adicional prioritária diante do risco oncológico associado.",
+"A biópsia repetida trimestralmente não é conduta de seguimento nem substitui o rastreio oncológico.",
+"A densitometria interessa pelo uso de corticoide, mas não é a avaliação adicional prioritária aqui."
+]
+},
+{
+"q": "Paciente com osteoporose em uso de bisfosfonato há cinco anos, sem fratura no período e com risco moderado. Qual é a conduta?",
+"alts": [
+"Considerar pausa terapêutica com reavaliação periódica do risco, mantendo sempre cálcio e vitamina D adequados.",
+"Manter o bisfosfonato indefinidamente sem qualquer reavaliação do risco de fratura ao longo dos anos agora.",
+"Suspender definitivamente todo o tratamento, incluindo cálcio e vitamina D, após cinco anos de bisfosfonato.",
+"Aumentar a dose do bisfosfonato para o dobro após cinco anos de tratamento em todos os pacientes neste caso.",
+"Substituir o bisfosfonato por corticoide sistêmico contínuo como estratégia de manutenção da massa óssea agora."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "Endocrine Society guideline on pharmacological management of osteoporosis, revisão 2023; ASBMR task force report on long-term bisphosphonate use",
+"coment": "Após cinco anos de bisfosfonato oral, ou três anos do endovenoso, reavalia-se o risco: pacientes de risco moderado sem fratura no período podem entrar em pausa terapêutica, aproveitando o efeito residual do fármaco no osso, com reavaliação a cada dois a três anos. Pacientes de alto risco mantêm o tratamento. A pausa reduz o risco de osteonecrose de mandíbula e de fratura atípica de fêmur, e cálcio e vitamina D são mantidos durante todo o período.",
+"porAlt": [
+"Correta: considerar pausa terapêutica com reavaliação periódica, mantendo cálcio e vitamina D.",
+"Manter indefinidamente sem reavaliar aumenta o risco de fratura atípica e osteonecrose de mandíbula.",
+"Cálcio e vitamina D são mantidos mesmo durante a pausa do bisfosfonato no paciente com osteoporose.",
+"Dobrar a dose não tem respaldo e amplia a toxicidade sem ganho antifratura demonstrado.",
+"O corticoide causa perda óssea e é fator de risco para osteoporose, não seu tratamento."
+]
+},
+{
+"q": "Paciente com suspeita de arterite de Takayasu, mulher jovem com claudicação de membros superiores e assimetria de pulsos. Qual é a conduta?",
+"alts": [
+"Confirmar com angiografia por imagem e iniciar corticoide, associando sempre imunossupressor poupador de esteroide.",
+"Prescrever apenas antiagregante plaquetário isolado como tratamento definitivo da vasculite de grandes vasos agora.",
+"Indicar revascularização cirúrgica imediata em todos os casos antes de qualquer controle da atividade inflamatória.",
+"Prescrever apenas anti-inflamatório não hormonal como tratamento de escolha da arterite de grandes vasos agora.",
+"Aguardar a resolução espontânea da vasculite sem qualquer imunossupressão no paciente jovem descrito neste caso."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "EULAR recommendations for the management of large vessel vasculitis, 2018 com revisão 2023; ACR/VF guideline on Takayasu arteritis, 2021",
+"coment": "A arterite de Takayasu acomete aorta e seus ramos principais em mulheres jovens, cursando com claudicação de membros, assimetria de pulsos e pressão, sopros vasculares e hipertensão renovascular. O diagnóstico usa angiotomografia, angiorressonância ou tomografia por emissão de pósitrons. O tratamento é corticoide associado a imunossupressor poupador — metotrexato, azatioprina ou tocilizumabe. A revascularização é feita preferencialmente com a doença em remissão.",
+"porAlt": [
+"Correta: confirmar por imagem vascular e iniciar corticoide com imunossupressor poupador de esteroide.",
+"O antiagregante é adjuvante e não controla a inflamação da parede arterial nessa vasculite.",
+"A revascularização com doença ativa tem alta taxa de reestenose e é feita preferencialmente em remissão.",
+"O anti-inflamatório não hormonal não controla vasculite de grandes vasos nem previne estenoses.",
+"A vasculite não se resolve espontaneamente e progride para estenoses e oclusões irreversíveis."
+]
+},
+{
+"q": "Paciente com dor no ombro que piora à elevação do braço, com teste de impacto positivo, sem trauma. Qual é a conduta inicial?",
+"alts": [
+"Analgesia com fisioterapia dirigida, reservando sempre a imagem avançada aos casos refratários ao tratamento.",
+"Solicitar ressonância magnética de ombro imediatamente em todos os pacientes com dor ao elevar o braço agora.",
+"Indicar cirurgia artroscópica imediata em todos os pacientes com teste de impacto positivo no ombro agora.",
+"Prescrever imobilização completa do ombro por seis semanas como tratamento inicial da dor descrita agora.",
+"Prescrever corticoide sistêmico contínuo em dose alta como tratamento inicial da síndrome do impacto agora."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "AAOS Clinical Practice Guideline on management of rotator cuff injuries, revisão 2023; BMJ Best Practice on shoulder impingement, 2024",
+"coment": "A dor subacromial, ou síndrome do impacto, é a causa mais frequente de dor no ombro e o tratamento inicial é conservador: analgesia com anti-inflamatório por período curto e, sobretudo, fisioterapia com exercícios de fortalecimento do manguito rotador e dos estabilizadores da escápula, que é a intervenção com melhor evidência. Imobilização prolongada favorece capsulite adesiva. Imagem avançada e cirurgia se reservam a falha do tratamento conservador bem conduzido.",
+"porAlt": [
+"Correta: analgesia com fisioterapia dirigida, reservando imagem avançada aos casos refratários.",
+"A ressonância imediata revela achados degenerativos frequentes e leva a intervenções desnecessárias.",
+"A cirurgia se reserva à falha do tratamento conservador bem conduzido por período adequado.",
+"A imobilização prolongada favorece capsulite adesiva e piora a função do ombro acometido.",
+"O corticoide sistêmico contínuo não é tratamento da dor subacromial e traz toxicidade evitável."
+]
+},
+{
+"q": "Paciente com esclerose sistêmica apresenta Raynaud grave com úlceras digitais. Qual é a conduta?",
+"alts": [
+"Bloqueador de canal de cálcio e cuidados locais, considerando sempre inibidor de fosfodiesterase ou bosentana.",
+"Prescrever apenas analgésico comum e observar a evolução das úlceras digitais sem qualquer tratamento vasodilatador.",
+"Iniciar betabloqueador em dose plena para o controle do fenômeno de Raynaud grave descrito no paciente agora.",
+"Indicar amputação digital imediata em todos os pacientes com úlceras digitais na esclerose sistêmica agora.",
+"Orientar exposição ao frio de forma progressiva como estratégia para induzir tolerância vascular no paciente."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "EULAR recommendations for the treatment of systemic sclerosis, atualização 2024",
+"coment": "No fenômeno de Raynaud da esclerose sistêmica, a primeira linha farmacológica é o bloqueador de canal de cálcio di-hidropiridínico, como nifedipino. Diante de úlceras digitais, associam-se inibidores de fosfodiesterase tipo 5, como sildenafila, e prostanoides endovenosos nas formas graves; a bosentana reduz o surgimento de novas úlceras. Medidas gerais incluem proteção contra o frio, cessação do tabagismo e cuidados locais com a ferida.",
+"porAlt": [
+"Correta: bloqueador de canal de cálcio com cuidados locais, associando inibidor de fosfodiesterase ou bosentana.",
+"Observar sem vasodilatador permite progressão para necrose digital e perda de tecido.",
+"O betabloqueador causa vasoconstrição periférica e agrava diretamente o fenômeno de Raynaud.",
+"A amputação é medida de exceção diante de necrose estabelecida e infecção não controlada.",
+"A exposição ao frio desencadeia o vasoespasmo e agrava as úlceras digitais do paciente."
+]
+},
+{
+"q": "Paciente com suspeita de febre reumática apresenta poliartrite migratória, cardite e evidência de infecção estreptocócica prévia. Qual é a conduta?",
+"alts": [
+"Tratar a infecção e iniciar profilaxia secundária prolongada, avaliando sempre o acometimento cardíaco associado.",
+"Tratar apenas a artrite com anti-inflamatório, sem qualquer profilaxia secundária após o episódio agudo agora.",
+"Prescrever apenas antibiótico por dez dias e alta definitiva sem qualquer seguimento cardiológico programado.",
+"Indicar cirurgia valvar imediata em todos os pacientes com febre reumática e qualquer grau de cardite agora.",
+"Prescrever apenas corticoide sistêmico isolado, sem qualquer antibiótico ou profilaxia secundária associada."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "Diretriz Brasileira de Valvopatias — SBC, revisão 2023; AHA scientific statement on acute rheumatic fever, revisão 2023; critérios de Jones atualizados",
+"coment": "A febre reumática é diagnosticada pelos critérios de Jones atualizados, que consideram a incidência populacional. O tratamento inclui erradicação do estreptococo com penicilina benzatina, anti-inflamatório para a artrite, corticoide na cardite grave e, sobretudo, profilaxia secundária prolongada com penicilina benzatina a cada três a quatro semanas, cuja duração depende da presença e da gravidade do acometimento cardíaco, podendo chegar a toda a vida.",
+"porAlt": [
+"Correta: erradicar a infecção e iniciar profilaxia secundária prolongada, conforme o acometimento cardíaco.",
+"Tratar só a artrite deixa o paciente exposto a novos surtos e a dano valvar cumulativo e progressivo.",
+"O antibiótico do episódio agudo não substitui a profilaxia secundária nem o seguimento cardiológico.",
+"A cirurgia valvar se reserva a lesões graves com repercussão, e não a todo grau de cardite.",
+"O corticoide isolado não erradica o estreptococo nem previne novos surtos da doença."
+]
+},
+{
+"q": "Paciente com dor articular difusa após início de estatina, com CPK elevada dez vezes. Qual é a conduta?",
+"alts": [
+"Suspender a estatina e monitorar a CPK, investigando sempre miopatia autoimune se não houver melhora.",
+"Manter a estatina na mesma dose e apenas prescrever analgésico para o controle da dor muscular referida.",
+"Aumentar a dose da estatina para acelerar o efeito hipolipemiante apesar da elevação importante da CPK.",
+"Iniciar corticoide sistêmico em dose alta imediatamente sem qualquer suspensão da estatina em uso.",
+"Substituir a estatina por fibrato em dose plena imediatamente, sem qualquer monitorização da CPK sérica."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "EAS Consensus Panel statement on statin-associated muscle symptoms, revisão 2023; ACC/AHA Guideline on blood cholesterol, revisão 2023",
+"coment": "Elevação de CPK acima de dez vezes o limite superior com sintomas musculares indica suspender a estatina e monitorar a CPK até a normalização, com atenção a rabdomiólise e função renal. Após a normalização, pode-se tentar reintrodução com outra estatina em dose menor ou em dias alternados. Se a CPK não normaliza após a suspensão, investiga-se miopatia necrosante autoimune com anticorpo anti-HMGCR, que exige imunossupressão.",
+"porAlt": [
+"Correta: suspender a estatina e monitorar a CPK, investigando miopatia autoimune se não houver melhora.",
+"Manter a estatina com CPK muito elevada arrisca rabdomiólise e lesão renal aguda no paciente.",
+"Aumentar a dose amplia diretamente a toxicidade muscular já evidenciada pela elevação da CPK.",
+"O corticoide não é conduta inicial e mascara a evolução antes mesmo de suspender o agente causal.",
+"O fibrato pode agravar a miotoxicidade, sobretudo em associação, e não dispensa a monitorização."
+]
 }
 ];

@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Paciente com anemia e insuficiência renal crônica em hemodiálise, com ferro adequado. Qual é a conduta?",
+  "alts": [
+   "Iniciar agente estimulador da eritropoese com alvo restrito, evitando sempre correção completa da hemoglobina.",
+   "Transfundir concentrado de hemácias mensalmente como estratégia de manutenção da hemoglobina no paciente.",
+   "Normalizar completamente a hemoglobina acima de treze gramas por decilitro em todos os pacientes dialíticos.",
+   "Iniciar apenas ácido fólico isolado como tratamento definitivo da anemia da doença renal crônica dialítica.",
+   "Não tratar a anemia, pois ela não tem qualquer repercussão clínica em pacientes em hemodiálise crônica agora."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "KDIGO Clinical Practice Guideline for Anemia in CKD, revisão 2023; ASH/ASCO guidance on ESA use, 2019",
+  "coment": "A anemia da doença renal crônica decorre principalmente da produção insuficiente de eritropoetina. Após garantir estoques adequados de ferro, indica-se agente estimulador da eritropoese com alvo restrito de hemoglobina, tipicamente entre 10 e 11,5 g/dL: ensaios clínicos mostraram que normalizar a hemoglobina aumenta eventos cardiovasculares, acidente vascular cerebral e trombose de acesso. Transfusões repetidas favorecem aloimunização e prejudicam futuro transplante.",
+  "porAlt": [
+   "Correta: agente estimulador da eritropoese com alvo restrito, evitando normalizar a hemoglobina.",
+   "A transfusão mensal favorece aloimunização e sobrecarga de ferro, prejudicando futuro transplante.",
+   "Normalizar a hemoglobina aumentou eventos cardiovasculares e trombóticos nos ensaios clínicos.",
+   "O ácido fólico isolado não corrige a deficiência de eritropoetina que causa essa anemia.",
+   "A anemia nessa população associa-se a pior qualidade de vida e a desfechos cardiovasculares."
+  ]
+ },
+ {
+  "q": "Paciente jovem com trombose venosa profunda não provocada e história familiar de trombose. Qual é a conduta quanto à trombofilia?",
+  "alts": [
+   "Avaliar trombofilia apenas se o resultado mudar a conduta, evitando sempre a coleta durante o evento agudo.",
+   "Solicitar painel completo de trombofilia imediatamente durante o evento agudo em todos esses pacientes.",
+   "Nunca investigar trombofilia, pois o resultado jamais altera a conduta em qualquer situação clínica agora.",
+   "Investigar trombofilia apenas depois de dez anos do evento trombótico inicial apresentado pelo paciente.",
+   "Iniciar anticoagulação apenas se o painel de trombofilia resultar positivo em pelo menos um marcador agora."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ASH guidelines for management of venous thromboembolism, 2020 com revisão 2023; ISTH guidance on thrombophilia testing, 2023",
+  "coment": "A pesquisa de trombofilia só se justifica quando o resultado muda a conduta, como na decisão sobre anticoagulação estendida em casos limítrofes, no aconselhamento de familiares e na síndrome antifosfolípide, que altera a escolha do anticoagulante. A coleta durante o evento agudo e em vigência de anticoagulação produz resultados falsamente alterados: proteínas C e S e antitrombina caem no evento e com anticoagulantes, exigindo coleta postergada.",
+  "porAlt": [
+   "Correta: investigar apenas se o resultado mudar a conduta, e nunca durante o evento agudo.",
+   "A coleta na fase aguda e sob anticoagulação produz resultados falsamente alterados e inúteis.",
+   "Há situações em que o resultado muda a conduta, como na síndrome antifosfolípide identificada.",
+   "Aguardar dez anos não faz sentido; o momento correto é após o período agudo e sob condições adequadas.",
+   "A anticoagulação do evento agudo independe totalmente do resultado do painel de trombofilia."
+  ]
+ },
+ {
+  "q": "Paciente com anemia normocítica, ferritina elevada, saturação de transferrina baixa e doença inflamatória crônica. Qual é o diagnóstico?",
+  "alts": [
+   "Anemia de doença crônica, cujo tratamento é sempre o da doença de base que mantém a inflamação agora.",
+   "Anemia ferropriva clássica, definida por ferritina elevada com saturação de transferrina reduzida.",
+   "Talassemia menor, condição caracterizada por anemia normocítica com ferritina elevada e saturação baixa.",
+   "Anemia megaloblástica por deficiência de vitamina B12, definida por esse perfil do metabolismo do ferro.",
+   "Anemia hemolítica autoimune, quadro definido por ferritina elevada com saturação de transferrina reduzida."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "BSH guidelines on the laboratory diagnosis of functional iron deficiency, revisão 2023; NEJM review on anemia of inflammation, 2022",
+  "coment": "Na anemia de doença crônica, ou anemia da inflamação, a hepcidina elevada bloqueia a liberação de ferro dos estoques e a absorção intestinal, resultando em ferritina normal ou elevada — porque é proteína de fase aguda e os estoques estão preservados — com saturação de transferrina baixa e capacidade total de ligação reduzida. A anemia é tipicamente normocítica e leve a moderada, e o tratamento é o da doença de base que mantém a inflamação.",
+  "porAlt": [
+   "Correta: anemia de doença crônica, com ferritina elevada e saturação baixa por bloqueio do ferro.",
+   "A ferropenia cursa com ferritina baixa, o oposto do perfil descrito no enunciado deste caso.",
+   "A talassemia cursa com microcitose acentuada e ferritina normal, sem o padrão inflamatório descrito.",
+   "A deficiência de vitamina B12 cursa com macrocitose e não altera esse perfil do metabolismo do ferro.",
+   "A hemólise cursa com reticulocitose, LDH elevada e haptoglobina baixa, ausentes na descrição."
+  ]
+ },
+ {
+  "q": "Paciente em tratamento com varfarina precisa de procedimento cirúrgico eletivo de alto risco de sangramento. Qual é a conduta?",
+  "alts": [
+   "Suspender a varfarina com antecedência e avaliar sempre a necessidade de ponte conforme o risco tromboembólico.",
+   "Manter a varfarina em dose plena durante todo o período perioperatório em todos os procedimentos cirúrgicos.",
+   "Suspender a varfarina no dia da cirurgia sem qualquer antecedência ou avaliação do risco tromboembólico agora.",
+   "Realizar ponte com heparina em todos os pacientes que usam varfarina, independentemente do risco embólico.",
+   "Substituir definitivamente a varfarina por antiagregante plaquetário antes de qualquer procedimento eletivo."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "ACCP/CHEST Guideline on perioperative management of antithrombotic therapy, 2022; ASH guidelines, 2022",
+  "coment": "Em cirurgia eletiva de alto risco de sangramento, a varfarina é suspensa cerca de cinco dias antes, com verificação do INR na véspera. A ponte com heparina é reservada a pacientes de alto risco tromboembólico — prótese mecânica mitral, fibrilação atrial com escore muito elevado ou evento tromboembólico recente —, porque ensaios mostraram que a ponte indiscriminada aumenta sangramento sem reduzir eventos embólicos na maioria dos pacientes.",
+  "porAlt": [
+   "Correta: suspender com antecedência e indicar ponte apenas conforme o risco tromboembólico do paciente.",
+   "Manter a varfarina em cirurgia de alto risco de sangramento expõe a hemorragia perioperatória grave.",
+   "Suspender no dia não permite a normalização do INR, que leva vários dias para ocorrer.",
+   "A ponte indiscriminada aumenta sangramento sem reduzir eventos embólicos na maioria dos casos.",
+   "O antiagregante não substitui a anticoagulação nas indicações em que ela é necessária."
+  ]
+ },
+ {
+  "q": "Paciente com síndrome mielodisplásica de baixo risco, assintomático, com anemia leve. Qual é a conduta?",
+  "alts": [
+   "Acompanhamento com suporte conforme a necessidade, reservando sempre terapia específica à progressão ou aos sintomas.",
+   "Iniciar quimioterapia intensiva imediatamente em todos os pacientes com síndrome mielodisplásica de baixo risco.",
+   "Indicar transplante alogênico de medula óssea imediato para todos os pacientes com essa condição hematológica agora.",
+   "Transfundir concentrado de hemácias semanalmente de rotina mesmo em pacientes assintomáticos e estáveis neste caso.",
+   "Iniciar corticoide sistêmico contínuo em dose alta como tratamento padrão da síndrome mielodisplásica de baixo risco."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "NCCN Myelodysplastic Syndromes, 2024; ELN recommendations for the management of MDS, revisão 2023",
+  "coment": "As síndromes mielodisplásicas são estratificadas por escores prognósticos que consideram citopenias, blastos e citogenética. Nas de baixo risco, assintomáticas, a conduta é observação com suporte transfusional conforme sintomas, agentes estimuladores da eritropoese na anemia sintomática com eritropoetina baixa, e opções específicas como luspatercepte em subgrupos. Quimioterapia intensiva e transplante alogênico ficam para doença de alto risco ou progressão.",
+  "porAlt": [
+   "Correta: acompanhamento com suporte conforme a necessidade, reservando terapia específica à progressão.",
+   "A quimioterapia intensiva é reservada à doença de alto risco e traz toxicidade elevada e evitável.",
+   "O transplante alogênico se indica na doença de alto risco em pacientes elegíveis, e não em todos.",
+   "A transfusão de rotina em assintomático causa sobrecarga de ferro e aloimunização evitáveis.",
+   "O corticoide não é tratamento padrão da síndrome mielodisplásica e não modifica sua evolução."
+  ]
+ },
+ {
+  "q": "Paciente com hemocromatose hereditária confirmada e ferritina muito elevada. Qual é o tratamento de escolha?",
+  "alts": [
+   "Flebotomias terapêuticas seriadas, mantendo sempre alvo de ferritina definido e monitorização periódica dos exames.",
+   "Suplementação oral de ferro para corrigir a alteração do metabolismo do ferro identificada no paciente neste caso.",
+   "Transfusão de concentrado de hemácias como tratamento de escolha para a hemocromatose hereditária nesse contexto.",
+   "Corticoide sistêmico contínuo em dose alta como tratamento padrão da sobrecarga de ferro hereditária neste caso.",
+   "Apenas dieta com restrição total de carne vermelha como tratamento definitivo da hemocromatose hereditária agora."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "EASL Clinical Practice Guidelines on haemochromatosis, 2022; AASLD practice guidance, revisão 2023",
+  "coment": "O tratamento da hemocromatose hereditária é a flebotomia terapêutica, inicialmente semanal, com alvo de ferritina em torno de cinquenta nanogramas por mililitro na fase de indução e manutenção posterior com flebotomias espaçadas. O tratamento previne cirrose, diabetes, cardiomiopatia e artropatia quando iniciado antes do dano orgânico. Quelantes de ferro se reservam a quem não tolera flebotomia, como pacientes com anemia significativa ou cardiopatia grave.",
+  "porAlt": [
+   "Correta: flebotomias terapêuticas seriadas com alvo de ferritina definido e monitorização periódica.",
+   "A suplementação de ferro agrava diretamente a sobrecarga que caracteriza a doença do paciente.",
+   "A transfusão adiciona ferro ao organismo e é o oposto do tratamento indicado na hemocromatose.",
+   "O corticoide não tem qualquer papel no tratamento da sobrecarga de ferro hereditária.",
+   "A dieta isolada tem impacto muito limitado sobre a sobrecarga de ferro já estabelecida."
+  ]
+ },
+ {
+  "q": "Paciente em uso de anticoagulante oral direto apresenta sangramento grave com instabilidade. Qual é a conduta?",
+  "alts": [
+   "Suspender o fármaco e usar agente de reversão específico ou complexo protrombínico, com suporte sempre agressivo.",
+   "Administrar vitamina K endovenosa como agente de reversão específico do anticoagulante oral direto neste caso.",
+   "Manter o anticoagulante e apenas transfundir hemácias, sem qualquer tentativa de reversão do efeito neste caso.",
+   "Administrar protamina endovenosa como agente de reversão de escolha do anticoagulante oral direto neste caso.",
+   "Aguardar a eliminação espontânea do fármaco sem qualquer intervenção no paciente com sangramento grave agora."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "ISTH guidance on reversal of direct oral anticoagulants, revisão 2023; ACC Expert Consensus Decision Pathway, 2020",
+  "coment": "No sangramento grave por anticoagulante oral direto, suspende-se o fármaco e oferece-se suporte agressivo com controle local, reposição volêmica e hemocomponentes. Existem agentes específicos: idarucizumabe para dabigatrana e andexanet alfa para inibidores do fator Xa. Na indisponibilidade, usa-se complexo protrombínico. Vitamina K reverte antagonistas da vitamina K e protamina reverte heparina, nenhuma delas com efeito sobre os anticoagulantes diretos.",
+  "porAlt": [
+   "Correta: suspender o fármaco e usar agente específico ou complexo protrombínico, com suporte agressivo.",
+   "A vitamina K reverte antagonistas da vitamina K e não tem efeito sobre os anticoagulantes diretos.",
+   "Manter o anticoagulante em sangramento grave perpetua a hemorragia e o risco de morte.",
+   "A protamina reverte heparina e não tem qualquer efeito sobre os anticoagulantes orais diretos.",
+   "Aguardar a eliminação em sangramento grave com instabilidade é conduta de risco inaceitável."
+  ]
+ },
+ {
+  "q": "Paciente com linfonodomegalia cervical indolor, endurecida, com sudorese noturna e perda de peso. Qual é a conduta?",
+  "alts": [
+   "Biópsia excisional do linfonodo para avaliação histológica completa, evitando sempre a punção aspirativa isolada.",
+   "Prescrever antibiótico por dez dias e reavaliar apenas se a linfonodomegalia persistir após o tratamento agora.",
+   "Observar por doze meses antes de qualquer investigação da linfonodomegalia cervical descrita no caso neste caso.",
+   "Realizar apenas punção aspirativa por agulha fina, exame suficiente para o diagnóstico e a classificação do linfoma.",
+   "Prescrever apenas corticoide sistêmico em dose alta antes de qualquer investigação histológica do linfonodo."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "NCCN Hodgkin Lymphoma e B-Cell Lymphomas, 2024; BSH guideline on investigation of lymphadenopathy, revisão 2023",
+  "coment": "Linfonodomegalia indolor, endurecida, persistente e acompanhada de sintomas B — febre, sudorese noturna e perda de peso — exige biópsia excisional, que preserva a arquitetura do linfonodo e permite classificação histológica e imuno-histoquímica, essencial para definir o subtipo e o tratamento. A punção aspirativa fornece células sem arquitetura e é insuficiente para o diagnóstico inicial de linfoma. Corticoide antes da biópsia pode inviabilizar o diagnóstico histológico.",
+  "porAlt": [
+   "Correta: biópsia excisional preserva a arquitetura e permite a classificação histológica completa.",
+   "Antibiótico empírico atrasa o diagnóstico diante de linfonodo com características claramente suspeitas.",
+   "Observar por doze meses permite progressão de uma neoplasia potencialmente curável no início.",
+   "A punção aspirativa não preserva a arquitetura e é insuficiente para classificar o linfoma.",
+   "O corticoide antes da biópsia pode lisar as células e inviabilizar o diagnóstico histológico."
+  ]
+ },
+ {
+  "q": "Paciente com trombocitose de 700.000/mm³ persistente, sem causa reativa evidente. Qual é a conduta?",
+  "alts": [
+   "Investigar neoplasia mieloproliferativa com pesquisa molecular, avaliando sempre o risco trombótico do paciente.",
+   "Iniciar transfusão de plaquetas para corrigir a contagem plaquetária elevada identificada no hemograma agora.",
+   "Ignorar completamente o achado, pois a trombocitose nunca tem significado clínico relevante no adulto agora.",
+   "Iniciar anticoagulação plena imediata em todos os pacientes com trombocitose persistente identificada agora.",
+   "Indicar esplenectomia imediata em todos os pacientes com trombocitose persistente sem causa reativa neste caso já."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "OMS — classificação de neoplasias mieloides, 5ª edição, 2022; NCCN Myeloproliferative Neoplasms, 2024",
+  "coment": "Trombocitose persistente sem causa reativa — ferropenia, inflamação, infecção, neoplasia, asplenia — sugere neoplasia mieloproliferativa, sobretudo trombocitemia essencial. A investigação inclui pesquisa de JAK2, CALR e MPL e, quando necessário, biópsia de medula óssea. O tratamento é definido pelo risco trombótico: ácido acetilsalicílico em dose baixa na maioria e citorredução com hidroxiureia nos pacientes de alto risco, com idade avançada ou trombose prévia.",
+  "porAlt": [
+   "Correta: investigar neoplasia mieloproliferativa com pesquisa molecular e estratificar o risco trombótico.",
+   "A transfusão de plaquetas agravaria a contagem já elevada e não tem qualquer indicação aqui.",
+   "A trombocitose persistente sem causa reativa exige investigação pelo risco trombótico associado.",
+   "A anticoagulação plena não é indicada de rotina; a antiagregação é a conduta habitual inicial.",
+   "A esplenectomia não trata trombocitemia essencial e pode inclusive elevar ainda mais as plaquetas."
+  ]
+ },
+ {
+  "q": "Paciente recebe transfusão e apresenta dispneia e congestão pulmonar com hipertensão nas primeiras horas. Qual é a hipótese?",
+  "alts": [
+   "Sobrecarga circulatória associada à transfusão, cujo tratamento inclui sempre diurético e redução da velocidade.",
+   "Reação hemolítica aguda por incompatibilidade ABO, definida por congestão pulmonar com hipertensão arterial.",
+   "Reação alérgica leve por proteínas plasmáticas, quadro caracterizado por congestão pulmonar e hipertensão agora.",
+   "Contaminação bacteriana da bolsa transfundida, definida por congestão pulmonar com pressão arterial elevada.",
+   "Reação febril não hemolítica simples, condição caracterizada por congestão pulmonar e hipertensão arterial."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "AABB Standards, 2024; Ministério da Saúde — Guia para uso de hemocomponentes, 2021; ISBT definitions of transfusion reactions",
+  "coment": "A sobrecarga circulatória associada à transfusão cursa com dispneia, congestão pulmonar, hipertensão arterial e elevação do peptídeo natriurético, tipicamente nas primeiras seis horas, sendo mais comum em idosos, cardiopatas, nefropatas e com infusão rápida ou de grande volume. O tratamento é interromper ou reduzir a infusão, oxigênio e diurético. A lesão pulmonar aguda relacionada à transfusão, em contraste, cursa com hipotensão e não responde a diurético.",
+  "porAlt": [
+   "Correta: sobrecarga circulatória associada à transfusão, tratada com diurético e redução da velocidade.",
+   "A reação hemolítica aguda cursa com febre, dor lombar, hipotensão e hemoglobinúria, não congestão.",
+   "A reação alérgica leve cursa com urticária e prurido, sem congestão pulmonar nem hipertensão.",
+   "A contaminação bacteriana cursa com febre alta, calafrios e choque, e não com esse padrão congestivo.",
+   "A reação febril não hemolítica cursa apenas com febre e calafrios, sem congestão pulmonar."
+  ]
+ }
+]
