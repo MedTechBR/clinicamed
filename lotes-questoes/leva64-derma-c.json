@@ -1,77 +1,5 @@
 [
  {
-  "q": "Paciente com placas anulares descamativas pruriginosas em tronco, com borda ativa e centro claro. Qual é o tratamento?",
-  "alts": [
-   "Antifúngico tópico por quatro semanas, considerando sempre a via oral se houver lesões extensas.",
-   "Corticoide tópico de alta potência isolado, tratamento de escolha para as lesões anulares descritas.",
-   "Antibiótico sistêmico por dez dias, tratamento indicado para as placas anulares descamativas do tronco.",
-   "Fototerapia com ultravioleta como tratamento inicial de escolha para essas lesões anulares no tronco.",
-   "Imunossupressor sistêmico contínuo como tratamento de primeira linha das lesões cutâneas descritas."
-  ],
-  "gab": 0,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "Sociedade Brasileira de Dermatologia — consenso de dermatofitoses, 2022; British Association of Dermatologists guidelines, 2023",
-  "coment": "A lesão anular com borda ativa descamativa e clareamento central é a apresentação clássica da tinea corporis. O tratamento de lesões localizadas é antifúngico tópico, como terbinafina ou azólico, por duas a quatro semanas, mantido por uma semana após a resolução clínica. Lesões extensas, foliculares ou refratárias, e o acometimento de couro cabeludo e unhas, exigem tratamento sistêmico. Corticoide tópico isolado mascara e agrava a infecção.",
-  "porAlt": [
-   "Correta: antifúngico tópico por quatro semanas, com via oral reservada a lesões extensas ou refratárias.",
-   "O corticoide isolado modifica a lesão e agrava a infecção fúngica, produzindo tinha incógnita.",
-   "O antibiótico não trata dermatofitose, que é infecção fúngica superficial e não bacteriana.",
-   "A fototerapia trata psoríase e outras dermatoses inflamatórias, e não infecções fúngicas cutâneas.",
-   "O imunossupressor agrava a infecção fúngica ao reduzir ainda mais a resposta local do hospedeiro."
-  ]
- },
- {
-  "q": "Paciente com acne inflamatória moderada, com pápulas e pústulas, sem resposta a tratamento tópico isolado. Qual é o próximo passo?",
-  "alts": [
-   "Antibiótico oral associado a retinoide tópico, mantido sempre por período limitado para evitar resistência.",
-   "Isotretinoína oral imediatamente em todos os pacientes com acne inflamatória de grau moderado neste caso.",
-   "Corticoide sistêmico contínuo em dose baixa como próximo passo no tratamento da acne moderada neste caso.",
-   "Antibiótico oral em monoterapia por tempo indeterminado como estratégia de manutenção do controle agora.",
-   "Apenas limpeza de pele mensal, medida suficiente para o controle da acne inflamatória moderada neste caso."
-  ],
-  "gab": 0,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "AAD guidelines of care for the management of acne vulgaris, 2024; Sociedade Brasileira de Dermatologia, 2022",
-  "coment": "Na acne inflamatória moderada sem resposta ao tratamento tópico, associa-se antibiótico oral, geralmente doxiciclina, sempre combinado a retinoide tópico e peróxido de benzoíla, que reduzem resistência bacteriana. O antibiótico é limitado a três ou quatro meses, com manutenção posterior apenas tópica. A isotretinoína oral é indicada na acne grave, nodulocística, com cicatrizes ou refratária, exigindo contracepção rigorosa em mulheres.",
-  "porAlt": [
-   "Correta: antibiótico oral com retinoide tópico, por período limitado para reduzir resistência bacteriana.",
-   "A isotretinoína se reserva à acne grave, com cicatrizes ou refratária ao tratamento convencional.",
-   "O corticoide sistêmico contínuo não é tratamento da acne e pode inclusive desencadear erupção acneiforme.",
-   "O antibiótico em monoterapia prolongada seleciona resistência e não é estratégia de manutenção.",
-   "A limpeza de pele é adjuvante estético e não controla a inflamação folicular da acne moderada."
-  ]
- },
- {
-  "q": "Paciente com prurido intenso predominantemente noturno, lesões em espaços interdigitais e punhos, com familiares acometidos. Qual é a conduta?",
-  "alts": [
-   "Tratar com escabicida tópico ou oral e tratar sempre todos os contatos domiciliares simultaneamente.",
-   "Tratar apenas o paciente com corticoide tópico, sem qualquer abordagem dos contatos domiciliares.",
-   "Prescrever apenas anti-histamínico oral, medida suficiente para a resolução completa do quadro.",
-   "Iniciar antibiótico sistêmico prolongado como tratamento de escolha para o prurido noturno descrito.",
-   "Aguardar a resolução espontânea do quadro sem qualquer tratamento específico ou medida de controle."
-  ],
-  "gab": 0,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "CDC Parasites — Scabies clinical guidance, revisão 2024; Sociedade Brasileira de Dermatologia, 2022",
-  "coment": "A escabiose cursa com prurido de predomínio noturno e lesões em espaços interdigitais, punhos, axilas, cintura e genitália, com frequente acometimento familiar. O tratamento é permetrina tópica a 5% ou ivermectina oral, e o ponto crítico é tratar simultaneamente todos os contatos domiciliares, mesmo assintomáticos, além de lavar roupas de cama e vestuário em água quente. O prurido pode persistir semanas após a cura, sem indicar falha.",
-  "porAlt": [
-   "Correta: escabicida tópico ou oral com tratamento simultâneo de todos os contatos domiciliares.",
-   "Tratar apenas o paciente perpetua o ciclo de reinfestação a partir dos contatos não tratados.",
-   "O anti-histamínico alivia o prurido, mas não elimina o ácaro responsável pela infestação.",
-   "O antibiótico só entra se houver impetiginização secundária das lesões escoriadas pelo prurido.",
-   "A escabiose não se resolve espontaneamente e a transmissão continua sem tratamento adequado."
-  ]
- },
- {
   "q": "Paciente diabético com úlcera plantar de bordas calosas, indolor, sobre proeminência óssea. Qual é a conduta?",
   "alts": [
    "Desbridamento, alívio de pressão e avaliação vascular, investigando sempre a presença de osteomielite.",
@@ -93,30 +21,6 @@
    "O antibiótico isolado sem desbridamento e descarga não resolve a úlcera neuropática plantar.",
    "A amputação é medida de exceção, e a maioria das úlceras cicatriza com tratamento adequado.",
    "Manter a deambulação sem descarga perpetua a pressão que impede a cicatrização da lesão."
-  ]
- },
- {
-  "q": "Paciente com lesões eritematodescamativas em couro cabeludo, sulco nasogeniano e região retroauricular, com prurido leve. Qual é o tratamento?",
-  "alts": [
-   "Antifúngico tópico com corticoide de baixa potência, mantidos sempre em esquema intermitente de manutenção.",
-   "Corticoide sistêmico em dose alta prolongada como tratamento de escolha para as lesões descritas agora.",
-   "Antibiótico oral por três semanas, tratamento indicado para as lesões eritematodescamativas faciais agora.",
-   "Isotretinoína oral em dose plena como tratamento de primeira linha para o quadro cutâneo descrito agora.",
-   "Imunossupressor sistêmico contínuo como tratamento inicial das lesões em couro cabeludo e face neste caso."
-  ],
-  "gab": 0,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "AAD guidelines of care for seborrheic dermatitis, 2024; Sociedade Brasileira de Dermatologia, 2022",
-  "coment": "A dermatite seborreica acomete áreas ricas em glândulas sebáceas e se associa à proliferação de Malassezia. O tratamento combina antifúngico tópico — cetoconazol ou ciclopirox — com corticoide de baixa potência por curtos períodos nas fases inflamatórias, e xampus medicamentosos no couro cabeludo. É condição crônica e recidivante, exigindo manutenção intermitente. Formas extensas e refratárias devem levantar suspeita de imunossupressão, incluindo HIV.",
-  "porAlt": [
-   "Correta: antifúngico tópico com corticoide de baixa potência e manutenção intermitente de longo prazo.",
-   "O corticoide sistêmico prolongado é desproporcional e traz toxicidade sem benefício sustentado.",
-   "O antibiótico não trata a dermatite seborreica, cuja associação é com fungo lipofílico da pele.",
-   "A isotretinoína trata acne grave e não é a primeira linha para a dermatite seborreica descrita.",
-   "O imunossupressor sistêmico é desproporcional para uma dermatose crônica de manejo tópico."
   ]
  },
  {
@@ -213,30 +117,6 @@
    "Não há infecção bacteriana envolvida no mecanismo da acantose nigricans descrita neste caso.",
    "A exérese cirúrgica é desproporcional e não impede a recorrência enquanto a causa persistir.",
    "O antifúngico não tem papel, pois a lesão não decorre de infecção fúngica da pele acometida."
-  ]
- },
- {
-  "q": "Paciente com queimadura solar extensa e bolhas em dorso após exposição prolongada. Qual é a conduta?",
-  "alts": [
-   "Analgesia, hidratação da pele e cuidado local, avaliando sempre a extensão e o estado de hidratação.",
-   "Romper todas as bolhas em consultório e aplicar antisséptico alcoólico sobre as áreas descobertas.",
-   "Aplicar corticoide sistêmico em dose alta e prolongada como tratamento padrão da queimadura solar.",
-   "Prescrever antibiótico sistêmico profilático para todos os pacientes com queimadura solar bolhosa.",
-   "Aplicar gelo diretamente sobre a pele queimada por períodos prolongados como principal medida local."
-  ],
-  "gab": 0,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "AAD clinical guidance on sunburn management, revisão 2023; American Burn Association, 2023",
-  "coment": "A queimadura solar com bolhas corresponde a queimadura de segundo grau superficial. O manejo é analgesia com anti-inflamatório ou paracetamol, compressas frias — nunca gelo direto, que agrava a lesão —, hidratação da pele e da via oral, e cuidado local mantendo as bolhas íntegras sempre que possível, pois funcionam como curativo biológico. Antibiótico profilático não é indicado, e extensão importante exige avaliação como queimadura extensa.",
-  "porAlt": [
-   "Correta: analgesia, hidratação e cuidado local, com avaliação da extensão e do estado de hidratação.",
-   "Romper as bolhas remove a barreira biológica e o antisséptico alcoólico agrava a dor e a lesão.",
-   "O corticoide sistêmico prolongado não é tratamento padrão e traz toxicidade desnecessária.",
-   "A profilaxia antibiótica não é indicada e favorece a seleção de germes resistentes na pele.",
-   "O gelo direto sobre a pele queimada aprofunda a lesão por vasoconstrição e lesão térmica local."
   ]
  }
 ]

@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Paciente de 62 anos com insuficiência cardíaca e fração de ejeção de 28%, em ritmo sinusal, com QRS de 160 ms e bloqueio de ramo esquerdo, sintomático apesar de terapia otimizada. Qual é a conduta?",
+  "alts": [
+   "Indicar terapia de ressincronização cardíaca, indicada sempre nesse padrão eletrocardiográfico e funcional.",
+   "Aumentar indefinidamente a dose do diurético de alça como próxima medida para o controle dos sintomas.",
+   "Iniciar antiarrítmico de classe I em dose plena para o controle da condução intraventricular alterada.",
+   "Indicar apenas transplante cardíaco, sem qualquer avaliação de dispositivo de ressincronização prévia.",
+   "Suspender o betabloqueador diante da fração de ejeção reduzida e do alargamento do complexo QRS agora."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024; ESC Guidelines on cardiac pacing and cardiac resynchronization therapy, 2021",
+  "coment": "A terapia de ressincronização cardíaca é indicação classe I em pacientes sintomáticos com fração de ejeção igual ou inferior a 35 por cento, ritmo sinusal, bloqueio de ramo esquerdo e QRS igual ou superior a 150 ms, apesar de terapia medicamentosa otimizada. O benefício inclui melhora de sintomas, remodelamento reverso e redução de mortalidade. Quanto mais largo o QRS e mais típico o padrão de bloqueio de ramo esquerdo, maior a chance de resposta.",
+  "porAlt": [
+   "Correta: ressincronização cardíaca é indicação classe I nesse padrão de QRS e de função ventricular.",
+   "O diurético alivia congestão, mas não corrige a dissincronia nem melhora a sobrevida do paciente.",
+   "Antiarrítmicos de classe I são contraindicados na cardiopatia estrutural por risco pró-arrítmico.",
+   "O transplante é considerado após esgotar as terapias disponíveis, incluindo o dispositivo indicado.",
+   "Suspender o betabloqueador retira um pilar que reduz mortalidade nessa forma de insuficiência cardíaca."
+  ]
+ },
+ {
+  "q": "Paciente de 45 anos com síncope durante esforço e história familiar de morte súbita precoce. Qual é a conduta inicial?",
+  "alts": [
+   "Investigar cardiopatia estrutural e arritmogênica com eletrocardiograma e ecocardiograma, restringindo sempre o esforço.",
+   "Atribuir o quadro a hipotensão postural e liberar o paciente sem qualquer investigação cardiológica nesse contexto.",
+   "Prescrever apenas hidratação abundante e meias elásticas como tratamento definitivo do quadro descrito neste caso.",
+   "Iniciar betabloqueador empírico sem qualquer investigação da causa estrutural ou elétrica da síncope nesse contexto.",
+   "Solicitar apenas eletroencefalograma, exame que estabelece a causa da síncope de esforço descrita para este paciente."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death, 2022; Diretriz Brasileira de Arritmias — SBC, revisão 2022",
+  "coment": "Síncope durante o esforço e história familiar de morte súbita precoce são sinais de alarme que apontam causa cardíaca: cardiomiopatia hipertrófica, displasia arritmogênica de ventrículo direito, canalopatias como síndrome do QT longo e Brugada, e estenose aórtica. A investigação inicia com eletrocardiograma e ecocardiograma, complementados por Holter, teste ergométrico, ressonância cardíaca e avaliação genética. Restringe-se o esforço até o esclarecimento.",
+  "porAlt": [
+   "Correta: investigar cardiopatia estrutural e arritmogênica, restringindo o esforço até o esclarecimento.",
+   "Síncope de esforço com história familiar de morte súbita jamais deve ser tratada como benigna.",
+   "Hidratação e meias tratam síncope neuromediada, hipótese improvável diante desse contexto de alarme.",
+   "Tratar empiricamente sem diagnóstico pode mascarar condição que exige desfibrilador implantável.",
+   "O eletroencefalograma investiga epilepsia e não avalia as causas cardíacas suspeitadas neste caso."
+  ]
+ },
+ {
+  "q": "Paciente com fibrilação atrial de início há 8 horas, estável, com frequência de 130 bpm e sem anticoagulação prévia. Qual é a conduta?",
+  "alts": [
+   "Controlar a frequência e avaliar cardioversão, considerando sempre anticoagulação conforme o risco embólico.",
+   "Realizar cardioversão elétrica imediata sem qualquer avaliação de anticoagulação ou de risco embólico agora.",
+   "Iniciar apenas ácido acetilsalicílico e liberar o paciente para acompanhamento ambulatorial em trinta dias.",
+   "Iniciar antiarrítmico de classe I em paciente com cardiopatia estrutural conhecida para reverter o ritmo.",
+   "Aguardar quarenta e oito horas sem qualquer controle de frequência ou avaliação de anticoagulação agora."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ESC Atrial Fibrillation Guidelines, 2024; Diretriz Brasileira de Fibrilação Atrial — SBC, 2024",
+  "coment": "Na fibrilação atrial estável com início bem definido há menos de quarenta e oito horas, a cardioversão pode ser considerada sem ecocardiograma transesofágico prévio, mas a anticoagulação deve ser iniciada antes e mantida por pelo menos quatro semanas, com continuidade definida pelo escore CHA2DS2-VASc. Enquanto isso, controla-se a frequência com betabloqueador ou bloqueador de canal de cálcio não di-hidropiridínico. Instabilidade indica cardioversão imediata.",
+  "porAlt": [
+   "Correta: controlar a frequência e avaliar cardioversão, com anticoagulação definida pelo risco embólico.",
+   "Cardioverter sem qualquer anticoagulação expõe o paciente a evento embólico peri-cardioversão.",
+   "O antiagregante não protege contra embolia e liberar sem controle de frequência é inadequado.",
+   "Antiarrítmicos de classe I são contraindicados na presença de cardiopatia estrutural significativa.",
+   "Aguardar sem controlar a frequência mantém a taquicardia e o risco de taquicardiomiopatia."
+  ]
+ },
+ {
+  "q": "Paciente com miocardite aguda confirmada apresenta dor torácica, elevação de troponina e fração de ejeção de 40%. Qual é a orientação sobre atividade física?",
+  "alts": [
+   "Restringir esforço físico por três a seis meses, reavaliando sempre função e arritmias antes da liberação.",
+   "Liberar a atividade física competitiva imediatamente após a normalização da troponina no exame de sangue.",
+   "Prescrever repouso absoluto no leito por doze meses como conduta padrão após a miocardite aguda agora.",
+   "Liberar qualquer esforço desde o início, pois a miocardite não impõe restrição de atividade física agora.",
+   "Indicar transplante cardíaco imediato em todos os casos de miocardite com fração de ejeção reduzida agora."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "ESC Guidelines on myocarditis and pericarditis, 2025; AHA scientific statement on myocarditis in athletes, revisão 2023",
+  "coment": "Na miocardite aguda recomenda-se restrição de esforço físico por três a seis meses, porque a inflamação miocárdica é substrato de arritmia ventricular e morte súbita, sobretudo durante o exercício. A liberação depende de reavaliação com eletrocardiograma, ecocardiograma mostrando recuperação da função, Holter sem arritmias relevantes e, quando disponível, ressonância cardíaca demonstrando resolução do edema e da inflamação ativa.",
+  "porAlt": [
+   "Correta: restringir esforço por três a seis meses e reavaliar função e arritmias antes de liberar.",
+   "A normalização da troponina não garante resolução da inflamação nem ausência de substrato arrítmico.",
+   "O repouso absoluto por doze meses é excessivo e causa descondicionamento sem benefício adicional.",
+   "A miocardite impõe restrição por risco de arritmia ventricular e morte súbita durante o esforço.",
+   "O transplante se reserva a formas fulminantes refratárias, e não a toda disfunção ventricular transitória."
+  ]
+ },
+ {
+  "q": "Paciente com pericardite aguda apresenta dor pleurítica que melhora ao sentar-se, atrito pericárdico e supradesnivelamento difuso de ST. Qual é o tratamento?",
+  "alts": [
+   "Anti-inflamatório não hormonal associado a colchicina, mantidos sempre por semanas com desmame programado.",
+   "Corticoide sistêmico em dose alta como primeira linha para todos os pacientes com pericardite aguda agora.",
+   "Antibiótico endovenoso de amplo espectro como tratamento empírico padrão da pericardite aguda idiopática.",
+   "Anticoagulação plena imediata como tratamento de escolha diante do supradesnivelamento difuso de ST agora.",
+   "Pericardiocentese de rotina em todos os casos de pericardite aguda com atrito pericárdico audível agora."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESC Guidelines on myocarditis and pericarditis, 2025; Diretriz Brasileira — SBC, revisão 2022",
+  "coment": "O tratamento da pericardite aguda idiopática ou viral combina anti-inflamatório não hormonal em dose alta com colchicina por três meses, associação que reduz de forma expressiva a recorrência. Restringe-se o esforço físico até a resolução dos sintomas e a normalização dos marcadores. O corticoide é evitado na primeira linha porque aumenta o risco de recorrência, ficando reservado a contraindicação ou falha dos anti-inflamatórios e a etiologias específicas.",
+  "porAlt": [
+   "Correta: anti-inflamatório não hormonal com colchicina, associação que reduz muito a recorrência.",
+   "O corticoide em primeira linha aumenta o risco de recorrência da pericardite e é evitado.",
+   "A pericardite aguda é habitualmente viral ou idiopática e não exige antibiótico empírico de rotina.",
+   "A anticoagulação não é indicada e aumenta o risco de transformação hemorrágica do derrame.",
+   "A pericardiocentese se indica no tamponamento ou na suspeita de etiologia específica, e não de rotina."
+  ]
+ },
+ {
+  "q": "Paciente de 70 anos com hipertensão resistente em uso de três anti-hipertensivos, incluindo diurético, em doses otimizadas. Qual é o próximo passo?",
+  "alts": [
+   "Confirmar adesão e medida correta, investigando sempre causas secundárias antes de acrescentar o quarto fármaco.",
+   "Acrescentar imediatamente o quarto fármaco sem qualquer confirmação de adesão ou de técnica de medida agora.",
+   "Suspender todos os anti-hipertensivos e reiniciar do zero com monoterapia em dose baixa no paciente neste caso já.",
+   "Indicar denervação renal imediata em todos os pacientes com hipertensão resistente a três fármacos neste caso.",
+   "Reduzir a dose do diurético em uso, medida indicada para o controle da hipertensão resistente descrita agora."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; ESC hypertension guidelines, 2024",
+  "coment": "Antes de rotular hipertensão resistente, é preciso excluir pseudorresistência: má adesão, técnica de medida inadequada, manguito incorreto, efeito do jaleco branco — confirmado por monitorização ambulatorial — e uso de substâncias que elevam a pressão, como anti-inflamatórios, corticoides, descongestionantes e álcool. Confirmada a resistência, investigam-se causas secundárias e acrescenta-se espironolactona, que é o quarto fármaco de escolha.",
+  "porAlt": [
+   "Correta: confirmar adesão e técnica e investigar causas secundárias antes do quarto fármaco.",
+   "Acrescentar fármaco sem excluir pseudorresistência trata um problema que pode não existir.",
+   "Reiniciar do zero deixa o paciente descoberto e desperdiça esquemas já parcialmente eficazes.",
+   "A denervação renal é opção selecionada após investigação completa, e não conduta imediata.",
+   "Reduzir o diurético piora o controle, já que o excesso de volume é mecanismo central da resistência."
+  ]
+ },
+ {
+  "q": "Paciente de 58 anos assintomático, sem doença cardiovascular, com risco intermediário pelo escore global. Qual exame pode reclassificar o risco?",
+  "alts": [
+   "Escore de cálcio coronariano por tomografia, útil sempre para reclassificar pacientes de risco intermediário.",
+   "Teste ergométrico de rotina em todos os assintomáticos como método preferencial de reclassificação do risco.",
+   "Cateterismo cardíaco eletivo como método inicial de estratificação em pacientes assintomáticos neste caso.",
+   "Cintilografia miocárdica anual em todos os assintomáticos como estratégia de reclassificação do risco agora.",
+   "Ecocardiograma de estresse de rotina em todos os assintomáticos de risco intermediário sem sintomas agora."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "Atualização da Diretriz Brasileira de Prevenção Cardiovascular — SBC, 2024; ACC/AHA Guideline on the Primary Prevention of Cardiovascular Disease, revisão 2023",
+  "coment": "No paciente assintomático de risco intermediário, em que a decisão sobre estatina é incerta, o escore de cálcio coronariano é o marcador com melhor evidência de reclassificação: escore zero identifica risco muito baixo e permite adiar a estatina, enquanto valores elevados reclassificam para alto risco e reforçam o tratamento. Testes funcionais como ergometria e cintilografia não são recomendados para rastreio em assintomáticos.",
+  "porAlt": [
+   "Correta: escore de cálcio coronariano reclassifica o risco em pacientes intermediários e assintomáticos.",
+   "O teste ergométrico em assintomáticos gera muitos falso-positivos e não é recomendado como rastreio.",
+   "O cateterismo é invasivo e não tem papel na estratificação de risco em pacientes assintomáticos.",
+   "A cintilografia anual expõe a radiação sem benefício comprovado em pacientes sem sintomas.",
+   "O ecocardiograma de estresse não é indicado como rastreio em assintomáticos de risco intermediário."
+  ]
+ },
+ {
+  "q": "Paciente com suspeita de endocardite infecciosa. Qual é a conduta inicial quanto às hemoculturas?",
+  "alts": [
+   "Colher três pares de hemoculturas em sítios distintos antes de iniciar sempre a antibioticoterapia empírica.",
+   "Colher um único par de hemoculturas após o início do antibiótico empírico já administrado ao paciente agora.",
+   "Não colher hemoculturas e iniciar antibiótico empírico de amplo espectro em todos os casos suspeitos agora.",
+   "Colher apenas urocultura, exame suficiente para identificar o agente etiológico da endocardite suspeitada.",
+   "Aguardar sete dias de febre antes de colher qualquer hemocultura no paciente com suspeita de endocardite já."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ESC Guidelines for the management of endocarditis, 2023; AHA scientific statement on infective endocarditis, 2023",
+  "coment": "A identificação do agente é determinante no tratamento e no prognóstico da endocardite. Colhem-se pelo menos três pares de hemoculturas de sítios de punção distintos, com intervalo, antes do início do antibiótico, pois uma única dose prévia reduz muito a chance de crescimento. Em paciente instável ou com sepse, colhem-se as amostras rapidamente e inicia-se a terapia empírica, sem atraso relevante. Hemoculturas negativas exigem pesquisa de agentes fastidiosos.",
+  "porAlt": [
+   "Correta: três pares de hemoculturas em sítios distintos antes do início do antibiótico empírico.",
+   "Colher após o antibiótico reduz muito a chance de identificar o agente responsável pela infecção.",
+   "Não colher inviabiliza a terapia dirigida e o ajuste da duração conforme o germe identificado.",
+   "A urocultura não identifica o agente da endocardite, cuja pesquisa se faz por hemoculturas seriadas.",
+   "Aguardar sete dias atrasa o tratamento de uma infecção com alta morbidade e mortalidade."
+  ]
+ },
+ {
+  "q": "Paciente com dor torácica atípica e probabilidade pré-teste intermediária de doença coronariana. Qual é o exame inicial preferencial?",
+  "alts": [
+   "Angiotomografia de coronárias, exame que avalia sempre a anatomia e tem alto valor preditivo negativo.",
+   "Cateterismo cardíaco invasivo como primeiro exame em todos os pacientes de probabilidade intermediária.",
+   "Apenas eletrocardiograma de repouso seriado, exame suficiente para excluir doença coronariana obstrutiva.",
+   "Apenas dosagem de troponina isolada em paciente sem dor no momento da avaliação ambulatorial agora.",
+   "Ecocardiograma de repouso isolado, exame que exclui doença coronariana obstrutiva com segurança agora."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ESC Guidelines for the management of chronic coronary syndromes, 2024; Diretriz Brasileira de Doença Coronária Crônica — SBC, 2023",
+  "coment": "Nas síndromes coronarianas crônicas com probabilidade pré-teste baixa a intermediária, a angiotomografia de coronárias é o exame inicial preferencial nas diretrizes atuais, por seu altíssimo valor preditivo negativo, que praticamente exclui doença obstrutiva quando normal. Testes funcionais são preferidos em probabilidade mais alta ou quando se busca demonstrar isquemia. O cateterismo se reserva a alto risco ou a candidatos à revascularização.",
+  "porAlt": [
+   "Correta: angiotomografia de coronárias, com altíssimo valor preditivo negativo nessa probabilidade.",
+   "O cateterismo é invasivo e se reserva a alto risco ou a candidatos à revascularização coronariana.",
+   "O eletrocardiograma de repouso normal não exclui doença coronariana obstrutiva significativa.",
+   "A troponina isolada fora do episódio de dor não avalia doença coronariana crônica estável.",
+   "O ecocardiograma de repouso avalia função e valvas, mas não exclui obstrução coronariana."
+  ]
+ },
+ {
+  "q": "Paciente com insuficiência cardíaca descompensada apresenta congestão pulmonar, pressão arterial de 150/90 mmHg e boa perfusão periférica. Qual é a conduta?",
+  "alts": [
+   "Diurético endovenoso com vasodilatador, tratando sempre o perfil congesto com perfusão adequada.",
+   "Reposição volêmica vigorosa com cristaloide como primeira medida no paciente congesto descrito.",
+   "Inotrópico endovenoso em dose plena como primeira escolha nesse perfil hemodinâmico apresentado.",
+   "Suspender definitivamente todos os fármacos que reduzem mortalidade na insuficiência cardíaca crônica.",
+   "Iniciar antibiótico de amplo espectro como tratamento padrão de toda descompensação cardíaca."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024; ESC Heart Failure Guidelines, 2021 com atualização 2023",
+  "coment": "A classificação clínico-hemodinâmica em perfis orienta o tratamento da descompensação: o perfil quente e úmido, com congestão e perfusão preservada, é o mais frequente e responde a diurético de alça endovenoso, associado a vasodilatador quando a pressão permite. Inotrópico se reserva ao perfil frio e úmido, com baixo débito e hipoperfusão. Os fármacos que reduzem mortalidade são mantidos sempre que possível, com ajuste de dose se necessário.",
+  "porAlt": [
+   "Correta: diurético endovenoso com vasodilatador no perfil congesto com perfusão periférica adequada.",
+   "A reposição volêmica agrava a congestão pulmonar já instalada e piora a hipoxemia do paciente.",
+   "O inotrópico se reserva ao baixo débito com hipoperfusão, ausente neste paciente bem perfundido.",
+   "Suspender os fármacos que reduzem mortalidade piora o prognóstico; ajusta-se a dose se necessário.",
+   "O antibiótico só entra quando há infecção documentada como fator desencadeante da descompensação."
+  ]
+ }
+]

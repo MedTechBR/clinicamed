@@ -9840,78 +9840,6 @@ window.BANCO=[
 ]
 },
 {
-"q": "Paciente com placas anulares descamativas pruriginosas em tronco, com borda ativa e centro claro. Qual é o tratamento?",
-"alts": [
-"Antifúngico tópico por quatro semanas, considerando sempre a via oral se houver lesões extensas.",
-"Corticoide tópico de alta potência isolado, tratamento de escolha para as lesões anulares descritas.",
-"Antibiótico sistêmico por dez dias, tratamento indicado para as placas anulares descamativas do tronco.",
-"Fototerapia com ultravioleta como tratamento inicial de escolha para essas lesões anulares no tronco.",
-"Imunossupressor sistêmico contínuo como tratamento de primeira linha das lesões cutâneas descritas."
-],
-"gab": 0,
-"tema": "derma",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r1",
-"base": "Sociedade Brasileira de Dermatologia — consenso de dermatofitoses, 2022; British Association of Dermatologists guidelines, 2023",
-"coment": "A lesão anular com borda ativa descamativa e clareamento central é a apresentação clássica da tinea corporis. O tratamento de lesões localizadas é antifúngico tópico, como terbinafina ou azólico, por duas a quatro semanas, mantido por uma semana após a resolução clínica. Lesões extensas, foliculares ou refratárias, e o acometimento de couro cabeludo e unhas, exigem tratamento sistêmico. Corticoide tópico isolado mascara e agrava a infecção.",
-"porAlt": [
-"Correta: antifúngico tópico por quatro semanas, com via oral reservada a lesões extensas ou refratárias.",
-"O corticoide isolado modifica a lesão e agrava a infecção fúngica, produzindo tinha incógnita.",
-"O antibiótico não trata dermatofitose, que é infecção fúngica superficial e não bacteriana.",
-"A fototerapia trata psoríase e outras dermatoses inflamatórias, e não infecções fúngicas cutâneas.",
-"O imunossupressor agrava a infecção fúngica ao reduzir ainda mais a resposta local do hospedeiro."
-]
-},
-{
-"q": "Paciente com acne inflamatória moderada, com pápulas e pústulas, sem resposta a tratamento tópico isolado. Qual é o próximo passo?",
-"alts": [
-"Antibiótico oral associado a retinoide tópico, mantido sempre por período limitado para evitar resistência.",
-"Isotretinoína oral imediatamente em todos os pacientes com acne inflamatória de grau moderado neste caso.",
-"Corticoide sistêmico contínuo em dose baixa como próximo passo no tratamento da acne moderada neste caso.",
-"Antibiótico oral em monoterapia por tempo indeterminado como estratégia de manutenção do controle agora.",
-"Apenas limpeza de pele mensal, medida suficiente para o controle da acne inflamatória moderada neste caso."
-],
-"gab": 0,
-"tema": "derma",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r1",
-"base": "AAD guidelines of care for the management of acne vulgaris, 2024; Sociedade Brasileira de Dermatologia, 2022",
-"coment": "Na acne inflamatória moderada sem resposta ao tratamento tópico, associa-se antibiótico oral, geralmente doxiciclina, sempre combinado a retinoide tópico e peróxido de benzoíla, que reduzem resistência bacteriana. O antibiótico é limitado a três ou quatro meses, com manutenção posterior apenas tópica. A isotretinoína oral é indicada na acne grave, nodulocística, com cicatrizes ou refratária, exigindo contracepção rigorosa em mulheres.",
-"porAlt": [
-"Correta: antibiótico oral com retinoide tópico, por período limitado para reduzir resistência bacteriana.",
-"A isotretinoína se reserva à acne grave, com cicatrizes ou refratária ao tratamento convencional.",
-"O corticoide sistêmico contínuo não é tratamento da acne e pode inclusive desencadear erupção acneiforme.",
-"O antibiótico em monoterapia prolongada seleciona resistência e não é estratégia de manutenção.",
-"A limpeza de pele é adjuvante estético e não controla a inflamação folicular da acne moderada."
-]
-},
-{
-"q": "Paciente com prurido intenso predominantemente noturno, lesões em espaços interdigitais e punhos, com familiares acometidos. Qual é a conduta?",
-"alts": [
-"Tratar com escabicida tópico ou oral e tratar sempre todos os contatos domiciliares simultaneamente.",
-"Tratar apenas o paciente com corticoide tópico, sem qualquer abordagem dos contatos domiciliares.",
-"Prescrever apenas anti-histamínico oral, medida suficiente para a resolução completa do quadro.",
-"Iniciar antibiótico sistêmico prolongado como tratamento de escolha para o prurido noturno descrito.",
-"Aguardar a resolução espontânea do quadro sem qualquer tratamento específico ou medida de controle."
-],
-"gab": 0,
-"tema": "derma",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r1",
-"base": "CDC Parasites — Scabies clinical guidance, revisão 2024; Sociedade Brasileira de Dermatologia, 2022",
-"coment": "A escabiose cursa com prurido de predomínio noturno e lesões em espaços interdigitais, punhos, axilas, cintura e genitália, com frequente acometimento familiar. O tratamento é permetrina tópica a 5% ou ivermectina oral, e o ponto crítico é tratar simultaneamente todos os contatos domiciliares, mesmo assintomáticos, além de lavar roupas de cama e vestuário em água quente. O prurido pode persistir semanas após a cura, sem indicar falha.",
-"porAlt": [
-"Correta: escabicida tópico ou oral com tratamento simultâneo de todos os contatos domiciliares.",
-"Tratar apenas o paciente perpetua o ciclo de reinfestação a partir dos contatos não tratados.",
-"O anti-histamínico alivia o prurido, mas não elimina o ácaro responsável pela infestação.",
-"O antibiótico só entra se houver impetiginização secundária das lesões escoriadas pelo prurido.",
-"A escabiose não se resolve espontaneamente e a transmissão continua sem tratamento adequado."
-]
-},
-{
 "q": "Paciente diabético com úlcera plantar de bordas calosas, indolor, sobre proeminência óssea. Qual é a conduta?",
 "alts": [
 "Desbridamento, alívio de pressão e avaliação vascular, investigando sempre a presença de osteomielite.",
@@ -9933,30 +9861,6 @@ window.BANCO=[
 "O antibiótico isolado sem desbridamento e descarga não resolve a úlcera neuropática plantar.",
 "A amputação é medida de exceção, e a maioria das úlceras cicatriza com tratamento adequado.",
 "Manter a deambulação sem descarga perpetua a pressão que impede a cicatrização da lesão."
-]
-},
-{
-"q": "Paciente com lesões eritematodescamativas em couro cabeludo, sulco nasogeniano e região retroauricular, com prurido leve. Qual é o tratamento?",
-"alts": [
-"Antifúngico tópico com corticoide de baixa potência, mantidos sempre em esquema intermitente de manutenção.",
-"Corticoide sistêmico em dose alta prolongada como tratamento de escolha para as lesões descritas agora.",
-"Antibiótico oral por três semanas, tratamento indicado para as lesões eritematodescamativas faciais agora.",
-"Isotretinoína oral em dose plena como tratamento de primeira linha para o quadro cutâneo descrito agora.",
-"Imunossupressor sistêmico contínuo como tratamento inicial das lesões em couro cabeludo e face neste caso."
-],
-"gab": 0,
-"tema": "derma",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r1",
-"base": "AAD guidelines of care for seborrheic dermatitis, 2024; Sociedade Brasileira de Dermatologia, 2022",
-"coment": "A dermatite seborreica acomete áreas ricas em glândulas sebáceas e se associa à proliferação de Malassezia. O tratamento combina antifúngico tópico — cetoconazol ou ciclopirox — com corticoide de baixa potência por curtos períodos nas fases inflamatórias, e xampus medicamentosos no couro cabeludo. É condição crônica e recidivante, exigindo manutenção intermitente. Formas extensas e refratárias devem levantar suspeita de imunossupressão, incluindo HIV.",
-"porAlt": [
-"Correta: antifúngico tópico com corticoide de baixa potência e manutenção intermitente de longo prazo.",
-"O corticoide sistêmico prolongado é desproporcional e traz toxicidade sem benefício sustentado.",
-"O antibiótico não trata a dermatite seborreica, cuja associação é com fungo lipofílico da pele.",
-"A isotretinoína trata acne grave e não é a primeira linha para a dermatite seborreica descrita.",
-"O imunossupressor sistêmico é desproporcional para uma dermatose crônica de manejo tópico."
 ]
 },
 {
@@ -10053,30 +9957,6 @@ window.BANCO=[
 "Não há infecção bacteriana envolvida no mecanismo da acantose nigricans descrita neste caso.",
 "A exérese cirúrgica é desproporcional e não impede a recorrência enquanto a causa persistir.",
 "O antifúngico não tem papel, pois a lesão não decorre de infecção fúngica da pele acometida."
-]
-},
-{
-"q": "Paciente com queimadura solar extensa e bolhas em dorso após exposição prolongada. Qual é a conduta?",
-"alts": [
-"Analgesia, hidratação da pele e cuidado local, avaliando sempre a extensão e o estado de hidratação.",
-"Romper todas as bolhas em consultório e aplicar antisséptico alcoólico sobre as áreas descobertas.",
-"Aplicar corticoide sistêmico em dose alta e prolongada como tratamento padrão da queimadura solar.",
-"Prescrever antibiótico sistêmico profilático para todos os pacientes com queimadura solar bolhosa.",
-"Aplicar gelo diretamente sobre a pele queimada por períodos prolongados como principal medida local."
-],
-"gab": 0,
-"tema": "derma",
-"cenario": "amb",
-"comp": "tto",
-"nivel": "r1",
-"base": "AAD clinical guidance on sunburn management, revisão 2023; American Burn Association, 2023",
-"coment": "A queimadura solar com bolhas corresponde a queimadura de segundo grau superficial. O manejo é analgesia com anti-inflamatório ou paracetamol, compressas frias — nunca gelo direto, que agrava a lesão —, hidratação da pele e da via oral, e cuidado local mantendo as bolhas íntegras sempre que possível, pois funcionam como curativo biológico. Antibiótico profilático não é indicado, e extensão importante exige avaliação como queimadura extensa.",
-"porAlt": [
-"Correta: analgesia, hidratação e cuidado local, com avaliação da extensão e do estado de hidratação.",
-"Romper as bolhas remove a barreira biológica e o antisséptico alcoólico agrava a dor e a lesão.",
-"O corticoide sistêmico prolongado não é tratamento padrão e traz toxicidade desnecessária.",
-"A profilaxia antibiótica não é indicada e favorece a seleção de germes resistentes na pele.",
-"O gelo direto sobre a pele queimada aprofunda a lesão por vasoconstrição e lesão térmica local."
 ]
 },
 {
@@ -10797,6 +10677,966 @@ window.BANCO=[
 "A acidose láctica cursa com acidose metabólica de ânion gap elevado, sem a hiperglicemia extrema.",
 "O quadro descrito é de hiperglicemia grave, e não de hipoglicemia com rebaixamento de consciência.",
 "A insuficiência adrenal cursa com hipoglicemia e hiponatremia, exatamente o oposto do descrito."
+]
+},
+{
+"q": "Paciente de 62 anos com insuficiência cardíaca e fração de ejeção de 28%, em ritmo sinusal, com QRS de 160 ms e bloqueio de ramo esquerdo, sintomático apesar de terapia otimizada. Qual é a conduta?",
+"alts": [
+"Indicar terapia de ressincronização cardíaca, indicada sempre nesse padrão eletrocardiográfico e funcional.",
+"Aumentar indefinidamente a dose do diurético de alça como próxima medida para o controle dos sintomas.",
+"Iniciar antiarrítmico de classe I em dose plena para o controle da condução intraventricular alterada.",
+"Indicar apenas transplante cardíaco, sem qualquer avaliação de dispositivo de ressincronização prévia.",
+"Suspender o betabloqueador diante da fração de ejeção reduzida e do alargamento do complexo QRS agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024; ESC Guidelines on cardiac pacing and cardiac resynchronization therapy, 2021",
+"coment": "A terapia de ressincronização cardíaca é indicação classe I em pacientes sintomáticos com fração de ejeção igual ou inferior a 35 por cento, ritmo sinusal, bloqueio de ramo esquerdo e QRS igual ou superior a 150 ms, apesar de terapia medicamentosa otimizada. O benefício inclui melhora de sintomas, remodelamento reverso e redução de mortalidade. Quanto mais largo o QRS e mais típico o padrão de bloqueio de ramo esquerdo, maior a chance de resposta.",
+"porAlt": [
+"Correta: ressincronização cardíaca é indicação classe I nesse padrão de QRS e de função ventricular.",
+"O diurético alivia congestão, mas não corrige a dissincronia nem melhora a sobrevida do paciente.",
+"Antiarrítmicos de classe I são contraindicados na cardiopatia estrutural por risco pró-arrítmico.",
+"O transplante é considerado após esgotar as terapias disponíveis, incluindo o dispositivo indicado.",
+"Suspender o betabloqueador retira um pilar que reduz mortalidade nessa forma de insuficiência cardíaca."
+]
+},
+{
+"q": "Paciente de 45 anos com síncope durante esforço e história familiar de morte súbita precoce. Qual é a conduta inicial?",
+"alts": [
+"Investigar cardiopatia estrutural e arritmogênica com eletrocardiograma e ecocardiograma, restringindo sempre o esforço.",
+"Atribuir o quadro a hipotensão postural e liberar o paciente sem qualquer investigação cardiológica nesse contexto.",
+"Prescrever apenas hidratação abundante e meias elásticas como tratamento definitivo do quadro descrito neste caso.",
+"Iniciar betabloqueador empírico sem qualquer investigação da causa estrutural ou elétrica da síncope nesse contexto.",
+"Solicitar apenas eletroencefalograma, exame que estabelece a causa da síncope de esforço descrita para este paciente."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death, 2022; Diretriz Brasileira de Arritmias — SBC, revisão 2022",
+"coment": "Síncope durante o esforço e história familiar de morte súbita precoce são sinais de alarme que apontam causa cardíaca: cardiomiopatia hipertrófica, displasia arritmogênica de ventrículo direito, canalopatias como síndrome do QT longo e Brugada, e estenose aórtica. A investigação inicia com eletrocardiograma e ecocardiograma, complementados por Holter, teste ergométrico, ressonância cardíaca e avaliação genética. Restringe-se o esforço até o esclarecimento.",
+"porAlt": [
+"Correta: investigar cardiopatia estrutural e arritmogênica, restringindo o esforço até o esclarecimento.",
+"Síncope de esforço com história familiar de morte súbita jamais deve ser tratada como benigna.",
+"Hidratação e meias tratam síncope neuromediada, hipótese improvável diante desse contexto de alarme.",
+"Tratar empiricamente sem diagnóstico pode mascarar condição que exige desfibrilador implantável.",
+"O eletroencefalograma investiga epilepsia e não avalia as causas cardíacas suspeitadas neste caso."
+]
+},
+{
+"q": "Paciente com fibrilação atrial de início há 8 horas, estável, com frequência de 130 bpm e sem anticoagulação prévia. Qual é a conduta?",
+"alts": [
+"Controlar a frequência e avaliar cardioversão, considerando sempre anticoagulação conforme o risco embólico.",
+"Realizar cardioversão elétrica imediata sem qualquer avaliação de anticoagulação ou de risco embólico agora.",
+"Iniciar apenas ácido acetilsalicílico e liberar o paciente para acompanhamento ambulatorial em trinta dias.",
+"Iniciar antiarrítmico de classe I em paciente com cardiopatia estrutural conhecida para reverter o ritmo.",
+"Aguardar quarenta e oito horas sem qualquer controle de frequência ou avaliação de anticoagulação agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ESC Atrial Fibrillation Guidelines, 2024; Diretriz Brasileira de Fibrilação Atrial — SBC, 2024",
+"coment": "Na fibrilação atrial estável com início bem definido há menos de quarenta e oito horas, a cardioversão pode ser considerada sem ecocardiograma transesofágico prévio, mas a anticoagulação deve ser iniciada antes e mantida por pelo menos quatro semanas, com continuidade definida pelo escore CHA2DS2-VASc. Enquanto isso, controla-se a frequência com betabloqueador ou bloqueador de canal de cálcio não di-hidropiridínico. Instabilidade indica cardioversão imediata.",
+"porAlt": [
+"Correta: controlar a frequência e avaliar cardioversão, com anticoagulação definida pelo risco embólico.",
+"Cardioverter sem qualquer anticoagulação expõe o paciente a evento embólico peri-cardioversão.",
+"O antiagregante não protege contra embolia e liberar sem controle de frequência é inadequado.",
+"Antiarrítmicos de classe I são contraindicados na presença de cardiopatia estrutural significativa.",
+"Aguardar sem controlar a frequência mantém a taquicardia e o risco de taquicardiomiopatia."
+]
+},
+{
+"q": "Paciente com miocardite aguda confirmada apresenta dor torácica, elevação de troponina e fração de ejeção de 40%. Qual é a orientação sobre atividade física?",
+"alts": [
+"Restringir esforço físico por três a seis meses, reavaliando sempre função e arritmias antes da liberação.",
+"Liberar a atividade física competitiva imediatamente após a normalização da troponina no exame de sangue.",
+"Prescrever repouso absoluto no leito por doze meses como conduta padrão após a miocardite aguda agora.",
+"Liberar qualquer esforço desde o início, pois a miocardite não impõe restrição de atividade física agora.",
+"Indicar transplante cardíaco imediato em todos os casos de miocardite com fração de ejeção reduzida agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "ESC Guidelines on myocarditis and pericarditis, 2025; AHA scientific statement on myocarditis in athletes, revisão 2023",
+"coment": "Na miocardite aguda recomenda-se restrição de esforço físico por três a seis meses, porque a inflamação miocárdica é substrato de arritmia ventricular e morte súbita, sobretudo durante o exercício. A liberação depende de reavaliação com eletrocardiograma, ecocardiograma mostrando recuperação da função, Holter sem arritmias relevantes e, quando disponível, ressonância cardíaca demonstrando resolução do edema e da inflamação ativa.",
+"porAlt": [
+"Correta: restringir esforço por três a seis meses e reavaliar função e arritmias antes de liberar.",
+"A normalização da troponina não garante resolução da inflamação nem ausência de substrato arrítmico.",
+"O repouso absoluto por doze meses é excessivo e causa descondicionamento sem benefício adicional.",
+"A miocardite impõe restrição por risco de arritmia ventricular e morte súbita durante o esforço.",
+"O transplante se reserva a formas fulminantes refratárias, e não a toda disfunção ventricular transitória."
+]
+},
+{
+"q": "Paciente com pericardite aguda apresenta dor pleurítica que melhora ao sentar-se, atrito pericárdico e supradesnivelamento difuso de ST. Qual é o tratamento?",
+"alts": [
+"Anti-inflamatório não hormonal associado a colchicina, mantidos sempre por semanas com desmame programado.",
+"Corticoide sistêmico em dose alta como primeira linha para todos os pacientes com pericardite aguda agora.",
+"Antibiótico endovenoso de amplo espectro como tratamento empírico padrão da pericardite aguda idiopática.",
+"Anticoagulação plena imediata como tratamento de escolha diante do supradesnivelamento difuso de ST agora.",
+"Pericardiocentese de rotina em todos os casos de pericardite aguda com atrito pericárdico audível agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "ESC Guidelines on myocarditis and pericarditis, 2025; Diretriz Brasileira — SBC, revisão 2022",
+"coment": "O tratamento da pericardite aguda idiopática ou viral combina anti-inflamatório não hormonal em dose alta com colchicina por três meses, associação que reduz de forma expressiva a recorrência. Restringe-se o esforço físico até a resolução dos sintomas e a normalização dos marcadores. O corticoide é evitado na primeira linha porque aumenta o risco de recorrência, ficando reservado a contraindicação ou falha dos anti-inflamatórios e a etiologias específicas.",
+"porAlt": [
+"Correta: anti-inflamatório não hormonal com colchicina, associação que reduz muito a recorrência.",
+"O corticoide em primeira linha aumenta o risco de recorrência da pericardite e é evitado.",
+"A pericardite aguda é habitualmente viral ou idiopática e não exige antibiótico empírico de rotina.",
+"A anticoagulação não é indicada e aumenta o risco de transformação hemorrágica do derrame.",
+"A pericardiocentese se indica no tamponamento ou na suspeita de etiologia específica, e não de rotina."
+]
+},
+{
+"q": "Paciente de 70 anos com hipertensão resistente em uso de três anti-hipertensivos, incluindo diurético, em doses otimizadas. Qual é o próximo passo?",
+"alts": [
+"Confirmar adesão e medida correta, investigando sempre causas secundárias antes de acrescentar o quarto fármaco.",
+"Acrescentar imediatamente o quarto fármaco sem qualquer confirmação de adesão ou de técnica de medida agora.",
+"Suspender todos os anti-hipertensivos e reiniciar do zero com monoterapia em dose baixa no paciente neste caso já.",
+"Indicar denervação renal imediata em todos os pacientes com hipertensão resistente a três fármacos neste caso.",
+"Reduzir a dose do diurético em uso, medida indicada para o controle da hipertensão resistente descrita agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; ESC hypertension guidelines, 2024",
+"coment": "Antes de rotular hipertensão resistente, é preciso excluir pseudorresistência: má adesão, técnica de medida inadequada, manguito incorreto, efeito do jaleco branco — confirmado por monitorização ambulatorial — e uso de substâncias que elevam a pressão, como anti-inflamatórios, corticoides, descongestionantes e álcool. Confirmada a resistência, investigam-se causas secundárias e acrescenta-se espironolactona, que é o quarto fármaco de escolha.",
+"porAlt": [
+"Correta: confirmar adesão e técnica e investigar causas secundárias antes do quarto fármaco.",
+"Acrescentar fármaco sem excluir pseudorresistência trata um problema que pode não existir.",
+"Reiniciar do zero deixa o paciente descoberto e desperdiça esquemas já parcialmente eficazes.",
+"A denervação renal é opção selecionada após investigação completa, e não conduta imediata.",
+"Reduzir o diurético piora o controle, já que o excesso de volume é mecanismo central da resistência."
+]
+},
+{
+"q": "Paciente de 58 anos assintomático, sem doença cardiovascular, com risco intermediário pelo escore global. Qual exame pode reclassificar o risco?",
+"alts": [
+"Escore de cálcio coronariano por tomografia, útil sempre para reclassificar pacientes de risco intermediário.",
+"Teste ergométrico de rotina em todos os assintomáticos como método preferencial de reclassificação do risco.",
+"Cateterismo cardíaco eletivo como método inicial de estratificação em pacientes assintomáticos neste caso.",
+"Cintilografia miocárdica anual em todos os assintomáticos como estratégia de reclassificação do risco agora.",
+"Ecocardiograma de estresse de rotina em todos os assintomáticos de risco intermediário sem sintomas agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "Atualização da Diretriz Brasileira de Prevenção Cardiovascular — SBC, 2024; ACC/AHA Guideline on the Primary Prevention of Cardiovascular Disease, revisão 2023",
+"coment": "No paciente assintomático de risco intermediário, em que a decisão sobre estatina é incerta, o escore de cálcio coronariano é o marcador com melhor evidência de reclassificação: escore zero identifica risco muito baixo e permite adiar a estatina, enquanto valores elevados reclassificam para alto risco e reforçam o tratamento. Testes funcionais como ergometria e cintilografia não são recomendados para rastreio em assintomáticos.",
+"porAlt": [
+"Correta: escore de cálcio coronariano reclassifica o risco em pacientes intermediários e assintomáticos.",
+"O teste ergométrico em assintomáticos gera muitos falso-positivos e não é recomendado como rastreio.",
+"O cateterismo é invasivo e não tem papel na estratificação de risco em pacientes assintomáticos.",
+"A cintilografia anual expõe a radiação sem benefício comprovado em pacientes sem sintomas.",
+"O ecocardiograma de estresse não é indicado como rastreio em assintomáticos de risco intermediário."
+]
+},
+{
+"q": "Paciente com suspeita de endocardite infecciosa. Qual é a conduta inicial quanto às hemoculturas?",
+"alts": [
+"Colher três pares de hemoculturas em sítios distintos antes de iniciar sempre a antibioticoterapia empírica.",
+"Colher um único par de hemoculturas após o início do antibiótico empírico já administrado ao paciente agora.",
+"Não colher hemoculturas e iniciar antibiótico empírico de amplo espectro em todos os casos suspeitos agora.",
+"Colher apenas urocultura, exame suficiente para identificar o agente etiológico da endocardite suspeitada.",
+"Aguardar sete dias de febre antes de colher qualquer hemocultura no paciente com suspeita de endocardite já."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESC Guidelines for the management of endocarditis, 2023; AHA scientific statement on infective endocarditis, 2023",
+"coment": "A identificação do agente é determinante no tratamento e no prognóstico da endocardite. Colhem-se pelo menos três pares de hemoculturas de sítios de punção distintos, com intervalo, antes do início do antibiótico, pois uma única dose prévia reduz muito a chance de crescimento. Em paciente instável ou com sepse, colhem-se as amostras rapidamente e inicia-se a terapia empírica, sem atraso relevante. Hemoculturas negativas exigem pesquisa de agentes fastidiosos.",
+"porAlt": [
+"Correta: três pares de hemoculturas em sítios distintos antes do início do antibiótico empírico.",
+"Colher após o antibiótico reduz muito a chance de identificar o agente responsável pela infecção.",
+"Não colher inviabiliza a terapia dirigida e o ajuste da duração conforme o germe identificado.",
+"A urocultura não identifica o agente da endocardite, cuja pesquisa se faz por hemoculturas seriadas.",
+"Aguardar sete dias atrasa o tratamento de uma infecção com alta morbidade e mortalidade."
+]
+},
+{
+"q": "Paciente com dor torácica atípica e probabilidade pré-teste intermediária de doença coronariana. Qual é o exame inicial preferencial?",
+"alts": [
+"Angiotomografia de coronárias, exame que avalia sempre a anatomia e tem alto valor preditivo negativo.",
+"Cateterismo cardíaco invasivo como primeiro exame em todos os pacientes de probabilidade intermediária.",
+"Apenas eletrocardiograma de repouso seriado, exame suficiente para excluir doença coronariana obstrutiva.",
+"Apenas dosagem de troponina isolada em paciente sem dor no momento da avaliação ambulatorial agora.",
+"Ecocardiograma de repouso isolado, exame que exclui doença coronariana obstrutiva com segurança agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESC Guidelines for the management of chronic coronary syndromes, 2024; Diretriz Brasileira de Doença Coronária Crônica — SBC, 2023",
+"coment": "Nas síndromes coronarianas crônicas com probabilidade pré-teste baixa a intermediária, a angiotomografia de coronárias é o exame inicial preferencial nas diretrizes atuais, por seu altíssimo valor preditivo negativo, que praticamente exclui doença obstrutiva quando normal. Testes funcionais são preferidos em probabilidade mais alta ou quando se busca demonstrar isquemia. O cateterismo se reserva a alto risco ou a candidatos à revascularização.",
+"porAlt": [
+"Correta: angiotomografia de coronárias, com altíssimo valor preditivo negativo nessa probabilidade.",
+"O cateterismo é invasivo e se reserva a alto risco ou a candidatos à revascularização coronariana.",
+"O eletrocardiograma de repouso normal não exclui doença coronariana obstrutiva significativa.",
+"A troponina isolada fora do episódio de dor não avalia doença coronariana crônica estável.",
+"O ecocardiograma de repouso avalia função e valvas, mas não exclui obstrução coronariana."
+]
+},
+{
+"q": "Paciente com insuficiência cardíaca descompensada apresenta congestão pulmonar, pressão arterial de 150/90 mmHg e boa perfusão periférica. Qual é a conduta?",
+"alts": [
+"Diurético endovenoso com vasodilatador, tratando sempre o perfil congesto com perfusão adequada.",
+"Reposição volêmica vigorosa com cristaloide como primeira medida no paciente congesto descrito.",
+"Inotrópico endovenoso em dose plena como primeira escolha nesse perfil hemodinâmico apresentado.",
+"Suspender definitivamente todos os fármacos que reduzem mortalidade na insuficiência cardíaca crônica.",
+"Iniciar antibiótico de amplo espectro como tratamento padrão de toda descompensação cardíaca."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024; ESC Heart Failure Guidelines, 2021 com atualização 2023",
+"coment": "A classificação clínico-hemodinâmica em perfis orienta o tratamento da descompensação: o perfil quente e úmido, com congestão e perfusão preservada, é o mais frequente e responde a diurético de alça endovenoso, associado a vasodilatador quando a pressão permite. Inotrópico se reserva ao perfil frio e úmido, com baixo débito e hipoperfusão. Os fármacos que reduzem mortalidade são mantidos sempre que possível, com ajuste de dose se necessário.",
+"porAlt": [
+"Correta: diurético endovenoso com vasodilatador no perfil congesto com perfusão periférica adequada.",
+"A reposição volêmica agrava a congestão pulmonar já instalada e piora a hipoxemia do paciente.",
+"O inotrópico se reserva ao baixo débito com hipoperfusão, ausente neste paciente bem perfundido.",
+"Suspender os fármacos que reduzem mortalidade piora o prognóstico; ajusta-se a dose se necessário.",
+"O antibiótico só entra quando há infecção documentada como fator desencadeante da descompensação."
+]
+},
+{
+"q": "Paciente com suspeita de sepse chega ao pronto-socorro com lactato de 4,5 mmol/L e hipotensão. Qual é o conjunto de medidas iniciais?",
+"alts": [
+"Culturas, antibiótico na primeira hora, cristaloide e lactato seriado, com vasopressor sempre se necessário.",
+"Aguardar as culturas e iniciar o antibiótico apenas após a identificação do agente etiológico responsável.",
+"Iniciar corticoide em dose alta isolado como primeira medida antes de qualquer antibiótico ou volume agora.",
+"Restringir a oferta de volume em todos os pacientes com hipotensão e lactato elevado na sepse neste caso.",
+"Transfundir hemácias como primeira medida em todos os pacientes sépticos com lactato acima de quatro agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "Surviving Sepsis Campaign, 2021 com atualização 2024; Instituto Latino-Americano de Sepse — protocolo, 2023",
+"coment": "O pacote inicial da sepse inclui dosar lactato e repeti-lo, colher culturas antes do antibiótico, administrar antimicrobiano de amplo espectro na primeira hora no choque séptico, iniciar cristaloide de trinta mililitros por quilo na hipotensão ou lactato acima de quatro, e usar vasopressor para manter pressão arterial média de 65 mmHg. A precocidade do antibiótico é a variável mais associada à sobrevida nesse conjunto de medidas.",
+"porAlt": [
+"Correta: culturas, antibiótico na primeira hora, cristaloide e lactato seriado, com vasopressor se necessário.",
+"Aguardar identificação do agente atrasa horas o antibiótico e aumenta muito a mortalidade.",
+"O corticoide não substitui antibiótico e volume, entrando no choque com vasopressor persistente.",
+"A restrição volêmica inicial no choque séptico hipotenso contraria a ressuscitação recomendada.",
+"A transfusão não é medida inicial e o alvo transfusional na sepse é restritivo, sem hemorragia."
+]
+},
+{
+"q": "Paciente com queda de saturação e dispneia súbita no pós-operatório de artroplastia de quadril, com taquicardia. Qual é a hipótese principal?",
+"alts": [
+"Tromboembolismo pulmonar, cuja investigação exige sempre estratificação de probabilidade antes da imagem.",
+"Crise asmática de início súbito, principal hipótese diagnóstica no pós-operatório de artroplastia de quadril.",
+"Pneumonia bacteriana instalada em poucas horas, hipótese mais provável nesse contexto pós-operatório.",
+"Anemia ferropriva crônica descompensada, causa mais provável da dispneia súbita nesse cenário clínico.",
+"Refluxo gastroesofágico agudizado, principal hipótese para a hipoxemia súbita no pós-operatório recente."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r1",
+"base": "ESC Guidelines on acute pulmonary embolism, 2019 com atualização 2024; ASH VTE guidelines, 2020",
+"coment": "Dispneia e hipoxemia súbitas com taquicardia no pós-operatório de cirurgia ortopédica de grande porte apontam tromboembolismo pulmonar, pois esse cenário reúne os três elementos da tríade de Virchow: estase, lesão endotelial e hipercoagulabilidade. A abordagem começa pela estratificação de probabilidade com escores como Wells ou Genebra, definindo se cabe dímero-D ou se vai direto à angiotomografia de tórax.",
+"porAlt": [
+"Correta: tromboembolismo pulmonar, com estratificação de probabilidade orientando a investigação.",
+"A crise asmática cursa com sibilância e história prévia de asma, ausentes na descrição do caso.",
+"A pneumonia bacteriana costuma cursar com febre e evolução em dias, e não com início súbito.",
+"A anemia crônica não causa hipoxemia súbita nem explica o quadro descrito no pós-operatório.",
+"O refluxo não causa hipoxemia súbita com taquicardia no pós-operatório de artroplastia."
+]
+},
+{
+"q": "Paciente intubado em ventilação mecânica por síndrome do desconforto respiratório agudo. Qual é a estratégia ventilatória correta?",
+"alts": [
+"Volume corrente baixo com pressão de platô limitada, mantendo sempre PEEP ajustada e hipercapnia permissiva.",
+"Volume corrente alto para melhorar a oxigenação e reduzir rapidamente a hipercapnia do paciente ventilado.",
+"Pressão de platô acima de trinta e cinco centímetros de água para recrutar completamente os alvéolos agora.",
+"PEEP zero em todos os pacientes para reduzir o risco de barotrauma durante a ventilação mecânica agora.",
+"Fração inspirada de oxigênio mantida em cem por cento durante todo o período de ventilação mecânica agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r2",
+"base": "ATS/ESICM/SCCM Clinical Practice Guideline on mechanical ventilation in ARDS, atualização 2023; ARDSNet protocol",
+"coment": "A ventilação protetora reduz mortalidade na síndrome do desconforto respiratório agudo: volume corrente de seis mililitros por quilo de peso predito, pressão de platô mantida abaixo de trinta centímetros de água, driving pressure abaixo de quinze e PEEP titulada conforme a gravidade da hipoxemia. Aceita-se hipercapnia permissiva desde que o pH se mantenha aceitável. Posição prona por dezesseis horas é indicada na hipoxemia grave.",
+"porAlt": [
+"Correta: volume corrente baixo, platô limitado, PEEP ajustada e hipercapnia permissiva tolerada.",
+"Volume corrente alto causa lesão induzida pela ventilação e aumenta a mortalidade nessa síndrome.",
+"Pressão de platô acima de trinta centímetros de água associa-se a maior lesão alveolar e mortalidade.",
+"PEEP zero favorece colapso alveolar cíclico e piora a oxigenação e a lesão pulmonar.",
+"Manter fração inspirada de cem por cento causa toxicidade pelo oxigênio e atelectasia de absorção."
+]
+},
+{
+"q": "Paciente com choque cardiogênico pós-infarto, com hipotensão, extremidades frias e congestão pulmonar. Qual é a conduta?",
+"alts": [
+"Revascularização precoce com suporte hemodinâmico, associando sempre inotrópico e vasopressor conforme a resposta.",
+"Reposição volêmica agressiva com grandes volumes de cristaloide como primeira e única medida terapêutica agora.",
+"Betabloqueador endovenoso em dose alta como primeira medida diante do choque cardiogênico descrito neste caso.",
+"Diurético isolado em dose alta como única medida no paciente hipotenso com extremidades frias nesse contexto.",
+"Aguardar melhora espontânea por vinte e quatro horas antes de qualquer intervenção coronariana indicada agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "ESC Guidelines for the management of acute coronary syndromes, 2023; AHA scientific statement on cardiogenic shock, revisão 2023",
+"coment": "No choque cardiogênico pós-infarto, a revascularização precoce da artéria culpada é a intervenção que reduz mortalidade, e deve ser feita o mais rápido possível. O suporte inclui noradrenalina como vasopressor preferido e dobutamina como inotrópico, monitorização hemodinâmica e, em casos selecionados, dispositivos de assistência circulatória. Betabloqueador endovenoso é contraindicado no choque, e a expansão volêmica agressiva agrava a congestão.",
+"porAlt": [
+"Correta: revascularização precoce com suporte hemodinâmico, associando inotrópico e vasopressor.",
+"A expansão agressiva agrava a congestão pulmonar sem corrigir a falência de bomba instalada.",
+"O betabloqueador endovenoso é contraindicado no choque cardiogênico por reduzir ainda mais o débito.",
+"O diurético isolado no paciente hipotenso e hipoperfundido agrava a hipoperfusão dos órgãos.",
+"Aguardar vinte e quatro horas perde a janela em que a revascularização reduz a mortalidade."
+]
+},
+{
+"q": "Paciente com rebaixamento de consciência e glicemia capilar de 35 mg/dL. Qual é a conduta imediata?",
+"alts": [
+"Administrar glicose endovenosa imediatamente, considerando sempre tiamina antes em pacientes de risco.",
+"Aguardar a confirmação laboratorial da glicemia antes de qualquer administração de glicose ao paciente.",
+"Administrar insulina regular endovenosa para estabilizar o metabolismo do paciente com rebaixamento.",
+"Oferecer apenas líquidos açucarados por via oral em paciente com rebaixamento importante de consciência.",
+"Realizar tomografia de crânio antes de qualquer correção da glicemia capilar encontrada no exame."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "AHA/ACLS guidance, atualização 2025; Ministério da Saúde — manejo das emergências glicêmicas, 2022",
+"coment": "A hipoglicemia é causa reversível de rebaixamento de consciência e deve ser corrigida imediatamente com glicose hipertônica endovenosa, sem aguardar confirmação laboratorial. Em etilistas e desnutridos, administra-se tiamina antes ou junto da glicose, para prevenir encefalopatia de Wernicke. A via oral é contraindicada no paciente com rebaixamento pelo risco de broncoaspiração. Após a correção, investiga-se a causa e mantém-se observação prolongada.",
+"porAlt": [
+"Correta: glicose endovenosa imediata, com tiamina antes ou junto em pacientes de risco nutricional.",
+"Aguardar confirmação laboratorial prolonga a neuroglicopenia e pode causar dano cerebral permanente.",
+"A insulina agrava a hipoglicemia e é exatamente o oposto do que o paciente necessita agora.",
+"A via oral é contraindicada no rebaixamento de consciência pelo risco elevado de broncoaspiração.",
+"A tomografia não deve preceder a correção de uma causa metabólica reversível e imediata."
+]
+},
+{
+"q": "Paciente com intoxicação por benzodiazepínico isolado, sonolento mas com via aérea pérvia e ventilação adequada. Qual é a conduta?",
+"alts": [
+"Observação com suporte e monitorização, reservando sempre o flumazenil a situações muito selecionadas.",
+"Administrar flumazenil de rotina em todos os pacientes com intoxicação por benzodiazepínico atendidos.",
+"Realizar lavagem gástrica de rotina mesmo várias horas após a ingestão do medicamento pelo paciente.",
+"Administrar naloxona endovenosa como antídoto de escolha para a intoxicação benzodiazepínica descrita.",
+"Intubar imediatamente todos os pacientes sonolentos por benzodiazepínico, mesmo com ventilação adequada."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "AACT/EAPCCT position papers on gastrointestinal decontamination, revisão 2023; Ministério da Saúde — intoxicações agudas, 2022",
+"coment": "A intoxicação isolada por benzodiazepínico costuma ter curso benigno e o tratamento é de suporte, com monitorização e proteção da via aérea se houver deterioração. O flumazenil é reservado a casos muito selecionados, porque pode precipitar convulsão em usuários crônicos e em intoxicações mistas com antidepressivos tricíclicos. A naloxona é antídoto de opioide. Lavagem gástrica tardia não é recomendada e traz risco de aspiração.",
+"porAlt": [
+"Correta: suporte e monitorização, com flumazenil restrito a situações muito selecionadas.",
+"O flumazenil de rotina pode precipitar convulsão em usuários crônicos e em intoxicações mistas.",
+"A lavagem gástrica tardia não é recomendada e expõe o paciente a broncoaspiração e lesão.",
+"A naloxona reverte opioide e não tem efeito sobre a intoxicação por benzodiazepínico.",
+"A intubação se indica na perda de proteção da via aérea, ausente neste paciente ventilando bem."
+]
+},
+{
+"q": "Paciente com trauma abdominal fechado, instável hemodinamicamente, com FAST positivo. Qual é a conduta?",
+"alts": [
+"Laparotomia de urgência, pois a instabilidade com líquido livre indica sempre controle cirúrgico imediato.",
+"Solicitar tomografia de abdome com contraste antes de qualquer intervenção cirúrgica no paciente instável.",
+"Observação clínica por vinte e quatro horas com reavaliação seriada do exame físico do abdome neste caso.",
+"Realizar apenas lavado peritoneal diagnóstico e aguardar o resultado antes de qualquer conduta cirúrgica.",
+"Prescrever apenas analgesia e repouso, sem qualquer intervenção cirúrgica ou monitorização intensiva."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ATLS — Advanced Trauma Life Support, 11ª edição, 2024",
+"coment": "No trauma abdominal fechado com instabilidade hemodinâmica e FAST positivo, o paciente vai direto para a sala de cirurgia: a tomografia exige paciente estável e transportá-lo instável para o tomógrafo é conduta reconhecidamente perigosa. A laparotomia busca o controle rápido do sangramento, dentro da estratégia de controle de danos, que prioriza hemostasia e controle de contaminação sobre a reconstrução definitiva imediata.",
+"porAlt": [
+"Correta: laparotomia de urgência, pois instabilidade com líquido livre indica controle cirúrgico imediato.",
+"A tomografia exige estabilidade hemodinâmica e transportar o paciente instável é perigoso.",
+"Observar por vinte e quatro horas o paciente instável permite exsanguinação e óbito evitável.",
+"O lavado peritoneal foi substituído pelo FAST, que já está positivo e dispensa exame adicional.",
+"Analgesia e repouso não controlam a hemorragia intra-abdominal ativa que causa a instabilidade."
+]
+},
+{
+"q": "Paciente com acidente ofídico por Bothrops, com dor local, edema progressivo e sangramento gengival. Qual é a conduta?",
+"alts": [
+"Soro antibotrópico conforme a gravidade, administrado sempre por via endovenosa em ambiente monitorizado.",
+"Realizar torniquete no membro acometido e aguardar a evolução espontânea sem qualquer soroterapia agora.",
+"Aplicar o soro por via intramuscular no local da picada como via preferencial de administração agora.",
+"Realizar incisão e sucção no local da picada como principal medida terapêutica no acidente ofídico agora.",
+"Aguardar a confirmação laboratorial da espécie antes de qualquer administração de soro antiveneno agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de acidentes por animais peçonhentos",
+"coment": "O acidente botrópico cursa com dor, edema progressivo, equimose e alterações da coagulação com sangramentos. O tratamento é a soroterapia específica, com número de ampolas definido pela classificação de gravidade em leve, moderado e grave, administrada por via endovenosa em ambiente com suporte para reação anafilática. Torniquete, incisão e sucção são proscritos por agravarem a lesão local e não reduzirem a absorção do veneno.",
+"porAlt": [
+"Correta: soro antibotrópico endovenoso conforme a gravidade, em ambiente com suporte monitorizado.",
+"O torniquete agrava a isquemia e a necrose local sem reduzir a absorção sistêmica do veneno.",
+"A via intramuscular é inadequada; a soroterapia antiveneno é administrada por via endovenosa.",
+"Incisão e sucção aumentam infecção e sangramento local sem qualquer benefício terapêutico.",
+"A conduta é clínica e epidemiológica, e aguardar identificação laboratorial atrasa o antiveneno."
+]
+},
+{
+"q": "Paciente com rabdomiólise após esforço extremo, com CPK de 40.000 U/L e urina escura. Qual é a conduta principal?",
+"alts": [
+"Hidratação endovenosa vigorosa precoce, monitorando sempre débito urinário, potássio e função renal.",
+"Restringir líquidos para reduzir a sobrecarga renal em paciente com creatinoquinase muito elevada.",
+"Administrar diurético de alça isolado como primeira e principal medida no tratamento da rabdomiólise.",
+"Iniciar diálise imediata em todos os pacientes com creatinoquinase acima de dez mil unidades por litro.",
+"Prescrever apenas repouso domiciliar e reavaliação clínica após uma semana sem qualquer hidratação."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r2",
+"base": "KDIGO Acute Kidney Injury Guideline, atualização 2024; NEJM review on rhabdomyolysis, 2023",
+"coment": "O pilar do tratamento da rabdomiólise é a hidratação endovenosa vigorosa e precoce, que aumenta o fluxo tubular e reduz a precipitação de mioglobina, prevenindo lesão renal aguda. Monitoram-se débito urinário, potássio, cálcio, fósforo e função renal, atento à hipercalemia grave e à hipocalcemia. Alcalinização urinária e manitol são controversos. A diálise se indica por critérios clínicos, e não pelo valor isolado da creatinoquinase.",
+"porAlt": [
+"Correta: hidratação endovenosa vigorosa e precoce, com monitorização de diurese, potássio e função renal.",
+"Restringir líquidos favorece a precipitação de mioglobina nos túbulos e a lesão renal aguda.",
+"O diurético isolado sem reposição prévia agrava a hipovolemia e a lesão renal do paciente.",
+"A diálise se indica por critérios clínicos, e não pelo valor isolado da creatinoquinase sérica.",
+"Repouso sem hidratação permite a evolução para lesão renal aguda potencialmente dialítica."
+]
+},
+{
+"q": "Paciente em pós-parada cardiorrespiratória com retorno da circulação espontânea, comatoso. Qual é a conduta?",
+"alts": [
+"Controle direcionado de temperatura e suporte com alvos definidos, evitando sempre hipotensão e hipoxemia.",
+"Hiperventilar de rotina para reduzir a pressão intracraniana em todos os pacientes pós-parada cardíaca.",
+"Manter fração inspirada de oxigênio em cem por cento durante todo o período pós-parada cardíaca agora.",
+"Prognosticar e definir limitação terapêutica nas primeiras seis horas após o retorno da circulação agora.",
+"Manter glicemia acima de trezentos miligramas por decilitro para proteger o cérebro no pós-parada agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "AHA Guidelines for CPR and ECC — Post-Cardiac Arrest Care, atualização 2025; ERC/ESICM post-resuscitation care guidelines, 2021",
+"coment": "O cuidado pós-parada busca evitar a lesão cerebral secundária: controle direcionado de temperatura com alvo definido e prevenção ativa de febre, manutenção de pressão arterial média adequada, normoxemia com saturação entre 92 e 98 por cento, normocapnia, controle glicêmico e tratamento da causa, com coronariografia quando indicada. O prognóstico neurológico só é definido após pelo menos setenta e duas horas, com abordagem multimodal.",
+"porAlt": [
+"Correta: controle direcionado de temperatura e suporte com alvos definidos, evitando hipotensão e hipoxemia.",
+"A hiperventilação de rotina causa vasoconstrição cerebral e agrava a isquemia no pós-parada.",
+"A hiperóxia sustentada aumenta a lesão de reperfusão; o alvo é normoxemia bem controlada.",
+"Prognosticar nas primeiras horas é inadequado, pois exige pelo menos setenta e duas horas e abordagem multimodal.",
+"A hiperglicemia sustentada piora o desfecho neurológico e deve ser controlada no pós-parada."
+]
+},
+{
+"q": "Paciente com pneumonia grave e necessidade de terapia intensiva. Qual é o esquema antibiótico empírico?",
+"alts": [
+"Betalactâmico associado a macrolídeo ou quinolona respiratória, ajustando sempre conforme fatores de risco.",
+"Monoterapia com amoxicilina oral em todos os pacientes com pneumonia grave internados em terapia intensiva já.",
+"Apenas antifúngico endovenoso empírico como tratamento inicial da pneumonia grave adquirida na comunidade.",
+"Apenas antiviral oral por cinco dias como tratamento empírico da pneumonia grave com critério de internação.",
+"Aguardar o resultado da cultura de escarro antes de iniciar qualquer antibiótico no paciente com pneumonia grave."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r2",
+"base": "ATS/IDSA Guidelines for Community-Acquired Pneumonia, 2019 com revisão 2023; SBPT — Diretrizes de pneumonia, 2023",
+"coment": "Na pneumonia grave com internação em terapia intensiva, o esquema empírico combina betalactâmico — ceftriaxona, cefotaxima ou ampicilina-sulbactam — com macrolídeo ou quinolona respiratória, cobrindo pneumococo e germes atípicos. Fatores de risco para Pseudomonas ou Staphylococcus aureus resistente ampliam a cobertura. O antibiótico deve ser administrado o mais precocemente possível, e o descalonamento é guiado por culturas e evolução clínica.",
+"porAlt": [
+"Correta: betalactâmico com macrolídeo ou quinolona respiratória, ajustado por fatores de risco.",
+"A monoterapia oral com amoxicilina é insuficiente para a pneumonia grave com critério de terapia intensiva.",
+"O antifúngico não cobre os agentes bacterianos habituais da pneumonia adquirida na comunidade.",
+"O antiviral isolado não cobre a etiologia bacteriana, responsável pela maioria dos casos graves.",
+"Aguardar cultura atrasa o antibiótico, e o atraso é determinante direto de maior mortalidade."
+]
+},
+{
+"q": "Paciente com celulite de membro inferior sem resposta após setenta e duas horas de cefalexina oral. Qual é a conduta?",
+"alts": [
+"Reavaliar o diagnóstico e ampliar cobertura, investigando sempre abscesso, resistência ou trombose associada.",
+"Manter o mesmo antibiótico por mais duas semanas sem qualquer reavaliação clínica ou de imagem neste caso.",
+"Suspender o antibiótico e apenas observar clinicamente a evolução da lesão por mais uma semana neste caso.",
+"Iniciar corticoide sistêmico em dose alta como tratamento de escolha para a celulite sem resposta agora.",
+"Indicar amputação do membro em todos os casos de celulite sem resposta ao antibiótico oral inicial agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "IDSA Practice Guidelines for Skin and Soft Tissue Infections, revisão 2023",
+"coment": "Falha após setenta e duas horas exige reavaliar antes de simplesmente trocar o antibiótico: procurar coleção que exija drenagem, considerar Staphylococcus aureus resistente à meticilina, revisar adesão e dose, e afastar diagnósticos que imitam celulite, como trombose venosa profunda, dermatite de estase, erisipela bolhosa e fasciíte necrosante. A elevação do membro e o tratamento da porta de entrada, como micose interdigital, são frequentemente negligenciados.",
+"porAlt": [
+"Correta: reavaliar diagnóstico e ampliar cobertura, procurando abscesso, resistência ou trombose.",
+"Manter o mesmo esquema sem reavaliar perpetua a falha e pode retardar o tratamento de complicação.",
+"Suspender o antibiótico em infecção ativa sem resposta arrisca progressão para quadro sistêmico.",
+"O corticoide não trata a infecção e pode mascarar a progressão de um quadro potencialmente grave.",
+"A amputação é conduta de exceção e não decorre da simples falha do antibiótico oral inicial."
+]
+},
+{
+"q": "Paciente com HIV e CD4 de 40 células/mm³ apresenta cefaleia subaguda, febre e rigidez de nuca discreta. Qual é a investigação prioritária?",
+"alts": [
+"Punção lombar com tinta da China e antígeno criptocócico, avaliando sempre a pressão de abertura do líquor.",
+"Apenas tomografia de crânio sem contraste, exame suficiente para o diagnóstico etiológico nesse contexto.",
+"Apenas hemograma completo e proteína C reativa como investigação inicial do quadro neurológico descrito.",
+"Iniciar antibiótico empírico e não realizar qualquer punção lombar no paciente com imunossupressão grave.",
+"Solicitar apenas eletroencefalograma, exame que estabelece o diagnóstico etiológico do quadro descrito."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; IDSA guideline for cryptococcal disease, revisão 2023",
+"coment": "Com CD4 abaixo de 100 células por milímetro cúbico, cefaleia subaguda com febre aponta meningite criptocócica, cuja apresentação costuma ter poucos sinais meníngeos. A investigação é punção lombar com tinta da China, antígeno criptocócico no líquor e no soro e cultura, sempre com medida da pressão de abertura, porque a hipertensão intracraniana é a principal causa de morte precoce e exige punções de alívio repetidas. Neuroimagem precede a punção quando há sinal focal.",
+"porAlt": [
+"Correta: punção lombar com pesquisa criptocócica e medida obrigatória da pressão de abertura.",
+"A tomografia pode ser normal na meningite criptocócica e não fornece o diagnóstico etiológico.",
+"Hemograma e proteína C reativa são inespecíficos e não identificam o agente responsável pelo quadro.",
+"Deixar de puncionar impede o diagnóstico e a medida da pressão, que orienta o alívio terapêutico.",
+"O eletroencefalograma não identifica o agente etiológico da meningite nesse paciente imunossuprimido."
+]
+},
+{
+"q": "Paciente com febre e sopro cardíaco novo após procedimento dentário, com CD4 normal e sem uso de drogas. Qual é a suspeita?",
+"alts": [
+"Endocardite infecciosa, cuja investigação exige sempre hemoculturas seriadas e ecocardiograma dirigido.",
+"Febre reumática aguda, condição desencadeada diretamente por procedimento dentário em adulto saudável.",
+"Pericardite constritiva crônica, quadro definido por febre e sopro cardíaco novo após procedimento dental.",
+"Miocardiopatia dilatada idiopática, condição definida por febre e sopro novo após procedimento odontológico.",
+"Estenose mitral degenerativa, quadro caracterizado por febre e sopro novo após manipulação dentária."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESC Guidelines for the management of endocarditis, 2023; critérios de Duke modificados, atualização 2023",
+"coment": "Febre com sopro novo ou modificado levanta suspeita de endocardite infecciosa, sobretudo após bacteremia por manipulação dentária. A avaliação usa os critérios de Duke, que combinam hemoculturas positivas para germes típicos, evidência de acometimento endocárdico por ecocardiograma e critérios menores como febre, fenômenos vasculares e imunológicos e predisposição. O ecocardiograma transesofágico é indicado quando o transtorácico é normal e a suspeita persiste.",
+"porAlt": [
+"Correta: endocardite infecciosa, investigada com hemoculturas seriadas e ecocardiograma dirigido.",
+"A febre reumática decorre de faringite estreptocócica prévia, e não de procedimento dentário.",
+"A pericardite constritiva cursa com sinais de congestão sistêmica e não com sopro novo febril.",
+"A miocardiopatia dilatada não é desencadeada por procedimento dentário nem cursa com febre.",
+"A estenose degenerativa é crônica e não explica o surgimento agudo de febre com sopro novo."
+]
+},
+{
+"q": "Paciente com diagnóstico de tuberculose pulmonar inicia tratamento e, na terceira semana, apresenta icterícia e transaminases dez vezes acima do normal. Qual é a conduta?",
+"alts": [
+"Suspender o esquema e reintroduzir os fármacos de forma escalonada, monitorando sempre a função hepática.",
+"Manter o esquema completo e apenas repetir os exames hepáticos após o término do tratamento previsto.",
+"Suspender definitivamente todo tratamento da tuberculose e não reintroduzir qualquer fármaco no paciente.",
+"Substituir imediatamente o esquema por antibiótico de amplo espectro sem qualquer atividade antituberculosa.",
+"Aumentar as doses dos fármacos para superar a redução do metabolismo hepático observada no paciente."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019 com atualização 2023; ATS/CDC/IDSA hepatotoxicity guidance, 2023",
+"coment": "A hepatotoxicidade é a reação adversa maior mais frequente do esquema básico, atribuída sobretudo a isoniazida, rifampicina e pirazinamida. Diante de transaminases cinco vezes acima do normal, ou três vezes com sintomas, ou icterícia, suspende-se o esquema e aguarda-se a normalização. A reintrodução é escalonada, um fármaco por vez com intervalo, monitorando enzimas, permitindo identificar o agente responsável e preservar o máximo de fármacos eficazes.",
+"porAlt": [
+"Correta: suspender o esquema e reintroduzir de forma escalonada com monitorização hepática seriada.",
+"Manter o esquema com hepatite estabelecida arrisca insuficiência hepática aguda e óbito.",
+"Não reintroduzir deixa a tuberculose sem tratamento, com risco de morte e de transmissão continuada.",
+"Antibióticos comuns não têm atividade antituberculosa e não substituem o esquema específico.",
+"Aumentar as doses agrava a hepatotoxicidade e não corrige o problema metabólico do paciente."
+]
+},
+{
+"q": "Paciente sem esquema vacinal conhecido sofre ferimento profundo contaminado com terra. Qual é a conduta?",
+"alts": [
+"Vacina antitetânica e imunoglobulina específica, com limpeza sempre cuidadosa e desbridamento do ferimento.",
+"Apenas antibiótico oral por sete dias, medida suficiente para a profilaxia do tétano nesse ferimento agora.",
+"Apenas vacina antitetânica isolada, sem qualquer imunoglobulina no paciente sem esquema conhecido agora.",
+"Apenas limpeza local com água e sabão, sem qualquer imunização ou avaliação do estado vacinal neste caso.",
+"Apenas imunoglobulina isolada, já sem qualquer dose de vacina no paciente com ferimento contaminado agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "emg",
+"comp": "prev",
+"nivel": "r1",
+"base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de tétano acidental; Calendário Nacional de Vacinação, 2025",
+"coment": "Em ferimento de alto risco — profundo, contaminado com terra, com tecido desvitalizado — e paciente com esquema vacinal desconhecido ou incompleto, indica-se vacina antitetânica mais imunoglobulina antitetânica humana, pois a vacina leva dias para produzir anticorpos e a imunoglobulina oferece proteção imediata. O componente mecânico é essencial: limpeza abundante, remoção de corpos estranhos e desbridamento de tecido desvitalizado.",
+"porAlt": [
+"Correta: vacina com imunoglobulina específica, associadas a limpeza cuidadosa e desbridamento.",
+"O antibiótico não substitui a imunização e não previne a ação da toxina tetânica no organismo.",
+"A vacina isolada não protege de imediato, e o ferimento de alto risco exige proteção passiva.",
+"A limpeza é essencial, mas isolada não previne o tétano em ferimento de alto risco.",
+"A imunoglobulina isolada protege apenas temporariamente, sem induzir memória imunológica."
+]
+},
+{
+"q": "Paciente com infecção urinária de repetição e urocultura mostrando bactéria produtora de betalactamase de espectro estendido. Qual é a implicação terapêutica?",
+"alts": [
+"Resistência a cefalosporinas e penicilinas, exigindo sempre escolha guiada pelo antibiograma disponível.",
+"Sensibilidade preservada a todas as cefalosporinas de terceira geração disponíveis para uso oral agora.",
+"Indicação de vancomicina como antibiótico de escolha para essa bactéria gram-negativa resistente agora.",
+"Necessidade de antifúngico associado em todos os casos de bactéria produtora dessa enzima neste caso.",
+"Indicação de tratamento prolongado por seis meses em todos os pacientes com essa resistência agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "IDSA Guidance on the Treatment of Antimicrobial-Resistant Gram-Negative Infections, atualização 2024",
+"coment": "As betalactamases de espectro estendido hidrolisam penicilinas, cefalosporinas de amplo espectro e monobactâmicos, mantendo sensibilidade aos carbapenêmicos. Em infecção urinária não complicada, opções poupadoras de carbapenêmico incluem nitrofurantoína e fosfomicina conforme o antibiograma; em infecção invasiva, o carbapenêmico é a escolha. A vancomicina não cobre gram-negativos, e a decisão sempre se apoia no teste de sensibilidade do isolado.",
+"porAlt": [
+"Correta: resistência a penicilinas e cefalosporinas, com escolha guiada pelo antibiograma do isolado.",
+"As cefalosporinas de terceira geração são justamente hidrolisadas por essa enzima bacteriana.",
+"A vancomicina age sobre gram-positivos e não tem qualquer atividade contra essa bactéria.",
+"Não há indicação de antifúngico associado apenas pela presença dessa resistência bacteriana.",
+"A duração é definida pelo sítio e pela gravidade da infecção, e não pelo perfil de resistência."
+]
+},
+{
+"q": "Paciente com febre, esplenomegalia, pancitopenia e perda de peso, procedente de área endêmica de leishmaniose. Qual é a conduta?",
+"alts": [
+"Investigar leishmaniose visceral com sorologia ou parasitológico e notificar sempre o caso confirmado.",
+"Iniciar antibiótico de amplo espectro empírico e não investigar qualquer causa parasitária do quadro.",
+"Solicitar apenas radiografia de tórax como investigação inicial da febre com esplenomegalia descrita.",
+"Indicar esplenectomia diagnóstica imediata em todos os pacientes com esplenomegalia e pancitopenia.",
+"Prescrever apenas sulfato ferroso e reavaliar clinicamente após três meses de suplementação oral."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r2",
+"base": "Ministério da Saúde — Manual de Vigilância e Controle da Leishmaniose Visceral, revisão 2023; Guia de Vigilância em Saúde, 2024",
+"coment": "A leishmaniose visceral cursa com febre prolongada, esplenomegalia volumosa, hepatomegalia, pancitopenia, hipergamaglobulinemia e emagrecimento. O diagnóstico usa teste rápido imunocromatográfico, imunofluorescência indireta ou pesquisa direta do parasito em aspirado de medula óssea. É doença de notificação compulsória, e o tratamento no Brasil emprega antimoniato de meglumina ou anfotericina B lipossomal, esta preferida em casos graves e em grupos de risco.",
+"porAlt": [
+"Correta: investigar leishmaniose visceral com sorologia ou parasitológico e notificar o caso confirmado.",
+"O antibiótico empírico sem investigar deixa sem tratamento uma doença potencialmente fatal.",
+"A radiografia de tórax não avalia a causa da esplenomegalia com pancitopenia neste contexto.",
+"A esplenectomia não é procedimento diagnóstico inicial e traz morbidade elevada e evitável.",
+"O sulfato ferroso não trata pancitopenia por doença infecciosa nem investiga a causa do quadro."
+]
+},
+{
+"q": "Paciente internado desenvolve febre no quinto dia de cateter venoso central, sem outro foco identificado. Qual é a conduta?",
+"alts": [
+"Colher hemoculturas periféricas e do cateter e avaliar sempre a necessidade de remoção do dispositivo.",
+"Manter o cateter e apenas iniciar antitérmico, sem qualquer coleta de hemocultura ou reavaliação.",
+"Trocar o cateter pelo mesmo trajeto com fio-guia em todos os casos de suspeita de infecção do dispositivo.",
+"Iniciar antifúngico isolado como tratamento empírico padrão da infecção relacionada a cateter venoso.",
+"Aguardar setenta e duas horas de febre antes de colher qualquer hemocultura no paciente internado já."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r2",
+"base": "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Intravascular Catheter-Related Infection, revisão 2023",
+"coment": "Diante de febre em paciente com cateter venoso central sem outro foco, colhem-se hemoculturas pareadas — uma periférica e uma do lúmen do cateter — para avaliar o tempo diferencial de positividade. A remoção é obrigatória em sepse grave, instabilidade, infecção do túnel, tromboflebite supurada e em infecções por Staphylococcus aureus, Candida, Pseudomonas e enterococo. A troca por fio-guia é inadequada quando há suspeita de infecção do dispositivo.",
+"porAlt": [
+"Correta: hemoculturas pareadas do cateter e periférica, avaliando a necessidade de remover o dispositivo.",
+"Manter o cateter sem investigar perpetua a fonte e pode evoluir para sepse e endocardite.",
+"A troca por fio-guia mantém o trajeto colonizado e é inadequada diante de suspeita de infecção.",
+"O antifúngico isolado não é o empírico padrão, que depende do perfil de risco e da gravidade.",
+"Aguardar setenta e duas horas atrasa o diagnóstico e o controle da fonte da bacteremia."
+]
+},
+{
+"q": "Paciente com quadro gripal, febre e mialgia há dois dias, com asma e obesidade. Qual é a conduta?",
+"alts": [
+"Iniciar oseltamivir precocemente, indicado sempre para pacientes com condições de risco para complicações.",
+"Prescrever apenas sintomáticos, pois o antiviral não tem indicação em nenhum paciente com quadro gripal.",
+"Iniciar antibiótico de amplo espectro empírico como tratamento padrão de todo quadro gripal com febre.",
+"Aguardar o resultado do teste molecular antes de iniciar qualquer antiviral no paciente de risco descrito já.",
+"Indicar internação hospitalar imediata para todos os pacientes com quadro gripal e condição de risco."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "Ministério da Saúde — Protocolo de tratamento de influenza, 2023; IDSA Clinical Practice Guidelines on Seasonal Influenza, revisão 2024",
+"coment": "O oseltamivir está indicado para todo paciente com síndrome gripal e condição ou fator de risco para complicações — pneumopatia incluindo asma, obesidade, diabetes, cardiopatia, imunossupressão, gestação e puerpério, idade avançada e povos indígenas —, além de todos os casos de síndrome respiratória aguda grave. O tratamento começa o mais cedo possível, idealmente em até quarenta e oito horas, sem aguardar confirmação laboratorial.",
+"porAlt": [
+"Correta: oseltamivir precoce, indicado pelas condições de risco para complicação da influenza.",
+"O antiviral tem indicação clara em pacientes com fatores de risco, como neste caso descrito.",
+"O antibiótico não trata influenza e só entra quando há suspeita de infecção bacteriana associada.",
+"Aguardar o teste atrasa o antiviral, cujo benefício depende do início precoce do tratamento.",
+"A internação depende da gravidade clínica, e não apenas da presença de fator de risco isolado."
+]
+},
+{
+"q": "Paciente com acidente vascular cerebral isquêmico prévio, hipertenso e dislipidêmico. Qual é a prevenção secundária adequada?",
+"alts": [
+"Antiagregante, estatina de alta potência e controle pressórico, associados sempre à mudança de estilo de vida.",
+"Anticoagulação plena para todos os pacientes com acidente vascular cerebral isquêmico prévio, sem exceção.",
+"Apenas controle pressórico isolado, medida suficiente para a prevenção secundária nesse perfil de paciente.",
+"Apenas suplementação vitamínica contínua como estratégia de prevenção secundária de novo evento cerebral.",
+"Nenhuma medida preventiva enquanto o paciente permanecer assintomático após o evento cerebrovascular agora."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and TIA, 2021 com revisão 2024",
+"coment": "A prevenção secundária do acidente vascular cerebral isquêmico não cardioembólico combina antiagregante — ácido acetilsalicílico ou clopidogrel, com dupla antiagregação por curto período em eventos menores ou ataque isquêmico transitório de alto risco —, estatina de alta potência com meta de LDL abaixo de 70 mg/dL, controle pressórico rigoroso, controle glicêmico, cessação do tabagismo e atividade física regular. Anticoagulação se reserva à origem cardioembólica.",
+"porAlt": [
+"Correta: antiagregante, estatina de alta potência e controle pressórico, com mudança de estilo de vida.",
+"A anticoagulação se reserva à etiologia cardioembólica e aumenta risco hemorrágico sem essa indicação.",
+"O controle pressórico isolado deixa de fora antiagregação e estatina, ambas com benefício comprovado.",
+"As vitaminas não reduzem recorrência de acidente vascular cerebral em ensaios clínicos randomizados.",
+"A ausência de sintomas não reduz o risco de recorrência, que é maior justamente após o primeiro evento."
+]
+},
+{
+"q": "Paciente com hemorragia intraparenquimatosa e pressão arterial de 200/110 mmHg nas primeiras horas. Qual é a conduta?",
+"alts": [
+"Reduzir a pressão sistólica de forma controlada para valores próximos de 140 mmHg, monitorando sempre o paciente.",
+"Manter a pressão elevada para preservar a perfusão cerebral em todos os pacientes com hemorragia cerebral agora.",
+"Reduzir a pressão sistólica abaixo de 90 mmHg de forma rápida para conter a expansão do hematoma neste caso.",
+"Iniciar anticoagulação plena imediatamente como tratamento da hemorragia intraparenquimatosa descrita agora.",
+"Realizar trombólise endovenosa como tratamento padrão da hemorragia intraparenquimatosa aguda nesse contexto."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage, 2022",
+"coment": "Na hemorragia intracerebral espontânea com pressão sistólica entre 150 e 220 mmHg, a redução para cerca de 140 mmHg é segura e pode reduzir a expansão do hematoma, devendo ser feita de forma suave e sustentada, evitando grandes variações. Complementam o manejo a reversão de anticoagulação quando presente, o controle da pressão intracraniana, a prevenção de hipertermia e hiperglicemia e a avaliação neurocirúrgica conforme volume e localização.",
+"porAlt": [
+"Correta: reduzir a sistólica de forma controlada para valores próximos de 140 mmHg com monitorização.",
+"Manter a pressão muito elevada favorece a expansão do hematoma nas primeiras horas do evento.",
+"Reduzir abaixo de 90 mmHg compromete a perfusão cerebral e piora a lesão isquêmica secundária.",
+"A anticoagulação é contraindicada e agrava diretamente o sangramento intracraniano em curso.",
+"A trombólise é contraindicada na hemorragia e converteria o quadro em catástrofe neurológica."
+]
+},
+{
+"q": "Paciente com epilepsia focal em uso de monoterapia com boa adesão mantém crises frequentes. Qual é o próximo passo?",
+"alts": [
+"Otimizar a dose e considerar troca ou associação, reavaliando sempre o diagnóstico e os fatores desencadeantes.",
+"Suspender toda medicação e observar clinicamente a evolução das crises pelos próximos seis meses neste caso.",
+"Associar imediatamente quatro antiepilépticos diferentes em doses plenas para o controle das crises agora.",
+"Indicar cirurgia de epilepsia após a falha de um único fármaco em monoterapia bem conduzida nesse contexto.",
+"Prescrever apenas benzodiazepínico contínuo como substituto do antiepiléptico atualmente em uso neste caso."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ILAE definition of drug-resistant epilepsy; NICE guideline NG217 — Epilepsies in children, young people and adults, 2022",
+"coment": "Diante de crises persistentes, revisam-se adesão, dose, tipo de crise e diagnóstico, além de fatores desencadeantes como privação de sono, álcool e interações medicamentosas. Otimiza-se a dose até a máxima tolerada, e persistindo as crises, troca-se por outra monoterapia ou associa-se um segundo fármaco. Epilepsia farmacorresistente é definida pela falha de dois esquemas adequados e tolerados, ponto em que se avalia cirurgia em centro especializado.",
+"porAlt": [
+"Correta: otimizar dose e considerar troca ou associação, revendo diagnóstico e fatores desencadeantes.",
+"Suspender a medicação expõe o paciente a crises mais frequentes e ao risco de estado de mal.",
+"Associar quatro fármacos de uma vez multiplica efeitos adversos e interações sem ganho de controle.",
+"A cirurgia é avaliada após a falha de dois esquemas adequados, e não de uma única monoterapia.",
+"O benzodiazepínico contínuo não substitui o antiepiléptico e leva a tolerância e dependência."
+]
+},
+{
+"q": "Paciente com esclerose múltipla remitente-recorrente apresenta surto com déficit motor incapacitante. Qual é a conduta no surto?",
+"alts": [
+"Pulsoterapia com corticoide endovenoso em dose alta, mantendo sempre a terapia modificadora de doença.",
+"Suspender definitivamente a terapia modificadora de doença diante do primeiro surto do paciente agora.",
+"Iniciar antibiótico de amplo espectro como tratamento padrão do surto de esclerose múltipla descrito.",
+"Prescrever apenas analgésico e fisioterapia, sem qualquer corticoterapia no surto com déficit incapacitante.",
+"Realizar plasmaférese como primeira linha em todos os surtos, antes de qualquer tentativa com corticoide."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "ECTRIMS/EAN guideline on the pharmacological treatment of multiple sclerosis, revisão 2024; Academia Brasileira de Neurologia, 2022",
+"coment": "O surto de esclerose múltipla com déficit incapacitante é tratado com pulsoterapia de metilprednisolona endovenosa, tipicamente um grama ao dia por três a cinco dias, que acelera a recuperação sem alterar o grau de sequela final. A terapia modificadora de doença é mantida e reavaliada, pois surtos frequentes indicam falha e necessidade de escalonamento. Plasmaférese se reserva a surtos graves sem resposta ao corticoide em dose alta.",
+"porAlt": [
+"Correta: pulsoterapia com corticoide endovenoso, mantendo e reavaliando a terapia modificadora.",
+"Suspender a terapia modificadora após um surto aumenta o risco de novos surtos e de progressão.",
+"O antibiótico não trata o surto desmielinizante, embora infecção deva ser afastada como gatilho.",
+"Analgesia e fisioterapia são adjuvantes e não substituem a corticoterapia no surto incapacitante.",
+"A plasmaférese é resgate para surtos graves refratários ao corticoide, e não primeira linha."
+]
+},
+{
+"q": "Paciente com fraqueza flutuante que piora ao longo do dia, ptose e diplopia, com melhora ao repouso. Qual é o exame confirmatório?",
+"alts": [
+"Anticorpo antirreceptor de acetilcolina e eletroneuromiografia com estimulação repetitiva, avaliando sempre o timo.",
+"Apenas tomografia de crânio sem contraste, exame que confirma o diagnóstico do quadro descrito nesse contexto.",
+"Apenas dosagem de creatinoquinase sérica, exame que estabelece o diagnóstico da fraqueza flutuante neste caso.",
+"Apenas eletroencefalograma de vigília, exame confirmatório do quadro de fraqueza muscular flutuante neste caso.",
+"Apenas biópsia muscular de rotina como exame inicial e confirmatório do quadro clínico descrito nesse contexto."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "EAN/AAN guidance on myasthenia gravis, revisão 2023; International consensus guidance for management of myasthenia gravis, atualização 2021",
+"coment": "A miastenia gravis cursa com fraqueza flutuante e fatigabilidade, com predileção por musculatura ocular, bulbar e proximal, piorando ao esforço e melhorando ao repouso. A confirmação combina anticorpo antirreceptor de acetilcolina, positivo na maioria, ou anticorpo anti-MuSK nos soronegativos, e eletroneuromiografia com estimulação repetitiva mostrando decremento. Toda pessoa com o diagnóstico deve fazer tomografia de tórax para avaliar timoma.",
+"porAlt": [
+"Correta: anticorpo antirreceptor de acetilcolina com estimulação repetitiva e avaliação do timo.",
+"A tomografia de crânio não avalia a junção neuromuscular acometida nessa doença autoimune.",
+"A creatinoquinase é normal na miastenia, pois não há destruição muscular como nas miopatias.",
+"O eletroencefalograma avalia atividade cortical e não a transmissão na junção neuromuscular.",
+"A biópsia muscular avalia miopatias e não é o exame confirmatório da miastenia gravis."
+]
+},
+{
+"q": "Paciente com cefaleia diária, piora ao deitar e ao esforço, com papiledema ao exame. Qual é a conduta?",
+"alts": [
+"Neuroimagem urgente e avaliação de hipertensão intracraniana, investigando sempre causa estrutural ou secundária.",
+"Prescrever apenas analgésico comum e reavaliar clinicamente após trinta dias de acompanhamento ambulatorial.",
+"Iniciar profilaxia de enxaqueca sem qualquer investigação por imagem no paciente com papiledema descrito agora.",
+"Realizar punção lombar imediata antes de qualquer exame de imagem do sistema nervoso central nesse contexto.",
+"Prescrever apenas colírio lubrificante para o papiledema e liberar o paciente sem investigação adicional agora."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ICHD-3 red flags; AAN/AHS practice guidance on secondary headache, revisão 2023",
+"coment": "Papiledema com cefaleia que piora ao deitar e ao esforço indica hipertensão intracraniana e é sinal de alarme absoluto. A conduta é neuroimagem urgente, preferencialmente ressonância com venografia, para excluir lesão expansiva, hidrocefalia e trombose venosa cerebral. Excluída causa estrutural, considera-se hipertensão intracraniana idiopática, cujo diagnóstico exige punção lombar com medida de pressão de abertura, feita somente após a imagem.",
+"porAlt": [
+"Correta: neuroimagem urgente para investigar causa estrutural ou secundária de hipertensão intracraniana.",
+"Analgésico e espera de trinta dias diante de papiledema podem custar a visão e a vida do paciente.",
+"Tratar como enxaqueca ignora um sinal de alarme que exige investigação estrutural imediata.",
+"A punção antes da imagem arrisca herniação quando há lesão expansiva intracraniana não diagnosticada.",
+"O papiledema é sinal de hipertensão intracraniana e não se trata com colírio lubrificante."
+]
+},
+{
+"q": "Paciente com polineuropatia simétrica distal em paciente diabético, com dor em queimação nos pés. Qual é o tratamento da dor?",
+"alts": [
+"Duloxetina, pregabalina ou gabapentina, associadas sempre ao controle glicêmico e ao cuidado com os pés.",
+"Anti-inflamatório não hormonal contínuo como tratamento de primeira linha para a dor neuropática descrita.",
+"Opioide potente em dose plena como primeira escolha no tratamento da dor neuropática diabética agora.",
+"Apenas corticoide sistêmico contínuo como tratamento da polineuropatia dolorosa do paciente diabético.",
+"Apenas complexo vitamínico B como tratamento de escolha para a dor neuropática do paciente diabético."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes, 2025, capítulo de neuropatia; AAN practice guideline on painful diabetic neuropathy, 2022",
+"coment": "A dor da polineuropatia diabética responde a fármacos com ação sobre a dor neuropática: duloxetina, pregabalina, gabapentina e antidepressivos tricíclicos, escolhidos por comorbidades e perfil de efeitos adversos. Anti-inflamatórios têm eficácia limitada e risco renal no diabético. O controle glicêmico reduz a progressão, sobretudo no diabetes tipo 1, e o exame regular dos pés é indispensável para prevenir ulceração e amputação.",
+"porAlt": [
+"Correta: duloxetina, pregabalina ou gabapentina, com controle glicêmico e cuidado regular dos pés.",
+"Anti-inflamatórios têm eficácia limitada na dor neuropática e risco renal no paciente diabético.",
+"Opioides não são primeira escolha na dor neuropática crônica pelo risco de dependência e tolerância.",
+"O corticoide não trata a polineuropatia diabética e piora o controle glicêmico do paciente.",
+"O complexo B só tem papel quando há deficiência documentada, e não como analgésico neuropático."
+]
+},
+{
+"q": "Paciente com quadro súbito de afasia e hemiparesia que reverteu completamente em 40 minutos. Qual é a conduta?",
+"alts": [
+"Investigar e iniciar prevenção secundária imediatamente, pois o risco de novo evento é sempre maior nos primeiros dias.",
+"Liberar sem investigação, pois a reversão completa dos sintomas afasta qualquer risco de novo evento nesse contexto.",
+"Agendar investigação ambulatorial eletiva para daqui a três meses, sem qualquer medida preventiva imediata neste caso.",
+"Iniciar trombólise endovenosa mesmo com os sintomas já completamente revertidos no momento da avaliação neste caso.",
+"Prescrever apenas analgésico e orientar retorno somente se os sintomas voltarem a se manifestar para este paciente."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and TIA, 2021 com revisão 2024",
+"coment": "O ataque isquêmico transitório é urgência: o risco de acidente vascular cerebral é maior nas primeiras quarenta e oito horas e nos primeiros sete dias. A conduta é investigação rápida com neuroimagem, avaliação de carótidas, eletrocardiograma e busca de fibrilação atrial, além de ecocardiograma quando indicado, com início imediato da prevenção secundária. Em eventos de alto risco pelo escore ABCD2, indica-se dupla antiagregação por curto período.",
+"porAlt": [
+"Correta: investigar e iniciar prevenção secundária de imediato, pois o risco é máximo nos primeiros dias.",
+"A reversão dos sintomas não afasta risco: o ataque transitório é justamente um aviso de evento maior.",
+"Adiar por três meses desperdiça a janela em que a prevenção secundária tem maior impacto absoluto.",
+"A trombólise não se aplica a paciente sem déficit no momento da avaliação clínica.",
+"Orientar retorno apenas se houver recidiva deixa sem prevenção o período de maior risco."
+]
+},
+{
+"q": "Paciente com tremor de ação bilateral e simétrico das mãos, que melhora com álcool e tem história familiar. Qual é o tratamento?",
+"alts": [
+"Propranolol ou primidona como primeira linha, indicados sempre quando há prejuízo funcional relevante.",
+"Levodopa em dose plena como tratamento de escolha para o tremor de ação bilateral descrito no caso.",
+"Antipsicótico típico em dose alta como primeira linha para o tremor essencial com história familiar.",
+"Corticoide sistêmico contínuo como tratamento de escolha para o tremor de ação bilateral e simétrico.",
+"Estimular o consumo regular de álcool como estratégia terapêutica de longo prazo para o tremor descrito."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "AAN practice guideline update on essential tremor, revisão 2023; Movement Disorder Society consensus, 2022",
+"coment": "O tremor essencial é o distúrbio de movimento mais frequente, tipicamente bilateral, de ação e postural, com história familiar em boa parte dos casos e melhora transitória com álcool. O tratamento é indicado quando há prejuízo funcional, e a primeira linha é propranolol ou primidona, isolados ou combinados. Casos refratários e incapacitantes podem se beneficiar de estimulação cerebral profunda ou de ultrassom focalizado guiado por ressonância.",
+"porAlt": [
+"Correta: propranolol ou primidona em primeira linha quando há prejuízo funcional relevante.",
+"A levodopa trata o parkinsonismo e não é eficaz no tremor essencial de ação e postural.",
+"Antipsicóticos podem causar tremor por parkinsonismo induzido e não tratam o tremor essencial.",
+"O corticoide não tem qualquer papel no tratamento do tremor essencial descrito neste caso.",
+"Estimular consumo regular de álcool cria risco de dependência e é conduta inaceitável."
+]
+},
+{
+"q": "Paciente com rebaixamento de consciência, pupilas anisocóricas e postura de descerebração após trauma craniano. Qual é a conduta imediata?",
+"alts": [
+"Medidas antiedema e neurocirurgia urgente, mantendo sempre normocapnia e evitando hipotensão e hipoxemia.",
+"Aguardar a tomografia de controle em vinte e quatro horas antes de qualquer intervenção neurocirúrgica.",
+"Hiperventilar de forma prolongada como principal medida terapêutica da hipertensão intracraniana descrita.",
+"Administrar apenas analgésico e sedativo, sem qualquer avaliação neurocirúrgica ou medida antiedema.",
+"Manter a cabeceira do leito abaixada e o pescoço fletido para melhorar a perfusão cerebral do paciente."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "Brain Trauma Foundation Guidelines for the Management of Severe TBI, 4ª edição com atualização 2023; ATLS 11ª edição, 2024",
+"coment": "Anisocoria com postura de descerebração indica herniação e exige ação imediata: elevação da cabeceira a trinta graus com pescoço neutro, sedação e analgesia adequadas, salina hipertônica ou manitol, controle de temperatura e glicemia, manutenção da pressão de perfusão cerebral e avaliação neurocirúrgica urgente para drenagem de lesão expansiva. A hiperventilação é medida temporária de resgate, nunca prolongada, por causar isquemia.",
+"porAlt": [
+"Correta: medidas antiedema e neurocirurgia urgente, com normocapnia e sem hipotensão ou hipoxemia.",
+"Aguardar vinte e quatro horas diante de sinais de herniação permite dano cerebral irreversível.",
+"A hiperventilação prolongada causa vasoconstrição e isquemia, sendo apenas resgate temporário.",
+"Sedação isolada sem medidas antiedema e sem avaliação cirúrgica não trata a herniação em curso.",
+"Cabeceira baixa e pescoço fletido aumentam a pressão intracraniana e agravam a herniação."
 ]
 }
 ];

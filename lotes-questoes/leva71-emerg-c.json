@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Paciente com suspeita de sepse chega ao pronto-socorro com lactato de 4,5 mmol/L e hipotensão. Qual é o conjunto de medidas iniciais?",
+  "alts": [
+   "Culturas, antibiótico na primeira hora, cristaloide e lactato seriado, com vasopressor sempre se necessário.",
+   "Aguardar as culturas e iniciar o antibiótico apenas após a identificação do agente etiológico responsável.",
+   "Iniciar corticoide em dose alta isolado como primeira medida antes de qualquer antibiótico ou volume agora.",
+   "Restringir a oferta de volume em todos os pacientes com hipotensão e lactato elevado na sepse neste caso.",
+   "Transfundir hemácias como primeira medida em todos os pacientes sépticos com lactato acima de quatro agora."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Surviving Sepsis Campaign, 2021 com atualização 2024; Instituto Latino-Americano de Sepse — protocolo, 2023",
+  "coment": "O pacote inicial da sepse inclui dosar lactato e repeti-lo, colher culturas antes do antibiótico, administrar antimicrobiano de amplo espectro na primeira hora no choque séptico, iniciar cristaloide de trinta mililitros por quilo na hipotensão ou lactato acima de quatro, e usar vasopressor para manter pressão arterial média de 65 mmHg. A precocidade do antibiótico é a variável mais associada à sobrevida nesse conjunto de medidas.",
+  "porAlt": [
+   "Correta: culturas, antibiótico na primeira hora, cristaloide e lactato seriado, com vasopressor se necessário.",
+   "Aguardar identificação do agente atrasa horas o antibiótico e aumenta muito a mortalidade.",
+   "O corticoide não substitui antibiótico e volume, entrando no choque com vasopressor persistente.",
+   "A restrição volêmica inicial no choque séptico hipotenso contraria a ressuscitação recomendada.",
+   "A transfusão não é medida inicial e o alvo transfusional na sepse é restritivo, sem hemorragia."
+  ]
+ },
+ {
+  "q": "Paciente com queda de saturação e dispneia súbita no pós-operatório de artroplastia de quadril, com taquicardia. Qual é a hipótese principal?",
+  "alts": [
+   "Tromboembolismo pulmonar, cuja investigação exige sempre estratificação de probabilidade antes da imagem.",
+   "Crise asmática de início súbito, principal hipótese diagnóstica no pós-operatório de artroplastia de quadril.",
+   "Pneumonia bacteriana instalada em poucas horas, hipótese mais provável nesse contexto pós-operatório.",
+   "Anemia ferropriva crônica descompensada, causa mais provável da dispneia súbita nesse cenário clínico.",
+   "Refluxo gastroesofágico agudizado, principal hipótese para a hipoxemia súbita no pós-operatório recente."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ESC Guidelines on acute pulmonary embolism, 2019 com atualização 2024; ASH VTE guidelines, 2020",
+  "coment": "Dispneia e hipoxemia súbitas com taquicardia no pós-operatório de cirurgia ortopédica de grande porte apontam tromboembolismo pulmonar, pois esse cenário reúne os três elementos da tríade de Virchow: estase, lesão endotelial e hipercoagulabilidade. A abordagem começa pela estratificação de probabilidade com escores como Wells ou Genebra, definindo se cabe dímero-D ou se vai direto à angiotomografia de tórax.",
+  "porAlt": [
+   "Correta: tromboembolismo pulmonar, com estratificação de probabilidade orientando a investigação.",
+   "A crise asmática cursa com sibilância e história prévia de asma, ausentes na descrição do caso.",
+   "A pneumonia bacteriana costuma cursar com febre e evolução em dias, e não com início súbito.",
+   "A anemia crônica não causa hipoxemia súbita nem explica o quadro descrito no pós-operatório.",
+   "O refluxo não causa hipoxemia súbita com taquicardia no pós-operatório de artroplastia."
+  ]
+ },
+ {
+  "q": "Paciente intubado em ventilação mecânica por síndrome do desconforto respiratório agudo. Qual é a estratégia ventilatória correta?",
+  "alts": [
+   "Volume corrente baixo com pressão de platô limitada, mantendo sempre PEEP ajustada e hipercapnia permissiva.",
+   "Volume corrente alto para melhorar a oxigenação e reduzir rapidamente a hipercapnia do paciente ventilado.",
+   "Pressão de platô acima de trinta e cinco centímetros de água para recrutar completamente os alvéolos agora.",
+   "PEEP zero em todos os pacientes para reduzir o risco de barotrauma durante a ventilação mecânica agora.",
+   "Fração inspirada de oxigênio mantida em cem por cento durante todo o período de ventilação mecânica agora."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ATS/ESICM/SCCM Clinical Practice Guideline on mechanical ventilation in ARDS, atualização 2023; ARDSNet protocol",
+  "coment": "A ventilação protetora reduz mortalidade na síndrome do desconforto respiratório agudo: volume corrente de seis mililitros por quilo de peso predito, pressão de platô mantida abaixo de trinta centímetros de água, driving pressure abaixo de quinze e PEEP titulada conforme a gravidade da hipoxemia. Aceita-se hipercapnia permissiva desde que o pH se mantenha aceitável. Posição prona por dezesseis horas é indicada na hipoxemia grave.",
+  "porAlt": [
+   "Correta: volume corrente baixo, platô limitado, PEEP ajustada e hipercapnia permissiva tolerada.",
+   "Volume corrente alto causa lesão induzida pela ventilação e aumenta a mortalidade nessa síndrome.",
+   "Pressão de platô acima de trinta centímetros de água associa-se a maior lesão alveolar e mortalidade.",
+   "PEEP zero favorece colapso alveolar cíclico e piora a oxigenação e a lesão pulmonar.",
+   "Manter fração inspirada de cem por cento causa toxicidade pelo oxigênio e atelectasia de absorção."
+  ]
+ },
+ {
+  "q": "Paciente com choque cardiogênico pós-infarto, com hipotensão, extremidades frias e congestão pulmonar. Qual é a conduta?",
+  "alts": [
+   "Revascularização precoce com suporte hemodinâmico, associando sempre inotrópico e vasopressor conforme a resposta.",
+   "Reposição volêmica agressiva com grandes volumes de cristaloide como primeira e única medida terapêutica agora.",
+   "Betabloqueador endovenoso em dose alta como primeira medida diante do choque cardiogênico descrito neste caso.",
+   "Diurético isolado em dose alta como única medida no paciente hipotenso com extremidades frias nesse contexto.",
+   "Aguardar melhora espontânea por vinte e quatro horas antes de qualquer intervenção coronariana indicada agora."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "ESC Guidelines for the management of acute coronary syndromes, 2023; AHA scientific statement on cardiogenic shock, revisão 2023",
+  "coment": "No choque cardiogênico pós-infarto, a revascularização precoce da artéria culpada é a intervenção que reduz mortalidade, e deve ser feita o mais rápido possível. O suporte inclui noradrenalina como vasopressor preferido e dobutamina como inotrópico, monitorização hemodinâmica e, em casos selecionados, dispositivos de assistência circulatória. Betabloqueador endovenoso é contraindicado no choque, e a expansão volêmica agressiva agrava a congestão.",
+  "porAlt": [
+   "Correta: revascularização precoce com suporte hemodinâmico, associando inotrópico e vasopressor.",
+   "A expansão agressiva agrava a congestão pulmonar sem corrigir a falência de bomba instalada.",
+   "O betabloqueador endovenoso é contraindicado no choque cardiogênico por reduzir ainda mais o débito.",
+   "O diurético isolado no paciente hipotenso e hipoperfundido agrava a hipoperfusão dos órgãos.",
+   "Aguardar vinte e quatro horas perde a janela em que a revascularização reduz a mortalidade."
+  ]
+ },
+ {
+  "q": "Paciente com rebaixamento de consciência e glicemia capilar de 35 mg/dL. Qual é a conduta imediata?",
+  "alts": [
+   "Administrar glicose endovenosa imediatamente, considerando sempre tiamina antes em pacientes de risco.",
+   "Aguardar a confirmação laboratorial da glicemia antes de qualquer administração de glicose ao paciente.",
+   "Administrar insulina regular endovenosa para estabilizar o metabolismo do paciente com rebaixamento.",
+   "Oferecer apenas líquidos açucarados por via oral em paciente com rebaixamento importante de consciência.",
+   "Realizar tomografia de crânio antes de qualquer correção da glicemia capilar encontrada no exame."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "AHA/ACLS guidance, atualização 2025; Ministério da Saúde — manejo das emergências glicêmicas, 2022",
+  "coment": "A hipoglicemia é causa reversível de rebaixamento de consciência e deve ser corrigida imediatamente com glicose hipertônica endovenosa, sem aguardar confirmação laboratorial. Em etilistas e desnutridos, administra-se tiamina antes ou junto da glicose, para prevenir encefalopatia de Wernicke. A via oral é contraindicada no paciente com rebaixamento pelo risco de broncoaspiração. Após a correção, investiga-se a causa e mantém-se observação prolongada.",
+  "porAlt": [
+   "Correta: glicose endovenosa imediata, com tiamina antes ou junto em pacientes de risco nutricional.",
+   "Aguardar confirmação laboratorial prolonga a neuroglicopenia e pode causar dano cerebral permanente.",
+   "A insulina agrava a hipoglicemia e é exatamente o oposto do que o paciente necessita agora.",
+   "A via oral é contraindicada no rebaixamento de consciência pelo risco elevado de broncoaspiração.",
+   "A tomografia não deve preceder a correção de uma causa metabólica reversível e imediata."
+  ]
+ },
+ {
+  "q": "Paciente com intoxicação por benzodiazepínico isolado, sonolento mas com via aérea pérvia e ventilação adequada. Qual é a conduta?",
+  "alts": [
+   "Observação com suporte e monitorização, reservando sempre o flumazenil a situações muito selecionadas.",
+   "Administrar flumazenil de rotina em todos os pacientes com intoxicação por benzodiazepínico atendidos.",
+   "Realizar lavagem gástrica de rotina mesmo várias horas após a ingestão do medicamento pelo paciente.",
+   "Administrar naloxona endovenosa como antídoto de escolha para a intoxicação benzodiazepínica descrita.",
+   "Intubar imediatamente todos os pacientes sonolentos por benzodiazepínico, mesmo com ventilação adequada."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AACT/EAPCCT position papers on gastrointestinal decontamination, revisão 2023; Ministério da Saúde — intoxicações agudas, 2022",
+  "coment": "A intoxicação isolada por benzodiazepínico costuma ter curso benigno e o tratamento é de suporte, com monitorização e proteção da via aérea se houver deterioração. O flumazenil é reservado a casos muito selecionados, porque pode precipitar convulsão em usuários crônicos e em intoxicações mistas com antidepressivos tricíclicos. A naloxona é antídoto de opioide. Lavagem gástrica tardia não é recomendada e traz risco de aspiração.",
+  "porAlt": [
+   "Correta: suporte e monitorização, com flumazenil restrito a situações muito selecionadas.",
+   "O flumazenil de rotina pode precipitar convulsão em usuários crônicos e em intoxicações mistas.",
+   "A lavagem gástrica tardia não é recomendada e expõe o paciente a broncoaspiração e lesão.",
+   "A naloxona reverte opioide e não tem efeito sobre a intoxicação por benzodiazepínico.",
+   "A intubação se indica na perda de proteção da via aérea, ausente neste paciente ventilando bem."
+  ]
+ },
+ {
+  "q": "Paciente com trauma abdominal fechado, instável hemodinamicamente, com FAST positivo. Qual é a conduta?",
+  "alts": [
+   "Laparotomia de urgência, pois a instabilidade com líquido livre indica sempre controle cirúrgico imediato.",
+   "Solicitar tomografia de abdome com contraste antes de qualquer intervenção cirúrgica no paciente instável.",
+   "Observação clínica por vinte e quatro horas com reavaliação seriada do exame físico do abdome neste caso.",
+   "Realizar apenas lavado peritoneal diagnóstico e aguardar o resultado antes de qualquer conduta cirúrgica.",
+   "Prescrever apenas analgesia e repouso, sem qualquer intervenção cirúrgica ou monitorização intensiva."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ATLS — Advanced Trauma Life Support, 11ª edição, 2024",
+  "coment": "No trauma abdominal fechado com instabilidade hemodinâmica e FAST positivo, o paciente vai direto para a sala de cirurgia: a tomografia exige paciente estável e transportá-lo instável para o tomógrafo é conduta reconhecidamente perigosa. A laparotomia busca o controle rápido do sangramento, dentro da estratégia de controle de danos, que prioriza hemostasia e controle de contaminação sobre a reconstrução definitiva imediata.",
+  "porAlt": [
+   "Correta: laparotomia de urgência, pois instabilidade com líquido livre indica controle cirúrgico imediato.",
+   "A tomografia exige estabilidade hemodinâmica e transportar o paciente instável é perigoso.",
+   "Observar por vinte e quatro horas o paciente instável permite exsanguinação e óbito evitável.",
+   "O lavado peritoneal foi substituído pelo FAST, que já está positivo e dispensa exame adicional.",
+   "Analgesia e repouso não controlam a hemorragia intra-abdominal ativa que causa a instabilidade."
+  ]
+ },
+ {
+  "q": "Paciente com acidente ofídico por Bothrops, com dor local, edema progressivo e sangramento gengival. Qual é a conduta?",
+  "alts": [
+   "Soro antibotrópico conforme a gravidade, administrado sempre por via endovenosa em ambiente monitorizado.",
+   "Realizar torniquete no membro acometido e aguardar a evolução espontânea sem qualquer soroterapia agora.",
+   "Aplicar o soro por via intramuscular no local da picada como via preferencial de administração agora.",
+   "Realizar incisão e sucção no local da picada como principal medida terapêutica no acidente ofídico agora.",
+   "Aguardar a confirmação laboratorial da espécie antes de qualquer administração de soro antiveneno agora."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de acidentes por animais peçonhentos",
+  "coment": "O acidente botrópico cursa com dor, edema progressivo, equimose e alterações da coagulação com sangramentos. O tratamento é a soroterapia específica, com número de ampolas definido pela classificação de gravidade em leve, moderado e grave, administrada por via endovenosa em ambiente com suporte para reação anafilática. Torniquete, incisão e sucção são proscritos por agravarem a lesão local e não reduzirem a absorção do veneno.",
+  "porAlt": [
+   "Correta: soro antibotrópico endovenoso conforme a gravidade, em ambiente com suporte monitorizado.",
+   "O torniquete agrava a isquemia e a necrose local sem reduzir a absorção sistêmica do veneno.",
+   "A via intramuscular é inadequada; a soroterapia antiveneno é administrada por via endovenosa.",
+   "Incisão e sucção aumentam infecção e sangramento local sem qualquer benefício terapêutico.",
+   "A conduta é clínica e epidemiológica, e aguardar identificação laboratorial atrasa o antiveneno."
+  ]
+ },
+ {
+  "q": "Paciente com rabdomiólise após esforço extremo, com CPK de 40.000 U/L e urina escura. Qual é a conduta principal?",
+  "alts": [
+   "Hidratação endovenosa vigorosa precoce, monitorando sempre débito urinário, potássio e função renal.",
+   "Restringir líquidos para reduzir a sobrecarga renal em paciente com creatinoquinase muito elevada.",
+   "Administrar diurético de alça isolado como primeira e principal medida no tratamento da rabdomiólise.",
+   "Iniciar diálise imediata em todos os pacientes com creatinoquinase acima de dez mil unidades por litro.",
+   "Prescrever apenas repouso domiciliar e reavaliação clínica após uma semana sem qualquer hidratação."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "KDIGO Acute Kidney Injury Guideline, atualização 2024; NEJM review on rhabdomyolysis, 2023",
+  "coment": "O pilar do tratamento da rabdomiólise é a hidratação endovenosa vigorosa e precoce, que aumenta o fluxo tubular e reduz a precipitação de mioglobina, prevenindo lesão renal aguda. Monitoram-se débito urinário, potássio, cálcio, fósforo e função renal, atento à hipercalemia grave e à hipocalcemia. Alcalinização urinária e manitol são controversos. A diálise se indica por critérios clínicos, e não pelo valor isolado da creatinoquinase.",
+  "porAlt": [
+   "Correta: hidratação endovenosa vigorosa e precoce, com monitorização de diurese, potássio e função renal.",
+   "Restringir líquidos favorece a precipitação de mioglobina nos túbulos e a lesão renal aguda.",
+   "O diurético isolado sem reposição prévia agrava a hipovolemia e a lesão renal do paciente.",
+   "A diálise se indica por critérios clínicos, e não pelo valor isolado da creatinoquinase sérica.",
+   "Repouso sem hidratação permite a evolução para lesão renal aguda potencialmente dialítica."
+  ]
+ },
+ {
+  "q": "Paciente em pós-parada cardiorrespiratória com retorno da circulação espontânea, comatoso. Qual é a conduta?",
+  "alts": [
+   "Controle direcionado de temperatura e suporte com alvos definidos, evitando sempre hipotensão e hipoxemia.",
+   "Hiperventilar de rotina para reduzir a pressão intracraniana em todos os pacientes pós-parada cardíaca.",
+   "Manter fração inspirada de oxigênio em cem por cento durante todo o período pós-parada cardíaca agora.",
+   "Prognosticar e definir limitação terapêutica nas primeiras seis horas após o retorno da circulação agora.",
+   "Manter glicemia acima de trezentos miligramas por decilitro para proteger o cérebro no pós-parada agora."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "AHA Guidelines for CPR and ECC — Post-Cardiac Arrest Care, atualização 2025; ERC/ESICM post-resuscitation care guidelines, 2021",
+  "coment": "O cuidado pós-parada busca evitar a lesão cerebral secundária: controle direcionado de temperatura com alvo definido e prevenção ativa de febre, manutenção de pressão arterial média adequada, normoxemia com saturação entre 92 e 98 por cento, normocapnia, controle glicêmico e tratamento da causa, com coronariografia quando indicada. O prognóstico neurológico só é definido após pelo menos setenta e duas horas, com abordagem multimodal.",
+  "porAlt": [
+   "Correta: controle direcionado de temperatura e suporte com alvos definidos, evitando hipotensão e hipoxemia.",
+   "A hiperventilação de rotina causa vasoconstrição cerebral e agrava a isquemia no pós-parada.",
+   "A hiperóxia sustentada aumenta a lesão de reperfusão; o alvo é normoxemia bem controlada.",
+   "Prognosticar nas primeiras horas é inadequado, pois exige pelo menos setenta e duas horas e abordagem multimodal.",
+   "A hiperglicemia sustentada piora o desfecho neurológico e deve ser controlada no pós-parada."
+  ]
+ }
+]
