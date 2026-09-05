@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Homem de 62 anos com lesão pigmentada em dorso, assimétrica, bordas irregulares, cores variadas e 9 mm de diâmetro. Qual é a conduta?",
+  "alts": [
+   "Biópsia excisional da lesão com margem estreita, sempre preservando o estadiamento posterior.",
+   "Biópsia incisional superficial por raspagem, técnica preferida para lesões pigmentadas suspeitas.",
+   "Crioterapia com nitrogênio líquido, tratamento de escolha para lesão pigmentada com esse aspecto.",
+   "Observação clínica com fotografia e reavaliação apenas após doze meses de acompanhamento.",
+   "Eletrocoagulação da lesão em consultório, sem qualquer envio de material para exame histológico."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "NCCN Melanoma: Cutaneous, 2024; Sociedade Brasileira de Dermatologia — consenso de melanoma, 2023",
+  "coment": "Lesão pigmentada com assimetria, bordas irregulares, cores variadas e diâmetro acima de seis milímetros é suspeita de melanoma. O procedimento indicado é biópsia excisional com margem de um a três milímetros, incluindo toda a espessura até a gordura subcutânea, porque a espessura de Breslow determina prognóstico e margens definitivas. Raspagem, crioterapia e eletrocoagulação destroem a lesão ou truncam a profundidade e inviabilizam o estadiamento.",
+  "porAlt": [
+   "Correta: biópsia excisional com margem estreita preserva a espessura, que define o estadiamento.",
+   "A raspagem pode truncar a base da lesão e impedir a medida correta da espessura de Breslow.",
+   "A crioterapia destrói a lesão sem histologia e impede qualquer avaliação diagnóstica posterior.",
+   "Observar por doze meses permite progressão em profundidade e piora expressiva do prognóstico.",
+   "A eletrocoagulação sem histologia elimina a possibilidade de diagnóstico e de estadiamento."
+  ]
+ },
+ {
+  "q": "Paciente inicia alopurinol e, três semanas depois, apresenta febre, exantema difuso, eosinofilia e elevação de transaminases. Qual é o diagnóstico?",
+  "alts": [
+   "Síndrome DRESS, que exige sempre suspensão imediata do fármaco e corticoide sistêmico agora.",
+   "Urticária aguda simples, quadro que se resolve com anti-histamínico e manutenção da medicação.",
+   "Dermatite de contato alérgica, condição que cursa com eosinofilia e hepatite após uso oral.",
+   "Psoríase em gotas desencadeada pelo fármaco, com febre e elevação das enzimas hepáticas.",
+   "Pitiríase rósea de Gibert, quadro autolimitado que cursa com eosinofilia e hepatite associada."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "RegiSCAR criteria; British Association of Dermatologists guidelines for severe cutaneous adverse reactions, 2024",
+  "coment": "A síndrome de hipersensibilidade a fármacos com eosinofilia e sintomas sistêmicos, conhecida como DRESS, tem latência longa, de duas a oito semanas, o que a distingue das reações imediatas. Cursa com exantema extenso, febre, edema facial, linfonodomegalia, eosinofilia e acometimento visceral, sobretudo hepático. Os fármacos clássicos são alopurinol, anticonvulsivantes aromáticos, sulfas e vancomicina. O tratamento é suspender o agente e corticoide sistêmico, com desmame lento.",
+  "porAlt": [
+   "Correta: latência de semanas com exantema, febre, eosinofilia e hepatite caracteriza a síndrome DRESS.",
+   "A urticária tem início em minutos a horas e não cursa com hepatite nem com eosinofilia marcada.",
+   "A dermatite de contato é localizada na área exposta e não produz acometimento visceral sistêmico.",
+   "A psoríase em gotas não cursa com eosinofilia nem com hepatite associada ao quadro cutâneo.",
+   "A pitiríase rósea é autolimitada e não cursa com febre alta, eosinofilia ou acometimento hepático."
+  ]
+ },
+ {
+  "q": "Mulher de 30 anos com placas eritematosas bem delimitadas com escamas prateadas em cotovelos e joelhos, acometendo menos de 5% da superfície corporal. Qual é o tratamento inicial?",
+  "alts": [
+   "Corticoide tópico potente associado a análogo da vitamina D, sempre com hidratação regular da pele.",
+   "Metotrexato sistêmico em dose semanal como primeira linha para essa extensão de doença cutânea.",
+   "Imunobiológico anti-interleucina imediatamente, tratamento inicial recomendado para essa apresentação.",
+   "Corticoide sistêmico oral em dose alta e prolongada, tratamento de escolha para a psoríase em placas.",
+   "Antifúngico tópico por oito semanas, tratamento indicado para as lesões descamativas descritas."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "AAD/NPF guidelines for the management of psoriasis with topical therapy, revisão 2023; Sociedade Brasileira de Dermatologia, 2022",
+  "coment": "Psoríase leve, com menos de dez por cento da superfície corporal e sem acometimento de áreas especiais, é tratada topicamente: corticoide de média a alta potência combinado a análogo da vitamina D, como calcipotriol, além de hidratação e ceratolítico quando há escama espessa. Sistêmicos e biológicos entram na doença moderada a grave ou refratária. O corticoide sistêmico é evitado por precipitar psoríase pustulosa ou eritrodérmica na retirada.",
+  "porAlt": [
+   "Correta: corticoide tópico potente com análogo da vitamina D e hidratação é a primeira linha na doença leve.",
+   "O metotrexato se reserva à doença moderada a grave ou com acometimento articular associado.",
+   "O imunobiológico entra após falha de tratamentos convencionais na doença moderada a grave.",
+   "O corticoide sistêmico pode precipitar psoríase pustulosa ou eritrodérmica na sua retirada.",
+   "O antifúngico não trata psoríase, que é doença inflamatória imunomediada e não infecciosa."
+  ]
+ },
+ {
+  "q": "Paciente com lesão bolhosa extensa, descolamento de mais de 30% da superfície corporal, sinal de Nikolsky positivo e acometimento de mucosas, após uso de sulfa. Qual é a conduta?",
+  "alts": [
+   "Suspender o fármaco e encaminhar sempre para unidade de queimados ou terapia intensiva especializada.",
+   "Manter a sulfa e prescrever anti-histamínico oral, conduta suficiente para o controle desse quadro.",
+   "Iniciar antibiótico profilático sistêmico de rotina em todos os pacientes com esse quadro cutâneo.",
+   "Aplicar corticoide tópico de alta potência em toda a superfície acometida como medida principal.",
+   "Realizar banhos com permanganato de potássio diariamente como principal medida terapêutica do caso."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "British Association of Dermatologists guidelines for the management of Stevens-Johnson syndrome and toxic epidermal necrolysis, 2024",
+  "coment": "Descolamento acima de trinta por cento da superfície corporal caracteriza necrólise epidérmica tóxica, com mortalidade elevada estimada pelo escore SCORTEN. A medida isolada mais eficaz é suspender o fármaco causador o mais precocemente possível. O cuidado é de grande queimado: unidade especializada, controle de temperatura, reposição volêmica, analgesia, cuidado ocular precoce e manejo não aderente das feridas. Antibiótico profilático de rotina não é recomendado.",
+  "porAlt": [
+   "Correta: suspender o fármaco e transferir para unidade especializada no cuidado de grande queimado.",
+   "Manter o fármaco causador é o principal determinante de pior desfecho e maior mortalidade.",
+   "A profilaxia antibiótica de rotina não é recomendada e seleciona germes resistentes na pele lesada.",
+   "O corticoide tópico não altera o curso da necrólise epidérmica e não substitui o cuidado intensivo.",
+   "O permanganato resseca e irrita a pele lesada, sendo inadequado ao cuidado dessa ferida extensa."
+  ]
+ },
+ {
+  "q": "Homem de 55 anos, agricultor, com lesão perolada de bordas elevadas e telangiectasias em asa nasal, de crescimento lento há dois anos. Qual é o diagnóstico mais provável?",
+  "alts": [
+   "Carcinoma basocelular, que exige sempre confirmação histológica antes do tratamento definitivo.",
+   "Melanoma nodular amelanótico, tumor de crescimento lento com bordas peroladas e telangiectasias.",
+   "Ceratose seborreica, lesão que se apresenta com bordas peroladas e vasos telangiectásicos visíveis.",
+   "Granuloma piogênico, lesão de crescimento lento com aspecto perolado e bordas elevadas na face.",
+   "Dermatofibroma facial, lesão perolada com telangiectasias de crescimento arrastado em área exposta."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "NCCN Basal Cell Skin Cancer, 2024; Sociedade Brasileira de Dermatologia — câncer da pele não melanoma, 2023",
+  "coment": "O carcinoma basocelular é o câncer de pele mais frequente, típico de áreas fotoexpostas em pessoas com exposição solar crônica. A apresentação clássica é pápula perolada com telangiectasias e bordas elevadas, de crescimento lento, que pode ulcerar no centro. É localmente invasivo e raramente metastatiza, mas em área de risco como a asa nasal a destruição local é importante. Confirma-se por biópsia e trata-se por excisão, com cirurgia micrográfica nas áreas de risco.",
+  "porAlt": [
+   "Correta: pápula perolada com telangiectasias em área fotoexposta caracteriza carcinoma basocelular.",
+   "O melanoma amelanótico tem crescimento rápido e não apresenta o aspecto perolado característico.",
+   "A ceratose seborreica é lesão marrom com aspecto untuoso e superfície verrucosa, sem telangiectasias.",
+   "O granuloma piogênico é lesão vascular de crescimento rápido, friável e que sangra com facilidade.",
+   "O dermatofibroma é nódulo firme, geralmente em membros, com sinal da covinha à compressão lateral."
+  ]
+ },
+ {
+  "q": "Paciente com diabetes apresenta placa eritematosa quente e dolorosa em perna, com bordas mal definidas, febre e leucocitose. Qual é o tratamento inicial?",
+  "alts": [
+   "Antibiótico com cobertura para estreptococo e estafilococo, sempre com marcação da borda da lesão.",
+   "Corticoide sistêmico em dose alta, tratamento de escolha para a inflamação cutânea descrita no caso.",
+   "Antifúngico oral por quatro semanas, tratamento indicado para a placa eritematosa quente e dolorosa.",
+   "Apenas compressa fria e elevação do membro, medidas suficientes para resolver o quadro descrito.",
+   "Desbridamento cirúrgico amplo imediato de rotina em todos os casos com esse aspecto clínico local."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, revisão 2023",
+  "coment": "Celulite é infecção da derme profunda e do tecido subcutâneo, com bordas mal definidas, causada principalmente por estreptococo beta-hemolítico e, em menor grau, por Staphylococcus aureus. O tratamento empírico cobre esses agentes com cefalexina ou cefazolina, ampliando para cobertura de resistentes quando há abscesso ou fatores de risco. Marcar a borda permite avaliar a resposta. Dor desproporcional, crepitação, bolhas e toxemia sugerem fasciíte necrosante.",
+  "porAlt": [
+   "Correta: antibiótico cobrindo estreptococo e estafilococo, com marcação da borda para avaliar resposta.",
+   "O corticoide não trata a infecção e pode mascarar a progressão de um quadro potencialmente grave.",
+   "O antifúngico não cobre os agentes bacterianos responsáveis pela celulite descrita neste caso.",
+   "Medidas locais são adjuvantes e não substituem a antibioticoterapia na infecção com repercussão.",
+   "O desbridamento se reserva à suspeita de fasciíte necrosante, com sinais que não estão descritos."
+  ]
+ },
+ {
+  "q": "Mulher de 25 anos com placas eritematosas pruriginosas em fossas antecubitais e poplíteas desde a infância, com pele seca difusa. Qual é a base do tratamento?",
+  "alts": [
+   "Emoliente em uso contínuo associado sempre a corticoide tópico nos períodos de exacerbação.",
+   "Antibiótico oral contínuo por seis meses, base do tratamento dessa condição inflamatória crônica.",
+   "Corticoide sistêmico contínuo em dose baixa, tratamento de manutenção recomendado nesses casos.",
+   "Banhos quentes e prolongados diários, medida que restaura a barreira cutânea e reduz o prurido.",
+   "Anti-histamínico isolado em dose alta, tratamento suficiente para o controle das lesões descritas."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "AAD guidelines of care for the management of atopic dermatitis, atualização 2023; ETFAD/EADV consensus, 2022",
+  "coment": "A dermatite atópica tem defeito de barreira cutânea como elemento central, e por isso o emoliente em uso contínuo é a base do tratamento, reduzindo exacerbações e a necessidade de corticoide. Nas crises usa-se corticoide tópico de potência adequada à região ou inibidor de calcineurina em face e dobras. Banhos devem ser mornos e breves. Anti-histamínico tem papel limitado, ajudando sobretudo no sono. Casos graves recebem dupilumabe ou inibidores de JAK.",
+  "porAlt": [
+   "Correta: emoliente contínuo restaurando a barreira, com corticoide tópico apenas nas exacerbações.",
+   "O antibiótico oral contínuo não é base do tratamento e se reserva a infecção secundária evidente.",
+   "O corticoide sistêmico contínuo traz toxicidade importante e não é manutenção nessa doença.",
+   "Banhos quentes e prolongados removem lipídios da pele e agravam a xerose e o prurido.",
+   "O anti-histamínico isolado não controla a inflamação cutânea que produz as lesões descritas."
+  ]
+ },
+ {
+  "q": "Paciente com lesões vesiculosas dolorosas agrupadas em faixa unilateral em dermátomo torácico, iniciadas há dois dias. Qual é a conduta?",
+  "alts": [
+   "Iniciar antiviral por via oral e analgesia, sempre dentro das primeiras setenta e duas horas.",
+   "Prescrever apenas anti-inflamatório tópico, medida suficiente para o controle completo do quadro.",
+   "Iniciar antibiótico sistêmico de amplo espectro, tratamento de escolha para as vesículas descritas.",
+   "Aguardar a crostificação espontânea das lesões antes de qualquer intervenção medicamentosa oral.",
+   "Aplicar corticoide tópico de alta potência sobre as vesículas como principal medida terapêutica."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "CDC — Shingles clinical guidance, revisão 2024; IDSA/AAD recomendações sobre herpes-zóster, 2022",
+  "coment": "O herpes-zóster é reativação do vírus varicela-zóster em um dermátomo. O antiviral — aciclovir, valaciclovir ou fanciclovir — deve começar preferencialmente nas primeiras setenta e duas horas do início das lesões, reduzindo duração e, em parte, a neuralgia pós-herpética. Analgesia adequada é essencial, e casos com dor intensa podem exigir gabapentinoide. Acometimento oftálmico, disseminação ou imunossupressão exigem avaliação especializada e tratamento endovenoso.",
+  "porAlt": [
+   "Correta: antiviral oral iniciado nas primeiras setenta e duas horas, associado a analgesia adequada.",
+   "Medidas tópicas isoladas não reduzem a duração do quadro nem o risco de neuralgia pós-herpética.",
+   "O antibiótico não tem ação sobre o vírus e só entra se houver infecção bacteriana secundária.",
+   "Aguardar a crostificação perde a janela em que o antiviral modifica a evolução do quadro.",
+   "O corticoide tópico não trata a infecção viral e pode favorecer complicação local nas lesões."
+  ]
+ },
+ {
+  "q": "Homem de 40 anos com máculas hipocrômicas com hipoestesia e espessamento de nervo ulnar. Qual é a conduta?",
+  "alts": [
+   "Notificar e iniciar poliquimioterapia específica, sempre com avaliação de contatos domiciliares.",
+   "Prescrever apenas corticoide tópico nas lesões e reavaliar clinicamente após seis meses de uso.",
+   "Iniciar antifúngico sistêmico por três meses, tratamento indicado para as máculas hipocrômicas.",
+   "Solicitar apenas biópsia de pele e adiar qualquer tratamento até o resultado histológico definitivo.",
+   "Prescrever imunossupressor sistêmico, tratamento de escolha para a neuropatia periférica descrita."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase, 2022; OMS Guidelines, 2018",
+  "coment": "Mácula hipocrômica com alteração de sensibilidade e espessamento de nervo periférico é diagnóstico clínico de hanseníase, que dispensa exame complementar para iniciar o tratamento. A doença é de notificação compulsória. A poliquimioterapia atual é o esquema único com rifampicina, dapsona e clofazimina, por seis meses nos paucibacilares e doze nos multibacilares. Todos os contatos domiciliares são examinados e recebem quimioprofilaxia com rifampicina em dose única quando elegíveis.",
+  "porAlt": [
+   "Correta: diagnóstico clínico, notificação, poliquimioterapia e avaliação de contatos domiciliares.",
+   "O corticoide tópico não trata a infecção e o atraso permite dano neural progressivo e incapacidade.",
+   "O antifúngico não trata hanseníase, e a hipoestesia não ocorre nas micoses superficiais da pele.",
+   "O diagnóstico é clínico e a biópsia não deve atrasar o início da poliquimioterapia específica.",
+   "O imunossupressor não trata a infecção; corticoide sistêmico se usa nas reações hansênicas."
+  ]
+ },
+ {
+  "q": "Paciente em uso de anti-hipertensivo apresenta lesões urticariformes com angioedema de lábios e língua, sem broncoespasmo. Qual é a conduta?",
+  "alts": [
+   "Suspender o fármaco suspeito e garantir sempre a via aérea, considerando adrenalina se houver progressão.",
+   "Manter o fármaco e prescrever anti-histamínico oral, conduta suficiente para o angioedema descrito agora.",
+   "Prescrever apenas corticoide oral em dose baixa e liberar o paciente para acompanhamento ambulatorial já.",
+   "Realizar traqueostomia imediata em todos os casos de angioedema de lábios e língua sem broncoespasmo.",
+   "Iniciar imunoterapia específica com alérgeno na sala de emergência como primeira medida terapêutica."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "EAACI guideline on angioedema, 2022; WAO anaphylaxis guidance, atualização 2024",
+  "coment": "Angioedema de lábios e língua ameaça a via aérea e exige vigilância contínua, preparo para via aérea difícil e suspensão imediata do fármaco suspeito. Inibidores da enzima conversora são causa clássica, com angioedema mediado por bradicinina que pode surgir após meses ou anos de uso e responde mal a anti-histamínico e corticoide. Se houver progressão rápida ou sinais sistêmicos, administra-se adrenalina intramuscular, que não deve ser retardada.",
+  "porAlt": [
+   "Correta: suspender o fármaco, vigiar e garantir a via aérea, com adrenalina se houver progressão.",
+   "Manter o fármaco causador perpetua o quadro e arrisca obstrução progressiva da via aérea.",
+   "Corticoide isolado com alta precoce não protege contra a progressão do edema de via aérea.",
+   "A traqueostomia é medida de resgate na falha da via aérea, e não conduta inicial universal.",
+   "A imunoterapia é tratamento ambulatorial de longo prazo e não tem papel na emergência."
+  ]
+ }
+]
