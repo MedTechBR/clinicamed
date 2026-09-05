@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Paciente de 60 anos com crise convulsiva tônico-clônica generalizada de primeira vez, já recuperada, com exame neurológico normal. Qual é a conduta?",
+  "alts": [
+   "Investigar com eletroencefalograma e neuroimagem antes de decidir sempre sobre o tratamento contínuo.",
+   "Iniciar anticonvulsivante em dose plena imediatamente em todos os pacientes com primeira crise única.",
+   "Prescrever benzodiazepínico contínuo por seis meses como tratamento padrão após a primeira crise.",
+   "Não realizar qualquer investigação, pois a primeira crise não exige avaliação complementar alguma.",
+   "Indicar cirurgia de epilepsia precocemente para todos os pacientes após uma primeira crise generalizada."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ILAE/AAN guideline on management of an unprovoked first seizure in adults, revisão 2023",
+  "coment": "Após uma primeira crise não provocada, a investigação inclui eletroencefalograma, neuroimagem preferencialmente por ressonância, exames laboratoriais e revisão de fármacos e substâncias. O tratamento contínuo não é automático: indica-se quando o risco de recorrência é alto, o que ocorre com lesão estrutural, eletroencefalograma epileptiforme, crise noturna ou déficit neurológico. Sem esses fatores, o risco de recorrência é menor e a decisão é compartilhada com o paciente.",
+  "porAlt": [
+   "Correta: investigar com eletroencefalograma e neuroimagem para estimar o risco antes de tratar.",
+   "Nem toda primeira crise exige tratamento contínuo; a decisão depende do risco de recorrência.",
+   "O benzodiazepínico contínuo não é tratamento de manutenção da epilepsia e causa dependência.",
+   "A investigação é obrigatória para excluir lesão estrutural e causas metabólicas ou tóxicas.",
+   "A cirurgia se reserva a epilepsia refratária a múltiplos fármacos, e não à primeira crise única."
+  ]
+ },
+ {
+  "q": "Paciente com estado de mal epiléptico há 8 minutos, sem resposta ao tratamento inicial com benzodiazepínico. Qual é o próximo passo?",
+  "alts": [
+   "Administrar antiepiléptico de segunda linha endovenoso, sempre em dose de ataque plena e monitorizada.",
+   "Repetir doses de benzodiazepínico indefinidamente até a cessação completa da atividade convulsiva.",
+   "Aguardar a resolução espontânea da crise por mais trinta minutos antes de qualquer nova medicação.",
+   "Iniciar apenas hidratação endovenosa e observar clinicamente sem qualquer antiepiléptico adicional.",
+   "Realizar punção lombar imediata antes de qualquer administração de medicação antiepiléptica adicional."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Neurocritical Care Society/AES guideline on status epilepticus, atualização 2023",
+  "coment": "O estado de mal epiléptico é definido por crise com cinco minutos ou mais de duração. A primeira linha é benzodiazepínico em dose adequada, e a subdosagem é o erro mais frequente. Sem resposta, passa-se imediatamente à segunda linha endovenosa — fosfenitoína, ácido valproico ou levetiracetam, com eficácia semelhante entre eles — em dose de ataque. Persistindo, indica-se anestésico em infusão contínua com intubação e monitorização eletroencefalográfica.",
+  "porAlt": [
+   "Correta: antiepiléptico de segunda linha endovenoso em dose de ataque, sem atrasar a escalada.",
+   "Repetir benzodiazepínico indefinidamente causa depressão respiratória sem controlar a crise refratária.",
+   "Esperar trinta minutos aumenta a lesão neuronal e reduz a chance de controle da crise prolongada.",
+   "A hidratação isolada não interrompe a atividade epiléptica em curso no sistema nervoso central.",
+   "A punção lombar pode ser necessária depois, mas nunca antes do controle da crise em andamento."
+  ]
+ },
+ {
+  "q": "Homem de 68 anos com tremor de repouso assimétrico, bradicinesia e rigidez, com boa resposta à levodopa. Qual é o diagnóstico?",
+  "alts": [
+   "Doença de Parkinson, que responde sempre bem à levodopa e cursa com assimetria na apresentação.",
+   "Tremor essencial, condição que cursa com tremor de repouso assimétrico e resposta clara à levodopa.",
+   "Paralisia supranuclear progressiva, definida por boa resposta à levodopa e tremor de repouso marcante.",
+   "Atrofia de múltiplos sistemas, caracterizada por resposta sustentada à levodopa e tremor assimétrico.",
+   "Tremor cerebelar clássico, que cursa com bradicinesia, rigidez e resposta consistente à levodopa oral."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "MDS Clinical Diagnostic Criteria for Parkinson's Disease, 2015 com revisão 2023; Academia Brasileira de Neurologia, 2022",
+  "coment": "A doença de Parkinson é definida por bradicinesia associada a tremor de repouso ou rigidez, com início assimétrico e resposta clara e sustentada à levodopa, critério de suporte importante. Sinais de alerta para parkinsonismo atípico incluem quedas precoces, disautonomia proeminente, paralisia do olhar vertical, progressão rápida e ausência de resposta à levodopa. O tremor essencial é postural e cinético, tipicamente bilateral e sem bradicinesia.",
+  "porAlt": [
+   "Correta: parkinsonismo assimétrico com boa resposta à levodopa caracteriza a doença de Parkinson.",
+   "O tremor essencial é postural e cinético, tipicamente bilateral, e não responde à levodopa.",
+   "A paralisia supranuclear progressiva cursa com quedas precoces e má resposta à levodopa.",
+   "A atrofia de múltiplos sistemas cursa com disautonomia proeminente e resposta pobre à levodopa.",
+   "O tremor cerebelar é de intenção, com dismetria associada, e não cursa com rigidez ou bradicinesia."
+  ]
+ },
+ {
+  "q": "Paciente com cefaleia súbita de forte intensidade, descrita como a pior da vida, com rigidez de nuca. Tomografia de crânio normal. Qual é a conduta?",
+  "alts": [
+   "Punção lombar para pesquisa de xantocromia, pois a tomografia normal não exclui sempre o diagnóstico.",
+   "Descartar hemorragia subaracnóidea pela tomografia normal e liberar o paciente com analgésico oral.",
+   "Iniciar apenas analgesia potente e observar clinicamente por doze horas sem qualquer exame adicional já.",
+   "Solicitar eletroencefalograma como próximo exame para o esclarecimento da cefaleia súbita descrita.",
+   "Prescrever profilaxia de enxaqueca e agendar retorno ambulatorial em trinta dias para reavaliação."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AHA/ASA Guidelines for the Management of Aneurysmal Subarachnoid Hemorrhage, 2023",
+  "coment": "A tomografia sem contraste tem sensibilidade próxima de cem por cento nas primeiras seis horas da hemorragia subaracnóidea, mas cai progressivamente depois. Diante de cefaleia em trovoada com tomografia normal fora dessa janela, a punção lombar é indicada, buscando xantocromia e contagem de hemácias que não decresce entre os tubos. Alternativa em serviços selecionados é angiotomografia. Perder o diagnóstico expõe o paciente a ressangramento com alta mortalidade.",
+  "porAlt": [
+   "Correta: punção lombar com pesquisa de xantocromia, pois a tomografia normal não exclui o diagnóstico.",
+   "A sensibilidade da tomografia cai após as primeiras horas e o exame normal não permite alta.",
+   "Observar sem investigar arrisca ressangramento aneurismático, evento com mortalidade elevada.",
+   "O eletroencefalograma não tem qualquer papel na investigação de hemorragia subaracnóidea aguda.",
+   "Tratar como enxaqueca uma cefaleia em trovoada retarda o diagnóstico de uma condição letal."
+  ]
+ },
+ {
+  "q": "Paciente com fraqueza ascendente simétrica, arreflexia e dissociação proteinocitológica no líquor, após quadro diarreico. Qual é o tratamento?",
+  "alts": [
+   "Imunoglobulina endovenosa ou plasmaférese, sempre com monitorização da função respiratória do paciente.",
+   "Corticoide sistêmico em dose alta, tratamento de escolha com melhor evidência para essa polirradiculopatia.",
+   "Antibiótico endovenoso de amplo espectro, tratamento indicado para a fraqueza ascendente pós-infecciosa.",
+   "Apenas fisioterapia motora intensiva, medida suficiente para a recuperação da força nesse paciente.",
+   "Anticoagulação plena, tratamento indicado para a polirradiculoneuropatia aguda descrita no enunciado."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "EAN/PNS guideline on diagnosis and treatment of Guillain-Barré syndrome, 2023",
+  "coment": "A síndrome de Guillain-Barré é tratada com imunoglobulina endovenosa ou plasmaférese, com eficácia equivalente, sem benefício em combiná-las. O corticoide não é eficaz e não deve ser usado isoladamente, ao contrário do que ocorre na forma crônica. A vigilância respiratória é essencial: capacidade vital forçada, força inspiratória e disautonomia orientam a necessidade de intubação, que deve ser antecipada e não guiada apenas pela oximetria.",
+  "porAlt": [
+   "Correta: imunoglobulina endovenosa ou plasmaférese, com vigilância estreita da função respiratória.",
+   "O corticoide isolado não demonstrou eficácia nessa síndrome, diferentemente da forma crônica.",
+   "O antibiótico não trata o processo imunomediado que causa a desmielinização das raízes nervosas.",
+   "A fisioterapia é parte da reabilitação, mas não substitui o tratamento imunomodulador na fase aguda.",
+   "A anticoagulação é profilaxia de trombose no acamado, e não tratamento da doença neurológica."
+  ]
+ },
+ {
+  "q": "Paciente com acidente vascular cerebral isquêmico há 2 horas, sem contraindicações, com NIHSS de 12. Qual é a conduta?",
+  "alts": [
+   "Trombólise endovenosa imediata e avaliar sempre a indicação de trombectomia por oclusão de grande vaso.",
+   "Aguardar vinte e quatro horas de observação antes de qualquer decisão sobre terapia de reperfusão.",
+   "Iniciar apenas ácido acetilsalicílico e anticoagulação plena, sem qualquer terapia de reperfusão indicada.",
+   "Reduzir a pressão arterial agressivamente para valores normais antes de considerar qualquer reperfusão.",
+   "Iniciar apenas estatina de alta potência, medida suficiente para a fase aguda do evento isquêmico."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019 com atualização 2024",
+  "coment": "Na janela de até quatro horas e meia, sem contraindicações, a trombólise endovenosa com alteplase ou tenecteplase é indicada e o benefício é tempo-dependente. Simultaneamente avalia-se oclusão de grande vaso por angiotomografia, pois a trombectomia mecânica é indicada em até seis horas e, com critérios de imagem de perfusão, até vinte e quatro horas. A pressão é reduzida apenas até menos de 185 por 110 mmHg antes da trombólise, evitando queda excessiva.",
+  "porAlt": [
+   "Correta: trombólise endovenosa imediata com avaliação simultânea de trombectomia por grande vaso.",
+   "Aguardar vinte e quatro horas perde a janela terapêutica em que a reperfusão muda o desfecho.",
+   "A anticoagulação plena na fase aguda não substitui a reperfusão e aumenta risco hemorrágico.",
+   "Reduzir a pressão de forma agressiva compromete a perfusão da penumbra isquêmica cerebral.",
+   "A estatina é prevenção secundária e não tem papel na reperfusão da fase aguda do evento."
+  ]
+ },
+ {
+  "q": "Mulher de 45 anos com dor lancinante em face desencadeada por toque leve e mastigação, em território do trigêmeo. Qual é o tratamento inicial?",
+  "alts": [
+   "Carbamazepina como tratamento de primeira linha, sempre com monitorização de sódio e hemograma agora.",
+   "Opioide potente em dose plena como tratamento inicial de escolha para essa dor facial paroxística.",
+   "Anti-inflamatório não hormonal contínuo, tratamento de primeira linha da neuralgia do trigêmeo clássica.",
+   "Cirurgia de descompressão microvascular imediata antes de qualquer tentativa de tratamento clínico.",
+   "Corticoide sistêmico em dose alta prolongada, tratamento de escolha para a neuralgia facial descrita."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AAN/EFNS practice parameter on trigeminal neuralgia, revisão 2023; ICHD-3 classification",
+  "coment": "A neuralgia do trigêmeo cursa com dor paroxística em choque, unilateral, desencadeada por estímulos triviais em zonas de gatilho. O tratamento de primeira linha é carbamazepina, com oxcarbazepina como alternativa de melhor tolerabilidade, monitorando hiponatremia, leucopenia e função hepática. Analgésicos comuns e opioides são ineficazes nessa dor neuropática. Descompressão microvascular e procedimentos ablativos ficam para refratários ao tratamento clínico.",
+  "porAlt": [
+   "Correta: carbamazepina em primeira linha, com monitorização de sódio, hemograma e função hepática.",
+   "Opioides são pouco eficazes na dor neuropática paroxística característica dessa neuralgia facial.",
+   "Anti-inflamatórios não controlam a dor neuropática do trigêmeo e não são primeira linha alguma.",
+   "A cirurgia é indicada após falha ou intolerância ao tratamento clínico bem conduzido inicialmente.",
+   "O corticoide não é o tratamento da neuralgia clássica do trigêmeo e traz toxicidade acumulada."
+  ]
+ },
+ {
+  "q": "Paciente com cefaleia crônica diária e uso de analgésico comum em mais de 15 dias por mês há seis meses. Qual é a conduta?",
+  "alts": [
+   "Suspender o analgésico de forma programada e iniciar sempre profilaxia adequada para a cefaleia de base.",
+   "Aumentar a dose do analgésico em uso para obter controle mais consistente das crises diárias de dor.",
+   "Associar opioide de uso contínuo diário como próxima etapa do tratamento dessa cefaleia crônica agora.",
+   "Prescrever apenas repouso e observação por doze meses sem qualquer mudança na medicação em uso agora.",
+   "Indicar bloqueio anestésico occipital semanal indefinido como único tratamento para o quadro descrito."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ICHD-3 — Medication-overuse headache; American Headache Society consensus statement, 2021 com revisão 2024",
+  "coment": "A cefaleia por uso excessivo de medicação ocorre com analgésicos comuns em quinze ou mais dias por mês, ou triptanos, ergotamínicos, opioides e combinações em dez ou mais dias por mês, por mais de três meses. O tratamento é a retirada da medicação em excesso, associada ao início de profilaxia da cefaleia primária de base e a um plano para o período de rebote. Manter ou aumentar o analgésico perpetua o ciclo e agrava a cronificação da dor.",
+  "porAlt": [
+   "Correta: suspender de forma programada a medicação em excesso e iniciar profilaxia da cefaleia de base.",
+   "Aumentar a dose agrava a cefaleia por uso excessivo e aprofunda a cronificação do quadro doloroso.",
+   "O opioide contínuo é o pior agente nessa condição, com alto poder de cronificação da cefaleia.",
+   "Observar sem mudar a medicação mantém o ciclo de uso excessivo e a dor diária do paciente.",
+   "O bloqueio pode ser adjuvante, mas isolado não resolve a cefaleia por uso excessivo de medicação."
+  ]
+ },
+ {
+  "q": "Homem de 72 anos com perda de memória progressiva há três anos, com dificuldade para reconhecer familiares e desorientação espacial, sem sinais focais. Qual é o diagnóstico mais provável?",
+  "alts": [
+   "Doença de Alzheimer, que cursa sempre com declínio insidioso da memória episódica e desorientação espacial.",
+   "Demência vascular por múltiplos infartos, definida por curso insidioso e ausência de qualquer sinal focal.",
+   "Hidrocefalia de pressão normal, caracterizada por perda de memória isolada e ausência de alteração da marcha.",
+   "Demência frontotemporal, definida por início com perda de memória episódica e desorientação espacial precoce.",
+   "Delirium hipoativo prolongado, condição caracterizada por declínio insidioso e progressivo ao longo de anos."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "NIA-AA Research Framework, revisão 2024; Academia Brasileira de Neurologia — diretrizes de demência, 2022",
+  "coment": "A doença de Alzheimer é a causa mais frequente de demência e tem apresentação típica com declínio insidioso e progressivo da memória episódica, seguido de desorientação espacial, alteração de linguagem e de funções executivas, sem sinais focais precoces. A demência vascular tende a ter curso em degraus com sinais focais; a frontotemporal inicia com alteração de comportamento ou linguagem; e a hidrocefalia de pressão normal associa marcha, cognição e incontinência.",
+  "porAlt": [
+   "Correta: declínio insidioso da memória episódica com desorientação espacial caracteriza a doença de Alzheimer.",
+   "A demência vascular tende a evoluir em degraus, com sinais focais e fatores de risco vasculares.",
+   "A hidrocefalia de pressão normal cursa com alteração de marcha precoce e incontinência urinária.",
+   "A demência frontotemporal inicia com alteração de comportamento ou de linguagem, não de memória.",
+   "O delirium tem início agudo e curso flutuante, incompatível com a evolução de três anos descrita."
+  ]
+ },
+ {
+  "q": "Paciente com vertigem aguda persistente, nistagmo e instabilidade grave para deambular. Qual achado sugere causa central?",
+  "alts": [
+   "Teste de impulso cefálico normal com desvio de olhar vertical, achado que indica sempre origem central.",
+   "Nistagmo horizontal unidirecional que aumenta ao olhar na direção da fase rápida do movimento ocular.",
+   "Teste de impulso cefálico alterado com sacada de correção evidente ao movimento rápido da cabeça agora.",
+   "Melhora completa da vertigem com a fixação visual do olhar em um ponto durante o exame do paciente.",
+   "Zumbido unilateral associado à perda auditiva neurossensorial ipsilateral evidenciada na audiometria."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "HINTS examination — Kattah et al., Stroke; AAN/AHA guidance on acute vestibular syndrome, revisão 2023",
+  "coment": "Na síndrome vestibular aguda, o exame HINTS diferencia causa periférica de central com sensibilidade superior à da ressonância nas primeiras horas. Sugerem origem central: teste de impulso cefálico normal, nistagmo que muda de direção com o olhar e desvio vertical de um olho ao teste de cobertura alternada. O padrão periférico é o inverso: impulso cefálico alterado com sacada corretiva e nistagmo horizontal unidirecional que não muda de direção.",
+  "porAlt": [
+   "Correta: impulso cefálico normal com desvio de olhar vertical aponta origem central da vertigem.",
+   "O nistagmo horizontal unidirecional é o padrão típico da causa periférica da vertigem aguda.",
+   "O impulso cefálico alterado com sacada corretiva indica lesão vestibular periférica, não central.",
+   "A supressão do nistagmo pela fixação visual é característica das causas periféricas da vertigem.",
+   "Zumbido e perda auditiva sugerem acometimento do labirinto ou do nervo, de origem periférica."
+  ]
+ }
+]

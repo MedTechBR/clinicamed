@@ -8950,5 +8950,1445 @@ window.BANCO=[
 "A intoxicação por metanol cursa com ânion gap elevado e gap osmolar aumentado no plasma.",
 "A doença renal avançada cursa com ânion gap elevado por retenção de ânions não mensurados."
 ]
+},
+{
+"q": "Paciente de 60 anos com crise convulsiva tônico-clônica generalizada de primeira vez, já recuperada, com exame neurológico normal. Qual é a conduta?",
+"alts": [
+"Investigar com eletroencefalograma e neuroimagem antes de decidir sempre sobre o tratamento contínuo.",
+"Iniciar anticonvulsivante em dose plena imediatamente em todos os pacientes com primeira crise única.",
+"Prescrever benzodiazepínico contínuo por seis meses como tratamento padrão após a primeira crise.",
+"Não realizar qualquer investigação, pois a primeira crise não exige avaliação complementar alguma.",
+"Indicar cirurgia de epilepsia precocemente para todos os pacientes após uma primeira crise generalizada."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r2",
+"base": "ILAE/AAN guideline on management of an unprovoked first seizure in adults, revisão 2023",
+"coment": "Após uma primeira crise não provocada, a investigação inclui eletroencefalograma, neuroimagem preferencialmente por ressonância, exames laboratoriais e revisão de fármacos e substâncias. O tratamento contínuo não é automático: indica-se quando o risco de recorrência é alto, o que ocorre com lesão estrutural, eletroencefalograma epileptiforme, crise noturna ou déficit neurológico. Sem esses fatores, o risco de recorrência é menor e a decisão é compartilhada com o paciente.",
+"porAlt": [
+"Correta: investigar com eletroencefalograma e neuroimagem para estimar o risco antes de tratar.",
+"Nem toda primeira crise exige tratamento contínuo; a decisão depende do risco de recorrência.",
+"O benzodiazepínico contínuo não é tratamento de manutenção da epilepsia e causa dependência.",
+"A investigação é obrigatória para excluir lesão estrutural e causas metabólicas ou tóxicas.",
+"A cirurgia se reserva a epilepsia refratária a múltiplos fármacos, e não à primeira crise única."
+]
+},
+{
+"q": "Paciente com estado de mal epiléptico há 8 minutos, sem resposta ao tratamento inicial com benzodiazepínico. Qual é o próximo passo?",
+"alts": [
+"Administrar antiepiléptico de segunda linha endovenoso, sempre em dose de ataque plena e monitorizada.",
+"Repetir doses de benzodiazepínico indefinidamente até a cessação completa da atividade convulsiva.",
+"Aguardar a resolução espontânea da crise por mais trinta minutos antes de qualquer nova medicação.",
+"Iniciar apenas hidratação endovenosa e observar clinicamente sem qualquer antiepiléptico adicional.",
+"Realizar punção lombar imediata antes de qualquer administração de medicação antiepiléptica adicional."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "Neurocritical Care Society/AES guideline on status epilepticus, atualização 2023",
+"coment": "O estado de mal epiléptico é definido por crise com cinco minutos ou mais de duração. A primeira linha é benzodiazepínico em dose adequada, e a subdosagem é o erro mais frequente. Sem resposta, passa-se imediatamente à segunda linha endovenosa — fosfenitoína, ácido valproico ou levetiracetam, com eficácia semelhante entre eles — em dose de ataque. Persistindo, indica-se anestésico em infusão contínua com intubação e monitorização eletroencefalográfica.",
+"porAlt": [
+"Correta: antiepiléptico de segunda linha endovenoso em dose de ataque, sem atrasar a escalada.",
+"Repetir benzodiazepínico indefinidamente causa depressão respiratória sem controlar a crise refratária.",
+"Esperar trinta minutos aumenta a lesão neuronal e reduz a chance de controle da crise prolongada.",
+"A hidratação isolada não interrompe a atividade epiléptica em curso no sistema nervoso central.",
+"A punção lombar pode ser necessária depois, mas nunca antes do controle da crise em andamento."
+]
+},
+{
+"q": "Homem de 68 anos com tremor de repouso assimétrico, bradicinesia e rigidez, com boa resposta à levodopa. Qual é o diagnóstico?",
+"alts": [
+"Doença de Parkinson, que responde sempre bem à levodopa e cursa com assimetria na apresentação.",
+"Tremor essencial, condição que cursa com tremor de repouso assimétrico e resposta clara à levodopa.",
+"Paralisia supranuclear progressiva, definida por boa resposta à levodopa e tremor de repouso marcante.",
+"Atrofia de múltiplos sistemas, caracterizada por resposta sustentada à levodopa e tremor assimétrico.",
+"Tremor cerebelar clássico, que cursa com bradicinesia, rigidez e resposta consistente à levodopa oral."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "MDS Clinical Diagnostic Criteria for Parkinson's Disease, 2015 com revisão 2023; Academia Brasileira de Neurologia, 2022",
+"coment": "A doença de Parkinson é definida por bradicinesia associada a tremor de repouso ou rigidez, com início assimétrico e resposta clara e sustentada à levodopa, critério de suporte importante. Sinais de alerta para parkinsonismo atípico incluem quedas precoces, disautonomia proeminente, paralisia do olhar vertical, progressão rápida e ausência de resposta à levodopa. O tremor essencial é postural e cinético, tipicamente bilateral e sem bradicinesia.",
+"porAlt": [
+"Correta: parkinsonismo assimétrico com boa resposta à levodopa caracteriza a doença de Parkinson.",
+"O tremor essencial é postural e cinético, tipicamente bilateral, e não responde à levodopa.",
+"A paralisia supranuclear progressiva cursa com quedas precoces e má resposta à levodopa.",
+"A atrofia de múltiplos sistemas cursa com disautonomia proeminente e resposta pobre à levodopa.",
+"O tremor cerebelar é de intenção, com dismetria associada, e não cursa com rigidez ou bradicinesia."
+]
+},
+{
+"q": "Paciente com cefaleia súbita de forte intensidade, descrita como a pior da vida, com rigidez de nuca. Tomografia de crânio normal. Qual é a conduta?",
+"alts": [
+"Punção lombar para pesquisa de xantocromia, pois a tomografia normal não exclui sempre o diagnóstico.",
+"Descartar hemorragia subaracnóidea pela tomografia normal e liberar o paciente com analgésico oral.",
+"Iniciar apenas analgesia potente e observar clinicamente por doze horas sem qualquer exame adicional já.",
+"Solicitar eletroencefalograma como próximo exame para o esclarecimento da cefaleia súbita descrita.",
+"Prescrever profilaxia de enxaqueca e agendar retorno ambulatorial em trinta dias para reavaliação."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "AHA/ASA Guidelines for the Management of Aneurysmal Subarachnoid Hemorrhage, 2023",
+"coment": "A tomografia sem contraste tem sensibilidade próxima de cem por cento nas primeiras seis horas da hemorragia subaracnóidea, mas cai progressivamente depois. Diante de cefaleia em trovoada com tomografia normal fora dessa janela, a punção lombar é indicada, buscando xantocromia e contagem de hemácias que não decresce entre os tubos. Alternativa em serviços selecionados é angiotomografia. Perder o diagnóstico expõe o paciente a ressangramento com alta mortalidade.",
+"porAlt": [
+"Correta: punção lombar com pesquisa de xantocromia, pois a tomografia normal não exclui o diagnóstico.",
+"A sensibilidade da tomografia cai após as primeiras horas e o exame normal não permite alta.",
+"Observar sem investigar arrisca ressangramento aneurismático, evento com mortalidade elevada.",
+"O eletroencefalograma não tem qualquer papel na investigação de hemorragia subaracnóidea aguda.",
+"Tratar como enxaqueca uma cefaleia em trovoada retarda o diagnóstico de uma condição letal."
+]
+},
+{
+"q": "Paciente com fraqueza ascendente simétrica, arreflexia e dissociação proteinocitológica no líquor, após quadro diarreico. Qual é o tratamento?",
+"alts": [
+"Imunoglobulina endovenosa ou plasmaférese, sempre com monitorização da função respiratória do paciente.",
+"Corticoide sistêmico em dose alta, tratamento de escolha com melhor evidência para essa polirradiculopatia.",
+"Antibiótico endovenoso de amplo espectro, tratamento indicado para a fraqueza ascendente pós-infecciosa.",
+"Apenas fisioterapia motora intensiva, medida suficiente para a recuperação da força nesse paciente.",
+"Anticoagulação plena, tratamento indicado para a polirradiculoneuropatia aguda descrita no enunciado."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r2",
+"base": "EAN/PNS guideline on diagnosis and treatment of Guillain-Barré syndrome, 2023",
+"coment": "A síndrome de Guillain-Barré é tratada com imunoglobulina endovenosa ou plasmaférese, com eficácia equivalente, sem benefício em combiná-las. O corticoide não é eficaz e não deve ser usado isoladamente, ao contrário do que ocorre na forma crônica. A vigilância respiratória é essencial: capacidade vital forçada, força inspiratória e disautonomia orientam a necessidade de intubação, que deve ser antecipada e não guiada apenas pela oximetria.",
+"porAlt": [
+"Correta: imunoglobulina endovenosa ou plasmaférese, com vigilância estreita da função respiratória.",
+"O corticoide isolado não demonstrou eficácia nessa síndrome, diferentemente da forma crônica.",
+"O antibiótico não trata o processo imunomediado que causa a desmielinização das raízes nervosas.",
+"A fisioterapia é parte da reabilitação, mas não substitui o tratamento imunomodulador na fase aguda.",
+"A anticoagulação é profilaxia de trombose no acamado, e não tratamento da doença neurológica."
+]
+},
+{
+"q": "Paciente com acidente vascular cerebral isquêmico há 2 horas, sem contraindicações, com NIHSS de 12. Qual é a conduta?",
+"alts": [
+"Trombólise endovenosa imediata e avaliar sempre a indicação de trombectomia por oclusão de grande vaso.",
+"Aguardar vinte e quatro horas de observação antes de qualquer decisão sobre terapia de reperfusão.",
+"Iniciar apenas ácido acetilsalicílico e anticoagulação plena, sem qualquer terapia de reperfusão indicada.",
+"Reduzir a pressão arterial agressivamente para valores normais antes de considerar qualquer reperfusão.",
+"Iniciar apenas estatina de alta potência, medida suficiente para a fase aguda do evento isquêmico."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019 com atualização 2024",
+"coment": "Na janela de até quatro horas e meia, sem contraindicações, a trombólise endovenosa com alteplase ou tenecteplase é indicada e o benefício é tempo-dependente. Simultaneamente avalia-se oclusão de grande vaso por angiotomografia, pois a trombectomia mecânica é indicada em até seis horas e, com critérios de imagem de perfusão, até vinte e quatro horas. A pressão é reduzida apenas até menos de 185 por 110 mmHg antes da trombólise, evitando queda excessiva.",
+"porAlt": [
+"Correta: trombólise endovenosa imediata com avaliação simultânea de trombectomia por grande vaso.",
+"Aguardar vinte e quatro horas perde a janela terapêutica em que a reperfusão muda o desfecho.",
+"A anticoagulação plena na fase aguda não substitui a reperfusão e aumenta risco hemorrágico.",
+"Reduzir a pressão de forma agressiva compromete a perfusão da penumbra isquêmica cerebral.",
+"A estatina é prevenção secundária e não tem papel na reperfusão da fase aguda do evento."
+]
+},
+{
+"q": "Mulher de 45 anos com dor lancinante em face desencadeada por toque leve e mastigação, em território do trigêmeo. Qual é o tratamento inicial?",
+"alts": [
+"Carbamazepina como tratamento de primeira linha, sempre com monitorização de sódio e hemograma agora.",
+"Opioide potente em dose plena como tratamento inicial de escolha para essa dor facial paroxística.",
+"Anti-inflamatório não hormonal contínuo, tratamento de primeira linha da neuralgia do trigêmeo clássica.",
+"Cirurgia de descompressão microvascular imediata antes de qualquer tentativa de tratamento clínico.",
+"Corticoide sistêmico em dose alta prolongada, tratamento de escolha para a neuralgia facial descrita."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "AAN/EFNS practice parameter on trigeminal neuralgia, revisão 2023; ICHD-3 classification",
+"coment": "A neuralgia do trigêmeo cursa com dor paroxística em choque, unilateral, desencadeada por estímulos triviais em zonas de gatilho. O tratamento de primeira linha é carbamazepina, com oxcarbazepina como alternativa de melhor tolerabilidade, monitorando hiponatremia, leucopenia e função hepática. Analgésicos comuns e opioides são ineficazes nessa dor neuropática. Descompressão microvascular e procedimentos ablativos ficam para refratários ao tratamento clínico.",
+"porAlt": [
+"Correta: carbamazepina em primeira linha, com monitorização de sódio, hemograma e função hepática.",
+"Opioides são pouco eficazes na dor neuropática paroxística característica dessa neuralgia facial.",
+"Anti-inflamatórios não controlam a dor neuropática do trigêmeo e não são primeira linha alguma.",
+"A cirurgia é indicada após falha ou intolerância ao tratamento clínico bem conduzido inicialmente.",
+"O corticoide não é o tratamento da neuralgia clássica do trigêmeo e traz toxicidade acumulada."
+]
+},
+{
+"q": "Paciente com cefaleia crônica diária e uso de analgésico comum em mais de 15 dias por mês há seis meses. Qual é a conduta?",
+"alts": [
+"Suspender o analgésico de forma programada e iniciar sempre profilaxia adequada para a cefaleia de base.",
+"Aumentar a dose do analgésico em uso para obter controle mais consistente das crises diárias de dor.",
+"Associar opioide de uso contínuo diário como próxima etapa do tratamento dessa cefaleia crônica agora.",
+"Prescrever apenas repouso e observação por doze meses sem qualquer mudança na medicação em uso agora.",
+"Indicar bloqueio anestésico occipital semanal indefinido como único tratamento para o quadro descrito."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ICHD-3 — Medication-overuse headache; American Headache Society consensus statement, 2021 com revisão 2024",
+"coment": "A cefaleia por uso excessivo de medicação ocorre com analgésicos comuns em quinze ou mais dias por mês, ou triptanos, ergotamínicos, opioides e combinações em dez ou mais dias por mês, por mais de três meses. O tratamento é a retirada da medicação em excesso, associada ao início de profilaxia da cefaleia primária de base e a um plano para o período de rebote. Manter ou aumentar o analgésico perpetua o ciclo e agrava a cronificação da dor.",
+"porAlt": [
+"Correta: suspender de forma programada a medicação em excesso e iniciar profilaxia da cefaleia de base.",
+"Aumentar a dose agrava a cefaleia por uso excessivo e aprofunda a cronificação do quadro doloroso.",
+"O opioide contínuo é o pior agente nessa condição, com alto poder de cronificação da cefaleia.",
+"Observar sem mudar a medicação mantém o ciclo de uso excessivo e a dor diária do paciente.",
+"O bloqueio pode ser adjuvante, mas isolado não resolve a cefaleia por uso excessivo de medicação."
+]
+},
+{
+"q": "Homem de 72 anos com perda de memória progressiva há três anos, com dificuldade para reconhecer familiares e desorientação espacial, sem sinais focais. Qual é o diagnóstico mais provável?",
+"alts": [
+"Doença de Alzheimer, que cursa sempre com declínio insidioso da memória episódica e desorientação espacial.",
+"Demência vascular por múltiplos infartos, definida por curso insidioso e ausência de qualquer sinal focal.",
+"Hidrocefalia de pressão normal, caracterizada por perda de memória isolada e ausência de alteração da marcha.",
+"Demência frontotemporal, definida por início com perda de memória episódica e desorientação espacial precoce.",
+"Delirium hipoativo prolongado, condição caracterizada por declínio insidioso e progressivo ao longo de anos."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "NIA-AA Research Framework, revisão 2024; Academia Brasileira de Neurologia — diretrizes de demência, 2022",
+"coment": "A doença de Alzheimer é a causa mais frequente de demência e tem apresentação típica com declínio insidioso e progressivo da memória episódica, seguido de desorientação espacial, alteração de linguagem e de funções executivas, sem sinais focais precoces. A demência vascular tende a ter curso em degraus com sinais focais; a frontotemporal inicia com alteração de comportamento ou linguagem; e a hidrocefalia de pressão normal associa marcha, cognição e incontinência.",
+"porAlt": [
+"Correta: declínio insidioso da memória episódica com desorientação espacial caracteriza a doença de Alzheimer.",
+"A demência vascular tende a evoluir em degraus, com sinais focais e fatores de risco vasculares.",
+"A hidrocefalia de pressão normal cursa com alteração de marcha precoce e incontinência urinária.",
+"A demência frontotemporal inicia com alteração de comportamento ou de linguagem, não de memória.",
+"O delirium tem início agudo e curso flutuante, incompatível com a evolução de três anos descrita."
+]
+},
+{
+"q": "Paciente com vertigem aguda persistente, nistagmo e instabilidade grave para deambular. Qual achado sugere causa central?",
+"alts": [
+"Teste de impulso cefálico normal com desvio de olhar vertical, achado que indica sempre origem central.",
+"Nistagmo horizontal unidirecional que aumenta ao olhar na direção da fase rápida do movimento ocular.",
+"Teste de impulso cefálico alterado com sacada de correção evidente ao movimento rápido da cabeça agora.",
+"Melhora completa da vertigem com a fixação visual do olhar em um ponto durante o exame do paciente.",
+"Zumbido unilateral associado à perda auditiva neurossensorial ipsilateral evidenciada na audiometria."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r3",
+"base": "HINTS examination — Kattah et al., Stroke; AAN/AHA guidance on acute vestibular syndrome, revisão 2023",
+"coment": "Na síndrome vestibular aguda, o exame HINTS diferencia causa periférica de central com sensibilidade superior à da ressonância nas primeiras horas. Sugerem origem central: teste de impulso cefálico normal, nistagmo que muda de direção com o olhar e desvio vertical de um olho ao teste de cobertura alternada. O padrão periférico é o inverso: impulso cefálico alterado com sacada corretiva e nistagmo horizontal unidirecional que não muda de direção.",
+"porAlt": [
+"Correta: impulso cefálico normal com desvio de olhar vertical aponta origem central da vertigem.",
+"O nistagmo horizontal unidirecional é o padrão típico da causa periférica da vertigem aguda.",
+"O impulso cefálico alterado com sacada corretiva indica lesão vestibular periférica, não central.",
+"A supressão do nistagmo pela fixação visual é característica das causas periféricas da vertigem.",
+"Zumbido e perda auditiva sugerem acometimento do labirinto ou do nervo, de origem periférica."
+]
+},
+{
+"q": "Paciente com choque séptico por foco abdominal, já com antibiótico e 30 mL/kg de cristaloide, mantém pressão arterial média de 58 mmHg. Qual é o próximo passo?",
+"alts": [
+"Iniciar noradrenalina como vasopressor de primeira escolha, sempre com alvo de pressão média de 65 mmHg.",
+"Manter apenas a expansão volêmica com mais dez litros de cristaloide antes de qualquer vasopressor.",
+"Iniciar dopamina como vasopressor preferencial nesse contexto pelo melhor perfil de segurança clínica.",
+"Iniciar dobutamina isolada como primeira droga vasoativa diante da hipotensão persistente descrita.",
+"Administrar corticoide em dose alta isolado como primeira medida antes de qualquer droga vasoativa já."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r2",
+"base": "Surviving Sepsis Campaign — International Guidelines, 2021 com atualização 2024",
+"coment": "No choque séptico, após a expansão inicial de trinta mililitros por quilo, o vasopressor de primeira escolha é a noradrenalina, com alvo de pressão arterial média de 65 mmHg. A dopamina é evitada por maior incidência de arritmias. Vasopressina é acrescentada quando a dose de noradrenalina sobe, e a dobutamina se reserva a disfunção miocárdica com sinais de hipoperfusão apesar de pressão adequada. Corticoide entra na dependência persistente de vasopressor.",
+"porAlt": [
+"Correta: noradrenalina como vasopressor de primeira escolha, com alvo de pressão média de 65 mmHg.",
+"Expansão indefinida causa sobrecarga volêmica, edema pulmonar e piora do desfecho no choque.",
+"A dopamina tem mais arritmias e não é a escolha preferencial no choque séptico atualmente.",
+"A dobutamina é inotrópico e pode agravar a hipotensão quando usada sem vasopressor associado.",
+"O corticoide se reserva ao choque com dependência persistente de vasopressor, não como primeira medida."
+]
+},
+{
+"q": "Paciente em parada cardiorrespiratória com ritmo de fibrilação ventricular. Qual é a conduta imediata?",
+"alts": [
+"Desfibrilação imediata seguida sempre de retomada das compressões torácicas sem checar o pulso.",
+"Administrar adrenalina antes de qualquer tentativa de desfibrilação nesse ritmo do monitor.",
+"Realizar cardioversão sincronizada, modalidade indicada para a fibrilação ventricular identificada.",
+"Checar o pulso imediatamente após o choque antes de retomar as compressões torácicas externas.",
+"Iniciar apenas ventilação com bolsa-válvula-máscara sem qualquer compressão ou desfibrilação."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "American Heart Association Guidelines for CPR and ECC, 2020 com atualização 2025; ERC Guidelines, 2021",
+"coment": "Fibrilação ventricular é ritmo chocável e a desfibrilação imediata é a intervenção que define o desfecho, com benefício que cai a cada minuto de atraso. Após o choque, retomam-se as compressões por dois minutos sem checar pulso, para não interromper a perfusão coronariana recém-restabelecida. A adrenalina em ritmo chocável é administrada após o terceiro choque, e a amiodarona é considerada na fibrilação refratária.",
+"porAlt": [
+"Correta: desfibrilar imediatamente e retomar as compressões por dois minutos sem checar pulso.",
+"A adrenalina em ritmo chocável vem após o terceiro choque, sem preceder a desfibrilação inicial.",
+"A cardioversão sincronizada é impossível na fibrilação ventricular, que não tem onda R para sincronizar.",
+"Checar pulso logo após o choque interrompe as compressões e reduz a perfusão coronariana.",
+"A ventilação isolada não trata a fibrilação ventricular nem gera qualquer perfusão coronariana."
+]
+},
+{
+"q": "Paciente politraumatizado com hipotensão, taquicardia e ausência de murmúrio vesicular à direita com timpanismo. Qual é a conduta imediata?",
+"alts": [
+"Descompressão torácica imediata seguida sempre de drenagem definitiva do espaço pleural acometido.",
+"Solicitar radiografia de tórax antes de qualquer intervenção sobre o quadro respiratório do paciente.",
+"Iniciar apenas oxigênio suplementar em alto fluxo e reavaliar clinicamente após quinze minutos.",
+"Realizar tomografia de tórax de urgência antes de qualquer descompressão pleural ser realizada.",
+"Realizar intubação orotraqueal isolada como conduta suficiente para a estabilização desse paciente."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ATLS — Advanced Trauma Life Support, 11ª edição, 2024",
+"coment": "O pneumotórax hipertensivo é diagnóstico clínico e o tratamento não deve aguardar imagem: hipotensão, taquicardia, ausência de murmúrio vesicular com hipertimpanismo e, tardiamente, desvio de traqueia. A conduta é descompressão imediata, por punção com agulha no quinto espaço intercostal na linha axilar anterior ou por toracostomia com dedo, seguida de drenagem torácica definitiva. Aguardar radiografia pode custar a vida do paciente em minutos.",
+"porAlt": [
+"Correta: descompressão imediata seguida de drenagem torácica definitiva do espaço pleural acometido.",
+"A radiografia atrasa uma intervenção que salva a vida em um diagnóstico essencialmente clínico.",
+"O oxigênio isolado não descomprime a cavidade pleural e não corrige o comprometimento do retorno venoso.",
+"A tomografia é inadequada no paciente instável e apenas atrasaria a descompressão necessária.",
+"A intubação sem descompressão pode agravar o quadro pela ventilação com pressão positiva."
+]
+},
+{
+"q": "Paciente com intoxicação por opioide, com rebaixamento de consciência, pupilas puntiformes e frequência respiratória de 6 por minuto. Qual é a conduta?",
+"alts": [
+"Suporte ventilatório e naloxona titulada, sempre buscando restaurar a ventilação sem precipitar abstinência.",
+"Administrar flumazenil endovenoso imediatamente como antídoto de escolha para o quadro descrito neste caso.",
+"Realizar lavagem gástrica de rotina em todos os casos antes de qualquer suporte ventilatório instituído.",
+"Administrar carvão ativado em dose alta como primeira medida no paciente com rebaixamento profundo agora.",
+"Aguardar a metabolização espontânea do opioide sem qualquer intervenção sobre a via aérea do paciente agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "AHA Guidelines — Opioid-Associated Emergency, 2023; Ministério da Saúde — manejo de intoxicações agudas, 2022",
+"coment": "A tríade de rebaixamento, miose puntiforme e depressão respiratória caracteriza intoxicação por opioide. A prioridade é a ventilação, seguida de naloxona titulada por via endovenosa, intramuscular ou intranasal, com o objetivo de restaurar a respiração adequada e não de despertar completamente o paciente, evitando abstinência aguda e agitação. A meia-vida da naloxona é curta, exigindo observação prolongada e eventual infusão contínua.",
+"porAlt": [
+"Correta: suporte ventilatório e naloxona titulada para restaurar a ventilação sem precipitar abstinência.",
+"O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão em intoxicações mistas.",
+"A lavagem gástrica é inútil para opioide já absorvido e arriscada no paciente com rebaixamento.",
+"O carvão ativado é contraindicado sem via aérea protegida pelo risco elevado de broncoaspiração.",
+"Aguardar sem suporte permite parada respiratória, que é a causa de morte nessa intoxicação."
+]
+},
+{
+"q": "Paciente com anafilaxia por picada de inseto, com urticária, broncoespasmo e hipotensão. Qual é a primeira medida?",
+"alts": [
+"Adrenalina intramuscular na face lateral da coxa, administrada sempre antes de qualquer outra medicação.",
+"Corticoide endovenoso em dose alta como primeira medida no tratamento da anafilaxia com hipotensão.",
+"Anti-histamínico endovenoso isolado, primeira medida recomendada no manejo da reação anafilática grave.",
+"Adrenalina endovenosa em bolus rápido como via preferencial no atendimento inicial da anafilaxia agora.",
+"Broncodilatador inalatório isolado como primeira medida para o controle completo do quadro descrito."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "World Allergy Organization Anaphylaxis Guidance, atualização 2024; EAACI guideline on anaphylaxis, 2021",
+"coment": "A adrenalina intramuscular na face anterolateral da coxa é a primeira e insubstituível medida na anafilaxia, em dose de 0,01 mg/kg até 0,5 mg, repetível a cada cinco a quinze minutos. Corticoide e anti-histamínico são adjuvantes que não tratam a obstrução de via aérea nem o choque e nunca devem retardar a adrenalina. A via endovenosa em bolus é reservada a ambiente monitorizado por risco de arritmia e isquemia miocárdica.",
+"porAlt": [
+"Correta: adrenalina intramuscular na face lateral da coxa, antes de qualquer outra medicação adjuvante.",
+"O corticoide tem início lento e não trata a obstrução de via aérea nem a hipotensão imediata.",
+"O anti-histamínico alivia urticária e prurido, mas não reverte broncoespasmo nem choque.",
+"A adrenalina endovenosa em bolus tem risco de arritmia e se reserva a ambiente monitorizado.",
+"O broncodilatador é adjuvante para o broncoespasmo e não trata a hipotensão da anafilaxia."
+]
+},
+{
+"q": "Paciente vítima de queimadura de 30% da superfície corporal, com pele em couro e sem dor nas áreas acometidas. Qual é a conduta inicial de reposição volêmica?",
+"alts": [
+"Reposição com cristaloide guiada por fórmula e ajustada sempre pelo débito urinário horário do paciente.",
+"Reposição inicial exclusivamente com coloide nas primeiras vinte e quatro horas após a queimadura agora.",
+"Restringir líquidos nas primeiras horas para reduzir o edema de tecidos acometidos pela queimadura.",
+"Transfundir hemácias como primeira medida de reposição volêmica no grande queimado sem sangramento.",
+"Repor apenas por via oral, mesmo em queimaduras extensas com essa área de superfície corporal acometida."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ATLS 11ª edição, 2024; American Burn Association clinical practice guidelines, revisão 2023",
+"coment": "A queimadura de espessura total, com aspecto de couro e indolor pela destruição de terminações nervosas, exige reposição volêmica calculada pela fórmula de Parkland — cerca de 2 a 4 mL por quilo por porcentagem de superfície queimada com Ringer lactato nas primeiras vinte e quatro horas, metade nas primeiras oito horas contadas do trauma. A fórmula é apenas ponto de partida: o ajuste real é feito pelo débito urinário, mantido entre 0,5 e 1 mL/kg/h no adulto.",
+"porAlt": [
+"Correta: cristaloide pela fórmula, com ajuste contínuo guiado pelo débito urinário horário do paciente.",
+"O coloide exclusivo não é recomendado nas primeiras horas da ressuscitação do grande queimado.",
+"Restringir líquidos no grande queimado leva a choque hipovolêmico e lesão renal aguda evitável.",
+"A transfusão não é reposição volêmica inicial na queimadura sem perda sanguínea associada.",
+"A via oral é insuficiente para reposição em queimadura extensa, que exige acesso venoso calibroso."
+]
+},
+{
+"q": "Paciente com hipotermia grave, temperatura central de 28 °C, em parada cardiorrespiratória. Qual é a conduta?",
+"alts": [
+"Manter reanimação prolongada com reaquecimento ativo, pois não se declara óbito sempre antes do aquecimento.",
+"Declarar o óbito após vinte minutos de reanimação sem resposta, mesmo com a temperatura central baixa agora.",
+"Administrar doses habituais de adrenalina em intervalos usuais durante toda a reanimação do paciente agora.",
+"Aplicar choques repetidos indefinidamente na mesma temperatura sem qualquer tentativa de reaquecimento já.",
+"Interromper as compressões torácicas durante todo o processo de reaquecimento ativo do paciente neste caso."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "European Resuscitation Council Guidelines — Special Circumstances, 2021; AHA Guidelines, atualização 2025",
+"coment": "Na hipotermia grave o metabolismo cerebral está muito reduzido e a recuperação neurológica é possível mesmo após reanimação prolongada, o que sustenta o princípio de que ninguém está morto até estar quente e morto. Abaixo de 30 °C, limitam-se as tentativas de desfibrilação e adiam-se as drogas, cujos intervalos são espaçados entre 30 e 35 °C. O reaquecimento ativo, idealmente extracorpóreo nos casos com parada, é conduzido junto da reanimação.",
+"porAlt": [
+"Correta: reanimação prolongada com reaquecimento ativo, sem declarar óbito antes de aquecer o paciente.",
+"Vinte minutos é intervalo insuficiente para decidir na hipotermia grave, em que há recuperação tardia.",
+"As drogas são adiadas abaixo de 30 °C e administradas em intervalos espaçados entre 30 e 35 °C.",
+"Choques repetidos sem reaquecimento raramente revertem a fibrilação no miocárdio muito frio.",
+"As compressões são mantidas durante o reaquecimento, pois sustentam a perfusão do paciente."
+]
+},
+{
+"q": "Paciente com síndrome coronariana aguda sem supradesnivelamento de ST, com troponina elevada e escore GRACE de risco alto. Qual é a conduta?",
+"alts": [
+"Estratégia invasiva precoce com coronariografia em até vinte e quatro horas, sempre com terapia antitrombótica.",
+"Estratégia conservadora com alta precoce e reavaliação ambulatorial em trinta dias após o evento agudo agora.",
+"Trombólise sistêmica imediata, tratamento indicado para essa apresentação sem supradesnivelamento de ST agora.",
+"Apenas teste ergométrico ambulatorial em uma semana, sem qualquer terapia antitrombótica na internação agora.",
+"Anticoagulação isolada por seis semanas sem qualquer avaliação anatômica das artérias coronárias neste caso."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "ESC Guidelines for the management of acute coronary syndromes, 2023; Diretriz Brasileira de SCA sem supra de ST — SBC, 2021",
+"coment": "Na síndrome coronariana aguda sem supradesnivelamento de ST com risco alto — troponina elevada, alterações dinâmicas de ST, escore GRACE acima de 140 —, a estratégia invasiva precoce com coronariografia em até vinte e quatro horas reduz eventos isquêmicos. Associa-se antiagregação dupla, anticoagulação parenteral, betabloqueador e estatina de alta potência. Trombólise não tem indicação nessa apresentação e aumenta o risco de sangramento sem benefício.",
+"porAlt": [
+"Correta: estratégia invasiva precoce em até vinte e quatro horas, com terapia antitrombótica associada.",
+"A alta precoce em paciente de risco alto expõe a infarto e óbito no período de maior vulnerabilidade.",
+"A trombólise não é indicada nessa apresentação e aumenta o risco hemorrágico sem qualquer benefício.",
+"O teste ergométrico é inadequado no paciente de alto risco com troponina elevada e dor recente.",
+"A anticoagulação isolada não define a anatomia nem trata a lesão culpada responsável pelo evento."
+]
+},
+{
+"q": "Paciente com hemorragia digestiva alta e instabilidade hemodinâmica, com hemoglobina de 6,2 g/dL. Qual é a estratégia transfusional?",
+"alts": [
+"Estratégia restritiva com alvo de hemoglobina em torno de 7 g/dL, sempre reavaliando a resposta clínica.",
+"Estratégia liberal com alvo de hemoglobina acima de 10 g/dL em todos os pacientes com sangramento agora.",
+"Não transfundir enquanto a hemoglobina permanecer acima de 5 g/dL, independentemente da instabilidade.",
+"Transfundir apenas plasma fresco congelado, sem qualquer concentrado de hemácias no paciente instável.",
+"Transfundir apenas plaquetas, componente indicado como reposição inicial nesse sangramento digestivo."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "AABB/ICTMG red blood cell transfusion guidelines, 2023; ESGE guideline on nonvariceal upper GI hemorrhage, 2021",
+"coment": "Ensaios clínicos mostraram que a estratégia transfusional restritiva, com alvo de hemoglobina em torno de 7 g/dL, reduz mortalidade e ressangramento na hemorragia digestiva alta em comparação à liberal, sobretudo no cirrótico, porque a transfusão excessiva eleva a pressão portal. Em coronariopatas o alvo pode ser um pouco maior, em torno de 8 g/dL. A decisão sempre considera o sangramento ativo e a resposta clínica, não apenas o número.",
+"porAlt": [
+"Correta: estratégia restritiva com alvo em torno de 7 g/dL, reavaliando resposta e sangramento ativo.",
+"A estratégia liberal aumentou mortalidade e ressangramento nos ensaios clínicos comparativos.",
+"Aguardar até 5 g/dL em paciente instável com sangramento ativo é conduta de risco inaceitável.",
+"O plasma se indica na coagulopatia documentada e não substitui a reposição de hemácias.",
+"As plaquetas se repõem conforme a contagem e o sangramento, não como reposição inicial isolada."
+]
+},
+{
+"q": "Paciente com trauma cranioencefálico grave e Glasgow de 6. Qual é a conduta imediata quanto à via aérea e à pressão?",
+"alts": [
+"Intubação orotraqueal para proteção da via aérea e evitar sempre hipotensão e hipoxemia secundárias.",
+"Manter apenas máscara de oxigênio e permitir hipotensão leve para reduzir o edema cerebral instalado.",
+"Hiperventilar de rotina e de forma prolongada todos os pacientes com esse escore de coma de Glasgow já.",
+"Administrar manitol de rotina em todos os pacientes antes de qualquer avaliação por neuroimagem.",
+"Adiar a intubação até o resultado da tomografia de crânio para não interferir na avaliação neurológica."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Brain Trauma Foundation Guidelines for the Management of Severe TBI, 4ª edição com atualização 2023; ATLS 11ª edição, 2024",
+"coment": "Glasgow igual ou menor que 8 indica intubação para proteção da via aérea. As duas agressões secundárias que mais pioram o desfecho no trauma cranioencefálico grave são hipotensão e hipoxemia, de modo que manter pressão sistólica adequada e saturação acima de noventa por cento é prioridade. Hiperventilação profilática prolongada é deletéria por vasoconstrição e isquemia, reservando-se à herniação iminente como medida temporária.",
+"porAlt": [
+"Correta: intubar para proteger a via aérea e evitar hipotensão e hipoxemia, as agressões secundárias.",
+"Permitir hipotensão piora a perfusão cerebral e é um dos maiores determinantes de mau desfecho.",
+"A hiperventilação prolongada causa vasoconstrição e isquemia, sendo reservada à herniação iminente.",
+"O manitol é usado diante de sinais de hipertensão intracraniana, e não de rotina em todos os casos.",
+"Adiar a intubação com Glasgow de 6 expõe o paciente a broncoaspiração e hipoxemia evitáveis."
+]
+},
+{
+"q": "Um paciente com tuberculose pulmonar bacilífera se recusa a usar máscara na sala de espera. Qual é a conduta ética e sanitária?",
+"alts": [
+"Explicar o risco e negociar medidas de proteção, mantendo sempre o atendimento em ambiente adequado.",
+"Negar o atendimento até que o paciente concorde integralmente com todas as medidas de proteção exigidas.",
+"Acionar a polícia para a contenção física imediata do paciente que recusa o uso da máscara cirúrgica.",
+"Atender normalmente na sala de espera comum, sem qualquer medida adicional de controle da transmissão.",
+"Internar compulsoriamente todos os pacientes bacilíferos que recusarem o uso de máscara no serviço."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019 com atualização 2023",
+"coment": "O controle da transmissão da tuberculose combina medidas administrativas, ambientais e de proteção individual: identificar precocemente o sintomático respiratório, priorizar seu atendimento, oferecer máscara cirúrgica ao paciente e mantê-lo em ambiente ventilado e separado. A recusa é abordada com informação e negociação, sem negar assistência, que é direito garantido. Internação compulsória é medida excepcional e nunca a resposta inicial à recusa.",
+"porAlt": [
+"Correta: informar, negociar proteção e manter o atendimento em ambiente ventilado e adequado.",
+"Negar atendimento viola o direito à saúde e afasta do serviço quem precisa de tratamento supervisionado.",
+"A contenção policial não é medida sanitária e destrói o vínculo necessário ao tratamento longo.",
+"Atender sem medidas expõe outros usuários e trabalhadores a um risco de transmissão evitável.",
+"A internação compulsória é excepcional, com critérios estritos, e não é resposta inicial à recusa."
+]
+},
+{
+"q": "Uma equipe precisa organizar a vacinação de adultos na unidade. Qual conjunto compõe o calendário do adulto no Brasil?",
+"alts": [
+"Dupla adulto, hepatite B, febre amarela e tríplice viral conforme sempre a situação vacinal de cada pessoa.",
+"Apenas a vacina contra influenza anual, única recomendada para adultos sem comorbidades no país agora.",
+"Somente vacinas para viajantes internacionais, já sem qualquer esquema de rotina previsto para adultos agora.",
+"Apenas a vacina antitetânica em caso de ferimento, sem qualquer esquema regular de reforço programado.",
+"Somente vacinas para gestantes, pois os demais adultos não têm calendário vacinal definido no Brasil agora."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Ministério da Saúde — Calendário Nacional de Vacinação, 2025",
+"coment": "O calendário do adulto inclui dupla adulto com reforço a cada dez anos, hepatite B em três doses para quem não tem esquema completo, febre amarela em dose única conforme área de risco e tríplice viral conforme idade e situação vacinal. Acrescentam-se influenza anual para grupos prioritários, pneumocócica e vacinas para gestantes. A avaliação da caderneta é oportunidade em toda consulta, aproveitando o contato com o serviço.",
+"porAlt": [
+"Correta: dupla adulto, hepatite B, febre amarela e tríplice viral conforme a situação vacinal.",
+"A influenza é importante em grupos prioritários, mas não é a única vacina prevista para adultos.",
+"Há calendário de rotina para adultos, e não apenas recomendações para viagens internacionais.",
+"A profilaxia do tétano em ferimento não substitui o esquema regular com reforços programados.",
+"O calendário do adulto abrange toda a população, e não apenas as mulheres gestantes."
+]
+},
+{
+"q": "Uma paciente traz relato de violência doméstica recente. Qual é a conduta obrigatória do serviço?",
+"alts": [
+"Acolher, notificar compulsoriamente e articular sempre a rede de proteção com o consentimento da pessoa.",
+"Notificar apenas se a paciente registrar boletim de ocorrência policial antes do atendimento no serviço.",
+"Encaminhar exclusivamente para a delegacia sem qualquer atendimento clínico ou notificação do caso.",
+"Registrar apenas em prontuário, sem qualquer notificação à vigilância epidemiológica do município agora.",
+"Aguardar que a paciente solicite a notificação por escrito antes de qualquer comunicação oficial do caso."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Lei nº 10.778/2003; Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de violência interpessoal",
+"coment": "A notificação de violência interpessoal e autoprovocada é compulsória para todos os serviços de saúde, públicos e privados, e independe de boletim de ocorrência. Ela é instrumento epidemiológico e de proteção, não denúncia policial: a comunicação à autoridade policial é obrigatória apenas em situações específicas, como violência contra criança, adolescente, idoso e pessoa com deficiência. O acolhimento inclui avaliação de risco e articulação com a rede.",
+"porAlt": [
+"Correta: acolher, notificar compulsoriamente e articular a rede de proteção junto com a pessoa.",
+"A notificação independe de boletim de ocorrência e é dever do serviço de saúde que atende.",
+"Encaminhar sem atender nega assistência e desconsidera as necessidades clínicas da paciente.",
+"O registro em prontuário não substitui a notificação compulsória prevista na legislação vigente.",
+"A notificação é obrigatória e não depende de solicitação por escrito da pessoa atendida."
+]
+},
+{
+"q": "Um gestor quer avaliar a qualidade de um teste diagnóstico novo em relação a um padrão-ouro. Qual medida indica a proporção de doentes corretamente identificados?",
+"alts": [
+"Sensibilidade, que expressa sempre a proporção de doentes com resultado positivo no teste avaliado.",
+"Especificidade, que expressa a proporção de doentes identificados corretamente pelo teste em estudo.",
+"Valor preditivo positivo, medida que independe da prevalência da doença na população avaliada agora.",
+"Prevalência, medida que expressa a capacidade do teste de identificar corretamente os doentes agora.",
+"Incidência acumulada, medida que expressa o desempenho do teste entre os indivíduos com a doença."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Ministério da Saúde — Diretrizes metodológicas de avaliação de tecnologias em saúde, 2022; epidemiologia clínica clássica",
+"coment": "Sensibilidade é a proporção de doentes com teste positivo e responde à pergunta sobre quantos doentes o teste encontra; especificidade é a proporção de não doentes com teste negativo. Ambas são propriedades relativamente estáveis do teste. Já os valores preditivos dependem fortemente da prevalência: o mesmo teste tem valor preditivo positivo alto em população de alto risco e baixo em rastreamento populacional de doença rara.",
+"porAlt": [
+"Correta: sensibilidade é a proporção de doentes corretamente identificados como positivos pelo teste.",
+"Especificidade se refere aos não doentes corretamente identificados como negativos pelo teste.",
+"O valor preditivo positivo depende fortemente da prevalência da doença na população estudada.",
+"Prevalência é a proporção de doentes na população, e não uma medida de desempenho do teste.",
+"Incidência mede casos novos em um período e não avalia o desempenho de um teste diagnóstico."
+]
+},
+{
+"q": "Um médico é convidado a receber vantagem de uma indústria farmacêutica para prescrever determinado medicamento. Qual é a conduta correta?",
+"alts": [
+"Recusar a oferta, pois vincular prescrição a vantagem fere sempre a autonomia técnica do médico.",
+"Aceitar desde que o medicamento tenha registro sanitário válido e comprovada eficácia terapêutica.",
+"Aceitar e informar apenas ao paciente, o que torna a conduta eticamente aceitável na relação clínica.",
+"Aceitar se o valor recebido for destinado integralmente a atividades de educação médica continuada.",
+"Aceitar desde que outros profissionais do mesmo serviço também recebam a mesma oferta comercial."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; Resolução CFM sobre relação com a indústria",
+"coment": "O Código de Ética Médica veda receber vantagem por prescrever ou indicar produtos, bem como vincular a prescrição a qualquer benefício. A independência técnica é condição da confiança na relação médica: o que orienta a conduta é o melhor interesse do paciente e a melhor evidência disponível. Relações com a indústria são permitidas com transparência e regras claras, mas jamais atreladas ao ato de prescrever determinado produto.",
+"porAlt": [
+"Correta: recusar, pois vincular prescrição a vantagem compromete a independência técnica do médico.",
+"O registro sanitário do produto não legitima a vantagem recebida em troca da prescrição.",
+"Informar o paciente não corrige o conflito de interesse que já contamina a decisão terapêutica.",
+"A destinação do valor a educação não descaracteriza a vantagem vinculada ao ato de prescrever.",
+"A prática coletiva de uma conduta antiética não a torna aceitável do ponto de vista ético."
+]
+},
+{
+"q": "Uma unidade quer reduzir a mortalidade infantil no território. Qual conjunto de ações tem maior impacto?",
+"alts": [
+"Pré-natal adequado, incentivo ao aleitamento e vacinação, com busca ativa sempre das faltosas agora.",
+"Ampliar apenas leitos de terapia intensiva neonatal, já medida isolada de maior impacto no indicador.",
+"Aumentar o número de exames de imagem ofertados no território como principal estratégia de redução.",
+"Ampliar apenas o horário de funcionamento das farmácias como medida central para reduzir o indicador.",
+"Concentrar todos os partos em hospitais terciários distantes do território adscrito pela equipe local."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Ministério da Saúde — Rede Cegonha/Rede Alyne, 2024; UNICEF/OMS recomendações sobre mortalidade infantil",
+"coment": "A mortalidade infantil responde principalmente a ações de atenção primária: pré-natal com número adequado de consultas e exames, identificação de gestação de risco, parto seguro, incentivo ao aleitamento materno exclusivo até seis meses, vacinação em dia, acompanhamento do crescimento e busca ativa de faltosos. Leitos de terapia intensiva são necessários, mas atuam sobre o desfecho já instalado e têm menor impacto populacional do que a prevenção.",
+"porAlt": [
+"Correta: pré-natal adequado, aleitamento, vacinação e busca ativa dos faltosos no território.",
+"Leitos intensivos são necessários, mas atuam depois do agravo e têm menor impacto populacional.",
+"O aumento de exames de imagem não guarda relação direta com a redução da mortalidade infantil.",
+"O horário das farmácias não é determinante relevante do indicador de mortalidade infantil.",
+"Distanciar o parto do território dificulta o acesso e a continuidade do cuidado da gestante."
+]
+},
+{
+"q": "Um paciente terminal, lúcido, recusa a instalação de sonda para alimentação. Qual é a conduta correta?",
+"alts": [
+"Respeitar a recusa e registrar a decisão, oferecendo sempre conforto e cuidados paliativos adequados.",
+"Instalar a sonda mesmo contra a vontade do paciente, pois a nutrição é sempre um dever do médico.",
+"Solicitar autorização judicial para instalar a sonda em todos os casos de recusa de suporte nutricional.",
+"Transferir a decisão integralmente aos familiares, desconsiderando a manifestação do próprio paciente.",
+"Suspender todo o cuidado ao paciente que recusa a sonda, já incluindo analgesia e medidas de conforto."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "Resolução CFM nº 1.995/2012 sobre diretivas antecipadas; Código de Ética Médica, 2018; ANCP — Manual de Cuidados Paliativos, 2021",
+"coment": "O paciente lúcido e capaz tem direito de recusar tratamento, inclusive suporte nutricional artificial, e essa recusa deve ser respeitada e registrada, com esclarecimento sobre consequências e alternativas. Recusar um tratamento específico não significa recusar cuidado: analgesia, controle de sintomas, higiene e apoio continuam obrigatórios. Impor tratamento contra a vontade de paciente capaz configura constrangimento ilegal e infração ética.",
+"porAlt": [
+"Correta: respeitar e registrar a recusa, mantendo conforto, analgesia e cuidados paliativos plenos.",
+"Impor tratamento a paciente capaz que recusa configura constrangimento e infração ética grave.",
+"A autorização judicial não é o caminho diante da recusa de paciente lúcido, capaz e informado.",
+"A decisão é do paciente capaz, e transferi-la à família desrespeita sua autonomia pessoal.",
+"Recusar um tratamento não implica abandono: os cuidados de conforto permanecem obrigatórios."
+]
+},
+{
+"q": "Uma equipe identifica que muitos hipertensos do território não comparecem às consultas. Qual estratégia é mais adequada?",
+"alts": [
+"Busca ativa com visita domiciliar e reorganização do acesso, investigando sempre as barreiras de cada pessoa.",
+"Excluir do cadastro da equipe todos os pacientes que faltarem a duas consultas agendadas consecutivas agora já.",
+"Encaminhar ao especialista todos os faltosos, transferindo o acompanhamento para o nível secundário agora.",
+"Aguardar que os pacientes procurem espontaneamente o serviço quando apresentarem alguma complicação agora.",
+"Prescrever medicação por telefone sem qualquer avaliação clínica ou reorganização do acesso ao serviço agora."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Portaria GM/MS nº 2.436/2017 — Política Nacional de Atenção Básica; Ministério da Saúde — linha de cuidado da hipertensão, 2021",
+"coment": "A responsabilidade sanitária sobre a população adscrita implica buscar quem não comparece, e não apenas atender quem chega. A busca ativa com agentes comunitários e visita domiciliar identifica barreiras concretas: horário incompatível com o trabalho, dificuldade de transporte, efeitos adversos, falta de compreensão do tratamento e problemas sociais. A resposta combina reorganizar o acesso, apoiar o autocuidado e articular a rede intersetorial.",
+"porAlt": [
+"Correta: busca ativa com visita domiciliar e reorganização do acesso conforme as barreiras encontradas.",
+"Excluir faltosos do cadastro contraria a responsabilidade sanitária sobre a população adscrita.",
+"Encaminhar todos ao especialista não resolve as barreiras de acesso e desorganiza a rede de cuidado.",
+"Esperar a complicação transforma a equipe em serviço de emergência e desperdiça a prevenção possível.",
+"Prescrever sem avaliação clínica adequada é conduta insegura e não enfrenta o problema do acesso."
+]
+},
+{
+"q": "Um estudo compara dois tratamentos e encontra risco relativo de 0,75 com intervalo de confiança de 95% entre 0,60 e 0,94. Qual é a interpretação?",
+"alts": [
+"Redução estatisticamente significativa do desfecho, pois o intervalo não inclui sempre o valor de nulidade.",
+"Ausência de diferença entre os tratamentos, pois o intervalo de confiança inclui o valor de nulidade agora.",
+"Aumento do risco no grupo intervenção, já que o risco relativo apresentado é inferior à unidade agora.",
+"Resultado inconclusivo, pois o intervalo de confiança apresentado é considerado excessivamente estreito.",
+"Impossibilidade de interpretação sem conhecer o valor exato do p do teste estatístico aplicado neste caso."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Ministério da Saúde — Diretrizes metodológicas: elaboração de revisão sistemática e metanálise, 2022; GRADE Working Group",
+"coment": "Risco relativo abaixo de um indica redução do desfecho no grupo intervenção. O intervalo de confiança de 95% entre 0,60 e 0,94 não inclui o valor 1, que é a nulidade para medidas de razão, e portanto o resultado é estatisticamente significativo. Além da significância, a interpretação clínica considera a magnitude do efeito, o número necessário para tratar, a precisão do intervalo e a relevância do desfecho medido.",
+"porAlt": [
+"Correta: o intervalo não inclui o valor de nulidade, indicando redução estatisticamente significativa.",
+"O intervalo apresentado não contém o valor 1, de modo que não indica ausência de diferença.",
+"Risco relativo menor que um indica redução, e não aumento do risco no grupo intervenção.",
+"O intervalo é razoavelmente estreito e permite conclusão sobre a direção e a magnitude do efeito.",
+"O intervalo de confiança já permite a interpretação, sem depender do valor exato do p."
+]
+},
+{
+"q": "Um paciente solicita cópia integral do seu prontuário médico. Qual é a conduta correta?",
+"alts": [
+"Fornecer a cópia, pois o prontuário pertence ao paciente e sempre fica sob a guarda do serviço.",
+"Negar o acesso, já que o prontuário é documento de propriedade exclusiva do médico assistente.",
+"Fornecer apenas um resumo elaborado pelo médico, negando o acesso ao conteúdo integral do documento.",
+"Exigir autorização judicial em todos os casos antes de qualquer entrega de cópia ao próprio paciente.",
+"Fornecer somente ao familiar acompanhante, e nunca diretamente ao próprio paciente que solicitou."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; Resolução CFM nº 1.638/2002; Lei Geral de Proteção de Dados",
+"coment": "O prontuário pertence ao paciente, ficando sob a guarda da instituição ou do médico, que responde por sua conservação e sigilo. O paciente tem direito de acesso ao conteúdo integral e a cópia, sem necessidade de justificar o pedido ou obter autorização judicial. Negar acesso configura infração ética. A entrega a terceiros exige autorização expressa do paciente, salvo as exceções legais previstas na legislação vigente.",
+"porAlt": [
+"Correta: o prontuário pertence ao paciente, que tem direito à cópia integral do seu conteúdo.",
+"O prontuário não é propriedade do médico, que apenas responde pela guarda e pelo sigilo dele.",
+"O resumo não substitui o direito de acesso ao conteúdo integral do documento pelo paciente.",
+"Não é necessária autorização judicial para o próprio paciente acessar o seu prontuário médico.",
+"O direito de acesso é do paciente, e a entrega a terceiros exige sua autorização expressa."
+]
+},
+{
+"q": "Paciente em uso de varfarina apresenta INR de 8,0 sem sangramento. Qual é a conduta?",
+"alts": [
+"Suspender a varfarina e administrar vitamina K por via oral, sempre com reavaliação seriada do INR.",
+"Administrar plasma fresco congelado em todos os pacientes com esse valor de INR, já mesmo sem sangramento.",
+"Manter a mesma dose de varfarina e apenas repetir o exame após uma semana de acompanhamento agora.",
+"Administrar concentrado de complexo protrombínico de rotina mesmo na ausência de qualquer sangramento.",
+"Iniciar heparina de baixo peso molecular em dose plena associada à manutenção integral da varfarina."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "urg",
+"nivel": "r2",
+"base": "ACCP/ASH guidelines on antithrombotic therapy — management of supratherapeutic INR, revisão 2023",
+"coment": "Com INR acima de 10 sem sangramento, ou entre 4,5 e 10 com risco elevado, suspende-se a varfarina e considera-se vitamina K oral em dose baixa, de 2,5 a 5 mg, com reavaliação seriada. Plasma fresco e complexo protrombínico são reservados a sangramento grave ou necessidade de reversão imediata para procedimento, pois expõem a risco transfusional e trombótico sem benefício quando não há sangramento em curso.",
+"porAlt": [
+"Correta: suspender a varfarina, dar vitamina K oral e reavaliar o INR de forma seriada.",
+"O plasma se reserva a sangramento grave, expondo a risco transfusional sem benefício aqui.",
+"Manter a dose com INR muito elevado deixa o paciente sob risco alto de sangramento espontâneo.",
+"O complexo protrombínico é para reversão urgente com sangramento grave ou cirurgia imediata.",
+"Associar heparina em paciente com INR de 8,0 multiplica o risco hemorrágico sem qualquer benefício."
+]
+},
+{
+"q": "Mulher de 25 anos com anemia microcítica, ferritina normal, RDW normal e história familiar de anemia. Qual é a hipótese?",
+"alts": [
+"Talassemia menor, que cursa sempre com microcitose desproporcional à intensidade da anemia observada.",
+"Anemia ferropriva clássica, que cursa com ferritina normal e amplitude de distribuição eritrocitária normal.",
+"Anemia de doença crônica avançada, definida por microcitose acentuada com ferritina sérica normal.",
+"Anemia megaloblástica inicial, condição que cursa com microcitose e distribuição eritrocitária normal.",
+"Anemia hemolítica autoimune, quadro caracterizado por microcitose com ferritina e distribuição normais."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "British Society for Haematology guideline on significant haemoglobinopathies, revisão 2023; OMS — hemoglobinopatias, 2023",
+"coment": "Na talassemia menor a microcitose é desproporcional à anemia, que costuma ser leve, com contagem de hemácias normal ou elevada, RDW normal e ferritina normal. Na ferropenia ocorre o oposto: ferritina baixa, RDW elevado e contagem de hemácias reduzida. A confirmação da talassemia é feita por eletroforese de hemoglobina, com elevação de hemoglobina A2 na forma beta. Reconhecer evita reposição de ferro desnecessária e prolongada.",
+"porAlt": [
+"Correta: microcitose desproporcional com ferritina e RDW normais sugere talassemia menor.",
+"A ferropenia cursa com ferritina baixa e RDW elevado, ao contrário do descrito neste caso.",
+"A anemia de doença crônica costuma ser normocítica ou levemente microcítica, com ferritina alta.",
+"A anemia megaloblástica cursa com macrocitose, e não com a microcitose descrita no enunciado.",
+"A hemólise cursa com anemia normocítica ou macrocítica, com reticulocitose e LDH elevada."
+]
+},
+{
+"q": "Paciente com leucemia promielocítica aguda apresenta sangramento e coagulopatia. Qual é a conduta imediata?",
+"alts": [
+"Iniciar ácido transretinoico imediatamente e repor hemocomponentes, sempre antes da confirmação genética.",
+"Aguardar o resultado da pesquisa molecular antes de iniciar qualquer tratamento específico da leucemia.",
+"Iniciar apenas quimioterapia convencional sem qualquer diferenciador, já tratamento de escolha nesse subtipo.",
+"Administrar apenas antifibrinolítico isolado, medida suficiente para o controle da coagulopatia descrita.",
+"Iniciar anticoagulação plena com heparina como primeira medida diante da coagulopatia identificada agora."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "NCCN Acute Myeloid Leukemia, 2024; European LeukemiaNet recommendations on APL, 2019 com revisão 2023",
+"coment": "A leucemia promielocítica aguda é a emergência hematológica por excelência: a coagulopatia com fibrinólise e coagulação intravascular disseminada causa hemorragia fatal, sobretudo intracraniana e pulmonar, nas primeiras horas. O ácido transretinoico é iniciado pela suspeita morfológica ou clínica, sem aguardar a confirmação da translocação, porque reverte rapidamente a coagulopatia. Simultaneamente repõem-se plaquetas, fibrinogênio e plasma conforme metas.",
+"porAlt": [
+"Correta: ácido transretinoico imediato pela suspeita clínica, com reposição agressiva de hemocomponentes.",
+"Aguardar a confirmação genética custa horas em que o paciente pode morrer de hemorragia cerebral.",
+"A quimioterapia sem o diferenciador não reverte a coagulopatia característica desse subtipo.",
+"O antifibrinolítico isolado não trata a doença de base nem a coagulopatia de forma sustentada.",
+"A anticoagulação plena aumenta o sangramento em um paciente já gravemente coagulopata."
+]
+},
+{
+"q": "Paciente com anemia falciforme apresenta crise vaso-oclusiva com dor intensa. Qual é a conduta?",
+"alts": [
+"Analgesia precoce e agressiva com hidratação adequada, sempre investigando fatores desencadeantes.",
+"Transfundir concentrado de hemácias de rotina em toda crise vaso-oclusiva dolorosa não complicada.",
+"Prescrever apenas anti-inflamatório oral e liberar o paciente sem qualquer reavaliação programada.",
+"Hiperidratar com grande volume endovenoso rápido como principal medida terapêutica da crise dolorosa.",
+"Iniciar antibiótico de amplo espectro em todos os casos, mesmo sem qualquer sinal de foco infeccioso."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ASH Clinical Practice Guidelines on Sickle Cell Disease — acute pain management, 2020; Ministério da Saúde — PCDT Doença Falciforme, 2023",
+"coment": "A crise vaso-oclusiva exige analgesia precoce, idealmente iniciada em até uma hora da chegada, com escalonamento rápido para opioide quando a dor é intensa, reavaliação frequente e associação de analgésico simples. Hidratação é feita em ritmo adequado, e a hiperidratação favorece síndrome torácica aguda. Transfusão não é rotina na crise simples, ficando reservada a síndrome torácica, acidente vascular cerebral e outras complicações graves.",
+"porAlt": [
+"Correta: analgesia precoce e agressiva, hidratação adequada e busca de fatores desencadeantes.",
+"A transfusão de rotina em crise simples não é recomendada e expõe a aloimunização desnecessária.",
+"O anti-inflamatório isolado é insuficiente para dor intensa, que costuma exigir opioide titulado.",
+"A hiperidratação rápida favorece congestão e síndrome torácica aguda, complicação grave e temida.",
+"O antibiótico sem sinal de infecção não é indicado, embora febre exija investigação imediata."
+]
+},
+{
+"q": "Paciente assintomático apresenta pico monoclonal de 1,2 g/dL, sem anemia, sem lesão renal, sem hipercalcemia e com plasmócitos medulares de 5%. Qual é o diagnóstico?",
+"alts": [
+"Gamopatia monoclonal de significado indeterminado, que exige sempre seguimento periódico programado.",
+"Mieloma múltiplo sintomático, definido por esse pico monoclonal e por essa porcentagem de plasmócitos.",
+"Macroglobulinemia de Waldenström, condição definida pelos achados descritos no enunciado do caso.",
+"Amiloidose sistêmica estabelecida, diagnóstico que se define pela presença isolada do pico monoclonal.",
+"Leucemia de células plasmáticas, definida por pico monoclonal com plasmocitose medular de cinco por cento."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "International Myeloma Working Group criteria, atualização 2024; NCCN Multiple Myeloma, 2024",
+"coment": "A gamopatia monoclonal de significado indeterminado é definida por proteína monoclonal abaixo de 3 g/dL, plasmócitos clonais medulares abaixo de dez por cento e ausência de lesão de órgão-alvo — hipercalcemia, insuficiência renal, anemia e lesão óssea. O risco de progressão para mieloma é de cerca de um por cento ao ano, o que justifica seguimento periódico com eletroforese, hemograma, cálcio, creatinina e cadeias leves livres.",
+"porAlt": [
+"Correta: pico abaixo de 3 g/dL, plasmócitos abaixo de dez por cento e sem lesão de órgão-alvo.",
+"O mieloma sintomático exige lesão de órgão-alvo ou biomarcadores de malignidade, ausentes aqui.",
+"A macroglobulinemia cursa com pico monoclonal de IgM e infiltração linfoplasmocitária da medula.",
+"A amiloidose exige demonstração histológica de depósito amiloide em tecido acometido pela doença.",
+"A leucemia de células plasmáticas exige plasmócitos circulantes em proporção muito elevada."
+]
+},
+{
+"q": "Paciente com trombose venosa profunda proximal de membro inferior, sem câncer e sem trombofilia conhecida, primeiro episódio provocado por cirurgia. Qual é a duração da anticoagulação?",
+"alts": [
+"Três meses de anticoagulação, pois o fator provocador transitório já foi sempre removido do paciente.",
+"Anticoagulação por tempo indeterminado em todos os casos de trombose venosa profunda proximal agora.",
+"Seis semanas de anticoagulação, período suficiente para qualquer trombose venosa profunda proximal.",
+"Apenas antiagregação plaquetária por três meses, sem qualquer anticoagulação plena para o paciente.",
+"Anticoagulação por dez anos como padrão para trombose provocada por cirurgia de grande porte agora."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ASH guidelines for management of venous thromboembolism, 2020; CHEST Guideline and Expert Panel Report, atualização 2021",
+"coment": "O tempo de anticoagulação depende de a trombose ser provocada por fator transitório maior, provocada por fator persistente ou não provocada. Trombose provocada por cirurgia, fator transitório maior, é tratada por três meses, pois o risco de recorrência após a remoção do fator é baixo. Trombose não provocada ou associada a câncer ativo ou trombofilia de alto risco costuma indicar anticoagulação estendida, com reavaliação periódica do risco de sangramento.",
+"porAlt": [
+"Correta: três meses, porque o fator provocador transitório maior já foi removido do paciente.",
+"A anticoagulação indefinida se reserva a trombose não provocada ou a fatores de risco persistentes.",
+"Seis semanas é período insuficiente e associa-se a taxa elevada de recorrência precoce do evento.",
+"O antiagregante não substitui a anticoagulação plena no tratamento da trombose venosa profunda.",
+"Dez anos não corresponde a qualquer recomendação para trombose provocada por fator transitório."
+]
+},
+{
+"q": "Paciente com neutropenia de 300/mm³ após quimioterapia, afebril e assintomático. Qual é a conduta?",
+"alts": [
+"Orientar sinais de alerta e higiene, considerando sempre fator estimulador de colônias conforme o risco.",
+"Iniciar antibiótico de amplo espectro profilático em todos os pacientes neutropênicos e afebris agora.",
+"Internar todos os pacientes com essa contagem de neutrófilos independentemente de qualquer sintoma.",
+"Transfundir concentrado de granulócitos de rotina em todo paciente neutropênico após quimioterapia.",
+"Suspender definitivamente o tratamento oncológico diante de qualquer episódio de neutropenia detectado."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "ASCO/IDSA guideline on antimicrobial prophylaxis for neutropenia, revisão 2024; NCCN Prevention and Treatment of Cancer-Related Infections, 2024",
+"coment": "O paciente neutropênico afebril e assintomático não precisa de internação nem de antibiótico terapêutico. A conduta é orientação sobre sinais de alerta — sobretudo febre, que deve levar a procurar atendimento imediatamente —, higiene das mãos, cuidados com alimentos e evitar contato com doentes. Profilaxia antimicrobiana e fator estimulador de colônias são considerados conforme o risco do esquema e do paciente, não de forma universal.",
+"porAlt": [
+"Correta: orientar sinais de alerta e higiene, com profilaxia e fator de crescimento conforme o risco.",
+"A profilaxia antibiótica universal não é indicada e favorece a seleção de germes resistentes.",
+"A internação de todo neutropênico afebril expõe a infecção hospitalar sem benefício demonstrado.",
+"A transfusão de granulócitos é excepcional e não tem papel na neutropenia afebril de rotina.",
+"Suspender definitivamente o tratamento oncológico por neutropenia esperada retira benefício curativo."
+]
+},
+{
+"q": "Homem de 45 anos com esplenomegalia volumosa, leucocitose de 90.000/mm³ com desvio à esquerda e basofilia. Qual exame confirma o diagnóstico?",
+"alts": [
+"Pesquisa do cromossomo Filadélfia ou do rearranjo BCR-ABL, sempre por citogenética ou biologia molecular.",
+"Dosagem isolada de vitamina B12 sérica, exame que confirma o diagnóstico dessa neoplasia mieloproliferativa.",
+"Cintilografia de baço, exame que estabelece o diagnóstico definitivo da doença suspeitada no enunciado.",
+"Dosagem isolada de fosfatase alcalina leucocitária, exame que confirma o diagnóstico molecular da doença.",
+"Biópsia de linfonodo cervical, procedimento diagnóstico de escolha para a leucocitose descrita no caso."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "OMS — classificação de neoplasias mieloides, 5ª edição, 2022; European LeukemiaNet recommendations for CML, 2020",
+"coment": "Leucocitose acentuada com desvio à esquerda em todas as fases de maturação, basofilia e esplenomegalia volumosa caracteriza leucemia mieloide crônica, definida pela translocação entre os cromossomos 9 e 22, que gera o rearranjo BCR-ABL1. O diagnóstico é confirmado por citogenética, FISH ou PCR quantitativo, este também usado no monitoramento da resposta. O tratamento com inibidores de tirosina quinase transformou o prognóstico da doença.",
+"porAlt": [
+"Correta: pesquisa do cromossomo Filadélfia ou do rearranjo BCR-ABL confirma o diagnóstico.",
+"A vitamina B12 pode estar elevada nessa doença, mas isso não confirma o diagnóstico molecular.",
+"A cintilografia de baço avalia o órgão, mas não identifica a alteração genética que define a doença.",
+"A fosfatase alcalina leucocitária é exame histórico, hoje substituído pela pesquisa molecular.",
+"A biópsia de linfonodo investiga linfoma, e não a neoplasia mieloproliferativa suspeitada aqui."
+]
+},
+{
+"q": "Paciente recebe transfusão de hemácias e, após 15 minutos, apresenta febre, dor lombar, hipotensão e urina escura. Qual é a conduta?",
+"alts": [
+"Interromper a transfusão imediatamente e iniciar sempre hidratação vigorosa com suporte hemodinâmico.",
+"Reduzir a velocidade da infusão e completar a bolsa sob observação clínica mais atenta do paciente.",
+"Administrar apenas antitérmico e manter a transfusão, pois a febre isolada é reação sempre benigna.",
+"Administrar apenas anti-histamínico e prosseguir com a transfusão até o término completo da bolsa.",
+"Trocar a bolsa por outra do mesmo doador e reiniciar a transfusão imediatamente após a substituição."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r2",
+"base": "AABB Standards for Blood Banks and Transfusion Services, 2024; Ministério da Saúde — Guia para uso de hemocomponentes, 2021",
+"coment": "Febre com dor lombar, hipotensão e hemoglobinúria durante a transfusão sugere reação hemolítica aguda, geralmente por incompatibilidade ABO decorrente de erro de identificação. A conduta é interromper imediatamente a transfusão, manter o acesso com salina, iniciar hidratação vigorosa para proteger a função renal, oferecer suporte hemodinâmico, comunicar o serviço de hemoterapia e enviar bolsa e amostras para investigação da causa.",
+"porAlt": [
+"Correta: interromper a transfusão de imediato e iniciar hidratação vigorosa com suporte hemodinâmico.",
+"Reduzir a velocidade mantém a infusão de hemácias incompatíveis e agrava a hemólise em curso.",
+"A reação descrita não é febril simples: há sinais claros de hemólise aguda com risco de vida.",
+"O anti-histamínico trata reação alérgica leve e não tem papel na reação hemolítica aguda.",
+"Trocar a bolsa sem investigar mantém o risco, pois o erro pode estar na identificação do paciente."
+]
+},
+{
+"q": "Paciente com pancitopenia, medula óssea hipocelular e ausência de fibrose ou infiltração neoplásica. Qual é o diagnóstico mais provável?",
+"alts": [
+"Anemia aplásica, que exige sempre pesquisa de causas secundárias e avaliação para terapia específica.",
+"Leucemia aguda em fase inicial, definida por medula hipocelular sem qualquer infiltração blástica.",
+"Mielofibrose primária avançada, caracterizada por medula hipocelular sem fibrose ao exame histológico.",
+"Anemia ferropriva grave, condição que cursa com pancitopenia e medula óssea acentuadamente hipocelular.",
+"Esferocitose hereditária, quadro definido por pancitopenia com medula óssea hipocelular à biópsia."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "British Society for Haematology guidelines for the diagnosis and management of aplastic anaemia, revisão 2023",
+"coment": "Pancitopenia com medula hipocelular, sem fibrose, displasia significativa ou infiltração, caracteriza anemia aplásica. A investigação busca causas secundárias: fármacos, hepatite viral, radiação, benzeno, gestação, hemoglobinúria paroxística noturna e síndromes de falência medular hereditárias em pacientes jovens. O tratamento depende da gravidade e da idade: transplante alogênico em jovens com doador ou imunossupressão com globulina antitimócito e ciclosporina.",
+"porAlt": [
+"Correta: pancitopenia com medula hipocelular sem infiltração ou fibrose caracteriza anemia aplásica.",
+"A leucemia aguda cursa com medula hipercelular e infiltração por blastos, ausente neste caso.",
+"A mielofibrose cursa com fibrose medular e hematopoese extramedular, achados que não constam aqui.",
+"A ferropenia isolada causa anemia, e não pancitopenia com medula acentuadamente hipocelular.",
+"A esferocitose cursa com anemia hemolítica e medula hipercelular por hiperplasia eritroide reativa."
+]
+},
+{
+"q": "Homem de 55 anos com dor mecânica em joelhos, rigidez matinal de 15 minutos e crepitação. Qual é o tratamento inicial?",
+"alts": [
+"Exercício de fortalecimento com controle de peso e analgesia, sempre associados a educação do paciente.",
+"Corticoide sistêmico contínuo em dose baixa como tratamento de manutenção da doença articular descrita.",
+"Metotrexato semanal em dose plena, tratamento modificador de escolha para essa doença degenerativa.",
+"Repouso articular prolongado com restrição da marcha como principal medida terapêutica indicada agora.",
+"Artroplastia total imediata em todos os pacientes com crepitação e dor mecânica em joelhos neste caso."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "ACR/AF Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, 2019 com revisão 2023; OARSI guidelines, 2019",
+"coment": "O tratamento da osteoartrite de joelho tem como pilares o exercício — fortalecimento de quadríceps e condicionamento aeróbico —, a perda de peso quando há sobrepeso e a educação sobre a doença, todos com recomendação forte. Analgesia inclui anti-inflamatório tópico, paracetamol e anti-inflamatório oral pelo menor tempo possível. Infiltração de corticoide alivia por curtos períodos. Artroplastia se reserva à doença avançada refratária com prejuízo funcional.",
+"porAlt": [
+"Correta: exercício de fortalecimento, controle de peso, analgesia e educação são os pilares do tratamento.",
+"O corticoide sistêmico contínuo não é indicado e traz toxicidade sem benefício estrutural algum.",
+"O metotrexato trata artrite inflamatória autoimune, e não a doença degenerativa aqui descrita.",
+"O repouso prolongado atrofia o quadríceps e piora a dor e a função articular do paciente.",
+"A artroplastia se reserva à doença avançada refratária ao tratamento clínico bem conduzido."
+]
+},
+{
+"q": "Paciente com artrite reumatoide em uso de metotrexato precisa iniciar imunobiológico. Qual rastreio é obrigatório antes?",
+"alts": [
+"Rastreio de tuberculose latente e de hepatites virais, sempre antes da primeira dose do imunobiológico.",
+"Apenas hemograma completo, exame suficiente para liberar o início da terapia com agente imunobiológico.",
+"Somente radiografia de mãos, exame necessário para autorizar o início do tratamento imunobiológico.",
+"Apenas densitometria óssea, exame obrigatório antes de iniciar qualquer terapia com imunobiológico.",
+"Nenhum rastreio é necessário, pois os imunobiológicos não aumentam o risco de infecção latente agora."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Sociedade Brasileira de Reumatologia — Consenso sobre terapia biológica, 2022; EULAR recommendations, 2022",
+"coment": "Antes de iniciar imunobiológico, sobretudo anti-TNF, é obrigatório rastrear tuberculose latente com prova tuberculínica ou ensaio de liberação de interferon gama e radiografia de tórax, tratando a infecção latente antes de iniciar. Rastreiam-se também hepatites B e C, pelo risco de reativação viral, e HIV, além de atualizar o calendário vacinal, aplicando vacinas de vírus vivo com antecedência, pois ficam contraindicadas depois.",
+"porAlt": [
+"Correta: rastreio de tuberculose latente e de hepatites virais antes da primeira dose do imunobiológico.",
+"O hemograma é parte da avaliação, mas não detecta tuberculose latente nem hepatite viral crônica.",
+"A radiografia de mãos avalia dano articular e não tem relação com a segurança do imunobiológico.",
+"A densitometria avalia massa óssea e não integra o rastreio de segurança antes do imunobiológico.",
+"Os imunobiológicos aumentam de forma expressiva o risco de reativação de tuberculose latente."
+]
+},
+{
+"q": "Paciente com dor difusa há mais de três meses, fadiga, sono não reparador e exame físico e laboratorial normais. Qual é a conduta?",
+"alts": [
+"Exercício aeróbico gradual e educação, associados sempre a abordagem do sono e da saúde mental.",
+"Corticoide sistêmico em dose alta, tratamento com melhor evidência para o quadro doloroso descrito.",
+"Opioide potente de uso contínuo diário como tratamento de escolha para essa condição dolorosa crônica.",
+"Solicitar bateria ampla de exames repetidos a cada mês até encontrar alguma alteração laboratorial.",
+"Repouso prolongado com afastamento total de qualquer atividade física durante seis meses seguidos."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "EULAR revised recommendations for the management of fibromyalgia, 2017 com revisão 2023; ACR diagnostic criteria, 2016",
+"coment": "A fibromialgia é diagnóstico clínico, com dor difusa, fadiga, sono não reparador e sintomas cognitivos, sem alterações laboratoriais ou de imagem específicas. A intervenção com melhor evidência e recomendação mais forte é o exercício, sobretudo aeróbico e de fortalecimento, iniciado de forma gradual. Associam-se educação, terapia cognitivo-comportamental e higiene do sono. Fármacos como amitriptilina, duloxetina e pregabalina são adjuvantes; opioides são desaconselhados.",
+"porAlt": [
+"Correta: exercício aeróbico gradual com educação, abordagem do sono e da saúde mental do paciente.",
+"O corticoide não tem eficácia na fibromialgia e adiciona toxicidade sem qualquer benefício clínico.",
+"Os opioides são desaconselhados, com risco de hiperalgesia, dependência e piora funcional a longo prazo.",
+"Repetir exames indefinidamente reforça a busca por doença e piora o sofrimento e a ansiedade.",
+"O repouso prolongado agrava o descondicionamento e intensifica a dor e a fadiga do paciente."
+]
+},
+{
+"q": "Paciente com lúpus em remissão pergunta sobre gestação. Qual é a orientação correta?",
+"alts": [
+"Planejar a gestação após seis meses de remissão, mantendo sempre hidroxicloroquina e ajustando fármacos.",
+"Contraindicar a gestação de forma definitiva em todas as pacientes com diagnóstico de lúpus eritematoso.",
+"Engravidar imediatamente, independentemente da atividade da doença ou dos fármacos em uso pela paciente.",
+"Suspender a hidroxicloroquina antes de engravidar, pois o fármaco é contraindicado durante a gestação.",
+"Manter micofenolato durante toda a gestação, pois é o imunossupressor mais seguro nesse período agora."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "EULAR recommendations for women's health and family planning in rheumatic diseases, 2017 com revisão 2023; ACR Reproductive Health Guideline, 2020",
+"coment": "A gestação no lúpus deve ser planejada, idealmente após seis meses de doença inativa, o que reduz de forma expressiva os desfechos adversos maternos e fetais. A hidroxicloroquina é mantida durante toda a gestação por reduzir atividade da doença e o risco de bloqueio cardíaco congênito em portadoras de anti-Ro. Micofenolato, ciclofosfamida e metotrexato são teratogênicos e substituídos por azatioprina ou tacrolimo antes da concepção.",
+"porAlt": [
+"Correta: planejar após seis meses de remissão, mantendo hidroxicloroquina e ajustando os imunossupressores.",
+"A gestação é possível e segura quando planejada em período de doença inativa e com fármacos adequados.",
+"Engravidar em atividade da doença aumenta perda fetal, prematuridade e agravamento do quadro materno.",
+"A hidroxicloroquina é mantida na gestação, com benefício comprovado para a mãe e para o feto.",
+"O micofenolato é teratogênico e deve ser substituído antes da concepção por alternativa segura."
+]
+},
+{
+"q": "Homem de 28 anos com uveíte anterior recorrente, lombalgia inflamatória e HLA-B27 positivo. Qual é a conduta quanto ao acometimento ocular?",
+"alts": [
+"Encaminhamento oftalmológico urgente a cada episódio, com tratamento sempre tópico e sistêmico conforme o caso.",
+"Tratar apenas com colírio lubrificante domiciliar, medida suficiente para todos os episódios de uveíte agora.",
+"Aguardar a resolução espontânea da uveíte sem qualquer tratamento ou avaliação oftalmológica dirigida agora.",
+"Iniciar antibiótico tópico prolongado como tratamento de escolha para a uveíte anterior recorrente neste caso.",
+"Indicar cirurgia ocular imediata em todos os episódios de uveíte anterior associada à espondiloartrite agora."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ASAS-EULAR recommendations for axial spondyloarthritis, 2022; American Academy of Ophthalmology — Uveitis Preferred Practice Pattern, 2023",
+"coment": "A uveíte anterior aguda é a manifestação extra-articular mais frequente das espondiloartrites associadas ao HLA-B27, tipicamente unilateral, dolorosa, com fotofobia e hiperemia perilímbica. Exige avaliação oftalmológica urgente e tratamento com corticoide tópico e midriático para evitar sinéquias, com risco de perda visual se negligenciada. Recorrências frequentes favorecem a escolha de anti-TNF monoclonal, que reduz novos episódios oculares.",
+"porAlt": [
+"Correta: avaliação oftalmológica urgente a cada episódio, com tratamento tópico e sistêmico conforme o caso.",
+"O lubrificante não trata a inflamação intraocular e a demora pode causar sinéquias e perda visual.",
+"Aguardar sem tratar arrisca complicações estruturais permanentes do olho acometido pela uveíte.",
+"O antibiótico tópico não trata a uveíte, que é inflamação imunomediada e não infecção bacteriana.",
+"A cirurgia se reserva a complicações estruturais, e não ao tratamento do episódio inflamatório agudo."
+]
+},
+{
+"q": "Paciente em uso crônico de corticoide em dose equivalente a 10 mg de prednisona há mais de três meses. Qual é a conduta preventiva obrigatória?",
+"alts": [
+"Avaliar risco de fratura e repor cálcio e vitamina D, considerando sempre bisfosfonato conforme o risco.",
+"Apenas orientar dieta rica em cálcio, medida isolada suficiente para prevenir a perda óssea induzida.",
+"Prescrever apenas exercício físico regular, sem qualquer avaliação de risco ou intervenção farmacológica.",
+"Suspender abruptamente o corticoide para evitar a perda óssea associada ao uso prolongado do fármaco.",
+"Iniciar reposição hormonal com testosterona em todos os pacientes em uso crônico de corticoide oral."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "ACR Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis, 2022; SBEM/ABRASSO, 2022",
+"coment": "A osteoporose induzida por corticoide começa cedo, com maior perda nos primeiros meses, e o risco de fratura aumenta mesmo com densidade mineral óssea ainda preservada. Todo paciente com previsão de uso por três meses ou mais em dose equivalente a 2,5 mg de prednisona deve receber cálcio e vitamina D adequados, ter o risco estimado por ferramenta como o FRAX ajustado e receber bisfosfonato quando o risco é moderado ou alto.",
+"porAlt": [
+"Correta: estimar o risco de fratura, repor cálcio e vitamina D e indicar bisfosfonato conforme o risco.",
+"A dieta isolada é insuficiente para prevenir a perda óssea acelerada induzida pelo corticoide.",
+"O exercício é adjuvante importante, mas não substitui a avaliação de risco e a terapia indicada.",
+"A suspensão abrupta pode precipitar insuficiência adrenal e recidiva da doença de base tratada.",
+"A testosterona não é intervenção padrão para prevenção de osteoporose induzida por corticoide."
+]
+},
+{
+"q": "Paciente com artrite aguda de joelho, febre e líquido sinovial com 60.000 leucócitos/mm³ com predomínio de neutrófilos. Qual é a conduta?",
+"alts": [
+"Drenagem articular e antibiótico endovenoso empírico, iniciados sempre após a coleta de culturas.",
+"Infiltração intra-articular de corticoide como primeira medida antes de qualquer coleta de material.",
+"Prescrever apenas anti-inflamatório oral e reavaliar clinicamente em uma semana de acompanhamento.",
+"Iniciar colchicina em dose plena, já tratamento de escolha para a monoartrite febril aqui descrita.",
+"Imobilizar o joelho por quatro semanas sem qualquer drenagem ou antibioticoterapia sistêmica."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "EULAR/BSR recommendations on septic arthritis, revisão 2023; IDSA guidance on bone and joint infections, 2023",
+"coment": "Contagem de leucócitos no líquido sinovial acima de 50.000 por milímetro cúbico com predomínio de neutrófilos e febre indica artrite séptica até prova em contrário. O tratamento combina drenagem articular, por artrocentese repetida ou artroscopia, e antibiótico endovenoso empírico cobrindo Staphylococcus aureus, iniciado logo após a coleta de hemoculturas e do líquido sinovial. O atraso leva a destruição da cartilagem em poucos dias.",
+"porAlt": [
+"Correta: drenagem articular com antibiótico endovenoso empírico iniciado após a coleta de culturas.",
+"O corticoide intra-articular em artrite séptica agrava a infecção e é formalmente contraindicado.",
+"Anti-inflamatório isolado por uma semana permite destruição irreversível da cartilagem articular.",
+"A colchicina trata gota, e a contagem descrita com febre aponta infecção como principal hipótese.",
+"A imobilização isolada não trata a infecção e a destruição articular progride sem antibiótico."
+]
+},
+{
+"q": "Mulher de 50 anos com espessamento cutâneo distal, Raynaud e crise renal com hipertensão grave e lesão renal aguda. Qual é o tratamento?",
+"alts": [
+"Inibidor da enzima conversora de angiotensina em dose plena, iniciado sempre o mais precocemente possível.",
+"Corticoide sistêmico em dose alta, tratamento de escolha para a crise renal da esclerose sistêmica agora.",
+"Bloqueador de canal de cálcio isolado como tratamento definitivo da crise renal descrita no caso agora.",
+"Diurético de alça em dose alta como principal medida terapêutica da crise renal da esclerodermia agora.",
+"Diálise imediata em todos os casos antes de qualquer tratamento anti-hipertensivo ser instituído agora."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "EULAR recommendations for the treatment of systemic sclerosis, atualização 2024; Scleroderma Clinical Trials Consortium, 2023",
+"coment": "A crise renal esclerodérmica cursa com hipertensão de instalação abrupta, lesão renal aguda e por vezes anemia hemolítica microangiopática. O tratamento é inibidor da enzima conversora de angiotensina, preferencialmente captopril, titulado rapidamente até o controle pressórico, mesmo diante de elevação da creatinina, pois seu uso transformou o prognóstico da complicação. Corticoide em dose alta é fator de risco reconhecido e deve ser evitado na doença.",
+"porAlt": [
+"Correta: inibidor da enzima conversora iniciado precocemente e titulado, mesmo com creatinina subindo.",
+"O corticoide em dose alta é fator de risco para a crise renal e deve ser evitado nesses pacientes.",
+"O bloqueador de canal de cálcio trata o Raynaud, mas não é o tratamento da crise renal descrita.",
+"O diurético não trata o mecanismo da crise renal e pode agravar a hipoperfusão do rim acometido.",
+"A diálise pode ser necessária, mas nunca precede o tratamento com inibidor da enzima conversora."
+]
+},
+{
+"q": "Paciente com poliartrite, febre, lesões cutâneas purpúricas palpáveis e mononeurite múltipla. Qual é a suspeita diagnóstica?",
+"alts": [
+"Vasculite sistêmica, que exige sempre confirmação histológica ou sorológica antes da imunossupressão.",
+"Osteoartrite generalizada, condição que cursa com púrpura palpável, febre e mononeurite múltipla.",
+"Fibromialgia grave, quadro definido por lesões purpúricas palpáveis com acometimento de nervo periférico.",
+"Gota poliarticular, condição caracterizada por púrpura palpável e mononeurite múltipla associada.",
+"Osteoporose avançada, quadro que cursa com poliartrite febril e lesões purpúricas palpáveis na pele."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "EULAR/ACR classification criteria for ANCA-associated vasculitis, 2022; EULAR recommendations for management of vasculitis, 2022",
+"coment": "Púrpura palpável, mononeurite múltipla, febre e poliartrite formam um quadro clássico de vasculite sistêmica, que exige investigação rápida com ANCA, complemento, crioglobulinas, sorologias virais e biópsia de pele, nervo ou rim conforme o órgão acometido. A confirmação orienta a imunossupressão, geralmente com corticoide associado a rituximabe ou ciclofosfamida na indução, dada a gravidade e o risco de dano irreversível de órgão.",
+"porAlt": [
+"Correta: vasculite sistêmica, com confirmação histológica ou sorológica antes da imunossupressão.",
+"A osteoartrite é degenerativa e não cursa com febre, púrpura palpável ou neuropatia periférica.",
+"A fibromialgia não produz lesões cutâneas vasculíticas nem acometimento de nervo periférico.",
+"A gota causa artrite por cristais e não produz púrpura palpável nem mononeurite múltipla.",
+"A osteoporose é assintomática até a fratura e não cursa com febre, púrpura ou poliartrite."
+]
+},
+{
+"q": "Paciente com síndrome antifosfolípide e trombose venosa prévia pergunta sobre anticoagulação. Qual é a conduta?",
+"alts": [
+"Anticoagulação com varfarina por tempo indeterminado, com alvo de INR mantido sempre entre 2 e 3.",
+"Anticoagulante oral direto como primeira escolha em todos os pacientes com síndrome antifosfolípide.",
+"Antiagregação isolada com ácido acetilsalicílico como tratamento definitivo após trombose venosa prévia.",
+"Anticoagulação por apenas três meses, com suspensão programada após a resolução do evento agudo.",
+"Nenhuma anticoagulação enquanto o paciente permanecer assintomático e sem novos eventos trombóticos."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "EULAR recommendations for the management of antiphospholipid syndrome in adults, 2019 com revisão 2023; ISTH guidance, 2023",
+"coment": "Na síndrome antifosfolípide com trombose venosa, a anticoagulação é indefinida, com antagonista da vitamina K e alvo de INR entre 2 e 3. Os anticoagulantes orais diretos mostraram-se inferiores em ensaios clínicos, sobretudo em pacientes triplo-positivos e com trombose arterial, nos quais são desaconselhados. Antiagregante isolado não previne recorrência após trombose estabelecida. Suspender a anticoagulação associa-se a taxa elevada de recorrência.",
+"porAlt": [
+"Correta: varfarina por tempo indeterminado com alvo de INR entre 2 e 3 após trombose venosa.",
+"Os anticoagulantes diretos foram inferiores em ensaios e são desaconselhados nesses pacientes.",
+"O antiagregante isolado não previne recorrência após um evento trombótico já estabelecido.",
+"Suspender após três meses associa-se a taxa alta de recorrência nessa condição autoimune.",
+"A ausência de sintomas não reduz o risco: a recorrência é o desfecho que se busca prevenir."
+]
+},
+{
+"q": "Homem de 55 anos, sem sintomas, pergunta sobre rastreio de câncer de próstata. Qual é a orientação correta?",
+"alts": [
+"Decisão compartilhada após informar benefícios e danos, sempre respeitando a preferência do paciente.",
+"Rastrear todos os homens anualmente a partir dos quarenta anos com dosagem de antígeno prostático.",
+"Não discutir o tema, pois o rastreio de câncer de próstata não tem qualquer respaldo na literatura.",
+"Indicar biópsia prostática de rotina para todos os homens acima de cinquenta anos de idade agora.",
+"Rastrear apenas com toque retal isolado, sem qualquer dosagem do antígeno prostático específico."
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "USPSTF prostate cancer screening recommendation, 2018 com revisão 2024; INCA — posicionamento sobre rastreio de câncer de próstata, 2023",
+"coment": "O rastreio de câncer de próstata é o exemplo clássico de decisão compartilhada: reduz modestamente a mortalidade específica, ao custo de sobrediagnóstico e de tratamentos com incontinência e disfunção erétil. As diretrizes recomendam informar o homem entre cinquenta e sessenta e nove anos, ou antes em alto risco, sobre benefícios e danos, e respeitar a decisão. O INCA não recomenda o rastreio organizado populacional no Brasil.",
+"porAlt": [
+"Correta: decisão compartilhada após informar benefícios e danos, respeitando a preferência do paciente.",
+"Rastrear todos anualmente desde os quarenta anos amplia o sobrediagnóstico sem benefício proporcional.",
+"O tema deve ser discutido: existe evidência, com benefício modesto e danos relevantes conhecidos.",
+"A biópsia é indicada por alteração no rastreio, e não como procedimento de rotina populacional.",
+"O toque retal isolado tem desempenho insuficiente e não é recomendado como método único."
+]
+},
+{
+"q": "Paciente com câncer de mama e dor óssea nova em coluna. Qual exame inicial deve ser solicitado?",
+"alts": [
+"Imagem dirigida do segmento sintomático, avaliando sempre a possibilidade de compressão medular associada.",
+"Apenas hemograma completo, exame suficiente para investigar a dor óssea nova nesse contexto clínico agora.",
+"Apenas dosagem de marcador tumoral sérico, exame que confirma a presença de metástase óssea nova agora.",
+"Aguardar seis meses antes de qualquer investigação da dor óssea em paciente oncológico conhecido agora.",
+"Solicitar apenas eletroneuromiografia, exame que estabelece o diagnóstico de metástase vertebral agora."
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "NCCN Breast Cancer, 2024; NICE guideline NG234 — Metastatic spinal cord compression, 2023",
+"coment": "Dor óssea nova em paciente com câncer é metástase até prova em contrário, e dor em coluna exige atenção especial ao risco de compressão medular, que é emergência. A investigação começa por imagem dirigida do segmento sintomático, preferencialmente ressonância quando há suspeita de acometimento epidural, complementada por avaliação de extensão com cintilografia óssea ou tomografia por emissão de pósitrons conforme o caso.",
+"porAlt": [
+"Correta: imagem dirigida do segmento sintomático, atenta ao risco de compressão medular associada.",
+"O hemograma não avalia a coluna nem detecta lesão óssea metastática no segmento doloroso.",
+"Os marcadores tumorais têm papel limitado e não substituem a imagem na investigação da dor.",
+"Adiar por seis meses arrisca compressão medular com déficit neurológico permanente e evitável.",
+"A eletroneuromiografia avalia função de nervo e músculo, e não a estrutura óssea vertebral."
+]
+},
+{
+"q": "Paciente com câncer avançado e dispneia refratária apesar de tratamento da causa. Qual é a conduta?",
+"alts": [
+"Opioide em dose titulada para alívio da dispneia, associado sempre a medidas não farmacológicas de conforto.",
+"Sedação profunda contínua imediata em todos os pacientes com dispneia refratária em doença avançada agora.",
+"Oxigênio suplementar de rotina em todos os casos, mesmo naqueles sem qualquer hipoxemia documentada agora.",
+"Benzodiazepínico isolado em dose alta como primeira escolha para o controle da dispneia refratária agora.",
+"Restrição hídrica extrema como principal medida terapêutica para a dispneia refratária no câncer avançado."
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ESMO Clinical Practice Guidelines on dyspnoea in advanced cancer, 2021; ANCP — Manual de Cuidados Paliativos, 2ª edição, 2021",
+"coment": "O opioide sistêmico em dose titulada é a intervenção com melhor evidência para a dispneia refratária no câncer avançado, reduzindo a percepção do desconforto sem causar depressão respiratória quando titulado adequadamente. Associam-se medidas não farmacológicas: ventilador com fluxo de ar no rosto, posicionamento, técnicas de respiração e manejo da ansiedade. Oxigênio beneficia sobretudo os hipoxêmicos, e benzodiazepínico é adjuvante quando há ansiedade importante.",
+"porAlt": [
+"Correta: opioide titulado com medidas não farmacológicas é a base do alívio da dispneia refratária.",
+"A sedação paliativa se reserva a sintomas verdadeiramente refratários a todas as medidas anteriores.",
+"O oxigênio beneficia sobretudo os hipoxêmicos, sem ganho consistente nos pacientes sem hipoxemia.",
+"O benzodiazepínico é adjuvante para ansiedade e não é a primeira escolha para a dispneia.",
+"A restrição hídrica extrema não alivia dispneia e pode causar desconforto adicional ao paciente."
+]
+},
+{
+"q": "Mulher de 30 anos com HPV positivo e citologia com lesão intraepitelial de alto grau. Qual é a conduta?",
+"alts": [
+"Encaminhar para colposcopia com biópsia dirigida, definindo sempre a conduta pelo resultado histológico.",
+"Repetir a citologia em três anos, pois a lesão descrita regride espontaneamente na maioria dos casos.",
+"Indicar histerectomia total imediata em todas as pacientes com lesão intraepitelial de alto grau agora.",
+"Prescrever apenas antiviral oral por seis meses como tratamento da lesão cervical de alto grau agora.",
+"Solicitar apenas ultrassonografia pélvica, exame que estabelece o diagnóstico da lesão cervical descrita."
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "INCA — Diretrizes brasileiras para o rastreamento do câncer do colo do útero, 2ª edição atualizada, 2024",
+"coment": "Citologia com lesão intraepitelial escamosa de alto grau tem alta probabilidade de corresponder a neoplasia intraepitelial cervical de grau 2 ou 3, e a conduta é colposcopia com biópsia dirigida. Confirmada a lesão, o tratamento habitual é excisão da zona de transformação, com técnica definida pela extensão e visibilidade da junção escamocolunar. Histerectomia não é tratamento de lesão precursora e não há antiviral que trate a lesão.",
+"porAlt": [
+"Correta: colposcopia com biópsia dirigida, com a conduta definida pelo resultado histológico obtido.",
+"Lesão de alto grau tem risco relevante de progressão e não permite seguimento apenas citológico.",
+"A histerectomia não é tratamento de lesão precursora e configura conduta desproporcional ao caso.",
+"Não existe antiviral oral que trate a lesão intraepitelial cervical causada pelo papilomavírus.",
+"A ultrassonografia não avalia o epitélio cervical nem substitui a colposcopia com biópsia."
+]
+},
+{
+"q": "Paciente com câncer colorretal e obstrução intestinal maligna irressecável, com vômitos incoercíveis. Qual é a conduta paliativa?",
+"alts": [
+"Controlar sintomas com antiemético, corticoide e antissecretor, considerando sempre sonda ou prótese.",
+"Manter apenas dieta oral livre e observar clinicamente a evolução do quadro obstrutivo do paciente.",
+"Indicar laparotomia extensa em todos os casos de obstrução maligna irressecável com vômitos agora.",
+"Prescrever apenas laxante estimulante em dose alta como medida principal do controle sintomático.",
+"Suspender toda medicação sintomática para evitar interação com o tratamento oncológico em curso."
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "ESMO/EAPC guidelines on malignant bowel obstruction, revisão 2023; ANCP — Manual de Cuidados Paliativos, 2021",
+"coment": "Na obstrução intestinal maligna inoperável, o controle de sintomas combina antiemético como haloperidol ou metoclopramida na obstrução parcial, corticoide para reduzir edema peritumoral, antissecretor como octreotide ou butilescopolamina para diminuir o volume de secreções, além de analgesia. Sonda nasogástrica de alívio ou gastrostomia descompressiva e prótese endoscópica são opções conforme o nível e o prognóstico do paciente.",
+"porAlt": [
+"Correta: antiemético, corticoide e antissecretor, com sonda ou prótese conforme o nível da obstrução.",
+"Manter dieta livre em obstrução estabelecida agrava vômitos e o risco de broncoaspiração.",
+"A laparotomia extensa em doença irressecável traz morbidade alta sem benefício correspondente.",
+"O laxante estimulante em obstrução mecânica agrava a dor e pode precipitar perfuração intestinal.",
+"Suspender sintomáticos deixa o paciente sem controle de sintomas altamente angustiantes."
+]
+},
+{
+"q": "Paciente em quimioterapia apresenta mucosite oral grau 3 com dor que impede a alimentação. Qual é a conduta?",
+"alts": [
+"Analgesia sistêmica com opioide e higiene oral rigorosa, avaliando sempre a necessidade de suporte nutricional.",
+"Prescrever apenas bochecho com antisséptico alcoólico três vezes ao dia como tratamento principal neste caso.",
+"Suspender definitivamente o tratamento oncológico diante de qualquer episódio de mucosite oral neste caso.",
+"Iniciar antibiótico sistêmico de amplo espectro em todos os casos de mucosite, mesmo sem infecção neste caso.",
+"Manter apenas dieta sólida habitual, sem qualquer analgesia ou avaliação de suporte nutricional neste caso."
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "MASCC/ISOO Clinical Practice Guidelines for the management of mucositis, atualização 2020 com revisão 2024",
+"coment": "A mucosite grau 3 impede a ingestão oral adequada e exige analgesia sistêmica, frequentemente com opioide, além de higiene oral rigorosa com solução salina ou bicarbonato, evitando produtos alcoólicos que agravam a dor. Avalia-se a necessidade de suporte nutricional enteral ou parenteral e de hidratação endovenosa. Crioterapia oral previne mucosite em alguns esquemas, e a laserterapia de baixa potência tem evidência favorável.",
+"porAlt": [
+"Correta: analgesia sistêmica, higiene oral rigorosa e avaliação da necessidade de suporte nutricional.",
+"Antissépticos alcoólicos agravam a dor e a lesão da mucosa já inflamada pelo tratamento.",
+"Suspender definitivamente o tratamento oncológico por mucosite manejável retira benefício curativo.",
+"O antibiótico sistêmico não é rotina e se reserva a sinais de infecção documentada no paciente.",
+"Manter dieta sólida sem analgesia perpetua a dor e leva a desnutrição e desidratação evitáveis."
+]
+},
+{
+"q": "Paciente com melanoma cutâneo de espessura de Breslow de 1,5 mm sem ulceração. Qual é a conduta cirúrgica?",
+"alts": [
+"Ampliação de margens e pesquisa do linfonodo sentinela, indicada sempre nessa faixa de espessura.",
+"Apenas excisão simples da cicatriz sem qualquer ampliação de margens ou avaliação linfonodal.",
+"Esvaziamento linfonodal completo eletivo em todos os pacientes com melanoma dessa espessura agora já.",
+"Apenas seguimento clínico sem qualquer procedimento cirúrgico adicional após a biópsia excisional.",
+"Radioterapia local isolada como tratamento definitivo do melanoma cutâneo dessa espessura agora."
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "NCCN Melanoma: Cutaneous, 2024; ASCO/SSO guideline on sentinel lymph node biopsy for melanoma, revisão 2023",
+"coment": "No melanoma, a espessura de Breslow define margens e indicação de linfonodo sentinela. Lesões entre 1 e 2 mm exigem margem de um a dois centímetros e têm indicação de pesquisa do linfonodo sentinela, que é o principal fator prognóstico e orienta terapia adjuvante. Esvaziamento completo eletivo foi abandonado por não melhorar sobrevida global. Radioterapia isolada não é tratamento curativo do melanoma cutâneo primário.",
+"porAlt": [
+"Correta: ampliação de margens com pesquisa do linfonodo sentinela nessa faixa de espessura de Breslow.",
+"A excisão simples sem margens adequadas associa-se a recorrência local e subestadiamento da doença.",
+"O esvaziamento eletivo completo foi abandonado por não melhorar a sobrevida global dos pacientes.",
+"O seguimento isolado sem ampliação de margens é conduta inadequada nessa espessura tumoral.",
+"A radioterapia isolada não é tratamento curativo do melanoma cutâneo primário ressecável."
+]
+},
+{
+"q": "Paciente com câncer de pulmão e derrame pleural maligno recidivante e sintomático. Qual é a conduta?",
+"alts": [
+"Pleurodese ou cateter pleural de longa permanência, escolhidos sempre conforme o prognóstico do paciente.",
+"Toracocenteses de alívio repetidas indefinidamente como única estratégia para o derrame recidivante.",
+"Apenas diurético em dose alta, medida suficiente para controlar o derrame pleural de origem maligna.",
+"Antibiótico de amplo espectro prolongado como tratamento do derrame pleural maligno recidivante agora.",
+"Radioterapia torácica isolada como tratamento definitivo do derrame pleural maligno sintomático agora."
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ATS/STS/STR Clinical Practice Guideline on management of malignant pleural effusions, 2018 com revisão 2023; BTS Pleural Disease Guideline, 2023",
+"coment": "No derrame pleural maligno sintomático e recidivante, com pulmão expansível, as opções definitivas são pleurodese química com talco e cateter pleural de longa permanência, escolhidos conforme expectativa de vida, preferência do paciente e disponibilidade de suporte domiciliar. Quando o pulmão não expande, o cateter é preferido. Toracocenteses repetidas são paliativas de curta duração e aumentam risco de complicações e de internações.",
+"porAlt": [
+"Correta: pleurodese ou cateter de longa permanência, escolhidos conforme prognóstico e preferência.",
+"Punções repetidas indefinidamente trazem alívio breve e aumentam complicações e internações.",
+"O diurético trata transudato cardiogênico e não controla o derrame de origem maligna.",
+"O antibiótico não trata o mecanismo do derrame maligno, que é a disseminação pleural tumoral.",
+"A radioterapia isolada não controla o derrame pleural maligno já estabelecido e recidivante."
+]
+},
+{
+"q": "Paciente com diagnóstico de câncer avançado pergunta quando deve iniciar cuidados paliativos. Qual é a resposta correta?",
+"alts": [
+"Desde o diagnóstico, integrados sempre ao tratamento oncológico ativo e não apenas na fase final.",
+"Apenas quando todo tratamento oncológico ativo tiver sido definitivamente interrompido pela equipe.",
+"Somente nas últimas quarenta e oito horas de vida, quando o prognóstico já estiver bem definido.",
+"Apenas se o paciente solicitar de forma expressa e por escrito o encaminhamento à equipe especializada.",
+"Somente após a falha de pelo menos três linhas de tratamento quimioterápico previamente instituídas."
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "ASCO Clinical Practice Guideline Update on integration of palliative care, 2017 com revisão 2024; OMS — cuidados paliativos, 2020",
+"coment": "Os cuidados paliativos devem ser integrados precocemente, desde o diagnóstico de doença avançada, em paralelo ao tratamento oncológico ativo. Ensaios clínicos mostraram melhora de qualidade de vida, redução de sintomas depressivos, menor uso de intervenções agressivas no fim da vida e, em alguns estudos, aumento da sobrevida. Associar cuidados paliativos a fim de vida é equívoco que atrasa o alívio de sintomas e o planejamento do cuidado.",
+"porAlt": [
+"Correta: desde o diagnóstico, integrados ao tratamento oncológico ativo e não apenas na fase final.",
+"Reservar os cuidados paliativos ao fim do tratamento oncológico atrasa o alívio de sintomas.",
+"Restringir às últimas horas de vida é a concepção equivocada que as diretrizes buscam corrigir.",
+"O encaminhamento é indicação clínica da equipe e não depende de solicitação formal do paciente.",
+"Não há exigência de falha de linhas de tratamento para a integração dos cuidados paliativos."
+]
+},
+{
+"q": "Paciente em uso de imunoterapia com inibidor de checkpoint apresenta diarreia com seis evacuações ao dia e dor abdominal. Qual é a conduta?",
+"alts": [
+"Suspender a imunoterapia e iniciar corticoide sistêmico, avaliando sempre a exclusão de causa infecciosa.",
+"Manter a imunoterapia e prescrever apenas loperamida em dose plena para o controle das evacuações agora.",
+"Iniciar antibiótico de amplo espectro isolado como tratamento definitivo do quadro diarreico descrito.",
+"Aumentar a dose da imunoterapia para acelerar a resposta antitumoral apesar do evento adverso agora já.",
+"Prescrever apenas hidratação oral domiciliar sem qualquer suspensão do tratamento imunoterápico agora."
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r3",
+"base": "ASCO Guideline on management of immune-related adverse events, atualização 2024; ESMO Clinical Practice Guidelines, 2022",
+"coment": "A colite imunomediada é evento adverso frequente e potencialmente grave dos inibidores de checkpoint. Com seis ou mais evacuações acima do basal, o grau é 3 ou superior: suspende-se a imunoterapia e inicia-se corticoide sistêmico em dose de 1 a 2 mg/kg de metilprednisolona equivalente, após afastar causa infecciosa, incluindo Clostridioides difficile. Sem resposta em setenta e duas horas, indica-se infliximabe ou vedolizumabe.",
+"porAlt": [
+"Correta: suspender a imunoterapia e iniciar corticoide sistêmico, após excluir causa infecciosa.",
+"Manter a imunoterapia com colite grave arrisca perfuração intestinal e desfecho potencialmente fatal.",
+"O antibiótico isolado não trata a colite imunomediada, cujo mecanismo é inflamatório autoimune.",
+"Aumentar a dose diante de evento adverso grave agrava a toxicidade sem qualquer justificativa.",
+"Hidratação isolada sem suspender o fármaco permite a progressão da colite imunomediada grave."
+]
 }
 ];

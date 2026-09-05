@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Paciente em uso de varfarina apresenta INR de 8,0 sem sangramento. Qual é a conduta?",
+  "alts": [
+   "Suspender a varfarina e administrar vitamina K por via oral, sempre com reavaliação seriada do INR.",
+   "Administrar plasma fresco congelado em todos os pacientes com esse valor de INR, já mesmo sem sangramento.",
+   "Manter a mesma dose de varfarina e apenas repetir o exame após uma semana de acompanhamento agora.",
+   "Administrar concentrado de complexo protrombínico de rotina mesmo na ausência de qualquer sangramento.",
+   "Iniciar heparina de baixo peso molecular em dose plena associada à manutenção integral da varfarina."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ACCP/ASH guidelines on antithrombotic therapy — management of supratherapeutic INR, revisão 2023",
+  "coment": "Com INR acima de 10 sem sangramento, ou entre 4,5 e 10 com risco elevado, suspende-se a varfarina e considera-se vitamina K oral em dose baixa, de 2,5 a 5 mg, com reavaliação seriada. Plasma fresco e complexo protrombínico são reservados a sangramento grave ou necessidade de reversão imediata para procedimento, pois expõem a risco transfusional e trombótico sem benefício quando não há sangramento em curso.",
+  "porAlt": [
+   "Correta: suspender a varfarina, dar vitamina K oral e reavaliar o INR de forma seriada.",
+   "O plasma se reserva a sangramento grave, expondo a risco transfusional sem benefício aqui.",
+   "Manter a dose com INR muito elevado deixa o paciente sob risco alto de sangramento espontâneo.",
+   "O complexo protrombínico é para reversão urgente com sangramento grave ou cirurgia imediata.",
+   "Associar heparina em paciente com INR de 8,0 multiplica o risco hemorrágico sem qualquer benefício."
+  ]
+ },
+ {
+  "q": "Mulher de 25 anos com anemia microcítica, ferritina normal, RDW normal e história familiar de anemia. Qual é a hipótese?",
+  "alts": [
+   "Talassemia menor, que cursa sempre com microcitose desproporcional à intensidade da anemia observada.",
+   "Anemia ferropriva clássica, que cursa com ferritina normal e amplitude de distribuição eritrocitária normal.",
+   "Anemia de doença crônica avançada, definida por microcitose acentuada com ferritina sérica normal.",
+   "Anemia megaloblástica inicial, condição que cursa com microcitose e distribuição eritrocitária normal.",
+   "Anemia hemolítica autoimune, quadro caracterizado por microcitose com ferritina e distribuição normais."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "British Society for Haematology guideline on significant haemoglobinopathies, revisão 2023; OMS — hemoglobinopatias, 2023",
+  "coment": "Na talassemia menor a microcitose é desproporcional à anemia, que costuma ser leve, com contagem de hemácias normal ou elevada, RDW normal e ferritina normal. Na ferropenia ocorre o oposto: ferritina baixa, RDW elevado e contagem de hemácias reduzida. A confirmação da talassemia é feita por eletroforese de hemoglobina, com elevação de hemoglobina A2 na forma beta. Reconhecer evita reposição de ferro desnecessária e prolongada.",
+  "porAlt": [
+   "Correta: microcitose desproporcional com ferritina e RDW normais sugere talassemia menor.",
+   "A ferropenia cursa com ferritina baixa e RDW elevado, ao contrário do descrito neste caso.",
+   "A anemia de doença crônica costuma ser normocítica ou levemente microcítica, com ferritina alta.",
+   "A anemia megaloblástica cursa com macrocitose, e não com a microcitose descrita no enunciado.",
+   "A hemólise cursa com anemia normocítica ou macrocítica, com reticulocitose e LDH elevada."
+  ]
+ },
+ {
+  "q": "Paciente com leucemia promielocítica aguda apresenta sangramento e coagulopatia. Qual é a conduta imediata?",
+  "alts": [
+   "Iniciar ácido transretinoico imediatamente e repor hemocomponentes, sempre antes da confirmação genética.",
+   "Aguardar o resultado da pesquisa molecular antes de iniciar qualquer tratamento específico da leucemia.",
+   "Iniciar apenas quimioterapia convencional sem qualquer diferenciador, já tratamento de escolha nesse subtipo.",
+   "Administrar apenas antifibrinolítico isolado, medida suficiente para o controle da coagulopatia descrita.",
+   "Iniciar anticoagulação plena com heparina como primeira medida diante da coagulopatia identificada agora."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "NCCN Acute Myeloid Leukemia, 2024; European LeukemiaNet recommendations on APL, 2019 com revisão 2023",
+  "coment": "A leucemia promielocítica aguda é a emergência hematológica por excelência: a coagulopatia com fibrinólise e coagulação intravascular disseminada causa hemorragia fatal, sobretudo intracraniana e pulmonar, nas primeiras horas. O ácido transretinoico é iniciado pela suspeita morfológica ou clínica, sem aguardar a confirmação da translocação, porque reverte rapidamente a coagulopatia. Simultaneamente repõem-se plaquetas, fibrinogênio e plasma conforme metas.",
+  "porAlt": [
+   "Correta: ácido transretinoico imediato pela suspeita clínica, com reposição agressiva de hemocomponentes.",
+   "Aguardar a confirmação genética custa horas em que o paciente pode morrer de hemorragia cerebral.",
+   "A quimioterapia sem o diferenciador não reverte a coagulopatia característica desse subtipo.",
+   "O antifibrinolítico isolado não trata a doença de base nem a coagulopatia de forma sustentada.",
+   "A anticoagulação plena aumenta o sangramento em um paciente já gravemente coagulopata."
+  ]
+ },
+ {
+  "q": "Paciente com anemia falciforme apresenta crise vaso-oclusiva com dor intensa. Qual é a conduta?",
+  "alts": [
+   "Analgesia precoce e agressiva com hidratação adequada, sempre investigando fatores desencadeantes.",
+   "Transfundir concentrado de hemácias de rotina em toda crise vaso-oclusiva dolorosa não complicada.",
+   "Prescrever apenas anti-inflamatório oral e liberar o paciente sem qualquer reavaliação programada.",
+   "Hiperidratar com grande volume endovenoso rápido como principal medida terapêutica da crise dolorosa.",
+   "Iniciar antibiótico de amplo espectro em todos os casos, mesmo sem qualquer sinal de foco infeccioso."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ASH Clinical Practice Guidelines on Sickle Cell Disease — acute pain management, 2020; Ministério da Saúde — PCDT Doença Falciforme, 2023",
+  "coment": "A crise vaso-oclusiva exige analgesia precoce, idealmente iniciada em até uma hora da chegada, com escalonamento rápido para opioide quando a dor é intensa, reavaliação frequente e associação de analgésico simples. Hidratação é feita em ritmo adequado, e a hiperidratação favorece síndrome torácica aguda. Transfusão não é rotina na crise simples, ficando reservada a síndrome torácica, acidente vascular cerebral e outras complicações graves.",
+  "porAlt": [
+   "Correta: analgesia precoce e agressiva, hidratação adequada e busca de fatores desencadeantes.",
+   "A transfusão de rotina em crise simples não é recomendada e expõe a aloimunização desnecessária.",
+   "O anti-inflamatório isolado é insuficiente para dor intensa, que costuma exigir opioide titulado.",
+   "A hiperidratação rápida favorece congestão e síndrome torácica aguda, complicação grave e temida.",
+   "O antibiótico sem sinal de infecção não é indicado, embora febre exija investigação imediata."
+  ]
+ },
+ {
+  "q": "Paciente assintomático apresenta pico monoclonal de 1,2 g/dL, sem anemia, sem lesão renal, sem hipercalcemia e com plasmócitos medulares de 5%. Qual é o diagnóstico?",
+  "alts": [
+   "Gamopatia monoclonal de significado indeterminado, que exige sempre seguimento periódico programado.",
+   "Mieloma múltiplo sintomático, definido por esse pico monoclonal e por essa porcentagem de plasmócitos.",
+   "Macroglobulinemia de Waldenström, condição definida pelos achados descritos no enunciado do caso.",
+   "Amiloidose sistêmica estabelecida, diagnóstico que se define pela presença isolada do pico monoclonal.",
+   "Leucemia de células plasmáticas, definida por pico monoclonal com plasmocitose medular de cinco por cento."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "International Myeloma Working Group criteria, atualização 2024; NCCN Multiple Myeloma, 2024",
+  "coment": "A gamopatia monoclonal de significado indeterminado é definida por proteína monoclonal abaixo de 3 g/dL, plasmócitos clonais medulares abaixo de dez por cento e ausência de lesão de órgão-alvo — hipercalcemia, insuficiência renal, anemia e lesão óssea. O risco de progressão para mieloma é de cerca de um por cento ao ano, o que justifica seguimento periódico com eletroforese, hemograma, cálcio, creatinina e cadeias leves livres.",
+  "porAlt": [
+   "Correta: pico abaixo de 3 g/dL, plasmócitos abaixo de dez por cento e sem lesão de órgão-alvo.",
+   "O mieloma sintomático exige lesão de órgão-alvo ou biomarcadores de malignidade, ausentes aqui.",
+   "A macroglobulinemia cursa com pico monoclonal de IgM e infiltração linfoplasmocitária da medula.",
+   "A amiloidose exige demonstração histológica de depósito amiloide em tecido acometido pela doença.",
+   "A leucemia de células plasmáticas exige plasmócitos circulantes em proporção muito elevada."
+  ]
+ },
+ {
+  "q": "Paciente com trombose venosa profunda proximal de membro inferior, sem câncer e sem trombofilia conhecida, primeiro episódio provocado por cirurgia. Qual é a duração da anticoagulação?",
+  "alts": [
+   "Três meses de anticoagulação, pois o fator provocador transitório já foi sempre removido do paciente.",
+   "Anticoagulação por tempo indeterminado em todos os casos de trombose venosa profunda proximal agora.",
+   "Seis semanas de anticoagulação, período suficiente para qualquer trombose venosa profunda proximal.",
+   "Apenas antiagregação plaquetária por três meses, sem qualquer anticoagulação plena para o paciente.",
+   "Anticoagulação por dez anos como padrão para trombose provocada por cirurgia de grande porte agora."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ASH guidelines for management of venous thromboembolism, 2020; CHEST Guideline and Expert Panel Report, atualização 2021",
+  "coment": "O tempo de anticoagulação depende de a trombose ser provocada por fator transitório maior, provocada por fator persistente ou não provocada. Trombose provocada por cirurgia, fator transitório maior, é tratada por três meses, pois o risco de recorrência após a remoção do fator é baixo. Trombose não provocada ou associada a câncer ativo ou trombofilia de alto risco costuma indicar anticoagulação estendida, com reavaliação periódica do risco de sangramento.",
+  "porAlt": [
+   "Correta: três meses, porque o fator provocador transitório maior já foi removido do paciente.",
+   "A anticoagulação indefinida se reserva a trombose não provocada ou a fatores de risco persistentes.",
+   "Seis semanas é período insuficiente e associa-se a taxa elevada de recorrência precoce do evento.",
+   "O antiagregante não substitui a anticoagulação plena no tratamento da trombose venosa profunda.",
+   "Dez anos não corresponde a qualquer recomendação para trombose provocada por fator transitório."
+  ]
+ },
+ {
+  "q": "Paciente com neutropenia de 300/mm³ após quimioterapia, afebril e assintomático. Qual é a conduta?",
+  "alts": [
+   "Orientar sinais de alerta e higiene, considerando sempre fator estimulador de colônias conforme o risco.",
+   "Iniciar antibiótico de amplo espectro profilático em todos os pacientes neutropênicos e afebris agora.",
+   "Internar todos os pacientes com essa contagem de neutrófilos independentemente de qualquer sintoma.",
+   "Transfundir concentrado de granulócitos de rotina em todo paciente neutropênico após quimioterapia.",
+   "Suspender definitivamente o tratamento oncológico diante de qualquer episódio de neutropenia detectado."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "ASCO/IDSA guideline on antimicrobial prophylaxis for neutropenia, revisão 2024; NCCN Prevention and Treatment of Cancer-Related Infections, 2024",
+  "coment": "O paciente neutropênico afebril e assintomático não precisa de internação nem de antibiótico terapêutico. A conduta é orientação sobre sinais de alerta — sobretudo febre, que deve levar a procurar atendimento imediatamente —, higiene das mãos, cuidados com alimentos e evitar contato com doentes. Profilaxia antimicrobiana e fator estimulador de colônias são considerados conforme o risco do esquema e do paciente, não de forma universal.",
+  "porAlt": [
+   "Correta: orientar sinais de alerta e higiene, com profilaxia e fator de crescimento conforme o risco.",
+   "A profilaxia antibiótica universal não é indicada e favorece a seleção de germes resistentes.",
+   "A internação de todo neutropênico afebril expõe a infecção hospitalar sem benefício demonstrado.",
+   "A transfusão de granulócitos é excepcional e não tem papel na neutropenia afebril de rotina.",
+   "Suspender definitivamente o tratamento oncológico por neutropenia esperada retira benefício curativo."
+  ]
+ },
+ {
+  "q": "Homem de 45 anos com esplenomegalia volumosa, leucocitose de 90.000/mm³ com desvio à esquerda e basofilia. Qual exame confirma o diagnóstico?",
+  "alts": [
+   "Pesquisa do cromossomo Filadélfia ou do rearranjo BCR-ABL, sempre por citogenética ou biologia molecular.",
+   "Dosagem isolada de vitamina B12 sérica, exame que confirma o diagnóstico dessa neoplasia mieloproliferativa.",
+   "Cintilografia de baço, exame que estabelece o diagnóstico definitivo da doença suspeitada no enunciado.",
+   "Dosagem isolada de fosfatase alcalina leucocitária, exame que confirma o diagnóstico molecular da doença.",
+   "Biópsia de linfonodo cervical, procedimento diagnóstico de escolha para a leucocitose descrita no caso."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "OMS — classificação de neoplasias mieloides, 5ª edição, 2022; European LeukemiaNet recommendations for CML, 2020",
+  "coment": "Leucocitose acentuada com desvio à esquerda em todas as fases de maturação, basofilia e esplenomegalia volumosa caracteriza leucemia mieloide crônica, definida pela translocação entre os cromossomos 9 e 22, que gera o rearranjo BCR-ABL1. O diagnóstico é confirmado por citogenética, FISH ou PCR quantitativo, este também usado no monitoramento da resposta. O tratamento com inibidores de tirosina quinase transformou o prognóstico da doença.",
+  "porAlt": [
+   "Correta: pesquisa do cromossomo Filadélfia ou do rearranjo BCR-ABL confirma o diagnóstico.",
+   "A vitamina B12 pode estar elevada nessa doença, mas isso não confirma o diagnóstico molecular.",
+   "A cintilografia de baço avalia o órgão, mas não identifica a alteração genética que define a doença.",
+   "A fosfatase alcalina leucocitária é exame histórico, hoje substituído pela pesquisa molecular.",
+   "A biópsia de linfonodo investiga linfoma, e não a neoplasia mieloproliferativa suspeitada aqui."
+  ]
+ },
+ {
+  "q": "Paciente recebe transfusão de hemácias e, após 15 minutos, apresenta febre, dor lombar, hipotensão e urina escura. Qual é a conduta?",
+  "alts": [
+   "Interromper a transfusão imediatamente e iniciar sempre hidratação vigorosa com suporte hemodinâmico.",
+   "Reduzir a velocidade da infusão e completar a bolsa sob observação clínica mais atenta do paciente.",
+   "Administrar apenas antitérmico e manter a transfusão, pois a febre isolada é reação sempre benigna.",
+   "Administrar apenas anti-histamínico e prosseguir com a transfusão até o término completo da bolsa.",
+   "Trocar a bolsa por outra do mesmo doador e reiniciar a transfusão imediatamente após a substituição."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AABB Standards for Blood Banks and Transfusion Services, 2024; Ministério da Saúde — Guia para uso de hemocomponentes, 2021",
+  "coment": "Febre com dor lombar, hipotensão e hemoglobinúria durante a transfusão sugere reação hemolítica aguda, geralmente por incompatibilidade ABO decorrente de erro de identificação. A conduta é interromper imediatamente a transfusão, manter o acesso com salina, iniciar hidratação vigorosa para proteger a função renal, oferecer suporte hemodinâmico, comunicar o serviço de hemoterapia e enviar bolsa e amostras para investigação da causa.",
+  "porAlt": [
+   "Correta: interromper a transfusão de imediato e iniciar hidratação vigorosa com suporte hemodinâmico.",
+   "Reduzir a velocidade mantém a infusão de hemácias incompatíveis e agrava a hemólise em curso.",
+   "A reação descrita não é febril simples: há sinais claros de hemólise aguda com risco de vida.",
+   "O anti-histamínico trata reação alérgica leve e não tem papel na reação hemolítica aguda.",
+   "Trocar a bolsa sem investigar mantém o risco, pois o erro pode estar na identificação do paciente."
+  ]
+ },
+ {
+  "q": "Paciente com pancitopenia, medula óssea hipocelular e ausência de fibrose ou infiltração neoplásica. Qual é o diagnóstico mais provável?",
+  "alts": [
+   "Anemia aplásica, que exige sempre pesquisa de causas secundárias e avaliação para terapia específica.",
+   "Leucemia aguda em fase inicial, definida por medula hipocelular sem qualquer infiltração blástica.",
+   "Mielofibrose primária avançada, caracterizada por medula hipocelular sem fibrose ao exame histológico.",
+   "Anemia ferropriva grave, condição que cursa com pancitopenia e medula óssea acentuadamente hipocelular.",
+   "Esferocitose hereditária, quadro definido por pancitopenia com medula óssea hipocelular à biópsia."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "British Society for Haematology guidelines for the diagnosis and management of aplastic anaemia, revisão 2023",
+  "coment": "Pancitopenia com medula hipocelular, sem fibrose, displasia significativa ou infiltração, caracteriza anemia aplásica. A investigação busca causas secundárias: fármacos, hepatite viral, radiação, benzeno, gestação, hemoglobinúria paroxística noturna e síndromes de falência medular hereditárias em pacientes jovens. O tratamento depende da gravidade e da idade: transplante alogênico em jovens com doador ou imunossupressão com globulina antitimócito e ciclosporina.",
+  "porAlt": [
+   "Correta: pancitopenia com medula hipocelular sem infiltração ou fibrose caracteriza anemia aplásica.",
+   "A leucemia aguda cursa com medula hipercelular e infiltração por blastos, ausente neste caso.",
+   "A mielofibrose cursa com fibrose medular e hematopoese extramedular, achados que não constam aqui.",
+   "A ferropenia isolada causa anemia, e não pancitopenia com medula acentuadamente hipocelular.",
+   "A esferocitose cursa com anemia hemolítica e medula hipercelular por hiperplasia eritroide reativa."
+  ]
+ }
+]

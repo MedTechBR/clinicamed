@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Paciente com choque séptico por foco abdominal, já com antibiótico e 30 mL/kg de cristaloide, mantém pressão arterial média de 58 mmHg. Qual é o próximo passo?",
+  "alts": [
+   "Iniciar noradrenalina como vasopressor de primeira escolha, sempre com alvo de pressão média de 65 mmHg.",
+   "Manter apenas a expansão volêmica com mais dez litros de cristaloide antes de qualquer vasopressor.",
+   "Iniciar dopamina como vasopressor preferencial nesse contexto pelo melhor perfil de segurança clínica.",
+   "Iniciar dobutamina isolada como primeira droga vasoativa diante da hipotensão persistente descrita.",
+   "Administrar corticoide em dose alta isolado como primeira medida antes de qualquer droga vasoativa já."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Surviving Sepsis Campaign — International Guidelines, 2021 com atualização 2024",
+  "coment": "No choque séptico, após a expansão inicial de trinta mililitros por quilo, o vasopressor de primeira escolha é a noradrenalina, com alvo de pressão arterial média de 65 mmHg. A dopamina é evitada por maior incidência de arritmias. Vasopressina é acrescentada quando a dose de noradrenalina sobe, e a dobutamina se reserva a disfunção miocárdica com sinais de hipoperfusão apesar de pressão adequada. Corticoide entra na dependência persistente de vasopressor.",
+  "porAlt": [
+   "Correta: noradrenalina como vasopressor de primeira escolha, com alvo de pressão média de 65 mmHg.",
+   "Expansão indefinida causa sobrecarga volêmica, edema pulmonar e piora do desfecho no choque.",
+   "A dopamina tem mais arritmias e não é a escolha preferencial no choque séptico atualmente.",
+   "A dobutamina é inotrópico e pode agravar a hipotensão quando usada sem vasopressor associado.",
+   "O corticoide se reserva ao choque com dependência persistente de vasopressor, não como primeira medida."
+  ]
+ },
+ {
+  "q": "Paciente em parada cardiorrespiratória com ritmo de fibrilação ventricular. Qual é a conduta imediata?",
+  "alts": [
+   "Desfibrilação imediata seguida sempre de retomada das compressões torácicas sem checar o pulso.",
+   "Administrar adrenalina antes de qualquer tentativa de desfibrilação nesse ritmo do monitor.",
+   "Realizar cardioversão sincronizada, modalidade indicada para a fibrilação ventricular identificada.",
+   "Checar o pulso imediatamente após o choque antes de retomar as compressões torácicas externas.",
+   "Iniciar apenas ventilação com bolsa-válvula-máscara sem qualquer compressão ou desfibrilação."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "American Heart Association Guidelines for CPR and ECC, 2020 com atualização 2025; ERC Guidelines, 2021",
+  "coment": "Fibrilação ventricular é ritmo chocável e a desfibrilação imediata é a intervenção que define o desfecho, com benefício que cai a cada minuto de atraso. Após o choque, retomam-se as compressões por dois minutos sem checar pulso, para não interromper a perfusão coronariana recém-restabelecida. A adrenalina em ritmo chocável é administrada após o terceiro choque, e a amiodarona é considerada na fibrilação refratária.",
+  "porAlt": [
+   "Correta: desfibrilar imediatamente e retomar as compressões por dois minutos sem checar pulso.",
+   "A adrenalina em ritmo chocável vem após o terceiro choque, sem preceder a desfibrilação inicial.",
+   "A cardioversão sincronizada é impossível na fibrilação ventricular, que não tem onda R para sincronizar.",
+   "Checar pulso logo após o choque interrompe as compressões e reduz a perfusão coronariana.",
+   "A ventilação isolada não trata a fibrilação ventricular nem gera qualquer perfusão coronariana."
+  ]
+ },
+ {
+  "q": "Paciente politraumatizado com hipotensão, taquicardia e ausência de murmúrio vesicular à direita com timpanismo. Qual é a conduta imediata?",
+  "alts": [
+   "Descompressão torácica imediata seguida sempre de drenagem definitiva do espaço pleural acometido.",
+   "Solicitar radiografia de tórax antes de qualquer intervenção sobre o quadro respiratório do paciente.",
+   "Iniciar apenas oxigênio suplementar em alto fluxo e reavaliar clinicamente após quinze minutos.",
+   "Realizar tomografia de tórax de urgência antes de qualquer descompressão pleural ser realizada.",
+   "Realizar intubação orotraqueal isolada como conduta suficiente para a estabilização desse paciente."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ATLS — Advanced Trauma Life Support, 11ª edição, 2024",
+  "coment": "O pneumotórax hipertensivo é diagnóstico clínico e o tratamento não deve aguardar imagem: hipotensão, taquicardia, ausência de murmúrio vesicular com hipertimpanismo e, tardiamente, desvio de traqueia. A conduta é descompressão imediata, por punção com agulha no quinto espaço intercostal na linha axilar anterior ou por toracostomia com dedo, seguida de drenagem torácica definitiva. Aguardar radiografia pode custar a vida do paciente em minutos.",
+  "porAlt": [
+   "Correta: descompressão imediata seguida de drenagem torácica definitiva do espaço pleural acometido.",
+   "A radiografia atrasa uma intervenção que salva a vida em um diagnóstico essencialmente clínico.",
+   "O oxigênio isolado não descomprime a cavidade pleural e não corrige o comprometimento do retorno venoso.",
+   "A tomografia é inadequada no paciente instável e apenas atrasaria a descompressão necessária.",
+   "A intubação sem descompressão pode agravar o quadro pela ventilação com pressão positiva."
+  ]
+ },
+ {
+  "q": "Paciente com intoxicação por opioide, com rebaixamento de consciência, pupilas puntiformes e frequência respiratória de 6 por minuto. Qual é a conduta?",
+  "alts": [
+   "Suporte ventilatório e naloxona titulada, sempre buscando restaurar a ventilação sem precipitar abstinência.",
+   "Administrar flumazenil endovenoso imediatamente como antídoto de escolha para o quadro descrito neste caso.",
+   "Realizar lavagem gástrica de rotina em todos os casos antes de qualquer suporte ventilatório instituído.",
+   "Administrar carvão ativado em dose alta como primeira medida no paciente com rebaixamento profundo agora.",
+   "Aguardar a metabolização espontânea do opioide sem qualquer intervenção sobre a via aérea do paciente agora."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AHA Guidelines — Opioid-Associated Emergency, 2023; Ministério da Saúde — manejo de intoxicações agudas, 2022",
+  "coment": "A tríade de rebaixamento, miose puntiforme e depressão respiratória caracteriza intoxicação por opioide. A prioridade é a ventilação, seguida de naloxona titulada por via endovenosa, intramuscular ou intranasal, com o objetivo de restaurar a respiração adequada e não de despertar completamente o paciente, evitando abstinência aguda e agitação. A meia-vida da naloxona é curta, exigindo observação prolongada e eventual infusão contínua.",
+  "porAlt": [
+   "Correta: suporte ventilatório e naloxona titulada para restaurar a ventilação sem precipitar abstinência.",
+   "O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão em intoxicações mistas.",
+   "A lavagem gástrica é inútil para opioide já absorvido e arriscada no paciente com rebaixamento.",
+   "O carvão ativado é contraindicado sem via aérea protegida pelo risco elevado de broncoaspiração.",
+   "Aguardar sem suporte permite parada respiratória, que é a causa de morte nessa intoxicação."
+  ]
+ },
+ {
+  "q": "Paciente com anafilaxia por picada de inseto, com urticária, broncoespasmo e hipotensão. Qual é a primeira medida?",
+  "alts": [
+   "Adrenalina intramuscular na face lateral da coxa, administrada sempre antes de qualquer outra medicação.",
+   "Corticoide endovenoso em dose alta como primeira medida no tratamento da anafilaxia com hipotensão.",
+   "Anti-histamínico endovenoso isolado, primeira medida recomendada no manejo da reação anafilática grave.",
+   "Adrenalina endovenosa em bolus rápido como via preferencial no atendimento inicial da anafilaxia agora.",
+   "Broncodilatador inalatório isolado como primeira medida para o controle completo do quadro descrito."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "World Allergy Organization Anaphylaxis Guidance, atualização 2024; EAACI guideline on anaphylaxis, 2021",
+  "coment": "A adrenalina intramuscular na face anterolateral da coxa é a primeira e insubstituível medida na anafilaxia, em dose de 0,01 mg/kg até 0,5 mg, repetível a cada cinco a quinze minutos. Corticoide e anti-histamínico são adjuvantes que não tratam a obstrução de via aérea nem o choque e nunca devem retardar a adrenalina. A via endovenosa em bolus é reservada a ambiente monitorizado por risco de arritmia e isquemia miocárdica.",
+  "porAlt": [
+   "Correta: adrenalina intramuscular na face lateral da coxa, antes de qualquer outra medicação adjuvante.",
+   "O corticoide tem início lento e não trata a obstrução de via aérea nem a hipotensão imediata.",
+   "O anti-histamínico alivia urticária e prurido, mas não reverte broncoespasmo nem choque.",
+   "A adrenalina endovenosa em bolus tem risco de arritmia e se reserva a ambiente monitorizado.",
+   "O broncodilatador é adjuvante para o broncoespasmo e não trata a hipotensão da anafilaxia."
+  ]
+ },
+ {
+  "q": "Paciente vítima de queimadura de 30% da superfície corporal, com pele em couro e sem dor nas áreas acometidas. Qual é a conduta inicial de reposição volêmica?",
+  "alts": [
+   "Reposição com cristaloide guiada por fórmula e ajustada sempre pelo débito urinário horário do paciente.",
+   "Reposição inicial exclusivamente com coloide nas primeiras vinte e quatro horas após a queimadura agora.",
+   "Restringir líquidos nas primeiras horas para reduzir o edema de tecidos acometidos pela queimadura.",
+   "Transfundir hemácias como primeira medida de reposição volêmica no grande queimado sem sangramento.",
+   "Repor apenas por via oral, mesmo em queimaduras extensas com essa área de superfície corporal acometida."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ATLS 11ª edição, 2024; American Burn Association clinical practice guidelines, revisão 2023",
+  "coment": "A queimadura de espessura total, com aspecto de couro e indolor pela destruição de terminações nervosas, exige reposição volêmica calculada pela fórmula de Parkland — cerca de 2 a 4 mL por quilo por porcentagem de superfície queimada com Ringer lactato nas primeiras vinte e quatro horas, metade nas primeiras oito horas contadas do trauma. A fórmula é apenas ponto de partida: o ajuste real é feito pelo débito urinário, mantido entre 0,5 e 1 mL/kg/h no adulto.",
+  "porAlt": [
+   "Correta: cristaloide pela fórmula, com ajuste contínuo guiado pelo débito urinário horário do paciente.",
+   "O coloide exclusivo não é recomendado nas primeiras horas da ressuscitação do grande queimado.",
+   "Restringir líquidos no grande queimado leva a choque hipovolêmico e lesão renal aguda evitável.",
+   "A transfusão não é reposição volêmica inicial na queimadura sem perda sanguínea associada.",
+   "A via oral é insuficiente para reposição em queimadura extensa, que exige acesso venoso calibroso."
+  ]
+ },
+ {
+  "q": "Paciente com hipotermia grave, temperatura central de 28 °C, em parada cardiorrespiratória. Qual é a conduta?",
+  "alts": [
+   "Manter reanimação prolongada com reaquecimento ativo, pois não se declara óbito sempre antes do aquecimento.",
+   "Declarar o óbito após vinte minutos de reanimação sem resposta, mesmo com a temperatura central baixa agora.",
+   "Administrar doses habituais de adrenalina em intervalos usuais durante toda a reanimação do paciente agora.",
+   "Aplicar choques repetidos indefinidamente na mesma temperatura sem qualquer tentativa de reaquecimento já.",
+   "Interromper as compressões torácicas durante todo o processo de reaquecimento ativo do paciente neste caso."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "European Resuscitation Council Guidelines — Special Circumstances, 2021; AHA Guidelines, atualização 2025",
+  "coment": "Na hipotermia grave o metabolismo cerebral está muito reduzido e a recuperação neurológica é possível mesmo após reanimação prolongada, o que sustenta o princípio de que ninguém está morto até estar quente e morto. Abaixo de 30 °C, limitam-se as tentativas de desfibrilação e adiam-se as drogas, cujos intervalos são espaçados entre 30 e 35 °C. O reaquecimento ativo, idealmente extracorpóreo nos casos com parada, é conduzido junto da reanimação.",
+  "porAlt": [
+   "Correta: reanimação prolongada com reaquecimento ativo, sem declarar óbito antes de aquecer o paciente.",
+   "Vinte minutos é intervalo insuficiente para decidir na hipotermia grave, em que há recuperação tardia.",
+   "As drogas são adiadas abaixo de 30 °C e administradas em intervalos espaçados entre 30 e 35 °C.",
+   "Choques repetidos sem reaquecimento raramente revertem a fibrilação no miocárdio muito frio.",
+   "As compressões são mantidas durante o reaquecimento, pois sustentam a perfusão do paciente."
+  ]
+ },
+ {
+  "q": "Paciente com síndrome coronariana aguda sem supradesnivelamento de ST, com troponina elevada e escore GRACE de risco alto. Qual é a conduta?",
+  "alts": [
+   "Estratégia invasiva precoce com coronariografia em até vinte e quatro horas, sempre com terapia antitrombótica.",
+   "Estratégia conservadora com alta precoce e reavaliação ambulatorial em trinta dias após o evento agudo agora.",
+   "Trombólise sistêmica imediata, tratamento indicado para essa apresentação sem supradesnivelamento de ST agora.",
+   "Apenas teste ergométrico ambulatorial em uma semana, sem qualquer terapia antitrombótica na internação agora.",
+   "Anticoagulação isolada por seis semanas sem qualquer avaliação anatômica das artérias coronárias neste caso."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESC Guidelines for the management of acute coronary syndromes, 2023; Diretriz Brasileira de SCA sem supra de ST — SBC, 2021",
+  "coment": "Na síndrome coronariana aguda sem supradesnivelamento de ST com risco alto — troponina elevada, alterações dinâmicas de ST, escore GRACE acima de 140 —, a estratégia invasiva precoce com coronariografia em até vinte e quatro horas reduz eventos isquêmicos. Associa-se antiagregação dupla, anticoagulação parenteral, betabloqueador e estatina de alta potência. Trombólise não tem indicação nessa apresentação e aumenta o risco de sangramento sem benefício.",
+  "porAlt": [
+   "Correta: estratégia invasiva precoce em até vinte e quatro horas, com terapia antitrombótica associada.",
+   "A alta precoce em paciente de risco alto expõe a infarto e óbito no período de maior vulnerabilidade.",
+   "A trombólise não é indicada nessa apresentação e aumenta o risco hemorrágico sem qualquer benefício.",
+   "O teste ergométrico é inadequado no paciente de alto risco com troponina elevada e dor recente.",
+   "A anticoagulação isolada não define a anatomia nem trata a lesão culpada responsável pelo evento."
+  ]
+ },
+ {
+  "q": "Paciente com hemorragia digestiva alta e instabilidade hemodinâmica, com hemoglobina de 6,2 g/dL. Qual é a estratégia transfusional?",
+  "alts": [
+   "Estratégia restritiva com alvo de hemoglobina em torno de 7 g/dL, sempre reavaliando a resposta clínica.",
+   "Estratégia liberal com alvo de hemoglobina acima de 10 g/dL em todos os pacientes com sangramento agora.",
+   "Não transfundir enquanto a hemoglobina permanecer acima de 5 g/dL, independentemente da instabilidade.",
+   "Transfundir apenas plasma fresco congelado, sem qualquer concentrado de hemácias no paciente instável.",
+   "Transfundir apenas plaquetas, componente indicado como reposição inicial nesse sangramento digestivo."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AABB/ICTMG red blood cell transfusion guidelines, 2023; ESGE guideline on nonvariceal upper GI hemorrhage, 2021",
+  "coment": "Ensaios clínicos mostraram que a estratégia transfusional restritiva, com alvo de hemoglobina em torno de 7 g/dL, reduz mortalidade e ressangramento na hemorragia digestiva alta em comparação à liberal, sobretudo no cirrótico, porque a transfusão excessiva eleva a pressão portal. Em coronariopatas o alvo pode ser um pouco maior, em torno de 8 g/dL. A decisão sempre considera o sangramento ativo e a resposta clínica, não apenas o número.",
+  "porAlt": [
+   "Correta: estratégia restritiva com alvo em torno de 7 g/dL, reavaliando resposta e sangramento ativo.",
+   "A estratégia liberal aumentou mortalidade e ressangramento nos ensaios clínicos comparativos.",
+   "Aguardar até 5 g/dL em paciente instável com sangramento ativo é conduta de risco inaceitável.",
+   "O plasma se indica na coagulopatia documentada e não substitui a reposição de hemácias.",
+   "As plaquetas se repõem conforme a contagem e o sangramento, não como reposição inicial isolada."
+  ]
+ },
+ {
+  "q": "Paciente com trauma cranioencefálico grave e Glasgow de 6. Qual é a conduta imediata quanto à via aérea e à pressão?",
+  "alts": [
+   "Intubação orotraqueal para proteção da via aérea e evitar sempre hipotensão e hipoxemia secundárias.",
+   "Manter apenas máscara de oxigênio e permitir hipotensão leve para reduzir o edema cerebral instalado.",
+   "Hiperventilar de rotina e de forma prolongada todos os pacientes com esse escore de coma de Glasgow já.",
+   "Administrar manitol de rotina em todos os pacientes antes de qualquer avaliação por neuroimagem.",
+   "Adiar a intubação até o resultado da tomografia de crânio para não interferir na avaliação neurológica."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Brain Trauma Foundation Guidelines for the Management of Severe TBI, 4ª edição com atualização 2023; ATLS 11ª edição, 2024",
+  "coment": "Glasgow igual ou menor que 8 indica intubação para proteção da via aérea. As duas agressões secundárias que mais pioram o desfecho no trauma cranioencefálico grave são hipotensão e hipoxemia, de modo que manter pressão sistólica adequada e saturação acima de noventa por cento é prioridade. Hiperventilação profilática prolongada é deletéria por vasoconstrição e isquemia, reservando-se à herniação iminente como medida temporária.",
+  "porAlt": [
+   "Correta: intubar para proteger a via aérea e evitar hipotensão e hipoxemia, as agressões secundárias.",
+   "Permitir hipotensão piora a perfusão cerebral e é um dos maiores determinantes de mau desfecho.",
+   "A hiperventilação prolongada causa vasoconstrição e isquemia, sendo reservada à herniação iminente.",
+   "O manitol é usado diante de sinais de hipertensão intracraniana, e não de rotina em todos os casos.",
+   "Adiar a intubação com Glasgow de 6 expõe o paciente a broncoaspiração e hipoxemia evitáveis."
+  ]
+ }
+]
