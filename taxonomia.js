@@ -88,7 +88,7 @@ window.TAXONOMIA=[
 window.CENARIOS=[
  {"id":"amb","nome":"Ambulatório"},
  {"id":"enf","nome":"Enfermaria"},
- {"id":"emg","nome":"Emergência/Urgência"},
+ {"id":"emg","nome":"Pronto-socorro"},
  {"id":"uti","nome":"UTI"}
 ];
 
