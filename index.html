@@ -167,12 +167,12 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 </main>
 <div class="faixas" id="faixas"></div>
 
-<script src="taxonomia.js?v=30"></script>
-<script src="provas.js?v=30"></script>
-<script src="banco.js?v=30"></script>
-<script src="flash.js?v=30"></script>
-<script src="pratica.js?v=30"></script>
-<script src="leituras.js?v=30"></script>
+<script src="taxonomia.js?v=31"></script>
+<script src="provas.js?v=31"></script>
+<script src="banco.js?v=31"></script>
+<script src="flash.js?v=31"></script>
+<script src="pratica.js?v=31"></script>
+<script src="leituras.js?v=31"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -468,13 +468,17 @@ function abreContestacao(ctx){
 }
 
 /* ================= aba QUESTÕES ================= */
-function filtroAtual(){const f=ST.pos.fq||{};return {area:f.area||"",cen:f.cen||"",comp:f.comp||"",niv:f.niv||"",modo:f.modo||"todas"}}
+const NREAIS=BANCO.filter(q=>q.fonte).length;
+function filtroAtual(){const f=ST.pos.fq||{};return {area:f.area||"",cen:f.cen||"",comp:f.comp||"",niv:f.niv||"",modo:f.modo||"todas",proc:f.proc||""}}
 function aplicaFiltro(){
   const f=filtroAtual();
   let l=BANCO.filter(q=>(!f.area||q.tema===f.area)&&(!f.cen||q.cenario===f.cen)&&(!f.comp||q.comp===f.comp)&&(!f.niv||q.nivel===f.niv));
   if(f.modo==="erros")l=l.filter(q=>ST.erros.includes(q._ch));
   if(f.modo==="fav")l=l.filter(q=>ST.fav[q._ch]);
   if(f.modo==="novas")l=l.filter(q=>!respostaDe(q));
+  /* procedência: `fonte` só existe na questão copiada de prova real (banca+ano) */
+  if(f.proc==="real")l=l.filter(q=>q.fonte);
+  if(f.proc==="autoral")l=l.filter(q=>!q.fonte);
   return l;
 }
 const assinaturaFiltro=()=>JSON.stringify(filtroAtual());
@@ -509,6 +513,11 @@ function pintaQuestoes(){
     <label class="cmp">Cenário<select id="fCen">${opt(CEN,f.cen,"todos")}</select></label>
     <label class="cmp">Competência<select id="fComp">${opt(COMP,f.comp,"todas")}</select></label>
     <label class="cmp">Nível<select id="fNiv">${opt(NIVEIS,f.niv,"todos")}</select></label>
+    <label class="cmp">Procedência<select id="fProc">
+      <option value=""${f.proc?"":" selected"}>todas (${BANCO.length})</option>
+      <option value="real"${f.proc==="real"?" selected":""}>só de prova real (${NREAIS})</option>
+      <option value="autoral"${f.proc==="autoral"?" selected":""}>só autorais (${BANCO.length-NREAIS})</option>
+    </select></label>
     <label class="cmp">Conjunto<select id="fModo">
       <option value="todas"${f.modo==="todas"?" selected":""}>todas</option>
       <option value="novas"${f.modo==="novas"?" selected":""}>ainda não respondidas</option>
@@ -524,6 +533,7 @@ function pintaQuestoes(){
   $("#fCen").onchange=e=>mudaFiltro("cen",e.target.value);
   $("#fComp").onchange=e=>mudaFiltro("comp",e.target.value);
   $("#fNiv").onchange=e=>mudaFiltro("niv",e.target.value);
+  $("#fProc").onchange=e=>mudaFiltro("proc",e.target.value);
   $("#fModo").onchange=e=>mudaFiltro("modo",e.target.value);
   $("#btEmb").onclick=()=>{ST.pos.assq=null;salva("pos",ST.pos);pintaQuestoes()};
   pintaCartaoQuestao(q,l,i);

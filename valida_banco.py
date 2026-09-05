@@ -148,7 +148,7 @@ def main():
         if not real and CAUTELA.search(alts[gab]) and not any(CAUTELA.search(a) for j, a in enumerate(alts) if j != gab):
             avisos.append(f"{rot}: linguagem cautelosa só na correta")
         tem_acento = lambda s: bool(re.search(r"[àáâãéêíóôõúç]", s, re.I))
-        if tem_acento(alts[gab]):
+        if not real and tem_acento(alts[gab]):
             for j, a in enumerate(alts):
                 if j != gab and len(a) > 60 and not tem_acento(a):
                     avisos.append(f"{rot} alt {j}: distrator longo sem nenhum acento (tell visual)")
