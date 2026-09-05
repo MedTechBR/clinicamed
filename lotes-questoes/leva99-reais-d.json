@@ -1,0 +1,348 @@
+[
+ {
+  "q": "Vanda, 92 anos, hipertensa, com diagnóstico de Alzheimer há 16 anos, acamada, estável, sem lesões por pressão, sem histórico recente de internação, tem uma filha, Joana, de 68 anos, que faz o manejo diário: banho no leito, administração de medicação, dieta enteral, mudança de decúbito. A filha está bem orientada e procura se informar sobre o quadro e as melhores condutas. Nesse caso, o plano terapêutico singular deve:",
+  "alts": [
+   "dar suporte à cuidadora, acompanhá-la regularmente para avaliação de sobrecarga no cuidado e manter o acompanhamento de Vanda pela equipe da APS",
+   "agendar consultas regulares de fisioterapia e fonoaudiologia e encaminhamento à geriatria para acompanhamento da doença de Alzheimer",
+   "agendar consultas regulares de nutricionista e encaminhamento ao CER para reabilitação da deglutição",
+   "dar suporte à cuidadora e encaminhar Vanda ao serviço de atenção secundária domiciliar para reabilitação da deglutição por fonoaudióloga",
+   "fornecer acompanhamento regular com fonoaudióloga e nutricionista e encaminhar a paciente ao serviço de cuidados paliativos"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Política Nacional de Saúde da Pessoa Idosa e Caderno de Atenção Domiciliar, 2023; ANCP, Manual de Cuidados Paliativos, 2021",
+  "coment": "Em demência avançada com paciente acamada e estável, cuidada em casa por familiar, o plano terapêutico singular se organiza em torno de dois eixos: manter o acompanhamento longitudinal pela equipe de atenção primária, que já responde pelo território, e cuidar de quem cuida. A sobrecarga do cuidador é fator de risco para adoecimento próprio e para falha do cuidado, e deve ser avaliada de forma sistemática, com instrumentos como a escala de Zarit. Encaminhamentos para reabilitação não têm objetivo realista nesse estágio e fragmentam o cuidado sem benefício.",
+  "porAlt": [
+   "Correta: apoiar a cuidadora, monitorar sua sobrecarga e manter o acompanhamento pela equipe de atenção primária.",
+   "Reabilitação e encaminhamento à geriatria não mudam o curso da demência avançada em paciente acamada e estável.",
+   "Reabilitação da deglutição não tem meta funcional realista nesse estágio.",
+   "O apoio à cuidadora está correto, mas o encaminhamento para reabilitação não se sustenta.",
+   "A paciente já está em cuidado de conforto conduzido em casa; encaminhamentos múltiplos fragmentam sem agregar."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um senhor de 82 anos comparece à consulta queixando-se de uma cefaleia de início recente. Exame físico sem particularidades, exceto por espessamento da artéria temporal à palpação. Nesse contexto:",
+  "alts": [
+   "PCR elevada aumenta a chance de arterite de células gigantes",
+   "VHS > 100 mm/h aumenta a chance de arterite de células gigantes",
+   "tomografia craniana é essencial para excluir diagnósticos outros, antes de se pensar em arterite de células gigantes",
+   "radiografia craniana é essencial para excluir diagnósticos outros, antes de se pensar em arterite de células gigantes",
+   "ressonância magnética craniana é essencial para excluir outros diagnósticos, antes de se pensar em arterite de células gigantes"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACR/EULAR classification criteria for giant cell arteritis, 2022; EULAR recommendations for the management of large vessel vasculitis, 2018",
+  "coment": "Cefaleia de início recente em pessoa acima de 50 anos com artéria temporal espessada levanta suspeita de arterite de células gigantes. Entre os marcadores, a velocidade de hemossedimentação acima de 100 mm/h tem forte razão de verossimilhança positiva, enquanto elevação isolada de proteína C reativa é achado inespecífico. O diagnóstico se apoia em critérios clínicos e laboratoriais, com ultrassonografia de artérias temporais mostrando o sinal do halo ou biópsia. Diante de sintoma visual, o corticoide em dose alta é iniciado imediatamente, antes de qualquer confirmação, para prevenir cegueira.",
+  "porAlt": [
+   "A proteína C reativa elevada é inespecífica e não discrimina tanto quanto a velocidade de hemossedimentação muito alta.",
+   "Correta: velocidade de hemossedimentação acima de 100 mm/h aumenta substancialmente a probabilidade de arterite de células gigantes.",
+   "Tomografia de crânio não é exame necessário antes de considerar o diagnóstico.",
+   "Radiografia de crânio não tem papel na investigação.",
+   "Ressonância de crânio não é pré-requisito para levantar a hipótese; a imagem útil é a ultrassonografia das temporais."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Uma mulher com 21 anos apresenta história de cefaleia hemicraniana, pulsátil, precedida por escotomas visuais, de duração de 6 a 10 horas, com fono e fotofobia, com pelo menos um episódio ao mês nos últimos 10 anos. Relata que a privação de sono desencadeia o quadro e que obtém melhora parcial da cefaleia após ingerir analgésico comum. Nega febre ou alteração das características de cefaleia recentemente. Nega outros sintomas associados. Ao exame físico, apresenta bom estado geral, fácies de dor, está hidratada, corada, com frequência cardíaca de 90 bpm e pressão arterial de 130 x 80 mmHg. Não apresenta alterações no aparelho cardiovascular nem no respiratório. O exame neurológico da paciente encontra-se normal.\nDiante desse quadro clínico, quais são, respectivamente, a hipótese diagnóstica e a conduta adequada para a paciente?",
+  "alts": [
+   "Migrânea; indicar uso de triptano",
+   "Cefaleia tensional; indicar uso de relaxante muscular",
+   "Cefaleia em salvas; prescrever uso de oxigênio a 100%",
+   "Cefaleia por malformação vascular; encaminhar à neurologia"
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "International Classification of Headache Disorders (ICHD-3); American Headache Society consensus statement, 2021",
+  "coment": "Cefaleia unilateral, pulsátil, de 6 a 10 horas, com fotofobia e fonofobia e precedida de escotomas visuais, recorrente há anos e com exame neurológico normal, é migrânea com aura. O tratamento da crise de intensidade moderada a grave, ou com resposta insuficiente a analgésico simples, é o triptano, associado a antiemético quando há náusea. Sem sinais de alarme, não há indicação de neuroimagem. Com frequência crescente de crises ou uso excessivo de analgésico, entra a profilaxia — topiramato, propranolol, amitriptilina, candesartana ou anticorpo anti-CGRP.",
+  "porAlt": [
+   "Correta: migrânea com aura, tratada na crise com triptano.",
+   "A cefaleia tensional é bilateral, em peso, sem aura, náusea ou fotofobia proeminente.",
+   "A cefaleia em salvas dura de 15 a 180 minutos, é estritamente unilateral, com sinais autonômicos e predomínio masculino.",
+   "Não há sinal de alarme que sugira malformação vascular, e o exame neurológico é normal."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem com 38 anos relata, em consulta, exantema, prurido, febre e artralgia que se resolveu em 72 horas com o uso de sintomáticos. O paciente conta que, após 10 dias, passou a apresentar parestesia em membros inferiores, que evoluiu para membros superiores em 24 horas. Ele conta que não buscou ajuda médica por julgar tratar-se de câimbras devido à falta de atividade física regular. Narra, ainda, que, após 3 dias, o quadro evoluiu com fraqueza nos membros inferiores, impedindo a deambulação, queixando-se também de cefaleia holocraniana e obstipação intestinal.\nAo exame neurológico, apresenta-se vigil, orientado em tempo e espaço, com pupilas isocóricas e fotorreagentes, mobilidade ocular extrínseca preservada e demais pares cranianos sem alteração. Verificam-se, ainda: força muscular grau V/V em membros superiores e grau III/V em membros inferiores; reflexos bicipital, tricipital e estilorradial grau II/IV; reflexos patelar e aquileu abolidos; hipoestesia tátil e dolorosa nos quatro membros, com padrão de bota e luva; hipopalestesia em membros inferiores, até o tornozelo. O resultado do exame de líquido cefalorraquidiano (LCR) mostrou:\n\nEXAME | RESULTADO | UNIDADES CONVENCIONAIS | UNIDADES SI\nContagem de células | 0 a 2 mm³ | 0 a 5 linfócitos/mcL | 0 a 5 × 10⁶ linfócitos/L\nGlicose | 74 mg/dL | 40 a 80 mg/dL (< 40% do nível plasmático medido simultaneamente se esse nível plasmático está anormal) | 2,2 a 4,4 mmol/L (< 40% do nível plasmático medido simultaneamente estão alterados)\nProteína total | 103 mg/dL | 15 a 60 mg/dL | 150 a 600 mg/L\n\nDiante desse quadro clínico, qual é a principal suspeita diagnóstica?",
+  "alts": [
+   "Miastenia Gravis",
+   "Síndrome de Guillain-Barré",
+   "Acidente Vascular Cerebral",
+   "Esclerose Lateral Amiotrófica"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, síndrome de Guillain-Barré e arboviroses, 2024; diretrizes brasileiras de neuropatias periféricas inflamatórias",
+  "coment": "Fraqueza flácida ascendente, simétrica e progressiva, com arreflexia distal e parestesias, surgindo cerca de uma a duas semanas após quadro exantemático febril, é a apresentação típica da síndrome de Guillain-Barré, cuja associação com arboviroses e com infecções gastrointestinais é bem estabelecida. A avaliação inclui líquor com dissociação proteinocitológica, eletroneuromiografia e, sobretudo, medida seriada da capacidade vital — a insuficiência respiratória é o risco imediato. O tratamento é imunoglobulina ou plasmaférese; corticoide isolado não funciona.",
+  "porAlt": [
+   "A miastenia gravis cursa com fraqueza flutuante e fatigável, com ptose e diplopia, e reflexos preservados.",
+   "Correta: síndrome de Guillain-Barré após quadro exantemático, com fraqueza ascendente e arreflexia.",
+   "O acidente vascular cerebral causa déficit focal súbito, não paralisia ascendente simétrica em dias.",
+   "A esclerose lateral amiotrófica é lentamente progressiva, com sinais de neurônio motor superior e inferior, sem pródromo infeccioso."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem com 46 anos comparece à consulta acompanhado de sua esposa e solicita atestado para justificar 2 dias de ausência no trabalho. Refere que, há 2 dias, apresenta diminuição do apetite, cefaleia, fadiga, tristeza e sentimento de culpa. A esposa refere que ele ingeriu grande quantidade de bebida alcoólica numa festa e que chegou em casa sendo carregado por amigos na noite anterior ao início dos sintomas. Segundo ela, isso costuma acontecer há 1 ano, cerca de 2 vezes ao mês. Após essas situações, o paciente fica bastante entristecido, não quer sair da cama e acaba faltando ao trabalho. Entre os episódios de ingesta de bebida, o paciente trabalha, estuda e tem bom funcionamento familiar e social. Nega comorbidades e uso de medicações. Ao exame físico, não apresenta alterações.\nNesse caso, ao final da consulta, o médico deve explicar ao paciente que seu quadro clínico trata-se de",
+  "alts": [
+   "uso nocivo de álcool",
+   "dependência de álcool",
+   "episódio depressivo moderado",
+   "síndrome de abstinência do álcool"
+  ],
+  "gab": 0,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "CID-11 (OMS, 2022) e DSM-5-TR (APA, 2022), transtornos por uso de substâncias; Ministério da Saúde, Guia prático de matriciamento em saúde mental, 2011",
+  "coment": "O padrão descrito — episódios repetidos de consumo pesado com prejuízo funcional pontual, cerca de duas vezes por mês, sem tolerância, sem abstinência, sem fissura e com funcionamento preservado entre os episódios — caracteriza uso nocivo, ou padrão de consumo de risco, e não dependência. A distinção orienta a conduta: aqui cabem intervenção breve motivacional, rastreio com AUDIT e seguimento na atenção primária. Os sintomas depressivos que se seguem à intoxicação são transitórios e não configuram episódio depressivo, que exige duração mínima de duas semanas.",
+  "porAlt": [
+   "Correta: uso nocivo de álcool, com prejuízo episódico e sem critérios de dependência.",
+   "A dependência exige tolerância, abstinência, fissura ou perda de controle persistente, ausentes aqui.",
+   "O episódio depressivo requer sintomas por pelo menos duas semanas, e não apenas nos dias seguintes ao consumo.",
+   "A abstinência cursa com tremor, sudorese, taquicardia e ansiedade após a interrupção, quadro distinto."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um paciente de 70 anos, vítima de acidente vascular cerebral, sem sequelas, vai a uma consulta de retorno após receber alta hospitalar. O médico da unidade básica de saúde, ao analisar o caso do paciente, prescreve aspirina 100 mg por uso diário. Nesse caso, o médico prescreveu esse medicamento a fim de evitar um novo evento cardiovascular, realizando, então, uma prevenção",
+  "alts": [
+   "primária",
+   "terciária",
+   "secundária",
+   "quaternária"
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Leavell e Clark, níveis de prevenção (1976); Ministério da Saúde, Política Nacional de Promoção da Saúde, revisão de 2018",
+  "coment": "A prevenção secundária atua em quem já tem a doença, para detectá-la precocemente ou evitar recorrência e progressão — é o caso da antiagregação após um evento cerebrovascular. A prevenção primária evita a doença em quem ainda não a tem; a terciária busca reduzir incapacidade e reabilitar quem já tem sequela; e a quaternária protege o paciente do excesso de intervenção médica, evitando iatrogenia e sobrediagnóstico. Essa taxonomia é cobrada com frequência e se distingue pelo momento da história natural em que a ação incide.",
+  "porAlt": [
+   "A prevenção primária evita a ocorrência da doença em quem ainda não a tem.",
+   "A prevenção terciária busca reduzir incapacidade e reabilitar quem já apresenta sequela.",
+   "Correta: prevenção secundária — evitar recorrência em paciente que já teve o evento.",
+   "A prevenção quaternária protege o paciente do excesso de intervenção médica."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Homem, 64 anos de idade e 15 anos de escolaridade, possui diagnóstico de doença de Parkinson há 5 anos e está, atualmente, em uso de biperideno, pramipexol e levodopa com benserazida. Refere dificuldades de memória e de concentração nas tarefas. Ainda trabalha como comerciante, mas sente que, às vezes, se atrapalha com as contas. Outra queixa, é que passou a ver vultos e ter sensação de que há pessoas passando por trás dele. No mini exame do estado mental, o paciente fez 25 pontos, perdendo 03 pontos nas subtrações em série, 01 ponto na evocação das palavras e 01 ponto na cópia do desenho. Ao exame neurológico, apresenta bradicinesia, rigidez com roda denteada, sem tremor de repouso. Assinale a alternativa que apresenta a próxima conduta mais adequada para o caso apresentado",
+  "alts": [
+   "Suspender a levodopa",
+   "Suspender o biperideno",
+   "Prescrever a rivastigmina",
+   "Prescrever a quetiapina"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "MDS evidence-based review on treatments for Parkinson’s disease, 2024; American Geriatrics Society Beers Criteria, 2023",
+  "coment": "Paciente com doença de Parkinson que passa a apresentar declínio cognitivo e alucinações visuais tem, como primeira medida, a revisão dos fármacos com potencial de piorar cognição e psicose. O anticolinérgico — biperideno — é o primeiro a sair: tem baixa eficácia motora, é formalmente desaconselhado no idoso pelos critérios de Beers e é a causa mais evitável de confusão e alucinação nesse contexto. Só depois se considera reduzir agonista dopaminérgico e, persistindo o quadro, prescrever inibidor da colinesterase para a demência e quetiapina ou clozapina para a psicose.",
+  "porAlt": [
+   "Suspender a levodopa piora o parkinsonismo e não é o primeiro passo diante de alucinação.",
+   "Correta: suspender o biperideno, anticolinérgico desaconselhado no idoso e principal culpado pela piora cognitiva e pelas alucinações.",
+   "Rivastigmina pode ser útil na demência associada, mas depois da retirada do fármaco deletério.",
+   "Quetiapina se reserva à psicose que persiste após a revisão farmacológica."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Um paciente de 21 anos, atleta, com 1,92 m de estatura, vai à consulta ambulatorial relatando dor recorrente em membro inferior esquerdo, com piora progressiva há 2 meses e com alguns episódios de febre nas crises de dor, além de perda de peso de 6 kg no último mês. O paciente observou aumento do volume no terço medial da perna esquerda e, há 1 semana, está claudicando devido à dor. Ao exame físico, percebe-se aumento do volume do terço medial da tíbia com tumoração palpável de 3 cm de diâmetro, sem alterações de mobilidade do membro ou lesões de pele. Assinale a alternativa que apresenta, respectivamente, a principal hipótese diagnóstica, a investigação complementar e a conduta para esse caso.",
+  "alts": [
+   "Calo ósseo por prática de esporte; radiografia; analgesia e repouso",
+   "Osteopenia; cintilografia óssea e hemograma; orientação nutricional",
+   "Osteossarcoma; ressonância magnética e biópsia; quimioterapia",
+   "Lesão por esforço repetitivo; tomografia computadorizada e cintilografia; fisioterapia"
+  ],
+  "gab": 2,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "INCA — Diretrizes diagnósticas e terapêuticas de sarcomas ósseos, 2022; NCCN Guidelines for Bone Cancer",
+  "coment": "Dor óssea progressiva, com piora noturna, massa palpável em região metafisária de osso longo, febre e perda de peso em adolescente ou adulto jovem alto é a apresentação clássica do osteossarcoma. A investigação começa por radiografia — que mostra lesão agressiva com reação periosteal em raios de sol e triângulo de Codman —, segue com ressonância do segmento para estadiamento local, tomografia de tórax para metástases pulmonares e biópsia realizada em centro de referência, no trajeto da futura cirurgia. O tratamento combina quimioterapia neoadjuvante, cirurgia e quimioterapia adjuvante.",
+  "porAlt": [
+   "Calo ósseo não cursa com febre, perda ponderal e massa progressiva.",
+   "Osteopenia não produz tumoração palpável nem dor progressiva com febre.",
+   "Correta: osteossarcoma — investigação com ressonância e biópsia, com tratamento que inclui quimioterapia.",
+   "Lesão por esforço repetitivo não explica massa, febre e emagrecimento."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Uma paciente de 47 anos, que vinha em uso de medicações para controle de transtorno bipolar, é levada para atendimento com alteração do nível de consciência, confusão mental, sudorese e desorientação. Ao exame, foi observada rigidez muscular generalizada, especialmente em membros superiores e inferiores. Apresentou pressão arterial de 172 por 104 mmHg, frequência cardíaca de 109 batimentos por minuto, frequência respiratória de 24 incursões respiratórias por minuto e temperatura axilar de 39,2 °C. O exame laboratorial revelou aumento significativo de creatinofosfoquinase sérica, sem alterações nas transaminases. Como a equipe médica suspeitou de síndrome neuroléptica maligna, suspendeu as medicações em uso e iniciou terapia de suporte clínico. Fazem parte do arsenal terapêutico da síndrome neuroléptica maligna as seguintes medicações:",
+  "alts": [
+   "haloperidol e fenitoína",
+   "quetiapina e olanzapina",
+   "dantrolene e bromocriptina",
+   "risperidona e carbamazepina",
+   "oxcarbazepina e prometazina"
+  ],
+  "gab": 2,
+  "tema": "psiq",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "American Psychiatric Association — Practice Guideline for the Treatment of Patients With Schizophrenia, 2020; UpToDate/consensos sobre síndrome neuroléptica maligna",
+  "coment": "A síndrome neuroléptica maligna combina hipertermia, rigidez muscular generalizada, disautonomia e alteração do nível de consciência, com elevação acentuada de creatinoquinase e risco de rabdomiólise e lesão renal. O tratamento é suspender imediatamente o agente antidopaminérgico, oferecer suporte intensivo com resfriamento e hidratação vigorosa e, nos casos moderados a graves, associar dantroleno, que age no músculo, e agonista dopaminérgico como bromocriptina ou amantadina. Benzodiazepínico ajuda na agitação e na rigidez, e eletroconvulsoterapia é opção refratária.",
+  "porAlt": [
+   "Haloperidol é justamente o tipo de fármaco que desencadeia a síndrome.",
+   "Antipsicóticos atípicos também bloqueiam dopamina e não tratam a síndrome.",
+   "Correta: dantroleno e bromocriptina, associados à suspensão do agente e ao suporte intensivo.",
+   "Risperidona é antipsicótico e a carbamazepina não trata a síndrome.",
+   "Oxcarbazepina e prometazina não têm papel; a prometazina inclusive bloqueia dopamina."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Tatiana vem à consulta médica com queixa de dor lombar. Em sua consulta anterior, apresentou pressão arterial de 120 x 65 mmHg, FC normal, peso 59 kg, altura 1,60 m e FR normal. Em seu prontuário, seu último Papanicolau foi há 3 anos. Tatiana relata se sentir sem energia e ter medo de essas dores serem alguma doença ruim. Diz que não tem conseguido mais dormir de preocupação. Em relação ao registro das informações fornecidas por Tatiana no Registro Clínico Orientado por Problemas (RCOP), é correto afirmar que:",
+  "alts": [
+   "devem ser registradas no campo Subjetivo as informações \"apresentou pressão arterial 120 x 65 mmHg, FC normal, peso 59 kg, altura 1,60 m e FR normal\"",
+   "devem ser registradas no campo Objetivo as informações \"apresentou pressão arterial 120 x 65 mmHg, FC normal, peso 59 kg, altura 1,60 m e FR normal\"",
+   "devem ser registradas no campo Avaliação as informações \"apresentou pressão arterial 120 x 65 mmHg, FC normal, peso 59 kg, altura 1,60 m e FR normal\"",
+   "devem ser registradas no campo Avaliação as informações \"Tatiana relata se sentir sem energia e ter medo de essas dores serem alguma doença ruim. Diz que não tem conseguido mais dormir de preocupação\"",
+   "as informações \"Tatiana relata se sentir sem energia e ter medo de essas dores serem alguma doença ruim. Diz que não tem conseguido mais dormir de preocupação\" não são relevantes; logo, não devem ser registradas no RCOP"
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — manual do Prontuário Eletrônico do Cidadão (e-SUS APS), 2023; Weed, problem-oriented medical record (1968)",
+  "coment": "No registro clínico orientado por problemas, organizado pelo método SOAP, o campo Subjetivo reúne o que o paciente relata — sintomas, preocupações, contexto; o Objetivo reúne o que o profissional mede ou observa, como sinais vitais, medidas antropométricas e achados de exame físico e complementares; a Avaliação traz a hipótese e a interpretação; e o Plano descreve conduta, exames solicitados e orientações. Sinais vitais e medidas antropométricas são, portanto, dado objetivo, e o medo e a insônia relatados são conteúdo subjetivo relevante, não descartável.",
+  "porAlt": [
+   "Sinais vitais e medidas antropométricas não são relato do paciente, e sim dado medido.",
+   "Correta: pressão, frequências, peso e altura pertencem ao campo Objetivo.",
+   "A Avaliação registra hipótese e interpretação, não os dados brutos medidos.",
+   "O relato de falta de energia, medo e insônia é conteúdo subjetivo, não avaliação.",
+   "Esse relato é clinicamente relevante e deve ser registrado no campo Subjetivo."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Uma mulher de 34 anos com diagnóstico de depressão procurou a unidade de saúde da família (UBS) onde você trabalha. Com base no prontuário da paciente, você observou que ela faz acompanhamento na unidade há 10 meses com outro médico da unidade. A paciente consulta sozinha, mas chegou à unidade acompanhada da irmã, com quem ela mora e que está bastante preocupada. A paciente tem sintomas de humor deprimido, fatigabilidade e choro fácil; está em uso de 40 mg/dia de fluoxetina nos últimos 6 meses, tendo apresentado discreta melhora. Segundo a paciente, há 1 mês, aproximadamente, começou a ouvir vozes e ver alguns vultos, e tem pensado em se matar, mas sem plano. Nesse caso, qual é a conduta adequada?",
+  "alts": [
+   "Continuar o atendimento na UBS e trocar o tratamento",
+   "Encaminhar a paciente para internação em hospital psiquiátrico",
+   "Solicitar internação em hospital geral e otimizar o tratamento farmacológico",
+   "Referenciar a paciente à equipe multiprofissional do Centro de Atenção Psicossocial"
+  ],
+  "gab": 3,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Rede de Atenção Psicossocial (RAPS), Portaria nº 3.088/2011; Guia prático de matriciamento em saúde mental",
+  "coment": "Depressão com resposta insuficiente após seis meses de tratamento que evolui com sintomas psicóticos e ideação suicida sem plano configura caso de maior complexidade, que exige cuidado intensivo mas não internação imediata: a paciente mantém vínculo, tem suporte familiar e não apresenta risco iminente. O dispositivo adequado da Rede de Atenção Psicossocial é o Centro de Atenção Psicossocial, com equipe multiprofissional, que oferece acompanhamento intensivo em regime aberto e articula-se com a unidade básica por matriciamento. Internação se reserva a risco iminente ou falha do cuidado territorial.",
+  "porAlt": [
+   "Apenas trocar a medicação na unidade básica subestima a gravidade do quadro com sintomas psicóticos e ideação suicida.",
+   "Internação em hospital psiquiátrico contraria a lógica da rede substitutiva e não se justifica sem risco iminente.",
+   "Internação em hospital geral também é desproporcional neste momento.",
+   "Correta: referenciar ao Centro de Atenção Psicossocial, mantendo o vínculo com a atenção primária por matriciamento."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Uma mulher de 43 anos compareceu a uma unidade de saúde da família, com queixas de estresse e ansiedade. Informa que iniciou, há 10 semanas, o tratamento com sertralina 50 mg/dia e que, nesse período, apresentou uma melhora discreta dos sintomas. Entretanto, nas últimas 4 semanas, tem tido ataques recorrentes de ansiedade intensa quando precisa sair de casa, o que tem limitado suas atividades do dia a dia, como ir ao supermercado e buscar os filhos no colégio. Conforme relato dela, no dia desta consulta, teve muita dificuldade para sair de casa. Nesse caso, qual é a conduta adequada?",
+  "alts": [
+   "Prescrever um benzodiazepínico e encaminhar a paciente para a emergência de um hospital psiquiátrico",
+   "Manter a sertralina na dose atual e monitorar a evolução da paciente",
+   "Encaminhar a paciente para um serviço com psicoterapia estruturada e reavaliar a medicação em uso",
+   "Substituir a sertralina por fluoxetina 20 mg, clonazepam 0,5 mg e clorpromazina 25 mg"
+  ],
+  "gab": 2,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "NICE guideline on generalised anxiety disorder and panic disorder, 2020; Ministério da Saúde, Caderno de Atenção Básica de Saúde Mental",
+  "coment": "Ataques recorrentes de ansiedade intensa desencadeados por sair de casa, com esquiva que limita atividades cotidianas, caracterizam transtorno de pânico com agorafobia. O tratamento com melhor evidência combina psicoterapia estruturada — terapia cognitivo-comportamental com exposição — e ajuste do antidepressivo, cuja dose de sertralina pode ser titulada progressivamente, já que dez semanas com resposta parcial em dose inicial indicam subtratamento. Benzodiazepínico pode ser usado por período curto na crise, mas como estratégia isolada mantém a esquiva e cria dependência.",
+  "porAlt": [
+   "Benzodiazepínico isolado com encaminhamento à emergência psiquiátrica é desproporcional e não trata a esquiva.",
+   "Manter a mesma dose diante de resposta parcial após dez semanas perpetua o subtratamento.",
+   "Correta: psicoterapia estruturada associada à reavaliação e ao ajuste da medicação.",
+   "Trocar por esquema com clonazepam e clorpromazina não tem respaldo e acrescenta efeitos adversos."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Uma equipe de saúde (ES) de um distrito sanitário especial indígena (DSEI) realizou uma análise situacional de saúde da população adstrita e identificou um problema de alcoolismo na população masculina. A equipe planeja, junto com os líderes locais, uma intervenção comunitária para enfrentar esse problema de saúde, respeitando o contexto intercultural local. Conforme a Política Nacional de Atenção à Saúde dos Povos Indígenas, qual das seguintes propostas deve ser adotada pela ES para desenvolver a intervenção?",
+  "alts": [
+   "A ES e os líderes podem convidar a população masculina para uma roda de conversa sobre o tema do alcoolismo na aldeia, com o objetivo de pactuar com os participantes os próximos passos",
+   "A ES pode convidar a população para ir ao polo base a fim de assistir a uma palestra expositiva sobre os riscos e as complicações do etilismo crônico, avaliando a possibilidade de prescrever midazolam para as pessoas com dificuldade de cessar o uso de bebida alcóolica",
+   "A ES pode realizar uma reunião de planejamento para designar o papel de cada membro da equipe e convidar a população para ir ao polo base a fim de assistir a uma palestra sobre os riscos e as complicações do etilismo crônico",
+   "A ES e os líderes podem convidar a população masculina para uma roda de conversa sobre o tema do alcoolismo na aldeia, com o objetivo de prescrever benzodiazepínicos para as pessoas com dificuldade de cessar o uso de bebida alcóolica"
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas — Portaria MS nº 254/2002; Ministério da Saúde, diretrizes do Subsistema de Atenção à Saúde Indígena",
+  "coment": "A política de saúde indígena exige atenção diferenciada, com respeito às práticas e à organização social de cada povo, e participação da comunidade nas decisões sobre o próprio cuidado. Uma intervenção comunitária construída com as lideranças, na própria aldeia, em roda de conversa que pactua os próximos passos com os participantes, é coerente com esses princípios e com o controle social. Palestras expositivas no polo base, planejadas apenas pela equipe, deslocam o cuidado para fora do território e reproduzem um modelo vertical que a política afasta.",
+  "porAlt": [
+   "Correta: roda de conversa na aldeia, construída com as lideranças e pactuando os próximos passos com os participantes.",
+   "Palestra expositiva no polo base desloca a ação do território e não constrói pactuação.",
+   "Planejamento restrito à equipe, sem participação comunitária, contraria a atenção diferenciada.",
+   "Prescrever benzodiazepínico coletivamente não é intervenção comunitária e é iatrogênico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ }
+]

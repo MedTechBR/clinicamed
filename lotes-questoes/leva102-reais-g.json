@@ -1,0 +1,184 @@
+[
+ {
+  "q": "Um escolar de 9 anos, portador de anemia falciforme, politransfundido, encontra-se internado há 2 dias devido a uma crise álgica. Evoluiu com melhora da dor e estava afebril e estável clinicamente. Em hemograma, obteve-se hemoglobina de 5,8 g/dL e hematócrito de 16,5%. Iniciou-se transfusão de concentrado de hemácias desleucocitadas e fenotipadas. Quase ao término da transfusão, o menino passa a apresentar febre de 38,4 °C, calafrios, dor no local do acesso e nos flancos e epistaxe, mantendo-se com estabilidade hemodinâmica, acianótico, anictérico e sem outras alterações ao exame físico. A radiografia de tórax está sem alterações. Nesse caso, o que provavelmente está acontecendo é uma",
+  "alts": [
+   "sobrecarga circulatória associada à transfusão",
+   "lesão pulmonar aguda relacionada à transfusão (TRALI)",
+   "reação febril não hemolítica",
+   "hemólise aguda"
+  ],
+  "gab": 2,
+  "tema": "hemato",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AABB — Transfusion Reactions: guidelines and hemovigilance; Ministério da Saúde, Guia para o uso de hemocomponentes, 2024",
+  "coment": "Febre com calafrios ao final ou logo após a transfusão, em paciente estável, sem icterícia, sem hemoglobinúria e sem alteração respiratória ou radiológica, caracteriza reação febril não hemolítica — a reação transfusional mais comum, causada por citocinas acumuladas na bolsa e por anticorpos contra leucócitos do doador. Ainda assim, a conduta obrigatória é interromper a transfusão, conferir identificação do paciente e da bolsa e excluir hemólise e contaminação bacteriana antes de atribuir o quadro à forma benigna. A leucorredução previne a recorrência.",
+  "porAlt": [
+   "A sobrecarga circulatória cursa com dispneia, hipertensão, turgência jugular e congestão radiológica.",
+   "A TRALI cursa com hipoxemia e infiltrado bilateral novo, ausentes com radiografia normal.",
+   "Correta: reação febril não hemolítica, após excluir hemólise e contaminação.",
+   "A hemólise aguda cursa com dor lombar intensa, hipotensão, hemoglobinúria e queda da hemoglobina."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Mulher, 47 anos de idade, vegana, com sangramento genital há 15 dias e febre há dois dias. Nega doenças prévias. Exame clínico: regular estado geral, descorada++/4+, temperatura axilar de 38 °C, orofaringe hiperemiada e com petéquias em palato, fígado a 2 cm do rebordo costal direito.\n\nExames laboratoriais:\nHb: 9,5 g/dL\nVCM: 105 fL\nLeucócitos: 800/mm³\nNeutrófilos: 100/mm³\nLinfócitos: 680/mm³\nMonócitos: 20/mm³\nPresença de algumas células anômalas, com nucléolos evidentes\nPlaquetas: 12.000/mm³\nTP: atividade 50%\nTTPA: 1,3\nTT: 27 s\nFibrinogênio: 150 mg/dL (ref.: 200 a 400 mg/dL)\nβHCG: normal\n\nFoi realizado raio-X de tórax, sem alterações. Em relação ao caso apresentado, o diagnóstico mais provável é",
+  "alts": [
+   "Leucemia aguda",
+   "Anemia megaloblástica",
+   "Aplasia medular",
+   "Septicemia"
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "NCCN Guidelines for Acute Myeloid Leukemia, 2025; INCA, diretrizes diagnósticas e terapêuticas das leucemias agudas",
+  "coment": "Pancitopenia com neutropenia grave, plaquetopenia acentuada, sangramento mucoso, febre e presença de células anômalas com nucléolos evidentes no esfregaço indica leucemia aguda com blastos circulantes. O alargamento do tempo de protrombina com fibrinogênio baixo levanta a suspeita de coagulação intravascular disseminada, característica da leucemia promielocítica aguda — emergência hematológica em que o ácido transretinoico deve ser iniciado à suspeita, antes da confirmação genética, junto com suporte transfusional agressivo. A confirmação é por mielograma com imunofenotipagem e citogenética.",
+  "porAlt": [
+   "Correta: leucemia aguda — pancitopenia com células anômalas e coagulopatia associada.",
+   "A anemia megaloblástica cursa com macrocitose e pancitopenia, mas não com blastos nem coagulopatia de consumo.",
+   "A aplasia medular não apresenta células anômalas no sangue periférico.",
+   "A septicemia pode causar coagulopatia, mas não explica as células com nucléolos evidentes no esfregaço."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Um paciente com 68 anos, aposentado da fábrica de tintas, comparece à consulta de rotina com histórico de disúria, acompanhada de hematúria há 3 meses, além de antecedente pessoal de tabagismo desde os 20 anos de idade e 2 episódios de cistite tratados no último semestre. Ao exame físico, verificam-se: bom estado geral, abdome flácido, indolor; ausência de linfadenomegalias inguinais; e, ao toque retal: próstata sem nódulos, grau II, indolor.\nDiante desse caso, a hipótese diagnóstica mais provável e o(s) exame(s) diagnóstico(s) a ser(em) solicitado(s) são, respectivamente,",
+  "alts": [
+   "nefrolitíase; ressonância magnética com contraste",
+   "tumor de bexiga; cistoscopia ambulatorial com biópsia",
+   "adenocarcinoma prostático; ultrassonografia transretal",
+   "cistite hemorrágica; ultrassonografia e urografia excretora"
+  ],
+  "gab": 1,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "EAU Guidelines on Non-muscle-invasive Bladder Cancer, 2024; INCA, diretrizes de câncer de bexiga",
+  "coment": "Hematúria em homem acima de 50 anos, tabagista e com exposição ocupacional a corantes e solventes — aminas aromáticas, presentes na indústria de tintas — é câncer de bexiga até prova em contrário, e infecções urinárias de repetição em homem são elas próprias um alerta. A investigação obrigatória combina cistoscopia com biópsia das lesões e imagem do trato urinário superior, tipicamente uroTC. Citologia urinária complementa, mas não substitui a cistoscopia, que é o exame que faz o diagnóstico.",
+  "porAlt": [
+   "Nefrolitíase não explica disúria com hematúria persistente por meses e não se investiga primariamente por ressonância.",
+   "Correta: tumor de bexiga, investigado por cistoscopia com biópsia.",
+   "O adenocarcinoma de próstata não costuma cursar com hematúria como manifestação inicial, e o toque é normal.",
+   "Cistite hemorrágica não justifica quadro arrastado com esses fatores de risco, e a urografia excretora foi substituída pela uroTC."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Homem, 25 anos de idade, previamente hígido, é admitido no pronto-socorro após ingestão intencional de 35 g de paracetamol, durante uma tentativa de suicídio, há quatro horas. Está consciente, com PA de 120×80 mmHg, FC de 95 bpm, sem alterações neurológicas. A conduta mais adequada é",
+  "alts": [
+   "Hemodiálise precoce",
+   "Acetilcisteína e carvão ativado",
+   "Dosagem sérica seriada de paracetamol",
+   "Dosagem seriada de AST/ALT"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "AASLD Position Paper on Acute Liver Failure, 2023; nomograma de Rumack-Matthew (1975) e diretrizes de manejo da intoxicação por paracetamol",
+  "coment": "Ingestão de 35 g de paracetamol é dose amplamente tóxica — acima de 150 mg/kg —, e o antídoto é a N-acetilcisteína, que reconstitui a glutationa e é altamente eficaz quando iniciada nas primeiras 8 a 10 horas. Com quatro horas de ingestão, cabe também o carvão ativado, cujo benefício é maior nas primeiras duas horas mas persiste em ingestão maciça. Não se espera dosagem sérica nem elevação de transaminases para tratar: a nível sérico se usa para orientar a manutenção, e a hepatotoxicidade só aparece após 24 a 48 horas, quando o antídoto já perdeu grande parte da eficácia.",
+  "porAlt": [
+   "A hemodiálise não é a conduta inicial e se reserva a intoxicação maciça com acidose e coma.",
+   "Correta: N-acetilcisteína associada a carvão ativado, sem aguardar exames.",
+   "A dosagem sérica orienta a conduta, mas aguardar seu resultado antes do antídoto perde a janela terapêutica.",
+   "Transaminases só se alteram após 24 a 48 horas, tarde demais para iniciar o antídoto."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 30 anos de idade, faz acompanhamento por lúpus eritematoso sistêmico com síndrome do anticorpo anti-fosfolípide. Teve atividade articular, cutânea e renal, além de duas tromboses venosas profundas. Faz uso atual de varfarina, prednisona, hidroxicloroquina e azatioprina. Está em remissão e deseja iniciar contracepção. Assinale a alternativa que apresenta a opção mais segura.",
+  "alts": [
+   "Dispositivo intrauterino de cobre",
+   "Dispositivo intrauterino com levonorgestrel",
+   "Pílula com etinilestradiol e levonorgestrel",
+   "Contraceptivo transdérmico combinado"
+  ],
+  "gab": 1,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "OMS — Critérios Médicos de Elegibilidade para uso de contraceptivos, 2015; EULAR recommendations for women’s health in SLE and APS, 2017",
+  "coment": "Na síndrome do anticorpo antifosfolípide, com ou sem lúpus, o contraceptivo combinado com estrogênio é categoria 4 dos critérios de elegibilidade — risco inaceitável, por aumento adicional do risco trombótico —, e isso vale para qualquer via, incluindo adesivo transdérmico. A opção mais segura e mais eficaz é o dispositivo intrauterino com levonorgestrel, que além de contracepção de longa duração reduz o sangramento menstrual, aspecto relevante em paciente anticoagulada. O dispositivo de cobre é seguro do ponto de vista trombótico, mas tende a aumentar o fluxo menstrual.",
+  "porAlt": [
+   "O dispositivo de cobre é aceitável, mas aumenta o fluxo menstrual em paciente em uso de varfarina.",
+   "Correta: sistema intrauterino com levonorgestrel — sem estrogênio, eficaz e com redução do sangramento.",
+   "Contraceptivo combinado com etinilestradiol é contraindicado na síndrome antifosfolípide.",
+   "O adesivo combinado também contém estrogênio e mantém o risco trombótico."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 35 anos de idade, em acompanhamento ambulatorial por artrite reumatoide e depressão. Faz uso de metotrexato 10 mg semanal, ácido fólico 5 mg semanal e fluoxetina 20 mg à noite. Procura ambulatório por insônia há 2 meses. Exame físico geral sem alterações e articulações sem sinais de flogismo. Assinale a alternativa que apresenta a conduta adequada para a queixa da paciente.",
+  "alts": [
+   "Trocar fluoxetina por clonazepam",
+   "Associar fluoxetina com clonazepam",
+   "Aumentar dose da fluoxetina",
+   "Orientar uso da fluoxetina pela manhã"
+  ],
+  "gab": 3,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "NICE guideline on depression in adults, 2022; American Geriatrics Society Beers Criteria, 2023 (benzodiazepínicos)",
+  "coment": "A fluoxetina tem perfil ativador e insônia entre seus efeitos adversos mais comuns, sobretudo quando tomada à noite. Diante de insônia surgida no curso do tratamento, a primeira medida é a mais simples e a que resolve a maior parte dos casos: transferir a tomada para a manhã, associada a orientações de higiene do sono. Acrescentar ou trocar por benzodiazepínico expõe a paciente a dependência, tolerância e quedas sem tratar a causa, e aumentar a dose do antidepressivo tende a agravar a insônia.",
+  "porAlt": [
+   "Trocar o antidepressivo por benzodiazepínico deixa a depressão sem tratamento e cria dependência.",
+   "Associar benzodiazepínico trata o sintoma sem corrigir a causa e traz risco de dependência.",
+   "Aumentar a dose da fluoxetina tende a piorar a insônia.",
+   "Correta: orientar a tomada da fluoxetina pela manhã, junto de higiene do sono."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Um médico de família e comunidade, que atua em uma equipe de saúde da família fluvial focada em populações ribeirinhas, é convidado para atender uma população indígena de um distrito sanitário especial indígena (DSEI).\nCom relação a essas populações e ao território em que habitam, assinale a opção correta.",
+  "alts": [
+   "A delimitação dos DSEIs considera a distribuição demográfica tradicional, que pode não coincidir com os limites de estados; já o território das equipes de saúde da família ribeirinhas respeita esses limites",
+   "As demarcações de áreas indígenas garantem a proteção contra conflitos e situações de vulnerabilidade, apesar de a distribuição de terras representar um problema a ser enfrentado pelas populações ribeirinhas",
+   "A desnutrição infantil tem uma alta incidência nas populações indígenas, o que não ocorre frequentemente na população ribeirinha, dada a diversidade de alimentos disponíveis às margens dos percursos fluviais",
+   "O principal recurso de atenção à saúde da população indígena ainda é o sistema tradicional de saúde; já na população ribeirinha, as práticas tradicionais e os cuidadores locais foram abandonados e substituídos por medicina alopática"
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas — Portaria MS nº 254/2002; Política Nacional de Saúde Integral das Populações do Campo, da Floresta e das Águas, 2013",
+  "coment": "Os distritos sanitários especiais indígenas são unidades organizacionais definidas por critérios etnoculturais e pela distribuição demográfica tradicional dos povos, e por isso seus limites podem atravessar fronteiras de municípios e de estados — diferentemente do território das equipes de saúde da família, que segue o recorte municipal e a adscrição populacional. Reconhecer essa diferença é o que permite articular o subsistema de atenção à saúde indígena com a rede do Sistema Único de Saúde sem sobrepor ou deixar vazios assistenciais.",
+  "porAlt": [
+   "Correta: a delimitação dos distritos indígenas segue a distribuição demográfica tradicional e pode não coincidir com limites estaduais.",
+   "A demarcação de terras não elimina conflitos nem situações de vulnerabilidade.",
+   "A desnutrição infantil também é problema relevante entre populações ribeirinhas.",
+   "Ambas as populações combinam práticas tradicionais e serviços do sistema oficial de saúde."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ }
+]

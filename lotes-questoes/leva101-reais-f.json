@@ -1,0 +1,404 @@
+[
+ {
+  "q": "Uma paciente de 45 anos, com diagnóstico de colelitíase há 1 ano, apresenta dor em hipocôndrio direito, icterícia ++/4, temperatura axilar de 38 °C, PA: 110 x 70 mmHg e bilirrubina total de 4,6 mg/dL, com bilirrubina direta de 3,2 mg/dL. Realizou ultrassonografia de abdômen, que mostrou vesícula de paredes finas, contendo múltiplos cálculos e discreta dilatação das vias biliares extra-hepáticas. Além da antibioticoterapia venosa, a conduta mais apropriada neste momento é:",
+  "alts": [
+   "hidratação e medidas de suporte, somente",
+   "papilotomia endoscópica de urgência",
+   "drenagem cirúrgica das vias biliares com dreno de Kehr",
+   "colecistectomia de urgência com colangiografia",
+   "drenagem biliar externa trans-hepática"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Tokyo Guidelines 2018 para colangite aguda e colecistite; ACG Clinical Guideline on choledocholithiasis, 2019",
+  "coment": "Dor em hipocôndrio direito, febre e icterícia compõem a tríade de Charcot, que define colangite aguda, aqui por coledocolitíase com dilatação discreta das vias biliares. Pelas diretrizes de Tóquio, a colangite leve — sem disfunção orgânica e sem hipotensão — é tratada inicialmente com antibiótico e suporte clínico, reservando a drenagem biliar endoscópica para quem não responde em 24 horas ou já se apresenta em grau moderado a grave. A colecistectomia é feita depois, na mesma internação, após a resolução do quadro agudo.",
+  "porAlt": [
+   "Correta: na colangite leve, antibiótico com hidratação e suporte, reavaliando a necessidade de drenagem.",
+   "A papilotomia de urgência é indicada na colangite moderada a grave ou na ausência de resposta ao tratamento clínico.",
+   "A drenagem cirúrgica com dreno de Kehr foi substituída pela via endoscópica na maioria dos casos.",
+   "Colecistectomia de urgência não é a conduta no episódio agudo de colangite.",
+   "A drenagem trans-hepática se reserva à falha ou à impossibilidade do acesso endoscópico."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Coqueluche é uma infecção aguda do trato respiratório causada pela bactéria Bordetella pertussis. A palavra coqueluche significa \"tosse violenta\", expressão que descreve apropriadamente a característica mais consistente e proeminente da doença. O nome chinês para coqueluche é \"tosse de 100 dias\", termo que descreve o curso clínico da doença com precisão. A identificação de B. pertussis foi relatada pela primeira vez por Bordet e Gengou em 1906. A classe de antibióticos mais adequada para tratamento dessa doença é:",
+  "alts": [
+   "fosfomicina",
+   "quinolona",
+   "tetraciclina",
+   "beta-lactâmico",
+   "macrolídeo"
+  ],
+  "gab": 4,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, coqueluche, 2024; CDC guidance on pertussis treatment and postexposure prophylaxis",
+  "coment": "O tratamento da coqueluche é feito com macrolídeo — azitromicina, claritromicina ou eritromicina —, escolha que vale também para a quimioprofilaxia dos contatos próximos, sobretudo lactentes, gestantes no terceiro trimestre e quem convive com eles. O antibiótico encurta o período de transmissibilidade e, quando iniciado na fase catarral, atenua o quadro; iniciado na fase paroxística, altera pouco os sintomas mas ainda interrompe a cadeia de transmissão. Alternativa em intolerância é sulfametoxazol-trimetoprima. A doença é de notificação compulsória.",
+  "porAlt": [
+   "Fosfomicina é usada em infecção urinária não complicada.",
+   "Quinolonas não são a classe de escolha e são evitadas em crianças.",
+   "Tetraciclinas não constituem o tratamento padrão da coqueluche.",
+   "Betalactâmicos não são eficazes contra Bordetella pertussis.",
+   "Correta: macrolídeo, tanto no tratamento quanto na quimioprofilaxia dos contatos."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Carlos, 27 anos, vai à consulta médica com febre, exantema, gânglios retroauriculares aumentados, conjuntivite, artralgia e tosse. Em seu prontuário, não há registro de vacinação contra a rubéola. Ele declara não ter viajado recentemente, nem ter tido contato com pessoas confirmadas com rubéola. Contudo, sua região encontra-se no estado que registrou um surto da doença há 4 meses. Trata-se de um caso suspeito de rubéola. O melhor método para fazer a confirmação desse caso é:",
+  "alts": [
+   "examinar se há vínculo epidemiológico com outros casos confirmados",
+   "realizar a sorologia de anticorpos IgM e IgG contra rubéola",
+   "verificar a associação temporal com a vacinação",
+   "considerar os critérios clínicos como suficientes, diante dos sinais e sintomas presentes",
+   "observar o caso por 48 horas"
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, vigilância do sarampo e da rubéola, 2024",
+  "coment": "Caso suspeito de rubéola — febre com exantema maculopapular, linfadenopatia retroauricular, occipital ou cervical, conjuntivite e artralgia — exige confirmação laboratorial obrigatória, com sorologia IgM e IgG, coleta de amostras para identificação viral e notificação imediata. Critério clínico isolado não confirma, pela sobreposição com outras doenças exantemáticas, e o vínculo epidemiológico só se aplica quando há caso confirmado laboratorialmente na cadeia de transmissão. A investigação inclui ainda busca ativa de casos e verificação da situação vacinal dos contatos.",
+  "porAlt": [
+   "O vínculo epidemiológico depende de caso confirmado em laboratório, e o paciente nega contato.",
+   "Correta: sorologia com pesquisa de IgM e IgG, obrigatória na vigilância da rubéola.",
+   "A associação temporal com vacinação é critério de descarte de eventos vacinais, não de confirmação.",
+   "Critérios clínicos isolados não confirmam rubéola, dada a sobreposição com outras exantemáticas.",
+   "Observar por 48 horas atrasa a investigação de doença sob vigilância de eliminação."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Letícia está na 10ª semana de gestação. Diante do aumento de casos de gripe entre familiares e conhecidos, ela foi à unidade básica de saúde para saber se precisava tomar a vacina contra influenza. Na análise em seu prontuário, verificou-se que sua última vacina havia sido no ano anterior. Em relação a esse caso, é correto afirmar que:",
+  "alts": [
+   "não se recomenda a vacina nesse estágio de gestação",
+   "não é necessário o reforço da vacina, pois ela confere imunidade por 10 anos",
+   "deve-se evitar a vacina na gestação",
+   "a paciente deve ser revacinada",
+   "a vacina deve ser tomada, por segurança, após 12 semanas de gestação"
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — Manual de Normas e Procedimentos para Vacinação, 2024; Programa Nacional de Imunizações, campanha anual de influenza",
+  "coment": "A vacina influenza é composta por vírus inativado, é segura em qualquer trimestre da gestação e a gestante é grupo prioritário: a vacinação protege a mãe da forma grave e transfere anticorpos ao recém-nascido, que só poderá ser vacinado a partir dos seis meses. A proteção não é duradoura — a composição da vacina muda a cada ano conforme as cepas circulantes e a imunidade declina —, de modo que a revacinação é anual. Vacina de vírus vivo atenuado é que seria contraindicada na gestação.",
+  "porAlt": [
+   "Não há restrição de trimestre: a vacina é recomendada em qualquer fase da gestação.",
+   "A proteção da vacina influenza não dura anos; a revacinação é anual.",
+   "A vacina é indicada, e não evitada, na gestação — a gestante é grupo prioritário.",
+   "Correta: revacinar, porque a composição muda a cada ano e a gestante é prioritária.",
+   "Não há necessidade de aguardar a 12ª semana para vacinar contra influenza."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Segundo o Manual de Recomendações e Controle da Tuberculose no Brasil 2ª ed., atualizado em 29/05/2024, a transmissão e adoecimento por TB são influenciados por fatores demográficos, sociais e econômicos. Dentre os fatores que contribuem para a manutenção e propagação da doença, destacam-se: urbanização crescente e desordenada, desigualdade na distribuição de renda, moradias precárias e superlotação, insegurança alimentar e baixa escolaridade, bem como dificuldade de acesso aos serviços e bens públicos. Dessa maneira, no Brasil, assim como em outros países que têm condições de vida semelhantes, alguns grupos populacionais apresentam maior vulnerabilidade para a TB. Pelo exposto acima, em comparação com a população em geral, o risco de adoecimento por tuberculose é maior no seguinte grupo:",
+  "alts": [
+   "indígenas",
+   "profissionais de saúde",
+   "pessoas vivendo com o HIV",
+   "pessoas privadas de liberdade",
+   "pessoas vivendo em situação de rua"
+  ],
+  "gab": 4,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2024",
+  "coment": "O Manual do Ministério da Saúde quantifica o risco relativo de adoecimento por tuberculose nas populações mais vulneráveis, e a população em situação de rua é a de maior risco, várias dezenas de vezes superior ao da população geral, seguida por pessoas privadas de liberdade, pessoas vivendo com HIV e indígenas. A consequência prática é a busca ativa dirigida a esses grupos, com rastreio de sintomático respiratório, oferta de teste rápido molecular, investigação de infecção latente e estratégias de tratamento diretamente observado.",
+  "porAlt": [
+   "Indígenas têm risco aumentado, mas inferior ao da população em situação de rua.",
+   "Profissionais de saúde têm risco ocupacional aumentado, porém menor que o dos demais grupos citados.",
+   "Pessoas vivendo com HIV têm risco elevado de adoecimento, ainda assim inferior ao da população em situação de rua.",
+   "Pessoas privadas de liberdade têm risco muito alto, mas o manual aponta a população em situação de rua como a de maior risco.",
+   "Correta: população em situação de rua, o grupo de maior risco relativo segundo o manual."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Você atende em uma unidade de saúde da família e está em reunião com a equipe multiprofissional, organizando o planejamento de uma atividade de educação popular em saúde que envolverá um café da manhã com os usuários e um bate-papo sobre vacinação contra a covid-19. Conforme as habilidades de comunicação (abordagem centrada na pessoa), bem como os atributos derivados da Atenção Primária à Saúde (orientação familiar e comunitária; competência cultural), qual é a melhor opção de atividade a ser desenvolvida pela equipe para enfrentar eventual resistência à vacinação contra a covid-19?",
+  "alts": [
+   "Palestra para explicar os benefícios da vacinação, com o objetivo de convencer os mais resistentes por meio de argumentos baseados em evidências científicas, além de apresentar dados estatísticos que demonstrem a redução da mortalidade na população vacinada",
+   "Roda de conversa para priorizar as percepções positivas dos(as) participantes acerca da vacina contra a covid-19 e, a partir daí, construir argumentos para convencer os mais resistentes, finalizando-se com a apresentação de dados científicos que demonstrem a redução da mortalidade na população vacinada",
+   "Palestra para apresentar os números de pessoas com covid-19 e a proporção entre vacinados e não vacinados que necessitaram de internação aos usuários mais resistentes à vacinação, tentando-se, dessa forma, pressioná-los a se vacinar",
+   "Roda de conversa para levantar as percepções positivas e negativas dos(as) participantes acerca da vacina contra a covid-19 e, a partir dessas informações, construir os argumentos para convencer os mais resistentes, finalizando-se com a apresentação de dados científicos que demonstrem a redução da mortalidade na população vacinada"
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Política Nacional de Educação Popular em Saúde, 2013; Starfield, atributos da atenção primária",
+  "coment": "A educação popular em saúde parte do diálogo e do saber do próprio grupo, e não da transmissão vertical de informação. Diante de hesitação vacinal, a estratégia com melhor resultado é a roda de conversa que acolhe percepções positivas e negativas, porque só é possível responder a uma dúvida que foi enunciada — apresentar apenas as percepções favoráveis, ou apenas dados epidemiológicos em palestra, não alcança quem resiste. Isso corresponde aos atributos de orientação comunitária e competência cultural da atenção primária.",
+  "porAlt": [
+   "A palestra expositiva é vertical e não dialoga com as razões da recusa.",
+   "Levantar somente as percepções positivas deixa de fora justamente as dúvidas que sustentam a hesitação.",
+   "Apresentar números em palestra reproduz o modelo unidirecional que costuma falhar nesse público.",
+   "Correta: roda de conversa que levanta percepções positivas e negativas para construir a abordagem a partir delas."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Uma mulher de 24 anos de idade foi atendida no ambulatório de especialidades, com história de fezes amolecidas e dores abdominais em cólicas havia 1 ano, com períodos de melhora e piora. Nos últimos 3 meses, havia perdido 5 kg (seu peso atual é de 65 kg), de forma não intencional, e notou aumento das dores abdominais, tenesmo, urgência e episódios de diarreia com sangue, que às vezes parecia ter pus. Ex-tabagista, negou uso de bebidas alcoólicas, bem como viagens ou uso de antibiótico recentes. Fez uso de antidiarreicos, mas não obteve melhora. No exame físico, apresentava-se emagrecida, hipocorada +/4+, dor à palpação em hipogástrio e hipocôndrio esquerdo, ruídos hidroaéreos normais, sem sinais de irritação peritoneal, toque retal sem alterações. Colonoscopia indicou achados compatíveis com inflamação difusa, que acometiam do reto ao cólon esquerdo, e o seguinte anatomopatológico de biópsias de diversos segmentos: abscessos, ramificação, encurtamento e atrofia das criptas; metaplasia das células de Paneth, aumento da celularidade da lâmina própria, plasmocitose basal, agregados linfoides basais e eosinófilos da lâmina própria. Com relação a esse caso, quais devem ser, respectivamente, o diagnóstico e o tratamento inicial?",
+  "alts": [
+   "Doença de Crohn; infliximab",
+   "Colite microscópica; mesalazina",
+   "Retocolite ulcerativa; prednisona",
+   "Colite pseudomembranosa; metronidazol"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Ulcerative Colitis in Adults, 2019; ECCO guidelines on ulcerative colitis, 2022",
+  "coment": "Diarreia com sangue e muco, urgência e tenesmo, com evolução em surtos ao longo de um ano e perda ponderal, em ex-tabagista, é a apresentação da retocolite ulcerativa — doença que acomete o reto e se estende de forma contínua pelo cólon e cuja incidência é maior em ex-fumantes, ao contrário da doença de Crohn. No surto moderado a grave, o tratamento inclui corticoide sistêmico para indução, com mesalazina para doença leve a moderada e manutenção, e imunobiológico nos casos refratários ou corticodependentes.",
+  "porAlt": [
+   "A doença de Crohn é descontínua, transmural e pode acometer todo o trato digestivo; infliximabe não é a indução inicial padrão aqui.",
+   "A colite microscópica cursa com diarreia aquosa sem sangue e colonoscopia macroscopicamente normal.",
+   "Correta: retocolite ulcerativa, com corticoide para induzir remissão no surto moderado a grave.",
+   "A colite pseudomembranosa segue uso recente de antibiótico, expressamente negado no enunciado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Um homem de 40 anos, funcionário de um pet shop, morador da cidade de São Paulo, procurou atendimento na unidade de saúde da família, devido a uma ferida no antebraço. Relatou que a lesão surgira havia 2 meses, inicialmente como um pequeno \"caroço\", que cresceu e ulcerou. Disse, ainda, que, nas últimas três semanas, surgiram novos \"caroços\" no antebraço. No exame físico, apresenta-se em bom estado geral, afebril, eutrófico, com úlcera de aproximadamente 3 cm de diâmetro no antebraço direito. Também no antebraço direito, apresentava 4 nódulos eritematosos distribuídos de forma linear entre a úlcera e a fossa cubital. Apresenta, ainda, linfonodo axilar direito aumentado, de consistência fibroelástica, levemente doloroso à palpação. Nesse caso, qual é a hipótese diagnóstica mais provável?",
+  "alts": [
+   "Esporotricose",
+   "Cromoblastomicose",
+   "Leishmaniose tegumentar",
+   "Blastomicose sul-americana"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, esporotricose, 2024; consenso brasileiro de micoses subcutâneas, 2022",
+  "coment": "Úlcera de inoculação em extremidade seguida de nódulos que ascendem em trajeto linear pelo vaso linfático — padrão esporotricoide — em pessoa que lida com gatos é esporotricose, hoje com transmissão zoonótica predominante no Brasil e área urbana. O diagnóstico se confirma por cultura de material da lesão. O tratamento de escolha na forma cutaneolinfática é itraconazol por três a seis meses, mantido por semanas após a cura clínica; iodeto de potássio é alternativa e anfotericina B se reserva à doença disseminada. Manejo do animal e notificação fazem parte da conduta.",
+  "porAlt": [
+   "Correta: esporotricose — úlcera com nódulos em trajeto linfático linear e contato com gatos.",
+   "A cromoblastomicose forma placas verrucosas de evolução muito lenta, sem disseminação linfática linear.",
+   "A leishmaniose tegumentar produz úlcera de bordas elevadas e fundo granuloso, geralmente única e sem esse padrão ascendente.",
+   "A paracoccidioidomicose acomete mucosa oral e pulmão em trabalhador rural, com quadro sistêmico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Paciente do sexo masculino, de 76 anos, pardo, tabagista 40 anos/maço, foi internado em um hospital de atenção secundária, por apresentar tosse com escarro purulento e raios de sangue, temperatura axilar de 38 °C, dor torácica e rouquidão. O paciente relatou que esta era a segunda internação por essas manifestações nos últimos três meses, tendo o episódio anterior melhorado com uso de amoxicilina-clavulanato, mas evoluído com hiporexia, astenia e perda de peso no mesmo período. As manifestações atuais se iniciaram havia dois dias. No exame do tórax, o paciente apresentava à ausculta murmúrio vesicular abolido em hemitórax direito e, à percussão, macicez em base de hemitórax direito e hipersonoridade logo acima da área de macicez. No caso desse paciente, as hipóteses diagnósticas a serem cogitadas são",
+  "alts": [
+   "silicose, tuberculose e pneumotórax",
+   "pneumonia pós-obstrutiva, derrame pleural e neoplasia pulmonar",
+   "tromboembolismo pulmonar e neoplasia de cabeça e pescoço",
+   "granulomatose eosinofílica com poliangiíte e infecção de vias aéreas superiores"
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "INCA — Diretrizes diagnósticas e terapêuticas do câncer de pulmão, 2022; ATS/IDSA guideline on community-acquired pneumonia, 2019",
+  "coment": "Pneumonia que recorre no mesmo local em tabagista pesado, com hemoptoicos, rouquidão e emagrecimento, deve levantar a hipótese de neoplasia pulmonar com obstrução brônquica, e a pneumonia é pós-obstrutiva. Ao exame, macicez em base com hipersonoridade acima sugere derrame pleural associado. A rouquidão indica acometimento do nervo laríngeo recorrente, sinal de doença localmente avançada. A investigação segue com tomografia de tórax, broncoscopia com biópsia e toracocentese com análise do líquido, incluindo citologia oncótica.",
+  "porAlt": [
+   "Silicose exige exposição ocupacional a sílica e não explica a recorrência focal com rouquidão.",
+   "Correta: pneumonia pós-obstrutiva, derrame pleural e neoplasia pulmonar como hipóteses articuladas.",
+   "O tromboembolismo não cursa com pneumonia de repetição no mesmo local e escarro purulento.",
+   "A granulomatose eosinofílica com poliangiíte cursa com asma, eosinofilia e infiltrados migratórios."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Um homem de 48 anos foi admitido no hospital com erupção cutânea generalizada, mal-estar geral e febre. Ele relatou ter iniciado recentemente alopurinol para controle de hiperuricemia. Nos últimos dias, ele notou o surgimento de erupção cutânea que começou no tronco e se espalhou para membros, região cervical e face. Além disso, queixava-se de febre e dor abdominal. No exame físico, foram observados erupção cutânea maculopapular generalizada, adenomegalia generalizada e edema em face, mãos e pés bilateralmente. Nos exames laboratoriais, foram encontradas leucocitose, eosinofilia e elevação das transaminases. A principal hipótese diagnóstica nesse caso é:",
+  "alts": [
+   "eritema multiforme",
+   "urticária medicamentosa",
+   "síndrome de Stevens-Johnson (SSJ)",
+   "púrpura trombocitopênica idiopática (PTI)",
+   "síndrome de hipersensibilidade induzida por drogas (DRESS)"
+  ],
+  "gab": 4,
+  "tema": "derma",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Sociedade Brasileira de Dermatologia — consenso sobre reações adversas cutâneas graves, 2020; RegiSCAR criteria for DRESS",
+  "coment": "A síndrome DRESS combina exantema extenso, febre, edema facial, linfadenomegalia, eosinofilia e acometimento visceral — mais frequentemente hepático —, com início tardio, tipicamente de duas a oito semanas após o início do fármaco. Alopurinol, anticonvulsivantes aromáticos, sulfonamidas e vancomicina são os agentes clássicos. A conduta é suspender imediatamente o fármaco, iniciar corticoide sistêmico nos casos com acometimento de órgão, monitorar função hepática e renal por semanas e alertar sobre risco de reativação viral e de tireoidite tardia.",
+  "porAlt": [
+   "O eritema multiforme cursa com lesões em alvo, sem eosinofilia e acometimento hepático desse porte.",
+   "Urticária medicamentosa produz placas fugazes e pruriginosas, sem febre, adenomegalia e hepatite.",
+   "A síndrome de Stevens-Johnson cursa com acometimento de mucosas e descolamento epidérmico.",
+   "A púrpura trombocitopênica idiopática cursa com plaquetopenia isolada e sangramento, sem esse quadro sistêmico.",
+   "Correta: DRESS — exantema, febre, edema facial, adenomegalia, eosinofilia e hepatite após alopurinol."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Paciente do sexo feminino, 24 anos, trabalha como técnica de enfermagem há um ano e refere surgimento de vesículas, eritema e fissuras nas mãos há seis meses, acompanhada de episódios de prurido. Relata que houve melhora do quadro no seu período de férias. A partir da história clínica dessa paciente, assinale a opção correta.",
+  "alts": [
+   "Devido à localização das lesões em área descoberta do corpo da paciente é possível concluir que o diagnóstico correto é fotodermatite",
+   "A paciente apresenta ceratoses actínicas, pela cronificação do quadro, que pode ter relação direta com detergentes e exposição solar",
+   "O diagnóstico correto é dermatite de contato, irritante ou alérgica, que pode ser causada pelo látex",
+   "Diagnósticos de quadro alérgico são afastados pelo fato de o quadro melhorar no período de férias da paciente"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Sociedade Brasileira de Dermatologia — diretrizes de dermatite de contato, 2021; Ministério da Saúde, protocolo de dermatoses ocupacionais",
+  "coment": "Vesículas, eritema e fissuras nas mãos de profissional de saúde, com melhora nas férias e piora no retorno ao trabalho, caracterizam dermatite de contato ocupacional, que pode ser irritativa — por lavagem frequente, sabões, antissépticos — ou alérgica, com o látex das luvas entre os alérgenos clássicos. A melhora no afastamento é justamente o dado que reforça a relação com o trabalho, e não o que a afasta. A investigação inclui teste de contato quando se suspeita de mecanismo alérgico, e o manejo passa por proteção da barreira, emolientes, corticoide tópico e substituição do agente.",
+  "porAlt": [
+   "Fotodermatite exige relação com exposição solar, e o dorso das mãos não basta para concluí-la.",
+   "Ceratose actínica é lesão pré-maligna de pele fotoexposta em idade mais avançada, não vesículas com prurido.",
+   "Correta: dermatite de contato, irritativa ou alérgica, com o látex entre as causas ocupacionais.",
+   "A melhora nas férias reforça a origem ocupacional em vez de afastar mecanismo alérgico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Uma paciente de 45 anos, multípara, é atendida na unidade básica de saúde relatando dores e aparecimento de edema em membros inferiores, no período vespertino, há 3 anos. Ao exame físico, o médico observa dermatite ocre no terço inferior dos membros inferiores associada a uma lesão circular de 2 cm, superficial, com bordas elevadas e com tecido de granulação, localizada na região maleolar interna da perna direita. Com base nessas informações, a conduta médica adequada para o caso é indicar",
+  "alts": [
+   "a deambulação e o uso de meias de baixa compressão",
+   "o uso de meias de média compressão e a elevação das pernas",
+   "a utilização de bota de Unna e a realização de atividade física intensa",
+   "a realização de desbridamento e o repouso em Trendelemburg"
+  ],
+  "gab": 1,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Sociedade Brasileira de Angiologia e Cirurgia Vascular — diretrizes de úlcera venosa, 2022; NICE guideline on varicose veins",
+  "coment": "Edema vespertino de longa data, dermatite ocre e úlcera rasa em região maleolar interna compõem a úlcera venosa, a mais comum das úlceras de membros inferiores. O tratamento com maior impacto na cicatrização é a compressão — meia elástica de média a alta compressão ou bota de Unna —, associada à elevação dos membros, cuidado local da ferida e exercício de panturrilha. Antes de comprimir, é obrigatório afastar doença arterial periférica pelo índice tornozelo-braço, porque compressão em membro isquêmico causa necrose.",
+  "porAlt": [
+   "Baixa compressão é insuficiente para reverter a hipertensão venosa e cicatrizar a úlcera.",
+   "Correta: compressão de média intensidade associada à elevação dos membros.",
+   "A bota de Unna é adequada, mas atividade física intensa não é a recomendação associada.",
+   "Repouso em Trendelemburg não é conduta padrão e o desbridamento isolado não cicatriza sem compressão."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Mulher, 67 anos de idade, notou lesão pigmentada na face anterior da perna esquerda. Foi realizada biópsia excisional que revelou tratar-se de melanoma com Breslow de 4,5 mm e ulceração. Qual é o próximo passo na condução do caso?",
+  "alts": [
+   "Ampliação de margens de 1 cm e pesquisa de linfonodo sentinela",
+   "Ampliação de margens de 2 cm e pesquisa de linfonodo sentinela",
+   "Ultrassom de região inguinal e ressonância de abdome total",
+   "Tomografia de tórax, abdome superior e pelve com contraste"
+  ],
+  "gab": 3,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "NCCN Guidelines for Cutaneous Melanoma, 2025; INCA, diretrizes diagnósticas e terapêuticas do melanoma cutâneo, 2023",
+  "coment": "Melanoma com índice de Breslow de 4,5 mm e ulceração é, no mínimo, T4b, categoria de alto risco de doença metastática. Nesse cenário, o estadiamento por imagem de corpo — tomografia de tórax, abdome e pelve com contraste, e ressonância de crânio conforme o protocolo — precede as decisões cirúrgicas, porque a presença de metástase muda toda a estratégia. Confirmada a doença localizada, seguem-se ampliação de margens de 2 cm e pesquisa de linfonodo sentinela, além da discussão de terapia adjuvante com imunoterapia ou inibidores de BRAF e MEK.",
+  "porAlt": [
+   "Margem de 1 cm é insuficiente para lesão com Breslow acima de 2 mm.",
+   "A margem de 2 cm com linfonodo sentinela é correta, mas vem depois do estadiamento sistêmico em lesão T4b.",
+   "Ultrassonografia inguinal com ressonância de abdome não é o estadiamento recomendado.",
+   "Correta: estadiamento com tomografia de tórax, abdome e pelve com contraste, dado o alto risco."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Em março de 2025, o Ministério da Saúde publicou portaria atualizando a Lista Nacional de Doenças e Agravos de Notificação Compulsória, com a inclusão da esporotricose. Trata-se de uma doença fúngica da pele, cujo agente etiológico é o Sporothix schencckii. Ela emergiu no Brasil no final do milênio passado, com uma estrutura epidemiológica diferente: a infecção de felinos domésticos, que a transmitem para os seus tutores. Nas últimas décadas, ela se disseminou por todo o país, chegando também a outros países da América do Sul. O que motivou a necessidade de notificação compulsória da esporotricose humana?",
+  "alts": [
+   "Crescimento dos casos; alto risco de disseminação, acometimento de populações vulneráveis e possibilidade de intervenção",
+   "Acometimento de populações de áreas urbanas onde há concentração de gatos domésticos e profissionais da saúde animal",
+   "Apesar da gravidade autolimitada e do baixo potencial de disseminação, a magnitude e transcendência são elevadas",
+   "A determinação da Organização Mundial de Saúde prévia à pactuação da Comissão Intergestores Tripartite sobre a doença, a semelhança do antraz"
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Portaria GM/MS que atualiza a Lista Nacional de Notificação Compulsória, 2025; Guia de Vigilância em Saúde, esporotricose",
+  "coment": "A inclusão de um agravo na lista de notificação compulsória segue critérios clássicos de vigilância: magnitude, potencial de disseminação, transcendência, vulnerabilidade — isto é, existência de intervenção eficaz — e compromissos internacionais. A esporotricose reúne crescimento acelerado de casos com transmissão zoonótica urbana pelo gato doméstico, alto potencial de disseminação, acometimento de populações vulneráveis e possibilidade de intervenção, tanto no tratamento humano e animal quanto no manejo dos felinos. Notificar permite dimensionar o problema e organizar a resposta.",
+  "porAlt": [
+   "Correta: crescimento de casos, risco de disseminação, acometimento de populações vulneráveis e existência de intervenção eficaz.",
+   "Restringir a justificativa a áreas urbanas e a profissionais de saúde animal não descreve os critérios de notificação.",
+   "A doença não é de gravidade autolimitada desprezível e tem alto potencial de disseminação.",
+   "A inclusão decorre de decisão nacional pactuada, não de determinação prévia da Organização Mundial da Saúde."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "As equipes Multiprofissionais na Atenção Primária (eMulti) são compostas por profissionais de saúde de diferentes áreas de conhecimento que atuam de maneira complementar e integrada às demais equipes da Atenção Primária à Saúde (APS). Com relação às eMulti, assinale a alternativa correta.",
+  "alts": [
+   "A teleconsulta ou atendimento remoto de pacientes não estão incorporados no processo de trabalho das eMulti",
+   "As eMulti estão vinculadas à APS, mas também a unidades de pronto atendimento e ambulatórios de especialidades",
+   "Os médicos especialistas em cardiologia, dermatologia, endocrinologia, infectologia e psiquiatria podem compor as eMulti",
+   "O financiamento e custeio das eMulti é responsabilidade exclusiva dos municípios (Prefeituras e Secretarias Municipais de Saúde)"
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "Portaria GM/MS nº 635/2023 — equipes Multiprofissionais na Atenção Primária à Saúde (eMulti); Política Nacional de Atenção Básica",
+  "coment": "As eMulti substituíram os antigos núcleos de apoio à saúde da família e atuam de forma complementar às equipes de atenção primária, com apoio matricial, cuidado compartilhado e atendimento conjunto, incluindo teleatendimento como parte do processo de trabalho. A composição é definida localmente a partir de uma lista ampla de categorias, que inclui médicos especialistas focais — cardiologia, dermatologia, endocrinologia, infectologia, psiquiatria, entre outras. O financiamento é tripartite, com incentivo federal específico, e a vinculação é à atenção primária.",
+  "porAlt": [
+   "O teleatendimento está previsto e incorporado ao processo de trabalho das eMulti.",
+   "As eMulti vinculam-se à atenção primária, e não a unidades de pronto atendimento e ambulatórios de especialidades.",
+   "Correta: médicos especialistas focais podem compor as eMulti, conforme a necessidade do território.",
+   "O financiamento é tripartite, com incentivo federal específico, e não exclusivamente municipal."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ }
+]

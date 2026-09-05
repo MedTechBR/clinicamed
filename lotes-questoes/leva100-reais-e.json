@@ -1,0 +1,450 @@
+[
+ {
+  "q": "Um paciente com 61 anos, com queixa de dor em região proximal de coxa esquerda há 3 dias, relata limitação à deambulação devido à dor. Apresenta antecedente pessoal de hipertensão arterial sistêmica e diabetes mellitus, ambos controlados; tendo realizado cirurgia para correção de fratura exposta de porção proximal do fêmur esquerdo há 8 anos, sem saber especificar o diagnóstico e nem o que foi feito. Ao exame, apresenta-se em regular estado geral, hidratado, eupneico, acianótico, com temperatura de 38,2 °C, frequência cardíaca de 92 bpm, pressão arterial de 144 x 86 mmHg, com edema, hiperemia e dor à percussão de porção proximal de coxa esquerda.\nConsiderando-se o caso descrito, quais são, respectivamente, o exame de imagem e a hipótese diagnóstica nesse momento?",
+  "alts": [
+   "Ressonância magnética de pelve e membro inferior; osteomielite",
+   "Radiografia simples de articulação coxofemoral; artrite séptica",
+   "Ultrassonografia com punção articular; tuberculose de quadril",
+   "Cintilografia óssea da articulação coxofemoral; osteoartrose"
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "IDSA Clinical Practice Guideline for the Diagnosis and Treatment of Native Vertebral Osteomyelitis, 2015; consensos sobre infecção associada a implante ortopédico, 2021",
+  "coment": "Dor localizada, febre, edema e hiperemia sobre segmento ósseo previamente operado, com material de síntese, apontam para osteomielite associada a implante. A ressonância magnética é o exame de escolha: detecta edema medular ósseo e coleções semanas antes de qualquer alteração na radiografia simples, que costuma ser normal na fase inicial. A confirmação exige cultura de material profundo obtido por punção ou biópsia, colhida antes do antibiótico, porque o tratamento é prolongado e dirigido ao agente, com frequente necessidade de desbridamento e de decisão sobre retirada do implante.",
+  "porAlt": [
+   "Correta: ressonância magnética e hipótese de osteomielite em osso previamente operado.",
+   "A radiografia simples é pouco sensível nas primeiras semanas, e a artrite séptica cursa com dor à mobilização articular e derrame.",
+   "A tuberculose de quadril é indolente, de meses a anos, sem esse quadro inflamatório agudo.",
+   "A osteoartrose não cursa com febre nem sinais flogísticos, e a cintilografia é inespecífica."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem com 40 anos, apresentando queixa de perda constante de interesse e de prazer nas atividades das quais costumava gostar, relata: “não tenho vontade sequer de sair de casa”. Afirma que isso vem se mantendo nos últimos 2 meses, de forma constante e diária, mas que piorou no último mês. Conta que seus amigos e familiares também perceberam e vêm cobrando dele uma mudança de atitude. Além disso, diz que tem se sentido mais ansioso e inquieto e que apresentou 2 “crises” súbitas, há um mês, de duração de alguns minutos, em que sentiu medo intenso, taquicardia, sufocação, tontura, sudorese e sensação de que algo ruim iria acontecer e de que iria morrer. Não relaciona as crises a fatores desencadeantes ou a situações pelas quais esteja passando. Relata que, quando teve as crises, foi a um pronto-socorro, onde foram descartadas causas orgânicas para o quadro. Refere também que apresentou perda de peso considerável no último mês, mas não sabe de quanto, tendo percebido apenas por suas roupas. Diz ainda que está sem fome e que tem tido muito sono todos os dias e se sente sempre cansado, está sem concentração e tem dificuldade de pensar. Nega etilismo, tabagismo ou uso de drogas ilícitas, negando também doenças conhecidas.\nAo exame físico, o paciente apresenta-se sem alterações, assim como não mostram alterações os exames recentes de hemograma, TSH, T4 livre que ele traz. Ao exame psíquico, apresenta-se colaborativo, atenção preservada, com memória e orientação sem alterações; humor deprimido e ansioso; pensamento de forma, curso e conteúdo sem alterações, assim como juízo e crítica. Não se verificam alterações senso perceptivas, observando-se discreta agitação psicomotora.\nConsiderando-se a situação descrita, qual é diagnóstico para o caso desse paciente?",
+  "alts": [
+   "Transtorno de pânico com agorafobia",
+   "Transtorno bipolar em fase depressiva",
+   "Transtorno de ansiedade generalizada",
+   "Transtorno depressivo com ataques de pânico"
+  ],
+  "gab": 3,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "DSM-5-TR (APA, 2022); NICE guideline on depression in adults, 2022",
+  "coment": "Anedonia e humor deprimido persistentes por dois meses, com repercussão funcional percebida por terceiros, definem um episódio depressivo. Os dois ataques de pânico isolados, sem esquiva agorafóbica e sem preocupação persistente com novas crises, não constituem transtorno de pânico: no DSM-5-TR eles são registrados como especificador de ataques de pânico associado ao transtorno de base. A distinção importa porque o tratamento se dirige à depressão — antidepressivo e psicoterapia — com atenção aos ataques, e não a um transtorno de ansiedade primário.",
+  "porAlt": [
+   "O transtorno de pânico exige crises recorrentes com preocupação persistente ou mudança de comportamento, e a agorafobia exige esquiva de situações, ausentes aqui.",
+   "Não há relato de episódio de mania ou hipomania que caracterize transtorno bipolar.",
+   "A ansiedade generalizada é preocupação excessiva e difusa por pelo menos seis meses, o que não corresponde ao quadro.",
+   "Correta: transtorno depressivo com ataques de pânico como especificador."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem com 26 anos é levado por amigos para o pronto-socorro devido a palpitações, tonturas e mal-estar. Relata que a sintomatologia iniciou abruptamente há 2 horas. Os amigos contam que estavam com ele em uma festa e confirmam consumo de bebida alcoólica, mas negam consumo de drogas ilícitas. O paciente nega episódios prévios ou comorbidades.\nAo exame físico, apresenta-se com pulso irregular, com frequência cardíaca em torno de 123 bpm. A pressão arterial é de 118 x 68 mmHg e, à ausculta cardíaca, não apresenta sopros, mas verifica-se ritmo irregular, não se constatando outras alterações nesse exame. O eletrocardiograma mostra linha de base serrilhada, presença de onda F, intervalo RR irregular e frequência de 125 bpm.\nNesse contexto, a abordagem desse paciente deve incluir",
+  "alts": [
+   "uso de betabloqueador",
+   "desfibrilação ventricular",
+   "massagem de seio carotídeo",
+   "administração de lidocaína endovenosa"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ESC Guidelines for the management of atrial fibrillation, 2024; ACC/AHA guideline on supraventricular tachycardia, 2015",
+  "coment": "Linha de base serrilhada com ondas F e intervalo RR irregular em frequência em torno de 125 bpm, em paciente estável, indica flutter atrial com condução variável. Estando estável, a conduta é controle de frequência com betabloqueador ou bloqueador de canal de cálcio não di-hidropiridínico, avaliação de anticoagulação pelo escore de risco e pela duração da arritmia, e busca de fatores precipitantes — álcool, distúrbio tireoidiano, distúrbio eletrolítico. A cardioversão elétrica sincronizada fica reservada à instabilidade hemodinâmica.",
+  "porAlt": [
+   "Correta: controle de frequência com betabloqueador em paciente estável com flutter atrial.",
+   "Desfibrilação é para fibrilação ventricular e taquicardia ventricular sem pulso; aqui, se fosse preciso, seria cardioversão sincronizada.",
+   "A massagem do seio carotídeo pode desmascarar as ondas de flutter, mas não trata a arritmia.",
+   "Lidocaína atua em arritmia ventricular e não tem papel no flutter atrial."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um paciente com 34 anos, em tratamento quimioterápico para linfoma, é avaliado no plantão de um hospital com queixa de dispneia, desconforto torácico, ortopneia, com progressão nas últimas 6 horas. Ao exame físico, apresenta-se em regular estado geral, com frequência cardíaca de 125 bpm, frequência respiratória de 28 irpm, saturação de O2 de 93% em ar ambiente, pressão arterial de 86 x 48 mmHg. Durante a inspiração, observa-se que a pressão sistólica reduziu para 75 x 44 mmHg. A temperatura axilar do paciente é de 36,6 °C e ele apresenta grande distensão jugular, bulhas cardíacas hipofonéticas. O exame de ECG no leito indicou baixa voltagem dos complexos QRS, sem presença de alterações isquêmicas detectáveis.\nOs resultados de outros exames realizados nesse dia são:\n\nEXAMES LABORATORIAIS\nEXAME | VALOR | VALOR DE REFERÊNCIA (VR)\nhematócrito | 28% | 40% a 50%\nhemoglobina | 7,3 g/dL | 13 a 17 g/dL\nleucócitos | 5.500 mm³ | 4.000 a 10.000 mm³\nneutrófilos | 70% | 40% a 80%\nplaquetas | 62.000 | 151.000 a 304.000/mm³\nprotrombina | 2,2 | 0,8 a 1,2\nácido úrico | 6,9 mg/dL | 2,4 a 5,7 mg/dL\nglicemia jejum | 155 mg/dL | <100 mg/Dl\ncreatinina | 0,6 mg/dL | 0,6 a 1,2 mg/dL\nbilirrubina total | 0,9 mg/dL | 0,2 a 1,20 mg/dL\nlactato | 1,5 | 0,5 a 1,6 mmol/L\n\nConsiderando a hipótese diagnóstica mais provável, assinale a opção com as medidas mais adequadas a serem adotadas para esse paciente.",
+  "alts": [
+   "Solicitar ecocardiografia e pericardiocentese",
+   "Verificar enzimas cardíacas e indicar uso de trombolítico",
+   "Indicar uso de vasopressores e de antibióticos endovenosos",
+   "Realizar angiotomografia de tórax e exame de anticoagulação"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "ESC Guidelines for the diagnosis and management of pericardial diseases, 2015; AHA scientific statement on cardiac tamponade",
+  "coment": "Hipotensão, turgência jugular e bulhas hipofonéticas compõem a tríade de Beck, e o pulso paradoxal — queda da pressão sistólica maior que 10 mmHg na inspiração — somado à baixa voltagem no eletrocardiograma fecha a suspeita de tamponamento cardíaco, aqui provavelmente por derrame pericárdico neoplásico em paciente com linfoma. A conduta é ecocardiograma imediato, que confirma o derrame e o colapso de câmaras direitas, seguido de pericardiocentese, que é ao mesmo tempo diagnóstica e terapêutica. Reposição volêmica serve apenas como ponte enquanto se prepara a drenagem.",
+  "porAlt": [
+   "Correta: ecocardiografia seguida de pericardiocentese, diante do tamponamento cardíaco.",
+   "Trombolítico em tamponamento pode agravar o derrame por sangramento pericárdico.",
+   "Vasopressor e antibiótico não tratam a obstrução mecânica ao enchimento das câmaras cardíacas.",
+   "Anticoagular sem antes descartar o derrame pericárdico expõe o paciente a hemopericárdio."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem de 72 anos procura atendimento devido a dor lombar inespecífica há 1 mês. Nega hematúria e sintomas urinários. Relata ter diabetes mellitus tipo 2 e hipertensão arterial sistêmica, faz uso de metformina, hidroclorotiazida, nifedipino, propranolol e sinvastatina. Em tomografia de abdome e pelve, identifica-se lesão sólida, nodular, hipervascular no terço médio do rim esquerdo, posterior e parcialmente exofítica, medindo 3,8 cm no maior diâmetro, sem linfonodomegalias. Em complementação de estadiamento, por meio de tomografia de tórax, não foram identificadas evidências de doença à distância. Diante desse quadro, a hipótese diagnóstica mais provável é",
+  "alts": [
+   "sarcoma renal",
+   "linfoma renal",
+   "tumor metastático",
+   "carcinoma de células renais"
+  ],
+  "gab": 3,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "INCA — Diretrizes diagnósticas e terapêuticas do câncer de rim, 2021; EAU Guidelines on Renal Cell Carcinoma, 2024",
+  "coment": "Lesão renal sólida, hipervascular ao contraste, é carcinoma de células renais até prova em contrário, e essa é a apresentação mais comum hoje: achado incidental em imagem pedida por outro motivo, em paciente sem hematúria e sem a tríade clássica. Não se faz biópsia de rotina em massa renal sólida com esse padrão; a conduta é estadiamento com tomografia de tórax e tratamento cirúrgico. Para tumor menor que 4 cm, a nefrectomia parcial é preferida à radical por preservar função renal com igual controle oncológico.",
+  "porAlt": [
+   "O sarcoma renal é raro e costuma se apresentar como massa volumosa e heterogênea.",
+   "O linfoma renal geralmente é bilateral, infiltrativo e acompanha doença sistêmica.",
+   "Metástase para o rim é incomum e pressupõe tumor primário conhecido.",
+   "Correta: carcinoma de células renais — massa sólida hipervascular, achado incidental frequente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem de 78 anos é acompanhado por médico de família em visitas domiciliares, por ser acamado desde que ficou hemiplégico, em decorrência de acidente vascular cerebral (AVC) aos 75 anos. É portador de hipertensão arterial sistêmica (HAS) controlada e de doença pulmonar obstrutiva crônica (DPOC) com exacerbações progressivamente mais frequentes. Na última, há 4 meses, foi necessário realizar internação hospitalar, ventilação não invasiva e antibioticoterapia sistêmica. Há 2 dias, segundo seu prontuário e familiares, apresentou tosse persistente, febre baixa e desconforto respiratório. O médico identificou, ao exame físico, panturrilhas livres e D-dímero normal e, à ausculta pulmonar, crepitações em ambos campos pulmonares. Foi prescrito, ao paciente, tratamento por meio de antibioticoterapia via oral e de dose elevada de corticosteroide inalatório. Hoje foi encontrado morto em seu quarto por um familiar que relatou piora da febre e do cansaço na madrugada anterior. Seu médico de família foi chamado para emissão de atestado de óbito. O médico fez a avaliação clínica do corpo, verificando ausência de sinais de traumas e constatando o óbito. Considerando o caso descrito, assinale a alternativa que apresenta quem deve preencher o atestado de óbito e as causas básicas, antecedentes e contribuintes dele.",
+  "alts": [
+   "O legista; causa básica: exacerbação de DPOC; causa antecedente: AVC; causas contribuintes: pneumonia, HAS e hemiplegia",
+   "O legista; causa básica: sepse; causa antecedente: insuficiência respiratória; causas contribuintes: DPOC, HAS e sequela de AVC",
+   "O médico de família; causa básica: broncopneumonia; causa antecedente: DPOC; causas contribuintes: HAS, hemiplegia e AVC",
+   "O médico de família; causa básica: parada cardiorrespiratória; causa antecedente: pneumonia; causas contribuintes: DPOC, hemiplegia e AVC"
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Manual de Instruções para o Preenchimento da Declaração de Óbito, 2022; Resolução CFM sobre atestado de óbito",
+  "coment": "Em morte natural ocorrida em domicílio, com doença conhecida e acompanhamento assistencial, quem atesta é o médico assistente — no caso, o médico de família que acompanhava o paciente —, e não o legista, cuja atuação se reserva a morte violenta ou suspeita. No preenchimento, a causa básica é a doença que iniciou a cadeia que levou ao óbito, registrada na última linha da parte I; aqui, a broncopneumonia que motivou a deterioração, tendo a doença pulmonar obstrutiva crônica como antecedente e as demais condições como contribuintes. Parada cardiorrespiratória é modo de morrer, jamais causa básica.",
+  "porAlt": [
+   "Morte natural com doença conhecida e acompanhamento não é caso de legista.",
+   "Sepse como causa básica inverte a cadeia e o caso não é de competência do legista.",
+   "Correta: atesta o médico de família, com broncopneumonia como causa básica e a doença pulmonar obstrutiva crônica como antecedente.",
+   "Parada cardiorrespiratória é mecanismo de morte e não pode figurar como causa básica."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Uma paciente de 74 anos, com diagnóstico de hipertensão arterial sistêmica e de diabetes mellitus tipo 2 há 25 anos, é trazida de instituição de longa permanência. Ela se queixa de fraqueza acentuada em membros inferiores observada há, pelo menos, 1 ano e que vem se agravando há 2 semanas. Relata não ter força para caminhar e nega febre. Ao exame físico, apresenta-se em estado geral regular, lúcida, orientada e hidratada. Identifica-se, ainda, força grau 3 em membros inferiores; tônus reduzido em panturrilhas bilateralmente; reflexos patelar e aquileu abolidos bilateralmente; ausência de alterações da rima labial; teste do monofilamento alterado em ambos os pés; pulsos pediosos e tibiais posteriores reduzidos (2+/4+) bilateralmente. A partir dessas informações, qual é o exame complementar mais adequado para o caso?",
+  "alts": [
+   "Radiografia de coluna lombo-sacra",
+   "Ressonância magnética de encéfalo",
+   "Ressonância magnética de coluna tóraco-lombar",
+   "Pesquisa de sensibilidade com o uso do biotesiômetro"
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "AAN/ACP guidance on evaluation of distal symmetric polyneuropathy; diretrizes brasileiras de neuropatia diabética, 2023",
+  "coment": "A paciente tem neuropatia diabética estabelecida — monofilamento alterado, reflexos abolidos —, mas o dado que muda a conduta é a piora subaguda da fraqueza nas últimas duas semanas, a ponto de perder a marcha. Esse agravamento rápido não se explica por polineuropatia crônica e obriga a excluir compressão medular ou de cauda equina, o que exige ressonância magnética da coluna toracolombar. Radiografia não avalia medula, e o biotesiômetro apenas quantifica a sensibilidade vibratória já sabidamente alterada.",
+  "porAlt": [
+   "A radiografia não avalia medula, raízes nem disco de forma útil nesse contexto.",
+   "A ressonância de encéfalo investiga lesão central alta, incompatível com arreflexia e hipotonia em membros inferiores.",
+   "Correta: ressonância de coluna toracolombar, pela piora subaguda que exige excluir compressão.",
+   "O biotesiômetro apenas quantifica sensibilidade vibratória e não esclarece a piora motora."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem de 66 anos, com hipertensão arterial sistêmica e sem outros antecedentes pessoais ou familiares, comparece a um ambulatório de pneumologia de um hospital terciário referindo ser tabagista (39 anos/maço) e estar com medo de ter câncer de pulmão. Ele apresentou o resultado de uma tomografia de tórax, sem contraste, realizada há 2 semanas, que revelou um nódulo sólido, único, medindo 18 mm, em parênquima de lobo inferior de pulmão esquerdo. Diante desse quadro, o paciente foi encaminhado pelo médico para investigação. Nesse caso, a conduta médica mais adequada é solicitar que o paciente realize",
+  "alts": [
+   "controle anual por tomografia de tórax",
+   "broncoscopia com lavado brônquico",
+   "tomografia de tórax com contraste",
+   "biópsia guiada por ultrassonografia"
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Fleischner Society Guidelines for Management of Incidental Pulmonary Nodules, 2017; INCA, diretrizes diagnósticas e terapêuticas do câncer de pulmão, 2022",
+  "coment": "Nódulo sólido único de 18 mm em tabagista pesado é lesão de alto risco, e o exame inicial foi feito sem contraste. O passo esperado antes de qualquer procedimento invasivo é completar a caracterização com tomografia contrastada, avaliando realce, relação com estruturas vizinhas e linfonodos mediastinais — informação que orienta a escolha entre PET-CT, biópsia transtorácica, broncoscopia e ressecção. Acompanhamento anual é conduta de nódulo de baixo risco e seria inadequado aqui, e broncoscopia tem rendimento baixo em nódulo periférico.",
+  "porAlt": [
+   "Controle anual subestima um nódulo de 18 mm em tabagista pesado.",
+   "A broncoscopia com lavado tem baixo rendimento em nódulo periférico, sem broncograma aéreo.",
+   "Correta: completar a caracterização com tomografia contrastada antes de decidir o método invasivo.",
+   "Biópsia guiada por ultrassonografia não é a via para lesão intraparenquimatosa pulmonar."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Homem de 55 anos está, há 2 meses, com quadro de linfadenopatia cervical e axilar de aumento progressivo, associada a febre recorrente, com temperatura axilar superior a 38 °C, sudorese noturna e perda de peso de 6 kg desde o início das manifestações. Nega doenças preexistentes e uso de medicamentos, mas informa tabagismo há 35 anos, com carga tabágica de 50 anos/maço. No exame, apresentava linfadenomegalia cervical anterior e posterior bilateralmente, axilares bilaterais, com gânglios de 2,5 a 4 cm de diâmetro, consistência endurecida e fixos. Sua temperatura axilar no momento é de 38,5 °C. Radiografia de tórax mostra massa mediastinal de cerca de 8 cm de diâmetro. Já foram solicitados hemograma, proteína C reativa, tomografia computadorizada de tórax com contraste. Em relação ao caso clínico apresentado, qual é o diagnóstico provável e qual exame complementar deve ser solicitado ainda?",
+  "alts": [
+   "Citomegalovírus; sorologias",
+   "Linfoma; biopsia de gânglio cervical",
+   "Mononucleose infecciosa; sorologias",
+   "Metástase de carcinoma cervical, provavelmente tireoide; biópsia de gânglio cervical"
+  ],
+  "gab": 1,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "INCA — Diretrizes diagnósticas e terapêuticas do linfoma de Hodgkin e não Hodgkin, 2022; NCCN Guidelines for B-Cell Lymphomas",
+  "coment": "Linfadenomegalia progressiva, endurecida e fixa, em múltiplas cadeias, com sintomas B — febre acima de 38 °C, sudorese noturna e perda de mais de 10% do peso — e massa mediastinal, é linfoma até prova em contrário. O procedimento que fecha o diagnóstico é a biópsia excisional de linfonodo, que preserva a arquitetura ganglionar necessária à classificação histológica e à imuno-histoquímica. Punção aspirativa por agulha fina não é adequada para diagnóstico inicial de linfoma justamente por não permitir avaliar arquitetura.",
+  "porAlt": [
+   "Citomegalovírus causa linfonodomegalia com linfócitos atípicos, sem massa mediastinal volumosa e gânglios fixos.",
+   "Correta: linfoma, com biópsia de linfonodo cervical para diagnóstico histológico.",
+   "A mononucleose acomete predominantemente jovens e é autolimitada.",
+   "Metástase de carcinoma de tireoide não explica sintomas B nem esse padrão de acometimento."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Adolescente de 13 anos, sexo masculino, em seguimento na unidade básica de saúde desde os 3 anos, com diagnóstico de diabetes mellitus desde os 6 anos de idade, foi encaminhado para o endocrinologista, pois teve duas internações nos últimos três meses por cetoacidose diabética. Durante a consulta, o paciente referiu que não faria uso das medicações, pois os remédios o \"deixam gordo\" e ele estava \"cansado de tomar picada\", desprezando a dose após a manipulação dela. Preocupado, o médico informou ao adolescente que seria obrigado a comunicar o fato à mãe, enfrentando, com isso, grande descontentamento do paciente. No que diz respeito ao Código de Ética Médica, o médico",
+  "alts": [
+   "cometeu uma infração, por não respeitar o sigilo médico",
+   "não cometeu uma infração, por ser uma situação de risco",
+   "não cometeu uma infração, por a mãe já saber das internações",
+   "cometeu uma infração, por não respeitar a autonomia do paciente"
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Conselho Federal de Medicina — Código de Ética Médica, Resolução CFM 2.217/2018, artigos 74 e 75; Estatuto da Criança e do Adolescente",
+  "coment": "O adolescente tem direito ao sigilo na consulta e à confidencialidade, mas esse direito cede quando há risco à própria vida ou à de terceiros, ou quando a ausência de comunicação impede o cuidado necessário. Duas internações por cetoacidose em três meses por recusa de insulina configuram risco concreto, e o Código de Ética autoriza — e o dever de cuidado exige — comunicar aos responsáveis. A boa prática é informar previamente o adolescente sobre a quebra, explicando o motivo, e mantê-lo como protagonista do plano de cuidado, com apoio de saúde mental.",
+  "porAlt": [
+   "Não houve infração: o sigilo do adolescente não é absoluto e cede diante de risco à vida.",
+   "Correta: não houve infração ética, pois a situação envolve risco concreto à vida do paciente.",
+   "A justificativa não é o conhecimento prévio da mãe sobre as internações, e sim o risco à vida.",
+   "A autonomia do adolescente é reconhecida, mas não se estende a decisão que coloca a própria vida em risco iminente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Mulher de 32 anos, professora de educação básica, procurou assistência médica, com queixas de dores generalizadas pelo corpo e dificuldade para dormir. Não faz uso de nenhum medicamento para doenças crônicas. Encontra-se de licença médica há 6 meses e ainda não obteve grande melhora. Refere que acorda exausta. Nega febre. Diz já ter sido muito ativa, trabalhado em 4 escolas ao mesmo tempo, entretanto tem medo de retornar ao trabalho e voltar a ter dores mais fortes. O exame físico mostrou-se normal, à exceção da dor à pressão em diversos grupamentos musculares em todo o corpo, sem sinal de bloqueio articular ou de inflamação articular. Foram realizados alguns exames laboratoriais, que resultaram normais, incluídos TSH, VHS e proteína C reativa ultrassensível. Provavelmente, trata-se de",
+  "alts": [
+   "polimiosite",
+   "fibromialgia",
+   "fadiga crônica",
+   "polimialgia reumática"
+  ],
+  "gab": 1,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "EULAR revised recommendations for the management of fibromyalgia, 2017; Sociedade Brasileira de Reumatologia, diretrizes de fibromialgia, 2021",
+  "coment": "Dor difusa por mais de três meses, sono não reparador, fadiga ao acordar e exame físico com dor à palpação de múltiplos grupamentos musculares, sem sinovite e com provas de fase aguda e TSH normais, caracterizam fibromialgia. É diagnóstico clínico positivo, não de exclusão infinita, e o mecanismo é de sensibilização central. O tratamento de primeira linha é não farmacológico: exercício aeróbico progressivo, educação em dor e terapia cognitivo-comportamental, com fármaco adjuvante conforme o sintoma dominante — amitriptilina, duloxetina ou pregabalina. Opioide e corticoide não têm lugar.",
+  "porAlt": [
+   "A polimiosite cursa com fraqueza proximal objetiva e elevação de enzimas musculares.",
+   "Correta: fibromialgia — dor difusa crônica, sono não reparador e exames normais.",
+   "A síndrome de fadiga crônica tem a fadiga como sintoma central, com critérios próprios.",
+   "A polimialgia reumática ocorre acima de 50 anos, com rigidez de cinturas e velocidade de hemossedimentação elevada."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Uma paciente com 24 anos procura atendimento médico com relato de sudorese excessiva, palpitações, irritação ocular, nervosismo, fadiga e perda de peso apesar do aumento do apetite, com achado de edema ocular e aumento difuso da tireoide ao exame físico. O médico levanta a suspeita de Doença de Graves.\nDurante a propedêutica laboratorial, são resultados compatíveis com a hipótese diagnóstica apresentada",
+  "alts": [
+   "níveis séricos reduzidos de anticorpos contra o receptor de TSH (TRAb) e de anticorpos antitireoperoxidase (anti-TPO)",
+   "aumento do tamanho e da ecogenicidade do parênquima da tireoide e presença de nódulos císticos difusos à ultrassonografia",
+   "elevação dos níveis séricos do hormônio tireoestimulante (TSH) e supressão dos níveis da fração livre de tiroxina (T4 livre) e da tri-iodotironina (T3)",
+   "teste de iodo radioativo mostrando elevada captação pela tireoide e cintilografia mostrando distribuição difusa de radiomarcador no parênquima da glândula"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ATA Guidelines for Diagnosis and Management of Hyperthyroidism, 2016; Sociedade Brasileira de Endocrinologia e Metabologia, consenso de doença de Graves, 2013",
+  "coment": "Na doença de Graves, o hipertireoidismo é primário e autoimune: TSH suprimido com T4 livre e T3 elevados, anticorpo antirreceptor de TSH positivo, captação de iodo radioativo elevada e distribuição difusa do radiotraçador à cintilografia, correspondendo ao bócio difuso hipercaptante. Esse padrão separa Graves das tireotoxicoses por destruição glandular — tireoidite subaguda e tireotoxicose factícia —, em que a captação é baixa, distinção decisiva porque essas não respondem a droga antitireoidiana. A oftalmopatia reforça o diagnóstico clínico.",
+  "porAlt": [
+   "Na doença de Graves o anticorpo antirreceptor de TSH está elevado, não reduzido.",
+   "A ultrassonografia mostra glândula difusamente aumentada e hipoecogênica com fluxo aumentado, não nódulos císticos difusos.",
+   "O padrão descrito está invertido: no hipertireoidismo primário o TSH está suprimido e os hormônios livres elevados.",
+   "Correta: captação elevada de iodo radioativo com distribuição difusa à cintilografia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um paciente com 30 anos, portador de diabetes mellitus tipo1 há 15 anos, retorna para uma consulta com queixa de ulceração em região plantar esquerda, em extremidade distal, posterior, do 4º metatarso esquerdo, com início há cerca de 20 dias. Ao exame físico, verificam-se: pulso de 80 bpm, pressão arterial de 120 x 70 mmHg, temperatura de 36,5 °C; todos os pulsos presentes, cheios e simétricos. Observa-se, ainda, a presença de lesão ulcerada de 3 cm com discreta secreção serosa, sem hiperemia ou calor, com hiperqueratose local e com tecido de granulação central em região plantar esquerda.\nNesse caso, além do controle glicêmico, qual é o tratamento adequado?",
+  "alts": [
+   "Simpatectomia lombar",
+   "Enxerto de pele autólogo",
+   "Terapia compressiva inelástica",
+   "Curativo e adaptação de calçado"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "International Working Group on the Diabetic Foot — IWGDF Guidelines, 2023; Ministério da Saúde, Manual do pé diabético",
+  "coment": "A úlcera descrita é neuropática, plantar, sob área de pressão, com hiperqueratose ao redor, tecido de granulação e sem sinais de infecção ou de isquemia — os pulsos estão presentes e simétricos. O tratamento central é o alívio da pressão sobre a lesão, por adaptação de calçado, palmilha ou dispositivo de descarga, associado a desbridamento da hiperqueratose, curativo adequado e controle glicêmico. Sem retirar a carga do ponto ulcerado, nenhum curativo cicatriza, e é esse o erro mais comum no manejo ambulatorial.",
+  "porAlt": [
+   "Simpatectomia lombar não tem indicação: não há isquemia, e os pulsos estão presentes.",
+   "Enxerto de pele não se aplica a uma úlcera que ainda não teve a pressão aliviada.",
+   "Terapia compressiva é tratamento de úlcera venosa, não de úlcera neuropática plantar.",
+   "Correta: curativo adequado com alívio da pressão por adaptação de calçado, além do controle glicêmico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Uma paciente de 49 anos foi internada na enfermaria de clínica médica por quadro de síndrome consumptiva, ascite e fraqueza em membros inferiores. A paciente conta que tudo começou 1 ano antes com dormência nas pernas ascendendo até o meio da perna e posterior redução de força em membros inferiores. Naquela época, houve turvação visual e cefaleia. Com aproximadamente 4 meses de sintomas, sem limitação para trabalhar e realizar as tarefas da vida diária, a cefaleia e a turvação visual ficaram mais proeminentes. Segundo a paciente, foram realizados diversos exames (ressonância de crânio, coluna cervical e lombar), sem evidência de alterações. A pressão do liquor estava alta, motivando o uso de acetazolamida por 8 meses (até a internação). No dia da internação, pôde-se observar hepatoesplenomegalia, ascite de grande volume, déficit sensitivo-motor distal em membros inferiores com hiporreflexia, fenômeno de Raynaud, cistos em tireoide (ultrassom confirmando e uso prévio de levotiroxina) e lesões cutâneas hipercrômicas. Outros exames demonstraram lesões osteoescleróticas em esterno, derrame pleural e pericárdico e padrão de polirradiculoneuropatia desmielinizante crônica. A conduta adequada para o quadro é:",
+  "alts": [
+   "dosagem de fator reumatoide, fator antinuclear, anti-Scl-70, anticentrômero e pulsoterapia por provável doença do tecido conjuntivo indiferenciada ou sobreposição de lúpus com esclerodermia em evolução grave",
+   "dosagem de eletroforese de proteínas séricas e urinárias com imunofixação em busca de pico monoclonal",
+   "biópsia de gordura abdominal em busca de proteína amiloide",
+   "biópsia de peritônio se o gradiente soro-ascite for menor que 1,1",
+   "punção aspirativa de cisto tireoidiano"
+  ],
+  "gab": 1,
+  "tema": "hemato",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "International Myeloma Working Group — critérios diagnósticos e da síndrome POEMS, 2014; consensos brasileiros de gamopatias monoclonais, 2022",
+  "coment": "Polineuropatia progressiva associada a organomegalia, ascite, hipertensão intracraniana com papiledema e síndrome consumptiva sugere gamopatia monoclonal com manifestação sistêmica, como a síndrome POEMS ou a amiloidose de cadeia leve. O passo diagnóstico é a eletroforese de proteínas séricas e urinárias com imunofixação, à procura de componente monoclonal, complementada pela dosagem de cadeias leves livres. Só depois se investiga o órgão-alvo por biópsia. Fechar o caso como doença do tecido conjuntivo e pulsar corticoide sem essa etapa retarda o diagnóstico.",
+  "porAlt": [
+   "Painel de autoanticorpos com pulsoterapia empírica não explica o conjunto e adia o diagnóstico correto.",
+   "Correta: eletroforese de proteínas séricas e urinárias com imunofixação, buscando componente monoclonal.",
+   "A biópsia de gordura investiga amiloidose, mas vem depois da triagem sorológica e urinária.",
+   "A biópsia de peritônio investiga causa peritoneal da ascite, que não explica a neuropatia e o papiledema.",
+   "Punção de cisto tireoidiano não tem relação com o quadro."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Uma mulher de 20 anos se queixa de edema generalizado iniciado há 3 semanas, que evoluiu com piora progressiva. Relata hiporexia e astenia nesse período. Desconhece ser portadora de doenças atuais ou prévias e não faz uso de medicamentos ou drogas. Ao exame físico, PA: 160 x 90 mmHg, FC: 97 bpm, FR: 22 ipm, SpO2 98% (em ar ambiente). As mucosas estão hipocoradas, ictéricas e hidratadas. Há edema em face, pálpebras, parede abdominal e membros inferiores. Há também ascite e síndrome de derrame pleural. Exames de laboratório: sangue: Hb: 7,0 g/dL; Hct: 24%; VCM: 98 fL; HCM: 31 pg; CHCM: 32 g/dL; RDW: 18,3%; leucócitos: 3.400/mm³; neutrófilos segmentados: 1.500/mm³; linfócitos: 700/mm³; Plq.: 201.000/mm³; PCR: 28 mg/dL; FAN reagente: 1:320 padrão nuclear homogêneo; anti-DNA reagente; anti-SSA reagente; anti-SSB reagente; anti-Sm reagente; ANCA não reagente; C3: 43 mg/dL (VR 90-170 mg/dL); C4: 10 mg/dL (VR: 12-36 mg/dL); exame de urina: densidade 1.020; pH 6,0; nitrito negativo; proteínas ++++; hemoglobina ++; 4 piócitos/campo, 145 hemácias/campo, presença de cilindros hemáticos. Para investigação da anemia apresentada pela paciente, são solicitados os seguintes exames: LDH: 1150 UI/L (VR: 120-246 UI/L); BT: 4,2 mg/dL; BD: 0,4 mg/dL; reticulócitos: 18%, Coombs direto positivo; ferro sérico: 52 mcg/dL (VR: 65-175 mcg/dL); ferritina 650 ng/mL (VR: 10-291 ng/mL); capacidade total de ligação do ferro: 200 mcg/dL (250-425 mcg/dL). A conduta imediata mais adequada para o tratamento da anemia é:",
+  "alts": [
+   "administração de eritropoetina",
+   "administração de corticoide",
+   "reposição de ferro parenteral",
+   "hemotransfusão",
+   "prescrição de hidroxicloroquina oral"
+  ],
+  "gab": 1,
+  "tema": "reumato",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "EULAR recommendations for the management of systemic lupus erythematosus, 2023; KDIGO Clinical Practice Guideline for the Management of Lupus Nephritis, 2024",
+  "coment": "Mulher jovem com anasarca, hipertensão, anemia, leucopenia com linfopenia, FAN em título elevado, anti-DNA e anti-Sm reagentes tem lúpus eritematoso sistêmico com provável nefrite lúpica, e o quadro de síndrome nefrótica com atividade sorológica exige imunossupressão. O tratamento começa com corticoide, associado a imunossupressor — micofenolato ou ciclofosfamida, com belimumabe ou voclosporina em esquemas atuais —, com biópsia renal indicada para definir a classe histológica. Hidroxicloroquina é medida de base para todo paciente com lúpus, mas isolada não trata a nefrite ativa.",
+  "porAlt": [
+   "Eritropoetina não trata a anemia da doença inflamatória ativa nem a nefrite.",
+   "Correta: corticoide, associado a imunossupressor, diante de lúpus com acometimento renal ativo.",
+   "Ferro parenteral não corrige a causa da anemia neste contexto.",
+   "A hemotransfusão não está indicada como conduta central e não trata a doença.",
+   "A hidroxicloroquina é terapia de base do lúpus, porém insuficiente isoladamente na nefrite ativa."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "O escore BISAP tem sido amplamente utilizado na avaliação prognóstica da pancreatite aguda. Dentre os critérios abaixo, o único que NÃO faz parte desse escore é:",
+  "alts": [
+   "presença de derrame pleural",
+   "glicemia maior que 200 mg/dL",
+   "ureia nitrogenada sérica maior que 25 mg/dL",
+   "idade maior que 60 anos",
+   "alteração do estado mental"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; escore BISAP (Wu et al., 2008)",
+  "coment": "O escore BISAP prevê mortalidade na pancreatite aguda nas primeiras 24 horas e reúne cinco itens, um ponto cada: ureia nitrogenada sérica acima de 25 mg/dL, alteração do estado mental, presença de síndrome da resposta inflamatória sistêmica, idade acima de 60 anos e derrame pleural à imagem. Glicemia não faz parte dele — aparece nos critérios de Ranson, com os quais o BISAP é frequentemente confundido. A vantagem do BISAP é usar dados disponíveis à admissão, sem esperar as 48 horas exigidas pelo escore de Ranson.",
+  "porAlt": [
+   "Derrame pleural integra o escore.",
+   "Correta: glicemia acima de 200 mg/dL não faz parte do BISAP — é critério de Ranson.",
+   "Ureia nitrogenada acima de 25 mg/dL integra o escore.",
+   "Idade acima de 60 anos integra o escore.",
+   "Alteração do estado mental integra o escore."
+  ],
+  "fonte": {
+   "banca": "ENARE (EBSERH/FGV)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Paciente de 64 anos, sexo masculino, diabético tipo 2 há 22 anos, com adesão insatisfatória ao plano de cuidados, foi internado em hospital de cuidados terciários, com quadro clínico compatível com uremia (sonolência, anorexia, náuseas, vômitos e soluços). Exames laboratoriais confirmaram importante retenção azotada, acidose metabólica, hipercalemia moderada, hipocalcemia e hiperfosfatemia. Em função do estado urêmico, sua doença renal crônica foi abordada com a realização de hemodiálise (HD) convencional, tendo sido providenciada a punção de veia jugular interna direita, por onde foi posicionado um cateter venoso central de duplo lúmen. Logo nos primeiros minutos após iniciada a HD, o paciente passou a apresentar quadro de hipotensão arterial, flush facial e sibilância. A explicação mais adequada para o quadro apresentado no início da sessão de HD é",
+  "alts": [
+   "embolia pulmonar gasosa precipitada pela punção venosa profunda",
+   "síndrome de desequilíbrio dialítico provocado por desvios osmóticos graves",
+   "rápida mobilização de fluidos por ultrafiltração na ausência de resposta autonômica adequada",
+   "reação anafilática/anafilactoide ao óxido de etileno utilizado para esterilização do sistema de HD"
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "KDIGO e KDOQI — recomendações sobre complicações agudas da hemodiálise; Sociedade Brasileira de Nefrologia, diretrizes de hemodiálise, 2021",
+  "coment": "Hipotensão com flush facial e sibilância nos primeiros minutos de uma sessão de hemodiálise caracteriza a reação de hipersensibilidade do tipo A ao dialisador, classicamente atribuída ao óxido de etileno usado na esterilização ou a componentes da membrana, e agravada pelo uso concomitante de inibidor da enzima conversora com membranas de alto fluxo. A conduta é interromper a sessão imediatamente, não devolver o sangue do circuito e tratar como anafilaxia, com adrenalina se houver comprometimento respiratório ou circulatório. Nas sessões seguintes, troca-se o tipo de dialisador.",
+  "porAlt": [
+   "A embolia gasosa cursa com dor torácica súbita, dispneia e alteração neurológica, sem flush e sibilância.",
+   "A síndrome de desequilíbrio surge ao final ou após a sessão, com cefaleia, náusea e confusão.",
+   "A hipotensão por ultrafiltração excessiva ocorre ao longo da sessão, sem flush facial nem broncoespasmo.",
+   "Correta: reação anafilactoide ao dialisador, com início nos primeiros minutos, flush e sibilância."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ }
+]
