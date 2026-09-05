@@ -3978,6 +3978,1020 @@ window.BANCO=[
 ]
 },
 {
+"q": "Homem, 58 anos de idade, morador de área rural, com astenia, dor e desconforto em hipocôndrio esquerdo há 6 meses. Exame clínico: fígado palpável a 3 cm do rebordo costal direito e baço a 12 cm do rebordo costal esquerdo. Sem adenomegalias.\n\nExames laboratoriais:\nHb: 12 g/dL\nLeucócitos: 25.000/mm³\nMieloblastos: 3%\nPromielócitos: 3%\nMielócitos: 2%\nMetamielócitos: 3%\nBastões: 3%\nNeutrófilos: 60%\nBasófilos: 5%\nEosinófilos: 5%\nMonócitos: 5%\nPlaquetas: 460 mil/mm³\nÍndices e morfologia normais\n\nA hipótese diagnóstica mais provável é",
+"alts": [
+"Leucemia mielomonocítica crônica",
+"Leucemia mieloide crônica",
+"Leishmaniose visceral",
+"Mielofibrose primária"
+],
+"gab": 1,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ELN recommendations for the management of chronic myeloid leukemia, 2020; WHO Classification of Haematolymphoid Tumours, 5ª edição, 2022",
+"coment": "Leucocitose acentuada com desvio escalonado à esquerda — mieloblastos, promielócitos, mielócitos e metamielócitos presentes em pequena proporção —, associada a basofilia, eosinofilia, trombocitose e esplenomegalia volumosa, é o quadro característico da leucemia mieloide crônica. A basofilia é a pista mais específica. A confirmação é a detecção do cromossomo Philadelphia ou do rearranjo BCR-ABL1 por citogenética, FISH ou PCR, e o tratamento com inibidores de tirosinoquinase transformou a doença em condição de sobrevida próxima à da população geral.",
+"porAlt": [
+"A leucemia mielomonocítica crônica cursa com monocitose persistente acima de mil por milímetro cúbico.",
+"Correta: leucemia mieloide crônica — desvio escalonado com basofilia, trombocitose e esplenomegalia.",
+"A leishmaniose visceral cursa com pancitopenia, e não com leucocitose e trombocitose.",
+"A mielofibrose primária cursa com quadro leucoeritroblástico, hemácias em lágrima e citopenias."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 67 anos de idade, previamente hígido, apresenta prurido difuso há 4 meses. O sintoma é mais intenso à noite, e não respondeu a anti-histamínicos convencionais. Ao exame dermatológico, não há lesões primárias na pele, apenas escoriações pelo ato de coçar. O restante do exame clínico está normal. Exames laboratoriais: hemograma com leucocitose e eosinofilia discreta; funções hepática, renal e tireoidiana normais. Sorologias para HIV e hepatites negativas. Em relação ao caso descrito, assinale a alternativa que apresenta o diagnóstico mais provável",
+"alts": [
+"Linfoma",
+"Escabiose nodular",
+"Dermatite atópica",
+"Prurido psicogênico"
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "European guideline on chronic pruritus, 2019; NCCN Guidelines for Hodgkin Lymphoma, 2025",
+"coment": "Prurido crônico sem lesão cutânea primária é chamado prurido de origem indeterminada e obriga a investigar causa sistêmica: doença renal, hepática, tireoidiana, HIV, deficiência de ferro, fármacos e neoplasia. Afastadas as causas metabólicas e infecciosas, e diante de leucocitose com eosinofilia em idoso, a hipótese que se impõe é linfoma — o prurido pode preceder o diagnóstico em meses, especialmente no linfoma de Hodgkin. A investigação segue com exame minucioso de linfonodos, imagem de tórax, abdome e pelve, e biópsia excisional se houver linfonodo acessível.",
+"porAlt": [
+"Correta: linfoma, principal neoplasia associada a prurido sem lesão cutânea primária.",
+"A escabiose produz lesões primárias, túneis e acometimento de contatos domiciliares.",
+"A dermatite atópica cursa com eczema em áreas flexurais e história de atopia desde a infância.",
+"Prurido psicogênico é diagnóstico de exclusão e não explica a eosinofilia."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 37 anos de idade, HIV confirmado, sem uso de antirretrovirais e CD4 40 células/µL. Queixa de cefaleia há três semanas, diplopia há cinco dias e dois episódios de vômitos. Tinta da China no líquor com leveduras encapsuladas. Não há flucitosina, nem formulações lipídicas de anfotericina B no hospital. Em relação ao caso apresentado, o tratamento mais adequado é",
+"alts": [
+"Fluconazol 1.200 mg/dia em monoterapia, por 4 semanas",
+"Anfotericina B desoxicolato 0,7 mg/kg/dia + fluconazol 1.200 mg/dia, por 2 semanas",
+"Anfotericina B desoxicolato 1 mg/kg/dia + fluconazol 800 mg/dia, por 2 semanas",
+"Anfotericina B desoxicolato 5 mg/kg/dia + fluconazol 800 mg/dia, por 2 semanas"
+],
+"gab": 2,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, Guidelines for diagnosing and managing cryptococcal disease, 2022",
+"coment": "Leveduras encapsuladas na tinta da China em pessoa com HIV e CD4 muito baixo confirmam meningite criptocócica. A indução de escolha, quando não há flucitosina nem formulação lipídica de anfotericina, é anfotericina B desoxicolato 1 mg/kg/dia associada a fluconazol 800 mg/dia por duas semanas, seguida de consolidação e manutenção com fluconazol. Igualmente decisivo é o controle da hipertensão intracraniana com punções lombares de alívio repetidas — a principal causa de morte precoce —, e o início da terapia antirretroviral deve ser adiado por quatro a seis semanas.",
+"porAlt": [
+"Fluconazol em monoterapia tem eficácia inferior na indução e maior mortalidade.",
+"A dose de anfotericina desoxicolato na indução é 1 mg/kg/dia quando associada ao fluconazol nesse esquema.",
+"Correta: anfotericina B desoxicolato 1 mg/kg/dia com fluconazol 800 mg/dia por duas semanas.",
+"A dose de 5 mg/kg/dia corresponde à formulação lipídica, indisponível no cenário descrito."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 32 anos de idade, com artrite reumatoide em uso de metotrexato 25 mg/semana, em programação ambulatorial para troca por adalimumabe. Os imunizantes mais adequados para esta paciente, incluindo tanto os da rede pública como privada, são",
+"alts": [
+"Febre amarela e herpes zoster",
+"Meningocócica ACWY e dengue",
+"Febre amarela e dengue",
+"Meningocóccica ACWY e herpes zoster"
+],
+"gab": 3,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "ACR Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases, 2022; Sociedade Brasileira de Imunizações, calendário do paciente imunossuprimido, 2025",
+"coment": "Antes de iniciar um inibidor de TNF, atualiza-se o calendário vacinal, priorizando as vacinas não vivas — que podem ser aplicadas mesmo sob imunossupressão — e evitando as vacinas de vírus vivo atenuado, contraindicadas durante o bloqueio de TNF. Meningocócica ACWY é inativada e recomendada; a vacina recombinante contra herpes-zóster também é não viva e está indicada, ao contrário da versão atenuada. Febre amarela é vacina de vírus vivo, e a dengue disponível no Brasil também é atenuada, ambas contraindicadas nesse cenário.",
+"porAlt": [
+"Febre amarela é vacina de vírus vivo atenuado, contraindicada sob imunossupressão.",
+"A vacina de dengue disponível é atenuada, também contraindicada.",
+"Ambas as vacinas citadas são de vírus vivo atenuado.",
+"Correta: meningocócica ACWY e herpes-zóster recombinante, ambas não vivas."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Um ensaio clínico randomizado de não inferioridade comparou o uso parcial de antibioticoterapia oral à terapia feita toda com antibioticoterapia intravenosa em pacientes com osteomielite crônica. A margem de não inferioridade foi definida em 0,80 para o risco relativo de resposta clínica completa. A análise por intenção de tratar (ITT) mostrou risco relativo de 0,95 (IC95%: 0,82–1,07). A análise por protocolo mostrou risco relativo = 0,88 (IC95%: 0,76–1,02). A interpretação mais adequada para o resultado é",
+"alts": [
+"O resultado por ITT demonstra não inferioridade, independentemente da análise por protocolo",
+"A análise por protocolo deve ser evitada em ensaios de não inferioridade, pois sempre superestima o efeito da intervenção",
+"O estudo confirma a superioridade da estratégia com antibiótico oral sobre o intravenoso",
+"Como o IC da análise por protocolo cruza a margem de 0,80, não é possível confirmar não inferioridade"
+],
+"gab": 3,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "CONSORT extension for non-inferiority trials, 2012; ensaio OVIVA (antibiótico oral versus intravenoso em infecção osteoarticular), 2019",
+"coment": "Em ensaios de não inferioridade, a conclusão exige que todo o intervalo de confiança fique acima da margem pré-especificada, e a análise por protocolo é tão ou mais importante que a por intenção de tratar — nela, a intenção de tratar tende a diluir diferenças e favorecer artificialmente a conclusão de não inferioridade. Aqui, o intervalo da análise por protocolo, de 0,76 a 1,02, cruza a margem de 0,80, de modo que a não inferioridade não fica demonstrada de forma consistente nas duas análises, que é o padrão exigido.",
+"porAlt": [
+"A análise por intenção de tratar isolada não basta em ensaio de não inferioridade.",
+"A análise por protocolo não deve ser evitada: em não inferioridade ela é essencial e costuma ser mais conservadora.",
+"Não inferioridade não é superioridade; o desenho não permite essa conclusão.",
+"Correta: o intervalo da análise por protocolo cruza a margem, e a não inferioridade não fica confirmada."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 63 anos de idade, com cirrose hepática, internado por infecção de trato urinário e aumento da ascite. Está recebendo ceftriaxone, recebeu dois dias de hidratação com cristaloides e diuréticos foram suspensos. Ao exame clínico, apresenta estado geral regular, PA de 100×50 mmHg, FC de 78 bpm, FR de 20 irpm, temperatura de 36,9 °C, SpO2 de 97% em ar ambiente, bem perfundido, sem evidências de encefalopatia, ascite volumosa e depressível, com edema de membros inferiores +/4+. Ao longo dos três primeiros dias de internação, apresentou piora da creatinina de 1,1 mg/dL para 2,5 mg/dL. Sódio urinário <10 mEq/L. Em relação ao caso descrito, assinale a alternativa que apresenta a conduta mais adequada",
+"alts": [
+"Iniciar terlipressina e albumina",
+"Iniciar corticoide intravenoso",
+"Trocar antibioticoterapia",
+"Realizar paracentese de alívio"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r3",
+"base": "AASLD Practice Guidance on acute kidney injury and hepatorenal syndrome in cirrhosis, 2021; International Club of Ascites, critérios de LRA-SHR",
+"coment": "Lesão renal aguda progressiva em cirrótico com ascite, sódio urinário muito baixo, sem resposta à expansão volêmica e após suspensão de diuréticos, com infecção em tratamento e sem choque, caracteriza síndrome hepatorrenal — antes chamada tipo 1, hoje lesão renal aguda com fenótipo hepatorrenal. O tratamento é vasoconstritor esplâncnico, terlipressina, associado à albumina, com monitorização de isquemia e sobrecarga volêmica. Norepinefrina em terapia intensiva é alternativa, e o transplante hepático é o tratamento definitivo.",
+"porAlt": [
+"Correta: terlipressina associada a albumina, tratamento da síndrome hepatorrenal.",
+"Corticoide não tem papel nesse quadro.",
+"A antibioticoterapia está adequada e a troca não corrige o mecanismo hemodinâmico da lesão renal.",
+"Paracentese de alívio pode ser necessária por conforto, mas não trata a síndrome hepatorrenal e sem albumina piora a hemodinâmica."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 23 anos de idade, com anemia desde a infância, tratada diversas vezes com ferro oral. Nega consanguinidade familiar; mãe submetida à colecistectomia aos 32 anos de idade, avó materna esplenectomizada durante uma colecistectomia aos 52 anos de idade. Há seis meses, foi internada por pneumonia, necessitando de transfusão de sangue. Exame clínico: descorada 1+/4+, baço palpável a 6 cm do rebordo costal esquerdo.\n\nExames laboratoriais:\nHb: 10,8 g/dL\nVCM: 83,5 fL (aguardando avaliação de sangue periférico)\nLeucócitos: 7.300/mm³ (diferencial normal)\nPlaquetas: 170.000/mm³\nReticulócitos: 6,4% (192.000/mm³)\nBilirrubina total: 2,1 mg/dL\nBilirrubina indireta: 1,8 mg/dL\nDHL: 420 U/L (ref.: 240 UI/L)\nHaptoglobina sérica: 32 mg/dL (ref.: 30 a 100 mg/dL)\nCoombs direto: negativo\n\nA alteração laboratorial com maior probabilidade de ser encontrada é",
+"alts": [
+"Prova de falcização positiva",
+"CD55 negativo em 70% das hemácias",
+"Nível baixo de G6PD em eritrócitos",
+"Curva de resistência globular desviada para direita"
+],
+"gab": 3,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "British Society for Haematology guidelines for the diagnosis and management of hereditary spherocytosis, 2011; consensos brasileiros de anemias hemolíticas hereditárias",
+"coment": "Anemia desde a infância, refratária a ferro, com reticulocitose, hiperbilirrubinemia indireta, esplenomegalia e história familiar de colelitíase precoce e esplenectomia, é esferocitose hereditária. O teste clássico é a curva de fragilidade osmótica aumentada, refletindo hemácias esféricas que se rompem em soluções menos hipotônicas; hoje se usam também a criohemólise e a citometria com eosina-5-maleimida. O manejo inclui ácido fólico, vigilância de colelitíase e esplenectomia em casos selecionados, sempre precedida de vacinação para germes encapsulados.",
+"porAlt": [
+"A prova de falcização investiga hemoglobina S, com quadro clínico distinto.",
+"CD55 negativo indica hemoglobinúria paroxística noturna, que não é hereditária e cursa com trombose e hemólise intravascular.",
+"A deficiência de G6PD cursa com crises hemolíticas desencadeadas por fármacos e infecções, sem esplenomegalia crônica desse porte.",
+"Correta: alteração da curva de fragilidade osmótica, compatível com esferocitose hereditária."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 70 anos de idade, ex-tabagista com carga de 50 anos-maço e abstêmio há 5 anos. Há 8 anos, com quadro de dispneia progressiva e tosse crônica. No último ano, apresentou duas idas ao pronto-socorro com necessidade de corticoide associada à antibioticoterapia oral. Espirometria com VEF1 38%, sem mudança após broncodilatador.\n\nExames laboratoriais:\nHemoglobina: 16,5 g/dL\nLeucócitos: 8.100/mm³\nEosinófilos: 380/mm³\nUr: 38 mg/dL\nCr: 1,2 mg/dL\n\nAlém de β2 de longa duração, a terapia mais adequada para este paciente deve incluir",
+"alts": [
+"Metilxantina e corticoide inalatório",
+"Metilxantina e corticoide oral",
+"Anticolinérgico de longa duração e corticoide oral",
+"Anticolinérgico"
+],
+"gab": 3,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "GOLD — Global Strategy for the Diagnosis, Management and Prevention of COPD, 2026",
+"coment": "Doença pulmonar obstrutiva crônica com VEF1 muito reduzido e duas exacerbações no último ano define grupo E na classificação GOLD. A terapia recomendada é broncodilatador duplo de longa duração — beta-2 agonista associado a antimuscarínico —, e o corticoide inalatório só se acrescenta quando os eosinófilos estão acima de 300 células por microlitro ou há asma associada, o que não é o caso, com 380 células apenas se aproximando do limiar em contagem isolada. Corticoide oral crônico não tem indicação, e metilxantina foi relegada a última linha por toxicidade.",
+"porAlt": [
+"Metilxantina é opção de última linha por estreita margem terapêutica.",
+"Corticoide oral contínuo não é tratamento de manutenção na doença pulmonar obstrutiva crônica.",
+"A associação de corticoide oral ao anticolinérgico acrescenta toxicidade sem benefício de manutenção.",
+"Correta: acrescentar antimuscarínico de longa duração, compondo a broncodilatação dupla."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 65 anos de idade, com doença renal crônica, realiza hemodiálise por cateter duplo lúmen tunelizado de longa permanência em veia jugular interna direita há aproximadamente três anos. Comparece ao pronto-socorro com queixa de febre e tremores durante as últimas três sessões de hemodiálise. Foi coletada hemocultura periférica à chegada, com crescimento em 10 horas de Staphylococcus aureus sensível a oxacilina. A hemocultura de cateter de hemodiálise apresentou crescimento de S. aureus com mesmo perfil de sensibilidade em 4 horas. Em relação ao caso apresentado, as condutas mais adequadas são",
+"alts": [
+"Introduzir vancomicina pós-diálise por ao menos 3 semanas; solicitar ecocardiograma e fundo de olho; fechar o cateter com antibiótico local concentrado (lock terapia) com vancomicina",
+"Introduzir vancomicina pós-diálise por ao menos 3 semanas, solicitar ecocardiograma e fundo de olho; remover cateter de longa permanência",
+"Introduzir oxacilina ou cefazolina por ao menos 3 semanas; solicitar ecocardiograma e fundo de olho; remover cateter de longa permanência",
+"Introduzir oxacilina por ao menos 3 semanas; solicitar ecocardiograma e fundo de olho; fechar o cateter com antibiótico local concentrado (lock terapia) com vancomicina"
+],
+"gab": 2,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Intravascular Catheter-Related Infection, 2009 e atualizações; KDOQI vascular access guidelines, 2019",
+"coment": "Bacteremia por Staphylococcus aureus relacionada a cateter de longa permanência exige três decisões. Primeira, o antimicrobiano: sendo sensível à oxacilina, o tratamento é betalactâmico — oxacilina ou cefazolina —, superior à vancomicina nessa situação. Segunda, o cateter: em S. aureus, a remoção é mandatória, e o selo antibiótico não é aceitável como estratégia de salvamento. Terceira, a busca de foco metastático: ecocardiograma para endocardite, fundo de olho para endoftalmite, e duração de pelo menos duas a quatro semanas conforme a resposta e as complicações.",
+"porAlt": [
+"Vancomicina é inferior ao betalactâmico em cepa sensível, e manter o cateter com selo é inadequado em S. aureus.",
+"A remoção do cateter está correta, mas vancomicina não é a escolha para cepa sensível à oxacilina.",
+"Correta: betalactâmico antiestafilocócico, remoção do cateter e busca de foco metastático.",
+"O selo antibiótico não substitui a remoção do cateter na bacteremia por S. aureus."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 35 anos de idade, assintomático, realiza check-up com exames que apresentam HBsAg positivo, HBeAg positivo, HBV-DNA 1.500.000 UI/mL, TGP/ALT normal. Sorologias para HIV, HCV e HDV são negativas. Ultrassonografia do fígado sem alterações. Neste momento, a conduta mais adequada inclui",
+"alts": [
+"Prescrição de lamivudina",
+"Indicação de biópsia hepática",
+"Prescrição de tenofovir",
+"Avaliação periódica de ALT"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Ministério da Saúde — PCDT para Hepatite B e Coinfecções, 2024; EASL Clinical Practice Guidelines on hepatitis B, 2017",
+"coment": "HBsAg e HBeAg positivos com carga viral muito alta, transaminases normais, ausência de fibrose e paciente jovem e assintomático caracterizam a fase de infecção crônica HBeAg-positiva, antigamente chamada de imunotolerância. Nessa fase não há indicação de tratamento: a atividade inflamatória é mínima e a chance de soroconversão sustentada com antiviral é baixa. A conduta é vigilância ativa, com ALT e carga viral a cada três a seis meses, avaliação periódica de fibrose e rastreio de hepatocarcinoma conforme o perfil de risco, tratando quando a ALT se elevar.",
+"porAlt": [
+"Lamivudina tem alta taxa de resistência e não é escolha atual.",
+"A biópsia não é necessária: métodos não invasivos avaliam fibrose e o quadro é típico.",
+"Tenofovir seria indicado se houvesse elevação de ALT, fibrose significativa ou outra indicação específica.",
+"Correta: acompanhamento periódico de ALT e carga viral, sem tratamento nesta fase."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 35 anos de idade, acabou de descobrir que está grávida. Tem parceiro único, HIV positivo com carga viral entre indetectável e 1.000 cópias/mL. Faz uso de PREP HIV e preservativo eventual, último contato desprotegido há dois dias. A orientação mais adequada para a paciente inclui",
+"alts": [
+"Suspender PREP até a 12ª semana de gestação e reintroduzir após teste rápido negativo para HIV e outras ISTs",
+"Suspender PREP, realizar teste rápido para HIV e outras ISTs e, se negativos, iniciar PEP",
+"Manter PREP, realizar teste rápido para HIV e outras ISTs",
+"Manter PREP, solicitar teste rápido para HIV e pesquisa de outras ISTs na 12ª semana"
+],
+"gab": 2,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "Ministério da Saúde — PCDT para Profilaxia Pré-Exposição (PrEP) de Risco à Infecção pelo HIV, 2022; OMS, guidelines on HIV prevention",
+"coment": "A profilaxia pré-exposição é segura na gestação e deve ser mantida em quem permanece sob risco — no caso, parceria sorodiferente com carga viral nem sempre indetectável e uso irregular de preservativo. A conduta é manter a PrEP, testar para HIV e demais infecções sexualmente transmissíveis e reforçar a adesão. Não se suspende a profilaxia para depois reiniciar, nem se troca por profilaxia pós-exposição em quem já está em uso regular e adequado da pré-exposição; a PEP se destina a quem não estava protegido.",
+"porAlt": [
+"Suspender a PrEP na gestação retira a proteção justamente em período de risco aumentado.",
+"Trocar PrEP por PEP não faz sentido em quem já usa a profilaxia pré-exposição de forma regular.",
+"Correta: manter a PrEP e realizar testagem para HIV e demais infecções sexualmente transmissíveis.",
+"Adiar a testagem para a 12ª semana atrasa o diagnóstico de eventual infecção."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 38 anos de idade, com doença de Crohn e diarreia crônica, em uso de azatioprina. É internada para tratamento de pneumonia e desconforto respiratório. Evoluiu com injúria renal aguda. Ao exame clínico, apresenta-se alerta, com PA de 110×70 mmHg, FC de 90 bpm, FR de 32 ipm, SpO2 de 90%, temperatura de 37,9 °C, ausência de edema de membros inferiores. Ultrassonografia à beira do leito com veia cava inferior de 1,8 cm de diâmetro com variabilidade de cerca de 50% com a inspiração.\n\nExames laboratoriais:\nCr: 2,9 mg/dL\nUr: 178 mg/dL\nK+: 4,3 mEq/L\nNa+: 137 mEq/L\npH: 7,49\nHCO3-: 12,0 mmol/L\nPaCO2: 19,0 mmHg\nLactato: 15 mg/dL\n\nEm relação ao caso apresentado, o distúrbio ácido-base primário e o tratamento mais adequado são",
+"alts": [
+"Alcalose respiratória e acetazolamida",
+"Alcalose respiratória e suporte ventilatório",
+"Acidose metabólica e bicarbonato de sódio intravenoso",
+"Acidose metabólica e hemodiálise"
+],
+"gab": 1,
+"tema": "nefro",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "Abordagem sistemática dos distúrbios ácido-base — Berend et al., NEJM, 2014; ATS/ESICM/SCCM guideline on mechanical ventilation in ARDS, 2023",
+"coment": "O pH de 7,49 define alcalemia, e a PaCO₂ de 19 mmHg identifica o distúrbio primário como alcalose respiratória por hiperventilação — a paciente está com frequência de 32 e hipoxemia. O bicarbonato baixo representa compensação metabólica e, possivelmente, um distúrbio metabólico associado, que a análise do ânion-gap ajudaria a esclarecer. O tratamento é da causa: suporte ventilatório e correção da hipoxemia e do trabalho respiratório. Administrar bicarbonato em paciente alcalêmico agravaria o distúrbio.",
+"porAlt": [
+"Acetazolamida não trata alcalose respiratória e agrava a acidose metabólica associada.",
+"Correta: alcalose respiratória, tratada com suporte ventilatório e correção da causa.",
+"Não há acidemia, e bicarbonato em paciente alcalêmico é deletério.",
+"Não há indicação de diálise por distúrbio ácido-base neste momento."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 32 anos de idade, HSH, cisgênero. Apresentou febre, tosse e dispneia progressiva há um mês. Foi internado com o diagnóstico de pneumocistose, com resolução após tratamento específico. PPD 3 mm, contagem de CD4 249 células/mm³ e carga viral HIV 119.000 cópias/mL. O tratamento de infecção latente de tuberculose",
+"alts": [
+"deve ser realizado, pois paciente apresentou doença definidora de AIDS",
+"deve ser realizado, pois a contagem de CD4 é < 350 cels/mL",
+"não deve ser realizado, pois o PPD é < 5 mm",
+"não deve ser realizado, pois o paciente ainda não realizou teste IGRA"
+],
+"gab": 1,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2024; PCDT para Manejo da Infecção pelo HIV em Adultos, 2024",
+"coment": "Em pessoa vivendo com HIV, o tratamento da infecção latente por tuberculose está indicado quando a prova tuberculínica é igual ou maior que 5 mm, quando há contato com caso de tuberculose ativa, quando houve tratamento prévio de tuberculose ou radiografia com cicatriz, e — independentemente do resultado da prova — quando a contagem de CD4 é igual ou inferior a 350 células. Com CD4 de 249 e doença ativa excluída, a indicação está posta. O esquema pode ser isoniazida por seis a nove meses ou rifapentina com isoniazida semanal por três meses.",
+"porAlt": [
+"Ter apresentado doença definidora de aids não é, por si, o critério que indica o tratamento da infecção latente.",
+"Correta: CD4 abaixo de 350 indica o tratamento independentemente do resultado da prova tuberculínica.",
+"Com CD4 baixo, a prova tuberculínica pode ser falsamente negativa por anergia e não exclui a indicação.",
+"O IGRA não é obrigatório para indicar o tratamento nesse cenário."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 70 anos de idade, ex-tabagista com carga tabágica de 50 anos-maço e abstêmio há cinco anos. Faz tratamento para DPOC. Durante a consulta, foi observada uma SpO2 em ar ambiente de 90%. Coletada uma gasometria arterial evidenciando PaO2 de 62 mmHg e pCO2 de 38 mmHg. Antecedentes vacinais incluem vacinação para influenza e pneumococo 23v no ano anterior e três doses para COVID-19 há cerca de dois anos. Assinale a alternativa que apresenta a conduta mais apropriada",
+"alts": [
+"Oxigenioterapia domiciliar contínua",
+"Reforço anual das vacinas para influenza, pneumococo (23v) e COVID-19",
+"Reabilitação pulmonar quando houver melhora da hipoxemia",
+"Rastreio de câncer de pulmão com tomografia de tórax de baixa dose"
+],
+"gab": 3,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "USPSTF Lung Cancer Screening Recommendation Statement, 2021; GOLD 2026; Ministério da Saúde, diretrizes de oxigenoterapia domiciliar prolongada",
+"coment": "O paciente tem carga tabágica de 50 anos-maço, cessou há cinco anos e está na faixa etária de rastreio — critérios preenchidos para tomografia de tórax de baixa dose anual, único método com redução comprovada de mortalidade por câncer de pulmão. A oxigenoterapia domiciliar exige PaO₂ igual ou inferior a 55 mmHg, ou entre 56 e 59 com cor pulmonale ou policitemia, o que não se aplica com PaO₂ de 62. A reabilitação pulmonar independe de corrigir a hipoxemia, e o esquema vacinal descrito não pede reforço anual de pneumocócica.",
+"porAlt": [
+"A oxigenoterapia domiciliar exige PaO₂ igual ou inferior a 55 mmHg, ou 56 a 59 com repercussão.",
+"A vacina pneumocócica polissacarídica não é de reforço anual.",
+"A reabilitação pulmonar está indicada independentemente da correção da hipoxemia.",
+"Correta: rastreio de câncer de pulmão com tomografia de baixa dose, critérios preenchidos."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 88 anos de idade, previamente sem comorbidades e com boa funcionalidade, internada com CEC de língua oral, T2N2, EC IVA. Há cinco dias, foi submetida à hemiglossectomia e esvaziamento cervical homolateral, níveis I a III, traqueostomia e passagem de sonda nasoenteral. No momento, encontra-se gemente, sonolenta com FC de 110 bpm, PA de 80×60 mmHg e SpO2 de 90%. Além de hidratação e radiografia de tórax, as medidas imediatas mais adequadas, para o caso, são",
+"alts": [
+"Dosagem de cálcio sérico e antibioticoterapia",
+"Analgesia, coleta de culturas e antibioticoterapia",
+"Analgesia e acessar familiares em relação à limitação de suporte",
+"Aspiração da traqueostomia e dosagem de cálcio sérico"
+],
+"gab": 1,
+"tema": "emergencias",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r2",
+"base": "Surviving Sepsis Campaign — International Guidelines for Management of Sepsis and Septic Shock, 2021",
+"coment": "Paciente em pós-operatório de grande porte que evolui com sonolência, taquicardia, hipotensão e hipoxemia tem sepse até prova em contrário. As medidas imediatas são o pacote de primeira hora: coletar culturas antes do antibiótico, iniciar antimicrobiano de amplo espectro precocemente, ressuscitação volêmica e dosagem de lactato, com busca ativa do foco — no caso, sítio cirúrgico, pulmão e dispositivos. Analgesia adequada faz parte do cuidado. A boa funcionalidade prévia não sustenta, neste momento, a decisão por limitação de suporte.",
+"porAlt": [
+"Hipocalcemia é possível após cirurgia cervical, mas não explica hipotensão com sonolência e hipoxemia.",
+"Correta: analgesia, coleta de culturas e antibioticoterapia precoce, pelo quadro séptico.",
+"A limitação de suporte não é a conduta imediata em paciente previamente funcional com quadro potencialmente reversível.",
+"Aspirar a traqueostomia é medida de suporte, mas não substitui o pacote da sepse."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 34 anos de idade, apresenta quadro de dispneia e perda ponderal progressiva. Nega tabagismo. Realizou radiografia de tórax com derrame pleural à direita. Tomografias de tórax, abdome e pelve: inúmeros nódulos pulmonares, além de linfonodomegalias paraórticas, retroperitoneais e supraclavicular. Biópsia do linfonodo supraclavicular evidenciou diagnóstico de carcinoma. Imuno-histoquímica com citoqueratina 5/6 positiva, p63 positivo e p40 positivo, confirmando diagnóstico de carcinoma de células escamosas. Neste caso, a etiologia mais provavelmente relacionada ao tipo de tumor é",
+"alts": [
+"HCV",
+"HPV",
+"HIV",
+"EBV"
+],
+"gab": 1,
+"tema": "onco",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "IARC Monographs on human papillomavirus; NCCN Guidelines for Head and Neck Cancers, 2025",
+"coment": "Carcinoma de células escamosas com imuno-histoquímica positiva para citoqueratina 5/6, p63 e p40, em mulher jovem não tabagista, com doença metastática de sítio primário oculto e acometimento cervical, aponta para tumor associado ao papilomavírus humano — a etiologia que explica o aumento dos carcinomas de orofaringe em pacientes jovens e sem exposição ao tabaco, com prognóstico melhor. A pesquisa de p16 por imuno-histoquímica é o marcador substituto usado na prática. Hepatite C associa-se a linfoma e hepatocarcinoma; Epstein-Barr, ao carcinoma de nasofaringe.",
+"porAlt": [
+"O vírus da hepatite C associa-se a hepatocarcinoma e a linfoma, não a carcinoma escamoso.",
+"Correta: papilomavírus humano, causa crescente de carcinoma escamoso em jovens não tabagistas.",
+"O HIV aumenta o risco de neoplasias por imunossupressão, mas não é a etiologia direta deste tumor.",
+"O Epstein-Barr associa-se ao carcinoma de nasofaringe, com perfil clínico distinto."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Paciente no segundo dia de ventilação mecânica, em modo volume controlado, com volume corrente de 7 mL/kg, PEEP de 10 cmH2O, pressão de platô de 27 cmH2O, pressão de pico de 33 cmH2O, FR de 30 irpm, FiO2 de 70%, apresenta a seguinte gasometria:\n\npH: 7,19\nPaCO2: 55 mmHg\nPaO2: 112 mmHg\nHCO3-: 19 mEq/L\nBE: -5\n\nNeste momento, a conduta mais adequada é",
+"alts": [
+"Aumentar a PEEP",
+"Bicarbonato de sódio 1 mEq/kg",
+"Reduzir volume corrente",
+"Reduzir o espaço morto do circuito"
+],
+"gab": 3,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "ATS/ESICM/SCCM Clinical Practice Guideline on mechanical ventilation in adults with ARDS, 2023; conceitos de ventilação protetora",
+"coment": "O paciente está em acidose respiratória com volume corrente já protetor, pressão de platô no limite e frequência alta — não há folga para aumentar volume corrente nem frequência sem gerar autoPEEP. A manobra correta é reduzir o espaço morto do circuito, retirando extensões, filtro trocador de calor e umidade ou peça em Y desnecessária: isso aumenta a ventilação alveolar efetiva sem elevar pressões. Bicarbonato não corrige a causa e gera mais CO₂; aumentar PEEP piora a pressão de platô; reduzir o volume corrente agravaria a hipercapnia.",
+"porAlt": [
+"Aumentar a PEEP elevaria a pressão de platô, já em 27, sem corrigir a hipercapnia.",
+"Bicarbonato gera mais CO₂ e não trata a causa da acidose respiratória.",
+"Reduzir o volume corrente agravaria a hipercapnia, sem necessidade: 7 mL/kg já é protetor.",
+"Correta: reduzir o espaço morto do circuito, aumentando a ventilação alveolar sem elevar pressões."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 45 anos de idade, em reabilitação após trauma raquimedular, em uso de paracetamol, codeína e carbamazepina há três semanas. Apresenta-se sem edemas, está alerta e com capacidade normal de se alimentar, sem restrição dietética em prescrição, com PA de 110×70 mmHg e FC de 85 bpm, afebril.\n\nExames laboratoriais:\nCr: 0,88 mg/dL\nUr: 40 mg/dL\nK+: 4,2 mEq/L\nNa+: 126 mEq/L\npH: 7,37\nHCO3-: 23,7 mmol/L\nTSH: 1,33 µUI/mL\n\nUrina tipo 1:\npH: 5,5 (ref.: 5,0 a 6,0)\nDensidade: 1,020 (ref.: 1,015 a 1,025)\nGlicose: ausente (ref.: ausente)\nProteínas: < 0,05 g/L (ref.: < 0,05 g/L)\nLeucócitos: 2/campo (ref.: até 10/campo)\nEritrócitos: 1/campo (ref.: até 3/campo)\n\nEm relação ao caso descrito, assinale a alternativa que apresenta os resultados mais prováveis e as condutas mais adequadas",
+"alts": [
+"Osmolalidade urinária 95 mOsm/kg H2O, sódio urinário 15 mmol/L; suspender a carbamazepina e prescrever restrição hídrica",
+"Osmolalidade urinária 95 mOsm/kg H2O, sódio urinário 63 mmol/L; prescrever diurético de alça",
+"Osmolalidade urinária 794 mOsm/kg H2O, sódio urinário 15 mmol/L; prescrever 100 mL de solução salina intravenosa 3% em 30 minutos",
+"Osmolalidade urinária 794 mOsm/kg H2O, sódio urinário 63 mmol/L; suspender a carbamazepina e prescrever restrição hídrica"
+],
+"gab": 3,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "European guideline on diagnosis and treatment of hyponatraemia, 2014; American Geriatrics Society Beers Criteria, 2023",
+"coment": "Hiponatremia em paciente euvolêmico, sem edema, sem restrição dietética e com função tireoidiana normal, em uso de carbamazepina, é a apresentação típica da síndrome de secreção inapropriada de hormônio antidiurético induzida por fármaco. O padrão laboratorial que confirma é urina inapropriadamente concentrada — osmolalidade urinária alta — com sódio urinário elevado, acima de 30 a 40 mmol/L, refletindo excreção de sódio preservada. Sendo assintomática e crônica, o tratamento é retirar o agente causal e restringir líquidos, sem salina hipertônica.",
+"porAlt": [
+"Urina diluída com sódio urinário baixo indicaria polidipsia primária ou ingestão excessiva de água.",
+"Urina diluída afasta a secreção inapropriada e diurético de alça não é o tratamento indicado.",
+"A salina hipertônica se reserva à hiponatremia sintomática grave, e a paciente está alerta.",
+"Correta: osmolalidade urinária alta com sódio urinário elevado; suspender carbamazepina e restringir líquidos."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 60 anos de idade, admitida na emergência com sepse de foco abdominal. Recebeu ressuscitação volêmica inicial de 30 mL/kg e ceftriaxona, mantendo tempo de enchimento capilar prolongado, PA de 80×60 mmHg e FC de 130 bpm. Foi realizada manobra de elevação passiva dos membros inferiores, com mudança do Velocity Time Index da via de saída do ventrículo esquerdo de 13%. Assinale a alternativa que apresenta a conduta mais adequada",
+"alts": [
+"Iniciar noradrenalina",
+"Iniciar dobutamina",
+"Aguardar resultado de lactato arterial",
+"Nova expansão volêmica com cristaloide"
+],
+"gab": 3,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "Surviving Sepsis Campaign — International Guidelines for Management of Sepsis and Septic Shock, 2021; consensos sobre avaliação dinâmica de fluidorresponsividade",
+"coment": "A elevação passiva dos membros inferiores funciona como uma prova de volume reversível: variação do integral velocidade-tempo da via de saída do ventrículo esquerdo acima de 10 a 12% indica que o paciente é fluidorresponsivo, ou seja, ainda ganha débito cardíaco com volume. Com 13% de variação e sinais de hipoperfusão persistente, a conduta é nova expansão com cristaloide, reavaliando de forma dinâmica a cada etapa. Vasopressor entra quando a hipotensão persiste apesar de volume adequado ou quando o paciente deixa de ser responsivo.",
+"porAlt": [
+"Noradrenalina seria a escolha se o paciente não fosse mais fluidorresponsivo ou se houvesse hipotensão grave persistente após volume.",
+"Dobutamina se destina a disfunção miocárdica documentada com baixo débito.",
+"Aguardar o lactato retarda a ressuscitação de um paciente com sinais claros de hipoperfusão.",
+"Correta: nova expansão volêmica, indicada pela resposta positiva à elevação passiva das pernas."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 47 anos de idade, com cirrose hepática alcoólica em estágio CHILD C, em lista para transplante hepático, foi internada por hemorragia digestiva alta por varizes esofágicas e evoluiu com Acute-on-Chronic Liver Failure (ACLF). No segundo dia de internação na UTI, encontra-se em RASS -1 sem sedação contínua, ventilação mecânica em modo pressão de suporte (PEEP 5 cmH2O, FiO2 35%, pressão de suporte de 10 cmH2O), em uso de noradrenalina 0,6 µg/kg/min e em hemodiafiltração venovenosa contínua, apresentando nova piora da acidose metabólica. A conduta mais adequada é",
+"alts": [
+"Avaliação da cetonemia",
+"Avaliação do gap osmolar",
+"Dosagem de sódio, INR e fator V",
+"Dosagem de relação cálcio total/cálcio iônico"
+],
+"gab": 3,
+"tema": "nefro",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012; KDIGO controversies conference on CRRT e anticoagulação regional com citrato, 2023",
+"coment": "Piora inexplicada da acidose metabólica em paciente cirrótico sob hemodiafiltração contínua levanta a suspeita de acúmulo de citrato, quando se usa anticoagulação regional: o fígado insuficiente não metaboliza o citrato, que quela cálcio e produz acidose com hipocalcemia iônica. O marcador é a relação entre cálcio total e cálcio iônico — valor acima de 2,5 confirma o acúmulo. A conduta é reduzir ou suspender o citrato, ajustar a reposição de cálcio e reavaliar a estratégia de anticoagulação do circuito.",
+"porAlt": [
+"A cetonemia investiga cetoacidose, improvável nesse contexto sob terapia contínua.",
+"O gap osmolar investiga intoxicação por álcoois tóxicos, sem relação com o quadro.",
+"Sódio, INR e fator V avaliam função hepática, mas não explicam a acidose sob terapia contínua com citrato.",
+"Correta: relação cálcio total sobre cálcio iônico, para identificar acúmulo de citrato."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Paciente com carcinoma renal de células claras metastático para pulmão, ossos e fígado, com progressão de doença após duas linhas de tratamento prévias, procura o pronto-socorro por quadro de confusão, hiporexia e edema de membros inferiores. Ao exame clínico, apresenta Glasgow 14, FC de 110 bpm.\n\nExames laboratoriais:\nHb: 6,8 g/dL\nAlbumina: 2,8 g/dL\nFA: 1150 U/L\nTGO/AST: 62 U/L\nTGP/ALT: 88 U/L\nBilirrubina total: 1,5 mg/dL\nCr: 1,2 mg/dL\nFósforo: 2,5 mg/dL\n\nEm casa, permanecia a maior parte do tempo sentado ou deitado nas últimas duas semanas. Em relação ao caso apresentado, as condutas mais adequadas são",
+"alts": [
+"Dosagem de cálcio sérico e realização de tomografia de crânio com contraste",
+"Dosagem de amônia e realização de tomografia de crânio sem contraste",
+"Transfusão de concentrado de hemácias e reposição de fósforo",
+"Infusão de albumina e dosagem de cálcio sérico"
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ASCO Guideline on Management of Hypercalcemia of Malignancy, 2023; ESMO Clinical Practice Guidelines on bone health in cancer, 2020",
+"coment": "Confusão mental, hiporexia e desidratação em paciente com neoplasia metastática para ossos, com fosfatase alcalina muito elevada, apontam para hipercalcemia da malignidade — a emergência metabólica mais comum em oncologia. A avaliação imediata é dosar cálcio, corrigido pela albumina ou preferencialmente o cálcio iônico, e afastar metástase cerebral por imagem com contraste. O tratamento é hidratação vigorosa com salina, bisfosfonato ou denosumabe e, quando há dúvida, calcitonina para efeito rápido; corticoide é útil em causas mediadas por calcitriol.",
+"porAlt": [
+"Correta: dosar cálcio sérico e obter imagem de crânio com contraste, buscando hipercalcemia e metástase.",
+"A amônia investiga encefalopatia hepática, hipótese secundária diante do padrão colestático sem cirrose.",
+"Transfusão e reposição de fósforo tratam achados secundários e não a causa da confusão.",
+"Albumina não trata o quadro e a dosagem de cálcio sozinha, sem imagem, é insuficiente."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 45 anos de idade, com antecedente de trauma raquimedular, em uso crônico de baclofeno e olanzapina, é internado na UTI por sepse secundária à infecção urinária. Durante a internação, evoluiu com delirium hiperativo, necessitando de doses de resgate de haloperidol endovenoso, por impossibilidade de utilização da via oral. No terceiro dia de UTI, passou a apresentar febre persistente de 39 °C, tremores e espasticidade, mantendo FC de 140 bpm, PA de 140×60 mmHg, FR de 25 irpm, SpO2 de 95% em ar ambiente. Em relação ao caso descrito, assinale a alternativa que apresenta a conduta mais adequada, após a passagem de sonda nasoenteral",
+"alts": [
+"Iniciar bromocriptina e diazepam",
+"Retornar baclofeno e iniciar dexmedetomedina",
+"Retornar baclofeno e iniciar dantrolene",
+"Suspender haloperidol e iniciar amantadina"
+],
+"gab": 1,
+"tema": "neuro",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "Revisões e consensos sobre síndrome de retirada do baclofeno, 2021; American Psychiatric Association, Practice Guideline for Schizophrenia, 2020 (síndrome neuroléptica maligna)",
+"coment": "Febre alta, tremores e espasticidade em paciente com lesão medular cujo baclofeno foi interrompido pela impossibilidade da via oral configuram síndrome de retirada do baclofeno — quadro que imita a síndrome neuroléptica maligna e a hipertermia maligna, mas cuja cura é restituir o fármaco. A conduta é reintroduzir o baclofeno pela via disponível e controlar a hiperatividade adrenérgica com sedação, sendo a dexmedetomidina uma opção adequada. Reconhecer a retirada evita tratar o paciente indefinidamente como síndrome neuroléptica maligna.",
+"porAlt": [
+"Bromocriptina e benzodiazepínico tratariam síndrome neuroléptica maligna, sem restituir o baclofeno.",
+"Correta: reintroduzir o baclofeno e associar sedação, reconhecendo a síndrome de retirada.",
+"Dantroleno é para hipertermia maligna e casos graves de síndrome neuroléptica, e não substitui a reintrodução do baclofeno.",
+"Suspender haloperidol é razoável, mas amantadina não trata a causa, que é a retirada do baclofeno."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 59 anos de idade, internada na UTI por quadro de pneumonia comunitária grave, sob ventilação mecânica. Após 12 horas, apresenta piora progressiva da oxigenação. Ao exame clínico, encontra-se com PA de 90×60 mmHg, em uso de noradrenalina 0,15 µg/kg/min, SpO2 de 88%, FiO2 de 100%, em modo controlado a volume com Vc 360 mL (6 mL/kg); FR de 30 irpm; PEEP 8 cmH2O; pressão de platô 28 cmH2O. Radiografia de tórax com opacidades bilaterais extensas. Ecocardiograma: dilatação discreta do ventrículo direito, sem disfunção do ventrículo esquerdo. Assinale a alternativa que apresenta a conduta mais adequada",
+"alts": [
+"Posição prona",
+"Trombólise",
+"Recrutamento alveolar",
+"Diureticoterapia"
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r2",
+"base": "ATS/ESICM/SCCM Clinical Practice Guideline on mechanical ventilation in adults with ARDS, 2023; ensaio PROSEVA, 2013",
+"coment": "Hipoxemia grave com opacidades bilaterais e ventilação já protetora — volume corrente de 6 mL/kg e pressão de platô controlada — caracteriza síndrome do desconforto respiratório agudo grave, com relação entre PaO₂ e FiO₂ muito baixa. A intervenção com redução comprovada de mortalidade nesse cenário é a posição prona por pelo menos 16 horas por dia, conforme o ensaio PROSEVA. Manobras de recrutamento agressivas foram associadas a dano no estudo ART, trombólise não se aplica sem embolia confirmada, e diurético não trata edema não hidrostático.",
+"porAlt": [
+"Correta: posição prona, medida com redução de mortalidade na síndrome do desconforto respiratório agudo grave.",
+"Trombólise não se justifica sem embolia pulmonar confirmada e com quadro pulmonar bilateral explicado.",
+"Manobras de recrutamento agressivas associaram-se a maior mortalidade no ensaio ART.",
+"Diurético não trata o edema não hidrostático da lesão pulmonar aguda."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 38 anos de idade, sem antecedentes, procura atendimento com queixa de náuseas, vômitos e dor abdominal há 1 dia. Nega uso de medicações. Ao exame clínico, apresenta-se em regular estado geral, desidratado 2/4+, FR de 30 irpm, Glasgow 13, pupilas reagentes. Exame abdominal sem alterações significativas.\n\nExames laboratoriais:\npH: 7,10\nPaCO2: 15 mmHg\nHCO3-: 4 mEq/L\nNa+: 140 mEq/L\nCl-: 100 mEq/L\nGlicose: 100 mg/dL\nUr: 20 mg/dL\nCr: 1,1 mg/dL\nLactato: 2,5 mg/dL\nOsmolaridade medida: 330 mOsm/kg\n\nA conduta terapêutica prioritária após começo da volemia com hidratação e da acidose com bicarbonato é",
+"alts": [
+"Fomepizol",
+"Carvão ativado",
+"Hidroxicobalamina",
+"Diálise"
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "American Academy of Clinical Toxicology — Practice Guidelines on the Treatment of Methanol and Ethylene Glycol Poisoning, atualização de 2022; Ministério da Saúde, Diretrizes de atenção às intoxicações exógenas, 2020",
+"coment": "Acidose metabólica grave com ânion-gap muito elevado e gap osmolar aumentado — osmolaridade medida de 330 contra calculada em torno de 290 —, com lactato normal e sem cetose ou uremia, é o padrão da intoxicação por álcool tóxico: metanol ou etilenoglicol. O antídoto é o fomepizol, inibidor da álcool desidrogenase, que impede a formação dos metabólitos tóxicos; etanol é alternativa quando não há fomepizol. A hemodiálise se associa nos casos graves, com acidose refratária, alteração visual ou níveis muito altos, mas o antídoto vem primeiro.",
+"porAlt": [
+"Correta: fomepizol, antídoto que bloqueia a formação dos metabólitos tóxicos.",
+"Carvão ativado não adsorve álcoois de baixo peso molecular.",
+"Hidroxicobalamina é antídoto para intoxicação por cianeto.",
+"A diálise é adjuvante importante, mas a prioridade terapêutica imediata é o antídoto."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 45 anos de idade, submetida à ultrassonografia cervical por conta de nódulo tireoideano palpado durante a consulta de rotina. Seu médico a tranquilizou, pois os achados do exame não eram suspeitos para malignidade. O laudo mais provável deste exame é",
+"alts": [
+"Nódulo isoecoico com microcalcificações",
+"Nódulo sólido-cístico com margens mal definidas",
+"Nódulo predominantemente cístico com focos hiperrefringentes",
+"Nódulo marcadamente hipoecoico e mais alto do que largo"
+],
+"gab": 2,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ACR TI-RADS, 2017; ATA Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer, 2015",
+"coment": "Na ultrassonografia de tireoide, o padrão espongiforme ou predominantemente cístico, com focos ecogênicos correspondentes a artefato em cauda de cometa, tem risco de malignidade muito baixo e dispensa punção na maioria dos casos. Os achados suspeitos são os opostos: nódulo sólido marcadamente hipoecoico, mais alto do que largo, margens irregulares ou lobuladas, extensão extratireoidiana e microcalcificações. A conduta se define pela combinação desses achados com o tamanho, seguindo sistemas de classificação como o TI-RADS.",
+"porAlt": [
+"Microcalcificações são achado suspeito de malignidade.",
+"Margens mal definidas configuram achado suspeito.",
+"Correta: nódulo predominantemente cístico com focos hiperrefringentes, padrão de baixo risco.",
+"Nódulo marcadamente hipoecoico e mais alto do que largo é o padrão de maior suspeição."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 19 anos de idade, com diagnóstico de diabetes melito tipo 1 há cinco anos. É trazida no pronto-socorro, onde foi realizado diagnóstico de cetoacidose diabética. Exames iniciais apresentaram:\n\nGlicemia capilar: 550 mg/dL\npH: 7,10\nHCO3-: 8 mEq/L\nNa+: 130 mEq/L\nK+: 5,8 mEq/L\nUr: 60 mg/dL\nCr: 1,5 mg/dL\nCetonas séricas: +++/4+\n\nFoi iniciada hidratação venosa com NaCl 0,9% e insulinoterapia intravenosa contínua (0,1 U/kg/h). Após quatro horas de tratamento, a paciente está mais alerta, a glicemia é de 240 mg/dL, e os novos exames mostram:\n\npH: 7,25\nHCO3-: 15 mEq/L\nK+: 3,5 mEq/L\n\nA próxima conduta mais adequada é",
+"alts": [
+"Manter a infusão de insulina e adicionar solução glicosada",
+"Administrar cloreto de potássio na solução de hidratação venosa",
+"Aumentar a taxa de infusão da solução salina isotônica",
+"Trocar a insulina por NPH subcutânea e oferecer dieta"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "American Diabetes Association — Standards of Care in Diabetes, 2025; consenso ADA/EASD sobre manejo de crise hiperglicêmica, 2024",
+"coment": "Na cetoacidose diabética, a insulina desloca potássio para dentro da célula, e o potássio total do organismo já está depletado mesmo quando o valor sérico inicial parece alto. Por isso, a reposição começa quando o potássio cai abaixo de 5,2 a 5,3 mEq/L, mantendo-se a insulina, com o objetivo de manter o valor entre 4 e 5. Se o potássio inicial estivesse abaixo de 3,3, a insulina deveria ser adiada até a reposição. A solução glicosada entra quando a glicemia chega a 200 a 250 mg/dL, momento também próximo neste caso.",
+"porAlt": [
+"Adicionar glicose é etapa correta próxima, mas a prioridade após a queda do potássio é repô-lo.",
+"Correta: iniciar reposição de potássio, que cai rapidamente sob insulinoterapia.",
+"Aumentar a salina isotônica não corrige o distúrbio eletrolítico em curso.",
+"A transição para insulina subcutânea só ocorre após resolução da cetoacidose, com ânion-gap normalizado."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 47 anos de idade, com quadro súbito de vertigem enquanto praticava atividade física na academia há seis horas. Também refere diplopia binocular, que melhora ao fechar um dos olhos, e sensação de que é empurrado para direita. Nega antecedentes médicos ou uso de medicações. Apresenta PA de 180×100 mmHg, FC de 110 bpm, glicemia capilar de 93 mg/dL. Ao exame neurológico, apresenta nistagmo horizontal para esquerda, desalinhamento vertical (com olho hipotrópico à direita) e pupila miótica à direita. Realizou tomografia de crânio sem contraste que não mostrou alterações. Assinale a alternativa que apresenta a próxima conduta mais adequada",
+"alts": [
+"Executar as manobras de Dix-Hallpike e de Epley",
+"Administrar dimenidrato e nitroprussiato de sódio IV",
+"Trombólise com alteplase 0,9 mg/kg intravenosa",
+"Angiotomografia arterial cervical e intracraniana"
+],
+"gab": 3,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019; recomendações sobre dissecção arterial cervical",
+"coment": "Vertigem de início súbito durante esforço, com diplopia binocular, desalinhamento vertical, nistagmo e miose ipsilateral — sugerindo síndrome de Horner —, configura síndrome vestibular aguda central, provavelmente por dissecção de artéria vertebral com isquemia de fossa posterior. A tomografia simples é frequentemente normal nessa topografia, e o exame indicado é a angiotomografia arterial cervical e intracraniana. Tratar como vertigem periférica com manobras é o erro que atrasa o diagnóstico e permite a progressão do acidente vascular cerebral.",
+"porAlt": [
+"Manobras de Dix-Hallpike e Epley se aplicam à vertigem posicional periférica, incompatível com diplopia e Horner.",
+"Sintomáticos com anti-hipertensivo intravenoso não investigam nem tratam a causa.",
+"A trombólise poderia ser considerada, mas antes é preciso caracterizar a lesão vascular por angiotomografia.",
+"Correta: angiotomografia arterial cervical e intracraniana, buscando dissecção vertebral."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 78 anos de idade, foi encontrado desacordado em casa e levado ao pronto-socorro. No caminho ao hospital, apresentou crise convulsiva tônica-clônica bilateral com duração de menos de dois minutos, sendo medicado com midazolam intramuscular. Tem diagnóstico recente de nevralgia do trigêmeo e iniciou carbamazepina 400 mg/dia há 15 dias. Ao exame clínico, apresenta-se sonolento, sem rigidez de nuca, localiza estímulos dolorosos e emite sons guturais. Sem outras alterações ao exame neurológico. PA de 110×70 mmHg, FC de 98 bpm e glicemia capilar de 89 mg/dL. Tomografia de crânio sem contraste mostrou discreta atrofia cortical, sem outras alterações.\n\nExames laboratoriais:\nHb: 11,4 g/dL\nLeucócitos: 7.600/mm³\nPlaquetas: 168.000/mm³\nUr: 54 mg/dL\nCr: 0,9 mg/dL\nNa+: 113 mEq/L\nK+: 4,2 mEq/L\n\nO fármaco anticrise mais adequado no tratamento agudo deste paciente é",
+"alts": [
+"Fenitoína 10 a 20 mg/kg intravenosa",
+"Midazolam em infusão contínua",
+"Levetiracetam 1.000 mg por sonda",
+"Não são necessários fármacos anticrise"
+],
+"gab": 3,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r3",
+"base": "ILAE — definição e manejo de crises sintomáticas agudas; American Epilepsy Society guideline on convulsive status epilepticus, 2016",
+"coment": "Crise única, autolimitada, em contexto de causa aguda identificável — no caso, provável hiponatremia induzida por carbamazepina iniciada há duas semanas — é crise sintomática aguda, não epilepsia. O tratamento é corrigir a causa e suspender o fármaco desencadeante, sem indicação de anticonvulsivante de manutenção nem de dose de ataque, uma vez que a crise já cessou e o paciente não está em estado de mal. Iniciar antiepiléptico crônico nesse cenário expõe o paciente a efeitos adversos sem reduzir recorrência.",
+"porAlt": [
+"A dose de ataque de fenitoína se destina ao estado de mal, não a crise única já encerrada.",
+"Midazolam contínuo é tratamento do estado de mal refratário.",
+"Levetiracetam de manutenção não está indicado em crise sintomática aguda com causa reversível.",
+"Correta: nenhum anticonvulsivante é necessário; corrige-se a causa e suspende-se o fármaco desencadeante."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Durante investigação de nefrolitíase, uma mulher de 54 anos de idade, com diabetes, hipertensão e histórico de fratura de ossos longos, realiza uma tomografia de abdome que revela nódulo em adrenal esquerda de 2,8 cm, densidade de <10 UH na fase sem contraste. Nega uso de corticoides. Exames laboratoriais: cortisol após 1 mg de dexametasona 2,5 µg/dL (ref.: < 1,8 µg/dL), ACTH plasmático 8 pg/mL (ref.: 7 a 45 pg/mL), aldosterona 9 ng/dL, renina não supressa, DHEAS dentro dos limites da normalidade. Em relação ao caso apresentado, a conduta mais adequada é",
+"alts": [
+"Adrenalectomia esquerda",
+"Tomografia de tórax para estadiamento",
+"Controle tomográfico em seis meses",
+"Não são necessárias condutas adicionais"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ESE/ENSAT Clinical Practice Guideline on the management of adrenal incidentalomas, 2023",
+"coment": "Todo incidentaloma adrenal exige duas perguntas: é funcionante e é maligno? A densidade abaixo de 10 unidades Hounsfield sem contraste caracteriza adenoma rico em lipídios, de comportamento benigno. Já o cortisol de 2,5 µg/dL após 1 mg de dexametasona, com ACTH suprimido no limite inferior, define secreção autônoma de cortisol. Diante de comorbidades potencialmente atribuíveis ao excesso de cortisol — diabetes, hipertensão e fratura por fragilidade —, a diretriz recomenda considerar a adrenalectomia, que pode reverter parte desse dano metabólico e ósseo.",
+"porAlt": [
+"Correta: adrenalectomia, indicada pela secreção autônoma de cortisol com comorbidades atribuíveis.",
+"A densidade abaixo de 10 unidades Hounsfield já caracteriza adenoma, dispensando estadiamento oncológico.",
+"O seguimento por imagem isolado ignora a secreção autônoma e as comorbidades associadas.",
+"Não agir deixa sem tratamento um hipercortisolismo subclínico com repercussão metabólica e óssea."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 28 anos de idade, é atendido após ser ferroado na face por inseto não identificado. Cinco minutos após sentir a ferroada, queixou-se de tontura, visão turva e náuseas, evoluindo com perda da consciência logo a seguir. Uma hora após a ferroada, apresentava eritema com edema em toda face, com PA de 80×50 mmHg, FC de 120 bpm, FR de 22 irpm. O exame laboratorial mais adequado para confirmar o diagnóstico é",
+"alts": [
+"Cortisol sérico",
+"IgE específica",
+"Triptase sérica",
+"Histamina urinária"
+],
+"gab": 2,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r2",
+"base": "WAO/EAACI Anaphylaxis Guidance, 2020; ASCIA/consensos sobre triptase sérica na anafilaxia",
+"coment": "O diagnóstico de anafilaxia é clínico e o tratamento — adrenalina intramuscular na face lateral da coxa — não espera exame algum. Quando se busca confirmação laboratorial retrospectiva, o exame é a triptase sérica, que se eleva a partir de 30 minutos, atinge pico entre 1 e 2 horas e deve ser comparada a uma dosagem basal colhida 24 horas ou mais depois. A IgE específica identifica o alérgeno em investigação posterior, mas não confirma o episódio agudo, e a histamina tem meia-vida curta demais para uso prático.",
+"porAlt": [
+"Cortisol não tem papel diagnóstico na anafilaxia.",
+"A IgE específica identifica sensibilização ao alérgeno, mas não confirma o evento agudo.",
+"Correta: triptase sérica colhida nas primeiras horas, comparada à dosagem basal posterior.",
+"A histamina tem meia-vida muito curta e é pouco prática na rotina."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 65 anos de idade, com hipertensão e diabetes, é conduzido ao pronto-socorro por familiares. Foi visto em seu estado basal às 23h da noite anterior, antes de dormir. Ao despertar às 6h, duas horas antes da chegada ao hospital, foi reconhecido com dificuldade para se comunicar e fraqueza em hemicorpo direito. Exame neurológico: afasia global e hemiparesia à direita, com pontuação na escala NIHSS de 11. Tomografia de crânio e angiotomografia intracraniana arterial com ASPECTS 8, ausência de sinais de hemorragia, sem outras alterações. Decidiu-se por prosseguir com ressonância magnética. O conceito essencial para avaliar a elegibilidade e a terapia de reperfusão aguda são",
+"alts": [
+"Mismatch Difusão-FLAIR; trombólise química",
+"Mismatch NIHSS-Difusão; trombólise química",
+"Mismatch Difusão-FLAIR; trombectomia mecânica",
+"Mismatch NIHSS-Difusão; trombectomia mecânica"
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019; ensaio WAKE-UP, 2018",
+"coment": "No acidente vascular cerebral do despertar, o horário de início é desconhecido e o critério de tempo não pode ser aplicado. A estratégia validada é a seleção por imagem: a incompatibilidade entre difusão e FLAIR na ressonância — lesão visível na difusão sem correspondente no FLAIR — indica evento com menos de 4,5 horas e autoriza a trombólise, como demonstrou o ensaio WAKE-UP. A trombectomia mecânica exigiria oclusão de grande vaso, que a angiotomografia não demonstrou neste caso.",
+"porAlt": [
+"Correta: incompatibilidade difusão-FLAIR selecionando o paciente para trombólise química.",
+"A incompatibilidade clínico-radiológica orienta trombectomia em janelas estendidas, com oclusão de grande vaso.",
+"A trombectomia exige oclusão proximal demonstrada, ausente na angiotomografia.",
+"Sem oclusão de grande vaso, a trombectomia não se aplica."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 62 anos de idade, apresenta antecedentes de HAS e diabetes melito há cerca de 10 anos. Creatinina basal de 1,8 mg/dL. Comparece no pronto-socorro com sintomas de dor importante em membro inferior direito e dificuldade de locomoção nos últimos 10 dias, com piora há um dia, apesar do uso de ibuprofeno. Apresentou piora de função renal, conforme demonstrado na tabela a seguir, que indica os exames de entrada (D0) e de seguimento durante os primeiros dois dias de internação.\n\nSangue (D0 / D1 / D2):\nCr (ref. 0,72 a 1,25 mg/dL): 5,29 / 6,06 / 6,40\nUr (ref. 9,0 a 44,1 mg/dL): 141 / 169 / 176\nK+ (ref. 3,5 a 5,1 mEq/L): 5,9 / 5,7 / 5,3\nNa+ (ref. 135 a 145 mEq/L): 134 / 134 / 137\npH (ref. 7,35 a 7,45): 7,36 / 7,38 / 7,38\nHCO3- (ref. 22 a 29 mmol/L): 23,2 / 19,2 / 23,1\nGlicose (ref. 70 a 99 mg/dL): 175\nHemoglobina (ref. 12,8 a 17,8 g/dL): 12,3 / 11,5 / 11,7\nLeucócitos (ref. 4,12 a 11,11 mil/mm³): 13.050 / 13.470 / 12.240\nNeutrófilos (ref. 1,57 a 7,97 mil/mm³): 7.310 / 9.730 / 8.170\nLinfócitos (ref. 1,13 a 3,31 mil/mm³): 3.750 / 2.120 / 2.230\nEosinófilos (ref. 0,00 a 0,59 mil/mm³): 470 / 610 / 680\nPlaquetas (ref. 162 a 425 mil/mm³): 368 / 331 / 345\nNT-proBNP (ref. <125 pg/mL): 4.657 / 14.249\n\nUrina tipo 1:\npH (ref. 5,0 a 6,0): 6,0\nDensidade (ref. 1,015 a 1,025): 1,025\nGlicose (ref. ausente): 250 mg/dL\nProteínas (ref. inferior a 0,05 g/L): >1,0\nLeucócitos (ref. até 10/campo): 41\nEritrócitos (ref. até 3/campo): 3\nUrocultura (ref. negativa): Negativa\n\nUltrassonografia dos rins: rim direito mede 10,6 cm (espessura do parênquima: 1,7 cm). Rim esquerdo mede 11,1 cm (espessura do parênquima: 1,6 cm). Em relação ao caso descrito, assinale a alternativa que apresenta, respectivamente, o exame complementar e o tratamento mais adequados",
+"alts": [
+"Biópsia renal; prednisona 1 mg/kg",
+"Hemoglobina glicada; insulinoterapia",
+"Albumina/creatinina em urina de amostra isolada; dapagliflozina",
+"ANCA; metilprednisolona em pulsoterapia"
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012; KDIGO 2021 Glomerular Diseases guideline (nefrite intersticial)",
+"coment": "Lesão renal aguda progressiva em paciente que vinha usando anti-inflamatório não esteroide, sem sinais de obstrução nem de hipovolemia, sugere nefrite intersticial aguda medicamentosa — a tríade clássica de febre, rash e eosinofilia é pouco frequente, e a eosinofilúria tem baixa acurácia. A confirmação, quando a suspensão do fármaco não reverte o quadro e a creatinina continua subindo, é a biópsia renal, seguida de corticoide, que acelera a recuperação da função renal quando iniciado precocemente.",
+"porAlt": [
+"Correta: biópsia renal para confirmar nefrite intersticial e corticoide em dose imunossupressora.",
+"Hemoglobina glicada e insulina não explicam nem tratam a lesão renal aguda em curso.",
+"Avaliar albuminúria e iniciar inibidor de SGLT2 é conduta de doença renal crônica estável, não de lesão aguda progressiva.",
+"ANCA e pulsoterapia se aplicam a vasculite, sem elementos clínicos que a sustentem aqui."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 45 anos de idade, em consulta em uma unidade básica de saúde, refere indisposição de início gradativo, redução do ânimo e da energia há 4 meses. Nesse período tem comido mais, principalmente carboidratos. Tem estado um pouco mais irritado e tem sentido menos prazer no bate-papo com os amigos. A investigação clínica não identificou outros sintomas físicos ou mentais. Não apresenta alterações ao exame físico. O paciente acredita que seu caso seja falta de exercício e que, se voltar a correr com seus amigos 4 vezes por semana, como fazia até há um ano, vai melhorar. Comparece à consulta porque seu chefe disse que ele deveria procurar tratamento. Diz não acreditar em psicoterapia e não gosta da ideia de tomar antidepressivos. Além de agendar uma consulta para 4 a 6 semanas, a conduta imediata seria:",
+"alts": [
+"Encaminhar para psicoterapia cognitivo-comportamental",
+"Prescrever inibidor seletivo de recaptura de serotonina",
+"Orientar e reforçar a necessidade de atividade física",
+"Indicar fitoterápico Hipericum perforatum"
+],
+"gab": 2,
+"tema": "psiq",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "NICE guideline on depression in adults: treatment and management, 2022; Ministério da Saúde, Caderno de Atenção Básica de Saúde Mental",
+"coment": "O quadro corresponde a sintomas depressivos leves, sem ideação suicida, sem prejuízo funcional importante e sem sintomas psicóticos. Nessa faixa de gravidade, as diretrizes recomendam intervenções de menor intensidade antes do antidepressivo: atividade física estruturada, higiene do sono, apoio comportamental e acompanhamento próximo, com reavaliação programada. Isso coincide com a proposta do próprio paciente, o que aumenta a adesão. Antidepressivo entra se não houver melhora ou se o quadro progredir para intensidade moderada a grave.",
+"porAlt": [
+"A psicoterapia cognitivo-comportamental é opção válida, mas o passo inicial acordado com o paciente é a atividade física estruturada.",
+"Antidepressivo não é primeira linha em depressão leve.",
+"Correta: orientar e apoiar a retomada da atividade física, com reavaliação programada.",
+"Fitoterápico não é recomendado como conduta padrão e interage com diversos fármacos."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 58 anos de idade, em atendimento em unidade básica de saúde, refere estar “mais ou menos”. Queixa-se de intestino “um pouco preso” e boca seca. Durante a consulta diz estar se sentindo mais tenso, com pouca paciência, preocupando-se demais com pequenos problemas. Refere, ainda, tontura quando se levanta e bebe mais água para a boca seca. Fazia tratamento para pressão alta há 1 ano com captopril irregularmente. Há 2 meses, seu médico anterior disse que ele teria transtorno de ansiedade e prescreveu nortriptilina e, para hipertensão, foi substituído o captopril por enalapril, pois a pressão não baixava. No final da consulta, diz não se dar bem com remédios para a pressão. Reconhece que com frequência não toma os medicamentos para pressão, pois tem preguiça e também, eventualmente, não se lembra. Ao exame físico, apresentou PA de 150×95 mmHg, FC de 74 bpm. Além de abordar aspectos relativos a hábitos e à adesão ao tratamento, a conduta indicada seria substituir",
+"alts": [
+"nortriptilina por fluoxetina",
+"nortriptilina por diazepam",
+"enalapril por anlodipino",
+"enalapril por losartana"
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "American Geriatrics Society Beers Criteria, 2023; NICE guideline on generalised anxiety disorder, 2020",
+"coment": "Boca seca, constipação e tontura ortostática em paciente que iniciou nortriptilina compõem a síndrome anticolinérgica dos antidepressivos tricíclicos, formalmente desaconselhados nessa faixa etária pelos critérios de Beers justamente por esses efeitos, além de sedação, confusão, retenção urinária e risco de queda. A conduta é trocar por um inibidor seletivo de recaptação de serotonina, com melhor perfil de tolerabilidade. Benzodiazepínico não corrige o problema e acrescenta risco de dependência e queda.",
+"porAlt": [
+"Correta: substituir a nortriptilina por um inibidor seletivo de recaptação de serotonina.",
+"Diazepam acrescenta sedação e risco de queda, sem tratar a causa dos sintomas.",
+"O anti-hipertensivo não explica boca seca e constipação, que são anticolinérgicos.",
+"Trocar entre bloqueadores do sistema renina-angiotensina não resolve os sintomas anticolinérgicos."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 60 anos de idade, queixa-se de dificuldade para iniciar e manter o sono. Deita-se às 21h, adormece com a televisão ligada por volta de 23h e acorda às 8h, com sensação de sono não restaurador e refere sonolência diurna, com escala de sonolência de Epworth de 13 pontos (ref.: até 10). Seu esposo comenta que ela tem roncado e que observou pausas respiratórias. Ela ganhou cinco quilos nos últimos dois anos. Peso atual de 80 kg, altura 1,55 m. Polissonografia: índice de apneia e hipopneia de 45 eventos por hora, com eficiência do sono de 85%. Além de perda de peso e atividade física, o tratamento mais adequado deve incluir",
+"alts": [
+"CPAP associado a hipnótico não-benzodiazepínico",
+"CPAP associado à terapia cognitivo-comportamental",
+"Terapia cognitivo-comportamental",
+"Terapia cognitivo-comportamental e hipnótico não-benzodiazepínico"
+],
+"gab": 1,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "AASM Clinical Practice Guideline for the Treatment of Obstructive Sleep Apnea with Positive Airway Pressure, 2019; AASM guideline for the behavioral treatment of chronic insomnia, 2021",
+"coment": "A paciente tem duas condições sobrepostas: apneia obstrutiva do sono grave, com índice de apneia e hipopneia de 45 eventos por hora, e insônia crônica — combinação conhecida como insônia comórbida à apneia, frequente e frequentemente subtratada. O tratamento adequado trata as duas: CPAP para a apneia e terapia cognitivo-comportamental para insônia, que é a primeira linha e supera o hipnótico em manutenção do efeito. Hipnóticos em apneia não tratada podem prolongar eventos respiratórios e agravar a dessaturação.",
+"porAlt": [
+"Hipnótico não é primeira linha para insônia crônica e é problemático em apneia.",
+"Correta: CPAP para a apneia associado a terapia cognitivo-comportamental para a insônia.",
+"Tratar apenas a insônia deixa sem tratamento uma apneia grave.",
+"A terapia cognitivo-comportamental está correta, mas não se acrescenta hipnótico nem se dispensa o CPAP."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Após a promulgação da Constituição Federal de 1988, foram aprovadas duas leis, pelo Congresso Nacional, que são chamadas de leis orgânicas do SUS. Uma delas, a lei n. 8.080/1990, dispõe sobre as transferências intergovernamentais de recursos financeiros na área da saúde. Considerando a legislação mencionada, para que o Governo Federal repasse recursos do SUS para estados e municípios, é necessária a existência de",
+"alts": [
+"comissão de elaboração do plano de carreira, cargos e salários e de prontuário eletrônico",
+"plano diretor de regionalização e de conselho de saúde paritário",
+"plano de saúde e de central de marcação de consultas e exames",
+"fundo de saúde e de conselho de saúde paritário"
+],
+"gab": 3,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Lei nº 8.080/1990 e Lei nº 8.142/1990 — leis orgânicas da saúde; Decreto nº 7.508/2011",
+"coment": "A Lei nº 8.142/1990 condiciona o repasse regular e automático de recursos federais do Sistema Único de Saúde à existência, em cada ente, de fundo de saúde, conselho de saúde com composição paritária entre usuários e demais segmentos, plano de saúde, relatório de gestão, contrapartida orçamentária e comissão de elaboração do plano de carreira, cargos e salários. Entre as alternativas, a que reúne dois desses requisitos essenciais é fundo de saúde somado a conselho paritário — o fundo garante a vinculação contábil do recurso e o conselho, o controle social.",
+"porAlt": [
+"A comissão de plano de carreira é requisito, mas prontuário eletrônico não é condição para repasse.",
+"Plano diretor de regionalização é instrumento de organização regional, não requisito de repasse.",
+"Central de marcação não figura entre os requisitos legais.",
+"Correta: fundo de saúde e conselho de saúde paritário."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma associação de pacientes ostomizados de um município pressiona os gestores de saúde para a disponibilização — ou para o financiamento — de bolsas e de capacitação em cuidados com ostomias na atenção primária de saúde. Diante disso, uma médica de uma unidade básica de saúde decide levar a proposta para a reunião do conselho municipal de saúde (CMS). Nesse caso, no que diz respeito ao funcionamento desse conselho, é correto afirmar que",
+"alts": [
+"a discussão a respeito dessa proposta deve ser feita na secretaria de saúde municipal, uma vez que a prerrogativa de proposição de novos serviços é do poder executivo",
+"a participação da associação é vedada nas reuniões, considerando-se que os participantes dos conselhos são trabalhadores e gestores da área da saúde",
+"a aprovação da capacitação em cuidados com ostomias é possível, diferentemente da aprovação de novos gastos, tais como compra de bolsas de ostomias",
+"a viabilização da execução do plano cabe à secretaria de saúde, no caso de aprovação da proposta pelo CMS"
+],
+"gab": 3,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Lei nº 8.142/1990; Resolução CNS nº 453/2012 sobre organização dos conselhos de saúde",
+"coment": "O conselho de saúde é órgão colegiado permanente e deliberativo, com composição paritária — metade de usuários e metade dividida entre trabalhadores, gestores e prestadores — e competência para formular estratégias e controlar a execução da política de saúde, inclusive nos aspectos econômicos e financeiros. Associações de usuários podem propor pautas e participar. Aprovada a proposta no conselho, cabe à secretaria de saúde viabilizar a execução, incorporando-a ao planejamento e ao orçamento.",
+"porAlt": [
+"A proposição não é prerrogativa exclusiva da secretaria: o conselho é espaço deliberativo com participação dos usuários.",
+"A participação de usuários é justamente a base da composição paritária do conselho.",
+"O conselho delibera também sobre aspectos econômicos e financeiros, incluindo aquisição de insumos.",
+"Correta: aprovada a proposta pelo conselho, cabe à secretaria viabilizar a execução."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma paciente de 46 anos, vendedora de roupas, é atendida em consulta ambulatorial por médico de família relatando dor constante em região do pescoço, em região superior do dorso e em ambos os braços há 6 meses. Apresenta, também, dor nas pernas, as quais atribui ao trabalho, pois fica em pé por horas. Ela relata duas avaliações prévias nas quais realizou exames laboratoriais, com hemograma e VHS normais. Foram prescritos analgésicos, nas outras ocasiões, os quais proporcionaram pequena melhora temporária no quadro. A paciente relata que ficou viúva há 1 ano e que cuida sozinha dos dois filhos pequenos, sendo responsável pelo sustento financeiro da casa. Informa que as dificuldades financeiras têm tirado seu sono e que ela tem estado muito cansada e com a memória ruim. Ao exame físico, apresenta dor à palpação da região occipital, do pescoço e do tórax superior. Suas articulações estão preservadas, sem dor nem edema. O exame físico apresenta-se sem outras anormalidades. Em relação ao provável diagnóstico, qual deve ser o tratamento medicamentoso de manutenção a ser associado às medidas não farmacológicas?",
+"alts": [
+"Amitriptilina 25 mg, por via oral, à noite",
+"Fluoxetina 20 mg, por via oral, pela manhã",
+"Prednisona 20 mg, por via oral, pela manhã",
+"Naproxeno 550 mg, por via oral, de 12 em 12 horas"
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "EULAR revised recommendations for the management of fibromyalgia, 2017; American College of Physicians, manejo da dor crônica musculoesquelética",
+"coment": "Dor musculoesquelética difusa há seis meses, com provas inflamatórias normais, resposta apenas parcial a analgésico e contexto de luto recente, corresponde a dor crônica de mecanismo nociplástico, do espectro da fibromialgia. Entre as opções, a amitriptilina em dose baixa à noite é a que tem evidência nesse cenário: atua sobre dor e sono, os dois sintomas centrais. O tratamento, porém, não se resume ao fármaco — exercício progressivo, educação em dor e abordagem do sofrimento psíquico são o núcleo da conduta.",
+"porAlt": [
+"Correta: amitriptilina em dose baixa à noite, que atua sobre dor e sono.",
+"A fluoxetina não é a primeira escolha para dor com insônia proeminente.",
+"Corticoide não tem indicação: não há inflamação a tratar.",
+"Anti-inflamatório contínuo não trata dor nociplástica e acumula toxicidade gástrica e renal."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Paciente com esofagite erosiva grau C (Los Angeles) foi tratado por 8 semanas com Inibidor de Bomba de Prótons (IBP). Qual conduta é recomendada após esse período?",
+"alts": [
+"Suspender o IBP se assintomático",
+"Suspender o IBP e iniciar H2-bloqueador",
+"Manter IBP apenas se houver sintomas",
+"Manter IBP em dose de manutenção e repetir a endoscopia"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022",
+"coment": "Esofagite erosiva grau C ou D de Los Angeles é doença de refluxo grave, com alta taxa de recidiva e risco de complicações — estenose, sangramento e esôfago de Barrett. Nessas classes, o inibidor de bomba de prótons é mantido em dose de manutenção de forma continuada, e não sob demanda, e recomenda-se endoscopia de controle após oito semanas de tratamento para documentar a cicatrização e pesquisar Barrett subjacente, que só se torna visível depois que a inflamação regride.",
+"porAlt": [
+"Suspender o inibidor de bomba em esofagite grave leva a recidiva e complicações.",
+"Bloqueador H2 é menos eficaz e não substitui o inibidor de bomba nessa gravidade.",
+"O uso sob demanda é adequado à doença não erosiva ou leve, não à esofagite grau C.",
+"Correta: manter dose de manutenção e repetir a endoscopia para documentar cicatrização e pesquisar Barrett."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
 "q": "Homem de 52 anos, obeso e hipertenso, está no terceiro dia de crise de gota confirmada em primeiro pododáctilo, com boa resposta à anti-inflamatória. O ácido úrico é de 9,2 mg/dL e ele já teve três crises no último ano. Nunca usou terapia hipouricemiante. Qual é a conduta correta agora?",
 "alts": [
 "Aguardar a resolução completa da crise por trinta dias antes de iniciar qualquer hipouricemiante.",

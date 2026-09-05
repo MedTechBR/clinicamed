@@ -1,0 +1,288 @@
+[
+ {
+  "q": "Durante investigação de nefrolitíase, uma mulher de 54 anos de idade, com diabetes, hipertensão e histórico de fratura de ossos longos, realiza uma tomografia de abdome que revela nódulo em adrenal esquerda de 2,8 cm, densidade de <10 UH na fase sem contraste. Nega uso de corticoides. Exames laboratoriais: cortisol após 1 mg de dexametasona 2,5 µg/dL (ref.: < 1,8 µg/dL), ACTH plasmático 8 pg/mL (ref.: 7 a 45 pg/mL), aldosterona 9 ng/dL, renina não supressa, DHEAS dentro dos limites da normalidade. Em relação ao caso apresentado, a conduta mais adequada é",
+  "alts": [
+   "Adrenalectomia esquerda",
+   "Tomografia de tórax para estadiamento",
+   "Controle tomográfico em seis meses",
+   "Não são necessárias condutas adicionais"
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESE/ENSAT Clinical Practice Guideline on the management of adrenal incidentalomas, 2023",
+  "coment": "Todo incidentaloma adrenal exige duas perguntas: é funcionante e é maligno? A densidade abaixo de 10 unidades Hounsfield sem contraste caracteriza adenoma rico em lipídios, de comportamento benigno. Já o cortisol de 2,5 µg/dL após 1 mg de dexametasona, com ACTH suprimido no limite inferior, define secreção autônoma de cortisol. Diante de comorbidades potencialmente atribuíveis ao excesso de cortisol — diabetes, hipertensão e fratura por fragilidade —, a diretriz recomenda considerar a adrenalectomia, que pode reverter parte desse dano metabólico e ósseo.",
+  "porAlt": [
+   "Correta: adrenalectomia, indicada pela secreção autônoma de cortisol com comorbidades atribuíveis.",
+   "A densidade abaixo de 10 unidades Hounsfield já caracteriza adenoma, dispensando estadiamento oncológico.",
+   "O seguimento por imagem isolado ignora a secreção autônoma e as comorbidades associadas.",
+   "Não agir deixa sem tratamento um hipercortisolismo subclínico com repercussão metabólica e óssea."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 28 anos de idade, é atendido após ser ferroado na face por inseto não identificado. Cinco minutos após sentir a ferroada, queixou-se de tontura, visão turva e náuseas, evoluindo com perda da consciência logo a seguir. Uma hora após a ferroada, apresentava eritema com edema em toda face, com PA de 80×50 mmHg, FC de 120 bpm, FR de 22 irpm. O exame laboratorial mais adequado para confirmar o diagnóstico é",
+  "alts": [
+   "Cortisol sérico",
+   "IgE específica",
+   "Triptase sérica",
+   "Histamina urinária"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "WAO/EAACI Anaphylaxis Guidance, 2020; ASCIA/consensos sobre triptase sérica na anafilaxia",
+  "coment": "O diagnóstico de anafilaxia é clínico e o tratamento — adrenalina intramuscular na face lateral da coxa — não espera exame algum. Quando se busca confirmação laboratorial retrospectiva, o exame é a triptase sérica, que se eleva a partir de 30 minutos, atinge pico entre 1 e 2 horas e deve ser comparada a uma dosagem basal colhida 24 horas ou mais depois. A IgE específica identifica o alérgeno em investigação posterior, mas não confirma o episódio agudo, e a histamina tem meia-vida curta demais para uso prático.",
+  "porAlt": [
+   "Cortisol não tem papel diagnóstico na anafilaxia.",
+   "A IgE específica identifica sensibilização ao alérgeno, mas não confirma o evento agudo.",
+   "Correta: triptase sérica colhida nas primeiras horas, comparada à dosagem basal posterior.",
+   "A histamina tem meia-vida muito curta e é pouco prática na rotina."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 65 anos de idade, com hipertensão e diabetes, é conduzido ao pronto-socorro por familiares. Foi visto em seu estado basal às 23h da noite anterior, antes de dormir. Ao despertar às 6h, duas horas antes da chegada ao hospital, foi reconhecido com dificuldade para se comunicar e fraqueza em hemicorpo direito. Exame neurológico: afasia global e hemiparesia à direita, com pontuação na escala NIHSS de 11. Tomografia de crânio e angiotomografia intracraniana arterial com ASPECTS 8, ausência de sinais de hemorragia, sem outras alterações. Decidiu-se por prosseguir com ressonância magnética. O conceito essencial para avaliar a elegibilidade e a terapia de reperfusão aguda são",
+  "alts": [
+   "Mismatch Difusão-FLAIR; trombólise química",
+   "Mismatch NIHSS-Difusão; trombólise química",
+   "Mismatch Difusão-FLAIR; trombectomia mecânica",
+   "Mismatch NIHSS-Difusão; trombectomia mecânica"
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019; ensaio WAKE-UP, 2018",
+  "coment": "No acidente vascular cerebral do despertar, o horário de início é desconhecido e o critério de tempo não pode ser aplicado. A estratégia validada é a seleção por imagem: a incompatibilidade entre difusão e FLAIR na ressonância — lesão visível na difusão sem correspondente no FLAIR — indica evento com menos de 4,5 horas e autoriza a trombólise, como demonstrou o ensaio WAKE-UP. A trombectomia mecânica exigiria oclusão de grande vaso, que a angiotomografia não demonstrou neste caso.",
+  "porAlt": [
+   "Correta: incompatibilidade difusão-FLAIR selecionando o paciente para trombólise química.",
+   "A incompatibilidade clínico-radiológica orienta trombectomia em janelas estendidas, com oclusão de grande vaso.",
+   "A trombectomia exige oclusão proximal demonstrada, ausente na angiotomografia.",
+   "Sem oclusão de grande vaso, a trombectomia não se aplica."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 62 anos de idade, apresenta antecedentes de HAS e diabetes melito há cerca de 10 anos. Creatinina basal de 1,8 mg/dL. Comparece no pronto-socorro com sintomas de dor importante em membro inferior direito e dificuldade de locomoção nos últimos 10 dias, com piora há um dia, apesar do uso de ibuprofeno. Apresentou piora de função renal, conforme demonstrado na tabela a seguir, que indica os exames de entrada (D0) e de seguimento durante os primeiros dois dias de internação.\n\nSangue (D0 / D1 / D2):\nCr (ref. 0,72 a 1,25 mg/dL): 5,29 / 6,06 / 6,40\nUr (ref. 9,0 a 44,1 mg/dL): 141 / 169 / 176\nK+ (ref. 3,5 a 5,1 mEq/L): 5,9 / 5,7 / 5,3\nNa+ (ref. 135 a 145 mEq/L): 134 / 134 / 137\npH (ref. 7,35 a 7,45): 7,36 / 7,38 / 7,38\nHCO3- (ref. 22 a 29 mmol/L): 23,2 / 19,2 / 23,1\nGlicose (ref. 70 a 99 mg/dL): 175\nHemoglobina (ref. 12,8 a 17,8 g/dL): 12,3 / 11,5 / 11,7\nLeucócitos (ref. 4,12 a 11,11 mil/mm³): 13.050 / 13.470 / 12.240\nNeutrófilos (ref. 1,57 a 7,97 mil/mm³): 7.310 / 9.730 / 8.170\nLinfócitos (ref. 1,13 a 3,31 mil/mm³): 3.750 / 2.120 / 2.230\nEosinófilos (ref. 0,00 a 0,59 mil/mm³): 470 / 610 / 680\nPlaquetas (ref. 162 a 425 mil/mm³): 368 / 331 / 345\nNT-proBNP (ref. <125 pg/mL): 4.657 / 14.249\n\nUrina tipo 1:\npH (ref. 5,0 a 6,0): 6,0\nDensidade (ref. 1,015 a 1,025): 1,025\nGlicose (ref. ausente): 250 mg/dL\nProteínas (ref. inferior a 0,05 g/L): >1,0\nLeucócitos (ref. até 10/campo): 41\nEritrócitos (ref. até 3/campo): 3\nUrocultura (ref. negativa): Negativa\n\nUltrassonografia dos rins: rim direito mede 10,6 cm (espessura do parênquima: 1,7 cm). Rim esquerdo mede 11,1 cm (espessura do parênquima: 1,6 cm). Em relação ao caso descrito, assinale a alternativa que apresenta, respectivamente, o exame complementar e o tratamento mais adequados",
+  "alts": [
+   "Biópsia renal; prednisona 1 mg/kg",
+   "Hemoglobina glicada; insulinoterapia",
+   "Albumina/creatinina em urina de amostra isolada; dapagliflozina",
+   "ANCA; metilprednisolona em pulsoterapia"
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012; KDIGO 2021 Glomerular Diseases guideline (nefrite intersticial)",
+  "coment": "Lesão renal aguda progressiva em paciente que vinha usando anti-inflamatório não esteroide, sem sinais de obstrução nem de hipovolemia, sugere nefrite intersticial aguda medicamentosa — a tríade clássica de febre, rash e eosinofilia é pouco frequente, e a eosinofilúria tem baixa acurácia. A confirmação, quando a suspensão do fármaco não reverte o quadro e a creatinina continua subindo, é a biópsia renal, seguida de corticoide, que acelera a recuperação da função renal quando iniciado precocemente.",
+  "porAlt": [
+   "Correta: biópsia renal para confirmar nefrite intersticial e corticoide em dose imunossupressora.",
+   "Hemoglobina glicada e insulina não explicam nem tratam a lesão renal aguda em curso.",
+   "Avaliar albuminúria e iniciar inibidor de SGLT2 é conduta de doença renal crônica estável, não de lesão aguda progressiva.",
+   "ANCA e pulsoterapia se aplicam a vasculite, sem elementos clínicos que a sustentem aqui."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 45 anos de idade, em consulta em uma unidade básica de saúde, refere indisposição de início gradativo, redução do ânimo e da energia há 4 meses. Nesse período tem comido mais, principalmente carboidratos. Tem estado um pouco mais irritado e tem sentido menos prazer no bate-papo com os amigos. A investigação clínica não identificou outros sintomas físicos ou mentais. Não apresenta alterações ao exame físico. O paciente acredita que seu caso seja falta de exercício e que, se voltar a correr com seus amigos 4 vezes por semana, como fazia até há um ano, vai melhorar. Comparece à consulta porque seu chefe disse que ele deveria procurar tratamento. Diz não acreditar em psicoterapia e não gosta da ideia de tomar antidepressivos. Além de agendar uma consulta para 4 a 6 semanas, a conduta imediata seria:",
+  "alts": [
+   "Encaminhar para psicoterapia cognitivo-comportamental",
+   "Prescrever inibidor seletivo de recaptura de serotonina",
+   "Orientar e reforçar a necessidade de atividade física",
+   "Indicar fitoterápico Hipericum perforatum"
+  ],
+  "gab": 2,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "NICE guideline on depression in adults: treatment and management, 2022; Ministério da Saúde, Caderno de Atenção Básica de Saúde Mental",
+  "coment": "O quadro corresponde a sintomas depressivos leves, sem ideação suicida, sem prejuízo funcional importante e sem sintomas psicóticos. Nessa faixa de gravidade, as diretrizes recomendam intervenções de menor intensidade antes do antidepressivo: atividade física estruturada, higiene do sono, apoio comportamental e acompanhamento próximo, com reavaliação programada. Isso coincide com a proposta do próprio paciente, o que aumenta a adesão. Antidepressivo entra se não houver melhora ou se o quadro progredir para intensidade moderada a grave.",
+  "porAlt": [
+   "A psicoterapia cognitivo-comportamental é opção válida, mas o passo inicial acordado com o paciente é a atividade física estruturada.",
+   "Antidepressivo não é primeira linha em depressão leve.",
+   "Correta: orientar e apoiar a retomada da atividade física, com reavaliação programada.",
+   "Fitoterápico não é recomendado como conduta padrão e interage com diversos fármacos."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 58 anos de idade, em atendimento em unidade básica de saúde, refere estar “mais ou menos”. Queixa-se de intestino “um pouco preso” e boca seca. Durante a consulta diz estar se sentindo mais tenso, com pouca paciência, preocupando-se demais com pequenos problemas. Refere, ainda, tontura quando se levanta e bebe mais água para a boca seca. Fazia tratamento para pressão alta há 1 ano com captopril irregularmente. Há 2 meses, seu médico anterior disse que ele teria transtorno de ansiedade e prescreveu nortriptilina e, para hipertensão, foi substituído o captopril por enalapril, pois a pressão não baixava. No final da consulta, diz não se dar bem com remédios para a pressão. Reconhece que com frequência não toma os medicamentos para pressão, pois tem preguiça e também, eventualmente, não se lembra. Ao exame físico, apresentou PA de 150×95 mmHg, FC de 74 bpm. Além de abordar aspectos relativos a hábitos e à adesão ao tratamento, a conduta indicada seria substituir",
+  "alts": [
+   "nortriptilina por fluoxetina",
+   "nortriptilina por diazepam",
+   "enalapril por anlodipino",
+   "enalapril por losartana"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "American Geriatrics Society Beers Criteria, 2023; NICE guideline on generalised anxiety disorder, 2020",
+  "coment": "Boca seca, constipação e tontura ortostática em paciente que iniciou nortriptilina compõem a síndrome anticolinérgica dos antidepressivos tricíclicos, formalmente desaconselhados nessa faixa etária pelos critérios de Beers justamente por esses efeitos, além de sedação, confusão, retenção urinária e risco de queda. A conduta é trocar por um inibidor seletivo de recaptação de serotonina, com melhor perfil de tolerabilidade. Benzodiazepínico não corrige o problema e acrescenta risco de dependência e queda.",
+  "porAlt": [
+   "Correta: substituir a nortriptilina por um inibidor seletivo de recaptação de serotonina.",
+   "Diazepam acrescenta sedação e risco de queda, sem tratar a causa dos sintomas.",
+   "O anti-hipertensivo não explica boca seca e constipação, que são anticolinérgicos.",
+   "Trocar entre bloqueadores do sistema renina-angiotensina não resolve os sintomas anticolinérgicos."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 60 anos de idade, queixa-se de dificuldade para iniciar e manter o sono. Deita-se às 21h, adormece com a televisão ligada por volta de 23h e acorda às 8h, com sensação de sono não restaurador e refere sonolência diurna, com escala de sonolência de Epworth de 13 pontos (ref.: até 10). Seu esposo comenta que ela tem roncado e que observou pausas respiratórias. Ela ganhou cinco quilos nos últimos dois anos. Peso atual de 80 kg, altura 1,55 m. Polissonografia: índice de apneia e hipopneia de 45 eventos por hora, com eficiência do sono de 85%. Além de perda de peso e atividade física, o tratamento mais adequado deve incluir",
+  "alts": [
+   "CPAP associado a hipnótico não-benzodiazepínico",
+   "CPAP associado à terapia cognitivo-comportamental",
+   "Terapia cognitivo-comportamental",
+   "Terapia cognitivo-comportamental e hipnótico não-benzodiazepínico"
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AASM Clinical Practice Guideline for the Treatment of Obstructive Sleep Apnea with Positive Airway Pressure, 2019; AASM guideline for the behavioral treatment of chronic insomnia, 2021",
+  "coment": "A paciente tem duas condições sobrepostas: apneia obstrutiva do sono grave, com índice de apneia e hipopneia de 45 eventos por hora, e insônia crônica — combinação conhecida como insônia comórbida à apneia, frequente e frequentemente subtratada. O tratamento adequado trata as duas: CPAP para a apneia e terapia cognitivo-comportamental para insônia, que é a primeira linha e supera o hipnótico em manutenção do efeito. Hipnóticos em apneia não tratada podem prolongar eventos respiratórios e agravar a dessaturação.",
+  "porAlt": [
+   "Hipnótico não é primeira linha para insônia crônica e é problemático em apneia.",
+   "Correta: CPAP para a apneia associado a terapia cognitivo-comportamental para a insônia.",
+   "Tratar apenas a insônia deixa sem tratamento uma apneia grave.",
+   "A terapia cognitivo-comportamental está correta, mas não se acrescenta hipnótico nem se dispensa o CPAP."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Após a promulgação da Constituição Federal de 1988, foram aprovadas duas leis, pelo Congresso Nacional, que são chamadas de leis orgânicas do SUS. Uma delas, a lei n. 8.080/1990, dispõe sobre as transferências intergovernamentais de recursos financeiros na área da saúde. Considerando a legislação mencionada, para que o Governo Federal repasse recursos do SUS para estados e municípios, é necessária a existência de",
+  "alts": [
+   "comissão de elaboração do plano de carreira, cargos e salários e de prontuário eletrônico",
+   "plano diretor de regionalização e de conselho de saúde paritário",
+   "plano de saúde e de central de marcação de consultas e exames",
+   "fundo de saúde e de conselho de saúde paritário"
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Lei nº 8.080/1990 e Lei nº 8.142/1990 — leis orgânicas da saúde; Decreto nº 7.508/2011",
+  "coment": "A Lei nº 8.142/1990 condiciona o repasse regular e automático de recursos federais do Sistema Único de Saúde à existência, em cada ente, de fundo de saúde, conselho de saúde com composição paritária entre usuários e demais segmentos, plano de saúde, relatório de gestão, contrapartida orçamentária e comissão de elaboração do plano de carreira, cargos e salários. Entre as alternativas, a que reúne dois desses requisitos essenciais é fundo de saúde somado a conselho paritário — o fundo garante a vinculação contábil do recurso e o conselho, o controle social.",
+  "porAlt": [
+   "A comissão de plano de carreira é requisito, mas prontuário eletrônico não é condição para repasse.",
+   "Plano diretor de regionalização é instrumento de organização regional, não requisito de repasse.",
+   "Central de marcação não figura entre os requisitos legais.",
+   "Correta: fundo de saúde e conselho de saúde paritário."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Uma associação de pacientes ostomizados de um município pressiona os gestores de saúde para a disponibilização — ou para o financiamento — de bolsas e de capacitação em cuidados com ostomias na atenção primária de saúde. Diante disso, uma médica de uma unidade básica de saúde decide levar a proposta para a reunião do conselho municipal de saúde (CMS). Nesse caso, no que diz respeito ao funcionamento desse conselho, é correto afirmar que",
+  "alts": [
+   "a discussão a respeito dessa proposta deve ser feita na secretaria de saúde municipal, uma vez que a prerrogativa de proposição de novos serviços é do poder executivo",
+   "a participação da associação é vedada nas reuniões, considerando-se que os participantes dos conselhos são trabalhadores e gestores da área da saúde",
+   "a aprovação da capacitação em cuidados com ostomias é possível, diferentemente da aprovação de novos gastos, tais como compra de bolsas de ostomias",
+   "a viabilização da execução do plano cabe à secretaria de saúde, no caso de aprovação da proposta pelo CMS"
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Lei nº 8.142/1990; Resolução CNS nº 453/2012 sobre organização dos conselhos de saúde",
+  "coment": "O conselho de saúde é órgão colegiado permanente e deliberativo, com composição paritária — metade de usuários e metade dividida entre trabalhadores, gestores e prestadores — e competência para formular estratégias e controlar a execução da política de saúde, inclusive nos aspectos econômicos e financeiros. Associações de usuários podem propor pautas e participar. Aprovada a proposta no conselho, cabe à secretaria de saúde viabilizar a execução, incorporando-a ao planejamento e ao orçamento.",
+  "porAlt": [
+   "A proposição não é prerrogativa exclusiva da secretaria: o conselho é espaço deliberativo com participação dos usuários.",
+   "A participação de usuários é justamente a base da composição paritária do conselho.",
+   "O conselho delibera também sobre aspectos econômicos e financeiros, incluindo aquisição de insumos.",
+   "Correta: aprovada a proposta pelo conselho, cabe à secretaria viabilizar a execução."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Uma paciente de 46 anos, vendedora de roupas, é atendida em consulta ambulatorial por médico de família relatando dor constante em região do pescoço, em região superior do dorso e em ambos os braços há 6 meses. Apresenta, também, dor nas pernas, as quais atribui ao trabalho, pois fica em pé por horas. Ela relata duas avaliações prévias nas quais realizou exames laboratoriais, com hemograma e VHS normais. Foram prescritos analgésicos, nas outras ocasiões, os quais proporcionaram pequena melhora temporária no quadro. A paciente relata que ficou viúva há 1 ano e que cuida sozinha dos dois filhos pequenos, sendo responsável pelo sustento financeiro da casa. Informa que as dificuldades financeiras têm tirado seu sono e que ela tem estado muito cansada e com a memória ruim. Ao exame físico, apresenta dor à palpação da região occipital, do pescoço e do tórax superior. Suas articulações estão preservadas, sem dor nem edema. O exame físico apresenta-se sem outras anormalidades. Em relação ao provável diagnóstico, qual deve ser o tratamento medicamentoso de manutenção a ser associado às medidas não farmacológicas?",
+  "alts": [
+   "Amitriptilina 25 mg, por via oral, à noite",
+   "Fluoxetina 20 mg, por via oral, pela manhã",
+   "Prednisona 20 mg, por via oral, pela manhã",
+   "Naproxeno 550 mg, por via oral, de 12 em 12 horas"
+  ],
+  "gab": 0,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "EULAR revised recommendations for the management of fibromyalgia, 2017; American College of Physicians, manejo da dor crônica musculoesquelética",
+  "coment": "Dor musculoesquelética difusa há seis meses, com provas inflamatórias normais, resposta apenas parcial a analgésico e contexto de luto recente, corresponde a dor crônica de mecanismo nociplástico, do espectro da fibromialgia. Entre as opções, a amitriptilina em dose baixa à noite é a que tem evidência nesse cenário: atua sobre dor e sono, os dois sintomas centrais. O tratamento, porém, não se resume ao fármaco — exercício progressivo, educação em dor e abordagem do sofrimento psíquico são o núcleo da conduta.",
+  "porAlt": [
+   "Correta: amitriptilina em dose baixa à noite, que atua sobre dor e sono.",
+   "A fluoxetina não é a primeira escolha para dor com insônia proeminente.",
+   "Corticoide não tem indicação: não há inflamação a tratar.",
+   "Anti-inflamatório contínuo não trata dor nociplástica e acumula toxicidade gástrica e renal."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Paciente com esofagite erosiva grau C (Los Angeles) foi tratado por 8 semanas com Inibidor de Bomba de Prótons (IBP). Qual conduta é recomendada após esse período?",
+  "alts": [
+   "Suspender o IBP se assintomático",
+   "Suspender o IBP e iniciar H2-bloqueador",
+   "Manter IBP apenas se houver sintomas",
+   "Manter IBP em dose de manutenção e repetir a endoscopia"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022",
+  "coment": "Esofagite erosiva grau C ou D de Los Angeles é doença de refluxo grave, com alta taxa de recidiva e risco de complicações — estenose, sangramento e esôfago de Barrett. Nessas classes, o inibidor de bomba de prótons é mantido em dose de manutenção de forma continuada, e não sob demanda, e recomenda-se endoscopia de controle após oito semanas de tratamento para documentar a cicatrização e pesquisar Barrett subjacente, que só se torna visível depois que a inflamação regride.",
+  "porAlt": [
+   "Suspender o inibidor de bomba em esofagite grave leva a recidiva e complicações.",
+   "Bloqueador H2 é menos eficaz e não substitui o inibidor de bomba nessa gravidade.",
+   "O uso sob demanda é adequado à doença não erosiva ou leve, não à esofagite grau C.",
+   "Correta: manter dose de manutenção e repetir a endoscopia para documentar cicatrização e pesquisar Barrett."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ }
+]

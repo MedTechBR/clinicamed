@@ -1,0 +1,314 @@
+[
+ {
+  "q": "Paciente no segundo dia de ventilação mecânica, em modo volume controlado, com volume corrente de 7 mL/kg, PEEP de 10 cmH2O, pressão de platô de 27 cmH2O, pressão de pico de 33 cmH2O, FR de 30 irpm, FiO2 de 70%, apresenta a seguinte gasometria:\n\npH: 7,19\nPaCO2: 55 mmHg\nPaO2: 112 mmHg\nHCO3-: 19 mEq/L\nBE: -5\n\nNeste momento, a conduta mais adequada é",
+  "alts": [
+   "Aumentar a PEEP",
+   "Bicarbonato de sódio 1 mEq/kg",
+   "Reduzir volume corrente",
+   "Reduzir o espaço morto do circuito"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ATS/ESICM/SCCM Clinical Practice Guideline on mechanical ventilation in adults with ARDS, 2023; conceitos de ventilação protetora",
+  "coment": "O paciente está em acidose respiratória com volume corrente já protetor, pressão de platô no limite e frequência alta — não há folga para aumentar volume corrente nem frequência sem gerar autoPEEP. A manobra correta é reduzir o espaço morto do circuito, retirando extensões, filtro trocador de calor e umidade ou peça em Y desnecessária: isso aumenta a ventilação alveolar efetiva sem elevar pressões. Bicarbonato não corrige a causa e gera mais CO₂; aumentar PEEP piora a pressão de platô; reduzir o volume corrente agravaria a hipercapnia.",
+  "porAlt": [
+   "Aumentar a PEEP elevaria a pressão de platô, já em 27, sem corrigir a hipercapnia.",
+   "Bicarbonato gera mais CO₂ e não trata a causa da acidose respiratória.",
+   "Reduzir o volume corrente agravaria a hipercapnia, sem necessidade: 7 mL/kg já é protetor.",
+   "Correta: reduzir o espaço morto do circuito, aumentando a ventilação alveolar sem elevar pressões."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 45 anos de idade, em reabilitação após trauma raquimedular, em uso de paracetamol, codeína e carbamazepina há três semanas. Apresenta-se sem edemas, está alerta e com capacidade normal de se alimentar, sem restrição dietética em prescrição, com PA de 110×70 mmHg e FC de 85 bpm, afebril.\n\nExames laboratoriais:\nCr: 0,88 mg/dL\nUr: 40 mg/dL\nK+: 4,2 mEq/L\nNa+: 126 mEq/L\npH: 7,37\nHCO3-: 23,7 mmol/L\nTSH: 1,33 µUI/mL\n\nUrina tipo 1:\npH: 5,5 (ref.: 5,0 a 6,0)\nDensidade: 1,020 (ref.: 1,015 a 1,025)\nGlicose: ausente (ref.: ausente)\nProteínas: < 0,05 g/L (ref.: < 0,05 g/L)\nLeucócitos: 2/campo (ref.: até 10/campo)\nEritrócitos: 1/campo (ref.: até 3/campo)\n\nEm relação ao caso descrito, assinale a alternativa que apresenta os resultados mais prováveis e as condutas mais adequadas",
+  "alts": [
+   "Osmolalidade urinária 95 mOsm/kg H2O, sódio urinário 15 mmol/L; suspender a carbamazepina e prescrever restrição hídrica",
+   "Osmolalidade urinária 95 mOsm/kg H2O, sódio urinário 63 mmol/L; prescrever diurético de alça",
+   "Osmolalidade urinária 794 mOsm/kg H2O, sódio urinário 15 mmol/L; prescrever 100 mL de solução salina intravenosa 3% em 30 minutos",
+   "Osmolalidade urinária 794 mOsm/kg H2O, sódio urinário 63 mmol/L; suspender a carbamazepina e prescrever restrição hídrica"
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "European guideline on diagnosis and treatment of hyponatraemia, 2014; American Geriatrics Society Beers Criteria, 2023",
+  "coment": "Hiponatremia em paciente euvolêmico, sem edema, sem restrição dietética e com função tireoidiana normal, em uso de carbamazepina, é a apresentação típica da síndrome de secreção inapropriada de hormônio antidiurético induzida por fármaco. O padrão laboratorial que confirma é urina inapropriadamente concentrada — osmolalidade urinária alta — com sódio urinário elevado, acima de 30 a 40 mmol/L, refletindo excreção de sódio preservada. Sendo assintomática e crônica, o tratamento é retirar o agente causal e restringir líquidos, sem salina hipertônica.",
+  "porAlt": [
+   "Urina diluída com sódio urinário baixo indicaria polidipsia primária ou ingestão excessiva de água.",
+   "Urina diluída afasta a secreção inapropriada e diurético de alça não é o tratamento indicado.",
+   "A salina hipertônica se reserva à hiponatremia sintomática grave, e a paciente está alerta.",
+   "Correta: osmolalidade urinária alta com sódio urinário elevado; suspender carbamazepina e restringir líquidos."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 60 anos de idade, admitida na emergência com sepse de foco abdominal. Recebeu ressuscitação volêmica inicial de 30 mL/kg e ceftriaxona, mantendo tempo de enchimento capilar prolongado, PA de 80×60 mmHg e FC de 130 bpm. Foi realizada manobra de elevação passiva dos membros inferiores, com mudança do Velocity Time Index da via de saída do ventrículo esquerdo de 13%. Assinale a alternativa que apresenta a conduta mais adequada",
+  "alts": [
+   "Iniciar noradrenalina",
+   "Iniciar dobutamina",
+   "Aguardar resultado de lactato arterial",
+   "Nova expansão volêmica com cristaloide"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Surviving Sepsis Campaign — International Guidelines for Management of Sepsis and Septic Shock, 2021; consensos sobre avaliação dinâmica de fluidorresponsividade",
+  "coment": "A elevação passiva dos membros inferiores funciona como uma prova de volume reversível: variação do integral velocidade-tempo da via de saída do ventrículo esquerdo acima de 10 a 12% indica que o paciente é fluidorresponsivo, ou seja, ainda ganha débito cardíaco com volume. Com 13% de variação e sinais de hipoperfusão persistente, a conduta é nova expansão com cristaloide, reavaliando de forma dinâmica a cada etapa. Vasopressor entra quando a hipotensão persiste apesar de volume adequado ou quando o paciente deixa de ser responsivo.",
+  "porAlt": [
+   "Noradrenalina seria a escolha se o paciente não fosse mais fluidorresponsivo ou se houvesse hipotensão grave persistente após volume.",
+   "Dobutamina se destina a disfunção miocárdica documentada com baixo débito.",
+   "Aguardar o lactato retarda a ressuscitação de um paciente com sinais claros de hipoperfusão.",
+   "Correta: nova expansão volêmica, indicada pela resposta positiva à elevação passiva das pernas."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 47 anos de idade, com cirrose hepática alcoólica em estágio CHILD C, em lista para transplante hepático, foi internada por hemorragia digestiva alta por varizes esofágicas e evoluiu com Acute-on-Chronic Liver Failure (ACLF). No segundo dia de internação na UTI, encontra-se em RASS -1 sem sedação contínua, ventilação mecânica em modo pressão de suporte (PEEP 5 cmH2O, FiO2 35%, pressão de suporte de 10 cmH2O), em uso de noradrenalina 0,6 µg/kg/min e em hemodiafiltração venovenosa contínua, apresentando nova piora da acidose metabólica. A conduta mais adequada é",
+  "alts": [
+   "Avaliação da cetonemia",
+   "Avaliação do gap osmolar",
+   "Dosagem de sódio, INR e fator V",
+   "Dosagem de relação cálcio total/cálcio iônico"
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012; KDIGO controversies conference on CRRT e anticoagulação regional com citrato, 2023",
+  "coment": "Piora inexplicada da acidose metabólica em paciente cirrótico sob hemodiafiltração contínua levanta a suspeita de acúmulo de citrato, quando se usa anticoagulação regional: o fígado insuficiente não metaboliza o citrato, que quela cálcio e produz acidose com hipocalcemia iônica. O marcador é a relação entre cálcio total e cálcio iônico — valor acima de 2,5 confirma o acúmulo. A conduta é reduzir ou suspender o citrato, ajustar a reposição de cálcio e reavaliar a estratégia de anticoagulação do circuito.",
+  "porAlt": [
+   "A cetonemia investiga cetoacidose, improvável nesse contexto sob terapia contínua.",
+   "O gap osmolar investiga intoxicação por álcoois tóxicos, sem relação com o quadro.",
+   "Sódio, INR e fator V avaliam função hepática, mas não explicam a acidose sob terapia contínua com citrato.",
+   "Correta: relação cálcio total sobre cálcio iônico, para identificar acúmulo de citrato."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Paciente com carcinoma renal de células claras metastático para pulmão, ossos e fígado, com progressão de doença após duas linhas de tratamento prévias, procura o pronto-socorro por quadro de confusão, hiporexia e edema de membros inferiores. Ao exame clínico, apresenta Glasgow 14, FC de 110 bpm.\n\nExames laboratoriais:\nHb: 6,8 g/dL\nAlbumina: 2,8 g/dL\nFA: 1150 U/L\nTGO/AST: 62 U/L\nTGP/ALT: 88 U/L\nBilirrubina total: 1,5 mg/dL\nCr: 1,2 mg/dL\nFósforo: 2,5 mg/dL\n\nEm casa, permanecia a maior parte do tempo sentado ou deitado nas últimas duas semanas. Em relação ao caso apresentado, as condutas mais adequadas são",
+  "alts": [
+   "Dosagem de cálcio sérico e realização de tomografia de crânio com contraste",
+   "Dosagem de amônia e realização de tomografia de crânio sem contraste",
+   "Transfusão de concentrado de hemácias e reposição de fósforo",
+   "Infusão de albumina e dosagem de cálcio sérico"
+  ],
+  "gab": 0,
+  "tema": "onco",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ASCO Guideline on Management of Hypercalcemia of Malignancy, 2023; ESMO Clinical Practice Guidelines on bone health in cancer, 2020",
+  "coment": "Confusão mental, hiporexia e desidratação em paciente com neoplasia metastática para ossos, com fosfatase alcalina muito elevada, apontam para hipercalcemia da malignidade — a emergência metabólica mais comum em oncologia. A avaliação imediata é dosar cálcio, corrigido pela albumina ou preferencialmente o cálcio iônico, e afastar metástase cerebral por imagem com contraste. O tratamento é hidratação vigorosa com salina, bisfosfonato ou denosumabe e, quando há dúvida, calcitonina para efeito rápido; corticoide é útil em causas mediadas por calcitriol.",
+  "porAlt": [
+   "Correta: dosar cálcio sérico e obter imagem de crânio com contraste, buscando hipercalcemia e metástase.",
+   "A amônia investiga encefalopatia hepática, hipótese secundária diante do padrão colestático sem cirrose.",
+   "Transfusão e reposição de fósforo tratam achados secundários e não a causa da confusão.",
+   "Albumina não trata o quadro e a dosagem de cálcio sozinha, sem imagem, é insuficiente."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 45 anos de idade, com antecedente de trauma raquimedular, em uso crônico de baclofeno e olanzapina, é internado na UTI por sepse secundária à infecção urinária. Durante a internação, evoluiu com delirium hiperativo, necessitando de doses de resgate de haloperidol endovenoso, por impossibilidade de utilização da via oral. No terceiro dia de UTI, passou a apresentar febre persistente de 39 °C, tremores e espasticidade, mantendo FC de 140 bpm, PA de 140×60 mmHg, FR de 25 irpm, SpO2 de 95% em ar ambiente. Em relação ao caso descrito, assinale a alternativa que apresenta a conduta mais adequada, após a passagem de sonda nasoenteral",
+  "alts": [
+   "Iniciar bromocriptina e diazepam",
+   "Retornar baclofeno e iniciar dexmedetomedina",
+   "Retornar baclofeno e iniciar dantrolene",
+   "Suspender haloperidol e iniciar amantadina"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Revisões e consensos sobre síndrome de retirada do baclofeno, 2021; American Psychiatric Association, Practice Guideline for Schizophrenia, 2020 (síndrome neuroléptica maligna)",
+  "coment": "Febre alta, tremores e espasticidade em paciente com lesão medular cujo baclofeno foi interrompido pela impossibilidade da via oral configuram síndrome de retirada do baclofeno — quadro que imita a síndrome neuroléptica maligna e a hipertermia maligna, mas cuja cura é restituir o fármaco. A conduta é reintroduzir o baclofeno pela via disponível e controlar a hiperatividade adrenérgica com sedação, sendo a dexmedetomidina uma opção adequada. Reconhecer a retirada evita tratar o paciente indefinidamente como síndrome neuroléptica maligna.",
+  "porAlt": [
+   "Bromocriptina e benzodiazepínico tratariam síndrome neuroléptica maligna, sem restituir o baclofeno.",
+   "Correta: reintroduzir o baclofeno e associar sedação, reconhecendo a síndrome de retirada.",
+   "Dantroleno é para hipertermia maligna e casos graves de síndrome neuroléptica, e não substitui a reintrodução do baclofeno.",
+   "Suspender haloperidol é razoável, mas amantadina não trata a causa, que é a retirada do baclofeno."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 59 anos de idade, internada na UTI por quadro de pneumonia comunitária grave, sob ventilação mecânica. Após 12 horas, apresenta piora progressiva da oxigenação. Ao exame clínico, encontra-se com PA de 90×60 mmHg, em uso de noradrenalina 0,15 µg/kg/min, SpO2 de 88%, FiO2 de 100%, em modo controlado a volume com Vc 360 mL (6 mL/kg); FR de 30 irpm; PEEP 8 cmH2O; pressão de platô 28 cmH2O. Radiografia de tórax com opacidades bilaterais extensas. Ecocardiograma: dilatação discreta do ventrículo direito, sem disfunção do ventrículo esquerdo. Assinale a alternativa que apresenta a conduta mais adequada",
+  "alts": [
+   "Posição prona",
+   "Trombólise",
+   "Recrutamento alveolar",
+   "Diureticoterapia"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ATS/ESICM/SCCM Clinical Practice Guideline on mechanical ventilation in adults with ARDS, 2023; ensaio PROSEVA, 2013",
+  "coment": "Hipoxemia grave com opacidades bilaterais e ventilação já protetora — volume corrente de 6 mL/kg e pressão de platô controlada — caracteriza síndrome do desconforto respiratório agudo grave, com relação entre PaO₂ e FiO₂ muito baixa. A intervenção com redução comprovada de mortalidade nesse cenário é a posição prona por pelo menos 16 horas por dia, conforme o ensaio PROSEVA. Manobras de recrutamento agressivas foram associadas a dano no estudo ART, trombólise não se aplica sem embolia confirmada, e diurético não trata edema não hidrostático.",
+  "porAlt": [
+   "Correta: posição prona, medida com redução de mortalidade na síndrome do desconforto respiratório agudo grave.",
+   "Trombólise não se justifica sem embolia pulmonar confirmada e com quadro pulmonar bilateral explicado.",
+   "Manobras de recrutamento agressivas associaram-se a maior mortalidade no ensaio ART.",
+   "Diurético não trata o edema não hidrostático da lesão pulmonar aguda."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 38 anos de idade, sem antecedentes, procura atendimento com queixa de náuseas, vômitos e dor abdominal há 1 dia. Nega uso de medicações. Ao exame clínico, apresenta-se em regular estado geral, desidratado 2/4+, FR de 30 irpm, Glasgow 13, pupilas reagentes. Exame abdominal sem alterações significativas.\n\nExames laboratoriais:\npH: 7,10\nPaCO2: 15 mmHg\nHCO3-: 4 mEq/L\nNa+: 140 mEq/L\nCl-: 100 mEq/L\nGlicose: 100 mg/dL\nUr: 20 mg/dL\nCr: 1,1 mg/dL\nLactato: 2,5 mg/dL\nOsmolaridade medida: 330 mOsm/kg\n\nA conduta terapêutica prioritária após começo da volemia com hidratação e da acidose com bicarbonato é",
+  "alts": [
+   "Fomepizol",
+   "Carvão ativado",
+   "Hidroxicobalamina",
+   "Diálise"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "American Academy of Clinical Toxicology — Practice Guidelines on the Treatment of Methanol and Ethylene Glycol Poisoning, atualização de 2022; Ministério da Saúde, Diretrizes de atenção às intoxicações exógenas, 2020",
+  "coment": "Acidose metabólica grave com ânion-gap muito elevado e gap osmolar aumentado — osmolaridade medida de 330 contra calculada em torno de 290 —, com lactato normal e sem cetose ou uremia, é o padrão da intoxicação por álcool tóxico: metanol ou etilenoglicol. O antídoto é o fomepizol, inibidor da álcool desidrogenase, que impede a formação dos metabólitos tóxicos; etanol é alternativa quando não há fomepizol. A hemodiálise se associa nos casos graves, com acidose refratária, alteração visual ou níveis muito altos, mas o antídoto vem primeiro.",
+  "porAlt": [
+   "Correta: fomepizol, antídoto que bloqueia a formação dos metabólitos tóxicos.",
+   "Carvão ativado não adsorve álcoois de baixo peso molecular.",
+   "Hidroxicobalamina é antídoto para intoxicação por cianeto.",
+   "A diálise é adjuvante importante, mas a prioridade terapêutica imediata é o antídoto."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 45 anos de idade, submetida à ultrassonografia cervical por conta de nódulo tireoideano palpado durante a consulta de rotina. Seu médico a tranquilizou, pois os achados do exame não eram suspeitos para malignidade. O laudo mais provável deste exame é",
+  "alts": [
+   "Nódulo isoecoico com microcalcificações",
+   "Nódulo sólido-cístico com margens mal definidas",
+   "Nódulo predominantemente cístico com focos hiperrefringentes",
+   "Nódulo marcadamente hipoecoico e mais alto do que largo"
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACR TI-RADS, 2017; ATA Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer, 2015",
+  "coment": "Na ultrassonografia de tireoide, o padrão espongiforme ou predominantemente cístico, com focos ecogênicos correspondentes a artefato em cauda de cometa, tem risco de malignidade muito baixo e dispensa punção na maioria dos casos. Os achados suspeitos são os opostos: nódulo sólido marcadamente hipoecoico, mais alto do que largo, margens irregulares ou lobuladas, extensão extratireoidiana e microcalcificações. A conduta se define pela combinação desses achados com o tamanho, seguindo sistemas de classificação como o TI-RADS.",
+  "porAlt": [
+   "Microcalcificações são achado suspeito de malignidade.",
+   "Margens mal definidas configuram achado suspeito.",
+   "Correta: nódulo predominantemente cístico com focos hiperrefringentes, padrão de baixo risco.",
+   "Nódulo marcadamente hipoecoico e mais alto do que largo é o padrão de maior suspeição."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 19 anos de idade, com diagnóstico de diabetes melito tipo 1 há cinco anos. É trazida no pronto-socorro, onde foi realizado diagnóstico de cetoacidose diabética. Exames iniciais apresentaram:\n\nGlicemia capilar: 550 mg/dL\npH: 7,10\nHCO3-: 8 mEq/L\nNa+: 130 mEq/L\nK+: 5,8 mEq/L\nUr: 60 mg/dL\nCr: 1,5 mg/dL\nCetonas séricas: +++/4+\n\nFoi iniciada hidratação venosa com NaCl 0,9% e insulinoterapia intravenosa contínua (0,1 U/kg/h). Após quatro horas de tratamento, a paciente está mais alerta, a glicemia é de 240 mg/dL, e os novos exames mostram:\n\npH: 7,25\nHCO3-: 15 mEq/L\nK+: 3,5 mEq/L\n\nA próxima conduta mais adequada é",
+  "alts": [
+   "Manter a infusão de insulina e adicionar solução glicosada",
+   "Administrar cloreto de potássio na solução de hidratação venosa",
+   "Aumentar a taxa de infusão da solução salina isotônica",
+   "Trocar a insulina por NPH subcutânea e oferecer dieta"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "American Diabetes Association — Standards of Care in Diabetes, 2025; consenso ADA/EASD sobre manejo de crise hiperglicêmica, 2024",
+  "coment": "Na cetoacidose diabética, a insulina desloca potássio para dentro da célula, e o potássio total do organismo já está depletado mesmo quando o valor sérico inicial parece alto. Por isso, a reposição começa quando o potássio cai abaixo de 5,2 a 5,3 mEq/L, mantendo-se a insulina, com o objetivo de manter o valor entre 4 e 5. Se o potássio inicial estivesse abaixo de 3,3, a insulina deveria ser adiada até a reposição. A solução glicosada entra quando a glicemia chega a 200 a 250 mg/dL, momento também próximo neste caso.",
+  "porAlt": [
+   "Adicionar glicose é etapa correta próxima, mas a prioridade após a queda do potássio é repô-lo.",
+   "Correta: iniciar reposição de potássio, que cai rapidamente sob insulinoterapia.",
+   "Aumentar a salina isotônica não corrige o distúrbio eletrolítico em curso.",
+   "A transição para insulina subcutânea só ocorre após resolução da cetoacidose, com ânion-gap normalizado."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 47 anos de idade, com quadro súbito de vertigem enquanto praticava atividade física na academia há seis horas. Também refere diplopia binocular, que melhora ao fechar um dos olhos, e sensação de que é empurrado para direita. Nega antecedentes médicos ou uso de medicações. Apresenta PA de 180×100 mmHg, FC de 110 bpm, glicemia capilar de 93 mg/dL. Ao exame neurológico, apresenta nistagmo horizontal para esquerda, desalinhamento vertical (com olho hipotrópico à direita) e pupila miótica à direita. Realizou tomografia de crânio sem contraste que não mostrou alterações. Assinale a alternativa que apresenta a próxima conduta mais adequada",
+  "alts": [
+   "Executar as manobras de Dix-Hallpike e de Epley",
+   "Administrar dimenidrato e nitroprussiato de sódio IV",
+   "Trombólise com alteplase 0,9 mg/kg intravenosa",
+   "Angiotomografia arterial cervical e intracraniana"
+  ],
+  "gab": 3,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019; recomendações sobre dissecção arterial cervical",
+  "coment": "Vertigem de início súbito durante esforço, com diplopia binocular, desalinhamento vertical, nistagmo e miose ipsilateral — sugerindo síndrome de Horner —, configura síndrome vestibular aguda central, provavelmente por dissecção de artéria vertebral com isquemia de fossa posterior. A tomografia simples é frequentemente normal nessa topografia, e o exame indicado é a angiotomografia arterial cervical e intracraniana. Tratar como vertigem periférica com manobras é o erro que atrasa o diagnóstico e permite a progressão do acidente vascular cerebral.",
+  "porAlt": [
+   "Manobras de Dix-Hallpike e Epley se aplicam à vertigem posicional periférica, incompatível com diplopia e Horner.",
+   "Sintomáticos com anti-hipertensivo intravenoso não investigam nem tratam a causa.",
+   "A trombólise poderia ser considerada, mas antes é preciso caracterizar a lesão vascular por angiotomografia.",
+   "Correta: angiotomografia arterial cervical e intracraniana, buscando dissecção vertebral."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 78 anos de idade, foi encontrado desacordado em casa e levado ao pronto-socorro. No caminho ao hospital, apresentou crise convulsiva tônica-clônica bilateral com duração de menos de dois minutos, sendo medicado com midazolam intramuscular. Tem diagnóstico recente de nevralgia do trigêmeo e iniciou carbamazepina 400 mg/dia há 15 dias. Ao exame clínico, apresenta-se sonolento, sem rigidez de nuca, localiza estímulos dolorosos e emite sons guturais. Sem outras alterações ao exame neurológico. PA de 110×70 mmHg, FC de 98 bpm e glicemia capilar de 89 mg/dL. Tomografia de crânio sem contraste mostrou discreta atrofia cortical, sem outras alterações.\n\nExames laboratoriais:\nHb: 11,4 g/dL\nLeucócitos: 7.600/mm³\nPlaquetas: 168.000/mm³\nUr: 54 mg/dL\nCr: 0,9 mg/dL\nNa+: 113 mEq/L\nK+: 4,2 mEq/L\n\nO fármaco anticrise mais adequado no tratamento agudo deste paciente é",
+  "alts": [
+   "Fenitoína 10 a 20 mg/kg intravenosa",
+   "Midazolam em infusão contínua",
+   "Levetiracetam 1.000 mg por sonda",
+   "Não são necessários fármacos anticrise"
+  ],
+  "gab": 3,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ILAE — definição e manejo de crises sintomáticas agudas; American Epilepsy Society guideline on convulsive status epilepticus, 2016",
+  "coment": "Crise única, autolimitada, em contexto de causa aguda identificável — no caso, provável hiponatremia induzida por carbamazepina iniciada há duas semanas — é crise sintomática aguda, não epilepsia. O tratamento é corrigir a causa e suspender o fármaco desencadeante, sem indicação de anticonvulsivante de manutenção nem de dose de ataque, uma vez que a crise já cessou e o paciente não está em estado de mal. Iniciar antiepiléptico crônico nesse cenário expõe o paciente a efeitos adversos sem reduzir recorrência.",
+  "porAlt": [
+   "A dose de ataque de fenitoína se destina ao estado de mal, não a crise única já encerrada.",
+   "Midazolam contínuo é tratamento do estado de mal refratário.",
+   "Levetiracetam de manutenção não está indicado em crise sintomática aguda com causa reversível.",
+   "Correta: nenhum anticonvulsivante é necessário; corrige-se a causa e suspende-se o fármaco desencadeante."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ }
+]
