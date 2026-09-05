@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Paciente com hipertensão e apneia obstrutiva do sono não tratada mantém pressão descontrolada. Qual é a conduta?",
+  "alts": [
+   "Tratar a apneia com pressão positiva além do anti-hipertensivo, buscando sempre o controle pressórico combinado.",
+   "Aumentar indefinidamente a dose dos anti-hipertensivos sem qualquer tratamento da apneia obstrutiva do sono já.",
+   "Ignorar a apneia, pois ela não guarda qualquer relação com o controle da pressão arterial do paciente agora.",
+   "Suspender todos os anti-hipertensivos e tratar apenas a apneia obstrutiva do sono como medida isolada agora já.",
+   "Prescrever apenas hipnótico noturno como estratégia para o controle da pressão arterial nesse paciente agora."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; AASM/AHA statement on obstructive sleep apnea and cardiovascular disease, revisão 2023",
+  "coment": "A apneia obstrutiva do sono é causa secundária frequente de hipertensão resistente, produzindo hipoxemia intermitente, ativação simpática e ausência de descenso noturno da pressão. O tratamento com pressão positiva contínua reduz modestamente a pressão arterial, com efeito maior nos pacientes resistentes e com boa adesão, e deve complementar — nunca substituir — a terapia anti-hipertensiva otimizada e as medidas de estilo de vida, incluindo perda de peso.",
+  "porAlt": [
+   "Correta: tratar a apneia com pressão positiva além do anti-hipertensivo, buscando controle combinado.",
+   "Aumentar fármacos sem tratar a causa secundária mantém a resistência ao tratamento pressórico.",
+   "A apneia é causa secundária reconhecida de hipertensão resistente e precisa ser tratada.",
+   "O tratamento da apneia reduz modestamente a pressão e não substitui o anti-hipertensivo.",
+   "O hipnótico não trata a apneia e pode agravar os eventos obstrutivos durante o sono."
+  ]
+ },
+ {
+  "q": "Paciente com insuficiência cardíaca avançada e internações repetidas apesar de terapia otimizada. Qual é a conduta?",
+  "alts": [
+   "Avaliar para terapias avançadas e discutir sempre objetivos de cuidado com abordagem paliativa integrada.",
+   "Aumentar indefinidamente a dose do diurético como única estratégia diante das internações repetidas.",
+   "Suspender todos os fármacos que reduzem mortalidade diante das internações repetidas do paciente agora.",
+   "Manter exatamente a mesma conduta sem qualquer reavaliação ou discussão de objetivos de cuidado agora.",
+   "Indicar apenas repouso absoluto no leito como estratégia para reduzir as internações desse paciente."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024; ESC Heart Failure Guidelines, 2021 com atualização 2023",
+  "coment": "A insuficiência cardíaca avançada é definida por sintomas graves persistentes, internações repetidas e disfunção grave apesar de terapia otimizada. A conduta é avaliar para terapias avançadas — transplante e dispositivo de assistência ventricular — em pacientes elegíveis, e integrar cuidados paliativos, com discussão de objetivos de cuidado, controle de sintomas, planejamento antecipado e decisões sobre desativação de dispositivos, independentemente da elegibilidade.",
+  "porAlt": [
+   "Correta: avaliar terapias avançadas e integrar cuidados paliativos com discussão de objetivos.",
+   "Aumentar apenas o diurético não modifica a progressão e agrava disfunção renal e eletrolítica.",
+   "Suspender os fármacos que reduzem mortalidade acelera a deterioração clínica do paciente.",
+   "Manter a mesma conduta diante de internações repetidas ignora o estágio avançado da doença.",
+   "O repouso absoluto agrava o descondicionamento e não reduz internações por descompensação."
+  ]
+ },
+ {
+  "q": "Paciente com sopro diastólico em foco aórtico e pressão de pulso alargada, assintomático. Qual é a conduta?",
+  "alts": [
+   "Confirmar por ecocardiograma e acompanhar com seguimento seriado, avaliando sempre função e diâmetro ventricular.",
+   "Indicar cirurgia valvar imediata em todos os pacientes assintomáticos com sopro diastólico em foco aórtico agora.",
+   "Prescrever apenas diurético em dose alta como tratamento definitivo da valvopatia identificada no exame agora.",
+   "Ignorar completamente o achado, pois sopro diastólico em paciente assintomático nunca tem significado clínico.",
+   "Iniciar anticoagulação plena imediata em todos os pacientes com sopro diastólico em foco aórtico neste caso."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ESC/EACTS Guidelines for the management of valvular heart disease, 2021; Diretriz Brasileira de Valvopatias — SBC, revisão 2023",
+  "coment": "Sopro diastólico é sempre patológico e, em foco aórtico com pressão de pulso alargada, sugere insuficiência aórtica. A avaliação é ecocardiográfica, quantificando a gravidade e medindo diâmetros e função do ventrículo esquerdo. No paciente assintomático com função preservada, o seguimento é seriado, e a cirurgia é indicada quando surgem sintomas, quando a fração de ejeção cai abaixo de cinquenta por cento ou quando há dilatação ventricular significativa.",
+  "porAlt": [
+   "Correta: confirmar por ecocardiograma e acompanhar seriadamente função e diâmetros ventriculares.",
+   "A cirurgia se indica por sintomas, queda da fração de ejeção ou dilatação, e não a todo sopro.",
+   "O diurético alivia congestão quando presente, mas não trata a lesão valvar nem altera o curso.",
+   "Sopro diastólico é sempre patológico e exige investigação, mesmo em paciente assintomático.",
+   "A anticoagulação não é indicada pela insuficiência aórtica isolada em ritmo sinusal."
+  ]
+ },
+ {
+  "q": "Paciente com taquicardia de QRS largo, regular, a 180 bpm, com instabilidade hemodinâmica. Qual é a conduta?",
+  "alts": [
+   "Cardioversão elétrica sincronizada imediata, tratando sempre como taquicardia ventricular até prova em contrário.",
+   "Adenosina em bolus rápido como primeira medida no paciente instável com taquicardia de QRS largo neste caso.",
+   "Aguardar a definição eletrofisiológica do ritmo antes de qualquer intervenção no paciente instável descrito.",
+   "Iniciar betabloqueador oral e observar clinicamente por seis horas antes de qualquer intervenção elétrica agora.",
+   "Realizar apenas manobra vagal como conduta definitiva no paciente instável com taquicardia de QRS largo agora."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AHA Guidelines for CPR and ECC — Adult Tachycardia Algorithm, atualização 2025; ESC Guidelines on ventricular arrhythmias, 2022",
+  "coment": "Taquicardia de QRS largo deve ser tratada como taquicardia ventricular até prova em contrário, sobretudo em paciente com cardiopatia estrutural conhecida. Diante de instabilidade — hipotensão, alteração de consciência, dor torácica isquêmica, sinais de choque —, a conduta é cardioversão elétrica sincronizada imediata, com sedação quando possível. Em paciente estável, discutem-se antiarrítmicos como amiodarona e procainamida ou cardioversão eletiva.",
+  "porAlt": [
+   "Correta: cardioversão elétrica sincronizada imediata, tratando como taquicardia ventricular.",
+   "A adenosina é diagnóstica em taquicardia estável e não tem papel no paciente instável.",
+   "Aguardar definição eletrofisiológica no paciente instável arrisca deterioração para parada cardíaca.",
+   "O betabloqueador oral tem início lento e é inadequado diante de instabilidade hemodinâmica.",
+   "A manobra vagal não reverte taquicardia ventricular nem trata a instabilidade do paciente."
+  ]
+ },
+ {
+  "q": "Paciente com dor torácica e elevação de troponina, com coronariografia sem lesões obstrutivas. Qual é a conduta?",
+  "alts": [
+   "Investigar causas de infarto sem obstrução coronariana, considerando sempre ressonância cardíaca na avaliação.",
+   "Concluir que não houve lesão miocárdica e liberar o paciente sem qualquer investigação complementar adicional.",
+   "Repetir a coronariografia semanalmente até encontrar alguma lesão obstrutiva que explique o quadro clínico.",
+   "Iniciar trombólise sistêmica imediata mesmo diante de coronariografia sem lesões obstrutivas identificadas.",
+   "Indicar revascularização cirúrgica empírica em todos os pacientes com troponina elevada e coronárias normais."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ESC Guidelines for the management of acute coronary syndromes, 2023; AHA scientific statement on MINOCA, revisão 2023",
+  "coment": "O infarto sem obstrução coronariana significativa exige investigar a causa subjacente, que pode ser rotura ou erosão de placa não obstrutiva, espasmo coronariano, dissecção espontânea, embolia, disfunção microvascular, ou ainda condições que imitam infarto como miocardite e síndrome de takotsubo. A ressonância cardíaca é o exame central nessa investigação, e o tratamento é dirigido à causa identificada, com prognóstico que não é benigno.",
+  "porAlt": [
+   "Correta: investigar as causas de infarto sem obstrução coronariana, com ressonância cardíaca na avaliação.",
+   "A troponina elevada indica lesão miocárdica real, que exige esclarecimento da causa subjacente.",
+   "Repetir a coronariografia semanalmente não esclarece causas microvasculares ou miocárdicas.",
+   "A trombólise não é indicada e expõe a hemorragia sem qualquer benefício nesse cenário.",
+   "A revascularização empírica não faz sentido diante de ausência de lesão obstrutiva significativa."
+  ]
+ },
+ {
+  "q": "Paciente com hipertensão em uso de inibidor da enzima conversora desenvolve tosse seca persistente. Qual é a conduta?",
+  "alts": [
+   "Substituir por bloqueador do receptor de angiotensina, que mantém sempre o benefício sem a tosse associada.",
+   "Manter o fármaco e prescrever antitussígeno contínuo como estratégia definitiva de manejo da tosse seca.",
+   "Suspender todo tratamento anti-hipertensivo diante do surgimento da tosse seca persistente no paciente já.",
+   "Aumentar a dose do inibidor da enzima conversora para induzir tolerância ao efeito adverso apresentado.",
+   "Prescrever antibiótico por dez dias como tratamento da tosse seca associada ao uso do anti-hipertensivo."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; ESC hypertension guidelines, 2024",
+  "coment": "A tosse seca é efeito adverso clássico dos inibidores da enzima conversora, ocorrendo em até vinte por cento dos pacientes por acúmulo de bradicinina, e pode surgir semanas ou meses após o início. A conduta é substituir por bloqueador do receptor de angiotensina, que preserva os benefícios cardiovasculares e renais sem esse efeito. A tosse costuma resolver em dias a semanas após a suspensão, e a persistência exige investigar outras causas.",
+  "porAlt": [
+   "Correta: substituir por bloqueador do receptor, mantendo o benefício sem o efeito adverso da tosse.",
+   "Manter o fármaco com antitussígeno contínuo prolonga um efeito adverso facilmente contornável.",
+   "Suspender todo o tratamento deixa a hipertensão sem controle e expõe a eventos evitáveis.",
+   "Aumentar a dose agrava a tosse, que é dose-dependente e não desaparece por tolerância.",
+   "O antibiótico não trata tosse de origem medicamentosa e não resolve o problema apresentado."
+  ]
+ },
+ {
+  "q": "Paciente com síncope e eletrocardiograma mostrando intervalo QT corrigido de 520 ms. Qual é a conduta?",
+  "alts": [
+   "Revisar fármacos e eletrólitos e avaliar síndrome do QT longo, restringindo sempre agentes que prolongam o intervalo.",
+   "Ignorar o achado eletrocardiográfico, pois o intervalo QT prolongado não tem qualquer relevância clínica neste caso.",
+   "Iniciar antiarrítmico de classe IA em dose plena para corrigir o intervalo QT prolongado observado no exame agora.",
+   "Prescrever apenas ansiolítico e liberar o paciente sem qualquer investigação da síncope e do intervalo QT agora.",
+   "Indicar ablação por cateter imediata em todos os pacientes com intervalo QT corrigido acima de quinhentos agora."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ESC Guidelines for the management of patients with ventricular arrhythmias, 2022; AHA/ACC/HRS guideline on ventricular arrhythmias, revisão 2023",
+  "coment": "O intervalo QT corrigido acima de 500 ms associa-se a risco elevado de torsades de pointes e morte súbita. A avaliação inclui revisar fármacos que prolongam o QT — antiarrítmicos, macrolídeos, quinolonas, antipsicóticos, antidepressivos, antieméticos —, corrigir hipocalemia, hipomagnesemia e hipocalcemia, e investigar síndrome congênita do QT longo com história familiar e teste genético. O tratamento inclui betabloqueador e, em alto risco, desfibrilador implantável.",
+  "porAlt": [
+   "Correta: revisar fármacos e eletrólitos e avaliar síndrome do QT longo, evitando agentes que o prolongam.",
+   "O QT prolongado com síncope é preditor de arritmia ventricular maligna e de morte súbita.",
+   "Antiarrítmicos de classe IA prolongam ainda mais o intervalo QT e agravam o risco arrítmico.",
+   "Liberar sem investigar síncope com QT prolongado arrisca morte súbita no paciente.",
+   "A ablação não corrige o QT longo, cujo tratamento envolve betabloqueador e desfibrilador."
+  ]
+ },
+ {
+  "q": "Paciente com edema unilateral de membro inferior, dor à palpação e fator de risco recente. Qual é a conduta inicial?",
+  "alts": [
+   "Estratificar probabilidade e solicitar ultrassonografia com doppler venoso, iniciando sempre anticoagulação se houver demora.",
+   "Prescrever apenas repouso com elevação do membro sem qualquer investigação de trombose venosa profunda para este paciente.",
+   "Realizar massagem vigorosa do membro acometido como conduta inicial diante do edema unilateral descrito nesse contexto já.",
+   "Solicitar apenas radiografia do membro inferior como exame inicial na investigação do edema unilateral para este paciente.",
+   "Iniciar antibiótico de amplo espectro empírico como tratamento inicial do edema unilateral com dor local nesse contexto."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ASH guidelines for management of venous thromboembolism, 2020; ESC Guidelines on acute pulmonary embolism, atualização 2024",
+  "coment": "Diante de suspeita de trombose venosa profunda, estratifica-se a probabilidade pelo escore de Wells: probabilidade baixa permite dímero-D para excluir, e probabilidade intermediária ou alta indica ultrassonografia com doppler venoso de membros inferiores. Se houver demora no exame e a probabilidade for alta sem risco elevado de sangramento, inicia-se anticoagulação empírica. Massagem do membro é contraindicada pelo risco teórico de embolização.",
+  "porAlt": [
+   "Correta: estratificar probabilidade e solicitar doppler venoso, anticoagulando empiricamente se houver demora.",
+   "Repouso e elevação sem investigar deixam sem diagnóstico uma condição com risco de embolia pulmonar.",
+   "A massagem vigorosa é contraindicada pelo risco de deslocamento do trombo e embolização.",
+   "A radiografia não avalia o sistema venoso profundo nem identifica trombose venosa.",
+   "O antibiótico trata celulite, mas não deve ser assumido sem excluir a trombose venosa profunda."
+  ]
+ },
+ {
+  "q": "Paciente com pericardite recorrente pela terceira vez, apesar de tratamento com anti-inflamatório. Qual é a conduta?",
+  "alts": [
+   "Associar colchicina em curso prolongado e considerar sempre anacinra ou imunossupressor nos casos refratários.",
+   "Iniciar corticoide sistêmico em dose alta como primeira escolha em todos os casos de pericardite recorrente.",
+   "Indicar pericardiectomia imediata em todos os pacientes com terceiro episódio de pericardite recorrente agora.",
+   "Prescrever apenas antibiótico de amplo espectro prolongado como tratamento da pericardite recorrente agora.",
+   "Suspender qualquer tratamento e apenas observar a evolução espontânea da pericardite recorrente descrita."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESC Guidelines on myocarditis and pericarditis, 2025",
+  "coment": "Na pericardite recorrente, a colchicina em curso prolongado, de seis meses ou mais, é a intervenção com melhor evidência para reduzir novas recorrências, associada a anti-inflamatório com desmame lento. O corticoide é evitado como primeira escolha porque aumenta recorrências, ficando reservado a contraindicação ou falha, sempre em dose baixa a moderada e com retirada muito gradual. Casos refratários e dependentes de corticoide podem receber anacinra ou azatioprina.",
+  "porAlt": [
+   "Correta: colchicina em curso prolongado, com anacinra ou imunossupressor nos casos refratários.",
+   "O corticoide como primeira escolha aumenta a taxa de recorrência da pericardite a longo prazo.",
+   "A pericardiectomia é medida de exceção para casos refratários a todo o tratamento clínico.",
+   "O antibiótico não trata a pericardite recorrente, cuja causa é habitualmente autoinflamatória.",
+   "Não tratar mantém a recorrência dos episódios e o risco de evolução para constrição pericárdica."
+  ]
+ },
+ {
+  "q": "Paciente assintomático com aneurisma de aorta abdominal de 4,2 cm detectado incidentalmente. Qual é a conduta?",
+  "alts": [
+   "Vigilância por imagem com controle de fatores de risco, reservando sempre o reparo aos diâmetros maiores.",
+   "Indicar reparo cirúrgico imediato em todos os pacientes com aneurisma de aorta abdominal detectado agora.",
+   "Ignorar completamente o achado, já pois aneurismas de aorta abdominal nunca evoluem para rotura neste caso.",
+   "Prescrever apenas anticoagulação plena como tratamento definitivo do aneurisma de aorta abdominal descrito.",
+   "Suspender todos os anti-hipertensivos para reduzir a tensão sobre a parede do aneurisma identificado."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "ESVS Clinical Practice Guidelines on the management of abdominal aorto-iliac artery aneurysms, 2024; SVS practice guidelines, revisão 2023",
+  "coment": "O aneurisma de aorta abdominal assintomático com diâmetro abaixo de 5,5 cm em homens, ou de 5,0 cm em mulheres, é acompanhado por vigilância com ultrassonografia em intervalos definidos pelo diâmetro, associada a controle rigoroso de fatores de risco: cessação do tabagismo, que é o fator mais associado à expansão, controle pressórico e estatina. O reparo é indicado ao atingir o limiar, com crescimento rápido ou diante de sintomas.",
+  "porAlt": [
+   "Correta: vigilância por imagem com controle de fatores de risco, com reparo reservado a diâmetros maiores.",
+   "O reparo em diâmetros pequenos não reduz mortalidade e expõe a riscos do procedimento.",
+   "Aneurismas evoluem com expansão e risco de rotura, exigindo vigilância e controle de risco.",
+   "A anticoagulação não reduz a expansão nem o risco de rotura do aneurisma da aorta.",
+   "Suspender anti-hipertensivos eleva a pressão sobre a parede e aumenta o risco de expansão e rotura."
+  ]
+ }
+]

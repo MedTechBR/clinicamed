@@ -14518,5 +14518,485 @@ window.BANCO=[
 "O corticoide não é conduta inicial e mascara a evolução antes mesmo de suspender o agente causal.",
 "O fibrato pode agravar a miotoxicidade, sobretudo em associação, e não dispensa a monitorização."
 ]
+},
+{
+"q": "Paciente com hipertensão e apneia obstrutiva do sono não tratada mantém pressão descontrolada. Qual é a conduta?",
+"alts": [
+"Tratar a apneia com pressão positiva além do anti-hipertensivo, buscando sempre o controle pressórico combinado.",
+"Aumentar indefinidamente a dose dos anti-hipertensivos sem qualquer tratamento da apneia obstrutiva do sono já.",
+"Ignorar a apneia, pois ela não guarda qualquer relação com o controle da pressão arterial do paciente agora.",
+"Suspender todos os anti-hipertensivos e tratar apenas a apneia obstrutiva do sono como medida isolada agora já.",
+"Prescrever apenas hipnótico noturno como estratégia para o controle da pressão arterial nesse paciente agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; AASM/AHA statement on obstructive sleep apnea and cardiovascular disease, revisão 2023",
+"coment": "A apneia obstrutiva do sono é causa secundária frequente de hipertensão resistente, produzindo hipoxemia intermitente, ativação simpática e ausência de descenso noturno da pressão. O tratamento com pressão positiva contínua reduz modestamente a pressão arterial, com efeito maior nos pacientes resistentes e com boa adesão, e deve complementar — nunca substituir — a terapia anti-hipertensiva otimizada e as medidas de estilo de vida, incluindo perda de peso.",
+"porAlt": [
+"Correta: tratar a apneia com pressão positiva além do anti-hipertensivo, buscando controle combinado.",
+"Aumentar fármacos sem tratar a causa secundária mantém a resistência ao tratamento pressórico.",
+"A apneia é causa secundária reconhecida de hipertensão resistente e precisa ser tratada.",
+"O tratamento da apneia reduz modestamente a pressão e não substitui o anti-hipertensivo.",
+"O hipnótico não trata a apneia e pode agravar os eventos obstrutivos durante o sono."
+]
+},
+{
+"q": "Paciente com insuficiência cardíaca avançada e internações repetidas apesar de terapia otimizada. Qual é a conduta?",
+"alts": [
+"Avaliar para terapias avançadas e discutir sempre objetivos de cuidado com abordagem paliativa integrada.",
+"Aumentar indefinidamente a dose do diurético como única estratégia diante das internações repetidas.",
+"Suspender todos os fármacos que reduzem mortalidade diante das internações repetidas do paciente agora.",
+"Manter exatamente a mesma conduta sem qualquer reavaliação ou discussão de objetivos de cuidado agora.",
+"Indicar apenas repouso absoluto no leito como estratégia para reduzir as internações desse paciente."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024; ESC Heart Failure Guidelines, 2021 com atualização 2023",
+"coment": "A insuficiência cardíaca avançada é definida por sintomas graves persistentes, internações repetidas e disfunção grave apesar de terapia otimizada. A conduta é avaliar para terapias avançadas — transplante e dispositivo de assistência ventricular — em pacientes elegíveis, e integrar cuidados paliativos, com discussão de objetivos de cuidado, controle de sintomas, planejamento antecipado e decisões sobre desativação de dispositivos, independentemente da elegibilidade.",
+"porAlt": [
+"Correta: avaliar terapias avançadas e integrar cuidados paliativos com discussão de objetivos.",
+"Aumentar apenas o diurético não modifica a progressão e agrava disfunção renal e eletrolítica.",
+"Suspender os fármacos que reduzem mortalidade acelera a deterioração clínica do paciente.",
+"Manter a mesma conduta diante de internações repetidas ignora o estágio avançado da doença.",
+"O repouso absoluto agrava o descondicionamento e não reduz internações por descompensação."
+]
+},
+{
+"q": "Paciente com sopro diastólico em foco aórtico e pressão de pulso alargada, assintomático. Qual é a conduta?",
+"alts": [
+"Confirmar por ecocardiograma e acompanhar com seguimento seriado, avaliando sempre função e diâmetro ventricular.",
+"Indicar cirurgia valvar imediata em todos os pacientes assintomáticos com sopro diastólico em foco aórtico agora.",
+"Prescrever apenas diurético em dose alta como tratamento definitivo da valvopatia identificada no exame agora.",
+"Ignorar completamente o achado, pois sopro diastólico em paciente assintomático nunca tem significado clínico.",
+"Iniciar anticoagulação plena imediata em todos os pacientes com sopro diastólico em foco aórtico neste caso."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESC/EACTS Guidelines for the management of valvular heart disease, 2021; Diretriz Brasileira de Valvopatias — SBC, revisão 2023",
+"coment": "Sopro diastólico é sempre patológico e, em foco aórtico com pressão de pulso alargada, sugere insuficiência aórtica. A avaliação é ecocardiográfica, quantificando a gravidade e medindo diâmetros e função do ventrículo esquerdo. No paciente assintomático com função preservada, o seguimento é seriado, e a cirurgia é indicada quando surgem sintomas, quando a fração de ejeção cai abaixo de cinquenta por cento ou quando há dilatação ventricular significativa.",
+"porAlt": [
+"Correta: confirmar por ecocardiograma e acompanhar seriadamente função e diâmetros ventriculares.",
+"A cirurgia se indica por sintomas, queda da fração de ejeção ou dilatação, e não a todo sopro.",
+"O diurético alivia congestão quando presente, mas não trata a lesão valvar nem altera o curso.",
+"Sopro diastólico é sempre patológico e exige investigação, mesmo em paciente assintomático.",
+"A anticoagulação não é indicada pela insuficiência aórtica isolada em ritmo sinusal."
+]
+},
+{
+"q": "Paciente com taquicardia de QRS largo, regular, a 180 bpm, com instabilidade hemodinâmica. Qual é a conduta?",
+"alts": [
+"Cardioversão elétrica sincronizada imediata, tratando sempre como taquicardia ventricular até prova em contrário.",
+"Adenosina em bolus rápido como primeira medida no paciente instável com taquicardia de QRS largo neste caso.",
+"Aguardar a definição eletrofisiológica do ritmo antes de qualquer intervenção no paciente instável descrito.",
+"Iniciar betabloqueador oral e observar clinicamente por seis horas antes de qualquer intervenção elétrica agora.",
+"Realizar apenas manobra vagal como conduta definitiva no paciente instável com taquicardia de QRS largo agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "AHA Guidelines for CPR and ECC — Adult Tachycardia Algorithm, atualização 2025; ESC Guidelines on ventricular arrhythmias, 2022",
+"coment": "Taquicardia de QRS largo deve ser tratada como taquicardia ventricular até prova em contrário, sobretudo em paciente com cardiopatia estrutural conhecida. Diante de instabilidade — hipotensão, alteração de consciência, dor torácica isquêmica, sinais de choque —, a conduta é cardioversão elétrica sincronizada imediata, com sedação quando possível. Em paciente estável, discutem-se antiarrítmicos como amiodarona e procainamida ou cardioversão eletiva.",
+"porAlt": [
+"Correta: cardioversão elétrica sincronizada imediata, tratando como taquicardia ventricular.",
+"A adenosina é diagnóstica em taquicardia estável e não tem papel no paciente instável.",
+"Aguardar definição eletrofisiológica no paciente instável arrisca deterioração para parada cardíaca.",
+"O betabloqueador oral tem início lento e é inadequado diante de instabilidade hemodinâmica.",
+"A manobra vagal não reverte taquicardia ventricular nem trata a instabilidade do paciente."
+]
+},
+{
+"q": "Paciente com dor torácica e elevação de troponina, com coronariografia sem lesões obstrutivas. Qual é a conduta?",
+"alts": [
+"Investigar causas de infarto sem obstrução coronariana, considerando sempre ressonância cardíaca na avaliação.",
+"Concluir que não houve lesão miocárdica e liberar o paciente sem qualquer investigação complementar adicional.",
+"Repetir a coronariografia semanalmente até encontrar alguma lesão obstrutiva que explique o quadro clínico.",
+"Iniciar trombólise sistêmica imediata mesmo diante de coronariografia sem lesões obstrutivas identificadas.",
+"Indicar revascularização cirúrgica empírica em todos os pacientes com troponina elevada e coronárias normais."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "ESC Guidelines for the management of acute coronary syndromes, 2023; AHA scientific statement on MINOCA, revisão 2023",
+"coment": "O infarto sem obstrução coronariana significativa exige investigar a causa subjacente, que pode ser rotura ou erosão de placa não obstrutiva, espasmo coronariano, dissecção espontânea, embolia, disfunção microvascular, ou ainda condições que imitam infarto como miocardite e síndrome de takotsubo. A ressonância cardíaca é o exame central nessa investigação, e o tratamento é dirigido à causa identificada, com prognóstico que não é benigno.",
+"porAlt": [
+"Correta: investigar as causas de infarto sem obstrução coronariana, com ressonância cardíaca na avaliação.",
+"A troponina elevada indica lesão miocárdica real, que exige esclarecimento da causa subjacente.",
+"Repetir a coronariografia semanalmente não esclarece causas microvasculares ou miocárdicas.",
+"A trombólise não é indicada e expõe a hemorragia sem qualquer benefício nesse cenário.",
+"A revascularização empírica não faz sentido diante de ausência de lesão obstrutiva significativa."
+]
+},
+{
+"q": "Paciente com hipertensão em uso de inibidor da enzima conversora desenvolve tosse seca persistente. Qual é a conduta?",
+"alts": [
+"Substituir por bloqueador do receptor de angiotensina, que mantém sempre o benefício sem a tosse associada.",
+"Manter o fármaco e prescrever antitussígeno contínuo como estratégia definitiva de manejo da tosse seca.",
+"Suspender todo tratamento anti-hipertensivo diante do surgimento da tosse seca persistente no paciente já.",
+"Aumentar a dose do inibidor da enzima conversora para induzir tolerância ao efeito adverso apresentado.",
+"Prescrever antibiótico por dez dias como tratamento da tosse seca associada ao uso do anti-hipertensivo."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; ESC hypertension guidelines, 2024",
+"coment": "A tosse seca é efeito adverso clássico dos inibidores da enzima conversora, ocorrendo em até vinte por cento dos pacientes por acúmulo de bradicinina, e pode surgir semanas ou meses após o início. A conduta é substituir por bloqueador do receptor de angiotensina, que preserva os benefícios cardiovasculares e renais sem esse efeito. A tosse costuma resolver em dias a semanas após a suspensão, e a persistência exige investigar outras causas.",
+"porAlt": [
+"Correta: substituir por bloqueador do receptor, mantendo o benefício sem o efeito adverso da tosse.",
+"Manter o fármaco com antitussígeno contínuo prolonga um efeito adverso facilmente contornável.",
+"Suspender todo o tratamento deixa a hipertensão sem controle e expõe a eventos evitáveis.",
+"Aumentar a dose agrava a tosse, que é dose-dependente e não desaparece por tolerância.",
+"O antibiótico não trata tosse de origem medicamentosa e não resolve o problema apresentado."
+]
+},
+{
+"q": "Paciente com síncope e eletrocardiograma mostrando intervalo QT corrigido de 520 ms. Qual é a conduta?",
+"alts": [
+"Revisar fármacos e eletrólitos e avaliar síndrome do QT longo, restringindo sempre agentes que prolongam o intervalo.",
+"Ignorar o achado eletrocardiográfico, pois o intervalo QT prolongado não tem qualquer relevância clínica neste caso.",
+"Iniciar antiarrítmico de classe IA em dose plena para corrigir o intervalo QT prolongado observado no exame agora.",
+"Prescrever apenas ansiolítico e liberar o paciente sem qualquer investigação da síncope e do intervalo QT agora.",
+"Indicar ablação por cateter imediata em todos os pacientes com intervalo QT corrigido acima de quinhentos agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r3",
+"base": "ESC Guidelines for the management of patients with ventricular arrhythmias, 2022; AHA/ACC/HRS guideline on ventricular arrhythmias, revisão 2023",
+"coment": "O intervalo QT corrigido acima de 500 ms associa-se a risco elevado de torsades de pointes e morte súbita. A avaliação inclui revisar fármacos que prolongam o QT — antiarrítmicos, macrolídeos, quinolonas, antipsicóticos, antidepressivos, antieméticos —, corrigir hipocalemia, hipomagnesemia e hipocalcemia, e investigar síndrome congênita do QT longo com história familiar e teste genético. O tratamento inclui betabloqueador e, em alto risco, desfibrilador implantável.",
+"porAlt": [
+"Correta: revisar fármacos e eletrólitos e avaliar síndrome do QT longo, evitando agentes que o prolongam.",
+"O QT prolongado com síncope é preditor de arritmia ventricular maligna e de morte súbita.",
+"Antiarrítmicos de classe IA prolongam ainda mais o intervalo QT e agravam o risco arrítmico.",
+"Liberar sem investigar síncope com QT prolongado arrisca morte súbita no paciente.",
+"A ablação não corrige o QT longo, cujo tratamento envolve betabloqueador e desfibrilador."
+]
+},
+{
+"q": "Paciente com edema unilateral de membro inferior, dor à palpação e fator de risco recente. Qual é a conduta inicial?",
+"alts": [
+"Estratificar probabilidade e solicitar ultrassonografia com doppler venoso, iniciando sempre anticoagulação se houver demora.",
+"Prescrever apenas repouso com elevação do membro sem qualquer investigação de trombose venosa profunda para este paciente.",
+"Realizar massagem vigorosa do membro acometido como conduta inicial diante do edema unilateral descrito nesse contexto já.",
+"Solicitar apenas radiografia do membro inferior como exame inicial na investigação do edema unilateral para este paciente.",
+"Iniciar antibiótico de amplo espectro empírico como tratamento inicial do edema unilateral com dor local nesse contexto."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r1",
+"base": "ASH guidelines for management of venous thromboembolism, 2020; ESC Guidelines on acute pulmonary embolism, atualização 2024",
+"coment": "Diante de suspeita de trombose venosa profunda, estratifica-se a probabilidade pelo escore de Wells: probabilidade baixa permite dímero-D para excluir, e probabilidade intermediária ou alta indica ultrassonografia com doppler venoso de membros inferiores. Se houver demora no exame e a probabilidade for alta sem risco elevado de sangramento, inicia-se anticoagulação empírica. Massagem do membro é contraindicada pelo risco teórico de embolização.",
+"porAlt": [
+"Correta: estratificar probabilidade e solicitar doppler venoso, anticoagulando empiricamente se houver demora.",
+"Repouso e elevação sem investigar deixam sem diagnóstico uma condição com risco de embolia pulmonar.",
+"A massagem vigorosa é contraindicada pelo risco de deslocamento do trombo e embolização.",
+"A radiografia não avalia o sistema venoso profundo nem identifica trombose venosa.",
+"O antibiótico trata celulite, mas não deve ser assumido sem excluir a trombose venosa profunda."
+]
+},
+{
+"q": "Paciente com pericardite recorrente pela terceira vez, apesar de tratamento com anti-inflamatório. Qual é a conduta?",
+"alts": [
+"Associar colchicina em curso prolongado e considerar sempre anacinra ou imunossupressor nos casos refratários.",
+"Iniciar corticoide sistêmico em dose alta como primeira escolha em todos os casos de pericardite recorrente.",
+"Indicar pericardiectomia imediata em todos os pacientes com terceiro episódio de pericardite recorrente agora.",
+"Prescrever apenas antibiótico de amplo espectro prolongado como tratamento da pericardite recorrente agora.",
+"Suspender qualquer tratamento e apenas observar a evolução espontânea da pericardite recorrente descrita."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ESC Guidelines on myocarditis and pericarditis, 2025",
+"coment": "Na pericardite recorrente, a colchicina em curso prolongado, de seis meses ou mais, é a intervenção com melhor evidência para reduzir novas recorrências, associada a anti-inflamatório com desmame lento. O corticoide é evitado como primeira escolha porque aumenta recorrências, ficando reservado a contraindicação ou falha, sempre em dose baixa a moderada e com retirada muito gradual. Casos refratários e dependentes de corticoide podem receber anacinra ou azatioprina.",
+"porAlt": [
+"Correta: colchicina em curso prolongado, com anacinra ou imunossupressor nos casos refratários.",
+"O corticoide como primeira escolha aumenta a taxa de recorrência da pericardite a longo prazo.",
+"A pericardiectomia é medida de exceção para casos refratários a todo o tratamento clínico.",
+"O antibiótico não trata a pericardite recorrente, cuja causa é habitualmente autoinflamatória.",
+"Não tratar mantém a recorrência dos episódios e o risco de evolução para constrição pericárdica."
+]
+},
+{
+"q": "Paciente assintomático com aneurisma de aorta abdominal de 4,2 cm detectado incidentalmente. Qual é a conduta?",
+"alts": [
+"Vigilância por imagem com controle de fatores de risco, reservando sempre o reparo aos diâmetros maiores.",
+"Indicar reparo cirúrgico imediato em todos os pacientes com aneurisma de aorta abdominal detectado agora.",
+"Ignorar completamente o achado, já pois aneurismas de aorta abdominal nunca evoluem para rotura neste caso.",
+"Prescrever apenas anticoagulação plena como tratamento definitivo do aneurisma de aorta abdominal descrito.",
+"Suspender todos os anti-hipertensivos para reduzir a tensão sobre a parede do aneurisma identificado."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "ESVS Clinical Practice Guidelines on the management of abdominal aorto-iliac artery aneurysms, 2024; SVS practice guidelines, revisão 2023",
+"coment": "O aneurisma de aorta abdominal assintomático com diâmetro abaixo de 5,5 cm em homens, ou de 5,0 cm em mulheres, é acompanhado por vigilância com ultrassonografia em intervalos definidos pelo diâmetro, associada a controle rigoroso de fatores de risco: cessação do tabagismo, que é o fator mais associado à expansão, controle pressórico e estatina. O reparo é indicado ao atingir o limiar, com crescimento rápido ou diante de sintomas.",
+"porAlt": [
+"Correta: vigilância por imagem com controle de fatores de risco, com reparo reservado a diâmetros maiores.",
+"O reparo em diâmetros pequenos não reduz mortalidade e expõe a riscos do procedimento.",
+"Aneurismas evoluem com expansão e risco de rotura, exigindo vigilância e controle de risco.",
+"A anticoagulação não reduz a expansão nem o risco de rotura do aneurisma da aorta.",
+"Suspender anti-hipertensivos eleva a pressão sobre a parede e aumenta o risco de expansão e rotura."
+]
+},
+{
+"q": "Paciente com suspeita de intoxicação por monóxido de carbono após incêndio, com cefaleia e confusão. Qual é a conduta?",
+"alts": [
+"Oxigênio a cem por cento com máscara não reinalante, considerando sempre câmara hiperbárica em casos graves.",
+"Aguardar a oximetria de pulso confirmar a hipoxemia antes de administrar qualquer oxigênio ao paciente.",
+"Administrar apenas hidratação endovenosa como tratamento definitivo da intoxicação por monóxido de carbono.",
+"Administrar oxigênio em baixo fluxo por cateter nasal como tratamento de escolha da intoxicação descrita.",
+"Prescrever apenas analgésico para a cefaleia e liberar o paciente sem qualquer oxigenoterapia associada."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "AHA/ACEP guidance on carbon monoxide poisoning, revisão 2023; Undersea and Hyperbaric Medical Society indications, 2023",
+"coment": "A intoxicação por monóxido de carbono reduz o transporte de oxigênio pela formação de carboxi-hemoglobina, e a oximetria de pulso convencional é falsamente normal porque não distingue a carboxi-hemoglobina da oxi-hemoglobina. O tratamento é oxigênio a cem por cento com máscara não reinalante, que reduz a meia-vida do monóxido de várias horas para cerca de uma hora. Câmara hiperbárica é considerada em alteração neurológica, gestação, isquemia e níveis muito elevados.",
+"porAlt": [
+"Correta: oxigênio a cem por cento com máscara não reinalante, com hiperbárica nos casos graves.",
+"A oximetria de pulso convencional é falsamente normal nessa intoxicação e não deve orientar a conduta.",
+"A hidratação é suporte e não acelera a eliminação do monóxido ligado à hemoglobina.",
+"O baixo fluxo é insuficiente: é preciso a maior fração inspirada possível para acelerar a eliminação.",
+"Liberar sem oxigenoterapia mantém a carboxi-hemoglobina elevada e o risco de sequela neurológica."
+]
+},
+{
+"q": "Paciente com estado de mal asmático, exausto, com silêncio auscultatório e hipercapnia. Qual é a conduta?",
+"alts": [
+"Intubação com ventilação protetora e broncodilatador contínuo, evitando sempre o aprisionamento aéreo excessivo.",
+"Manter apenas broncodilatador inalatório e observar clinicamente por mais duas horas antes de qualquer decisão.",
+"Administrar sedativo sem qualquer suporte ventilatório para reduzir a ansiedade do paciente exausto neste caso.",
+"Ventilar com volume corrente e frequência elevados para corrigir rapidamente a hipercapnia do paciente agora.",
+"Prescrever apenas antibiótico de amplo espectro como tratamento definitivo do estado de mal asmático agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "GINA — Global Strategy for Asthma Management and Prevention, 2025; ERS/ATS statement on severe asthma, revisão 2023",
+"coment": "Silêncio auscultatório, exaustão e hipercapnia na crise asmática indicam falência ventilatória iminente e necessidade de intubação. Na ventilação, o desafio é o aprisionamento aéreo: usam-se frequência baixa, tempo expiratório prolongado, volume corrente reduzido e aceita-se hipercapnia permissiva, monitorando a pressão de platô e a auto-PEEP. Broncodilatador contínuo, corticoide sistêmico e sulfato de magnésio compõem o tratamento farmacológico.",
+"porAlt": [
+"Correta: intubação com ventilação protetora e broncodilatador contínuo, evitando aprisionamento aéreo.",
+"Observar mais duas horas o paciente exausto e hipercápnico arrisca parada respiratória iminente.",
+"Sedar sem suporte ventilatório em paciente exausto precipita parada respiratória imediata.",
+"Frequência e volume elevados agravam o aprisionamento aéreo e podem causar barotrauma e colapso.",
+"O antibiótico não trata o broncoespasmo grave que caracteriza o estado de mal asmático."
+]
+},
+{
+"q": "Paciente com sepse e hipoperfusão apresenta lactato que não reduz após ressuscitação inicial. Qual é a conduta?",
+"alts": [
+"Reavaliar a fonte e o controle do foco, ajustando sempre a ressuscitação com avaliação hemodinâmica dirigida.",
+"Ignorar o lactato persistente, pois ele não tem qualquer valor prognóstico após a ressuscitação inicial.",
+"Suspender o antibiótico e apenas observar a evolução clínica do paciente com lactato persistentemente elevado.",
+"Administrar bicarbonato de sódio endovenoso de rotina para normalizar o lactato sérico do paciente agora.",
+"Reduzir a dose do vasopressor apesar da persistência dos sinais de hipoperfusão tecidual no paciente agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "Surviving Sepsis Campaign, 2021 com atualização 2024; SCCM guidance on hemodynamic monitoring, revisão 2023",
+"coment": "Lactato que não reduz após a ressuscitação inicial indica hipoperfusão persistente ou foco não controlado e é marcador prognóstico importante. A conduta é reavaliar o controle da fonte — abscesso não drenado, cateter infectado, tecido necrótico, obstrução —, revisar a adequação do antimicrobiano, e ajustar a ressuscitação com avaliação dinâmica de responsividade a volume, função cardíaca e perfusão periférica, incluindo tempo de enchimento capilar.",
+"porAlt": [
+"Correta: reavaliar fonte e controle do foco e ajustar a ressuscitação com avaliação hemodinâmica dirigida.",
+"O lactato persistente é marcador prognóstico relevante e sinaliza hipoperfusão ainda ativa.",
+"Suspender o antibiótico em sepse com hipoperfusão persistente agrava diretamente o quadro.",
+"O bicarbonato não corrige a causa da hiperlactatemia e não melhora desfechos nessa situação.",
+"Reduzir o vasopressor com hipoperfusão persistente aprofunda o choque e a lesão de órgãos."
+]
+},
+{
+"q": "Paciente com abdome agudo e suspeita de isquemia mesentérica, com dor desproporcional ao exame físico. Qual é a conduta?",
+"alts": [
+"Angiotomografia de abdome com urgência e avaliação cirúrgica, mantendo sempre alto índice de suspeição clínica.",
+"Aguardar o surgimento de peritonite franca antes de qualquer investigação por imagem no paciente descrito.",
+"Prescrever apenas analgésico potente e observar clinicamente por vinte e quatro horas antes de investigar.",
+"Realizar apenas radiografia simples de abdome, exame suficiente para o diagnóstico de isquemia mesentérica.",
+"Prescrever apenas antiespasmódico e liberar o paciente com retorno agendado em uma semana para reavaliação."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "WSES guidelines on acute mesenteric ischemia, 2022; ESVS Clinical Practice Guidelines on mesenteric ischemia, 2023",
+"coment": "A isquemia mesentérica aguda tem como marca clínica a dor desproporcional ao exame físico, e o diagnóstico precoce é o principal determinante de sobrevida, com mortalidade que cresce muito após a instalação de necrose transmural. A angiotomografia com fases arterial e venosa é o exame de escolha e deve ser feita com urgência. O tratamento combina revascularização — endovascular ou cirúrgica —, ressecção de alça inviável e suporte intensivo.",
+"porAlt": [
+"Correta: angiotomografia com urgência e avaliação cirúrgica, mantendo alto índice de suspeição.",
+"Esperar peritonite significa esperar necrose transmural, quando a mortalidade já é muito elevada.",
+"Analgesia e observação por vinte e quatro horas permitem a progressão para infarto intestinal.",
+"A radiografia simples é normal em fase inicial e não exclui isquemia mesentérica aguda.",
+"Liberar com retorno em uma semana em suspeita de isquemia mesentérica é conduta de altíssimo risco."
+]
+},
+{
+"q": "Paciente com trauma raquimedular e hipotensão com bradicardia, sem sinais de sangramento. Qual é a hipótese?",
+"alts": [
+"Choque neurogênico por perda do tônus simpático, exigindo sempre exclusão de hemorragia concomitante.",
+"Choque hipovolêmico clássico, definido por hipotensão com bradicardia e ausência de sangramento evidente.",
+"Choque cardiogênico agudo, condição caracterizada por hipotensão com bradicardia após trauma raquimedular.",
+"Choque séptico precoce, quadro definido por hipotensão com bradicardia nas primeiras horas do trauma.",
+"Choque anafilático, condição caracterizada por hipotensão com bradicardia após lesão medular traumática."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r3",
+"base": "ATLS 11ª edição, 2024; AANS/CNS guidelines on management of acute cervical spine and spinal cord injuries, revisão 2023",
+"coment": "O choque neurogênico decorre da perda do tônus simpático em lesões medulares acima do nível torácico médio, produzindo vasodilatação com hipotensão, bradicardia paradoxal e pele quente e seca, o que o distingue do choque hipovolêmico, que cursa com taquicardia e extremidades frias. É diagnóstico de exclusão no politraumatizado, exigindo afastar hemorragia. O tratamento combina reposição volêmica criteriosa, vasopressor e, quando necessário, atropina para a bradicardia.",
+"porAlt": [
+"Correta: choque neurogênico por perda do tônus simpático, com exclusão obrigatória de hemorragia.",
+"O choque hipovolêmico cursa com taquicardia e extremidades frias, ao contrário do descrito aqui.",
+"O choque cardiogênico cursa com congestão e sinais de falência de bomba, ausentes neste caso.",
+"O choque séptico não se instala nas primeiras horas do trauma e cursa com taquicardia.",
+"A anafilaxia cursa com taquicardia, urticária e broncoespasmo, sem relação com a lesão medular."
+]
+},
+{
+"q": "Paciente com cetoacidose diabética em tratamento apresenta queda da glicemia para 210 mg/dL, mas mantém acidose e cetose. Qual é a conduta?",
+"alts": [
+"Acrescentar glicose à infusão e manter a insulina, mantendo sempre o gotejamento até a resolução da cetose.",
+"Suspender a insulina imediatamente assim que a glicemia atingir duzentos e dez miligramas por decilitro já.",
+"Aumentar a insulina sem qualquer oferta de glicose apesar da queda da glicemia observada no paciente agora já.",
+"Suspender toda hidratação endovenosa assim que a glicemia cair abaixo de duzentos e cinquenta miligramas.",
+"Administrar bicarbonato de sódio de rotina em todos os pacientes com cetoacidose e glicemia em queda agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r2",
+"base": "ADA/EASD consensus report on hyperglycaemic crises in adults, 2024",
+"coment": "Na cetoacidose diabética, a glicemia normaliza antes da cetose e da acidose, e a insulina precisa ser mantida até a resolução dos critérios: pH e bicarbonato adequados, cetonemia negativada e ânion gap normalizado. Quando a glicemia cai para cerca de 200 mg/dL, acrescenta-se glicose à infusão para permitir manter a insulina sem hipoglicemia. Suspender a insulina precocemente é erro clássico e leva a recidiva da cetoacidose.",
+"porAlt": [
+"Correta: acrescentar glicose à infusão e manter a insulina até a resolução completa da cetose.",
+"Suspender a insulina antes da resolução da cetose leva a recidiva da cetoacidose no paciente.",
+"Manter insulina sem oferta de glicose nesse ponto provoca hipoglicemia grave no paciente.",
+"A hidratação é mantida conforme o estado volêmico e não é suspensa pela queda da glicemia.",
+"O bicarbonato de rotina não é recomendado e pode agravar a acidose intracelular e a hipocalemia."
+]
+},
+{
+"q": "Paciente com queimadura elétrica de alta tensão apresenta lesões cutâneas pequenas de entrada e saída. Qual é a preocupação principal?",
+"alts": [
+"Lesão profunda extensa com rabdomiólise e arritmia, exigindo sempre monitorização e hidratação vigorosa precoce.",
+"Lesão limitada à pele visível, dispensando qualquer monitorização cardíaca ou avaliação de função renal agora.",
+"Risco exclusivamente estético das lesões de entrada e saída, sem qualquer repercussão sistêmica relevante agora.",
+"Necessidade apenas de curativo simples ambulatorial em todos os casos de queimadura elétrica de alta tensão.",
+"Risco apenas de infecção local, sem qualquer necessidade de avaliação laboratorial ou eletrocardiográfica agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "American Burn Association guidelines on electrical injury, revisão 2023; ATLS 11ª edição, 2024",
+"coment": "Na queimadura elétrica de alta tensão, as lesões cutâneas visíveis subestimam gravemente o dano: a corrente percorre tecidos profundos, causando necrose muscular extensa, rabdomiólise com risco de lesão renal aguda, síndrome compartimental e arritmias cardíacas. A conduta inclui monitorização eletrocardiográfica, hidratação vigorosa com alvo de débito urinário elevado, dosagem de creatinoquinase e mioglobina, e avaliação cirúrgica para fasciotomia quando necessário.",
+"porAlt": [
+"Correta: lesão profunda extensa com rabdomiólise e arritmia, exigindo monitorização e hidratação precoce.",
+"A lesão cutânea visível subestima muito o dano profundo causado pela passagem da corrente.",
+"O risco é sistêmico e grave, envolvendo coração, músculo e rim, e não apenas estético.",
+"O curativo simples ignora a necessidade de monitorização, hidratação e avaliação de compartimentos.",
+"Além da infecção, há risco de rabdomiólise, lesão renal, arritmia e síndrome compartimental."
+]
+},
+{
+"q": "Paciente com dor torácica súbita, intensa, irradiada para o dorso, com assimetria de pulsos e hipertensão grave. Qual é a conduta?",
+"alts": [
+"Suspeitar de dissecção de aorta e reduzir frequência e pressão, solicitando sempre imagem vascular de urgência.",
+"Iniciar trombólise sistêmica imediata em todos os pacientes com dor torácica intensa irradiada para o dorso.",
+"Iniciar anticoagulação plena imediata como tratamento de escolha diante da suspeita clínica descrita no caso.",
+"Prescrever apenas analgésico e observar clinicamente por doze horas antes de qualquer investigação por imagem.",
+"Reduzir a pressão apenas com vasodilatador isolado, sem qualquer controle prévio da frequência cardíaca agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ESC Guidelines for the diagnosis and management of aortic diseases, 2024; ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease, 2022",
+"coment": "A dissecção aguda de aorta se apresenta com dor súbita, intensa, lancinante, irradiada para o dorso, podendo cursar com assimetria de pulsos e pressão, déficit neurológico e insuficiência aórtica. O tratamento inicial reduz a força de cisalhamento sobre a parede: primeiro betabloqueador endovenoso para controlar a frequência, depois vasodilatador para a pressão — a ordem importa, pois vasodilatador isolado causa taquicardia reflexa e agrava a dissecção.",
+"porAlt": [
+"Correta: suspeitar de dissecção, reduzir frequência antes da pressão e solicitar imagem vascular urgente.",
+"A trombólise em dissecção de aorta é catastrófica e pode causar hemorragia fatal imediata.",
+"A anticoagulação plena agrava o sangramento na parede aórtica e é contraindicada nessa suspeita.",
+"Observar doze horas em suspeita de dissecção permite rotura e óbito nesse intervalo de tempo.",
+"Vasodilatador isolado causa taquicardia reflexa e aumenta a força de cisalhamento sobre a aorta."
+]
+},
+{
+"q": "Paciente com hipoglicemia refratária após intoxicação por sulfonilureia, apesar de glicose endovenosa repetida. Qual é a conduta adicional?",
+"alts": [
+"Considerar octreotide associado à infusão de glicose, mantendo sempre monitorização glicêmica frequente e prolongada.",
+"Administrar insulina para estabilizar o metabolismo do paciente com hipoglicemia refratária por sulfonilureia agora.",
+"Suspender toda oferta de glicose e apenas observar a recuperação espontânea do paciente intoxicado nesse contexto.",
+"Administrar flumazenil endovenoso como antídoto específico da intoxicação por sulfonilureia descrita no caso agora.",
+"Liberar o paciente para casa assim que a glicemia normalizar uma única vez durante o atendimento nesse contexto."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "AACT/EAPCCT position paper on sulfonylurea poisoning, revisão 2023; Ministério da Saúde — intoxicações agudas, 2022",
+"coment": "Na hipoglicemia refratária por sulfonilureia, a glicose endovenosa estimula ainda mais a secreção de insulina pelas células beta, criando um ciclo de recorrência. O octreotide inibe a secreção de insulina e é o antídoto funcional nessa situação, reduzindo episódios e a necessidade de glicose. A observação deve ser prolongada, de pelo menos vinte e quatro horas, dada a meia-vida longa do fármaco e o risco de recorrência após a normalização inicial.",
+"porAlt": [
+"Correta: octreotide associado à glicose, com monitorização glicêmica frequente e observação prolongada.",
+"A insulina agrava a hipoglicemia e é exatamente o oposto do necessário nessa intoxicação.",
+"Suspender a glicose em hipoglicemia refratária expõe o paciente a dano neurológico permanente.",
+"O flumazenil é antídoto de benzodiazepínico e não tem qualquer efeito sobre a sulfonilureia.",
+"A alta precoce arrisca recorrência em domicílio pela meia-vida longa do fármaco ingerido."
+]
+},
+{
+"q": "Paciente com múltiplas vítimas em acidente e recursos limitados. Qual é o princípio da triagem em desastre?",
+"alts": [
+"Priorizar quem tem maior chance de sobreviver com os recursos disponíveis, buscando sempre o maior benefício coletivo.",
+"Priorizar sempre o paciente mais grave, independentemente da chance de sobrevida e dos recursos disponíveis agora.",
+"Atender estritamente por ordem de chegada em todos os cenários de múltiplas vítimas com recursos limitados agora.",
+"Priorizar apenas por idade cronológica, atendendo primeiro os mais jovens em qualquer cenário de desastre neste caso.",
+"Aguardar a chegada de recursos adicionais antes de iniciar qualquer atendimento às vítimas do acidente neste caso."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "prev",
+"nivel": "r2",
+"base": "ATLS 11ª edição, 2024, capítulo de desastres; Ministério da Saúde — Plano de resposta a emergências com múltiplas vítimas, 2022",
+"coment": "Na triagem de desastre, o princípio muda em relação ao atendimento cotidiano: o objetivo deixa de ser o melhor para cada indivíduo e passa a ser o maior benefício para o maior número, com os recursos disponíveis. Pacientes com lesões incompatíveis com a sobrevida diante dos recursos existentes recebem cuidado de conforto, enquanto os recursos vão para quem tem chance real de sobreviver com intervenção. Sistemas como o START organizam essa classificação rapidamente.",
+"porAlt": [
+"Correta: priorizar quem tem maior chance de sobreviver com os recursos disponíveis no cenário.",
+"Priorizar o mais grave sem considerar recursos e prognóstico consome tudo em quem não sobreviverá.",
+"A ordem de chegada não considera gravidade e produz mortes evitáveis em cenário de desastre.",
+"A idade isolada não é critério de triagem e não estima chance de sobrevida no evento.",
+"Aguardar recursos sem iniciar o atendimento aumenta a mortalidade das vítimas recuperáveis."
+]
 }
 ];

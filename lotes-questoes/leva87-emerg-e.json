@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Paciente com suspeita de intoxicação por monóxido de carbono após incêndio, com cefaleia e confusão. Qual é a conduta?",
+  "alts": [
+   "Oxigênio a cem por cento com máscara não reinalante, considerando sempre câmara hiperbárica em casos graves.",
+   "Aguardar a oximetria de pulso confirmar a hipoxemia antes de administrar qualquer oxigênio ao paciente.",
+   "Administrar apenas hidratação endovenosa como tratamento definitivo da intoxicação por monóxido de carbono.",
+   "Administrar oxigênio em baixo fluxo por cateter nasal como tratamento de escolha da intoxicação descrita.",
+   "Prescrever apenas analgésico para a cefaleia e liberar o paciente sem qualquer oxigenoterapia associada."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AHA/ACEP guidance on carbon monoxide poisoning, revisão 2023; Undersea and Hyperbaric Medical Society indications, 2023",
+  "coment": "A intoxicação por monóxido de carbono reduz o transporte de oxigênio pela formação de carboxi-hemoglobina, e a oximetria de pulso convencional é falsamente normal porque não distingue a carboxi-hemoglobina da oxi-hemoglobina. O tratamento é oxigênio a cem por cento com máscara não reinalante, que reduz a meia-vida do monóxido de várias horas para cerca de uma hora. Câmara hiperbárica é considerada em alteração neurológica, gestação, isquemia e níveis muito elevados.",
+  "porAlt": [
+   "Correta: oxigênio a cem por cento com máscara não reinalante, com hiperbárica nos casos graves.",
+   "A oximetria de pulso convencional é falsamente normal nessa intoxicação e não deve orientar a conduta.",
+   "A hidratação é suporte e não acelera a eliminação do monóxido ligado à hemoglobina.",
+   "O baixo fluxo é insuficiente: é preciso a maior fração inspirada possível para acelerar a eliminação.",
+   "Liberar sem oxigenoterapia mantém a carboxi-hemoglobina elevada e o risco de sequela neurológica."
+  ]
+ },
+ {
+  "q": "Paciente com estado de mal asmático, exausto, com silêncio auscultatório e hipercapnia. Qual é a conduta?",
+  "alts": [
+   "Intubação com ventilação protetora e broncodilatador contínuo, evitando sempre o aprisionamento aéreo excessivo.",
+   "Manter apenas broncodilatador inalatório e observar clinicamente por mais duas horas antes de qualquer decisão.",
+   "Administrar sedativo sem qualquer suporte ventilatório para reduzir a ansiedade do paciente exausto neste caso.",
+   "Ventilar com volume corrente e frequência elevados para corrigir rapidamente a hipercapnia do paciente agora.",
+   "Prescrever apenas antibiótico de amplo espectro como tratamento definitivo do estado de mal asmático agora."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "GINA — Global Strategy for Asthma Management and Prevention, 2025; ERS/ATS statement on severe asthma, revisão 2023",
+  "coment": "Silêncio auscultatório, exaustão e hipercapnia na crise asmática indicam falência ventilatória iminente e necessidade de intubação. Na ventilação, o desafio é o aprisionamento aéreo: usam-se frequência baixa, tempo expiratório prolongado, volume corrente reduzido e aceita-se hipercapnia permissiva, monitorando a pressão de platô e a auto-PEEP. Broncodilatador contínuo, corticoide sistêmico e sulfato de magnésio compõem o tratamento farmacológico.",
+  "porAlt": [
+   "Correta: intubação com ventilação protetora e broncodilatador contínuo, evitando aprisionamento aéreo.",
+   "Observar mais duas horas o paciente exausto e hipercápnico arrisca parada respiratória iminente.",
+   "Sedar sem suporte ventilatório em paciente exausto precipita parada respiratória imediata.",
+   "Frequência e volume elevados agravam o aprisionamento aéreo e podem causar barotrauma e colapso.",
+   "O antibiótico não trata o broncoespasmo grave que caracteriza o estado de mal asmático."
+  ]
+ },
+ {
+  "q": "Paciente com sepse e hipoperfusão apresenta lactato que não reduz após ressuscitação inicial. Qual é a conduta?",
+  "alts": [
+   "Reavaliar a fonte e o controle do foco, ajustando sempre a ressuscitação com avaliação hemodinâmica dirigida.",
+   "Ignorar o lactato persistente, pois ele não tem qualquer valor prognóstico após a ressuscitação inicial.",
+   "Suspender o antibiótico e apenas observar a evolução clínica do paciente com lactato persistentemente elevado.",
+   "Administrar bicarbonato de sódio endovenoso de rotina para normalizar o lactato sérico do paciente agora.",
+   "Reduzir a dose do vasopressor apesar da persistência dos sinais de hipoperfusão tecidual no paciente agora."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Surviving Sepsis Campaign, 2021 com atualização 2024; SCCM guidance on hemodynamic monitoring, revisão 2023",
+  "coment": "Lactato que não reduz após a ressuscitação inicial indica hipoperfusão persistente ou foco não controlado e é marcador prognóstico importante. A conduta é reavaliar o controle da fonte — abscesso não drenado, cateter infectado, tecido necrótico, obstrução —, revisar a adequação do antimicrobiano, e ajustar a ressuscitação com avaliação dinâmica de responsividade a volume, função cardíaca e perfusão periférica, incluindo tempo de enchimento capilar.",
+  "porAlt": [
+   "Correta: reavaliar fonte e controle do foco e ajustar a ressuscitação com avaliação hemodinâmica dirigida.",
+   "O lactato persistente é marcador prognóstico relevante e sinaliza hipoperfusão ainda ativa.",
+   "Suspender o antibiótico em sepse com hipoperfusão persistente agrava diretamente o quadro.",
+   "O bicarbonato não corrige a causa da hiperlactatemia e não melhora desfechos nessa situação.",
+   "Reduzir o vasopressor com hipoperfusão persistente aprofunda o choque e a lesão de órgãos."
+  ]
+ },
+ {
+  "q": "Paciente com abdome agudo e suspeita de isquemia mesentérica, com dor desproporcional ao exame físico. Qual é a conduta?",
+  "alts": [
+   "Angiotomografia de abdome com urgência e avaliação cirúrgica, mantendo sempre alto índice de suspeição clínica.",
+   "Aguardar o surgimento de peritonite franca antes de qualquer investigação por imagem no paciente descrito.",
+   "Prescrever apenas analgésico potente e observar clinicamente por vinte e quatro horas antes de investigar.",
+   "Realizar apenas radiografia simples de abdome, exame suficiente para o diagnóstico de isquemia mesentérica.",
+   "Prescrever apenas antiespasmódico e liberar o paciente com retorno agendado em uma semana para reavaliação."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "WSES guidelines on acute mesenteric ischemia, 2022; ESVS Clinical Practice Guidelines on mesenteric ischemia, 2023",
+  "coment": "A isquemia mesentérica aguda tem como marca clínica a dor desproporcional ao exame físico, e o diagnóstico precoce é o principal determinante de sobrevida, com mortalidade que cresce muito após a instalação de necrose transmural. A angiotomografia com fases arterial e venosa é o exame de escolha e deve ser feita com urgência. O tratamento combina revascularização — endovascular ou cirúrgica —, ressecção de alça inviável e suporte intensivo.",
+  "porAlt": [
+   "Correta: angiotomografia com urgência e avaliação cirúrgica, mantendo alto índice de suspeição.",
+   "Esperar peritonite significa esperar necrose transmural, quando a mortalidade já é muito elevada.",
+   "Analgesia e observação por vinte e quatro horas permitem a progressão para infarto intestinal.",
+   "A radiografia simples é normal em fase inicial e não exclui isquemia mesentérica aguda.",
+   "Liberar com retorno em uma semana em suspeita de isquemia mesentérica é conduta de altíssimo risco."
+  ]
+ },
+ {
+  "q": "Paciente com trauma raquimedular e hipotensão com bradicardia, sem sinais de sangramento. Qual é a hipótese?",
+  "alts": [
+   "Choque neurogênico por perda do tônus simpático, exigindo sempre exclusão de hemorragia concomitante.",
+   "Choque hipovolêmico clássico, definido por hipotensão com bradicardia e ausência de sangramento evidente.",
+   "Choque cardiogênico agudo, condição caracterizada por hipotensão com bradicardia após trauma raquimedular.",
+   "Choque séptico precoce, quadro definido por hipotensão com bradicardia nas primeiras horas do trauma.",
+   "Choque anafilático, condição caracterizada por hipotensão com bradicardia após lesão medular traumática."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ATLS 11ª edição, 2024; AANS/CNS guidelines on management of acute cervical spine and spinal cord injuries, revisão 2023",
+  "coment": "O choque neurogênico decorre da perda do tônus simpático em lesões medulares acima do nível torácico médio, produzindo vasodilatação com hipotensão, bradicardia paradoxal e pele quente e seca, o que o distingue do choque hipovolêmico, que cursa com taquicardia e extremidades frias. É diagnóstico de exclusão no politraumatizado, exigindo afastar hemorragia. O tratamento combina reposição volêmica criteriosa, vasopressor e, quando necessário, atropina para a bradicardia.",
+  "porAlt": [
+   "Correta: choque neurogênico por perda do tônus simpático, com exclusão obrigatória de hemorragia.",
+   "O choque hipovolêmico cursa com taquicardia e extremidades frias, ao contrário do descrito aqui.",
+   "O choque cardiogênico cursa com congestão e sinais de falência de bomba, ausentes neste caso.",
+   "O choque séptico não se instala nas primeiras horas do trauma e cursa com taquicardia.",
+   "A anafilaxia cursa com taquicardia, urticária e broncoespasmo, sem relação com a lesão medular."
+  ]
+ },
+ {
+  "q": "Paciente com cetoacidose diabética em tratamento apresenta queda da glicemia para 210 mg/dL, mas mantém acidose e cetose. Qual é a conduta?",
+  "alts": [
+   "Acrescentar glicose à infusão e manter a insulina, mantendo sempre o gotejamento até a resolução da cetose.",
+   "Suspender a insulina imediatamente assim que a glicemia atingir duzentos e dez miligramas por decilitro já.",
+   "Aumentar a insulina sem qualquer oferta de glicose apesar da queda da glicemia observada no paciente agora já.",
+   "Suspender toda hidratação endovenosa assim que a glicemia cair abaixo de duzentos e cinquenta miligramas.",
+   "Administrar bicarbonato de sódio de rotina em todos os pacientes com cetoacidose e glicemia em queda agora."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ADA/EASD consensus report on hyperglycaemic crises in adults, 2024",
+  "coment": "Na cetoacidose diabética, a glicemia normaliza antes da cetose e da acidose, e a insulina precisa ser mantida até a resolução dos critérios: pH e bicarbonato adequados, cetonemia negativada e ânion gap normalizado. Quando a glicemia cai para cerca de 200 mg/dL, acrescenta-se glicose à infusão para permitir manter a insulina sem hipoglicemia. Suspender a insulina precocemente é erro clássico e leva a recidiva da cetoacidose.",
+  "porAlt": [
+   "Correta: acrescentar glicose à infusão e manter a insulina até a resolução completa da cetose.",
+   "Suspender a insulina antes da resolução da cetose leva a recidiva da cetoacidose no paciente.",
+   "Manter insulina sem oferta de glicose nesse ponto provoca hipoglicemia grave no paciente.",
+   "A hidratação é mantida conforme o estado volêmico e não é suspensa pela queda da glicemia.",
+   "O bicarbonato de rotina não é recomendado e pode agravar a acidose intracelular e a hipocalemia."
+  ]
+ },
+ {
+  "q": "Paciente com queimadura elétrica de alta tensão apresenta lesões cutâneas pequenas de entrada e saída. Qual é a preocupação principal?",
+  "alts": [
+   "Lesão profunda extensa com rabdomiólise e arritmia, exigindo sempre monitorização e hidratação vigorosa precoce.",
+   "Lesão limitada à pele visível, dispensando qualquer monitorização cardíaca ou avaliação de função renal agora.",
+   "Risco exclusivamente estético das lesões de entrada e saída, sem qualquer repercussão sistêmica relevante agora.",
+   "Necessidade apenas de curativo simples ambulatorial em todos os casos de queimadura elétrica de alta tensão.",
+   "Risco apenas de infecção local, sem qualquer necessidade de avaliação laboratorial ou eletrocardiográfica agora."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "American Burn Association guidelines on electrical injury, revisão 2023; ATLS 11ª edição, 2024",
+  "coment": "Na queimadura elétrica de alta tensão, as lesões cutâneas visíveis subestimam gravemente o dano: a corrente percorre tecidos profundos, causando necrose muscular extensa, rabdomiólise com risco de lesão renal aguda, síndrome compartimental e arritmias cardíacas. A conduta inclui monitorização eletrocardiográfica, hidratação vigorosa com alvo de débito urinário elevado, dosagem de creatinoquinase e mioglobina, e avaliação cirúrgica para fasciotomia quando necessário.",
+  "porAlt": [
+   "Correta: lesão profunda extensa com rabdomiólise e arritmia, exigindo monitorização e hidratação precoce.",
+   "A lesão cutânea visível subestima muito o dano profundo causado pela passagem da corrente.",
+   "O risco é sistêmico e grave, envolvendo coração, músculo e rim, e não apenas estético.",
+   "O curativo simples ignora a necessidade de monitorização, hidratação e avaliação de compartimentos.",
+   "Além da infecção, há risco de rabdomiólise, lesão renal, arritmia e síndrome compartimental."
+  ]
+ },
+ {
+  "q": "Paciente com dor torácica súbita, intensa, irradiada para o dorso, com assimetria de pulsos e hipertensão grave. Qual é a conduta?",
+  "alts": [
+   "Suspeitar de dissecção de aorta e reduzir frequência e pressão, solicitando sempre imagem vascular de urgência.",
+   "Iniciar trombólise sistêmica imediata em todos os pacientes com dor torácica intensa irradiada para o dorso.",
+   "Iniciar anticoagulação plena imediata como tratamento de escolha diante da suspeita clínica descrita no caso.",
+   "Prescrever apenas analgésico e observar clinicamente por doze horas antes de qualquer investigação por imagem.",
+   "Reduzir a pressão apenas com vasodilatador isolado, sem qualquer controle prévio da frequência cardíaca agora."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ESC Guidelines for the diagnosis and management of aortic diseases, 2024; ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease, 2022",
+  "coment": "A dissecção aguda de aorta se apresenta com dor súbita, intensa, lancinante, irradiada para o dorso, podendo cursar com assimetria de pulsos e pressão, déficit neurológico e insuficiência aórtica. O tratamento inicial reduz a força de cisalhamento sobre a parede: primeiro betabloqueador endovenoso para controlar a frequência, depois vasodilatador para a pressão — a ordem importa, pois vasodilatador isolado causa taquicardia reflexa e agrava a dissecção.",
+  "porAlt": [
+   "Correta: suspeitar de dissecção, reduzir frequência antes da pressão e solicitar imagem vascular urgente.",
+   "A trombólise em dissecção de aorta é catastrófica e pode causar hemorragia fatal imediata.",
+   "A anticoagulação plena agrava o sangramento na parede aórtica e é contraindicada nessa suspeita.",
+   "Observar doze horas em suspeita de dissecção permite rotura e óbito nesse intervalo de tempo.",
+   "Vasodilatador isolado causa taquicardia reflexa e aumenta a força de cisalhamento sobre a aorta."
+  ]
+ },
+ {
+  "q": "Paciente com hipoglicemia refratária após intoxicação por sulfonilureia, apesar de glicose endovenosa repetida. Qual é a conduta adicional?",
+  "alts": [
+   "Considerar octreotide associado à infusão de glicose, mantendo sempre monitorização glicêmica frequente e prolongada.",
+   "Administrar insulina para estabilizar o metabolismo do paciente com hipoglicemia refratária por sulfonilureia agora.",
+   "Suspender toda oferta de glicose e apenas observar a recuperação espontânea do paciente intoxicado nesse contexto.",
+   "Administrar flumazenil endovenoso como antídoto específico da intoxicação por sulfonilureia descrita no caso agora.",
+   "Liberar o paciente para casa assim que a glicemia normalizar uma única vez durante o atendimento nesse contexto."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "AACT/EAPCCT position paper on sulfonylurea poisoning, revisão 2023; Ministério da Saúde — intoxicações agudas, 2022",
+  "coment": "Na hipoglicemia refratária por sulfonilureia, a glicose endovenosa estimula ainda mais a secreção de insulina pelas células beta, criando um ciclo de recorrência. O octreotide inibe a secreção de insulina e é o antídoto funcional nessa situação, reduzindo episódios e a necessidade de glicose. A observação deve ser prolongada, de pelo menos vinte e quatro horas, dada a meia-vida longa do fármaco e o risco de recorrência após a normalização inicial.",
+  "porAlt": [
+   "Correta: octreotide associado à glicose, com monitorização glicêmica frequente e observação prolongada.",
+   "A insulina agrava a hipoglicemia e é exatamente o oposto do necessário nessa intoxicação.",
+   "Suspender a glicose em hipoglicemia refratária expõe o paciente a dano neurológico permanente.",
+   "O flumazenil é antídoto de benzodiazepínico e não tem qualquer efeito sobre a sulfonilureia.",
+   "A alta precoce arrisca recorrência em domicílio pela meia-vida longa do fármaco ingerido."
+  ]
+ },
+ {
+  "q": "Paciente com múltiplas vítimas em acidente e recursos limitados. Qual é o princípio da triagem em desastre?",
+  "alts": [
+   "Priorizar quem tem maior chance de sobreviver com os recursos disponíveis, buscando sempre o maior benefício coletivo.",
+   "Priorizar sempre o paciente mais grave, independentemente da chance de sobrevida e dos recursos disponíveis agora.",
+   "Atender estritamente por ordem de chegada em todos os cenários de múltiplas vítimas com recursos limitados agora.",
+   "Priorizar apenas por idade cronológica, atendendo primeiro os mais jovens em qualquer cenário de desastre neste caso.",
+   "Aguardar a chegada de recursos adicionais antes de iniciar qualquer atendimento às vítimas do acidente neste caso."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "ATLS 11ª edição, 2024, capítulo de desastres; Ministério da Saúde — Plano de resposta a emergências com múltiplas vítimas, 2022",
+  "coment": "Na triagem de desastre, o princípio muda em relação ao atendimento cotidiano: o objetivo deixa de ser o melhor para cada indivíduo e passa a ser o maior benefício para o maior número, com os recursos disponíveis. Pacientes com lesões incompatíveis com a sobrevida diante dos recursos existentes recebem cuidado de conforto, enquanto os recursos vão para quem tem chance real de sobreviver com intervenção. Sistemas como o START organizam essa classificação rapidamente.",
+  "porAlt": [
+   "Correta: priorizar quem tem maior chance de sobreviver com os recursos disponíveis no cenário.",
+   "Priorizar o mais grave sem considerar recursos e prognóstico consome tudo em quem não sobreviverá.",
+   "A ordem de chegada não considera gravidade e produz mortes evitáveis em cenário de desastre.",
+   "A idade isolada não é critério de triagem e não estima chance de sobrevida no evento.",
+   "Aguardar recursos sem iniciar o atendimento aumenta a mortalidade das vítimas recuperáveis."
+  ]
+ }
+]
