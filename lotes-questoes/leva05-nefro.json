@@ -2,13 +2,13 @@
  {
   "q": "Homem de 64 anos sem diabetes, com doença renal crônica por nefroesclerose hipertensiva, taxa de filtração glomerular estimada de 34 mL/min/1,73 m² e relação albumina-creatinina de 620 mg/g, já usa dose máxima tolerada de enalapril. A pressão está controlada e o potássio é de 4,6 mEq/L. Qual é a próxima medida com melhor evidência de nefroproteção?",
   "alts": [
-   "Acrescentar um inibidor de SGLT2, que tem recomendação forte nesse patamar de albuminúria e filtração.",
    "Associar um bloqueador do receptor de angiotensina à dose de enalapril que ele já vem usando hoje.",
    "Prescrever alopurinol de rotina, cuja redução do ácido úrico freia a perda de função renal do paciente.",
    "Restringir a proteína da dieta a 0,3 g/kg/dia, sem suplementação de cetoanálogos, para poupar o rim.",
+   "Acrescentar um inibidor de SGLT2, que tem recomendação forte nesse patamar de albuminúria e filtração.",
    "Iniciar diálise peritoneal preventiva agora, antes que a filtração glomerular caia abaixo de 30 mL/min."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "tto",
@@ -16,10 +16,10 @@
   "base": "KDIGO 2024 — Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
   "coment": "A diretriz KDIGO de 2024 recomenda inibidor de SGLT2 para adultos com doença renal crônica e filtração glomerular igual ou maior que 20 mL/min/1,73 m² quando a relação albumina-creatinina está em 200 mg/g ou mais, com grau de recomendação 1A e independentemente de haver diabetes. O paciente preenche os dois critérios. O duplo bloqueio do sistema renina-angiotensina com inibidor da ECA somado a bloqueador do receptor foi abandonado por aumentar hipercalemia e injúria renal aguda sem ganho de desfecho. A restrição proteica extrema sem cetoanálogos leva a desnutrição, e não há indicação de iniciar diálise em paciente assintomático nessa faixa de filtração.",
   "porAlt": [
-   "Correta: filtração acima de 20 mL/min com albuminúria acima de 200 mg/g coloca o inibidor de SGLT2 em recomendação forte, mesmo sem diabetes.",
    "O duplo bloqueio do sistema renina-angiotensina aumenta hipercalemia e injúria renal aguda sem melhorar desfechos, e foi abandonado por isso.",
    "O alopurinol trata hiperuricemia sintomática, mas os ensaios não confirmaram benefício em retardar a progressão da doença renal crônica.",
    "Restrição proteica tão intensa sem cetoanálogos produz desnutrição e sarcopenia, com risco que supera qualquer ganho renal esperado.",
+   "Correta: filtração acima de 20 mL/min com albuminúria acima de 200 mg/g coloca o inibidor de SGLT2 em recomendação forte, mesmo sem diabetes.",
    "A indicação de diálise depende de sintomas urêmicos e de distúrbios refratários, e não de um número isolado de filtração glomerular."
   ]
  },
@@ -52,11 +52,11 @@
   "alts": [
    "Alcalose respiratória primária por dor, que se corrige com controle da frequência respiratória.",
    "Alcalose metabólica resistente ao cloro, com indicação de espironolactona por hiperaldosteronismo.",
-   "Alcalose metabólica responsiva ao cloro, tratada com reposição de solução salina e de potássio.",
    "Acidose metabólica com ânion gap elevado, que exige infusão imediata de bicarbonato de sódio.",
-   "Distúrbio misto sem tradução clínica, cuja conduta é observar sem reposição volêmica agora."
+   "Distúrbio misto sem tradução clínica, cuja conduta é observar sem reposição volêmica agora.",
+   "Alcalose metabólica responsiva ao cloro, tratada com reposição de solução salina e de potássio."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "dx",
@@ -66,9 +66,9 @@
   "porAlt": [
    "Na alcalose respiratória a pressão de gás carbônico estaria baixa, e não elevada como neste paciente, o que exclui a hipótese de imediato.",
    "A forma resistente ao cloro cursa com cloro urinário acima de 20 mEq/L e volume expandido, quadro oposto ao deste paciente desidratado.",
-   "Correta: alcalose metabólica com cloro urinário abaixo de 20 mEq/L é responsiva ao cloro, e a reposição de salina com potássio corrige o distúrbio.",
    "O pH está acima de 7,45 e o bicarbonato elevado, de modo que não há acidose alguma; infundir bicarbonato agravaria seriamente o distúrbio.",
-   "Há distúrbio único com compensação adequada, e a desidratação com perda de cloro exige reposição, não apenas observação clínica."
+   "Há distúrbio único com compensação adequada, e a desidratação com perda de cloro exige reposição, não apenas observação clínica.",
+   "Correta: alcalose metabólica com cloro urinário abaixo de 20 mEq/L é responsiva ao cloro, e a reposição de salina com potássio corrige o distúrbio."
   ]
  }
 ]

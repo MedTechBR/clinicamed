@@ -2,13 +2,13 @@
  {
   "q": "Homem de 58 anos com cirrose e ascite volumosa apresenta febre, dor abdominal e 400 neutrófilos/mm³ no líquido ascítico. Qual é a conduta?",
   "alts": [
-   "Cefalosporina de terceira geração e albumina endovenosa, sempre nos dias definidos pelo protocolo.",
    "Apenas paracentese de alívio repetida, sem qualquer antibiótico associado ao procedimento realizado.",
    "Aguardar o resultado da cultura do líquido ascítico antes de iniciar qualquer antibioticoterapia.",
    "Prescrever apenas diurético em dose alta e reavaliar clinicamente em quarenta e oito horas agora.",
+   "Cefalosporina de terceira geração e albumina endovenosa, sempre nos dias definidos pelo protocolo.",
    "Iniciar antifúngico endovenoso empírico como tratamento de escolha para o quadro descrito no caso."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "urg",
@@ -16,23 +16,23 @@
   "base": "EASL Clinical Practice Guidelines on decompensated cirrhosis, 2018 com atualização 2023; AASLD guidance, 2021",
   "coment": "Peritonite bacteriana espontânea é definida por 250 ou mais neutrófilos por milímetro cúbico no líquido ascítico, independentemente da cultura. O tratamento é cefotaxima ou ceftriaxona por cinco a sete dias, iniciado imediatamente após a paracentese diagnóstica. A albumina endovenosa, 1,5 g/kg no primeiro dia e 1 g/kg no terceiro, reduz síndrome hepatorrenal e mortalidade. Após o episódio indica-se profilaxia secundária contínua com norfloxacino.",
   "porAlt": [
-   "Correta: cefalosporina de terceira geração com albumina nos dias primeiro e terceiro do tratamento.",
    "A paracentese isolada não trata a infecção instalada e a mortalidade sem antibiótico é elevada.",
    "Aguardar a cultura atrasa o tratamento, e a contagem de neutrófilos já basta para o diagnóstico.",
    "O diurético isolado não trata a infecção e pode precipitar disfunção renal nesse contexto.",
+   "Correta: cefalosporina de terceira geração com albumina nos dias primeiro e terceiro do tratamento.",
    "O antifúngico não cobre os agentes bacterianos habituais dessa infecção do líquido ascítico."
   ]
  },
  {
   "q": "Paciente de 45 anos com epigastralgia em queimação, pirose e teste positivo para Helicobacter pylori. Qual é a conduta?",
   "alts": [
-   "Erradicar o Helicobacter pylori com esquema combinado e confirmar sempre a cura após o tratamento.",
    "Prescrever apenas inibidor de bomba de prótons contínuo, sem qualquer tentativa de erradicação.",
    "Indicar cirurgia antirrefluxo imediatamente diante da positividade do teste para a bactéria descrita.",
    "Prescrever antiácido de demanda e reavaliar clinicamente após doze meses de acompanhamento agora.",
+   "Erradicar o Helicobacter pylori com esquema combinado e confirmar sempre a cura após o tratamento.",
    "Iniciar corticoide oral em dose alta, tratamento indicado para a inflamação gástrica associada."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
@@ -40,23 +40,23 @@
   "base": "Consenso Brasileiro sobre Helicobacter pylori, 2022; Maastricht VI/Florence Consensus Report, 2022",
   "coment": "A infecção por Helicobacter pylori deve ser erradicada sempre que diagnosticada, por reduzir úlcera péptica e risco de câncer gástrico. O esquema tradicional no Brasil associa inibidor de bomba de prótons, amoxicilina e claritromicina por catorze dias, com esquemas quádruplos com bismuto ganhando espaço pela resistência crescente à claritromicina. A confirmação de cura é feita quatro semanas após o fim do tratamento, por teste respiratório ou antígeno fecal.",
   "porAlt": [
-   "Correta: erradicar com esquema combinado e confirmar a cura quatro semanas após o tratamento.",
    "O inibidor isolado alivia sintomas, mas mantém a infecção e o risco de úlcera e câncer gástrico.",
    "A cirurgia antirrefluxo não trata a infecção pela bactéria e não tem indicação neste contexto.",
    "O antiácido de demanda não erradica a bactéria nem modifica o risco de complicações futuras.",
+   "Correta: erradicar com esquema combinado e confirmar a cura quatro semanas após o tratamento.",
    "O corticoide não trata a infecção e pode favorecer complicações da mucosa gastroduodenal."
   ]
  },
  {
   "q": "Homem de 62 anos com disfagia progressiva para sólidos e depois líquidos, com perda de peso de 8 kg em 3 meses. Qual é a conduta?",
   "alts": [
-   "Endoscopia digestiva alta com biópsia, sempre pela alta suspeita de neoplasia esofágica no quadro.",
    "Prescrever inibidor de bomba de prótons por três meses e reavaliar apenas se a disfagia persistir.",
    "Solicitar apenas manometria esofágica, exame que estabelece o diagnóstico da causa dessa disfagia.",
    "Prescrever apenas dieta pastosa e orientação postural, sem qualquer investigação complementar.",
+   "Endoscopia digestiva alta com biópsia, sempre pela alta suspeita de neoplasia esofágica no quadro.",
    "Solicitar apenas radiografia contrastada de esôfago, exame que dispensa a avaliação endoscópica."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -64,23 +64,23 @@
   "base": "ASGE guideline on the role of endoscopy in dysphagia, revisão 2023; Sociedade Brasileira de Endoscopia Digestiva, 2022",
   "coment": "Disfagia progressiva de sólidos para líquidos com perda ponderal é sinal de alarme e sugere causa mecânica obstrutiva, sobretudo neoplasia esofágica. A endoscopia digestiva alta com biópsia é o exame inicial, por permitir visualização direta e diagnóstico histológico. Prescrever inibidor de bomba de prótons sem investigar retarda o diagnóstico. A manometria é útil em distúrbios motores como acalasia, avaliada após a exclusão de causa estrutural pela endoscopia.",
   "porAlt": [
-   "Correta: endoscopia digestiva alta com biópsia, pela alta suspeita de neoplasia esofágica no caso.",
    "O inibidor de bomba mascara sintomas e adia o diagnóstico de uma doença potencialmente curável.",
    "A manometria avalia distúrbio motor, investigado após excluir causa estrutural pela endoscopia.",
    "Medidas dietéticas isoladas não investigam a causa e permitem a progressão da doença de base.",
+   "Correta: endoscopia digestiva alta com biópsia, pela alta suspeita de neoplasia esofágica no caso.",
    "A radiografia contrastada é complementar e não fornece o material histológico necessário."
   ]
  },
  {
   "q": "Paciente com hepatite C crônica, genótipo 1, sem cirrose, virgem de tratamento. Qual é a conduta?",
   "alts": [
-   "Tratar com antiviral de ação direta por doze semanas, esperando sempre resposta virológica sustentada.",
    "Tratar apenas quando surgir fibrose avançada documentada por elastografia ou biópsia hepática agora.",
    "Prescrever interferon peguilado com ribavirina, esquema atualmente preferencial para esse genótipo.",
    "Apenas monitorizar a carga viral anualmente sem qualquer tratamento antiviral específico indicado.",
+   "Tratar com antiviral de ação direta por doze semanas, esperando sempre resposta virológica sustentada.",
    "Iniciar corticoide sistêmico contínuo, tratamento indicado para a hepatite crônica de origem viral."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
@@ -88,10 +88,10 @@
   "base": "Ministério da Saúde — PCDT para Hepatite C e Coinfecções, 2024; EASL recommendations on treatment of hepatitis C, 2023",
   "coment": "Todo paciente com hepatite C crônica tem indicação de tratamento, independentemente do grau de fibrose, com antivirais de ação direta pangenotípicos como sofosbuvir com velpatasvir ou glecaprevir com pibrentasvir, por oito a doze semanas, alcançando resposta virológica sustentada acima de noventa e cinco por cento. Interferon foi abandonado. Mesmo após a cura, pacientes com fibrose avançada mantêm rastreio de carcinoma hepatocelular por ultrassom semestral.",
   "porAlt": [
-   "Correta: antiviral de ação direta por doze semanas, com resposta virológica sustentada muito alta.",
    "Esperar fibrose avançada permite dano hepático evitável, já que hoje se trata todos os pacientes.",
    "O interferon foi abandonado por menor eficácia e toxicidade muito superior à dos antivirais atuais.",
    "Apenas monitorizar mantém a inflamação ativa e a progressão para cirrose e carcinoma hepático.",
+   "Correta: antiviral de ação direta por doze semanas, com resposta virológica sustentada muito alta.",
    "O corticoide trata hepatite autoimune e pode aumentar a replicação viral na hepatite crônica C."
   ]
  },
@@ -146,13 +146,13 @@
  {
   "q": "Homem de 55 anos, etilista, com hematêmese volumosa e cirrose conhecida. Qual é a conduta imediata?",
   "alts": [
-   "Estabilizar, iniciar droga vasoativa e antibiótico profilático, com endoscopia sempre nas primeiras horas.",
    "Realizar endoscopia antes de qualquer estabilização hemodinâmica ou reposição volêmica do paciente agora.",
    "Transfundir hemácias até hemoglobina de 12 g/dL como meta inicial da reposição nesse sangramento agora.",
+   "Estabilizar, iniciar droga vasoativa e antibiótico profilático, com endoscopia sempre nas primeiras horas.",
    "Prescrever apenas inibidor de bomba de prótons endovenoso, sem droga vasoativa ou antibiótico neste caso.",
    "Indicar cirurgia de urgência como primeira medida em todo sangramento digestivo alto no cirrótico agora."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "urg",
@@ -160,9 +160,9 @@
   "base": "Baveno VII consensus on portal hypertension, 2022; AASLD practice guidance on variceal hemorrhage, 2023",
   "coment": "Na hemorragia digestiva alta do cirrótico, a conduta é estabilização com estratégia restritiva de transfusão, alvo de hemoglobina em torno de 7 g/dL, droga vasoativa como terlipressina ou octreotide iniciada antes da endoscopia, antibiótico profilático com ceftriaxona — que reduz infecção e mortalidade —, e endoscopia diagnóstica e terapêutica nas primeiras doze horas. Transfundir em excesso eleva a pressão portal e pode agravar o sangramento.",
   "porAlt": [
-   "Correta: estabilizar, iniciar vasoativo e antibiótico profilático, com endoscopia nas primeiras horas.",
    "A endoscopia sem estabilização prévia aumenta o risco de complicações durante o procedimento.",
    "A meta de 12 g/dL eleva a pressão portal e aumenta o ressangramento; o alvo é restritivo.",
+   "Correta: estabilizar, iniciar vasoativo e antibiótico profilático, com endoscopia nas primeiras horas.",
    "O inibidor de bomba isolado não controla o sangramento varicoso e não substitui o vasoativo.",
    "A cirurgia é medida de exceção, após falha do tratamento endoscópico e farmacológico combinado."
   ]
@@ -194,13 +194,13 @@
  {
   "q": "Mulher de 30 anos com diarreia crônica, distensão abdominal, anemia ferropriva e anticorpo antitransglutaminase IgA positivo. Qual é a conduta?",
   "alts": [
-   "Confirmar com biópsia duodenal antes da dieta e iniciar depois exclusão sempre rigorosa do glúten.",
    "Iniciar dieta sem glúten imediatamente e realizar a biópsia duodenal apenas semanas depois do início.",
+   "Confirmar com biópsia duodenal antes da dieta e iniciar depois exclusão sempre rigorosa do glúten.",
    "Prescrever apenas reposição de ferro isolada, sem qualquer investigação adicional ou mudança dietética.",
    "Iniciar corticoide sistêmico contínuo, tratamento de escolha para a doença celíaca em adultos jovens.",
    "Solicitar apenas colonoscopia, exame que estabelece o diagnóstico definitivo da doença suspeitada."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -208,8 +208,8 @@
   "base": "ACG Clinical Guideline: Diagnosis and Management of Celiac Disease, 2023; ESsCD guideline, 2019",
   "coment": "No adulto, o diagnóstico de doença celíaca exige biópsia duodenal com o paciente ainda em dieta contendo glúten, porque a retirada prévia normaliza a mucosa e inviabiliza a confirmação histológica. Colhem-se pelo menos quatro fragmentos de duodeno distal e dois de bulbo. Confirmado o diagnóstico, a dieta sem glúten é permanente e rigorosa. Deficiências de ferro, ácido fólico, vitamina D e cálcio devem ser pesquisadas e corrigidas no seguimento.",
   "porAlt": [
-   "Correta: confirmar com biópsia duodenal ainda em dieta com glúten e só então excluí-lo de forma rigorosa.",
    "Retirar o glúten antes da biópsia normaliza a mucosa e impede a confirmação histológica do diagnóstico.",
+   "Correta: confirmar com biópsia duodenal ainda em dieta com glúten e só então excluí-lo de forma rigorosa.",
    "Repor ferro sem investigar deixa a causa ativa e a anemia recorre após o fim da suplementação.",
    "O corticoide não é o tratamento da doença celíaca, cuja base é a exclusão permanente do glúten.",
    "A colonoscopia avalia o cólon e não fornece a histologia duodenal necessária ao diagnóstico."
@@ -218,13 +218,13 @@
  {
   "q": "Paciente de 68 anos com achado de pólipo adenomatoso de 12 mm ressecado na colonoscopia. Qual é a conduta de seguimento?",
   "alts": [
-   "Nova colonoscopia em três anos, definida sempre pelo tamanho e pela histologia do pólipo ressecado.",
    "Nova colonoscopia em dez anos, intervalo padrão independentemente do tamanho e da histologia do pólipo.",
    "Indicar colectomia segmentar profilática após a ressecção endoscópica completa do pólipo adenomatoso.",
+   "Nova colonoscopia em três anos, definida sempre pelo tamanho e pela histologia do pólipo ressecado.",
    "Repetir a colonoscopia a cada seis meses indefinidamente após qualquer ressecção de pólipo colônico.",
    "Não repetir a colonoscopia, pois a ressecção completa dispensa qualquer seguimento endoscópico futuro."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
@@ -232,9 +232,9 @@
   "base": "US Multi-Society Task Force on Colorectal Cancer — post-polypectomy surveillance recommendations, atualização 2020 com revisão 2024",
   "coment": "O intervalo de vigilância após polipectomia depende do número, tamanho e histologia das lesões. Adenoma de dez milímetros ou mais, ou histologia com componente viloso ou displasia de alto grau, ou de três a quatro adenomas, indicam nova colonoscopia em três anos. Um ou dois adenomas tubulares pequenos permitem intervalo de sete a dez anos. Deve-se garantir que a ressecção foi completa e que o preparo permitiu exame adequado de toda a mucosa.",
   "porAlt": [
-   "Correta: adenoma de dez milímetros ou mais indica nova colonoscopia em três anos de intervalo.",
    "O intervalo de dez anos se aplica a exame normal, e não após ressecção de adenoma avançado.",
    "A colectomia não é indicada após ressecção endoscópica completa de pólipo adenomatoso benigno.",
+   "Correta: adenoma de dez milímetros ou mais indica nova colonoscopia em três anos de intervalo.",
    "O intervalo semestral indefinido não tem respaldo e multiplica riscos e custos sem benefício.",
    "A ausência de seguimento perde lesões metacrônicas em paciente com risco comprovadamente maior."
   ]

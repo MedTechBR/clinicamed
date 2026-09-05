@@ -4,11 +4,11 @@
   "alts": [
    "Manter o antibiótico por dez dias no total, duração clássica que reduz a chance de recidiva.",
    "Manter o antibiótico até que a radiografia de tórax mostre resolução completa da consolidação.",
+   "Suspender o antibiótico ao completar o terceiro dia, pois ele já alcançou estabilidade clínica.",
    "Trocar por um macrolídeo e completar mais sete dias, ampliando a cobertura para germe atípico.",
-   "Prolongar o esquema por catorze dias porque a consolidação lobar indica doença pneumocócica.",
-   "Suspender o antibiótico ao completar o terceiro dia, pois ele já alcançou estabilidade clínica."
+   "Prolongar o esquema por catorze dias porque a consolidação lobar indica doença pneumocócica."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -18,21 +18,21 @@
   "porAlt": [
    "Dez dias é herança de recomendações antigas; a evidência de não inferioridade dos esquemas curtos derrubou essa duração na pneumonia não grave.",
    "A imagem melhora semanas depois da cura clínica; guiar a duração por radiografia prolonga o antibiótico sem qualquer benefício ao paciente.",
+   "Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três — que ele já completou.",
    "Não há motivo para trocar a classe em quem respondeu bem, e estender por mais sete dias contraria a recomendação de curso curto.",
-   "O padrão lobar não define duração nem exige esquema prolongado; o que define é a resposta clínica e a gravidade da apresentação inicial.",
-   "Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três — que ele já completou."
+   "O padrão lobar não define duração nem exige esquema prolongado; o que define é a resposta clínica e a gravidade da apresentação inicial."
   ]
  },
  {
   "q": "Mulher de 63 anos está internada em UTI com pneumonia adquirida na comunidade grave, em ventilação mecânica e vasopressor desde a admissão. No quarto dia melhorou: está sem vasopressor, afebril e com parâmetros ventilatórios em redução. A equipe questiona se pode suspender o antimicrobiano hoje. Qual é a orientação da diretriz vigente?",
   "alts": [
-   "Suspender hoje mesmo, já que a melhora clínica no quarto dia autoriza encerrar o tratamento.",
    "Manter o antimicrobiano por pelo menos cinco dias, patamar recomendado na apresentação grave.",
+   "Suspender hoje mesmo, já que a melhora clínica no quarto dia autoriza encerrar o tratamento.",
    "Manter o antimicrobiano até a alta hospitalar, independentemente do tempo total de tratamento.",
    "Suspender e substituir por profilaxia com azitromicina em dias alternados por três semanas.",
    "Manter por vinte e um dias, duração exigida em toda pneumonia que precisou de ventilação."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
@@ -40,8 +40,8 @@
   "base": "American Thoracic Society 2025 — recomendação forte de cinco dias ou mais na pneumonia grave",
   "coment": "A diretriz de 2025 separa com clareza dois cenários. Na pneumonia não grave, ambulatorial ou internada, sugere curso curto — menos de cinco dias, com mínimo de três — assim que houver estabilidade clínica. Na pneumonia grave, porém, a recomendação é forte no sentido oposto: cinco dias ou mais de tratamento. A gravidade da apresentação inicial, e não a velocidade da melhora, é o que define esse piso. Encerrar no quarto dia por resposta favorável contraria a recomendação; por outro lado, prolongar indefinidamente até a alta é o extremo oposto e igualmente sem respaldo.",
   "porAlt": [
-   "A melhora precoce não rebaixa a gravidade da apresentação inicial, que é justamente o critério usado para definir o piso de duração.",
    "Correta: a apresentação grave carrega recomendação forte de pelo menos cinco dias, independentemente de a melhora ter vindo antes disso.",
+   "A melhora precoce não rebaixa a gravidade da apresentação inicial, que é justamente o critério usado para definir o piso de duração.",
    "Amarrar a duração do antimicrobiano à data da alta é decisão administrativa, não clínica, e costuma resultar em tratamento excessivo.",
    "Azitromicina profilática prolongada não tem papel na pneumonia comunitária e traz risco cardíaco e de indução de resistência.",
    "Não existe regra de vinte e um dias por uso de ventilação; a duração é definida pela gravidade e pela resposta, não pelo suporte usado."
@@ -52,11 +52,11 @@
   "alts": [
    "Levofloxacino em monoterapia, que deve ser a primeira escolha no paciente ambulatorial saudável.",
    "Amoxicilina com clavulanato somada a macrolídeo, cobrindo germe atípico de forma rotineira.",
+   "Amoxicilina em dose alta como monoterapia, reservando doxiciclina como alternativa aceitável.",
    "Ceftriaxona intramuscular diária por cinco dias, garantindo adesão melhor que a via oral.",
-   "Azitromicina isolada na região onde ele atua, sem checar a resistência local do pneumococo.",
-   "Amoxicilina em dose alta como monoterapia, reservando doxiciclina como alternativa aceitável."
+   "Azitromicina isolada na região onde ele atua, sem checar a resistência local do pneumococo."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -66,21 +66,21 @@
   "porAlt": [
    "A fluoroquinolona é droga de reserva: seleciona resistência, mascara tuberculose e tem alertas de segurança que desaconselham o uso de rotina.",
    "Associar clavulanato e macrolídeo é esquema de paciente com comorbidade ou uso recente de antibiótico, e não do adulto hígido descrito.",
+   "Correta: monoterapia com amoxicilina em dose alta é a escolha inicial nesse perfil, com doxiciclina como alternativa razoável.",
    "A via intramuscular diária não traz vantagem em quem tolera via oral, e o cenário ambulatorial não justifica esse incômodo ao paciente.",
-   "O macrolídeo isolado só é aceitável onde a resistência local do pneumococo é inferior a 25%, o que precisa ser conhecido antes de prescrever.",
-   "Correta: monoterapia com amoxicilina em dose alta é a escolha inicial nesse perfil, com doxiciclina como alternativa razoável."
+   "O macrolídeo isolado só é aceitável onde a resistência local do pneumococo é inferior a 25%, o que precisa ser conhecido antes de prescrever."
   ]
  },
  {
   "q": "Durante a visita na enfermaria, o preceptor pede que o residente diga se um paciente internado por pneumonia atingiu estabilidade clínica, critério que orienta a decisão de encerrar o antimicrobiano. Qual conjunto de achados corresponde à definição usada pela diretriz vigente?",
   "alts": [
-   "Afebril, frequência cardíaca abaixo de 100 bpm, respiratória abaixo de 24 irpm e sem confusão.",
    "Proteína C reativa reduzida à metade e leucograma inteiramente normalizado no exame de controle.",
    "Radiografia de tórax com resolução completa e ausculta pulmonar sem qualquer ruído adventício.",
+   "Afebril, frequência cardíaca abaixo de 100 bpm, respiratória abaixo de 24 irpm e sem confusão.",
    "Hemocultura negativa em duas amostras colhidas após vinte e quatro horas de antimicrobiano.",
    "Ausência de tosse e de expectoração por um período mínimo de quarenta e oito horas seguidas."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
@@ -88,9 +88,9 @@
   "base": "American Thoracic Society 2025 — definição de estabilidade clínica na pneumonia adquirida na comunidade",
   "coment": "A definição é clínica e composta: paciente afebril, frequência cardíaca abaixo de 100 bpm, frequência respiratória abaixo de 24 irpm, saturação de pelo menos 90% em ar ambiente ou pressão parcial de oxigênio de ao menos 60 mmHg, pressão sistólica de pelo menos 90 mmHg e estado mental normal. Importa porque é esse conjunto, e não exame de imagem ou marcador inflamatório, que autoriza encerrar o antimicrobiano no curso curto. A radiografia melhora semanas após a cura clínica, e usar a imagem como critério é a causa mais comum de tratamento desnecessariamente prolongado.",
   "porAlt": [
-   "Correta: a estabilidade clínica é definida por sinais vitais e estado mental, o conjunto que autoriza encerrar o antimicrobiano.",
    "Marcadores inflamatórios não fazem parte da definição e sua normalização costuma ser bem mais lenta que a recuperação clínica.",
    "A imagem melhora semanas depois da cura clínica: exigir resolução radiológica é a causa mais frequente de tratamento prolongado à toa.",
+   "Correta: a estabilidade clínica é definida por sinais vitais e estado mental, o conjunto que autoriza encerrar o antimicrobiano.",
    "A hemocultura negativa não define estabilidade, até porque a maioria das pneumonias comunitárias cursa sem bacteriemia documentada.",
    "A tosse pode persistir por semanas depois da cura e não integra os critérios objetivos usados pela definição da diretriz."
   ]

@@ -27,12 +27,12 @@
   "q": "Mulher de 63 anos com cirrose apresenta confusão mental e inversão do ciclo sono-vigília há dois dias. Está afebril, sem sinais de sangramento, com amônia sérica dentro da normalidade. Como interpretar e conduzir?",
   "alts": [
    "Encefalopatia está excluída pela amônia normal, devendo-se investigar apenas causas neurológicas primárias.",
-   "Encefalopatia hepática é clínica: amônia normal não exclui, e a busca do precipitante orienta o manejo.",
    "Dosar amônia seriada a cada seis horas para acompanhar a resposta ao tratamento instituído na internação.",
    "Iniciar restrição proteica rigorosa, medida central no tratamento da encefalopatia hepática em cirróticos.",
-   "Prescrever benzodiazepínico para regularizar o ciclo do sono e reavaliar o quadro no dia seguinte."
+   "Prescrever benzodiazepínico para regularizar o ciclo do sono e reavaliar o quadro no dia seguinte.",
+   "Encefalopatia hepática é clínica: amônia normal não exclui, e a busca do precipitante orienta o manejo."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "dx",
@@ -41,22 +41,22 @@
   "coment": "A encefalopatia hepática é diagnóstico clínico. A amônia sérica não serve para diagnosticar, não exclui quando normal, não confirma quando elevada e não deve ser usada para acompanhar a resposta ao tratamento. O passo que muda desfecho é procurar o fator precipitante: infecção, incluindo peritonite bacteriana espontânea, hemorragia digestiva, constipação, distúrbio eletrolítico, desidratação por diurético, sedativos e injúria renal. O tratamento é lactulose titulada para duas a três evacuações pastosas por dia, com rifaximina associada sobretudo na prevenção de recorrência. A restrição proteica foi abandonada por piorar a sarcopenia.",
   "porAlt": [
    "A amônia normal não afasta encefalopatia; abandonar a hipótese por causa dela atrasa o tratamento correto.",
-   "Correta: o diagnóstico é clínico, a amônia normal não exclui, e o essencial é identificar e tratar o fator precipitante.",
    "A dosagem seriada de amônia não guia tratamento e apenas consome recursos sem alterar a conduta clínica.",
    "A restrição proteica foi abandonada: piora a sarcopenia, que por sua vez agrava a própria encefalopatia.",
-   "Benzodiazepínico agrava o rebaixamento e é justamente uma das causas precipitantes a serem investigadas."
+   "Benzodiazepínico agrava o rebaixamento e é justamente uma das causas precipitantes a serem investigadas.",
+   "Correta: o diagnóstico é clínico, a amônia normal não exclui, e o essencial é identificar e tratar o fator precipitante."
   ]
  },
  {
   "q": "Paciente de 70 anos com cirrose e ascite refratária será submetido a paracentese de alívio, com previsão de retirada de 8 litros. Qual medida deve acompanhar o procedimento?",
   "alts": [
    "Reposição de solução salina isotônica em volume igual ao retirado durante o próprio procedimento.",
-   "Reposição de albumina de seis a oito gramas por litro retirado, prevenindo disfunção circulatória.",
    "Nenhuma reposição, uma vez que a paracentese de alívio não altera a hemodinâmica desses pacientes.",
    "Transfusão profilática de plasma fresco congelado antes do procedimento, corrigindo a coagulopatia.",
-   "Reposição de concentrado de hemácias, mesmo sem anemia, para compensar a perda proteica do líquido."
+   "Reposição de concentrado de hemácias, mesmo sem anemia, para compensar a perda proteica do líquido.",
+   "Reposição de albumina de seis a oito gramas por litro retirado, prevenindo disfunção circulatória."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
@@ -65,10 +65,10 @@
   "coment": "Em paracenteses de grande volume, acima de cerca de 5 litros, indica-se reposição de albumina na dose de 6 a 8 gramas por litro retirado, para prevenir a disfunção circulatória pós-paracentese — quadro de queda do volume arterial efetivo, ativação neuro-humoral, hiponatremia, injúria renal e reacúmulo mais rápido da ascite. Salina isotônica não substitui a albumina nessa indicação, porque não expande o compartimento intravascular com a mesma eficiência nem sustenta a pressão oncótica. A correção profilática de coagulopatia não é necessária para paracentese.",
   "porAlt": [
    "A salina não sustenta a pressão oncótica e não previne a disfunção circulatória da mesma forma que a albumina.",
-   "Correta: acima de cinco litros repõe-se albumina de seis a oito gramas por litro, prevenindo disfunção circulatória.",
    "A paracentese de grande volume altera sim a hemodinâmica, e é justamente por isso que se repõe albumina.",
    "A correção profilática da coagulopatia não é necessária para paracentese, procedimento de baixo risco hemorrágico.",
-   "A transfusão de hemácias sem anemia não tem indicação e não compensa a perda proteica do líquido ascítico."
+   "A transfusão de hemácias sem anemia não tem indicação e não compensa a perda proteica do líquido ascítico.",
+   "Correta: acima de cinco litros repõe-se albumina de seis a oito gramas por litro, prevenindo disfunção circulatória."
   ]
  },
  {
@@ -76,11 +76,11 @@
   "alts": [
    "Acidose metabólica hiperclorêmica, pois o ânion gap calculado fica dentro da faixa de normalidade.",
    "Alcalose respiratória primária, indicada pela pressão parcial de gás carbônico reduzida no exame.",
+   "Acidose metabólica com ânion gap elevado após correção pela albumina, com compensação adequada.",
    "Distúrbio respiratório puro sem componente metabólico, dispensando o cálculo do ânion gap no caso.",
-   "Acidose metabólica sem compensação respiratória, o que caracteriza um distúrbio misto neste paciente.",
-   "Acidose metabólica com ânion gap elevado após correção pela albumina, com compensação adequada."
+   "Acidose metabólica sem compensação respiratória, o que caracteriza um distúrbio misto neste paciente."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "dx",
@@ -90,9 +90,9 @@
   "porAlt": [
    "Sem corrigir pela albumina o gap parece menor, e é exatamente esse erro que faz a acidose com gap passar despercebida.",
    "A pressão de gás carbônico baixa aqui é a compensação esperada da acidose metabólica, e não um distúrbio primário.",
+   "Correta: o gap corrigido pela albumina chega a 28 e a compensação respiratória está adequada pela fórmula de Winter.",
    "O cálculo do ânion gap é obrigatório em toda acidose metabólica e revela a origem do distúrbio neste paciente.",
-   "A compensação está exatamente no valor previsto pela fórmula de Winter, de modo que não há distúrbio misto.",
-   "Correta: o gap corrigido pela albumina chega a 28 e a compensação respiratória está adequada pela fórmula de Winter."
+   "A compensação está exatamente no valor previsto pela fórmula de Winter, de modo que não há distúrbio misto."
   ]
  },
  {

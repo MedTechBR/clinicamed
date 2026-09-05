@@ -26,13 +26,13 @@
  {
   "q": "Uma equipe precisa organizar a vacinação de adultos na unidade. Qual conjunto compõe o calendário do adulto no Brasil?",
   "alts": [
-   "Dupla adulto, hepatite B, febre amarela e tríplice viral conforme sempre a situação vacinal de cada pessoa.",
    "Apenas a vacina contra influenza anual, única recomendada para adultos sem comorbidades no país agora.",
    "Somente vacinas para viajantes internacionais, já sem qualquer esquema de rotina previsto para adultos agora.",
+   "Dupla adulto, hepatite B, febre amarela e tríplice viral conforme sempre a situação vacinal de cada pessoa.",
    "Apenas a vacina antitetânica em caso de ferimento, sem qualquer esquema regular de reforço programado.",
    "Somente vacinas para gestantes, pois os demais adultos não têm calendário vacinal definido no Brasil agora."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -40,9 +40,9 @@
   "base": "Ministério da Saúde — Calendário Nacional de Vacinação, 2025",
   "coment": "O calendário do adulto inclui dupla adulto com reforço a cada dez anos, hepatite B em três doses para quem não tem esquema completo, febre amarela em dose única conforme área de risco e tríplice viral conforme idade e situação vacinal. Acrescentam-se influenza anual para grupos prioritários, pneumocócica e vacinas para gestantes. A avaliação da caderneta é oportunidade em toda consulta, aproveitando o contato com o serviço.",
   "porAlt": [
-   "Correta: dupla adulto, hepatite B, febre amarela e tríplice viral conforme a situação vacinal.",
    "A influenza é importante em grupos prioritários, mas não é a única vacina prevista para adultos.",
    "Há calendário de rotina para adultos, e não apenas recomendações para viagens internacionais.",
+   "Correta: dupla adulto, hepatite B, febre amarela e tríplice viral conforme a situação vacinal.",
    "A profilaxia do tétano em ferimento não substitui o esquema regular com reforços programados.",
    "O calendário do adulto abrange toda a população, e não apenas as mulheres gestantes."
   ]
@@ -50,13 +50,13 @@
  {
   "q": "Uma paciente traz relato de violência doméstica recente. Qual é a conduta obrigatória do serviço?",
   "alts": [
-   "Acolher, notificar compulsoriamente e articular sempre a rede de proteção com o consentimento da pessoa.",
    "Notificar apenas se a paciente registrar boletim de ocorrência policial antes do atendimento no serviço.",
+   "Acolher, notificar compulsoriamente e articular sempre a rede de proteção com o consentimento da pessoa.",
    "Encaminhar exclusivamente para a delegacia sem qualquer atendimento clínico ou notificação do caso.",
    "Registrar apenas em prontuário, sem qualquer notificação à vigilância epidemiológica do município agora.",
    "Aguardar que a paciente solicite a notificação por escrito antes de qualquer comunicação oficial do caso."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -64,8 +64,8 @@
   "base": "Lei nº 10.778/2003; Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de violência interpessoal",
   "coment": "A notificação de violência interpessoal e autoprovocada é compulsória para todos os serviços de saúde, públicos e privados, e independe de boletim de ocorrência. Ela é instrumento epidemiológico e de proteção, não denúncia policial: a comunicação à autoridade policial é obrigatória apenas em situações específicas, como violência contra criança, adolescente, idoso e pessoa com deficiência. O acolhimento inclui avaliação de risco e articulação com a rede.",
   "porAlt": [
-   "Correta: acolher, notificar compulsoriamente e articular a rede de proteção junto com a pessoa.",
    "A notificação independe de boletim de ocorrência e é dever do serviço de saúde que atende.",
+   "Correta: acolher, notificar compulsoriamente e articular a rede de proteção junto com a pessoa.",
    "Encaminhar sem atender nega assistência e desconsidera as necessidades clínicas da paciente.",
    "O registro em prontuário não substitui a notificação compulsória prevista na legislação vigente.",
    "A notificação é obrigatória e não depende de solicitação por escrito da pessoa atendida."
@@ -74,13 +74,13 @@
  {
   "q": "Um gestor quer avaliar a qualidade de um teste diagnóstico novo em relação a um padrão-ouro. Qual medida indica a proporção de doentes corretamente identificados?",
   "alts": [
-   "Sensibilidade, que expressa sempre a proporção de doentes com resultado positivo no teste avaliado.",
    "Especificidade, que expressa a proporção de doentes identificados corretamente pelo teste em estudo.",
+   "Sensibilidade, que expressa sempre a proporção de doentes com resultado positivo no teste avaliado.",
    "Valor preditivo positivo, medida que independe da prevalência da doença na população avaliada agora.",
    "Prevalência, medida que expressa a capacidade do teste de identificar corretamente os doentes agora.",
    "Incidência acumulada, medida que expressa o desempenho do teste entre os indivíduos com a doença."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
@@ -88,8 +88,8 @@
   "base": "Ministério da Saúde — Diretrizes metodológicas de avaliação de tecnologias em saúde, 2022; epidemiologia clínica clássica",
   "coment": "Sensibilidade é a proporção de doentes com teste positivo e responde à pergunta sobre quantos doentes o teste encontra; especificidade é a proporção de não doentes com teste negativo. Ambas são propriedades relativamente estáveis do teste. Já os valores preditivos dependem fortemente da prevalência: o mesmo teste tem valor preditivo positivo alto em população de alto risco e baixo em rastreamento populacional de doença rara.",
   "porAlt": [
-   "Correta: sensibilidade é a proporção de doentes corretamente identificados como positivos pelo teste.",
    "Especificidade se refere aos não doentes corretamente identificados como negativos pelo teste.",
+   "Correta: sensibilidade é a proporção de doentes corretamente identificados como positivos pelo teste.",
    "O valor preditivo positivo depende fortemente da prevalência da doença na população estudada.",
    "Prevalência é a proporção de doentes na população, e não uma medida de desempenho do teste.",
    "Incidência mede casos novos em um período e não avalia o desempenho de um teste diagnóstico."
@@ -98,13 +98,13 @@
  {
   "q": "Um médico é convidado a receber vantagem de uma indústria farmacêutica para prescrever determinado medicamento. Qual é a conduta correta?",
   "alts": [
-   "Recusar a oferta, pois vincular prescrição a vantagem fere sempre a autonomia técnica do médico.",
    "Aceitar desde que o medicamento tenha registro sanitário válido e comprovada eficácia terapêutica.",
+   "Recusar a oferta, pois vincular prescrição a vantagem fere sempre a autonomia técnica do médico.",
    "Aceitar e informar apenas ao paciente, o que torna a conduta eticamente aceitável na relação clínica.",
    "Aceitar se o valor recebido for destinado integralmente a atividades de educação médica continuada.",
    "Aceitar desde que outros profissionais do mesmo serviço também recebam a mesma oferta comercial."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -112,8 +112,8 @@
   "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; Resolução CFM sobre relação com a indústria",
   "coment": "O Código de Ética Médica veda receber vantagem por prescrever ou indicar produtos, bem como vincular a prescrição a qualquer benefício. A independência técnica é condição da confiança na relação médica: o que orienta a conduta é o melhor interesse do paciente e a melhor evidência disponível. Relações com a indústria são permitidas com transparência e regras claras, mas jamais atreladas ao ato de prescrever determinado produto.",
   "porAlt": [
-   "Correta: recusar, pois vincular prescrição a vantagem compromete a independência técnica do médico.",
    "O registro sanitário do produto não legitima a vantagem recebida em troca da prescrição.",
+   "Correta: recusar, pois vincular prescrição a vantagem compromete a independência técnica do médico.",
    "Informar o paciente não corrige o conflito de interesse que já contamina a decisão terapêutica.",
    "A destinação do valor a educação não descaracteriza a vantagem vinculada ao ato de prescrever.",
    "A prática coletiva de uma conduta antiética não a torna aceitável do ponto de vista ético."
@@ -122,13 +122,13 @@
  {
   "q": "Uma unidade quer reduzir a mortalidade infantil no território. Qual conjunto de ações tem maior impacto?",
   "alts": [
-   "Pré-natal adequado, incentivo ao aleitamento e vacinação, com busca ativa sempre das faltosas agora.",
    "Ampliar apenas leitos de terapia intensiva neonatal, já medida isolada de maior impacto no indicador.",
+   "Pré-natal adequado, incentivo ao aleitamento e vacinação, com busca ativa sempre das faltosas agora.",
    "Aumentar o número de exames de imagem ofertados no território como principal estratégia de redução.",
    "Ampliar apenas o horário de funcionamento das farmácias como medida central para reduzir o indicador.",
    "Concentrar todos os partos em hospitais terciários distantes do território adscrito pela equipe local."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -136,8 +136,8 @@
   "base": "Ministério da Saúde — Rede Cegonha/Rede Alyne, 2024; UNICEF/OMS recomendações sobre mortalidade infantil",
   "coment": "A mortalidade infantil responde principalmente a ações de atenção primária: pré-natal com número adequado de consultas e exames, identificação de gestação de risco, parto seguro, incentivo ao aleitamento materno exclusivo até seis meses, vacinação em dia, acompanhamento do crescimento e busca ativa de faltosos. Leitos de terapia intensiva são necessários, mas atuam sobre o desfecho já instalado e têm menor impacto populacional do que a prevenção.",
   "porAlt": [
-   "Correta: pré-natal adequado, aleitamento, vacinação e busca ativa dos faltosos no território.",
    "Leitos intensivos são necessários, mas atuam depois do agravo e têm menor impacto populacional.",
+   "Correta: pré-natal adequado, aleitamento, vacinação e busca ativa dos faltosos no território.",
    "O aumento de exames de imagem não guarda relação direta com a redução da mortalidade infantil.",
    "O horário das farmácias não é determinante relevante do indicador de mortalidade infantil.",
    "Distanciar o parto do território dificulta o acesso e a continuidade do cuidado da gestante."
@@ -146,13 +146,13 @@
  {
   "q": "Um paciente terminal, lúcido, recusa a instalação de sonda para alimentação. Qual é a conduta correta?",
   "alts": [
-   "Respeitar a recusa e registrar a decisão, oferecendo sempre conforto e cuidados paliativos adequados.",
    "Instalar a sonda mesmo contra a vontade do paciente, pois a nutrição é sempre um dever do médico.",
    "Solicitar autorização judicial para instalar a sonda em todos os casos de recusa de suporte nutricional.",
    "Transferir a decisão integralmente aos familiares, desconsiderando a manifestação do próprio paciente.",
-   "Suspender todo o cuidado ao paciente que recusa a sonda, já incluindo analgesia e medidas de conforto."
+   "Suspender todo o cuidado ao paciente que recusa a sonda, já incluindo analgesia e medidas de conforto.",
+   "Respeitar a recusa e registrar a decisão, oferecendo sempre conforto e cuidados paliativos adequados."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "sus",
   "cenario": "enf",
   "comp": "tto",
@@ -160,23 +160,23 @@
   "base": "Resolução CFM nº 1.995/2012 sobre diretivas antecipadas; Código de Ética Médica, 2018; ANCP — Manual de Cuidados Paliativos, 2021",
   "coment": "O paciente lúcido e capaz tem direito de recusar tratamento, inclusive suporte nutricional artificial, e essa recusa deve ser respeitada e registrada, com esclarecimento sobre consequências e alternativas. Recusar um tratamento específico não significa recusar cuidado: analgesia, controle de sintomas, higiene e apoio continuam obrigatórios. Impor tratamento contra a vontade de paciente capaz configura constrangimento ilegal e infração ética.",
   "porAlt": [
-   "Correta: respeitar e registrar a recusa, mantendo conforto, analgesia e cuidados paliativos plenos.",
    "Impor tratamento a paciente capaz que recusa configura constrangimento e infração ética grave.",
    "A autorização judicial não é o caminho diante da recusa de paciente lúcido, capaz e informado.",
    "A decisão é do paciente capaz, e transferi-la à família desrespeita sua autonomia pessoal.",
-   "Recusar um tratamento não implica abandono: os cuidados de conforto permanecem obrigatórios."
+   "Recusar um tratamento não implica abandono: os cuidados de conforto permanecem obrigatórios.",
+   "Correta: respeitar e registrar a recusa, mantendo conforto, analgesia e cuidados paliativos plenos."
   ]
  },
  {
   "q": "Uma equipe identifica que muitos hipertensos do território não comparecem às consultas. Qual estratégia é mais adequada?",
   "alts": [
-   "Busca ativa com visita domiciliar e reorganização do acesso, investigando sempre as barreiras de cada pessoa.",
    "Excluir do cadastro da equipe todos os pacientes que faltarem a duas consultas agendadas consecutivas agora já.",
+   "Busca ativa com visita domiciliar e reorganização do acesso, investigando sempre as barreiras de cada pessoa.",
    "Encaminhar ao especialista todos os faltosos, transferindo o acompanhamento para o nível secundário agora.",
    "Aguardar que os pacientes procurem espontaneamente o serviço quando apresentarem alguma complicação agora.",
    "Prescrever medicação por telefone sem qualquer avaliação clínica ou reorganização do acesso ao serviço agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -184,8 +184,8 @@
   "base": "Portaria GM/MS nº 2.436/2017 — Política Nacional de Atenção Básica; Ministério da Saúde — linha de cuidado da hipertensão, 2021",
   "coment": "A responsabilidade sanitária sobre a população adscrita implica buscar quem não comparece, e não apenas atender quem chega. A busca ativa com agentes comunitários e visita domiciliar identifica barreiras concretas: horário incompatível com o trabalho, dificuldade de transporte, efeitos adversos, falta de compreensão do tratamento e problemas sociais. A resposta combina reorganizar o acesso, apoiar o autocuidado e articular a rede intersetorial.",
   "porAlt": [
-   "Correta: busca ativa com visita domiciliar e reorganização do acesso conforme as barreiras encontradas.",
    "Excluir faltosos do cadastro contraria a responsabilidade sanitária sobre a população adscrita.",
+   "Correta: busca ativa com visita domiciliar e reorganização do acesso conforme as barreiras encontradas.",
    "Encaminhar todos ao especialista não resolve as barreiras de acesso e desorganiza a rede de cuidado.",
    "Esperar a complicação transforma a equipe em serviço de emergência e desperdiça a prevenção possível.",
    "Prescrever sem avaliação clínica adequada é conduta insegura e não enfrenta o problema do acesso."
@@ -194,13 +194,13 @@
  {
   "q": "Um estudo compara dois tratamentos e encontra risco relativo de 0,75 com intervalo de confiança de 95% entre 0,60 e 0,94. Qual é a interpretação?",
   "alts": [
-   "Redução estatisticamente significativa do desfecho, pois o intervalo não inclui sempre o valor de nulidade.",
    "Ausência de diferença entre os tratamentos, pois o intervalo de confiança inclui o valor de nulidade agora.",
    "Aumento do risco no grupo intervenção, já que o risco relativo apresentado é inferior à unidade agora.",
+   "Redução estatisticamente significativa do desfecho, pois o intervalo não inclui sempre o valor de nulidade.",
    "Resultado inconclusivo, pois o intervalo de confiança apresentado é considerado excessivamente estreito.",
    "Impossibilidade de interpretação sem conhecer o valor exato do p do teste estatístico aplicado neste caso."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
@@ -208,9 +208,9 @@
   "base": "Ministério da Saúde — Diretrizes metodológicas: elaboração de revisão sistemática e metanálise, 2022; GRADE Working Group",
   "coment": "Risco relativo abaixo de um indica redução do desfecho no grupo intervenção. O intervalo de confiança de 95% entre 0,60 e 0,94 não inclui o valor 1, que é a nulidade para medidas de razão, e portanto o resultado é estatisticamente significativo. Além da significância, a interpretação clínica considera a magnitude do efeito, o número necessário para tratar, a precisão do intervalo e a relevância do desfecho medido.",
   "porAlt": [
-   "Correta: o intervalo não inclui o valor de nulidade, indicando redução estatisticamente significativa.",
    "O intervalo apresentado não contém o valor 1, de modo que não indica ausência de diferença.",
    "Risco relativo menor que um indica redução, e não aumento do risco no grupo intervenção.",
+   "Correta: o intervalo não inclui o valor de nulidade, indicando redução estatisticamente significativa.",
    "O intervalo é razoavelmente estreito e permite conclusão sobre a direção e a magnitude do efeito.",
    "O intervalo de confiança já permite a interpretação, sem depender do valor exato do p."
   ]
@@ -218,13 +218,13 @@
  {
   "q": "Um paciente solicita cópia integral do seu prontuário médico. Qual é a conduta correta?",
   "alts": [
-   "Fornecer a cópia, pois o prontuário pertence ao paciente e sempre fica sob a guarda do serviço.",
    "Negar o acesso, já que o prontuário é documento de propriedade exclusiva do médico assistente.",
    "Fornecer apenas um resumo elaborado pelo médico, negando o acesso ao conteúdo integral do documento.",
    "Exigir autorização judicial em todos os casos antes de qualquer entrega de cópia ao próprio paciente.",
-   "Fornecer somente ao familiar acompanhante, e nunca diretamente ao próprio paciente que solicitou."
+   "Fornecer somente ao familiar acompanhante, e nunca diretamente ao próprio paciente que solicitou.",
+   "Fornecer a cópia, pois o prontuário pertence ao paciente e sempre fica sob a guarda do serviço."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -232,11 +232,11 @@
   "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; Resolução CFM nº 1.638/2002; Lei Geral de Proteção de Dados",
   "coment": "O prontuário pertence ao paciente, ficando sob a guarda da instituição ou do médico, que responde por sua conservação e sigilo. O paciente tem direito de acesso ao conteúdo integral e a cópia, sem necessidade de justificar o pedido ou obter autorização judicial. Negar acesso configura infração ética. A entrega a terceiros exige autorização expressa do paciente, salvo as exceções legais previstas na legislação vigente.",
   "porAlt": [
-   "Correta: o prontuário pertence ao paciente, que tem direito à cópia integral do seu conteúdo.",
    "O prontuário não é propriedade do médico, que apenas responde pela guarda e pelo sigilo dele.",
    "O resumo não substitui o direito de acesso ao conteúdo integral do documento pelo paciente.",
    "Não é necessária autorização judicial para o próprio paciente acessar o seu prontuário médico.",
-   "O direito de acesso é do paciente, e a entrega a terceiros exige sua autorização expressa."
+   "O direito de acesso é do paciente, e a entrega a terceiros exige sua autorização expressa.",
+   "Correta: o prontuário pertence ao paciente, que tem direito à cópia integral do seu conteúdo."
   ]
  }
 ]

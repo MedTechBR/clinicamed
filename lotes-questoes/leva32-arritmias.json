@@ -4,11 +4,11 @@
   "alts": [
    "Cardioversão elétrica sincronizada imediata, já que a manobra vagal não reverteu a arritmia dele.",
    "Amiodarona endovenosa em infusão lenta ao longo de trinta minutos como próxima medida do caso.",
-   "Adenosina em bolus rápido de seis miligramas, seguida de flush salino e elevação do membro.",
    "Digoxina endovenosa em dose de ataque, opção preferida nas taquicardias de complexo estreito.",
-   "Observação por seis horas sem medicação, aguardando a reversão espontânea do ritmo do paciente."
+   "Observação por seis horas sem medicação, aguardando a reversão espontânea do ritmo do paciente.",
+   "Adenosina em bolus rápido de seis miligramas, seguida de flush salino e elevação do membro."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -18,21 +18,21 @@
   "porAlt": [
    "A cardioversão elétrica se reserva à instabilidade hemodinâmica ou à falha das medidas farmacológicas iniciais.",
    "A amiodarona não é primeira linha na supraventricular estável e sua infusão lenta atrasa a reversão do quadro.",
-   "Correta: falhada a manobra vagal em paciente estável, a adenosina em bolus rápido com flush é o passo seguinte.",
    "A digoxina tem início lento e eficácia limitada nesse cenário, não sendo opção para reversão aguda da arritmia.",
-   "Observar sem tratar mantém a frequência muito elevada, com risco de deterioração e de taquicardiomiopatia."
+   "Observar sem tratar mantém a frequência muito elevada, com risco de deterioração e de taquicardiomiopatia.",
+   "Correta: falhada a manobra vagal em paciente estável, a adenosina em bolus rápido com flush é o passo seguinte."
   ]
  },
  {
   "q": "Homem de 28 anos chega com taquicardia irregular, QRS largo com morfologia variável e frequência acima de 250 bpm. Um eletrocardiograma prévio mostrava intervalo PR curto com onda delta. Está com pressão de 96/60 mmHg e sudoreico. Qual conduta deve ser evitada de forma absoluta?",
   "alts": [
    "Realizar cardioversão elétrica sincronizada, medida que agravaria a instabilidade hemodinâmica atual.",
-   "Administrar bloqueador do nó atrioventricular, que acelera a via acessória e leva à fibrilação.",
    "Administrar procainamida endovenosa, fármaco contraindicado em qualquer paciente com pré-excitação.",
    "Colher eletrocardiograma de doze derivações antes de decidir a conduta terapêutica mais adequada.",
-   "Instalar monitorização contínua e acesso venoso calibroso antes de iniciar qualquer tratamento dele."
+   "Instalar monitorização contínua e acesso venoso calibroso antes de iniciar qualquer tratamento dele.",
+   "Administrar bloqueador do nó atrioventricular, que acelera a via acessória e leva à fibrilação."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -41,10 +41,10 @@
   "coment": "Taquicardia irregular, de QRS largo, muito rápida e com morfologia variável em paciente com pré-excitação conhecida é fibrilação atrial conduzida pela via acessória. Nesse cenário, os bloqueadores do nó atrioventricular — adenosina, verapamil, diltiazem, betabloqueador e digoxina — são formalmente contraindicados: ao bloquear o nó, todo o estímulo desce pela via acessória, a resposta ventricular dispara e o quadro pode degenerar em fibrilação ventricular. A conduta é cardioversão elétrica se houver instabilidade, e procainamida ou ibutilida no paciente estável, com ablação da via como tratamento definitivo.",
   "porAlt": [
    "A cardioversão elétrica é justamente a conduta indicada diante de instabilidade nesse cenário, e não algo a evitar.",
-   "Correta: bloquear o nó atrioventricular na fibrilação pré-excitada acelera a condução pela via acessória e pode gerar fibrilação ventricular.",
    "A procainamida atua na via acessória e é uma das opções recomendadas no paciente estável com pré-excitação.",
    "Obter o eletrocardiograma de doze derivações é parte da avaliação e não configura conduta a ser evitada.",
-   "Monitorização e acesso venoso são medidas de suporte padrão em qualquer taquiarritmia com instabilidade."
+   "Monitorização e acesso venoso são medidas de suporte padrão em qualquer taquiarritmia com instabilidade.",
+   "Correta: bloquear o nó atrioventricular na fibrilação pré-excitada acelera a condução pela via acessória e pode gerar fibrilação ventricular."
   ]
  },
  {
@@ -53,10 +53,10 @@
    "Taquicardia supraventricular com aberrância, tratada com verapamil endovenoso para reverter o ritmo.",
    "Taquicardia sinusal secundária à dor, que se resolve apenas com analgesia adequada e observação.",
    "Flutter atrial com condução dois para um, tratado com digoxina endovenosa em dose de ataque agora.",
-   "Taquicardia ventricular até prova em contrário, tratada com antiarrítmico endovenoso e monitorização.",
-   "Artefato de monitorização, sem necessidade de qualquer intervenção além de refazer o traçado do ECG."
+   "Artefato de monitorização, sem necessidade de qualquer intervenção além de refazer o traçado do ECG.",
+   "Taquicardia ventricular até prova em contrário, tratada com antiarrítmico endovenoso e monitorização."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
@@ -67,20 +67,20 @@
    "Presumir aberrância e dar verapamil em taquicardia ventricular pode causar colapso hemodinâmico e parada.",
    "A taquicardia sinusal é regular mas de QRS estreito e com onda P identificável, o que não corresponde ao traçado descrito.",
    "O flutter conduzido dois para um tem QRS estreito, salvo aberrância, e a digoxina não é conduta de urgência aqui.",
-   "Correta: QRS largo em cardiopata é taquicardia ventricular até prova em contrário, tratada com antiarrítmico e monitorização.",
-   "Descartar como artefato um traçado de taquicardia larga em cardiopata pode custar a vida do paciente."
+   "Descartar como artefato um traçado de taquicardia larga em cardiopata pode custar a vida do paciente.",
+   "Correta: QRS largo em cardiopata é taquicardia ventricular até prova em contrário, tratada com antiarrítmico e monitorização."
   ]
  },
  {
   "q": "Homem de 58 anos com miocardiopatia isquêmica mantém fração de ejeção de 28% após seis meses de terapia medicamentosa fundamental otimizada, em classe funcional II, sem arritmia documentada. A expectativa de vida é boa. Qual é a conduta quanto à prevenção de morte súbita?",
   "alts": [
    "Não indicar dispositivo algum, pois sem arritmia documentada não há indicação de prevenção nenhuma.",
+   "Indicar cardiodesfibrilador em prevenção primária a todo paciente com fração reduzida persistente.",
    "Indicar amiodarona contínua como alternativa equivalente ao dispositivo na prevenção de morte súbita.",
    "Aguardar ao menos dois anos de terapia otimizada antes de considerar qualquer dispositivo terapêutico.",
-   "Indicar cardiodesfibrilador em prevenção primária a todo paciente com fração reduzida persistente.",
    "Indicar apenas ressincronização cardíaca, independentemente da duração e da morfologia do QRS dele."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -89,9 +89,9 @@
   "coment": "Na prevenção primária, o cardiodesfibrilador implantável é indicado em pacientes com fração de ejeção reduzida persistente apesar de pelo menos três meses de terapia medicamentosa fundamental otimizada, em classe funcional II ou III e com expectativa de vida razoável — com peso maior de evidência na etiologia isquêmica. O ponto que se esquece é a reavaliação: muitos pacientes melhoram a fração após a otimização e deixam de ter indicação, motivo pelo qual o dispositivo não é indicado antes desse período. A amiodarona não substitui o dispositivo na prevenção de morte súbita.",
   "porAlt": [
    "Prevenção primária existe justamente para quem ainda não teve arritmia documentada, com base no risco estimado.",
+   "Correta: fração reduzida persistente após terapia otimizada, em classe II, indica cardiodesfibrilador em prevenção primária.",
    "A amiodarona reduz arritmia sintomática mas não substitui o dispositivo na redução de morte súbita arrítmica.",
    "O intervalo exigido é de cerca de três meses de terapia otimizada, e não de dois anos, que atrasaria a proteção.",
-   "Correta: fração reduzida persistente após terapia otimizada, em classe II, indica cardiodesfibrilador em prevenção primária.",
    "A ressincronização depende de QRS alargado com morfologia adequada, o que o enunciado não descreve."
   ]
  },
@@ -100,11 +100,11 @@
   "alts": [
    "Observação em monitorização, aguardando reversão espontânea do bloqueio antes de qualquer intervenção.",
    "Betabloqueador endovenoso para estabilizar o ritmo de escape ventricular que ela já apresenta agora.",
-   "Adenosina endovenosa para desmascarar a origem do ritmo antes de decidir a conduta terapêutica dela.",
    "Atropina enquanto se prepara marca-passo transcutâneo, com droga cronotrópica se não houver resposta.",
+   "Adenosina endovenosa para desmascarar a origem do ritmo antes de decidir a conduta terapêutica dela.",
    "Cardioversão elétrica sincronizada imediata, que é indicada em toda bradiarritmia com instabilidade."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -114,8 +114,8 @@
   "porAlt": [
    "Observar paciente hipotensa e confusa com bloqueio total desperdiça o tempo em que a perfusão pode ser restaurada.",
    "O betabloqueador reduz ainda mais a frequência e pioraria de forma grave a bradicardia e a hipotensão.",
-   "A adenosina bloqueia o nó atrioventricular e pode causar assistolia em paciente com bloqueio já instalado.",
    "Correta: bradiarritmia instável exige atropina com preparo de marca-passo transcutâneo e cronotrópico se não houver resposta.",
+   "A adenosina bloqueia o nó atrioventricular e pode causar assistolia em paciente com bloqueio já instalado.",
    "Cardioversão sincronizada trata taquiarritmia; não tem qualquer papel no tratamento das bradiarritmias."
   ]
  },

@@ -3,12 +3,12 @@
   "q": "Homem de 54 anos com pneumonia grave está em cateter nasal de alto fluxo a 55 L/min, com saturação de 91% e fração inspirada de oxigênio de 0,7. O ultrassom pulmonar mostra opacidades bilaterais e o quadro começou há quatro dias. Não há evidência de causa cardiogênica. Segundo a definição vigente, o paciente tem síndrome do desconforto respiratório agudo?",
   "alts": [
    "Não, porque o diagnóstico exige ventilação mecânica invasiva com pressão expiratória final positiva.",
+   "Sim, pois a definição global de 2024 passou a incluir o alto fluxo e a oximetria como critérios.",
    "Não, uma vez que a imagem precisa ser tomográfica e o ultrassom não é aceito como critério válido.",
    "Sim, mas somente se a gasometria arterial confirmar relação entre oxigênio e fração menor que 300.",
-   "Não, porque o quadro de quatro dias ultrapassa a janela temporal exigida para o diagnóstico atual.",
-   "Sim, pois a definição global de 2024 passou a incluir o alto fluxo e a oximetria como critérios."
+   "Não, porque o quadro de quatro dias ultrapassa a janela temporal exigida para o diagnóstico atual."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "dx",
@@ -17,10 +17,10 @@
   "coment": "A definição global de 2024 expandiu os critérios de Berlim em quatro pontos: passou a incluir o cateter nasal de alto fluxo com fluxo mínimo acima de 30 L/min, aceitou a razão entre saturação e fração inspirada abaixo de 315 como marcador de hipoxemia quando a saturação está abaixo de 97%, acrescentou o ultrassom como modalidade de imagem aceita e, em locais de poucos recursos, dispensou exigência de pressão expiratória final, fluxo mínimo e dispositivo específico. Aqui a razão entre saturação e fração é 130, o fluxo é adequado, a imagem é bilateral e o quadro está dentro de uma semana.",
   "porAlt": [
    "A exigência de ventilação invasiva era de Berlim; a categoria de síndrome não intubada foi criada justamente para esses casos.",
+   "Correta: a definição de 2024 inclui alto fluxo acima de 30 L/min, aceita a razão saturação-fração abaixo de 315 e admite ultrassom.",
    "O ultrassom foi acrescentado como modalidade de imagem aceita, especialmente onde os recursos são limitados.",
    "A gasometria deixou de ser obrigatória: a oximetria é aceita quando a saturação está abaixo de 97%, como neste caso.",
-   "A janela temporal continua sendo de até uma semana do insulto ou da piora, e quatro dias está dentro dela.",
-   "Correta: a definição de 2024 inclui alto fluxo acima de 30 L/min, aceita a razão saturação-fração abaixo de 315 e admite ultrassom."
+   "A janela temporal continua sendo de até uma semana do insulto ou da piora, e quatro dias está dentro dela."
   ]
  },
  {
@@ -28,11 +28,11 @@
   "alts": [
    "Peso real aferido na balança, que reflete melhor a demanda metabólica desta paciente com obesidade.",
    "Peso ideal calculado pelo índice de massa corporal alvo, ajustado conforme a idade e o sexo dela.",
-   "Peso predito pela altura, porque o volume pulmonar depende da estatura e não da massa corporal.",
    "Média entre o peso real e o predito, ajuste indicado especificamente para pacientes com obesidade.",
-   "Peso seco estimado após diurese, medida usada para calcular o volume corrente na fase de desmame."
+   "Peso seco estimado após diurese, medida usada para calcular o volume corrente na fase de desmame.",
+   "Peso predito pela altura, porque o volume pulmonar depende da estatura e não da massa corporal."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -42,9 +42,9 @@
   "porAlt": [
    "O peso real numa paciente obesa entrega volume muito acima do alvo e produz lesão induzida pela ventilação.",
    "Não se usa peso ideal por índice de massa corporal: a fórmula do peso predito parte diretamente da altura e do sexo.",
-   "Correta: usa-se o peso predito pela altura, porque o volume pulmonar acompanha a estatura e não a massa corporal.",
    "Não existe recomendação de média entre peso real e predito para calcular volume corrente na ventilação protetora.",
-   "Peso seco é conceito de balanço hídrico e de diálise, sem relação com o cálculo do volume corrente protetor."
+   "Peso seco é conceito de balanço hídrico e de diálise, sem relação com o cálculo do volume corrente protetor.",
+   "Correta: usa-se o peso predito pela altura, porque o volume pulmonar acompanha a estatura e não a massa corporal."
   ]
  },
  {
@@ -52,11 +52,11 @@
   "alts": [
    "A meta foi atingida e a conduta correta é apenas observar, pois os sinais de pele são subjetivos demais.",
    "O alvo pressórico deve ser reduzido para poupar vasopressor, já que a pressão média está acima de 65.",
+   "A meta numérica foi atingida mas a perfusão não, e o alvo deve ser individualizado nesse paciente.",
    "A perfusão cutânea não integra a monitorização recomendada e não deve orientar decisão terapêutica.",
-   "O lactato elevado indica sempre falha da noradrenalina, que deve ser substituída por adrenalina agora.",
-   "A meta numérica foi atingida mas a perfusão não, e o alvo deve ser individualizado nesse paciente."
+   "O lactato elevado indica sempre falha da noradrenalina, que deve ser substituída por adrenalina agora."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -66,9 +66,9 @@
   "porAlt": [
    "O tempo de enchimento capilar é recomendação formal de monitorização, e não um dado subjetivo a ser ignorado.",
    "Reduzir o alvo diante de hipoperfusão evidente agrava a lesão de órgão que a ressuscitação pretende evitar.",
+   "Correta: o consenso manda individualizar o alvo, e perfusão ruim com pressão na meta indica que aquele alvo era insuficiente.",
    "A perfusão cutânea integra explicitamente as recomendações de monitorização regional do consenso vigente.",
-   "O lactato tem múltiplas causas e não indica por si troca de vasopressor; a adrenalina traz mais arritmia e lactato.",
-   "Correta: o consenso manda individualizar o alvo, e perfusão ruim com pressão na meta indica que aquele alvo era insuficiente."
+   "O lactato tem múltiplas causas e não indica por si troca de vasopressor; a adrenalina traz mais arritmia e lactato."
   ]
  },
  {
@@ -100,11 +100,11 @@
   "alts": [
    "Ambos devem ser administrados de rotina, por corrigirem a acidose e estabilizarem a membrana já.",
    "Apenas o bicarbonato é recomendado de rotina, ficando o cálcio reservado às paradas prolongadas.",
+   "Nenhum dos dois de rotina: a administração rotineira de ambos não é recomendada na parada do adulto.",
    "Apenas o cálcio é recomendado de rotina, ficando o bicarbonato restrito à parada por afogamento.",
-   "Ambos são recomendados desde que a parada ultrapasse vinte minutos de reanimação sem resposta alguma.",
-   "Nenhum dos dois de rotina: a administração rotineira de ambos não é recomendada na parada do adulto."
+   "Ambos são recomendados desde que a parada ultrapasse vinte minutos de reanimação sem resposta alguma."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -114,21 +114,21 @@
   "porAlt": [
    "Dar os dois de rotina contraria recomendação explícita e desvia a equipe do que realmente muda desfecho.",
    "O bicarbonato de rotina foi justamente uma das práticas desaconselhadas, com classificação de ausência de benefício.",
+   "Correta: a diretriz de 2025 não recomenda o uso rotineiro de cálcio, bicarbonato nem magnésio na parada do adulto.",
    "O cálcio de rotina também não é recomendado; sua indicação é específica, como na hipercalemia documentada.",
-   "Não há limiar de tempo que converta essas drogas em conduta de rotina durante a reanimação do adulto.",
-   "Correta: a diretriz de 2025 não recomenda o uso rotineiro de cálcio, bicarbonato nem magnésio na parada do adulto."
+   "Não há limiar de tempo que converta essas drogas em conduta de rotina durante a reanimação do adulto."
   ]
  },
  {
   "q": "Paciente é reanimado com sucesso após parada por fibrilação ventricular e permanece comatoso doze horas depois, ainda sob efeito de sedação. A família pergunta sobre o prognóstico neurológico. Qual é a conduta correta?",
   "alts": [
    "Definir o prognóstico agora pelo exame neurológico, confiável já nas primeiras horas após a parada.",
+   "Adiar a definição prognóstica, que deve ser multimodal e tardia, sem efeito residual de sedativo.",
    "Basear a decisão apenas na duração da reanimação, parâmetro isolado suficiente para prever o desfecho.",
    "Solicitar somente tomografia de crânio e decidir pelo resultado desse exame isolado nas próximas horas.",
-   "Suspender o suporte se não houver resposta motora em vinte e quatro horas, prazo definido em diretriz.",
-   "Adiar a definição prognóstica, que deve ser multimodal e tardia, sem efeito residual de sedativo."
+   "Suspender o suporte se não houver resposta motora em vinte e quatro horas, prazo definido em diretriz."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "prev",
@@ -137,10 +137,10 @@
   "coment": "A definição prognóstica após parada cardiorrespiratória deve ser multimodal e tardia, combinando exame neurológico seriado, eletroencefalograma, potenciais evocados somatossensitivos, biomarcadores e neuroimagem, sempre depois de afastado o efeito residual de sedativos e bloqueadores neuromusculares. Prognosticar cedo, com sedação em curso, produz profecia autorrealizável: a limitação de suporte baseada em um exame não confiável causa o desfecho que ela previu. Enquanto isso, o cuidado pós-parada segue: evitar hiperóxia e hipoxemia, tratar hipotensão, controlar temperatura e prevenir febre.",
   "porAlt": [
    "O exame neurológico nas primeiras horas, sob sedação, não prediz desfecho e não deve fundamentar decisão.",
+   "Correta: o prognóstico é multimodal e tardio, feito apenas depois de afastado o efeito residual de sedação.",
    "A duração da reanimação é um dado entre vários e nunca deve ser usada isoladamente para prognosticar.",
    "A tomografia isolada tem valor limitado nas primeiras horas e não substitui a avaliação multimodal.",
-   "Não existe prazo fixo de vinte e quatro horas para suspender suporte: a decisão exige avaliação completa e tardia.",
-   "Correta: o prognóstico é multimodal e tardio, feito apenas depois de afastado o efeito residual de sedação."
+   "Não existe prazo fixo de vinte e quatro horas para suspender suporte: a decisão exige avaliação completa e tardia."
   ]
  }
 ]

@@ -2,13 +2,13 @@
  {
   "q": "Mulher de 34 anos com humor deprimido, anedonia, insônia e culpa há dois meses, com prejuízo funcional. Qual é o tratamento inicial?",
   "alts": [
-   "Antidepressivo inibidor seletivo da recaptação de serotonina associado sempre a psicoterapia estruturada.",
    "Benzodiazepínico em dose plena como monoterapia de escolha para o quadro depressivo descrito neste caso.",
    "Antipsicótico típico em dose alta, tratamento de primeira linha do episódio depressivo maior neste caso.",
+   "Antidepressivo inibidor seletivo da recaptação de serotonina associado sempre a psicoterapia estruturada.",
    "Apenas orientação sobre higiene do sono e reavaliação clínica depois de seis meses de seguimento agora.",
    "Eletroconvulsoterapia imediata como primeira linha para todo episódio depressivo com prejuízo funcional."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
@@ -16,9 +16,9 @@
   "base": "APA Practice Guideline for the Treatment of Patients with Major Depressive Disorder, revisão 2023; NICE NG222, 2022",
   "coment": "O episódio depressivo maior moderado a grave é tratado com antidepressivo, sendo os inibidores seletivos da recaptação de serotonina a primeira linha pelo perfil de tolerabilidade, associados a psicoterapia com evidência, como a cognitivo-comportamental. A resposta é avaliada em quatro a seis semanas e o tratamento mantido por pelo menos seis a doze meses após a remissão. Benzodiazepínico pode ser adjuvante breve na ansiedade ou insônia, nunca monoterapia.",
   "porAlt": [
-   "Correta: inibidor seletivo da recaptação de serotonina com psicoterapia estruturada é a primeira linha.",
    "O benzodiazepínico não trata depressão e traz risco de dependência quando usado como monoterapia.",
    "O antipsicótico típico não é primeira linha e traz risco extrapiramidal sem benefício antidepressivo.",
+   "Correta: inibidor seletivo da recaptação de serotonina com psicoterapia estruturada é a primeira linha.",
    "Apenas orientação por seis meses deixa sem tratamento um quadro com prejuízo funcional evidente.",
    "A eletroconvulsoterapia se reserva a casos graves, refratários ou com risco iminente à vida."
   ]
@@ -26,13 +26,13 @@
  {
   "q": "Homem de 28 anos trazido por familiares com delírios persecutórios, alucinações auditivas e isolamento há oito meses, sem uso de substâncias. Qual é a conduta?",
   "alts": [
-   "Iniciar antipsicótico de segunda geração e sempre articular seguimento em rede de atenção psicossocial.",
    "Prescrever apenas ansiolítico e reavaliar clinicamente após doze meses de acompanhamento ambulatorial.",
    "Iniciar antidepressivo isolado, tratamento de escolha para o quadro psicótico primário descrito agora.",
+   "Iniciar antipsicótico de segunda geração e sempre articular seguimento em rede de atenção psicossocial.",
    "Indicar internação psiquiátrica compulsória em todos os casos de primeiro episódio psicótico agora.",
    "Aguardar remissão espontânea do quadro sem qualquer intervenção medicamentosa nesse período agora."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
@@ -40,9 +40,9 @@
   "base": "APA Practice Guideline for the Treatment of Patients With Schizophrenia, 2020; Ministério da Saúde — Rede de Atenção Psicossocial",
   "coment": "O primeiro episódio psicótico é tratado com antipsicótico, preferindo os de segunda geração pelo menor risco extrapiramidal, com atenção ao ganho de peso e ao perfil metabólico. A duração da psicose não tratada é preditor de pior desfecho, o que justifica iniciar sem demora. O cuidado inclui intervenção psicossocial, apoio familiar e vinculação ao centro de atenção psicossocial. Internação involuntária se reserva a risco a si ou a terceiros, com comunicação formal.",
   "porAlt": [
-   "Correta: antipsicótico de segunda geração com seguimento articulado na rede de atenção psicossocial.",
    "O ansiolítico não trata sintomas psicóticos e o atraso piora o prognóstico funcional a longo prazo.",
    "O antidepressivo isolado não trata psicose primária e pode agravar sintomas em alguns pacientes.",
+   "Correta: antipsicótico de segunda geração com seguimento articulado na rede de atenção psicossocial.",
    "A internação involuntária se reserva a risco a si ou a terceiros, e não a todo primeiro episódio.",
    "A espera prolonga a psicose não tratada, o preditor mais consistente de pior desfecho funcional."
   ]
@@ -50,13 +50,13 @@
  {
   "q": "Paciente em uso de haloperidol apresenta febre alta, rigidez muscular intensa, alteração de consciência e CPK de 8.000 U/L. Qual é a conduta?",
   "alts": [
-   "Suspender o antipsicótico e oferecer sempre suporte intensivo com hidratação e resfriamento ativo.",
    "Aumentar a dose do haloperidol para controlar a agitação associada ao quadro clínico descrito.",
    "Iniciar antibiótico de amplo espectro isoladamente, tratamento definitivo para a febre observada.",
+   "Suspender o antipsicótico e oferecer sempre suporte intensivo com hidratação e resfriamento ativo.",
    "Prescrever benzodiazepínico e manter o antipsicótico na mesma dose até a melhora da rigidez agora.",
    "Realizar punção lombar antes de qualquer suspensão do fármaco ou medida de suporte clínico agora."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "psiq",
   "cenario": "uti",
   "comp": "urg",
@@ -64,9 +64,9 @@
   "base": "NICE guidance on antipsychotic adverse effects, revisão 2023; Critical Care Medicine — neuroleptic malignant syndrome review, 2022",
   "coment": "A síndrome neuroléptica maligna cursa com hipertermia, rigidez em cano de chumbo, alteração de consciência, instabilidade autonômica e elevação importante de CPK, com risco de rabdomiólise e lesão renal aguda. A conduta imediata é suspender o antipsicótico e oferecer suporte: hidratação vigorosa, resfriamento, correção eletrolítica e monitorização. Em casos graves usam-se dantroleno e bromocriptina. Benzodiazepínico ajuda na agitação e na rigidez leve.",
   "porAlt": [
-   "Correta: suspender o antipsicótico e oferecer suporte intensivo com hidratação e resfriamento.",
    "Aumentar a dose agrava diretamente a síndrome e aumenta o risco de morte do paciente.",
    "O antibiótico pode ser necessário se houver infecção, mas não trata a síndrome neuroléptica maligna.",
+   "Correta: suspender o antipsicótico e oferecer suporte intensivo com hidratação e resfriamento.",
    "Manter o antipsicótico perpetua o quadro, e o benzodiazepínico isolado não resolve a causa.",
    "A punção lombar pode ser parte da investigação, mas não deve atrasar a suspensão e o suporte."
   ]
@@ -74,13 +74,13 @@
  {
   "q": "Homem de 45 anos com uso diário e intenso de álcool interrompe a ingestão há 48 horas e apresenta tremor, sudorese, taquicardia e alucinações visuais. Qual é o tratamento?",
   "alts": [
-   "Benzodiazepínico titulado por escala de sintomas associado sempre a tiamina antes de qualquer glicose.",
    "Antipsicótico isolado em dose alta, tratamento de escolha para a abstinência alcoólica complicada.",
+   "Benzodiazepínico titulado por escala de sintomas associado sempre a tiamina antes de qualquer glicose.",
    "Reintroduzir álcool em dose controlada como tratamento padrão da síndrome de abstinência descrita.",
    "Prescrever apenas hidratação endovenosa, medida suficiente para o controle da abstinência grave agora.",
    "Administrar glicose hipertônica isolada antes de qualquer reposição vitamínica ao paciente etilista."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "psiq",
   "cenario": "emg",
   "comp": "urg",
@@ -88,8 +88,8 @@
   "base": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management, 2020; Ministério da Saúde — abordagem do uso de álcool, 2022",
   "coment": "A abstinência alcoólica é tratada com benzodiazepínico, titulado preferencialmente por escala de sintomas como a CIWA-Ar, o que reduz a dose total e o tempo de tratamento. Em hepatopatia grave preferem-se lorazepam ou oxazepam. A tiamina é administrada antes de qualquer carga de glicose, porque a glicose consome tiamina e pode precipitar encefalopatia de Wernicke. Alucinações e delirium tremens indicam quadro grave, com necessidade de monitorização estreita.",
   "porAlt": [
-   "Correta: benzodiazepínico titulado por escala de sintomas, com tiamina antes de qualquer glicose.",
    "O antipsicótico isolado não previne convulsões e reduz o limiar convulsivo do paciente em abstinência.",
+   "Correta: benzodiazepínico titulado por escala de sintomas, com tiamina antes de qualquer glicose.",
    "Reintroduzir álcool não é tratamento e mantém a dependência, sem controle previsível de sintomas.",
    "A hidratação é suporte necessário, mas não previne convulsão nem trata os sintomas da abstinência.",
    "Glicose antes de tiamina pode precipitar encefalopatia de Wernicke no paciente etilista desnutrido."
@@ -98,13 +98,13 @@
  {
   "q": "Paciente relata ideação suicida com plano estruturado e acesso ao meio. Qual é a conduta imediata?",
   "alts": [
-   "Garantir segurança imediata, restringir sempre o acesso ao meio e avaliar necessidade de internação.",
    "Agendar retorno ambulatorial em trinta dias e liberar o paciente com prescrição de antidepressivo.",
    "Prescrever benzodiazepínico e liberar sem qualquer avaliação de risco ou envolvimento de familiares.",
+   "Garantir segurança imediata, restringir sempre o acesso ao meio e avaliar necessidade de internação.",
    "Evitar perguntar sobre suicídio para não induzir o comportamento no paciente durante a consulta.",
    "Encaminhar apenas para psicoterapia semanal, já sem avaliar risco imediato nem restringir os meios."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "psiq",
   "cenario": "emg",
   "comp": "urg",
@@ -112,9 +112,9 @@
   "base": "WHO — Preventing suicide: a resource for general physicians, revisão 2021; Ministério da Saúde — prevenção do suicídio, 2021",
   "coment": "Ideação suicida com plano estruturado e acesso ao meio caracteriza risco alto e exige ação imediata: não deixar a pessoa sozinha, restringir o acesso ao meio com apoio da rede, envolver familiares ou pessoas de confiança e avaliar necessidade de internação, que pode ser involuntária se houver risco iminente e recusa. Perguntar diretamente sobre suicídio não induz o comportamento e é parte essencial da avaliação, além de aliviar o paciente.",
   "porAlt": [
-   "Correta: garantir segurança, restringir o acesso ao meio e avaliar a necessidade de internação.",
    "Retorno em trinta dias deixa desprotegido um paciente com risco imediato e plano estruturado.",
    "Liberar sem avaliação de risco e sem rede de apoio expõe o paciente a desfecho potencialmente fatal.",
+   "Correta: garantir segurança, restringir o acesso ao meio e avaliar a necessidade de internação.",
    "Perguntar sobre suicídio não induz o comportamento e é parte essencial da avaliação de risco.",
    "A psicoterapia é parte do plano, mas não substitui as medidas imediatas de proteção do paciente."
   ]
@@ -122,13 +122,13 @@
  {
   "q": "Mulher de 40 anos com preocupação excessiva e incontrolável sobre múltiplos temas há um ano, com tensão muscular, irritabilidade e insônia. Qual é o tratamento inicial?",
   "alts": [
-   "Antidepressivo serotoninérgico associado sempre a terapia cognitivo-comportamental estruturada e regular.",
    "Benzodiazepínico de uso contínuo por tempo indeterminado como tratamento inicial de escolha do quadro.",
+   "Antidepressivo serotoninérgico associado sempre a terapia cognitivo-comportamental estruturada e regular.",
    "Antipsicótico atípico em monoterapia, primeira linha recomendada para o transtorno de ansiedade descrito.",
    "Apenas orientação sobre relaxamento, sem qualquer medicação ou psicoterapia estruturada indicada agora.",
    "Estabilizador de humor em dose plena, tratamento de escolha para a preocupação excessiva persistente."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
@@ -136,8 +136,8 @@
   "base": "NICE guideline CG113 — Generalised anxiety disorder, revisão 2023; APA/Canadian anxiety guidelines, 2022",
   "coment": "O transtorno de ansiedade generalizada tem como primeira linha a terapia cognitivo-comportamental e os antidepressivos serotoninérgicos, isolados ou combinados. A resposta medicamentosa leva de quatro a seis semanas e o início costuma ser com dose baixa, para evitar piora inicial da ansiedade. Benzodiazepínicos podem ser usados por curto período em sintomas incapacitantes, evitando uso contínuo por dependência, prejuízo cognitivo e risco de quedas.",
   "porAlt": [
-   "Correta: antidepressivo serotoninérgico com terapia cognitivo-comportamental é a primeira linha.",
    "O uso contínuo de benzodiazepínico gera dependência, prejuízo cognitivo e risco aumentado de quedas.",
+   "Correta: antidepressivo serotoninérgico com terapia cognitivo-comportamental é a primeira linha.",
    "O antipsicótico atípico não é primeira linha e traz risco metabólico sem benefício correspondente.",
    "Apenas orientação de relaxamento é insuficiente para um quadro de um ano com prejuízo funcional.",
    "O estabilizador de humor é indicado no transtorno bipolar, e não na ansiedade generalizada."
@@ -146,13 +146,13 @@
  {
   "q": "Paciente com transtorno bipolar em uso de lítio apresenta tremor grosseiro, ataxia, vômitos e confusão. Litemia de 2,1 mEq/L. Qual é a conduta?",
   "alts": [
-   "Suspender o lítio, hidratar com salina isotônica e sempre considerar hemodiálise nos casos graves.",
    "Manter o lítio na mesma dose e apenas orientar aumento da ingestão de água pelo paciente em casa.",
+   "Suspender o lítio, hidratar com salina isotônica e sempre considerar hemodiálise nos casos graves.",
    "Administrar diurético tiazídico para aumentar a eliminação renal do lítio acumulado no organismo.",
    "Prescrever carvão ativado, medida de escolha para reduzir a absorção do lítio já em circulação.",
    "Aumentar a dose de lítio para estabilizar o humor e reduzir os sintomas neurológicos observados."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "psiq",
   "cenario": "uti",
   "comp": "urg",
@@ -160,8 +160,8 @@
   "base": "EXTRIP workgroup recommendations for lithium poisoning, 2015; NICE CG185 — Bipolar disorder, revisão 2023",
   "coment": "A intoxicação por lítio se manifesta com tremor grosseiro, ataxia, disartria, vômitos, confusão e, em casos graves, convulsão e arritmia. A conduta é suspender o lítio, hidratar com salina isotônica para restaurar a filtração e corrigir a depleção de sódio, e considerar hemodiálise, que é o método eficaz de remoção, indicada em níveis muito elevados, alteração neurológica grave ou insuficiência renal. Tiazídicos e anti-inflamatórios aumentam a litemia.",
   "porAlt": [
-   "Correta: suspender o lítio, hidratar com salina isotônica e considerar hemodiálise nos casos graves.",
    "Manter o lítio em intoxicação estabelecida permite a progressão do dano neurológico do paciente.",
+   "Correta: suspender o lítio, hidratar com salina isotônica e considerar hemodiálise nos casos graves.",
    "O tiazídico reduz a excreção de lítio e eleva a litemia, sendo exatamente o oposto do indicado.",
    "O carvão ativado não adsorve lítio e não tem papel no tratamento dessa intoxicação específica.",
    "Aumentar a dose agrava a intoxicação e pode levar a convulsão, arritmia e sequela neurológica."
@@ -218,13 +218,13 @@
  {
   "q": "Mulher de 29 anos, três semanas após o parto, com humor deprimido intenso, insônia, ideias de desvalia e dificuldade de vínculo com o bebê. Qual é a conduta?",
   "alts": [
-   "Tratar a depressão pós-parto avaliando sempre o risco e a compatibilidade do fármaco com a amamentação.",
    "Aguardar remissão espontânea, pois todo quadro depressivo pós-parto se resolve sem intervenção clínica.",
    "Interromper a amamentação obrigatoriamente antes de iniciar qualquer tratamento antidepressivo agora.",
    "Prescrever apenas ansiolítico contínuo e reavaliar clinicamente somente após seis meses do parto agora.",
+   "Tratar a depressão pós-parto avaliando sempre o risco e a compatibilidade do fármaco com a amamentação.",
    "Encaminhar exclusivamente para grupo de apoio, sem avaliação de risco nem tratamento medicamentoso."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
@@ -232,10 +232,10 @@
   "base": "NICE guideline CG192 — Antenatal and postnatal mental health, revisão 2023; ACOG Committee Opinion, atualização 2023",
   "coment": "A depressão pós-parto é frequente e subdiagnosticada, e se distingue do blues puerperal pela duração e pela intensidade do prejuízo. O rastreio pode ser feito pela escala de Edimburgo, com atenção especial ao item de autoagressão. O tratamento combina psicoterapia e, quando necessário, antidepressivo: sertralina é habitualmente preferida pela baixa transferência para o leite, de modo que a amamentação em geral pode ser mantida. Ideias de morte ou sintomas psicóticos exigem avaliação urgente.",
   "porAlt": [
-   "Correta: tratar avaliando risco e escolhendo fármaco compatível com a manutenção da amamentação.",
    "Aguardar sem tratar prolonga o sofrimento e prejudica o vínculo e o desenvolvimento do bebê.",
    "A amamentação em geral pode ser mantida com antidepressivos de baixa transferência para o leite.",
    "O ansiolítico isolado não trata a depressão e o intervalo de seis meses é inaceitavelmente longo.",
+   "Correta: tratar avaliando risco e escolhendo fármaco compatível com a manutenção da amamentação.",
    "O grupo de apoio é complementar e não substitui a avaliação de risco e o tratamento indicado."
   ]
  }

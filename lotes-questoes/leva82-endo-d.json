@@ -2,13 +2,13 @@
  {
   "q": "Paciente com diabetes tipo 1 pergunta sobre monitorização glicêmica. Qual é a orientação atual?",
   "alts": [
-   "Monitorização contínua de glicose ou capilar frequente, com metas sempre individualizadas de tempo no alvo.",
    "Uma única glicemia capilar por semana é suficiente para o controle do diabetes tipo 1 no adulto agora.",
+   "Monitorização contínua de glicose ou capilar frequente, com metas sempre individualizadas de tempo no alvo.",
    "Apenas hemoglobina glicada anual, sem qualquer monitorização glicêmica diária pelo próprio paciente agora.",
    "Apenas glicosúria de fita urinária como método de monitorização recomendado no diabetes tipo 1 atual agora.",
    "Nenhuma monitorização é necessária enquanto o paciente permanecer assintomático durante o tratamento agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -16,8 +16,8 @@
   "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
   "coment": "No diabetes tipo 1, a monitorização contínua de glicose é hoje recomendada como padrão sempre que disponível, com metas de tempo no alvo acima de setenta por cento e tempo abaixo do alvo inferior a quatro por cento. Quando não disponível, indica-se monitorização capilar frequente, tipicamente antes das refeições, ao deitar, antes e após exercício e diante de sintomas. A hemoglobina glicada complementa, mas não detecta variabilidade nem hipoglicemias.",
   "porAlt": [
-   "Correta: monitorização contínua ou capilar frequente, com metas individualizadas de tempo no alvo.",
    "Uma medida semanal não permite ajuste de insulina nem detecção de hipoglicemias no tipo 1.",
+   "Correta: monitorização contínua ou capilar frequente, com metas individualizadas de tempo no alvo.",
    "A hemoglobina glicada anual isolada não detecta variabilidade glicêmica nem hipoglicemias graves.",
    "A glicosúria é método obsoleto, insensível e incapaz de detectar hipoglicemia no paciente.",
    "A ausência de sintomas não exclui hipo ou hiperglicemias relevantes ao longo do dia."
@@ -26,13 +26,13 @@
  {
   "q": "Paciente em uso de insulina apresenta hipoglicemias noturnas recorrentes com hiperglicemia matinal. Qual é a conduta inicial?",
   "alts": [
-   "Revisar o esquema e a dose da insulina basal noturna, avaliando sempre alimentação, exercício e horário de aplicação.",
    "Aumentar a dose da insulina basal noturna para corrigir a hiperglicemia observada pela manhã no paciente neste caso.",
+   "Revisar o esquema e a dose da insulina basal noturna, avaliando sempre alimentação, exercício e horário de aplicação.",
    "Suspender completamente toda a insulina do paciente até a resolução espontânea das hipoglicemias noturnas agora.",
    "Orientar refeição hipercalórica antes de dormir todas as noites como única medida corretiva do quadro neste caso.",
    "Substituir toda a insulina por antidiabético oral em paciente com diabetes tipo 1 e hipoglicemias noturnas agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -40,8 +40,8 @@
   "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
   "coment": "Hipoglicemia noturna seguida de hiperglicemia matinal pode refletir excesso de insulina basal noturna, com hiperglicemia de rebote, ou simplesmente o fenômeno do alvorecer, e a distinção exige medidas na madrugada ou monitorização contínua. Aumentar a basal sem esclarecer agrava as hipoglicemias. A revisão inclui dose e horário da basal, tipo de insulina, alimentação noturna, exercício vespertino e técnica de aplicação e rodízio de locais.",
   "porAlt": [
-   "Correta: revisar esquema, dose e horário da basal, avaliando alimentação, exercício e técnica.",
    "Aumentar a basal sem esclarecer a causa agrava as hipoglicemias noturnas do paciente.",
+   "Correta: revisar esquema, dose e horário da basal, avaliando alimentação, exercício e técnica.",
    "Suspender toda a insulina no diabetes tipo 1 leva a cetoacidose em poucas horas.",
    "A refeição hipercalórica noturna diária não corrige o esquema e piora o controle metabólico.",
    "O paciente com diabetes tipo 1 depende de insulina e não pode ser tratado com oral isolado."
@@ -98,13 +98,13 @@
  {
   "q": "Paciente com diabetes tipo 2 em uso de insulina apresenta hipoglicemias graves recorrentes. Qual é a conduta?",
   "alts": [
-   "Reduzir metas e simplificar o esquema, revisando sempre função renal, alimentação e uso de outros fármacos.",
    "Aumentar a dose de insulina para melhorar o controle glicêmico apesar das hipoglicemias graves recorrentes.",
    "Manter exatamente o mesmo esquema e apenas orientar consumo de doces nas crises de hipoglicemia agora já.",
    "Suspender toda a monitorização glicêmica para reduzir a ansiedade do paciente diante das hipoglicemias.",
-   "Associar sulfonilureia em dose plena à insulina como estratégia para reduzir as hipoglicemias recorrentes."
+   "Associar sulfonilureia em dose plena à insulina como estratégia para reduzir as hipoglicemias recorrentes.",
+   "Reduzir metas e simplificar o esquema, revisando sempre função renal, alimentação e uso de outros fármacos."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -112,23 +112,23 @@
   "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
   "coment": "A hipoglicemia grave recorrente é evento sentinela: obriga a rever metas, que devem ser afrouxadas, e a simplificar o esquema, preferindo análogos com menor risco. Investigam-se causas contribuintes — piora da função renal, redução da ingesta, perda de peso, insuficiência adrenal, gastroparesia, uso de álcool, sulfonilureias associadas — e trabalha-se a percepção de hipoglicemia, que se perde com episódios repetidos e aumenta o risco de novos eventos graves.",
   "porAlt": [
-   "Correta: reduzir metas e simplificar o esquema, revisando função renal, alimentação e outros fármacos.",
    "Aumentar a insulina diante de hipoglicemias graves multiplica o risco de evento fatal.",
    "Manter o esquema sem mudanças perpetua episódios que já se mostraram graves e recorrentes.",
    "Suspender a monitorização remove justamente a ferramenta que detecta e previne novos episódios.",
-   "A sulfonilureia aumenta o risco de hipoglicemia e agrava exatamente o problema apresentado."
+   "A sulfonilureia aumenta o risco de hipoglicemia e agrava exatamente o problema apresentado.",
+   "Correta: reduzir metas e simplificar o esquema, revisando função renal, alimentação e outros fármacos."
   ]
  },
  {
   "q": "Paciente com hipoglicemia em uso de sulfonilureia é atendido no pronto-socorro. Qual é o cuidado essencial?",
   "alts": [
-   "Observação prolongada após a correção, pois a hipoglicemia por sulfonilureia recorre sempre por horas.",
    "Alta imediata após a normalização da glicemia capilar em todos os pacientes em uso de sulfonilureia.",
+   "Observação prolongada após a correção, pois a hipoglicemia por sulfonilureia recorre sempre por horas.",
    "Administrar apenas glicose oral e liberar sem qualquer período de observação clínica no serviço agora.",
    "Administrar insulina para estabilizar o metabolismo do paciente após a correção da hipoglicemia inicial.",
    "Suspender apenas a metformina e manter a sulfonilureia na mesma dose plena após a alta do paciente."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "endocrino",
   "cenario": "emg",
   "comp": "urg",
@@ -136,8 +136,8 @@
   "base": "ADA Standards of Care in Diabetes, 2025; Ministério da Saúde — manejo das emergências glicêmicas, 2022",
   "coment": "As sulfonilureias têm meia-vida longa e estimulam a secreção de insulina de forma prolongada, de modo que a hipoglicemia por essa classe recorre com frequência após a correção inicial, exigindo observação prolongada e por vezes infusão contínua de glicose. O risco é maior em idosos, na doença renal crônica, na baixa ingesta e no uso de fármacos que interagem. Após o episódio, a sulfonilureia deve ser suspensa ou substituída por classe mais segura.",
   "porAlt": [
-   "Correta: observação prolongada após a correção, pois a hipoglicemia por sulfonilureia recorre.",
    "A alta imediata arrisca recorrência da hipoglicemia em domicílio, com desfecho potencialmente fatal.",
+   "Correta: observação prolongada após a correção, pois a hipoglicemia por sulfonilureia recorre.",
    "Glicose oral sem observação não protege contra a recorrência pela meia-vida longa do fármaco.",
    "A insulina agrava a hipoglicemia e é exatamente o oposto do necessário nesse paciente.",
    "Manter a sulfonilureia após hipoglicemia grave expõe o paciente a novo episódio semelhante."
@@ -170,13 +170,13 @@
  {
   "q": "Paciente com tireotoxicose grave, febre, taquicardia importante e agitação após infecção. Qual é a conduta?",
   "alts": [
-   "Tratar a crise tireotóxica com tionamida, betabloqueador e iodo, mantendo sempre o intervalo correto entre eles.",
    "Administrar iodo antes da tionamida para acelerar o bloqueio da síntese hormonal na crise tireotóxica agora.",
    "Prescrever apenas antitérmico e observar clinicamente por vinte e quatro horas antes de qualquer tratamento.",
    "Indicar tireoidectomia de urgência em todos os pacientes com crise tireotóxica antes de qualquer medida clínica.",
-   "Administrar levotiroxina em dose alta para estabilizar o eixo tireoidiano do paciente com tireotoxicose grave já."
+   "Administrar levotiroxina em dose alta para estabilizar o eixo tireoidiano do paciente com tireotoxicose grave já.",
+   "Tratar a crise tireotóxica com tionamida, betabloqueador e iodo, mantendo sempre o intervalo correto entre eles."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "uti",
   "comp": "urg",
@@ -184,11 +184,11 @@
   "base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016 com revisão 2023",
   "coment": "A crise tireotóxica é emergência com mortalidade elevada, desencadeada por infecção, cirurgia, trauma ou suspensão do antitireoidiano. O tratamento combina tionamida, preferencialmente propiltiouracila pelo bloqueio adicional da conversão periférica, betabloqueador para o controle adrenérgico, corticoide e iodo, que deve ser administrado pelo menos uma hora após a tionamida, para não fornecer substrato à síntese hormonal. Trata-se simultaneamente o fator precipitante.",
   "porAlt": [
-   "Correta: tionamida, betabloqueador e iodo, respeitando o intervalo obrigatório após a tionamida.",
    "Iodo antes da tionamida fornece substrato para síntese hormonal e pode agravar a tireotoxicose.",
    "Antitérmico isolado com observação permite evolução para arritmia, choque e óbito do paciente.",
    "A cirurgia é excepcional e exige controle clínico prévio, não sendo conduta inicial na crise.",
-   "A levotiroxina adiciona hormônio ao paciente já tireotóxico e agrava gravemente o quadro."
+   "A levotiroxina adiciona hormônio ao paciente já tireotóxico e agrava gravemente o quadro.",
+   "Correta: tionamida, betabloqueador e iodo, respeitando o intervalo obrigatório após a tionamida."
   ]
  },
  {
@@ -218,13 +218,13 @@
  {
   "q": "Paciente com hiperglicemia detectada durante internação por infecção, sem diagnóstico prévio de diabetes. Qual é a conduta?",
   "alts": [
-   "Controlar a glicemia com insulina durante a internação e reavaliar sempre o diagnóstico após a alta hospitalar.",
    "Iniciar antidiabético oral em dose plena durante a internação como tratamento de escolha nesse paciente agora.",
    "Ignorar a hiperglicemia durante a internação, pois ela decorre exclusivamente do estresse da infecção agora.",
    "Firmar o diagnóstico definitivo de diabetes apenas com a glicemia elevada durante a internação aguda agora.",
-   "Suspender toda a nutrição do paciente até a normalização espontânea da glicemia durante a internação agora."
+   "Suspender toda a nutrição do paciente até a normalização espontânea da glicemia durante a internação agora.",
+   "Controlar a glicemia com insulina durante a internação e reavaliar sempre o diagnóstico após a alta hospitalar."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "enf",
   "comp": "tto",
@@ -232,11 +232,11 @@
   "base": "ADA Standards of Care in Diabetes, 2025, capítulo de cuidado hospitalar; Endocrine Society guideline on inpatient hyperglycemia, revisão 2022",
   "coment": "A hiperglicemia hospitalar associa-se a pior desfecho e deve ser tratada, preferencialmente com insulina em esquema basal-bolus no paciente que se alimenta, evitando o esquema de correção isolado. As metas são de 140 a 180 mg/dL na maioria dos pacientes. O diagnóstico de diabetes não deve ser firmado apenas com glicemia de internação, mas a hemoglobina glicada colhida ajuda a distinguir hiperglicemia de estresse de diabetes prévio não reconhecido.",
   "porAlt": [
-   "Correta: controlar com insulina durante a internação e reavaliar o diagnóstico após a alta hospitalar.",
    "Antidiabéticos orais são geralmente suspensos na internação aguda por risco e resposta imprevisível.",
    "A hiperglicemia hospitalar associa-se a pior desfecho e deve ser tratada, não ignorada.",
    "O diagnóstico não se firma com glicemia de internação aguda, sendo útil a hemoglobina glicada.",
-   "Suspender a nutrição agrava o catabolismo e não é estratégia de controle glicêmico hospitalar."
+   "Suspender a nutrição agrava o catabolismo e não é estratégia de controle glicêmico hospitalar.",
+   "Correta: controlar com insulina durante a internação e reavaliar o diagnóstico após a alta hospitalar."
   ]
  }
 ]

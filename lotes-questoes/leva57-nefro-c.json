@@ -50,13 +50,13 @@
  {
   "q": "Paciente com doença renal crônica estágio 3, hipertenso e diabético, com albuminúria de 600 mg/g. Qual é a conduta?",
   "alts": [
-   "Bloqueador do sistema renina-angiotensina com inibidor de SGLT2, sempre monitorando potássio e creatinina.",
    "Suspender qualquer bloqueador do sistema renina-angiotensina pelo risco de piora da função renal agora.",
    "Prescrever apenas restrição proteica extrema como principal intervenção para reduzir a albuminúria agora.",
    "Iniciar diurético tiazídico isolado, intervenção com melhor evidência para reduzir a progressão renal.",
-   "Indicar diálise preventiva neste estágio para retardar a progressão da doença renal do paciente agora."
+   "Indicar diálise preventiva neste estágio para retardar a progressão da doença renal do paciente agora.",
+   "Bloqueador do sistema renina-angiotensina com inibidor de SGLT2, sempre monitorando potássio e creatinina."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "tto",
@@ -64,23 +64,23 @@
   "base": "KDIGO Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease, 2024",
   "coment": "Na doença renal crônica com albuminúria, o bloqueio do sistema renina-angiotensina com inibidor da enzima conversora ou bloqueador do receptor, titulado até a dose máxima tolerada, é a base do tratamento, associado a inibidor de SGLT2, que reduz progressão e eventos cardiovasculares. Finerenona é opção adicional no diabetes. Elevação de creatinina até trinta por cento após iniciar o bloqueio é esperada e não indica suspensão.",
   "porAlt": [
-   "Correta: bloqueio do sistema renina-angiotensina com inibidor de SGLT2, monitorando potássio e creatinina.",
    "Elevação de creatinina até trinta por cento é esperada e não justifica suspender o bloqueio.",
    "A restrição proteica é moderada e adjuvante, jamais extrema e nunca como intervenção principal.",
    "O tiazídico controla pressão, mas não tem o efeito antiproteinúrico do bloqueio do sistema.",
-   "Não existe diálise preventiva; a terapia substitutiva se inicia por critérios clínicos definidos."
+   "Não existe diálise preventiva; a terapia substitutiva se inicia por critérios clínicos definidos.",
+   "Correta: bloqueio do sistema renina-angiotensina com inibidor de SGLT2, monitorando potássio e creatinina."
   ]
  },
  {
   "q": "Paciente com hiponatremia de 118 mEq/L, sonolência e convulsão. Qual é a conduta imediata?",
   "alts": [
-   "Salina hipertônica em bolus com meta de correção controlada, sempre respeitando o limite diário seguro.",
    "Corrigir o sódio até valor normal nas primeiras seis horas para reverter rapidamente os sintomas agora.",
+   "Salina hipertônica em bolus com meta de correção controlada, sempre respeitando o limite diário seguro.",
    "Restrição hídrica isolada como primeira medida diante da hiponatremia grave com convulsão descrita.",
    "Infusão rápida de salina isotônica em grande volume, primeira escolha na hiponatremia sintomática grave.",
    "Administrar apenas diurético de alça isolado como medida inicial para elevar a natremia do paciente."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "nefro",
   "cenario": "uti",
   "comp": "urg",
@@ -88,8 +88,8 @@
   "base": "European clinical practice guideline on diagnosis and treatment of hyponatraemia, 2014 com revisão 2023; expert panel recommendations, 2023",
   "coment": "Hiponatremia grave sintomática, com convulsão ou rebaixamento, é emergência: administra-se salina hipertônica a 3% em bolus de 100 a 150 mL, repetido conforme necessário, buscando elevação rápida de 4 a 6 mEq/L, suficiente para reverter o edema cerebral. A correção total não deve ultrapassar 8 a 10 mEq/L em vinte e quatro horas, pelo risco de síndrome de desmielinização osmótica, especialmente em desnutridos, etilistas e hipocalêmicos.",
   "porAlt": [
-   "Correta: salina hipertônica em bolus com elevação inicial rápida e limite diário de correção respeitado.",
    "Normalizar o sódio em seis horas ultrapassa o limite seguro e arrisca desmielinização osmótica.",
+   "Correta: salina hipertônica em bolus com elevação inicial rápida e limite diário de correção respeitado.",
    "A restrição hídrica é lenta demais para o paciente com convulsão por edema cerebral instalado.",
    "A salina isotônica pode até reduzir a natremia em algumas causas e não é a escolha aqui.",
    "O diurético isolado não corrige a natremia com a rapidez exigida pelo quadro neurológico grave."
@@ -98,13 +98,13 @@
  {
   "q": "Homem de 30 anos com hematúria macroscópica recorrente durante quadros de infecção de vias aéreas superiores. Qual é o diagnóstico mais provável?",
   "alts": [
-   "Nefropatia por IgA, que cursa sempre com hematúria simultânea ao quadro infeccioso de vias aéreas.",
    "Glomerulonefrite pós-estreptocócica, que cursa com hematúria simultânea à infecção de vias aéreas.",
    "Nefrolitíase recorrente, condição que produz hematúria sincrônica com infecções respiratórias altas.",
    "Cistite bacteriana de repetição, quadro que cursa com hematúria macroscópica durante infecção alta.",
-   "Doença de membrana fina, condição definida por hematúria macroscópica sincrônica com faringite aguda."
+   "Doença de membrana fina, condição definida por hematúria macroscópica sincrônica com faringite aguda.",
+   "Nefropatia por IgA, que cursa sempre com hematúria simultânea ao quadro infeccioso de vias aéreas."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
@@ -112,23 +112,23 @@
   "base": "KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases, 2021 com revisão 2024",
   "coment": "A nefropatia por IgA é a glomerulopatia primária mais frequente e se manifesta classicamente por hematúria macroscópica sincrônica com infecção de vias aéreas superiores, ou seja, no mesmo momento ou em até dois dias. Isso a distingue da glomerulonefrite pós-estreptocócica, cujo intervalo é de uma a três semanas após a faringite. O tratamento inclui bloqueio do sistema renina-angiotensina e, em casos selecionados com proteinúria persistente, imunossupressão.",
   "porAlt": [
-   "Correta: hematúria macroscópica sincrônica com infecção de vias aéreas caracteriza nefropatia por IgA.",
    "A glomerulonefrite pós-estreptocócica tem latência de uma a três semanas após a faringite.",
    "A nefrolitíase causa hematúria com dor em cólica e não guarda relação com infecção respiratória.",
    "A cistite cursa com disúria e urgência e não se relaciona com infecção de vias aéreas superiores.",
-   "A doença de membrana fina cursa com hematúria microscópica persistente, geralmente familiar."
+   "A doença de membrana fina cursa com hematúria microscópica persistente, geralmente familiar.",
+   "Correta: hematúria macroscópica sincrônica com infecção de vias aéreas caracteriza nefropatia por IgA."
   ]
  },
  {
   "q": "Paciente com edema periorbitário, proteinúria de 6 g/24h, hipoalbuminemia e hipercolesterolemia. Qual é a conduta inicial?",
   "alts": [
-   "Investigar a causa com sorologias e considerar sempre biópsia renal antes da imunossupressão específica.",
    "Iniciar imunossupressão empírica em dose alta antes de qualquer investigação etiológica do quadro agora.",
    "Prescrever apenas diurético em dose alta e alta hospitalar, sem qualquer investigação complementar.",
    "Indicar diálise imediata em todos os pacientes com essa magnitude de proteinúria nas vinte e quatro horas.",
-   "Prescrever apenas dieta hiperproteica para compensar a perda urinária de proteínas do paciente agora."
+   "Prescrever apenas dieta hiperproteica para compensar a perda urinária de proteínas do paciente agora.",
+   "Investigar a causa com sorologias e considerar sempre biópsia renal antes da imunossupressão específica."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "dx",
@@ -136,11 +136,11 @@
   "base": "KDIGO Glomerular Diseases Guideline, 2021 com revisão 2024",
   "coment": "A síndrome nefrótica no adulto exige definição etiológica: investigam-se diabetes, lúpus, hepatites B e C, HIV, sífilis, mieloma, amiloidose e fármacos, além de dosar complemento e anticorpo anti-PLA2R, que sugere nefropatia membranosa primária. A biópsia renal é indicada na maioria dos adultos, pois o tratamento depende da lesão histológica. O manejo de suporte inclui bloqueio do sistema renina-angiotensina, controle de edema, estatina e atenção ao risco trombótico.",
   "porAlt": [
-   "Correta: investigar etiologia com sorologias e considerar biópsia renal antes da imunossupressão.",
    "A imunossupressão empírica sem histologia pode ser ineficaz e expõe o paciente a toxicidade evitável.",
    "O diurético trata o edema, mas não define a causa nem o tratamento específico da glomerulopatia.",
    "A diálise se indica por critérios clínicos, e a proteinúria isolada não é um deles neste contexto.",
-   "A dieta hiperproteica aumenta a proteinúria e pode acelerar a progressão da doença renal."
+   "A dieta hiperproteica aumenta a proteinúria e pode acelerar a progressão da doença renal.",
+   "Correta: investigar etiologia com sorologias e considerar biópsia renal antes da imunossupressão."
   ]
  },
  {
@@ -170,13 +170,13 @@
  {
   "q": "Mulher de 24 anos com disúria, polaciúria e urgência, sem febre, sem dor lombar e sem comorbidades. Qual é a conduta?",
   "alts": [
-   "Tratar empiricamente com antibiótico de curta duração, sempre sem necessidade de urocultura prévia.",
    "Solicitar urocultura e aguardar o resultado antes de qualquer prescrição de antibiótico para a paciente.",
+   "Tratar empiricamente com antibiótico de curta duração, sempre sem necessidade de urocultura prévia.",
    "Prescrever antibiótico de amplo espectro por catorze dias em todos os casos de cistite não complicada.",
    "Solicitar tomografia de abdome antes de qualquer tratamento da infecção urinária baixa não complicada.",
    "Prescrever apenas analgésico urinário, medida suficiente para o tratamento da cistite bacteriana aguda."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "tto",
@@ -184,8 +184,8 @@
   "base": "IDSA/ESCMID guidelines for uncomplicated cystitis, revisão 2023; Ministério da Saúde — protocolo de infecção urinária, 2022",
   "coment": "A cistite não complicada em mulher jovem sem fatores de risco é diagnóstico clínico e permite tratamento empírico sem urocultura. As opções incluem nitrofurantoína por cinco dias, fosfomicina em dose única e sulfametoxazol-trimetoprima por três dias conforme a resistência local. Quinolonas são evitadas como primeira escolha por efeitos adversos e pressão seletiva. Urocultura se reserva a falha terapêutica, recorrência, gestação ou infecção complicada.",
   "porAlt": [
-   "Correta: tratamento empírico de curta duração, sem necessidade de urocultura na cistite não complicada.",
    "Aguardar a urocultura atrasa desnecessariamente o alívio de um quadro de manejo empírico consagrado.",
+   "Correta: tratamento empírico de curta duração, sem necessidade de urocultura na cistite não complicada.",
    "O tratamento de catorze dias com amplo espectro é excessivo e favorece resistência bacteriana.",
    "A tomografia não é necessária na cistite não complicada de mulher jovem sem sinais de alarme.",
    "O analgésico urinário alivia sintomas, mas não erradica a bactéria responsável pela infecção."
@@ -194,13 +194,13 @@
  {
   "q": "Paciente em uso de anti-inflamatório não hormonal há duas semanas evolui com elevação de creatinina e sódio urinário baixo. Qual é o mecanismo mais provável?",
   "alts": [
-   "Vasoconstrição da arteríola aferente por inibição de prostaglandinas, revertida sempre com a suspensão.",
    "Nefrite intersticial aguda alérgica, definida por sódio urinário baixo e resposta imediata à suspensão.",
    "Necrose tubular aguda isquêmica, caracterizada por sódio urinário baixo e cilindros hialinos na urina.",
    "Obstrução urinária baixa por retenção, mecanismo típico do uso prolongado de anti-inflamatórios orais.",
+   "Vasoconstrição da arteríola aferente por inibição de prostaglandinas, revertida sempre com a suspensão.",
    "Glomerulonefrite rapidamente progressiva, mecanismo habitual da lesão renal induzida por essa classe."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
@@ -208,10 +208,10 @@
   "base": "KDIGO Acute Kidney Injury Guideline, atualização 2024; NEJM review on drug-induced nephrotoxicity, 2023",
   "coment": "Os anti-inflamatórios não hormonais inibem a síntese de prostaglandinas vasodilatadoras que mantêm a perfusão glomerular quando há hipoperfusão renal, causando vasoconstrição da arteríola aferente e queda da filtração. O padrão é pré-renal, com sódio urinário baixo e fração de excreção de sódio reduzida, e costuma reverter com a suspensão do fármaco e a correção da volemia. Essa classe também pode causar nefrite intersticial e necrose de papila.",
   "porAlt": [
-   "Correta: vasoconstrição da arteríola aferente por inibição de prostaglandinas, revertida com a suspensão.",
    "A nefrite intersticial cursa com sódio urinário elevado, além de eosinofilúria e por vezes rash.",
    "A necrose tubular aguda cursa com sódio urinário elevado e cilindros granulosos, não hialinos.",
    "Anti-inflamatórios não causam obstrução urinária baixa como mecanismo de lesão renal aguda.",
+   "Correta: vasoconstrição da arteríola aferente por inibição de prostaglandinas, revertida com a suspensão.",
    "A glomerulonefrite rapidamente progressiva cursa com hematúria dismórfica e cilindros hemáticos."
   ]
  },

@@ -26,13 +26,13 @@
  {
   "q": "Uma equipe deseja avaliar se um programa reduziu a mortalidade em uma população ao longo de dez anos. Qual desenho de estudo é o mais adequado?",
   "alts": [
-   "Estudo de coorte com acompanhamento longitudinal, que permite sempre estimar incidência e risco relativo.",
    "Estudo transversal isolado, desenho que já permite estabelecer a relação temporal entre os dois fatos.",
    "Série de casos sem grupo de comparação, desenho adequado para estimar risco relativo na população agora.",
+   "Estudo de coorte com acompanhamento longitudinal, que permite sempre estimar incidência e risco relativo.",
    "Relato de caso individual, desenho que permite avaliar impacto populacional de um programa de saúde.",
    "Estudo ecológico isolado, desenho que elimina completamente o risco de falácia ecológica na análise."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
@@ -40,9 +40,9 @@
   "base": "Ministério da Saúde — Diretrizes metodológicas de avaliação de tecnologias em saúde, 2022; epidemiologia clínica clássica",
   "coment": "O estudo de coorte acompanha grupos expostos e não expostos ao longo do tempo, permitindo estimar incidência, risco relativo e a relação temporal entre exposição e desfecho, o que o torna adequado para avaliar impacto de programas quando o ensaio randomizado não é factível. O transversal mede exposição e desfecho no mesmo momento e não estabelece temporalidade; o ecológico analisa grupos e está sujeito à falácia ecológica.",
   "porAlt": [
-   "Correta: a coorte com acompanhamento longitudinal estima incidência, risco relativo e temporalidade.",
    "O estudo transversal mede exposição e desfecho simultaneamente e não estabelece a temporalidade.",
    "A série de casos não tem grupo de comparação e por isso não permite estimar risco relativo.",
+   "Correta: a coorte com acompanhamento longitudinal estima incidência, risco relativo e temporalidade.",
    "O relato de caso descreve um indivíduo e não avalia impacto populacional de programa algum.",
    "O estudo ecológico analisa grupos e está justamente sujeito à falácia ecológica na inferência."
   ]
@@ -50,13 +50,13 @@
  {
   "q": "Um paciente com transtorno mental grave em crise recusa internação e apresenta risco iminente à própria vida. Qual é a conduta?",
   "alts": [
-   "Internação involuntária com comunicação formal ao Ministério Público, garantindo sempre o cuidado em rede.",
    "Aguardar a concordância do paciente mesmo diante de risco iminente à própria vida durante a crise agora.",
+   "Internação involuntária com comunicação formal ao Ministério Público, garantindo sempre o cuidado em rede.",
    "Internação compulsória determinada diretamente pelo médico, sem qualquer comunicação a outra instância.",
    "Liberar o paciente com prescrição e orientar retorno ambulatorial em trinta dias para reavaliação clínica.",
    "Contenção física prolongada no domicílio como alternativa à internação diante da recusa do paciente agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "emg",
   "comp": "urg",
@@ -64,8 +64,8 @@
   "base": "Lei nº 10.216/2001 — Lei da Reforma Psiquiátrica; Ministério da Saúde — Rede de Atenção Psicossocial",
   "coment": "A Lei da Reforma Psiquiátrica prevê três modalidades de internação: voluntária, involuntária — a pedido de terceiro e sem consentimento do paciente — e compulsória, determinada pela Justiça. A internação involuntária exige laudo médico circunstanciado e comunicação ao Ministério Público em até setenta e duas horas, tanto na admissão quanto na alta. Ela é indicada quando os recursos extra-hospitalares se mostram insuficientes e há risco.",
   "porAlt": [
-   "Correta: internação involuntária com laudo circunstanciado e comunicação formal ao Ministério Público.",
    "Aguardar concordância diante de risco iminente de morte omite socorro e viola o dever de cuidado.",
+   "Correta: internação involuntária com laudo circunstanciado e comunicação formal ao Ministério Público.",
    "A internação compulsória é determinada pela Justiça; a involuntária exige comunicação ao Ministério Público.",
    "Liberar paciente com risco iminente à vida é conduta inaceitável e de responsabilidade do médico.",
    "A contenção domiciliar prolongada não é medida terapêutica e configura violação de direitos."
@@ -74,13 +74,13 @@
  {
   "q": "Um serviço quer reduzir infecções relacionadas à assistência. Qual é a medida isolada de maior impacto?",
   "alts": [
-   "Higiene das mãos nos cinco momentos preconizados, medida sempre de maior impacto e menor custo relativo.",
    "Uso rotineiro de antibiótico profilático em todos os pacientes internados na unidade de internação.",
    "Isolamento de contato para todos os pacientes internados, independentemente do risco microbiológico.",
    "Troca diária de todos os cateteres venosos centrais como principal estratégia de prevenção de infecção.",
+   "Higiene das mãos nos cinco momentos preconizados, medida sempre de maior impacto e menor custo relativo.",
    "Uso obrigatório de avental estéril por todos os visitantes em todas as áreas do hospital, sem exceção."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "sus",
   "cenario": "enf",
   "comp": "prev",
@@ -88,23 +88,23 @@
   "base": "OMS — Diretrizes sobre higienização das mãos na assistência à saúde; ANVISA — Medidas de prevenção de IRAS, revisão 2023",
   "coment": "A higienização das mãos nos cinco momentos — antes do contato com o paciente, antes de procedimento asséptico, após risco de exposição a fluidos, após contato com o paciente e após contato com áreas próximas — é a medida isolada de maior impacto na prevenção de infecções relacionadas à assistência, com custo baixo. Antibiótico profilático indiscriminado seleciona resistência, e a troca rotineira de cateteres não reduz infecção.",
   "porAlt": [
-   "Correta: higienização das mãos nos cinco momentos é a medida isolada de maior impacto e menor custo.",
    "O antibiótico profilático indiscriminado seleciona resistência e aumenta infecção por germes difíceis.",
    "Isolar todos indistintamente consome recursos e reduz o contato assistencial sem benefício claro.",
    "A troca rotineira e programada de cateteres não reduz infecção e aumenta complicações mecânicas.",
+   "Correta: higienização das mãos nos cinco momentos é a medida isolada de maior impacto e menor custo.",
    "O avental para visitantes em todas as áreas não é medida com impacto demonstrado sobre infecção."
   ]
  },
  {
   "q": "Um paciente com doença terminal registra, com o médico, sua recusa a manobras de reanimação. Como se chama esse instrumento e qual é sua validade?",
   "alts": [
-   "Diretiva antecipada de vontade, que deve ser sempre registrada em prontuário e respeitada pela equipe.",
    "Documento sem qualquer validade no Brasil, pois a legislação não reconhece manifestação prévia de vontade.",
    "Instrumento válido apenas se registrado em cartório com firma reconhecida e testemunhas presenciais.",
    "Documento que só passa a valer após autorização judicial expressa concedida em processo específico.",
+   "Diretiva antecipada de vontade, que deve ser sempre registrada em prontuário e respeitada pela equipe.",
    "Manifestação que perde validade assim que o paciente deixa de poder se comunicar com a equipe assistente."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "sus",
   "cenario": "enf",
   "comp": "tto",
@@ -112,23 +112,23 @@
   "base": "Resolução CFM nº 1.995/2012 — Diretivas antecipadas de vontade; Código de Ética Médica, 2018",
   "coment": "As diretivas antecipadas de vontade são o conjunto de desejos previamente manifestados pelo paciente sobre cuidados que deseja ou não receber quando estiver incapaz de expressar sua vontade. A resolução do Conselho Federal de Medicina determina que o médico as registre no prontuário e as respeite, prevalecendo sobre o desejo de familiares. Não é exigido registro em cartório, e é justamente na incapacidade de comunicar-se que elas produzem efeito.",
   "porAlt": [
-   "Correta: diretiva antecipada de vontade, registrada em prontuário e respeitada pela equipe assistente.",
    "A manifestação prévia de vontade é reconhecida por resolução do Conselho Federal de Medicina.",
    "Não é exigido registro em cartório; o registro em prontuário pelo médico é suficiente e válido.",
    "Não é necessária autorização judicial para respeitar a vontade previamente manifestada pelo paciente.",
+   "Correta: diretiva antecipada de vontade, registrada em prontuário e respeitada pela equipe assistente.",
    "É exatamente quando o paciente não pode se comunicar que a diretiva produz seus efeitos."
   ]
  },
  {
   "q": "Uma equipe de atenção primária identifica gestante em situação de vulnerabilidade que não comparece ao pré-natal. Qual é a conduta?",
   "alts": [
-   "Busca ativa com visita domiciliar e articulação intersetorial, adequando sempre o acesso às condições dela.",
    "Excluir a gestante do cadastro da equipe após duas faltas consecutivas às consultas de pré-natal agora.",
    "Aguardar que ela procure o serviço espontaneamente no momento do trabalho de parto na maternidade agora.",
+   "Busca ativa com visita domiciliar e articulação intersetorial, adequando sempre o acesso às condições dela.",
    "Notificar a gestante ao conselho tutelar como principal medida diante das faltas ao pré-natal agendado.",
    "Encaminhar diretamente ao pré-natal de alto risco, retirando o acompanhamento da atenção primária local."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -136,9 +136,9 @@
   "base": "Portaria GM/MS nº 2.436/2017 — Política Nacional de Atenção Básica; Ministério da Saúde — Caderneta da Gestante e diretrizes do pré-natal, 2022",
   "coment": "O pré-natal adequado é um dos determinantes mais fortes de desfechos maternos e neonatais, e a responsabilidade sanitária sobre a população adscrita implica busca ativa das faltosas. A visita domiciliar por agente comunitário identifica barreiras concretas — transporte, trabalho, violência doméstica, uso de substâncias, insegurança alimentar — e a resposta combina flexibilizar o acesso e acionar assistência social, conselho tutelar quando adolescente e demais equipamentos.",
   "porAlt": [
-   "Correta: busca ativa com visita domiciliar e articulação intersetorial, adequando o acesso às condições.",
    "Excluir do cadastro contraria a responsabilidade sanitária sobre a população adscrita ao território.",
    "Esperar o trabalho de parto elimina toda a prevenção que o pré-natal poderia oferecer à gestante.",
+   "Correta: busca ativa com visita domiciliar e articulação intersetorial, adequando o acesso às condições.",
    "A notificação isolada ao conselho tutelar não resolve barreiras de acesso e pode afastar a gestante.",
    "O alto risco é para indicações clínicas, e a primária mantém a coordenação do cuidado da gestante."
   ]
@@ -146,13 +146,13 @@
  {
   "q": "Um estudo relata número necessário para tratar de 25 para prevenir um evento em cinco anos. Qual é a interpretação?",
   "alts": [
-   "É preciso tratar vinte e cinco pessoas por cinco anos para evitar sempre um evento a mais no grupo.",
    "Vinte e cinco por cento dos pacientes tratados terão o desfecho prevenido pela intervenção estudada.",
    "Cada paciente tratado tem vinte e cinco vezes menos risco de apresentar o desfecho no período agora.",
+   "É preciso tratar vinte e cinco pessoas por cinco anos para evitar sempre um evento a mais no grupo.",
    "O tratamento reduz o risco relativo em exatamente vinte e cinco por cento no período de cinco anos.",
    "Vinte e cinco pacientes apresentarão eventos adversos graves com a intervenção durante o estudo."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
@@ -160,9 +160,9 @@
   "base": "Ministério da Saúde — Diretrizes metodológicas, 2022; GRADE Working Group; epidemiologia clínica clássica",
   "coment": "O número necessário para tratar é o inverso da redução absoluta de risco e indica quantos pacientes precisam receber a intervenção, pelo tempo do estudo, para evitar um evento. Um valor de 25 em cinco anos significa que tratar vinte e cinco pessoas por esse período evita um desfecho. É a medida mais útil para comunicar benefício ao paciente, porque incorpora o risco basal, ao contrário da redução relativa de risco, que pode exagerar a percepção do efeito.",
   "porAlt": [
-   "Correta: tratar vinte e cinco pessoas pelo período do estudo evita um evento a mais no grupo.",
    "O número necessário para tratar não é uma porcentagem de pacientes beneficiados individualmente.",
    "O valor não expressa quantas vezes o risco individual é reduzido pela intervenção estudada.",
+   "Correta: tratar vinte e cinco pessoas pelo período do estudo evita um evento a mais no grupo.",
    "A redução relativa de risco é medida distinta e não corresponde ao número necessário para tratar.",
    "Eventos adversos são expressos pelo número necessário para causar dano, medida diferente desta."
   ]
@@ -170,13 +170,13 @@
  {
   "q": "Um paciente pergunta se pode ter acesso a medicamento de alto custo não incluído nas listas oficiais. Qual é a orientação correta?",
   "alts": [
-   "Explicar as vias formais de solicitação e avaliar sempre alternativas terapêuticas disponíveis no sistema.",
    "Afirmar que não existe qualquer via de acesso a medicamento fora das listas oficiais no país neste caso.",
    "Orientar diretamente a via judicial como primeiro e único caminho possível para obter o medicamento agora.",
+   "Explicar as vias formais de solicitação e avaliar sempre alternativas terapêuticas disponíveis no sistema.",
    "Prescrever o medicamento sem qualquer discussão sobre acesso, custo ou alternativas terapêuticas disponíveis.",
    "Afirmar que o paciente deve necessariamente comprar o medicamento com recursos próprios, sem alternativa."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -184,9 +184,9 @@
   "base": "Lei nº 12.401/2011 — incorporação de tecnologias no SUS; Ministério da Saúde — Relação Nacional de Medicamentos Essenciais, 2024",
   "coment": "O acesso a medicamentos no sistema público segue a Relação Nacional de Medicamentos Essenciais e os protocolos clínicos e diretrizes terapêuticas, com incorporação avaliada pela comissão nacional de incorporação de tecnologias. Diante de pedido por fármaco não incorporado, o médico deve conhecer as vias formais — componente especializado, solicitação administrativa e protocolos —, discutir alternativas terapêuticas com evidência e explicar o processo com transparência.",
   "porAlt": [
-   "Correta: explicar as vias formais de solicitação e avaliar alternativas terapêuticas disponíveis.",
    "Existem vias administrativas e protocolos que permitem acesso a fármacos em situações específicas.",
    "A via judicial é último recurso, e não o primeiro caminho a ser orientado ao paciente.",
+   "Correta: explicar as vias formais de solicitação e avaliar alternativas terapêuticas disponíveis.",
    "Prescrever sem discutir acesso e alternativas deixa o paciente sem tratamento efetivo na prática.",
    "Nem sempre a compra própria é a única alternativa, e há opções terapêuticas disponíveis no sistema."
   ]
@@ -218,13 +218,13 @@
  {
   "q": "Uma equipe atende idoso trazido por vizinho com sinais de negligência e lesões inexplicadas. Qual é a conduta?",
   "alts": [
-   "Acolher, notificar compulsoriamente e comunicar sempre a autoridade competente conforme a legislação.",
    "Registrar apenas em prontuário e liberar o idoso de volta ao mesmo domicílio, sem qualquer comunicação.",
    "Aguardar que o próprio idoso solicite formalmente qualquer providência antes de qualquer notificação.",
    "Encaminhar exclusivamente à delegacia sem qualquer avaliação clínica ou notificação do caso identificado.",
+   "Acolher, notificar compulsoriamente e comunicar sempre a autoridade competente conforme a legislação.",
    "Notificar apenas se houver confissão do agressor durante o atendimento realizado no serviço de saúde."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "sus",
   "cenario": "emg",
   "comp": "prev",
@@ -232,10 +232,10 @@
   "base": "Estatuto da Pessoa Idosa, Lei nº 10.741/2003, artigo 19; Ministério da Saúde — Guia de Vigilância em Saúde, 2024",
   "coment": "O Estatuto da Pessoa Idosa determina que casos suspeitos ou confirmados de violência contra idoso sejam obrigatoriamente comunicados pelos profissionais de saúde à autoridade sanitária e a uma das instâncias de proteção: autoridade policial, Ministério Público ou conselho do idoso. A notificação é compulsória, independe de confirmação e de autorização, e a avaliação inclui exame clínico completo, registro detalhado das lesões e avaliação do risco de retorno ao domicílio.",
   "porAlt": [
-   "Correta: acolher, notificar compulsoriamente e comunicar a autoridade competente conforme a lei.",
    "Devolver ao mesmo domicílio sem comunicação mantém o idoso exposto ao agressor e ao risco.",
    "A notificação independe de solicitação da vítima e é dever legal do profissional de saúde.",
    "Encaminhar sem avaliar nega assistência clínica devida e não cumpre a notificação sanitária.",
+   "Correta: acolher, notificar compulsoriamente e comunicar a autoridade competente conforme a lei.",
    "A notificação decorre da suspeita e não exige confissão nem comprovação prévia da violência."
   ]
  }

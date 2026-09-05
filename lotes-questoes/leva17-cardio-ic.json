@@ -26,13 +26,13 @@
  {
   "q": "Mulher de 58 anos tem insuficiência cardíaca com fração de ejeção de 32%, classe funcional II, pressão de 118/72 mmHg, frequência de 74 bpm, potássio de 4,3 mEq/L e taxa de filtração glomerular de 62 mL/min/1,73 m². Está apenas em uso de furosemida. Quais classes compõem a terapia medicamentosa fundamental que ela deve receber?",
   "alts": [
-   "Betabloqueador, inibidor da neprilisina com bloqueador do receptor, antagonista mineralocorticoide e inibidor de SGLT2.",
    "Apenas diurético de alça em dose otimizada, com betabloqueador acrescentado somente se surgir taquicardia sintomática.",
    "Digoxina associada a diurético tiazídico, esquema que segue sendo a base do tratamento da fração de ejeção reduzida.",
+   "Betabloqueador, inibidor da neprilisina com bloqueador do receptor, antagonista mineralocorticoide e inibidor de SGLT2.",
    "Bloqueador de canal de cálcio associado a nitrato oral, combinação preferida para reduzir a pós-carga nesse cenário.",
    "Amiodarona em dose de manutenção somada a anticoagulante oral, indicadas a toda fração de ejeção abaixo de 35% hoje."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -40,9 +40,9 @@
   "base": "ESC 2026 — terapia medicamentosa fundamental na insuficiência cardíaca com fração reduzida",
   "coment": "A terapia medicamentosa fundamental na fração de ejeção reduzida tem quatro componentes: betabloqueador; inibidor da enzima conversora, inibidor da neprilisina com bloqueador do receptor ou bloqueador do receptor de angiotensina; antagonista do receptor mineralocorticoide; e inibidor de SGLT2. As quatro classes têm efeito aditivo sobre mortalidade e devem ser iniciadas cedo, em doses baixas e tituladas em paralelo, em vez de sequencialmente ao longo de meses. O diurético trata congestão e alivia sintoma, mas não altera sobrevida. A diretriz de 2026 ainda tornou classe I o antagonista mineralocorticoide na insuficiência cardíaca crônica independentemente da fração de ejeção.",
   "porAlt": [
-   "Correta: os quatro pilares são betabloqueador, bloqueio do sistema renina-angiotensina, antagonista mineralocorticoide e inibidor de SGLT2.",
    "O diurético de alça alivia congestão e sintoma, mas não reduz mortalidade; deixar a paciente só com ele é subtratamento grave.",
    "A digoxina hoje é adjuvante para controle de sintomas e frequência, e o tiazídico não faz parte da base terapêutica atual.",
+   "Correta: os quatro pilares são betabloqueador, bloqueio do sistema renina-angiotensina, antagonista mineralocorticoide e inibidor de SGLT2.",
    "Bloqueadores de canal de cálcio não di-hidropiridínicos são evitados na fração reduzida por efeito inotrópico negativo.",
    "Amiodarona e anticoagulante não são indicados apenas pela fração baixa; dependem de arritmia e de risco embólico próprios."
   ]
@@ -75,12 +75,12 @@
   "q": "Homem de 69 anos chega à emergência com dispneia em repouso, estertores até terços médios, ortopneia e saturação de 88% em ar ambiente. A pressão é de 168/96 mmHg e há insuficiência cardíaca conhecida. Qual é a conduta inicial correta?",
   "alts": [
    "Expansão volêmica com cristaloide, para melhorar a pré-carga e o débito cardíaco desse paciente.",
+   "Ventilação não invasiva com vasodilatador endovenoso e diurético de alça, tratando a congestão.",
    "Betabloqueador endovenoso em bolus, para reduzir de imediato a frequência e o consumo de oxigênio.",
    "Apenas oxigênio por cateter nasal, adiando qualquer droga até que o ecocardiograma seja realizado.",
-   "Ventilação não invasiva com vasodilatador endovenoso e diurético de alça, tratando a congestão.",
    "Morfina endovenosa em dose alta como primeira medida, por reduzir a ansiedade e a pré-carga logo."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -89,9 +89,9 @@
   "coment": "O quadro é insuficiência cardíaca descompensada com congestão pulmonar e pressão elevada, o perfil que mais se beneficia de vasodilatador. A conduta reúne ventilação não invasiva, que reduz o trabalho respiratório e a pré e a pós-carga, vasodilatador endovenoso titulado e diurético de alça para a congestão. Expandir volume nesse perfil piora o edema pulmonar. O betabloqueador endovenoso na descompensação aguda com congestão pode precipitar choque, e a morfina caiu em desuso pela associação com maior necessidade de ventilação invasiva e pior desfecho.",
   "porAlt": [
    "Expandir volume em paciente com edema pulmonar agrava a congestão e a hipoxemia — é o oposto do que o quadro pede.",
+   "Correta: no perfil congestivo com pressão elevada, a combinação de ventilação não invasiva, vasodilatador e diurético é o padrão.",
    "Betabloqueador endovenoso na descompensação com congestão franca pode precipitar choque cardiogênico nesse paciente.",
    "Adiar o tratamento até o ecocardiograma é perder tempo: a conduta inicial da congestão é clínica e não depende do exame.",
-   "Correta: no perfil congestivo com pressão elevada, a combinação de ventilação não invasiva, vasodilatador e diurético é o padrão.",
    "A morfina foi associada a mais intubação e pior desfecho na descompensação, e deixou de ser medida inicial recomendada."
   ]
  },
@@ -123,12 +123,12 @@
   "q": "Mulher de 63 anos, hipertensa e diabética, é atendida em consulta de rotina sem sintomas cardiovasculares. O eletrocardiograma é normal e o ecocardiograma mostra hipertrofia ventricular esquerda com fração de ejeção de 60%. Segundo o estadiamento adotado pela diretriz vigente, em que estágio ela se encontra e o que isso implica?",
   "alts": [
    "Estágio A, porque a ausência de sintomas exclui qualquer alteração estrutural relevante no coração.",
-   "Estágio C, uma vez que a hipertrofia ventricular equivale a sintomas manifestos de insuficiência.",
    "Estágio B, com doença estrutural sem sintomas, o que já indica intervir para evitar a progressão.",
+   "Estágio C, uma vez que a hipertrofia ventricular equivale a sintomas manifestos de insuficiência.",
    "Estágio D, reservado a quem apresenta hipertrofia ventricular associada a diabetes de longa data.",
    "Fora do estadiamento, que se aplica apenas a pacientes já sintomáticos e em acompanhamento regular."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -137,8 +137,8 @@
   "coment": "A diretriz de 2026 adotou quatro estágios: A, para quem tem fatores de risco sem doença estrutural ou sintomas; B, para doença estrutural ou funcional sem sintomas, situação antes chamada de pré-insuficiência cardíaca; C, para quem tem ou teve sintomas; e D, para doença avançada e refratária. A paciente tem hipertrofia ventricular sem sintomas, portanto estágio B — e a mensagem prática do estadiamento é exatamente essa: o estágio B pede intervenção, com controle rigoroso de pressão e escolha de hipoglicemiante com benefício cardiovascular, para impedir a progressão ao estágio sintomático.",
   "porAlt": [
    "O estágio A é o de fatores de risco sem alteração estrutural, e a hipertrofia já demonstra acometimento do órgão.",
-   "O estágio C exige sintomas atuais ou pregressos de insuficiência cardíaca, que esta paciente não apresenta.",
    "Correta: doença estrutural sem sintomas é estágio B, e a diretriz enfatiza intervir aí para evitar a progressão.",
+   "O estágio C exige sintomas atuais ou pregressos de insuficiência cardíaca, que esta paciente não apresenta.",
    "O estágio D descreve doença avançada e refratária ao tratamento, situação muito distante do quadro atual dela.",
    "O estadiamento cobre desde quem apenas tem risco, justamente para orientar prevenção antes do primeiro sintoma."
   ]

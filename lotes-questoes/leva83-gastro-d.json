@@ -2,13 +2,13 @@
  {
   "q": "Paciente com cirrose e primeiro episódio de ascite. Qual é a conduta inicial?",
   "alts": [
-   "Restrição de sódio com diurético combinado, monitorando sempre peso, eletrólitos e função renal do paciente.",
    "Paracentese de grande volume diária como tratamento inicial de escolha do primeiro episódio de ascite agora.",
+   "Restrição de sódio com diurético combinado, monitorando sempre peso, eletrólitos e função renal do paciente.",
    "Restrição hídrica extrema isolada como primeira medida no paciente cirrótico com ascite de início recente.",
    "Iniciar albumina endovenosa isolada, sem qualquer diurético ou restrição de sódio na dieta do paciente.",
    "Indicar transplante hepático imediato em todos os pacientes com primeiro episódio de ascite por cirrose."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
@@ -16,8 +16,8 @@
   "base": "EASL Clinical Practice Guidelines on decompensated cirrhosis, 2018 com atualização 2023; AASLD practice guidance on ascites, 2021",
   "coment": "O tratamento inicial da ascite por cirrose combina restrição de sódio, em torno de dois gramas por dia, com diurético, tipicamente espironolactona associada a furosemida em proporção que preserva o potássio. Monitoram-se peso diário, eletrólitos e função renal, com perda ponderal alvo de até meio quilo por dia sem edema periférico. Restrição hídrica se reserva à hiponatremia significativa, e paracentese de grande volume é para ascite tensa ou refratária.",
   "porAlt": [
-   "Correta: restrição de sódio com diurético combinado e monitorização de peso, eletrólitos e função renal.",
    "A paracentese diária não é tratamento inicial e expõe a complicações e perda proteica repetida.",
+   "Correta: restrição de sódio com diurético combinado e monitorização de peso, eletrólitos e função renal.",
    "A restrição hídrica extrema se reserva à hiponatremia e não é a medida inicial da ascite.",
    "A albumina é adjuvante em situações específicas e não substitui diurético e restrição de sódio.",
    "O transplante é avaliado na doença avançada, e não indicado pelo primeiro episódio de ascite."
@@ -50,13 +50,13 @@
  {
   "q": "Paciente com pancreatite aguda biliar leve já resolvida. Qual é a conduta para prevenir recorrência?",
   "alts": [
-   "Colecistectomia na mesma internação, pois adiá-la aumenta sempre o risco de novo episódio no intervalo agora.",
    "Colecistectomia eletiva apenas depois de um ano da alta hospitalar em todos os pacientes com pancreatite biliar já.",
    "Manter apenas dieta com baixo teor de gordura como única medida preventiva de novos episódios de pancreatite.",
+   "Colecistectomia na mesma internação, pois adiá-la aumenta sempre o risco de novo episódio no intervalo agora.",
    "Prescrever antibiótico profilático contínuo por seis meses como prevenção de recorrência da pancreatite biliar.",
    "Não realizar qualquer intervenção, pois a pancreatite biliar não recorre após o primeiro episódio resolvido."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "prev",
@@ -64,9 +64,9 @@
   "base": "American Gastroenterological Association guideline on acute pancreatitis, 2024; IAP/APA guidelines, revisão 2023",
   "coment": "Na pancreatite aguda biliar leve, a colecistectomia deve ser realizada na mesma internação, pois o risco de novo episódio, colecistite ou colangite no intervalo até a cirurgia eletiva é elevado, chegando a cerca de vinte por cento em seis semanas. Ensaio clínico demonstrou redução de complicações com a cirurgia precoce. Em pancreatite grave com coleções, a cirurgia é adiada até a resolução do processo inflamatório.",
   "porAlt": [
-   "Correta: colecistectomia na mesma internação, pois adiar aumenta o risco de novo episódio.",
    "Aguardar um ano expõe o paciente a recorrência precoce, colecistite e colangite no intervalo.",
    "A dieta isolada não previne a migração de cálculos nem a recorrência da pancreatite biliar.",
+   "Correta: colecistectomia na mesma internação, pois adiar aumenta o risco de novo episódio.",
    "O antibiótico profilático não previne a recorrência, que depende da remoção da vesícula.",
    "A pancreatite biliar recorre com frequência elevada quando a vesícula não é removida."
   ]
@@ -74,13 +74,13 @@
  {
   "q": "Paciente com hepatite B crônica, HBeAg negativo, carga viral elevada e transaminases persistentemente alteradas. Qual é a conduta?",
   "alts": [
-   "Iniciar antiviral com tenofovir ou entecavir, mantendo sempre rastreio de carcinoma hepatocelular no seguimento.",
    "Não tratar, pois a hepatite B crônica com HBeAg negativo nunca requer tratamento antiviral específico agora.",
    "Iniciar interferon convencional como tratamento de escolha atual para todos os pacientes com hepatite B crônica.",
    "Prescrever apenas hepatoprotetor de venda livre como tratamento da hepatite B crônica com carga viral elevada.",
-   "Indicar transplante hepático imediato para todos os pacientes com hepatite B crônica e carga viral elevada."
+   "Indicar transplante hepático imediato para todos os pacientes com hepatite B crônica e carga viral elevada.",
+   "Iniciar antiviral com tenofovir ou entecavir, mantendo sempre rastreio de carcinoma hepatocelular no seguimento."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
@@ -88,23 +88,23 @@
   "base": "Ministério da Saúde — PCDT para Hepatite B e Coinfecções, 2024; EASL Clinical Practice Guidelines on hepatitis B, 2017 com revisão 2023",
   "coment": "A hepatite B crônica HBeAg negativa com carga viral elevada e transaminases alteradas configura hepatite ativa e tem indicação de tratamento com análogo de nucleotídeo ou nucleosídeo de alta barreira genética, como tenofovir ou entecavir, geralmente por tempo prolongado. Independentemente do tratamento, mantém-se rastreio semestral de carcinoma hepatocelular em grupos de risco, pois a hepatite B pode causar o tumor mesmo sem cirrose estabelecida.",
   "porAlt": [
-   "Correta: antiviral com tenofovir ou entecavir, mantendo rastreio semestral de carcinoma hepatocelular.",
    "A forma HBeAg negativa com atividade tem indicação clara de tratamento antiviral específico.",
    "O interferon convencional foi amplamente substituído pelos análogos de alta barreira genética.",
    "Hepatoprotetores não suprimem a replicação viral nem reduzem a progressão da doença hepática.",
-   "O transplante se reserva a doença hepática avançada, e não a toda hepatite crônica ativa."
+   "O transplante se reserva a doença hepática avançada, e não a toda hepatite crônica ativa.",
+   "Correta: antiviral com tenofovir ou entecavir, mantendo rastreio semestral de carcinoma hepatocelular."
   ]
  },
  {
   "q": "Paciente com colite ulcerativa em atividade grave, com mais de seis evacuações sanguinolentas ao dia, febre e taquicardia. Qual é a conduta?",
   "alts": [
-   "Internar com corticoide endovenoso e profilaxia de trombose, avaliando sempre resposta em três a cinco dias.",
    "Manter tratamento ambulatorial com mesalazina oral isolada em todos os casos de colite ulcerativa grave já.",
+   "Internar com corticoide endovenoso e profilaxia de trombose, avaliando sempre resposta em três a cinco dias.",
    "Prescrever antidiarreico em dose plena para reduzir o número de evacuações nesse paciente com colite grave.",
    "Iniciar antibiótico de amplo espectro isolado como tratamento definitivo da colite ulcerativa em atividade grave.",
    "Indicar colectomia total imediata em todos os pacientes na primeira apresentação de colite ulcerativa grave."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "urg",
@@ -112,8 +112,8 @@
   "base": "ECCO-ESGAR guidelines on ulcerative colitis, 2022; AGA Clinical Practice Guideline on moderate to severe UC, revisão 2024",
   "coment": "A colite aguda grave, definida pelos critérios de Truelove e Witts, é emergência com risco de megacólon tóxico e perfuração. O manejo inclui internação, corticoide endovenoso, hidratação, correção eletrolítica, profilaxia de tromboembolismo — o risco é alto mesmo com sangramento intestinal —, exclusão de infecção por Clostridioides difficile e citomegalovírus e avaliação de resposta em três a cinco dias, quando se decide por terapia de resgate ou colectomia.",
   "porAlt": [
-   "Correta: internação com corticoide endovenoso e profilaxia de trombose, com avaliação em poucos dias.",
    "A mesalazina oral isolada é insuficiente para a colite aguda grave com repercussão sistêmica.",
+   "Correta: internação com corticoide endovenoso e profilaxia de trombose, com avaliação em poucos dias.",
    "O antidiarreico pode precipitar megacólon tóxico e é contraindicado na colite aguda grave.",
    "O antibiótico isolado não trata a inflamação, embora infecção associada deva ser afastada.",
    "A colectomia é indicada na falha do tratamento clínico ou em complicações, não de imediato."
@@ -122,13 +122,13 @@
  {
   "q": "Paciente com suspeita de intolerância à lactose relata distensão e diarreia após laticínios. Qual é a conduta inicial?",
   "alts": [
-   "Retirada temporária da lactose com reintrodução programada, avaliando sempre a correlação com os sintomas.",
    "Indicar biópsia intestinal imediata em todos os pacientes com sintomas após consumo de laticínios agora.",
    "Excluir permanentemente todos os laticínios da dieta sem qualquer teste de reintrodução ou avaliação nutricional.",
    "Prescrever corticoide sistêmico contínuo como tratamento de escolha para a intolerância à lactose suspeitada.",
-   "Prescrever antibiótico de amplo espectro por dez dias como tratamento inicial da intolerância à lactose."
+   "Prescrever antibiótico de amplo espectro por dez dias como tratamento inicial da intolerância à lactose.",
+   "Retirada temporária da lactose com reintrodução programada, avaliando sempre a correlação com os sintomas."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -136,11 +136,11 @@
   "base": "ACG Clinical Guideline on chronic diarrhea, revisão 2023; NIH consensus on lactose intolerance, revisão 2022",
   "coment": "A intolerância à lactose é avaliada inicialmente pela retirada temporária da lactose por duas a quatro semanas com reintrodução programada, observando a correlação com os sintomas, ou por teste respiratório com hidrogênio expirado quando disponível. A exclusão permanente e total não é necessária: a maioria tolera pequenas quantidades, sobretudo com alimentos, e a enzima lactase exógena permite consumo. Importa afastar doença celíaca, que pode cursar com intolerância secundária.",
   "porAlt": [
-   "Correta: retirada temporária com reintrodução programada, avaliando a correlação com os sintomas.",
    "A biópsia intestinal não é necessária para o diagnóstico de intolerância à lactose simples.",
    "A exclusão permanente e total é desnecessária e compromete o aporte de cálcio na dieta.",
    "O corticoide não trata deficiência enzimática e adiciona toxicidade sem qualquer benefício.",
-   "O antibiótico não trata intolerância à lactose, que decorre de deficiência da enzima lactase."
+   "O antibiótico não trata intolerância à lactose, que decorre de deficiência da enzima lactase.",
+   "Correta: retirada temporária com reintrodução programada, avaliando a correlação com os sintomas."
   ]
  },
  {
@@ -170,13 +170,13 @@
  {
   "q": "Paciente com sangramento digestivo baixo volumoso e instabilidade hemodinâmica. Qual é a conduta inicial?",
   "alts": [
-   "Estabilizar e investigar a fonte com angiotomografia ou colonoscopia, excluindo sempre origem digestiva alta.",
    "Realizar colonoscopia imediata sem qualquer preparo ou estabilização hemodinâmica prévia do paciente agora.",
    "Indicar colectomia total imediata em todos os casos de sangramento digestivo baixo com instabilidade agora.",
    "Prescrever apenas antifibrinolítico oral como tratamento definitivo do sangramento digestivo baixo volumoso.",
+   "Estabilizar e investigar a fonte com angiotomografia ou colonoscopia, excluindo sempre origem digestiva alta.",
    "Aguardar a cessação espontânea do sangramento por quarenta e oito horas antes de qualquer investigação agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "urg",
@@ -184,23 +184,23 @@
   "base": "ACG Clinical Guideline on the management of patients with acute lower gastrointestinal bleeding, 2023; ESGE guideline, 2021",
   "coment": "No sangramento digestivo baixo com instabilidade, a prioridade é a ressuscitação com acessos calibrosos, reposição volêmica e transfusão com estratégia restritiva. É obrigatório excluir origem digestiva alta, que responde por parte dos casos de hematoquezia volumosa, com passagem de sonda nasogástrica ou endoscopia alta. A angiotomografia identifica sangramento ativo e orienta embolização, e a colonoscopia é feita após preparo quando o paciente estabiliza.",
   "porAlt": [
-   "Correta: estabilizar e investigar a fonte, excluindo origem alta antes de assumir sangramento baixo.",
    "A colonoscopia sem preparo e sem estabilização tem baixo rendimento e alto risco no instável.",
    "A colectomia é medida de exceção, após falha das abordagens endoscópica e angiográfica.",
    "O antifibrinolítico não controla sangramento digestivo baixo ativo com instabilidade hemodinâmica.",
+   "Correta: estabilizar e investigar a fonte, excluindo origem alta antes de assumir sangramento baixo.",
    "Aguardar quarenta e oito horas em paciente instável permite choque hemorrágico e óbito."
   ]
  },
  {
   "q": "Paciente com esôfago de Barrett sem displasia em endoscopia de rastreio. Qual é a conduta?",
   "alts": [
-   "Vigilância endoscópica programada com inibidor de bomba de prótons, definindo sempre o intervalo pela extensão.",
    "Indicar esofagectomia imediata em todos os pacientes com esôfago de Barrett sem displasia identificada agora.",
    "Não realizar qualquer seguimento, pois o esôfago de Barrett não aumenta o risco de adenocarcinoma esofágico.",
+   "Vigilância endoscópica programada com inibidor de bomba de prótons, definindo sempre o intervalo pela extensão.",
    "Realizar ablação por radiofrequência em todos os pacientes com esôfago de Barrett sem qualquer displasia agora.",
    "Prescrever apenas antiácido de demanda e alta definitiva sem qualquer programação de novo exame endoscópico."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
@@ -208,9 +208,9 @@
   "base": "ACG Clinical Guideline on the Diagnosis and Management of Barrett's Esophagus, 2022; AGA Clinical Practice Update, 2024",
   "coment": "O esôfago de Barrett é metaplasia intestinal do esôfago distal e fator de risco para adenocarcinoma, com risco anual baixo na ausência de displasia. A conduta é vigilância endoscópica com biópsias em quatro quadrantes, com intervalo definido pela extensão do segmento, tipicamente de três a cinco anos sem displasia, associada a inibidor de bomba de prótons. Displasia de baixo ou alto grau indica terapia endoscópica, geralmente ablação por radiofrequência.",
   "porAlt": [
-   "Correta: vigilância endoscópica programada com inibidor de bomba, com intervalo definido pela extensão.",
    "A esofagectomia é cirurgia de grande porte e não se indica na ausência de displasia ou neoplasia.",
    "O Barrett aumenta o risco de adenocarcinoma e por isso justifica programa de vigilância definido.",
+   "Correta: vigilância endoscópica programada com inibidor de bomba, com intervalo definido pela extensão.",
    "A ablação é indicada diante de displasia, e não em todo Barrett sem alteração displásica.",
    "Alta definitiva sem vigilância perde a progressão para displasia em fase ainda tratável."
   ]

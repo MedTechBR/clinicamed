@@ -26,13 +26,13 @@
  {
   "q": "Paciente com intoxicação por antidepressivo tricíclico apresenta QRS alargado e hipotensão. Qual é a conduta?",
   "alts": [
-   "Bicarbonato de sódio endovenoso em bolus, indicado sempre diante de alargamento do QRS nessa intoxicação.",
    "Administrar flumazenil endovenoso como antídoto de escolha para a intoxicação por antidepressivo tricíclico.",
    "Administrar antiarrítmico de classe IA para corrigir o alargamento do QRS observado no eletrocardiograma.",
+   "Bicarbonato de sódio endovenoso em bolus, indicado sempre diante de alargamento do QRS nessa intoxicação.",
    "Realizar apenas lavagem gástrica tardia como principal medida terapêutica nessa intoxicação medicamentosa.",
    "Aguardar a metabolização espontânea do fármaco sem qualquer intervenção sobre a alteração eletrocardiográfica."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
@@ -40,9 +40,9 @@
   "base": "AACT/EAPCCT guidance on tricyclic antidepressant poisoning, revisão 2023; Ministério da Saúde — intoxicações agudas, 2022",
   "coment": "Os antidepressivos tricíclicos bloqueiam canais de sódio, alargando o QRS e predispondo a arritmias ventriculares e hipotensão. Alargamento acima de cem milissegundos indica bicarbonato de sódio endovenoso em bolus, que alcaliniza o plasma e aumenta o sódio extracelular, deslocando o fármaco do canal. Antiarrítmicos de classe IA e IC são contraindicados por agravarem o bloqueio. O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão aqui.",
   "porAlt": [
-   "Correta: bicarbonato de sódio endovenoso em bolus diante do alargamento do QRS nessa intoxicação.",
    "O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão em intoxicação mista.",
    "Antiarrítmicos de classe IA bloqueiam canais de sódio e agravam diretamente o alargamento do QRS.",
+   "Correta: bicarbonato de sódio endovenoso em bolus diante do alargamento do QRS nessa intoxicação.",
    "A lavagem gástrica tardia não é recomendada e traz risco de aspiração no paciente rebaixado.",
    "Aguardar sem tratar permite evolução para arritmia ventricular e parada cardiorrespiratória."
   ]
@@ -50,13 +50,13 @@
  {
   "q": "Paciente com afogamento em água doce, resgatado consciente, com tosse e hipoxemia leve. Qual é a conduta?",
   "alts": [
-   "Observação hospitalar com oxigênio e reavaliação, pois a piora respiratória surge sempre em poucas horas.",
    "Alta imediata do serviço, pois o paciente consciente após afogamento não apresenta qualquer risco posterior.",
+   "Observação hospitalar com oxigênio e reavaliação, pois a piora respiratória surge sempre em poucas horas.",
    "Administrar antibiótico profilático de rotina em todos os pacientes vítimas de afogamento em água doce.",
    "Realizar manobra de Heimlich em todos os pacientes resgatados de afogamento para retirar a água aspirada.",
    "Administrar corticoide sistêmico em dose alta de rotina em todos os casos de afogamento com hipoxemia."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -64,8 +64,8 @@
   "base": "Sociedade Brasileira de Salvamento Aquático — diretrizes de afogamento, revisão 2023; ILCOR/AHA drowning guidance, 2024",
   "coment": "O afogamento com sintomas respiratórios exige observação hospitalar, pois a lesão pulmonar pode progredir nas horas seguintes, com piora da hipoxemia e edema pulmonar. O tratamento é suporte com oxigênio, ventilação não invasiva ou intubação conforme a gravidade. Antibiótico profilático não é rotina, sendo reservado a água notoriamente contaminada ou a sinais de infecção. Corticoide não tem benefício, e a manobra de Heimlich está contraindicada por risco de aspiração.",
   "porAlt": [
-   "Correta: observação hospitalar com oxigênio, pois a piora respiratória surge nas horas seguintes.",
    "A alta imediata desconsidera a possibilidade de deterioração respiratória nas horas seguintes.",
+   "Correta: observação hospitalar com oxigênio, pois a piora respiratória surge nas horas seguintes.",
    "O antibiótico profilático de rotina não é indicado e seleciona resistência sem benefício claro.",
    "A manobra de Heimlich é contraindicada no afogamento e aumenta o risco de vômito e aspiração.",
    "O corticoide não demonstrou benefício na lesão pulmonar decorrente do afogamento."
@@ -74,13 +74,13 @@
  {
   "q": "Paciente com hipertermia de 41 °C após esforço físico em ambiente quente, com alteração de consciência. Qual é a conduta imediata?",
   "alts": [
-   "Resfriamento agressivo imediato com imersão, associado sempre a suporte e monitorização de complicações.",
    "Administrar apenas antitérmico oral e aguardar a queda espontânea da temperatura corporal do paciente.",
    "Resfriar lentamente ao longo de doze horas para evitar qualquer variação térmica brusca no paciente.",
    "Administrar apenas hidratação oral e liberar o paciente para casa após a melhora inicial dos sintomas.",
-   "Administrar corticoide sistêmico em dose alta como tratamento de escolha da hipertermia por esforço."
+   "Administrar corticoide sistêmico em dose alta como tratamento de escolha da hipertermia por esforço.",
+   "Resfriamento agressivo imediato com imersão, associado sempre a suporte e monitorização de complicações."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -88,23 +88,23 @@
   "base": "ACSM/Wilderness Medical Society guidance on exertional heat stroke, revisão 2023; NEJM review on heat stroke, 2022",
   "coment": "A intermação por esforço é emergência: a mortalidade depende diretamente do tempo em que a temperatura central permanece elevada. O tratamento é resfriamento agressivo imediato, sendo a imersão em água gelada o método mais eficaz, com alvo de temperatura central em torno de 38,5 a 39 °C. Antitérmicos são ineficazes, porque o mecanismo não é o ponto de ajuste hipotalâmico. Monitoram-se rabdomiólise, lesão renal, coagulopatia e disfunção hepática.",
   "porAlt": [
-   "Correta: resfriamento agressivo imediato com imersão, com suporte e vigilância de complicações.",
    "Antitérmicos são ineficazes na intermação, pois o mecanismo não envolve o ponto de ajuste hipotalâmico.",
    "Resfriar lentamente prolonga a exposição ao calor e aumenta diretamente a mortalidade do quadro.",
    "Liberar sem observação ignora as complicações que surgem nas horas seguintes ao evento.",
-   "O corticoide não tem papel no tratamento da hipertermia por esforço e atrasa o resfriamento."
+   "O corticoide não tem papel no tratamento da hipertermia por esforço e atrasa o resfriamento.",
+   "Correta: resfriamento agressivo imediato com imersão, com suporte e vigilância de complicações."
   ]
  },
  {
   "q": "Paciente em ventilação mecânica apresenta queda súbita de saturação, hipotensão e ausência de murmúrio à esquerda. Qual é a conduta?",
   "alts": [
-   "Descomprimir imediatamente o hemitórax acometido, pois o pneumotórax hipertensivo é diagnóstico sempre clínico.",
    "Aumentar a pressão positiva expiratória final para recrutar os alvéolos colapsados do lado acometido agora.",
    "Solicitar tomografia de tórax antes de qualquer intervenção sobre o quadro respiratório do paciente ventilado.",
    "Administrar apenas broncodilatador inalatório como primeira medida diante da queda súbita de saturação agora.",
+   "Descomprimir imediatamente o hemitórax acometido, pois o pneumotórax hipertensivo é diagnóstico sempre clínico.",
    "Aumentar a sedação do paciente como primeira medida diante do quadro descrito durante a ventilação mecânica."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
@@ -112,23 +112,23 @@
   "base": "ATLS 11ª edição, 2024; SCCM/ESICM guidance on mechanical ventilation complications, revisão 2023",
   "coment": "Em paciente ventilado, queda súbita de saturação com hipotensão e ausência de murmúrio unilateral sugere pneumotórax hipertensivo, complicação do barotrauma. O diagnóstico é clínico e a descompressão não deve aguardar imagem. Aumentar a pressão positiva expiratória final agrava o quadro ao insuflar mais o espaço pleural. A abordagem sistemática de deterioração no ventilador considera deslocamento do tubo, obstrução, pneumotórax e falha do equipamento.",
   "porAlt": [
-   "Correta: descompressão imediata do hemitórax, pois o pneumotórax hipertensivo é diagnóstico clínico.",
    "Aumentar a pressão expiratória final insufla ainda mais o pneumotórax e agrava o colapso circulatório.",
    "A tomografia atrasa uma intervenção que salva a vida em minutos no paciente instável.",
    "O broncodilatador não trata a compressão mecânica causada pelo ar no espaço pleural.",
+   "Correta: descompressão imediata do hemitórax, pois o pneumotórax hipertensivo é diagnóstico clínico.",
    "Aumentar a sedação mascara o quadro sem corrigir a causa mecânica da deterioração aguda."
   ]
  },
  {
   "q": "Paciente vítima de esmagamento prolongado de membro é liberado do escombro. Qual é a principal preocupação imediata?",
   "alts": [
-   "Hipercalemia com risco de arritmia, exigindo sempre hidratação precoce e monitorização eletrocardiográfica.",
    "Hipoglicemia grave isolada, principal complicação metabólica esperada após a liberação do membro esmagado.",
    "Hipernatremia refratária, complicação mais frequente e temida após a liberação de esmagamento prolongado.",
+   "Hipercalemia com risco de arritmia, exigindo sempre hidratação precoce e monitorização eletrocardiográfica.",
    "Alcalose metabólica grave, principal distúrbio associado à síndrome de esmagamento em vítimas soterradas.",
    "Hipocalemia grave, alteração eletrolítica característica que surge imediatamente após a liberação do membro."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -136,9 +136,9 @@
   "base": "Disaster medicine guidance on crush syndrome — WHO/ISN Renal Disaster Relief Task Force, revisão 2023; ATLS 11ª edição, 2024",
   "coment": "Na síndrome de esmagamento, a liberação do membro reperfunde o tecido lesado e libera na circulação potássio, fósforo, ácido úrico, mioglobina e ácido láctico, com risco de hipercalemia grave e parada cardíaca nos primeiros minutos. A conduta é iniciar hidratação vigorosa antes mesmo da liberação sempre que possível, monitorar o eletrocardiograma, tratar a hipercalemia com cálcio e medidas de deslocamento intracelular e prevenir lesão renal aguda.",
   "porAlt": [
-   "Correta: hipercalemia com risco de arritmia, exigindo hidratação precoce e monitorização eletrocardiográfica.",
    "A hipoglicemia não é a complicação característica da reperfusão do tecido muscular esmagado.",
    "A hipernatremia não é o distúrbio típico da síndrome de esmagamento após a liberação do membro.",
+   "Correta: hipercalemia com risco de arritmia, exigindo hidratação precoce e monitorização eletrocardiográfica.",
    "A síndrome de esmagamento cursa com acidose metabólica, e não com alcalose grave.",
    "A liberação do conteúdo intracelular causa hipercalemia, e não hipocalemia, no período imediato."
   ]
@@ -170,13 +170,13 @@
  {
   "q": "Paciente com bradicardia sintomática de 35 bpm, hipotensão e rebaixamento. Qual é a conduta imediata?",
   "alts": [
-   "Atropina endovenosa e preparo de marca-passo transcutâneo, iniciando sempre suporte enquanto se busca a causa.",
    "Aguardar a recuperação espontânea da frequência cardíaca antes de qualquer intervenção medicamentosa agora.",
    "Administrar betabloqueador endovenoso para estabilizar o ritmo cardíaco do paciente bradicárdico e hipotenso.",
    "Realizar cardioversão elétrica sincronizada imediata como primeira medida diante da bradicardia sintomática.",
+   "Atropina endovenosa e preparo de marca-passo transcutâneo, iniciando sempre suporte enquanto se busca a causa.",
    "Administrar apenas oxigênio suplementar e observar clinicamente por seis horas antes de qualquer conduta."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -184,23 +184,23 @@
   "base": "AHA Guidelines for CPR and ECC — Adult Bradycardia Algorithm, atualização 2025; ERC Guidelines, 2021",
   "coment": "Na bradicardia sintomática com instabilidade — hipotensão, alteração de consciência, dor torácica isquêmica ou sinais de choque —, a primeira medida farmacológica é atropina endovenosa, com preparo simultâneo de marca-passo transcutâneo e consideração de infusão de dopamina ou adrenalina. Enquanto isso, busca-se a causa: isquemia, hipercalemia, hipotermia, hipotireoidismo e fármacos como betabloqueador, bloqueador de canal de cálcio e digital.",
   "porAlt": [
-   "Correta: atropina endovenosa com preparo de marca-passo transcutâneo enquanto se busca a causa.",
    "Aguardar recuperação espontânea em paciente instável arrisca parada cardíaca por bradiarritmia.",
    "O betabloqueador agrava a bradicardia e é exatamente o oposto do que o paciente necessita.",
    "A cardioversão trata taquiarritmias e não tem qualquer papel no manejo da bradicardia sintomática.",
+   "Correta: atropina endovenosa com preparo de marca-passo transcutâneo enquanto se busca a causa.",
    "Oxigênio e observação por seis horas são insuficientes diante de instabilidade hemodinâmica."
   ]
  },
  {
   "q": "Paciente com dor abdominal súbita e intensa, abdome em tábua e pneumoperitônio na radiografia. Qual é a conduta?",
   "alts": [
-   "Antibiótico, ressuscitação volêmica e cirurgia de urgência, pois a perfuração exige sempre controle da fonte.",
    "Prescrever apenas analgésico e observar clinicamente a evolução do abdome agudo por vinte e quatro horas.",
    "Prescrever apenas antibiótico endovenoso, sem qualquer abordagem cirúrgica da perfuração identificada agora.",
    "Realizar apenas endoscopia digestiva alta de urgência como conduta definitiva diante do pneumoperitônio.",
-   "Solicitar tomografia com contraste oral antes de qualquer ressuscitação ou indicação cirúrgica do paciente."
+   "Solicitar tomografia com contraste oral antes de qualquer ressuscitação ou indicação cirúrgica do paciente.",
+   "Antibiótico, ressuscitação volêmica e cirurgia de urgência, pois a perfuração exige sempre controle da fonte."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -208,11 +208,11 @@
   "base": "WSES guidelines on perforated peptic ulcer and generalized peritonitis, revisão 2023; ATLS 11ª edição, 2024",
   "coment": "Pneumoperitônio com abdome em tábua indica perfuração de víscera oca e peritonite, exigindo abordagem imediata: ressuscitação volêmica, antibiótico de amplo espectro cobrindo gram-negativos e anaeróbios, analgesia, sonda nasogástrica e cirurgia de urgência para controle da fonte. O atraso aumenta de forma expressiva a mortalidade. Exames complementares não devem retardar a decisão cirúrgica quando o quadro clínico e a radiografia já são conclusivos.",
   "porAlt": [
-   "Correta: antibiótico, ressuscitação volêmica e cirurgia de urgência para o controle da fonte.",
    "Observar por vinte e quatro horas com peritonite estabelecida permite sepse e óbito evitável.",
    "O antibiótico isolado não resolve a perfuração e não substitui o controle cirúrgico da fonte.",
    "A endoscopia pode agravar a perfuração ao insuflar e não é conduta definitiva nesse quadro.",
-   "O contraste oral é contraindicado na suspeita de perfuração e apenas atrasaria a cirurgia."
+   "O contraste oral é contraindicado na suspeita de perfuração e apenas atrasaria a cirurgia.",
+   "Correta: antibiótico, ressuscitação volêmica e cirurgia de urgência para o controle da fonte."
   ]
  },
  {

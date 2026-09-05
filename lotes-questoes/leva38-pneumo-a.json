@@ -2,13 +2,13 @@
  {
   "q": "Mulher de 32 anos com asma usa apenas salbutamol de resgate, três a quatro vezes por semana, e acorda à noite duas vezes por mês. Segundo a estratégia vigente, qual é a conduta?",
   "alts": [
-   "Introduzir corticoide inalatório, pois nenhum paciente com asma deve usar só broncodilatador.",
    "Manter apenas o salbutamol de resgate, que é suficiente para essa frequência de sintomas.",
    "Iniciar corticoide oral contínuo em dose baixa como terapia de manutenção para essa paciente.",
    "Prescrever antileucotrieno isolado, primeira escolha de manutenção em qualquer degrau da asma.",
-   "Indicar imunobiológico desde já, independentemente do fenótipo inflamatório apresentado por ela."
+   "Indicar imunobiológico desde já, independentemente do fenótipo inflamatório apresentado por ela.",
+   "Introduzir corticoide inalatório, pois nenhum paciente com asma deve usar só broncodilatador."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -16,23 +16,23 @@
   "base": "GINA 2026 — Global Strategy for Asthma Management and Prevention",
   "coment": "A estratégia atual eliminou o tratamento apenas com broncodilatador de curta ação: todo adulto e adolescente com asma deve receber tratamento contendo corticoide inalatório, seja como manutenção diária, seja no esquema de anti-inflamatório de resgate com corticoide combinado a formoterol. O uso isolado de salbutamol aumenta exacerbações graves e mortalidade. A paciente descrita tem asma não controlada, com sintomas frequentes e despertares noturnos, o que reforça a introdução do corticoide inalatório.",
   "porAlt": [
-   "Correta: nenhum paciente deve ficar só com broncodilatador; o corticoide inalatório é obrigatório na asma.",
    "Manter só o salbutamol aumenta exacerbação grave e mortalidade, mesmo com sintomas aparentemente leves.",
    "O corticoide oral contínuo é reservado à asma grave refratária, pelo perfil de efeitos adversos.",
    "O antileucotrieno é alternativa de segunda linha e não substitui o corticoide inalatório na manutenção.",
-   "O imunobiológico é indicado na asma grave com fenótipo definido, após otimização do tratamento inalatório."
+   "O imunobiológico é indicado na asma grave com fenótipo definido, após otimização do tratamento inalatório.",
+   "Correta: nenhum paciente deve ficar só com broncodilatador; o corticoide inalatório é obrigatório na asma."
   ]
  },
  {
   "q": "Homem de 70 anos, ex-tabagista, tem dispneia progressiva e estertores em velcro nas bases. A tomografia mostra faveolamento subpleural com predomínio basal e bronquiectasias de tração. Qual é o padrão e a conduta?",
   "alts": [
-   "Padrão de pneumonia intersticial usual, com avaliação para antifibrótico e reabilitação pulmonar.",
    "Padrão de vidro fosco difuso, indicando corticoide em dose alta como tratamento de primeira linha.",
+   "Padrão de pneumonia intersticial usual, com avaliação para antifibrótico e reabilitação pulmonar.",
    "Padrão de consolidação alveolar, tratado com antimicrobiano de amplo espectro por catorze dias.",
    "Padrão de enfisema centrolobular, tratado exclusivamente com broncodilatador de longa duração.",
    "Padrão de nódulos centrolobulares, que indica biópsia cirúrgica imediata para todos os pacientes."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -40,8 +40,8 @@
   "base": "ATS/ERS/JRS/ALAT, 2022 — Idiopathic Pulmonary Fibrosis, diagnóstico e tratamento",
   "coment": "Faveolamento subpleural de predomínio basal com bronquiectasias de tração define o padrão de pneumonia intersticial usual, característico da fibrose pulmonar idiopática quando afastadas causas secundárias. O diagnóstico em padrão típico dispensa biópsia. O tratamento inclui antifibróticos, que reduzem a queda da função pulmonar, reabilitação pulmonar, oxigenoterapia quando indicada, tratamento de refluxo e avaliação precoce para transplante. Corticoide isolado não beneficia e pode piorar o desfecho nessa doença.",
   "porAlt": [
-   "Correta: faveolamento basal com bronquiectasias de tração é padrão de pneumonia intersticial usual; avaliar antifibrótico.",
    "Vidro fosco difuso sugere outras pneumopatias intersticiais, com abordagem e prognóstico distintos.",
+   "Correta: faveolamento basal com bronquiectasias de tração é padrão de pneumonia intersticial usual; avaliar antifibrótico.",
    "Consolidação alveolar sugere processo infeccioso ou inflamatório agudo, não a fibrose crônica descrita.",
    "O enfisema tem outro padrão tomográfico e não cursa com faveolamento nem bronquiectasias de tração.",
    "Nódulos centrolobulares sugerem doença de vias aéreas pequenas, e o padrão típico dispensa biópsia."
@@ -51,12 +51,12 @@
   "q": "Mulher de 45 anos tem tosse seca há dois meses, iniciada após quadro gripal, com radiografia e espirometria normais. Não usa inibidor da enzima conversora e não é tabagista. Quais são as três causas mais prováveis?",
   "alts": [
    "Tuberculose pulmonar, câncer de pulmão e bronquiectasia difusa não diagnosticada previamente neste caso.",
-   "Tosse variante de asma, refluxo gastroesofágico e síndrome de tosse de vias aéreas superiores dela.",
    "Insuficiência cardíaca, embolia pulmonar crônica e hipertensão arterial pulmonar idiopática neste caso.",
    "Fibrose cística, deficiência de alfa-1-antitripsina e discinesia ciliar primária do adulto neste caso.",
+   "Tosse variante de asma, refluxo gastroesofágico e síndrome de tosse de vias aéreas superiores dela.",
    "Sarcoidose pulmonar, pneumoconiose ocupacional e proteinose alveolar de início tardio neste caso."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -65,22 +65,22 @@
   "coment": "Na tosse crônica com radiografia normal, em não tabagista sem inibidor da enzima conversora, três causas respondem pela grande maioria dos casos: síndrome de tosse de vias aéreas superiores, antes chamada de gotejamento pós-nasal, asma na forma de tosse variante e doença do refluxo gastroesofágico. Podem coexistir. A abordagem é sequencial, com tratamento empírico dirigido a cada hipótese e reavaliação. A investigação ampla de saída raramente é necessária quando radiografia e espirometria são normais.",
   "porAlt": [
    "Essas hipóteses costumam alterar a radiografia e ganham peso diante de fatores de risco ausentes aqui.",
-   "Correta: vias aéreas superiores, asma variante de tosse e refluxo respondem pela maioria da tosse crônica.",
    "Causas cardiovasculares cursam com outros achados e não explicam tosse seca com exames normais.",
    "Essas doenças são raras, de início mais precoce e costumam ter alterações radiológicas evidentes.",
+   "Correta: vias aéreas superiores, asma variante de tosse e refluxo respondem pela maioria da tosse crônica.",
    "Doenças intersticiais e ocupacionais alteram a radiografia e a espirometria na maioria dos casos."
   ]
  },
  {
   "q": "Homem de 58 anos, tabagista, tem derrame pleural unilateral. A toracocentese mostra proteína no líquido sobre proteína sérica de 0,62 e desidrogenase láctica no líquido acima de dois terços do limite superior sérico. Como classificar e o que fazer?",
   "alts": [
-   "Exsudato pelos critérios de Light, que sempre exige investigação com citologia e culturas.",
    "Transudato, cuja conduta é apenas tratar a causa sistêmica sem qualquer investigação adicional.",
    "Quilotórax, definido pela relação de proteínas encontrada no líquido pleural deste paciente.",
    "Empiema, diagnosticado exclusivamente pela relação de desidrogenase láctica acima do corte.",
+   "Exsudato pelos critérios de Light, que sempre exige investigação com citologia e culturas.",
    "Hemotórax, cuja definição depende apenas dos critérios bioquímicos aplicados ao líquido obtido."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -88,10 +88,10 @@
   "base": "American Thoracic Society, 2023, e Harrison's, 22ª edição, 2025 — critérios de Light no derrame pleural",
   "coment": "Os critérios de Light definem exsudato quando pelo menos um está presente: relação de proteína no líquido sobre proteína sérica acima de 0,5, relação de desidrogenase láctica no líquido sobre a sérica acima de 0,6, ou desidrogenase láctica no líquido acima de dois terços do limite superior sérico. O paciente preenche dois. Exsudato exige investigação etiológica: citologia oncótica, citometria, bacterioscopia e culturas, adenosina deaminase quando há suspeita de tuberculose, glicose e pH quando se cogita derrame parapneumônico complicado.",
   "porAlt": [
-   "Correta: os critérios de Light definem exsudato, que exige investigação etiológica com citologia e culturas.",
    "O transudato exige que nenhum critério de Light esteja presente, o que não ocorre neste caso.",
    "Quilotórax é definido pela dosagem de triglicérides no líquido, e não pela relação de proteínas.",
    "Empiema é definido por pus, bacterioscopia positiva ou critérios específicos de pH e glicose.",
+   "Correta: os critérios de Light definem exsudato, que exige investigação etiológica com citologia e culturas.",
    "Hemotórax é definido pelo hematócrito do líquido comparado ao sérico, não por critérios de Light."
   ]
  },
@@ -99,12 +99,12 @@
   "q": "Mulher de 24 anos, alta e magra, chega com dor torácica súbita à direita e dispneia. O exame mostra murmúrio abolido e timpanismo à percussão, com traqueia centrada e pressão de 116/74 mmHg. Qual é a conduta?",
   "alts": [
    "Realizar punção de alívio imediata no segundo espaço intercostal antes de qualquer exame de imagem.",
-   "Solicitar tomografia de tórax com contraste e aguardar o resultado sem qualquer intervenção inicial.",
    "Confirmar sempre o pneumotórax com imagem e definir entre observação e drenagem pelo tamanho agora.",
+   "Solicitar tomografia de tórax com contraste e aguardar o resultado sem qualquer intervenção inicial.",
    "Prescrever apenas analgesia e alta, uma vez que o pneumotórax espontâneo sempre se resolve sozinho.",
    "Indicar toracotomia aberta de urgência, conduta padrão no primeiro episódio de pneumotórax espontâneo."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "urg",
@@ -113,8 +113,8 @@
   "coment": "O quadro sugere pneumotórax espontâneo primário, típico de jovens altos e magros. Sem sinais de hipertensão — desvio de traqueia, instabilidade, turgência jugular —, há tempo de confirmar por imagem e então decidir: pneumotórax pequeno em paciente pouco sintomático pode ser observado com oxigênio, enquanto os maiores ou sintomáticos recebem aspiração ou drenagem. A punção de alívio imediata sem imagem é reservada ao pneumotórax hipertensivo, em que a descompressão não pode esperar exame algum.",
   "porAlt": [
    "A punção imediata sem imagem se reserva ao pneumotórax hipertensivo, com instabilidade e desvio de traqueia.",
-   "A tomografia com contraste não é necessária e aguardar sem conduta atrasa o tratamento indicado.",
    "Correta: sem sinais de hipertensão, confirma-se por imagem e decide-se por tamanho e sintomas.",
+   "A tomografia com contraste não é necessária e aguardar sem conduta atrasa o tratamento indicado.",
    "Nem todo pneumotórax espontâneo se resolve sozinho; os maiores e sintomáticos exigem intervenção.",
    "A toracotomia aberta não é conduta de primeiro episódio; a abordagem inicial é bem menos invasiva."
   ]
@@ -122,13 +122,13 @@
  {
   "q": "Homem de 66 anos com DPOC grave tem saturação de 87% em ar ambiente em repouso, medida em duas ocasiões estáveis, com pressão parcial de oxigênio de 54 mmHg. Qual é a conduta que altera sobrevida?",
   "alts": [
+   "Oxigenoterapia domiciliar prolongada, por pelo menos quinze horas diárias, incluindo o período do sono.",
    "Corticoide oral contínuo em dose baixa, medida que comprovadamente prolonga a sobrevida na DPOC neste caso.",
    "Antibiótico profilático contínuo por tempo indeterminado, independentemente de exacerbações prévias.",
    "Broncodilatador de curta ação em série contínua ao longo do dia, dispensando o de longa duração neste caso.",
-   "Fisioterapia respiratória isolada, única intervenção com impacto demonstrado sobre a mortalidade neste caso.",
-   "Oxigenoterapia domiciliar prolongada, por pelo menos quinze horas diárias, incluindo o período do sono."
+   "Fisioterapia respiratória isolada, única intervenção com impacto demonstrado sobre a mortalidade neste caso."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -136,11 +136,11 @@
   "base": "GOLD 2026 — Global Strategy for Diagnosis, Management and Prevention of COPD, oxigenoterapia domiciliar",
   "coment": "Na DPOC, três intervenções alteram sobrevida: cessação do tabagismo, oxigenoterapia domiciliar prolongada em pacientes com hipoxemia grave e crônica, e cirurgia de redução de volume pulmonar em subgrupos selecionados. O critério clássico para o oxigênio é pressão parcial de oxigênio igual ou menor que 55 mmHg, ou saturação igual ou menor que 88%, em condições estáveis e medidas repetidas — ou valores um pouco mais altos na presença de cor pulmonale ou policitemia. A prescrição deve prever pelo menos quinze horas diárias.",
   "porAlt": [
+   "Correta: hipoxemia crônica grave indica oxigenoterapia domiciliar por pelo menos quinze horas por dia.",
    "O corticoide oral contínuo não prolonga sobrevida na DPOC e acumula efeitos adversos importantes.",
    "O antibiótico profilático é opção de exceção em exacerbadores, e não medida de sobrevida universal.",
    "O broncodilatador de curta ação é de resgate e não substitui a terapia inalatória de manutenção.",
-   "A fisioterapia e a reabilitação melhoram sintomas e capacidade funcional, mas não a sobrevida isoladamente.",
-   "Correta: hipoxemia crônica grave indica oxigenoterapia domiciliar por pelo menos quinze horas por dia."
+   "A fisioterapia e a reabilitação melhoram sintomas e capacidade funcional, mas não a sobrevida isoladamente."
   ]
  },
  {
@@ -194,13 +194,13 @@
  {
   "q": "Mulher de 38 anos apresenta tosse, dispneia e adenomegalia hilar bilateral simétrica na radiografia, com eritema nodoso em membros inferiores. A biópsia mostra granulomas não caseosos. Qual é o diagnóstico e a conduta inicial?",
   "alts": [
-   "Tuberculose ganglionar, já que exige esquema antituberculose de seis meses iniciado imediatamente.",
    "Sarcoidose, com observação em muitos casos e corticoide reservado ao acometimento significativo.",
+   "Tuberculose ganglionar, já que exige esquema antituberculose de seis meses iniciado imediatamente.",
    "Linfoma de Hodgkin, cujo diagnóstico é firmado pela presença de granulomas não caseosos à biópsia.",
    "Silicose aguda, definida pela combinação de adenomegalia hilar bilateral com eritema nodoso.",
    "Histoplasmose disseminada, que se apresenta caracteristicamente com granulomas não caseosos."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -208,8 +208,8 @@
   "base": "ATS/ERS/WASOG, 2020 — Diagnosis and Detection of Sarcoidosis; Harrison's, 22ª edição, 2025",
   "coment": "Adenomegalia hilar bilateral simétrica com eritema nodoso e granulomas não caseosos caracteriza sarcoidose, e a associação com febre e artrite compõe a síndrome de Löfgren, de bom prognóstico e frequentemente autolimitada. Muitos pacientes com doença em estágio inicial e assintomáticos são apenas observados, com corticoide reservado a acometimento pulmonar significativo, cardíaco, neurológico, ocular, hipercalcemia ou sintomas limitantes. Granuloma caseoso apontaria tuberculose, e a exclusão de micobactérias e fungos é obrigatória.",
   "porAlt": [
-   "A tuberculose ganglionar cursa com granuloma caseoso e adenomegalia geralmente assimétrica.",
    "Correta: o quadro é sarcoidose, com observação em muitos casos e corticoide conforme o acometimento.",
+   "A tuberculose ganglionar cursa com granuloma caseoso e adenomegalia geralmente assimétrica.",
    "O linfoma não cursa com granulomas não caseosos como achado diagnóstico característico.",
    "A silicose exige exposição ocupacional e tem padrão radiológico distinto do descrito no caso.",
    "A histoplasmose disseminada ocorre sobretudo em imunossuprimidos e tem apresentação diferente."
@@ -221,10 +221,10 @@
    "Modafinila isolada, tratamento de escolha para a sonolência da apneia obstrutiva grave do sono.",
    "Cirurgia de úvula e palato como primeira opção em todos os pacientes com apneia obstrutiva grave.",
    "Oxigênio noturno em baixo fluxo, medida que corrige os eventos obstrutivos durante o sono.",
-   "Pressão positiva contínua em via aérea, sempre associada a perda de peso e higiene do sono.",
-   "Benzodiazepínico noturno, que melhora a arquitetura do sono e reduz os eventos obstrutivos."
+   "Benzodiazepínico noturno, que melhora a arquitetura do sono e reduz os eventos obstrutivos.",
+   "Pressão positiva contínua em via aérea, sempre associada a perda de peso e higiene do sono."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -235,8 +235,8 @@
    "A modafinila trata sonolência residual em quem já usa pressão positiva, e não substitui o tratamento.",
    "A cirurgia é opção selecionada conforme anatomia, e não primeira escolha universal na apneia grave.",
    "O oxigênio noturno não corrige a obstrução de via aérea e pode prolongar os eventos apneicos.",
-   "Correta: a pressão positiva contínua é a primeira linha na apneia moderada a grave, com medidas comportamentais.",
-   "Benzodiazepínico relaxa a musculatura faríngea e agrava os eventos obstrutivos durante o sono."
+   "Benzodiazepínico relaxa a musculatura faríngea e agrava os eventos obstrutivos durante o sono.",
+   "Correta: a pressão positiva contínua é a primeira linha na apneia moderada a grave, com medidas comportamentais."
   ]
  }
 ]

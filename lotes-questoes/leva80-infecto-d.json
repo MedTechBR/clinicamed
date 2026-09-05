@@ -26,13 +26,13 @@
  {
   "q": "Paciente com abscesso cutâneo de 4 cm flutuante, sem sinais sistêmicos. Qual é a conduta?",
   "alts": [
-   "Drenagem cirúrgica do abscesso, considerando sempre antibiótico associado conforme o tamanho e o contexto.",
    "Apenas antibiótico oral sem qualquer drenagem do abscesso flutuante identificado ao exame físico agora.",
    "Apenas compressa morna domiciliar por trinta dias como tratamento definitivo do abscesso descrito agora já.",
    "Antibiótico endovenoso em ambiente hospitalar para todos os pacientes com abscesso cutâneo flutuante.",
-   "Corticoide sistêmico em dose alta como tratamento de escolha para o abscesso cutâneo flutuante descrito."
+   "Corticoide sistêmico em dose alta como tratamento de escolha para o abscesso cutâneo flutuante descrito.",
+   "Drenagem cirúrgica do abscesso, considerando sempre antibiótico associado conforme o tamanho e o contexto."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -40,23 +40,23 @@
   "base": "IDSA Practice Guidelines for Skin and Soft Tissue Infections, revisão 2023",
   "coment": "O tratamento do abscesso cutâneo é a drenagem, que é a intervenção essencial. Antibiótico sistêmico é acrescentado em abscessos maiores que dois centímetros, múltiplos, com celulite extensa associada, em imunossuprimidos, em áreas de difícil drenagem e diante de sinais sistêmicos, cobrindo Staphylococcus aureus incluindo cepas resistentes conforme a epidemiologia local. Antibiótico sem drenagem falha porque não penetra adequadamente na coleção.",
   "porAlt": [
-   "Correta: drenagem do abscesso, com antibiótico associado conforme o tamanho e o contexto clínico.",
    "O antibiótico isolado penetra mal na coleção e falha sem a drenagem da cavidade abscedada.",
    "Compressas mornas por trinta dias permitem progressão local e disseminação da infecção.",
    "O tratamento endovenoso hospitalar é desproporcional para abscesso sem sinais sistêmicos.",
-   "O corticoide não trata a infecção e favorece a disseminação do processo infeccioso local."
+   "O corticoide não trata a infecção e favorece a disseminação do processo infeccioso local.",
+   "Correta: drenagem do abscesso, com antibiótico associado conforme o tamanho e o contexto clínico."
   ]
  },
  {
   "q": "Paciente com esquistossomose e hipertensão portal com varizes esofágicas. Qual é a conduta?",
   "alts": [
-   "Tratar a infecção com praziquantel e conduzir sempre a hipertensão portal com profilaxia de sangramento.",
    "Tratar apenas com antibiótico de amplo espectro, sem qualquer fármaco específico contra o parasito.",
+   "Tratar a infecção com praziquantel e conduzir sempre a hipertensão portal com profilaxia de sangramento.",
    "Aguardar a resolução espontânea da infecção sem qualquer tratamento antiparasitário no paciente agora.",
    "Indicar transplante hepático imediato em todos os pacientes com esquistossomose e varizes esofágicas.",
    "Prescrever apenas dieta hipossódica como tratamento definitivo da hipertensão portal esquistossomótica."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -64,8 +64,8 @@
   "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de esquistossomose; OMS — Guideline on control and elimination of schistosomiasis, 2022",
   "coment": "A forma hepatoesplênica da esquistossomose causa fibrose de Symmers e hipertensão portal pré-sinusoidal, com função hepatocelular relativamente preservada, o que a distingue da cirrose. O tratamento antiparasitário com praziquantel é indicado mesmo na forma avançada, para interromper a deposição de ovos, e a hipertensão portal é conduzida com profilaxia de sangramento por betabloqueador ou ligadura elástica, além do tratamento do sangramento agudo.",
   "porAlt": [
-   "Correta: praziquantel para o parasito e manejo da hipertensão portal com profilaxia de sangramento.",
    "O antibiótico de amplo espectro não tem ação sobre o parasito responsável pela doença.",
+   "Correta: praziquantel para o parasito e manejo da hipertensão portal com profilaxia de sangramento.",
    "A infecção não se resolve espontaneamente e a deposição de ovos mantém a fibrose progressiva.",
    "O transplante é excepcional nessa forma, cuja função hepatocelular costuma estar preservada.",
    "A dieta hipossódica é adjuvante e não trata a hipertensão portal nem o risco de sangramento."
@@ -74,13 +74,13 @@
  {
   "q": "Paciente com suspeita de sepse de foco urinário e cultura mostrando bactéria multirresistente. Qual princípio orienta o ajuste?",
   "alts": [
-   "Descalonar ou ajustar conforme o antibiograma, mantendo sempre a menor duração eficaz do tratamento.",
    "Manter o esquema empírico de amplo espectro por tempo indefinido, mesmo após o resultado da cultura.",
    "Associar sempre quatro antibióticos diferentes em todos os casos de bactéria multirresistente identificada.",
+   "Descalonar ou ajustar conforme o antibiograma, mantendo sempre a menor duração eficaz do tratamento.",
    "Suspender toda antibioticoterapia assim que houver melhora clínica nas primeiras vinte e quatro horas.",
    "Escolher o antibiótico apenas pelo custo, sem qualquer consideração sobre o perfil de sensibilidade."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
@@ -88,9 +88,9 @@
   "base": "IDSA Guidance on Antimicrobial-Resistant Gram-Negative Infections, atualização 2024; ANVISA — programas de gerenciamento de antimicrobianos, 2023",
   "coment": "O gerenciamento de antimicrobianos orienta iniciar cobertura empírica adequada e, com o resultado da cultura, descalonar para o agente de menor espectro eficaz, ajustar dose pela função renal e pelo sítio, e definir a menor duração com evidência. Reduzir espectro e duração diminui resistência, toxicidade, custo e infecção por Clostridioides difficile, sem prejuízo de desfecho quando a fonte está controlada e a resposta clínica é adequada.",
   "porAlt": [
-   "Correta: descalonar ou ajustar pelo antibiograma, mantendo a menor duração eficaz do tratamento.",
    "Manter amplo espectro indefinidamente seleciona resistência e aumenta toxicidade e custo.",
    "Associar quatro antibióticos amplia toxicidade e interações sem benefício demonstrado.",
+   "Correta: descalonar ou ajustar pelo antibiograma, mantendo a menor duração eficaz do tratamento.",
    "Suspender em vinte e quatro horas subtrata a infecção e favorece recidiva com resistência.",
    "Escolher apenas pelo custo, ignorando a sensibilidade, resulta em falha terapêutica previsível."
   ]
@@ -122,13 +122,13 @@
  {
   "q": "Paciente imunossuprimido apresenta febre e infiltrado pulmonar com nódulos e sinal do halo na tomografia. Qual é a suspeita?",
   "alts": [
-   "Aspergilose pulmonar invasiva, cuja suspeita exige sempre início precoce de antifúngico e investigação dirigida.",
    "Pneumonia pneumocócica típica, definida por nódulos com sinal do halo em paciente imunossuprimido febril agora.",
    "Tuberculose pulmonar cavitária clássica, caracterizada por nódulos múltiplos com sinal do halo na tomografia.",
    "Edema pulmonar cardiogênico agudo, definido por nódulos pulmonares com sinal do halo à tomografia de tórax.",
-   "Sarcoidose pulmonar em atividade, quadro definido por febre com nódulos e sinal do halo em imunossuprimido."
+   "Sarcoidose pulmonar em atividade, quadro definido por febre com nódulos e sinal do halo em imunossuprimido.",
+   "Aspergilose pulmonar invasiva, cuja suspeita exige sempre início precoce de antifúngico e investigação dirigida."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "dx",
@@ -136,11 +136,11 @@
   "base": "IDSA Practice Guidelines for the Diagnosis and Management of Aspergillosis, revisão 2023; ECIL guidelines, 2023",
   "coment": "O sinal do halo — nódulo com halo de vidro fosco ao redor, correspondente a hemorragia perilesional — em paciente neutropênico ou imunossuprimido é altamente sugestivo de aspergilose pulmonar invasiva, sobretudo em fase precoce. A investigação inclui galactomanana sérica e em lavado broncoalveolar, cultura e tomografia seriada. O tratamento com voriconazol ou isavuconazol deve começar precocemente, pois o atraso aumenta muito a mortalidade.",
   "porAlt": [
-   "Correta: aspergilose pulmonar invasiva, com antifúngico precoce e investigação dirigida imediata.",
    "A pneumonia pneumocócica cursa com consolidação lobar, e não com nódulos e sinal do halo.",
    "A tuberculose cursa com cavitação e infiltrado apical, sem o sinal do halo característico descrito.",
    "O edema cardiogênico cursa com congestão difusa e derrame, e não com nódulos e halo.",
-   "A sarcoidose cursa com adenomegalia hilar e nódulos peribroncovasculares, sem esse padrão agudo."
+   "A sarcoidose cursa com adenomegalia hilar e nódulos peribroncovasculares, sem esse padrão agudo.",
+   "Correta: aspergilose pulmonar invasiva, com antifúngico precoce e investigação dirigida imediata."
   ]
  },
  {
@@ -170,13 +170,13 @@
  {
   "q": "Paciente com febre e petéquias de instalação rápida, com sinais de choque. Qual é a conduta imediata?",
   "alts": [
-   "Antibiótico endovenoso imediato com suporte, pois a suspeita de meningococcemia exige sempre tratamento sem demora.",
    "Aguardar a punção lombar e o resultado do líquor antes de qualquer administração de antibiótico ao paciente agora.",
    "Prescrever apenas antitérmico e observar clinicamente por doze horas antes de qualquer conduta adicional agora.",
+   "Antibiótico endovenoso imediato com suporte, pois a suspeita de meningococcemia exige sempre tratamento sem demora.",
    "Iniciar apenas corticoide sistêmico em dose alta, sem qualquer antibiótico no paciente com petéquias e choque.",
    "Solicitar hemograma e aguardar o resultado antes de iniciar qualquer antibiótico no paciente com choque agora."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
@@ -184,9 +184,9 @@
   "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de doença meningocócica; IDSA/ESCMID guidance, revisão 2023",
   "coment": "Febre com petéquias ou púrpura de instalação rápida e sinais de choque sugere meningococcemia, cuja letalidade é alta e a evolução é medida em horas. O antibiótico endovenoso — ceftriaxona — deve ser administrado imediatamente, sem aguardar punção lombar ou exames, junto de ressuscitação volêmica e suporte hemodinâmico. A doença é de notificação compulsória imediata e exige quimioprofilaxia dos contatos próximos com rifampicina ou ceftriaxona.",
   "porAlt": [
-   "Correta: antibiótico endovenoso imediato com suporte, pela suspeita de doença meningocócica invasiva.",
    "Aguardar a punção lombar atrasa em horas um antibiótico que define a sobrevida do paciente.",
    "Observar por doze horas nesse quadro permite evolução para choque refratário e óbito.",
+   "Correta: antibiótico endovenoso imediato com suporte, pela suspeita de doença meningocócica invasiva.",
    "O corticoide é adjuvante em situações específicas e nunca substitui o antibiótico nessa doença.",
    "Aguardar o hemograma atrasa o tratamento de uma emergência infecciosa de evolução muito rápida."
   ]
@@ -194,13 +194,13 @@
  {
   "q": "Paciente será submetido a esplenectomia eletiva. Qual é a conduta preventiva?",
   "alts": [
-   "Vacinar contra germes encapsulados antes da cirurgia, orientando sempre conduta diante de febre no seguimento.",
    "Não realizar qualquer vacinação, pois a esplenectomia não aumenta o risco de infecção grave no paciente agora.",
+   "Vacinar contra germes encapsulados antes da cirurgia, orientando sempre conduta diante de febre no seguimento.",
    "Vacinar apenas após um ano da cirurgia, pois a vacinação prévia não confere qualquer proteção adicional agora.",
    "Prescrever apenas antibiótico profilático contínuo, dispensando qualquer imunização antes do procedimento.",
    "Vacinar apenas contra influenza, única vacina indicada para pacientes submetidos a esplenectomia eletiva."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "prev",
@@ -208,8 +208,8 @@
   "base": "Ministério da Saúde — Manual dos Centros de Referência para Imunobiológicos Especiais, 2023; IDSA guidance on asplenia, revisão 2023",
   "coment": "O paciente asplênico tem risco elevado de sepse fulminante por germes encapsulados, sobretudo pneumococo, meningococo e Haemophilus influenzae tipo b. Na esplenectomia eletiva, as vacinas devem ser aplicadas pelo menos duas semanas antes do procedimento, com reforços conforme o calendário do centro de imunobiológicos especiais. Orienta-se ainda vacinação anual contra influenza, conduta imediata diante de febre e, em grupos selecionados, antibiótico profilático.",
   "porAlt": [
-   "Correta: vacinar contra germes encapsulados antes da cirurgia e orientar conduta diante de febre.",
    "A asplenia aumenta muito o risco de sepse fulminante por bactérias encapsuladas no paciente.",
+   "Correta: vacinar contra germes encapsulados antes da cirurgia e orientar conduta diante de febre.",
    "Adiar a vacinação por um ano deixa o paciente desprotegido no período de maior vulnerabilidade.",
    "O antibiótico profilático é complementar em grupos selecionados e não substitui a imunização.",
    "Além da influenza, são indicadas vacinas contra pneumococo, meningococo e Haemophilus tipo b."
@@ -218,13 +218,13 @@
  {
   "q": "Paciente com diarreia aguda aquosa sem febre e sem sangue, há dois dias, sem sinais de desidratação grave. Qual é a conduta?",
   "alts": [
-   "Hidratação oral e orientação alimentar, reservando sempre o antibiótico a situações específicas e definidas.",
    "Antibiótico de amplo espectro para todos os pacientes com diarreia aguda atendidos no serviço de saúde.",
    "Solicitar coprocultura de rotina em todos os casos de diarreia aguda aquosa sem febre e sem sangue agora já.",
+   "Hidratação oral e orientação alimentar, reservando sempre o antibiótico a situações específicas e definidas.",
    "Prescrever antiparasitário empírico em todos os casos de diarreia aguda com duração de dois dias agora.",
    "Indicar internação hospitalar para hidratação endovenosa em todos os casos de diarreia aguda aquosa agora."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -232,9 +232,9 @@
   "base": "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea, revisão 2023; Ministério da Saúde — manejo da diarreia aguda, 2022",
   "coment": "A diarreia aguda aquosa sem febre e sem sangue é geralmente viral e autolimitada, e o tratamento é hidratação oral com solução de reidratação, manutenção da alimentação e orientação sobre sinais de alarme. Antibiótico se reserva a disenteria com febre alta, suspeita de cólera, diarreia do viajante moderada a grave, imunossupressão e sepse. Coprocultura é indicada em disenteria, febre, imunossupressão, quadro prolongado ou surto sob investigação.",
   "porAlt": [
-   "Correta: hidratação oral e orientação alimentar, com antibiótico restrito a situações específicas.",
    "O antibiótico universal é desnecessário, seleciona resistência e pode prolongar o estado de portador.",
    "A coprocultura de rotina tem baixo rendimento na diarreia aquosa autolimitada sem sinais de alarme.",
+   "Correta: hidratação oral e orientação alimentar, com antibiótico restrito a situações específicas.",
    "O antiparasitário empírico não é indicado em diarreia aguda de dois dias sem fatores de risco.",
    "A internação se reserva à desidratação grave ou à intolerância à hidratação por via oral."
   ]

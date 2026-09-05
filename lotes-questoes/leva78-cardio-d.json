@@ -2,13 +2,13 @@
  {
   "q": "Paciente assintomático apresenta bloqueio atrioventricular de segundo grau Mobitz II no eletrocardiograma. Qual é a conduta?",
   "alts": [
-   "Encaminhar para avaliação de marca-passo definitivo, pois esse bloqueio evolui sempre com risco de progressão.",
    "Apenas observação clínica anual sem qualquer avaliação de indicação de dispositivo de estimulação cardíaca.",
    "Prescrever atropina de uso oral contínuo como tratamento definitivo do bloqueio atrioventricular descrito.",
    "Iniciar betabloqueador em dose plena para regularizar a condução atrioventricular observada no exame agora.",
+   "Encaminhar para avaliação de marca-passo definitivo, pois esse bloqueio evolui sempre com risco de progressão.",
    "Indicar ablação por cateter imediatamente em todos os pacientes com esse padrão de bloqueio no exame agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -16,23 +16,23 @@
   "base": "ESC Guidelines on cardiac pacing and cardiac resynchronization therapy, 2021; Diretriz Brasileira de Dispositivos Cardíacos Eletrônicos — SBC, 2023",
   "coment": "O bloqueio atrioventricular de segundo grau Mobitz II tem lesão infra-hisiana, com alto risco de progressão para bloqueio total e assistolia, e é indicação de marca-passo definitivo mesmo em paciente assintomático. O mesmo vale para bloqueio total adquirido e para bloqueio de segundo grau avançado. Já o Mobitz I com QRS estreito costuma ser suprahisiano, benigno e só tratado quando sintomático.",
   "porAlt": [
-   "Correta: o Mobitz II tem lesão infra-hisiana e indica marca-passo definitivo mesmo sem sintomas.",
    "Apenas observar deixa o paciente sob risco de progressão para bloqueio total e assistolia.",
    "A atropina não tem apresentação oral de uso contínuo e não atua em bloqueio infra-hisiano.",
    "O betabloqueador agrava a condução atrioventricular e piora diretamente o bloqueio existente.",
+   "Correta: o Mobitz II tem lesão infra-hisiana e indica marca-passo definitivo mesmo sem sintomas.",
    "A ablação trata taquiarritmias e não corrige um distúrbio de condução atrioventricular."
   ]
  },
  {
   "q": "Paciente com dor torácica em repouso, eletrocardiograma normal e troponina de alta sensibilidade indetectável na chegada e após uma hora. Qual é a conduta?",
   "alts": [
-   "Considerar baixa probabilidade de infarto e prosseguir a avaliação ambulatorial, buscando sempre causas alternativas.",
    "Internar em unidade coronariana todos os pacientes com dor torácica, independentemente de troponina e eletrocardiograma.",
    "Iniciar trombólise empírica em todos os pacientes com dor torácica em repouso e eletrocardiograma normal neste caso.",
+   "Considerar baixa probabilidade de infarto e prosseguir a avaliação ambulatorial, buscando sempre causas alternativas.",
    "Indicar cateterismo de urgência em todos os casos com troponina indetectável e eletrocardiograma normal neste caso.",
    "Prescrever apenas ansiolítico e liberar sem qualquer investigação de causas alternativas para a dor torácica agora."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
@@ -40,9 +40,9 @@
   "base": "ESC Guidelines for the management of acute coronary syndromes, 2023; algoritmo 0/1 hora de troponina de alta sensibilidade",
   "coment": "O algoritmo de zero e uma hora com troponina de alta sensibilidade permite descartar infarto com alto valor preditivo negativo quando os valores estão muito baixos e sem variação, em paciente com eletrocardiograma normal e sem instabilidade. Isso libera o paciente da internação e direciona a investigação ambulatorial, incluindo avaliação de doença coronariana crônica e causas não cardíacas, como refluxo, dor musculoesquelética e ansiedade.",
   "porAlt": [
-   "Correta: baixa probabilidade de infarto pelo protocolo, com investigação ambulatorial das causas alternativas.",
    "Internar todos indistintamente ocupa leitos sem benefício e expõe a exames e riscos desnecessários.",
    "A trombólise empírica sem evidência de infarto expõe a hemorragia grave sem qualquer benefício.",
+   "Correta: baixa probabilidade de infarto pelo protocolo, com investigação ambulatorial das causas alternativas.",
    "O cateterismo de urgência não é indicado com marcadores negativos e eletrocardiograma normal.",
    "Liberar sem investigar causas alternativas deixa o paciente sem diagnóstico e sem tratamento."
   ]
@@ -50,13 +50,13 @@
  {
   "q": "Paciente com cardiomiopatia hipertrófica e história familiar de morte súbita. Qual é a principal avaliação a ser feita?",
   "alts": [
-   "Estratificar o risco de morte súbita e avaliar desfibrilador implantável, restringindo sempre esportes competitivos.",
    "Liberar atividade física competitiva sem qualquer restrição após o início do tratamento medicamentoso indicado.",
    "Iniciar apenas diurético em dose alta como tratamento definitivo da cardiomiopatia hipertrófica descrita agora.",
    "Indicar transplante cardíaco imediato para todos os pacientes com cardiomiopatia hipertrófica diagnosticada agora.",
+   "Estratificar o risco de morte súbita e avaliar desfibrilador implantável, restringindo sempre esportes competitivos.",
    "Iniciar anticoagulação plena em todos os pacientes com cardiomiopatia hipertrófica em ritmo sinusal neste caso."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -64,23 +64,23 @@
   "base": "ESC Guidelines for the management of cardiomyopathies, 2023; AHA/ACC Guideline for hypertrophic cardiomyopathy, 2024",
   "coment": "Na cardiomiopatia hipertrófica, a prioridade é estratificar o risco de morte súbita, considerando história familiar de morte súbita precoce, síncope inexplicada, espessura parietal máxima, taquicardia ventricular não sustentada, resposta pressórica anormal ao exercício e realce tardio na ressonância. Escores como o europeu orientam a indicação de desfibrilador implantável. Recomenda-se evitar esportes competitivos de alta intensidade e rastrear familiares de primeiro grau.",
   "porAlt": [
-   "Correta: estratificar o risco de morte súbita, avaliar desfibrilador e restringir esporte competitivo.",
    "Liberar esporte competitivo de alta intensidade aumenta o risco de morte súbita nesses pacientes.",
    "O diurético em dose alta pode reduzir a pré-carga e agravar a obstrução na via de saída.",
    "O transplante se reserva a doença avançada e refratária, e não a todo paciente diagnosticado.",
+   "Correta: estratificar o risco de morte súbita, avaliar desfibrilador e restringir esporte competitivo.",
    "A anticoagulação é indicada quando há fibrilação atrial, e não em todos os pacientes em ritmo sinusal."
   ]
  },
  {
   "q": "Paciente diabético apresenta infarto agudo do miocárdio sem dor torácica, com dispneia e sudorese. Qual é a implicação clínica?",
   "alts": [
-   "A apresentação atípica é frequente no diabético, exigindo sempre limiar baixo para eletrocardiograma e troponina.",
    "A ausência de dor torácica descarta infarto em pacientes diabéticos, dispensando exames complementares agora.",
    "O diabetes protege o miocárdio e reduz a gravidade do infarto quando ele ocorre sem dor torácica neste caso.",
    "A dispneia isolada em diabéticos sempre indica causa pulmonar e nunca isquemia miocárdica aguda nesse contexto.",
+   "A apresentação atípica é frequente no diabético, exigindo sempre limiar baixo para eletrocardiograma e troponina.",
    "O infarto sem dor tem melhor prognóstico e dispensa qualquer estratégia de reperfusão no diabético neste caso."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
@@ -88,23 +88,23 @@
   "base": "ESC Guidelines for the management of acute coronary syndromes, 2023; Diretriz Brasileira de SCA — SBC, 2021",
   "coment": "Diabéticos, idosos, mulheres e pacientes com doença renal crônica frequentemente têm apresentação atípica do infarto, com dispneia, sudorese, náusea, síncope, mal-estar ou apenas descompensação glicêmica, em parte pela neuropatia autonômica. Esse grupo tem maior atraso no diagnóstico e pior prognóstico, o que justifica limiar baixo para eletrocardiograma e troponina diante de qualquer sintoma sugestivo, mesmo sem dor torácica típica.",
   "porAlt": [
-   "Correta: apresentação atípica é frequente no diabético e exige limiar baixo para investigar isquemia.",
    "A ausência de dor não descarta infarto, sendo justamente o padrão que atrasa o diagnóstico.",
    "O diabetes agrava o prognóstico do infarto e não confere qualquer proteção ao miocárdio.",
    "A dispneia em diabético pode ser equivalente anginoso e exige investigação de isquemia.",
+   "Correta: apresentação atípica é frequente no diabético e exige limiar baixo para investigar isquemia.",
    "O infarto silencioso tem pior prognóstico e a reperfusão segue indicada conforme o quadro."
   ]
  },
  {
   "q": "Paciente com síncope precedida de calor, náusea e visão turva, em ambiente quente, com recuperação rápida e completa. Qual é a conduta?",
   "alts": [
-   "Orientar medidas comportamentais e manobras de contrapressão, dispensando sempre investigação invasiva adicional.",
    "Internar em unidade coronariana todos os pacientes com esse tipo de síncope para monitorização prolongada agora.",
    "Implantar marca-passo definitivo em todos os pacientes com síncope de características vasovagais típicas agora.",
    "Iniciar betabloqueador em dose plena como tratamento de primeira escolha na síncope vasovagal descrita agora.",
-   "Solicitar cateterismo cardíaco de urgência em todos os pacientes com síncope de qualquer etiologia neste caso."
+   "Solicitar cateterismo cardíaco de urgência em todos os pacientes com síncope de qualquer etiologia neste caso.",
+   "Orientar medidas comportamentais e manobras de contrapressão, dispensando sempre investigação invasiva adicional."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -112,11 +112,11 @@
   "base": "ESC Guidelines for the diagnosis and management of syncope, 2018 com revisão 2023",
   "coment": "A síncope vasovagal tem pródromos característicos — calor, náusea, sudorese, visão turva —, gatilho identificável como calor, dor, ortostase prolongada ou emoção, e recuperação rápida e completa. O manejo é educação sobre a natureza benigna, reconhecimento dos pródromos, hidratação e sal adequados, manobras de contrapressão isométrica e evitar gatilhos. Investigação adicional se reserva a características de alarme, como síncope ao esforço ou cardiopatia estrutural.",
   "porAlt": [
-   "Correta: medidas comportamentais e manobras de contrapressão, sem necessidade de investigação invasiva.",
    "A internação não é necessária diante de síncope vasovagal típica sem sinais de alarme.",
    "O marca-passo é considerado apenas em casos muito selecionados de síncope com assistolia documentada.",
    "O betabloqueador não demonstrou benefício consistente na síncope vasovagal em ensaios clínicos.",
-   "O cateterismo não tem indicação diante de quadro clássico de síncope neuromediada benigna."
+   "O cateterismo não tem indicação diante de quadro clássico de síncope neuromediada benigna.",
+   "Correta: medidas comportamentais e manobras de contrapressão, sem necessidade de investigação invasiva."
   ]
  },
  {
@@ -146,13 +146,13 @@
  {
   "q": "Paciente com trombose de veia profunda em membro inferior e contraindicação absoluta à anticoagulação. Qual é a conduta?",
   "alts": [
-   "Considerar filtro de veia cava temporário, retomando sempre a anticoagulação assim que possível agora.",
    "Manter apenas observação clínica sem qualquer medida de prevenção de embolia pulmonar no paciente.",
+   "Considerar filtro de veia cava temporário, retomando sempre a anticoagulação assim que possível agora.",
    "Iniciar anticoagulação plena mesmo diante da contraindicação absoluta identificada na avaliação clínica.",
    "Indicar amputação do membro acometido como alternativa à anticoagulação nesse paciente com trombose.",
    "Prescrever apenas antiagregante plaquetário, que substitui com eficácia equivalente a anticoagulação plena."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "enf",
   "comp": "tto",
@@ -160,8 +160,8 @@
   "base": "ASH guidelines for management of venous thromboembolism, 2020; CHEST Guideline and Expert Panel Report, atualização 2021",
   "coment": "O filtro de veia cava é indicado em tromboembolismo venoso agudo com contraindicação absoluta à anticoagulação, como sangramento ativo grave. Preferem-se filtros removíveis, com retirada programada, porque a permanência prolongada aumenta trombose do próprio filtro e recorrência de trombose venosa profunda. A anticoagulação deve ser iniciada assim que a contraindicação for resolvida, e o filtro retirado na sequência.",
   "porAlt": [
-   "Correta: filtro de veia cava temporário, com retomada da anticoagulação assim que for possível.",
    "Não oferecer qualquer proteção expõe o paciente a embolia pulmonar potencialmente fatal.",
+   "Correta: filtro de veia cava temporário, com retomada da anticoagulação assim que for possível.",
    "Anticoagular com contraindicação absoluta pode causar hemorragia grave e óbito do paciente.",
    "A amputação não tem qualquer relação com a prevenção de embolia pulmonar nesse contexto.",
    "O antiagregante não substitui a anticoagulação no tratamento do tromboembolismo venoso agudo."
@@ -170,13 +170,13 @@
  {
   "q": "Paciente com prótese valvar mecânica em posição mitral pergunta sobre anticoagulação. Qual é a orientação?",
   "alts": [
-   "Anticoagulação com antagonista da vitamina K por tempo indeterminado, com alvo de INR sempre definido pela prótese.",
    "Anticoagulante oral direto como primeira escolha para todos os pacientes com prótese valvar mecânica neste caso.",
    "Apenas antiagregante plaquetário isolado, suficiente para prevenir trombose em prótese valvar mecânica neste caso.",
+   "Anticoagulação com antagonista da vitamina K por tempo indeterminado, com alvo de INR sempre definido pela prótese.",
    "Anticoagulação apenas nos primeiros três meses após a cirurgia, com suspensão programada depois disso neste caso.",
    "Nenhuma anticoagulação enquanto o paciente permanecer assintomático e em ritmo sinusal após a cirurgia neste caso."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -184,9 +184,9 @@
   "base": "ESC/EACTS Guidelines for the management of valvular heart disease, 2021; ACC/AHA Valvular Heart Disease Guideline, 2020",
   "coment": "Prótese valvar mecânica exige anticoagulação com antagonista da vitamina K por toda a vida, com alvo de INR definido pela posição e pelo tipo da prótese e pelos fatores de risco associados, sendo mais elevado na posição mitral do que na aórtica. Os anticoagulantes orais diretos são formalmente contraindicados nessa indicação, pois ensaio clínico mostrou aumento de eventos tromboembólicos e hemorrágicos, levando à interrupção precoce do estudo.",
   "porAlt": [
-   "Correta: antagonista da vitamina K por tempo indeterminado, com alvo de INR definido pela prótese.",
    "Os anticoagulantes diretos são contraindicados em prótese mecânica por aumento de eventos graves.",
    "O antiagregante isolado não previne trombose de prótese mecânica e não substitui a anticoagulação.",
+   "Correta: antagonista da vitamina K por tempo indeterminado, com alvo de INR definido pela prótese.",
    "A anticoagulação em prótese mecânica é permanente e não se limita ao período pós-operatório.",
    "O risco de trombose de prótese independe de sintomas e persiste mesmo em ritmo sinusal."
   ]
@@ -194,13 +194,13 @@
  {
   "q": "Paciente com hipertensão e microalbuminúria, sem diabetes. Qual é a classe anti-hipertensiva preferencial?",
   "alts": [
-   "Inibidor da enzima conversora ou bloqueador do receptor de angiotensina, pelo efeito antiproteinúrico sempre presente.",
    "Diurético tiazídico isolado como classe preferencial pelo efeito antiproteinúrico superior nesse perfil neste caso.",
+   "Inibidor da enzima conversora ou bloqueador do receptor de angiotensina, pelo efeito antiproteinúrico sempre presente.",
    "Betabloqueador isolado como classe de primeira escolha para o paciente hipertenso com microalbuminúria neste caso.",
    "Bloqueador de canal de cálcio di-hidropiridínico isolado pelo efeito antiproteinúrico superior às demais classes.",
    "Alfabloqueador isolado como classe preferencial no paciente hipertenso com microalbuminúria persistente neste caso."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -208,8 +208,8 @@
   "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; KDIGO Chronic Kidney Disease Guideline, 2024",
   "coment": "Na presença de albuminúria, os bloqueadores do sistema renina-angiotensina são preferidos por reduzirem a proteinúria e a progressão da doença renal além do efeito puramente pressórico, atuando na pressão intraglomerular por dilatação da arteríola eferente. Monitoram-se creatinina e potássio após o início, e elevação de creatinina de até trinta por cento é esperada e não indica suspensão. Não se associam inibidor da enzima conversora e bloqueador do receptor.",
   "porAlt": [
-   "Correta: bloqueio do sistema renina-angiotensina, pelo efeito antiproteinúrico além do pressórico.",
    "O tiazídico controla pressão, mas não tem o efeito antiproteinúrico específico dessa indicação.",
+   "Correta: bloqueio do sistema renina-angiotensina, pelo efeito antiproteinúrico além do pressórico.",
    "O betabloqueador não é primeira linha na hipertensão sem indicação cardíaca específica associada.",
    "O bloqueador de canal de cálcio di-hidropiridínico pode até aumentar a proteinúria isoladamente.",
    "O alfabloqueador não é primeira linha e se reserva a indicações específicas, como sintomas prostáticos."
@@ -218,13 +218,13 @@
  {
   "q": "Paciente com síndrome coronariana crônica estável, sintomático apesar de terapia otimizada e com lesão de tronco de coronária esquerda. Qual é a conduta?",
   "alts": [
-   "Encaminhar para revascularização, pois a lesão de tronco tem sempre indicação de tratamento invasivo.",
    "Manter apenas tratamento clínico otimizado indefinidamente, sem qualquer avaliação de revascularização.",
    "Iniciar anticoagulação plena como tratamento de escolha para a lesão de tronco de coronária esquerda.",
+   "Encaminhar para revascularização, pois a lesão de tronco tem sempre indicação de tratamento invasivo.",
    "Indicar apenas reabilitação cardíaca isolada como tratamento definitivo da lesão coronariana descrita.",
    "Aumentar indefinidamente a dose do nitrato como única estratégia terapêutica nesse paciente sintomático."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -232,9 +232,9 @@
   "base": "ESC Guidelines for the management of chronic coronary syndromes, 2024; ACC/AHA/SCAI Guideline for Coronary Artery Revascularization, 2021",
   "coment": "A lesão significativa de tronco de coronária esquerda tem indicação de revascularização por prognóstico, independentemente dos sintomas, sendo a escolha entre cirurgia de revascularização e angioplastia definida por anatomia, escore SYNTAX, diabetes, função ventricular, risco cirúrgico e preferência do paciente, idealmente decidida por equipe multidisciplinar. Outras indicações prognósticas incluem doença triarterial com disfunção ventricular e isquemia extensa.",
   "porAlt": [
-   "Correta: lesão de tronco de coronária esquerda tem indicação de revascularização por prognóstico.",
    "Manter apenas tratamento clínico em lesão de tronco significativa desperdiça benefício de sobrevida.",
    "A anticoagulação não trata a obstrução coronariana e aumenta o risco hemorrágico do paciente.",
+   "Correta: lesão de tronco de coronária esquerda tem indicação de revascularização por prognóstico.",
    "A reabilitação é parte fundamental do cuidado, mas não substitui a revascularização indicada.",
    "Aumentar nitrato indefinidamente gera tolerância e não resolve a obstrução anatômica existente."
   ]

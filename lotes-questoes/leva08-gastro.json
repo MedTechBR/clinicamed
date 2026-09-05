@@ -4,11 +4,11 @@
   "alts": [
    "Não tratar e repetir a endoscopia em dois anos, já que sem varizes não há o que prevenir agora.",
    "Indicar ligadura elástica profilática, procedimento que dispensa a terapia farmacológica dele.",
-   "Iniciar carvedilol, indicado na hipertensão portal clinicamente significativa mesmo sem varizes.",
    "Iniciar propranolol quando surgirem varizes de médio calibre na próxima endoscopia de controle.",
+   "Iniciar carvedilol, indicado na hipertensão portal clinicamente significativa mesmo sem varizes.",
    "Solicitar medida direta do gradiente de pressão venosa hepática antes de qualquer intervenção."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
@@ -18,8 +18,8 @@
   "porAlt": [
    "Esperar a variz aparecer desperdiça a fase em que o betabloqueador previne ascite e outras descompensações, não apenas o sangramento.",
    "A ligadura profilática se aplica a varizes de risco já existentes, e este paciente sequer tem varizes na endoscopia recente.",
-   "Correta: elastografia acima de 20 a 25 kPa com plaquetopenia presume hipertensão portal significativa, e o carvedilol previne descompensação.",
    "Amarrar o tratamento ao calibre da variz é a lógica anterior ao consenso, que passou a tratar a hipertensão portal em si.",
+   "Correta: elastografia acima de 20 a 25 kPa com plaquetopenia presume hipertensão portal significativa, e o carvedilol previne descompensação.",
    "A medida do gradiente é invasiva e dispensável quando os critérios não invasivos já bastam para presumir o diagnóstico."
   ]
  },
@@ -27,12 +27,12 @@
   "q": "Mulher de 61 anos com cirrose alcoólica teve hemorragia digestiva por varizes esofágicas, tratada com ligadura elástica e vasoconstritor esplâncnico, com controle do sangramento. Está estável, sem ascite volumosa, com pressão de 118/72 mmHg e frequência de 76 bpm. Qual é a profilaxia secundária indicada na alta?",
   "alts": [
    "Somente inibidor de bomba de prótons em dose dobrada, por tempo indefinido após a alta.",
-   "Betabloqueador não seletivo somado à ligadura seriada até erradicar todas as varizes.",
    "Manter só a ligadura elástica, sem betabloqueador, preservando a perfusão hepática.",
+   "Betabloqueador não seletivo somado à ligadura seriada até erradicar todas as varizes.",
    "Anastomose portossistêmica intra-hepática eletiva logo após o primeiro sangramento.",
    "Betabloqueador isolado, dispensando quaisquer novas sessões endoscópicas adiante."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
@@ -41,8 +41,8 @@
   "coment": "Depois de um episódio de hemorragia varicosa, o risco de ressangramento sem profilaxia chega a 60% em um ano, com mortalidade alta. A primeira linha da profilaxia secundária é a terapia combinada: betabloqueador não seletivo, com preferência ao carvedilol pela maior redução da pressão portal, somado a sessões de ligadura elástica até a erradicação das varizes. Nenhuma das duas isolada iguala a combinação. O inibidor de bomba tem papel limitado no pós-ligadura, para úlcera da banda, e não previne ressangramento varicoso. A derivação portossistêmica fica reservada a falha da profilaxia combinada ou a critérios de alto risco definidos.",
   "porAlt": [
    "O inibidor de bomba não previne ressangramento varicoso; seu papel se restringe à úlcera pós-ligadura e por período curto.",
-   "Correta: a primeira linha é a combinação de betabloqueador não seletivo com ligadura elástica seriada até erradicar as varizes.",
    "A ligadura isolada é inferior à combinação, porque não reduz a pressão portal que gera as varizes que voltarão a se formar.",
+   "Correta: a primeira linha é a combinação de betabloqueador não seletivo com ligadura elástica seriada até erradicar as varizes.",
    "A derivação eletiva não é conduta universal após o primeiro episódio: fica para falha da profilaxia ou critérios de alto risco.",
    "O betabloqueador isolado deixa de erradicar as varizes existentes e é inferior à combinação na prevenção de novo sangramento."
   ]
@@ -76,11 +76,11 @@
   "alts": [
    "Furosemida endovenosa em dose alta, para acelerar a resolução da ascite da paciente.",
    "Paracentese de alívio diária até secar completamente a ascite ao longo da internação atual.",
+   "Albumina endovenosa, 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro dia de tratamento.",
    "Betabloqueador não seletivo em dose plena iniciado no mesmo dia do diagnóstico da infecção.",
-   "Restrição hídrica intensa, limitando a oferta a menos de 500 mL em vinte e quatro horas.",
-   "Albumina endovenosa, 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro dia de tratamento."
+   "Restrição hídrica intensa, limitando a oferta a menos de 500 mL em vinte e quatro horas."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
@@ -90,9 +90,9 @@
   "porAlt": [
    "Diurético em dose alta durante infecção com creatinina elevada precipita injúria renal; o correto costuma ser suspender, não intensificar.",
    "Paracentese de repetição não trata a infecção e a retirada agressiva de volume agrava a disfunção circulatória do cirrótico.",
+   "Correta: albumina em 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro reduz síndrome hepatorrenal e mortalidade nesse cenário.",
    "O betabloqueador deve ser evitado ou suspenso durante infecção grave e instabilidade, e não iniciado em dose plena nesse momento.",
-   "Restrição hídrica intensa não integra o tratamento da peritonite e piora a perfusão renal já ameaçada pela infecção.",
-   "Correta: albumina em 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro reduz síndrome hepatorrenal e mortalidade nesse cenário."
+   "Restrição hídrica intensa não integra o tratamento da peritonite e piora a perfusão renal já ameaçada pela infecção."
   ]
  }
 ]

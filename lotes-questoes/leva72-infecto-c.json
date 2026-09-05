@@ -26,13 +26,13 @@
  {
   "q": "Paciente com celulite de membro inferior sem resposta após setenta e duas horas de cefalexina oral. Qual é a conduta?",
   "alts": [
-   "Reavaliar o diagnóstico e ampliar cobertura, investigando sempre abscesso, resistência ou trombose associada.",
    "Manter o mesmo antibiótico por mais duas semanas sem qualquer reavaliação clínica ou de imagem neste caso.",
+   "Reavaliar o diagnóstico e ampliar cobertura, investigando sempre abscesso, resistência ou trombose associada.",
    "Suspender o antibiótico e apenas observar clinicamente a evolução da lesão por mais uma semana neste caso.",
    "Iniciar corticoide sistêmico em dose alta como tratamento de escolha para a celulite sem resposta agora.",
    "Indicar amputação do membro em todos os casos de celulite sem resposta ao antibiótico oral inicial agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -40,8 +40,8 @@
   "base": "IDSA Practice Guidelines for Skin and Soft Tissue Infections, revisão 2023",
   "coment": "Falha após setenta e duas horas exige reavaliar antes de simplesmente trocar o antibiótico: procurar coleção que exija drenagem, considerar Staphylococcus aureus resistente à meticilina, revisar adesão e dose, e afastar diagnósticos que imitam celulite, como trombose venosa profunda, dermatite de estase, erisipela bolhosa e fasciíte necrosante. A elevação do membro e o tratamento da porta de entrada, como micose interdigital, são frequentemente negligenciados.",
   "porAlt": [
-   "Correta: reavaliar diagnóstico e ampliar cobertura, procurando abscesso, resistência ou trombose.",
    "Manter o mesmo esquema sem reavaliar perpetua a falha e pode retardar o tratamento de complicação.",
+   "Correta: reavaliar diagnóstico e ampliar cobertura, procurando abscesso, resistência ou trombose.",
    "Suspender o antibiótico em infecção ativa sem resposta arrisca progressão para quadro sistêmico.",
    "O corticoide não trata a infecção e pode mascarar a progressão de um quadro potencialmente grave.",
    "A amputação é conduta de exceção e não decorre da simples falha do antibiótico oral inicial."
@@ -50,13 +50,13 @@
  {
   "q": "Paciente com HIV e CD4 de 40 células/mm³ apresenta cefaleia subaguda, febre e rigidez de nuca discreta. Qual é a investigação prioritária?",
   "alts": [
-   "Punção lombar com tinta da China e antígeno criptocócico, avaliando sempre a pressão de abertura do líquor.",
    "Apenas tomografia de crânio sem contraste, exame suficiente para o diagnóstico etiológico nesse contexto.",
    "Apenas hemograma completo e proteína C reativa como investigação inicial do quadro neurológico descrito.",
    "Iniciar antibiótico empírico e não realizar qualquer punção lombar no paciente com imunossupressão grave.",
-   "Solicitar apenas eletroencefalograma, exame que estabelece o diagnóstico etiológico do quadro descrito."
+   "Solicitar apenas eletroencefalograma, exame que estabelece o diagnóstico etiológico do quadro descrito.",
+   "Punção lombar com tinta da China e antígeno criptocócico, avaliando sempre a pressão de abertura do líquor."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
@@ -64,23 +64,23 @@
   "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; IDSA guideline for cryptococcal disease, revisão 2023",
   "coment": "Com CD4 abaixo de 100 células por milímetro cúbico, cefaleia subaguda com febre aponta meningite criptocócica, cuja apresentação costuma ter poucos sinais meníngeos. A investigação é punção lombar com tinta da China, antígeno criptocócico no líquor e no soro e cultura, sempre com medida da pressão de abertura, porque a hipertensão intracraniana é a principal causa de morte precoce e exige punções de alívio repetidas. Neuroimagem precede a punção quando há sinal focal.",
   "porAlt": [
-   "Correta: punção lombar com pesquisa criptocócica e medida obrigatória da pressão de abertura.",
    "A tomografia pode ser normal na meningite criptocócica e não fornece o diagnóstico etiológico.",
    "Hemograma e proteína C reativa são inespecíficos e não identificam o agente responsável pelo quadro.",
    "Deixar de puncionar impede o diagnóstico e a medida da pressão, que orienta o alívio terapêutico.",
-   "O eletroencefalograma não identifica o agente etiológico da meningite nesse paciente imunossuprimido."
+   "O eletroencefalograma não identifica o agente etiológico da meningite nesse paciente imunossuprimido.",
+   "Correta: punção lombar com pesquisa criptocócica e medida obrigatória da pressão de abertura."
   ]
  },
  {
   "q": "Paciente com febre e sopro cardíaco novo após procedimento dentário, com CD4 normal e sem uso de drogas. Qual é a suspeita?",
   "alts": [
-   "Endocardite infecciosa, cuja investigação exige sempre hemoculturas seriadas e ecocardiograma dirigido.",
    "Febre reumática aguda, condição desencadeada diretamente por procedimento dentário em adulto saudável.",
    "Pericardite constritiva crônica, quadro definido por febre e sopro cardíaco novo após procedimento dental.",
    "Miocardiopatia dilatada idiopática, condição definida por febre e sopro novo após procedimento odontológico.",
-   "Estenose mitral degenerativa, quadro caracterizado por febre e sopro novo após manipulação dentária."
+   "Estenose mitral degenerativa, quadro caracterizado por febre e sopro novo após manipulação dentária.",
+   "Endocardite infecciosa, cuja investigação exige sempre hemoculturas seriadas e ecocardiograma dirigido."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
@@ -88,23 +88,23 @@
   "base": "ESC Guidelines for the management of endocarditis, 2023; critérios de Duke modificados, atualização 2023",
   "coment": "Febre com sopro novo ou modificado levanta suspeita de endocardite infecciosa, sobretudo após bacteremia por manipulação dentária. A avaliação usa os critérios de Duke, que combinam hemoculturas positivas para germes típicos, evidência de acometimento endocárdico por ecocardiograma e critérios menores como febre, fenômenos vasculares e imunológicos e predisposição. O ecocardiograma transesofágico é indicado quando o transtorácico é normal e a suspeita persiste.",
   "porAlt": [
-   "Correta: endocardite infecciosa, investigada com hemoculturas seriadas e ecocardiograma dirigido.",
    "A febre reumática decorre de faringite estreptocócica prévia, e não de procedimento dentário.",
    "A pericardite constritiva cursa com sinais de congestão sistêmica e não com sopro novo febril.",
    "A miocardiopatia dilatada não é desencadeada por procedimento dentário nem cursa com febre.",
-   "A estenose degenerativa é crônica e não explica o surgimento agudo de febre com sopro novo."
+   "A estenose degenerativa é crônica e não explica o surgimento agudo de febre com sopro novo.",
+   "Correta: endocardite infecciosa, investigada com hemoculturas seriadas e ecocardiograma dirigido."
   ]
  },
  {
   "q": "Paciente com diagnóstico de tuberculose pulmonar inicia tratamento e, na terceira semana, apresenta icterícia e transaminases dez vezes acima do normal. Qual é a conduta?",
   "alts": [
-   "Suspender o esquema e reintroduzir os fármacos de forma escalonada, monitorando sempre a função hepática.",
    "Manter o esquema completo e apenas repetir os exames hepáticos após o término do tratamento previsto.",
    "Suspender definitivamente todo tratamento da tuberculose e não reintroduzir qualquer fármaco no paciente.",
    "Substituir imediatamente o esquema por antibiótico de amplo espectro sem qualquer atividade antituberculosa.",
+   "Suspender o esquema e reintroduzir os fármacos de forma escalonada, monitorando sempre a função hepática.",
    "Aumentar as doses dos fármacos para superar a redução do metabolismo hepático observada no paciente."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -112,23 +112,23 @@
   "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019 com atualização 2023; ATS/CDC/IDSA hepatotoxicity guidance, 2023",
   "coment": "A hepatotoxicidade é a reação adversa maior mais frequente do esquema básico, atribuída sobretudo a isoniazida, rifampicina e pirazinamida. Diante de transaminases cinco vezes acima do normal, ou três vezes com sintomas, ou icterícia, suspende-se o esquema e aguarda-se a normalização. A reintrodução é escalonada, um fármaco por vez com intervalo, monitorando enzimas, permitindo identificar o agente responsável e preservar o máximo de fármacos eficazes.",
   "porAlt": [
-   "Correta: suspender o esquema e reintroduzir de forma escalonada com monitorização hepática seriada.",
    "Manter o esquema com hepatite estabelecida arrisca insuficiência hepática aguda e óbito.",
    "Não reintroduzir deixa a tuberculose sem tratamento, com risco de morte e de transmissão continuada.",
    "Antibióticos comuns não têm atividade antituberculosa e não substituem o esquema específico.",
+   "Correta: suspender o esquema e reintroduzir de forma escalonada com monitorização hepática seriada.",
    "Aumentar as doses agrava a hepatotoxicidade e não corrige o problema metabólico do paciente."
   ]
  },
  {
   "q": "Paciente sem esquema vacinal conhecido sofre ferimento profundo contaminado com terra. Qual é a conduta?",
   "alts": [
-   "Vacina antitetânica e imunoglobulina específica, com limpeza sempre cuidadosa e desbridamento do ferimento.",
    "Apenas antibiótico oral por sete dias, medida suficiente para a profilaxia do tétano nesse ferimento agora.",
    "Apenas vacina antitetânica isolada, sem qualquer imunoglobulina no paciente sem esquema conhecido agora.",
+   "Vacina antitetânica e imunoglobulina específica, com limpeza sempre cuidadosa e desbridamento do ferimento.",
    "Apenas limpeza local com água e sabão, sem qualquer imunização ou avaliação do estado vacinal neste caso.",
    "Apenas imunoglobulina isolada, já sem qualquer dose de vacina no paciente com ferimento contaminado agora."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "prev",
@@ -136,9 +136,9 @@
   "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de tétano acidental; Calendário Nacional de Vacinação, 2025",
   "coment": "Em ferimento de alto risco — profundo, contaminado com terra, com tecido desvitalizado — e paciente com esquema vacinal desconhecido ou incompleto, indica-se vacina antitetânica mais imunoglobulina antitetânica humana, pois a vacina leva dias para produzir anticorpos e a imunoglobulina oferece proteção imediata. O componente mecânico é essencial: limpeza abundante, remoção de corpos estranhos e desbridamento de tecido desvitalizado.",
   "porAlt": [
-   "Correta: vacina com imunoglobulina específica, associadas a limpeza cuidadosa e desbridamento.",
    "O antibiótico não substitui a imunização e não previne a ação da toxina tetânica no organismo.",
    "A vacina isolada não protege de imediato, e o ferimento de alto risco exige proteção passiva.",
+   "Correta: vacina com imunoglobulina específica, associadas a limpeza cuidadosa e desbridamento.",
    "A limpeza é essencial, mas isolada não previne o tétano em ferimento de alto risco.",
    "A imunoglobulina isolada protege apenas temporariamente, sem induzir memória imunológica."
   ]
@@ -146,13 +146,13 @@
  {
   "q": "Paciente com infecção urinária de repetição e urocultura mostrando bactéria produtora de betalactamase de espectro estendido. Qual é a implicação terapêutica?",
   "alts": [
-   "Resistência a cefalosporinas e penicilinas, exigindo sempre escolha guiada pelo antibiograma disponível.",
    "Sensibilidade preservada a todas as cefalosporinas de terceira geração disponíveis para uso oral agora.",
+   "Resistência a cefalosporinas e penicilinas, exigindo sempre escolha guiada pelo antibiograma disponível.",
    "Indicação de vancomicina como antibiótico de escolha para essa bactéria gram-negativa resistente agora.",
    "Necessidade de antifúngico associado em todos os casos de bactéria produtora dessa enzima neste caso.",
    "Indicação de tratamento prolongado por seis meses em todos os pacientes com essa resistência agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -160,8 +160,8 @@
   "base": "IDSA Guidance on the Treatment of Antimicrobial-Resistant Gram-Negative Infections, atualização 2024",
   "coment": "As betalactamases de espectro estendido hidrolisam penicilinas, cefalosporinas de amplo espectro e monobactâmicos, mantendo sensibilidade aos carbapenêmicos. Em infecção urinária não complicada, opções poupadoras de carbapenêmico incluem nitrofurantoína e fosfomicina conforme o antibiograma; em infecção invasiva, o carbapenêmico é a escolha. A vancomicina não cobre gram-negativos, e a decisão sempre se apoia no teste de sensibilidade do isolado.",
   "porAlt": [
-   "Correta: resistência a penicilinas e cefalosporinas, com escolha guiada pelo antibiograma do isolado.",
    "As cefalosporinas de terceira geração são justamente hidrolisadas por essa enzima bacteriana.",
+   "Correta: resistência a penicilinas e cefalosporinas, com escolha guiada pelo antibiograma do isolado.",
    "A vancomicina age sobre gram-positivos e não tem qualquer atividade contra essa bactéria.",
    "Não há indicação de antifúngico associado apenas pela presença dessa resistência bacteriana.",
    "A duração é definida pelo sítio e pela gravidade da infecção, e não pelo perfil de resistência."
@@ -170,13 +170,13 @@
  {
   "q": "Paciente com febre, esplenomegalia, pancitopenia e perda de peso, procedente de área endêmica de leishmaniose. Qual é a conduta?",
   "alts": [
-   "Investigar leishmaniose visceral com sorologia ou parasitológico e notificar sempre o caso confirmado.",
    "Iniciar antibiótico de amplo espectro empírico e não investigar qualquer causa parasitária do quadro.",
    "Solicitar apenas radiografia de tórax como investigação inicial da febre com esplenomegalia descrita.",
    "Indicar esplenectomia diagnóstica imediata em todos os pacientes com esplenomegalia e pancitopenia.",
-   "Prescrever apenas sulfato ferroso e reavaliar clinicamente após três meses de suplementação oral."
+   "Prescrever apenas sulfato ferroso e reavaliar clinicamente após três meses de suplementação oral.",
+   "Investigar leishmaniose visceral com sorologia ou parasitológico e notificar sempre o caso confirmado."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
@@ -184,23 +184,23 @@
   "base": "Ministério da Saúde — Manual de Vigilância e Controle da Leishmaniose Visceral, revisão 2023; Guia de Vigilância em Saúde, 2024",
   "coment": "A leishmaniose visceral cursa com febre prolongada, esplenomegalia volumosa, hepatomegalia, pancitopenia, hipergamaglobulinemia e emagrecimento. O diagnóstico usa teste rápido imunocromatográfico, imunofluorescência indireta ou pesquisa direta do parasito em aspirado de medula óssea. É doença de notificação compulsória, e o tratamento no Brasil emprega antimoniato de meglumina ou anfotericina B lipossomal, esta preferida em casos graves e em grupos de risco.",
   "porAlt": [
-   "Correta: investigar leishmaniose visceral com sorologia ou parasitológico e notificar o caso confirmado.",
    "O antibiótico empírico sem investigar deixa sem tratamento uma doença potencialmente fatal.",
    "A radiografia de tórax não avalia a causa da esplenomegalia com pancitopenia neste contexto.",
    "A esplenectomia não é procedimento diagnóstico inicial e traz morbidade elevada e evitável.",
-   "O sulfato ferroso não trata pancitopenia por doença infecciosa nem investiga a causa do quadro."
+   "O sulfato ferroso não trata pancitopenia por doença infecciosa nem investiga a causa do quadro.",
+   "Correta: investigar leishmaniose visceral com sorologia ou parasitológico e notificar o caso confirmado."
   ]
  },
  {
   "q": "Paciente internado desenvolve febre no quinto dia de cateter venoso central, sem outro foco identificado. Qual é a conduta?",
   "alts": [
-   "Colher hemoculturas periféricas e do cateter e avaliar sempre a necessidade de remoção do dispositivo.",
    "Manter o cateter e apenas iniciar antitérmico, sem qualquer coleta de hemocultura ou reavaliação.",
    "Trocar o cateter pelo mesmo trajeto com fio-guia em todos os casos de suspeita de infecção do dispositivo.",
    "Iniciar antifúngico isolado como tratamento empírico padrão da infecção relacionada a cateter venoso.",
-   "Aguardar setenta e duas horas de febre antes de colher qualquer hemocultura no paciente internado já."
+   "Aguardar setenta e duas horas de febre antes de colher qualquer hemocultura no paciente internado já.",
+   "Colher hemoculturas periféricas e do cateter e avaliar sempre a necessidade de remoção do dispositivo."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
@@ -208,11 +208,11 @@
   "base": "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Intravascular Catheter-Related Infection, revisão 2023",
   "coment": "Diante de febre em paciente com cateter venoso central sem outro foco, colhem-se hemoculturas pareadas — uma periférica e uma do lúmen do cateter — para avaliar o tempo diferencial de positividade. A remoção é obrigatória em sepse grave, instabilidade, infecção do túnel, tromboflebite supurada e em infecções por Staphylococcus aureus, Candida, Pseudomonas e enterococo. A troca por fio-guia é inadequada quando há suspeita de infecção do dispositivo.",
   "porAlt": [
-   "Correta: hemoculturas pareadas do cateter e periférica, avaliando a necessidade de remover o dispositivo.",
    "Manter o cateter sem investigar perpetua a fonte e pode evoluir para sepse e endocardite.",
    "A troca por fio-guia mantém o trajeto colonizado e é inadequada diante de suspeita de infecção.",
    "O antifúngico isolado não é o empírico padrão, que depende do perfil de risco e da gravidade.",
-   "Aguardar setenta e duas horas atrasa o diagnóstico e o controle da fonte da bacteremia."
+   "Aguardar setenta e duas horas atrasa o diagnóstico e o controle da fonte da bacteremia.",
+   "Correta: hemoculturas pareadas do cateter e periférica, avaliando a necessidade de remover o dispositivo."
   ]
  },
  {

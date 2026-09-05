@@ -28,11 +28,11 @@
   "alts": [
    "Solicitar apenas espirometria, exame que estabelece o diagnóstico de apneia obstrutiva do sono.",
    "Tratar empiricamente com pressão positiva sem nova exame diagnóstico prévio nesse paciente.",
-   "Solicitar polissonografia ou poligrafia domiciliar, pela alta probabilidade de apneia do sono.",
    "Prescrever modafinila para a sonolência e reavaliar em três meses, sem investigar a causa do quadro.",
-   "Solicitar tomografia de tórax, exame que demonstra o colapso de via aérea superior durante o sono."
+   "Solicitar tomografia de tórax, exame que demonstra o colapso de via aérea superior durante o sono.",
+   "Solicitar polissonografia ou poligrafia domiciliar, pela alta probabilidade de apneia do sono."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -42,21 +42,21 @@
   "porAlt": [
    "A espirometria mede função pulmonar em vigília e não detecta eventos obstrutivos que ocorrem durante o sono.",
    "Tratar sem diagnóstico impede graduar gravidade, titular a pressão e documentar a indicação para o seguimento.",
-   "Correta: alta probabilidade clínica indica teste objetivo, com polissonografia ou poligrafia domiciliar conforme o perfil.",
    "A modafinila trata sintoma sem corrigir a causa e não deve preceder a investigação de um quadro tão sugestivo.",
-   "A tomografia é exame estático e não demonstra colapso dinâmico de via aérea superior durante o sono."
+   "A tomografia é exame estático e não demonstra colapso dinâmico de via aérea superior durante o sono.",
+   "Correta: alta probabilidade clínica indica teste objetivo, com polissonografia ou poligrafia domiciliar conforme o perfil."
   ]
  },
  {
   "q": "Homem de 66 anos, tabagista de 40 maços-ano, mantém a carga tabágica atual e tem 55 anos de idade completos há mais de uma década. Está assintomático e pergunta sobre exames para detectar câncer de pulmão precocemente. Qual é a conduta baseada em evidência?",
   "alts": [
    "Solicitar radiografia de tórax anual, exame consagrado para o rastreamento de câncer de pulmão.",
-   "Oferecer tomografia de baixa dose anual, com decisão compartilhada e apoio à cessação do tabagismo.",
    "Solicitar dosagem sérica de marcadores tumorais, estratégia mais custo-efetiva para essa finalidade.",
+   "Oferecer tomografia de baixa dose anual, com decisão compartilhada e apoio à cessação do tabagismo.",
    "Não oferecer rastreamento nenhum, já que nenhum exame reduz mortalidade por câncer de pulmão hoje.",
    "Solicitar broncoscopia com lavado a cada dois anos, protocolo indicado só para grandes tabagistas."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
@@ -65,8 +65,8 @@
   "coment": "O rastreamento com tomografia de baixa dose anual reduz mortalidade por câncer de pulmão em população de risco: adultos com carga tabágica significativa, fumantes atuais ou que cessaram há menos de 15 anos, dentro da faixa etária recomendada. A conversa deve ser compartilhada, porque há falsos-positivos, achados incidentais e exposição à radiação, e deve vir acompanhada da intervenção com maior impacto de todas: apoio estruturado à cessação do tabagismo. A radiografia de tórax não reduz mortalidade e marcadores séricos não têm papel no rastreamento.",
   "porAlt": [
    "A radiografia anual foi testada e não reduz mortalidade por câncer de pulmão, tendo sido abandonada como rastreamento.",
-   "Correta: tomografia de baixa dose anual, com decisão compartilhada e apoio à cessação, é o rastreamento com benefício demonstrado.",
    "Marcadores tumorais séricos não têm sensibilidade nem especificidade para rastrear câncer de pulmão em assintomáticos.",
+   "Correta: tomografia de baixa dose anual, com decisão compartilhada e apoio à cessação, é o rastreamento com benefício demonstrado.",
    "Existe rastreamento com redução de mortalidade demonstrada, de modo que negar a discussão priva o paciente do benefício.",
    "Broncoscopia é exame invasivo e diagnóstico, sem qualquer papel como estratégia de rastreamento populacional."
   ]

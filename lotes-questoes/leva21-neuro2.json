@@ -3,12 +3,12 @@
   "q": "Mulher de 52 anos chega com cefaleia de início súbito, descrita como a pior da vida, atingindo intensidade máxima em segundos, com rigidez de nuca. A tomografia de crânio sem contraste, feita quatro horas depois, é normal. Qual é a conduta?",
   "alts": [
    "Liberar com analgesia oral, uma vez que a tomografia normal afasta com segurança causa estrutural.",
-   "Realizar punção lombar em busca de xantocromia, pois a tomografia normal não exclui a hemorragia.",
    "Solicitar eletroencefalograma como próximo exame, para investigar a origem da dor referida por ela.",
    "Tratar como enxaqueca com triptano e reavaliar em ambulatório dentro das próximas quatro semanas.",
+   "Realizar punção lombar em busca de xantocromia, pois a tomografia normal não exclui a hemorragia.",
    "Iniciar corticoide em dose máxima empiricamente, cobrindo arterite temporal nessa faixa etária."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "dx",
@@ -17,9 +17,9 @@
   "coment": "Cefaleia em trovoada — início súbito com pico em segundos — obriga a excluir hemorragia subaracnóidea. A tomografia sem contraste tem sensibilidade próxima de 100% nas primeiras seis horas, mas cai progressivamente depois disso; quando a suspeita é forte e a tomografia é normal, a punção lombar em busca de xantocromia e hemácias que não clareiam segue indicada, idealmente após 12 horas do início. Angiotomografia é alternativa em protocolos específicos. Liberar o paciente sem completar a investigação é o erro que precede o ressangramento, que costuma ser fatal.",
   "porAlt": [
    "A tomografia perde sensibilidade após as primeiras horas e não afasta hemorragia subaracnóidea neste cenário.",
-   "Correta: a suspeita de hemorragia subaracnóidea com tomografia normal exige punção lombar em busca de xantocromia.",
    "O eletroencefalograma não tem papel na investigação de cefaleia em trovoada com suspeita de hemorragia.",
    "Tratar como enxaqueca ignora o padrão de início súbito, que é justamente a bandeira vermelha do quadro.",
+   "Correta: a suspeita de hemorragia subaracnóidea com tomografia normal exige punção lombar em busca de xantocromia.",
    "A arterite temporal cursa com cefaleia subaguda em maiores de 50 anos, e não com início explosivo em segundos."
   ]
  },
@@ -28,11 +28,11 @@
   "alts": [
    "Iniciar antiepiléptico em todos os casos de primeira crise, independentemente do resultado dos exames.",
    "Internar para observação por trinta dias, período mínimo de vigilância após uma primeira crise assim.",
-   "Não iniciar nenhum antiepiléptico e orientar restrições e retorno, pois a recorrência é menos provável.",
    "Solicitar apenas dosagem de prolactina para confirmar que a crise foi de origem realmente epiléptica.",
+   "Não iniciar nenhum antiepiléptico e orientar restrições e retorno, pois a recorrência é menos provável.",
    "Iniciar dois antiepilépticos desde o começo, esquema que reduz mais a chance de nova crise no futuro."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "tto",
@@ -42,8 +42,8 @@
   "porAlt": [
    "Tratar toda primeira crise expõe o paciente a efeitos adversos sem melhorar o prognóstico a longo prazo.",
    "Não há indicação de internação prolongada em paciente recuperado, com exame e investigação normais.",
-   "Correta: com exames normais o risco de recorrência é menor e não se inicia antiepiléptico de rotina após a primeira crise.",
    "A prolactina tem janela curta e valor limitado, e não é o exame que define a conduta após a primeira crise.",
+   "Correta: com exames normais o risco de recorrência é menor e não se inicia antiepiléptico de rotina após a primeira crise.",
    "Iniciar dois fármacos de saída é conduta de epilepsia refratária, e não de primeira crise não provocada."
   ]
  },

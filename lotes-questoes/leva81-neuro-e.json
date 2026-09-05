@@ -2,13 +2,13 @@
  {
   "q": "Paciente com fibrilação atrial e acidente vascular cerebral isquêmico extenso. Quando iniciar a anticoagulação?",
   "alts": [
-   "Adiar o início conforme o tamanho do infarto, avaliando sempre o risco de transformação hemorrágica.",
    "Iniciar anticoagulação plena de imediato em todos os casos, qualquer que seja a extensão do infarto.",
    "Nunca anticoagular pacientes com fibrilação atrial que já apresentaram acidente vascular cerebral isquêmico.",
    "Substituir a anticoagulação por antiagregante isolado de forma definitiva em todos esses pacientes.",
+   "Adiar o início conforme o tamanho do infarto, avaliando sempre o risco de transformação hemorrágica.",
    "Aguardar seis meses antes de anticoagular todo paciente com fibrilação atrial e infarto cerebral."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "enf",
   "comp": "tto",
@@ -16,10 +16,10 @@
   "base": "AHA/ASA Guideline for the Early Management of Acute Ischemic Stroke, atualização 2024; ESC Atrial Fibrillation Guidelines, 2024",
   "coment": "O início da anticoagulação após acidente vascular cerebral cardioembólico equilibra o risco de recorrência precoce com o de transformação hemorrágica, que cresce com o tamanho do infarto. A prática tradicional escalona o início conforme a gravidade, e ensaios recentes sustentam início mais precoce em infartos pequenos e moderados. Em infarto extenso, adia-se e repete-se a imagem antes de iniciar, individualizando conforme o quadro clínico.",
   "porAlt": [
-   "Correta: adiar conforme o tamanho do infarto, avaliando o risco de transformação hemorrágica.",
    "Anticoagular de imediato em infarto extenso aumenta o risco de transformação hemorrágica grave.",
    "A fibrilação atrial com evento prévio é justamente a indicação mais forte de anticoagulação.",
    "O antiagregante isolado é inferior à anticoagulação na prevenção de embolia dessa arritmia.",
+   "Correta: adiar conforme o tamanho do infarto, avaliando o risco de transformação hemorrágica.",
    "Aguardar seis meses deixa o paciente desprotegido durante o período de maior risco de recorrência."
   ]
  },
@@ -50,13 +50,13 @@
  {
   "q": "Paciente com enxaqueca com quatro crises incapacitantes por mês. Qual é a conduta?",
   "alts": [
-   "Iniciar profilaxia medicamentosa e registro em diário, escolhendo sempre o fármaco pelas comorbidades do paciente.",
    "Manter apenas tratamento das crises com analgésico, sem qualquer profilaxia mesmo com essa frequência neste caso.",
    "Prescrever opioide de uso contínuo diário como estratégia profilática das crises frequentes de enxaqueca agora.",
    "Indicar cirurgia de descompressão de nervos cranianos como primeira linha profilática da enxaqueca frequente.",
+   "Iniciar profilaxia medicamentosa e registro em diário, escolhendo sempre o fármaco pelas comorbidades do paciente.",
    "Aumentar indefinidamente a dose do analgésico usado nas crises como estratégia profilática do paciente agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "prev",
@@ -64,23 +64,23 @@
   "base": "American Headache Society consensus statement on preventive treatment, 2021 com revisão 2024; Academia Brasileira de Neurologia, 2022",
   "coment": "A profilaxia da enxaqueca é indicada a partir de quatro dias de crise por mês, ou com crises incapacitantes, uso excessivo de analgésico ou falha do tratamento agudo. As opções incluem betabloqueador, antidepressivo tricíclico, topiramato, ácido valproico, candesartana e anticorpos monoclonais contra o peptídeo relacionado ao gene da calcitonina, escolhidos pelas comorbidades. A resposta é avaliada por diário de cefaleia após dois a três meses.",
   "porAlt": [
-   "Correta: iniciar profilaxia com fármaco escolhido pelas comorbidades e acompanhar por diário de cefaleia.",
    "Tratar apenas as crises nessa frequência leva a uso excessivo de analgésico e cronificação.",
    "O opioide diário é o pior agente nesse contexto, com alto poder de cronificação da cefaleia.",
    "A cirurgia não é primeira linha profilática e não tem respaldo consolidado nessa indicação.",
+   "Correta: iniciar profilaxia com fármaco escolhido pelas comorbidades e acompanhar por diário de cefaleia.",
    "Aumentar o analgésico agudo indefinidamente produz cefaleia por uso excessivo de medicação."
   ]
  },
  {
   "q": "Paciente com síndrome de Wernicke suspeitada em etilista crônico com confusão, ataxia e oftalmoparesia. Qual é a conduta?",
   "alts": [
-   "Administrar tiamina endovenosa em dose alta imediatamente, sempre antes de qualquer oferta de glicose.",
    "Administrar glicose hipertônica antes de qualquer reposição de tiamina no paciente etilista confuso.",
    "Prescrever apenas complexo vitamínico oral de baixa dose como tratamento definitivo do quadro descrito.",
    "Aguardar a confirmação laboratorial da deficiência de tiamina antes de qualquer reposição no paciente.",
+   "Administrar tiamina endovenosa em dose alta imediatamente, sempre antes de qualquer oferta de glicose.",
    "Prescrever apenas benzodiazepínico para o controle da confusão, sem qualquer reposição vitamínica associada."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
@@ -88,10 +88,10 @@
   "base": "EFNS guidelines for diagnosis and treatment of Wernicke encephalopathy, revisão 2023; Ministério da Saúde — abordagem do uso de álcool, 2022",
   "coment": "A encefalopatia de Wernicke decorre de deficiência de tiamina e tem a tríade clássica de confusão, ataxia e alterações oculomotoras, embora frequentemente incompleta. O tratamento é tiamina endovenosa em dose alta, administrada antes de qualquer carga de glicose, porque a glicose consome tiamina e pode precipitar ou agravar o quadro. O atraso leva à síndrome de Korsakoff, com amnésia irreversível. Não se aguarda dosagem laboratorial para tratar.",
   "porAlt": [
-   "Correta: tiamina endovenosa em dose alta imediata, sempre antes de qualquer oferta de glicose.",
    "Glicose antes de tiamina consome a reserva remanescente e pode precipitar o quadro neurológico.",
    "A dose oral baixa é insuficiente diante de encefalopatia aguda instalada nesse paciente.",
    "Aguardar dosagem laboratorial atrasa um tratamento barato, seguro e potencialmente curativo.",
+   "Correta: tiamina endovenosa em dose alta imediata, sempre antes de qualquer oferta de glicose.",
    "O benzodiazepínico trata a abstinência, mas não corrige a deficiência que causa a encefalopatia."
   ]
  },
@@ -122,13 +122,13 @@
  {
   "q": "Paciente com demência e alucinações visuais recorrentes, parkinsonismo e flutuação cognitiva. Qual é o cuidado essencial no tratamento?",
   "alts": [
-   "Evitar antipsicóticos típicos pela hipersensibilidade característica, priorizando sempre medidas não farmacológicas.",
    "Prescrever haloperidol em dose alta como primeira escolha para o controle das alucinações visuais descritas agora.",
+   "Evitar antipsicóticos típicos pela hipersensibilidade característica, priorizando sempre medidas não farmacológicas.",
    "Iniciar benzodiazepínico contínuo em dose alta como tratamento de escolha da flutuação cognitiva do paciente agora.",
    "Suspender qualquer tratamento e apenas observar a evolução do quadro cognitivo ao longo dos meses nesse contexto.",
    "Iniciar levodopa em dose máxima imediatamente para tratar todas as manifestações do quadro descrito neste caso."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -136,8 +136,8 @@
   "base": "DLB Consortium diagnostic criteria, quarta revisão; NICE guideline NG97 — Dementia, revisão 2023",
   "coment": "A demência com corpos de Lewy cursa com flutuação cognitiva, alucinações visuais bem formadas, parkinsonismo e transtorno comportamental do sono REM. Um traço crítico é a hipersensibilidade a antipsicóticos, sobretudo típicos, que podem causar piora grave do parkinsonismo, rebaixamento e até síndrome neuroléptica maligna. Priorizam-se medidas não farmacológicas, inibidores de colinesterase, que têm boa resposta nas alucinações, e quetiapina ou clozapina se indispensável.",
   "porAlt": [
-   "Correta: evitar antipsicóticos típicos pela hipersensibilidade característica dessa forma de demência.",
    "O haloperidol pode causar piora grave do parkinsonismo e reações potencialmente fatais nesses pacientes.",
+   "Correta: evitar antipsicóticos típicos pela hipersensibilidade característica dessa forma de demência.",
    "O benzodiazepínico agrava a confusão e o risco de quedas sem tratar a flutuação cognitiva.",
    "Não tratar deixa sem manejo sintomas angustiantes que respondem a inibidores de colinesterase.",
    "A levodopa em dose máxima pode agravar as alucinações e deve ser titulada com muita cautela."
@@ -146,13 +146,13 @@
  {
   "q": "Paciente com hipertensão intracraniana idiopática, cefaleia e papiledema, com obesidade. Qual é a conduta?",
   "alts": [
-   "Perda de peso com acetazolamida e seguimento oftalmológico seriado, monitorando sempre o campo visual agora.",
    "Prescrever apenas analgésico comum e liberar sem qualquer seguimento oftalmológico ou tratamento específico.",
    "Indicar derivação ventriculoperitoneal imediata em todos os pacientes com hipertensão intracraniana idiopática.",
+   "Perda de peso com acetazolamida e seguimento oftalmológico seriado, monitorando sempre o campo visual agora.",
    "Prescrever corticoide sistêmico contínuo em dose alta como tratamento de escolha dessa condição crônica.",
    "Aumentar a ingestão de sal e líquidos como estratégia principal para o alívio da hipertensão intracraniana."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -160,9 +160,9 @@
   "base": "AAN/NORDIC guidance on idiopathic intracranial hypertension, revisão 2023; Idiopathic Intracranial Hypertension Treatment Trial",
   "coment": "O tratamento da hipertensão intracraniana idiopática combina perda de peso, que é a medida modificadora de doença mais importante, com acetazolamida, cuja eficácia foi demonstrada em ensaio clínico. O seguimento é oftalmológico e seriado, com campimetria, porque a perda visual é a principal complicação e pode ser insidiosa. Procedimentos como fenestração da bainha do nervo óptico, derivação e stent venoso ficam para perda visual progressiva ou refratariedade.",
   "porAlt": [
-   "Correta: perda de peso com acetazolamida e seguimento oftalmológico seriado com campimetria.",
    "Liberar sem seguimento arrisca perda visual progressiva e irreversível pelo papiledema crônico.",
    "A derivação é procedimento de resgate para casos refratários ou com perda visual progressiva.",
+   "Correta: perda de peso com acetazolamida e seguimento oftalmológico seriado com campimetria.",
    "O corticoide contínuo causa ganho de peso e agrava a condição a médio e longo prazo.",
    "Aumentar sal e líquidos favorece ganho de peso e não alivia a hipertensão intracraniana."
   ]
@@ -170,13 +170,13 @@
  {
   "q": "Paciente com dor lombar aguda sem sinais de alarme, sem déficit neurológico e sem trauma. Qual é a conduta?",
   "alts": [
-   "Analgesia e manutenção da atividade conforme tolerado, dispensando sempre exame de imagem nesse cenário.",
    "Solicitar ressonância magnética de coluna lombar em todos os pacientes com dor lombar aguda atendidos.",
+   "Analgesia e manutenção da atividade conforme tolerado, dispensando sempre exame de imagem nesse cenário.",
    "Prescrever repouso absoluto no leito por duas semanas como principal medida terapêutica da lombalgia aguda.",
    "Encaminhar imediatamente para cirurgia de coluna todos os pacientes com dor lombar aguda intensa agora já.",
    "Prescrever opioide potente de uso contínuo como primeira escolha no tratamento da lombalgia aguda simples."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -184,8 +184,8 @@
   "base": "ACP Clinical Practice Guideline on noninvasive treatments for low back pain, revisão 2023; Lancet Low Back Pain Series",
   "coment": "A lombalgia aguda inespecífica, sem sinais de alarme, não requer imagem, que não melhora desfechos e aumenta intervenções desnecessárias. A recomendação é manter atividade conforme tolerado, evitar repouso no leito, oferecer analgesia com anti-inflamatório e considerar relaxante muscular por curto período, além de tratamento não farmacológico como calor superficial e exercício. Sinais de alarme incluem déficit neurológico, febre, câncer, trauma e síndrome da cauda equina.",
   "porAlt": [
-   "Correta: analgesia com manutenção da atividade conforme tolerado, sem necessidade de imagem inicial.",
    "A imagem de rotina não melhora desfechos e leva a achados incidentais e intervenções desnecessárias.",
+   "Correta: analgesia com manutenção da atividade conforme tolerado, sem necessidade de imagem inicial.",
    "O repouso absoluto prolonga a incapacidade e piora o desfecho em comparação à atividade mantida.",
    "A cirurgia se reserva a indicações específicas, ausentes na lombalgia aguda inespecífica.",
    "O opioide não é primeira escolha na lombalgia aguda pelo risco de dependência e efeitos adversos."
@@ -194,13 +194,13 @@
  {
   "q": "Paciente com déficit neurológico focal e febre, com imagem mostrando lesão com realce anelar no encéfalo. Qual é a conduta inicial?",
   "alts": [
-   "Investigar abscesso cerebral e causas infecciosas, avaliando sempre necessidade de drenagem e antibiótico dirigido.",
    "Iniciar apenas corticoide sistêmico em dose alta como tratamento definitivo da lesão com realce anelar neste caso.",
    "Prescrever apenas analgésico e reavaliar clinicamente após trinta dias de acompanhamento ambulatorial neste caso.",
    "Indicar radioterapia encefálica imediata em todos os casos de lesão com realce anelar no encéfalo nesse contexto.",
+   "Investigar abscesso cerebral e causas infecciosas, avaliando sempre necessidade de drenagem e antibiótico dirigido.",
    "Realizar punção lombar imediata antes de qualquer neuroimagem no paciente com déficit focal e febre neste caso."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "enf",
   "comp": "dx",
@@ -208,23 +208,23 @@
   "base": "IDSA guidance on brain abscess, revisão 2023; ESCMID guideline on brain abscess, 2024",
   "coment": "Lesão encefálica com realce anelar e febre com déficit focal sugere abscesso cerebral, cujo diferencial inclui neoplasia, toxoplasmose em imunossuprimidos e tuberculoma. A conduta combina antibiótico de amplo espectro com boa penetração no sistema nervoso central e avaliação neurocirúrgica para aspiração ou drenagem, que fornece material para cultura e alivia o efeito de massa. A punção lombar é contraindicada diante de lesão expansiva pelo risco de herniação.",
   "porAlt": [
-   "Correta: investigar abscesso cerebral, com antibiótico dirigido e avaliação da necessidade de drenagem.",
    "O corticoide isolado não trata a infecção e pode favorecer a disseminação do processo infeccioso.",
    "Adiar por trinta dias permite expansão da lesão, herniação e desfecho neurológico catastrófico.",
    "A radioterapia se aplica a neoplasia confirmada, e não a lesão de etiologia ainda indefinida.",
+   "Correta: investigar abscesso cerebral, com antibiótico dirigido e avaliação da necessidade de drenagem.",
    "A punção lombar diante de lesão expansiva com efeito de massa arrisca herniação cerebral fatal."
   ]
  },
  {
   "q": "Paciente com síndrome de Horner e dor cervical após manipulação do pescoço. Qual é a suspeita principal?",
   "alts": [
-   "Dissecção de artéria carótida, cuja investigação exige sempre angiotomografia ou angiorressonância urgente.",
    "Enxaqueca com aura visual clássica, condição definida por síndrome de Horner após manipulação cervical.",
+   "Dissecção de artéria carótida, cuja investigação exige sempre angiotomografia ou angiorressonância urgente.",
    "Cefaleia tensional episódica, quadro definido por dor cervical com miose e ptose ipsilateral associadas.",
    "Neuralgia occipital simples, condição caracterizada por síndrome de Horner após manipulação do pescoço.",
    "Espondilose cervical degenerativa, quadro definido por síndrome de Horner de instalação aguda no paciente."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "dx",
@@ -232,8 +232,8 @@
   "base": "AHA/ASA scientific statement on cervical artery dissection, revisão 2023; ESO guideline on cervical artery dissection, 2021",
   "coment": "A dissecção de artéria carótida cursa classicamente com dor cervical ou facial unilateral, síndrome de Horner parcial por acometimento das fibras simpáticas periarteriais e risco de acidente vascular cerebral isquêmico por embolia ou oclusão. Ocorre espontaneamente ou após trauma menor, incluindo manipulação cervical. O diagnóstico é por angiotomografia ou angiorressonância, e o tratamento usa antitrombótico, com anticoagulação ou antiagregação conforme o caso.",
   "porAlt": [
-   "Correta: dissecção de artéria carótida, investigada com angiotomografia ou angiorressonância urgente.",
    "A enxaqueca com aura não produz síndrome de Horner nem se associa a manipulação cervical.",
+   "Correta: dissecção de artéria carótida, investigada com angiotomografia ou angiorressonância urgente.",
    "A cefaleia tensional não causa miose, ptose ou anidrose e não tem esse mecanismo vascular.",
    "A neuralgia occipital produz dor no território do nervo, sem sinais simpáticos oculares associados.",
    "A espondilose é degenerativa e crônica, não causando síndrome de Horner de instalação aguda."

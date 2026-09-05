@@ -2,13 +2,13 @@
  {
   "q": "Homem de 68 anos, hipertenso e diabético em uso de metformina, procura o ambulatório com palpitações há três semanas. O eletrocardiograma mostra fibrilação atrial. Não há histórico de acidente vascular cerebral, insuficiência cardíaca ou doença arterial periférica. Qual é a conduta antitrombótica indicada pela diretriz vigente?",
   "alts": [
-   "Anticoagulação oral plena desde já: todo escore CHA₂DS₂-VA de dois ou mais manda anticoagular.",
    "Ácido acetilsalicílico em dose baixa agora, deixando o anticoagulante para depois do primeiro AVC.",
    "Nenhum antitrombótico neste momento, já que o escore só indica tratamento a partir dos 75 anos.",
+   "Anticoagulação oral plena desde já: todo escore CHA₂DS₂-VA de dois ou mais manda anticoagular.",
    "Anticoagular somente se o ecocardiograma transesofágico revelar trombo no apêndice atrial esquerdo.",
    "Dupla antiagregação com ácido acetilsalicílico e clopidogrel, que substitui a anticoagulação aqui."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -16,9 +16,9 @@
   "base": "ESC 2024 — Guidelines for the management of atrial fibrillation (escore CHA₂DS₂-VA)",
   "coment": "A diretriz europeia de 2024 substituiu o CHA₂DS₂-VASc pelo CHA₂DS₂-VA: o ponto atribuído ao sexo feminino saiu do escore, que passou a ter máximo de 8. Aqui somam-se idade entre 65 e 74 anos (1), hipertensão (1) e diabetes (1) = 3 pontos. Com escore ≥2 a anticoagulação oral é recomendação classe I, com preferência pelos anticoagulantes orais diretos sobre a varfarina em pacientes sem estenose mitral moderada a grave ou prótese mecânica. O antiagregante plaquetário não tem papel na profilaxia de embolia na fibrilação atrial: não reduz AVC de forma comparável e mantém risco de sangramento.",
   "porAlt": [
-   "Correta: três pontos no CHA₂DS₂-VA (idade 65–74, hipertensão e diabetes) colocam o paciente na recomendação classe I de anticoagulação oral.",
    "O AAS foi abandonado na profilaxia de embolia da fibrilação atrial — é muito menos eficaz que o anticoagulante e não é opção mais segura.",
    "A idade entre 65 e 74 anos já pontua 1; somada a hipertensão e diabetes, ultrapassa o limiar de 2 pontos. Esperar os 75 anos custa AVC evitável.",
+   "Correta: três pontos no CHA₂DS₂-VA (idade 65–74, hipertensão e diabetes) colocam o paciente na recomendação classe I de anticoagulação oral.",
    "Trombo no apêndice não é pré-requisito para anticoagular: o escore clínico é que define a indicação, e o eco negativo não exclui risco embólico.",
    "A dupla antiagregação soma sangramento sem oferecer a proteção do anticoagulante; só entra em situações específicas de doença coronária, e por tempo limitado."
   ]
@@ -50,13 +50,13 @@
  {
   "q": "Homem de 59 anos, tabagista, chega à emergência com dor torácica opressiva iniciada há 50 minutos. O eletrocardiograma mostra supradesnivelamento de ST em parede inferior. O hospital não tem hemodinâmica e o tempo de transferência até o centro com angioplastia primária é estimado em 150 minutos. Qual é a conduta correta?",
   "alts": [
-   "Administrar fibrinolítico agora no próprio serviço e transferir em seguida para coronariografia.",
    "Transferir sem trombolisar, porque a angioplastia primária é superior em qualquer tempo de trajeto.",
    "Aguardar a curva de troponina no serviço antes de decidir se vai trombolisar ou só transferir.",
    "Iniciar heparina isolada em infusão contínua e reservar a reperfusão para depois das 12 horas.",
-   "Prescrever nitrato e morfina e repetir o eletrocardiograma após duas horas, antes de reperfundir."
+   "Prescrever nitrato e morfina e repetir o eletrocardiograma após duas horas, antes de reperfundir.",
+   "Administrar fibrinolítico agora no próprio serviço e transferir em seguida para coronariografia."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -64,11 +64,11 @@
   "base": "ESC 2023 — Guidelines for acute coronary syndromes; Diretriz SBC de IAM com supra de ST, 2021",
   "coment": "Com supradesnivelamento de ST e tempo previsto até a angioplastia primária acima de 120 minutos, a estratégia recomendada é a fibrinólise imediata seguida de transferência para estratégia fármaco-invasiva, com coronariografia entre 2 e 24 horas (ou de resgate imediato, se não houver critérios de reperfusão). O paciente está com 50 minutos de sintomas, dentro da janela em que o fibrinolítico tem maior benefício. Esperar troponina em vigência de supra de ST é erro grave: o diagnóstico é eletrocardiográfico e clínico, e cada minuto perdido custa miocárdio.",
   "porAlt": [
-   "Correta: tempo até a angioplastia acima de 120 minutos indica fibrinólise imediata seguida de transferência para a estratégia fármaco-invasiva.",
    "A angioplastia primária só é preferida quando alcançável em até 120 minutos; acima disso, o atraso anula sua vantagem sobre o fibrinolítico.",
    "Troponina não é necessária para indicar reperfusão no infarto com supra de ST; esperar o resultado só atrasa o tratamento e amplia a necrose.",
    "A heparina é adjuvante e não reperfunde a artéria; reservar a reperfusão para depois de 12 horas condena o território a necrose completa.",
-   "Nitrato e morfina tratam sintoma, não obstrução; repetir o eletrocardiograma em duas horas desperdiça a janela mais eficaz da fibrinólise."
+   "Nitrato e morfina tratam sintoma, não obstrução; repetir o eletrocardiograma em duas horas desperdiça a janela mais eficaz da fibrinólise.",
+   "Correta: tempo até a angioplastia acima de 120 minutos indica fibrinólise imediata seguida de transferência para a estratégia fármaco-invasiva."
   ]
  }
 ]

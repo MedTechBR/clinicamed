@@ -2,13 +2,13 @@
  {
   "q": "Paciente de 80 anos com múltiplas comorbidades pergunta sobre alvo de hemoglobina glicada no diabetes. Qual é a orientação?",
   "alts": [
-   "Alvo individualizado e menos rigoroso, priorizando sempre evitar hipoglicemia e preservar a funcionalidade.",
    "Alvo único abaixo de 6,5% para todos os idosos, independentemente de comorbidades e do prognóstico agora.",
    "Alvo abaixo de 5,5% em todos os idosos para reduzir ao máximo as complicações microvasculares tardias.",
    "Nenhum alvo, pois o controle glicêmico não traz qualquer benefício em pacientes acima de setenta anos.",
+   "Alvo individualizado e menos rigoroso, priorizando sempre evitar hipoglicemia e preservar a funcionalidade.",
    "Alvo definido apenas pela glicemia de jejum isolada, sem qualquer consideração da hemoglobina glicada."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
@@ -16,23 +16,23 @@
   "base": "ADA Standards of Care in Diabetes, 2025, capítulo de idosos; SBD Diretriz 2024",
   "coment": "No idoso, o alvo glicêmico é individualizado pelo estado de saúde: idosos saudáveis com boa expectativa de vida podem visar hemoglobina glicada abaixo de 7 a 7,5 por cento, enquanto os com múltiplas comorbidades ou fragilidade têm alvos entre 8 e 8,5 por cento. A prioridade é evitar hipoglicemia, que causa quedas, fraturas, arritmias e declínio cognitivo, e o controle excessivamente rígido não traz benefício quando a expectativa de vida é limitada.",
   "porAlt": [
-   "Correta: alvo individualizado e menos rigoroso, priorizando evitar hipoglicemia e manter funcionalidade.",
    "O alvo único e rígido para todos os idosos ignora comorbidades, fragilidade e expectativa de vida.",
    "Alvo abaixo de 5,5 por cento multiplica o risco de hipoglicemia grave sem benefício correspondente.",
    "O controle glicêmico traz benefício também no idoso, com alvos ajustados ao contexto individual.",
+   "Correta: alvo individualizado e menos rigoroso, priorizando evitar hipoglicemia e manter funcionalidade.",
    "A glicemia de jejum isolada não reflete o controle global nem o risco de hipoglicemia noturna."
   ]
  },
  {
   "q": "Paciente de 84 anos com demência avançada, disfagia e perda de peso. A família pergunta sobre sonda de gastrostomia. Qual é a orientação baseada em evidência?",
   "alts": [
-   "A sonda não melhora sobrevida nem previne aspiração, priorizando sempre alimentação cuidadosa por via oral.",
    "A sonda prolonga a sobrevida e previne broncoaspiração em todos os pacientes com demência avançada agora.",
    "A sonda é obrigatória em todo paciente com demência avançada que apresente qualquer grau de disfagia agora.",
    "A sonda elimina completamente o risco de pneumonia e dispensa qualquer cuidado com a higiene oral agora já.",
-   "A sonda melhora a qualidade de vida e reduz lesões por pressão em pacientes com demência avançada agora."
+   "A sonda melhora a qualidade de vida e reduz lesões por pressão em pacientes com demência avançada agora.",
+   "A sonda não melhora sobrevida nem previne aspiração, priorizando sempre alimentação cuidadosa por via oral."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
@@ -40,11 +40,11 @@
   "base": "AGS Feeding Tubes in Advanced Dementia position statement, revisão 2023; Choosing Wisely; ANCP — Manual de Cuidados Paliativos, 2021",
   "coment": "Em demência avançada, revisões sistemáticas não demonstraram que a alimentação por sonda prolongue a sobrevida, previna aspiração, melhore lesões por pressão ou aumente conforto. A alternativa recomendada é a alimentação assistida cuidadosa por via oral, com consistência adequada, posicionamento correto, higiene oral rigorosa e respeito ao ritmo e à vontade do paciente. A decisão é compartilhada com a família, esclarecendo o que se pode e o que não se pode esperar.",
   "porAlt": [
-   "Correta: a sonda não melhora sobrevida nem previne aspiração; prioriza-se alimentação oral cuidadosa.",
    "As revisões sistemáticas não demonstraram ganho de sobrevida nem prevenção de broncoaspiração.",
    "Não há obrigatoriedade; a indicação é individualizada e frequentemente contraindicada nesse contexto.",
    "A aspiração de secreção oral continua ocorrendo, e a higiene oral segue sendo essencial.",
-   "Não há evidência de melhora de qualidade de vida nem de redução de lesões por pressão com a sonda."
+   "Não há evidência de melhora de qualidade de vida nem de redução de lesões por pressão com a sonda.",
+   "Correta: a sonda não melhora sobrevida nem previne aspiração; prioriza-se alimentação oral cuidadosa."
   ]
  },
  {
@@ -74,13 +74,13 @@
  {
   "q": "Paciente de 79 anos, independente, com expectativa de vida acima de dez anos, pergunta sobre rastreio de câncer de mama. Qual é a orientação?",
   "alts": [
-   "Decisão compartilhada considerando expectativa de vida, preferências e sempre o risco individual da paciente.",
    "Suspender o rastreio automaticamente aos setenta anos em todas as mulheres, sem qualquer individualização.",
    "Manter mamografia anual até os cem anos em todas as mulheres, independentemente do estado funcional agora.",
    "Substituir a mamografia por ultrassonografia anual como método de rastreio nessa faixa etária avançada agora.",
-   "Indicar ressonância magnética anual de mamas como método de rastreio para todas as mulheres idosas agora."
+   "Indicar ressonância magnética anual de mamas como método de rastreio para todas as mulheres idosas agora.",
+   "Decisão compartilhada considerando expectativa de vida, preferências e sempre o risco individual da paciente."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "prev",
@@ -88,23 +88,23 @@
   "base": "USPSTF breast cancer screening recommendation, 2024; AGS/ACS guidance on cancer screening in older adults, revisão 2023",
   "coment": "Acima da faixa etária com evidência direta de benefício, o rastreio de câncer de mama passa a ser decisão individualizada, guiada pela expectativa de vida — o benefício do rastreio leva cerca de dez anos para se materializar —, pelo estado funcional, pelas comorbidades e pela preferência da paciente. Suspender automaticamente por idade cronológica é tão inadequado quanto rastrear indefinidamente sem considerar o prognóstico individual.",
   "porAlt": [
-   "Correta: decisão compartilhada considerando expectativa de vida, preferências e risco individual.",
    "Suspender por idade cronológica isolada ignora a expectativa de vida e o estado funcional real.",
    "Rastrear indefinidamente expõe a dano imediato quando o benefício não é mais alcançável.",
    "A ultrassonografia é complementar e não substitui a mamografia como método de rastreio.",
-   "A ressonância é reservada ao alto risco e não é método de rastreio populacional em idosas."
+   "A ressonância é reservada ao alto risco e não é método de rastreio populacional em idosas.",
+   "Correta: decisão compartilhada considerando expectativa de vida, preferências e risco individual."
   ]
  },
  {
   "q": "Idoso hospitalizado permanece acamado por três dias sem indicação clínica de repouso. Qual é a principal consequência a prevenir?",
   "alts": [
-   "Declínio funcional hospitalar, prevenido sempre com mobilização precoce e programa de deambulação assistida.",
    "Ganho de massa muscular por repouso prolongado, efeito esperado da imobilidade durante a internação agora.",
+   "Declínio funcional hospitalar, prevenido sempre com mobilização precoce e programa de deambulação assistida.",
    "Melhora da densidade mineral óssea, benefício associado ao repouso no leito durante a internação agora.",
    "Redução do risco de delirium, efeito protetor do repouso prolongado em pacientes idosos internados agora.",
    "Aumento da capacidade aeróbica, consequência favorável do repouso no leito em pacientes idosos neste caso."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "prev",
@@ -112,8 +112,8 @@
   "base": "AGS/Hospital Elder Life Program recommendations, revisão 2023; JAMA Internal Medicine review on hospital-associated disability, 2023",
   "coment": "O declínio funcional associado à hospitalização atinge cerca de um terço dos idosos internados e frequentemente não é recuperado após a alta, levando a dependência e institucionalização. A imobilidade acelera sarcopenia, reduz capacidade aeróbica, favorece delirium, trombose, constipação e lesão por pressão. A prevenção é mobilização precoce, deambulação assistida, retirada de cateteres desnecessários, orientação temporal e estímulo ao autocuidado.",
   "porAlt": [
-   "Correta: declínio funcional hospitalar, prevenido por mobilização precoce e deambulação assistida.",
    "O repouso prolongado causa perda muscular acelerada, e não ganho de massa no paciente idoso.",
+   "Correta: declínio funcional hospitalar, prevenido por mobilização precoce e deambulação assistida.",
    "A imobilidade acelera a perda óssea, em vez de melhorar a densidade mineral do esqueleto.",
    "A imobilidade é fator de risco para delirium, e não medida protetora contra o quadro confusional.",
    "O repouso reduz a capacidade aeróbica de forma rápida e expressiva em pacientes idosos."
@@ -122,13 +122,13 @@
  {
   "q": "Paciente de 82 anos com constipação crônica em uso de opioide e ferro. Qual é a conduta inicial?",
   "alts": [
-   "Revisar medicamentos e prescrever laxante osmótico, orientando sempre hidratação e mobilização adequadas.",
    "Prescrever apenas fibra em alta dose sem qualquer revisão dos medicamentos em uso pelo paciente agora.",
    "Indicar colonoscopia de urgência a todos os idosos com constipação crônica, sem qualquer outra medida.",
    "Prescrever enema diário indefinido como principal estratégia de tratamento da constipação crônica agora.",
+   "Revisar medicamentos e prescrever laxante osmótico, orientando sempre hidratação e mobilização adequadas.",
    "Suspender abruptamente todos os medicamentos em uso, sem qualquer avaliação individual de cada um agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
@@ -136,10 +136,10 @@
   "base": "AGA/ACG Clinical Practice Guideline on chronic idiopathic constipation, 2023; AGS Beers Criteria, 2023",
   "coment": "No idoso, a constipação frequentemente tem causa medicamentosa: opioides, ferro, anticolinérgicos, bloqueadores de canal de cálcio e antidepressivos tricíclicos. O primeiro passo é revisar a prescrição, seguido de laxante osmótico como polietilenoglicol, hidratação e mobilização. Fibra em alta dose sem hidratação adequada pode agravar o quadro em pacientes com baixa mobilidade. Sinais de alarme como sangramento e perda de peso indicam colonoscopia.",
   "porAlt": [
-   "Correta: revisar os medicamentos, prescrever laxante osmótico e orientar hidratação e mobilização.",
    "Fibra em alta dose sem hidratação pode agravar a constipação no idoso com baixa mobilidade.",
    "A colonoscopia se indica por sinais de alarme, e não para todo idoso com constipação crônica.",
    "O enema diário indefinido não é estratégia de manejo e pode causar dependência e lesão local.",
+   "Correta: revisar os medicamentos, prescrever laxante osmótico e orientar hidratação e mobilização.",
    "Suspender tudo abruptamente pode descompensar condições que exigem tratamento contínuo."
   ]
  },
@@ -170,13 +170,13 @@
  {
   "q": "Idoso de 85 anos apresenta síncope durante esforço, com sopro sistólico rude em foco aórtico. Qual é a conduta?",
   "alts": [
-   "Investigar valvopatia com ecocardiograma e encaminhar sempre para avaliação de substituição valvar.",
    "Atribuir a síncope à idade avançada e liberar sem qualquer investigação cardiológica complementar.",
    "Prescrever apenas hidratação abundante e meias elásticas como tratamento definitivo do quadro descrito.",
    "Iniciar vasodilatador em dose plena como primeira medida diante do sopro sistólico rude descrito.",
-   "Solicitar apenas eletroencefalograma, exame que estabelece o diagnóstico da síncope de esforço descrita."
+   "Solicitar apenas eletroencefalograma, exame que estabelece o diagnóstico da síncope de esforço descrita.",
+   "Investigar valvopatia com ecocardiograma e encaminhar sempre para avaliação de substituição valvar."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "emg",
   "comp": "dx",
@@ -184,23 +184,23 @@
   "base": "ESC Guidelines for the management of valvular heart disease, 2021; Diretriz Brasileira de Valvopatias — SBC, revisão 2023",
   "coment": "Síncope aos esforços com sopro sistólico rude em foco aórtico irradiado para carótidas é altamente sugestiva de estenose aórtica grave, condição em que a síncope é um dos três sintomas cardinais e indica prognóstico reservado sem intervenção. A investigação é ecocardiograma, e a presença de sintomas em estenose grave indica substituição valvar, cirúrgica ou por implante transcateter, opção que ampliou o tratamento de pacientes muito idosos.",
   "porAlt": [
-   "Correta: investigar com ecocardiograma e encaminhar para avaliação de substituição valvar.",
    "Atribuir à idade uma síncope de esforço com sopro é erro que pode custar a vida do paciente.",
    "Hidratação e meias tratam síncope neuromediada, e não a obstrução valvar fixa suspeitada aqui.",
    "O vasodilatador em obstrução fixa pode precipitar hipotensão grave e síncope adicional.",
-   "O eletroencefalograma investiga epilepsia e não avalia a causa cardíaca suspeitada neste caso."
+   "O eletroencefalograma investiga epilepsia e não avalia a causa cardíaca suspeitada neste caso.",
+   "Correta: investigar com ecocardiograma e encaminhar para avaliação de substituição valvar."
   ]
  },
  {
   "q": "Paciente de 88 anos com fibrilação atrial e alto risco de queda pergunta se pode anticoagular. Qual é a orientação?",
   "alts": [
-   "O risco de queda raramente contraindica anticoagulação, pois o benefício supera sempre o risco estimado.",
    "O risco de queda contraindica de forma absoluta a anticoagulação em todos os pacientes muito idosos.",
    "A idade acima de oitenta anos por si só contraindica qualquer anticoagulação oral no paciente idoso.",
    "O antiagregante substitui a anticoagulação com segurança e eficácia equivalentes nesse perfil clínico.",
+   "O risco de queda raramente contraindica anticoagulação, pois o benefício supera sempre o risco estimado.",
    "A anticoagulação deve ser suspensa após qualquer queda, mesmo sem trauma craniano ou sangramento agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "prev",
@@ -208,10 +208,10 @@
   "base": "ESC Atrial Fibrillation Guidelines, 2024; AGS Beers Criteria, 2023; Diretriz Brasileira de Fibrilação Atrial — SBC, 2024",
   "coment": "Análises clássicas estimam que seria necessário um número muito elevado de quedas por ano para que o risco de hemorragia intracraniana superasse o benefício da anticoagulação na prevenção de acidente vascular cerebral. Assim, o risco de queda isolado não contraindica anticoagular: a conduta é anticoagular e trabalhar a prevenção de quedas com avaliação multifatorial, revisão de medicamentos, exercício e adequação do ambiente domiciliar.",
   "porAlt": [
-   "Correta: o risco de queda raramente contraindica anticoagular, e o benefício em geral supera o risco.",
    "O risco de queda não é contraindicação absoluta, sendo abordado com prevenção multifatorial.",
    "A idade avançada aumenta o risco embólico e reforça, e não afasta, o benefício da anticoagulação.",
    "O antiagregante é claramente inferior à anticoagulação na prevenção de embolia nessa arritmia.",
+   "Correta: o risco de queda raramente contraindica anticoagular, e o benefício em geral supera o risco.",
    "Suspender após queda sem trauma nem sangramento retira proteção contra evento embólico grave."
   ]
  },

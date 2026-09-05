@@ -50,13 +50,13 @@
  {
   "q": "Paciente com anemia, plaquetopenia, esquizócitos no sangue periférico, febre e alteração neurológica flutuante, com LDH muito elevado e Coombs direto negativo. Qual é a conduta imediata?",
   "alts": [
-   "Plasmaférese de urgência e corticoide, sempre antes do resultado da atividade da ADAMTS13.",
    "Transfusão de plaquetas em alto volume, primeira medida para corrigir a plaquetopenia grave.",
    "Heparina em dose plena, tratamento de escolha para a microangiopatia trombótica descrita.",
    "Aguardar o resultado da ADAMTS13 antes de qualquer intervenção terapêutica ser iniciada.",
+   "Plasmaférese de urgência e corticoide, sempre antes do resultado da atividade da ADAMTS13.",
    "Corticoide isolado por via oral, já suficiente para reverter o quadro sem procedimento invasivo."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "hemato",
   "cenario": "uti",
   "comp": "urg",
@@ -64,23 +64,23 @@
   "base": "ISTH guidelines for thrombotic thrombocytopenic purpura, 2020; ASH TTP guideline, 2020",
   "coment": "O quadro é púrpura trombocitopênica trombótica: anemia hemolítica microangiopática com esquizócitos, plaquetopenia, Coombs negativo e LDH elevado. A mortalidade sem tratamento supera noventa por cento e a plasmaférese reduz para menos de vinte, de modo que ela é iniciada por suspeita clínica, sem esperar a dosagem de ADAMTS13. Associa-se corticoide e, em muitos protocolos, caplacizumabe. Transfusão de plaquetas é contraindicada, salvo sangramento com risco de vida, por alimentar a trombose microvascular.",
   "porAlt": [
-   "Correta: plasmaférese de urgência com corticoide, iniciada pela suspeita clínica, sem aguardar exame.",
    "A transfusão de plaquetas pode agravar a trombose microvascular e é evitada nesta condição.",
    "A anticoagulação plena não trata a microangiopatia e aumenta o risco de sangramento grave.",
    "Esperar o resultado da ADAMTS13 atrasa a plasmaférese e aumenta muito a mortalidade do quadro.",
+   "Correta: plasmaférese de urgência com corticoide, iniciada pela suspeita clínica, sem aguardar exame.",
    "O corticoide isolado não substitui a plasmaférese, que é a intervenção que reduz a mortalidade."
   ]
  },
  {
   "q": "Homem de 72 anos com dor lombar, anemia, cálcio de 11,8 mg/dL e creatinina de 2,4 mg/dL. Qual exame confirma a suspeita diagnóstica principal?",
   "alts": [
-   "Eletroforese de proteínas com imunofixação e cadeias leves livres séricas, sempre com mielograma.",
    "Cintilografia óssea, exame de escolha para detectar as lesões líticas típicas dessa doença agora.",
    "Dosagem isolada de fosfatase alcalina, que se eleva de forma característica nessa condição agora.",
    "Biópsia de linfonodo cervical, procedimento que estabelece o diagnóstico nesse cenário clínico.",
-   "Apenas radiografia simples de coluna lombar, suficiente para o diagnóstico definitivo do caso."
+   "Apenas radiografia simples de coluna lombar, suficiente para o diagnóstico definitivo do caso.",
+   "Eletroforese de proteínas com imunofixação e cadeias leves livres séricas, sempre com mielograma."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "hemato",
   "cenario": "enf",
   "comp": "dx",
@@ -88,23 +88,23 @@
   "base": "International Myeloma Working Group — critérios diagnósticos, atualização 2024; NCCN Multiple Myeloma, 2024",
   "coment": "A tétrade de hipercalcemia, insuficiência renal, anemia e lesão óssea aponta mieloma múltiplo. O diagnóstico exige demonstrar a proteína monoclonal — eletroforese com imunofixação em soro e urina e cadeias leves livres séricas — e plasmocitose clonal na medula, além de imagem para lesões ósseas, preferencialmente tomografia de baixa dose, ressonância ou PET, e não cintilografia óssea, que é falsamente negativa por serem lesões líticas sem resposta osteoblástica.",
   "porAlt": [
-   "Correta: eletroforese com imunofixação, cadeias leves livres e avaliação medular fecham o diagnóstico.",
    "A cintilografia óssea costuma ser negativa porque as lesões são líticas, sem reação osteoblástica.",
    "A fosfatase alcalina permanece tipicamente normal, justamente pela ausência de atividade osteoblástica.",
    "A biópsia de linfonodo investiga linfoma, e não a discrasia plasmocitária suspeitada aqui.",
-   "A radiografia mostra lesões tardias e não demonstra a proteína monoclonal exigida pelo diagnóstico."
+   "A radiografia mostra lesões tardias e não demonstra a proteína monoclonal exigida pelo diagnóstico.",
+   "Correta: eletroforese com imunofixação, cadeias leves livres e avaliação medular fecham o diagnóstico."
   ]
  },
  {
   "q": "Paciente em uso de heparina há sete dias apresenta queda de plaquetas de 240.000 para 80.000/mm³ e trombose venosa nova. Qual é a conduta?",
   "alts": [
-   "Suspender toda heparina e iniciar anticoagulante alternativo, sempre sem aguardar sorologia.",
    "Manter a heparina em dose plena e transfundir plaquetas para corrigir a plaquetopenia observada.",
+   "Suspender toda heparina e iniciar anticoagulante alternativo, sempre sem aguardar sorologia.",
    "Trocar a heparina não fracionada por heparina de baixo peso molecular em dose terapêutica.",
    "Suspender a heparina e não anticoagular, pela plaquetopenia e pelo risco elevado de sangramento.",
    "Iniciar varfarina isoladamente logo após a suspensão, sem qualquer anticoagulante parenteral."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "hemato",
   "cenario": "enf",
   "comp": "urg",
@@ -112,8 +112,8 @@
   "base": "ASH guidelines on heparin-induced thrombocytopenia, 2018; American Society of Hematology, atualização 2023",
   "coment": "A trombocitopenia induzida por heparina é um estado protrombótico mediado por anticorpos contra o complexo heparina e fator plaquetário 4. Queda superior a cinquenta por cento entre o quinto e o décimo dia com trombose nova é altamente sugestiva. A conduta é suspender toda exposição à heparina e iniciar anticoagulante não heparínico, como argatroban, fondaparinux ou inibidor direto oral. A varfarina isolada é proibida no início, por precipitar gangrena venosa ao reduzir a proteína C.",
   "porAlt": [
-   "Correta: suspender toda heparina e anticoagular com alternativa não heparínica, sem esperar sorologia.",
    "Manter a heparina perpetua a trombose, e a transfusão de plaquetas pode agravar o risco trombótico.",
+   "Correta: suspender toda heparina e anticoagular com alternativa não heparínica, sem esperar sorologia.",
    "A heparina de baixo peso molecular tem reação cruzada com os anticorpos e mantém o processo ativo.",
    "Não anticoagular deixa ativo um estado protrombótico grave, com risco alto de novos eventos.",
    "A varfarina isolada no início pode causar gangrena venosa por queda rápida da proteína C."
@@ -170,13 +170,13 @@
  {
   "q": "Homem de 55 anos com hematócrito 58%, hemoglobina 19,5 g/dL, plaquetas 520.000/mm³, prurido após banho quente e esplenomegalia. Qual exame é o mais indicado?",
   "alts": [
-   "Pesquisa da mutação JAK2 V617F, sempre associada à dosagem de eritropoetina sérica do paciente.",
    "Gasometria arterial isolada, exame que confirma o diagnóstico dessa condição hematológica crônica.",
+   "Pesquisa da mutação JAK2 V617F, sempre associada à dosagem de eritropoetina sérica do paciente.",
    "Polissonografia de noite inteira, já primeiro exame indicado para investigar essa eritrocitose.",
    "Dosagem de testosterona sérica total, exame que estabelece a causa da poliglobulia observada.",
    "Ecocardiograma com contraste salino, exame diagnóstico de escolha nesse quadro hematológico."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
@@ -184,8 +184,8 @@
   "base": "OMS — classificação de neoplasias mieloides, 5ª edição, 2022; NCCN Myeloproliferative Neoplasms, 2024",
   "coment": "Eritrocitose com plaquetose, esplenomegalia e prurido aquagênico caracteriza policitemia vera. O critério molecular é a mutação JAK2, presente em mais de noventa e cinco por cento dos casos na forma V617F, e a eritropoetina sérica costuma estar baixa, ao contrário das causas secundárias. O tratamento combina flebotomia com alvo de hematócrito abaixo de quarenta e cinco por cento, ácido acetilsalicílico em dose baixa e citorredução nos pacientes de alto risco.",
   "porAlt": [
-   "Correta: pesquisa de JAK2 com eritropoetina sérica é a via diagnóstica dessa neoplasia mieloproliferativa.",
    "A gasometria pode sugerir causa hipoxêmica secundária, mas não confirma a neoplasia clonal.",
+   "Correta: pesquisa de JAK2 com eritropoetina sérica é a via diagnóstica dessa neoplasia mieloproliferativa.",
    "A polissonografia investiga apneia, causa secundária, e não é o primeiro exame neste quadro.",
    "A testosterona interessa quando há uso de andrógenos, mas não explica prurido nem esplenomegalia.",
    "O ecocardiograma investiga cardiopatia com shunt, hipótese pouco provável diante deste conjunto."
@@ -194,13 +194,13 @@
  {
   "q": "Paciente com hemofilia A grave apresenta hemartrose aguda de joelho. Qual é a conduta imediata?",
   "alts": [
-   "Repor fator VIII imediatamente, sempre antes de qualquer exame de imagem ser realizado agora.",
    "Realizar punção articular de urgência como primeira medida antes de qualquer reposição de fator.",
    "Prescrever anti-inflamatório não hormonal em dose plena para controlar a dor e a inflamação local.",
    "Solicitar ressonância magnética do joelho antes de decidir sobre a reposição do fator deficiente.",
-   "Imobilizar o membro e observar por vinte e quatro horas antes de considerar reposição de fator."
+   "Imobilizar o membro e observar por vinte e quatro horas antes de considerar reposição de fator.",
+   "Repor fator VIII imediatamente, sempre antes de qualquer exame de imagem ser realizado agora."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "hemato",
   "cenario": "emg",
   "comp": "urg",
@@ -208,23 +208,23 @@
   "base": "World Federation of Hemophilia — Guidelines for the Management of Hemophilia, 3ª edição, 2020",
   "coment": "Na hemofilia a regra é tratar primeiro e investigar depois: diante de suspeita de sangramento, o fator deficiente é reposto imediatamente, sem aguardar imagem ou confirmação. Na hemartrose, o alvo habitual é elevar o fator para cerca de cinquenta por cento. Punção articular raramente é necessária e traz risco de sangramento e infecção. Anti-inflamatórios não hormonais são evitados por disfunção plaquetária e risco digestivo; analgesia se faz com paracetamol e opioide se necessário.",
   "porAlt": [
-   "Correta: repor o fator deficiente imediatamente, antes de exames, é a regra em sangramento na hemofilia.",
    "A punção articular raramente é necessária e traz risco de sangramento adicional e de infecção.",
    "Anti-inflamatórios não hormonais são evitados por disfunção plaquetária e risco de sangramento digestivo.",
    "A ressonância não deve atrasar a reposição, que é decidida pelo quadro clínico e pela suspeita.",
-   "Observar sem repor permite dano articular progressivo e sangramento de difícil controle depois."
+   "Observar sem repor permite dano articular progressivo e sangramento de difícil controle depois.",
+   "Correta: repor o fator deficiente imediatamente, antes de exames, é a regra em sangramento na hemofilia."
   ]
  },
  {
   "q": "Mulher de 28 anos, assintomática, com plaquetas de 45.000/mm³, restante do hemograma normal, sem esplenomegalia e sem sangramento. Qual é a conduta?",
   "alts": [
-   "Excluir causas secundárias e observar sem tratar, já que não há sangramento nem risco iminente.",
    "Iniciar corticoide em dose alta imediatamente, pois a contagem por si só já indica tratamento.",
    "Transfundir plaquetas profilaticamente para elevar a contagem acima de cem mil por milímetro cúbico.",
+   "Excluir causas secundárias e observar sem tratar, já que não há sangramento nem risco iminente.",
    "Indicar esplenectomia precoce, procedimento de primeira linha para essa condição hematológica.",
    "Iniciar imunoglobulina endovenosa em dose alta como primeira medida terapêutica neste caso."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
@@ -232,9 +232,9 @@
   "base": "ASH guidelines for immune thrombocytopenia, 2019; International Consensus Report on ITP, 2019",
   "coment": "Na trombocitopenia imune do adulto, a decisão de tratar depende de sangramento e risco, não apenas da contagem. Pacientes assintomáticos com plaquetas acima de trinta mil por milímetro cúbico são acompanhados sem tratamento na maioria das diretrizes. Antes disso é preciso excluir causas secundárias: hepatite C, HIV, lúpus, Helicobacter pylori, fármacos e pseudotrombocitopenia por EDTA. Quando indicado, o tratamento inicial é corticoide, com imunoglobulina reservada a resposta rápida.",
   "porAlt": [
-   "Correta: excluir causas secundárias e observar, pois não há sangramento e a contagem permite acompanhar.",
    "A contagem isolada acima de trinta mil, sem sangramento, não indica tratamento imediato no adulto.",
    "A transfusão profilática de plaquetas não tem indicação e tem rendimento baixo nessa condição.",
+   "Correta: excluir causas secundárias e observar, pois não há sangramento e a contagem permite acompanhar.",
    "A esplenectomia é opção de segunda linha em casos refratários, e não conduta inicial aqui.",
    "A imunoglobulina se reserva a sangramento ou necessidade de elevar a contagem com rapidez."
   ]

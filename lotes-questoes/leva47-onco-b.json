@@ -2,13 +2,13 @@
  {
   "q": "Paciente em quimioterapia há dez dias apresenta febre de 38,5 °C e neutrófilos de 380/mm³. Qual é a conduta imediata?",
   "alts": [
-   "Coletar culturas e iniciar antibiótico de amplo espectro sempre na primeira hora do atendimento.",
    "Aguardar o resultado das hemoculturas antes de iniciar qualquer antibiótico no paciente febril.",
    "Prescrever apenas antitérmico e reavaliar em vinte e quatro horas com novo hemograma completo.",
    "Iniciar antifúngico isolado como terapia inicial de escolha para o paciente com neutropenia febril.",
-   "Transfundir concentrado de granulócitos como primeira medida antes da coleta de qualquer cultura."
+   "Transfundir concentrado de granulócitos como primeira medida antes da coleta de qualquer cultura.",
+   "Coletar culturas e iniciar antibiótico de amplo espectro sempre na primeira hora do atendimento."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "onco",
   "cenario": "emg",
   "comp": "urg",
@@ -16,23 +16,23 @@
   "base": "IDSA guideline for antimicrobial use in neutropenic patients, revisão 2024; ASCO/IDSA outpatient management, 2018",
   "coment": "Neutropenia febril é emergência oncológica: temperatura isolada de 38,3 °C ou 38,0 °C mantida por uma hora com neutrófilos abaixo de 500 por milímetro cúbico. O antibiótico de amplo espectro com cobertura antipseudomonas — cefepima, piperacilina-tazobactam ou meropenem — é administrado na primeira hora, após coleta de culturas, sem esperar resultado. Vancomicina não é rotina, entrando em suspeita de cateter, pele ou instabilidade. Antifúngico entra na febre persistente.",
   "porAlt": [
-   "Correta: coletar culturas e iniciar antibiótico de amplo espectro na primeira hora do atendimento.",
    "Aguardar culturas atrasa em horas o antibiótico e aumenta a mortalidade nessa emergência.",
    "Antitérmico isolado não trata a infecção e permite evolução para choque em poucas horas.",
    "O antifúngico entra na febre persistente após alguns dias, e não como terapia inicial isolada.",
-   "A transfusão de granulócitos é excepcional e não substitui a antibioticoterapia empírica precoce."
+   "A transfusão de granulócitos é excepcional e não substitui a antibioticoterapia empírica precoce.",
+   "Correta: coletar culturas e iniciar antibiótico de amplo espectro na primeira hora do atendimento."
   ]
  },
  {
   "q": "Homem de 60 anos com câncer de pulmão apresenta cálcio de 14,2 mg/dL, confusão e desidratação. Qual é a conduta inicial?",
   "alts": [
-   "Hidratação vigorosa com salina isotônica associada sempre a bisfosfonato endovenoso na sequência.",
    "Iniciar diurético de alça isolado como primeira medida, antes de qualquer reposição volêmica.",
    "Prescrever carbonato de cálcio por via oral e reavaliar a calcemia em quarenta e oito horas agora.",
    "Indicar hemodiálise em todos os casos de hipercalcemia como primeira medida terapêutica adotada.",
+   "Hidratação vigorosa com salina isotônica associada sempre a bisfosfonato endovenoso na sequência.",
    "Iniciar reposição de fósforo endovenoso rápido, medida de escolha para reduzir a calcemia grave."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "onco",
   "cenario": "enf",
   "comp": "urg",
@@ -40,10 +40,10 @@
   "base": "ESMO Clinical Practice Guidelines — hypercalcaemia of malignancy, 2020; Endocrine Society, revisão 2023",
   "coment": "A hipercalcemia da malignidade cursa com desidratação grave, porque o cálcio elevado gera diabetes insípido nefrogênico. O primeiro passo é hidratação vigorosa com salina isotônica, que restaura o volume e aumenta a excreção renal de cálcio. Em seguida entra bisfosfonato endovenoso, como zoledronato, com efeito em dois a quatro dias, ou denosumabe. Diurético de alça não é rotina e só entra após reposição, se houver sobrecarga. Calcitonina serve à queda rápida inicial.",
   "porAlt": [
-   "Correta: hidratação vigorosa com salina isotônica seguida de bisfosfonato endovenoso.",
    "O diurético antes da reposição agrava a desidratação e piora a hipercalcemia do paciente.",
    "O carbonato de cálcio oral aumenta a calcemia e é exatamente o oposto do que se deve fazer.",
    "A diálise se reserva a casos refratários, com insuficiência renal ou risco iminente de vida.",
+   "Correta: hidratação vigorosa com salina isotônica seguida de bisfosfonato endovenoso.",
    "O fósforo endovenoso rápido causa precipitação de cálcio nos tecidos e é contraindicado."
   ]
  },
@@ -74,13 +74,13 @@
  {
   "q": "Homem de 58 anos com câncer de próstata metastático apresenta dor lombar intensa e fraqueza progressiva em membros inferiores. Qual é a conduta imediata?",
   "alts": [
-   "Corticoide em dose alta e ressonância de coluna com urgência, sempre antes do déficit se completar.",
    "Prescrever analgésico oral e agendar ressonância de coluna eletiva para a semana seguinte ao quadro.",
    "Solicitar cintilografia óssea e aguardar o resultado antes de qualquer intervenção terapêutica.",
+   "Corticoide em dose alta e ressonância de coluna com urgência, sempre antes do déficit se completar.",
    "Iniciar fisioterapia motora intensiva como primeira medida para recuperar a força dos membros agora.",
    "Realizar bloqueio anestésico paravertebral, conduta inicial de escolha para essa dor oncológica."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "onco",
   "cenario": "emg",
   "comp": "urg",
@@ -88,9 +88,9 @@
   "base": "NICE guideline NG234 — Metastatic spinal cord compression, 2023; ESMO guideline, 2020",
   "coment": "Compressão medular metastática é emergência: o preditor mais forte de recuperação é o estado neurológico no momento do tratamento, de modo que quem chega deambulando tende a continuar deambulando e quem chega plégico raramente recupera. A conduta é dexametasona imediata e ressonância de toda a coluna em até vinte e quatro horas, seguida de decisão entre cirurgia descompressiva e radioterapia. Dor lombar em paciente oncológico com déficit motor é compressão até prova contrária.",
   "porAlt": [
-   "Correta: corticoide imediato e ressonância urgente, porque o prognóstico depende do estado ao tratar.",
    "Agendar imagem eletiva permite que o déficit se complete e se torne irreversível nesse intervalo.",
    "A cintilografia não avalia compressão medular e esperar seu resultado atrasa o tratamento eficaz.",
+   "Correta: corticoide imediato e ressonância urgente, porque o prognóstico depende do estado ao tratar.",
    "A fisioterapia não reverte compressão medular e não substitui a descompressão urgente da medula.",
    "O bloqueio trata a dor sem tratar a compressão, permitindo a progressão do déficit neurológico."
   ]
@@ -98,13 +98,13 @@
  {
   "q": "Mulher de 52 anos, assintomática, com risco habitual. Qual é a recomendação de rastreio de câncer de mama no Brasil?",
   "alts": [
-   "Mamografia bienal dos cinquenta aos sessenta e nove anos, sempre pactuada com a mulher informada.",
    "Mamografia anual a partir dos vinte e cinco anos para toda mulher com risco habitual no país.",
    "Ultrassonografia mamária isolada anual, método de rastreio populacional recomendado no Brasil.",
    "Ressonância magnética de mamas anual para toda mulher de risco habitual acima dos cinquenta anos.",
+   "Mamografia bienal dos cinquenta aos sessenta e nove anos, sempre pactuada com a mulher informada.",
    "Apenas exame clínico das mamas anual, sem qualquer método de imagem no rastreio populacional."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
@@ -112,23 +112,23 @@
   "base": "INCA/Ministério da Saúde — Diretrizes para a detecção precoce do câncer de mama no Brasil, revisão 2023",
   "coment": "No Brasil, a recomendação oficial para mulheres de risco habitual é mamografia bienal dos cinquenta aos sessenta e nove anos, com decisão compartilhada e informação sobre benefícios e danos, incluindo resultado falso-positivo e sobrediagnóstico. Sociedades médicas defendem início aos quarenta anos e periodicidade anual, divergência que o candidato precisa conhecer. Ultrassonografia e ressonância são complementares ou reservadas ao alto risco, não ao rastreio populacional.",
   "porAlt": [
-   "Correta: mamografia bienal dos cinquenta aos sessenta e nove anos, com decisão compartilhada.",
    "Iniciar aos vinte e cinco anos não tem respaldo e produz muito mais dano do que benefício.",
    "A ultrassonografia é complementar em mama densa, mas não é método de rastreio populacional.",
    "A ressonância é reservada ao alto risco, como mutação genética ou irradiação torácica prévia.",
+   "Correta: mamografia bienal dos cinquenta aos sessenta e nove anos, com decisão compartilhada.",
    "O exame clínico isolado tem sensibilidade insuficiente e não substitui a mamografia no rastreio."
   ]
  },
  {
   "q": "Paciente de 65 anos com câncer avançado e dor intensa em uso de morfina apresenta constipação persistente. Qual é a conduta?",
   "alts": [
-   "Prescrever laxante de forma profilática e contínua, sempre mantido enquanto durar o opioide.",
    "Suspender o opioide e substituir por anti-inflamatório não hormonal para controlar a dor descrita.",
    "Prescrever laxante apenas quando a constipação se tornar grave e sintomática para o paciente.",
    "Aumentar a ingestão de fibras como medida isolada, suficiente para resolver a constipação induzida.",
+   "Prescrever laxante de forma profilática e contínua, sempre mantido enquanto durar o opioide.",
    "Indicar enema semanal programado como única medida de manejo da constipação induzida por opioide."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -136,23 +136,23 @@
   "base": "ESMO Clinical Practice Guidelines — cancer pain management, 2018 com atualização 2023; ANZSPM revisão 2022",
   "coment": "A constipação induzida por opioide não sofre tolerância: persiste enquanto durar o tratamento, diferentemente de náusea e sonolência. Por isso o laxante é prescrito de forma profilática desde o início, tipicamente combinando estimulante como bisacodil ou sena com osmótico como polietilenoglicol ou lactulose. Fibra isolada é insuficiente e pode piorar em paciente com baixa ingesta hídrica. Antagonistas periféricos como metilnaltrexona ficam para casos refratários.",
   "porAlt": [
-   "Correta: laxante profilático contínuo enquanto durar o opioide, pois não há tolerância a esse efeito.",
    "Suspender o opioide deixa a dor sem controle e o anti-inflamatório é insuficiente na dor intensa.",
    "Esperar a constipação se instalar produz sofrimento evitável, incluindo risco de fecaloma.",
    "A fibra isolada é insuficiente e pode agravar o quadro em paciente com baixa ingesta de líquidos.",
+   "Correta: laxante profilático contínuo enquanto durar o opioide, pois não há tolerância a esse efeito.",
    "O enema é medida de resgate pontual, e não estratégia de manejo contínuo da constipação."
   ]
  },
  {
   "q": "Homem de 70 anos, tabagista de 40 maços-ano, parou de fumar há 8 anos. Qual é a recomendação de rastreio de câncer de pulmão?",
   "alts": [
-   "Tomografia de tórax de baixa dose anual, sempre com programa estruturado de cessação do tabagismo.",
    "Radiografia de tórax anual, exame recomendado para o rastreio de câncer de pulmão nesse perfil.",
    "Citologia de escarro seriada anual, método de rastreio validado para pacientes tabagistas pesados.",
+   "Tomografia de tórax de baixa dose anual, sempre com programa estruturado de cessação do tabagismo.",
    "Nenhum rastreio, pois a cessação há oito anos elimina completamente o risco de câncer de pulmão.",
    "Broncoscopia anual com biópsia dirigida, método de rastreio recomendado para tabagistas pesados."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
@@ -160,9 +160,9 @@
   "base": "USPSTF lung cancer screening recommendation, 2021; NCCN Lung Cancer Screening, 2024",
   "coment": "O rastreio de câncer de pulmão com tomografia de baixa dose anual é recomendado para pessoas de cinquenta a oitenta anos com pelo menos vinte maços-ano de carga tabágica, fumantes atuais ou que cessaram há menos de quinze anos. O ensaio norte-americano mostrou redução de vinte por cento na mortalidade específica. A radiografia foi testada e não reduziu mortalidade. O programa deve incluir cessação do tabagismo, que amplifica o benefício obtido.",
   "porAlt": [
-   "Correta: tomografia de baixa dose anual associada a programa estruturado de cessação do tabagismo.",
    "A radiografia foi avaliada em ensaio grande e não reduziu a mortalidade por câncer de pulmão.",
    "A citologia de escarro tem baixa sensibilidade e foi abandonada como método de rastreio.",
+   "Correta: tomografia de baixa dose anual associada a programa estruturado de cessação do tabagismo.",
    "O risco permanece elevado por muitos anos após a cessação, mantendo a indicação de rastreio.",
    "A broncoscopia é procedimento invasivo diagnóstico e nunca foi método de rastreio populacional."
   ]
@@ -194,13 +194,13 @@
  {
   "q": "Mulher de 45 anos com massa mamária palpável endurecida, fixa, com retração de pele. Mamografia sem alterações. Qual é a conduta?",
   "alts": [
-   "Prosseguir a investigação com biópsia, pois a mamografia normal não exclui sempre a doença maligna.",
    "Tranquilizar a paciente e repetir a mamografia em doze meses, já dada a normalidade do exame atual.",
    "Solicitar apenas termografia mamária, exame que esclarece a natureza do nódulo palpável descrito.",
    "Prescrever anti-inflamatório por trinta dias e reavaliar clinicamente apenas se houver piora local.",
-   "Indicar mastectomia imediata sem qualquer confirmação histológica prévia da natureza da lesão agora."
+   "Indicar mastectomia imediata sem qualquer confirmação histológica prévia da natureza da lesão agora.",
+   "Prosseguir a investigação com biópsia, pois a mamografia normal não exclui sempre a doença maligna."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "dx",
@@ -208,23 +208,23 @@
   "base": "INCA — Detecção precoce do câncer de mama, revisão 2023; NCCN Breast Cancer Screening and Diagnosis, 2024",
   "coment": "Lesão palpável suspeita exige investigação independentemente da mamografia, que tem sensibilidade reduzida em mama densa e pode ser normal em até quinze por cento dos cânceres palpáveis. A conduta é ultrassonografia complementar e biópsia da lesão, geralmente por agulha grossa, que fornece histologia e perfil imuno-histoquímico. Achados de alarme incluem consistência endurecida, fixação a planos profundos, retração de pele e linfonodo axilar endurecido.",
   "porAlt": [
-   "Correta: lesão clinicamente suspeita exige biópsia, pois mamografia normal não exclui malignidade.",
    "Repetir em doze meses permite a progressão da doença e perde a janela de tratamento curativo.",
    "A termografia não tem acurácia para diagnóstico de câncer de mama e não é recomendada.",
    "Anti-inflamatório não esclarece a natureza da lesão e apenas adia o diagnóstico definitivo.",
-   "A mastectomia sem histologia expõe a cirurgia mutiladora sem confirmação do diagnóstico."
+   "A mastectomia sem histologia expõe a cirurgia mutiladora sem confirmação do diagnóstico.",
+   "Correta: lesão clinicamente suspeita exige biópsia, pois mamografia normal não exclui malignidade."
   ]
  },
  {
   "q": "Paciente com câncer colorretal em quimioterapia relata náusea e vômito nas primeiras horas após cada infusão. Qual é a conduta?",
   "alts": [
-   "Profilaxia antiemética conforme o potencial emetogênico do esquema, sempre antes de cada infusão.",
    "Prescrever antiemético apenas quando o vômito ocorrer, evitando medicação desnecessária ao paciente.",
    "Reduzir a dose da quimioterapia em cinquenta por cento como primeira medida para controlar a náusea.",
+   "Profilaxia antiemética conforme o potencial emetogênico do esquema, sempre antes de cada infusão.",
    "Suspender definitivamente o tratamento oncológico diante de náusea e vômito após a infusão agora.",
    "Prescrever apenas dieta líquida fria e repouso, medidas suficientes para o controle desse sintoma."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -232,9 +232,9 @@
   "base": "ASCO Antiemetics guideline, atualização 2024; MASCC/ESMO Antiemetic Guidelines, 2023",
   "coment": "A prevenção da náusea e do vômito induzidos por quimioterapia é feita antes da infusão, conforme o potencial emetogênico do esquema. Em regimes altamente emetogênicos combinam-se antagonista de receptor de serotonina, antagonista de neurocinina-1, dexametasona e olanzapina. Tratar apenas quando o vômito ocorre é menos eficaz e favorece a náusea antecipatória, condicionamento difícil de reverter. Reduzir dose por sintoma controlável compromete a eficácia oncológica.",
   "porAlt": [
-   "Correta: profilaxia antiemética antes de cada infusão, escolhida pelo potencial emetogênico do esquema.",
    "Tratar apenas quando ocorre o vômito é menos eficaz e favorece a náusea antecipatória condicionada.",
    "Reduzir a dose por sintoma controlável com antiemético compromete a eficácia do tratamento.",
+   "Correta: profilaxia antiemética antes de cada infusão, escolhida pelo potencial emetogênico do esquema.",
    "Suspender o tratamento por náusea controlável retira do paciente o benefício oncológico esperado.",
    "Medidas dietéticas ajudam, mas são insuficientes diante de esquemas de alto potencial emetogênico."
   ]

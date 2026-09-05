@@ -2,13 +2,13 @@
  {
   "q": "Paciente com cirrose e encefalopatia hepática grau 2, com desorientação e asterixe. Qual é a conduta?",
   "alts": [
-   "Lactulose com identificação e correção do fator precipitante, associando sempre rifaximina se houver recorrência.",
    "Restringir proteína da dieta de forma prolongada como principal medida terapêutica da encefalopatia hepática.",
    "Prescrever apenas benzodiazepínico para o controle da agitação associada ao quadro de encefalopatia neste caso.",
    "Iniciar corticoide sistêmico em dose alta como tratamento de escolha da encefalopatia hepática descrita agora.",
+   "Lactulose com identificação e correção do fator precipitante, associando sempre rifaximina se houver recorrência.",
    "Indicar transplante hepático imediato em todos os casos de encefalopatia hepática grau 2 diagnosticada agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
@@ -16,23 +16,23 @@
   "base": "EASL Clinical Practice Guidelines on hepatic encephalopathy, 2022; AASLD practice guidance, 2023",
   "coment": "O tratamento da encefalopatia hepática combina lactulose, que reduz a produção e a absorção de amônia e tem alvo de duas a três evacuações pastosas por dia, com a busca ativa do fator precipitante: infecção incluindo peritonite bacteriana espontânea, sangramento digestivo, constipação, distúrbio eletrolítico, desidratação por diurético e uso de sedativos. Rifaximina é acrescentada na recorrência. A restrição proteica prolongada é contraindicada por agravar a sarcopenia.",
   "porAlt": [
-   "Correta: lactulose com correção do fator precipitante, acrescentando rifaximina na recorrência.",
    "A restrição proteica prolongada agrava a sarcopenia e piora o prognóstico do paciente cirrótico.",
    "Benzodiazepínicos agravam a encefalopatia e devem ser evitados nesses pacientes com cirrose.",
    "O corticoide não trata a encefalopatia hepática e pode favorecer infecção no paciente cirrótico.",
+   "Correta: lactulose com correção do fator precipitante, acrescentando rifaximina na recorrência.",
    "O transplante é avaliado no contexto da doença hepática avançada, e não indicado por um episódio."
   ]
  },
  {
   "q": "Paciente com achado de esteatose hepática e síndrome metabólica, com transaminases levemente elevadas. Qual é a conduta?",
   "alts": [
-   "Perda de peso e controle metabólico, avaliando sempre o grau de fibrose por método não invasivo disponível.",
    "Prescrever apenas hepatoprotetor de venda livre como tratamento definitivo da esteatose hepática descrita.",
    "Indicar biópsia hepática imediata em todos os pacientes com esteatose e transaminases levemente elevadas.",
    "Iniciar corticoide sistêmico contínuo como tratamento de escolha da doença hepática gordurosa metabólica.",
-   "Não realizar qualquer avaliação, pois a esteatose hepática nunca evolui para fibrose ou cirrose hepática."
+   "Não realizar qualquer avaliação, pois a esteatose hepática nunca evolui para fibrose ou cirrose hepática.",
+   "Perda de peso e controle metabólico, avaliando sempre o grau de fibrose por método não invasivo disponível."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
@@ -40,23 +40,23 @@
   "base": "AASLD Practice Guidance on metabolic dysfunction-associated steatotic liver disease, 2023; EASL-EASD-EASO Clinical Practice Guidelines, 2024",
   "coment": "A doença hepática esteatótica associada à disfunção metabólica é hoje a hepatopatia crônica mais prevalente e pode evoluir para esteato-hepatite, fibrose, cirrose e carcinoma hepatocelular. O tratamento central é perda de peso — cerca de sete a dez por cento reverte esteato-hepatite e melhora a fibrose — associada a controle de diabetes, dislipidemia e pressão. A avaliação de fibrose usa escores como FIB-4 e elastografia, reservando a biópsia a casos duvidosos.",
   "porAlt": [
-   "Correta: perda de peso e controle metabólico, com avaliação de fibrose por método não invasivo.",
    "Hepatoprotetores de venda livre não têm eficácia demonstrada nessa hepatopatia metabólica.",
    "A biópsia se reserva a casos duvidosos, após triagem de fibrose por escores e elastografia.",
    "O corticoide não é tratamento dessa doença e agrava o ganho de peso e o controle glicêmico.",
-   "A esteatose pode evoluir para fibrose e cirrose, o que justifica a estratificação e o seguimento."
+   "A esteatose pode evoluir para fibrose e cirrose, o que justifica a estratificação e o seguimento.",
+   "Correta: perda de peso e controle metabólico, com avaliação de fibrose por método não invasivo."
   ]
  },
  {
   "q": "Paciente com doença de Crohn ileal com doença moderada a grave e falha de corticoide. Qual é a conduta?",
   "alts": [
-   "Iniciar imunobiológico após rastreio de infecções latentes, planejando sempre estratégia de manutenção.",
    "Manter corticoide sistêmico em dose alta indefinidamente como estratégia de manutenção da remissão.",
    "Prescrever apenas antiespasmódico e dieta sem lactose como tratamento da doença moderada a grave agora.",
    "Indicar ressecção intestinal extensa imediatamente a todos os pacientes com falha do corticoide inicial.",
+   "Iniciar imunobiológico após rastreio de infecções latentes, planejando sempre estratégia de manutenção.",
    "Iniciar apenas antibiótico oral contínuo por doze meses como tratamento de manutenção da doença agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
@@ -64,23 +64,23 @@
   "base": "ECCO guidelines on therapeutics in Crohn's disease, 2022; AGA Clinical Practice Guideline, revisão 2024",
   "coment": "O corticoide induz remissão mas não a mantém, e não deve ser usado como manutenção pela toxicidade. Na doença de Crohn moderada a grave com falha ou dependência de corticoide, indicam-se imunobiológicos — anti-TNF, ustequinumabe ou vedolizumabe — isolados ou combinados com imunomodulador, sempre após rastreio de tuberculose latente e hepatites. A cirurgia se reserva a complicações como estenose sintomática, fístula complexa e abscesso.",
   "porAlt": [
-   "Correta: imunobiológico após rastreio de infecções latentes, com estratégia de manutenção definida.",
    "O corticoide não mantém remissão e o uso prolongado acumula toxicidade importante e evitável.",
    "Antiespasmódico e dieta são adjuvantes e não controlam a inflamação transmural da doença.",
    "A ressecção extensa se reserva a complicações, e não à falha do tratamento clínico inicial.",
+   "Correta: imunobiológico após rastreio de infecções latentes, com estratégia de manutenção definida.",
    "O antibiótico prolongado não é tratamento de manutenção da doença inflamatória intestinal."
   ]
  },
  {
   "q": "Paciente com cirrose compensada por hepatite B pergunta sobre rastreio de carcinoma hepatocelular. Qual é a orientação?",
   "alts": [
-   "Ultrassonografia abdominal a cada seis meses, com alfafetoproteína conforme sempre o protocolo do serviço.",
    "Tomografia de abdome mensal como método de rastreio de carcinoma hepatocelular no paciente cirrótico.",
    "Nenhum rastreio, pois a cirrose compensada não aumenta o risco de carcinoma hepatocelular no paciente.",
    "Apenas dosagem isolada de alfafetoproteína anual como único método de rastreio nesse grupo de risco agora.",
-   "Biópsia hepática semestral como método de rastreio de carcinoma hepatocelular no paciente com cirrose."
+   "Biópsia hepática semestral como método de rastreio de carcinoma hepatocelular no paciente com cirrose.",
+   "Ultrassonografia abdominal a cada seis meses, com alfafetoproteína conforme sempre o protocolo do serviço."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
@@ -88,23 +88,23 @@
   "base": "AASLD Practice Guidance on hepatocellular carcinoma, 2023; EASL Clinical Practice Guidelines, 2025",
   "coment": "O rastreio de carcinoma hepatocelular é indicado para todos os cirróticos e para portadores de hepatite B em grupos de risco mesmo sem cirrose, com ultrassonografia abdominal a cada seis meses, associada ou não à alfafetoproteína conforme o protocolo. O intervalo de seis meses é definido pelo tempo de duplicação tumoral. Nódulo detectado é caracterizado por tomografia ou ressonância com contraste em fases dinâmicas, muitas vezes dispensando biópsia.",
   "porAlt": [
-   "Correta: ultrassonografia semestral, com alfafetoproteína conforme o protocolo adotado no serviço.",
    "A tomografia mensal expõe a radiação e contraste sem qualquer benefício adicional demonstrado.",
    "A cirrose é o principal fator de risco para carcinoma hepatocelular e exige rastreio regular.",
    "A alfafetoproteína isolada tem sensibilidade insuficiente e não substitui a ultrassonografia.",
-   "A biópsia é procedimento diagnóstico invasivo e nunca método de rastreio populacional periódico."
+   "A biópsia é procedimento diagnóstico invasivo e nunca método de rastreio populacional periódico.",
+   "Correta: ultrassonografia semestral, com alfafetoproteína conforme o protocolo adotado no serviço."
   ]
  },
  {
   "q": "Paciente com dispepsia sem sinais de alarme, com menos de 45 anos. Qual é a conduta inicial?",
   "alts": [
-   "Testar e tratar Helicobacter pylori, reservando sempre a endoscopia aos casos com falha ou alarme.",
    "Realizar endoscopia digestiva alta em todos os pacientes jovens com dispepsia sem sinais de alarme.",
    "Prescrever apenas antiespasmódico contínuo por doze meses sem qualquer investigação complementar.",
+   "Testar e tratar Helicobacter pylori, reservando sempre a endoscopia aos casos com falha ou alarme.",
    "Iniciar corticoide oral em dose alta como tratamento inicial da dispepsia sem sinais de alarme.",
    "Indicar cirurgia antirrefluxo imediatamente em todos os pacientes jovens com queixa de dispepsia."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
@@ -112,9 +112,9 @@
   "base": "ACG/CAG Clinical Guideline on dyspepsia, revisão 2022; Consenso Brasileiro sobre Helicobacter pylori, 2022",
   "coment": "Em paciente jovem com dispepsia e sem sinais de alarme — perda de peso, disfagia, vômitos persistentes, anemia, sangramento, massa palpável e história familiar de neoplasia gástrica —, a estratégia recomendada é testar e tratar Helicobacter pylori, com teste respiratório ou antígeno fecal. Sem resposta, tenta-se inibidor de bomba de prótons. A endoscopia é reservada a sinais de alarme, idade acima do limiar local e falha terapêutica.",
   "porAlt": [
-   "Correta: testar e tratar Helicobacter pylori, com endoscopia reservada a falha ou sinais de alarme.",
    "A endoscopia em todos os jovens sem alarme é de baixo rendimento e onera o sistema de saúde.",
    "O antiespasmódico contínuo por um ano não trata a causa e retarda o manejo adequado do quadro.",
+   "Correta: testar e tratar Helicobacter pylori, com endoscopia reservada a falha ou sinais de alarme.",
    "O corticoide não é tratamento da dispepsia e pode agravar a lesão da mucosa gastroduodenal.",
    "A cirurgia antirrefluxo tem indicações restritas e jamais é conduta inicial para dispepsia."
   ]
@@ -122,13 +122,13 @@
  {
   "q": "Paciente com diarreia crônica aquosa de grande volume que persiste durante o jejum. Qual é o mecanismo mais provável?",
   "alts": [
-   "Diarreia secretória, que persiste sempre durante o jejum e cursa com hiato osmótico fecal reduzido.",
    "Diarreia osmótica clássica, que persiste durante o jejum e cursa com hiato osmótico fecal reduzido.",
+   "Diarreia secretória, que persiste sempre durante o jejum e cursa com hiato osmótico fecal reduzido.",
    "Diarreia por má absorção de gordura, que cessa completamente durante o jejum prolongado do paciente.",
    "Diarreia funcional do intestino irritável, que tipicamente desperta o paciente e persiste no jejum.",
    "Diarreia factícia por laxante osmótico, definida por persistência no jejum com hiato osmótico baixo."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -136,8 +136,8 @@
   "base": "AGA Clinical Practice Guideline on the evaluation of chronic diarrhea, revisão 2023; Sleisenger and Fordtran, 11ª edição, 2021",
   "coment": "A diarreia secretória decorre de secreção ativa de eletrólitos, é de grande volume, persiste no jejum, costuma ocorrer também à noite e tem hiato osmótico fecal reduzido, abaixo de cinquenta miliosmóis por quilograma. A osmótica, ao contrário, cessa com o jejum e tem hiato elevado. Causas secretórias incluem toxinas bacterianas, tumores neuroendócrinos, colite microscópica, má absorção de sais biliares e uso de laxantes estimulantes.",
   "porAlt": [
-   "Correta: diarreia secretória, que persiste no jejum e cursa com hiato osmótico fecal reduzido.",
    "A diarreia osmótica cessa com o jejum e cursa com hiato osmótico fecal elevado, não reduzido.",
+   "Correta: diarreia secretória, que persiste no jejum e cursa com hiato osmótico fecal reduzido.",
    "A má absorção de gordura melhora com o jejum, pois depende da oferta de nutrientes na luz.",
    "A diarreia funcional tipicamente não desperta o paciente à noite e não persiste no jejum.",
    "Laxante osmótico produz diarreia osmótica, que cessa no jejum e tem hiato osmótico elevado."
@@ -146,13 +146,13 @@
  {
   "q": "Paciente com hemorragia digestiva alta não varicosa e úlcera com vaso visível na endoscopia. Qual é a conduta?",
   "alts": [
-   "Terapia endoscópica combinada seguida de inibidor de bomba de prótons endovenoso, mantido sempre em infusão.",
    "Apenas observação clínica sem qualquer terapia endoscópica na úlcera com vaso visível identificada agora.",
    "Cirurgia imediata em todos os casos de úlcera com vaso visível encontrada durante o exame endoscópico agora.",
+   "Terapia endoscópica combinada seguida de inibidor de bomba de prótons endovenoso, mantido sempre em infusão.",
    "Apenas inibidor de bomba de prótons oral em dose habitual, sem qualquer terapia endoscópica associada agora.",
    "Anticoagulação plena imediata para melhorar a perfusão da mucosa gástrica acometida pela úlcera neste caso."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "tto",
@@ -160,9 +160,9 @@
   "base": "ESGE Guideline on diagnosis and management of nonvariceal upper gastrointestinal hemorrhage, 2021; ACG Clinical Guideline, 2021",
   "coment": "A classificação de Forrest estratifica o risco de ressangramento: sangramento ativo e vaso visível não sangrante são lesões de alto risco e exigem terapia endoscópica, preferencialmente combinada, associando injeção de adrenalina a método térmico ou mecânico como clipe. Após o procedimento, indica-se inibidor de bomba de prótons endovenoso em infusão contínua ou em bolus intermitente de dose alta, além de pesquisa e erradicação de Helicobacter pylori.",
   "porAlt": [
-   "Correta: terapia endoscópica combinada seguida de inibidor de bomba de prótons endovenoso.",
    "Vaso visível é lesão de alto risco de ressangramento e exige tratamento endoscópico dirigido.",
    "A cirurgia se reserva à falha do tratamento endoscópico repetido ou a sangramento incontrolável.",
+   "Correta: terapia endoscópica combinada seguida de inibidor de bomba de prótons endovenoso.",
    "O inibidor oral em dose habitual é insuficiente após lesão endoscópica de alto risco.",
    "A anticoagulação agrava o sangramento e é formalmente contraindicada nesse contexto agudo."
   ]
@@ -170,13 +170,13 @@
  {
   "q": "Paciente com icterícia, colúria, acolia e dilatação de vias biliares à ultrassonografia, com febre e dor em hipocôndrio direito. Qual é a conduta?",
   "alts": [
-   "Antibiótico e drenagem biliar precoce, pois a colangite aguda exige sempre descompressão da via obstruída.",
    "Apenas antibiótico oral ambulatorial e reavaliação clínica após sete dias de tratamento antimicrobiano.",
+   "Antibiótico e drenagem biliar precoce, pois a colangite aguda exige sempre descompressão da via obstruída.",
    "Aguardar a resolução espontânea da obstrução biliar antes de qualquer drenagem ou antibioticoterapia.",
    "Prescrever apenas analgésico e antiespasmódico como tratamento definitivo do quadro clínico descrito.",
    "Indicar apenas colecistectomia eletiva em três meses, sem qualquer drenagem da via biliar obstruída agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "urg",
@@ -184,8 +184,8 @@
   "base": "Tokyo Guidelines 2018 com revisão 2023; ESGE guideline on endoscopic management of acute cholangitis, 2023",
   "coment": "A tríade de Charcot — febre, icterícia e dor em hipocôndrio direito — sugere colangite aguda, que se torna grave com hipotensão e alteração de consciência, completando a pêntade de Reynolds. O tratamento combina antibiótico com cobertura para gram-negativos e anaeróbios, suporte hemodinâmico e drenagem biliar precoce, geralmente por colangiopancreatografia retrógrada endoscópica, feita em até vinte e quatro horas nos casos graves.",
   "porAlt": [
-   "Correta: antibiótico com drenagem biliar precoce, pois a via obstruída precisa ser descomprimida.",
    "Antibiótico oral ambulatorial não trata colangite com obstrução, que evolui rapidamente para sepse.",
+   "Correta: antibiótico com drenagem biliar precoce, pois a via obstruída precisa ser descomprimida.",
    "Aguardar resolução espontânea em colangite obstrutiva permite choque séptico e óbito evitável.",
    "Analgésico e antiespasmódico não tratam a infecção nem descomprimem a via biliar obstruída.",
    "Adiar por três meses sem drenar a via biliar obstruída não é conduta aceitável nesse quadro."
@@ -194,13 +194,13 @@
  {
   "q": "Paciente com doença do refluxo gastroesofágico com sintomas típicos e boa resposta ao inibidor de bomba de prótons, sem sinais de alarme. Qual é a conduta?",
   "alts": [
-   "Manter o tratamento pelo menor tempo eficaz com medidas comportamentais, reservando sempre exames a alarme ou falha.",
    "Indicar endoscopia digestiva alta anual de rotina para todos os pacientes com sintomas típicos e boa resposta agora.",
+   "Manter o tratamento pelo menor tempo eficaz com medidas comportamentais, reservando sempre exames a alarme ou falha.",
    "Indicar cirurgia antirrefluxo imediatamente em todos os pacientes com sintomas típicos e boa resposta clínica agora.",
    "Manter inibidor de bomba de prótons em dose máxima indefinidamente sem qualquer tentativa de redução neste caso.",
    "Suspender abruptamente o inibidor e não oferecer qualquer medida comportamental ou seguimento clínico neste caso."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
@@ -208,8 +208,8 @@
   "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022",
   "coment": "No refluxo com sintomas típicos e sem sinais de alarme, o diagnóstico é clínico e a resposta ao inibidor de bomba de prótons confirma a hipótese. O tratamento associa medidas comportamentais — perda de peso, elevação da cabeceira, evitar deitar após refeições, cessar tabagismo — ao fármaco na menor dose eficaz, com tentativa de redução após oito semanas. Endoscopia se reserva a sinais de alarme, falha terapêutica ou rastreio de esôfago de Barrett em grupos de risco.",
   "porAlt": [
-   "Correta: menor dose eficaz com medidas comportamentais, reservando exames a alarme ou falha.",
    "A endoscopia anual de rotina não é indicada em paciente com sintomas típicos e boa resposta.",
+   "Correta: menor dose eficaz com medidas comportamentais, reservando exames a alarme ou falha.",
    "A cirurgia se reserva a casos selecionados, como refratariedade ou intolerância ao tratamento clínico.",
    "Manter dose máxima indefinidamente sem tentar reduzir expõe a efeitos adversos de uso prolongado.",
    "Suspender abruptamente sem medidas comportamentais provoca recidiva sintomática por rebote ácido."

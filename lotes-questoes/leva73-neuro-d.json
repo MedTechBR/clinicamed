@@ -2,13 +2,13 @@
  {
   "q": "Paciente com acidente vascular cerebral isquêmico prévio, hipertenso e dislipidêmico. Qual é a prevenção secundária adequada?",
   "alts": [
-   "Antiagregante, estatina de alta potência e controle pressórico, associados sempre à mudança de estilo de vida.",
    "Anticoagulação plena para todos os pacientes com acidente vascular cerebral isquêmico prévio, sem exceção.",
+   "Antiagregante, estatina de alta potência e controle pressórico, associados sempre à mudança de estilo de vida.",
    "Apenas controle pressórico isolado, medida suficiente para a prevenção secundária nesse perfil de paciente.",
    "Apenas suplementação vitamínica contínua como estratégia de prevenção secundária de novo evento cerebral.",
    "Nenhuma medida preventiva enquanto o paciente permanecer assintomático após o evento cerebrovascular agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "prev",
@@ -16,8 +16,8 @@
   "base": "AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and TIA, 2021 com revisão 2024",
   "coment": "A prevenção secundária do acidente vascular cerebral isquêmico não cardioembólico combina antiagregante — ácido acetilsalicílico ou clopidogrel, com dupla antiagregação por curto período em eventos menores ou ataque isquêmico transitório de alto risco —, estatina de alta potência com meta de LDL abaixo de 70 mg/dL, controle pressórico rigoroso, controle glicêmico, cessação do tabagismo e atividade física regular. Anticoagulação se reserva à origem cardioembólica.",
   "porAlt": [
-   "Correta: antiagregante, estatina de alta potência e controle pressórico, com mudança de estilo de vida.",
    "A anticoagulação se reserva à etiologia cardioembólica e aumenta risco hemorrágico sem essa indicação.",
+   "Correta: antiagregante, estatina de alta potência e controle pressórico, com mudança de estilo de vida.",
    "O controle pressórico isolado deixa de fora antiagregação e estatina, ambas com benefício comprovado.",
    "As vitaminas não reduzem recorrência de acidente vascular cerebral em ensaios clínicos randomizados.",
    "A ausência de sintomas não reduz o risco de recorrência, que é maior justamente após o primeiro evento."
@@ -26,13 +26,13 @@
  {
   "q": "Paciente com hemorragia intraparenquimatosa e pressão arterial de 200/110 mmHg nas primeiras horas. Qual é a conduta?",
   "alts": [
-   "Reduzir a pressão sistólica de forma controlada para valores próximos de 140 mmHg, monitorando sempre o paciente.",
    "Manter a pressão elevada para preservar a perfusão cerebral em todos os pacientes com hemorragia cerebral agora.",
    "Reduzir a pressão sistólica abaixo de 90 mmHg de forma rápida para conter a expansão do hematoma neste caso.",
    "Iniciar anticoagulação plena imediatamente como tratamento da hemorragia intraparenquimatosa descrita agora.",
+   "Reduzir a pressão sistólica de forma controlada para valores próximos de 140 mmHg, monitorando sempre o paciente.",
    "Realizar trombólise endovenosa como tratamento padrão da hemorragia intraparenquimatosa aguda nesse contexto."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "uti",
   "comp": "urg",
@@ -40,23 +40,23 @@
   "base": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage, 2022",
   "coment": "Na hemorragia intracerebral espontânea com pressão sistólica entre 150 e 220 mmHg, a redução para cerca de 140 mmHg é segura e pode reduzir a expansão do hematoma, devendo ser feita de forma suave e sustentada, evitando grandes variações. Complementam o manejo a reversão de anticoagulação quando presente, o controle da pressão intracraniana, a prevenção de hipertermia e hiperglicemia e a avaliação neurocirúrgica conforme volume e localização.",
   "porAlt": [
-   "Correta: reduzir a sistólica de forma controlada para valores próximos de 140 mmHg com monitorização.",
    "Manter a pressão muito elevada favorece a expansão do hematoma nas primeiras horas do evento.",
    "Reduzir abaixo de 90 mmHg compromete a perfusão cerebral e piora a lesão isquêmica secundária.",
    "A anticoagulação é contraindicada e agrava diretamente o sangramento intracraniano em curso.",
+   "Correta: reduzir a sistólica de forma controlada para valores próximos de 140 mmHg com monitorização.",
    "A trombólise é contraindicada na hemorragia e converteria o quadro em catástrofe neurológica."
   ]
  },
  {
   "q": "Paciente com epilepsia focal em uso de monoterapia com boa adesão mantém crises frequentes. Qual é o próximo passo?",
   "alts": [
-   "Otimizar a dose e considerar troca ou associação, reavaliando sempre o diagnóstico e os fatores desencadeantes.",
    "Suspender toda medicação e observar clinicamente a evolução das crises pelos próximos seis meses neste caso.",
    "Associar imediatamente quatro antiepilépticos diferentes em doses plenas para o controle das crises agora.",
    "Indicar cirurgia de epilepsia após a falha de um único fármaco em monoterapia bem conduzida nesse contexto.",
+   "Otimizar a dose e considerar troca ou associação, reavaliando sempre o diagnóstico e os fatores desencadeantes.",
    "Prescrever apenas benzodiazepínico contínuo como substituto do antiepiléptico atualmente em uso neste caso."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -64,23 +64,23 @@
   "base": "ILAE definition of drug-resistant epilepsy; NICE guideline NG217 — Epilepsies in children, young people and adults, 2022",
   "coment": "Diante de crises persistentes, revisam-se adesão, dose, tipo de crise e diagnóstico, além de fatores desencadeantes como privação de sono, álcool e interações medicamentosas. Otimiza-se a dose até a máxima tolerada, e persistindo as crises, troca-se por outra monoterapia ou associa-se um segundo fármaco. Epilepsia farmacorresistente é definida pela falha de dois esquemas adequados e tolerados, ponto em que se avalia cirurgia em centro especializado.",
   "porAlt": [
-   "Correta: otimizar dose e considerar troca ou associação, revendo diagnóstico e fatores desencadeantes.",
    "Suspender a medicação expõe o paciente a crises mais frequentes e ao risco de estado de mal.",
    "Associar quatro fármacos de uma vez multiplica efeitos adversos e interações sem ganho de controle.",
    "A cirurgia é avaliada após a falha de dois esquemas adequados, e não de uma única monoterapia.",
+   "Correta: otimizar dose e considerar troca ou associação, revendo diagnóstico e fatores desencadeantes.",
    "O benzodiazepínico contínuo não substitui o antiepiléptico e leva a tolerância e dependência."
   ]
  },
  {
   "q": "Paciente com esclerose múltipla remitente-recorrente apresenta surto com déficit motor incapacitante. Qual é a conduta no surto?",
   "alts": [
-   "Pulsoterapia com corticoide endovenoso em dose alta, mantendo sempre a terapia modificadora de doença.",
    "Suspender definitivamente a terapia modificadora de doença diante do primeiro surto do paciente agora.",
    "Iniciar antibiótico de amplo espectro como tratamento padrão do surto de esclerose múltipla descrito.",
    "Prescrever apenas analgésico e fisioterapia, sem qualquer corticoterapia no surto com déficit incapacitante.",
-   "Realizar plasmaférese como primeira linha em todos os surtos, antes de qualquer tentativa com corticoide."
+   "Realizar plasmaférese como primeira linha em todos os surtos, antes de qualquer tentativa com corticoide.",
+   "Pulsoterapia com corticoide endovenoso em dose alta, mantendo sempre a terapia modificadora de doença."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "neuro",
   "cenario": "enf",
   "comp": "tto",
@@ -88,23 +88,23 @@
   "base": "ECTRIMS/EAN guideline on the pharmacological treatment of multiple sclerosis, revisão 2024; Academia Brasileira de Neurologia, 2022",
   "coment": "O surto de esclerose múltipla com déficit incapacitante é tratado com pulsoterapia de metilprednisolona endovenosa, tipicamente um grama ao dia por três a cinco dias, que acelera a recuperação sem alterar o grau de sequela final. A terapia modificadora de doença é mantida e reavaliada, pois surtos frequentes indicam falha e necessidade de escalonamento. Plasmaférese se reserva a surtos graves sem resposta ao corticoide em dose alta.",
   "porAlt": [
-   "Correta: pulsoterapia com corticoide endovenoso, mantendo e reavaliando a terapia modificadora.",
    "Suspender a terapia modificadora após um surto aumenta o risco de novos surtos e de progressão.",
    "O antibiótico não trata o surto desmielinizante, embora infecção deva ser afastada como gatilho.",
    "Analgesia e fisioterapia são adjuvantes e não substituem a corticoterapia no surto incapacitante.",
-   "A plasmaférese é resgate para surtos graves refratários ao corticoide, e não primeira linha."
+   "A plasmaférese é resgate para surtos graves refratários ao corticoide, e não primeira linha.",
+   "Correta: pulsoterapia com corticoide endovenoso, mantendo e reavaliando a terapia modificadora."
   ]
  },
  {
   "q": "Paciente com fraqueza flutuante que piora ao longo do dia, ptose e diplopia, com melhora ao repouso. Qual é o exame confirmatório?",
   "alts": [
-   "Anticorpo antirreceptor de acetilcolina e eletroneuromiografia com estimulação repetitiva, avaliando sempre o timo.",
    "Apenas tomografia de crânio sem contraste, exame que confirma o diagnóstico do quadro descrito nesse contexto.",
    "Apenas dosagem de creatinoquinase sérica, exame que estabelece o diagnóstico da fraqueza flutuante neste caso.",
+   "Anticorpo antirreceptor de acetilcolina e eletroneuromiografia com estimulação repetitiva, avaliando sempre o timo.",
    "Apenas eletroencefalograma de vigília, exame confirmatório do quadro de fraqueza muscular flutuante neste caso.",
    "Apenas biópsia muscular de rotina como exame inicial e confirmatório do quadro clínico descrito nesse contexto."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "dx",
@@ -112,9 +112,9 @@
   "base": "EAN/AAN guidance on myasthenia gravis, revisão 2023; International consensus guidance for management of myasthenia gravis, atualização 2021",
   "coment": "A miastenia gravis cursa com fraqueza flutuante e fatigabilidade, com predileção por musculatura ocular, bulbar e proximal, piorando ao esforço e melhorando ao repouso. A confirmação combina anticorpo antirreceptor de acetilcolina, positivo na maioria, ou anticorpo anti-MuSK nos soronegativos, e eletroneuromiografia com estimulação repetitiva mostrando decremento. Toda pessoa com o diagnóstico deve fazer tomografia de tórax para avaliar timoma.",
   "porAlt": [
-   "Correta: anticorpo antirreceptor de acetilcolina com estimulação repetitiva e avaliação do timo.",
    "A tomografia de crânio não avalia a junção neuromuscular acometida nessa doença autoimune.",
    "A creatinoquinase é normal na miastenia, pois não há destruição muscular como nas miopatias.",
+   "Correta: anticorpo antirreceptor de acetilcolina com estimulação repetitiva e avaliação do timo.",
    "O eletroencefalograma avalia atividade cortical e não a transmissão na junção neuromuscular.",
    "A biópsia muscular avalia miopatias e não é o exame confirmatório da miastenia gravis."
   ]
@@ -146,13 +146,13 @@
  {
   "q": "Paciente com polineuropatia simétrica distal em paciente diabético, com dor em queimação nos pés. Qual é o tratamento da dor?",
   "alts": [
-   "Duloxetina, pregabalina ou gabapentina, associadas sempre ao controle glicêmico e ao cuidado com os pés.",
    "Anti-inflamatório não hormonal contínuo como tratamento de primeira linha para a dor neuropática descrita.",
    "Opioide potente em dose plena como primeira escolha no tratamento da dor neuropática diabética agora.",
    "Apenas corticoide sistêmico contínuo como tratamento da polineuropatia dolorosa do paciente diabético.",
-   "Apenas complexo vitamínico B como tratamento de escolha para a dor neuropática do paciente diabético."
+   "Apenas complexo vitamínico B como tratamento de escolha para a dor neuropática do paciente diabético.",
+   "Duloxetina, pregabalina ou gabapentina, associadas sempre ao controle glicêmico e ao cuidado com os pés."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -160,23 +160,23 @@
   "base": "ADA Standards of Care in Diabetes, 2025, capítulo de neuropatia; AAN practice guideline on painful diabetic neuropathy, 2022",
   "coment": "A dor da polineuropatia diabética responde a fármacos com ação sobre a dor neuropática: duloxetina, pregabalina, gabapentina e antidepressivos tricíclicos, escolhidos por comorbidades e perfil de efeitos adversos. Anti-inflamatórios têm eficácia limitada e risco renal no diabético. O controle glicêmico reduz a progressão, sobretudo no diabetes tipo 1, e o exame regular dos pés é indispensável para prevenir ulceração e amputação.",
   "porAlt": [
-   "Correta: duloxetina, pregabalina ou gabapentina, com controle glicêmico e cuidado regular dos pés.",
    "Anti-inflamatórios têm eficácia limitada na dor neuropática e risco renal no paciente diabético.",
    "Opioides não são primeira escolha na dor neuropática crônica pelo risco de dependência e tolerância.",
    "O corticoide não trata a polineuropatia diabética e piora o controle glicêmico do paciente.",
-   "O complexo B só tem papel quando há deficiência documentada, e não como analgésico neuropático."
+   "O complexo B só tem papel quando há deficiência documentada, e não como analgésico neuropático.",
+   "Correta: duloxetina, pregabalina ou gabapentina, com controle glicêmico e cuidado regular dos pés."
   ]
  },
  {
   "q": "Paciente com quadro súbito de afasia e hemiparesia que reverteu completamente em 40 minutos. Qual é a conduta?",
   "alts": [
-   "Investigar e iniciar prevenção secundária imediatamente, pois o risco de novo evento é sempre maior nos primeiros dias.",
    "Liberar sem investigação, pois a reversão completa dos sintomas afasta qualquer risco de novo evento nesse contexto.",
    "Agendar investigação ambulatorial eletiva para daqui a três meses, sem qualquer medida preventiva imediata neste caso.",
+   "Investigar e iniciar prevenção secundária imediatamente, pois o risco de novo evento é sempre maior nos primeiros dias.",
    "Iniciar trombólise endovenosa mesmo com os sintomas já completamente revertidos no momento da avaliação neste caso.",
    "Prescrever apenas analgésico e orientar retorno somente se os sintomas voltarem a se manifestar para este paciente."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
@@ -184,9 +184,9 @@
   "base": "AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and TIA, 2021 com revisão 2024",
   "coment": "O ataque isquêmico transitório é urgência: o risco de acidente vascular cerebral é maior nas primeiras quarenta e oito horas e nos primeiros sete dias. A conduta é investigação rápida com neuroimagem, avaliação de carótidas, eletrocardiograma e busca de fibrilação atrial, além de ecocardiograma quando indicado, com início imediato da prevenção secundária. Em eventos de alto risco pelo escore ABCD2, indica-se dupla antiagregação por curto período.",
   "porAlt": [
-   "Correta: investigar e iniciar prevenção secundária de imediato, pois o risco é máximo nos primeiros dias.",
    "A reversão dos sintomas não afasta risco: o ataque transitório é justamente um aviso de evento maior.",
    "Adiar por três meses desperdiça a janela em que a prevenção secundária tem maior impacto absoluto.",
+   "Correta: investigar e iniciar prevenção secundária de imediato, pois o risco é máximo nos primeiros dias.",
    "A trombólise não se aplica a paciente sem déficit no momento da avaliação clínica.",
    "Orientar retorno apenas se houver recidiva deixa sem prevenção o período de maior risco."
   ]

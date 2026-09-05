@@ -2,13 +2,13 @@
  {
   "q": "Homem de 55 anos, sem sintomas, pergunta sobre rastreio de câncer de próstata. Qual é a orientação correta?",
   "alts": [
-   "Decisão compartilhada após informar benefícios e danos, sempre respeitando a preferência do paciente.",
    "Rastrear todos os homens anualmente a partir dos quarenta anos com dosagem de antígeno prostático.",
    "Não discutir o tema, pois o rastreio de câncer de próstata não tem qualquer respaldo na literatura.",
    "Indicar biópsia prostática de rotina para todos os homens acima de cinquenta anos de idade agora.",
-   "Rastrear apenas com toque retal isolado, sem qualquer dosagem do antígeno prostático específico."
+   "Rastrear apenas com toque retal isolado, sem qualquer dosagem do antígeno prostático específico.",
+   "Decisão compartilhada após informar benefícios e danos, sempre respeitando a preferência do paciente."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
@@ -16,11 +16,11 @@
   "base": "USPSTF prostate cancer screening recommendation, 2018 com revisão 2024; INCA — posicionamento sobre rastreio de câncer de próstata, 2023",
   "coment": "O rastreio de câncer de próstata é o exemplo clássico de decisão compartilhada: reduz modestamente a mortalidade específica, ao custo de sobrediagnóstico e de tratamentos com incontinência e disfunção erétil. As diretrizes recomendam informar o homem entre cinquenta e sessenta e nove anos, ou antes em alto risco, sobre benefícios e danos, e respeitar a decisão. O INCA não recomenda o rastreio organizado populacional no Brasil.",
   "porAlt": [
-   "Correta: decisão compartilhada após informar benefícios e danos, respeitando a preferência do paciente.",
    "Rastrear todos anualmente desde os quarenta anos amplia o sobrediagnóstico sem benefício proporcional.",
    "O tema deve ser discutido: existe evidência, com benefício modesto e danos relevantes conhecidos.",
    "A biópsia é indicada por alteração no rastreio, e não como procedimento de rotina populacional.",
-   "O toque retal isolado tem desempenho insuficiente e não é recomendado como método único."
+   "O toque retal isolado tem desempenho insuficiente e não é recomendado como método único.",
+   "Correta: decisão compartilhada após informar benefícios e danos, respeitando a preferência do paciente."
   ]
  },
  {
@@ -50,13 +50,13 @@
  {
   "q": "Paciente com câncer avançado e dispneia refratária apesar de tratamento da causa. Qual é a conduta?",
   "alts": [
-   "Opioide em dose titulada para alívio da dispneia, associado sempre a medidas não farmacológicas de conforto.",
    "Sedação profunda contínua imediata em todos os pacientes com dispneia refratária em doença avançada agora.",
+   "Opioide em dose titulada para alívio da dispneia, associado sempre a medidas não farmacológicas de conforto.",
    "Oxigênio suplementar de rotina em todos os casos, mesmo naqueles sem qualquer hipoxemia documentada agora.",
    "Benzodiazepínico isolado em dose alta como primeira escolha para o controle da dispneia refratária agora.",
    "Restrição hídrica extrema como principal medida terapêutica para a dispneia refratária no câncer avançado."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -64,8 +64,8 @@
   "base": "ESMO Clinical Practice Guidelines on dyspnoea in advanced cancer, 2021; ANCP — Manual de Cuidados Paliativos, 2ª edição, 2021",
   "coment": "O opioide sistêmico em dose titulada é a intervenção com melhor evidência para a dispneia refratária no câncer avançado, reduzindo a percepção do desconforto sem causar depressão respiratória quando titulado adequadamente. Associam-se medidas não farmacológicas: ventilador com fluxo de ar no rosto, posicionamento, técnicas de respiração e manejo da ansiedade. Oxigênio beneficia sobretudo os hipoxêmicos, e benzodiazepínico é adjuvante quando há ansiedade importante.",
   "porAlt": [
-   "Correta: opioide titulado com medidas não farmacológicas é a base do alívio da dispneia refratária.",
    "A sedação paliativa se reserva a sintomas verdadeiramente refratários a todas as medidas anteriores.",
+   "Correta: opioide titulado com medidas não farmacológicas é a base do alívio da dispneia refratária.",
    "O oxigênio beneficia sobretudo os hipoxêmicos, sem ganho consistente nos pacientes sem hipoxemia.",
    "O benzodiazepínico é adjuvante para ansiedade e não é a primeira escolha para a dispneia.",
    "A restrição hídrica extrema não alivia dispneia e pode causar desconforto adicional ao paciente."
@@ -74,13 +74,13 @@
  {
   "q": "Mulher de 30 anos com HPV positivo e citologia com lesão intraepitelial de alto grau. Qual é a conduta?",
   "alts": [
-   "Encaminhar para colposcopia com biópsia dirigida, definindo sempre a conduta pelo resultado histológico.",
    "Repetir a citologia em três anos, pois a lesão descrita regride espontaneamente na maioria dos casos.",
    "Indicar histerectomia total imediata em todas as pacientes com lesão intraepitelial de alto grau agora.",
    "Prescrever apenas antiviral oral por seis meses como tratamento da lesão cervical de alto grau agora.",
+   "Encaminhar para colposcopia com biópsia dirigida, definindo sempre a conduta pelo resultado histológico.",
    "Solicitar apenas ultrassonografia pélvica, exame que estabelece o diagnóstico da lesão cervical descrita."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "onco",
   "cenario": "amb",
   "comp": "dx",
@@ -88,10 +88,10 @@
   "base": "INCA — Diretrizes brasileiras para o rastreamento do câncer do colo do útero, 2ª edição atualizada, 2024",
   "coment": "Citologia com lesão intraepitelial escamosa de alto grau tem alta probabilidade de corresponder a neoplasia intraepitelial cervical de grau 2 ou 3, e a conduta é colposcopia com biópsia dirigida. Confirmada a lesão, o tratamento habitual é excisão da zona de transformação, com técnica definida pela extensão e visibilidade da junção escamocolunar. Histerectomia não é tratamento de lesão precursora e não há antiviral que trate a lesão.",
   "porAlt": [
-   "Correta: colposcopia com biópsia dirigida, com a conduta definida pelo resultado histológico obtido.",
    "Lesão de alto grau tem risco relevante de progressão e não permite seguimento apenas citológico.",
    "A histerectomia não é tratamento de lesão precursora e configura conduta desproporcional ao caso.",
    "Não existe antiviral oral que trate a lesão intraepitelial cervical causada pelo papilomavírus.",
+   "Correta: colposcopia com biópsia dirigida, com a conduta definida pelo resultado histológico obtido.",
    "A ultrassonografia não avalia o epitélio cervical nem substitui a colposcopia com biópsia."
   ]
  },
@@ -146,13 +146,13 @@
  {
   "q": "Paciente com melanoma cutâneo de espessura de Breslow de 1,5 mm sem ulceração. Qual é a conduta cirúrgica?",
   "alts": [
-   "Ampliação de margens e pesquisa do linfonodo sentinela, indicada sempre nessa faixa de espessura.",
    "Apenas excisão simples da cicatriz sem qualquer ampliação de margens ou avaliação linfonodal.",
    "Esvaziamento linfonodal completo eletivo em todos os pacientes com melanoma dessa espessura agora já.",
    "Apenas seguimento clínico sem qualquer procedimento cirúrgico adicional após a biópsia excisional.",
-   "Radioterapia local isolada como tratamento definitivo do melanoma cutâneo dessa espessura agora."
+   "Radioterapia local isolada como tratamento definitivo do melanoma cutâneo dessa espessura agora.",
+   "Ampliação de margens e pesquisa do linfonodo sentinela, indicada sempre nessa faixa de espessura."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -160,23 +160,23 @@
   "base": "NCCN Melanoma: Cutaneous, 2024; ASCO/SSO guideline on sentinel lymph node biopsy for melanoma, revisão 2023",
   "coment": "No melanoma, a espessura de Breslow define margens e indicação de linfonodo sentinela. Lesões entre 1 e 2 mm exigem margem de um a dois centímetros e têm indicação de pesquisa do linfonodo sentinela, que é o principal fator prognóstico e orienta terapia adjuvante. Esvaziamento completo eletivo foi abandonado por não melhorar sobrevida global. Radioterapia isolada não é tratamento curativo do melanoma cutâneo primário.",
   "porAlt": [
-   "Correta: ampliação de margens com pesquisa do linfonodo sentinela nessa faixa de espessura de Breslow.",
    "A excisão simples sem margens adequadas associa-se a recorrência local e subestadiamento da doença.",
    "O esvaziamento eletivo completo foi abandonado por não melhorar a sobrevida global dos pacientes.",
    "O seguimento isolado sem ampliação de margens é conduta inadequada nessa espessura tumoral.",
-   "A radioterapia isolada não é tratamento curativo do melanoma cutâneo primário ressecável."
+   "A radioterapia isolada não é tratamento curativo do melanoma cutâneo primário ressecável.",
+   "Correta: ampliação de margens com pesquisa do linfonodo sentinela nessa faixa de espessura de Breslow."
   ]
  },
  {
   "q": "Paciente com câncer de pulmão e derrame pleural maligno recidivante e sintomático. Qual é a conduta?",
   "alts": [
-   "Pleurodese ou cateter pleural de longa permanência, escolhidos sempre conforme o prognóstico do paciente.",
    "Toracocenteses de alívio repetidas indefinidamente como única estratégia para o derrame recidivante.",
    "Apenas diurético em dose alta, medida suficiente para controlar o derrame pleural de origem maligna.",
    "Antibiótico de amplo espectro prolongado como tratamento do derrame pleural maligno recidivante agora.",
+   "Pleurodese ou cateter pleural de longa permanência, escolhidos sempre conforme o prognóstico do paciente.",
    "Radioterapia torácica isolada como tratamento definitivo do derrame pleural maligno sintomático agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -184,23 +184,23 @@
   "base": "ATS/STS/STR Clinical Practice Guideline on management of malignant pleural effusions, 2018 com revisão 2023; BTS Pleural Disease Guideline, 2023",
   "coment": "No derrame pleural maligno sintomático e recidivante, com pulmão expansível, as opções definitivas são pleurodese química com talco e cateter pleural de longa permanência, escolhidos conforme expectativa de vida, preferência do paciente e disponibilidade de suporte domiciliar. Quando o pulmão não expande, o cateter é preferido. Toracocenteses repetidas são paliativas de curta duração e aumentam risco de complicações e de internações.",
   "porAlt": [
-   "Correta: pleurodese ou cateter de longa permanência, escolhidos conforme prognóstico e preferência.",
    "Punções repetidas indefinidamente trazem alívio breve e aumentam complicações e internações.",
    "O diurético trata transudato cardiogênico e não controla o derrame de origem maligna.",
    "O antibiótico não trata o mecanismo do derrame maligno, que é a disseminação pleural tumoral.",
+   "Correta: pleurodese ou cateter de longa permanência, escolhidos conforme prognóstico e preferência.",
    "A radioterapia isolada não controla o derrame pleural maligno já estabelecido e recidivante."
   ]
  },
  {
   "q": "Paciente com diagnóstico de câncer avançado pergunta quando deve iniciar cuidados paliativos. Qual é a resposta correta?",
   "alts": [
-   "Desde o diagnóstico, integrados sempre ao tratamento oncológico ativo e não apenas na fase final.",
    "Apenas quando todo tratamento oncológico ativo tiver sido definitivamente interrompido pela equipe.",
    "Somente nas últimas quarenta e oito horas de vida, quando o prognóstico já estiver bem definido.",
    "Apenas se o paciente solicitar de forma expressa e por escrito o encaminhamento à equipe especializada.",
+   "Desde o diagnóstico, integrados sempre ao tratamento oncológico ativo e não apenas na fase final.",
    "Somente após a falha de pelo menos três linhas de tratamento quimioterápico previamente instituídas."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -208,23 +208,23 @@
   "base": "ASCO Clinical Practice Guideline Update on integration of palliative care, 2017 com revisão 2024; OMS — cuidados paliativos, 2020",
   "coment": "Os cuidados paliativos devem ser integrados precocemente, desde o diagnóstico de doença avançada, em paralelo ao tratamento oncológico ativo. Ensaios clínicos mostraram melhora de qualidade de vida, redução de sintomas depressivos, menor uso de intervenções agressivas no fim da vida e, em alguns estudos, aumento da sobrevida. Associar cuidados paliativos a fim de vida é equívoco que atrasa o alívio de sintomas e o planejamento do cuidado.",
   "porAlt": [
-   "Correta: desde o diagnóstico, integrados ao tratamento oncológico ativo e não apenas na fase final.",
    "Reservar os cuidados paliativos ao fim do tratamento oncológico atrasa o alívio de sintomas.",
    "Restringir às últimas horas de vida é a concepção equivocada que as diretrizes buscam corrigir.",
    "O encaminhamento é indicação clínica da equipe e não depende de solicitação formal do paciente.",
+   "Correta: desde o diagnóstico, integrados ao tratamento oncológico ativo e não apenas na fase final.",
    "Não há exigência de falha de linhas de tratamento para a integração dos cuidados paliativos."
   ]
  },
  {
   "q": "Paciente em uso de imunoterapia com inibidor de checkpoint apresenta diarreia com seis evacuações ao dia e dor abdominal. Qual é a conduta?",
   "alts": [
-   "Suspender a imunoterapia e iniciar corticoide sistêmico, avaliando sempre a exclusão de causa infecciosa.",
    "Manter a imunoterapia e prescrever apenas loperamida em dose plena para o controle das evacuações agora.",
    "Iniciar antibiótico de amplo espectro isolado como tratamento definitivo do quadro diarreico descrito.",
    "Aumentar a dose da imunoterapia para acelerar a resposta antitumoral apesar do evento adverso agora já.",
+   "Suspender a imunoterapia e iniciar corticoide sistêmico, avaliando sempre a exclusão de causa infecciosa.",
    "Prescrever apenas hidratação oral domiciliar sem qualquer suspensão do tratamento imunoterápico agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "onco",
   "cenario": "enf",
   "comp": "urg",
@@ -232,10 +232,10 @@
   "base": "ASCO Guideline on management of immune-related adverse events, atualização 2024; ESMO Clinical Practice Guidelines, 2022",
   "coment": "A colite imunomediada é evento adverso frequente e potencialmente grave dos inibidores de checkpoint. Com seis ou mais evacuações acima do basal, o grau é 3 ou superior: suspende-se a imunoterapia e inicia-se corticoide sistêmico em dose de 1 a 2 mg/kg de metilprednisolona equivalente, após afastar causa infecciosa, incluindo Clostridioides difficile. Sem resposta em setenta e duas horas, indica-se infliximabe ou vedolizumabe.",
   "porAlt": [
-   "Correta: suspender a imunoterapia e iniciar corticoide sistêmico, após excluir causa infecciosa.",
    "Manter a imunoterapia com colite grave arrisca perfuração intestinal e desfecho potencialmente fatal.",
    "O antibiótico isolado não trata a colite imunomediada, cujo mecanismo é inflamatório autoimune.",
    "Aumentar a dose diante de evento adverso grave agrava a toxicidade sem qualquer justificativa.",
+   "Correta: suspender a imunoterapia e iniciar corticoide sistêmico, após excluir causa infecciosa.",
    "Hidratação isolada sem suspender o fármaco permite a progressão da colite imunomediada grave."
   ]
  }

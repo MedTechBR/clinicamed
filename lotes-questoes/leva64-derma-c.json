@@ -26,13 +26,13 @@
  {
   "q": "Paciente com nevo melanocítico que apresenta mudança recente de cor, aumento de tamanho e sangramento. Qual é a conduta?",
   "alts": [
-   "Encaminhar para avaliação dermatológica e biópsia excisional, pois a mudança recente é sempre sinal de alarme.",
    "Observar por doze meses antes de qualquer avaliação, pois nevos mudam ao longo da vida do paciente agora.",
    "Realizar crioterapia da lesão em consultório sem qualquer envio de material para exame histológico agora.",
    "Prescrever corticoide tópico de alta potência sobre a lesão como tratamento inicial dessa alteração agora.",
+   "Encaminhar para avaliação dermatológica e biópsia excisional, pois a mudança recente é sempre sinal de alarme.",
    "Realizar apenas fotografia da lesão e reavaliar somente após dois anos de acompanhamento clínico neste caso."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "derma",
   "cenario": "amb",
   "comp": "dx",
@@ -40,23 +40,23 @@
   "base": "NCCN Melanoma: Cutaneous, 2024; Sociedade Brasileira de Dermatologia — campanha de detecção precoce, 2023",
   "coment": "A evolução — mudança de tamanho, cor, forma ou surgimento de sintomas como prurido e sangramento — é o critério mais importante do sistema ABCDE e, isoladamente, justifica a investigação de melanoma. A conduta é avaliação especializada com dermatoscopia e biópsia excisional com margem estreita, que preserva a espessura para estadiamento. Métodos destrutivos como crioterapia impedem o diagnóstico histológico e são inaceitáveis diante de suspeita.",
   "porAlt": [
-   "Correta: avaliação especializada e biópsia excisional, pois a mudança recente é sinal de alarme.",
    "Observar por doze meses permite progressão em profundidade e piora expressiva do prognóstico.",
    "A crioterapia destrói a lesão sem histologia e inviabiliza o diagnóstico e o estadiamento corretos.",
    "O corticoide tópico não trata lesão pigmentada suspeita e apenas retarda o diagnóstico correto.",
+   "Correta: avaliação especializada e biópsia excisional, pois a mudança recente é sinal de alarme.",
    "A fotografia é útil no seguimento de lesões estáveis, e não diante de mudança já documentada."
   ]
  },
  {
   "q": "Paciente com eritema migratório após picada de carrapato em região endêmica, sem outros sintomas. Qual é a conduta?",
   "alts": [
-   "Iniciar doxiciclina por via oral, sempre sem aguardar a confirmação sorológica do diagnóstico suspeitado.",
    "Aguardar a soroconversão antes de iniciar qualquer antibiótico no paciente com a lesão descrita agora.",
    "Prescrever apenas corticoide tópico sobre a lesão como tratamento definitivo do eritema descrito agora.",
+   "Iniciar doxiciclina por via oral, sempre sem aguardar a confirmação sorológica do diagnóstico suspeitado.",
    "Iniciar antifúngico oral por quatro semanas, tratamento indicado para a lesão anular pós-picada agora.",
    "Observar sem tratamento até o surgimento de manifestações articulares ou neurológicas evidentes agora."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "derma",
   "cenario": "amb",
   "comp": "tto",
@@ -64,9 +64,9 @@
   "base": "IDSA/AAN/ACR Clinical Practice Guidelines for Lyme Disease, 2020 com revisão 2023",
   "coment": "O eritema migratório é lesão patognomônica da fase precoce localizada da doença de Lyme e o diagnóstico é clínico em área endêmica, pois a sorologia costuma ser negativa nas primeiras semanas. O tratamento é doxiciclina por via oral por dez a catorze dias, com amoxicilina ou cefuroxima como alternativas em gestantes e crianças. Tratar precocemente previne as manifestações tardias articulares, neurológicas e cardíacas da doença.",
   "porAlt": [
-   "Correta: doxiciclina oral iniciada pelo quadro clínico, sem aguardar a confirmação sorológica.",
    "A sorologia é frequentemente negativa nas primeiras semanas e não deve atrasar o tratamento.",
    "O corticoide tópico não trata a infecção bacteriana responsável pela lesão cutânea descrita.",
+   "Correta: doxiciclina oral iniciada pelo quadro clínico, sem aguardar a confirmação sorológica.",
    "O antifúngico não tem ação sobre a espiroqueta causadora da doença transmitida pelo carrapato.",
    "Aguardar manifestações tardias permite acometimento articular, neurológico e cardíaco evitável."
   ]
@@ -98,13 +98,13 @@
  {
   "q": "Paciente com hiperceratose e escurecimento aveludado em axilas e pescoço, com obesidade e resistência insulínica. Qual é a conduta?",
   "alts": [
-   "Investigar e tratar a resistência insulínica, avaliando sempre a possibilidade de neoplasia oculta associada.",
    "Prescrever apenas corticoide tópico potente nas lesões como tratamento definitivo do quadro cutâneo agora.",
    "Iniciar antibiótico sistêmico prolongado, tratamento indicado para o escurecimento cutâneo descrito agora.",
+   "Investigar e tratar a resistência insulínica, avaliando sempre a possibilidade de neoplasia oculta associada.",
    "Indicar exérese cirúrgica das áreas acometidas como tratamento de escolha para as lesões descritas agora.",
    "Prescrever antifúngico oral por três meses, tratamento indicado para a hiperpigmentação aveludada agora."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "derma",
   "cenario": "amb",
   "comp": "dx",
@@ -112,9 +112,9 @@
   "base": "AAD clinical guidance on acanthosis nigricans, revisão 2023; Endocrine Society — obesity and insulin resistance, 2023",
   "coment": "A acantose nigricans é marcador cutâneo de resistência insulínica, associada a obesidade, diabetes tipo 2, síndrome dos ovários policísticos e a alguns fármacos. O tratamento é o da condição de base: perda de peso, atividade física e controle metabólico melhoram as lesões. Início abrupto, extenso, em paciente magro e com acometimento de mucosas e palmas levanta suspeita de acantose nigricans maligna, associada a adenocarcinoma, sobretudo gástrico.",
   "porAlt": [
-   "Correta: investigar e tratar a resistência insulínica, atento à forma associada a neoplasia oculta.",
    "O corticoide tópico não trata a causa metabólica e não resolve a hiperpigmentação aveludada.",
    "Não há infecção bacteriana envolvida no mecanismo da acantose nigricans descrita neste caso.",
+   "Correta: investigar e tratar a resistência insulínica, atento à forma associada a neoplasia oculta.",
    "A exérese cirúrgica é desproporcional e não impede a recorrência enquanto a causa persistir.",
    "O antifúngico não tem papel, pois a lesão não decorre de infecção fúngica da pele acometida."
   ]

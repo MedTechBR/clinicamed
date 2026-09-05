@@ -26,13 +26,13 @@
  {
   "q": "Paciente com tosse, dispneia progressiva e crepitações em velcro nas bases, com padrão reticular e faveolamento na tomografia. Qual é o diagnóstico?",
   "alts": [
-   "Fibrose pulmonar idiopática, cujo padrão tomográfico típico dispensa sempre a biópsia para o diagnóstico.",
    "Asma brônquica de início tardio, condição definida por faveolamento e crepitações em velcro nas bases.",
+   "Fibrose pulmonar idiopática, cujo padrão tomográfico típico dispensa sempre a biópsia para o diagnóstico.",
    "Doença pulmonar obstrutiva crônica avançada, caracterizada por padrão reticular com faveolamento bibasal.",
    "Pneumonia bacteriana de evolução arrastada, definida por padrão reticular com faveolamento nas bases.",
    "Tromboembolismo pulmonar crônico, quadro caracterizado por faveolamento bibasal e crepitações em velcro."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -40,8 +40,8 @@
   "base": "ATS/ERS/JRS/ALAT Clinical Practice Guideline on idiopathic pulmonary fibrosis, 2022; SBPT — Diretrizes de doenças intersticiais, 2023",
   "coment": "A fibrose pulmonar idiopática cursa com dispneia progressiva, tosse seca, crepitações em velcro nas bases e baqueteamento digital, em pacientes acima de sessenta anos. O padrão tomográfico de pneumonia intersticial usual — reticulado subpleural e basal, bronquiectasias de tração e faveolamento — permite o diagnóstico sem biópsia quando o contexto clínico é compatível e outras causas foram afastadas. O tratamento usa antifibróticos como nintedanibe e pirfenidona.",
   "porAlt": [
-   "Correta: padrão tomográfico de pneumonia intersticial usual permite o diagnóstico sem biópsia.",
    "A asma é doença obstrutiva reversível e não produz faveolamento nem crepitações em velcro.",
+   "Correta: padrão tomográfico de pneumonia intersticial usual permite o diagnóstico sem biópsia.",
    "A doença obstrutiva crônica cursa com enfisema e aprisionamento aéreo, e não com faveolamento.",
    "A pneumonia bacteriana cursa com consolidação e não produz faveolamento crônico das bases.",
    "O tromboembolismo crônico cursa com hipertensão pulmonar e defeitos de perfusão, não faveolamento."
@@ -50,13 +50,13 @@
  {
   "q": "Paciente com asma controlada há seis meses em etapa intermediária de tratamento. Qual é a conduta?",
   "alts": [
-   "Considerar redução escalonada do tratamento, mantendo sempre o corticoide inalatório na menor dose eficaz.",
    "Suspender completamente todo o tratamento, incluindo o corticoide inalatório, após seis meses de controle.",
    "Manter indefinidamente a mesma dose sem qualquer tentativa de redução, mesmo com controle sustentado.",
+   "Considerar redução escalonada do tratamento, mantendo sempre o corticoide inalatório na menor dose eficaz.",
    "Aumentar a dose do corticoide inalatório apesar do controle sustentado dos sintomas do paciente agora.",
    "Substituir o corticoide inalatório por beta-agonista de curta duração isolado após o período de controle."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -64,9 +64,9 @@
   "base": "GINA — Global Strategy for Asthma Management and Prevention, 2025",
   "coment": "Após três a seis meses de controle sustentado, considera-se reduzir o tratamento de forma escalonada, sempre mantendo corticoide inalatório em alguma dose, nunca chegando a beta-agonista isolado, que aumenta exacerbações graves e mortalidade. A redução é gradual, com reavaliação em intervalos, evitando períodos de risco como infecções respiratórias, viagens e gestação. Antes de qualquer ajuste, checam-se técnica inalatória, adesão e controle de gatilhos.",
   "porAlt": [
-   "Correta: reduzir de forma escalonada mantendo corticoide inalatório na menor dose eficaz.",
    "Suspender todo o tratamento expõe o paciente a exacerbação e perda do controle alcançado.",
    "Manter indefinidamente a mesma dose expõe a efeitos adversos desnecessários do corticoide.",
+   "Correta: reduzir de forma escalonada mantendo corticoide inalatório na menor dose eficaz.",
    "Aumentar a dose sem perda de controle não traz benefício e amplia a toxicidade do tratamento.",
    "Voltar ao beta-agonista isolado aumenta exacerbações graves e mortalidade, sendo proscrito."
   ]
@@ -74,13 +74,13 @@
  {
   "q": "Paciente com derrame pleural exsudativo, pH de 7,10, glicose baixa e presença de pus na toracocentese. Qual é a conduta?",
   "alts": [
-   "Drenagem torácica com antibiótico, pois o derrame complicado exige sempre esvaziamento do espaço pleural.",
    "Apenas antibiótico endovenoso sem qualquer drenagem do espaço pleural acometido pelo derrame descrito.",
    "Apenas toracocenteses de alívio repetidas semanalmente como tratamento definitivo do empiema pleural.",
+   "Drenagem torácica com antibiótico, pois o derrame complicado exige sempre esvaziamento do espaço pleural.",
    "Prescrever apenas anti-inflamatório e observar clinicamente a evolução do derrame pleural complicado.",
    "Indicar pleurodese química imediata como primeira conduta diante do derrame pleural com essas características."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "enf",
   "comp": "tto",
@@ -88,9 +88,9 @@
   "base": "BTS Pleural Disease Guideline, 2023; ATS/STS/STR guideline on pleural infection, revisão 2023",
   "coment": "Derrame parapneumônico complicado ou empiema — pH abaixo de 7,20, glicose reduzida, desidrogenase láctica elevada, cultura positiva ou aspecto purulento — exige drenagem torácica associada a antibiótico com cobertura para germes respiratórios e anaeróbios. Sem drenagem, a infecção se organiza e evolui para encarceramento pulmonar. Falha da drenagem indica fibrinolítico intrapleural com desoxirribonuclease ou abordagem cirúrgica por videotoracoscopia.",
   "porAlt": [
-   "Correta: drenagem torácica com antibiótico, pois o derrame complicado exige esvaziamento pleural.",
    "O antibiótico isolado não penetra adequadamente na coleção organizada do espaço pleural infectado.",
    "Punções repetidas não esvaziam adequadamente a coleção e retardam o controle da infecção.",
+   "Correta: drenagem torácica com antibiótico, pois o derrame complicado exige esvaziamento pleural.",
    "Anti-inflamatório e observação permitem organização do empiema e encarceramento pulmonar.",
    "A pleurodese trata derrame maligno recidivante e é contraindicada em espaço pleural infectado."
   ]
@@ -122,13 +122,13 @@
  {
   "q": "Paciente jovem com pneumotórax espontâneo primário de pequeno volume, assintomático e estável. Qual é a conduta?",
   "alts": [
-   "Observação com oxigênio suplementar e reavaliação por imagem, reservando sempre a drenagem a casos maiores.",
    "Drenagem torácica imediata em todos os casos de pneumotórax espontâneo primário, mesmo assintomáticos.",
+   "Observação com oxigênio suplementar e reavaliação por imagem, reservando sempre a drenagem a casos maiores.",
    "Toracotomia aberta imediata como conduta padrão no primeiro episódio de pneumotórax espontâneo primário.",
    "Alta imediata sem qualquer reavaliação por imagem ou orientação sobre sinais de alarme ao paciente agora.",
    "Pleurodese química imediata em todos os pacientes no primeiro episódio de pneumotórax espontâneo agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "tto",
@@ -136,8 +136,8 @@
   "base": "BTS Pleural Disease Guideline, 2023; ACCP/ERS statement on primary spontaneous pneumothorax, revisão 2023",
   "coment": "O pneumotórax espontâneo primário pequeno em paciente estável e assintomático pode ser conduzido de forma conservadora, com observação, oxigênio suplementar — que acelera a reabsorção — e reavaliação por imagem. Ensaios recentes mostraram que a conduta conservadora é não inferior à drenagem em pacientes selecionados, com menos complicações. Drenagem ou aspiração se indicam em pneumotórax grande, sintomático ou com instabilidade clínica.",
   "porAlt": [
-   "Correta: observação com oxigênio e reavaliação por imagem, com drenagem reservada a casos maiores.",
    "A drenagem universal expõe a complicações desnecessárias em pneumotórax pequeno e assintomático.",
+   "Correta: observação com oxigênio e reavaliação por imagem, com drenagem reservada a casos maiores.",
    "A toracotomia aberta não é conduta de primeiro episódio de pneumotórax espontâneo primário.",
    "Alta sem reavaliação nem orientação arrisca progressão do pneumotórax sem detecção oportuna.",
    "A pleurodese se considera na recorrência ou em situações específicas, não no primeiro episódio."
@@ -146,13 +146,13 @@
  {
   "q": "Paciente com bronquiectasias e exacerbações frequentes com escarro purulento. Qual é a base do tratamento crônico?",
   "alts": [
-   "Higiene brônquica com fisioterapia respiratória, associada sempre ao tratamento das exacerbações e da causa.",
    "Corticoide sistêmico contínuo em dose alta como base do tratamento crônico das bronquiectasias descritas.",
    "Antitussígeno contínuo em dose plena para reduzir a tosse produtiva desses pacientes com bronquiectasias.",
    "Restrição hídrica rigorosa para reduzir o volume de secreção brônquica produzida pelo paciente neste caso.",
+   "Higiene brônquica com fisioterapia respiratória, associada sempre ao tratamento das exacerbações e da causa.",
    "Ressecção pulmonar em todos os pacientes com bronquiectasias e exacerbações frequentes documentadas agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -160,23 +160,23 @@
   "base": "ERS guidelines for the management of adult bronchiectasis, 2017 com revisão 2023; BTS guideline, 2019",
   "coment": "O tratamento crônico das bronquiectasias se apoia na higiene brônquica diária com técnicas de desobstrução e fisioterapia respiratória, tratamento das exacerbações com antibiótico guiado por cultura de escarro, vacinação, reabilitação pulmonar e investigação da causa subjacente — imunodeficiência, fibrose cística, discinesia ciliar, aspergilose e sequela infecciosa. Macrolídeo em uso prolongado é considerado em pacientes com exacerbações frequentes.",
   "porAlt": [
-   "Correta: higiene brônquica com fisioterapia, tratamento das exacerbações e investigação da causa.",
    "O corticoide sistêmico contínuo não é base do tratamento e aumenta o risco infeccioso do paciente.",
    "O antitussígeno prejudica a depuração de secreções, agravando a obstrução e as infecções.",
    "A restrição hídrica espessa as secreções e dificulta a depuração brônquica do paciente.",
+   "Correta: higiene brônquica com fisioterapia, tratamento das exacerbações e investigação da causa.",
    "A ressecção se reserva a doença localizada e refratária, e não a todos com exacerbações frequentes."
   ]
  },
  {
   "q": "Paciente tabagista com dispneia e enfisema de predomínio basal em paciente jovem, com história familiar. Qual é a investigação adicional?",
   "alts": [
-   "Dosar alfa-1-antitripsina sérica, investigando sempre deficiência genética como causa do enfisema precoce.",
    "Solicitar apenas gasometria arterial seriada, já exame suficiente para investigar o enfisema em paciente jovem.",
    "Solicitar apenas eletrocardiograma como investigação adicional do enfisema de predomínio basal descrito.",
    "Realizar biópsia pulmonar cirúrgica de rotina em todos os pacientes jovens com enfisema basal identificado.",
+   "Dosar alfa-1-antitripsina sérica, investigando sempre deficiência genética como causa do enfisema precoce.",
    "Não realizar qualquer investigação adicional, pois o tabagismo explica integralmente o quadro descrito."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -184,23 +184,23 @@
   "base": "GOLD Report, 2025; ATS/ERS statement on alpha-1 antitrypsin deficiency, revisão 2023",
   "coment": "A deficiência de alfa-1-antitripsina deve ser investigada em enfisema de início precoce, com predomínio em lobos inferiores, história familiar, doença hepática associada ou ausência de fator de risco proporcional. A recomendação atual é dosar a proteína sérica ao menos uma vez em todo paciente com doença pulmonar obstrutiva crônica, sobretudo em áreas de maior prevalência. O diagnóstico permite aconselhamento familiar e terapia de reposição em casos selecionados.",
   "porAlt": [
-   "Correta: dosar alfa-1-antitripsina, investigando deficiência genética como causa do enfisema precoce.",
    "A gasometria avalia trocas gasosas, mas não identifica a causa genética do enfisema precoce.",
    "O eletrocardiograma avalia repercussão cardíaca, sem esclarecer a etiologia do enfisema descrito.",
    "A biópsia cirúrgica é invasiva e desnecessária quando a investigação sérica pode dar o diagnóstico.",
+   "Correta: dosar alfa-1-antitripsina, investigando deficiência genética como causa do enfisema precoce.",
    "O padrão basal em paciente jovem com história familiar exige investigação além do tabagismo."
   ]
  },
  {
   "q": "Paciente com apneia obstrutiva do sono grave em uso de pressão positiva contínua mantém sonolência diurna apesar de boa adesão. Qual é a conduta?",
   "alts": [
-   "Revisar a adesão, o ajuste da pressão e causas associadas, investigando sempre outros distúrbios do sono.",
    "Suspender definitivamente a pressão positiva contínua diante da persistência da sonolência diurna do paciente.",
    "Aumentar a pressão de forma empírica ao máximo tolerado sem qualquer reavaliação ou estudo do sono agora.",
    "Prescrever apenas benzodiazepínico noturno para melhorar a qualidade do sono e reduzir a sonolência diurna.",
-   "Indicar traqueostomia imediata em todos os pacientes com sonolência residual apesar do uso do dispositivo."
+   "Indicar traqueostomia imediata em todos os pacientes com sonolência residual apesar do uso do dispositivo.",
+   "Revisar a adesão, o ajuste da pressão e causas associadas, investigando sempre outros distúrbios do sono."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -208,11 +208,11 @@
   "base": "AASM Clinical Practice Guideline on positive airway pressure treatment, revisão 2023; ERS statement on excessive daytime sleepiness, 2022",
   "coment": "A sonolência residual apesar de tratamento adequado exige investigação sistemática: confirmar adesão objetiva pelos dados do aparelho, verificar vazamento e adequação da máscara, revisar a titulação da pressão e a persistência de eventos residuais, avaliar higiene do sono e privação, além de buscar comorbidades como depressão, hipotireoidismo, uso de fármacos sedativos, síndrome das pernas inquietas e narcolepsia. Fármacos promotores de vigília entram depois.",
   "porAlt": [
-   "Correta: revisar adesão, ajuste da pressão e comorbidades, investigando outros distúrbios do sono.",
    "Suspender o tratamento remove o benefício cardiovascular e agrava a fragmentação do sono.",
    "Aumentar a pressão empiricamente sem reavaliação pode gerar intolerância e vazamento adicional.",
    "O benzodiazepínico agrava a apneia ao relaxar a musculatura das vias aéreas superiores.",
-   "A traqueostomia é medida excepcional para casos graves refratários a todas as demais opções."
+   "A traqueostomia é medida excepcional para casos graves refratários a todas as demais opções.",
+   "Correta: revisar adesão, ajuste da pressão e comorbidades, investigando outros distúrbios do sono."
   ]
  },
  {

@@ -2,13 +2,13 @@
  {
   "q": "Homem de 76 anos com insuficiência cardíaca classe funcional IV, três internações no último ano e dependência para atividades básicas é acompanhado no ambulatório. O médico se pergunta se deve acionar cuidados paliativos. Qual instrumento orienta essa decisão?",
   "alts": [
-   "O escore de Glasgow, que estabelece qual é o momento adequado para iniciar a abordagem paliativa.",
    "A pergunta surpresa, questionando se causaria surpresa a morte deste paciente nos próximos doze meses.",
+   "O escore de Glasgow, que estabelece qual é o momento adequado para iniciar a abordagem paliativa.",
    "A dosagem seriada de peptídeo natriurético, único marcador validado para indicar cuidado paliativo.",
    "A idade acima de setenta e cinco anos, critério suficiente e isolado para indicar acompanhamento paliativo.",
    "A ausência de tratamento modificador disponível, condição obrigatória para acionar a equipe paliativa."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "prev",
@@ -16,8 +16,8 @@
   "base": "Instrumentos de identificação em cuidados paliativos e Resolução CFM nº 1.805/2006",
   "coment": "A pergunta surpresa — eu ficaria surpreso se este paciente morresse nos próximos doze meses? — é o instrumento de triagem mais difundido para identificar quem se beneficia de abordagem paliativa. Resposta negativa indica avaliação, e isso não significa suspender tratamento modificador algum: cuidado paliativo é cuidado ativo que corre em paralelo. Somam-se indicadores gerais, como declínio funcional progressivo, perda de peso, internações repetidas e dependência, e indicadores específicos por doença. Esperar que não haja mais tratamento disponível é justamente o erro que atrasa o cuidado.",
   "porAlt": [
-   "A escala de coma de Glasgow mede nível de consciência e não tem qualquer papel na indicação de cuidados paliativos.",
    "Correta: a pergunta surpresa é o instrumento de triagem, e resposta negativa indica avaliação paliativa desde já.",
+   "A escala de coma de Glasgow mede nível de consciência e não tem qualquer papel na indicação de cuidados paliativos.",
    "Não existe biomarcador isolado que defina indicação de cuidado paliativo; a decisão é clínica e multidimensional.",
    "A idade isolada não indica cuidado paliativo: o que indica é a trajetória da doença e o sofrimento associado.",
    "Cuidado paliativo corre em paralelo ao tratamento modificador e não exige que ele tenha se esgotado."
@@ -28,11 +28,11 @@
   "alts": [
    "Aumentar a dose de morfina, pois a sonolência indica que a dor não está adequadamente controlada.",
    "Suspender todo opioide de forma abrupta e reavaliar a dor do paciente ao longo das próximas horas.",
-   "Rotacionar para outro opioide, reduzindo em vinte e cinco a cinquenta por cento a dose equianalgésica.",
    "Associar benzodiazepínico em dose alta para controlar as mioclonias sem alterar o esquema opioide.",
-   "Manter a morfina e apenas acrescentar naloxona em dose baixa para reverter a sonolência excessiva."
+   "Manter a morfina e apenas acrescentar naloxona em dose baixa para reverter a sonolência excessiva.",
+   "Rotacionar para outro opioide, reduzindo em vinte e cinco a cinquenta por cento a dose equianalgésica."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
@@ -42,21 +42,21 @@
   "porAlt": [
    "Aumentar a dose agrava a neurotoxicidade em paciente cuja dor já está controlada e que acumula metabólitos.",
    "Suspender abruptamente provoca dor intensa e síndrome de abstinência, sem resolver a causa do problema.",
-   "Correta: o quadro é neurotoxicidade por acúmulo de metabólitos; roda-se o opioide reduzindo a dose calculada em 25% a 50%.",
    "Benzodiazepínico soma sedação e não trata a causa, que é o acúmulo do opioide na insuficiência renal.",
-   "A naloxona reverteria a analgesia e precipitaria abstinência, sendo reservada à depressão respiratória grave."
+   "A naloxona reverteria a analgesia e precipitaria abstinência, sendo reservada à depressão respiratória grave.",
+   "Correta: o quadro é neurotoxicidade por acúmulo de metabólitos; roda-se o opioide reduzindo a dose calculada em 25% a 50%."
   ]
  },
  {
   "q": "Mulher de 81 anos com doença pulmonar avançada refere dispneia intensa em repouso. A saturação está em 95% em ar ambiente e não há broncoespasmo, congestão nem infecção. Qual é a conduta com melhor evidência para o sintoma?",
   "alts": [
-   "Opioide em dose baixa, tratamento de escolha para a sensação de dispneia refratária nesse contexto.",
    "Oxigênio suplementar em alto fluxo, medida mais eficaz mesmo quando a saturação está preservada.",
    "Broncodilatador inalatório em série contínua, independentemente da ausência de broncoespasmo agora.",
    "Corticoide sistêmico em dose alta, que alivia a dispneia refratária em pacientes sem doença inflamatória.",
-   "Benzodiazepínico isolado em dose plena, primeira escolha para dispneia em doença pulmonar avançada."
+   "Benzodiazepínico isolado em dose plena, primeira escolha para dispneia em doença pulmonar avançada.",
+   "Opioide em dose baixa, tratamento de escolha para a sensação de dispneia refratária nesse contexto."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
@@ -64,11 +64,11 @@
   "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — manejo da dispneia refratária em doença avançada",
   "coment": "O opioide em dose baixa é o tratamento de escolha da dispneia refratária: reduz a percepção de falta de ar por ação central, sem depressão respiratória clinicamente relevante nas doses usadas. O oxigênio só alivia quando há hipoxemia — nesta paciente, com saturação de 95%, não há benefício. Uma medida não farmacológica com efeito real é o ar corrente no rosto, com ventilador. O benzodiazepínico entra como adjuvante quando há componente ansioso importante, mas não é primeira escolha isolada. Broncodilatador e corticoide tratam mecanismos específicos, ausentes no caso.",
   "porAlt": [
-   "Correta: o opioide em dose baixa é o tratamento de escolha da dispneia refratária, mesmo sem hipoxemia.",
    "O oxigênio alivia dispneia apenas quando há hipoxemia; com saturação de 95% não traz benefício demonstrado.",
    "Sem broncoespasmo, o broncodilatador não atua sobre o mecanismo da dispneia desta paciente em repouso.",
    "O corticoide tem papel quando há inflamação ou obstrução, e não como tratamento da dispneia refratária.",
-   "O benzodiazepínico é adjuvante do componente ansioso e não substitui o opioide como primeira escolha."
+   "O benzodiazepínico é adjuvante do componente ansioso e não substitui o opioide como primeira escolha.",
+   "Correta: o opioide em dose baixa é o tratamento de escolha da dispneia refratária, mesmo sem hipoxemia."
   ]
  },
  {
@@ -101,10 +101,10 @@
    "Aspirar a via aérea de forma vigorosa e repetida, medida mais eficaz para eliminar a secreção residual.",
    "Aumentar a hidratação endovenosa, corrigindo a desidratação que provoca o espessamento da secreção.",
    "Iniciar antimicrobiano de amplo espectro, presumindo pneumonia como causa da secreção observada.",
-   "Intubar o paciente para proteção de via aérea, evitando a broncoaspiração da secreção acumulada.",
-   "Reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar o fenômeno à família."
+   "Reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar o fenômeno à família.",
+   "Intubar o paciente para proteção de via aérea, evitando a broncoaspiração da secreção acumulada."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
@@ -115,8 +115,8 @@
    "A aspiração vigorosa causa desconforto e estimula ainda mais a produção de secreção nesse contexto.",
    "Aumentar a hidratação piora a secreção respiratória e o edema, sem qualquer benefício ao paciente.",
    "Presumir pneumonia e iniciar antimicrobiano é intervenção desproporcional diante do prognóstico de dias.",
-   "A intubação prolonga o processo de morrer sem benefício e configura obstinação terapêutica.",
-   "Correta: reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar à família é a conduta indicada."
+   "Correta: reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar à família é a conduta indicada.",
+   "A intubação prolonga o processo de morrer sem benefício e configura obstinação terapêutica."
   ]
  },
  {
@@ -124,11 +124,11 @@
   "alts": [
    "São sinônimos na prática médica atual e ambas permanecem vedadas pela legislação brasileira vigente.",
    "Ortotanásia é a antecipação da morte a pedido do paciente, prevista em resolução do conselho federal.",
-   "Eutanásia é a suspensão de suporte artificial, permitida quando há consentimento expresso da família.",
    "Ortotanásia é não prolongar artificialmente o morrer e é lícita; eutanásia é provocar a morte e é ilegal.",
+   "Eutanásia é a suspensão de suporte artificial, permitida quando há consentimento expresso da família.",
    "Ambas são permitidas desde que registradas em prontuário e assinadas por dois médicos assistentes do caso."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "sus",
   "cenario": "enf",
   "comp": "dx",
@@ -138,8 +138,8 @@
   "porAlt": [
    "Não são sinônimos, e a ortotanásia é expressamente amparada por resolução do Conselho Federal de Medicina.",
    "Antecipar a morte a pedido do paciente corresponde a suicídio assistido ou eutanásia, e não à ortotanásia.",
-   "Suspender suporte artificial fútil mantendo conforto é ortotanásia, e não eutanásia, ainda que haja consentimento.",
    "Correta: ortotanásia é não prolongar artificialmente o morrer, sendo lícita; eutanásia é provocar a morte, e é ilegal.",
+   "Suspender suporte artificial fútil mantendo conforto é ortotanásia, e não eutanásia, ainda que haja consentimento.",
    "A eutanásia permanece ilegal no país independentemente de registro em prontuário ou de número de assinaturas."
   ]
  }

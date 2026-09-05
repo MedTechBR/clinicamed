@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Paciente com síndrome coronariana aguda recebe alta hospitalar. Qual é o conjunto de medidas de prevenção secundária?",
+  "alts": [
+   "Apenas ácido acetilsalicílico isolado, medida suficiente para a prevenção secundária após síndrome coronariana aguda agora.",
+   "Apenas orientação dietética, sem qualquer prescrição medicamentosa na alta do paciente após o evento coronariano neste caso.",
+   "Dupla antiagregação, estatina de alta potência, betabloqueador e bloqueio do sistema renina-angiotensina em todo caso.",
+   "Apenas anticoagulação plena isolada como estratégia única de prevenção secundária após o evento coronariano agudo agora.",
+   "Nenhuma medida preventiva enquanto o paciente permanecer assintomático após a alta hospitalar do evento para este paciente."
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "ESC Guidelines for the management of acute coronary syndromes, 2023; Diretriz Brasileira de SCA — SBC, 2021",
+  "coment": "A prevenção secundária após síndrome coronariana aguda combina dupla antiagregação por período definido, estatina de alta potência com meta de LDL abaixo de 55 mg/dL, betabloqueador conforme a função ventricular, inibidor da enzima conversora ou bloqueador do receptor sobretudo com disfunção ventricular, diabetes ou doença renal, e antagonista mineralocorticoide em subgrupos. Somam-se cessação do tabagismo, reabilitação cardíaca e controle de pressão e glicemia.",
+  "porAlt": [
+   "O ácido acetilsalicílico isolado deixa de fora classes com benefício comprovado de sobrevida.",
+   "A orientação dietética é essencial, mas isolada não substitui a terapia farmacológica indicada.",
+   "Correta: dupla antiagregação, estatina de alta potência, betabloqueador e bloqueio do sistema conforme indicação.",
+   "A anticoagulação isolada não substitui a antiagregação nem as demais medidas de prevenção secundária.",
+   "A ausência de sintomas não reduz o risco de novo evento, que é máximo no primeiro ano após o infarto."
+  ]
+ },
+ {
+  "q": "Paciente com exacerbação de doença pulmonar obstrutiva crônica sem sinais de infecção bacteriana. Qual é a conduta?",
+  "alts": [
+   "Antibiótico de amplo espectro para todos os pacientes com exacerbação, independentemente de qualquer critério clínico agora.",
+   "Corticoide sistêmico contínuo por seis meses como tratamento padrão da exacerbação da doença pulmonar obstrutiva neste caso.",
+   "Apenas oxigênio em alto fluxo com alvo de saturação acima de noventa e oito por cento em todos os casos para este paciente.",
+   "Apenas antitussígeno contínuo como tratamento da exacerbação da doença pulmonar obstrutiva crônica descrita nesse contexto.",
+   "Broncodilatador de curta duração e corticoide sistêmico por período curto, reservando sempre o antibiótico a critérios definidos."
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "GOLD Report, 2025",
+  "coment": "O tratamento da exacerbação combina broncodilatador de curta duração em dose otimizada e corticoide sistêmico por cinco dias, que acelera a recuperação e reduz recaída. O antibiótico é indicado quando há aumento da purulência do escarro associado a aumento do volume ou da dispneia, ou quando há necessidade de suporte ventilatório. O alvo de saturação é de 88 a 92 por cento, pois a hiperóxia agrava a hipercapnia nesses pacientes.",
+  "porAlt": [
+   "O antibiótico universal em exacerbação sem purulência seleciona resistência sem benefício claro.",
+   "O corticoide por seis meses acumula toxicidade sem ganho adicional sobre o curso de cinco dias.",
+   "O alvo elevado de saturação agrava a hipercapnia nesses pacientes e piora o desfecho clínico.",
+   "O antitussígeno prejudica a depuração de secreções e não trata o broncoespasmo da exacerbação.",
+   "Correta: broncodilatador de curta duração e corticoide por período curto, com antibiótico por critérios definidos."
+  ]
+ },
+ {
+  "q": "Paciente com hiponatremia crônica assintomática de 128 mEq/L por secreção inapropriada de antidiurético. Qual é a conduta?",
+  "alts": [
+   "Salina hipertônica em bolus imediato em todos os pacientes com hiponatremia crônica e assintomática neste caso.",
+   "Aumentar a oferta de água livre para corrigir o desequilíbrio eletrolítico identificado nos exames do paciente.",
+   "Restrição hídrica como primeira medida, corrigindo sempre de forma lenta e tratando a causa subjacente identificada.",
+   "Corrigir o sódio até valores normais nas primeiras seis horas em todo paciente com hiponatremia crônica neste caso.",
+   "Iniciar diurético de alça em dose alta isolado como primeira medida de correção da hiponatremia crônica neste caso."
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "European clinical practice guideline on diagnosis and treatment of hyponatraemia, 2014 com revisão 2023",
+  "coment": "Na hiponatremia crônica assintomática por secreção inapropriada de antidiurético, o tratamento inicial é restrição hídrica, com correção lenta que não ultrapasse 8 a 10 mEq/L em vinte e quatro horas para evitar desmielinização osmótica, complicação devastadora. Investiga-se e trata-se a causa: neoplasia, doença pulmonar, doença do sistema nervoso central e fármacos. Salina hipertônica se reserva à hiponatremia sintomática grave, com convulsão ou rebaixamento.",
+  "porAlt": [
+   "A salina hipertônica se reserva à hiponatremia sintomática grave, ausente neste paciente descrito.",
+   "Aumentar a água livre agrava diretamente a hiponatremia já estabelecida no paciente.",
+   "Correta: restrição hídrica como primeira medida, com correção lenta e tratamento da causa subjacente.",
+   "Corrigir em seis horas na forma crônica arrisca síndrome de desmielinização osmótica.",
+   "O diurético de alça isolado não é a primeira medida e pode causar distúrbios adicionais."
+  ]
+ },
+ {
+  "q": "Paciente com esteatose hepática e fibrose avançada estimada por elastografia. Qual é a conduta adicional?",
+  "alts": [
+   "Não realizar qualquer rastreio adicional, pois a fibrose avançada não aumenta o risco de complicações hepáticas.",
+   "Indicar transplante hepático imediato em todos os pacientes com fibrose avançada estimada por elastografia.",
+   "Prescrever apenas hepatoprotetor de venda livre como conduta adicional no paciente com fibrose avançada agora.",
+   "Rastrear varizes e carcinoma hepatocelular conforme o protocolo, mantendo sempre o controle metabólico rigoroso.",
+   "Suspender qualquer acompanhamento e liberar o paciente definitivamente após o resultado da elastografia agora."
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "AASLD Practice Guidance on metabolic dysfunction-associated steatotic liver disease, 2023; EASL-EASD-EASO Clinical Practice Guidelines, 2024",
+  "coment": "A fibrose é o principal determinante prognóstico na doença hepática esteatótica metabólica. Fibrose avançada aproxima o paciente do comportamento de cirrose, exigindo rastreio de carcinoma hepatocelular com ultrassonografia semestral e avaliação de hipertensão portal com pesquisa de varizes conforme critérios de elastografia e plaquetas. Simultaneamente, mantém-se o controle metabólico intensivo, com perda de peso, tratamento do diabetes e da dislipidemia.",
+  "porAlt": [
+   "A fibrose avançada é o principal determinante prognóstico e aumenta muito o risco de complicações.",
+   "O transplante se reserva à doença hepática descompensada ou a indicações oncológicas específicas.",
+   "Hepatoprotetores não têm eficácia demonstrada e não substituem o rastreio nem o controle metabólico.",
+   "Correta: rastrear varizes e carcinoma hepatocelular conforme protocolo, com controle metabólico rigoroso.",
+   "Liberar sem seguimento perde complicações graves que são detectáveis e tratáveis precocemente."
+  ]
+ },
+ {
+  "q": "Paciente com uso crônico de corticoide desenvolve hiperglicemia. Qual é o padrão glicêmico esperado e a conduta?",
+  "alts": [
+   "Hiperglicemia exclusivamente de jejum matinal, único padrão observado no uso crônico de corticoide sistêmico.",
+   "Ausência de qualquer alteração glicêmica, pois o corticoide não interfere no metabolismo da glicose agora.",
+   "Hiperglicemia predominantemente pós-prandial e vespertina, exigindo sempre monitorização em horários adequados.",
+   "Hipoglicemia recorrente noturna, alteração característica do uso crônico de corticoide em dose suprafisiológica.",
+   "Padrão glicêmico completamente aleatório, que dispensa qualquer monitorização programada no paciente agora."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society guidance on glucocorticoid-induced hyperglycemia, revisão 2023; ADA Standards of Care in Diabetes, 2025",
+  "coment": "O corticoide, sobretudo em dose única matinal de ação intermediária como a prednisona, produz hiperglicemia predominantemente no período pós-prandial e vespertino, com glicemia de jejum frequentemente normal. Por isso, monitorar apenas o jejum subestima o problema, e a glicemia pós-almoço e do fim da tarde é mais sensível. O tratamento privilegia insulina com perfil que acompanhe esse padrão, ajustada conforme a dose e o horário do corticoide.",
+  "porAlt": [
+   "A glicemia de jejum é frequentemente normal, e monitorar apenas ela subestima a hiperglicemia.",
+   "O corticoide aumenta a resistência insulínica e a produção hepática de glicose de forma marcante.",
+   "Correta: hiperglicemia predominantemente pós-prandial e vespertina, exigindo monitorização nesses horários.",
+   "O corticoide causa hiperglicemia, e não hipoglicemia, no seu uso crônico em dose suprafisiológica.",
+   "O padrão é previsível e a monitorização deve ser dirigida aos horários de maior elevação."
+  ]
+ },
+ {
+  "q": "Paciente idoso com quedas recorrentes em uso de quatro fármacos com risco de queda. Qual é a conduta prioritária?",
+  "alts": [
+   "Manter todos os fármacos e apenas orientar o paciente a caminhar menos dentro do próprio domicílio agora.",
+   "Prescrever cadeira de rodas para todos os pacientes idosos com quedas recorrentes e polifarmácia associada.",
+   "Acrescentar novo fármaco para tratar cada sintoma que surgir durante a investigação das quedas recorrentes.",
+   "Desprescrever de forma gradual os fármacos de maior risco, associando sempre exercício de força e equilíbrio.",
+   "Suspender todos os medicamentos simultaneamente na mesma consulta sem qualquer priorização individual agora."
+  ],
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "World Falls Guidelines, 2022; AGS Beers Criteria, 2023",
+  "coment": "Fármacos que aumentam o risco de queda — benzodiazepínicos, antipsicóticos, antidepressivos, anti-hipertensivos com hipotensão postural, hipoglicemiantes com risco de hipoglicemia, opioides e anticolinérgicos — são alvo prioritário na prevenção. A desprescrição é gradual e priorizada, um fármaco por vez, associada à intervenção com melhor evidência: exercício estruturado com componentes de força e equilíbrio, além de adequação do ambiente, visão e calçado.",
+  "porAlt": [
+   "Manter os fármacos e restringir a marcha agrava a sarcopenia e aumenta o risco de novas quedas.",
+   "A cadeira de rodas acelera o descondicionamento e retira a mobilidade ainda preservada do idoso.",
+   "Acrescentar fármacos configura cascata de prescrição e amplia o risco de queda do paciente.",
+   "Correta: desprescrever gradualmente os fármacos de maior risco, com exercício de força e equilíbrio.",
+   "Suspender tudo de uma vez impede identificar responsabilidades e pode precipitar descompensações."
+  ]
+ },
+ {
+  "q": "Paciente com neutropenia febril de baixo risco, sem comorbidades e com boa condição clínica. Qual é a conduta possível?",
+  "alts": [
+   "Tratamento ambulatorial com antibiótico oral em casos selecionados, garantindo sempre retorno rápido e reavaliação programada.",
+   "Internação obrigatória em unidade de terapia intensiva para todos os pacientes com neutropenia febril atendidos neste caso.",
+   "Alta sem qualquer antibiótico em pacientes de baixo risco com neutropenia febril e boa condição clínica para este paciente.",
+   "Antifúngico oral isolado como tratamento empírico inicial em pacientes de baixo risco com neutropenia febril neste caso.",
+   "Aguardar o resultado das culturas antes de iniciar qualquer antibiótico no paciente de baixo risco descrito nesse contexto."
+  ],
+  "gab": 0,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ASCO/IDSA guideline on outpatient management of febrile neutropenia, 2018 com revisão 2023; escore MASCC",
+  "coment": "Pacientes com neutropenia febril classificados como de baixo risco pelo escore MASCC, sem comorbidades descompensadas, com neutropenia de curta duração prevista, boa condição clínica, suporte domiciliar adequado e acesso rápido ao serviço, podem ser tratados ambulatorialmente com antibiótico oral, tipicamente amoxicilina com clavulanato associada a ciprofloxacino. Exige-se retorno programado em vinte e quatro a quarenta e oito horas e orientação clara de sinais de alarme.",
+  "porAlt": [
+   "Correta: tratamento ambulatorial com antibiótico oral em casos selecionados, com retorno rápido programado.",
+   "A terapia intensiva se reserva a instabilidade e disfunção orgânica, ausentes no baixo risco.",
+   "Neutropenia febril sempre exige antibiótico, mesmo nos pacientes classificados como de baixo risco.",
+   "O antifúngico não é terapia empírica inicial e não cobre os agentes bacterianos mais prováveis.",
+   "Aguardar culturas atrasa o antibiótico, cuja precocidade é determinante da sobrevida nessa condição."
+  ]
+ },
+ {
+  "q": "Paciente com dor torácica pleurítica e atrito pericárdico após infarto recente do miocárdio. Qual é o diagnóstico?",
+  "alts": [
+   "Pericardite pós-infarto, cujo tratamento privilegia sempre ácido acetilsalicílico em dose alta com colchicina associada.",
+   "Reinfarto agudo do miocárdio, definido por dor pleurítica com atrito pericárdico após o evento coronariano neste caso.",
+   "Tromboembolismo pulmonar agudo, quadro caracterizado por atrito pericárdico após infarto recente do miocárdio agora.",
+   "Dissecção de aorta subaguda, condição definida por dor pleurítica com atrito pericárdico no pós-infarto neste caso.",
+   "Pneumotórax espontâneo, quadro caracterizado por atrito pericárdico e dor pleurítica após infarto recente neste caso."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ESC Guidelines on myocarditis and pericarditis, 2025; ESC Guidelines for the management of acute coronary syndromes, 2023",
+  "coment": "A pericardite pós-infarto precoce ocorre nos primeiros dias após o evento, por inflamação adjacente à área necrótica, com dor pleurítica que melhora ao sentar-se e atrito pericárdico. O tratamento privilegia ácido acetilsalicílico em dose alta, preferido aos demais anti-inflamatórios não hormonais no pós-infarto porque estes prejudicam a cicatrização miocárdica e aumentam risco de complicações, associado a colchicina. Corticoide é evitado pelo mesmo motivo.",
+  "porAlt": [
+   "Correta: pericardite pós-infarto, tratada com ácido acetilsalicílico em dose alta associado a colchicina.",
+   "O reinfarto cursa com dor isquêmica típica e nova elevação de marcadores, sem atrito pericárdico.",
+   "O tromboembolismo pulmonar cursa com dispneia e hipoxemia, sem produzir atrito pericárdico.",
+   "A dissecção de aorta cursa com dor lancinante irradiada ao dorso e assimetria de pulsos.",
+   "O pneumotórax cursa com ausência de murmúrio e hipertimpanismo, sem atrito pericárdico."
+  ]
+ },
+ {
+  "q": "Paciente com sepse de foco pulmonar apresenta melhora clínica após cinco dias de antibiótico. Qual é a conduta quanto à duração?",
+  "alts": [
+   "Manter o antibiótico por trinta dias em todos os pacientes com sepse de foco pulmonar independentemente da resposta.",
+   "Suspender o antibiótico após vinte e quatro horas de melhora clínica em todos os pacientes com sepse pulmonar.",
+   "Definir a duração pela resposta clínica e pelo foco, evitando sempre prolongar o antibiótico sem indicação clara.",
+   "Manter o antibiótico indefinidamente até a normalização completa da radiografia de tórax do paciente tratado.",
+   "Trocar o antibiótico a cada três dias de rotina para evitar o surgimento de resistência bacteriana no paciente."
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Surviving Sepsis Campaign, 2021 com atualização 2024; ATS/IDSA Guidelines for pneumonia, revisão 2023",
+  "coment": "A tendência atual é encurtar a duração do antibiótico quando o foco está controlado e há boa resposta clínica: cinco a sete dias bastam na maioria das pneumonias, com desfechos equivalentes aos de cursos prolongados e menos resistência, toxicidade e infecção por Clostridioides difficile. A procalcitonina pode auxiliar na decisão de suspender. A radiografia demora semanas a normalizar e não deve guiar a duração do tratamento antimicrobiano.",
+  "porAlt": [
+   "Trinta dias é excessivo para foco pulmonar controlado e favorece resistência e toxicidade.",
+   "Suspender após vinte e quatro horas de melhora é insuficiente e favorece recidiva da infecção.",
+   "Correta: definir a duração pela resposta clínica e pelo foco, sem prolongar o antibiótico desnecessariamente.",
+   "A radiografia leva semanas a normalizar e não deve guiar a duração do tratamento antimicrobiano.",
+   "Trocar antibiótico de rotina a cada três dias não previne resistência e desorganiza o tratamento."
+  ]
+ },
+ {
+  "q": "Paciente com anemia e sangue oculto positivo nas fezes, sem sintomas digestivos, com 62 anos. Qual é a conduta?",
+  "alts": [
+   "Repor apenas ferro por via oral e reavaliar somente após doze meses de suplementação sem qualquer investigação.",
+   "Ignorar completamente o resultado, pois sangue oculto positivo nunca tem significado clínico em pacientes idosos.",
+   "Prescrever apenas dieta rica em ferro como conduta definitiva no paciente com anemia e sangue oculto positivo já.",
+   "Indicar colectomia total imediata em todos os pacientes com anemia e pesquisa de sangue oculto positiva nas fezes já.",
+   "Investigar o trato digestivo com colonoscopia e endoscopia, considerando sempre neoplasia como principal hipótese."
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACG/AGA Clinical Guideline on gastrointestinal evaluation of iron deficiency anemia, 2020 com revisão 2023; INCA — rastreamento do câncer colorretal, 2023",
+  "coment": "Anemia ferropriva com sangue oculto positivo em homem ou em mulher pós-menopausa é câncer colorretal até prova em contrário e exige investigação endoscópica do trato digestivo, habitualmente colonoscopia e, quando esta é normal, endoscopia digestiva alta na mesma avaliação. Repor ferro sem investigar mascara a anemia enquanto a neoplasia progride, sendo um dos erros que mais atrasam o diagnóstico de tumores potencialmente curáveis nessa faixa etária.",
+  "porAlt": [
+   "Repor ferro sem investigar mascara a anemia enquanto a neoplasia progride sem diagnóstico.",
+   "Sangue oculto positivo com anemia nessa faixa etária é achado de alarme que exige investigação.",
+   "A dieta não corrige a perda contínua nem investiga a causa do sangramento digestivo oculto.",
+   "A colectomia sem diagnóstico e sem localização da lesão é conduta absolutamente inadequada.",
+   "Correta: investigar o trato digestivo com colonoscopia e endoscopia, com neoplasia como principal hipótese."
+  ]
+ }
+]

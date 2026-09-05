@@ -26,13 +26,13 @@
  {
   "q": "Homem de 29 anos com diabetes tipo 1 há doze anos, em esquema basal-bolus com múltiplas aplicações, tem índice de massa corporal de 34 kg/m² e hemoglobina glicada de 7,9%. Pergunta sobre tratamento farmacológico para a obesidade. Segundo a versão de 2026 das recomendações da Associação Americana de Diabetes, qual é a orientação?",
   "alts": [
-   "Um agonista do receptor de GLP-1 entra como opção, sempre com dose individualizada e insulina.",
    "Fármacos dessa classe seguem contraindicados no diabetes tipo 1, restritos apenas ao diabetes tipo 2.",
+   "Um agonista do receptor de GLP-1 entra como opção, sempre com dose individualizada e insulina.",
    "A conduta se limita a dieta e exercício, pois medicação para obesidade não tem espaço no tipo 1.",
    "Deve-se sempre buscar a dose máxima aprovada em bula, que é a única dose com eficácia demonstrada.",
    "A cirurgia bariátrica é a única opção admitida nesse caso, sem alternativa de tratamento clínico."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -40,8 +40,8 @@
   "base": "ADA Standards of Care in Diabetes 2026 — uso de agonistas de GLP-1 na obesidade associada ao diabetes tipo 1",
   "coment": "A edição de 2026 trouxe, pela primeira vez, recomendação de considerar agonistas do receptor de GLP-1 e congêneres em pessoas com diabetes tipo 1 e obesidade, sempre em associação à insulina, que continua indispensável. O texto também passou a enfatizar a individualização da dose dos fármacos antiobesidade: a dose mais eficaz para um determinado paciente pode não ser a maior aprovada, e a escalada deve considerar resposta, tolerância e objetivo terapêutico. Os cuidados específicos no tipo 1 são o risco de cetoacidose euglicêmica em uso concomitante de outras classes e a necessidade de reduzir a insulina prandial.",
   "porAlt": [
-   "Correta: a versão de 2026 passou a admitir o agonista de GLP-1 no diabetes tipo 1 com obesidade, com dose individualizada e insulina mantida.",
    "A contraindicação absoluta no tipo 1 é justamente o que a atualização derrubou, ao reconhecer o benefício sobre peso e sensibilidade à insulina.",
+   "Correta: a versão de 2026 passou a admitir o agonista de GLP-1 no diabetes tipo 1 com obesidade, com dose individualizada e insulina mantida.",
    "Restringir a conduta a dieta e exercício ignora uma recomendação explícita da diretriz e deixa o paciente sem tratamento eficaz da obesidade.",
    "A diretriz diz o oposto: a dose mais eficaz pode não ser a maior aprovada, e a titulação deve ser individualizada em cada paciente.",
    "A cirurgia é uma opção entre outras e não exclui o tratamento clínico, que agora conta com recomendação específica para este perfil."

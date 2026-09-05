@@ -5,10 +5,10 @@
    "Ofertar oxigênio sob máscara com reservatório a 15 L/min para manter a saturação acima de 98% agora.",
    "Ofertar oxigênio por cateter nasal a 3 L/min de rotina em toda crise asmática atendida no setor.",
    "Indicar ventilação não invasiva imediatamente, antes mesmo da segunda série de broncodilatador.",
-   "Ofertar oxigênio apenas se a gasometria arterial mostrar pressão parcial de oxigênio menor que 80.",
-   "Não ofertar oxigênio suplementar: só se indica a oferta quando a saturação cai abaixo do limiar."
+   "Não ofertar oxigênio suplementar: só se indica a oferta quando a saturação cai abaixo do limiar.",
+   "Ofertar oxigênio apenas se a gasometria arterial mostrar pressão parcial de oxigênio menor que 80."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "urg",
@@ -19,8 +19,8 @@
    "Máscara com reservatório a alto fluxo produz hiperóxia, que na crise asmática piora a troca gasosa e pode elevar a pressão de dióxido de carbono.",
    "Oxigênio de rotina em toda crise foi justamente a prática que a diretriz passou a desaconselhar, por não trazer benefício e acrescentar risco.",
    "A ventilação não invasiva não é passo inicial da crise asmática; a prioridade é broncodilatador em série e corticoide sistêmico precoce.",
-   "A gasometria arterial não é exigida para decidir oxigenoterapia na crise; a oximetria de pulso guia a indicação e o alvo de saturação.",
-   "Correta: com saturação de 94% a paciente já está na faixa-alvo, e o GINA 2026 só indica oxigênio quando a saturação cai abaixo de 92%."
+   "Correta: com saturação de 94% a paciente já está na faixa-alvo, e o GINA 2026 só indica oxigênio quando a saturação cai abaixo de 92%.",
+   "A gasometria arterial não é exigida para decidir oxigenoterapia na crise; a oximetria de pulso guia a indicação e o alvo de saturação."
   ]
  },
  {
@@ -74,13 +74,13 @@
  {
   "q": "Homem de 54 anos com DPOC moderada, ex-tabagista, comparece à consulta de rotina para atualizar o calendário vacinal. Já recebeu as vacinas contra influenza e pneumococo neste ciclo. Pergunta se existe algo mais indicado para a sua doença pulmonar. Segundo o relatório GOLD vigente, o que se recomenda quanto à vacina contra o vírus sincicial respiratório?",
   "alts": [
-   "Indicá-la agora, porque a recomendação passou a valer a partir dos 50 anos nesse grupo de pacientes.",
    "Adiar a indicação até os 60 anos, faixa etária em que a vacina permanece recomendada atualmente.",
    "Restringir a vacina aos pacientes com oxigenoterapia domiciliar contínua ou VEF₁ abaixo de trinta.",
+   "Indicá-la agora, porque a recomendação passou a valer a partir dos 50 anos nesse grupo de pacientes.",
    "Considerá-la somente após duas internações por exacerbação ocorridas dentro do mesmo ano civil.",
    "Dispensar a vacina, uma vez que a proteção da influenza cobre também o vírus sincicial respiratório."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
@@ -88,9 +88,9 @@
   "base": "GOLD 2026 — atualização da recomendação de vacina contra VSR (idade reduzida de 60 para 50 anos)",
   "coment": "Entre as mudanças do relatório GOLD de 2026 está a redução da idade recomendada para a vacina contra o vírus sincicial respiratório em pacientes com DPOC: passou de 60 para 50 anos. A justificativa é o peso do VSR como causa de exacerbação e de hospitalização nesse grupo, com carga de doença comparável à da influenza em adultos com doença pulmonar crônica. As vacinas são imunologicamente distintas e não há proteção cruzada entre influenza e VSR. Não há exigência de gravidade funcional, de oxigenoterapia ou de número prévio de internações para indicar a vacinação.",
   "porAlt": [
-   "Correta: o GOLD 2026 reduziu para 50 anos a idade a partir da qual a vacina contra o VSR é recomendada em pacientes com DPOC.",
    "A faixa dos 60 anos era a da versão anterior do relatório; manter esse corte deixa sem proteção uma década inteira de pacientes de risco.",
    "A recomendação é etária e não depende de oxigenoterapia domiciliar nem de um valor específico de VEF₁ para ser aplicada ao paciente.",
+   "Correta: o GOLD 2026 reduziu para 50 anos a idade a partir da qual a vacina contra o VSR é recomendada em pacientes com DPOC.",
    "Não se exige histórico de internação para vacinar: a indicação é preventiva e antecede o evento que se pretende justamente evitar.",
    "São vacinas contra vírus distintos, sem proteção cruzada; a imunização contra influenza não confere qualquer cobertura contra o VSR."
   ]

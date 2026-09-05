@@ -3,12 +3,12 @@
   "q": "Homem de 72 anos tem fadiga e linfocitose persistente de 42.000/mm³, com linfócitos de aparência madura no esfregaço. A imunofenotipagem mostra população monoclonal de linfócitos B com CD5 e CD23 positivos. Não há anemia, plaquetopenia, sintomas B nem adenomegalia volumosa. Qual é a conduta?",
   "alts": [
    "Iniciar quimioterapia imediata, indicada em toda leucemia linfocítica crônica no momento do diagnóstico.",
-   "Acompanhamento sem tratamento, pois a doença em estágio inicial assintomático não exige terapia agora.",
    "Realizar transplante de medula óssea de imediato, único tratamento capaz de curar a doença nessa idade.",
+   "Acompanhamento sem tratamento, pois a doença em estágio inicial assintomático não exige terapia agora.",
    "Prescrever corticoide contínuo em dose alta, capaz de normalizar a contagem de linfócitos do paciente.",
    "Solicitar apenas mielograma seriado a cada mês, adiando qualquer decisão terapêutica por dois anos."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
@@ -17,8 +17,8 @@
   "coment": "A leucemia linfocítica crônica em estágio inicial e assintomática não se beneficia de tratamento precoce: os ensaios mostraram que tratar antes de haver indicação não prolonga a sobrevida e expõe a toxicidade. A conduta é vigilância ativa, com consultas e hemogramas periódicos. O tratamento é indicado diante de doença ativa: anemia ou plaquetopenia por infiltração medular, sintomas B, adenomegalia volumosa ou sintomática, esplenomegalia importante, ou duplicação rápida da contagem de linfócitos. A linfocitose isolada, por mais alta que seja, não é critério de tratamento.",
   "porAlt": [
    "Tratar todo paciente ao diagnóstico expõe à toxicidade sem ganho de sobrevida demonstrado em ensaio clínico.",
-   "Correta: em estágio inicial e assintomático, a conduta é vigilância ativa — tratar cedo não prolonga a sobrevida.",
    "O transplante tem indicações restritas na doença refratária e de alto risco, e não como conduta inicial nessa idade.",
+   "Correta: em estágio inicial e assintomático, a conduta é vigilância ativa — tratar cedo não prolonga a sobrevida.",
    "O corticoide contínuo não é tratamento da doença e traria imunossupressão adicional a um paciente já suscetível.",
    "Mielograma mensal é invasivo e desnecessário: o acompanhamento se faz por clínica e hemograma periódicos."
   ]
@@ -27,12 +27,12 @@
   "q": "Mulher de 34 anos com lúpus em uso de hidroxicloroquina e prednisona apresenta febre, dor lombar e disúria. Está com pressão de 96/58 mmHg, frequência de 118 bpm e leucócitos de 2.100/mm³. Qual é a preocupação principal e a conduta?",
   "alts": [
    "Atividade de lúpus isolada, tratada apenas com aumento imediato da dose de corticoide sistêmico.",
+   "Sepse em paciente imunossuprimida, com antimicrobiano precoce e avaliação de insuficiência adrenal.",
    "Reação adversa à hidroxicloroquina, cuja suspensão resolve o quadro sem qualquer medida a mais.",
    "Fibromialgia associada, que explica a dor e dispensa investigação infecciosa nesse contexto clínico.",
-   "Leucopenia benigna da doença, achado que afasta infecção bacteriana em paciente com lúpus ativo.",
-   "Sepse em paciente imunossuprimida, com antimicrobiano precoce e avaliação de insuficiência adrenal."
+   "Leucopenia benigna da doença, achado que afasta infecção bacteriana em paciente com lúpus ativo."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "reumato",
   "cenario": "emg",
   "comp": "urg",
@@ -41,10 +41,10 @@
   "coment": "Infecção é uma das principais causas de morte no lúpus, e o corticoide mascara sinais inflamatórios. Febre com foco urinário, hipotensão e taquicardia em paciente imunossuprimida deve ser tratada como sepse até prova em contrário: culturas e antimicrobiano precoce, com ressuscitação volêmica. A leucopenia pode ser da própria doença, mas não afasta infecção — ao contrário, agrava o risco. Também é preciso considerar insuficiência adrenal em quem usa corticoide crônico e enfrenta estresse agudo. Atribuir tudo à atividade de lúpus e apenas subir o corticoide é o erro que mata nesse cenário.",
   "porAlt": [
    "Subir corticoide sem cobrir infecção em paciente hipotensa pode ser fatal; atividade de lúpus é diagnóstico de exclusão aqui.",
+   "Correta: febre com hipotensão em imunossuprimida é sepse até prova em contrário, com antimicrobiano precoce e atenção à adrenal.",
    "A hidroxicloroquina não causa esse quadro agudo e suspendê-la não trataria a hipotensão nem o foco urinário.",
    "Fibromialgia não causa febre nem hipotensão, e usá-la como explicação atrasaria o tratamento de uma sepse.",
-   "A leucopenia do lúpus não protege contra infecção; ela aumenta o risco e torna o quadro mais perigoso.",
-   "Correta: febre com hipotensão em imunossuprimida é sepse até prova em contrário, com antimicrobiano precoce e atenção à adrenal."
+   "A leucopenia do lúpus não protege contra infecção; ela aumenta o risco e torna o quadro mais perigoso."
   ]
  },
  {
@@ -74,13 +74,13 @@
  {
   "q": "Mulher de 66 anos em uso crônico de prednisona por polimialgia reumática tem densitometria com escore T de -2,8 em coluna lombar, sem fratura prévia. Qual é a conduta correta?",
   "alts": [
+   "Iniciar bisfosfonato com cálcio e vitamina D, pela osteoporose induzida por corticoide já instalada.",
    "Apenas suplementar cálcio e vitamina D, medida suficiente para reverter a perda óssea nesse caso.",
    "Repetir a densitometria em cinco anos, adiando qualquer tratamento enquanto não houver fratura.",
    "Suspender o corticoide de forma abrupta, única medida capaz de recuperar a densidade mineral óssea.",
-   "Iniciar bisfosfonato com cálcio e vitamina D, pela osteoporose induzida por corticoide já instalada.",
    "Iniciar reposição hormonal estrogênica, primeira escolha para osteoporose induzida por corticoide."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "prev",
@@ -88,10 +88,10 @@
   "base": "American College of Rheumatology, 2022 — Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis",
   "coment": "O corticoide crônico é a causa mais comum de osteoporose secundária, e a perda óssea é mais rápida nos primeiros meses de uso. Com escore T de -2,8 em paciente sob corticoide, há indicação de tratamento farmacológico com bisfosfonato, associado a cálcio e vitamina D, que sozinhos não bastam. Também se recomenda usar a menor dose de corticoide pelo menor tempo possível, avaliar risco de queda e estimular exercício com carga. A suspensão abrupta do corticoide em uso crônico arrisca insuficiência adrenal e reativação da doença de base.",
   "porAlt": [
+   "Correta: escore T de -2,8 em uso de corticoide indica bisfosfonato associado a cálcio e vitamina D.",
    "Cálcio e vitamina D são adjuvantes necessários, mas não revertem a perda óssea induzida pelo corticoide sozinhos.",
    "Esperar a fratura para tratar inverte a lógica da prevenção, justamente quando o risco já está documentado.",
    "A retirada abrupta do corticoide arrisca insuficiência adrenal e reativação da polimialgia que motivou o uso.",
-   "Correta: escore T de -2,8 em uso de corticoide indica bisfosfonato associado a cálcio e vitamina D.",
    "A reposição estrogênica não é primeira escolha para essa indicação e traz riscos próprios nessa faixa etária."
   ]
  }

@@ -2,13 +2,13 @@
  {
   "q": "Paciente com diabetes tipo 2 em uso de metformina apresenta hemoglobina glicada de 8,0% e doença cardiovascular aterosclerótica estabelecida. Qual é o próximo passo?",
   "alts": [
-   "Acrescentar agonista de GLP-1 ou inibidor de SGLT2 com benefício cardiovascular sempre comprovado em ensaios.",
    "Acrescentar sulfonilureia em dose plena como próxima escolha nesse paciente com doença aterosclerótica agora.",
+   "Acrescentar agonista de GLP-1 ou inibidor de SGLT2 com benefício cardiovascular sempre comprovado em ensaios.",
    "Iniciar insulina basal isolada como próximo passo obrigatório antes de qualquer outro antidiabético oral.",
    "Acrescentar glitazona em dose plena, escolha preferencial pelo benefício cardiovascular demonstrado agora.",
    "Manter apenas a metformina e reavaliar somente após doze meses de acompanhamento ambulatorial neste caso."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -16,8 +16,8 @@
   "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024; ESC Guidelines on diabetes and cardiovascular disease, 2023",
   "coment": "Em diabetes tipo 2 com doença cardiovascular aterosclerótica estabelecida, a escolha do segundo fármaco é guiada pelo benefício cardiovascular demonstrado, e não apenas pela redução da glicemia: agonistas de GLP-1 como liraglutida, semaglutida e dulaglutida reduzem eventos ateroscleróticos maiores, e inibidores de SGLT2 reduzem sobretudo internação por insuficiência cardíaca e progressão renal. A indicação independe do valor da hemoglobina glicada.",
   "porAlt": [
-   "Correta: agonista de GLP-1 ou inibidor de SGLT2, escolhidos pelo benefício cardiovascular comprovado.",
    "A sulfonilureia reduz glicemia mas não demonstrou benefício cardiovascular e causa hipoglicemia.",
+   "Correta: agonista de GLP-1 ou inibidor de SGLT2, escolhidos pelo benefício cardiovascular comprovado.",
    "A insulina basal não é o próximo passo obrigatório e não oferece a proteção cardiovascular buscada.",
    "A glitazona causa retenção hídrica e pode agravar insuficiência cardíaca nesse perfil de paciente.",
    "Manter apenas metformina com glicada de 8,0 por cento deixa o paciente sem controle adequado."
@@ -26,13 +26,13 @@
  {
   "q": "Paciente com TSH de 7,5 mUI/L, T4 livre normal, assintomático, sem anticorpos e com 45 anos. Qual é a conduta?",
   "alts": [
-   "Repetir os exames em dois a três meses antes de decidir sempre sobre a indicação de reposição hormonal.",
    "Iniciar levotiroxina imediatamente em dose plena para todos os pacientes com esse valor de TSH agora já.",
    "Iniciar metimazol em dose plena para reduzir o valor do hormônio tireoestimulante encontrado no exame.",
    "Indicar tireoidectomia total como conduta diante do valor de TSH descrito no enunciado do caso agora já.",
-   "Ignorar completamente o resultado e não repetir qualquer exame de função tireoidiana no seguimento."
+   "Ignorar completamente o resultado e não repetir qualquer exame de função tireoidiana no seguimento.",
+   "Repetir os exames em dois a três meses antes de decidir sempre sobre a indicação de reposição hormonal."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -40,23 +40,23 @@
   "base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; European Thyroid Association guideline on subclinical hypothyroidism, 2013 com revisão 2022",
   "coment": "O hipotireoidismo subclínico é definido por TSH elevado com T4 livre normal, e o TSH pode normalizar espontaneamente em parte dos casos, o que justifica repetir os exames em dois a três meses antes de tratar. Com TSH abaixo de 10 mUI/L em adulto jovem assintomático e sem anticorpos, a conduta habitual é observar. A reposição é indicada com TSH acima de 10, sintomas relevantes, anticorpos positivos, gestação ou desejo de engravidar.",
   "porAlt": [
-   "Correta: repetir os exames em dois a três meses antes de decidir sobre a reposição hormonal.",
    "Tratar todo TSH levemente elevado sem confirmação expõe a sobretratamento e tireotoxicose iatrogênica.",
    "O metimazol trata hipertireoidismo e agravaria o quadro de hipofunção sugerido pelo exame.",
    "A tireoidectomia não tem qualquer indicação diante de alteração isolada e leve do TSH sérico.",
-   "Ignorar sem repetir perde a chance de identificar progressão para hipotireoidismo franco."
+   "Ignorar sem repetir perde a chance de identificar progressão para hipotireoidismo franco.",
+   "Correta: repetir os exames em dois a três meses antes de decidir sobre a reposição hormonal."
   ]
  },
  {
   "q": "Paciente com obesidade grau II sem diabetes deseja tratamento medicamentoso para perda de peso. Qual é a conduta?",
   "alts": [
-   "Associar mudança de estilo de vida a fármaco aprovado, mantendo sempre acompanhamento clínico regular.",
    "Prescrever anfetamínico sem registro sanitário, alternativa habitual para o tratamento da obesidade.",
    "Prescrever diurético em dose alta como estratégia farmacológica para a redução do peso corporal agora.",
+   "Associar mudança de estilo de vida a fármaco aprovado, mantendo sempre acompanhamento clínico regular.",
    "Indicar apenas dieta de altíssima restrição sem qualquer acompanhamento clínico ou nutricional agora.",
    "Prescrever hormônio tireoidiano em paciente eutireóideo como estratégia para acelerar o metabolismo."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -64,9 +64,9 @@
   "base": "ABESO/SBEM — Diretrizes brasileiras de obesidade, 2022; Endocrine Society guideline on pharmacological management of obesity, revisão 2023",
   "coment": "O tratamento farmacológico da obesidade é indicado com índice de massa corporal a partir de 30 kg/m², ou a partir de 27 kg/m² com comorbidades, sempre associado a mudança de estilo de vida. As opções aprovadas incluem análogos de GLP-1 como liraglutida e semaglutida, tirzepatida, orlistate e sibutramina em pacientes selecionados sem doença cardiovascular. Diuréticos e hormônio tireoidiano em eutireóideos não são tratamentos e são potencialmente perigosos.",
   "porAlt": [
-   "Correta: mudança de estilo de vida associada a fármaco aprovado, com acompanhamento clínico regular.",
    "Prescrever substância sem registro sanitário é conduta insegura e eticamente inaceitável.",
    "O diurético reduz água corporal e não gordura, com risco de distúrbio hidroeletrolítico e renal.",
+   "Correta: mudança de estilo de vida associada a fármaco aprovado, com acompanhamento clínico regular.",
    "A restrição extrema sem acompanhamento causa perda de massa magra e deficiências nutricionais.",
    "O hormônio tireoidiano em eutireóideo causa tireotoxicose iatrogênica, com arritmia e perda óssea."
   ]
@@ -74,13 +74,13 @@
  {
   "q": "Paciente com hipoglicemia recorrente em jejum, com insulina e peptídeo C elevados e ausência de sulfonilureia detectável. Qual é o diagnóstico?",
   "alts": [
-   "Insulinoma, cuja investigação exige sempre localização por imagem após a confirmação bioquímica do quadro.",
    "Hipoglicemia factícia por insulina exógena, definida por peptídeo C elevado com insulina também elevada.",
    "Insuficiência adrenal primária, condição caracterizada por insulina e peptídeo C elevados no jejum agora.",
    "Hipoglicemia reativa pós-prandial, quadro definido por episódios em jejum com peptídeo C elevado agora.",
-   "Deficiência de hormônio de crescimento, condição definida por insulina e peptídeo C elevados no jejum."
+   "Deficiência de hormônio de crescimento, condição definida por insulina e peptídeo C elevados no jejum.",
+   "Insulinoma, cuja investigação exige sempre localização por imagem após a confirmação bioquímica do quadro."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
@@ -88,23 +88,23 @@
   "base": "Endocrine Society Clinical Practice Guideline — Evaluation and Management of Adult Hypoglycemic Disorders, revisão 2022",
   "coment": "A hipoglicemia hiperinsulinêmica endógena é caracterizada por glicemia baixa com insulina, peptídeo C e pró-insulina elevados e rastreio negativo para hipoglicemiantes orais. O insulinoma é a principal causa em adultos sem diabetes, e a confirmação é feita pelo teste de jejum prolongado de setenta e duas horas, seguido de localização por tomografia, ressonância ou ultrassonografia endoscópica. Insulina exógena cursa com peptídeo C suprimido, pois não estimula a produção endógena.",
   "porAlt": [
-   "Correta: insulinoma, com confirmação bioquímica seguida de localização por métodos de imagem.",
    "A insulina exógena suprime o peptídeo C, que estaria baixo e não elevado como neste caso.",
    "A insuficiência adrenal causa hipoglicemia com insulina baixa, e não com hiperinsulinismo endógeno.",
    "A hipoglicemia reativa ocorre no período pós-prandial, e não durante o jejum prolongado.",
-   "A deficiência de hormônio de crescimento causa hipoglicemia sem o hiperinsulinismo descrito."
+   "A deficiência de hormônio de crescimento causa hipoglicemia sem o hiperinsulinismo descrito.",
+   "Correta: insulinoma, com confirmação bioquímica seguida de localização por métodos de imagem."
   ]
  },
  {
   "q": "Paciente com hipercalcemia leve assintomática, PTH elevado e fósforo baixo. Qual é o diagnóstico e a conduta?",
   "alts": [
-   "Hiperparatireoidismo primário, avaliando sempre critérios de indicação cirúrgica e seguimento clínico.",
    "Hipercalcemia da malignidade, definida por PTH elevado com fósforo sérico persistentemente baixo.",
    "Intoxicação por vitamina D, condição caracterizada por PTH elevado com hipofosfatemia associada agora.",
+   "Hiperparatireoidismo primário, avaliando sempre critérios de indicação cirúrgica e seguimento clínico.",
    "Hipoparatireoidismo primário, quadro definido por hipercalcemia com paratormônio francamente elevado.",
    "Doença renal crônica avançada, caracterizada por hipercalcemia com fósforo sérico persistentemente baixo."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
@@ -112,9 +112,9 @@
   "base": "Fifth International Workshop on the Management of Primary Hyperparathyroidism, 2022",
   "coment": "Hipercalcemia com paratormônio elevado ou inapropriadamente normal e hipofosfatemia define hiperparatireoidismo primário, causado na maioria das vezes por adenoma único de paratireoide. A paratireoidectomia é indicada em pacientes sintomáticos e, nos assintomáticos, por critérios como cálcio acima de 1 mg/dL do limite superior, idade abaixo de cinquenta anos, osteoporose ou fratura vertebral, filtração glomerular reduzida e nefrolitíase ou hipercalciúria.",
   "porAlt": [
-   "Correta: hiperparatireoidismo primário, com avaliação dos critérios de indicação cirúrgica e seguimento.",
    "A hipercalcemia da malignidade cursa com paratormônio suprimido, e não elevado como no caso.",
    "A intoxicação por vitamina D cursa com paratormônio suprimido e fósforo tipicamente elevado.",
+   "Correta: hiperparatireoidismo primário, com avaliação dos critérios de indicação cirúrgica e seguimento.",
    "O hipoparatireoidismo cursa com hipocalcemia e paratormônio baixo, o oposto do descrito aqui.",
    "A doença renal crônica cursa com hiperfosfatemia e hiperparatireoidismo secundário associado."
   ]
@@ -146,13 +146,13 @@
  {
   "q": "Paciente em uso de corticoide sistêmico há oito meses precisa suspender o fármaco. Qual é a conduta?",
   "alts": [
-   "Reduzir a dose de forma gradual e programada, atento sempre a sinais de insuficiência adrenal secundária.",
    "Suspender abruptamente o corticoide na mesma consulta, sem qualquer esquema de redução programada agora.",
+   "Reduzir a dose de forma gradual e programada, atento sempre a sinais de insuficiência adrenal secundária.",
    "Substituir por outro corticoide de meia-vida mais longa e manter indefinidamente a mesma dose diária.",
    "Duplicar a dose antes da suspensão para reduzir o risco de recidiva da doença de base do paciente agora.",
    "Manter o corticoide indefinidamente, pois a suspensão é sempre impossível após oito meses de uso agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -160,8 +160,8 @@
   "base": "Endocrine Society/ESE guideline on glucocorticoid-induced adrenal insufficiency, 2024",
   "coment": "O uso de corticoide em dose suprafisiológica por mais de três a quatro semanas suprime o eixo hipotálamo-hipófise-adrenal, e a suspensão abrupta pode precipitar crise adrenal. A retirada é gradual, com reduções progressivas e mais lentas ao se aproximar da dose fisiológica, monitorando sintomas de insuficiência adrenal como fadiga, náusea, hipotensão e mialgia. Em situações de estresse durante a retirada, indica-se dose adicional de corticoide.",
   "porAlt": [
-   "Correta: redução gradual e programada, atento a sinais de insuficiência adrenal secundária.",
    "A suspensão abrupta pode precipitar crise adrenal, com hipotensão grave e risco de morte.",
+   "Correta: redução gradual e programada, atento a sinais de insuficiência adrenal secundária.",
    "Trocar por corticoide de meia-vida longa mantida indefinidamente agrava a supressão do eixo.",
    "Duplicar a dose antes de suspender aprofunda a supressão e a toxicidade sem qualquer benefício.",
    "A suspensão é possível com esquema gradual adequado e monitorização clínica cuidadosa."
@@ -170,13 +170,13 @@
  {
   "q": "Paciente com poliúria de grande volume, urina hipotônica e sódio sérico elevado, sem hiperglicemia. Qual é a hipótese?",
   "alts": [
-   "Diabetes insipidus, cuja diferenciação entre a forma central e a nefrogênica exige sempre teste específico.",
    "Diabetes mellitus descompensado, condição definida por urina hipotônica com glicemia sempre normal agora.",
    "Síndrome da secreção inapropriada de hormônio antidiurético, definida por hipernatremia e urina hipotônica.",
    "Insuficiência renal crônica terminal, caracterizada por poliúria hipotônica com hipernatremia acentuada.",
-   "Polidipsia psicogênica primária, condição definida por hipernatremia com urina persistentemente hipotônica."
+   "Polidipsia psicogênica primária, condição definida por hipernatremia com urina persistentemente hipotônica.",
+   "Diabetes insipidus, cuja diferenciação entre a forma central e a nefrogênica exige sempre teste específico."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "enf",
   "comp": "dx",
@@ -184,11 +184,11 @@
   "base": "Endocrine Society/ESE clinical practice guideline on diabetes insipidus (arginine vasopressin deficiency), 2023",
   "coment": "Poliúria hipotônica com hipernatremia sugere diabetes insipidus, hoje denominado deficiência ou resistência à arginina vasopressina. A diferenciação entre a forma central e a nefrogênica é feita pelo teste de restrição hídrica com administração de desmopressina, ou pela dosagem de copeptina estimulada, que aumentou a acurácia diagnóstica. A polidipsia primária cursa com sódio normal ou baixo, porque a perda de água é secundária à ingestão excessiva.",
   "porAlt": [
-   "Correta: diabetes insipidus, com diferenciação entre forma central e nefrogênica por teste específico.",
    "O diabetes mellitus descompensado cursa com glicosúria e urina não hipotônica, além de hiperglicemia.",
    "A secreção inapropriada de antidiurético cursa com hiponatremia e urina concentrada, o oposto do caso.",
    "A doença renal terminal cursa com retenção de solutos e não com esse padrão de poliúria hipotônica.",
-   "A polidipsia primária cursa com sódio normal ou baixo, e não com a hipernatremia descrita."
+   "A polidipsia primária cursa com sódio normal ou baixo, e não com a hipernatremia descrita.",
+   "Correta: diabetes insipidus, com diferenciação entre forma central e nefrogênica por teste específico."
   ]
  },
  {

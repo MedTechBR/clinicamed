@@ -3,12 +3,12 @@
   "q": "Homem de 45 anos, etilista, chega com dor epigástrica intensa irradiada para o dorso, vômitos e amilase cinco vezes acima do normal. Está com frequência de 104 bpm e pressão de 116/72 mmHg. Qual é a conduta inicial mais importante nas primeiras 24 horas?",
   "alts": [
    "Jejum absoluto prolongado por sete dias, com nutrição parenteral total desde a admissão hospitalar.",
+   "Hidratação venosa precoce com cristaloide balanceado, analgesia e dieta oral precoce em todos.",
    "Antibiótico profilático de amplo espectro para todos, prevenindo a necrose pancreática infectada.",
    "Tomografia de abdome imediata na admissão, exame que define a conduta das primeiras horas do caso.",
-   "Hidratação venosa precoce com cristaloide balanceado, analgesia e dieta oral precoce em todos.",
    "Colangiopancreatografia endoscópica de urgência em todos os casos de pancreatite aguda instalada."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "tto",
@@ -17,9 +17,9 @@
   "coment": "As primeiras 24 horas definem o desfecho da pancreatite aguda, e a intervenção com maior impacto é a hidratação venosa precoce com cristaloide balanceado, em ritmo moderado e guiada por resposta, junto de analgesia eficaz. A nutrição enteral ou a dieta oral precoce, quando tolerada, é preferível ao jejum prolongado, que se associa a atrofia de mucosa e translocação bacteriana. Antibiótico profilático não é recomendado na pancreatite sem infecção documentada. A tomografia é mais útil após 72 horas para avaliar necrose, e a via endoscópica se reserva à colangite ou obstrução biliar persistente.",
   "porAlt": [
    "Jejum prolongado com nutrição parenteral foi abandonado: piora a barreira intestinal e não melhora o curso da doença.",
+   "Correta: hidratação precoce com cristaloide balanceado, analgesia e dieta oral precoce compõem o cuidado inicial que muda o desfecho.",
    "A profilaxia antibiótica não reduz necrose infectada nem mortalidade, e seleciona germes resistentes sem benefício.",
    "A tomografia precoce subestima a necrose, que leva dias para se delimitar, e não muda a conduta das primeiras horas.",
-   "Correta: hidratação precoce com cristaloide balanceado, analgesia e dieta oral precoce compõem o cuidado inicial que muda o desfecho.",
    "A via endoscópica de urgência se reserva à colangite associada ou à obstrução biliar persistente, não a todos os casos."
   ]
  },
@@ -27,12 +27,12 @@
   "q": "Mulher de 31 anos tem diarreia crônica com sangue, dor abdominal e perda de 6 kg em quatro meses. A colonoscopia mostra acometimento contínuo desde o reto até o cólon descendente, com friabilidade e úlceras superficiais. A biópsia confirma inflamação limitada à mucosa. Qual é o diagnóstico?",
   "alts": [
    "Doença de Crohn, sustentada pelo padrão contínuo e pela ausência de acometimento transmural aqui.",
-   "Retocolite ulcerativa, pelo acometimento contínuo desde o reto com inflamação restrita à mucosa.",
    "Colite infecciosa aguda, hipótese preferida diante de quatro meses de sintomas e perda ponderal.",
    "Síndrome do intestino irritável, cujo diagnóstico é compatível com sangramento e emagrecimento.",
+   "Retocolite ulcerativa, pelo acometimento contínuo desde o reto com inflamação restrita à mucosa.",
    "Colite isquêmica crônica, achado esperado em mulheres jovens sem qualquer fator de risco vascular."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -41,22 +41,22 @@
   "coment": "A retocolite ulcerativa acomete o reto e se estende de forma contínua e proximal, com inflamação restrita à mucosa e submucosa — exatamente o descrito. A doença de Crohn tem acometimento descontínuo, com lesões salteadas, poupa frequentemente o reto, é transmural e pode acometer qualquer segmento do tubo digestivo, com fístulas e doença perianal. Colite infecciosa não se arrasta por meses com perda ponderal progressiva. Sangramento e emagrecimento são bandeiras vermelhas que afastam o diagnóstico de síndrome do intestino irritável, que é de exclusão e não cursa com esses achados.",
   "porAlt": [
    "A doença de Crohn tem padrão salteado e inflamação transmural, o oposto do que a colonoscopia e a biópsia mostraram.",
-   "Correta: acometimento contínuo a partir do reto com inflamação limitada à mucosa caracteriza retocolite ulcerativa.",
    "Colite infecciosa é aguda e autolimitada; quatro meses de sintomas com perda ponderal apontam doença inflamatória.",
    "Sangramento e emagrecimento são bandeiras vermelhas que excluem o diagnóstico de síndrome do intestino irritável.",
+   "Correta: acometimento contínuo a partir do reto com inflamação limitada à mucosa caracteriza retocolite ulcerativa.",
    "Colite isquêmica ocorre em idosos com doença vascular, tipicamente no cólon esquerdo e de forma aguda, não crônica."
   ]
  },
  {
   "q": "Homem de 58 anos tem pirose três vezes por semana há seis meses, com regurgitação. Refere ainda disfagia progressiva para sólidos e perda de 5 kg no período. Qual é a conduta correta?",
   "alts": [
-   "Solicitar endoscopia digestiva alta: todo sinal de alarme junto de refluxo obriga a ver o esôfago.",
    "Iniciar inibidor de bomba por oito semanas e reavaliar, sem nenhum exame já neste primeiro momento.",
    "Prescrever apenas medidas comportamentais, adiando exame e medicação por seis meses de observação.",
    "Solicitar pHmetria esofágica como primeiro exame, mesmo diante de disfagia e perda de peso presentes.",
-   "Tratar empiricamente para infecção por Helicobacter pylori, sem qualquer investigação prévia do caso."
+   "Tratar empiricamente para infecção por Helicobacter pylori, sem qualquer investigação prévia do caso.",
+   "Solicitar endoscopia digestiva alta: todo sinal de alarme junto de refluxo obriga a ver o esôfago."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -64,23 +64,23 @@
   "base": "American College of Gastroenterology, 2022 — Diagnosis and Management of Gastroesophageal Reflux Disease",
   "coment": "Disfagia progressiva e perda de peso são sinais de alarme e mudam a conduta: o paciente com sintomas de refluxo e qualquer bandeira vermelha — disfagia, odinofagia, emagrecimento, anemia, sangramento, vômitos persistentes, história familiar de neoplasia — deve fazer endoscopia digestiva alta antes de tratamento empírico, para afastar esofagite grave, estenose, esôfago de Barrett e neoplasia. Na ausência de sinais de alarme, o teste terapêutico com inibidor de bomba por oito semanas é aceitável como estratégia inicial, com pHmetria reservada a casos duvidosos ou refratários.",
   "porAlt": [
-   "Correta: disfagia progressiva e perda de peso são sinais de alarme e indicam endoscopia antes do tratamento empírico.",
    "O teste terapêutico é aceitável só na ausência de sinais de alarme, que aqui estão presentes e mudam a conduta.",
    "Adiar por seis meses um paciente com disfagia e emagrecimento pode atrasar o diagnóstico de neoplasia esofágica.",
    "A pHmetria não é o primeiro exame e não afasta lesão estrutural, que é justamente a preocupação neste caso.",
-   "Tratar Helicobacter sem investigar não responde à disfagia nem à perda ponderal, que exigem visualização direta."
+   "Tratar Helicobacter sem investigar não responde à disfagia nem à perda ponderal, que exigem visualização direta.",
+   "Correta: disfagia progressiva e perda de peso são sinais de alarme e indicam endoscopia antes do tratamento empírico."
   ]
  },
  {
   "q": "Mulher de 55 anos, assintomática, sem história familiar de câncer colorretal e sem doença inflamatória intestinal, pergunta sobre rastreamento de câncer de intestino. Qual é a orientação correta segundo as diretrizes brasileiras vigentes?",
   "alts": [
    "Não há indicação de rastrear, pois sem história familiar o risco de câncer colorretal é desprezível.",
-   "Está na faixa de rastreamento, feito sempre por colonoscopia ou por pesquisa de sangue oculto.",
    "O rastreamento começa apenas aos setenta anos de idade para pessoas de risco habitual como ela.",
    "A colonoscopia deve ser repetida anualmente em todos os adultos, seja qual for o resultado já obtido.",
+   "Está na faixa de rastreamento, feito sempre por colonoscopia ou por pesquisa de sangue oculto.",
    "Somente a tomografia de abdome é aceita como método de rastreamento de câncer colorretal no país."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
@@ -89,9 +89,9 @@
   "coment": "O rastreamento de câncer colorretal em risco habitual começa na faixa dos 45 a 50 anos e vai até cerca dos 75, com duas estratégias principais: pesquisa de sangue oculto nas fezes por método imunoquímico, anual ou bienal, com colonoscopia se positivo; ou colonoscopia como exame primário, repetida a cada dez anos quando normal. A maioria dos casos ocorre em pessoas sem história familiar, de modo que a ausência de parente afetado não dispensa o rastreamento. Colonoscopia anual só se justifica em situações específicas, como polipose ou síndromes hereditárias.",
   "porAlt": [
    "A maior parte dos casos de câncer colorretal ocorre sem história familiar, de modo que a ausência dela não dispensa rastrear.",
-   "Correta: ela está na faixa de rastreamento de risco habitual, que admite sangue oculto imunoquímico ou colonoscopia.",
    "Começar aos setenta perde décadas de detecção precoce, justamente quando a remoção de pólipos previne o câncer.",
    "Colonoscopia anual não é recomendada em risco habitual: o intervalo é de dez anos quando o exame é normal.",
+   "Correta: ela está na faixa de rastreamento de risco habitual, que admite sangue oculto imunoquímico ou colonoscopia.",
    "A tomografia não é método de rastreamento de rotina; a colonografia tem indicações restritas e não substitui os métodos padrão."
   ]
  }

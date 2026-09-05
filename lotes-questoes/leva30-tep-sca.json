@@ -26,13 +26,13 @@
  {
   "q": "Homem de 63 anos com embolia pulmonar confirmada está com pressão de 122/78 mmHg e frequência de 96 bpm, mas apresenta troponina elevada e relação entre ventrículo direito e esquerdo aumentada na angiotomografia. Como classificar e onde tratar esse paciente?",
   "alts": [
-   "Categoria C, com indicação de hospitalização para otimizar as estratégias de tratamento adotadas.",
    "Categoria A, uma vez que a pressão arterial normal caracteriza embolia pulmonar de baixo risco real.",
+   "Categoria C, com indicação de hospitalização para otimizar as estratégias de tratamento adotadas.",
    "Categoria B, com alta precoce indicada por não haver hipotensão nem necessidade de vasopressor agora.",
    "Categoria E, definida pela presença de disfunção do ventrículo direito em qualquer nível de pressão.",
    "Fora das categorias, que se aplicam somente aos pacientes com instabilidade hemodinâmica instalada."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "dx",
@@ -40,8 +40,8 @@
   "base": "AHA/ACC 2026 — categorias clínicas de embolia pulmonar, categoria C",
   "coment": "A categoria C reúne pacientes sintomáticos com escore de gravidade clínica elevado, incluindo aqueles com biomarcadores elevados e disfunção de ventrículo direito — exatamente o quadro descrito. Esses pacientes devem ser hospitalizados para otimizar o tratamento, mesmo estando normotensos, porque são os que podem deteriorar nas primeiras horas. A categoria D corresponde à falência cardiopulmonar incipiente e a E à falência com hipotensão persistente. Confundir pressão normal com gravidade baixa é o erro clássico da embolia de risco intermediário.",
   "porAlt": [
-   "Correta: sintomático com biomarcador elevado e disfunção de ventrículo direito é categoria C, com indicação de internação.",
    "A categoria A é reservada ao paciente assintomático, o que não se aplica a quem tem sintomas e disfunção ventricular.",
+   "Correta: sintomático com biomarcador elevado e disfunção de ventrículo direito é categoria C, com indicação de internação.",
    "A categoria B pressupõe escore de gravidade clínica baixo, incompatível com troponina elevada e sobrecarga ventricular.",
    "A categoria E exige falência cardiopulmonar com hipotensão persistente, ausente neste paciente normotenso.",
    "As categorias cobrem todo o espectro, do assintomático ao choque, e não apenas os pacientes instáveis."
@@ -50,13 +50,13 @@
  {
   "q": "Paciente com embolia pulmonar e hipotensão persistente apesar de volume e noradrenalina, com lactato em elevação, é discutido pela equipe. Segundo a diretriz vigente, qual é a posição das terapias avançadas nesse cenário?",
   "alts": [
+   "São sempre razoáveis nessa categoria: trombólise sistêmica, cateter dirigido e trombectomia mecânica.",
    "Estão contraindicadas enquanto o paciente usar vasopressor, por risco proibitivo de sangramento.",
    "Ficam reservadas apenas aos pacientes com contraindicação absoluta à anticoagulação plena convencional.",
    "Devem ser adiadas por vinte e quatro horas de anticoagulação plena antes de qualquer decisão invasiva.",
-   "São sempre razoáveis nessa categoria: trombólise sistêmica, cateter dirigido e trombectomia mecânica.",
    "São indicadas somente após confirmação de trombo em átrio direito pelo ecocardiograma transesofágico."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "pneumo",
   "cenario": "uti",
   "comp": "urg",
@@ -64,10 +64,10 @@
   "base": "AHA/ACC 2026 — terapias avançadas nas categorias E1 e D1-2 da embolia pulmonar aguda",
   "coment": "A diretriz de 2026 posiciona as terapias avançadas — trombólise sistêmica, trombólise dirigida por cateter, trombectomia mecânica e embolectomia cirúrgica — como razoáveis para pacientes na categoria E1, isto é, falência cardiopulmonar com hipotensão persistente, e como possíveis de considerar nas categorias D1 e D2, de falência cardiopulmonar incipiente. A diretriz também recomenda a existência de equipes de resposta à embolia pulmonar, os chamados PERT, para melhorar a tempestividade do cuidado, já que essa decisão é multidisciplinar e sensível ao tempo.",
   "porAlt": [
+   "Correta: na categoria E1 as terapias avançadas são razoáveis, e a diretriz recomenda acionar a equipe de resposta à embolia.",
    "O uso de vasopressor não contraindica terapia avançada; ao contrário, marca a gravidade que a justifica nesse cenário.",
    "Contraindicação à anticoagulação leva a filtro de veia cava, e não é o que define a indicação de terapia avançada.",
    "Adiar por vinte e quatro horas em paciente com choque desperdiça a janela em que a reperfusão ainda muda o desfecho.",
-   "Correta: na categoria E1 as terapias avançadas são razoáveis, e a diretriz recomenda acionar a equipe de resposta à embolia.",
    "Trombo em átrio direito é um achado adicional, mas não é pré-requisito para indicar terapia avançada no choque."
   ]
  },
@@ -77,10 +77,10 @@
    "Suspender agora, pois seis meses já encerram o tratamento em qualquer embolia do adulto jovem.",
    "Suspender e repetir angiotomografia anualmente, estratégia que substitui a manutenção do anticoagulante.",
    "Trocar por ácido acetilsalicílico em dose baixa por tempo indefinido, com a mesma eficácia preventiva.",
-   "Estender a anticoagulação além da fase inicial, com reavaliação periódica do risco de sangramento.",
-   "Manter apenas meia dose por mais três meses e então encerrar definitivamente qualquer antitrombótico."
+   "Manter apenas meia dose por mais três meses e então encerrar definitivamente qualquer antitrombótico.",
+   "Estender a anticoagulação além da fase inicial, com reavaliação periódica do risco de sangramento."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
@@ -91,20 +91,20 @@
    "Encerrar em seis meses é a conduta da embolia provocada por fator maior reversível, o que não é o caso descrito.",
    "Repetir imagem não previne recorrência e não substitui a anticoagulação na prevenção secundária do tromboembolismo.",
    "O antiagregante reduz pouco a recorrência quando comparado ao anticoagulante e não é substituto adequado.",
-   "Correta: embolia sem fator de risco maior reversível tem indicação de fase estendida, com reavaliação periódica do risco.",
-   "Não existe esquema de meia dose por três meses como estratégia de encerramento; a fase estendida é contínua e revisada."
+   "Não existe esquema de meia dose por três meses como estratégia de encerramento; a fase estendida é contínua e revisada.",
+   "Correta: embolia sem fator de risco maior reversível tem indicação de fase estendida, com reavaliação periódica do risco."
   ]
  },
  {
   "q": "Homem de 60 anos com infarto agudo do miocárdio com supradesnivelamento de ST é levado à angioplastia primária e apresenta doença triarterial. Está em choque cardiogênico, em uso de noradrenalina. Segundo a diretriz americana vigente, qual é a estratégia de revascularização?",
   "alts": [
+   "Revascularizar apenas o vaso culpado em emergência, sem angioplastia das artérias não culpadas agora.",
    "Revascularizar todas as lesões significativas no mesmo procedimento, estratégia preferida no choque.",
    "Adiar toda revascularização até a estabilização hemodinâmica completa do paciente em terapia intensiva.",
    "Encaminhar diretamente à cirurgia de revascularização, que é a escolha padrão diante do choque instalado.",
-   "Tratar apenas clinicamente, uma vez que a angioplastia no choque não altera a mortalidade hospitalar.",
-   "Revascularizar apenas o vaso culpado em emergência, sem angioplastia das artérias não culpadas agora."
+   "Tratar apenas clinicamente, uma vez que a angioplastia no choque não altera a mortalidade hospitalar."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "uti",
   "comp": "urg",
@@ -112,23 +112,23 @@
   "base": "ACC/AHA 2025 — Guideline for acute coronary syndromes, revascularização no choque cardiogênico",
   "coment": "A diretriz de 2025 recomenda revascularização completa no infarto com supradesnivelamento de ST e na síndrome sem supra — mas abre exceção explícita para o choque cardiogênico: nesse cenário, indica-se revascularização de emergência do vaso culpado, e a angioplastia de rotina das artérias não relacionadas ao infarto no mesmo tempo NÃO é recomendada. A diretriz também incorporou o suporte com bomba de fluxo microaxial em pacientes selecionados com choque relacionado ao infarto, como razoável para reduzir morte, com atenção ao maior risco de sangramento, isquemia de membro e insuficiência renal.",
   "porAlt": [
+   "Correta: no choque cardiogênico revasculariza-se o vaso culpado, e a angioplastia de rotina dos não culpados não é recomendada.",
    "A revascularização completa é a regra fora do choque; no choque, tratar os não culpados no mesmo tempo piora desfechos.",
    "Adiar a revascularização do vaso culpado no choque retira a única intervenção que pode reverter a causa da instabilidade.",
    "A cirurgia tem indicação em anatomia específica, mas não é a via padrão de emergência no choque por infarto agudo.",
-   "O tratamento apenas clínico no choque por infarto tem mortalidade proibitiva; a reperfusão é o que muda o desfecho.",
-   "Correta: no choque cardiogênico revasculariza-se o vaso culpado, e a angioplastia de rotina dos não culpados não é recomendada."
+   "O tratamento apenas clínico no choque por infarto tem mortalidade proibitiva; a reperfusão é o que muda o desfecho."
   ]
  },
  {
   "q": "Paciente de 68 anos internado por síndrome coronariana aguda sem supradesnivelamento apresenta hemoglobina de 8,1 g/dL por anemia crônica, sem qualquer sangramento ativo. Está com angina aos mínimos esforços. Qual é a conduta transfusional segundo a diretriz vigente?",
   "alts": [
    "Aplicar alvo restritivo de sete gramas, estratégia que costuma ser usada na hemorragia digestiva.",
+   "Pode ser razoável transfundir mirando hemoglobina em torno de dez, por causa da isquemia miocárdica.",
    "Não transfundir em hipótese alguma, já que a anemia crônica é bem tolerada por pacientes coronariopatas.",
    "Transfundir apenas se a hemoglobina cair abaixo de seis, limiar único aceito em qualquer contexto clínico.",
-   "Pode ser razoável transfundir mirando hemoglobina em torno de dez, por causa da isquemia miocárdica.",
    "Transfundir plasma fresco congelado antes das hemácias, corrigindo primeiro os fatores de coagulação."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "enf",
   "comp": "tto",
@@ -137,9 +137,9 @@
   "coment": "A diretriz de 2025 afirma que a transfusão de concentrado de hemácias para manter hemoglobina em torno de 10 g/dL pode ser razoável em pacientes com síndrome coronariana aguda e anemia aguda ou crônica que não estejam sangrando ativamente. O alvo é mais alto do que o restritivo de 7 a 8 g/dL usado, por exemplo, na hemorragia digestiva alta, porque o miocárdio isquêmico depende da oferta de oxigênio. Saber que o alvo transfusional muda conforme o contexto — e não é um número universal — é justamente o tipo de distinção que a prova cobra.",
   "porAlt": [
    "O alvo restritivo se aplica à hemorragia digestiva, onde transfundir demais eleva a pressão portal e o ressangramento.",
+   "Correta: na síndrome coronariana com anemia e sem sangramento ativo, mirar hemoglobina em torno de dez pode ser razoável.",
    "Anemia com isquemia miocárdica ativa não é bem tolerada: reduz a oferta de oxigênio ao miocárdio já comprometido.",
    "O limiar de seis gramas não é universal e seria insuficiente diante de angina aos mínimos esforços neste paciente.",
-   "Correta: na síndrome coronariana com anemia e sem sangramento ativo, mirar hemoglobina em torno de dez pode ser razoável.",
    "O plasma corrige coagulopatia específica e não trata anemia, que é o problema de oferta de oxigênio deste caso."
   ]
  }
