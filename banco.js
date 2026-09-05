@@ -11638,5 +11638,965 @@ window.BANCO=[
 "Sedação isolada sem medidas antiedema e sem avaliação cirúrgica não trata a herniação em curso.",
 "Cabeceira baixa e pescoço fletido aumentam a pressão intracraniana e agravam a herniação."
 ]
+},
+{
+"q": "Paciente com doença renal crônica estágio 5 apresenta pericardite urêmica e encefalopatia. Qual é a conduta?",
+"alts": [
+"Indicar terapia dialítica de urgência, pois esses achados configuram sempre indicação absoluta de diálise.",
+"Aumentar apenas a dose do diurético de alça como medida principal para o controle dos sintomas urêmicos.",
+"Prescrever anti-inflamatório não hormonal em dose plena para o tratamento da pericardite urêmica descrita.",
+"Aguardar a queda espontânea da ureia por sete dias antes de qualquer indicação de terapia substitutiva.",
+"Iniciar apenas restrição proteica extrema como tratamento definitivo das manifestações urêmicas do paciente."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r2",
+"base": "KDIGO Chronic Kidney Disease Guideline, 2024; Brenner and Rector's The Kidney, 12ª edição, 2024",
+"coment": "As indicações clássicas de diálise de urgência são acidose metabólica refratária, distúrbios eletrolíticos graves, sobretudo hipercalemia refratária, intoxicações dialisáveis, sobrecarga volêmica refratária e uremia sintomática, esta representada por pericardite, encefalopatia, sangramento urêmico e náuseas incoercíveis. Pericardite urêmica e encefalopatia são indicações absolutas e não devem aguardar a evolução espontânea.",
+"porAlt": [
+"Correta: pericardite e encefalopatia urêmicas configuram indicação absoluta de diálise de urgência.",
+"O diurético não remove as toxinas urêmicas responsáveis pela pericardite e pela encefalopatia.",
+"O anti-inflamatório agrava a função renal e não trata a causa da pericardite, que é a uremia.",
+"Aguardar sete dias em uremia sintomática grave permite tamponamento cardíaco e coma urêmico.",
+"A restrição proteica é medida crônica e não reverte manifestações urêmicas já instaladas."
+]
+},
+{
+"q": "Paciente com doença renal crônica avançada apresenta acidose metabólica com bicarbonato de 16 mEq/L. Qual é a conduta?",
+"alts": [
+"Repor bicarbonato de sódio por via oral, pois a correção reduz sempre a progressão renal e a perda muscular.",
+"Não tratar a acidose, pois ela não tem qualquer repercussão clínica em pacientes com doença renal crônica.",
+"Prescrever apenas dieta hiperproteica como estratégia de correção da acidose metabólica identificada agora.",
+"Iniciar diálise imediata a todos os pacientes com esse valor isolado de bicarbonato sérico no exame agora.",
+"Administrar cloreto de amônio por via oral como tratamento da acidose metabólica do paciente renal agora."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "KDIGO Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease, 2024",
+"coment": "A acidose metabólica crônica na doença renal acelera a progressão renal, promove catabolismo muscular, agrava a doença óssea e associa-se a maior mortalidade. As diretrizes recomendam repor bicarbonato oral para manter o bicarbonato sérico acima de 22 mEq/L, com atenção à sobrecarga de sódio e ao controle pressórico. Dieta rica em frutas e vegetais reduz a carga ácida. Dieta hiperproteica aumenta a produção de ácido e é contraproducente.",
+"porAlt": [
+"Correta: repor bicarbonato oral, pois a correção reduz progressão renal e catabolismo muscular.",
+"A acidose crônica tem repercussão clara: acelera perda de função renal e de massa muscular.",
+"A dieta hiperproteica aumenta a carga ácida e agrava a acidose metabólica do paciente renal.",
+"A diálise não é indicada apenas pelo valor de bicarbonato quando a acidose é corrigível clinicamente.",
+"O cloreto de amônio é acidificante e agravaria de forma direta a acidose já instalada."
+]
+},
+{
+"q": "Paciente apresenta hipocalemia de 2,4 mEq/L com alcalose metabólica e hipertensão arterial. Qual é a investigação inicial?",
+"alts": [
+"Dosar aldosterona e renina plasmáticas, avaliando sempre causas de excesso de mineralocorticoide no paciente.",
+"Dosar apenas o hormônio tireoestimulante como investigação inicial da hipocalemia com hipertensão arterial.",
+"Solicitar apenas ultrassonografia de tireoide como exame inicial para investigar o distúrbio eletrolítico.",
+"Iniciar reposição de potássio e não realizar qualquer investigação da causa do distúrbio identificado agora.",
+"Solicitar apenas eletroencefalograma como investigação inicial da hipocalemia grave com alcalose metabólica."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Endocrine Society Clinical Practice Guideline — Primary Aldosteronism, revisão 2022; KDIGO controversies on potassium, 2020",
+"coment": "A tríade de hipocalemia, alcalose metabólica e hipertensão aponta excesso de mineralocorticoide, sendo o hiperaldosteronismo primário a causa mais frequente. A investigação inicia com a relação entre aldosterona e renina plasmáticas, corrigindo a hipocalemia antes da coleta, porque ela suprime a secreção de aldosterona e pode gerar falso-negativo. Diferenciais incluem síndrome de Cushing, estenose de artéria renal e uso de alcaçuz e corticoides.",
+"porAlt": [
+"Correta: dosar aldosterona e renina para investigar excesso de mineralocorticoide como causa do quadro.",
+"O hormônio tireoestimulante não explica a associação de hipocalemia, alcalose e hipertensão.",
+"A ultrassonografia de tireoide não investiga o eixo renina-angiotensina-aldosterona do paciente.",
+"Repor potássio sem investigar deixa ativa a causa e o distúrbio recorre após a suspensão.",
+"O eletroencefalograma não avalia distúrbio eletrolítico nem sua causa endócrina subjacente."
+]
+},
+{
+"q": "Paciente com nefrolitíase de repetição por cálculo de oxalato de cálcio. Qual é a medida preventiva de maior impacto?",
+"alts": [
+"Aumentar a ingestão hídrica para volume urinário acima de dois litros por dia, mantendo sempre dieta adequada.",
+"Restringir de forma drástica o cálcio da dieta, medida de maior impacto na prevenção de novos cálculos agora.",
+"Restringir completamente a ingestão de líquidos para reduzir a formação de cristais na urina do paciente.",
+"Iniciar antibiótico profilático contínuo como medida preventiva de novos episódios de nefrolitíase agora.",
+"Prescrever apenas analgésico de uso contínuo como estratégia de prevenção de novos episódios de cólica agora."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "AUA Guideline on Medical Management of Kidney Stones, revisão 2023; EAU Guidelines on Urolithiasis, 2024",
+"coment": "A medida preventiva de maior impacto na nefrolitíase é o aumento da ingestão hídrica, buscando volume urinário acima de dois a dois litros e meio por dia. Acrescentam-se redução de sódio, moderação de proteína animal e manutenção da ingestão normal de cálcio na dieta: restringir cálcio aumenta a absorção intestinal de oxalato e paradoxalmente eleva o risco de novos cálculos. Citrato de potássio e tiazídico são indicados conforme a avaliação metabólica.",
+"porAlt": [
+"Correta: aumentar a ingestão hídrica para volume urinário acima de dois litros por dia.",
+"Restringir cálcio aumenta a absorção de oxalato e paradoxalmente eleva o risco de novos cálculos.",
+"Restringir líquidos concentra a urina e é exatamente o oposto da medida preventiva indicada.",
+"O antibiótico profilático não previne cálculo de oxalato, que não tem origem infecciosa.",
+"O analgésico trata a crise dolorosa, mas não previne a formação de novos cálculos renais."
+]
+},
+{
+"q": "Paciente com síndrome nefrítica aguda, hematúria com cilindros hemáticos, hipertensão e edema, duas semanas após faringite. Qual é a conduta?",
+"alts": [
+"Tratamento de suporte com restrição de sal e controle pressórico, monitorando sempre a função renal do paciente.",
+"Iniciar imunossupressão em dose alta imediatamente em todos os pacientes com esse quadro clínico descrito agora.",
+"Indicar diálise imediata em todos os casos de síndrome nefrítica com hematúria e hipertensão arterial agora.",
+"Prescrever apenas anti-inflamatório não hormonal contínuo como tratamento da síndrome nefrítica descrita agora.",
+"Iniciar dieta hiperproteica e hipersódica para compensar as perdas urinárias observadas nesse paciente agora."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "KDIGO Glomerular Diseases Guideline, 2021 com revisão 2024; UpToDate revisão sobre glomerulonefrite pós-infecciosa, 2024",
+"coment": "A glomerulonefrite pós-estreptocócica surge de uma a três semanas após faringite ou de três a seis semanas após piodermite, com hematúria, cilindros hemáticos, hipertensão, edema e consumo de complemento C3, que se normaliza em oito a doze semanas. O tratamento é de suporte: restrição de sal e água, diurético e anti-hipertensivo, com antibiótico se houver infecção ativa. A imunossupressão não é indicada, e o prognóstico no adulto costuma ser bom.",
+"porAlt": [
+"Correta: suporte com restrição de sal, controle pressórico e monitorização da função renal.",
+"A imunossupressão não é indicada na forma pós-infecciosa típica e expõe a toxicidade evitável.",
+"A diálise se indica por critérios clínicos específicos, ausentes na maioria desses pacientes.",
+"O anti-inflamatório agrava a função renal e a hipertensão em paciente com glomerulonefrite ativa.",
+"Dieta hipersódica agrava o edema e a hipertensão, sendo o oposto da orientação adequada."
+]
+},
+{
+"q": "Paciente com hipernatremia de 158 mEq/L por privação de água em idoso acamado. Qual é a conduta?",
+"alts": [
+"Repor água livre de forma gradual, evitando sempre queda superior ao limite seguro em vinte e quatro horas.",
+"Corrigir o sódio rapidamente para valores normais nas primeiras quatro horas de atendimento do paciente.",
+"Administrar salina hipertônica endovenosa para corrigir o distúrbio eletrolítico identificado no exame.",
+"Restringir toda oferta de líquidos até a normalização espontânea do sódio sérico do paciente idoso agora.",
+"Administrar apenas diurético de alça em dose alta como tratamento principal da hipernatremia descrita."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "European clinical practice guidance on dysnatraemias, revisão 2023; Brenner and Rector's The Kidney, 12ª edição, 2024",
+"coment": "A hipernatremia por perda ou privação de água é corrigida com reposição de água livre, por via oral ou com solução glicosada ou hipotônica endovenosa, calculando o déficit e somando as perdas contínuas. A correção deve ser gradual, com queda de até dez a doze miliequivalentes por litro em vinte e quatro horas na forma crônica, para evitar edema cerebral. Em hipovolemia importante, restaura-se primeiro o volume com solução isotônica.",
+"porAlt": [
+"Correta: repor água livre de forma gradual, respeitando o limite de correção em vinte e quatro horas.",
+"Corrigir rapidamente em poucas horas na forma crônica pode causar edema cerebral e convulsão.",
+"A salina hipertônica eleva ainda mais o sódio e agrava diretamente o distúrbio do paciente.",
+"Restringir líquidos mantém e agrava a hipernatremia por privação de água já instalada.",
+"O diurético de alça aumenta a perda de água livre e pode agravar a hipernatremia existente."
+]
+},
+{
+"q": "Paciente em hemodiálise crônica apresenta fósforo elevado e paratormônio muito elevado. Qual é a conduta?",
+"alts": [
+"Controlar o fósforo com dieta e quelante, associando sempre tratamento do hiperparatireoidismo secundário.",
+"Aumentar a oferta de fósforo na dieta para corrigir o desequilíbrio mineral identificado no paciente dialítico.",
+"Suspender a diálise até a normalização espontânea do fósforo e do paratormônio séricos do paciente agora.",
+"Prescrever apenas cálcio em dose alta e sem qualquer monitorização do produto cálcio-fósforo sérico agora.",
+"Iniciar bisfosfonato endovenoso como tratamento de escolha do hiperparatireoidismo secundário dialítico."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "KDIGO Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of CKD-MBD, 2017 com revisão 2023",
+"coment": "O distúrbio mineral e ósseo da doença renal crônica exige controle do fósforo com restrição dietética e quelantes, preferindo os isentos de cálcio quando há hipercalcemia ou calcificação vascular, associado ao tratamento do hiperparatireoidismo secundário com calcitriol, análogos da vitamina D ou calcimiméticos. A paratireoidectomia é indicada em hiperparatireoidismo grave refratário. Bisfosfonatos são evitados na função renal muito reduzida.",
+"porAlt": [
+"Correta: controlar o fósforo com dieta e quelante e tratar o hiperparatireoidismo secundário.",
+"Aumentar o fósforo agrava a hiperfosfatemia, a calcificação vascular e o estímulo à paratireoide.",
+"Suspender a diálise agrava a retenção de fósforo e as demais manifestações urêmicas do paciente.",
+"Cálcio em dose alta sem monitorização favorece calcificação vascular e doença óssea adinâmica.",
+"Os bisfosfonatos são evitados na função renal muito reduzida e não tratam o hiperparatireoidismo."
+]
+},
+{
+"q": "Paciente com lesão renal aguda e ultrassonografia mostrando hidronefrose bilateral. Qual é a conduta imediata?",
+"alts": [
+"Desobstruir a via urinária com urgência, pois a causa pós-renal é sempre potencialmente reversível.",
+"Iniciar diurético em dose alta como primeira medida para aumentar o fluxo urinário do paciente.",
+"Restringir líquidos e aguardar a resolução espontânea da hidronefrose bilateral identificada no exame.",
+"Iniciar imunossupressão em dose alta como tratamento da lesão renal aguda com hidronefrose bilateral.",
+"Aguardar sete dias de observação clínica antes de qualquer tentativa de desobstrução da via urinária."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "KDIGO Acute Kidney Injury Guideline, atualização 2024; EAU Guidelines on Urological Infections and obstruction, 2024",
+"coment": "A hidronefrose bilateral aponta lesão renal aguda pós-renal, cuja reversibilidade depende do tempo de obstrução. A conduta é desobstruir com urgência, por sonda vesical quando a obstrução é baixa, ou por nefrostomia percutânea ou cateter duplo J quando é alta. Após a desobstrução, é comum a poliúria pós-obstrutiva, exigindo reposição cuidadosa de volume e monitorização de eletrólitos para evitar hipovolemia e distúrbios graves.",
+"porAlt": [
+"Correta: desobstruir a via urinária com urgência, pois a causa pós-renal é potencialmente reversível.",
+"O diurético não vence a obstrução mecânica e pode agravar a distensão do sistema coletor.",
+"Restringir líquidos não resolve a obstrução e agrava a hipoperfusão renal do paciente.",
+"A imunossupressão não trata obstrução mecânica das vias urinárias identificada no exame.",
+"Aguardar sete dias transforma uma lesão reversível em perda funcional definitiva do parênquima."
+]
+},
+{
+"q": "Paciente com creatinina estável e albuminúria persistente de 40 mg/g em duas amostras, sem outras alterações. Qual é a interpretação?",
+"alts": [
+"Doença renal crônica em estágio inicial, exigindo sempre controle de fatores de risco e seguimento programado.",
+"Resultado normal, que dispensa qualquer seguimento ou intervenção sobre fatores de risco do paciente agora.",
+"Necessidade de diálise imediata diante da presença de albuminúria persistente nas duas amostras avaliadas.",
+"Indicação de biópsia renal imediata em todos os pacientes com esse nível de albuminúria persistente agora.",
+"Contraindicação absoluta ao uso de qualquer bloqueador do sistema renina-angiotensina nesse paciente agora."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "KDIGO Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease, 2024",
+"coment": "A doença renal crônica é definida por alterações estruturais ou funcionais presentes por mais de três meses, e a albuminúria acima de 30 mg/g já preenche esse critério mesmo com filtração glomerular normal. A classificação combina categoria de filtração e de albuminúria, e essa faixa corresponde a albuminúria moderadamente aumentada. A conduta é controlar pressão, glicemia e lipídeos, evitar nefrotóxicos e considerar bloqueio do sistema renina-angiotensina.",
+"porAlt": [
+"Correta: doença renal crônica inicial, exigindo controle de fatores de risco e seguimento programado.",
+"Albuminúria persistente acima de 30 mg/g não é resultado normal e define doença renal crônica.",
+"A diálise depende de critérios clínicos e de função renal muito reduzida, ausentes neste caso.",
+"A biópsia é indicada em situações específicas, e não em toda albuminúria moderadamente aumentada.",
+"O bloqueio do sistema renina-angiotensina é justamente indicado para reduzir a albuminúria."
+]
+},
+{
+"q": "Paciente em uso de vancomicina e piperacilina-tazobactam evolui com elevação de creatinina. Qual é a conduta?",
+"alts": [
+"Revisar a indicação e ajustar ou substituir os fármacos, monitorando sempre nível sérico e função renal.",
+"Manter as doses plenas de ambos os fármacos e apenas repetir a creatinina ao término do tratamento.",
+"Aumentar a dose da vancomicina para compensar a menor excreção renal observada no paciente internado.",
+"Suspender toda antibioticoterapia mesmo com infecção grave em curso, sem qualquer substituição do esquema.",
+"Iniciar diálise imediata em todos os pacientes com qualquer elevação de creatinina nesse esquema já."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "KDIGO Acute Kidney Injury Guideline, atualização 2024; IDSA/ASHP vancomycin therapeutic monitoring consensus, 2020",
+"coment": "A associação de vancomicina com piperacilina-tazobactam está associada a maior incidência de lesão renal aguda do que cada fármaco isolado. Diante da elevação da creatinina, revisa-se a necessidade real de cada agente, ajusta-se a dose pela função renal, monitora-se o nível sérico da vancomicina, preferindo o alvo por área sob a curva, e considera-se a substituição por alternativa menos nefrotóxica conforme o germe e o sítio da infecção.",
+"porAlt": [
+"Correta: revisar a indicação, ajustar ou substituir os fármacos e monitorar nível sérico e função renal.",
+"Manter doses plenas com função renal em queda acumula o fármaco e agrava a lesão renal.",
+"Aumentar a dose eleva o nível sérico e a toxicidade, agravando diretamente a lesão renal aguda.",
+"Suspender toda cobertura em infecção grave sem substituir expõe o paciente a desfecho fatal.",
+"A diálise se indica por critérios clínicos, e não pela simples elevação da creatinina sérica."
+]
+},
+{
+"q": "Paciente com cirrose e encefalopatia hepática grau 2, com desorientação e asterixe. Qual é a conduta?",
+"alts": [
+"Lactulose com identificação e correção do fator precipitante, associando sempre rifaximina se houver recorrência.",
+"Restringir proteína da dieta de forma prolongada como principal medida terapêutica da encefalopatia hepática.",
+"Prescrever apenas benzodiazepínico para o controle da agitação associada ao quadro de encefalopatia neste caso.",
+"Iniciar corticoide sistêmico em dose alta como tratamento de escolha da encefalopatia hepática descrita agora.",
+"Indicar transplante hepático imediato em todos os casos de encefalopatia hepática grau 2 diagnosticada agora."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "EASL Clinical Practice Guidelines on hepatic encephalopathy, 2022; AASLD practice guidance, 2023",
+"coment": "O tratamento da encefalopatia hepática combina lactulose, que reduz a produção e a absorção de amônia e tem alvo de duas a três evacuações pastosas por dia, com a busca ativa do fator precipitante: infecção incluindo peritonite bacteriana espontânea, sangramento digestivo, constipação, distúrbio eletrolítico, desidratação por diurético e uso de sedativos. Rifaximina é acrescentada na recorrência. A restrição proteica prolongada é contraindicada por agravar a sarcopenia.",
+"porAlt": [
+"Correta: lactulose com correção do fator precipitante, acrescentando rifaximina na recorrência.",
+"A restrição proteica prolongada agrava a sarcopenia e piora o prognóstico do paciente cirrótico.",
+"Benzodiazepínicos agravam a encefalopatia e devem ser evitados nesses pacientes com cirrose.",
+"O corticoide não trata a encefalopatia hepática e pode favorecer infecção no paciente cirrótico.",
+"O transplante é avaliado no contexto da doença hepática avançada, e não indicado por um episódio."
+]
+},
+{
+"q": "Paciente com achado de esteatose hepática e síndrome metabólica, com transaminases levemente elevadas. Qual é a conduta?",
+"alts": [
+"Perda de peso e controle metabólico, avaliando sempre o grau de fibrose por método não invasivo disponível.",
+"Prescrever apenas hepatoprotetor de venda livre como tratamento definitivo da esteatose hepática descrita.",
+"Indicar biópsia hepática imediata em todos os pacientes com esteatose e transaminases levemente elevadas.",
+"Iniciar corticoide sistêmico contínuo como tratamento de escolha da doença hepática gordurosa metabólica.",
+"Não realizar qualquer avaliação, pois a esteatose hepática nunca evolui para fibrose ou cirrose hepática."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "AASLD Practice Guidance on metabolic dysfunction-associated steatotic liver disease, 2023; EASL-EASD-EASO Clinical Practice Guidelines, 2024",
+"coment": "A doença hepática esteatótica associada à disfunção metabólica é hoje a hepatopatia crônica mais prevalente e pode evoluir para esteato-hepatite, fibrose, cirrose e carcinoma hepatocelular. O tratamento central é perda de peso — cerca de sete a dez por cento reverte esteato-hepatite e melhora a fibrose — associada a controle de diabetes, dislipidemia e pressão. A avaliação de fibrose usa escores como FIB-4 e elastografia, reservando a biópsia a casos duvidosos.",
+"porAlt": [
+"Correta: perda de peso e controle metabólico, com avaliação de fibrose por método não invasivo.",
+"Hepatoprotetores de venda livre não têm eficácia demonstrada nessa hepatopatia metabólica.",
+"A biópsia se reserva a casos duvidosos, após triagem de fibrose por escores e elastografia.",
+"O corticoide não é tratamento dessa doença e agrava o ganho de peso e o controle glicêmico.",
+"A esteatose pode evoluir para fibrose e cirrose, o que justifica a estratificação e o seguimento."
+]
+},
+{
+"q": "Paciente com doença de Crohn ileal com doença moderada a grave e falha de corticoide. Qual é a conduta?",
+"alts": [
+"Iniciar imunobiológico após rastreio de infecções latentes, planejando sempre estratégia de manutenção.",
+"Manter corticoide sistêmico em dose alta indefinidamente como estratégia de manutenção da remissão.",
+"Prescrever apenas antiespasmódico e dieta sem lactose como tratamento da doença moderada a grave agora.",
+"Indicar ressecção intestinal extensa imediatamente a todos os pacientes com falha do corticoide inicial.",
+"Iniciar apenas antibiótico oral contínuo por doze meses como tratamento de manutenção da doença agora."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ECCO guidelines on therapeutics in Crohn's disease, 2022; AGA Clinical Practice Guideline, revisão 2024",
+"coment": "O corticoide induz remissão mas não a mantém, e não deve ser usado como manutenção pela toxicidade. Na doença de Crohn moderada a grave com falha ou dependência de corticoide, indicam-se imunobiológicos — anti-TNF, ustequinumabe ou vedolizumabe — isolados ou combinados com imunomodulador, sempre após rastreio de tuberculose latente e hepatites. A cirurgia se reserva a complicações como estenose sintomática, fístula complexa e abscesso.",
+"porAlt": [
+"Correta: imunobiológico após rastreio de infecções latentes, com estratégia de manutenção definida.",
+"O corticoide não mantém remissão e o uso prolongado acumula toxicidade importante e evitável.",
+"Antiespasmódico e dieta são adjuvantes e não controlam a inflamação transmural da doença.",
+"A ressecção extensa se reserva a complicações, e não à falha do tratamento clínico inicial.",
+"O antibiótico prolongado não é tratamento de manutenção da doença inflamatória intestinal."
+]
+},
+{
+"q": "Paciente com cirrose compensada por hepatite B pergunta sobre rastreio de carcinoma hepatocelular. Qual é a orientação?",
+"alts": [
+"Ultrassonografia abdominal a cada seis meses, com alfafetoproteína conforme sempre o protocolo do serviço.",
+"Tomografia de abdome mensal como método de rastreio de carcinoma hepatocelular no paciente cirrótico.",
+"Nenhum rastreio, pois a cirrose compensada não aumenta o risco de carcinoma hepatocelular no paciente.",
+"Apenas dosagem isolada de alfafetoproteína anual como único método de rastreio nesse grupo de risco agora.",
+"Biópsia hepática semestral como método de rastreio de carcinoma hepatocelular no paciente com cirrose."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "AASLD Practice Guidance on hepatocellular carcinoma, 2023; EASL Clinical Practice Guidelines, 2025",
+"coment": "O rastreio de carcinoma hepatocelular é indicado para todos os cirróticos e para portadores de hepatite B em grupos de risco mesmo sem cirrose, com ultrassonografia abdominal a cada seis meses, associada ou não à alfafetoproteína conforme o protocolo. O intervalo de seis meses é definido pelo tempo de duplicação tumoral. Nódulo detectado é caracterizado por tomografia ou ressonância com contraste em fases dinâmicas, muitas vezes dispensando biópsia.",
+"porAlt": [
+"Correta: ultrassonografia semestral, com alfafetoproteína conforme o protocolo adotado no serviço.",
+"A tomografia mensal expõe a radiação e contraste sem qualquer benefício adicional demonstrado.",
+"A cirrose é o principal fator de risco para carcinoma hepatocelular e exige rastreio regular.",
+"A alfafetoproteína isolada tem sensibilidade insuficiente e não substitui a ultrassonografia.",
+"A biópsia é procedimento diagnóstico invasivo e nunca método de rastreio populacional periódico."
+]
+},
+{
+"q": "Paciente com dispepsia sem sinais de alarme, com menos de 45 anos. Qual é a conduta inicial?",
+"alts": [
+"Testar e tratar Helicobacter pylori, reservando sempre a endoscopia aos casos com falha ou alarme.",
+"Realizar endoscopia digestiva alta em todos os pacientes jovens com dispepsia sem sinais de alarme.",
+"Prescrever apenas antiespasmódico contínuo por doze meses sem qualquer investigação complementar.",
+"Iniciar corticoide oral em dose alta como tratamento inicial da dispepsia sem sinais de alarme.",
+"Indicar cirurgia antirrefluxo imediatamente em todos os pacientes jovens com queixa de dispepsia."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "ACG/CAG Clinical Guideline on dyspepsia, revisão 2022; Consenso Brasileiro sobre Helicobacter pylori, 2022",
+"coment": "Em paciente jovem com dispepsia e sem sinais de alarme — perda de peso, disfagia, vômitos persistentes, anemia, sangramento, massa palpável e história familiar de neoplasia gástrica —, a estratégia recomendada é testar e tratar Helicobacter pylori, com teste respiratório ou antígeno fecal. Sem resposta, tenta-se inibidor de bomba de prótons. A endoscopia é reservada a sinais de alarme, idade acima do limiar local e falha terapêutica.",
+"porAlt": [
+"Correta: testar e tratar Helicobacter pylori, com endoscopia reservada a falha ou sinais de alarme.",
+"A endoscopia em todos os jovens sem alarme é de baixo rendimento e onera o sistema de saúde.",
+"O antiespasmódico contínuo por um ano não trata a causa e retarda o manejo adequado do quadro.",
+"O corticoide não é tratamento da dispepsia e pode agravar a lesão da mucosa gastroduodenal.",
+"A cirurgia antirrefluxo tem indicações restritas e jamais é conduta inicial para dispepsia."
+]
+},
+{
+"q": "Paciente com diarreia crônica aquosa de grande volume que persiste durante o jejum. Qual é o mecanismo mais provável?",
+"alts": [
+"Diarreia secretória, que persiste sempre durante o jejum e cursa com hiato osmótico fecal reduzido.",
+"Diarreia osmótica clássica, que persiste durante o jejum e cursa com hiato osmótico fecal reduzido.",
+"Diarreia por má absorção de gordura, que cessa completamente durante o jejum prolongado do paciente.",
+"Diarreia funcional do intestino irritável, que tipicamente desperta o paciente e persiste no jejum.",
+"Diarreia factícia por laxante osmótico, definida por persistência no jejum com hiato osmótico baixo."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "AGA Clinical Practice Guideline on the evaluation of chronic diarrhea, revisão 2023; Sleisenger and Fordtran, 11ª edição, 2021",
+"coment": "A diarreia secretória decorre de secreção ativa de eletrólitos, é de grande volume, persiste no jejum, costuma ocorrer também à noite e tem hiato osmótico fecal reduzido, abaixo de cinquenta miliosmóis por quilograma. A osmótica, ao contrário, cessa com o jejum e tem hiato elevado. Causas secretórias incluem toxinas bacterianas, tumores neuroendócrinos, colite microscópica, má absorção de sais biliares e uso de laxantes estimulantes.",
+"porAlt": [
+"Correta: diarreia secretória, que persiste no jejum e cursa com hiato osmótico fecal reduzido.",
+"A diarreia osmótica cessa com o jejum e cursa com hiato osmótico fecal elevado, não reduzido.",
+"A má absorção de gordura melhora com o jejum, pois depende da oferta de nutrientes na luz.",
+"A diarreia funcional tipicamente não desperta o paciente à noite e não persiste no jejum.",
+"Laxante osmótico produz diarreia osmótica, que cessa no jejum e tem hiato osmótico elevado."
+]
+},
+{
+"q": "Paciente com hemorragia digestiva alta não varicosa e úlcera com vaso visível na endoscopia. Qual é a conduta?",
+"alts": [
+"Terapia endoscópica combinada seguida de inibidor de bomba de prótons endovenoso, mantido sempre em infusão.",
+"Apenas observação clínica sem qualquer terapia endoscópica na úlcera com vaso visível identificada agora.",
+"Cirurgia imediata em todos os casos de úlcera com vaso visível encontrada durante o exame endoscópico agora.",
+"Apenas inibidor de bomba de prótons oral em dose habitual, sem qualquer terapia endoscópica associada agora.",
+"Anticoagulação plena imediata para melhorar a perfusão da mucosa gástrica acometida pela úlcera neste caso."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "ESGE Guideline on diagnosis and management of nonvariceal upper gastrointestinal hemorrhage, 2021; ACG Clinical Guideline, 2021",
+"coment": "A classificação de Forrest estratifica o risco de ressangramento: sangramento ativo e vaso visível não sangrante são lesões de alto risco e exigem terapia endoscópica, preferencialmente combinada, associando injeção de adrenalina a método térmico ou mecânico como clipe. Após o procedimento, indica-se inibidor de bomba de prótons endovenoso em infusão contínua ou em bolus intermitente de dose alta, além de pesquisa e erradicação de Helicobacter pylori.",
+"porAlt": [
+"Correta: terapia endoscópica combinada seguida de inibidor de bomba de prótons endovenoso.",
+"Vaso visível é lesão de alto risco de ressangramento e exige tratamento endoscópico dirigido.",
+"A cirurgia se reserva à falha do tratamento endoscópico repetido ou a sangramento incontrolável.",
+"O inibidor oral em dose habitual é insuficiente após lesão endoscópica de alto risco.",
+"A anticoagulação agrava o sangramento e é formalmente contraindicada nesse contexto agudo."
+]
+},
+{
+"q": "Paciente com icterícia, colúria, acolia e dilatação de vias biliares à ultrassonografia, com febre e dor em hipocôndrio direito. Qual é a conduta?",
+"alts": [
+"Antibiótico e drenagem biliar precoce, pois a colangite aguda exige sempre descompressão da via obstruída.",
+"Apenas antibiótico oral ambulatorial e reavaliação clínica após sete dias de tratamento antimicrobiano.",
+"Aguardar a resolução espontânea da obstrução biliar antes de qualquer drenagem ou antibioticoterapia.",
+"Prescrever apenas analgésico e antiespasmódico como tratamento definitivo do quadro clínico descrito.",
+"Indicar apenas colecistectomia eletiva em três meses, sem qualquer drenagem da via biliar obstruída agora."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Tokyo Guidelines 2018 com revisão 2023; ESGE guideline on endoscopic management of acute cholangitis, 2023",
+"coment": "A tríade de Charcot — febre, icterícia e dor em hipocôndrio direito — sugere colangite aguda, que se torna grave com hipotensão e alteração de consciência, completando a pêntade de Reynolds. O tratamento combina antibiótico com cobertura para gram-negativos e anaeróbios, suporte hemodinâmico e drenagem biliar precoce, geralmente por colangiopancreatografia retrógrada endoscópica, feita em até vinte e quatro horas nos casos graves.",
+"porAlt": [
+"Correta: antibiótico com drenagem biliar precoce, pois a via obstruída precisa ser descomprimida.",
+"Antibiótico oral ambulatorial não trata colangite com obstrução, que evolui rapidamente para sepse.",
+"Aguardar resolução espontânea em colangite obstrutiva permite choque séptico e óbito evitável.",
+"Analgésico e antiespasmódico não tratam a infecção nem descomprimem a via biliar obstruída.",
+"Adiar por três meses sem drenar a via biliar obstruída não é conduta aceitável nesse quadro."
+]
+},
+{
+"q": "Paciente com doença do refluxo gastroesofágico com sintomas típicos e boa resposta ao inibidor de bomba de prótons, sem sinais de alarme. Qual é a conduta?",
+"alts": [
+"Manter o tratamento pelo menor tempo eficaz com medidas comportamentais, reservando sempre exames a alarme ou falha.",
+"Indicar endoscopia digestiva alta anual de rotina para todos os pacientes com sintomas típicos e boa resposta agora.",
+"Indicar cirurgia antirrefluxo imediatamente em todos os pacientes com sintomas típicos e boa resposta clínica agora.",
+"Manter inibidor de bomba de prótons em dose máxima indefinidamente sem qualquer tentativa de redução neste caso.",
+"Suspender abruptamente o inibidor e não oferecer qualquer medida comportamental ou seguimento clínico neste caso."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022",
+"coment": "No refluxo com sintomas típicos e sem sinais de alarme, o diagnóstico é clínico e a resposta ao inibidor de bomba de prótons confirma a hipótese. O tratamento associa medidas comportamentais — perda de peso, elevação da cabeceira, evitar deitar após refeições, cessar tabagismo — ao fármaco na menor dose eficaz, com tentativa de redução após oito semanas. Endoscopia se reserva a sinais de alarme, falha terapêutica ou rastreio de esôfago de Barrett em grupos de risco.",
+"porAlt": [
+"Correta: menor dose eficaz com medidas comportamentais, reservando exames a alarme ou falha.",
+"A endoscopia anual de rotina não é indicada em paciente com sintomas típicos e boa resposta.",
+"A cirurgia se reserva a casos selecionados, como refratariedade ou intolerância ao tratamento clínico.",
+"Manter dose máxima indefinidamente sem tentar reduzir expõe a efeitos adversos de uso prolongado.",
+"Suspender abruptamente sem medidas comportamentais provoca recidiva sintomática por rebote ácido."
+]
+},
+{
+"q": "Paciente com ascite de início recente. Qual exame define se a causa é hipertensão portal?",
+"alts": [
+"Gradiente de albumina entre soro e ascite, que separa sempre as causas com e sem hipertensão portal.",
+"Dosagem isolada de amilase no líquido ascítico, exame que define a presença de hipertensão portal.",
+"Contagem isolada de hemácias no líquido ascítico, parâmetro que estabelece a origem portal da ascite.",
+"Dosagem isolada de glicose no líquido ascítico, exame que define a etiologia portal do derrame abdominal.",
+"Apenas ultrassonografia abdominal, exame que estabelece com precisão a etiologia da ascite descrita."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r2",
+"base": "AASLD practice guidance on ascites due to cirrhosis, 2021 com revisão 2023; EASL Clinical Practice Guidelines, 2018",
+"coment": "O gradiente de albumina entre soro e líquido ascítico é o parâmetro que melhor separa as causas: valor igual ou superior a 1,1 g/dL indica hipertensão portal, como cirrose, insuficiência cardíaca e trombose de veia porta, enquanto valor inferior aponta causas peritoneais, como carcinomatose, tuberculose peritoneal e ascite pancreática. A proteína total do líquido complementa, ajudando a distinguir cirrose de causa cardíaca na ascite com hipertensão portal.",
+"porAlt": [
+"Correta: o gradiente de albumina entre soro e ascite separa as causas com e sem hipertensão portal.",
+"A amilase se eleva na ascite pancreática, mas não define a presença de hipertensão portal.",
+"A contagem de hemácias sugere ascite hemorrágica, sem definir o mecanismo portal do derrame.",
+"A glicose do líquido é inespecífica e não estabelece a etiologia portal da ascite investigada.",
+"A ultrassonografia detecta o líquido e sinais de cirrose, mas não substitui a análise do líquido."
+]
+},
+{
+"q": "Paciente com doença pulmonar obstrutiva crônica e hipoxemia em repouso com PaO2 de 52 mmHg. Qual é a conduta?",
+"alts": [
+"Oxigenoterapia domiciliar prolongada por pelo menos quinze horas diárias, medida que aumenta sempre a sobrevida.",
+"Oxigenoterapia apenas durante as crises de dispneia, sem qualquer uso contínuo domiciliar de oxigênio agora.",
+"Aumentar a dose do broncodilatador como único tratamento para a hipoxemia em repouso identificada neste caso.",
+"Iniciar corticoide sistêmico contínuo em dose alta como tratamento definitivo da hipoxemia crônica neste caso.",
+"Indicar transplante pulmonar imediato em todos os pacientes com esse valor de oxigenação arterial neste caso."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "GOLD Report, 2025; ATS Clinical Practice Guideline on home oxygen therapy, 2020 com revisão 2023",
+"coment": "A oxigenoterapia domiciliar prolongada é uma das poucas intervenções que aumentam a sobrevida na doença pulmonar obstrutiva crônica, junto com a cessação do tabagismo. É indicada com PaO2 igual ou inferior a 55 mmHg, ou entre 55 e 60 mmHg quando há cor pulmonale, hipertensão pulmonar ou policitemia, mantida por pelo menos quinze horas por dia, incluindo o período de sono. Deve ser reavaliada após estabilização clínica de pelo menos trinta dias.",
+"porAlt": [
+"Correta: oxigenoterapia domiciliar por pelo menos quinze horas diárias, que aumenta a sobrevida.",
+"O uso apenas nas crises não confere o benefício de sobrevida demonstrado no uso prolongado.",
+"O broncodilatador melhora sintomas e função, mas não corrige a hipoxemia crônica em repouso.",
+"O corticoide sistêmico contínuo traz toxicidade importante sem corrigir a hipoxemia do paciente.",
+"O transplante é opção muito selecionada, e não conduta para todo paciente com essa oxigenação."
+]
+},
+{
+"q": "Paciente com tosse, dispneia progressiva e crepitações em velcro nas bases, com padrão reticular e faveolamento na tomografia. Qual é o diagnóstico?",
+"alts": [
+"Fibrose pulmonar idiopática, cujo padrão tomográfico típico dispensa sempre a biópsia para o diagnóstico.",
+"Asma brônquica de início tardio, condição definida por faveolamento e crepitações em velcro nas bases.",
+"Doença pulmonar obstrutiva crônica avançada, caracterizada por padrão reticular com faveolamento bibasal.",
+"Pneumonia bacteriana de evolução arrastada, definida por padrão reticular com faveolamento nas bases.",
+"Tromboembolismo pulmonar crônico, quadro caracterizado por faveolamento bibasal e crepitações em velcro."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ATS/ERS/JRS/ALAT Clinical Practice Guideline on idiopathic pulmonary fibrosis, 2022; SBPT — Diretrizes de doenças intersticiais, 2023",
+"coment": "A fibrose pulmonar idiopática cursa com dispneia progressiva, tosse seca, crepitações em velcro nas bases e baqueteamento digital, em pacientes acima de sessenta anos. O padrão tomográfico de pneumonia intersticial usual — reticulado subpleural e basal, bronquiectasias de tração e faveolamento — permite o diagnóstico sem biópsia quando o contexto clínico é compatível e outras causas foram afastadas. O tratamento usa antifibróticos como nintedanibe e pirfenidona.",
+"porAlt": [
+"Correta: padrão tomográfico de pneumonia intersticial usual permite o diagnóstico sem biópsia.",
+"A asma é doença obstrutiva reversível e não produz faveolamento nem crepitações em velcro.",
+"A doença obstrutiva crônica cursa com enfisema e aprisionamento aéreo, e não com faveolamento.",
+"A pneumonia bacteriana cursa com consolidação e não produz faveolamento crônico das bases.",
+"O tromboembolismo crônico cursa com hipertensão pulmonar e defeitos de perfusão, não faveolamento."
+]
+},
+{
+"q": "Paciente com asma controlada há seis meses em etapa intermediária de tratamento. Qual é a conduta?",
+"alts": [
+"Considerar redução escalonada do tratamento, mantendo sempre o corticoide inalatório na menor dose eficaz.",
+"Suspender completamente todo o tratamento, incluindo o corticoide inalatório, após seis meses de controle.",
+"Manter indefinidamente a mesma dose sem qualquer tentativa de redução, mesmo com controle sustentado.",
+"Aumentar a dose do corticoide inalatório apesar do controle sustentado dos sintomas do paciente agora.",
+"Substituir o corticoide inalatório por beta-agonista de curta duração isolado após o período de controle."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "GINA — Global Strategy for Asthma Management and Prevention, 2025",
+"coment": "Após três a seis meses de controle sustentado, considera-se reduzir o tratamento de forma escalonada, sempre mantendo corticoide inalatório em alguma dose, nunca chegando a beta-agonista isolado, que aumenta exacerbações graves e mortalidade. A redução é gradual, com reavaliação em intervalos, evitando períodos de risco como infecções respiratórias, viagens e gestação. Antes de qualquer ajuste, checam-se técnica inalatória, adesão e controle de gatilhos.",
+"porAlt": [
+"Correta: reduzir de forma escalonada mantendo corticoide inalatório na menor dose eficaz.",
+"Suspender todo o tratamento expõe o paciente a exacerbação e perda do controle alcançado.",
+"Manter indefinidamente a mesma dose expõe a efeitos adversos desnecessários do corticoide.",
+"Aumentar a dose sem perda de controle não traz benefício e amplia a toxicidade do tratamento.",
+"Voltar ao beta-agonista isolado aumenta exacerbações graves e mortalidade, sendo proscrito."
+]
+},
+{
+"q": "Paciente com derrame pleural exsudativo, pH de 7,10, glicose baixa e presença de pus na toracocentese. Qual é a conduta?",
+"alts": [
+"Drenagem torácica com antibiótico, pois o derrame complicado exige sempre esvaziamento do espaço pleural.",
+"Apenas antibiótico endovenoso sem qualquer drenagem do espaço pleural acometido pelo derrame descrito.",
+"Apenas toracocenteses de alívio repetidas semanalmente como tratamento definitivo do empiema pleural.",
+"Prescrever apenas anti-inflamatório e observar clinicamente a evolução do derrame pleural complicado.",
+"Indicar pleurodese química imediata como primeira conduta diante do derrame pleural com essas características."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "BTS Pleural Disease Guideline, 2023; ATS/STS/STR guideline on pleural infection, revisão 2023",
+"coment": "Derrame parapneumônico complicado ou empiema — pH abaixo de 7,20, glicose reduzida, desidrogenase láctica elevada, cultura positiva ou aspecto purulento — exige drenagem torácica associada a antibiótico com cobertura para germes respiratórios e anaeróbios. Sem drenagem, a infecção se organiza e evolui para encarceramento pulmonar. Falha da drenagem indica fibrinolítico intrapleural com desoxirribonuclease ou abordagem cirúrgica por videotoracoscopia.",
+"porAlt": [
+"Correta: drenagem torácica com antibiótico, pois o derrame complicado exige esvaziamento pleural.",
+"O antibiótico isolado não penetra adequadamente na coleção organizada do espaço pleural infectado.",
+"Punções repetidas não esvaziam adequadamente a coleção e retardam o controle da infecção.",
+"Anti-inflamatório e observação permitem organização do empiema e encarceramento pulmonar.",
+"A pleurodese trata derrame maligno recidivante e é contraindicada em espaço pleural infectado."
+]
+},
+{
+"q": "Paciente com hipertensão pulmonar suspeitada ao ecocardiograma e dispneia progressiva. Qual exame confirma o diagnóstico?",
+"alts": [
+"Cateterismo cardíaco direito, exame padrão-ouro que mede sempre a pressão da artéria pulmonar diretamente.",
+"Ecocardiograma transtorácico repetido, exame que confirma definitivamente o diagnóstico de hipertensão pulmonar.",
+"Radiografia simples de tórax, exame suficiente para confirmar o diagnóstico de hipertensão arterial pulmonar.",
+"Espirometria isolada com difusão, exame confirmatório do diagnóstico de hipertensão arterial pulmonar.",
+"Apenas dosagem de peptídeo natriurético, exame que confirma o diagnóstico de hipertensão pulmonar agora."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension, 2022",
+"coment": "O ecocardiograma é a ferramenta de triagem, estimando a probabilidade de hipertensão pulmonar, mas o diagnóstico exige cateterismo cardíaco direito, que mede diretamente a pressão média de artéria pulmonar — definida como acima de 20 mmHg em repouso —, a pressão de oclusão e a resistência vascular pulmonar, permitindo distinguir hipertensão pré-capilar de pós-capilar e definir o grupo, o que determina completamente o tratamento indicado.",
+"porAlt": [
+"Correta: cateterismo cardíaco direito é o padrão-ouro e mede diretamente as pressões pulmonares.",
+"O ecocardiograma estima a probabilidade, mas não confirma o diagnóstico nem define o grupo.",
+"A radiografia pode sugerir aumento de tronco pulmonar, mas não confirma o diagnóstico hemodinâmico.",
+"A espirometria avalia a função ventilatória e não mede as pressões da circulação pulmonar.",
+"O peptídeo natriurético é marcador prognóstico, mas não confirma o diagnóstico hemodinâmico."
+]
+},
+{
+"q": "Paciente jovem com pneumotórax espontâneo primário de pequeno volume, assintomático e estável. Qual é a conduta?",
+"alts": [
+"Observação com oxigênio suplementar e reavaliação por imagem, reservando sempre a drenagem a casos maiores.",
+"Drenagem torácica imediata em todos os casos de pneumotórax espontâneo primário, mesmo assintomáticos.",
+"Toracotomia aberta imediata como conduta padrão no primeiro episódio de pneumotórax espontâneo primário.",
+"Alta imediata sem qualquer reavaliação por imagem ou orientação sobre sinais de alarme ao paciente agora.",
+"Pleurodese química imediata em todos os pacientes no primeiro episódio de pneumotórax espontâneo agora."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "BTS Pleural Disease Guideline, 2023; ACCP/ERS statement on primary spontaneous pneumothorax, revisão 2023",
+"coment": "O pneumotórax espontâneo primário pequeno em paciente estável e assintomático pode ser conduzido de forma conservadora, com observação, oxigênio suplementar — que acelera a reabsorção — e reavaliação por imagem. Ensaios recentes mostraram que a conduta conservadora é não inferior à drenagem em pacientes selecionados, com menos complicações. Drenagem ou aspiração se indicam em pneumotórax grande, sintomático ou com instabilidade clínica.",
+"porAlt": [
+"Correta: observação com oxigênio e reavaliação por imagem, com drenagem reservada a casos maiores.",
+"A drenagem universal expõe a complicações desnecessárias em pneumotórax pequeno e assintomático.",
+"A toracotomia aberta não é conduta de primeiro episódio de pneumotórax espontâneo primário.",
+"Alta sem reavaliação nem orientação arrisca progressão do pneumotórax sem detecção oportuna.",
+"A pleurodese se considera na recorrência ou em situações específicas, não no primeiro episódio."
+]
+},
+{
+"q": "Paciente com bronquiectasias e exacerbações frequentes com escarro purulento. Qual é a base do tratamento crônico?",
+"alts": [
+"Higiene brônquica com fisioterapia respiratória, associada sempre ao tratamento das exacerbações e da causa.",
+"Corticoide sistêmico contínuo em dose alta como base do tratamento crônico das bronquiectasias descritas.",
+"Antitussígeno contínuo em dose plena para reduzir a tosse produtiva desses pacientes com bronquiectasias.",
+"Restrição hídrica rigorosa para reduzir o volume de secreção brônquica produzida pelo paciente neste caso.",
+"Ressecção pulmonar em todos os pacientes com bronquiectasias e exacerbações frequentes documentadas agora."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ERS guidelines for the management of adult bronchiectasis, 2017 com revisão 2023; BTS guideline, 2019",
+"coment": "O tratamento crônico das bronquiectasias se apoia na higiene brônquica diária com técnicas de desobstrução e fisioterapia respiratória, tratamento das exacerbações com antibiótico guiado por cultura de escarro, vacinação, reabilitação pulmonar e investigação da causa subjacente — imunodeficiência, fibrose cística, discinesia ciliar, aspergilose e sequela infecciosa. Macrolídeo em uso prolongado é considerado em pacientes com exacerbações frequentes.",
+"porAlt": [
+"Correta: higiene brônquica com fisioterapia, tratamento das exacerbações e investigação da causa.",
+"O corticoide sistêmico contínuo não é base do tratamento e aumenta o risco infeccioso do paciente.",
+"O antitussígeno prejudica a depuração de secreções, agravando a obstrução e as infecções.",
+"A restrição hídrica espessa as secreções e dificulta a depuração brônquica do paciente.",
+"A ressecção se reserva a doença localizada e refratária, e não a todos com exacerbações frequentes."
+]
+},
+{
+"q": "Paciente tabagista com dispneia e enfisema de predomínio basal em paciente jovem, com história familiar. Qual é a investigação adicional?",
+"alts": [
+"Dosar alfa-1-antitripsina sérica, investigando sempre deficiência genética como causa do enfisema precoce.",
+"Solicitar apenas gasometria arterial seriada, já exame suficiente para investigar o enfisema em paciente jovem.",
+"Solicitar apenas eletrocardiograma como investigação adicional do enfisema de predomínio basal descrito.",
+"Realizar biópsia pulmonar cirúrgica de rotina em todos os pacientes jovens com enfisema basal identificado.",
+"Não realizar qualquer investigação adicional, pois o tabagismo explica integralmente o quadro descrito."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "GOLD Report, 2025; ATS/ERS statement on alpha-1 antitrypsin deficiency, revisão 2023",
+"coment": "A deficiência de alfa-1-antitripsina deve ser investigada em enfisema de início precoce, com predomínio em lobos inferiores, história familiar, doença hepática associada ou ausência de fator de risco proporcional. A recomendação atual é dosar a proteína sérica ao menos uma vez em todo paciente com doença pulmonar obstrutiva crônica, sobretudo em áreas de maior prevalência. O diagnóstico permite aconselhamento familiar e terapia de reposição em casos selecionados.",
+"porAlt": [
+"Correta: dosar alfa-1-antitripsina, investigando deficiência genética como causa do enfisema precoce.",
+"A gasometria avalia trocas gasosas, mas não identifica a causa genética do enfisema precoce.",
+"O eletrocardiograma avalia repercussão cardíaca, sem esclarecer a etiologia do enfisema descrito.",
+"A biópsia cirúrgica é invasiva e desnecessária quando a investigação sérica pode dar o diagnóstico.",
+"O padrão basal em paciente jovem com história familiar exige investigação além do tabagismo."
+]
+},
+{
+"q": "Paciente com apneia obstrutiva do sono grave em uso de pressão positiva contínua mantém sonolência diurna apesar de boa adesão. Qual é a conduta?",
+"alts": [
+"Revisar a adesão, o ajuste da pressão e causas associadas, investigando sempre outros distúrbios do sono.",
+"Suspender definitivamente a pressão positiva contínua diante da persistência da sonolência diurna do paciente.",
+"Aumentar a pressão de forma empírica ao máximo tolerado sem qualquer reavaliação ou estudo do sono agora.",
+"Prescrever apenas benzodiazepínico noturno para melhorar a qualidade do sono e reduzir a sonolência diurna.",
+"Indicar traqueostomia imediata em todos os pacientes com sonolência residual apesar do uso do dispositivo."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "AASM Clinical Practice Guideline on positive airway pressure treatment, revisão 2023; ERS statement on excessive daytime sleepiness, 2022",
+"coment": "A sonolência residual apesar de tratamento adequado exige investigação sistemática: confirmar adesão objetiva pelos dados do aparelho, verificar vazamento e adequação da máscara, revisar a titulação da pressão e a persistência de eventos residuais, avaliar higiene do sono e privação, além de buscar comorbidades como depressão, hipotireoidismo, uso de fármacos sedativos, síndrome das pernas inquietas e narcolepsia. Fármacos promotores de vigília entram depois.",
+"porAlt": [
+"Correta: revisar adesão, ajuste da pressão e comorbidades, investigando outros distúrbios do sono.",
+"Suspender o tratamento remove o benefício cardiovascular e agrava a fragmentação do sono.",
+"Aumentar a pressão empiricamente sem reavaliação pode gerar intolerância e vazamento adicional.",
+"O benzodiazepínico agrava a apneia ao relaxar a musculatura das vias aéreas superiores.",
+"A traqueostomia é medida excepcional para casos graves refratários a todas as demais opções."
+]
+},
+{
+"q": "Paciente com tosse e dispneia após exposição ocupacional a poeira de sílica por vinte anos. Qual é a conduta?",
+"alts": [
+"Investigar silicose com imagem e função pulmonar, afastando sempre a exposição e rastreando tuberculose.",
+"Prescrever apenas broncodilatador inalatório e manter o paciente na mesma atividade ocupacional de risco.",
+"Indicar transplante pulmonar imediato em todos os pacientes com exposição prolongada a poeira de sílica.",
+"Prescrever corticoide sistêmico contínuo em dose alta como tratamento curativo da doença ocupacional.",
+"Não realizar qualquer investigação, pois a exposição ocupacional não causa doença pulmonar crônica."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Ministério da Saúde — Protocolo de vigilância da silicose, revisão 2022; ATS/ERS statement on occupational lung disease, 2023",
+"coment": "A silicose é pneumoconiose fibrogênica irreversível causada por inalação de sílica cristalina, com nódulos predominantes em lobos superiores e possível massa conglomerada. A conduta inclui imagem, prova de função pulmonar, afastamento definitivo da exposição — única medida que interrompe a progressão —, notificação como doença relacionada ao trabalho e rastreio periódico de tuberculose, cujo risco é várias vezes maior nesses pacientes.",
+"porAlt": [
+"Correta: investigar com imagem e função, afastar a exposição e rastrear tuberculose periodicamente.",
+"Manter o paciente exposto permite a progressão da fibrose, que é irreversível uma vez instalada.",
+"O transplante é opção muito selecionada em doença avançada, e não conduta para toda exposição.",
+"Não há tratamento curativo, e o corticoide contínuo não reverte a fibrose já estabelecida.",
+"A exposição prolongada a sílica causa doença pulmonar crônica bem caracterizada e notificável."
+]
+},
+{
+"q": "Um médico recebe pedido de atestado retroativo de um paciente que não foi atendido na data solicitada. Qual é a conduta?",
+"alts": [
+"Recusar o atestado retroativo, pois atestar fato não presenciado configura sempre infração ética grave.",
+"Emitir o atestado com a data solicitada, desde que o paciente já afirme ter adoecido naquele dia mesmo.",
+"Emitir o atestado e registrar em prontuário a ressalva de que o paciente não foi avaliado naquela data.",
+"Emitir o atestado apenas se o paciente apresentar declaração escrita de um familiar confirmando a doença.",
+"Emitir o atestado se o período solicitado for inferior a três dias, situação em que não há qualquer restrição."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, artigos 80 a 83; Resolução CFM sobre atestados médicos",
+"coment": "O atestado médico é documento que registra fato constatado pelo próprio médico no exercício profissional. Atestar afastamento em data não avaliada configura atestado falso, vedado pelo Código de Ética Médica e tipificado como crime. O médico pode registrar em documento próprio o relato do paciente, deixando explícito que se trata de informação referida, mas não pode emitir atestado afirmando doença que não constatou.",
+"porAlt": [
+"Correta: recusar o atestado retroativo, pois atestar fato não presenciado é infração ética e crime.",
+"A afirmação do paciente não substitui a constatação médica exigida para a emissão do atestado.",
+"Registrar ressalva não descaracteriza o atestado falso, que afirma um fato não constatado.",
+"Declaração de familiar não constitui constatação médica e não legitima a emissão do documento.",
+"A duração do afastamento não altera a vedação de atestar fato que o médico não presenciou."
+]
+},
+{
+"q": "Uma equipe deseja avaliar se um programa reduziu a mortalidade em uma população ao longo de dez anos. Qual desenho de estudo é o mais adequado?",
+"alts": [
+"Estudo de coorte com acompanhamento longitudinal, que permite sempre estimar incidência e risco relativo.",
+"Estudo transversal isolado, desenho que já permite estabelecer a relação temporal entre os dois fatos.",
+"Série de casos sem grupo de comparação, desenho adequado para estimar risco relativo na população agora.",
+"Relato de caso individual, desenho que permite avaliar impacto populacional de um programa de saúde.",
+"Estudo ecológico isolado, desenho que elimina completamente o risco de falácia ecológica na análise."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Ministério da Saúde — Diretrizes metodológicas de avaliação de tecnologias em saúde, 2022; epidemiologia clínica clássica",
+"coment": "O estudo de coorte acompanha grupos expostos e não expostos ao longo do tempo, permitindo estimar incidência, risco relativo e a relação temporal entre exposição e desfecho, o que o torna adequado para avaliar impacto de programas quando o ensaio randomizado não é factível. O transversal mede exposição e desfecho no mesmo momento e não estabelece temporalidade; o ecológico analisa grupos e está sujeito à falácia ecológica.",
+"porAlt": [
+"Correta: a coorte com acompanhamento longitudinal estima incidência, risco relativo e temporalidade.",
+"O estudo transversal mede exposição e desfecho simultaneamente e não estabelece a temporalidade.",
+"A série de casos não tem grupo de comparação e por isso não permite estimar risco relativo.",
+"O relato de caso descreve um indivíduo e não avalia impacto populacional de programa algum.",
+"O estudo ecológico analisa grupos e está justamente sujeito à falácia ecológica na inferência."
+]
+},
+{
+"q": "Um paciente com transtorno mental grave em crise recusa internação e apresenta risco iminente à própria vida. Qual é a conduta?",
+"alts": [
+"Internação involuntária com comunicação formal ao Ministério Público, garantindo sempre o cuidado em rede.",
+"Aguardar a concordância do paciente mesmo diante de risco iminente à própria vida durante a crise agora.",
+"Internação compulsória determinada diretamente pelo médico, sem qualquer comunicação a outra instância.",
+"Liberar o paciente com prescrição e orientar retorno ambulatorial em trinta dias para reavaliação clínica.",
+"Contenção física prolongada no domicílio como alternativa à internação diante da recusa do paciente agora."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Lei nº 10.216/2001 — Lei da Reforma Psiquiátrica; Ministério da Saúde — Rede de Atenção Psicossocial",
+"coment": "A Lei da Reforma Psiquiátrica prevê três modalidades de internação: voluntária, involuntária — a pedido de terceiro e sem consentimento do paciente — e compulsória, determinada pela Justiça. A internação involuntária exige laudo médico circunstanciado e comunicação ao Ministério Público em até setenta e duas horas, tanto na admissão quanto na alta. Ela é indicada quando os recursos extra-hospitalares se mostram insuficientes e há risco.",
+"porAlt": [
+"Correta: internação involuntária com laudo circunstanciado e comunicação formal ao Ministério Público.",
+"Aguardar concordância diante de risco iminente de morte omite socorro e viola o dever de cuidado.",
+"A internação compulsória é determinada pela Justiça; a involuntária exige comunicação ao Ministério Público.",
+"Liberar paciente com risco iminente à vida é conduta inaceitável e de responsabilidade do médico.",
+"A contenção domiciliar prolongada não é medida terapêutica e configura violação de direitos."
+]
+},
+{
+"q": "Um serviço quer reduzir infecções relacionadas à assistência. Qual é a medida isolada de maior impacto?",
+"alts": [
+"Higiene das mãos nos cinco momentos preconizados, medida sempre de maior impacto e menor custo relativo.",
+"Uso rotineiro de antibiótico profilático em todos os pacientes internados na unidade de internação.",
+"Isolamento de contato para todos os pacientes internados, independentemente do risco microbiológico.",
+"Troca diária de todos os cateteres venosos centrais como principal estratégia de prevenção de infecção.",
+"Uso obrigatório de avental estéril por todos os visitantes em todas as áreas do hospital, sem exceção."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "r1",
+"base": "OMS — Diretrizes sobre higienização das mãos na assistência à saúde; ANVISA — Medidas de prevenção de IRAS, revisão 2023",
+"coment": "A higienização das mãos nos cinco momentos — antes do contato com o paciente, antes de procedimento asséptico, após risco de exposição a fluidos, após contato com o paciente e após contato com áreas próximas — é a medida isolada de maior impacto na prevenção de infecções relacionadas à assistência, com custo baixo. Antibiótico profilático indiscriminado seleciona resistência, e a troca rotineira de cateteres não reduz infecção.",
+"porAlt": [
+"Correta: higienização das mãos nos cinco momentos é a medida isolada de maior impacto e menor custo.",
+"O antibiótico profilático indiscriminado seleciona resistência e aumenta infecção por germes difíceis.",
+"Isolar todos indistintamente consome recursos e reduz o contato assistencial sem benefício claro.",
+"A troca rotineira e programada de cateteres não reduz infecção e aumenta complicações mecânicas.",
+"O avental para visitantes em todas as áreas não é medida com impacto demonstrado sobre infecção."
+]
+},
+{
+"q": "Um paciente com doença terminal registra, com o médico, sua recusa a manobras de reanimação. Como se chama esse instrumento e qual é sua validade?",
+"alts": [
+"Diretiva antecipada de vontade, que deve ser sempre registrada em prontuário e respeitada pela equipe.",
+"Documento sem qualquer validade no Brasil, pois a legislação não reconhece manifestação prévia de vontade.",
+"Instrumento válido apenas se registrado em cartório com firma reconhecida e testemunhas presenciais.",
+"Documento que só passa a valer após autorização judicial expressa concedida em processo específico.",
+"Manifestação que perde validade assim que o paciente deixa de poder se comunicar com a equipe assistente."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "Resolução CFM nº 1.995/2012 — Diretivas antecipadas de vontade; Código de Ética Médica, 2018",
+"coment": "As diretivas antecipadas de vontade são o conjunto de desejos previamente manifestados pelo paciente sobre cuidados que deseja ou não receber quando estiver incapaz de expressar sua vontade. A resolução do Conselho Federal de Medicina determina que o médico as registre no prontuário e as respeite, prevalecendo sobre o desejo de familiares. Não é exigido registro em cartório, e é justamente na incapacidade de comunicar-se que elas produzem efeito.",
+"porAlt": [
+"Correta: diretiva antecipada de vontade, registrada em prontuário e respeitada pela equipe assistente.",
+"A manifestação prévia de vontade é reconhecida por resolução do Conselho Federal de Medicina.",
+"Não é exigido registro em cartório; o registro em prontuário pelo médico é suficiente e válido.",
+"Não é necessária autorização judicial para respeitar a vontade previamente manifestada pelo paciente.",
+"É exatamente quando o paciente não pode se comunicar que a diretiva produz seus efeitos."
+]
+},
+{
+"q": "Uma equipe de atenção primária identifica gestante em situação de vulnerabilidade que não comparece ao pré-natal. Qual é a conduta?",
+"alts": [
+"Busca ativa com visita domiciliar e articulação intersetorial, adequando sempre o acesso às condições dela.",
+"Excluir a gestante do cadastro da equipe após duas faltas consecutivas às consultas de pré-natal agora.",
+"Aguardar que ela procure o serviço espontaneamente no momento do trabalho de parto na maternidade agora.",
+"Notificar a gestante ao conselho tutelar como principal medida diante das faltas ao pré-natal agendado.",
+"Encaminhar diretamente ao pré-natal de alto risco, retirando o acompanhamento da atenção primária local."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Portaria GM/MS nº 2.436/2017 — Política Nacional de Atenção Básica; Ministério da Saúde — Caderneta da Gestante e diretrizes do pré-natal, 2022",
+"coment": "O pré-natal adequado é um dos determinantes mais fortes de desfechos maternos e neonatais, e a responsabilidade sanitária sobre a população adscrita implica busca ativa das faltosas. A visita domiciliar por agente comunitário identifica barreiras concretas — transporte, trabalho, violência doméstica, uso de substâncias, insegurança alimentar — e a resposta combina flexibilizar o acesso e acionar assistência social, conselho tutelar quando adolescente e demais equipamentos.",
+"porAlt": [
+"Correta: busca ativa com visita domiciliar e articulação intersetorial, adequando o acesso às condições.",
+"Excluir do cadastro contraria a responsabilidade sanitária sobre a população adscrita ao território.",
+"Esperar o trabalho de parto elimina toda a prevenção que o pré-natal poderia oferecer à gestante.",
+"A notificação isolada ao conselho tutelar não resolve barreiras de acesso e pode afastar a gestante.",
+"O alto risco é para indicações clínicas, e a primária mantém a coordenação do cuidado da gestante."
+]
+},
+{
+"q": "Um estudo relata número necessário para tratar de 25 para prevenir um evento em cinco anos. Qual é a interpretação?",
+"alts": [
+"É preciso tratar vinte e cinco pessoas por cinco anos para evitar sempre um evento a mais no grupo.",
+"Vinte e cinco por cento dos pacientes tratados terão o desfecho prevenido pela intervenção estudada.",
+"Cada paciente tratado tem vinte e cinco vezes menos risco de apresentar o desfecho no período agora.",
+"O tratamento reduz o risco relativo em exatamente vinte e cinco por cento no período de cinco anos.",
+"Vinte e cinco pacientes apresentarão eventos adversos graves com a intervenção durante o estudo."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Ministério da Saúde — Diretrizes metodológicas, 2022; GRADE Working Group; epidemiologia clínica clássica",
+"coment": "O número necessário para tratar é o inverso da redução absoluta de risco e indica quantos pacientes precisam receber a intervenção, pelo tempo do estudo, para evitar um evento. Um valor de 25 em cinco anos significa que tratar vinte e cinco pessoas por esse período evita um desfecho. É a medida mais útil para comunicar benefício ao paciente, porque incorpora o risco basal, ao contrário da redução relativa de risco, que pode exagerar a percepção do efeito.",
+"porAlt": [
+"Correta: tratar vinte e cinco pessoas pelo período do estudo evita um evento a mais no grupo.",
+"O número necessário para tratar não é uma porcentagem de pacientes beneficiados individualmente.",
+"O valor não expressa quantas vezes o risco individual é reduzido pela intervenção estudada.",
+"A redução relativa de risco é medida distinta e não corresponde ao número necessário para tratar.",
+"Eventos adversos são expressos pelo número necessário para causar dano, medida diferente desta."
+]
+},
+{
+"q": "Um paciente pergunta se pode ter acesso a medicamento de alto custo não incluído nas listas oficiais. Qual é a orientação correta?",
+"alts": [
+"Explicar as vias formais de solicitação e avaliar sempre alternativas terapêuticas disponíveis no sistema.",
+"Afirmar que não existe qualquer via de acesso a medicamento fora das listas oficiais no país neste caso.",
+"Orientar diretamente a via judicial como primeiro e único caminho possível para obter o medicamento agora.",
+"Prescrever o medicamento sem qualquer discussão sobre acesso, custo ou alternativas terapêuticas disponíveis.",
+"Afirmar que o paciente deve necessariamente comprar o medicamento com recursos próprios, sem alternativa."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Lei nº 12.401/2011 — incorporação de tecnologias no SUS; Ministério da Saúde — Relação Nacional de Medicamentos Essenciais, 2024",
+"coment": "O acesso a medicamentos no sistema público segue a Relação Nacional de Medicamentos Essenciais e os protocolos clínicos e diretrizes terapêuticas, com incorporação avaliada pela comissão nacional de incorporação de tecnologias. Diante de pedido por fármaco não incorporado, o médico deve conhecer as vias formais — componente especializado, solicitação administrativa e protocolos —, discutir alternativas terapêuticas com evidência e explicar o processo com transparência.",
+"porAlt": [
+"Correta: explicar as vias formais de solicitação e avaliar alternativas terapêuticas disponíveis.",
+"Existem vias administrativas e protocolos que permitem acesso a fármacos em situações específicas.",
+"A via judicial é último recurso, e não o primeiro caminho a ser orientado ao paciente.",
+"Prescrever sem discutir acesso e alternativas deixa o paciente sem tratamento efetivo na prática.",
+"Nem sempre a compra própria é a única alternativa, e há opções terapêuticas disponíveis no sistema."
+]
+},
+{
+"q": "Um médico se depara com paciente estrangeiro sem documentação brasileira que procura atendimento. Qual é a conduta?",
+"alts": [
+"Atender normalmente, pois o direito à saúde no Brasil independe sempre da nacionalidade do usuário.",
+"Negar o atendimento até que o paciente apresente documentação brasileira válida no serviço de saúde.",
+"Atender apenas mediante pagamento particular, já que o estrangeiro não tem direito ao atendimento público.",
+"Encaminhar imediatamente à autoridade migratória antes de qualquer avaliação clínica do paciente.",
+"Atender apenas em caso de risco iminente de morte, já negando qualquer outro tipo de atendimento agora."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Constituição Federal, artigo 196; Lei nº 8.080/1990; Lei de Migração nº 13.445/2017",
+"coment": "A Constituição estabelece a saúde como direito de todos e dever do Estado, e a Lei de Migração garante ao migrante, independentemente de situação documental, o direito de acesso a serviços públicos de saúde em igualdade com os nacionais. Não cabe exigir documento como condição de atendimento nem comunicar autoridade migratória. Negar assistência configura violação de direito humano e infração ética do profissional envolvido.",
+"porAlt": [
+"Correta: atender normalmente, pois o direito à saúde independe da nacionalidade ou da documentação.",
+"Condicionar o atendimento à documentação nega direito garantido e configura infração ética.",
+"O acesso é universal e gratuito, sem exigência de pagamento por parte do usuário estrangeiro.",
+"Não cabe ao serviço de saúde comunicar autoridade migratória nem condicionar o cuidado a isso.",
+"Restringir a risco de morte iminente contraria a integralidade e a universalidade do sistema."
+]
+},
+{
+"q": "Uma equipe atende idoso trazido por vizinho com sinais de negligência e lesões inexplicadas. Qual é a conduta?",
+"alts": [
+"Acolher, notificar compulsoriamente e comunicar sempre a autoridade competente conforme a legislação.",
+"Registrar apenas em prontuário e liberar o idoso de volta ao mesmo domicílio, sem qualquer comunicação.",
+"Aguardar que o próprio idoso solicite formalmente qualquer providência antes de qualquer notificação.",
+"Encaminhar exclusivamente à delegacia sem qualquer avaliação clínica ou notificação do caso identificado.",
+"Notificar apenas se houver confissão do agressor durante o atendimento realizado no serviço de saúde."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "emg",
+"comp": "prev",
+"nivel": "r2",
+"base": "Estatuto da Pessoa Idosa, Lei nº 10.741/2003, artigo 19; Ministério da Saúde — Guia de Vigilância em Saúde, 2024",
+"coment": "O Estatuto da Pessoa Idosa determina que casos suspeitos ou confirmados de violência contra idoso sejam obrigatoriamente comunicados pelos profissionais de saúde à autoridade sanitária e a uma das instâncias de proteção: autoridade policial, Ministério Público ou conselho do idoso. A notificação é compulsória, independe de confirmação e de autorização, e a avaliação inclui exame clínico completo, registro detalhado das lesões e avaliação do risco de retorno ao domicílio.",
+"porAlt": [
+"Correta: acolher, notificar compulsoriamente e comunicar a autoridade competente conforme a lei.",
+"Devolver ao mesmo domicílio sem comunicação mantém o idoso exposto ao agressor e ao risco.",
+"A notificação independe de solicitação da vítima e é dever legal do profissional de saúde.",
+"Encaminhar sem avaliar nega assistência clínica devida e não cumpre a notificação sanitária.",
+"A notificação decorre da suspeita e não exige confissão nem comprovação prévia da violência."
+]
 }
 ];
