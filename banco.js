@@ -5110,5 +5110,1205 @@ window.BANCO=[
 "O diabetes mellitus causa diurese osmótica com glicosúria, e a osmolaridade urinária não seria baixa.",
 "A síndrome de secreção inapropriada cursa com hiponatremia e urina concentrada, o oposto do caso."
 ]
+},
+{
+"q": "Homem de 68 anos apresenta tremor de repouso assimétrico em mão direita, bradicinesia e rigidez em roda denteada, com marcha em pequenos passos. Não usa neurolépticos. Qual é o diagnóstico e a conduta?",
+"alts": [
+"Doença de Parkinson, tratada sempre com levodopa ou agonista dopaminérgico conforme idade.",
+"Tremor essencial, definido pelo tremor de repouso assimétrico com rigidez em roda denteada.",
+"Parkinsonismo vascular, cujo diagnóstico dispensa qualquer exame de imagem complementar.",
+"Atrofia de múltiplos sistemas, sugerida apenas pela presença de bradicinesia e de rigidez.",
+"Doença de Huntington, caracterizada por tremor de repouso e marcha em pequenos passos."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Movement Disorder Society, critérios diagnósticos 2015; Harrison's, 22ª edição, 2025",
+"coment": "Bradicinesia associada a tremor de repouso ou rigidez, de forma assimétrica e com boa resposta à levodopa, define doença de Parkinson pelos critérios vigentes. O tratamento é sintomático: levodopa é a droga mais eficaz, e agonistas dopaminérgicos são alternativa em pacientes mais jovens, pesando risco de sonolência e transtornos do controle de impulso. Tremor essencial é postural e de ação, bilateral, sem bradicinesia nem rigidez.",
+"porAlt": [
+"Correta: o quadro é doença de Parkinson, tratada com levodopa ou agonista conforme idade e perfil.",
+"O tremor essencial é postural e de ação, bilateral, e não cursa com bradicinesia ou rigidez.",
+"O parkinsonismo vascular tem instalação em degraus e exige imagem para demonstrar as lesões.",
+"A atrofia de múltiplos sistemas cursa com disautonomia proeminente e má resposta à levodopa.",
+"A doença de Huntington cursa com coreia e alterações psiquiátricas, não com tremor de repouso."
+]
+},
+{
+"q": "Mulher de 32 anos apresenta episódios recorrentes de déficits neurológicos focais, com neurite óptica prévia e lesões desmielinizantes periventriculares na ressonância. Qual é o diagnóstico e a base do tratamento?",
+"alts": [
+"Esclerose múltipla, com terapia modificadora da doença iniciada sempre de forma precoce.",
+"Enxaqueca com aura, cujo diagnóstico se firma pelas lesões periventriculares na ressonância.",
+"Acidente vascular cerebral de repetição, tratado apenas com antiagregante e estatina potente.",
+"Epilepsia focal refratária, definida pela recorrência de déficits neurológicos transitórios.",
+"Neuropatia periférica desmielinizante, que cursa com neurite óptica e lesões periventriculares."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Critérios de McDonald 2017, revisados; Harrison's, 22ª edição, 2025 — esclerose múltipla",
+"coment": "Episódios neurológicos recorrentes separados no tempo e no espaço, com neurite óptica e lesões desmielinizantes típicas na ressonância, definem esclerose múltipla pelos critérios de McDonald. O tratamento tem dois eixos: pulso de corticoide nos surtos e terapia modificadora da doença iniciada precocemente, que reduz surtos, lesões novas e acúmulo de incapacidade. Quanto mais cedo se inicia a terapia modificadora, melhor o prognóstico funcional a longo prazo.",
+"porAlt": [
+"Correta: o quadro é esclerose múltipla, e a terapia modificadora deve ser iniciada precocemente.",
+"A enxaqueca com aura pode ter lesões inespecíficas, mas não cursa com neurite óptica e surtos focais.",
+"Eventos vasculares em jovem sem fator de risco e com neurite óptica prévia apontam desmielinização.",
+"A epilepsia cursa com crises estereotipadas, e não com déficits focais persistentes e lesões desmielinizantes.",
+"A neuropatia periférica não causa lesões periventriculares nem neurite óptica no sistema nervoso central."
+]
+},
+{
+"q": "Homem de 55 anos chega com cefaleia occipital, rigidez de nuca, febre de 38,8 °C e rebaixamento leve. A tomografia é normal e o líquor mostra 800 células com predomínio de neutrófilos, glicose baixa e proteína elevada. Qual é a conduta?",
+"alts": [
+"Manter sempre antimicrobiano empírico com dexametasona, ajustando conforme cultura do líquor.",
+"Suspender o antimicrobiano e aguardar a cultura, já que o quadro pode ser de origem viral.",
+"Iniciar aciclovir isolado, cobertura adequada para o padrão liquórico descrito neste paciente.",
+"Prescrever apenas analgesia e observação, uma vez que a tomografia de crânio veio normal.",
+"Indicar corticoide isolado em dose alta, sem antimicrobiano, pelo padrão inflamatório do líquor."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "Infectious Diseases Society of America, 2004, e Harrison's, 22ª edição, 2025 — meningite bacteriana",
+"coment": "Líquor com pleocitose neutrofílica, glicose baixa e proteína elevada é padrão de meningite bacteriana e exige antimicrobiano empírico imediato, com dexametasona administrada antes ou junto da primeira dose, que reduz sequela auditiva e mortalidade na etiologia pneumocócica. O esquema empírico cobre pneumococo e meningococo, com ampicilina acrescentada em idosos e imunossuprimidos pela cobertura de Listeria. O ajuste vem com cultura e sensibilidade.",
+"porAlt": [
+"Correta: o padrão liquórico é bacteriano e exige antimicrobiano empírico com dexametasona, ajustado pela cultura.",
+"Suspender antimicrobiano com esse padrão liquórico é conduta com mortalidade elevada em poucas horas.",
+"O aciclovir cobre encefalite herpética, cujo líquor tem predomínio linfocitário e glicose normal.",
+"Analgesia isolada em meningite bacteriana permite evolução para choque e óbito em horas.",
+"O corticoide é adjuvante e nunca substitui o antimicrobiano no tratamento da meningite bacteriana."
+]
+},
+{
+"q": "Mulher de 72 anos apresenta fraqueza progressiva ascendente em membros inferiores há cinco dias, com arreflexia e parestesias, após quadro diarreico. A força respiratória está reduzida. Qual é o diagnóstico e a conduta?",
+"alts": [
+"Síndrome de Guillain-Barré, com monitorização respiratória e imunoglobulina ou plasmaférese.",
+"Miastenia gravis, definida pela fraqueza ascendente com arreflexia após quadro infeccioso prévio.",
+"Acidente vascular medular, cuja apresentação típica é a fraqueza ascendente simétrica e arreflexa.",
+"Polimiosite aguda, já sugerida pela arreflexia e pelas parestesias distais em membros inferiores.",
+"Esclerose lateral amiotrófica, que cursa com instalação em dias e arreflexia global generalizada."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — síndrome de Guillain-Barré",
+"coment": "Fraqueza flácida ascendente, simétrica, com arreflexia e parestesias, instalada em dias após infecção — clássica após diarreia por Campylobacter —, define a síndrome de Guillain-Barré. O ponto crítico do manejo é a monitorização respiratória seriada, com capacidade vital forçada e pressões inspiratórias, porque a falência ventilatória é a principal causa de morte e pode ser súbita. O tratamento é imunoglobulina endovenosa ou plasmaférese; corticoide isolado não é eficaz.",
+"porAlt": [
+"Correta: o quadro é Guillain-Barré, exigindo monitorização respiratória e imunoglobulina ou plasmaférese.",
+"A miastenia cursa com fatigabilidade e reflexos preservados, sem o padrão ascendente arreflexo descrito.",
+"O acidente vascular medular tem instalação súbita com nível sensitivo, e não progressão em dias.",
+"A polimiosite cursa com fraqueza proximal e elevação de creatinoquinase, com reflexos preservados.",
+"A esclerose lateral amiotrófica evolui em meses, com sinais de neurônio motor superior associados."
+]
+},
+{
+"q": "Homem de 60 anos, hipertenso, apresenta cefaleia súbita intensa com rebaixamento e hemiparesia esquerda. A tomografia mostra hematoma putaminal à direita com 40 mL e desvio de linha média. Qual é a conduta inicial?",
+"alts": [
+"Controlar sempre a pressão de forma cuidadosa, reverter coagulopatia e avaliar neurocirurgia.",
+"Iniciar trombolítico endovenoso imediatamente, conduta padrão em todo acidente vascular cerebral.",
+"Iniciar anticoagulação plena para prevenir a expansão do hematoma intraparenquimatoso descrito.",
+"Prescrever apenas analgesia e observação clínica, sem qualquer controle pressórico específico.",
+"Indicar punção lombar de urgência para confirmar o diagnóstico antes de qualquer intervenção."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "AHA/ASA 2022 — Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage",
+"coment": "No acidente vascular cerebral hemorrágico, os pilares iniciais são o controle pressórico cuidadoso, a reversão de coagulopatia ou de anticoagulação quando presente, o manejo da pressão intracraniana e a avaliação neurocirúrgica conforme localização, volume e nível de consciência. Trombolítico e anticoagulação são catastróficos nesse contexto, e a punção lombar é contraindicada diante de efeito de massa com desvio de linha média.",
+"porAlt": [
+"Correta: controle pressórico cuidadoso, reversão de coagulopatia e avaliação neurocirúrgica compõem a conduta.",
+"O trombolítico é para o acidente vascular isquêmico e agrava de forma fatal um hematoma já instalado.",
+"A anticoagulação expande o hematoma e é formalmente contraindicada nesse cenário clínico.",
+"Observar sem controlar pressão permite a expansão do hematoma nas primeiras horas.",
+"A punção lombar é contraindicada diante de efeito de massa com desvio de linha média."
+]
+},
+{
+"q": "Mulher de 28 anos tem crises de cefaleia unilateral pulsátil precedidas por escotomas cintilantes que duram vinte minutos. Usa anticoncepcional oral combinado e é tabagista. Qual é a orientação sobre a contracepção?",
+"alts": [
+"Suspender sempre o combinado, pelo risco de acidente vascular na enxaqueca com aura agora.",
+"Manter o combinado e apenas acrescentar profilaxia com betabloqueador para as crises dela.",
+"Trocar por combinado de dose mais alta, que reduz a frequência das crises com aura relatadas.",
+"Manter tudo como está, pois a enxaqueca com aura não altera o risco vascular dessa paciente.",
+"Suspender apenas o tabagismo, mantendo o combinado, que é seguro em qualquer tipo de enxaqueca."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "Organização Mundial da Saúde — Critérios Médicos de Elegibilidade para uso de contraceptivos, 2015; International Headache Society",
+"coment": "Enxaqueca com aura é categoria 4 nos critérios de elegibilidade para contraceptivo hormonal combinado, ou seja, risco inaceitável: o estrogênio aumenta de forma significativa o risco de acidente vascular cerebral isquêmico nessas pacientes, e o tabagismo multiplica esse risco. A conduta é suspender o combinado e oferecer método sem estrogênio — progestágeno isolado, dispositivo intrauterino ou método de barreira —, além de apoio intensivo à cessação do tabagismo.",
+"porAlt": [
+"Correta: enxaqueca com aura contraindica o contraceptivo combinado pelo risco de acidente vascular isquêmico.",
+"Manter o combinado mantém o risco vascular elevado, que a profilaxia da enxaqueca não reduz.",
+"Doses mais altas de estrogênio aumentam ainda mais o risco vascular nessas pacientes.",
+"A enxaqueca com aura eleva o risco de acidente vascular, sobretudo somada a estrogênio e tabaco.",
+"Cessar o tabagismo é essencial, mas o combinado permanece contraindicado na enxaqueca com aura."
+]
+},
+{
+"q": "Homem de 45 anos apresenta cefaleias em salvas, unilaterais, periorbitárias, de dor excruciante, com lacrimejamento e rinorreia ipsilaterais, durando uma hora e recorrendo diariamente. Qual é o tratamento agudo de escolha?",
+"alts": [
+"Oxigênio em alto fluxo sob máscara e triptano subcutâneo, sempre no início da crise agora.",
+"Analgésico simples por via oral, tratamento de escolha para a crise de cefaleia em salvas.",
+"Corticoide em dose alta por via oral, medida de escolha para abortar a crise já instalada.",
+"Opioide de liberação prolongada, primeira opção para dor excruciante desse tipo de cefaleia.",
+"Carbamazepina em dose plena, tratamento agudo padrão nas cefaleias trigeminoautonômicas."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "International Headache Society e American Headache Society, 2021 — cefaleias trigeminoautonômicas",
+"coment": "A cefaleia em salvas é a mais dolorosa das cefaleias primárias e responde a dois tratamentos agudos de eficácia comprovada: oxigênio a alto fluxo sob máscara com reservatório e triptano por via subcutânea ou nasal, ambos com início rápido — essencial, porque a crise dura de quinze minutos a três horas. Analgésicos orais e opioides são ineficazes pela latência. O verapamil é a profilaxia de escolha, e o corticoide serve como ponte até a profilaxia agir.",
+"porAlt": [
+"Correta: oxigênio em alto fluxo e triptano subcutâneo são os tratamentos agudos com eficácia comprovada.",
+"Analgésico oral tem latência longa demais para uma crise que dura de quinze minutos a três horas.",
+"O corticoide serve como terapia de transição até a profilaxia agir, e não para abortar a crise aguda.",
+"O opioide é ineficaz e traz dependência numa doença de crises repetidas e diárias por semanas.",
+"A carbamazepina é tratamento da neuralgia do trigêmeo, não da cefaleia em salvas."
+]
+},
+{
+"q": "Mulher de 65 anos apresenta perda visual monocular indolor e transitória, com duração de dez minutos, e recuperação completa. Tem hipertensão e dislipidemia. Qual é a conduta?",
+"alts": [
+"Investigar sempre como ataque isquêmico transitório, com imagem vascular e prevenção secundária.",
+"Tranquilizar e reavaliar em seis meses, uma vez que a visão retornou completamente ao normal.",
+"Prescrever colírio lubrificante e encaminhar apenas ao oftalmologista de rotina no ambulatório.",
+"Iniciar corticoide em dose alta empiricamente, sem qualquer investigação vascular complementar.",
+"Solicitar apenas campimetria e liberar, sem qualquer avaliação de carótidas ou de coração agora."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "AHA/ASA 2021 — Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack",
+"coment": "Amaurose fugaz é um ataque isquêmico transitório da circulação retiniana e carrega o mesmo risco de acidente vascular cerebral subsequente de qualquer outro ataque transitório — risco máximo nas primeiras 48 horas. A investigação é urgente: imagem cerebral e vascular, avaliação de carótidas, eletrocardiograma e rastreio de fibrilação atrial, além de perfil metabólico. Institui-se prevenção secundária imediata com antiagregante e estatina, e a endarterectomia é avaliada quando há estenose carotídea significativa.",
+"porAlt": [
+"Correta: amaurose fugaz é ataque isquêmico transitório e exige investigação urgente e prevenção secundária.",
+"A recuperação completa é a regra no ataque transitório, e não afasta o risco alto de acidente vascular.",
+"Tratar como problema ocular local ignora a origem vascular e o risco iminente de evento cerebral.",
+"O corticoide empírico só teria papel na arterite temporal, que exige achados clínicos específicos.",
+"A campimetria não investiga a origem vascular do evento nem previne o acidente vascular subsequente."
+]
+},
+{
+"q": "Homem de 70 anos com fibrilação atrial e AVC isquêmico extenso há três dias está estável. A equipe discute quando reiniciar a anticoagulação oral. Qual é o princípio que orienta a decisão?",
+"alts": [
+"O tamanho do infarto e o risco de transformação hemorrágica definem sempre o momento de reiniciar.",
+"Reiniciar a anticoagulação nas primeiras seis horas em todos os pacientes com fibrilação atrial.",
+"Nunca reiniciar anticoagulação após acidente vascular isquêmico em portadores de fibrilação atrial.",
+"Reiniciar somente após seis meses, prazo fixo para qualquer paciente independentemente do infarto.",
+"Substituir definitivamente a anticoagulação por antiagregante, que tem eficácia equivalente aqui."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "AHA/ASA 2026 e ESC 2024 — reintrodução de anticoagulação após acidente vascular isquêmico na fibrilação atrial",
+"coment": "A reintrodução da anticoagulação após acidente vascular isquêmico em paciente com fibrilação atrial equilibra dois riscos opostos: recorrência embólica se demorar e transformação hemorrágica se antecipar. O critério orientador é o tamanho do infarto e a presença de transformação hemorrágica na imagem de controle, com infartos pequenos permitindo reintrodução mais precoce e extensos exigindo mais tempo. Antiagregante não substitui a anticoagulação na prevenção embólica da fibrilação atrial.",
+"porAlt": [
+"Correta: o tamanho do infarto e o risco de transformação hemorrágica definem quando reiniciar a anticoagulação.",
+"Reiniciar em seis horas num infarto extenso arrisca transformação hemorrágica com desfecho catastrófico.",
+"Não reiniciar mantém o paciente sem proteção contra novo evento embólico, que é altamente provável.",
+"Prazo fixo de seis meses ignora a variação entre infartos pequenos e extensos na decisão clínica.",
+"O antiagregante é bem menos eficaz que o anticoagulante na prevenção de embolia da fibrilação atrial."
+]
+},
+{
+"q": "Mulher de 40 anos apresenta ptose palpebral e diplopia que pioram ao fim do dia e melhoram com repouso, sem alteração pupilar. A força melhora após repouso prolongado. Qual é a hipótese e o exame confirmatório?",
+"alts": [
+"Miastenia gravis, confirmada sempre por anticorpo antirreceptor de acetilcolina e eletroneuromiografia.",
+"Paralisia do terceiro nervo craniano por aneurisma, sugerida pela ptose com pupila preservada agora.",
+"Esclerose múltipla com neurite óptica, confirmada pela flutuação diurna dos sintomas oculares agora.",
+"Doença de Graves com oftalmopatia, definida pela fatigabilidade muscular ao longo do dia neste caso.",
+"Distrofia muscular de cinturas, que cursa com ptose flutuante e diplopia de predomínio vespertino."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — miastenia gravis",
+"coment": "Fatigabilidade muscular com piora ao longo do dia e melhora com repouso, acometendo musculatura ocular com ptose e diplopia e poupando a pupila, é a apresentação clássica da miastenia gravis. A confirmação se faz por anticorpo antirreceptor de acetilcolina, com anticorpo anti-MuSK nos soronegativos, e por estudo eletrofisiológico com estimulação repetitiva ou eletromiografia de fibra única. Investiga-se timoma por tomografia de tórax em todos os casos.",
+"porAlt": [
+"Correta: fatigabilidade com ptose e diplopia poupando pupila é miastenia, confirmada por anticorpo e eletrofisiologia.",
+"A paralisia do terceiro nervo por aneurisma cursa com midríase e dor, sem flutuação ao longo do dia.",
+"A esclerose múltipla não cursa com fatigabilidade flutuante diária desse padrão ocular característico.",
+"A oftalmopatia de Graves cursa com proptose e retração palpebral, e não com ptose fatigável.",
+"As distrofias de cinturas acometem musculatura proximal de membros e poupam a musculatura ocular."
+]
+},
+{
+"q": "Uma equipe de saúde da família identifica surto de diarreia em um bairro. Qual é a conduta inicial de vigilância que compete a essa equipe?",
+"alts": [
+"Notificar sempre o caso e investigar a fonte comum, articulando com a vigilância municipal.",
+"Tratar apenas os casos individualmente, sem qualquer comunicação à vigilância epidemiológica.",
+"Aguardar dez casos confirmados por laboratório antes de qualquer notificação às autoridades.",
+"Encaminhar todos os pacientes ao hospital terciário, encerrando ali a atuação da equipe local.",
+"Solicitar coprocultura de toda a população do bairro antes de notificar o evento à vigilância."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024; Lei nº 8.080/1990",
+"coment": "A vigilância epidemiológica é atribuição de todos os níveis do sistema, e a atenção primária é a porta que detecta o evento. Diante de surto, a equipe notifica de imediato — surto é evento de notificação compulsória imediata — e inicia investigação de fonte comum, com busca ativa de casos, coleta de amostras conforme orientação e medidas de controle, como orientação sobre água e alimentos. Não se espera confirmação laboratorial para notificar.",
+"porAlt": [
+"Correta: notificar de imediato e investigar a fonte comum, articulando com a vigilância municipal.",
+"Tratar sem notificar impede a resposta coletiva e permite que a fonte permaneça ativa no território.",
+"A notificação de surto é imediata e não depende de número mínimo de casos confirmados.",
+"Encaminhar todos ao terciário sobrecarrega a rede e não interrompe a transmissão no território.",
+"Rastrear toda a população antes de notificar atrasa a resposta e é operacionalmente inviável."
+]
+},
+{
+"q": "Um gestor municipal quer organizar o cuidado de pessoas com hipertensão e diabetes na atenção primária. Qual estratégia corresponde às diretrizes da política nacional?",
+"alts": [
+"Adscrever sempre a população, estratificar risco e definir plano de cuidado com equipe multiprofissional.",
+"Ampliar apenas o número de consultas médicas, sem qualquer participação da equipe multiprofissional.",
+"Encaminhar todos os pacientes crônicos ao especialista focal, esvaziando a atenção primária local agora.",
+"Concentrar a assistência nas unidades de pronto atendimento, que absorvem melhor a demanda espontânea.",
+"Restringir o cuidado à dispensação de medicamentos, dispensando consultas e acompanhamento longitudinal."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Portaria GM/MS nº 2.436/2017 — Política Nacional de Atenção Básica",
+"coment": "A Política Nacional de Atenção Básica estrutura o cuidado sobre território definido e população adscrita, com equipe multiprofissional, longitudinalidade, coordenação do cuidado e responsabilidade sanitária. Para condições crônicas, isso se traduz em conhecer a população, estratificar risco, construir plano de cuidado individual com metas pactuadas, apoiar autocuidado e reservar o especialista para apoio matricial e casos complexos.",
+"porAlt": [
+"Correta: população adscrita, estratificação de risco e plano de cuidado multiprofissional são o núcleo da política.",
+"Ampliar só consultas médicas ignora o trabalho em equipe, que é estruturante na atenção básica.",
+"Encaminhar todos ao especialista desorganiza a rede e retira da primária a coordenação do cuidado.",
+"O pronto atendimento trata a descompensação e não substitui o cuidado longitudinal da condição crônica.",
+"Dispensar medicamento sem acompanhamento não produz controle e desperdiça o recurso investido."
+]
+},
+{
+"q": "Um paciente relata que foi atendido em um serviço e recebeu diagnóstico sem que lhe explicassem os riscos do procedimento proposto, tendo assinado um documento que não leu. Que princípio ético foi violado?",
+"alts": [
+"A autonomia, exercida sempre pelo consentimento livre e esclarecido antes do procedimento.",
+"A justiça distributiva, princípio que rege a alocação equitativa de recursos escassos em saúde.",
+"A não maleficência, que se refere exclusivamente ao dever de não causar dano intencional.",
+"A beneficência, princípio segundo o qual o médico deve sempre decidir sozinho pelo paciente.",
+"O sigilo profissional, que impede o compartilhamento de informações clínicas sem autorização."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; princípios da bioética",
+"coment": "O consentimento livre e esclarecido é a expressão prática do princípio da autonomia: o paciente precisa compreender o procedimento, os riscos, os benefícios e as alternativas, incluindo a de não tratar, antes de decidir. Assinatura sem compreensão não configura consentimento válido. Os quatro princípios da bioética são autonomia, beneficência, não maleficência e justiça, e o sigilo é dever ético distinto, ligado à privacidade.",
+"porAlt": [
+"Correta: o consentimento livre e esclarecido expressa a autonomia, violada quando não há compreensão real.",
+"A justiça distributiva trata da alocação equitativa de recursos, e não do processo de consentimento.",
+"A não maleficência trata de evitar dano, e não do direito de decidir sobre o próprio tratamento.",
+"A beneficência é agir no melhor interesse do paciente, o que não autoriza decidir sozinho por ele.",
+"O sigilo protege a informação do paciente e não se refere ao processo de consentimento informado."
+]
+},
+{
+"q": "Uma equipe recebe paciente em situação de rua, sem documentos e sem cartão do sistema. Qual é a conduta correta?",
+"alts": [
+"Atender sempre, pois a universalidade garante acesso independentemente de documento ou cadastro.",
+"Encaminhar para regularizar documentação antes de qualquer atendimento clínico ser realizado.",
+"Atender apenas em caso de risco iminente de morte, negando atendimento nas demais situações.",
+"Cobrar o atendimento particular, já que o paciente não apresenta comprovação de vínculo com o sistema.",
+"Encaminhar diretamente para serviço filantrópico, pois a rede pública não cobre esse perfil de usuário."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Lei nº 8.080/1990, artigos 2º e 7º — universalidade e integralidade; Política Nacional para População em Situação de Rua",
+"coment": "A universalidade é princípio constitucional e legal do sistema: a saúde é direito de todos e dever do Estado, sem exigência de documento, cadastro ou comprovação de residência como condição de acesso. Para população em situação de rua há política específica, com equipes de consultório na rua e articulação intersetorial. Negar atendimento por ausência de documento configura violação de direito e infração ética.",
+"porAlt": [
+"Correta: a universalidade garante o acesso independentemente de documentação ou de cadastro prévio.",
+"Condicionar atendimento à documentação nega um direito constitucional e configura infração ética.",
+"Restringir a risco de morte iminente contraria a integralidade e a universalidade do sistema.",
+"Cobrar atendimento em serviço público viola a gratuidade garantida pela legislação vigente.",
+"A rede pública tem política específica para essa população, com equipes de consultório na rua."
+]
+},
+{
+"q": "Durante um plantão, um médico é procurado por familiar que pede informações clínicas sobre paciente adulto, lúcido, que não autorizou o compartilhamento. Qual é a conduta correta?",
+"alts": [
+"Manter sempre o sigilo, informando apenas com autorização expressa do próprio paciente agora.",
+"Informar livremente, pois o vínculo familiar dispensa qualquer autorização do paciente adulto.",
+"Informar apenas o diagnóstico principal, sem detalhes, o que não configura quebra de sigilo.",
+"Registrar em prontuário e informar tudo, já que o registro documental autoriza o compartilhamento.",
+"Informar somente se o familiar for cônjuge, único caso em que o sigilo pode ser dispensado."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r1",
+"base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, capítulo IX — sigilo profissional",
+"coment": "O sigilo profissional é dever do médico e direito do paciente, e só é rompido por justa causa, dever legal ou autorização expressa do próprio paciente. Vínculo familiar não autoriza acesso: o paciente adulto e capaz decide quem recebe suas informações. Informar apenas parte também configura quebra. As exceções legais incluem notificação compulsória de doenças e situações previstas em lei, sempre restritas ao mínimo necessário.",
+"porAlt": [
+"Correta: o sigilo só se rompe por justa causa, dever legal ou autorização expressa do paciente.",
+"Vínculo familiar não autoriza acesso à informação de paciente adulto, lúcido e capaz.",
+"Informar parcialmente também é quebra de sigilo, mesmo que apenas o diagnóstico seja revelado.",
+"Registrar em prontuário é dever, mas não autoriza compartilhar a informação com terceiros.",
+"Nem o cônjuge tem direito automático à informação sem autorização do próprio paciente."
+]
+},
+{
+"q": "Um serviço de urgência precisa organizar o atendimento diante de grande demanda simultânea. Qual é o instrumento que ordena o atendimento por gravidade?",
+"alts": [
+"A classificação de risco, que ordena sempre o atendimento pela gravidade e não pela ordem de chegada.",
+"A ordem estrita de chegada, critério mais justo e recomendado pelas políticas nacionais de urgência.",
+"A ordem alfabética dos usuários cadastrados, que evita qualquer viés na priorização do atendimento.",
+"A escolha do próprio paciente sobre a urgência do seu caso, que define a prioridade do atendimento.",
+"O critério de idade isolado, priorizando sempre os mais idosos independentemente da gravidade agora."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "emg",
+"comp": "prev",
+"nivel": "r1",
+"base": "Ministério da Saúde — Acolhimento com Classificação de Risco, 2009; Portaria GM/MS nº 1.600/2011 (Rede de Atenção às Urgências)",
+"coment": "O acolhimento com classificação de risco é diretriz da Política Nacional de Humanização e da rede de urgência: todo usuário é acolhido e avaliado quanto à gravidade, e o atendimento é ordenado por prioridade clínica, não por ordem de chegada. Protocolos estruturados atribuem cores ou níveis conforme risco. A ordem de chegada permanece apenas para desempatar dentro de uma mesma categoria de risco.",
+"porAlt": [
+"Correta: a classificação de risco ordena o atendimento por gravidade, e não pela ordem de chegada.",
+"A ordem de chegada faz o paciente grave esperar atrás de casos leves, com desfechos evitáveis.",
+"Ordem alfabética não guarda relação alguma com gravidade clínica nem com necessidade de cuidado.",
+"A percepção do próprio paciente é importante no acolhimento, mas não substitui a avaliação técnica.",
+"A idade é um dos elementos da avaliação, mas isolada não ordena o atendimento por gravidade."
+]
+},
+{
+"q": "Um médico atende paciente que sofreu acidente de trabalho com afastamento previsto de dez dias. Qual é a conduta obrigatória além do atendimento clínico?",
+"alts": [
+"Emitir sempre a comunicação de acidente de trabalho e notificar conforme a vigilância exige.",
+"Apenas prescrever o afastamento, sem qualquer comunicação a órgãos de vigilância ou previdência.",
+"Encaminhar o paciente ao setor jurídico da empresa antes de qualquer registro do atendimento.",
+"Aguardar que o empregador solicite documentação antes de emitir qualquer comunicação oficial.",
+"Registrar somente em prontuário, sem qualquer documento externo relacionado ao acidente ocorrido."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, e legislação previdenciária sobre acidente de trabalho",
+"coment": "Acidente de trabalho grave ou com afastamento tem dois deveres associados: a comunicação de acidente de trabalho, documento previdenciário que garante direitos ao trabalhador, e a notificação em vigilância epidemiológica, já que agravos relacionados ao trabalho integram a lista de notificação. O médico assistente pode emitir a comunicação, e a omissão prejudica direitos do trabalhador e apaga o dado epidemiológico que orienta a prevenção.",
+"porAlt": [
+"Correta: emitir a comunicação de acidente de trabalho e notificar à vigilância são deveres associados.",
+"Apenas afastar sem comunicar priva o trabalhador de direitos previdenciários que dependem do documento.",
+"Encaminhar ao setor jurídico da empresa não substitui o dever do médico assistente de comunicar.",
+"Aguardar a empresa solicitar inverte a responsabilidade e atrasa o reconhecimento do agravo.",
+"O registro em prontuário é necessário mas não substitui a comunicação e a notificação obrigatórias."
+]
+},
+{
+"q": "Um gestor deseja avaliar o desempenho da atenção primária no controle de condições sensíveis. Qual indicador é apropriado?",
+"alts": [
+"Internações por condições sensíveis à atenção primária, que refletem sempre a efetividade do cuidado.",
+"Número absoluto de consultas médicas realizadas, indicador que mede diretamente a qualidade do cuidado.",
+"Quantidade de exames laboratoriais solicitados, já cujo aumento indica melhor desempenho assistencial.",
+"Total de encaminhamentos ao especialista, cujo crescimento demonstra melhor coordenação do cuidado.",
+"Número de medicamentos dispensados por mês, indicador direto do controle das condições crônicas."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "Ministério da Saúde — lista brasileira de internações por condições sensíveis à atenção primária, Portaria nº 221/2008",
+"coment": "As internações por condições sensíveis à atenção primária compõem indicador consagrado de efetividade do primeiro nível de atenção: são internações que poderiam ser evitadas por acesso oportuno e cuidado adequado, como as por asma, insuficiência cardíaca, diabetes descompensado, infecção urinária e pneumonia. Sua redução sugere melhor desempenho da rede básica. Volume de consultas, exames, encaminhamentos e medicamentos mede atividade, não resultado.",
+"porAlt": [
+"Correta: internações por condições sensíveis à atenção primária medem efetividade do cuidado no primeiro nível.",
+"O número de consultas mede produção e volume de atividade, sem informar sobre resultado alcançado.",
+"Mais exames podem indicar excesso de solicitação, e não melhor qualidade do cuidado prestado.",
+"Mais encaminhamentos podem indicar menor resolutividade da atenção primária, e não mais coordenação.",
+"Volume de medicamentos dispensados não informa sobre adesão nem sobre controle da condição crônica."
+]
+},
+{
+"q": "Uma paciente de 16 anos procura a unidade sozinha solicitando contracepção. Qual é a conduta correta do ponto de vista ético e legal?",
+"alts": [
+"Atender sempre e prescrever, respeitando o sigilo e a capacidade de discernimento da adolescente.",
+"Exigir a presença dos pais como condição obrigatória para qualquer atendimento e prescrição agora.",
+"Recusar o atendimento e encaminhar ao conselho tutelar, por se tratar de paciente menor de idade.",
+"Atender mas comunicar obrigatoriamente os pais sobre a prescrição contraceptiva realizada hoje.",
+"Prescrever apenas método de barreira, único autorizado para adolescentes sem acompanhante presente."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Resolução CFM nº 2.217/2018 e Estatuto da Criança e do Adolescente — atendimento e sigilo do adolescente",
+"coment": "O adolescente tem direito ao atendimento e ao sigilo, e a presença dos pais não é condição para o atendimento quando ele tem capacidade de discernimento sobre o próprio cuidado. O sigilo é rompido apenas diante de risco à vida ou à saúde, ou em situações de violência, com comunicação feita da forma menos danosa possível. Negar contracepção a adolescente que a procura aumenta gestação não planejada e infecções sexualmente transmissíveis.",
+"porAlt": [
+"Correta: o adolescente com discernimento tem direito ao atendimento e ao sigilo, incluindo contracepção.",
+"Exigir a presença dos pais como condição afasta o adolescente do serviço e nega um direito reconhecido.",
+"Encaminhar ao conselho tutelar por procurar contracepção não tem respaldo legal nem ético.",
+"Comunicar os pais sem necessidade quebra o sigilo e rompe o vínculo com o serviço de saúde.",
+"Não há restrição do método pela idade; a escolha considera perfil clínico e preferência informada."
+]
+},
+{
+"q": "Uma equipe percebe que muitos pacientes com tuberculose abandonam o tratamento. Qual estratégia tem melhor evidência para reduzir o abandono?",
+"alts": [
+"Tratamento diretamente observado, sempre associado a apoio social e vínculo com a equipe.",
+"Aumentar a dose dos medicamentos, já reduzindo o tempo de tratamento e o risco de abandono.",
+"Entregar toda a medicação de uma vez e reavaliar apenas ao fim dos seis meses de esquema.",
+"Encaminhar todos os casos ao serviço terciário, retirando o acompanhamento da atenção primária.",
+"Substituir o esquema padrão por antibiótico de amplo espectro, mais simples e melhor tolerado."
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019",
+"coment": "O tratamento diretamente observado é a estratégia central para reduzir abandono e evitar resistência: um profissional ou pessoa treinada observa a tomada da medicação, criando vínculo e permitindo detectar precocemente efeitos adversos e dificuldades sociais. Associa-se a apoio social — transporte, alimentação, acolhimento — porque o abandono tem determinantes sociais fortes. Entregar a medicação sem acompanhamento é o oposto do recomendado.",
+"porAlt": [
+"Correta: o tratamento diretamente observado, com apoio social e vínculo, é a estratégia de melhor evidência.",
+"Aumentar dose não reduz o tempo do esquema padronizado e aumenta a toxicidade do tratamento.",
+"Entregar tudo de uma vez sem acompanhamento é justamente o padrão associado a mais abandono.",
+"Centralizar no terciário afasta o paciente do território e dificulta o acompanhamento diário.",
+"O esquema da tuberculose é padronizado e não pode ser substituído por antibiótico de amplo espectro."
+]
+},
+{
+"q": "Mulher de 34 anos com fadiga. Hemoglobina 9,2 g/dL, VCM 68 fL, RDW 18%, ferritina 6 ng/mL. Qual é a conduta inicial?",
+"alts": [
+"Repor ferro por via oral e investigar sempre a fonte de perda no trato digestivo ou ginecológica.",
+"Transfundir dois concentrados de hemácias antes de qualquer investigação da causa da anemia agora.",
+"Iniciar eritropoetina humana recombinante, já que corrige a anemia sem necessidade de repor ferro.",
+"Prescrever vitamina B12 por via intramuscular, já que trata a microcitose e normaliza o volume agora.",
+"Solicitar biópsia de medula óssea antes de qualquer reposição, pois a ferritina é pouco confiável."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "Ministério da Saúde — Manual de Anemia Ferropriva, 2022; ASH/AGA guidelines on iron deficiency anemia, 2020",
+"coment": "Ferritina abaixo de 30 ng/mL confirma deficiência de ferro, e valor abaixo de 15 ng/mL é praticamente diagnóstico. O tratamento tem duas metades igualmente obrigatórias: repor ferro e achar a causa da perda. Em mulher em idade fértil, menorragia é a causa mais comum, mas perda digestiva precisa ser considerada, sobretudo se houver sintomas ou anemia desproporcional. A reposição oral em dias alternados aumenta a absorção ao reduzir o pico de hepcidina.",
+"porAlt": [
+"Correta: repor ferro e investigar a fonte de perda são as duas metades obrigatórias do tratamento.",
+"Transfusão se reserva a instabilidade ou anemia muito grave e sintomática, não a este quadro.",
+"Eritropoetina não corrige deficiência de ferro e pode agravar a depleção dos estoques corporais.",
+"A deficiência de vitamina B12 causa macrocitose, e não a microcitose observada neste caso.",
+"A ferritina baixa é específica para deficiência de ferro e dispensa a biópsia de medula óssea."
+]
+},
+{
+"q": "Homem de 68 anos com linfocitose de 45.000/mm³ persistente, linfócitos maduros, sem sintomas, sem citopenias, sem linfonodomegalia volumosa. Qual é a conduta?",
+"alts": [
+"Imunofenotipagem de sangue periférico e sempre observação vigilante se o estágio for inicial.",
+"Iniciar imediatamente quimioimunoterapia, pois a linfocitose isolada já indica tratamento urgente.",
+"Realizar esplenectomia diagnóstica antes de qualquer caracterização imunofenotípica da doença.",
+"Solicitar apenas hemograma seriado, sem qualquer caracterização por citometria de fluxo agora.",
+"Iniciar corticoide em dose alta e prolongada, já que reduz a linfocitose e altera a sobrevida."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "iwCLL guidelines, 2018; NCCN Chronic Lymphocytic Leukemia, 2024",
+"coment": "A leucemia linfocítica crônica é diagnosticada por imunofenotipagem de sangue periférico mostrando clone B com CD5, CD19, CD23 e cadeia leve restrita, com pelo menos 5.000 linfócitos B clonais por milímetro cúbico. Não é necessária biópsia de medula. Estágios iniciais assintomáticos, sem citopenia nem massa volumosa, são acompanhados sem tratamento: tratar cedo não prolonga a sobrevida. As indicações de tratar incluem citopenia progressiva, sintomas B, massa sintomática e tempo de duplicação curto.",
+"porAlt": [
+"Correta: imunofenotipagem confirma o clone e o estágio inicial assintomático é apenas observado.",
+"Linfocitose isolada não indica tratamento; tratar cedo não melhora a sobrevida nesta doença.",
+"A esplenectomia não tem papel diagnóstico e a citometria de fluxo resolve o caso sem cirurgia.",
+"O hemograma seriado não distingue clone neoplásico de linfocitose reativa persistente.",
+"O corticoide isolado não altera a história natural e traz toxicidade e risco infeccioso."
+]
+},
+{
+"q": "Paciente com anemia, plaquetopenia, esquizócitos no sangue periférico, febre e alteração neurológica flutuante, com LDH muito elevado e Coombs direto negativo. Qual é a conduta imediata?",
+"alts": [
+"Plasmaférese de urgência e corticoide, sempre antes do resultado da atividade da ADAMTS13.",
+"Transfusão de plaquetas em alto volume, primeira medida para corrigir a plaquetopenia grave.",
+"Heparina em dose plena, tratamento de escolha para a microangiopatia trombótica descrita.",
+"Aguardar o resultado da ADAMTS13 antes de qualquer intervenção terapêutica ser iniciada.",
+"Corticoide isolado por via oral, já suficiente para reverter o quadro sem procedimento invasivo."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "ISTH guidelines for thrombotic thrombocytopenic purpura, 2020; ASH TTP guideline, 2020",
+"coment": "O quadro é púrpura trombocitopênica trombótica: anemia hemolítica microangiopática com esquizócitos, plaquetopenia, Coombs negativo e LDH elevado. A mortalidade sem tratamento supera noventa por cento e a plasmaférese reduz para menos de vinte, de modo que ela é iniciada por suspeita clínica, sem esperar a dosagem de ADAMTS13. Associa-se corticoide e, em muitos protocolos, caplacizumabe. Transfusão de plaquetas é contraindicada, salvo sangramento com risco de vida, por alimentar a trombose microvascular.",
+"porAlt": [
+"Correta: plasmaférese de urgência com corticoide, iniciada pela suspeita clínica, sem aguardar exame.",
+"A transfusão de plaquetas pode agravar a trombose microvascular e é evitada nesta condição.",
+"A anticoagulação plena não trata a microangiopatia e aumenta o risco de sangramento grave.",
+"Esperar o resultado da ADAMTS13 atrasa a plasmaférese e aumenta muito a mortalidade do quadro.",
+"O corticoide isolado não substitui a plasmaférese, que é a intervenção que reduz a mortalidade."
+]
+},
+{
+"q": "Homem de 72 anos com dor lombar, anemia, cálcio de 11,8 mg/dL e creatinina de 2,4 mg/dL. Qual exame confirma a suspeita diagnóstica principal?",
+"alts": [
+"Eletroforese de proteínas com imunofixação e cadeias leves livres séricas, sempre com mielograma.",
+"Cintilografia óssea, exame de escolha para detectar as lesões líticas típicas dessa doença agora.",
+"Dosagem isolada de fosfatase alcalina, que se eleva de forma característica nessa condição agora.",
+"Biópsia de linfonodo cervical, procedimento que estabelece o diagnóstico nesse cenário clínico.",
+"Apenas radiografia simples de coluna lombar, suficiente para o diagnóstico definitivo do caso."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r2",
+"base": "International Myeloma Working Group — critérios diagnósticos, atualização 2024; NCCN Multiple Myeloma, 2024",
+"coment": "A tétrade de hipercalcemia, insuficiência renal, anemia e lesão óssea aponta mieloma múltiplo. O diagnóstico exige demonstrar a proteína monoclonal — eletroforese com imunofixação em soro e urina e cadeias leves livres séricas — e plasmocitose clonal na medula, além de imagem para lesões ósseas, preferencialmente tomografia de baixa dose, ressonância ou PET, e não cintilografia óssea, que é falsamente negativa por serem lesões líticas sem resposta osteoblástica.",
+"porAlt": [
+"Correta: eletroforese com imunofixação, cadeias leves livres e avaliação medular fecham o diagnóstico.",
+"A cintilografia óssea costuma ser negativa porque as lesões são líticas, sem reação osteoblástica.",
+"A fosfatase alcalina permanece tipicamente normal, justamente pela ausência de atividade osteoblástica.",
+"A biópsia de linfonodo investiga linfoma, e não a discrasia plasmocitária suspeitada aqui.",
+"A radiografia mostra lesões tardias e não demonstra a proteína monoclonal exigida pelo diagnóstico."
+]
+},
+{
+"q": "Paciente em uso de heparina há sete dias apresenta queda de plaquetas de 240.000 para 80.000/mm³ e trombose venosa nova. Qual é a conduta?",
+"alts": [
+"Suspender toda heparina e iniciar anticoagulante alternativo, sempre sem aguardar sorologia.",
+"Manter a heparina em dose plena e transfundir plaquetas para corrigir a plaquetopenia observada.",
+"Trocar a heparina não fracionada por heparina de baixo peso molecular em dose terapêutica.",
+"Suspender a heparina e não anticoagular, pela plaquetopenia e pelo risco elevado de sangramento.",
+"Iniciar varfarina isoladamente logo após a suspensão, sem qualquer anticoagulante parenteral."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r3",
+"base": "ASH guidelines on heparin-induced thrombocytopenia, 2018; American Society of Hematology, atualização 2023",
+"coment": "A trombocitopenia induzida por heparina é um estado protrombótico mediado por anticorpos contra o complexo heparina e fator plaquetário 4. Queda superior a cinquenta por cento entre o quinto e o décimo dia com trombose nova é altamente sugestiva. A conduta é suspender toda exposição à heparina e iniciar anticoagulante não heparínico, como argatroban, fondaparinux ou inibidor direto oral. A varfarina isolada é proibida no início, por precipitar gangrena venosa ao reduzir a proteína C.",
+"porAlt": [
+"Correta: suspender toda heparina e anticoagular com alternativa não heparínica, sem esperar sorologia.",
+"Manter a heparina perpetua a trombose, e a transfusão de plaquetas pode agravar o risco trombótico.",
+"A heparina de baixo peso molecular tem reação cruzada com os anticorpos e mantém o processo ativo.",
+"Não anticoagular deixa ativo um estado protrombótico grave, com risco alto de novos eventos.",
+"A varfarina isolada no início pode causar gangrena venosa por queda rápida da proteína C."
+]
+},
+{
+"q": "Homem de 25 anos com anemia hemolítica, icterícia e esplenomegalia. Coombs direto positivo para IgG. Qual é o tratamento inicial?",
+"alts": [
+"Corticoide sistêmico em dose imunossupressora, sempre com investigação de causa secundária.",
+"Esplenectomia imediata, tratamento de primeira linha para anemia hemolítica autoimune quente.",
+"Transfusão de hemácias em alto volume como única medida terapêutica indicada para o quadro.",
+"Reposição de ferro por via oral, que corrige a anemia hemolítica e reduz a icterícia observada.",
+"Plasmaférese, procedimento de escolha para remover os anticorpos quentes já circulantes."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "First International Consensus on autoimmune hemolytic anemia, 2020; British Society for Haematology, 2017",
+"coment": "Coombs direto positivo para IgG caracteriza anemia hemolítica autoimune por anticorpos quentes, cujo tratamento de primeira linha é corticoide, tipicamente prednisona em torno de um miligrama por quilo, com desmame lento após resposta. Rituximabe é alternativa de primeira ou segunda linha em muitos consensos, e a esplenectomia fica para casos refratários. É obrigatório investigar causa secundária: lúpus, leucemia linfocítica crônica, linfoma, infecções e fármacos.",
+"porAlt": [
+"Correta: corticoide é a primeira linha, e a busca de causa secundária faz parte da avaliação inicial.",
+"A esplenectomia é opção para casos refratários, e não o tratamento inicial dessa condição.",
+"A transfusão é suporte quando há anemia sintomática, mas não trata o mecanismo imune da hemólise.",
+"A reposição de ferro não tem papel: na hemólise o ferro é reciclado e os estoques não estão baixos.",
+"A plasmaférese remove mal a IgG extravascular e não é o tratamento padrão dos anticorpos quentes."
+]
+},
+{
+"q": "Paciente com anemia macrocítica, VCM 118 fL, neutrófilos hipersegmentados, parestesias em pés e marcha instável. Qual é a conduta?",
+"alts": [
+"Dosar vitamina B12 e repor precocemente, sempre antes que o dano neurológico se torne irreversível.",
+"Repor apenas ácido fólico, que corrige a macrocitose e resolve o comprometimento neurológico agora.",
+"Transfundir concentrado de hemácias e reavaliar em três meses sem qualquer reposição vitamínica.",
+"Solicitar biópsia de medula óssea antes de iniciar qualquer reposição vitamínica neste paciente.",
+"Iniciar ferro por via endovenosa, tratamento indicado para a macrocitose com hipersegmentação agora."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "BSH guidelines for the diagnosis and treatment of cobalamin and folate disorders, 2014; UpToDate revisão 2024",
+"coment": "Macrocitose com neutrófilos hipersegmentados e sintomas neurológicos aponta deficiência de vitamina B12. O envolvimento neurológico — degeneração combinada subaguda dos cordões posteriores e laterais — é a razão para repor sem demora, pois o dano se torna irreversível se prolongado. Repor apenas folato corrige a anemia e mascara o quadro enquanto a lesão neurológica progride, erro clássico. Investigar a causa inclui anticorpos anti-fator intrínseco, doença ileal e uso de metformina.",
+"porAlt": [
+"Correta: dosar e repor vitamina B12 sem demora, porque o dano neurológico pode ficar irreversível.",
+"Repor apenas folato corrige a anemia e mascara o quadro enquanto o dano neurológico progride.",
+"Transfundir sem repor não trata a causa e permite a progressão do comprometimento neurológico.",
+"A biópsia de medula é desnecessária: a dosagem sérica e o quadro clínico já orientam a conduta.",
+"O ferro não corrige macrocitose e a deficiência de ferro produz o padrão oposto, microcítico."
+]
+},
+{
+"q": "Homem de 55 anos com hematócrito 58%, hemoglobina 19,5 g/dL, plaquetas 520.000/mm³, prurido após banho quente e esplenomegalia. Qual exame é o mais indicado?",
+"alts": [
+"Pesquisa da mutação JAK2 V617F, sempre associada à dosagem de eritropoetina sérica do paciente.",
+"Gasometria arterial isolada, exame que confirma o diagnóstico dessa condição hematológica crônica.",
+"Polissonografia de noite inteira, já primeiro exame indicado para investigar essa eritrocitose.",
+"Dosagem de testosterona sérica total, exame que estabelece a causa da poliglobulia observada.",
+"Ecocardiograma com contraste salino, exame diagnóstico de escolha nesse quadro hematológico."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "OMS — classificação de neoplasias mieloides, 5ª edição, 2022; NCCN Myeloproliferative Neoplasms, 2024",
+"coment": "Eritrocitose com plaquetose, esplenomegalia e prurido aquagênico caracteriza policitemia vera. O critério molecular é a mutação JAK2, presente em mais de noventa e cinco por cento dos casos na forma V617F, e a eritropoetina sérica costuma estar baixa, ao contrário das causas secundárias. O tratamento combina flebotomia com alvo de hematócrito abaixo de quarenta e cinco por cento, ácido acetilsalicílico em dose baixa e citorredução nos pacientes de alto risco.",
+"porAlt": [
+"Correta: pesquisa de JAK2 com eritropoetina sérica é a via diagnóstica dessa neoplasia mieloproliferativa.",
+"A gasometria pode sugerir causa hipoxêmica secundária, mas não confirma a neoplasia clonal.",
+"A polissonografia investiga apneia, causa secundária, e não é o primeiro exame neste quadro.",
+"A testosterona interessa quando há uso de andrógenos, mas não explica prurido nem esplenomegalia.",
+"O ecocardiograma investiga cardiopatia com shunt, hipótese pouco provável diante deste conjunto."
+]
+},
+{
+"q": "Paciente com hemofilia A grave apresenta hemartrose aguda de joelho. Qual é a conduta imediata?",
+"alts": [
+"Repor fator VIII imediatamente, sempre antes de qualquer exame de imagem ser realizado agora.",
+"Realizar punção articular de urgência como primeira medida antes de qualquer reposição de fator.",
+"Prescrever anti-inflamatório não hormonal em dose plena para controlar a dor e a inflamação local.",
+"Solicitar ressonância magnética do joelho antes de decidir sobre a reposição do fator deficiente.",
+"Imobilizar o membro e observar por vinte e quatro horas antes de considerar reposição de fator."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "World Federation of Hemophilia — Guidelines for the Management of Hemophilia, 3ª edição, 2020",
+"coment": "Na hemofilia a regra é tratar primeiro e investigar depois: diante de suspeita de sangramento, o fator deficiente é reposto imediatamente, sem aguardar imagem ou confirmação. Na hemartrose, o alvo habitual é elevar o fator para cerca de cinquenta por cento. Punção articular raramente é necessária e traz risco de sangramento e infecção. Anti-inflamatórios não hormonais são evitados por disfunção plaquetária e risco digestivo; analgesia se faz com paracetamol e opioide se necessário.",
+"porAlt": [
+"Correta: repor o fator deficiente imediatamente, antes de exames, é a regra em sangramento na hemofilia.",
+"A punção articular raramente é necessária e traz risco de sangramento adicional e de infecção.",
+"Anti-inflamatórios não hormonais são evitados por disfunção plaquetária e risco de sangramento digestivo.",
+"A ressonância não deve atrasar a reposição, que é decidida pelo quadro clínico e pela suspeita.",
+"Observar sem repor permite dano articular progressivo e sangramento de difícil controle depois."
+]
+},
+{
+"q": "Mulher de 28 anos, assintomática, com plaquetas de 45.000/mm³, restante do hemograma normal, sem esplenomegalia e sem sangramento. Qual é a conduta?",
+"alts": [
+"Excluir causas secundárias e observar sem tratar, já que não há sangramento nem risco iminente.",
+"Iniciar corticoide em dose alta imediatamente, pois a contagem por si só já indica tratamento.",
+"Transfundir plaquetas profilaticamente para elevar a contagem acima de cem mil por milímetro cúbico.",
+"Indicar esplenectomia precoce, procedimento de primeira linha para essa condição hematológica.",
+"Iniciar imunoglobulina endovenosa em dose alta como primeira medida terapêutica neste caso."
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ASH guidelines for immune thrombocytopenia, 2019; International Consensus Report on ITP, 2019",
+"coment": "Na trombocitopenia imune do adulto, a decisão de tratar depende de sangramento e risco, não apenas da contagem. Pacientes assintomáticos com plaquetas acima de trinta mil por milímetro cúbico são acompanhados sem tratamento na maioria das diretrizes. Antes disso é preciso excluir causas secundárias: hepatite C, HIV, lúpus, Helicobacter pylori, fármacos e pseudotrombocitopenia por EDTA. Quando indicado, o tratamento inicial é corticoide, com imunoglobulina reservada a resposta rápida.",
+"porAlt": [
+"Correta: excluir causas secundárias e observar, pois não há sangramento e a contagem permite acompanhar.",
+"A contagem isolada acima de trinta mil, sem sangramento, não indica tratamento imediato no adulto.",
+"A transfusão profilática de plaquetas não tem indicação e tem rendimento baixo nessa condição.",
+"A esplenectomia é opção de segunda linha em casos refratários, e não conduta inicial aqui.",
+"A imunoglobulina se reserva a sangramento ou necessidade de elevar a contagem com rapidez."
+]
+},
+{
+"q": "Mulher de 42 anos com poliartrite simétrica de mãos há quatro meses, rigidez matinal de duas horas, fator reumatoide e anti-CCP positivos. Qual é a conduta?",
+"alts": [
+"Iniciar metotrexato precocemente, sempre com alvo de remissão e reavaliação a cada três meses.",
+"Prescrever apenas anti-inflamatório não hormonal contínuo e reavaliar somente após doze meses.",
+"Iniciar corticoide isolado em dose baixa por tempo indefinido, já sem qualquer droga modificadora.",
+"Aguardar surgimento de erosões radiográficas antes de iniciar droga modificadora de doença.",
+"Indicar imunobiológico como primeira linha em todos os pacientes com anticorpo anti-CCP positivo."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "EULAR recommendations for the management of rheumatoid arthritis, 2022; ACR guideline, 2021",
+"coment": "Artrite reumatoide diagnosticada deve receber droga modificadora de doença o mais cedo possível, dentro da janela de oportunidade em que o controle muda a história natural. O metotrexato é a âncora do tratamento, salvo contraindicação, associado a corticoide em ponte por curto período. A estratégia é de tratamento por alvo: reavaliar a cada um a três meses e escalonar até remissão ou baixa atividade. Esperar erosão é esperar dano estrutural já instalado.",
+"porAlt": [
+"Correta: metotrexato precoce com estratégia de tratamento por alvo e reavaliação sistemática.",
+"O anti-inflamatório alivia sintomas mas não impede a progressão erosiva nem a incapacidade.",
+"O corticoide isolado prolongado traz toxicidade e não substitui a droga modificadora de doença.",
+"Esperar erosões significa aceitar dano estrutural irreversível antes de tratar adequadamente.",
+"O imunobiológico entra após falha do metotrexato, e não como primeira linha universal."
+]
+},
+{
+"q": "Homem de 30 anos com lombalgia inflamatória há um ano, melhora com exercício, rigidez matinal prolongada e HLA-B27 positivo. Qual é o tratamento inicial?",
+"alts": [
+"Anti-inflamatório não hormonal em dose plena associado sempre a programa regular de exercícios.",
+"Metotrexato em dose alta, já droga de escolha para o acometimento axial dessa espondiloartrite.",
+"Corticoide sistêmico contínuo em dose alta, tratamento de primeira linha da doença axial agora.",
+"Repouso absoluto no leito por quatro semanas, medida que reduz a inflamação axial e a dor agora.",
+"Imunobiológico anti-TNF imediatamente, antes de qualquer tentativa com anti-inflamatório oral."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ASAS-EULAR recommendations for the management of axial spondyloarthritis, 2022",
+"coment": "Na espondiloartrite axial, o tratamento de primeira linha combina anti-inflamatório não hormonal em dose plena com exercício regular e fisioterapia — o exercício é parte do tratamento, não adjuvante. Se houver falha de pelo menos dois anti-inflamatórios em quatro semanas cada, indica-se biológico anti-TNF ou anti-IL-17. Drogas modificadoras sintéticas como metotrexato e sulfassalazina não funcionam na doença axial, servindo apenas ao acometimento periférico.",
+"porAlt": [
+"Correta: anti-inflamatório em dose plena com exercício regular é a primeira linha da doença axial.",
+"O metotrexato não tem eficácia no acometimento axial, servindo apenas à artrite periférica.",
+"O corticoide sistêmico contínuo tem eficácia limitada no eixo e traz toxicidade importante.",
+"O repouso prolongado piora rigidez e perda funcional, ao contrário do exercício regular.",
+"O biológico entra após falha de pelo menos dois anti-inflamatórios usados em dose plena."
+]
+},
+{
+"q": "Mulher de 26 anos com artrite, rash malar, proteinúria de 1,8 g/24h, FAN 1:640 e anti-DNA nativo positivo. Qual é a conduta?",
+"alts": [
+"Biópsia renal para classificar a nefrite e sempre iniciar hidroxicloroquina em todos os casos.",
+"Iniciar apenas anti-inflamatório e reavaliar a proteinúria em seis meses, sem outra intervenção.",
+"Prescrever corticoide em dose baixa isolado, já suficiente para controlar o acometimento renal.",
+"Indicar diálise precoce, conduta padrão diante de proteinúria nessa faixa em paciente jovem.",
+"Solicitar apenas ultrassonografia renal, exame que define a classe histológica da nefrite lúpica."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "EULAR/ERA-EDTA recommendations for lupus nephritis, 2024; EULAR SLE recommendations, 2023",
+"coment": "Proteinúria acima de meio grama por dia em paciente com lúpus indica biópsia renal, que define a classe histológica e determina o tratamento: classes proliferativas III e IV exigem indução com micofenolato ou ciclofosfamida associada a corticoide, enquanto a classe V membranosa tem abordagem distinta. A hidroxicloroquina é recomendada para todos os pacientes com lúpus, salvo contraindicação, por reduzir atividade, dano acumulado e mortalidade.",
+"porAlt": [
+"Correta: biópsia renal define a classe e orienta a indução; a hidroxicloroquina é para todos.",
+"Anti-inflamatório isolado não trata nefrite e o atraso permite perda irreversível de função renal.",
+"O corticoide em dose baixa isolado é insuficiente para induzir remissão de nefrite proliferativa.",
+"A diálise não é conduta inicial: a proteinúria descrita pede diagnóstico histológico e imunossupressão.",
+"A ultrassonografia avalia tamanho e obstrução, mas não determina a classe histológica da nefrite."
+]
+},
+{
+"q": "Homem de 55 anos com monoartrite aguda de primeiro metatarsofalangeano, intensa, com eritema local. Ácido úrico sérico de 5,8 mg/dL. Qual é a conduta?",
+"alts": [
+"Tratar a crise e não excluir gota, pois a uricemia fica normal em um terço dos ataques agudos.",
+"Descartar gota pela uricemia normal e investigar apenas causas infecciosas para essa monoartrite já.",
+"Iniciar alopurinol em dose alta durante a crise para reduzir rapidamente a inflamação articular.",
+"Prescrever apenas repouso e compressa fria, sem qualquer anti-inflamatório ou colchicina oral.",
+"Solicitar radiografia da articulação, exame que confirma o diagnóstico de gota na crise aguda."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "ACR guideline for the management of gout, 2020; EULAR recommendations, 2016 com atualização 2020",
+"coment": "Durante a crise de gota a uricemia pode ser normal ou baixa em até um terço dos casos, de modo que valor normal não exclui o diagnóstico: a dosagem é repetida após duas semanas do episódio. O tratamento da crise usa anti-inflamatório não hormonal, colchicina ou corticoide, com escolha guiada por comorbidades. Alopurinol não é iniciado nem suspenso pela crise em quem já usa; quando iniciado, associa-se profilaxia com colchicina por meses.",
+"porAlt": [
+"Correta: uricemia normal na crise não exclui gota; tratar o ataque e dosar o ácido úrico depois.",
+"Uricemia normal durante o ataque é achado frequente e não permite descartar o diagnóstico de gota.",
+"Iniciar alopurinol durante a crise pode prolongá-la; a redução abrupta mobiliza cristais articulares.",
+"Repouso e frio ajudam, mas o controle da crise exige anti-inflamatório, colchicina ou corticoide.",
+"A radiografia costuma ser normal no primeiro ataque e não confirma o diagnóstico nessa fase."
+]
+},
+{
+"q": "Mulher de 70 anos com cefaleia temporal nova, claudicação de mandíbula, VHS de 96 mm/h e amaurose transitória. Qual é a conduta imediata?",
+"alts": [
+"Corticoide em dose alta imediatamente, sempre antes da realização da biópsia de artéria temporal.",
+"Aguardar o resultado da biópsia da artéria temporal antes de iniciar qualquer corticoterapia.",
+"Prescrever apenas analgésico comum e reavaliar em duas semanas com nova dosagem de provas inflamatórias.",
+"Iniciar antiagregante isolado, já medida suficiente para prevenir a perda visual definitiva no quadro.",
+"Solicitar ressonância de crânio e adiar o tratamento até a exclusão de causa estrutural intracraniana."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ACR/VF guideline for the management of giant cell arteritis, 2021; EULAR recommendations, 2018",
+"coment": "Arterite de células gigantes com sintoma visual é emergência: o corticoide em dose alta é iniciado imediatamente, geralmente com pulso endovenoso quando há amaurose, porque a perda visual pode se tornar permanente em horas e frequentemente é bilateral se não tratada. A biópsia de artéria temporal permanece útil e continua positiva por cerca de duas semanas após o início do corticoide, de modo que o tratamento nunca é adiado à espera do exame.",
+"porAlt": [
+"Correta: corticoide em dose alta imediato, sem esperar a biópsia, pela ameaça de cegueira irreversível.",
+"Adiar o corticoide pela biópsia arrisca perda visual permanente, que pode ocorrer em poucas horas.",
+"Analgésico comum não trata a vasculite e a demora de duas semanas permite a instalação da cegueira.",
+"O antiagregante é adjuvante em alguns casos, mas não substitui a corticoterapia em dose alta.",
+"A imagem pode ser complementar, mas não deve atrasar o tratamento diante de sintoma visual."
+]
+},
+{
+"q": "Paciente de 62 anos com dor e rigidez em cinturas escapular e pélvica há dois meses, VHS elevada, sem fraqueza muscular objetiva e com CPK normal. Qual é o diagnóstico mais provável?",
+"alts": [
+"Polimialgia reumática, que responde sempre de forma rápida a corticoide em dose baixa oral.",
+"Polimiosite, doença que cursa com fraqueza proximal objetiva e elevação importante da CPK.",
+"Fibromialgia, condição que cursa com provas inflamatórias elevadas e rigidez matinal prolongada.",
+"Miopatia por estatina, que cursa com CPK normal e resposta rápida ao corticoide em dose baixa.",
+"Artrite reumatoide de início tardio, que cursa sempre com dor limitada às cinturas, sem sinovite."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "EULAR/ACR recommendations for the management of polymyalgia rheumatica, 2015; revisão ACR 2023",
+"coment": "Polimialgia reumática afeta pessoas acima de cinquenta anos com dor e rigidez de cinturas, provas inflamatórias elevadas, ausência de fraqueza objetiva e CPK normal — a queixa é de dor limitando o movimento, não de perda de força. A resposta a prednisona em dose baixa, tipicamente de doze a vinte e cinco miligramas ao dia, é rápida e dramática, e a ausência dessa resposta obriga a reconsiderar o diagnóstico. É obrigatório procurar arterite de células gigantes associada.",
+"porAlt": [
+"Correta: dor de cinturas com provas inflamatórias altas e CPK normal, com resposta rápida a corticoide.",
+"A polimiosite cursa com fraqueza proximal objetiva e CPK elevada, ausentes neste quadro clínico.",
+"A fibromialgia cursa com provas inflamatórias normais, o que não corresponde à VHS elevada aqui.",
+"A miopatia por estatina cursa com CPK elevada e melhora com a suspensão da droga, não com corticoide.",
+"A artrite reumatoide de início tardio cursa com sinovite periférica, que não está descrita neste caso."
+]
+},
+{
+"q": "Mulher de 38 anos com fenômeno de Raynaud, esclerodactilia e dispneia progressiva. Qual exame deve ser solicitado para rastreio da complicação de maior mortalidade?",
+"alts": [
+"Ecocardiograma com estimativa de pressão pulmonar e sempre tomografia de tórax de alta resolução.",
+"Radiografia simples de tórax isolada, exame suficiente para rastrear a complicação de maior gravidade.",
+"Espirometria isolada sem difusão, exame que detecta precocemente o acometimento pulmonar difuso.",
+"Cintilografia de perfusão miocárdica, exame indicado para rastrear a principal causa de óbito.",
+"Endoscopia digestiva alta, exame que rastreia a complicação de maior mortalidade nessa doença."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "EULAR recommendations for the treatment of systemic sclerosis, atualização 2024; ACR/CHEST ILD guideline, 2023",
+"coment": "Na esclerose sistêmica, o pulmão responde pela maior parte da mortalidade, por doença intersticial e por hipertensão arterial pulmonar. O rastreio combina tomografia de alta resolução, prova de função pulmonar com difusão de monóxido de carbono e ecocardiograma anual com estimativa de pressão sistólica de artéria pulmonar; suspeita ecocardiográfica é confirmada por cateterismo direito. Queda isolada da difusão pode ser o primeiro sinal de hipertensão pulmonar.",
+"porAlt": [
+"Correta: ecocardiograma com estimativa de pressão pulmonar e tomografia de alta resolução do tórax.",
+"A radiografia simples é pouco sensível e perde doença intersticial em fase inicial e tratável.",
+"A espirometria sem difusão perde justamente o parâmetro mais sensível ao acometimento vascular.",
+"A cintilografia miocárdica não rastreia doença intersticial nem hipertensão arterial pulmonar.",
+"A endoscopia avalia o esôfago, acometido com frequência, mas não a principal causa de óbito."
+]
+},
+{
+"q": "Homem de 45 anos com artrite de joelho, uretrite e conjuntivite há três semanas após quadro diarreico. Qual é o diagnóstico mais provável?",
+"alts": [
+"Artrite reativa, que responde sempre a anti-inflamatório e tem curso autolimitado e breve.",
+"Artrite séptica de joelho, que cursa com uretrite e conjuntivite associadas ao quadro articular.",
+"Gota poliarticular aguda, que se manifesta com uretrite e conjuntivite após episódio diarreico.",
+"Osteoartrite de joelho descompensada, já que cursa com conjuntivite e uretrite concomitantes.",
+"Febre reumática do adulto, que cursa com uretrite e conjuntivite após episódio de diarreia aguda."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "ACR/EULAR — abordagem das espondiloartrites, revisão 2022; Manual MSD revisão 2024",
+"coment": "A tríade de artrite, uretrite e conjuntivite após infecção entérica ou geniturinária caracteriza artrite reativa, espondiloartrite associada ao HLA-B27. Os agentes clássicos são Chlamydia, Salmonella, Shigella, Yersinia e Campylobacter. O tratamento é sintomático com anti-inflamatório não hormonal; antibiótico só se houver infecção ativa documentada, sobretudo clamídia. A maioria resolve em três a doze meses, e casos persistentes recebem sulfassalazina.",
+"porAlt": [
+"Correta: artrite, uretrite e conjuntivite após infecção entérica configuram artrite reativa.",
+"A artrite séptica é monoarticular com febre e derrame purulento, sem uretrite e conjuntivite.",
+"A gota não cursa com uretrite nem conjuntivite e não guarda relação com quadro diarreico prévio.",
+"A osteoartrite é degenerativa e não produz manifestações oculares nem geniturinárias associadas.",
+"A febre reumática cursa com faringite estreptocócica prévia e cardite, não com essa tríade."
+]
+},
+{
+"q": "Paciente com lúpus em uso de hidroxicloroquina há oito anos. Qual rastreio de toxicidade é obrigatório?",
+"alts": [
+"Avaliação oftalmológica anual com campimetria e tomografia de coerência óptica, sempre programada.",
+"Ecocardiograma semestral, exame que rastreia a toxicidade mais frequente dessa medicação crônica.",
+"Densitometria óssea anual, exame que detecta o principal efeito adverso do uso prolongado da droga.",
+"Colonoscopia a cada dois anos, rastreio indicado pelo risco digestivo do uso crônico do fármaco.",
+"Espirometria anual com difusão, exame indicado para detectar a toxicidade pulmonar da droga agora."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "American Academy of Ophthalmology — Recommendations on Screening for Chloroquine and Hydroxychloroquine Retinopathy, revisão 2024",
+"coment": "A retinopatia é a toxicidade que define o seguimento da hidroxicloroquina. Recomenda-se avaliação basal no primeiro ano e rastreio anual a partir do quinto ano de uso, ou mais cedo se houver fatores de risco como dose acima de cinco miligramas por quilo de peso real, doença renal crônica, uso de tamoxifeno ou retinopatia prévia. Os exames de escolha são campo visual automatizado e tomografia de coerência óptica de domínio espectral.",
+"porAlt": [
+"Correta: rastreio oftalmológico anual com campimetria e tomografia de coerência óptica após cinco anos.",
+"A cardiomiopatia é complicação rara e não define o rastreio de rotina desta medicação.",
+"A hidroxicloroquina não causa perda óssea; a densitometria se justifica pelo corticoide associado.",
+"Não há indicação de rastreio colonoscópico relacionado ao uso crônico da hidroxicloroquina.",
+"A toxicidade pulmonar não é efeito característico da droga e não motiva espirometria anual."
+]
+},
+{
+"q": "Mulher de 33 anos com xerostomia e xeroftalmia há um ano, com anti-Ro positivo. Qual é a complicação que deve ser sistematicamente rastreada ao longo do seguimento?",
+"alts": [
+"Linfoma de células B, complicação que exige sempre atenção a aumento persistente de parótida.",
+"Cirrose hepática por acometimento direto do parênquima, complicação mais temida dessa doença.",
+"Estenose mitral reumática, complicação tardia que exige ecocardiograma anual nesses pacientes.",
+"Retinopatia proliferativa, complicação ocular específica associada à positividade do anticorpo.",
+"Insuficiência adrenal primária, complicação endócrina rastreada anualmente por cortisol basal."
+],
+"gab": 0,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "EULAR recommendations for the management of Sjögren's syndrome, 2020; ACR/EULAR classification criteria, 2016",
+"coment": "A síndrome de Sjögren tem risco de linfoma não Hodgkin de células B, sobretudo do tipo MALT de parótida, várias vezes maior que o da população geral. Os sinais de alerta são aumento persistente de parótida, linfonodomegalia, púrpura, crioglobulinemia, consumo de complemento com queda de C4, gamopatia monoclonal e linfopenia. Esses achados exigem investigação com imagem e biópsia, e o acompanhamento inclui procurá-los ativamente a cada consulta.",
+"porAlt": [
+"Correta: linfoma de células B, com aumento persistente de parótida e queda de C4 como alertas.",
+"O acometimento hepático existe na forma de colangite biliar associada, mas não é a principal preocupação.",
+"Não há relação estabelecida entre a síndrome de Sjögren e valvopatia reumática do coração.",
+"A retinopatia proliferativa não faz parte do espectro; o olho sofre por ceratoconjuntivite seca.",
+"A insuficiência adrenal não integra as complicações características desta doença autoimune."
+]
+},
+{
+"q": "Homem de 82 anos internado por pneumonia apresenta desatenção flutuante, desorganização do pensamento e alteração do nível de consciência iniciadas há um dia. Qual é a conduta inicial?",
+"alts": [
+"Buscar sempre causas do delirium e aplicar medidas não farmacológicas antes de qualquer sedativo.",
+"Iniciar haloperidol em dose alta imediatamente, já medida de primeira linha para todo caso de delirium.",
+"Prescrever benzodiazepínico de meia-vida longa para restaurar o ciclo de sono do paciente idoso.",
+"Contenção física precoce, medida que reduz o tempo de delirium e previne complicações no idoso.",
+"Solicitar tomografia de crânio em todos os casos antes de qualquer investigação de causa clínica."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r2",
+"base": "NICE guideline CG103 — Delirium, atualização 2023; American Geriatrics Society, revisão 2023",
+"coment": "Delirium é disfunção cerebral aguda com causa quase sempre identificável: infecção, dor, retenção urinária, constipação, distúrbio hidroeletrolítico, hipoxemia, abstinência e fármacos, sobretudo anticolinérgicos, benzodiazepínicos e opioides. A abordagem começa por tratar a causa e aplicar medidas não farmacológicas: reorientação, presença de familiar, mobilização precoce, óculos e aparelho auditivo, higiene do sono e retirada de cateteres. Antipsicótico se reserva a agitação com risco.",
+"porAlt": [
+"Correta: identificar e tratar a causa, com medidas não farmacológicas antes de qualquer sedativo.",
+"O antipsicótico não é primeira linha e se limita a agitação com risco ao paciente ou a terceiros.",
+"O benzodiazepínico precipita e prolonga delirium, exceto na abstinência alcoólica documentada.",
+"A contenção física aumenta agitação, lesão e tempo de delirium, sendo medida de último recurso.",
+"A tomografia se reserva a trauma, sinal focal ou ausência de causa clínica após avaliação."
+]
+},
+{
+"q": "Mulher de 78 anos com duas quedas nos últimos seis meses. Qual é a avaliação inicial mais adequada?",
+"alts": [
+"Avaliação multifatorial com revisão de medicamentos e teste sempre padronizado de marcha e equilíbrio.",
+"Solicitar apenas tomografia de crânio e liberar o acompanhamento clínico se o exame for normal agora.",
+"Prescrever restrição de deambulação e uso de cadeira de rodas para prevenir novas quedas em casa.",
+"Iniciar apenas suplementação de cálcio, medida isolada capaz de reduzir a recorrência das quedas.",
+"Solicitar apenas densitometria óssea, exame que identifica a causa das quedas nessa faixa etária."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "World Falls Guidelines, 2022; USPSTF recommendation on falls prevention, 2024",
+"coment": "Duas ou mais quedas no ano, ou uma queda com lesão, indicam avaliação multifatorial: revisão de medicamentos que aumentam risco, avaliação de marcha e equilíbrio com testes padronizados, força muscular, visão, hipotensão postural, cognição, calçado, ambiente domiciliar e vitamina D. A intervenção com melhor evidência é exercício estruturado com componente de equilíbrio e força. Restringir a marcha piora sarcopenia e aumenta o risco de novas quedas.",
+"porAlt": [
+"Correta: avaliação multifatorial com revisão de medicamentos e testes de marcha e equilíbrio.",
+"A tomografia normal não afasta as causas tratáveis de queda nem substitui a avaliação funcional.",
+"Restringir a deambulação acelera sarcopenia e descondicionamento, aumentando o risco de quedas.",
+"O cálcio isolado não reduz quedas; a intervenção com melhor evidência é o exercício estruturado.",
+"A densitometria estima risco de fratura, mas não identifica a causa das quedas do paciente."
+]
+},
+{
+"q": "Paciente de 85 anos em uso de nove medicamentos, com sonolência e tontura. Qual instrumento orienta a revisão da prescrição?",
+"alts": [
+"Critérios de Beers e STOPP/START, aplicados sempre com desprescrição gradual e monitorada agora.",
+"Escala de coma de Glasgow seriada, já instrumento que orienta a retirada de medicamentos inadequados.",
+"Índice tornozelo-braquial, medida que define quais fármacos devem ser suspensos nesse paciente.",
+"Escore de Framingham, ferramenta desenhada para orientar a desprescrição no paciente idoso frágil.",
+"Escala de Braden aplicada semanalmente, instrumento que orienta a revisão da lista de medicamentos."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "AGS Beers Criteria, atualização 2023; STOPP/START version 3, 2023",
+"coment": "Polifarmácia com sintomas sugestivos de efeito adverso pede revisão sistemática. Os critérios de Beers listam medicamentos potencialmente inapropriados no idoso — benzodiazepínicos, anticolinérgicos, anti-inflamatórios, sulfonilureias de longa ação — e o STOPP/START acrescenta o outro lado, os medicamentos indicados que faltam. A desprescrição é gradual, um fármaco por vez, com pactuação e monitoramento de sintomas de retirada e de retorno da condição tratada.",
+"porAlt": [
+"Correta: Beers e STOPP/START orientam a identificação de fármacos inapropriados e a desprescrição.",
+"A escala de Glasgow avalia nível de consciência e não tem relação com revisão de prescrição.",
+"O índice tornozelo-braquial avalia doença arterial periférica, sem relação com a polifarmácia.",
+"O escore de Framingham estima risco cardiovascular e não orienta retirada de medicamentos.",
+"A escala de Braden estima risco de lesão por pressão, sem relação com revisão farmacológica."
+]
+},
+{
+"q": "Homem de 80 anos com perda de peso não intencional, fraqueza, lentidão da marcha, baixa atividade física e exaustão. Qual é a interpretação correta?",
+"alts": [
+"Fragilidade pelo fenótipo de Fried, que indica sempre intervenção com exercício e suporte nutricional.",
+"Depressão maior isolada, diagnóstico que explica integralmente os cinco componentes descritos aqui.",
+"Envelhecimento fisiológico normal, sem qualquer indicação de intervenção clínica ou nutricional agora.",
+"Demência em fase inicial, condição definida pelos cinco critérios descritos no enunciado do caso.",
+"Insuficiência cardíaca descompensada, diagnóstico definido por esse conjunto de cinco achados agora."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Fried frailty phenotype; ICFSR international clinical practice guidelines for identification and management of frailty, 2019; revisão 2023",
+"coment": "O fenótipo de fragilidade de Fried tem cinco componentes: perda de peso não intencional, exaustão autorrelatada, fraqueza medida pela força de preensão, lentidão da marcha e baixo nível de atividade física. Três ou mais definem fragilidade, e um ou dois definem pré-fragilidade. A intervenção com melhor evidência é exercício resistido progressivo associado a aporte proteico adequado, além de revisão de medicamentos e busca de causas reversíveis.",
+"porAlt": [
+"Correta: o conjunto descreve o fenótipo de fragilidade, que indica exercício e suporte nutricional.",
+"A depressão pode coexistir e deve ser rastreada, mas não define os cinco componentes descritos.",
+"Fragilidade não é envelhecimento normal: é síndrome com prognóstico próprio e tratamento definido.",
+"A demência é definida por declínio cognitivo com perda funcional, e não pelos critérios descritos.",
+"A insuficiência cardíaca exige achados cardiovasculares que não estão descritos neste enunciado."
+]
+},
+{
+"q": "Mulher de 76 anos com incontinência urinária de urgência, sem infecção e sem resíduo pós-miccional elevado. Qual é o tratamento inicial?",
+"alts": [
+"Terapia comportamental com treinamento vesical e exercícios sempre orientados de assoalho pélvico.",
+"Iniciar oxibutinina em dose alta como primeira linha, por sua eficácia no idoso com incontinência.",
+"Indicar sondagem vesical de demora para conforto e controle definitivo dos episódios de perda.",
+"Encaminhar para cirurgia de sling suburetral, tratamento de escolha da incontinência de urgência.",
+"Restringir a ingestão hídrica a meio litro por dia, medida inicial recomendada para essa condição."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "EAU Guidelines on Urinary Incontinence, 2024; AUA/SUFU guideline on overactive bladder, 2024",
+"coment": "A incontinência de urgência é tratada inicialmente com medidas comportamentais: treinamento vesical com micções programadas, exercícios de assoalho pélvico, controle de cafeína e álcool, ajuste de diuréticos e tratamento de constipação. Se houver falha, prefere-se mirabegrona no idoso, porque antimuscarínicos como a oxibutinina têm carga anticolinérgica associada a confusão, retenção e declínio cognitivo. Sling trata incontinência de esforço, não de urgência.",
+"porAlt": [
+"Correta: terapia comportamental com treinamento vesical e exercícios de assoalho pélvico é a primeira linha.",
+"A oxibutinina tem alta carga anticolinérgica e é evitada no idoso pelo risco cognitivo e de retenção.",
+"A sonda de demora aumenta infecção e não é medida de conforto para incontinência sem retenção.",
+"O sling suburetral trata incontinência de esforço, e não a incontinência de urgência descrita.",
+"A restrição hídrica extrema causa desidratação e concentra a urina, agravando a urgência miccional."
+]
+},
+{
+"q": "Paciente de 79 anos com queixa de esquecimento progressivo há dois anos, com prejuízo para gerenciar as próprias finanças e medicações. Qual é a conduta inicial?",
+"alts": [
+"Avaliar cognição e funcionalidade, sempre excluindo causas reversíveis com exames laboratoriais.",
+"Iniciar inibidor de colinesterase imediatamente, sem qualquer investigação complementar prévia.",
+"Atribuir o quadro ao envelhecimento normal e reavaliar somente após cinco anos de seguimento.",
+"Solicitar apenas tomografia de crânio, exame que estabelece isoladamente o diagnóstico etiológico.",
+"Prescrever antipsicótico em dose baixa, medida inicial recomendada para o declínio cognitivo descrito."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "NICE guideline NG97 — Dementia, atualização 2023; Academia Brasileira de Neurologia, 2022",
+"coment": "Declínio cognitivo com perda de funcionalidade caracteriza demência e exige avaliação estruturada: testes cognitivos e de funcionalidade, história com informante, exame neurológico e busca de causas reversíveis com hemograma, função renal e hepática, cálcio, TSH, vitamina B12, sorologias e neuroimagem estrutural. Só após caracterizar o quadro se define a etiologia e o tratamento, que inclui inibidor de colinesterase quando a doença de Alzheimer é provável.",
+"porAlt": [
+"Correta: avaliar cognição e funcionalidade e excluir causas reversíveis antes de definir a etiologia.",
+"Tratar sem investigar arrisca perder causa reversível, como hipotireoidismo ou deficiência de B12.",
+"O declínio com perda funcional não é envelhecimento normal e não deve ser apenas observado.",
+"A neuroimagem complementa a avaliação, mas isolada não estabelece o diagnóstico etiológico.",
+"O antipsicótico não trata declínio cognitivo e aumenta mortalidade em pacientes com demência."
+]
+},
+{
+"q": "Homem de 84 anos, acamado, com lesão em região sacral de espessura parcial e leito rosado. Qual é a medida mais eficaz para evitar progressão?",
+"alts": [
+"Reposicionamento programado com superfície de redistribuição e sempre otimização do aporte proteico.",
+"Aplicar calor local seco intermitente, medida que acelera a cicatrização de lesões por pressão.",
+"Manter a lesão exposta ao ar e sem cobertura, conduta que favorece a epitelização mais rápida agora.",
+"Iniciar antibiótico sistêmico de amplo espectro em todos os casos de lesão por pressão superficial.",
+"Realizar desbridamento cirúrgico amplo imediato, conduta indicada para lesão de espessura parcial."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "r1",
+"base": "EPUAP/NPIAP/PPPIA — Prevention and Treatment of Pressure Ulcers, 3ª edição, 2019, com revisão 2023",
+"coment": "Lesão por pressão estágio dois, de espessura parcial, é prevenida e tratada por alívio da pressão: reposicionamento programado, superfície de redistribuição, proteção da pele com hidratação e barreira, manejo da umidade e aporte nutricional adequado, com atenção especial à ingestão de proteína e calorias. A cobertura mantém o meio úmido e protege. Antibiótico sistêmico só se houver infecção clínica, e desbridamento se houver tecido desvitalizado.",
+"porAlt": [
+"Correta: alívio da pressão com reposicionamento, superfície adequada e aporte nutricional otimizado.",
+"O calor local não acelera cicatrização e pode aumentar a demanda metabólica do tecido lesado.",
+"A exposição ao ar resseca o leito da ferida; o meio úmido controlado favorece a epitelização.",
+"Antibiótico sistêmico sem sinais de infecção seleciona resistência e não acelera a cicatrização.",
+"O desbridamento é indicado quando há tecido desvitalizado, ausente na lesão de espessura parcial."
+]
+},
+{
+"q": "Mulher de 74 anos com hipertensão, sem outras comorbidades, funcionalmente independente. Qual é o alvo pressórico recomendado?",
+"alts": [
+"Alvo abaixo de 130 por 80 mmHg, buscado sempre com titulação gradual e atenção à hipotensão postural.",
+"Alvo abaixo de 160 por 100 mmHg, por não haver benefício em reduzir mais nessa faixa etária agora.",
+"Alvo abaixo de 110 por 60 mmHg, com titulação rápida para reduzir o risco cardiovascular residual.",
+"Nenhum alvo específico, pois a pressão não deve ser tratada em pacientes acima dos setenta anos.",
+"Alvo definido apenas pela pressão de pulso isolada, sem considerar valores sistólico e diastólico."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; ESC guidelines for hypertension, 2024",
+"coment": "O idoso funcionalmente independente se beneficia do mesmo alvo dos demais adultos, abaixo de 130 por 80 mmHg, com base em ensaios que mostraram redução de eventos e de mortalidade com controle mais estrito. O que muda é a forma: titulação gradual, medida de pressão em pé para detectar hipotensão postural, atenção a quedas, função renal e eletrólitos. No idoso frágil ou com expectativa de vida limitada o alvo é individualizado, com metas menos rígidas.",
+"porAlt": [
+"Correta: alvo abaixo de 130 por 80 mmHg com titulação gradual e vigilância de hipotensão postural.",
+"Alvo de 160 por 100 mmHg deixa risco cardiovascular evitável sem tratamento adequado.",
+"Alvo de 110 por 60 mmHg aumenta hipotensão, quedas e piora da perfusão em órgãos-alvo.",
+"A hipertensão tratada no idoso reduz acidente vascular cerebral, insuficiência cardíaca e óbito.",
+"A pressão de pulso é marcador de rigidez arterial, mas não substitui as metas sistólica e diastólica."
+]
+},
+{
+"q": "Paciente de 88 anos com múltiplas comorbidades e expectativa de vida estimada em menos de dois anos. Qual é a conduta quanto ao rastreio de câncer colorretal?",
+"alts": [
+"Suspender o rastreio, pois o benefício aparece sempre depois de dez anos de seguimento estimado.",
+"Manter colonoscopia a cada cinco anos independentemente da expectativa de vida do paciente idoso já.",
+"Substituir a colonoscopia por tomografia anual de abdome como rastreio nessa faixa de idade já.",
+"Realizar colonoscopia anual, estratégia recomendada para compensar a idade avançada do paciente.",
+"Manter o rastreio até os cem anos de idade em todos os pacientes, independentemente do prognóstico."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "USPSTF colorectal cancer screening, 2021; ACS guideline, atualização 2024",
+"coment": "O rastreio de câncer colorretal produz benefício com defasagem de aproximadamente dez anos entre o exame e a redução de mortalidade, enquanto o dano — preparo, sedação, perfuração, achados incidentais — é imediato. Em expectativa de vida inferior a esse intervalo, o rastreio causa mais dano que benefício. As diretrizes recomendam individualizar entre setenta e seis e oitenta e cinco anos e não rastrear acima disso, considerando expectativa e preferência.",
+"porAlt": [
+"Correta: suspender o rastreio, pois o benefício só aparece após cerca de dez anos de seguimento.",
+"Manter o rastreio sem considerar prognóstico expõe a dano imediato sem benefício alcançável.",
+"A tomografia de abdome não é método de rastreio de câncer colorretal em nenhuma diretriz atual.",
+"A colonoscopia anual não é intervalo de rastreio e multiplica os riscos do procedimento.",
+"Não há recomendação de rastrear até os cem anos; acima de oitenta e cinco não se rastreia."
+]
+},
+{
+"q": "Homem de 81 anos com hipotensão postural sintomática. Qual é a primeira medida?",
+"alts": [
+"Revisar e reduzir fármacos hipotensores, sempre associando medidas não farmacológicas de suporte.",
+"Iniciar fludrocortisona imediatamente em todos os casos, já antes de revisar a lista de medicamentos.",
+"Restringir sal e água na dieta, medida inicial recomendada para o controle da hipotensão postural.",
+"Prescrever repouso no leito por duas semanas, conduta que corrige a instabilidade hemodinâmica.",
+"Iniciar betabloqueador em dose baixa, medida que já reduz a queda pressórica na posição em pé."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "American Autonomic Society/AAN consensus on orthostatic hypotension, revisão 2023; AGS Beers Criteria, 2023",
+"coment": "A hipotensão postural no idoso é frequentemente iatrogênica: anti-hipertensivos, alfabloqueadores, nitratos, antidepressivos tricíclicos, antipsicóticos e diuréticos. A primeira medida é revisar e reduzir esses fármacos. Seguem-se medidas não farmacológicas: levantar em etapas, hidratação adequada, aumento da ingestão de sal quando não contraindicado, meia de compressão, elevação da cabeceira e manobras de contrapressão. Fludrocortisona e midodrina ficam para refratários.",
+"porAlt": [
+"Correta: revisar e reduzir os fármacos hipotensores, associando medidas não farmacológicas de suporte.",
+"A fludrocortisona é reservada a casos refratários, após revisão de medicamentos e medidas gerais.",
+"Restringir sal e água agrava a hipotensão; o recomendado é aumentar a ingestão, se possível.",
+"O repouso prolongado piora o descondicionamento e agrava a intolerância à posição ortostática.",
+"O betabloqueador não corrige hipotensão postural e pode reduzir ainda mais o débito cardíaco."
+]
 }
 ];
