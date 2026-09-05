@@ -62,6 +62,8 @@ def main():
     duros, avisos = [], []
     chaves = {}
     correta_mais_longa = 0
+    reais_total = 0
+    reais_correta_mais_longa = 0
     folgas, dist_gab = [], {}
     por_tema  = {t["id"]: 0 for t in tax}
     por_cen   = {c: 0 for c in cen}
@@ -77,8 +79,13 @@ def main():
         if faltou: continue
 
         alts, gab = q["alts"], q["gab"]
-        if not isinstance(alts, list) or len(alts) != 5:
-            duros.append(f"{rot}: a prova TECM tem 5 alternativas — achei {len(alts) if isinstance(alts,list) else '?'}"); continue
+        # Questao de prova REAL (tem `fonte`) pode ter 4 alternativas — Revalida e ENARE usam 4.
+        # Questao autoral segue o formato da prova TECM, com 5.
+        real = isinstance(q.get("fonte"), dict)
+        permitidos = (4, 5) if real else (5,)
+        if not isinstance(alts, list) or len(alts) not in permitidos:
+            esperado = "4 ou 5 (prova real)" if real else "5 (autoral, formato TECM)"
+            duros.append(f"{rot}: esperado {esperado} alternativas — achei {len(alts) if isinstance(alts,list) else '?'}"); continue
         if not isinstance(gab, int) or not (0 <= gab < len(alts)):
             duros.append(f"{rot}: gab fora do range"); continue
         if q["tema"] not in temas:   duros.append(f"{rot}: tema '{q['tema']}' não existe na taxonomia")
@@ -108,14 +115,27 @@ def main():
         for j, a in enumerate(alts):
             if PREFIXO.match(a): duros.append(f"{rot} alt {j}: prefixo de letra dentro do texto")
         Lc = len(alts[gab])
-        for j, a in enumerate(alts):
-            r = len(a) / Lc
-            if not (0.95 <= r <= 1.08):
-                duros.append(f"{rot} alt {j}: comprimento {len(a)} = {r*100:.0f}% da correta ({Lc}) — fora de 95–108%")
         outras = [len(a) for j, a in enumerate(alts) if j != gab]
+
+        # ---------------------------------------------------------------
+        # As regras abaixo (comprimento, termos absolutos, cautela, acento)
+        # policiam vicio de ESCRITA AUTORAL. Elas NAO se aplicam a questao de
+        # prova real: o texto da banca e um fato historico, e reescrever uma
+        # alternativa oficial para caber em 95-108% falsificaria a questao e
+        # destruiria justamente o que a torna util — treinar no enunciado que
+        # a banca escreveu, com os tells que a banca teve. O vies de tamanho
+        # das questoes reais e medido e reportado, nao corrigido.
+        # ---------------------------------------------------------------
+        if not real:
+            for j, a in enumerate(alts):
+                r = len(a) / Lc
+                if not (0.95 <= r <= 1.08):
+                    duros.append(f"{rot} alt {j}: comprimento {len(a)} = {r*100:.0f}% da correta ({Lc}) — fora de 95–108%")
         if Lc > max(outras):
             correta_mais_longa += 1
             folgas.append((Lc - max(outras)) / max(outras) * 100)
+            if real: reais_correta_mais_longa += 1
+        if real: reais_total += 1
 
         # Limiar 3, não 2: medido no banco de 107 questões, o padrão "2 distratores com absoluto e
         # correta sem" ocorre em 23 questões mas ainda deixa 2 outras alternativas sem absoluto —
@@ -123,9 +143,9 @@ def main():
         # de 3 distratores, quando sobra praticamente uma escolha. Distrator errado POR restringir
         # demais ("tratar apenas com X") é conteúdo, não vício de escrita.
         abs_err = sum(1 for j, a in enumerate(alts) if j != gab and ABSOLUTOS.search(a))
-        if abs_err >= 3 and not ABSOLUTOS.search(alts[gab]):
+        if not real and abs_err >= 3 and not ABSOLUTOS.search(alts[gab]):
             avisos.append(f"{rot}: termos absolutos concentrados nos distratores ({abs_err} de 4)")
-        if CAUTELA.search(alts[gab]) and not any(CAUTELA.search(a) for j, a in enumerate(alts) if j != gab):
+        if not real and CAUTELA.search(alts[gab]) and not any(CAUTELA.search(a) for j, a in enumerate(alts) if j != gab):
             avisos.append(f"{rot}: linguagem cautelosa só na correta")
         tem_acento = lambda s: bool(re.search(r"[àáâãéêíóôõúç]", s, re.I))
         if tem_acento(alts[gab]):
@@ -144,6 +164,12 @@ def main():
     if n:
         pct = correta_mais_longa / n * 100
         print(f"— Correta é a mais longa: {correta_mais_longa}/{n} = {pct:.1f}% (após igualar tamanhos, ~55% é normal; 80% é o vício de IA)")
+        if reais_total:
+            aut = n - reais_total
+            aut_longa = correta_mais_longa - reais_correta_mais_longa
+            print(f"   ↳ autorais: {aut_longa}/{aut} = {aut_longa/aut*100:.1f}%  |  provas reais: "
+                  f"{reais_correta_mais_longa}/{reais_total} = {reais_correta_mais_longa/reais_total*100:.1f}% "
+                  f"(medido, não corrigido — o texto da banca não se reescreve)")
         if folgas:
             print(f"— Folga da correta sobre a 2ª maior: mediana {statistics.median(folgas):.1f}% | máx {max(folgas):.1f}% (alvo mediana <=6%)")
         print("— Gabarito: " + ", ".join(f"{chr(65+k)}:{v}" for k, v in sorted(dist_gab.items())))

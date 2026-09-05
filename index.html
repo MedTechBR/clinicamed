@@ -167,12 +167,12 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 </main>
 <div class="faixas" id="faixas"></div>
 
-<script src="taxonomia.js?v=28"></script>
-<script src="provas.js?v=28"></script>
-<script src="banco.js?v=28"></script>
-<script src="flash.js?v=28"></script>
-<script src="pratica.js?v=28"></script>
-<script src="leituras.js?v=28"></script>
+<script src="taxonomia.js?v=29"></script>
+<script src="provas.js?v=29"></script>
+<script src="banco.js?v=29"></script>
+<script src="flash.js?v=29"></script>
+<script src="pratica.js?v=29"></script>
+<script src="leituras.js?v=29"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -536,11 +536,6 @@ function pintaCartaoQuestao(q,l,i){
   alvo.innerHTML=`
   <div class="cx">
    <div class="linha" style="gap:6px">
-    <span class="pilula b">${esc(t.nome||q.tema)}</span>
-    <span class="pilula">${esc(NCEN[q.cenario]||"")}</span>
-    <span class="pilula">${esc(NCOMP[q.comp]||"")}</span>
-    <span class="pilula">${esc((NNIV[q.nivel]||"").split("—")[0].trim())}</span>
-    ${q.fonte?`<span class="pilula">${esc(q.fonte.banca)} ${esc(String(q.fonte.ano))}</span>`:`<span class="pilula">autoral</span>`}
     <button class="bt sec mini" id="btFav" style="margin-left:auto">${ST.fav[q._ch]?"★ marcada":"☆ marcar"}</button>
    </div>
    <p class="enun">${esc(q.q)}</p>
@@ -573,6 +568,12 @@ function responde(q,j,l,i){
    <div class="coment">
     <b>${ok?"Correta.":"Resposta correta: "+LETRAS[q.gab]+"."}</b> ${esc(q.coment)}
     <div class="base">Âncora: ${esc(q.base)}</div>
+    <div class="linha" style="gap:6px;margin-top:10px">
+     <span class="pilula b">${esc(NOME[q.tema]||q.tema)}</span>
+     <span class="pilula">${esc(NCEN[q.cenario]||"")}</span>
+     <span class="pilula">${esc(NCOMP[q.comp]||"")}</span>
+     ${q.fonte?`<span class="pilula">${esc(q.fonte.banca)} ${esc(String(q.fonte.ano))}</span>`:""}
+    </div>
    </div>
    <div class="linha" style="margin-top:10px">
     <button class="bt sec mini" id="btDiscordo">Discordo desta questão</button>
@@ -744,6 +745,8 @@ function pintaPratica(){
   const ativo=ST.cfg.estacao&&PRATICA.find(e=>e.id===ST.cfg.estacao);
   if(ativo)return pintaEstacao(ativo);
   const feitas=Object.keys(ST.treino).length;
+  const fp=ST.cfg.fp||"";
+  const lista=fp?PRATICA.filter(e=>e.area===fp):PRATICA;
   $("#sec-pratica").innerHTML=`
   <div class="cx">
    <h2 style="margin:0 0 6px">Estações de proficiência clínica</h2>
@@ -753,8 +756,16 @@ function pintaPratica(){
     <div class="kpi"><b>${PRATICA.length}</b><span>disponíveis</span></div>
     <div class="kpi"><b>${notaMediaEstacoes()}</b><span>nota média (0 a 5)</span></div>
    </div>
+   <div class="linha" style="margin-top:12px">
+    <label class="cmp">Área<select id="pArea">
+      <option value="">todas as áreas</option>
+      ${TAX.filter(x=>PRATICA.some(e=>e.area===x.id)).map(x=>`<option value="${x.id}"${x.id===fp?" selected":""}>${esc(x.nome)} (${PRATICA.filter(e=>e.area===x.id).length})</option>`).join("")}
+    </select></label>
+    ${fp?`<button class="bt sec mini" id="pLimpa" style="align-self:flex-end">limpar</button>`:""}
+    <span class="mini" style="margin-left:auto;align-self:flex-end">${lista.length} de ${PRATICA.length}</span>
+   </div>
   </div>
-  ${PRATICA.map(e=>{const t=ST.treino[e.id];
+  ${lista.map(e=>{const t=ST.treino[e.id];
     return `<div class="cx"><div class="linha" style="gap:6px">
       <span class="pilula b">${esc(NOME[e.area]||e.area)}</span>
       <span class="pilula">${esc(NCEN[e.cenario]||"")}</span>
@@ -765,6 +776,8 @@ function pintaPratica(){
      <p class="mini">${esc(e.abertura.slice(0,150))}…</p>
      <button class="bt mini" data-est="${e.id}" style="margin-top:9px">${t?"treinar de novo":"iniciar estação"}</button>
     </div>`}).join("")}`;
+  if($("#pArea"))$("#pArea").onchange=e=>{ST.cfg.fp=e.target.value;salva("cfg",ST.cfg);pintaPratica()};
+  if($("#pLimpa"))$("#pLimpa").onclick=()=>{ST.cfg.fp="";salva("cfg",ST.cfg);pintaPratica()};
   $$("[data-est]").forEach(b=>b.onclick=()=>{ST.cfg.estacao=b.dataset.est;ST.cfg.etapa=0;ST.cfg.iniEst=Date.now();salva("cfg",ST.cfg);pintaPratica()});
 }
 function notaMediaEstacoes(){const v=Object.values(ST.treino);if(!v.length)return "—";
@@ -858,20 +871,73 @@ function pintaLeituras(){
     return;
   }
   document.body.classList.remove("lendo");
-  const lidas=Object.keys(ST.lidas).length, min=LEITURAS.filter(l=>l.f).reduce((s,l)=>s+(l.min||0),0);
+  const fl=ST.cfg.fl||(ST.cfg.fl={area:"",busca:"",so:""});
+  const todas=LEITURAS.filter(l=>l.f);
+  // areas que realmente tem leitura, na ordem de peso do edital
+  const comLeitura=TAX.filter(t=>todas.some(l=>l.area===t.id));
+  const termo=(fl.busca||"").trim().toLowerCase();
+  const casa=l=>{
+    if(fl.area && l.area!==fl.area) return false;
+    if(fl.so==="naolidas" && ST.lidas[l.f]) return false;
+    if(fl.so==="lidas" && !ST.lidas[l.f]) return false;
+    if(termo){
+      const alvo=`${l.t} ${l.s} ${l.tipo||""} ${NOME[l.area]||""}`.toLowerCase();
+      if(!alvo.includes(termo)) return false;
+    }
+    return true;
+  };
+  const vis=todas.filter(casa);
+  const minVis=vis.reduce((s,l)=>s+(l.min||0),0);
+  const lidasVis=vis.filter(l=>ST.lidas[l.f]).length;
+  const filtrando=!!(fl.area||termo||fl.so);
+  // com filtro ativo, some com os separadores de secao e mostra lista corrida
+  const lista = filtrando
+    ? vis.map(cartaoLeitura).join("")
+    : LEITURAS.map(l=>l.grupo
+        ? `<h3 style="margin:20px 0 8px;font-family:Newsreader,serif">${esc(l.grupo)} <span class="mini" style="font-family:Inter">${esc(l.sub||"")}</span></h3>`
+        : cartaoLeitura(l)).join("");
   $("#sec-leituras").innerHTML=LEITURAS.length?`
   <div class="cx">
-   <h2 style="margin:0 0 6px">Leituras</h2>
-   <p class="mini">${LEITURAS.filter(l=>l.f).length} resumos, cerca de ${min} minutos no total — ${lidas} já lidos. Cada leitura fecha com as fontes primárias numeradas e um botão para treinar a área.</p>
+   <h2 style="margin:0 0 8px">Leituras</h2>
+   <div class="linha">
+    <label class="cmp">Área<select id="lArea">
+      <option value="">todas as áreas</option>
+      ${comLeitura.map(t=>`<option value="${t.id}"${t.id===fl.area?" selected":""}>${esc(t.nome)} (${todas.filter(l=>l.area===t.id).length})</option>`).join("")}
+    </select></label>
+    <label class="cmp">Mostrar<select id="lSo">
+      <option value=""${!fl.so?" selected":""}>todas</option>
+      <option value="naolidas"${fl.so==="naolidas"?" selected":""}>ainda não lidas</option>
+      <option value="lidas"${fl.so==="lidas"?" selected":""}>já lidas</option>
+    </select></label>
+    <label class="cmp" style="flex:1;min-width:200px">Buscar
+      <input id="lBusca" type="search" placeholder="tema, diretriz, palavra do resumo…" value="${esc(fl.busca||"")}">
+    </label>
+    ${filtrando?`<button class="bt sec mini" id="lLimpa" style="align-self:flex-end">limpar</button>`:""}
+   </div>
+   <div class="mini" style="margin-top:10px">${vis.length} de ${todas.length} ${vis.length===1?"leitura":"leituras"} — cerca de ${minVis} min, ${lidasVis} já ${lidasVis===1?"lida":"lidas"}.</div>
   </div>
-  ${LEITURAS.map(l=>l.grupo?`<h3 style="margin:20px 0 8px;font-family:Newsreader,serif">${esc(l.grupo)} <span class="mini" style="font-family:Inter">${esc(l.sub||"")}</span></h3>`:
-   `<div class="cx"><div class="linha" style="gap:6px">
+  ${vis.length?lista:`<div class="cx"><p class="vazio">Nenhuma leitura com esse filtro. <button class="bt sec mini" id="lLimpa2">limpar filtro</button></p></div>`}`
+  :`<div class="cx"><p class="vazio">Nenhuma leitura publicada ainda. As leituras entram por <code>leituras.js</code> + um arquivo em <code>leituras/</code>.</p></div>`;
+  const aplica=(k,v)=>{ST.cfg.fl[k]=v;salva("cfg",ST.cfg);pintaLeituras()};
+  const limpa=()=>{ST.cfg.fl={area:"",busca:"",so:""};salva("cfg",ST.cfg);pintaLeituras()};
+  if($("#lArea"))$("#lArea").onchange=e=>aplica("area",e.target.value);
+  if($("#lSo"))$("#lSo").onchange=e=>aplica("so",e.target.value);
+  if($("#lLimpa"))$("#lLimpa").onclick=limpa;
+  if($("#lLimpa2"))$("#lLimpa2").onclick=limpa;
+  const cb=$("#lBusca");
+  if(cb){
+    let deb; cb.oninput=e=>{clearTimeout(deb);const v=e.target.value;
+      deb=setTimeout(()=>{const pos=cb.selectionStart;aplica("busca",v);
+        const n=$("#lBusca");if(n){n.focus();try{n.setSelectionRange(pos,pos)}catch(_){}}},250)};
+  }
+  $$("[data-ler]").forEach(b=>b.onclick=()=>{ST.cfg.lendo=b.dataset.ler;salva("cfg",ST.cfg);pintaLeituras()});
+}
+function cartaoLeitura(l){
+  return `<div class="cx"><div class="linha" style="gap:6px">
      <span class="pilula b">${esc(l.tipo||"")}</span><span class="pilula">${esc(NOME[l.area]||l.area||"")}</span>
      <span class="pilula">${l.min} min</span>${ST.lidas[l.f]?`<span class="pilula ok">lida</span>`:""}</div>
     <h3 style="margin:9px 0 4px">${esc(l.t)}</h3><p class="mini">${esc(l.s)}</p>
-    <button class="bt mini" data-ler="${esc(l.f)}" style="margin-top:9px">ler</button></div>`).join("")}`
-  :`<div class="cx"><p class="vazio">Nenhuma leitura publicada ainda. As leituras entram por <code>leituras.js</code> + um arquivo em <code>leituras/</code>.</p></div>`;
-  $$("[data-ler]").forEach(b=>b.onclick=()=>{ST.cfg.lendo=b.dataset.ler;salva("cfg",ST.cfg);pintaLeituras()});
+    <button class="bt mini" data-ler="${esc(l.f)}" style="margin-top:9px">ler</button></div>`;
 }
 function ajustaQuadro(){const f=$("#quadroLeitura");if(!f)return;
   const topo=f.getBoundingClientRect().top;
@@ -881,18 +947,39 @@ function ajustaQuadro(){const f=$("#quadroLeitura");if(!f)return;
 function cartaoDe(i){return ST.flash[i]||(ST.flash[i]={n:0,ef:2.5,int:0,prox:dataISO()})}
 function devidos(){return FLASH.map((c,i)=>({c,i,e:cartaoDe(i)})).filter(x=>x.e.prox<=dataISO())}
 function pintaCartoes(){
-  const d=devidos();
-  if(!d.length)return $("#sec-cartoes").innerHTML=`<div class="cx"><h2 style="margin:0 0 6px">Cartões</h2>
-    <p class="vazio">Nada para revisar hoje. São ${FLASH.length} cartões no total; volte amanhã.</p></div>`;
+  const fc=ST.cfg.fc||"";
+  const todosDev=devidos();
+  const d=fc?todosDev.filter(x=>x.c.tema===fc):todosDev;
+  // o seletor mostra a area e quantos cartoes dela estao vencidos hoje
+  const areasCard=TAX.filter(x=>FLASH.some(c=>c.tema===x.id));
+  const barra=`
+   <div class="linha" style="margin-bottom:10px">
+    <label class="cmp">Área<select id="cArea">
+      <option value="">todas as áreas (${todosDev.length} hoje)</option>
+      ${areasCard.map(x=>{const n=todosDev.filter(y=>y.c.tema===x.id).length;
+        return `<option value="${x.id}"${x.id===fc?" selected":""}>${esc(x.nome)} — ${n} hoje</option>`}).join("")}
+    </select></label>
+    ${fc?`<button class="bt sec mini" id="cLimpa" style="align-self:flex-end">limpar</button>`:""}
+   </div>`;
+  const liga=()=>{
+    if($("#cArea"))$("#cArea").onchange=e=>{ST.cfg.fc=e.target.value;salva("cfg",ST.cfg);pintaCartoes()};
+    if($("#cLimpa"))$("#cLimpa").onclick=()=>{ST.cfg.fc="";salva("cfg",ST.cfg);pintaCartoes()};
+  };
+  if(!d.length){
+    $("#sec-cartoes").innerHTML=`<div class="cx"><h2 style="margin:0 0 8px">Cartões</h2>${barra}
+      <p class="vazio">${fc?"Nenhum cartão desta área vence hoje.":`Nada para revisar hoje. São ${FLASH.length} cartões no total; volte amanhã.`}</p></div>`;
+    return liga();
+  }
   const {c,i}=d[0];
   $("#sec-cartoes").innerHTML=`
-  <div class="cx"><div class="linha">
+  <div class="cx">${barra}<div class="linha">
     <span class="pilula b">${esc(NOME[c.tema]||c.tema)}</span>
     <span class="mini" style="margin-left:auto">${d.length} para hoje</span></div>
    <p class="enun">${esc(c.a)}</p>
    <div id="verso"></div>
    <button class="bt" id="btVirar">Mostrar a resposta</button>
   </div>`;
+  liga();
   $("#btVirar").onclick=()=>{
     $("#verso").innerHTML=`<div class="coment">${esc(c.b)}</div>`;
     $("#btVirar").outerHTML=`<div class="linha">
