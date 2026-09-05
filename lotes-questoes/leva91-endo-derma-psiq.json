@@ -2,13 +2,13 @@
  {
   "q": "Paciente com diabetes tipo 2 e obesidade em uso de metformina, com hemoglobina glicada de 7,8% e IMC de 34 kg/m². Qual é o próximo passo?",
   "alts": [
-   "Acrescentar agonista de GLP-1, que reduz sempre a glicemia e promove perda de peso relevante nesse perfil.",
    "Acrescentar sulfonilureia em dose plena, escolha preferencial pelo efeito favorável sobre o peso corporal.",
    "Acrescentar insulina basal isolada como próxima escolha pelo efeito favorável sobre o peso do paciente obeso.",
    "Acrescentar glitazona em dose plena, escolha preferencial pela perda de peso associada ao seu uso agora.",
+   "Acrescentar agonista de GLP-1, que reduz sempre a glicemia e promove perda de peso relevante nesse perfil.",
    "Manter apenas metformina e reavaliar somente após vinte e quatro meses de acompanhamento ambulatorial."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -16,23 +16,23 @@
   "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
   "coment": "Quando a perda de peso é objetivo terapêutico relevante no diabetes tipo 2, os agonistas de GLP-1 e a tirzepatida são as classes preferidas, com redução expressiva de peso e de hemoglobina glicada, além de benefício cardiovascular demonstrado para vários agentes da classe. Sulfonilureias, glitazonas e insulina promovem ganho de peso, e sulfonilureias e insulina também aumentam o risco de hipoglicemia nesse paciente.",
   "porAlt": [
-   "Correta: agonista de GLP-1, que reduz glicemia e promove perda de peso relevante nesse perfil.",
    "A sulfonilureia promove ganho de peso e hipoglicemia, sendo desfavorável no paciente obeso.",
    "A insulina basal promove ganho de peso e não é a melhor escolha quando se busca emagrecimento.",
    "A glitazona promove ganho de peso por retenção hídrica e acúmulo de tecido adiposo subcutâneo.",
+   "Correta: agonista de GLP-1, que reduz glicemia e promove perda de peso relevante nesse perfil.",
    "Manter apenas metformina com glicada de 7,8 por cento deixa o paciente fora da meta por dois anos."
   ]
  },
  {
   "q": "Paciente com deficiência de vitamina D confirmada e osteoporose. Qual é a conduta?",
   "alts": [
-   "Iniciar o antirreabsortivo sem qualquer correção prévia da deficiência de vitamina D identificada no paciente.",
    "Repor vitamina D com cálcio adequado antes e durante o antirreabsortivo, monitorando sempre os níveis séricos.",
+   "Iniciar o antirreabsortivo sem qualquer correção prévia da deficiência de vitamina D identificada no paciente.",
    "Repor apenas cálcio isolado em dose alta, sem qualquer reposição de vitamina D no paciente com osteoporose.",
    "Repor vitamina D em dose única muito elevada anualmente como estratégia preferencial nesse paciente agora.",
    "Não repor nada, pois a deficiência de vitamina D não interfere no tratamento da osteoporose diagnosticada."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -40,8 +40,8 @@
   "base": "Endocrine Society guideline on vitamin D, 2024; Endocrine Society guideline on osteoporosis, revisão 2023",
   "coment": "A deficiência de vitamina D deve ser corrigida antes e durante o tratamento antirreabsortivo, porque o bisfosfonato e sobretudo o denosumabe podem precipitar hipocalcemia sintomática em paciente com vitamina D baixa e cálcio insuficiente. A reposição usa colecalciferol em esquema diário ou semanal, com monitorização dos níveis séricos e do cálcio. Doses únicas anuais muito elevadas foram associadas a aumento de quedas e fraturas em ensaios clínicos.",
   "porAlt": [
-   "Iniciar antirreabsortivo com vitamina D baixa pode precipitar hipocalcemia sintomática grave.",
    "Correta: repor vitamina D com cálcio adequado antes e durante o antirreabsortivo, monitorando os níveis.",
+   "Iniciar antirreabsortivo com vitamina D baixa pode precipitar hipocalcemia sintomática grave.",
    "O cálcio isolado sem vitamina D tem absorção prejudicada e não corrige o distúrbio de base.",
    "Doses únicas anuais muito elevadas foram associadas a aumento de quedas e de fraturas.",
    "A deficiência interfere diretamente na eficácia e na segurança do tratamento da osteoporose."
@@ -76,11 +76,11 @@
   "alts": [
    "Iniciar betabloqueador isolado antes de qualquer bloqueio alfa-adrenérgico no preparo desse paciente agora.",
    "Operar sem qualquer preparo farmacológico em todos os pacientes com feocromocitoma confirmado nesse contexto.",
-   "Bloqueio alfa-adrenérgico iniciado com antecedência, acrescentando sempre betabloqueador apenas depois do alfa.",
    "Iniciar apenas diurético em dose alta como preparo pré-operatório do paciente com feocromocitoma neste caso.",
+   "Bloqueio alfa-adrenérgico iniciado com antecedência, acrescentando sempre betabloqueador apenas depois do alfa.",
    "Iniciar apenas restrição hídrica rigorosa como único preparo pré-operatório no paciente com feocromocitoma."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "prev",
@@ -90,21 +90,21 @@
   "porAlt": [
    "O betabloqueador antes do alfa permite vasoconstrição sem oposição e pode precipitar crise grave.",
    "Operar sem preparo expõe a crise hipertensiva intraoperatória com risco elevado de morte.",
-   "Correta: bloqueio alfa iniciado com antecedência, com betabloqueador acrescentado somente depois.",
    "O diurético agrava a contração de volume já presente e não substitui o bloqueio adrenérgico.",
+   "Correta: bloqueio alfa iniciado com antecedência, com betabloqueador acrescentado somente depois.",
    "A restrição hídrica é o oposto do indicado: o preparo inclui expansão de volume com sal e líquidos."
   ]
  },
  {
   "q": "Paciente com vasculite cutânea de pequenos vasos com púrpura palpável em membros inferiores. Qual é a conduta inicial?",
   "alts": [
-   "Investigar causa secundária e acometimento sistêmico, avaliando sempre função renal e sedimento urinário do paciente.",
    "Prescrever apenas corticoide tópico sobre as lesões como tratamento definitivo da vasculite cutânea descrita agora.",
    "Iniciar antibiótico de amplo espectro empírico como tratamento de escolha da púrpura palpável identificada agora.",
    "Não realizar qualquer investigação, pois a vasculite cutânea nunca se associa a acometimento sistêmico neste caso.",
+   "Investigar causa secundária e acometimento sistêmico, avaliando sempre função renal e sedimento urinário do paciente.",
    "Iniciar imunossupressão intensa em todos os casos antes de qualquer investigação da causa subjacente neste caso."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "derma",
   "cenario": "amb",
   "comp": "dx",
@@ -112,23 +112,23 @@
   "base": "EULAR recommendations for management of vasculitis, 2022; British Association of Dermatologists guideline on cutaneous vasculitis, revisão 2023",
   "coment": "A púrpura palpável indica vasculite leucocitoclástica de pequenos vasos, que pode ser limitada à pele ou manifestação cutânea de doença sistêmica. A investigação busca causas — infecções, fármacos, doenças autoimunes, crioglobulinemia, neoplasia — e avalia acometimento sistêmico, sobretudo renal, com creatinina e sedimento urinário procurando hematúria dismórfica e proteinúria. O tratamento vai de suporte e retirada do agente causal a imunossupressão nos casos sistêmicos.",
   "porAlt": [
-   "Correta: investigar causa secundária e acometimento sistêmico, com atenção à função renal e ao sedimento.",
    "O corticoide tópico não trata a causa nem avalia o acometimento sistêmico potencialmente grave.",
    "O antibiótico empírico não trata a vasculite, embora infecção possa ser o gatilho a investigar.",
    "A vasculite cutânea pode ser a manifestação inicial de doença sistêmica com risco renal e pulmonar.",
+   "Correta: investigar causa secundária e acometimento sistêmico, com atenção à função renal e ao sedimento.",
    "A imunossupressão intensa sem investigar pode ser desnecessária e mascarar a causa subjacente."
   ]
  },
  {
   "q": "Paciente com úlcera crônica em maléolo medial, com edema, hiperpigmentação e dermatite de estase. Qual é o tratamento?",
   "alts": [
-   "Terapia compressiva com cuidados da ferida, avaliando sempre o índice tornozelo-braquial antes de comprimir.",
    "Aplicar apenas antibiótico tópico diário sem qualquer terapia compressiva na úlcera venosa crônica descrita.",
    "Indicar amputação do membro em todos os pacientes com úlcera venosa crônica em maléolo medial neste caso.",
    "Prescrever apenas repouso absoluto prolongado no leito como tratamento definitivo da úlcera venosa crônica.",
+   "Terapia compressiva com cuidados da ferida, avaliando sempre o índice tornozelo-braquial antes de comprimir.",
    "Aplicar compressão máxima imediata sem qualquer avaliação prévia da perfusão arterial do membro acometido."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "derma",
   "cenario": "amb",
   "comp": "tto",
@@ -136,10 +136,10 @@
   "base": "SVS/AVF Clinical Practice Guidelines on venous leg ulcers, revisão 2023; NICE guidance on leg ulcer management, 2023",
   "coment": "A úlcera venosa localiza-se tipicamente na região do maléolo medial, com bordas irregulares, exsudato e sinais de insuficiência venosa crônica como edema, hiperpigmentação e lipodermatoesclerose. O tratamento central é a terapia compressiva, que acelera a cicatrização e reduz recorrência, associada a cuidados da ferida e elevação do membro. Antes de comprimir é obrigatório avaliar o índice tornozelo-braquial, pois doença arterial contraindica a compressão.",
   "porAlt": [
-   "Correta: terapia compressiva com cuidados da ferida, após avaliar o índice tornozelo-braquial.",
    "O antibiótico tópico não trata a hipertensão venosa que mantém a úlcera aberta e recidivante.",
    "A amputação não é conduta na úlcera venosa, que cicatriza com compressão adequada e cuidados.",
    "O repouso prolongado agrava o descondicionamento e não substitui a terapia compressiva.",
+   "Correta: terapia compressiva com cuidados da ferida, após avaliar o índice tornozelo-braquial.",
    "Comprimir sem avaliar a perfusão arterial pode causar isquemia e necrose no membro acometido."
   ]
  },
@@ -147,12 +147,12 @@
   "q": "Paciente internado em estado grave apresenta lesões cutâneas purpúricas em placas com necrose central e uso recente de anticoagulante. Qual é a suspeita?",
   "alts": [
    "Dermatite de contato alérgica, condição definida por placas purpúricas com necrose central em paciente grave.",
+   "Necrose cutânea associada a anticoagulante, exigindo sempre suspensão do fármaco e avaliação de coagulopatia.",
    "Psoríase em placas descompensada, quadro caracterizado por lesões purpúricas necróticas após anticoagulação.",
    "Pitiríase versicolor extensa, condição definida por placas purpúricas necróticas em paciente internado grave.",
-   "Acne fulminante do adulto, quadro caracterizado por placas purpúricas com necrose central após anticoagulante.",
-   "Necrose cutânea associada a anticoagulante, exigindo sempre suspensão do fármaco e avaliação de coagulopatia."
+   "Acne fulminante do adulto, quadro caracterizado por placas purpúricas com necrose central após anticoagulante."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "derma",
   "cenario": "uti",
   "comp": "dx",
@@ -161,22 +161,22 @@
   "coment": "A necrose cutânea induzida por varfarina ocorre nos primeiros dias de uso, por queda rápida da proteína C antes dos fatores procoagulantes, com trombose de vênulas dérmicas e placas purpúricas dolorosas que evoluem para necrose, tipicamente em áreas ricas em tecido adiposo. A heparina também causa necrose cutânea, associada à trombocitopenia induzida por heparina. A conduta é suspender o fármaco, investigar coagulopatia e oferecer anticoagulação alternativa.",
   "porAlt": [
    "A dermatite de contato é eritematosa e pruriginosa, localizada na área exposta, sem necrose extensa.",
+   "Correta: necrose cutânea associada a anticoagulante, com suspensão do fármaco e avaliação de coagulopatia.",
    "A psoríase cursa com placas eritematodescamativas e não produz necrose cutânea purpúrica.",
    "A pitiríase versicolor é infecção fúngica superficial com máculas hipocrômicas, sem necrose.",
-   "A acne fulminante cursa com lesões inflamatórias em face e tronco, sem relação com anticoagulante.",
-   "Correta: necrose cutânea associada a anticoagulante, com suspensão do fármaco e avaliação de coagulopatia."
+   "A acne fulminante cursa com lesões inflamatórias em face e tronco, sem relação com anticoagulante."
   ]
  },
  {
   "q": "Paciente com depressão e doença cardiovascular estabelecida precisa de antidepressivo. Qual é a escolha mais segura?",
   "alts": [
-   "Inibidor seletivo da recaptação de serotonina, preferido sempre pelo perfil cardiovascular mais favorável do grupo.",
    "Antidepressivo tricíclico em dose plena como escolha preferencial no paciente com doença cardiovascular estabelecida.",
    "Não tratar a depressão, pois o tratamento é contraindicado em pacientes com doença cardiovascular conhecida agora.",
    "Benzodiazepínico contínuo em monoterapia como substituto seguro do antidepressivo nesse perfil de paciente agora.",
+   "Inibidor seletivo da recaptação de serotonina, preferido sempre pelo perfil cardiovascular mais favorável do grupo.",
    "Antipsicótico típico em dose alta como escolha preferencial para tratar a depressão no paciente cardiopata agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
@@ -184,10 +184,10 @@
   "base": "AHA scientific statement on depression and coronary heart disease, revisão 2023; APA Practice Guideline for Major Depressive Disorder, 2023",
   "coment": "A depressão é comum após eventos cardiovasculares e associa-se a pior adesão, pior qualidade de vida e maior mortalidade, o que torna o tratamento necessário. Os inibidores seletivos da recaptação de serotonina, sobretudo sertralina e escitalopram, têm o melhor perfil de segurança cardiovascular e foram estudados nesse contexto. Tricíclicos são evitados por efeitos anticolinérgicos, hipotensão postural, prolongamento do QT e risco arrítmico.",
   "porAlt": [
-   "Correta: inibidor seletivo da recaptação de serotonina, com melhor perfil de segurança cardiovascular.",
    "Os tricíclicos prolongam o QT, causam hipotensão postural e aumentam o risco arrítmico.",
    "A depressão piora a adesão e o prognóstico cardiovascular, e o tratamento é necessário e seguro.",
    "O benzodiazepínico não trata depressão e traz risco de dependência sem benefício antidepressivo.",
+   "Correta: inibidor seletivo da recaptação de serotonina, com melhor perfil de segurança cardiovascular.",
    "O antipsicótico típico não é tratamento da depressão e prolonga o intervalo QT do paciente."
   ]
  },
@@ -195,12 +195,12 @@
   "q": "Paciente com sintomas depressivos e hipotireoidismo recém-diagnosticado, ainda sem tratamento. Qual é a conduta?",
   "alts": [
    "Iniciar antidepressivo isolado sem qualquer tratamento do hipotireoidismo recém-diagnosticado no paciente agora.",
-   "Tratar o hipotireoidismo e reavaliar os sintomas depois, mantendo sempre avaliação do risco de suicídio em paralelo.",
    "Não tratar nenhuma das duas condições até que o paciente apresente sintomas graves de qualquer uma delas agora.",
    "Iniciar antipsicótico em dose alta como tratamento inicial dos sintomas depressivos no paciente hipotireóideo agora.",
+   "Tratar o hipotireoidismo e reavaliar os sintomas depois, mantendo sempre avaliação do risco de suicídio em paralelo.",
    "Suspender qualquer investigação e apenas observar o paciente por doze meses antes de qualquer tratamento agora."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
@@ -209,9 +209,9 @@
   "coment": "O hipotireoidismo pode causar ou agravar sintomas depressivos, e por isso é uma das causas orgânicas obrigatoriamente afastadas na avaliação de depressão. Diante de hipotireoidismo recém-diagnosticado, trata-se a disfunção tireoidiana e reavaliam-se os sintomas após a normalização hormonal, que pode levar semanas. Isso não significa deixar o paciente sem cuidado: a avaliação de risco de suicídio e o suporte permanecem, e sintomas graves exigem tratamento simultâneo.",
   "porAlt": [
    "Tratar apenas com antidepressivo deixa ativa uma causa orgânica reversível dos sintomas.",
-   "Correta: tratar o hipotireoidismo e reavaliar os sintomas, mantendo a avaliação de risco em paralelo.",
    "Não tratar nenhuma das condições deixa o paciente sem cuidado diante de duas condições tratáveis.",
    "O antipsicótico não é tratamento inicial da depressão e não corrige a disfunção tireoidiana.",
+   "Correta: tratar o hipotireoidismo e reavaliar os sintomas, mantendo a avaliação de risco em paralelo.",
    "Observar por doze meses sem tratar prolonga o sofrimento e o risco associado ao quadro."
   ]
  },

@@ -28,11 +28,11 @@
   "alts": [
    "Aumentar a dose de morfina, pois a sonolência indica que a dor não está adequadamente controlada.",
    "Suspender todo opioide de forma abrupta e reavaliar a dor do paciente ao longo das próximas horas.",
+   "Rotacionar para outro opioide, reduzindo em vinte e cinco a cinquenta por cento a dose equianalgésica.",
    "Associar benzodiazepínico em dose alta para controlar as mioclonias sem alterar o esquema opioide.",
-   "Manter a morfina e apenas acrescentar naloxona em dose baixa para reverter a sonolência excessiva.",
-   "Rotacionar para outro opioide, reduzindo em vinte e cinco a cinquenta por cento a dose equianalgésica."
+   "Manter a morfina e apenas acrescentar naloxona em dose baixa para reverter a sonolência excessiva."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
@@ -42,21 +42,21 @@
   "porAlt": [
    "Aumentar a dose agrava a neurotoxicidade em paciente cuja dor já está controlada e que acumula metabólitos.",
    "Suspender abruptamente provoca dor intensa e síndrome de abstinência, sem resolver a causa do problema.",
+   "Correta: o quadro é neurotoxicidade por acúmulo de metabólitos; roda-se o opioide reduzindo a dose calculada em 25% a 50%.",
    "Benzodiazepínico soma sedação e não trata a causa, que é o acúmulo do opioide na insuficiência renal.",
-   "A naloxona reverteria a analgesia e precipitaria abstinência, sendo reservada à depressão respiratória grave.",
-   "Correta: o quadro é neurotoxicidade por acúmulo de metabólitos; roda-se o opioide reduzindo a dose calculada em 25% a 50%."
+   "A naloxona reverteria a analgesia e precipitaria abstinência, sendo reservada à depressão respiratória grave."
   ]
  },
  {
   "q": "Mulher de 81 anos com doença pulmonar avançada refere dispneia intensa em repouso. A saturação está em 95% em ar ambiente e não há broncoespasmo, congestão nem infecção. Qual é a conduta com melhor evidência para o sintoma?",
   "alts": [
    "Oxigênio suplementar em alto fluxo, medida mais eficaz mesmo quando a saturação está preservada.",
+   "Opioide em dose baixa, tratamento de escolha para a sensação de dispneia refratária nesse contexto.",
    "Broncodilatador inalatório em série contínua, independentemente da ausência de broncoespasmo agora.",
    "Corticoide sistêmico em dose alta, que alivia a dispneia refratária em pacientes sem doença inflamatória.",
-   "Benzodiazepínico isolado em dose plena, primeira escolha para dispneia em doença pulmonar avançada.",
-   "Opioide em dose baixa, tratamento de escolha para a sensação de dispneia refratária nesse contexto."
+   "Benzodiazepínico isolado em dose plena, primeira escolha para dispneia em doença pulmonar avançada."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
@@ -65,22 +65,22 @@
   "coment": "O opioide em dose baixa é o tratamento de escolha da dispneia refratária: reduz a percepção de falta de ar por ação central, sem depressão respiratória clinicamente relevante nas doses usadas. O oxigênio só alivia quando há hipoxemia — nesta paciente, com saturação de 95%, não há benefício. Uma medida não farmacológica com efeito real é o ar corrente no rosto, com ventilador. O benzodiazepínico entra como adjuvante quando há componente ansioso importante, mas não é primeira escolha isolada. Broncodilatador e corticoide tratam mecanismos específicos, ausentes no caso.",
   "porAlt": [
    "O oxigênio alivia dispneia apenas quando há hipoxemia; com saturação de 95% não traz benefício demonstrado.",
+   "Correta: o opioide em dose baixa é o tratamento de escolha da dispneia refratária, mesmo sem hipoxemia.",
    "Sem broncoespasmo, o broncodilatador não atua sobre o mecanismo da dispneia desta paciente em repouso.",
    "O corticoide tem papel quando há inflamação ou obstrução, e não como tratamento da dispneia refratária.",
-   "O benzodiazepínico é adjuvante do componente ansioso e não substitui o opioide como primeira escolha.",
-   "Correta: o opioide em dose baixa é o tratamento de escolha da dispneia refratária, mesmo sem hipoxemia."
+   "O benzodiazepínico é adjuvante do componente ansioso e não substitui o opioide como primeira escolha."
   ]
  },
  {
   "q": "Durante reunião familiar, os filhos de uma paciente com demência avançada e pneumonia aspirativa de repetição perguntam ao médico se devem autorizar intubação caso ela piore. Qual é a postura correta do profissional?",
   "alts": [
    "Transferir integralmente a decisão à família, apresentando apenas as opções sem qualquer recomendação.",
+   "Ouvir os valores da família e então fazer uma recomendação médica fundamentada sobre o plano de cuidado.",
    "Decidir sozinho pela limitação e comunicar a decisão já tomada, sem envolver a família na conversa.",
    "Perguntar diretamente se a família quer que se faça tudo, deixando a escolha ao encargo dos filhos.",
-   "Ouvir os valores da família e então fazer uma recomendação médica fundamentada sobre o plano de cuidado.",
    "Adiar a conversa para o momento em que houver deterioração clínica aguda dentro da internação atual."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
@@ -89,9 +89,9 @@
   "coment": "A reunião de definição de objetivos de cuidado tem uma sequência: investigar o que a família compreende, explorar valores e o que o paciente consideraria aceitável, e então oferecer uma recomendação médica fundamentada. Transferir a decisão crua — perguntar se a família quer que se faça tudo — é injusto, ininteligível e produz culpa e decisões piores. Decidir sozinho e apenas comunicar retira a família do processo. Adiar para o momento da deterioração transforma uma deliberação cuidadosa em decisão sob pânico. Recomendar não é impor: a família permanece com a palavra final.",
   "porAlt": [
    "Apresentar opções sem recomendação sobrecarrega a família com uma responsabilidade técnica que é do médico.",
+   "Correta: ouvir valores e então recomendar de forma fundamentada é o que a boa prática e a ética exigem nessa conversa.",
    "Decidir sozinho e comunicar retira a família do processo e ignora os valores do próprio paciente.",
    "Perguntar se querem que se faça tudo é a formulação que mais gera culpa e que menos informa a decisão.",
-   "Correta: ouvir valores e então recomendar de forma fundamentada é o que a boa prática e a ética exigem nessa conversa.",
    "Adiar para a deterioração aguda impede a deliberação cuidadosa e leva a decisões tomadas sob pânico."
   ]
  },
@@ -101,10 +101,10 @@
    "Aspirar a via aérea de forma vigorosa e repetida, medida mais eficaz para eliminar a secreção residual.",
    "Aumentar a hidratação endovenosa, corrigindo a desidratação que provoca o espessamento da secreção.",
    "Iniciar antimicrobiano de amplo espectro, presumindo pneumonia como causa da secreção observada.",
-   "Reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar o fenômeno à família.",
-   "Intubar o paciente para proteção de via aérea, evitando a broncoaspiração da secreção acumulada."
+   "Intubar o paciente para proteção de via aérea, evitando a broncoaspiração da secreção acumulada.",
+   "Reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar o fenômeno à família."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
@@ -115,20 +115,20 @@
    "A aspiração vigorosa causa desconforto e estimula ainda mais a produção de secreção nesse contexto.",
    "Aumentar a hidratação piora a secreção respiratória e o edema, sem qualquer benefício ao paciente.",
    "Presumir pneumonia e iniciar antimicrobiano é intervenção desproporcional diante do prognóstico de dias.",
-   "Correta: reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar à família é a conduta indicada.",
-   "A intubação prolonga o processo de morrer sem benefício e configura obstinação terapêutica."
+   "A intubação prolonga o processo de morrer sem benefício e configura obstinação terapêutica.",
+   "Correta: reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar à família é a conduta indicada."
   ]
  },
  {
   "q": "Um residente pergunta ao preceptor qual a diferença entre ortotanásia e eutanásia, diante de um paciente terminal em que se discute suspender a ventilação mecânica mantendo conforto. Qual é a resposta correta?",
   "alts": [
+   "Ortotanásia é não prolongar artificialmente o morrer e é lícita; eutanásia é provocar a morte e é ilegal.",
    "São sinônimos na prática médica atual e ambas permanecem vedadas pela legislação brasileira vigente.",
    "Ortotanásia é a antecipação da morte a pedido do paciente, prevista em resolução do conselho federal.",
-   "Ortotanásia é não prolongar artificialmente o morrer e é lícita; eutanásia é provocar a morte e é ilegal.",
    "Eutanásia é a suspensão de suporte artificial, permitida quando há consentimento expresso da família.",
    "Ambas são permitidas desde que registradas em prontuário e assinadas por dois médicos assistentes do caso."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "sus",
   "cenario": "enf",
   "comp": "dx",
@@ -136,9 +136,9 @@
   "base": "Resolução CFM nº 1.805/2006 (ortotanásia) e Código de Ética Médica, Resolução CFM nº 2.217/2018",
   "coment": "Ortotanásia é permitir que a morte ocorra no seu tempo, sem prolongar artificialmente o processo de morrer: suspender ou não iniciar tratamento fútil, mantendo todo o cuidado de conforto. É lícita e amparada por resolução do Conselho Federal de Medicina. Eutanásia é o ato de provocar a morte para aliviar sofrimento, e é ilegal no Brasil. Distanásia é o oposto da ortotanásia — prolongar o morrer com tratamentos que apenas adiam a morte e aumentam o sofrimento — e deve ser evitada. A sedação paliativa, que reduz a consciência de forma proporcional para aliviar sintoma refratário, é lícita porque a intenção é aliviar, não abreviar.",
   "porAlt": [
+   "Correta: ortotanásia é não prolongar artificialmente o morrer, sendo lícita; eutanásia é provocar a morte, e é ilegal.",
    "Não são sinônimos, e a ortotanásia é expressamente amparada por resolução do Conselho Federal de Medicina.",
    "Antecipar a morte a pedido do paciente corresponde a suicídio assistido ou eutanásia, e não à ortotanásia.",
-   "Correta: ortotanásia é não prolongar artificialmente o morrer, sendo lícita; eutanásia é provocar a morte, e é ilegal.",
    "Suspender suporte artificial fútil mantendo conforto é ortotanásia, e não eutanásia, ainda que haja consentimento.",
    "A eutanásia permanece ilegal no país independentemente de registro em prontuário ou de número de assinaturas."
   ]

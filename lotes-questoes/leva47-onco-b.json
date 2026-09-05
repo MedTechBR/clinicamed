@@ -5,10 +5,10 @@
    "Aguardar o resultado das hemoculturas antes de iniciar qualquer antibiótico no paciente febril.",
    "Prescrever apenas antitérmico e reavaliar em vinte e quatro horas com novo hemograma completo.",
    "Iniciar antifúngico isolado como terapia inicial de escolha para o paciente com neutropenia febril.",
-   "Transfundir concentrado de granulócitos como primeira medida antes da coleta de qualquer cultura.",
-   "Coletar culturas e iniciar antibiótico de amplo espectro sempre na primeira hora do atendimento."
+   "Coletar culturas e iniciar antibiótico de amplo espectro sempre na primeira hora do atendimento.",
+   "Transfundir concentrado de granulócitos como primeira medida antes da coleta de qualquer cultura."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "onco",
   "cenario": "emg",
   "comp": "urg",
@@ -19,20 +19,20 @@
    "Aguardar culturas atrasa em horas o antibiótico e aumenta a mortalidade nessa emergência.",
    "Antitérmico isolado não trata a infecção e permite evolução para choque em poucas horas.",
    "O antifúngico entra na febre persistente após alguns dias, e não como terapia inicial isolada.",
-   "A transfusão de granulócitos é excepcional e não substitui a antibioticoterapia empírica precoce.",
-   "Correta: coletar culturas e iniciar antibiótico de amplo espectro na primeira hora do atendimento."
+   "Correta: coletar culturas e iniciar antibiótico de amplo espectro na primeira hora do atendimento.",
+   "A transfusão de granulócitos é excepcional e não substitui a antibioticoterapia empírica precoce."
   ]
  },
  {
   "q": "Homem de 60 anos com câncer de pulmão apresenta cálcio de 14,2 mg/dL, confusão e desidratação. Qual é a conduta inicial?",
   "alts": [
+   "Hidratação vigorosa com salina isotônica associada sempre a bisfosfonato endovenoso na sequência.",
    "Iniciar diurético de alça isolado como primeira medida, antes de qualquer reposição volêmica.",
    "Prescrever carbonato de cálcio por via oral e reavaliar a calcemia em quarenta e oito horas agora.",
    "Indicar hemodiálise em todos os casos de hipercalcemia como primeira medida terapêutica adotada.",
-   "Hidratação vigorosa com salina isotônica associada sempre a bisfosfonato endovenoso na sequência.",
    "Iniciar reposição de fósforo endovenoso rápido, medida de escolha para reduzir a calcemia grave."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "onco",
   "cenario": "enf",
   "comp": "urg",
@@ -40,10 +40,10 @@
   "base": "ESMO Clinical Practice Guidelines — hypercalcaemia of malignancy, 2020; Endocrine Society, revisão 2023",
   "coment": "A hipercalcemia da malignidade cursa com desidratação grave, porque o cálcio elevado gera diabetes insípido nefrogênico. O primeiro passo é hidratação vigorosa com salina isotônica, que restaura o volume e aumenta a excreção renal de cálcio. Em seguida entra bisfosfonato endovenoso, como zoledronato, com efeito em dois a quatro dias, ou denosumabe. Diurético de alça não é rotina e só entra após reposição, se houver sobrecarga. Calcitonina serve à queda rápida inicial.",
   "porAlt": [
+   "Correta: hidratação vigorosa com salina isotônica seguida de bisfosfonato endovenoso.",
    "O diurético antes da reposição agrava a desidratação e piora a hipercalcemia do paciente.",
    "O carbonato de cálcio oral aumenta a calcemia e é exatamente o oposto do que se deve fazer.",
    "A diálise se reserva a casos refratários, com insuficiência renal ou risco iminente de vida.",
-   "Correta: hidratação vigorosa com salina isotônica seguida de bisfosfonato endovenoso.",
    "O fósforo endovenoso rápido causa precipitação de cálcio nos tecidos e é contraindicado."
   ]
  },
@@ -76,11 +76,11 @@
   "alts": [
    "Prescrever analgésico oral e agendar ressonância de coluna eletiva para a semana seguinte ao quadro.",
    "Solicitar cintilografia óssea e aguardar o resultado antes de qualquer intervenção terapêutica.",
-   "Corticoide em dose alta e ressonância de coluna com urgência, sempre antes do déficit se completar.",
    "Iniciar fisioterapia motora intensiva como primeira medida para recuperar a força dos membros agora.",
+   "Corticoide em dose alta e ressonância de coluna com urgência, sempre antes do déficit se completar.",
    "Realizar bloqueio anestésico paravertebral, conduta inicial de escolha para essa dor oncológica."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "onco",
   "cenario": "emg",
   "comp": "urg",
@@ -90,8 +90,8 @@
   "porAlt": [
    "Agendar imagem eletiva permite que o déficit se complete e se torne irreversível nesse intervalo.",
    "A cintilografia não avalia compressão medular e esperar seu resultado atrasa o tratamento eficaz.",
-   "Correta: corticoide imediato e ressonância urgente, porque o prognóstico depende do estado ao tratar.",
    "A fisioterapia não reverte compressão medular e não substitui a descompressão urgente da medula.",
+   "Correta: corticoide imediato e ressonância urgente, porque o prognóstico depende do estado ao tratar.",
    "O bloqueio trata a dor sem tratar a compressão, permitindo a progressão do déficit neurológico."
   ]
  },
@@ -148,11 +148,11 @@
   "alts": [
    "Radiografia de tórax anual, exame recomendado para o rastreio de câncer de pulmão nesse perfil.",
    "Citologia de escarro seriada anual, método de rastreio validado para pacientes tabagistas pesados.",
-   "Tomografia de tórax de baixa dose anual, sempre com programa estruturado de cessação do tabagismo.",
    "Nenhum rastreio, pois a cessação há oito anos elimina completamente o risco de câncer de pulmão.",
+   "Tomografia de tórax de baixa dose anual, sempre com programa estruturado de cessação do tabagismo.",
    "Broncoscopia anual com biópsia dirigida, método de rastreio recomendado para tabagistas pesados."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
@@ -162,21 +162,21 @@
   "porAlt": [
    "A radiografia foi avaliada em ensaio grande e não reduziu a mortalidade por câncer de pulmão.",
    "A citologia de escarro tem baixa sensibilidade e foi abandonada como método de rastreio.",
-   "Correta: tomografia de baixa dose anual associada a programa estruturado de cessação do tabagismo.",
    "O risco permanece elevado por muitos anos após a cessação, mantendo a indicação de rastreio.",
+   "Correta: tomografia de baixa dose anual associada a programa estruturado de cessação do tabagismo.",
    "A broncoscopia é procedimento invasivo diagnóstico e nunca foi método de rastreio populacional."
   ]
  },
  {
   "q": "Paciente com câncer de pâncreas metastático e desempenho funcional muito comprometido pergunta sobre prognóstico. Qual é a melhor conduta de comunicação?",
   "alts": [
-   "Perguntar sempre o que a pessoa já sabe e quanto deseja saber antes de informar o prognóstico.",
    "Informar o tempo exato de sobrevida em meses, com precisão numérica, logo no início da conversa.",
    "Evitar qualquer informação prognóstica para preservar a esperança e reduzir o sofrimento do paciente.",
    "Comunicar o prognóstico apenas ao familiar acompanhante, sem envolver o paciente na conversa.",
+   "Perguntar sempre o que a pessoa já sabe e quanto deseja saber antes de informar o prognóstico.",
    "Encaminhar a conversa integralmente ao serviço de psicologia, sem participação da equipe médica."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -184,10 +184,10 @@
   "base": "ASCO Patient-Clinician Communication guideline, 2017; ANCP — Manual de Cuidados Paliativos, 2ª edição, 2021",
   "coment": "A comunicação de más notícias segue protocolos como o SPIKES: preparar o ambiente, verificar a percepção do paciente, obter o convite — quanto ele deseja saber —, dar a informação em linguagem simples, acolher a emoção e traçar o plano. Prognóstico é comunicado em intervalos, como dias a semanas ou semanas a meses, e não em número exato. Omitir informação de quem quer saber viola a autonomia; informar só ao familiar configura conspiração do silêncio.",
   "porAlt": [
-   "Correta: verificar o que a pessoa sabe e quanto deseja saber antes de informar o prognóstico.",
    "Números exatos não são confiáveis individualmente; comunica-se em intervalos de tempo amplos.",
    "Omitir informação de quem deseja saber viola a autonomia e impede o planejamento do cuidado.",
    "Informar apenas o familiar configura conspiração do silêncio e desrespeita o direito do paciente.",
+   "Correta: verificar o que a pessoa sabe e quanto deseja saber antes de informar o prognóstico.",
    "A comunicação de prognóstico é responsabilidade da equipe médica assistente, com apoio de outros."
   ]
  },
@@ -220,11 +220,11 @@
   "alts": [
    "Prescrever antiemético apenas quando o vômito ocorrer, evitando medicação desnecessária ao paciente.",
    "Reduzir a dose da quimioterapia em cinquenta por cento como primeira medida para controlar a náusea.",
-   "Profilaxia antiemética conforme o potencial emetogênico do esquema, sempre antes de cada infusão.",
    "Suspender definitivamente o tratamento oncológico diante de náusea e vômito após a infusão agora.",
-   "Prescrever apenas dieta líquida fria e repouso, medidas suficientes para o controle desse sintoma."
+   "Prescrever apenas dieta líquida fria e repouso, medidas suficientes para o controle desse sintoma.",
+   "Profilaxia antiemética conforme o potencial emetogênico do esquema, sempre antes de cada infusão."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -234,9 +234,9 @@
   "porAlt": [
    "Tratar apenas quando ocorre o vômito é menos eficaz e favorece a náusea antecipatória condicionada.",
    "Reduzir a dose por sintoma controlável com antiemético compromete a eficácia do tratamento.",
-   "Correta: profilaxia antiemética antes de cada infusão, escolhida pelo potencial emetogênico do esquema.",
    "Suspender o tratamento por náusea controlável retira do paciente o benefício oncológico esperado.",
-   "Medidas dietéticas ajudam, mas são insuficientes diante de esquemas de alto potencial emetogênico."
+   "Medidas dietéticas ajudam, mas são insuficientes diante de esquemas de alto potencial emetogênico.",
+   "Correta: profilaxia antiemética antes de cada infusão, escolhida pelo potencial emetogênico do esquema."
   ]
  }
 ]

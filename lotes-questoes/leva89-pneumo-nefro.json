@@ -5,10 +5,10 @@
    "Apenas influenza anual, única vacina indicada para pacientes com doença pulmonar obstrutiva crônica agora.",
    "Nenhuma vacina é indicada, pois a doença pulmonar obstrutiva crônica contraindica toda imunização agora.",
    "Apenas vacina contra febre amarela, indicada especificamente para pacientes com doença pulmonar crônica.",
-   "Apenas vacinas de vírus vivo atenuado, que conferem proteção superior nesse grupo de pacientes crônicos.",
-   "Influenza anual, pneumocócica, coqueluche e demais vacinas indicadas, mantendo sempre a caderneta atualizada."
+   "Influenza anual, pneumocócica, coqueluche e demais vacinas indicadas, mantendo sempre a caderneta atualizada.",
+   "Apenas vacinas de vírus vivo atenuado, que conferem proteção superior nesse grupo de pacientes crônicos."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
@@ -19,20 +19,20 @@
    "A influenza é essencial, mas não é a única vacina recomendada para esse grupo de pacientes.",
    "A doença crônica não contraindica vacinas e é indicação prioritária de imunização.",
    "A febre amarela segue a indicação por área de risco e não é específica dessa doença pulmonar.",
-   "Vacinas de vírus vivo exigem cautela em imunossuprimidos e não são preferíveis por princípio.",
-   "Correta: influenza anual, pneumocócica, coqueluche e demais vacinas indicadas, com caderneta atualizada."
+   "Correta: influenza anual, pneumocócica, coqueluche e demais vacinas indicadas, com caderneta atualizada.",
+   "Vacinas de vírus vivo exigem cautela em imunossuprimidos e não são preferíveis por princípio."
   ]
  },
  {
   "q": "Paciente com tosse crônica e escarro purulento diário, com tomografia mostrando dilatação brônquica. Qual é a investigação etiológica inicial?",
   "alts": [
    "Não investigar qualquer causa, pois as bronquiectasias nunca têm etiologia identificável no paciente adulto agora.",
+   "Investigar imunodeficiência, fibrose cística e causas pós-infecciosas, colhendo sempre cultura de escarro dirigida.",
    "Realizar apenas espirometria como investigação etiológica completa das bronquiectasias identificadas no exame.",
    "Indicar biópsia pulmonar cirúrgica de rotina como investigação inicial de todas as bronquiectasias no adulto agora.",
-   "Solicitar apenas radiografia simples de tórax como investigação etiológica das bronquiectasias diagnosticadas.",
-   "Investigar imunodeficiência, fibrose cística e causas pós-infecciosas, colhendo sempre cultura de escarro dirigida."
+   "Solicitar apenas radiografia simples de tórax como investigação etiológica das bronquiectasias diagnosticadas."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -41,22 +41,22 @@
   "coment": "Identificar a causa das bronquiectasias muda o tratamento em parte relevante dos casos. A investigação mínima inclui dosagem de imunoglobulinas, pesquisa de aspergilose broncopulmonar alérgica com IgE e IgE específica, teste do suor e pesquisa genética para fibrose cística quando o contexto sugere, avaliação de refluxo e aspiração, e busca de causa pós-infecciosa. A cultura de escarro identifica colonização, sobretudo por Pseudomonas, que muda o prognóstico.",
   "porAlt": [
    "Muitos casos têm causa identificável, e o achado muda o tratamento e o prognóstico do paciente.",
+   "Correta: investigar imunodeficiência, fibrose cística e causas pós-infecciosas, com cultura de escarro dirigida.",
    "A espirometria avalia a função, mas não identifica a etiologia das bronquiectasias diagnosticadas.",
    "A biópsia cirúrgica é invasiva e não é investigação inicial da etiologia das bronquiectasias.",
-   "A radiografia é pouco sensível e não substitui a investigação etiológica sistemática indicada.",
-   "Correta: investigar imunodeficiência, fibrose cística e causas pós-infecciosas, com cultura de escarro dirigida."
+   "A radiografia é pouco sensível e não substitui a investigação etiológica sistemática indicada."
   ]
  },
  {
   "q": "Paciente com síndrome nefrótica apresenta dor torácica súbita e dispneia. Qual é a preocupação principal?",
   "alts": [
-   "Crise asmática desencadeada pela proteinúria, principal complicação aguda esperada na síndrome nefrótica neste caso.",
    "Tromboembolismo pulmonar pelo estado de hipercoagulabilidade, exigindo sempre investigação e anticoagulação dirigida.",
+   "Crise asmática desencadeada pela proteinúria, principal complicação aguda esperada na síndrome nefrótica neste caso.",
    "Pneumonia bacteriana instalada em minutos, hipótese mais provável na síndrome nefrótica com dor torácica neste caso.",
    "Refluxo gastroesofágico agudizado, principal causa de dor torácica súbita no paciente com síndrome nefrótica agora.",
    "Anemia ferropriva descompensada, causa habitual de dispneia súbita em pacientes com síndrome nefrótica neste caso."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "dx",
@@ -64,8 +64,8 @@
   "base": "KDIGO Glomerular Diseases Guideline, 2021 com revisão 2024; ISTH guidance on nephrotic syndrome and thrombosis, 2023",
   "coment": "A síndrome nefrótica cria estado de hipercoagulabilidade pela perda urinária de antitrombina e outros anticoagulantes naturais, aumento de fatores procoagulantes e hiperviscosidade, com risco elevado de trombose venosa profunda, tromboembolismo pulmonar e trombose de veia renal, esta última mais associada à nefropatia membranosa. Albumina muito baixa aumenta o risco, e a anticoagulação profilática é considerada em pacientes selecionados de alto risco.",
   "porAlt": [
-   "A proteinúria não desencadeia crise asmática nem explica a dor torácica súbita descrita.",
    "Correta: tromboembolismo pulmonar pela hipercoagulabilidade, exigindo investigação e anticoagulação.",
+   "A proteinúria não desencadeia crise asmática nem explica a dor torácica súbita descrita.",
    "A pneumonia bacteriana não se instala em minutos, evoluindo tipicamente ao longo de dias.",
    "O refluxo não é a preocupação principal diante de dor torácica súbita em paciente nefrótico.",
    "A anemia ferropriva não causa dispneia de instalação súbita nesse contexto clínico descrito."
@@ -99,12 +99,12 @@
   "q": "Paciente com hipomagnesemia sintomática e hipocalemia refratária à reposição de potássio. Qual é a conduta?",
   "alts": [
    "Aumentar indefinidamente a dose de potássio sem qualquer reposição de magnésio no paciente refratário agora.",
+   "Repor magnésio antes de insistir no potássio, pois a hipomagnesemia perpetua sempre a perda renal de potássio.",
    "Suspender toda reposição eletrolítica e apenas observar a evolução espontânea dos distúrbios identificados.",
    "Administrar cálcio endovenoso como tratamento de escolha da hipocalemia refratária à reposição de potássio.",
-   "Prescrever apenas diurético de alça em dose alta como estratégia de correção dos distúrbios eletrolíticos.",
-   "Repor magnésio antes de insistir no potássio, pois a hipomagnesemia perpetua sempre a perda renal de potássio."
+   "Prescrever apenas diurético de alça em dose alta como estratégia de correção dos distúrbios eletrolíticos."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "tto",
@@ -113,22 +113,22 @@
   "coment": "A hipomagnesemia causa perda renal de potássio ao remover a inibição dos canais ROMK no néfron distal, tornando a hipocalemia refratária enquanto o magnésio não é corrigido. Por isso, diante de hipocalemia que não responde à reposição, dosa-se e repõe-se magnésio primeiro. Causas comuns incluem diuréticos, inibidores de bomba de prótons, diarreia crônica, alcoolismo e fármacos como anfotericina, aminoglicosídeos e inibidores de calcineurina.",
   "porAlt": [
    "Aumentar potássio sem corrigir o magnésio mantém a perda renal e a refratariedade do distúrbio.",
+   "Correta: repor magnésio primeiro, pois a hipomagnesemia perpetua a perda renal de potássio.",
    "Suspender a reposição diante de distúrbio sintomático expõe o paciente a arritmia e convulsão.",
    "O cálcio não corrige a hipocalemia e não resolve o mecanismo da refratariedade descrita.",
-   "O diurético de alça aumenta a perda de potássio e magnésio, agravando os dois distúrbios.",
-   "Correta: repor magnésio primeiro, pois a hipomagnesemia perpetua a perda renal de potássio."
+   "O diurético de alça aumenta a perda de potássio e magnésio, agravando os dois distúrbios."
   ]
  },
  {
   "q": "Paciente em uso de lítio desenvolve poliúria e urina hipotônica sem resposta à desmopressina. Qual é o diagnóstico?",
   "alts": [
    "Diabetes insipidus central clássico, condição definida pela ausência de resposta à administração de desmopressina.",
+   "Diabetes insipidus nefrogênico induzido pelo lítio, exigindo sempre reavaliação do fármaco e do balanço hídrico.",
    "Síndrome da secreção inapropriada de antidiurético, quadro caracterizado por poliúria com urina hipotônica.",
    "Glomerulonefrite rapidamente progressiva, condição definida por poliúria hipotônica sem resposta ao hormônio.",
-   "Diabetes insipidus nefrogênico induzido pelo lítio, exigindo sempre reavaliação do fármaco e do balanço hídrico.",
    "Nefrolitíase obstrutiva bilateral, quadro caracterizado por poliúria com urina hipotônica e sem resposta ao hormônio."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
@@ -137,9 +137,9 @@
   "coment": "O lítio é a causa medicamentosa mais frequente de diabetes insipidus nefrogênico, por resistência tubular à ação do hormônio antidiurético, o que explica a ausência de resposta à desmopressina — que distingue a forma nefrogênica da central, esta sim responsiva. A conduta envolve discutir com a psiquiatria a manutenção ou substituição do lítio, garantir acesso livre à água, e considerar amilorida, que reduz a entrada de lítio na célula tubular.",
   "porAlt": [
    "A forma central responde à desmopressina, justamente o que não ocorre neste paciente descrito.",
+   "Correta: diabetes insipidus nefrogênico induzido pelo lítio, com reavaliação do fármaco e do balanço hídrico.",
    "A secreção inapropriada de antidiurético cursa com oligúria e urina concentrada, o oposto do caso.",
    "A glomerulonefrite rapidamente progressiva cursa com hematúria e queda rápida da função renal.",
-   "Correta: diabetes insipidus nefrogênico induzido pelo lítio, com reavaliação do fármaco e do balanço hídrico.",
    "A obstrução bilateral cursa com hidronefrose e alteração da função, e não com esse padrão."
   ]
  },
@@ -147,12 +147,12 @@
   "q": "Paciente com rim único funcionante pergunta sobre uso de anti-inflamatório para dor crônica. Qual é a orientação?",
   "alts": [
    "Usar anti-inflamatório não hormonal continuamente sem qualquer restrição no paciente com rim único funcionante.",
+   "Evitar anti-inflamatórios não hormonais e buscar sempre alternativas analgésicas com menor risco renal associado.",
    "Usar apenas anti-inflamatório em dose dobrada para compensar a redução da massa renal do paciente neste caso.",
    "Suspender toda analgesia, pois o paciente com rim único não pode receber qualquer tipo de analgésico neste caso.",
-   "Usar anti-inflamatório apenas por via tópica em dose alta e contínua, sem qualquer risco sistêmico associado.",
-   "Evitar anti-inflamatórios não hormonais e buscar sempre alternativas analgésicas com menor risco renal associado."
+   "Usar anti-inflamatório apenas por via tópica em dose alta e contínua, sem qualquer risco sistêmico associado."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "prev",
@@ -161,22 +161,22 @@
   "coment": "Anti-inflamatórios não hormonais reduzem prostaglandinas vasodilatadoras e comprometem a perfusão glomerular, além de poderem causar nefrite intersticial e necrose de papila. Em paciente com rim único ou função reduzida, devem ser evitados, sobretudo de forma contínua. As alternativas incluem paracetamol, analgesia tópica em áreas localizadas, medidas não farmacológicas como exercício e fisioterapia e, em dor neuropática, fármacos específicos ajustados à função renal.",
   "porAlt": [
    "O uso contínuo em rim único ameaça diretamente a única reserva funcional do paciente.",
+   "Correta: evitar anti-inflamatórios e buscar alternativas analgésicas com menor risco renal.",
    "Dobrar a dose multiplica o risco renal sem qualquer justificativa fisiológica ou clínica.",
    "Existem alternativas analgésicas seguras, e suspender toda analgesia deixa o paciente sem tratamento.",
-   "A via tópica reduz mas não elimina a absorção sistêmica quando usada em dose alta e contínua.",
-   "Correta: evitar anti-inflamatórios e buscar alternativas analgésicas com menor risco renal."
+   "A via tópica reduz mas não elimina a absorção sistêmica quando usada em dose alta e contínua."
   ]
  },
  {
   "q": "Paciente com hipercalcemia de 12,5 mg/dL e PTH suprimido, sem neoplasia conhecida. Qual é a investigação?",
   "alts": [
+   "Investigar neoplasia oculta e causas independentes do paratormônio, dosando sempre vitamina D e proteína relacionada.",
    "Concluir hiperparatireoidismo primário e encaminhar diretamente à cirurgia sem qualquer investigação adicional agora.",
    "Não investigar qualquer causa, pois a hipercalcemia com paratormônio suprimido nunca tem causa identificável agora.",
-   "Investigar neoplasia oculta e causas independentes do paratormônio, dosando sempre vitamina D e proteína relacionada.",
    "Solicitar apenas cintilografia de paratireoides como única investigação da hipercalcemia com paratormônio suprimido.",
    "Iniciar reposição de cálcio para corrigir o desequilíbrio mineral identificado nos exames do paciente neste caso."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
@@ -184,9 +184,9 @@
   "base": "Endocrine Society guidance on hypercalcemia, revisão 2023; Fifth International Workshop on Primary Hyperparathyroidism, 2022",
   "coment": "Hipercalcemia com paratormônio suprimido aponta causa independente da paratireoide: malignidade, por proteína relacionada ao paratormônio ou por metástase óssea, doenças granulomatosas com produção de calcitriol, intoxicação por vitamina D ou por cálcio, hipertireoidismo, imobilização prolongada e fármacos. A investigação inclui dosagem de proteína relacionada ao paratormônio, vitamina D e seus metabólitos, eletroforese de proteínas e imagem dirigida.",
   "porAlt": [
+   "Correta: investigar neoplasia oculta e causas independentes do paratormônio, com dosagens dirigidas.",
    "O hiperparatireoidismo primário cursa com paratormônio elevado ou inapropriadamente normal.",
    "A hipercalcemia com paratormônio suprimido tem causas bem definidas e investigáveis.",
-   "Correta: investigar neoplasia oculta e causas independentes do paratormônio, com dosagens dirigidas.",
    "A cintilografia de paratireoides não faz sentido quando o paratormônio já está suprimido.",
    "Repor cálcio agrava diretamente a hipercalcemia já estabelecida no paciente."
   ]
@@ -220,11 +220,11 @@
   "alts": [
    "Diurético em dose alta como tratamento de escolha da síndrome hepatorrenal em cirrose descompensada agora.",
    "Restrição hídrica extrema isolada como tratamento definitivo da síndrome hepatorrenal do paciente cirrótico.",
+   "Terlipressina com albumina, avaliando sempre a indicação de transplante hepático como tratamento definitivo.",
    "Anti-inflamatório não hormonal em dose plena para melhorar a perfusão renal do paciente com cirrose agora.",
-   "Aguardar a recuperação espontânea da função renal sem qualquer intervenção no paciente com cirrose agora.",
-   "Terlipressina com albumina, avaliando sempre a indicação de transplante hepático como tratamento definitivo."
+   "Aguardar a recuperação espontânea da função renal sem qualquer intervenção no paciente com cirrose agora."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "nefro",
   "cenario": "uti",
   "comp": "tto",
@@ -234,9 +234,9 @@
   "porAlt": [
    "Os diuréticos são suspensos na síndrome hepatorrenal, pois agravam a hipovolemia efetiva.",
    "A restrição hídrica extrema agrava a hipoperfusão renal e não trata o mecanismo vasoconstritor.",
+   "Correta: terlipressina com albumina, avaliando o transplante hepático como tratamento definitivo.",
    "Os anti-inflamatórios agravam a vasoconstrição renal e são formalmente contraindicados aqui.",
-   "A síndrome hepatorrenal tipo 1 tem prognóstico ruim sem tratamento e não se resolve espontaneamente.",
-   "Correta: terlipressina com albumina, avaliando o transplante hepático como tratamento definitivo."
+   "A síndrome hepatorrenal tipo 1 tem prognóstico ruim sem tratamento e não se resolve espontaneamente."
   ]
  }
 ]

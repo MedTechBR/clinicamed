@@ -28,11 +28,11 @@
   "alts": [
    "Apenas orientar dieta por um ano, adiando qualquer estatina enquanto não houver evento clínico.",
    "Iniciar fibrato como primeira escolha, classe preferida para já reduzir o LDL-colesterol elevado.",
+   "Iniciar estatina de alta potência, com meta de LDL definida pela categoria de risco do paciente.",
    "Iniciar ezetimiba isolada, que reduz o LDL mais intensamente que qualquer estatina já disponível.",
-   "Prescrever ômega-3 em dose alta como monoterapia, medida suficiente para atingir a meta lipídica.",
-   "Iniciar estatina de alta potência, com meta de LDL definida pela categoria de risco do paciente."
+   "Prescrever ômega-3 em dose alta como monoterapia, medida suficiente para atingir a meta lipídica."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -42,9 +42,9 @@
   "porAlt": [
    "Adiar a estatina por um ano em paciente de alto risco acumula exposição ao LDL, que é causal na aterosclerose.",
    "O fibrato reduz sobretudo triglicérides e tem efeito modesto sobre o LDL, não sendo a escolha nesse cenário.",
+   "Correta: alto risco cardiovascular indica estatina de alta potência com meta de LDL definida pela categoria de risco.",
    "A ezetimiba isolada reduz bem menos o LDL que a estatina, e seu papel principal é como terapia associada.",
-   "O ômega-3 não substitui a estatina e não demonstrou reduzir eventos como monoterapia nessa indicação.",
-   "Correta: alto risco cardiovascular indica estatina de alta potência com meta de LDL definida pela categoria de risco."
+   "O ômega-3 não substitui a estatina e não demonstrou reduzir eventos como monoterapia nessa indicação."
   ]
  },
  {
@@ -74,13 +74,13 @@
  {
   "q": "Mulher de 38 anos, previamente hígida, chega com dispneia e dor torácica após viagem longa de avião. Está com frequência de 112 bpm, saturação de 93% e pressão de 118/74 mmHg. O eletrocardiograma mostra taquicardia sinusal e a radiografia de tórax é normal. Qual é o próximo passo?",
   "alts": [
-   "Solicitar angiotomografia de tórax para todos os pacientes com dispneia após viagem prolongada.",
    "Aplicar sempre um escore de probabilidade e, se baixa, usar o dímero D para excluir a embolia.",
+   "Solicitar angiotomografia de tórax para todos os pacientes com dispneia após viagem prolongada.",
    "Iniciar anticoagulação plena empírica sem qualquer estratificação de probabilidade clínica antes.",
    "Solicitar apenas ecocardiograma transtorácico, exame que exclui com segurança a embolia pulmonar.",
    "Liberar com analgesia, já que a radiografia de tórax normal afasta causa cardiopulmonar aguda grave."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
@@ -88,8 +88,8 @@
   "base": "European Society of Cardiology, 2019 — Guidelines for the diagnosis and management of acute pulmonary embolism",
   "coment": "A investigação de embolia pulmonar começa pela probabilidade clínica, com escore de Wells ou de Genebra. Em probabilidade baixa ou intermediária, o dímero D negativo — idealmente com corte ajustado pela idade — exclui a doença com segurança e evita tomografia desnecessária, sua radiação e o contraste. Em probabilidade alta, o dímero D não deve ser usado e parte-se direto para a angiotomografia, com anticoagulação iniciada enquanto se aguarda. Radiografia normal não afasta embolia; ao contrário, é o achado mais comum na doença.",
   "porAlt": [
-   "Tomografia para todos expõe a radiação e contraste sem necessidade em quem poderia ser excluído pelo dímero D.",
    "Correta: estratificar a probabilidade primeiro e, se baixa ou intermediária, usar o dímero D para excluir a embolia.",
+   "Tomografia para todos expõe a radiação e contraste sem necessidade em quem poderia ser excluído pelo dímero D.",
    "Anticoagular sem estratificar expõe ao sangramento pacientes que não têm a doença que se pretende tratar.",
    "O ecocardiograma pode sugerir sobrecarga do ventrículo direito, mas um exame normal não exclui embolia pulmonar.",
    "A radiografia normal é o achado mais comum na embolia pulmonar e não serve para afastar o diagnóstico."

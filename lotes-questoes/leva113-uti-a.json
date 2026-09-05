@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Paciente de 62 anos em ventilação mecânica por síndrome do desconforto respiratório agudo grave, com volume corrente de 6 mL/kg de peso predito, PEEP de 12 cmH2O e pressão de platô de 32 cmH2O. A pressão de distensão está em 20 cmH2O. Qual é o ajuste ventilatório mais adequado?",
+  "alts": [
+   "Aumentar o volume corrente para corrigir a hipercapnia observada nesse paciente crítico.",
+   "Manter os parâmetros atuais porque o volume corrente já se encontra na faixa protetora.",
+   "Reduzir o volume corrente e reavaliar a pressão de distensão, que se associa a mortalidade.",
+   "Elevar a PEEP até que a pressão de platô ultrapasse o limite de trinta e cinco cmH2O medidos.",
+   "Aumentar a frequência respiratória para quarenta incursões e reduzir a PEEP até zero cmH2O."
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ATS/ESICM/SCCM Clinical Practice Guideline on mechanical ventilation in adults with ARDS, 2023; Amato et al., driving pressure and survival in ARDS, 2015",
+  "coment": "A pressão de distensão, obtida pela diferença entre a pressão de platô e a PEEP, é a variável ventilatória que melhor se correlaciona com mortalidade na síndrome do desconforto respiratório agudo, e o alvo é mantê-la abaixo de 15 cmH2O. Com 20 cmH2O, o ajuste é reduzir o volume corrente, mesmo já estando em 6 mL/kg de peso predito, aceitando hipercapnia permissiva enquanto o pH se mantiver acima de 7,20. A pressão de platô deve permanecer abaixo de 30 cmH2O.",
+  "porAlt": [
+   "Aumentar o volume corrente eleva a pressão de distensão e agrava a lesão induzida pela ventilação.",
+   "Manter parâmetros ignora a pressão de distensão elevada, que é a variável de maior peso prognóstico.",
+   "Correta: reduzir o volume corrente para diminuir a pressão de distensão, que se associa a mortalidade.",
+   "Elevar a PEEP sem controlar a platô ultrapassa limites seguros e piora a sobredistensão alveolar.",
+   "Frequência muito alta gera autoPEEP e zerar a PEEP provoca colapso alveolar cíclico."
+  ]
+ },
+ {
+  "q": "Homem de 55 anos internado em unidade de terapia intensiva por choque séptico de foco abdominal, após ressuscitação volêmica adequada, mantém pressão arterial média de 58 mmHg e lactato em elevação. Qual é a conduta vasopressora inicial recomendada?",
+  "alts": [
+   "Iniciar dopamina em dose alfa por ser a droga com menor risco de arritmia nesse paciente.",
+   "Iniciar noradrenalina, vasopressor de primeira escolha, com alvo de pressão média de 65 mmHg.",
+   "Iniciar dobutamina isolada para melhorar o débito cardíaco antes de qualquer vasopressor.",
+   "Manter apenas cristaloide em infusão contínua até que o lactato retorne ao valor de normalidade.",
+   "Iniciar adrenalina isolada como primeira escolha por sua potência inotrópica e cronotrópica."
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Surviving Sepsis Campaign — International Guidelines for Management of Sepsis and Septic Shock, 2021",
+  "coment": "No choque séptico com hipotensão persistente após reposição volêmica inicial, a noradrenalina é o vasopressor de primeira escolha, com alvo inicial de pressão arterial média de 65 mmHg. A vasopressina pode ser associada para reduzir a dose de noradrenalina, e a adrenalina entra como terceira opção. A dobutamina se reserva à disfunção miocárdica com sinais de baixo débito apesar de volume e vasopressor adequados. Insistir apenas em volume gera sobrecarga hídrica, que se associa a pior desfecho.",
+  "porAlt": [
+   "A dopamina associa-se a mais arritmias e foi abandonada como primeira escolha no choque séptico.",
+   "Correta: noradrenalina como vasopressor de primeira linha, com alvo de pressão arterial média de 65 mmHg.",
+   "A dobutamina não corrige a vasoplegia e pode agravar a hipotensão por vasodilatação periférica.",
+   "Insistir apenas em volume causa sobrecarga hídrica, que se associa a maior mortalidade na sepse.",
+   "A adrenalina isolada não é primeira escolha e traz mais arritmia, taquicardia e hiperlactatemia."
+  ]
+ },
+ {
+  "q": "Mulher de 48 anos internada na unidade de terapia intensiva por pancreatite aguda grave evolui, no quinto dia, com febre, leucocitose e piora clínica. A tomografia mostra necrose pancreática extensa, sem gás e sem coleção organizada. Qual é a conduta adequada?",
+  "alts": [
+   "Iniciar antibiótico profilático de amplo espectro para toda necrose extensa vista na imagem.",
+   "Coletar culturas e considerar punção guiada, sem indicar antibiótico profilático de rotina.",
+   "Indicar necrosectomia cirúrgica aberta imediata devido à extensão da necrose vista no exame.",
+   "Suspender a dieta enteral e manter nutrição parenteral exclusiva até a resolução do quadro.",
+   "Solicitar colangiopancreatografia retrógrada endoscópica de urgência para todos esses casos."
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; IAP/APA evidence-based guidelines for the management of acute pancreatitis",
+  "coment": "Na pancreatite necrosante, o antibiótico profilático não reduz mortalidade nem infecção da necrose e não é recomendado de rotina. A febre e a leucocitose podem decorrer da própria resposta inflamatória sistêmica, e a conduta é investigar foco com culturas, avaliando punção aspirativa guiada quando há suspeita de necrose infectada, cujo marcador radiológico mais específico é a presença de gás. A nutrição enteral é preferida à parenteral, e a intervenção sobre a necrose é postergada, idealmente por quatro semanas, com preferência por abordagem minimamente invasiva escalonada.",
+  "porAlt": [
+   "O antibiótico profilático não reduz mortalidade nem infecção e seleciona germes resistentes e fungos.",
+   "Correta: culturas e eventual punção guiada, sem antibiótico profilático de rotina na necrose estéril.",
+   "A necrosectomia precoce aumenta a mortalidade; a abordagem é postergada e minimamente invasiva.",
+   "A nutrição enteral é preferida à parenteral por reduzir infecção e preservar a barreira intestinal.",
+   "A colangiopancreatografia de urgência se reserva à colangite associada ou à obstrução biliar persistente."
+  ]
+ },
+ {
+  "q": "Paciente de 70 anos em pós-operatório de cirurgia abdominal, no terceiro dia de internação em terapia intensiva, apresenta creatinina que subiu de 0,9 para 2,1 mg/dL e débito urinário de 0,2 mL/kg/h nas últimas doze horas, sem hipervolemia e sem hipercalemia. Qual é a conduta inicial?",
+  "alts": [
+   "Iniciar hemodiálise imediata porque a creatinina dobrou em menos de setenta e duas horas.",
+   "Prescrever furosemida em dose alta para converter a lesão oligúrica em lesão não oligúrica.",
+   "Otimizar perfusão e volemia, suspender nefrotóxicos e reavaliar antes de indicar diálise.",
+   "Administrar dopamina em dose renal com o objetivo de aumentar a perfusão do parênquima.",
+   "Repor volume de forma agressiva até que o débito urinário retorne ao valor considerado normal."
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012; ensaios STARRT-AKI (2020) e AKIKI (2016)",
+  "coment": "Na lesão renal aguda sem indicação de urgência dialítica, a conduta inicial é corrigir a causa: otimizar perfusão e volemia, suspender nefrotóxicos, ajustar doses pela filtração estimada e afastar componente obstrutivo. Os ensaios que compararam início precoce e tardio da terapia renal substitutiva não mostraram benefício da estratégia precoce em pacientes sem indicação absoluta, que continuam sendo hipercalemia refratária, acidose grave, hipervolemia refratária, uremia sintomática e algumas intoxicações. Diurético e dopamina não alteram desfecho.",
+  "porAlt": [
+   "O início precoce da diálise sem indicação absoluta não melhora desfecho e expõe a riscos do procedimento.",
+   "Diurético não previne progressão nem reduz mortalidade e pode agravar a hipovolemia existente.",
+   "Correta: otimizar perfusão, suspender nefrotóxicos e reavaliar antes de indicar terapia renal substitutiva.",
+   "A dopamina em dose renal foi abandonada por não proteger o rim e por aumentar eventos adversos.",
+   "Reposição agressiva sem avaliar responsividade gera congestão venosa, que piora a função renal."
+  ]
+ },
+ {
+  "q": "Homem de 60 anos em ventilação mecânica há quatro dias por pneumonia comunitária grave, sedado com midazolam em infusão contínua e sem uso de bloqueador neuromuscular, apresenta melhora da troca gasosa com FiO2 de 35% e PEEP de 5 cmH2O. Qual é a conduta mais adequada?",
+  "alts": [
+   "Interromper diariamente a sedação e avaliar o paciente para teste de respiração espontânea.",
+   "Manter sedação profunda até completar sete dias de ventilação por segurança do paciente.",
+   "Trocar o midazolam por propofol mantendo o mesmo nível profundo de sedação contínua dele.",
+   "Realizar traqueostomia precoce antes de qualquer tentativa de desmame ventilatório dele.",
+   "Reduzir a FiO2 para vinte e um por cento antes de considerar o teste de respiração espontânea."
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "PADIS Guidelines — Clinical Practice Guidelines for the Prevention and Management of Pain, Agitation/Sedation, Delirium, Immobility, and Sleep Disruption in Adult Patients in the ICU, 2018; ATS/CHEST guideline on liberation from mechanical ventilation, 2017",
+  "coment": "A estratégia que reduz tempo de ventilação, de internação e de delirium combina sedação leve com interrupção diária, teste de respiração espontânea sempre que houver critérios e mobilização precoce. O paciente atende aos critérios de triagem para o teste: causa da falência em resolução, oxigenação adequada com FiO2 e PEEP baixas, estabilidade hemodinâmica sem vasopressor em dose alta e capacidade de disparar o ventilador. Sedação profunda prolongada associa-se a mais delirium, fraqueza adquirida e mortalidade.",
+  "porAlt": [
+   "Correta: interrupção diária da sedação com avaliação para teste de respiração espontânea.",
+   "Manter sedação profunda por tempo fixo prolonga ventilação e aumenta delirium e fraqueza muscular.",
+   "Trocar o hipnótico sem aliviar a profundidade da sedação não traz o benefício da estratégia leve.",
+   "A traqueostomia não é indicada antes de tentar o desmame em paciente com critérios favoráveis.",
+   "Reduzir a fração inspirada ao ar ambiente não é pré-requisito para indicar o teste de respiração."
+  ]
+ },
+ {
+  "q": "Paciente de 35 anos internado em terapia intensiva por traumatismo cranioencefálico grave apresenta, ao exame, ausência de reflexos de tronco e teste de apneia positivo. A família pergunta sobre o processo de determinação de morte encefálica no Brasil. Qual afirmação está correta?",
+  "alts": [
+   "Um único exame clínico realizado pelo médico assistente basta para determinar a morte encefálica.",
+   "O exame complementar é dispensável sempre que o exame clínico for considerado inequívoco aqui.",
+   "A determinação depende da autorização prévia da família para que possa ser formalmente iniciada.",
+   "O intervalo mínimo entre os dois exames clínicos é sempre de vinte e quatro horas no adulto.",
+   "São exigidos dois exames clínicos por médicos diferentes e um exame complementar confirmatório."
+  ],
+  "gab": 4,
+  "tema": "sus",
+  "cenario": "uti",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Resolução CFM nº 2.173/2017 — critérios de determinação de morte encefálica; Lei nº 9.434/1997",
+  "coment": "A resolução do Conselho Federal de Medicina exige, para determinar morte encefálica, a presença dos pré-requisitos clínicos, dois exames clínicos realizados por médicos diferentes e capacitados, sendo um deles especialista em área definida pela norma, um teste de apneia e um exame complementar que demonstre ausência de atividade encefálica, de perfusão ou de metabolismo. O intervalo entre os exames clínicos varia conforme a faixa etária, sendo de uma hora acima de dois anos. A determinação é ato médico e não depende de autorização familiar, embora a comunicação à família seja obrigatória.",
+  "porAlt": [
+   "Um único exame clínico não satisfaz a norma vigente para a determinação de morte encefálica.",
+   "O exame complementar é obrigatório no Brasil, mesmo diante de exame clínico considerado inequívoco.",
+   "A determinação é ato médico, e a família é comunicada, mas não autoriza o próprio diagnóstico.",
+   "O intervalo depende da faixa etária e é de uma hora nos pacientes acima de dois anos de idade.",
+   "Correta: dois exames clínicos por médicos diferentes, teste de apneia e um exame complementar."
+  ]
+ },
+ {
+  "q": "Mulher de 68 anos internada em unidade de terapia intensiva por choque séptico apresenta glicemias capilares entre 190 e 230 mg/dL nas últimas medidas, sem uso prévio de insulina. Qual é o alvo glicêmico recomendado nesse cenário?",
+  "alts": [
+   "Iniciar controle intensivo buscando manter a glicemia entre oitenta e cento e dez mg/dL sempre.",
+   "Não tratar a hiperglicemia porque ela é reação adaptativa esperada em pacientes graves.",
+   "Prescrever antidiabético oral em dose plena para reduzir gradualmente as glicemias medidas.",
+   "Iniciar insulina apenas quando a glicemia ultrapassar trezentos miligramas por decilitro.",
+   "Iniciar insulina buscando manter a glicemia entre cento e quarenta e cento e oitenta mg/dL."
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Surviving Sepsis Campaign, 2021; American Diabetes Association — Standards of Care in Diabetes, 2025, capítulo de cuidado hospitalar; ensaio NICE-SUGAR, 2009",
+  "coment": "No paciente crítico, o controle glicêmico intensivo com alvo entre 80 e 110 mg/dL aumentou mortalidade e hipoglicemia grave no ensaio NICE-SUGAR. A recomendação atual é iniciar insulina quando duas medidas consecutivas ultrapassam 180 mg/dL, mantendo alvo entre 140 e 180 mg/dL, com insulina intravenosa contínua no paciente instável e monitorização capilar frequente. Antidiabéticos orais não são adequados no paciente crítico pela imprevisibilidade de absorção e pelos riscos de acidose e hipoglicemia.",
+  "porAlt": [
+   "O controle intensivo com alvo muito baixo aumentou hipoglicemia grave e mortalidade no NICE-SUGAR.",
+   "A hiperglicemia sustentada no paciente crítico associa-se a infecção e a pior desfecho clínico.",
+   "Antidiabético oral tem absorção imprevisível e risco de acidose e hipoglicemia no paciente grave.",
+   "Esperar glicemias muito altas mantém o paciente exposto por longos períodos a hiperglicemia.",
+   "Correta: iniciar insulina com alvo entre 140 e 180 mg/dL, faixa recomendada no paciente crítico."
+  ]
+ },
+ {
+  "q": "Paciente de 58 anos com choque cardiogênico após infarto agudo do miocárdio de parede anterior, em uso de noradrenalina, apresenta índice cardíaco reduzido, pressão de oclusão elevada e extremidades frias. Qual é a associação terapêutica mais adequada nesse momento?",
+  "alts": [
+   "Associar vasopressina para elevar a resistência vascular sistêmica e melhorar a perfusão tecidual.",
+   "Iniciar betabloqueador venoso para reduzir o consumo de oxigênio pelo miocárdio já isquêmico.",
+   "Administrar volume em bolus repetidos até normalizar a pressão de oclusão da artéria pulmonar.",
+   "Iniciar nitroprussiato isolado para reduzir a pós-carga sem qualquer suporte inotrópico associado.",
+   "Associar dobutamina como inotrópico e discutir revascularização e suporte circulatório mecânico."
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "ESC Guidelines for the management of acute coronary syndromes, 2023; SBC, diretriz de insuficiência cardíaca aguda",
+  "coment": "O choque cardiogênico pós-infarto combina baixo débito com congestão, e o tratamento reúne suporte inotrópico com dobutamina, vasopressor para manter pressão de perfusão e, sobretudo, a revascularização precoce da artéria culpada, que é a medida com maior impacto em mortalidade. Suporte circulatório mecânico pode ser considerado em centros com experiência. Betabloqueador é contraindicado na vigência do choque, e volume adicional em paciente congesto agrava o edema pulmonar.",
+  "porAlt": [
+   "A vasopressina não corrige o baixo débito, que é o mecanismo predominante do choque cardiogênico.",
+   "Betabloqueador está contraindicado na vigência de choque cardiogênico por reduzir ainda mais o débito.",
+   "Volume em paciente com pressão de oclusão elevada agrava a congestão pulmonar e a hipoxemia.",
+   "Vasodilatador isolado em paciente hipotenso reduz a pressão de perfusão coronariana e sistêmica.",
+   "Correta: associar inotrópico e priorizar revascularização, considerando suporte circulatório mecânico."
+  ]
+ },
+ {
+  "q": "Homem de 45 anos internado em terapia intensiva após parada cardiorrespiratória em fibrilação ventricular, com retorno da circulação espontânea, permanece comatoso e em ventilação mecânica. Qual é a conduta adequada nas primeiras horas?",
+  "alts": [
+   "Aquecer ativamente o paciente até trinta e oito graus para reduzir o consumo cerebral de oxigênio.",
+   "Definir prognóstico neurológico já nas primeiras vinte e quatro horas após o evento de parada.",
+   "Manter controle de temperatura evitando febre e realizar coronariografia se houver supra de ST.",
+   "Manter hiperventilação sustentada com alvo de PaCO2 abaixo de vinte e cinco milímetros de mercúrio.",
+   "Manter saturação de oxigênio em cem por cento com fração inspirada máxima durante toda a fase inicial."
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AHA Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care, 2020 e atualizações de 2023 e 2025; ensaio TTM2, 2021",
+  "coment": "Os cuidados pós-parada incluem controle ativo da temperatura com prevenção rigorosa de febre, oxigenação com alvo de saturação entre 92 e 98% evitando hiperóxia, normocapnia, controle pressórico com pressão arterial média adequada e coronariografia imediata quando há supradesnivelamento do segmento ST. A prognosticação neurológica é multimodal e deve ser postergada por pelo menos 72 horas após o retorno da circulação, e ainda mais quando houve uso de sedativos ou hipotermia.",
+  "porAlt": [
+   "Aquecer ativamente até temperatura elevada piora o desfecho neurológico após parada cardíaca.",
+   "A prognosticação precoce é fonte de erro e deve aguardar pelo menos setenta e duas horas.",
+   "Correta: controle de temperatura com prevenção de febre e coronariografia diante de supra de ST.",
+   "A hiperventilação agressiva causa vasoconstrição cerebral e reduz a perfusão do encéfalo lesado.",
+   "A hiperóxia sustentada associa-se a maior lesão de reperfusão e a pior desfecho neurológico."
+  ]
+ },
+ {
+  "q": "Paciente de 72 anos internado em unidade de terapia intensiva por insuficiência respiratória, em ventilação mecânica há sete dias, apresenta febre, aumento da secreção traqueal purulenta e novo infiltrado radiológico. Qual é a conduta inicial mais adequada?",
+  "alts": [
+   "Iniciar antifúngico empírico porque a colonização das vias aéreas por fungos é frequente aqui.",
+   "Aguardar o resultado da cultura antes de iniciar qualquer antimicrobiano para evitar resistência.",
+   "Coletar aspirado traqueal e iniciar antibiótico empírico dirigido ao perfil local de resistência.",
+   "Trocar rotineiramente o circuito do ventilador e a cânula como medida terapêutica inicial dele.",
+   "Iniciar corticoide sistêmico em dose alta como tratamento principal do novo infiltrado pulmonar."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "IDSA/ATS Guidelines for the Management of Adults with Hospital-acquired and Ventilator-associated Pneumonia, 2016; ANVISA, medidas de prevenção de infecção relacionada à assistência",
+  "coment": "Diante de suspeita de pneumonia associada à ventilação mecânica, colhe-se amostra respiratória e inicia-se antibioticoterapia empírica precoce, guiada pelo perfil microbiológico da unidade e pelos fatores de risco para germes multirresistentes, com descalonamento após o resultado das culturas. Aguardar a cultura para tratar aumenta mortalidade. Candida isolada em aspirado traqueal representa colonização e não indica antifúngico, e a troca rotineira do circuito não reduz infecção.",
+  "porAlt": [
+   "Fungo em secreção traqueal representa colonização e o antifúngico empírico não traz benefício aqui.",
+   "Adiar o antimicrobiano na suspeita de pneumonia associada à ventilação aumenta a mortalidade.",
+   "Correta: coletar amostra respiratória e iniciar antibiótico empírico conforme o perfil local de resistência.",
+   "A troca rotineira de circuito não reduz infecção e não constitui tratamento do quadro instalado.",
+   "Corticoide não é o tratamento da pneumonia associada à ventilação e pode agravar a infecção."
+  ]
+ }
+]

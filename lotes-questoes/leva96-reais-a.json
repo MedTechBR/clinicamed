@@ -5,10 +5,10 @@
    "rivaroxabana de 15 mg, uma vez ao dia",
    "aspirina na dosagem de 200 mg ao dia",
    "apixabana de 2,5 mg, duas vezes ao dia",
-   "varfarina, com a dose de acordo com o INR",
-   "metoprolol para manutenção do ritmo sinusal"
+   "metoprolol para manutenção do ritmo sinusal",
+   "varfarina, com a dose de acordo com o INR"
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -19,8 +19,8 @@
    "A rivaroxabana é anticoagulante oral direto, e o INVICTUS mostrou desfecho cardiovascular pior que a varfarina na doença mitral reumática.",
    "Antiagregação com aspirina não previne cardioembolia na fibrilação atrial e foi abandonada como alternativa à anticoagulação.",
    "Além de ser um DOAC não indicado na FA valvar, 2,5 mg duas vezes ao dia é a dose reduzida da apixabana, que exige dois de três critérios que a paciente não preenche.",
-   "Correta: varfarina titulada pelo INR (alvo 2 a 3) é a anticoagulação indicada na FA com estenose mitral moderada a grave.",
-   "Betabloqueador controla a frequência ventricular, mas não reduz o risco de embolia sistêmica."
+   "Betabloqueador controla a frequência ventricular, mas não reduz o risco de embolia sistêmica.",
+   "Correta: varfarina titulada pelo INR (alvo 2 a 3) é a anticoagulação indicada na FA com estenose mitral moderada a grave."
   ],
   "fonte": {
    "banca": "ENARE (EBSERH/FGV)",
@@ -30,13 +30,13 @@
  {
   "q": "Um paciente de 45 anos, tabagista, apresentava diabetes mellitus e dislipidemia, porém não era hipertenso. Foi atendido no pronto-socorro com quadro agudo de edema agudo do pulmão hipertensivo. Apresentou melhora clínica e foi liberado com prescrição de losartana e hidroclorotiazida. A hipertensão ficou refratária ao tratamento e o paciente desenvolveu insuficiência renal aguda, que foi associada ao uso da losartana. No exame físico, foi detectado um sopro em linha mamilar esquerda na altura da cicatriz umbilical. O doppler de carótidas mostrou obstrução de 50% à direita e 40% à esquerda. A doença em questão é:",
   "alts": [
+   "estenose de artéria renal",
    "doença de Kawasaki",
    "arterite de Takayasu",
    "hiperaldosteronismo primário",
-   "estenose de artéria renal",
    "feocromocitoma"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "dx",
@@ -44,10 +44,10 @@
   "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025; ESC guidelines for the management of elevated blood pressure and hypertension, 2024",
   "coment": "A combinação de edema agudo de pulmão hipertensivo súbito (flash pulmonary edema), hipertensão que se torna refratária, lesão renal aguda desencadeada por bloqueador do receptor de angiotensina e sopro abdominal aponta para estenose de artéria renal aterosclerótica. A queda da filtração após bloqueio do sistema renina-angiotensina ocorre porque a angiotensina II mantinha a pressão de filtração no glomérulo pós-estenótico. O paciente tem aterosclerose difusa documentada nas carótidas, o que reforça a etiologia; o rastreio se faz com dúplex de artérias renais, angiotomografia ou angiorressonância.",
   "porAlt": [
+   "Correta: estenose de artéria renal — edema pulmonar súbito, hipertensão refratária, lesão renal após BRA e sopro abdominal em paciente com aterosclerose difusa.",
    "A doença de Kawasaki é vasculite da infância com acometimento coronariano, incompatível com esta apresentação.",
    "A arterite de Takayasu acomete tipicamente mulheres jovens, com claudicação de membros, assimetria de pulsos e sopros em grandes vasos.",
    "O hiperaldosteronismo primário cursa com hipertensão e hipocalemia, mas não explica a queda da função renal após o bloqueador nem o sopro abdominal.",
-   "Correta: estenose de artéria renal — edema pulmonar súbito, hipertensão refratária, lesão renal após BRA e sopro abdominal em paciente com aterosclerose difusa.",
    "O feocromocitoma cursa com crises adrenérgicas paroxísticas de cefaleia, sudorese e palpitação, e não com piora renal induzida por BRA."
   ],
   "fonte": {
@@ -59,12 +59,12 @@
   "q": "Um paciente de 45 anos, sem doenças prévias, desenvolveu enfermidade de instalação súbita e progressiva com quadro de náuseas, vômitos, diarreia e dor abdominal. Logo após, queixou-se de cefaleia, vertigem e tontura. Foi internado na emergência, onde foi iniciada hidratação venosa e administração de sintomáticos. Entretanto, 3 horas depois começou a apresentar visão turva, ptose, diplopia, disfagia, disartria, boca seca e fraqueza muscular simétrica, acometendo com maior intensidade os membros superiores, sem perda da sensibilidade. Notaram-se hipotensão sem taquicardia e retenção urinária. Cerca de 6 horas após a internação, evoluiu para paralisia flácida motora descendente, associada a comprometimento autonômico disseminado. Durante todo esse período, o paciente se manteve consciente. A fraqueza muscular descendente afetou os músculos do tronco e dos membros, levando à dispneia, insuficiência respiratória e tetraplegia flácida. Foi necessária a transferência do paciente para o CTI, com instalação de tubo orotraqueal e ventilação mecânica, além de rotinas terapêuticas para pacientes graves. O diagnóstico mais provável é:",
   "alts": [
    "meningite por Haemophilus influenzae",
+   "infecção pelo Clostridium botulinum",
    "síndrome de Guillain-Barré",
    "doença de Lyme",
-   "infecção pelo Clostridium botulinum",
    "raiva"
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "dx",
@@ -73,9 +73,9 @@
   "coment": "O quadro é de botulismo: pródromo gastrointestinal seguido de acometimento de pares cranianos (ptose, diplopia, disfagia, disartria, visão turva) e paralisia flácida simétrica e descendente, com disautonomia (boca seca, retenção urinária, hipotensão sem taquicardia compensatória), sensibilidade preservada e nível de consciência mantido durante toda a evolução. A insuficiência respiratória é a causa de morte, e a conduta é suporte ventilatório precoce, antitoxina botulínica o mais cedo possível e notificação imediata, por se tratar de agravo de vigilância e de possível surto alimentar.",
   "porAlt": [
    "A meningite bacteriana cursa com febre, rigidez de nuca e rebaixamento de consciência, ausentes neste caso.",
+   "Correta: botulismo — paralisia flácida descendente com pares cranianos, disautonomia e consciência preservada após pródromo gastrointestinal.",
    "A síndrome de Guillain-Barré causa paralisia tipicamente ascendente com arreflexia, frequentemente com parestesias, e sem a disautonomia colinérgica de boca seca, midríase e retenção que marca o botulismo.",
    "A doença de Lyme cursa com eritema migratório, artrite e paralisia facial, e não com paralisia descendente aguda.",
-   "Correta: botulismo — paralisia flácida descendente com pares cranianos, disautonomia e consciência preservada após pródromo gastrointestinal.",
    "Na raiva há encefalite com agitação, hidrofobia e alteração do nível de consciência, o que não ocorreu aqui."
   ],
   "fonte": {
@@ -88,11 +88,11 @@
   "alts": [
    "febre maculosa",
    "endocardite bacteriana",
-   "leptospirose",
    "dengue hemorrágica",
+   "leptospirose",
    "infecção urinária por pseudomonas aeruginosa"
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "dx",
@@ -102,8 +102,8 @@
   "porAlt": [
    "A febre maculosa cursa com exantema que se inicia em punhos e tornozelos e evolui para palmas e plantas, e o tratamento é doxiciclina imediata.",
    "A endocardite infecciosa cursa com febre arrastada, sopro novo e fenômenos embólicos, sem essa evolução hepatorrenal e pulmonar em dias.",
-   "Correta: leptospirose com síndrome de Weil — icterícia rubínica, lesão renal aguda e hemorragia pulmonar após quadro febril com mialgia em panturrilhas.",
    "A dengue grave cursa com extravasamento plasmático e choque no período crítico, sem a icterícia rubínica e a lesão renal com hipocalemia descritas.",
+   "Correta: leptospirose com síndrome de Weil — icterícia rubínica, lesão renal aguda e hemorragia pulmonar após quadro febril com mialgia em panturrilhas.",
    "Infecção urinária não explica icterícia, hemorragia pulmonar e mialgia de panturrilhas."
   ],
   "fonte": {
@@ -114,13 +114,13 @@
  {
   "q": "Alice, 30 anos, chega à unidade básica de saúde com tosse seca, chiado no peito e dispneia aos grandes esforços, com piora à noite. Não tem história de febre, não apresenta perda de peso e a mucosa nasal está sem alterações. Piora com a fumaça de cigarro do marido. Ao exame pulmonar, apresenta tosse, murmúrio vesicular e sibilos difusos, especialmente na expiração forçada. Não apresenta outras alterações. Pesa 60 kg, tem 1,60 m de altura, seu IMC é 21,5 kg/m², a FC está em 77 bpm e a FR, em 15 irpm. O exame cardiovascular indica ritmo cardíaco regular em 2 tempos, sem sopro e sem alteração de ictus. O abdômen está normotenso, depressível, sem organomegalias ou ruídos hidroaéreos presentes. O diagnóstico mais provável é:",
   "alts": [
-   "asma",
    "rinossinusite",
+   "asma",
    "DPOC",
    "tuberculose",
    "pneumonia adquirida na comunidade"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -128,8 +128,8 @@
   "base": "Global Initiative for Asthma (GINA), 2026; Diretrizes da Sociedade Brasileira de Pneumologia e Tisiologia para manejo da asma, 2020",
   "coment": "Sintomas respiratórios variáveis — tosse seca, chiado e dispneia — com piora noturna e desencadeados por exposição a irritante, em adulta jovem com sibilos difusos à ausculta e sem febre ou perda de peso, configuram o padrão clínico da asma. O diagnóstico é confirmado pela demonstração de limitação variável ao fluxo aéreo, idealmente pela espirometria com prova broncodilatadora. Afastar o tabagismo passivo faz parte do tratamento, e a asma leve não deve ser tratada apenas com broncodilatador de resgate isolado, e sim com esquema contendo corticoide inalatório.",
   "porAlt": [
-   "Correta: asma — sintomas variáveis com piora noturna, gatilho irritante e sibilos difusos, sem febre nem perda ponderal.",
    "A rinossinusite cursa com obstrução nasal, secreção e dor facial, e a mucosa nasal está descrita como normal.",
+   "Correta: asma — sintomas variáveis com piora noturna, gatilho irritante e sibilos difusos, sem febre nem perda ponderal.",
    "A DPOC exige exposição cumulativa relevante e ocorre em faixa etária mais avançada, com obstrução persistente e pouco reversível.",
    "A tuberculose cursa tipicamente com tosse por três semanas ou mais, febre vespertina, sudorese noturna e perda de peso, ausentes aqui.",
    "A pneumonia adquirida na comunidade cursa com febre e achados focais de consolidação, não com sibilância difusa sem febre."

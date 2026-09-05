@@ -2,13 +2,13 @@
  {
   "q": "Homem de 71 anos com fibrilação atrial e cardiomiopatia hipertrófica tem escore CHA₂DS₂-VA de 1 ponto. Está assintomático, com pressão controlada e sem sangramento prévio. Segundo a diretriz europeia vigente, qual é a conduta antitrombótica?",
   "alts": [
+   "Anticoagular sempre, porque a cardiomiopatia hipertrófica indica anticoagulação independentemente do escore.",
    "Não anticoagular agora, uma vez que o escore de apenas um ponto não alcança o limiar de indicação formal.",
    "Prescrever ácido acetilsalicílico isolado, alternativa aceita quando o escore fica exatamente em um ponto.",
    "Repetir o escore em doze meses e decidir depois, mantendo o paciente sem qualquer terapia antitrombótica.",
-   "Anticoagular sempre, porque a cardiomiopatia hipertrófica indica anticoagulação independentemente do escore.",
    "Indicar oclusão do apêndice atrial esquerdo, primeira escolha nesse grupo por dispensar anticoagulação oral."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -16,10 +16,10 @@
   "base": "ESC 2024 — Guidelines for the management of atrial fibrillation, Recommendation Table 6 (classe I, nível B)",
   "coment": "A diretriz de 2024 traz recomendação classe I, nível B, de anticoagulação oral em TODOS os pacientes com fibrilação atrial e cardiomiopatia hipertrófica ou amiloidose cardíaca, independentemente do escore CHA₂DS₂-VA. Nessas duas condições o escore simplesmente não se aplica: o risco embólico decorre da própria doença estrutural, com átrio doente e fluxo lentificado. Também vale lembrar que a diretriz classifica como classe III, nível A, o uso de antiagregante como alternativa à anticoagulação — o ácido acetilsalicílico não protege contra embolia na fibrilação atrial.",
   "porAlt": [
+   "Correta: cardiomiopatia hipertrófica e amiloidose cardíaca anticoagulam sempre, com recomendação classe I, independentemente do escore.",
    "O escore não se aplica a essas duas condições: nelas a indicação vem da doença estrutural, e não da pontuação clínica.",
    "O antiagregante como alternativa à anticoagulação é classe III nível A — não protege contra embolia na fibrilação atrial.",
    "Adiar por um ano mantém sem proteção um paciente que tem indicação formal e imediata de anticoagulação oral plena.",
-   "Correta: cardiomiopatia hipertrófica e amiloidose cardíaca anticoagulam sempre, com recomendação classe I, independentemente do escore.",
    "A oclusão do apêndice é opção para quem não pode anticoagular, e não primeira escolha em paciente elegível à droga."
   ]
  },
@@ -27,12 +27,12 @@
   "q": "Mulher de 79 anos, 55 kg, creatinina de 1,1 mg/dL, com fibrilação atrial e escore CHA₂DS₂-VA de 4 pontos, vai iniciar apixabana. O médico pensa em prescrever a dose reduzida por causa da idade e do peso. Qual é a conduta correta?",
   "alts": [
    "Prescrever a dose reduzida, já que idade avançada isoladamente é critério suficiente para reduzir.",
+   "Prescrever a dose plena, porque ela preenche apenas um dos três critérios de redução da apixabana.",
    "Prescrever a dose reduzida, porque peso abaixo de sessenta quilos sozinho já obriga a redução da dose.",
    "Trocar por varfarina, opção preferida em toda paciente idosa com risco elevado de sangramento.",
-   "Prescrever a dose plena, porque ela preenche apenas um dos três critérios de redução da apixabana.",
    "Prescrever metade da dose reduzida, ajuste individualizado indicado às pacientes muito idosas."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -41,9 +41,9 @@
   "coment": "A apixabana só tem dose reduzida para 2,5 mg de doze em doze horas quando o paciente preenche DOIS dos três critérios: idade de 80 anos ou mais, peso de 60 kg ou menos, creatinina de 1,5 mg/dL ou mais. A paciente tem 79 anos e 55 kg com creatinina normal, ou seja, apenas um critério — mantém-se a dose plena de 5 mg de doze em doze horas. A diretriz de 2024 é explícita ao classificar como recomendação classe III o uso de dose reduzida sem preenchimento dos critérios específicos, justamente para evitar subdose e eventos tromboembólicos evitáveis.",
   "porAlt": [
    "A idade isolada não basta para a apixabana: são necessários dois dos três critérios definidos pela bula e pela diretriz.",
+   "Correta: com apenas um dos três critérios, a apixabana mantém a dose plena; reduzir seria a subdose que a diretriz classifica como classe III.",
    "O peso abaixo de sessenta quilos é um critério, mas sozinho não autoriza a redução da dose desse anticoagulante.",
    "Trocar por varfarina em paciente elegível ao anticoagulante direto contraria a preferência atual e exige controle de INR.",
-   "Correta: com apenas um dos três critérios, a apixabana mantém a dose plena; reduzir seria a subdose que a diretriz classifica como classe III.",
    "Não existe metade da dose reduzida: prescrever esquema fora da bula deixa a paciente sem proteção comprovada."
   ]
  },
@@ -52,11 +52,11 @@
   "alts": [
    "Só é aceitável após falha documentada de pelo menos dois antiarrítmicos usados em dose plena por um ano.",
    "Está contraindicada enquanto houver qualquer sintoma, pelo risco elevado de complicação periprocedimento.",
-   "É recomendada como opção de primeira linha em toda fibrilação paroxística, com decisão compartilhada.",
    "É recomendada apenas em pacientes com fração de ejeção reduzida associada à fibrilação atrial documentada.",
-   "Deve ser oferecida somente depois dos setenta e cinco anos, faixa em que o benefício supera o risco."
+   "Deve ser oferecida somente depois dos setenta e cinco anos, faixa em que o benefício supera o risco.",
+   "É recomendada como opção de primeira linha em toda fibrilação paroxística, com decisão compartilhada."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -66,9 +66,9 @@
   "porAlt": [
    "A exigência de falha de antiarrítmico permanece para a fibrilação persistente, mas deixou de valer para a paroxística.",
    "Sintoma é justamente a indicação da estratégia de ritmo; não há contraindicação por sintomatologia presente.",
-   "Correta: a ablação é classe I como primeira linha na fibrilação paroxística, com decisão compartilhada, sem exigir falha prévia.",
    "A fração de ejeção reduzida reforça a indicação, mas a recomendação de primeira linha não depende dela.",
-   "Não existe corte etário para indicar ablação: a decisão pesa risco do procedimento, benefício esperado e preferência."
+   "Não existe corte etário para indicar ablação: a decisão pesa risco do procedimento, benefício esperado e preferência.",
+   "Correta: a ablação é classe I como primeira linha na fibrilação paroxística, com decisão compartilhada, sem exigir falha prévia."
   ]
  },
  {
@@ -76,11 +76,11 @@
   "alts": [
    "Acrescentar ácido acetilsalicílico ao anticoagulante, para prevenir a recorrência do evento embólico.",
    "Trocar de imediato para outro anticoagulante direto, medida que reduziria o risco já no próximo mês.",
-   "Investigar a fundo causa, dose e adesão, sem acrescentar antiagregante nem trocar o anticoagulante.",
    "Trocar para varfarina com alvo de INR entre dois e três, esquema superior após falha do anticoagulante.",
-   "Suspender toda anticoagulação por trinta dias, para reduzir o risco de transformação hemorrágica ampla."
+   "Suspender toda anticoagulação por trinta dias, para reduzir o risco de transformação hemorrágica ampla.",
+   "Investigar a fundo causa, dose e adesão, sem acrescentar antiagregante nem trocar o anticoagulante."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "enf",
   "comp": "tto",
@@ -90,9 +90,9 @@
   "porAlt": [
    "Somar antiagregante ao anticoagulante para prevenir recorrência embólica é classe III: acrescenta sangramento sem benefício.",
    "Trocar de um anticoagulante direto para outro sem indicação clara também é classe III na diretriz vigente.",
-   "Correta: a conduta é investigar causa, dose e adesão — somar antiagregante ou trocar a droga sem motivo são recomendações classe III.",
    "A varfarina não é superior após evento em uso de anticoagulante direto, e exige controle de INR com mais interações.",
-   "Suspender por trinta dias expõe a novo evento embólico; o reinício é definido pelo tamanho do infarto e pelo risco."
+   "Suspender por trinta dias expõe a novo evento embólico; o reinício é definido pelo tamanho do infarto e pelo risco.",
+   "Correta: a conduta é investigar causa, dose e adesão — somar antiagregante ou trocar a droga sem motivo são recomendações classe III."
   ]
  },
  {

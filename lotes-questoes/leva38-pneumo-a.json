@@ -52,11 +52,11 @@
   "alts": [
    "Tuberculose pulmonar, câncer de pulmão e bronquiectasia difusa não diagnosticada previamente neste caso.",
    "Insuficiência cardíaca, embolia pulmonar crônica e hipertensão arterial pulmonar idiopática neste caso.",
-   "Fibrose cística, deficiência de alfa-1-antitripsina e discinesia ciliar primária do adulto neste caso.",
    "Tosse variante de asma, refluxo gastroesofágico e síndrome de tosse de vias aéreas superiores dela.",
+   "Fibrose cística, deficiência de alfa-1-antitripsina e discinesia ciliar primária do adulto neste caso.",
    "Sarcoidose pulmonar, pneumoconiose ocupacional e proteinose alveolar de início tardio neste caso."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -66,8 +66,8 @@
   "porAlt": [
    "Essas hipóteses costumam alterar a radiografia e ganham peso diante de fatores de risco ausentes aqui.",
    "Causas cardiovasculares cursam com outros achados e não explicam tosse seca com exames normais.",
-   "Essas doenças são raras, de início mais precoce e costumam ter alterações radiológicas evidentes.",
    "Correta: vias aéreas superiores, asma variante de tosse e refluxo respondem pela maioria da tosse crônica.",
+   "Essas doenças são raras, de início mais precoce e costumam ter alterações radiológicas evidentes.",
    "Doenças intersticiais e ocupacionais alteram a radiografia e a espirometria na maioria dos casos."
   ]
  },
@@ -99,12 +99,12 @@
   "q": "Mulher de 24 anos, alta e magra, chega com dor torácica súbita à direita e dispneia. O exame mostra murmúrio abolido e timpanismo à percussão, com traqueia centrada e pressão de 116/74 mmHg. Qual é a conduta?",
   "alts": [
    "Realizar punção de alívio imediata no segundo espaço intercostal antes de qualquer exame de imagem.",
-   "Confirmar sempre o pneumotórax com imagem e definir entre observação e drenagem pelo tamanho agora.",
    "Solicitar tomografia de tórax com contraste e aguardar o resultado sem qualquer intervenção inicial.",
    "Prescrever apenas analgesia e alta, uma vez que o pneumotórax espontâneo sempre se resolve sozinho.",
-   "Indicar toracotomia aberta de urgência, conduta padrão no primeiro episódio de pneumotórax espontâneo."
+   "Indicar toracotomia aberta de urgência, conduta padrão no primeiro episódio de pneumotórax espontâneo.",
+   "Confirmar sempre o pneumotórax com imagem e definir entre observação e drenagem pelo tamanho agora."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "urg",
@@ -113,22 +113,22 @@
   "coment": "O quadro sugere pneumotórax espontâneo primário, típico de jovens altos e magros. Sem sinais de hipertensão — desvio de traqueia, instabilidade, turgência jugular —, há tempo de confirmar por imagem e então decidir: pneumotórax pequeno em paciente pouco sintomático pode ser observado com oxigênio, enquanto os maiores ou sintomáticos recebem aspiração ou drenagem. A punção de alívio imediata sem imagem é reservada ao pneumotórax hipertensivo, em que a descompressão não pode esperar exame algum.",
   "porAlt": [
    "A punção imediata sem imagem se reserva ao pneumotórax hipertensivo, com instabilidade e desvio de traqueia.",
-   "Correta: sem sinais de hipertensão, confirma-se por imagem e decide-se por tamanho e sintomas.",
    "A tomografia com contraste não é necessária e aguardar sem conduta atrasa o tratamento indicado.",
    "Nem todo pneumotórax espontâneo se resolve sozinho; os maiores e sintomáticos exigem intervenção.",
-   "A toracotomia aberta não é conduta de primeiro episódio; a abordagem inicial é bem menos invasiva."
+   "A toracotomia aberta não é conduta de primeiro episódio; a abordagem inicial é bem menos invasiva.",
+   "Correta: sem sinais de hipertensão, confirma-se por imagem e decide-se por tamanho e sintomas."
   ]
  },
  {
   "q": "Homem de 66 anos com DPOC grave tem saturação de 87% em ar ambiente em repouso, medida em duas ocasiões estáveis, com pressão parcial de oxigênio de 54 mmHg. Qual é a conduta que altera sobrevida?",
   "alts": [
-   "Oxigenoterapia domiciliar prolongada, por pelo menos quinze horas diárias, incluindo o período do sono.",
    "Corticoide oral contínuo em dose baixa, medida que comprovadamente prolonga a sobrevida na DPOC neste caso.",
+   "Oxigenoterapia domiciliar prolongada, por pelo menos quinze horas diárias, incluindo o período do sono.",
    "Antibiótico profilático contínuo por tempo indeterminado, independentemente de exacerbações prévias.",
    "Broncodilatador de curta ação em série contínua ao longo do dia, dispensando o de longa duração neste caso.",
    "Fisioterapia respiratória isolada, única intervenção com impacto demonstrado sobre a mortalidade neste caso."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -136,8 +136,8 @@
   "base": "GOLD 2026 — Global Strategy for Diagnosis, Management and Prevention of COPD, oxigenoterapia domiciliar",
   "coment": "Na DPOC, três intervenções alteram sobrevida: cessação do tabagismo, oxigenoterapia domiciliar prolongada em pacientes com hipoxemia grave e crônica, e cirurgia de redução de volume pulmonar em subgrupos selecionados. O critério clássico para o oxigênio é pressão parcial de oxigênio igual ou menor que 55 mmHg, ou saturação igual ou menor que 88%, em condições estáveis e medidas repetidas — ou valores um pouco mais altos na presença de cor pulmonale ou policitemia. A prescrição deve prever pelo menos quinze horas diárias.",
   "porAlt": [
-   "Correta: hipoxemia crônica grave indica oxigenoterapia domiciliar por pelo menos quinze horas por dia.",
    "O corticoide oral contínuo não prolonga sobrevida na DPOC e acumula efeitos adversos importantes.",
+   "Correta: hipoxemia crônica grave indica oxigenoterapia domiciliar por pelo menos quinze horas por dia.",
    "O antibiótico profilático é opção de exceção em exacerbadores, e não medida de sobrevida universal.",
    "O broncodilatador de curta ação é de resgate e não substitui a terapia inalatória de manutenção.",
    "A fisioterapia e a reabilitação melhoram sintomas e capacidade funcional, mas não a sobrevida isoladamente."
@@ -147,12 +147,12 @@
   "q": "Mulher de 52 anos apresenta dispneia progressiva, síncope aos esforços e hiperfonese de segunda bulha em foco pulmonar. O ecocardiograma estima pressão sistólica de artéria pulmonar de 70 mmHg. Qual é o próximo passo diagnóstico?",
   "alts": [
    "Iniciar tratamento específico com vasodilatador pulmonar apenas com base no ecocardiograma.",
+   "Cateterismo cardíaco direito, exame que sempre confirma o diagnóstico e a hemodinâmica agora.",
    "Solicitar apenas espirometria, exame que estabelece o diagnóstico de hipertensão pulmonar.",
    "Prescrever diurético em dose alta e reavaliar em seis meses, sem qualquer exame adicional.",
-   "Indicar transplante pulmonar imediato, conduta padrão diante dessa estimativa ecocardiográfica.",
-   "Cateterismo cardíaco direito, exame que sempre confirma o diagnóstico e a hemodinâmica agora."
+   "Indicar transplante pulmonar imediato, conduta padrão diante dessa estimativa ecocardiográfica."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -161,10 +161,10 @@
   "coment": "O ecocardiograma é o exame de rastreio da hipertensão pulmonar, mas o diagnóstico definitivo exige cateterismo cardíaco direito, que mede a pressão média de artéria pulmonar, a pressão de oclusão e a resistência vascular pulmonar — separando os grupos pré e pós-capilares, que têm tratamentos completamente distintos. Tratar com vasodilatador pulmonar um paciente do grupo de doença cardíaca esquerda pode causar edema pulmonar. A investigação inclui ainda cintilografia de ventilação-perfusão para afastar doença tromboembólica crônica.",
   "porAlt": [
    "Tratar apenas pelo ecocardiograma arrisca dar vasodilatador a quem tem doença cardíaca esquerda.",
+   "Correta: o cateterismo cardíaco direito confirma o diagnóstico e define o padrão hemodinâmico da doença.",
    "A espirometria avalia função ventilatória e não diagnostica hipertensão pulmonar em nenhum cenário.",
    "Diurético isolado com reavaliação semestral desperdiça a janela de investigação e tratamento específico.",
-   "O transplante é indicado em doença avançada refratária, e não a partir de uma estimativa ecocardiográfica.",
-   "Correta: o cateterismo cardíaco direito confirma o diagnóstico e define o padrão hemodinâmico da doença."
+   "O transplante é indicado em doença avançada refratária, e não a partir de uma estimativa ecocardiográfica."
   ]
  },
  {
@@ -172,11 +172,11 @@
   "alts": [
    "Repetir a tomografia apenas em cinco anos, prazo adequado para nódulos com essas características.",
    "Iniciar antibiótico por três semanas e reavaliar, presumindo etiologia infecciosa para o nódulo.",
-   "Estratificar sempre o risco de malignidade e prosseguir com imagem funcional ou biópsia neste caso.",
    "Indicar lobectomia imediata sem qualquer investigação prévia, dada a característica das bordas.",
-   "Tranquilizar o paciente e não repetir exame algum, pois nódulos abaixo de quinze milímetros são benignos."
+   "Tranquilizar o paciente e não repetir exame algum, pois nódulos abaixo de quinze milímetros são benignos.",
+   "Estratificar sempre o risco de malignidade e prosseguir com imagem funcional ou biópsia neste caso."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -186,9 +186,9 @@
   "porAlt": [
    "Cinco anos de intervalo é prazo de nódulo de baixíssimo risco e permitiria a progressão de um câncer.",
    "Antibiótico empírico atrasa o diagnóstico e o padrão descrito não sugere etiologia infecciosa.",
-   "Correta: estratificar o risco e investigar ativamente com imagem funcional ou biópsia é a conduta indicada.",
    "A cirurgia sem investigação prévia expõe a ressecção pacientes com lesão benigna.",
-   "O tamanho isolado não define benignidade, e as bordas espiculadas aumentam muito a suspeita."
+   "O tamanho isolado não define benignidade, e as bordas espiculadas aumentam muito a suspeita.",
+   "Correta: estratificar o risco e investigar ativamente com imagem funcional ou biópsia é a conduta indicada."
   ]
  },
  {
@@ -219,12 +219,12 @@
   "q": "Homem de 47 anos com apneia obstrutiva do sono grave, confirmada por polissonografia com índice de apneia e hipopneia de 42 eventos por hora, tem sonolência diurna importante. Qual é o tratamento de primeira linha?",
   "alts": [
    "Modafinila isolada, tratamento de escolha para a sonolência da apneia obstrutiva grave do sono.",
+   "Pressão positiva contínua em via aérea, sempre associada a perda de peso e higiene do sono.",
    "Cirurgia de úvula e palato como primeira opção em todos os pacientes com apneia obstrutiva grave.",
    "Oxigênio noturno em baixo fluxo, medida que corrige os eventos obstrutivos durante o sono.",
-   "Benzodiazepínico noturno, que melhora a arquitetura do sono e reduz os eventos obstrutivos.",
-   "Pressão positiva contínua em via aérea, sempre associada a perda de peso e higiene do sono."
+   "Benzodiazepínico noturno, que melhora a arquitetura do sono e reduz os eventos obstrutivos."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -233,10 +233,10 @@
   "coment": "A pressão positiva contínua em via aérea é o tratamento de primeira linha da apneia obstrutiva do sono moderada a grave, com melhora da sonolência, da qualidade de vida, do controle pressórico e da segurança ao dirigir. Associam-se sempre medidas comportamentais: redução de peso, evitar álcool e sedativos à noite, terapia posicional quando aplicável. Dispositivos intraorais são alternativa em casos leves a moderados ou em intolerantes. O oxigênio isolado não corrige a obstrução e os sedativos agravam os eventos.",
   "porAlt": [
    "A modafinila trata sonolência residual em quem já usa pressão positiva, e não substitui o tratamento.",
+   "Correta: a pressão positiva contínua é a primeira linha na apneia moderada a grave, com medidas comportamentais.",
    "A cirurgia é opção selecionada conforme anatomia, e não primeira escolha universal na apneia grave.",
    "O oxigênio noturno não corrige a obstrução de via aérea e pode prolongar os eventos apneicos.",
-   "Benzodiazepínico relaxa a musculatura faríngea e agrava os eventos obstrutivos durante o sono.",
-   "Correta: a pressão positiva contínua é a primeira linha na apneia moderada a grave, com medidas comportamentais."
+   "Benzodiazepínico relaxa a musculatura faríngea e agrava os eventos obstrutivos durante o sono."
   ]
  }
 ]

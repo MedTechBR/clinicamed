@@ -3,12 +3,12 @@
   "q": "Paciente com artrite reumatoide em remissão sustentada há doze meses com metotrexato. Qual é a conduta?",
   "alts": [
    "Suspender abruptamente todo o tratamento assim que a remissão for documentada em uma única consulta.",
-   "Considerar redução gradual da dose com monitorização, evitando sempre a suspensão abrupta do tratamento.",
    "Aumentar a dose do metotrexato apesar da remissão sustentada documentada ao longo dos doze meses agora.",
    "Substituir o metotrexato por corticoide sistêmico contínuo como estratégia de manutenção da remissão.",
-   "Manter indefinidamente a mesma dose sem qualquer avaliação de redução mesmo com remissão sustentada."
+   "Manter indefinidamente a mesma dose sem qualquer avaliação de redução mesmo com remissão sustentada.",
+   "Considerar redução gradual da dose com monitorização, evitando sempre a suspensão abrupta do tratamento."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -17,22 +17,22 @@
   "coment": "Em remissão sustentada por pelo menos seis a doze meses, as diretrizes permitem considerar a redução gradual da terapia, começando pelo corticoide, depois pelo biológico e por último pela droga modificadora sintética, sempre com monitorização estreita da atividade. A suspensão completa associa-se a taxa elevada de recidiva, e por isso a redução é preferida à retirada, com retorno rápido à dose plena diante de qualquer sinal de reativação.",
   "porAlt": [
    "A suspensão abrupta associa-se a alta taxa de recidiva e a nova progressão do dano articular.",
-   "Correta: reduzir gradualmente com monitorização, evitando a suspensão abrupta do tratamento.",
    "Aumentar a dose em remissão sustentada adiciona toxicidade sem qualquer benefício adicional.",
    "O corticoide contínuo não substitui a droga modificadora e traz toxicidade acumulada relevante.",
-   "Nunca avaliar a redução mantém exposição desnecessária em paciente com remissão sustentada."
+   "Nunca avaliar a redução mantém exposição desnecessária em paciente com remissão sustentada.",
+   "Correta: reduzir gradualmente com monitorização, evitando a suspensão abrupta do tratamento."
   ]
  },
  {
   "q": "Paciente com gota e crises recorrentes apresenta ácido úrico de 9,5 mg/dL fora da crise. Qual é a conduta?",
   "alts": [
-   "Iniciar hipouricemiante sem qualquer profilaxia, pois a redução do urato nunca desencadeia novas crises agora.",
    "Iniciar hipouricemiante com meta de urato definida, associando sempre profilaxia de crise nos primeiros meses.",
+   "Iniciar hipouricemiante sem qualquer profilaxia, pois a redução do urato nunca desencadeia novas crises agora.",
    "Prescrever apenas anti-inflamatório nas crises, sem qualquer tratamento hipouricemiante de manutenção agora.",
    "Suspender o hipouricemiante sempre que ocorrer uma nova crise de gota durante o tratamento de manutenção.",
    "Prescrever apenas dieta com restrição total de purinas como tratamento definitivo da gota recorrente agora."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -40,8 +40,8 @@
   "base": "ACR Guideline for the Management of Gout, 2020; EULAR recommendations, revisão 2020",
   "coment": "Crises recorrentes, tofos, artropatia gotosa ou nefrolitíase por urato indicam tratamento hipouricemiante contínuo, sendo o alopurinol a primeira linha, titulado até atingir urato abaixo de 6 mg/dL, ou abaixo de 5 mg/dL na doença tofosa. A redução do urato mobiliza cristais e pode desencadear crises, por isso associa-se profilaxia com colchicina por três a seis meses. O hipouricemiante não deve ser suspenso durante uma crise em quem já o usa.",
   "porAlt": [
-   "A redução do urato mobiliza cristais e desencadeia crises, o que justifica a profilaxia inicial.",
    "Correta: hipouricemiante com meta de urato definida e profilaxia com colchicina nos primeiros meses.",
+   "A redução do urato mobiliza cristais e desencadeia crises, o que justifica a profilaxia inicial.",
    "Tratar apenas as crises não impede a deposição progressiva de cristais e o dano articular.",
    "Suspender o hipouricemiante durante a crise prolonga o episódio e desorganiza o tratamento.",
    "A dieta isolada reduz pouco o urato e é insuficiente diante desse nível e dessa frequência de crises."
@@ -51,12 +51,12 @@
   "q": "Paciente com lúpus e anticorpo antifosfolípide positivo, sem trombose prévia, deseja saber sobre prevenção. Qual é a conduta?",
   "alts": [
    "Anticoagulação plena para todos os pacientes com anticorpo antifosfolípide positivo, mesmo sem trombose prévia.",
-   "Hidroxicloroquina e controle de fatores de risco, considerando sempre antiagregante conforme o perfil de anticorpos.",
    "Nenhuma medida preventiva, pois o anticorpo positivo sem trombose não confere qualquer risco adicional neste caso.",
    "Corticoide sistêmico contínuo em dose alta como estratégia de profilaxia primária de trombose nesses pacientes.",
+   "Hidroxicloroquina e controle de fatores de risco, considerando sempre antiagregante conforme o perfil de anticorpos.",
    "Suspender a hidroxicloroquina em todos os pacientes com anticorpo antifosfolípide positivo e lúpus associado agora."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "prev",
@@ -65,9 +65,9 @@
   "coment": "Na profilaxia primária de portadores de anticorpo antifosfolípide sem trombose, recomenda-se hidroxicloroquina em pacientes com lúpus, pelo efeito antitrombótico e imunomodulador, controle rigoroso de fatores de risco cardiovascular e consideração de ácido acetilsalicílico em dose baixa, sobretudo no perfil de alto risco com tripla positividade. Anticoagulação plena não é indicada sem evento trombótico, pelo risco hemorrágico desproporcional ao benefício.",
   "porAlt": [
    "A anticoagulação plena sem evento trombótico expõe a hemorragia sem benefício proporcional.",
-   "Correta: hidroxicloroquina e controle de fatores de risco, com antiagregante conforme o perfil sorológico.",
    "O anticorpo positivo confere risco trombótico aumentado e justifica medidas preventivas dirigidas.",
    "O corticoide não é estratégia de profilaxia primária de trombose e traz toxicidade relevante.",
+   "Correta: hidroxicloroquina e controle de fatores de risco, com antiagregante conforme o perfil sorológico.",
    "A hidroxicloroquina é justamente recomendada nesses pacientes pelo efeito protetor demonstrado."
   ]
  },
@@ -76,11 +76,11 @@
   "alts": [
    "Não realizar qualquer rastreio oncológico, pois a dermatomiosite não guarda relação com neoplasia no adulto.",
    "Solicitar apenas radiografia de mãos como avaliação adicional obrigatória no paciente com dermatomiosite.",
+   "Rastrear neoplasia oculta, pois a dermatomiosite do adulto associa-se sempre a risco aumentado de câncer.",
    "Indicar biópsia muscular repetida a cada três meses como única avaliação adicional necessária no seguimento.",
-   "Solicitar apenas densitometria óssea como avaliação adicional obrigatória em pacientes com dermatomiosite.",
-   "Rastrear neoplasia oculta, pois a dermatomiosite do adulto associa-se sempre a risco aumentado de câncer."
+   "Solicitar apenas densitometria óssea como avaliação adicional obrigatória em pacientes com dermatomiosite."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "prev",
@@ -90,21 +90,21 @@
   "porAlt": [
    "A associação com neoplasia está bem estabelecida e torna o rastreio obrigatório nesse contexto.",
    "A radiografia de mãos não é a avaliação adicional prioritária diante do risco oncológico associado.",
+   "Correta: rastrear neoplasia oculta, pela associação estabelecida entre dermatomiosite do adulto e câncer.",
    "A biópsia repetida trimestralmente não é conduta de seguimento nem substitui o rastreio oncológico.",
-   "A densitometria interessa pelo uso de corticoide, mas não é a avaliação adicional prioritária aqui.",
-   "Correta: rastrear neoplasia oculta, pela associação estabelecida entre dermatomiosite do adulto e câncer."
+   "A densitometria interessa pelo uso de corticoide, mas não é a avaliação adicional prioritária aqui."
   ]
  },
  {
   "q": "Paciente com osteoporose em uso de bisfosfonato há cinco anos, sem fratura no período e com risco moderado. Qual é a conduta?",
   "alts": [
+   "Considerar pausa terapêutica com reavaliação periódica do risco, mantendo sempre cálcio e vitamina D adequados.",
    "Manter o bisfosfonato indefinidamente sem qualquer reavaliação do risco de fratura ao longo dos anos agora.",
    "Suspender definitivamente todo o tratamento, incluindo cálcio e vitamina D, após cinco anos de bisfosfonato.",
-   "Considerar pausa terapêutica com reavaliação periódica do risco, mantendo sempre cálcio e vitamina D adequados.",
    "Aumentar a dose do bisfosfonato para o dobro após cinco anos de tratamento em todos os pacientes neste caso.",
    "Substituir o bisfosfonato por corticoide sistêmico contínuo como estratégia de manutenção da massa óssea agora."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "prev",
@@ -112,9 +112,9 @@
   "base": "Endocrine Society guideline on pharmacological management of osteoporosis, revisão 2023; ASBMR task force report on long-term bisphosphonate use",
   "coment": "Após cinco anos de bisfosfonato oral, ou três anos do endovenoso, reavalia-se o risco: pacientes de risco moderado sem fratura no período podem entrar em pausa terapêutica, aproveitando o efeito residual do fármaco no osso, com reavaliação a cada dois a três anos. Pacientes de alto risco mantêm o tratamento. A pausa reduz o risco de osteonecrose de mandíbula e de fratura atípica de fêmur, e cálcio e vitamina D são mantidos durante todo o período.",
   "porAlt": [
+   "Correta: considerar pausa terapêutica com reavaliação periódica, mantendo cálcio e vitamina D.",
    "Manter indefinidamente sem reavaliar aumenta o risco de fratura atípica e osteonecrose de mandíbula.",
    "Cálcio e vitamina D são mantidos mesmo durante a pausa do bisfosfonato no paciente com osteoporose.",
-   "Correta: considerar pausa terapêutica com reavaliação periódica, mantendo cálcio e vitamina D.",
    "Dobrar a dose não tem respaldo e amplia a toxicidade sem ganho antifratura demonstrado.",
    "O corticoide causa perda óssea e é fator de risco para osteoporose, não seu tratamento."
   ]
@@ -124,11 +124,11 @@
   "alts": [
    "Prescrever apenas antiagregante plaquetário isolado como tratamento definitivo da vasculite de grandes vasos agora.",
    "Indicar revascularização cirúrgica imediata em todos os casos antes de qualquer controle da atividade inflamatória.",
-   "Confirmar com angiografia por imagem e iniciar corticoide, associando sempre imunossupressor poupador de esteroide.",
    "Prescrever apenas anti-inflamatório não hormonal como tratamento de escolha da arterite de grandes vasos agora.",
-   "Aguardar a resolução espontânea da vasculite sem qualquer imunossupressão no paciente jovem descrito neste caso."
+   "Aguardar a resolução espontânea da vasculite sem qualquer imunossupressão no paciente jovem descrito neste caso.",
+   "Confirmar com angiografia por imagem e iniciar corticoide, associando sempre imunossupressor poupador de esteroide."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -138,21 +138,21 @@
   "porAlt": [
    "O antiagregante é adjuvante e não controla a inflamação da parede arterial nessa vasculite.",
    "A revascularização com doença ativa tem alta taxa de reestenose e é feita preferencialmente em remissão.",
-   "Correta: confirmar por imagem vascular e iniciar corticoide com imunossupressor poupador de esteroide.",
    "O anti-inflamatório não hormonal não controla vasculite de grandes vasos nem previne estenoses.",
-   "A vasculite não se resolve espontaneamente e progride para estenoses e oclusões irreversíveis."
+   "A vasculite não se resolve espontaneamente e progride para estenoses e oclusões irreversíveis.",
+   "Correta: confirmar por imagem vascular e iniciar corticoide com imunossupressor poupador de esteroide."
   ]
  },
  {
   "q": "Paciente com dor no ombro que piora à elevação do braço, com teste de impacto positivo, sem trauma. Qual é a conduta inicial?",
   "alts": [
+   "Analgesia com fisioterapia dirigida, reservando sempre a imagem avançada aos casos refratários ao tratamento.",
    "Solicitar ressonância magnética de ombro imediatamente em todos os pacientes com dor ao elevar o braço agora.",
    "Indicar cirurgia artroscópica imediata em todos os pacientes com teste de impacto positivo no ombro agora.",
-   "Analgesia com fisioterapia dirigida, reservando sempre a imagem avançada aos casos refratários ao tratamento.",
    "Prescrever imobilização completa do ombro por seis semanas como tratamento inicial da dor descrita agora.",
    "Prescrever corticoide sistêmico contínuo em dose alta como tratamento inicial da síndrome do impacto agora."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -160,9 +160,9 @@
   "base": "AAOS Clinical Practice Guideline on management of rotator cuff injuries, revisão 2023; BMJ Best Practice on shoulder impingement, 2024",
   "coment": "A dor subacromial, ou síndrome do impacto, é a causa mais frequente de dor no ombro e o tratamento inicial é conservador: analgesia com anti-inflamatório por período curto e, sobretudo, fisioterapia com exercícios de fortalecimento do manguito rotador e dos estabilizadores da escápula, que é a intervenção com melhor evidência. Imobilização prolongada favorece capsulite adesiva. Imagem avançada e cirurgia se reservam a falha do tratamento conservador bem conduzido.",
   "porAlt": [
+   "Correta: analgesia com fisioterapia dirigida, reservando imagem avançada aos casos refratários.",
    "A ressonância imediata revela achados degenerativos frequentes e leva a intervenções desnecessárias.",
    "A cirurgia se reserva à falha do tratamento conservador bem conduzido por período adequado.",
-   "Correta: analgesia com fisioterapia dirigida, reservando imagem avançada aos casos refratários.",
    "A imobilização prolongada favorece capsulite adesiva e piora a função do ombro acometido.",
    "O corticoide sistêmico contínuo não é tratamento da dor subacromial e traz toxicidade evitável."
   ]
@@ -172,11 +172,11 @@
   "alts": [
    "Prescrever apenas analgésico comum e observar a evolução das úlceras digitais sem qualquer tratamento vasodilatador.",
    "Iniciar betabloqueador em dose plena para o controle do fenômeno de Raynaud grave descrito no paciente agora.",
-   "Bloqueador de canal de cálcio e cuidados locais, considerando sempre inibidor de fosfodiesterase ou bosentana.",
    "Indicar amputação digital imediata em todos os pacientes com úlceras digitais na esclerose sistêmica agora.",
-   "Orientar exposição ao frio de forma progressiva como estratégia para induzir tolerância vascular no paciente."
+   "Orientar exposição ao frio de forma progressiva como estratégia para induzir tolerância vascular no paciente.",
+   "Bloqueador de canal de cálcio e cuidados locais, considerando sempre inibidor de fosfodiesterase ou bosentana."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -186,21 +186,21 @@
   "porAlt": [
    "Observar sem vasodilatador permite progressão para necrose digital e perda de tecido.",
    "O betabloqueador causa vasoconstrição periférica e agrava diretamente o fenômeno de Raynaud.",
-   "Correta: bloqueador de canal de cálcio com cuidados locais, associando inibidor de fosfodiesterase ou bosentana.",
    "A amputação é medida de exceção diante de necrose estabelecida e infecção não controlada.",
-   "A exposição ao frio desencadeia o vasoespasmo e agrava as úlceras digitais do paciente."
+   "A exposição ao frio desencadeia o vasoespasmo e agrava as úlceras digitais do paciente.",
+   "Correta: bloqueador de canal de cálcio com cuidados locais, associando inibidor de fosfodiesterase ou bosentana."
   ]
  },
  {
   "q": "Paciente com suspeita de febre reumática apresenta poliartrite migratória, cardite e evidência de infecção estreptocócica prévia. Qual é a conduta?",
   "alts": [
+   "Tratar a infecção e iniciar profilaxia secundária prolongada, avaliando sempre o acometimento cardíaco associado.",
    "Tratar apenas a artrite com anti-inflamatório, sem qualquer profilaxia secundária após o episódio agudo agora.",
    "Prescrever apenas antibiótico por dez dias e alta definitiva sem qualquer seguimento cardiológico programado.",
    "Indicar cirurgia valvar imediata em todos os pacientes com febre reumática e qualquer grau de cardite agora.",
-   "Prescrever apenas corticoide sistêmico isolado, sem qualquer antibiótico ou profilaxia secundária associada.",
-   "Tratar a infecção e iniciar profilaxia secundária prolongada, avaliando sempre o acometimento cardíaco associado."
+   "Prescrever apenas corticoide sistêmico isolado, sem qualquer antibiótico ou profilaxia secundária associada."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "enf",
   "comp": "tto",
@@ -208,23 +208,23 @@
   "base": "Diretriz Brasileira de Valvopatias — SBC, revisão 2023; AHA scientific statement on acute rheumatic fever, revisão 2023; critérios de Jones atualizados",
   "coment": "A febre reumática é diagnosticada pelos critérios de Jones atualizados, que consideram a incidência populacional. O tratamento inclui erradicação do estreptococo com penicilina benzatina, anti-inflamatório para a artrite, corticoide na cardite grave e, sobretudo, profilaxia secundária prolongada com penicilina benzatina a cada três a quatro semanas, cuja duração depende da presença e da gravidade do acometimento cardíaco, podendo chegar a toda a vida.",
   "porAlt": [
+   "Correta: erradicar a infecção e iniciar profilaxia secundária prolongada, conforme o acometimento cardíaco.",
    "Tratar só a artrite deixa o paciente exposto a novos surtos e a dano valvar cumulativo e progressivo.",
    "O antibiótico do episódio agudo não substitui a profilaxia secundária nem o seguimento cardiológico.",
    "A cirurgia valvar se reserva a lesões graves com repercussão, e não a todo grau de cardite.",
-   "O corticoide isolado não erradica o estreptococo nem previne novos surtos da doença.",
-   "Correta: erradicar a infecção e iniciar profilaxia secundária prolongada, conforme o acometimento cardíaco."
+   "O corticoide isolado não erradica o estreptococo nem previne novos surtos da doença."
   ]
  },
  {
   "q": "Paciente com dor articular difusa após início de estatina, com CPK elevada dez vezes. Qual é a conduta?",
   "alts": [
+   "Suspender a estatina e monitorar a CPK, investigando sempre miopatia autoimune se não houver melhora.",
    "Manter a estatina na mesma dose e apenas prescrever analgésico para o controle da dor muscular referida.",
    "Aumentar a dose da estatina para acelerar o efeito hipolipemiante apesar da elevação importante da CPK.",
-   "Suspender a estatina e monitorar a CPK, investigando sempre miopatia autoimune se não houver melhora.",
    "Iniciar corticoide sistêmico em dose alta imediatamente sem qualquer suspensão da estatina em uso.",
    "Substituir a estatina por fibrato em dose plena imediatamente, sem qualquer monitorização da CPK sérica."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -232,9 +232,9 @@
   "base": "EAS Consensus Panel statement on statin-associated muscle symptoms, revisão 2023; ACC/AHA Guideline on blood cholesterol, revisão 2023",
   "coment": "Elevação de CPK acima de dez vezes o limite superior com sintomas musculares indica suspender a estatina e monitorar a CPK até a normalização, com atenção a rabdomiólise e função renal. Após a normalização, pode-se tentar reintrodução com outra estatina em dose menor ou em dias alternados. Se a CPK não normaliza após a suspensão, investiga-se miopatia necrosante autoimune com anticorpo anti-HMGCR, que exige imunossupressão.",
   "porAlt": [
+   "Correta: suspender a estatina e monitorar a CPK, investigando miopatia autoimune se não houver melhora.",
    "Manter a estatina com CPK muito elevada arrisca rabdomiólise e lesão renal aguda no paciente.",
    "Aumentar a dose amplia diretamente a toxicidade muscular já evidenciada pela elevação da CPK.",
-   "Correta: suspender a estatina e monitorar a CPK, investigando miopatia autoimune se não houver melhora.",
    "O corticoide não é conduta inicial e mascara a evolução antes mesmo de suspender o agente causal.",
    "O fibrato pode agravar a miotoxicidade, sobretudo em associação, e não dispensa a monitorização."
   ]

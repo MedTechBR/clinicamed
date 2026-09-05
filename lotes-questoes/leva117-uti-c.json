@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Homem de 54 anos internado em terapia intensiva com pancreatite grave e distensão abdominal apresenta pressão intra-abdominal de 24 mmHg, oligúria, pressão de pico elevada no ventilador e hipotensão. Qual é o diagnóstico e a conduta inicial?",
+  "alts": [
+   "Síndrome compartimental abdominal: aumentar a reposição volêmica agressiva para melhorar a diurese.",
+   "Obstrução intestinal mecânica: indicar laparotomia exploradora imediata sem qualquer medida clínica.",
+   "Síndrome compartimental abdominal: medidas clínicas de descompressão e cirurgia se não houver resposta.",
+   "Pneumoperitônio hipertensivo: realizar punção com agulha na parede abdominal como primeira medida.",
+   "Insuficiência renal pré-renal simples: prescrever furosemida em dose alta para restaurar a diurese."
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "World Society of the Abdominal Compartment Syndrome — consensus definitions and clinical practice guidelines on intra-abdominal hypertension, 2013",
+  "coment": "A síndrome compartimental abdominal é definida por pressão intra-abdominal sustentada acima de 20 mmHg associada a nova disfunção orgânica, e compromete perfusão renal e esplâncnica, retorno venoso e complacência pulmonar. O manejo escalonado inclui descompressão gástrica e colônica, sedação e analgesia adequadas, drenagem percutânea de coleções, correção do balanço hídrico com uso criterioso de diurético ou ultrafiltração e, na ausência de resposta, laparotomia descompressiva.",
+  "porAlt": [
+   "A reposição volêmica agressiva aumenta o edema visceral e eleva ainda mais a pressão intra-abdominal.",
+   "A obstrução mecânica não explica o conjunto de disfunções, e a cirurgia não é a primeira medida.",
+   "Correta: síndrome compartimental abdominal, com medidas clínicas escalonadas e cirurgia se refratária.",
+   "Não há descrição de pneumoperitônio, e a punção com agulha não trata a hipertensão intra-abdominal.",
+   "O diurético isolado não trata o mecanismo e pode agravar a hipoperfusão renal existente aqui."
+  ]
+ },
+ {
+  "q": "Mulher de 66 anos em terapia intensiva por sepse urinária evolui com plaquetopenia, prolongamento do tempo de protrombina, fibrinogênio baixo e produtos de degradação da fibrina elevados, além de sangramento em sítios de punção. Qual é o diagnóstico e a conduta?",
+  "alts": [
+   "Coagulação intravascular disseminada: iniciar heparina plena em todos os casos, seja qual for o quadro.",
+   "Púrpura trombocitopênica trombótica: iniciar plasmaférese diária como primeira medida terapêutica.",
+   "Trombocitopenia induzida por heparina: suspender toda heparina e iniciar anticoagulante alternativo.",
+   "Hemofilia adquirida: administrar fator VIII recombinante em dose alta como tratamento principal.",
+   "Coagulação intravascular disseminada: tratar a sepse e repor hemocomponentes conforme sangramento."
+  ],
+  "gab": 4,
+  "tema": "hemato",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ISTH guidance for diagnosis and management of disseminated intravascular coagulation, 2013; British Society for Haematology guidelines",
+  "coment": "A coagulação intravascular disseminada associada à sepse combina consumo de plaquetas e fatores com fibrinólise, produzindo plaquetopenia, alargamento dos tempos de coagulação, queda do fibrinogênio e elevação dos produtos de degradação. O tratamento essencial é controlar a doença de base; a reposição de hemocomponentes é guiada pelo sangramento ou pela necessidade de procedimento, não pelo valor laboratorial isolado. A heparina se reserva ao fenótipo predominantemente trombótico.",
+  "porAlt": [
+   "A heparina não é indicada de forma indiscriminada e agrava o sangramento no fenótipo hemorrágico.",
+   "A púrpura trombocitopênica trombótica cursa com anemia microangiopática e fibrinogênio preservado.",
+   "Não há relação temporal com heparina nem trombose, elementos exigidos para essa outra hipótese.",
+   "A hemofilia adquirida altera apenas o tempo de tromboplastina parcial, com fibrinogênio normal.",
+   "Correta: coagulação intravascular disseminada, com tratamento da sepse e reposição guiada pelo sangramento."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos em terapia intensiva após transplante renal recente, em imunossupressão, apresenta febre e infiltrado pulmonar difuso, com hipoxemia progressiva. Qual é a abordagem diagnóstica mais adequada?",
+  "alts": [
+   "Tratar empiricamente apenas como pneumonia bacteriana comum, sem investigação microbiológica ampliada.",
+   "Ampliar a investigação para germes oportunistas, incluindo broncoscopia com lavado broncoalveolar.",
+   "Suspender toda a imunossupressão de imediato para restaurar a resposta imune desse paciente grave.",
+   "Iniciar corticoide em dose alta isoladamente como tratamento principal do infiltrado pulmonar difuso.",
+   "Aguardar a evolução clínica por setenta e duas horas antes de iniciar qualquer investigação ampliada."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ATS Workshop Report on pneumonia in the immunocompromised host, 2020; KDIGO Clinical Practice Guideline for the Care of Kidney Transplant Recipients, 2009 e atualizações de 2020",
+  "coment": "No transplantado com infiltrado pulmonar difuso e hipoxemia, o diferencial inclui pneumocistose, citomegalovírus, fungos filamentosos, micobactérias, germes bacterianos e causas não infecciosas como edema e toxicidade medicamentosa. A investigação ampliada com broncoscopia e lavado broncoalveolar, somada a antígenos, biologia molecular e imagem, é o que permite tratamento dirigido. A imunossupressão é ajustada em conjunto com a equipe do transplante, nunca suspensa abruptamente por conta própria.",
+  "porAlt": [
+   "Tratar apenas como pneumonia bacteriana comum perde agentes oportunistas frequentes nesse perfil.",
+   "Correta: investigação ampliada para oportunistas, incluindo broncoscopia com lavado broncoalveolar.",
+   "A suspensão abrupta de toda a imunossupressão arrisca rejeição aguda do enxerto transplantado.",
+   "O corticoide isolado sem definição etiológica pode agravar uma infecção oportunista em curso.",
+   "Aguardar a evolução em paciente hipoxêmico e imunossuprimido atrasa o tratamento dirigido."
+  ]
+ },
+ {
+  "q": "Paciente de 49 anos em terapia intensiva por queimadura extensa apresenta, no segundo dia, hipernatremia de 158 mEq/L com diurese elevada e osmolalidade urinária baixa. Qual é a conduta mais adequada?",
+  "alts": [
+   "Corrigir a hipernatremia rapidamente com água livre em bolus até normalizar o sódio sérico dele.",
+   "Restringir a oferta hídrica para reduzir a diurese elevada observada nesse paciente queimado.",
+   "Administrar solução salina hipertônica para corrigir a osmolalidade urinária que está reduzida.",
+   "Prescrever furosemida em dose alta para aumentar a excreção do excesso de sódio corporal total.",
+   "Corrigir o déficit de água livre lentamente e investigar diabetes insípido como causa do quadro."
+  ],
+  "gab": 4,
+  "tema": "nefro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Sterns RH — Disorders of plasma sodium (NEJM, 2015); KDIGO e consensos sobre distúrbios do sódio no paciente crítico",
+  "coment": "Hipernatremia com poliúria e urina inapropriadamente diluída sugere perda de água livre por diabetes insípido, que no paciente crítico pode ser central, após lesão neurológica, ou nefrogênico, por fármacos e distúrbios eletrolíticos. A conduta é calcular e repor o déficit de água livre, corrigindo o sódio em ritmo não superior a 10 a 12 mEq/L em vinte e quatro horas para evitar edema cerebral, tratar as perdas em curso e investigar a etiologia, com desmopressina quando a causa é central.",
+  "porAlt": [
+   "A correção rápida da hipernatremia crônica provoca edema cerebral e convulsão nesse contexto.",
+   "Restringir líquidos em paciente que perde água livre agrava a hipernatremia e a hipovolemia.",
+   "A salina hipertônica eleva ainda mais o sódio sérico, agravando o distúrbio já identificado nele.",
+   "A furosemida aumenta a perda de água livre e tende a agravar a hipernatremia existente aqui.",
+   "Correta: corrigir o déficit de água livre lentamente e investigar diabetes insípido como causa."
+  ]
+ },
+ {
+  "q": "Mulher de 71 anos em terapia intensiva por insuficiência respiratória aguda hipoxêmica não hipercápnica, sem indicação imediata de intubação, com desconforto moderado e saturação de 88% sob máscara com reservatório. Qual é a estratégia inicial?",
+  "alts": [
+   "Ventilação não invasiva com dois níveis de pressão como primeira escolha na hipoxemia isolada.",
+   "Cateter nasal de alto fluxo com monitorização estreita e reavaliação frequente do índice ROX.",
+   "Manter apenas máscara com reservatório e reavaliar somente após vinte e quatro horas de suporte.",
+   "Intubar imediatamente todos os pacientes que apresentem saturação abaixo de noventa por cento.",
+   "Iniciar oxigenoterapia hiperbárica como suporte inicial para a insuficiência respiratória aguda."
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ERS/ATS clinical practice guideline on high-flow nasal cannula in acute respiratory failure, 2022; ensaio FLORALI, 2015",
+  "coment": "Na insuficiência respiratória aguda hipoxêmica sem hipercapnia, o cateter nasal de alto fluxo reduz a necessidade de intubação em comparação à oxigenoterapia convencional e é a estratégia inicial preferida em pacientes selecionados, com monitorização estreita. O índice ROX, que combina saturação, fração inspirada de oxigênio e frequência respiratória, ajuda a identificar precocemente quem falhará e precisará de intubação — o retardo da intubação na falha se associa a pior desfecho.",
+  "porAlt": [
+   "A ventilação não invasiva tem melhor desempenho na insuficiência hipercápnica e no edema pulmonar.",
+   "Correta: cateter nasal de alto fluxo com monitorização estreita e reavaliação pelo índice ROX.",
+   "Manter oxigenoterapia convencional sem reavaliação frequente atrasa o reconhecimento da falha.",
+   "A intubação imediata universal desconsidera estratégias que reduzem essa necessidade em parte dos casos.",
+   "A oxigenoterapia hiperbárica não tem indicação no manejo dessa forma de insuficiência respiratória."
+  ]
+ },
+ {
+  "q": "Homem de 44 anos em terapia intensiva por trauma torácico apresenta hipotensão súbita, turgência jugular, desvio de traqueia e ausência de murmúrio vesicular à direita durante a ventilação mecânica. Qual é a conduta imediata?",
+  "alts": [
+   "Solicitar radiografia de tórax e aguardar o laudo antes de qualquer procedimento invasivo nele.",
+   "Aumentar a PEEP para recrutar as áreas colapsadas do pulmão direito que está sem murmúrio.",
+   "Administrar volume em grande quantidade como medida principal para reverter a hipotensão dele.",
+   "Realizar pericardiocentese imediata, pois a turgência jugular indica tamponamento cardíaco agudo.",
+   "Descomprimir o tórax com punção seguida de drenagem, sem aguardar a confirmação radiológica."
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "ATLS, 10ª edição, 2018; consensos de trauma torácico e ventilação mecânica",
+  "coment": "O quadro é de pneumotórax hipertensivo, diagnóstico clínico que não deve aguardar imagem: hipotensão, turgência jugular, ausência de murmúrio e hipertimpanismo do lado afetado, com desvio contralateral da traqueia, agravado pela pressão positiva da ventilação mecânica. A conduta é descompressão imediata por punção, seguida de drenagem torácica definitiva. Aumentar a PEEP agrava o quadro, e a reposição volêmica isolada não resolve a obstrução mecânica ao retorno venoso.",
+  "porAlt": [
+   "Aguardar a radiografia no pneumotórax hipertensivo pode custar a vida do paciente em minutos.",
+   "Aumentar a PEEP agrava o pneumotórax hipertensivo e piora ainda mais o retorno venoso ao coração.",
+   "O volume é medida de suporte transitória e não resolve a obstrução mecânica ao enchimento cardíaco.",
+   "O tamponamento cursa com bulhas abafadas e murmúrio preservado, sem desvio da traqueia descrito.",
+   "Correta: descompressão torácica imediata seguida de drenagem, sem aguardar confirmação por imagem."
+  ]
+ },
+ {
+  "q": "Paciente de 63 anos em terapia intensiva por choque séptico refratário, em uso de noradrenalina em dose alta por mais de vinte e quatro horas, permanece hipotenso apesar de volume e antimicrobiano adequados. Qual é a medida adjuvante recomendada?",
+  "alts": [
+   "Iniciar dexametasona em dose alta por sete dias como terapia principal do choque séptico refratário.",
+   "Realizar teste de estímulo com cosintropina antes de qualquer decisão sobre o corticoide adjuvante.",
+   "Suspender o vasopressor para avaliar a resposta hemodinâmica espontânea desse paciente instável.",
+   "Iniciar hidrocortisona intravenosa como corticoide adjuvante em choque com vasopressor em dose alta.",
+   "Administrar imunoglobulina intravenosa de rotina como terapia imunomoduladora no choque séptico."
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Surviving Sepsis Campaign, 2021; ensaios ADRENAL e APROCCHSS",
+  "coment": "No choque séptico com necessidade contínua de vasopressor em dose relevante para manter a pressão-alvo, sugere-se hidrocortisona intravenosa como adjuvante, tipicamente 200 mg por dia em infusão contínua ou em doses divididas, o que acelera a reversão do choque. O teste de estímulo com cosintropina não é necessário para indicar a terapia. A imunoglobulina não é recomendada de rotina, e suspender o vasopressor em paciente instável é conduta perigosa.",
+  "porAlt": [
+   "A dexametasona em dose alta não é o esquema recomendado como adjuvante no choque séptico.",
+   "O teste de estímulo com cosintropina não é exigido para indicar o corticoide adjuvante nesse cenário.",
+   "Suspender o vasopressor no paciente ainda hipotenso agrava a hipoperfusão e o risco de parada.",
+   "Correta: hidrocortisona intravenosa como adjuvante no choque séptico com necessidade de vasopressor.",
+   "A imunoglobulina intravenosa não demonstrou benefício consistente e não é recomendada de rotina."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos em terapia intensiva após ressecção de adenoma hipofisário evolui com poliúria de 400 mL por hora, sódio sérico de 152 mEq/L e osmolalidade urinária de 120 mOsm/kg. Qual é o diagnóstico e a conduta?",
+  "alts": [
+   "Diurese osmótica por hiperglicemia: iniciar insulina intravenosa contínua e restringir a oferta hídrica.",
+   "Secreção inapropriada de hormônio antidiurético: restringir líquidos e suspender fluidos hipotônicos.",
+   "Diabetes insípido central: repor água livre e administrar desmopressina com monitorização do sódio.",
+   "Insuficiência adrenal secundária: administrar hidrocortisona e repor volume com solução salina isotônica.",
+   "Sobrecarga hídrica iatrogênica: prescrever furosemida em dose alta e restringir a oferta de líquidos."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline — Hormonal Replacement in Hypopituitarism in Adults, 2016; consenso sobre distúrbios da água após cirurgia hipofisária, 2022",
+  "coment": "Poliúria intensa com urina muito diluída e hipernatremia após cirurgia hipofisária caracteriza diabetes insípido central, hoje também chamado de deficiência de arginina-vasopressina, complicação frequente e geralmente transitória. O tratamento é repor as perdas de água livre e administrar desmopressina, com monitorização rigorosa do sódio e do débito urinário. Deve-se vigiar a evolução trifásica, com fase intermediária de secreção inapropriada, e avaliar a função adrenal, cuja deficiência exige reposição imediata.",
+  "porAlt": [
+   "A diurese osmótica cursa com urina concentrada em solutos, e não com osmolalidade urinária baixa.",
+   "A secreção inapropriada cursa com hiponatremia e urina concentrada, padrão oposto ao descrito.",
+   "Correta: diabetes insípido central, com reposição de água livre e desmopressina sob monitorização.",
+   "A insuficiência adrenal deve ser avaliada, mas não explica a poliúria com urina muito diluída.",
+   "Não há sinais de sobrecarga hídrica, e a furosemida agravaria a perda de água livre já intensa."
+  ]
+ },
+ {
+  "q": "Homem de 37 anos em terapia intensiva por estado de mal epiléptico permanece com crises após duas doses de benzodiazepínico e uma dose de carga de fenitoína. Qual é a conduta seguinte?",
+  "alts": [
+   "Repetir doses de benzodiazepínico indefinidamente até que as crises cessem completamente no leito.",
+   "Aguardar a resolução espontânea das crises, mantendo apenas suporte clínico e observação atenta.",
+   "Administrar solução glicosada hipertônica isolada como tratamento definitivo do estado de mal dele.",
+   "Solicitar ressonância magnética de encéfalo antes de qualquer escalonamento do tratamento clínico.",
+   "Iniciar anestésico intravenoso contínuo com intubação e monitorização eletroencefalográfica contínua."
+  ],
+  "gab": 4,
+  "tema": "neuro",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "American Epilepsy Society — Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults, 2016; Neurocritical Care Society guidelines",
+  "coment": "O estado de mal epiléptico refratário é definido pela persistência das crises após benzodiazepínico em dose adequada seguido de um antiepiléptico de segunda linha. A conduta é escalonar para anestésico intravenoso contínuo — midazolam, propofol ou tiopental —, com intubação, suporte hemodinâmico e monitorização eletroencefalográfica contínua para documentar a supressão das crises. Em paralelo, investiga-se e trata-se a causa, incluindo infecção, distúrbio metabólico, lesão estrutural e abstinência.",
+  "porAlt": [
+   "Repetir benzodiazepínico indefinidamente causa depressão respiratória sem controlar as crises.",
+   "O estado de mal prolongado provoca lesão neuronal e falência sistêmica e não pode ser observado.",
+   "A glicose é corrigida quando há hipoglicemia, mas não constitui tratamento do estado de mal.",
+   "A investigação por imagem é necessária, porém não precede o controle imediato das crises.",
+   "Correta: anestésico intravenoso contínuo com intubação e monitorização eletroencefalográfica."
+  ]
+ },
+ {
+  "q": "Paciente de 68 anos em terapia intensiva por infarto agudo do miocárdio evolui, no terceiro dia, com dor torácica, atrito pericárdico e supradesnivelamento difuso do segmento ST, sem elevação adicional de marcadores. Qual é o diagnóstico e a conduta?",
+  "alts": [
+   "Reinfarto do miocárdio: indicar nova coronariografia de urgência mesmo sem alteração de marcadores.",
+   "Pericardite pós-infarto: usar dose alta de ácido acetilsalicílico e evitar outros anti-inflamatórios.",
+   "Ruptura de parede livre: encaminhar imediatamente para cirurgia cardíaca de emergência sem exames.",
+   "Pericardite pós-infarto: iniciar corticoide sistêmico em dose alta como tratamento de primeira linha.",
+   "Embolia pulmonar aguda: iniciar trombólise sistêmica imediata pela presença de dor torácica intensa."
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ESC Guidelines for the diagnosis and management of pericardial diseases, 2015; ESC Guidelines for the management of acute coronary syndromes, 2023",
+  "coment": "A pericardite pós-infarto precoce, ou epistenocárdica, surge nos primeiros dias após necrose transmural e se manifesta por dor pleurítica que melhora ao sentar, atrito pericárdico e supradesnivelamento difuso com infradesnivelamento do segmento PR. O tratamento é ácido acetilsalicílico em dose alta, porque outros anti-inflamatórios e o corticoide prejudicam a cicatrização miocárdica e aumentam o risco de complicação mecânica. A colchicina é adjuvante e reduz recorrência.",
+  "porAlt": [
+   "O reinfarto cursaria com nova elevação de marcadores e supradesnivelamento localizado, não difuso.",
+   "Correta: pericardite pós-infarto, tratada com ácido acetilsalicílico em dose alta e colchicina adjuvante.",
+   "A ruptura de parede livre cursa com colapso hemodinâmico súbito e tamponamento, quadro distinto.",
+   "O corticoide prejudica a cicatrização miocárdica e aumenta o risco de complicações mecânicas.",
+   "A embolia pulmonar não produz atrito pericárdico nem supradesnivelamento difuso do segmento ST."
+  ]
+ }
+]

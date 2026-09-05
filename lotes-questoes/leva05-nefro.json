@@ -5,10 +5,10 @@
    "Associar um bloqueador do receptor de angiotensina à dose de enalapril que ele já vem usando hoje.",
    "Prescrever alopurinol de rotina, cuja redução do ácido úrico freia a perda de função renal do paciente.",
    "Restringir a proteína da dieta a 0,3 g/kg/dia, sem suplementação de cetoanálogos, para poupar o rim.",
-   "Acrescentar um inibidor de SGLT2, que tem recomendação forte nesse patamar de albuminúria e filtração.",
-   "Iniciar diálise peritoneal preventiva agora, antes que a filtração glomerular caia abaixo de 30 mL/min."
+   "Iniciar diálise peritoneal preventiva agora, antes que a filtração glomerular caia abaixo de 30 mL/min.",
+   "Acrescentar um inibidor de SGLT2, que tem recomendação forte nesse patamar de albuminúria e filtração."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "tto",
@@ -19,8 +19,8 @@
    "O duplo bloqueio do sistema renina-angiotensina aumenta hipercalemia e injúria renal aguda sem melhorar desfechos, e foi abandonado por isso.",
    "O alopurinol trata hiperuricemia sintomática, mas os ensaios não confirmaram benefício em retardar a progressão da doença renal crônica.",
    "Restrição proteica tão intensa sem cetoanálogos produz desnutrição e sarcopenia, com risco que supera qualquer ganho renal esperado.",
-   "Correta: filtração acima de 20 mL/min com albuminúria acima de 200 mg/g coloca o inibidor de SGLT2 em recomendação forte, mesmo sem diabetes.",
-   "A indicação de diálise depende de sintomas urêmicos e de distúrbios refratários, e não de um número isolado de filtração glomerular."
+   "A indicação de diálise depende de sintomas urêmicos e de distúrbios refratários, e não de um número isolado de filtração glomerular.",
+   "Correta: filtração acima de 20 mL/min com albuminúria acima de 200 mg/g coloca o inibidor de SGLT2 em recomendação forte, mesmo sem diabetes."
   ]
  },
  {
@@ -50,13 +50,13 @@
  {
   "q": "Homem de 70 anos é admitido com vômitos há cinco dias por obstrução pilórica. A gasometria arterial mostra pH 7,52, pressão parcial de gás carbônico de 48 mmHg e bicarbonato de 38 mEq/L. O cloro urinário está em 8 mEq/L e ele apresenta sinais de desidratação. Qual é a interpretação e a conduta inicial adequadas?",
   "alts": [
+   "Alcalose metabólica responsiva ao cloro, tratada com reposição de solução salina e de potássio.",
    "Alcalose respiratória primária por dor, que se corrige com controle da frequência respiratória.",
    "Alcalose metabólica resistente ao cloro, com indicação de espironolactona por hiperaldosteronismo.",
    "Acidose metabólica com ânion gap elevado, que exige infusão imediata de bicarbonato de sódio.",
-   "Distúrbio misto sem tradução clínica, cuja conduta é observar sem reposição volêmica agora.",
-   "Alcalose metabólica responsiva ao cloro, tratada com reposição de solução salina e de potássio."
+   "Distúrbio misto sem tradução clínica, cuja conduta é observar sem reposição volêmica agora."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "dx",
@@ -64,11 +64,11 @@
   "base": "KDIGO 2024 e Cecil Medicina, 26ª edição, 2022 — abordagem dos distúrbios ácido-básicos pelo cloro urinário",
   "coment": "O quadro é de alcalose metabólica com compensação respiratória apropriada — a pressão de gás carbônico sobe cerca de 0,7 mmHg para cada 1 mEq/L de bicarbonato acima do normal. A chave diagnóstica é o cloro urinário: valores abaixo de 20 mEq/L caracterizam a forma responsiva ao cloro, típica de perdas gástricas e de uso de diurético, em que há contração de volume e ávida reabsorção tubular de cloro. O tratamento é reposição de cloreto de sódio isotônico com potássio, o que restaura o volume e permite ao rim excretar o excesso de bicarbonato. Cloro urinário acima de 20 mEq/L apontaria excesso de mineralocorticoide.",
   "porAlt": [
+   "Correta: alcalose metabólica com cloro urinário abaixo de 20 mEq/L é responsiva ao cloro, e a reposição de salina com potássio corrige o distúrbio.",
    "Na alcalose respiratória a pressão de gás carbônico estaria baixa, e não elevada como neste paciente, o que exclui a hipótese de imediato.",
    "A forma resistente ao cloro cursa com cloro urinário acima de 20 mEq/L e volume expandido, quadro oposto ao deste paciente desidratado.",
    "O pH está acima de 7,45 e o bicarbonato elevado, de modo que não há acidose alguma; infundir bicarbonato agravaria seriamente o distúrbio.",
-   "Há distúrbio único com compensação adequada, e a desidratação com perda de cloro exige reposição, não apenas observação clínica.",
-   "Correta: alcalose metabólica com cloro urinário abaixo de 20 mEq/L é responsiva ao cloro, e a reposição de salina com potássio corrige o distúrbio."
+   "Há distúrbio único com compensação adequada, e a desidratação com perda de cloro exige reposição, não apenas observação clínica."
   ]
  }
 ]

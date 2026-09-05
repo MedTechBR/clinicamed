@@ -28,11 +28,11 @@
   "alts": [
    "Aguardar dois ciclos completos de compressão antes de administrar a primeira dose de adrenalina.",
    "Aplicar um choque sincronizado antes de qualquer droga, mesmo sem ritmo chocável no monitor.",
-   "Administrar assim que for possível, porque não há choque a ser priorizado nesse tipo de ritmo.",
    "Administrar somente se a causa reversível já tiver sido identificada e corrigida pela equipe toda.",
-   "Preferir vasopressina em dose única, alternativa superior à adrenalina na atividade sem pulso."
+   "Preferir vasopressina em dose única, alternativa superior à adrenalina na atividade sem pulso.",
+   "Administrar assim que for possível, porque não há choque a ser priorizado nesse tipo de ritmo."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -42,9 +42,9 @@
   "porAlt": [
    "Aguardar dois ciclos atrasa sem motivo a única droga com indicação formal precoce nesse tipo de ritmo de parada.",
    "Choque sincronizado não tem lugar na parada; atividade elétrica sem pulso e assistolia não são ritmos chocáveis.",
-   "Correta: em ritmo não chocável a adrenalina deve ser dada assim que possível, já que não há choque a ser priorizado.",
    "A busca de causas reversíveis corre em paralelo à reanimação e jamais deve atrasar a administração da adrenalina.",
-   "A vasopressina não é superior à adrenalina e a diretriz não a recomenda como substituta em nenhum ritmo de parada."
+   "A vasopressina não é superior à adrenalina e a diretriz não a recomenda como substituta em nenhum ritmo de parada.",
+   "Correta: em ritmo não chocável a adrenalina deve ser dada assim que possível, já que não há choque a ser priorizado."
   ]
  },
  {
@@ -74,13 +74,13 @@
  {
   "q": "Mulher de 67 anos em uso de três anti-hipertensivos em dose otimizada, incluindo diurético tiazídico, mantém pressão de 156/94 mmHg confirmada fora do consultório. A adesão foi verificada e não há uso de anti-inflamatórios. Qual é a próxima medida?",
   "alts": [
+   "Acrescentar espironolactona, quarta droga com melhor evidência na hipertensão resistente comprovada.",
    "Trocar as três classes por outras três, mantendo o mesmo número de fármacos no esquema terapêutico.",
    "Iniciar investigação apenas com dosagem de cortisol sérico, adiando qualquer ajuste farmacológico agora.",
-   "Acrescentar espironolactona, quarta droga com melhor evidência na hipertensão resistente comprovada.",
    "Suspender o diurético, que nessa faixa etária costuma elevar a pressão em vez de reduzi-la no seguimento.",
    "Aumentar todas as doses acima do máximo de bula antes de considerar acrescentar uma quarta classe."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -88,9 +88,9 @@
   "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; definição e manejo da hipertensão resistente",
   "coment": "Hipertensão resistente é a que permanece acima da meta apesar de três classes em dose otimizada, uma delas diurético, confirmada fora do consultório e com adesão verificada — exatamente o caso. O quarto fármaco com melhor evidência é a espironolactona, apoiada em ensaio que a comparou a outras opções e mostrou superioridade na redução pressórica. O acompanhamento exige controle de potássio e função renal. Em paralelo, investiga-se hipertensão secundária, sobretudo hiperaldosteronismo primário, apneia do sono, doença renal e estenose de artéria renal, mas a investigação não adia a otimização do tratamento.",
   "porAlt": [
+   "Correta: na hipertensão resistente confirmada, a espironolactona é a quarta droga com melhor evidência de redução pressórica.",
    "Trocar as classes sem acrescentar a quarta droga não resolve resistência e reinicia a titulação sem ganho esperado.",
    "O cortisol isolado investiga uma causa pouco provável e adiar o ajuste mantém a paciente exposta à pressão elevada.",
-   "Correta: na hipertensão resistente confirmada, a espironolactona é a quarta droga com melhor evidência de redução pressórica.",
    "O diurético é peça central no esquema da hipertensão resistente; retirá-lo tende a piorar o controle pressórico.",
    "Ultrapassar a dose máxima de bula soma efeito adverso sem ganho pressórico proporcional ao risco assumido."
   ]
@@ -99,12 +99,12 @@
   "q": "Homem de 62 anos chega à emergência com pressão de 210/126 mmHg, cefaleia intensa, turvação visual e creatinina que subiu de 1,1 para 2,0 mg/dL em duas semanas, com hematúria. Está lúcido. Qual é a conduta correta?",
   "alts": [
    "Prescrever captopril sublingual e liberar para casa assim que a pressão cair abaixo de 180/110 mmHg.",
-   "Reduzir a pressão de forma controlada por via endovenosa, pois há lesão aguda de órgão-alvo em curso.",
    "Baixar a pressão para valores normais na primeira hora, evitando qualquer atraso na correção do quadro.",
+   "Reduzir a pressão de forma controlada por via endovenosa, pois há lesão aguda de órgão-alvo em curso.",
    "Apenas observar por seis horas sem medicação, já que o paciente está lúcido e sem déficit neurológico.",
    "Iniciar anti-hipertensivo oral e agendar retorno ambulatorial em trinta dias para só então reavaliar."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -113,8 +113,8 @@
   "coment": "Pressão muito elevada acompanhada de lesão aguda de órgão-alvo — aqui, injúria renal com hematúria e sintomas visuais — caracteriza emergência hipertensiva, que exige redução controlada por via endovenosa em ambiente monitorado. A meta é reduzir cerca de 20% a 25% da pressão arterial média na primeira hora, e não normalizar depressa: queda abrupta compromete a perfusão cerebral, coronária e renal, deslocada da curva de autorregulação de quem convive com pressão alta. Captopril sublingual foi abandonado justamente por produzir queda imprevisível e não controlável.",
   "porAlt": [
    "O captopril sublingual produz queda imprevisível e foi abandonado; liberar para casa ignora a lesão renal em curso.",
-   "Correta: há lesão aguda de órgão-alvo, o que caracteriza emergência hipertensiva e exige redução controlada por via endovenosa.",
    "Normalizar a pressão na primeira hora provoca hipoperfusão de cérebro, coração e rim em quem tem autorregulação deslocada.",
+   "Correta: há lesão aguda de órgão-alvo, o que caracteriza emergência hipertensiva e exige redução controlada por via endovenosa.",
    "Observar sem tratar diante de injúria renal aguda e sintomas visuais permite que a lesão de órgão progrida.",
    "Retorno em trinta dias é conduta de urgência hipertensiva sem lesão de órgão, situação diferente da descrita aqui."
   ]
@@ -124,11 +124,11 @@
   "alts": [
    "A emergência é definida por pressão sistólica acima de 220 mmHg, independentemente de qualquer sintoma.",
    "A urgência exige internação em unidade de terapia intensiva e redução pressórica por via endovenosa.",
-   "A emergência tem lesão aguda de órgão-alvo; a urgência não, e o número da pressão não define a diferença.",
    "A diferença está no tempo de evolução: acima de doze horas de sintomas, todo quadro vira emergência.",
+   "A emergência tem lesão aguda de órgão-alvo; a urgência não, e o número da pressão não define a diferença.",
    "São sinônimos na prática clínica atual, e ambos exigem a mesma velocidade de redução da pressão arterial."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
@@ -138,8 +138,8 @@
   "porAlt": [
    "Não existe corte numérico que defina emergência: pacientes com valores altíssimos podem estar sem lesão de órgão.",
    "A urgência é tratada por via oral, com redução em 24 a 48 horas, e em geral sem necessidade de terapia intensiva.",
-   "Correta: o que separa as duas é a presença de lesão aguda de órgão-alvo, e não o valor absoluto da pressão arterial.",
    "O tempo de sintomas não converte urgência em emergência; o que converte é o surgimento de lesão aguda de órgão.",
+   "Correta: o que separa as duas é a presença de lesão aguda de órgão-alvo, e não o valor absoluto da pressão arterial.",
    "São entidades distintas com velocidades de redução diferentes, e tratá-las igual gera dano em uma das direções."
   ]
  }

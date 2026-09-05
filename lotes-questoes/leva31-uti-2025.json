@@ -28,11 +28,11 @@
   "alts": [
    "Peso real aferido na balança, que reflete melhor a demanda metabólica desta paciente com obesidade.",
    "Peso ideal calculado pelo índice de massa corporal alvo, ajustado conforme a idade e o sexo dela.",
+   "Peso predito pela altura, porque o volume pulmonar depende da estatura e não da massa corporal.",
    "Média entre o peso real e o predito, ajuste indicado especificamente para pacientes com obesidade.",
-   "Peso seco estimado após diurese, medida usada para calcular o volume corrente na fase de desmame.",
-   "Peso predito pela altura, porque o volume pulmonar depende da estatura e não da massa corporal."
+   "Peso seco estimado após diurese, medida usada para calcular o volume corrente na fase de desmame."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -42,21 +42,21 @@
   "porAlt": [
    "O peso real numa paciente obesa entrega volume muito acima do alvo e produz lesão induzida pela ventilação.",
    "Não se usa peso ideal por índice de massa corporal: a fórmula do peso predito parte diretamente da altura e do sexo.",
+   "Correta: usa-se o peso predito pela altura, porque o volume pulmonar acompanha a estatura e não a massa corporal.",
    "Não existe recomendação de média entre peso real e predito para calcular volume corrente na ventilação protetora.",
-   "Peso seco é conceito de balanço hídrico e de diálise, sem relação com o cálculo do volume corrente protetor.",
-   "Correta: usa-se o peso predito pela altura, porque o volume pulmonar acompanha a estatura e não a massa corporal."
+   "Peso seco é conceito de balanço hídrico e de diálise, sem relação com o cálculo do volume corrente protetor."
   ]
  },
  {
   "q": "Paciente em choque séptico está com pressão arterial média de 67 mmHg em noradrenalina, mas mantém tempo de enchimento capilar de 5 segundos, livedo em joelhos e lactato em elevação. Segundo o consenso europeu vigente de choque, como interpretar essa situação?",
   "alts": [
    "A meta foi atingida e a conduta correta é apenas observar, pois os sinais de pele são subjetivos demais.",
-   "O alvo pressórico deve ser reduzido para poupar vasopressor, já que a pressão média está acima de 65.",
    "A meta numérica foi atingida mas a perfusão não, e o alvo deve ser individualizado nesse paciente.",
+   "O alvo pressórico deve ser reduzido para poupar vasopressor, já que a pressão média está acima de 65.",
    "A perfusão cutânea não integra a monitorização recomendada e não deve orientar decisão terapêutica.",
    "O lactato elevado indica sempre falha da noradrenalina, que deve ser substituída por adrenalina agora."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -65,8 +65,8 @@
   "coment": "O consenso recomenda individualizar o alvo de pressão arterial, sugerindo inicialmente pressão média de pelo menos 65 mmHg, com faixa de 65 a 70 mmHg no choque séptico e alvo de pelo menos 80 mmHg no traumatismo cranioencefálico com Glasgow igual ou menor que 8. Também recomenda avaliação seriada da perfusão tecidual e, especificamente, monitorização da perfusão cutânea pelo tempo de enchimento capilar, complementada por temperatura da pele e livedo. Quando a meta numérica é atingida mas a perfusão permanece ruim, o alvo daquele paciente não era 65 — e a reavaliação inclui débito cardíaco, volume e controle de foco.",
   "porAlt": [
    "O tempo de enchimento capilar é recomendação formal de monitorização, e não um dado subjetivo a ser ignorado.",
-   "Reduzir o alvo diante de hipoperfusão evidente agrava a lesão de órgão que a ressuscitação pretende evitar.",
    "Correta: o consenso manda individualizar o alvo, e perfusão ruim com pressão na meta indica que aquele alvo era insuficiente.",
+   "Reduzir o alvo diante de hipoperfusão evidente agrava a lesão de órgão que a ressuscitação pretende evitar.",
    "A perfusão cutânea integra explicitamente as recomendações de monitorização regional do consenso vigente.",
    "O lactato tem múltiplas causas e não indica por si troca de vasopressor; a adrenalina traz mais arritmia e lactato."
   ]
@@ -77,10 +77,10 @@
    "Indica perfusão plenamente adequada, já que a saturação venosa central acima de setenta exclui hipofluxo.",
    "Aponta hiperóxia tecidual por oferta excessiva de oxigênio, exigindo redução imediata da fração inspirada.",
    "Reflete apenas erro de coleta, pois os dois marcadores nunca podem apontar direções opostas no choque.",
-   "Sugere débito cardíaco insuficiente para o consumo, apesar da saturação venosa aparentemente normal.",
-   "Confirma anemia grave como causa isolada do quadro, indicando transfusão imediata de concentrado."
+   "Confirma anemia grave como causa isolada do quadro, indicando transfusão imediata de concentrado.",
+   "Sugere débito cardíaco insuficiente para o consumo, apesar da saturação venosa aparentemente normal."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "dx",
@@ -91,8 +91,8 @@
    "Saturação venosa normal não exclui hipofluxo: na sepse ela pode estar normal por má distribuição do fluxo sanguíneo.",
    "Hiperóxia tecidual não é o que a diferença alargada indica; ela sinaliza estagnação de fluxo, e não excesso de oferta.",
    "Os dois marcadores medem coisas diferentes e podem divergir legitimamente — é justamente aí que a Pv-aCO₂ agrega.",
-   "Correta: diferença veno-arterial alargada aponta fluxo insuficiente para lavar o gás carbônico, apesar da saturação venosa normal.",
-   "A anemia altera a oferta, mas não explica isoladamente a diferença alargada nem indica transfusão sem outros dados."
+   "A anemia altera a oferta, mas não explica isoladamente a diferença alargada nem indica transfusão sem outros dados.",
+   "Correta: diferença veno-arterial alargada aponta fluxo insuficiente para lavar o gás carbônico, apesar da saturação venosa normal."
   ]
  },
  {
@@ -100,11 +100,11 @@
   "alts": [
    "Ambos devem ser administrados de rotina, por corrigirem a acidose e estabilizarem a membrana já.",
    "Apenas o bicarbonato é recomendado de rotina, ficando o cálcio reservado às paradas prolongadas.",
-   "Nenhum dos dois de rotina: a administração rotineira de ambos não é recomendada na parada do adulto.",
    "Apenas o cálcio é recomendado de rotina, ficando o bicarbonato restrito à parada por afogamento.",
-   "Ambos são recomendados desde que a parada ultrapasse vinte minutos de reanimação sem resposta alguma."
+   "Ambos são recomendados desde que a parada ultrapasse vinte minutos de reanimação sem resposta alguma.",
+   "Nenhum dos dois de rotina: a administração rotineira de ambos não é recomendada na parada do adulto."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -114,9 +114,9 @@
   "porAlt": [
    "Dar os dois de rotina contraria recomendação explícita e desvia a equipe do que realmente muda desfecho.",
    "O bicarbonato de rotina foi justamente uma das práticas desaconselhadas, com classificação de ausência de benefício.",
-   "Correta: a diretriz de 2025 não recomenda o uso rotineiro de cálcio, bicarbonato nem magnésio na parada do adulto.",
    "O cálcio de rotina também não é recomendado; sua indicação é específica, como na hipercalemia documentada.",
-   "Não há limiar de tempo que converta essas drogas em conduta de rotina durante a reanimação do adulto."
+   "Não há limiar de tempo que converta essas drogas em conduta de rotina durante a reanimação do adulto.",
+   "Correta: a diretriz de 2025 não recomenda o uso rotineiro de cálcio, bicarbonato nem magnésio na parada do adulto."
   ]
  },
  {

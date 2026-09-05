@@ -2,13 +2,13 @@
  {
   "q": "Uma paciente de 45 anos, com diagnóstico de colelitíase há 1 ano, apresenta dor em hipocôndrio direito, icterícia ++/4, temperatura axilar de 38 °C, PA: 110 x 70 mmHg e bilirrubina total de 4,6 mg/dL, com bilirrubina direta de 3,2 mg/dL. Realizou ultrassonografia de abdômen, que mostrou vesícula de paredes finas, contendo múltiplos cálculos e discreta dilatação das vias biliares extra-hepáticas. Além da antibioticoterapia venosa, a conduta mais apropriada neste momento é:",
   "alts": [
-   "hidratação e medidas de suporte, somente",
    "papilotomia endoscópica de urgência",
    "drenagem cirúrgica das vias biliares com dreno de Kehr",
    "colecistectomia de urgência com colangiografia",
+   "hidratação e medidas de suporte, somente",
    "drenagem biliar externa trans-hepática"
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
@@ -16,10 +16,10 @@
   "base": "Tokyo Guidelines 2018 para colangite aguda e colecistite; ACG Clinical Guideline on choledocholithiasis, 2019",
   "coment": "Dor em hipocôndrio direito, febre e icterícia compõem a tríade de Charcot, que define colangite aguda, aqui por coledocolitíase com dilatação discreta das vias biliares. Pelas diretrizes de Tóquio, a colangite leve — sem disfunção orgânica e sem hipotensão — é tratada inicialmente com antibiótico e suporte clínico, reservando a drenagem biliar endoscópica para quem não responde em 24 horas ou já se apresenta em grau moderado a grave. A colecistectomia é feita depois, na mesma internação, após a resolução do quadro agudo.",
   "porAlt": [
-   "Correta: na colangite leve, antibiótico com hidratação e suporte, reavaliando a necessidade de drenagem.",
    "A papilotomia de urgência é indicada na colangite moderada a grave ou na ausência de resposta ao tratamento clínico.",
    "A drenagem cirúrgica com dreno de Kehr foi substituída pela via endoscópica na maioria dos casos.",
    "Colecistectomia de urgência não é a conduta no episódio agudo de colangite.",
+   "Correta: na colangite leve, antibiótico com hidratação e suporte, reavaliando a necessidade de drenagem.",
    "A drenagem trans-hepática se reserva à falha ou à impossibilidade do acesso endoscópico."
   ],
   "fonte": {
@@ -33,10 +33,10 @@
    "fosfomicina",
    "quinolona",
    "tetraciclina",
-   "beta-lactâmico",
-   "macrolídeo"
+   "macrolídeo",
+   "beta-lactâmico"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -47,8 +47,8 @@
    "Fosfomicina é usada em infecção urinária não complicada.",
    "Quinolonas não são a classe de escolha e são evitadas em crianças.",
    "Tetraciclinas não constituem o tratamento padrão da coqueluche.",
-   "Betalactâmicos não são eficazes contra Bordetella pertussis.",
-   "Correta: macrolídeo, tanto no tratamento quanto na quimioprofilaxia dos contatos."
+   "Correta: macrolídeo, tanto no tratamento quanto na quimioprofilaxia dos contatos.",
+   "Betalactâmicos não são eficazes contra Bordetella pertussis."
   ],
   "fonte": {
    "banca": "ENARE (EBSERH/FGV)",
@@ -117,10 +117,10 @@
    "indígenas",
    "profissionais de saúde",
    "pessoas vivendo com o HIV",
-   "pessoas privadas de liberdade",
-   "pessoas vivendo em situação de rua"
+   "pessoas vivendo em situação de rua",
+   "pessoas privadas de liberdade"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "prev",
@@ -131,8 +131,8 @@
    "Indígenas têm risco aumentado, mas inferior ao da população em situação de rua.",
    "Profissionais de saúde têm risco ocupacional aumentado, porém menor que o dos demais grupos citados.",
    "Pessoas vivendo com HIV têm risco elevado de adoecimento, ainda assim inferior ao da população em situação de rua.",
-   "Pessoas privadas de liberdade têm risco muito alto, mas o manual aponta a população em situação de rua como a de maior risco.",
-   "Correta: população em situação de rua, o grupo de maior risco relativo segundo o manual."
+   "Correta: população em situação de rua, o grupo de maior risco relativo segundo o manual.",
+   "Pessoas privadas de liberdade têm risco muito alto, mas o manual aponta a população em situação de rua como a de maior risco."
   ],
   "fonte": {
    "banca": "ENARE (EBSERH/FGV)",

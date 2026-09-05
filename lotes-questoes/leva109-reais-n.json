@@ -132,13 +132,13 @@
  {
   "q": "Mylena, 42 anos, fuma 50 cigarros/dia desde os 16 anos. Seu Fagerström é igual a 10. Na escala de razões para fumar, declara que fuma para controlar o peso, para mediar situações de estresse e ansiedade e porque o cigarro é uma companhia. Diz que não consegue nem imaginar tentar parar de fumar e que, por isso, nunca tentou fazê-lo. Declara não se ver sem o cigarro. Recentemente, Mylena foi diagnosticada com neoplasia de pulmão. Nesse caso, a abordagem a essa fumante deve considerar:",
   "alts": [
+   "entrevista motivacional, com o suporte comportamental e farmacoterápico necessário",
    "uso de vapers para iniciar o processo de mudança",
    "cessação do tabagismo sem uso de suporte farmacoterápico",
    "cessação do tabagismo com uso de reposição de nicotina apenas",
-   "entrevista motivacional, com o suporte comportamental e farmacoterápico necessário",
    "prescrição de bupropiona para cessação do tabagismo"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -146,10 +146,10 @@
   "base": "INCA/Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020; Miller e Rollnick, entrevista motivacional",
   "coment": "A paciente tem dependência muito elevada pelo teste de Fagerström, motivação para cessar em estágio pré-contemplativo e diagnóstico recente de câncer de pulmão — condição em que parar de fumar melhora resposta ao tratamento, cicatrização e sobrevida. A abordagem indicada combina entrevista motivacional, para trabalhar a ambivalência sem confronto, apoio cognitivo-comportamental e farmacoterapia plena, que na dependência elevada costuma associar reposição de nicotina em duas formas ou reposição combinada a bupropiona ou vareniclina.",
   "porAlt": [
+   "Correta: entrevista motivacional com suporte comportamental e farmacoterapia adequada.",
    "Cigarro eletrônico não é estratégia aprovada de cessação no Brasil e é proibido pela ANVISA.",
    "Cessar sem farmacoterapia é inadequado em dependência muito elevada.",
    "A reposição isolada de nicotina é insuficiente nesse grau de dependência.",
-   "Correta: entrevista motivacional com suporte comportamental e farmacoterapia adequada.",
    "Prescrever bupropiona isoladamente ignora a ambivalência e o suporte comportamental necessários."
   ],
   "fonte": {

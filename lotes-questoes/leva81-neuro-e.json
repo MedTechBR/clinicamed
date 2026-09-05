@@ -26,13 +26,13 @@
  {
   "q": "Paciente com cefaleia unilateral pulsátil, fotofobia, náusea e piora com atividade física, sem sinais de alarme. Qual é o tratamento da crise?",
   "alts": [
-   "Analgésico simples ou triptano conforme a intensidade, associado sempre a antiemético quando houver náusea.",
    "Opioide potente como primeira escolha para todas as crises de enxaqueca atendidas no pronto atendimento já.",
+   "Analgésico simples ou triptano conforme a intensidade, associado sempre a antiemético quando houver náusea.",
    "Corticoide sistêmico contínuo em dose alta como tratamento de escolha das crises recorrentes de enxaqueca.",
    "Antibiótico de amplo espectro como tratamento empírico da cefaleia unilateral pulsátil descrita no caso.",
    "Realizar neuroimagem de urgência em todos os pacientes com crise de enxaqueca sem sinais de alarme agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "tto",
@@ -40,8 +40,8 @@
   "base": "American Headache Society consensus statement, 2021 com revisão 2024; Academia Brasileira de Neurologia — diretrizes de cefaleia, 2022",
   "coment": "O tratamento da crise de enxaqueca escalona conforme a intensidade: anti-inflamatório não hormonal ou analgésico simples nas crises leves a moderadas, e triptano nas moderadas a graves ou quando há falha dos anteriores. Antieméticos como metoclopramida tratam a náusea e melhoram a absorção. Opioides são desaconselhados por favorecerem cronificação e cefaleia por uso excessivo. Neuroimagem se reserva a sinais de alarme ou mudança do padrão habitual.",
   "porAlt": [
-   "Correta: analgésico simples ou triptano conforme a intensidade, com antiemético quando há náusea.",
    "Os opioides favorecem cronificação e cefaleia por uso excessivo, sendo desaconselhados na enxaqueca.",
+   "Correta: analgésico simples ou triptano conforme a intensidade, com antiemético quando há náusea.",
    "O corticoide contínuo não é tratamento de crise nem profilaxia adequada para a enxaqueca.",
    "A enxaqueca não é infecciosa e o antibiótico não tem qualquer papel no seu tratamento.",
    "A neuroimagem se reserva a sinais de alarme ou mudança do padrão habitual da cefaleia."
@@ -76,11 +76,11 @@
   "alts": [
    "Administrar glicose hipertônica antes de qualquer reposição de tiamina no paciente etilista confuso.",
    "Prescrever apenas complexo vitamínico oral de baixa dose como tratamento definitivo do quadro descrito.",
-   "Aguardar a confirmação laboratorial da deficiência de tiamina antes de qualquer reposição no paciente.",
    "Administrar tiamina endovenosa em dose alta imediatamente, sempre antes de qualquer oferta de glicose.",
+   "Aguardar a confirmação laboratorial da deficiência de tiamina antes de qualquer reposição no paciente.",
    "Prescrever apenas benzodiazepínico para o controle da confusão, sem qualquer reposição vitamínica associada."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
@@ -90,21 +90,21 @@
   "porAlt": [
    "Glicose antes de tiamina consome a reserva remanescente e pode precipitar o quadro neurológico.",
    "A dose oral baixa é insuficiente diante de encefalopatia aguda instalada nesse paciente.",
-   "Aguardar dosagem laboratorial atrasa um tratamento barato, seguro e potencialmente curativo.",
    "Correta: tiamina endovenosa em dose alta imediata, sempre antes de qualquer oferta de glicose.",
+   "Aguardar dosagem laboratorial atrasa um tratamento barato, seguro e potencialmente curativo.",
    "O benzodiazepínico trata a abstinência, mas não corrige a deficiência que causa a encefalopatia."
   ]
  },
  {
   "q": "Paciente com paralisia facial periférica de início súbito, sem outros déficits neurológicos. Qual é a conduta?",
   "alts": [
-   "Corticoide oral iniciado nas primeiras setenta e duas horas, com proteção ocular sempre orientada ao paciente.",
    "Aguardar a resolução espontânea por três meses antes de qualquer tratamento medicamentoso indicado agora.",
    "Iniciar antibiótico sistêmico de amplo espectro como tratamento de escolha da paralisia facial periférica.",
    "Indicar cirurgia de descompressão do nervo facial imediatamente em todos os casos de paralisia periférica.",
+   "Corticoide oral iniciado nas primeiras setenta e duas horas, com proteção ocular sempre orientada ao paciente.",
    "Prescrever apenas fisioterapia motora facial, sem qualquer corticoide ou medida de proteção ocular agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -112,23 +112,23 @@
   "base": "AAN practice guideline update on Bell's palsy, revisão 2023; AAO-HNS Clinical Practice Guideline, 2013 com revisão 2022",
   "coment": "A paralisia de Bell é tratada com corticoide oral iniciado idealmente nas primeiras setenta e duas horas, o que aumenta a chance de recuperação completa. Antiviral pode ser associado em casos graves, com benefício adicional modesto. A proteção ocular é essencial, com lubrificante e oclusão noturna, pois o fechamento incompleto expõe a córnea a ulceração. É preciso diferenciar de paralisia central, que poupa a fronte, e investigar outras causas quando atípica.",
   "porAlt": [
-   "Correta: corticoide oral nas primeiras setenta e duas horas, com proteção ocular devidamente orientada.",
    "Aguardar três meses perde a janela em que o corticoide melhora a chance de recuperação completa.",
    "O antibiótico não é o tratamento da paralisia de Bell, cuja abordagem inicial é a corticoterapia.",
    "A descompressão cirúrgica é excepcional e não é conduta inicial na paralisia facial periférica.",
+   "Correta: corticoide oral nas primeiras setenta e duas horas, com proteção ocular devidamente orientada.",
    "A fisioterapia é adjuvante e não substitui o corticoide nem a proteção da córnea exposta."
   ]
  },
  {
   "q": "Paciente com demência e alucinações visuais recorrentes, parkinsonismo e flutuação cognitiva. Qual é o cuidado essencial no tratamento?",
   "alts": [
-   "Prescrever haloperidol em dose alta como primeira escolha para o controle das alucinações visuais descritas agora.",
    "Evitar antipsicóticos típicos pela hipersensibilidade característica, priorizando sempre medidas não farmacológicas.",
+   "Prescrever haloperidol em dose alta como primeira escolha para o controle das alucinações visuais descritas agora.",
    "Iniciar benzodiazepínico contínuo em dose alta como tratamento de escolha da flutuação cognitiva do paciente agora.",
    "Suspender qualquer tratamento e apenas observar a evolução do quadro cognitivo ao longo dos meses nesse contexto.",
    "Iniciar levodopa em dose máxima imediatamente para tratar todas as manifestações do quadro descrito neste caso."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -136,8 +136,8 @@
   "base": "DLB Consortium diagnostic criteria, quarta revisão; NICE guideline NG97 — Dementia, revisão 2023",
   "coment": "A demência com corpos de Lewy cursa com flutuação cognitiva, alucinações visuais bem formadas, parkinsonismo e transtorno comportamental do sono REM. Um traço crítico é a hipersensibilidade a antipsicóticos, sobretudo típicos, que podem causar piora grave do parkinsonismo, rebaixamento e até síndrome neuroléptica maligna. Priorizam-se medidas não farmacológicas, inibidores de colinesterase, que têm boa resposta nas alucinações, e quetiapina ou clozapina se indispensável.",
   "porAlt": [
-   "O haloperidol pode causar piora grave do parkinsonismo e reações potencialmente fatais nesses pacientes.",
    "Correta: evitar antipsicóticos típicos pela hipersensibilidade característica dessa forma de demência.",
+   "O haloperidol pode causar piora grave do parkinsonismo e reações potencialmente fatais nesses pacientes.",
    "O benzodiazepínico agrava a confusão e o risco de quedas sem tratar a flutuação cognitiva.",
    "Não tratar deixa sem manejo sintomas angustiantes que respondem a inibidores de colinesterase.",
    "A levodopa em dose máxima pode agravar as alucinações e deve ser titulada com muita cautela."
@@ -148,11 +148,11 @@
   "alts": [
    "Prescrever apenas analgésico comum e liberar sem qualquer seguimento oftalmológico ou tratamento específico.",
    "Indicar derivação ventriculoperitoneal imediata em todos os pacientes com hipertensão intracraniana idiopática.",
-   "Perda de peso com acetazolamida e seguimento oftalmológico seriado, monitorando sempre o campo visual agora.",
    "Prescrever corticoide sistêmico contínuo em dose alta como tratamento de escolha dessa condição crônica.",
+   "Perda de peso com acetazolamida e seguimento oftalmológico seriado, monitorando sempre o campo visual agora.",
    "Aumentar a ingestão de sal e líquidos como estratégia principal para o alívio da hipertensão intracraniana."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -162,8 +162,8 @@
   "porAlt": [
    "Liberar sem seguimento arrisca perda visual progressiva e irreversível pelo papiledema crônico.",
    "A derivação é procedimento de resgate para casos refratários ou com perda visual progressiva.",
-   "Correta: perda de peso com acetazolamida e seguimento oftalmológico seriado com campimetria.",
    "O corticoide contínuo causa ganho de peso e agrava a condição a médio e longo prazo.",
+   "Correta: perda de peso com acetazolamida e seguimento oftalmológico seriado com campimetria.",
    "Aumentar sal e líquidos favorece ganho de peso e não alivia a hipertensão intracraniana."
   ]
  },
@@ -171,12 +171,12 @@
   "q": "Paciente com dor lombar aguda sem sinais de alarme, sem déficit neurológico e sem trauma. Qual é a conduta?",
   "alts": [
    "Solicitar ressonância magnética de coluna lombar em todos os pacientes com dor lombar aguda atendidos.",
-   "Analgesia e manutenção da atividade conforme tolerado, dispensando sempre exame de imagem nesse cenário.",
    "Prescrever repouso absoluto no leito por duas semanas como principal medida terapêutica da lombalgia aguda.",
+   "Analgesia e manutenção da atividade conforme tolerado, dispensando sempre exame de imagem nesse cenário.",
    "Encaminhar imediatamente para cirurgia de coluna todos os pacientes com dor lombar aguda intensa agora já.",
    "Prescrever opioide potente de uso contínuo como primeira escolha no tratamento da lombalgia aguda simples."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -185,8 +185,8 @@
   "coment": "A lombalgia aguda inespecífica, sem sinais de alarme, não requer imagem, que não melhora desfechos e aumenta intervenções desnecessárias. A recomendação é manter atividade conforme tolerado, evitar repouso no leito, oferecer analgesia com anti-inflamatório e considerar relaxante muscular por curto período, além de tratamento não farmacológico como calor superficial e exercício. Sinais de alarme incluem déficit neurológico, febre, câncer, trauma e síndrome da cauda equina.",
   "porAlt": [
    "A imagem de rotina não melhora desfechos e leva a achados incidentais e intervenções desnecessárias.",
-   "Correta: analgesia com manutenção da atividade conforme tolerado, sem necessidade de imagem inicial.",
    "O repouso absoluto prolonga a incapacidade e piora o desfecho em comparação à atividade mantida.",
+   "Correta: analgesia com manutenção da atividade conforme tolerado, sem necessidade de imagem inicial.",
    "A cirurgia se reserva a indicações específicas, ausentes na lombalgia aguda inespecífica.",
    "O opioide não é primeira escolha na lombalgia aguda pelo risco de dependência e efeitos adversos."
   ]
@@ -218,13 +218,13 @@
  {
   "q": "Paciente com síndrome de Horner e dor cervical após manipulação do pescoço. Qual é a suspeita principal?",
   "alts": [
-   "Enxaqueca com aura visual clássica, condição definida por síndrome de Horner após manipulação cervical.",
    "Dissecção de artéria carótida, cuja investigação exige sempre angiotomografia ou angiorressonância urgente.",
+   "Enxaqueca com aura visual clássica, condição definida por síndrome de Horner após manipulação cervical.",
    "Cefaleia tensional episódica, quadro definido por dor cervical com miose e ptose ipsilateral associadas.",
    "Neuralgia occipital simples, condição caracterizada por síndrome de Horner após manipulação do pescoço.",
    "Espondilose cervical degenerativa, quadro definido por síndrome de Horner de instalação aguda no paciente."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "dx",
@@ -232,8 +232,8 @@
   "base": "AHA/ASA scientific statement on cervical artery dissection, revisão 2023; ESO guideline on cervical artery dissection, 2021",
   "coment": "A dissecção de artéria carótida cursa classicamente com dor cervical ou facial unilateral, síndrome de Horner parcial por acometimento das fibras simpáticas periarteriais e risco de acidente vascular cerebral isquêmico por embolia ou oclusão. Ocorre espontaneamente ou após trauma menor, incluindo manipulação cervical. O diagnóstico é por angiotomografia ou angiorressonância, e o tratamento usa antitrombótico, com anticoagulação ou antiagregação conforme o caso.",
   "porAlt": [
-   "A enxaqueca com aura não produz síndrome de Horner nem se associa a manipulação cervical.",
    "Correta: dissecção de artéria carótida, investigada com angiotomografia ou angiorressonância urgente.",
+   "A enxaqueca com aura não produz síndrome de Horner nem se associa a manipulação cervical.",
    "A cefaleia tensional não causa miose, ptose ou anidrose e não tem esse mecanismo vascular.",
    "A neuralgia occipital produz dor no território do nervo, sem sinais simpáticos oculares associados.",
    "A espondilose é degenerativa e crônica, não causando síndrome de Horner de instalação aguda."

@@ -2,13 +2,13 @@
  {
   "q": "Paciente com HIV em tratamento apresenta carga viral indetectável há dois anos e pergunta sobre transmissão sexual. Qual é a orientação?",
   "alts": [
-   "Carga viral indetectável sustentada torna a transmissão sexual intransmissível, mantendo sempre a adesão ao tratamento.",
    "A transmissão sexual permanece igualmente provável mesmo com carga viral indetectável sustentada por anos neste caso.",
    "A carga viral indetectável autoriza a suspensão do antirretroviral sem qualquer risco de rebote virológico neste caso.",
    "A transmissão só é evitada com abstinência sexual completa, mesmo com carga viral indetectável sustentada neste caso.",
-   "A indetectabilidade elimina a necessidade de qualquer acompanhamento clínico ou laboratorial posterior neste caso."
+   "A indetectabilidade elimina a necessidade de qualquer acompanhamento clínico ou laboratorial posterior neste caso.",
+   "Carga viral indetectável sustentada torna a transmissão sexual intransmissível, mantendo sempre a adesão ao tratamento."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "prev",
@@ -16,11 +16,11 @@
   "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; estudos PARTNER e HPTN 052",
   "coment": "O conceito indetectável igual a intransmissível está estabelecido por grandes estudos: pessoas com HIV em tratamento e carga viral indetectável sustentada por pelo menos seis meses não transmitem o vírus por via sexual. Isso não dispensa a adesão contínua, o acompanhamento com carga viral periódica, nem a prevenção de outras infecções sexualmente transmissíveis, que seguem sendo transmitidas independentemente da carga viral do HIV.",
   "porAlt": [
-   "Correta: indetectável sustentado significa intransmissível por via sexual, com adesão mantida.",
    "Grandes estudos demonstraram ausência de transmissão sexual com carga viral indetectável sustentada.",
    "Suspender o antirretroviral leva a rebote virológico e retorno do risco de transmissão em semanas.",
    "A abstinência não é necessária, pois a indetectabilidade sustentada já impede a transmissão sexual.",
-   "O acompanhamento clínico e a carga viral periódica seguem sendo necessários indefinidamente."
+   "O acompanhamento clínico e a carga viral periódica seguem sendo necessários indefinidamente.",
+   "Correta: indetectável sustentado significa intransmissível por via sexual, com adesão mantida."
   ]
  },
  {
@@ -51,12 +51,12 @@
   "q": "Paciente com esquistossomose e hipertensão portal com varizes esofágicas. Qual é a conduta?",
   "alts": [
    "Tratar apenas com antibiótico de amplo espectro, sem qualquer fármaco específico contra o parasito.",
-   "Tratar a infecção com praziquantel e conduzir sempre a hipertensão portal com profilaxia de sangramento.",
    "Aguardar a resolução espontânea da infecção sem qualquer tratamento antiparasitário no paciente agora.",
    "Indicar transplante hepático imediato em todos os pacientes com esquistossomose e varizes esofágicas.",
+   "Tratar a infecção com praziquantel e conduzir sempre a hipertensão portal com profilaxia de sangramento.",
    "Prescrever apenas dieta hipossódica como tratamento definitivo da hipertensão portal esquistossomótica."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -65,9 +65,9 @@
   "coment": "A forma hepatoesplênica da esquistossomose causa fibrose de Symmers e hipertensão portal pré-sinusoidal, com função hepatocelular relativamente preservada, o que a distingue da cirrose. O tratamento antiparasitário com praziquantel é indicado mesmo na forma avançada, para interromper a deposição de ovos, e a hipertensão portal é conduzida com profilaxia de sangramento por betabloqueador ou ligadura elástica, além do tratamento do sangramento agudo.",
   "porAlt": [
    "O antibiótico de amplo espectro não tem ação sobre o parasito responsável pela doença.",
-   "Correta: praziquantel para o parasito e manejo da hipertensão portal com profilaxia de sangramento.",
    "A infecção não se resolve espontaneamente e a deposição de ovos mantém a fibrose progressiva.",
    "O transplante é excepcional nessa forma, cuja função hepatocelular costuma estar preservada.",
+   "Correta: praziquantel para o parasito e manejo da hipertensão portal com profilaxia de sangramento.",
    "A dieta hipossódica é adjuvante e não trata a hipertensão portal nem o risco de sangramento."
   ]
  },
@@ -75,12 +75,12 @@
   "q": "Paciente com suspeita de sepse de foco urinário e cultura mostrando bactéria multirresistente. Qual princípio orienta o ajuste?",
   "alts": [
    "Manter o esquema empírico de amplo espectro por tempo indefinido, mesmo após o resultado da cultura.",
-   "Associar sempre quatro antibióticos diferentes em todos os casos de bactéria multirresistente identificada.",
    "Descalonar ou ajustar conforme o antibiograma, mantendo sempre a menor duração eficaz do tratamento.",
+   "Associar sempre quatro antibióticos diferentes em todos os casos de bactéria multirresistente identificada.",
    "Suspender toda antibioticoterapia assim que houver melhora clínica nas primeiras vinte e quatro horas.",
    "Escolher o antibiótico apenas pelo custo, sem qualquer consideração sobre o perfil de sensibilidade."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
@@ -89,8 +89,8 @@
   "coment": "O gerenciamento de antimicrobianos orienta iniciar cobertura empírica adequada e, com o resultado da cultura, descalonar para o agente de menor espectro eficaz, ajustar dose pela função renal e pelo sítio, e definir a menor duração com evidência. Reduzir espectro e duração diminui resistência, toxicidade, custo e infecção por Clostridioides difficile, sem prejuízo de desfecho quando a fonte está controlada e a resposta clínica é adequada.",
   "porAlt": [
    "Manter amplo espectro indefinidamente seleciona resistência e aumenta toxicidade e custo.",
-   "Associar quatro antibióticos amplia toxicidade e interações sem benefício demonstrado.",
    "Correta: descalonar ou ajustar pelo antibiograma, mantendo a menor duração eficaz do tratamento.",
+   "Associar quatro antibióticos amplia toxicidade e interações sem benefício demonstrado.",
    "Suspender em vinte e quatro horas subtrata a infecção e favorece recidiva com resistência.",
    "Escolher apenas pelo custo, ignorando a sensibilidade, resulta em falha terapêutica previsível."
   ]
@@ -123,12 +123,12 @@
   "q": "Paciente imunossuprimido apresenta febre e infiltrado pulmonar com nódulos e sinal do halo na tomografia. Qual é a suspeita?",
   "alts": [
    "Pneumonia pneumocócica típica, definida por nódulos com sinal do halo em paciente imunossuprimido febril agora.",
+   "Aspergilose pulmonar invasiva, cuja suspeita exige sempre início precoce de antifúngico e investigação dirigida.",
    "Tuberculose pulmonar cavitária clássica, caracterizada por nódulos múltiplos com sinal do halo na tomografia.",
    "Edema pulmonar cardiogênico agudo, definido por nódulos pulmonares com sinal do halo à tomografia de tórax.",
-   "Sarcoidose pulmonar em atividade, quadro definido por febre com nódulos e sinal do halo em imunossuprimido.",
-   "Aspergilose pulmonar invasiva, cuja suspeita exige sempre início precoce de antifúngico e investigação dirigida."
+   "Sarcoidose pulmonar em atividade, quadro definido por febre com nódulos e sinal do halo em imunossuprimido."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "dx",
@@ -137,22 +137,22 @@
   "coment": "O sinal do halo — nódulo com halo de vidro fosco ao redor, correspondente a hemorragia perilesional — em paciente neutropênico ou imunossuprimido é altamente sugestivo de aspergilose pulmonar invasiva, sobretudo em fase precoce. A investigação inclui galactomanana sérica e em lavado broncoalveolar, cultura e tomografia seriada. O tratamento com voriconazol ou isavuconazol deve começar precocemente, pois o atraso aumenta muito a mortalidade.",
   "porAlt": [
    "A pneumonia pneumocócica cursa com consolidação lobar, e não com nódulos e sinal do halo.",
+   "Correta: aspergilose pulmonar invasiva, com antifúngico precoce e investigação dirigida imediata.",
    "A tuberculose cursa com cavitação e infiltrado apical, sem o sinal do halo característico descrito.",
    "O edema cardiogênico cursa com congestão difusa e derrame, e não com nódulos e halo.",
-   "A sarcoidose cursa com adenomegalia hilar e nódulos peribroncovasculares, sem esse padrão agudo.",
-   "Correta: aspergilose pulmonar invasiva, com antifúngico precoce e investigação dirigida imediata."
+   "A sarcoidose cursa com adenomegalia hilar e nódulos peribroncovasculares, sem esse padrão agudo."
   ]
  },
  {
   "q": "Paciente com doença de Chagas crônica e alterações no eletrocardiograma. Qual é a conduta?",
   "alts": [
-   "Avaliar a forma cardíaca com exames complementares e considerar sempre tratamento antiparasitário conforme a idade.",
    "Não realizar qualquer avaliação cardiológica, pois a doença de Chagas crônica não acomete o coração neste caso.",
    "Iniciar apenas antibiótico de amplo espectro como tratamento da doença de Chagas crônica diagnosticada neste caso.",
    "Indicar transplante cardíaco imediato em todos os pacientes com alteração eletrocardiográfica e sorologia positiva.",
-   "Prescrever apenas anti-inflamatório contínuo como tratamento da cardiopatia chagásica crônica identificada agora."
+   "Prescrever apenas anti-inflamatório contínuo como tratamento da cardiopatia chagásica crônica identificada agora.",
+   "Avaliar a forma cardíaca com exames complementares e considerar sempre tratamento antiparasitário conforme a idade."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -160,23 +160,23 @@
   "base": "Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas da Doença de Chagas, 2018 com revisão 2022; Diretriz Brasileira de Cardiopatia Chagásica — SBC, 2023",
   "coment": "Na doença de Chagas crônica, a avaliação cardiológica inclui eletrocardiograma, ecocardiograma e Holter, buscando bloqueios, extrassístoles, taquicardia ventricular, aneurisma apical e disfunção ventricular, que definem o estadiamento e o prognóstico. O tratamento antiparasitário com benznidazol é recomendado na forma indeterminada e nas formas iniciais, sobretudo abaixo de cinquenta anos, e o manejo da cardiopatia segue as diretrizes de insuficiência cardíaca e arritmias.",
   "porAlt": [
-   "Correta: avaliar a forma cardíaca com exames complementares e considerar antiparasitário conforme a idade.",
    "A cardiopatia chagásica crônica é a manifestação mais importante e determina o prognóstico.",
    "O antibiótico não tem ação sobre o Trypanosoma cruzi, cujo tratamento é com benznidazol.",
    "O transplante se reserva a doença avançada refratária, e não a toda alteração eletrocardiográfica.",
-   "O anti-inflamatório não trata a cardiopatia chagásica nem modifica sua evolução natural."
+   "O anti-inflamatório não trata a cardiopatia chagásica nem modifica sua evolução natural.",
+   "Correta: avaliar a forma cardíaca com exames complementares e considerar antiparasitário conforme a idade."
   ]
  },
  {
   "q": "Paciente com febre e petéquias de instalação rápida, com sinais de choque. Qual é a conduta imediata?",
   "alts": [
+   "Antibiótico endovenoso imediato com suporte, pois a suspeita de meningococcemia exige sempre tratamento sem demora.",
    "Aguardar a punção lombar e o resultado do líquor antes de qualquer administração de antibiótico ao paciente agora.",
    "Prescrever apenas antitérmico e observar clinicamente por doze horas antes de qualquer conduta adicional agora.",
-   "Antibiótico endovenoso imediato com suporte, pois a suspeita de meningococcemia exige sempre tratamento sem demora.",
    "Iniciar apenas corticoide sistêmico em dose alta, sem qualquer antibiótico no paciente com petéquias e choque.",
    "Solicitar hemograma e aguardar o resultado antes de iniciar qualquer antibiótico no paciente com choque agora."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
@@ -184,9 +184,9 @@
   "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de doença meningocócica; IDSA/ESCMID guidance, revisão 2023",
   "coment": "Febre com petéquias ou púrpura de instalação rápida e sinais de choque sugere meningococcemia, cuja letalidade é alta e a evolução é medida em horas. O antibiótico endovenoso — ceftriaxona — deve ser administrado imediatamente, sem aguardar punção lombar ou exames, junto de ressuscitação volêmica e suporte hemodinâmico. A doença é de notificação compulsória imediata e exige quimioprofilaxia dos contatos próximos com rifampicina ou ceftriaxona.",
   "porAlt": [
+   "Correta: antibiótico endovenoso imediato com suporte, pela suspeita de doença meningocócica invasiva.",
    "Aguardar a punção lombar atrasa em horas um antibiótico que define a sobrevida do paciente.",
    "Observar por doze horas nesse quadro permite evolução para choque refratário e óbito.",
-   "Correta: antibiótico endovenoso imediato com suporte, pela suspeita de doença meningocócica invasiva.",
    "O corticoide é adjuvante em situações específicas e nunca substitui o antibiótico nessa doença.",
    "Aguardar o hemograma atrasa o tratamento de uma emergência infecciosa de evolução muito rápida."
   ]
@@ -195,12 +195,12 @@
   "q": "Paciente será submetido a esplenectomia eletiva. Qual é a conduta preventiva?",
   "alts": [
    "Não realizar qualquer vacinação, pois a esplenectomia não aumenta o risco de infecção grave no paciente agora.",
-   "Vacinar contra germes encapsulados antes da cirurgia, orientando sempre conduta diante de febre no seguimento.",
    "Vacinar apenas após um ano da cirurgia, pois a vacinação prévia não confere qualquer proteção adicional agora.",
    "Prescrever apenas antibiótico profilático contínuo, dispensando qualquer imunização antes do procedimento.",
-   "Vacinar apenas contra influenza, única vacina indicada para pacientes submetidos a esplenectomia eletiva."
+   "Vacinar apenas contra influenza, única vacina indicada para pacientes submetidos a esplenectomia eletiva.",
+   "Vacinar contra germes encapsulados antes da cirurgia, orientando sempre conduta diante de febre no seguimento."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "prev",
@@ -209,10 +209,10 @@
   "coment": "O paciente asplênico tem risco elevado de sepse fulminante por germes encapsulados, sobretudo pneumococo, meningococo e Haemophilus influenzae tipo b. Na esplenectomia eletiva, as vacinas devem ser aplicadas pelo menos duas semanas antes do procedimento, com reforços conforme o calendário do centro de imunobiológicos especiais. Orienta-se ainda vacinação anual contra influenza, conduta imediata diante de febre e, em grupos selecionados, antibiótico profilático.",
   "porAlt": [
    "A asplenia aumenta muito o risco de sepse fulminante por bactérias encapsuladas no paciente.",
-   "Correta: vacinar contra germes encapsulados antes da cirurgia e orientar conduta diante de febre.",
    "Adiar a vacinação por um ano deixa o paciente desprotegido no período de maior vulnerabilidade.",
    "O antibiótico profilático é complementar em grupos selecionados e não substitui a imunização.",
-   "Além da influenza, são indicadas vacinas contra pneumococo, meningococo e Haemophilus tipo b."
+   "Além da influenza, são indicadas vacinas contra pneumococo, meningococo e Haemophilus tipo b.",
+   "Correta: vacinar contra germes encapsulados antes da cirurgia e orientar conduta diante de febre."
   ]
  },
  {

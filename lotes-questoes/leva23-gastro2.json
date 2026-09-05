@@ -3,12 +3,12 @@
   "q": "Homem de 45 anos, etilista, chega com dor epigástrica intensa irradiada para o dorso, vômitos e amilase cinco vezes acima do normal. Está com frequência de 104 bpm e pressão de 116/72 mmHg. Qual é a conduta inicial mais importante nas primeiras 24 horas?",
   "alts": [
    "Jejum absoluto prolongado por sete dias, com nutrição parenteral total desde a admissão hospitalar.",
-   "Hidratação venosa precoce com cristaloide balanceado, analgesia e dieta oral precoce em todos.",
    "Antibiótico profilático de amplo espectro para todos, prevenindo a necrose pancreática infectada.",
    "Tomografia de abdome imediata na admissão, exame que define a conduta das primeiras horas do caso.",
-   "Colangiopancreatografia endoscópica de urgência em todos os casos de pancreatite aguda instalada."
+   "Colangiopancreatografia endoscópica de urgência em todos os casos de pancreatite aguda instalada.",
+   "Hidratação venosa precoce com cristaloide balanceado, analgesia e dieta oral precoce em todos."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "tto",
@@ -17,10 +17,10 @@
   "coment": "As primeiras 24 horas definem o desfecho da pancreatite aguda, e a intervenção com maior impacto é a hidratação venosa precoce com cristaloide balanceado, em ritmo moderado e guiada por resposta, junto de analgesia eficaz. A nutrição enteral ou a dieta oral precoce, quando tolerada, é preferível ao jejum prolongado, que se associa a atrofia de mucosa e translocação bacteriana. Antibiótico profilático não é recomendado na pancreatite sem infecção documentada. A tomografia é mais útil após 72 horas para avaliar necrose, e a via endoscópica se reserva à colangite ou obstrução biliar persistente.",
   "porAlt": [
    "Jejum prolongado com nutrição parenteral foi abandonado: piora a barreira intestinal e não melhora o curso da doença.",
-   "Correta: hidratação precoce com cristaloide balanceado, analgesia e dieta oral precoce compõem o cuidado inicial que muda o desfecho.",
    "A profilaxia antibiótica não reduz necrose infectada nem mortalidade, e seleciona germes resistentes sem benefício.",
    "A tomografia precoce subestima a necrose, que leva dias para se delimitar, e não muda a conduta das primeiras horas.",
-   "A via endoscópica de urgência se reserva à colangite associada ou à obstrução biliar persistente, não a todos os casos."
+   "A via endoscópica de urgência se reserva à colangite associada ou à obstrução biliar persistente, não a todos os casos.",
+   "Correta: hidratação precoce com cristaloide balanceado, analgesia e dieta oral precoce compõem o cuidado inicial que muda o desfecho."
   ]
  },
  {
@@ -29,10 +29,10 @@
    "Doença de Crohn, sustentada pelo padrão contínuo e pela ausência de acometimento transmural aqui.",
    "Colite infecciosa aguda, hipótese preferida diante de quatro meses de sintomas e perda ponderal.",
    "Síndrome do intestino irritável, cujo diagnóstico é compatível com sangramento e emagrecimento.",
-   "Retocolite ulcerativa, pelo acometimento contínuo desde o reto com inflamação restrita à mucosa.",
-   "Colite isquêmica crônica, achado esperado em mulheres jovens sem qualquer fator de risco vascular."
+   "Colite isquêmica crônica, achado esperado em mulheres jovens sem qualquer fator de risco vascular.",
+   "Retocolite ulcerativa, pelo acometimento contínuo desde o reto com inflamação restrita à mucosa."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -43,8 +43,8 @@
    "A doença de Crohn tem padrão salteado e inflamação transmural, o oposto do que a colonoscopia e a biópsia mostraram.",
    "Colite infecciosa é aguda e autolimitada; quatro meses de sintomas com perda ponderal apontam doença inflamatória.",
    "Sangramento e emagrecimento são bandeiras vermelhas que excluem o diagnóstico de síndrome do intestino irritável.",
-   "Correta: acometimento contínuo a partir do reto com inflamação limitada à mucosa caracteriza retocolite ulcerativa.",
-   "Colite isquêmica ocorre em idosos com doença vascular, tipicamente no cólon esquerdo e de forma aguda, não crônica."
+   "Colite isquêmica ocorre em idosos com doença vascular, tipicamente no cólon esquerdo e de forma aguda, não crônica.",
+   "Correta: acometimento contínuo a partir do reto com inflamação limitada à mucosa caracteriza retocolite ulcerativa."
   ]
  },
  {
@@ -52,11 +52,11 @@
   "alts": [
    "Iniciar inibidor de bomba por oito semanas e reavaliar, sem nenhum exame já neste primeiro momento.",
    "Prescrever apenas medidas comportamentais, adiando exame e medicação por seis meses de observação.",
+   "Solicitar endoscopia digestiva alta: todo sinal de alarme junto de refluxo obriga a ver o esôfago.",
    "Solicitar pHmetria esofágica como primeiro exame, mesmo diante de disfagia e perda de peso presentes.",
-   "Tratar empiricamente para infecção por Helicobacter pylori, sem qualquer investigação prévia do caso.",
-   "Solicitar endoscopia digestiva alta: todo sinal de alarme junto de refluxo obriga a ver o esôfago."
+   "Tratar empiricamente para infecção por Helicobacter pylori, sem qualquer investigação prévia do caso."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -66,9 +66,9 @@
   "porAlt": [
    "O teste terapêutico é aceitável só na ausência de sinais de alarme, que aqui estão presentes e mudam a conduta.",
    "Adiar por seis meses um paciente com disfagia e emagrecimento pode atrasar o diagnóstico de neoplasia esofágica.",
+   "Correta: disfagia progressiva e perda de peso são sinais de alarme e indicam endoscopia antes do tratamento empírico.",
    "A pHmetria não é o primeiro exame e não afasta lesão estrutural, que é justamente a preocupação neste caso.",
-   "Tratar Helicobacter sem investigar não responde à disfagia nem à perda ponderal, que exigem visualização direta.",
-   "Correta: disfagia progressiva e perda de peso são sinais de alarme e indicam endoscopia antes do tratamento empírico."
+   "Tratar Helicobacter sem investigar não responde à disfagia nem à perda ponderal, que exigem visualização direta."
   ]
  },
  {

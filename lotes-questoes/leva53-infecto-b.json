@@ -3,12 +3,12 @@
   "q": "Paciente com diagnóstico recente de HIV, CD4 de 120 células/mm³, assintomático. Qual é a conduta?",
   "alts": [
    "Aguardar o CD4 cair abaixo de cinquenta células antes de iniciar qualquer terapia antirretroviral.",
+   "Iniciar antirretroviral imediatamente e avaliar sempre a necessidade de profilaxias para oportunistas.",
    "Iniciar apenas profilaxia com sulfametoxazol-trimetoprima, adiando o antirretroviral por seis meses.",
    "Iniciar antirretroviral apenas quando surgir a primeira infecção oportunista definidora de aids agora.",
-   "Solicitar apenas carga viral seriada trimestral, sem qualquer tratamento antirretroviral no período.",
-   "Iniciar antirretroviral imediatamente e avaliar sempre a necessidade de profilaxias para oportunistas."
+   "Solicitar apenas carga viral seriada trimestral, sem qualquer tratamento antirretroviral no período."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -17,10 +17,10 @@
   "coment": "O tratamento antirretroviral é indicado para toda pessoa com HIV, independentemente de CD4 ou de sintomas, e deve ser iniciado o mais rápido possível, inclusive no mesmo dia do diagnóstico quando há condições. O esquema preferencial no Brasil é tenofovir com lamivudina e dolutegravir. Com CD4 abaixo de 200 células por milímetro cúbico indica-se profilaxia para pneumocistose com sulfametoxazol-trimetoprima, e é preciso afastar tuberculose e criptococose ativas antes.",
   "porAlt": [
    "Aguardar queda do CD4 é conduta abandonada há anos e aumenta morbidade e mortalidade.",
+   "Correta: antirretroviral imediato, com avaliação das profilaxias indicadas para o nível de CD4.",
    "A profilaxia é necessária, mas adiar o antirretroviral mantém a replicação viral e a imunossupressão.",
    "Esperar a doença oportunista significa deixar o paciente evoluir para aids de forma evitável.",
-   "Monitorizar sem tratar não interrompe a progressão da doença nem reduz a transmissão.",
-   "Correta: antirretroviral imediato, com avaliação das profilaxias indicadas para o nível de CD4."
+   "Monitorizar sem tratar não interrompe a progressão da doença nem reduz a transmissão."
   ]
  },
  {
@@ -28,11 +28,11 @@
   "alts": [
    "Iniciar antibiótico de amplo espectro por dez dias e reavaliar apenas se não houver melhora clínica.",
    "Solicitar apenas radiografia de tórax e iniciar tratamento empírico sem qualquer exame de escarro.",
+   "Solicitar teste rápido molecular para tuberculose no escarro e notificar sempre o caso confirmado.",
    "Prescrever antitussígeno e reavaliar clinicamente em dois meses caso a tosse não tenha melhorado.",
-   "Solicitar tomografia de tórax de rotina como primeiro exame para o diagnóstico de tuberculose pulmonar.",
-   "Solicitar teste rápido molecular para tuberculose no escarro e notificar sempre o caso confirmado."
+   "Solicitar tomografia de tórax de rotina como primeiro exame para o diagnóstico de tuberculose pulmonar."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "dx",
@@ -42,21 +42,21 @@
   "porAlt": [
    "Antibiótico de amplo espectro atrasa o diagnóstico e mantém a transmissão ativa no domicílio.",
    "A radiografia é complementar e não substitui a pesquisa bacteriológica no escarro do paciente.",
+   "Correta: teste rápido molecular no escarro, com notificação compulsória do caso confirmado.",
    "Adiar por dois meses mantém a transmissão e permite a progressão da doença pulmonar.",
-   "A tomografia não é o primeiro exame; o diagnóstico se apoia na investigação bacteriológica.",
-   "Correta: teste rápido molecular no escarro, com notificação compulsória do caso confirmado."
+   "A tomografia não é o primeiro exame; o diagnóstico se apoia na investigação bacteriológica."
   ]
  },
  {
   "q": "Paciente com febre há 5 dias, mialgia, cefaleia retro-orbitária e prova do laço positiva, com plaquetas de 90.000/mm³ e dor abdominal intensa. Qual é a conduta?",
   "alts": [
    "Alta domiciliar com hidratação oral e retorno apenas se surgir sangramento espontâneo em mucosas.",
-   "Hidratação endovenosa em ambiente de observação, pois o sinal de alarme indica sempre risco de choque.",
    "Prescrever ácido acetilsalicílico para o controle da febre e da mialgia intensa referida pelo paciente.",
+   "Hidratação endovenosa em ambiente de observação, pois o sinal de alarme indica sempre risco de choque.",
    "Iniciar antibiótico de amplo espectro endovenoso como tratamento específico para o quadro descrito.",
    "Transfundir plaquetas profilaticamente diante da contagem observada, antes de qualquer hidratação."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
@@ -65,8 +65,8 @@
   "coment": "Dor abdominal intensa e contínua é sinal de alarme na dengue, classificando o paciente no grupo C, que exige hidratação endovenosa imediata com dez mililitros por quilo na primeira hora e observação em unidade com leito. Os sinais de alarme aparecem tipicamente na defervescência, quando ocorre o extravasamento plasmático. Salicilatos e anti-inflamatórios são contraindicados pelo risco de sangramento, e a transfusão de plaquetas profilática não é recomendada.",
   "porAlt": [
    "A alta domiciliar diante de sinal de alarme arrisca choque e óbito em poucas horas de evolução.",
-   "Correta: sinal de alarme indica hidratação endovenosa imediata e observação em unidade de saúde.",
    "Salicilatos são contraindicados na dengue por aumentarem o risco de sangramento no paciente.",
+   "Correta: sinal de alarme indica hidratação endovenosa imediata e observação em unidade de saúde.",
    "A dengue é viral e o antibiótico não tem qualquer papel no tratamento específico da doença.",
    "A transfusão profilática de plaquetas não é recomendada e não previne sangramento na dengue."
   ]
@@ -74,13 +74,13 @@
  {
   "q": "Paciente com febre, icterícia, mialgia intensa em panturrilhas, sufusão conjuntival e histórico de contato com água de enchente. Qual é a conduta?",
   "alts": [
-   "Iniciar antibiótico específico precocemente e notificar sempre o caso à vigilância epidemiológica.",
    "Aguardar a confirmação sorológica antes de iniciar qualquer antibiótico no paciente com esse quadro.",
    "Prescrever apenas sintomáticos, pois a doença suspeitada tem curso invariavelmente autolimitado.",
    "Iniciar antiviral por sete dias, tratamento indicado para o quadro febril ictérico descrito no caso.",
-   "Indicar hemodiálise imediata em todos os casos com icterícia e mialgia após contato com enchente."
+   "Indicar hemodiálise imediata em todos os casos com icterícia e mialgia após contato com enchente.",
+   "Iniciar antibiótico específico precocemente e notificar sempre o caso à vigilância epidemiológica."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
@@ -88,11 +88,11 @@
   "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de leptospirose",
   "coment": "A leptospirose deve ser suspeitada diante de febre, mialgia intensa em panturrilhas, sufusão conjuntival e exposição a água contaminada. O antibiótico é iniciado precocemente pela suspeita clínica, sem aguardar sorologia, que costuma positivar tardiamente: penicilina ou ceftriaxona nas formas graves, doxiciclina nas leves. A forma grave, síndrome de Weil, cursa com icterícia rubínica, lesão renal e hemorragia pulmonar. A doença é de notificação compulsória.",
   "porAlt": [
-   "Correta: antibiótico precoce guiado pela suspeita clínica, com notificação compulsória do caso.",
    "A sorologia positiva tardiamente e aguardá-la atrasa o antibiótico que muda o desfecho da doença.",
    "A forma grave tem letalidade elevada e não é autolimitada, exigindo tratamento e suporte intensivo.",
    "A leptospirose é bacteriana e não responde a antiviral, que não tem papel algum no tratamento.",
-   "A diálise se indica na lesão renal com critérios próprios, e não a todos os pacientes ictéricos."
+   "A diálise se indica na lesão renal com critérios próprios, e não a todos os pacientes ictéricos.",
+   "Correta: antibiótico precoce guiado pela suspeita clínica, com notificação compulsória do caso."
   ]
  },
  {
@@ -100,11 +100,11 @@
   "alts": [
    "Aguardar o resultado da análise do líquor antes de administrar a primeira dose de antibiótico ao paciente.",
    "Iniciar apenas antiviral endovenoso, tratamento empírico de escolha para o quadro meníngeo descrito.",
-   "Iniciar antibiótico empírico imediatamente, sempre sem aguardar o resultado do líquido cefalorraquidiano.",
    "Prescrever analgésico e observar clinicamente por doze horas antes de qualquer decisão terapêutica agora.",
+   "Iniciar antibiótico empírico imediatamente, sempre sem aguardar o resultado do líquido cefalorraquidiano.",
    "Realizar tomografia de crânio em todos os pacientes antes de qualquer administração de antibiótico agora."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
@@ -114,8 +114,8 @@
   "porAlt": [
    "Aguardar o resultado do líquor atrasa horas o antibiótico e aumenta mortalidade e sequelas.",
    "O antiviral isolado não cobre a etiologia bacteriana, que é a de maior letalidade nesse quadro.",
-   "Correta: antibiótico empírico imediato após as culturas, sem aguardar o resultado do líquor.",
    "Observar por doze horas em suspeita de meningite bacteriana é intervalo inaceitavelmente longo.",
+   "Correta: antibiótico empírico imediato após as culturas, sem aguardar o resultado do líquor.",
    "A tomografia prévia é seletiva e, quando indicada, não deve retardar a primeira dose do antibiótico."
   ]
  },
@@ -123,12 +123,12 @@
   "q": "Paciente com febre alta há 3 dias após retorno de área endêmica de malária. Qual é a conduta imediata?",
   "alts": [
    "Iniciar antibiótico de amplo espectro empírico sem qualquer investigação parasitológica prévia.",
-   "Pesquisa de plasmódio por gota espessa ou teste rápido e sempre tratamento conforme a espécie.",
    "Aguardar sete dias de febre antes de solicitar qualquer exame para pesquisa de plasmódio no sangue.",
    "Solicitar apenas hemocultura e tratar somente se houver crescimento bacteriano documentado já.",
-   "Prescrever antitérmico e reavaliar clinicamente em uma semana caso a febre persista no paciente."
+   "Prescrever antitérmico e reavaliar clinicamente em uma semana caso a febre persista no paciente.",
+   "Pesquisa de plasmódio por gota espessa ou teste rápido e sempre tratamento conforme a espécie."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
@@ -137,10 +137,10 @@
   "coment": "Febre em quem esteve em área endêmica é malária até prova em contrário, e o diagnóstico é urgente porque a malária por Plasmodium falciparum pode evoluir para forma grave em poucas horas. A pesquisa é feita por gota espessa ou teste rápido, com resultado no mesmo atendimento. O tratamento depende da espécie: derivados de artemisinina combinados para falciparum e cloroquina com primaquina para vivax, esta última após avaliar deficiência de G6PD.",
   "porAlt": [
    "Antibiótico empírico sem investigar malária deixa sem tratamento uma doença potencialmente fatal.",
-   "Correta: pesquisa imediata de plasmódio e tratamento conforme a espécie identificada no exame.",
    "Aguardar sete dias permite a evolução para malária grave, com disfunção orgânica e óbito.",
    "A hemocultura investiga bacteremia e não detecta o plasmódio responsável pelo quadro febril.",
-   "Adiar por uma semana em suspeita de malária é conduta com risco elevado de desfecho fatal."
+   "Adiar por uma semana em suspeita de malária é conduta com risco elevado de desfecho fatal.",
+   "Correta: pesquisa imediata de plasmódio e tratamento conforme a espécie identificada no exame."
   ]
  },
  {
@@ -148,11 +148,11 @@
   "alts": [
    "Aguardar o resultado da sorologia do profissional acidentado antes de iniciar qualquer profilaxia indicada já.",
    "Iniciar profilaxia apenas se a sorologia do profissional se tornar reagente nas semanas seguintes agora já.",
-   "Iniciar profilaxia pós-exposição idealmente nas primeiras duas horas, sempre com acompanhamento sorológico.",
    "Prescrever apenas antibiótico profilático e realizar acompanhamento sorológico por seis meses neste caso.",
+   "Iniciar profilaxia pós-exposição idealmente nas primeiras duas horas, sempre com acompanhamento sorológico.",
    "Não indicar profilaxia, pois o risco de transmissão por acidente perfurocortante é considerado nulo agora."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "prev",
@@ -162,8 +162,8 @@
   "porAlt": [
    "A sorologia basal é colhida mas não deve atrasar o início da profilaxia, que é tempo-dependente.",
    "Esperar a soroconversão significa não fazer profilaxia, pois nesse ponto a infecção já se instalou.",
-   "Correta: profilaxia iniciada o mais cedo possível, com sorologia basal e acompanhamento posterior.",
    "O antibiótico não previne infecção viral e não substitui a profilaxia antirretroviral indicada.",
+   "Correta: profilaxia iniciada o mais cedo possível, com sorologia basal e acompanhamento posterior.",
    "O risco não é nulo e a profilaxia reduz de forma expressiva a chance de transmissão do vírus."
   ]
  },
@@ -171,12 +171,12 @@
   "q": "Paciente com endocardite infecciosa por Staphylococcus aureus em válvula nativa, com insuficiência cardíaca aguda por regurgitação valvar grave. Qual é a conduta?",
   "alts": [
    "Manter apenas antibiótico endovenoso por seis semanas, sem qualquer avaliação de indicação cirúrgica agora.",
-   "Aguardar a conclusão do tratamento antibiótico antes de considerar qualquer abordagem cirúrgica da válvula.",
    "Antibiótico dirigido e avaliação cirúrgica precoce, pois a insuficiência cardíaca indica sempre intervenção.",
+   "Aguardar a conclusão do tratamento antibiótico antes de considerar qualquer abordagem cirúrgica da válvula.",
    "Prescrever anticoagulação plena de rotina, medida indicada para todos os casos de endocardite infecciosa.",
    "Indicar apenas diurético e reavaliar em três meses com novo ecocardiograma transtorácico do paciente agora."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
@@ -185,8 +185,8 @@
   "coment": "A insuficiência cardíaca por disfunção valvar é a principal indicação de cirurgia na endocardite e a que mais impacta mortalidade, devendo ser realizada precocemente, sem esperar o término do antibiótico. As outras indicações são infecção não controlada — abscesso, febre persistente, germe resistente — e prevenção de embolia com vegetação grande após evento embólico. A anticoagulação de rotina não é indicada e pode aumentar o risco de hemorragia intracraniana.",
   "porAlt": [
    "Manter apenas antibiótico diante de insuficiência cardíaca por disfunção valvar aumenta a mortalidade.",
-   "Aguardar o fim do antibiótico atrasa a cirurgia que deveria ser precoce nessa indicação clínica.",
    "Correta: antibiótico dirigido com avaliação cirúrgica precoce, pois a insuficiência cardíaca indica cirurgia.",
+   "Aguardar o fim do antibiótico atrasa a cirurgia que deveria ser precoce nessa indicação clínica.",
    "A anticoagulação de rotina não é indicada e aumenta o risco de hemorragia intracraniana no paciente.",
    "Diurético isolado não corrige a regurgitação grave e não resolve a infecção valvar estabelecida."
   ]
@@ -194,13 +194,13 @@
  {
   "q": "Paciente internado há 8 dias em uso de antibiótico apresenta diarreia aquosa, dor abdominal e leucocitose. Qual é a conduta?",
   "alts": [
+   "Pesquisar toxina de Clostridioides difficile e tratar com antibiótico específico, suspendendo sempre o agente.",
    "Prescrever loperamida em dose plena para reduzir o número de evacuações e aliviar a dor abdominal neste caso.",
    "Manter o antibiótico em curso e prescrever apenas hidratação oral com reavaliação em uma semana neste caso.",
-   "Pesquisar toxina de Clostridioides difficile e tratar com antibiótico específico, suspendendo sempre o agente.",
    "Iniciar corticoide sistêmico em dose alta, tratamento de escolha para a diarreia associada a antibiótico.",
    "Solicitar colonoscopia de rotina em todos os pacientes antes de qualquer tratamento específico da diarreia."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
@@ -208,9 +208,9 @@
   "base": "IDSA/SHEA Clinical Practice Guidelines for Clostridioides difficile infection, atualização 2021 com revisão 2024",
   "coment": "Diarreia associada a antibiótico em paciente internado sugere infecção por Clostridioides difficile, diagnosticada por pesquisa de toxina ou teste molecular em fezes diarreicas. O tratamento de primeira linha é vancomicina oral ou fidaxomicina, com suspensão do antibiótico desencadeante sempre que possível e precauções de contato com higiene das mãos com água e sabão. Antiperistálticos são evitados por risco de megacólon tóxico e retenção da toxina.",
   "porAlt": [
+   "Correta: pesquisar a toxina, tratar com antibiótico específico e suspender o agente desencadeante.",
    "A loperamida é evitada pelo risco de megacólon tóxico e retenção da toxina no lúmen intestinal.",
    "Manter o antibiótico desencadeante perpetua a disbiose e a infecção, agravando o quadro clínico.",
-   "Correta: pesquisar a toxina, tratar com antibiótico específico e suspender o agente desencadeante.",
    "O corticoide não trata a infecção e pode agravar o quadro colônico do paciente internado.",
    "A colonoscopia se reserva a casos duvidosos ou graves, não sendo exame de rotina nesse contexto."
   ]
@@ -221,10 +221,10 @@
    "Herpes genital primário, que cursa com úlcera única indolor de bordas endurecidas e fundo limpo agora.",
    "Cancro mole por Haemophilus ducreyi, que cursa com úlcera única indolor e adenopatia indolor associada.",
    "Donovanose em fase inicial, caracterizada por úlcera indolor de bordas endurecidas com fundo limpo agora.",
-   "Sífilis primária, que exige sempre tratamento com penicilina benzatina e notificação compulsória do caso.",
-   "Linfogranuloma venéreo, que cursa com úlcera única indolor endurecida e adenopatia inguinal indolor."
+   "Linfogranuloma venéreo, que cursa com úlcera única indolor endurecida e adenopatia inguinal indolor.",
+   "Sífilis primária, que exige sempre tratamento com penicilina benzatina e notificação compulsória do caso."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "dx",
@@ -235,8 +235,8 @@
    "O herpes cursa com vesículas que evoluem para úlceras múltiplas, rasas e tipicamente dolorosas.",
    "O cancro mole produz úlceras múltiplas, dolorosas, de fundo sujo, com adenopatia dolorosa supurativa.",
    "A donovanose cursa com úlcera vegetante de fundo granuloso e evolução crônica e progressiva.",
-   "Correta: úlcera única indolor de bordas endurecidas com adenopatia indolor caracteriza sífilis primária.",
-   "O linfogranuloma cursa com lesão inicial fugaz seguida de adenopatia dolorosa que pode fistulizar."
+   "O linfogranuloma cursa com lesão inicial fugaz seguida de adenopatia dolorosa que pode fistulizar.",
+   "Correta: úlcera única indolor de bordas endurecidas com adenopatia indolor caracteriza sífilis primária."
   ]
  }
 ]

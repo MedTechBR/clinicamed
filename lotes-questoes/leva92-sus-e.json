@@ -3,12 +3,12 @@
   "q": "Um serviço deseja implantar um protocolo clínico institucional. Qual é o passo metodológico correto?",
   "alts": [
    "Copiar integralmente um protocolo estrangeiro sem qualquer adaptação à realidade e aos recursos locais.",
-   "Basear o protocolo em diretrizes vigentes e adaptar à realidade local, revisando sempre em prazo definido.",
    "Basear o protocolo apenas na opinião do profissional mais experiente do serviço, sem qualquer referência externa.",
+   "Basear o protocolo em diretrizes vigentes e adaptar à realidade local, revisando sempre em prazo definido.",
    "Elaborar o protocolo e nunca revisá-lo, pois a conduta clínica não se altera com o passar dos anos agora.",
    "Basear o protocolo apenas no custo dos insumos, sem qualquer consideração sobre eficácia ou segurança."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -17,8 +17,8 @@
   "coment": "Um protocolo institucional deve partir de diretrizes vigentes de boa qualidade, avaliadas por instrumentos como o AGREE, e ser adaptado ao contexto local: recursos disponíveis, perfil epidemiológico, fluxos assistenciais e capacidade instalada. É elaborado com participação multiprofissional, aprovado formalmente, difundido com treinamento e, sobretudo, tem prazo definido de revisão, porque a evidência muda e o protocolo desatualizado passa a induzir conduta errada.",
   "porAlt": [
    "Copiar sem adaptar ignora recursos, epidemiologia e fluxos locais e gera protocolo inaplicável.",
-   "Correta: partir de diretrizes vigentes, adaptar à realidade local e definir prazo de revisão periódica.",
    "A opinião isolada, mesmo experiente, não substitui a evidência sistematizada em diretrizes.",
+   "Correta: partir de diretrizes vigentes, adaptar à realidade local e definir prazo de revisão periódica.",
    "A evidência muda e o protocolo sem revisão passa a induzir conduta desatualizada e insegura.",
    "Considerar apenas custo, sem eficácia e segurança, produz protocolo que pode causar dano."
   ]
@@ -27,12 +27,12 @@
   "q": "Um paciente relata dificuldade de acesso a exames de média complexidade no território. Qual é o papel da regulação?",
   "alts": [
    "Distribuir as vagas por sorteio aleatório, sem qualquer consideração sobre gravidade ou prioridade clínica agora.",
+   "Organizar filas por critério clínico e garantir sempre transparência e equidade na alocação das vagas disponíveis.",
    "Atender estritamente por ordem de chegada, sem qualquer classificação de risco ou prioridade clínica definida.",
    "Priorizar apenas os pacientes que apresentarem solicitação de médico do serviço privado do território neste caso.",
-   "Organizar filas por critério clínico e garantir sempre transparência e equidade na alocação das vagas disponíveis.",
    "Deixar a definição de prioridade inteiramente a critério individual de cada profissional solicitante, sem regras."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -41,9 +41,9 @@
   "coment": "A regulação assistencial organiza o acesso a serviços de média e alta complexidade, ordenando a fila por critérios clínicos de risco e prioridade, e não por ordem de chegada ou influência pessoal. Isso operacionaliza os princípios de equidade e integralidade, permitindo que o paciente mais grave seja atendido primeiro, e exige transparência dos critérios, protocolos de regulação explícitos e monitoramento dos tempos de espera por procedimento.",
   "porAlt": [
    "O sorteio ignora gravidade clínica e produz desfechos piores em quem precisa com urgência.",
+   "Correta: organizar as filas por critério clínico com transparência e equidade na alocação das vagas.",
    "A ordem de chegada não distingue gravidade e faz o paciente grave esperar atrás de casos leves.",
    "Privilegiar solicitação do setor privado fere a equidade e o caráter público do sistema.",
-   "Correta: organizar as filas por critério clínico com transparência e equidade na alocação das vagas.",
    "Sem regras explícitas, a alocação fica sujeita a influência pessoal e perde a equidade."
   ]
  },
@@ -51,12 +51,12 @@
   "q": "Um médico identifica erro em prescrição própria que causou dano leve ao paciente. Qual é a conduta ética?",
   "alts": [
    "Ocultar o erro do paciente para preservar a relação de confiança construída durante o acompanhamento clínico.",
-   "Informar o paciente, corrigir o erro e registrar o ocorrido, adotando sempre medidas para evitar recorrência.",
    "Atribuir o erro a outro profissional da equipe para evitar desgaste pessoal com o paciente e a família agora.",
    "Registrar apenas em prontuário sem qualquer comunicação ao paciente sobre o erro identificado na prescrição.",
-   "Suspender o acompanhamento do paciente e encaminhá-lo a outro serviço sem qualquer explicação do ocorrido."
+   "Suspender o acompanhamento do paciente e encaminhá-lo a outro serviço sem qualquer explicação do ocorrido.",
+   "Informar o paciente, corrigir o erro e registrar o ocorrido, adotando sempre medidas para evitar recorrência."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -65,22 +65,22 @@
   "coment": "A comunicação honesta de incidentes é dever ético e prática recomendada de segurança do paciente: informar o que ocorreu, o impacto, as medidas de correção adotadas e o que será feito para evitar recorrência, com registro em prontuário e notificação ao sistema institucional de segurança. Ocultar o erro viola a autonomia e a confiança, e a análise do incidente deve buscar causas sistêmicas, não apenas culpar o indivíduo envolvido.",
   "porAlt": [
    "Ocultar o erro viola a autonomia do paciente e destrói a confiança quando descoberto depois.",
-   "Correta: informar o paciente, corrigir o erro, registrar e adotar medidas para evitar recorrência.",
    "Atribuir a culpa a outro profissional é conduta antiética e impede a análise real do incidente.",
    "O registro sem comunicação não cumpre o dever de informar o paciente sobre o que lhe ocorreu.",
-   "Abandonar o acompanhamento sem explicação configura abandono e agrava a falha ética cometida."
+   "Abandonar o acompanhamento sem explicação configura abandono e agrava a falha ética cometida.",
+   "Correta: informar o paciente, corrigir o erro, registrar e adotar medidas para evitar recorrência."
   ]
  },
  {
   "q": "Uma equipe deseja avaliar se um novo fluxo reduziu o tempo de espera. Qual indicador é apropriado?",
   "alts": [
-   "Tempo mediano entre solicitação e atendimento, comparado sempre entre períodos com metodologia equivalente.",
    "Número absoluto de atendimentos realizados, indicador que mede diretamente a redução do tempo de espera.",
    "Satisfação geral dos profissionais da equipe, indicador que expressa o tempo de espera dos pacientes atendidos.",
    "Quantidade de reuniões realizadas para discutir o novo fluxo implantado no serviço durante o período agora.",
-   "Número de cartazes afixados na unidade informando sobre o novo fluxo de atendimento implantado neste caso."
+   "Número de cartazes afixados na unidade informando sobre o novo fluxo de atendimento implantado neste caso.",
+   "Tempo mediano entre solicitação e atendimento, comparado sempre entre períodos com metodologia equivalente."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -88,23 +88,23 @@
   "base": "Ministério da Saúde — Diretrizes metodológicas de avaliação em saúde, 2022; IHI Quality Improvement framework",
   "coment": "A avaliação de melhoria exige indicador que meça diretamente o desfecho de interesse, colhido da mesma forma antes e depois da intervenção. Para tempo de espera, usa-se o intervalo entre solicitação e atendimento, preferindo a mediana à média por ser menos sensível a valores extremos, e complementando com percentis para descrever a cauda da distribuição. Indicadores de processo e de estrutura complementam, mas não substituem a medida do desfecho.",
   "porAlt": [
-   "Correta: tempo mediano entre solicitação e atendimento, comparado entre períodos com mesma metodologia.",
    "O número de atendimentos mede volume de produção e não informa sobre o tempo de espera.",
    "A satisfação dos profissionais é indicador indireto e não mede o tempo real de espera do usuário.",
    "O número de reuniões mede atividade administrativa, sem relação com o desfecho de interesse.",
-   "Cartazes afixados medem difusão da informação e não o tempo de espera efetivamente observado."
+   "Cartazes afixados medem difusão da informação e não o tempo de espera efetivamente observado.",
+   "Correta: tempo mediano entre solicitação e atendimento, comparado entre períodos com mesma metodologia."
   ]
  },
  {
   "q": "Um paciente adulto capaz recusa transfusão de sangue por convicção religiosa em situação eletiva. Qual é a conduta?",
   "alts": [
-   "Respeitar a recusa e buscar alternativas terapêuticas, registrando sempre o esclarecimento e a decisão do paciente.",
    "Transfundir contra a vontade do paciente adulto capaz em qualquer situação clínica eletiva do serviço neste caso.",
+   "Respeitar a recusa e buscar alternativas terapêuticas, registrando sempre o esclarecimento e a decisão do paciente.",
    "Recusar completamente o atendimento ao paciente que não aceita transfusão em procedimento eletivo nesse contexto.",
    "Solicitar autorização judicial em todos os casos de recusa de transfusão por paciente adulto e capaz neste caso.",
    "Transferir a decisão integralmente aos familiares, desconsiderando a manifestação do próprio paciente capaz agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "enf",
   "comp": "tto",
@@ -112,8 +112,8 @@
   "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; Recomendação CFM nº 1/2016 sobre recusa terapêutica",
   "coment": "O paciente adulto e capaz tem direito de recusar tratamento específico, inclusive transfusão, em situação eletiva, e essa recusa deve ser respeitada e registrada após esclarecimento completo sobre riscos e alternativas. O médico deve buscar estratégias de poupança de sangue: otimização pré-operatória com ferro e agentes estimuladores, técnicas cirúrgicas hemostáticas, ácido tranexâmico e recuperação intraoperatória. Situações de emergência com risco iminente de morte envolvem discussão distinta.",
   "porAlt": [
-   "Correta: respeitar a recusa e buscar alternativas terapêuticas, com registro do esclarecimento e da decisão.",
    "Transfundir contra a vontade de paciente capaz em situação eletiva viola sua autonomia pessoal.",
+   "Correta: respeitar a recusa e buscar alternativas terapêuticas, com registro do esclarecimento e da decisão.",
    "Recusar o atendimento por causa da recusa terapêutica configura abandono e infração ética.",
    "A autorização judicial não é necessária diante da recusa de paciente adulto, capaz e esclarecido.",
    "A decisão pertence ao paciente capaz, e transferi-la à família desrespeita sua autonomia."
@@ -124,11 +124,11 @@
   "alts": [
    "Tratamento medicamentoso isolado repetido indefinidamente, sem qualquer ação sobre as condições de saneamento agora.",
    "Encaminhar todos os casos ao serviço terciário, retirando a atuação da equipe de atenção primária local neste caso.",
-   "Tratamento associado a ações intersetoriais de saneamento e educação, atuando sempre sobre os determinantes sociais.",
    "Aguardar que a prefeitura resolva o saneamento antes de qualquer tratamento dos casos identificados neste caso já.",
-   "Prescrever apenas suplementação vitamínica como abordagem principal do problema identificado na comunidade agora."
+   "Prescrever apenas suplementação vitamínica como abordagem principal do problema identificado na comunidade agora.",
+   "Tratamento associado a ações intersetoriais de saneamento e educação, atuando sempre sobre os determinantes sociais."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -138,9 +138,9 @@
   "porAlt": [
    "O tratamento isolado é seguido de reinfestação rápida enquanto o ambiente permanece contaminado.",
    "Encaminhar ao terciário desorganiza a rede e não atua sobre a causa no território adscrito.",
-   "Correta: tratamento associado a ações intersetoriais de saneamento e educação sobre os determinantes.",
    "Adiar o tratamento até a resolução do saneamento deixa a população doente por tempo indeterminado.",
-   "A suplementação vitamínica não trata a parasitose nem interrompe o ciclo de transmissão."
+   "A suplementação vitamínica não trata a parasitose nem interrompe o ciclo de transmissão.",
+   "Correta: tratamento associado a ações intersetoriais de saneamento e educação sobre os determinantes."
   ]
  },
  {
@@ -149,10 +149,10 @@
    "Afirmar que a participação é obrigatória para continuar recebendo atendimento no serviço de saúde atual agora.",
    "Omitir os riscos do estudo para não desestimular a participação do paciente na pesquisa proposta neste caso.",
    "Garantir ao paciente que ele necessariamente receberá o tratamento experimental, e não o comparador do estudo.",
-   "Explicar objetivos, riscos e o direito de recusar ou desistir, garantindo sempre que a decisão seja voluntária.",
-   "Decidir pelo paciente sobre a participação, sem qualquer necessidade de consentimento livre e esclarecido."
+   "Decidir pelo paciente sobre a participação, sem qualquer necessidade de consentimento livre e esclarecido.",
+   "Explicar objetivos, riscos e o direito de recusar ou desistir, garantindo sempre que a decisão seja voluntária."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -163,20 +163,20 @@
    "Condicionar o atendimento à participação é coerção e viola frontalmente a ética em pesquisa.",
    "Omitir riscos invalida o consentimento e configura infração ética grave do pesquisador.",
    "Em estudo randomizado não se pode garantir qual braço o participante receberá durante a pesquisa.",
-   "Correta: explicar objetivos, riscos e o direito de recusar ou desistir, garantindo decisão voluntária.",
-   "A participação exige consentimento do próprio paciente, que jamais é dispensável nesse contexto."
+   "A participação exige consentimento do próprio paciente, que jamais é dispensável nesse contexto.",
+   "Correta: explicar objetivos, riscos e o direito de recusar ou desistir, garantindo decisão voluntária."
   ]
  },
  {
   "q": "Uma unidade de saúde registra aumento de casos de sífilis em gestantes no território. Qual é a resposta adequada?",
   "alts": [
-   "Ampliar testagem e tratamento com busca de parcerias, investigando sempre as falhas no fluxo do pré-natal.",
    "Aguardar orientação estadual antes de qualquer ação local diante do aumento de casos identificado no território.",
    "Encaminhar todos os casos ao serviço terciário sem qualquer ação de testagem ou tratamento na primária.",
    "Reduzir a testagem para diminuir o número de casos registrados nas estatísticas do território adscrito.",
+   "Ampliar testagem e tratamento com busca de parcerias, investigando sempre as falhas no fluxo do pré-natal.",
    "Tratar apenas as gestantes e nunca as parcerias sexuais, que não influenciam a transmissão da doença."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -184,10 +184,10 @@
   "base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com IST, 2022; Guia de Vigilância em Saúde, 2024",
   "coment": "O aumento de sífilis em gestantes indica falha no fluxo do pré-natal, e a resposta combina ampliar testagem — no primeiro e no terceiro trimestre e no parto —, garantir tratamento imediato com penicilina benzatina na própria unidade, tratar as parcerias sexuais, que é o ponto mais frequentemente falho e causa de reinfecção, e investigar barreiras como falta de insumo, medo de reação alérgica e captação tardia. A sífilis congênita é evento sentinela evitável.",
   "porAlt": [
-   "Correta: ampliar testagem e tratamento com busca de parcerias e investigação das falhas do pré-natal.",
    "Aguardar orientação estadual atrasa uma resposta que é competência e capacidade da própria equipe.",
    "Encaminhar ao terciário retira da primária uma ação simples, resolutiva e de sua competência.",
    "Reduzir a testagem esconde o problema e aumenta os casos de sífilis congênita no território.",
+   "Correta: ampliar testagem e tratamento com busca de parcerias e investigação das falhas do pré-natal.",
    "Não tratar as parcerias mantém a reinfecção da gestante e perpetua a transmissão no território."
   ]
  },
@@ -218,13 +218,13 @@
  {
   "q": "Uma equipe atende paciente com transtorno por uso de substâncias que deseja tratamento. Qual é a abordagem adequada?",
   "alts": [
-   "Acolher sem julgamento e articular a rede de atenção psicossocial, adotando sempre estratégias de redução de danos.",
    "Condicionar qualquer atendimento à abstinência completa prévia do paciente antes de iniciar o acompanhamento agora.",
    "Encaminhar exclusivamente para internação prolongada compulsória em todos os casos de uso de substâncias agora.",
+   "Acolher sem julgamento e articular a rede de atenção psicossocial, adotando sempre estratégias de redução de danos.",
    "Negar o atendimento clínico até que o paciente comprove ter interrompido totalmente o uso da substância agora.",
    "Prescrever apenas benzodiazepínico contínuo como tratamento definitivo do transtorno por uso de substâncias agora."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "tto",
@@ -232,9 +232,9 @@
   "base": "Ministério da Saúde — Política Nacional sobre Drogas e Rede de Atenção Psicossocial; PCDT sobre uso de substâncias, 2022",
   "coment": "A abordagem do transtorno por uso de substâncias parte do acolhimento sem julgamento e do vínculo, com articulação da rede de atenção psicossocial, incluindo centros de atenção psicossocial de álcool e drogas. A redução de danos é diretriz da política brasileira: reconhece que nem todo paciente está pronto para a abstinência e busca reduzir riscos enquanto o uso persiste. Exigir abstinência prévia afasta justamente quem mais precisa do cuidado.",
   "porAlt": [
-   "Correta: acolher sem julgamento, articular a rede psicossocial e adotar estratégias de redução de danos.",
    "Exigir abstinência prévia afasta o paciente do serviço e contraria a política vigente de cuidado.",
    "A internação compulsória é excepcional e não é a abordagem para quem busca tratamento voluntariamente.",
+   "Correta: acolher sem julgamento, articular a rede psicossocial e adotar estratégias de redução de danos.",
    "Negar atendimento a quem usa substâncias é discriminatório e configura infração ética grave.",
    "O benzodiazepínico contínuo gera dependência adicional e não trata o transtorno de base."
   ]

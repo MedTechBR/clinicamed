@@ -4,11 +4,11 @@
   "alts": [
    "Rastrear todos os homens anualmente a partir dos quarenta anos com dosagem de antígeno prostático.",
    "Não discutir o tema, pois o rastreio de câncer de próstata não tem qualquer respaldo na literatura.",
+   "Decisão compartilhada após informar benefícios e danos, sempre respeitando a preferência do paciente.",
    "Indicar biópsia prostática de rotina para todos os homens acima de cinquenta anos de idade agora.",
-   "Rastrear apenas com toque retal isolado, sem qualquer dosagem do antígeno prostático específico.",
-   "Decisão compartilhada após informar benefícios e danos, sempre respeitando a preferência do paciente."
+   "Rastrear apenas com toque retal isolado, sem qualquer dosagem do antígeno prostático específico."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
@@ -18,21 +18,21 @@
   "porAlt": [
    "Rastrear todos anualmente desde os quarenta anos amplia o sobrediagnóstico sem benefício proporcional.",
    "O tema deve ser discutido: existe evidência, com benefício modesto e danos relevantes conhecidos.",
+   "Correta: decisão compartilhada após informar benefícios e danos, respeitando a preferência do paciente.",
    "A biópsia é indicada por alteração no rastreio, e não como procedimento de rotina populacional.",
-   "O toque retal isolado tem desempenho insuficiente e não é recomendado como método único.",
-   "Correta: decisão compartilhada após informar benefícios e danos, respeitando a preferência do paciente."
+   "O toque retal isolado tem desempenho insuficiente e não é recomendado como método único."
   ]
  },
  {
   "q": "Paciente com câncer de mama e dor óssea nova em coluna. Qual exame inicial deve ser solicitado?",
   "alts": [
-   "Imagem dirigida do segmento sintomático, avaliando sempre a possibilidade de compressão medular associada.",
    "Apenas hemograma completo, exame suficiente para investigar a dor óssea nova nesse contexto clínico agora.",
    "Apenas dosagem de marcador tumoral sérico, exame que confirma a presença de metástase óssea nova agora.",
    "Aguardar seis meses antes de qualquer investigação da dor óssea em paciente oncológico conhecido agora.",
-   "Solicitar apenas eletroneuromiografia, exame que estabelece o diagnóstico de metástase vertebral agora."
+   "Solicitar apenas eletroneuromiografia, exame que estabelece o diagnóstico de metástase vertebral agora.",
+   "Imagem dirigida do segmento sintomático, avaliando sempre a possibilidade de compressão medular associada."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "dx",
@@ -40,23 +40,23 @@
   "base": "NCCN Breast Cancer, 2024; NICE guideline NG234 — Metastatic spinal cord compression, 2023",
   "coment": "Dor óssea nova em paciente com câncer é metástase até prova em contrário, e dor em coluna exige atenção especial ao risco de compressão medular, que é emergência. A investigação começa por imagem dirigida do segmento sintomático, preferencialmente ressonância quando há suspeita de acometimento epidural, complementada por avaliação de extensão com cintilografia óssea ou tomografia por emissão de pósitrons conforme o caso.",
   "porAlt": [
-   "Correta: imagem dirigida do segmento sintomático, atenta ao risco de compressão medular associada.",
    "O hemograma não avalia a coluna nem detecta lesão óssea metastática no segmento doloroso.",
    "Os marcadores tumorais têm papel limitado e não substituem a imagem na investigação da dor.",
    "Adiar por seis meses arrisca compressão medular com déficit neurológico permanente e evitável.",
-   "A eletroneuromiografia avalia função de nervo e músculo, e não a estrutura óssea vertebral."
+   "A eletroneuromiografia avalia função de nervo e músculo, e não a estrutura óssea vertebral.",
+   "Correta: imagem dirigida do segmento sintomático, atenta ao risco de compressão medular associada."
   ]
  },
  {
   "q": "Paciente com câncer avançado e dispneia refratária apesar de tratamento da causa. Qual é a conduta?",
   "alts": [
-   "Sedação profunda contínua imediata em todos os pacientes com dispneia refratária em doença avançada agora.",
    "Opioide em dose titulada para alívio da dispneia, associado sempre a medidas não farmacológicas de conforto.",
+   "Sedação profunda contínua imediata em todos os pacientes com dispneia refratária em doença avançada agora.",
    "Oxigênio suplementar de rotina em todos os casos, mesmo naqueles sem qualquer hipoxemia documentada agora.",
    "Benzodiazepínico isolado em dose alta como primeira escolha para o controle da dispneia refratária agora.",
    "Restrição hídrica extrema como principal medida terapêutica para a dispneia refratária no câncer avançado."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -64,8 +64,8 @@
   "base": "ESMO Clinical Practice Guidelines on dyspnoea in advanced cancer, 2021; ANCP — Manual de Cuidados Paliativos, 2ª edição, 2021",
   "coment": "O opioide sistêmico em dose titulada é a intervenção com melhor evidência para a dispneia refratária no câncer avançado, reduzindo a percepção do desconforto sem causar depressão respiratória quando titulado adequadamente. Associam-se medidas não farmacológicas: ventilador com fluxo de ar no rosto, posicionamento, técnicas de respiração e manejo da ansiedade. Oxigênio beneficia sobretudo os hipoxêmicos, e benzodiazepínico é adjuvante quando há ansiedade importante.",
   "porAlt": [
-   "A sedação paliativa se reserva a sintomas verdadeiramente refratários a todas as medidas anteriores.",
    "Correta: opioide titulado com medidas não farmacológicas é a base do alívio da dispneia refratária.",
+   "A sedação paliativa se reserva a sintomas verdadeiramente refratários a todas as medidas anteriores.",
    "O oxigênio beneficia sobretudo os hipoxêmicos, sem ganho consistente nos pacientes sem hipoxemia.",
    "O benzodiazepínico é adjuvante para ansiedade e não é a primeira escolha para a dispneia.",
    "A restrição hídrica extrema não alivia dispneia e pode causar desconforto adicional ao paciente."
@@ -75,12 +75,12 @@
   "q": "Mulher de 30 anos com HPV positivo e citologia com lesão intraepitelial de alto grau. Qual é a conduta?",
   "alts": [
    "Repetir a citologia em três anos, pois a lesão descrita regride espontaneamente na maioria dos casos.",
+   "Encaminhar para colposcopia com biópsia dirigida, definindo sempre a conduta pelo resultado histológico.",
    "Indicar histerectomia total imediata em todas as pacientes com lesão intraepitelial de alto grau agora.",
    "Prescrever apenas antiviral oral por seis meses como tratamento da lesão cervical de alto grau agora.",
-   "Encaminhar para colposcopia com biópsia dirigida, definindo sempre a conduta pelo resultado histológico.",
    "Solicitar apenas ultrassonografia pélvica, exame que estabelece o diagnóstico da lesão cervical descrita."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "onco",
   "cenario": "amb",
   "comp": "dx",
@@ -89,22 +89,22 @@
   "coment": "Citologia com lesão intraepitelial escamosa de alto grau tem alta probabilidade de corresponder a neoplasia intraepitelial cervical de grau 2 ou 3, e a conduta é colposcopia com biópsia dirigida. Confirmada a lesão, o tratamento habitual é excisão da zona de transformação, com técnica definida pela extensão e visibilidade da junção escamocolunar. Histerectomia não é tratamento de lesão precursora e não há antiviral que trate a lesão.",
   "porAlt": [
    "Lesão de alto grau tem risco relevante de progressão e não permite seguimento apenas citológico.",
+   "Correta: colposcopia com biópsia dirigida, com a conduta definida pelo resultado histológico obtido.",
    "A histerectomia não é tratamento de lesão precursora e configura conduta desproporcional ao caso.",
    "Não existe antiviral oral que trate a lesão intraepitelial cervical causada pelo papilomavírus.",
-   "Correta: colposcopia com biópsia dirigida, com a conduta definida pelo resultado histológico obtido.",
    "A ultrassonografia não avalia o epitélio cervical nem substitui a colposcopia com biópsia."
   ]
  },
  {
   "q": "Paciente com câncer colorretal e obstrução intestinal maligna irressecável, com vômitos incoercíveis. Qual é a conduta paliativa?",
   "alts": [
-   "Controlar sintomas com antiemético, corticoide e antissecretor, considerando sempre sonda ou prótese.",
    "Manter apenas dieta oral livre e observar clinicamente a evolução do quadro obstrutivo do paciente.",
+   "Controlar sintomas com antiemético, corticoide e antissecretor, considerando sempre sonda ou prótese.",
    "Indicar laparotomia extensa em todos os casos de obstrução maligna irressecável com vômitos agora.",
    "Prescrever apenas laxante estimulante em dose alta como medida principal do controle sintomático.",
    "Suspender toda medicação sintomática para evitar interação com o tratamento oncológico em curso."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "onco",
   "cenario": "enf",
   "comp": "tto",
@@ -112,8 +112,8 @@
   "base": "ESMO/EAPC guidelines on malignant bowel obstruction, revisão 2023; ANCP — Manual de Cuidados Paliativos, 2021",
   "coment": "Na obstrução intestinal maligna inoperável, o controle de sintomas combina antiemético como haloperidol ou metoclopramida na obstrução parcial, corticoide para reduzir edema peritumoral, antissecretor como octreotide ou butilescopolamina para diminuir o volume de secreções, além de analgesia. Sonda nasogástrica de alívio ou gastrostomia descompressiva e prótese endoscópica são opções conforme o nível e o prognóstico do paciente.",
   "porAlt": [
-   "Correta: antiemético, corticoide e antissecretor, com sonda ou prótese conforme o nível da obstrução.",
    "Manter dieta livre em obstrução estabelecida agrava vômitos e o risco de broncoaspiração.",
+   "Correta: antiemético, corticoide e antissecretor, com sonda ou prótese conforme o nível da obstrução.",
    "A laparotomia extensa em doença irressecável traz morbidade alta sem benefício correspondente.",
    "O laxante estimulante em obstrução mecânica agrava a dor e pode precipitar perfuração intestinal.",
    "Suspender sintomáticos deixa o paciente sem controle de sintomas altamente angustiantes."
@@ -148,11 +148,11 @@
   "alts": [
    "Apenas excisão simples da cicatriz sem qualquer ampliação de margens ou avaliação linfonodal.",
    "Esvaziamento linfonodal completo eletivo em todos os pacientes com melanoma dessa espessura agora já.",
+   "Ampliação de margens e pesquisa do linfonodo sentinela, indicada sempre nessa faixa de espessura.",
    "Apenas seguimento clínico sem qualquer procedimento cirúrgico adicional após a biópsia excisional.",
-   "Radioterapia local isolada como tratamento definitivo do melanoma cutâneo dessa espessura agora.",
-   "Ampliação de margens e pesquisa do linfonodo sentinela, indicada sempre nessa faixa de espessura."
+   "Radioterapia local isolada como tratamento definitivo do melanoma cutâneo dessa espessura agora."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -162,21 +162,21 @@
   "porAlt": [
    "A excisão simples sem margens adequadas associa-se a recorrência local e subestadiamento da doença.",
    "O esvaziamento eletivo completo foi abandonado por não melhorar a sobrevida global dos pacientes.",
+   "Correta: ampliação de margens com pesquisa do linfonodo sentinela nessa faixa de espessura de Breslow.",
    "O seguimento isolado sem ampliação de margens é conduta inadequada nessa espessura tumoral.",
-   "A radioterapia isolada não é tratamento curativo do melanoma cutâneo primário ressecável.",
-   "Correta: ampliação de margens com pesquisa do linfonodo sentinela nessa faixa de espessura de Breslow."
+   "A radioterapia isolada não é tratamento curativo do melanoma cutâneo primário ressecável."
   ]
  },
  {
   "q": "Paciente com câncer de pulmão e derrame pleural maligno recidivante e sintomático. Qual é a conduta?",
   "alts": [
    "Toracocenteses de alívio repetidas indefinidamente como única estratégia para o derrame recidivante.",
+   "Pleurodese ou cateter pleural de longa permanência, escolhidos sempre conforme o prognóstico do paciente.",
    "Apenas diurético em dose alta, medida suficiente para controlar o derrame pleural de origem maligna.",
    "Antibiótico de amplo espectro prolongado como tratamento do derrame pleural maligno recidivante agora.",
-   "Pleurodese ou cateter pleural de longa permanência, escolhidos sempre conforme o prognóstico do paciente.",
    "Radioterapia torácica isolada como tratamento definitivo do derrame pleural maligno sintomático agora."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -185,9 +185,9 @@
   "coment": "No derrame pleural maligno sintomático e recidivante, com pulmão expansível, as opções definitivas são pleurodese química com talco e cateter pleural de longa permanência, escolhidos conforme expectativa de vida, preferência do paciente e disponibilidade de suporte domiciliar. Quando o pulmão não expande, o cateter é preferido. Toracocenteses repetidas são paliativas de curta duração e aumentam risco de complicações e de internações.",
   "porAlt": [
    "Punções repetidas indefinidamente trazem alívio breve e aumentam complicações e internações.",
+   "Correta: pleurodese ou cateter de longa permanência, escolhidos conforme prognóstico e preferência.",
    "O diurético trata transudato cardiogênico e não controla o derrame de origem maligna.",
    "O antibiótico não trata o mecanismo do derrame maligno, que é a disseminação pleural tumoral.",
-   "Correta: pleurodese ou cateter de longa permanência, escolhidos conforme prognóstico e preferência.",
    "A radioterapia isolada não controla o derrame pleural maligno já estabelecido e recidivante."
   ]
  },
@@ -197,10 +197,10 @@
    "Apenas quando todo tratamento oncológico ativo tiver sido definitivamente interrompido pela equipe.",
    "Somente nas últimas quarenta e oito horas de vida, quando o prognóstico já estiver bem definido.",
    "Apenas se o paciente solicitar de forma expressa e por escrito o encaminhamento à equipe especializada.",
-   "Desde o diagnóstico, integrados sempre ao tratamento oncológico ativo e não apenas na fase final.",
-   "Somente após a falha de pelo menos três linhas de tratamento quimioterápico previamente instituídas."
+   "Somente após a falha de pelo menos três linhas de tratamento quimioterápico previamente instituídas.",
+   "Desde o diagnóstico, integrados sempre ao tratamento oncológico ativo e não apenas na fase final."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -211,20 +211,20 @@
    "Reservar os cuidados paliativos ao fim do tratamento oncológico atrasa o alívio de sintomas.",
    "Restringir às últimas horas de vida é a concepção equivocada que as diretrizes buscam corrigir.",
    "O encaminhamento é indicação clínica da equipe e não depende de solicitação formal do paciente.",
-   "Correta: desde o diagnóstico, integrados ao tratamento oncológico ativo e não apenas na fase final.",
-   "Não há exigência de falha de linhas de tratamento para a integração dos cuidados paliativos."
+   "Não há exigência de falha de linhas de tratamento para a integração dos cuidados paliativos.",
+   "Correta: desde o diagnóstico, integrados ao tratamento oncológico ativo e não apenas na fase final."
   ]
  },
  {
   "q": "Paciente em uso de imunoterapia com inibidor de checkpoint apresenta diarreia com seis evacuações ao dia e dor abdominal. Qual é a conduta?",
   "alts": [
    "Manter a imunoterapia e prescrever apenas loperamida em dose plena para o controle das evacuações agora.",
+   "Suspender a imunoterapia e iniciar corticoide sistêmico, avaliando sempre a exclusão de causa infecciosa.",
    "Iniciar antibiótico de amplo espectro isolado como tratamento definitivo do quadro diarreico descrito.",
    "Aumentar a dose da imunoterapia para acelerar a resposta antitumoral apesar do evento adverso agora já.",
-   "Suspender a imunoterapia e iniciar corticoide sistêmico, avaliando sempre a exclusão de causa infecciosa.",
    "Prescrever apenas hidratação oral domiciliar sem qualquer suspensão do tratamento imunoterápico agora."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "onco",
   "cenario": "enf",
   "comp": "urg",
@@ -233,9 +233,9 @@
   "coment": "A colite imunomediada é evento adverso frequente e potencialmente grave dos inibidores de checkpoint. Com seis ou mais evacuações acima do basal, o grau é 3 ou superior: suspende-se a imunoterapia e inicia-se corticoide sistêmico em dose de 1 a 2 mg/kg de metilprednisolona equivalente, após afastar causa infecciosa, incluindo Clostridioides difficile. Sem resposta em setenta e duas horas, indica-se infliximabe ou vedolizumabe.",
   "porAlt": [
    "Manter a imunoterapia com colite grave arrisca perfuração intestinal e desfecho potencialmente fatal.",
+   "Correta: suspender a imunoterapia e iniciar corticoide sistêmico, após excluir causa infecciosa.",
    "O antibiótico isolado não trata a colite imunomediada, cujo mecanismo é inflamatório autoimune.",
    "Aumentar a dose diante de evento adverso grave agrava a toxicidade sem qualquer justificativa.",
-   "Correta: suspender a imunoterapia e iniciar corticoide sistêmico, após excluir causa infecciosa.",
    "Hidratação isolada sem suspender o fármaco permite a progressão da colite imunomediada grave."
   ]
  }

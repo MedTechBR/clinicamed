@@ -2,13 +2,13 @@
  {
   "q": "Homem de 58 anos com dispneia progressiva, ortopneia e edema, com fração de ejeção de 30%. Já usa inibidor da enzima conversora e betabloqueador otimizados. Qual é o próximo passo?",
   "alts": [
+   "Acrescentar antagonista mineralocorticoide e inibidor de SGLT2, sempre buscando as quatro classes basais.",
    "Acrescentar apenas diurético de alça em dose alta, medida que reduz mortalidade nesse perfil clínico.",
    "Suspender o betabloqueador diante da fração de ejeção reduzida e da congestão clínica apresentada agora.",
    "Iniciar digoxina como próxima droga modificadora de prognóstico nesse paciente já otimizado neste caso.",
-   "Acrescentar antagonista mineralocorticoide e inibidor de SGLT2, sempre buscando as quatro classes basais.",
    "Indicar transplante cardíaco imediatamente, antes de completar o tratamento medicamentoso otimizado."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -16,10 +16,10 @@
   "base": "Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024; ESC Heart Failure Guidelines, 2021 com atualização 2023",
   "coment": "O tratamento da insuficiência cardíaca com fração de ejeção reduzida se apoia em quatro pilares que reduzem mortalidade: inibidor do sistema renina-angiotensina, preferencialmente sacubitril-valsartana, betabloqueador, antagonista do receptor mineralocorticoide e inibidor de SGLT2. As quatro classes devem ser instituídas rapidamente, em semanas, com titulação subsequente. Diuréticos aliviam congestão sem impacto em mortalidade, e a digoxina reduz internação sem reduzir óbito.",
   "porAlt": [
+   "Correta: completar os quatro pilares acrescentando antagonista mineralocorticoide e inibidor de SGLT2.",
    "O diurético de alça alivia congestão e melhora sintomas, mas não reduz mortalidade nessa doença.",
    "Suspender o betabloqueador retira um pilar que reduz mortalidade; ajusta-se a dose se necessário.",
    "A digoxina reduz internações sem reduzir mortalidade e não precede as classes com esse benefício.",
-   "Correta: completar os quatro pilares acrescentando antagonista mineralocorticoide e inibidor de SGLT2.",
    "O transplante se avalia após otimização plena e persistência de doença avançada e refratária."
   ]
  },
@@ -28,11 +28,11 @@
   "alts": [
    "Aguardar a transferência para angioplastia primária, ainda que o tempo total ultrapasse três horas.",
    "Prescrever apenas antiagregante e anticoagulante, sem qualquer estratégia de reperfusão miocárdica.",
-   "Trombolítico imediato no local e transferência para centro com hemodinâmica, sempre após a infusão.",
    "Solicitar cintilografia miocárdica antes de decidir sobre a estratégia de reperfusão do paciente.",
+   "Trombolítico imediato no local e transferência para centro com hemodinâmica, sempre após a infusão.",
    "Iniciar betabloqueador endovenoso em dose alta como principal estratégia de reperfusão coronariana."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -42,8 +42,8 @@
   "porAlt": [
    "Aguardar transferência longa perde músculo viável e piora mortalidade em comparação à trombólise.",
    "Antiagregante e anticoagulante são adjuvantes e não substituem a reperfusão do vaso ocluído.",
-   "Correta: trombólise imediata seguida de transferência para estratégia fármaco-invasiva programada.",
    "A cintilografia não tem papel na fase aguda e apenas atrasaria a reperfusão do miocárdio.",
+   "Correta: trombólise imediata seguida de transferência para estratégia fármaco-invasiva programada.",
    "O betabloqueador é adjuvante e não promove reperfusão da artéria coronária ocluída pelo trombo."
   ]
  },
@@ -52,11 +52,11 @@
   "alts": [
    "Manter tratamento clínico com vasodilatador em dose plena e reavaliar em doze meses de seguimento.",
    "Indicar apenas restrição de sal e diurético, medidas que revertem a obstrução valvar do paciente.",
+   "Encaminhar para substituição valvar, pois o sintoma indica sempre intervenção na estenose grave.",
    "Iniciar anticoagulação oral plena, tratamento de escolha para a estenose aórtica grave sintomática.",
-   "Prescrever betabloqueador em dose alta, já medida que reduz o gradiente transvalvar e resolve o quadro.",
-   "Encaminhar para substituição valvar, pois o sintoma indica sempre intervenção na estenose grave."
+   "Prescrever betabloqueador em dose alta, já medida que reduz o gradiente transvalvar e resolve o quadro."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -66,9 +66,9 @@
   "porAlt": [
    "Vasodilatador em obstrução fixa pode precipitar hipotensão grave e não resolve a lesão valvar.",
    "Restrição de sal e diurético aliviam congestão, mas não corrigem a obstrução valvar mecânica.",
+   "Correta: estenose aórtica grave sintomática tem indicação de troca valvar cirúrgica ou transcateter.",
    "A anticoagulação não tem indicação pela estenose aórtica isolada sem outra condição associada.",
-   "O betabloqueador não reduz a obstrução valvar fixa e pode piorar o débito em alguns pacientes.",
-   "Correta: estenose aórtica grave sintomática tem indicação de troca valvar cirúrgica ou transcateter."
+   "O betabloqueador não reduz a obstrução valvar fixa e pode piorar o débito em alguns pacientes."
   ]
  },
  {
@@ -76,11 +76,11 @@
   "alts": [
    "Prescrever apenas dieta e exercício por doze meses antes de considerar qualquer terapia farmacológica.",
    "Iniciar fibrato isolado, já tratamento de primeira escolha para reduzir o LDL nesse perfil de risco agora.",
-   "Estatina de alta potência com meta de LDL abaixo de 70 mg/dL, sempre associada a mudança de estilo de vida.",
    "Iniciar ômega-3 em dose alta como monoterapia para atingir a meta lipídica desse paciente diabético agora.",
-   "Não tratar o colesterol enquanto a pressão arterial não estiver plenamente controlada no paciente agora."
+   "Não tratar o colesterol enquanto a pressão arterial não estiver plenamente controlada no paciente agora.",
+   "Estatina de alta potência com meta de LDL abaixo de 70 mg/dL, sempre associada a mudança de estilo de vida."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -90,21 +90,21 @@
   "porAlt": [
    "Adiar a estatina por doze meses em paciente de alto risco deixa eventos evitáveis sem prevenção.",
    "O fibrato atua sobre triglicerídeos e tem efeito modesto sobre o LDL, não sendo primeira escolha.",
-   "Correta: estatina de alta potência com meta agressiva de LDL, somada à mudança de estilo de vida.",
    "O ômega-3 não reduz LDL de forma relevante e não substitui a estatina na prevenção de eventos.",
-   "O controle lipídico e o pressórico são conduzidos simultaneamente, e não em sequência."
+   "O controle lipídico e o pressórico são conduzidos simultaneamente, e não em sequência.",
+   "Correta: estatina de alta potência com meta agressiva de LDL, somada à mudança de estilo de vida."
   ]
  },
  {
   "q": "Mulher de 68 anos com palpitações e eletrocardiograma mostrando taquicardia de QRS estreito, regular, a 180 bpm, com estabilidade hemodinâmica. Qual é a conduta inicial?",
   "alts": [
    "Cardioversão elétrica sincronizada imediata em todos os casos de taquicardia com QRS estreito regular.",
+   "Manobra vagal e, se não houver reversão, adenosina endovenosa em bolus rápido, sempre monitorizada.",
    "Amiodarona endovenosa em infusão lenta como primeira medida na taquicardia supraventricular estável.",
    "Betabloqueador oral e observação ambulatorial sem qualquer tentativa de reversão do ritmo na urgência.",
-   "Marca-passo transvenoso de urgência como conduta inicial diante da taquicardia supraventricular descrita.",
-   "Manobra vagal e, se não houver reversão, adenosina endovenosa em bolus rápido, sempre monitorizada."
+   "Marca-passo transvenoso de urgência como conduta inicial diante da taquicardia supraventricular descrita."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -113,22 +113,22 @@
   "coment": "Taquicardia supraventricular paroxística estável é tratada primeiro com manobras vagais, sendo a manobra de Valsalva modificada a de maior taxa de sucesso. Sem reversão, administra-se adenosina em bolus rápido com flush salino, por sua meia-vida muito curta, com monitorização eletrocardiográfica contínua. Bloqueadores de canal de cálcio e betabloqueadores endovenosos são alternativas. A cardioversão elétrica se reserva à instabilidade hemodinâmica.",
   "porAlt": [
    "A cardioversão elétrica se reserva a instabilidade hemodinâmica, ausente neste caso descrito.",
+   "Correta: manobra vagal seguida de adenosina em bolus rápido, com monitorização eletrocardiográfica.",
    "A amiodarona não é a primeira escolha na supraventricular estável, com início de ação mais lento.",
    "Liberar sem reverter mantém a taquicardia sustentada e pode levar a taquicardiomiopatia.",
-   "O marca-passo trata bradiarritmia e não tem qualquer papel no manejo dessa taquiarritmia.",
-   "Correta: manobra vagal seguida de adenosina em bolus rápido, com monitorização eletrocardiográfica."
+   "O marca-passo trata bradiarritmia e não tem qualquer papel no manejo dessa taquiarritmia."
   ]
  },
  {
   "q": "Paciente de 45 anos com pressão de 190/120 mmHg, cefaleia intensa, papiledema e creatinina em elevação. Qual é a conduta?",
   "alts": [
+   "Reduzir a pressão de forma controlada com anti-hipertensivo endovenoso, sempre em ambiente monitorizado.",
    "Reduzir a pressão para valores normais na primeira hora com nifedipino sublingual em dose alta agora.",
    "Prescrever anti-hipertensivo oral e liberar para acompanhamento ambulatorial na semana seguinte agora já.",
-   "Reduzir a pressão de forma controlada com anti-hipertensivo endovenoso, sempre em ambiente monitorizado.",
    "Aguardar redução espontânea da pressão em repouso por vinte e quatro horas antes de qualquer droga.",
    "Prescrever apenas analgésico para a cefaleia, sem qualquer intervenção sobre o nível pressórico agora."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -136,9 +136,9 @@
   "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; ESC hypertension guidelines, 2024",
   "coment": "Emergência hipertensiva é elevação pressórica com lesão aguda de órgão-alvo, aqui encefalopatia e lesão renal. O tratamento é endovenoso em ambiente monitorizado, com nitroprussiato, nicardipino ou clevidipino, reduzindo a pressão arterial média em cerca de vinte a vinte e cinco por cento na primeira hora e alcançando 160 por 100 mmHg em algumas horas. Queda abrupta reduz a perfusão cerebral, coronariana e renal, podendo causar isquemia. Nifedipino sublingual é proscrito.",
   "porAlt": [
+   "Correta: redução gradual e controlada com anti-hipertensivo endovenoso em ambiente monitorizado.",
    "O nifedipino sublingual causa queda abrupta e imprevisível, com risco de isquemia, sendo proscrito.",
    "Tratamento oral ambulatorial é insuficiente diante de lesão aguda de órgão-alvo estabelecida.",
-   "Correta: redução gradual e controlada com anti-hipertensivo endovenoso em ambiente monitorizado.",
    "Aguardar sem tratar permite a progressão do dano cerebral e renal já em curso no paciente.",
    "O analgésico não trata a causa e a cefaleia aqui é manifestação da encefalopatia hipertensiva."
   ]
@@ -148,11 +148,11 @@
   "alts": [
    "Apenas ácido acetilsalicílico em dose baixa, suficiente para prevenir embolia nesse perfil de risco.",
    "Nenhuma profilaxia enquanto o paciente permanecer assintomático e com frequência cardíaca controlada.",
+   "Anticoagulação oral plena com anticoagulante direto, sempre preferido à varfarina na doença não valvar.",
    "Clopidogrel isolado, estratégia preferida à anticoagulação para prevenção de embolia nesse paciente.",
-   "Anticoagulação apenas durante internações, suspendendo o fármaco a cada alta hospitalar do paciente.",
-   "Anticoagulação oral plena com anticoagulante direto, sempre preferido à varfarina na doença não valvar."
+   "Anticoagulação apenas durante internações, suspendendo o fármaco a cada alta hospitalar do paciente."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -162,21 +162,21 @@
   "porAlt": [
    "O ácido acetilsalicílico é insuficiente para a prevenção de embolia na fibrilação atrial de alto risco.",
    "O risco embólico independe de sintomas e do controle da frequência cardíaca do paciente.",
+   "Correta: anticoagulação oral plena, com anticoagulante direto preferido na fibrilação atrial não valvar.",
    "O clopidogrel isolado é inferior à anticoagulação na prevenção de embolia dessa arritmia.",
-   "A anticoagulação é contínua; suspender a cada alta expõe o paciente a eventos embólicos evitáveis.",
-   "Correta: anticoagulação oral plena, com anticoagulante direto preferido na fibrilação atrial não valvar."
+   "A anticoagulação é contínua; suspender a cada alta expõe o paciente a eventos embólicos evitáveis."
   ]
  },
  {
   "q": "Paciente com dor torácica, hipotensão, turgência jugular e bulhas abafadas após trauma torácico fechado. Qual é a conduta imediata?",
   "alts": [
-   "Pericardiocentese de urgência associada sempre a reposição volêmica enquanto se prepara o procedimento.",
    "Iniciar diurético endovenoso em dose alta para reduzir a pressão de enchimento do coração comprometido.",
+   "Pericardiocentese de urgência associada sempre a reposição volêmica enquanto se prepara o procedimento.",
    "Solicitar ressonância cardíaca antes de qualquer intervenção sobre o quadro hemodinâmico descrito.",
    "Prescrever betabloqueador endovenoso para reduzir a frequência cardíaca e melhorar o enchimento agora.",
    "Aguardar estabilização espontânea por duas horas antes de qualquer procedimento invasivo no paciente."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -184,8 +184,8 @@
   "base": "ATLS 11ª edição, 2024; ESC Guidelines on Pericardial Diseases, 2015 com revisão 2023",
   "coment": "A tríade de Beck — hipotensão, turgência jugular e bulhas abafadas — sugere tamponamento cardíaco, no qual o enchimento diastólico é restringido pelo derrame sob pressão. A conduta é drenagem imediata por pericardiocentese, idealmente guiada por ultrassom, ou toracotomia conforme o contexto do trauma, enquanto se repõe volume para manter a pré-carga. Diuréticos e vasodilatadores são deletérios porque reduzem justamente o enchimento que sustenta o débito.",
   "porAlt": [
-   "Correta: pericardiocentese de urgência com reposição volêmica para manter a pré-carga até a drenagem.",
    "O diurético reduz a pré-carga que sustenta o débito no tamponamento e agrava o choque instalado.",
+   "Correta: pericardiocentese de urgência com reposição volêmica para manter a pré-carga até a drenagem.",
    "A ressonância não tem papel na emergência e apenas atrasaria a drenagem que salva a vida.",
    "O betabloqueador reduz a taquicardia compensatória necessária para manter o débito cardíaco.",
    "Aguardar duas horas em tamponamento com choque leva a parada cardíaca por dissociação eletromecânica."
@@ -196,11 +196,11 @@
   "alts": [
    "Indicar revascularização cirúrgica imediata a todos os pacientes com claudicação intermitente descrita.",
    "Prescrever repouso prolongado dos membros inferiores como principal medida terapêutica desse quadro.",
-   "Programa de exercício supervisionado com estatina e antiagregante, sempre com cessação do tabagismo.",
    "Iniciar anticoagulação oral plena, tratamento de escolha para a doença arterial periférica sintomática.",
+   "Programa de exercício supervisionado com estatina e antiagregante, sempre com cessação do tabagismo.",
    "Prescrever apenas vasodilatador oral, medida isolada que resolve a claudicação e melhora o prognóstico."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -210,8 +210,8 @@
   "porAlt": [
    "A revascularização se reserva a sintomas refratários ou isquemia crítica, e não à claudicação inicial.",
    "O repouso piora o condicionamento e reduz a distância de marcha, sendo o oposto do recomendado.",
-   "Correta: exercício supervisionado, estatina, antiagregante e cessação do tabagismo como base do tratamento.",
    "A anticoagulação plena não é o tratamento da doença arterial periférica aterosclerótica estável.",
+   "Correta: exercício supervisionado, estatina, antiagregante e cessação do tabagismo como base do tratamento.",
    "O vasodilatador isolado tem benefício limitado e não modifica o prognóstico cardiovascular global."
   ]
  },
@@ -219,12 +219,12 @@
   "q": "Paciente com insuficiência cardíaca com fração de ejeção preservada, hipertensa e obesa, com dispneia aos esforços. Qual é a conduta com melhor evidência?",
   "alts": [
    "Digoxina em dose plena, medida com melhor evidência de benefício nessa forma de insuficiência cardíaca.",
-   "Inibidor de SGLT2 associado sempre ao controle da pressão, ao manejo do peso e ao uso de diurético.",
    "Betabloqueador em dose alta isolado, intervenção que reduz mortalidade nessa apresentação clínica.",
+   "Inibidor de SGLT2 associado sempre ao controle da pressão, ao manejo do peso e ao uso de diurético.",
    "Anticoagulação oral plena de rotina, conduta recomendada para todos os pacientes com esse diagnóstico.",
    "Restrição hídrica extrema de meio litro por dia como principal intervenção terapêutica nesses casos."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -233,8 +233,8 @@
   "coment": "Na insuficiência cardíaca com fração de ejeção preservada, os inibidores de SGLT2 são a primeira classe com benefício consistente em ensaios randomizados, reduzindo internação e morte cardiovascular, e passaram a recomendação forte. O restante do tratamento consiste em diurético para congestão, controle rigoroso da pressão arterial, manejo do peso e das comorbidades, e atividade física. Antagonistas mineralocorticoides podem ser considerados em subgrupos.",
   "porAlt": [
    "A digoxina não tem benefício demonstrado nessa forma de insuficiência cardíaca com fração preservada.",
-   "Correta: inibidor de SGLT2 com controle pressórico, manejo do peso e diurético para a congestão.",
    "O betabloqueador não demonstrou redução de mortalidade nessa apresentação da insuficiência cardíaca.",
+   "Correta: inibidor de SGLT2 com controle pressórico, manejo do peso e diurético para a congestão.",
    "A anticoagulação de rotina não é indicada sem fibrilação atrial ou outra indicação específica.",
    "A restrição hídrica extrema não tem respaldo e pode causar desidratação e lesão renal aguda."
   ]

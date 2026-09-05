@@ -3,12 +3,12 @@
   "q": "Homem de 42 anos tem epigastralgia em queimação, pior em jejum e aliviada com alimentação, há dois meses. A endoscopia mostra úlcera duodenal e o teste de urease é positivo. Qual é a conduta?",
   "alts": [
    "Prescrever inibidor de bomba isolado por oito semanas, sem tratar a bactéria identificada agora.",
-   "Erradicar Helicobacter pylori com esquema tríplice e confirmar a erradicação após o tratamento.",
    "Indicar cirurgia antirrefluxo, tratamento definitivo da úlcera duodenal associada à bactéria.",
+   "Erradicar Helicobacter pylori com esquema tríplice e confirmar a erradicação após o tratamento.",
    "Prescrever antiácido de demanda e reavaliar em seis meses, sem erradicar o agente encontrado.",
    "Iniciar corticoide sistêmico, medida que acelera a cicatrização das úlceras pépticas duodenais."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
@@ -17,8 +17,8 @@
   "coment": "Úlcera péptica com Helicobacter pylori positivo tem indicação formal de erradicação, que cura a doença e reduz drasticamente a recorrência e o risco de complicação. O esquema mais usado no Brasil associa inibidor de bomba a dois antimicrobianos por catorze dias. A confirmação da erradicação é obrigatória, feita por teste respiratório ou antígeno fecal, pelo menos quatro semanas após o antimicrobiano e duas semanas após suspender o inibidor de bomba.",
   "porAlt": [
    "O inibidor isolado cicatriza a úlcera mas mantém a bactéria, com recorrência alta em poucos meses.",
-   "Correta: erradicar a bactéria e confirmar a erradicação após o tratamento é a conduta indicada.",
    "A cirurgia antirrefluxo trata refluxo, não úlcera duodenal por Helicobacter pylori.",
+   "Correta: erradicar a bactéria e confirmar a erradicação após o tratamento é a conduta indicada.",
    "Antiácido de demanda não cicatriza a úlcera nem elimina a causa da doença péptica.",
    "O corticoide não cicatriza úlcera péptica e aumenta o risco de complicação hemorrágica."
   ]
@@ -26,13 +26,13 @@
  {
   "q": "Mulher de 28 anos tem dor abdominal em cólica, distensão e alternância entre diarreia e constipação há um ano, com alívio após evacuar. Não há perda de peso, sangramento nem anemia. Qual é o diagnóstico e a conduta?",
   "alts": [
-   "Síndrome do intestino irritável pelos critérios de Roma, com manejo dietético e sintomático.",
    "Doença de Crohn, que deve ser confirmada por colonoscopia com biópsias seriadas de imediato.",
    "Doença celíaca, cujo diagnóstico se firma apenas pelo padrão de alternância do hábito intestinal.",
    "Câncer colorretal, hipótese principal diante de sintomas intestinais crônicos em adultos jovens.",
+   "Síndrome do intestino irritável pelos critérios de Roma, com manejo dietético e sintomático.",
    "Colite pseudomembranosa, diagnosticada pela alternância entre diarreia e constipação relatada."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -40,23 +40,23 @@
   "base": "Critérios de Roma IV, 2016, e American College of Gastroenterology, 2021 — manejo da síndrome do intestino irritável",
   "coment": "Os critérios de Roma IV definem a síndrome do intestino irritável por dor abdominal recorrente, ao menos um dia por semana nos últimos três meses, relacionada à evacuação ou associada a mudança na frequência ou na forma das fezes. A ausência de sinais de alarme — perda de peso, sangramento, anemia, febre, início após os 50 anos, história familiar de neoplasia ou doença inflamatória — sustenta o diagnóstico clínico sem investigação extensa. O manejo combina orientação dietética, incluindo dieta com baixo teor de oligossacarídeos fermentáveis, e tratamento sintomático.",
   "porAlt": [
-   "Correta: os critérios de Roma IV, sem sinais de alarme, permitem o diagnóstico clínico e o manejo sintomático.",
    "A doença de Crohn cursa com sinais de alarme, que estão explicitamente ausentes nesta paciente.",
    "A doença celíaca exige sorologia e biópsia duodenal, não se define pelo padrão do hábito intestinal.",
    "Câncer colorretal em jovem sem sinal de alarme é improvável e não se sustenta como hipótese principal.",
+   "Correta: os critérios de Roma IV, sem sinais de alarme, permitem o diagnóstico clínico e o manejo sintomático.",
    "A colite pseudomembranosa cursa com diarreia aguda associada a antimicrobiano, não com esse padrão."
   ]
  },
  {
   "q": "Homem de 60 anos tem disfagia progressiva para sólidos evoluindo para líquidos, com perda de 8 kg em três meses. É tabagista e etilista. Qual é a conduta inicial?",
   "alts": [
-   "Endoscopia digestiva alta com biópsias, pela suspeita de neoplasia esofágica nesse contexto.",
    "Esofagomanometria como primeiro exame, padrão-ouro para investigar disfagia progressiva.",
    "Teste terapêutico com inibidor de bomba por oito semanas, adiando qualquer exame invasivo.",
+   "Endoscopia digestiva alta com biópsias, pela suspeita de neoplasia esofágica nesse contexto.",
    "Radiografia contrastada de esôfago isolada, exame suficiente para excluir lesão neoplásica.",
    "pHmetria de vinte e quatro horas, já exame inicial de escolha na disfagia com perda de peso."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -64,9 +64,9 @@
   "base": "American College of Gastroenterology, 2022 — dysphagia evaluation; Harrison's, 22ª edição, 2025",
   "coment": "Disfagia progressiva de sólidos para líquidos, com perda ponderal, em homem tabagista e etilista de 60 anos, é neoplasia esofágica até prova em contrário. O exame inicial é a endoscopia digestiva alta com biópsias, que visualiza, caracteriza e coleta material da lesão em um único procedimento. Manometria investiga distúrbios motores, como acalasia, que cursam com disfagia para sólidos e líquidos desde o início. Teste terapêutico é inadequado diante de sinal de alarme.",
   "porAlt": [
-   "Correta: disfagia progressiva com perda de peso exige endoscopia com biópsias como exame inicial.",
    "A manometria investiga distúrbio motor, que tem padrão de disfagia distinto do descrito no caso.",
    "Teste terapêutico diante de sinal de alarme atrasa o diagnóstico de uma neoplasia potencialmente curável.",
+   "Correta: disfagia progressiva com perda de peso exige endoscopia com biópsias como exame inicial.",
    "A radiografia contrastada pode sugerir a lesão, mas não permite biópsia nem exclui neoplasia.",
    "A pHmetria avalia refluxo ácido e não tem papel na investigação inicial da disfagia progressiva."
   ]
@@ -76,11 +76,11 @@
   "alts": [
    "Coledocolitíase simples, que classicamente cursa com vesícula palpável e ausência total de dor.",
    "Hepatite viral aguda, cuja apresentação típica inclui acolia fecal com vesícula palpável indolor.",
+   "Neoplasia periampular, sugerida pelo sinal de Courvoisier com icterícia indolor e perda de peso.",
    "Cirrose hepática compensada, causa mais provável de icterícia obstrutiva nessa faixa etária.",
-   "Síndrome de Gilbert, que cursa com colúria, acolia e vesícula palpável em pacientes de meia-idade.",
-   "Neoplasia periampular, sugerida pelo sinal de Courvoisier com icterícia indolor e perda de peso."
+   "Síndrome de Gilbert, que cursa com colúria, acolia e vesícula palpável em pacientes de meia-idade."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -90,9 +90,9 @@
   "porAlt": [
    "Na coledocolitíase há dor e a vesícula costuma estar fibrosada, não distendida e indolor.",
    "A hepatite viral cursa com icterícia hepatocelular, sem vesícula palpável nem acolia persistente.",
+   "Correta: vesícula palpável indolor com icterícia e perda de peso sugere obstrução maligna periampular.",
    "A cirrose compensada não cursa com icterícia obstrutiva nem com vesícula palpável indolor.",
-   "A síndrome de Gilbert cursa com hiperbilirrubinemia indireta leve, sem colúria, acolia ou perda de peso.",
-   "Correta: vesícula palpável indolor com icterícia e perda de peso sugere obstrução maligna periampular."
+   "A síndrome de Gilbert cursa com hiperbilirrubinemia indireta leve, sem colúria, acolia ou perda de peso."
   ]
  },
  {
@@ -100,11 +100,11 @@
   "alts": [
    "Manter corticoide contínuo em dose baixa como terapia de manutenção de longo prazo na doença.",
    "Não usar manutenção alguma e tratar apenas os surtos com corticoide quando eles ocorrerem agora.",
-   "Introduzir terapia de manutenção poupadora de corticoide, evitando novos ciclos repetidos dele.",
    "Indicar ressecção cirúrgica do íleo de imediato, tratamento curativo da doença de Crohn ileal.",
+   "Introduzir terapia de manutenção poupadora de corticoide, evitando novos ciclos repetidos dele.",
    "Prescrever apenas antiespasmódico de horário, suficiente para prevenir novos surtos da doença."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
@@ -114,8 +114,8 @@
   "porAlt": [
    "Corticoide contínuo não mantém remissão e acumula osteoporose, diabetes, catarata e infecção.",
    "Tratar apenas surtos perpetua a inflamação e o dano intestinal progressivo ao longo do tempo.",
-   "Correta: dois ciclos de corticoide no ano indicam terapia de manutenção poupadora de corticoide.",
    "A cirurgia não cura a doença de Crohn, que recidiva na anastomose na maioria dos pacientes.",
+   "Correta: dois ciclos de corticoide no ano indicam terapia de manutenção poupadora de corticoide.",
    "Antiespasmódico alivia cólica e não tem qualquer efeito sobre a inflamação transmural da doença."
   ]
  },
@@ -123,12 +123,12 @@
   "q": "Mulher de 48 anos, obesa, tem transaminases discretamente elevadas e ultrassom com esteatose hepática. As sorologias virais são negativas e ela não usa álcool. Qual é a conduta inicial?",
   "alts": [
    "Solicitar biópsia hepática imediata em todos os pacientes com esteatose e transaminases alteradas.",
-   "Estratificar sempre a fibrose por métodos não invasivos e tratar peso, diabetes e risco agora.",
    "Prescrever hepatoprotetor e reavaliar em um ano, sem qualquer estratificação de fibrose hepática.",
    "Iniciar corticoide em dose imunossupressora, tratamento de escolha da esteatose metabólica.",
+   "Estratificar sempre a fibrose por métodos não invasivos e tratar peso, diabetes e risco agora.",
    "Contraindicar qualquer atividade física, evitando a piora da lesão hepatocelular já instalada."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
@@ -137,9 +137,9 @@
   "coment": "Na doença hepática esteatótica associada à disfunção metabólica, o que define prognóstico é o grau de fibrose, e não o valor das transaminases. A conduta inicial é estratificar fibrose por métodos não invasivos, como escores baseados em exames laboratoriais e elastografia, e tratar de forma agressiva os determinantes metabólicos: perda de peso, controle de diabetes com fármacos de benefício hepático e cardiovascular, dislipidemia e pressão. A biópsia fica para casos duvidosos.",
   "porAlt": [
    "A biópsia não é necessária na maioria dos casos, pois métodos não invasivos estratificam bem a fibrose.",
-   "Correta: estratificar fibrose por métodos não invasivos e tratar os determinantes metabólicos é a conduta inicial.",
    "Hepatoprotetor sem estratificação nem tratamento metabólico não altera a história natural da doença.",
    "O corticoide não trata esteatose metabólica e piora o controle glicêmico e o peso da paciente.",
+   "Correta: estratificar fibrose por métodos não invasivos e tratar os determinantes metabólicos é a conduta inicial.",
    "A atividade física é parte central do tratamento e melhora a esteatose e a sensibilidade à insulina."
   ]
  },
@@ -148,11 +148,11 @@
   "alts": [
    "Antibiótico profilático de amplo espectro, indicado em toda hemorragia digestiva alta do adulto.",
    "Vasoconstritor esplâncnico em dose plena, indicado independentemente da causa do sangramento.",
+   "Inibidor de bomba de prótons endovenoso, iniciado antes da endoscopia digestiva alta agora.",
    "Ácido tranexâmico em dose alta, medida que comprovadamente reduz a mortalidade nesse cenário.",
-   "Anticoagulação profilática plena, prevenindo trombose durante a internação por sangramento.",
-   "Inibidor de bomba de prótons endovenoso, iniciado antes da endoscopia digestiva alta agora."
+   "Anticoagulação profilática plena, prevenindo trombose durante a internação por sangramento."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "urg",
@@ -162,9 +162,9 @@
   "porAlt": [
    "O antibiótico profilático é indicado em cirróticos que sangram, e não em toda hemorragia digestiva.",
    "O vasoconstritor esplâncnico se aplica ao sangramento varicoso, com suspeita ou diagnóstico de cirrose.",
+   "Correta: o inibidor de bomba endovenoso antes da endoscopia reduz achados de alto risco no exame.",
    "O ácido tranexâmico não reduziu mortalidade e associou-se a mais eventos trombóticos em ensaio grande.",
-   "Anticoagular profilaticamente durante sangramento ativo agrava a perda sanguínea do paciente.",
-   "Correta: o inibidor de bomba endovenoso antes da endoscopia reduz achados de alto risco no exame."
+   "Anticoagular profilaticamente durante sangramento ativo agrava a perda sanguínea do paciente."
   ]
  },
  {
@@ -172,11 +172,11 @@
   "alts": [
    "Repetir a pesquisa de sangue oculto em seis meses antes de indicar qualquer exame endoscópico.",
    "Prescrever sulfato ferroso e reavaliar o hemograma, já sem investigar a origem do sangramento.",
-   "Solicitar apenas tomografia de abdome, exame que substitui a colonoscopia após teste positivo.",
    "Colonoscopia diagnóstica, que é o exame indicado após sangue oculto positivo no rastreamento.",
+   "Solicitar apenas tomografia de abdome, exame que substitui a colonoscopia após teste positivo.",
    "Tranquilizar a paciente, já que a ausência de sintomas exclui doença colorretal significativa."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
@@ -186,8 +186,8 @@
   "porAlt": [
    "Repetir o exame desperdiça um achado positivo e atrasa o diagnóstico de lesão potencialmente curável.",
    "Repor ferro sem investigar mascara o sangramento e é um dos erros mais custosos da clínica.",
-   "A tomografia não substitui a colonoscopia, que permite biópsia e polipectomia no mesmo tempo.",
    "Correta: sangue oculto positivo no rastreamento indica colonoscopia diagnóstica, que localiza e trata.",
+   "A tomografia não substitui a colonoscopia, que permite biópsia e polipectomia no mesmo tempo.",
    "A ausência de sintomas é esperada no rastreamento e não exclui neoplasia colorretal inicial."
   ]
  },
@@ -221,10 +221,10 @@
    "Hepatite autoimune, já tratada com corticoide e azatioprina como terapia inicial de escolha aqui.",
    "Colangite esclerosante primária, cujo marcador diagnóstico é o anticorpo antimitocôndria positivo.",
    "Doença de Wilson, definida pela combinação de prurido com fosfatase alcalina elevada na mulher.",
-   "Colangite biliar primária, tratada com ácido ursodesoxicólico como terapia de primeira linha.",
-   "Hemocromatose hereditária, cujo diagnóstico é firmado pelo anticorpo antimitocôndria reagente."
+   "Hemocromatose hereditária, cujo diagnóstico é firmado pelo anticorpo antimitocôndria reagente.",
+   "Colangite biliar primária, tratada com ácido ursodesoxicólico como terapia de primeira linha."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -235,8 +235,8 @@
    "A hepatite autoimune cursa com transaminases elevadas e outros autoanticorpos, não com esse padrão.",
    "A colangite esclerosante tem padrão colangiográfico característico e não cursa com esse anticorpo.",
    "A doença de Wilson cursa com achados neuropsiquiátricos e ceruloplasmina baixa, com outro perfil.",
-   "Correta: colestase com anticorpo antimitocôndria positivo é colangite biliar primária, tratada com ursodesoxicólico.",
-   "A hemocromatose é diagnosticada por saturação de transferrina e ferritina, não por autoanticorpo."
+   "A hemocromatose é diagnosticada por saturação de transferrina e ferritina, não por autoanticorpo.",
+   "Correta: colestase com anticorpo antimitocôndria positivo é colangite biliar primária, tratada com ursodesoxicólico."
   ]
  }
 ]

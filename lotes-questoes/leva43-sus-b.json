@@ -3,12 +3,12 @@
   "q": "Uma equipe de saúde da família identifica surto de diarreia em um bairro. Qual é a conduta inicial de vigilância que compete a essa equipe?",
   "alts": [
    "Tratar apenas os casos individualmente, sem qualquer comunicação à vigilância epidemiológica.",
+   "Notificar sempre o caso e investigar a fonte comum, articulando com a vigilância municipal.",
    "Aguardar dez casos confirmados por laboratório antes de qualquer notificação às autoridades.",
    "Encaminhar todos os pacientes ao hospital terciário, encerrando ali a atuação da equipe local.",
-   "Notificar sempre o caso e investigar a fonte comum, articulando com a vigilância municipal.",
    "Solicitar coprocultura de toda a população do bairro antes de notificar o evento à vigilância."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -17,22 +17,22 @@
   "coment": "A vigilância epidemiológica é atribuição de todos os níveis do sistema, e a atenção primária é a porta que detecta o evento. Diante de surto, a equipe notifica de imediato — surto é evento de notificação compulsória imediata — e inicia investigação de fonte comum, com busca ativa de casos, coleta de amostras conforme orientação e medidas de controle, como orientação sobre água e alimentos. Não se espera confirmação laboratorial para notificar.",
   "porAlt": [
    "Tratar sem notificar impede a resposta coletiva e permite que a fonte permaneça ativa no território.",
+   "Correta: notificar de imediato e investigar a fonte comum, articulando com a vigilância municipal.",
    "A notificação de surto é imediata e não depende de número mínimo de casos confirmados.",
    "Encaminhar todos ao terciário sobrecarrega a rede e não interrompe a transmissão no território.",
-   "Correta: notificar de imediato e investigar a fonte comum, articulando com a vigilância municipal.",
    "Rastrear toda a população antes de notificar atrasa a resposta e é operacionalmente inviável."
   ]
  },
  {
   "q": "Um gestor municipal quer organizar o cuidado de pessoas com hipertensão e diabetes na atenção primária. Qual estratégia corresponde às diretrizes da política nacional?",
   "alts": [
+   "Adscrever sempre a população, estratificar risco e definir plano de cuidado com equipe multiprofissional.",
    "Ampliar apenas o número de consultas médicas, sem qualquer participação da equipe multiprofissional.",
    "Encaminhar todos os pacientes crônicos ao especialista focal, esvaziando a atenção primária local agora.",
    "Concentrar a assistência nas unidades de pronto atendimento, que absorvem melhor a demanda espontânea.",
-   "Restringir o cuidado à dispensação de medicamentos, dispensando consultas e acompanhamento longitudinal.",
-   "Adscrever sempre a população, estratificar risco e definir plano de cuidado com equipe multiprofissional."
+   "Restringir o cuidado à dispensação de medicamentos, dispensando consultas e acompanhamento longitudinal."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -40,23 +40,23 @@
   "base": "Portaria GM/MS nº 2.436/2017 — Política Nacional de Atenção Básica",
   "coment": "A Política Nacional de Atenção Básica estrutura o cuidado sobre território definido e população adscrita, com equipe multiprofissional, longitudinalidade, coordenação do cuidado e responsabilidade sanitária. Para condições crônicas, isso se traduz em conhecer a população, estratificar risco, construir plano de cuidado individual com metas pactuadas, apoiar autocuidado e reservar o especialista para apoio matricial e casos complexos.",
   "porAlt": [
+   "Correta: população adscrita, estratificação de risco e plano de cuidado multiprofissional são o núcleo da política.",
    "Ampliar só consultas médicas ignora o trabalho em equipe, que é estruturante na atenção básica.",
    "Encaminhar todos ao especialista desorganiza a rede e retira da primária a coordenação do cuidado.",
    "O pronto atendimento trata a descompensação e não substitui o cuidado longitudinal da condição crônica.",
-   "Dispensar medicamento sem acompanhamento não produz controle e desperdiça o recurso investido.",
-   "Correta: população adscrita, estratificação de risco e plano de cuidado multiprofissional são o núcleo da política."
+   "Dispensar medicamento sem acompanhamento não produz controle e desperdiça o recurso investido."
   ]
  },
  {
   "q": "Um paciente relata que foi atendido em um serviço e recebeu diagnóstico sem que lhe explicassem os riscos do procedimento proposto, tendo assinado um documento que não leu. Que princípio ético foi violado?",
   "alts": [
-   "A autonomia, exercida sempre pelo consentimento livre e esclarecido antes do procedimento.",
    "A justiça distributiva, princípio que rege a alocação equitativa de recursos escassos em saúde.",
+   "A autonomia, exercida sempre pelo consentimento livre e esclarecido antes do procedimento.",
    "A não maleficência, que se refere exclusivamente ao dever de não causar dano intencional.",
    "A beneficência, princípio segundo o qual o médico deve sempre decidir sozinho pelo paciente.",
    "O sigilo profissional, que impede o compartilhamento de informações clínicas sem autorização."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
@@ -64,8 +64,8 @@
   "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; princípios da bioética",
   "coment": "O consentimento livre e esclarecido é a expressão prática do princípio da autonomia: o paciente precisa compreender o procedimento, os riscos, os benefícios e as alternativas, incluindo a de não tratar, antes de decidir. Assinatura sem compreensão não configura consentimento válido. Os quatro princípios da bioética são autonomia, beneficência, não maleficência e justiça, e o sigilo é dever ético distinto, ligado à privacidade.",
   "porAlt": [
-   "Correta: o consentimento livre e esclarecido expressa a autonomia, violada quando não há compreensão real.",
    "A justiça distributiva trata da alocação equitativa de recursos, e não do processo de consentimento.",
+   "Correta: o consentimento livre e esclarecido expressa a autonomia, violada quando não há compreensão real.",
    "A não maleficência trata de evitar dano, e não do direito de decidir sobre o próprio tratamento.",
    "A beneficência é agir no melhor interesse do paciente, o que não autoriza decidir sozinho por ele.",
    "O sigilo protege a informação do paciente e não se refere ao processo de consentimento informado."
@@ -74,13 +74,13 @@
  {
   "q": "Uma equipe recebe paciente em situação de rua, sem documentos e sem cartão do sistema. Qual é a conduta correta?",
   "alts": [
+   "Atender sempre, pois a universalidade garante acesso independentemente de documento ou cadastro.",
    "Encaminhar para regularizar documentação antes de qualquer atendimento clínico ser realizado.",
    "Atender apenas em caso de risco iminente de morte, negando atendimento nas demais situações.",
    "Cobrar o atendimento particular, já que o paciente não apresenta comprovação de vínculo com o sistema.",
-   "Atender sempre, pois a universalidade garante acesso independentemente de documento ou cadastro.",
    "Encaminhar diretamente para serviço filantrópico, pois a rede pública não cobre esse perfil de usuário."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -88,23 +88,23 @@
   "base": "Lei nº 8.080/1990, artigos 2º e 7º — universalidade e integralidade; Política Nacional para População em Situação de Rua",
   "coment": "A universalidade é princípio constitucional e legal do sistema: a saúde é direito de todos e dever do Estado, sem exigência de documento, cadastro ou comprovação de residência como condição de acesso. Para população em situação de rua há política específica, com equipes de consultório na rua e articulação intersetorial. Negar atendimento por ausência de documento configura violação de direito e infração ética.",
   "porAlt": [
+   "Correta: a universalidade garante o acesso independentemente de documentação ou de cadastro prévio.",
    "Condicionar atendimento à documentação nega um direito constitucional e configura infração ética.",
    "Restringir a risco de morte iminente contraria a integralidade e a universalidade do sistema.",
    "Cobrar atendimento em serviço público viola a gratuidade garantida pela legislação vigente.",
-   "Correta: a universalidade garante o acesso independentemente de documentação ou de cadastro prévio.",
    "A rede pública tem política específica para essa população, com equipes de consultório na rua."
   ]
  },
  {
   "q": "Durante um plantão, um médico é procurado por familiar que pede informações clínicas sobre paciente adulto, lúcido, que não autorizou o compartilhamento. Qual é a conduta correta?",
   "alts": [
+   "Manter sempre o sigilo, informando apenas com autorização expressa do próprio paciente agora.",
    "Informar livremente, pois o vínculo familiar dispensa qualquer autorização do paciente adulto.",
    "Informar apenas o diagnóstico principal, sem detalhes, o que não configura quebra de sigilo.",
    "Registrar em prontuário e informar tudo, já que o registro documental autoriza o compartilhamento.",
-   "Informar somente se o familiar for cônjuge, único caso em que o sigilo pode ser dispensado.",
-   "Manter sempre o sigilo, informando apenas com autorização expressa do próprio paciente agora."
+   "Informar somente se o familiar for cônjuge, único caso em que o sigilo pode ser dispensado."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "sus",
   "cenario": "enf",
   "comp": "tto",
@@ -112,23 +112,23 @@
   "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, capítulo IX — sigilo profissional",
   "coment": "O sigilo profissional é dever do médico e direito do paciente, e só é rompido por justa causa, dever legal ou autorização expressa do próprio paciente. Vínculo familiar não autoriza acesso: o paciente adulto e capaz decide quem recebe suas informações. Informar apenas parte também configura quebra. As exceções legais incluem notificação compulsória de doenças e situações previstas em lei, sempre restritas ao mínimo necessário.",
   "porAlt": [
+   "Correta: o sigilo só se rompe por justa causa, dever legal ou autorização expressa do paciente.",
    "Vínculo familiar não autoriza acesso à informação de paciente adulto, lúcido e capaz.",
    "Informar parcialmente também é quebra de sigilo, mesmo que apenas o diagnóstico seja revelado.",
    "Registrar em prontuário é dever, mas não autoriza compartilhar a informação com terceiros.",
-   "Nem o cônjuge tem direito automático à informação sem autorização do próprio paciente.",
-   "Correta: o sigilo só se rompe por justa causa, dever legal ou autorização expressa do paciente."
+   "Nem o cônjuge tem direito automático à informação sem autorização do próprio paciente."
   ]
  },
  {
   "q": "Um serviço de urgência precisa organizar o atendimento diante de grande demanda simultânea. Qual é o instrumento que ordena o atendimento por gravidade?",
   "alts": [
+   "A classificação de risco, que ordena sempre o atendimento pela gravidade e não pela ordem de chegada.",
    "A ordem estrita de chegada, critério mais justo e recomendado pelas políticas nacionais de urgência.",
    "A ordem alfabética dos usuários cadastrados, que evita qualquer viés na priorização do atendimento.",
    "A escolha do próprio paciente sobre a urgência do seu caso, que define a prioridade do atendimento.",
-   "A classificação de risco, que ordena sempre o atendimento pela gravidade e não pela ordem de chegada.",
    "O critério de idade isolado, priorizando sempre os mais idosos independentemente da gravidade agora."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "sus",
   "cenario": "emg",
   "comp": "prev",
@@ -136,23 +136,23 @@
   "base": "Ministério da Saúde — Acolhimento com Classificação de Risco, 2009; Portaria GM/MS nº 1.600/2011 (Rede de Atenção às Urgências)",
   "coment": "O acolhimento com classificação de risco é diretriz da Política Nacional de Humanização e da rede de urgência: todo usuário é acolhido e avaliado quanto à gravidade, e o atendimento é ordenado por prioridade clínica, não por ordem de chegada. Protocolos estruturados atribuem cores ou níveis conforme risco. A ordem de chegada permanece apenas para desempatar dentro de uma mesma categoria de risco.",
   "porAlt": [
+   "Correta: a classificação de risco ordena o atendimento por gravidade, e não pela ordem de chegada.",
    "A ordem de chegada faz o paciente grave esperar atrás de casos leves, com desfechos evitáveis.",
    "Ordem alfabética não guarda relação alguma com gravidade clínica nem com necessidade de cuidado.",
    "A percepção do próprio paciente é importante no acolhimento, mas não substitui a avaliação técnica.",
-   "Correta: a classificação de risco ordena o atendimento por gravidade, e não pela ordem de chegada.",
    "A idade é um dos elementos da avaliação, mas isolada não ordena o atendimento por gravidade."
   ]
  },
  {
   "q": "Um médico atende paciente que sofreu acidente de trabalho com afastamento previsto de dez dias. Qual é a conduta obrigatória além do atendimento clínico?",
   "alts": [
+   "Emitir sempre a comunicação de acidente de trabalho e notificar conforme a vigilância exige.",
    "Apenas prescrever o afastamento, sem qualquer comunicação a órgãos de vigilância ou previdência.",
    "Encaminhar o paciente ao setor jurídico da empresa antes de qualquer registro do atendimento.",
-   "Emitir sempre a comunicação de acidente de trabalho e notificar conforme a vigilância exige.",
    "Aguardar que o empregador solicite documentação antes de emitir qualquer comunicação oficial.",
    "Registrar somente em prontuário, sem qualquer documento externo relacionado ao acidente ocorrido."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -160,9 +160,9 @@
   "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, e legislação previdenciária sobre acidente de trabalho",
   "coment": "Acidente de trabalho grave ou com afastamento tem dois deveres associados: a comunicação de acidente de trabalho, documento previdenciário que garante direitos ao trabalhador, e a notificação em vigilância epidemiológica, já que agravos relacionados ao trabalho integram a lista de notificação. O médico assistente pode emitir a comunicação, e a omissão prejudica direitos do trabalhador e apaga o dado epidemiológico que orienta a prevenção.",
   "porAlt": [
+   "Correta: emitir a comunicação de acidente de trabalho e notificar à vigilância são deveres associados.",
    "Apenas afastar sem comunicar priva o trabalhador de direitos previdenciários que dependem do documento.",
    "Encaminhar ao setor jurídico da empresa não substitui o dever do médico assistente de comunicar.",
-   "Correta: emitir a comunicação de acidente de trabalho e notificar à vigilância são deveres associados.",
    "Aguardar a empresa solicitar inverte a responsabilidade e atrasa o reconhecimento do agravo.",
    "O registro em prontuário é necessário mas não substitui a comunicação e a notificação obrigatórias."
   ]
@@ -170,13 +170,13 @@
  {
   "q": "Um gestor deseja avaliar o desempenho da atenção primária no controle de condições sensíveis. Qual indicador é apropriado?",
   "alts": [
-   "Internações por condições sensíveis à atenção primária, que refletem sempre a efetividade do cuidado.",
    "Número absoluto de consultas médicas realizadas, indicador que mede diretamente a qualidade do cuidado.",
+   "Internações por condições sensíveis à atenção primária, que refletem sempre a efetividade do cuidado.",
    "Quantidade de exames laboratoriais solicitados, já cujo aumento indica melhor desempenho assistencial.",
    "Total de encaminhamentos ao especialista, cujo crescimento demonstra melhor coordenação do cuidado.",
    "Número de medicamentos dispensados por mês, indicador direto do controle das condições crônicas."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -184,8 +184,8 @@
   "base": "Ministério da Saúde — lista brasileira de internações por condições sensíveis à atenção primária, Portaria nº 221/2008",
   "coment": "As internações por condições sensíveis à atenção primária compõem indicador consagrado de efetividade do primeiro nível de atenção: são internações que poderiam ser evitadas por acesso oportuno e cuidado adequado, como as por asma, insuficiência cardíaca, diabetes descompensado, infecção urinária e pneumonia. Sua redução sugere melhor desempenho da rede básica. Volume de consultas, exames, encaminhamentos e medicamentos mede atividade, não resultado.",
   "porAlt": [
-   "Correta: internações por condições sensíveis à atenção primária medem efetividade do cuidado no primeiro nível.",
    "O número de consultas mede produção e volume de atividade, sem informar sobre resultado alcançado.",
+   "Correta: internações por condições sensíveis à atenção primária medem efetividade do cuidado no primeiro nível.",
    "Mais exames podem indicar excesso de solicitação, e não melhor qualidade do cuidado prestado.",
    "Mais encaminhamentos podem indicar menor resolutividade da atenção primária, e não mais coordenação.",
    "Volume de medicamentos dispensados não informa sobre adesão nem sobre controle da condição crônica."
@@ -221,10 +221,10 @@
    "Aumentar a dose dos medicamentos, já reduzindo o tempo de tratamento e o risco de abandono.",
    "Entregar toda a medicação de uma vez e reavaliar apenas ao fim dos seis meses de esquema.",
    "Encaminhar todos os casos ao serviço terciário, retirando o acompanhamento da atenção primária.",
-   "Substituir o esquema padrão por antibiótico de amplo espectro, mais simples e melhor tolerado.",
-   "Tratamento diretamente observado, sempre associado a apoio social e vínculo com a equipe."
+   "Tratamento diretamente observado, sempre associado a apoio social e vínculo com a equipe.",
+   "Substituir o esquema padrão por antibiótico de amplo espectro, mais simples e melhor tolerado."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -235,8 +235,8 @@
    "Aumentar dose não reduz o tempo do esquema padronizado e aumenta a toxicidade do tratamento.",
    "Entregar tudo de uma vez sem acompanhamento é justamente o padrão associado a mais abandono.",
    "Centralizar no terciário afasta o paciente do território e dificulta o acompanhamento diário.",
-   "O esquema da tuberculose é padronizado e não pode ser substituído por antibiótico de amplo espectro.",
-   "Correta: o tratamento diretamente observado, com apoio social e vínculo, é a estratégia de melhor evidência."
+   "Correta: o tratamento diretamente observado, com apoio social e vínculo, é a estratégia de melhor evidência.",
+   "O esquema da tuberculose é padronizado e não pode ser substituído por antibiótico de amplo espectro."
   ]
  }
 ]

@@ -3,12 +3,12 @@
   "q": "Mulher de 34 anos com humor deprimido, anedonia, insônia e culpa há dois meses, com prejuízo funcional. Qual é o tratamento inicial?",
   "alts": [
    "Benzodiazepínico em dose plena como monoterapia de escolha para o quadro depressivo descrito neste caso.",
-   "Antipsicótico típico em dose alta, tratamento de primeira linha do episódio depressivo maior neste caso.",
    "Antidepressivo inibidor seletivo da recaptação de serotonina associado sempre a psicoterapia estruturada.",
+   "Antipsicótico típico em dose alta, tratamento de primeira linha do episódio depressivo maior neste caso.",
    "Apenas orientação sobre higiene do sono e reavaliação clínica depois de seis meses de seguimento agora.",
    "Eletroconvulsoterapia imediata como primeira linha para todo episódio depressivo com prejuízo funcional."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
@@ -17,8 +17,8 @@
   "coment": "O episódio depressivo maior moderado a grave é tratado com antidepressivo, sendo os inibidores seletivos da recaptação de serotonina a primeira linha pelo perfil de tolerabilidade, associados a psicoterapia com evidência, como a cognitivo-comportamental. A resposta é avaliada em quatro a seis semanas e o tratamento mantido por pelo menos seis a doze meses após a remissão. Benzodiazepínico pode ser adjuvante breve na ansiedade ou insônia, nunca monoterapia.",
   "porAlt": [
    "O benzodiazepínico não trata depressão e traz risco de dependência quando usado como monoterapia.",
-   "O antipsicótico típico não é primeira linha e traz risco extrapiramidal sem benefício antidepressivo.",
    "Correta: inibidor seletivo da recaptação de serotonina com psicoterapia estruturada é a primeira linha.",
+   "O antipsicótico típico não é primeira linha e traz risco extrapiramidal sem benefício antidepressivo.",
    "Apenas orientação por seis meses deixa sem tratamento um quadro com prejuízo funcional evidente.",
    "A eletroconvulsoterapia se reserva a casos graves, refratários ou com risco iminente à vida."
   ]
@@ -28,11 +28,11 @@
   "alts": [
    "Prescrever apenas ansiolítico e reavaliar clinicamente após doze meses de acompanhamento ambulatorial.",
    "Iniciar antidepressivo isolado, tratamento de escolha para o quadro psicótico primário descrito agora.",
-   "Iniciar antipsicótico de segunda geração e sempre articular seguimento em rede de atenção psicossocial.",
    "Indicar internação psiquiátrica compulsória em todos os casos de primeiro episódio psicótico agora.",
-   "Aguardar remissão espontânea do quadro sem qualquer intervenção medicamentosa nesse período agora."
+   "Aguardar remissão espontânea do quadro sem qualquer intervenção medicamentosa nesse período agora.",
+   "Iniciar antipsicótico de segunda geração e sempre articular seguimento em rede de atenção psicossocial."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
@@ -42,9 +42,9 @@
   "porAlt": [
    "O ansiolítico não trata sintomas psicóticos e o atraso piora o prognóstico funcional a longo prazo.",
    "O antidepressivo isolado não trata psicose primária e pode agravar sintomas em alguns pacientes.",
-   "Correta: antipsicótico de segunda geração com seguimento articulado na rede de atenção psicossocial.",
    "A internação involuntária se reserva a risco a si ou a terceiros, e não a todo primeiro episódio.",
-   "A espera prolonga a psicose não tratada, o preditor mais consistente de pior desfecho funcional."
+   "A espera prolonga a psicose não tratada, o preditor mais consistente de pior desfecho funcional.",
+   "Correta: antipsicótico de segunda geração com seguimento articulado na rede de atenção psicossocial."
   ]
  },
  {
@@ -52,11 +52,11 @@
   "alts": [
    "Aumentar a dose do haloperidol para controlar a agitação associada ao quadro clínico descrito.",
    "Iniciar antibiótico de amplo espectro isoladamente, tratamento definitivo para a febre observada.",
-   "Suspender o antipsicótico e oferecer sempre suporte intensivo com hidratação e resfriamento ativo.",
    "Prescrever benzodiazepínico e manter o antipsicótico na mesma dose até a melhora da rigidez agora.",
-   "Realizar punção lombar antes de qualquer suspensão do fármaco ou medida de suporte clínico agora."
+   "Realizar punção lombar antes de qualquer suspensão do fármaco ou medida de suporte clínico agora.",
+   "Suspender o antipsicótico e oferecer sempre suporte intensivo com hidratação e resfriamento ativo."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "psiq",
   "cenario": "uti",
   "comp": "urg",
@@ -66,21 +66,21 @@
   "porAlt": [
    "Aumentar a dose agrava diretamente a síndrome e aumenta o risco de morte do paciente.",
    "O antibiótico pode ser necessário se houver infecção, mas não trata a síndrome neuroléptica maligna.",
-   "Correta: suspender o antipsicótico e oferecer suporte intensivo com hidratação e resfriamento.",
    "Manter o antipsicótico perpetua o quadro, e o benzodiazepínico isolado não resolve a causa.",
-   "A punção lombar pode ser parte da investigação, mas não deve atrasar a suspensão e o suporte."
+   "A punção lombar pode ser parte da investigação, mas não deve atrasar a suspensão e o suporte.",
+   "Correta: suspender o antipsicótico e oferecer suporte intensivo com hidratação e resfriamento."
   ]
  },
  {
   "q": "Homem de 45 anos com uso diário e intenso de álcool interrompe a ingestão há 48 horas e apresenta tremor, sudorese, taquicardia e alucinações visuais. Qual é o tratamento?",
   "alts": [
    "Antipsicótico isolado em dose alta, tratamento de escolha para a abstinência alcoólica complicada.",
-   "Benzodiazepínico titulado por escala de sintomas associado sempre a tiamina antes de qualquer glicose.",
    "Reintroduzir álcool em dose controlada como tratamento padrão da síndrome de abstinência descrita.",
+   "Benzodiazepínico titulado por escala de sintomas associado sempre a tiamina antes de qualquer glicose.",
    "Prescrever apenas hidratação endovenosa, medida suficiente para o controle da abstinência grave agora.",
    "Administrar glicose hipertônica isolada antes de qualquer reposição vitamínica ao paciente etilista."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "psiq",
   "cenario": "emg",
   "comp": "urg",
@@ -89,8 +89,8 @@
   "coment": "A abstinência alcoólica é tratada com benzodiazepínico, titulado preferencialmente por escala de sintomas como a CIWA-Ar, o que reduz a dose total e o tempo de tratamento. Em hepatopatia grave preferem-se lorazepam ou oxazepam. A tiamina é administrada antes de qualquer carga de glicose, porque a glicose consome tiamina e pode precipitar encefalopatia de Wernicke. Alucinações e delirium tremens indicam quadro grave, com necessidade de monitorização estreita.",
   "porAlt": [
    "O antipsicótico isolado não previne convulsões e reduz o limiar convulsivo do paciente em abstinência.",
-   "Correta: benzodiazepínico titulado por escala de sintomas, com tiamina antes de qualquer glicose.",
    "Reintroduzir álcool não é tratamento e mantém a dependência, sem controle previsível de sintomas.",
+   "Correta: benzodiazepínico titulado por escala de sintomas, com tiamina antes de qualquer glicose.",
    "A hidratação é suporte necessário, mas não previne convulsão nem trata os sintomas da abstinência.",
    "Glicose antes de tiamina pode precipitar encefalopatia de Wernicke no paciente etilista desnutrido."
   ]
@@ -123,12 +123,12 @@
   "q": "Mulher de 40 anos com preocupação excessiva e incontrolável sobre múltiplos temas há um ano, com tensão muscular, irritabilidade e insônia. Qual é o tratamento inicial?",
   "alts": [
    "Benzodiazepínico de uso contínuo por tempo indeterminado como tratamento inicial de escolha do quadro.",
-   "Antidepressivo serotoninérgico associado sempre a terapia cognitivo-comportamental estruturada e regular.",
    "Antipsicótico atípico em monoterapia, primeira linha recomendada para o transtorno de ansiedade descrito.",
    "Apenas orientação sobre relaxamento, sem qualquer medicação ou psicoterapia estruturada indicada agora.",
+   "Antidepressivo serotoninérgico associado sempre a terapia cognitivo-comportamental estruturada e regular.",
    "Estabilizador de humor em dose plena, tratamento de escolha para a preocupação excessiva persistente."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
@@ -137,9 +137,9 @@
   "coment": "O transtorno de ansiedade generalizada tem como primeira linha a terapia cognitivo-comportamental e os antidepressivos serotoninérgicos, isolados ou combinados. A resposta medicamentosa leva de quatro a seis semanas e o início costuma ser com dose baixa, para evitar piora inicial da ansiedade. Benzodiazepínicos podem ser usados por curto período em sintomas incapacitantes, evitando uso contínuo por dependência, prejuízo cognitivo e risco de quedas.",
   "porAlt": [
    "O uso contínuo de benzodiazepínico gera dependência, prejuízo cognitivo e risco aumentado de quedas.",
-   "Correta: antidepressivo serotoninérgico com terapia cognitivo-comportamental é a primeira linha.",
    "O antipsicótico atípico não é primeira linha e traz risco metabólico sem benefício correspondente.",
    "Apenas orientação de relaxamento é insuficiente para um quadro de um ano com prejuízo funcional.",
+   "Correta: antidepressivo serotoninérgico com terapia cognitivo-comportamental é a primeira linha.",
    "O estabilizador de humor é indicado no transtorno bipolar, e não na ansiedade generalizada."
   ]
  },
@@ -147,12 +147,12 @@
   "q": "Paciente com transtorno bipolar em uso de lítio apresenta tremor grosseiro, ataxia, vômitos e confusão. Litemia de 2,1 mEq/L. Qual é a conduta?",
   "alts": [
    "Manter o lítio na mesma dose e apenas orientar aumento da ingestão de água pelo paciente em casa.",
-   "Suspender o lítio, hidratar com salina isotônica e sempre considerar hemodiálise nos casos graves.",
    "Administrar diurético tiazídico para aumentar a eliminação renal do lítio acumulado no organismo.",
    "Prescrever carvão ativado, medida de escolha para reduzir a absorção do lítio já em circulação.",
+   "Suspender o lítio, hidratar com salina isotônica e sempre considerar hemodiálise nos casos graves.",
    "Aumentar a dose de lítio para estabilizar o humor e reduzir os sintomas neurológicos observados."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "psiq",
   "cenario": "uti",
   "comp": "urg",
@@ -161,22 +161,22 @@
   "coment": "A intoxicação por lítio se manifesta com tremor grosseiro, ataxia, disartria, vômitos, confusão e, em casos graves, convulsão e arritmia. A conduta é suspender o lítio, hidratar com salina isotônica para restaurar a filtração e corrigir a depleção de sódio, e considerar hemodiálise, que é o método eficaz de remoção, indicada em níveis muito elevados, alteração neurológica grave ou insuficiência renal. Tiazídicos e anti-inflamatórios aumentam a litemia.",
   "porAlt": [
    "Manter o lítio em intoxicação estabelecida permite a progressão do dano neurológico do paciente.",
-   "Correta: suspender o lítio, hidratar com salina isotônica e considerar hemodiálise nos casos graves.",
    "O tiazídico reduz a excreção de lítio e eleva a litemia, sendo exatamente o oposto do indicado.",
    "O carvão ativado não adsorve lítio e não tem papel no tratamento dessa intoxicação específica.",
+   "Correta: suspender o lítio, hidratar com salina isotônica e considerar hemodiálise nos casos graves.",
    "Aumentar a dose agrava a intoxicação e pode levar a convulsão, arritmia e sequela neurológica."
   ]
  },
  {
   "q": "Homem de 22 anos com episódio de humor elevado, redução da necessidade de sono, aumento de energia e gastos excessivos há dez dias, sem sintomas psicóticos. Qual é a conduta?",
   "alts": [
-   "Iniciar estabilizador de humor ou antipsicótico e suspender sempre qualquer antidepressivo em uso.",
    "Iniciar antidepressivo em dose plena para tratar a oscilação de humor descrita no caso apresentado.",
    "Prescrever apenas benzodiazepínico e reavaliar em três meses sem qualquer outro tratamento associado.",
    "Aguardar remissão espontânea sem qualquer intervenção medicamentosa durante o episódio descrito.",
+   "Iniciar estabilizador de humor ou antipsicótico e suspender sempre qualquer antidepressivo em uso.",
    "Indicar eletroconvulsoterapia como primeira linha para todo episódio de humor elevado sem psicose."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
@@ -184,23 +184,23 @@
   "base": "CANMAT/ISBD guidelines for the management of patients with bipolar disorder, 2018 com atualização 2023; NICE CG185, revisão 2023",
   "coment": "O episódio maníaco é tratado com lítio, valproato ou antipsicótico de segunda geração, em monoterapia ou combinação conforme a gravidade. Antidepressivo em uso deve ser suspenso, porque pode manter ou agravar a mania e favorecer ciclagem. O lítio tem a vantagem adicional de reduzir risco de suicídio. Benzodiazepínico é adjuvante para agitação e insônia. A eletroconvulsoterapia se reserva a mania grave refratária, gestação ou risco iminente de vida.",
   "porAlt": [
-   "Correta: estabilizador de humor ou antipsicótico, com suspensão de qualquer antidepressivo em uso.",
    "O antidepressivo pode manter ou agravar a mania e favorecer ciclagem rápida do humor do paciente.",
    "O benzodiazepínico isolado controla agitação mas não trata o episódio maníaco propriamente dito.",
    "Aguardar sem tratar prolonga o episódio e expõe o paciente a prejuízos financeiros e sociais.",
+   "Correta: estabilizador de humor ou antipsicótico, com suspensão de qualquer antidepressivo em uso.",
    "A eletroconvulsoterapia se reserva a mania grave refratária ou situações de risco iminente de vida."
   ]
  },
  {
   "q": "Paciente idoso em uso crônico de benzodiazepínico há oito anos, com quedas recentes e queixa de memória. Qual é a conduta?",
   "alts": [
-   "Desprescrição gradual do benzodiazepínico associada sempre a intervenção não farmacológica para o sono.",
    "Suspensão abrupta do benzodiazepínico na mesma consulta, sem qualquer esquema de retirada gradual.",
    "Aumentar a dose do benzodiazepínico para melhorar o sono e reduzir o risco de novas quedas noturnas.",
    "Manter a dose atual indefinidamente, pois a retirada é sempre mais arriscada do que a manutenção agora.",
+   "Desprescrição gradual do benzodiazepínico associada sempre a intervenção não farmacológica para o sono.",
    "Substituir por outro benzodiazepínico de meia-vida longa, estratégia recomendada no paciente idoso."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "prev",
@@ -208,10 +208,10 @@
   "base": "AGS Beers Criteria, 2023; Choosing Wisely Canada — benzodiazepine deprescribing guideline, revisão 2023",
   "coment": "O uso crônico de benzodiazepínico no idoso associa-se a quedas, fraturas, prejuízo cognitivo, acidentes e dependência, e o benefício hipnótico se perde em poucas semanas. A desprescrição é gradual, reduzindo cerca de vinte e cinco por cento da dose a cada duas semanas, com pactuação e apoio, associada a terapia cognitivo-comportamental para insônia, que é o tratamento de primeira linha. Retirada abrupta pode causar abstinência com ansiedade, insônia e convulsão.",
   "porAlt": [
-   "Correta: desprescrição gradual com intervenção não farmacológica para insônia, que é a primeira linha.",
    "A suspensão abrupta pode causar abstinência grave, com ansiedade intensa, insônia e convulsão.",
    "Aumentar a dose eleva o risco de quedas, fraturas e prejuízo cognitivo, sem ganho no sono.",
    "Manter indefinidamente perpetua o dano; a retirada gradual bem conduzida é segura e benéfica.",
+   "Correta: desprescrição gradual com intervenção não farmacológica para insônia, que é a primeira linha.",
    "Trocar por benzodiazepínico de meia-vida longa aumenta o acúmulo e o risco de quedas no idoso."
   ]
  },

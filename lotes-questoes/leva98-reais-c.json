@@ -3,12 +3,12 @@
   "q": "Pedro Paulo, um homem de 41 anos, foi admitido no pronto-socorro após sofrer queimaduras extensas em um incêndio no seu local de trabalho. Ele apresentava queimaduras de segundo grau que cobriam aproximadamente 45% da superfície corporal total (SCT). O paciente pesava 70 kg e estava consciente e lúcido, mas sentia dor intensa e desconforto. Os sinais vitais eram: frequência cardíaca: 120 bpm; pressão arterial de 100/60 mmHg; frequência respiratória de 24 ipm e saturação de oxigênio de 94% em ar ambiente. Seu médico decidiu iniciar a reanimação hídrica imediatamente. A melhor abordagem inicial para a reanimação hídrica de Pedro Paulo é:",
   "alts": [
    "administrar 2 ml/kg/%SCT de solução de Ringer Lactato nas primeiras 24 horas, dividindo o volume total igualmente ao longo do período",
+   "administrar 4 ml/kg/%SCT de solução de Ringer Lactato nas primeiras 24 horas, dividindo o volume total em duas metades: uma nas primeiras 8 horas e a outra nas 16 horas seguintes",
    "administrar 8 ml/kg/%SCT de solução cristaloide de NaCl a 0,9% nas primeiras 24 horas, com um ajuste para cada %SCT adicional acima de 50%",
    "administrar 6 ml/kg/%SCT de solução de Ringer Lactato nas primeiras 24 horas, com um ajuste para cada grau adicional de queimadura acima do segundo grau",
-   "administrar 4 ml/kg/%SCT de solução de Ringer Lactato nas primeiras 24 horas, dividindo o volume total em duas metades: uma nas primeiras 8 horas e a outra nas 16 horas seguintes",
    "administrar 4 ml/kg/%SCT de solução coloidal de albumina nas primeiras 24 horas, dividindo o volume total em duas metades: uma nas primeiras 8 horas e a outra nas 16 horas seguintes"
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -17,9 +17,9 @@
   "coment": "A fórmula de Parkland estima a reposição das primeiras 24 horas em queimadura extensa: 4 mL por quilo por porcentagem de superfície corporal queimada de Ringer lactato, metade nas primeiras 8 horas contadas a partir do momento da queimadura e a outra metade nas 16 horas seguintes. O valor calculado é ponto de partida: o ajuste real se faz pelo débito urinário, com meta de 0,5 mL por quilo por hora no adulto. Coloide não é a solução inicial, e a superfície é estimada por regra dos nove ou tabela de Lund-Browder, contando apenas segundo e terceiro graus.",
   "porAlt": [
    "Reposição de 2 mL por quilo por porcentagem subestima a necessidade e distribuir o volume igualmente ignora a maior perda das primeiras horas.",
+   "Correta: 4 mL por quilo por porcentagem de superfície queimada de Ringer lactato, metade nas primeiras 8 horas e metade nas 16 seguintes.",
    "Solução salina em volume elevado aumenta o risco de acidose hiperclorêmica, e Ringer lactato é a solução de escolha.",
    "A fórmula não se ajusta por profundidade adicional, e sim pela superfície queimada e pela resposta ao débito urinário.",
-   "Correta: 4 mL por quilo por porcentagem de superfície queimada de Ringer lactato, metade nas primeiras 8 horas e metade nas 16 seguintes.",
    "Albumina não é a solução da reposição inicial nas primeiras horas."
   ],
   "fonte": {
@@ -190,11 +190,11 @@
   "alts": [
    "ao desenvolvimento de diabetes mellitus tipo 2",
    "a uma trombose venosa profunda",
-   "à síndrome de dumping",
    "ao aumento da densidade óssea",
-   "à presença de úlcera alcalina"
+   "à presença de úlcera alcalina",
+   "à síndrome de dumping"
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -204,9 +204,9 @@
   "porAlt": [
    "Diabetes tipo 2 não produz sintomas vasomotores imediatos após cada refeição.",
    "Trombose venosa profunda cursa com dor e edema de membro, sem relação com refeições.",
-   "Correta: síndrome de dumping após gastrectomia, com sintomas vasomotores e diarreia pós-prandiais.",
    "A gastrectomia associa-se a perda de massa óssea, não a aumento de densidade.",
-   "A úlcera alcalina causa dor epigástrica e vômitos biliosos, não a síndrome descrita."
+   "A úlcera alcalina causa dor epigástrica e vômitos biliosos, não a síndrome descrita.",
+   "Correta: síndrome de dumping após gastrectomia, com sintomas vasomotores e diarreia pós-prandiais."
   ],
   "fonte": {
    "banca": "ENARE (EBSERH/FGV)",
@@ -217,12 +217,12 @@
   "q": "Uma paciente jovem, sem histórico familiar de câncer colorretal, apresenta sintomas como alterações no hábito intestinal, pequeno sangramento retal, dor abdominal, perda de peso inexplicada e palpação abdominal dolorosa no quadrante inferior direito. A hipótese diagnóstica mais provável é:",
   "alts": [
    "síndrome do intestino irritável",
-   "doença de Crohn",
    "retocolite ulcerativa",
+   "doença de Crohn",
    "polipose adenomatosa familiar",
    "síndrome de Gardner"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -231,8 +231,8 @@
   "coment": "Alteração do hábito intestinal, sangramento discreto, dor e massa dolorosa no quadrante inferior direito com perda de peso em paciente jovem sugerem doença de Crohn com acometimento ileocecal, sítio mais comum da doença. A confirmação se faz por ileocolonoscopia com biópsias, mostrando lesões descontínuas, aspecto em pedra de calçamento e, na histologia, granulomas não caseosos em parte dos casos, complementada por enterografia por ressonância. Calprotectina fecal elevada ajuda a separar doença orgânica de quadro funcional.",
   "porAlt": [
    "A síndrome do intestino irritável não cursa com perda de peso, sangramento nem massa palpável.",
-   "Correta: doença de Crohn com acometimento ileocecal, explicando dor e massa no quadrante inferior direito.",
    "A retocolite ulcerativa acomete o cólon de forma contínua a partir do reto e não forma massa em fossa ilíaca direita.",
+   "Correta: doença de Crohn com acometimento ileocecal, explicando dor e massa no quadrante inferior direito.",
    "A polipose adenomatosa familiar exige história familiar e cursa com múltiplos pólipos, sem quadro inflamatório sistêmico.",
    "A síndrome de Gardner é variante da polipose, com osteomas e tumores de partes moles."
   ],
@@ -245,12 +245,12 @@
   "q": "Uma paciente de 23 anos realizou ultrassonografia abdominal de rotina, na qual foi observado nódulo sólido de 4 cm de diâmetro no fígado. Foi realizada tomografia abdominal com contraste venoso trifásico, que mostrou lesão hipercaptante, bem circunscrita, com cicatriz central localizada em segmento VII do fígado. Dentre os diagnósticos abaixo, o mais provável é:",
   "alts": [
    "adenoma hepático",
+   "hiperplasia nodular focal",
    "hepatocarcinoma",
    "hemangioma hepático",
-   "hiperplasia nodular focal",
    "colangiocarcinoma periférico"
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
@@ -259,9 +259,9 @@
   "coment": "Nódulo hepático sólido em mulher jovem, hipervascular na fase arterial, bem circunscrito e com cicatriz central, é a descrição típica da hiperplasia nodular focal, lesão benigna de origem hiperplásica que não tem potencial maligno nem risco relevante de sangramento. Quando a imagem é característica, sobretudo à ressonância com contraste hepatoespecífico, dispensa biópsia, e a conduta é conservadora, sem necessidade de suspender contraceptivo nem de seguimento prolongado. O principal diferencial é o adenoma hepático, que não tem cicatriz central e pode sangrar ou malignizar.",
   "porAlt": [
    "O adenoma hepático associa-se a contraceptivo, é heterogêneo e não apresenta cicatriz central típica.",
+   "Correta: hiperplasia nodular focal — lesão hipervascular bem delimitada com cicatriz central em paciente jovem.",
    "O hepatocarcinoma ocorre em fígado cirrótico ou com hepatite crônica, com lavagem do contraste na fase tardia.",
    "O hemangioma tem captação globular periférica descontínua com preenchimento centrípeto.",
-   "Correta: hiperplasia nodular focal — lesão hipervascular bem delimitada com cicatriz central em paciente jovem.",
    "O colangiocarcinoma periférico costuma ter captação tardia e retração capsular, com quadro clínico distinto."
   ],
   "fonte": {
@@ -272,13 +272,13 @@
  {
   "q": "Uma mulher de 23 anos, sexualmente ativa, utilizando contracepção com pílula hormonal combinada, refere surgimento de lesões ulceradas, dolorosas em face interna de grande lábio esquerdo, há 3 dias. Precedendo o surgimento das lesões, refere que a região acometida apresentou um aumento de sensibilidade. Além disso, relata ter apresentado quadro de faringite há 1 semana. Ao exame, identifica-se a vulva trófica, sem distopias aparentes, apresentando 5 lesões ulceradas, com menos de 0,5 cm cada, coalescendo, dolorosas ao toque. Há presença de micropolilinfadenopatia inguinal bilateral, indolor. Considerando a principal hipótese diagnóstica, a opção adequada de tratamento para a paciente é:",
   "alts": [
-   "aciclovir 400 mg, três vezes ao dia, por 7 a 14 dias",
    "ceftriaxona 1g, IV ou IM, uma vez ao dia, por 8 a 10 dias",
    "doxiciclina 100 mg, VO, duas vezes ao dia, por 10 a 15 dias",
    "prednisona, 20 mg, VO, uma vez ao dia, até remissão da úlcera",
+   "aciclovir 400 mg, três vezes ao dia, por 7 a 14 dias",
    "penicilina G benzatina, 2,4 milhões UI, IM, dose única (1,2 milhão UI em cada glúteo)"
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -286,10 +286,10 @@
   "base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022",
   "coment": "Múltiplas úlceras genitais pequenas, dolorosas e coalescentes, precedidas de pródromo de ardor local e com adenopatia inguinal, caracterizam o herpes genital, cujo tratamento do primeiro episódio é aciclovir 400 mg três vezes ao dia por 7 a 10 dias, iniciado o mais precocemente possível. Sífilis primária cursa com úlcera única e indolor; o cancro mole produz úlceras dolorosas com fundo sujo e adenopatia supurativa. Fazem parte da conduta o rastreio das demais infecções sexualmente transmissíveis, incluindo HIV e sífilis, e a orientação sobre recorrência e transmissão.",
   "porAlt": [
-   "Correta: aciclovir por via oral no primeiro episódio de herpes genital.",
    "Ceftriaxona trata gonorreia e, em esquema específico, o cancro mole, não o herpes.",
    "Doxiciclina é usada em linfogranuloma venéreo e clamídia, com apresentação clínica distinta.",
    "Corticoide não trata infecção herpética e pode favorecer a disseminação.",
+   "Correta: aciclovir por via oral no primeiro episódio de herpes genital.",
    "Penicilina benzatina trata sífilis, cuja úlcera é única, indolor e de fundo limpo."
   ],
   "fonte": {

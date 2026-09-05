@@ -4,11 +4,11 @@
   "alts": [
    "Iniciar cefalosporina de terceira geração, pois a contagem de neutrófilos já confirma peritonite instalada.",
    "Suspender toda investigação, uma vez que o gradiente elevado exclui infecção do líquido ascítico atual.",
-   "Repetir a paracentese em quarenta e oito horas antes de qualquer decisão terapêutica sobre esse caso dele.",
    "Iniciar profilaxia primária de peritonite bacteriana, indicada pela proteína baixa com disfunção associada.",
+   "Repetir a paracentese em quarenta e oito horas antes de qualquer decisão terapêutica sobre esse caso dele.",
    "Prescrever albumina em dose plena de peritonite, mesmo sem preencher os critérios diagnósticos dela agora."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "prev",
@@ -18,8 +18,8 @@
   "porAlt": [
    "A contagem está abaixo de 250 neutrófilos, de modo que não há peritonite bacteriana espontânea a ser tratada.",
    "O gradiente elevado indica hipertensão portal como causa da ascite e não afasta infecção do líquido ascítico.",
-   "Repetir a paracentese sem mudança clínica atrasa a profilaxia que já está indicada pelo perfil do líquido.",
    "Correta: proteína no líquido abaixo de 1,5 g/dL com disfunção hepática e renal indica profilaxia primária de peritonite.",
+   "Repetir a paracentese sem mudança clínica atrasa a profilaxia que já está indicada pelo perfil do líquido.",
    "A albumina em dose de peritonite se aplica quando o diagnóstico está feito, o que não é o caso deste paciente."
   ]
  },
@@ -53,10 +53,10 @@
    "Reposição de solução salina isotônica em volume igual ao retirado durante o próprio procedimento.",
    "Nenhuma reposição, uma vez que a paracentese de alívio não altera a hemodinâmica desses pacientes.",
    "Transfusão profilática de plasma fresco congelado antes do procedimento, corrigindo a coagulopatia.",
-   "Reposição de concentrado de hemácias, mesmo sem anemia, para compensar a perda proteica do líquido.",
-   "Reposição de albumina de seis a oito gramas por litro retirado, prevenindo disfunção circulatória."
+   "Reposição de albumina de seis a oito gramas por litro retirado, prevenindo disfunção circulatória.",
+   "Reposição de concentrado de hemácias, mesmo sem anemia, para compensar a perda proteica do líquido."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
@@ -67,8 +67,8 @@
    "A salina não sustenta a pressão oncótica e não previne a disfunção circulatória da mesma forma que a albumina.",
    "A paracentese de grande volume altera sim a hemodinâmica, e é justamente por isso que se repõe albumina.",
    "A correção profilática da coagulopatia não é necessária para paracentese, procedimento de baixo risco hemorrágico.",
-   "A transfusão de hemácias sem anemia não tem indicação e não compensa a perda proteica do líquido ascítico.",
-   "Correta: acima de cinco litros repõe-se albumina de seis a oito gramas por litro, prevenindo disfunção circulatória."
+   "Correta: acima de cinco litros repõe-se albumina de seis a oito gramas por litro, prevenindo disfunção circulatória.",
+   "A transfusão de hemácias sem anemia não tem indicação e não compensa a perda proteica do líquido ascítico."
   ]
  },
  {
@@ -76,11 +76,11 @@
   "alts": [
    "Acidose metabólica hiperclorêmica, pois o ânion gap calculado fica dentro da faixa de normalidade.",
    "Alcalose respiratória primária, indicada pela pressão parcial de gás carbônico reduzida no exame.",
-   "Acidose metabólica com ânion gap elevado após correção pela albumina, com compensação adequada.",
    "Distúrbio respiratório puro sem componente metabólico, dispensando o cálculo do ânion gap no caso.",
+   "Acidose metabólica com ânion gap elevado após correção pela albumina, com compensação adequada.",
    "Acidose metabólica sem compensação respiratória, o que caracteriza um distúrbio misto neste paciente."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "dx",
@@ -90,8 +90,8 @@
   "porAlt": [
    "Sem corrigir pela albumina o gap parece menor, e é exatamente esse erro que faz a acidose com gap passar despercebida.",
    "A pressão de gás carbônico baixa aqui é a compensação esperada da acidose metabólica, e não um distúrbio primário.",
-   "Correta: o gap corrigido pela albumina chega a 28 e a compensação respiratória está adequada pela fórmula de Winter.",
    "O cálculo do ânion gap é obrigatório em toda acidose metabólica e revela a origem do distúrbio neste paciente.",
+   "Correta: o gap corrigido pela albumina chega a 28 e a compensação respiratória está adequada pela fórmula de Winter.",
    "A compensação está exatamente no valor previsto pela fórmula de Winter, de modo que não há distúrbio misto."
   ]
  },
@@ -100,11 +100,11 @@
   "alts": [
    "O cálcio sérico total, que quando elevado impede a entrada de potássio para o meio intracelular.",
    "O fósforo sérico, cuja elevação bloqueia a reabsorção tubular renal de potássio de forma sustentada.",
-   "A hemoglobina glicada, que quando elevada explica a perda urinária persistente de potássio no caso.",
    "O magnésio sérico, porque a hipomagnesemia torna a hipocalemia refratária à reposição de potássio.",
+   "A hemoglobina glicada, que quando elevada explica a perda urinária persistente de potássio no caso.",
    "O ácido úrico sérico, marcador que orienta a reposição de potássio nos pacientes que usam diurético."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "dx",
@@ -114,21 +114,21 @@
   "porAlt": [
    "O cálcio elevado não impede a correção do potássio e não explica a refratariedade descrita neste caso.",
    "O fósforo não regula a reabsorção tubular de potássio dessa forma e não causa hipocalemia refratária.",
-   "A hemoglobina glicada não tem relação com a refratariedade da reposição de potássio nesse contexto clínico.",
    "Correta: sem corrigir a hipomagnesemia, a perda urinária de potássio persiste e a reposição não faz o valor subir.",
+   "A hemoglobina glicada não tem relação com a refratariedade da reposição de potássio nesse contexto clínico.",
    "O ácido úrico não orienta reposição de potássio e não explica a falta de resposta ao tratamento instituído."
   ]
  },
  {
   "q": "Homem de 82 anos, acamado em instituição de longa permanência, chega com sódio sérico de 168 mEq/L, mucosas secas e sonolência. Pesa 60 kg. Qual é a causa mais provável e a regra de correção?",
   "alts": [
-   "Falta de acesso à água livre, corrigindo o sódio em no máximo dez miliequivalentes em vinte e quatro horas.",
    "Excesso de sódio na dieta, corrigindo o distúrbio com diurético de alça em dose alta e rápida infusão.",
+   "Falta de acesso à água livre, corrigindo o sódio em no máximo dez miliequivalentes em vinte e quatro horas.",
    "Diabetes insipidus central, que deve ser tratado imediatamente com reposição de solução salina hipertônica.",
    "Hiperaldosteronismo primário, corrigido com espironolactona em dose plena logo após o diagnóstico inicial.",
    "Excesso de água corporal total, corrigido com restrição hídrica rigorosa e observação clínica prolongada."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "nefro",
   "cenario": "emg",
   "comp": "tto",
@@ -136,8 +136,8 @@
   "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — hipernatremia por déficit de água livre",
   "coment": "Hipernatremia quase sempre significa falta de água, e não excesso de sódio, ocorrendo em quem não tem acesso livre à água: idoso institucionalizado, acamado, sedado ou com rebaixamento. A correção deve ser gradual, não reduzindo o sódio mais do que cerca de dez miliequivalentes por litro em vinte e quatro horas, sob risco de edema cerebral — o espelho exato do cuidado que se tem na hiponatremia. O déficit de água livre é estimado pela água corporal total multiplicada pela razão entre o sódio atual e 140, menos um, repondo preferencialmente por via enteral, somada às perdas em curso.",
   "porAlt": [
-   "Correta: a causa é falta de acesso à água livre, e a correção é limitada a cerca de dez miliequivalentes em 24 horas.",
    "Excesso de sódio na dieta é causa rara, e diurético em dose alta agravaria a desidratação já instalada.",
+   "Correta: a causa é falta de acesso à água livre, e a correção é limitada a cerca de dez miliequivalentes em 24 horas.",
    "O diabetes insipidus é possível, mas a salina hipertônica agravaria a hipernatremia em vez de corrigi-la.",
    "O hiperaldosteronismo cursa com hipertensão e hipocalemia, e não com desidratação e hipernatremia grave.",
    "A água corporal está reduzida, não aumentada; restringir líquido pioraria de forma perigosa o quadro."

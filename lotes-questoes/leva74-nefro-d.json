@@ -2,13 +2,13 @@
  {
   "q": "Paciente com doença renal crônica estágio 5 apresenta pericardite urêmica e encefalopatia. Qual é a conduta?",
   "alts": [
+   "Indicar terapia dialítica de urgência, pois esses achados configuram sempre indicação absoluta de diálise.",
    "Aumentar apenas a dose do diurético de alça como medida principal para o controle dos sintomas urêmicos.",
    "Prescrever anti-inflamatório não hormonal em dose plena para o tratamento da pericardite urêmica descrita.",
-   "Indicar terapia dialítica de urgência, pois esses achados configuram sempre indicação absoluta de diálise.",
    "Aguardar a queda espontânea da ureia por sete dias antes de qualquer indicação de terapia substitutiva.",
    "Iniciar apenas restrição proteica extrema como tratamento definitivo das manifestações urêmicas do paciente."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "nefro",
   "cenario": "uti",
   "comp": "urg",
@@ -16,9 +16,9 @@
   "base": "KDIGO Chronic Kidney Disease Guideline, 2024; Brenner and Rector's The Kidney, 12ª edição, 2024",
   "coment": "As indicações clássicas de diálise de urgência são acidose metabólica refratária, distúrbios eletrolíticos graves, sobretudo hipercalemia refratária, intoxicações dialisáveis, sobrecarga volêmica refratária e uremia sintomática, esta representada por pericardite, encefalopatia, sangramento urêmico e náuseas incoercíveis. Pericardite urêmica e encefalopatia são indicações absolutas e não devem aguardar a evolução espontânea.",
   "porAlt": [
+   "Correta: pericardite e encefalopatia urêmicas configuram indicação absoluta de diálise de urgência.",
    "O diurético não remove as toxinas urêmicas responsáveis pela pericardite e pela encefalopatia.",
    "O anti-inflamatório agrava a função renal e não trata a causa da pericardite, que é a uremia.",
-   "Correta: pericardite e encefalopatia urêmicas configuram indicação absoluta de diálise de urgência.",
    "Aguardar sete dias em uremia sintomática grave permite tamponamento cardíaco e coma urêmico.",
    "A restrição proteica é medida crônica e não reverte manifestações urêmicas já instaladas."
   ]
@@ -26,13 +26,13 @@
  {
   "q": "Paciente com doença renal crônica avançada apresenta acidose metabólica com bicarbonato de 16 mEq/L. Qual é a conduta?",
   "alts": [
-   "Repor bicarbonato de sódio por via oral, pois a correção reduz sempre a progressão renal e a perda muscular.",
    "Não tratar a acidose, pois ela não tem qualquer repercussão clínica em pacientes com doença renal crônica.",
    "Prescrever apenas dieta hiperproteica como estratégia de correção da acidose metabólica identificada agora.",
    "Iniciar diálise imediata a todos os pacientes com esse valor isolado de bicarbonato sérico no exame agora.",
+   "Repor bicarbonato de sódio por via oral, pois a correção reduz sempre a progressão renal e a perda muscular.",
    "Administrar cloreto de amônio por via oral como tratamento da acidose metabólica do paciente renal agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "tto",
@@ -40,10 +40,10 @@
   "base": "KDIGO Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease, 2024",
   "coment": "A acidose metabólica crônica na doença renal acelera a progressão renal, promove catabolismo muscular, agrava a doença óssea e associa-se a maior mortalidade. As diretrizes recomendam repor bicarbonato oral para manter o bicarbonato sérico acima de 22 mEq/L, com atenção à sobrecarga de sódio e ao controle pressórico. Dieta rica em frutas e vegetais reduz a carga ácida. Dieta hiperproteica aumenta a produção de ácido e é contraproducente.",
   "porAlt": [
-   "Correta: repor bicarbonato oral, pois a correção reduz progressão renal e catabolismo muscular.",
    "A acidose crônica tem repercussão clara: acelera perda de função renal e de massa muscular.",
    "A dieta hiperproteica aumenta a carga ácida e agrava a acidose metabólica do paciente renal.",
    "A diálise não é indicada apenas pelo valor de bicarbonato quando a acidose é corrigível clinicamente.",
+   "Correta: repor bicarbonato oral, pois a correção reduz progressão renal e catabolismo muscular.",
    "O cloreto de amônio é acidificante e agravaria de forma direta a acidose já instalada."
   ]
  },
@@ -52,11 +52,11 @@
   "alts": [
    "Dosar apenas o hormônio tireoestimulante como investigação inicial da hipocalemia com hipertensão arterial.",
    "Solicitar apenas ultrassonografia de tireoide como exame inicial para investigar o distúrbio eletrolítico.",
-   "Iniciar reposição de potássio e não realizar qualquer investigação da causa do distúrbio identificado agora.",
    "Dosar aldosterona e renina plasmáticas, avaliando sempre causas de excesso de mineralocorticoide no paciente.",
+   "Iniciar reposição de potássio e não realizar qualquer investigação da causa do distúrbio identificado agora.",
    "Solicitar apenas eletroencefalograma como investigação inicial da hipocalemia grave com alcalose metabólica."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
@@ -66,8 +66,8 @@
   "porAlt": [
    "O hormônio tireoestimulante não explica a associação de hipocalemia, alcalose e hipertensão.",
    "A ultrassonografia de tireoide não investiga o eixo renina-angiotensina-aldosterona do paciente.",
-   "Repor potássio sem investigar deixa ativa a causa e o distúrbio recorre após a suspensão.",
    "Correta: dosar aldosterona e renina para investigar excesso de mineralocorticoide como causa do quadro.",
+   "Repor potássio sem investigar deixa ativa a causa e o distúrbio recorre após a suspensão.",
    "O eletroencefalograma não avalia distúrbio eletrolítico nem sua causa endócrina subjacente."
   ]
  },
@@ -75,12 +75,12 @@
   "q": "Paciente com nefrolitíase de repetição por cálculo de oxalato de cálcio. Qual é a medida preventiva de maior impacto?",
   "alts": [
    "Restringir de forma drástica o cálcio da dieta, medida de maior impacto na prevenção de novos cálculos agora.",
-   "Aumentar a ingestão hídrica para volume urinário acima de dois litros por dia, mantendo sempre dieta adequada.",
    "Restringir completamente a ingestão de líquidos para reduzir a formação de cristais na urina do paciente.",
    "Iniciar antibiótico profilático contínuo como medida preventiva de novos episódios de nefrolitíase agora.",
+   "Aumentar a ingestão hídrica para volume urinário acima de dois litros por dia, mantendo sempre dieta adequada.",
    "Prescrever apenas analgésico de uso contínuo como estratégia de prevenção de novos episódios de cólica agora."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "prev",
@@ -89,9 +89,9 @@
   "coment": "A medida preventiva de maior impacto na nefrolitíase é o aumento da ingestão hídrica, buscando volume urinário acima de dois a dois litros e meio por dia. Acrescentam-se redução de sódio, moderação de proteína animal e manutenção da ingestão normal de cálcio na dieta: restringir cálcio aumenta a absorção intestinal de oxalato e paradoxalmente eleva o risco de novos cálculos. Citrato de potássio e tiazídico são indicados conforme a avaliação metabólica.",
   "porAlt": [
    "Restringir cálcio aumenta a absorção de oxalato e paradoxalmente eleva o risco de novos cálculos.",
-   "Correta: aumentar a ingestão hídrica para volume urinário acima de dois litros por dia.",
    "Restringir líquidos concentra a urina e é exatamente o oposto da medida preventiva indicada.",
    "O antibiótico profilático não previne cálculo de oxalato, que não tem origem infecciosa.",
+   "Correta: aumentar a ingestão hídrica para volume urinário acima de dois litros por dia.",
    "O analgésico trata a crise dolorosa, mas não previne a formação de novos cálculos renais."
   ]
  },
@@ -122,13 +122,13 @@
  {
   "q": "Paciente com hipernatremia de 158 mEq/L por privação de água em idoso acamado. Qual é a conduta?",
   "alts": [
+   "Repor água livre de forma gradual, evitando sempre queda superior ao limite seguro em vinte e quatro horas.",
    "Corrigir o sódio rapidamente para valores normais nas primeiras quatro horas de atendimento do paciente.",
    "Administrar salina hipertônica endovenosa para corrigir o distúrbio eletrolítico identificado no exame.",
    "Restringir toda oferta de líquidos até a normalização espontânea do sódio sérico do paciente idoso agora.",
-   "Repor água livre de forma gradual, evitando sempre queda superior ao limite seguro em vinte e quatro horas.",
    "Administrar apenas diurético de alça em dose alta como tratamento principal da hipernatremia descrita."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "tto",
@@ -136,10 +136,10 @@
   "base": "European clinical practice guidance on dysnatraemias, revisão 2023; Brenner and Rector's The Kidney, 12ª edição, 2024",
   "coment": "A hipernatremia por perda ou privação de água é corrigida com reposição de água livre, por via oral ou com solução glicosada ou hipotônica endovenosa, calculando o déficit e somando as perdas contínuas. A correção deve ser gradual, com queda de até dez a doze miliequivalentes por litro em vinte e quatro horas na forma crônica, para evitar edema cerebral. Em hipovolemia importante, restaura-se primeiro o volume com solução isotônica.",
   "porAlt": [
+   "Correta: repor água livre de forma gradual, respeitando o limite de correção em vinte e quatro horas.",
    "Corrigir rapidamente em poucas horas na forma crônica pode causar edema cerebral e convulsão.",
    "A salina hipertônica eleva ainda mais o sódio e agrava diretamente o distúrbio do paciente.",
    "Restringir líquidos mantém e agrava a hipernatremia por privação de água já instalada.",
-   "Correta: repor água livre de forma gradual, respeitando o limite de correção em vinte e quatro horas.",
    "O diurético de alça aumenta a perda de água livre e pode agravar a hipernatremia existente."
   ]
  },
@@ -147,12 +147,12 @@
   "q": "Paciente em hemodiálise crônica apresenta fósforo elevado e paratormônio muito elevado. Qual é a conduta?",
   "alts": [
    "Aumentar a oferta de fósforo na dieta para corrigir o desequilíbrio mineral identificado no paciente dialítico.",
-   "Suspender a diálise até a normalização espontânea do fósforo e do paratormônio séricos do paciente agora.",
    "Controlar o fósforo com dieta e quelante, associando sempre tratamento do hiperparatireoidismo secundário.",
+   "Suspender a diálise até a normalização espontânea do fósforo e do paratormônio séricos do paciente agora.",
    "Prescrever apenas cálcio em dose alta e sem qualquer monitorização do produto cálcio-fósforo sérico agora.",
    "Iniciar bisfosfonato endovenoso como tratamento de escolha do hiperparatireoidismo secundário dialítico."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "tto",
@@ -161,8 +161,8 @@
   "coment": "O distúrbio mineral e ósseo da doença renal crônica exige controle do fósforo com restrição dietética e quelantes, preferindo os isentos de cálcio quando há hipercalcemia ou calcificação vascular, associado ao tratamento do hiperparatireoidismo secundário com calcitriol, análogos da vitamina D ou calcimiméticos. A paratireoidectomia é indicada em hiperparatireoidismo grave refratário. Bisfosfonatos são evitados na função renal muito reduzida.",
   "porAlt": [
    "Aumentar o fósforo agrava a hiperfosfatemia, a calcificação vascular e o estímulo à paratireoide.",
-   "Suspender a diálise agrava a retenção de fósforo e as demais manifestações urêmicas do paciente.",
    "Correta: controlar o fósforo com dieta e quelante e tratar o hiperparatireoidismo secundário.",
+   "Suspender a diálise agrava a retenção de fósforo e as demais manifestações urêmicas do paciente.",
    "Cálcio em dose alta sem monitorização favorece calcificação vascular e doença óssea adinâmica.",
    "Os bisfosfonatos são evitados na função renal muito reduzida e não tratam o hiperparatireoidismo."
   ]
@@ -171,12 +171,12 @@
   "q": "Paciente com lesão renal aguda e ultrassonografia mostrando hidronefrose bilateral. Qual é a conduta imediata?",
   "alts": [
    "Iniciar diurético em dose alta como primeira medida para aumentar o fluxo urinário do paciente.",
+   "Desobstruir a via urinária com urgência, pois a causa pós-renal é sempre potencialmente reversível.",
    "Restringir líquidos e aguardar a resolução espontânea da hidronefrose bilateral identificada no exame.",
    "Iniciar imunossupressão em dose alta como tratamento da lesão renal aguda com hidronefrose bilateral.",
-   "Aguardar sete dias de observação clínica antes de qualquer tentativa de desobstrução da via urinária.",
-   "Desobstruir a via urinária com urgência, pois a causa pós-renal é sempre potencialmente reversível."
+   "Aguardar sete dias de observação clínica antes de qualquer tentativa de desobstrução da via urinária."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "nefro",
   "cenario": "emg",
   "comp": "urg",
@@ -185,10 +185,10 @@
   "coment": "A hidronefrose bilateral aponta lesão renal aguda pós-renal, cuja reversibilidade depende do tempo de obstrução. A conduta é desobstruir com urgência, por sonda vesical quando a obstrução é baixa, ou por nefrostomia percutânea ou cateter duplo J quando é alta. Após a desobstrução, é comum a poliúria pós-obstrutiva, exigindo reposição cuidadosa de volume e monitorização de eletrólitos para evitar hipovolemia e distúrbios graves.",
   "porAlt": [
    "O diurético não vence a obstrução mecânica e pode agravar a distensão do sistema coletor.",
+   "Correta: desobstruir a via urinária com urgência, pois a causa pós-renal é potencialmente reversível.",
    "Restringir líquidos não resolve a obstrução e agrava a hipoperfusão renal do paciente.",
    "A imunossupressão não trata obstrução mecânica das vias urinárias identificada no exame.",
-   "Aguardar sete dias transforma uma lesão reversível em perda funcional definitiva do parênquima.",
-   "Correta: desobstruir a via urinária com urgência, pois a causa pós-renal é potencialmente reversível."
+   "Aguardar sete dias transforma uma lesão reversível em perda funcional definitiva do parênquima."
   ]
  },
  {
@@ -197,10 +197,10 @@
    "Resultado normal, que dispensa qualquer seguimento ou intervenção sobre fatores de risco do paciente agora.",
    "Necessidade de diálise imediata diante da presença de albuminúria persistente nas duas amostras avaliadas.",
    "Indicação de biópsia renal imediata em todos os pacientes com esse nível de albuminúria persistente agora.",
-   "Contraindicação absoluta ao uso de qualquer bloqueador do sistema renina-angiotensina nesse paciente agora.",
-   "Doença renal crônica em estágio inicial, exigindo sempre controle de fatores de risco e seguimento programado."
+   "Doença renal crônica em estágio inicial, exigindo sempre controle de fatores de risco e seguimento programado.",
+   "Contraindicação absoluta ao uso de qualquer bloqueador do sistema renina-angiotensina nesse paciente agora."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
@@ -211,8 +211,8 @@
    "Albuminúria persistente acima de 30 mg/g não é resultado normal e define doença renal crônica.",
    "A diálise depende de critérios clínicos e de função renal muito reduzida, ausentes neste caso.",
    "A biópsia é indicada em situações específicas, e não em toda albuminúria moderadamente aumentada.",
-   "O bloqueio do sistema renina-angiotensina é justamente indicado para reduzir a albuminúria.",
-   "Correta: doença renal crônica inicial, exigindo controle de fatores de risco e seguimento programado."
+   "Correta: doença renal crônica inicial, exigindo controle de fatores de risco e seguimento programado.",
+   "O bloqueio do sistema renina-angiotensina é justamente indicado para reduzir a albuminúria."
   ]
  },
  {

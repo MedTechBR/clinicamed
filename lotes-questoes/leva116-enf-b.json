@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Mulher de 63 anos internada na enfermaria por fibrilação atrial de início indeterminado, estável, com frequência de 110 batimentos por minuto e escore CHA2DS2-VASc de 4. Qual é a conduta mais adequada nesse momento?",
+  "alts": [
+   "Realizar cardioversão elétrica imediata sem anticoagulação prévia por estar clinicamente estável.",
+   "Controlar a frequência e iniciar anticoagulação oral, discutindo o momento da cardioversão eletiva.",
+   "Prescrever apenas ácido acetilsalicílico como profilaxia de embolia nessa paciente de alto risco.",
+   "Manter somente controle da frequência e dispensar a anticoagulação por ausência de sintoma grave.",
+   "Indicar ablação por cateter durante esta internação como a primeira medida terapêutica para ela."
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESC Guidelines for the management of atrial fibrillation (AF-CARE), 2024; ACC/AHA/ACCP/HRS atrial fibrillation guideline, 2023",
+  "coment": "Com escore CHA2DS2-VASc de 4, a anticoagulação oral está indicada independentemente da estratégia de ritmo ou de frequência, e o anticoagulante oral direto é preferido ao antagonista da vitamina K, exceto em estenose mitral moderada a grave e prótese mecânica. Em fibrilação de início indeterminado ou com mais de 48 horas, a cardioversão eletiva exige três semanas de anticoagulação prévia ou ecocardiograma transesofágico que exclua trombo, mantendo anticoagulação por pelo menos quatro semanas depois.",
+  "porAlt": [
+   "Cardioversão sem anticoagulação em arritmia de início indeterminado traz risco elevado de embolia.",
+   "Correta: controle de frequência com anticoagulação oral e cardioversão programada com segurança.",
+   "A antiagregação isolada não protege contra cardioembolia e foi abandonada como alternativa.",
+   "Escore de risco elevado indica anticoagulação, independentemente da intensidade dos sintomas.",
+   "A ablação é opção de controle de ritmo em casos selecionados, não a medida inicial nessa internação."
+  ]
+ },
+ {
+  "q": "Homem de 59 anos internado na enfermaria por diabetes descompensado recebe alta programada. Ele tem doença renal crônica com filtração estimada de 38 mL/min/1,73 m², hemoglobina glicada de 8,4% e usa apenas metformina. Qual é o ajuste adequado?",
+  "alts": [
+   "Manter a metformina com ajuste de dose e associar inibidor de SGLT2, que protege rim e coração.",
+   "Suspender a metformina, que está formalmente contraindicada com essa filtração glomerular estimada.",
+   "Associar sulfonilureia de longa ação por ser a opção mais segura no paciente com doença renal.",
+   "Iniciar apenas insulina de ação prolongada e suspender qualquer antidiabético oral definitivamente.",
+   "Manter somente a metformina em dose plena e reavaliar a hemoglobina glicada daqui a seis meses."
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease; American Diabetes Association — Standards of Care in Diabetes, 2025",
+  "coment": "A metformina pode ser mantida com filtração entre 30 e 45 mL/min/1,73 m², em dose reduzida e com monitorização, sendo contraindicada apenas abaixo de 30. Em paciente com diabetes tipo 2 e doença renal crônica, o inibidor de SGLT2 é recomendado por reduzir progressão renal, hospitalização por insuficiência cardíaca e mortalidade cardiovascular, com benefício que independe do controle glicêmico. Sulfonilureias de longa ação são evitadas pelo risco de hipoglicemia prolongada.",
+  "porAlt": [
+   "Correta: manter metformina com ajuste de dose e associar inibidor de SGLT2 por proteção renal e cardíaca.",
+   "A contraindicação formal da metformina ocorre abaixo de trinta mL/min, e não nessa faixa de filtração.",
+   "Sulfonilureia de longa ação causa hipoglicemia prolongada e é desaconselhada na doença renal crônica.",
+   "A insulina pode ser necessária, mas não substitui as classes com proteção cardiorrenal comprovada.",
+   "Manter apenas metformina com glicada acima da meta deixa o paciente sem tratamento adequado."
+  ]
+ },
+ {
+  "q": "Paciente de 45 anos internada na enfermaria por lúpus eritematoso sistêmico em atividade, iniciando pulsoterapia com metilprednisolona e ciclofosfamida por nefrite. Qual é a medida profilática mais importante nesse contexto?",
+  "alts": [
+   "Prescrever antibiótico de amplo espectro contínuo durante todo o período de imunossupressão dela.",
+   "Suspender a hidroxicloroquina durante a imunossupressão para reduzir a carga de fármacos prescritos.",
+   "Aplicar vacina de vírus vivo atenuado antes da alta para ampliar a proteção durante o tratamento.",
+   "Iniciar antifúngico profilático sistêmico para todos os pacientes que recebem pulsoterapia venosa.",
+   "Iniciar profilaxia para Pneumocystis com sulfametoxazol-trimetoprima e reforçar rastreio de infecções."
+  ],
+  "gab": 4,
+  "tema": "reumato",
+  "cenario": "enf",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "EULAR recommendations for the management of systemic lupus erythematosus, 2023; ACR Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases, 2022",
+  "coment": "Pacientes em imunossupressão intensa, especialmente com corticoide em dose alta associado a ciclofosfamida ou rituximabe, têm indicação de profilaxia para pneumocistose com sulfametoxazol-trimetoprima. Completam o cuidado o rastreio de tuberculose latente, hepatites B e C e HIV, a atualização vacinal com imunizantes não vivos e a manutenção da hidroxicloroquina, que reduz atividade, dano acumulado e mortalidade e deve ser mantida durante toda a imunossupressão.",
+  "porAlt": [
+   "Antibiótico de amplo espectro contínuo não é profilaxia e seleciona germes resistentes sem benefício.",
+   "A hidroxicloroquina deve ser mantida: reduz atividade da doença, dano acumulado e mortalidade.",
+   "Vacina de vírus vivo atenuado é contraindicada durante imunossupressão de alta intensidade.",
+   "O antifúngico profilático sistêmico não é recomendado de rotina em pulsoterapia por lúpus ativo.",
+   "Correta: profilaxia para pneumocistose com sulfametoxazol-trimetoprima, com rastreio de infecções latentes."
+  ]
+ },
+ {
+  "q": "Homem de 71 anos internado na enfermaria por infecção de pele responde bem ao antibiótico, porém apresenta hemoglobina de 7,8 g/dL, estável, sem sangramento, sem dispneia e sem angina. Qual é a conduta transfusional adequada?",
+  "alts": [
+   "Transfundir duas unidades de concentrado de hemácias para elevar rapidamente a hemoglobina dele.",
+   "Transfundir uma unidade sempre que a hemoglobina estiver abaixo de dez gramas por decilitro.",
+   "Prescrever eritropoetina para todos os pacientes internados que apresentem anemia normocítica.",
+   "Não transfundir e investigar a causa da anemia, reservando a transfusão para gatilho ou sintoma.",
+   "Transfundir plasma fresco congelado para corrigir a anemia identificada durante essa internação."
+  ],
+  "gab": 3,
+  "tema": "hemato",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "AABB — Red Blood Cell Transfusion: 2023 International Collaboration Clinical Practice Guidelines; Ministério da Saúde, Guia para uso de hemocomponentes, 2024",
+  "coment": "A estratégia restritiva, com gatilho abaixo de 7 g/dL no paciente estável e abaixo de 8 g/dL em doença cardiovascular prévia ou pós-operatório, é ao menos tão segura quanto a liberal e reduz exposição a hemocomponentes. Com 7,8 g/dL, sem sintoma e sem sangramento, a conduta é investigar a causa — ferro, B12, folato, perda oculta, doença renal e inflamação — e tratá-la. Quando a transfusão é indicada, transfunde-se uma unidade por vez, com reavaliação clínica e laboratorial.",
+  "porAlt": [
+   "Prescrever duas unidades de rotina é a prática que a evidência atual mais claramente desautoriza.",
+   "O gatilho de dez gramas por decilitro corresponde à estratégia liberal, abandonada nesse cenário.",
+   "A eritropoetina tem indicações específicas e não é conduta para anemia de paciente internado.",
+   "Correta: não transfundir, investigar a causa da anemia e reservar a transfusão ao gatilho ou ao sintoma.",
+   "O plasma fresco congelado não corrige anemia: contém fatores de coagulação, e não hemácias."
+  ]
+ },
+ {
+  "q": "Mulher de 55 anos internada na enfermaria por tromboembolismo pulmonar submaciço, hemodinamicamente estável, com disfunção de ventrículo direito ao ecocardiograma e troponina elevada. Qual é a conduta inicial mais adequada?",
+  "alts": [
+   "Anticoagulação plena com monitorização estreita, reservando trombólise para deterioração clínica.",
+   "Trombólise sistêmica imediata para todos os pacientes que apresentem disfunção do ventrículo direito.",
+   "Manter apenas profilaxia de tromboembolismo até que o resultado de novos exames esteja disponível.",
+   "Indicar embolectomia cirúrgica como primeira escolha diante da elevação de troponina observada.",
+   "Iniciar filtro de veia cava inferior em substituição à anticoagulação plena nessa fase inicial."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESC Guidelines for the diagnosis and management of acute pulmonary embolism, 2019; ASH guidelines for management of venous thromboembolism, 2020",
+  "coment": "No tromboembolismo de risco intermediário-alto, com disfunção de ventrículo direito e biomarcadores elevados mas sem hipotensão, a conduta é anticoagulação plena com monitorização estreita, reservando a trombólise de resgate para quem deteriora hemodinamicamente. A trombólise sistêmica de rotina nesse grupo aumentou sangramento grave e hemorragia intracraniana sem reduzir mortalidade no ensaio PEITHO. O filtro de veia cava se destina a contraindicação absoluta à anticoagulação ou a recorrência sob tratamento adequado.",
+  "porAlt": [
+   "Correta: anticoagulação plena com vigilância, reservando trombólise para a deterioração hemodinâmica.",
+   "A trombólise de rotina nesse grupo aumentou sangramento grave sem reduzir mortalidade no PEITHO.",
+   "Manter apenas dose profilática subtrata um evento agudo já confirmado e permite a sua progressão.",
+   "A embolectomia se reserva a casos de alto risco com contraindicação ou falha da trombólise sistêmica.",
+   "O filtro não substitui a anticoagulação e se indica na contraindicação absoluta ou na recorrência."
+  ]
+ },
+ {
+  "q": "Paciente de 68 anos internado na enfermaria por doença renal crônica avançada apresenta potássio de 6,8 mEq/L, com onda T apiculada e alargamento do complexo QRS no eletrocardiograma. Qual é a primeira medida a ser tomada?",
+  "alts": [
+   "Administrar gluconato de cálcio intravenoso para estabilizar a membrana do miocárdio de imediato.",
+   "Iniciar resina de troca por via oral como primeira medida isolada para reduzir o potássio sérico.",
+   "Administrar bicarbonato de sódio isolado, medida suficiente para reverter as alterações elétricas.",
+   "Indicar hemodiálise imediata sem qualquer medida farmacológica prévia de proteção cardiovascular.",
+   "Prescrever furosemida em dose alta como única medida para eliminar o excesso de potássio corporal."
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "KDIGO controversies conference on potassium management, 2020; diretrizes da Sociedade Brasileira de Nefrologia sobre distúrbios do potássio",
+  "coment": "Na hipercalemia com alterações eletrocardiográficas, a sequência é estabilizar, redistribuir e remover. A primeira medida é o gluconato ou cloreto de cálcio intravenoso, que antagoniza o efeito do potássio na membrana e age em minutos, sem reduzir o potássio sérico. Em seguida, insulina com glicose e beta-agonista inalatório deslocam o potássio para o intracelular, e a remoção definitiva vem de resina de troca, diurético ou diálise, indicada na hipercalemia refratária ou na doença renal avançada.",
+  "porAlt": [
+   "Correta: gluconato de cálcio intravenoso como primeira medida, estabilizando a membrana do miocárdio.",
+   "A resina remove potássio de forma lenta e não protege o coração no momento de maior risco elétrico.",
+   "O bicarbonato isolado tem efeito modesto e não substitui a estabilização de membrana com cálcio.",
+   "A diálise é a remoção definitiva, mas exige as medidas farmacológicas imediatas enquanto se prepara.",
+   "A furosemida depende de função renal preservada e não age com a rapidez exigida nesse cenário."
+  ]
+ },
+ {
+  "q": "Homem de 62 anos internado na enfermaria por descompensação de cirrose apresenta, no terceiro dia, desorientação, inversão do ciclo de sono e flapping. Não há febre, sangramento nem uso recente de sedativo. Qual é a conduta inicial?",
+  "alts": [
+   "Dosar a amônia sérica e ajustar a lactulose exclusivamente conforme o valor obtido nesse exame.",
+   "Restringir proteína da dieta de forma prolongada para reduzir a produção intestinal de amônia.",
+   "Prescrever benzodiazepínico para regularizar o ciclo de sono e vigília alterado desse paciente.",
+   "Investigar e tratar o fator precipitante e iniciar lactulose, com rifaximina em casos recorrentes.",
+   "Indicar transplante hepático de urgência para todo episódio de encefalopatia hepática recorrente."
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "AASLD/EASL Practice Guideline on hepatic encephalopathy, 2014 e atualizações; Baveno VII, 2022",
+  "coment": "A encefalopatia hepática é diagnóstico clínico, e a prioridade é identificar e tratar o precipitante — infecção, sangramento digestivo, constipação, distúrbio eletrolítico, desidratação, sedativos e lesão renal. O tratamento é lactulose, titulada para duas a três evacuações pastosas por dia, com rifaximina associada na recorrência. A amônia sérica não confirma nem exclui o diagnóstico e não deve guiar a terapia. A restrição proteica prolongada agrava sarcopenia e piora o prognóstico.",
+  "porAlt": [
+   "A amônia sérica não confirma nem exclui encefalopatia hepática e não serve para guiar o tratamento.",
+   "A restrição proteica prolongada agrava a sarcopenia e piora o prognóstico do paciente cirrótico.",
+   "Benzodiazepínico agrava a encefalopatia hepática e deve ser evitado nesses pacientes internados.",
+   "Correta: tratar o fator precipitante e iniciar lactulose, associando rifaximina nos casos recorrentes.",
+   "O transplante é discutido conforme gravidade e critérios, e não indicado por um episódio isolado."
+  ]
+ },
+ {
+  "q": "Mulher de 76 anos internada na enfermaria por fratura vertebral por fragilidade apresenta densitometria com escore T de menos 3,1 no colo femoral, cálcio e função renal normais e vitamina D de 18 ng/mL. Qual é a conduta?",
+  "alts": [
+   "Iniciar bisfosfonato imediatamente sem corrigir a vitamina D, para não retardar o tratamento dela.",
+   "Repor vitamina D e cálcio e iniciar bisfosfonato, associando prevenção de quedas e reabilitação.",
+   "Prescrever apenas cálcio e vitamina D, sem antirreabsortivo, por se tratar de paciente muito idosa.",
+   "Solicitar nova densitometria em dois anos antes de qualquer decisão sobre iniciar o tratamento.",
+   "Indicar apenas reabilitação motora, uma vez que a fratura já ocorreu e o tratamento seria tardio."
+  ],
+  "gab": 1,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Endocrine Society Clinical Practice Guideline — Osteoporosis in Postmenopausal Women, 2019; Sociedade Brasileira de Endocrinologia, diretrizes de osteoporose",
+  "coment": "Fratura por fragilidade define osteoporose estabelecida e indica tratamento antirreabsortivo independentemente do valor da densitometria. Antes de iniciar bisfosfonato, corrige-se a deficiência de vitamina D e garante-se aporte adequado de cálcio, sob risco de hipocalcemia sintomática. O plano inclui ainda prevenção de quedas, revisão de fármacos sedativos e hipotensores, reabilitação, avaliação de causas secundárias de osteoporose e saúde bucal antes de terapias específicas.",
+  "porAlt": [
+   "Iniciar antirreabsortivo com vitamina D deficiente expõe a paciente à hipocalcemia sintomática.",
+   "Correta: repor vitamina D e cálcio, iniciar bisfosfonato e associar prevenção de quedas e reabilitação.",
+   "Cálcio e vitamina D isolados não reduzem de forma suficiente o risco de nova fratura por fragilidade.",
+   "Adiar o tratamento por dois anos deixa a paciente exposta ao risco elevado de nova fratura precoce.",
+   "A fratura prévia é justamente o fator que mais indica tratamento farmacológico para prevenção secundária."
+  ]
+ },
+ {
+  "q": "Paciente de 39 anos internado na enfermaria com diagnóstico recente de infecção pelo HIV, com contagem de linfócitos CD4 de 90 células por milímetro cúbico e sem infecção oportunista ativa. Qual é a conduta em relação à terapia antirretroviral?",
+  "alts": [
+   "Iniciar terapia antirretroviral o mais precocemente possível e manter profilaxias conforme o CD4.",
+   "Adiar a terapia antirretroviral até que o CD4 ultrapasse duzentas células por milímetro cúbico.",
+   "Iniciar apenas as profilaxias para infecções oportunistas, sem terapia antirretroviral por ora.",
+   "Aguardar seis meses de acompanhamento para avaliar a adesão antes de iniciar qualquer esquema.",
+   "Iniciar monoterapia antirretroviral inicial e ampliar o esquema apenas se a carga viral persistir."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, guidelines on advanced HIV disease",
+  "coment": "A recomendação atual é iniciar a terapia antirretroviral para todas as pessoas vivendo com HIV, o mais precocemente possível e independentemente da contagem de CD4, o que reduz morbidade, mortalidade e transmissão. Com CD4 abaixo de 200, associam-se profilaxias — sulfametoxazol-trimetoprima para pneumocistose e, conforme o valor e o quadro, para toxoplasmose e micobactérias —, além do rastreio de tuberculose e de criptococose. Em algumas infecções oportunistas do sistema nervoso, o início é postergado por semanas.",
+  "porAlt": [
+   "Correta: iniciar a terapia antirretroviral precocemente e manter as profilaxias indicadas pelo CD4.",
+   "O critério de contagem de CD4 para iniciar tratamento foi abandonado: trata-se toda pessoa com HIV.",
+   "As profilaxias são necessárias, mas não substituem o tratamento antirretroviral, que é prioritário.",
+   "Adiar por meses para testar adesão contraria a recomendação e expõe o paciente a doença avançada.",
+   "A monoterapia não é utilizada como esquema inicial pelo risco de falha e de resistência viral."
+  ]
+ },
+ {
+  "q": "Homem de 70 anos internado na enfermaria por acidente vascular cerebral isquêmico há dois dias, sem trombólise, encontra-se estável, com déficit motor e sem sangramento. Qual é a conduta preventiva mais adequada?",
+  "alts": [
+   "Iniciar anticoagulação plena para todos os pacientes com acidente vascular cerebral isquêmico.",
+   "Manter apenas medidas mecânicas, sem profilaxia farmacológica, pelo risco de sangramento.",
+   "Iniciar antiagregação e profilaxia farmacológica de tromboembolismo, com mobilização precoce.",
+   "Suspender a antiagregação até que a tomografia de controle seja realizada na alta hospitalar dele.",
+   "Prescrever repouso absoluto no leito por sete dias para reduzir o risco de extensão da isquemia."
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "enf",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019; ASH guidelines for prophylaxis of venous thromboembolism in hospitalized patients, 2018",
+  "coment": "Após acidente vascular cerebral isquêmico sem trombólise, inicia-se antiagregação precoce, e a profilaxia farmacológica de tromboembolismo venoso com heparina de baixo peso molecular é recomendada em pacientes com mobilidade reduzida, uma vez afastada hemorragia. Mobilização precoce, rastreio de disfagia, controle pressórico e glicêmico e investigação etiológica completam o cuidado. Anticoagulação plena não é rotina e depende da etiologia, com atenção ao risco de transformação hemorrágica.",
+  "porAlt": [
+   "A anticoagulação plena de rotina não é indicada e aumenta o risco de transformação hemorrágica.",
+   "As medidas mecânicas isoladas são insuficientes em paciente com mobilidade reduzida e risco alto.",
+   "Correta: antiagregação com profilaxia farmacológica de tromboembolismo e mobilização precoce.",
+   "Não há razão para suspender a antiagregação já indicada em paciente estável e sem sangramento.",
+   "O repouso absoluto prolongado favorece tromboembolismo, pneumonia e declínio funcional acelerado."
+  ]
+ }
+]

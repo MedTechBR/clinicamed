@@ -3,12 +3,12 @@
   "q": "Mulher de 42 anos com poliartrite simétrica de mãos há quatro meses, rigidez matinal de duas horas, fator reumatoide e anti-CCP positivos. Qual é a conduta?",
   "alts": [
    "Prescrever apenas anti-inflamatório não hormonal contínuo e reavaliar somente após doze meses.",
-   "Iniciar metotrexato precocemente, sempre com alvo de remissão e reavaliação a cada três meses.",
    "Iniciar corticoide isolado em dose baixa por tempo indefinido, já sem qualquer droga modificadora.",
+   "Iniciar metotrexato precocemente, sempre com alvo de remissão e reavaliação a cada três meses.",
    "Aguardar surgimento de erosões radiográficas antes de iniciar droga modificadora de doença.",
    "Indicar imunobiológico como primeira linha em todos os pacientes com anticorpo anti-CCP positivo."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -17,8 +17,8 @@
   "coment": "Artrite reumatoide diagnosticada deve receber droga modificadora de doença o mais cedo possível, dentro da janela de oportunidade em que o controle muda a história natural. O metotrexato é a âncora do tratamento, salvo contraindicação, associado a corticoide em ponte por curto período. A estratégia é de tratamento por alvo: reavaliar a cada um a três meses e escalonar até remissão ou baixa atividade. Esperar erosão é esperar dano estrutural já instalado.",
   "porAlt": [
    "O anti-inflamatório alivia sintomas mas não impede a progressão erosiva nem a incapacidade.",
-   "Correta: metotrexato precoce com estratégia de tratamento por alvo e reavaliação sistemática.",
    "O corticoide isolado prolongado traz toxicidade e não substitui a droga modificadora de doença.",
+   "Correta: metotrexato precoce com estratégia de tratamento por alvo e reavaliação sistemática.",
    "Esperar erosões significa aceitar dano estrutural irreversível antes de tratar adequadamente.",
    "O imunobiológico entra após falha do metotrexato, e não como primeira linha universal."
   ]
@@ -28,11 +28,11 @@
   "alts": [
    "Metotrexato em dose alta, já droga de escolha para o acometimento axial dessa espondiloartrite.",
    "Corticoide sistêmico contínuo em dose alta, tratamento de primeira linha da doença axial agora.",
-   "Repouso absoluto no leito por quatro semanas, medida que reduz a inflamação axial e a dor agora.",
    "Anti-inflamatório não hormonal em dose plena associado sempre a programa regular de exercícios.",
+   "Repouso absoluto no leito por quatro semanas, medida que reduz a inflamação axial e a dor agora.",
    "Imunobiológico anti-TNF imediatamente, antes de qualquer tentativa com anti-inflamatório oral."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -42,8 +42,8 @@
   "porAlt": [
    "O metotrexato não tem eficácia no acometimento axial, servindo apenas à artrite periférica.",
    "O corticoide sistêmico contínuo tem eficácia limitada no eixo e traz toxicidade importante.",
-   "O repouso prolongado piora rigidez e perda funcional, ao contrário do exercício regular.",
    "Correta: anti-inflamatório em dose plena com exercício regular é a primeira linha da doença axial.",
+   "O repouso prolongado piora rigidez e perda funcional, ao contrário do exercício regular.",
    "O biológico entra após falha de pelo menos dois anti-inflamatórios usados em dose plena."
   ]
  },
@@ -52,11 +52,11 @@
   "alts": [
    "Iniciar apenas anti-inflamatório e reavaliar a proteinúria em seis meses, sem outra intervenção.",
    "Prescrever corticoide em dose baixa isolado, já suficiente para controlar o acometimento renal.",
-   "Indicar diálise precoce, conduta padrão diante de proteinúria nessa faixa em paciente jovem.",
    "Biópsia renal para classificar a nefrite e sempre iniciar hidroxicloroquina em todos os casos.",
+   "Indicar diálise precoce, conduta padrão diante de proteinúria nessa faixa em paciente jovem.",
    "Solicitar apenas ultrassonografia renal, exame que define a classe histológica da nefrite lúpica."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "dx",
@@ -66,8 +66,8 @@
   "porAlt": [
    "Anti-inflamatório isolado não trata nefrite e o atraso permite perda irreversível de função renal.",
    "O corticoide em dose baixa isolado é insuficiente para induzir remissão de nefrite proliferativa.",
-   "A diálise não é conduta inicial: a proteinúria descrita pede diagnóstico histológico e imunossupressão.",
    "Correta: biópsia renal define a classe e orienta a indução; a hidroxicloroquina é para todos.",
+   "A diálise não é conduta inicial: a proteinúria descrita pede diagnóstico histológico e imunossupressão.",
    "A ultrassonografia avalia tamanho e obstrução, mas não determina a classe histológica da nefrite."
   ]
  },
@@ -75,12 +75,12 @@
   "q": "Homem de 55 anos com monoartrite aguda de primeiro metatarsofalangeano, intensa, com eritema local. Ácido úrico sérico de 5,8 mg/dL. Qual é a conduta?",
   "alts": [
    "Descartar gota pela uricemia normal e investigar apenas causas infecciosas para essa monoartrite já.",
-   "Tratar a crise e não excluir gota, pois a uricemia fica normal em um terço dos ataques agudos.",
    "Iniciar alopurinol em dose alta durante a crise para reduzir rapidamente a inflamação articular.",
+   "Tratar a crise e não excluir gota, pois a uricemia fica normal em um terço dos ataques agudos.",
    "Prescrever apenas repouso e compressa fria, sem qualquer anti-inflamatório ou colchicina oral.",
    "Solicitar radiografia da articulação, exame que confirma o diagnóstico de gota na crise aguda."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "reumato",
   "cenario": "emg",
   "comp": "urg",
@@ -89,8 +89,8 @@
   "coment": "Durante a crise de gota a uricemia pode ser normal ou baixa em até um terço dos casos, de modo que valor normal não exclui o diagnóstico: a dosagem é repetida após duas semanas do episódio. O tratamento da crise usa anti-inflamatório não hormonal, colchicina ou corticoide, com escolha guiada por comorbidades. Alopurinol não é iniciado nem suspenso pela crise em quem já usa; quando iniciado, associa-se profilaxia com colchicina por meses.",
   "porAlt": [
    "Uricemia normal durante o ataque é achado frequente e não permite descartar o diagnóstico de gota.",
-   "Correta: uricemia normal na crise não exclui gota; tratar o ataque e dosar o ácido úrico depois.",
    "Iniciar alopurinol durante a crise pode prolongá-la; a redução abrupta mobiliza cristais articulares.",
+   "Correta: uricemia normal na crise não exclui gota; tratar o ataque e dosar o ácido úrico depois.",
    "Repouso e frio ajudam, mas o controle da crise exige anti-inflamatório, colchicina ou corticoide.",
    "A radiografia costuma ser normal no primeiro ataque e não confirma o diagnóstico nessa fase."
   ]
@@ -146,13 +146,13 @@
  {
   "q": "Mulher de 38 anos com fenômeno de Raynaud, esclerodactilia e dispneia progressiva. Qual exame deve ser solicitado para rastreio da complicação de maior mortalidade?",
   "alts": [
-   "Ecocardiograma com estimativa de pressão pulmonar e sempre tomografia de tórax de alta resolução.",
    "Radiografia simples de tórax isolada, exame suficiente para rastrear a complicação de maior gravidade.",
+   "Ecocardiograma com estimativa de pressão pulmonar e sempre tomografia de tórax de alta resolução.",
    "Espirometria isolada sem difusão, exame que detecta precocemente o acometimento pulmonar difuso.",
    "Cintilografia de perfusão miocárdica, exame indicado para rastrear a principal causa de óbito.",
    "Endoscopia digestiva alta, exame que rastreia a complicação de maior mortalidade nessa doença."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "dx",
@@ -160,8 +160,8 @@
   "base": "EULAR recommendations for the treatment of systemic sclerosis, atualização 2024; ACR/CHEST ILD guideline, 2023",
   "coment": "Na esclerose sistêmica, o pulmão responde pela maior parte da mortalidade, por doença intersticial e por hipertensão arterial pulmonar. O rastreio combina tomografia de alta resolução, prova de função pulmonar com difusão de monóxido de carbono e ecocardiograma anual com estimativa de pressão sistólica de artéria pulmonar; suspeita ecocardiográfica é confirmada por cateterismo direito. Queda isolada da difusão pode ser o primeiro sinal de hipertensão pulmonar.",
   "porAlt": [
-   "Correta: ecocardiograma com estimativa de pressão pulmonar e tomografia de alta resolução do tórax.",
    "A radiografia simples é pouco sensível e perde doença intersticial em fase inicial e tratável.",
+   "Correta: ecocardiograma com estimativa de pressão pulmonar e tomografia de alta resolução do tórax.",
    "A espirometria sem difusão perde justamente o parâmetro mais sensível ao acometimento vascular.",
    "A cintilografia miocárdica não rastreia doença intersticial nem hipertensão arterial pulmonar.",
    "A endoscopia avalia o esôfago, acometido com frequência, mas não a principal causa de óbito."
@@ -220,11 +220,11 @@
   "alts": [
    "Cirrose hepática por acometimento direto do parênquima, complicação mais temida dessa doença.",
    "Estenose mitral reumática, complicação tardia que exige ecocardiograma anual nesses pacientes.",
-   "Linfoma de células B, complicação que exige sempre atenção a aumento persistente de parótida.",
    "Retinopatia proliferativa, complicação ocular específica associada à positividade do anticorpo.",
+   "Linfoma de células B, complicação que exige sempre atenção a aumento persistente de parótida.",
    "Insuficiência adrenal primária, complicação endócrina rastreada anualmente por cortisol basal."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "prev",
@@ -234,8 +234,8 @@
   "porAlt": [
    "O acometimento hepático existe na forma de colangite biliar associada, mas não é a principal preocupação.",
    "Não há relação estabelecida entre a síndrome de Sjögren e valvopatia reumática do coração.",
-   "Correta: linfoma de células B, com aumento persistente de parótida e queda de C4 como alertas.",
    "A retinopatia proliferativa não faz parte do espectro; o olho sofre por ceratoconjuntivite seca.",
+   "Correta: linfoma de células B, com aumento persistente de parótida e queda de C4 como alertas.",
    "A insuficiência adrenal não integra as complicações características desta doença autoimune."
   ]
  }

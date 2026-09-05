@@ -29,10 +29,10 @@
    "Herpes genital primário, tratado com aciclovir por via oral durante sete a dez dias seguidos.",
    "Cancro mole, tratado com azitromicina, dada a característica indolor da úlcera descrita aqui.",
    "Linfogranuloma venéreo, cuja úlcera dolorosa com fístulas é o achado típico dessa apresentação.",
-   "Donovanose, diagnóstico definido pela adenopatia inguinal dolorosa e supurativa apresentada.",
-   "Sífilis primária, tratada com penicilina benzatina em dose única por via intramuscular agora."
+   "Sífilis primária, tratada com penicilina benzatina em dose única por via intramuscular agora.",
+   "Donovanose, diagnóstico definido pela adenopatia inguinal dolorosa e supurativa apresentada."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "dx",
@@ -43,20 +43,20 @@
    "O herpes genital cursa com vesículas agrupadas e úlceras dolorosas, não com lesão única e indolor.",
    "O cancro mole produz úlceras múltiplas e dolorosas, de fundo sujo, ao contrário do descrito no caso.",
    "O linfogranuloma cursa com adenopatia dolorosa que fistuliza, e a lesão inicial costuma passar despercebida.",
-   "A donovanose produz lesão granulomatosa crônica e não a apresentação descrita nesta paciente.",
-   "Correta: úlcera indolor de bordas endurecidas é cancro duro; trata-se com penicilina benzatina em dose única."
+   "Correta: úlcera indolor de bordas endurecidas é cancro duro; trata-se com penicilina benzatina em dose única.",
+   "A donovanose produz lesão granulomatosa crônica e não a apresentação descrita nesta paciente."
   ]
  },
  {
   "q": "Homem de 58 anos, diabético, apresenta dor e edema em pé direito com úlcera plantar profunda e secreção purulenta. Há sinal de exposição óssea ao toque com sonda estéril. Qual é a conduta?",
   "alts": [
-   "Considerar osteomielite, colher cultura profunda e iniciar antimicrobiano com avaliação cirúrgica.",
    "Prescrever antibiótico oral por sete dias sem cultura, medida suficiente para infecção de pele.",
+   "Considerar osteomielite, colher cultura profunda e iniciar antimicrobiano com avaliação cirúrgica.",
    "Solicitar apenas radiografia e liberar, já que ela é sensível para descartar acometimento ósseo.",
    "Realizar curativo diário isolado, sem antimicrobiano, aguardando a cicatrização da lesão plantar.",
    "Indicar amputação imediata do membro, conduta padrão diante de qualquer úlcera com exposição óssea."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -64,8 +64,8 @@
   "base": "Infectious Diseases Society of America, 2023 — diagnosis and treatment of diabetic foot infections",
   "coment": "O teste do toque ósseo positivo em úlcera de pé diabético tem alta probabilidade de osteomielite e muda a conduta: exige cultura profunda ou óssea, evitando o swab superficial que só revela colonização, antimicrobiano guiado pelo agente e avaliação cirúrgica para desbridamento. A radiografia é pouco sensível nas primeiras semanas e um exame normal não afasta o diagnóstico, sendo a ressonância o exame de maior acurácia. Amputação não é conduta automática: muitos casos respondem a desbridamento com antimicrobiano prolongado.",
   "porAlt": [
-   "Correta: toque ósseo positivo sugere osteomielite; colher cultura profunda, tratar e avaliar cirurgia.",
    "Antibiótico oral curto sem cultura subtrata uma infecção profunda e favorece a seleção de resistência.",
+   "Correta: toque ósseo positivo sugere osteomielite; colher cultura profunda, tratar e avaliar cirurgia.",
    "A radiografia é pouco sensível nas primeiras semanas e um exame normal não exclui a osteomielite.",
    "Curativo isolado sem antimicrobiano permite a progressão da infecção óssea e a perda do membro.",
    "A amputação é decisão de exceção; muitos casos respondem a desbridamento com antimicrobiano."
@@ -75,12 +75,12 @@
   "q": "Mulher de 26 anos, gestante de 12 semanas, tem teste rápido reagente para sífilis e VDRL de 1:32. Nunca foi tratada. Qual é a conduta correta?",
   "alts": [
    "Doxiciclina por catorze dias, alternativa preferida à penicilina em gestantes com sífilis latente.",
-   "Penicilina benzatina em três doses semanais, com seguimento sorológico e tratamento do parceiro.",
    "Azitromicina em dose única, esquema aceito para gestantes com sorologia reagente para sífilis.",
    "Aguardar o segundo trimestre para iniciar qualquer tratamento, evitando risco fetal no período atual.",
+   "Penicilina benzatina em três doses semanais, com seguimento sorológico e tratamento do parceiro.",
    "Repetir a sorologia em três meses antes de tratar, para confirmar se há infecção realmente ativa."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -89,22 +89,22 @@
   "coment": "Na gestação, o único tratamento que trata adequadamente o feto é a penicilina benzatina, e gestante com sífilis de duração indeterminada ou latente tardia recebe três doses de 2,4 milhões de unidades com intervalo semanal. Doxiciclina é contraindicada na gestação e a azitromicina não é aceita pelo risco de resistência e por não tratar o feto. Gestante alérgica deve ser dessensibilizada, e não substituída por outra droga. O seguimento é sorológico mensal e o tratamento das parcerias é parte da conduta.",
   "porAlt": [
    "A doxiciclina é contraindicada na gestação por efeitos sobre ossos e dentes fetais.",
-   "Correta: penicilina benzatina em três doses semanais, com seguimento sorológico e tratamento das parcerias.",
    "A azitromicina não trata o feto adequadamente e há relatos de resistência do treponema à droga.",
    "Adiar o tratamento aumenta o risco de sífilis congênita, que é evitável com tratamento oportuno.",
+   "Correta: penicilina benzatina em três doses semanais, com seguimento sorológico e tratamento das parcerias.",
    "Repetir a sorologia antes de tratar retarda a proteção fetal em uma infecção já documentada."
   ]
  },
  {
   "q": "Homem de 40 anos chega com febre alta, cefaleia intensa, mialgia e sufusão conjuntival, com história de contato com água de enchente há uma semana. Apresenta icterícia rubínica e creatinina de 3,2 mg/dL. Qual é a hipótese principal?",
   "alts": [
+   "Leptospirose na forma grave, com a tríade de icterícia, injúria renal e sufusão conjuntival.",
    "Hepatite A aguda, cuja apresentação clássica inclui sufusão conjuntival e injúria renal aguda.",
    "Dengue com sinais de alarme, hipótese sustentada pela icterícia rubínica descrita no exame.",
    "Malária por Plasmodium vivax, causa mais provável diante do contato com água contaminada.",
-   "Leptospirose na forma grave, com a tríade de icterícia, injúria renal e sufusão conjuntival.",
    "Febre tifoide não complicada, que cursa tipicamente com icterícia intensa e falência renal."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "dx",
@@ -112,10 +112,10 @@
   "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de leptospirose",
   "coment": "A síndrome de Weil reúne icterícia rubínica, injúria renal aguda e fenômenos hemorrágicos, e a sufusão conjuntival é um achado bastante sugestivo de leptospirose. O contexto epidemiológico de contato com água de enchente ou esgoto reforça o diagnóstico. O tratamento é antimicrobiano — penicilina ou ceftriaxona nos casos graves, doxiciclina nos leves — associado a suporte, com atenção especial à injúria renal, que costuma ser não oligúrica e hipocalêmica, e à hemorragia pulmonar, principal causa de morte.",
   "porAlt": [
+   "Correta: icterícia rubínica, injúria renal e sufusão conjuntival com exposição a enchente definem leptospirose grave.",
    "A hepatite A cursa com icterícia, mas não com sufusão conjuntival nem com injúria renal desse padrão.",
    "A dengue não causa icterícia rubínica, e o quadro descrito tem exposição epidemiológica característica.",
    "A malária exige exposição em área endêmica com vetor, e não contato com água de enchente urbana.",
-   "Correta: icterícia rubínica, injúria renal e sufusão conjuntival com exposição a enchente definem leptospirose grave.",
    "A febre tifoide cursa com febre prolongada e sintomas digestivos, sem icterícia rubínica típica."
   ]
  },
@@ -123,12 +123,12 @@
   "q": "Mulher de 62 anos internada há oito dias em uso de ceftriaxona evolui com diarreia aquosa volumosa, dor abdominal e leucocitose de 22.000/mm³. Qual é a principal hipótese e o exame indicado?",
   "alts": [
    "Gastroenterite viral hospitalar, cujo diagnóstico se faz por coprocultura para bactérias entéricas.",
-   "Infecção por Clostridioides difficile, investigada por pesquisa de toxina ou teste molecular nas fezes.",
    "Colite isquêmica aguda, confirmada por pesquisa de sangue oculto nas fezes durante a internação neste caso.",
+   "Infecção por Clostridioides difficile, investigada por pesquisa de toxina ou teste molecular nas fezes.",
    "Intolerância à lactose adquirida, diagnosticada por teste de tolerância oral realizado no leito neste caso.",
    "Síndrome do intestino irritável, hipótese preferida diante de diarreia aquosa em pacientes internados."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
@@ -137,8 +137,8 @@
   "coment": "Diarreia que surge durante ou após antimicrobiano, em paciente internado, com dor abdominal e leucocitose, deve levantar a suspeita de infecção por Clostridioides difficile. O diagnóstico se faz por pesquisa de toxina associada a antígeno ou por teste molecular nas fezes, sempre em amostra diarreica — testar fezes formadas detecta colonização e leva a tratamento desnecessário. O tratamento de primeira linha passou a ser fidaxomicina ou vancomicina por via oral; o metronidazol ficou como alternativa quando as outras não estão disponíveis.",
   "porAlt": [
    "A gastroenterite viral não explica leucocitose acentuada nem a associação temporal com o antimicrobiano.",
-   "Correta: diarreia associada a antimicrobiano em internado sugere Clostridioides difficile, investigado nas fezes.",
    "A colite isquêmica cursa com dor desproporcional e sangramento, em perfil de paciente diferente.",
+   "Correta: diarreia associada a antimicrobiano em internado sugere Clostridioides difficile, investigado nas fezes.",
    "A intolerância à lactose não causa leucocitose de 22.000 nem surge de forma aguda na internação.",
    "A síndrome do intestino irritável é diagnóstico de exclusão ambulatorial, sem leucocitose associada."
   ]
@@ -146,13 +146,13 @@
  {
   "q": "Homem de 55 anos com cirrose apresenta febre e piora do estado geral. As hemoculturas crescem Staphylococcus aureus resistente à oxacilina. Qual é o antimicrobiano de escolha?",
   "alts": [
-   "Vancomicina endovenosa, com ajuste de dose por nível sérico e controle da função renal do paciente.",
    "Oxacilina endovenosa em dose plena, ainda a escolha para qualquer infecção por Staphylococcus aureus.",
    "Ceftriaxona endovenosa isolada, que cobre adequadamente cepas resistentes à oxacilina no sangue.",
+   "Vancomicina endovenosa, com ajuste de dose por nível sérico e controle da função renal do paciente.",
    "Azitromicina por via oral, opção preferida por sua excelente penetração em tecidos profundos neste caso.",
    "Fluconazol endovenoso, indicado nas bacteriemias por cocos gram-positivos resistentes à oxacilina."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
@@ -160,9 +160,9 @@
   "base": "Infectious Diseases Society of America — guidelines for the treatment of methicillin-resistant Staphylococcus aureus infections, 2011, atualizadas",
   "coment": "A resistência à oxacilina define o Staphylococcus aureus resistente à meticilina, contra o qual todos os betalactâmicos tradicionais são ineficazes, incluindo oxacilina e cefalosporinas de primeira a terceira geração. A escolha é vancomicina endovenosa com monitorização de nível sérico e de função renal, tendo daptomicina e linezolida como alternativas conforme o sítio. Bacteriemia por Staphylococcus aureus exige ainda busca de foco endovascular, ecocardiograma, retirada de cateteres e hemoculturas de controle.",
   "porAlt": [
-   "Correta: cepa resistente à oxacilina exige vancomicina, com controle de nível sérico e função renal.",
    "A resistência à oxacilina implica ineficácia de todos os betalactâmicos tradicionais contra a cepa.",
    "A ceftriaxona não cobre cepas resistentes à meticilina e levaria a falha terapêutica no paciente.",
+   "Correta: cepa resistente à oxacilina exige vancomicina, com controle de nível sérico e função renal.",
    "A azitromicina não tem atividade confiável contra essa cepa e não trata bacteriemia estafilocócica.",
    "O fluconazol é antifúngico e não tem qualquer atividade sobre bactérias gram-positivas."
   ]
@@ -172,11 +172,11 @@
   "alts": [
    "Tratar como cistite não complicada com nitrofurantoína por cinco dias em regime totalmente domiciliar.",
    "Solicitar tomografia de vias urinárias antes de iniciar qualquer antimicrobiano nesta paciente jovem.",
-   "Prescrever apenas analgésico e hidratação, reavaliando em setenta e duas horas no ambulatório neste caso.",
    "Tratar como pielonefrite aguda com antimicrobiano após colher urocultura, avaliando via de administração.",
+   "Prescrever apenas analgésico e hidratação, reavaliando em setenta e duas horas no ambulatório neste caso.",
    "Iniciar antifúngico empírico, cobertura preferida na infecção urinária alta em mulheres jovens neste caso."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "tto",
@@ -186,8 +186,8 @@
   "porAlt": [
    "A nitrofurantoína não atinge concentração renal adequada e é inadequada para infecção do trato alto.",
    "A imagem se reserva a falha terapêutica, suspeita de obstrução ou complicação, e não ao caso inicial.",
-   "Analgésico isolado não trata a infecção e permite a progressão para sepse de foco urinário.",
    "Correta: pielonefrite exige urocultura e antimicrobiano, com a via definida pela gravidade e pela tolerância.",
+   "Analgésico isolado não trata a infecção e permite a progressão para sepse de foco urinário.",
    "Antifúngico não é cobertura empírica na infecção urinária alta de mulher jovem sem fator de risco."
   ]
  },
@@ -221,10 +221,10 @@
    "Vacinar no dia da partida, já que a proteção se estabelece nas primeiras vinte e quatro horas.",
    "Contraindicar a vacina e orientar apenas o uso de repelente durante toda a permanência local.",
    "Prescrever quimioprofilaxia com antimalárico, que também protege contra o vírus da febre amarela.",
-   "Vacinar apenas se ela apresentar sintomas compatíveis durante a estadia na região endêmica.",
-   "Vacinar pelo menos dez dias antes da viagem, prazo necessário para a resposta imune adequada."
+   "Vacinar pelo menos dez dias antes da viagem, prazo necessário para a resposta imune adequada.",
+   "Vacinar apenas se ela apresentar sintomas compatíveis durante a estadia na região endêmica."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "prev",
@@ -235,8 +235,8 @@
    "A imunidade não se estabelece em vinte e quatro horas: leva cerca de dez dias para ser protetora.",
    "Não há contraindicação nesta paciente saudável e não gestante; o repelente é medida complementar.",
    "O antimalárico não protege contra febre amarela, que é doença viral prevenida por vacina.",
-   "Vacinar após o início dos sintomas não protege e a vacina não tem papel terapêutico na doença.",
-   "Correta: a vacinação deve ocorrer com pelo menos dez dias de antecedência para haver proteção."
+   "Correta: a vacinação deve ocorrer com pelo menos dez dias de antecedência para haver proteção.",
+   "Vacinar após o início dos sintomas não protege e a vacina não tem papel terapêutico na doença."
   ]
  }
 ]

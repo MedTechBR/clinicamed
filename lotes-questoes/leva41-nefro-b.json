@@ -2,13 +2,13 @@
  {
   "q": "Homem de 55 anos, diabético há quinze anos, tem relação albumina-creatinina de 45 mg/g em duas amostras e taxa de filtração glomerular de 78 mL/min/1,73 m². Qual é a conduta?",
   "alts": [
-   "Iniciar sempre bloqueio do sistema renina-angiotensina e inibidor de SGLT2, com controle pressórico.",
    "Apenas repetir o exame em cinco anos, já que a filtração glomerular ainda está acima de setenta.",
    "Restringir proteína a 0,3 g/kg/dia, medida isolada capaz de reverter completamente a albuminúria.",
    "Iniciar diálise preventiva, indicada em todo diabético com albuminúria persistente documentada.",
+   "Iniciar sempre bloqueio do sistema renina-angiotensina e inibidor de SGLT2, com controle pressórico.",
    "Suspender a metformina imediatamente, contraindicada em qualquer grau de albuminúria detectada."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "prev",
@@ -16,10 +16,10 @@
   "base": "KDIGO 2024 — Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
   "coment": "Albuminúria persistente de 30 a 300 mg/g define doença renal do diabetes em fase inicial, mesmo com filtração preservada, e marca risco cardiovascular e renal aumentado. A conduta é bloqueio do sistema renina-angiotensina em dose máxima tolerada, inibidor de SGLT2, controle pressórico com meta abaixo de 130/80 e controle glicêmico e lipídico. A metformina é mantida até filtração de 30 mL/min, com ajuste abaixo de 45.",
   "porAlt": [
-   "Correta: albuminúria persistente indica bloqueio do sistema, inibidor de SGLT2 e controle pressórico.",
    "Repetir em cinco anos ignora um marcador precoce de dano renal e cardiovascular já estabelecido.",
    "Restrição proteica extrema causa desnutrição e não reverte sozinha a albuminúria do diabetes.",
    "A diálise depende de sintomas urêmicos e distúrbios refratários, não de albuminúria isolada.",
+   "Correta: albuminúria persistente indica bloqueio do sistema, inibidor de SGLT2 e controle pressórico.",
    "A metformina é mantida até filtração de 30 mL/min, com ajuste de dose abaixo de 45 mL/min."
   ]
  },
@@ -27,12 +27,12 @@
   "q": "Mulher de 30 anos tem edema, hipertensão, hematúria com dismorfismo eritrocitário e cilindros hemáticos, creatinina de 2,1 mg/dL e proteinúria de 1,8 g. Qual é a síndrome e a conduta?",
   "alts": [
    "Síndrome nefrótica pura, cuja conduta se limita a diurético e restrição de sódio na dieta.",
+   "Síndrome nefrítica, com biópsia renal e investigação de causa imunológica ou infecciosa.",
    "Injúria pré-renal simples, que se resolve apenas com expansão volêmica endovenosa rápida.",
    "Infecção urinária alta, sugerida pela hematúria com cilindros hemáticos no exame de urina.",
-   "Nefrolitíase obstrutiva, definida pela associação de hematúria com elevação da creatinina.",
-   "Síndrome nefrítica, com biópsia renal e investigação de causa imunológica ou infecciosa."
+   "Nefrolitíase obstrutiva, definida pela associação de hematúria com elevação da creatinina."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "dx",
@@ -41,10 +41,10 @@
   "coment": "A tríade de hematúria dismórfica com cilindros hemáticos, hipertensão e queda da filtração define síndrome nefrítica, que indica glomerulonefrite. A investigação inclui complemento, autoanticorpos, sorologias virais, pesquisa de anticorpo anticitoplasma de neutrófilo e anti-membrana basal, além de biópsia renal para definir o padrão histológico, que orienta a imunossupressão. O cilindro hemático é praticamente patognomônico de origem glomerular.",
   "porAlt": [
    "A síndrome nefrótica cursa com proteinúria acima de 3,5 g e sem hematúria dismórfica proeminente.",
+   "Correta: hematúria dismórfica com cilindros hemáticos e hipertensão define síndrome nefrítica e indica biópsia.",
    "A injúria pré-renal não cursa com cilindros hemáticos nem com hematúria dismórfica no sedimento.",
    "A infecção urinária cursa com leucocitúria e bacteriúria, sem cilindros hemáticos característicos.",
-   "A nefrolitíase causa hematúria isomórfica com dor em cólica, sem cilindros hemáticos no exame.",
-   "Correta: hematúria dismórfica com cilindros hemáticos e hipertensão define síndrome nefrítica e indica biópsia."
+   "A nefrolitíase causa hematúria isomórfica com dor em cólica, sem cilindros hemáticos no exame."
   ]
  },
  {
@@ -52,11 +52,11 @@
   "alts": [
    "Necrose tubular aguda isquêmica, definida pela presença de eosinofilúria no sedimento urinário.",
    "Glomerulonefrite rapidamente progressiva, sugerida pelos cilindros leucocitários encontrados.",
-   "Nefrite intersticial aguda medicamentosa, com suspensão da droga suspeita e suporte clínico.",
    "Obstrução urinária baixa, cuja marca no sedimento é justamente a presença de eosinófilos.",
+   "Nefrite intersticial aguda medicamentosa, com suspensão da droga suspeita e suporte clínico.",
    "Síndrome hepatorrenal, hipótese principal em paciente internado com piora rápida da creatinina."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "dx",
@@ -66,21 +66,21 @@
   "porAlt": [
    "A necrose tubular cursa com cilindros granulosos pigmentados, e não com eosinofilúria e leucocitúria.",
    "A glomerulonefrite rapidamente progressiva cursa com cilindros hemáticos e hematúria dismórfica.",
-   "Correta: injúria renal com leucocitúria estéril e cilindros leucocitários após antimicrobiano sugere nefrite intersticial.",
    "A obstrução urinária cursa com sedimento pobre e é diagnosticada por imagem, não por eosinofilúria.",
+   "Correta: injúria renal com leucocitúria estéril e cilindros leucocitários após antimicrobiano sugere nefrite intersticial.",
    "A síndrome hepatorrenal exige cirrose com ascite, contexto ausente na descrição deste paciente."
   ]
  },
  {
   "q": "Mulher de 45 anos em hemodiálise há três anos apresenta fósforo de 7,2 mg/dL, cálcio de 8,4 mg/dL e paratormônio de 890 pg/mL. Qual é a conduta prioritária?",
   "alts": [
+   "Controlar sempre o fósforo com dieta e quelante, tratando o hiperparatireoidismo secundário.",
    "Suspender toda a reposição de cálcio e vitamina D, medida isolada suficiente para o controle.",
    "Indicar paratireoidectomia total imediata, sem qualquer tentativa de tratamento clínico prévio.",
    "Aumentar a ingestão de fósforo na dieta, corrigindo o balanço mineral desses pacientes dialíticos.",
-   "Controlar sempre o fósforo com dieta e quelante, tratando o hiperparatireoidismo secundário.",
    "Iniciar bisfosfonato endovenoso, tratamento de escolha do hiperparatireoidismo secundário renal."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "tto",
@@ -88,23 +88,23 @@
   "base": "KDIGO 2017 — Clinical Practice Guideline Update for CKD-MBD; KDIGO 2024",
   "coment": "O distúrbio mineral e ósseo da doença renal crônica exige controle do fósforo em primeiro lugar: restrição dietética orientada, quelantes de fósforo com as refeições e adequação da diálise. O hiperparatireoidismo secundário é tratado com calcitriol ou análogos da vitamina D e calcimiméticos, monitorando cálcio e fósforo. A paratireoidectomia fica para doença refratária ao tratamento clínico. Bisfosfonato tem uso restrito na doença renal avançada.",
   "porAlt": [
+   "Correta: controlar fósforo com dieta e quelante é prioridade, tratando o hiperparatireoidismo secundário.",
    "Suspender vitamina D isoladamente não controla o fósforo nem o paratormônio muito elevado.",
    "A paratireoidectomia é indicada na refratariedade ao tratamento clínico, e não de primeira intenção.",
    "Aumentar fósforo agravaria o quadro; a restrição dietética é parte central do tratamento.",
-   "Correta: controlar fósforo com dieta e quelante é prioridade, tratando o hiperparatireoidismo secundário.",
    "O bisfosfonato tem uso restrito na doença renal avançada e não trata hiperparatireoidismo secundário."
   ]
  },
  {
   "q": "Homem de 72 anos apresenta anúria súbita, dor lombar bilateral e creatinina de 4,8 mg/dL. Tem hiperplasia prostática conhecida. Qual é o primeiro exame e a conduta?",
   "alts": [
-   "Ultrassonografia de vias urinárias, sempre com desobstrução imediata se houver hidronefrose.",
    "Biópsia renal de urgência, exame inicial de escolha diante de anúria com elevação da creatinina.",
    "Iniciar diálise imediata antes de qualquer exame de imagem das vias urinárias deste paciente.",
    "Prescrever apenas diurético de alça em dose alta, para restabelecer o fluxo urinário do paciente.",
+   "Ultrassonografia de vias urinárias, sempre com desobstrução imediata se houver hidronefrose.",
    "Solicitar somente urocultura e aguardar o resultado antes de qualquer conduta terapêutica agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "emg",
   "comp": "urg",
@@ -112,10 +112,10 @@
   "base": "KDIGO 2012 — Acute Kidney Injury; Harrison's, 22ª edição, 2025 — injúria renal pós-renal",
   "coment": "Anúria súbita em homem idoso com hiperplasia prostática sugere injúria renal pós-renal por obstrução. A ultrassonografia de vias urinárias é o exame inicial, rápido e sem contraste, mostrando hidronefrose e bexiga distendida. A conduta é desobstruir de imediato — sondagem vesical ou nefrostomia conforme o nível —, o que costuma reverter a injúria. Atenção à poliúria pós-desobstrução, que exige reposição cuidadosa de volume e eletrólitos.",
   "porAlt": [
-   "Correta: a ultrassonografia identifica a obstrução e a desobstrução imediata reverte a injúria renal.",
    "A biópsia renal não tem papel na investigação inicial de anúria com suspeita de obstrução urinária.",
    "A diálise pode ser necessária, mas desobstruir é o que resolve a causa e costuma dispensar a diálise.",
    "O diurético não vence uma obstrução mecânica e agrava a lesão ao aumentar a pressão retrógrada.",
+   "Correta: a ultrassonografia identifica a obstrução e a desobstrução imediata reverte a injúria renal.",
    "Aguardar urocultura mantém a obstrução e a lesão renal progride a cada hora sem desobstrução."
   ]
  },
@@ -147,12 +147,12 @@
   "q": "Homem de 60 anos com doença renal crônica estágio 4 apresenta hemoglobina de 8,9 g/dL, ferritina de 60 ng/mL e saturação de transferrina de 15%. Qual é a conduta inicial?",
   "alts": [
    "Iniciar eritropoetina de imediato, sem avaliar ou corrigir o estado de ferro previamente.",
-   "Repor sempre o ferro antes de considerar o agente estimulador da eritropoese neste paciente.",
    "Transfundir concentrado de hemácias de rotina, corrigindo a anemia da doença renal crônica.",
    "Prescrever apenas vitamina B12 e ácido fólico, suficientes para corrigir a anemia renal instalada.",
+   "Repor sempre o ferro antes de considerar o agente estimulador da eritropoese neste paciente.",
    "Iniciar diálise de urgência, indicada em toda anemia associada à doença renal crônica avançada."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "tto",
@@ -161,22 +161,22 @@
   "coment": "Na anemia da doença renal crônica, o primeiro passo é avaliar e corrigir o estado de ferro: saturação de transferrina abaixo de 30% com ferritina abaixo de 500 ng/mL indica reposição, preferencialmente endovenosa nos pacientes em diálise. Só depois se considera agente estimulador da eritropoese, com alvo de hemoglobina que evite tanto a anemia sintomática quanto valores altos, associados a eventos cardiovasculares. Transfusão é reservada a sintomas ou instabilidade.",
   "porAlt": [
    "Iniciar eritropoetina sem ferro adequado leva a resposta inadequada e desperdício de tratamento.",
-   "Correta: corrigir o ferro precede o agente estimulador da eritropoese na anemia da doença renal.",
    "A transfusão de rotina expõe a aloimunização, prejudicando futuro transplante, e não trata a causa.",
    "Vitamina B12 e folato só corrigem anemia quando há carência específica, o que não é o caso aqui.",
+   "Correta: corrigir o ferro precede o agente estimulador da eritropoese na anemia da doença renal.",
    "A diálise não é indicada por anemia isolada, e sim por sintomas urêmicos e distúrbios refratários."
   ]
  },
  {
   "q": "Mulher de 38 anos apresenta cólica renal com hematúria e a tomografia mostra cálculo ureteral de 4 mm no terço distal, sem sinais de infecção nem de injúria renal. Qual é a conduta?",
   "alts": [
-   "Analgesia com anti-inflamatório e terapia expulsiva, aguardando a eliminação espontânea do cálculo.",
    "Indicar litotripsia extracorpórea imediata, tratamento padrão para todo cálculo ureteral detectado.",
    "Indicar nefrostomia percutânea de urgência, mesmo sem infecção ou obstrução com repercussão agora.",
    "Prescrever antibiótico por dez dias, medida capaz de dissolver o cálculo e aliviar a cólica renal.",
-   "Restringir totalmente a ingestão de líquidos, reduzindo a pressão sobre a via urinária obstruída."
+   "Restringir totalmente a ingestão de líquidos, reduzindo a pressão sobre a via urinária obstruída.",
+   "Analgesia com anti-inflamatório e terapia expulsiva, aguardando a eliminação espontânea do cálculo."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "nefro",
   "cenario": "emg",
   "comp": "tto",
@@ -184,23 +184,23 @@
   "base": "European Association of Urology, 2023 — Urolithiasis Guidelines; Harrison's, 22ª ed., 2025",
   "coment": "Cálculos ureterais menores que 5 a 6 mm têm alta chance de eliminação espontânea e são manejados clinicamente: analgesia com anti-inflamatório não esteroidal, que é superior ao opioide na cólica renal, hidratação adequada e terapia médica expulsiva com bloqueador alfa em cálculos distais. Intervenção urgente é indicada diante de infecção associada, rim único, injúria renal, dor refratária ou obstrução bilateral — situações ausentes neste caso.",
   "porAlt": [
-   "Correta: cálculo pequeno e sem complicação é manejado com analgesia e terapia expulsiva.",
    "A litotripsia é indicada em cálculos maiores ou refratários, e não em todo cálculo ureteral.",
    "A nefrostomia é reservada a obstrução com infecção ou injúria renal, ausentes neste caso.",
    "Antibiótico não dissolve cálculo e só é indicado quando há infecção urinária associada.",
-   "Restringir líquidos piora a função renal e não alivia a cólica; a hidratação adequada é indicada."
+   "Restringir líquidos piora a função renal e não alivia a cólica; a hidratação adequada é indicada.",
+   "Correta: cálculo pequeno e sem complicação é manejado com analgesia e terapia expulsiva."
   ]
  },
  {
   "q": "Homem de 50 anos assintomático tem hematúria microscópica isolada em três exames, sem proteinúria, com função renal normal e sem dismorfismo eritrocitário. É tabagista. Qual é a conduta?",
   "alts": [
-   "Investigar sempre o trato urinário com imagem e cistoscopia, pelo risco de neoplasia urotelial.",
    "Repetir apenas o exame de urina em dois anos, sem qualquer investigação adicional necessária.",
+   "Investigar sempre o trato urinário com imagem e cistoscopia, pelo risco de neoplasia urotelial.",
    "Iniciar corticoide empírico, presumindo glomerulonefrite como causa da hematúria persistente.",
    "Realizar biópsia renal imediata, exame de escolha na hematúria isolada sem proteinúria associada.",
    "Tranquilizar o paciente, já que hematúria microscópica em tabagistas nunca tem causa maligna."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
@@ -208,8 +208,8 @@
   "base": "American Urological Association, 2020 — Microhematuria guideline; Harrison's, 22ª ed., 2025",
   "coment": "Hematúria microscópica sem dismorfismo eritrocitário, sem proteinúria e com função renal normal aponta origem urológica, e o tabagismo é fator de risco importante para neoplasia urotelial. A investigação inclui imagem do trato urinário superior — tomografia com fase excretora na maioria dos casos — e cistoscopia, conforme estratificação de risco por idade, sexo, carga tabágica e grau de hematúria. Origem glomerular seria sugerida por dismorfismo, cilindros hemáticos e proteinúria.",
   "porAlt": [
-   "Correta: hematúria sem sinais glomerulares em tabagista exige imagem do trato urinário e cistoscopia.",
    "Repetir o exame em dois anos permitiria a progressão de uma neoplasia urotelial potencialmente curável.",
+   "Correta: hematúria sem sinais glomerulares em tabagista exige imagem do trato urinário e cistoscopia.",
    "Corticoide empírico sem diagnóstico não é conduta aceitável e não trata causa urológica de hematúria.",
    "A biópsia renal se indica quando há suspeita de doença glomerular, ausente neste caso.",
    "O tabagismo aumenta muito o risco de neoplasia urotelial, e tranquilizar sem investigar é erro grave."
@@ -220,11 +220,11 @@
   "alts": [
    "Diabetes insipidus central, definido pela resposta ausente à administração de desmopressina exógena.",
    "Polidipsia psicogênica primária, cujo marco é o sódio sérico elevado com osmolaridade urinária baixa.",
-   "Diabetes mellitus descompensado, causa mais provável de poliúria com hipernatremia em adultos agora.",
    "Diabetes insipidus nefrogênico induzido pelo lítio, com resistência renal ao hormônio antidiurético.",
+   "Diabetes mellitus descompensado, causa mais provável de poliúria com hipernatremia em adultos agora.",
    "Síndrome de secreção inapropriada de hormônio antidiurético, que cursa com poliúria e hipernatremia."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
@@ -234,8 +234,8 @@
   "porAlt": [
    "No diabetes insipidus central há resposta à desmopressina, com concentração da urina após a dose.",
    "A polidipsia psicogênica cursa com sódio baixo ou normal, e não com hipernatremia como aqui.",
-   "O diabetes mellitus causa diurese osmótica com glicosúria, e a osmolaridade urinária não seria baixa.",
    "Correta: poliúria hipotônica sem resposta à desmopressina em uso de lítio define diabetes insipidus nefrogênico.",
+   "O diabetes mellitus causa diurese osmótica com glicosúria, e a osmolaridade urinária não seria baixa.",
    "A síndrome de secreção inapropriada cursa com hiponatremia e urina concentrada, o oposto do caso."
   ]
  }

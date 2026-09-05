@@ -5,10 +5,10 @@
    "Iniciar cefalexina por via oral e reavaliar a lesão em quarenta e oito horas de acompanhamento.",
    "Solicitar ressonância magnética do membro antes de qualquer decisão sobre abordagem cirúrgica.",
    "Prescrever corticoide sistêmico para reduzir o edema e a inflamação local antes de outra medida.",
-   "Elevar o membro e aplicar compressas frias, reavaliando a evolução ao longo do próximo plantão.",
-   "Acionar a cirurgia para exploração e desbridamento, junto de antimicrobiano de amplo espectro."
+   "Acionar a cirurgia para exploração e desbridamento, junto de antimicrobiano de amplo espectro.",
+   "Elevar o membro e aplicar compressas frias, reavaliando a evolução ao longo do próximo plantão."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "derma",
   "cenario": "emg",
   "comp": "urg",
@@ -19,20 +19,20 @@
    "Antibiótico oral para celulite não trata infecção necrosante e desperdiça as horas em que o desbridamento ainda mudaria o desfecho.",
    "A ressonância pode auxiliar em casos duvidosos e estáveis, mas aqui atrasaria a cirurgia em paciente já com sinais de choque.",
    "Corticoide não tem papel no tratamento e a imunossupressão adicional pode favorecer a progressão da infecção nos tecidos.",
-   "Medidas locais são conduta de celulite não complicada e deixariam progredir uma necrose que avança em horas pelo plano fascial.",
-   "Correta: fasciíte necrosante é emergência cirúrgica; a exploração precoce com antimicrobiano de amplo espectro é o que reduz mortalidade."
+   "Correta: fasciíte necrosante é emergência cirúrgica; a exploração precoce com antimicrobiano de amplo espectro é o que reduz mortalidade.",
+   "Medidas locais são conduta de celulite não complicada e deixariam progredir uma necrose que avança em horas pelo plano fascial."
   ]
  },
  {
   "q": "Mulher de 41 anos com lúpus é internada por atividade de doença e recebe prednisona em dose alta. No quinto dia surgem lesões cutâneas, e o exame mostra descolamento epidérmico ao atrito lateral, com acometimento de mucosa oral e ocular, após ter iniciado sulfametoxazol-trimetoprima há dez dias. Qual é a conduta prioritária?",
   "alts": [
+   "Suspender de imediato todo fármaco suspeito e transferir para unidade de cuidado especializado.",
    "Manter o antimicrobiano e apenas acrescentar anti-histamínico para o controle sintomático das lesões.",
    "Iniciar imunoglobulina venosa como primeira e única medida, sem alterar o esquema em uso agora.",
    "Aplicar corticoide tópico potente nas lesões e reavaliar a evolução na visita do dia seguinte.",
-   "Suspender de imediato todo fármaco suspeito e transferir para unidade de cuidado especializado.",
    "Aumentar a dose da prednisona e manter todos os fármacos, atribuindo o quadro à atividade do lúpus."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "derma",
   "cenario": "enf",
   "comp": "urg",
@@ -40,23 +40,23 @@
   "base": "Diretrizes de manejo da necrólise epidérmica tóxica — British Association of Dermatologists, 2016",
   "coment": "O sinal de Nikolsky com acometimento de duas ou mais mucosas, surgindo entre uma e três semanas após início de fármaco de alto risco — sulfonamidas, alopurinol, anticonvulsivantes, nevirapina, oxicams —, é síndrome de Stevens-Johnson ou necrólise epidérmica tóxica. A medida isolada com maior impacto na mortalidade é a suspensão imediata do fármaco causador, seguida de cuidado em unidade de queimados ou terapia intensiva, com suporte hidroeletrolítico, controle de dor, cuidado ocular precoce e vigilância de infecção. Atribuir o quadro à doença de base e manter a droga é o erro mais custoso.",
   "porAlt": [
+   "Correta: suspender o fármaco suspeito de imediato e transferir para cuidado especializado é o que mais impacta a mortalidade.",
    "Manter o fármaco causador perpetua a agressão epidérmica, e anti-histamínico não tem qualquer efeito sobre a necrólise em curso.",
    "A imunoglobulina é discutida como adjuvante, mas jamais substitui a suspensão do fármaco e o suporte em unidade especializada.",
    "Corticoide tópico é inócuo diante de descolamento epidérmico extenso, e esperar até o dia seguinte custa área de pele acometida.",
-   "Correta: suspender o fármaco suspeito de imediato e transferir para cuidado especializado é o que mais impacta a mortalidade.",
    "Atribuir ao lúpus e manter todas as drogas é o erro clássico: a cronologia e o sinal de Nikolsky apontam para reação ao fármaco."
   ]
  },
  {
   "q": "Homem de 47 anos, etilista crônico, está internado por pancreatite. Cerca de 60 horas após a última dose de álcool, apresenta tremor, agitação, alucinações visuais, desorientação, taquicardia e febre baixa. Não há sinais de infecção nem alteração tomográfica. Qual é o tratamento de primeira linha?",
   "alts": [
+   "Benzodiazepínico titulado por escala de sintomas, associado à reposição de tiamina parenteral.",
    "Haloperidol em dose alta como droga isolada, por controlar melhor a alucinação visual do quadro.",
    "Reintroduzir bebida alcoólica de forma controlada até que os sintomas de abstinência desapareçam.",
    "Contenção mecânica com observação clínica, evitando qualquer sedação que mascare a evolução.",
-   "Infusão de glicose hipertônica isolada, antes de qualquer outra medida farmacológica no caso.",
-   "Benzodiazepínico titulado por escala de sintomas, associado à reposição de tiamina parenteral."
+   "Infusão de glicose hipertônica isolada, antes de qualquer outra medida farmacológica no caso."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "psiq",
   "cenario": "enf",
   "comp": "urg",
@@ -64,11 +64,11 @@
   "base": "American Society of Addiction Medicine, 2020 — Clinical Practice Guideline on Alcohol Withdrawal Management",
   "coment": "O quadro é delirium tremens: surge entre 48 e 96 horas após a última dose, com alteração do sensório, alucinações, hiperatividade autonômica e febre, e tem mortalidade relevante se não tratado. O tratamento de primeira linha é o benzodiazepínico, titulado por escala de sintomas como a CIWA-Ar, associado à tiamina parenteral antes de qualquer carga de glicose — administrar glicose primeiro em desnutrido pode precipitar encefalopatia de Wernicke. O antipsicótico é adjuvante para alucinação persistente, nunca substituto, porque reduz o limiar convulsivo e não previne convulsão de abstinência.",
   "porAlt": [
+   "Correta: benzodiazepínico titulado por escala somado a tiamina parenteral é o tratamento de primeira linha do delirium tremens.",
    "O haloperidol isolado reduz o limiar convulsivo e não previne a convulsão de abstinência, sendo apenas adjuvante da agitação.",
    "Reintroduzir álcool não é tratamento: não corrige a hiperexcitabilidade e mantém a dependência que motivou o quadro atual.",
    "Contenção sem sedação adequada agrava agitação, rabdomiólise e hipertermia, além de não tratar a hiperatividade autonômica.",
-   "Glicose antes da tiamina em paciente desnutrido pode precipitar encefalopatia de Wernicke, e isolada não trata a abstinência.",
-   "Correta: benzodiazepínico titulado por escala somado a tiamina parenteral é o tratamento de primeira linha do delirium tremens."
+   "Glicose antes da tiamina em paciente desnutrido pode precipitar encefalopatia de Wernicke, e isolada não trata a abstinência."
   ]
  }
 ]

@@ -3,12 +3,12 @@
   "q": "Homem de 58 anos com cirrose compensada por esteatose hepática metabólica tem elastografia hepática de 22 kPa e plaquetas de 118.000/mm³. Está assintomático, sem ascite ou encefalopatia, e a endoscopia recente não mostrou varizes esofágicas. Segundo o consenso vigente de hipertensão portal, qual é a conduta?",
   "alts": [
    "Não tratar e repetir a endoscopia em dois anos, já que sem varizes não há o que prevenir agora.",
+   "Iniciar carvedilol, indicado na hipertensão portal clinicamente significativa mesmo sem varizes.",
    "Indicar ligadura elástica profilática, procedimento que dispensa a terapia farmacológica dele.",
    "Iniciar propranolol quando surgirem varizes de médio calibre na próxima endoscopia de controle.",
-   "Iniciar carvedilol, indicado na hipertensão portal clinicamente significativa mesmo sem varizes.",
    "Solicitar medida direta do gradiente de pressão venosa hepática antes de qualquer intervenção."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
@@ -17,9 +17,9 @@
   "coment": "O consenso de Baveno VII deslocou o alvo do tratamento: deixou de ser a variz e passou a ser a hipertensão portal clinicamente significativa, que a elastografia acima de 20 a 25 kPa com plaquetopenia permite presumir sem medir o gradiente. Nesse cenário indica-se betabloqueador não seletivo para prevenir descompensação — ascite, sangramento, encefalopatia —, com preferência pelo carvedilol na cirrose compensada, por reduzir mais a pressão portal graças ao bloqueio alfa-1 adicional. A conduta antiga, de só tratar quem já tem varizes de médio calibre, perde a janela em que a prevenção rende mais.",
   "porAlt": [
    "Esperar a variz aparecer desperdiça a fase em que o betabloqueador previne ascite e outras descompensações, não apenas o sangramento.",
+   "Correta: elastografia acima de 20 a 25 kPa com plaquetopenia presume hipertensão portal significativa, e o carvedilol previne descompensação.",
    "A ligadura profilática se aplica a varizes de risco já existentes, e este paciente sequer tem varizes na endoscopia recente.",
    "Amarrar o tratamento ao calibre da variz é a lógica anterior ao consenso, que passou a tratar a hipertensão portal em si.",
-   "Correta: elastografia acima de 20 a 25 kPa com plaquetopenia presume hipertensão portal significativa, e o carvedilol previne descompensação.",
    "A medida do gradiente é invasiva e dispensável quando os critérios não invasivos já bastam para presumir o diagnóstico."
   ]
  },
@@ -28,11 +28,11 @@
   "alts": [
    "Somente inibidor de bomba de prótons em dose dobrada, por tempo indefinido após a alta.",
    "Manter só a ligadura elástica, sem betabloqueador, preservando a perfusão hepática.",
-   "Betabloqueador não seletivo somado à ligadura seriada até erradicar todas as varizes.",
    "Anastomose portossistêmica intra-hepática eletiva logo após o primeiro sangramento.",
+   "Betabloqueador não seletivo somado à ligadura seriada até erradicar todas as varizes.",
    "Betabloqueador isolado, dispensando quaisquer novas sessões endoscópicas adiante."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
@@ -42,8 +42,8 @@
   "porAlt": [
    "O inibidor de bomba não previne ressangramento varicoso; seu papel se restringe à úlcera pós-ligadura e por período curto.",
    "A ligadura isolada é inferior à combinação, porque não reduz a pressão portal que gera as varizes que voltarão a se formar.",
-   "Correta: a primeira linha é a combinação de betabloqueador não seletivo com ligadura elástica seriada até erradicar as varizes.",
    "A derivação eletiva não é conduta universal após o primeiro episódio: fica para falha da profilaxia ou critérios de alto risco.",
+   "Correta: a primeira linha é a combinação de betabloqueador não seletivo com ligadura elástica seriada até erradicar as varizes.",
    "O betabloqueador isolado deixa de erradicar as varizes existentes e é inferior à combinação na prevenção de novo sangramento."
   ]
  },

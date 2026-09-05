@@ -5,10 +5,10 @@
    "Encaminhar direto para coronariografia invasiva, exame inicial de escolha na angina estável.",
    "Prescrever apenas analgésico e reavaliar em seis meses, dado o eletrocardiograma normal.",
    "Solicitar apenas troponina seriada ambulatorial para excluir doença coronária obstrutiva.",
-   "Indicar cirurgia de revascularização empírica, pela duração dos sintomas relatados por ele.",
-   "Iniciar antiagregante e estatina e solicitar teste não invasivo para isquemia miocárdica."
+   "Iniciar antiagregante e estatina e solicitar teste não invasivo para isquemia miocárdica.",
+   "Indicar cirurgia de revascularização empírica, pela duração dos sintomas relatados por ele."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -19,20 +19,20 @@
    "A coronariografia é reservada a alto risco ou sintomas refratários, não como primeiro exame de todos.",
    "Analgésico não trata isquemia e adiar seis meses expõe o paciente a evento coronário evitável.",
    "Troponina ambulatorial não rastreia doença coronária estável e um valor normal não exclui obstrução.",
-   "Indicar cirurgia sem definir anatomia coronária é conduta sem qualquer respaldo em diretriz atual.",
-   "Correta: antiagregante e estatina com teste não invasivo compõem a abordagem inicial da angina estável."
+   "Correta: antiagregante e estatina com teste não invasivo compõem a abordagem inicial da angina estável.",
+   "Indicar cirurgia sem definir anatomia coronária é conduta sem qualquer respaldo em diretriz atual."
   ]
  },
  {
   "q": "Mulher de 45 anos tem sopro sistólico em foco mitral com irradiação para axila, associado a dispneia progressiva. O ecocardiograma mostra insuficiência mitral grave com fração de ejeção de 58% e diâmetro sistólico final de 42 mm. Qual é a conduta?",
   "alts": [
+   "Encaminhar para correção cirúrgica ou percutânea da valva, pela gravidade com sintomas presentes.",
    "Manter apenas seguimento clínico anual, já que a fração de ejeção permanece acima de cinquenta.",
    "Iniciar betabloqueador isolado, tratamento definitivo da insuficiência mitral grave sintomática.",
-   "Encaminhar para correção cirúrgica ou percutânea da valva, pela gravidade com sintomas presentes.",
    "Prescrever diurético contínuo e considerar cirurgia somente se a fração cair abaixo de trinta.",
    "Indicar profilaxia antibiótica contínua como única medida necessária para essa paciente agora."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -40,9 +40,9 @@
   "base": "ESC/EACTS 2021 — Guidelines for the management of valvular heart disease",
   "coment": "Insuficiência mitral primária grave com sintomas tem indicação de correção da valva, cirúrgica ou percutânea conforme anatomia e risco, independentemente de a fração de ejeção estar preservada. Em pacientes assintomáticos, a indicação surge com disfunção ventricular (fração igual ou menor que 60% ou diâmetro sistólico final igual ou maior que 40 mm), fibrilação atrial nova ou hipertensão pulmonar. Esperar a fração cair muito é perder a janela: a disfunção na sobrecarga de volume aparece tarde e nem sempre reverte.",
   "porAlt": [
+   "Correta: insuficiência mitral grave com sintomas indica correção da valva, mesmo com fração preservada.",
    "Fração acima de cinquenta não afasta indicação quando há sintoma; o diâmetro sistólico já é limítrofe.",
    "O betabloqueador alivia sintoma mas não corrige a regurgitação nem altera a história natural.",
-   "Correta: insuficiência mitral grave com sintomas indica correção da valva, mesmo com fração preservada.",
    "Esperar fração abaixo de trinta significa operar com disfunção instalada e muitas vezes irreversível.",
    "A profilaxia de endocardite tem indicações restritas e não substitui a correção valvar indicada."
   ]
@@ -50,13 +50,13 @@
  {
   "q": "Homem de 38 anos, previamente hígido, chega com dor torácica que piora ao deitar e melhora ao sentar inclinado para frente. Há atrito pericárdico à ausculta e o eletrocardiograma mostra supradesnivelamento de ST difuso com infra de PR. Qual é o tratamento de primeira linha?",
   "alts": [
-   "Anti-inflamatório não esteroidal associado a colchicina, que reduz recorrência do quadro.",
    "Corticoide sistêmico em dose alta como primeira escolha, por acelerar a resolução do quadro.",
    "Antibiótico de amplo espectro empírico, cobrindo etiologia bacteriana da inflamação pericárdica.",
+   "Anti-inflamatório não esteroidal associado a colchicina, que reduz recorrência do quadro.",
    "Trombolítico endovenoso imediato, pelo supradesnivelamento de ST observado no eletrocardiograma.",
    "Anticoagulação plena com heparina, indicada em toda pericardite aguda de causa viral."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "tto",
@@ -64,9 +64,9 @@
   "base": "ESC 2015 — Guidelines for the diagnosis and management of pericardial diseases; Harrison's, 22ª ed., 2025",
   "coment": "O quadro é pericardite aguda, sustentado por dor pleurítica que melhora ao inclinar-se, atrito pericárdico e supradesnivelamento difuso com infradesnivelamento de PR. O tratamento de primeira linha combina anti-inflamatório não esteroidal com colchicina, que reduz de forma consistente a recorrência. O corticoide é reservado a falha, contraindicação ou etiologia específica, porque associa-se a mais recorrência. Trombolítico é formalmente contraindicado e a anticoagulação aumenta risco de transformação hemorrágica do derrame.",
   "porAlt": [
-   "Correta: anti-inflamatório com colchicina é a primeira linha e a colchicina reduz recorrência da pericardite.",
    "O corticoide como primeira escolha associa-se a mais recorrências e fica para falha ou causa específica.",
    "Etiologia bacteriana é rara e o antibiótico empírico não faz parte do tratamento inicial da pericardite.",
+   "Correta: anti-inflamatório com colchicina é a primeira linha e a colchicina reduz recorrência da pericardite.",
    "O trombolítico é contraindicado: o supra difuso com infra de PR não corresponde a oclusão coronária.",
    "A anticoagulação aumenta o risco de derrame hemorrágico e não integra o tratamento da pericardite."
   ]
@@ -77,10 +77,10 @@
    "Digoxina associada a diurético tiazídico, esquema de escolha na fração de ejeção preservada.",
    "Betabloqueador em dose plena isolado, que reduz a mortalidade nesse fenótipo clínico.",
    "Bloqueador de canal de cálcio di-hidropiridínico, quarto pilar do tratamento nesse cenário.",
-   "Antagonista mineralocorticoide associado a inibidor de SGLT2, base atual desse fenótipo.",
-   "Anticoagulação oral plena, recomendada a todos os pacientes com fração preservada e congestão."
+   "Anticoagulação oral plena, recomendada a todos os pacientes com fração preservada e congestão.",
+   "Antagonista mineralocorticoide associado a inibidor de SGLT2, base atual desse fenótipo."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -91,20 +91,20 @@
    "A digoxina não é base na fração preservada e o tiazídico não substitui o diurético de alça na congestão.",
    "O betabloqueador não reduz mortalidade nesse fenótipo e entra apenas por indicação própria.",
    "Não existe quarto pilar com bloqueador de canal de cálcio no tratamento da insuficiência cardíaca.",
-   "Correta: a base na fração preservada é antagonista mineralocorticoide com inibidor de SGLT2.",
-   "A anticoagulação depende de fibrilação atrial ou outra indicação, e não do fenótipo de insuficiência."
+   "A anticoagulação depende de fibrilação atrial ou outra indicação, e não do fenótipo de insuficiência.",
+   "Correta: a base na fração preservada é antagonista mineralocorticoide com inibidor de SGLT2."
   ]
  },
  {
   "q": "Homem de 66 anos, tabagista e diabético, refere claudicação intermitente em panturrilha após duzentos metros de caminhada. Os pulsos pediosos estão reduzidos e o índice tornozelo-braquial é de 0,68. Qual é a conduta inicial?",
   "alts": [
-   "Revascularização cirúrgica imediata, indicada sempre que o índice fica abaixo de 0,7 neste caso.",
    "Cessação do tabagismo, estatina, antiagregante e programa supervisionado de exercício físico.",
+   "Revascularização cirúrgica imediata, indicada sempre que o índice fica abaixo de 0,7 neste caso.",
    "Anticoagulação plena com anticoagulante oral direto, tratamento de escolha na doença arterial.",
    "Repouso absoluto do membro afetado até que os pulsos periféricos retornem à normalidade neste caso.",
    "Antibiótico profilático contínuo, prevenindo infecção secundária à isquemia crônica do membro."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -112,8 +112,8 @@
   "base": "ESC 2024 — Guidelines for peripheral arterial and aortic diseases; Harrison's, 22ª edição, 2025",
   "coment": "Na doença arterial periférica com claudicação, o tratamento inicial é clínico e tem dois objetivos distintos: reduzir eventos cardiovasculares e melhorar a caminhada. O primeiro se alcança com cessação do tabagismo, estatina de alta potência, antiagregante e controle rigoroso de pressão e diabetes. O segundo, com exercício supervisionado, que melhora a distância percorrida de forma comparável à revascularização em muitos pacientes. A revascularização fica para claudicação limitante refratária ao tratamento clínico e para isquemia crítica.",
   "porAlt": [
-   "O índice isolado não indica revascularização: a decisão depende de sintoma limitante ou isquemia crítica.",
    "Correta: cessação do tabagismo, estatina, antiagregante e exercício supervisionado formam a base inicial.",
+   "O índice isolado não indica revascularização: a decisão depende de sintoma limitante ou isquemia crítica.",
    "A anticoagulação não é tratamento da doença arterial periférica estável e acrescenta risco hemorrágico.",
    "O repouso piora o condicionamento; o exercício supervisionado é justamente o que melhora a claudicação.",
    "Não há indicação de antibiótico profilático contínuo na doença arterial periférica sem infecção."
@@ -148,11 +148,11 @@
   "alts": [
    "Manter seguimento ecocardiográfico semestral, adiando intervenção enquanto a fração estiver normal.",
    "Iniciar vasodilatador em dose plena para reduzir a pós-carga e aliviar o gradiente transvalvar.",
-   "Encaminhar para troca valvar aórtica, cirúrgica ou por cateter, pela estenose grave sintomática.",
    "Prescrever betabloqueador isolado como tratamento definitivo da estenose aórtica sintomática.",
-   "Indicar apenas valvoplastia por balão como tratamento definitivo nesse grupo de pacientes idosos."
+   "Indicar apenas valvoplastia por balão como tratamento definitivo nesse grupo de pacientes idosos.",
+   "Encaminhar para troca valvar aórtica, cirúrgica ou por cateter, pela estenose grave sintomática."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -162,9 +162,9 @@
   "porAlt": [
    "Adiar intervenção em estenose grave sintomática desperdiça a janela em que o prognóstico ainda é modificável.",
    "Vasodilatador em obstrução fixa pode causar hipotensão grave, pois o débito não aumenta em compensação.",
-   "Correta: estenose aórtica grave sintomática indica troca valvar, cirúrgica ou por cateter conforme o risco.",
    "O betabloqueador não trata a obstrução valvar e não altera a história natural da estenose aórtica.",
-   "A valvoplastia por balão é medida paliativa ou ponte, sem durabilidade como tratamento definitivo."
+   "A valvoplastia por balão é medida paliativa ou ponte, sem durabilidade como tratamento definitivo.",
+   "Correta: estenose aórtica grave sintomática indica troca valvar, cirúrgica ou por cateter conforme o risco."
   ]
  },
  {
@@ -172,11 +172,11 @@
   "alts": [
    "Administrar trombolítico imediatamente, presumindo infarto agudo com supradesnivelamento de ST.",
    "Iniciar anticoagulação plena empírica antes de qualquer exame de imagem torácica ser realizado.",
-   "Prescrever apenas analgesia e reavaliar em duas horas, dada a ausência de alteração no traçado.",
    "Suspeitar de dissecção de aorta, controlar frequência e pressão e solicitar imagem urgente.",
+   "Prescrever apenas analgesia e reavaliar em duas horas, dada a ausência de alteração no traçado.",
    "Solicitar radiografia de tórax isolada, exame suficiente para confirmar ou excluir a hipótese."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -186,8 +186,8 @@
   "porAlt": [
    "Trombolisar uma dissecção é catastrófico: a diferença de pressão entre os membros já aponta o diagnóstico.",
    "A anticoagulação plena numa dissecção agrava o sangramento e pode ser fatal antes de qualquer imagem.",
-   "Adiar duas horas em dor lancinante com assimetria de pulsos permite a progressão da dissecção.",
    "Correta: suspeitar de dissecção, controlar frequência antes da pressão e confirmar com imagem urgente.",
+   "Adiar duas horas em dor lancinante com assimetria de pulsos permite a progressão da dissecção.",
    "A radiografia pode mostrar alargamento do mediastino, mas um exame normal não exclui a dissecção."
   ]
  },
@@ -220,11 +220,11 @@
   "alts": [
    "Apenas ácido acetilsalicílico isolado e controle pressórico, dispensando as demais classes citadas.",
    "Anticoagulação oral plena substituindo a antiagregação em todos os pacientes após angioplastia.",
-   "Dupla antiagregação, estatina potente, betabloqueador, inibidor do sistema e sempre reabilitação.",
    "Somente estatina em dose baixa, já com meta de LDL definida apenas pelo valor inicial do paciente.",
+   "Dupla antiagregação, estatina potente, betabloqueador, inibidor do sistema e sempre reabilitação.",
    "Repouso absoluto por seis meses, contraindicando qualquer programa de reabilitação cardiovascular."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -234,8 +234,8 @@
   "porAlt": [
    "Antiagregante isolado subtrata: a dupla antiagregação é padrão por pelo menos doze meses nesse cenário.",
    "A anticoagulação só entra por indicação própria, como fibrilação atrial, e não substitui a antiagregação.",
-   "Correta: dupla antiagregação, estatina de alta potência, betabloqueador, bloqueio do sistema e reabilitação.",
    "A estatina é de alta intensidade para todos, independentemente do LDL inicial do paciente.",
+   "Correta: dupla antiagregação, estatina de alta potência, betabloqueador, bloqueio do sistema e reabilitação.",
    "A reabilitação cardíaca é recomendação formal e o repouso prolongado piora o prognóstico funcional."
   ]
  }

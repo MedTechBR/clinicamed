@@ -4,11 +4,11 @@
   "alts": [
    "Ácido acetilsalicílico em dose baixa agora, deixando o anticoagulante para depois do primeiro AVC.",
    "Nenhum antitrombótico neste momento, já que o escore só indica tratamento a partir dos 75 anos.",
-   "Anticoagulação oral plena desde já: todo escore CHA₂DS₂-VA de dois ou mais manda anticoagular.",
    "Anticoagular somente se o ecocardiograma transesofágico revelar trombo no apêndice atrial esquerdo.",
-   "Dupla antiagregação com ácido acetilsalicílico e clopidogrel, que substitui a anticoagulação aqui."
+   "Dupla antiagregação com ácido acetilsalicílico e clopidogrel, que substitui a anticoagulação aqui.",
+   "Anticoagulação oral plena desde já: todo escore CHA₂DS₂-VA de dois ou mais manda anticoagular."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -18,9 +18,9 @@
   "porAlt": [
    "O AAS foi abandonado na profilaxia de embolia da fibrilação atrial — é muito menos eficaz que o anticoagulante e não é opção mais segura.",
    "A idade entre 65 e 74 anos já pontua 1; somada a hipertensão e diabetes, ultrapassa o limiar de 2 pontos. Esperar os 75 anos custa AVC evitável.",
-   "Correta: três pontos no CHA₂DS₂-VA (idade 65–74, hipertensão e diabetes) colocam o paciente na recomendação classe I de anticoagulação oral.",
    "Trombo no apêndice não é pré-requisito para anticoagular: o escore clínico é que define a indicação, e o eco negativo não exclui risco embólico.",
-   "A dupla antiagregação soma sangramento sem oferecer a proteção do anticoagulante; só entra em situações específicas de doença coronária, e por tempo limitado."
+   "A dupla antiagregação soma sangramento sem oferecer a proteção do anticoagulante; só entra em situações específicas de doença coronária, e por tempo limitado.",
+   "Correta: três pontos no CHA₂DS₂-VA (idade 65–74, hipertensão e diabetes) colocam o paciente na recomendação classe I de anticoagulação oral."
   ]
  },
  {
@@ -28,11 +28,11 @@
   "alts": [
    "Aplicar vitamina K endovenosa em dose máxima, que reverte o efeito anticoagulante da rivaroxabana.",
    "Transfundir plaquetas antes de qualquer procedimento, pois o fármaco age inibindo a agregação delas.",
+   "Suspender o anticoagulante e estabilizar a paciente, acionando a endoscopia digestiva alta de urgência.",
    "Manter a anticoagulação sem alteração, já que interrompê-la implica risco proibitivo de AVC agora.",
-   "Solicitar a dosagem do INR e adiar a endoscopia até que o resultado desse exame esteja abaixo de 1,5.",
-   "Suspender o anticoagulante e estabilizar a paciente, acionando a endoscopia digestiva alta de urgência."
+   "Solicitar a dosagem do INR e adiar a endoscopia até que o resultado desse exame esteja abaixo de 1,5."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -42,9 +42,9 @@
   "porAlt": [
    "A vitamina K só reverte antagonistas da vitamina K, como a varfarina; não tem qualquer efeito sobre inibidores diretos do fator Xa.",
    "A rivaroxabana inibe o fator Xa e não a função plaquetária; transfundir plaquetas sem plaquetopenia não corrige a coagulopatia do caso.",
+   "Correta: suspender o anticoagulante, ressuscitar e levar à endoscopia é a sequência do sangramento maior com instabilidade hemodinâmica.",
    "Sangramento maior com hipotensão obriga a suspender o anticoagulante; o risco tromboembólico de dias sem droga é bem menor que o da hemorragia.",
-   "O INR não afere o efeito dos anticoagulantes diretos, e esperar o exame só atrasa o controle endoscópico da fonte do sangramento.",
-   "Correta: suspender o anticoagulante, ressuscitar e levar à endoscopia é a sequência do sangramento maior com instabilidade hemodinâmica."
+   "O INR não afere o efeito dos anticoagulantes diretos, e esperar o exame só atrasa o controle endoscópico da fonte do sangramento."
   ]
  },
  {
@@ -53,10 +53,10 @@
    "Transferir sem trombolisar, porque a angioplastia primária é superior em qualquer tempo de trajeto.",
    "Aguardar a curva de troponina no serviço antes de decidir se vai trombolisar ou só transferir.",
    "Iniciar heparina isolada em infusão contínua e reservar a reperfusão para depois das 12 horas.",
-   "Prescrever nitrato e morfina e repetir o eletrocardiograma após duas horas, antes de reperfundir.",
-   "Administrar fibrinolítico agora no próprio serviço e transferir em seguida para coronariografia."
+   "Administrar fibrinolítico agora no próprio serviço e transferir em seguida para coronariografia.",
+   "Prescrever nitrato e morfina e repetir o eletrocardiograma após duas horas, antes de reperfundir."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -67,8 +67,8 @@
    "A angioplastia primária só é preferida quando alcançável em até 120 minutos; acima disso, o atraso anula sua vantagem sobre o fibrinolítico.",
    "Troponina não é necessária para indicar reperfusão no infarto com supra de ST; esperar o resultado só atrasa o tratamento e amplia a necrose.",
    "A heparina é adjuvante e não reperfunde a artéria; reservar a reperfusão para depois de 12 horas condena o território a necrose completa.",
-   "Nitrato e morfina tratam sintoma, não obstrução; repetir o eletrocardiograma em duas horas desperdiça a janela mais eficaz da fibrinólise.",
-   "Correta: tempo até a angioplastia acima de 120 minutos indica fibrinólise imediata seguida de transferência para a estratégia fármaco-invasiva."
+   "Correta: tempo até a angioplastia acima de 120 minutos indica fibrinólise imediata seguida de transferência para a estratégia fármaco-invasiva.",
+   "Nitrato e morfina tratam sintoma, não obstrução; repetir o eletrocardiograma em duas horas desperdiça a janela mais eficaz da fibrinólise."
   ]
  }
 ]

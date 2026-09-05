@@ -27,12 +27,12 @@
   "q": "Homem de 57 anos, assintomático, sem história familiar de neoplasia, chega ao ambulatório dizendo que viu uma campanha e quer 'fazer o exame da próstata'. Considerando o posicionamento do Ministério da Saúde e do INCA, qual é a conduta apropriada?",
   "alts": [
    "Solicitar de imediato PSA e toque retal, exames que compõem o rastreamento populacional oficial.",
-   "Recusar qualquer investigação, pois o rastreamento é formalmente proibido em homens assintomáticos.",
    "Discutir riscos e benefícios e decidir com ele, já que não há rastreamento populacional recomendado.",
+   "Recusar qualquer investigação, pois o rastreamento é formalmente proibido em homens assintomáticos.",
    "Solicitar ressonância multiparamétrica de próstata como primeiro exame de rastreio nessa faixa etária.",
    "Encaminhar direto ao urologista para biópsia prostática, independentemente de cada exame prévio."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
@@ -41,8 +41,8 @@
   "coment": "O Ministério da Saúde e o INCA não recomendam o rastreamento populacional do câncer de próstata: os estudos não mostraram impacto relevante sobre a mortalidade e há dano documentado por sobrediagnóstico e sobretratamento, com incontinência e disfunção erétil. O que se orienta é a decisão compartilhada com o homem que procura o serviço solicitando o exame, após discussão franca de riscos e benefícios — posição diferente de proibir o exame. Note o contraste com o rastreamento de mama, que é organizado e recomendado por faixa etária; confundir os dois é erro frequente.",
   "porAlt": [
    "Não existe programa de rastreamento populacional de próstata no país, e solicitar de rotina contraria a nota técnica vigente.",
-   "O posicionamento é de não recomendar o rastreamento organizado, e não de proibir o exame a quem decide fazê-lo após ser informado.",
    "Correta: não há rastreamento populacional recomendado, e a conduta é a decisão compartilhada com quem procura o serviço pedindo o exame.",
+   "O posicionamento é de não recomendar o rastreamento organizado, e não de proibir o exame a quem decide fazê-lo após ser informado.",
    "A ressonância multiparamétrica tem papel na investigação de alterações já detectadas, e não como exame inicial de rastreamento.",
    "Biópsia sem indicação prévia é conduta invasiva e injustificada em homem assintomático, sem exame nenhum que a fundamente."
   ]

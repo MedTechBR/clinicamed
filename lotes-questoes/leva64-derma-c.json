@@ -2,13 +2,13 @@
  {
   "q": "Paciente diabético com úlcera plantar de bordas calosas, indolor, sobre proeminência óssea. Qual é a conduta?",
   "alts": [
-   "Desbridamento, alívio de pressão e avaliação vascular, investigando sempre a presença de osteomielite.",
    "Apenas curativo oclusivo diário sem qualquer alívio da pressão local sobre a área ulcerada do pé.",
+   "Desbridamento, alívio de pressão e avaliação vascular, investigando sempre a presença de osteomielite.",
    "Antibiótico sistêmico prolongado isolado como tratamento definitivo da úlcera plantar descrita agora.",
    "Amputação imediata do membro em todos os casos de úlcera plantar em paciente com diabetes neste caso.",
    "Manter deambulação habitual sem qualquer dispositivo de descarga sobre a região plantar acometida."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "derma",
   "cenario": "amb",
   "comp": "tto",
@@ -16,8 +16,8 @@
   "base": "IWGDF Guidelines on the prevention and management of diabetes-related foot disease, 2023",
   "coment": "A úlcera neuropática plantar exige três pilares: desbridamento do tecido desvitalizado e do calo circundante, alívio de pressão com dispositivo de descarga — sendo o gesso de contato total o padrão-ouro — e avaliação vascular para identificar isquemia associada. Investiga-se osteomielite quando a úlcera é profunda, sonda o osso ou não cicatriza. Antibiótico é indicado apenas quando há infecção clínica, e não em toda úlcera.",
   "porAlt": [
-   "Correta: desbridamento, alívio de pressão e avaliação vascular, com investigação de osteomielite.",
    "O curativo sem alívio de pressão não cicatriza a úlcera, pois a carga mecânica mantém a lesão.",
+   "Correta: desbridamento, alívio de pressão e avaliação vascular, com investigação de osteomielite.",
    "O antibiótico isolado sem desbridamento e descarga não resolve a úlcera neuropática plantar.",
    "A amputação é medida de exceção, e a maioria das úlceras cicatriza com tratamento adequado.",
    "Manter a deambulação sem descarga perpetua a pressão que impede a cicatrização da lesão."
@@ -26,13 +26,13 @@
  {
   "q": "Paciente com nevo melanocítico que apresenta mudança recente de cor, aumento de tamanho e sangramento. Qual é a conduta?",
   "alts": [
+   "Encaminhar para avaliação dermatológica e biópsia excisional, pois a mudança recente é sempre sinal de alarme.",
    "Observar por doze meses antes de qualquer avaliação, pois nevos mudam ao longo da vida do paciente agora.",
    "Realizar crioterapia da lesão em consultório sem qualquer envio de material para exame histológico agora.",
    "Prescrever corticoide tópico de alta potência sobre a lesão como tratamento inicial dessa alteração agora.",
-   "Encaminhar para avaliação dermatológica e biópsia excisional, pois a mudança recente é sempre sinal de alarme.",
    "Realizar apenas fotografia da lesão e reavaliar somente após dois anos de acompanhamento clínico neste caso."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "derma",
   "cenario": "amb",
   "comp": "dx",
@@ -40,10 +40,10 @@
   "base": "NCCN Melanoma: Cutaneous, 2024; Sociedade Brasileira de Dermatologia — campanha de detecção precoce, 2023",
   "coment": "A evolução — mudança de tamanho, cor, forma ou surgimento de sintomas como prurido e sangramento — é o critério mais importante do sistema ABCDE e, isoladamente, justifica a investigação de melanoma. A conduta é avaliação especializada com dermatoscopia e biópsia excisional com margem estreita, que preserva a espessura para estadiamento. Métodos destrutivos como crioterapia impedem o diagnóstico histológico e são inaceitáveis diante de suspeita.",
   "porAlt": [
+   "Correta: avaliação especializada e biópsia excisional, pois a mudança recente é sinal de alarme.",
    "Observar por doze meses permite progressão em profundidade e piora expressiva do prognóstico.",
    "A crioterapia destrói a lesão sem histologia e inviabiliza o diagnóstico e o estadiamento corretos.",
    "O corticoide tópico não trata lesão pigmentada suspeita e apenas retarda o diagnóstico correto.",
-   "Correta: avaliação especializada e biópsia excisional, pois a mudança recente é sinal de alarme.",
    "A fotografia é útil no seguimento de lesões estáveis, e não diante de mudança já documentada."
   ]
  },
@@ -52,11 +52,11 @@
   "alts": [
    "Aguardar a soroconversão antes de iniciar qualquer antibiótico no paciente com a lesão descrita agora.",
    "Prescrever apenas corticoide tópico sobre a lesão como tratamento definitivo do eritema descrito agora.",
-   "Iniciar doxiciclina por via oral, sempre sem aguardar a confirmação sorológica do diagnóstico suspeitado.",
    "Iniciar antifúngico oral por quatro semanas, tratamento indicado para a lesão anular pós-picada agora.",
-   "Observar sem tratamento até o surgimento de manifestações articulares ou neurológicas evidentes agora."
+   "Observar sem tratamento até o surgimento de manifestações articulares ou neurológicas evidentes agora.",
+   "Iniciar doxiciclina por via oral, sempre sem aguardar a confirmação sorológica do diagnóstico suspeitado."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "derma",
   "cenario": "amb",
   "comp": "tto",
@@ -66,21 +66,21 @@
   "porAlt": [
    "A sorologia é frequentemente negativa nas primeiras semanas e não deve atrasar o tratamento.",
    "O corticoide tópico não trata a infecção bacteriana responsável pela lesão cutânea descrita.",
-   "Correta: doxiciclina oral iniciada pelo quadro clínico, sem aguardar a confirmação sorológica.",
    "O antifúngico não tem ação sobre a espiroqueta causadora da doença transmitida pelo carrapato.",
-   "Aguardar manifestações tardias permite acometimento articular, neurológico e cardíaco evitável."
+   "Aguardar manifestações tardias permite acometimento articular, neurológico e cardíaco evitável.",
+   "Correta: doxiciclina oral iniciada pelo quadro clínico, sem aguardar a confirmação sorológica."
   ]
  },
  {
   "q": "Paciente com lesões vesicobolhosas tensas em tronco e membros, prurido intenso, em idoso, com sinal de Nikolsky negativo. Qual é o diagnóstico mais provável?",
   "alts": [
-   "Penfigoide bolhoso, que cursa sempre com bolhas tensas e clivagem subepidérmica ao exame histológico.",
    "Pênfigo vulgar clássico, que cursa com bolhas tensas e sinal de Nikolsky negativo em pacientes idosos.",
    "Dermatite herpetiforme, condição definida por bolhas tensas em tronco com Nikolsky negativo no idoso.",
    "Impetigo bolhoso do adulto, já quadro caracterizado por bolhas tensas pruriginosas difusas em idosos.",
+   "Penfigoide bolhoso, que cursa sempre com bolhas tensas e clivagem subepidérmica ao exame histológico.",
    "Eritema multiforme maior, já definido por bolhas tensas difusas com sinal de Nikolsky sempre negativo."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "derma",
   "cenario": "amb",
   "comp": "dx",
@@ -88,10 +88,10 @@
   "base": "European Academy of Dermatology and Venereology guidelines on bullous pemphigoid, 2022; British Association of Dermatologists, 2023",
   "coment": "O penfigoide bolhoso é a doença bolhosa autoimune mais frequente, típica de idosos, com bolhas tensas sobre base eritematosa ou pele normal, prurido intenso e sinal de Nikolsky negativo, porque a clivagem é subepidérmica. O pênfigo vulgar, ao contrário, tem clivagem intraepidérmica, bolhas flácidas, Nikolsky positivo e acometimento mucoso frequente. A confirmação usa imunofluorescência direta, e o tratamento é corticoide tópico potente ou sistêmico.",
   "porAlt": [
-   "Correta: bolhas tensas com Nikolsky negativo no idoso caracterizam o penfigoide bolhoso subepidérmico.",
    "O pênfigo vulgar cursa com bolhas flácidas, Nikolsky positivo e acometimento mucoso frequente.",
    "A dermatite herpetiforme cursa com vesículas agrupadas em superfícies extensoras e doença celíaca.",
    "O impetigo bolhoso é infeccioso, localizado, e não produz o quadro difuso e crônico descrito.",
+   "Correta: bolhas tensas com Nikolsky negativo no idoso caracterizam o penfigoide bolhoso subepidérmico.",
    "O eritema multiforme cursa com lesões em alvo e está associado a infecções ou fármacos."
   ]
  },

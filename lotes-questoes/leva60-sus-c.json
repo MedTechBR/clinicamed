@@ -2,13 +2,13 @@
  {
   "q": "Um paciente com tuberculose pulmonar bacilífera se recusa a usar máscara na sala de espera. Qual é a conduta ética e sanitária?",
   "alts": [
-   "Explicar o risco e negociar medidas de proteção, mantendo sempre o atendimento em ambiente adequado.",
    "Negar o atendimento até que o paciente concorde integralmente com todas as medidas de proteção exigidas.",
+   "Explicar o risco e negociar medidas de proteção, mantendo sempre o atendimento em ambiente adequado.",
    "Acionar a polícia para a contenção física imediata do paciente que recusa o uso da máscara cirúrgica.",
    "Atender normalmente na sala de espera comum, sem qualquer medida adicional de controle da transmissão.",
    "Internar compulsoriamente todos os pacientes bacilíferos que recusarem o uso de máscara no serviço."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -16,8 +16,8 @@
   "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019 com atualização 2023",
   "coment": "O controle da transmissão da tuberculose combina medidas administrativas, ambientais e de proteção individual: identificar precocemente o sintomático respiratório, priorizar seu atendimento, oferecer máscara cirúrgica ao paciente e mantê-lo em ambiente ventilado e separado. A recusa é abordada com informação e negociação, sem negar assistência, que é direito garantido. Internação compulsória é medida excepcional e nunca a resposta inicial à recusa.",
   "porAlt": [
-   "Correta: informar, negociar proteção e manter o atendimento em ambiente ventilado e adequado.",
    "Negar atendimento viola o direito à saúde e afasta do serviço quem precisa de tratamento supervisionado.",
+   "Correta: informar, negociar proteção e manter o atendimento em ambiente ventilado e adequado.",
    "A contenção policial não é medida sanitária e destrói o vínculo necessário ao tratamento longo.",
    "Atender sem medidas expõe outros usuários e trabalhadores a um risco de transmissão evitável.",
    "A internação compulsória é excepcional, com critérios estritos, e não é resposta inicial à recusa."
@@ -51,12 +51,12 @@
   "q": "Uma paciente traz relato de violência doméstica recente. Qual é a conduta obrigatória do serviço?",
   "alts": [
    "Notificar apenas se a paciente registrar boletim de ocorrência policial antes do atendimento no serviço.",
-   "Acolher, notificar compulsoriamente e articular sempre a rede de proteção com o consentimento da pessoa.",
    "Encaminhar exclusivamente para a delegacia sem qualquer atendimento clínico ou notificação do caso.",
    "Registrar apenas em prontuário, sem qualquer notificação à vigilância epidemiológica do município agora.",
-   "Aguardar que a paciente solicite a notificação por escrito antes de qualquer comunicação oficial do caso."
+   "Aguardar que a paciente solicite a notificação por escrito antes de qualquer comunicação oficial do caso.",
+   "Acolher, notificar compulsoriamente e articular sempre a rede de proteção com o consentimento da pessoa."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -65,22 +65,22 @@
   "coment": "A notificação de violência interpessoal e autoprovocada é compulsória para todos os serviços de saúde, públicos e privados, e independe de boletim de ocorrência. Ela é instrumento epidemiológico e de proteção, não denúncia policial: a comunicação à autoridade policial é obrigatória apenas em situações específicas, como violência contra criança, adolescente, idoso e pessoa com deficiência. O acolhimento inclui avaliação de risco e articulação com a rede.",
   "porAlt": [
    "A notificação independe de boletim de ocorrência e é dever do serviço de saúde que atende.",
-   "Correta: acolher, notificar compulsoriamente e articular a rede de proteção junto com a pessoa.",
    "Encaminhar sem atender nega assistência e desconsidera as necessidades clínicas da paciente.",
    "O registro em prontuário não substitui a notificação compulsória prevista na legislação vigente.",
-   "A notificação é obrigatória e não depende de solicitação por escrito da pessoa atendida."
+   "A notificação é obrigatória e não depende de solicitação por escrito da pessoa atendida.",
+   "Correta: acolher, notificar compulsoriamente e articular a rede de proteção junto com a pessoa."
   ]
  },
  {
   "q": "Um gestor quer avaliar a qualidade de um teste diagnóstico novo em relação a um padrão-ouro. Qual medida indica a proporção de doentes corretamente identificados?",
   "alts": [
    "Especificidade, que expressa a proporção de doentes identificados corretamente pelo teste em estudo.",
-   "Sensibilidade, que expressa sempre a proporção de doentes com resultado positivo no teste avaliado.",
    "Valor preditivo positivo, medida que independe da prevalência da doença na população avaliada agora.",
+   "Sensibilidade, que expressa sempre a proporção de doentes com resultado positivo no teste avaliado.",
    "Prevalência, medida que expressa a capacidade do teste de identificar corretamente os doentes agora.",
    "Incidência acumulada, medida que expressa o desempenho do teste entre os indivíduos com a doença."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
@@ -89,8 +89,8 @@
   "coment": "Sensibilidade é a proporção de doentes com teste positivo e responde à pergunta sobre quantos doentes o teste encontra; especificidade é a proporção de não doentes com teste negativo. Ambas são propriedades relativamente estáveis do teste. Já os valores preditivos dependem fortemente da prevalência: o mesmo teste tem valor preditivo positivo alto em população de alto risco e baixo em rastreamento populacional de doença rara.",
   "porAlt": [
    "Especificidade se refere aos não doentes corretamente identificados como negativos pelo teste.",
-   "Correta: sensibilidade é a proporção de doentes corretamente identificados como positivos pelo teste.",
    "O valor preditivo positivo depende fortemente da prevalência da doença na população estudada.",
+   "Correta: sensibilidade é a proporção de doentes corretamente identificados como positivos pelo teste.",
    "Prevalência é a proporção de doentes na população, e não uma medida de desempenho do teste.",
    "Incidência mede casos novos em um período e não avalia o desempenho de um teste diagnóstico."
   ]
@@ -99,12 +99,12 @@
   "q": "Um médico é convidado a receber vantagem de uma indústria farmacêutica para prescrever determinado medicamento. Qual é a conduta correta?",
   "alts": [
    "Aceitar desde que o medicamento tenha registro sanitário válido e comprovada eficácia terapêutica.",
-   "Recusar a oferta, pois vincular prescrição a vantagem fere sempre a autonomia técnica do médico.",
    "Aceitar e informar apenas ao paciente, o que torna a conduta eticamente aceitável na relação clínica.",
+   "Recusar a oferta, pois vincular prescrição a vantagem fere sempre a autonomia técnica do médico.",
    "Aceitar se o valor recebido for destinado integralmente a atividades de educação médica continuada.",
    "Aceitar desde que outros profissionais do mesmo serviço também recebam a mesma oferta comercial."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -113,8 +113,8 @@
   "coment": "O Código de Ética Médica veda receber vantagem por prescrever ou indicar produtos, bem como vincular a prescrição a qualquer benefício. A independência técnica é condição da confiança na relação médica: o que orienta a conduta é o melhor interesse do paciente e a melhor evidência disponível. Relações com a indústria são permitidas com transparência e regras claras, mas jamais atreladas ao ato de prescrever determinado produto.",
   "porAlt": [
    "O registro sanitário do produto não legitima a vantagem recebida em troca da prescrição.",
-   "Correta: recusar, pois vincular prescrição a vantagem compromete a independência técnica do médico.",
    "Informar o paciente não corrige o conflito de interesse que já contamina a decisão terapêutica.",
+   "Correta: recusar, pois vincular prescrição a vantagem compromete a independência técnica do médico.",
    "A destinação do valor a educação não descaracteriza a vantagem vinculada ao ato de prescrever.",
    "A prática coletiva de uma conduta antiética não a torna aceitável do ponto de vista ético."
   ]
@@ -123,12 +123,12 @@
   "q": "Uma unidade quer reduzir a mortalidade infantil no território. Qual conjunto de ações tem maior impacto?",
   "alts": [
    "Ampliar apenas leitos de terapia intensiva neonatal, já medida isolada de maior impacto no indicador.",
-   "Pré-natal adequado, incentivo ao aleitamento e vacinação, com busca ativa sempre das faltosas agora.",
    "Aumentar o número de exames de imagem ofertados no território como principal estratégia de redução.",
+   "Pré-natal adequado, incentivo ao aleitamento e vacinação, com busca ativa sempre das faltosas agora.",
    "Ampliar apenas o horário de funcionamento das farmácias como medida central para reduzir o indicador.",
    "Concentrar todos os partos em hospitais terciários distantes do território adscrito pela equipe local."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -137,8 +137,8 @@
   "coment": "A mortalidade infantil responde principalmente a ações de atenção primária: pré-natal com número adequado de consultas e exames, identificação de gestação de risco, parto seguro, incentivo ao aleitamento materno exclusivo até seis meses, vacinação em dia, acompanhamento do crescimento e busca ativa de faltosos. Leitos de terapia intensiva são necessários, mas atuam sobre o desfecho já instalado e têm menor impacto populacional do que a prevenção.",
   "porAlt": [
    "Leitos intensivos são necessários, mas atuam depois do agravo e têm menor impacto populacional.",
-   "Correta: pré-natal adequado, aleitamento, vacinação e busca ativa dos faltosos no território.",
    "O aumento de exames de imagem não guarda relação direta com a redução da mortalidade infantil.",
+   "Correta: pré-natal adequado, aleitamento, vacinação e busca ativa dos faltosos no território.",
    "O horário das farmácias não é determinante relevante do indicador de mortalidade infantil.",
    "Distanciar o parto do território dificulta o acesso e a continuidade do cuidado da gestante."
   ]
@@ -220,11 +220,11 @@
   "alts": [
    "Negar o acesso, já que o prontuário é documento de propriedade exclusiva do médico assistente.",
    "Fornecer apenas um resumo elaborado pelo médico, negando o acesso ao conteúdo integral do documento.",
+   "Fornecer a cópia, pois o prontuário pertence ao paciente e sempre fica sob a guarda do serviço.",
    "Exigir autorização judicial em todos os casos antes de qualquer entrega de cópia ao próprio paciente.",
-   "Fornecer somente ao familiar acompanhante, e nunca diretamente ao próprio paciente que solicitou.",
-   "Fornecer a cópia, pois o prontuário pertence ao paciente e sempre fica sob a guarda do serviço."
+   "Fornecer somente ao familiar acompanhante, e nunca diretamente ao próprio paciente que solicitou."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -234,9 +234,9 @@
   "porAlt": [
    "O prontuário não é propriedade do médico, que apenas responde pela guarda e pelo sigilo dele.",
    "O resumo não substitui o direito de acesso ao conteúdo integral do documento pelo paciente.",
+   "Correta: o prontuário pertence ao paciente, que tem direito à cópia integral do seu conteúdo.",
    "Não é necessária autorização judicial para o próprio paciente acessar o seu prontuário médico.",
-   "O direito de acesso é do paciente, e a entrega a terceiros exige sua autorização expressa.",
-   "Correta: o prontuário pertence ao paciente, que tem direito à cópia integral do seu conteúdo."
+   "O direito de acesso é do paciente, e a entrega a terceiros exige sua autorização expressa."
   ]
  }
 ]

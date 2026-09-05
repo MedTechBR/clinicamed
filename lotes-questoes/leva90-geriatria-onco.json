@@ -4,11 +4,11 @@
   "alts": [
    "Repouso prolongado com dieta hipocalórica como estratégia principal de manejo da sarcopenia no idoso neste caso.",
    "Suplementação isolada de vitamina C em dose alta como intervenção de escolha para a sarcopenia descrita agora.",
-   "Exercício resistido progressivo com aporte proteico adequado, mantendo sempre acompanhamento nutricional regular.",
    "Uso de anabolizante hormonal contínuo como primeira linha de tratamento da sarcopenia em pacientes idosos agora.",
-   "Restrição proteica rigorosa da dieta para reduzir a sobrecarga renal do paciente idoso com sarcopenia agora."
+   "Restrição proteica rigorosa da dieta para reduzir a sobrecarga renal do paciente idoso com sarcopenia agora.",
+   "Exercício resistido progressivo com aporte proteico adequado, mantendo sempre acompanhamento nutricional regular."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
@@ -18,21 +18,21 @@
   "porAlt": [
    "Repouso e restrição calórica aceleram a perda de massa muscular no paciente idoso sarcopênico.",
    "A vitamina C isolada não tem evidência de benefício no tratamento da sarcopenia do idoso.",
-   "Correta: exercício resistido progressivo com aporte proteico adequado e acompanhamento nutricional.",
    "Anabolizantes não são primeira linha e trazem efeitos adversos relevantes nessa população.",
-   "A restrição proteica agrava a sarcopenia; o idoso necessita de aporte proteico maior, não menor."
+   "A restrição proteica agrava a sarcopenia; o idoso necessita de aporte proteico maior, não menor.",
+   "Correta: exercício resistido progressivo com aporte proteico adequado e acompanhamento nutricional."
   ]
  },
  {
   "q": "Paciente idoso com múltiplas comorbidades apresenta prescrição com potencial interação medicamentosa grave. Qual é a conduta?",
   "alts": [
-   "Revisar a prescrição e ajustar ou substituir os fármacos envolvidos, priorizando sempre segurança e benefício real.",
    "Manter a prescrição inalterada e apenas orientar o paciente a observar o surgimento de efeitos adversos agora.",
    "Acrescentar um novo fármaco para tratar cada efeito adverso que surgir da interação identificada nesse contexto.",
    "Suspender todos os medicamentos simultaneamente, sem qualquer avaliação individual de cada indicação neste caso.",
-   "Encaminhar ao especialista sem qualquer revisão da prescrição durante o atendimento realizado hoje neste caso."
+   "Encaminhar ao especialista sem qualquer revisão da prescrição durante o atendimento realizado hoje neste caso.",
+   "Revisar a prescrição e ajustar ou substituir os fármacos envolvidos, priorizando sempre segurança e benefício real."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "prev",
@@ -40,23 +40,23 @@
   "base": "AGS Beers Criteria, 2023; STOPP/START version 3, 2023",
   "coment": "A revisão de prescrição no idoso com polifarmácia identifica interações, duplicidades, fármacos sem indicação atual e cascatas de prescrição. A conduta é ajustar doses, substituir por alternativas mais seguras ou suspender de forma gradual o que não traz benefício, sempre pactuando com o paciente e reavaliando. Acrescentar fármaco para tratar efeito adverso de outro é a cascata de prescrição, um dos erros mais comuns e evitáveis na geriatria.",
   "porAlt": [
-   "Correta: revisar a prescrição e ajustar ou substituir os fármacos, priorizando segurança e benefício real.",
    "Manter a prescrição com interação grave conhecida expõe o paciente a dano previsível e evitável.",
    "Acrescentar fármacos para tratar efeitos adversos configura a cascata de prescrição a ser evitada.",
    "Suspender tudo simultaneamente impede identificar responsabilidades e pode descompensar condições.",
-   "O encaminhamento não substitui a revisão da prescrição, que compete ao médico assistente."
+   "O encaminhamento não substitui a revisão da prescrição, que compete ao médico assistente.",
+   "Correta: revisar a prescrição e ajustar ou substituir os fármacos, priorizando segurança e benefício real."
   ]
  },
  {
   "q": "Paciente idoso com dor crônica não oncológica pergunta sobre opioide de uso contínuo. Qual é a orientação?",
   "alts": [
-   "Priorizar medidas não farmacológicas e analgésicos mais seguros, reservando sempre o opioide a situações selecionadas.",
    "Iniciar opioide potente de uso contínuo como primeira linha para toda dor crônica não oncológica no idoso neste caso.",
    "Não oferecer qualquer tratamento para a dor crônica no idoso, dada a ausência de opções seguras disponíveis agora.",
    "Prescrever anti-inflamatório não hormonal contínuo em dose alta como primeira escolha no paciente idoso neste caso.",
-   "Prescrever benzodiazepínico contínuo como tratamento de escolha da dor crônica não oncológica no idoso neste caso."
+   "Prescrever benzodiazepínico contínuo como tratamento de escolha da dor crônica não oncológica no idoso neste caso.",
+   "Priorizar medidas não farmacológicas e analgésicos mais seguros, reservando sempre o opioide a situações selecionadas."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
@@ -64,23 +64,23 @@
   "base": "CDC Clinical Practice Guideline for Prescribing Opioids for Pain, 2022; AGS Beers Criteria, 2023",
   "coment": "Na dor crônica não oncológica, as diretrizes priorizam tratamento não farmacológico — exercício, fisioterapia, terapia cognitivo-comportamental — e fármacos não opioides, com opioide reservado a casos selecionados em que o benefício supera os riscos, na menor dose e pelo menor tempo, com metas funcionais definidas. No idoso, anti-inflamatórios contínuos trazem risco digestivo, renal e cardiovascular, e benzodiazepínicos combinados a opioides aumentam a mortalidade.",
   "porAlt": [
-   "Correta: priorizar medidas não farmacológicas e analgésicos mais seguros, com opioide em casos selecionados.",
    "O opioide não é primeira linha na dor crônica não oncológica e traz riscos relevantes no idoso.",
    "Existem opções seguras e eficazes, e não tratar a dor crônica prejudica função e qualidade de vida.",
    "Anti-inflamatórios contínuos no idoso trazem risco digestivo, renal e cardiovascular importante.",
-   "O benzodiazepínico não é analgésico e sua associação a opioides aumenta a mortalidade."
+   "O benzodiazepínico não é analgésico e sua associação a opioides aumenta a mortalidade.",
+   "Correta: priorizar medidas não farmacológicas e analgésicos mais seguros, com opioide em casos selecionados."
   ]
  },
  {
   "q": "Paciente idoso institucionalizado apresenta perda de peso não intencional de 8% em seis meses. Qual é a conduta?",
   "alts": [
    "Atribuir a perda de peso exclusivamente ao envelhecimento e não realizar qualquer investigação adicional.",
-   "Investigar causas clínicas, medicamentosas e sociais, avaliando sempre deglutição, humor e acesso ao alimento.",
    "Iniciar imediatamente nutrição parenteral total em todos os idosos com perda de peso não intencional agora.",
    "Prescrever apenas estimulante de apetite sem qualquer investigação das causas da perda ponderal observada.",
-   "Indicar sonda nasoenteral imediatamente em todos os casos de perda de peso não intencional no idoso agora."
+   "Indicar sonda nasoenteral imediatamente em todos os casos de perda de peso não intencional no idoso agora.",
+   "Investigar causas clínicas, medicamentosas e sociais, avaliando sempre deglutição, humor e acesso ao alimento."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "dx",
@@ -89,10 +89,10 @@
   "coment": "Perda de peso não intencional acima de cinco por cento em seis meses é sinal de alarme e exige investigação sistemática: neoplasia, infecção crônica, doença tireoidiana, depressão, demência, disfagia, dor, saúde bucal precária, fármacos que reduzem apetite ou alteram o paladar, e fatores sociais como insegurança alimentar e isolamento. A abordagem é multidimensional, e intervenções nutricionais invasivas só entram após identificar e tratar as causas reversíveis.",
   "porAlt": [
    "A perda de peso não é parte do envelhecimento normal e sempre exige investigação sistemática.",
-   "Correta: investigar causas clínicas, medicamentosas e sociais, avaliando deglutição, humor e acesso ao alimento.",
    "A nutrição parenteral tem indicações restritas e não é a resposta inicial à perda ponderal.",
    "O estimulante de apetite sem investigar mascara a causa e não corrige o problema de base.",
-   "A sonda não é conduta inicial e não substitui a investigação das causas reversíveis da perda."
+   "A sonda não é conduta inicial e não substitui a investigação das causas reversíveis da perda.",
+   "Correta: investigar causas clínicas, medicamentosas e sociais, avaliando deglutição, humor e acesso ao alimento."
   ]
  },
  {
@@ -147,12 +147,12 @@
   "q": "Paciente com câncer em quimioterapia pergunta sobre vacinação contra influenza. Qual é a orientação?",
   "alts": [
    "Não vacinar, pois pacientes em quimioterapia não podem receber qualquer tipo de vacina durante o tratamento.",
-   "Vacinar com vacina inativada, preferindo sempre o momento de melhor recuperação hematológica entre os ciclos.",
    "Vacinar apenas com vacina de vírus vivo atenuado, que confere resposta imune superior nesse contexto agora.",
    "Vacinar apenas após dois anos do término da quimioterapia em todos os pacientes oncológicos tratados agora.",
-   "Vacinar imediatamente após cada infusão de quimioterapia para aproveitar o pico de imunossupressão agora."
+   "Vacinar imediatamente após cada infusão de quimioterapia para aproveitar o pico de imunossupressão agora.",
+   "Vacinar com vacina inativada, preferindo sempre o momento de melhor recuperação hematológica entre os ciclos."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
@@ -161,10 +161,10 @@
   "coment": "Pacientes em quimioterapia têm risco aumentado de complicações por influenza e devem ser vacinados com vacina inativada, que é segura em imunossuprimidos. Vacinas de vírus vivo atenuado são contraindicadas. A resposta imune é melhor quando a vacina é aplicada em momento de recuperação hematológica, tipicamente antes do próximo ciclo, e recomenda-se também vacinar os contatos domiciliares, estratégia conhecida como proteção por cocoon.",
   "porAlt": [
    "Vacinas inativadas são seguras e indicadas em pacientes imunossuprimidos por quimioterapia.",
-   "Correta: vacina inativada, aplicada preferencialmente em momento de melhor recuperação hematológica.",
    "Vacinas de vírus vivo atenuado são contraindicadas em pacientes imunossuprimidos pelo tratamento.",
    "Aguardar dois anos deixa o paciente desprotegido justamente no período de maior vulnerabilidade.",
-   "Aplicar no pico de imunossupressão reduz a resposta imune e o benefício obtido com a vacina."
+   "Aplicar no pico de imunossupressão reduz a resposta imune e o benefício obtido com a vacina.",
+   "Correta: vacina inativada, aplicada preferencialmente em momento de melhor recuperação hematológica."
   ]
  },
  {
@@ -173,10 +173,10 @@
    "Iniciar sedação profunda contínua imediatamente em todos os pacientes com delirium hiperativo na fase final agora.",
    "Prescrever benzodiazepínico isolado em dose alta como primeira escolha para o delirium hiperativo descrito agora.",
    "Manter contenção física prolongada como principal medida de manejo do delirium hiperativo no fim da vida agora.",
-   "Não realizar qualquer intervenção, pois o delirium na fase final de vida nunca causa sofrimento ao paciente agora.",
-   "Buscar causas reversíveis e usar antipsicótico se necessário, mantendo sempre medidas ambientais e apoio à família."
+   "Buscar causas reversíveis e usar antipsicótico se necessário, mantendo sempre medidas ambientais e apoio à família.",
+   "Não realizar qualquer intervenção, pois o delirium na fase final de vida nunca causa sofrimento ao paciente agora."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "onco",
   "cenario": "enf",
   "comp": "tto",
@@ -187,8 +187,8 @@
    "A sedação contínua se reserva ao delirium verdadeiramente refratário às medidas anteriores.",
    "O benzodiazepínico isolado pode agravar o delirium hiperativo, exceto na abstinência alcoólica.",
    "A contenção física prolongada aumenta agitação e lesões, sendo medida de último recurso.",
-   "O delirium causa sofrimento intenso ao paciente e à família e sempre exige abordagem ativa.",
-   "Correta: buscar causas reversíveis e usar antipsicótico se necessário, com medidas ambientais e apoio familiar."
+   "Correta: buscar causas reversíveis e usar antipsicótico se necessário, com medidas ambientais e apoio familiar.",
+   "O delirium causa sofrimento intenso ao paciente e à família e sempre exige abordagem ativa."
   ]
  },
  {
@@ -197,10 +197,10 @@
    "Indicar apenas cuidados paliativos exclusivos em todos os pacientes com carcinoma hepatocelular diagnosticado neste caso já.",
    "Iniciar quimioterapia sistêmica convencional como tratamento de primeira escolha para o nódulo único descrito neste caso.",
    "Aguardar o crescimento do nódulo além de cinco centímetros antes de qualquer intervenção terapêutica indicada neste caso.",
-   "Avaliar tratamento com intenção curativa por equipe multidisciplinar, considerando sempre ressecção, ablação ou transplante.",
-   "Prescrever apenas hepatoprotetor de venda livre como tratamento do carcinoma hepatocelular diagnosticado nesse contexto já."
+   "Prescrever apenas hepatoprotetor de venda livre como tratamento do carcinoma hepatocelular diagnosticado nesse contexto já.",
+   "Avaliar tratamento com intenção curativa por equipe multidisciplinar, considerando sempre ressecção, ablação ou transplante."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -211,8 +211,8 @@
    "O estágio descrito é potencialmente curável e não corresponde a indicação de paliação exclusiva.",
    "A quimioterapia convencional tem eficácia limitada e não é a primeira escolha nesse estágio inicial.",
    "Aguardar o crescimento retira o paciente do estágio curável e piora drasticamente o prognóstico.",
-   "Correta: avaliar tratamento com intenção curativa por equipe multidisciplinar, com ressecção, ablação ou transplante.",
-   "Hepatoprotetores não têm efeito sobre o tumor e apenas atrasam o tratamento potencialmente curativo."
+   "Hepatoprotetores não têm efeito sobre o tumor e apenas atrasam o tratamento potencialmente curativo.",
+   "Correta: avaliar tratamento com intenção curativa por equipe multidisciplinar, com ressecção, ablação ou transplante."
   ]
  },
  {
@@ -220,11 +220,11 @@
   "alts": [
    "Indicar quimioterapia convencional isolada, pois a identificação de mutação não altera a conduta terapêutica agora.",
    "Indicar apenas radioterapia torácica isolada como tratamento definitivo do câncer de pulmão avançado descrito agora.",
-   "Indicar terapia-alvo específica, que oferece sempre melhor resposta e tolerabilidade que a quimioterapia convencional.",
    "Indicar apenas cuidados paliativos exclusivos em todos os pacientes com mutação driver identificada no tumor agora.",
-   "Indicar cirurgia de ressecção pulmonar ampla em todos os pacientes com doença avançada e mutação driver neste caso."
+   "Indicar cirurgia de ressecção pulmonar ampla em todos os pacientes com doença avançada e mutação driver neste caso.",
+   "Indicar terapia-alvo específica, que oferece sempre melhor resposta e tolerabilidade que a quimioterapia convencional."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
@@ -234,9 +234,9 @@
   "porAlt": [
    "A identificação de mutação driver muda completamente a conduta e o prognóstico do paciente.",
    "A radioterapia isolada não é tratamento sistêmico e não controla a doença metastática avançada.",
-   "Correta: terapia-alvo específica, com melhor resposta e tolerabilidade que a quimioterapia convencional.",
    "A doença avançada com mutação driver tem tratamento sistêmico eficaz e não é apenas paliativa.",
-   "A cirurgia não é indicada na doença avançada com disseminação já estabelecida."
+   "A cirurgia não é indicada na doença avançada com disseminação já estabelecida.",
+   "Correta: terapia-alvo específica, com melhor resposta e tolerabilidade que a quimioterapia convencional."
   ]
  }
 ]

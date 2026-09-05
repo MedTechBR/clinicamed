@@ -2,13 +2,13 @@
  {
   "q": "Paciente com queimadura de via aérea suspeita após incêndio em ambiente fechado, com rouquidão e escarro carbonáceo. Qual é a conduta?",
   "alts": [
-   "Intubação orotraqueal precoce, pois o edema progressivo torna sempre a via aérea rapidamente inacessível.",
    "Aguardar sinais claros de insuficiência respiratória antes de qualquer abordagem da via aérea do paciente.",
+   "Intubação orotraqueal precoce, pois o edema progressivo torna sempre a via aérea rapidamente inacessível.",
    "Prescrever apenas corticoide sistêmico e oxigênio por máscara sem qualquer avaliação da via aérea agora.",
    "Realizar traqueostomia eletiva em todos os casos como primeira abordagem da via aérea nesse cenário.",
    "Prescrever apenas broncodilatador inalatório como conduta definitiva para o quadro descrito no enunciado."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -16,8 +16,8 @@
   "base": "ATLS 11ª edição, 2024; American Burn Association guidelines on inhalation injury, revisão 2023",
   "coment": "Rouquidão, estridor, queimadura de face, vibrissas chamuscadas e escarro carbonáceo após exposição em ambiente fechado indicam lesão inalatória com risco de obstrução por edema progressivo. A intubação deve ser precoce, antes que o edema torne o procedimento impossível, pois a janela de oportunidade se fecha em poucas horas. Avalia-se também intoxicação por monóxido de carbono e cianeto, administrando oxigênio a cem por cento e antídoto quando indicado.",
   "porAlt": [
-   "Correta: intubação precoce, pois o edema progressivo pode tornar a via aérea inacessível em horas.",
    "Aguardar insuficiência respiratória instalada arrisca uma via aérea impossível de ser assegurada.",
+   "Correta: intubação precoce, pois o edema progressivo pode tornar a via aérea inacessível em horas.",
    "Corticoide e oxigênio não impedem o edema progressivo nem substituem a proteção da via aérea.",
    "A traqueostomia é procedimento de resgate, e não a primeira abordagem eletiva nesse cenário.",
    "O broncodilatador é adjuvante e não protege contra a obstrução mecânica por edema de via aérea."
@@ -28,11 +28,11 @@
   "alts": [
    "Administrar flumazenil endovenoso como antídoto de escolha para a intoxicação por antidepressivo tricíclico.",
    "Administrar antiarrítmico de classe IA para corrigir o alargamento do QRS observado no eletrocardiograma.",
-   "Bicarbonato de sódio endovenoso em bolus, indicado sempre diante de alargamento do QRS nessa intoxicação.",
    "Realizar apenas lavagem gástrica tardia como principal medida terapêutica nessa intoxicação medicamentosa.",
+   "Bicarbonato de sódio endovenoso em bolus, indicado sempre diante de alargamento do QRS nessa intoxicação.",
    "Aguardar a metabolização espontânea do fármaco sem qualquer intervenção sobre a alteração eletrocardiográfica."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
@@ -42,8 +42,8 @@
   "porAlt": [
    "O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão em intoxicação mista.",
    "Antiarrítmicos de classe IA bloqueiam canais de sódio e agravam diretamente o alargamento do QRS.",
-   "Correta: bicarbonato de sódio endovenoso em bolus diante do alargamento do QRS nessa intoxicação.",
    "A lavagem gástrica tardia não é recomendada e traz risco de aspiração no paciente rebaixado.",
+   "Correta: bicarbonato de sódio endovenoso em bolus diante do alargamento do QRS nessa intoxicação.",
    "Aguardar sem tratar permite evolução para arritmia ventricular e parada cardiorrespiratória."
   ]
  },
@@ -51,12 +51,12 @@
   "q": "Paciente com afogamento em água doce, resgatado consciente, com tosse e hipoxemia leve. Qual é a conduta?",
   "alts": [
    "Alta imediata do serviço, pois o paciente consciente após afogamento não apresenta qualquer risco posterior.",
-   "Observação hospitalar com oxigênio e reavaliação, pois a piora respiratória surge sempre em poucas horas.",
    "Administrar antibiótico profilático de rotina em todos os pacientes vítimas de afogamento em água doce.",
+   "Observação hospitalar com oxigênio e reavaliação, pois a piora respiratória surge sempre em poucas horas.",
    "Realizar manobra de Heimlich em todos os pacientes resgatados de afogamento para retirar a água aspirada.",
    "Administrar corticoide sistêmico em dose alta de rotina em todos os casos de afogamento com hipoxemia."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -65,8 +65,8 @@
   "coment": "O afogamento com sintomas respiratórios exige observação hospitalar, pois a lesão pulmonar pode progredir nas horas seguintes, com piora da hipoxemia e edema pulmonar. O tratamento é suporte com oxigênio, ventilação não invasiva ou intubação conforme a gravidade. Antibiótico profilático não é rotina, sendo reservado a água notoriamente contaminada ou a sinais de infecção. Corticoide não tem benefício, e a manobra de Heimlich está contraindicada por risco de aspiração.",
   "porAlt": [
    "A alta imediata desconsidera a possibilidade de deterioração respiratória nas horas seguintes.",
-   "Correta: observação hospitalar com oxigênio, pois a piora respiratória surge nas horas seguintes.",
    "O antibiótico profilático de rotina não é indicado e seleciona resistência sem benefício claro.",
+   "Correta: observação hospitalar com oxigênio, pois a piora respiratória surge nas horas seguintes.",
    "A manobra de Heimlich é contraindicada no afogamento e aumenta o risco de vômito e aspiração.",
    "O corticoide não demonstrou benefício na lesão pulmonar decorrente do afogamento."
   ]
@@ -74,13 +74,13 @@
  {
   "q": "Paciente com hipertermia de 41 °C após esforço físico em ambiente quente, com alteração de consciência. Qual é a conduta imediata?",
   "alts": [
+   "Resfriamento agressivo imediato com imersão, associado sempre a suporte e monitorização de complicações.",
    "Administrar apenas antitérmico oral e aguardar a queda espontânea da temperatura corporal do paciente.",
    "Resfriar lentamente ao longo de doze horas para evitar qualquer variação térmica brusca no paciente.",
    "Administrar apenas hidratação oral e liberar o paciente para casa após a melhora inicial dos sintomas.",
-   "Administrar corticoide sistêmico em dose alta como tratamento de escolha da hipertermia por esforço.",
-   "Resfriamento agressivo imediato com imersão, associado sempre a suporte e monitorização de complicações."
+   "Administrar corticoide sistêmico em dose alta como tratamento de escolha da hipertermia por esforço."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -88,11 +88,11 @@
   "base": "ACSM/Wilderness Medical Society guidance on exertional heat stroke, revisão 2023; NEJM review on heat stroke, 2022",
   "coment": "A intermação por esforço é emergência: a mortalidade depende diretamente do tempo em que a temperatura central permanece elevada. O tratamento é resfriamento agressivo imediato, sendo a imersão em água gelada o método mais eficaz, com alvo de temperatura central em torno de 38,5 a 39 °C. Antitérmicos são ineficazes, porque o mecanismo não é o ponto de ajuste hipotalâmico. Monitoram-se rabdomiólise, lesão renal, coagulopatia e disfunção hepática.",
   "porAlt": [
+   "Correta: resfriamento agressivo imediato com imersão, com suporte e vigilância de complicações.",
    "Antitérmicos são ineficazes na intermação, pois o mecanismo não envolve o ponto de ajuste hipotalâmico.",
    "Resfriar lentamente prolonga a exposição ao calor e aumenta diretamente a mortalidade do quadro.",
    "Liberar sem observação ignora as complicações que surgem nas horas seguintes ao evento.",
-   "O corticoide não tem papel no tratamento da hipertermia por esforço e atrasa o resfriamento.",
-   "Correta: resfriamento agressivo imediato com imersão, com suporte e vigilância de complicações."
+   "O corticoide não tem papel no tratamento da hipertermia por esforço e atrasa o resfriamento."
   ]
  },
  {
@@ -124,11 +124,11 @@
   "alts": [
    "Hipoglicemia grave isolada, principal complicação metabólica esperada após a liberação do membro esmagado.",
    "Hipernatremia refratária, complicação mais frequente e temida após a liberação de esmagamento prolongado.",
-   "Hipercalemia com risco de arritmia, exigindo sempre hidratação precoce e monitorização eletrocardiográfica.",
    "Alcalose metabólica grave, principal distúrbio associado à síndrome de esmagamento em vítimas soterradas.",
-   "Hipocalemia grave, alteração eletrolítica característica que surge imediatamente após a liberação do membro."
+   "Hipocalemia grave, alteração eletrolítica característica que surge imediatamente após a liberação do membro.",
+   "Hipercalemia com risco de arritmia, exigindo sempre hidratação precoce e monitorização eletrocardiográfica."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -138,21 +138,21 @@
   "porAlt": [
    "A hipoglicemia não é a complicação característica da reperfusão do tecido muscular esmagado.",
    "A hipernatremia não é o distúrbio típico da síndrome de esmagamento após a liberação do membro.",
-   "Correta: hipercalemia com risco de arritmia, exigindo hidratação precoce e monitorização eletrocardiográfica.",
    "A síndrome de esmagamento cursa com acidose metabólica, e não com alcalose grave.",
-   "A liberação do conteúdo intracelular causa hipercalemia, e não hipocalemia, no período imediato."
+   "A liberação do conteúdo intracelular causa hipercalemia, e não hipocalemia, no período imediato.",
+   "Correta: hipercalemia com risco de arritmia, exigindo hidratação precoce e monitorização eletrocardiográfica."
   ]
  },
  {
   "q": "Paciente com convulsão em uso de tramadol e antidepressivo serotoninérgico, sem história prévia de epilepsia. Qual é a conduta?",
   "alts": [
-   "Tratar a crise e revisar os fármacos, considerando sempre interação e redução do limiar convulsivo.",
    "Iniciar antiepiléptico contínuo por tempo indeterminado sem qualquer revisão dos medicamentos em uso.",
    "Aumentar a dose do tramadol para melhor controle da dor apesar do episódio convulsivo apresentado.",
    "Atribuir a crise a epilepsia idiopática e não revisar qualquer medicação em uso pelo próprio paciente.",
-   "Suspender apenas o antidepressivo e manter o tramadol na mesma dose plena após o episódio convulsivo."
+   "Suspender apenas o antidepressivo e manter o tramadol na mesma dose plena após o episódio convulsivo.",
+   "Tratar a crise e revisar os fármacos, considerando sempre interação e redução do limiar convulsivo."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -160,23 +160,23 @@
   "base": "AACT guidance on drug-induced seizures, revisão 2023; bula e alertas regulatórios sobre tramadol",
   "coment": "O tramadol reduz o limiar convulsivo, sobretudo em doses altas, em associação com serotoninérgicos, na insuficiência renal e no idoso. Diante de crise convulsiva em paciente sem epilepsia prévia, é obrigatório revisar a prescrição em busca de fármacos que reduzam o limiar — tramadol, bupropiona, antidepressivos, antipsicóticos, quinolonas e teofilina — e afastar causas metabólicas e estruturais antes de assumir epilepsia e iniciar tratamento crônico.",
   "porAlt": [
-   "Correta: tratar a crise e revisar os fármacos, considerando interação e redução do limiar convulsivo.",
    "Iniciar antiepiléptico crônico sem revisar a causa medicamentosa trata o sintoma e mantém o gatilho.",
    "Aumentar o tramadol amplia diretamente o risco de novas crises convulsivas nesse paciente.",
    "Assumir epilepsia idiopática sem revisar a prescrição perde uma causa evidente e reversível.",
-   "Manter o tramadol conserva o principal fármaco associado à redução do limiar convulsivo."
+   "Manter o tramadol conserva o principal fármaco associado à redução do limiar convulsivo.",
+   "Correta: tratar a crise e revisar os fármacos, considerando interação e redução do limiar convulsivo."
   ]
  },
  {
   "q": "Paciente com bradicardia sintomática de 35 bpm, hipotensão e rebaixamento. Qual é a conduta imediata?",
   "alts": [
+   "Atropina endovenosa e preparo de marca-passo transcutâneo, iniciando sempre suporte enquanto se busca a causa.",
    "Aguardar a recuperação espontânea da frequência cardíaca antes de qualquer intervenção medicamentosa agora.",
    "Administrar betabloqueador endovenoso para estabilizar o ritmo cardíaco do paciente bradicárdico e hipotenso.",
    "Realizar cardioversão elétrica sincronizada imediata como primeira medida diante da bradicardia sintomática.",
-   "Atropina endovenosa e preparo de marca-passo transcutâneo, iniciando sempre suporte enquanto se busca a causa.",
    "Administrar apenas oxigênio suplementar e observar clinicamente por seis horas antes de qualquer conduta."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -184,10 +184,10 @@
   "base": "AHA Guidelines for CPR and ECC — Adult Bradycardia Algorithm, atualização 2025; ERC Guidelines, 2021",
   "coment": "Na bradicardia sintomática com instabilidade — hipotensão, alteração de consciência, dor torácica isquêmica ou sinais de choque —, a primeira medida farmacológica é atropina endovenosa, com preparo simultâneo de marca-passo transcutâneo e consideração de infusão de dopamina ou adrenalina. Enquanto isso, busca-se a causa: isquemia, hipercalemia, hipotermia, hipotireoidismo e fármacos como betabloqueador, bloqueador de canal de cálcio e digital.",
   "porAlt": [
+   "Correta: atropina endovenosa com preparo de marca-passo transcutâneo enquanto se busca a causa.",
    "Aguardar recuperação espontânea em paciente instável arrisca parada cardíaca por bradiarritmia.",
    "O betabloqueador agrava a bradicardia e é exatamente o oposto do que o paciente necessita.",
    "A cardioversão trata taquiarritmias e não tem qualquer papel no manejo da bradicardia sintomática.",
-   "Correta: atropina endovenosa com preparo de marca-passo transcutâneo enquanto se busca a causa.",
    "Oxigênio e observação por seis horas são insuficientes diante de instabilidade hemodinâmica."
   ]
  },
@@ -196,11 +196,11 @@
   "alts": [
    "Prescrever apenas analgésico e observar clinicamente a evolução do abdome agudo por vinte e quatro horas.",
    "Prescrever apenas antibiótico endovenoso, sem qualquer abordagem cirúrgica da perfuração identificada agora.",
+   "Antibiótico, ressuscitação volêmica e cirurgia de urgência, pois a perfuração exige sempre controle da fonte.",
    "Realizar apenas endoscopia digestiva alta de urgência como conduta definitiva diante do pneumoperitônio.",
-   "Solicitar tomografia com contraste oral antes de qualquer ressuscitação ou indicação cirúrgica do paciente.",
-   "Antibiótico, ressuscitação volêmica e cirurgia de urgência, pois a perfuração exige sempre controle da fonte."
+   "Solicitar tomografia com contraste oral antes de qualquer ressuscitação ou indicação cirúrgica do paciente."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -210,9 +210,9 @@
   "porAlt": [
    "Observar por vinte e quatro horas com peritonite estabelecida permite sepse e óbito evitável.",
    "O antibiótico isolado não resolve a perfuração e não substitui o controle cirúrgico da fonte.",
+   "Correta: antibiótico, ressuscitação volêmica e cirurgia de urgência para o controle da fonte.",
    "A endoscopia pode agravar a perfuração ao insuflar e não é conduta definitiva nesse quadro.",
-   "O contraste oral é contraindicado na suspeita de perfuração e apenas atrasaria a cirurgia.",
-   "Correta: antibiótico, ressuscitação volêmica e cirurgia de urgência para o controle da fonte."
+   "O contraste oral é contraindicado na suspeita de perfuração e apenas atrasaria a cirurgia."
   ]
  },
  {

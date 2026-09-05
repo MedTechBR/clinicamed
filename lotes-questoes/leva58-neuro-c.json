@@ -3,12 +3,12 @@
   "q": "Paciente de 60 anos com crise convulsiva tônico-clônica generalizada de primeira vez, já recuperada, com exame neurológico normal. Qual é a conduta?",
   "alts": [
    "Iniciar anticonvulsivante em dose plena imediatamente em todos os pacientes com primeira crise única.",
+   "Investigar com eletroencefalograma e neuroimagem antes de decidir sempre sobre o tratamento contínuo.",
    "Prescrever benzodiazepínico contínuo por seis meses como tratamento padrão após a primeira crise.",
    "Não realizar qualquer investigação, pois a primeira crise não exige avaliação complementar alguma.",
-   "Investigar com eletroencefalograma e neuroimagem antes de decidir sempre sobre o tratamento contínuo.",
    "Indicar cirurgia de epilepsia precocemente para todos os pacientes após uma primeira crise generalizada."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "dx",
@@ -17,9 +17,9 @@
   "coment": "Após uma primeira crise não provocada, a investigação inclui eletroencefalograma, neuroimagem preferencialmente por ressonância, exames laboratoriais e revisão de fármacos e substâncias. O tratamento contínuo não é automático: indica-se quando o risco de recorrência é alto, o que ocorre com lesão estrutural, eletroencefalograma epileptiforme, crise noturna ou déficit neurológico. Sem esses fatores, o risco de recorrência é menor e a decisão é compartilhada com o paciente.",
   "porAlt": [
    "Nem toda primeira crise exige tratamento contínuo; a decisão depende do risco de recorrência.",
+   "Correta: investigar com eletroencefalograma e neuroimagem para estimar o risco antes de tratar.",
    "O benzodiazepínico contínuo não é tratamento de manutenção da epilepsia e causa dependência.",
    "A investigação é obrigatória para excluir lesão estrutural e causas metabólicas ou tóxicas.",
-   "Correta: investigar com eletroencefalograma e neuroimagem para estimar o risco antes de tratar.",
    "A cirurgia se reserva a epilepsia refratária a múltiplos fármacos, e não à primeira crise única."
   ]
  },
@@ -29,10 +29,10 @@
    "Repetir doses de benzodiazepínico indefinidamente até a cessação completa da atividade convulsiva.",
    "Aguardar a resolução espontânea da crise por mais trinta minutos antes de qualquer nova medicação.",
    "Iniciar apenas hidratação endovenosa e observar clinicamente sem qualquer antiepiléptico adicional.",
-   "Realizar punção lombar imediata antes de qualquer administração de medicação antiepiléptica adicional.",
-   "Administrar antiepiléptico de segunda linha endovenoso, sempre em dose de ataque plena e monitorizada."
+   "Administrar antiepiléptico de segunda linha endovenoso, sempre em dose de ataque plena e monitorizada.",
+   "Realizar punção lombar imediata antes de qualquer administração de medicação antiepiléptica adicional."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "uti",
   "comp": "urg",
@@ -43,20 +43,20 @@
    "Repetir benzodiazepínico indefinidamente causa depressão respiratória sem controlar a crise refratária.",
    "Esperar trinta minutos aumenta a lesão neuronal e reduz a chance de controle da crise prolongada.",
    "A hidratação isolada não interrompe a atividade epiléptica em curso no sistema nervoso central.",
-   "A punção lombar pode ser necessária depois, mas nunca antes do controle da crise em andamento.",
-   "Correta: antiepiléptico de segunda linha endovenoso em dose de ataque, sem atrasar a escalada."
+   "Correta: antiepiléptico de segunda linha endovenoso em dose de ataque, sem atrasar a escalada.",
+   "A punção lombar pode ser necessária depois, mas nunca antes do controle da crise em andamento."
   ]
  },
  {
   "q": "Homem de 68 anos com tremor de repouso assimétrico, bradicinesia e rigidez, com boa resposta à levodopa. Qual é o diagnóstico?",
   "alts": [
    "Tremor essencial, condição que cursa com tremor de repouso assimétrico e resposta clara à levodopa.",
-   "Paralisia supranuclear progressiva, definida por boa resposta à levodopa e tremor de repouso marcante.",
    "Doença de Parkinson, que responde sempre bem à levodopa e cursa com assimetria na apresentação.",
+   "Paralisia supranuclear progressiva, definida por boa resposta à levodopa e tremor de repouso marcante.",
    "Atrofia de múltiplos sistemas, caracterizada por resposta sustentada à levodopa e tremor assimétrico.",
    "Tremor cerebelar clássico, que cursa com bradicinesia, rigidez e resposta consistente à levodopa oral."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "dx",
@@ -65,8 +65,8 @@
   "coment": "A doença de Parkinson é definida por bradicinesia associada a tremor de repouso ou rigidez, com início assimétrico e resposta clara e sustentada à levodopa, critério de suporte importante. Sinais de alerta para parkinsonismo atípico incluem quedas precoces, disautonomia proeminente, paralisia do olhar vertical, progressão rápida e ausência de resposta à levodopa. O tremor essencial é postural e cinético, tipicamente bilateral e sem bradicinesia.",
   "porAlt": [
    "O tremor essencial é postural e cinético, tipicamente bilateral, e não responde à levodopa.",
-   "A paralisia supranuclear progressiva cursa com quedas precoces e má resposta à levodopa.",
    "Correta: parkinsonismo assimétrico com boa resposta à levodopa caracteriza a doença de Parkinson.",
+   "A paralisia supranuclear progressiva cursa com quedas precoces e má resposta à levodopa.",
    "A atrofia de múltiplos sistemas cursa com disautonomia proeminente e resposta pobre à levodopa.",
    "O tremor cerebelar é de intenção, com dismetria associada, e não cursa com rigidez ou bradicinesia."
   ]
@@ -99,12 +99,12 @@
   "q": "Paciente com fraqueza ascendente simétrica, arreflexia e dissociação proteinocitológica no líquor, após quadro diarreico. Qual é o tratamento?",
   "alts": [
    "Corticoide sistêmico em dose alta, tratamento de escolha com melhor evidência para essa polirradiculopatia.",
-   "Imunoglobulina endovenosa ou plasmaférese, sempre com monitorização da função respiratória do paciente.",
    "Antibiótico endovenoso de amplo espectro, tratamento indicado para a fraqueza ascendente pós-infecciosa.",
    "Apenas fisioterapia motora intensiva, medida suficiente para a recuperação da força nesse paciente.",
+   "Imunoglobulina endovenosa ou plasmaférese, sempre com monitorização da função respiratória do paciente.",
    "Anticoagulação plena, tratamento indicado para a polirradiculoneuropatia aguda descrita no enunciado."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "uti",
   "comp": "tto",
@@ -113,9 +113,9 @@
   "coment": "A síndrome de Guillain-Barré é tratada com imunoglobulina endovenosa ou plasmaférese, com eficácia equivalente, sem benefício em combiná-las. O corticoide não é eficaz e não deve ser usado isoladamente, ao contrário do que ocorre na forma crônica. A vigilância respiratória é essencial: capacidade vital forçada, força inspiratória e disautonomia orientam a necessidade de intubação, que deve ser antecipada e não guiada apenas pela oximetria.",
   "porAlt": [
    "O corticoide isolado não demonstrou eficácia nessa síndrome, diferentemente da forma crônica.",
-   "Correta: imunoglobulina endovenosa ou plasmaférese, com vigilância estreita da função respiratória.",
    "O antibiótico não trata o processo imunomediado que causa a desmielinização das raízes nervosas.",
    "A fisioterapia é parte da reabilitação, mas não substitui o tratamento imunomodulador na fase aguda.",
+   "Correta: imunoglobulina endovenosa ou plasmaférese, com vigilância estreita da função respiratória.",
    "A anticoagulação é profilaxia de trombose no acamado, e não tratamento da doença neurológica."
   ]
  },
@@ -124,11 +124,11 @@
   "alts": [
    "Aguardar vinte e quatro horas de observação antes de qualquer decisão sobre terapia de reperfusão.",
    "Iniciar apenas ácido acetilsalicílico e anticoagulação plena, sem qualquer terapia de reperfusão indicada.",
-   "Trombólise endovenosa imediata e avaliar sempre a indicação de trombectomia por oclusão de grande vaso.",
    "Reduzir a pressão arterial agressivamente para valores normais antes de considerar qualquer reperfusão.",
+   "Trombólise endovenosa imediata e avaliar sempre a indicação de trombectomia por oclusão de grande vaso.",
    "Iniciar apenas estatina de alta potência, medida suficiente para a fase aguda do evento isquêmico."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
@@ -138,8 +138,8 @@
   "porAlt": [
    "Aguardar vinte e quatro horas perde a janela terapêutica em que a reperfusão muda o desfecho.",
    "A anticoagulação plena na fase aguda não substitui a reperfusão e aumenta risco hemorrágico.",
-   "Correta: trombólise endovenosa imediata com avaliação simultânea de trombectomia por grande vaso.",
    "Reduzir a pressão de forma agressiva compromete a perfusão da penumbra isquêmica cerebral.",
+   "Correta: trombólise endovenosa imediata com avaliação simultânea de trombectomia por grande vaso.",
    "A estatina é prevenção secundária e não tem papel na reperfusão da fase aguda do evento."
   ]
  },
@@ -170,13 +170,13 @@
  {
   "q": "Paciente com cefaleia crônica diária e uso de analgésico comum em mais de 15 dias por mês há seis meses. Qual é a conduta?",
   "alts": [
-   "Suspender o analgésico de forma programada e iniciar sempre profilaxia adequada para a cefaleia de base.",
    "Aumentar a dose do analgésico em uso para obter controle mais consistente das crises diárias de dor.",
    "Associar opioide de uso contínuo diário como próxima etapa do tratamento dessa cefaleia crônica agora.",
    "Prescrever apenas repouso e observação por doze meses sem qualquer mudança na medicação em uso agora.",
-   "Indicar bloqueio anestésico occipital semanal indefinido como único tratamento para o quadro descrito."
+   "Indicar bloqueio anestésico occipital semanal indefinido como único tratamento para o quadro descrito.",
+   "Suspender o analgésico de forma programada e iniciar sempre profilaxia adequada para a cefaleia de base."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -184,11 +184,11 @@
   "base": "ICHD-3 — Medication-overuse headache; American Headache Society consensus statement, 2021 com revisão 2024",
   "coment": "A cefaleia por uso excessivo de medicação ocorre com analgésicos comuns em quinze ou mais dias por mês, ou triptanos, ergotamínicos, opioides e combinações em dez ou mais dias por mês, por mais de três meses. O tratamento é a retirada da medicação em excesso, associada ao início de profilaxia da cefaleia primária de base e a um plano para o período de rebote. Manter ou aumentar o analgésico perpetua o ciclo e agrava a cronificação da dor.",
   "porAlt": [
-   "Correta: suspender de forma programada a medicação em excesso e iniciar profilaxia da cefaleia de base.",
    "Aumentar a dose agrava a cefaleia por uso excessivo e aprofunda a cronificação do quadro doloroso.",
    "O opioide contínuo é o pior agente nessa condição, com alto poder de cronificação da cefaleia.",
    "Observar sem mudar a medicação mantém o ciclo de uso excessivo e a dor diária do paciente.",
-   "O bloqueio pode ser adjuvante, mas isolado não resolve a cefaleia por uso excessivo de medicação."
+   "O bloqueio pode ser adjuvante, mas isolado não resolve a cefaleia por uso excessivo de medicação.",
+   "Correta: suspender de forma programada a medicação em excesso e iniciar profilaxia da cefaleia de base."
   ]
  },
  {

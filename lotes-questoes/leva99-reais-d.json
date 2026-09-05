@@ -2,13 +2,13 @@
  {
   "q": "Vanda, 92 anos, hipertensa, com diagnóstico de Alzheimer há 16 anos, acamada, estável, sem lesões por pressão, sem histórico recente de internação, tem uma filha, Joana, de 68 anos, que faz o manejo diário: banho no leito, administração de medicação, dieta enteral, mudança de decúbito. A filha está bem orientada e procura se informar sobre o quadro e as melhores condutas. Nesse caso, o plano terapêutico singular deve:",
   "alts": [
-   "dar suporte à cuidadora, acompanhá-la regularmente para avaliação de sobrecarga no cuidado e manter o acompanhamento de Vanda pela equipe da APS",
    "agendar consultas regulares de fisioterapia e fonoaudiologia e encaminhamento à geriatria para acompanhamento da doença de Alzheimer",
    "agendar consultas regulares de nutricionista e encaminhamento ao CER para reabilitação da deglutição",
    "dar suporte à cuidadora e encaminhar Vanda ao serviço de atenção secundária domiciliar para reabilitação da deglutição por fonoaudióloga",
+   "dar suporte à cuidadora, acompanhá-la regularmente para avaliação de sobrecarga no cuidado e manter o acompanhamento de Vanda pela equipe da APS",
    "fornecer acompanhamento regular com fonoaudióloga e nutricionista e encaminhar a paciente ao serviço de cuidados paliativos"
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "prev",
@@ -16,10 +16,10 @@
   "base": "Ministério da Saúde — Política Nacional de Saúde da Pessoa Idosa e Caderno de Atenção Domiciliar, 2023; ANCP, Manual de Cuidados Paliativos, 2021",
   "coment": "Em demência avançada com paciente acamada e estável, cuidada em casa por familiar, o plano terapêutico singular se organiza em torno de dois eixos: manter o acompanhamento longitudinal pela equipe de atenção primária, que já responde pelo território, e cuidar de quem cuida. A sobrecarga do cuidador é fator de risco para adoecimento próprio e para falha do cuidado, e deve ser avaliada de forma sistemática, com instrumentos como a escala de Zarit. Encaminhamentos para reabilitação não têm objetivo realista nesse estágio e fragmentam o cuidado sem benefício.",
   "porAlt": [
-   "Correta: apoiar a cuidadora, monitorar sua sobrecarga e manter o acompanhamento pela equipe de atenção primária.",
    "Reabilitação e encaminhamento à geriatria não mudam o curso da demência avançada em paciente acamada e estável.",
    "Reabilitação da deglutição não tem meta funcional realista nesse estágio.",
    "O apoio à cuidadora está correto, mas o encaminhamento para reabilitação não se sustenta.",
+   "Correta: apoiar a cuidadora, monitorar sua sobrecarga e manter o acompanhamento pela equipe de atenção primária.",
    "A paciente já está em cuidado de conforto conduzido em casa; encaminhamentos múltiplos fragmentam sem agregar."
   ],
   "fonte": {
@@ -30,13 +30,13 @@
  {
   "q": "Um senhor de 82 anos comparece à consulta queixando-se de uma cefaleia de início recente. Exame físico sem particularidades, exceto por espessamento da artéria temporal à palpação. Nesse contexto:",
   "alts": [
-   "PCR elevada aumenta a chance de arterite de células gigantes",
    "VHS > 100 mm/h aumenta a chance de arterite de células gigantes",
+   "PCR elevada aumenta a chance de arterite de células gigantes",
    "tomografia craniana é essencial para excluir diagnósticos outros, antes de se pensar em arterite de células gigantes",
    "radiografia craniana é essencial para excluir diagnósticos outros, antes de se pensar em arterite de células gigantes",
    "ressonância magnética craniana é essencial para excluir outros diagnósticos, antes de se pensar em arterite de células gigantes"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "dx",
@@ -44,8 +44,8 @@
   "base": "ACR/EULAR classification criteria for giant cell arteritis, 2022; EULAR recommendations for the management of large vessel vasculitis, 2018",
   "coment": "Cefaleia de início recente em pessoa acima de 50 anos com artéria temporal espessada levanta suspeita de arterite de células gigantes. Entre os marcadores, a velocidade de hemossedimentação acima de 100 mm/h tem forte razão de verossimilhança positiva, enquanto elevação isolada de proteína C reativa é achado inespecífico. O diagnóstico se apoia em critérios clínicos e laboratoriais, com ultrassonografia de artérias temporais mostrando o sinal do halo ou biópsia. Diante de sintoma visual, o corticoide em dose alta é iniciado imediatamente, antes de qualquer confirmação, para prevenir cegueira.",
   "porAlt": [
-   "A proteína C reativa elevada é inespecífica e não discrimina tanto quanto a velocidade de hemossedimentação muito alta.",
    "Correta: velocidade de hemossedimentação acima de 100 mm/h aumenta substancialmente a probabilidade de arterite de células gigantes.",
+   "A proteína C reativa elevada é inespecífica e não discrimina tanto quanto a velocidade de hemossedimentação muito alta.",
    "Tomografia de crânio não é exame necessário antes de considerar o diagnóstico.",
    "Radiografia de crânio não tem papel na investigação.",
    "Ressonância de crânio não é pré-requisito para levantar a hipótese; a imagem útil é a ultrassonografia das temporais."
@@ -214,13 +214,13 @@
  {
   "q": "Uma paciente de 47 anos, que vinha em uso de medicações para controle de transtorno bipolar, é levada para atendimento com alteração do nível de consciência, confusão mental, sudorese e desorientação. Ao exame, foi observada rigidez muscular generalizada, especialmente em membros superiores e inferiores. Apresentou pressão arterial de 172 por 104 mmHg, frequência cardíaca de 109 batimentos por minuto, frequência respiratória de 24 incursões respiratórias por minuto e temperatura axilar de 39,2 °C. O exame laboratorial revelou aumento significativo de creatinofosfoquinase sérica, sem alterações nas transaminases. Como a equipe médica suspeitou de síndrome neuroléptica maligna, suspendeu as medicações em uso e iniciou terapia de suporte clínico. Fazem parte do arsenal terapêutico da síndrome neuroléptica maligna as seguintes medicações:",
   "alts": [
+   "dantrolene e bromocriptina",
    "haloperidol e fenitoína",
    "quetiapina e olanzapina",
-   "dantrolene e bromocriptina",
    "risperidona e carbamazepina",
    "oxcarbazepina e prometazina"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "psiq",
   "cenario": "uti",
   "comp": "urg",
@@ -228,9 +228,9 @@
   "base": "American Psychiatric Association — Practice Guideline for the Treatment of Patients With Schizophrenia, 2020; UpToDate/consensos sobre síndrome neuroléptica maligna",
   "coment": "A síndrome neuroléptica maligna combina hipertermia, rigidez muscular generalizada, disautonomia e alteração do nível de consciência, com elevação acentuada de creatinoquinase e risco de rabdomiólise e lesão renal. O tratamento é suspender imediatamente o agente antidopaminérgico, oferecer suporte intensivo com resfriamento e hidratação vigorosa e, nos casos moderados a graves, associar dantroleno, que age no músculo, e agonista dopaminérgico como bromocriptina ou amantadina. Benzodiazepínico ajuda na agitação e na rigidez, e eletroconvulsoterapia é opção refratária.",
   "porAlt": [
+   "Correta: dantroleno e bromocriptina, associados à suspensão do agente e ao suporte intensivo.",
    "Haloperidol é justamente o tipo de fármaco que desencadeia a síndrome.",
    "Antipsicóticos atípicos também bloqueiam dopamina e não tratam a síndrome.",
-   "Correta: dantroleno e bromocriptina, associados à suspensão do agente e ao suporte intensivo.",
    "Risperidona é antipsicótico e a carbamazepina não trata a síndrome.",
    "Oxcarbazepina e prometazina não têm papel; a prometazina inclusive bloqueia dopamina."
   ],
@@ -243,12 +243,12 @@
   "q": "Tatiana vem à consulta médica com queixa de dor lombar. Em sua consulta anterior, apresentou pressão arterial de 120 x 65 mmHg, FC normal, peso 59 kg, altura 1,60 m e FR normal. Em seu prontuário, seu último Papanicolau foi há 3 anos. Tatiana relata se sentir sem energia e ter medo de essas dores serem alguma doença ruim. Diz que não tem conseguido mais dormir de preocupação. Em relação ao registro das informações fornecidas por Tatiana no Registro Clínico Orientado por Problemas (RCOP), é correto afirmar que:",
   "alts": [
    "devem ser registradas no campo Subjetivo as informações \"apresentou pressão arterial 120 x 65 mmHg, FC normal, peso 59 kg, altura 1,60 m e FR normal\"",
-   "devem ser registradas no campo Objetivo as informações \"apresentou pressão arterial 120 x 65 mmHg, FC normal, peso 59 kg, altura 1,60 m e FR normal\"",
    "devem ser registradas no campo Avaliação as informações \"apresentou pressão arterial 120 x 65 mmHg, FC normal, peso 59 kg, altura 1,60 m e FR normal\"",
+   "devem ser registradas no campo Objetivo as informações \"apresentou pressão arterial 120 x 65 mmHg, FC normal, peso 59 kg, altura 1,60 m e FR normal\"",
    "devem ser registradas no campo Avaliação as informações \"Tatiana relata se sentir sem energia e ter medo de essas dores serem alguma doença ruim. Diz que não tem conseguido mais dormir de preocupação\"",
    "as informações \"Tatiana relata se sentir sem energia e ter medo de essas dores serem alguma doença ruim. Diz que não tem conseguido mais dormir de preocupação\" não são relevantes; logo, não devem ser registradas no RCOP"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -257,8 +257,8 @@
   "coment": "No registro clínico orientado por problemas, organizado pelo método SOAP, o campo Subjetivo reúne o que o paciente relata — sintomas, preocupações, contexto; o Objetivo reúne o que o profissional mede ou observa, como sinais vitais, medidas antropométricas e achados de exame físico e complementares; a Avaliação traz a hipótese e a interpretação; e o Plano descreve conduta, exames solicitados e orientações. Sinais vitais e medidas antropométricas são, portanto, dado objetivo, e o medo e a insônia relatados são conteúdo subjetivo relevante, não descartável.",
   "porAlt": [
    "Sinais vitais e medidas antropométricas não são relato do paciente, e sim dado medido.",
-   "Correta: pressão, frequências, peso e altura pertencem ao campo Objetivo.",
    "A Avaliação registra hipótese e interpretação, não os dados brutos medidos.",
+   "Correta: pressão, frequências, peso e altura pertencem ao campo Objetivo.",
    "O relato de falta de energia, medo e insônia é conteúdo subjetivo, não avaliação.",
    "Esse relato é clinicamente relevante e deve ser registrado no campo Subjetivo."
   ],

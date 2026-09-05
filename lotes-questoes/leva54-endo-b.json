@@ -3,12 +3,12 @@
   "q": "Homem de 55 anos com diabetes tipo 2, hemoglobina glicada de 8,4%, doença renal crônica com albuminúria e obesidade. Qual é a conduta?",
   "alts": [
    "Sulfonilureia isolada em dose plena, escolha preferencial para o paciente com doença renal e albuminúria.",
+   "Metformina associada a inibidor de SGLT2, sempre pelo benefício renal e cardiovascular demonstrado.",
    "Insulina basal isolada como primeira escolha antes de qualquer antidiabético oral nesse paciente.",
    "Apenas orientação dietética por doze meses antes de considerar qualquer tratamento medicamentoso.",
-   "Glitazona em dose plena, escolha preferencial pelo benefício renal em pacientes com albuminúria.",
-   "Metformina associada a inibidor de SGLT2, sempre pelo benefício renal e cardiovascular demonstrado."
+   "Glitazona em dose plena, escolha preferencial pelo benefício renal em pacientes com albuminúria."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -17,22 +17,22 @@
   "coment": "Em diabetes tipo 2 com doença renal crônica e albuminúria, os inibidores de SGLT2 são indicados independentemente da hemoglobina glicada, por reduzirem progressão da doença renal, internação por insuficiência cardíaca e morte cardiovascular. A metformina permanece como base enquanto a filtração glomerular for maior que 30 mL/min/1,73 m². Agonistas de GLP-1 são a escolha adicional quando se busca perda de peso e proteção cardiovascular.",
   "porAlt": [
    "A sulfonilureia causa hipoglicemia e ganho de peso, sem benefício renal ou cardiovascular provado.",
+   "Correta: metformina com inibidor de SGLT2, pelo benefício renal e cardiovascular demonstrado.",
    "A insulina basal não é primeira escolha aqui e não oferece a proteção renal buscada neste caso.",
    "Adiar por doze meses em paciente com glicada de 8,4% e doença renal permite progressão evitável.",
-   "A glitazona causa retenção hídrica e ganho de peso, sem o benefício renal atribuído ao SGLT2.",
-   "Correta: metformina com inibidor de SGLT2, pelo benefício renal e cardiovascular demonstrado."
+   "A glitazona causa retenção hídrica e ganho de peso, sem o benefício renal atribuído ao SGLT2."
   ]
  },
  {
   "q": "Mulher de 45 anos com TSH de 12 mUI/L e T4 livre baixo, com fadiga e ganho de peso. Qual é a conduta?",
   "alts": [
-   "Iniciar levotiroxina em jejum e reavaliar sempre a função tireoidiana após seis a oito semanas.",
    "Iniciar metimazol em dose plena, tratamento indicado para o padrão hormonal descrito no enunciado.",
    "Solicitar apenas ultrassonografia de tireoide e adiar o tratamento até o resultado do exame de imagem.",
    "Prescrever apenas iodo em dose alta, medida suficiente para normalizar os hormônios tireoidianos.",
-   "Indicar tireoidectomia total, tratamento de escolha para o hipotireoidismo primário diagnosticado."
+   "Indicar tireoidectomia total, tratamento de escolha para o hipotireoidismo primário diagnosticado.",
+   "Iniciar levotiroxina em jejum e reavaliar sempre a função tireoidiana após seis a oito semanas."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -40,11 +40,11 @@
   "base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; SBEM — Consenso de hipotireoidismo, 2022",
   "coment": "TSH elevado com T4 livre baixo define hipotireoidismo primário franco, cujo tratamento é levotiroxina, tipicamente 1,6 microgramas por quilo ao dia em adultos jovens sem cardiopatia, com dose inicial menor no idoso e no coronariopata. A absorção exige jejum, com intervalo de trinta a sessenta minutos antes do café e afastamento de cálcio, ferro e inibidores de bomba de prótons. O TSH é reavaliado em seis a oito semanas, tempo necessário para o novo equilíbrio.",
   "porAlt": [
-   "Correta: levotiroxina em jejum, com reavaliação do TSH após seis a oito semanas de tratamento.",
    "O metimazol trata hipertireoidismo e agravaria ainda mais o hipotireoidismo descrito no caso.",
    "A ultrassonografia avalia a morfologia e não deve atrasar a reposição hormonal já indicada.",
    "O iodo isolado não trata hipotireoidismo primário e pode agravar a disfunção em alguns casos.",
-   "A tireoidectomia é tratamento de doença nodular ou hipertireoidismo, não do hipotireoidismo."
+   "A tireoidectomia é tratamento de doença nodular ou hipertireoidismo, não do hipotireoidismo.",
+   "Correta: levotiroxina em jejum, com reavaliação do TSH após seis a oito semanas de tratamento."
   ]
  },
  {
@@ -75,12 +75,12 @@
   "q": "Mulher de 30 anos com perda de peso, tremor, taquicardia, exoftalmia e TSH suprimido com T4 livre elevado. Qual é o diagnóstico e a conduta inicial?",
   "alts": [
    "Tireoidite de Hashimoto, tratada com reposição de levotiroxina em dose plena desde o diagnóstico agora.",
-   "Doença de Graves, tratada sempre com antitireoidiano e betabloqueador para controle sintomático inicial.",
    "Hipotireoidismo central, condição que cursa com exoftalmia e supressão do TSH com T4 livre elevado.",
    "Adenoma hipofisário produtor de TSH, definido por TSH suprimido com hormônios periféricos elevados.",
+   "Doença de Graves, tratada sempre com antitireoidiano e betabloqueador para controle sintomático inicial.",
    "Carcinoma medular de tireoide, já que cursa com exoftalmia, TSH suprimido e T4 livre francamente elevado."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
@@ -89,9 +89,9 @@
   "coment": "Hipertireoidismo com exoftalmia caracteriza doença de Graves, autoimune, mediada por anticorpos estimuladores do receptor de TSH. O tratamento inicial combina antitireoidiano — metimazol, exceto no primeiro trimestre de gestação, quando se usa propiltiouracila — e betabloqueador para controle de sintomas adrenérgicos. As alternativas definitivas são iodo radioativo, evitado na orbitopatia moderada a grave por poder agravá-la, e tireoidectomia.",
   "porAlt": [
    "A tireoidite de Hashimoto cursa com hipotireoidismo, o oposto do padrão hormonal descrito aqui.",
-   "Correta: doença de Graves, tratada com antitireoidiano e betabloqueador para controle dos sintomas.",
    "O hipotireoidismo central cursa com T4 livre baixo, e não com o T4 elevado do enunciado.",
    "O adenoma produtor de TSH cursa com TSH normal ou elevado, e não suprimido como no caso.",
+   "Correta: doença de Graves, tratada com antitireoidiano e betabloqueador para controle dos sintomas.",
    "O carcinoma medular deriva das células C e não altera esse padrão hormonal nem causa exoftalmia."
   ]
  },
@@ -123,12 +123,12 @@
   "q": "Mulher de 38 anos com hipertensão de difícil controle, hipocalemia espontânea e alcalose metabólica. Qual é a investigação inicial?",
   "alts": [
    "Dosagem isolada de cortisol salivar noturno, exame indicado para o rastreio do hiperaldosteronismo primário.",
-   "Relação aldosterona-renina plasmática, sempre com atenção aos fármacos que interferem no resultado agora.",
    "Cintilografia de paratireoides, exame que investiga a causa da hipocalemia e da hipertensão descrita.",
+   "Relação aldosterona-renina plasmática, sempre com atenção aos fármacos que interferem no resultado agora.",
    "Dosagem isolada de hormônio tireoestimulante, exame que estabelece o diagnóstico do quadro descrito.",
    "Apenas ultrassonografia de rins e vias urinárias, exame que confirma o hiperaldosteronismo primário."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
@@ -137,8 +137,8 @@
   "coment": "Hipertensão resistente com hipocalemia espontânea e alcalose metabólica sugere hiperaldosteronismo primário, hoje reconhecido como a causa secundária mais frequente de hipertensão. O rastreio é a relação entre aldosterona e atividade de renina plasmática, colhida pela manhã com o paciente sentado, corrigindo hipocalemia antes e suspendendo espironolactona por quatro a seis semanas. Após confirmação, tomografia de adrenais e cateterismo de veias adrenais definem lateralização.",
   "porAlt": [
    "O cortisol salivar noturno rastreia síndrome de Cushing, hipótese distinta da sugerida neste caso.",
-   "Correta: relação aldosterona-renina, com atenção aos fármacos e à correção prévia da hipocalemia.",
    "A cintilografia de paratireoides investiga hiperparatireoidismo, que não explica o quadro descrito.",
+   "Correta: relação aldosterona-renina, com atenção aos fármacos e à correção prévia da hipocalemia.",
    "O hormônio tireoestimulante avalia a tireoide e não investiga a causa suspeitada neste paciente.",
    "A ultrassonografia renal não avalia a produção de aldosterona nem confirma o diagnóstico suspeitado."
   ]
@@ -149,10 +149,10 @@
    "Prescrever apenas cálcio e vitamina D isolados, medidas suficientes para prevenir novas fraturas ósseas.",
    "Indicar apenas fisioterapia motora, sem qualquer tratamento medicamentoso específico para o osso.",
    "Iniciar corticoide sistêmico em dose baixa, medida que aumenta a densidade mineral óssea do paciente.",
-   "Iniciar bisfosfonato com cálcio e vitamina D, sempre após avaliar causas secundárias de perda óssea.",
-   "Repetir a densitometria em cinco anos antes de considerar qualquer tratamento farmacológico específico."
+   "Repetir a densitometria em cinco anos antes de considerar qualquer tratamento farmacológico específico.",
+   "Iniciar bisfosfonato com cálcio e vitamina D, sempre após avaliar causas secundárias de perda óssea."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -163,8 +163,8 @@
    "Cálcio e vitamina D isolados são insuficientes para reduzir o risco de nova fratura por fragilidade.",
    "A fisioterapia é complementar e não substitui o tratamento farmacológico com evidência de eficácia.",
    "O corticoide reduz a densidade mineral óssea e é causa importante de osteoporose secundária.",
-   "Correta: bisfosfonato com cálcio e vitamina D, após investigação de causas secundárias de perda óssea.",
-   "Adiar o tratamento por cinco anos após fratura por fragilidade expõe a novas fraturas evitáveis."
+   "Adiar o tratamento por cinco anos após fratura por fragilidade expõe a novas fraturas evitáveis.",
+   "Correta: bisfosfonato com cálcio e vitamina D, após investigação de causas secundárias de perda óssea."
   ]
  },
  {
@@ -196,11 +196,11 @@
   "alts": [
    "Prescrever apenas dieta hipocalórica isolada por vinte e quatro meses antes de qualquer outra medida.",
    "Aumentar a dose de insulina indefinidamente como única estratégia para o controle glicêmico do paciente.",
-   "Indicar apenas atividade física supervisionada, medida isolada suficiente para reverter o quadro descrito.",
    "Avaliar indicação de cirurgia metabólica, considerada sempre em equipe multiprofissional especializada.",
+   "Indicar apenas atividade física supervisionada, medida isolada suficiente para reverter o quadro descrito.",
    "Prescrever diurético em dose alta para reduzir o peso corporal e melhorar o controle metabólico agora."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
@@ -210,8 +210,8 @@
   "porAlt": [
    "Dieta isolada por dois anos raramente sustenta perda suficiente nesse grau de obesidade.",
    "Aumentar insulina indefinidamente promove ganho de peso e piora o ciclo metabólico do paciente.",
-   "A atividade física é essencial, mas isolada não produz a perda de peso necessária nesse grau.",
    "Correta: avaliar indicação de cirurgia metabólica em equipe multiprofissional especializada.",
+   "A atividade física é essencial, mas isolada não produz a perda de peso necessária nesse grau.",
    "Diuréticos reduzem água corporal e não gordura, sem qualquer benefício metabólico sustentado."
   ]
  },

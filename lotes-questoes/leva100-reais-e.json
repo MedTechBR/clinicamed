@@ -341,12 +341,12 @@
   "q": "Uma paciente de 49 anos foi internada na enfermaria de clínica médica por quadro de síndrome consumptiva, ascite e fraqueza em membros inferiores. A paciente conta que tudo começou 1 ano antes com dormência nas pernas ascendendo até o meio da perna e posterior redução de força em membros inferiores. Naquela época, houve turvação visual e cefaleia. Com aproximadamente 4 meses de sintomas, sem limitação para trabalhar e realizar as tarefas da vida diária, a cefaleia e a turvação visual ficaram mais proeminentes. Segundo a paciente, foram realizados diversos exames (ressonância de crânio, coluna cervical e lombar), sem evidência de alterações. A pressão do liquor estava alta, motivando o uso de acetazolamida por 8 meses (até a internação). No dia da internação, pôde-se observar hepatoesplenomegalia, ascite de grande volume, déficit sensitivo-motor distal em membros inferiores com hiporreflexia, fenômeno de Raynaud, cistos em tireoide (ultrassom confirmando e uso prévio de levotiroxina) e lesões cutâneas hipercrômicas. Outros exames demonstraram lesões osteoescleróticas em esterno, derrame pleural e pericárdico e padrão de polirradiculoneuropatia desmielinizante crônica. A conduta adequada para o quadro é:",
   "alts": [
    "dosagem de fator reumatoide, fator antinuclear, anti-Scl-70, anticentrômero e pulsoterapia por provável doença do tecido conjuntivo indiferenciada ou sobreposição de lúpus com esclerodermia em evolução grave",
-   "dosagem de eletroforese de proteínas séricas e urinárias com imunofixação em busca de pico monoclonal",
    "biópsia de gordura abdominal em busca de proteína amiloide",
    "biópsia de peritônio se o gradiente soro-ascite for menor que 1,1",
-   "punção aspirativa de cisto tireoidiano"
+   "punção aspirativa de cisto tireoidiano",
+   "dosagem de eletroforese de proteínas séricas e urinárias com imunofixação em busca de pico monoclonal"
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "hemato",
   "cenario": "enf",
   "comp": "dx",
@@ -355,10 +355,10 @@
   "coment": "Polineuropatia progressiva associada a organomegalia, ascite, hipertensão intracraniana com papiledema e síndrome consumptiva sugere gamopatia monoclonal com manifestação sistêmica, como a síndrome POEMS ou a amiloidose de cadeia leve. O passo diagnóstico é a eletroforese de proteínas séricas e urinárias com imunofixação, à procura de componente monoclonal, complementada pela dosagem de cadeias leves livres. Só depois se investiga o órgão-alvo por biópsia. Fechar o caso como doença do tecido conjuntivo e pulsar corticoide sem essa etapa retarda o diagnóstico.",
   "porAlt": [
    "Painel de autoanticorpos com pulsoterapia empírica não explica o conjunto e adia o diagnóstico correto.",
-   "Correta: eletroforese de proteínas séricas e urinárias com imunofixação, buscando componente monoclonal.",
    "A biópsia de gordura investiga amiloidose, mas vem depois da triagem sorológica e urinária.",
    "A biópsia de peritônio investiga causa peritoneal da ascite, que não explica a neuropatia e o papiledema.",
-   "Punção de cisto tireoidiano não tem relação com o quadro."
+   "Punção de cisto tireoidiano não tem relação com o quadro.",
+   "Correta: eletroforese de proteínas séricas e urinárias com imunofixação, buscando componente monoclonal."
   ],
   "fonte": {
    "banca": "ENARE (EBSERH/FGV)",
@@ -368,13 +368,13 @@
  {
   "q": "Uma mulher de 20 anos se queixa de edema generalizado iniciado há 3 semanas, que evoluiu com piora progressiva. Relata hiporexia e astenia nesse período. Desconhece ser portadora de doenças atuais ou prévias e não faz uso de medicamentos ou drogas. Ao exame físico, PA: 160 x 90 mmHg, FC: 97 bpm, FR: 22 ipm, SpO2 98% (em ar ambiente). As mucosas estão hipocoradas, ictéricas e hidratadas. Há edema em face, pálpebras, parede abdominal e membros inferiores. Há também ascite e síndrome de derrame pleural. Exames de laboratório: sangue: Hb: 7,0 g/dL; Hct: 24%; VCM: 98 fL; HCM: 31 pg; CHCM: 32 g/dL; RDW: 18,3%; leucócitos: 3.400/mm³; neutrófilos segmentados: 1.500/mm³; linfócitos: 700/mm³; Plq.: 201.000/mm³; PCR: 28 mg/dL; FAN reagente: 1:320 padrão nuclear homogêneo; anti-DNA reagente; anti-SSA reagente; anti-SSB reagente; anti-Sm reagente; ANCA não reagente; C3: 43 mg/dL (VR 90-170 mg/dL); C4: 10 mg/dL (VR: 12-36 mg/dL); exame de urina: densidade 1.020; pH 6,0; nitrito negativo; proteínas ++++; hemoglobina ++; 4 piócitos/campo, 145 hemácias/campo, presença de cilindros hemáticos. Para investigação da anemia apresentada pela paciente, são solicitados os seguintes exames: LDH: 1150 UI/L (VR: 120-246 UI/L); BT: 4,2 mg/dL; BD: 0,4 mg/dL; reticulócitos: 18%, Coombs direto positivo; ferro sérico: 52 mcg/dL (VR: 65-175 mcg/dL); ferritina 650 ng/mL (VR: 10-291 ng/mL); capacidade total de ligação do ferro: 200 mcg/dL (250-425 mcg/dL). A conduta imediata mais adequada para o tratamento da anemia é:",
   "alts": [
-   "administração de eritropoetina",
    "administração de corticoide",
+   "administração de eritropoetina",
    "reposição de ferro parenteral",
    "hemotransfusão",
    "prescrição de hidroxicloroquina oral"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "enf",
   "comp": "tto",
@@ -382,8 +382,8 @@
   "base": "EULAR recommendations for the management of systemic lupus erythematosus, 2023; KDIGO Clinical Practice Guideline for the Management of Lupus Nephritis, 2024",
   "coment": "Mulher jovem com anasarca, hipertensão, anemia, leucopenia com linfopenia, FAN em título elevado, anti-DNA e anti-Sm reagentes tem lúpus eritematoso sistêmico com provável nefrite lúpica, e o quadro de síndrome nefrótica com atividade sorológica exige imunossupressão. O tratamento começa com corticoide, associado a imunossupressor — micofenolato ou ciclofosfamida, com belimumabe ou voclosporina em esquemas atuais —, com biópsia renal indicada para definir a classe histológica. Hidroxicloroquina é medida de base para todo paciente com lúpus, mas isolada não trata a nefrite ativa.",
   "porAlt": [
-   "Eritropoetina não trata a anemia da doença inflamatória ativa nem a nefrite.",
    "Correta: corticoide, associado a imunossupressor, diante de lúpus com acometimento renal ativo.",
+   "Eritropoetina não trata a anemia da doença inflamatória ativa nem a nefrite.",
    "Ferro parenteral não corrige a causa da anemia neste contexto.",
    "A hemotransfusão não está indicada como conduta central e não trata a doença.",
    "A hidroxicloroquina é terapia de base do lúpus, porém insuficiente isoladamente na nefrite ativa."
@@ -397,12 +397,12 @@
   "q": "O escore BISAP tem sido amplamente utilizado na avaliação prognóstica da pancreatite aguda. Dentre os critérios abaixo, o único que NÃO faz parte desse escore é:",
   "alts": [
    "presença de derrame pleural",
-   "glicemia maior que 200 mg/dL",
    "ureia nitrogenada sérica maior que 25 mg/dL",
    "idade maior que 60 anos",
+   "glicemia maior que 200 mg/dL",
    "alteração do estado mental"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "dx",
@@ -411,9 +411,9 @@
   "coment": "O escore BISAP prevê mortalidade na pancreatite aguda nas primeiras 24 horas e reúne cinco itens, um ponto cada: ureia nitrogenada sérica acima de 25 mg/dL, alteração do estado mental, presença de síndrome da resposta inflamatória sistêmica, idade acima de 60 anos e derrame pleural à imagem. Glicemia não faz parte dele — aparece nos critérios de Ranson, com os quais o BISAP é frequentemente confundido. A vantagem do BISAP é usar dados disponíveis à admissão, sem esperar as 48 horas exigidas pelo escore de Ranson.",
   "porAlt": [
    "Derrame pleural integra o escore.",
-   "Correta: glicemia acima de 200 mg/dL não faz parte do BISAP — é critério de Ranson.",
    "Ureia nitrogenada acima de 25 mg/dL integra o escore.",
    "Idade acima de 60 anos integra o escore.",
+   "Correta: glicemia acima de 200 mg/dL não faz parte do BISAP — é critério de Ranson.",
    "Alteração do estado mental integra o escore."
   ],
   "fonte": {

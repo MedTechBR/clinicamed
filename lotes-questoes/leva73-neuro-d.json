@@ -3,12 +3,12 @@
   "q": "Paciente com acidente vascular cerebral isquêmico prévio, hipertenso e dislipidêmico. Qual é a prevenção secundária adequada?",
   "alts": [
    "Anticoagulação plena para todos os pacientes com acidente vascular cerebral isquêmico prévio, sem exceção.",
-   "Antiagregante, estatina de alta potência e controle pressórico, associados sempre à mudança de estilo de vida.",
    "Apenas controle pressórico isolado, medida suficiente para a prevenção secundária nesse perfil de paciente.",
    "Apenas suplementação vitamínica contínua como estratégia de prevenção secundária de novo evento cerebral.",
-   "Nenhuma medida preventiva enquanto o paciente permanecer assintomático após o evento cerebrovascular agora."
+   "Nenhuma medida preventiva enquanto o paciente permanecer assintomático após o evento cerebrovascular agora.",
+   "Antiagregante, estatina de alta potência e controle pressórico, associados sempre à mudança de estilo de vida."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "prev",
@@ -17,10 +17,10 @@
   "coment": "A prevenção secundária do acidente vascular cerebral isquêmico não cardioembólico combina antiagregante — ácido acetilsalicílico ou clopidogrel, com dupla antiagregação por curto período em eventos menores ou ataque isquêmico transitório de alto risco —, estatina de alta potência com meta de LDL abaixo de 70 mg/dL, controle pressórico rigoroso, controle glicêmico, cessação do tabagismo e atividade física regular. Anticoagulação se reserva à origem cardioembólica.",
   "porAlt": [
    "A anticoagulação se reserva à etiologia cardioembólica e aumenta risco hemorrágico sem essa indicação.",
-   "Correta: antiagregante, estatina de alta potência e controle pressórico, com mudança de estilo de vida.",
    "O controle pressórico isolado deixa de fora antiagregação e estatina, ambas com benefício comprovado.",
    "As vitaminas não reduzem recorrência de acidente vascular cerebral em ensaios clínicos randomizados.",
-   "A ausência de sintomas não reduz o risco de recorrência, que é maior justamente após o primeiro evento."
+   "A ausência de sintomas não reduz o risco de recorrência, que é maior justamente após o primeiro evento.",
+   "Correta: antiagregante, estatina de alta potência e controle pressórico, com mudança de estilo de vida."
   ]
  },
  {
@@ -28,11 +28,11 @@
   "alts": [
    "Manter a pressão elevada para preservar a perfusão cerebral em todos os pacientes com hemorragia cerebral agora.",
    "Reduzir a pressão sistólica abaixo de 90 mmHg de forma rápida para conter a expansão do hematoma neste caso.",
-   "Iniciar anticoagulação plena imediatamente como tratamento da hemorragia intraparenquimatosa descrita agora.",
    "Reduzir a pressão sistólica de forma controlada para valores próximos de 140 mmHg, monitorando sempre o paciente.",
+   "Iniciar anticoagulação plena imediatamente como tratamento da hemorragia intraparenquimatosa descrita agora.",
    "Realizar trombólise endovenosa como tratamento padrão da hemorragia intraparenquimatosa aguda nesse contexto."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "uti",
   "comp": "urg",
@@ -42,8 +42,8 @@
   "porAlt": [
    "Manter a pressão muito elevada favorece a expansão do hematoma nas primeiras horas do evento.",
    "Reduzir abaixo de 90 mmHg compromete a perfusão cerebral e piora a lesão isquêmica secundária.",
-   "A anticoagulação é contraindicada e agrava diretamente o sangramento intracraniano em curso.",
    "Correta: reduzir a sistólica de forma controlada para valores próximos de 140 mmHg com monitorização.",
+   "A anticoagulação é contraindicada e agrava diretamente o sangramento intracraniano em curso.",
    "A trombólise é contraindicada na hemorragia e converteria o quadro em catástrofe neurológica."
   ]
  },
@@ -76,11 +76,11 @@
   "alts": [
    "Suspender definitivamente a terapia modificadora de doença diante do primeiro surto do paciente agora.",
    "Iniciar antibiótico de amplo espectro como tratamento padrão do surto de esclerose múltipla descrito.",
+   "Pulsoterapia com corticoide endovenoso em dose alta, mantendo sempre a terapia modificadora de doença.",
    "Prescrever apenas analgésico e fisioterapia, sem qualquer corticoterapia no surto com déficit incapacitante.",
-   "Realizar plasmaférese como primeira linha em todos os surtos, antes de qualquer tentativa com corticoide.",
-   "Pulsoterapia com corticoide endovenoso em dose alta, mantendo sempre a terapia modificadora de doença."
+   "Realizar plasmaférese como primeira linha em todos os surtos, antes de qualquer tentativa com corticoide."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "enf",
   "comp": "tto",
@@ -90,21 +90,21 @@
   "porAlt": [
    "Suspender a terapia modificadora após um surto aumenta o risco de novos surtos e de progressão.",
    "O antibiótico não trata o surto desmielinizante, embora infecção deva ser afastada como gatilho.",
+   "Correta: pulsoterapia com corticoide endovenoso, mantendo e reavaliando a terapia modificadora.",
    "Analgesia e fisioterapia são adjuvantes e não substituem a corticoterapia no surto incapacitante.",
-   "A plasmaférese é resgate para surtos graves refratários ao corticoide, e não primeira linha.",
-   "Correta: pulsoterapia com corticoide endovenoso, mantendo e reavaliando a terapia modificadora."
+   "A plasmaférese é resgate para surtos graves refratários ao corticoide, e não primeira linha."
   ]
  },
  {
   "q": "Paciente com fraqueza flutuante que piora ao longo do dia, ptose e diplopia, com melhora ao repouso. Qual é o exame confirmatório?",
   "alts": [
    "Apenas tomografia de crânio sem contraste, exame que confirma o diagnóstico do quadro descrito nesse contexto.",
-   "Apenas dosagem de creatinoquinase sérica, exame que estabelece o diagnóstico da fraqueza flutuante neste caso.",
    "Anticorpo antirreceptor de acetilcolina e eletroneuromiografia com estimulação repetitiva, avaliando sempre o timo.",
+   "Apenas dosagem de creatinoquinase sérica, exame que estabelece o diagnóstico da fraqueza flutuante neste caso.",
    "Apenas eletroencefalograma de vigília, exame confirmatório do quadro de fraqueza muscular flutuante neste caso.",
    "Apenas biópsia muscular de rotina como exame inicial e confirmatório do quadro clínico descrito nesse contexto."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "dx",
@@ -113,8 +113,8 @@
   "coment": "A miastenia gravis cursa com fraqueza flutuante e fatigabilidade, com predileção por musculatura ocular, bulbar e proximal, piorando ao esforço e melhorando ao repouso. A confirmação combina anticorpo antirreceptor de acetilcolina, positivo na maioria, ou anticorpo anti-MuSK nos soronegativos, e eletroneuromiografia com estimulação repetitiva mostrando decremento. Toda pessoa com o diagnóstico deve fazer tomografia de tórax para avaliar timoma.",
   "porAlt": [
    "A tomografia de crânio não avalia a junção neuromuscular acometida nessa doença autoimune.",
-   "A creatinoquinase é normal na miastenia, pois não há destruição muscular como nas miopatias.",
    "Correta: anticorpo antirreceptor de acetilcolina com estimulação repetitiva e avaliação do timo.",
+   "A creatinoquinase é normal na miastenia, pois não há destruição muscular como nas miopatias.",
    "O eletroencefalograma avalia atividade cortical e não a transmissão na junção neuromuscular.",
    "A biópsia muscular avalia miopatias e não é o exame confirmatório da miastenia gravis."
   ]
@@ -122,13 +122,13 @@
  {
   "q": "Paciente com cefaleia diária, piora ao deitar e ao esforço, com papiledema ao exame. Qual é a conduta?",
   "alts": [
-   "Neuroimagem urgente e avaliação de hipertensão intracraniana, investigando sempre causa estrutural ou secundária.",
    "Prescrever apenas analgésico comum e reavaliar clinicamente após trinta dias de acompanhamento ambulatorial.",
+   "Neuroimagem urgente e avaliação de hipertensão intracraniana, investigando sempre causa estrutural ou secundária.",
    "Iniciar profilaxia de enxaqueca sem qualquer investigação por imagem no paciente com papiledema descrito agora.",
    "Realizar punção lombar imediata antes de qualquer exame de imagem do sistema nervoso central nesse contexto.",
    "Prescrever apenas colírio lubrificante para o papiledema e liberar o paciente sem investigação adicional agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
@@ -136,8 +136,8 @@
   "base": "ICHD-3 red flags; AAN/AHS practice guidance on secondary headache, revisão 2023",
   "coment": "Papiledema com cefaleia que piora ao deitar e ao esforço indica hipertensão intracraniana e é sinal de alarme absoluto. A conduta é neuroimagem urgente, preferencialmente ressonância com venografia, para excluir lesão expansiva, hidrocefalia e trombose venosa cerebral. Excluída causa estrutural, considera-se hipertensão intracraniana idiopática, cujo diagnóstico exige punção lombar com medida de pressão de abertura, feita somente após a imagem.",
   "porAlt": [
-   "Correta: neuroimagem urgente para investigar causa estrutural ou secundária de hipertensão intracraniana.",
    "Analgésico e espera de trinta dias diante de papiledema podem custar a visão e a vida do paciente.",
+   "Correta: neuroimagem urgente para investigar causa estrutural ou secundária de hipertensão intracraniana.",
    "Tratar como enxaqueca ignora um sinal de alarme que exige investigação estrutural imediata.",
    "A punção antes da imagem arrisca herniação quando há lesão expansiva intracraniana não diagnosticada.",
    "O papiledema é sinal de hipertensão intracraniana e não se trata com colírio lubrificante."
@@ -171,12 +171,12 @@
   "q": "Paciente com quadro súbito de afasia e hemiparesia que reverteu completamente em 40 minutos. Qual é a conduta?",
   "alts": [
    "Liberar sem investigação, pois a reversão completa dos sintomas afasta qualquer risco de novo evento nesse contexto.",
-   "Agendar investigação ambulatorial eletiva para daqui a três meses, sem qualquer medida preventiva imediata neste caso.",
    "Investigar e iniciar prevenção secundária imediatamente, pois o risco de novo evento é sempre maior nos primeiros dias.",
+   "Agendar investigação ambulatorial eletiva para daqui a três meses, sem qualquer medida preventiva imediata neste caso.",
    "Iniciar trombólise endovenosa mesmo com os sintomas já completamente revertidos no momento da avaliação neste caso.",
    "Prescrever apenas analgésico e orientar retorno somente se os sintomas voltarem a se manifestar para este paciente."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
@@ -185,8 +185,8 @@
   "coment": "O ataque isquêmico transitório é urgência: o risco de acidente vascular cerebral é maior nas primeiras quarenta e oito horas e nos primeiros sete dias. A conduta é investigação rápida com neuroimagem, avaliação de carótidas, eletrocardiograma e busca de fibrilação atrial, além de ecocardiograma quando indicado, com início imediato da prevenção secundária. Em eventos de alto risco pelo escore ABCD2, indica-se dupla antiagregação por curto período.",
   "porAlt": [
    "A reversão dos sintomas não afasta risco: o ataque transitório é justamente um aviso de evento maior.",
-   "Adiar por três meses desperdiça a janela em que a prevenção secundária tem maior impacto absoluto.",
    "Correta: investigar e iniciar prevenção secundária de imediato, pois o risco é máximo nos primeiros dias.",
+   "Adiar por três meses desperdiça a janela em que a prevenção secundária tem maior impacto absoluto.",
    "A trombólise não se aplica a paciente sem déficit no momento da avaliação clínica.",
    "Orientar retorno apenas se houver recidiva deixa sem prevenção o período de maior risco."
   ]
@@ -194,13 +194,13 @@
  {
   "q": "Paciente com tremor de ação bilateral e simétrico das mãos, que melhora com álcool e tem história familiar. Qual é o tratamento?",
   "alts": [
-   "Propranolol ou primidona como primeira linha, indicados sempre quando há prejuízo funcional relevante.",
    "Levodopa em dose plena como tratamento de escolha para o tremor de ação bilateral descrito no caso.",
+   "Propranolol ou primidona como primeira linha, indicados sempre quando há prejuízo funcional relevante.",
    "Antipsicótico típico em dose alta como primeira linha para o tremor essencial com história familiar.",
    "Corticoide sistêmico contínuo como tratamento de escolha para o tremor de ação bilateral e simétrico.",
    "Estimular o consumo regular de álcool como estratégia terapêutica de longo prazo para o tremor descrito."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
@@ -208,8 +208,8 @@
   "base": "AAN practice guideline update on essential tremor, revisão 2023; Movement Disorder Society consensus, 2022",
   "coment": "O tremor essencial é o distúrbio de movimento mais frequente, tipicamente bilateral, de ação e postural, com história familiar em boa parte dos casos e melhora transitória com álcool. O tratamento é indicado quando há prejuízo funcional, e a primeira linha é propranolol ou primidona, isolados ou combinados. Casos refratários e incapacitantes podem se beneficiar de estimulação cerebral profunda ou de ultrassom focalizado guiado por ressonância.",
   "porAlt": [
-   "Correta: propranolol ou primidona em primeira linha quando há prejuízo funcional relevante.",
    "A levodopa trata o parkinsonismo e não é eficaz no tremor essencial de ação e postural.",
+   "Correta: propranolol ou primidona em primeira linha quando há prejuízo funcional relevante.",
    "Antipsicóticos podem causar tremor por parkinsonismo induzido e não tratam o tremor essencial.",
    "O corticoide não tem qualquer papel no tratamento do tremor essencial descrito neste caso.",
    "Estimular consumo regular de álcool cria risco de dependência e é conduta inaceitável."

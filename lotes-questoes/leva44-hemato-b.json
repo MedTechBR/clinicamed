@@ -26,13 +26,13 @@
  {
   "q": "Homem de 68 anos com linfocitose de 45.000/mm³ persistente, linfócitos maduros, sem sintomas, sem citopenias, sem linfonodomegalia volumosa. Qual é a conduta?",
   "alts": [
-   "Imunofenotipagem de sangue periférico e sempre observação vigilante se o estágio for inicial.",
    "Iniciar imediatamente quimioimunoterapia, pois a linfocitose isolada já indica tratamento urgente.",
    "Realizar esplenectomia diagnóstica antes de qualquer caracterização imunofenotípica da doença.",
    "Solicitar apenas hemograma seriado, sem qualquer caracterização por citometria de fluxo agora.",
+   "Imunofenotipagem de sangue periférico e sempre observação vigilante se o estágio for inicial.",
    "Iniciar corticoide em dose alta e prolongada, já que reduz a linfocitose e altera a sobrevida."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
@@ -40,10 +40,10 @@
   "base": "iwCLL guidelines, 2018; NCCN Chronic Lymphocytic Leukemia, 2024",
   "coment": "A leucemia linfocítica crônica é diagnosticada por imunofenotipagem de sangue periférico mostrando clone B com CD5, CD19, CD23 e cadeia leve restrita, com pelo menos 5.000 linfócitos B clonais por milímetro cúbico. Não é necessária biópsia de medula. Estágios iniciais assintomáticos, sem citopenia nem massa volumosa, são acompanhados sem tratamento: tratar cedo não prolonga a sobrevida. As indicações de tratar incluem citopenia progressiva, sintomas B, massa sintomática e tempo de duplicação curto.",
   "porAlt": [
-   "Correta: imunofenotipagem confirma o clone e o estágio inicial assintomático é apenas observado.",
    "Linfocitose isolada não indica tratamento; tratar cedo não melhora a sobrevida nesta doença.",
    "A esplenectomia não tem papel diagnóstico e a citometria de fluxo resolve o caso sem cirurgia.",
    "O hemograma seriado não distingue clone neoplásico de linfocitose reativa persistente.",
+   "Correta: imunofenotipagem confirma o clone e o estágio inicial assintomático é apenas observado.",
    "O corticoide isolado não altera a história natural e traz toxicidade e risco infeccioso."
   ]
  },
@@ -52,11 +52,11 @@
   "alts": [
    "Transfusão de plaquetas em alto volume, primeira medida para corrigir a plaquetopenia grave.",
    "Heparina em dose plena, tratamento de escolha para a microangiopatia trombótica descrita.",
-   "Aguardar o resultado da ADAMTS13 antes de qualquer intervenção terapêutica ser iniciada.",
    "Plasmaférese de urgência e corticoide, sempre antes do resultado da atividade da ADAMTS13.",
+   "Aguardar o resultado da ADAMTS13 antes de qualquer intervenção terapêutica ser iniciada.",
    "Corticoide isolado por via oral, já suficiente para reverter o quadro sem procedimento invasivo."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "hemato",
   "cenario": "uti",
   "comp": "urg",
@@ -66,8 +66,8 @@
   "porAlt": [
    "A transfusão de plaquetas pode agravar a trombose microvascular e é evitada nesta condição.",
    "A anticoagulação plena não trata a microangiopatia e aumenta o risco de sangramento grave.",
-   "Esperar o resultado da ADAMTS13 atrasa a plasmaférese e aumenta muito a mortalidade do quadro.",
    "Correta: plasmaférese de urgência com corticoide, iniciada pela suspeita clínica, sem aguardar exame.",
+   "Esperar o resultado da ADAMTS13 atrasa a plasmaférese e aumenta muito a mortalidade do quadro.",
    "O corticoide isolado não substitui a plasmaférese, que é a intervenção que reduz a mortalidade."
   ]
  },
@@ -75,12 +75,12 @@
   "q": "Homem de 72 anos com dor lombar, anemia, cálcio de 11,8 mg/dL e creatinina de 2,4 mg/dL. Qual exame confirma a suspeita diagnóstica principal?",
   "alts": [
    "Cintilografia óssea, exame de escolha para detectar as lesões líticas típicas dessa doença agora.",
+   "Eletroforese de proteínas com imunofixação e cadeias leves livres séricas, sempre com mielograma.",
    "Dosagem isolada de fosfatase alcalina, que se eleva de forma característica nessa condição agora.",
    "Biópsia de linfonodo cervical, procedimento que estabelece o diagnóstico nesse cenário clínico.",
-   "Apenas radiografia simples de coluna lombar, suficiente para o diagnóstico definitivo do caso.",
-   "Eletroforese de proteínas com imunofixação e cadeias leves livres séricas, sempre com mielograma."
+   "Apenas radiografia simples de coluna lombar, suficiente para o diagnóstico definitivo do caso."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "hemato",
   "cenario": "enf",
   "comp": "dx",
@@ -89,22 +89,22 @@
   "coment": "A tétrade de hipercalcemia, insuficiência renal, anemia e lesão óssea aponta mieloma múltiplo. O diagnóstico exige demonstrar a proteína monoclonal — eletroforese com imunofixação em soro e urina e cadeias leves livres séricas — e plasmocitose clonal na medula, além de imagem para lesões ósseas, preferencialmente tomografia de baixa dose, ressonância ou PET, e não cintilografia óssea, que é falsamente negativa por serem lesões líticas sem resposta osteoblástica.",
   "porAlt": [
    "A cintilografia óssea costuma ser negativa porque as lesões são líticas, sem reação osteoblástica.",
+   "Correta: eletroforese com imunofixação, cadeias leves livres e avaliação medular fecham o diagnóstico.",
    "A fosfatase alcalina permanece tipicamente normal, justamente pela ausência de atividade osteoblástica.",
    "A biópsia de linfonodo investiga linfoma, e não a discrasia plasmocitária suspeitada aqui.",
-   "A radiografia mostra lesões tardias e não demonstra a proteína monoclonal exigida pelo diagnóstico.",
-   "Correta: eletroforese com imunofixação, cadeias leves livres e avaliação medular fecham o diagnóstico."
+   "A radiografia mostra lesões tardias e não demonstra a proteína monoclonal exigida pelo diagnóstico."
   ]
  },
  {
   "q": "Paciente em uso de heparina há sete dias apresenta queda de plaquetas de 240.000 para 80.000/mm³ e trombose venosa nova. Qual é a conduta?",
   "alts": [
    "Manter a heparina em dose plena e transfundir plaquetas para corrigir a plaquetopenia observada.",
-   "Suspender toda heparina e iniciar anticoagulante alternativo, sempre sem aguardar sorologia.",
    "Trocar a heparina não fracionada por heparina de baixo peso molecular em dose terapêutica.",
    "Suspender a heparina e não anticoagular, pela plaquetopenia e pelo risco elevado de sangramento.",
+   "Suspender toda heparina e iniciar anticoagulante alternativo, sempre sem aguardar sorologia.",
    "Iniciar varfarina isoladamente logo após a suspensão, sem qualquer anticoagulante parenteral."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "hemato",
   "cenario": "enf",
   "comp": "urg",
@@ -113,9 +113,9 @@
   "coment": "A trombocitopenia induzida por heparina é um estado protrombótico mediado por anticorpos contra o complexo heparina e fator plaquetário 4. Queda superior a cinquenta por cento entre o quinto e o décimo dia com trombose nova é altamente sugestiva. A conduta é suspender toda exposição à heparina e iniciar anticoagulante não heparínico, como argatroban, fondaparinux ou inibidor direto oral. A varfarina isolada é proibida no início, por precipitar gangrena venosa ao reduzir a proteína C.",
   "porAlt": [
    "Manter a heparina perpetua a trombose, e a transfusão de plaquetas pode agravar o risco trombótico.",
-   "Correta: suspender toda heparina e anticoagular com alternativa não heparínica, sem esperar sorologia.",
    "A heparina de baixo peso molecular tem reação cruzada com os anticorpos e mantém o processo ativo.",
    "Não anticoagular deixa ativo um estado protrombótico grave, com risco alto de novos eventos.",
+   "Correta: suspender toda heparina e anticoagular com alternativa não heparínica, sem esperar sorologia.",
    "A varfarina isolada no início pode causar gangrena venosa por queda rápida da proteína C."
   ]
  },
@@ -146,13 +146,13 @@
  {
   "q": "Paciente com anemia macrocítica, VCM 118 fL, neutrófilos hipersegmentados, parestesias em pés e marcha instável. Qual é a conduta?",
   "alts": [
-   "Dosar vitamina B12 e repor precocemente, sempre antes que o dano neurológico se torne irreversível.",
    "Repor apenas ácido fólico, que corrige a macrocitose e resolve o comprometimento neurológico agora.",
    "Transfundir concentrado de hemácias e reavaliar em três meses sem qualquer reposição vitamínica.",
    "Solicitar biópsia de medula óssea antes de iniciar qualquer reposição vitamínica neste paciente.",
+   "Dosar vitamina B12 e repor precocemente, sempre antes que o dano neurológico se torne irreversível.",
    "Iniciar ferro por via endovenosa, tratamento indicado para a macrocitose com hipersegmentação agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
@@ -160,23 +160,23 @@
   "base": "BSH guidelines for the diagnosis and treatment of cobalamin and folate disorders, 2014; UpToDate revisão 2024",
   "coment": "Macrocitose com neutrófilos hipersegmentados e sintomas neurológicos aponta deficiência de vitamina B12. O envolvimento neurológico — degeneração combinada subaguda dos cordões posteriores e laterais — é a razão para repor sem demora, pois o dano se torna irreversível se prolongado. Repor apenas folato corrige a anemia e mascara o quadro enquanto a lesão neurológica progride, erro clássico. Investigar a causa inclui anticorpos anti-fator intrínseco, doença ileal e uso de metformina.",
   "porAlt": [
-   "Correta: dosar e repor vitamina B12 sem demora, porque o dano neurológico pode ficar irreversível.",
    "Repor apenas folato corrige a anemia e mascara o quadro enquanto o dano neurológico progride.",
    "Transfundir sem repor não trata a causa e permite a progressão do comprometimento neurológico.",
    "A biópsia de medula é desnecessária: a dosagem sérica e o quadro clínico já orientam a conduta.",
+   "Correta: dosar e repor vitamina B12 sem demora, porque o dano neurológico pode ficar irreversível.",
    "O ferro não corrige macrocitose e a deficiência de ferro produz o padrão oposto, microcítico."
   ]
  },
  {
   "q": "Homem de 55 anos com hematócrito 58%, hemoglobina 19,5 g/dL, plaquetas 520.000/mm³, prurido após banho quente e esplenomegalia. Qual exame é o mais indicado?",
   "alts": [
-   "Gasometria arterial isolada, exame que confirma o diagnóstico dessa condição hematológica crônica.",
    "Pesquisa da mutação JAK2 V617F, sempre associada à dosagem de eritropoetina sérica do paciente.",
+   "Gasometria arterial isolada, exame que confirma o diagnóstico dessa condição hematológica crônica.",
    "Polissonografia de noite inteira, já primeiro exame indicado para investigar essa eritrocitose.",
    "Dosagem de testosterona sérica total, exame que estabelece a causa da poliglobulia observada.",
    "Ecocardiograma com contraste salino, exame diagnóstico de escolha nesse quadro hematológico."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
@@ -184,8 +184,8 @@
   "base": "OMS — classificação de neoplasias mieloides, 5ª edição, 2022; NCCN Myeloproliferative Neoplasms, 2024",
   "coment": "Eritrocitose com plaquetose, esplenomegalia e prurido aquagênico caracteriza policitemia vera. O critério molecular é a mutação JAK2, presente em mais de noventa e cinco por cento dos casos na forma V617F, e a eritropoetina sérica costuma estar baixa, ao contrário das causas secundárias. O tratamento combina flebotomia com alvo de hematócrito abaixo de quarenta e cinco por cento, ácido acetilsalicílico em dose baixa e citorredução nos pacientes de alto risco.",
   "porAlt": [
-   "A gasometria pode sugerir causa hipoxêmica secundária, mas não confirma a neoplasia clonal.",
    "Correta: pesquisa de JAK2 com eritropoetina sérica é a via diagnóstica dessa neoplasia mieloproliferativa.",
+   "A gasometria pode sugerir causa hipoxêmica secundária, mas não confirma a neoplasia clonal.",
    "A polissonografia investiga apneia, causa secundária, e não é o primeiro exame neste quadro.",
    "A testosterona interessa quando há uso de andrógenos, mas não explica prurido nem esplenomegalia.",
    "O ecocardiograma investiga cardiopatia com shunt, hipótese pouco provável diante deste conjunto."
@@ -195,12 +195,12 @@
   "q": "Paciente com hemofilia A grave apresenta hemartrose aguda de joelho. Qual é a conduta imediata?",
   "alts": [
    "Realizar punção articular de urgência como primeira medida antes de qualquer reposição de fator.",
+   "Repor fator VIII imediatamente, sempre antes de qualquer exame de imagem ser realizado agora.",
    "Prescrever anti-inflamatório não hormonal em dose plena para controlar a dor e a inflamação local.",
    "Solicitar ressonância magnética do joelho antes de decidir sobre a reposição do fator deficiente.",
-   "Imobilizar o membro e observar por vinte e quatro horas antes de considerar reposição de fator.",
-   "Repor fator VIII imediatamente, sempre antes de qualquer exame de imagem ser realizado agora."
+   "Imobilizar o membro e observar por vinte e quatro horas antes de considerar reposição de fator."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "hemato",
   "cenario": "emg",
   "comp": "urg",
@@ -209,10 +209,10 @@
   "coment": "Na hemofilia a regra é tratar primeiro e investigar depois: diante de suspeita de sangramento, o fator deficiente é reposto imediatamente, sem aguardar imagem ou confirmação. Na hemartrose, o alvo habitual é elevar o fator para cerca de cinquenta por cento. Punção articular raramente é necessária e traz risco de sangramento e infecção. Anti-inflamatórios não hormonais são evitados por disfunção plaquetária e risco digestivo; analgesia se faz com paracetamol e opioide se necessário.",
   "porAlt": [
    "A punção articular raramente é necessária e traz risco de sangramento adicional e de infecção.",
+   "Correta: repor o fator deficiente imediatamente, antes de exames, é a regra em sangramento na hemofilia.",
    "Anti-inflamatórios não hormonais são evitados por disfunção plaquetária e risco de sangramento digestivo.",
    "A ressonância não deve atrasar a reposição, que é decidida pelo quadro clínico e pela suspeita.",
-   "Observar sem repor permite dano articular progressivo e sangramento de difícil controle depois.",
-   "Correta: repor o fator deficiente imediatamente, antes de exames, é a regra em sangramento na hemofilia."
+   "Observar sem repor permite dano articular progressivo e sangramento de difícil controle depois."
   ]
  },
  {
@@ -220,11 +220,11 @@
   "alts": [
    "Iniciar corticoide em dose alta imediatamente, pois a contagem por si só já indica tratamento.",
    "Transfundir plaquetas profilaticamente para elevar a contagem acima de cem mil por milímetro cúbico.",
-   "Excluir causas secundárias e observar sem tratar, já que não há sangramento nem risco iminente.",
    "Indicar esplenectomia precoce, procedimento de primeira linha para essa condição hematológica.",
+   "Excluir causas secundárias e observar sem tratar, já que não há sangramento nem risco iminente.",
    "Iniciar imunoglobulina endovenosa em dose alta como primeira medida terapêutica neste caso."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
@@ -234,8 +234,8 @@
   "porAlt": [
    "A contagem isolada acima de trinta mil, sem sangramento, não indica tratamento imediato no adulto.",
    "A transfusão profilática de plaquetas não tem indicação e tem rendimento baixo nessa condição.",
-   "Correta: excluir causas secundárias e observar, pois não há sangramento e a contagem permite acompanhar.",
    "A esplenectomia é opção de segunda linha em casos refratários, e não conduta inicial aqui.",
+   "Correta: excluir causas secundárias e observar, pois não há sangramento e a contagem permite acompanhar.",
    "A imunoglobulina se reserva a sangramento ou necessidade de elevar a contagem com rapidez."
   ]
  }

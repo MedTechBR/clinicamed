@@ -4,11 +4,11 @@
   "alts": [
    "Corticoide inalatório isolado como tratamento inicial de manutenção para o paciente com essa doença.",
    "Corticoide sistêmico contínuo em dose baixa, tratamento de manutenção de escolha na doença descrita.",
+   "Broncodilatador duplo de longa duração, sempre com avaliação de eosinófilos para acrescentar corticoide.",
    "Antibiótico contínuo em dose plena por tempo indeterminado como manutenção nesse perfil de paciente.",
-   "Apenas broncodilatador de curta duração de resgate, sem qualquer tratamento contínuo de manutenção.",
-   "Broncodilatador duplo de longa duração, sempre com avaliação de eosinófilos para acrescentar corticoide."
+   "Apenas broncodilatador de curta duração de resgate, sem qualquer tratamento contínuo de manutenção."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -18,21 +18,21 @@
   "porAlt": [
    "O corticoide inalatório isolado não é recomendado nessa doença, sempre associado a broncodilatador.",
    "O corticoide sistêmico contínuo traz toxicidade importante sem benefício como manutenção.",
+   "Correta: broncodilatador duplo de longa duração, com eosinófilos orientando a adição de corticoide.",
    "O antibiótico contínuo se reserva a casos selecionados e não é manutenção padrão da doença.",
-   "O uso apenas de resgate deixa sem controle um paciente com exacerbações frequentes documentadas.",
-   "Correta: broncodilatador duplo de longa duração, com eosinófilos orientando a adição de corticoide."
+   "O uso apenas de resgate deixa sem controle um paciente com exacerbações frequentes documentadas."
   ]
  },
  {
   "q": "Mulher de 28 anos com asma em uso apenas de beta-agonista de curta duração, com sintomas três vezes por semana e despertares noturnos. Qual é a conduta?",
   "alts": [
    "Manter apenas o beta-agonista de curta duração e aumentar a frequência das doses de resgate diárias.",
-   "Iniciar corticoide inalatório associado a formoterol, sempre substituindo o uso isolado do resgate.",
    "Iniciar corticoide oral contínuo em dose baixa como etapa seguinte no tratamento da asma descrita.",
+   "Iniciar corticoide inalatório associado a formoterol, sempre substituindo o uso isolado do resgate.",
    "Iniciar antibiótico profilático contínuo, medida indicada para a redução dos sintomas noturnos da asma.",
    "Prescrever apenas anti-histamínico oral diário, tratamento suficiente para o controle do quadro descrito."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -41,8 +41,8 @@
   "coment": "O tratamento da asma com beta-agonista de curta duração isolado foi abandonado, por aumentar exacerbações graves e mortalidade. Toda pessoa com asma deve receber tratamento contendo corticoide inalatório. A estratégia preferencial combina corticoide inalatório com formoterol, usada conforme a necessidade nas etapas iniciais e como manutenção e resgate nas etapas seguintes. Avaliam-se ainda técnica inalatória, adesão, gatilhos e comorbidades antes de escalonar.",
   "porAlt": [
    "O uso isolado de beta-agonista de curta duração aumenta exacerbações graves e a mortalidade.",
-   "Correta: introduzir corticoide inalatório com formoterol, abandonando o uso isolado do resgate.",
    "O corticoide oral contínuo se reserva à asma grave refratária, pela toxicidade sistêmica acumulada.",
+   "Correta: introduzir corticoide inalatório com formoterol, abandonando o uso isolado do resgate.",
    "O antibiótico profilático não tem papel no controle da asma, que é doença inflamatória crônica.",
    "O anti-histamínico pode ajudar na rinite associada, mas não controla a inflamação brônquica."
   ]
@@ -74,13 +74,13 @@
  {
   "q": "Paciente com derrame pleural unilateral de moderado volume, sem causa evidente. Qual é a conduta inicial?",
   "alts": [
-   "Toracocentese diagnóstica com análise do líquido, sempre aplicando os critérios que separam transudato.",
    "Iniciar antibiótico empírico de amplo espectro sem qualquer punção diagnóstica prévia do derrame agora.",
    "Iniciar diurético em dose alta e reavaliar em trinta dias sem qualquer análise do líquido pleural.",
    "Indicar pleurodese química imediata em todos os casos de derrame pleural unilateral de causa indefinida.",
+   "Toracocentese diagnóstica com análise do líquido, sempre aplicando os critérios que separam transudato.",
    "Solicitar apenas tomografia de tórax, exame que estabelece a etiologia do derrame pleural descrito."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "pneumo",
   "cenario": "enf",
   "comp": "dx",
@@ -88,10 +88,10 @@
   "base": "BTS Pleural Disease Guideline, 2023; ATS/STS/STR clinical practice guideline, 2018",
   "coment": "Derrame pleural de causa indeterminada exige toracocentese diagnóstica. Os critérios de Light separam transudato de exsudato pela relação de proteínas e de desidrogenase láctica entre líquido e soro. Exsudato indica investigação adicional com citologia, cultura, pesquisa de bacilos, adenosina deaminase e, se necessário, biópsia pleural. Transudato aponta insuficiência cardíaca, cirrose ou síndrome nefrótica, tratando-se a doença de base.",
   "porAlt": [
-   "Correta: toracocentese diagnóstica com aplicação dos critérios que diferenciam transudato de exsudato.",
    "Tratar empiricamente sem punção deixa sem diagnóstico causas que exigem abordagem específica.",
    "O diurético trata transudato cardiogênico, hipótese que ainda não foi estabelecida neste caso.",
    "A pleurodese é tratamento de derrame maligno recidivante, e não conduta diagnóstica inicial.",
+   "Correta: toracocentese diagnóstica com aplicação dos critérios que diferenciam transudato de exsudato.",
    "A tomografia caracteriza o derrame e o parênquima, mas não substitui a análise do líquido pleural."
   ]
  },
@@ -100,11 +100,11 @@
   "alts": [
    "Intubação orotraqueal imediata em todos os pacientes com esse valor de pH sem qualquer tentativa prévia.",
    "Oxigênio em alto fluxo com alvo de saturação acima de noventa e oito por cento em todos os casos.",
-   "Ventilação não invasiva com dois níveis de pressão, sempre associada a broncodilatador e corticoide.",
    "Prescrever apenas antibiótico oral e observar clinicamente por vinte e quatro horas sem outra medida.",
-   "Iniciar sedação profunda para reduzir o trabalho respiratório do paciente antes de qualquer suporte."
+   "Iniciar sedação profunda para reduzir o trabalho respiratório do paciente antes de qualquer suporte.",
+   "Ventilação não invasiva com dois níveis de pressão, sempre associada a broncodilatador e corticoide."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "uti",
   "comp": "urg",
@@ -114,21 +114,21 @@
   "porAlt": [
    "A intubação se reserva à falha da ventilação não invasiva ou a contraindicação formal ao método.",
    "O alvo de saturação nessa doença é de 88 a 92 por cento, pois a hiperóxia agrava a hipercapnia.",
-   "Correta: ventilação não invasiva com dois níveis de pressão, somada a broncodilatador e corticoide.",
    "O antibiótico isolado não corrige a acidose respiratória nem alivia o trabalho respiratório.",
-   "A sedação sem suporte ventilatório agrava a hipoventilação e pode precipitar parada respiratória."
+   "A sedação sem suporte ventilatório agrava a hipoventilação e pode precipitar parada respiratória.",
+   "Correta: ventilação não invasiva com dois níveis de pressão, somada a broncodilatador e corticoide."
   ]
  },
  {
   "q": "Homem de 45 anos com sonolência diurna excessiva, roncos e pausas respiratórias observadas pela parceira, com IMC de 34 kg/m². Qual é a conduta?",
   "alts": [
    "Prescrever apenas estimulante do sistema nervoso central para o controle da sonolência diurna do paciente.",
-   "Polissonografia ou poligrafia domiciliar e tratamento com pressão positiva, sempre com perda de peso.",
    "Iniciar benzodiazepínico noturno para melhorar a qualidade do sono e reduzir os roncos referidos.",
    "Indicar traqueostomia imediata em todos os pacientes com roncos e pausas respiratórias observadas.",
-   "Prescrever apenas descongestionante nasal contínuo como tratamento definitivo do quadro descrito."
+   "Prescrever apenas descongestionante nasal contínuo como tratamento definitivo do quadro descrito.",
+   "Polissonografia ou poligrafia domiciliar e tratamento com pressão positiva, sempre com perda de peso."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -137,22 +137,22 @@
   "coment": "A apneia obstrutiva do sono é confirmada por polissonografia ou, em alta probabilidade sem comorbidade cardiorrespiratória grave, por poligrafia domiciliar. O tratamento de primeira linha na doença moderada a grave é pressão positiva contínua, associada a perda de peso, higiene do sono, tratamento posicional e evitação de álcool e sedativos. Aparelho intraoral é alternativa em casos leves a moderados. Benzodiazepínicos agravam a apneia.",
   "porAlt": [
    "O estimulante trata sonolência residual, mas não corrige a obstrução nem os riscos associados.",
-   "Correta: confirmar por polissonografia ou poligrafia e tratar com pressão positiva e perda de peso.",
    "O benzodiazepínico relaxa a musculatura faríngea e agrava as apneias durante o sono do paciente.",
    "A traqueostomia é medida excepcional para casos graves refratários a todas as outras opções.",
-   "O descongestionante contínuo não trata a obstrução faríngea e causa rinite medicamentosa."
+   "O descongestionante contínuo não trata a obstrução faríngea e causa rinite medicamentosa.",
+   "Correta: confirmar por polissonografia ou poligrafia e tratar com pressão positiva e perda de peso."
   ]
  },
  {
   "q": "Paciente com pneumonia adquirida na comunidade e CURB-65 de 1, sem comorbidades descompensadas. Qual é a conduta?",
   "alts": [
+   "Tratamento ambulatorial com antibiótico oral, sempre com reavaliação clínica em quarenta e oito horas.",
    "Internação em unidade de terapia intensiva para todos os pacientes com esse escore de gravidade agora.",
    "Antibiótico endovenoso de amplo espectro em ambiente hospitalar por catorze dias em todos os casos.",
-   "Tratamento ambulatorial com antibiótico oral, sempre com reavaliação clínica em quarenta e oito horas.",
    "Não prescrever antibiótico e reavaliar apenas em uma semana, dada a baixa gravidade do quadro agora.",
    "Solicitar tomografia de tórax de rotina antes de qualquer prescrição de antibiótico para o paciente."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
@@ -160,9 +160,9 @@
   "base": "ATS/IDSA Guidelines for Community-Acquired Pneumonia, 2019 com revisão 2023; SBPT — Diretrizes de pneumonia, 2023",
   "coment": "O escore CURB-65 estima gravidade pela confusão, ureia, frequência respiratória, pressão arterial e idade acima de sessenta e cinco anos. Pontuação de zero a um permite tratamento ambulatorial na maioria dos casos, com amoxicilina ou amoxicilina com clavulanato, ou macrolídeo conforme o perfil e as comorbidades. A reavaliação em quarenta e oito a setenta e duas horas é essencial para identificar falha terapêutica precoce e complicações.",
   "porAlt": [
+   "Correta: tratamento ambulatorial com antibiótico oral e reavaliação clínica em quarenta e oito horas.",
    "A unidade intensiva se reserva a critérios de gravidade que este paciente não apresenta.",
    "O amplo espectro endovenoso por catorze dias é excessivo e favorece resistência antimicrobiana.",
-   "Correta: tratamento ambulatorial com antibiótico oral e reavaliação clínica em quarenta e oito horas.",
    "Não prescrever antibiótico em pneumonia confirmada permite progressão e complicação evitável.",
    "A tomografia não é necessária quando o diagnóstico está estabelecido pela clínica e radiografia."
   ]
@@ -194,13 +194,13 @@
  {
   "q": "Paciente com tosse crônica há 10 semanas, sem tabagismo, com radiografia de tórax normal e sem uso de inibidor da enzima conversora. Qual é a abordagem inicial?",
   "alts": [
+   "Investigar as três causas mais comuns, tratando sempre gotejamento nasal, asma e refluxo em sequência.",
    "Solicitar tomografia de tórax e broncoscopia imediatamente em todos os pacientes com tosse crônica.",
    "Prescrever antitussígeno de uso contínuo por seis meses sem qualquer investigação complementar agora.",
    "Iniciar antibiótico de amplo espectro por quatro semanas como abordagem inicial da tosse crônica.",
-   "Iniciar corticoide sistêmico contínuo, abordagem de escolha para a tosse crônica com imagem normal.",
-   "Investigar as três causas mais comuns, tratando sempre gotejamento nasal, asma e refluxo em sequência."
+   "Iniciar corticoide sistêmico contínuo, abordagem de escolha para a tosse crônica com imagem normal."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -208,11 +208,11 @@
   "base": "CHEST Expert Panel Report on chronic cough, 2018 com revisão 2023; ERS guidelines on chronic cough, 2020",
   "coment": "Tosse crônica é definida por duração superior a oito semanas. Em não fumante, sem inibidor da enzima conversora e com radiografia normal, as três causas mais frequentes são síndrome de tosse de via aérea superior, asma ou tosse variante asmática e doença do refluxo gastroesofágico, isoladas ou combinadas. A abordagem é investigação e tratamento empírico sequencial dessas causas, reservando investigação adicional para os casos sem resposta.",
   "porAlt": [
+   "Correta: investigar e tratar sequencialmente gotejamento nasal, asma e refluxo, as três causas mais comuns.",
    "A investigação invasiva é reservada a sinais de alarme ou falha da abordagem inicial sequencial.",
    "O antitussígeno contínuo mascara o sintoma sem tratar a causa subjacente da tosse crônica.",
    "O antibiótico prolongado não trata as causas mais frequentes de tosse crônica em não fumante.",
-   "O corticoide sistêmico contínuo tem toxicidade elevada e não é a abordagem inicial indicada.",
-   "Correta: investigar e tratar sequencialmente gotejamento nasal, asma e refluxo, as três causas mais comuns."
+   "O corticoide sistêmico contínuo tem toxicidade elevada e não é a abordagem inicial indicada."
   ]
  },
  {

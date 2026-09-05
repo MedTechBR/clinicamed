@@ -27,12 +27,12 @@
   "q": "Uma equipe deseja avaliar se um programa reduziu a mortalidade em uma população ao longo de dez anos. Qual desenho de estudo é o mais adequado?",
   "alts": [
    "Estudo transversal isolado, desenho que já permite estabelecer a relação temporal entre os dois fatos.",
-   "Série de casos sem grupo de comparação, desenho adequado para estimar risco relativo na população agora.",
    "Estudo de coorte com acompanhamento longitudinal, que permite sempre estimar incidência e risco relativo.",
+   "Série de casos sem grupo de comparação, desenho adequado para estimar risco relativo na população agora.",
    "Relato de caso individual, desenho que permite avaliar impacto populacional de um programa de saúde.",
    "Estudo ecológico isolado, desenho que elimina completamente o risco de falácia ecológica na análise."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
@@ -41,8 +41,8 @@
   "coment": "O estudo de coorte acompanha grupos expostos e não expostos ao longo do tempo, permitindo estimar incidência, risco relativo e a relação temporal entre exposição e desfecho, o que o torna adequado para avaliar impacto de programas quando o ensaio randomizado não é factível. O transversal mede exposição e desfecho no mesmo momento e não estabelece temporalidade; o ecológico analisa grupos e está sujeito à falácia ecológica.",
   "porAlt": [
    "O estudo transversal mede exposição e desfecho simultaneamente e não estabelece a temporalidade.",
-   "A série de casos não tem grupo de comparação e por isso não permite estimar risco relativo.",
    "Correta: a coorte com acompanhamento longitudinal estima incidência, risco relativo e temporalidade.",
+   "A série de casos não tem grupo de comparação e por isso não permite estimar risco relativo.",
    "O relato de caso descreve um indivíduo e não avalia impacto populacional de programa algum.",
    "O estudo ecológico analisa grupos e está justamente sujeito à falácia ecológica na inferência."
   ]
@@ -51,12 +51,12 @@
   "q": "Um paciente com transtorno mental grave em crise recusa internação e apresenta risco iminente à própria vida. Qual é a conduta?",
   "alts": [
    "Aguardar a concordância do paciente mesmo diante de risco iminente à própria vida durante a crise agora.",
-   "Internação involuntária com comunicação formal ao Ministério Público, garantindo sempre o cuidado em rede.",
    "Internação compulsória determinada diretamente pelo médico, sem qualquer comunicação a outra instância.",
    "Liberar o paciente com prescrição e orientar retorno ambulatorial em trinta dias para reavaliação clínica.",
+   "Internação involuntária com comunicação formal ao Ministério Público, garantindo sempre o cuidado em rede.",
    "Contenção física prolongada no domicílio como alternativa à internação diante da recusa do paciente agora."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "sus",
   "cenario": "emg",
   "comp": "urg",
@@ -65,9 +65,9 @@
   "coment": "A Lei da Reforma Psiquiátrica prevê três modalidades de internação: voluntária, involuntária — a pedido de terceiro e sem consentimento do paciente — e compulsória, determinada pela Justiça. A internação involuntária exige laudo médico circunstanciado e comunicação ao Ministério Público em até setenta e duas horas, tanto na admissão quanto na alta. Ela é indicada quando os recursos extra-hospitalares se mostram insuficientes e há risco.",
   "porAlt": [
    "Aguardar concordância diante de risco iminente de morte omite socorro e viola o dever de cuidado.",
-   "Correta: internação involuntária com laudo circunstanciado e comunicação formal ao Ministério Público.",
    "A internação compulsória é determinada pela Justiça; a involuntária exige comunicação ao Ministério Público.",
    "Liberar paciente com risco iminente à vida é conduta inaceitável e de responsabilidade do médico.",
+   "Correta: internação involuntária com laudo circunstanciado e comunicação formal ao Ministério Público.",
    "A contenção domiciliar prolongada não é medida terapêutica e configura violação de direitos."
   ]
  },
@@ -100,11 +100,11 @@
   "alts": [
    "Documento sem qualquer validade no Brasil, pois a legislação não reconhece manifestação prévia de vontade.",
    "Instrumento válido apenas se registrado em cartório com firma reconhecida e testemunhas presenciais.",
-   "Documento que só passa a valer após autorização judicial expressa concedida em processo específico.",
    "Diretiva antecipada de vontade, que deve ser sempre registrada em prontuário e respeitada pela equipe.",
+   "Documento que só passa a valer após autorização judicial expressa concedida em processo específico.",
    "Manifestação que perde validade assim que o paciente deixa de poder se comunicar com a equipe assistente."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "sus",
   "cenario": "enf",
   "comp": "tto",
@@ -114,8 +114,8 @@
   "porAlt": [
    "A manifestação prévia de vontade é reconhecida por resolução do Conselho Federal de Medicina.",
    "Não é exigido registro em cartório; o registro em prontuário pelo médico é suficiente e válido.",
-   "Não é necessária autorização judicial para respeitar a vontade previamente manifestada pelo paciente.",
    "Correta: diretiva antecipada de vontade, registrada em prontuário e respeitada pela equipe assistente.",
+   "Não é necessária autorização judicial para respeitar a vontade previamente manifestada pelo paciente.",
    "É exatamente quando o paciente não pode se comunicar que a diretiva produz seus efeitos."
   ]
  },
@@ -124,11 +124,11 @@
   "alts": [
    "Excluir a gestante do cadastro da equipe após duas faltas consecutivas às consultas de pré-natal agora.",
    "Aguardar que ela procure o serviço espontaneamente no momento do trabalho de parto na maternidade agora.",
-   "Busca ativa com visita domiciliar e articulação intersetorial, adequando sempre o acesso às condições dela.",
    "Notificar a gestante ao conselho tutelar como principal medida diante das faltas ao pré-natal agendado.",
+   "Busca ativa com visita domiciliar e articulação intersetorial, adequando sempre o acesso às condições dela.",
    "Encaminhar diretamente ao pré-natal de alto risco, retirando o acompanhamento da atenção primária local."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -138,8 +138,8 @@
   "porAlt": [
    "Excluir do cadastro contraria a responsabilidade sanitária sobre a população adscrita ao território.",
    "Esperar o trabalho de parto elimina toda a prevenção que o pré-natal poderia oferecer à gestante.",
-   "Correta: busca ativa com visita domiciliar e articulação intersetorial, adequando o acesso às condições.",
    "A notificação isolada ao conselho tutelar não resolve barreiras de acesso e pode afastar a gestante.",
+   "Correta: busca ativa com visita domiciliar e articulação intersetorial, adequando o acesso às condições.",
    "O alto risco é para indicações clínicas, e a primária mantém a coordenação do cuidado da gestante."
   ]
  },
@@ -147,12 +147,12 @@
   "q": "Um estudo relata número necessário para tratar de 25 para prevenir um evento em cinco anos. Qual é a interpretação?",
   "alts": [
    "Vinte e cinco por cento dos pacientes tratados terão o desfecho prevenido pela intervenção estudada.",
-   "Cada paciente tratado tem vinte e cinco vezes menos risco de apresentar o desfecho no período agora.",
    "É preciso tratar vinte e cinco pessoas por cinco anos para evitar sempre um evento a mais no grupo.",
+   "Cada paciente tratado tem vinte e cinco vezes menos risco de apresentar o desfecho no período agora.",
    "O tratamento reduz o risco relativo em exatamente vinte e cinco por cento no período de cinco anos.",
    "Vinte e cinco pacientes apresentarão eventos adversos graves com a intervenção durante o estudo."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
@@ -161,8 +161,8 @@
   "coment": "O número necessário para tratar é o inverso da redução absoluta de risco e indica quantos pacientes precisam receber a intervenção, pelo tempo do estudo, para evitar um evento. Um valor de 25 em cinco anos significa que tratar vinte e cinco pessoas por esse período evita um desfecho. É a medida mais útil para comunicar benefício ao paciente, porque incorpora o risco basal, ao contrário da redução relativa de risco, que pode exagerar a percepção do efeito.",
   "porAlt": [
    "O número necessário para tratar não é uma porcentagem de pacientes beneficiados individualmente.",
-   "O valor não expressa quantas vezes o risco individual é reduzido pela intervenção estudada.",
    "Correta: tratar vinte e cinco pessoas pelo período do estudo evita um evento a mais no grupo.",
+   "O valor não expressa quantas vezes o risco individual é reduzido pela intervenção estudada.",
    "A redução relativa de risco é medida distinta e não corresponde ao número necessário para tratar.",
    "Eventos adversos são expressos pelo número necessário para causar dano, medida diferente desta."
   ]
@@ -172,11 +172,11 @@
   "alts": [
    "Afirmar que não existe qualquer via de acesso a medicamento fora das listas oficiais no país neste caso.",
    "Orientar diretamente a via judicial como primeiro e único caminho possível para obter o medicamento agora.",
-   "Explicar as vias formais de solicitação e avaliar sempre alternativas terapêuticas disponíveis no sistema.",
    "Prescrever o medicamento sem qualquer discussão sobre acesso, custo ou alternativas terapêuticas disponíveis.",
+   "Explicar as vias formais de solicitação e avaliar sempre alternativas terapêuticas disponíveis no sistema.",
    "Afirmar que o paciente deve necessariamente comprar o medicamento com recursos próprios, sem alternativa."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -186,21 +186,21 @@
   "porAlt": [
    "Existem vias administrativas e protocolos que permitem acesso a fármacos em situações específicas.",
    "A via judicial é último recurso, e não o primeiro caminho a ser orientado ao paciente.",
-   "Correta: explicar as vias formais de solicitação e avaliar alternativas terapêuticas disponíveis.",
    "Prescrever sem discutir acesso e alternativas deixa o paciente sem tratamento efetivo na prática.",
+   "Correta: explicar as vias formais de solicitação e avaliar alternativas terapêuticas disponíveis.",
    "Nem sempre a compra própria é a única alternativa, e há opções terapêuticas disponíveis no sistema."
   ]
  },
  {
   "q": "Um médico se depara com paciente estrangeiro sem documentação brasileira que procura atendimento. Qual é a conduta?",
   "alts": [
-   "Atender normalmente, pois o direito à saúde no Brasil independe sempre da nacionalidade do usuário.",
    "Negar o atendimento até que o paciente apresente documentação brasileira válida no serviço de saúde.",
    "Atender apenas mediante pagamento particular, já que o estrangeiro não tem direito ao atendimento público.",
    "Encaminhar imediatamente à autoridade migratória antes de qualquer avaliação clínica do paciente.",
-   "Atender apenas em caso de risco iminente de morte, já negando qualquer outro tipo de atendimento agora."
+   "Atender apenas em caso de risco iminente de morte, já negando qualquer outro tipo de atendimento agora.",
+   "Atender normalmente, pois o direito à saúde no Brasil independe sempre da nacionalidade do usuário."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -208,23 +208,23 @@
   "base": "Constituição Federal, artigo 196; Lei nº 8.080/1990; Lei de Migração nº 13.445/2017",
   "coment": "A Constituição estabelece a saúde como direito de todos e dever do Estado, e a Lei de Migração garante ao migrante, independentemente de situação documental, o direito de acesso a serviços públicos de saúde em igualdade com os nacionais. Não cabe exigir documento como condição de atendimento nem comunicar autoridade migratória. Negar assistência configura violação de direito humano e infração ética do profissional envolvido.",
   "porAlt": [
-   "Correta: atender normalmente, pois o direito à saúde independe da nacionalidade ou da documentação.",
    "Condicionar o atendimento à documentação nega direito garantido e configura infração ética.",
    "O acesso é universal e gratuito, sem exigência de pagamento por parte do usuário estrangeiro.",
    "Não cabe ao serviço de saúde comunicar autoridade migratória nem condicionar o cuidado a isso.",
-   "Restringir a risco de morte iminente contraria a integralidade e a universalidade do sistema."
+   "Restringir a risco de morte iminente contraria a integralidade e a universalidade do sistema.",
+   "Correta: atender normalmente, pois o direito à saúde independe da nacionalidade ou da documentação."
   ]
  },
  {
   "q": "Uma equipe atende idoso trazido por vizinho com sinais de negligência e lesões inexplicadas. Qual é a conduta?",
   "alts": [
+   "Acolher, notificar compulsoriamente e comunicar sempre a autoridade competente conforme a legislação.",
    "Registrar apenas em prontuário e liberar o idoso de volta ao mesmo domicílio, sem qualquer comunicação.",
    "Aguardar que o próprio idoso solicite formalmente qualquer providência antes de qualquer notificação.",
    "Encaminhar exclusivamente à delegacia sem qualquer avaliação clínica ou notificação do caso identificado.",
-   "Acolher, notificar compulsoriamente e comunicar sempre a autoridade competente conforme a legislação.",
    "Notificar apenas se houver confissão do agressor durante o atendimento realizado no serviço de saúde."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "sus",
   "cenario": "emg",
   "comp": "prev",
@@ -232,10 +232,10 @@
   "base": "Estatuto da Pessoa Idosa, Lei nº 10.741/2003, artigo 19; Ministério da Saúde — Guia de Vigilância em Saúde, 2024",
   "coment": "O Estatuto da Pessoa Idosa determina que casos suspeitos ou confirmados de violência contra idoso sejam obrigatoriamente comunicados pelos profissionais de saúde à autoridade sanitária e a uma das instâncias de proteção: autoridade policial, Ministério Público ou conselho do idoso. A notificação é compulsória, independe de confirmação e de autorização, e a avaliação inclui exame clínico completo, registro detalhado das lesões e avaliação do risco de retorno ao domicílio.",
   "porAlt": [
+   "Correta: acolher, notificar compulsoriamente e comunicar a autoridade competente conforme a lei.",
    "Devolver ao mesmo domicílio sem comunicação mantém o idoso exposto ao agressor e ao risco.",
    "A notificação independe de solicitação da vítima e é dever legal do profissional de saúde.",
    "Encaminhar sem avaliar nega assistência clínica devida e não cumpre a notificação sanitária.",
-   "Correta: acolher, notificar compulsoriamente e comunicar a autoridade competente conforme a lei.",
    "A notificação decorre da suspeita e não exige confissão nem comprovação prévia da violência."
   ]
  }

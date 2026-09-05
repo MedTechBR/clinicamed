@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Homem de 66 anos internado na enfermaria por insuficiência cardíaca descompensada com fração de ejeção de 28% recebe furosemida intravenosa e apresenta melhora da congestão no terceiro dia. Ainda não usa terapia modificadora de doença. Qual é a conduta antes da alta?",
+  "alts": [
+   "Adiar todo o tratamento modificador para o ambulatório, mantendo apenas o diurético após a alta.",
+   "Iniciar os quatro pilares ainda na internação, titulando conforme pressão, potássio e função renal.",
+   "Prescrever apenas digoxina como fármaco de manutenção por melhorar a fração de ejeção dele agora.",
+   "Manter somente o diurético de alça porque ele seria o fármaco que reduz mortalidade nessa doença.",
+   "Iniciar apenas um pilar por consulta ambulatorial, com intervalo mínimo de três meses entre eles."
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure, 2021 e atualização de 2023; Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda, SBC",
+  "coment": "Na insuficiência cardíaca com fração de ejeção reduzida, os quatro pilares — inibidor do sistema renina-angiotensina, preferencialmente sacubitril-valsartana, betabloqueador, antagonista mineralocorticoide e inibidor de SGLT2 — reduzem mortalidade, e a recomendação atual é iniciá-los precocemente, ainda na internação, após a compensação da congestão, com titulação rápida e reavaliação em uma a duas semanas. O diurético alivia sintomas mas não muda prognóstico, e adiar os pilares para o ambulatório deixa o paciente exposto no período de maior risco de reinternação e óbito.",
+  "porAlt": [
+   "Adiar o tratamento modificador expõe o paciente ao período de maior risco de reinternação e óbito.",
+   "Correta: iniciar os quatro pilares ainda na internação, com titulação guiada por pressão, potássio e rim.",
+   "A digoxina reduz internação em casos selecionados, mas não substitui os pilares que reduzem mortalidade.",
+   "O diurético de alça alivia congestão, porém não demonstrou redução de mortalidade nessa população.",
+   "Espaçar a introdução por meses atrasa o benefício que aparece nas primeiras semanas de tratamento."
+  ]
+ },
+ {
+  "q": "Mulher de 74 anos internada na enfermaria por pneumonia comunitária, no segundo dia de ceftriaxona e azitromicina, apresenta melhora clínica, afebril há vinte e quatro horas, com saturação de 95% em ar ambiente e aceitando dieta oral. Qual é a conduta?",
+  "alts": [
+   "Manter a via intravenosa por pelo menos dez dias completos independentemente da melhora dela.",
+   "Ampliar o espectro antimicrobiano para cobrir germes multirresistentes antes de considerar alta.",
+   "Solicitar tomografia de tórax de controle antes de qualquer mudança na via de administração.",
+   "Repetir radiografia de tórax e só liberar a alta quando o infiltrado estiver completamente ausente.",
+   "Transicionar o antibiótico para a via oral e programar alta com o mesmo espectro de cobertura."
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ATS/IDSA Clinical Practice Guideline — Community-acquired Pneumonia in Adults, 2019; SBPT, diretrizes brasileiras de pneumonia adquirida na comunidade",
+  "coment": "A transição da via intravenosa para a oral é indicada quando o paciente está clinicamente estável, hemodinamicamente compensado, afebril, com melhora dos sintomas respiratórios e capaz de ingerir e absorver medicação. A duração total mínima é de cinco dias, estendida conforme resposta clínica e presença de complicações. A resolução radiológica é lenta, pode levar semanas e não deve retardar a alta nem prolongar o antibiótico, e imagem de controle imediata não é rotina.",
+  "porAlt": [
+   "Prolongar a via intravenosa sem necessidade aumenta tempo de internação e risco de complicação de acesso.",
+   "Ampliar o espectro sem falha terapêutica seleciona resistência e não traz benefício ao paciente.",
+   "A tomografia não é necessária diante de boa resposta clínica ao tratamento instituído.",
+   "O infiltrado resolve em semanas e aguardar a limpeza radiológica prolonga internação sem benefício.",
+   "Correta: transição para a via oral e programação de alta, mantendo cobertura equivalente."
+  ]
+ },
+ {
+  "q": "Paciente de 58 anos internado na enfermaria por celulite de membro inferior evolui, no segundo dia, com hiponatremia de 122 mEq/L, assintomática, com osmolalidade urinária elevada e sódio urinário de 50 mEq/L, euvolêmico, em uso de hidroclorotiazida e sertralina. Qual é a conduta inicial?",
+  "alts": [
+   "Infundir salina hipertônica em bolus até que o sódio sérico ultrapasse cento e trinta e cinco mEq/L.",
+   "Administrar salina isotônica em volume alto, o que costuma agravar a hiponatremia nesse perfil.",
+   "Suspender os fármacos implicados, restringir líquidos e corrigir o sódio de forma lenta e vigiada.",
+   "Prescrever furosemida isolada em dose alta como tratamento definitivo desse distúrbio de sódio.",
+   "Aguardar correção espontânea sem qualquer intervenção, já que o paciente está assintomático agora."
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "European guideline on diagnosis and treatment of hyponatraemia, 2014; American Geriatrics Society Beers Criteria, 2023",
+  "coment": "O quadro é de hiponatremia euvolêmica com urina inapropriadamente concentrada e sódio urinário elevado, padrão de secreção inapropriada de hormônio antidiurético, aqui favorecida por tiazídico e por inibidor seletivo de recaptação de serotonina. Sendo crônica e assintomática, a conduta é retirar os agentes implicados, restringir líquidos e corrigir devagar, respeitando o limite de 8 a 10 mEq/L em vinte e quatro horas para evitar síndrome de desmielinização osmótica. Salina hipertônica se reserva à hiponatremia sintomática grave.",
+  "porAlt": [
+   "A salina hipertônica em bolus se destina à hiponatremia sintomática grave, não ao paciente assintomático.",
+   "Salina isotônica na secreção inapropriada pode agravar a hiponatremia por excreção do sódio ofertado.",
+   "Correta: suspender os fármacos implicados, restringir líquidos e corrigir lentamente com vigilância.",
+   "Furosemida isolada não trata a causa e pode gerar depleção volêmica e novo distúrbio eletrolítico.",
+   "Não intervir mantém o paciente exposto ao risco de queda, confusão e agravamento do distúrbio."
+  ]
+ },
+ {
+  "q": "Homem de 62 anos, cirrótico, internado na enfermaria com ascite volumosa e dor abdominal difusa. A paracentese diagnóstica mostra 480 neutrófilos por milímetro cúbico no líquido ascítico. Qual é a conduta correta?",
+  "alts": [
+   "Iniciar cefalosporina de terceira geração e albumina, que reduz a mortalidade e a lesão renal.",
+   "Aguardar a cultura do líquido ascítico antes de iniciar qualquer tratamento antimicrobiano dele.",
+   "Iniciar apenas albumina intravenosa, reservando o antibiótico para o caso de cultura positiva.",
+   "Indicar laparotomia exploradora de urgência devido à peritonite identificada na paracentese dele.",
+   "Prescrever antibiótico oral por sete dias e liberar a alta hospitalar no mesmo dia do exame."
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "AASLD Practice Guidance on ascites and spontaneous bacterial peritonitis, 2021; Baveno VII, 2022",
+  "coment": "Contagem de neutrófilos igual ou superior a 250 por milímetro cúbico no líquido ascítico define peritonite bacteriana espontânea, mesmo com cultura negativa, e o tratamento começa imediatamente com cefalosporina de terceira geração. A infusão de albumina, 1,5 g/kg no primeiro dia e 1 g/kg no terceiro, reduz a incidência de síndrome hepatorrenal e a mortalidade. Após o episódio, indica-se profilaxia secundária com quinolona e avaliação para transplante hepático.",
+  "porAlt": [
+   "Correta: cefalosporina de terceira geração associada a albumina, que reduz lesão renal e mortalidade.",
+   "Aguardar cultura atrasa o tratamento de uma infecção com mortalidade elevada e cultura frequentemente negativa.",
+   "Albumina isolada não trata a infecção e o antibiótico não deve depender do resultado da cultura.",
+   "A peritonite bacteriana espontânea é tratada clinicamente, e a laparotomia não está indicada aqui.",
+   "O tratamento é intravenoso e hospitalar, com reavaliação e profilaxia secundária programada depois."
+  ]
+ },
+ {
+  "q": "Mulher de 80 anos internada na enfermaria por fratura de fêmur aguarda cirurgia e apresenta, no segundo dia, desorientação flutuante, sonolência e desatenção, sem febre e sem déficit focal. Qual é a conduta inicial mais adequada?",
+  "alts": [
+   "Iniciar haloperidol em dose fixa para prevenir a progressão do quadro confusional identificado.",
+   "Prescrever benzodiazepínico à noite para regularizar o ciclo de sono e vigília dessa paciente.",
+   "Procurar causas reversíveis e aplicar medidas não farmacológicas antes de qualquer psicofármaco.",
+   "Instituir contenção física preventiva para evitar que ela retire dispositivos durante a noite.",
+   "Solicitar tomografia de crânio de rotina como primeiro exame antes de qualquer outra avaliação."
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "NICE guideline — Delirium: prevention, diagnosis and management in hospital and long-term care, atualização de 2023; American Geriatrics Society, guideline for postoperative delirium",
+  "coment": "O quadro é de delirium, e a conduta inicial é buscar causas reversíveis — dor, retenção urinária, fecaloma, desidratação, distúrbio eletrolítico, hipóxia, infecção, abstinência e fármacos — e aplicar medidas não farmacológicas, que são as únicas com evidência de prevenção e redução de duração: reorientação, presença de acompanhante, óculos e aparelho auditivo, sono preservado, hidratação e mobilização precoce. Antipsicótico não previne delirium e fica reservado à agitação com risco de dano; benzodiazepínico agrava, exceto na abstinência alcoólica.",
+  "porAlt": [
+   "Antipsicótico não previne delirium nem encurta sua duração e traz risco em pacientes idosos.",
+   "Benzodiazepínico agrava o delirium, exceto quando a causa é abstinência de álcool ou do próprio fármaco.",
+   "Correta: investigar causas reversíveis e aplicar medidas não farmacológicas como primeira linha.",
+   "A contenção física aumenta agitação, lesão e duração do delirium e é medida de último recurso.",
+   "A neuroimagem se reserva a déficit focal, trauma craniano ou ausência de causa após avaliação."
+  ]
+ },
+ {
+  "q": "Paciente de 55 anos internado na enfermaria em uso de enoxaparina profilática evolui no sétimo dia com queda das plaquetas de 240.000 para 80.000 por milímetro cúbico e trombose venosa profunda no membro inferior. Qual é a conduta?",
+  "alts": [
+   "Suspender toda heparina e iniciar anticoagulante alternativo, sem transfundir plaquetas de rotina.",
+   "Manter a enoxaparina e transfundir plaquetas para permitir a continuidade da anticoagulação dele.",
+   "Trocar a enoxaparina por heparina não fracionada, mantendo a mesma classe farmacológica agora.",
+   "Suspender a anticoagulação por completo e apenas observar, dada a plaquetopenia identificada nele.",
+   "Iniciar corticoide em dose imunossupressora como tratamento principal da queda de plaquetas dele."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "ASH Guidelines for Management of Venous Thromboembolism: Heparin-Induced Thrombocytopenia, 2018",
+  "coment": "Queda de mais de 50% das plaquetas entre o quinto e o décimo dia de exposição à heparina, associada a trombose, caracteriza trombocitopenia induzida por heparina, mecanismo imunomediado e paradoxalmente protrombótico. A conduta é suspender toda forma de heparina, incluindo flushes e cateteres impregnados, e iniciar anticoagulante alternativo, como argatroban, fondaparinux ou anticoagulante oral direto conforme a disponibilidade. Transfusão de plaquetas alimenta a trombose e está contraindicada fora do sangramento com risco de vida.",
+  "porAlt": [
+   "Correta: suspender toda heparina e iniciar anticoagulante alternativo, sem transfundir plaquetas.",
+   "Manter a heparina perpetua o mecanismo imunomediado e a transfusão de plaquetas agrava a trombose.",
+   "A heparina não fracionada pertence à mesma classe e mantém o estímulo imunológico responsável.",
+   "Suspender a anticoagulação em paciente com trombose ativa expõe a extensão e a embolia pulmonar.",
+   "Corticoide não é o tratamento e não substitui a troca imediata do anticoagulante nessa condição."
+  ]
+ },
+ {
+  "q": "Homem de 48 anos internado na enfermaria por pielonefrite aguda com boa resposta ao antibiótico apresenta, no quarto dia, três evacuações líquidas ao dia, sem sangue, com febre baixa e leucocitose. Qual é a conduta inicial mais adequada?",
+  "alts": [
+   "Prescrever loperamida imediatamente para reduzir o número de evacuações e o desconforto do paciente.",
+   "Iniciar vancomicina oral empírica para todo paciente com diarreia durante o uso de antibiótico.",
+   "Suspender o antibiótico da pielonefrite e liberar a alta hospitalar com dieta livre de lactose.",
+   "Solicitar colonoscopia de urgência como primeiro exame para investigar a causa da diarreia dele.",
+   "Pesquisar toxina e antígeno de Clostridioides difficile nas fezes antes de prescrever antidiarreico."
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Prevention, Diagnosis, and Treatment of Clostridioides difficile Infections, 2021; IDSA/SHEA guideline, 2021",
+  "coment": "Diarreia que surge durante ou após antibioticoterapia em paciente internado deve levantar a suspeita de infecção por Clostridioides difficile, investigada por pesquisa de toxina associada a antígeno ou teste molecular, em amostra de fezes não formadas. O antidiarreico está contraindicado até que o diagnóstico seja afastado, pelo risco de megacólon tóxico. Confirmada a infecção, o tratamento de primeira linha é vancomicina oral ou fidaxomicina, com medidas de precaução de contato e higiene das mãos com água e sabão.",
+  "porAlt": [
+   "Loperamida antes de afastar a infecção aumenta o risco de íleo e de megacólon tóxico.",
+   "O tratamento empírico universal não é recomendado: a investigação precede a terapia dirigida.",
+   "Suspender o antibiótico da infecção urinária tratada e dar alta ignora a suspeita diagnóstica atual.",
+   "A colonoscopia não é o exame inicial e traz risco de perfuração na colite grave estabelecida.",
+   "Correta: investigar Clostridioides difficile antes de qualquer antidiarreico nesse contexto."
+  ]
+ },
+ {
+  "q": "Mulher de 67 anos internada na enfermaria por acidente vascular cerebral isquêmico, no segundo dia, com déficit motor e disartria, ainda sem dieta liberada. Qual é a medida que mais reduz o risco de pneumonia nesse contexto?",
+  "alts": [
+   "Rastrear disfagia antes de liberar dieta e manter higiene oral rigorosa durante toda a internação.",
+   "Prescrever antibiótico profilático desde a admissão para reduzir a chance de pneumonia aspirativa.",
+   "Indicar sonda nasoenteral para todos os pacientes com acidente vascular cerebral já na admissão.",
+   "Manter jejum absoluto por sete dias até que o déficit neurológico apresente melhora significativa.",
+   "Elevar a cabeceira apenas durante o período noturno, mantendo o decúbito horizontal durante o dia."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "enf",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019; diretrizes da Sociedade Brasileira de Doenças Cerebrovasculares",
+  "coment": "O rastreio de disfagia antes da primeira oferta de dieta é recomendação formal no acidente vascular cerebral agudo e reduz pneumonia aspirativa, complicação associada a maior mortalidade e a pior desfecho funcional. Somam-se higiene oral rigorosa, elevação da cabeceira, avaliação fonoaudiológica e ajuste de consistência. Antibiótico profilático não reduz mortalidade e seleciona resistência, e a sonda não é indicada indiscriminadamente, sendo reservada a quem não pode se alimentar com segurança.",
+  "porAlt": [
+   "Correta: rastrear disfagia antes da dieta e manter higiene oral rigorosa durante a internação.",
+   "A profilaxia antibiótica não reduziu mortalidade nos ensaios e favorece a seleção de germes resistentes.",
+   "A sonda não é indicada para todos e sim para quem não consegue se alimentar com segurança.",
+   "Jejum prolongado agrava desnutrição e não previne aspiração de secreção da própria orofaringe.",
+   "A elevação da cabeceira deve ser mantida também durante as refeições e nas horas seguintes a elas."
+  ]
+ },
+ {
+  "q": "Paciente de 70 anos internado na enfermaria por doença pulmonar obstrutiva crônica exacerbada, com pH de 7,28, PaCO2 de 62 mmHg e frequência respiratória de 28, alerta e colaborativo. Qual é a conduta mais adequada?",
+  "alts": [
+   "Proceder à intubação orotraqueal imediata, já que existe acidose respiratória documentada nele.",
+   "Ofertar oxigênio em alto fluxo com máscara não reinalante buscando saturação de cem por cento agora.",
+   "Prescrever apenas broncodilatador e corticoide sistêmico, sem qualquer suporte ventilatório agora.",
+   "Administrar sedativo para reduzir o desconforto respiratório e diminuir o trabalho da respiração.",
+   "Iniciar ventilação não invasiva com dois níveis de pressão e manter tratamento farmacológico pleno."
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "GOLD — Global Strategy for the Diagnosis, Management and Prevention of COPD, 2026; ERS/ATS guidelines on noninvasive ventilation for acute respiratory failure, 2017",
+  "coment": "Na exacerbação da doença pulmonar obstrutiva crônica com acidose respiratória, definida por pH abaixo de 7,35 com hipercapnia, a ventilação não invasiva com dois níveis de pressão é indicação de primeira linha: reduz intubação, mortalidade e tempo de internação. O paciente está alerta e colaborativo, sem contraindicação. A oxigenoterapia deve ser titulada para saturação entre 88 e 92%, porque a oferta liberal agrava a hipercapnia, e sedativos são evitados fora do ambiente monitorizado.",
+  "porAlt": [
+   "A intubação se reserva à falha da ventilação não invasiva, rebaixamento ou instabilidade hemodinâmica.",
+   "Oxigênio em alto fluxo com alvo de saturação máxima agrava a hipercapnia e a acidose respiratória.",
+   "O tratamento farmacológico isolado não corrige a acidose respiratória já instalada nesse paciente.",
+   "Sedativo em paciente hipercápnico fora de ambiente monitorizado agrava a depressão respiratória.",
+   "Correta: ventilação não invasiva com dois níveis de pressão associada ao tratamento farmacológico."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos internado na enfermaria por hemorragia digestiva alta por úlcera péptica, após endoscopia com hemostasia bem-sucedida, encontra-se estável. A pesquisa de Helicobacter pylori foi positiva. Qual é a conduta correta na alta?",
+  "alts": [
+   "Manter inibidor de bomba de prótons de forma isolada, sem tratar a infecção diagnosticada nele.",
+   "Repetir a endoscopia em quarenta e oito horas para todos os pacientes com úlcera já tratada.",
+   "Prescrever anti-inflamatório para a dor abdominal residual associado a protetor gástrico oral.",
+   "Encaminhar diretamente para cirurgia eletiva de úlcera devido ao episódio de sangramento dele.",
+   "Tratar a infecção com esquema de erradicação e confirmar a cura por teste posterior programado."
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024; ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021",
+  "coment": "A erradicação do Helicobacter pylori reduz de forma expressiva a recidiva de úlcera péptica e de novo sangramento, e o tratamento deve ser prescrito sempre que a infecção for identificada nesse contexto. A confirmação da erradicação é recomendada, por teste respiratório da ureia ou antígeno fecal, ao menos quatro semanas após o término do antibiótico e com o inibidor de bomba suspenso por duas semanas. Anti-inflamatórios devem ser evitados, e a endoscopia de controle não é rotina após hemostasia bem-sucedida.",
+  "porAlt": [
+   "Manter apenas inibidor de bomba sem erradicar mantém alto o risco de recidiva da úlcera e do sangramento.",
+   "A endoscopia de controle precoce não é rotina após hemostasia endoscópica bem-sucedida e estável.",
+   "O anti-inflamatório é justamente um dos fatores que causam e perpetuam a doença ulcerosa péptica.",
+   "A cirurgia se reserva à falha do tratamento endoscópico e clínico, o que não ocorreu neste caso.",
+   "Correta: erradicar a infecção e confirmar a cura por teste realizado após o intervalo adequado."
+  ]
+ }
+]

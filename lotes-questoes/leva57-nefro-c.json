@@ -2,13 +2,13 @@
  {
   "q": "Paciente internado apresenta elevação da creatinina de 1,0 para 1,9 mg/dL em 48 horas, com débito urinário preservado. Qual é a conduta inicial?",
   "alts": [
-   "Buscar sempre a causa, revisar nefrotóxicos e avaliar volemia antes de qualquer indicação dialítica.",
    "Indicar hemodiálise imediata a todos os pacientes com essa variação de creatinina em quarenta e oito horas.",
    "Prescrever diurético de alça em dose alta para converter a lesão renal oligúrica em não oligúrica.",
+   "Buscar sempre a causa, revisar nefrotóxicos e avaliar volemia antes de qualquer indicação dialítica.",
    "Restringir a oferta de líquidos em todos os casos, independentemente do estado volêmico do paciente.",
    "Iniciar dopamina em dose baixa, medida que protege a função renal na lesão renal aguda instalada."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "dx",
@@ -16,9 +16,9 @@
   "base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012 com atualização 2024",
   "coment": "A lesão renal aguda é definida por elevação de creatinina de 0,3 mg/dL em quarenta e oito horas, aumento de cinquenta por cento em sete dias ou débito urinário abaixo de 0,5 mL/kg/h por seis horas. A conduta inicial é identificar a causa nas categorias pré-renal, renal e pós-renal, suspender nefrotóxicos, ajustar doses, avaliar volemia e afastar obstrução com ultrassom. Diurético não previne nem trata lesão renal, e dopamina em dose renal foi abandonada.",
   "porAlt": [
-   "Correta: buscar a causa, revisar nefrotóxicos e avaliar volemia antes de considerar terapia dialítica.",
    "A diálise se indica por critérios específicos, e a variação isolada de creatinina não é um deles.",
    "O diurético não previne nem trata a lesão renal aguda e pode agravar a hipovolemia existente.",
+   "Correta: buscar a causa, revisar nefrotóxicos e avaliar volemia antes de considerar terapia dialítica.",
    "Restringir líquidos sem avaliar volemia pode agravar a lesão renal de causa pré-renal.",
    "A dopamina em dose renal foi abandonada por ausência de benefício e risco de arritmia."
   ]
@@ -26,13 +26,13 @@
  {
   "q": "Paciente com doença renal crônica estágio 4 e potássio sérico de 6,8 mEq/L com alterações no eletrocardiograma. Qual é a primeira medida?",
   "alts": [
-   "Gluconato de cálcio endovenoso para estabilizar sempre a membrana miocárdica antes de outras medidas.",
    "Iniciar resina de troca por via oral como primeira medida antes de qualquer estabilização cardíaca.",
    "Administrar apenas insulina com glicose e aguardar sem qualquer proteção elétrica do miocárdio agora.",
    "Indicar hemodiálise como primeira medida antes de qualquer intervenção farmacológica imediata agora.",
-   "Suspender apenas os medicamentos que elevam o potássio e reavaliar o exame em seis horas neste caso."
+   "Suspender apenas os medicamentos que elevam o potássio e reavaliar o exame em seis horas neste caso.",
+   "Gluconato de cálcio endovenoso para estabilizar sempre a membrana miocárdica antes de outras medidas."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "nefro",
   "cenario": "emg",
   "comp": "urg",
@@ -40,11 +40,11 @@
   "base": "KDIGO controversies conference on potassium management, 2020; European Resuscitation Council Guidelines, 2021",
   "coment": "Na hipercalemia com alterações eletrocardiográficas, a primeira medida é gluconato de cálcio endovenoso, que estabiliza a membrana do miócito e protege contra arritmia sem alterar a calemia. Em seguida deslocam-se o potássio para o intracelular com insulina e glicose, beta-agonista inalado e bicarbonato se houver acidose. Só então se promove a remoção corporal com resina, diurético ou diálise, esta indicada na hipercalemia grave refratária.",
   "porAlt": [
-   "Correta: gluconato de cálcio endovenoso primeiro, para estabilizar a membrana miocárdica de imediato.",
    "A resina remove potássio lentamente e não protege o coração no intervalo de maior risco.",
    "Insulina com glicose desloca o potássio, mas não substitui a proteção elétrica do miocárdio.",
    "A diálise remove potássio de forma definitiva, mas leva tempo para ser instituída na urgência.",
-   "Suspender fármacos é necessário, porém insuficiente diante de alteração eletrocardiográfica aguda."
+   "Suspender fármacos é necessário, porém insuficiente diante de alteração eletrocardiográfica aguda.",
+   "Correta: gluconato de cálcio endovenoso primeiro, para estabilizar a membrana miocárdica de imediato."
   ]
  },
  {
@@ -53,10 +53,10 @@
    "Suspender qualquer bloqueador do sistema renina-angiotensina pelo risco de piora da função renal agora.",
    "Prescrever apenas restrição proteica extrema como principal intervenção para reduzir a albuminúria agora.",
    "Iniciar diurético tiazídico isolado, intervenção com melhor evidência para reduzir a progressão renal.",
-   "Indicar diálise preventiva neste estágio para retardar a progressão da doença renal do paciente agora.",
-   "Bloqueador do sistema renina-angiotensina com inibidor de SGLT2, sempre monitorando potássio e creatinina."
+   "Bloqueador do sistema renina-angiotensina com inibidor de SGLT2, sempre monitorando potássio e creatinina.",
+   "Indicar diálise preventiva neste estágio para retardar a progressão da doença renal do paciente agora."
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "tto",
@@ -67,8 +67,8 @@
    "Elevação de creatinina até trinta por cento é esperada e não justifica suspender o bloqueio.",
    "A restrição proteica é moderada e adjuvante, jamais extrema e nunca como intervenção principal.",
    "O tiazídico controla pressão, mas não tem o efeito antiproteinúrico do bloqueio do sistema.",
-   "Não existe diálise preventiva; a terapia substitutiva se inicia por critérios clínicos definidos.",
-   "Correta: bloqueio do sistema renina-angiotensina com inibidor de SGLT2, monitorando potássio e creatinina."
+   "Correta: bloqueio do sistema renina-angiotensina com inibidor de SGLT2, monitorando potássio e creatinina.",
+   "Não existe diálise preventiva; a terapia substitutiva se inicia por critérios clínicos definidos."
   ]
  },
  {
@@ -99,12 +99,12 @@
   "q": "Homem de 30 anos com hematúria macroscópica recorrente durante quadros de infecção de vias aéreas superiores. Qual é o diagnóstico mais provável?",
   "alts": [
    "Glomerulonefrite pós-estreptocócica, que cursa com hematúria simultânea à infecção de vias aéreas.",
+   "Nefropatia por IgA, que cursa sempre com hematúria simultânea ao quadro infeccioso de vias aéreas.",
    "Nefrolitíase recorrente, condição que produz hematúria sincrônica com infecções respiratórias altas.",
    "Cistite bacteriana de repetição, quadro que cursa com hematúria macroscópica durante infecção alta.",
-   "Doença de membrana fina, condição definida por hematúria macroscópica sincrônica com faringite aguda.",
-   "Nefropatia por IgA, que cursa sempre com hematúria simultânea ao quadro infeccioso de vias aéreas."
+   "Doença de membrana fina, condição definida por hematúria macroscópica sincrônica com faringite aguda."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
@@ -113,22 +113,22 @@
   "coment": "A nefropatia por IgA é a glomerulopatia primária mais frequente e se manifesta classicamente por hematúria macroscópica sincrônica com infecção de vias aéreas superiores, ou seja, no mesmo momento ou em até dois dias. Isso a distingue da glomerulonefrite pós-estreptocócica, cujo intervalo é de uma a três semanas após a faringite. O tratamento inclui bloqueio do sistema renina-angiotensina e, em casos selecionados com proteinúria persistente, imunossupressão.",
   "porAlt": [
    "A glomerulonefrite pós-estreptocócica tem latência de uma a três semanas após a faringite.",
+   "Correta: hematúria macroscópica sincrônica com infecção de vias aéreas caracteriza nefropatia por IgA.",
    "A nefrolitíase causa hematúria com dor em cólica e não guarda relação com infecção respiratória.",
    "A cistite cursa com disúria e urgência e não se relaciona com infecção de vias aéreas superiores.",
-   "A doença de membrana fina cursa com hematúria microscópica persistente, geralmente familiar.",
-   "Correta: hematúria macroscópica sincrônica com infecção de vias aéreas caracteriza nefropatia por IgA."
+   "A doença de membrana fina cursa com hematúria microscópica persistente, geralmente familiar."
   ]
  },
  {
   "q": "Paciente com edema periorbitário, proteinúria de 6 g/24h, hipoalbuminemia e hipercolesterolemia. Qual é a conduta inicial?",
   "alts": [
+   "Investigar a causa com sorologias e considerar sempre biópsia renal antes da imunossupressão específica.",
    "Iniciar imunossupressão empírica em dose alta antes de qualquer investigação etiológica do quadro agora.",
    "Prescrever apenas diurético em dose alta e alta hospitalar, sem qualquer investigação complementar.",
    "Indicar diálise imediata em todos os pacientes com essa magnitude de proteinúria nas vinte e quatro horas.",
-   "Prescrever apenas dieta hiperproteica para compensar a perda urinária de proteínas do paciente agora.",
-   "Investigar a causa com sorologias e considerar sempre biópsia renal antes da imunossupressão específica."
+   "Prescrever apenas dieta hiperproteica para compensar a perda urinária de proteínas do paciente agora."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "dx",
@@ -136,23 +136,23 @@
   "base": "KDIGO Glomerular Diseases Guideline, 2021 com revisão 2024",
   "coment": "A síndrome nefrótica no adulto exige definição etiológica: investigam-se diabetes, lúpus, hepatites B e C, HIV, sífilis, mieloma, amiloidose e fármacos, além de dosar complemento e anticorpo anti-PLA2R, que sugere nefropatia membranosa primária. A biópsia renal é indicada na maioria dos adultos, pois o tratamento depende da lesão histológica. O manejo de suporte inclui bloqueio do sistema renina-angiotensina, controle de edema, estatina e atenção ao risco trombótico.",
   "porAlt": [
+   "Correta: investigar etiologia com sorologias e considerar biópsia renal antes da imunossupressão.",
    "A imunossupressão empírica sem histologia pode ser ineficaz e expõe o paciente a toxicidade evitável.",
    "O diurético trata o edema, mas não define a causa nem o tratamento específico da glomerulopatia.",
    "A diálise se indica por critérios clínicos, e a proteinúria isolada não é um deles neste contexto.",
-   "A dieta hiperproteica aumenta a proteinúria e pode acelerar a progressão da doença renal.",
-   "Correta: investigar etiologia com sorologias e considerar biópsia renal antes da imunossupressão."
+   "A dieta hiperproteica aumenta a proteinúria e pode acelerar a progressão da doença renal."
   ]
  },
  {
   "q": "Paciente com cólica renal e tomografia mostrando cálculo ureteral de 5 mm sem sinais de infecção, com dor controlada. Qual é a conduta?",
   "alts": [
-   "Analgesia com anti-inflamatório e terapia expulsiva, sempre com hidratação e observação da eliminação.",
    "Indicar litotripsia extracorpórea imediata a todos os pacientes com cálculo ureteral dessa dimensão.",
    "Indicar cirurgia aberta de urgência para a retirada do cálculo ureteral descrito no enunciado do caso.",
    "Prescrever antibiótico de amplo espectro por dez dias mesmo sem qualquer sinal de infecção urinária.",
+   "Analgesia com anti-inflamatório e terapia expulsiva, sempre com hidratação e observação da eliminação.",
    "Realizar hidratação endovenosa em altíssimo volume para forçar mecanicamente a expulsão do cálculo."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "emg",
   "comp": "tto",
@@ -160,10 +160,10 @@
   "base": "EAU Guidelines on Urolithiasis, 2024; AUA/Endourological Society Surgical Management of Stones, revisão 2023",
   "coment": "Cálculos ureterais de até dez milímetros, sem infecção, sem lesão renal e com dor controlada, podem ser tratados conservadoramente: anti-inflamatório não hormonal como analgésico de escolha, hidratação habitual e terapia expulsiva com alfabloqueador, sobretudo em cálculos distais entre cinco e dez milímetros. Indicação de intervenção urgente inclui obstrução com infecção, rim único, lesão renal e dor refratária. Hiperidratação forçada não acelera a eliminação.",
   "porAlt": [
-   "Correta: analgesia com anti-inflamatório, terapia expulsiva e observação da eliminação do cálculo.",
    "A litotripsia é opção quando falha o tratamento conservador ou há indicação específica de intervenção.",
    "A cirurgia aberta é excepcional hoje, substituída por métodos endoscópicos minimamente invasivos.",
    "O antibiótico sem sinais de infecção seleciona resistência e não acelera a eliminação do cálculo.",
+   "Correta: analgesia com anti-inflamatório, terapia expulsiva e observação da eliminação do cálculo.",
    "A hidratação em altíssimo volume não impulsiona o cálculo e pode aumentar a pressão e a dor."
   ]
  },
@@ -194,13 +194,13 @@
  {
   "q": "Paciente em uso de anti-inflamatório não hormonal há duas semanas evolui com elevação de creatinina e sódio urinário baixo. Qual é o mecanismo mais provável?",
   "alts": [
+   "Vasoconstrição da arteríola aferente por inibição de prostaglandinas, revertida sempre com a suspensão.",
    "Nefrite intersticial aguda alérgica, definida por sódio urinário baixo e resposta imediata à suspensão.",
    "Necrose tubular aguda isquêmica, caracterizada por sódio urinário baixo e cilindros hialinos na urina.",
    "Obstrução urinária baixa por retenção, mecanismo típico do uso prolongado de anti-inflamatórios orais.",
-   "Vasoconstrição da arteríola aferente por inibição de prostaglandinas, revertida sempre com a suspensão.",
    "Glomerulonefrite rapidamente progressiva, mecanismo habitual da lesão renal induzida por essa classe."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
@@ -208,10 +208,10 @@
   "base": "KDIGO Acute Kidney Injury Guideline, atualização 2024; NEJM review on drug-induced nephrotoxicity, 2023",
   "coment": "Os anti-inflamatórios não hormonais inibem a síntese de prostaglandinas vasodilatadoras que mantêm a perfusão glomerular quando há hipoperfusão renal, causando vasoconstrição da arteríola aferente e queda da filtração. O padrão é pré-renal, com sódio urinário baixo e fração de excreção de sódio reduzida, e costuma reverter com a suspensão do fármaco e a correção da volemia. Essa classe também pode causar nefrite intersticial e necrose de papila.",
   "porAlt": [
+   "Correta: vasoconstrição da arteríola aferente por inibição de prostaglandinas, revertida com a suspensão.",
    "A nefrite intersticial cursa com sódio urinário elevado, além de eosinofilúria e por vezes rash.",
    "A necrose tubular aguda cursa com sódio urinário elevado e cilindros granulosos, não hialinos.",
    "Anti-inflamatórios não causam obstrução urinária baixa como mecanismo de lesão renal aguda.",
-   "Correta: vasoconstrição da arteríola aferente por inibição de prostaglandinas, revertida com a suspensão.",
    "A glomerulonefrite rapidamente progressiva cursa com hematúria dismórfica e cilindros hemáticos."
   ]
  },

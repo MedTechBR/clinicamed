@@ -2,13 +2,13 @@
  {
   "q": "Homem de 55 anos com dor mecânica em joelhos, rigidez matinal de 15 minutos e crepitação. Qual é o tratamento inicial?",
   "alts": [
-   "Exercício de fortalecimento com controle de peso e analgesia, sempre associados a educação do paciente.",
    "Corticoide sistêmico contínuo em dose baixa como tratamento de manutenção da doença articular descrita.",
    "Metotrexato semanal em dose plena, tratamento modificador de escolha para essa doença degenerativa.",
+   "Exercício de fortalecimento com controle de peso e analgesia, sempre associados a educação do paciente.",
    "Repouso articular prolongado com restrição da marcha como principal medida terapêutica indicada agora.",
    "Artroplastia total imediata em todos os pacientes com crepitação e dor mecânica em joelhos neste caso."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -16,9 +16,9 @@
   "base": "ACR/AF Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, 2019 com revisão 2023; OARSI guidelines, 2019",
   "coment": "O tratamento da osteoartrite de joelho tem como pilares o exercício — fortalecimento de quadríceps e condicionamento aeróbico —, a perda de peso quando há sobrepeso e a educação sobre a doença, todos com recomendação forte. Analgesia inclui anti-inflamatório tópico, paracetamol e anti-inflamatório oral pelo menor tempo possível. Infiltração de corticoide alivia por curtos períodos. Artroplastia se reserva à doença avançada refratária com prejuízo funcional.",
   "porAlt": [
-   "Correta: exercício de fortalecimento, controle de peso, analgesia e educação são os pilares do tratamento.",
    "O corticoide sistêmico contínuo não é indicado e traz toxicidade sem benefício estrutural algum.",
    "O metotrexato trata artrite inflamatória autoimune, e não a doença degenerativa aqui descrita.",
+   "Correta: exercício de fortalecimento, controle de peso, analgesia e educação são os pilares do tratamento.",
    "O repouso prolongado atrofia o quadríceps e piora a dor e a função articular do paciente.",
    "A artroplastia se reserva à doença avançada refratária ao tratamento clínico bem conduzido."
   ]
@@ -26,13 +26,13 @@
  {
   "q": "Paciente com artrite reumatoide em uso de metotrexato precisa iniciar imunobiológico. Qual rastreio é obrigatório antes?",
   "alts": [
+   "Rastreio de tuberculose latente e de hepatites virais, sempre antes da primeira dose do imunobiológico.",
    "Apenas hemograma completo, exame suficiente para liberar o início da terapia com agente imunobiológico.",
    "Somente radiografia de mãos, exame necessário para autorizar o início do tratamento imunobiológico.",
    "Apenas densitometria óssea, exame obrigatório antes de iniciar qualquer terapia com imunobiológico.",
-   "Nenhum rastreio é necessário, pois os imunobiológicos não aumentam o risco de infecção latente agora.",
-   "Rastreio de tuberculose latente e de hepatites virais, sempre antes da primeira dose do imunobiológico."
+   "Nenhum rastreio é necessário, pois os imunobiológicos não aumentam o risco de infecção latente agora."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "prev",
@@ -40,23 +40,23 @@
   "base": "Sociedade Brasileira de Reumatologia — Consenso sobre terapia biológica, 2022; EULAR recommendations, 2022",
   "coment": "Antes de iniciar imunobiológico, sobretudo anti-TNF, é obrigatório rastrear tuberculose latente com prova tuberculínica ou ensaio de liberação de interferon gama e radiografia de tórax, tratando a infecção latente antes de iniciar. Rastreiam-se também hepatites B e C, pelo risco de reativação viral, e HIV, além de atualizar o calendário vacinal, aplicando vacinas de vírus vivo com antecedência, pois ficam contraindicadas depois.",
   "porAlt": [
+   "Correta: rastreio de tuberculose latente e de hepatites virais antes da primeira dose do imunobiológico.",
    "O hemograma é parte da avaliação, mas não detecta tuberculose latente nem hepatite viral crônica.",
    "A radiografia de mãos avalia dano articular e não tem relação com a segurança do imunobiológico.",
    "A densitometria avalia massa óssea e não integra o rastreio de segurança antes do imunobiológico.",
-   "Os imunobiológicos aumentam de forma expressiva o risco de reativação de tuberculose latente.",
-   "Correta: rastreio de tuberculose latente e de hepatites virais antes da primeira dose do imunobiológico."
+   "Os imunobiológicos aumentam de forma expressiva o risco de reativação de tuberculose latente."
   ]
  },
  {
   "q": "Paciente com dor difusa há mais de três meses, fadiga, sono não reparador e exame físico e laboratorial normais. Qual é a conduta?",
   "alts": [
-   "Exercício aeróbico gradual e educação, associados sempre a abordagem do sono e da saúde mental.",
    "Corticoide sistêmico em dose alta, tratamento com melhor evidência para o quadro doloroso descrito.",
    "Opioide potente de uso contínuo diário como tratamento de escolha para essa condição dolorosa crônica.",
    "Solicitar bateria ampla de exames repetidos a cada mês até encontrar alguma alteração laboratorial.",
+   "Exercício aeróbico gradual e educação, associados sempre a abordagem do sono e da saúde mental.",
    "Repouso prolongado com afastamento total de qualquer atividade física durante seis meses seguidos."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -64,10 +64,10 @@
   "base": "EULAR revised recommendations for the management of fibromyalgia, 2017 com revisão 2023; ACR diagnostic criteria, 2016",
   "coment": "A fibromialgia é diagnóstico clínico, com dor difusa, fadiga, sono não reparador e sintomas cognitivos, sem alterações laboratoriais ou de imagem específicas. A intervenção com melhor evidência e recomendação mais forte é o exercício, sobretudo aeróbico e de fortalecimento, iniciado de forma gradual. Associam-se educação, terapia cognitivo-comportamental e higiene do sono. Fármacos como amitriptilina, duloxetina e pregabalina são adjuvantes; opioides são desaconselhados.",
   "porAlt": [
-   "Correta: exercício aeróbico gradual com educação, abordagem do sono e da saúde mental do paciente.",
    "O corticoide não tem eficácia na fibromialgia e adiciona toxicidade sem qualquer benefício clínico.",
    "Os opioides são desaconselhados, com risco de hiperalgesia, dependência e piora funcional a longo prazo.",
    "Repetir exames indefinidamente reforça a busca por doença e piora o sofrimento e a ansiedade.",
+   "Correta: exercício aeróbico gradual com educação, abordagem do sono e da saúde mental do paciente.",
    "O repouso prolongado agrava o descondicionamento e intensifica a dor e a fadiga do paciente."
   ]
  },
@@ -98,13 +98,13 @@
  {
   "q": "Homem de 28 anos com uveíte anterior recorrente, lombalgia inflamatória e HLA-B27 positivo. Qual é a conduta quanto ao acometimento ocular?",
   "alts": [
-   "Encaminhamento oftalmológico urgente a cada episódio, com tratamento sempre tópico e sistêmico conforme o caso.",
    "Tratar apenas com colírio lubrificante domiciliar, medida suficiente para todos os episódios de uveíte agora.",
    "Aguardar a resolução espontânea da uveíte sem qualquer tratamento ou avaliação oftalmológica dirigida agora.",
    "Iniciar antibiótico tópico prolongado como tratamento de escolha para a uveíte anterior recorrente neste caso.",
+   "Encaminhamento oftalmológico urgente a cada episódio, com tratamento sempre tópico e sistêmico conforme o caso.",
    "Indicar cirurgia ocular imediata em todos os episódios de uveíte anterior associada à espondiloartrite agora."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -112,10 +112,10 @@
   "base": "ASAS-EULAR recommendations for axial spondyloarthritis, 2022; American Academy of Ophthalmology — Uveitis Preferred Practice Pattern, 2023",
   "coment": "A uveíte anterior aguda é a manifestação extra-articular mais frequente das espondiloartrites associadas ao HLA-B27, tipicamente unilateral, dolorosa, com fotofobia e hiperemia perilímbica. Exige avaliação oftalmológica urgente e tratamento com corticoide tópico e midriático para evitar sinéquias, com risco de perda visual se negligenciada. Recorrências frequentes favorecem a escolha de anti-TNF monoclonal, que reduz novos episódios oculares.",
   "porAlt": [
-   "Correta: avaliação oftalmológica urgente a cada episódio, com tratamento tópico e sistêmico conforme o caso.",
    "O lubrificante não trata a inflamação intraocular e a demora pode causar sinéquias e perda visual.",
    "Aguardar sem tratar arrisca complicações estruturais permanentes do olho acometido pela uveíte.",
    "O antibiótico tópico não trata a uveíte, que é inflamação imunomediada e não infecção bacteriana.",
+   "Correta: avaliação oftalmológica urgente a cada episódio, com tratamento tópico e sistêmico conforme o caso.",
    "A cirurgia se reserva a complicações estruturais, e não ao tratamento do episódio inflamatório agudo."
   ]
  },
@@ -149,10 +149,10 @@
    "Infiltração intra-articular de corticoide como primeira medida antes de qualquer coleta de material.",
    "Prescrever apenas anti-inflamatório oral e reavaliar clinicamente em uma semana de acompanhamento.",
    "Iniciar colchicina em dose plena, já tratamento de escolha para a monoartrite febril aqui descrita.",
-   "Drenagem articular e antibiótico endovenoso empírico, iniciados sempre após a coleta de culturas.",
-   "Imobilizar o joelho por quatro semanas sem qualquer drenagem ou antibioticoterapia sistêmica."
+   "Imobilizar o joelho por quatro semanas sem qualquer drenagem ou antibioticoterapia sistêmica.",
+   "Drenagem articular e antibiótico endovenoso empírico, iniciados sempre após a coleta de culturas."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "reumato",
   "cenario": "emg",
   "comp": "urg",
@@ -163,20 +163,20 @@
    "O corticoide intra-articular em artrite séptica agrava a infecção e é formalmente contraindicado.",
    "Anti-inflamatório isolado por uma semana permite destruição irreversível da cartilagem articular.",
    "A colchicina trata gota, e a contagem descrita com febre aponta infecção como principal hipótese.",
-   "Correta: drenagem articular com antibiótico endovenoso empírico iniciado após a coleta de culturas.",
-   "A imobilização isolada não trata a infecção e a destruição articular progride sem antibiótico."
+   "A imobilização isolada não trata a infecção e a destruição articular progride sem antibiótico.",
+   "Correta: drenagem articular com antibiótico endovenoso empírico iniciado após a coleta de culturas."
   ]
  },
  {
   "q": "Mulher de 50 anos com espessamento cutâneo distal, Raynaud e crise renal com hipertensão grave e lesão renal aguda. Qual é o tratamento?",
   "alts": [
+   "Inibidor da enzima conversora de angiotensina em dose plena, iniciado sempre o mais precocemente possível.",
    "Corticoide sistêmico em dose alta, tratamento de escolha para a crise renal da esclerose sistêmica agora.",
    "Bloqueador de canal de cálcio isolado como tratamento definitivo da crise renal descrita no caso agora.",
-   "Inibidor da enzima conversora de angiotensina em dose plena, iniciado sempre o mais precocemente possível.",
    "Diurético de alça em dose alta como principal medida terapêutica da crise renal da esclerodermia agora.",
    "Diálise imediata em todos os casos antes de qualquer tratamento anti-hipertensivo ser instituído agora."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "uti",
   "comp": "urg",
@@ -184,9 +184,9 @@
   "base": "EULAR recommendations for the treatment of systemic sclerosis, atualização 2024; Scleroderma Clinical Trials Consortium, 2023",
   "coment": "A crise renal esclerodérmica cursa com hipertensão de instalação abrupta, lesão renal aguda e por vezes anemia hemolítica microangiopática. O tratamento é inibidor da enzima conversora de angiotensina, preferencialmente captopril, titulado rapidamente até o controle pressórico, mesmo diante de elevação da creatinina, pois seu uso transformou o prognóstico da complicação. Corticoide em dose alta é fator de risco reconhecido e deve ser evitado na doença.",
   "porAlt": [
+   "Correta: inibidor da enzima conversora iniciado precocemente e titulado, mesmo com creatinina subindo.",
    "O corticoide em dose alta é fator de risco para a crise renal e deve ser evitado nesses pacientes.",
    "O bloqueador de canal de cálcio trata o Raynaud, mas não é o tratamento da crise renal descrita.",
-   "Correta: inibidor da enzima conversora iniciado precocemente e titulado, mesmo com creatinina subindo.",
    "O diurético não trata o mecanismo da crise renal e pode agravar a hipoperfusão do rim acometido.",
    "A diálise pode ser necessária, mas nunca precede o tratamento com inibidor da enzima conversora."
   ]
@@ -195,12 +195,12 @@
   "q": "Paciente com poliartrite, febre, lesões cutâneas purpúricas palpáveis e mononeurite múltipla. Qual é a suspeita diagnóstica?",
   "alts": [
    "Osteoartrite generalizada, condição que cursa com púrpura palpável, febre e mononeurite múltipla.",
-   "Vasculite sistêmica, que exige sempre confirmação histológica ou sorológica antes da imunossupressão.",
    "Fibromialgia grave, quadro definido por lesões purpúricas palpáveis com acometimento de nervo periférico.",
    "Gota poliarticular, condição caracterizada por púrpura palpável e mononeurite múltipla associada.",
+   "Vasculite sistêmica, que exige sempre confirmação histológica ou sorológica antes da imunossupressão.",
    "Osteoporose avançada, quadro que cursa com poliartrite febril e lesões purpúricas palpáveis na pele."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "reumato",
   "cenario": "enf",
   "comp": "dx",
@@ -209,9 +209,9 @@
   "coment": "Púrpura palpável, mononeurite múltipla, febre e poliartrite formam um quadro clássico de vasculite sistêmica, que exige investigação rápida com ANCA, complemento, crioglobulinas, sorologias virais e biópsia de pele, nervo ou rim conforme o órgão acometido. A confirmação orienta a imunossupressão, geralmente com corticoide associado a rituximabe ou ciclofosfamida na indução, dada a gravidade e o risco de dano irreversível de órgão.",
   "porAlt": [
    "A osteoartrite é degenerativa e não cursa com febre, púrpura palpável ou neuropatia periférica.",
-   "Correta: vasculite sistêmica, com confirmação histológica ou sorológica antes da imunossupressão.",
    "A fibromialgia não produz lesões cutâneas vasculíticas nem acometimento de nervo periférico.",
    "A gota causa artrite por cristais e não produz púrpura palpável nem mononeurite múltipla.",
+   "Correta: vasculite sistêmica, com confirmação histológica ou sorológica antes da imunossupressão.",
    "A osteoporose é assintomática até a fratura e não cursa com febre, púrpura ou poliartrite."
   ]
  },

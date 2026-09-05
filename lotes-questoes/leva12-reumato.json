@@ -53,10 +53,10 @@
    "Iniciar imunobiológico anti-TNF de imediato, dispensando as drogas sintéticas convencionais.",
    "Prescrever anti-inflamatório e reavaliar em seis meses antes de decidir a terapia de base dela.",
    "Iniciar corticoide isolado em dose baixa por tempo indeterminado, sem droga modificadora dela.",
-   "Iniciar metotrexato como droga modificadora de primeira escolha, com corticoide em ponte breve.",
-   "Aguardar novas erosões radiográficas antes de introduzir droga modificadora do curso da doença."
+   "Aguardar novas erosões radiográficas antes de introduzir droga modificadora do curso da doença.",
+   "Iniciar metotrexato como droga modificadora de primeira escolha, com corticoide em ponte breve."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -67,8 +67,8 @@
    "O anti-TNF entra após falha ou intolerância ao metotrexato; usá-lo de saída eleva custo e risco sem ganho demonstrado.",
    "Anti-inflamatório apenas alivia sintoma e não impede erosão; adiar seis meses desperdiça a janela de oportunidade.",
    "Corticoide isolado por tempo indeterminado não controla a progressão estrutural e acumula dano ósseo e metabólico.",
-   "Correta: metotrexato é a primeira escolha, com corticoide apenas como ponte breve até a droga modificadora agir.",
-   "Esperar novas erosões para tratar inverte a lógica atual, que é tratar cedo e por meta para evitar o dano."
+   "Esperar novas erosões para tratar inverte a lógica atual, que é tratar cedo e por meta para evitar o dano.",
+   "Correta: metotrexato é a primeira escolha, com corticoide apenas como ponte breve até a droga modificadora agir."
   ]
  }
 ]
