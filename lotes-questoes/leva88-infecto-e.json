@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Paciente com pé diabético infectado, úlcera profunda que sonda o osso e alterações radiográficas. Qual é a conduta?",
+  "alts": [
+   "Tratar osteomielite com antibiótico prolongado e avaliação cirúrgica, obtendo sempre cultura óssea quando possível.",
+   "Prescrever antibiótico oral por sete dias e alta definitiva sem qualquer avaliação cirúrgica ou de imagem agora.",
+   "Indicar amputação imediata do membro em todos os pacientes com úlcera profunda que sonda o osso nesse contexto.",
+   "Prescrever apenas curativo local diário sem qualquer antibiótico sistêmico no paciente com osteomielite agora.",
+   "Prescrever apenas antifúngico sistêmico prolongado como tratamento da osteomielite do pé diabético descrita agora."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "IWGDF/IDSA Guidelines on diagnosis and treatment of foot infection in persons with diabetes, 2023",
+  "coment": "O teste de sondagem óssea positivo com alterações radiográficas tem alto valor preditivo para osteomielite no pé diabético. O tratamento combina antibiótico prolongado, tipicamente de seis semanas quando não há ressecção óssea, e avaliação cirúrgica para desbridamento ou ressecção do osso acometido, que permite reduzir a duração do antibiótico. A cultura óssea, quando obtida, é o padrão para dirigir a terapia, sendo superior ao swab superficial da úlcera.",
+  "porAlt": [
+   "Correta: antibiótico prolongado com avaliação cirúrgica e cultura óssea para dirigir a terapia.",
+   "Sete dias de antibiótico oral é insuficiente para osteomielite e leva a recidiva quase certa.",
+   "A amputação é medida de exceção, e muitos casos são controlados com antibiótico e desbridamento.",
+   "O curativo isolado não trata a infecção óssea estabelecida no paciente com pé diabético.",
+   "O antifúngico não cobre os agentes bacterianos responsáveis pela osteomielite do pé diabético."
+  ]
+ },
+ {
+  "q": "Paciente com suspeita de infecção por citomegalovírus após transplante, com febre e citopenias. Qual é a conduta?",
+  "alts": [
+   "Investigar com carga viral e iniciar ganciclovir quando indicado, ajustando sempre a imunossupressão em curso.",
+   "Prescrever apenas antibiótico de amplo espectro sem qualquer investigação virológica no paciente transplantado.",
+   "Aumentar a imunossupressão para reduzir a resposta inflamatória associada à infecção viral suspeitada agora.",
+   "Prescrever apenas sintomáticos e observar clinicamente por trinta dias antes de qualquer investigação viral.",
+   "Indicar retirada imediata do enxerto em todos os pacientes com suspeita de infecção por citomegalovírus agora."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "The Transplantation Society International CMV Consensus Guidelines, 2018 com revisão 2023; AST Infectious Diseases Community of Practice, 2024",
+  "coment": "A doença por citomegalovírus no transplantado cursa com febre, citopenias e acometimento de órgão, sobretudo trato digestivo, pulmão, fígado e retina. O diagnóstico usa carga viral quantitativa em sangue, complementada por histopatologia quando há doença tecidual. O tratamento é ganciclovir endovenoso ou valganciclovir oral, mantido até negativação da carga viral, com redução criteriosa da imunossupressão sempre que possível para permitir a resposta imune.",
+  "porAlt": [
+   "Correta: investigar com carga viral e tratar com ganciclovir, ajustando a imunossupressão em curso.",
+   "O antibiótico não trata infecção viral e a ausência de investigação retarda o tratamento correto.",
+   "Aumentar a imunossupressão favorece a replicação viral e agrava a doença no paciente transplantado.",
+   "Observar trinta dias permite progressão para doença invasiva de órgão e perda do enxerto.",
+   "A retirada do enxerto não é conduta diante de infecção viral tratável no paciente transplantado."
+  ]
+ },
+ {
+  "q": "Paciente com quadro febril agudo, artralgia intensa e exantema, procedente de área com circulação de arbovírus. Qual é a conduta?",
+  "alts": [
+   "Investigar arboviroses e manejar sempre como dengue até a exclusão, evitando anti-inflamatórios e salicilatos.",
+   "Prescrever ácido acetilsalicílico para o controle da febre e da artralgia intensa referida pelo paciente.",
+   "Iniciar antibiótico de amplo espectro empírico como tratamento padrão do quadro febril com exantema descrito.",
+   "Prescrever corticoide sistêmico em dose alta como tratamento inicial de escolha do quadro febril agudo agora.",
+   "Liberar sem qualquer orientação sobre sinais de alarme ou necessidade de reavaliação clínica programada agora."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024; Dengue: diagnóstico e manejo clínico, 6ª edição, 2024",
+  "coment": "Em área de circulação simultânea de dengue, chikungunya e zika, o quadro febril agudo com exantema e artralgia deve ser manejado como dengue até exclusão, pela gravidade potencial: hidratação conforme o estadiamento, orientação detalhada sobre sinais de alarme e reavaliação programada. Salicilatos e anti-inflamatórios não hormonais são contraindicados pelo risco de sangramento. A chikungunya cursa com artralgia mais intensa e prolongada, e todas são de notificação.",
+  "porAlt": [
+   "Correta: investigar arboviroses e manejar como dengue até exclusão, evitando salicilatos e anti-inflamatórios.",
+   "Os salicilatos são contraindicados na suspeita de dengue pelo risco aumentado de sangramento.",
+   "O antibiótico não trata arbovirose e não é indicado no quadro febril agudo descrito.",
+   "O corticoide não é tratamento inicial das arboviroses e pode mascarar sinais de gravidade.",
+   "Liberar sem orientar sinais de alarme e reavaliação é a principal causa de óbito evitável por dengue."
+  ]
+ },
+ {
+  "q": "Paciente com abscesso hepático piogênico único de 6 cm e febre persistente apesar de antibiótico. Qual é a conduta?",
+  "alts": [
+   "Drenagem percutânea guiada por imagem associada ao antibiótico, obtendo sempre material para cultura dirigida.",
+   "Manter apenas antibiótico endovenoso por mais quatro semanas sem qualquer drenagem da coleção hepática agora.",
+   "Indicar hepatectomia parcial imediata em todos os pacientes com abscesso hepático piogênico único neste caso.",
+   "Prescrever apenas antifúngico sistêmico como tratamento definitivo do abscesso hepático piogênico descrito.",
+   "Aguardar a resolução espontânea do abscesso hepático sem qualquer antibiótico ou procedimento associado agora."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "IDSA/WSES guidance on intra-abdominal infections, revisão 2023; Sleisenger and Fordtran, 11ª edição, 2021",
+  "coment": "O abscesso hepático piogênico é tratado com antibiótico associado a drenagem, que é indicada em coleções maiores que três a cinco centímetros, na ausência de resposta clínica ou quando há necessidade de material para cultura. A drenagem percutânea guiada por imagem é a técnica de escolha, com cirurgia reservada a falha, múltiplos abscessos complexos ou doença biliar associada que exija abordagem. Investiga-se sempre a origem, sobretudo biliar e portal.",
+  "porAlt": [
+   "Correta: drenagem percutânea guiada por imagem com antibiótico e coleta de material para cultura.",
+   "Manter apenas antibiótico diante de falha clínica e coleção grande perpetua a infecção ativa.",
+   "A hepatectomia é desproporcional quando a drenagem percutânea resolve a maioria dos casos.",
+   "O antifúngico não cobre os agentes bacterianos habituais do abscesso hepático piogênico.",
+   "O abscesso não se resolve espontaneamente e evolui para sepse sem tratamento adequado."
+  ]
+ },
+ {
+  "q": "Paciente com tuberculose e coinfecção por HIV, virgem de tratamento para ambas. Qual é a conduta?",
+  "alts": [
+   "Iniciar o tratamento da tuberculose primeiro e o antirretroviral em semanas, atento sempre à síndrome inflamatória de reconstituição.",
+   "Iniciar ambos os tratamentos no mesmo dia em todos os pacientes coinfectados, já sem qualquer intervalo entre eles nesse contexto.",
+   "Tratar apenas a tuberculose e adiar o antirretroviral por dois anos após o término do esquema antituberculose para este paciente.",
+   "Tratar apenas o HIV e adiar o tratamento da tuberculose até a carga viral se tornar indetectável no paciente para este paciente.",
+   "Não tratar nenhuma das duas condições até que o paciente apresente sintomas graves de qualquer uma delas desde o primeiro momento."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; Manual de Recomendações para o Controle da Tuberculose, revisão 2023",
+  "coment": "Na coinfecção, inicia-se primeiro o tratamento da tuberculose e depois o antirretroviral, em duas semanas quando o CD4 é muito baixo e em até oito semanas nos demais casos, equilibrando o benefício da reconstituição imune com o risco de síndrome inflamatória de reconstituição e de sobreposição de toxicidades. Atenção especial à interação entre rifampicina e antirretrovirais, que exige ajuste de dose ou escolha de esquema compatível.",
+  "porAlt": [
+   "Correta: tratar a tuberculose primeiro e iniciar o antirretroviral em semanas, atento à reconstituição imune.",
+   "Iniciar ambos no mesmo dia aumenta toxicidade sobreposta e o risco de reconstituição inflamatória grave.",
+   "Adiar o antirretroviral por dois anos mantém a imunossupressão e aumenta a mortalidade do paciente.",
+   "Tratar apenas o HIV deixa a tuberculose ativa progredir, com risco de morte e de transmissão.",
+   "Não tratar nenhuma das condições é conduta inaceitável diante de duas doenças graves e tratáveis."
+  ]
+ },
+ {
+  "q": "Paciente com infecção de sítio cirúrgico superficial no sétimo dia de pós-operatório. Qual é a conduta inicial?",
+  "alts": [
+   "Abrir e drenar a ferida com cuidados locais, avaliando sempre a necessidade de antibiótico sistêmico associado.",
+   "Prescrever apenas antibiótico endovenoso de amplo espectro sem qualquer abertura ou drenagem da ferida agora.",
+   "Manter a ferida fechada e observar clinicamente por mais duas semanas antes de qualquer intervenção local.",
+   "Realizar reoperação com revisão completa da cavidade em todos os casos de infecção superficial de ferida agora.",
+   "Prescrever apenas corticoide tópico sobre a ferida como tratamento da infecção de sítio cirúrgico superficial."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "CDC/HICPAC Guideline for the Prevention of Surgical Site Infection, revisão 2023; IDSA Skin and Soft Tissue Infections, 2023",
+  "coment": "A infecção de sítio cirúrgico superficial é tratada primariamente com abertura da ferida, drenagem da coleção e cuidados locais com curativos, permitindo cicatrização por segunda intenção. Antibiótico sistêmico é acrescentado quando há celulite extensa ao redor, sinais sistêmicos, imunossupressão ou prótese. Coleta de cultura orienta a terapia em casos selecionados. Reoperação ampla se reserva a infecção profunda ou de órgão e espaço.",
+  "porAlt": [
+   "Correta: abrir e drenar a ferida com cuidados locais, com antibiótico conforme a extensão e o quadro.",
+   "O antibiótico isolado sem drenagem não resolve a coleção purulenta na ferida operatória.",
+   "Manter fechada por duas semanas permite progressão para infecção profunda e deiscência maior.",
+   "A reoperação ampla é desproporcional para infecção limitada ao plano superficial da ferida.",
+   "O corticoide tópico prejudica a cicatrização e não trata a infecção do sítio cirúrgico."
+  ]
+ },
+ {
+  "q": "Paciente com meningite bacteriana confirmada por pneumococo. Qual é o papel da dexametasona?",
+  "alts": [
+   "Administrar antes ou junto da primeira dose de antibiótico, reduzindo sempre a chance de sequela neurológica.",
+   "Administrar apenas depois de setenta e duas horas do início do antibiótico em todos os casos confirmados.",
+   "Nunca administrar corticoide na meningite bacteriana, pois ele não traz qualquer benefício comprovado agora.",
+   "Administrar corticoide em substituição ao antibiótico nos casos confirmados de meningite pneumocócica agora.",
+   "Administrar apenas nos pacientes que apresentarem febre persistente após uma semana de antibioticoterapia."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "IDSA/ESCMID guideline on bacterial meningitis, revisão 2023; ESCMID guideline on acute bacterial meningitis, 2016",
+  "coment": "A dexametasona na meningite bacteriana do adulto reduz mortalidade e sequelas, sobretudo perda auditiva, com maior benefício na etiologia pneumocócica. Para ser eficaz, deve ser administrada antes ou junto da primeira dose do antibiótico, porque atua reduzindo a resposta inflamatória desencadeada pela lise bacteriana. Administrá-la horas depois não produz o mesmo benefício, e a manutenção é por quatro dias conforme a etiologia identificada.",
+  "porAlt": [
+   "Correta: administrar antes ou junto da primeira dose do antibiótico, reduzindo sequela neurológica.",
+   "Administrar após setenta e duas horas perde a janela em que o corticoide modula a inflamação.",
+   "O corticoide tem benefício demonstrado na meningite pneumocócica do adulto em ensaios clínicos.",
+   "O corticoide é adjuvante e jamais substitui o antibiótico no tratamento da meningite bacteriana.",
+   "A indicação é no início do tratamento, e não como resposta a febre persistente tardia."
+  ]
+ },
+ {
+  "q": "Paciente com suspeita de infecção por Clostridioides difficile grave, com leucocitose acentuada e elevação de creatinina. Qual é o tratamento?",
+  "alts": [
+   "Vancomicina oral ou fidaxomicina, suspendendo sempre o antibiótico desencadeante e mantendo precauções de contato.",
+   "Metronidazol oral isolado como tratamento de escolha na infecção grave por Clostridioides difficile atual agora.",
+   "Manter o antibiótico desencadeante e prescrever apenas probiótico como tratamento da infecção grave descrita.",
+   "Prescrever apenas antiperistáltico em dose alta para reduzir o número de evacuações do paciente grave neste caso.",
+   "Indicar colectomia total imediata em todos os pacientes com infecção grave por Clostridioides difficile agora."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "IDSA/SHEA Clinical Practice Guidelines for Clostridioides difficile infection, atualização 2021 com revisão 2024",
+  "coment": "Na infecção grave por Clostridioides difficile, definida por leucocitose acima de quinze mil ou creatinina elevada, o tratamento de escolha é vancomicina oral ou fidaxomicina, que passou a ser preferida em várias diretrizes pela menor recorrência. O metronidazol deixou de ser primeira linha por inferioridade demonstrada. Na forma fulminante, com íleo, megacólon ou choque, associam-se vancomicina em dose alta, metronidazol endovenoso e avaliação cirúrgica.",
+  "porAlt": [
+   "Correta: vancomicina oral ou fidaxomicina, com suspensão do antibiótico desencadeante e precauções de contato.",
+   "O metronidazol deixou de ser primeira linha por inferioridade demonstrada frente à vancomicina.",
+   "Manter o antibiótico desencadeante perpetua a disbiose, e o probiótico isolado não trata a infecção.",
+   "O antiperistáltico aumenta o risco de megacólon tóxico e retenção da toxina no intestino.",
+   "A colectomia se reserva à forma fulminante refratária, e não a toda infecção classificada como grave."
+  ]
+ },
+ {
+  "q": "Paciente com bacteremia por Staphylococcus aureus em hemocultura. Qual é a conduta obrigatória?",
+  "alts": [
+   "Investigar foco e endocardite com ecocardiograma e repetir sempre hemoculturas até a documentada negativação.",
+   "Tratar por três dias com antibiótico oral e alta definitiva sem qualquer investigação de foco secundário.",
+   "Ignorar o resultado, pois o Staphylococcus aureus em hemocultura é quase sempre contaminação de coleta agora.",
+   "Prescrever apenas antibiótico tópico no sítio de punção como tratamento da bacteremia identificada agora.",
+   "Suspender o antibiótico assim que houver melhora clínica nas primeiras vinte e quatro horas de tratamento."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "IDSA guidance on Staphylococcus aureus bacteremia, revisão 2024; ESC Guidelines for the management of endocarditis, 2023",
+  "coment": "A bacteremia por Staphylococcus aureus nunca deve ser considerada contaminação: tem alta taxa de foco metastático e mortalidade elevada. A conduta obrigatória inclui procurar o foco primário e focos secundários — endocardite, osteomielite, artrite séptica, abscesso, espondilodiscite —, realizar ecocardiograma, remover cateteres e dispositivos infectados, repetir hemoculturas até negativação e tratar com antibiótico endovenoso por período prolongado, tipicamente de duas a seis semanas.",
+  "porAlt": [
+   "Correta: investigar foco e endocardite com ecocardiograma e repetir hemoculturas até a negativação.",
+   "Três dias de antibiótico oral é gravemente insuficiente e associa-se a recidiva e a foco metastático.",
+   "O Staphylococcus aureus em hemocultura raramente é contaminante e sempre exige investigação.",
+   "O antibiótico tópico não trata bacteremia, que exige terapia sistêmica endovenosa prolongada.",
+   "Suspender precocemente ao primeiro sinal de melhora leva a recidiva e a complicações metastáticas."
+  ]
+ },
+ {
+  "q": "Paciente com esplenomegalia febril e pancitopenia, com diagnóstico de leishmaniose visceral confirmado e sinais de gravidade. Qual é o tratamento de escolha?",
+  "alts": [
+   "Anfotericina B lipossomal, preferida sempre nos casos graves e em grupos de risco definidos pelo protocolo.",
+   "Antimoniato de meglumina em todos os casos, independentemente da gravidade e dos grupos de risco do paciente.",
+   "Antibiótico de amplo espectro isolado como tratamento específico da leishmaniose visceral grave confirmada.",
+   "Corticoide sistêmico em dose alta como tratamento de escolha da leishmaniose visceral com sinais de gravidade.",
+   "Apenas suporte transfusional sem qualquer tratamento antiparasitário específico no paciente com forma grave."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Ministério da Saúde — Manual de Vigilância e Controle da Leishmaniose Visceral, revisão 2023; OMS — Control of the leishmaniases, 2023",
+  "coment": "O antimoniato de meglumina segue como opção no Brasil, mas a anfotericina B lipossomal é a escolha nos casos graves e em grupos de maior risco de toxicidade e óbito: menores de um ano, maiores de cinquenta anos, gestantes, insuficiência renal, hepática ou cardíaca, coinfecção com HIV e sinais de gravidade como sangramento, icterícia, infecção associada e neutropenia intensa. A doença é de notificação compulsória e exige suporte clínico simultâneo.",
+  "porAlt": [
+   "Correta: anfotericina B lipossomal, preferida nos casos graves e nos grupos de risco definidos.",
+   "O antimoniato tem cardiotoxicidade e não é a escolha nos casos graves ou em grupos de risco.",
+   "O antibiótico não tem ação sobre o parasito, embora infecção associada deva ser tratada.",
+   "O corticoide não trata a leishmaniose e pode agravar a imunossupressão já presente no paciente.",
+   "O suporte transfusional é adjuvante e não substitui o tratamento antiparasitário específico."
+  ]
+ }
+]

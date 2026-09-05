@@ -14998,5 +14998,485 @@ window.BANCO=[
 "A idade isolada não é critério de triagem e não estima chance de sobrevida no evento.",
 "Aguardar recursos sem iniciar o atendimento aumenta a mortalidade das vítimas recuperáveis."
 ]
+},
+{
+"q": "Paciente com pé diabético infectado, úlcera profunda que sonda o osso e alterações radiográficas. Qual é a conduta?",
+"alts": [
+"Tratar osteomielite com antibiótico prolongado e avaliação cirúrgica, obtendo sempre cultura óssea quando possível.",
+"Prescrever antibiótico oral por sete dias e alta definitiva sem qualquer avaliação cirúrgica ou de imagem agora.",
+"Indicar amputação imediata do membro em todos os pacientes com úlcera profunda que sonda o osso nesse contexto.",
+"Prescrever apenas curativo local diário sem qualquer antibiótico sistêmico no paciente com osteomielite agora.",
+"Prescrever apenas antifúngico sistêmico prolongado como tratamento da osteomielite do pé diabético descrita agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "IWGDF/IDSA Guidelines on diagnosis and treatment of foot infection in persons with diabetes, 2023",
+"coment": "O teste de sondagem óssea positivo com alterações radiográficas tem alto valor preditivo para osteomielite no pé diabético. O tratamento combina antibiótico prolongado, tipicamente de seis semanas quando não há ressecção óssea, e avaliação cirúrgica para desbridamento ou ressecção do osso acometido, que permite reduzir a duração do antibiótico. A cultura óssea, quando obtida, é o padrão para dirigir a terapia, sendo superior ao swab superficial da úlcera.",
+"porAlt": [
+"Correta: antibiótico prolongado com avaliação cirúrgica e cultura óssea para dirigir a terapia.",
+"Sete dias de antibiótico oral é insuficiente para osteomielite e leva a recidiva quase certa.",
+"A amputação é medida de exceção, e muitos casos são controlados com antibiótico e desbridamento.",
+"O curativo isolado não trata a infecção óssea estabelecida no paciente com pé diabético.",
+"O antifúngico não cobre os agentes bacterianos responsáveis pela osteomielite do pé diabético."
+]
+},
+{
+"q": "Paciente com suspeita de infecção por citomegalovírus após transplante, com febre e citopenias. Qual é a conduta?",
+"alts": [
+"Investigar com carga viral e iniciar ganciclovir quando indicado, ajustando sempre a imunossupressão em curso.",
+"Prescrever apenas antibiótico de amplo espectro sem qualquer investigação virológica no paciente transplantado.",
+"Aumentar a imunossupressão para reduzir a resposta inflamatória associada à infecção viral suspeitada agora.",
+"Prescrever apenas sintomáticos e observar clinicamente por trinta dias antes de qualquer investigação viral.",
+"Indicar retirada imediata do enxerto em todos os pacientes com suspeita de infecção por citomegalovírus agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "The Transplantation Society International CMV Consensus Guidelines, 2018 com revisão 2023; AST Infectious Diseases Community of Practice, 2024",
+"coment": "A doença por citomegalovírus no transplantado cursa com febre, citopenias e acometimento de órgão, sobretudo trato digestivo, pulmão, fígado e retina. O diagnóstico usa carga viral quantitativa em sangue, complementada por histopatologia quando há doença tecidual. O tratamento é ganciclovir endovenoso ou valganciclovir oral, mantido até negativação da carga viral, com redução criteriosa da imunossupressão sempre que possível para permitir a resposta imune.",
+"porAlt": [
+"Correta: investigar com carga viral e tratar com ganciclovir, ajustando a imunossupressão em curso.",
+"O antibiótico não trata infecção viral e a ausência de investigação retarda o tratamento correto.",
+"Aumentar a imunossupressão favorece a replicação viral e agrava a doença no paciente transplantado.",
+"Observar trinta dias permite progressão para doença invasiva de órgão e perda do enxerto.",
+"A retirada do enxerto não é conduta diante de infecção viral tratável no paciente transplantado."
+]
+},
+{
+"q": "Paciente com quadro febril agudo, artralgia intensa e exantema, procedente de área com circulação de arbovírus. Qual é a conduta?",
+"alts": [
+"Investigar arboviroses e manejar sempre como dengue até a exclusão, evitando anti-inflamatórios e salicilatos.",
+"Prescrever ácido acetilsalicílico para o controle da febre e da artralgia intensa referida pelo paciente.",
+"Iniciar antibiótico de amplo espectro empírico como tratamento padrão do quadro febril com exantema descrito.",
+"Prescrever corticoide sistêmico em dose alta como tratamento inicial de escolha do quadro febril agudo agora.",
+"Liberar sem qualquer orientação sobre sinais de alarme ou necessidade de reavaliação clínica programada agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024; Dengue: diagnóstico e manejo clínico, 6ª edição, 2024",
+"coment": "Em área de circulação simultânea de dengue, chikungunya e zika, o quadro febril agudo com exantema e artralgia deve ser manejado como dengue até exclusão, pela gravidade potencial: hidratação conforme o estadiamento, orientação detalhada sobre sinais de alarme e reavaliação programada. Salicilatos e anti-inflamatórios não hormonais são contraindicados pelo risco de sangramento. A chikungunya cursa com artralgia mais intensa e prolongada, e todas são de notificação.",
+"porAlt": [
+"Correta: investigar arboviroses e manejar como dengue até exclusão, evitando salicilatos e anti-inflamatórios.",
+"Os salicilatos são contraindicados na suspeita de dengue pelo risco aumentado de sangramento.",
+"O antibiótico não trata arbovirose e não é indicado no quadro febril agudo descrito.",
+"O corticoide não é tratamento inicial das arboviroses e pode mascarar sinais de gravidade.",
+"Liberar sem orientar sinais de alarme e reavaliação é a principal causa de óbito evitável por dengue."
+]
+},
+{
+"q": "Paciente com abscesso hepático piogênico único de 6 cm e febre persistente apesar de antibiótico. Qual é a conduta?",
+"alts": [
+"Drenagem percutânea guiada por imagem associada ao antibiótico, obtendo sempre material para cultura dirigida.",
+"Manter apenas antibiótico endovenoso por mais quatro semanas sem qualquer drenagem da coleção hepática agora.",
+"Indicar hepatectomia parcial imediata em todos os pacientes com abscesso hepático piogênico único neste caso.",
+"Prescrever apenas antifúngico sistêmico como tratamento definitivo do abscesso hepático piogênico descrito.",
+"Aguardar a resolução espontânea do abscesso hepático sem qualquer antibiótico ou procedimento associado agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "IDSA/WSES guidance on intra-abdominal infections, revisão 2023; Sleisenger and Fordtran, 11ª edição, 2021",
+"coment": "O abscesso hepático piogênico é tratado com antibiótico associado a drenagem, que é indicada em coleções maiores que três a cinco centímetros, na ausência de resposta clínica ou quando há necessidade de material para cultura. A drenagem percutânea guiada por imagem é a técnica de escolha, com cirurgia reservada a falha, múltiplos abscessos complexos ou doença biliar associada que exija abordagem. Investiga-se sempre a origem, sobretudo biliar e portal.",
+"porAlt": [
+"Correta: drenagem percutânea guiada por imagem com antibiótico e coleta de material para cultura.",
+"Manter apenas antibiótico diante de falha clínica e coleção grande perpetua a infecção ativa.",
+"A hepatectomia é desproporcional quando a drenagem percutânea resolve a maioria dos casos.",
+"O antifúngico não cobre os agentes bacterianos habituais do abscesso hepático piogênico.",
+"O abscesso não se resolve espontaneamente e evolui para sepse sem tratamento adequado."
+]
+},
+{
+"q": "Paciente com tuberculose e coinfecção por HIV, virgem de tratamento para ambas. Qual é a conduta?",
+"alts": [
+"Iniciar o tratamento da tuberculose primeiro e o antirretroviral em semanas, atento sempre à síndrome inflamatória de reconstituição.",
+"Iniciar ambos os tratamentos no mesmo dia em todos os pacientes coinfectados, já sem qualquer intervalo entre eles nesse contexto.",
+"Tratar apenas a tuberculose e adiar o antirretroviral por dois anos após o término do esquema antituberculose para este paciente.",
+"Tratar apenas o HIV e adiar o tratamento da tuberculose até a carga viral se tornar indetectável no paciente para este paciente.",
+"Não tratar nenhuma das duas condições até que o paciente apresente sintomas graves de qualquer uma delas desde o primeiro momento."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; Manual de Recomendações para o Controle da Tuberculose, revisão 2023",
+"coment": "Na coinfecção, inicia-se primeiro o tratamento da tuberculose e depois o antirretroviral, em duas semanas quando o CD4 é muito baixo e em até oito semanas nos demais casos, equilibrando o benefício da reconstituição imune com o risco de síndrome inflamatória de reconstituição e de sobreposição de toxicidades. Atenção especial à interação entre rifampicina e antirretrovirais, que exige ajuste de dose ou escolha de esquema compatível.",
+"porAlt": [
+"Correta: tratar a tuberculose primeiro e iniciar o antirretroviral em semanas, atento à reconstituição imune.",
+"Iniciar ambos no mesmo dia aumenta toxicidade sobreposta e o risco de reconstituição inflamatória grave.",
+"Adiar o antirretroviral por dois anos mantém a imunossupressão e aumenta a mortalidade do paciente.",
+"Tratar apenas o HIV deixa a tuberculose ativa progredir, com risco de morte e de transmissão.",
+"Não tratar nenhuma das condições é conduta inaceitável diante de duas doenças graves e tratáveis."
+]
+},
+{
+"q": "Paciente com infecção de sítio cirúrgico superficial no sétimo dia de pós-operatório. Qual é a conduta inicial?",
+"alts": [
+"Abrir e drenar a ferida com cuidados locais, avaliando sempre a necessidade de antibiótico sistêmico associado.",
+"Prescrever apenas antibiótico endovenoso de amplo espectro sem qualquer abertura ou drenagem da ferida agora.",
+"Manter a ferida fechada e observar clinicamente por mais duas semanas antes de qualquer intervenção local.",
+"Realizar reoperação com revisão completa da cavidade em todos os casos de infecção superficial de ferida agora.",
+"Prescrever apenas corticoide tópico sobre a ferida como tratamento da infecção de sítio cirúrgico superficial."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "CDC/HICPAC Guideline for the Prevention of Surgical Site Infection, revisão 2023; IDSA Skin and Soft Tissue Infections, 2023",
+"coment": "A infecção de sítio cirúrgico superficial é tratada primariamente com abertura da ferida, drenagem da coleção e cuidados locais com curativos, permitindo cicatrização por segunda intenção. Antibiótico sistêmico é acrescentado quando há celulite extensa ao redor, sinais sistêmicos, imunossupressão ou prótese. Coleta de cultura orienta a terapia em casos selecionados. Reoperação ampla se reserva a infecção profunda ou de órgão e espaço.",
+"porAlt": [
+"Correta: abrir e drenar a ferida com cuidados locais, com antibiótico conforme a extensão e o quadro.",
+"O antibiótico isolado sem drenagem não resolve a coleção purulenta na ferida operatória.",
+"Manter fechada por duas semanas permite progressão para infecção profunda e deiscência maior.",
+"A reoperação ampla é desproporcional para infecção limitada ao plano superficial da ferida.",
+"O corticoide tópico prejudica a cicatrização e não trata a infecção do sítio cirúrgico."
+]
+},
+{
+"q": "Paciente com meningite bacteriana confirmada por pneumococo. Qual é o papel da dexametasona?",
+"alts": [
+"Administrar antes ou junto da primeira dose de antibiótico, reduzindo sempre a chance de sequela neurológica.",
+"Administrar apenas depois de setenta e duas horas do início do antibiótico em todos os casos confirmados.",
+"Nunca administrar corticoide na meningite bacteriana, pois ele não traz qualquer benefício comprovado agora.",
+"Administrar corticoide em substituição ao antibiótico nos casos confirmados de meningite pneumocócica agora.",
+"Administrar apenas nos pacientes que apresentarem febre persistente após uma semana de antibioticoterapia."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "IDSA/ESCMID guideline on bacterial meningitis, revisão 2023; ESCMID guideline on acute bacterial meningitis, 2016",
+"coment": "A dexametasona na meningite bacteriana do adulto reduz mortalidade e sequelas, sobretudo perda auditiva, com maior benefício na etiologia pneumocócica. Para ser eficaz, deve ser administrada antes ou junto da primeira dose do antibiótico, porque atua reduzindo a resposta inflamatória desencadeada pela lise bacteriana. Administrá-la horas depois não produz o mesmo benefício, e a manutenção é por quatro dias conforme a etiologia identificada.",
+"porAlt": [
+"Correta: administrar antes ou junto da primeira dose do antibiótico, reduzindo sequela neurológica.",
+"Administrar após setenta e duas horas perde a janela em que o corticoide modula a inflamação.",
+"O corticoide tem benefício demonstrado na meningite pneumocócica do adulto em ensaios clínicos.",
+"O corticoide é adjuvante e jamais substitui o antibiótico no tratamento da meningite bacteriana.",
+"A indicação é no início do tratamento, e não como resposta a febre persistente tardia."
+]
+},
+{
+"q": "Paciente com suspeita de infecção por Clostridioides difficile grave, com leucocitose acentuada e elevação de creatinina. Qual é o tratamento?",
+"alts": [
+"Vancomicina oral ou fidaxomicina, suspendendo sempre o antibiótico desencadeante e mantendo precauções de contato.",
+"Metronidazol oral isolado como tratamento de escolha na infecção grave por Clostridioides difficile atual agora.",
+"Manter o antibiótico desencadeante e prescrever apenas probiótico como tratamento da infecção grave descrita.",
+"Prescrever apenas antiperistáltico em dose alta para reduzir o número de evacuações do paciente grave neste caso.",
+"Indicar colectomia total imediata em todos os pacientes com infecção grave por Clostridioides difficile agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "IDSA/SHEA Clinical Practice Guidelines for Clostridioides difficile infection, atualização 2021 com revisão 2024",
+"coment": "Na infecção grave por Clostridioides difficile, definida por leucocitose acima de quinze mil ou creatinina elevada, o tratamento de escolha é vancomicina oral ou fidaxomicina, que passou a ser preferida em várias diretrizes pela menor recorrência. O metronidazol deixou de ser primeira linha por inferioridade demonstrada. Na forma fulminante, com íleo, megacólon ou choque, associam-se vancomicina em dose alta, metronidazol endovenoso e avaliação cirúrgica.",
+"porAlt": [
+"Correta: vancomicina oral ou fidaxomicina, com suspensão do antibiótico desencadeante e precauções de contato.",
+"O metronidazol deixou de ser primeira linha por inferioridade demonstrada frente à vancomicina.",
+"Manter o antibiótico desencadeante perpetua a disbiose, e o probiótico isolado não trata a infecção.",
+"O antiperistáltico aumenta o risco de megacólon tóxico e retenção da toxina no intestino.",
+"A colectomia se reserva à forma fulminante refratária, e não a toda infecção classificada como grave."
+]
+},
+{
+"q": "Paciente com bacteremia por Staphylococcus aureus em hemocultura. Qual é a conduta obrigatória?",
+"alts": [
+"Investigar foco e endocardite com ecocardiograma e repetir sempre hemoculturas até a documentada negativação.",
+"Tratar por três dias com antibiótico oral e alta definitiva sem qualquer investigação de foco secundário.",
+"Ignorar o resultado, pois o Staphylococcus aureus em hemocultura é quase sempre contaminação de coleta agora.",
+"Prescrever apenas antibiótico tópico no sítio de punção como tratamento da bacteremia identificada agora.",
+"Suspender o antibiótico assim que houver melhora clínica nas primeiras vinte e quatro horas de tratamento."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "IDSA guidance on Staphylococcus aureus bacteremia, revisão 2024; ESC Guidelines for the management of endocarditis, 2023",
+"coment": "A bacteremia por Staphylococcus aureus nunca deve ser considerada contaminação: tem alta taxa de foco metastático e mortalidade elevada. A conduta obrigatória inclui procurar o foco primário e focos secundários — endocardite, osteomielite, artrite séptica, abscesso, espondilodiscite —, realizar ecocardiograma, remover cateteres e dispositivos infectados, repetir hemoculturas até negativação e tratar com antibiótico endovenoso por período prolongado, tipicamente de duas a seis semanas.",
+"porAlt": [
+"Correta: investigar foco e endocardite com ecocardiograma e repetir hemoculturas até a negativação.",
+"Três dias de antibiótico oral é gravemente insuficiente e associa-se a recidiva e a foco metastático.",
+"O Staphylococcus aureus em hemocultura raramente é contaminante e sempre exige investigação.",
+"O antibiótico tópico não trata bacteremia, que exige terapia sistêmica endovenosa prolongada.",
+"Suspender precocemente ao primeiro sinal de melhora leva a recidiva e a complicações metastáticas."
+]
+},
+{
+"q": "Paciente com esplenomegalia febril e pancitopenia, com diagnóstico de leishmaniose visceral confirmado e sinais de gravidade. Qual é o tratamento de escolha?",
+"alts": [
+"Anfotericina B lipossomal, preferida sempre nos casos graves e em grupos de risco definidos pelo protocolo.",
+"Antimoniato de meglumina em todos os casos, independentemente da gravidade e dos grupos de risco do paciente.",
+"Antibiótico de amplo espectro isolado como tratamento específico da leishmaniose visceral grave confirmada.",
+"Corticoide sistêmico em dose alta como tratamento de escolha da leishmaniose visceral com sinais de gravidade.",
+"Apenas suporte transfusional sem qualquer tratamento antiparasitário específico no paciente com forma grave."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "Ministério da Saúde — Manual de Vigilância e Controle da Leishmaniose Visceral, revisão 2023; OMS — Control of the leishmaniases, 2023",
+"coment": "O antimoniato de meglumina segue como opção no Brasil, mas a anfotericina B lipossomal é a escolha nos casos graves e em grupos de maior risco de toxicidade e óbito: menores de um ano, maiores de cinquenta anos, gestantes, insuficiência renal, hepática ou cardíaca, coinfecção com HIV e sinais de gravidade como sangramento, icterícia, infecção associada e neutropenia intensa. A doença é de notificação compulsória e exige suporte clínico simultâneo.",
+"porAlt": [
+"Correta: anfotericina B lipossomal, preferida nos casos graves e nos grupos de risco definidos.",
+"O antimoniato tem cardiotoxicidade e não é a escolha nos casos graves ou em grupos de risco.",
+"O antibiótico não tem ação sobre o parasito, embora infecção associada deva ser tratada.",
+"O corticoide não trata a leishmaniose e pode agravar a imunossupressão já presente no paciente.",
+"O suporte transfusional é adjuvante e não substitui o tratamento antiparasitário específico."
+]
+},
+{
+"q": "Paciente com doença pulmonar obstrutiva crônica estável pergunta sobre vacinação. Qual é a orientação?",
+"alts": [
+"Influenza anual, pneumocócica, coqueluche e demais vacinas indicadas, mantendo sempre a caderneta atualizada.",
+"Apenas influenza anual, única vacina indicada para pacientes com doença pulmonar obstrutiva crônica agora.",
+"Nenhuma vacina é indicada, pois a doença pulmonar obstrutiva crônica contraindica toda imunização agora.",
+"Apenas vacina contra febre amarela, indicada especificamente para pacientes com doença pulmonar crônica.",
+"Apenas vacinas de vírus vivo atenuado, que conferem proteção superior nesse grupo de pacientes crônicos."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "GOLD Report, 2025; Ministério da Saúde — Manual dos Centros de Referência para Imunobiológicos Especiais, 2023",
+"coment": "A vacinação reduz exacerbações e internações na doença pulmonar obstrutiva crônica. Recomendam-se influenza anual, vacina pneumocócica conforme o esquema disponível, vacina contra coqueluche em quem não recebeu na vida adulta, vacina contra covid-19 conforme o calendário vigente e, quando disponível, vacina contra o vírus sincicial respiratório em faixas etárias indicadas. A doença não contraindica imunização e é justamente indicação de prioridade.",
+"porAlt": [
+"Correta: influenza anual, pneumocócica, coqueluche e demais vacinas indicadas, com caderneta atualizada.",
+"A influenza é essencial, mas não é a única vacina recomendada para esse grupo de pacientes.",
+"A doença crônica não contraindica vacinas e é indicação prioritária de imunização.",
+"A febre amarela segue a indicação por área de risco e não é específica dessa doença pulmonar.",
+"Vacinas de vírus vivo exigem cautela em imunossuprimidos e não são preferíveis por princípio."
+]
+},
+{
+"q": "Paciente com tosse crônica e escarro purulento diário, com tomografia mostrando dilatação brônquica. Qual é a investigação etiológica inicial?",
+"alts": [
+"Investigar imunodeficiência, fibrose cística e causas pós-infecciosas, colhendo sempre cultura de escarro dirigida.",
+"Não investigar qualquer causa, pois as bronquiectasias nunca têm etiologia identificável no paciente adulto agora.",
+"Realizar apenas espirometria como investigação etiológica completa das bronquiectasias identificadas no exame.",
+"Indicar biópsia pulmonar cirúrgica de rotina como investigação inicial de todas as bronquiectasias no adulto agora.",
+"Solicitar apenas radiografia simples de tórax como investigação etiológica das bronquiectasias diagnosticadas."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ERS guidelines for the management of adult bronchiectasis, 2017 com revisão 2023; BTS guideline, 2019",
+"coment": "Identificar a causa das bronquiectasias muda o tratamento em parte relevante dos casos. A investigação mínima inclui dosagem de imunoglobulinas, pesquisa de aspergilose broncopulmonar alérgica com IgE e IgE específica, teste do suor e pesquisa genética para fibrose cística quando o contexto sugere, avaliação de refluxo e aspiração, e busca de causa pós-infecciosa. A cultura de escarro identifica colonização, sobretudo por Pseudomonas, que muda o prognóstico.",
+"porAlt": [
+"Correta: investigar imunodeficiência, fibrose cística e causas pós-infecciosas, com cultura de escarro dirigida.",
+"Muitos casos têm causa identificável, e o achado muda o tratamento e o prognóstico do paciente.",
+"A espirometria avalia a função, mas não identifica a etiologia das bronquiectasias diagnosticadas.",
+"A biópsia cirúrgica é invasiva e não é investigação inicial da etiologia das bronquiectasias.",
+"A radiografia é pouco sensível e não substitui a investigação etiológica sistemática indicada."
+]
+},
+{
+"q": "Paciente com síndrome nefrótica apresenta dor torácica súbita e dispneia. Qual é a preocupação principal?",
+"alts": [
+"Tromboembolismo pulmonar pelo estado de hipercoagulabilidade, exigindo sempre investigação e anticoagulação dirigida.",
+"Crise asmática desencadeada pela proteinúria, principal complicação aguda esperada na síndrome nefrótica neste caso.",
+"Pneumonia bacteriana instalada em minutos, hipótese mais provável na síndrome nefrótica com dor torácica neste caso.",
+"Refluxo gastroesofágico agudizado, principal causa de dor torácica súbita no paciente com síndrome nefrótica agora.",
+"Anemia ferropriva descompensada, causa habitual de dispneia súbita em pacientes com síndrome nefrótica neste caso."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "KDIGO Glomerular Diseases Guideline, 2021 com revisão 2024; ISTH guidance on nephrotic syndrome and thrombosis, 2023",
+"coment": "A síndrome nefrótica cria estado de hipercoagulabilidade pela perda urinária de antitrombina e outros anticoagulantes naturais, aumento de fatores procoagulantes e hiperviscosidade, com risco elevado de trombose venosa profunda, tromboembolismo pulmonar e trombose de veia renal, esta última mais associada à nefropatia membranosa. Albumina muito baixa aumenta o risco, e a anticoagulação profilática é considerada em pacientes selecionados de alto risco.",
+"porAlt": [
+"Correta: tromboembolismo pulmonar pela hipercoagulabilidade, exigindo investigação e anticoagulação.",
+"A proteinúria não desencadeia crise asmática nem explica a dor torácica súbita descrita.",
+"A pneumonia bacteriana não se instala em minutos, evoluindo tipicamente ao longo de dias.",
+"O refluxo não é a preocupação principal diante de dor torácica súbita em paciente nefrótico.",
+"A anemia ferropriva não causa dispneia de instalação súbita nesse contexto clínico descrito."
+]
+},
+{
+"q": "Paciente com doença renal crônica e hiperfosfatemia persistente apesar de dieta. Qual é a conduta?",
+"alts": [
+"Iniciar quelante de fósforo com as refeições, preferindo sempre os isentos de cálcio conforme o perfil do paciente.",
+"Aumentar a oferta de fósforo na dieta para corrigir o desequilíbrio mineral do paciente renal crônico neste caso.",
+"Iniciar apenas cálcio em dose alta sem qualquer monitorização do produto cálcio-fósforo no paciente neste caso.",
+"Indicar diálise imediata a todos os pacientes com hiperfosfatemia persistente apesar da dieta adequada neste caso.",
+"Prescrever apenas diurético de alça em dose alta como tratamento definitivo da hiperfosfatemia persistente agora."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "KDIGO Clinical Practice Guideline Update for CKD-MBD, 2017 com revisão 2023",
+"coment": "A hiperfosfatemia na doença renal crônica associa-se a calcificação vascular, hiperparatireoidismo secundário e mortalidade. Após restrição dietética, sobretudo de aditivos com fósforo inorgânico, altamente absorvível, indica-se quelante administrado junto às refeições. As diretrizes sugerem restringir o uso de quelantes à base de cálcio pelo risco de calcificação vascular, preferindo sevelâmer ou lantânio quando disponíveis, com monitorização periódica dos parâmetros.",
+"porAlt": [
+"Correta: quelante de fósforo com as refeições, preferindo os isentos de cálcio conforme o perfil.",
+"Aumentar o fósforo agrava a hiperfosfatemia e acelera a calcificação vascular do paciente.",
+"Cálcio em dose alta sem monitorização favorece calcificação vascular e doença óssea adinâmica.",
+"A diálise não é indicada apenas pela hiperfosfatemia quando o manejo clínico ainda é possível.",
+"O diurético de alça não é tratamento da hiperfosfatemia na doença renal crônica avançada."
+]
+},
+{
+"q": "Paciente com hipomagnesemia sintomática e hipocalemia refratária à reposição de potássio. Qual é a conduta?",
+"alts": [
+"Repor magnésio antes de insistir no potássio, pois a hipomagnesemia perpetua sempre a perda renal de potássio.",
+"Aumentar indefinidamente a dose de potássio sem qualquer reposição de magnésio no paciente refratário agora.",
+"Suspender toda reposição eletrolítica e apenas observar a evolução espontânea dos distúrbios identificados.",
+"Administrar cálcio endovenoso como tratamento de escolha da hipocalemia refratária à reposição de potássio.",
+"Prescrever apenas diurético de alça em dose alta como estratégia de correção dos distúrbios eletrolíticos."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "Brenner and Rector's The Kidney, 12ª edição, 2024; UpToDate revisão sobre hipomagnesemia, 2024",
+"coment": "A hipomagnesemia causa perda renal de potássio ao remover a inibição dos canais ROMK no néfron distal, tornando a hipocalemia refratária enquanto o magnésio não é corrigido. Por isso, diante de hipocalemia que não responde à reposição, dosa-se e repõe-se magnésio primeiro. Causas comuns incluem diuréticos, inibidores de bomba de prótons, diarreia crônica, alcoolismo e fármacos como anfotericina, aminoglicosídeos e inibidores de calcineurina.",
+"porAlt": [
+"Correta: repor magnésio primeiro, pois a hipomagnesemia perpetua a perda renal de potássio.",
+"Aumentar potássio sem corrigir o magnésio mantém a perda renal e a refratariedade do distúrbio.",
+"Suspender a reposição diante de distúrbio sintomático expõe o paciente a arritmia e convulsão.",
+"O cálcio não corrige a hipocalemia e não resolve o mecanismo da refratariedade descrita.",
+"O diurético de alça aumenta a perda de potássio e magnésio, agravando os dois distúrbios."
+]
+},
+{
+"q": "Paciente em uso de lítio desenvolve poliúria e urina hipotônica sem resposta à desmopressina. Qual é o diagnóstico?",
+"alts": [
+"Diabetes insipidus nefrogênico induzido pelo lítio, exigindo sempre reavaliação do fármaco e do balanço hídrico.",
+"Diabetes insipidus central clássico, condição definida pela ausência de resposta à administração de desmopressina.",
+"Síndrome da secreção inapropriada de antidiurético, quadro caracterizado por poliúria com urina hipotônica.",
+"Glomerulonefrite rapidamente progressiva, condição definida por poliúria hipotônica sem resposta ao hormônio.",
+"Nefrolitíase obstrutiva bilateral, quadro caracterizado por poliúria com urina hipotônica e sem resposta ao hormônio."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Endocrine Society/ESE clinical practice guideline on diabetes insipidus, 2023; KDIGO guidance on drug-induced kidney disease, revisão 2023",
+"coment": "O lítio é a causa medicamentosa mais frequente de diabetes insipidus nefrogênico, por resistência tubular à ação do hormônio antidiurético, o que explica a ausência de resposta à desmopressina — que distingue a forma nefrogênica da central, esta sim responsiva. A conduta envolve discutir com a psiquiatria a manutenção ou substituição do lítio, garantir acesso livre à água, e considerar amilorida, que reduz a entrada de lítio na célula tubular.",
+"porAlt": [
+"Correta: diabetes insipidus nefrogênico induzido pelo lítio, com reavaliação do fármaco e do balanço hídrico.",
+"A forma central responde à desmopressina, justamente o que não ocorre neste paciente descrito.",
+"A secreção inapropriada de antidiurético cursa com oligúria e urina concentrada, o oposto do caso.",
+"A glomerulonefrite rapidamente progressiva cursa com hematúria e queda rápida da função renal.",
+"A obstrução bilateral cursa com hidronefrose e alteração da função, e não com esse padrão."
+]
+},
+{
+"q": "Paciente com rim único funcionante pergunta sobre uso de anti-inflamatório para dor crônica. Qual é a orientação?",
+"alts": [
+"Evitar anti-inflamatórios não hormonais e buscar sempre alternativas analgésicas com menor risco renal associado.",
+"Usar anti-inflamatório não hormonal continuamente sem qualquer restrição no paciente com rim único funcionante.",
+"Usar apenas anti-inflamatório em dose dobrada para compensar a redução da massa renal do paciente neste caso.",
+"Suspender toda analgesia, pois o paciente com rim único não pode receber qualquer tipo de analgésico neste caso.",
+"Usar anti-inflamatório apenas por via tópica em dose alta e contínua, sem qualquer risco sistêmico associado."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "KDIGO Chronic Kidney Disease Guideline, 2024; NKF guidance on analgesic use in kidney disease, revisão 2023",
+"coment": "Anti-inflamatórios não hormonais reduzem prostaglandinas vasodilatadoras e comprometem a perfusão glomerular, além de poderem causar nefrite intersticial e necrose de papila. Em paciente com rim único ou função reduzida, devem ser evitados, sobretudo de forma contínua. As alternativas incluem paracetamol, analgesia tópica em áreas localizadas, medidas não farmacológicas como exercício e fisioterapia e, em dor neuropática, fármacos específicos ajustados à função renal.",
+"porAlt": [
+"Correta: evitar anti-inflamatórios e buscar alternativas analgésicas com menor risco renal.",
+"O uso contínuo em rim único ameaça diretamente a única reserva funcional do paciente.",
+"Dobrar a dose multiplica o risco renal sem qualquer justificativa fisiológica ou clínica.",
+"Existem alternativas analgésicas seguras, e suspender toda analgesia deixa o paciente sem tratamento.",
+"A via tópica reduz mas não elimina a absorção sistêmica quando usada em dose alta e contínua."
+]
+},
+{
+"q": "Paciente com hipercalcemia de 12,5 mg/dL e PTH suprimido, sem neoplasia conhecida. Qual é a investigação?",
+"alts": [
+"Investigar neoplasia oculta e causas independentes do paratormônio, dosando sempre vitamina D e proteína relacionada.",
+"Concluir hiperparatireoidismo primário e encaminhar diretamente à cirurgia sem qualquer investigação adicional agora.",
+"Não investigar qualquer causa, pois a hipercalcemia com paratormônio suprimido nunca tem causa identificável agora.",
+"Solicitar apenas cintilografia de paratireoides como única investigação da hipercalcemia com paratormônio suprimido.",
+"Iniciar reposição de cálcio para corrigir o desequilíbrio mineral identificado nos exames do paciente neste caso."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Endocrine Society guidance on hypercalcemia, revisão 2023; Fifth International Workshop on Primary Hyperparathyroidism, 2022",
+"coment": "Hipercalcemia com paratormônio suprimido aponta causa independente da paratireoide: malignidade, por proteína relacionada ao paratormônio ou por metástase óssea, doenças granulomatosas com produção de calcitriol, intoxicação por vitamina D ou por cálcio, hipertireoidismo, imobilização prolongada e fármacos. A investigação inclui dosagem de proteína relacionada ao paratormônio, vitamina D e seus metabólitos, eletroforese de proteínas e imagem dirigida.",
+"porAlt": [
+"Correta: investigar neoplasia oculta e causas independentes do paratormônio, com dosagens dirigidas.",
+"O hiperparatireoidismo primário cursa com paratormônio elevado ou inapropriadamente normal.",
+"A hipercalcemia com paratormônio suprimido tem causas bem definidas e investigáveis.",
+"A cintilografia de paratireoides não faz sentido quando o paratormônio já está suprimido.",
+"Repor cálcio agrava diretamente a hipercalcemia já estabelecida no paciente."
+]
+},
+{
+"q": "Paciente com transplante renal apresenta elevação de creatinina no terceiro mês pós-transplante. Qual é a conduta?",
+"alts": [
+"Investigar rejeição, toxicidade e infecção com biópsia quando indicada, dosando sempre nível do imunossupressor.",
+"Aumentar empiricamente a imunossupressão sem qualquer investigação da causa da disfunção do enxerto neste caso.",
+"Suspender toda a imunossupressão diante de qualquer elevação de creatinina no paciente transplantado renal.",
+"Indicar retirada imediata do enxerto em todos os casos de elevação de creatinina no pós-transplante neste caso.",
+"Prescrever apenas diurético em dose alta como tratamento da elevação de creatinina no paciente transplantado."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "KDIGO Clinical Practice Guideline for the Care of Kidney Transplant Recipients, revisão 2023; The Transplantation Society guidance, 2023",
+"coment": "A disfunção do enxerto renal exige diagnóstico diferencial sistemático: rejeição aguda celular ou mediada por anticorpos, toxicidade por inibidor de calcineurina, infecção — sobretudo por vírus BK e citomegalovírus —, obstrução urinária, trombose vascular, desidratação e recidiva da doença de base. A avaliação combina nível sérico do imunossupressor, ultrassonografia com doppler, pesquisa viral e biópsia do enxerto, que frequentemente é decisiva.",
+"porAlt": [
+"Correta: investigar rejeição, toxicidade e infecção com biópsia quando indicada e dosar o imunossupressor.",
+"Aumentar a imunossupressão sem diagnóstico agrava toxicidade e infecção, se forem essas as causas.",
+"Suspender toda a imunossupressão precipita rejeição aguda e perda do enxerto transplantado.",
+"A retirada do enxerto é medida extrema e não é conduta diante de disfunção investigável e tratável.",
+"O diurético não trata rejeição nem toxicidade e pode agravar a hipoperfusão do enxerto."
+]
+},
+{
+"q": "Paciente com síndrome hepatorrenal tipo 1 em cirrose descompensada. Qual é o tratamento?",
+"alts": [
+"Terlipressina com albumina, avaliando sempre a indicação de transplante hepático como tratamento definitivo.",
+"Diurético em dose alta como tratamento de escolha da síndrome hepatorrenal em cirrose descompensada agora.",
+"Restrição hídrica extrema isolada como tratamento definitivo da síndrome hepatorrenal do paciente cirrótico.",
+"Anti-inflamatório não hormonal em dose plena para melhorar a perfusão renal do paciente com cirrose agora.",
+"Aguardar a recuperação espontânea da função renal sem qualquer intervenção no paciente com cirrose agora."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "EASL Clinical Practice Guidelines on decompensated cirrhosis, 2018 com atualização 2023; AASLD practice guidance, 2021",
+"coment": "A síndrome hepatorrenal é lesão renal funcional por vasoconstrição renal intensa secundária à vasodilatação esplâncnica da cirrose avançada. O tratamento é vasoconstritor esplâncnico — terlipressina, a opção com melhor evidência — associado a albumina, após suspender diuréticos e nefrotóxicos e afastar outras causas de lesão renal e infecção. O tratamento definitivo é o transplante hepático, e a diálise serve de ponte em candidatos selecionados.",
+"porAlt": [
+"Correta: terlipressina com albumina, avaliando o transplante hepático como tratamento definitivo.",
+"Os diuréticos são suspensos na síndrome hepatorrenal, pois agravam a hipovolemia efetiva.",
+"A restrição hídrica extrema agrava a hipoperfusão renal e não trata o mecanismo vasoconstritor.",
+"Os anti-inflamatórios agravam a vasoconstrição renal e são formalmente contraindicados aqui.",
+"A síndrome hepatorrenal tipo 1 tem prognóstico ruim sem tratamento e não se resolve espontaneamente."
+]
 }
 ];
