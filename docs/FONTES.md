@@ -19,15 +19,26 @@ pdftotext -layout "~/Documents/Livros/<arquivo>.pdf" fontes/<nome>.txt
 | Surviving Sepsis Campaign | 2026 | leitura `choque-septico.html`, leva 3 |
 | AHA — CPR/ECC, Parts 7 e 9 (SBV e SAV) | 2025 | leva 18 |
 | AHA/ASA — Acute Ischemic Stroke | 2026 | leitura `avc-isquemico.html`, leva 6 |
-| ESICM/ATS/SCCM — Nova definição global de SDRA | 2024 | pendente |
-| ESICM — Choque circulatório e monitorização hemodinâmica | 2025 | pendente |
+| ESICM/ATS/SCCM — Nova definição global de SDRA | 2024 | leituras `sdra.html` e `ventilacao-mecanica.html` |
+| ESICM — Choque circulatório e monitorização hemodinâmica | 2025 | leitura `choque-circulatorio.html` |
 | GINA — Global Strategy for Asthma | 2026 | leva 2 |
 | GOLD — Global Strategy for COPD | 2026 | leva 2 |
-| ESC — Arritmias ventriculares e morte súbita | 2022 | pendente |
-| ESC — Taquicardia supraventricular | 2019 | pendente (sem versão mais nova) |
-| ACC/AHA/HRS — Bradiarritmias e distúrbios de condução | 2018 | pendente (sem versão mais nova) |
+| ESC — Arritmias ventriculares e morte súbita | 2022 | leitura `arritmias-ventriculares.html` |
+| ESC — Taquicardia supraventricular | 2019 | leitura `taquiarritmias.html` (sem versão mais nova) |
+| ACC/AHA/HRS — Bradiarritmias e distúrbios de condução | 2018 | leitura `bradiarritmias-e-marcapasso.html` (sem versão mais nova) |
 | Ministério da Saúde — Dengue, diagnóstico e manejo, 6ª ed. | 2024 | leitura `dengue.html`, leva 16 (PDF em `docs/`) |
 | SBC/AMB — Edital TECM nº 2473 | 2026 | taxonomia e formato do simulado (PDF em `docs/`) |
+
+## Cadernos de revisão do Matheus (uso como MAPA DE TEMAS, nunca como texto)
+
+Os cadernos de cursinho em `~/Documents/Livros/` — Intensiva I (cardio e pneumointensivismo),
+Intensiva II (neurointensivismo e paliativos), Gastroenterologia, Hepatologia e Neurologia — são
+material de terceiros e **não são fonte citável**. Servem para uma coisa: descobrir quais temas o
+público-alvo estuda e quais faltavam na biblioteca. O texto das leituras é escrito do zero e
+ancorado nas diretrizes primárias listadas acima, que são as que aparecem no campo `base`.
+
+Foi assim que saíram, em 05/09/2026, as leituras de via aérea e intubação, ventilação mecânica,
+sedação-analgesia-delirium, nutrição do paciente crítico, coma e hipertensão intracraniana.
 
 ## Livros de referência (atualizados)
 
