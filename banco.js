@@ -3228,6 +3228,684 @@ window.BANCO=[
 }
 },
 {
+"q": "Paciente do sexo masculino, de 75 anos, tabagista, com quadro de disfagia progressiva e emagrecimento de 12 kg em 3 meses, atualmente ingerindo apenas alimentos líquidos e pastosos, realizou endoscopia digestiva alta que evidenciou lesão expansiva circunferencial em esôfago médio (localizada a 28 cm dos dentes incisivos), de 5 cm de extensão, estenosante, mas que permitia passagem do aparelho para o estômago. A biópsia mostrou carcinoma escamoso de esôfago moderadamente diferenciado. Tomografia de estadiamento mostrou múltiplas metástases pulmonares. Em relação à disfagia e ao suporte nutricional desse paciente, qual é a melhor opção terapêutica?",
+"alts": [
+"Jejunostomia cirúrgica",
+"Nutrição por sonda nasoenteral",
+"Gastrostomia por via endoscópica",
+"Passagem de prótese endoscópica"
+],
+"gab": 3,
+"tema": "onco",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ESMO Clinical Practice Guidelines for oesophageal cancer, 2022; ESGE guideline on endoscopic palliation of malignant dysphagia",
+"coment": "Em carcinoma de esôfago com metástases pulmonares, o tratamento é paliativo, e a prioridade é restituir a deglutição pela via natural. A prótese esofágica autoexpansível alivia a disfagia de imediato, permite ingestão oral e preserva o convívio social da alimentação, com procedimento único e menos invasivo que qualquer via alternativa. Sonda nasoenteral é desconfortável e temporária; gastrostomia e jejunostomia abandonam a via oral e implicam procedimento adicional em paciente com sobrevida limitada. Radioterapia paliativa pode complementar.",
+"porAlt": [
+"A jejunostomia cirúrgica é a opção mais invasiva e abandona a deglutição.",
+"A sonda nasoenteral é desconfortável, de curta permanência e piora a qualidade de vida.",
+"A gastrostomia elimina a alimentação por via oral, sem necessidade neste caso.",
+"Correta: prótese esofágica endoscópica, que restaura a deglutição de imediato."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2022
+}
+},
+{
+"q": "Mulher de 60 anos, assintomática, realizou colonoscopia para rastreio de câncer colorretal. No exame foram encontrados: 2 pólipos em cólon transverso, cada um medindo 0,5 × 0,5 cm; 1 pólipo em cólon descendente, de 2,0 × 1,5 cm; 2 pólipos em cólon ascendente, de 0,5 × 0,5 cm; e 2 pólipos de 1 × 1 cm no reto. Todos eram pediculados e foram removidos completamente durante o exame. O exame histopatológico revelou que se tratava de pólipos adenomatosos tubulares, exceto o pólipo de cólon transverso, diagnosticado como adenoma tubuloviloso. Nesse caso, qual é a melhor conduta para essa paciente?",
+"alts": [
+"Repetir a colonoscopia em 3 anos",
+"Refazer a colonoscopia em 7 a 10 anos",
+"Transversectomia e colonoscopia em 5 anos",
+"Colectomia total e rastreio de familiares de primeiro grau"
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "US Multi-Society Task Force on Colorectal Cancer — Recommendations for Follow-up After Colonoscopy and Polypectomy, 2020",
+"coment": "O intervalo de vigilância após polipectomia depende do número, do tamanho e da histologia dos pólipos. Aqui há sete adenomas, um deles maior que 10 mm e um com componente viloso — cada um desses critérios já classificaria a paciente como de alto risco, e a recomendação é repetir a colonoscopia em três anos. Intervalos de sete a dez anos se aplicam a exame normal ou a um ou dois adenomas tubulares pequenos com displasia de baixo grau. Ressecção cirúrgica não se justifica quando todos os pólipos foram removidos completamente por via endoscópica.",
+"porAlt": [
+"Correta: repetir a colonoscopia em três anos, pelo número e pelas características dos adenomas.",
+"O intervalo de sete a dez anos vale para exame normal ou poucos adenomas pequenos de baixo risco.",
+"Não há indicação de ressecção cirúrgica: os pólipos foram removidos completamente.",
+"Colectomia total é conduta de síndromes polipósicas hereditárias, não deste caso."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2022
+}
+},
+{
+"q": "Homem de 69 anos apresenta quadro de bradicinesia, iniciado há 6 meses, com lentidão dos movimentos e dificuldade para amarrar sapatos, abotoar roupas, digitar. Ao caminhar, apresenta passos mais curtos e sensação de instabilidade. Concomitantemente, apresenta tremores nas mãos, de repouso, associada a rigidez, além de alteração olfativa, constipação intestinal de 3 dias e alteração do padrão do sono. Nega alterações de memória e cognição. No exame físico, o paciente apresenta bom estado geral, altura 1,80 m, peso de 85 kg, menor expressividade facial, marcha com inclinação anterior lenta e arrastada, pulmões com murmúrio vesicular preservado, coração rítmico em 2 tempos a 80 batimentos por minuto, pressão arterial de 120 × 80 mmHg, abdome plano e sem visceromegalias. No exame neurológico, mostrou: diminuição dos movimentos dos braços, tremores assimétricos das mãos na manobra dos braços estendidos, movimentos alternados com assimetria e lentidão, e hipertonia em roda dentada. Ressonância magnética realizada há 2 semanas constatou: redução da espessura da pars compacta e maior grau de hipointensidade de sinal no putâmen, com atrofia cerebral compatível para a sua idade. A principal hipótese diagnóstica nesse caso é",
+"alts": [
+"demência vascular",
+"tremores essenciais",
+"doença de Parkinson",
+"doença de Alzheimer"
+],
+"gab": 2,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "MDS Clinical Diagnostic Criteria for Parkinson’s Disease, 2015; Academia Brasileira de Neurologia, recomendações para doença de Parkinson",
+"coment": "Bradicinesia associada a tremor de repouso e rigidez, com início assimétrico e progressão lenta, define parkinsonismo, e a presença de sintomas não motores prodrômicos — hiposmia, constipação e distúrbio comportamental do sono REM — reforça fortemente a doença de Parkinson. O diagnóstico é clínico; neuroimagem serve para afastar parkinsonismo secundário. O tratamento se apoia em levodopa, agonistas dopaminérgicos e inibidores enzimáticos, e a fisioterapia e o exercício estruturado têm efeito consistente na marcha e no equilíbrio.",
+"porAlt": [
+"A demência vascular cursa com declínio cognitivo em degraus e sinais focais, e o paciente nega alteração cognitiva.",
+"O tremor essencial é postural e de ação, melhora com álcool e não vem com bradicinesia e rigidez.",
+"Correta: doença de Parkinson, com tríade motora e sintomas não motores prodrômicos.",
+"A doença de Alzheimer se apresenta por perda de memória episódica, ausente no relato."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2022
+}
+},
+{
+"q": "Paciente de 40 anos de idade, sexo masculino, com história de disfagia e tosse não produtiva, predominantemente noturna, procurou atendimento em unidade básica de saúde. Referiu dor torácica, pirose retroesternal e dispepsia. Negou etilismo ou tabagismo. Havia iniciado tratamento empírico com omeprazol 20 mg, 2 vezes ao dia, por 8 semanas, mas obteve pouca melhora. Nesse caso, qual é a medida propedêutica subsequente adequada?",
+"alts": [
+"Esofagomanometria",
+"pHmetria esofágica de 24 horas",
+"Endoscopia digestiva alta com biópsia",
+"Esofagogastroduodenografia contrastada"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022; ACG guideline on eosinophilic esophagitis, 2025",
+"coment": "Disfagia é sinal de alarme e, por si, indica endoscopia. Somada à falha de oito semanas de inibidor de bomba em dose dobrada, o exame indicado é a endoscopia digestiva alta com biópsias — inclusive de mucosa de aspecto normal, porque é assim que se diagnostica a esofagite eosinofílica, causa frequentemente perdida em adulto jovem rotulado como refluxo refratário. Manometria e pHmetria entram depois, se a endoscopia for normal e persistir a dúvida entre distúrbio motor e refluxo.",
+"porAlt": [
+"A esofagomanometria investiga distúrbio motor, mas vem depois de excluir lesão estrutural e inflamatória.",
+"A pHmetria quantifica refluxo, e não é o primeiro exame diante de disfagia.",
+"Correta: endoscopia digestiva alta com biópsias, obrigatória diante de disfagia e falha terapêutica.",
+"O estudo contrastado tem baixo rendimento comparado à endoscopia com biópsia."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2022
+}
+},
+{
+"q": "Um homem com 47 anos vai à unidade básica de saúde relatando caso de hematêmese e de melena. Ele nega constipação, mas relata episódios de dor abdominal esporádica, com empachamento. O paciente é natural e procedente do interior da Bahia e exerce a profissão de marceneiro. Durante a consulta, relata que toma banho em rios onde habitam caramujos. Ao exame físico, nota-se que o paciente está em regular estado geral, hipocorado (2+/4+) e ictérico (1+/4+).\nConsiderando a suspeita diagnóstica e a provável fase da doença em que o paciente se encontra, devem ser solicitados, inicialmente, quais exames complementares?",
+"alts": [
+"Endoscopia digestiva alta; reação intradérmica; e pesquisa de ovos do parasita nas fezes",
+"Ultrassonografia abdominal; endoscopia digestiva alta; e pesquisa de ovos do parasita nas fezes",
+"Ressonância magnética abdominal; biópsia retal; e sorologia por reação de imunofluorescência indireta (IFI)",
+"Radiografia de tórax; sorologia por ensaio imunoenzimático (Elisa); e PCR no sangue para a detecção do DNA do parasita"
+],
+"gab": 1,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Ministério da Saúde — Guia de Vigilância em Saúde, esquistossomose mansônica, 2024; PCDT de esquistossomose",
+"coment": "Hematêmese e melena em paciente procedente de área endêmica, com história de contato com coleções de água doce onde há caramujos, sugerem forma hepatoesplênica da esquistossomose com hemorragia digestiva por varizes de esôfago. A investigação inicial combina ultrassonografia abdominal — que mostra a fibrose periportal de Symmers, achado característico e padronizado pela classificação de Niamey —, endoscopia digestiva alta para avaliar e tratar as varizes, e pesquisa de ovos nas fezes pelo método de Kato-Katz. O tratamento é praziquantel, além do manejo da hipertensão portal.",
+"porAlt": [
+"A intradermorreação não é usada na rotina diagnóstica e a ultrassonografia é essencial para avaliar a fibrose periportal.",
+"Correta: ultrassonografia abdominal, endoscopia digestiva alta e pesquisa de ovos nas fezes.",
+"Ressonância e biópsia retal são desnecessárias diante de métodos mais simples e disponíveis.",
+"Radiografia de tórax e PCR sanguíneo não compõem a investigação inicial da forma hepatoesplênica."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma mulher com 28 anos é atendida na unidade básica de saúde pela quarta vez nos últimos 6 meses. Há 4 anos, apresenta dores abdominais do tipo cólica, especialmente em flancos, mesogástrio e hipogástrio, com períodos de constipação e episódios de fezes amolecidas, sem muco ou sangue. Ela relata que as dores melhoram com a evacuação e com a eliminação de flatos. Nega perda ou ganho de peso nesse período. Refere também estar ansiosa e que a ansiedade piorou devido à dúvida se tinha ou não alguma doença grave, como câncer. Conta que é faxineira e mãe de 4 filhos e que tem medo de adoecer e não poder sustentá-los. Acrescenta que já fez diversas investigações, inclusive pesquisa de sangue oculto nas fezes, protoparasitológico das fezes, hemograma, anticorpo antitransglutaminase, TSH, ultrassonografia de abdome e teste de tolerância à lactose, todos com resultados negativos, e que já fez vários tratamentos com albendazol (400 mg/dia até por 5 dias) e/ou secnidazol (2 g/dose única). Ao exame físico, apresenta-se normal.\nNesse caso, a hipótese diagnóstica para a paciente é de",
+"alts": [
+"doença celíaca",
+"câncer colorretal",
+"retocolite ulcerativa",
+"síndrome do intestino irritável"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "Critérios de Roma IV; ACG Clinical Guideline: Management of Irritable Bowel Syndrome, 2021",
+"coment": "Dor abdominal recorrente há anos, associada à evacuação e a mudança na forma das fezes, alternando constipação e fezes amolecidas, sem sangue, sem muco, sem perda de peso e sem sinais de alarme, preenche os critérios de Roma IV para síndrome do intestino irritável. É diagnóstico positivo, com investigação mínima dirigida — sorologia de doença celíaca e calprotectina fecal, conforme o subtipo. O manejo começa pela relação terapêutica e pela explicação do mecanismo, e inclui dieta orientada, exercício, manejo do estresse e fármaco conforme o sintoma dominante.",
+"porAlt": [
+"A doença celíaca deve ser afastada por sorologia, mas o quadro descrito não a sugere como diagnóstico principal.",
+"Não há sinais de alarme que sugiram neoplasia em paciente de 28 anos com quatro anos de sintomas estáveis.",
+"A retocolite ulcerativa cursa com diarreia com sangue e muco, expressamente negados.",
+"Correta: síndrome do intestino irritável, pelos critérios de Roma IV e ausência de alarmes."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um paciente de 70 anos é levado a um hospital por apresentar hematêmese em grande quantidade. Internado em unidade de terapia intensiva, foi submetido à endoscopia digestiva alta de urgência, sendo diagnosticado com úlcera péptica tipo 2, Forrest Ia, recebeu tratamento com injeção submucosa de adrenalina, eletrocoagulação térmica e controle efetivo do sangramento. Evoluiu com nova hematêmese, em moderada quantidade, sendo realizada hemotransfusão de urgência. O paciente encontra-se estável hemodinamicamente. Diante desse quadro, o tratamento subsequente adequado é",
+"alts": [
+"cirúrgico, com gastrectomia total",
+"laparoscópico, com antrectomia e vagotomia",
+"clínico, com inibidor de bomba de prótons venoso",
+"endoscópico, com controle local do sangramento"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021; ESGE guideline on non-variceal upper gastrointestinal haemorrhage, 2021",
+"coment": "Ressangramento após terapia endoscópica bem-sucedida em úlcera péptica com estigma de alto risco é indicação de nova tentativa endoscópica, e não de cirurgia — a segunda endoscopia obtém hemostasia na maioria dos casos, com menos complicações que a abordagem cirúrgica. O inibidor de bomba intravenoso em infusão contínua é adjuvante obrigatório, mas não substitui a hemostasia mecânica ou térmica. Falhando a segunda endoscopia, as opções são embolização arterial por radiologia intervencionista e, por último, cirurgia.",
+"porAlt": [
+"Gastrectomia total é desproporcional e não é a conduta de resgate inicial.",
+"A cirurgia por videolaparoscopia com antrectomia não é a primeira opção após ressangramento.",
+"O inibidor de bomba é adjuvante indispensável, mas isolado não trata o ressangramento ativo.",
+"Correta: nova abordagem endoscópica para hemostasia, com o paciente estável."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Homem, 47 anos de idade, possui antecedente de síndrome do túnel de carpo unilateral à direita. Procura o ambulatório por queixa de dispneia aos médios esforços. Relata despertar noturno por desconforto respiratório, que melhora com a ortostase. Consome de forma crônica 8 latas de cerveja por dia. Ao exame físico, apresenta bom estado geral, corado, hidratado. Auscultas cardíaca e pulmonar sem alterações. Abdome normotenso, indolor, presença de refluxo hepatojugular. Edema de membros inferiores bilateral.\nExames laboratoriais: Hb: 10,8 g/dL; Leucócitos: 4.400/mm3; Plaquetas: 164 mil/mm3; TGO/AST: 48 U/L; TGP/ALT: 36 U/L; Albumina: 3,6 g/dL; INR: 1,0; TTPa R: 0,9; Bilirrubina total: 0,6 mg/dL; Fosfatase alcalina: 187 U/L; GGT: 318 U/L; Saturação transferrina: 32%; Ferritina: 997 ng/mL.\nEcodopplercardiograma com estresse: fração de ejeção ventricular de 43%, volume diastólico de ventrículo esquerdo aumentado, ventrículo direito e átrios de tamanho normal, ausência de espessamento de septo, ausência de hipocinesia segmentar induzida por estresse farmacológico. Com relação ao caso clínico apresentado, assinale a alternativa que indica o diagnóstico pertinente.",
+"alts": [
+"Amiloidose subtipo ATTR",
+"Cardiomiopatia alcóolica",
+"Cardiomiopatia cirrótica",
+"Hemocromatose"
+],
+"gab": 1,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ESC Guidelines on cardiomyopathies, 2023; AHA scientific statement on alcohol and cardiovascular health",
+"coment": "Insuficiência cardíaca com dispneia, ortopneia, refluxo hepatojugular e edema em paciente de meia-idade com consumo alcoólico elevado e sustentado aponta para cardiomiopatia alcoólica — causa reversível de disfunção ventricular quando o consumo cessa, o que torna a abstinência parte do tratamento, ao lado da terapia otimizada da insuficiência cardíaca e da reposição de tiamina. A amiloidose é o diferencial sugerido pela síndrome do túnel do carpo, mas exigiria outros achados, como espessamento parietal com baixa voltagem no eletrocardiograma.",
+"porAlt": [
+"A amiloidose por transtirretina é diferencial relevante, sugerido pelo túnel do carpo, mas exigiria achados eletrocardiográficos e de imagem específicos.",
+"Correta: cardiomiopatia alcoólica, potencialmente reversível com abstinência.",
+"A cardiomiopatia cirrótica pressupõe cirrose estabelecida e cursa com débito elevado em repouso.",
+"A hemocromatose cursa com diabetes, hiperpigmentação e sobrecarga de ferro documentada."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 39 anos de idade, refere cólica em epigástrio e hipocôndrio direito com irradiação para dorso há 2 dias, que melhora com o uso de analgésicos e antiespasmódicos. Nega febre. Sem comorbidades. Ao exame físico, apresenta bom estado geral, corada, hidratada, ictérica +/++++, afebril; abdome distendido, flácido, doloroso em epigástrio e hipocôndrio direito sem sinais de peritonite.\nExames laboratoriais: Hb: 11,5 g/dL; Leucócitos: 9.500/mm3; TGO/AST: 230 U/L; TGP/ALT: 310 U/L; FA: 430 U/L; GGT: 352 U/L; Amilase: 110 U/L; Lipase: 72 U/L; Bilirrubina total: 4,5 mg/dL; PCR: 8 mg/L.\nCom base no caso clínico descrito, assinale a alternativa que apresenta a principal hipótese diagnóstica.",
+"alts": [
+"Cólica biliar",
+"Colangite",
+"Coledocolitíase",
+"Colecistite aguda"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r2",
+"base": "ASGE guideline on the role of endoscopy in the evaluation of suspected choledocholithiasis, 2019; Tokyo Guidelines 2018",
+"coment": "Dor biliar com icterícia e padrão laboratorial colestático — fosfatase alcalina e gama-GT elevadas com bilirrubina aumentada —, sem febre e sem leucocitose, indica coledocolitíase sem colangite. A ausência de febre afasta a tríade de Charcot, e a ausência de sinal de Murphy e de leucocitose afasta colecistite. A conduta é confirmar por colangiorressonância ou ecoendoscopia quando a probabilidade é intermediária, e proceder à colangiopancreatografia retrógrada com papilotomia quando é alta, seguida de colecistectomia na mesma internação.",
+"porAlt": [
+"A cólica biliar simples não cursa com icterícia e padrão colestático laboratorial.",
+"A colangite exigiria febre, ausente no caso, além da dor e da icterícia.",
+"Correta: coledocolitíase — dor biliar com icterícia e colestase, sem febre.",
+"A colecistite aguda cursa com febre, leucocitose e sinal de Murphy, sem esse grau de colestase."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 52 anos de idade, com diarreia crônica, aquosa, pior à noite, sem sintomas constitucionais. Antecedentes: colecistectomia. Calprotectina fecal e Proteína C Reativa normais. O tratamento mais adequado é",
+"alts": [
+"Amitriptilina",
+"Colestiramina",
+"Dieta sem glúten e sem lactose",
+"Corticoide de liberação entérica"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ACG Clinical Guideline on Chronic Diarrhea, 2025; British Society of Gastroenterology guidelines on bile acid diarrhoea, 2018",
+"coment": "Diarreia aquosa crônica, com despertar noturno — o que caracteriza doença orgânica —, em paciente colecistectomizada, com calprotectina e proteína C reativa normais, é o quadro típico de má absorção de sais biliares. Sem a vesícula, o fluxo biliar contínuo excede a capacidade de reabsorção ileal, e os sais biliares no cólon induzem secreção. O tratamento e ao mesmo tempo teste diagnóstico é o sequestrante — colestiramina, colestipol ou colesevelam. Muitos desses pacientes carregam por anos o rótulo de intestino irritável.",
+"porAlt": [
+"Amitriptilina é adjuvante da dor na síndrome do intestino irritável, e a diarreia noturna afasta quadro funcional.",
+"Correta: colestiramina, sequestrante de sais biliares, diagnóstica e terapêutica.",
+"Dieta de exclusão sem investigação não trata a causa e pode negativar sorologia de celíaca.",
+"Corticoide entérico trata colite microscópica, que exigiria confirmação por biópsia colônica."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 38 anos de idade, procura atendimento por astenia progressiva, perda de peso de 7 kg nos últimos 4 meses, hipotensão e hiperpigmentação da pele. Nega uso de medicamentos. Relata episódios de diarreia e tonturas ao levantar-se. Ao exame clínico, apresenta-se emagrecida, com PA de 90×60 mmHg e FC de 96 bpm.\n\nExames laboratoriais:\nNa+: 130 mEq/L\nK+: 5,8 mEq/L\nGlicose: 68 mg/dL\nCortisol sérico às 8h: 3,2 µg/dL (ref.: 5 a 25 µg/dL)\nACTH plasmático 180 pg/mL (ref.: 7 a 46 pg/mL)\n\nA conduta mais adequada no manejo desta paciente é",
+"alts": [
+"Repetir cortisol e ACTH e iniciar fludrocortisona",
+"Iniciar hidrocortisona e fludrocortisona",
+"Confirmar o diagnóstico com teste de estímulo",
+"Solicitar ressonância magnética de hipófise"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "Endocrine Society Clinical Practice Guideline — Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016",
+"coment": "Astenia, perda de peso, hipotensão postural, hiperpigmentação, hiponatremia, hipercalemia e hipoglicemia, com cortisol matinal baixo e ACTH muito elevado, fecham insuficiência adrenal primária — o ACTH alto localiza a lesão na adrenal e dispensa o teste de estímulo, que só seria necessário diante de cortisol indeterminado. O tratamento é reposição imediata de glicocorticoide e mineralocorticoide: hidrocortisona e fludrocortisona. Postergar para repetir exames arrisca crise adrenal, e reposição isolada de mineralocorticoide é insuficiente.",
+"porAlt": [
+"Repetir exames adia a reposição, e fludrocortisona isolada não substitui o glicocorticoide.",
+"Correta: iniciar hidrocortisona e fludrocortisona, com diagnóstico já estabelecido.",
+"O teste de estímulo é dispensável com cortisol baixo e ACTH muito elevado somados ao quadro clínico.",
+"A ressonância de hipófise investiga causa secundária, incompatível com ACTH elevado."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 87 anos de idade, com perda de 5% do peso corporal nos últimos seis meses, refere engasgos ocasionais, amargor na boca e falta de apetite. Nega sintomas de depressão ou de ansiedade. Tem diabetes e hipertensão tratados com dieta, metformina e losartana. Ao exame clínico, apresenta bom estado geral, sem alterações significativas, com IMC de 23,5 kg/m2. Em relação ao caso descrito, assinale a alternativa que apresenta a conduta mais adequada para esta paciente",
+"alts": [
+"Substituir losartana por enalapril",
+"Substituir metformina por dapagliflozina",
+"Flexibilizar uso de sal e carboidratos",
+"Solicitar endoscopia digestiva alta"
+],
+"gab": 2,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "American Geriatrics Society — recomendações sobre desnutrição e restrição dietética em idosos; ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022",
+"coment": "Perda de peso não intencional em idosa é evento de alto risco, associado a sarcopenia, quedas, internação e mortalidade. Dietas restritivas — hipossódicas e com restrição de carboidratos — reduzem palatabilidade e ingestão calórica e têm benefício marginal nessa faixa etária, motivo pelo qual as diretrizes recomendam flexibilizá-las para priorizar aporte energético e proteico. Também fazem parte da avaliação a triagem de disfagia sugerida pelos engasgos, a revisão de fármacos, a saúde bucal e o rastreio de causas orgânicas.",
+"porAlt": [
+"Trocar losartana por enalapril não resolve a perda de peso e acrescenta risco de tosse.",
+"Substituir metformina por inibidor de SGLT2 pode agravar a perda de peso.",
+"Correta: flexibilizar restrições dietéticas para priorizar aporte calórico e proteico.",
+"Endoscopia pode ser necessária, mas não antes de corrigir a restrição dietética e avaliar deglutição e fármacos."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 57 anos de idade, cirrose hepática Child-Pugh B, internada há dois dias com dor abdominal difusa e sonolência. Estável, sem sangramento ativo ou recente, com programação de paracentese. Exames laboratoriais apresentaram plaquetas de 72.000/mm³ e INR de 1,9. Em relação à tromboprofilaxia, a conduta mais adequada é",
+"alts": [
+"Profilaxia mecânica",
+"Heparina de baixo peso molecular",
+"Rivaroxabana após transfusão de plaquetas",
+"Não há indicação de profilaxia"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "r3",
+"base": "AASLD Practice Guidance on coagulation disorders in patients with cirrhosis, 2021; ASH guidelines for VTE prophylaxis in hospitalized patients, 2018",
+"coment": "Cirrose não é estado de anticoagulação natural: o INR alargado reflete a queda dos fatores pró-coagulantes, mas os anticoagulantes naturais também caem, e o equilíbrio é instável — pacientes cirróticos internados têm risco aumentado de tromboembolismo venoso, inclusive de trombose portal. Por isso, INR alargado e plaquetopenia moderada não contraindicam profilaxia farmacológica, e a heparina de baixo peso molecular está indicada. A contraindicação real seria sangramento ativo ou plaquetas muito baixas, em geral abaixo de 50 mil.",
+"porAlt": [
+"A profilaxia mecânica isolada subestima o risco trombótico e não é a primeira escolha sem contraindicação farmacológica.",
+"Correta: heparina de baixo peso molecular, indicada apesar do INR alargado.",
+"Anticoagulante oral direto em dose plena não é profilaxia, e transfundir plaquetas para isso não se justifica.",
+"Deixar sem profilaxia expõe a paciente a tromboembolismo venoso, cujo risco está aumentado na cirrose."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Uma paciente com 26 anos comparece à unidade de saúde da família para consulta com relato de dispneia aos esforços, que vem se intensificando nos últimos 3 ou 4 meses. O médico a examina e observa um desdobramento fixo da segunda bulha audível em foco pulmonar. O exame físico revela frequência cardíaca em ritmo regular de 80 bpm, sem outros achados.\nNesse caso, quais são, respectivamente, o diagnóstico mais provável e o risco potencial relacionado com esse diagnóstico?",
+"alts": [
+"Estenose pulmonar; embolia pulmonar",
+"Estenose de valva mitral; embolia sistêmica",
+"Defeito de septo interatrial; embolia sistêmica",
+"Prolapso de valva mitral; embolia pulmonar"
+],
+"gab": 2,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESC Guidelines for the management of adult congenital heart disease, 2020; AHA/ACC guideline for the management of adults with congenital heart disease, 2018",
+"coment": "Desdobramento fixo da segunda bulha — que não varia com a respiração — é o achado semiológico característico da comunicação interatrial, porque o shunt esquerda-direita mantém sobrecarga constante do ventrículo direito e retarda o fechamento pulmonar em todas as fases do ciclo respiratório. A dispneia progressiva em adulto jovem completa o quadro. O risco clássico é a embolia paradoxal: um trombo venoso atravessa o defeito e alcança a circulação sistêmica, causando acidente vascular cerebral em paciente jovem sem outros fatores de risco.",
+"porAlt": [
+"A estenose pulmonar causa sopro sistólico ejetivo com clique e desdobramento amplo, mas variável.",
+"A estenose mitral cursa com ruflar diastólico e primeira bulha hiperfonética.",
+"Correta: comunicação interatrial, com desdobramento fixo de segunda bulha e risco de embolia paradoxal.",
+"O prolapso mitral cursa com clique mesossistólico e sopro tardio."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma mulher de 42 anos é levada por familiares à emergência apresentando estado confusional e elevação importante da pressão arterial. Os familiares relatam que ela começou, recentemente, tratamento para hipertensão e que, nos últimos dias, tem se queixado de palpitações, cefaleia e sensação de cabeça leve. Atualmente, está utilizando metoprolol em substituição à clonidina, além de hidroclorotiazida e enalapril. Ao exame físico, apresenta-se agitada, confusa, com pupilas dilatadas e edema papilar, ela está sudoreica, com as extremidades apresentando discreto tremor e pulsos periféricos amplos, pressão arterial de 230 × 150 mmHg, frequência cardíaca de 115 batimentos por minuto e saturação de oxigênio de 89%. Realizada tomografia de crânio e coleta de líquor, cujos resultados não apresentaram evidências de hemorragia intracraniana ou de infecção. O resultado da pesquisa de drogas na urina foi negativo. Diante desse quadro, a conduta imediata mais adequada para essa paciente é",
+"alts": [
+"transferi-la para a unidade de terapia intensiva, intubá-la e realizar exame para mensurar as enzimas cardíacas",
+"monitorizá-la, puncionar acesso venoso calibroso, iniciar oxigenoterapia com máscara e administrar nitroprussiato de sódio por via intravenosa",
+"interná-la em enfermaria, prescrever diuréticos, ansiolíticos, IECA ou BRA e betabloqueadores e solicitar ressonância magnética",
+"acompanhá-la em enfermaria nas próximas 24 horas, aguardar melhora do quadro e encaminhá-la para atendimento ambulatorial"
+],
+"gab": 1,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025; AHA scientific statement on hypertensive crises",
+"coment": "Elevação pressórica grave com confusão mental e papiledema caracteriza emergência hipertensiva com encefalopatia — lesão aguda de órgão-alvo que exige internação em ambiente monitorizado e redução controlada da pressão por via intravenosa, com nitroprussiato de sódio ou nicardipina, buscando queda de 20 a 25% na primeira hora, e não normalização abrupta, que causa isquemia. O contexto sugere ainda rebote pela suspensão da clonidina, agravado pelo betabloqueio sem alfabloqueio prévio — mecanismo idêntico ao erro cometido no feocromocitoma.",
+"porAlt": [
+"Intubar e dosar enzimas cardíacas não é a prioridade diante de encefalopatia hipertensiva com papiledema.",
+"Correta: monitorização, acesso venoso e anti-hipertensivo intravenoso titulável, com redução controlada.",
+"Tratamento oral em enfermaria com ressonância não trata a emergência em curso.",
+"Aguardar melhora espontânea com seguimento ambulatorial ignora a lesão de órgão-alvo instalada."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "O tabaco, em seus múltiplos usos, configura-se como o principal causa evitável de morte no Brasil e no mundo. Estima-se que o tabagismo seja a causa para cerca de 40% das mortes por câncer; de 70 a 95% das mortes devido a câncer de pulmão e 75% dos óbitos decorrentes de doença pulmonar obstrutiva crônica. Para apoiar o seu enfrentamento pode-se adotar, isoladamente ou de forma combinada, diversos tipos de abordagens. Sobre o tratamento a pessoa tabagista, é correto afirmar que",
+"alts": [
+"esquemas de aconselhamentos de maior intensidade e de intervenções breves apresentam probabilidade semelhante de ajudar o paciente a cessar o hábito de fumar",
+"o aconselhamento e a medicação são efetivos quando usados conjuntamente, mas ineficazes na promoção da abstinência ao tabagismo quando utilizados de forma isolada",
+"pacientes com elevada, ou muito elevada, dependência física devem iniciar tratamento medicamentoso com a associação de terapia de reposição de nicotina a bupropiona",
+"intervenções em grupo promovem a abstinência ao tabagismo pela interação e apoio mútuo entre os participantes e pela participação ativa do fumante e do profissional de saúde"
+],
+"gab": 3,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "INCA/Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020; US Public Health Service, Treating Tobacco Use and Dependence",
+"coment": "O programa brasileiro de cessação do tabagismo é estruturado em abordagem cognitivo-comportamental, preferencialmente em grupo, com quatro sessões iniciais semanais e manutenção, associada a farmacoterapia conforme o grau de dependência. O formato em grupo funciona pela interação, pelo apoio mútuo e pelo compartilhamento de estratégias, com resultados equivalentes ou superiores ao atendimento individual e melhor custo-efetividade. Aconselhamento e medicação são eficazes isoladamente e mais eficazes em conjunto, e intervenções mais intensas produzem maiores taxas de abstinência.",
+"porAlt": [
+"Intervenções mais intensas produzem taxas de abstinência maiores que a intervenção breve.",
+"Aconselhamento e medicação são eficazes também isoladamente, ainda que menos que combinados.",
+"A terapia de reposição de nicotina pode ser combinada, mas a afirmação como está não descreve o protocolo.",
+"Correta: a abordagem em grupo promove abstinência pela interação e pelo apoio mútuo entre participantes."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Mulher, 35 anos de idade, previamente hígida, procura o ambulatório. Há 3 meses, queixa-se de calafrios ocorrendo 3 vezes por semana, além de prurido generalizado, sem melhora com uso de hidratantes. Relata edema facial leve ao despertar, com melhora ao longo do dia. Notou gânglio aumentado à direita e passou em odontologista que atribuiu a um procedimento feito no mês anterior. Ao exame clínico, apresentou PA de 113×66 mmHg, FC de 112 bpm, temperatura de 37,1 ºC, FR de 18 irpm, SpO2 de 97% em ar ambiente. Linfonodo cervical direito aumentado, firme, indolor, não aderido, medindo cerca de 2,5 cm. Turgência jugular discreta. Sem sinais de congestão pulmonar ou derrame pleural. Ausência de estertores ou sibilos. Abdome flácido, indolor, sem visceromegalias. Assinale a alternativa que apresenta a conduta apropriada neste momento.",
+"alts": [
+"Sorologia para mononucleose",
+"Amoxicilina/clavulanato por 7 dias",
+"Biópsia do linfonodo",
+"Prednisona oral por 5 dias"
+],
+"gab": 2,
+"tema": "onco",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "NCCN Guidelines for Hodgkin Lymphoma, 2025; INCA, diretrizes diagnósticas e terapêuticas do linfoma de Hodgkin, 2022",
+"coment": "Linfonodo cervical firme, indolor e persistente, com prurido generalizado, calafrios recorrentes e taquicardia em adulta jovem, aponta para linfoma — o prurido e os sintomas B são apresentação típica do Hodgkin. Nesse cenário, aguardar resolução, tratar com antibiótico ou prescrever corticoide são condutas prejudiciais: o corticoide, em especial, pode induzir remissão parcial e comprometer o diagnóstico histológico. A conduta é biópsia excisional do linfonodo, que preserva a arquitetura necessária ao diagnóstico e à classificação.",
+"porAlt": [
+"A sorologia para mononucleose não explica três meses de evolução com prurido e linfonodo endurecido.",
+"Antibiótico trata adenite bacteriana, que seria dolorosa e de curta evolução.",
+"Correta: biópsia excisional do linfonodo, exame que estabelece o diagnóstico.",
+"Corticoide pode mascarar o linfoma e comprometer a interpretação histológica."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 65 anos de idade, com cirrose hepática Child-Pugh B, em avaliação para biópsia hepática percutânea. Hemodinamicamente estável e sem história prévia de sangramento grave. Apresenta INR de 2,1 e plaquetas de 55.000/mm³. A conduta mais adequada antes do procedimento é",
+"alts": [
+"Vitamina K",
+"Plasma fresco congelado ou complexo protrombínico",
+"Transfusão de plaquetas",
+"Nenhum preparo é necessário"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "r3",
+"base": "AASLD Practice Guidance on coagulation disorders in patients with cirrhosis, 2021; ASH/ISTH guidance on periprocedural management in liver disease",
+"coment": "Na cirrose, o INR alargado não prediz risco de sangramento: ele mede apenas os fatores pró-coagulantes, enquanto os anticoagulantes naturais também estão reduzidos, mantendo um equilíbrio instável. Por isso, corrigir INR com plasma ou complexo protrombínico antes de procedimento é prática abandonada — não reduz sangramento, causa sobrecarga de volume e eleva a pressão portal. Transfusão de plaquetas se discute em contagens muito baixas, em geral abaixo de 50 mil, o que não é o caso, e a vitamina K só ajuda quando há deficiência associada.",
+"porAlt": [
+"Vitamina K corrige deficiência específica, e não a coagulopatia da hepatopatia crônica.",
+"Plasma ou complexo protrombínico não reduz sangramento e aumenta volume e pressão portal.",
+"A contagem de plaquetas está acima do limiar habitual para transfusão profilática.",
+"Correta: nenhum preparo é necessário, com paciente estável e sem sangramento prévio."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mylena, 42 anos, fuma 50 cigarros/dia desde os 16 anos. Seu Fagerström é igual a 10. Na escala de razões para fumar, declara que fuma para controlar o peso, para mediar situações de estresse e ansiedade e porque o cigarro é uma companhia. Diz que não consegue nem imaginar tentar parar de fumar e que, por isso, nunca tentou fazê-lo. Declara não se ver sem o cigarro. Recentemente, Mylena foi diagnosticada com neoplasia de pulmão. Nesse caso, a abordagem a essa fumante deve considerar:",
+"alts": [
+"uso de vapers para iniciar o processo de mudança",
+"cessação do tabagismo sem uso de suporte farmacoterápico",
+"cessação do tabagismo com uso de reposição de nicotina apenas",
+"entrevista motivacional, com o suporte comportamental e farmacoterápico necessário",
+"prescrição de bupropiona para cessação do tabagismo"
+],
+"gab": 3,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "INCA/Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020; Miller e Rollnick, entrevista motivacional",
+"coment": "A paciente tem dependência muito elevada pelo teste de Fagerström, motivação para cessar em estágio pré-contemplativo e diagnóstico recente de câncer de pulmão — condição em que parar de fumar melhora resposta ao tratamento, cicatrização e sobrevida. A abordagem indicada combina entrevista motivacional, para trabalhar a ambivalência sem confronto, apoio cognitivo-comportamental e farmacoterapia plena, que na dependência elevada costuma associar reposição de nicotina em duas formas ou reposição combinada a bupropiona ou vareniclina.",
+"porAlt": [
+"Cigarro eletrônico não é estratégia aprovada de cessação no Brasil e é proibido pela ANVISA.",
+"Cessar sem farmacoterapia é inadequado em dependência muito elevada.",
+"A reposição isolada de nicotina é insuficiente nesse grau de dependência.",
+"Correta: entrevista motivacional com suporte comportamental e farmacoterapia adequada.",
+"Prescrever bupropiona isoladamente ignora a ambivalência e o suporte comportamental necessários."
+],
+"fonte": {
+"banca": "ENARE (EBSERH/FGV)",
+"ano": 2024
+}
+},
+{
+"q": "Paciente masculino, de 72 anos, em tratamento de câncer de próstata, procurou atendimento em ambulatório de oncologia, referindo dor em membro inferior esquerdo havia um dia, mais intensa à dorsiflexão do pé, edema de panturrilha esquerda progressivo para todo o membro, com pulso palpável e aumento de sensibilidade à palpação de todo o membro. Nesse caso, considerando-se a chance de confirmar a hipótese diagnóstica mais provável, qual é a melhor opção de exame complementar?",
+"alts": [
+"Flebografia",
+"Arteriografia",
+"Ultrassonografia com doppler",
+"Ultrassonografia de partes moles"
+],
+"gab": 2,
+"tema": "onco",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "ASH Guidelines for Management of Venous Thromboembolism: Diagnosis of VTE, 2018; ESC Guidelines on acute pulmonary embolism, 2019",
+"coment": "Dor, edema progressivo e aumento de sensibilidade em membro inferior de paciente com neoplasia ativa configuram alta probabilidade clínica de trombose venosa profunda — o câncer é um dos principais fatores de risco, tanto pela doença quanto pelo tratamento. Com probabilidade alta pelo escore de Wells, o exame indicado é a ultrassonografia com Doppler, e o dímero-D perde utilidade, pois já está elevado na maioria dos pacientes oncológicos. Confirmada a trombose, a anticoagulação preferida hoje é com anticoagulante oral direto ou heparina de baixo peso molecular.",
+"porAlt": [
+"A flebografia é invasiva e foi substituída pela ultrassonografia com Doppler.",
+"A arteriografia investiga doença arterial, e o pulso está presente.",
+"Correta: ultrassonografia com Doppler venoso, exame de escolha para trombose venosa profunda.",
+"A ultrassonografia de partes moles não avalia adequadamente o sistema venoso profundo."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2022
+}
+},
+{
+"q": "Homem, 59 anos de idade, foi diagnosticado com adenocarcinoma pancreático com indicação de quimioterapia neoadjuvante. Relata perda de 10% do peso corpóreo. O peso ideal é de 70 kg. Não possui comorbidades. Considerando o suporte nutricional para tolerar o tratamento sistêmico e, posteriormente, a operação de grande porte, assinale a alternativa que apresenta as metas calórica e proteica preconizadas.",
+"alts": [
+"2.000 calorias; 100 gramas de proteína",
+"2.000 calorias; 200 gramas de proteína",
+"3.000 calorias; 200 gramas de proteína",
+"3.000 calorias; 100 gramas de proteína"
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ESPEN practical guideline: Clinical Nutrition in Cancer, 2021; consenso brasileiro de nutrição em oncologia",
+"coment": "As metas nutricionais em oncologia se calculam pelo peso: 25 a 30 quilocalorias por quilo por dia e 1 a 1,5 grama de proteína por quilo por dia, podendo chegar a 2 gramas em depleção acentuada. Para 70 kg, isso corresponde a cerca de 2.000 quilocalorias e cerca de 100 gramas de proteína. Perda de 10% do peso caracteriza risco nutricional elevado e justifica intervenção precoce, com suplementação oral e, quando insuficiente, terapia enteral — a desnutrição reduz tolerância à quimioterapia, aumenta toxicidade e piora o desfecho cirúrgico.",
+"porAlt": [
+"Correta: cerca de 2.000 quilocalorias e 100 gramas de proteína, pelo cálculo por quilo de peso.",
+"Duzentos gramas de proteína excedem largamente a recomendação máxima de 2 g/kg.",
+"Três mil quilocalorias superam a faixa de 25 a 30 kcal/kg e a meta proteica está muito acima.",
+"A meta calórica de 3.000 é excessiva para 70 kg."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Em um estudo caso-controle que investiga a associação entre tabagismo e câncer de pulmão, se os controles têm maior probabilidade de subestimar o hábito de fumar devido a viés de resposta socialmente desejável, qual é o efeito mais provável sobre a razão de chances (odds ratio, OR)?",
+"alts": [
+"O OR será superestimado",
+"O OR será subestimado",
+"O OR permanecerá inalterado",
+"A direção não pode ser determinada"
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "Epidemiologia — viés de aferição em estudos caso-controle; Rothman, Modern Epidemiology, 4ª edição, 2021",
+"coment": "A razão de chances compara a chance de exposição entre casos e controles. Se os controles subestimam sistematicamente o tabagismo por desejabilidade social, a exposição medida no grupo controle fica artificialmente baixa, o denominador da razão diminui e a razão de chances resulta maior que a verdadeira — ou seja, superestimada. Trata-se de viés de aferição diferencial, e a maneira de reduzi-lo é usar medidas objetivas, como cotinina, ou coleta padronizada e cega quanto ao desfecho.",
+"porAlt": [
+"Correta: a razão de chances será superestimada, porque a exposição nos controles é subnotificada.",
+"A subestimação da razão ocorreria se os casos é que subnotificassem a exposição.",
+"Viés diferencial de aferição altera a medida de associação; ela não permanece inalterada.",
+"A direção é previsível a partir de qual grupo subnotifica a exposição."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 59 anos de idade, em tratamento de adenocarcinoma de pâncreas metastático para fígado com esquema FOLFIRINOX (5-Fluorouracil, irinotecano e oxaliplatina) a cada duas semanas. Apresentou melhora do quadro de dor e queda de antígeno CA 19.9, porém desde o último ciclo tem apresentado piora de náuseas e vômitos. Faz uso de ondansetrona, dexametasona e aprepitanto como profilaxia para êmese. Em relação ao caso apresentado, assinale a alternativa que apresenta o medicamento adicional mais adequado para profilaxia do sintoma",
+"alts": [
+"Metoclopramida",
+"Haloperidol",
+"Dimenidrinato",
+"Olanzapina"
+],
+"gab": 3,
+"tema": "onco",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "NCCN Guidelines for Antiemesis, 2025; ASCO Antiemetics Guideline Update, 2020",
+"coment": "Em êmese por quimioterapia altamente emetogênica que persiste apesar de esquema tríplice com antagonista de receptor de serotonina, corticoide e antagonista de neurocinina-1, a adição recomendada é a olanzapina — que bloqueia múltiplos receptores envolvidos na êmese e mostrou superioridade em ensaios randomizados, tanto na fase aguda quanto na tardia. O esquema quádruplo passou a ser padrão nesses regimes. Metoclopramida, haloperidol e anti-histamínicos permanecem como opções de resgate, com evidência inferior.",
+"porAlt": [
+"Metoclopramida é opção de resgate com evidência inferior à olanzapina nesse cenário.",
+"Haloperidol é alternativa de resgate, não a adição preferida ao esquema profilático.",
+"Dimenidrinato é anti-histamínico de baixa potência antiemética na êmese por quimioterapia.",
+"Correta: olanzapina, que compõe o esquema quádruplo em regimes altamente emetogênicos."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Em um estudo clínico, 889 pacientes submetidos a tratamento adjuvante para câncer colorretal foram aleatorizados para realizar atividade física estruturada ou receber materiais educativos sobre saúde. Após um seguimento de 7,9 anos, observou-se uma diferença em cinco anos de sobrevida livre de doença de 80,3% para o grupo que realizou atividade física e 73,9% para o grupo de educação em saúde. Isto correspondeu a um hazard ratio de 0,72 com IC95% 0,55 a 0,94. É possível afirmar",
+"alts": [
+"O desenho do estudo apresenta viés de seleção e, portanto, baixa validade externa",
+"O tempo de seguimento é inadequado para a proposta do estudo em questão",
+"A diferença absoluta de 6,4% é clinicamente e estatisticamente significativa",
+"Não é possível inferir a magnitude do ganho pelos dados apresentados"
+],
+"gab": 2,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "Epidemiologia clínica — interpretação de hazard ratio e intervalo de confiança; ensaio CHALLENGE de exercício estruturado em câncer de cólon, 2025",
+"coment": "O hazard ratio de 0,72 indica redução de 28% no risco relativo do desfecho, e o intervalo de confiança de 95% entre 0,55 e 0,94 não inclui o valor nulo de 1, o que significa significância estatística. A diferença absoluta de sobrevida livre de doença em cinco anos, de 80,3% contra 73,9%, são 6,4 pontos percentuais — magnitude clinicamente relevante para uma intervenção não farmacológica, segura e de baixo custo. Ensaio randomizado com quase 900 pacientes e seguimento de quase oito anos é desenho adequado para esse desfecho.",
+"porAlt": [
+"Randomização protege contra viés de seleção, e o problema levantado não se aplica.",
+"Quase oito anos de seguimento é tempo adequado para sobrevida livre de doença nesse cenário.",
+"Correta: a diferença absoluta de 6,4 pontos percentuais é clínica e estatisticamente significativa.",
+"A magnitude do ganho é inferível: os dados trazem as taxas absolutas e o intervalo de confiança."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 56 anos de idade, é conduzido pelos familiares, pois há um ano está mais desinibido e com alterações de personalidade. Durante a consulta, apresentou um comportamento impulsivo e sem crítica. Ao exame neurológico, apresenta pupilas mióticas não fotorreagentes, redução da sensibilidade vibratória e dificuldade para andar de olhos fechados. A ressonância magnética de encéfalo mostrou discreta atrofia global, sem predileção lobar, e ausência de lesões tumorais ou vasculares. O exame com maior probabilidade de confirmar o diagnóstico é",
+"alts": [
+"Eletroencefalograma sono-vigília",
+"Dosagem da ácido fólico sérico",
+"Líquido cefalorraquidiano com VDRL",
+"PET cerebral com marcador para amiloide"
+],
+"gab": 2,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; CDC STI Treatment Guidelines, 2021",
+"coment": "Alteração de personalidade com desinibição, associada a pupilas mióticas que não reagem à luz — pupila de Argyll Robertson — e a comprometimento do cordão posterior, com perda vibratória e sinal de Romberg, é a apresentação da neurossífilis nas formas parética e tabética. O exame que confirma é a punção lombar com VDRL no líquido cefalorraquidiano, ao lado de celularidade e proteína. O tratamento é penicilina cristalina intravenosa por 14 dias, e a demência da neurossífilis é uma das poucas causas potencialmente reversíveis.",
+"porAlt": [
+"O eletroencefalograma não estabelece esse diagnóstico.",
+"A deficiência de folato não explica a pupila de Argyll Robertson.",
+"Correta: punção lombar com VDRL no líquido cefalorraquidiano, confirmando neurossífilis.",
+"O PET com marcador amiloide investiga doença de Alzheimer, incompatível com os achados pupilares e sensitivos."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Durante um exame admissional para motorista, um paciente é questionado sobre o uso de álcool e responde, abertamente, que se sente culpado pelo uso diário de 3 cervejas. Relata haver tentado reduzir esse consumo, sem sucesso. Nega uso de álcool pela manhã. Não relatou sentir-se aborrecido pelo que familiares, ou outras pessoas próximas a ele, possam pensar sobre seu consumo frequente de bebida alcoólica. No questionário AUDIT, esse paciente teve escore 22 de 40 pontos. Assinale a alternativa que apresenta a informação correta quanto ao diagnóstico e a abordagem adequados para esse paciente.",
+"alts": [
+"Rastreamento negativo; orientar o paciente a reduzir o consumo para 14 cervejas por semana, sendo dispensado o tratamento farmacológico nesse caso",
+"Rastreamento positivo; orientar o paciente sobre riscos de dirigir embriagado e oferecer naltrexona ou acamprosato para fins de tratamento farmacológico",
+"Rastreamento positivo; orientar o paciente sobre riscos de dirigir embriagado e oferecer dissulfiram e benzodiazepínicos para fins de tratamento farmacológico",
+"Rastreamento negativo, mas consumo excessivo; orientar o paciente sobre riscos de dirigir embriagado e oferecer naltrexona para fins de tratamento farmacológico"
+],
+"gab": 1,
+"tema": "psiq",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "OMS — AUDIT: Guidelines for Use in Primary Care, 2ª edição, 2001; Ministério da Saúde, Guia de intervenção breve para uso de álcool, 2021",
+"coment": "O AUDIT rastreia uso problemático de álcool: escores de 8 a 15 indicam uso de risco, 16 a 19 uso nocivo e 20 ou mais sugerem provável dependência, com indicação de avaliação e tratamento. O escore de 22 é, portanto, rastreamento positivo em faixa de dependência. O manejo combina intervenção breve e psicoterapia com farmacoterapia — naltrexona ou acamprosato, ambos de primeira linha —, e a situação exige ainda orientação explícita sobre dirigir, dado que se trata de exame admissional para motorista profissional.",
+"porAlt": [
+"Escore de 22 é rastreamento positivo, e não negativo, e a farmacoterapia não é dispensável.",
+"Correta: rastreamento positivo, com orientação sobre direção e oferta de naltrexona ou acamprosato.",
+"O dissulfiram é de segunda linha e exige supervisão; benzodiazepínico contínuo é inadequado nesse contexto.",
+"O rastreamento é positivo, e classificar como negativo contradiz o próprio escore."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
 "q": "Mulher de 81 anos, com insônia crônica, chega ao ambulatório em uso de clonazepam há oito anos, prescrito por outro serviço. Teve duas quedas no último ano, sem fratura, e refere sonolência diurna. Mora sozinha e é independente para atividades básicas. Qual é a conduta mais apropriada?",
 "alts": [
 "Manter a dose atual e acrescentar zolpidem à noite, para melhorar a qualidade do sono dela.",
