@@ -2,13 +2,13 @@
  {
   "q": "Homem de 44 anos, sem comorbidades, é atendido no ambulatório com tosse produtiva, febre e radiografia mostrando consolidação em base direita. Recebe alta com antibiótico oral. No terceiro dia retorna afebril, com frequência cardíaca de 78 bpm, frequência respiratória de 18 irpm, saturação de 97% em ar ambiente, pressão de 124/78 mmHg e orientado. Qual é a conduta quanto à duração do tratamento?",
   "alts": [
+   "Suspender o antibiótico ao completar o terceiro dia, pois ele já alcançou estabilidade clínica.",
    "Manter o antibiótico por dez dias no total, duração clássica que reduz a chance de recidiva.",
    "Manter o antibiótico até que a radiografia de tórax mostre resolução completa da consolidação.",
-   "Suspender o antibiótico ao completar o terceiro dia, pois ele já alcançou estabilidade clínica.",
    "Trocar por um macrolídeo e completar mais sete dias, ampliando a cobertura para germe atípico.",
    "Prolongar o esquema por catorze dias porque a consolidação lobar indica doença pneumocócica."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -16,9 +16,9 @@
   "base": "American Thoracic Society 2025 — Diagnosis and Management of Community-acquired Pneumonia",
   "coment": "A diretriz de 2025 mudou de forma relevante o que se ensinava desde 2019: em adultos com pneumonia adquirida na comunidade tratados em ambulatório que atingem estabilidade clínica, sugere-se menos de cinco dias de antibiótico, com mínimo de três, em vez de cinco ou mais. Estabilidade clínica é definida por estar afebril, frequência cardíaca abaixo de 100 bpm, frequência respiratória abaixo de 24 irpm, saturação de pelo menos 90% em ar ambiente, pressão sistólica de pelo menos 90 mmHg e estado mental normal — exatamente o quadro descrito. Tratamento prolongado acrescenta infecção por Clostridioides difficile, injúria renal e pressão seletiva, sem ganho de cura.",
   "porAlt": [
+   "Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três — que ele já completou.",
    "Dez dias é herança de recomendações antigas; a evidência de não inferioridade dos esquemas curtos derrubou essa duração na pneumonia não grave.",
    "A imagem melhora semanas depois da cura clínica; guiar a duração por radiografia prolonga o antibiótico sem qualquer benefício ao paciente.",
-   "Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três — que ele já completou.",
    "Não há motivo para trocar a classe em quem respondeu bem, e estender por mais sete dias contraria a recomendação de curso curto.",
    "O padrão lobar não define duração nem exige esquema prolongado; o que define é a resposta clínica e a gravidade da apresentação inicial."
   ]
@@ -27,12 +27,12 @@
   "q": "Mulher de 63 anos está internada em UTI com pneumonia adquirida na comunidade grave, em ventilação mecânica e vasopressor desde a admissão. No quarto dia melhorou: está sem vasopressor, afebril e com parâmetros ventilatórios em redução. A equipe questiona se pode suspender o antimicrobiano hoje. Qual é a orientação da diretriz vigente?",
   "alts": [
    "Suspender hoje mesmo, já que a melhora clínica no quarto dia autoriza encerrar o tratamento.",
+   "Manter o antimicrobiano por pelo menos cinco dias, patamar recomendado na apresentação grave.",
    "Manter o antimicrobiano até a alta hospitalar, independentemente do tempo total de tratamento.",
    "Suspender e substituir por profilaxia com azitromicina em dias alternados por três semanas.",
-   "Manter o antimicrobiano por pelo menos cinco dias, patamar recomendado na apresentação grave.",
    "Manter por vinte e um dias, duração exigida em toda pneumonia que precisou de ventilação."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
@@ -41,9 +41,9 @@
   "coment": "A diretriz de 2025 separa com clareza dois cenários. Na pneumonia não grave, ambulatorial ou internada, sugere curso curto — menos de cinco dias, com mínimo de três — assim que houver estabilidade clínica. Na pneumonia grave, porém, a recomendação é forte no sentido oposto: cinco dias ou mais de tratamento. A gravidade da apresentação inicial, e não a velocidade da melhora, é o que define esse piso. Encerrar no quarto dia por resposta favorável contraria a recomendação; por outro lado, prolongar indefinidamente até a alta é o extremo oposto e igualmente sem respaldo.",
   "porAlt": [
    "A melhora precoce não rebaixa a gravidade da apresentação inicial, que é justamente o critério usado para definir o piso de duração.",
+   "Correta: a apresentação grave carrega recomendação forte de pelo menos cinco dias, independentemente de a melhora ter vindo antes disso.",
    "Amarrar a duração do antimicrobiano à data da alta é decisão administrativa, não clínica, e costuma resultar em tratamento excessivo.",
    "Azitromicina profilática prolongada não tem papel na pneumonia comunitária e traz risco cardíaco e de indução de resistência.",
-   "Correta: a apresentação grave carrega recomendação forte de pelo menos cinco dias, independentemente de a melhora ter vindo antes disso.",
    "Não existe regra de vinte e um dias por uso de ventilação; a duração é definida pela gravidade e pela resposta, não pelo suporte usado."
   ]
  },
@@ -51,12 +51,12 @@
   "q": "Homem de 38 anos, hígido, sem uso de antimicrobiano nos últimos três meses e sem comorbidades, recebe diagnóstico de pneumonia adquirida na comunidade em consulta ambulatorial. Não há critérios de gravidade e ele será tratado em casa. Considerando a diretriz vigente, qual é o esquema inicial mais apropriado?",
   "alts": [
    "Levofloxacino em monoterapia, que deve ser a primeira escolha no paciente ambulatorial saudável.",
-   "Amoxicilina em dose alta como monoterapia, reservando doxiciclina como alternativa aceitável.",
    "Amoxicilina com clavulanato somada a macrolídeo, cobrindo germe atípico de forma rotineira.",
    "Ceftriaxona intramuscular diária por cinco dias, garantindo adesão melhor que a via oral.",
-   "Azitromicina isolada na região onde ele atua, sem checar a resistência local do pneumococo."
+   "Azitromicina isolada na região onde ele atua, sem checar a resistência local do pneumococo.",
+   "Amoxicilina em dose alta como monoterapia, reservando doxiciclina como alternativa aceitável."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -65,10 +65,10 @@
   "coment": "Para o adulto ambulatorial sem comorbidades e sem uso recente de antimicrobiano, a diretriz mantém a monoterapia com amoxicilina em dose alta como escolha inicial, tipicamente 1 grama a cada 8 horas, tendo doxiciclina como alternativa e o macrolídeo condicionado a resistência local do pneumococo abaixo de 25%. Reservar a fluoroquinolona respiratória é decisão deliberada: ela seleciona resistência, mascara tuberculose e carrega alertas de tendinopatia, disglicemia e neuropatia. A cobertura de atípico não é obrigatória em todos os pacientes ambulatoriais sem comorbidade.",
   "porAlt": [
    "A fluoroquinolona é droga de reserva: seleciona resistência, mascara tuberculose e tem alertas de segurança que desaconselham o uso de rotina.",
-   "Correta: monoterapia com amoxicilina em dose alta é a escolha inicial nesse perfil, com doxiciclina como alternativa razoável.",
    "Associar clavulanato e macrolídeo é esquema de paciente com comorbidade ou uso recente de antibiótico, e não do adulto hígido descrito.",
    "A via intramuscular diária não traz vantagem em quem tolera via oral, e o cenário ambulatorial não justifica esse incômodo ao paciente.",
-   "O macrolídeo isolado só é aceitável onde a resistência local do pneumococo é inferior a 25%, o que precisa ser conhecido antes de prescrever."
+   "O macrolídeo isolado só é aceitável onde a resistência local do pneumococo é inferior a 25%, o que precisa ser conhecido antes de prescrever.",
+   "Correta: monoterapia com amoxicilina em dose alta é a escolha inicial nesse perfil, com doxiciclina como alternativa razoável."
   ]
  },
  {

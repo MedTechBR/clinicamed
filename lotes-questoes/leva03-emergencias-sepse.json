@@ -75,12 +75,12 @@
   "q": "Homem de 58 anos com choque séptico iniciou meropeném associado a vancomicina empiricamente. No terceiro dia, está estável, sem vasopressor, e a hemocultura identifica Escherichia coli sensível a ceftriaxona. As culturas de vigilância não mostram germe resistente. Qual é a conduta recomendada quanto ao esquema antimicrobiano?",
   "alts": [
    "Manter meropeném e vancomicina até completar catorze dias, para não arriscar a recidiva da infecção.",
-   "Descalonar o esquema para ceftriaxona, guiando-se pelo agente isolado e pelo perfil de sensibilidade.",
    "Acrescentar um aminoglicosídeo ao esquema atual, buscando sinergismo contra o bacilo gram-negativo.",
+   "Descalonar o esquema para ceftriaxona, guiando-se pelo agente isolado e pelo perfil de sensibilidade.",
    "Suspender de imediato todo antimicrobiano, uma vez que o paciente já se encontra clinicamente estável.",
    "Trocar a vancomicina por daptomicina e conservar o carbapenêmico até a alta hospitalar do paciente."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -89,8 +89,8 @@
   "coment": "A diretriz de 2026 elevou o descalonamento ao status de recomendação: havendo diagnóstico microbiológico confirmado e perfil de sensibilidade disponível, deve-se estreitar o espectro em vez de manter a cobertura empírica ampla. Isolada Escherichia coli sensível a ceftriaxona, com paciente em melhora e sem evidência de cocos gram-positivos, mantêm-se apenas a droga necessária: retira-se a vancomicina e substitui-se o carbapenêmico. O benefício é duplo, individual e coletivo — menos toxicidade, menos infecção por Clostridioides difficile e menor pressão seletiva para resistência. Descalonar não é o mesmo que interromper o tratamento.",
   "porAlt": [
    "Manter carbapenêmico e vancomicina sem indicação amplia toxicidade e pressão seletiva, sem reduzir a chance de recidiva da infecção tratada.",
-   "Correta: com germe identificado e sensível, a diretriz recomenda descalonar para o antimicrobiano de menor espectro que cubra o agente isolado.",
    "O sinergismo com aminoglicosídeo não traz benefício na bacteriemia por gram-negativo sensível e acrescenta nefrotoxicidade ao tratamento.",
+   "Correta: com germe identificado e sensível, a diretriz recomenda descalonar para o antimicrobiano de menor espectro que cubra o agente isolado.",
    "Descalonar não significa suspender: a bacteriemia por Escherichia coli exige completar o tempo de tratamento previsto para o foco encontrado.",
    "A daptomicina não cobriria melhor este caso, e não há razão para manter cobertura para gram-positivos sem germe correspondente isolado."
   ]

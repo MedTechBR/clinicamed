@@ -410,5 +410,175 @@ window.FLASH=[
 "tema": "go",
 "a": "Dor pélvica com dor à mobilização do colo em mulher sexualmente ativa: conduta?",
 "b": "Tratar empiricamente doença inflamatória pélvica — os critérios mínimos bastam. O limiar é baixo porque o atraso custa infertilidade e ectópica."
+},
+{
+"tema": "cardio",
+"a": "Taquicardia de QRS largo em paciente com infarto prévio: o que assumir?",
+"b": "Taquicardia ventricular até prova em contrário (probabilidade >90%). Dar verapamil presumindo aberrância pode causar colapso. Dissociação AV, captura e fusão confirmam TV."
+},
+{
+"tema": "cardio",
+"a": "Como se administra adenosina, e por que a técnica importa?",
+"b": "6 mg em BOLUS RÁPIDO em veia proximal calibrosa + flush de 20 mL + elevar o membro. Meia-vida de segundos: administração lenta não chega ao coração. Depois 12 mg."
+},
+{
+"tema": "cardio",
+"a": "Fibrilação atrial pré-excitada (QRS largo, irregular, muito rápida): o que NÃO usar?",
+"b": "Nenhum bloqueador do nó AV — adenosina, verapamil, diltiazem, betabloqueador, digoxina. O estímulo desce todo pela via acessória e pode degenerar em FV. Usar procainamida/ibutilida ou cardioverter."
+},
+{
+"tema": "cardio",
+"a": "Bloqueio AV de 2º grau Mobitz I assintomático: marca-passo?",
+"b": "Não. Prognóstico benigno, nível nodal. Já o Mobitz II e o BAVT são infranodais e imprevisíveis: têm indicação de marca-passo definitivo."
+},
+{
+"tema": "cardio",
+"a": "CDI em prevenção primária: quais critérios?",
+"b": "FEVE reduzida persistente após ≥3 meses de terapia fundamental otimizada, classe funcional II–III, expectativa de vida razoável. Reavaliar a FEVE antes — muitos melhoram e perdem a indicação."
+},
+{
+"tema": "cardio",
+"a": "Torsades de pointes: qual a droga?",
+"b": "Sulfato de magnésio, com correção de eletrólitos, retirada do fármaco causador e aceleração da frequência se necessário."
+},
+{
+"tema": "cardio",
+"a": "TV polimórfica instável: choque sincronizado?",
+"b": "NÃO — trata-se como fibrilação ventricular: choque NÃO sincronizado, alta energia."
+},
+{
+"tema": "gastro",
+"a": "Regra dos 5 da elastografia (Baveno VII): quando presumir hipertensão portal significativa?",
+"b": "≥25 kPa presume HPCS. <15 kPa com plaquetas >150.000 descarta. <20 kPa com plaquetas >150.000 dispensa endoscopia (risco muito baixo de varizes)."
+},
+{
+"tema": "gastro",
+"a": "Pacote da hemorragia varicosa: quais 4 medidas?",
+"b": "1) Transfusão restritiva (Hb 7–8) 2) Vasoconstritor esplâncnico (terlipressina/octreotide) até 5 dias 3) ANTIBIÓTICO profilático em todo cirrótico que sangra 4) Endoscopia com ligadura em até 12 h."
+},
+{
+"tema": "gastro",
+"a": "Paracentese de grande volume: repõe o quê?",
+"b": "Albumina 6 a 8 g por litro retirado acima de ~5 L, para prevenir disfunção circulatória pós-paracentese. Salina não substitui."
+},
+{
+"tema": "gastro",
+"a": "Encefalopatia hepática: a amônia serve para quê?",
+"b": "Para nada na prática: não diagnostica, não exclui e não acompanha. O diagnóstico é clínico. O que muda desfecho é achar o precipitante — infecção, sangramento, constipação, eletrólito, sedativo."
+},
+{
+"tema": "gastro",
+"a": "Restrição proteica na encefalopatia hepática?",
+"b": "Abandonada. Piora a sarcopenia, que por sua vez agrava a encefalopatia. Tratar com lactulose titulada para 2–3 evacuações pastosas/dia + rifaximina."
+},
+{
+"tema": "gastro",
+"a": "Síndrome hepatorrenal: como se diagnostica e trata?",
+"b": "Diagnóstico de exclusão: IRA no cirrótico com ascite SEM melhora após suspender diurético e expandir com albumina 1 g/kg/dia por 2 dias, sem choque/nefrotóxico/doença parenquimatosa. Tratar com terlipressina + albumina; definitivo é o transplante."
+},
+{
+"tema": "gastro",
+"a": "Rastreio de carcinoma hepatocelular na cirrose?",
+"b": "Ultrassonografia a cada 6 meses, com ou sem alfafetoproteína. Muda o estágio ao diagnóstico e a chance de tratamento curativo."
+},
+{
+"tema": "nefro",
+"a": "Como corrigir o ânion gap pela albumina?",
+"b": "Gap corrigido = gap medido + 2,5 × (4 − albumina em g/dL). Sem isso, acidose com gap elevado passa despercebida no desnutrido."
+},
+{
+"tema": "nefro",
+"a": "Fórmula de Winter: para que serve?",
+"b": "Checar se a compensação respiratória da acidose metabólica está adequada: PaCO₂ esperada = 1,5 × HCO₃ + 8 (±2). Fora disso, há distúrbio misto."
+},
+{
+"tema": "nefro",
+"a": "Delta-delta: o que detecta?",
+"b": "Distúrbio metabólico associado à acidose com gap elevado. Gap subiu muito mais que o bicarbonato caiu → alcalose metabólica associada. O inverso → acidose hiperclorêmica associada."
+},
+{
+"tema": "nefro",
+"a": "Hipernatremia: qual a causa quase sempre, e o limite de correção?",
+"b": "Falta de ÁGUA (não excesso de sódio), em quem não tem acesso livre — idoso, acamado, sedado. Não baixar o sódio mais que ~10 mEq/L em 24 h, sob risco de edema cerebral."
+},
+{
+"tema": "nefro",
+"a": "Hipocalemia que não corrige apesar de reposição: o que checar?",
+"b": "O MAGNÉSIO. Sem ele, a perda urinária de potássio persiste. Vale também para a hipocalcemia refratária. Causas: diurético, álcool, diarreia, IBP prolongado."
+},
+{
+"tema": "nefro",
+"a": "Cálcio corrigido pela albumina?",
+"b": "Cálcio corrigido = medido + 0,8 × (4 − albumina). Na dúvida, medir o cálcio IÔNICO, que dispensa correção."
+},
+{
+"tema": "nefro",
+"a": "Hipercalcemia grave: qual a primeira medida?",
+"b": "Salina isotônica em volume generoso. Bisfosfonato ou denosumabe; calcitonina para efeito rápido. EVITAR diurético de alça de rotina — só depois de reposição volêmica adequada."
+},
+{
+"tema": "geriatria",
+"a": "Pergunta surpresa: qual é e para que serve?",
+"b": "'Eu ficaria surpreso se este paciente morresse nos próximos 12 meses?' Resposta NÃO indica avaliação paliativa — que corre em paralelo ao tratamento modificador, não depois dele."
+},
+{
+"tema": "geriatria",
+"a": "Dispneia refratária sem hipoxemia: qual a droga de escolha?",
+"b": "OPIOIDE em dose baixa. Oxigênio só ajuda com hipoxemia. Ar corrente no rosto (ventilador) tem efeito real. Benzodiazepínico é adjuvante do componente ansioso."
+},
+{
+"tema": "geriatria",
+"a": "Rotação de opioide: qual o ajuste obrigatório?",
+"b": "Converter pela equianalgesia e REDUZIR 25% a 50% da dose calculada (tolerância cruzada incompleta). Indicações: neurotoxicidade (mioclonia, sonolência) ou analgesia insuficiente."
+},
+{
+"tema": "geriatria",
+"a": "Morfina na insuficiência renal avançada: pode?",
+"b": "Acumula metabólitos ativos e neurotóxicos — mioclonias, sonolência, delirium. Preferir fentanil ou metadona (esta com experiência, pela meia-vida longa)."
+},
+{
+"tema": "geriatria",
+"a": "Prescrição de opioide: os 4 princípios",
+"b": "1) Via oral preferencial 2) DE HORÁRIO, não 'se necessário' 3) Resgate de 10–15% da dose diária total 4) Laxante desde o primeiro dia — a constipação não desenvolve tolerância."
+},
+{
+"tema": "geriatria",
+"a": "Hidratação artificial nos últimos dias de vida?",
+"b": "Não prolonga a vida nem alivia sede, e piora edema e secreção respiratória. A sede se trata com cuidados da BOCA — gaze úmida, gelo, saliva artificial."
+},
+{
+"tema": "sus",
+"a": "Ortotanásia × distanásia × eutanásia",
+"b": "Ortotanásia: não prolongar artificialmente o morrer — LÍCITA (Res. CFM 1.805/2006). Distanásia: prolongar o morrer com tratamento fútil — evitar. Eutanásia: provocar a morte — ILEGAL no Brasil."
+},
+{
+"tema": "emergencias",
+"a": "Definição global de SDRA 2024: as 4 mudanças",
+"b": "1) Inclui cateter nasal de alto fluxo >30 L/min 2) SpO₂/FiO₂ <315 (só com SpO₂ <97%) além da PaO₂/FiO₂ <300 3) Ultrassom aceito como imagem 4) Em recursos limitados, dispensa PEEP e dispositivo."
+},
+{
+"tema": "emergencias",
+"a": "Alvo de PAM no choque: existe número único?",
+"b": "Não. ESICM 2025: individualizar. Geral ≥65; choque séptico 65–70; TCE com Glasgow ≤8 ≥80 mmHg; cardiogênico ≥65 pode ser considerado. Sepse 2026: 60–65 se ≥65 anos."
+},
+{
+"tema": "emergencias",
+"a": "Pv-aCO₂ alargada com ScvO₂ normal: o que significa?",
+"b": "Débito cardíaco insuficiente para lavar o CO₂ produzido, apesar da saturação venosa tranquilizadora. É o marcador que desmascara o hipofluxo na sepse."
+},
+{
+"tema": "emergencias",
+"a": "Tempo de enchimento capilar: vale como monitorização?",
+"b": "Sim — recomendação FORMAL da ESICM 2025, complementada por temperatura da pele e livedo. Comprimir a polpa digital 15 s; acima de 3 s indica hipoperfusão."
+},
+{
+"tema": "emergencias",
+"a": "Cálcio, bicarbonato e magnésio na parada: usa?",
+"b": "Não DE ROTINA (AHA 2025, classe 3). Continuam indicados em situação específica: cálcio/bicarbonato na hipercalemia, bicarbonato no tricíclico, magnésio na torsades."
+},
+{
+"tema": "emergencias",
+"a": "Prognóstico neurológico pós-parada: quando?",
+"b": "Multimodal e TARDIO, só após afastado o efeito residual de sedação. Prognosticar cedo vira profecia autorrealizável."
 }
 ];

@@ -13,6 +13,10 @@ window.LEITURAS=[
   t:"Hipertensão arterial: a diretriz brasileira de 2025",
   s:"120/80 virou pré-hipertensão, a meta passou a ser abaixo de 130/80 para todos os hipertensos e o tratamento começa com dois fármacos na maioria dos pacientes."},
 
+ {f:"taquiarritmias.html", tipo:"ESC 2019 e 2022", area:"cardio", min:22,
+  t:"Taquiarritmias: do QRS estreito ao largo",
+  s:"As duas perguntas que ordenam a conduta, a técnica correta da adenosina, por que QRS largo é taquicardia ventricular até prova em contrário e a armadilha da fibrilação atrial pré-excitada."},
+
  {grupo:"O paciente instável", sub:"o que precisa estar automático"},
  {f:"choque-septico.html", tipo:"Surviving Sepsis 2026", area:"emergencias", min:14,
   t:"Choque séptico: da suspeita à primeira hora",
@@ -36,6 +40,17 @@ window.LEITURAS=[
  {f:"sdra.html", tipo:"Definição global 2024", area:"emergencias", min:20,
   t:"SDRA: a definição global de 2024 e o que fazer com ela",
   s:"Cateter nasal de alto fluxo passou a contar, a oximetria substitui a gasometria (SpO₂/FiO₂ <315), o ultrassom vale como imagem — e a ventilação protetora com peso predito."},
+
+ {grupo:"Órgão a órgão", sub:"os capítulos que mais caem"},
+ {f:"cirrose.html", tipo:"Baveno VII e EASL", area:"gastro", min:24,
+  t:"Cirrose descompensada: as cinco complicações que matam",
+  s:"A regra dos 5 da elastografia, o pacote da hemorragia varicosa, os 250 neutrófilos da peritonite, a albumina que reduz mortalidade e por que dosar amônia não ajuda."},
+ {f:"eletrolitos.html", tipo:"Abordagem sistemática", area:"nefro", min:25,
+  t:"Distúrbios hidroeletrolíticos e ácido-base",
+  s:"Ler a gasometria em seis passos, o delta-delta que revela o distúrbio triplo, o cloro urinário na alcalose, os limites de correção do sódio e a sequência da hipercalemia."},
+ {f:"paliativos.html", tipo:"CFM e OMS", area:"geriatria", min:21,
+  t:"Cuidados paliativos: decisões que o clínico toma",
+  s:"A pergunta surpresa, o protocolo de má notícia em seis passos, a escada analgésica com rotação de opioide, o opioide na dispneia e as distinções entre ortotanásia, distanásia e eutanásia."},
 
  {grupo:"Respiratório e infeccioso", sub:"diretriz nova que ainda não chegou aos livros"},
  {f:"insuficiencia-cardiaca.html", tipo:"ESC 2026", area:"cardio", min:16,

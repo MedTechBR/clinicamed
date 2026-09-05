@@ -4,11 +4,11 @@
   "alts": [
    "Gamopatia monoclonal de significado indeterminado, que dispensa tratamento e só exige controle.",
    "Mieloma indolente, condição sem lesão de órgão-alvo e que também não requer tratamento imediato.",
-   "Amiloidose de cadeia leve, hipótese que a plasmocitose medular elevada torna praticamente certa.",
    "Mieloma múltiplo, pois há plasmocitose clonal com lesão de órgão-alvo atribuível à doença.",
+   "Amiloidose de cadeia leve, hipótese que a plasmocitose medular elevada torna praticamente certa.",
    "Metástase óssea de tumor sólido oculto, explicando de forma mais simples a hipercalcemia do caso."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
@@ -18,8 +18,8 @@
   "porAlt": [
    "A gamopatia de significado indeterminado exige plasmocitose abaixo de 10% e ausência de lesão de órgão, o oposto do quadro.",
    "O mieloma indolente pressupõe justamente a ausência de lesão de órgão-alvo, que aqui está presente em três eixos distintos.",
-   "A amiloidose exige comprovação de depósito amiloide em tecido, e a plasmocitose medular sozinha não estabelece esse diagnóstico.",
    "Correta: plasmocitose clonal acima de 10% com hipercalcemia, insuficiência renal e anemia fecha o diagnóstico de mieloma múltiplo.",
+   "A amiloidose exige comprovação de depósito amiloide em tecido, e a plasmocitose medular sozinha não estabelece esse diagnóstico.",
    "Metástase de tumor sólido não explica o pico monoclonal nem a plasmocitose clonal encontrada no aspirado de medula óssea."
   ]
  },
@@ -28,11 +28,11 @@
   "alts": [
    "Repor ferro por três meses e repetir apenas o hemograma, sem qualquer investigação adicional.",
    "Solicitar mielograma como primeiro exame, para excluir doença primária da medula óssea dele.",
-   "Investigar todo o trato gastrointestinal com endoscopia alta e colonoscopia para achar a perda.",
    "Transfundir concentrado de hemácias antes de qualquer investigação diagnóstica desse paciente.",
-   "Repetir a ferritina em um ano, já que ele está assintomático e não relata perda de sangue visível."
+   "Repetir a ferritina em um ano, já que ele está assintomático e não relata perda de sangue visível.",
+   "Investigar todo o trato gastrointestinal com endoscopia alta e colonoscopia para achar a perda."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
@@ -42,9 +42,9 @@
   "porAlt": [
    "Repor ferro e acompanhar apenas o hemograma normaliza o exame e mascara a neoplasia que poderia ser achada a tempo.",
    "O mielograma é invasivo e desnecessário aqui: a ferritina baixa já define a causa da anemia como carência de ferro.",
-   "Correta: em homem com anemia ferropriva, a investigação endoscópica alta e baixa é obrigatória para localizar a perda oculta.",
    "Não há indicação de transfusão em paciente assintomático com esse nível de hemoglobina e anemia de instalação lenta.",
-   "Adiar a investigação por um ano em quem tem ferropenia franca é justamente o atraso que muda o estágio de um tumor."
+   "Adiar a investigação por um ano em quem tem ferropenia franca é justamente o atraso que muda o estágio de um tumor.",
+   "Correta: em homem com anemia ferropriva, a investigação endoscópica alta e baixa é obrigatória para localizar a perda oculta."
   ]
  },
  {
@@ -53,10 +53,10 @@
    "Hidratação venosa vigorosa isolada, medida que resolve a crise dolorosa sem uso de analgésico.",
    "Meperidina como opioide de escolha nas crises, por ter o melhor perfil de segurança da classe.",
    "Analgésico simples por via oral e observação por seis horas antes de considerar outra medicação.",
-   "Analgesia com opioide por via parenteral em até uma hora da chegada, com reavaliação frequente.",
-   "Transfusão simples imediata de concentrado de hemácias para toda crise vaso-oclusiva dolorosa."
+   "Transfusão simples imediata de concentrado de hemácias para toda crise vaso-oclusiva dolorosa.",
+   "Analgesia com opioide por via parenteral em até uma hora da chegada, com reavaliação frequente."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "hemato",
   "cenario": "emg",
   "comp": "urg",
@@ -67,8 +67,8 @@
    "A hidratação é adjuvante, não analgésico; em excesso ainda favorece congestão e síndrome torácica aguda nesses pacientes.",
    "A meperidina é justamente a que se deve evitar: seu metabólito neurotóxico acumula e reduz o limiar convulsivo.",
    "Analgésico simples e seis horas de espera em dor 9 de 10 configura subtratamento, um problema bem documentado nessa população.",
-   "Correta: opioide parenteral na primeira hora, com reavaliação frequente e titulação, é o padrão para a crise vaso-oclusiva.",
-   "Transfusão não está indicada de rotina na crise dolorosa não complicada, e expõe a paciente a aloimunização evitável."
+   "Transfusão não está indicada de rotina na crise dolorosa não complicada, e expõe a paciente a aloimunização evitável.",
+   "Correta: opioide parenteral na primeira hora, com reavaliação frequente e titulação, é o padrão para a crise vaso-oclusiva."
   ]
  }
 ]

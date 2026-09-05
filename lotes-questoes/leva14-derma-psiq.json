@@ -4,11 +4,11 @@
   "alts": [
    "Iniciar cefalexina por via oral e reavaliar a lesão em quarenta e oito horas de acompanhamento.",
    "Solicitar ressonância magnética do membro antes de qualquer decisão sobre abordagem cirúrgica.",
-   "Acionar a cirurgia para exploração e desbridamento, junto de antimicrobiano de amplo espectro.",
    "Prescrever corticoide sistêmico para reduzir o edema e a inflamação local antes de outra medida.",
+   "Acionar a cirurgia para exploração e desbridamento, junto de antimicrobiano de amplo espectro.",
    "Elevar o membro e aplicar compressas frias, reavaliando a evolução ao longo do próximo plantão."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "derma",
   "cenario": "emg",
   "comp": "urg",
@@ -18,8 +18,8 @@
   "porAlt": [
    "Antibiótico oral para celulite não trata infecção necrosante e desperdiça as horas em que o desbridamento ainda mudaria o desfecho.",
    "A ressonância pode auxiliar em casos duvidosos e estáveis, mas aqui atrasaria a cirurgia em paciente já com sinais de choque.",
-   "Correta: fasciíte necrosante é emergência cirúrgica; a exploração precoce com antimicrobiano de amplo espectro é o que reduz mortalidade.",
    "Corticoide não tem papel no tratamento e a imunossupressão adicional pode favorecer a progressão da infecção nos tecidos.",
+   "Correta: fasciíte necrosante é emergência cirúrgica; a exploração precoce com antimicrobiano de amplo espectro é o que reduz mortalidade.",
    "Medidas locais são conduta de celulite não complicada e deixariam progredir uma necrose que avança em horas pelo plano fascial."
   ]
  },
@@ -51,12 +51,12 @@
   "q": "Homem de 47 anos, etilista crônico, está internado por pancreatite. Cerca de 60 horas após a última dose de álcool, apresenta tremor, agitação, alucinações visuais, desorientação, taquicardia e febre baixa. Não há sinais de infecção nem alteração tomográfica. Qual é o tratamento de primeira linha?",
   "alts": [
    "Haloperidol em dose alta como droga isolada, por controlar melhor a alucinação visual do quadro.",
-   "Reintroduzir bebida alcoólica de forma controlada até que os sintomas de abstinência desapareçam.",
    "Benzodiazepínico titulado por escala de sintomas, associado à reposição de tiamina parenteral.",
+   "Reintroduzir bebida alcoólica de forma controlada até que os sintomas de abstinência desapareçam.",
    "Contenção mecânica com observação clínica, evitando qualquer sedação que mascare a evolução.",
    "Infusão de glicose hipertônica isolada, antes de qualquer outra medida farmacológica no caso."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "psiq",
   "cenario": "enf",
   "comp": "urg",
@@ -65,8 +65,8 @@
   "coment": "O quadro é delirium tremens: surge entre 48 e 96 horas após a última dose, com alteração do sensório, alucinações, hiperatividade autonômica e febre, e tem mortalidade relevante se não tratado. O tratamento de primeira linha é o benzodiazepínico, titulado por escala de sintomas como a CIWA-Ar, associado à tiamina parenteral antes de qualquer carga de glicose — administrar glicose primeiro em desnutrido pode precipitar encefalopatia de Wernicke. O antipsicótico é adjuvante para alucinação persistente, nunca substituto, porque reduz o limiar convulsivo e não previne convulsão de abstinência.",
   "porAlt": [
    "O haloperidol isolado reduz o limiar convulsivo e não previne a convulsão de abstinência, sendo apenas adjuvante da agitação.",
-   "Reintroduzir álcool não é tratamento: não corrige a hiperexcitabilidade e mantém a dependência que motivou o quadro atual.",
    "Correta: benzodiazepínico titulado por escala somado a tiamina parenteral é o tratamento de primeira linha do delirium tremens.",
+   "Reintroduzir álcool não é tratamento: não corrige a hiperexcitabilidade e mantém a dependência que motivou o quadro atual.",
    "Contenção sem sedação adequada agrava agitação, rabdomiólise e hipertermia, além de não tratar a hiperatividade autonômica.",
    "Glicose antes da tiamina em paciente desnutrido pode precipitar encefalopatia de Wernicke, e isolada não trata a abstinência."
   ]

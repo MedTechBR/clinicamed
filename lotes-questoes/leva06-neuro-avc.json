@@ -3,12 +3,12 @@
   "q": "Mulher de 66 anos chega à emergência 2 horas após início de hemiparesia direita e afasia. A tomografia de crânio não mostra hemorragia nem sinais precoces extensos, a glicemia é de 118 mg/dL e a pressão arterial é de 168/92 mmHg. O serviço dispõe de alteplase e de tenecteplase. Segundo a diretriz vigente de AVC isquêmico agudo, qual conduta é correta?",
   "alts": [
    "Usar somente alteplase, porque a tenecteplase só é liberada em protocolos experimentais de pesquisa.",
-   "Usar tenecteplase 0,25 mg/kg: ela substitui a alteplase em qualquer caso elegível até 4,5 horas.",
    "Adiar a trombólise até a angiotomografia, exame obrigatório antes de qualquer decisão de trombolisar.",
    "Reduzir a pressão arterial abaixo de 120/80 mmHg antes de iniciar o trombolítico endovenoso agora.",
+   "Usar tenecteplase 0,25 mg/kg: ela substitui a alteplase em qualquer caso elegível até 4,5 horas.",
    "Aguardar a ressonância magnética com difusão para confirmar a área isquêmica antes de trombolisar."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
@@ -17,22 +17,22 @@
   "coment": "A diretriz de 2026 consolidou a tenecteplase, na dose de 0,25 mg/kg com máximo de 25 mg, como alternativa plenamente aceitável à alteplase, que segue em 0,9 mg/kg com máximo de 90 mg, dentro da janela de até 4,5 horas. A vantagem prática da tenecteplase é o bolus único, que simplifica o fluxo e encurta o tempo porta-agulha, sobretudo quando há transferência para trombectomia. O limiar pressórico para trombolisar é 185/110 mmHg, e não valores de normotensão; baixar a pressão além disso reduz a perfusão da penumbra. Angiotomografia e ressonância não devem atrasar o trombolítico quando os critérios clínicos e a tomografia sem contraste já bastam.",
   "porAlt": [
    "A tenecteplase deixou de ser restrita a pesquisa: ensaios de não inferioridade sustentaram sua incorporação formal à recomendação atual.",
-   "Correta: a diretriz de 2026 aceita a tenecteplase em 0,25 mg/kg como alternativa plena à alteplase na janela de até quatro horas e meia.",
    "A angiotomografia é essencial para selecionar trombectomia, mas não pode retardar a trombólise endovenosa de quem já preenche critérios.",
    "O alvo antes de trombolisar é abaixo de 185/110 mmHg; buscar normotensão compromete a perfusão da área de penumbra ainda salvável.",
+   "Correta: a diretriz de 2026 aceita a tenecteplase em 0,25 mg/kg como alternativa plena à alteplase na janela de até quatro horas e meia.",
    "A ressonância tem papel no AVC de horário indeterminado, e não em paciente com início bem definido dentro da janela terapêutica."
   ]
  },
  {
   "q": "Homem de 58 anos acorda com fraqueza no braço esquerdo. Foi visto bem pela última vez ao deitar-se, oito horas antes, e o déficit foi percebido há 40 minutos. A tomografia sem contraste não mostra hemorragia. O hospital dispõe de ressonância magnética. Qual é a estratégia recomendada para decidir sobre a trombólise nesse paciente?",
   "alts": [
-   "Fazer ressonância e trombolisar somente se houver difusão positiva sem contrapartida no FLAIR.",
    "Descartar a trombólise, já que o horário de início desconhecido exclui o paciente dessa opção.",
    "Trombolisar de imediato, contando as oito horas desde o último momento em que ele foi visto bem.",
+   "Fazer ressonância e trombolisar somente se houver difusão positiva sem contrapartida no FLAIR.",
    "Indicar apenas antiagregante e reavaliar em 24 horas com nova tomografia de crânio sem contraste.",
    "Encaminhar direto à trombectomia sem exame vascular, dispensando qualquer estudo de imagem adicional."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "dx",
@@ -40,9 +40,9 @@
   "base": "AHA/ASA 2026 — seleção por imagem no AVC de horário de início desconhecido (dissociação difusão-FLAIR)",
   "coment": "O AVC ao despertar deixou de ser sinônimo de exclusão da trombólise. A diretriz de 2026 recomenda selecionar por imagem os pacientes com início desconhecido e déficit reconhecido há menos de quatro horas e meia: a ressonância que mostra lesão restrita à difusão sem tradução correspondente na sequência FLAIR indica lesão provavelmente com menos de 4,5 horas de evolução, e esses pacientes se beneficiam da trombólise. Contar o tempo a partir do último momento visto bem excluiria injustamente uma parcela grande de pacientes que ainda têm tecido salvável, e trombolisar sem essa seleção exporia outros a hemorragia sem benefício.",
   "porAlt": [
-   "Correta: a dissociação entre difusão positiva e FLAIR negativo identifica lesão provavelmente com menos de quatro horas e meia e autoriza trombolisar.",
    "Horário de início desconhecido não exclui mais o paciente: existe seleção por imagem justamente para recuperar esses casos para o tratamento.",
    "Trombolisar sem seleção por imagem, contando desde o último momento visto bem, expõe a hemorragia sem a garantia de tecido salvável.",
+   "Correta: a dissociação entre difusão positiva e FLAIR negativo identifica lesão provavelmente com menos de quatro horas e meia e autoriza trombolisar.",
    "Apenas antiagregante desperdiça a chance de reperfusão em um paciente que a imagem ainda pode qualificar para a trombólise endovenosa.",
    "A trombectomia depende de comprovar oclusão de grande vaso por estudo vascular; encaminhar sem esse exame não é conduta admissível."
   ]
@@ -52,11 +52,11 @@
   "alts": [
    "Escores abaixo de seis pontos contraindicam a trombólise de modo absoluto em qualquer situação clínica.",
    "A decisão passa a depender exclusivamente da idade, que acima de setenta anos exclui a trombólise.",
+   "Nenhum escore baixo, isoladamente, justifica negar a trombólise a uma paciente elegível como ela.",
    "O déficit leve exige aguardar 24 horas de observação clínica antes de qualquer decisão terapêutica.",
-   "A trombólise só é admitida quando o escore ultrapassa dez pontos na avaliação inicial da emergência.",
-   "Nenhum escore baixo, isoladamente, justifica negar a trombólise a uma paciente elegível como ela."
+   "A trombólise só é admitida quando o escore ultrapassa dez pontos na avaliação inicial da emergência."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
@@ -66,9 +66,9 @@
   "porAlt": [
    "Não existe contraindicação absoluta por escore: a avaliação é se o déficit incapacita aquele paciente na sua função e no seu contexto.",
    "A idade isolada não contraindica a trombólise; o que pesa é a independência funcional prévia e a ausência de contraindicações formais.",
+   "Correta: a diretriz é explícita ao dizer que o escore baixo, isoladamente, não justifica negar a trombólise a um paciente elegível.",
    "Observar por 24 horas desperdiça toda a janela terapêutica e transforma um déficit potencialmente reversível em sequela definitiva.",
-   "Não há limiar superior de escore exigido para trombolisar; a régua é a elegibilidade clínica e temporal, não um número mínimo de pontos.",
-   "Correta: a diretriz é explícita ao dizer que o escore baixo, isoladamente, não justifica negar a trombólise a um paciente elegível."
+   "Não há limiar superior de escore exigido para trombolisar; a régua é a elegibilidade clínica e temporal, não um número mínimo de pontos."
   ]
  }
 ]

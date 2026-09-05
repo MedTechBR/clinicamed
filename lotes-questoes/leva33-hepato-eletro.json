@@ -1,0 +1,146 @@
+[
+ {
+  "q": "Homem de 55 anos com cirrose por álcool é internado com ascite volumosa. A paracentese diagnóstica mostra 180 neutrófilos/mm³, proteína total de 0,9 g/dL e gradiente albumina soro-ascite de 1,6 g/dL. Ele tem creatinina de 1,6 mg/dL e bilirrubina de 3,8 mg/dL. Qual é a conduta correta?",
+  "alts": [
+   "Iniciar cefalosporina de terceira geração, pois a contagem de neutrófilos já confirma peritonite instalada.",
+   "Suspender toda investigação, uma vez que o gradiente elevado exclui infecção do líquido ascítico atual.",
+   "Repetir a paracentese em quarenta e oito horas antes de qualquer decisão terapêutica sobre esse caso dele.",
+   "Iniciar profilaxia primária de peritonite bacteriana, indicada pela proteína baixa com disfunção associada.",
+   "Prescrever albumina em dose plena de peritonite, mesmo sem preencher os critérios diagnósticos dela agora."
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "EASL 2018 — Clinical Practice Guidelines for the management of patients with decompensated cirrhosis",
+  "coment": "A contagem de 180 neutrófilos está abaixo do corte de 250, portanto não há peritonite bacteriana espontânea para tratar. O gradiente albumina soro-ascite de 1,6 confirma hipertensão portal como causa da ascite. O que muda a conduta aqui é a proteína total baixa no líquido, inferior a 1,5 g/dL, associada a disfunção hepática e renal — perfil que indica profilaxia primária de peritonite bacteriana espontânea com quinolona. A profilaxia primária também é indicada por sete dias em todo cirrótico com hemorragia digestiva, e a secundária é contínua após um episódio prévio.",
+  "porAlt": [
+   "A contagem está abaixo de 250 neutrófilos, de modo que não há peritonite bacteriana espontânea a ser tratada.",
+   "O gradiente elevado indica hipertensão portal como causa da ascite e não afasta infecção do líquido ascítico.",
+   "Repetir a paracentese sem mudança clínica atrasa a profilaxia que já está indicada pelo perfil do líquido.",
+   "Correta: proteína no líquido abaixo de 1,5 g/dL com disfunção hepática e renal indica profilaxia primária de peritonite.",
+   "A albumina em dose de peritonite se aplica quando o diagnóstico está feito, o que não é o caso deste paciente."
+  ]
+ },
+ {
+  "q": "Mulher de 63 anos com cirrose apresenta confusão mental e inversão do ciclo sono-vigília há dois dias. Está afebril, sem sinais de sangramento, com amônia sérica dentro da normalidade. Como interpretar e conduzir?",
+  "alts": [
+   "Encefalopatia está excluída pela amônia normal, devendo-se investigar apenas causas neurológicas primárias.",
+   "Dosar amônia seriada a cada seis horas para acompanhar a resposta ao tratamento instituído na internação.",
+   "Iniciar restrição proteica rigorosa, medida central no tratamento da encefalopatia hepática em cirróticos.",
+   "Prescrever benzodiazepínico para regularizar o ciclo do sono e reavaliar o quadro no dia seguinte.",
+   "Encefalopatia hepática é clínica: amônia normal não exclui, e a busca do precipitante orienta o manejo."
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "EASL 2018 — encefalopatia hepática na cirrose descompensada",
+  "coment": "A encefalopatia hepática é diagnóstico clínico. A amônia sérica não serve para diagnosticar, não exclui quando normal, não confirma quando elevada e não deve ser usada para acompanhar a resposta ao tratamento. O passo que muda desfecho é procurar o fator precipitante: infecção, incluindo peritonite bacteriana espontânea, hemorragia digestiva, constipação, distúrbio eletrolítico, desidratação por diurético, sedativos e injúria renal. O tratamento é lactulose titulada para duas a três evacuações pastosas por dia, com rifaximina associada sobretudo na prevenção de recorrência. A restrição proteica foi abandonada por piorar a sarcopenia.",
+  "porAlt": [
+   "A amônia normal não afasta encefalopatia; abandonar a hipótese por causa dela atrasa o tratamento correto.",
+   "A dosagem seriada de amônia não guia tratamento e apenas consome recursos sem alterar a conduta clínica.",
+   "A restrição proteica foi abandonada: piora a sarcopenia, que por sua vez agrava a própria encefalopatia.",
+   "Benzodiazepínico agrava o rebaixamento e é justamente uma das causas precipitantes a serem investigadas.",
+   "Correta: o diagnóstico é clínico, a amônia normal não exclui, e o essencial é identificar e tratar o fator precipitante."
+  ]
+ },
+ {
+  "q": "Paciente de 70 anos com cirrose e ascite refratária será submetido a paracentese de alívio, com previsão de retirada de 8 litros. Qual medida deve acompanhar o procedimento?",
+  "alts": [
+   "Reposição de solução salina isotônica em volume igual ao retirado durante o próprio procedimento.",
+   "Nenhuma reposição, uma vez que a paracentese de alívio não altera a hemodinâmica desses pacientes.",
+   "Reposição de albumina de seis a oito gramas por litro retirado, prevenindo disfunção circulatória.",
+   "Transfusão profilática de plasma fresco congelado antes do procedimento, corrigindo a coagulopatia.",
+   "Reposição de concentrado de hemácias, mesmo sem anemia, para compensar a perda proteica do líquido."
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "EASL 2018 — paracentese de grande volume e prevenção de disfunção circulatória pós-paracentese",
+  "coment": "Em paracenteses de grande volume, acima de cerca de 5 litros, indica-se reposição de albumina na dose de 6 a 8 gramas por litro retirado, para prevenir a disfunção circulatória pós-paracentese — quadro de queda do volume arterial efetivo, ativação neuro-humoral, hiponatremia, injúria renal e reacúmulo mais rápido da ascite. Salina isotônica não substitui a albumina nessa indicação, porque não expande o compartimento intravascular com a mesma eficiência nem sustenta a pressão oncótica. A correção profilática de coagulopatia não é necessária para paracentese.",
+  "porAlt": [
+   "A salina não sustenta a pressão oncótica e não previne a disfunção circulatória da mesma forma que a albumina.",
+   "A paracentese de grande volume altera sim a hemodinâmica, e é justamente por isso que se repõe albumina.",
+   "Correta: acima de cinco litros repõe-se albumina de seis a oito gramas por litro, prevenindo disfunção circulatória.",
+   "A correção profilática da coagulopatia não é necessária para paracentese, procedimento de baixo risco hemorrágico.",
+   "A transfusão de hemácias sem anemia não tem indicação e não compensa a perda proteica do líquido ascítico."
+  ]
+ },
+ {
+  "q": "Homem de 48 anos internado por pancreatite tem gasometria com pH 7,31, bicarbonato de 15 mEq/L e pressão parcial de gás carbônico de 30 mmHg. O sódio é 138, o cloro é 100 e a albumina está em 2,0 g/dL. Qual é a interpretação correta?",
+  "alts": [
+   "Acidose metabólica hiperclorêmica, pois o ânion gap calculado fica dentro da faixa de normalidade.",
+   "Alcalose respiratória primária, indicada pela pressão parcial de gás carbônico reduzida no exame.",
+   "Distúrbio respiratório puro sem componente metabólico, dispensando o cálculo do ânion gap no caso.",
+   "Acidose metabólica com ânion gap elevado após correção pela albumina, com compensação adequada.",
+   "Acidose metabólica sem compensação respiratória, o que caracteriza um distúrbio misto neste paciente."
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — ânion gap corrigido pela albumina e fórmula de Winter",
+  "coment": "O ânion gap medido é 138 menos 100 menos 15, ou seja, 23 — já elevado. A correção pela albumina o eleva ainda mais: soma-se 2,5 vezes a diferença entre 4 e a albumina de 2,0, o que acrescenta 5, resultando em 28. A hipoalbuminemia reduz o ânion gap aparente e, sem a correção, acidoses com gap elevado passam despercebidas em pacientes graves e desnutridos. A compensação está adequada pela fórmula de Winter: pressão esperada de 1,5 vezes 15 mais 8, ou seja, 30,5, exatamente o valor encontrado — portanto não há distúrbio misto respiratório.",
+  "porAlt": [
+   "Sem corrigir pela albumina o gap parece menor, e é exatamente esse erro que faz a acidose com gap passar despercebida.",
+   "A pressão de gás carbônico baixa aqui é a compensação esperada da acidose metabólica, e não um distúrbio primário.",
+   "O cálculo do ânion gap é obrigatório em toda acidose metabólica e revela a origem do distúrbio neste paciente.",
+   "Correta: o gap corrigido pela albumina chega a 28 e a compensação respiratória está adequada pela fórmula de Winter.",
+   "A compensação está exatamente no valor previsto pela fórmula de Winter, de modo que não há distúrbio misto."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos em uso de omeprazol e furosemida apresenta hipocalemia de 2,7 mEq/L que não corrige apesar de reposição endovenosa adequada de potássio por dois dias. A função renal é normal. O que deve ser investigado e corrigido?",
+  "alts": [
+   "O magnésio sérico, porque a hipomagnesemia torna a hipocalemia refratária à reposição de potássio.",
+   "O cálcio sérico total, que quando elevado impede a entrada de potássio para o meio intracelular.",
+   "O fósforo sérico, cuja elevação bloqueia a reabsorção tubular renal de potássio de forma sustentada.",
+   "A hemoglobina glicada, que quando elevada explica a perda urinária persistente de potássio no caso.",
+   "O ácido úrico sérico, marcador que orienta a reposição de potássio nos pacientes que usam diurético."
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Cecil Medicina, 26ª edição, 2022, e Harrison's, 22ª edição, 2025 — hipocalemia refratária e hipomagnesemia",
+  "coment": "A hipomagnesemia é a causa clássica de hipocalemia refratária: o magnésio é necessário para bloquear os canais de potássio na membrana luminal do túbulo distal, e sua falta perpetua a perda urinária de potássio, tornando a reposição ineficaz enquanto não for corrigida. O contexto reforça: furosemida e inibidor de bomba de prótons de uso prolongado são causas frequentes de hipomagnesemia. A mesma lógica vale para a hipocalcemia refratária, que também não corrige sem magnésio adequado — motivo pelo qual o magnésio deve ser dosado sempre que potássio ou cálcio não sobem.",
+  "porAlt": [
+   "Correta: sem corrigir a hipomagnesemia, a perda urinária de potássio persiste e a reposição não faz o valor subir.",
+   "O cálcio elevado não impede a correção do potássio e não explica a refratariedade descrita neste caso.",
+   "O fósforo não regula a reabsorção tubular de potássio dessa forma e não causa hipocalemia refratária.",
+   "A hemoglobina glicada não tem relação com a refratariedade da reposição de potássio nesse contexto clínico.",
+   "O ácido úrico não orienta reposição de potássio e não explica a falta de resposta ao tratamento instituído."
+  ]
+ },
+ {
+  "q": "Homem de 82 anos, acamado em instituição de longa permanência, chega com sódio sérico de 168 mEq/L, mucosas secas e sonolência. Pesa 60 kg. Qual é a causa mais provável e a regra de correção?",
+  "alts": [
+   "Excesso de sódio na dieta, corrigindo o distúrbio com diurético de alça em dose alta e rápida infusão.",
+   "Diabetes insipidus central, que deve ser tratado imediatamente com reposição de solução salina hipertônica.",
+   "Falta de acesso à água livre, corrigindo o sódio em no máximo dez miliequivalentes em vinte e quatro horas.",
+   "Hiperaldosteronismo primário, corrigido com espironolactona em dose plena logo após o diagnóstico inicial.",
+   "Excesso de água corporal total, corrigido com restrição hídrica rigorosa e observação clínica prolongada."
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — hipernatremia por déficit de água livre",
+  "coment": "Hipernatremia quase sempre significa falta de água, e não excesso de sódio, ocorrendo em quem não tem acesso livre à água: idoso institucionalizado, acamado, sedado ou com rebaixamento. A correção deve ser gradual, não reduzindo o sódio mais do que cerca de dez miliequivalentes por litro em vinte e quatro horas, sob risco de edema cerebral — o espelho exato do cuidado que se tem na hiponatremia. O déficit de água livre é estimado pela água corporal total multiplicada pela razão entre o sódio atual e 140, menos um, repondo preferencialmente por via enteral, somada às perdas em curso.",
+  "porAlt": [
+   "Excesso de sódio na dieta é causa rara, e diurético em dose alta agravaria a desidratação já instalada.",
+   "O diabetes insipidus é possível, mas a salina hipertônica agravaria a hipernatremia em vez de corrigi-la.",
+   "Correta: a causa é falta de acesso à água livre, e a correção é limitada a cerca de dez miliequivalentes em 24 horas.",
+   "O hiperaldosteronismo cursa com hipertensão e hipocalemia, e não com desidratação e hipernatremia grave.",
+   "A água corporal está reduzida, não aumentada; restringir líquido pioraria de forma perigosa o quadro."
+  ]
+ }
+]

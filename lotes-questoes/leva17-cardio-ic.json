@@ -4,11 +4,11 @@
   "alts": [
    "Insuficiência cardíaca com fração de ejeção levemente reduzida, categoria mantida na faixa de 41% a 49%.",
    "Insuficiência cardíaca com fração de ejeção preservada, uma vez que o valor está acima do limite de 40%.",
+   "Insuficiência cardíaca com fração de ejeção reduzida, categoria que passou a englobar tudo abaixo de 50%.",
    "Insuficiência cardíaca com fração de ejeção recuperada, categoria aplicada a qualquer valor entre 40% e 50%.",
-   "Não caracteriza insuficiência cardíaca, porque só se define a síndrome com fração de ejeção abaixo de 40%.",
-   "Insuficiência cardíaca com fração de ejeção reduzida, categoria que passou a englobar tudo abaixo de 50%."
+   "Não caracteriza insuficiência cardíaca, porque só se define a síndrome com fração de ejeção abaixo de 40%."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "dx",
@@ -18,9 +18,9 @@
   "porAlt": [
    "A faixa de 41% a 49% era a antiga fração levemente reduzida, categoria justamente eliminada nesta atualização.",
    "A fração preservada agora exige valor de 50% ou mais, de modo que 44% não se enquadra nessa definição atual.",
+   "Correta: com a mudança de 2026, tudo abaixo de 50% é fração reduzida, e a categoria intermediária deixou de existir.",
    "Fração recuperada descreve quem tinha fração baixa e melhorou com tratamento, não uma faixa numérica fixa.",
-   "O corte de 40% pertence a versões antigas; a síndrome se define pelo quadro clínico somado à alteração estrutural.",
-   "Correta: com a mudança de 2026, tudo abaixo de 50% é fração reduzida, e a categoria intermediária deixou de existir."
+   "O corte de 40% pertence a versões antigas; a síndrome se define pelo quadro clínico somado à alteração estrutural."
   ]
  },
  {
@@ -99,12 +99,12 @@
   "q": "Paciente com insuficiência cardíaca e fração de ejeção de 28% está em uso das quatro classes fundamentais em dose otimizada há seis meses. Mantém classe funcional III, ritmo sinusal, frequência de 78 bpm e QRS de 158 ms com padrão de bloqueio de ramo esquerdo. Qual é a próxima medida indicada?",
   "alts": [
    "Aumentar a dose do diurético de alça até que os sintomas de classe funcional III desapareçam por fim.",
+   "Terapia de ressincronização cardíaca, indicada nesse padrão de condução com sintomas persistentes.",
    "Suspender o betabloqueador, cuja bradicardia relativa explicaria a limitação funcional que ele apresenta.",
    "Iniciar dobutamina em infusão contínua domiciliar, medida que melhora a sobrevida nesse cenário clínico.",
-   "Terapia de ressincronização cardíaca, indicada nesse padrão de condução com sintomas persistentes.",
    "Indicar transplante cardíaco de imediato, sem antes considerar qualquer terapia por dispositivo cardíaco."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -113,9 +113,9 @@
   "coment": "Paciente sintomático apesar de terapia medicamentosa fundamental otimizada, em ritmo sinusal, com fração de ejeção reduzida e QRS alargado com morfologia de bloqueio de ramo esquerdo, é o perfil de maior benefício da ressincronização cardíaca: melhora sintomas, reduz internação e reduz mortalidade, com resposta tanto maior quanto mais largo o QRS e mais típica a morfologia. Aumentar diurético trata congestão, não a dissincronia. A dobutamina contínua é medida paliativa em doença avançada, associada a arritmia, e não melhora sobrevida. O transplante é considerado depois de esgotadas as terapias estabelecidas.",
   "porAlt": [
    "Subir o diurético alivia congestão mas não corrige a dissincronia ventricular que limita este paciente já otimizado.",
+   "Correta: sintomas persistentes com fração reduzida, ritmo sinusal e bloqueio de ramo esquerdo largo indicam ressincronização.",
    "Retirar o betabloqueador em fração reduzida piora o prognóstico; a frequência de 78 bpm não caracteriza bradicardia.",
    "A dobutamina contínua é recurso paliativo na doença avançada, com mais arritmia e sem ganho de sobrevida demonstrado.",
-   "Correta: sintomas persistentes com fração reduzida, ritmo sinusal e bloqueio de ramo esquerdo largo indicam ressincronização.",
    "O transplante entra depois das terapias estabelecidas, entre elas o dispositivo que este paciente ainda não recebeu."
   ]
  },
@@ -123,12 +123,12 @@
   "q": "Mulher de 63 anos, hipertensa e diabética, é atendida em consulta de rotina sem sintomas cardiovasculares. O eletrocardiograma é normal e o ecocardiograma mostra hipertrofia ventricular esquerda com fração de ejeção de 60%. Segundo o estadiamento adotado pela diretriz vigente, em que estágio ela se encontra e o que isso implica?",
   "alts": [
    "Estágio A, porque a ausência de sintomas exclui qualquer alteração estrutural relevante no coração.",
+   "Estágio B, com doença estrutural sem sintomas, o que já indica intervir para evitar a progressão.",
    "Estágio C, uma vez que a hipertrofia ventricular equivale a sintomas manifestos de insuficiência.",
    "Estágio D, reservado a quem apresenta hipertrofia ventricular associada a diabetes de longa data.",
-   "Fora do estadiamento, que se aplica apenas a pacientes já sintomáticos e em acompanhamento regular.",
-   "Estágio B, com doença estrutural sem sintomas, o que já indica intervir para evitar a progressão."
+   "Fora do estadiamento, que se aplica apenas a pacientes já sintomáticos e em acompanhamento regular."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -137,10 +137,10 @@
   "coment": "A diretriz de 2026 adotou quatro estágios: A, para quem tem fatores de risco sem doença estrutural ou sintomas; B, para doença estrutural ou funcional sem sintomas, situação antes chamada de pré-insuficiência cardíaca; C, para quem tem ou teve sintomas; e D, para doença avançada e refratária. A paciente tem hipertrofia ventricular sem sintomas, portanto estágio B — e a mensagem prática do estadiamento é exatamente essa: o estágio B pede intervenção, com controle rigoroso de pressão e escolha de hipoglicemiante com benefício cardiovascular, para impedir a progressão ao estágio sintomático.",
   "porAlt": [
    "O estágio A é o de fatores de risco sem alteração estrutural, e a hipertrofia já demonstra acometimento do órgão.",
+   "Correta: doença estrutural sem sintomas é estágio B, e a diretriz enfatiza intervir aí para evitar a progressão.",
    "O estágio C exige sintomas atuais ou pregressos de insuficiência cardíaca, que esta paciente não apresenta.",
    "O estágio D descreve doença avançada e refratária ao tratamento, situação muito distante do quadro atual dela.",
-   "O estadiamento cobre desde quem apenas tem risco, justamente para orientar prevenção antes do primeiro sintoma.",
-   "Correta: doença estrutural sem sintomas é estágio B, e a diretriz enfatiza intervir aí para evitar a progressão."
+   "O estadiamento cobre desde quem apenas tem risco, justamente para orientar prevenção antes do primeiro sintoma."
   ]
  }
 ]

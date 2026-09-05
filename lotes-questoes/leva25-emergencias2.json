@@ -2,13 +2,13 @@
  {
   "q": "Homem de 62 anos chega à emergência com dispneia intensa, saturação de 84% em ar ambiente, tiragem intercostal e uso de musculatura acessória. Está sonolento e responde apenas a estímulo verbal vigoroso. A gasometria mostra pH 7,21 e pressão de gás carbônico de 78 mmHg. Qual é a conduta imediata?",
   "alts": [
-   "Tentar ventilação não invasiva por seis horas antes de considerar qualquer via aérea definitiva.",
    "Assegurar via aérea definitiva com intubação, dada a hipercapnia com rebaixamento do sensório.",
+   "Tentar ventilação não invasiva por seis horas antes de considerar qualquer via aérea definitiva.",
    "Ofertar apenas cateter nasal de oxigênio e reavaliar a gasometria arterial em duas horas seguidas.",
    "Prescrever furosemida endovenosa isolada e observar a resposta clínica ao longo do próximo turno.",
    "Administrar naloxona empírica antes de cada suporte, pela sonolência apresentada pelo paciente."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -16,8 +16,8 @@
   "base": "Medicina de Emergência: Abordagem Prática, USP, 19ª edição; Harrison's, 22ª edição, 2025",
   "coment": "Insuficiência respiratória hipercápnica com rebaixamento do nível de consciência é contraindicação relativa forte à ventilação não invasiva, porque o paciente não protege via aérea e o risco de aspiração é alto. A conduta é intubação e ventilação mecânica. A ventilação não invasiva é excelente na exacerbação de DPOC e no edema agudo de pulmão em paciente alerta e colaborativo — insistir nela em quem está sonolento e acidótico atrasa a via aérea definitiva e costuma terminar em intubação de emergência, em condições piores.",
   "porAlt": [
-   "Insistir seis horas na ventilação não invasiva em paciente sonolento arrisca aspiração e adia a intubação necessária.",
    "Correta: hipercapnia grave com rebaixamento do sensório indica via aérea definitiva, e não tentativa prolongada de máscara.",
+   "Insistir seis horas na ventilação não invasiva em paciente sonolento arrisca aspiração e adia a intubação necessária.",
    "Cateter nasal não corrige hipoventilação alveolar e reavaliar em duas horas ignora a gravidade já documentada.",
    "Furosemida trata congestão, mas o quadro aqui é de falência ventilatória com retenção grave de gás carbônico.",
    "A naloxona só faz sentido diante de suspeita de opioide, que o enunciado não apresenta em nenhum momento."
@@ -26,13 +26,13 @@
  {
   "q": "Mulher de 29 anos é trazida após ingestão intencional de dose alta de paracetamol há seis horas. Está assintomática, com exame normal e sem alteração laboratorial ainda. Qual é a conduta correta?",
   "alts": [
-   "Aguardar o surgimento de elevação das transaminases antes de iniciar qualquer antídoto específico.",
    "Iniciar N-acetilcisteína, cuja eficácia é máxima quando administrada nas primeiras horas da ingestão.",
+   "Aguardar o surgimento de elevação das transaminases antes de iniciar qualquer antídoto específico.",
    "Prescrever apenas carvão ativado agora, medida suficiente seis horas após a ingestão do fármaco.",
    "Realizar hemodiálise imediata, que é o tratamento de escolha na intoxicação grave por paracetamol.",
    "Liberar a paciente após avaliação psiquiátrica, já que está assintomática e sem alteração de exames."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -40,8 +40,8 @@
   "base": "Medicina de Emergência: Abordagem Prática, USP, 19ª edição; Harrison's, 22ª edição, 2025 — intoxicação por paracetamol",
   "coment": "A intoxicação por paracetamol tem período de latência: o paciente passa horas assintomático enquanto o metabólito tóxico consome as reservas de glutationa, e a lesão hepática se manifesta depois de 24 a 72 horas. A N-acetilcisteína repõe glutationa e tem eficácia praticamente completa quando iniciada nas primeiras 8 a 10 horas — esperar a transaminase subir é esperar o dano acontecer. O carvão ativado é útil nas primeiras horas e perde valor depois. Liberar paciente assintomática após ingestão intencional de dose tóxica é erro grave, clínico e psiquiátrico.",
   "porAlt": [
-   "Esperar a transaminase subir significa esperar a necrose hepática instalar-se, quando o antídoto já perdeu boa parte do efeito.",
    "Correta: a N-acetilcisteína tem eficácia máxima nas primeiras horas, antes de qualquer alteração laboratorial aparecer.",
+   "Esperar a transaminase subir significa esperar a necrose hepática instalar-se, quando o antídoto já perdeu boa parte do efeito.",
    "O carvão ativado tem janela curta e não substitui o antídoto, que é a intervenção que muda o desfecho hepático.",
    "A hemodiálise tem papel restrito a situações específicas e não é o tratamento de escolha da intoxicação por paracetamol.",
    "Liberar paciente assintomática após ingestão intencional ignora tanto a latência do quadro quanto o risco psiquiátrico."
@@ -52,11 +52,11 @@
   "alts": [
    "Volume corrente alto, de 12 mL/kg, para garantir a eliminação adequada de gás carbônico do paciente.",
    "Manter fração inspirada de oxigênio em 100% durante toda a ventilação, independentemente da saturação.",
+   "Ventilação protetora com volume corrente de 6 mL/kg de peso predito e pressão de platô limitada.",
    "Usar pressão expiratória final zero no ventilador, evitando barotrauma pela pressão positiva.",
-   "Sedar profundamente com bloqueio neuromuscular contínuo nos pacientes ventilados na unidade.",
-   "Ventilação protetora com volume corrente de 6 mL/kg de peso predito e pressão de platô limitada."
+   "Sedar profundamente com bloqueio neuromuscular contínuo nos pacientes ventilados na unidade."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -66,21 +66,21 @@
   "porAlt": [
    "Volume corrente de 12 mL/kg produz lesão induzida pela ventilação e foi associado a maior mortalidade em ensaio clínico.",
    "Manter oxigênio a 100% de forma indiscriminada causa toxicidade e atelectasia de absorção, sem benefício algum.",
+   "Correta: volume corrente de 6 mL/kg de peso predito com platô limitado é a estratégia com redução de mortalidade comprovada.",
    "Pressão expiratória final zero promove colapso e reabertura cíclica de alvéolos, agravando a lesão pulmonar existente.",
-   "O bloqueio neuromuscular é seletivo, para casos graves e por período curto, e não conduta de rotina em ventilados.",
-   "Correta: volume corrente de 6 mL/kg de peso predito com platô limitado é a estratégia com redução de mortalidade comprovada."
+   "O bloqueio neuromuscular é seletivo, para casos graves e por período curto, e não conduta de rotina em ventilados."
   ]
  },
  {
   "q": "Mulher de 58 anos é admitida com hemorragia digestiva alta volumosa, pressão de 82/50 mmHg, frequência de 126 bpm e hemoglobina de 6,2 g/dL, sem doença coronária. Qual é a estratégia transfusional e a meta inicial?",
   "alts": [
+   "Transfundir sempre com estratégia restritiva, mirando hemoglobina de 7 a 8 g/dL após estabilizar.",
    "Transfundir até hemoglobina de 12 g/dL, meta que garante melhor oxigenação tecidual nesse quadro.",
    "Não transfundir enquanto o sangramento estiver ativo, para não aumentar a pressão de perfusão.",
    "Transfundir apenas plasma fresco congelado, corrigindo a coagulopatia antes das hemácias sempre.",
-   "Transfundir somente após a endoscopia, mesmo em vigência de instabilidade hemodinâmica marcada.",
-   "Transfundir sempre com estratégia restritiva, mirando hemoglobina de 7 a 8 g/dL após estabilizar."
+   "Transfundir somente após a endoscopia, mesmo em vigência de instabilidade hemodinâmica marcada."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -88,11 +88,11 @@
   "base": "European Society of Gastrointestinal Endoscopy, 2021, e Baveno VII, 2022 — estratégia transfusional na HDA",
   "coment": "A estratégia restritiva é superior na hemorragia digestiva alta: ensaio clínico mostrou menor mortalidade e menos ressangramento com alvo de hemoglobina entre 7 e 8 g/dL, comparado à estratégia liberal. O racional é que transfundir demais eleva a pressão portal e a esplâncnica, favorecendo novo sangramento. Isso não significa deixar de transfundir quem está em choque com hemoglobina de 6,2 g/dL — significa não perseguir números altos depois de estabilizado. Pacientes com síndrome coronariana ou isquemia ativa exigem alvo individualizado e mais alto.",
   "porAlt": [
+   "Correta: o alvo restritivo de 7 a 8 g/dL reduz mortalidade e ressangramento, sem deixar de transfundir quem está em choque.",
    "A meta de 12 g/dL é a estratégia liberal, associada a mais ressangramento e maior mortalidade nesse cenário.",
    "Deixar de transfundir com hemoglobina de 6,2 g/dL e choque instalado compromete a oferta de oxigênio aos tecidos.",
    "O plasma corrige coagulopatia específica e não substitui hemácias em paciente com anemia grave e sangramento ativo.",
-   "A instabilidade hemodinâmica exige transfusão imediata; esperar a endoscopia mantém o choque sem correção.",
-   "Correta: o alvo restritivo de 7 a 8 g/dL reduz mortalidade e ressangramento, sem deixar de transfundir quem está em choque."
+   "A instabilidade hemodinâmica exige transfusão imediata; esperar a endoscopia mantém o choque sem correção."
   ]
  }
 ]

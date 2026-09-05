@@ -122,13 +122,10 @@ Auditoria de contraste por DOM: **0 falhas** nos 8 painéis × 2 temas (≥4,5:1
 4. `python3 monta_banco.py` e conferir "OK: nenhum erro duro".
 
 ## Estado do conteúdo (04/09/2026)
-- **125 questões** em 31 levas, 125 chaves únicas, **zero erros duros e zero avisos**.
-- **As 18 áreas cobertas.** Gabarito uniforme: A:25 B:25 C:25 D:25 E:25.
-- **82 cartões** · **12 leituras (~225 min)** · 3 estações práticas.
-- Matrizes: cenário amb 53 · emg 41 · enf 16 · uti 15; competência tto 49 · urg 35 · dx 23 · prev 18.
-- Verificado por DOM: simulado de 120 questões com 0 pares adjacentes do mesmo tema e 12 temas
-  distintos nas 20 primeiras.
-- **0 questões de prova real** — o banco misto foi decidido, mas só a parte autoral existe.
+- **143 questões** em 34 levas, 143 chaves únicas, **zero erros duros e zero avisos**.
+- **18 áreas cobertas.** Gabarito uniforme: A:29 B:29 C:29 D:28 E:28.
+- **116 cartões** · **16 leituras (~317 min)** · **6 estações práticas** (todas somando 5,0 pontos).
+- Correta é a mais longa em 11,9%; folga mediana de 1,1%.
 
 ### As leituras são o diferencial (não deixar regredir)
 As leituras nasceram curtas e o Matheus reprovou: *"a parte de leitura está péssima, básica e com
@@ -177,6 +174,10 @@ ao e-mail do MedTech para ele e o Claude avaliarem.
 - Contraste do modal auditado nos dois temas: 0 falhas.
 
 ## Biblioteca de fontes (04/09/2026)
+⚠️ Os **cadernos de curso** da pasta (`Caderno Completo – …`, `CASAL MED`, `Mapas`, `Decorebas`,
+`Intensivão`) têm marca d'água de material pago. **Não copiar texto deles** para o app — servem
+para calibrar escopo e conferir pontos; o conteúdo publicado é escrito do zero e ancorado em
+diretriz ou na bibliografia oficial do edital.
 O Matheus deu acesso a `~/Documents/Livros/` — diretrizes em PDF e livros. O catálogo, com o que é
 âncora válida e **o que é referência antiga a não usar**, está em `docs/FONTES.md`. Regras:
 - Os PDFs **não** entram no repo (grandes, de terceiros). O texto extraído vai para `fontes/`, que

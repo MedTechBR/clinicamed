@@ -2,13 +2,13 @@
  {
   "q": "Homem de 52 anos, obeso e hipertenso, está no terceiro dia de crise de gota confirmada em primeiro pododáctilo, com boa resposta à anti-inflamatória. O ácido úrico é de 9,2 mg/dL e ele já teve três crises no último ano. Nunca usou terapia hipouricemiante. Qual é a conduta correta agora?",
   "alts": [
-   "Iniciar alopurinol já, sempre com profilaxia anti-inflamatória e alvo de urato abaixo de 6 mg/dL.",
    "Aguardar a resolução completa da crise por trinta dias antes de iniciar qualquer hipouricemiante.",
    "Iniciar apenas dieta com restrição de purinas, que sozinha alcança o alvo de urato na maioria.",
+   "Iniciar alopurinol já, sempre com profilaxia anti-inflamatória e alvo de urato abaixo de 6 mg/dL.",
    "Prescrever colchicina em uso contínuo isolado, sem associar qualquer droga que reduza o urato.",
    "Indicar o febuxostate como primeira escolha em todos os pacientes com indicação de tratamento."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -16,9 +16,9 @@
   "base": "American College of Rheumatology 2020 — Guideline for the Management of Gout",
   "coment": "A diretriz de 2020 recomenda fortemente a terapia hipouricemiante para quem tem duas ou mais crises por ano, tofos ou dano radiográfico — este paciente teve três. O alopurinol é a primeira linha, inclusive em doença renal crônica, iniciado em dose baixa e titulado até o alvo de urato sérico abaixo de 6 mg/dL, com profilaxia anti-inflamatória por três a seis meses para evitar as crises de mobilização. Outra mudança relevante: não é preciso esperar a crise passar para começar, desde que o paciente esteja em tratamento anti-inflamatório adequado. O febuxostate é segunda linha, com alerta cardiovascular.",
   "porAlt": [
-   "Correta: com três crises no ano há indicação forte de hipouricemiante, começando alopurinol com profilaxia e alvo abaixo de 6 mg/dL.",
    "A recomendação atual permite iniciar durante a crise, desde que sob tratamento anti-inflamatório — esperar só adia a prevenção.",
    "A dieta isolada reduz pouco o urato sérico e raramente alcança o alvo em quem já tem crises recorrentes documentadas.",
+   "Correta: com três crises no ano há indicação forte de hipouricemiante, começando alopurinol com profilaxia e alvo abaixo de 6 mg/dL.",
    "A colchicina isolada previne crises, mas não reduz o urato nem dissolve os depósitos que causam a doença.",
    "O febuxostate é alternativa de segunda linha e carrega alerta de mortalidade cardiovascular em pacientes de risco."
   ]
@@ -26,13 +26,13 @@
  {
   "q": "Mulher de 29 anos apresenta artralgia inflamatória, rash malar, fotossensibilidade e proteinúria de 1,2 g em 24 horas. O FAN é positivo em 1:640, padrão nuclear homogêneo. A equipe discute o tratamento de base após confirmar o diagnóstico de lúpus eritematoso sistêmico. Qual medida deve ser oferecida a essa paciente?",
   "alts": [
+   "Hidroxicloroquina, recomendada para todos os pacientes com lúpus, salvo contraindicação formal.",
    "Corticoide em dose alta de forma contínua e indefinida, base do tratamento de manutenção do lúpus.",
    "Apenas anti-inflamatórios não esteroidais, reservando imunossupressor para quadros bem mais graves.",
-   "Hidroxicloroquina, recomendada para todos os pacientes com lúpus, salvo contraindicação formal.",
    "Metotrexato isolado como droga de escolha em qualquer manifestação renal do lúpus eritematoso.",
    "Rituximabe em primeira linha para todos os casos com envolvimento renal detectado no diagnóstico."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
@@ -40,9 +40,9 @@
   "base": "EULAR 2023 — recommendations for the management of systemic lupus erythematosus; critérios EULAR/ACR 2019",
   "coment": "A hidroxicloroquina é recomendada para todos os pacientes com lúpus, salvo contraindicação: reduz atividade de doença, previne surtos, protege contra dano orgânico e trombose e melhora sobrevida, com necessidade de rastreamento oftalmológico periódico pelo risco de retinopatia. O corticoide deve ser usado na menor dose possível e desmamado, porque grande parte do dano acumulado no lúpus vem dele. O envolvimento renal com proteinúria acima de 0,5 g em 24 horas exige biópsia para definir a classe da nefrite, que é o que orienta a escolha do imunossupressor — micofenolato ou ciclofosfamida, a depender do caso.",
   "porAlt": [
+   "Correta: hidroxicloroquina é indicada a todos os pacientes com lúpus, salvo contraindicação, com controle oftalmológico periódico.",
    "Corticoide em dose alta e contínua é a principal fonte de dano acumulado no lúpus; a meta é a menor dose com desmame.",
    "Anti-inflamatório isolado não controla atividade sistêmica e ainda arrisca a função renal já comprometida pela proteinúria.",
-   "Correta: hidroxicloroquina é indicada a todos os pacientes com lúpus, salvo contraindicação, com controle oftalmológico periódico.",
    "Metotrexato ajuda em manifestação articular e cutânea, mas não é a droga de escolha para o acometimento renal do lúpus.",
    "Rituximabe é opção de resgate em doença refratária, e não terapia inicial universal para todo envolvimento renal."
   ]

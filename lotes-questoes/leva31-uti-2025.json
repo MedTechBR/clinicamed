@@ -26,13 +26,13 @@
  {
   "q": "Mulher de 62 anos, 1,60 m, com síndrome do desconforto respiratório agudo, será ventilada. Ela pesa 92 kg. Qual é a base de cálculo do volume corrente na ventilação protetora e por quê?",
   "alts": [
-   "Peso predito pela altura, porque o volume pulmonar depende da estatura e não da massa corporal.",
    "Peso real aferido na balança, que reflete melhor a demanda metabólica desta paciente com obesidade.",
+   "Peso predito pela altura, porque o volume pulmonar depende da estatura e não da massa corporal.",
    "Peso ideal calculado pelo índice de massa corporal alvo, ajustado conforme a idade e o sexo dela.",
    "Média entre o peso real e o predito, ajuste indicado especificamente para pacientes com obesidade.",
    "Peso seco estimado após diurese, medida usada para calcular o volume corrente na fase de desmame."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -40,8 +40,8 @@
   "base": "ESICM/ATS/SCCM 2024 e diretrizes de ventilação protetora — volume corrente por peso predito",
   "coment": "O volume corrente na ventilação protetora é calculado sobre o peso predito, derivado da altura e do sexo, e não sobre o peso real. A razão é anatômica: o volume pulmonar acompanha a estatura, não a massa gorda. Usar o peso real numa paciente com obesidade entrega volumes muito acima do alvo de 6 mL/kg, produzindo lesão induzida pela ventilação justamente em quem tem pulmão vulnerável. Para 1,60 m, o peso predito fica em torno de 52 kg em mulher, o que corresponde a aproximadamente 310 mL — bem distante dos 550 mL que sairiam do peso real.",
   "porAlt": [
-   "Correta: usa-se o peso predito pela altura, porque o volume pulmonar acompanha a estatura e não a massa corporal.",
    "O peso real numa paciente obesa entrega volume muito acima do alvo e produz lesão induzida pela ventilação.",
+   "Correta: usa-se o peso predito pela altura, porque o volume pulmonar acompanha a estatura e não a massa corporal.",
    "Não se usa peso ideal por índice de massa corporal: a fórmula do peso predito parte diretamente da altura e do sexo.",
    "Não existe recomendação de média entre peso real e predito para calcular volume corrente na ventilação protetora.",
    "Peso seco é conceito de balanço hídrico e de diálise, sem relação com o cálculo do volume corrente protetor."
@@ -50,13 +50,13 @@
  {
   "q": "Paciente em choque séptico está com pressão arterial média de 67 mmHg em noradrenalina, mas mantém tempo de enchimento capilar de 5 segundos, livedo em joelhos e lactato em elevação. Segundo o consenso europeu vigente de choque, como interpretar essa situação?",
   "alts": [
-   "A meta numérica foi atingida mas a perfusão não, e o alvo deve ser individualizado nesse paciente.",
    "A meta foi atingida e a conduta correta é apenas observar, pois os sinais de pele são subjetivos demais.",
+   "A meta numérica foi atingida mas a perfusão não, e o alvo deve ser individualizado nesse paciente.",
    "O alvo pressórico deve ser reduzido para poupar vasopressor, já que a pressão média está acima de 65.",
    "A perfusão cutânea não integra a monitorização recomendada e não deve orientar decisão terapêutica.",
    "O lactato elevado indica sempre falha da noradrenalina, que deve ser substituída por adrenalina agora."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
@@ -64,8 +64,8 @@
   "base": "ESICM 2025 — consenso de choque circulatório e monitorização hemodinâmica",
   "coment": "O consenso recomenda individualizar o alvo de pressão arterial, sugerindo inicialmente pressão média de pelo menos 65 mmHg, com faixa de 65 a 70 mmHg no choque séptico e alvo de pelo menos 80 mmHg no traumatismo cranioencefálico com Glasgow igual ou menor que 8. Também recomenda avaliação seriada da perfusão tecidual e, especificamente, monitorização da perfusão cutânea pelo tempo de enchimento capilar, complementada por temperatura da pele e livedo. Quando a meta numérica é atingida mas a perfusão permanece ruim, o alvo daquele paciente não era 65 — e a reavaliação inclui débito cardíaco, volume e controle de foco.",
   "porAlt": [
-   "Correta: o consenso manda individualizar o alvo, e perfusão ruim com pressão na meta indica que aquele alvo era insuficiente.",
    "O tempo de enchimento capilar é recomendação formal de monitorização, e não um dado subjetivo a ser ignorado.",
+   "Correta: o consenso manda individualizar o alvo, e perfusão ruim com pressão na meta indica que aquele alvo era insuficiente.",
    "Reduzir o alvo diante de hipoperfusão evidente agrava a lesão de órgão que a ressuscitação pretende evitar.",
    "A perfusão cutânea integra explicitamente as recomendações de monitorização regional do consenso vigente.",
    "O lactato tem múltiplas causas e não indica por si troca de vasopressor; a adrenalina traz mais arritmia e lactato."
@@ -74,13 +74,13 @@
  {
   "q": "Em paciente com choque e cateter venoso central e arterial, a equipe observa saturação venosa central de 74% com diferença veno-arterial de pressão parcial de gás carbônico de 9 mmHg. Como interpretar esse conjunto?",
   "alts": [
-   "Sugere débito cardíaco insuficiente para o consumo, apesar da saturação venosa aparentemente normal.",
    "Indica perfusão plenamente adequada, já que a saturação venosa central acima de setenta exclui hipofluxo.",
    "Aponta hiperóxia tecidual por oferta excessiva de oxigênio, exigindo redução imediata da fração inspirada.",
+   "Sugere débito cardíaco insuficiente para o consumo, apesar da saturação venosa aparentemente normal.",
    "Reflete apenas erro de coleta, pois os dois marcadores nunca podem apontar direções opostas no choque.",
    "Confirma anemia grave como causa isolada do quadro, indicando transfusão imediata de concentrado."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "dx",
@@ -88,9 +88,9 @@
   "base": "ESICM 2025 — monitorização da perfusão regional, saturação venosa central e Pv-aCO₂",
   "coment": "O consenso recomenda medidas seriadas da saturação venosa central em pacientes com cateter venoso central e, quando há também cateter arterial, medida seriada da diferença veno-arterial de pressão parcial de gás carbônico. Uma diferença alargada, acima de cerca de 6 mmHg, indica fluxo insuficiente para lavar o gás carbônico produzido pelos tecidos — mesmo quando a saturação venosa central parece tranquilizadora. É o marcador que desmascara o débito insuficiente em pacientes cuja saturação venosa está normal por má distribuição de fluxo, situação comum na sepse.",
   "porAlt": [
-   "Correta: diferença veno-arterial alargada aponta fluxo insuficiente para lavar o gás carbônico, apesar da saturação venosa normal.",
    "Saturação venosa normal não exclui hipofluxo: na sepse ela pode estar normal por má distribuição do fluxo sanguíneo.",
    "Hiperóxia tecidual não é o que a diferença alargada indica; ela sinaliza estagnação de fluxo, e não excesso de oferta.",
+   "Correta: diferença veno-arterial alargada aponta fluxo insuficiente para lavar o gás carbônico, apesar da saturação venosa normal.",
    "Os dois marcadores medem coisas diferentes e podem divergir legitimamente — é justamente aí que a Pv-aCO₂ agrega.",
    "A anemia altera a oferta, mas não explica isoladamente a diferença alargada nem indica transfusão sem outros dados."
   ]
@@ -98,13 +98,13 @@
  {
   "q": "Homem de 58 anos em parada cardiorrespiratória por atividade elétrica sem pulso recebe compressões de alta qualidade e acesso venoso. Um residente sugere administrar bicarbonato de sódio e cálcio empiricamente para melhorar a chance de retorno da circulação. Qual é a orientação da diretriz vigente?",
   "alts": [
-   "Nenhum dos dois de rotina: a administração rotineira de ambos não é recomendada na parada do adulto.",
    "Ambos devem ser administrados de rotina, por corrigirem a acidose e estabilizarem a membrana já.",
    "Apenas o bicarbonato é recomendado de rotina, ficando o cálcio reservado às paradas prolongadas.",
+   "Nenhum dos dois de rotina: a administração rotineira de ambos não é recomendada na parada do adulto.",
    "Apenas o cálcio é recomendado de rotina, ficando o bicarbonato restrito à parada por afogamento.",
    "Ambos são recomendados desde que a parada ultrapasse vinte minutos de reanimação sem resposta alguma."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -112,9 +112,9 @@
   "base": "AHA 2025 — Part 9: Adult Advanced Life Support, recomendações classe 3 contra uso rotineiro",
   "coment": "A diretriz de 2025 é explícita: a administração rotineira de cálcio, de bicarbonato de sódio e de magnésio não é recomendada em adultos em parada cardiorrespiratória, todas com classificação de ausência de benefício. A palavra decisiva é rotina — essas drogas permanecem indicadas em situações específicas, como cálcio e bicarbonato na hipercalemia, bicarbonato na intoxicação por antidepressivo tricíclico e magnésio na torsades de pointes. O que muda desfecho na parada é compressão de alta qualidade, desfibrilação precoce quando o ritmo é chocável e a busca ativa de causa reversível.",
   "porAlt": [
-   "Correta: a diretriz de 2025 não recomenda o uso rotineiro de cálcio, bicarbonato nem magnésio na parada do adulto.",
    "Dar os dois de rotina contraria recomendação explícita e desvia a equipe do que realmente muda desfecho.",
    "O bicarbonato de rotina foi justamente uma das práticas desaconselhadas, com classificação de ausência de benefício.",
+   "Correta: a diretriz de 2025 não recomenda o uso rotineiro de cálcio, bicarbonato nem magnésio na parada do adulto.",
    "O cálcio de rotina também não é recomendado; sua indicação é específica, como na hipercalemia documentada.",
    "Não há limiar de tempo que converta essas drogas em conduta de rotina durante a reanimação do adulto."
   ]
@@ -122,13 +122,13 @@
  {
   "q": "Paciente é reanimado com sucesso após parada por fibrilação ventricular e permanece comatoso doze horas depois, ainda sob efeito de sedação. A família pergunta sobre o prognóstico neurológico. Qual é a conduta correta?",
   "alts": [
-   "Adiar a definição prognóstica, que deve ser multimodal e tardia, sem efeito residual de sedativo.",
    "Definir o prognóstico agora pelo exame neurológico, confiável já nas primeiras horas após a parada.",
    "Basear a decisão apenas na duração da reanimação, parâmetro isolado suficiente para prever o desfecho.",
+   "Adiar a definição prognóstica, que deve ser multimodal e tardia, sem efeito residual de sedativo.",
    "Solicitar somente tomografia de crânio e decidir pelo resultado desse exame isolado nas próximas horas.",
    "Suspender o suporte se não houver resposta motora em vinte e quatro horas, prazo definido em diretriz."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "prev",
@@ -136,9 +136,9 @@
   "base": "AHA 2025 — cuidados pós-parada e prognóstico neurológico multimodal",
   "coment": "A definição prognóstica após parada cardiorrespiratória deve ser multimodal e tardia, combinando exame neurológico seriado, eletroencefalograma, potenciais evocados somatossensitivos, biomarcadores e neuroimagem, sempre depois de afastado o efeito residual de sedativos e bloqueadores neuromusculares. Prognosticar cedo, com sedação em curso, produz profecia autorrealizável: a limitação de suporte baseada em um exame não confiável causa o desfecho que ela previu. Enquanto isso, o cuidado pós-parada segue: evitar hiperóxia e hipoxemia, tratar hipotensão, controlar temperatura e prevenir febre.",
   "porAlt": [
-   "Correta: o prognóstico é multimodal e tardio, feito apenas depois de afastado o efeito residual de sedação.",
    "O exame neurológico nas primeiras horas, sob sedação, não prediz desfecho e não deve fundamentar decisão.",
    "A duração da reanimação é um dado entre vários e nunca deve ser usada isoladamente para prognosticar.",
+   "Correta: o prognóstico é multimodal e tardio, feito apenas depois de afastado o efeito residual de sedação.",
    "A tomografia isolada tem valor limitado nas primeiras horas e não substitui a avaliação multimodal.",
    "Não existe prazo fixo de vinte e quatro horas para suspender suporte: a decisão exige avaliação completa e tardia."
   ]

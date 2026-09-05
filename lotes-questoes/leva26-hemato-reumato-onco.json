@@ -3,12 +3,12 @@
   "q": "Homem de 72 anos tem fadiga e linfocitose persistente de 42.000/mm³, com linfócitos de aparência madura no esfregaço. A imunofenotipagem mostra população monoclonal de linfócitos B com CD5 e CD23 positivos. Não há anemia, plaquetopenia, sintomas B nem adenomegalia volumosa. Qual é a conduta?",
   "alts": [
    "Iniciar quimioterapia imediata, indicada em toda leucemia linfocítica crônica no momento do diagnóstico.",
-   "Realizar transplante de medula óssea de imediato, único tratamento capaz de curar a doença nessa idade.",
    "Acompanhamento sem tratamento, pois a doença em estágio inicial assintomático não exige terapia agora.",
+   "Realizar transplante de medula óssea de imediato, único tratamento capaz de curar a doença nessa idade.",
    "Prescrever corticoide contínuo em dose alta, capaz de normalizar a contagem de linfócitos do paciente.",
    "Solicitar apenas mielograma seriado a cada mês, adiando qualquer decisão terapêutica por dois anos."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
@@ -17,8 +17,8 @@
   "coment": "A leucemia linfocítica crônica em estágio inicial e assintomática não se beneficia de tratamento precoce: os ensaios mostraram que tratar antes de haver indicação não prolonga a sobrevida e expõe a toxicidade. A conduta é vigilância ativa, com consultas e hemogramas periódicos. O tratamento é indicado diante de doença ativa: anemia ou plaquetopenia por infiltração medular, sintomas B, adenomegalia volumosa ou sintomática, esplenomegalia importante, ou duplicação rápida da contagem de linfócitos. A linfocitose isolada, por mais alta que seja, não é critério de tratamento.",
   "porAlt": [
    "Tratar todo paciente ao diagnóstico expõe à toxicidade sem ganho de sobrevida demonstrado em ensaio clínico.",
-   "O transplante tem indicações restritas na doença refratária e de alto risco, e não como conduta inicial nessa idade.",
    "Correta: em estágio inicial e assintomático, a conduta é vigilância ativa — tratar cedo não prolonga a sobrevida.",
+   "O transplante tem indicações restritas na doença refratária e de alto risco, e não como conduta inicial nessa idade.",
    "O corticoide contínuo não é tratamento da doença e traria imunossupressão adicional a um paciente já suscetível.",
    "Mielograma mensal é invasivo e desnecessário: o acompanhamento se faz por clínica e hemograma periódicos."
   ]
@@ -52,11 +52,11 @@
   "alts": [
    "Nefrite intersticial pelo quimioterápico, cuja conduta é apenas corticoide em dose imunossupressora.",
    "Hipercalcemia da malignidade, que explica a elevação da creatinina e o distúrbio eletrolítico do caso.",
-   "Síndrome de lise tumoral, tratada com hidratação vigorosa, rasburicase e correção dos distúrbios.",
    "Insuficiência adrenal aguda, sugerida pela hipercalemia associada à elevação da creatinina sérica.",
-   "Rabdomiólise por imobilidade, hipótese preferida diante de hiperfosfatemia com hipocalcemia associada."
+   "Rabdomiólise por imobilidade, hipótese preferida diante de hiperfosfatemia com hipocalcemia associada.",
+   "Síndrome de lise tumoral, tratada com hidratação vigorosa, rasburicase e correção dos distúrbios."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "onco",
   "cenario": "uti",
   "comp": "urg",
@@ -66,9 +66,9 @@
   "porAlt": [
    "A nefrite intersticial não produz esse padrão eletrolítico característico nem essa cronologia tão próxima da quimioterapia.",
    "A hipercalcemia da malignidade cursa com cálcio alto, e aqui o cálcio está baixo — o oposto do que a hipótese exige.",
-   "Correta: a tétrade eletrolítica após quimioterapia define lise tumoral, tratada com hidratação, rasburicase e correção dos distúrbios.",
    "A insuficiência adrenal não explica hiperfosfatemia, hipocalcemia e hiperuricemia surgindo após a quimioterapia.",
-   "A rabdomiólise cursaria com creatinoquinase muito elevada e não tem relação temporal com o início do tratamento."
+   "A rabdomiólise cursaria com creatinoquinase muito elevada e não tem relação temporal com o início do tratamento.",
+   "Correta: a tétrade eletrolítica após quimioterapia define lise tumoral, tratada com hidratação, rasburicase e correção dos distúrbios."
   ]
  },
  {
@@ -76,11 +76,11 @@
   "alts": [
    "Apenas suplementar cálcio e vitamina D, medida suficiente para reverter a perda óssea nesse caso.",
    "Repetir a densitometria em cinco anos, adiando qualquer tratamento enquanto não houver fratura.",
-   "Iniciar bisfosfonato com cálcio e vitamina D, pela osteoporose induzida por corticoide já instalada.",
    "Suspender o corticoide de forma abrupta, única medida capaz de recuperar a densidade mineral óssea.",
-   "Iniciar reposição hormonal estrogênica, primeira escolha para osteoporose induzida por corticoide."
+   "Iniciar reposição hormonal estrogênica, primeira escolha para osteoporose induzida por corticoide.",
+   "Iniciar bisfosfonato com cálcio e vitamina D, pela osteoporose induzida por corticoide já instalada."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "prev",
@@ -90,9 +90,9 @@
   "porAlt": [
    "Cálcio e vitamina D são adjuvantes necessários, mas não revertem a perda óssea induzida pelo corticoide sozinhos.",
    "Esperar a fratura para tratar inverte a lógica da prevenção, justamente quando o risco já está documentado.",
-   "Correta: escore T de -2,8 em uso de corticoide indica bisfosfonato associado a cálcio e vitamina D.",
    "A retirada abrupta do corticoide arrisca insuficiência adrenal e reativação da polimialgia que motivou o uso.",
-   "A reposição estrogênica não é primeira escolha para essa indicação e traz riscos próprios nessa faixa etária."
+   "A reposição estrogênica não é primeira escolha para essa indicação e traz riscos próprios nessa faixa etária.",
+   "Correta: escore T de -2,8 em uso de corticoide indica bisfosfonato associado a cálcio e vitamina D."
   ]
  }
 ]
