@@ -239,3 +239,9 @@ não ter a questão).
 
 O app deixa isso visível: filtro **Procedência** na aba Questões (todas / só de
 prova real / só autorais) e pílula com banca e ano no feedback pós-resposta.
+
+**Repo segue público** — decidido pelo Matheus em 05/09/2026, perguntado
+explicitamente: os cadernos são públicos, o gabarito é oficial e cada questão
+carrega banca e ano. Não entra no banco questão de prova cujo caderno não seja
+público — TECM/SBCM, por exemplo, publica só o edital e o gabarito atrás de
+login, então questão de título continua sendo autoral.
