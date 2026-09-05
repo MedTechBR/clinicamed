@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Homem de 66 anos, tabagista, com dispneia progressiva e VEF1/CVF pós-broncodilatador de 0,58, com duas exacerbações no último ano. Qual é o tratamento de manutenção?",
+  "alts": [
+   "Broncodilatador duplo de longa duração, sempre com avaliação de eosinófilos para acrescentar corticoide.",
+   "Corticoide inalatório isolado como tratamento inicial de manutenção para o paciente com essa doença.",
+   "Corticoide sistêmico contínuo em dose baixa, tratamento de manutenção de escolha na doença descrita.",
+   "Antibiótico contínuo em dose plena por tempo indeterminado como manutenção nesse perfil de paciente.",
+   "Apenas broncodilatador de curta duração de resgate, sem qualquer tratamento contínuo de manutenção."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "GOLD Report — Global Strategy for Prevention, Diagnosis and Management of COPD, 2025",
+  "coment": "A relação pós-broncodilatador abaixo de 0,7 confirma limitação fixa ao fluxo aéreo. Com histórico de exacerbações, o tratamento inicial recomendado é a combinação de broncodilatador de longa duração antimuscarínico e beta-agonista. A adição de corticoide inalatório é orientada pela contagem de eosinófilos, indicada acima de 300 células por microlitro e considerada entre 100 e 300 com exacerbações. Cessação do tabagismo, vacinação e reabilitação pulmonar são obrigatórias.",
+  "porAlt": [
+   "Correta: broncodilatador duplo de longa duração, com eosinófilos orientando a adição de corticoide.",
+   "O corticoide inalatório isolado não é recomendado nessa doença, sempre associado a broncodilatador.",
+   "O corticoide sistêmico contínuo traz toxicidade importante sem benefício como manutenção.",
+   "O antibiótico contínuo se reserva a casos selecionados e não é manutenção padrão da doença.",
+   "O uso apenas de resgate deixa sem controle um paciente com exacerbações frequentes documentadas."
+  ]
+ },
+ {
+  "q": "Mulher de 28 anos com asma em uso apenas de beta-agonista de curta duração, com sintomas três vezes por semana e despertares noturnos. Qual é a conduta?",
+  "alts": [
+   "Iniciar corticoide inalatório associado a formoterol, sempre substituindo o uso isolado do resgate.",
+   "Manter apenas o beta-agonista de curta duração e aumentar a frequência das doses de resgate diárias.",
+   "Iniciar corticoide oral contínuo em dose baixa como etapa seguinte no tratamento da asma descrita.",
+   "Iniciar antibiótico profilático contínuo, medida indicada para a redução dos sintomas noturnos da asma.",
+   "Prescrever apenas anti-histamínico oral diário, tratamento suficiente para o controle do quadro descrito."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "GINA — Global Strategy for Asthma Management and Prevention, 2025",
+  "coment": "O tratamento da asma com beta-agonista de curta duração isolado foi abandonado, por aumentar exacerbações graves e mortalidade. Toda pessoa com asma deve receber tratamento contendo corticoide inalatório. A estratégia preferencial combina corticoide inalatório com formoterol, usada conforme a necessidade nas etapas iniciais e como manutenção e resgate nas etapas seguintes. Avaliam-se ainda técnica inalatória, adesão, gatilhos e comorbidades antes de escalonar.",
+  "porAlt": [
+   "Correta: introduzir corticoide inalatório com formoterol, abandonando o uso isolado do resgate.",
+   "O uso isolado de beta-agonista de curta duração aumenta exacerbações graves e a mortalidade.",
+   "O corticoide oral contínuo se reserva à asma grave refratária, pela toxicidade sistêmica acumulada.",
+   "O antibiótico profilático não tem papel no controle da asma, que é doença inflamatória crônica.",
+   "O anti-histamínico pode ajudar na rinite associada, mas não controla a inflamação brônquica."
+  ]
+ },
+ {
+  "q": "Paciente de 60 anos com nódulo pulmonar sólido de 9 mm encontrado incidentalmente em tomografia, tabagista. Qual é a conduta?",
+  "alts": [
+   "Seguimento tomográfico programado ou investigação adicional, sempre conforme o risco estimado de malignidade.",
+   "Realizar toracotomia com ressecção imediata em todos os pacientes com nódulo pulmonar dessa dimensão agora.",
+   "Ignorar o achado e repetir a tomografia apenas depois de cinco anos, já independentemente do risco estimado.",
+   "Iniciar quimioterapia empírica antes de qualquer confirmação histológica da natureza do nódulo achado agora.",
+   "Solicitar apenas radiografia de tórax anual, exame suficiente para o seguimento do nódulo descrito agora."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Fleischner Society Guidelines for Management of Incidental Pulmonary Nodules, 2017 com revisão 2023; NCCN, 2024",
+  "coment": "Nódulo sólido incidental entre seis e oito milímetros em paciente de alto risco é seguido com tomografia em seis a doze meses e depois em dezoito a vinte e quatro meses. Acima de oito milímetros, considera-se tomografia em três meses, PET-CT ou biópsia, conforme a probabilidade de malignidade estimada por idade, tabagismo, tamanho, localização em lobo superior e espiculação. A radiografia é insuficiente para o seguimento por não detectar crescimento sutil.",
+  "porAlt": [
+   "Correta: seguimento tomográfico ou investigação adicional, definidos pelo risco estimado de malignidade.",
+   "A ressecção imediata sem estratificação expõe a cirurgia torácica lesões frequentemente benignas.",
+   "Adiar por cinco anos permite crescimento de neoplasia potencialmente curável no momento do achado.",
+   "Não se inicia quimioterapia sem confirmação histológica e sem estadiamento adequado da doença.",
+   "A radiografia não detecta variações sutis de tamanho e é inadequada ao seguimento do nódulo."
+  ]
+ },
+ {
+  "q": "Paciente com derrame pleural unilateral de moderado volume, sem causa evidente. Qual é a conduta inicial?",
+  "alts": [
+   "Toracocentese diagnóstica com análise do líquido, sempre aplicando os critérios que separam transudato.",
+   "Iniciar antibiótico empírico de amplo espectro sem qualquer punção diagnóstica prévia do derrame agora.",
+   "Iniciar diurético em dose alta e reavaliar em trinta dias sem qualquer análise do líquido pleural.",
+   "Indicar pleurodese química imediata em todos os casos de derrame pleural unilateral de causa indefinida.",
+   "Solicitar apenas tomografia de tórax, exame que estabelece a etiologia do derrame pleural descrito."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "BTS Pleural Disease Guideline, 2023; ATS/STS/STR clinical practice guideline, 2018",
+  "coment": "Derrame pleural de causa indeterminada exige toracocentese diagnóstica. Os critérios de Light separam transudato de exsudato pela relação de proteínas e de desidrogenase láctica entre líquido e soro. Exsudato indica investigação adicional com citologia, cultura, pesquisa de bacilos, adenosina deaminase e, se necessário, biópsia pleural. Transudato aponta insuficiência cardíaca, cirrose ou síndrome nefrótica, tratando-se a doença de base.",
+  "porAlt": [
+   "Correta: toracocentese diagnóstica com aplicação dos critérios que diferenciam transudato de exsudato.",
+   "Tratar empiricamente sem punção deixa sem diagnóstico causas que exigem abordagem específica.",
+   "O diurético trata transudato cardiogênico, hipótese que ainda não foi estabelecida neste caso.",
+   "A pleurodese é tratamento de derrame maligno recidivante, e não conduta diagnóstica inicial.",
+   "A tomografia caracteriza o derrame e o parênquima, mas não substitui a análise do líquido pleural."
+  ]
+ },
+ {
+  "q": "Paciente com doença pulmonar obstrutiva crônica em exacerbação, com hipercapnia, pH de 7,28 e dispneia importante. Qual é a conduta?",
+  "alts": [
+   "Ventilação não invasiva com dois níveis de pressão, sempre associada a broncodilatador e corticoide.",
+   "Intubação orotraqueal imediata em todos os pacientes com esse valor de pH sem qualquer tentativa prévia.",
+   "Oxigênio em alto fluxo com alvo de saturação acima de noventa e oito por cento em todos os casos.",
+   "Prescrever apenas antibiótico oral e observar clinicamente por vinte e quatro horas sem outra medida.",
+   "Iniciar sedação profunda para reduzir o trabalho respiratório do paciente antes de qualquer suporte."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "GOLD Report, 2025; ERS/ATS guidelines on noninvasive ventilation for acute respiratory failure, 2017 com revisão 2023",
+  "coment": "Na exacerbação com acidose respiratória — pH abaixo de 7,35 com hipercapnia — a ventilação não invasiva com dois níveis de pressão é a intervenção que reduz intubação, mortalidade e tempo de internação, sendo indicação de primeira linha. Associa-se broncodilatador de curta duração, corticoide sistêmico por cinco dias e antibiótico quando há aumento de purulência e volume do escarro. O alvo de saturação é de 88 a 92 por cento, evitando hiperóxia.",
+  "porAlt": [
+   "Correta: ventilação não invasiva com dois níveis de pressão, somada a broncodilatador e corticoide.",
+   "A intubação se reserva à falha da ventilação não invasiva ou a contraindicação formal ao método.",
+   "O alvo de saturação nessa doença é de 88 a 92 por cento, pois a hiperóxia agrava a hipercapnia.",
+   "O antibiótico isolado não corrige a acidose respiratória nem alivia o trabalho respiratório.",
+   "A sedação sem suporte ventilatório agrava a hipoventilação e pode precipitar parada respiratória."
+  ]
+ },
+ {
+  "q": "Homem de 45 anos com sonolência diurna excessiva, roncos e pausas respiratórias observadas pela parceira, com IMC de 34 kg/m². Qual é a conduta?",
+  "alts": [
+   "Polissonografia ou poligrafia domiciliar e tratamento com pressão positiva, sempre com perda de peso.",
+   "Prescrever apenas estimulante do sistema nervoso central para o controle da sonolência diurna do paciente.",
+   "Iniciar benzodiazepínico noturno para melhorar a qualidade do sono e reduzir os roncos referidos.",
+   "Indicar traqueostomia imediata em todos os pacientes com roncos e pausas respiratórias observadas.",
+   "Prescrever apenas descongestionante nasal contínuo como tratamento definitivo do quadro descrito."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AASM Clinical Practice Guideline for Diagnostic Testing for Adult Obstructive Sleep Apnea, 2017 com revisão 2023; SBPT, 2022",
+  "coment": "A apneia obstrutiva do sono é confirmada por polissonografia ou, em alta probabilidade sem comorbidade cardiorrespiratória grave, por poligrafia domiciliar. O tratamento de primeira linha na doença moderada a grave é pressão positiva contínua, associada a perda de peso, higiene do sono, tratamento posicional e evitação de álcool e sedativos. Aparelho intraoral é alternativa em casos leves a moderados. Benzodiazepínicos agravam a apneia.",
+  "porAlt": [
+   "Correta: confirmar por polissonografia ou poligrafia e tratar com pressão positiva e perda de peso.",
+   "O estimulante trata sonolência residual, mas não corrige a obstrução nem os riscos associados.",
+   "O benzodiazepínico relaxa a musculatura faríngea e agrava as apneias durante o sono do paciente.",
+   "A traqueostomia é medida excepcional para casos graves refratários a todas as outras opções.",
+   "O descongestionante contínuo não trata a obstrução faríngea e causa rinite medicamentosa."
+  ]
+ },
+ {
+  "q": "Paciente com pneumonia adquirida na comunidade e CURB-65 de 1, sem comorbidades descompensadas. Qual é a conduta?",
+  "alts": [
+   "Tratamento ambulatorial com antibiótico oral, sempre com reavaliação clínica em quarenta e oito horas.",
+   "Internação em unidade de terapia intensiva para todos os pacientes com esse escore de gravidade agora.",
+   "Antibiótico endovenoso de amplo espectro em ambiente hospitalar por catorze dias em todos os casos.",
+   "Não prescrever antibiótico e reavaliar apenas em uma semana, dada a baixa gravidade do quadro agora.",
+   "Solicitar tomografia de tórax de rotina antes de qualquer prescrição de antibiótico para o paciente."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ATS/IDSA Guidelines for Community-Acquired Pneumonia, 2019 com revisão 2023; SBPT — Diretrizes de pneumonia, 2023",
+  "coment": "O escore CURB-65 estima gravidade pela confusão, ureia, frequência respiratória, pressão arterial e idade acima de sessenta e cinco anos. Pontuação de zero a um permite tratamento ambulatorial na maioria dos casos, com amoxicilina ou amoxicilina com clavulanato, ou macrolídeo conforme o perfil e as comorbidades. A reavaliação em quarenta e oito a setenta e duas horas é essencial para identificar falha terapêutica precoce e complicações.",
+  "porAlt": [
+   "Correta: tratamento ambulatorial com antibiótico oral e reavaliação clínica em quarenta e oito horas.",
+   "A unidade intensiva se reserva a critérios de gravidade que este paciente não apresenta.",
+   "O amplo espectro endovenoso por catorze dias é excessivo e favorece resistência antimicrobiana.",
+   "Não prescrever antibiótico em pneumonia confirmada permite progressão e complicação evitável.",
+   "A tomografia não é necessária quando o diagnóstico está estabelecido pela clínica e radiografia."
+  ]
+ },
+ {
+  "q": "Paciente com dispneia súbita, dor torácica pleurítica e taquicardia, com escore de Wells de probabilidade alta. Qual é a conduta?",
+  "alts": [
+   "Anticoagulação empírica e angiotomografia de tórax, sempre iniciada antes da confirmação por imagem.",
+   "Solicitar dímero-D e afastar o diagnóstico caso o resultado do exame se apresente dentro da normalidade.",
+   "Aguardar o resultado da angiotomografia antes de iniciar qualquer anticoagulação no paciente descrito.",
+   "Prescrever apenas analgésico e oxigênio suplementar, sem qualquer anticoagulação empírica indicada.",
+   "Iniciar trombólise sistêmica em todos os pacientes com probabilidade clínica alta para essa doença."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ESC Guidelines on the diagnosis and management of acute pulmonary embolism, 2019 com atualização 2024",
+  "coment": "Com probabilidade clínica alta de embolia pulmonar, o dímero-D não deve ser usado, pois seu valor normal não exclui a doença nesse cenário: parte-se direto para angiotomografia de tórax. Se houver previsão de demora para o exame e não houver alto risco de sangramento, a anticoagulação empírica é iniciada de imediato. Trombólise se reserva à embolia de alto risco, com instabilidade hemodinâmica ou hipotensão sustentada.",
+  "porAlt": [
+   "Correta: anticoagular empiricamente e confirmar com angiotomografia, sem esperar o exame para tratar.",
+   "Com probabilidade alta o dímero-D normal não exclui a doença e não deve ser usado para afastar.",
+   "Aguardar a imagem sem anticoagular expõe o paciente a extensão do trombo e a novos êmbolos.",
+   "Analgesia e oxigênio são suporte e não tratam o evento tromboembólico em curso no paciente.",
+   "A trombólise se reserva à embolia de alto risco com instabilidade hemodinâmica documentada."
+  ]
+ },
+ {
+  "q": "Paciente com tosse crônica há 10 semanas, sem tabagismo, com radiografia de tórax normal e sem uso de inibidor da enzima conversora. Qual é a abordagem inicial?",
+  "alts": [
+   "Investigar as três causas mais comuns, tratando sempre gotejamento nasal, asma e refluxo em sequência.",
+   "Solicitar tomografia de tórax e broncoscopia imediatamente em todos os pacientes com tosse crônica.",
+   "Prescrever antitussígeno de uso contínuo por seis meses sem qualquer investigação complementar agora.",
+   "Iniciar antibiótico de amplo espectro por quatro semanas como abordagem inicial da tosse crônica.",
+   "Iniciar corticoide sistêmico contínuo, abordagem de escolha para a tosse crônica com imagem normal."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "CHEST Expert Panel Report on chronic cough, 2018 com revisão 2023; ERS guidelines on chronic cough, 2020",
+  "coment": "Tosse crônica é definida por duração superior a oito semanas. Em não fumante, sem inibidor da enzima conversora e com radiografia normal, as três causas mais frequentes são síndrome de tosse de via aérea superior, asma ou tosse variante asmática e doença do refluxo gastroesofágico, isoladas ou combinadas. A abordagem é investigação e tratamento empírico sequencial dessas causas, reservando investigação adicional para os casos sem resposta.",
+  "porAlt": [
+   "Correta: investigar e tratar sequencialmente gotejamento nasal, asma e refluxo, as três causas mais comuns.",
+   "A investigação invasiva é reservada a sinais de alarme ou falha da abordagem inicial sequencial.",
+   "O antitussígeno contínuo mascara o sintoma sem tratar a causa subjacente da tosse crônica.",
+   "O antibiótico prolongado não trata as causas mais frequentes de tosse crônica em não fumante.",
+   "O corticoide sistêmico contínuo tem toxicidade elevada e não é a abordagem inicial indicada."
+  ]
+ },
+ {
+  "q": "Paciente com hemoptise volumosa e instabilidade respiratória. Qual é a primeira medida?",
+  "alts": [
+   "Proteger a via aérea e posicionar o paciente com o lado sangrante sempre voltado para baixo agora.",
+   "Posicionar o paciente com o lado sangrante voltado para cima para favorecer a ventilação do pulmão.",
+   "Iniciar anticoagulação plena imediatamente como primeira medida diante da hemoptise volumosa descrita.",
+   "Realizar fisioterapia respiratória com percussão torácica vigorosa como primeira medida terapêutica.",
+   "Prescrever apenas antitussígeno e observar clinicamente por doze horas antes de qualquer intervenção."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "CHEST guideline on management of massive hemoptysis, revisão 2023; ERS statement on hemoptysis, 2020",
+  "coment": "Na hemoptise maciça a morte ocorre por asfixia, não por perda sanguínea. A prioridade é proteger a via aérea, com intubação seletiva se necessário, e posicionar o paciente em decúbito lateral com o lado sangrante para baixo, impedindo que o sangue inunde o pulmão sadio. Segue-se correção de coagulopatia, broncoscopia para localizar e tratar, e arteriografia brônquica com embolização, que é o tratamento definitivo na maioria dos casos.",
+  "porAlt": [
+   "Correta: proteger a via aérea e posicionar em decúbito lateral com o lado sangrante voltado para baixo.",
+   "Posicionar o lado sangrante para cima faz o sangue inundar o pulmão sadio e agrava a asfixia.",
+   "A anticoagulação agrava o sangramento e é o oposto do indicado nessa situação de hemoptise.",
+   "A percussão torácica pode agravar o sangramento e não protege a via aérea do paciente instável.",
+   "Observar sem proteger a via aérea permite asfixia, que é a principal causa de morte nesse quadro."
+  ]
+ }
+]

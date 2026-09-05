@@ -7510,5 +7510,1445 @@ window.BANCO=[
 "Cauterizar às cegas lesa mucosa sadia e pode causar perfuração septal sem controlar o sangramento.",
 "O anti-hipertensivo de rotina não é a primeira medida; controla-se primeiro o sangramento local."
 ]
+},
+{
+"q": "Homem de 58 anos com dispneia progressiva, ortopneia e edema, com fração de ejeção de 30%. Já usa inibidor da enzima conversora e betabloqueador otimizados. Qual é o próximo passo?",
+"alts": [
+"Acrescentar antagonista mineralocorticoide e inibidor de SGLT2, sempre buscando as quatro classes basais.",
+"Acrescentar apenas diurético de alça em dose alta, medida que reduz mortalidade nesse perfil clínico.",
+"Suspender o betabloqueador diante da fração de ejeção reduzida e da congestão clínica apresentada agora.",
+"Iniciar digoxina como próxima droga modificadora de prognóstico nesse paciente já otimizado neste caso.",
+"Indicar transplante cardíaco imediatamente, antes de completar o tratamento medicamentoso otimizado."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024; ESC Heart Failure Guidelines, 2021 com atualização 2023",
+"coment": "O tratamento da insuficiência cardíaca com fração de ejeção reduzida se apoia em quatro pilares que reduzem mortalidade: inibidor do sistema renina-angiotensina, preferencialmente sacubitril-valsartana, betabloqueador, antagonista do receptor mineralocorticoide e inibidor de SGLT2. As quatro classes devem ser instituídas rapidamente, em semanas, com titulação subsequente. Diuréticos aliviam congestão sem impacto em mortalidade, e a digoxina reduz internação sem reduzir óbito.",
+"porAlt": [
+"Correta: completar os quatro pilares acrescentando antagonista mineralocorticoide e inibidor de SGLT2.",
+"O diurético de alça alivia congestão e melhora sintomas, mas não reduz mortalidade nessa doença.",
+"Suspender o betabloqueador retira um pilar que reduz mortalidade; ajusta-se a dose se necessário.",
+"A digoxina reduz internações sem reduzir mortalidade e não precede as classes com esse benefício.",
+"O transplante se avalia após otimização plena e persistência de doença avançada e refratária."
+]
+},
+{
+"q": "Paciente de 62 anos com dor torácica típica há 40 minutos e supradesnivelamento de ST em parede inferior. O hospital não tem hemodinâmica e a transferência levaria 3 horas. Qual é a conduta?",
+"alts": [
+"Trombolítico imediato no local e transferência para centro com hemodinâmica, sempre após a infusão.",
+"Aguardar a transferência para angioplastia primária, ainda que o tempo total ultrapasse três horas.",
+"Prescrever apenas antiagregante e anticoagulante, sem qualquer estratégia de reperfusão miocárdica.",
+"Solicitar cintilografia miocárdica antes de decidir sobre a estratégia de reperfusão do paciente.",
+"Iniciar betabloqueador endovenoso em dose alta como principal estratégia de reperfusão coronariana."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Diretriz Brasileira de Síndromes Coronarianas Agudas com Supradesnivelamento de ST — SBC, 2021; ESC STEMI guidelines, 2023",
+"coment": "No infarto com supradesnivelamento de ST, a angioplastia primária é preferida quando o tempo entre o primeiro contato médico e a abertura do vaso é inferior a cento e vinte minutos. Se esse tempo não é factível, indica-se trombólise no local, idealmente em até trinta minutos da chegada, seguida de transferência para estratégia fármaco-invasiva com coronariografia entre duas e vinte e quatro horas. Reperfundir tarde é pior do que reperfundir com trombolítico logo.",
+"porAlt": [
+"Correta: trombólise imediata seguida de transferência para estratégia fármaco-invasiva programada.",
+"Aguardar transferência longa perde músculo viável e piora mortalidade em comparação à trombólise.",
+"Antiagregante e anticoagulante são adjuvantes e não substituem a reperfusão do vaso ocluído.",
+"A cintilografia não tem papel na fase aguda e apenas atrasaria a reperfusão do miocárdio.",
+"O betabloqueador é adjuvante e não promove reperfusão da artéria coronária ocluída pelo trombo."
+]
+},
+{
+"q": "Homem de 70 anos com sopro sistólico rude em foco aórtico irradiado para carótidas, síncope aos esforços e área valvar de 0,8 cm². Qual é a conduta?",
+"alts": [
+"Encaminhar para substituição valvar, pois o sintoma indica sempre intervenção na estenose grave.",
+"Manter tratamento clínico com vasodilatador em dose plena e reavaliar em doze meses de seguimento.",
+"Indicar apenas restrição de sal e diurético, medidas que revertem a obstrução valvar do paciente.",
+"Iniciar anticoagulação oral plena, tratamento de escolha para a estenose aórtica grave sintomática.",
+"Prescrever betabloqueador em dose alta, já medida que reduz o gradiente transvalvar e resolve o quadro."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Diretriz Brasileira de Valvopatias — SBC, 2020 com atualização 2023; ACC/AHA Valvular Heart Disease Guideline, 2020",
+"coment": "A estenose aórtica grave sintomática — angina, síncope ou insuficiência cardíaca — tem prognóstico ruim sem intervenção, com sobrevida média de dois a cinco anos conforme o sintoma. A indicação de troca valvar é classe I, seja cirúrgica ou por implante transcateter, escolhida por risco cirúrgico, idade, anatomia e preferência. Vasodilatadores devem ser usados com cautela extrema, pois a redução da pós-carga em obstrução fixa pode precipitar hipotensão grave.",
+"porAlt": [
+"Correta: estenose aórtica grave sintomática tem indicação de troca valvar cirúrgica ou transcateter.",
+"Vasodilatador em obstrução fixa pode precipitar hipotensão grave e não resolve a lesão valvar.",
+"Restrição de sal e diurético aliviam congestão, mas não corrigem a obstrução valvar mecânica.",
+"A anticoagulação não tem indicação pela estenose aórtica isolada sem outra condição associada.",
+"O betabloqueador não reduz a obstrução valvar fixa e pode piorar o débito em alguns pacientes."
+]
+},
+{
+"q": "Paciente de 55 anos, hipertenso e diabético, com LDL de 160 mg/dL e risco cardiovascular alto. Qual é a conduta?",
+"alts": [
+"Estatina de alta potência com meta de LDL abaixo de 70 mg/dL, sempre associada a mudança de estilo de vida.",
+"Prescrever apenas dieta e exercício por doze meses antes de considerar qualquer terapia farmacológica.",
+"Iniciar fibrato isolado, já tratamento de primeira escolha para reduzir o LDL nesse perfil de risco agora.",
+"Iniciar ômega-3 em dose alta como monoterapia para atingir a meta lipídica desse paciente diabético agora.",
+"Não tratar o colesterol enquanto a pressão arterial não estiver plenamente controlada no paciente agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Atualização da Diretriz Brasileira de Dislipidemias — SBC, 2025; ESC/EAS Dyslipidaemia Guidelines, 2019 com atualização 2023",
+"coment": "Paciente diabético e hipertenso com LDL de 160 mg/dL está em risco alto ou muito alto, com meta de LDL abaixo de 70 mg/dL no alto risco e abaixo de 50 mg/dL no muito alto. O tratamento é estatina de alta potência desde o início, associada a mudança de estilo de vida, com ezetimiba e, se necessário, inibidor de PCSK9 quando a meta não é atingida. Fibratos atuam sobre triglicerídeos e não são a escolha para reduzir LDL.",
+"porAlt": [
+"Correta: estatina de alta potência com meta agressiva de LDL, somada à mudança de estilo de vida.",
+"Adiar a estatina por doze meses em paciente de alto risco deixa eventos evitáveis sem prevenção.",
+"O fibrato atua sobre triglicerídeos e tem efeito modesto sobre o LDL, não sendo primeira escolha.",
+"O ômega-3 não reduz LDL de forma relevante e não substitui a estatina na prevenção de eventos.",
+"O controle lipídico e o pressórico são conduzidos simultaneamente, e não em sequência."
+]
+},
+{
+"q": "Mulher de 68 anos com palpitações e eletrocardiograma mostrando taquicardia de QRS estreito, regular, a 180 bpm, com estabilidade hemodinâmica. Qual é a conduta inicial?",
+"alts": [
+"Manobra vagal e, se não houver reversão, adenosina endovenosa em bolus rápido, sempre monitorizada.",
+"Cardioversão elétrica sincronizada imediata em todos os casos de taquicardia com QRS estreito regular.",
+"Amiodarona endovenosa em infusão lenta como primeira medida na taquicardia supraventricular estável.",
+"Betabloqueador oral e observação ambulatorial sem qualquer tentativa de reversão do ritmo na urgência.",
+"Marca-passo transvenoso de urgência como conduta inicial diante da taquicardia supraventricular descrita."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "Diretriz Brasileira de Arritmias Cardíacas — SBC, 2016 com atualização 2022; ACC/AHA/HRS SVT guideline, revisão 2023",
+"coment": "Taquicardia supraventricular paroxística estável é tratada primeiro com manobras vagais, sendo a manobra de Valsalva modificada a de maior taxa de sucesso. Sem reversão, administra-se adenosina em bolus rápido com flush salino, por sua meia-vida muito curta, com monitorização eletrocardiográfica contínua. Bloqueadores de canal de cálcio e betabloqueadores endovenosos são alternativas. A cardioversão elétrica se reserva à instabilidade hemodinâmica.",
+"porAlt": [
+"Correta: manobra vagal seguida de adenosina em bolus rápido, com monitorização eletrocardiográfica.",
+"A cardioversão elétrica se reserva a instabilidade hemodinâmica, ausente neste caso descrito.",
+"A amiodarona não é a primeira escolha na supraventricular estável, com início de ação mais lento.",
+"Liberar sem reverter mantém a taquicardia sustentada e pode levar a taquicardiomiopatia.",
+"O marca-passo trata bradiarritmia e não tem qualquer papel no manejo dessa taquiarritmia."
+]
+},
+{
+"q": "Paciente de 45 anos com pressão de 190/120 mmHg, cefaleia intensa, papiledema e creatinina em elevação. Qual é a conduta?",
+"alts": [
+"Reduzir a pressão de forma controlada com anti-hipertensivo endovenoso, sempre em ambiente monitorizado.",
+"Reduzir a pressão para valores normais na primeira hora com nifedipino sublingual em dose alta agora.",
+"Prescrever anti-hipertensivo oral e liberar para acompanhamento ambulatorial na semana seguinte agora já.",
+"Aguardar redução espontânea da pressão em repouso por vinte e quatro horas antes de qualquer droga.",
+"Prescrever apenas analgésico para a cefaleia, sem qualquer intervenção sobre o nível pressórico agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; ESC hypertension guidelines, 2024",
+"coment": "Emergência hipertensiva é elevação pressórica com lesão aguda de órgão-alvo, aqui encefalopatia e lesão renal. O tratamento é endovenoso em ambiente monitorizado, com nitroprussiato, nicardipino ou clevidipino, reduzindo a pressão arterial média em cerca de vinte a vinte e cinco por cento na primeira hora e alcançando 160 por 100 mmHg em algumas horas. Queda abrupta reduz a perfusão cerebral, coronariana e renal, podendo causar isquemia. Nifedipino sublingual é proscrito.",
+"porAlt": [
+"Correta: redução gradual e controlada com anti-hipertensivo endovenoso em ambiente monitorizado.",
+"O nifedipino sublingual causa queda abrupta e imprevisível, com risco de isquemia, sendo proscrito.",
+"Tratamento oral ambulatorial é insuficiente diante de lesão aguda de órgão-alvo estabelecida.",
+"Aguardar sem tratar permite a progressão do dano cerebral e renal já em curso no paciente.",
+"O analgésico não trata a causa e a cefaleia aqui é manifestação da encefalopatia hipertensiva."
+]
+},
+{
+"q": "Homem de 60 anos com fibrilação atrial não valvar, hipertensão, diabetes e acidente vascular cerebral prévio. Qual é a conduta quanto à profilaxia de embolia?",
+"alts": [
+"Anticoagulação oral plena com anticoagulante direto, sempre preferido à varfarina na doença não valvar.",
+"Apenas ácido acetilsalicílico em dose baixa, suficiente para prevenir embolia nesse perfil de risco.",
+"Nenhuma profilaxia enquanto o paciente permanecer assintomático e com frequência cardíaca controlada.",
+"Clopidogrel isolado, estratégia preferida à anticoagulação para prevenção de embolia nesse paciente.",
+"Anticoagulação apenas durante internações, suspendendo o fármaco a cada alta hospitalar do paciente."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Diretriz Brasileira de Fibrilação Atrial — SBC, 2024; ESC Atrial Fibrillation Guidelines, 2024",
+"coment": "O escore CHA2DS2-VASc deste paciente é alto, com hipertensão, diabetes e acidente vascular prévio, que sozinho vale dois pontos. A anticoagulação oral está indicada, e os anticoagulantes diretos — apixabana, rivaroxabana, edoxabana e dabigatrana — são preferidos à varfarina na fibrilação atrial não valvar por menor risco de hemorragia intracraniana e por dispensarem monitorização de rotina. Antiagregantes não substituem anticoagulação nessa indicação.",
+"porAlt": [
+"Correta: anticoagulação oral plena, com anticoagulante direto preferido na fibrilação atrial não valvar.",
+"O ácido acetilsalicílico é insuficiente para a prevenção de embolia na fibrilação atrial de alto risco.",
+"O risco embólico independe de sintomas e do controle da frequência cardíaca do paciente.",
+"O clopidogrel isolado é inferior à anticoagulação na prevenção de embolia dessa arritmia.",
+"A anticoagulação é contínua; suspender a cada alta expõe o paciente a eventos embólicos evitáveis."
+]
+},
+{
+"q": "Paciente com dor torácica, hipotensão, turgência jugular e bulhas abafadas após trauma torácico fechado. Qual é a conduta imediata?",
+"alts": [
+"Pericardiocentese de urgência associada sempre a reposição volêmica enquanto se prepara o procedimento.",
+"Iniciar diurético endovenoso em dose alta para reduzir a pressão de enchimento do coração comprometido.",
+"Solicitar ressonância cardíaca antes de qualquer intervenção sobre o quadro hemodinâmico descrito.",
+"Prescrever betabloqueador endovenoso para reduzir a frequência cardíaca e melhorar o enchimento agora.",
+"Aguardar estabilização espontânea por duas horas antes de qualquer procedimento invasivo no paciente."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ATLS 11ª edição, 2024; ESC Guidelines on Pericardial Diseases, 2015 com revisão 2023",
+"coment": "A tríade de Beck — hipotensão, turgência jugular e bulhas abafadas — sugere tamponamento cardíaco, no qual o enchimento diastólico é restringido pelo derrame sob pressão. A conduta é drenagem imediata por pericardiocentese, idealmente guiada por ultrassom, ou toracotomia conforme o contexto do trauma, enquanto se repõe volume para manter a pré-carga. Diuréticos e vasodilatadores são deletérios porque reduzem justamente o enchimento que sustenta o débito.",
+"porAlt": [
+"Correta: pericardiocentese de urgência com reposição volêmica para manter a pré-carga até a drenagem.",
+"O diurético reduz a pré-carga que sustenta o débito no tamponamento e agrava o choque instalado.",
+"A ressonância não tem papel na emergência e apenas atrasaria a drenagem que salva a vida.",
+"O betabloqueador reduz a taquicardia compensatória necessária para manter o débito cardíaco.",
+"Aguardar duas horas em tamponamento com choque leva a parada cardíaca por dissociação eletromecânica."
+]
+},
+{
+"q": "Homem de 66 anos com claudicação intermitente de panturrilha após 200 metros e índice tornozelo-braquial de 0,7. Qual é a conduta inicial?",
+"alts": [
+"Programa de exercício supervisionado com estatina e antiagregante, sempre com cessação do tabagismo.",
+"Indicar revascularização cirúrgica imediata a todos os pacientes com claudicação intermitente descrita.",
+"Prescrever repouso prolongado dos membros inferiores como principal medida terapêutica desse quadro.",
+"Iniciar anticoagulação oral plena, tratamento de escolha para a doença arterial periférica sintomática.",
+"Prescrever apenas vasodilatador oral, medida isolada que resolve a claudicação e melhora o prognóstico."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ESC/ESVS Guidelines on Peripheral Arterial Diseases, 2024; AHA/ACC Lower Extremity PAD Guideline, 2024",
+"coment": "A doença arterial periférica com claudicação é tratada inicialmente com terapia clínica intensiva: cessação do tabagismo, exercício supervisionado — que aumenta a distância de marcha de forma comparável à revascularização em muitos pacientes —, estatina de alta potência, antiagregante e controle de pressão e glicemia. O índice tornozelo-braquial abaixo de 0,9 confirma o diagnóstico. Revascularização se reserva a sintomas limitantes refratários ou isquemia crítica.",
+"porAlt": [
+"Correta: exercício supervisionado, estatina, antiagregante e cessação do tabagismo como base do tratamento.",
+"A revascularização se reserva a sintomas refratários ou isquemia crítica, e não à claudicação inicial.",
+"O repouso piora o condicionamento e reduz a distância de marcha, sendo o oposto do recomendado.",
+"A anticoagulação plena não é o tratamento da doença arterial periférica aterosclerótica estável.",
+"O vasodilatador isolado tem benefício limitado e não modifica o prognóstico cardiovascular global."
+]
+},
+{
+"q": "Paciente com insuficiência cardíaca com fração de ejeção preservada, hipertensa e obesa, com dispneia aos esforços. Qual é a conduta com melhor evidência?",
+"alts": [
+"Inibidor de SGLT2 associado sempre ao controle da pressão, ao manejo do peso e ao uso de diurético.",
+"Digoxina em dose plena, medida com melhor evidência de benefício nessa forma de insuficiência cardíaca.",
+"Betabloqueador em dose alta isolado, intervenção que reduz mortalidade nessa apresentação clínica.",
+"Anticoagulação oral plena de rotina, conduta recomendada para todos os pacientes com esse diagnóstico.",
+"Restrição hídrica extrema de meio litro por dia como principal intervenção terapêutica nesses casos."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024; ESC Focused Update on Heart Failure, 2023",
+"coment": "Na insuficiência cardíaca com fração de ejeção preservada, os inibidores de SGLT2 são a primeira classe com benefício consistente em ensaios randomizados, reduzindo internação e morte cardiovascular, e passaram a recomendação forte. O restante do tratamento consiste em diurético para congestão, controle rigoroso da pressão arterial, manejo do peso e das comorbidades, e atividade física. Antagonistas mineralocorticoides podem ser considerados em subgrupos.",
+"porAlt": [
+"Correta: inibidor de SGLT2 com controle pressórico, manejo do peso e diurético para a congestão.",
+"A digoxina não tem benefício demonstrado nessa forma de insuficiência cardíaca com fração preservada.",
+"O betabloqueador não demonstrou redução de mortalidade nessa apresentação da insuficiência cardíaca.",
+"A anticoagulação de rotina não é indicada sem fibrilação atrial ou outra indicação específica.",
+"A restrição hídrica extrema não tem respaldo e pode causar desidratação e lesão renal aguda."
+]
+},
+{
+"q": "Paciente com diagnóstico recente de HIV, CD4 de 120 células/mm³, assintomático. Qual é a conduta?",
+"alts": [
+"Iniciar antirretroviral imediatamente e avaliar sempre a necessidade de profilaxias para oportunistas.",
+"Aguardar o CD4 cair abaixo de cinquenta células antes de iniciar qualquer terapia antirretroviral.",
+"Iniciar apenas profilaxia com sulfametoxazol-trimetoprima, adiando o antirretroviral por seis meses.",
+"Iniciar antirretroviral apenas quando surgir a primeira infecção oportunista definidora de aids agora.",
+"Solicitar apenas carga viral seriada trimestral, sem qualquer tratamento antirretroviral no período."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; DHHS Guidelines, 2024",
+"coment": "O tratamento antirretroviral é indicado para toda pessoa com HIV, independentemente de CD4 ou de sintomas, e deve ser iniciado o mais rápido possível, inclusive no mesmo dia do diagnóstico quando há condições. O esquema preferencial no Brasil é tenofovir com lamivudina e dolutegravir. Com CD4 abaixo de 200 células por milímetro cúbico indica-se profilaxia para pneumocistose com sulfametoxazol-trimetoprima, e é preciso afastar tuberculose e criptococose ativas antes.",
+"porAlt": [
+"Correta: antirretroviral imediato, com avaliação das profilaxias indicadas para o nível de CD4.",
+"Aguardar queda do CD4 é conduta abandonada há anos e aumenta morbidade e mortalidade.",
+"A profilaxia é necessária, mas adiar o antirretroviral mantém a replicação viral e a imunossupressão.",
+"Esperar a doença oportunista significa deixar o paciente evoluir para aids de forma evitável.",
+"Monitorizar sem tratar não interrompe a progressão da doença nem reduz a transmissão."
+]
+},
+{
+"q": "Homem de 40 anos com tosse produtiva há 4 semanas, febre vespertina, sudorese noturna e perda de peso. Qual é a conduta inicial?",
+"alts": [
+"Solicitar teste rápido molecular para tuberculose no escarro e notificar sempre o caso confirmado.",
+"Iniciar antibiótico de amplo espectro por dez dias e reavaliar apenas se não houver melhora clínica.",
+"Solicitar apenas radiografia de tórax e iniciar tratamento empírico sem qualquer exame de escarro.",
+"Prescrever antitussígeno e reavaliar clinicamente em dois meses caso a tosse não tenha melhorado.",
+"Solicitar tomografia de tórax de rotina como primeiro exame para o diagnóstico de tuberculose pulmonar."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019 com atualização 2023",
+"coment": "Tosse por três semanas ou mais define sintomático respiratório e obriga a investigar tuberculose. O exame de escolha no Brasil é o teste rápido molecular, que detecta o complexo Mycobacterium tuberculosis e a resistência à rifampicina em poucas horas. Cultura com teste de sensibilidade é solicitada nos casos indicados. A tuberculose é de notificação compulsória, e todo paciente diagnosticado deve ser testado para HIV e ter seus contatos avaliados.",
+"porAlt": [
+"Correta: teste rápido molecular no escarro, com notificação compulsória do caso confirmado.",
+"Antibiótico de amplo espectro atrasa o diagnóstico e mantém a transmissão ativa no domicílio.",
+"A radiografia é complementar e não substitui a pesquisa bacteriológica no escarro do paciente.",
+"Adiar por dois meses mantém a transmissão e permite a progressão da doença pulmonar.",
+"A tomografia não é o primeiro exame; o diagnóstico se apoia na investigação bacteriológica."
+]
+},
+{
+"q": "Paciente com febre há 5 dias, mialgia, cefaleia retro-orbitária e prova do laço positiva, com plaquetas de 90.000/mm³ e dor abdominal intensa. Qual é a conduta?",
+"alts": [
+"Hidratação endovenosa em ambiente de observação, pois o sinal de alarme indica sempre risco de choque.",
+"Alta domiciliar com hidratação oral e retorno apenas se surgir sangramento espontâneo em mucosas.",
+"Prescrever ácido acetilsalicílico para o controle da febre e da mialgia intensa referida pelo paciente.",
+"Iniciar antibiótico de amplo espectro endovenoso como tratamento específico para o quadro descrito.",
+"Transfundir plaquetas profilaticamente diante da contagem observada, antes de qualquer hidratação."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "Ministério da Saúde — Dengue: diagnóstico e manejo clínico, adulto e criança, 6ª edição, 2024",
+"coment": "Dor abdominal intensa e contínua é sinal de alarme na dengue, classificando o paciente no grupo C, que exige hidratação endovenosa imediata com dez mililitros por quilo na primeira hora e observação em unidade com leito. Os sinais de alarme aparecem tipicamente na defervescência, quando ocorre o extravasamento plasmático. Salicilatos e anti-inflamatórios são contraindicados pelo risco de sangramento, e a transfusão de plaquetas profilática não é recomendada.",
+"porAlt": [
+"Correta: sinal de alarme indica hidratação endovenosa imediata e observação em unidade de saúde.",
+"A alta domiciliar diante de sinal de alarme arrisca choque e óbito em poucas horas de evolução.",
+"Salicilatos são contraindicados na dengue por aumentarem o risco de sangramento no paciente.",
+"A dengue é viral e o antibiótico não tem qualquer papel no tratamento específico da doença.",
+"A transfusão profilática de plaquetas não é recomendada e não previne sangramento na dengue."
+]
+},
+{
+"q": "Paciente com febre, icterícia, mialgia intensa em panturrilhas, sufusão conjuntival e histórico de contato com água de enchente. Qual é a conduta?",
+"alts": [
+"Iniciar antibiótico específico precocemente e notificar sempre o caso à vigilância epidemiológica.",
+"Aguardar a confirmação sorológica antes de iniciar qualquer antibiótico no paciente com esse quadro.",
+"Prescrever apenas sintomáticos, pois a doença suspeitada tem curso invariavelmente autolimitado.",
+"Iniciar antiviral por sete dias, tratamento indicado para o quadro febril ictérico descrito no caso.",
+"Indicar hemodiálise imediata em todos os casos com icterícia e mialgia após contato com enchente."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de leptospirose",
+"coment": "A leptospirose deve ser suspeitada diante de febre, mialgia intensa em panturrilhas, sufusão conjuntival e exposição a água contaminada. O antibiótico é iniciado precocemente pela suspeita clínica, sem aguardar sorologia, que costuma positivar tardiamente: penicilina ou ceftriaxona nas formas graves, doxiciclina nas leves. A forma grave, síndrome de Weil, cursa com icterícia rubínica, lesão renal e hemorragia pulmonar. A doença é de notificação compulsória.",
+"porAlt": [
+"Correta: antibiótico precoce guiado pela suspeita clínica, com notificação compulsória do caso.",
+"A sorologia positiva tardiamente e aguardá-la atrasa o antibiótico que muda o desfecho da doença.",
+"A forma grave tem letalidade elevada e não é autolimitada, exigindo tratamento e suporte intensivo.",
+"A leptospirose é bacteriana e não responde a antiviral, que não tem papel algum no tratamento.",
+"A diálise se indica na lesão renal com critérios próprios, e não a todos os pacientes ictéricos."
+]
+},
+{
+"q": "Paciente com cefaleia, febre e rigidez de nuca. Após coleta de culturas, qual é a conduta imediata?",
+"alts": [
+"Iniciar antibiótico empírico imediatamente, sempre sem aguardar o resultado do líquido cefalorraquidiano.",
+"Aguardar o resultado da análise do líquor antes de administrar a primeira dose de antibiótico ao paciente.",
+"Iniciar apenas antiviral endovenoso, tratamento empírico de escolha para o quadro meníngeo descrito.",
+"Prescrever analgésico e observar clinicamente por doze horas antes de qualquer decisão terapêutica agora.",
+"Realizar tomografia de crânio em todos os pacientes antes de qualquer administração de antibiótico agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "IDSA/ESCMID guideline on bacterial meningitis, revisão 2023; Ministério da Saúde — Guia de Vigilância em Saúde, 2024",
+"coment": "Na suspeita de meningite bacteriana, cada hora de atraso na antibioticoterapia aumenta a mortalidade. Após coletar hemoculturas, o antibiótico empírico com ceftriaxona, associado a vancomicina conforme epidemiologia e a ampicilina em grupos de risco para Listeria, é administrado imediatamente, junto de dexametasona. A punção lombar é feita em seguida e não deve atrasar o tratamento. Tomografia prévia se reserva a imunossupressão, déficit focal, convulsão ou rebaixamento.",
+"porAlt": [
+"Correta: antibiótico empírico imediato após as culturas, sem aguardar o resultado do líquor.",
+"Aguardar o resultado do líquor atrasa horas o antibiótico e aumenta mortalidade e sequelas.",
+"O antiviral isolado não cobre a etiologia bacteriana, que é a de maior letalidade nesse quadro.",
+"Observar por doze horas em suspeita de meningite bacteriana é intervalo inaceitavelmente longo.",
+"A tomografia prévia é seletiva e, quando indicada, não deve retardar a primeira dose do antibiótico."
+]
+},
+{
+"q": "Paciente com febre alta há 3 dias após retorno de área endêmica de malária. Qual é a conduta imediata?",
+"alts": [
+"Pesquisa de plasmódio por gota espessa ou teste rápido e sempre tratamento conforme a espécie.",
+"Iniciar antibiótico de amplo espectro empírico sem qualquer investigação parasitológica prévia.",
+"Aguardar sete dias de febre antes de solicitar qualquer exame para pesquisa de plasmódio no sangue.",
+"Solicitar apenas hemocultura e tratar somente se houver crescimento bacteriano documentado já.",
+"Prescrever antitérmico e reavaliar clinicamente em uma semana caso a febre persista no paciente."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Ministério da Saúde — Guia de Tratamento da Malária no Brasil, 2023; OMS Guidelines for malaria, 2024",
+"coment": "Febre em quem esteve em área endêmica é malária até prova em contrário, e o diagnóstico é urgente porque a malária por Plasmodium falciparum pode evoluir para forma grave em poucas horas. A pesquisa é feita por gota espessa ou teste rápido, com resultado no mesmo atendimento. O tratamento depende da espécie: derivados de artemisinina combinados para falciparum e cloroquina com primaquina para vivax, esta última após avaliar deficiência de G6PD.",
+"porAlt": [
+"Correta: pesquisa imediata de plasmódio e tratamento conforme a espécie identificada no exame.",
+"Antibiótico empírico sem investigar malária deixa sem tratamento uma doença potencialmente fatal.",
+"Aguardar sete dias permite a evolução para malária grave, com disfunção orgânica e óbito.",
+"A hemocultura investiga bacteremia e não detecta o plasmódio responsável pelo quadro febril.",
+"Adiar por uma semana em suspeita de malária é conduta com risco elevado de desfecho fatal."
+]
+},
+{
+"q": "Profissional de saúde sofre acidente com agulha de paciente com HIV com carga viral detectável. Qual é a conduta?",
+"alts": [
+"Iniciar profilaxia pós-exposição idealmente nas primeiras duas horas, sempre com acompanhamento sorológico.",
+"Aguardar o resultado da sorologia do profissional acidentado antes de iniciar qualquer profilaxia indicada já.",
+"Iniciar profilaxia apenas se a sorologia do profissional se tornar reagente nas semanas seguintes agora já.",
+"Prescrever apenas antibiótico profilático e realizar acompanhamento sorológico por seis meses neste caso.",
+"Não indicar profilaxia, pois o risco de transmissão por acidente perfurocortante é considerado nulo agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "emg",
+"comp": "prev",
+"nivel": "r2",
+"base": "Ministério da Saúde — PCDT para Profilaxia Pós-Exposição de Risco à Infecção pelo HIV, IST e Hepatites Virais, 2024",
+"coment": "A profilaxia pós-exposição ao HIV deve começar o mais precocemente possível, idealmente nas primeiras duas horas e no máximo em setenta e duas horas, mantida por vinte e oito dias. O esquema preferencial é tenofovir com lamivudina e dolutegravir. Realiza-se sorologia basal do profissional, que se negativa não atrasa o início, e acompanhamento sorológico posterior. Avalia-se também profilaxia para hepatite B conforme situação vacinal e sorológica.",
+"porAlt": [
+"Correta: profilaxia iniciada o mais cedo possível, com sorologia basal e acompanhamento posterior.",
+"A sorologia basal é colhida mas não deve atrasar o início da profilaxia, que é tempo-dependente.",
+"Esperar a soroconversão significa não fazer profilaxia, pois nesse ponto a infecção já se instalou.",
+"O antibiótico não previne infecção viral e não substitui a profilaxia antirretroviral indicada.",
+"O risco não é nulo e a profilaxia reduz de forma expressiva a chance de transmissão do vírus."
+]
+},
+{
+"q": "Paciente com endocardite infecciosa por Staphylococcus aureus em válvula nativa, com insuficiência cardíaca aguda por regurgitação valvar grave. Qual é a conduta?",
+"alts": [
+"Antibiótico dirigido e avaliação cirúrgica precoce, pois a insuficiência cardíaca indica sempre intervenção.",
+"Manter apenas antibiótico endovenoso por seis semanas, sem qualquer avaliação de indicação cirúrgica agora.",
+"Aguardar a conclusão do tratamento antibiótico antes de considerar qualquer abordagem cirúrgica da válvula.",
+"Prescrever anticoagulação plena de rotina, medida indicada para todos os casos de endocardite infecciosa.",
+"Indicar apenas diurético e reavaliar em três meses com novo ecocardiograma transtorácico do paciente agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "ESC Guidelines for the management of endocarditis, 2023; AHA scientific statement on infective endocarditis, 2023",
+"coment": "A insuficiência cardíaca por disfunção valvar é a principal indicação de cirurgia na endocardite e a que mais impacta mortalidade, devendo ser realizada precocemente, sem esperar o término do antibiótico. As outras indicações são infecção não controlada — abscesso, febre persistente, germe resistente — e prevenção de embolia com vegetação grande após evento embólico. A anticoagulação de rotina não é indicada e pode aumentar o risco de hemorragia intracraniana.",
+"porAlt": [
+"Correta: antibiótico dirigido com avaliação cirúrgica precoce, pois a insuficiência cardíaca indica cirurgia.",
+"Manter apenas antibiótico diante de insuficiência cardíaca por disfunção valvar aumenta a mortalidade.",
+"Aguardar o fim do antibiótico atrasa a cirurgia que deveria ser precoce nessa indicação clínica.",
+"A anticoagulação de rotina não é indicada e aumenta o risco de hemorragia intracraniana no paciente.",
+"Diurético isolado não corrige a regurgitação grave e não resolve a infecção valvar estabelecida."
+]
+},
+{
+"q": "Paciente internado há 8 dias em uso de antibiótico apresenta diarreia aquosa, dor abdominal e leucocitose. Qual é a conduta?",
+"alts": [
+"Pesquisar toxina de Clostridioides difficile e tratar com antibiótico específico, suspendendo sempre o agente.",
+"Prescrever loperamida em dose plena para reduzir o número de evacuações e aliviar a dor abdominal neste caso.",
+"Manter o antibiótico em curso e prescrever apenas hidratação oral com reavaliação em uma semana neste caso.",
+"Iniciar corticoide sistêmico em dose alta, tratamento de escolha para a diarreia associada a antibiótico.",
+"Solicitar colonoscopia de rotina em todos os pacientes antes de qualquer tratamento específico da diarreia."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "IDSA/SHEA Clinical Practice Guidelines for Clostridioides difficile infection, atualização 2021 com revisão 2024",
+"coment": "Diarreia associada a antibiótico em paciente internado sugere infecção por Clostridioides difficile, diagnosticada por pesquisa de toxina ou teste molecular em fezes diarreicas. O tratamento de primeira linha é vancomicina oral ou fidaxomicina, com suspensão do antibiótico desencadeante sempre que possível e precauções de contato com higiene das mãos com água e sabão. Antiperistálticos são evitados por risco de megacólon tóxico e retenção da toxina.",
+"porAlt": [
+"Correta: pesquisar a toxina, tratar com antibiótico específico e suspender o agente desencadeante.",
+"A loperamida é evitada pelo risco de megacólon tóxico e retenção da toxina no lúmen intestinal.",
+"Manter o antibiótico desencadeante perpetua a disbiose e a infecção, agravando o quadro clínico.",
+"O corticoide não trata a infecção e pode agravar o quadro colônico do paciente internado.",
+"A colonoscopia se reserva a casos duvidosos ou graves, não sendo exame de rotina nesse contexto."
+]
+},
+{
+"q": "Homem de 35 anos com úlcera genital única, indolor, de bordas endurecidas e fundo limpo, com adenopatia inguinal indolor. Qual é o diagnóstico mais provável?",
+"alts": [
+"Sífilis primária, que exige sempre tratamento com penicilina benzatina e notificação compulsória do caso.",
+"Herpes genital primário, que cursa com úlcera única indolor de bordas endurecidas e fundo limpo agora.",
+"Cancro mole por Haemophilus ducreyi, que cursa com úlcera única indolor e adenopatia indolor associada.",
+"Donovanose em fase inicial, caracterizada por úlcera indolor de bordas endurecidas com fundo limpo agora.",
+"Linfogranuloma venéreo, que cursa com úlcera única indolor endurecida e adenopatia inguinal indolor."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com IST, 2022; CDC STI Treatment Guidelines, 2021",
+"coment": "O cancro duro da sífilis primária é úlcera única, indolor, de bordas endurecidas e fundo limpo, acompanhada de adenopatia regional indolor, surgindo cerca de três semanas após a exposição e cicatrizando espontaneamente, o que não significa cura. O tratamento é penicilina benzatina em dose única de 2,4 milhões de unidades na forma recente. A doença é de notificação compulsória e as parcerias sexuais devem ser testadas e tratadas.",
+"porAlt": [
+"Correta: úlcera única indolor de bordas endurecidas com adenopatia indolor caracteriza sífilis primária.",
+"O herpes cursa com vesículas que evoluem para úlceras múltiplas, rasas e tipicamente dolorosas.",
+"O cancro mole produz úlceras múltiplas, dolorosas, de fundo sujo, com adenopatia dolorosa supurativa.",
+"A donovanose cursa com úlcera vegetante de fundo granuloso e evolução crônica e progressiva.",
+"O linfogranuloma cursa com lesão inicial fugaz seguida de adenopatia dolorosa que pode fistulizar."
+]
+},
+{
+"q": "Homem de 55 anos com diabetes tipo 2, hemoglobina glicada de 8,4%, doença renal crônica com albuminúria e obesidade. Qual é a conduta?",
+"alts": [
+"Metformina associada a inibidor de SGLT2, sempre pelo benefício renal e cardiovascular demonstrado.",
+"Sulfonilureia isolada em dose plena, escolha preferencial para o paciente com doença renal e albuminúria.",
+"Insulina basal isolada como primeira escolha antes de qualquer antidiabético oral nesse paciente.",
+"Apenas orientação dietética por doze meses antes de considerar qualquer tratamento medicamentoso.",
+"Glitazona em dose plena, escolha preferencial pelo benefício renal em pacientes com albuminúria."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes, 2025; KDIGO Diabetes Management in CKD, 2022; SBD Diretriz 2024",
+"coment": "Em diabetes tipo 2 com doença renal crônica e albuminúria, os inibidores de SGLT2 são indicados independentemente da hemoglobina glicada, por reduzirem progressão da doença renal, internação por insuficiência cardíaca e morte cardiovascular. A metformina permanece como base enquanto a filtração glomerular for maior que 30 mL/min/1,73 m². Agonistas de GLP-1 são a escolha adicional quando se busca perda de peso e proteção cardiovascular.",
+"porAlt": [
+"Correta: metformina com inibidor de SGLT2, pelo benefício renal e cardiovascular demonstrado.",
+"A sulfonilureia causa hipoglicemia e ganho de peso, sem benefício renal ou cardiovascular provado.",
+"A insulina basal não é primeira escolha aqui e não oferece a proteção renal buscada neste caso.",
+"Adiar por doze meses em paciente com glicada de 8,4% e doença renal permite progressão evitável.",
+"A glitazona causa retenção hídrica e ganho de peso, sem o benefício renal atribuído ao SGLT2."
+]
+},
+{
+"q": "Mulher de 45 anos com TSH de 12 mUI/L e T4 livre baixo, com fadiga e ganho de peso. Qual é a conduta?",
+"alts": [
+"Iniciar levotiroxina em jejum e reavaliar sempre a função tireoidiana após seis a oito semanas.",
+"Iniciar metimazol em dose plena, tratamento indicado para o padrão hormonal descrito no enunciado.",
+"Solicitar apenas ultrassonografia de tireoide e adiar o tratamento até o resultado do exame de imagem.",
+"Prescrever apenas iodo em dose alta, medida suficiente para normalizar os hormônios tireoidianos.",
+"Indicar tireoidectomia total, tratamento de escolha para o hipotireoidismo primário diagnosticado."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; SBEM — Consenso de hipotireoidismo, 2022",
+"coment": "TSH elevado com T4 livre baixo define hipotireoidismo primário franco, cujo tratamento é levotiroxina, tipicamente 1,6 microgramas por quilo ao dia em adultos jovens sem cardiopatia, com dose inicial menor no idoso e no coronariopata. A absorção exige jejum, com intervalo de trinta a sessenta minutos antes do café e afastamento de cálcio, ferro e inibidores de bomba de prótons. O TSH é reavaliado em seis a oito semanas, tempo necessário para o novo equilíbrio.",
+"porAlt": [
+"Correta: levotiroxina em jejum, com reavaliação do TSH após seis a oito semanas de tratamento.",
+"O metimazol trata hipertireoidismo e agravaria ainda mais o hipotireoidismo descrito no caso.",
+"A ultrassonografia avalia a morfologia e não deve atrasar a reposição hormonal já indicada.",
+"O iodo isolado não trata hipotireoidismo primário e pode agravar a disfunção em alguns casos.",
+"A tireoidectomia é tratamento de doença nodular ou hipertireoidismo, não do hipotireoidismo."
+]
+},
+{
+"q": "Paciente de 22 anos com poliúria, polidipsia, perda de peso, glicemia de 480 mg/dL, cetonemia positiva e pH de 7,15. Qual é a conduta inicial?",
+"alts": [
+"Reposição volêmica com salina isotônica e insulina regular endovenosa, sempre com reposição de potássio.",
+"Iniciar insulina endovenosa antes de qualquer reposição volêmica ou avaliação do potássio sérico agora.",
+"Administrar bicarbonato de sódio endovenoso de rotina em todos os casos com esse valor de pH arterial.",
+"Prescrever apenas insulina subcutânea de ação lenta e reavaliar a glicemia em vinte e quatro horas.",
+"Iniciar reposição de glicose endovenosa imediatamente, antes de qualquer insulina ser administrada."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r2",
+"base": "ADA/EASD consensus report on hyperglycaemic crises in adults, 2024; SBD Diretriz 2024",
+"coment": "A cetoacidose diabética é tratada com três pilares simultâneos: reposição volêmica vigorosa com salina isotônica, insulina regular endovenosa em infusão contínua e reposição de potássio. O potássio total está depletado mesmo quando o sérico está normal ou alto, e a insulina o desloca para dentro da célula: por isso a insulina só é iniciada com potássio acima de 3,3 mEq/L. Bicarbonato não é rotina, ficando reservado a pH abaixo de 6,9 em alguns protocolos.",
+"porAlt": [
+"Correta: volume com salina isotônica, insulina endovenosa e atenção contínua à reposição de potássio.",
+"Iniciar insulina sem volume e sem checar potássio pode precipitar hipocalemia grave e arritmia.",
+"O bicarbonato não é rotina e pode agravar a acidose intracelular e a hipocalemia do paciente.",
+"A insulina subcutânea de ação lenta isolada não controla a cetoacidose instalada nesse paciente.",
+"A glicose só entra quando a glicemia cai para cerca de 200 mg/dL, mantendo a infusão de insulina."
+]
+},
+{
+"q": "Mulher de 30 anos com perda de peso, tremor, taquicardia, exoftalmia e TSH suprimido com T4 livre elevado. Qual é o diagnóstico e a conduta inicial?",
+"alts": [
+"Doença de Graves, tratada sempre com antitireoidiano e betabloqueador para controle sintomático inicial.",
+"Tireoidite de Hashimoto, tratada com reposição de levotiroxina em dose plena desde o diagnóstico agora.",
+"Hipotireoidismo central, condição que cursa com exoftalmia e supressão do TSH com T4 livre elevado.",
+"Adenoma hipofisário produtor de TSH, definido por TSH suprimido com hormônios periféricos elevados.",
+"Carcinoma medular de tireoide, já que cursa com exoftalmia, TSH suprimido e T4 livre francamente elevado."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016 com revisão 2023; SBEM, 2022",
+"coment": "Hipertireoidismo com exoftalmia caracteriza doença de Graves, autoimune, mediada por anticorpos estimuladores do receptor de TSH. O tratamento inicial combina antitireoidiano — metimazol, exceto no primeiro trimestre de gestação, quando se usa propiltiouracila — e betabloqueador para controle de sintomas adrenérgicos. As alternativas definitivas são iodo radioativo, evitado na orbitopatia moderada a grave por poder agravá-la, e tireoidectomia.",
+"porAlt": [
+"Correta: doença de Graves, tratada com antitireoidiano e betabloqueador para controle dos sintomas.",
+"A tireoidite de Hashimoto cursa com hipotireoidismo, o oposto do padrão hormonal descrito aqui.",
+"O hipotireoidismo central cursa com T4 livre baixo, e não com o T4 elevado do enunciado.",
+"O adenoma produtor de TSH cursa com TSH normal ou elevado, e não suprimido como no caso.",
+"O carcinoma medular deriva das células C e não altera esse padrão hormonal nem causa exoftalmia."
+]
+},
+{
+"q": "Homem de 50 anos com nódulo tireoidiano de 2 cm, TSH normal, sólido, hipoecogênico, com microcalcificações. Qual é a conduta?",
+"alts": [
+"Punção aspirativa por agulha fina guiada por ultrassom, sempre pelas características de risco descritas.",
+"Repetir a ultrassonografia em cinco anos, pois o nódulo descrito não apresenta qualquer risco relevante.",
+"Iniciar levotiroxina supressiva, conduta indicada para reduzir o nódulo antes de qualquer punção agora.",
+"Indicar tireoidectomia total imediata sem qualquer avaliação citológica prévia da lesão nodular agora.",
+"Solicitar apenas cintilografia de tireoide, exame que estabelece o diagnóstico de malignidade nodular."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "American Thyroid Association Management Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, revisão 2023; ACR TI-RADS, 2017",
+"coment": "Nódulo sólido, hipoecogênico e com microcalcificações é de alta suspeita nos sistemas de classificação por ultrassom, e a partir de um centímetro tem indicação de punção aspirativa por agulha fina guiada por ultrassom, com o resultado classificado pelo sistema Bethesda. O TSH normal afasta nódulo hiperfuncionante, o que torna a cintilografia dispensável, pois esta só é útil quando o TSH está suprimido. A terapia supressiva com levotiroxina foi abandonada.",
+"porAlt": [
+"Correta: punção aspirativa guiada por ultrassom, indicada pelas características de alta suspeita.",
+"As características descritas são de alta suspeita e não permitem seguimento espaçado sem punção.",
+"A supressão com levotiroxina foi abandonada por ineficácia e risco de tireotoxicose iatrogênica.",
+"A cirurgia sem citologia expõe o paciente a procedimento potencialmente desnecessário e mutilador.",
+"A cintilografia só é útil com TSH suprimido e não diferencia lesão benigna de maligna no nódulo."
+]
+},
+{
+"q": "Mulher de 38 anos com hipertensão de difícil controle, hipocalemia espontânea e alcalose metabólica. Qual é a investigação inicial?",
+"alts": [
+"Relação aldosterona-renina plasmática, sempre com atenção aos fármacos que interferem no resultado agora.",
+"Dosagem isolada de cortisol salivar noturno, exame indicado para o rastreio do hiperaldosteronismo primário.",
+"Cintilografia de paratireoides, exame que investiga a causa da hipocalemia e da hipertensão descrita.",
+"Dosagem isolada de hormônio tireoestimulante, exame que estabelece o diagnóstico do quadro descrito.",
+"Apenas ultrassonografia de rins e vias urinárias, exame que confirma o hiperaldosteronismo primário."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Endocrine Society Clinical Practice Guideline — Primary Aldosteronism, 2016 com revisão 2022; Diretriz Brasileira de Hipertensão — SBC, 2025",
+"coment": "Hipertensão resistente com hipocalemia espontânea e alcalose metabólica sugere hiperaldosteronismo primário, hoje reconhecido como a causa secundária mais frequente de hipertensão. O rastreio é a relação entre aldosterona e atividade de renina plasmática, colhida pela manhã com o paciente sentado, corrigindo hipocalemia antes e suspendendo espironolactona por quatro a seis semanas. Após confirmação, tomografia de adrenais e cateterismo de veias adrenais definem lateralização.",
+"porAlt": [
+"Correta: relação aldosterona-renina, com atenção aos fármacos e à correção prévia da hipocalemia.",
+"O cortisol salivar noturno rastreia síndrome de Cushing, hipótese distinta da sugerida neste caso.",
+"A cintilografia de paratireoides investiga hiperparatireoidismo, que não explica o quadro descrito.",
+"O hormônio tireoestimulante avalia a tireoide e não investiga a causa suspeitada neste paciente.",
+"A ultrassonografia renal não avalia a produção de aldosterona nem confirma o diagnóstico suspeitado."
+]
+},
+{
+"q": "Paciente de 60 anos com fratura de vértebra após queda da própria altura e densitometria com T-escore de -2,8. Qual é a conduta?",
+"alts": [
+"Iniciar bisfosfonato com cálcio e vitamina D, sempre após avaliar causas secundárias de perda óssea.",
+"Prescrever apenas cálcio e vitamina D isolados, medidas suficientes para prevenir novas fraturas ósseas.",
+"Indicar apenas fisioterapia motora, sem qualquer tratamento medicamentoso específico para o osso.",
+"Iniciar corticoide sistêmico em dose baixa, medida que aumenta a densidade mineral óssea do paciente.",
+"Repetir a densitometria em cinco anos antes de considerar qualquer tratamento farmacológico específico."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Endocrine Society guideline on pharmacological management of osteoporosis, revisão 2023; SBEM/ABRASSO, 2022",
+"coment": "Fratura por fragilidade define osteoporose estabelecida e indica tratamento independentemente do valor da densitometria. Os bisfosfonatos são a primeira linha, com alendronato ou risedronato orais e zoledronato endovenoso anual, sempre com cálcio e vitamina D adequados. Antes de iniciar, investigam-se causas secundárias: hiperparatireoidismo, deficiência de vitamina D, mieloma, hipertireoidismo e uso de corticoide. Fraturas vertebrais múltiplas indicam anabólico.",
+"porAlt": [
+"Correta: bisfosfonato com cálcio e vitamina D, após investigação de causas secundárias de perda óssea.",
+"Cálcio e vitamina D isolados são insuficientes para reduzir o risco de nova fratura por fragilidade.",
+"A fisioterapia é complementar e não substitui o tratamento farmacológico com evidência de eficácia.",
+"O corticoide reduz a densidade mineral óssea e é causa importante de osteoporose secundária.",
+"Adiar o tratamento por cinco anos após fratura por fragilidade expõe a novas fraturas evitáveis."
+]
+},
+{
+"q": "Homem de 42 anos com fraqueza, hiperpigmentação cutânea, hipotensão, hiponatremia e hipercalemia. Qual é a suspeita e a conduta?",
+"alts": [
+"Insuficiência adrenal primária, tratada sempre com hidrocortisona e reposição volêmica com salina.",
+"Síndrome de Cushing, condição que cursa com hipotensão, hiponatremia e hiperpigmentação cutânea.",
+"Hiperaldosteronismo primário, que cursa com hipercalemia, hiponatremia e hipotensão arterial persistente.",
+"Diabetes insipidus central, quadro caracterizado por hiperpigmentação, hipotensão e hipercalemia.",
+"Hipotireoidismo primário grave, definido por hiperpigmentação, hipercalemia e hipotensão arterial."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Endocrine Society Clinical Practice Guideline — Diagnosis and Treatment of Primary Adrenal Insufficiency, revisão 2023",
+"coment": "A insuficiência adrenal primária cursa com deficiência de cortisol e aldosterona: fraqueza, hipotensão, hiponatremia, hipercalemia, e hiperpigmentação decorrente do excesso de ACTH, que estimula receptores de melanocortina na pele. Na crise adrenal o tratamento é imediato, com hidrocortisona endovenosa e reposição volêmica com salina isotônica e glicose, sem esperar confirmação laboratorial. O diagnóstico se confirma depois com cortisol basal e teste de estímulo.",
+"porAlt": [
+"Correta: insuficiência adrenal primária, tratada com hidrocortisona e reposição volêmica imediata.",
+"A síndrome de Cushing cursa com hipertensão, hipocalemia e excesso de cortisol, o padrão inverso.",
+"O hiperaldosteronismo cursa com hipertensão e hipocalemia, exatamente o oposto do descrito aqui.",
+"O diabetes insipidus cursa com poliúria e hipernatremia, sem a hipercalemia descrita no caso.",
+"O hipotireoidismo pode causar hiponatremia, mas não produz hiperpigmentação nem hipercalemia."
+]
+},
+{
+"q": "Paciente com obesidade grau III e diabetes tipo 2 mal controlado apesar de tratamento otimizado. Qual é a conduta a considerar?",
+"alts": [
+"Avaliar indicação de cirurgia metabólica, considerada sempre em equipe multiprofissional especializada.",
+"Prescrever apenas dieta hipocalórica isolada por vinte e quatro meses antes de qualquer outra medida.",
+"Aumentar a dose de insulina indefinidamente como única estratégia para o controle glicêmico do paciente.",
+"Indicar apenas atividade física supervisionada, medida isolada suficiente para reverter o quadro descrito.",
+"Prescrever diurético em dose alta para reduzir o peso corporal e melhorar o controle metabólico agora."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ADA Standards of Care in Diabetes, 2025; IFSO/ASMBS indications for metabolic and bariatric surgery, 2022; SBD 2024",
+"coment": "A cirurgia metabólica está indicada em obesidade com índice de massa corporal a partir de 35 kg/m², e pode ser considerada a partir de 30 kg/m² no diabetes tipo 2 de difícil controle, com taxas expressivas de remissão e redução de mortalidade. A avaliação é multiprofissional, com acompanhamento nutricional e psicológico e suplementação vitamínica permanente. Antes e depois, agonistas de GLP-1 e inibidores de SGLT2 seguem tendo papel no controle metabólico.",
+"porAlt": [
+"Correta: avaliar indicação de cirurgia metabólica em equipe multiprofissional especializada.",
+"Dieta isolada por dois anos raramente sustenta perda suficiente nesse grau de obesidade.",
+"Aumentar insulina indefinidamente promove ganho de peso e piora o ciclo metabólico do paciente.",
+"A atividade física é essencial, mas isolada não produz a perda de peso necessária nesse grau.",
+"Diuréticos reduzem água corporal e não gordura, sem qualquer benefício metabólico sustentado."
+]
+},
+{
+"q": "Mulher de 28 anos com amenorreia, galactorreia e prolactina de 120 ng/mL, sem uso de medicamentos. Qual é a conduta?",
+"alts": [
+"Ressonância de sela túrcica e tratamento com agonista dopaminérgico, sempre conforme o tamanho da lesão.",
+"Iniciar contraceptivo combinado isolado, já tratamento de escolha para a hiperprolactinemia diagnosticada.",
+"Indicar cirurgia transesfenoidal imediata a todos os pacientes com esse nível de prolactina sérica.",
+"Prescrever levotiroxina em dose plena, já tratamento indicado para a galactorreia com amenorreia descrita.",
+"Apenas observar sem qualquer investigação ou tratamento, pois o quadro descrito é sempre autolimitado."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Endocrine Society Clinical Practice Guideline — Hyperprolactinemia, revisão 2023; Pituitary Society consensus, 2023",
+"coment": "Hiperprolactinemia com amenorreia e galactorreia, após excluir gestação, fármacos e hipotireoidismo, exige ressonância de sela túrcica para caracterizar micro ou macroadenoma. O tratamento de primeira linha é agonista dopaminérgico, preferencialmente cabergolina, que normaliza a prolactina e reduz o tumor na maioria dos casos, restaurando a fertilidade. A cirurgia transesfenoidal se reserva a intolerância, resistência ao fármaco ou compressão de vias ópticas.",
+"porAlt": [
+"Correta: ressonância de sela túrcica e agonista dopaminérgico conforme o tamanho da lesão encontrada.",
+"O contraceptivo pode regularizar o ciclo, mas não trata o adenoma nem reduz a prolactina elevada.",
+"A cirurgia se reserva a resistência, intolerância ao fármaco ou compressão das vias ópticas.",
+"O hipotireoidismo deve ser excluído, mas não há indício dele e a levotiroxina não trata o adenoma.",
+"Deixar sem tratamento mantém o hipogonadismo, com perda óssea e infertilidade associadas."
+]
+},
+{
+"q": "Homem de 58 anos com cirrose e ascite volumosa apresenta febre, dor abdominal e 400 neutrófilos/mm³ no líquido ascítico. Qual é a conduta?",
+"alts": [
+"Cefalosporina de terceira geração e albumina endovenosa, sempre nos dias definidos pelo protocolo.",
+"Apenas paracentese de alívio repetida, sem qualquer antibiótico associado ao procedimento realizado.",
+"Aguardar o resultado da cultura do líquido ascítico antes de iniciar qualquer antibioticoterapia.",
+"Prescrever apenas diurético em dose alta e reavaliar clinicamente em quarenta e oito horas agora.",
+"Iniciar antifúngico endovenoso empírico como tratamento de escolha para o quadro descrito no caso."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r2",
+"base": "EASL Clinical Practice Guidelines on decompensated cirrhosis, 2018 com atualização 2023; AASLD guidance, 2021",
+"coment": "Peritonite bacteriana espontânea é definida por 250 ou mais neutrófilos por milímetro cúbico no líquido ascítico, independentemente da cultura. O tratamento é cefotaxima ou ceftriaxona por cinco a sete dias, iniciado imediatamente após a paracentese diagnóstica. A albumina endovenosa, 1,5 g/kg no primeiro dia e 1 g/kg no terceiro, reduz síndrome hepatorrenal e mortalidade. Após o episódio indica-se profilaxia secundária contínua com norfloxacino.",
+"porAlt": [
+"Correta: cefalosporina de terceira geração com albumina nos dias primeiro e terceiro do tratamento.",
+"A paracentese isolada não trata a infecção instalada e a mortalidade sem antibiótico é elevada.",
+"Aguardar a cultura atrasa o tratamento, e a contagem de neutrófilos já basta para o diagnóstico.",
+"O diurético isolado não trata a infecção e pode precipitar disfunção renal nesse contexto.",
+"O antifúngico não cobre os agentes bacterianos habituais dessa infecção do líquido ascítico."
+]
+},
+{
+"q": "Paciente de 45 anos com epigastralgia em queimação, pirose e teste positivo para Helicobacter pylori. Qual é a conduta?",
+"alts": [
+"Erradicar o Helicobacter pylori com esquema combinado e confirmar sempre a cura após o tratamento.",
+"Prescrever apenas inibidor de bomba de prótons contínuo, sem qualquer tentativa de erradicação.",
+"Indicar cirurgia antirrefluxo imediatamente diante da positividade do teste para a bactéria descrita.",
+"Prescrever antiácido de demanda e reavaliar clinicamente após doze meses de acompanhamento agora.",
+"Iniciar corticoide oral em dose alta, tratamento indicado para a inflamação gástrica associada."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "Consenso Brasileiro sobre Helicobacter pylori, 2022; Maastricht VI/Florence Consensus Report, 2022",
+"coment": "A infecção por Helicobacter pylori deve ser erradicada sempre que diagnosticada, por reduzir úlcera péptica e risco de câncer gástrico. O esquema tradicional no Brasil associa inibidor de bomba de prótons, amoxicilina e claritromicina por catorze dias, com esquemas quádruplos com bismuto ganhando espaço pela resistência crescente à claritromicina. A confirmação de cura é feita quatro semanas após o fim do tratamento, por teste respiratório ou antígeno fecal.",
+"porAlt": [
+"Correta: erradicar com esquema combinado e confirmar a cura quatro semanas após o tratamento.",
+"O inibidor isolado alivia sintomas, mas mantém a infecção e o risco de úlcera e câncer gástrico.",
+"A cirurgia antirrefluxo não trata a infecção pela bactéria e não tem indicação neste contexto.",
+"O antiácido de demanda não erradica a bactéria nem modifica o risco de complicações futuras.",
+"O corticoide não trata a infecção e pode favorecer complicações da mucosa gastroduodenal."
+]
+},
+{
+"q": "Homem de 62 anos com disfagia progressiva para sólidos e depois líquidos, com perda de peso de 8 kg em 3 meses. Qual é a conduta?",
+"alts": [
+"Endoscopia digestiva alta com biópsia, sempre pela alta suspeita de neoplasia esofágica no quadro.",
+"Prescrever inibidor de bomba de prótons por três meses e reavaliar apenas se a disfagia persistir.",
+"Solicitar apenas manometria esofágica, exame que estabelece o diagnóstico da causa dessa disfagia.",
+"Prescrever apenas dieta pastosa e orientação postural, sem qualquer investigação complementar.",
+"Solicitar apenas radiografia contrastada de esôfago, exame que dispensa a avaliação endoscópica."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "ASGE guideline on the role of endoscopy in dysphagia, revisão 2023; Sociedade Brasileira de Endoscopia Digestiva, 2022",
+"coment": "Disfagia progressiva de sólidos para líquidos com perda ponderal é sinal de alarme e sugere causa mecânica obstrutiva, sobretudo neoplasia esofágica. A endoscopia digestiva alta com biópsia é o exame inicial, por permitir visualização direta e diagnóstico histológico. Prescrever inibidor de bomba de prótons sem investigar retarda o diagnóstico. A manometria é útil em distúrbios motores como acalasia, avaliada após a exclusão de causa estrutural pela endoscopia.",
+"porAlt": [
+"Correta: endoscopia digestiva alta com biópsia, pela alta suspeita de neoplasia esofágica no caso.",
+"O inibidor de bomba mascara sintomas e adia o diagnóstico de uma doença potencialmente curável.",
+"A manometria avalia distúrbio motor, investigado após excluir causa estrutural pela endoscopia.",
+"Medidas dietéticas isoladas não investigam a causa e permitem a progressão da doença de base.",
+"A radiografia contrastada é complementar e não fornece o material histológico necessário."
+]
+},
+{
+"q": "Paciente com hepatite C crônica, genótipo 1, sem cirrose, virgem de tratamento. Qual é a conduta?",
+"alts": [
+"Tratar com antiviral de ação direta por doze semanas, esperando sempre resposta virológica sustentada.",
+"Tratar apenas quando surgir fibrose avançada documentada por elastografia ou biópsia hepática agora.",
+"Prescrever interferon peguilado com ribavirina, esquema atualmente preferencial para esse genótipo.",
+"Apenas monitorizar a carga viral anualmente sem qualquer tratamento antiviral específico indicado.",
+"Iniciar corticoide sistêmico contínuo, tratamento indicado para a hepatite crônica de origem viral."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Ministério da Saúde — PCDT para Hepatite C e Coinfecções, 2024; EASL recommendations on treatment of hepatitis C, 2023",
+"coment": "Todo paciente com hepatite C crônica tem indicação de tratamento, independentemente do grau de fibrose, com antivirais de ação direta pangenotípicos como sofosbuvir com velpatasvir ou glecaprevir com pibrentasvir, por oito a doze semanas, alcançando resposta virológica sustentada acima de noventa e cinco por cento. Interferon foi abandonado. Mesmo após a cura, pacientes com fibrose avançada mantêm rastreio de carcinoma hepatocelular por ultrassom semestral.",
+"porAlt": [
+"Correta: antiviral de ação direta por doze semanas, com resposta virológica sustentada muito alta.",
+"Esperar fibrose avançada permite dano hepático evitável, já que hoje se trata todos os pacientes.",
+"O interferon foi abandonado por menor eficácia e toxicidade muito superior à dos antivirais atuais.",
+"Apenas monitorizar mantém a inflamação ativa e a progressão para cirrose e carcinoma hepático.",
+"O corticoide trata hepatite autoimune e pode aumentar a replicação viral na hepatite crônica C."
+]
+},
+{
+"q": "Homem de 40 anos com dor abdominal intensa em faixa, vômitos e lipase cinco vezes acima do limite superior. Qual é a conduta inicial?",
+"alts": [
+"Hidratação endovenosa vigorosa com solução balanceada e analgesia, sempre com dieta precoce se tolerada.",
+"Antibiótico profilático endovenoso de rotina em todos os casos, iniciado já no primeiro atendimento.",
+"Jejum absoluto prolongado por dez dias como medida principal do tratamento da pancreatite aguda agora já.",
+"Realizar tomografia de abdome de imediato em todos os casos para confirmar o diagnóstico do quadro.",
+"Indicar laparotomia exploradora precoce como conduta padrão na pancreatite aguda diagnosticada agora."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "American Gastroenterological Association guideline on initial management of acute pancreatitis, 2024; IAP/APA guidelines, revisão 2023",
+"coment": "O tratamento inicial da pancreatite aguda é de suporte: hidratação endovenosa com solução balanceada em ritmo moderado e guiado por metas, analgesia adequada e nutrição enteral precoce assim que tolerada, o que reduz complicações infecciosas em comparação ao jejum prolongado. Antibiótico profilático não é recomendado na pancreatite sem infecção documentada. A tomografia é reservada a dúvida diagnóstica ou avaliação de complicações após setenta e duas horas.",
+"porAlt": [
+"Correta: hidratação com solução balanceada, analgesia e reintrodução precoce da dieta se tolerada.",
+"A profilaxia antibiótica de rotina não reduz mortalidade e favorece infecção por germes resistentes.",
+"O jejum prolongado aumenta translocação bacteriana e complicações infecciosas na pancreatite.",
+"A tomografia precoce subestima a necrose e não é necessária quando o diagnóstico já está feito.",
+"A cirurgia precoce aumenta mortalidade e se reserva a complicações específicas bem definidas."
+]
+},
+{
+"q": "Paciente de 35 anos com diarreia crônica com sangue, dor abdominal e perda de peso, com colonoscopia mostrando inflamação contínua do reto ao cólon descendente. Qual é o diagnóstico?",
+"alts": [
+"Retocolite ulcerativa, que cursa sempre com acometimento contínuo a partir do reto, sem áreas poupadas.",
+"Doença de Crohn colônica, caracterizada por acometimento contínuo iniciado no reto sem lesões salteadas.",
+"Colite isquêmica crônica, definida por inflamação contínua que se estende do reto ao cólon descendente.",
+"Síndrome do intestino irritável, condição que cursa com inflamação contínua da mucosa à colonoscopia.",
+"Colite por radiação prévia, quadro definido por inflamação contínua retal com diarreia crônica com sangue."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ECCO-ESGAR guidelines on ulcerative colitis, 2022; AGA Clinical Practice Guideline, revisão 2024",
+"coment": "A retocolite ulcerativa acomete a mucosa de forma contínua e ascendente a partir do reto, sem áreas poupadas e sem lesão transmural, cursando com diarreia com sangue, urgência e tenesmo. A doença de Crohn, em contraste, tem acometimento salteado, transmural, pode envolver qualquer segmento do tubo digestivo e frequentemente poupa o reto, além de cursar com fístulas e doença perianal. A distinção orienta tratamento clínico e planejamento cirúrgico.",
+"porAlt": [
+"Correta: acometimento contínuo e ascendente a partir do reto caracteriza a retocolite ulcerativa.",
+"A doença de Crohn tem lesões salteadas, acometimento transmural e frequentemente poupa o reto.",
+"A colite isquêmica acomete territórios vasculares, tipicamente o ângulo esplênico, de forma segmentar.",
+"A síndrome do intestino irritável não cursa com sangramento nem com inflamação à colonoscopia.",
+"A colite actínica exige história de radioterapia pélvica, não referida no enunciado do caso."
+]
+},
+{
+"q": "Homem de 55 anos, etilista, com hematêmese volumosa e cirrose conhecida. Qual é a conduta imediata?",
+"alts": [
+"Estabilizar, iniciar droga vasoativa e antibiótico profilático, com endoscopia sempre nas primeiras horas.",
+"Realizar endoscopia antes de qualquer estabilização hemodinâmica ou reposição volêmica do paciente agora.",
+"Transfundir hemácias até hemoglobina de 12 g/dL como meta inicial da reposição nesse sangramento agora.",
+"Prescrever apenas inibidor de bomba de prótons endovenoso, sem droga vasoativa ou antibiótico neste caso.",
+"Indicar cirurgia de urgência como primeira medida em todo sangramento digestivo alto no cirrótico agora."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "Baveno VII consensus on portal hypertension, 2022; AASLD practice guidance on variceal hemorrhage, 2023",
+"coment": "Na hemorragia digestiva alta do cirrótico, a conduta é estabilização com estratégia restritiva de transfusão, alvo de hemoglobina em torno de 7 g/dL, droga vasoativa como terlipressina ou octreotide iniciada antes da endoscopia, antibiótico profilático com ceftriaxona — que reduz infecção e mortalidade —, e endoscopia diagnóstica e terapêutica nas primeiras doze horas. Transfundir em excesso eleva a pressão portal e pode agravar o sangramento.",
+"porAlt": [
+"Correta: estabilizar, iniciar vasoativo e antibiótico profilático, com endoscopia nas primeiras horas.",
+"A endoscopia sem estabilização prévia aumenta o risco de complicações durante o procedimento.",
+"A meta de 12 g/dL eleva a pressão portal e aumenta o ressangramento; o alvo é restritivo.",
+"O inibidor de bomba isolado não controla o sangramento varicoso e não substitui o vasoativo.",
+"A cirurgia é medida de exceção, após falha do tratamento endoscópico e farmacológico combinado."
+]
+},
+{
+"q": "Paciente com constipação crônica sem sinais de alarme, sem melhora com fibras e hidratação. Qual é o próximo passo?",
+"alts": [
+"Acrescentar laxante osmótico como polietilenoglicol, sempre reavaliando a resposta em algumas semanas.",
+"Indicar colonoscopia imediata para todos os pacientes com constipação crônica sem sinais de alarme.",
+"Prescrever laxante estimulante em uso contínuo diário indefinido como próxima etapa do tratamento.",
+"Indicar cirurgia de ressecção colônica como próximo passo diante da falha das medidas iniciais agora.",
+"Prescrever antiespasmódico isolado, medida com melhor evidência para a constipação crônica descrita."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "AGA/ACG Clinical Practice Guideline on chronic idiopathic constipation, 2023",
+"coment": "Na constipação crônica sem sinais de alarme, após medidas comportamentais e fibras, o próximo passo é laxante osmótico, sendo o polietilenoglicol o de melhor evidência e boa tolerância. Laxantes estimulantes são alternativa ou resgate. Secretagogos como linaclotida e lubiprostona ficam para refratários. Colonoscopia é indicada diante de sinais de alarme — sangramento, anemia, perda de peso, idade de rastreio, história familiar — ausentes neste caso.",
+"porAlt": [
+"Correta: laxante osmótico como polietilenoglicol, com reavaliação da resposta em algumas semanas.",
+"A colonoscopia é indicada por sinais de alarme ou idade de rastreio, ausentes neste caso descrito.",
+"O estimulante é alternativa ou resgate, e não a primeira escolha após a falha das fibras.",
+"A cirurgia é excepcional, reservada a inércia colônica documentada e refratária ao tratamento.",
+"O antiespasmódico não tem evidência para constipação e pode até reduzir a motilidade intestinal."
+]
+},
+{
+"q": "Mulher de 30 anos com diarreia crônica, distensão abdominal, anemia ferropriva e anticorpo antitransglutaminase IgA positivo. Qual é a conduta?",
+"alts": [
+"Confirmar com biópsia duodenal antes da dieta e iniciar depois exclusão sempre rigorosa do glúten.",
+"Iniciar dieta sem glúten imediatamente e realizar a biópsia duodenal apenas semanas depois do início.",
+"Prescrever apenas reposição de ferro isolada, sem qualquer investigação adicional ou mudança dietética.",
+"Iniciar corticoide sistêmico contínuo, tratamento de escolha para a doença celíaca em adultos jovens.",
+"Solicitar apenas colonoscopia, exame que estabelece o diagnóstico definitivo da doença suspeitada."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ACG Clinical Guideline: Diagnosis and Management of Celiac Disease, 2023; ESsCD guideline, 2019",
+"coment": "No adulto, o diagnóstico de doença celíaca exige biópsia duodenal com o paciente ainda em dieta contendo glúten, porque a retirada prévia normaliza a mucosa e inviabiliza a confirmação histológica. Colhem-se pelo menos quatro fragmentos de duodeno distal e dois de bulbo. Confirmado o diagnóstico, a dieta sem glúten é permanente e rigorosa. Deficiências de ferro, ácido fólico, vitamina D e cálcio devem ser pesquisadas e corrigidas no seguimento.",
+"porAlt": [
+"Correta: confirmar com biópsia duodenal ainda em dieta com glúten e só então excluí-lo de forma rigorosa.",
+"Retirar o glúten antes da biópsia normaliza a mucosa e impede a confirmação histológica do diagnóstico.",
+"Repor ferro sem investigar deixa a causa ativa e a anemia recorre após o fim da suplementação.",
+"O corticoide não é o tratamento da doença celíaca, cuja base é a exclusão permanente do glúten.",
+"A colonoscopia avalia o cólon e não fornece a histologia duodenal necessária ao diagnóstico."
+]
+},
+{
+"q": "Paciente de 68 anos com achado de pólipo adenomatoso de 12 mm ressecado na colonoscopia. Qual é a conduta de seguimento?",
+"alts": [
+"Nova colonoscopia em três anos, definida sempre pelo tamanho e pela histologia do pólipo ressecado.",
+"Nova colonoscopia em dez anos, intervalo padrão independentemente do tamanho e da histologia do pólipo.",
+"Indicar colectomia segmentar profilática após a ressecção endoscópica completa do pólipo adenomatoso.",
+"Repetir a colonoscopia a cada seis meses indefinidamente após qualquer ressecção de pólipo colônico.",
+"Não repetir a colonoscopia, pois a ressecção completa dispensa qualquer seguimento endoscópico futuro."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "US Multi-Society Task Force on Colorectal Cancer — post-polypectomy surveillance recommendations, atualização 2020 com revisão 2024",
+"coment": "O intervalo de vigilância após polipectomia depende do número, tamanho e histologia das lesões. Adenoma de dez milímetros ou mais, ou histologia com componente viloso ou displasia de alto grau, ou de três a quatro adenomas, indicam nova colonoscopia em três anos. Um ou dois adenomas tubulares pequenos permitem intervalo de sete a dez anos. Deve-se garantir que a ressecção foi completa e que o preparo permitiu exame adequado de toda a mucosa.",
+"porAlt": [
+"Correta: adenoma de dez milímetros ou mais indica nova colonoscopia em três anos de intervalo.",
+"O intervalo de dez anos se aplica a exame normal, e não após ressecção de adenoma avançado.",
+"A colectomia não é indicada após ressecção endoscópica completa de pólipo adenomatoso benigno.",
+"O intervalo semestral indefinido não tem respaldo e multiplica riscos e custos sem benefício.",
+"A ausência de seguimento perde lesões metacrônicas em paciente com risco comprovadamente maior."
+]
+},
+{
+"q": "Homem de 66 anos, tabagista, com dispneia progressiva e VEF1/CVF pós-broncodilatador de 0,58, com duas exacerbações no último ano. Qual é o tratamento de manutenção?",
+"alts": [
+"Broncodilatador duplo de longa duração, sempre com avaliação de eosinófilos para acrescentar corticoide.",
+"Corticoide inalatório isolado como tratamento inicial de manutenção para o paciente com essa doença.",
+"Corticoide sistêmico contínuo em dose baixa, tratamento de manutenção de escolha na doença descrita.",
+"Antibiótico contínuo em dose plena por tempo indeterminado como manutenção nesse perfil de paciente.",
+"Apenas broncodilatador de curta duração de resgate, sem qualquer tratamento contínuo de manutenção."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "GOLD Report — Global Strategy for Prevention, Diagnosis and Management of COPD, 2025",
+"coment": "A relação pós-broncodilatador abaixo de 0,7 confirma limitação fixa ao fluxo aéreo. Com histórico de exacerbações, o tratamento inicial recomendado é a combinação de broncodilatador de longa duração antimuscarínico e beta-agonista. A adição de corticoide inalatório é orientada pela contagem de eosinófilos, indicada acima de 300 células por microlitro e considerada entre 100 e 300 com exacerbações. Cessação do tabagismo, vacinação e reabilitação pulmonar são obrigatórias.",
+"porAlt": [
+"Correta: broncodilatador duplo de longa duração, com eosinófilos orientando a adição de corticoide.",
+"O corticoide inalatório isolado não é recomendado nessa doença, sempre associado a broncodilatador.",
+"O corticoide sistêmico contínuo traz toxicidade importante sem benefício como manutenção.",
+"O antibiótico contínuo se reserva a casos selecionados e não é manutenção padrão da doença.",
+"O uso apenas de resgate deixa sem controle um paciente com exacerbações frequentes documentadas."
+]
+},
+{
+"q": "Mulher de 28 anos com asma em uso apenas de beta-agonista de curta duração, com sintomas três vezes por semana e despertares noturnos. Qual é a conduta?",
+"alts": [
+"Iniciar corticoide inalatório associado a formoterol, sempre substituindo o uso isolado do resgate.",
+"Manter apenas o beta-agonista de curta duração e aumentar a frequência das doses de resgate diárias.",
+"Iniciar corticoide oral contínuo em dose baixa como etapa seguinte no tratamento da asma descrita.",
+"Iniciar antibiótico profilático contínuo, medida indicada para a redução dos sintomas noturnos da asma.",
+"Prescrever apenas anti-histamínico oral diário, tratamento suficiente para o controle do quadro descrito."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "GINA — Global Strategy for Asthma Management and Prevention, 2025",
+"coment": "O tratamento da asma com beta-agonista de curta duração isolado foi abandonado, por aumentar exacerbações graves e mortalidade. Toda pessoa com asma deve receber tratamento contendo corticoide inalatório. A estratégia preferencial combina corticoide inalatório com formoterol, usada conforme a necessidade nas etapas iniciais e como manutenção e resgate nas etapas seguintes. Avaliam-se ainda técnica inalatória, adesão, gatilhos e comorbidades antes de escalonar.",
+"porAlt": [
+"Correta: introduzir corticoide inalatório com formoterol, abandonando o uso isolado do resgate.",
+"O uso isolado de beta-agonista de curta duração aumenta exacerbações graves e a mortalidade.",
+"O corticoide oral contínuo se reserva à asma grave refratária, pela toxicidade sistêmica acumulada.",
+"O antibiótico profilático não tem papel no controle da asma, que é doença inflamatória crônica.",
+"O anti-histamínico pode ajudar na rinite associada, mas não controla a inflamação brônquica."
+]
+},
+{
+"q": "Paciente de 60 anos com nódulo pulmonar sólido de 9 mm encontrado incidentalmente em tomografia, tabagista. Qual é a conduta?",
+"alts": [
+"Seguimento tomográfico programado ou investigação adicional, sempre conforme o risco estimado de malignidade.",
+"Realizar toracotomia com ressecção imediata em todos os pacientes com nódulo pulmonar dessa dimensão agora.",
+"Ignorar o achado e repetir a tomografia apenas depois de cinco anos, já independentemente do risco estimado.",
+"Iniciar quimioterapia empírica antes de qualquer confirmação histológica da natureza do nódulo achado agora.",
+"Solicitar apenas radiografia de tórax anual, exame suficiente para o seguimento do nódulo descrito agora."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Fleischner Society Guidelines for Management of Incidental Pulmonary Nodules, 2017 com revisão 2023; NCCN, 2024",
+"coment": "Nódulo sólido incidental entre seis e oito milímetros em paciente de alto risco é seguido com tomografia em seis a doze meses e depois em dezoito a vinte e quatro meses. Acima de oito milímetros, considera-se tomografia em três meses, PET-CT ou biópsia, conforme a probabilidade de malignidade estimada por idade, tabagismo, tamanho, localização em lobo superior e espiculação. A radiografia é insuficiente para o seguimento por não detectar crescimento sutil.",
+"porAlt": [
+"Correta: seguimento tomográfico ou investigação adicional, definidos pelo risco estimado de malignidade.",
+"A ressecção imediata sem estratificação expõe a cirurgia torácica lesões frequentemente benignas.",
+"Adiar por cinco anos permite crescimento de neoplasia potencialmente curável no momento do achado.",
+"Não se inicia quimioterapia sem confirmação histológica e sem estadiamento adequado da doença.",
+"A radiografia não detecta variações sutis de tamanho e é inadequada ao seguimento do nódulo."
+]
+},
+{
+"q": "Paciente com derrame pleural unilateral de moderado volume, sem causa evidente. Qual é a conduta inicial?",
+"alts": [
+"Toracocentese diagnóstica com análise do líquido, sempre aplicando os critérios que separam transudato.",
+"Iniciar antibiótico empírico de amplo espectro sem qualquer punção diagnóstica prévia do derrame agora.",
+"Iniciar diurético em dose alta e reavaliar em trinta dias sem qualquer análise do líquido pleural.",
+"Indicar pleurodese química imediata em todos os casos de derrame pleural unilateral de causa indefinida.",
+"Solicitar apenas tomografia de tórax, exame que estabelece a etiologia do derrame pleural descrito."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r1",
+"base": "BTS Pleural Disease Guideline, 2023; ATS/STS/STR clinical practice guideline, 2018",
+"coment": "Derrame pleural de causa indeterminada exige toracocentese diagnóstica. Os critérios de Light separam transudato de exsudato pela relação de proteínas e de desidrogenase láctica entre líquido e soro. Exsudato indica investigação adicional com citologia, cultura, pesquisa de bacilos, adenosina deaminase e, se necessário, biópsia pleural. Transudato aponta insuficiência cardíaca, cirrose ou síndrome nefrótica, tratando-se a doença de base.",
+"porAlt": [
+"Correta: toracocentese diagnóstica com aplicação dos critérios que diferenciam transudato de exsudato.",
+"Tratar empiricamente sem punção deixa sem diagnóstico causas que exigem abordagem específica.",
+"O diurético trata transudato cardiogênico, hipótese que ainda não foi estabelecida neste caso.",
+"A pleurodese é tratamento de derrame maligno recidivante, e não conduta diagnóstica inicial.",
+"A tomografia caracteriza o derrame e o parênquima, mas não substitui a análise do líquido pleural."
+]
+},
+{
+"q": "Paciente com doença pulmonar obstrutiva crônica em exacerbação, com hipercapnia, pH de 7,28 e dispneia importante. Qual é a conduta?",
+"alts": [
+"Ventilação não invasiva com dois níveis de pressão, sempre associada a broncodilatador e corticoide.",
+"Intubação orotraqueal imediata em todos os pacientes com esse valor de pH sem qualquer tentativa prévia.",
+"Oxigênio em alto fluxo com alvo de saturação acima de noventa e oito por cento em todos os casos.",
+"Prescrever apenas antibiótico oral e observar clinicamente por vinte e quatro horas sem outra medida.",
+"Iniciar sedação profunda para reduzir o trabalho respiratório do paciente antes de qualquer suporte."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r2",
+"base": "GOLD Report, 2025; ERS/ATS guidelines on noninvasive ventilation for acute respiratory failure, 2017 com revisão 2023",
+"coment": "Na exacerbação com acidose respiratória — pH abaixo de 7,35 com hipercapnia — a ventilação não invasiva com dois níveis de pressão é a intervenção que reduz intubação, mortalidade e tempo de internação, sendo indicação de primeira linha. Associa-se broncodilatador de curta duração, corticoide sistêmico por cinco dias e antibiótico quando há aumento de purulência e volume do escarro. O alvo de saturação é de 88 a 92 por cento, evitando hiperóxia.",
+"porAlt": [
+"Correta: ventilação não invasiva com dois níveis de pressão, somada a broncodilatador e corticoide.",
+"A intubação se reserva à falha da ventilação não invasiva ou a contraindicação formal ao método.",
+"O alvo de saturação nessa doença é de 88 a 92 por cento, pois a hiperóxia agrava a hipercapnia.",
+"O antibiótico isolado não corrige a acidose respiratória nem alivia o trabalho respiratório.",
+"A sedação sem suporte ventilatório agrava a hipoventilação e pode precipitar parada respiratória."
+]
+},
+{
+"q": "Homem de 45 anos com sonolência diurna excessiva, roncos e pausas respiratórias observadas pela parceira, com IMC de 34 kg/m². Qual é a conduta?",
+"alts": [
+"Polissonografia ou poligrafia domiciliar e tratamento com pressão positiva, sempre com perda de peso.",
+"Prescrever apenas estimulante do sistema nervoso central para o controle da sonolência diurna do paciente.",
+"Iniciar benzodiazepínico noturno para melhorar a qualidade do sono e reduzir os roncos referidos.",
+"Indicar traqueostomia imediata em todos os pacientes com roncos e pausas respiratórias observadas.",
+"Prescrever apenas descongestionante nasal contínuo como tratamento definitivo do quadro descrito."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "AASM Clinical Practice Guideline for Diagnostic Testing for Adult Obstructive Sleep Apnea, 2017 com revisão 2023; SBPT, 2022",
+"coment": "A apneia obstrutiva do sono é confirmada por polissonografia ou, em alta probabilidade sem comorbidade cardiorrespiratória grave, por poligrafia domiciliar. O tratamento de primeira linha na doença moderada a grave é pressão positiva contínua, associada a perda de peso, higiene do sono, tratamento posicional e evitação de álcool e sedativos. Aparelho intraoral é alternativa em casos leves a moderados. Benzodiazepínicos agravam a apneia.",
+"porAlt": [
+"Correta: confirmar por polissonografia ou poligrafia e tratar com pressão positiva e perda de peso.",
+"O estimulante trata sonolência residual, mas não corrige a obstrução nem os riscos associados.",
+"O benzodiazepínico relaxa a musculatura faríngea e agrava as apneias durante o sono do paciente.",
+"A traqueostomia é medida excepcional para casos graves refratários a todas as outras opções.",
+"O descongestionante contínuo não trata a obstrução faríngea e causa rinite medicamentosa."
+]
+},
+{
+"q": "Paciente com pneumonia adquirida na comunidade e CURB-65 de 1, sem comorbidades descompensadas. Qual é a conduta?",
+"alts": [
+"Tratamento ambulatorial com antibiótico oral, sempre com reavaliação clínica em quarenta e oito horas.",
+"Internação em unidade de terapia intensiva para todos os pacientes com esse escore de gravidade agora.",
+"Antibiótico endovenoso de amplo espectro em ambiente hospitalar por catorze dias em todos os casos.",
+"Não prescrever antibiótico e reavaliar apenas em uma semana, dada a baixa gravidade do quadro agora.",
+"Solicitar tomografia de tórax de rotina antes de qualquer prescrição de antibiótico para o paciente."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "ATS/IDSA Guidelines for Community-Acquired Pneumonia, 2019 com revisão 2023; SBPT — Diretrizes de pneumonia, 2023",
+"coment": "O escore CURB-65 estima gravidade pela confusão, ureia, frequência respiratória, pressão arterial e idade acima de sessenta e cinco anos. Pontuação de zero a um permite tratamento ambulatorial na maioria dos casos, com amoxicilina ou amoxicilina com clavulanato, ou macrolídeo conforme o perfil e as comorbidades. A reavaliação em quarenta e oito a setenta e duas horas é essencial para identificar falha terapêutica precoce e complicações.",
+"porAlt": [
+"Correta: tratamento ambulatorial com antibiótico oral e reavaliação clínica em quarenta e oito horas.",
+"A unidade intensiva se reserva a critérios de gravidade que este paciente não apresenta.",
+"O amplo espectro endovenoso por catorze dias é excessivo e favorece resistência antimicrobiana.",
+"Não prescrever antibiótico em pneumonia confirmada permite progressão e complicação evitável.",
+"A tomografia não é necessária quando o diagnóstico está estabelecido pela clínica e radiografia."
+]
+},
+{
+"q": "Paciente com dispneia súbita, dor torácica pleurítica e taquicardia, com escore de Wells de probabilidade alta. Qual é a conduta?",
+"alts": [
+"Anticoagulação empírica e angiotomografia de tórax, sempre iniciada antes da confirmação por imagem.",
+"Solicitar dímero-D e afastar o diagnóstico caso o resultado do exame se apresente dentro da normalidade.",
+"Aguardar o resultado da angiotomografia antes de iniciar qualquer anticoagulação no paciente descrito.",
+"Prescrever apenas analgésico e oxigênio suplementar, sem qualquer anticoagulação empírica indicada.",
+"Iniciar trombólise sistêmica em todos os pacientes com probabilidade clínica alta para essa doença."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ESC Guidelines on the diagnosis and management of acute pulmonary embolism, 2019 com atualização 2024",
+"coment": "Com probabilidade clínica alta de embolia pulmonar, o dímero-D não deve ser usado, pois seu valor normal não exclui a doença nesse cenário: parte-se direto para angiotomografia de tórax. Se houver previsão de demora para o exame e não houver alto risco de sangramento, a anticoagulação empírica é iniciada de imediato. Trombólise se reserva à embolia de alto risco, com instabilidade hemodinâmica ou hipotensão sustentada.",
+"porAlt": [
+"Correta: anticoagular empiricamente e confirmar com angiotomografia, sem esperar o exame para tratar.",
+"Com probabilidade alta o dímero-D normal não exclui a doença e não deve ser usado para afastar.",
+"Aguardar a imagem sem anticoagular expõe o paciente a extensão do trombo e a novos êmbolos.",
+"Analgesia e oxigênio são suporte e não tratam o evento tromboembólico em curso no paciente.",
+"A trombólise se reserva à embolia de alto risco com instabilidade hemodinâmica documentada."
+]
+},
+{
+"q": "Paciente com tosse crônica há 10 semanas, sem tabagismo, com radiografia de tórax normal e sem uso de inibidor da enzima conversora. Qual é a abordagem inicial?",
+"alts": [
+"Investigar as três causas mais comuns, tratando sempre gotejamento nasal, asma e refluxo em sequência.",
+"Solicitar tomografia de tórax e broncoscopia imediatamente em todos os pacientes com tosse crônica.",
+"Prescrever antitussígeno de uso contínuo por seis meses sem qualquer investigação complementar agora.",
+"Iniciar antibiótico de amplo espectro por quatro semanas como abordagem inicial da tosse crônica.",
+"Iniciar corticoide sistêmico contínuo, abordagem de escolha para a tosse crônica com imagem normal."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "CHEST Expert Panel Report on chronic cough, 2018 com revisão 2023; ERS guidelines on chronic cough, 2020",
+"coment": "Tosse crônica é definida por duração superior a oito semanas. Em não fumante, sem inibidor da enzima conversora e com radiografia normal, as três causas mais frequentes são síndrome de tosse de via aérea superior, asma ou tosse variante asmática e doença do refluxo gastroesofágico, isoladas ou combinadas. A abordagem é investigação e tratamento empírico sequencial dessas causas, reservando investigação adicional para os casos sem resposta.",
+"porAlt": [
+"Correta: investigar e tratar sequencialmente gotejamento nasal, asma e refluxo, as três causas mais comuns.",
+"A investigação invasiva é reservada a sinais de alarme ou falha da abordagem inicial sequencial.",
+"O antitussígeno contínuo mascara o sintoma sem tratar a causa subjacente da tosse crônica.",
+"O antibiótico prolongado não trata as causas mais frequentes de tosse crônica em não fumante.",
+"O corticoide sistêmico contínuo tem toxicidade elevada e não é a abordagem inicial indicada."
+]
+},
+{
+"q": "Paciente com hemoptise volumosa e instabilidade respiratória. Qual é a primeira medida?",
+"alts": [
+"Proteger a via aérea e posicionar o paciente com o lado sangrante sempre voltado para baixo agora.",
+"Posicionar o paciente com o lado sangrante voltado para cima para favorecer a ventilação do pulmão.",
+"Iniciar anticoagulação plena imediatamente como primeira medida diante da hemoptise volumosa descrita.",
+"Realizar fisioterapia respiratória com percussão torácica vigorosa como primeira medida terapêutica.",
+"Prescrever apenas antitussígeno e observar clinicamente por doze horas antes de qualquer intervenção."
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "CHEST guideline on management of massive hemoptysis, revisão 2023; ERS statement on hemoptysis, 2020",
+"coment": "Na hemoptise maciça a morte ocorre por asfixia, não por perda sanguínea. A prioridade é proteger a via aérea, com intubação seletiva se necessário, e posicionar o paciente em decúbito lateral com o lado sangrante para baixo, impedindo que o sangue inunde o pulmão sadio. Segue-se correção de coagulopatia, broncoscopia para localizar e tratar, e arteriografia brônquica com embolização, que é o tratamento definitivo na maioria dos casos.",
+"porAlt": [
+"Correta: proteger a via aérea e posicionar em decúbito lateral com o lado sangrante voltado para baixo.",
+"Posicionar o lado sangrante para cima faz o sangue inundar o pulmão sadio e agrava a asfixia.",
+"A anticoagulação agrava o sangramento e é o oposto do indicado nessa situação de hemoptise.",
+"A percussão torácica pode agravar o sangramento e não protege a via aérea do paciente instável.",
+"Observar sem proteger a via aérea permite asfixia, que é a principal causa de morte nesse quadro."
+]
+},
+{
+"q": "Paciente internado apresenta elevação da creatinina de 1,0 para 1,9 mg/dL em 48 horas, com débito urinário preservado. Qual é a conduta inicial?",
+"alts": [
+"Buscar sempre a causa, revisar nefrotóxicos e avaliar volemia antes de qualquer indicação dialítica.",
+"Indicar hemodiálise imediata a todos os pacientes com essa variação de creatinina em quarenta e oito horas.",
+"Prescrever diurético de alça em dose alta para converter a lesão renal oligúrica em não oligúrica.",
+"Restringir a oferta de líquidos em todos os casos, independentemente do estado volêmico do paciente.",
+"Iniciar dopamina em dose baixa, medida que protege a função renal na lesão renal aguda instalada."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r2",
+"base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012 com atualização 2024",
+"coment": "A lesão renal aguda é definida por elevação de creatinina de 0,3 mg/dL em quarenta e oito horas, aumento de cinquenta por cento em sete dias ou débito urinário abaixo de 0,5 mL/kg/h por seis horas. A conduta inicial é identificar a causa nas categorias pré-renal, renal e pós-renal, suspender nefrotóxicos, ajustar doses, avaliar volemia e afastar obstrução com ultrassom. Diurético não previne nem trata lesão renal, e dopamina em dose renal foi abandonada.",
+"porAlt": [
+"Correta: buscar a causa, revisar nefrotóxicos e avaliar volemia antes de considerar terapia dialítica.",
+"A diálise se indica por critérios específicos, e a variação isolada de creatinina não é um deles.",
+"O diurético não previne nem trata a lesão renal aguda e pode agravar a hipovolemia existente.",
+"Restringir líquidos sem avaliar volemia pode agravar a lesão renal de causa pré-renal.",
+"A dopamina em dose renal foi abandonada por ausência de benefício e risco de arritmia."
+]
+},
+{
+"q": "Paciente com doença renal crônica estágio 4 e potássio sérico de 6,8 mEq/L com alterações no eletrocardiograma. Qual é a primeira medida?",
+"alts": [
+"Gluconato de cálcio endovenoso para estabilizar sempre a membrana miocárdica antes de outras medidas.",
+"Iniciar resina de troca por via oral como primeira medida antes de qualquer estabilização cardíaca.",
+"Administrar apenas insulina com glicose e aguardar sem qualquer proteção elétrica do miocárdio agora.",
+"Indicar hemodiálise como primeira medida antes de qualquer intervenção farmacológica imediata agora.",
+"Suspender apenas os medicamentos que elevam o potássio e reavaliar o exame em seis horas neste caso."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "KDIGO controversies conference on potassium management, 2020; European Resuscitation Council Guidelines, 2021",
+"coment": "Na hipercalemia com alterações eletrocardiográficas, a primeira medida é gluconato de cálcio endovenoso, que estabiliza a membrana do miócito e protege contra arritmia sem alterar a calemia. Em seguida deslocam-se o potássio para o intracelular com insulina e glicose, beta-agonista inalado e bicarbonato se houver acidose. Só então se promove a remoção corporal com resina, diurético ou diálise, esta indicada na hipercalemia grave refratária.",
+"porAlt": [
+"Correta: gluconato de cálcio endovenoso primeiro, para estabilizar a membrana miocárdica de imediato.",
+"A resina remove potássio lentamente e não protege o coração no intervalo de maior risco.",
+"Insulina com glicose desloca o potássio, mas não substitui a proteção elétrica do miocárdio.",
+"A diálise remove potássio de forma definitiva, mas leva tempo para ser instituída na urgência.",
+"Suspender fármacos é necessário, porém insuficiente diante de alteração eletrocardiográfica aguda."
+]
+},
+{
+"q": "Paciente com doença renal crônica estágio 3, hipertenso e diabético, com albuminúria de 600 mg/g. Qual é a conduta?",
+"alts": [
+"Bloqueador do sistema renina-angiotensina com inibidor de SGLT2, sempre monitorando potássio e creatinina.",
+"Suspender qualquer bloqueador do sistema renina-angiotensina pelo risco de piora da função renal agora.",
+"Prescrever apenas restrição proteica extrema como principal intervenção para reduzir a albuminúria agora.",
+"Iniciar diurético tiazídico isolado, intervenção com melhor evidência para reduzir a progressão renal.",
+"Indicar diálise preventiva neste estágio para retardar a progressão da doença renal do paciente agora."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "KDIGO Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease, 2024",
+"coment": "Na doença renal crônica com albuminúria, o bloqueio do sistema renina-angiotensina com inibidor da enzima conversora ou bloqueador do receptor, titulado até a dose máxima tolerada, é a base do tratamento, associado a inibidor de SGLT2, que reduz progressão e eventos cardiovasculares. Finerenona é opção adicional no diabetes. Elevação de creatinina até trinta por cento após iniciar o bloqueio é esperada e não indica suspensão.",
+"porAlt": [
+"Correta: bloqueio do sistema renina-angiotensina com inibidor de SGLT2, monitorando potássio e creatinina.",
+"Elevação de creatinina até trinta por cento é esperada e não justifica suspender o bloqueio.",
+"A restrição proteica é moderada e adjuvante, jamais extrema e nunca como intervenção principal.",
+"O tiazídico controla pressão, mas não tem o efeito antiproteinúrico do bloqueio do sistema.",
+"Não existe diálise preventiva; a terapia substitutiva se inicia por critérios clínicos definidos."
+]
+},
+{
+"q": "Paciente com hiponatremia de 118 mEq/L, sonolência e convulsão. Qual é a conduta imediata?",
+"alts": [
+"Salina hipertônica em bolus com meta de correção controlada, sempre respeitando o limite diário seguro.",
+"Corrigir o sódio até valor normal nas primeiras seis horas para reverter rapidamente os sintomas agora.",
+"Restrição hídrica isolada como primeira medida diante da hiponatremia grave com convulsão descrita.",
+"Infusão rápida de salina isotônica em grande volume, primeira escolha na hiponatremia sintomática grave.",
+"Administrar apenas diurético de alça isolado como medida inicial para elevar a natremia do paciente."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "European clinical practice guideline on diagnosis and treatment of hyponatraemia, 2014 com revisão 2023; expert panel recommendations, 2023",
+"coment": "Hiponatremia grave sintomática, com convulsão ou rebaixamento, é emergência: administra-se salina hipertônica a 3% em bolus de 100 a 150 mL, repetido conforme necessário, buscando elevação rápida de 4 a 6 mEq/L, suficiente para reverter o edema cerebral. A correção total não deve ultrapassar 8 a 10 mEq/L em vinte e quatro horas, pelo risco de síndrome de desmielinização osmótica, especialmente em desnutridos, etilistas e hipocalêmicos.",
+"porAlt": [
+"Correta: salina hipertônica em bolus com elevação inicial rápida e limite diário de correção respeitado.",
+"Normalizar o sódio em seis horas ultrapassa o limite seguro e arrisca desmielinização osmótica.",
+"A restrição hídrica é lenta demais para o paciente com convulsão por edema cerebral instalado.",
+"A salina isotônica pode até reduzir a natremia em algumas causas e não é a escolha aqui.",
+"O diurético isolado não corrige a natremia com a rapidez exigida pelo quadro neurológico grave."
+]
+},
+{
+"q": "Homem de 30 anos com hematúria macroscópica recorrente durante quadros de infecção de vias aéreas superiores. Qual é o diagnóstico mais provável?",
+"alts": [
+"Nefropatia por IgA, que cursa sempre com hematúria simultânea ao quadro infeccioso de vias aéreas.",
+"Glomerulonefrite pós-estreptocócica, que cursa com hematúria simultânea à infecção de vias aéreas.",
+"Nefrolitíase recorrente, condição que produz hematúria sincrônica com infecções respiratórias altas.",
+"Cistite bacteriana de repetição, quadro que cursa com hematúria macroscópica durante infecção alta.",
+"Doença de membrana fina, condição definida por hematúria macroscópica sincrônica com faringite aguda."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases, 2021 com revisão 2024",
+"coment": "A nefropatia por IgA é a glomerulopatia primária mais frequente e se manifesta classicamente por hematúria macroscópica sincrônica com infecção de vias aéreas superiores, ou seja, no mesmo momento ou em até dois dias. Isso a distingue da glomerulonefrite pós-estreptocócica, cujo intervalo é de uma a três semanas após a faringite. O tratamento inclui bloqueio do sistema renina-angiotensina e, em casos selecionados com proteinúria persistente, imunossupressão.",
+"porAlt": [
+"Correta: hematúria macroscópica sincrônica com infecção de vias aéreas caracteriza nefropatia por IgA.",
+"A glomerulonefrite pós-estreptocócica tem latência de uma a três semanas após a faringite.",
+"A nefrolitíase causa hematúria com dor em cólica e não guarda relação com infecção respiratória.",
+"A cistite cursa com disúria e urgência e não se relaciona com infecção de vias aéreas superiores.",
+"A doença de membrana fina cursa com hematúria microscópica persistente, geralmente familiar."
+]
+},
+{
+"q": "Paciente com edema periorbitário, proteinúria de 6 g/24h, hipoalbuminemia e hipercolesterolemia. Qual é a conduta inicial?",
+"alts": [
+"Investigar a causa com sorologias e considerar sempre biópsia renal antes da imunossupressão específica.",
+"Iniciar imunossupressão empírica em dose alta antes de qualquer investigação etiológica do quadro agora.",
+"Prescrever apenas diurético em dose alta e alta hospitalar, sem qualquer investigação complementar.",
+"Indicar diálise imediata em todos os pacientes com essa magnitude de proteinúria nas vinte e quatro horas.",
+"Prescrever apenas dieta hiperproteica para compensar a perda urinária de proteínas do paciente agora."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "KDIGO Glomerular Diseases Guideline, 2021 com revisão 2024",
+"coment": "A síndrome nefrótica no adulto exige definição etiológica: investigam-se diabetes, lúpus, hepatites B e C, HIV, sífilis, mieloma, amiloidose e fármacos, além de dosar complemento e anticorpo anti-PLA2R, que sugere nefropatia membranosa primária. A biópsia renal é indicada na maioria dos adultos, pois o tratamento depende da lesão histológica. O manejo de suporte inclui bloqueio do sistema renina-angiotensina, controle de edema, estatina e atenção ao risco trombótico.",
+"porAlt": [
+"Correta: investigar etiologia com sorologias e considerar biópsia renal antes da imunossupressão.",
+"A imunossupressão empírica sem histologia pode ser ineficaz e expõe o paciente a toxicidade evitável.",
+"O diurético trata o edema, mas não define a causa nem o tratamento específico da glomerulopatia.",
+"A diálise se indica por critérios clínicos, e a proteinúria isolada não é um deles neste contexto.",
+"A dieta hiperproteica aumenta a proteinúria e pode acelerar a progressão da doença renal."
+]
+},
+{
+"q": "Paciente com cólica renal e tomografia mostrando cálculo ureteral de 5 mm sem sinais de infecção, com dor controlada. Qual é a conduta?",
+"alts": [
+"Analgesia com anti-inflamatório e terapia expulsiva, sempre com hidratação e observação da eliminação.",
+"Indicar litotripsia extracorpórea imediata a todos os pacientes com cálculo ureteral dessa dimensão.",
+"Indicar cirurgia aberta de urgência para a retirada do cálculo ureteral descrito no enunciado do caso.",
+"Prescrever antibiótico de amplo espectro por dez dias mesmo sem qualquer sinal de infecção urinária.",
+"Realizar hidratação endovenosa em altíssimo volume para forçar mecanicamente a expulsão do cálculo."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r1",
+"base": "EAU Guidelines on Urolithiasis, 2024; AUA/Endourological Society Surgical Management of Stones, revisão 2023",
+"coment": "Cálculos ureterais de até dez milímetros, sem infecção, sem lesão renal e com dor controlada, podem ser tratados conservadoramente: anti-inflamatório não hormonal como analgésico de escolha, hidratação habitual e terapia expulsiva com alfabloqueador, sobretudo em cálculos distais entre cinco e dez milímetros. Indicação de intervenção urgente inclui obstrução com infecção, rim único, lesão renal e dor refratária. Hiperidratação forçada não acelera a eliminação.",
+"porAlt": [
+"Correta: analgesia com anti-inflamatório, terapia expulsiva e observação da eliminação do cálculo.",
+"A litotripsia é opção quando falha o tratamento conservador ou há indicação específica de intervenção.",
+"A cirurgia aberta é excepcional hoje, substituída por métodos endoscópicos minimamente invasivos.",
+"O antibiótico sem sinais de infecção seleciona resistência e não acelera a eliminação do cálculo.",
+"A hidratação em altíssimo volume não impulsiona o cálculo e pode aumentar a pressão e a dor."
+]
+},
+{
+"q": "Mulher de 24 anos com disúria, polaciúria e urgência, sem febre, sem dor lombar e sem comorbidades. Qual é a conduta?",
+"alts": [
+"Tratar empiricamente com antibiótico de curta duração, sempre sem necessidade de urocultura prévia.",
+"Solicitar urocultura e aguardar o resultado antes de qualquer prescrição de antibiótico para a paciente.",
+"Prescrever antibiótico de amplo espectro por catorze dias em todos os casos de cistite não complicada.",
+"Solicitar tomografia de abdome antes de qualquer tratamento da infecção urinária baixa não complicada.",
+"Prescrever apenas analgésico urinário, medida suficiente para o tratamento da cistite bacteriana aguda."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "IDSA/ESCMID guidelines for uncomplicated cystitis, revisão 2023; Ministério da Saúde — protocolo de infecção urinária, 2022",
+"coment": "A cistite não complicada em mulher jovem sem fatores de risco é diagnóstico clínico e permite tratamento empírico sem urocultura. As opções incluem nitrofurantoína por cinco dias, fosfomicina em dose única e sulfametoxazol-trimetoprima por três dias conforme a resistência local. Quinolonas são evitadas como primeira escolha por efeitos adversos e pressão seletiva. Urocultura se reserva a falha terapêutica, recorrência, gestação ou infecção complicada.",
+"porAlt": [
+"Correta: tratamento empírico de curta duração, sem necessidade de urocultura na cistite não complicada.",
+"Aguardar a urocultura atrasa desnecessariamente o alívio de um quadro de manejo empírico consagrado.",
+"O tratamento de catorze dias com amplo espectro é excessivo e favorece resistência bacteriana.",
+"A tomografia não é necessária na cistite não complicada de mulher jovem sem sinais de alarme.",
+"O analgésico urinário alivia sintomas, mas não erradica a bactéria responsável pela infecção."
+]
+},
+{
+"q": "Paciente em uso de anti-inflamatório não hormonal há duas semanas evolui com elevação de creatinina e sódio urinário baixo. Qual é o mecanismo mais provável?",
+"alts": [
+"Vasoconstrição da arteríola aferente por inibição de prostaglandinas, revertida sempre com a suspensão.",
+"Nefrite intersticial aguda alérgica, definida por sódio urinário baixo e resposta imediata à suspensão.",
+"Necrose tubular aguda isquêmica, caracterizada por sódio urinário baixo e cilindros hialinos na urina.",
+"Obstrução urinária baixa por retenção, mecanismo típico do uso prolongado de anti-inflamatórios orais.",
+"Glomerulonefrite rapidamente progressiva, mecanismo habitual da lesão renal induzida por essa classe."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "KDIGO Acute Kidney Injury Guideline, atualização 2024; NEJM review on drug-induced nephrotoxicity, 2023",
+"coment": "Os anti-inflamatórios não hormonais inibem a síntese de prostaglandinas vasodilatadoras que mantêm a perfusão glomerular quando há hipoperfusão renal, causando vasoconstrição da arteríola aferente e queda da filtração. O padrão é pré-renal, com sódio urinário baixo e fração de excreção de sódio reduzida, e costuma reverter com a suspensão do fármaco e a correção da volemia. Essa classe também pode causar nefrite intersticial e necrose de papila.",
+"porAlt": [
+"Correta: vasoconstrição da arteríola aferente por inibição de prostaglandinas, revertida com a suspensão.",
+"A nefrite intersticial cursa com sódio urinário elevado, além de eosinofilúria e por vezes rash.",
+"A necrose tubular aguda cursa com sódio urinário elevado e cilindros granulosos, não hialinos.",
+"Anti-inflamatórios não causam obstrução urinária baixa como mecanismo de lesão renal aguda.",
+"A glomerulonefrite rapidamente progressiva cursa com hematúria dismórfica e cilindros hemáticos."
+]
+},
+{
+"q": "Paciente com acidose metabólica, ânion gap normal, potássio baixo e pH urinário persistentemente alto. Qual é o diagnóstico?",
+"alts": [
+"Acidose tubular renal distal, que cursa sempre com incapacidade de acidificar adequadamente a urina.",
+"Cetoacidose diabética descompensada, condição que cursa com ânion gap normal e pH urinário elevado.",
+"Acidose láctica por hipoperfusão, quadro definido por ânion gap normal com potássio sérico reduzido.",
+"Intoxicação por metanol, condição caracterizada por ânion gap normal e pH urinário persistentemente alto.",
+"Insuficiência renal crônica avançada, definida por ânion gap normal com pH urinário sempre elevado."
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Brenner and Rector's The Kidney, 12ª edição, 2024; UpToDate revisão sobre acidoses tubulares renais, 2024",
+"coment": "A acidose tubular renal distal, ou tipo 1, decorre da incapacidade de secretar hidrogênio no túbulo distal: cursa com acidose metabólica hiperclorêmica de ânion gap normal, hipocalemia e pH urinário persistentemente acima de 5,5 mesmo com acidemia. Associa-se a nefrolitíase e nefrocalcinose por hipocitratúria e hipercalciúria. A tipo 2, proximal, decorre de perda de bicarbonato e permite acidificação urinária quando o bicarbonato sérico cai o suficiente.",
+"porAlt": [
+"Correta: acidose tubular renal distal, com incapacidade de acidificar a urina apesar da acidemia.",
+"A cetoacidose cursa com ânion gap elevado pela presença de corpos cetônicos na circulação.",
+"A acidose láctica cursa com ânion gap elevado e hiperpotassemia é mais comum que hipopotassemia.",
+"A intoxicação por metanol cursa com ânion gap elevado e gap osmolar aumentado no plasma.",
+"A doença renal avançada cursa com ânion gap elevado por retenção de ânions não mensurados."
+]
 }
 ];
