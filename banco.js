@@ -10390,5 +10390,965 @@ window.BANCO=[
 "Aumentar a dose diante de evento adverso grave agrava a toxicidade sem qualquer justificativa.",
 "Hidratação isolada sem suspender o fármaco permite a progressão da colite imunomediada grave."
 ]
+},
+{
+"q": "Paciente com placas anulares descamativas pruriginosas em tronco, com borda ativa e centro claro. Qual é o tratamento?",
+"alts": [
+"Antifúngico tópico por quatro semanas, considerando sempre a via oral se houver lesões extensas.",
+"Corticoide tópico de alta potência isolado, tratamento de escolha para as lesões anulares descritas.",
+"Antibiótico sistêmico por dez dias, tratamento indicado para as placas anulares descamativas do tronco.",
+"Fototerapia com ultravioleta como tratamento inicial de escolha para essas lesões anulares no tronco.",
+"Imunossupressor sistêmico contínuo como tratamento de primeira linha das lesões cutâneas descritas."
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "Sociedade Brasileira de Dermatologia — consenso de dermatofitoses, 2022; British Association of Dermatologists guidelines, 2023",
+"coment": "A lesão anular com borda ativa descamativa e clareamento central é a apresentação clássica da tinea corporis. O tratamento de lesões localizadas é antifúngico tópico, como terbinafina ou azólico, por duas a quatro semanas, mantido por uma semana após a resolução clínica. Lesões extensas, foliculares ou refratárias, e o acometimento de couro cabeludo e unhas, exigem tratamento sistêmico. Corticoide tópico isolado mascara e agrava a infecção.",
+"porAlt": [
+"Correta: antifúngico tópico por quatro semanas, com via oral reservada a lesões extensas ou refratárias.",
+"O corticoide isolado modifica a lesão e agrava a infecção fúngica, produzindo tinha incógnita.",
+"O antibiótico não trata dermatofitose, que é infecção fúngica superficial e não bacteriana.",
+"A fototerapia trata psoríase e outras dermatoses inflamatórias, e não infecções fúngicas cutâneas.",
+"O imunossupressor agrava a infecção fúngica ao reduzir ainda mais a resposta local do hospedeiro."
+]
+},
+{
+"q": "Paciente com acne inflamatória moderada, com pápulas e pústulas, sem resposta a tratamento tópico isolado. Qual é o próximo passo?",
+"alts": [
+"Antibiótico oral associado a retinoide tópico, mantido sempre por período limitado para evitar resistência.",
+"Isotretinoína oral imediatamente em todos os pacientes com acne inflamatória de grau moderado neste caso.",
+"Corticoide sistêmico contínuo em dose baixa como próximo passo no tratamento da acne moderada neste caso.",
+"Antibiótico oral em monoterapia por tempo indeterminado como estratégia de manutenção do controle agora.",
+"Apenas limpeza de pele mensal, medida suficiente para o controle da acne inflamatória moderada neste caso."
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "AAD guidelines of care for the management of acne vulgaris, 2024; Sociedade Brasileira de Dermatologia, 2022",
+"coment": "Na acne inflamatória moderada sem resposta ao tratamento tópico, associa-se antibiótico oral, geralmente doxiciclina, sempre combinado a retinoide tópico e peróxido de benzoíla, que reduzem resistência bacteriana. O antibiótico é limitado a três ou quatro meses, com manutenção posterior apenas tópica. A isotretinoína oral é indicada na acne grave, nodulocística, com cicatrizes ou refratária, exigindo contracepção rigorosa em mulheres.",
+"porAlt": [
+"Correta: antibiótico oral com retinoide tópico, por período limitado para reduzir resistência bacteriana.",
+"A isotretinoína se reserva à acne grave, com cicatrizes ou refratária ao tratamento convencional.",
+"O corticoide sistêmico contínuo não é tratamento da acne e pode inclusive desencadear erupção acneiforme.",
+"O antibiótico em monoterapia prolongada seleciona resistência e não é estratégia de manutenção.",
+"A limpeza de pele é adjuvante estético e não controla a inflamação folicular da acne moderada."
+]
+},
+{
+"q": "Paciente com prurido intenso predominantemente noturno, lesões em espaços interdigitais e punhos, com familiares acometidos. Qual é a conduta?",
+"alts": [
+"Tratar com escabicida tópico ou oral e tratar sempre todos os contatos domiciliares simultaneamente.",
+"Tratar apenas o paciente com corticoide tópico, sem qualquer abordagem dos contatos domiciliares.",
+"Prescrever apenas anti-histamínico oral, medida suficiente para a resolução completa do quadro.",
+"Iniciar antibiótico sistêmico prolongado como tratamento de escolha para o prurido noturno descrito.",
+"Aguardar a resolução espontânea do quadro sem qualquer tratamento específico ou medida de controle."
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "CDC Parasites — Scabies clinical guidance, revisão 2024; Sociedade Brasileira de Dermatologia, 2022",
+"coment": "A escabiose cursa com prurido de predomínio noturno e lesões em espaços interdigitais, punhos, axilas, cintura e genitália, com frequente acometimento familiar. O tratamento é permetrina tópica a 5% ou ivermectina oral, e o ponto crítico é tratar simultaneamente todos os contatos domiciliares, mesmo assintomáticos, além de lavar roupas de cama e vestuário em água quente. O prurido pode persistir semanas após a cura, sem indicar falha.",
+"porAlt": [
+"Correta: escabicida tópico ou oral com tratamento simultâneo de todos os contatos domiciliares.",
+"Tratar apenas o paciente perpetua o ciclo de reinfestação a partir dos contatos não tratados.",
+"O anti-histamínico alivia o prurido, mas não elimina o ácaro responsável pela infestação.",
+"O antibiótico só entra se houver impetiginização secundária das lesões escoriadas pelo prurido.",
+"A escabiose não se resolve espontaneamente e a transmissão continua sem tratamento adequado."
+]
+},
+{
+"q": "Paciente diabético com úlcera plantar de bordas calosas, indolor, sobre proeminência óssea. Qual é a conduta?",
+"alts": [
+"Desbridamento, alívio de pressão e avaliação vascular, investigando sempre a presença de osteomielite.",
+"Apenas curativo oclusivo diário sem qualquer alívio da pressão local sobre a área ulcerada do pé.",
+"Antibiótico sistêmico prolongado isolado como tratamento definitivo da úlcera plantar descrita agora.",
+"Amputação imediata do membro em todos os casos de úlcera plantar em paciente com diabetes neste caso.",
+"Manter deambulação habitual sem qualquer dispositivo de descarga sobre a região plantar acometida."
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "IWGDF Guidelines on the prevention and management of diabetes-related foot disease, 2023",
+"coment": "A úlcera neuropática plantar exige três pilares: desbridamento do tecido desvitalizado e do calo circundante, alívio de pressão com dispositivo de descarga — sendo o gesso de contato total o padrão-ouro — e avaliação vascular para identificar isquemia associada. Investiga-se osteomielite quando a úlcera é profunda, sonda o osso ou não cicatriza. Antibiótico é indicado apenas quando há infecção clínica, e não em toda úlcera.",
+"porAlt": [
+"Correta: desbridamento, alívio de pressão e avaliação vascular, com investigação de osteomielite.",
+"O curativo sem alívio de pressão não cicatriza a úlcera, pois a carga mecânica mantém a lesão.",
+"O antibiótico isolado sem desbridamento e descarga não resolve a úlcera neuropática plantar.",
+"A amputação é medida de exceção, e a maioria das úlceras cicatriza com tratamento adequado.",
+"Manter a deambulação sem descarga perpetua a pressão que impede a cicatrização da lesão."
+]
+},
+{
+"q": "Paciente com lesões eritematodescamativas em couro cabeludo, sulco nasogeniano e região retroauricular, com prurido leve. Qual é o tratamento?",
+"alts": [
+"Antifúngico tópico com corticoide de baixa potência, mantidos sempre em esquema intermitente de manutenção.",
+"Corticoide sistêmico em dose alta prolongada como tratamento de escolha para as lesões descritas agora.",
+"Antibiótico oral por três semanas, tratamento indicado para as lesões eritematodescamativas faciais agora.",
+"Isotretinoína oral em dose plena como tratamento de primeira linha para o quadro cutâneo descrito agora.",
+"Imunossupressor sistêmico contínuo como tratamento inicial das lesões em couro cabeludo e face neste caso."
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "AAD guidelines of care for seborrheic dermatitis, 2024; Sociedade Brasileira de Dermatologia, 2022",
+"coment": "A dermatite seborreica acomete áreas ricas em glândulas sebáceas e se associa à proliferação de Malassezia. O tratamento combina antifúngico tópico — cetoconazol ou ciclopirox — com corticoide de baixa potência por curtos períodos nas fases inflamatórias, e xampus medicamentosos no couro cabeludo. É condição crônica e recidivante, exigindo manutenção intermitente. Formas extensas e refratárias devem levantar suspeita de imunossupressão, incluindo HIV.",
+"porAlt": [
+"Correta: antifúngico tópico com corticoide de baixa potência e manutenção intermitente de longo prazo.",
+"O corticoide sistêmico prolongado é desproporcional e traz toxicidade sem benefício sustentado.",
+"O antibiótico não trata a dermatite seborreica, cuja associação é com fungo lipofílico da pele.",
+"A isotretinoína trata acne grave e não é a primeira linha para a dermatite seborreica descrita.",
+"O imunossupressor sistêmico é desproporcional para uma dermatose crônica de manejo tópico."
+]
+},
+{
+"q": "Paciente com nevo melanocítico que apresenta mudança recente de cor, aumento de tamanho e sangramento. Qual é a conduta?",
+"alts": [
+"Encaminhar para avaliação dermatológica e biópsia excisional, pois a mudança recente é sempre sinal de alarme.",
+"Observar por doze meses antes de qualquer avaliação, pois nevos mudam ao longo da vida do paciente agora.",
+"Realizar crioterapia da lesão em consultório sem qualquer envio de material para exame histológico agora.",
+"Prescrever corticoide tópico de alta potência sobre a lesão como tratamento inicial dessa alteração agora.",
+"Realizar apenas fotografia da lesão e reavaliar somente após dois anos de acompanhamento clínico neste caso."
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "NCCN Melanoma: Cutaneous, 2024; Sociedade Brasileira de Dermatologia — campanha de detecção precoce, 2023",
+"coment": "A evolução — mudança de tamanho, cor, forma ou surgimento de sintomas como prurido e sangramento — é o critério mais importante do sistema ABCDE e, isoladamente, justifica a investigação de melanoma. A conduta é avaliação especializada com dermatoscopia e biópsia excisional com margem estreita, que preserva a espessura para estadiamento. Métodos destrutivos como crioterapia impedem o diagnóstico histológico e são inaceitáveis diante de suspeita.",
+"porAlt": [
+"Correta: avaliação especializada e biópsia excisional, pois a mudança recente é sinal de alarme.",
+"Observar por doze meses permite progressão em profundidade e piora expressiva do prognóstico.",
+"A crioterapia destrói a lesão sem histologia e inviabiliza o diagnóstico e o estadiamento corretos.",
+"O corticoide tópico não trata lesão pigmentada suspeita e apenas retarda o diagnóstico correto.",
+"A fotografia é útil no seguimento de lesões estáveis, e não diante de mudança já documentada."
+]
+},
+{
+"q": "Paciente com eritema migratório após picada de carrapato em região endêmica, sem outros sintomas. Qual é a conduta?",
+"alts": [
+"Iniciar doxiciclina por via oral, sempre sem aguardar a confirmação sorológica do diagnóstico suspeitado.",
+"Aguardar a soroconversão antes de iniciar qualquer antibiótico no paciente com a lesão descrita agora.",
+"Prescrever apenas corticoide tópico sobre a lesão como tratamento definitivo do eritema descrito agora.",
+"Iniciar antifúngico oral por quatro semanas, tratamento indicado para a lesão anular pós-picada agora.",
+"Observar sem tratamento até o surgimento de manifestações articulares ou neurológicas evidentes agora."
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "IDSA/AAN/ACR Clinical Practice Guidelines for Lyme Disease, 2020 com revisão 2023",
+"coment": "O eritema migratório é lesão patognomônica da fase precoce localizada da doença de Lyme e o diagnóstico é clínico em área endêmica, pois a sorologia costuma ser negativa nas primeiras semanas. O tratamento é doxiciclina por via oral por dez a catorze dias, com amoxicilina ou cefuroxima como alternativas em gestantes e crianças. Tratar precocemente previne as manifestações tardias articulares, neurológicas e cardíacas da doença.",
+"porAlt": [
+"Correta: doxiciclina oral iniciada pelo quadro clínico, sem aguardar a confirmação sorológica.",
+"A sorologia é frequentemente negativa nas primeiras semanas e não deve atrasar o tratamento.",
+"O corticoide tópico não trata a infecção bacteriana responsável pela lesão cutânea descrita.",
+"O antifúngico não tem ação sobre a espiroqueta causadora da doença transmitida pelo carrapato.",
+"Aguardar manifestações tardias permite acometimento articular, neurológico e cardíaco evitável."
+]
+},
+{
+"q": "Paciente com lesões vesicobolhosas tensas em tronco e membros, prurido intenso, em idoso, com sinal de Nikolsky negativo. Qual é o diagnóstico mais provável?",
+"alts": [
+"Penfigoide bolhoso, que cursa sempre com bolhas tensas e clivagem subepidérmica ao exame histológico.",
+"Pênfigo vulgar clássico, que cursa com bolhas tensas e sinal de Nikolsky negativo em pacientes idosos.",
+"Dermatite herpetiforme, condição definida por bolhas tensas em tronco com Nikolsky negativo no idoso.",
+"Impetigo bolhoso do adulto, já quadro caracterizado por bolhas tensas pruriginosas difusas em idosos.",
+"Eritema multiforme maior, já definido por bolhas tensas difusas com sinal de Nikolsky sempre negativo."
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "European Academy of Dermatology and Venereology guidelines on bullous pemphigoid, 2022; British Association of Dermatologists, 2023",
+"coment": "O penfigoide bolhoso é a doença bolhosa autoimune mais frequente, típica de idosos, com bolhas tensas sobre base eritematosa ou pele normal, prurido intenso e sinal de Nikolsky negativo, porque a clivagem é subepidérmica. O pênfigo vulgar, ao contrário, tem clivagem intraepidérmica, bolhas flácidas, Nikolsky positivo e acometimento mucoso frequente. A confirmação usa imunofluorescência direta, e o tratamento é corticoide tópico potente ou sistêmico.",
+"porAlt": [
+"Correta: bolhas tensas com Nikolsky negativo no idoso caracterizam o penfigoide bolhoso subepidérmico.",
+"O pênfigo vulgar cursa com bolhas flácidas, Nikolsky positivo e acometimento mucoso frequente.",
+"A dermatite herpetiforme cursa com vesículas agrupadas em superfícies extensoras e doença celíaca.",
+"O impetigo bolhoso é infeccioso, localizado, e não produz o quadro difuso e crônico descrito.",
+"O eritema multiforme cursa com lesões em alvo e está associado a infecções ou fármacos."
+]
+},
+{
+"q": "Paciente com hiperceratose e escurecimento aveludado em axilas e pescoço, com obesidade e resistência insulínica. Qual é a conduta?",
+"alts": [
+"Investigar e tratar a resistência insulínica, avaliando sempre a possibilidade de neoplasia oculta associada.",
+"Prescrever apenas corticoide tópico potente nas lesões como tratamento definitivo do quadro cutâneo agora.",
+"Iniciar antibiótico sistêmico prolongado, tratamento indicado para o escurecimento cutâneo descrito agora.",
+"Indicar exérese cirúrgica das áreas acometidas como tratamento de escolha para as lesões descritas agora.",
+"Prescrever antifúngico oral por três meses, tratamento indicado para a hiperpigmentação aveludada agora."
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "AAD clinical guidance on acanthosis nigricans, revisão 2023; Endocrine Society — obesity and insulin resistance, 2023",
+"coment": "A acantose nigricans é marcador cutâneo de resistência insulínica, associada a obesidade, diabetes tipo 2, síndrome dos ovários policísticos e a alguns fármacos. O tratamento é o da condição de base: perda de peso, atividade física e controle metabólico melhoram as lesões. Início abrupto, extenso, em paciente magro e com acometimento de mucosas e palmas levanta suspeita de acantose nigricans maligna, associada a adenocarcinoma, sobretudo gástrico.",
+"porAlt": [
+"Correta: investigar e tratar a resistência insulínica, atento à forma associada a neoplasia oculta.",
+"O corticoide tópico não trata a causa metabólica e não resolve a hiperpigmentação aveludada.",
+"Não há infecção bacteriana envolvida no mecanismo da acantose nigricans descrita neste caso.",
+"A exérese cirúrgica é desproporcional e não impede a recorrência enquanto a causa persistir.",
+"O antifúngico não tem papel, pois a lesão não decorre de infecção fúngica da pele acometida."
+]
+},
+{
+"q": "Paciente com queimadura solar extensa e bolhas em dorso após exposição prolongada. Qual é a conduta?",
+"alts": [
+"Analgesia, hidratação da pele e cuidado local, avaliando sempre a extensão e o estado de hidratação.",
+"Romper todas as bolhas em consultório e aplicar antisséptico alcoólico sobre as áreas descobertas.",
+"Aplicar corticoide sistêmico em dose alta e prolongada como tratamento padrão da queimadura solar.",
+"Prescrever antibiótico sistêmico profilático para todos os pacientes com queimadura solar bolhosa.",
+"Aplicar gelo diretamente sobre a pele queimada por períodos prolongados como principal medida local."
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "AAD clinical guidance on sunburn management, revisão 2023; American Burn Association, 2023",
+"coment": "A queimadura solar com bolhas corresponde a queimadura de segundo grau superficial. O manejo é analgesia com anti-inflamatório ou paracetamol, compressas frias — nunca gelo direto, que agrava a lesão —, hidratação da pele e da via oral, e cuidado local mantendo as bolhas íntegras sempre que possível, pois funcionam como curativo biológico. Antibiótico profilático não é indicado, e extensão importante exige avaliação como queimadura extensa.",
+"porAlt": [
+"Correta: analgesia, hidratação e cuidado local, com avaliação da extensão e do estado de hidratação.",
+"Romper as bolhas remove a barreira biológica e o antisséptico alcoólico agrava a dor e a lesão.",
+"O corticoide sistêmico prolongado não é tratamento padrão e traz toxicidade desnecessária.",
+"A profilaxia antibiótica não é indicada e favorece a seleção de germes resistentes na pele.",
+"O gelo direto sobre a pele queimada aprofunda a lesão por vasoconstrição e lesão térmica local."
+]
+},
+{
+"q": "Paciente com transtorno por uso de álcool deseja parar de beber e já está abstinente há uma semana. Qual medicação tem indicação para manutenção da abstinência?",
+"alts": [
+"Naltrexona ou acamprosato, associados sempre a intervenção psicossocial estruturada e acompanhamento.",
+"Benzodiazepínico contínuo por tempo indeterminado como estratégia de manutenção da abstinência alcoólica.",
+"Antipsicótico típico em dose alta, tratamento de escolha para a manutenção da abstinência do álcool.",
+"Apenas orientação verbal na consulta, sem qualquer medicação ou acompanhamento estruturado agora.",
+"Antidepressivo tricíclico em dose plena como tratamento específico da dependência de álcool agora."
+],
+"gab": 0,
+"tema": "psiq",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "APA Practice Guideline for the Pharmacological Treatment of Patients With Alcohol Use Disorder, revisão 2023; Ministério da Saúde, 2022",
+"coment": "Naltrexona e acamprosato são os fármacos de primeira linha para manutenção da abstinência no transtorno por uso de álcool, com evidência de redução de recaída, sempre associados a intervenção psicossocial. O dissulfiram é opção em contextos com supervisão da tomada. Benzodiazepínicos servem à fase de abstinência aguda, por poucos dias, e seu uso prolongado é contraindicado pelo risco de dependência cruzada e de recaída.",
+"porAlt": [
+"Correta: naltrexona ou acamprosato associados a intervenção psicossocial e acompanhamento regular.",
+"O benzodiazepínico contínuo gera dependência cruzada e aumenta o risco de recaída no álcool.",
+"O antipsicótico não tem indicação para manutenção da abstinência e traz efeitos adversos relevantes.",
+"A orientação isolada é insuficiente diante de um transtorno com alta taxa de recaída precoce.",
+"O tricíclico trata depressão associada, mas não é tratamento específico da dependência alcoólica."
+]
+},
+{
+"q": "Paciente com transtorno de pânico apresenta crises recorrentes com medo de morrer e evitação de locais públicos. Qual é o tratamento inicial?",
+"alts": [
+"Antidepressivo serotoninérgico com terapia cognitivo-comportamental, iniciando sempre com dose baixa.",
+"Benzodiazepínico contínuo em monoterapia por tempo indeterminado como tratamento de escolha do quadro.",
+"Antipsicótico atípico em dose plena como primeira linha para o transtorno de pânico com evitação.",
+"Apenas orientação para evitar completamente todas as situações que desencadeiam as crises descritas.",
+"Estabilizador de humor em dose plena, tratamento de primeira escolha para as crises de pânico recorrentes."
+],
+"gab": 0,
+"tema": "psiq",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "NICE guideline CG113, revisão 2023; APA Practice Guideline for Panic Disorder, revisão 2022",
+"coment": "O transtorno de pânico é tratado com inibidor seletivo da recaptação de serotonina e terapia cognitivo-comportamental com exposição, ambos com evidência robusta. O antidepressivo é iniciado em dose baixa, porque pacientes com pânico são especialmente sensíveis à piora inicial da ansiedade. Benzodiazepínico pode ser usado por poucas semanas na fase inicial, evitando uso contínuo. Reforçar a evitação piora a doença ao consolidar o comportamento.",
+"porAlt": [
+"Correta: antidepressivo serotoninérgico iniciado em dose baixa, associado a terapia cognitivo-comportamental.",
+"O benzodiazepínico em monoterapia prolongada gera dependência e não trata o transtorno de base.",
+"O antipsicótico atípico não é primeira linha e traz risco metabólico sem benefício correspondente.",
+"Reforçar a evitação consolida o comportamento e agrava a incapacidade associada ao transtorno.",
+"O estabilizador de humor é indicado no transtorno bipolar, e não no transtorno de pânico."
+]
+},
+{
+"q": "Paciente com transtorno bipolar em uso de lítio pergunta sobre monitorização. Qual é a conduta correta?",
+"alts": [
+"Dosar litemia periodicamente e monitorar sempre função renal e tireoidiana ao longo do tratamento.",
+"Dosar apenas a litemia uma única vez no início do tratamento, sem qualquer monitorização posterior.",
+"Monitorar apenas o hemograma completo trimestral, exame suficiente para o acompanhamento do lítio.",
+"Não realizar qualquer exame, pois o lítio não exige monitorização laboratorial durante o uso crônico.",
+"Monitorar apenas a glicemia de jejum anual como único exame necessário no seguimento do paciente."
+],
+"gab": 0,
+"tema": "psiq",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "NICE guideline CG185 — Bipolar disorder, revisão 2023; CANMAT/ISBD guidelines, 2018 com atualização 2023",
+"coment": "O lítio tem janela terapêutica estreita e exige monitorização: litemia colhida doze horas após a última dose, inicialmente a cada uma a duas semanas até a estabilização e depois a cada três a seis meses. Monitoram-se também função renal, por risco de doença renal crônica e diabetes insípido nefrogênico, função tireoidiana, pelo risco de hipotireoidismo, e calcemia. Anti-inflamatórios, tiazídicos e desidratação elevam a litemia.",
+"porAlt": [
+"Correta: litemia periódica com monitorização de função renal e tireoidiana durante todo o tratamento.",
+"A dosagem única no início não detecta variações que ocorrem ao longo de anos de tratamento.",
+"O hemograma não é o exame central da monitorização do lítio, que exige litemia e função renal.",
+"O lítio tem janela terapêutica estreita e exige monitorização laboratorial regular e sistemática.",
+"A glicemia isolada não avalia os órgãos afetados pela toxicidade crônica do lítio no organismo."
+]
+},
+{
+"q": "Paciente idoso apresenta insônia crônica e solicita medicação para dormir. Qual é a conduta inicial?",
+"alts": [
+"Terapia cognitivo-comportamental para insônia, considerada sempre a primeira linha antes de qualquer fármaco.",
+"Prescrever benzodiazepínico de meia-vida longa como primeira escolha para o idoso com insônia crônica agora.",
+"Prescrever anti-histamínico sedativo contínuo como primeira escolha no tratamento da insônia do idoso agora.",
+"Prescrever antipsicótico atípico em dose baixa como primeira linha para a insônia crônica descrita agora.",
+"Orientar consumo de álcool antes de dormir como estratégia inicial para a indução do sono no idoso agora."
+],
+"gab": 0,
+"tema": "psiq",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "AASM Clinical Practice Guideline for the Treatment of Chronic Insomnia in Adults, 2021; AGS Beers Criteria, 2023",
+"coment": "A terapia cognitivo-comportamental para insônia é a primeira linha em adultos, incluindo idosos, com eficácia sustentada superior à dos hipnóticos a longo prazo e sem os riscos associados. Os componentes incluem restrição de sono, controle de estímulos, higiene do sono e reestruturação cognitiva. Benzodiazepínicos, anti-histamínicos com efeito anticolinérgico e antipsicóticos são potencialmente inapropriados no idoso pelos critérios de Beers.",
+"porAlt": [
+"Correta: terapia cognitivo-comportamental para insônia é a primeira linha, antes de qualquer fármaco.",
+"Benzodiazepínicos de meia-vida longa são potencialmente inapropriados no idoso pelo risco de quedas.",
+"Anti-histamínicos sedativos têm carga anticolinérgica associada a confusão e retenção urinária.",
+"O antipsicótico aumenta mortalidade no idoso e não é tratamento de primeira linha para insônia.",
+"O álcool fragmenta o sono e piora a qualidade do descanso, agravando a insônia a médio prazo."
+]
+},
+{
+"q": "Paciente com transtorno obsessivo-compulsivo com rituais que consomem várias horas por dia. Qual é o tratamento inicial?",
+"alts": [
+"Inibidor seletivo da recaptação de serotonina em dose alta com terapia de exposição e prevenção de resposta.",
+"Benzodiazepínico contínuo em monoterapia como tratamento de escolha para os rituais compulsivos descritos.",
+"Antipsicótico típico em dose alta como primeira linha para o transtorno obsessivo-compulsivo grave agora.",
+"Apenas orientação para resistir aos rituais, sem qualquer medicação ou psicoterapia estruturada neste caso.",
+"Estabilizador de humor em dose plena como tratamento inicial das obsessões e compulsões descritas agora."
+],
+"gab": 0,
+"tema": "psiq",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "APA Practice Guideline for the Treatment of Patients With Obsessive-Compulsive Disorder, revisão 2023; NICE CG31, revisão 2022",
+"coment": "O transtorno obsessivo-compulsivo responde a inibidores seletivos da recaptação de serotonina em doses habitualmente mais altas que as usadas na depressão, com latência de resposta mais longa, de dez a doze semanas, e à terapia de exposição com prevenção de resposta, que é a psicoterapia de escolha. Casos refratários podem receber potencialização com antipsicótico atípico em dose baixa. Benzodiazepínico não trata os sintomas nucleares.",
+"porAlt": [
+"Correta: inibidor da recaptação de serotonina em dose alta com exposição e prevenção de resposta.",
+"O benzodiazepínico não trata obsessões nem compulsões e traz risco de dependência ao paciente.",
+"O antipsicótico típico não é primeira linha, sendo o atípico usado apenas como potencialização.",
+"A orientação isolada é insuficiente diante de sintomas que consomem várias horas do dia.",
+"O estabilizador de humor não é o tratamento indicado para o transtorno obsessivo-compulsivo."
+]
+},
+{
+"q": "Paciente jovem apresenta agitação psicomotora intensa em pronto-socorro, com risco de agressão. Qual é a abordagem inicial?",
+"alts": [
+"Desescalonamento verbal e ambiente seguro, reservando sempre a contenção química aos casos sem resposta.",
+"Contenção física imediata em todos os casos de agitação psicomotora atendidos no pronto-socorro agora.",
+"Sedação profunda de rotina com dose alta de benzodiazepínico antes de qualquer tentativa de abordagem verbal.",
+"Isolamento do paciente em sala fechada e sem qualquer monitorização durante todo o período da crise.",
+"Alta imediata do paciente agitado, já encaminhando-o ao acompanhamento ambulatorial em trinta dias agora."
+],
+"gab": 0,
+"tema": "psiq",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "AAEP Project BETA guidelines on agitation, revisão 2022; Ministério da Saúde — manejo da agitação psicomotora, 2021",
+"coment": "O manejo da agitação começa pelo desescalonamento verbal e pela organização de um ambiente seguro, com equipe treinada, redução de estímulos, postura não confrontativa e oferta de medicação oral. A contenção química entra quando o desescalonamento falha, preferindo antipsicótico e benzodiazepínico conforme a etiologia. A contenção física é último recurso, por tempo mínimo, com monitorização e registro. Causas orgânicas devem ser afastadas.",
+"porAlt": [
+"Correta: desescalonamento verbal e ambiente seguro, com contenção química apenas na ausência de resposta.",
+"A contenção física é último recurso, e não a abordagem inicial de todo paciente agitado.",
+"A sedação profunda de rotina antes da abordagem verbal expõe a riscos e impede a avaliação clínica.",
+"Isolar sem monitorização é inseguro e impede a detecção de causas orgânicas potencialmente graves.",
+"Dar alta a paciente agitado com risco de agressão expõe o paciente e terceiros a dano evitável."
+]
+},
+{
+"q": "Paciente com depressão sem resposta após oito semanas de antidepressivo em dose adequada. Qual é o próximo passo?",
+"alts": [
+"Revisar adesão e diagnóstico, otimizando dose ou trocando sempre a classe do antidepressivo em uso.",
+"Suspender todo tratamento medicamentoso e apenas observar clinicamente pelos próximos seis meses.",
+"Associar benzodiazepínico em dose alta como próxima etapa no tratamento da depressão sem resposta.",
+"Aumentar o antidepressivo até dez vezes a dose máxima recomendada em bula para obter resposta agora.",
+"Indicar eletroconvulsoterapia imediata em todos os pacientes sem resposta após oito semanas de tratamento."
+],
+"gab": 0,
+"tema": "psiq",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "APA Practice Guideline for Major Depressive Disorder, revisão 2023; CANMAT guidelines, 2023",
+"coment": "Diante de resposta insuficiente após quatro a oito semanas em dose adequada, o passo inicial é revisar adesão, dose, diagnóstico e comorbidades — uso de substâncias, hipotireoidismo, bipolaridade não reconhecida e fatores psicossociais. Confirmada a falha, as estratégias são otimizar a dose, trocar de antidepressivo ou potencializar com lítio, antipsicótico atípico ou psicoterapia. Eletroconvulsoterapia se reserva a casos graves ou refratários a múltiplas tentativas.",
+"porAlt": [
+"Correta: revisar adesão e diagnóstico, otimizando a dose ou trocando a classe do antidepressivo.",
+"Suspender o tratamento sem alternativa deixa o paciente sem cobertura terapêutica por meses.",
+"O benzodiazepínico não trata a depressão e apenas adiciona risco de dependência ao paciente.",
+"Ultrapassar de forma grosseira a dose máxima aumenta a toxicidade sem ganho de eficácia.",
+"A eletroconvulsoterapia se reserva a casos graves ou refratários a múltiplas tentativas adequadas."
+]
+},
+{
+"q": "Paciente em uso de inibidor seletivo da recaptação de serotonina apresenta agitação, hipertermia, hiper-reflexia e clônus após associação de outro fármaco serotoninérgico. Qual é a conduta?",
+"alts": [
+"Suspender os agentes serotoninérgicos e oferecer suporte, considerando sempre benzodiazepínico para a agitação.",
+"Aumentar a dose do antidepressivo para reduzir a agitação e a hipertermia apresentadas pelo paciente agora.",
+"Iniciar antipsicótico típico em dose alta como tratamento de escolha para o quadro clínico descrito agora.",
+"Administrar antibiótico de amplo espectro isolado, tratamento indicado para a hipertermia observada agora.",
+"Manter todos os fármacos e apenas observar clinicamente por vinte e quatro horas antes de agir neste caso."
+],
+"gab": 0,
+"tema": "psiq",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "Sternbach and Hunter criteria; UpToDate revisão sobre síndrome serotoninérgica, 2024; Critical Care review, 2023",
+"coment": "A síndrome serotoninérgica cursa com alteração de estado mental, hiperatividade autonômica e alterações neuromusculares, sendo o clônus, sobretudo em membros inferiores, o achado mais característico. Instala-se em horas após a introdução ou o aumento de agente serotoninérgico. O tratamento é suspender todos os agentes, oferecer suporte com hidratação e resfriamento, e usar benzodiazepínico para agitação e rigidez. Ciproeptadina é opção nos casos moderados a graves.",
+"porAlt": [
+"Correta: suspender os agentes serotoninérgicos e oferecer suporte, com benzodiazepínico para a agitação.",
+"Aumentar a dose agrava diretamente a síndrome e pode levar a hipertermia maligna e óbito.",
+"O antipsicótico típico pode agravar a rigidez e a hipertermia por bloqueio dopaminérgico adicional.",
+"O antibiótico não trata a hipertermia de origem tóxica desencadeada pelo excesso serotoninérgico.",
+"Manter os fármacos por vinte e quatro horas permite a progressão para forma grave e potencialmente fatal."
+]
+},
+{
+"q": "Paciente com transtorno de estresse pós-traumático após acidente grave, com revivências e evitação há seis meses. Qual é o tratamento de primeira linha?",
+"alts": [
+"Psicoterapia focada no trauma, associada sempre a antidepressivo serotoninérgico quando houver indicação.",
+"Benzodiazepínico contínuo em monoterapia como tratamento de primeira linha do transtorno descrito agora.",
+"Antipsicótico típico em dose alta como tratamento inicial das revivências relatadas pelo paciente agora.",
+"Orientação para evitar completamente qualquer lembrança do trauma como principal estratégia terapêutica.",
+"Estabilizador de humor em dose plena como tratamento de primeira escolha para o quadro descrito agora já."
+],
+"gab": 0,
+"tema": "psiq",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "NICE guideline NG116 — Post-traumatic stress disorder, revisão 2023; APA/ISTSS guidelines, 2023",
+"coment": "O tratamento de primeira linha do transtorno de estresse pós-traumático é psicoterapia focada no trauma, como terapia cognitivo-comportamental focada no trauma ou dessensibilização e reprocessamento por movimentos oculares. Antidepressivos serotoninérgicos, como sertralina e paroxetina, são indicados quando a psicoterapia não está disponível, é recusada ou há comorbidade depressiva. Benzodiazepínicos são desaconselhados por piorarem desfechos e dificultarem a extinção do medo.",
+"porAlt": [
+"Correta: psicoterapia focada no trauma, com antidepressivo serotoninérgico associado quando indicado.",
+"O benzodiazepínico é desaconselhado por piorar desfechos e dificultar a extinção do medo condicionado.",
+"O antipsicótico típico não é primeira linha e traz risco extrapiramidal sem benefício correspondente.",
+"A evitação é parte do transtorno e reforçá-la impede a habituação necessária à recuperação.",
+"O estabilizador de humor não é o tratamento de primeira escolha para esse transtorno específico."
+]
+},
+{
+"q": "Paciente com anorexia nervosa e índice de massa corporal de 13 kg/m², bradicárdico e hipotenso, inicia realimentação. Qual é o principal risco a monitorar?",
+"alts": [
+"Síndrome de realimentação com hipofosfatemia, monitorando sempre eletrólitos durante os primeiros dias.",
+"Hiperglicemia grave isolada, principal complicação metabólica esperada no início da realimentação.",
+"Hipercalcemia refratária, complicação mais frequente e temida do início do suporte nutricional descrito.",
+"Hipernatremia grave, principal alteração hidroeletrolítica associada à realimentação nesse contexto.",
+"Alcalose respiratória sustentada, complicação metabólica mais temida no início do suporte nutricional."
+],
+"gab": 0,
+"tema": "psiq",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r3",
+"base": "NICE guideline NG69 — Eating disorders, revisão 2023; ASPEN consensus recommendations for refeeding syndrome, 2020",
+"coment": "A síndrome de realimentação decorre do desvio intracelular de fósforo, potássio e magnésio quando a oferta de carboidrato reativa a secreção de insulina em paciente desnutrido. A hipofosfatemia é a alteração central e pode causar insuficiência cardíaca, arritmia, fraqueza respiratória, rabdomiólise e convulsão. A prevenção é iniciar com oferta calórica baixa, repor tiamina antes da oferta de glicose e monitorar eletrólitos diariamente nos primeiros dias.",
+"porAlt": [
+"Correta: síndrome de realimentação com hipofosfatemia, exigindo monitorização eletrolítica diária.",
+"A hiperglicemia pode ocorrer, mas não é a complicação central e temida da realimentação.",
+"A hipercalcemia não é a alteração característica da síndrome de realimentação nesse contexto.",
+"A hipernatremia não é a alteração típica; o problema central é o desvio intracelular de fósforo.",
+"A alteração central é metabólica e eletrolítica, e não um distúrbio respiratório do equilíbrio ácido-base."
+]
+},
+{
+"q": "Gestante de 10 semanas com náuseas e vômitos persistentes, perda de 6% do peso e cetonúria. Qual é a conduta?",
+"alts": [
+"Internar para hidratação endovenosa com reposição de tiamina, associando sempre antiemético seguro.",
+"Prescrever apenas orientação dietética domiciliar e reavaliar clinicamente após quatro semanas.",
+"Iniciar corticoide sistêmico em dose alta como primeira escolha para o quadro de vômitos na gestação.",
+"Indicar interrupção da gestação em todos os casos de vômitos persistentes com perda ponderal agora.",
+"Administrar glicose endovenosa em alto volume antes de qualquer reposição de vitaminas do complexo B."
+],
+"gab": 0,
+"tema": "go",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "FEBRASGO — Náuseas e vômitos na gestação, 2022; ACOG Practice Bulletin nº 189, revisão 2023",
+"coment": "A hiperêmese gravídica cursa com vômitos persistentes, perda maior que cinco por cento do peso, desidratação, cetonúria e distúrbios eletrolíticos. O tratamento inclui hidratação endovenosa, correção eletrolítica, antiemético seguro na gestação — piridoxina com doxilamina, metoclopramida ou ondansetrona conforme o caso — e reposição de tiamina antes de qualquer carga de glicose, para prevenir encefalopatia de Wernicke, complicação descrita nessa condição.",
+"porAlt": [
+"Correta: hidratação endovenosa com tiamina antes da glicose e antiemético seguro para a gestação.",
+"Orientação isolada é insuficiente diante de perda ponderal significativa e cetonúria documentada.",
+"O corticoide é opção de resgate em casos refratários, e não a primeira escolha do tratamento.",
+"A interrupção da gestação não é conduta indicada, pois a condição é tratável com suporte adequado.",
+"Glicose antes de tiamina pode precipitar encefalopatia de Wernicke na gestante desnutrida."
+]
+},
+{
+"q": "Mulher de 32 anos com ciclos irregulares, hirsutismo e ultrassonografia com ovários policísticos, sem outras causas. Qual é a conduta inicial?",
+"alts": [
+"Mudança de estilo de vida com controle do peso, associada sempre a contraceptivo combinado se não houver contraindicação.",
+"Indicar cirurgia ovariana imediata em todas as pacientes com esse conjunto de achados clínicos na avaliação inicial.",
+"Prescrever apenas corticoide sistêmico contínuo como tratamento de escolha para o hirsutismo descrito nesse contexto.",
+"Iniciar reposição de estrogênio isolado sem progestágeno como tratamento inicial nessa paciente para este paciente.",
+"Aguardar dois anos antes de qualquer intervenção clínica ou investigação adicional dessa paciente para este paciente."
+],
+"gab": 0,
+"tema": "go",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "International evidence-based guideline for the assessment and management of polycystic ovary syndrome, 2023; FEBRASGO, 2022",
+"coment": "A síndrome dos ovários policísticos é diagnóstico de exclusão pelos critérios de Rotterdam, exigindo dois de três: oligo-anovulação, hiperandrogenismo clínico ou laboratorial e ovários policísticos à ultrassonografia. O tratamento de base é mudança de estilo de vida, com perda de peso quando há sobrepeso, que melhora ciclos, hiperandrogenismo e resistência insulínica. O contraceptivo combinado regulariza ciclos e trata hirsutismo; metformina auxilia no perfil metabólico.",
+"porAlt": [
+"Correta: mudança de estilo de vida com contraceptivo combinado quando não houver contraindicação.",
+"A cirurgia ovariana não é conduta inicial e se reserva a situações muito específicas de infertilidade.",
+"O corticoide não é o tratamento do hirsutismo na síndrome dos ovários policísticos.",
+"O estrogênio isolado em mulher com útero expõe o endométrio a hiperplasia por proliferação sem oposição.",
+"Aguardar dois anos deixa sem tratamento sintomas e riscos metabólicos já identificados."
+]
+},
+{
+"q": "Gestante com sorologia positiva para toxoplasmose aguda no primeiro trimestre. Qual é a conduta imediata?",
+"alts": [
+"Iniciar espiramicina imediatamente e investigar sempre a infecção fetal com exame do líquido amniótico.",
+"Aguardar o terceiro trimestre para iniciar qualquer tratamento da infecção materna diagnosticada agora.",
+"Iniciar sulfadiazina com pirimetamina no primeiro trimestre como esquema de escolha para a gestante já.",
+"Indicar interrupção da gestação em todos os casos de toxoplasmose aguda no primeiro trimestre agora.",
+"Prescrever apenas orientação alimentar, sem qualquer tratamento medicamentoso ou investigação fetal."
+],
+"gab": 0,
+"tema": "go",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Ministério da Saúde — Protocolo de vigilância da toxoplasmose gestacional e congênita, 2022; FEBRASGO, 2023",
+"coment": "Diante de infecção aguda materna, inicia-se espiramicina imediatamente, pois ela reduz a transmissão vertical sem atravessar bem a placenta. Investiga-se a infecção fetal por reação em cadeia da polimerase no líquido amniótico após dezesseis a dezoito semanas. Se a infecção fetal é confirmada, troca-se para sulfadiazina, pirimetamina e ácido folínico, evitados no primeiro trimestre pela toxicidade, além do acompanhamento ultrassonográfico seriado.",
+"porAlt": [
+"Correta: espiramicina imediata com investigação da infecção fetal pelo líquido amniótico no momento adequado.",
+"Aguardar o terceiro trimestre permite a transmissão vertical que a espiramicina precoce reduz.",
+"Sulfadiazina com pirimetamina é evitada no primeiro trimestre pela toxicidade, entrando após confirmação fetal.",
+"A interrupção não é conduta indicada, pois o tratamento reduz transmissão e gravidade do acometimento.",
+"Orientação alimentar é prevenção primária e não substitui o tratamento da infecção já estabelecida."
+]
+},
+{
+"q": "Mulher de 40 anos com sangramento uterino aumentado e útero aumentado com miomas intramurais, com anemia. Qual é a conduta inicial?",
+"alts": [
+"Tratar a anemia e o sangramento clinicamente, avaliando sempre a indicação cirúrgica conforme os sintomas.",
+"Indicar histerectomia imediata em todas as pacientes com miomas intramurais e sangramento aumentado agora já.",
+"Prescrever apenas analgésico comum e reavaliar clinicamente após doze meses de acompanhamento neste caso.",
+"Iniciar quimioterapia sistêmica como tratamento de escolha para os miomas uterinos diagnosticados agora.",
+"Indicar radioterapia pélvica como primeira linha de tratamento para o sangramento uterino descrito agora."
+],
+"gab": 0,
+"tema": "go",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "FEBRASGO — Miomatose uterina, 2023; ACOG Practice Bulletin nº 228, revisão 2023",
+"coment": "O tratamento da miomatose sintomática é individualizado conforme sintomas, tamanho, localização, idade e desejo reprodutivo. O manejo inicial do sangramento inclui correção da anemia com ferro, sistema intrauterino liberador de levonorgestrel, ácido tranexâmico, anticoncepcional combinado e análogos de GnRH para preparo cirúrgico. Opções cirúrgicas vão de miomectomia a histerectomia, e a embolização de artérias uterinas é alternativa em casos selecionados.",
+"porAlt": [
+"Correta: tratar anemia e sangramento clinicamente, avaliando indicação cirúrgica conforme sintomas.",
+"A histerectomia é uma das opções, mas não a conduta inicial universal para toda miomatose sintomática.",
+"Analgésico isolado por doze meses mantém o sangramento e agrava a anemia já instalada.",
+"Quimioterapia não trata mioma, que é tumor benigno de musculatura lisa do útero.",
+"Radioterapia pélvica não é tratamento de miomatose uterina benigna em mulher em idade fértil."
+]
+},
+{
+"q": "Gestante de 36 semanas com perda de líquido claro pela vagina e teste confirmando ruptura de membranas, sem sinais de infecção. Qual é a conduta?",
+"alts": [
+"Internar, avaliar bem-estar fetal e programar sempre a resolução conforme a idade gestacional e o protocolo.",
+"Manter conduta expectante domiciliar até quarenta e duas semanas independentemente do quadro clínico agora.",
+"Prescrever apenas antibiótico ambulatorial e liberar a paciente com retorno agendado em uma semana agora.",
+"Realizar cesariana de urgência em todos os casos de ruptura de membranas com trinta e seis semanas agora.",
+"Iniciar tocólise prolongada por quatro semanas para prolongar ao máximo a gestação nessa idade neste caso."
+],
+"gab": 0,
+"tema": "go",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "FEBRASGO — Ruptura prematura de membranas, 2022; ACOG Practice Bulletin nº 217, revisão 2023",
+"coment": "Na ruptura prematura de membranas a partir de trinta e quatro semanas, a conduta habitual é a resolução da gestação, pois o risco infeccioso supera o benefício de prolongar. A paciente é internada, avaliam-se bem-estar fetal e sinais de corioamnionite, e indica-se indução do parto quando não há contraindicação, com via de parto definida por indicação obstétrica. Antes de trinta e quatro semanas, considera-se conduta expectante com corticoide e antibiótico.",
+"porAlt": [
+"Correta: internar, avaliar bem-estar fetal e programar a resolução conforme a idade gestacional.",
+"A conduta expectante domiciliar até quarenta e duas semanas expõe a corioamnionite e sepse neonatal.",
+"Antibiótico ambulatorial com alta não é conduta segura diante de membranas rotas nessa idade.",
+"A cesariana não é indicada apenas pela ruptura; a via de parto segue indicação obstétrica.",
+"A tocólise prolongada não é indicada com membranas rotas nessa idade gestacional."
+]
+},
+{
+"q": "Mulher de 55 anos com queixa de secura vaginal e dispareunia após a menopausa, sem sintomas vasomotores. Qual é a conduta?",
+"alts": [
+"Estrogênio de uso vaginal em dose baixa, associado sempre a lubrificantes e hidratantes locais conforme a necessidade.",
+"Terapia hormonal sistêmica em dose plena como primeira escolha para os sintomas genitais isolados nesse contexto.",
+"Prescrever apenas antibiótico vaginal prolongado como tratamento dos sintomas genitais descritos para este paciente.",
+"Indicar cirurgia vaginal corretiva como tratamento inicial para a secura e a dispareunia relatadas nesse contexto já.",
+"Orientar apenas abstinência sexual como principal medida terapêutica para a dispareunia descrita para este paciente."
+],
+"gab": 0,
+"tema": "go",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "The Menopause Society position statement on genitourinary syndrome of menopause, 2020 com revisão 2024; FEBRASGO — Climatério, 2023",
+"coment": "A síndrome geniturinária da menopausa decorre do hipoestrogenismo local e cursa com secura, dispareunia, prurido, urgência urinária e infecções recorrentes. Quando os sintomas são apenas locais, o tratamento de escolha é estrogênio vaginal em dose baixa, com absorção sistêmica desprezível e boa segurança, associado a lubrificantes para o intercurso e hidratantes vaginais de uso regular. Terapia sistêmica se reserva a sintomas vasomotores associados.",
+"porAlt": [
+"Correta: estrogênio vaginal em dose baixa com lubrificantes e hidratantes conforme a necessidade.",
+"A terapia sistêmica é desproporcional quando os sintomas são exclusivamente genitais e locais.",
+"O antibiótico vaginal não trata a atrofia, que decorre da queda estrogênica e não de infecção.",
+"A cirurgia não é tratamento da atrofia vaginal, condição que responde ao estrogênio tópico.",
+"Orientar abstinência não trata a causa e agrava a atrofia pela ausência de estímulo local."
+]
+},
+{
+"q": "Gestante com diagnóstico de infecção urinária assintomática confirmada por urocultura. Qual é a conduta?",
+"alts": [
+"Tratar com antibiótico seguro na gestação e realizar sempre urocultura de controle após o tratamento.",
+"Não tratar, pois a bacteriúria assintomática não tem qualquer repercussão clínica durante a gestação.",
+"Tratar apenas se surgirem sintomas urinários, mantendo somente observação clínica até esse momento.",
+"Prescrever quinolona por sete dias como antibiótico de escolha para a gestante com bacteriúria agora.",
+"Indicar internação hospitalar para antibiótico endovenoso em todos os casos de bacteriúria assintomática."
+],
+"gab": 0,
+"tema": "go",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "IDSA Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria, 2019 com revisão 2023; FEBRASGO — Pré-natal, 2022",
+"coment": "A bacteriúria assintomática na gestação é uma das poucas situações em que se trata sem sintomas, porque aumenta o risco de pielonefrite, parto prematuro e baixo peso ao nascer. O rastreio com urocultura é rotina no pré-natal. O tratamento usa antibiótico seguro na gestação — nitrofurantoína fora do termo, amoxicilina, cefalexina ou fosfomicina — conforme o antibiograma, seguido de urocultura de controle. Quinolonas são evitadas na gestação.",
+"porAlt": [
+"Correta: tratar com antibiótico seguro e realizar urocultura de controle após o fim do tratamento.",
+"Na gestação a bacteriúria assintomática aumenta pielonefrite, prematuridade e baixo peso ao nascer.",
+"Esperar sintomas permite a evolução para pielonefrite, complicação grave no período gestacional.",
+"As quinolonas são evitadas na gestação pelo potencial de toxicidade sobre cartilagem fetal.",
+"O tratamento é ambulatorial e oral, sem qualquer necessidade de internação na bacteriúria."
+]
+},
+{
+"q": "Mulher de 27 anos com dor pélvica cíclica intensa, dismenorreia progressiva e dispareunia profunda, com ultrassonografia normal. Qual é a hipótese principal?",
+"alts": [
+"Endometriose, cuja ausência de achados na ultrassonografia não exclui sempre o diagnóstico clínico.",
+"Cistite intersticial isolada, condição definida por dismenorreia progressiva e dispareunia profunda.",
+"Síndrome do intestino irritável, quadro caracterizado por dor cíclica menstrual com dispareunia profunda.",
+"Miomatose uterina submucosa, condição que cursa com ultrassonografia normal e dor pélvica cíclica.",
+"Doença inflamatória pélvica crônica, definida por dor cíclica com ultrassonografia pélvica normal."
+],
+"gab": 0,
+"tema": "go",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESHRE guideline on endometriosis, 2022; FEBRASGO — Endometriose, 2023",
+"coment": "A endometriose deve ser suspeitada diante de dismenorreia progressiva, dor pélvica crônica, dispareunia profunda, dor à evacuação ou à micção cíclica e infertilidade. A ultrassonografia transvaginal normal não exclui a doença, sobretudo nas formas superficiais peritoneais, e a ressonância aumenta a sensibilidade para endometriose profunda. As diretrizes atuais recomendam iniciar tratamento empírico com base na suspeita clínica, sem exigir confirmação laparoscópica.",
+"porAlt": [
+"Correta: endometriose, cujo diagnóstico é clínico e não é excluído por ultrassonografia normal.",
+"A cistite intersticial cursa com dor vesical e urgência urinária, sem a ciclicidade menstrual descrita.",
+"A síndrome do intestino irritável cursa com alteração do hábito intestinal e alívio após evacuação.",
+"O mioma submucoso costuma ser visível à ultrassonografia e cursa principalmente com sangramento.",
+"A doença inflamatória pélvica crônica decorre de infecção prévia e não tem o padrão cíclico descrito."
+]
+},
+{
+"q": "Gestante em trabalho de parto apresenta desaceleração tardia repetitiva no cardiotocograma, com variabilidade reduzida. Qual é a conduta?",
+"alts": [
+"Medidas de reanimação intrauterina e avaliação para resolução, considerando sempre a via mais rápida e segura.",
+"Aguardar a evolução espontânea do trabalho de parto por mais quatro horas sem qualquer intervenção agora.",
+"Aumentar a infusão de ocitocina para acelerar o trabalho de parto diante do padrão descrito no traçado agora.",
+"Prescrever apenas analgesia adicional e manter a conduta expectante até a dilatação estar completa agora.",
+"Colocar a gestante em decúbito dorsal horizontal como principal medida diante do padrão observado neste caso."
+],
+"gab": 0,
+"tema": "go",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "FEBRASGO — Assistência ao parto, 2022; ACOG Practice Bulletin nº 106 sobre monitorização fetal intraparto, revisão 2023",
+"coment": "Desacelerações tardias repetitivas com variabilidade reduzida caracterizam traçado categoria III ou padrão preocupante, indicando insuficiência uteroplacentária. As medidas de reanimação intrauterina incluem decúbito lateral esquerdo, suspensão da ocitocina, oxigênio conforme indicação, correção de hipotensão com volume e vasopressor e consideração de tocolítico. Sem melhora rápida, indica-se a resolução pela via mais rápida e segura, geralmente cesariana.",
+"porAlt": [
+"Correta: reanimação intrauterina imediata e resolução pela via mais rápida se não houver melhora.",
+"Aguardar quatro horas diante de traçado preocupante permite acidose fetal e dano neurológico.",
+"Aumentar a ocitocina agrava a hipóxia ao intensificar a contratilidade e reduzir a perfusão placentária.",
+"A analgesia não corrige a insuficiência uteroplacentária evidenciada pelo padrão cardiotocográfico.",
+"O decúbito dorsal horizontal comprime a veia cava e agrava a hipoperfusão uteroplacentária."
+]
+},
+{
+"q": "Mulher de 33 anos com atraso menstrual e beta-HCG quantitativo que não dobra em 48 horas, com ultrassonografia sem imagem definida. Qual é a conduta?",
+"alts": [
+"Seguimento seriado do beta-HCG com ultrassonografia, mantendo sempre alerta para gravidez ectópica.",
+"Prescrever metotrexato imediatamente a todas as pacientes com essa evolução do beta-HCG quantitativo.",
+"Indicar curetagem uterina de urgência antes de qualquer definição do sítio de implantação da gestação.",
+"Tranquilizar e liberar sem qualquer seguimento, pois o quadro descrito indica gestação tópica normal.",
+"Indicar laparotomia exploradora imediata em todas as pacientes com essa curva de beta-HCG quantitativo já."
+],
+"gab": 0,
+"tema": "go",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r3",
+"base": "ACOG Practice Bulletin nº 193 — Tubal ectopic pregnancy, revisão 2022; FEBRASGO, 2022",
+"coment": "Em gestação de localização indeterminada com paciente estável, o seguimento combina dosagens seriadas de beta-HCG a cada quarenta e oito horas e ultrassonografia transvaginal. Aumento inferior ao esperado sugere gestação inviável ou ectópica, mas não define o sítio: tratar com metotrexato sem definição pode interromper gestação tópica viável. A paciente é orientada sobre sinais de alarme, e instabilidade ou dor intensa indicam abordagem cirúrgica imediata.",
+"porAlt": [
+"Correta: seguimento seriado do beta-HCG com ultrassonografia, mantendo alerta para gravidez ectópica.",
+"Metotrexato sem definição do sítio pode interromper gestação tópica potencialmente viável.",
+"A curetagem sem definição arrisca interromper gestação tópica e não trata a gestação ectópica.",
+"Liberar sem seguimento arrisca rotura tubária com hemorragia grave e risco de vida da paciente.",
+"A laparotomia é indicada na instabilidade ou na rotura, e não nessa paciente estável em investigação."
+]
+},
+{
+"q": "Paciente de 80 anos com múltiplas comorbidades pergunta sobre alvo de hemoglobina glicada no diabetes. Qual é a orientação?",
+"alts": [
+"Alvo individualizado e menos rigoroso, priorizando sempre evitar hipoglicemia e preservar a funcionalidade.",
+"Alvo único abaixo de 6,5% para todos os idosos, independentemente de comorbidades e do prognóstico agora.",
+"Alvo abaixo de 5,5% em todos os idosos para reduzir ao máximo as complicações microvasculares tardias.",
+"Nenhum alvo, pois o controle glicêmico não traz qualquer benefício em pacientes acima de setenta anos.",
+"Alvo definido apenas pela glicemia de jejum isolada, sem qualquer consideração da hemoglobina glicada."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes, 2025, capítulo de idosos; SBD Diretriz 2024",
+"coment": "No idoso, o alvo glicêmico é individualizado pelo estado de saúde: idosos saudáveis com boa expectativa de vida podem visar hemoglobina glicada abaixo de 7 a 7,5 por cento, enquanto os com múltiplas comorbidades ou fragilidade têm alvos entre 8 e 8,5 por cento. A prioridade é evitar hipoglicemia, que causa quedas, fraturas, arritmias e declínio cognitivo, e o controle excessivamente rígido não traz benefício quando a expectativa de vida é limitada.",
+"porAlt": [
+"Correta: alvo individualizado e menos rigoroso, priorizando evitar hipoglicemia e manter funcionalidade.",
+"O alvo único e rígido para todos os idosos ignora comorbidades, fragilidade e expectativa de vida.",
+"Alvo abaixo de 5,5 por cento multiplica o risco de hipoglicemia grave sem benefício correspondente.",
+"O controle glicêmico traz benefício também no idoso, com alvos ajustados ao contexto individual.",
+"A glicemia de jejum isolada não reflete o controle global nem o risco de hipoglicemia noturna."
+]
+},
+{
+"q": "Paciente de 84 anos com demência avançada, disfagia e perda de peso. A família pergunta sobre sonda de gastrostomia. Qual é a orientação baseada em evidência?",
+"alts": [
+"A sonda não melhora sobrevida nem previne aspiração, priorizando sempre alimentação cuidadosa por via oral.",
+"A sonda prolonga a sobrevida e previne broncoaspiração em todos os pacientes com demência avançada agora.",
+"A sonda é obrigatória em todo paciente com demência avançada que apresente qualquer grau de disfagia agora.",
+"A sonda elimina completamente o risco de pneumonia e dispensa qualquer cuidado com a higiene oral agora já.",
+"A sonda melhora a qualidade de vida e reduz lesões por pressão em pacientes com demência avançada agora."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "AGS Feeding Tubes in Advanced Dementia position statement, revisão 2023; Choosing Wisely; ANCP — Manual de Cuidados Paliativos, 2021",
+"coment": "Em demência avançada, revisões sistemáticas não demonstraram que a alimentação por sonda prolongue a sobrevida, previna aspiração, melhore lesões por pressão ou aumente conforto. A alternativa recomendada é a alimentação assistida cuidadosa por via oral, com consistência adequada, posicionamento correto, higiene oral rigorosa e respeito ao ritmo e à vontade do paciente. A decisão é compartilhada com a família, esclarecendo o que se pode e o que não se pode esperar.",
+"porAlt": [
+"Correta: a sonda não melhora sobrevida nem previne aspiração; prioriza-se alimentação oral cuidadosa.",
+"As revisões sistemáticas não demonstraram ganho de sobrevida nem prevenção de broncoaspiração.",
+"Não há obrigatoriedade; a indicação é individualizada e frequentemente contraindicada nesse contexto.",
+"A aspiração de secreção oral continua ocorrendo, e a higiene oral segue sendo essencial.",
+"Não há evidência de melhora de qualidade de vida nem de redução de lesões por pressão com a sonda."
+]
+},
+{
+"q": "Idoso de 76 anos em uso de cinco medicamentos apresenta hipotensão postural e sonolência. Qual é o passo inicial da desprescrição?",
+"alts": [
+"Identificar o fármaco de maior risco e reduzir um de cada vez, monitorando sempre os sintomas do paciente.",
+"Suspender todos os medicamentos simultaneamente na mesma consulta para acelerar a melhora dos sintomas já.",
+"Manter todos os fármacos e acrescentar um novo para tratar cada sintoma relatado pelo paciente idoso.",
+"Reduzir apenas metade da dose de todos os medicamentos ao mesmo tempo, sem qualquer priorização agora.",
+"Encaminhar ao especialista sem qualquer revisão da prescrição feita durante o atendimento atual agora."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "AGS Beers Criteria, 2023; Deprescribing.org — evidence-based deprescribing guidelines, revisão 2023",
+"coment": "A desprescrição é processo estruturado: listar todos os medicamentos incluindo os de venda livre, identificar os potencialmente inapropriados e sem indicação atual, priorizar aquele com maior risco e menor benefício, reduzir um fármaco por vez de forma gradual e monitorar sintomas de retirada e retorno da condição tratada. Suspender tudo de uma vez impede identificar qual fármaco causava o sintoma e pode precipitar abstinência ou descompensação.",
+"porAlt": [
+"Correta: identificar o fármaco de maior risco e reduzir um de cada vez, monitorando os sintomas.",
+"Suspender tudo simultaneamente impede identificar o responsável e pode precipitar descompensações.",
+"Acrescentar fármacos para tratar efeitos adversos gera a cascata de prescrição, que é o erro a evitar.",
+"Reduzir tudo pela metade sem priorizar pode subtratar condições que exigem dose plena.",
+"O encaminhamento não substitui a revisão da prescrição, que compete ao médico assistente."
+]
+},
+{
+"q": "Paciente de 79 anos, independente, com expectativa de vida acima de dez anos, pergunta sobre rastreio de câncer de mama. Qual é a orientação?",
+"alts": [
+"Decisão compartilhada considerando expectativa de vida, preferências e sempre o risco individual da paciente.",
+"Suspender o rastreio automaticamente aos setenta anos em todas as mulheres, sem qualquer individualização.",
+"Manter mamografia anual até os cem anos em todas as mulheres, independentemente do estado funcional agora.",
+"Substituir a mamografia por ultrassonografia anual como método de rastreio nessa faixa etária avançada agora.",
+"Indicar ressonância magnética anual de mamas como método de rastreio para todas as mulheres idosas agora."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "USPSTF breast cancer screening recommendation, 2024; AGS/ACS guidance on cancer screening in older adults, revisão 2023",
+"coment": "Acima da faixa etária com evidência direta de benefício, o rastreio de câncer de mama passa a ser decisão individualizada, guiada pela expectativa de vida — o benefício do rastreio leva cerca de dez anos para se materializar —, pelo estado funcional, pelas comorbidades e pela preferência da paciente. Suspender automaticamente por idade cronológica é tão inadequado quanto rastrear indefinidamente sem considerar o prognóstico individual.",
+"porAlt": [
+"Correta: decisão compartilhada considerando expectativa de vida, preferências e risco individual.",
+"Suspender por idade cronológica isolada ignora a expectativa de vida e o estado funcional real.",
+"Rastrear indefinidamente expõe a dano imediato quando o benefício não é mais alcançável.",
+"A ultrassonografia é complementar e não substitui a mamografia como método de rastreio.",
+"A ressonância é reservada ao alto risco e não é método de rastreio populacional em idosas."
+]
+},
+{
+"q": "Idoso hospitalizado permanece acamado por três dias sem indicação clínica de repouso. Qual é a principal consequência a prevenir?",
+"alts": [
+"Declínio funcional hospitalar, prevenido sempre com mobilização precoce e programa de deambulação assistida.",
+"Ganho de massa muscular por repouso prolongado, efeito esperado da imobilidade durante a internação agora.",
+"Melhora da densidade mineral óssea, benefício associado ao repouso no leito durante a internação agora.",
+"Redução do risco de delirium, efeito protetor do repouso prolongado em pacientes idosos internados agora.",
+"Aumento da capacidade aeróbica, consequência favorável do repouso no leito em pacientes idosos neste caso."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "r2",
+"base": "AGS/Hospital Elder Life Program recommendations, revisão 2023; JAMA Internal Medicine review on hospital-associated disability, 2023",
+"coment": "O declínio funcional associado à hospitalização atinge cerca de um terço dos idosos internados e frequentemente não é recuperado após a alta, levando a dependência e institucionalização. A imobilidade acelera sarcopenia, reduz capacidade aeróbica, favorece delirium, trombose, constipação e lesão por pressão. A prevenção é mobilização precoce, deambulação assistida, retirada de cateteres desnecessários, orientação temporal e estímulo ao autocuidado.",
+"porAlt": [
+"Correta: declínio funcional hospitalar, prevenido por mobilização precoce e deambulação assistida.",
+"O repouso prolongado causa perda muscular acelerada, e não ganho de massa no paciente idoso.",
+"A imobilidade acelera a perda óssea, em vez de melhorar a densidade mineral do esqueleto.",
+"A imobilidade é fator de risco para delirium, e não medida protetora contra o quadro confusional.",
+"O repouso reduz a capacidade aeróbica de forma rápida e expressiva em pacientes idosos."
+]
+},
+{
+"q": "Paciente de 82 anos com constipação crônica em uso de opioide e ferro. Qual é a conduta inicial?",
+"alts": [
+"Revisar medicamentos e prescrever laxante osmótico, orientando sempre hidratação e mobilização adequadas.",
+"Prescrever apenas fibra em alta dose sem qualquer revisão dos medicamentos em uso pelo paciente agora.",
+"Indicar colonoscopia de urgência a todos os idosos com constipação crônica, sem qualquer outra medida.",
+"Prescrever enema diário indefinido como principal estratégia de tratamento da constipação crônica agora.",
+"Suspender abruptamente todos os medicamentos em uso, sem qualquer avaliação individual de cada um agora."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "AGA/ACG Clinical Practice Guideline on chronic idiopathic constipation, 2023; AGS Beers Criteria, 2023",
+"coment": "No idoso, a constipação frequentemente tem causa medicamentosa: opioides, ferro, anticolinérgicos, bloqueadores de canal de cálcio e antidepressivos tricíclicos. O primeiro passo é revisar a prescrição, seguido de laxante osmótico como polietilenoglicol, hidratação e mobilização. Fibra em alta dose sem hidratação adequada pode agravar o quadro em pacientes com baixa mobilidade. Sinais de alarme como sangramento e perda de peso indicam colonoscopia.",
+"porAlt": [
+"Correta: revisar os medicamentos, prescrever laxante osmótico e orientar hidratação e mobilização.",
+"Fibra em alta dose sem hidratação pode agravar a constipação no idoso com baixa mobilidade.",
+"A colonoscopia se indica por sinais de alarme, e não para todo idoso com constipação crônica.",
+"O enema diário indefinido não é estratégia de manejo e pode causar dependência e lesão local.",
+"Suspender tudo abruptamente pode descompensar condições que exigem tratamento contínuo."
+]
+},
+{
+"q": "Paciente de 78 anos apresenta perda auditiva progressiva bilateral e isolamento social. Qual é a conduta?",
+"alts": [
+"Avaliação audiológica e indicação de aparelho auditivo, prevenindo sempre o isolamento e o declínio cognitivo.",
+"Aguardar até que a perda auditiva se torne completa antes de qualquer avaliação ou intervenção indicada agora.",
+"Prescrever apenas lavagem auricular periódica como tratamento definitivo da perda auditiva progressiva agora.",
+"Indicar implante coclear imediato em todos os pacientes idosos com perda auditiva progressiva bilateral agora já.",
+"Orientar apenas que familiares falem mais alto, sem qualquer avaliação audiológica ou intervenção neste caso."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Lancet Commission on dementia prevention, intervention and care, 2024; AAO-HNS clinical practice guideline on hearing loss, revisão 2023",
+"coment": "A perda auditiva não tratada na meia-idade e na velhice é um dos principais fatores de risco modificáveis para demência, além de causar isolamento social, depressão e piora funcional. A conduta é avaliação audiológica e adaptação de aparelho de amplificação sonora individual, que melhora comunicação, participação social e possivelmente desfechos cognitivos. Implante coclear se reserva a perda severa a profunda com benefício insuficiente do aparelho.",
+"porAlt": [
+"Correta: avaliação audiológica e adaptação de aparelho auditivo, prevenindo isolamento e declínio.",
+"Aguardar a perda completa desperdiça anos de comunicação e agrava isolamento e risco cognitivo.",
+"A lavagem auricular trata cerume e não corrige a perda auditiva neurossensorial progressiva.",
+"O implante coclear se reserva à perda severa a profunda com benefício insuficiente do aparelho.",
+"Falar mais alto não substitui a amplificação adequada nem resolve a distorção da percepção sonora."
+]
+},
+{
+"q": "Idoso de 85 anos apresenta síncope durante esforço, com sopro sistólico rude em foco aórtico. Qual é a conduta?",
+"alts": [
+"Investigar valvopatia com ecocardiograma e encaminhar sempre para avaliação de substituição valvar.",
+"Atribuir a síncope à idade avançada e liberar sem qualquer investigação cardiológica complementar.",
+"Prescrever apenas hidratação abundante e meias elásticas como tratamento definitivo do quadro descrito.",
+"Iniciar vasodilatador em dose plena como primeira medida diante do sopro sistólico rude descrito.",
+"Solicitar apenas eletroencefalograma, exame que estabelece o diagnóstico da síncope de esforço descrita."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESC Guidelines for the management of valvular heart disease, 2021; Diretriz Brasileira de Valvopatias — SBC, revisão 2023",
+"coment": "Síncope aos esforços com sopro sistólico rude em foco aórtico irradiado para carótidas é altamente sugestiva de estenose aórtica grave, condição em que a síncope é um dos três sintomas cardinais e indica prognóstico reservado sem intervenção. A investigação é ecocardiograma, e a presença de sintomas em estenose grave indica substituição valvar, cirúrgica ou por implante transcateter, opção que ampliou o tratamento de pacientes muito idosos.",
+"porAlt": [
+"Correta: investigar com ecocardiograma e encaminhar para avaliação de substituição valvar.",
+"Atribuir à idade uma síncope de esforço com sopro é erro que pode custar a vida do paciente.",
+"Hidratação e meias tratam síncope neuromediada, e não a obstrução valvar fixa suspeitada aqui.",
+"O vasodilatador em obstrução fixa pode precipitar hipotensão grave e síncope adicional.",
+"O eletroencefalograma investiga epilepsia e não avalia a causa cardíaca suspeitada neste caso."
+]
+},
+{
+"q": "Paciente de 88 anos com fibrilação atrial e alto risco de queda pergunta se pode anticoagular. Qual é a orientação?",
+"alts": [
+"O risco de queda raramente contraindica anticoagulação, pois o benefício supera sempre o risco estimado.",
+"O risco de queda contraindica de forma absoluta a anticoagulação em todos os pacientes muito idosos.",
+"A idade acima de oitenta anos por si só contraindica qualquer anticoagulação oral no paciente idoso.",
+"O antiagregante substitui a anticoagulação com segurança e eficácia equivalentes nesse perfil clínico.",
+"A anticoagulação deve ser suspensa após qualquer queda, mesmo sem trauma craniano ou sangramento agora."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "ESC Atrial Fibrillation Guidelines, 2024; AGS Beers Criteria, 2023; Diretriz Brasileira de Fibrilação Atrial — SBC, 2024",
+"coment": "Análises clássicas estimam que seria necessário um número muito elevado de quedas por ano para que o risco de hemorragia intracraniana superasse o benefício da anticoagulação na prevenção de acidente vascular cerebral. Assim, o risco de queda isolado não contraindica anticoagular: a conduta é anticoagular e trabalhar a prevenção de quedas com avaliação multifatorial, revisão de medicamentos, exercício e adequação do ambiente domiciliar.",
+"porAlt": [
+"Correta: o risco de queda raramente contraindica anticoagular, e o benefício em geral supera o risco.",
+"O risco de queda não é contraindicação absoluta, sendo abordado com prevenção multifatorial.",
+"A idade avançada aumenta o risco embólico e reforça, e não afasta, o benefício da anticoagulação.",
+"O antiagregante é claramente inferior à anticoagulação na prevenção de embolia nessa arritmia.",
+"Suspender após queda sem trauma nem sangramento retira proteção contra evento embólico grave."
+]
+},
+{
+"q": "Paciente de 90 anos com pneumonia e delirium hipoativo apresenta recusa alimentar. Qual é a conduta inicial?",
+"alts": [
+"Tratar a causa do delirium e oferecer alimentação assistida, avaliando sempre deglutição e conforto.",
+"Instalar sonda nasoenteral imediatamente em todos os casos de recusa alimentar durante a internação.",
+"Prescrever antipsicótico em dose alta para estimular o apetite e reverter a recusa alimentar do paciente.",
+"Suspender toda hidratação e alimentação até a resolução completa do quadro infeccioso do paciente.",
+"Prescrever apenas nutrição parenteral total como primeira medida diante da recusa alimentar descrita."
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "NICE guideline CG103 — Delirium, revisão 2023; ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022",
+"coment": "A recusa alimentar no idoso com delirium costuma ser manifestação do próprio quadro confusional e da doença de base. A conduta é tratar a causa — aqui a pneumonia —, corrigir fatores contribuintes, aplicar medidas não farmacológicas e oferecer alimentação assistida com avaliação de deglutição, ajustando consistência e posicionamento. A via alternativa de nutrição é considerada individualmente, após avaliar prognóstico, objetivos de cuidado e preferências.",
+"porAlt": [
+"Correta: tratar a causa do delirium e oferecer alimentação assistida com avaliação de deglutição.",
+"A sonda imediata em toda recusa ignora que o quadro costuma reverter com o tratamento da causa.",
+"O antipsicótico não estimula apetite e aumenta mortalidade quando usado de rotina no idoso.",
+"Suspender hidratação e alimentação não é conduta terapêutica e agrava o quadro do paciente.",
+"A nutrição parenteral tem indicações restritas e não é a primeira medida diante desse quadro."
+]
 }
 ];

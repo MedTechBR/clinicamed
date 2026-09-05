@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Gestante de 10 semanas com náuseas e vômitos persistentes, perda de 6% do peso e cetonúria. Qual é a conduta?",
+  "alts": [
+   "Internar para hidratação endovenosa com reposição de tiamina, associando sempre antiemético seguro.",
+   "Prescrever apenas orientação dietética domiciliar e reavaliar clinicamente após quatro semanas.",
+   "Iniciar corticoide sistêmico em dose alta como primeira escolha para o quadro de vômitos na gestação.",
+   "Indicar interrupção da gestação em todos os casos de vômitos persistentes com perda ponderal agora.",
+   "Administrar glicose endovenosa em alto volume antes de qualquer reposição de vitaminas do complexo B."
+  ],
+  "gab": 0,
+  "tema": "go",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "FEBRASGO — Náuseas e vômitos na gestação, 2022; ACOG Practice Bulletin nº 189, revisão 2023",
+  "coment": "A hiperêmese gravídica cursa com vômitos persistentes, perda maior que cinco por cento do peso, desidratação, cetonúria e distúrbios eletrolíticos. O tratamento inclui hidratação endovenosa, correção eletrolítica, antiemético seguro na gestação — piridoxina com doxilamina, metoclopramida ou ondansetrona conforme o caso — e reposição de tiamina antes de qualquer carga de glicose, para prevenir encefalopatia de Wernicke, complicação descrita nessa condição.",
+  "porAlt": [
+   "Correta: hidratação endovenosa com tiamina antes da glicose e antiemético seguro para a gestação.",
+   "Orientação isolada é insuficiente diante de perda ponderal significativa e cetonúria documentada.",
+   "O corticoide é opção de resgate em casos refratários, e não a primeira escolha do tratamento.",
+   "A interrupção da gestação não é conduta indicada, pois a condição é tratável com suporte adequado.",
+   "Glicose antes de tiamina pode precipitar encefalopatia de Wernicke na gestante desnutrida."
+  ]
+ },
+ {
+  "q": "Mulher de 32 anos com ciclos irregulares, hirsutismo e ultrassonografia com ovários policísticos, sem outras causas. Qual é a conduta inicial?",
+  "alts": [
+   "Mudança de estilo de vida com controle do peso, associada sempre a contraceptivo combinado se não houver contraindicação.",
+   "Indicar cirurgia ovariana imediata em todas as pacientes com esse conjunto de achados clínicos na avaliação inicial.",
+   "Prescrever apenas corticoide sistêmico contínuo como tratamento de escolha para o hirsutismo descrito nesse contexto.",
+   "Iniciar reposição de estrogênio isolado sem progestágeno como tratamento inicial nessa paciente para este paciente.",
+   "Aguardar dois anos antes de qualquer intervenção clínica ou investigação adicional dessa paciente para este paciente."
+  ],
+  "gab": 0,
+  "tema": "go",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "International evidence-based guideline for the assessment and management of polycystic ovary syndrome, 2023; FEBRASGO, 2022",
+  "coment": "A síndrome dos ovários policísticos é diagnóstico de exclusão pelos critérios de Rotterdam, exigindo dois de três: oligo-anovulação, hiperandrogenismo clínico ou laboratorial e ovários policísticos à ultrassonografia. O tratamento de base é mudança de estilo de vida, com perda de peso quando há sobrepeso, que melhora ciclos, hiperandrogenismo e resistência insulínica. O contraceptivo combinado regulariza ciclos e trata hirsutismo; metformina auxilia no perfil metabólico.",
+  "porAlt": [
+   "Correta: mudança de estilo de vida com contraceptivo combinado quando não houver contraindicação.",
+   "A cirurgia ovariana não é conduta inicial e se reserva a situações muito específicas de infertilidade.",
+   "O corticoide não é o tratamento do hirsutismo na síndrome dos ovários policísticos.",
+   "O estrogênio isolado em mulher com útero expõe o endométrio a hiperplasia por proliferação sem oposição.",
+   "Aguardar dois anos deixa sem tratamento sintomas e riscos metabólicos já identificados."
+  ]
+ },
+ {
+  "q": "Gestante com sorologia positiva para toxoplasmose aguda no primeiro trimestre. Qual é a conduta imediata?",
+  "alts": [
+   "Iniciar espiramicina imediatamente e investigar sempre a infecção fetal com exame do líquido amniótico.",
+   "Aguardar o terceiro trimestre para iniciar qualquer tratamento da infecção materna diagnosticada agora.",
+   "Iniciar sulfadiazina com pirimetamina no primeiro trimestre como esquema de escolha para a gestante já.",
+   "Indicar interrupção da gestação em todos os casos de toxoplasmose aguda no primeiro trimestre agora.",
+   "Prescrever apenas orientação alimentar, sem qualquer tratamento medicamentoso ou investigação fetal."
+  ],
+  "gab": 0,
+  "tema": "go",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Ministério da Saúde — Protocolo de vigilância da toxoplasmose gestacional e congênita, 2022; FEBRASGO, 2023",
+  "coment": "Diante de infecção aguda materna, inicia-se espiramicina imediatamente, pois ela reduz a transmissão vertical sem atravessar bem a placenta. Investiga-se a infecção fetal por reação em cadeia da polimerase no líquido amniótico após dezesseis a dezoito semanas. Se a infecção fetal é confirmada, troca-se para sulfadiazina, pirimetamina e ácido folínico, evitados no primeiro trimestre pela toxicidade, além do acompanhamento ultrassonográfico seriado.",
+  "porAlt": [
+   "Correta: espiramicina imediata com investigação da infecção fetal pelo líquido amniótico no momento adequado.",
+   "Aguardar o terceiro trimestre permite a transmissão vertical que a espiramicina precoce reduz.",
+   "Sulfadiazina com pirimetamina é evitada no primeiro trimestre pela toxicidade, entrando após confirmação fetal.",
+   "A interrupção não é conduta indicada, pois o tratamento reduz transmissão e gravidade do acometimento.",
+   "Orientação alimentar é prevenção primária e não substitui o tratamento da infecção já estabelecida."
+  ]
+ },
+ {
+  "q": "Mulher de 40 anos com sangramento uterino aumentado e útero aumentado com miomas intramurais, com anemia. Qual é a conduta inicial?",
+  "alts": [
+   "Tratar a anemia e o sangramento clinicamente, avaliando sempre a indicação cirúrgica conforme os sintomas.",
+   "Indicar histerectomia imediata em todas as pacientes com miomas intramurais e sangramento aumentado agora já.",
+   "Prescrever apenas analgésico comum e reavaliar clinicamente após doze meses de acompanhamento neste caso.",
+   "Iniciar quimioterapia sistêmica como tratamento de escolha para os miomas uterinos diagnosticados agora.",
+   "Indicar radioterapia pélvica como primeira linha de tratamento para o sangramento uterino descrito agora."
+  ],
+  "gab": 0,
+  "tema": "go",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "FEBRASGO — Miomatose uterina, 2023; ACOG Practice Bulletin nº 228, revisão 2023",
+  "coment": "O tratamento da miomatose sintomática é individualizado conforme sintomas, tamanho, localização, idade e desejo reprodutivo. O manejo inicial do sangramento inclui correção da anemia com ferro, sistema intrauterino liberador de levonorgestrel, ácido tranexâmico, anticoncepcional combinado e análogos de GnRH para preparo cirúrgico. Opções cirúrgicas vão de miomectomia a histerectomia, e a embolização de artérias uterinas é alternativa em casos selecionados.",
+  "porAlt": [
+   "Correta: tratar anemia e sangramento clinicamente, avaliando indicação cirúrgica conforme sintomas.",
+   "A histerectomia é uma das opções, mas não a conduta inicial universal para toda miomatose sintomática.",
+   "Analgésico isolado por doze meses mantém o sangramento e agrava a anemia já instalada.",
+   "Quimioterapia não trata mioma, que é tumor benigno de musculatura lisa do útero.",
+   "Radioterapia pélvica não é tratamento de miomatose uterina benigna em mulher em idade fértil."
+  ]
+ },
+ {
+  "q": "Gestante de 36 semanas com perda de líquido claro pela vagina e teste confirmando ruptura de membranas, sem sinais de infecção. Qual é a conduta?",
+  "alts": [
+   "Internar, avaliar bem-estar fetal e programar sempre a resolução conforme a idade gestacional e o protocolo.",
+   "Manter conduta expectante domiciliar até quarenta e duas semanas independentemente do quadro clínico agora.",
+   "Prescrever apenas antibiótico ambulatorial e liberar a paciente com retorno agendado em uma semana agora.",
+   "Realizar cesariana de urgência em todos os casos de ruptura de membranas com trinta e seis semanas agora.",
+   "Iniciar tocólise prolongada por quatro semanas para prolongar ao máximo a gestação nessa idade neste caso."
+  ],
+  "gab": 0,
+  "tema": "go",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "FEBRASGO — Ruptura prematura de membranas, 2022; ACOG Practice Bulletin nº 217, revisão 2023",
+  "coment": "Na ruptura prematura de membranas a partir de trinta e quatro semanas, a conduta habitual é a resolução da gestação, pois o risco infeccioso supera o benefício de prolongar. A paciente é internada, avaliam-se bem-estar fetal e sinais de corioamnionite, e indica-se indução do parto quando não há contraindicação, com via de parto definida por indicação obstétrica. Antes de trinta e quatro semanas, considera-se conduta expectante com corticoide e antibiótico.",
+  "porAlt": [
+   "Correta: internar, avaliar bem-estar fetal e programar a resolução conforme a idade gestacional.",
+   "A conduta expectante domiciliar até quarenta e duas semanas expõe a corioamnionite e sepse neonatal.",
+   "Antibiótico ambulatorial com alta não é conduta segura diante de membranas rotas nessa idade.",
+   "A cesariana não é indicada apenas pela ruptura; a via de parto segue indicação obstétrica.",
+   "A tocólise prolongada não é indicada com membranas rotas nessa idade gestacional."
+  ]
+ },
+ {
+  "q": "Mulher de 55 anos com queixa de secura vaginal e dispareunia após a menopausa, sem sintomas vasomotores. Qual é a conduta?",
+  "alts": [
+   "Estrogênio de uso vaginal em dose baixa, associado sempre a lubrificantes e hidratantes locais conforme a necessidade.",
+   "Terapia hormonal sistêmica em dose plena como primeira escolha para os sintomas genitais isolados nesse contexto.",
+   "Prescrever apenas antibiótico vaginal prolongado como tratamento dos sintomas genitais descritos para este paciente.",
+   "Indicar cirurgia vaginal corretiva como tratamento inicial para a secura e a dispareunia relatadas nesse contexto já.",
+   "Orientar apenas abstinência sexual como principal medida terapêutica para a dispareunia descrita para este paciente."
+  ],
+  "gab": 0,
+  "tema": "go",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "The Menopause Society position statement on genitourinary syndrome of menopause, 2020 com revisão 2024; FEBRASGO — Climatério, 2023",
+  "coment": "A síndrome geniturinária da menopausa decorre do hipoestrogenismo local e cursa com secura, dispareunia, prurido, urgência urinária e infecções recorrentes. Quando os sintomas são apenas locais, o tratamento de escolha é estrogênio vaginal em dose baixa, com absorção sistêmica desprezível e boa segurança, associado a lubrificantes para o intercurso e hidratantes vaginais de uso regular. Terapia sistêmica se reserva a sintomas vasomotores associados.",
+  "porAlt": [
+   "Correta: estrogênio vaginal em dose baixa com lubrificantes e hidratantes conforme a necessidade.",
+   "A terapia sistêmica é desproporcional quando os sintomas são exclusivamente genitais e locais.",
+   "O antibiótico vaginal não trata a atrofia, que decorre da queda estrogênica e não de infecção.",
+   "A cirurgia não é tratamento da atrofia vaginal, condição que responde ao estrogênio tópico.",
+   "Orientar abstinência não trata a causa e agrava a atrofia pela ausência de estímulo local."
+  ]
+ },
+ {
+  "q": "Gestante com diagnóstico de infecção urinária assintomática confirmada por urocultura. Qual é a conduta?",
+  "alts": [
+   "Tratar com antibiótico seguro na gestação e realizar sempre urocultura de controle após o tratamento.",
+   "Não tratar, pois a bacteriúria assintomática não tem qualquer repercussão clínica durante a gestação.",
+   "Tratar apenas se surgirem sintomas urinários, mantendo somente observação clínica até esse momento.",
+   "Prescrever quinolona por sete dias como antibiótico de escolha para a gestante com bacteriúria agora.",
+   "Indicar internação hospitalar para antibiótico endovenoso em todos os casos de bacteriúria assintomática."
+  ],
+  "gab": 0,
+  "tema": "go",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "IDSA Clinical Practice Guideline for the Management of Asymptomatic Bacteriuria, 2019 com revisão 2023; FEBRASGO — Pré-natal, 2022",
+  "coment": "A bacteriúria assintomática na gestação é uma das poucas situações em que se trata sem sintomas, porque aumenta o risco de pielonefrite, parto prematuro e baixo peso ao nascer. O rastreio com urocultura é rotina no pré-natal. O tratamento usa antibiótico seguro na gestação — nitrofurantoína fora do termo, amoxicilina, cefalexina ou fosfomicina — conforme o antibiograma, seguido de urocultura de controle. Quinolonas são evitadas na gestação.",
+  "porAlt": [
+   "Correta: tratar com antibiótico seguro e realizar urocultura de controle após o fim do tratamento.",
+   "Na gestação a bacteriúria assintomática aumenta pielonefrite, prematuridade e baixo peso ao nascer.",
+   "Esperar sintomas permite a evolução para pielonefrite, complicação grave no período gestacional.",
+   "As quinolonas são evitadas na gestação pelo potencial de toxicidade sobre cartilagem fetal.",
+   "O tratamento é ambulatorial e oral, sem qualquer necessidade de internação na bacteriúria."
+  ]
+ },
+ {
+  "q": "Mulher de 27 anos com dor pélvica cíclica intensa, dismenorreia progressiva e dispareunia profunda, com ultrassonografia normal. Qual é a hipótese principal?",
+  "alts": [
+   "Endometriose, cuja ausência de achados na ultrassonografia não exclui sempre o diagnóstico clínico.",
+   "Cistite intersticial isolada, condição definida por dismenorreia progressiva e dispareunia profunda.",
+   "Síndrome do intestino irritável, quadro caracterizado por dor cíclica menstrual com dispareunia profunda.",
+   "Miomatose uterina submucosa, condição que cursa com ultrassonografia normal e dor pélvica cíclica.",
+   "Doença inflamatória pélvica crônica, definida por dor cíclica com ultrassonografia pélvica normal."
+  ],
+  "gab": 0,
+  "tema": "go",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ESHRE guideline on endometriosis, 2022; FEBRASGO — Endometriose, 2023",
+  "coment": "A endometriose deve ser suspeitada diante de dismenorreia progressiva, dor pélvica crônica, dispareunia profunda, dor à evacuação ou à micção cíclica e infertilidade. A ultrassonografia transvaginal normal não exclui a doença, sobretudo nas formas superficiais peritoneais, e a ressonância aumenta a sensibilidade para endometriose profunda. As diretrizes atuais recomendam iniciar tratamento empírico com base na suspeita clínica, sem exigir confirmação laparoscópica.",
+  "porAlt": [
+   "Correta: endometriose, cujo diagnóstico é clínico e não é excluído por ultrassonografia normal.",
+   "A cistite intersticial cursa com dor vesical e urgência urinária, sem a ciclicidade menstrual descrita.",
+   "A síndrome do intestino irritável cursa com alteração do hábito intestinal e alívio após evacuação.",
+   "O mioma submucoso costuma ser visível à ultrassonografia e cursa principalmente com sangramento.",
+   "A doença inflamatória pélvica crônica decorre de infecção prévia e não tem o padrão cíclico descrito."
+  ]
+ },
+ {
+  "q": "Gestante em trabalho de parto apresenta desaceleração tardia repetitiva no cardiotocograma, com variabilidade reduzida. Qual é a conduta?",
+  "alts": [
+   "Medidas de reanimação intrauterina e avaliação para resolução, considerando sempre a via mais rápida e segura.",
+   "Aguardar a evolução espontânea do trabalho de parto por mais quatro horas sem qualquer intervenção agora.",
+   "Aumentar a infusão de ocitocina para acelerar o trabalho de parto diante do padrão descrito no traçado agora.",
+   "Prescrever apenas analgesia adicional e manter a conduta expectante até a dilatação estar completa agora.",
+   "Colocar a gestante em decúbito dorsal horizontal como principal medida diante do padrão observado neste caso."
+  ],
+  "gab": 0,
+  "tema": "go",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "FEBRASGO — Assistência ao parto, 2022; ACOG Practice Bulletin nº 106 sobre monitorização fetal intraparto, revisão 2023",
+  "coment": "Desacelerações tardias repetitivas com variabilidade reduzida caracterizam traçado categoria III ou padrão preocupante, indicando insuficiência uteroplacentária. As medidas de reanimação intrauterina incluem decúbito lateral esquerdo, suspensão da ocitocina, oxigênio conforme indicação, correção de hipotensão com volume e vasopressor e consideração de tocolítico. Sem melhora rápida, indica-se a resolução pela via mais rápida e segura, geralmente cesariana.",
+  "porAlt": [
+   "Correta: reanimação intrauterina imediata e resolução pela via mais rápida se não houver melhora.",
+   "Aguardar quatro horas diante de traçado preocupante permite acidose fetal e dano neurológico.",
+   "Aumentar a ocitocina agrava a hipóxia ao intensificar a contratilidade e reduzir a perfusão placentária.",
+   "A analgesia não corrige a insuficiência uteroplacentária evidenciada pelo padrão cardiotocográfico.",
+   "O decúbito dorsal horizontal comprime a veia cava e agrava a hipoperfusão uteroplacentária."
+  ]
+ },
+ {
+  "q": "Mulher de 33 anos com atraso menstrual e beta-HCG quantitativo que não dobra em 48 horas, com ultrassonografia sem imagem definida. Qual é a conduta?",
+  "alts": [
+   "Seguimento seriado do beta-HCG com ultrassonografia, mantendo sempre alerta para gravidez ectópica.",
+   "Prescrever metotrexato imediatamente a todas as pacientes com essa evolução do beta-HCG quantitativo.",
+   "Indicar curetagem uterina de urgência antes de qualquer definição do sítio de implantação da gestação.",
+   "Tranquilizar e liberar sem qualquer seguimento, pois o quadro descrito indica gestação tópica normal.",
+   "Indicar laparotomia exploradora imediata em todas as pacientes com essa curva de beta-HCG quantitativo já."
+  ],
+  "gab": 0,
+  "tema": "go",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ACOG Practice Bulletin nº 193 — Tubal ectopic pregnancy, revisão 2022; FEBRASGO, 2022",
+  "coment": "Em gestação de localização indeterminada com paciente estável, o seguimento combina dosagens seriadas de beta-HCG a cada quarenta e oito horas e ultrassonografia transvaginal. Aumento inferior ao esperado sugere gestação inviável ou ectópica, mas não define o sítio: tratar com metotrexato sem definição pode interromper gestação tópica viável. A paciente é orientada sobre sinais de alarme, e instabilidade ou dor intensa indicam abordagem cirúrgica imediata.",
+  "porAlt": [
+   "Correta: seguimento seriado do beta-HCG com ultrassonografia, mantendo alerta para gravidez ectópica.",
+   "Metotrexato sem definição do sítio pode interromper gestação tópica potencialmente viável.",
+   "A curetagem sem definição arrisca interromper gestação tópica e não trata a gestação ectópica.",
+   "Liberar sem seguimento arrisca rotura tubária com hemorragia grave e risco de vida da paciente.",
+   "A laparotomia é indicada na instabilidade ou na rotura, e não nessa paciente estável em investigação."
+  ]
+ }
+]
