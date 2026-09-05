@@ -1824,6 +1824,838 @@ window.BANCO=[
 }
 },
 {
+"q": "Uma mulher de 33 anos vai a uma consulta com um clínico geral por se sentir muito deprimida, referindo tristeza e desânimo, que começaram há 6 meses. Ela conta que é natural e procedente de São Paulo, programadora de computadores, católica não praticante, casada há 6 anos, com dois filhos, e que é sedentária. Refere sentir muita fadiga, cansaço, indisposição e sono e que ganhou 7 kg nesse período. Nega ter pensamentos de morte, de culpa ou de menos-valia. Conta, também, que recebeu diagnóstico de depressão e, por isso, usou fluoxetina durante 2 meses, até 60 mg por dia, sem apresentar melhora significativa. Por fim, referiu ter irregularidade menstrual e constipação. Ao exame, apresenta-se hidratada, corada, afebril, sem edemas, anictérica. Seus sinais vitais estão sem alterações, exceto a frequência cardíaca que está 48 batimentos por minuto em repouso. À ausculta cardíaca, notam-se bulhas normofonéticas, sem sopros. Diante desse quadro, o principal diagnóstico diferencial a ser investigado é",
+"alts": [
+"transtorno depressivo persistente",
+"transtorno depressivo secundário",
+"transtorno de somatização",
+"síndrome de Burnout"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ATA Guidelines for the Treatment of Hypothyroidism, 2014; NICE guideline on depression in adults, 2022",
+"coment": "Quadro depressivo com fadiga, ganho de peso, sonolência, constipação e irregularidade menstrual, refratário a antidepressivo em dose plena, aponta para depressão secundária a causa orgânica — aqui, hipotireoidismo. Antes de rotular como depressão resistente e escalonar psicofármaco, a investigação obrigatória inclui TSH e T4 livre, hemograma, glicemia, função renal e hepática, vitamina B12 e revisão de fármacos. Corrigir a causa costuma resolver ou atenuar substancialmente o humor, e manter apenas o antidepressivo mantém a paciente sintomática.",
+"porAlt": [
+"O transtorno depressivo persistente exige humor deprimido por pelo menos dois anos e não explica os achados sistêmicos.",
+"Correta: transtorno depressivo secundário a doença orgânica, com hipotireoidismo como principal suspeita.",
+"O transtorno de somatização cursa com múltiplas queixas sem substrato orgânico, o que não se aplica.",
+"A síndrome de burnout está ligada ao contexto ocupacional e não explica ganho de peso, constipação e irregularidade menstrual."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um homem de 68 anos, portador de enfisema pulmonar e de fibrilação atrial (FA) permanente, encontra-se internado na sala vermelha de uma unidade de pronto-atendimento em razão de exacerbação aguda de doença pulmonar obstrutiva crônica. Subitamente, ele apresenta dessaturação e apneia. A equipe observa que o paciente encontra-se em parada cardiorrespiratória, a despeito de manter o ritmo de FA — agora em alta resposta ventricular. Iniciados os procedimentos de reanimação cardiopulmonar, é constatada turgência jugular e ausência de expansibilidade em hemitórax direito, mesmo com a ventilação com bolsa-máscara; além disso, a percussão local revela timpanismo. Já foi administrada uma dose de 1 mg de epinefrina intravenosa. Diante do quadro desse paciente, a conduta indicada é",
+"alts": [
+"proceder à imediata cardioversão elétrica da fibrilação atrial",
+"realizar toracocentese imediata no 5º espaço intercostal direito",
+"substituir as próximas doses de adrenalina por amiodarona",
+"providenciar esternotomia imediata para massagem cardíaca interna"
+],
+"gab": 1,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "AHA Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care, 2020 e atualização 2025; ATLS, 10ª edição",
+"coment": "Parada cardiorrespiratória com atividade elétrica sem pulso, turgência jugular, ausência de expansibilidade e timpanismo em um hemitórax indica pneumotórax hipertensivo — uma das causas reversíveis que devem ser buscadas ativamente durante a reanimação. Em paciente com enfisema, o pneumotórax por ruptura de bolha é complicação conhecida. O tratamento é imediato e não espera radiografia: descompressão por punção com agulha, seguida de drenagem torácica. Nenhuma dose adicional de fármaco reverte a parada enquanto a causa mecânica persistir.",
+"porAlt": [
+"Cardioversão não trata atividade elétrica sem pulso, e a fibrilação atrial não é a causa da parada.",
+"Correta: descompressão torácica imediata pelo pneumotórax hipertensivo.",
+"Amiodarona é para fibrilação ventricular ou taquicardia ventricular sem pulso refratárias, não para este ritmo.",
+"Esternotomia com massagem interna não tem indicação neste cenário."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um homem de 67 anos comparece à consulta de rotina. Diagnosticado com diabetes mellitus tipo 2 há cerca de 12 meses, em uso regular de metformina 500 mg de 12 em 12 horas. Possui história prévia de infarto agudo do miocárdio há 5 anos. Comparece à consulta de acompanhamento com exames laboratoriais de controle recentes, que apresentam resultados semelhantes aos exames anteriores, realizados há 3 e há 6 meses. Exames: Ureia 28 mg/dL (VR 13 a 43 mg/dL); Creatinina 1,04 mg/dL (VR 0,60 a 1,30 mg/dL); taxa de filtração glomerular (TFG – CKD - EPI) 74,99 mL/min/1,73 m² (VR > 90 mL/min/1,73 m²); Glicemia de jejum 144 mg/dL (VR < 100 mg/dL); Hemoglobina glicada 7,2% (VR 4,5 a 5,6%); Albuminúria em amostra isolada de urina 234 mg/L (VR < 30 mg/L). A conduta recomendada para esse paciente é",
+"alts": [
+"manter a medicação em uso e solicitar exame de dosagem de proteinúria em amostra de urina de 24 horas",
+"manter a medicação em uso e agendar consulta de retorno solicitando a realização dos exames habituais",
+"trocar o tratamento para um esquema à base de insulina e solicitar exame de dosagem de proteinúria em amostra de urina de 24 horas",
+"associar um medicamento inibidor do receptor SGLT2 (cotransportador sódio-glicose 2) e manter acompanhamento habitual"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "American Diabetes Association — Standards of Care in Diabetes, 2025; KDIGO 2024 CKD guideline; Diretriz da Sociedade Brasileira de Diabetes, 2024",
+"coment": "Paciente com diabetes tipo 2, doença cardiovascular aterosclerótica estabelecida e albuminúria elevada tem indicação de inibidor de SGLT2 independentemente do valor da hemoglobina glicada: a classe reduz mortalidade cardiovascular, hospitalização por insuficiência cardíaca e progressão da doença renal. A conduta soma-se ao controle glicêmico, e não o substitui. Confirmar a albuminúria em nova amostra faz parte do seguimento, mas não deve atrasar o início do fármaco, e proteinúria de 24 horas foi substituída pela relação albumina-creatinina em amostra isolada.",
+"porAlt": [
+"Manter apenas metformina e pedir proteinúria de 24 horas adia uma indicação já estabelecida.",
+"Manter tudo como está desperdiça a oportunidade de reduzir desfecho cardiovascular e renal.",
+"Insulina não é a escolha nesse perfil, com glicada de 7,2% e indicação clara de outra classe.",
+"Correta: associar inibidor de SGLT2, indicado pela doença cardiovascular e pela albuminúria."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma mulher de 24 anos procura atendimento hospitalar referindo quadro de cefaleia episódica, sudorese e taquicardia há 3 meses, com piora progressiva. Realizada monitorização ambulatorial da pressão arterial (MAPA), identificou-se oscilação importante, caracterizando hipertensão paroxística. Definindo-se, como principal hipótese diagnóstica, a hipertensão arterial secundária, foram realizados os seguintes exames. Ácido 5-hidroxiindolacético (5-HIAA), Urina, 5 mg/24h (VR 2 a 7 mg/24h); Normetanefrina, Urina, > 2,2 nmol/L (VR < 0,9 nmol/L); Metanefrina, Urina, > 1,1 nmol/L (VR < 0,5 nmol/L); TSH, Sangue, 5 mUI/L (VR 0,25 a 5 mUI/L); T3, Sangue, 132 ng/dL (VR 60 a 182 ng/dL); T4 livre, Sangue, 1,0 ng/dL (VR 0,9 a 1,8 ng/dL). Diante desses resultados, qual é a principal hipótese diagnóstica?",
+"alts": [
+"Hipertiroidismo",
+"Feocromocitoma",
+"Síndrome carcinoide",
+"Hiperaldosteronismo"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Endocrine Society Clinical Practice Guideline — Pheochromocytoma and Paraganglioma, 2014; Diretriz Brasileira de Hipertensão Arterial, 2025",
+"coment": "A tríade de cefaleia, sudorese e palpitação com hipertensão paroxística em paciente jovem é a apresentação clássica do feocromocitoma, e o rastreio se faz por metanefrinas fracionadas plasmáticas livres ou urinárias de 24 horas — elevadas mais de duas a três vezes acima do limite, como aqui, o diagnóstico é bioquímico e o passo seguinte é localizar o tumor por tomografia ou ressonância de abdome. No tratamento, o bloqueio alfa-adrenérgico precede obrigatoriamente o betabloqueio: inverter a ordem provoca crise hipertensiva por vasoconstrição sem oposição.",
+"porAlt": [
+"O hipertireoidismo está afastado: TSH e hormônios tireoidianos estão dentro da faixa de referência.",
+"Correta: feocromocitoma, com metanefrina e normetanefrina urinárias muito elevadas.",
+"A síndrome carcinoide cursaria com ácido 5-hidroxiindolacético elevado, que está normal.",
+"O hiperaldosteronismo cursa com hipertensão sustentada e hipocalemia, sem crises adrenérgicas."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma mulher de 45 anos, portadora de hipertensão arterial sistêmica há menos de 1 ano, vai à consulta de acompanhamento no centro de saúde. Durante consulta, são observados edema e piora da hipertensão. Em investigação laboratorial, constata a presença de hematúria microscópica persistente com presença de dismorfismo eritrocitário, proteinúria de 1,5 g/24 horas e albumina sérica de 3,6 mg/dL. A paciente é referenciada ao nefrologista que indicou a realização de biópsia renal. Assinale a alternativa que apresenta a síndrome clínica reportada e um possível diagnóstico compatível com o quadro.",
+"alts": [
+"Síndrome nefrótica; amiloidose renal",
+"Síndrome nefrítica; nefropatia por IgA",
+"Síndrome nefrótica; nefropatia membranosa",
+"Síndrome nefrítica; doença de lesões mínimas"
+],
+"gab": 1,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases",
+"coment": "Hematúria com dismorfismo eritrocitário, hipertensão, edema e proteinúria abaixo do limiar nefrótico, com albumina sérica preservada, configuram síndrome nefrítica. A causa mais comum de glomerulonefrite primária no adulto é a nefropatia por IgA, que classicamente cursa com hematúria macroscópica sinfaríngica ou microscópica persistente. A biópsia define o diagnóstico e o prognóstico, e o tratamento se apoia em bloqueio do sistema renina-angiotensina, controle pressórico rigoroso e, na doença de alto risco de progressão, imunossupressão.",
+"porAlt": [
+"A amiloidose renal cursa com síndrome nefrótica e proteinúria maciça, sem sedimento nefrítico.",
+"Correta: síndrome nefrítica com nefropatia por IgA como hipótese principal.",
+"A nefropatia membranosa causa síndrome nefrótica, incompatível com albumina preservada e proteinúria de 1,5 g.",
+"A doença de lesões mínimas causa síndrome nefrótica, não nefrítica."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Mulher, 58 anos de idade, comparece à consulta ambulatorial por prurido cutâneo intenso. Refere que há 7 meses iniciou prurido no tronco e nos membros inferiores, sem lesões cutâneas. Há 1 mês, evolui com piora progressiva do sintoma, que passou a ser diário, acometendo quase todo o corpo e interferindo em atividades diárias e sono. Tem diagnósticos de hipertensão arterial sistêmica, diabetes melito tipo 2, dislipidemia e osteoartrite. Faz uso de hidroclorotiazida, metformina, dapagliflozina, sinvastatina e tramadol. Ao exame físico, apresenta sinais vitais normais, pele com leve xerose e algumas lesões escoriadas em membros inferiores, sem outras anormalidades. Tem exames de hemograma completo, ureia, creatinina, TGO/AST, TGP/ALT, FA e GGT normais. Hemoglobina glicada de 7,3%. Qual é a conduta mais apropriada a respeito do prurido neste momento?",
+"alts": [
+"Hidratar a pele e usar corticoide tópico nas lesões",
+"Substituir o tramadol por analgésicos simples orais",
+"Prescrever gabapentina ou pregabalina orais",
+"Prescrever anti-histamínico oral por quinze dias"
+],
+"gab": 1,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "European guideline on chronic pruritus, 2019; American Geriatrics Society Beers Criteria, 2023",
+"coment": "Prurido crônico sem lesão cutânea primária, com exames de função renal e hepática e hemograma normais, obriga a revisar a prescrição antes de qualquer terapia sintomática. O tramadol é opioide, e o prurido induzido por opioide é mecanismo bem estabelecido, mediado centralmente e não histaminérgico — daí a resposta pobre a anti-histamínico. A conduta é retirar o agente causal, substituindo-o por analgésico simples, e só depois considerar gabapentinoide ou outra terapia dirigida se o sintoma persistir.",
+"porAlt": [
+"Hidratação e corticoide tópico tratam a xerose e as escoriações, mas não a causa do prurido.",
+"Correta: substituir o tramadol, opioide reconhecidamente causador de prurido crônico.",
+"Gabapentinoide é opção para prurido neuropático refratário, depois de retirar o agente causal.",
+"Anti-histamínico tem pouca eficácia no prurido induzido por opioide, cujo mecanismo não é histaminérgico."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 45 anos de idade, busca atendimento ambulatorial. Refere ter procurado o pronto-socorro 3 vezes nos últimos 4 meses, com crises de dor precordial, taquicardia, falta de ar, formigamento nas mãos e tontura. Durante as crises, que ocorriam quando ele estava em casa, ficava muito assustado achando que iria morrer. Nos atendimentos de urgência, realizou eletrocardiogramas, radiografias de tórax e exames de sangue de urgência que apresentaram resultados normais. Devido às crises, passou a evitar andar de elevador por ter medo de ter uma crise e não poder sair ou receber ajuda. Não há queixas descritas entre as crises. Além do transtorno de pânico, qual é o diagnóstico mais apropriado a partir dos sintomas descritos?",
+"alts": [
+"Agorafobia",
+"Claustrofobia",
+"Ansiedade generalizada",
+"Fobia específica"
+],
+"gab": 0,
+"tema": "psiq",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "DSM-5-TR (APA, 2022); NICE guideline on generalised anxiety disorder and panic disorder, 2020",
+"coment": "A agorafobia se define pelo medo e pela esquiva de situações das quais possa ser difícil escapar ou obter ajuda caso ocorra uma crise — transporte público, elevadores, filas, espaços fechados ou abertos, multidões. Evitar o elevador especificamente por medo de ter uma crise e não conseguir sair é o desenho exato desse diagnóstico, distinto da claustrofobia, em que o temor recai sobre o ambiente fechado em si. O tratamento combina terapia cognitivo-comportamental com exposição e antidepressivo, sendo a exposição o componente que reverte a esquiva.",
+"porAlt": [
+"Correta: agorafobia — esquiva por medo de não conseguir escapar ou obter ajuda durante uma crise.",
+"Na claustrofobia o medo é do ambiente fechado em si, e não da impossibilidade de socorro em uma crise.",
+"A ansiedade generalizada é preocupação persistente e difusa, e o enunciado afirma não haver queixas entre as crises.",
+"A fobia específica se dirige a um objeto ou situação delimitada, sem a lógica da crise e do socorro."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 58 anos de idade, procura atendimento por dispneia. A médica residente, que realizou o atendimento, observou a presença de um achado clínico que favoreceu, significativamente, a possibilidade de se tratar de um caso de insuficiência cardíaca. A partir da análise da tabela, assinale a alternativa que contém o achado clínico observado.\n(Cada alternativa traz: Sinal clínico — Sensibilidade (%); Especificidade (%); Razão de verossimilhança positiva; Razão de verossimilhança negativa.)",
+"alts": [
+"Hepatomegalia — Sensibilidade 3,2%; Especificidade 97%; RV+ 1,07; RV- 1,00",
+"Terceira bulha — Sensibilidade 10%; Especificidade 85%; RV+ 0,67; RV- 1,06",
+"Estertores — Sensibilidade 29%; Especificidade 77%; RV+ 1,26; RV- 0,92",
+"Reflexo abdomino jugular — Sensibilidade 33%; Especificidade 94%; RV+ 5,50; RV- 0,71"
+],
+"gab": 3,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "JAMA Rational Clinical Examination — Does this dyspneic patient have congestive heart failure?; ESC Guidelines for heart failure, 2021",
+"coment": "A razão de verossimilhança positiva é o que mede quanto um achado aumenta a probabilidade da doença: valores acima de 5 produzem mudança importante, e acima de 10, decisiva. Entre os sinais listados, o refluxo abdominojugular tem razão de verossimilhança positiva de 5,5 — o único que desloca de forma relevante a probabilidade de insuficiência cardíaca. Sensibilidade baixa com especificidade alta é o padrão dos sinais que servem para confirmar, não para excluir: a ausência deles não afasta o diagnóstico, como mostram as razões de verossimilhança negativas próximas de 1.",
+"porAlt": [
+"Hepatomegalia tem razão de verossimilhança positiva de 1,07, praticamente sem efeito sobre a probabilidade.",
+"A terceira bulha, na tabela apresentada, tem razão de verossimilhança positiva menor que 1, o que reduziria a probabilidade.",
+"Estertores têm razão de 1,26, aumento marginal e pouco útil na decisão.",
+"Correta: refluxo abdominojugular, com razão de verossimilhança positiva de 5,5."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 73 anos de idade, com antecedente de insuficiência cardíaca de fração de ejeção reduzida e hipertensão arterial sistêmica. Internado por descompensação da insuficiência cardíaca por má adesão. Após 8 dias de internação hospitalar, intercorreu com febre, tosse produtiva, taquicardia e pressão arterial média limítrofe.\nExames laboratoriais: Hb: 14,2 mg/dL; Leucócitos: 9.200/mm3; Plaquetas: 184 mil/mm3; Cr: 0,9 mg/dL.\nHemocultura com identificação de Staphylococcus epidermidis em frasco aeróbio após 22h, frasco anaeróbio e outro par de hemocultura seguem negativos. Assinale a alternativa que apresenta a antibioticoterapia mais pertinente para o caso apresentado.",
+"alts": [
+"Ceftriaxone e azitromicina",
+"Piperacilina com tazobactam",
+"Vancomicina",
+"Oxacilina"
+],
+"gab": 1,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "IDSA guidelines on intravascular catheter-related infection e sobre uso racional de antimicrobianos; ANVISA, critérios diagnósticos de infecção relacionada à assistência à saúde, 2017",
+"coment": "Estafilococo coagulase-negativo isolado em um único frasco, de um único par de hemoculturas, com o par restante negativo, é quase sempre contaminação de coleta, e não bacteriemia verdadeira — que exigiria crescimento em dois ou mais frascos de sítios diferentes ou tempo de positivação sugestivo. O paciente tem quadro de pneumonia hospitalar após oito dias de internação, e a terapia deve cobrir esse foco, com esquema antipseudomonas. Tratar o contaminante com vancomicina expõe a nefrotoxicidade e a pressão seletiva sem benefício.",
+"porAlt": [
+"Ceftriaxona com azitromicina cobre pneumonia comunitária, inadequada após oito dias de internação.",
+"Correta: piperacilina com tazobactam, cobrindo pneumonia hospitalar, sem tratar o provável contaminante.",
+"Vancomicina trataria o estafilococo coagulase-negativo, que aqui representa contaminação de coleta.",
+"Oxacilina cobre estafilococo sensível à meticilina, o que não corresponde ao perfil desse isolado nem ao foco pulmonar."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 62 anos de idade, com histórico de hipertensão arterial sistêmica e dislipidemia, foi recentemente internado devido a infarto agudo do miocárdio de parede inferior, tratado com sucesso por intervenção coronariana percutânea primária. Ficou internado por 14 dias para controle sintomático. Neste período, a família notou o surgimento de tremores simétricos em repouso, predominantemente em membros superiores, associados à lentificação dos movimentos e dificuldade de marcha, com piora progressiva ao longo dos dias. Ao exame neurológico, o paciente apresentava rigidez em “roda denteada” em ambos os membros superiores, bradicinesia e tremor de repouso bilateral, mais proeminente nos membros superiores, com frequência de 4-6 Hz. A velocidade da marcha encontrava-se reduzida, com passos curtos e redução do balanço passivo dos membros superiores. Assinale a alternativa que apresenta a medicação mais provavelmente associada ao surgimento desses sintomas no caso descrito.",
+"alts": [
+"Clonazepam",
+"Carvedilol",
+"Bromoprida",
+"Losartana"
+],
+"gab": 2,
+"tema": "neuro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r2",
+"base": "MDS Clinical Diagnostic Criteria for Parkinson’s Disease, 2015; American Geriatrics Society Beers Criteria, 2023",
+"coment": "Parkinsonismo de instalação subaguda durante internação, simétrico e progressivo, é fortemente sugestivo de causa medicamentosa — ao contrário da doença de Parkinson idiopática, que é assimétrica e insidiosa. Os agentes são bloqueadores dopaminérgicos: metoclopramida, bromoprida, haloperidol, flunarizina, cinarizina e antipsicóticos típicos. A conduta é suspender o fármaco, com melhora habitual em semanas a meses, ainda que possa demorar. Carvedilol, losartana e clonazepam não bloqueiam receptores dopaminérgicos e não causam parkinsonismo.",
+"porAlt": [
+"O clonazepam pode causar sedação e ataxia, mas não parkinsonismo.",
+"O carvedilol pode causar tremor postural leve, não a tríade de rigidez, bradicinesia e tremor de repouso.",
+"Correta: bromoprida, bloqueador dopaminérgico e causa clássica de parkinsonismo medicamentoso.",
+"A losartana não tem relação com sintomas extrapiramidais."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 67 anos de idade, possui antecedentes de hipertensão arterial sistêmica, doença renal crônica dialítica e cefaleia tensional. Está internado na enfermaria de clínica médica em término de tratamento de pneumonia. Durante a evolução, foram identificados, nos controles das últimas 48 horas, múltiplas aferições de pressão arterial próximas a 180×120 mmHg. Apresentou um episódio de sua cefaleia habitual. Assinale a alternativa que apresenta uma etapa do exame físico fundamental para a conduta imediata.",
+"alts": [
+"Exame do fundo de olho",
+"Medida do peso corpóreo",
+"Aferição da circunferência cervical",
+"Pesquisa de sopro abdominal"
+],
+"gab": 1,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "KDIGO Clinical Practice Guideline on Blood Pressure Management in CKD, 2021; Sociedade Brasileira de Nefrologia, diretrizes de hemodiálise",
+"coment": "Em paciente dialítico, a hipertensão persistente é, na maioria das vezes, expressão de sobrecarga de volume — peso acima do peso seco —, e não de falha de anti-hipertensivo. Por isso, a etapa fundamental do exame físico é pesar o paciente e compará-lo ao peso seco, junto da avaliação de turgência jugular, edema e ausculta pulmonar, para reajustar a ultrafiltração na próxima sessão. Acrescentar fármaco sem corrigir o volume trata o número e não o mecanismo, e a cefaleia relatada é a habitual do paciente, sem sinais de emergência hipertensiva.",
+"porAlt": [
+"O fundo de olho é útil na suspeita de emergência hipertensiva, que não se caracteriza aqui.",
+"Correta: medir o peso e compará-lo ao peso seco, para reajustar a ultrafiltração.",
+"A circunferência cervical orienta suspeita de apneia do sono, sem urgência neste momento.",
+"O sopro abdominal investiga doença renovascular, hipótese de menor rendimento em paciente já dialítico."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Um ensaio clínico randomizado estudou a associação entre o uso de sotatercept e morte em pacientes com hipertensão arterial pulmonar classes II e III. Os pacientes foram randomizados em dois grupos: 84 pacientes receberam sotatercept e 86 placebo, a cada três semanas, durante 11 meses. Os resultados do estudo (desfecho: morte) encontram-se a seguir:\nSotatercept: Sim 7; Não 77; Total 84.\nPlacebo: Sim 13; Não 73; Total 86.\nTotal: Sim 20; Não 150; Total 170.\nConsiderando os dados da tabela, é necessário tratar:",
+"alts": [
+"15 pacientes com sotatercept para evitar a morte em um paciente",
+"53 pacientes com sotatercept para evitar a morte em um paciente",
+"84 pacientes com sotatercept para evitar mortes em 15% dos pacientes",
+"84 pacientes com sotatercept para evitar a morte em 53% dos pacientes"
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "Epidemiologia clínica — medidas de efeito (redução absoluta de risco e número necessário para tratar); ensaio STELLAR (sotatercepte), 2023",
+"coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Aqui, o risco de morte foi de 7 em 84 no grupo tratado, cerca de 8,3%, contra 13 em 86 no placebo, cerca de 15,1%. A redução absoluta é de aproximadamente 6,8 pontos percentuais, e o inverso disso resulta em torno de 15 — ou seja, tratar cerca de 15 pacientes para evitar um óbito. O erro clássico da questão é calcular sobre a redução relativa de risco, que aqui é de cerca de 45% e produziria um número muito diferente e sem sentido clínico.",
+"porAlt": [
+"Correta: cerca de 15 pacientes tratados para evitar um óbito, pelo inverso da redução absoluta de risco.",
+"O valor 53 não decorre do cálculo com esses dados.",
+"O total de pacientes de um braço do estudo não é o número necessário para tratar.",
+"Misturar o tamanho do braço com percentual de mortes evitadas não corresponde a nenhuma medida de efeito."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 78 anos de idade, com diagnóstico de diabetes melito tipo 2 há 20 anos. Teve infarto agudo do miocárdio há cinco anos, tem doença renal crônica estágio 3b e retinopatia diabética não proliferativa leve. Além disso, relatou dois episódios de hipoglicemia que necessitaram de auxílio de terceiros no último ano. Seu tratamento atual consiste em metformina 500 mg/dia, sitagliptina 50 mg/dia e insulina NPH 20 unidades à noite, e 10 unidades pela manhã. A meta de HbA1c mais apropriada para esta paciente é",
+"alts": [
+"6,0% – 6,5%",
+"6,5% – 7,0%",
+"7,0% – 7,5%",
+"7,5% – 8,5%"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "American Diabetes Association — Standards of Care in Diabetes, 2025, capítulo de idosos; Diretriz da Sociedade Brasileira de Diabetes, 2024",
+"coment": "Metas glicêmicas em idosos são individualizadas pela expectativa de vida, comorbidades e, sobretudo, pelo risco de hipoglicemia. A paciente tem 78 anos, doença cardiovascular estabelecida, doença renal crônica avançada e — o dado decisivo — dois episódios de hipoglicemia grave, que exigiram auxílio de terceiros, no último ano. Nesse perfil de saúde complexa, a meta apropriada é menos rigorosa, entre 7,5 e 8,5%, e o objetivo passa a ser evitar hipoglicemia e sintomas de hiperglicemia, com desintensificação do esquema, e não perseguir números baixos.",
+"porAlt": [
+"Meta entre 6,0 e 6,5% é inadequada e perigosa nesse perfil de alto risco de hipoglicemia.",
+"Meta entre 6,5 e 7,0% aplica-se a paciente jovem, hígido e sem risco de hipoglicemia.",
+"Meta entre 7,0 e 7,5% ainda é rigorosa demais diante de hipoglicemias graves recorrentes.",
+"Correta: entre 7,5 e 8,5%, meta de saúde complexa, priorizando evitar hipoglicemia."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 78 anos de idade, com astenia há quatro meses e dificuldade progressiva de realizar seus exercícios em academia. Refere hipertensão arterial sistêmica e diabetes melito há cinco anos, controlados com losartana e metformina. Nega tabagismo e etilismo. Pai falecido de câncer de intestino e mãe falecida por infarto agudo do miocárdio. Três filhos com boa saúde. Ao exame clínico, apresenta-se descorado++/4+.\n\nExames laboratoriais:\nHb: 7,5 g/dL\nVCM: 108 fL\nLeucócitos: 4.200/mm³\nNeutrófilos: 2.100/mm³\nLinfócitos: 1.680/mm³\nMonócitos: 400/mm³\nEosinófilos: 20/mm³\nPlaquetas: 152.000/mm³\nReticulócitos: 40.000/mm³\nPresença de neutrófilos hipossegmentados e hipogranulares.\n\nEm relação ao caso apresentado, o diagnóstico mais provável para a anemia é",
+"alts": [
+"Síndrome mielodisplásica",
+"Anemia megaloblástica",
+"Deficiência de ferro",
+"Anemia hemolítica"
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "WHO Classification of Haematolymphoid Tumours, 5ª edição, 2022; NCCN Guidelines for Myelodysplastic Syndromes, 2025",
+"coment": "Anemia macrocítica em idoso com reticulócitos inadequadamente baixos e alterações displásicas no esfregaço — neutrófilos hipossegmentados e hipogranulares, a anomalia de pseudo-Pelger-Huët — aponta para síndrome mielodisplásica. Antes de confirmar, é obrigatório excluir as causas reversíveis de macrocitose com displasia: deficiência de B12 e folato, álcool, hipotireoidismo, HIV e fármacos. A confirmação exige mielograma com biópsia, citogenética e painel molecular, que definem o risco e o tratamento.",
+"porAlt": [
+"Correta: síndrome mielodisplásica, sugerida pela displasia no esfregaço com reticulócitos baixos.",
+"A anemia megaloblástica é diferencial obrigatório, mas precisa ser afastada por dosagem de B12 e folato, e não explica a hipogranulação.",
+"A deficiência de ferro causa microcitose, não macrocitose.",
+"A anemia hemolítica cursa com reticulocitose, e aqui os reticulócitos estão baixos para o grau de anemia."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 58 anos de idade, em avaliação pré-operatória de gastroduodenopancreatectomia por neoplasia de cabeça de pâncreas. A cirurgia tem duração estimada de 8 horas, com perda sanguínea estimada de 500 a 1.000 mL e está programada para ser realizada em duas semanas. Tem antecedente de hipertensão arterial sistêmica, diabetes melito tipo 2, dislipidemia mista e tabagismo de 35 anos-maço. Foi submetida à revascularização miocárdica com colocação de stent farmacológico há 8 meses. Relata dispneia aos moderados esforços. Nega angina, dispneia paroxística noturna, ortopneia e edema de membros inferiores. Está em uso de losartana, anlodipino, atenolol, metformina, dapagliflozina, rosuvastatina, Ácido Acetilsalicílico (AAS) e clopidogrel. Exame clínico sem alterações. Eletrocardiograma (ECG) com alteração de repolarização difusa.\n\nOs riscos cardiovascular e do procedimento são, respectivamente",
+"alts": [
+"Moderado e moderado",
+"Moderado e alto",
+"Alto e moderado",
+"Alto e alto"
+],
+"gab": 3,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "ESC/ESA Guidelines on cardiovascular assessment and management of patients undergoing non-cardiac surgery, 2022; Diretriz de avaliação perioperatória da SBC, 2017",
+"coment": "A avaliação perioperatória cruza dois eixos independentes. O risco do paciente é alto: doença arterial coronariana com revascularização recente, diabetes, hipertensão, tabagismo pesado, alteração de repolarização no eletrocardiograma e capacidade funcional limitada — dispneia aos moderados esforços indica menos de 4 equivalentes metabólicos. O risco do procedimento também é alto: cirurgia abdominal maior, de oito horas, com perda sanguínea estimada de até um litro. A combinação de paciente de alto risco com cirurgia de alto risco é o que define a necessidade de monitorização e planejamento reforçados.",
+"porAlt": [
+"Classificar ambos como moderados subestima tanto a doença coronariana recente quanto o porte da cirurgia.",
+"O risco do paciente não é moderado diante de revascularização há oito meses e baixa capacidade funcional.",
+"O procedimento não é de risco moderado: é cirurgia abdominal maior e prolongada, com sangramento previsto.",
+"Correta: risco cardiovascular alto e risco do procedimento alto."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 58 anos de idade, em avaliação pré-operatória de gastroduodenopancreatectomia por neoplasia de cabeça de pâncreas. A cirurgia tem duração estimada de 8 horas, com perda sanguínea estimada de 500 a 1.000 mL e está programada para ser realizada em duas semanas. Tem antecedente de hipertensão arterial sistêmica, diabetes melito tipo 2, dislipidemia mista e tabagismo de 35 anos-maço. Foi submetida à revascularização miocárdica com colocação de stent farmacológico há 8 meses. Relata dispneia aos moderados esforços. Nega angina, dispneia paroxística noturna, ortopneia e edema de membros inferiores. Está em uso de losartana, anlodipino, atenolol, metformina, dapagliflozina, rosuvastatina, Ácido Acetilsalicílico (AAS) e clopidogrel. Exame clínico sem alterações. Eletrocardiograma (ECG) com alteração de repolarização difusa.\n\nOs exames indicados no período perioperatório são",
+"alts": [
+"ECG e troponina nos primeiros dois dias após a cirurgia",
+"Cintilografia de perfusão miocárdica antes da cirurgia",
+"NT-pro-BNP nos três primeiros dias após a cirurgia",
+"Ecocardiograma transtorácico em repouso antes da cirurgia"
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "ESC Guidelines on cardiovascular assessment and management of patients undergoing non-cardiac surgery, 2022; Canadian Cardiovascular Society perioperative guidelines",
+"coment": "Em paciente de alto risco submetido a cirurgia de alto risco, o rendimento está na vigilância pós-operatória de lesão miocárdica, e não em exames de imagem pré-operatórios adicionais. A recomendação é dosar troponina e obter eletrocardiograma nas primeiras 48 horas, porque a lesão miocárdica após cirurgia não cardíaca é frequentemente silenciosa, sem dor torácica, e se associa a mortalidade elevada em 30 dias. Testes funcionais pré-operatórios só se justificam quando o resultado for capaz de mudar a conduta, o que não é o caso em paciente já revascularizada e sem angina.",
+"porAlt": [
+"Correta: eletrocardiograma e troponina nos primeiros dias após a cirurgia, para detectar lesão miocárdica silenciosa.",
+"Cintilografia de perfusão não mudaria a conduta em paciente revascularizada e assintomática do ponto de vista anginoso.",
+"NT-proBNP pré-operatório tem valor prognóstico, mas não é o exame que a diretriz privilegia no pós-operatório para detecção de isquemia.",
+"Ecocardiograma de repouso não avalia isquemia e não está indicado de rotina."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 58 anos de idade, em avaliação pré-operatória de gastroduodenopancreatectomia por neoplasia de cabeça de pâncreas. A cirurgia tem duração estimada de 8 horas, com perda sanguínea estimada de 500 a 1.000 mL e está programada para ser realizada em duas semanas. Tem antecedente de hipertensão arterial sistêmica, diabetes melito tipo 2, dislipidemia mista e tabagismo de 35 anos-maço. Foi submetida à revascularização miocárdica com colocação de stent farmacológico há 8 meses. Relata dispneia aos moderados esforços. Nega angina, dispneia paroxística noturna, ortopneia e edema de membros inferiores. Está em uso de losartana, anlodipino, atenolol, metformina, dapagliflozina, rosuvastatina, Ácido Acetilsalicílico (AAS) e clopidogrel. Exame clínico sem alterações. Eletrocardiograma (ECG) com alteração de repolarização difusa.\n\nAlém da manutenção de rosuvastatina, losartana, anlodipino e atenolol, deve-se",
+"alts": [
+"manter AAS e clopidogrel. Suspender dapagliflozina 3 dias antes do procedimento e metformina no dia do procedimento",
+"manter AAS e clopidogrel. Suspender dapagliflozina no dia e metformina 3 dias antes do procedimento",
+"suspender clopidogrel 5 dias antes do procedimento e manter o AAS. Suspender dapagliflozina 3 dias antes e metformina no dia do procedimento",
+"suspender clopidogrel 5 dias antes do procedimento e manter o AAS. Suspender dapagliflozina no dia e metformina 3 dias antes do procedimento"
+],
+"gab": 2,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "ESC Guidelines on perioperative cardiovascular management, 2022; ACC/AHA guideline on duration of dual antiplatelet therapy; bulas e recomendações sobre suspensão perioperatória de inibidores de SGLT2",
+"coment": "Passados mais de seis meses do implante de stent farmacológico, é possível suspender o segundo antiagregante para uma cirurgia de alto risco de sangramento, mantendo-se o ácido acetilsalicílico. O clopidogrel é suspenso cerca de cinco dias antes. Já os inibidores de SGLT2 devem ser suspensos três a quatro dias antes de cirurgia de grande porte, pelo risco de cetoacidose euglicêmica no perioperatório, e a metformina é interrompida no dia do procedimento, por causa do jejum e do risco de acidose lática se houver instabilidade ou uso de contraste.",
+"porAlt": [
+"Manter os dois antiagregantes em cirurgia abdominal maior aumenta o risco hemorrágico sem necessidade após seis meses do stent.",
+"Além de manter os dois antiagregantes, inverte os prazos de suspensão dos antidiabéticos.",
+"Correta: suspender clopidogrel cinco dias antes mantendo o ácido acetilsalicílico, dapagliflozina três dias antes e metformina no dia.",
+"Os prazos dos antidiabéticos estão invertidos: quem sai com antecedência é o inibidor de SGLT2."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 48 anos de idade, previamente hígido, há 6 meses recebeu diagnóstico de insuficiência cardíaca com fração de ejeção reduzida (32%), de etiologia alcoólica e iniciou tratamento clínico. Compareceu à consulta médica relatando múltiplos episódios de hipotensão sintomática (90×50 mmHg) que correlacionou ao aumento recente da dose de enalapril para 20 mg 2x ao dia. Está abstêmio, em classe funcional II, em uso, além do enalapril, de espironolactona 12,5 mg 1x ao dia, carvedilol 6,25 mg 2x ao dia e furosemida 80 mg 1x ao dia. Assinale a alternativa que apresenta a conduta mais adequada para este paciente",
+"alts": [
+"Suspender a espironolactona",
+"Transicionar carvedilol para ivabradina",
+"Reduzir a dose do enalapril",
+"Reduzir a dose de furosemida"
+],
+"gab": 3,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure, 2021 e atualização 2023; Diretriz brasileira de insuficiência cardíaca crônica, SBC",
+"coment": "Na insuficiência cardíaca com fração de ejeção reduzida, os quatro pilares — inibidor do sistema renina-angiotensina, betabloqueador, antagonista mineralocorticoide e inibidor de SGLT2 — modificam mortalidade, e a meta é titulá-los até a dose máxima tolerada. O diurético de alça, ao contrário, apenas controla congestão e não muda prognóstico. Diante de hipotensão sintomática em paciente euvolêmico e em classe funcional II, a primeira medida é reduzir o diurético — dose alta de furosemida em paciente compensado é causa frequente de hipotensão —, preservando as drogas que salvam vida.",
+"porAlt": [
+"Suspender a espironolactona retira um fármaco que reduz mortalidade.",
+"Ivabradina não substitui o betabloqueador; entra como adição quando a frequência permanece alta em ritmo sinusal.",
+"Reduzir o enalapril sacrifica um pilar do tratamento antes de ajustar o diurético, que não muda prognóstico.",
+"Correta: reduzir a furosemida, cuja dose alta explica a hipotensão em paciente compensado."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 58 anos de idade, com hipertensão arterial e com histórico de cirurgia bariátrica (gastrectomia vertical tipo sleeve e bypass em Y de Roux), relata fratura vertebral após levantar o neto recém-nascido do chão. Possui os seguintes exames:\n\nDensitometria óssea:\nT-score de fêmur total: -2,4\nColo de fêmur: -2,4\nColuna L1-L4: -2,7\n\nExames laboratoriais:\nCr: 0,7 mg/dL\nCa2+ total: 8,7 mg/dL\nFósforo: 2,4 mg/dL\n25-OH-vitamina D: 9 ng/mL\nAlbumina: 3,7 g/dL\nParatormônio: 103 pg/mL\nTGO/AST: 30 U/L\nTGP/ALT: 31 U/L\nFA: 123 U/L\nGGT: 40 U/L\n\nO tratamento inicial mais adequado para esta paciente deve incluir",
+"alts": [
+"Citrato de cálcio + vitamina D",
+"Carbonato de cálcio + vitamina D + zoledrônico",
+"Citrato de cálcio + vitamina D + zoledrônico",
+"Carbonato de cálcio + vitamina D"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Endocrine Society Clinical Practice Guideline — Osteoporosis in Postmenopausal Women, 2019; diretrizes de acompanhamento metabólico pós-cirurgia bariátrica, 2020",
+"coment": "A paciente tem osteoporose com fratura por fragilidade, mas o passo inicial é corrigir a deficiência grave de vitamina D e a hipocalcemia relativa que sustentam o hiperparatireoidismo secundário. Iniciar bisfosfonato com vitamina D em 9 ng/mL provoca hipocalcemia sintomática. Após cirurgia bariátrica disabsortiva, a forma preferida é o citrato de cálcio, que independe de acidez gástrica para ser absorvido, ao contrário do carbonato. Repostos cálcio, vitamina D e normalizado o paratormônio, aí sim entra o antirreabsortivo.",
+"porAlt": [
+"Correta: citrato de cálcio com vitamina D primeiro, corrigindo a deficiência antes do antirreabsortivo.",
+"Carbonato de cálcio depende de acidez gástrica e o zoledrônico com vitamina D muito baixa causa hipocalcemia.",
+"O citrato é a forma adequada, mas o zoledrônico não deve ser iniciado antes de corrigir a vitamina D.",
+"Carbonato de cálcio é mal absorvido após bariátrica disabsortiva."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 52 anos de idade, com diabetes melito tipo 2, HAS e obesidade grau 1. Foi solicitado ultrassom de abdome após consulta de rotina, que mostrou fígado de dimensões normais, bordas finas, ecotextura discretamente heterogênea e esteatose de grau moderado.\n\nExames laboratoriais:\nHbA1c: 6,5%\nLDL colesterol: 110 mg/dL\nTriglicérides: 130 mg/dL\nTGO/AST: 35 U/L\nTGP/ALT: 38 U/L\n\nConsiderando o caso apresentado, o próximo passo mais adequado é",
+"alts": [
+"Calcular FIB-4",
+"Realizar biópsia hepática",
+"Repetir transaminases em seis meses",
+"Repetir imagem em um ano"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "AASLD Practice Guidance on MASLD, 2023; EASL-EASD-EASO Clinical Practice Guidelines on MASLD, 2024",
+"coment": "Na doença hepática esteatótica associada a disfunção metabólica, o que determina o prognóstico é o grau de fibrose, não a esteatose nem o nível de transaminases — que podem estar normais em doença avançada. Por isso, todo paciente com esteatose e fator de risco metabólico deve ser estratificado, e o primeiro passo é o FIB-4, calculado com idade, plaquetas e transaminases. Valor baixo permite seguimento na atenção primária; valor intermediário ou alto leva à elastografia hepática e ao encaminhamento. A biópsia ficou reservada a casos selecionados.",
+"porAlt": [
+"Correta: calcular o FIB-4, primeiro passo da estratificação de fibrose.",
+"A biópsia hepática não é o primeiro passo e se reserva a dúvida diagnóstica ou discordância entre métodos.",
+"Repetir transaminases não estratifica risco: elas podem estar normais mesmo com fibrose avançada.",
+"Repetir imagem quantifica esteatose, que não é o determinante prognóstico."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 87 anos de idade, com diabetes, insuficiência cardíaca com fração de ejeção reduzida, doença arterial coronariana e depressão. Relata tonturas tipo desequilíbrio, especialmente durante a caminhada. Está em uso de metformina 500 mg 2x/dia, furosemida 40 mg 1x/dia, enalapril 20 mg 2x/dia, carvedilol 25 mg 2x/dia, AAS 100 mg 1x/dia e amitriptilina 25 mg à noite. Exame clínico sem alterações significativas, exceto pressão arterial deitada de 158×88 mmHg, em pé de 128×70 mmHg e sentada de 136×88 mmHg. Glicemia capilar de 88 mg/dL. A conduta mais adequada é",
+"alts": [
+"Diminuir a metformina",
+"Diminuir o enalapril",
+"Associar a hidralazina",
+"Suspender a amitriptilina"
+],
+"gab": 3,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "American Geriatrics Society Beers Criteria, 2023; World Guidelines for Falls Prevention and Management in Older Adults, 2022",
+"coment": "Tontura tipo desequilíbrio ao caminhar em idosa polimedicada, com hipotensão ortostática documentada — queda de 30 mmHg na sistólica ao ficar em pé —, exige antes de tudo revisar a prescrição. A amitriptilina é o alvo evidente: antidepressivo tricíclico, fortemente anticolinérgico, causa hipotensão ortostática, sedação, confusão e retenção urinária, e está entre os fármacos formalmente desaconselhados no idoso pelos critérios de Beers. Suspendê-la, com desmame, é a medida de maior impacto na prevenção de queda e fratura.",
+"porAlt": [
+"A metformina não causa hipotensão ortostática, e a glicemia está adequada.",
+"O enalapril integra o tratamento da insuficiência cardíaca com fração de ejeção reduzida e não é o primeiro a sair.",
+"Associar hidralazina acrescentaria hipotensão a um quadro já ortostático.",
+"Correta: suspender a amitriptilina, fármaco desaconselhado no idoso e causa direta da hipotensão ortostática."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Um ensaio clínico randomizado comparou um novo anticoagulante com a varfarina para prevenção de AVC em fibrilação atrial. Após dois anos, a incidência de AVC foi de 4,7% no grupo do novo fármaco e 8% no grupo varfarina. O número aproximado de pacientes que precisam ser tratados para que um a mais tenha o benefício deste novo anticoagulante é",
+"alts": [
+"7",
+"25",
+"30",
+"58"
+],
+"gab": 2,
+"tema": "sus",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Epidemiologia clínica — número necessário para tratar; ensaios RE-LY (2009), ROCKET-AF (2011) e ARISTOTLE (2011)",
+"coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Com incidência de 4,7% no braço do novo fármaco e 8% no comparador, a redução absoluta é de 3,3 pontos percentuais, e o inverso de 0,033 resulta em aproximadamente 30 pacientes tratados para evitar um desfecho a mais. Note que a redução relativa é de cerca de 41% — número que impressiona mais e por isso costuma ser destacado —, mas é a redução absoluta que traduz o benefício concreto para a população tratada e permite comparar intervenções.",
+"porAlt": [
+"O valor 7 corresponderia a uma redução absoluta muito maior que a observada.",
+"O valor 25 corresponderia a uma redução absoluta de 4 pontos percentuais.",
+"Correta: cerca de 30, o inverso da redução absoluta de 3,3 pontos percentuais.",
+"O valor 58 não decorre do cálculo com esses dados."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Mulher, 48 anos de idade, refere que nos últimos dois anos apresentou oito episódios de edema de lábios e lesões eritematosas, edematosas e pruriginosas pelo corpo. As lesões cutâneas desaparecem completamente em algumas horas e o angioedema em até três dias. Em duas ocasiões, associou o quadro com consumo de camarão. Nega broncoespasmo, vômitos ou dor abdominal. Boa resposta a anti-histamínicos e adrenalina, utilizada em algumas ocasiões durante atendimento em pronto atendimento. Em acompanhamento por lombalgia há seis anos, estando medicada com anti-inflamatório não esteroidal de demanda. Hipertensão arterial sistêmica há quatro anos, em uso de diurético. Em relação ao caso apresentado, qual é a melhor hipótese diagnóstica?",
+"alts": [
+"Urticária aguda por anti-inflamatório não esteroidal",
+"Alergia alimentar a múltiplos alimentos, como camarão",
+"Anafilaxia recorrente devido aos vários medicamentos",
+"Angioedema hereditário, sem desencadeante específico"
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "EAACI/GA²LEN/EDF/WAO guideline for the definition, classification, diagnosis and management of urticaria, 2022",
+"coment": "Urticária com angioedema recorrente em paciente que usa anti-inflamatório não esteroide sob demanda aponta para reação de hipersensibilidade não alérgica a essa classe — mecanismo farmacológico, por inibição da cicloxigenase e desvio para leucotrienos, que afeta todos os anti-inflamatórios inibidores da COX-1, e não apenas o fármaco específico. A associação eventual com camarão é coincidência frequente: alergia alimentar verdadeira reproduz o quadro de forma consistente e costuma surgir minutos após a ingestão. Não há anafilaxia, já que faltam broncoespasmo, sintomas gastrointestinais e hipotensão.",
+"porAlt": [
+"Correta: urticária com angioedema desencadeada por anti-inflamatório não esteroide.",
+"A alergia alimentar seria reprodutível e consistente a cada exposição, não em duas de oito ocasiões.",
+"Não há anafilaxia: faltam broncoespasmo, sintomas gastrointestinais e hipotensão.",
+"O angioedema hereditário não cursa com urticária e não responde a anti-histamínico e adrenalina."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 58 anos de idade, com cirrose alcoólica e insuficiência cardíaca de fração de ejeção preservada com PSAP de 58 mmHg, apresenta dispneia progressiva e derrame pleural direito volumoso recorrente, além de ascite moderada. À admissão na emergência, apresentava SpO2 de 90% em ar ambiente e FR de 28 irpm. Realizada paracentese diagnóstica com gradiente soro–líquido ascítico de albumina de 1.5 g/dL e contagem de neutrófilos de 80 células/mm³. Em relação ao caso descrito, a conduta mais adequada é",
+"alts": [
+"Morfina e albumina 1 g/kg",
+"Repetir toracocentese de alívio",
+"Inserção de dreno tubular de tórax",
+"Derivação portossistêmica intra-hepática transjugular"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r3",
+"base": "AASLD Practice Guidance on ascites and hepatic hydrothorax, 2021; Baveno VII, 2022",
+"coment": "Gradiente de albumina soro-ascite de 1,5 g/dL confirma hipertensão portal, e a contagem de 80 neutrófilos afasta peritonite bacteriana espontânea, cujo corte é 250 por milímetro cúbico. O derrame pleural volumoso à direita, em cirrótico com ascite, é hidrotórax hepático, e o tratamento do paciente sintomático e hipoxêmico é a toracocentese de alívio, associada a restrição de sódio e diurético. Dreno tubular de tórax é formalmente desaconselhado nesse cenário: perpetua perda de líquido, proteína e eletrólitos, com risco de infecção e lesão renal.",
+"porAlt": [
+"Morfina não trata a causa da dispneia e a albumina isolada não resolve o derrame.",
+"Correta: toracocentese de alívio, tratamento do hidrotórax hepático sintomático.",
+"O dreno tubular é desaconselhado no hidrotórax hepático pelo risco de perdas, infecção e lesão renal.",
+"A derivação portossistêmica é opção em casos refratários e selecionados, não conduta imediata na emergência."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 78 anos de idade, com histórico de depressão, hipertensão arterial, diabetes melito tipo 2 e osteoartrite, faz uso de sertralina, metformina, enalapril, omeprazol e diacereína. Há seis semanas, tem apresentado episódios de diarreia com fezes pastosas, sem febre ou sangue, incontinência fecal ocasional, que impacta sua qualidade de vida. A conduta mais adequada, para o manejo inicial da diarreia, deve incluir",
+"alts": [
+"Iniciar loperamida",
+"Prescrever probióticos",
+"Solicitar retossigmoidoscopia",
+"Suspender a diacereína"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ACG Clinical Guideline on Chronic Diarrhea, 2025; American Geriatrics Society Beers Criteria, 2023",
+"coment": "Diarreia crônica é sintoma cuja causa mais frequente, e mais barata de resolver, é medicamentosa. A diacereína, usada em osteoartrite, tem a diarreia como efeito adverso muito comum, dose-dependente e reversível com a suspensão. Antes de investigar com colonoscopia ou tratar sintomaticamente, a conduta é revisar a prescrição e retirar o agente suspeito — no caso, também há omeprazol e sertralina, igualmente associados a diarreia. Loperamida sem diagnóstico mascara o quadro, e probióticos não têm indicação nesse contexto.",
+"porAlt": [
+"Loperamida trata o sintoma sem esclarecer nem remover a causa.",
+"Probióticos não têm papel estabelecido na diarreia medicamentosa.",
+"Retossigmoidoscopia é invasiva e prematura antes de revisar a prescrição.",
+"Correta: suspender a diacereína, causa medicamentosa provável da diarreia."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 40 anos de idade, encaminhado para investigação de alteração persistente no hemograma. Nega problemas de saúde ou uso de medicações. Tem dois filhos com boa saúde, pai faleceu por infarto do miocárdio. Exame clínico sem alterações.\n\nExames laboratoriais:\nHb: 14,5 g/dL\nVCM: 88 fL\nLeucócitos: 2.800/mm³\nNeutrófilos: 840/mm³\nLinfócitos: 1.680/mm³\nMonócitos: 260/mm³\nEosinófilos: 20/mm³\nPlaquetas: 189.000/mm³\nPCR: normal\nAnti-HBs: positivo (vacinal)\nHepatite C: negativa\nHIV: negativa\n\nEm relação ao caso apresentado, o exame com maior probabilidade de contribuir para o diagnóstico é",
+"alts": [
+"Avaliação de medula óssea",
+"Fenotipagem eritrocitária do sistema Duffy",
+"Imunofenotipagem de sangue periférico",
+"Esfregaço de sangue periférico"
+],
+"gab": 1,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Blood — Duffy-null associated neutrophil count (DANC) e ASH/ASCP consenso sobre faixas de referência de neutrófilos, 2023",
+"coment": "Neutropenia leve, isolada, persistente e assintomática em adulto saudável, sem infecções de repetição, sem alteração das demais séries e sem sinais sistêmicos, corresponde na maioria das vezes à neutropenia constitucional associada ao fenótipo Duffy-nulo, comum em pessoas de ascendência africana. Trata-se de variação da normalidade, e não de doença: a reserva medular é normal e não há risco infeccioso aumentado. Reconhecê-la evita mielograma desnecessário, adiamento de quimioterapia e exclusão indevida de tratamentos — motivo pelo qual as faixas de referência foram revistas.",
+"porAlt": [
+"A avaliação de medula óssea é invasiva e desnecessária diante de neutropenia isolada e assintomática.",
+"Correta: fenotipagem do sistema Duffy, que identifica a neutropenia constitucional benigna.",
+"A imunofenotipagem investiga neoplasia linfoproliferativa, sem elementos que a sugiram.",
+"O esfregaço é útil na rotina, mas não estabelece o diagnóstico de neutropenia constitucional."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Em uma unidade do polo indígena onde, até o momento, não havia notificação de casos autóctones de arboviroses, um agente de combate a endemias (ACE) conduziu, para atendimento médico, um homem de 38 anos, hipertenso, com história de febre (38 °C), dores no corpo, cefaleia e ageusia havia 5 dias. Esse homem estava com pressão arterial de 120 × 80 mmHg, frequência cardíaca de 72 batimentos por minuto e frequência respiratória de 18 incursões respiratórias por minuto. A prova do laço resultou positiva. Nesse caso, a hipótese diagnóstica e a conduta a ser realizada são, respectivamente,",
+"alts": [
+"covid-19; solicitar o teste rápido ou rt-PCR e iniciar antibioticoterapia com azitromicina e corticoide",
+"chikungunya; prescrever analgésico e anti-inflamatório, avaliar o uso de corticoide e notificar imediatamente o caso",
+"zika; iniciar sintomáticos e orientar o ACE a buscar todas as gestantes, para que possam ser feitas as medidas de prevenção à microcefalia",
+"dengue; iniciar hidratação, solicitar hemograma, alertar o ACE de que reforce as medidas individuais e coletivas de controle de mosquito e de que notifique o caso"
+],
+"gab": 3,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "Ministério da Saúde — Dengue: diagnóstico e manejo clínico, adulto e criança, 2024; Guia de Vigilância em Saúde",
+"coment": "Febre com mialgia e cefaleia por cinco dias, com prova do laço positiva, em paciente estável, é dengue do grupo B: sem sinais de alarme, mas com sangramento espontâneo induzido, o que exige hemograma e observação até o resultado. A conduta reúne hidratação oral, sintomático sem anti-inflamatório, hemograma, orientação sobre sinais de alarme com retorno imediato e notificação. Em área sem casos autóctones prévios, o achado dispara resposta de vigilância: notificação imediata, investigação e reforço do controle vetorial no território, com envolvimento do agente de combate a endemias.",
+"porAlt": [
+"Azitromicina e corticoide não tratam covid-19 e não têm indicação neste quadro.",
+"Anti-inflamatório está contraindicado enquanto dengue não for afastada, pelo risco de sangramento.",
+"A ageusia e a prova do laço positiva não apontam zika, e a conduta descrita ignora o manejo do próprio paciente.",
+"Correta: dengue — hidratação, hemograma, notificação e reforço do controle vetorial."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2022
+}
+},
+{
+"q": "Mulher de 30 anos foi a consulta em ambulatório de clínica médica devido a artrite nas mãos, nos joelhos e nos tornozelos. Relatou que o quadro iniciou havia 4 meses, de forma súbita, com febre (até 38,5 °C), exantema difuso levemente pruriginoso, eritema conjuntival e poliartralgia. Relatou que todos os sintomas duraram cerca de 3 a 5 dias, havendo persistência apenas da dor articular. Desde então, tem feito uso de analgésico comum e/ou anti-inflamatório não hormonal, devido às dores articulares persistentes. O exame físico mostrou-se completamente normal, exceto por artrite na segunda e na terceira metacarpofalangeana à esquerda, na terceira e na quarta interfalangeana proximal da mão direita, nos joelhos e nos tornozelos. Assinale a opção que apresenta, respectivamente, a correta hipótese diagnóstica para o caso e a opção terapêutica adequada.",
+"alts": [
+"Citomegalovirose; paracetamol",
+"Febre do Mayaro; metotrexato",
+"Chikungunya; metotrexato",
+"Dengue; paracetamol"
+],
+"gab": 2,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Ministério da Saúde — Chikungunya: manejo clínico, 2023; Sociedade Brasileira de Reumatologia, recomendações para artropatia pós-chikungunya",
+"coment": "Quadro febril agudo com exantema, conjuntivite e poliartralgia que evolui com artrite persistente por mais de três meses caracteriza a fase crônica da chikungunya, cuja artropatia é simétrica, acomete pequenas articulações e pode ser incapacitante. Persistindo apesar de analgésico e anti-inflamatório, a recomendação é escalonar para droga modificadora do curso da doença, sendo o metotrexato a de escolha, com hidroxicloroquina e sulfassalazina como alternativas ou associações, e corticoide em curso curto na transição. Acompanhamento reumatológico e reabilitação completam o manejo.",
+"porAlt": [
+"A citomegalovirose não cursa com artrite persistente por meses nesse padrão.",
+"A febre do Mayaro tem apresentação semelhante, mas é bem menos prevalente e restrita a áreas de mata.",
+"Correta: chikungunya na fase crônica, com metotrexato como droga modificadora.",
+"A dengue não deixa artrite persistente por meses, e paracetamol isolado não trataria essa fase."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2022
+}
+},
+{
+"q": "Mulher com 20 semanas de gestação foi diagnosticada com sífilis, sendo ela e o parceiro adequadamente tratados com penicilina benzatina. Depois de terminado o tratamento inicial, o controle mensal de cura dessa paciente, na Atenção Primária à Saúde, exige seguimento com",
+"alts": [
+"VDRL",
+"TPHA",
+"FTA-ABS",
+"penicilina procaína"
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; Protocolo de sífilis na gestação",
+"coment": "O seguimento pós-tratamento da sífilis é feito com teste não treponêmico quantitativo — o VDRL ou o RPR —, cujo título deve cair; espera-se queda de pelo menos duas diluições em três meses e de quatro diluições em seis meses, e a ausência dessa queda ou um novo aumento indicam falha ou reinfecção. Na gestante, o controle é mensal até o parto, pelo risco de sífilis congênita. Os testes treponêmicos — TPHA e FTA-Abs — permanecem reagentes por toda a vida na maioria dos casos e por isso não servem para seguimento.",
+"porAlt": [
+"Correta: VDRL quantitativo, com controle mensal na gestante.",
+"O TPHA permanece reagente indefinidamente e não monitora resposta ao tratamento.",
+"O FTA-Abs também é treponêmico e permanece reagente após a cura.",
+"Penicilina procaína é medicamento, não exame de seguimento."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2022
+}
+},
+{
+"q": "Uma mulher com 25 anos, solteira, sem comorbidades prévias, é atendida em uma unidade de pronto-socorro devido a queixas de algúria, polaciúria, dor hipogástrica e urgência miccional há 2 dias. Ela nega corrimento vaginal e relata que a menstruação está regular e que não tem relações sexuais há mais de 1 mês. A paciente nega: febre, uso de antimicrobianos nos últimos 3 meses e outros sintomas sistêmicos.\nNesse caso, quais são, respectivamente, a hipótese diagnóstica mais provável e a melhor conduta terapêutica?",
+"alts": [
+"ITU baixa; iniciar nitrofurantoína",
+"ITU alta não complicada; iniciar norfloxacino",
+"ITU por Staphylococcus aureus; iniciar antibiótico de amplo espectro",
+"Nefrolitíase complicada com ITU; iniciar antibiótico após resultado de urocultura"
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "IDSA/ESCMID Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women; Ministério da Saúde, protocolo de infecção do trato urinário na atenção primária, 2023",
+"coment": "Disúria, polaciúria, urgência e dor suprapúbica, sem febre, sem dor lombar e sem sinais sistêmicos, em mulher jovem sem comorbidade, caracterizam cistite aguda não complicada — diagnóstico clínico, que dispensa urocultura de rotina e não exige aguardar exame para tratar. O tratamento de primeira linha é nitrofurantoína por cinco dias, com fosfomicina em dose única ou sulfametoxazol-trimetoprima como alternativas conforme o perfil local de resistência. Quinolonas são evitadas nesse cenário pelo perfil de efeitos adversos e pela necessidade de preservá-las.",
+"porAlt": [
+"Correta: cistite aguda não complicada tratada com nitrofurantoína.",
+"Não há critérios de infecção alta: faltam febre, dor lombar e sinais sistêmicos, e a quinolona não é primeira escolha.",
+"Staphylococcus aureus é agente incomum de cistite comunitária e não justifica amplo espectro.",
+"Não há indício de litíase, e adiar o antibiótico até a urocultura prolonga o sintoma sem necessidade."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma mulher com 64 anos, sabidamente hipertensa e diabética tipo 2, em acompanhamento regular, comparece à consulta médica para atualização vacinal, pois deseja se proteger contra doenças comuns na comunidade. Ao ser indagada sobre seus antecedentes patológicos, ela informa que já teve sarampo, caxumba, rubéola e varicela antes dos 5 anos de idade e que teve hepatite A aos 10 anos.\nConsiderando a história clínica descrita, qual vacina está indicada para essa paciente?",
+"alts": [
+"Caxumba",
+"Hepatite A",
+"Tríplice viral",
+"Varicela-zóster"
+],
+"gab": 3,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Sociedade Brasileira de Imunizações — Calendário de vacinação do adulto e do idoso, 2025; Ministério da Saúde, Manual dos Centros de Referência para Imunobiológicos Especiais",
+"coment": "A paciente já teve sarampo, caxumba, rubéola, varicela e hepatite A, o que confere imunidade natural e torna dispensáveis as vacinas correspondentes. Resta a vacina contra herpes-zóster, indicada justamente a quem já teve varicela — porque o vírus permanece latente nos gânglios e reativa com a idade e com a imunossenescência —, com recomendação a partir dos 50 anos e reforçada em diabéticos. A vacina recombinante é preferida e pode ser usada em imunossuprimidos, enquanto a atenuada é contraindicada nesse grupo.",
+"porAlt": [
+"A paciente teve caxumba e tem imunidade natural.",
+"A hepatite A prévia confere imunidade duradoura.",
+"A tríplice viral é dispensável diante de sarampo, caxumba e rubéola já contraídos, e não é indicada nessa faixa etária sem indicação específica.",
+"Correta: vacina contra herpes-zóster, indicada exatamente a quem já teve varicela."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um homem com 65 anos refere, em consulta, apresentar múltiplas lesões dolorosas por todo o corpo e febre intermitente há 2 semanas. Ao exame físico, verificam-se: temperatura axilar de 38 °C e frequência cardíaca de 89 bpm, nódulos cutâneos múltiplos, dolorosos, firmes, eritematosos, medindo cerca de 2 x 2 cm cada um, que estão distribuídos bilateralmente em braços, antebraços, coxas e dorso; rarefação dos pelos nos supercílios, edema e dor nas articulações do pulso e do tornozelo. Realizado exame anatomopatológico de uma lesão nodular, o resultado evidenciou granulomas dérmicos e vasculite leucocitoclástica.\nConsiderando-se esse quadro, qual é a hipótese diagnóstica mais provável?",
+"alts": [
+"Reação hansênica tipo 2",
+"Granulomatose de Wegner",
+"Leishmaniose tegumentar americana",
+"Manifestação cutânea de retocolite ulcerativa"
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "urg",
+"nivel": "r3",
+"base": "Ministério da Saúde — Diretrizes para vigilância, atenção e eliminação da hanseníase, 2022; WHO Guidelines for the diagnosis, treatment and prevention of leprosy",
+"coment": "Nódulos cutâneos múltiplos, dolorosos e eritematosos, com febre, artrite e madarose, cuja histologia mostra vasculite leucocitoclástica sobre granulomas, caracterizam o eritema nodoso hansênico, a reação hansênica tipo 2, mediada por imunocomplexos e típica das formas multibacilares. É urgência: pode cursar com neurite, orquite, irite e dano neural permanente. O tratamento é talidomida — proibida para mulheres em idade fértil sem controle rigoroso do risco teratogênico — associada a corticoide quando há neurite ou acometimento visceral, mantendo-se a poliquimioterapia.",
+"porAlt": [
+"Correta: reação hansênica tipo 2, o eritema nodoso hansênico, com vasculite sobre granulomas.",
+"A granulomatose com poliangiíte cursa com acometimento de vias aéreas e rins, com ANCA positivo.",
+"A leishmaniose tegumentar produz úlcera, não nódulos disseminados com madarose.",
+"O eritema nodoso da retocolite acomete tipicamente membros inferiores e não vem com madarose e granuloma dérmico."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
 "q": "Mulher de 81 anos, com insônia crônica, chega ao ambulatório em uso de clonazepam há oito anos, prescrito por outro serviço. Teve duas quedas no último ano, sem fratura, e refere sonolência diurna. Mora sozinha e é independente para atividades básicas. Qual é a conduta mais apropriada?",
 "alts": [
 "Manter a dose atual e acrescentar zolpidem à noite, para melhorar a qualidade do sono dela.",

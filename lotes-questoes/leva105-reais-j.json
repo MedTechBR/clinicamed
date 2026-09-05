@@ -1,0 +1,288 @@
+[
+ {
+  "q": "Um ensaio clínico randomizado comparou um novo anticoagulante com a varfarina para prevenção de AVC em fibrilação atrial. Após dois anos, a incidência de AVC foi de 4,7% no grupo do novo fármaco e 8% no grupo varfarina. O número aproximado de pacientes que precisam ser tratados para que um a mais tenha o benefício deste novo anticoagulante é",
+  "alts": [
+   "7",
+   "25",
+   "30",
+   "58"
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Epidemiologia clínica — número necessário para tratar; ensaios RE-LY (2009), ROCKET-AF (2011) e ARISTOTLE (2011)",
+  "coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Com incidência de 4,7% no braço do novo fármaco e 8% no comparador, a redução absoluta é de 3,3 pontos percentuais, e o inverso de 0,033 resulta em aproximadamente 30 pacientes tratados para evitar um desfecho a mais. Note que a redução relativa é de cerca de 41% — número que impressiona mais e por isso costuma ser destacado —, mas é a redução absoluta que traduz o benefício concreto para a população tratada e permite comparar intervenções.",
+  "porAlt": [
+   "O valor 7 corresponderia a uma redução absoluta muito maior que a observada.",
+   "O valor 25 corresponderia a uma redução absoluta de 4 pontos percentuais.",
+   "Correta: cerca de 30, o inverso da redução absoluta de 3,3 pontos percentuais.",
+   "O valor 58 não decorre do cálculo com esses dados."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 48 anos de idade, refere que nos últimos dois anos apresentou oito episódios de edema de lábios e lesões eritematosas, edematosas e pruriginosas pelo corpo. As lesões cutâneas desaparecem completamente em algumas horas e o angioedema em até três dias. Em duas ocasiões, associou o quadro com consumo de camarão. Nega broncoespasmo, vômitos ou dor abdominal. Boa resposta a anti-histamínicos e adrenalina, utilizada em algumas ocasiões durante atendimento em pronto atendimento. Em acompanhamento por lombalgia há seis anos, estando medicada com anti-inflamatório não esteroidal de demanda. Hipertensão arterial sistêmica há quatro anos, em uso de diurético. Em relação ao caso apresentado, qual é a melhor hipótese diagnóstica?",
+  "alts": [
+   "Urticária aguda por anti-inflamatório não esteroidal",
+   "Alergia alimentar a múltiplos alimentos, como camarão",
+   "Anafilaxia recorrente devido aos vários medicamentos",
+   "Angioedema hereditário, sem desencadeante específico"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "EAACI/GA²LEN/EDF/WAO guideline for the definition, classification, diagnosis and management of urticaria, 2022",
+  "coment": "Urticária com angioedema recorrente em paciente que usa anti-inflamatório não esteroide sob demanda aponta para reação de hipersensibilidade não alérgica a essa classe — mecanismo farmacológico, por inibição da cicloxigenase e desvio para leucotrienos, que afeta todos os anti-inflamatórios inibidores da COX-1, e não apenas o fármaco específico. A associação eventual com camarão é coincidência frequente: alergia alimentar verdadeira reproduz o quadro de forma consistente e costuma surgir minutos após a ingestão. Não há anafilaxia, já que faltam broncoespasmo, sintomas gastrointestinais e hipotensão.",
+  "porAlt": [
+   "Correta: urticária com angioedema desencadeada por anti-inflamatório não esteroide.",
+   "A alergia alimentar seria reprodutível e consistente a cada exposição, não em duas de oito ocasiões.",
+   "Não há anafilaxia: faltam broncoespasmo, sintomas gastrointestinais e hipotensão.",
+   "O angioedema hereditário não cursa com urticária e não responde a anti-histamínico e adrenalina."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 58 anos de idade, com cirrose alcoólica e insuficiência cardíaca de fração de ejeção preservada com PSAP de 58 mmHg, apresenta dispneia progressiva e derrame pleural direito volumoso recorrente, além de ascite moderada. À admissão na emergência, apresentava SpO2 de 90% em ar ambiente e FR de 28 irpm. Realizada paracentese diagnóstica com gradiente soro–líquido ascítico de albumina de 1.5 g/dL e contagem de neutrófilos de 80 células/mm³. Em relação ao caso descrito, a conduta mais adequada é",
+  "alts": [
+   "Morfina e albumina 1 g/kg",
+   "Repetir toracocentese de alívio",
+   "Inserção de dreno tubular de tórax",
+   "Derivação portossistêmica intra-hepática transjugular"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "AASLD Practice Guidance on ascites and hepatic hydrothorax, 2021; Baveno VII, 2022",
+  "coment": "Gradiente de albumina soro-ascite de 1,5 g/dL confirma hipertensão portal, e a contagem de 80 neutrófilos afasta peritonite bacteriana espontânea, cujo corte é 250 por milímetro cúbico. O derrame pleural volumoso à direita, em cirrótico com ascite, é hidrotórax hepático, e o tratamento do paciente sintomático e hipoxêmico é a toracocentese de alívio, associada a restrição de sódio e diurético. Dreno tubular de tórax é formalmente desaconselhado nesse cenário: perpetua perda de líquido, proteína e eletrólitos, com risco de infecção e lesão renal.",
+  "porAlt": [
+   "Morfina não trata a causa da dispneia e a albumina isolada não resolve o derrame.",
+   "Correta: toracocentese de alívio, tratamento do hidrotórax hepático sintomático.",
+   "O dreno tubular é desaconselhado no hidrotórax hepático pelo risco de perdas, infecção e lesão renal.",
+   "A derivação portossistêmica é opção em casos refratários e selecionados, não conduta imediata na emergência."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 78 anos de idade, com histórico de depressão, hipertensão arterial, diabetes melito tipo 2 e osteoartrite, faz uso de sertralina, metformina, enalapril, omeprazol e diacereína. Há seis semanas, tem apresentado episódios de diarreia com fezes pastosas, sem febre ou sangue, incontinência fecal ocasional, que impacta sua qualidade de vida. A conduta mais adequada, para o manejo inicial da diarreia, deve incluir",
+  "alts": [
+   "Iniciar loperamida",
+   "Prescrever probióticos",
+   "Solicitar retossigmoidoscopia",
+   "Suspender a diacereína"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline on Chronic Diarrhea, 2025; American Geriatrics Society Beers Criteria, 2023",
+  "coment": "Diarreia crônica é sintoma cuja causa mais frequente, e mais barata de resolver, é medicamentosa. A diacereína, usada em osteoartrite, tem a diarreia como efeito adverso muito comum, dose-dependente e reversível com a suspensão. Antes de investigar com colonoscopia ou tratar sintomaticamente, a conduta é revisar a prescrição e retirar o agente suspeito — no caso, também há omeprazol e sertralina, igualmente associados a diarreia. Loperamida sem diagnóstico mascara o quadro, e probióticos não têm indicação nesse contexto.",
+  "porAlt": [
+   "Loperamida trata o sintoma sem esclarecer nem remover a causa.",
+   "Probióticos não têm papel estabelecido na diarreia medicamentosa.",
+   "Retossigmoidoscopia é invasiva e prematura antes de revisar a prescrição.",
+   "Correta: suspender a diacereína, causa medicamentosa provável da diarreia."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 40 anos de idade, encaminhado para investigação de alteração persistente no hemograma. Nega problemas de saúde ou uso de medicações. Tem dois filhos com boa saúde, pai faleceu por infarto do miocárdio. Exame clínico sem alterações.\n\nExames laboratoriais:\nHb: 14,5 g/dL\nVCM: 88 fL\nLeucócitos: 2.800/mm³\nNeutrófilos: 840/mm³\nLinfócitos: 1.680/mm³\nMonócitos: 260/mm³\nEosinófilos: 20/mm³\nPlaquetas: 189.000/mm³\nPCR: normal\nAnti-HBs: positivo (vacinal)\nHepatite C: negativa\nHIV: negativa\n\nEm relação ao caso apresentado, o exame com maior probabilidade de contribuir para o diagnóstico é",
+  "alts": [
+   "Avaliação de medula óssea",
+   "Fenotipagem eritrocitária do sistema Duffy",
+   "Imunofenotipagem de sangue periférico",
+   "Esfregaço de sangue periférico"
+  ],
+  "gab": 1,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Blood — Duffy-null associated neutrophil count (DANC) e ASH/ASCP consenso sobre faixas de referência de neutrófilos, 2023",
+  "coment": "Neutropenia leve, isolada, persistente e assintomática em adulto saudável, sem infecções de repetição, sem alteração das demais séries e sem sinais sistêmicos, corresponde na maioria das vezes à neutropenia constitucional associada ao fenótipo Duffy-nulo, comum em pessoas de ascendência africana. Trata-se de variação da normalidade, e não de doença: a reserva medular é normal e não há risco infeccioso aumentado. Reconhecê-la evita mielograma desnecessário, adiamento de quimioterapia e exclusão indevida de tratamentos — motivo pelo qual as faixas de referência foram revistas.",
+  "porAlt": [
+   "A avaliação de medula óssea é invasiva e desnecessária diante de neutropenia isolada e assintomática.",
+   "Correta: fenotipagem do sistema Duffy, que identifica a neutropenia constitucional benigna.",
+   "A imunofenotipagem investiga neoplasia linfoproliferativa, sem elementos que a sugiram.",
+   "O esfregaço é útil na rotina, mas não estabelece o diagnóstico de neutropenia constitucional."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Em uma unidade do polo indígena onde, até o momento, não havia notificação de casos autóctones de arboviroses, um agente de combate a endemias (ACE) conduziu, para atendimento médico, um homem de 38 anos, hipertenso, com história de febre (38 °C), dores no corpo, cefaleia e ageusia havia 5 dias. Esse homem estava com pressão arterial de 120 × 80 mmHg, frequência cardíaca de 72 batimentos por minuto e frequência respiratória de 18 incursões respiratórias por minuto. A prova do laço resultou positiva. Nesse caso, a hipótese diagnóstica e a conduta a ser realizada são, respectivamente,",
+  "alts": [
+   "covid-19; solicitar o teste rápido ou rt-PCR e iniciar antibioticoterapia com azitromicina e corticoide",
+   "chikungunya; prescrever analgésico e anti-inflamatório, avaliar o uso de corticoide e notificar imediatamente o caso",
+   "zika; iniciar sintomáticos e orientar o ACE a buscar todas as gestantes, para que possam ser feitas as medidas de prevenção à microcefalia",
+   "dengue; iniciar hidratação, solicitar hemograma, alertar o ACE de que reforce as medidas individuais e coletivas de controle de mosquito e de que notifique o caso"
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — Dengue: diagnóstico e manejo clínico, adulto e criança, 2024; Guia de Vigilância em Saúde",
+  "coment": "Febre com mialgia e cefaleia por cinco dias, com prova do laço positiva, em paciente estável, é dengue do grupo B: sem sinais de alarme, mas com sangramento espontâneo induzido, o que exige hemograma e observação até o resultado. A conduta reúne hidratação oral, sintomático sem anti-inflamatório, hemograma, orientação sobre sinais de alarme com retorno imediato e notificação. Em área sem casos autóctones prévios, o achado dispara resposta de vigilância: notificação imediata, investigação e reforço do controle vetorial no território, com envolvimento do agente de combate a endemias.",
+  "porAlt": [
+   "Azitromicina e corticoide não tratam covid-19 e não têm indicação neste quadro.",
+   "Anti-inflamatório está contraindicado enquanto dengue não for afastada, pelo risco de sangramento.",
+   "A ageusia e a prova do laço positiva não apontam zika, e a conduta descrita ignora o manejo do próprio paciente.",
+   "Correta: dengue — hidratação, hemograma, notificação e reforço do controle vetorial."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Mulher de 30 anos foi a consulta em ambulatório de clínica médica devido a artrite nas mãos, nos joelhos e nos tornozelos. Relatou que o quadro iniciou havia 4 meses, de forma súbita, com febre (até 38,5 °C), exantema difuso levemente pruriginoso, eritema conjuntival e poliartralgia. Relatou que todos os sintomas duraram cerca de 3 a 5 dias, havendo persistência apenas da dor articular. Desde então, tem feito uso de analgésico comum e/ou anti-inflamatório não hormonal, devido às dores articulares persistentes. O exame físico mostrou-se completamente normal, exceto por artrite na segunda e na terceira metacarpofalangeana à esquerda, na terceira e na quarta interfalangeana proximal da mão direita, nos joelhos e nos tornozelos. Assinale a opção que apresenta, respectivamente, a correta hipótese diagnóstica para o caso e a opção terapêutica adequada.",
+  "alts": [
+   "Citomegalovirose; paracetamol",
+   "Febre do Mayaro; metotrexato",
+   "Chikungunya; metotrexato",
+   "Dengue; paracetamol"
+  ],
+  "gab": 2,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Ministério da Saúde — Chikungunya: manejo clínico, 2023; Sociedade Brasileira de Reumatologia, recomendações para artropatia pós-chikungunya",
+  "coment": "Quadro febril agudo com exantema, conjuntivite e poliartralgia que evolui com artrite persistente por mais de três meses caracteriza a fase crônica da chikungunya, cuja artropatia é simétrica, acomete pequenas articulações e pode ser incapacitante. Persistindo apesar de analgésico e anti-inflamatório, a recomendação é escalonar para droga modificadora do curso da doença, sendo o metotrexato a de escolha, com hidroxicloroquina e sulfassalazina como alternativas ou associações, e corticoide em curso curto na transição. Acompanhamento reumatológico e reabilitação completam o manejo.",
+  "porAlt": [
+   "A citomegalovirose não cursa com artrite persistente por meses nesse padrão.",
+   "A febre do Mayaro tem apresentação semelhante, mas é bem menos prevalente e restrita a áreas de mata.",
+   "Correta: chikungunya na fase crônica, com metotrexato como droga modificadora.",
+   "A dengue não deixa artrite persistente por meses, e paracetamol isolado não trataria essa fase."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Mulher com 20 semanas de gestação foi diagnosticada com sífilis, sendo ela e o parceiro adequadamente tratados com penicilina benzatina. Depois de terminado o tratamento inicial, o controle mensal de cura dessa paciente, na Atenção Primária à Saúde, exige seguimento com",
+  "alts": [
+   "VDRL",
+   "TPHA",
+   "FTA-ABS",
+   "penicilina procaína"
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; Protocolo de sífilis na gestação",
+  "coment": "O seguimento pós-tratamento da sífilis é feito com teste não treponêmico quantitativo — o VDRL ou o RPR —, cujo título deve cair; espera-se queda de pelo menos duas diluições em três meses e de quatro diluições em seis meses, e a ausência dessa queda ou um novo aumento indicam falha ou reinfecção. Na gestante, o controle é mensal até o parto, pelo risco de sífilis congênita. Os testes treponêmicos — TPHA e FTA-Abs — permanecem reagentes por toda a vida na maioria dos casos e por isso não servem para seguimento.",
+  "porAlt": [
+   "Correta: VDRL quantitativo, com controle mensal na gestante.",
+   "O TPHA permanece reagente indefinidamente e não monitora resposta ao tratamento.",
+   "O FTA-Abs também é treponêmico e permanece reagente após a cura.",
+   "Penicilina procaína é medicamento, não exame de seguimento."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2022
+  }
+ },
+ {
+  "q": "Uma mulher com 25 anos, solteira, sem comorbidades prévias, é atendida em uma unidade de pronto-socorro devido a queixas de algúria, polaciúria, dor hipogástrica e urgência miccional há 2 dias. Ela nega corrimento vaginal e relata que a menstruação está regular e que não tem relações sexuais há mais de 1 mês. A paciente nega: febre, uso de antimicrobianos nos últimos 3 meses e outros sintomas sistêmicos.\nNesse caso, quais são, respectivamente, a hipótese diagnóstica mais provável e a melhor conduta terapêutica?",
+  "alts": [
+   "ITU baixa; iniciar nitrofurantoína",
+   "ITU alta não complicada; iniciar norfloxacino",
+   "ITU por Staphylococcus aureus; iniciar antibiótico de amplo espectro",
+   "Nefrolitíase complicada com ITU; iniciar antibiótico após resultado de urocultura"
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "IDSA/ESCMID Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women; Ministério da Saúde, protocolo de infecção do trato urinário na atenção primária, 2023",
+  "coment": "Disúria, polaciúria, urgência e dor suprapúbica, sem febre, sem dor lombar e sem sinais sistêmicos, em mulher jovem sem comorbidade, caracterizam cistite aguda não complicada — diagnóstico clínico, que dispensa urocultura de rotina e não exige aguardar exame para tratar. O tratamento de primeira linha é nitrofurantoína por cinco dias, com fosfomicina em dose única ou sulfametoxazol-trimetoprima como alternativas conforme o perfil local de resistência. Quinolonas são evitadas nesse cenário pelo perfil de efeitos adversos e pela necessidade de preservá-las.",
+  "porAlt": [
+   "Correta: cistite aguda não complicada tratada com nitrofurantoína.",
+   "Não há critérios de infecção alta: faltam febre, dor lombar e sinais sistêmicos, e a quinolona não é primeira escolha.",
+   "Staphylococcus aureus é agente incomum de cistite comunitária e não justifica amplo espectro.",
+   "Não há indício de litíase, e adiar o antibiótico até a urocultura prolonga o sintoma sem necessidade."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Uma mulher com 64 anos, sabidamente hipertensa e diabética tipo 2, em acompanhamento regular, comparece à consulta médica para atualização vacinal, pois deseja se proteger contra doenças comuns na comunidade. Ao ser indagada sobre seus antecedentes patológicos, ela informa que já teve sarampo, caxumba, rubéola e varicela antes dos 5 anos de idade e que teve hepatite A aos 10 anos.\nConsiderando a história clínica descrita, qual vacina está indicada para essa paciente?",
+  "alts": [
+   "Caxumba",
+   "Hepatite A",
+   "Tríplice viral",
+   "Varicela-zóster"
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Sociedade Brasileira de Imunizações — Calendário de vacinação do adulto e do idoso, 2025; Ministério da Saúde, Manual dos Centros de Referência para Imunobiológicos Especiais",
+  "coment": "A paciente já teve sarampo, caxumba, rubéola, varicela e hepatite A, o que confere imunidade natural e torna dispensáveis as vacinas correspondentes. Resta a vacina contra herpes-zóster, indicada justamente a quem já teve varicela — porque o vírus permanece latente nos gânglios e reativa com a idade e com a imunossenescência —, com recomendação a partir dos 50 anos e reforçada em diabéticos. A vacina recombinante é preferida e pode ser usada em imunossuprimidos, enquanto a atenuada é contraindicada nesse grupo.",
+  "porAlt": [
+   "A paciente teve caxumba e tem imunidade natural.",
+   "A hepatite A prévia confere imunidade duradoura.",
+   "A tríplice viral é dispensável diante de sarampo, caxumba e rubéola já contraídos, e não é indicada nessa faixa etária sem indicação específica.",
+   "Correta: vacina contra herpes-zóster, indicada exatamente a quem já teve varicela."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem com 65 anos refere, em consulta, apresentar múltiplas lesões dolorosas por todo o corpo e febre intermitente há 2 semanas. Ao exame físico, verificam-se: temperatura axilar de 38 °C e frequência cardíaca de 89 bpm, nódulos cutâneos múltiplos, dolorosos, firmes, eritematosos, medindo cerca de 2 x 2 cm cada um, que estão distribuídos bilateralmente em braços, antebraços, coxas e dorso; rarefação dos pelos nos supercílios, edema e dor nas articulações do pulso e do tornozelo. Realizado exame anatomopatológico de uma lesão nodular, o resultado evidenciou granulomas dérmicos e vasculite leucocitoclástica.\nConsiderando-se esse quadro, qual é a hipótese diagnóstica mais provável?",
+  "alts": [
+   "Reação hansênica tipo 2",
+   "Granulomatose de Wegner",
+   "Leishmaniose tegumentar americana",
+   "Manifestação cutânea de retocolite ulcerativa"
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Ministério da Saúde — Diretrizes para vigilância, atenção e eliminação da hanseníase, 2022; WHO Guidelines for the diagnosis, treatment and prevention of leprosy",
+  "coment": "Nódulos cutâneos múltiplos, dolorosos e eritematosos, com febre, artrite e madarose, cuja histologia mostra vasculite leucocitoclástica sobre granulomas, caracterizam o eritema nodoso hansênico, a reação hansênica tipo 2, mediada por imunocomplexos e típica das formas multibacilares. É urgência: pode cursar com neurite, orquite, irite e dano neural permanente. O tratamento é talidomida — proibida para mulheres em idade fértil sem controle rigoroso do risco teratogênico — associada a corticoide quando há neurite ou acometimento visceral, mantendo-se a poliquimioterapia.",
+  "porAlt": [
+   "Correta: reação hansênica tipo 2, o eritema nodoso hansênico, com vasculite sobre granulomas.",
+   "A granulomatose com poliangiíte cursa com acometimento de vias aéreas e rins, com ANCA positivo.",
+   "A leishmaniose tegumentar produz úlcera, não nódulos disseminados com madarose.",
+   "O eritema nodoso da retocolite acomete tipicamente membros inferiores e não vem com madarose e granuloma dérmico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ }
+]

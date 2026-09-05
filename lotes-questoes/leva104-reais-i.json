@@ -1,0 +1,262 @@
+[
+ {
+  "q": "Um ensaio clínico randomizado estudou a associação entre o uso de sotatercept e morte em pacientes com hipertensão arterial pulmonar classes II e III. Os pacientes foram randomizados em dois grupos: 84 pacientes receberam sotatercept e 86 placebo, a cada três semanas, durante 11 meses. Os resultados do estudo (desfecho: morte) encontram-se a seguir:\nSotatercept: Sim 7; Não 77; Total 84.\nPlacebo: Sim 13; Não 73; Total 86.\nTotal: Sim 20; Não 150; Total 170.\nConsiderando os dados da tabela, é necessário tratar:",
+  "alts": [
+   "15 pacientes com sotatercept para evitar a morte em um paciente",
+   "53 pacientes com sotatercept para evitar a morte em um paciente",
+   "84 pacientes com sotatercept para evitar mortes em 15% dos pacientes",
+   "84 pacientes com sotatercept para evitar a morte em 53% dos pacientes"
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "Epidemiologia clínica — medidas de efeito (redução absoluta de risco e número necessário para tratar); ensaio STELLAR (sotatercepte), 2023",
+  "coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Aqui, o risco de morte foi de 7 em 84 no grupo tratado, cerca de 8,3%, contra 13 em 86 no placebo, cerca de 15,1%. A redução absoluta é de aproximadamente 6,8 pontos percentuais, e o inverso disso resulta em torno de 15 — ou seja, tratar cerca de 15 pacientes para evitar um óbito. O erro clássico da questão é calcular sobre a redução relativa de risco, que aqui é de cerca de 45% e produziria um número muito diferente e sem sentido clínico.",
+  "porAlt": [
+   "Correta: cerca de 15 pacientes tratados para evitar um óbito, pelo inverso da redução absoluta de risco.",
+   "O valor 53 não decorre do cálculo com esses dados.",
+   "O total de pacientes de um braço do estudo não é o número necessário para tratar.",
+   "Misturar o tamanho do braço com percentual de mortes evitadas não corresponde a nenhuma medida de efeito."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 78 anos de idade, com diagnóstico de diabetes melito tipo 2 há 20 anos. Teve infarto agudo do miocárdio há cinco anos, tem doença renal crônica estágio 3b e retinopatia diabética não proliferativa leve. Além disso, relatou dois episódios de hipoglicemia que necessitaram de auxílio de terceiros no último ano. Seu tratamento atual consiste em metformina 500 mg/dia, sitagliptina 50 mg/dia e insulina NPH 20 unidades à noite, e 10 unidades pela manhã. A meta de HbA1c mais apropriada para esta paciente é",
+  "alts": [
+   "6,0% – 6,5%",
+   "6,5% – 7,0%",
+   "7,0% – 7,5%",
+   "7,5% – 8,5%"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "American Diabetes Association — Standards of Care in Diabetes, 2025, capítulo de idosos; Diretriz da Sociedade Brasileira de Diabetes, 2024",
+  "coment": "Metas glicêmicas em idosos são individualizadas pela expectativa de vida, comorbidades e, sobretudo, pelo risco de hipoglicemia. A paciente tem 78 anos, doença cardiovascular estabelecida, doença renal crônica avançada e — o dado decisivo — dois episódios de hipoglicemia grave, que exigiram auxílio de terceiros, no último ano. Nesse perfil de saúde complexa, a meta apropriada é menos rigorosa, entre 7,5 e 8,5%, e o objetivo passa a ser evitar hipoglicemia e sintomas de hiperglicemia, com desintensificação do esquema, e não perseguir números baixos.",
+  "porAlt": [
+   "Meta entre 6,0 e 6,5% é inadequada e perigosa nesse perfil de alto risco de hipoglicemia.",
+   "Meta entre 6,5 e 7,0% aplica-se a paciente jovem, hígido e sem risco de hipoglicemia.",
+   "Meta entre 7,0 e 7,5% ainda é rigorosa demais diante de hipoglicemias graves recorrentes.",
+   "Correta: entre 7,5 e 8,5%, meta de saúde complexa, priorizando evitar hipoglicemia."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 78 anos de idade, com astenia há quatro meses e dificuldade progressiva de realizar seus exercícios em academia. Refere hipertensão arterial sistêmica e diabetes melito há cinco anos, controlados com losartana e metformina. Nega tabagismo e etilismo. Pai falecido de câncer de intestino e mãe falecida por infarto agudo do miocárdio. Três filhos com boa saúde. Ao exame clínico, apresenta-se descorado++/4+.\n\nExames laboratoriais:\nHb: 7,5 g/dL\nVCM: 108 fL\nLeucócitos: 4.200/mm³\nNeutrófilos: 2.100/mm³\nLinfócitos: 1.680/mm³\nMonócitos: 400/mm³\nEosinófilos: 20/mm³\nPlaquetas: 152.000/mm³\nReticulócitos: 40.000/mm³\nPresença de neutrófilos hipossegmentados e hipogranulares.\n\nEm relação ao caso apresentado, o diagnóstico mais provável para a anemia é",
+  "alts": [
+   "Síndrome mielodisplásica",
+   "Anemia megaloblástica",
+   "Deficiência de ferro",
+   "Anemia hemolítica"
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "WHO Classification of Haematolymphoid Tumours, 5ª edição, 2022; NCCN Guidelines for Myelodysplastic Syndromes, 2025",
+  "coment": "Anemia macrocítica em idoso com reticulócitos inadequadamente baixos e alterações displásicas no esfregaço — neutrófilos hipossegmentados e hipogranulares, a anomalia de pseudo-Pelger-Huët — aponta para síndrome mielodisplásica. Antes de confirmar, é obrigatório excluir as causas reversíveis de macrocitose com displasia: deficiência de B12 e folato, álcool, hipotireoidismo, HIV e fármacos. A confirmação exige mielograma com biópsia, citogenética e painel molecular, que definem o risco e o tratamento.",
+  "porAlt": [
+   "Correta: síndrome mielodisplásica, sugerida pela displasia no esfregaço com reticulócitos baixos.",
+   "A anemia megaloblástica é diferencial obrigatório, mas precisa ser afastada por dosagem de B12 e folato, e não explica a hipogranulação.",
+   "A deficiência de ferro causa microcitose, não macrocitose.",
+   "A anemia hemolítica cursa com reticulocitose, e aqui os reticulócitos estão baixos para o grau de anemia."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 58 anos de idade, em avaliação pré-operatória de gastroduodenopancreatectomia por neoplasia de cabeça de pâncreas. A cirurgia tem duração estimada de 8 horas, com perda sanguínea estimada de 500 a 1.000 mL e está programada para ser realizada em duas semanas. Tem antecedente de hipertensão arterial sistêmica, diabetes melito tipo 2, dislipidemia mista e tabagismo de 35 anos-maço. Foi submetida à revascularização miocárdica com colocação de stent farmacológico há 8 meses. Relata dispneia aos moderados esforços. Nega angina, dispneia paroxística noturna, ortopneia e edema de membros inferiores. Está em uso de losartana, anlodipino, atenolol, metformina, dapagliflozina, rosuvastatina, Ácido Acetilsalicílico (AAS) e clopidogrel. Exame clínico sem alterações. Eletrocardiograma (ECG) com alteração de repolarização difusa.\n\nOs riscos cardiovascular e do procedimento são, respectivamente",
+  "alts": [
+   "Moderado e moderado",
+   "Moderado e alto",
+   "Alto e moderado",
+   "Alto e alto"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "ESC/ESA Guidelines on cardiovascular assessment and management of patients undergoing non-cardiac surgery, 2022; Diretriz de avaliação perioperatória da SBC, 2017",
+  "coment": "A avaliação perioperatória cruza dois eixos independentes. O risco do paciente é alto: doença arterial coronariana com revascularização recente, diabetes, hipertensão, tabagismo pesado, alteração de repolarização no eletrocardiograma e capacidade funcional limitada — dispneia aos moderados esforços indica menos de 4 equivalentes metabólicos. O risco do procedimento também é alto: cirurgia abdominal maior, de oito horas, com perda sanguínea estimada de até um litro. A combinação de paciente de alto risco com cirurgia de alto risco é o que define a necessidade de monitorização e planejamento reforçados.",
+  "porAlt": [
+   "Classificar ambos como moderados subestima tanto a doença coronariana recente quanto o porte da cirurgia.",
+   "O risco do paciente não é moderado diante de revascularização há oito meses e baixa capacidade funcional.",
+   "O procedimento não é de risco moderado: é cirurgia abdominal maior e prolongada, com sangramento previsto.",
+   "Correta: risco cardiovascular alto e risco do procedimento alto."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 58 anos de idade, em avaliação pré-operatória de gastroduodenopancreatectomia por neoplasia de cabeça de pâncreas. A cirurgia tem duração estimada de 8 horas, com perda sanguínea estimada de 500 a 1.000 mL e está programada para ser realizada em duas semanas. Tem antecedente de hipertensão arterial sistêmica, diabetes melito tipo 2, dislipidemia mista e tabagismo de 35 anos-maço. Foi submetida à revascularização miocárdica com colocação de stent farmacológico há 8 meses. Relata dispneia aos moderados esforços. Nega angina, dispneia paroxística noturna, ortopneia e edema de membros inferiores. Está em uso de losartana, anlodipino, atenolol, metformina, dapagliflozina, rosuvastatina, Ácido Acetilsalicílico (AAS) e clopidogrel. Exame clínico sem alterações. Eletrocardiograma (ECG) com alteração de repolarização difusa.\n\nOs exames indicados no período perioperatório são",
+  "alts": [
+   "ECG e troponina nos primeiros dois dias após a cirurgia",
+   "Cintilografia de perfusão miocárdica antes da cirurgia",
+   "NT-pro-BNP nos três primeiros dias após a cirurgia",
+   "Ecocardiograma transtorácico em repouso antes da cirurgia"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "ESC Guidelines on cardiovascular assessment and management of patients undergoing non-cardiac surgery, 2022; Canadian Cardiovascular Society perioperative guidelines",
+  "coment": "Em paciente de alto risco submetido a cirurgia de alto risco, o rendimento está na vigilância pós-operatória de lesão miocárdica, e não em exames de imagem pré-operatórios adicionais. A recomendação é dosar troponina e obter eletrocardiograma nas primeiras 48 horas, porque a lesão miocárdica após cirurgia não cardíaca é frequentemente silenciosa, sem dor torácica, e se associa a mortalidade elevada em 30 dias. Testes funcionais pré-operatórios só se justificam quando o resultado for capaz de mudar a conduta, o que não é o caso em paciente já revascularizada e sem angina.",
+  "porAlt": [
+   "Correta: eletrocardiograma e troponina nos primeiros dias após a cirurgia, para detectar lesão miocárdica silenciosa.",
+   "Cintilografia de perfusão não mudaria a conduta em paciente revascularizada e assintomática do ponto de vista anginoso.",
+   "NT-proBNP pré-operatório tem valor prognóstico, mas não é o exame que a diretriz privilegia no pós-operatório para detecção de isquemia.",
+   "Ecocardiograma de repouso não avalia isquemia e não está indicado de rotina."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 58 anos de idade, em avaliação pré-operatória de gastroduodenopancreatectomia por neoplasia de cabeça de pâncreas. A cirurgia tem duração estimada de 8 horas, com perda sanguínea estimada de 500 a 1.000 mL e está programada para ser realizada em duas semanas. Tem antecedente de hipertensão arterial sistêmica, diabetes melito tipo 2, dislipidemia mista e tabagismo de 35 anos-maço. Foi submetida à revascularização miocárdica com colocação de stent farmacológico há 8 meses. Relata dispneia aos moderados esforços. Nega angina, dispneia paroxística noturna, ortopneia e edema de membros inferiores. Está em uso de losartana, anlodipino, atenolol, metformina, dapagliflozina, rosuvastatina, Ácido Acetilsalicílico (AAS) e clopidogrel. Exame clínico sem alterações. Eletrocardiograma (ECG) com alteração de repolarização difusa.\n\nAlém da manutenção de rosuvastatina, losartana, anlodipino e atenolol, deve-se",
+  "alts": [
+   "manter AAS e clopidogrel. Suspender dapagliflozina 3 dias antes do procedimento e metformina no dia do procedimento",
+   "manter AAS e clopidogrel. Suspender dapagliflozina no dia e metformina 3 dias antes do procedimento",
+   "suspender clopidogrel 5 dias antes do procedimento e manter o AAS. Suspender dapagliflozina 3 dias antes e metformina no dia do procedimento",
+   "suspender clopidogrel 5 dias antes do procedimento e manter o AAS. Suspender dapagliflozina no dia e metformina 3 dias antes do procedimento"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "ESC Guidelines on perioperative cardiovascular management, 2022; ACC/AHA guideline on duration of dual antiplatelet therapy; bulas e recomendações sobre suspensão perioperatória de inibidores de SGLT2",
+  "coment": "Passados mais de seis meses do implante de stent farmacológico, é possível suspender o segundo antiagregante para uma cirurgia de alto risco de sangramento, mantendo-se o ácido acetilsalicílico. O clopidogrel é suspenso cerca de cinco dias antes. Já os inibidores de SGLT2 devem ser suspensos três a quatro dias antes de cirurgia de grande porte, pelo risco de cetoacidose euglicêmica no perioperatório, e a metformina é interrompida no dia do procedimento, por causa do jejum e do risco de acidose lática se houver instabilidade ou uso de contraste.",
+  "porAlt": [
+   "Manter os dois antiagregantes em cirurgia abdominal maior aumenta o risco hemorrágico sem necessidade após seis meses do stent.",
+   "Além de manter os dois antiagregantes, inverte os prazos de suspensão dos antidiabéticos.",
+   "Correta: suspender clopidogrel cinco dias antes mantendo o ácido acetilsalicílico, dapagliflozina três dias antes e metformina no dia.",
+   "Os prazos dos antidiabéticos estão invertidos: quem sai com antecedência é o inibidor de SGLT2."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 48 anos de idade, previamente hígido, há 6 meses recebeu diagnóstico de insuficiência cardíaca com fração de ejeção reduzida (32%), de etiologia alcoólica e iniciou tratamento clínico. Compareceu à consulta médica relatando múltiplos episódios de hipotensão sintomática (90×50 mmHg) que correlacionou ao aumento recente da dose de enalapril para 20 mg 2x ao dia. Está abstêmio, em classe funcional II, em uso, além do enalapril, de espironolactona 12,5 mg 1x ao dia, carvedilol 6,25 mg 2x ao dia e furosemida 80 mg 1x ao dia. Assinale a alternativa que apresenta a conduta mais adequada para este paciente",
+  "alts": [
+   "Suspender a espironolactona",
+   "Transicionar carvedilol para ivabradina",
+   "Reduzir a dose do enalapril",
+   "Reduzir a dose de furosemida"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure, 2021 e atualização 2023; Diretriz brasileira de insuficiência cardíaca crônica, SBC",
+  "coment": "Na insuficiência cardíaca com fração de ejeção reduzida, os quatro pilares — inibidor do sistema renina-angiotensina, betabloqueador, antagonista mineralocorticoide e inibidor de SGLT2 — modificam mortalidade, e a meta é titulá-los até a dose máxima tolerada. O diurético de alça, ao contrário, apenas controla congestão e não muda prognóstico. Diante de hipotensão sintomática em paciente euvolêmico e em classe funcional II, a primeira medida é reduzir o diurético — dose alta de furosemida em paciente compensado é causa frequente de hipotensão —, preservando as drogas que salvam vida.",
+  "porAlt": [
+   "Suspender a espironolactona retira um fármaco que reduz mortalidade.",
+   "Ivabradina não substitui o betabloqueador; entra como adição quando a frequência permanece alta em ritmo sinusal.",
+   "Reduzir o enalapril sacrifica um pilar do tratamento antes de ajustar o diurético, que não muda prognóstico.",
+   "Correta: reduzir a furosemida, cuja dose alta explica a hipotensão em paciente compensado."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 58 anos de idade, com hipertensão arterial e com histórico de cirurgia bariátrica (gastrectomia vertical tipo sleeve e bypass em Y de Roux), relata fratura vertebral após levantar o neto recém-nascido do chão. Possui os seguintes exames:\n\nDensitometria óssea:\nT-score de fêmur total: -2,4\nColo de fêmur: -2,4\nColuna L1-L4: -2,7\n\nExames laboratoriais:\nCr: 0,7 mg/dL\nCa2+ total: 8,7 mg/dL\nFósforo: 2,4 mg/dL\n25-OH-vitamina D: 9 ng/mL\nAlbumina: 3,7 g/dL\nParatormônio: 103 pg/mL\nTGO/AST: 30 U/L\nTGP/ALT: 31 U/L\nFA: 123 U/L\nGGT: 40 U/L\n\nO tratamento inicial mais adequado para esta paciente deve incluir",
+  "alts": [
+   "Citrato de cálcio + vitamina D",
+   "Carbonato de cálcio + vitamina D + zoledrônico",
+   "Citrato de cálcio + vitamina D + zoledrônico",
+   "Carbonato de cálcio + vitamina D"
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline — Osteoporosis in Postmenopausal Women, 2019; diretrizes de acompanhamento metabólico pós-cirurgia bariátrica, 2020",
+  "coment": "A paciente tem osteoporose com fratura por fragilidade, mas o passo inicial é corrigir a deficiência grave de vitamina D e a hipocalcemia relativa que sustentam o hiperparatireoidismo secundário. Iniciar bisfosfonato com vitamina D em 9 ng/mL provoca hipocalcemia sintomática. Após cirurgia bariátrica disabsortiva, a forma preferida é o citrato de cálcio, que independe de acidez gástrica para ser absorvido, ao contrário do carbonato. Repostos cálcio, vitamina D e normalizado o paratormônio, aí sim entra o antirreabsortivo.",
+  "porAlt": [
+   "Correta: citrato de cálcio com vitamina D primeiro, corrigindo a deficiência antes do antirreabsortivo.",
+   "Carbonato de cálcio depende de acidez gástrica e o zoledrônico com vitamina D muito baixa causa hipocalcemia.",
+   "O citrato é a forma adequada, mas o zoledrônico não deve ser iniciado antes de corrigir a vitamina D.",
+   "Carbonato de cálcio é mal absorvido após bariátrica disabsortiva."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 52 anos de idade, com diabetes melito tipo 2, HAS e obesidade grau 1. Foi solicitado ultrassom de abdome após consulta de rotina, que mostrou fígado de dimensões normais, bordas finas, ecotextura discretamente heterogênea e esteatose de grau moderado.\n\nExames laboratoriais:\nHbA1c: 6,5%\nLDL colesterol: 110 mg/dL\nTriglicérides: 130 mg/dL\nTGO/AST: 35 U/L\nTGP/ALT: 38 U/L\n\nConsiderando o caso apresentado, o próximo passo mais adequado é",
+  "alts": [
+   "Calcular FIB-4",
+   "Realizar biópsia hepática",
+   "Repetir transaminases em seis meses",
+   "Repetir imagem em um ano"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "AASLD Practice Guidance on MASLD, 2023; EASL-EASD-EASO Clinical Practice Guidelines on MASLD, 2024",
+  "coment": "Na doença hepática esteatótica associada a disfunção metabólica, o que determina o prognóstico é o grau de fibrose, não a esteatose nem o nível de transaminases — que podem estar normais em doença avançada. Por isso, todo paciente com esteatose e fator de risco metabólico deve ser estratificado, e o primeiro passo é o FIB-4, calculado com idade, plaquetas e transaminases. Valor baixo permite seguimento na atenção primária; valor intermediário ou alto leva à elastografia hepática e ao encaminhamento. A biópsia ficou reservada a casos selecionados.",
+  "porAlt": [
+   "Correta: calcular o FIB-4, primeiro passo da estratificação de fibrose.",
+   "A biópsia hepática não é o primeiro passo e se reserva a dúvida diagnóstica ou discordância entre métodos.",
+   "Repetir transaminases não estratifica risco: elas podem estar normais mesmo com fibrose avançada.",
+   "Repetir imagem quantifica esteatose, que não é o determinante prognóstico."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Mulher, 87 anos de idade, com diabetes, insuficiência cardíaca com fração de ejeção reduzida, doença arterial coronariana e depressão. Relata tonturas tipo desequilíbrio, especialmente durante a caminhada. Está em uso de metformina 500 mg 2x/dia, furosemida 40 mg 1x/dia, enalapril 20 mg 2x/dia, carvedilol 25 mg 2x/dia, AAS 100 mg 1x/dia e amitriptilina 25 mg à noite. Exame clínico sem alterações significativas, exceto pressão arterial deitada de 158×88 mmHg, em pé de 128×70 mmHg e sentada de 136×88 mmHg. Glicemia capilar de 88 mg/dL. A conduta mais adequada é",
+  "alts": [
+   "Diminuir a metformina",
+   "Diminuir o enalapril",
+   "Associar a hidralazina",
+   "Suspender a amitriptilina"
+  ],
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "American Geriatrics Society Beers Criteria, 2023; World Guidelines for Falls Prevention and Management in Older Adults, 2022",
+  "coment": "Tontura tipo desequilíbrio ao caminhar em idosa polimedicada, com hipotensão ortostática documentada — queda de 30 mmHg na sistólica ao ficar em pé —, exige antes de tudo revisar a prescrição. A amitriptilina é o alvo evidente: antidepressivo tricíclico, fortemente anticolinérgico, causa hipotensão ortostática, sedação, confusão e retenção urinária, e está entre os fármacos formalmente desaconselhados no idoso pelos critérios de Beers. Suspendê-la, com desmame, é a medida de maior impacto na prevenção de queda e fratura.",
+  "porAlt": [
+   "A metformina não causa hipotensão ortostática, e a glicemia está adequada.",
+   "O enalapril integra o tratamento da insuficiência cardíaca com fração de ejeção reduzida e não é o primeiro a sair.",
+   "Associar hidralazina acrescentaria hipotensão a um quadro já ortostático.",
+   "Correta: suspender a amitriptilina, fármaco desaconselhado no idoso e causa direta da hipotensão ortostática."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ }
+]
