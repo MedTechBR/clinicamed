@@ -2656,6 +2656,578 @@ window.BANCO=[
 }
 },
 {
+"q": "Um novo exame que detecta o DNA do Mycobacterium leprae em pacientes com suspeita de hanseníase está sendo testado. Ele demonstra capacidade de detectar 80% de pacientes com a doença e fornece resultado falso-positivo em 20% das pessoas sem a doença. Um médico de família e comunidade está utilizando esse exame em uma comunidade vulnerável na qual a prevalência de hanseníase é de 10%.\nNesse caso, qual é a probabilidade de um resultado positivo ser de um indivíduo realmente doente?",
+"alts": [
+"31%",
+"97%",
+"69%",
+"80%"
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Epidemiologia clínica — valor preditivo positivo e teorema de Bayes; Ministério da Saúde, diretrizes de vigilância da hanseníase, 2022",
+"coment": "Sensibilidade e especificidade são propriedades do teste; o valor preditivo positivo depende também da prevalência. Com sensibilidade de 80% e especificidade de 80% numa população com prevalência de 10%, em mil pessoas haveria 100 doentes, dos quais 80 testariam positivo, e 900 sem a doença, dos quais 180 seriam falso-positivos. Entre os 260 positivos, 80 têm a doença — cerca de 31%. É o ponto central da testagem: em doença de baixa prevalência, mesmo um teste razoável produz maioria de falso-positivos, e por isso não se rastreia população de baixo risco.",
+"porAlt": [
+"Correta: aproximadamente 31%, calculado a partir de 80 verdadeiro-positivos entre 260 positivos totais.",
+"O valor de 97% corresponderia ao valor preditivo negativo neste cenário.",
+"O valor de 69% é o complemento do preditivo positivo, ou seja, a proporção de falso-positivos.",
+"Os 80% são a sensibilidade do teste, e não a probabilidade de o positivo ser verdadeiro."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um homem com 36 anos, em situação de rua, procura a unidade básica de saúde com queixas de tosse persistente, perda de peso, sudorese noturna e febre intermitente há cerca de 2 semanas.\nDiante desse caso, qual deve ser a conduta médica adotada?",
+"alts": [
+"Solicitar exame bacteriológico de escarro, juntamente com cultura e com teste de sensibilidade antimicrobiana, testagem para HIV, para hepatites virais e para sífilis",
+"Solicitar radiografia de tórax e, em caso de alteração, prescrever medicamento (rifampicina / isoniazida / pirazinamida / etambutol) via tratamento diretamente observado",
+"Solicitar exame bacteriológico de escarro e, em caso positivo, encaminhar o paciente para serviço de referência em pneumologia para tratamento de tuberculose multirresistente",
+"Solicitar exame bacteriológico de escarro, testagem para HIV, para hepatites virais e para sífilis e, caso seja confirmada a presença de tuberculose, instituir tratamento diretamente observado"
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2024",
+"coment": "Tosse por duas semanas ou mais com febre, sudorese noturna e emagrecimento em pessoa em situação de rua define sintomático respiratório em população de altíssimo risco. A investigação recomendada é o teste rápido molecular ou baciloscopia com cultura e teste de sensibilidade — importante nesse grupo pelo risco de resistência —, somada à testagem para HIV, hepatites virais e sífilis, porque a coinfecção muda o tratamento e o prognóstico. Radiografia complementa, mas não substitui a investigação bacteriológica, e o tratamento é feito na própria atenção primária, preferencialmente supervisionado.",
+"porAlt": [
+"Correta: investigação bacteriológica com cultura e teste de sensibilidade somada à testagem para HIV, hepatites e sífilis.",
+"Iniciar tratamento apenas pela radiografia dispensa a confirmação bacteriológica e o teste de sensibilidade.",
+"Encaminhar para serviço de referência fragmenta o cuidado: o tratamento é conduzido na atenção primária.",
+"A investigação está incompleta sem cultura e teste de sensibilidade, essenciais nessa população."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um homem com 18 anos é encaminhado a um hospital secundário para investigação de diarreia de evolução arrastada nos últimos 3 meses, caracterizada por vários episódios diários de evacuação sanguinolenta, acompanhados de tenesmo e cólicas abdominais. Em atendimento, ele relata ainda anorexia e dores articulares de caráter migratório, mas nega episódios febris. Refere viagem anterior ao início do quadro para local com baixas condições sanitárias, mas afirma ter tomado cuidado com tudo o que comeu e bebeu. Relata também ter feito uso de antibióticos e anti-inflamatórios para tratamento de suposta infecção cutânea, nos últimos 3 meses, sem melhora clínica.\nAo exame físico, apresenta-se: hipocorado, hidratado, eupneico e afebril, com discretos sinais de artrite em grandes articulações dos membros superiores, de forma assimétrica. Verifica-se que, na superfície anterior dos membros inferiores, o paciente apresenta lesões nodulares subcutâneas quentes e dolorosas, com superfície plana e eritematosa, com extensão de cerca de 1 a 5 cm de diâmetro.\nDiante desse caso, para confirmar a principal hipótese diagnóstica, a conduta mais adequada é realizar",
+"alts": [
+"colonoscopia associada à histopatologia de biópsia da mucosa intestinal",
+"sorologia anti-HIV e pesquisa de Isospora belli e Cryptosporidium parvum nas fezes",
+"pesquisa de toxinas A e B e detecção de ácidos nucleicos de Clostridium difficile nas fezes",
+"pesquisa de antígenos ou exame direto para trofozoítas de Entamoeba hystolitica nas fezes"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ACG Clinical Guideline: Ulcerative Colitis in Adults, 2019; ECCO-ESGAR guidelines on diagnostics in inflammatory bowel disease, 2019",
+"coment": "Diarreia sanguinolenta com tenesmo, cólicas e artralgia migratória por três meses, sem resposta a antibiótico, aponta para doença inflamatória intestinal, e a investigação que fecha o diagnóstico é a colonoscopia com biópsias da mucosa — que define extensão, padrão de acometimento e histologia, separando retocolite de doença de Crohn. As causas infecciosas devem ser afastadas em paralelo com coproculturas e pesquisa de parasitas, mas nenhuma delas explica três meses de evolução com manifestação articular associada.",
+"porAlt": [
+"Correta: colonoscopia com biópsias da mucosa, exame que estabelece o diagnóstico.",
+"A investigação de coccídios se justifica em imunossupressão com diarreia crônica aquosa, não com sangue e tenesmo.",
+"A pesquisa de Clostridioides difficile é razoável como diferencial, mas não fecha um quadro de três meses com artralgia.",
+"A amebíase é diferencial da viagem, porém não explica a cronicidade nem as manifestações extraintestinais."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um homem de 45 anos, que trabalha na criação de porcos, vai à consulta na unidade básica de saúde com queixa de lesões nos pés há 6 meses. Ao exame físico, notam-se lesões de pele papulosas, múltiplas, amareladas, não purulentas e com pontos enegrecidos centrais. Essas lesões estão localizadas nos pés e são pruriginosas e dolorosas. Diante desse caso, a conduta adequada é",
+"alts": [
+"recomendar o uso de sapatos fechados e restrição da circulação nos reservatórios onde ficam os porcos e aguardar a resolução espontânea das lesões",
+"administrar amoxicilina via oral por 1 semana e pomada antialérgica nos pés, recomendar calçados adequados e agendar retorno para o paciente em 15 dias",
+"acionar a zoonose, isolar os porcos para interromper o ciclo, impedindo, assim, a transmissão de doença pela picada desses insetos, e prescrever vacina antitetânica",
+"realizar a retirada de larva dos pés, administrar tiabendazol via oral ou ivermectina, conceder orientações sobre saúde, tratar animais e solo e prescrever vacinação antitetânica"
+],
+"gab": 3,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Ministério da Saúde — Guia de Vigilância em Saúde, tungíase e dermatoses parasitárias, 2024; consensos de dermatologia tropical",
+"coment": "Lesões papulosas amareladas com ponto enegrecido central nos pés, pruriginosas e dolorosas, em quem trabalha com criação de porcos e circula descalço em solo contaminado, caracterizam tungíase, causada pela pulga Tunga penetrans. O tratamento é a remoção do parasita em condições assépticas, com antiparasitário sistêmico — tiabendazol ou ivermectina — nas infestações múltiplas, além de atualizar a profilaxia antitetânica, tratar os animais e o solo, e orientar o uso de calçado fechado, que é o que evita a reinfestação.",
+"porAlt": [
+"A resolução espontânea não é conduta: as lesões múltiplas causam dor, infecção secundária e risco de tétano.",
+"Antibiótico e pomada antialérgica não removem o parasita nem interrompem o ciclo.",
+"A transmissão não se dá por picada de inseto voador e isolar os porcos isoladamente não resolve.",
+"Correta: remoção das larvas, antiparasitário sistêmico, tratamento de animais e solo e orientação sobre calçado."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um homem de 39 anos, morador de rua, procura espontaneamente a unidade básica de saúde para atendimento. Ele relata sentir dores de cabeça há 3 dias. Afirma que é etilista, tabagista e nega uso de drogas ilícitas. Seus exames físico, neurológico e psíquico apresentam-se sem alterações e sem critérios para enxaqueca. O paciente está com tosse pouco produtiva há 8 dias, não sabe relatar perda de peso e apresenta pápulas com escoriações em membros superiores e abdome. Nesse caso, qual exame deverá ser solicitado com prioridade para investigação diagnóstica?",
+"alts": [
+"Tomografia computadorizada de tórax",
+"Dosagem de Tiamina sérica",
+"Teste do escarro (BAAR)",
+"Teste rápido de sífilis"
+],
+"gab": 2,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2024; Política Nacional para a População em Situação de Rua",
+"coment": "Tosse há oito dias em pessoa em situação de rua deve ser investigada para tuberculose mesmo antes das clássicas três semanas: nessa população o risco relativo é dezenas de vezes maior que o da população geral, e a oportunidade de contato com o serviço costuma ser única. A prioridade, portanto, é o exame de escarro — teste rápido molecular ou baciloscopia com cultura —, aproveitando o atendimento para oferecer também testagem para HIV, hepatites e sífilis. A cefaleia, sem alteração no exame neurológico, não muda essa prioridade.",
+"porAlt": [
+"Tomografia de tórax não é o exame de triagem para tuberculose pulmonar.",
+"A dosagem de tiamina não é prioritária diante de exame neurológico normal.",
+"Correta: exame de escarro, prioridade absoluta em sintomático respiratório dessa população.",
+"O teste rápido de sífilis deve ser ofertado, mas não é a prioridade diagnóstica diante da tosse."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma mulher de 50 anos, residente na região Sul, e procedente de estado da região amazônica há cerca de 30 dias, comparece à unidade básica de saúde (UBS) com quadro de febre alta, calafrios e dor de cabeça há 1 mês. Relata que, inicialmente, atribuiu os episódios diários de febre e calafrios à mudança brusca de temperatura. Passados 15 dias, a febre passou a ocorrer a cada 48 horas, ter início súbito e ser seguida de muito calor e sudorese abundante, ela atribuiu esse sintoma à menopausa. Percebeu aumento do volume abdominal e relatou episódios de náuseas e de vômitos que não a impediram de ingerir líquidos, porém, recentemente, a levaram a procurar a UBS. Nega sangramentos, dispneia, alterações neurológicas ou outros sintomas. Ao exame físico, observa-se paciente em regular estado geral, mucosas descoradas; temperatura de 40,2 °C; abdome doloroso difusamente; fígado palpável, a 2 cm do rebordo costal direito; e baço palpável, a 3 cm do rebordo costal esquerdo. Restante do exame físico normal e sinais vitais sem alterações. Considerando o caso, assinale a alternativa que apresenta a hipótese diagnóstica mais provável, o exame laboratorial a ser solicitado e a conduta apropriada.",
+"alts": [
+"Malária; hematoscopia (esfregaço de sangue periférico); uso de antimaláricos e medidas de suporte",
+"Chikungunya; sorologia no 5º dia; uso de sintomáticos, repouso e hidratação em regime ambulatorial",
+"Febre amarela; sorologia no 5º dia e marcadores de lesão hepática; internação e suplementação com vitamina A",
+"Doença de Chagas; pesquisa a fresco de tripanossomídeos após 30 dias do sintoma; administração de benzonidazol"
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "Ministério da Saúde — Guia de Tratamento da Malária no Brasil, 2023; Guia de Vigilância em Saúde",
+"coment": "Febre com calafrios e sudorese que se organiza em paroxismos a cada 48 horas, em pessoa procedente da Amazônia há 30 dias, com esplenomegalia, é malária até prova em contrário — o padrão terçã sugere Plasmodium vivax ou falciparum. O diagnóstico é imediato, por gota espessa ou teste rápido, com resultado no mesmo atendimento, e o tratamento é gratuito e padronizado. Fora da área endêmica, o risco é justamente o atraso diagnóstico: malária por falciparum evolui para forma grave em horas, e todo caso é de notificação imediata.",
+"porAlt": [
+"Correta: malária — investigação por hematoscopia e tratamento antimalárico com suporte.",
+"A chikungunya não cursa com paroxismos febris a cada 48 horas por um mês.",
+"A febre amarela tem curso bifásico de dias, não paroxismos por semanas, e não se trata com vitamina A.",
+"A doença de Chagas aguda não produz esse padrão febril periódico, e a pesquisa a fresco tem janela nas primeiras semanas."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma jovem de 15 anos, previamente hígida, é trazida para consulta em unidade básica de saúde devido a quadro, iniciado há 1 semana, de astenia progressiva, dor de garganta e febre diária. Ao exame físico, apresenta linfonodomegalia cervical, principalmente em cadeia posterior, leve erupção cutânea não pruriginosa em tronco e em membros superiores, além de petéquias em palato e tonsilite exsudativa. Nega ter vida sexual ativa e usar drogas injetáveis. Considerando essas informações, a hipótese diagnóstica mais provável é",
+"alts": [
+"criptococose",
+"infecção pelo HIV",
+"linfoma não Hodgkin",
+"monucleose infecciosa"
+],
+"gab": 3,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "CDC — Epstein-Barr Virus and Infectious Mononucleosis, 2024; Ministério da Saúde, Guia de Vigilância em Saúde, 2024 (síndromes febris com linfadenopatia)",
+"coment": "Faringite exsudativa com linfadenomegalia cervical posterior, febre, astenia importante, petéquias em palato e exantema em adolescente é o quadro clássico da mononucleose infecciosa por vírus Epstein-Barr. O hemograma mostra linfocitose com linfócitos atípicos, e a confirmação se faz por anticorpos heterófilos ou sorologia específica. Dois pontos práticos: prescrever amoxicilina provoca exantema em grande parte dos casos, e o paciente deve evitar esportes de contato por semanas pelo risco de ruptura esplênica.",
+"porAlt": [
+"A criptococose acomete imunossuprimidos, com meningite subaguda.",
+"A infecção aguda pelo HIV entra no diferencial, mas o enunciado descreve o quadro típico de mononucleose e nega exposição.",
+"O linfoma não Hodgkin não cursa com tonsilite exsudativa e petéquias em palato de instalação em uma semana.",
+"Correta: mononucleose infecciosa, com adenopatia cervical posterior, exsudato e exantema."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um homem de 23 anos, residente em zona urbana de capital de estado da região Sudeste, procura atendimento em unidade básica de saúde. Relata ter apresentado quadro de febre alta (39 °C) de início abrupto, com duração de 3 dias, acompanhada por dor de cabeça, mialgia e poliartralgia leve com rigidez articular, astenia, dor atrás dos olhos sem conjuntivite, associada a manchas eritematosas na pele. Afirma que a febre cessou há 4 dias. Nega ter feito viagens nos últimos meses. A partir dos dados desse paciente, é correto afirmar que a principal hipótese epidemiológica é",
+"alts": [
+"Zika",
+"dengue",
+"chikungunya",
+"febre amarela"
+],
+"gab": 1,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "Ministério da Saúde — Dengue: diagnóstico e manejo clínico, 2024; OPAS, diretrizes para arboviroses nas Américas",
+"coment": "Febre alta de início abrupto com cefaleia, mialgia, dor retro-orbitária sem conjuntivite e exantema, em residente de área urbana do Sudeste, corresponde ao quadro de dengue, a arbovirose de maior incidência no país — e a hipótese epidemiológica se apoia tanto na clínica quanto na prevalência local. O detalhe que merece atenção é o momento: a febre cessou há quatro dias, e é justamente na defervescência que se instala o período crítico, motivo pelo qual o paciente precisa de reavaliação e orientação sobre sinais de alarme.",
+"porAlt": [
+"O Zika cursa com exantema pruriginoso proeminente, conjuntivite não purulenta e febre baixa ou ausente.",
+"Correta: dengue — febre alta abrupta, dor retro-orbitária e exantema, com maior prevalência local.",
+"A chikungunya tem a poliartralgia intensa e incapacitante como marca, não artralgia leve.",
+"A febre amarela exige exposição em área de mata e evolui com icterícia e disfunção hepática."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Homem, 53 anos de idade, tem esquistossomose hepatoesplênica e comparece em consulta ambulatorial de seguimento. Nota edema nos tornozelos desde a última consulta. Já teve episódios prévios de encefalopatia hepática. Faz uso crônico de lactulose. Sinais vitais com PA de 154×86 mmHg, FC de 89 bpm, FR de 16 irpm, SpO2 de 98%. Ao exame clínico, apresenta bom estado geral, vigil, orientado no tempo e no espaço, tônus normais, abdome plano, lobo esquerdo do fígado palpável, baço palpável, edema perimaleolar de 2+/4+.\nExames laboratoriais: Hb: 12,9 g/dL; Leucócitos: 4.230/mm3; Plaquetas: 98 mil/mm3; TGO/AST: 37 U/L; TGP/ALT: 43 U/L; Albumina: 3,1 g/dL; INR: 1,8; Cr: 1,37 mg/dL; Na+: 130 mEq/L; Urina tipo 1: normal.\nEndoscopia digestiva alta com duas varizes esofágicas de grosso calibre, sem sinais de sangramento recente. Ultrassonografia de abdome superior com líquido livre em pequena quantidade na cavidade, aumento do lobo esquerdo do fígado e aumento do baço. Com base no caso clínico apresentado, assinale a alternativa que indica a melhor conduta terapêutica a ser realizada neste momento.",
+"alts": [
+"Infundir albumina",
+"Introduzir carvedilol",
+"Indicar paracentese",
+"Restringir água diária"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "Baveno VII, 2022; AASLD Practice Guidance on portal hypertensive bleeding; Ministério da Saúde, PCDT de esquistossomose",
+"coment": "Na esquistossomose hepatoesplênica, a hipertensão portal é pré-sinusoidal e a função hepatocelular costuma ser relativamente preservada, mas o risco de hemorragia por varizes é alto. Com plaquetopenia e esplenomegalia indicando hipertensão portal clinicamente significativa, a conduta preventiva é o betabloqueador não seletivo — hoje o carvedilol é preferido, por reduzir mais o gradiente de pressão venosa hepática. O edema discreto não caracteriza ascite volumosa nem indica paracentese, e a albumina se reserva a paracentese de grande volume, peritonite espontânea e síndrome hepatorrenal.",
+"porAlt": [
+"Albumina não é conduta ambulatorial em edema discreto sem paracentese de grande volume.",
+"Correta: carvedilol, betabloqueador de escolha para profilaxia de sangramento na hipertensão portal.",
+"Não há ascite volumosa que justifique paracentese neste momento.",
+"Restrição hídrica se reserva à hiponatremia dilucional, não descrita no caso."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 65 anos de idade, procura o serviço de emergência com dor em fossa ilíaca esquerda há 6 dias, associada a constipação, náuseas e hiporexia. Nega febre. Ao exame físico, apresenta-se em bom estado geral, FC de 80 bpm, PA de 130×80 mmHg, com dor à palpação profunda em fossa ilíaca esquerda, sem sinais de irritação peritoneal. Exames laboratoriais apresentaram leucócitos 15.000/mm3 e PCR de 180 mg/L. Foi realizada uma tomografia contrastada de abdome, que evidenciou divertículos em cólon descendente e sigmoide com densificação da gordura mesentérica e presença de abscesso pericólico de 2 cm de diâmetro com focos gasosos de permeio. Assinale a alternativa que apresenta a melhor conduta neste momento.",
+"alts": [
+"Antibioticoterapia",
+"Colostomia em alça",
+"Retossigmoidectomia",
+"Drenagem percutânea"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis, 2020",
+"coment": "Diverticulite aguda com abscesso pericólico pequeno, de até 3 a 4 cm, sem peritonite e em paciente estável, é tratada com antibioticoterapia isolada, tipicamente por via intravenosa com internação, reservando a drenagem percutânea para abscessos maiores ou para falha do tratamento clínico. Cirurgia de urgência se restringe à peritonite difusa, à perfuração livre e à ausência de resposta. Após a resolução, indica-se colonoscopia de intervalo em seis a oito semanas para excluir neoplasia, e a ressecção eletiva é decidida caso a caso.",
+"porAlt": [
+"Correta: antibioticoterapia isolada, adequada para abscesso pequeno em paciente estável.",
+"Colostomia em alça não tem indicação sem peritonite ou obstrução.",
+"A ressecção de urgência é desproporcional para abscesso pequeno com boa resposta esperada ao antibiótico.",
+"A drenagem percutânea se reserva a abscessos maiores, em geral acima de 3 a 4 cm."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Um paciente com 44 anos, vítima de queda de um andaime de 4 metros de altura, é trazido ao serviço de emergência hospitalar por familiares. Durante a avaliação inicial na sala de emergência, o paciente se mantém em Glasgow 15 e com perda da sensibilidade tátil e dolorosa na região desde a cicatriz umbilical até os pés.\nApresenta movimentos e sensibilidade normais em membros superiores, paralisia em ambos os membros inferiores, e os seguintes sinais vitais: frequência respiratória de 16 irpm; frequência cardíaca de 90 bpm; pressão arterial de 120 x 82 mmHg; saturação periférica de oxigênio de 100% em uso de oxigênio suplementar. Sabe-se que o paciente não ingeriu álcool ou drogas, era previamente saudável e não utiliza medicações.\nQual é o nível de lesão medular relativo à interpretação compatível com o quadro clínico descrito?",
+"alts": [
+"L2",
+"T4",
+"T10",
+"T12"
+],
+"gab": 2,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r2",
+"base": "ATLS, 10ª edição; ASIA International Standards for Neurological Classification of Spinal Cord Injury, 2019",
+"coment": "O nível neurológico da lesão medular é o segmento mais caudal com função motora e sensitiva normais, e a determinação depende dos dermátomos de referência: T4 corresponde à linha mamilar, T10 à cicatriz umbilical e L1 à região inguinal. Perda de sensibilidade da cicatriz umbilical para baixo, com membros superiores preservados, indica nível T10. A avaliação sistematizada por dermátomos e miótomos, com toque retal para pesquisa de preservação sacral, define se a lesão é completa ou incompleta e orienta prognóstico e conduta.",
+"porAlt": [
+"L2 corresponde à face anterior da coxa, abaixo do nível descrito.",
+"T4 corresponde à linha mamilar, bem acima da cicatriz umbilical.",
+"Correta: T10, dermátomo da cicatriz umbilical.",
+"T12 corresponde à região suprapúbica, logo abaixo do nível descrito."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um homem de 28 anos é trazido ao hospital pelo SAMU 40 minutos após ter sofrido atropelamento. Ele foi encontrado desacordado no local do acidente, apresentando Glasgow 6. Ao chegar à unidade de saúde, apresenta Glasgow 3, pressão arterial de 150 × 100 mmHg, irregularidade respiratória e frequência cardíaca de 50 batimentos por minuto, sendo realizada a intubação orotraqueal. Ao exame físico, apresenta-se em mau estado geral, paciente em uso de ventilação mecânica com ausência de ruídos adventícios à ausculta respiratória. O paciente está comatoso, com Glasgow 3 e com pupilas isocóricas e midriáticas, constata-se, ainda, reflexos fotomotores direto e consensual ausentes; reflexo córneo-palpebral ausente e reflexo óculo-cefálico ausente. Paciente sem sedação. Foi levantada a hipótese diagnóstica de hipertensão intracraniana pela equipe médica. Diante dessas informações, o achado clínico que confirma essa hipótese é a presença de",
+"alts": [
+"Glasgow 3",
+"midríase pupilar",
+"presença da tríade de Cushing",
+"ausência de reflexo córneo-palpebral"
+],
+"gab": 2,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "Brain Trauma Foundation — Guidelines for the Management of Severe Traumatic Brain Injury, 4ª edição, 2016; ATLS, 10ª edição, 2018",
+"coment": "Hipertensão arterial, bradicardia e alteração do padrão respiratório compõem a tríade de Cushing, resposta fisiológica à hipertensão intracraniana grave com iminência de herniação. É o achado que mais diretamente indica a necessidade de medidas imediatas: cabeceira elevada, controle de PaCO₂, sedação e analgesia, terapia hiperosmolar com salina hipertônica ou manitol, e tomografia com avaliação neurocirúrgica urgente. Escala de coma baixa, midríase e ausência de reflexos indicam gravidade, mas é a tríade que sinaliza a fisiopatologia em curso.",
+"porAlt": [
+"Escala de coma 3 indica gravidade, mas não caracteriza por si a hipertensão intracraniana.",
+"A midríase sugere herniação, porém isolada é menos específica que o conjunto hemodinâmico e respiratório.",
+"Correta: presença da tríade de Cushing — hipertensão, bradicardia e respiração irregular.",
+"A ausência de reflexo córneo-palpebral indica disfunção de tronco, mas não é o marcador da hipertensão intracraniana."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um homem de 45 anos, trabalhador da construção civil há 25 anos, é atendido na unidade básica de saúde com queixas de dispneia progressiva, tosse sem expectoração e fadiga. Ele nega comorbidades ou tabagismo e não se notam alterações neurológicas ou psiquiátricas durante a realização da anamnese e do exame físico. É realizada radiografia de tórax, a qual revela opacidades reticulares e placas pleurais calcificadas bilaterais na parede do tórax e no diafragma. Na investigação subsequente, é solicitada tomografia de alta resolução do tórax, cujo resultado indica a presença de fibrose difusa de parênquima pulmonar, sem alterações nodulares ou cavitações. Com relação a esse caso clínico, o diagnóstico mais provável para esse paciente é",
+"alts": [
+"asbestose",
+"paracoccidioidomicose",
+"intoxicação por chumbo",
+"doença pulmonar obstrutiva crônica"
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ATS/ERS Official Statement — Diagnosis and Initial Management of Nonmalignant Diseases Related to Asbestos, 2004 e atualizações; Ministério da Saúde, protocolo de asbestose relacionada ao trabalho",
+"coment": "Dispneia progressiva com tosse seca em trabalhador da construção civil por 25 anos, com opacidades reticulares e placas pleurais calcificadas bilaterais, é asbestose. As placas pleurais são o marcador de exposição ao asbesto — indicam contato, não necessariamente doença —, e a fibrose de predomínio basal define a pneumoconiose. Não há tratamento específico: a conduta é afastar a exposição, notificar como doença relacionada ao trabalho, oferecer reabilitação, vacinação e cessação de tabagismo, e vigiar o risco aumentado de câncer de pulmão e de mesotelioma.",
+"porAlt": [
+"Correta: asbestose, sugerida pelas placas pleurais calcificadas com fibrose intersticial em exposto.",
+"A paracoccidioidomicose acomete pulmão e mucosa oral, com padrão em asa de morcego, sem placas pleurais.",
+"A intoxicação por chumbo não causa fibrose pulmonar.",
+"A doença pulmonar obstrutiva crônica cursa com obstrução ao fluxo aéreo, e o paciente nega tabagismo."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um paciente de 25 anos está internado há 10 dias com politraumatismo devido a acidente de moto. Ele está acamado, com múltiplas escoriações na perna, e na face lateral da coxa direita — em região de projeção da articulação coxo-femoral. Apresenta febre e inapetência há 5 dias. Refere aparecimento súbito de dor intensa, há 3 dias, que não cede aos analgésicos comuns, acompanhada de área eritematosa e dolorosa à palpação, em região inguinal, estendendo-se ao terço proximal da face anterior da coxa. Constata-se que há limitação na amplitude do movimento da articulação coxo-femoral em virtude da dor. O exame de imagem mais indicado para o diagnóstico desse paciente é a",
+"alts": [
+"radiografia simples",
+"ressonância magnética",
+"tomografia computadorizada",
+"cintilografia com radioisótopos"
+],
+"gab": 1,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r2",
+"base": "IDSA Clinical Practice Guidelines for Septic Arthritis and Osteomyelitis; ACR Appropriateness Criteria for suspected osteomyelitis, 2022",
+"coment": "Dor intensa de início súbito com febre, eritema e limitação da amplitude articular em paciente acamado com escoriações próximas ao quadril sugere artrite séptica com possível osteomielite adjacente ou piomiosite. A ressonância magnética é o exame de escolha: detecta edema medular ósseo, coleções e acometimento de partes moles dias a semanas antes da radiografia, que é normal nas fases iniciais. A confirmação é microbiológica, por artrocentese e cultura antes do antibiótico, e a artrite séptica exige drenagem além do tratamento antimicrobiano.",
+"porAlt": [
+"A radiografia simples é normal nas primeiras semanas e não exclui o diagnóstico.",
+"Correta: ressonância magnética, o exame mais sensível nesse cenário.",
+"A tomografia avalia melhor o osso cortical, mas perde o edema medular precoce.",
+"A cintilografia é sensível e pouco específica, sobretudo em segmento com trauma recente."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma jovem de 19 anos procura a emergência da maternidade com dor importante no baixo ventre e com discreto sangramento. À triagem, apresenta-se muito abalada, relata ter sofrido violência sexual durante um assalto, há 4 horas, e que o agressor não usou preservativo quando a penetrou. Relata que, ao chegar em casa e contar o ocorrido, sua mãe preferiu levá-la para atendimento médico antes de procurar a delegacia da mulher. Informa nunca ter engravidado, ter ciclos menstruais regulares, ter iniciado vida sexual aos 17 anos, com o ex-namorado, e que, atualmente, está sem relações sexuais há 5 meses. De acordo com a norma técnica do Ministério da Saúde, Prevenção e Tratamento dos Agravos Resultantes da Violência Sexual contra Mulheres e Adolescentes, a conduta médica correta é prescrever a contracepção de emergência com",
+"alts": [
+"levonorgestrel dose única e profilaxia para ISTs não virais e virais, independentemente do status sorológico do agressor",
+"injetável mensal e profilaxia para ISTs não virais e virais, caso os testes rápidos para sífilis, hepatites e HIV forem negativos",
+"levonorgestrel dose única, se teste o qualitativo para gravidez for negativo, e profilaxia para ISTs virais com antirretrovirais",
+"injetável mensal e profilaxia para ISTs não virais e virais, após o retorno da paciente da delegacia com comprovante de exame pericial"
+],
+"gab": 0,
+"tema": "sus",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Ministério da Saúde — Norma Técnica de Atenção Humanizada às Pessoas em Situação de Violência Sexual, 2015 e atualizações; PCDT de Profilaxia Pós-Exposição ao HIV, 2022",
+"coment": "O atendimento à pessoa em situação de violência sexual é urgência e não depende de boletim de ocorrência, exame pericial ou autorização judicial. Nas primeiras 72 horas oferecem-se contracepção de emergência com levonorgestrel em dose única, profilaxia das infecções sexualmente transmissíveis não virais em dose única, profilaxia pós-exposição ao HIV com antirretrovirais e vacinação e imunoglobulina para hepatite B conforme o status vacinal. O desconhecimento sorológico do agressor não posterga a profilaxia, e a notificação é compulsória e imediata.",
+"porAlt": [
+"Correta: levonorgestrel em dose única e profilaxia das infecções virais e não virais, independentemente do status do agressor.",
+"Condicionar a profilaxia aos testes rápidos da vítima atrasa a janela de eficácia.",
+"A contracepção de emergência não depende de teste de gravidez prévio, e a profilaxia não se limita às virais.",
+"Exigir passagem pela delegacia ou perícia antes do atendimento é vedado pela norma técnica."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma paciente de 39 anos procura a unidade básica de saúde referindo quadro de lombalgia iniciado há 20 dias. Relata sentir, desde o início do quadro, fraqueza em membros inferiores e apresentar polievacuações. Também relata uma sensação de anestesia na região perineal. Nega disúria, mas afirma ter dificuldade para urinar espontaneamente. Nega leucorreia, febre ou história de traumatismos. Afirma que seu peso tem se mantido estável e que sua última menstruação foi há 25 dias. A partir dessas informações, assinale a alternativa apresenta o exame mais indicado para a investigação do quadro.",
+"alts": [
+"Radiografia de coluna lombossacra e de bacia",
+"Punção lombar com análise do líquor",
+"Ressonância magnética da coluna lombar",
+"Exame de rotina de urina (EAS) e urocultura"
+],
+"gab": 2,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "urg",
+"nivel": "r1",
+"base": "NICE guideline on low back pain and sciatica, 2020; American College of Physicians, avaliação da lombalgia com bandeiras vermelhas",
+"coment": "Lombalgia acompanhada de fraqueza em membros inferiores, anestesia em sela, alteração do hábito intestinal e retenção urinária configura síndrome da cauda equina — emergência neurocirúrgica em que o tempo até a descompressão determina a recuperação esfincteriana. A conduta é ressonância magnética da coluna lombossacra imediatamente e avaliação cirúrgica; nenhum outro exame precede a imagem. Radiografia não avalia raízes, e investigar infecção urinária diante de retenção com anestesia em sela desvia do diagnóstico que ameaça função definitiva.",
+"porAlt": [
+"Radiografia não avalia raízes nem cone medular e não exclui compressão.",
+"A punção lombar é contraindicada antes de excluir lesão compressiva e não é o exame indicado.",
+"Correta: ressonância magnética da coluna lombar, por suspeita de síndrome da cauda equina.",
+"Investigar infecção urinária ignora a anestesia em sela e o déficit motor associados."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Homem, 43 anos de idade, possui antecedentes de diabetes melito tipo 2 e sobrepeso. Comparece em consulta para seguimento de controle glicêmico. Marido do paciente refere ronco esporádico em noites após ingestão de álcool e nega pausas respiratórias. Paciente nega sonolência diurna ou cefaleia. Foi realizada aferição de pressão arterial na triagem, que identificou valor de 148×92 mmHg. Qual deve ser o próximo passo na avaliação da pressão arterial em consultório?",
+"alts": [
+"Solicitar uma polissonografia tipo 1 (laboratório de sono)",
+"Indicar Monitorização Ambulatorial da Pressão Arterial (MAPA)",
+"Reavaliar medida de pressão arterial em consulta de retorno",
+"Checar comprimento e largura do manguito utilizado na medição"
+],
+"gab": 3,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025; AHA scientific statement on measurement of blood pressure in humans, 2019",
+"coment": "Antes de interpretar qualquer valor pressórico, é preciso garantir a técnica: manguito de tamanho adequado ao braço, paciente sentado com dorso apoiado e pés no chão, braço na altura do coração, após cinco minutos de repouso, sem falar durante a medida. Manguito estreito ou curto demais superestima a pressão de forma expressiva, sobretudo em pessoas com sobrepeso — erro sistemático e frequente. Só depois de confirmada a técnica correta faz sentido repetir a medida, indicar monitorização ambulatorial ou residencial e discutir tratamento.",
+"porAlt": [
+"A polissonografia não é o passo inicial, e o quadro descrito não caracteriza apneia do sono.",
+"A monitorização ambulatorial é útil, mas depois de garantir que a medida de consultório foi feita corretamente.",
+"Reavaliar em outra consulta sem corrigir a técnica repetirá o mesmo erro de medida.",
+"Correta: checar as dimensões do manguito, cujo tamanho inadequado superestima a pressão."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Homem, 66 anos de idade, tabagista e com DPOC, está internado por pneumonia grave, com necessidade de ventilação mecânica. O resultado da cultura de secreção traqueal é apresentado na tabela a seguir:\n\nCandida albicans:\nFluconazol: Sensível\nAnfotericina B: Resistente\nVoriconazol: Resistente\nEquinocandina: Sensível\n\nStaphylococcus aureus:\nBenzilpenicilina: Resistente\nClindamicina: Sensível\nCiprofloxacina: Resistente\nEritromicina: Resistente\nOxacilina: Sensível\nSulfametoxazol/trimetoprim: Sensível\nVancomicina: Sensível\n\nConsiderando o caso apresentado, assinale a alternativa que apresenta o tratamento antimicrobiano mais adequado",
+"alts": [
+"Cefazolina",
+"Clindamicina",
+"Oxacilina e fluconazol",
+"Sulfametoxazol/trimetoprim e micafungina"
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "IDSA/ATS Guidelines for the Management of Hospital-acquired and Ventilator-associated Pneumonia, 2016; IDSA Clinical Practice Guideline for the Management of Candidiasis, 2016",
+"coment": "Duas lições se cruzam aqui. Primeira: Candida isolada em secreção traqueal de paciente intubado representa colonização, e não pneumonia — tratar antifúngico nesse cenário não traz benefício e é uma das principais fontes de uso desnecessário de antifúngico na terapia intensiva. Segunda: o Staphylococcus aureus é sensível à oxacilina, e o tratamento de escolha para essa cepa é um betalactâmico antiestafilocócico, como a cefazolina ou a própria oxacilina — vancomicina é inferior no estafilococo sensível e deve ser reservada às cepas resistentes.",
+"porAlt": [
+"Correta: cefazolina, betalactâmico adequado ao estafilococo sensível, sem tratar a colonização por Candida.",
+"Clindamicina é alternativa de segunda linha e não é a escolha para bacteremia ou pneumonia estafilocócica.",
+"Associar fluconazol trata uma colonização, sem benefício clínico.",
+"Sulfametoxazol-trimetoprima com equinocandina soma um esquema inferior a um antifúngico desnecessário."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
+"q": "Durante uma visita domiciliar, o médico de família nota que a filha de 16 anos do casal visitado aparentava ser muito menor do que o vestido que usava. O casal concorda com a observação e afirma que a filha come pouco. A adolescente relata que não apresenta qualquer problema de saúde e que apenas procura se cuidar fazendo musculação e corrida diariamente, além de seguir as dietas que estuda nas redes sociais. A mãe refere que, seguindo a dieta atual, a filha havia perdido 7 kg em 1 mês. A adolescente nega vomitar após as refeições ou quaisquer problemas, exceto o fato de não menstruar há 4 meses, negando também ser sexualmente ativa. Ao exame físico, verificam-se altura de 1,7 metros e peso de 45 kg. Observa-se ainda que o exame físico da adolescente não apresenta alterações, exceto aspecto emagrecido e palidez cutaneomucosa.\nPara esse caso clínico, o diagnóstico e o tratamento a serem considerados inicialmente são, respectivamente,",
+"alts": [
+"bulimia nervosa; bupropiona",
+"hipertireoidismo; propiltiuracil",
+"anorexia nervosa; psicoterapia",
+"transtorno de purgação; metoclopramida"
+],
+"gab": 2,
+"tema": "psiq",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "DSM-5-TR (APA, 2022); NICE guideline on eating disorders: recognition and treatment, 2020",
+"coment": "Restrição alimentar deliberada com perda ponderal acentuada, exercício excessivo, distorção da imagem corporal e amenorreia secundária em adolescente caracterizam anorexia nervosa do tipo restritivo. O tratamento de primeira linha é psicoterapia — com destaque para as intervenções baseadas na família em adolescentes —, associada à reabilitação nutricional cuidadosa, pelo risco de síndrome de realimentação, e ao acompanhamento clínico de eletrólitos, função cardíaca e densidade óssea. Não há fármaco de primeira linha, e bupropiona é contraindicada em transtornos alimentares.",
+"porAlt": [
+"A bulimia envolve compulsões com comportamentos compensatórios, negados no relato, e bupropiona é contraindicada nesse grupo pelo risco de convulsão.",
+"O hipertireoidismo cursa com perda de peso apesar do apetite aumentado, com taquicardia e tremor.",
+"Correta: anorexia nervosa, com psicoterapia como tratamento de primeira linha.",
+"Não há relato de purgação, e metoclopramida não trata transtorno alimentar."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Uma mulher de 31 anos é encaminhada à consulta ambulatorial por apresentar dores articulares intermitentes há 3 meses. Relata que as dores acometem as articulações das mãos, punhos, joelhos e tornozelos, de forma migratória e não aditiva. As dores pioram e melhoram com a movimentação. Durante as crises, sente calor e apresenta rubor e edemas locais, sem deformidades articulares. Afirma estar mais cansada do que o habitual. Refere ter buscado atendimento médico na unidade de pronto-atendimento. Na ocasião, fez uso de analgésicos e anti-inflamatórios não esteroides, houve melhora momentânea, mas logo os sintomas reapareceram. Relata que, nas últimas consultas, sua pressão esteve elevada, sendo-lhe prescrito hidroclorotiazida 25 mg ao dia. Até o início desse quadro, não apresentava antecedentes pessoais, ou utilizava medicações de uso contínuo, apenas anticoncepcional hormonal oral. Refere que sua mãe tem diabete tipo 2. Nega etilismo e tabagismo, afirma ir à academia 3 a 4 vezes na semana. Na revisão de sistemas, refere ter dor e cianose nos dedos das mãos ao contato com água fria. Ao exame físico, apresenta dados vitais e antropométricos normais, mucosas descoradas (2+/4+) e ictéricas (1+/4+), úlceras orais indolores, com dor à palpação e movimentação das articulações das mãos, do punho e do joelho direito. Não apresenta edemas, calor, nódulos, crepitações ou deformidades. Demais segmentos estão sem anormalidades. Em hemograma, apresenta hemoglobina de 10,8%, leucócitos de 3.850 mm³, linfócitos em 1.300 mm³ e plaquetas em 88.000 mm³. Qual é o exame mais indicado para a conclusão diagnóstica?",
+"alts": [
+"Antígeno HLA-B27",
+"Fator reumatoide (FR)",
+"Antiestreptolisina O (ASLO)",
+"Anticorpo antinuclear (FAN)"
+],
+"gab": 3,
+"tema": "reumato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "EULAR/ACR classification criteria for systemic lupus erythematosus, 2019; Sociedade Brasileira de Reumatologia, consenso de lúpus, 2022",
+"coment": "Poliartrite migratória e não erosiva em mulher jovem, com fadiga e recidiva após anti-inflamatório, deve levantar a hipótese de lúpus eritematoso sistêmico, e o anticorpo antinuclear é o exame de entrada: é o critério de entrada dos critérios de classificação de 2019 e tem sensibilidade muito alta, de modo que um resultado negativo torna o diagnóstico improvável. Confirmado o FAN reagente, seguem-se anticorpos específicos — anti-DNA nativo e anti-Sm —, complemento, hemograma, urina tipo 1 e função renal.",
+"porAlt": [
+"O HLA-B27 se associa a espondiloartrites, com dor axial inflamatória e entesite.",
+"O fator reumatoide é pouco específico e a artrite reumatoide é aditiva e simétrica, não migratória.",
+"A antiestreptolisina O investiga febre reumática, cuja apresentação típica é em criança e adolescente, com cardite associada.",
+"Correta: anticorpo antinuclear, exame de entrada na investigação de lúpus."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Um homem de 75 anos, tabagista inveterado, com diagnóstico recente de câncer de pulmão de pequenas células, é levado a uma unidade de emergência com quadro de rebaixamento do nível de consciência. Segundo familiares, nos últimos dias, ele vinha se queixando de cefaleia holocraniana e de turvação visual bilateral. Na véspera do atendimento, os familiares relatam que o paciente ficou sonolento e que, no dia do atendimento, evoluiu com crises convulsivas tônico-clônicas generalizadas. Ao exame físico, mostra-se torporoso, mas sem déficits neurológicos focais, mantendo estabilidade hemodinâmica (pressão arterial elevada, em 170 × 100 mmHg); padrão respiratório regular (frequência respiratória de 18 incursões respiratórias por minuto) e frequência cardíaca de 58 batimentos por minuto. Os exames complementares revelam anemia normocrômica, normocítica, (hemoglobina de 9,2 g/dL); sódio sérico baixo (108 mEq/L); ácido úrico sérico baixo (2,1 mg/dL); hiperglicemia leve (138 mg/dL) e taxa de excreção renal de sódio superior a 25 mEq/dia. À tomografia computadorizada de crânio, identifica-se aspecto compatível com edema cerebral difuso. Nesse caso, a conduta adequada é proceder com a",
+"alts": [
+"infusão intravenosa de 0,05 mL/kg/min de solução salina a 3%",
+"prescrição de dexametasona 10 mg de ataque, seguida por 4 mg, 4 vezes ao dia",
+"administração de desmopressina 0,05 mg, 2 vezes por dia, por meio de puff nasal",
+"restrição hídrica, limitando a oferta de soluções hipotônicas em 1,2 litros por dia"
+],
+"gab": 0,
+"tema": "onco",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "European guideline on diagnosis and treatment of hyponatraemia, 2014; ASCO/NCCN guidance on SIADH in malignancy",
+"coment": "Câncer de pulmão de pequenas células é a causa clássica de síndrome de secreção inapropriada de hormônio antidiurético, e o paciente evoluiu com hiponatremia sintomática grave — rebaixamento de consciência e crise convulsiva. Nessa situação, o tratamento é solução salina a 3% em bólus ou infusão, visando elevar o sódio em 4 a 6 mEq/L rapidamente para cessar o sintoma neurológico, com correção total limitada a 8 a 10 mEq/L em 24 horas para evitar síndrome de desmielinização osmótica. Restrição hídrica é conduta da hiponatremia crônica assintomática.",
+"porAlt": [
+"Correta: salina hipertônica a 3%, tratamento da hiponatremia sintomática grave.",
+"Dexametasona trata edema por metástase cerebral, hipótese secundária diante de hiponatremia com convulsão.",
+"Desmopressina agravaria a retenção de água livre e a hiponatremia.",
+"A restrição hídrica é adequada à hiponatremia crônica e assintomática, e é lenta demais para quem convulsiona."
+],
+"fonte": {
+"banca": "Revalida (INEP/MEC)",
+"ano": 2024
+}
+},
+{
+"q": "Homem, 49 anos de idade, tem diagnóstico recente de insuficiência adrenal e faz uso crônico de hidrocortisona e fludrocortisona por via oral. Ele procura o pronto-socorro com queixa de 3 dias de congestão nasal, cefaleia frontal intermitente, rinorreia e odinofagia leve. Ao exame físico, apresenta temperatura de 38,3 ºC, bom estado geral, congestão nasal bilateral, orofaringe com hiperemia, sem linfonodos cervicais ou lesões orais; sem outras anormalidades. Ele conta que a equipe de endocrinologia lhe entregou uma carta para levar consigo em caso de atendimentos de urgência, mas esqueceu de trazer este documento. Com base nessas informações, assinale a alternativa que apresenta a conduta mais apropriada para o paciente neste momento.",
+"alts": [
+"Manter as doses dos medicamentos e observar evolução em domicílio",
+"Manter as doses dos medicamentos e indicar hospitalização",
+"Aumentar a dose de hidrocortisona e observar evolução em domicílio",
+"Aumentar a dose de hidrocortisona e indicar hospitalização"
+],
+"gab": 2,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "urg",
+"nivel": "r2",
+"base": "Endocrine Society Clinical Practice Guideline — Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016; recomendações sobre dose de estresse em insuficiência adrenal",
+"coment": "Todo paciente com insuficiência adrenal precisa conhecer a regra do dia de doença: diante de febre ou infecção, a dose de hidrocortisona deve ser dobrada ou triplicada enquanto durar o quadro, retornando à dose habitual depois. Aqui há infecção de vias aéreas com febre de 38,3 °C, mas o paciente está em bom estado geral, sem vômito, sem diarreia e sem instabilidade — não há crise adrenal, e portanto não há indicação de hidrocortisona parenteral nem de internação. Vômitos, diarreia, hipotensão ou rebaixamento mudam a conduta para dose parenteral e hospitalização.",
+"porAlt": [
+"Manter a dose habitual durante infecção febril arrisca desencadear crise adrenal.",
+"Hospitalizar sem ajustar a dose combina o erro terapêutico com internação desnecessária.",
+"Correta: aumentar a dose de hidrocortisona e observar em domicílio, já que não há sinais de crise adrenal.",
+"A internação não se justifica em paciente em bom estado geral, sem vômitos e sem instabilidade."
+],
+"fonte": {
+"banca": "USP (FUVEST)",
+"ano": 2026
+}
+},
+{
 "q": "Mulher de 81 anos, com insônia crônica, chega ao ambulatório em uso de clonazepam há oito anos, prescrito por outro serviço. Teve duas quedas no último ano, sem fratura, e refere sonolência diurna. Mora sozinha e é independente para atividades básicas. Qual é a conduta mais apropriada?",
 "alts": [
 "Manter a dose atual e acrescentar zolpidem à noite, para melhorar a qualidade do sono dela.",

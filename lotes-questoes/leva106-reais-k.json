@@ -1,0 +1,262 @@
+[
+ {
+  "q": "Um novo exame que detecta o DNA do Mycobacterium leprae em pacientes com suspeita de hanseníase está sendo testado. Ele demonstra capacidade de detectar 80% de pacientes com a doença e fornece resultado falso-positivo em 20% das pessoas sem a doença. Um médico de família e comunidade está utilizando esse exame em uma comunidade vulnerável na qual a prevalência de hanseníase é de 10%.\nNesse caso, qual é a probabilidade de um resultado positivo ser de um indivíduo realmente doente?",
+  "alts": [
+   "31%",
+   "97%",
+   "69%",
+   "80%"
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Epidemiologia clínica — valor preditivo positivo e teorema de Bayes; Ministério da Saúde, diretrizes de vigilância da hanseníase, 2022",
+  "coment": "Sensibilidade e especificidade são propriedades do teste; o valor preditivo positivo depende também da prevalência. Com sensibilidade de 80% e especificidade de 80% numa população com prevalência de 10%, em mil pessoas haveria 100 doentes, dos quais 80 testariam positivo, e 900 sem a doença, dos quais 180 seriam falso-positivos. Entre os 260 positivos, 80 têm a doença — cerca de 31%. É o ponto central da testagem: em doença de baixa prevalência, mesmo um teste razoável produz maioria de falso-positivos, e por isso não se rastreia população de baixo risco.",
+  "porAlt": [
+   "Correta: aproximadamente 31%, calculado a partir de 80 verdadeiro-positivos entre 260 positivos totais.",
+   "O valor de 97% corresponderia ao valor preditivo negativo neste cenário.",
+   "O valor de 69% é o complemento do preditivo positivo, ou seja, a proporção de falso-positivos.",
+   "Os 80% são a sensibilidade do teste, e não a probabilidade de o positivo ser verdadeiro."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem com 36 anos, em situação de rua, procura a unidade básica de saúde com queixas de tosse persistente, perda de peso, sudorese noturna e febre intermitente há cerca de 2 semanas.\nDiante desse caso, qual deve ser a conduta médica adotada?",
+  "alts": [
+   "Solicitar exame bacteriológico de escarro, juntamente com cultura e com teste de sensibilidade antimicrobiana, testagem para HIV, para hepatites virais e para sífilis",
+   "Solicitar radiografia de tórax e, em caso de alteração, prescrever medicamento (rifampicina / isoniazida / pirazinamida / etambutol) via tratamento diretamente observado",
+   "Solicitar exame bacteriológico de escarro e, em caso positivo, encaminhar o paciente para serviço de referência em pneumologia para tratamento de tuberculose multirresistente",
+   "Solicitar exame bacteriológico de escarro, testagem para HIV, para hepatites virais e para sífilis e, caso seja confirmada a presença de tuberculose, instituir tratamento diretamente observado"
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2024",
+  "coment": "Tosse por duas semanas ou mais com febre, sudorese noturna e emagrecimento em pessoa em situação de rua define sintomático respiratório em população de altíssimo risco. A investigação recomendada é o teste rápido molecular ou baciloscopia com cultura e teste de sensibilidade — importante nesse grupo pelo risco de resistência —, somada à testagem para HIV, hepatites virais e sífilis, porque a coinfecção muda o tratamento e o prognóstico. Radiografia complementa, mas não substitui a investigação bacteriológica, e o tratamento é feito na própria atenção primária, preferencialmente supervisionado.",
+  "porAlt": [
+   "Correta: investigação bacteriológica com cultura e teste de sensibilidade somada à testagem para HIV, hepatites e sífilis.",
+   "Iniciar tratamento apenas pela radiografia dispensa a confirmação bacteriológica e o teste de sensibilidade.",
+   "Encaminhar para serviço de referência fragmenta o cuidado: o tratamento é conduzido na atenção primária.",
+   "A investigação está incompleta sem cultura e teste de sensibilidade, essenciais nessa população."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem com 18 anos é encaminhado a um hospital secundário para investigação de diarreia de evolução arrastada nos últimos 3 meses, caracterizada por vários episódios diários de evacuação sanguinolenta, acompanhados de tenesmo e cólicas abdominais. Em atendimento, ele relata ainda anorexia e dores articulares de caráter migratório, mas nega episódios febris. Refere viagem anterior ao início do quadro para local com baixas condições sanitárias, mas afirma ter tomado cuidado com tudo o que comeu e bebeu. Relata também ter feito uso de antibióticos e anti-inflamatórios para tratamento de suposta infecção cutânea, nos últimos 3 meses, sem melhora clínica.\nAo exame físico, apresenta-se: hipocorado, hidratado, eupneico e afebril, com discretos sinais de artrite em grandes articulações dos membros superiores, de forma assimétrica. Verifica-se que, na superfície anterior dos membros inferiores, o paciente apresenta lesões nodulares subcutâneas quentes e dolorosas, com superfície plana e eritematosa, com extensão de cerca de 1 a 5 cm de diâmetro.\nDiante desse caso, para confirmar a principal hipótese diagnóstica, a conduta mais adequada é realizar",
+  "alts": [
+   "colonoscopia associada à histopatologia de biópsia da mucosa intestinal",
+   "sorologia anti-HIV e pesquisa de Isospora belli e Cryptosporidium parvum nas fezes",
+   "pesquisa de toxinas A e B e detecção de ácidos nucleicos de Clostridium difficile nas fezes",
+   "pesquisa de antígenos ou exame direto para trofozoítas de Entamoeba hystolitica nas fezes"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Ulcerative Colitis in Adults, 2019; ECCO-ESGAR guidelines on diagnostics in inflammatory bowel disease, 2019",
+  "coment": "Diarreia sanguinolenta com tenesmo, cólicas e artralgia migratória por três meses, sem resposta a antibiótico, aponta para doença inflamatória intestinal, e a investigação que fecha o diagnóstico é a colonoscopia com biópsias da mucosa — que define extensão, padrão de acometimento e histologia, separando retocolite de doença de Crohn. As causas infecciosas devem ser afastadas em paralelo com coproculturas e pesquisa de parasitas, mas nenhuma delas explica três meses de evolução com manifestação articular associada.",
+  "porAlt": [
+   "Correta: colonoscopia com biópsias da mucosa, exame que estabelece o diagnóstico.",
+   "A investigação de coccídios se justifica em imunossupressão com diarreia crônica aquosa, não com sangue e tenesmo.",
+   "A pesquisa de Clostridioides difficile é razoável como diferencial, mas não fecha um quadro de três meses com artralgia.",
+   "A amebíase é diferencial da viagem, porém não explica a cronicidade nem as manifestações extraintestinais."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem de 45 anos, que trabalha na criação de porcos, vai à consulta na unidade básica de saúde com queixa de lesões nos pés há 6 meses. Ao exame físico, notam-se lesões de pele papulosas, múltiplas, amareladas, não purulentas e com pontos enegrecidos centrais. Essas lesões estão localizadas nos pés e são pruriginosas e dolorosas. Diante desse caso, a conduta adequada é",
+  "alts": [
+   "recomendar o uso de sapatos fechados e restrição da circulação nos reservatórios onde ficam os porcos e aguardar a resolução espontânea das lesões",
+   "administrar amoxicilina via oral por 1 semana e pomada antialérgica nos pés, recomendar calçados adequados e agendar retorno para o paciente em 15 dias",
+   "acionar a zoonose, isolar os porcos para interromper o ciclo, impedindo, assim, a transmissão de doença pela picada desses insetos, e prescrever vacina antitetânica",
+   "realizar a retirada de larva dos pés, administrar tiabendazol via oral ou ivermectina, conceder orientações sobre saúde, tratar animais e solo e prescrever vacinação antitetânica"
+  ],
+  "gab": 3,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, tungíase e dermatoses parasitárias, 2024; consensos de dermatologia tropical",
+  "coment": "Lesões papulosas amareladas com ponto enegrecido central nos pés, pruriginosas e dolorosas, em quem trabalha com criação de porcos e circula descalço em solo contaminado, caracterizam tungíase, causada pela pulga Tunga penetrans. O tratamento é a remoção do parasita em condições assépticas, com antiparasitário sistêmico — tiabendazol ou ivermectina — nas infestações múltiplas, além de atualizar a profilaxia antitetânica, tratar os animais e o solo, e orientar o uso de calçado fechado, que é o que evita a reinfestação.",
+  "porAlt": [
+   "A resolução espontânea não é conduta: as lesões múltiplas causam dor, infecção secundária e risco de tétano.",
+   "Antibiótico e pomada antialérgica não removem o parasita nem interrompem o ciclo.",
+   "A transmissão não se dá por picada de inseto voador e isolar os porcos isoladamente não resolve.",
+   "Correta: remoção das larvas, antiparasitário sistêmico, tratamento de animais e solo e orientação sobre calçado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem de 39 anos, morador de rua, procura espontaneamente a unidade básica de saúde para atendimento. Ele relata sentir dores de cabeça há 3 dias. Afirma que é etilista, tabagista e nega uso de drogas ilícitas. Seus exames físico, neurológico e psíquico apresentam-se sem alterações e sem critérios para enxaqueca. O paciente está com tosse pouco produtiva há 8 dias, não sabe relatar perda de peso e apresenta pápulas com escoriações em membros superiores e abdome. Nesse caso, qual exame deverá ser solicitado com prioridade para investigação diagnóstica?",
+  "alts": [
+   "Tomografia computadorizada de tórax",
+   "Dosagem de Tiamina sérica",
+   "Teste do escarro (BAAR)",
+   "Teste rápido de sífilis"
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2024; Política Nacional para a População em Situação de Rua",
+  "coment": "Tosse há oito dias em pessoa em situação de rua deve ser investigada para tuberculose mesmo antes das clássicas três semanas: nessa população o risco relativo é dezenas de vezes maior que o da população geral, e a oportunidade de contato com o serviço costuma ser única. A prioridade, portanto, é o exame de escarro — teste rápido molecular ou baciloscopia com cultura —, aproveitando o atendimento para oferecer também testagem para HIV, hepatites e sífilis. A cefaleia, sem alteração no exame neurológico, não muda essa prioridade.",
+  "porAlt": [
+   "Tomografia de tórax não é o exame de triagem para tuberculose pulmonar.",
+   "A dosagem de tiamina não é prioritária diante de exame neurológico normal.",
+   "Correta: exame de escarro, prioridade absoluta em sintomático respiratório dessa população.",
+   "O teste rápido de sífilis deve ser ofertado, mas não é a prioridade diagnóstica diante da tosse."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Uma mulher de 50 anos, residente na região Sul, e procedente de estado da região amazônica há cerca de 30 dias, comparece à unidade básica de saúde (UBS) com quadro de febre alta, calafrios e dor de cabeça há 1 mês. Relata que, inicialmente, atribuiu os episódios diários de febre e calafrios à mudança brusca de temperatura. Passados 15 dias, a febre passou a ocorrer a cada 48 horas, ter início súbito e ser seguida de muito calor e sudorese abundante, ela atribuiu esse sintoma à menopausa. Percebeu aumento do volume abdominal e relatou episódios de náuseas e de vômitos que não a impediram de ingerir líquidos, porém, recentemente, a levaram a procurar a UBS. Nega sangramentos, dispneia, alterações neurológicas ou outros sintomas. Ao exame físico, observa-se paciente em regular estado geral, mucosas descoradas; temperatura de 40,2 °C; abdome doloroso difusamente; fígado palpável, a 2 cm do rebordo costal direito; e baço palpável, a 3 cm do rebordo costal esquerdo. Restante do exame físico normal e sinais vitais sem alterações. Considerando o caso, assinale a alternativa que apresenta a hipótese diagnóstica mais provável, o exame laboratorial a ser solicitado e a conduta apropriada.",
+  "alts": [
+   "Malária; hematoscopia (esfregaço de sangue periférico); uso de antimaláricos e medidas de suporte",
+   "Chikungunya; sorologia no 5º dia; uso de sintomáticos, repouso e hidratação em regime ambulatorial",
+   "Febre amarela; sorologia no 5º dia e marcadores de lesão hepática; internação e suplementação com vitamina A",
+   "Doença de Chagas; pesquisa a fresco de tripanossomídeos após 30 dias do sintoma; administração de benzonidazol"
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — Guia de Tratamento da Malária no Brasil, 2023; Guia de Vigilância em Saúde",
+  "coment": "Febre com calafrios e sudorese que se organiza em paroxismos a cada 48 horas, em pessoa procedente da Amazônia há 30 dias, com esplenomegalia, é malária até prova em contrário — o padrão terçã sugere Plasmodium vivax ou falciparum. O diagnóstico é imediato, por gota espessa ou teste rápido, com resultado no mesmo atendimento, e o tratamento é gratuito e padronizado. Fora da área endêmica, o risco é justamente o atraso diagnóstico: malária por falciparum evolui para forma grave em horas, e todo caso é de notificação imediata.",
+  "porAlt": [
+   "Correta: malária — investigação por hematoscopia e tratamento antimalárico com suporte.",
+   "A chikungunya não cursa com paroxismos febris a cada 48 horas por um mês.",
+   "A febre amarela tem curso bifásico de dias, não paroxismos por semanas, e não se trata com vitamina A.",
+   "A doença de Chagas aguda não produz esse padrão febril periódico, e a pesquisa a fresco tem janela nas primeiras semanas."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Uma jovem de 15 anos, previamente hígida, é trazida para consulta em unidade básica de saúde devido a quadro, iniciado há 1 semana, de astenia progressiva, dor de garganta e febre diária. Ao exame físico, apresenta linfonodomegalia cervical, principalmente em cadeia posterior, leve erupção cutânea não pruriginosa em tronco e em membros superiores, além de petéquias em palato e tonsilite exsudativa. Nega ter vida sexual ativa e usar drogas injetáveis. Considerando essas informações, a hipótese diagnóstica mais provável é",
+  "alts": [
+   "criptococose",
+   "infecção pelo HIV",
+   "linfoma não Hodgkin",
+   "monucleose infecciosa"
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "CDC — Epstein-Barr Virus and Infectious Mononucleosis, 2024; Ministério da Saúde, Guia de Vigilância em Saúde, 2024 (síndromes febris com linfadenopatia)",
+  "coment": "Faringite exsudativa com linfadenomegalia cervical posterior, febre, astenia importante, petéquias em palato e exantema em adolescente é o quadro clássico da mononucleose infecciosa por vírus Epstein-Barr. O hemograma mostra linfocitose com linfócitos atípicos, e a confirmação se faz por anticorpos heterófilos ou sorologia específica. Dois pontos práticos: prescrever amoxicilina provoca exantema em grande parte dos casos, e o paciente deve evitar esportes de contato por semanas pelo risco de ruptura esplênica.",
+  "porAlt": [
+   "A criptococose acomete imunossuprimidos, com meningite subaguda.",
+   "A infecção aguda pelo HIV entra no diferencial, mas o enunciado descreve o quadro típico de mononucleose e nega exposição.",
+   "O linfoma não Hodgkin não cursa com tonsilite exsudativa e petéquias em palato de instalação em uma semana.",
+   "Correta: mononucleose infecciosa, com adenopatia cervical posterior, exsudato e exantema."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Um homem de 23 anos, residente em zona urbana de capital de estado da região Sudeste, procura atendimento em unidade básica de saúde. Relata ter apresentado quadro de febre alta (39 °C) de início abrupto, com duração de 3 dias, acompanhada por dor de cabeça, mialgia e poliartralgia leve com rigidez articular, astenia, dor atrás dos olhos sem conjuntivite, associada a manchas eritematosas na pele. Afirma que a febre cessou há 4 dias. Nega ter feito viagens nos últimos meses. A partir dos dados desse paciente, é correto afirmar que a principal hipótese epidemiológica é",
+  "alts": [
+   "Zika",
+   "dengue",
+   "chikungunya",
+   "febre amarela"
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — Dengue: diagnóstico e manejo clínico, 2024; OPAS, diretrizes para arboviroses nas Américas",
+  "coment": "Febre alta de início abrupto com cefaleia, mialgia, dor retro-orbitária sem conjuntivite e exantema, em residente de área urbana do Sudeste, corresponde ao quadro de dengue, a arbovirose de maior incidência no país — e a hipótese epidemiológica se apoia tanto na clínica quanto na prevalência local. O detalhe que merece atenção é o momento: a febre cessou há quatro dias, e é justamente na defervescência que se instala o período crítico, motivo pelo qual o paciente precisa de reavaliação e orientação sobre sinais de alarme.",
+  "porAlt": [
+   "O Zika cursa com exantema pruriginoso proeminente, conjuntivite não purulenta e febre baixa ou ausente.",
+   "Correta: dengue — febre alta abrupta, dor retro-orbitária e exantema, com maior prevalência local.",
+   "A chikungunya tem a poliartralgia intensa e incapacitante como marca, não artralgia leve.",
+   "A febre amarela exige exposição em área de mata e evolui com icterícia e disfunção hepática."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2024
+  }
+ },
+ {
+  "q": "Homem, 53 anos de idade, tem esquistossomose hepatoesplênica e comparece em consulta ambulatorial de seguimento. Nota edema nos tornozelos desde a última consulta. Já teve episódios prévios de encefalopatia hepática. Faz uso crônico de lactulose. Sinais vitais com PA de 154×86 mmHg, FC de 89 bpm, FR de 16 irpm, SpO2 de 98%. Ao exame clínico, apresenta bom estado geral, vigil, orientado no tempo e no espaço, tônus normais, abdome plano, lobo esquerdo do fígado palpável, baço palpável, edema perimaleolar de 2+/4+.\nExames laboratoriais: Hb: 12,9 g/dL; Leucócitos: 4.230/mm3; Plaquetas: 98 mil/mm3; TGO/AST: 37 U/L; TGP/ALT: 43 U/L; Albumina: 3,1 g/dL; INR: 1,8; Cr: 1,37 mg/dL; Na+: 130 mEq/L; Urina tipo 1: normal.\nEndoscopia digestiva alta com duas varizes esofágicas de grosso calibre, sem sinais de sangramento recente. Ultrassonografia de abdome superior com líquido livre em pequena quantidade na cavidade, aumento do lobo esquerdo do fígado e aumento do baço. Com base no caso clínico apresentado, assinale a alternativa que indica a melhor conduta terapêutica a ser realizada neste momento.",
+  "alts": [
+   "Infundir albumina",
+   "Introduzir carvedilol",
+   "Indicar paracentese",
+   "Restringir água diária"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "Baveno VII, 2022; AASLD Practice Guidance on portal hypertensive bleeding; Ministério da Saúde, PCDT de esquistossomose",
+  "coment": "Na esquistossomose hepatoesplênica, a hipertensão portal é pré-sinusoidal e a função hepatocelular costuma ser relativamente preservada, mas o risco de hemorragia por varizes é alto. Com plaquetopenia e esplenomegalia indicando hipertensão portal clinicamente significativa, a conduta preventiva é o betabloqueador não seletivo — hoje o carvedilol é preferido, por reduzir mais o gradiente de pressão venosa hepática. O edema discreto não caracteriza ascite volumosa nem indica paracentese, e a albumina se reserva a paracentese de grande volume, peritonite espontânea e síndrome hepatorrenal.",
+  "porAlt": [
+   "Albumina não é conduta ambulatorial em edema discreto sem paracentese de grande volume.",
+   "Correta: carvedilol, betabloqueador de escolha para profilaxia de sangramento na hipertensão portal.",
+   "Não há ascite volumosa que justifique paracentese neste momento.",
+   "Restrição hídrica se reserva à hiponatremia dilucional, não descrita no caso."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ },
+ {
+  "q": "Homem, 65 anos de idade, procura o serviço de emergência com dor em fossa ilíaca esquerda há 6 dias, associada a constipação, náuseas e hiporexia. Nega febre. Ao exame físico, apresenta-se em bom estado geral, FC de 80 bpm, PA de 130×80 mmHg, com dor à palpação profunda em fossa ilíaca esquerda, sem sinais de irritação peritoneal. Exames laboratoriais apresentaram leucócitos 15.000/mm3 e PCR de 180 mg/L. Foi realizada uma tomografia contrastada de abdome, que evidenciou divertículos em cólon descendente e sigmoide com densificação da gordura mesentérica e presença de abscesso pericólico de 2 cm de diâmetro com focos gasosos de permeio. Assinale a alternativa que apresenta a melhor conduta neste momento.",
+  "alts": [
+   "Antibioticoterapia",
+   "Colostomia em alça",
+   "Retossigmoidectomia",
+   "Drenagem percutânea"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis, 2020",
+  "coment": "Diverticulite aguda com abscesso pericólico pequeno, de até 3 a 4 cm, sem peritonite e em paciente estável, é tratada com antibioticoterapia isolada, tipicamente por via intravenosa com internação, reservando a drenagem percutânea para abscessos maiores ou para falha do tratamento clínico. Cirurgia de urgência se restringe à peritonite difusa, à perfuração livre e à ausência de resposta. Após a resolução, indica-se colonoscopia de intervalo em seis a oito semanas para excluir neoplasia, e a ressecção eletiva é decidida caso a caso.",
+  "porAlt": [
+   "Correta: antibioticoterapia isolada, adequada para abscesso pequeno em paciente estável.",
+   "Colostomia em alça não tem indicação sem peritonite ou obstrução.",
+   "A ressecção de urgência é desproporcional para abscesso pequeno com boa resposta esperada ao antibiótico.",
+   "A drenagem percutânea se reserva a abscessos maiores, em geral acima de 3 a 4 cm."
+  ],
+  "fonte": {
+   "banca": "USP (FUVEST)",
+   "ano": 2026
+  }
+ }
+]
