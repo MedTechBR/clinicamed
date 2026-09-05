@@ -2,13 +2,13 @@
  {
   "q": "Homem de 44 anos, sem comorbidades, é atendido no ambulatório com tosse produtiva, febre e radiografia mostrando consolidação em base direita. Recebe alta com antibiótico oral. No terceiro dia retorna afebril, com frequência cardíaca de 78 bpm, frequência respiratória de 18 irpm, saturação de 97% em ar ambiente, pressão de 124/78 mmHg e orientado. Qual é a conduta quanto à duração do tratamento?",
   "alts": [
-   "Suspender o antibiótico ao completar o terceiro dia, pois ele já alcançou estabilidade clínica.",
    "Manter o antibiótico por dez dias no total, duração clássica que reduz a chance de recidiva.",
    "Manter o antibiótico até que a radiografia de tórax mostre resolução completa da consolidação.",
    "Trocar por um macrolídeo e completar mais sete dias, ampliando a cobertura para germe atípico.",
-   "Prolongar o esquema por catorze dias porque a consolidação lobar indica doença pneumocócica."
+   "Prolongar o esquema por catorze dias porque a consolidação lobar indica doença pneumocócica.",
+   "Suspender o antibiótico ao completar o terceiro dia, pois ele já alcançou estabilidade clínica."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
@@ -16,11 +16,11 @@
   "base": "American Thoracic Society 2025 — Diagnosis and Management of Community-acquired Pneumonia",
   "coment": "A diretriz de 2025 mudou de forma relevante o que se ensinava desde 2019: em adultos com pneumonia adquirida na comunidade tratados em ambulatório que atingem estabilidade clínica, sugere-se menos de cinco dias de antibiótico, com mínimo de três, em vez de cinco ou mais. Estabilidade clínica é definida por estar afebril, frequência cardíaca abaixo de 100 bpm, frequência respiratória abaixo de 24 irpm, saturação de pelo menos 90% em ar ambiente, pressão sistólica de pelo menos 90 mmHg e estado mental normal — exatamente o quadro descrito. Tratamento prolongado acrescenta infecção por Clostridioides difficile, injúria renal e pressão seletiva, sem ganho de cura.",
   "porAlt": [
-   "Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três — que ele já completou.",
    "Dez dias é herança de recomendações antigas; a evidência de não inferioridade dos esquemas curtos derrubou essa duração na pneumonia não grave.",
    "A imagem melhora semanas depois da cura clínica; guiar a duração por radiografia prolonga o antibiótico sem qualquer benefício ao paciente.",
    "Não há motivo para trocar a classe em quem respondeu bem, e estender por mais sete dias contraria a recomendação de curso curto.",
-   "O padrão lobar não define duração nem exige esquema prolongado; o que define é a resposta clínica e a gravidade da apresentação inicial."
+   "O padrão lobar não define duração nem exige esquema prolongado; o que define é a resposta clínica e a gravidade da apresentação inicial.",
+   "Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três — que ele já completou."
   ]
  },
  {
@@ -74,13 +74,13 @@
  {
   "q": "Durante a visita na enfermaria, o preceptor pede que o residente diga se um paciente internado por pneumonia atingiu estabilidade clínica, critério que orienta a decisão de encerrar o antimicrobiano. Qual conjunto de achados corresponde à definição usada pela diretriz vigente?",
   "alts": [
+   "Afebril, frequência cardíaca abaixo de 100 bpm, respiratória abaixo de 24 irpm e sem confusão.",
    "Proteína C reativa reduzida à metade e leucograma inteiramente normalizado no exame de controle.",
    "Radiografia de tórax com resolução completa e ausculta pulmonar sem qualquer ruído adventício.",
    "Hemocultura negativa em duas amostras colhidas após vinte e quatro horas de antimicrobiano.",
-   "Ausência de tosse e de expectoração por um período mínimo de quarenta e oito horas seguidas.",
-   "Afebril, frequência cardíaca abaixo de 100 bpm, respiratória abaixo de 24 irpm e sem confusão."
+   "Ausência de tosse e de expectoração por um período mínimo de quarenta e oito horas seguidas."
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
@@ -88,11 +88,11 @@
   "base": "American Thoracic Society 2025 — definição de estabilidade clínica na pneumonia adquirida na comunidade",
   "coment": "A definição é clínica e composta: paciente afebril, frequência cardíaca abaixo de 100 bpm, frequência respiratória abaixo de 24 irpm, saturação de pelo menos 90% em ar ambiente ou pressão parcial de oxigênio de ao menos 60 mmHg, pressão sistólica de pelo menos 90 mmHg e estado mental normal. Importa porque é esse conjunto, e não exame de imagem ou marcador inflamatório, que autoriza encerrar o antimicrobiano no curso curto. A radiografia melhora semanas após a cura clínica, e usar a imagem como critério é a causa mais comum de tratamento desnecessariamente prolongado.",
   "porAlt": [
+   "Correta: a estabilidade clínica é definida por sinais vitais e estado mental, o conjunto que autoriza encerrar o antimicrobiano.",
    "Marcadores inflamatórios não fazem parte da definição e sua normalização costuma ser bem mais lenta que a recuperação clínica.",
    "A imagem melhora semanas depois da cura clínica: exigir resolução radiológica é a causa mais frequente de tratamento prolongado à toa.",
    "A hemocultura negativa não define estabilidade, até porque a maioria das pneumonias comunitárias cursa sem bacteriemia documentada.",
-   "A tosse pode persistir por semanas depois da cura e não integra os critérios objetivos usados pela definição da diretriz.",
-   "Correta: a estabilidade clínica é definida por sinais vitais e estado mental, o conjunto que autoriza encerrar o antimicrobiano."
+   "A tosse pode persistir por semanas depois da cura e não integra os critérios objetivos usados pela definição da diretriz."
   ]
  }
 ]

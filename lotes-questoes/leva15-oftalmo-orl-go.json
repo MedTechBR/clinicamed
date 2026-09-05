@@ -27,12 +27,12 @@
   "q": "Homem de 52 anos, hipertenso, chega à emergência com epistaxe volumosa à direita há 40 minutos, sem trauma. A pressão arterial é de 178/98 mmHg. Após compressão digital das asas nasais por 15 minutos, o sangramento persiste e ele engole sangue. Qual é a conduta seguinte?",
   "alts": [
    "Manter apenas a compressão digital por mais uma hora antes de considerar qualquer intervenção.",
-   "Inclinar a cabeça para trás, para reduzir o gotejamento anterior enquanto o sangramento cessa.",
    "Realizar tamponamento nasal anterior e avaliar sinais de sangramento posterior associado.",
+   "Inclinar a cabeça para trás, para reduzir o gotejamento anterior enquanto o sangramento cessa.",
    "Aplicar bolsa de gelo na região cervical, medida que costuma interromper o sangramento.",
    "Solicitar angiotomografia de artérias nasais antes de cada tentativa de tamponamento local."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "orl",
   "cenario": "emg",
   "comp": "urg",
@@ -41,8 +41,8 @@
   "coment": "Falhada a compressão digital correta — sobre as asas nasais, cabeça inclinada para a frente, por 10 a 15 minutos ininterruptos —, o passo seguinte é o tamponamento nasal anterior, com avaliação de sangramento posterior. Sangue escorrendo pela orofaringe sugere origem posterior, que costuma exigir tamponamento específico e internação, pelo risco de sangramento volumoso e de complicações. Inclinar a cabeça para trás faz o paciente deglutir sangue, mascara o volume perdido e provoca vômito com risco de aspiração. Gelo cervical não tem eficácia demonstrada e não substitui o tamponamento.",
   "porAlt": [
    "Prolongar a compressão por mais uma hora após a falha só adia o controle e aumenta a perda sanguínea do paciente.",
-   "Inclinar a cabeça para trás faz deglutir sangue, mascara o volume perdido e arrisca vômito com aspiração.",
    "Correta: falhada a compressão, o passo é o tamponamento anterior, checando se há sangramento posterior associado.",
+   "Inclinar a cabeça para trás faz deglutir sangue, mascara o volume perdido e arrisca vômito com aspiração.",
    "O gelo cervical não tem eficácia demonstrada para interromper epistaxe e não substitui o tamponamento nasal.",
    "A angiotomografia se reserva a sangramento refratário ou suspeita de lesão vascular, e não precede o tamponamento inicial."
   ]
@@ -52,11 +52,11 @@
   "alts": [
    "Aguardar o resultado da cultura endocervical antes de iniciar o antimicrobiano específico.",
    "Solicitar laparoscopia diagnóstica, exame obrigatório para confirmar o diagnóstico antes de tratar.",
-   "Prescrever apenas anti-inflamatório e reavaliar em sete dias na unidade básica de referência.",
    "Iniciar antimicrobiano para doença inflamatória pélvica, pois os critérios mínimos já bastam.",
+   "Prescrever apenas anti-inflamatório e reavaliar em sete dias na unidade básica de referência.",
    "Indicar internação para todas as pacientes com essa apresentação, sem exceção de gravidade."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "go",
   "cenario": "emg",
   "comp": "tto",
@@ -66,8 +66,8 @@
   "porAlt": [
    "Esperar a cultura atrasa o tratamento em dias e não muda a conduta inicial, que é empírica por definição nesse quadro.",
    "A laparoscopia não é exigida para o diagnóstico e fica reservada a casos duvidosos ou refratários ao esquema instituído.",
-   "Anti-inflamatório isolado não trata a infecção e a espera de sete dias é exatamente o intervalo que gera sequela tubária.",
    "Correta: presentes os critérios mínimos, inicia-se o antimicrobiano empírico de imediato, pelo custo do atraso em sequelas.",
+   "Anti-inflamatório isolado não trata a infecção e a espera de sete dias é exatamente o intervalo que gera sequela tubária.",
    "A internação tem critérios definidos e não se aplica a toda paciente estável que possa cumprir o esquema por via oral."
   ]
  }

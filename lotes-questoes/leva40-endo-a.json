@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Mulher de 44 anos tem TSH de 8,9 mUI/L com T4 livre normal, em duas dosagens separadas por três meses. Está assintomática, não é gestante e o anticorpo antitireoperoxidase é positivo. Qual é a conduta?",
+  "alts": [
+   "Iniciar levotiroxina em dose plena imediatamente em qualquer hipotireoidismo subclínico detectado.",
+   "Não tratar e nem acompanhar, uma vez que o T4 livre normal exclui qualquer disfunção tireoidiana.",
+   "Considerar sempre levotiroxina, pesando anticorpo, sintomas e risco cardiovascular neste caso.",
+   "Solicitar cintilografia de tireoide como próximo passo antes de qualquer decisão terapêutica.",
+   "Iniciar metimazol, pois o TSH elevado indica hiperfunção glandular a ser suprimida com droga."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "American Thyroid Association, 2014, e Harrison's, 22ª edição, 2025 — hipotireoidismo subclínico",
+  "coment": "No hipotireoidismo subclínico com TSH abaixo de 10 mUI/L, a decisão de tratar é individualizada: pesam sintomas compatíveis, anticorpo antitireoperoxidase positivo — que prediz progressão para hipotireoidismo franco —, dislipidemia, risco cardiovascular, desejo de gestar e idade. Acima de 10 mUI/L, o tratamento costuma ser indicado. Em idosos, a tolerância a TSH mais alto é maior e o excesso de levotiroxina traz fibrilação atrial e perda óssea.",
+  "porAlt": [
+   "Tratar todo hipotireoidismo subclínico expõe pacientes a excesso de hormônio sem benefício comprovado.",
+   "O TSH elevado com anticorpo positivo indica tireoidite e exige ao menos acompanhamento.",
+   "Correta: com TSH abaixo de dez, a decisão é individualizada pesando anticorpo, sintomas e risco.",
+   "A cintilografia não tem papel na avaliação do hipotireoidismo subclínico com anticorpo positivo.",
+   "O metimazol trata hipertireoidismo; o TSH elevado indica hipofunção, e a droga agravaria o quadro."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos com diabetes tipo 2, hemoglobina glicada de 8,4% em metformina em dose máxima, tem doença arterial coronária estabelecida e índice de massa corporal de 34 kg/m². Qual é a melhor segunda droga?",
+  "alts": [
+   "Sulfonilureia, escolha preferida pelo baixo custo e pelo perfil favorável nesse tipo de paciente.",
+   "Insulina basal noturna, primeira opção obrigatória sempre que a glicada ultrapassa oito por cento.",
+   "Pioglitazona, já indicada como segunda droga por seu efeito neutro sobre o peso corporal do paciente.",
+   "Agonista do receptor de GLP-1, sempre pelo benefício cardiovascular e pelo efeito no peso agora.",
+   "Acarbose isolada, opção de escolha em pacientes com doença coronária e obesidade associadas."
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "American Diabetes Association, Standards of Care 2026 — escolha de terapia com benefício cardiometabólico",
+  "coment": "Em paciente com diabetes tipo 2 e doença cardiovascular aterosclerótica estabelecida, a escolha da segunda droga privilegia agentes com benefício cardiovascular comprovado: agonistas do receptor de GLP-1 e inibidores de SGLT2, independentemente da hemoglobina glicada. Com obesidade associada, o agonista de GLP-1 tem vantagem adicional pelo efeito sobre o peso. A sulfonilureia causa hipoglicemia e ganho ponderal, sem benefício cardiovascular, e a insulina não é obrigatória nesse patamar de glicada.",
+  "porAlt": [
+   "A sulfonilureia causa hipoglicemia e ganho de peso, sem benefício cardiovascular demonstrado.",
+   "A insulina não é obrigatória com glicada de 8,4% e não traz o benefício cardiovascular buscado.",
+   "A pioglitazona causa retenção hídrica e ganho de peso, além de risco de fratura em alguns perfis.",
+   "Correta: com doença coronária e obesidade, o agonista de GLP-1 soma benefício cardiovascular e perda de peso.",
+   "A acarbose tem eficácia modesta e não oferece proteção cardiovascular nesse contexto clínico."
+  ]
+ },
+ {
+  "q": "Mulher de 36 anos apresenta amenorreia secundária, galactorreia e cefaleia. A prolactina está em 180 ng/mL e o teste de gravidez é negativo. Não usa medicações. Qual é a conduta?",
+  "alts": [
+   "Indicar cirurgia transesfenoidal de imediato, já tratamento de primeira linha de todo prolactinoma.",
+   "Prescrever apenas anticoncepcional oral, já que normaliza a prolactina e resolve a galactorreia.",
+   "Solicitar ressonância de sela túrcica e iniciar agonista dopaminérgico conforme o achado agora.",
+   "Solicitar cintilografia de tireoide, exame inicial na investigação da hiperprolactinemia sintomática.",
+   "Iniciar radioterapia hipofisária, opção preferida em mulheres jovens com hiperprolactinemia."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society, 2011, atualizada, e Harrison's, 22ª edição, 2025 — hiperprolactinemia e prolactinoma",
+  "coment": "Hiperprolactinemia sintomática com valores acima de 150 a 200 ng/mL, afastadas gestação, hipotireoidismo primário, insuficiência renal e fármacos, sugere adenoma hipofisário produtor de prolactina, e a ressonância de sela túrcica define tamanho e relação com estruturas vizinhas. O tratamento de primeira linha é clínico, com agonista dopaminérgico — cabergolina de preferência —, que normaliza a prolactina e reduz o tumor na maioria dos casos. A cirurgia fica para falha, intolerância ou compressão de vias ópticas.",
+  "porAlt": [
+   "A cirurgia é reservada a falha do tratamento clínico, intolerância ou compressão de quiasma óptico.",
+   "O anticoncepcional pode regularizar o ciclo mas não trata o tumor nem normaliza a prolactina.",
+   "Correta: solicitar ressonância de sela e iniciar agonista dopaminérgico, que é o tratamento de primeira linha.",
+   "A cintilografia de tireoide não investiga hiperprolactinemia; dosa-se TSH para afastar hipotireoidismo.",
+   "A radioterapia é opção de exceção em tumores refratários, com risco de hipopituitarismo tardio."
+  ]
+ },
+ {
+  "q": "Homem de 62 anos, em uso crônico de prednisona por polimialgia reumática, é internado com pneumonia grave e hipotensão refratária a volume e vasopressor. Qual é a hipótese que deve ser considerada?",
+  "alts": [
+   "Choque cardiogênico primário, hipótese preferida diante da refratariedade ao volume administrado.",
+   "Insuficiência adrenal relativa, sempre com corticoide em dose de estresse por via venosa agora.",
+   "Reação anafilática tardia ao antimicrobiano prescrito, causa mais provável de choque refratário.",
+   "Hipotireoidismo descompensado, que classicamente cursa com choque refratário a vasopressor.",
+   "Feocromocitoma oculto, cuja crise explica a hipotensão refratária em paciente séptico grave."
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "Surviving Sepsis Campaign 2026 e Endocrine Society, 2016 — insuficiência adrenal no paciente crítico",
+  "coment": "Paciente em corticoterapia crônica tem supressão do eixo hipotálamo-hipófise-adrenal e não consegue montar a resposta de estresse exigida por sepse, cirurgia ou trauma. O quadro se manifesta como hipotensão refratária a volume e vasopressor, muitas vezes com hiponatremia, hipercalemia e hipoglicemia. A conduta é administrar corticoide em dose de estresse, tipicamente hidrocortisona endovenosa, sem atrasar o tratamento para aguardar dosagem de cortisol.",
+  "porAlt": [
+   "O choque cardiogênico exigiria disfunção miocárdica evidente, ausente na descrição do caso.",
+   "Correta: corticoterapia crônica com choque refratário sugere insuficiência adrenal e indica dose de estresse.",
+   "A anafilaxia é de instalação rápida após exposição, com achados cutâneos e respiratórios típicos.",
+   "O hipotireoidismo descompensado cursa com bradicardia, hipotermia e rebaixamento, não com esse padrão.",
+   "O feocromocitoma cursa com hipertensão paroxística, e não com hipotensão refratária a vasopressor."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos, pós-menopausa, tem densitometria com escore T de -2,6 em colo femoral, sem fratura prévia e sem uso de corticoide. Qual é a conduta?",
+  "alts": [
+   "Iniciar sempre bisfosfonato com cálcio e vitamina D, pelo diagnóstico de osteoporose neste caso.",
+   "Apenas orientar exercícios e repetir a densitometria em cinco anos, sem tratamento farmacológico.",
+   "Iniciar reposição hormonal estrogênica como primeira linha do tratamento da osteoporose pós-menopausa.",
+   "Prescrever apenas cálcio isolado em dose alta, suficiente para reverter a perda óssea instalada.",
+   "Indicar paratormônio recombinante de saída, primeira escolha em qualquer osteoporose densitométrica."
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Endocrine Society, 2019, e American Association of Clinical Endocrinology, 2020 — osteoporose pós-menopausa",
+  "coment": "Escore T igual ou menor que -2,5 em coluna, colo femoral ou fêmur total define osteoporose e indica tratamento farmacológico, mesmo sem fratura prévia. Os bisfosfonatos são primeira linha para a maioria das pacientes, associados a cálcio e vitamina D e a medidas de prevenção de queda. Agentes anabólicos, como o paratormônio recombinante, ficam para osteoporose grave, múltiplas fraturas ou falha terapêutica. A reposição estrogênica não é primeira linha pela relação entre risco e benefício.",
+  "porAlt": [
+   "Correta: escore T igual ou menor que -2,5 define osteoporose e indica bisfosfonato com cálcio e vitamina D.",
+   "Apenas exercício não reverte osteoporose já estabelecida, e cinco anos de espera acumulam risco de fratura.",
+   "A reposição estrogênica não é primeira linha para osteoporose pela relação entre risco e benefício.",
+   "O cálcio isolado não trata osteoporose; é adjuvante obrigatório, mas nunca terapia única.",
+   "Os anabólicos ficam para doença grave ou falha, pelo custo e pelo perfil de indicação restrito."
+  ]
+ },
+ {
+  "q": "Homem de 30 anos apresenta ganho de peso central, estrias violáceas largas, fraqueza proximal e hipertensão de início recente. Qual é o primeiro passo diagnóstico?",
+  "alts": [
+   "Solicitar tomografia de adrenais como primeiro exame, que confirma o diagnóstico de imediato.",
+   "Iniciar cetoconazol empiricamente e reavaliar em três meses, sem confirmação laboratorial prévia.",
+   "Dosar apenas o cortisol sérico matinal isolado, exame suficiente para confirmar o diagnóstico.",
+   "Confirmar hipercortisolismo com teste de rastreio, como cortisol salivar noturno ou supressão.",
+   "Indicar adrenalectomia bilateral de imediato, já tratamento definitivo de qualquer hipercortisolismo."
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society, 2008, atualizada, e Harrison's, 22ª edição, 2025 — diagnóstico da síndrome de Cushing",
+  "coment": "A investigação da síndrome de Cushing tem três etapas em ordem obrigatória: confirmar o hipercortisolismo, definir se é dependente ou independente de corticotropina, e só então localizar a lesão por imagem. Os testes de rastreio são cortisol salivar à meia-noite, cortisol livre urinário de vinte e quatro horas e teste de supressão com dexametasona em dose baixa, sendo necessários pelo menos dois alterados. O cortisol sérico matinal isolado não serve para rastrear, pela variabilidade e pela sobreposição.",
+  "porAlt": [
+   "A imagem antes da confirmação bioquímica encontra incidentalomas e leva a diagnósticos equivocados.",
+   "Tratar empiricamente sem confirmar expõe o paciente à toxicidade de droga sem diagnóstico firmado.",
+   "O cortisol matinal isolado tem grande variabilidade e não serve como teste de rastreio da síndrome.",
+   "Correta: o primeiro passo é confirmar o hipercortisolismo com teste de rastreio adequado.",
+   "A adrenalectomia bilateral é medida de exceção e jamais precede a confirmação e a localização."
+  ]
+ },
+ {
+  "q": "Mulher de 25 anos com diabetes tipo 1 refere hipoglicemias noturnas frequentes e desconhecimento dos sintomas de alarme. Usa esquema basal-bolus com múltiplas doses. Qual é a conduta mais adequada?",
+  "alts": [
+   "Aumentar a insulina basal noturna, corrigindo a variabilidade glicêmica observada durante o sono.",
+   "Suspender toda a insulina basal e manter apenas bolus prandiais até a resolução das hipoglicemias.",
+   "Considerar monitorização contínua de glicose e revisar doses, com alvos glicêmicos menos rígidos.",
+   "Prescrever apenas lanche noturno rico em carboidrato simples, já dispensando ajuste de doses agora.",
+   "Trocar para hipoglicemiante oral, já alternativa segura ao esquema de insulina no diabetes tipo 1."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "American Diabetes Association, Standards of Care 2026 — hipoglicemia e monitorização contínua de glicose",
+  "coment": "Hipoglicemias frequentes com perda da percepção dos sintomas de alarme configuram situação de risco elevado e exigem três medidas: relaxar temporariamente os alvos glicêmicos por algumas semanas, o que ajuda a recuperar a percepção; revisar doses, horários, contagem de carboidratos e técnica de aplicação; e oferecer monitorização contínua de glicose, que a diretriz de 2026 recomenda considerar amplamente. A insulina não pode ser suspensa no diabetes tipo 1, sob risco de cetoacidose.",
+  "porAlt": [
+   "Aumentar a basal noturna agravaria justamente as hipoglicemias que ocorrem durante o sono.",
+   "Suspender a basal no diabetes tipo 1 precipita cetoacidose em poucas horas, sendo conduta perigosa.",
+   "Correta: monitorização contínua, revisão de doses e alvos menos rígidos ajudam a recuperar a percepção.",
+   "Lanche noturno é medida paliativa e não corrige o excesso de insulina que causa as hipoglicemias.",
+   "Hipoglicemiante oral não substitui insulina no diabetes tipo 1, que tem deficiência absoluta."
+  ]
+ },
+ {
+  "q": "Homem de 47 anos tem hipertensão resistente a três fármacos, hipocalemia espontânea de 3,0 mEq/L e alcalose metabólica. Qual é a hipótese e o exame inicial?",
+  "alts": [
+   "Feocromocitoma, rastreado pela dosagem de metanefrinas plasmáticas livres ou urinárias fracionadas.",
+   "Síndrome de Cushing, rastreada pela dosagem isolada do hormônio adrenocorticotrófico plasmático.",
+   "Estenose de artéria renal, cujo rastreio inicial é feito pela dosagem de potássio urinário isolado.",
+   "Coarctação de aorta, sugerida pela combinação de hipocalemia espontânea com alcalose metabólica.",
+   "Hiperaldosteronismo primário, sempre rastreado pela relação entre aldosterona e renina agora."
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society, 2016, e Diretriz Brasileira de Hipertensão Arterial, 2025 — hiperaldosteronismo primário",
+  "coment": "Hipertensão resistente com hipocalemia espontânea e alcalose metabólica é a apresentação clássica do hiperaldosteronismo primário, que é a causa secundária mais comum de hipertensão e frequentemente subdiagnosticada. O rastreio é feito pela relação entre aldosterona plasmática e atividade de renina, com atenção às drogas que interferem no resultado — espironolactona deve ser suspensa antes. Confirmado o rastreio, seguem-se teste confirmatório e tomografia de adrenais, com cateterismo de veias adrenais quando a lateralização é necessária.",
+  "porAlt": [
+   "O feocromocitoma cursa com paroxismos de hipertensão, cefaleia, sudorese e palpitação, sem hipocalemia típica.",
+   "A síndrome de Cushing tem outros achados clínicos e não é rastreada pela dosagem isolada de corticotropina.",
+   "A estenose de artéria renal não é rastreada por potássio urinário isolado e cursa com outro perfil.",
+   "A coarctação cursa com diferença de pressão entre membros superiores e inferiores, não com hipocalemia.",
+   "Correta: hipertensão resistente com hipocalemia espontânea sugere hiperaldosteronismo, rastreado pela relação aldosterona-renina."
+  ]
+ },
+ {
+  "q": "Mulher de 60 anos com nódulo tireoidiano de 2,5 cm, sólido e hipoecogênico, com microcalcificações e margens irregulares ao ultrassom. O TSH está normal. Qual é a conduta?",
+  "alts": [
+   "Cintilografia de tireoide como próximo exame, indicada em todo nódulo com TSH dentro do normal.",
+   "Tireoidectomia total imediata, sem qualquer investigação citológica prévia do nódulo detectado.",
+   "Punção aspirativa por agulha fina, sempre indicada pelos achados de alta suspeição neste caso.",
+   "Apenas repetir o ultrassom em cinco anos, prazo adequado para nódulos com essas características.",
+   "Iniciar levotiroxina supressiva, tratamento de escolha para reduzir nódulos tireoidianos suspeitos."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "American Thyroid Association, 2015, e sistema TI-RADS — avaliação do nódulo tireoidiano",
+  "coment": "Nódulo sólido e hipoecogênico com microcalcificações e margens irregulares tem alta suspeição ultrassonográfica e indicação de punção aspirativa por agulha fina a partir de um centímetro. A cintilografia só entra quando o TSH está suprimido, para identificar nódulo hiperfuncionante, que raramente é maligno. A supressão com levotiroxina foi abandonada por ineficácia e por risco de tireotoxicose iatrogênica. A cirurgia sem citologia expõe muitos pacientes a ressecção de lesão benigna.",
+  "porAlt": [
+   "A cintilografia se indica quando o TSH está suprimido, para identificar nódulo hiperfuncionante.",
+   "Operar sem citologia expõe à ressecção pacientes com nódulo benigno, que são a maioria.",
+   "Correta: achados de alta suspeição em nódulo acima de um centímetro indicam punção aspirativa por agulha fina.",
+   "Cinco anos de intervalo em nódulo de alta suspeição permitiria a progressão de uma neoplasia.",
+   "A supressão com levotiroxina foi abandonada por ineficácia e risco de tireotoxicose iatrogênica."
+  ]
+ },
+ {
+  "q": "Homem de 55 anos tem cálcio total de 11,8 mg/dL, cálcio iônico elevado, fósforo baixo e paratormônio de 96 pg/mL. A função renal é normal e ele está assintomático. Qual é o diagnóstico?",
+  "alts": [
+   "Hipercalcemia da malignidade, cujo marco é o paratormônio elevado com fósforo sérico reduzido agora.",
+   "Intoxicação por vitamina D, que cursa com paratormônio elevado e fósforo baixo caracteristicamente.",
+   "Hiperparatireoidismo primário, definido por hipercalcemia com paratormônio inapropriadamente elevado.",
+   "Hipercalcemia hipocalciúrica familiar, definida exclusivamente pelo valor do fósforo sérico baixo.",
+   "Doença de Paget óssea, cuja apresentação inclui hipercalcemia com paratormônio sempre elevado agora."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society e workshops internacionais de hiperparatireoidismo primário, 2022; Harrison's, 22ª ed., 2025",
+  "coment": "Hipercalcemia com paratormônio normal-alto ou elevado é, por definição, inapropriada: em hipercalcemia de outra causa o paratormônio deveria estar suprimido. Somado a fósforo baixo, o quadro define hiperparatireoidismo primário, causa mais comum de hipercalcemia em ambulatório. Na hipercalcemia da malignidade, o paratormônio está suprimido. A avaliação segue com cálcio urinário de vinte e quatro horas, densitometria e imagem renal, e a paratireoidectomia é indicada por critérios específicos.",
+  "porAlt": [
+   "Na hipercalcemia da malignidade o paratormônio está suprimido, e não elevado como neste paciente.",
+   "A intoxicação por vitamina D suprime o paratormônio e costuma cursar com fósforo normal ou elevado.",
+   "Correta: hipercalcemia com paratormônio inapropriadamente elevado e fósforo baixo define hiperparatireoidismo primário.",
+   "A hipercalcemia hipocalciúrica familiar exige cálcio urinário baixo, e não se define pelo fósforo.",
+   "A doença de Paget cursa com fosfatase alcalina elevada e cálcio normal na maioria dos casos."
+  ]
+ }
+]

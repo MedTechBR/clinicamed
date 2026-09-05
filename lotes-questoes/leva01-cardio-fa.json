@@ -29,10 +29,10 @@
    "Aplicar vitamina K endovenosa em dose máxima, que reverte o efeito anticoagulante da rivaroxabana.",
    "Transfundir plaquetas antes de qualquer procedimento, pois o fármaco age inibindo a agregação delas.",
    "Manter a anticoagulação sem alteração, já que interrompê-la implica risco proibitivo de AVC agora.",
-   "Suspender o anticoagulante e estabilizar a paciente, acionando a endoscopia digestiva alta de urgência.",
-   "Solicitar a dosagem do INR e adiar a endoscopia até que o resultado desse exame esteja abaixo de 1,5."
+   "Solicitar a dosagem do INR e adiar a endoscopia até que o resultado desse exame esteja abaixo de 1,5.",
+   "Suspender o anticoagulante e estabilizar a paciente, acionando a endoscopia digestiva alta de urgência."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -43,20 +43,20 @@
    "A vitamina K só reverte antagonistas da vitamina K, como a varfarina; não tem qualquer efeito sobre inibidores diretos do fator Xa.",
    "A rivaroxabana inibe o fator Xa e não a função plaquetária; transfundir plaquetas sem plaquetopenia não corrige a coagulopatia do caso.",
    "Sangramento maior com hipotensão obriga a suspender o anticoagulante; o risco tromboembólico de dias sem droga é bem menor que o da hemorragia.",
-   "Correta: suspender o anticoagulante, ressuscitar e levar à endoscopia é a sequência do sangramento maior com instabilidade hemodinâmica.",
-   "O INR não afere o efeito dos anticoagulantes diretos, e esperar o exame só atrasa o controle endoscópico da fonte do sangramento."
+   "O INR não afere o efeito dos anticoagulantes diretos, e esperar o exame só atrasa o controle endoscópico da fonte do sangramento.",
+   "Correta: suspender o anticoagulante, ressuscitar e levar à endoscopia é a sequência do sangramento maior com instabilidade hemodinâmica."
   ]
  },
  {
   "q": "Homem de 59 anos, tabagista, chega à emergência com dor torácica opressiva iniciada há 50 minutos. O eletrocardiograma mostra supradesnivelamento de ST em parede inferior. O hospital não tem hemodinâmica e o tempo de transferência até o centro com angioplastia primária é estimado em 150 minutos. Qual é a conduta correta?",
   "alts": [
-   "Transferir sem trombolisar, porque a angioplastia primária é superior em qualquer tempo de trajeto.",
    "Administrar fibrinolítico agora no próprio serviço e transferir em seguida para coronariografia.",
+   "Transferir sem trombolisar, porque a angioplastia primária é superior em qualquer tempo de trajeto.",
    "Aguardar a curva de troponina no serviço antes de decidir se vai trombolisar ou só transferir.",
    "Iniciar heparina isolada em infusão contínua e reservar a reperfusão para depois das 12 horas.",
    "Prescrever nitrato e morfina e repetir o eletrocardiograma após duas horas, antes de reperfundir."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -64,8 +64,8 @@
   "base": "ESC 2023 — Guidelines for acute coronary syndromes; Diretriz SBC de IAM com supra de ST, 2021",
   "coment": "Com supradesnivelamento de ST e tempo previsto até a angioplastia primária acima de 120 minutos, a estratégia recomendada é a fibrinólise imediata seguida de transferência para estratégia fármaco-invasiva, com coronariografia entre 2 e 24 horas (ou de resgate imediato, se não houver critérios de reperfusão). O paciente está com 50 minutos de sintomas, dentro da janela em que o fibrinolítico tem maior benefício. Esperar troponina em vigência de supra de ST é erro grave: o diagnóstico é eletrocardiográfico e clínico, e cada minuto perdido custa miocárdio.",
   "porAlt": [
-   "A angioplastia primária só é preferida quando alcançável em até 120 minutos; acima disso, o atraso anula sua vantagem sobre o fibrinolítico.",
    "Correta: tempo até a angioplastia acima de 120 minutos indica fibrinólise imediata seguida de transferência para a estratégia fármaco-invasiva.",
+   "A angioplastia primária só é preferida quando alcançável em até 120 minutos; acima disso, o atraso anula sua vantagem sobre o fibrinolítico.",
    "Troponina não é necessária para indicar reperfusão no infarto com supra de ST; esperar o resultado só atrasa o tratamento e amplia a necrose.",
    "A heparina é adjuvante e não reperfunde a artéria; reservar a reperfusão para depois de 12 horas condena o território a necrose completa.",
    "Nitrato e morfina tratam sintoma, não obstrução; repetir o eletrocardiograma em duas horas desperdiça a janela mais eficaz da fibrinólise."

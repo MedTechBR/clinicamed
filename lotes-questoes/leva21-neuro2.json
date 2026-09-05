@@ -3,12 +3,12 @@
   "q": "Mulher de 52 anos chega com cefaleia de início súbito, descrita como a pior da vida, atingindo intensidade máxima em segundos, com rigidez de nuca. A tomografia de crânio sem contraste, feita quatro horas depois, é normal. Qual é a conduta?",
   "alts": [
    "Liberar com analgesia oral, uma vez que a tomografia normal afasta com segurança causa estrutural.",
-   "Solicitar eletroencefalograma como próximo exame, para investigar a origem da dor referida por ela.",
    "Realizar punção lombar em busca de xantocromia, pois a tomografia normal não exclui a hemorragia.",
+   "Solicitar eletroencefalograma como próximo exame, para investigar a origem da dor referida por ela.",
    "Tratar como enxaqueca com triptano e reavaliar em ambulatório dentro das próximas quatro semanas.",
    "Iniciar corticoide em dose máxima empiricamente, cobrindo arterite temporal nessa faixa etária."
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "dx",
@@ -17,8 +17,8 @@
   "coment": "Cefaleia em trovoada — início súbito com pico em segundos — obriga a excluir hemorragia subaracnóidea. A tomografia sem contraste tem sensibilidade próxima de 100% nas primeiras seis horas, mas cai progressivamente depois disso; quando a suspeita é forte e a tomografia é normal, a punção lombar em busca de xantocromia e hemácias que não clareiam segue indicada, idealmente após 12 horas do início. Angiotomografia é alternativa em protocolos específicos. Liberar o paciente sem completar a investigação é o erro que precede o ressangramento, que costuma ser fatal.",
   "porAlt": [
    "A tomografia perde sensibilidade após as primeiras horas e não afasta hemorragia subaracnóidea neste cenário.",
-   "O eletroencefalograma não tem papel na investigação de cefaleia em trovoada com suspeita de hemorragia.",
    "Correta: a suspeita de hemorragia subaracnóidea com tomografia normal exige punção lombar em busca de xantocromia.",
+   "O eletroencefalograma não tem papel na investigação de cefaleia em trovoada com suspeita de hemorragia.",
    "Tratar como enxaqueca ignora o padrão de início súbito, que é justamente a bandeira vermelha do quadro.",
    "A arterite temporal cursa com cefaleia subaguda em maiores de 50 anos, e não com início explosivo em segundos."
   ]
@@ -27,12 +27,12 @@
   "q": "Homem de 28 anos teve o primeiro episódio de crise tônico-clônica generalizada, com duração de dois minutos, sem trauma nem uso de drogas. Está recuperado, com exame neurológico normal, ressonância normal e eletroencefalograma sem alterações epileptiformes. Qual é a conduta?",
   "alts": [
    "Iniciar antiepiléptico em todos os casos de primeira crise, independentemente do resultado dos exames.",
-   "Não iniciar nenhum antiepiléptico e orientar restrições e retorno, pois a recorrência é menos provável.",
    "Internar para observação por trinta dias, período mínimo de vigilância após uma primeira crise assim.",
+   "Não iniciar nenhum antiepiléptico e orientar restrições e retorno, pois a recorrência é menos provável.",
    "Solicitar apenas dosagem de prolactina para confirmar que a crise foi de origem realmente epiléptica.",
    "Iniciar dois antiepilépticos desde o começo, esquema que reduz mais a chance de nova crise no futuro."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "tto",
@@ -41,8 +41,8 @@
   "coment": "Após uma primeira crise não provocada com exame neurológico, imagem e eletroencefalograma normais, o risco de recorrência em dois anos é de cerca de 30% a 40%, e iniciar antiepiléptico reduz a chance de crise a curto prazo sem melhorar o prognóstico a longo prazo. A decisão é individualizada e considera profissão, direção veicular e preferência do paciente. Quando há lesão estrutural na imagem, alteração epileptiforme no eletroencefalograma, crise noturna ou déficit neurológico, o risco de recorrência sobe muito e o tratamento passa a ser recomendado.",
   "porAlt": [
    "Tratar toda primeira crise expõe o paciente a efeitos adversos sem melhorar o prognóstico a longo prazo.",
-   "Correta: com exames normais o risco de recorrência é menor e não se inicia antiepiléptico de rotina após a primeira crise.",
    "Não há indicação de internação prolongada em paciente recuperado, com exame e investigação normais.",
+   "Correta: com exames normais o risco de recorrência é menor e não se inicia antiepiléptico de rotina após a primeira crise.",
    "A prolactina tem janela curta e valor limitado, e não é o exame que define a conduta após a primeira crise.",
    "Iniciar dois fármacos de saída é conduta de epilepsia refratária, e não de primeira crise não provocada."
   ]
@@ -51,12 +51,12 @@
   "q": "Mulher de 76 anos apresenta declínio de memória há dois anos, com dificuldade progressiva para nomear objetos e desorientação em locais conhecidos. Não há flutuação, alucinação nem parkinsonismo. A investigação afastou causas reversíveis. Qual é a hipótese mais provável e a conduta inicial?",
   "alts": [
    "Demência por corpos de Lewy, hipótese sustentada pela ausência de flutuação e de sintoma parkinsoniano.",
+   "Doença de Alzheimer, sempre combinando medida não farmacológica e inibidor de colinesterase hoje.",
    "Demência vascular, definida sempre pelo padrão progressivo e insidioso do declínio cognitivo relatado.",
    "Delirium crônico, condição que se instala ao longo de anos em pacientes idosos institucionalizados.",
-   "Doença de Alzheimer, sempre combinando medida não farmacológica e inibidor de colinesterase hoje.",
    "Depressão maior isolada, que explica todo declínio cognitivo em idosos e dispensa outra investigação."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "dx",
@@ -65,9 +65,9 @@
   "coment": "O padrão insidioso e progressivo, com perda de memória episódica seguida de alteração de linguagem e de orientação espacial, é típico de doença de Alzheimer. Corpos de Lewy cursaria com flutuação cognitiva, alucinações visuais bem formadas e parkinsonismo; demência vascular costuma ter curso em degraus e fatores de risco vasculares; e depressão pode causar déficit cognitivo, mas o quadro tende a melhorar com tratamento. O manejo combina intervenção não farmacológica — estimulação, exercício, ajuste ambiental, apoio ao cuidador — com inibidor de colinesterase, e exige rever a lista de medicamentos anticolinérgicos.",
   "porAlt": [
    "A demência por corpos de Lewy exige flutuação, alucinação visual ou parkinsonismo, justamente o que o enunciado nega.",
+   "Correta: o padrão insidioso com memória episódica, linguagem e orientação aponta Alzheimer, tratado com medidas não farmacológicas e inibidor de colinesterase.",
    "A demência vascular costuma ter curso em degraus, com achados focais e fatores de risco vasculares proeminentes.",
    "Delirium é agudo e flutuante por definição; não existe delirium que se instale ao longo de dois anos de evolução.",
-   "Correta: o padrão insidioso com memória episódica, linguagem e orientação aponta Alzheimer, tratado com medidas não farmacológicas e inibidor de colinesterase.",
    "A depressão pode causar déficit cognitivo, mas não explica sozinha a progressão descrita e a investigação já foi feita."
   ]
  },

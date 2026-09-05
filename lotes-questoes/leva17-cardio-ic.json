@@ -51,12 +51,12 @@
   "q": "Homem de 71 anos tem insuficiência cardíaca com fração de ejeção de 56%, índice de massa corporal de 36 kg/m², dispneia aos esforços e edema de membros inferiores. Já usa inibidor de SGLT2 e antagonista mineralocorticoide. Segundo a diretriz vigente, que terapia adicional pode ser considerada?",
   "alts": [
    "Betabloqueador em dose plena, que nesse fenótipo demonstra redução consistente de mortalidade cardiovascular.",
+   "Agonista do receptor de GLP-1, semaglutida ou tirzepatida, considerado em todo paciente com obesidade.",
    "Digoxina em dose de manutenção, indicada como terapia de base para todo paciente com fração preservada.",
    "Anticoagulação oral plena, recomendada a todos os pacientes com esse fenótipo independentemente do ritmo.",
-   "Bloqueador de canal de cálcio di-hidropiridínico, considerado o quarto pilar do tratamento nesse fenótipo.",
-   "Agonista do receptor de GLP-1, semaglutida ou tirzepatida, considerado em todo paciente com obesidade."
+   "Bloqueador de canal de cálcio di-hidropiridínico, considerado o quarto pilar do tratamento nesse fenótipo."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -65,22 +65,22 @@
   "coment": "Na fração de ejeção preservada, a base medicamentosa passou a ser antagonista mineralocorticoide somado a inibidor de SGLT2. A diretriz de 2026 acrescentou recomendação classe IIa para semaglutida ou tirzepatida em pacientes com fração preservada e obesidade, apoiada em ensaios que mostraram melhora de sintomas, de capacidade funcional e de qualidade de vida nesse fenótipo — em que a obesidade não é comorbidade acessória, e sim parte do mecanismo. O betabloqueador não tem benefício de mortalidade demonstrado na fração preservada e é usado por indicação própria, como controle de frequência.",
   "porAlt": [
    "O betabloqueador não demonstrou redução de mortalidade na fração preservada; entra por indicação própria, não como pilar.",
+   "Correta: a diretriz de 2026 passou a considerar semaglutida ou tirzepatida na fração preservada quando há obesidade associada.",
    "A digoxina não é terapia de base na fração preservada e pode ser mal tolerada, sobretudo no idoso com função renal limítrofe.",
    "A anticoagulação depende de fibrilação atrial ou de outra indicação específica, e não do fenótipo de insuficiência cardíaca.",
-   "Não há quarto pilar com bloqueador de canal de cálcio; essa classe não integra o tratamento de base desse fenótipo.",
-   "Correta: a diretriz de 2026 passou a considerar semaglutida ou tirzepatida na fração preservada quando há obesidade associada."
+   "Não há quarto pilar com bloqueador de canal de cálcio; essa classe não integra o tratamento de base desse fenótipo."
   ]
  },
  {
   "q": "Homem de 69 anos chega à emergência com dispneia em repouso, estertores até terços médios, ortopneia e saturação de 88% em ar ambiente. A pressão é de 168/96 mmHg e há insuficiência cardíaca conhecida. Qual é a conduta inicial correta?",
   "alts": [
-   "Ventilação não invasiva com vasodilatador endovenoso e diurético de alça, tratando a congestão.",
    "Expansão volêmica com cristaloide, para melhorar a pré-carga e o débito cardíaco desse paciente.",
    "Betabloqueador endovenoso em bolus, para reduzir de imediato a frequência e o consumo de oxigênio.",
    "Apenas oxigênio por cateter nasal, adiando qualquer droga até que o ecocardiograma seja realizado.",
+   "Ventilação não invasiva com vasodilatador endovenoso e diurético de alça, tratando a congestão.",
    "Morfina endovenosa em dose alta como primeira medida, por reduzir a ansiedade e a pré-carga logo."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -88,23 +88,23 @@
   "base": "ESC 2026 — insuficiência cardíaca descompensada, perfil congestivo com pressão elevada",
   "coment": "O quadro é insuficiência cardíaca descompensada com congestão pulmonar e pressão elevada, o perfil que mais se beneficia de vasodilatador. A conduta reúne ventilação não invasiva, que reduz o trabalho respiratório e a pré e a pós-carga, vasodilatador endovenoso titulado e diurético de alça para a congestão. Expandir volume nesse perfil piora o edema pulmonar. O betabloqueador endovenoso na descompensação aguda com congestão pode precipitar choque, e a morfina caiu em desuso pela associação com maior necessidade de ventilação invasiva e pior desfecho.",
   "porAlt": [
-   "Correta: no perfil congestivo com pressão elevada, a combinação de ventilação não invasiva, vasodilatador e diurético é o padrão.",
    "Expandir volume em paciente com edema pulmonar agrava a congestão e a hipoxemia — é o oposto do que o quadro pede.",
    "Betabloqueador endovenoso na descompensação com congestão franca pode precipitar choque cardiogênico nesse paciente.",
    "Adiar o tratamento até o ecocardiograma é perder tempo: a conduta inicial da congestão é clínica e não depende do exame.",
+   "Correta: no perfil congestivo com pressão elevada, a combinação de ventilação não invasiva, vasodilatador e diurético é o padrão.",
    "A morfina foi associada a mais intubação e pior desfecho na descompensação, e deixou de ser medida inicial recomendada."
   ]
  },
  {
   "q": "Paciente com insuficiência cardíaca e fração de ejeção de 28% está em uso das quatro classes fundamentais em dose otimizada há seis meses. Mantém classe funcional III, ritmo sinusal, frequência de 78 bpm e QRS de 158 ms com padrão de bloqueio de ramo esquerdo. Qual é a próxima medida indicada?",
   "alts": [
-   "Aumentar a dose do diurético de alça até que os sintomas de classe funcional III desapareçam por fim.",
    "Terapia de ressincronização cardíaca, indicada nesse padrão de condução com sintomas persistentes.",
+   "Aumentar a dose do diurético de alça até que os sintomas de classe funcional III desapareçam por fim.",
    "Suspender o betabloqueador, cuja bradicardia relativa explicaria a limitação funcional que ele apresenta.",
    "Iniciar dobutamina em infusão contínua domiciliar, medida que melhora a sobrevida nesse cenário clínico.",
    "Indicar transplante cardíaco de imediato, sem antes considerar qualquer terapia por dispositivo cardíaco."
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -112,8 +112,8 @@
   "base": "ESC 2026 — terapia por dispositivo na insuficiência cardíaca com fração reduzida e QRS alargado",
   "coment": "Paciente sintomático apesar de terapia medicamentosa fundamental otimizada, em ritmo sinusal, com fração de ejeção reduzida e QRS alargado com morfologia de bloqueio de ramo esquerdo, é o perfil de maior benefício da ressincronização cardíaca: melhora sintomas, reduz internação e reduz mortalidade, com resposta tanto maior quanto mais largo o QRS e mais típica a morfologia. Aumentar diurético trata congestão, não a dissincronia. A dobutamina contínua é medida paliativa em doença avançada, associada a arritmia, e não melhora sobrevida. O transplante é considerado depois de esgotadas as terapias estabelecidas.",
   "porAlt": [
-   "Subir o diurético alivia congestão mas não corrige a dissincronia ventricular que limita este paciente já otimizado.",
    "Correta: sintomas persistentes com fração reduzida, ritmo sinusal e bloqueio de ramo esquerdo largo indicam ressincronização.",
+   "Subir o diurético alivia congestão mas não corrige a dissincronia ventricular que limita este paciente já otimizado.",
    "Retirar o betabloqueador em fração reduzida piora o prognóstico; a frequência de 78 bpm não caracteriza bradicardia.",
    "A dobutamina contínua é recurso paliativo na doença avançada, com mais arritmia e sem ganho de sobrevida demonstrado.",
    "O transplante entra depois das terapias estabelecidas, entre elas o dispositivo que este paciente ainda não recebeu."
@@ -123,12 +123,12 @@
   "q": "Mulher de 63 anos, hipertensa e diabética, é atendida em consulta de rotina sem sintomas cardiovasculares. O eletrocardiograma é normal e o ecocardiograma mostra hipertrofia ventricular esquerda com fração de ejeção de 60%. Segundo o estadiamento adotado pela diretriz vigente, em que estágio ela se encontra e o que isso implica?",
   "alts": [
    "Estágio A, porque a ausência de sintomas exclui qualquer alteração estrutural relevante no coração.",
-   "Estágio B, com doença estrutural sem sintomas, o que já indica intervir para evitar a progressão.",
    "Estágio C, uma vez que a hipertrofia ventricular equivale a sintomas manifestos de insuficiência.",
+   "Estágio B, com doença estrutural sem sintomas, o que já indica intervir para evitar a progressão.",
    "Estágio D, reservado a quem apresenta hipertrofia ventricular associada a diabetes de longa data.",
    "Fora do estadiamento, que se aplica apenas a pacientes já sintomáticos e em acompanhamento regular."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -137,8 +137,8 @@
   "coment": "A diretriz de 2026 adotou quatro estágios: A, para quem tem fatores de risco sem doença estrutural ou sintomas; B, para doença estrutural ou funcional sem sintomas, situação antes chamada de pré-insuficiência cardíaca; C, para quem tem ou teve sintomas; e D, para doença avançada e refratária. A paciente tem hipertrofia ventricular sem sintomas, portanto estágio B — e a mensagem prática do estadiamento é exatamente essa: o estágio B pede intervenção, com controle rigoroso de pressão e escolha de hipoglicemiante com benefício cardiovascular, para impedir a progressão ao estágio sintomático.",
   "porAlt": [
    "O estágio A é o de fatores de risco sem alteração estrutural, e a hipertrofia já demonstra acometimento do órgão.",
-   "Correta: doença estrutural sem sintomas é estágio B, e a diretriz enfatiza intervir aí para evitar a progressão.",
    "O estágio C exige sintomas atuais ou pregressos de insuficiência cardíaca, que esta paciente não apresenta.",
+   "Correta: doença estrutural sem sintomas é estágio B, e a diretriz enfatiza intervir aí para evitar a progressão.",
    "O estágio D descreve doença avançada e refratária ao tratamento, situação muito distante do quadro atual dela.",
    "O estadiamento cobre desde quem apenas tem risco, justamente para orientar prevenção antes do primeiro sintoma."
   ]

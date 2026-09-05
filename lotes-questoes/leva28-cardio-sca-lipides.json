@@ -27,12 +27,12 @@
   "q": "Homem de 55 anos, sem doença cardiovascular estabelecida, tem LDL-colesterol de 168 mg/dL, hipertensão controlada e é tabagista. O risco cardiovascular calculado é alto. Qual é a conduta quanto ao tratamento hipolipemiante?",
   "alts": [
    "Apenas orientar dieta por um ano, adiando qualquer estatina enquanto não houver evento clínico.",
+   "Iniciar estatina de alta potência, com meta de LDL definida pela categoria de risco do paciente.",
    "Iniciar fibrato como primeira escolha, classe preferida para já reduzir o LDL-colesterol elevado.",
    "Iniciar ezetimiba isolada, que reduz o LDL mais intensamente que qualquer estatina já disponível.",
-   "Prescrever ômega-3 em dose alta como monoterapia, medida suficiente para atingir a meta lipídica.",
-   "Iniciar estatina de alta potência, com meta de LDL definida pela categoria de risco do paciente."
+   "Prescrever ômega-3 em dose alta como monoterapia, medida suficiente para atingir a meta lipídica."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -41,10 +41,10 @@
   "coment": "Em prevenção primária de alto risco, a estatina de alta potência é a base do tratamento, associada a mudanças de estilo de vida e, aqui, à cessação do tabagismo, que é a intervenção isolada de maior impacto neste paciente. As metas de LDL são progressivamente mais baixas conforme a categoria de risco, e a ezetimiba entra como associação quando a meta não é alcançada com estatina em dose otimizada. O fibrato atua sobretudo sobre triglicérides, não sendo a escolha para reduzir LDL, e o ômega-3 não substitui a estatina na prevenção de eventos.",
   "porAlt": [
    "Adiar a estatina por um ano em paciente de alto risco acumula exposição ao LDL, que é causal na aterosclerose.",
+   "Correta: alto risco cardiovascular indica estatina de alta potência com meta de LDL definida pela categoria de risco.",
    "O fibrato reduz sobretudo triglicérides e tem efeito modesto sobre o LDL, não sendo a escolha nesse cenário.",
    "A ezetimiba isolada reduz bem menos o LDL que a estatina, e seu papel principal é como terapia associada.",
-   "O ômega-3 não substitui a estatina e não demonstrou reduzir eventos como monoterapia nessa indicação.",
-   "Correta: alto risco cardiovascular indica estatina de alta potência com meta de LDL definida pela categoria de risco."
+   "O ômega-3 não substitui a estatina e não demonstrou reduzir eventos como monoterapia nessa indicação."
   ]
  },
  {
@@ -52,11 +52,11 @@
   "alts": [
    "Manter a apixabana sem qualquer interrupção, independentemente do risco hemorrágico do exame.",
    "Suspender e fazer ponte com heparina de baixo peso molecular em todos os já anticoagulados.",
-   "Suspender a apixabana por poucos dias conforme função renal e risco do procedimento, sem ponte.",
    "Suspender a apixabana por trinta dias antes do exame, para garantir a normalização da coagulação.",
-   "Trocar por varfarina duas semanas antes do procedimento, o que facilita o controle da coagulação."
+   "Trocar por varfarina duas semanas antes do procedimento, o que facilita o controle da coagulação.",
+   "Suspender a apixabana por poucos dias conforme função renal e risco do procedimento, sem ponte."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -66,9 +66,9 @@
   "porAlt": [
    "Manter sem interrupção em procedimento com possibilidade de polipectomia expõe o paciente a sangramento evitável.",
    "A ponte com heparina aumenta sangramento sem reduzir tromboembolismo e foi abandonada na maioria dos casos.",
-   "Correta: suspende-se o anticoagulante direto por poucos dias conforme função renal e risco do exame, sem ponte com heparina.",
    "Trinta dias sem anticoagulação em escore de 5 pontos expõe o paciente a risco embólico alto e desnecessário.",
-   "Trocar por varfarina complica o controle, prolonga a interrupção efetiva e não traz vantagem periprocedimento."
+   "Trocar por varfarina complica o controle, prolonga a interrupção efetiva e não traz vantagem periprocedimento.",
+   "Correta: suspende-se o anticoagulante direto por poucos dias conforme função renal e risco do exame, sem ponte com heparina."
   ]
  },
  {
@@ -76,11 +76,11 @@
   "alts": [
    "Solicitar angiotomografia de tórax para todos os pacientes com dispneia após viagem prolongada.",
    "Iniciar anticoagulação plena empírica sem qualquer estratificação de probabilidade clínica antes.",
-   "Aplicar sempre um escore de probabilidade e, se baixa, usar o dímero D para excluir a embolia.",
    "Solicitar apenas ecocardiograma transtorácico, exame que exclui com segurança a embolia pulmonar.",
+   "Aplicar sempre um escore de probabilidade e, se baixa, usar o dímero D para excluir a embolia.",
    "Liberar com analgesia, já que a radiografia de tórax normal afasta causa cardiopulmonar aguda grave."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
@@ -90,8 +90,8 @@
   "porAlt": [
    "Tomografia para todos expõe a radiação e contraste sem necessidade em quem poderia ser excluído pelo dímero D.",
    "Anticoagular sem estratificar expõe ao sangramento pacientes que não têm a doença que se pretende tratar.",
-   "Correta: estratificar a probabilidade primeiro e, se baixa ou intermediária, usar o dímero D para excluir a embolia.",
    "O ecocardiograma pode sugerir sobrecarga do ventrículo direito, mas um exame normal não exclui embolia pulmonar.",
+   "Correta: estratificar a probabilidade primeiro e, se baixa ou intermediária, usar o dímero D para excluir a embolia.",
    "A radiografia normal é o achado mais comum na embolia pulmonar e não serve para afastar o diagnóstico."
   ]
  }

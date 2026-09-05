@@ -26,13 +26,13 @@
  {
   "q": "Mulher de 44 anos é encontrada inconsciente e sem pulso. O monitor mostra atividade elétrica sem pulso. As compressões estão em curso e o acesso venoso foi obtido. Qual é a conduta quanto à adrenalina nesse ritmo?",
   "alts": [
+   "Administrar assim que for possível, porque não há choque a ser priorizado nesse tipo de ritmo.",
    "Aguardar dois ciclos completos de compressão antes de administrar a primeira dose de adrenalina.",
    "Aplicar um choque sincronizado antes de qualquer droga, mesmo sem ritmo chocável no monitor.",
    "Administrar somente se a causa reversível já tiver sido identificada e corrigida pela equipe toda.",
-   "Administrar assim que for possível, porque não há choque a ser priorizado nesse tipo de ritmo.",
    "Preferir vasopressina em dose única, alternativa superior à adrenalina na atividade sem pulso."
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
@@ -40,10 +40,10 @@
   "base": "American Heart Association 2025 — adrenalina precoce nos ritmos não chocáveis",
   "coment": "Em atividade elétrica sem pulso e em assistolia, a diretriz orienta administrar adrenalina o quanto antes, porque não existe desfibrilação a priorizar e o benefício da droga é maior quanto mais precoce. Isso contrasta com o ritmo chocável, em que a adrenalina só entra depois das tentativas iniciais de choque. Em paralelo, a equipe deve procurar ativamente as causas reversíveis — hipovolemia, hipóxia, acidose, distúrbios de potássio, hipotermia, pneumotórax hipertensivo, tamponamento, toxinas, tromboses coronária e pulmonar —, mas essa busca corre junto e nunca atrasa a droga.",
   "porAlt": [
+   "Correta: em ritmo não chocável a adrenalina deve ser dada assim que possível, já que não há choque a ser priorizado.",
    "Aguardar dois ciclos atrasa sem motivo a única droga com indicação formal precoce nesse tipo de ritmo de parada.",
    "Choque sincronizado não tem lugar na parada; atividade elétrica sem pulso e assistolia não são ritmos chocáveis.",
    "A busca de causas reversíveis corre em paralelo à reanimação e jamais deve atrasar a administração da adrenalina.",
-   "Correta: em ritmo não chocável a adrenalina deve ser dada assim que possível, já que não há choque a ser priorizado.",
    "A vasopressina não é superior à adrenalina e a diretriz não a recomenda como substituta em nenhum ritmo de parada."
   ]
  },
@@ -52,11 +52,11 @@
   "alts": [
    "Monoterapia em dose baixa por seis meses, reservando a segunda droga apenas se a meta não for alcançada depois.",
    "Apenas mudanças de estilo de vida por um ano, adiando qualquer fármaco enquanto não houver lesão de órgão.",
-   "Três classes simultâneas desde a primeira consulta, esquema padrão para qualquer hipertensão de estágio 2.",
    "Combinação de duas classes desde o início, de preferência em comprimido único, sempre com estilo de vida.",
+   "Três classes simultâneas desde a primeira consulta, esquema padrão para qualquer hipertensão de estágio 2.",
    "Betabloqueador isolado como primeira escolha, por ser a classe de melhor perfil nesse patamar de pressão."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -66,8 +66,8 @@
   "porAlt": [
    "A monoterapia tem recomendação fraca e é reservada a perfis específicos — frágil, muito idoso, estágio 1 de baixo risco —, o que não é o caso deste paciente de alto risco.",
    "Adiar o fármaco por um ano em paciente de alto risco com estágio 2 deixa exposição pressórica acumulada sem necessidade.",
-   "Três classes de saída não é o padrão inicial; a escalada para o terceiro fármaco vem se a meta não for alcançada.",
    "Correta: a diretriz brasileira de 2025 indica começar com associação dupla em doses baixas, de preferência em comprimido único, para a maioria dos pacientes.",
+   "Três classes de saída não é o padrão inicial; a escalada para o terceiro fármaco vem se a meta não for alcançada.",
    "O betabloqueador entra por indicação própria, como coronariopatia ou arritmia, e não como primeira escolha isolada."
   ]
  },
@@ -100,11 +100,11 @@
   "alts": [
    "Prescrever captopril sublingual e liberar para casa assim que a pressão cair abaixo de 180/110 mmHg.",
    "Baixar a pressão para valores normais na primeira hora, evitando qualquer atraso na correção do quadro.",
+   "Reduzir a pressão de forma controlada por via endovenosa, pois há lesão aguda de órgão-alvo em curso.",
    "Apenas observar por seis horas sem medicação, já que o paciente está lúcido e sem déficit neurológico.",
-   "Iniciar anti-hipertensivo oral e agendar retorno ambulatorial em trinta dias para só então reavaliar.",
-   "Reduzir a pressão de forma controlada por via endovenosa, pois há lesão aguda de órgão-alvo em curso."
+   "Iniciar anti-hipertensivo oral e agendar retorno ambulatorial em trinta dias para só então reavaliar."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
@@ -114,9 +114,9 @@
   "porAlt": [
    "O captopril sublingual produz queda imprevisível e foi abandonado; liberar para casa ignora a lesão renal em curso.",
    "Normalizar a pressão na primeira hora provoca hipoperfusão de cérebro, coração e rim em quem tem autorregulação deslocada.",
+   "Correta: há lesão aguda de órgão-alvo, o que caracteriza emergência hipertensiva e exige redução controlada por via endovenosa.",
    "Observar sem tratar diante de injúria renal aguda e sintomas visuais permite que a lesão de órgão progrida.",
-   "Retorno em trinta dias é conduta de urgência hipertensiva sem lesão de órgão, situação diferente da descrita aqui.",
-   "Correta: há lesão aguda de órgão-alvo, o que caracteriza emergência hipertensiva e exige redução controlada por via endovenosa."
+   "Retorno em trinta dias é conduta de urgência hipertensiva sem lesão de órgão, situação diferente da descrita aqui."
   ]
  },
  {

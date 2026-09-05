@@ -2,13 +2,13 @@
  {
   "q": "Mulher de 47 anos, em pós-operatório de artroplastia de joelho há dez dias, chega com dispneia súbita e dor pleurítica. Está com frequência de 108 bpm, saturação de 91%, pressão de 124/78 mmHg e sem hipotensão. O escore de Wells é de 6 pontos. Qual é a conduta inicial?",
   "alts": [
-   "Anticoagular já e solicitar angiotomografia de tórax, pela alta probabilidade clínica de embolia.",
    "Solicitar dímero D primeiro e só anticoagular se o resultado do exame estiver acima do corte.",
    "Iniciar trombolítico imediatamente, indicado em toda embolia pulmonar com hipoxemia presente.",
    "Aguardar o ecocardiograma para decidir, exame que confirma o diagnóstico de embolia pulmonar.",
-   "Prescrever apenas oxigênio e analgesia, reavaliando a paciente em vinte e quatro horas na unidade."
+   "Prescrever apenas oxigênio e analgesia, reavaliando a paciente em vinte e quatro horas na unidade.",
+   "Anticoagular já e solicitar angiotomografia de tórax, pela alta probabilidade clínica de embolia."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "urg",
@@ -16,23 +16,23 @@
   "base": "European Society of Cardiology, 2019 — Guidelines for the diagnosis and management of acute pulmonary embolism",
   "coment": "Com alta probabilidade clínica, o dímero D perde utilidade: seu valor está em excluir a doença quando a probabilidade é baixa ou intermediária, e um resultado normal não afastaria embolia nesse cenário. A conduta é iniciar anticoagulação plena enquanto se confirma o diagnóstico por angiotomografia, desde que não haja contraindicação — o risco de morte por embolia não tratada supera o do sangramento nas horas de espera. Trombólise fica reservada ao alto risco, definido por hipotensão ou choque, e não à hipoxemia isolada em paciente estável.",
   "porAlt": [
-   "Correta: alta probabilidade clínica indica anticoagular já e confirmar por angiotomografia, sem esperar exames intermediários.",
    "O dímero D serve para excluir doença em probabilidade baixa ou intermediária; aqui não muda conduta e atrasa o tratamento.",
    "A trombólise é para embolia de alto risco com hipotensão ou choque; a hipoxemia isolada não é critério suficiente.",
    "O ecocardiograma avalia sobrecarga do ventrículo direito e estratifica risco, mas não confirma o diagnóstico.",
-   "Oxigênio e analgesia tratam sintoma; adiar a anticoagulação por 24 horas expõe a paciente a embolia fatal."
+   "Oxigênio e analgesia tratam sintoma; adiar a anticoagulação por 24 horas expõe a paciente a embolia fatal.",
+   "Correta: alta probabilidade clínica indica anticoagular já e confirmar por angiotomografia, sem esperar exames intermediários."
   ]
  },
  {
   "q": "Homem de 54 anos, índice de massa corporal de 38 kg/m², refere ronco alto, engasgos noturnos relatados pela esposa e sonolência diurna excessiva. Tem hipertensão resistente a três fármacos. Qual é a conduta diagnóstica mais apropriada?",
   "alts": [
-   "Solicitar polissonografia ou poligrafia domiciliar, pela alta probabilidade de apneia do sono.",
    "Solicitar apenas espirometria, exame que estabelece o diagnóstico de apneia obstrutiva do sono.",
    "Tratar empiricamente com pressão positiva sem nova exame diagnóstico prévio nesse paciente.",
+   "Solicitar polissonografia ou poligrafia domiciliar, pela alta probabilidade de apneia do sono.",
    "Prescrever modafinila para a sonolência e reavaliar em três meses, sem investigar a causa do quadro.",
    "Solicitar tomografia de tórax, exame que demonstra o colapso de via aérea superior durante o sono."
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
@@ -40,9 +40,9 @@
   "base": "American Academy of Sleep Medicine, 2017 — Clinical Practice Guideline for Diagnostic Testing for Adult OSA",
   "coment": "Ronco alto, engasgos presenciados, sonolência diurna e obesidade compõem alta probabilidade pré-teste de apneia obstrutiva do sono, e a hipertensão resistente reforça a suspeita — é uma das causas secundárias que precisam ser rastreadas. O diagnóstico exige teste objetivo: polissonografia em laboratório ou poligrafia domiciliar em pacientes com alta probabilidade e sem comorbidade cardiopulmonar significativa. A espirometria avalia função pulmonar e não tem papel diagnóstico aqui. Tratar sem confirmar impede graduar a gravidade e ajustar a pressão terapêutica.",
   "porAlt": [
-   "Correta: alta probabilidade clínica indica teste objetivo, com polissonografia ou poligrafia domiciliar conforme o perfil.",
    "A espirometria mede função pulmonar em vigília e não detecta eventos obstrutivos que ocorrem durante o sono.",
    "Tratar sem diagnóstico impede graduar gravidade, titular a pressão e documentar a indicação para o seguimento.",
+   "Correta: alta probabilidade clínica indica teste objetivo, com polissonografia ou poligrafia domiciliar conforme o perfil.",
    "A modafinila trata sintoma sem corrigir a causa e não deve preceder a investigação de um quadro tão sugestivo.",
    "A tomografia é exame estático e não demonstra colapso dinâmico de via aérea superior durante o sono."
   ]
@@ -51,12 +51,12 @@
   "q": "Homem de 66 anos, tabagista de 40 maços-ano, mantém a carga tabágica atual e tem 55 anos de idade completos há mais de uma década. Está assintomático e pergunta sobre exames para detectar câncer de pulmão precocemente. Qual é a conduta baseada em evidência?",
   "alts": [
    "Solicitar radiografia de tórax anual, exame consagrado para o rastreamento de câncer de pulmão.",
+   "Oferecer tomografia de baixa dose anual, com decisão compartilhada e apoio à cessação do tabagismo.",
    "Solicitar dosagem sérica de marcadores tumorais, estratégia mais custo-efetiva para essa finalidade.",
    "Não oferecer rastreamento nenhum, já que nenhum exame reduz mortalidade por câncer de pulmão hoje.",
-   "Solicitar broncoscopia com lavado a cada dois anos, protocolo indicado só para grandes tabagistas.",
-   "Oferecer tomografia de baixa dose anual, com decisão compartilhada e apoio à cessação do tabagismo."
+   "Solicitar broncoscopia com lavado a cada dois anos, protocolo indicado só para grandes tabagistas."
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
@@ -65,22 +65,22 @@
   "coment": "O rastreamento com tomografia de baixa dose anual reduz mortalidade por câncer de pulmão em população de risco: adultos com carga tabágica significativa, fumantes atuais ou que cessaram há menos de 15 anos, dentro da faixa etária recomendada. A conversa deve ser compartilhada, porque há falsos-positivos, achados incidentais e exposição à radiação, e deve vir acompanhada da intervenção com maior impacto de todas: apoio estruturado à cessação do tabagismo. A radiografia de tórax não reduz mortalidade e marcadores séricos não têm papel no rastreamento.",
   "porAlt": [
    "A radiografia anual foi testada e não reduz mortalidade por câncer de pulmão, tendo sido abandonada como rastreamento.",
+   "Correta: tomografia de baixa dose anual, com decisão compartilhada e apoio à cessação, é o rastreamento com benefício demonstrado.",
    "Marcadores tumorais séricos não têm sensibilidade nem especificidade para rastrear câncer de pulmão em assintomáticos.",
    "Existe rastreamento com redução de mortalidade demonstrada, de modo que negar a discussão priva o paciente do benefício.",
-   "Broncoscopia é exame invasivo e diagnóstico, sem qualquer papel como estratégia de rastreamento populacional.",
-   "Correta: tomografia de baixa dose anual, com decisão compartilhada e apoio à cessação, é o rastreamento com benefício demonstrado."
+   "Broncoscopia é exame invasivo e diagnóstico, sem qualquer papel como estratégia de rastreamento populacional."
   ]
  },
  {
   "q": "Mulher de 61 anos com DPOC chega com piora da dispneia, aumento do volume e purulência do escarro há três dias. Está com frequência respiratória de 26 irpm, saturação de 86% em ar ambiente e gasometria com pH 7,29, pressão de gás carbônico de 62 mmHg e bicarbonato de 30 mEq/L. Qual é a conduta inicial?",
   "alts": [
-   "Ventilação não invasiva, oxigênio com alvo controlado, broncodilatador, corticoide e antimicrobiano.",
    "Intubação orotraqueal imediata, indicada em toda acidose respiratória com pH abaixo de 7,30 hoje.",
    "Oxigênio em alto fluxo até saturação de 100%, corrigindo a hipoxemia da forma mais rápida possível.",
    "Apenas broncodilatador inalatório e observação, adiando corticoide e antimicrobiano por 48 horas.",
+   "Ventilação não invasiva, oxigênio com alvo controlado, broncodilatador, corticoide e antimicrobiano.",
    "Doxapram endovenoso como estimulante respiratório, substituindo a ventilação não invasiva no caso."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "urg",
@@ -88,10 +88,10 @@
   "base": "GOLD 2026 — exacerbação de DPOC com acidose respiratória e indicação de ventilação não invasiva",
   "coment": "Exacerbação com acidose respiratória — pH abaixo de 7,35 com hipercapnia — é a indicação clássica de ventilação não invasiva, que reduz intubação, mortalidade e tempo de internação. O oxigênio deve ter alvo controlado, em torno de 88% a 92%, porque a hiperóxia piora a hipercapnia por alteração da relação ventilação-perfusão e efeito Haldane. Os três critérios cardinais de exacerbação — piora da dispneia, aumento do volume e da purulência do escarro — estão presentes, o que sustenta o antimicrobiano. Corticoide sistêmico por cinco dias acelera a recuperação.",
   "porAlt": [
-   "Correta: acidose respiratória indica ventilação não invasiva, somada a oxigênio com alvo controlado, broncodilatador, corticoide e antimicrobiano.",
    "A intubação imediata se reserva à falha ou contraindicação da ventilação não invasiva, e não ao valor isolado do pH.",
    "Buscar saturação de 100% na DPOC agrava a hipercapnia; o alvo é uma faixa controlada em torno de 88% a 92%.",
    "Adiar corticoide e antimicrobiano em exacerbação com os três critérios cardinais atrasa a recuperação da paciente.",
+   "Correta: acidose respiratória indica ventilação não invasiva, somada a oxigênio com alvo controlado, broncodilatador, corticoide e antimicrobiano.",
    "O doxapram foi abandonado por eficácia inferior e efeitos adversos, não substituindo a ventilação não invasiva."
   ]
  }

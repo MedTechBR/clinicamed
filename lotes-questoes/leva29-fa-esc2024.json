@@ -3,12 +3,12 @@
   "q": "Homem de 71 anos com fibrilação atrial e cardiomiopatia hipertrófica tem escore CHA₂DS₂-VA de 1 ponto. Está assintomático, com pressão controlada e sem sangramento prévio. Segundo a diretriz europeia vigente, qual é a conduta antitrombótica?",
   "alts": [
    "Não anticoagular agora, uma vez que o escore de apenas um ponto não alcança o limiar de indicação formal.",
+   "Anticoagular sempre, porque a cardiomiopatia hipertrófica indica anticoagulação independentemente do escore.",
    "Prescrever ácido acetilsalicílico isolado, alternativa aceita quando o escore fica exatamente em um ponto.",
    "Repetir o escore em doze meses e decidir depois, mantendo o paciente sem qualquer terapia antitrombótica.",
-   "Anticoagular sempre, porque a cardiomiopatia hipertrófica indica anticoagulação independentemente do escore.",
    "Indicar oclusão do apêndice atrial esquerdo, primeira escolha nesse grupo por dispensar anticoagulação oral."
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -17,9 +17,9 @@
   "coment": "A diretriz de 2024 traz recomendação classe I, nível B, de anticoagulação oral em TODOS os pacientes com fibrilação atrial e cardiomiopatia hipertrófica ou amiloidose cardíaca, independentemente do escore CHA₂DS₂-VA. Nessas duas condições o escore simplesmente não se aplica: o risco embólico decorre da própria doença estrutural, com átrio doente e fluxo lentificado. Também vale lembrar que a diretriz classifica como classe III, nível A, o uso de antiagregante como alternativa à anticoagulação — o ácido acetilsalicílico não protege contra embolia na fibrilação atrial.",
   "porAlt": [
    "O escore não se aplica a essas duas condições: nelas a indicação vem da doença estrutural, e não da pontuação clínica.",
+   "Correta: cardiomiopatia hipertrófica e amiloidose cardíaca anticoagulam sempre, com recomendação classe I, independentemente do escore.",
    "O antiagregante como alternativa à anticoagulação é classe III nível A — não protege contra embolia na fibrilação atrial.",
    "Adiar por um ano mantém sem proteção um paciente que tem indicação formal e imediata de anticoagulação oral plena.",
-   "Correta: cardiomiopatia hipertrófica e amiloidose cardíaca anticoagulam sempre, com recomendação classe I, independentemente do escore.",
    "A oclusão do apêndice é opção para quem não pode anticoagular, e não primeira escolha em paciente elegível à droga."
   ]
  },
@@ -52,11 +52,11 @@
   "alts": [
    "Só é aceitável após falha documentada de pelo menos dois antiarrítmicos usados em dose plena por um ano.",
    "Está contraindicada enquanto houver qualquer sintoma, pelo risco elevado de complicação periprocedimento.",
-   "É recomendada apenas em pacientes com fração de ejeção reduzida associada à fibrilação atrial documentada.",
    "É recomendada como opção de primeira linha em toda fibrilação paroxística, com decisão compartilhada.",
+   "É recomendada apenas em pacientes com fração de ejeção reduzida associada à fibrilação atrial documentada.",
    "Deve ser oferecida somente depois dos setenta e cinco anos, faixa em que o benefício supera o risco."
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
@@ -66,8 +66,8 @@
   "porAlt": [
    "A exigência de falha de antiarrítmico permanece para a fibrilação persistente, mas deixou de valer para a paroxística.",
    "Sintoma é justamente a indicação da estratégia de ritmo; não há contraindicação por sintomatologia presente.",
-   "A fração de ejeção reduzida reforça a indicação, mas a recomendação de primeira linha não depende dela.",
    "Correta: a ablação é classe I como primeira linha na fibrilação paroxística, com decisão compartilhada, sem exigir falha prévia.",
+   "A fração de ejeção reduzida reforça a indicação, mas a recomendação de primeira linha não depende dela.",
    "Não existe corte etário para indicar ablação: a decisão pesa risco do procedimento, benefício esperado e preferência."
   ]
  },
@@ -100,11 +100,11 @@
   "alts": [
    "Cardioverter de imediato, porque o início há três dias ainda está dentro da janela segura de quarenta e oito horas.",
    "Cardioverter após heparina em dose única, dispensando anticoagulação oral depois do retorno ao ritmo sinusal normal.",
+   "Anticoagular por três semanas ou fazer ecocardiograma transesofágico, com quatro semanas de anticoagulação depois.",
    "Adiar a cardioversão por seis meses, tempo mínimo de anticoagulação exigido antes de qualquer tentativa de reversão.",
-   "Cardioverter e suspender o anticoagulante assim que o ritmo sinusal for confirmado no eletrocardiograma já feito.",
-   "Anticoagular por três semanas ou fazer ecocardiograma transesofágico, com quatro semanas de anticoagulação depois."
+   "Cardioverter e suspender o anticoagulante assim que o ritmo sinusal for confirmado no eletrocardiograma já feito."
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "tto",
@@ -114,9 +114,9 @@
   "porAlt": [
    "A janela de segurança é de 48 horas, e o quadro tem três dias — cardioverter agora arrisca embolia por trombo já formado.",
    "Heparina em dose única não substitui a preparação, e a anticoagulação pós-cardioversão de quatro semanas é obrigatória.",
+   "Correta: acima de 48 horas exige três semanas de anticoagulação ou transesofágico, com quatro semanas de anticoagulação depois.",
    "Seis meses não é exigência de nenhuma diretriz: três semanas de anticoagulação efetiva já permitem a cardioversão.",
-   "Suspender ao voltar ao ritmo sinusal ignora o átrio atordoado e a indicação definida pelo escore, não pelo ritmo.",
-   "Correta: acima de 48 horas exige três semanas de anticoagulação ou transesofágico, com quatro semanas de anticoagulação depois."
+   "Suspender ao voltar ao ritmo sinusal ignora o átrio atordoado e a indicação definida pelo escore, não pelo ritmo."
   ]
  },
  {

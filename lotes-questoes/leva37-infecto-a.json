@@ -1,0 +1,242 @@
+[
+ {
+  "q": "Homem de 44 anos apresenta febre há dez dias, perda de peso e tosse com escarro hemoptoico. A radiografia mostra infiltrado em ápice direito com cavitação. Qual é a conduta diagnóstica inicial?",
+  "alts": [
+   "Solicitar teste rápido molecular para tuberculose no escarro, com cultura e teste de sensibilidade.",
+   "Iniciar antibiótico de amplo espectro para pneumonia bacteriana e reavaliar em quarenta e oito horas.",
+   "Solicitar apenas radiografia de controle em trinta dias, já sem coleta de escarro no momento atual.",
+   "Encaminhar direto para biópsia pulmonar cirúrgica, exame de escolha diante de lesão cavitária neste caso.",
+   "Solicitar somente sorologia para tuberculose, exame que confirma o diagnóstico com boa acurácia."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019, atualizado",
+  "coment": "Tosse por três semanas ou mais, febre vespertina, sudorese noturna, perda de peso e imagem com cavitação apical caracterizam suspeita de tuberculose pulmonar. O exame inicial recomendado no Brasil é o teste rápido molecular no escarro, que detecta o complexo Mycobacterium tuberculosis e a resistência à rifampicina em cerca de duas horas. Devem ser solicitadas também cultura e teste de sensibilidade. A sorologia não é recomendada para diagnóstico e a biópsia cirúrgica é reservada a casos em que os métodos habituais falharam.",
+  "porAlt": [
+   "Correta: o teste rápido molecular no escarro, com cultura e sensibilidade, é o exame inicial recomendado.",
+   "Tratar como pneumonia bacteriana atrasa o diagnóstico e mantém a transmissão na comunidade.",
+   "Adiar trinta dias em caso suspeito perpetua a transmissão e agrava a lesão pulmonar do paciente.",
+   "A biópsia cirúrgica é invasiva e desnecessária quando o escarro pode fechar o diagnóstico.",
+   "A sorologia para tuberculose tem acurácia ruim e não é recomendada para diagnóstico da doença."
+  ]
+ },
+ {
+  "q": "Mulher de 33 anos tem lesão ulcerada indolor em região genital, de bordas endurecidas e fundo limpo, com adenopatia inguinal indolor. Qual é a hipótese principal e a conduta?",
+  "alts": [
+   "Herpes genital primário, tratado com aciclovir por via oral durante sete a dez dias seguidos.",
+   "Cancro mole, tratado com azitromicina, dada a característica indolor da úlcera descrita aqui.",
+   "Linfogranuloma venéreo, cuja úlcera dolorosa com fístulas é o achado típico dessa apresentação.",
+   "Sífilis primária, tratada com penicilina benzatina em dose única por via intramuscular agora.",
+   "Donovanose, diagnóstico definido pela adenopatia inguinal dolorosa e supurativa apresentada."
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas para Infecções Sexualmente Transmissíveis, 2022",
+  "coment": "A úlcera genital indolor, única, de bordas endurecidas e fundo limpo, com adenopatia regional indolor, é o cancro duro da sífilis primária. O tratamento é penicilina benzatina de 2,4 milhões de unidades em dose única por via intramuscular. Herpes cursa com vesículas agrupadas e úlceras dolorosas; cancro mole com úlceras múltiplas, dolorosas e de fundo sujo; linfogranuloma com adenopatia dolorosa e fistulizante. Testagem para HIV, hepatites e o tratamento das parcerias completam a conduta.",
+  "porAlt": [
+   "O herpes genital cursa com vesículas agrupadas e úlceras dolorosas, não com lesão única e indolor.",
+   "O cancro mole produz úlceras múltiplas e dolorosas, de fundo sujo, ao contrário do descrito no caso.",
+   "O linfogranuloma cursa com adenopatia dolorosa que fistuliza, e a lesão inicial costuma passar despercebida.",
+   "Correta: úlcera indolor de bordas endurecidas é cancro duro; trata-se com penicilina benzatina em dose única.",
+   "A donovanose produz lesão granulomatosa crônica e não a apresentação descrita nesta paciente."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos, diabético, apresenta dor e edema em pé direito com úlcera plantar profunda e secreção purulenta. Há sinal de exposição óssea ao toque com sonda estéril. Qual é a conduta?",
+  "alts": [
+   "Prescrever antibiótico oral por sete dias sem cultura, medida suficiente para infecção de pele.",
+   "Solicitar apenas radiografia e liberar, já que ela é sensível para descartar acometimento ósseo.",
+   "Considerar osteomielite, colher cultura profunda e iniciar antimicrobiano com avaliação cirúrgica.",
+   "Realizar curativo diário isolado, sem antimicrobiano, aguardando a cicatrização da lesão plantar.",
+   "Indicar amputação imediata do membro, conduta padrão diante de qualquer úlcera com exposição óssea."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Infectious Diseases Society of America, 2023 — diagnosis and treatment of diabetic foot infections",
+  "coment": "O teste do toque ósseo positivo em úlcera de pé diabético tem alta probabilidade de osteomielite e muda a conduta: exige cultura profunda ou óssea, evitando o swab superficial que só revela colonização, antimicrobiano guiado pelo agente e avaliação cirúrgica para desbridamento. A radiografia é pouco sensível nas primeiras semanas e um exame normal não afasta o diagnóstico, sendo a ressonância o exame de maior acurácia. Amputação não é conduta automática: muitos casos respondem a desbridamento com antimicrobiano prolongado.",
+  "porAlt": [
+   "Antibiótico oral curto sem cultura subtrata uma infecção profunda e favorece a seleção de resistência.",
+   "A radiografia é pouco sensível nas primeiras semanas e um exame normal não exclui a osteomielite.",
+   "Correta: toque ósseo positivo sugere osteomielite; colher cultura profunda, tratar e avaliar cirurgia.",
+   "Curativo isolado sem antimicrobiano permite a progressão da infecção óssea e a perda do membro.",
+   "A amputação é decisão de exceção; muitos casos respondem a desbridamento com antimicrobiano."
+  ]
+ },
+ {
+  "q": "Mulher de 26 anos, gestante de 12 semanas, tem teste rápido reagente para sífilis e VDRL de 1:32. Nunca foi tratada. Qual é a conduta correta?",
+  "alts": [
+   "Doxiciclina por catorze dias, alternativa preferida à penicilina em gestantes com sífilis latente.",
+   "Azitromicina em dose única, esquema aceito para gestantes com sorologia reagente para sífilis.",
+   "Aguardar o segundo trimestre para iniciar qualquer tratamento, evitando risco fetal no período atual.",
+   "Penicilina benzatina em três doses semanais, com seguimento sorológico e tratamento do parceiro.",
+   "Repetir a sorologia em três meses antes de tratar, para confirmar se há infecção realmente ativa."
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais, 2022",
+  "coment": "Na gestação, o único tratamento que trata adequadamente o feto é a penicilina benzatina, e gestante com sífilis de duração indeterminada ou latente tardia recebe três doses de 2,4 milhões de unidades com intervalo semanal. Doxiciclina é contraindicada na gestação e a azitromicina não é aceita pelo risco de resistência e por não tratar o feto. Gestante alérgica deve ser dessensibilizada, e não substituída por outra droga. O seguimento é sorológico mensal e o tratamento das parcerias é parte da conduta.",
+  "porAlt": [
+   "A doxiciclina é contraindicada na gestação por efeitos sobre ossos e dentes fetais.",
+   "A azitromicina não trata o feto adequadamente e há relatos de resistência do treponema à droga.",
+   "Adiar o tratamento aumenta o risco de sífilis congênita, que é evitável com tratamento oportuno.",
+   "Correta: penicilina benzatina em três doses semanais, com seguimento sorológico e tratamento das parcerias.",
+   "Repetir a sorologia antes de tratar retarda a proteção fetal em uma infecção já documentada."
+  ]
+ },
+ {
+  "q": "Homem de 40 anos chega com febre alta, cefaleia intensa, mialgia e sufusão conjuntival, com história de contato com água de enchente há uma semana. Apresenta icterícia rubínica e creatinina de 3,2 mg/dL. Qual é a hipótese principal?",
+  "alts": [
+   "Hepatite A aguda, cuja apresentação clássica inclui sufusão conjuntival e injúria renal aguda.",
+   "Dengue com sinais de alarme, hipótese sustentada pela icterícia rubínica descrita no exame.",
+   "Malária por Plasmodium vivax, causa mais provável diante do contato com água contaminada.",
+   "Leptospirose na forma grave, com a tríade de icterícia, injúria renal e sufusão conjuntival.",
+   "Febre tifoide não complicada, que cursa tipicamente com icterícia intensa e falência renal."
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de leptospirose",
+  "coment": "A síndrome de Weil reúne icterícia rubínica, injúria renal aguda e fenômenos hemorrágicos, e a sufusão conjuntival é um achado bastante sugestivo de leptospirose. O contexto epidemiológico de contato com água de enchente ou esgoto reforça o diagnóstico. O tratamento é antimicrobiano — penicilina ou ceftriaxona nos casos graves, doxiciclina nos leves — associado a suporte, com atenção especial à injúria renal, que costuma ser não oligúrica e hipocalêmica, e à hemorragia pulmonar, principal causa de morte.",
+  "porAlt": [
+   "A hepatite A cursa com icterícia, mas não com sufusão conjuntival nem com injúria renal desse padrão.",
+   "A dengue não causa icterícia rubínica, e o quadro descrito tem exposição epidemiológica característica.",
+   "A malária exige exposição em área endêmica com vetor, e não contato com água de enchente urbana.",
+   "Correta: icterícia rubínica, injúria renal e sufusão conjuntival com exposição a enchente definem leptospirose grave.",
+   "A febre tifoide cursa com febre prolongada e sintomas digestivos, sem icterícia rubínica típica."
+  ]
+ },
+ {
+  "q": "Mulher de 62 anos internada há oito dias em uso de ceftriaxona evolui com diarreia aquosa volumosa, dor abdominal e leucocitose de 22.000/mm³. Qual é a principal hipótese e o exame indicado?",
+  "alts": [
+   "Gastroenterite viral hospitalar, cujo diagnóstico se faz por coprocultura para bactérias entéricas.",
+   "Infecção por Clostridioides difficile, investigada por pesquisa de toxina ou teste molecular nas fezes.",
+   "Colite isquêmica aguda, confirmada por pesquisa de sangue oculto nas fezes durante a internação neste caso.",
+   "Intolerância à lactose adquirida, diagnosticada por teste de tolerância oral realizado no leito neste caso.",
+   "Síndrome do intestino irritável, hipótese preferida diante de diarreia aquosa em pacientes internados."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Infectious Diseases Society of America e SHEA, 2021 — clinical practice guidelines for Clostridioides difficile infection",
+  "coment": "Diarreia que surge durante ou após antimicrobiano, em paciente internado, com dor abdominal e leucocitose, deve levantar a suspeita de infecção por Clostridioides difficile. O diagnóstico se faz por pesquisa de toxina associada a antígeno ou por teste molecular nas fezes, sempre em amostra diarreica — testar fezes formadas detecta colonização e leva a tratamento desnecessário. O tratamento de primeira linha passou a ser fidaxomicina ou vancomicina por via oral; o metronidazol ficou como alternativa quando as outras não estão disponíveis.",
+  "porAlt": [
+   "A gastroenterite viral não explica leucocitose acentuada nem a associação temporal com o antimicrobiano.",
+   "Correta: diarreia associada a antimicrobiano em internado sugere Clostridioides difficile, investigado nas fezes.",
+   "A colite isquêmica cursa com dor desproporcional e sangramento, em perfil de paciente diferente.",
+   "A intolerância à lactose não causa leucocitose de 22.000 nem surge de forma aguda na internação.",
+   "A síndrome do intestino irritável é diagnóstico de exclusão ambulatorial, sem leucocitose associada."
+  ]
+ },
+ {
+  "q": "Homem de 55 anos com cirrose apresenta febre e piora do estado geral. As hemoculturas crescem Staphylococcus aureus resistente à oxacilina. Qual é o antimicrobiano de escolha?",
+  "alts": [
+   "Oxacilina endovenosa em dose plena, ainda a escolha para qualquer infecção por Staphylococcus aureus.",
+   "Ceftriaxona endovenosa isolada, que cobre adequadamente cepas resistentes à oxacilina no sangue.",
+   "Vancomicina endovenosa, com ajuste de dose por nível sérico e controle da função renal do paciente.",
+   "Azitromicina por via oral, opção preferida por sua excelente penetração em tecidos profundos neste caso.",
+   "Fluconazol endovenoso, indicado nas bacteriemias por cocos gram-positivos resistentes à oxacilina."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Infectious Diseases Society of America — guidelines for the treatment of methicillin-resistant Staphylococcus aureus infections, 2011, atualizadas",
+  "coment": "A resistência à oxacilina define o Staphylococcus aureus resistente à meticilina, contra o qual todos os betalactâmicos tradicionais são ineficazes, incluindo oxacilina e cefalosporinas de primeira a terceira geração. A escolha é vancomicina endovenosa com monitorização de nível sérico e de função renal, tendo daptomicina e linezolida como alternativas conforme o sítio. Bacteriemia por Staphylococcus aureus exige ainda busca de foco endovascular, ecocardiograma, retirada de cateteres e hemoculturas de controle.",
+  "porAlt": [
+   "A resistência à oxacilina implica ineficácia de todos os betalactâmicos tradicionais contra a cepa.",
+   "A ceftriaxona não cobre cepas resistentes à meticilina e levaria a falha terapêutica no paciente.",
+   "Correta: cepa resistente à oxacilina exige vancomicina, com controle de nível sérico e função renal.",
+   "A azitromicina não tem atividade confiável contra essa cepa e não trata bacteriemia estafilocócica.",
+   "O fluconazol é antifúngico e não tem qualquer atividade sobre bactérias gram-positivas."
+  ]
+ },
+ {
+  "q": "Mulher de 29 anos, sem comorbidades, apresenta febre há três dias, dor lombar à esquerda, calafrios e vômitos, com disúria associada. Está com pressão de 108/66 mmHg e frequência de 96 bpm. Qual é a conduta?",
+  "alts": [
+   "Tratar como cistite não complicada com nitrofurantoína por cinco dias em regime totalmente domiciliar.",
+   "Solicitar tomografia de vias urinárias antes de iniciar qualquer antimicrobiano nesta paciente jovem.",
+   "Prescrever apenas analgésico e hidratação, reavaliando em setenta e duas horas no ambulatório neste caso.",
+   "Tratar como pielonefrite aguda com antimicrobiano após colher urocultura, avaliando via de administração.",
+   "Iniciar antifúngico empírico, cobertura preferida na infecção urinária alta em mulheres jovens neste caso."
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Infectious Diseases Society of America, 2011, atualizada; Harrison's, 22ª edição, 2025 — pielonefrite aguda",
+  "coment": "Febre, calafrios, dor lombar e sintomas urinários caracterizam pielonefrite aguda, que difere da cistite por ser infecção de trato urinário alto e exigir urocultura antes do antimicrobiano. A escolha da via depende da gravidade, da tolerância oral e das comorbidades: pacientes estáveis e capazes de tomar medicação podem ser tratados em casa com quinolona ou cefalosporina, com reavaliação precoce. A nitrofurantoína é inadequada porque não atinge concentração tecidual renal suficiente, servindo apenas para cistite.",
+  "porAlt": [
+   "A nitrofurantoína não atinge concentração renal adequada e é inadequada para infecção do trato alto.",
+   "A imagem se reserva a falha terapêutica, suspeita de obstrução ou complicação, e não ao caso inicial.",
+   "Analgésico isolado não trata a infecção e permite a progressão para sepse de foco urinário.",
+   "Correta: pielonefrite exige urocultura e antimicrobiano, com a via definida pela gravidade e pela tolerância.",
+   "Antifúngico não é cobertura empírica na infecção urinária alta de mulher jovem sem fator de risco."
+  ]
+ },
+ {
+  "q": "Homem de 68 anos, esplenectomizado, chega com febre alta, hipotensão e rebaixamento do sensório de instalação rápida. Qual é a preocupação principal e a conduta imediata?",
+  "alts": [
+   "Crise hemolítica autoimune, tratada prioritariamente com corticoide em dose imunossupressora alta.",
+   "Sepse fulminante por germe encapsulado, com antimicrobiano de amplo espectro na primeira hora.",
+   "Reação transfusional tardia, que explica febre e hipotensão em pacientes sem baço funcionante.",
+   "Insuficiência adrenal primária, causa mais provável de choque em pacientes esplenectomizados.",
+   "Intoxicação exógena, hipótese preferida diante de rebaixamento rápido do nível de consciência."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — infecção fulminante pós-esplenectomia",
+  "coment": "O paciente esplenectomizado tem risco muito elevado de sepse fulminante por germes encapsulados, sobretudo pneumococo, Haemophilus influenzae e meningococo, com evolução para choque em poucas horas. A conduta é antimicrobiano de amplo espectro imediato, na primeira hora, junto de ressuscitação volêmica e coleta de culturas sem atrasar a droga. A prevenção é vacinação contra esses germes, revacinação conforme calendário e orientação de procurar atendimento imediato diante de febre, com esquema antimicrobiano de emergência disponível.",
+  "porAlt": [
+   "A crise hemolítica não explica febre alta com hipotensão de instalação tão rápida nesse contexto.",
+   "Correta: o esplenectomizado tem risco de sepse fulminante por encapsulado e exige antimicrobiano na primeira hora.",
+   "Reação transfusional exige transfusão recente, que o enunciado não menciona em momento algum.",
+   "A insuficiência adrenal é possível, mas a infecção é muito mais provável e mais letal se não tratada.",
+   "A intoxicação não explica a febre alta nem o contexto de asplenia com risco infeccioso conhecido."
+  ]
+ },
+ {
+  "q": "Mulher de 35 anos vai viajar para região endêmica de febre amarela e nunca foi vacinada. Está saudável e não é gestante. Qual é a conduta e o prazo?",
+  "alts": [
+   "Vacinar no dia da partida, já que a proteção se estabelece nas primeiras vinte e quatro horas.",
+   "Contraindicar a vacina e orientar apenas o uso de repelente durante toda a permanência local.",
+   "Prescrever quimioprofilaxia com antimalárico, que também protege contra o vírus da febre amarela.",
+   "Vacinar pelo menos dez dias antes da viagem, prazo necessário para a resposta imune adequada.",
+   "Vacinar apenas se ela apresentar sintomas compatíveis durante a estadia na região endêmica."
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde — Calendário Nacional de Vacinação e Guia de Vigilância em Saúde, 2024",
+  "coment": "A vacina de febre amarela deve ser aplicada com pelo menos dez dias de antecedência da viagem para área com recomendação de vacinação, prazo necessário para o desenvolvimento de imunidade protetora. A vacina é de vírus vivo atenuado, com contraindicações específicas: imunossupressão grave, alergia a ovo com anafilaxia, gestantes e lactantes de crianças com menos de seis meses, situações em que se avalia risco e benefício. Uma dose confere proteção duradoura para a maioria das pessoas.",
+  "porAlt": [
+   "A imunidade não se estabelece em vinte e quatro horas: leva cerca de dez dias para ser protetora.",
+   "Não há contraindicação nesta paciente saudável e não gestante; o repelente é medida complementar.",
+   "O antimalárico não protege contra febre amarela, que é doença viral prevenida por vacina.",
+   "Correta: a vacinação deve ocorrer com pelo menos dez dias de antecedência para haver proteção.",
+   "Vacinar após o início dos sintomas não protege e a vacina não tem papel terapêutico na doença."
+  ]
+ }
+]

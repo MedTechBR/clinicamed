@@ -5,10 +5,10 @@
    "Internação obrigatória em enfermaria por sete dias, período mínimo de observação após o diagnóstico.",
    "Internação em terapia intensiva, indicada em toda embolia pulmonar diagnosticada em paciente oncológico.",
    "Observação de doze horas com nova tomografia antes de decidir entre alta hospitalar ou internação.",
-   "Alta do pronto-socorro com anticoagulação, pois a categoria A dispensa a hospitalização do paciente.",
-   "Alta sem anticoagulação, uma vez que a embolia incidental assintomática não exige qualquer tratamento."
+   "Alta sem anticoagulação, uma vez que a embolia incidental assintomática não exige qualquer tratamento.",
+   "Alta do pronto-socorro com anticoagulação, pois a categoria A dispensa a hospitalização do paciente."
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "tto",
@@ -19,8 +19,8 @@
    "Internação de sete dias não é exigida em nenhuma categoria e contraria a recomendação para pacientes assintomáticos.",
    "A neoplasia aumenta o risco trombótico, mas não indica por si terapia intensiva em paciente estável e assintomático.",
    "Repetir tomografia em doze horas não acrescenta informação e apenas expõe a paciente a contraste e radiação.",
-   "Correta: embolia assintomática é categoria A, com alta do pronto-socorro e anticoagulação, sem necessidade de internar.",
-   "Embolia incidental é embolia: a anticoagulação está indicada, ainda que o tratamento seja ambulatorial."
+   "Embolia incidental é embolia: a anticoagulação está indicada, ainda que o tratamento seja ambulatorial.",
+   "Correta: embolia assintomática é categoria A, com alta do pronto-socorro e anticoagulação, sem necessidade de internar."
   ]
  },
  {
@@ -51,12 +51,12 @@
   "q": "Paciente com embolia pulmonar e hipotensão persistente apesar de volume e noradrenalina, com lactato em elevação, é discutido pela equipe. Segundo a diretriz vigente, qual é a posição das terapias avançadas nesse cenário?",
   "alts": [
    "Estão contraindicadas enquanto o paciente usar vasopressor, por risco proibitivo de sangramento.",
-   "São sempre razoáveis nessa categoria: trombólise sistêmica, cateter dirigido e trombectomia mecânica.",
    "Ficam reservadas apenas aos pacientes com contraindicação absoluta à anticoagulação plena convencional.",
    "Devem ser adiadas por vinte e quatro horas de anticoagulação plena antes de qualquer decisão invasiva.",
+   "São sempre razoáveis nessa categoria: trombólise sistêmica, cateter dirigido e trombectomia mecânica.",
    "São indicadas somente após confirmação de trombo em átrio direito pelo ecocardiograma transesofágico."
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "pneumo",
   "cenario": "uti",
   "comp": "urg",
@@ -65,9 +65,9 @@
   "coment": "A diretriz de 2026 posiciona as terapias avançadas — trombólise sistêmica, trombólise dirigida por cateter, trombectomia mecânica e embolectomia cirúrgica — como razoáveis para pacientes na categoria E1, isto é, falência cardiopulmonar com hipotensão persistente, e como possíveis de considerar nas categorias D1 e D2, de falência cardiopulmonar incipiente. A diretriz também recomenda a existência de equipes de resposta à embolia pulmonar, os chamados PERT, para melhorar a tempestividade do cuidado, já que essa decisão é multidisciplinar e sensível ao tempo.",
   "porAlt": [
    "O uso de vasopressor não contraindica terapia avançada; ao contrário, marca a gravidade que a justifica nesse cenário.",
-   "Correta: na categoria E1 as terapias avançadas são razoáveis, e a diretriz recomenda acionar a equipe de resposta à embolia.",
    "Contraindicação à anticoagulação leva a filtro de veia cava, e não é o que define a indicação de terapia avançada.",
    "Adiar por vinte e quatro horas em paciente com choque desperdiça a janela em que a reperfusão ainda muda o desfecho.",
+   "Correta: na categoria E1 as terapias avançadas são razoáveis, e a diretriz recomenda acionar a equipe de resposta à embolia.",
    "Trombo em átrio direito é um achado adicional, mas não é pré-requisito para indicar terapia avançada no choque."
   ]
  },
@@ -99,12 +99,12 @@
   "q": "Homem de 60 anos com infarto agudo do miocárdio com supradesnivelamento de ST é levado à angioplastia primária e apresenta doença triarterial. Está em choque cardiogênico, em uso de noradrenalina. Segundo a diretriz americana vigente, qual é a estratégia de revascularização?",
   "alts": [
    "Revascularizar todas as lesões significativas no mesmo procedimento, estratégia preferida no choque.",
-   "Revascularizar apenas o vaso culpado em emergência, sem angioplastia das artérias não culpadas agora.",
    "Adiar toda revascularização até a estabilização hemodinâmica completa do paciente em terapia intensiva.",
    "Encaminhar diretamente à cirurgia de revascularização, que é a escolha padrão diante do choque instalado.",
-   "Tratar apenas clinicamente, uma vez que a angioplastia no choque não altera a mortalidade hospitalar."
+   "Tratar apenas clinicamente, uma vez que a angioplastia no choque não altera a mortalidade hospitalar.",
+   "Revascularizar apenas o vaso culpado em emergência, sem angioplastia das artérias não culpadas agora."
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "cardio",
   "cenario": "uti",
   "comp": "urg",
@@ -113,10 +113,10 @@
   "coment": "A diretriz de 2025 recomenda revascularização completa no infarto com supradesnivelamento de ST e na síndrome sem supra — mas abre exceção explícita para o choque cardiogênico: nesse cenário, indica-se revascularização de emergência do vaso culpado, e a angioplastia de rotina das artérias não relacionadas ao infarto no mesmo tempo NÃO é recomendada. A diretriz também incorporou o suporte com bomba de fluxo microaxial em pacientes selecionados com choque relacionado ao infarto, como razoável para reduzir morte, com atenção ao maior risco de sangramento, isquemia de membro e insuficiência renal.",
   "porAlt": [
    "A revascularização completa é a regra fora do choque; no choque, tratar os não culpados no mesmo tempo piora desfechos.",
-   "Correta: no choque cardiogênico revasculariza-se o vaso culpado, e a angioplastia de rotina dos não culpados não é recomendada.",
    "Adiar a revascularização do vaso culpado no choque retira a única intervenção que pode reverter a causa da instabilidade.",
    "A cirurgia tem indicação em anatomia específica, mas não é a via padrão de emergência no choque por infarto agudo.",
-   "O tratamento apenas clínico no choque por infarto tem mortalidade proibitiva; a reperfusão é o que muda o desfecho."
+   "O tratamento apenas clínico no choque por infarto tem mortalidade proibitiva; a reperfusão é o que muda o desfecho.",
+   "Correta: no choque cardiogênico revasculariza-se o vaso culpado, e a angioplastia de rotina dos não culpados não é recomendada."
   ]
  },
  {
@@ -124,11 +124,11 @@
   "alts": [
    "Aplicar alvo restritivo de sete gramas, estratégia que costuma ser usada na hemorragia digestiva.",
    "Não transfundir em hipótese alguma, já que a anemia crônica é bem tolerada por pacientes coronariopatas.",
-   "Pode ser razoável transfundir mirando hemoglobina em torno de dez, por causa da isquemia miocárdica.",
    "Transfundir apenas se a hemoglobina cair abaixo de seis, limiar único aceito em qualquer contexto clínico.",
+   "Pode ser razoável transfundir mirando hemoglobina em torno de dez, por causa da isquemia miocárdica.",
    "Transfundir plasma fresco congelado antes das hemácias, corrigindo primeiro os fatores de coagulação."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "enf",
   "comp": "tto",
@@ -138,8 +138,8 @@
   "porAlt": [
    "O alvo restritivo se aplica à hemorragia digestiva, onde transfundir demais eleva a pressão portal e o ressangramento.",
    "Anemia com isquemia miocárdica ativa não é bem tolerada: reduz a oferta de oxigênio ao miocárdio já comprometido.",
-   "Correta: na síndrome coronariana com anemia e sem sangramento ativo, mirar hemoglobina em torno de dez pode ser razoável.",
    "O limiar de seis gramas não é universal e seria insuficiente diante de angina aos mínimos esforços neste paciente.",
+   "Correta: na síndrome coronariana com anemia e sem sangramento ativo, mirar hemoglobina em torno de dez pode ser razoável.",
    "O plasma corrige coagulopatia específica e não trata anemia, que é o problema de oferta de oxigênio deste caso."
   ]
  }

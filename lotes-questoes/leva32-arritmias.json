@@ -50,13 +50,13 @@
  {
   "q": "Mulher de 67 anos com infarto prévio e fração de ejeção de 30% chega com taquicardia regular de QRS largo a 160 bpm, pressão de 104/68 mmHg e sem dor torácica. Está consciente e orientada. Qual é a hipótese diagnóstica prioritária e a conduta?",
   "alts": [
-   "Taquicardia ventricular até prova em contrário, tratada com antiarrítmico endovenoso e monitorização.",
    "Taquicardia supraventricular com aberrância, tratada com verapamil endovenoso para reverter o ritmo.",
    "Taquicardia sinusal secundária à dor, que se resolve apenas com analgesia adequada e observação.",
    "Flutter atrial com condução dois para um, tratado com digoxina endovenosa em dose de ataque agora.",
+   "Taquicardia ventricular até prova em contrário, tratada com antiarrítmico endovenoso e monitorização.",
    "Artefato de monitorização, sem necessidade de qualquer intervenção além de refazer o traçado do ECG."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
@@ -64,10 +64,10 @@
   "base": "ESC 2022 — Guidelines for ventricular arrhythmias and the prevention of sudden cardiac death",
   "coment": "Toda taquicardia de QRS largo deve ser tratada como taquicardia ventricular até prova em contrário, e em paciente com cardiopatia estrutural ou infarto prévio a probabilidade ultrapassa 90%. Achados que reforçam são dissociação atrioventricular, batimentos de captura e de fusão e concordância nas precordiais. A conduta na forma monomórfica com pulso e paciente estável é antiarrítmico endovenoso — amiodarona ou procainamida — com cardioversão sincronizada se houver deterioração. Administrar verapamil presumindo aberrância pode precipitar colapso hemodinâmico e é um dos erros mais graves da emergência.",
   "porAlt": [
-   "Correta: QRS largo em cardiopata é taquicardia ventricular até prova em contrário, tratada com antiarrítmico e monitorização.",
    "Presumir aberrância e dar verapamil em taquicardia ventricular pode causar colapso hemodinâmico e parada.",
    "A taquicardia sinusal é regular mas de QRS estreito e com onda P identificável, o que não corresponde ao traçado descrito.",
    "O flutter conduzido dois para um tem QRS estreito, salvo aberrância, e a digoxina não é conduta de urgência aqui.",
+   "Correta: QRS largo em cardiopata é taquicardia ventricular até prova em contrário, tratada com antiarrítmico e monitorização.",
    "Descartar como artefato um traçado de taquicardia larga em cardiopata pode custar a vida do paciente."
   ]
  },
@@ -76,11 +76,11 @@
   "alts": [
    "Não indicar dispositivo algum, pois sem arritmia documentada não há indicação de prevenção nenhuma.",
    "Indicar amiodarona contínua como alternativa equivalente ao dispositivo na prevenção de morte súbita.",
-   "Indicar cardiodesfibrilador em prevenção primária a todo paciente com fração reduzida persistente.",
    "Aguardar ao menos dois anos de terapia otimizada antes de considerar qualquer dispositivo terapêutico.",
+   "Indicar cardiodesfibrilador em prevenção primária a todo paciente com fração reduzida persistente.",
    "Indicar apenas ressincronização cardíaca, independentemente da duração e da morfologia do QRS dele."
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
@@ -90,8 +90,8 @@
   "porAlt": [
    "Prevenção primária existe justamente para quem ainda não teve arritmia documentada, com base no risco estimado.",
    "A amiodarona reduz arritmia sintomática mas não substitui o dispositivo na redução de morte súbita arrítmica.",
-   "Correta: fração reduzida persistente após terapia otimizada, em classe II, indica cardiodesfibrilador em prevenção primária.",
    "O intervalo exigido é de cerca de três meses de terapia otimizada, e não de dois anos, que atrasaria a proteção.",
+   "Correta: fração reduzida persistente após terapia otimizada, em classe II, indica cardiodesfibrilador em prevenção primária.",
    "A ressincronização depende de QRS alargado com morfologia adequada, o que o enunciado não descreve."
   ]
  },
@@ -123,12 +123,12 @@
   "q": "Homem de 61 anos assintomático realiza eletrocardiograma de rotina que mostra alargamento progressivo do intervalo PR até que uma onda P deixa de conduzir, repetindo o ciclo. A frequência é de 62 bpm e ele não tem sintomas nem cardiopatia estrutural. Qual é a conduta?",
   "alts": [
    "Implante de marca-passo definitivo imediato, indicado em todo bloqueio atrioventricular já de segundo grau.",
-   "Acompanhamento clínico, pois o bloqueio de segundo grau tipo um assintomático não exige marca-passo.",
    "Suspensão imediata de qualquer atividade física até que o distúrbio de condução seja revertido por droga.",
+   "Acompanhamento clínico, pois o bloqueio de segundo grau tipo um assintomático não exige marca-passo.",
    "Início de atropina de uso contínuo por via oral, para acelerar a condução pelo nó atrioventricular dele.",
    "Estudo eletrofisiológico de urgência com ablação do nó atrioventricular como tratamento definitivo."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "dx",
@@ -137,8 +137,8 @@
   "coment": "O padrão descrito é bloqueio atrioventricular de segundo grau tipo I, o fenômeno de Wenckebach, em que o intervalo PR se alarga progressivamente até uma onda P bloqueada. Quando é assintomático, ocorre em nível nodal e não se associa a cardiopatia estrutural, o prognóstico é benigno e não há indicação de marca-passo — o acompanhamento clínico basta, com revisão de fármacos que deprimem a condução. A situação é diferente do Mobitz tipo II e do bloqueio total, que são infranodais, imprevisíveis e têm indicação de marca-passo definitivo mesmo com sintomas discretos.",
   "porAlt": [
    "Nem todo bloqueio de segundo grau indica dispositivo: o tipo I assintomático é justamente a exceção clássica.",
-   "Correta: o Wenckebach assintomático tem prognóstico benigno, dispensa marca-passo e exige apenas acompanhamento.",
    "Não há razão para restringir atividade física em paciente assintomático com bloqueio nodal benigno.",
+   "Correta: o Wenckebach assintomático tem prognóstico benigno, dispensa marca-passo e exige apenas acompanhamento.",
    "A atropina não tem formulação de uso contínuo com essa finalidade e não trata distúrbio crônico de condução.",
    "A ablação do nó atrioventricular agravaria o bloqueio e é conduta usada em contexto totalmente distinto."
   ]

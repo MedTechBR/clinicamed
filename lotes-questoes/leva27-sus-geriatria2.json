@@ -3,12 +3,12 @@
   "q": "Um paciente de 58 anos com diabetes descompensado é atendido na unidade básica e precisa de consulta com endocrinologista, que só existe no município-sede da região. O médico da equipe não sabe como encaminhar. Qual instrumento organiza esse fluxo no SUS?",
   "alts": [
    "A livre escolha do usuário, que pode se apresentar diretamente em qualquer serviço do país.",
-   "O contrato organizativo da ação pública e a pactuação regional das referências entre gestores.",
    "O poder discricionário do médico assistente, que define sozinho para onde encaminhar o caso.",
+   "O contrato organizativo da ação pública e a pactuação regional das referências entre gestores.",
    "A ordem de chegada em fila única nacional, gerida diretamente pelo Ministério da Saúde hoje.",
    "O plano municipal de saúde isolado, que independe de cada pactuação com outros municípios."
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
@@ -17,8 +17,8 @@
   "coment": "O Decreto nº 7.508/2011 organizou a regionalização: a região de saúde reúne municípios limítrofes, com serviços mínimos definidos, e as referências para os pontos de maior densidade tecnológica são pactuadas entre os gestores nas comissões intergestores, formalizando-se no contrato organizativo da ação pública da saúde. O usuário entra pelas portas de entrada definidas — atenção primária, urgência, atenção psicossocial e serviços especiais de acesso aberto — e o percurso subsequente segue a pactuação, não a escolha individual do profissional nem a livre apresentação em qualquer serviço.",
   "porAlt": [
    "A universalidade garante acesso, mas o percurso segue as portas de entrada e a pactuação regional definidas em norma.",
-   "Correta: as referências regionais são pactuadas entre gestores e formalizadas no contrato organizativo da ação pública.",
    "O encaminhamento segue fluxo pactuado; não é decisão isolada do profissional, que atua dentro da rede organizada.",
+   "Correta: as referências regionais são pactuadas entre gestores e formalizadas no contrato organizativo da ação pública.",
    "Não existe fila única nacional gerida pelo Ministério: a regulação é pactuada em âmbito regional e estadual.",
    "O plano municipal existe, mas é justamente a pactuação intermunicipal que viabiliza o acesso ao que falta no município."
   ]
@@ -26,13 +26,13 @@
  {
   "q": "Homem de 82 anos, com demência avançada e acamado, é internado pela quarta vez no ano por broncoaspiração. A família pergunta sobre traqueostomia e nutrição por sonda para prolongar a vida. Qual abordagem é a mais apropriada?",
   "alts": [
-   "Conduzir reunião de definição de objetivos de cuidado, discutindo prognóstico e valores do paciente.",
    "Indicar traqueostomia e gastrostomia de imediato, medidas que já prolongam comprovadamente a vida.",
    "Decidir sozinho pela limitação terapêutica e apenas comunicar a decisão já tomada para a família.",
    "Transferir a decisão inteiramente à família, sem oferecer qualquer recomendação médica sobre o caso.",
-   "Adiar a discussão para o momento em que houver parada cardiorrespiratória durante a internação."
+   "Adiar a discussão para o momento em que houver parada cardiorrespiratória durante a internação.",
+   "Conduzir reunião de definição de objetivos de cuidado, discutindo prognóstico e valores do paciente."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
@@ -40,23 +40,23 @@
   "base": "American Geriatrics Society, 2014, posicionamento sobre alimentação por sonda na demência avançada; Beers 2023",
   "coment": "Na demência avançada, a nutrição por sonda não reduz aspiração, não melhora cicatrização de úlceras, não prolonga a vida e associa-se a maior uso de contenção. A conduta correta não é decidir sozinho nem transferir a decisão crua à família: é conduzir uma reunião de definição de objetivos de cuidado, na qual se explica o prognóstico, se investiga o que o paciente valorizava, e se faz uma recomendação médica fundamentada. Adiar a conversa para o momento da parada transforma uma decisão ponderada em decisão feita sob pânico, no pior contexto possível.",
   "porAlt": [
-   "Correta: a reunião de objetivos de cuidado permite alinhar prognóstico, valores do paciente e recomendação médica.",
    "A sonda de alimentação na demência avançada não reduz aspiração nem prolonga a vida, e a traqueostomia não muda isso.",
    "Decidir sozinho e apenas comunicar retira a família do processo e fere o cuidado centrado na pessoa e na sua história.",
    "Entregar a decisão sem recomendação sobrecarrega a família com culpa e abandona o papel técnico do médico.",
-   "Adiar para o momento da parada obriga a decidir sob pânico, quando a deliberação cuidadosa não é mais possível."
+   "Adiar para o momento da parada obriga a decidir sob pânico, quando a deliberação cuidadosa não é mais possível.",
+   "Correta: a reunião de objetivos de cuidado permite alinhar prognóstico, valores do paciente e recomendação médica."
   ]
  },
  {
   "q": "Mulher de 79 anos usa nove medicamentos, entre eles amitriptilina para insônia, diazepam para ansiedade e um anti-inflamatório contínuo para dor no joelho. Teve uma queda com fratura de punho. Qual é a abordagem correta?",
   "alts": [
-   "Desprescrever de forma estruturada, retirando todos os fármacos de maior risco de queda e dano.",
    "Manter todos os medicamentos e acrescentar cálcio, evitando mexer em prescrição de outros colegas.",
    "Substituir a amitriptilina por outro antidepressivo tricíclico, mantendo o benzodiazepínico atual.",
    "Suspender todos os nove fármacos de uma só vez, para simplificar rapidamente o esquema da paciente.",
-   "Acrescentar um antipsicótico à noite, medida indicada para reduzir o risco de novas quedas noturnas."
+   "Acrescentar um antipsicótico à noite, medida indicada para reduzir o risco de novas quedas noturnas.",
+   "Desprescrever de forma estruturada, retirando todos os fármacos de maior risco de queda e dano."
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
@@ -64,23 +64,23 @@
   "base": "AGS Beers Criteria 2023 — medicamentos potencialmente inapropriados e risco de queda no idoso",
   "coment": "Amitriptilina, benzodiazepínico e anti-inflamatório contínuo constam entre os medicamentos potencialmente inapropriados no idoso, e os três aumentam risco de queda — o desfecho que já ocorreu. A desprescrição deve ser estruturada: listar todos os fármacos, identificar os de maior risco e menor benefício, retirar um de cada vez com plano de redução gradual quando houver risco de abstinência, e acompanhar. Retirar tudo de uma vez arrisca abstinência e descompensação. Trocar por outro tricíclico não resolve, porque a classe inteira é anticolinérgica e sedativa.",
   "porAlt": [
-   "Correta: desprescrição estruturada, priorizando os fármacos de maior risco de queda, é a resposta à fratura já ocorrida.",
    "Manter tudo e apenas somar cálcio ignora a causa da queda e acrescenta mais um item à polifarmácia existente.",
    "Trocar por outro tricíclico mantém o efeito anticolinérgico e sedativo que contribuiu para a queda da paciente.",
    "Suspender nove fármacos de uma vez arrisca abstinência e descompensação das condições que motivaram cada um.",
-   "Antipsicótico à noite aumenta queda, sedação e mortalidade no idoso, sendo o oposto do que o caso pede."
+   "Antipsicótico à noite aumenta queda, sedação e mortalidade no idoso, sendo o oposto do que o caso pede.",
+   "Correta: desprescrição estruturada, priorizando os fármacos de maior risco de queda, é a resposta à fratura já ocorrida."
   ]
  },
  {
   "q": "Durante o plantão, um paciente de 47 anos recusa internação apesar de indicação clínica clara, dizendo que precisa trabalhar. Está lúcido, orientado e compreende os riscos que lhe foram explicados. Qual é a conduta correta do médico?",
   "alts": [
-   "Registrar a recusa esclarecida em prontuário, oferecendo alternativas e mantendo a porta aberta.",
    "Internar compulsoriamente com apoio da segurança, pois a indicação clínica prevalece sobre a vontade.",
+   "Registrar a recusa esclarecida em prontuário, oferecendo alternativas e mantendo a porta aberta.",
    "Chamar a polícia para levar o paciente à internação, procedimento previsto na recusa de tratamento.",
    "Encerrar o atendimento e negar qualquer assistência futura, já que ele recusou a conduta indicada.",
    "Solicitar autorização de um familiar para internar, o que supre a recusa manifestada pelo paciente."
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "emg",
   "comp": "tto",
@@ -88,8 +88,8 @@
   "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018 — autonomia do paciente e registro da recusa",
   "coment": "Paciente adulto, lúcido e capaz tem direito de recusar internação, mesmo com indicação clínica. O papel do médico é assegurar que a decisão seja informada — explicar o quadro, os riscos concretos da recusa e as alternativas possíveis —, registrar tudo em prontuário de forma detalhada e oferecer plano alternativo com orientação de retorno. A internação involuntária tem hipóteses específicas e restritas, e não se aplica ao paciente capaz que discorda. Familiar não supre a vontade de adulto capaz, e negar assistência futura configura abandono.",
   "porAlt": [
-   "Correta: registrar a recusa esclarecida, oferecer alternativas e manter a porta aberta é o que a ética e a boa prática exigem.",
    "A indicação clínica não autoriza internar à força paciente capaz; isso configuraria constrangimento ilegal.",
+   "Correta: registrar a recusa esclarecida, oferecer alternativas e manter a porta aberta é o que a ética e a boa prática exigem.",
    "O acionamento policial não é procedimento para recusa de tratamento por paciente adulto lúcido e capaz.",
    "Negar assistência futura por discordância configura abandono e é vedado pelo Código de Ética Médica.",
    "A autorização de familiar não substitui a vontade de adulto capaz, que decide sobre o próprio corpo."

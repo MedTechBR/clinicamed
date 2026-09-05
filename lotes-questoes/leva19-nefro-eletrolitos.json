@@ -2,13 +2,13 @@
  {
   "q": "Homem de 66 anos com doença renal crônica em uso de enalapril e espironolactona chega com fraqueza. O potássio é de 7,2 mEq/L e o eletrocardiograma mostra ondas T apiculadas com alargamento do QRS. Está estável hemodinamicamente. Qual é a primeira medida a ser tomada?",
   "alts": [
+   "Gluconato de cálcio endovenoso, que estabiliza a membrana do miócito e protege contra arritmia.",
    "Resina de troca por via oral isolada, medida mais rápida para reduzir o potássio sérico agora.",
    "Hemodiálise imediata antes de qualquer droga, único recurso capaz de proteger este paciente.",
-   "Gluconato de cálcio endovenoso, que estabiliza a membrana do miócito e protege contra arritmia.",
    "Solução de glicose com insulina isolada, sem nova medida de estabilização da membrana antes.",
    "Furosemida endovenosa isolada, suficiente para corrigir a hipercalemia com alteração no traçado."
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "nefro",
   "cenario": "emg",
   "comp": "urg",
@@ -16,9 +16,9 @@
   "base": "KDIGO 2024 e Harrison's Principles of Internal Medicine, 22ª edição, 2025 — manejo da hipercalemia grave",
   "coment": "Hipercalemia com alteração eletrocardiográfica é emergência, e a sequência tem três tempos. Primeiro, estabilizar a membrana com gluconato de cálcio, que não reduz o potássio mas protege contra arritmia em minutos. Segundo, deslocar o potássio para o intracelular com insulina e glicose, e beta-agonista inalatório. Terceiro, remover potássio do corpo com resina de troca, diurético ou diálise, conforme função renal e gravidade. Suspender as drogas que retêm potássio — aqui, o inibidor da enzima conversora e a espironolactona — é parte obrigatória da conduta.",
   "porAlt": [
+   "Correta: o cálcio estabiliza a membrana em minutos e protege contra arritmia, sendo a primeira medida da hipercalemia com alteração no eletrocardiograma.",
    "A resina age em horas e não protege o coração no intervalo em que a arritmia pode ocorrer neste paciente.",
    "A diálise é etapa de remoção e pode ser necessária, mas nunca antes da estabilização de membrana e do desvio intracelular.",
-   "Correta: o cálcio estabiliza a membrana em minutos e protege contra arritmia, sendo a primeira medida da hipercalemia com alteração no eletrocardiograma.",
    "Insulina com glicose desloca o potássio, mas deixar de estabilizar a membrana antes expõe o paciente à arritmia.",
    "A furosemida contribui para a excreção, mas isolada é insuficiente diante de alteração eletrocardiográfica instalada."
   ]
@@ -52,11 +52,11 @@
   "alts": [
    "Iniciar diálise imediatamente, indicada em toda injúria renal aguda com oligúria já documentada.",
    "Prescrever furosemida em dose alta contínua, que converte a lesão oligúrica e melhora a sobrevida.",
-   "Avaliar volemia, suspender nefrotóxicos e ajustar doses, investigando causa pré-renal e obstrutiva.",
    "Manter todos os fármacos em uso e apenas repetir a creatinina em setenta e duas horas para reavaliar.",
-   "Infundir dopamina em dose renal, medida que protege o rim e restaura o débito urinário do paciente."
+   "Infundir dopamina em dose renal, medida que protege o rim e restaura o débito urinário do paciente.",
+   "Avaliar volemia, suspender nefrotóxicos e ajustar doses, investigando causa pré-renal e obstrutiva."
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "tto",
@@ -66,21 +66,21 @@
   "porAlt": [
    "A diálise tem indicações específicas e a oligúria isolada, sem distúrbio refratário, não é uma delas neste momento.",
    "O diurético maneja volume mas não trata a lesão nem melhora sobrevida; converter para não oligúrica não muda desfecho.",
-   "Correta: avaliar volemia, retirar nefrotóxicos, ajustar doses e afastar obstrução é o passo inicial na injúria renal aguda.",
    "Manter os nefrotóxicos e apenas reavaliar em três dias permite que a lesão progrida enquanto a causa segue atuando.",
-   "A dopamina em dose renal foi abandonada: não protege o rim e acrescenta risco de arritmia sem benefício demonstrado."
+   "A dopamina em dose renal foi abandonada: não protege o rim e acrescenta risco de arritmia sem benefício demonstrado.",
+   "Correta: avaliar volemia, retirar nefrotóxicos, ajustar doses e afastar obstrução é o passo inicial na injúria renal aguda."
   ]
  },
  {
   "q": "Mulher de 39 anos tem edema periorbitário e de membros inferiores há três semanas, proteinúria de 6,8 g em 24 horas, albumina de 2,1 g/dL e colesterol total de 340 mg/dL. A creatinina é normal e não há hematúria dismórfica. Qual é a síndrome e a conduta inicial?",
   "alts": [
-   "Síndrome nefrótica, com indicação de biópsia renal em todo adulto para definir a doença e tratar.",
    "Síndrome nefrítica, cuja conduta é apenas restrição de sal e observação clínica por três meses.",
    "Lesão renal aguda pré-renal, que se resolve exclusivamente com expansão volêmica endovenosa rápida.",
    "Proteinúria fisiológica, achado sem relevância clínica quando a creatinina está dentro do normal.",
+   "Síndrome nefrótica, com indicação de biópsia renal em todo adulto para definir a doença e tratar.",
    "Insuficiência cardíaca descompensada, e a proteinúria é apenas consequência da congestão venosa."
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
@@ -88,10 +88,10 @@
   "base": "KDIGO 2021 — Glomerular Diseases Guideline; Cecil Medicina, 26ª edição, 2022",
   "coment": "Proteinúria acima de 3,5 g em 24 horas com hipoalbuminemia, edema e dislipidemia define síndrome nefrótica. No adulto, a biópsia renal é habitualmente indicada, porque o tratamento depende do padrão histológico — doença de lesões mínimas, glomeruloesclerose segmentar e focal, nefropatia membranosa, entre outras — e porque muitas dessas doenças têm causa secundária a investigar. O manejo de suporte inclui bloqueio do sistema renina-angiotensina para reduzir proteinúria, controle de edema com restrição de sódio e diurético, e atenção ao risco trombótico, que é elevado nessa síndrome.",
   "porAlt": [
-   "Correta: o conjunto define síndrome nefrótica, e no adulto a biópsia costuma ser necessária para definir a doença de base.",
    "A síndrome nefrítica cursa com hematúria dismórfica, hipertensão e queda de filtração, ausentes neste quadro.",
    "Não há elementos de hipoperfusão renal, e expandir volume não explica proteinúria maciça com hipoalbuminemia.",
    "Proteinúria de quase 7 gramas nunca é fisiológica: a creatinina normal não afasta doença glomerular significativa.",
+   "Correta: o conjunto define síndrome nefrótica, e no adulto a biópsia costuma ser necessária para definir a doença de base.",
    "A congestão pode causar proteinúria discreta, mas não nessa magnitude nem com hipoalbuminemia tão acentuada."
   ]
  },
