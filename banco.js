@@ -12598,5 +12598,725 @@ window.BANCO=[
 "Encaminhar sem avaliar nega assistência clínica devida e não cumpre a notificação sanitária.",
 "A notificação decorre da suspeita e não exige confissão nem comprovação prévia da violência."
 ]
+},
+{
+"q": "Paciente assintomático apresenta bloqueio atrioventricular de segundo grau Mobitz II no eletrocardiograma. Qual é a conduta?",
+"alts": [
+"Encaminhar para avaliação de marca-passo definitivo, pois esse bloqueio evolui sempre com risco de progressão.",
+"Apenas observação clínica anual sem qualquer avaliação de indicação de dispositivo de estimulação cardíaca.",
+"Prescrever atropina de uso oral contínuo como tratamento definitivo do bloqueio atrioventricular descrito.",
+"Iniciar betabloqueador em dose plena para regularizar a condução atrioventricular observada no exame agora.",
+"Indicar ablação por cateter imediatamente em todos os pacientes com esse padrão de bloqueio no exame agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ESC Guidelines on cardiac pacing and cardiac resynchronization therapy, 2021; Diretriz Brasileira de Dispositivos Cardíacos Eletrônicos — SBC, 2023",
+"coment": "O bloqueio atrioventricular de segundo grau Mobitz II tem lesão infra-hisiana, com alto risco de progressão para bloqueio total e assistolia, e é indicação de marca-passo definitivo mesmo em paciente assintomático. O mesmo vale para bloqueio total adquirido e para bloqueio de segundo grau avançado. Já o Mobitz I com QRS estreito costuma ser suprahisiano, benigno e só tratado quando sintomático.",
+"porAlt": [
+"Correta: o Mobitz II tem lesão infra-hisiana e indica marca-passo definitivo mesmo sem sintomas.",
+"Apenas observar deixa o paciente sob risco de progressão para bloqueio total e assistolia.",
+"A atropina não tem apresentação oral de uso contínuo e não atua em bloqueio infra-hisiano.",
+"O betabloqueador agrava a condução atrioventricular e piora diretamente o bloqueio existente.",
+"A ablação trata taquiarritmias e não corrige um distúrbio de condução atrioventricular."
+]
+},
+{
+"q": "Paciente com dor torácica em repouso, eletrocardiograma normal e troponina de alta sensibilidade indetectável na chegada e após uma hora. Qual é a conduta?",
+"alts": [
+"Considerar baixa probabilidade de infarto e prosseguir a avaliação ambulatorial, buscando sempre causas alternativas.",
+"Internar em unidade coronariana todos os pacientes com dor torácica, independentemente de troponina e eletrocardiograma.",
+"Iniciar trombólise empírica em todos os pacientes com dor torácica em repouso e eletrocardiograma normal neste caso.",
+"Indicar cateterismo de urgência em todos os casos com troponina indetectável e eletrocardiograma normal neste caso.",
+"Prescrever apenas ansiolítico e liberar sem qualquer investigação de causas alternativas para a dor torácica agora."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESC Guidelines for the management of acute coronary syndromes, 2023; algoritmo 0/1 hora de troponina de alta sensibilidade",
+"coment": "O algoritmo de zero e uma hora com troponina de alta sensibilidade permite descartar infarto com alto valor preditivo negativo quando os valores estão muito baixos e sem variação, em paciente com eletrocardiograma normal e sem instabilidade. Isso libera o paciente da internação e direciona a investigação ambulatorial, incluindo avaliação de doença coronariana crônica e causas não cardíacas, como refluxo, dor musculoesquelética e ansiedade.",
+"porAlt": [
+"Correta: baixa probabilidade de infarto pelo protocolo, com investigação ambulatorial das causas alternativas.",
+"Internar todos indistintamente ocupa leitos sem benefício e expõe a exames e riscos desnecessários.",
+"A trombólise empírica sem evidência de infarto expõe a hemorragia grave sem qualquer benefício.",
+"O cateterismo de urgência não é indicado com marcadores negativos e eletrocardiograma normal.",
+"Liberar sem investigar causas alternativas deixa o paciente sem diagnóstico e sem tratamento."
+]
+},
+{
+"q": "Paciente com cardiomiopatia hipertrófica e história familiar de morte súbita. Qual é a principal avaliação a ser feita?",
+"alts": [
+"Estratificar o risco de morte súbita e avaliar desfibrilador implantável, restringindo sempre esportes competitivos.",
+"Liberar atividade física competitiva sem qualquer restrição após o início do tratamento medicamentoso indicado.",
+"Iniciar apenas diurético em dose alta como tratamento definitivo da cardiomiopatia hipertrófica descrita agora.",
+"Indicar transplante cardíaco imediato para todos os pacientes com cardiomiopatia hipertrófica diagnosticada agora.",
+"Iniciar anticoagulação plena em todos os pacientes com cardiomiopatia hipertrófica em ritmo sinusal neste caso."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "ESC Guidelines for the management of cardiomyopathies, 2023; AHA/ACC Guideline for hypertrophic cardiomyopathy, 2024",
+"coment": "Na cardiomiopatia hipertrófica, a prioridade é estratificar o risco de morte súbita, considerando história familiar de morte súbita precoce, síncope inexplicada, espessura parietal máxima, taquicardia ventricular não sustentada, resposta pressórica anormal ao exercício e realce tardio na ressonância. Escores como o europeu orientam a indicação de desfibrilador implantável. Recomenda-se evitar esportes competitivos de alta intensidade e rastrear familiares de primeiro grau.",
+"porAlt": [
+"Correta: estratificar o risco de morte súbita, avaliar desfibrilador e restringir esporte competitivo.",
+"Liberar esporte competitivo de alta intensidade aumenta o risco de morte súbita nesses pacientes.",
+"O diurético em dose alta pode reduzir a pré-carga e agravar a obstrução na via de saída.",
+"O transplante se reserva a doença avançada e refratária, e não a todo paciente diagnosticado.",
+"A anticoagulação é indicada quando há fibrilação atrial, e não em todos os pacientes em ritmo sinusal."
+]
+},
+{
+"q": "Paciente diabético apresenta infarto agudo do miocárdio sem dor torácica, com dispneia e sudorese. Qual é a implicação clínica?",
+"alts": [
+"A apresentação atípica é frequente no diabético, exigindo sempre limiar baixo para eletrocardiograma e troponina.",
+"A ausência de dor torácica descarta infarto em pacientes diabéticos, dispensando exames complementares agora.",
+"O diabetes protege o miocárdio e reduz a gravidade do infarto quando ele ocorre sem dor torácica neste caso.",
+"A dispneia isolada em diabéticos sempre indica causa pulmonar e nunca isquemia miocárdica aguda nesse contexto.",
+"O infarto sem dor tem melhor prognóstico e dispensa qualquer estratégia de reperfusão no diabético neste caso."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESC Guidelines for the management of acute coronary syndromes, 2023; Diretriz Brasileira de SCA — SBC, 2021",
+"coment": "Diabéticos, idosos, mulheres e pacientes com doença renal crônica frequentemente têm apresentação atípica do infarto, com dispneia, sudorese, náusea, síncope, mal-estar ou apenas descompensação glicêmica, em parte pela neuropatia autonômica. Esse grupo tem maior atraso no diagnóstico e pior prognóstico, o que justifica limiar baixo para eletrocardiograma e troponina diante de qualquer sintoma sugestivo, mesmo sem dor torácica típica.",
+"porAlt": [
+"Correta: apresentação atípica é frequente no diabético e exige limiar baixo para investigar isquemia.",
+"A ausência de dor não descarta infarto, sendo justamente o padrão que atrasa o diagnóstico.",
+"O diabetes agrava o prognóstico do infarto e não confere qualquer proteção ao miocárdio.",
+"A dispneia em diabético pode ser equivalente anginoso e exige investigação de isquemia.",
+"O infarto silencioso tem pior prognóstico e a reperfusão segue indicada conforme o quadro."
+]
+},
+{
+"q": "Paciente com síncope precedida de calor, náusea e visão turva, em ambiente quente, com recuperação rápida e completa. Qual é a conduta?",
+"alts": [
+"Orientar medidas comportamentais e manobras de contrapressão, dispensando sempre investigação invasiva adicional.",
+"Internar em unidade coronariana todos os pacientes com esse tipo de síncope para monitorização prolongada agora.",
+"Implantar marca-passo definitivo em todos os pacientes com síncope de características vasovagais típicas agora.",
+"Iniciar betabloqueador em dose plena como tratamento de primeira escolha na síncope vasovagal descrita agora.",
+"Solicitar cateterismo cardíaco de urgência em todos os pacientes com síncope de qualquer etiologia neste caso."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "ESC Guidelines for the diagnosis and management of syncope, 2018 com revisão 2023",
+"coment": "A síncope vasovagal tem pródromos característicos — calor, náusea, sudorese, visão turva —, gatilho identificável como calor, dor, ortostase prolongada ou emoção, e recuperação rápida e completa. O manejo é educação sobre a natureza benigna, reconhecimento dos pródromos, hidratação e sal adequados, manobras de contrapressão isométrica e evitar gatilhos. Investigação adicional se reserva a características de alarme, como síncope ao esforço ou cardiopatia estrutural.",
+"porAlt": [
+"Correta: medidas comportamentais e manobras de contrapressão, sem necessidade de investigação invasiva.",
+"A internação não é necessária diante de síncope vasovagal típica sem sinais de alarme.",
+"O marca-passo é considerado apenas em casos muito selecionados de síncope com assistolia documentada.",
+"O betabloqueador não demonstrou benefício consistente na síncope vasovagal em ensaios clínicos.",
+"O cateterismo não tem indicação diante de quadro clássico de síncope neuromediada benigna."
+]
+},
+{
+"q": "Paciente com insuficiência cardíaca e ferropenia com ferritina de 80 ng/mL e saturação de transferrina de 15%. Qual é a conduta?",
+"alts": [
+"Repor ferro endovenoso, pois a correção melhora sempre a capacidade funcional e reduz internações do paciente.",
+"Não repor ferro, pois a ferritina acima de trinta afasta qualquer deficiência nesse contexto clínico agora.",
+"Repor ferro apenas por via oral, que tem absorção preservada e eficácia superior na insuficiência cardíaca.",
+"Transfundir concentrado de hemácias como estratégia de correção da deficiência de ferro identificada agora.",
+"Iniciar eritropoetina como tratamento de escolha para a deficiência de ferro no paciente com insuficiência cardíaca."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ESC Heart Failure Guidelines, 2021 com atualização focada 2023; Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024",
+"coment": "Na insuficiência cardíaca, a deficiência de ferro é definida por ferritina abaixo de 100 ng/mL, ou entre 100 e 299 ng/mL com saturação de transferrina abaixo de 20 por cento, critério mais amplo que o da população geral por causa do estado inflamatório. A reposição endovenosa com carboximaltose férrica ou derisomaltose melhora sintomas, capacidade funcional e reduz internações. A via oral tem absorção prejudicada nesse contexto e não demonstrou o mesmo benefício.",
+"porAlt": [
+"Correta: repor ferro endovenoso, que melhora capacidade funcional e reduz internações nesses pacientes.",
+"Os critérios na insuficiência cardíaca são mais amplos, e esse perfil já define deficiência de ferro.",
+"A absorção oral é prejudicada pela inflamação e não reproduziu o benefício da via endovenosa.",
+"A transfusão não é tratamento de deficiência de ferro e expõe a riscos transfusionais evitáveis.",
+"A eritropoetina não corrige a deficiência de ferro e não melhora desfechos nessa população."
+]
+},
+{
+"q": "Paciente com trombose de veia profunda em membro inferior e contraindicação absoluta à anticoagulação. Qual é a conduta?",
+"alts": [
+"Considerar filtro de veia cava temporário, retomando sempre a anticoagulação assim que possível agora.",
+"Manter apenas observação clínica sem qualquer medida de prevenção de embolia pulmonar no paciente.",
+"Iniciar anticoagulação plena mesmo diante da contraindicação absoluta identificada na avaliação clínica.",
+"Indicar amputação do membro acometido como alternativa à anticoagulação nesse paciente com trombose.",
+"Prescrever apenas antiagregante plaquetário, que substitui com eficácia equivalente a anticoagulação plena."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "ASH guidelines for management of venous thromboembolism, 2020; CHEST Guideline and Expert Panel Report, atualização 2021",
+"coment": "O filtro de veia cava é indicado em tromboembolismo venoso agudo com contraindicação absoluta à anticoagulação, como sangramento ativo grave. Preferem-se filtros removíveis, com retirada programada, porque a permanência prolongada aumenta trombose do próprio filtro e recorrência de trombose venosa profunda. A anticoagulação deve ser iniciada assim que a contraindicação for resolvida, e o filtro retirado na sequência.",
+"porAlt": [
+"Correta: filtro de veia cava temporário, com retomada da anticoagulação assim que for possível.",
+"Não oferecer qualquer proteção expõe o paciente a embolia pulmonar potencialmente fatal.",
+"Anticoagular com contraindicação absoluta pode causar hemorragia grave e óbito do paciente.",
+"A amputação não tem qualquer relação com a prevenção de embolia pulmonar nesse contexto.",
+"O antiagregante não substitui a anticoagulação no tratamento do tromboembolismo venoso agudo."
+]
+},
+{
+"q": "Paciente com prótese valvar mecânica em posição mitral pergunta sobre anticoagulação. Qual é a orientação?",
+"alts": [
+"Anticoagulação com antagonista da vitamina K por tempo indeterminado, com alvo de INR sempre definido pela prótese.",
+"Anticoagulante oral direto como primeira escolha para todos os pacientes com prótese valvar mecânica neste caso.",
+"Apenas antiagregante plaquetário isolado, suficiente para prevenir trombose em prótese valvar mecânica neste caso.",
+"Anticoagulação apenas nos primeiros três meses após a cirurgia, com suspensão programada depois disso neste caso.",
+"Nenhuma anticoagulação enquanto o paciente permanecer assintomático e em ritmo sinusal após a cirurgia neste caso."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "ESC/EACTS Guidelines for the management of valvular heart disease, 2021; ACC/AHA Valvular Heart Disease Guideline, 2020",
+"coment": "Prótese valvar mecânica exige anticoagulação com antagonista da vitamina K por toda a vida, com alvo de INR definido pela posição e pelo tipo da prótese e pelos fatores de risco associados, sendo mais elevado na posição mitral do que na aórtica. Os anticoagulantes orais diretos são formalmente contraindicados nessa indicação, pois ensaio clínico mostrou aumento de eventos tromboembólicos e hemorrágicos, levando à interrupção precoce do estudo.",
+"porAlt": [
+"Correta: antagonista da vitamina K por tempo indeterminado, com alvo de INR definido pela prótese.",
+"Os anticoagulantes diretos são contraindicados em prótese mecânica por aumento de eventos graves.",
+"O antiagregante isolado não previne trombose de prótese mecânica e não substitui a anticoagulação.",
+"A anticoagulação em prótese mecânica é permanente e não se limita ao período pós-operatório.",
+"O risco de trombose de prótese independe de sintomas e persiste mesmo em ritmo sinusal."
+]
+},
+{
+"q": "Paciente com hipertensão e microalbuminúria, sem diabetes. Qual é a classe anti-hipertensiva preferencial?",
+"alts": [
+"Inibidor da enzima conversora ou bloqueador do receptor de angiotensina, pelo efeito antiproteinúrico sempre presente.",
+"Diurético tiazídico isolado como classe preferencial pelo efeito antiproteinúrico superior nesse perfil neste caso.",
+"Betabloqueador isolado como classe de primeira escolha para o paciente hipertenso com microalbuminúria neste caso.",
+"Bloqueador de canal de cálcio di-hidropiridínico isolado pelo efeito antiproteinúrico superior às demais classes.",
+"Alfabloqueador isolado como classe preferencial no paciente hipertenso com microalbuminúria persistente neste caso."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; KDIGO Chronic Kidney Disease Guideline, 2024",
+"coment": "Na presença de albuminúria, os bloqueadores do sistema renina-angiotensina são preferidos por reduzirem a proteinúria e a progressão da doença renal além do efeito puramente pressórico, atuando na pressão intraglomerular por dilatação da arteríola eferente. Monitoram-se creatinina e potássio após o início, e elevação de creatinina de até trinta por cento é esperada e não indica suspensão. Não se associam inibidor da enzima conversora e bloqueador do receptor.",
+"porAlt": [
+"Correta: bloqueio do sistema renina-angiotensina, pelo efeito antiproteinúrico além do pressórico.",
+"O tiazídico controla pressão, mas não tem o efeito antiproteinúrico específico dessa indicação.",
+"O betabloqueador não é primeira linha na hipertensão sem indicação cardíaca específica associada.",
+"O bloqueador de canal de cálcio di-hidropiridínico pode até aumentar a proteinúria isoladamente.",
+"O alfabloqueador não é primeira linha e se reserva a indicações específicas, como sintomas prostáticos."
+]
+},
+{
+"q": "Paciente com síndrome coronariana crônica estável, sintomático apesar de terapia otimizada e com lesão de tronco de coronária esquerda. Qual é a conduta?",
+"alts": [
+"Encaminhar para revascularização, pois a lesão de tronco tem sempre indicação de tratamento invasivo.",
+"Manter apenas tratamento clínico otimizado indefinidamente, sem qualquer avaliação de revascularização.",
+"Iniciar anticoagulação plena como tratamento de escolha para a lesão de tronco de coronária esquerda.",
+"Indicar apenas reabilitação cardíaca isolada como tratamento definitivo da lesão coronariana descrita.",
+"Aumentar indefinidamente a dose do nitrato como única estratégia terapêutica nesse paciente sintomático."
+],
+"gab": 0,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ESC Guidelines for the management of chronic coronary syndromes, 2024; ACC/AHA/SCAI Guideline for Coronary Artery Revascularization, 2021",
+"coment": "A lesão significativa de tronco de coronária esquerda tem indicação de revascularização por prognóstico, independentemente dos sintomas, sendo a escolha entre cirurgia de revascularização e angioplastia definida por anatomia, escore SYNTAX, diabetes, função ventricular, risco cirúrgico e preferência do paciente, idealmente decidida por equipe multidisciplinar. Outras indicações prognósticas incluem doença triarterial com disfunção ventricular e isquemia extensa.",
+"porAlt": [
+"Correta: lesão de tronco de coronária esquerda tem indicação de revascularização por prognóstico.",
+"Manter apenas tratamento clínico em lesão de tronco significativa desperdiça benefício de sobrevida.",
+"A anticoagulação não trata a obstrução coronariana e aumenta o risco hemorrágico do paciente.",
+"A reabilitação é parte fundamental do cuidado, mas não substitui a revascularização indicada.",
+"Aumentar nitrato indefinidamente gera tolerância e não resolve a obstrução anatômica existente."
+]
+},
+{
+"q": "Paciente com queimadura de via aérea suspeita após incêndio em ambiente fechado, com rouquidão e escarro carbonáceo. Qual é a conduta?",
+"alts": [
+"Intubação orotraqueal precoce, pois o edema progressivo torna sempre a via aérea rapidamente inacessível.",
+"Aguardar sinais claros de insuficiência respiratória antes de qualquer abordagem da via aérea do paciente.",
+"Prescrever apenas corticoide sistêmico e oxigênio por máscara sem qualquer avaliação da via aérea agora.",
+"Realizar traqueostomia eletiva em todos os casos como primeira abordagem da via aérea nesse cenário.",
+"Prescrever apenas broncodilatador inalatório como conduta definitiva para o quadro descrito no enunciado."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ATLS 11ª edição, 2024; American Burn Association guidelines on inhalation injury, revisão 2023",
+"coment": "Rouquidão, estridor, queimadura de face, vibrissas chamuscadas e escarro carbonáceo após exposição em ambiente fechado indicam lesão inalatória com risco de obstrução por edema progressivo. A intubação deve ser precoce, antes que o edema torne o procedimento impossível, pois a janela de oportunidade se fecha em poucas horas. Avalia-se também intoxicação por monóxido de carbono e cianeto, administrando oxigênio a cem por cento e antídoto quando indicado.",
+"porAlt": [
+"Correta: intubação precoce, pois o edema progressivo pode tornar a via aérea inacessível em horas.",
+"Aguardar insuficiência respiratória instalada arrisca uma via aérea impossível de ser assegurada.",
+"Corticoide e oxigênio não impedem o edema progressivo nem substituem a proteção da via aérea.",
+"A traqueostomia é procedimento de resgate, e não a primeira abordagem eletiva nesse cenário.",
+"O broncodilatador é adjuvante e não protege contra a obstrução mecânica por edema de via aérea."
+]
+},
+{
+"q": "Paciente com intoxicação por antidepressivo tricíclico apresenta QRS alargado e hipotensão. Qual é a conduta?",
+"alts": [
+"Bicarbonato de sódio endovenoso em bolus, indicado sempre diante de alargamento do QRS nessa intoxicação.",
+"Administrar flumazenil endovenoso como antídoto de escolha para a intoxicação por antidepressivo tricíclico.",
+"Administrar antiarrítmico de classe IA para corrigir o alargamento do QRS observado no eletrocardiograma.",
+"Realizar apenas lavagem gástrica tardia como principal medida terapêutica nessa intoxicação medicamentosa.",
+"Aguardar a metabolização espontânea do fármaco sem qualquer intervenção sobre a alteração eletrocardiográfica."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "AACT/EAPCCT guidance on tricyclic antidepressant poisoning, revisão 2023; Ministério da Saúde — intoxicações agudas, 2022",
+"coment": "Os antidepressivos tricíclicos bloqueiam canais de sódio, alargando o QRS e predispondo a arritmias ventriculares e hipotensão. Alargamento acima de cem milissegundos indica bicarbonato de sódio endovenoso em bolus, que alcaliniza o plasma e aumenta o sódio extracelular, deslocando o fármaco do canal. Antiarrítmicos de classe IA e IC são contraindicados por agravarem o bloqueio. O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão aqui.",
+"porAlt": [
+"Correta: bicarbonato de sódio endovenoso em bolus diante do alargamento do QRS nessa intoxicação.",
+"O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão em intoxicação mista.",
+"Antiarrítmicos de classe IA bloqueiam canais de sódio e agravam diretamente o alargamento do QRS.",
+"A lavagem gástrica tardia não é recomendada e traz risco de aspiração no paciente rebaixado.",
+"Aguardar sem tratar permite evolução para arritmia ventricular e parada cardiorrespiratória."
+]
+},
+{
+"q": "Paciente com afogamento em água doce, resgatado consciente, com tosse e hipoxemia leve. Qual é a conduta?",
+"alts": [
+"Observação hospitalar com oxigênio e reavaliação, pois a piora respiratória surge sempre em poucas horas.",
+"Alta imediata do serviço, pois o paciente consciente após afogamento não apresenta qualquer risco posterior.",
+"Administrar antibiótico profilático de rotina em todos os pacientes vítimas de afogamento em água doce.",
+"Realizar manobra de Heimlich em todos os pacientes resgatados de afogamento para retirar a água aspirada.",
+"Administrar corticoide sistêmico em dose alta de rotina em todos os casos de afogamento com hipoxemia."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Sociedade Brasileira de Salvamento Aquático — diretrizes de afogamento, revisão 2023; ILCOR/AHA drowning guidance, 2024",
+"coment": "O afogamento com sintomas respiratórios exige observação hospitalar, pois a lesão pulmonar pode progredir nas horas seguintes, com piora da hipoxemia e edema pulmonar. O tratamento é suporte com oxigênio, ventilação não invasiva ou intubação conforme a gravidade. Antibiótico profilático não é rotina, sendo reservado a água notoriamente contaminada ou a sinais de infecção. Corticoide não tem benefício, e a manobra de Heimlich está contraindicada por risco de aspiração.",
+"porAlt": [
+"Correta: observação hospitalar com oxigênio, pois a piora respiratória surge nas horas seguintes.",
+"A alta imediata desconsidera a possibilidade de deterioração respiratória nas horas seguintes.",
+"O antibiótico profilático de rotina não é indicado e seleciona resistência sem benefício claro.",
+"A manobra de Heimlich é contraindicada no afogamento e aumenta o risco de vômito e aspiração.",
+"O corticoide não demonstrou benefício na lesão pulmonar decorrente do afogamento."
+]
+},
+{
+"q": "Paciente com hipertermia de 41 °C após esforço físico em ambiente quente, com alteração de consciência. Qual é a conduta imediata?",
+"alts": [
+"Resfriamento agressivo imediato com imersão, associado sempre a suporte e monitorização de complicações.",
+"Administrar apenas antitérmico oral e aguardar a queda espontânea da temperatura corporal do paciente.",
+"Resfriar lentamente ao longo de doze horas para evitar qualquer variação térmica brusca no paciente.",
+"Administrar apenas hidratação oral e liberar o paciente para casa após a melhora inicial dos sintomas.",
+"Administrar corticoide sistêmico em dose alta como tratamento de escolha da hipertermia por esforço."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "ACSM/Wilderness Medical Society guidance on exertional heat stroke, revisão 2023; NEJM review on heat stroke, 2022",
+"coment": "A intermação por esforço é emergência: a mortalidade depende diretamente do tempo em que a temperatura central permanece elevada. O tratamento é resfriamento agressivo imediato, sendo a imersão em água gelada o método mais eficaz, com alvo de temperatura central em torno de 38,5 a 39 °C. Antitérmicos são ineficazes, porque o mecanismo não é o ponto de ajuste hipotalâmico. Monitoram-se rabdomiólise, lesão renal, coagulopatia e disfunção hepática.",
+"porAlt": [
+"Correta: resfriamento agressivo imediato com imersão, com suporte e vigilância de complicações.",
+"Antitérmicos são ineficazes na intermação, pois o mecanismo não envolve o ponto de ajuste hipotalâmico.",
+"Resfriar lentamente prolonga a exposição ao calor e aumenta diretamente a mortalidade do quadro.",
+"Liberar sem observação ignora as complicações que surgem nas horas seguintes ao evento.",
+"O corticoide não tem papel no tratamento da hipertermia por esforço e atrasa o resfriamento."
+]
+},
+{
+"q": "Paciente em ventilação mecânica apresenta queda súbita de saturação, hipotensão e ausência de murmúrio à esquerda. Qual é a conduta?",
+"alts": [
+"Descomprimir imediatamente o hemitórax acometido, pois o pneumotórax hipertensivo é diagnóstico sempre clínico.",
+"Aumentar a pressão positiva expiratória final para recrutar os alvéolos colapsados do lado acometido agora.",
+"Solicitar tomografia de tórax antes de qualquer intervenção sobre o quadro respiratório do paciente ventilado.",
+"Administrar apenas broncodilatador inalatório como primeira medida diante da queda súbita de saturação agora.",
+"Aumentar a sedação do paciente como primeira medida diante do quadro descrito durante a ventilação mecânica."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r2",
+"base": "ATLS 11ª edição, 2024; SCCM/ESICM guidance on mechanical ventilation complications, revisão 2023",
+"coment": "Em paciente ventilado, queda súbita de saturação com hipotensão e ausência de murmúrio unilateral sugere pneumotórax hipertensivo, complicação do barotrauma. O diagnóstico é clínico e a descompressão não deve aguardar imagem. Aumentar a pressão positiva expiratória final agrava o quadro ao insuflar mais o espaço pleural. A abordagem sistemática de deterioração no ventilador considera deslocamento do tubo, obstrução, pneumotórax e falha do equipamento.",
+"porAlt": [
+"Correta: descompressão imediata do hemitórax, pois o pneumotórax hipertensivo é diagnóstico clínico.",
+"Aumentar a pressão expiratória final insufla ainda mais o pneumotórax e agrava o colapso circulatório.",
+"A tomografia atrasa uma intervenção que salva a vida em minutos no paciente instável.",
+"O broncodilatador não trata a compressão mecânica causada pelo ar no espaço pleural.",
+"Aumentar a sedação mascara o quadro sem corrigir a causa mecânica da deterioração aguda."
+]
+},
+{
+"q": "Paciente vítima de esmagamento prolongado de membro é liberado do escombro. Qual é a principal preocupação imediata?",
+"alts": [
+"Hipercalemia com risco de arritmia, exigindo sempre hidratação precoce e monitorização eletrocardiográfica.",
+"Hipoglicemia grave isolada, principal complicação metabólica esperada após a liberação do membro esmagado.",
+"Hipernatremia refratária, complicação mais frequente e temida após a liberação de esmagamento prolongado.",
+"Alcalose metabólica grave, principal distúrbio associado à síndrome de esmagamento em vítimas soterradas.",
+"Hipocalemia grave, alteração eletrolítica característica que surge imediatamente após a liberação do membro."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "Disaster medicine guidance on crush syndrome — WHO/ISN Renal Disaster Relief Task Force, revisão 2023; ATLS 11ª edição, 2024",
+"coment": "Na síndrome de esmagamento, a liberação do membro reperfunde o tecido lesado e libera na circulação potássio, fósforo, ácido úrico, mioglobina e ácido láctico, com risco de hipercalemia grave e parada cardíaca nos primeiros minutos. A conduta é iniciar hidratação vigorosa antes mesmo da liberação sempre que possível, monitorar o eletrocardiograma, tratar a hipercalemia com cálcio e medidas de deslocamento intracelular e prevenir lesão renal aguda.",
+"porAlt": [
+"Correta: hipercalemia com risco de arritmia, exigindo hidratação precoce e monitorização eletrocardiográfica.",
+"A hipoglicemia não é a complicação característica da reperfusão do tecido muscular esmagado.",
+"A hipernatremia não é o distúrbio típico da síndrome de esmagamento após a liberação do membro.",
+"A síndrome de esmagamento cursa com acidose metabólica, e não com alcalose grave.",
+"A liberação do conteúdo intracelular causa hipercalemia, e não hipocalemia, no período imediato."
+]
+},
+{
+"q": "Paciente com convulsão em uso de tramadol e antidepressivo serotoninérgico, sem história prévia de epilepsia. Qual é a conduta?",
+"alts": [
+"Tratar a crise e revisar os fármacos, considerando sempre interação e redução do limiar convulsivo.",
+"Iniciar antiepiléptico contínuo por tempo indeterminado sem qualquer revisão dos medicamentos em uso.",
+"Aumentar a dose do tramadol para melhor controle da dor apesar do episódio convulsivo apresentado.",
+"Atribuir a crise a epilepsia idiopática e não revisar qualquer medicação em uso pelo próprio paciente.",
+"Suspender apenas o antidepressivo e manter o tramadol na mesma dose plena após o episódio convulsivo."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "AACT guidance on drug-induced seizures, revisão 2023; bula e alertas regulatórios sobre tramadol",
+"coment": "O tramadol reduz o limiar convulsivo, sobretudo em doses altas, em associação com serotoninérgicos, na insuficiência renal e no idoso. Diante de crise convulsiva em paciente sem epilepsia prévia, é obrigatório revisar a prescrição em busca de fármacos que reduzam o limiar — tramadol, bupropiona, antidepressivos, antipsicóticos, quinolonas e teofilina — e afastar causas metabólicas e estruturais antes de assumir epilepsia e iniciar tratamento crônico.",
+"porAlt": [
+"Correta: tratar a crise e revisar os fármacos, considerando interação e redução do limiar convulsivo.",
+"Iniciar antiepiléptico crônico sem revisar a causa medicamentosa trata o sintoma e mantém o gatilho.",
+"Aumentar o tramadol amplia diretamente o risco de novas crises convulsivas nesse paciente.",
+"Assumir epilepsia idiopática sem revisar a prescrição perde uma causa evidente e reversível.",
+"Manter o tramadol conserva o principal fármaco associado à redução do limiar convulsivo."
+]
+},
+{
+"q": "Paciente com bradicardia sintomática de 35 bpm, hipotensão e rebaixamento. Qual é a conduta imediata?",
+"alts": [
+"Atropina endovenosa e preparo de marca-passo transcutâneo, iniciando sempre suporte enquanto se busca a causa.",
+"Aguardar a recuperação espontânea da frequência cardíaca antes de qualquer intervenção medicamentosa agora.",
+"Administrar betabloqueador endovenoso para estabilizar o ritmo cardíaco do paciente bradicárdico e hipotenso.",
+"Realizar cardioversão elétrica sincronizada imediata como primeira medida diante da bradicardia sintomática.",
+"Administrar apenas oxigênio suplementar e observar clinicamente por seis horas antes de qualquer conduta."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r1",
+"base": "AHA Guidelines for CPR and ECC — Adult Bradycardia Algorithm, atualização 2025; ERC Guidelines, 2021",
+"coment": "Na bradicardia sintomática com instabilidade — hipotensão, alteração de consciência, dor torácica isquêmica ou sinais de choque —, a primeira medida farmacológica é atropina endovenosa, com preparo simultâneo de marca-passo transcutâneo e consideração de infusão de dopamina ou adrenalina. Enquanto isso, busca-se a causa: isquemia, hipercalemia, hipotermia, hipotireoidismo e fármacos como betabloqueador, bloqueador de canal de cálcio e digital.",
+"porAlt": [
+"Correta: atropina endovenosa com preparo de marca-passo transcutâneo enquanto se busca a causa.",
+"Aguardar recuperação espontânea em paciente instável arrisca parada cardíaca por bradiarritmia.",
+"O betabloqueador agrava a bradicardia e é exatamente o oposto do que o paciente necessita.",
+"A cardioversão trata taquiarritmias e não tem qualquer papel no manejo da bradicardia sintomática.",
+"Oxigênio e observação por seis horas são insuficientes diante de instabilidade hemodinâmica."
+]
+},
+{
+"q": "Paciente com dor abdominal súbita e intensa, abdome em tábua e pneumoperitônio na radiografia. Qual é a conduta?",
+"alts": [
+"Antibiótico, ressuscitação volêmica e cirurgia de urgência, pois a perfuração exige sempre controle da fonte.",
+"Prescrever apenas analgésico e observar clinicamente a evolução do abdome agudo por vinte e quatro horas.",
+"Prescrever apenas antibiótico endovenoso, sem qualquer abordagem cirúrgica da perfuração identificada agora.",
+"Realizar apenas endoscopia digestiva alta de urgência como conduta definitiva diante do pneumoperitônio.",
+"Solicitar tomografia com contraste oral antes de qualquer ressuscitação ou indicação cirúrgica do paciente."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "WSES guidelines on perforated peptic ulcer and generalized peritonitis, revisão 2023; ATLS 11ª edição, 2024",
+"coment": "Pneumoperitônio com abdome em tábua indica perfuração de víscera oca e peritonite, exigindo abordagem imediata: ressuscitação volêmica, antibiótico de amplo espectro cobrindo gram-negativos e anaeróbios, analgesia, sonda nasogástrica e cirurgia de urgência para controle da fonte. O atraso aumenta de forma expressiva a mortalidade. Exames complementares não devem retardar a decisão cirúrgica quando o quadro clínico e a radiografia já são conclusivos.",
+"porAlt": [
+"Correta: antibiótico, ressuscitação volêmica e cirurgia de urgência para o controle da fonte.",
+"Observar por vinte e quatro horas com peritonite estabelecida permite sepse e óbito evitável.",
+"O antibiótico isolado não resolve a perfuração e não substitui o controle cirúrgico da fonte.",
+"A endoscopia pode agravar a perfuração ao insuflar e não é conduta definitiva nesse quadro.",
+"O contraste oral é contraindicado na suspeita de perfuração e apenas atrasaria a cirurgia."
+]
+},
+{
+"q": "Paciente com hemorragia grave por trauma recebe transfusão maciça. Qual é a estratégia recomendada?",
+"alts": [
+"Protocolo de transfusão maciça com proporção equilibrada de hemocomponentes, associando sempre ácido tranexâmico.",
+"Transfundir apenas concentrado de hemácias em grande volume, sem plasma nem plaquetas associados neste caso.",
+"Infundir grandes volumes de cristaloide antes de qualquer hemocomponente na hemorragia grave por trauma agora já.",
+"Aguardar o resultado do coagulograma completo antes de administrar qualquer hemocomponente ao paciente agora já.",
+"Manter pressão arterial elevada com vasopressor em dose alta antes do controle cirúrgico do sangramento agora."
+],
+"gab": 0,
+"tema": "emergencias",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "ATLS 11ª edição, 2024; European guideline on management of major bleeding and coagulopathy following trauma, 6ª edição, 2023",
+"coment": "O protocolo de transfusão maciça no trauma usa proporção equilibrada de concentrado de hemácias, plasma fresco congelado e plaquetas, próxima de um para um para um, prevenindo a coagulopatia induzida pela reposição desbalanceada. O ácido tranexâmico é administrado nas primeiras três horas e reduz mortalidade. Grandes volumes de cristaloide agravam a tríade letal de hipotermia, acidose e coagulopatia, e a hipotensão permissiva é adotada até o controle da fonte.",
+"porAlt": [
+"Correta: protocolo de transfusão maciça com proporção equilibrada e ácido tranexâmico precoce.",
+"Hemácias isoladas em grande volume produzem coagulopatia dilucional e piora do sangramento.",
+"Grandes volumes de cristaloide agravam a tríade letal de hipotermia, acidose e coagulopatia.",
+"Aguardar o coagulograma atrasa a reposição em uma situação de exsanguinação em curso.",
+"Elevar a pressão antes do controle da fonte aumenta o sangramento e desloca o coágulo formado."
+]
+},
+{
+"q": "Paciente com HIV em tratamento apresenta carga viral indetectável há dois anos e pergunta sobre transmissão sexual. Qual é a orientação?",
+"alts": [
+"Carga viral indetectável sustentada torna a transmissão sexual intransmissível, mantendo sempre a adesão ao tratamento.",
+"A transmissão sexual permanece igualmente provável mesmo com carga viral indetectável sustentada por anos neste caso.",
+"A carga viral indetectável autoriza a suspensão do antirretroviral sem qualquer risco de rebote virológico neste caso.",
+"A transmissão só é evitada com abstinência sexual completa, mesmo com carga viral indetectável sustentada neste caso.",
+"A indetectabilidade elimina a necessidade de qualquer acompanhamento clínico ou laboratorial posterior neste caso."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; estudos PARTNER e HPTN 052",
+"coment": "O conceito indetectável igual a intransmissível está estabelecido por grandes estudos: pessoas com HIV em tratamento e carga viral indetectável sustentada por pelo menos seis meses não transmitem o vírus por via sexual. Isso não dispensa a adesão contínua, o acompanhamento com carga viral periódica, nem a prevenção de outras infecções sexualmente transmissíveis, que seguem sendo transmitidas independentemente da carga viral do HIV.",
+"porAlt": [
+"Correta: indetectável sustentado significa intransmissível por via sexual, com adesão mantida.",
+"Grandes estudos demonstraram ausência de transmissão sexual com carga viral indetectável sustentada.",
+"Suspender o antirretroviral leva a rebote virológico e retorno do risco de transmissão em semanas.",
+"A abstinência não é necessária, pois a indetectabilidade sustentada já impede a transmissão sexual.",
+"O acompanhamento clínico e a carga viral periódica seguem sendo necessários indefinidamente."
+]
+},
+{
+"q": "Paciente com abscesso cutâneo de 4 cm flutuante, sem sinais sistêmicos. Qual é a conduta?",
+"alts": [
+"Drenagem cirúrgica do abscesso, considerando sempre antibiótico associado conforme o tamanho e o contexto.",
+"Apenas antibiótico oral sem qualquer drenagem do abscesso flutuante identificado ao exame físico agora.",
+"Apenas compressa morna domiciliar por trinta dias como tratamento definitivo do abscesso descrito agora já.",
+"Antibiótico endovenoso em ambiente hospitalar para todos os pacientes com abscesso cutâneo flutuante.",
+"Corticoide sistêmico em dose alta como tratamento de escolha para o abscesso cutâneo flutuante descrito."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "IDSA Practice Guidelines for Skin and Soft Tissue Infections, revisão 2023",
+"coment": "O tratamento do abscesso cutâneo é a drenagem, que é a intervenção essencial. Antibiótico sistêmico é acrescentado em abscessos maiores que dois centímetros, múltiplos, com celulite extensa associada, em imunossuprimidos, em áreas de difícil drenagem e diante de sinais sistêmicos, cobrindo Staphylococcus aureus incluindo cepas resistentes conforme a epidemiologia local. Antibiótico sem drenagem falha porque não penetra adequadamente na coleção.",
+"porAlt": [
+"Correta: drenagem do abscesso, com antibiótico associado conforme o tamanho e o contexto clínico.",
+"O antibiótico isolado penetra mal na coleção e falha sem a drenagem da cavidade abscedada.",
+"Compressas mornas por trinta dias permitem progressão local e disseminação da infecção.",
+"O tratamento endovenoso hospitalar é desproporcional para abscesso sem sinais sistêmicos.",
+"O corticoide não trata a infecção e favorece a disseminação do processo infeccioso local."
+]
+},
+{
+"q": "Paciente com esquistossomose e hipertensão portal com varizes esofágicas. Qual é a conduta?",
+"alts": [
+"Tratar a infecção com praziquantel e conduzir sempre a hipertensão portal com profilaxia de sangramento.",
+"Tratar apenas com antibiótico de amplo espectro, sem qualquer fármaco específico contra o parasito.",
+"Aguardar a resolução espontânea da infecção sem qualquer tratamento antiparasitário no paciente agora.",
+"Indicar transplante hepático imediato em todos os pacientes com esquistossomose e varizes esofágicas.",
+"Prescrever apenas dieta hipossódica como tratamento definitivo da hipertensão portal esquistossomótica."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de esquistossomose; OMS — Guideline on control and elimination of schistosomiasis, 2022",
+"coment": "A forma hepatoesplênica da esquistossomose causa fibrose de Symmers e hipertensão portal pré-sinusoidal, com função hepatocelular relativamente preservada, o que a distingue da cirrose. O tratamento antiparasitário com praziquantel é indicado mesmo na forma avançada, para interromper a deposição de ovos, e a hipertensão portal é conduzida com profilaxia de sangramento por betabloqueador ou ligadura elástica, além do tratamento do sangramento agudo.",
+"porAlt": [
+"Correta: praziquantel para o parasito e manejo da hipertensão portal com profilaxia de sangramento.",
+"O antibiótico de amplo espectro não tem ação sobre o parasito responsável pela doença.",
+"A infecção não se resolve espontaneamente e a deposição de ovos mantém a fibrose progressiva.",
+"O transplante é excepcional nessa forma, cuja função hepatocelular costuma estar preservada.",
+"A dieta hipossódica é adjuvante e não trata a hipertensão portal nem o risco de sangramento."
+]
+},
+{
+"q": "Paciente com suspeita de sepse de foco urinário e cultura mostrando bactéria multirresistente. Qual princípio orienta o ajuste?",
+"alts": [
+"Descalonar ou ajustar conforme o antibiograma, mantendo sempre a menor duração eficaz do tratamento.",
+"Manter o esquema empírico de amplo espectro por tempo indefinido, mesmo após o resultado da cultura.",
+"Associar sempre quatro antibióticos diferentes em todos os casos de bactéria multirresistente identificada.",
+"Suspender toda antibioticoterapia assim que houver melhora clínica nas primeiras vinte e quatro horas.",
+"Escolher o antibiótico apenas pelo custo, sem qualquer consideração sobre o perfil de sensibilidade."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r2",
+"base": "IDSA Guidance on Antimicrobial-Resistant Gram-Negative Infections, atualização 2024; ANVISA — programas de gerenciamento de antimicrobianos, 2023",
+"coment": "O gerenciamento de antimicrobianos orienta iniciar cobertura empírica adequada e, com o resultado da cultura, descalonar para o agente de menor espectro eficaz, ajustar dose pela função renal e pelo sítio, e definir a menor duração com evidência. Reduzir espectro e duração diminui resistência, toxicidade, custo e infecção por Clostridioides difficile, sem prejuízo de desfecho quando a fonte está controlada e a resposta clínica é adequada.",
+"porAlt": [
+"Correta: descalonar ou ajustar pelo antibiograma, mantendo a menor duração eficaz do tratamento.",
+"Manter amplo espectro indefinidamente seleciona resistência e aumenta toxicidade e custo.",
+"Associar quatro antibióticos amplia toxicidade e interações sem benefício demonstrado.",
+"Suspender em vinte e quatro horas subtrata a infecção e favorece recidiva com resistência.",
+"Escolher apenas pelo custo, ignorando a sensibilidade, resulta em falha terapêutica previsível."
+]
+},
+{
+"q": "Paciente com mordedura de cão em membro superior, ferimento profundo, em área endêmica de raiva. Qual é a conduta?",
+"alts": [
+"Lavar o ferimento, avaliar profilaxia antirrábica e antitetânica e observar sempre o animal quando possível.",
+"Suturar imediatamente o ferimento e liberar sem qualquer avaliação de profilaxia antirrábica indicada agora.",
+"Aplicar apenas antibiótico tópico e liberar sem qualquer avaliação da situação vacinal do paciente agora.",
+"Indicar soro antirrábico para todos os casos de mordedura, independentemente de qualquer avaliação clínica.",
+"Aguardar o aparecimento de sintomas neurológicos antes de qualquer profilaxia antirrábica no paciente agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "emg",
+"comp": "prev",
+"nivel": "r2",
+"base": "Ministério da Saúde — Nota Técnica sobre profilaxia da raiva humana, 2022; Guia de Vigilância em Saúde, 2024",
+"coment": "O manejo da mordedura combina lavagem abundante com água e sabão, avaliação de profilaxia antirrábica conforme a gravidade da exposição e a possibilidade de observar o animal por dez dias, profilaxia antitetânica conforme a situação vacinal e consideração de antibiótico, geralmente amoxicilina com clavulanato, em ferimentos profundos, em mãos e face e em imunossuprimidos. O esquema antirrábico varia entre observação, vacina isolada e vacina com soro.",
+"porAlt": [
+"Correta: lavar o ferimento, avaliar profilaxia antirrábica e antitetânica e observar o animal se possível.",
+"Suturar sem avaliação aumenta infecção e ignora a necessidade de profilaxia antirrábica indicada.",
+"Antibiótico tópico isolado não previne raiva nem tétano e é insuficiente em ferimento profundo.",
+"O soro não é indicado em todos os casos: o esquema depende da gravidade e do animal envolvido.",
+"A raiva é praticamente sempre fatal quando sintomática; a profilaxia deve ser feita antes disso."
+]
+},
+{
+"q": "Paciente imunossuprimido apresenta febre e infiltrado pulmonar com nódulos e sinal do halo na tomografia. Qual é a suspeita?",
+"alts": [
+"Aspergilose pulmonar invasiva, cuja suspeita exige sempre início precoce de antifúngico e investigação dirigida.",
+"Pneumonia pneumocócica típica, definida por nódulos com sinal do halo em paciente imunossuprimido febril agora.",
+"Tuberculose pulmonar cavitária clássica, caracterizada por nódulos múltiplos com sinal do halo na tomografia.",
+"Edema pulmonar cardiogênico agudo, definido por nódulos pulmonares com sinal do halo à tomografia de tórax.",
+"Sarcoidose pulmonar em atividade, quadro definido por febre com nódulos e sinal do halo em imunossuprimido."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "uti",
+"comp": "dx",
+"nivel": "r3",
+"base": "IDSA Practice Guidelines for the Diagnosis and Management of Aspergillosis, revisão 2023; ECIL guidelines, 2023",
+"coment": "O sinal do halo — nódulo com halo de vidro fosco ao redor, correspondente a hemorragia perilesional — em paciente neutropênico ou imunossuprimido é altamente sugestivo de aspergilose pulmonar invasiva, sobretudo em fase precoce. A investigação inclui galactomanana sérica e em lavado broncoalveolar, cultura e tomografia seriada. O tratamento com voriconazol ou isavuconazol deve começar precocemente, pois o atraso aumenta muito a mortalidade.",
+"porAlt": [
+"Correta: aspergilose pulmonar invasiva, com antifúngico precoce e investigação dirigida imediata.",
+"A pneumonia pneumocócica cursa com consolidação lobar, e não com nódulos e sinal do halo.",
+"A tuberculose cursa com cavitação e infiltrado apical, sem o sinal do halo característico descrito.",
+"O edema cardiogênico cursa com congestão difusa e derrame, e não com nódulos e halo.",
+"A sarcoidose cursa com adenomegalia hilar e nódulos peribroncovasculares, sem esse padrão agudo."
+]
+},
+{
+"q": "Paciente com doença de Chagas crônica e alterações no eletrocardiograma. Qual é a conduta?",
+"alts": [
+"Avaliar a forma cardíaca com exames complementares e considerar sempre tratamento antiparasitário conforme a idade.",
+"Não realizar qualquer avaliação cardiológica, pois a doença de Chagas crônica não acomete o coração neste caso.",
+"Iniciar apenas antibiótico de amplo espectro como tratamento da doença de Chagas crônica diagnosticada neste caso.",
+"Indicar transplante cardíaco imediato em todos os pacientes com alteração eletrocardiográfica e sorologia positiva.",
+"Prescrever apenas anti-inflamatório contínuo como tratamento da cardiopatia chagásica crônica identificada agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas da Doença de Chagas, 2018 com revisão 2022; Diretriz Brasileira de Cardiopatia Chagásica — SBC, 2023",
+"coment": "Na doença de Chagas crônica, a avaliação cardiológica inclui eletrocardiograma, ecocardiograma e Holter, buscando bloqueios, extrassístoles, taquicardia ventricular, aneurisma apical e disfunção ventricular, que definem o estadiamento e o prognóstico. O tratamento antiparasitário com benznidazol é recomendado na forma indeterminada e nas formas iniciais, sobretudo abaixo de cinquenta anos, e o manejo da cardiopatia segue as diretrizes de insuficiência cardíaca e arritmias.",
+"porAlt": [
+"Correta: avaliar a forma cardíaca com exames complementares e considerar antiparasitário conforme a idade.",
+"A cardiopatia chagásica crônica é a manifestação mais importante e determina o prognóstico.",
+"O antibiótico não tem ação sobre o Trypanosoma cruzi, cujo tratamento é com benznidazol.",
+"O transplante se reserva a doença avançada refratária, e não a toda alteração eletrocardiográfica.",
+"O anti-inflamatório não trata a cardiopatia chagásica nem modifica sua evolução natural."
+]
+},
+{
+"q": "Paciente com febre e petéquias de instalação rápida, com sinais de choque. Qual é a conduta imediata?",
+"alts": [
+"Antibiótico endovenoso imediato com suporte, pois a suspeita de meningococcemia exige sempre tratamento sem demora.",
+"Aguardar a punção lombar e o resultado do líquor antes de qualquer administração de antibiótico ao paciente agora.",
+"Prescrever apenas antitérmico e observar clinicamente por doze horas antes de qualquer conduta adicional agora.",
+"Iniciar apenas corticoide sistêmico em dose alta, sem qualquer antibiótico no paciente com petéquias e choque.",
+"Solicitar hemograma e aguardar o resultado antes de iniciar qualquer antibiótico no paciente com choque agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de doença meningocócica; IDSA/ESCMID guidance, revisão 2023",
+"coment": "Febre com petéquias ou púrpura de instalação rápida e sinais de choque sugere meningococcemia, cuja letalidade é alta e a evolução é medida em horas. O antibiótico endovenoso — ceftriaxona — deve ser administrado imediatamente, sem aguardar punção lombar ou exames, junto de ressuscitação volêmica e suporte hemodinâmico. A doença é de notificação compulsória imediata e exige quimioprofilaxia dos contatos próximos com rifampicina ou ceftriaxona.",
+"porAlt": [
+"Correta: antibiótico endovenoso imediato com suporte, pela suspeita de doença meningocócica invasiva.",
+"Aguardar a punção lombar atrasa em horas um antibiótico que define a sobrevida do paciente.",
+"Observar por doze horas nesse quadro permite evolução para choque refratário e óbito.",
+"O corticoide é adjuvante em situações específicas e nunca substitui o antibiótico nessa doença.",
+"Aguardar o hemograma atrasa o tratamento de uma emergência infecciosa de evolução muito rápida."
+]
+},
+{
+"q": "Paciente será submetido a esplenectomia eletiva. Qual é a conduta preventiva?",
+"alts": [
+"Vacinar contra germes encapsulados antes da cirurgia, orientando sempre conduta diante de febre no seguimento.",
+"Não realizar qualquer vacinação, pois a esplenectomia não aumenta o risco de infecção grave no paciente agora.",
+"Vacinar apenas após um ano da cirurgia, pois a vacinação prévia não confere qualquer proteção adicional agora.",
+"Prescrever apenas antibiótico profilático contínuo, dispensando qualquer imunização antes do procedimento.",
+"Vacinar apenas contra influenza, única vacina indicada para pacientes submetidos a esplenectomia eletiva."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "Ministério da Saúde — Manual dos Centros de Referência para Imunobiológicos Especiais, 2023; IDSA guidance on asplenia, revisão 2023",
+"coment": "O paciente asplênico tem risco elevado de sepse fulminante por germes encapsulados, sobretudo pneumococo, meningococo e Haemophilus influenzae tipo b. Na esplenectomia eletiva, as vacinas devem ser aplicadas pelo menos duas semanas antes do procedimento, com reforços conforme o calendário do centro de imunobiológicos especiais. Orienta-se ainda vacinação anual contra influenza, conduta imediata diante de febre e, em grupos selecionados, antibiótico profilático.",
+"porAlt": [
+"Correta: vacinar contra germes encapsulados antes da cirurgia e orientar conduta diante de febre.",
+"A asplenia aumenta muito o risco de sepse fulminante por bactérias encapsuladas no paciente.",
+"Adiar a vacinação por um ano deixa o paciente desprotegido no período de maior vulnerabilidade.",
+"O antibiótico profilático é complementar em grupos selecionados e não substitui a imunização.",
+"Além da influenza, são indicadas vacinas contra pneumococo, meningococo e Haemophilus tipo b."
+]
+},
+{
+"q": "Paciente com diarreia aguda aquosa sem febre e sem sangue, há dois dias, sem sinais de desidratação grave. Qual é a conduta?",
+"alts": [
+"Hidratação oral e orientação alimentar, reservando sempre o antibiótico a situações específicas e definidas.",
+"Antibiótico de amplo espectro para todos os pacientes com diarreia aguda atendidos no serviço de saúde.",
+"Solicitar coprocultura de rotina em todos os casos de diarreia aguda aquosa sem febre e sem sangue agora já.",
+"Prescrever antiparasitário empírico em todos os casos de diarreia aguda com duração de dois dias agora.",
+"Indicar internação hospitalar para hidratação endovenosa em todos os casos de diarreia aguda aquosa agora."
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea, revisão 2023; Ministério da Saúde — manejo da diarreia aguda, 2022",
+"coment": "A diarreia aguda aquosa sem febre e sem sangue é geralmente viral e autolimitada, e o tratamento é hidratação oral com solução de reidratação, manutenção da alimentação e orientação sobre sinais de alarme. Antibiótico se reserva a disenteria com febre alta, suspeita de cólera, diarreia do viajante moderada a grave, imunossupressão e sepse. Coprocultura é indicada em disenteria, febre, imunossupressão, quadro prolongado ou surto sob investigação.",
+"porAlt": [
+"Correta: hidratação oral e orientação alimentar, com antibiótico restrito a situações específicas.",
+"O antibiótico universal é desnecessário, seleciona resistência e pode prolongar o estado de portador.",
+"A coprocultura de rotina tem baixo rendimento na diarreia aquosa autolimitada sem sinais de alarme.",
+"O antiparasitário empírico não é indicado em diarreia aguda de dois dias sem fatores de risco.",
+"A internação se reserva à desidratação grave ou à intolerância à hidratação por via oral."
+]
 }
 ];
