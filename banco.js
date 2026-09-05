@@ -13318,5 +13318,725 @@ window.BANCO=[
 "O antiparasitário empírico não é indicado em diarreia aguda de dois dias sem fatores de risco.",
 "A internação se reserva à desidratação grave ou à intolerância à hidratação por via oral."
 ]
+},
+{
+"q": "Paciente com fibrilação atrial e acidente vascular cerebral isquêmico extenso. Quando iniciar a anticoagulação?",
+"alts": [
+"Adiar o início conforme o tamanho do infarto, avaliando sempre o risco de transformação hemorrágica.",
+"Iniciar anticoagulação plena de imediato em todos os casos, qualquer que seja a extensão do infarto.",
+"Nunca anticoagular pacientes com fibrilação atrial que já apresentaram acidente vascular cerebral isquêmico.",
+"Substituir a anticoagulação por antiagregante isolado de forma definitiva em todos esses pacientes.",
+"Aguardar seis meses antes de anticoagular todo paciente com fibrilação atrial e infarto cerebral."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "AHA/ASA Guideline for the Early Management of Acute Ischemic Stroke, atualização 2024; ESC Atrial Fibrillation Guidelines, 2024",
+"coment": "O início da anticoagulação após acidente vascular cerebral cardioembólico equilibra o risco de recorrência precoce com o de transformação hemorrágica, que cresce com o tamanho do infarto. A prática tradicional escalona o início conforme a gravidade, e ensaios recentes sustentam início mais precoce em infartos pequenos e moderados. Em infarto extenso, adia-se e repete-se a imagem antes de iniciar, individualizando conforme o quadro clínico.",
+"porAlt": [
+"Correta: adiar conforme o tamanho do infarto, avaliando o risco de transformação hemorrágica.",
+"Anticoagular de imediato em infarto extenso aumenta o risco de transformação hemorrágica grave.",
+"A fibrilação atrial com evento prévio é justamente a indicação mais forte de anticoagulação.",
+"O antiagregante isolado é inferior à anticoagulação na prevenção de embolia dessa arritmia.",
+"Aguardar seis meses deixa o paciente desprotegido durante o período de maior risco de recorrência."
+]
+},
+{
+"q": "Paciente com cefaleia unilateral pulsátil, fotofobia, náusea e piora com atividade física, sem sinais de alarme. Qual é o tratamento da crise?",
+"alts": [
+"Analgésico simples ou triptano conforme a intensidade, associado sempre a antiemético quando houver náusea.",
+"Opioide potente como primeira escolha para todas as crises de enxaqueca atendidas no pronto atendimento já.",
+"Corticoide sistêmico contínuo em dose alta como tratamento de escolha das crises recorrentes de enxaqueca.",
+"Antibiótico de amplo espectro como tratamento empírico da cefaleia unilateral pulsátil descrita no caso.",
+"Realizar neuroimagem de urgência em todos os pacientes com crise de enxaqueca sem sinais de alarme agora."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r1",
+"base": "American Headache Society consensus statement, 2021 com revisão 2024; Academia Brasileira de Neurologia — diretrizes de cefaleia, 2022",
+"coment": "O tratamento da crise de enxaqueca escalona conforme a intensidade: anti-inflamatório não hormonal ou analgésico simples nas crises leves a moderadas, e triptano nas moderadas a graves ou quando há falha dos anteriores. Antieméticos como metoclopramida tratam a náusea e melhoram a absorção. Opioides são desaconselhados por favorecerem cronificação e cefaleia por uso excessivo. Neuroimagem se reserva a sinais de alarme ou mudança do padrão habitual.",
+"porAlt": [
+"Correta: analgésico simples ou triptano conforme a intensidade, com antiemético quando há náusea.",
+"Os opioides favorecem cronificação e cefaleia por uso excessivo, sendo desaconselhados na enxaqueca.",
+"O corticoide contínuo não é tratamento de crise nem profilaxia adequada para a enxaqueca.",
+"A enxaqueca não é infecciosa e o antibiótico não tem qualquer papel no seu tratamento.",
+"A neuroimagem se reserva a sinais de alarme ou mudança do padrão habitual da cefaleia."
+]
+},
+{
+"q": "Paciente com enxaqueca com quatro crises incapacitantes por mês. Qual é a conduta?",
+"alts": [
+"Iniciar profilaxia medicamentosa e registro em diário, escolhendo sempre o fármaco pelas comorbidades do paciente.",
+"Manter apenas tratamento das crises com analgésico, sem qualquer profilaxia mesmo com essa frequência neste caso.",
+"Prescrever opioide de uso contínuo diário como estratégia profilática das crises frequentes de enxaqueca agora.",
+"Indicar cirurgia de descompressão de nervos cranianos como primeira linha profilática da enxaqueca frequente.",
+"Aumentar indefinidamente a dose do analgésico usado nas crises como estratégia profilática do paciente agora."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "American Headache Society consensus statement on preventive treatment, 2021 com revisão 2024; Academia Brasileira de Neurologia, 2022",
+"coment": "A profilaxia da enxaqueca é indicada a partir de quatro dias de crise por mês, ou com crises incapacitantes, uso excessivo de analgésico ou falha do tratamento agudo. As opções incluem betabloqueador, antidepressivo tricíclico, topiramato, ácido valproico, candesartana e anticorpos monoclonais contra o peptídeo relacionado ao gene da calcitonina, escolhidos pelas comorbidades. A resposta é avaliada por diário de cefaleia após dois a três meses.",
+"porAlt": [
+"Correta: iniciar profilaxia com fármaco escolhido pelas comorbidades e acompanhar por diário de cefaleia.",
+"Tratar apenas as crises nessa frequência leva a uso excessivo de analgésico e cronificação.",
+"O opioide diário é o pior agente nesse contexto, com alto poder de cronificação da cefaleia.",
+"A cirurgia não é primeira linha profilática e não tem respaldo consolidado nessa indicação.",
+"Aumentar o analgésico agudo indefinidamente produz cefaleia por uso excessivo de medicação."
+]
+},
+{
+"q": "Paciente com síndrome de Wernicke suspeitada em etilista crônico com confusão, ataxia e oftalmoparesia. Qual é a conduta?",
+"alts": [
+"Administrar tiamina endovenosa em dose alta imediatamente, sempre antes de qualquer oferta de glicose.",
+"Administrar glicose hipertônica antes de qualquer reposição de tiamina no paciente etilista confuso.",
+"Prescrever apenas complexo vitamínico oral de baixa dose como tratamento definitivo do quadro descrito.",
+"Aguardar a confirmação laboratorial da deficiência de tiamina antes de qualquer reposição no paciente.",
+"Prescrever apenas benzodiazepínico para o controle da confusão, sem qualquer reposição vitamínica associada."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "EFNS guidelines for diagnosis and treatment of Wernicke encephalopathy, revisão 2023; Ministério da Saúde — abordagem do uso de álcool, 2022",
+"coment": "A encefalopatia de Wernicke decorre de deficiência de tiamina e tem a tríade clássica de confusão, ataxia e alterações oculomotoras, embora frequentemente incompleta. O tratamento é tiamina endovenosa em dose alta, administrada antes de qualquer carga de glicose, porque a glicose consome tiamina e pode precipitar ou agravar o quadro. O atraso leva à síndrome de Korsakoff, com amnésia irreversível. Não se aguarda dosagem laboratorial para tratar.",
+"porAlt": [
+"Correta: tiamina endovenosa em dose alta imediata, sempre antes de qualquer oferta de glicose.",
+"Glicose antes de tiamina consome a reserva remanescente e pode precipitar o quadro neurológico.",
+"A dose oral baixa é insuficiente diante de encefalopatia aguda instalada nesse paciente.",
+"Aguardar dosagem laboratorial atrasa um tratamento barato, seguro e potencialmente curativo.",
+"O benzodiazepínico trata a abstinência, mas não corrige a deficiência que causa a encefalopatia."
+]
+},
+{
+"q": "Paciente com paralisia facial periférica de início súbito, sem outros déficits neurológicos. Qual é a conduta?",
+"alts": [
+"Corticoide oral iniciado nas primeiras setenta e duas horas, com proteção ocular sempre orientada ao paciente.",
+"Aguardar a resolução espontânea por três meses antes de qualquer tratamento medicamentoso indicado agora.",
+"Iniciar antibiótico sistêmico de amplo espectro como tratamento de escolha da paralisia facial periférica.",
+"Indicar cirurgia de descompressão do nervo facial imediatamente em todos os casos de paralisia periférica.",
+"Prescrever apenas fisioterapia motora facial, sem qualquer corticoide ou medida de proteção ocular agora."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "AAN practice guideline update on Bell's palsy, revisão 2023; AAO-HNS Clinical Practice Guideline, 2013 com revisão 2022",
+"coment": "A paralisia de Bell é tratada com corticoide oral iniciado idealmente nas primeiras setenta e duas horas, o que aumenta a chance de recuperação completa. Antiviral pode ser associado em casos graves, com benefício adicional modesto. A proteção ocular é essencial, com lubrificante e oclusão noturna, pois o fechamento incompleto expõe a córnea a ulceração. É preciso diferenciar de paralisia central, que poupa a fronte, e investigar outras causas quando atípica.",
+"porAlt": [
+"Correta: corticoide oral nas primeiras setenta e duas horas, com proteção ocular devidamente orientada.",
+"Aguardar três meses perde a janela em que o corticoide melhora a chance de recuperação completa.",
+"O antibiótico não é o tratamento da paralisia de Bell, cuja abordagem inicial é a corticoterapia.",
+"A descompressão cirúrgica é excepcional e não é conduta inicial na paralisia facial periférica.",
+"A fisioterapia é adjuvante e não substitui o corticoide nem a proteção da córnea exposta."
+]
+},
+{
+"q": "Paciente com demência e alucinações visuais recorrentes, parkinsonismo e flutuação cognitiva. Qual é o cuidado essencial no tratamento?",
+"alts": [
+"Evitar antipsicóticos típicos pela hipersensibilidade característica, priorizando sempre medidas não farmacológicas.",
+"Prescrever haloperidol em dose alta como primeira escolha para o controle das alucinações visuais descritas agora.",
+"Iniciar benzodiazepínico contínuo em dose alta como tratamento de escolha da flutuação cognitiva do paciente agora.",
+"Suspender qualquer tratamento e apenas observar a evolução do quadro cognitivo ao longo dos meses nesse contexto.",
+"Iniciar levodopa em dose máxima imediatamente para tratar todas as manifestações do quadro descrito neste caso."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "DLB Consortium diagnostic criteria, quarta revisão; NICE guideline NG97 — Dementia, revisão 2023",
+"coment": "A demência com corpos de Lewy cursa com flutuação cognitiva, alucinações visuais bem formadas, parkinsonismo e transtorno comportamental do sono REM. Um traço crítico é a hipersensibilidade a antipsicóticos, sobretudo típicos, que podem causar piora grave do parkinsonismo, rebaixamento e até síndrome neuroléptica maligna. Priorizam-se medidas não farmacológicas, inibidores de colinesterase, que têm boa resposta nas alucinações, e quetiapina ou clozapina se indispensável.",
+"porAlt": [
+"Correta: evitar antipsicóticos típicos pela hipersensibilidade característica dessa forma de demência.",
+"O haloperidol pode causar piora grave do parkinsonismo e reações potencialmente fatais nesses pacientes.",
+"O benzodiazepínico agrava a confusão e o risco de quedas sem tratar a flutuação cognitiva.",
+"Não tratar deixa sem manejo sintomas angustiantes que respondem a inibidores de colinesterase.",
+"A levodopa em dose máxima pode agravar as alucinações e deve ser titulada com muita cautela."
+]
+},
+{
+"q": "Paciente com hipertensão intracraniana idiopática, cefaleia e papiledema, com obesidade. Qual é a conduta?",
+"alts": [
+"Perda de peso com acetazolamida e seguimento oftalmológico seriado, monitorando sempre o campo visual agora.",
+"Prescrever apenas analgésico comum e liberar sem qualquer seguimento oftalmológico ou tratamento específico.",
+"Indicar derivação ventriculoperitoneal imediata em todos os pacientes com hipertensão intracraniana idiopática.",
+"Prescrever corticoide sistêmico contínuo em dose alta como tratamento de escolha dessa condição crônica.",
+"Aumentar a ingestão de sal e líquidos como estratégia principal para o alívio da hipertensão intracraniana."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "AAN/NORDIC guidance on idiopathic intracranial hypertension, revisão 2023; Idiopathic Intracranial Hypertension Treatment Trial",
+"coment": "O tratamento da hipertensão intracraniana idiopática combina perda de peso, que é a medida modificadora de doença mais importante, com acetazolamida, cuja eficácia foi demonstrada em ensaio clínico. O seguimento é oftalmológico e seriado, com campimetria, porque a perda visual é a principal complicação e pode ser insidiosa. Procedimentos como fenestração da bainha do nervo óptico, derivação e stent venoso ficam para perda visual progressiva ou refratariedade.",
+"porAlt": [
+"Correta: perda de peso com acetazolamida e seguimento oftalmológico seriado com campimetria.",
+"Liberar sem seguimento arrisca perda visual progressiva e irreversível pelo papiledema crônico.",
+"A derivação é procedimento de resgate para casos refratários ou com perda visual progressiva.",
+"O corticoide contínuo causa ganho de peso e agrava a condição a médio e longo prazo.",
+"Aumentar sal e líquidos favorece ganho de peso e não alivia a hipertensão intracraniana."
+]
+},
+{
+"q": "Paciente com dor lombar aguda sem sinais de alarme, sem déficit neurológico e sem trauma. Qual é a conduta?",
+"alts": [
+"Analgesia e manutenção da atividade conforme tolerado, dispensando sempre exame de imagem nesse cenário.",
+"Solicitar ressonância magnética de coluna lombar em todos os pacientes com dor lombar aguda atendidos.",
+"Prescrever repouso absoluto no leito por duas semanas como principal medida terapêutica da lombalgia aguda.",
+"Encaminhar imediatamente para cirurgia de coluna todos os pacientes com dor lombar aguda intensa agora já.",
+"Prescrever opioide potente de uso contínuo como primeira escolha no tratamento da lombalgia aguda simples."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "ACP Clinical Practice Guideline on noninvasive treatments for low back pain, revisão 2023; Lancet Low Back Pain Series",
+"coment": "A lombalgia aguda inespecífica, sem sinais de alarme, não requer imagem, que não melhora desfechos e aumenta intervenções desnecessárias. A recomendação é manter atividade conforme tolerado, evitar repouso no leito, oferecer analgesia com anti-inflamatório e considerar relaxante muscular por curto período, além de tratamento não farmacológico como calor superficial e exercício. Sinais de alarme incluem déficit neurológico, febre, câncer, trauma e síndrome da cauda equina.",
+"porAlt": [
+"Correta: analgesia com manutenção da atividade conforme tolerado, sem necessidade de imagem inicial.",
+"A imagem de rotina não melhora desfechos e leva a achados incidentais e intervenções desnecessárias.",
+"O repouso absoluto prolonga a incapacidade e piora o desfecho em comparação à atividade mantida.",
+"A cirurgia se reserva a indicações específicas, ausentes na lombalgia aguda inespecífica.",
+"O opioide não é primeira escolha na lombalgia aguda pelo risco de dependência e efeitos adversos."
+]
+},
+{
+"q": "Paciente com déficit neurológico focal e febre, com imagem mostrando lesão com realce anelar no encéfalo. Qual é a conduta inicial?",
+"alts": [
+"Investigar abscesso cerebral e causas infecciosas, avaliando sempre necessidade de drenagem e antibiótico dirigido.",
+"Iniciar apenas corticoide sistêmico em dose alta como tratamento definitivo da lesão com realce anelar neste caso.",
+"Prescrever apenas analgésico e reavaliar clinicamente após trinta dias de acompanhamento ambulatorial neste caso.",
+"Indicar radioterapia encefálica imediata em todos os casos de lesão com realce anelar no encéfalo nesse contexto.",
+"Realizar punção lombar imediata antes de qualquer neuroimagem no paciente com déficit focal e febre neste caso."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "IDSA guidance on brain abscess, revisão 2023; ESCMID guideline on brain abscess, 2024",
+"coment": "Lesão encefálica com realce anelar e febre com déficit focal sugere abscesso cerebral, cujo diferencial inclui neoplasia, toxoplasmose em imunossuprimidos e tuberculoma. A conduta combina antibiótico de amplo espectro com boa penetração no sistema nervoso central e avaliação neurocirúrgica para aspiração ou drenagem, que fornece material para cultura e alivia o efeito de massa. A punção lombar é contraindicada diante de lesão expansiva pelo risco de herniação.",
+"porAlt": [
+"Correta: investigar abscesso cerebral, com antibiótico dirigido e avaliação da necessidade de drenagem.",
+"O corticoide isolado não trata a infecção e pode favorecer a disseminação do processo infeccioso.",
+"Adiar por trinta dias permite expansão da lesão, herniação e desfecho neurológico catastrófico.",
+"A radioterapia se aplica a neoplasia confirmada, e não a lesão de etiologia ainda indefinida.",
+"A punção lombar diante de lesão expansiva com efeito de massa arrisca herniação cerebral fatal."
+]
+},
+{
+"q": "Paciente com síndrome de Horner e dor cervical após manipulação do pescoço. Qual é a suspeita principal?",
+"alts": [
+"Dissecção de artéria carótida, cuja investigação exige sempre angiotomografia ou angiorressonância urgente.",
+"Enxaqueca com aura visual clássica, condição definida por síndrome de Horner após manipulação cervical.",
+"Cefaleia tensional episódica, quadro definido por dor cervical com miose e ptose ipsilateral associadas.",
+"Neuralgia occipital simples, condição caracterizada por síndrome de Horner após manipulação do pescoço.",
+"Espondilose cervical degenerativa, quadro definido por síndrome de Horner de instalação aguda no paciente."
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r3",
+"base": "AHA/ASA scientific statement on cervical artery dissection, revisão 2023; ESO guideline on cervical artery dissection, 2021",
+"coment": "A dissecção de artéria carótida cursa classicamente com dor cervical ou facial unilateral, síndrome de Horner parcial por acometimento das fibras simpáticas periarteriais e risco de acidente vascular cerebral isquêmico por embolia ou oclusão. Ocorre espontaneamente ou após trauma menor, incluindo manipulação cervical. O diagnóstico é por angiotomografia ou angiorressonância, e o tratamento usa antitrombótico, com anticoagulação ou antiagregação conforme o caso.",
+"porAlt": [
+"Correta: dissecção de artéria carótida, investigada com angiotomografia ou angiorressonância urgente.",
+"A enxaqueca com aura não produz síndrome de Horner nem se associa a manipulação cervical.",
+"A cefaleia tensional não causa miose, ptose ou anidrose e não tem esse mecanismo vascular.",
+"A neuralgia occipital produz dor no território do nervo, sem sinais simpáticos oculares associados.",
+"A espondilose é degenerativa e crônica, não causando síndrome de Horner de instalação aguda."
+]
+},
+{
+"q": "Paciente com diabetes tipo 1 pergunta sobre monitorização glicêmica. Qual é a orientação atual?",
+"alts": [
+"Monitorização contínua de glicose ou capilar frequente, com metas sempre individualizadas de tempo no alvo.",
+"Uma única glicemia capilar por semana é suficiente para o controle do diabetes tipo 1 no adulto agora.",
+"Apenas hemoglobina glicada anual, sem qualquer monitorização glicêmica diária pelo próprio paciente agora.",
+"Apenas glicosúria de fita urinária como método de monitorização recomendado no diabetes tipo 1 atual agora.",
+"Nenhuma monitorização é necessária enquanto o paciente permanecer assintomático durante o tratamento agora."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
+"coment": "No diabetes tipo 1, a monitorização contínua de glicose é hoje recomendada como padrão sempre que disponível, com metas de tempo no alvo acima de setenta por cento e tempo abaixo do alvo inferior a quatro por cento. Quando não disponível, indica-se monitorização capilar frequente, tipicamente antes das refeições, ao deitar, antes e após exercício e diante de sintomas. A hemoglobina glicada complementa, mas não detecta variabilidade nem hipoglicemias.",
+"porAlt": [
+"Correta: monitorização contínua ou capilar frequente, com metas individualizadas de tempo no alvo.",
+"Uma medida semanal não permite ajuste de insulina nem detecção de hipoglicemias no tipo 1.",
+"A hemoglobina glicada anual isolada não detecta variabilidade glicêmica nem hipoglicemias graves.",
+"A glicosúria é método obsoleto, insensível e incapaz de detectar hipoglicemia no paciente.",
+"A ausência de sintomas não exclui hipo ou hiperglicemias relevantes ao longo do dia."
+]
+},
+{
+"q": "Paciente em uso de insulina apresenta hipoglicemias noturnas recorrentes com hiperglicemia matinal. Qual é a conduta inicial?",
+"alts": [
+"Revisar o esquema e a dose da insulina basal noturna, avaliando sempre alimentação, exercício e horário de aplicação.",
+"Aumentar a dose da insulina basal noturna para corrigir a hiperglicemia observada pela manhã no paciente neste caso.",
+"Suspender completamente toda a insulina do paciente até a resolução espontânea das hipoglicemias noturnas agora.",
+"Orientar refeição hipercalórica antes de dormir todas as noites como única medida corretiva do quadro neste caso.",
+"Substituir toda a insulina por antidiabético oral em paciente com diabetes tipo 1 e hipoglicemias noturnas agora."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
+"coment": "Hipoglicemia noturna seguida de hiperglicemia matinal pode refletir excesso de insulina basal noturna, com hiperglicemia de rebote, ou simplesmente o fenômeno do alvorecer, e a distinção exige medidas na madrugada ou monitorização contínua. Aumentar a basal sem esclarecer agrava as hipoglicemias. A revisão inclui dose e horário da basal, tipo de insulina, alimentação noturna, exercício vespertino e técnica de aplicação e rodízio de locais.",
+"porAlt": [
+"Correta: revisar esquema, dose e horário da basal, avaliando alimentação, exercício e técnica.",
+"Aumentar a basal sem esclarecer a causa agrava as hipoglicemias noturnas do paciente.",
+"Suspender toda a insulina no diabetes tipo 1 leva a cetoacidose em poucas horas.",
+"A refeição hipercalórica noturna diária não corrige o esquema e piora o controle metabólico.",
+"O paciente com diabetes tipo 1 depende de insulina e não pode ser tratado com oral isolado."
+]
+},
+{
+"q": "Paciente com diagnóstico recente de diabetes tipo 2 pergunta sobre exames de rastreio de complicações. Qual é a orientação?",
+"alts": [
+"Rastrear retinopatia, nefropatia e neuropatia já ao diagnóstico, repetindo sempre conforme o intervalo recomendado.",
+"Rastrear complicações apenas após dez anos de diagnóstico do diabetes tipo 2 no paciente adulto nesse contexto.",
+"Rastrear apenas quando surgirem sintomas de complicação, sem qualquer avaliação sistemática programada neste caso.",
+"Rastrear apenas complicações cardíacas, dispensando avaliação de retina, rins e nervos periféricos neste caso.",
+"Não realizar qualquer rastreio, pois o diabetes tipo 2 não cursa com complicações microvasculares nesse contexto."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
+"coment": "No diabetes tipo 2, o rastreio de complicações começa no diagnóstico, porque a hiperglicemia costuma preceder em anos o reconhecimento da doença. Avaliam-se fundo de olho com dilatação ou retinografia, relação albumina-creatinina urinária e taxa de filtração glomerular estimada, exame dos pés com teste de monofilamento e avaliação de risco cardiovascular. No tipo 1, o rastreio microvascular começa cinco anos após o diagnóstico.",
+"porAlt": [
+"Correta: rastrear retinopatia, nefropatia e neuropatia já ao diagnóstico, com repetição periódica.",
+"Aguardar dez anos perde complicações que já podem estar presentes no momento do diagnóstico.",
+"Esperar sintomas significa diagnosticar complicações em fase avançada e pouco reversível.",
+"O rastreio microvascular é tão necessário quanto a avaliação de risco cardiovascular do paciente.",
+"O diabetes tipo 2 cursa com complicações microvasculares frequentes e potencialmente graves."
+]
+},
+{
+"q": "Paciente com síndrome de Cushing suspeitada clinicamente. Qual é o exame de rastreio inicial?",
+"alts": [
+"Cortisol salivar noturno, cortisol urinário de 24 horas ou teste de supressão com dexametasona em dose baixa.",
+"Dosagem isolada de cortisol sérico matinal, exame que confirma sozinho o diagnóstico da síndrome de Cushing.",
+"Ressonância de sela túrcica como exame inicial de rastreio antes de qualquer confirmação bioquímica do quadro.",
+"Tomografia de adrenais como primeiro exame antes de qualquer avaliação hormonal do eixo do paciente agora.",
+"Dosagem isolada de hormônio tireoestimulante como exame de rastreio inicial da síndrome de Cushing agora."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Endocrine Society Clinical Practice Guideline — Diagnosis of Cushing's Syndrome, revisão 2023",
+"coment": "O diagnóstico da síndrome de Cushing tem duas etapas: primeiro confirmar o hipercortisolismo, com pelo menos dois testes alterados entre cortisol salivar noturno, cortisol livre urinário de vinte e quatro horas e supressão com um miligrama de dexametasona; depois definir a causa, dosando ACTH e realizando imagem dirigida. Imagem antes da confirmação bioquímica leva a achados incidentais frequentes e a diagnósticos equivocados.",
+"porAlt": [
+"Correta: cortisol salivar noturno, cortisol urinário ou supressão com dexametasona em dose baixa.",
+"O cortisol sérico matinal isolado tem ampla variação e não confirma o hipercortisolismo.",
+"A imagem antes da confirmação bioquímica leva a achados incidentais e conclusões equivocadas.",
+"A tomografia de adrenais precede indevidamente a confirmação hormonal e a dosagem de ACTH.",
+"O hormônio tireoestimulante avalia a tireoide e não tem papel no rastreio da síndrome de Cushing."
+]
+},
+{
+"q": "Paciente com diabetes tipo 2 em uso de insulina apresenta hipoglicemias graves recorrentes. Qual é a conduta?",
+"alts": [
+"Reduzir metas e simplificar o esquema, revisando sempre função renal, alimentação e uso de outros fármacos.",
+"Aumentar a dose de insulina para melhorar o controle glicêmico apesar das hipoglicemias graves recorrentes.",
+"Manter exatamente o mesmo esquema e apenas orientar consumo de doces nas crises de hipoglicemia agora já.",
+"Suspender toda a monitorização glicêmica para reduzir a ansiedade do paciente diante das hipoglicemias.",
+"Associar sulfonilureia em dose plena à insulina como estratégia para reduzir as hipoglicemias recorrentes."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
+"coment": "A hipoglicemia grave recorrente é evento sentinela: obriga a rever metas, que devem ser afrouxadas, e a simplificar o esquema, preferindo análogos com menor risco. Investigam-se causas contribuintes — piora da função renal, redução da ingesta, perda de peso, insuficiência adrenal, gastroparesia, uso de álcool, sulfonilureias associadas — e trabalha-se a percepção de hipoglicemia, que se perde com episódios repetidos e aumenta o risco de novos eventos graves.",
+"porAlt": [
+"Correta: reduzir metas e simplificar o esquema, revisando função renal, alimentação e outros fármacos.",
+"Aumentar a insulina diante de hipoglicemias graves multiplica o risco de evento fatal.",
+"Manter o esquema sem mudanças perpetua episódios que já se mostraram graves e recorrentes.",
+"Suspender a monitorização remove justamente a ferramenta que detecta e previne novos episódios.",
+"A sulfonilureia aumenta o risco de hipoglicemia e agrava exatamente o problema apresentado."
+]
+},
+{
+"q": "Paciente com hipoglicemia em uso de sulfonilureia é atendido no pronto-socorro. Qual é o cuidado essencial?",
+"alts": [
+"Observação prolongada após a correção, pois a hipoglicemia por sulfonilureia recorre sempre por horas.",
+"Alta imediata após a normalização da glicemia capilar em todos os pacientes em uso de sulfonilureia.",
+"Administrar apenas glicose oral e liberar sem qualquer período de observação clínica no serviço agora.",
+"Administrar insulina para estabilizar o metabolismo do paciente após a correção da hipoglicemia inicial.",
+"Suspender apenas a metformina e manter a sulfonilureia na mesma dose plena após a alta do paciente."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes, 2025; Ministério da Saúde — manejo das emergências glicêmicas, 2022",
+"coment": "As sulfonilureias têm meia-vida longa e estimulam a secreção de insulina de forma prolongada, de modo que a hipoglicemia por essa classe recorre com frequência após a correção inicial, exigindo observação prolongada e por vezes infusão contínua de glicose. O risco é maior em idosos, na doença renal crônica, na baixa ingesta e no uso de fármacos que interagem. Após o episódio, a sulfonilureia deve ser suspensa ou substituída por classe mais segura.",
+"porAlt": [
+"Correta: observação prolongada após a correção, pois a hipoglicemia por sulfonilureia recorre.",
+"A alta imediata arrisca recorrência da hipoglicemia em domicílio, com desfecho potencialmente fatal.",
+"Glicose oral sem observação não protege contra a recorrência pela meia-vida longa do fármaco.",
+"A insulina agrava a hipoglicemia e é exatamente o oposto do necessário nesse paciente.",
+"Manter a sulfonilureia após hipoglicemia grave expõe o paciente a novo episódio semelhante."
+]
+},
+{
+"q": "Paciente com incidentaloma adrenal de 3 cm encontrado em tomografia. Qual é a conduta?",
+"alts": [
+"Avaliar função hormonal e características de imagem, definindo sempre seguimento ou cirurgia conforme o resultado.",
+"Indicar adrenalectomia imediata para todos os pacientes com incidentaloma adrenal de qualquer tamanho neste caso já.",
+"Ignorar completamente o achado, pois nódulos adrenais nunca são funcionantes nem malignos no adulto neste caso.",
+"Realizar biópsia percutânea do nódulo adrenal como primeiro passo em todos os casos identificados neste caso.",
+"Solicitar apenas repetição da tomografia em cinco anos, sem qualquer avaliação hormonal do paciente neste caso."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ESE/ENSAT Clinical Practice Guideline on the management of adrenal incidentalomas, atualização 2023",
+"coment": "Todo incidentaloma adrenal exige duas perguntas: é funcionante e é maligno. A avaliação hormonal inclui teste de supressão com um miligrama de dexametasona, metanefrinas plasmáticas ou urinárias e, se houver hipertensão ou hipocalemia, relação aldosterona-renina. A imagem avalia tamanho, densidade em unidades Hounsfield e washout. Lesões acima de quatro centímetros, com características suspeitas ou funcionantes, indicam cirurgia. Biópsia é excepcional e nunca precede a exclusão de feocromocitoma.",
+"porAlt": [
+"Correta: avaliar função hormonal e características de imagem para definir seguimento ou cirurgia.",
+"A adrenalectomia universal expõe a cirurgia desnecessária a lesões benignas e não funcionantes.",
+"Incidentalomas podem ser funcionantes ou malignos e exigem avaliação sistemática obrigatória.",
+"A biópsia é excepcional e jamais precede a exclusão bioquímica de feocromocitoma, pelo risco de crise.",
+"Repetir imagem em cinco anos sem avaliação hormonal perde lesões funcionantes tratáveis."
+]
+},
+{
+"q": "Paciente com tireotoxicose grave, febre, taquicardia importante e agitação após infecção. Qual é a conduta?",
+"alts": [
+"Tratar a crise tireotóxica com tionamida, betabloqueador e iodo, mantendo sempre o intervalo correto entre eles.",
+"Administrar iodo antes da tionamida para acelerar o bloqueio da síntese hormonal na crise tireotóxica agora.",
+"Prescrever apenas antitérmico e observar clinicamente por vinte e quatro horas antes de qualquer tratamento.",
+"Indicar tireoidectomia de urgência em todos os pacientes com crise tireotóxica antes de qualquer medida clínica.",
+"Administrar levotiroxina em dose alta para estabilizar o eixo tireoidiano do paciente com tireotoxicose grave já."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016 com revisão 2023",
+"coment": "A crise tireotóxica é emergência com mortalidade elevada, desencadeada por infecção, cirurgia, trauma ou suspensão do antitireoidiano. O tratamento combina tionamida, preferencialmente propiltiouracila pelo bloqueio adicional da conversão periférica, betabloqueador para o controle adrenérgico, corticoide e iodo, que deve ser administrado pelo menos uma hora após a tionamida, para não fornecer substrato à síntese hormonal. Trata-se simultaneamente o fator precipitante.",
+"porAlt": [
+"Correta: tionamida, betabloqueador e iodo, respeitando o intervalo obrigatório após a tionamida.",
+"Iodo antes da tionamida fornece substrato para síntese hormonal e pode agravar a tireotoxicose.",
+"Antitérmico isolado com observação permite evolução para arritmia, choque e óbito do paciente.",
+"A cirurgia é excepcional e exige controle clínico prévio, não sendo conduta inicial na crise.",
+"A levotiroxina adiciona hormônio ao paciente já tireotóxico e agrava gravemente o quadro."
+]
+},
+{
+"q": "Paciente com hipotireoidismo em uso de levotiroxina mantém TSH elevado apesar da dose adequada. Qual é a primeira hipótese?",
+"alts": [
+"Má absorção ou erro na administração do fármaco, revisando sempre jejum, interações e adesão ao tratamento.",
+"Necessidade imediata de triplicar a dose sem qualquer revisão da forma de administração do medicamento.",
+"Diagnóstico incorreto de hipotireoidismo, que deve ser descartado e o tratamento suspenso de imediato.",
+"Presença de hipertireoidismo mascarado, hipótese mais provável diante do TSH persistentemente elevado.",
+"Necessidade de associar metimazol ao tratamento para normalizar o hormônio tireoestimulante elevado agora."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; SBEM, 2022",
+"coment": "A causa mais frequente de TSH persistentemente elevado apesar de dose aparentemente adequada é problema de adesão ou de absorção. A levotiroxina exige jejum, com intervalo de trinta a sessenta minutos antes do café, e afastamento de cálcio, ferro, inibidores de bomba de prótons, sais de alumínio e soja. Doenças que reduzem a absorção incluem doença celíaca, gastrite atrófica e infecção por Helicobacter pylori, e devem ser investigadas na falha persistente.",
+"porAlt": [
+"Correta: má absorção ou erro de administração, revisando jejum, interações e adesão ao tratamento.",
+"Triplicar a dose sem revisar a administração arrisca tireotoxicose iatrogênica quando a adesão melhorar.",
+"O TSH elevado confirma o hipotireoidismo, e suspender o tratamento agravaria o quadro do paciente.",
+"O TSH elevado é incompatível com hipertireoidismo primário, que cursa com TSH suprimido.",
+"O metimazol trata hipertireoidismo e agravaria ainda mais o hipotireoidismo do paciente."
+]
+},
+{
+"q": "Paciente com hiperglicemia detectada durante internação por infecção, sem diagnóstico prévio de diabetes. Qual é a conduta?",
+"alts": [
+"Controlar a glicemia com insulina durante a internação e reavaliar sempre o diagnóstico após a alta hospitalar.",
+"Iniciar antidiabético oral em dose plena durante a internação como tratamento de escolha nesse paciente agora.",
+"Ignorar a hiperglicemia durante a internação, pois ela decorre exclusivamente do estresse da infecção agora.",
+"Firmar o diagnóstico definitivo de diabetes apenas com a glicemia elevada durante a internação aguda agora.",
+"Suspender toda a nutrição do paciente até a normalização espontânea da glicemia durante a internação agora."
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes, 2025, capítulo de cuidado hospitalar; Endocrine Society guideline on inpatient hyperglycemia, revisão 2022",
+"coment": "A hiperglicemia hospitalar associa-se a pior desfecho e deve ser tratada, preferencialmente com insulina em esquema basal-bolus no paciente que se alimenta, evitando o esquema de correção isolado. As metas são de 140 a 180 mg/dL na maioria dos pacientes. O diagnóstico de diabetes não deve ser firmado apenas com glicemia de internação, mas a hemoglobina glicada colhida ajuda a distinguir hiperglicemia de estresse de diabetes prévio não reconhecido.",
+"porAlt": [
+"Correta: controlar com insulina durante a internação e reavaliar o diagnóstico após a alta hospitalar.",
+"Antidiabéticos orais são geralmente suspensos na internação aguda por risco e resposta imprevisível.",
+"A hiperglicemia hospitalar associa-se a pior desfecho e deve ser tratada, não ignorada.",
+"O diagnóstico não se firma com glicemia de internação aguda, sendo útil a hemoglobina glicada.",
+"Suspender a nutrição agrava o catabolismo e não é estratégia de controle glicêmico hospitalar."
+]
+},
+{
+"q": "Paciente com cirrose e primeiro episódio de ascite. Qual é a conduta inicial?",
+"alts": [
+"Restrição de sódio com diurético combinado, monitorando sempre peso, eletrólitos e função renal do paciente.",
+"Paracentese de grande volume diária como tratamento inicial de escolha do primeiro episódio de ascite agora.",
+"Restrição hídrica extrema isolada como primeira medida no paciente cirrótico com ascite de início recente.",
+"Iniciar albumina endovenosa isolada, sem qualquer diurético ou restrição de sódio na dieta do paciente.",
+"Indicar transplante hepático imediato em todos os pacientes com primeiro episódio de ascite por cirrose."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "EASL Clinical Practice Guidelines on decompensated cirrhosis, 2018 com atualização 2023; AASLD practice guidance on ascites, 2021",
+"coment": "O tratamento inicial da ascite por cirrose combina restrição de sódio, em torno de dois gramas por dia, com diurético, tipicamente espironolactona associada a furosemida em proporção que preserva o potássio. Monitoram-se peso diário, eletrólitos e função renal, com perda ponderal alvo de até meio quilo por dia sem edema periférico. Restrição hídrica se reserva à hiponatremia significativa, e paracentese de grande volume é para ascite tensa ou refratária.",
+"porAlt": [
+"Correta: restrição de sódio com diurético combinado e monitorização de peso, eletrólitos e função renal.",
+"A paracentese diária não é tratamento inicial e expõe a complicações e perda proteica repetida.",
+"A restrição hídrica extrema se reserva à hiponatremia e não é a medida inicial da ascite.",
+"A albumina é adjuvante em situações específicas e não substitui diurético e restrição de sódio.",
+"O transplante é avaliado na doença avançada, e não indicado pelo primeiro episódio de ascite."
+]
+},
+{
+"q": "Paciente com doença celíaca em dieta sem glúten mantém sintomas e sorologia persistentemente positiva. Qual é a primeira hipótese?",
+"alts": [
+"Exposição inadvertida ao glúten, causa mais frequente de persistência dos sintomas nesses pacientes.",
+"Doença celíaca refratária verdadeira, hipótese mais provável e frequente na persistência dos sintomas.",
+"Diagnóstico incorreto de doença celíaca, que deve ser descartado imediatamente sem qualquer investigação.",
+"Necessidade de aumentar a ingestão de glúten para induzir tolerância imunológica progressiva ao antígeno.",
+"Indicação imediata de corticoide sistêmico contínuo sem qualquer revisão da dieta seguida pelo paciente."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ACG Clinical Guideline: Diagnosis and Management of Celiac Disease, 2023",
+"coment": "A causa mais frequente de sintomas persistentes na doença celíaca é a exposição inadvertida ao glúten, muitas vezes por contaminação cruzada, medicamentos, alimentos industrializados e refeições fora de casa, o que exige revisão detalhada com nutricionista especializado. Outras causas incluem intolerância à lactose, supercrescimento bacteriano, colite microscópica e síndrome do intestino irritável associada. A doença celíaca refratária verdadeira é rara e diagnóstico de exclusão.",
+"porAlt": [
+"Correta: exposição inadvertida ao glúten é a causa mais frequente de persistência dos sintomas.",
+"A doença celíaca refratária verdadeira é rara e diagnóstico de exclusão, não a primeira hipótese.",
+"O diagnóstico não deve ser descartado sem investigação, e a sorologia positiva o sustenta.",
+"A reintrodução de glúten agrava a lesão intestinal e é contraindicada nesses pacientes.",
+"O corticoide não é indicado antes de revisar a dieta e excluir a exposição inadvertida."
+]
+},
+{
+"q": "Paciente com pancreatite aguda biliar leve já resolvida. Qual é a conduta para prevenir recorrência?",
+"alts": [
+"Colecistectomia na mesma internação, pois adiá-la aumenta sempre o risco de novo episódio no intervalo agora.",
+"Colecistectomia eletiva apenas depois de um ano da alta hospitalar em todos os pacientes com pancreatite biliar já.",
+"Manter apenas dieta com baixo teor de gordura como única medida preventiva de novos episódios de pancreatite.",
+"Prescrever antibiótico profilático contínuo por seis meses como prevenção de recorrência da pancreatite biliar.",
+"Não realizar qualquer intervenção, pois a pancreatite biliar não recorre após o primeiro episódio resolvido."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "r2",
+"base": "American Gastroenterological Association guideline on acute pancreatitis, 2024; IAP/APA guidelines, revisão 2023",
+"coment": "Na pancreatite aguda biliar leve, a colecistectomia deve ser realizada na mesma internação, pois o risco de novo episódio, colecistite ou colangite no intervalo até a cirurgia eletiva é elevado, chegando a cerca de vinte por cento em seis semanas. Ensaio clínico demonstrou redução de complicações com a cirurgia precoce. Em pancreatite grave com coleções, a cirurgia é adiada até a resolução do processo inflamatório.",
+"porAlt": [
+"Correta: colecistectomia na mesma internação, pois adiar aumenta o risco de novo episódio.",
+"Aguardar um ano expõe o paciente a recorrência precoce, colecistite e colangite no intervalo.",
+"A dieta isolada não previne a migração de cálculos nem a recorrência da pancreatite biliar.",
+"O antibiótico profilático não previne a recorrência, que depende da remoção da vesícula.",
+"A pancreatite biliar recorre com frequência elevada quando a vesícula não é removida."
+]
+},
+{
+"q": "Paciente com hepatite B crônica, HBeAg negativo, carga viral elevada e transaminases persistentemente alteradas. Qual é a conduta?",
+"alts": [
+"Iniciar antiviral com tenofovir ou entecavir, mantendo sempre rastreio de carcinoma hepatocelular no seguimento.",
+"Não tratar, pois a hepatite B crônica com HBeAg negativo nunca requer tratamento antiviral específico agora.",
+"Iniciar interferon convencional como tratamento de escolha atual para todos os pacientes com hepatite B crônica.",
+"Prescrever apenas hepatoprotetor de venda livre como tratamento da hepatite B crônica com carga viral elevada.",
+"Indicar transplante hepático imediato para todos os pacientes com hepatite B crônica e carga viral elevada."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Ministério da Saúde — PCDT para Hepatite B e Coinfecções, 2024; EASL Clinical Practice Guidelines on hepatitis B, 2017 com revisão 2023",
+"coment": "A hepatite B crônica HBeAg negativa com carga viral elevada e transaminases alteradas configura hepatite ativa e tem indicação de tratamento com análogo de nucleotídeo ou nucleosídeo de alta barreira genética, como tenofovir ou entecavir, geralmente por tempo prolongado. Independentemente do tratamento, mantém-se rastreio semestral de carcinoma hepatocelular em grupos de risco, pois a hepatite B pode causar o tumor mesmo sem cirrose estabelecida.",
+"porAlt": [
+"Correta: antiviral com tenofovir ou entecavir, mantendo rastreio semestral de carcinoma hepatocelular.",
+"A forma HBeAg negativa com atividade tem indicação clara de tratamento antiviral específico.",
+"O interferon convencional foi amplamente substituído pelos análogos de alta barreira genética.",
+"Hepatoprotetores não suprimem a replicação viral nem reduzem a progressão da doença hepática.",
+"O transplante se reserva a doença hepática avançada, e não a toda hepatite crônica ativa."
+]
+},
+{
+"q": "Paciente com colite ulcerativa em atividade grave, com mais de seis evacuações sanguinolentas ao dia, febre e taquicardia. Qual é a conduta?",
+"alts": [
+"Internar com corticoide endovenoso e profilaxia de trombose, avaliando sempre resposta em três a cinco dias.",
+"Manter tratamento ambulatorial com mesalazina oral isolada em todos os casos de colite ulcerativa grave já.",
+"Prescrever antidiarreico em dose plena para reduzir o número de evacuações nesse paciente com colite grave.",
+"Iniciar antibiótico de amplo espectro isolado como tratamento definitivo da colite ulcerativa em atividade grave.",
+"Indicar colectomia total imediata em todos os pacientes na primeira apresentação de colite ulcerativa grave."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r3",
+"base": "ECCO-ESGAR guidelines on ulcerative colitis, 2022; AGA Clinical Practice Guideline on moderate to severe UC, revisão 2024",
+"coment": "A colite aguda grave, definida pelos critérios de Truelove e Witts, é emergência com risco de megacólon tóxico e perfuração. O manejo inclui internação, corticoide endovenoso, hidratação, correção eletrolítica, profilaxia de tromboembolismo — o risco é alto mesmo com sangramento intestinal —, exclusão de infecção por Clostridioides difficile e citomegalovírus e avaliação de resposta em três a cinco dias, quando se decide por terapia de resgate ou colectomia.",
+"porAlt": [
+"Correta: internação com corticoide endovenoso e profilaxia de trombose, com avaliação em poucos dias.",
+"A mesalazina oral isolada é insuficiente para a colite aguda grave com repercussão sistêmica.",
+"O antidiarreico pode precipitar megacólon tóxico e é contraindicado na colite aguda grave.",
+"O antibiótico isolado não trata a inflamação, embora infecção associada deva ser afastada.",
+"A colectomia é indicada na falha do tratamento clínico ou em complicações, não de imediato."
+]
+},
+{
+"q": "Paciente com suspeita de intolerância à lactose relata distensão e diarreia após laticínios. Qual é a conduta inicial?",
+"alts": [
+"Retirada temporária da lactose com reintrodução programada, avaliando sempre a correlação com os sintomas.",
+"Indicar biópsia intestinal imediata em todos os pacientes com sintomas após consumo de laticínios agora.",
+"Excluir permanentemente todos os laticínios da dieta sem qualquer teste de reintrodução ou avaliação nutricional.",
+"Prescrever corticoide sistêmico contínuo como tratamento de escolha para a intolerância à lactose suspeitada.",
+"Prescrever antibiótico de amplo espectro por dez dias como tratamento inicial da intolerância à lactose."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "ACG Clinical Guideline on chronic diarrhea, revisão 2023; NIH consensus on lactose intolerance, revisão 2022",
+"coment": "A intolerância à lactose é avaliada inicialmente pela retirada temporária da lactose por duas a quatro semanas com reintrodução programada, observando a correlação com os sintomas, ou por teste respiratório com hidrogênio expirado quando disponível. A exclusão permanente e total não é necessária: a maioria tolera pequenas quantidades, sobretudo com alimentos, e a enzima lactase exógena permite consumo. Importa afastar doença celíaca, que pode cursar com intolerância secundária.",
+"porAlt": [
+"Correta: retirada temporária com reintrodução programada, avaliando a correlação com os sintomas.",
+"A biópsia intestinal não é necessária para o diagnóstico de intolerância à lactose simples.",
+"A exclusão permanente e total é desnecessária e compromete o aporte de cálcio na dieta.",
+"O corticoide não trata deficiência enzimática e adiciona toxicidade sem qualquer benefício.",
+"O antibiótico não trata intolerância à lactose, que decorre de deficiência da enzima lactase."
+]
+},
+{
+"q": "Paciente com doença diverticular apresenta dor em fossa ilíaca esquerda, febre e leucocitose, sem sinais de peritonite. Qual é a conduta?",
+"alts": [
+"Confirmar por tomografia e tratar conforme a gravidade, considerando sempre manejo ambulatorial em casos selecionados.",
+"Indicar colectomia de urgência em todos os pacientes com diverticulite aguda e febre com leucocitose nesse contexto.",
+"Realizar colonoscopia imediata na fase aguda como exame de escolha para confirmar o diagnóstico do quadro neste caso.",
+"Prescrever apenas analgésico e liberar sem qualquer avaliação por imagem ou tratamento antimicrobiano neste caso.",
+"Prescrever apenas laxante estimulante em dose alta como tratamento inicial da diverticulite aguda descrita agora."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "ACG Clinical Guideline on the management of acute diverticulitis, 2021; WSES guidelines, revisão 2023",
+"coment": "O diagnóstico de diverticulite aguda é confirmado por tomografia de abdome com contraste, que também estratifica a gravidade e identifica abscesso, perfuração e fístula. Casos não complicados em pacientes imunocompetentes e sem comorbidades podem ser manejados ambulatorialmente, e evidências recentes mostram que muitos dispensam antibiótico. Colonoscopia é contraindicada na fase aguda por risco de perfuração, sendo realizada semanas depois para excluir neoplasia.",
+"porAlt": [
+"Correta: confirmar por tomografia e tratar conforme a gravidade, com manejo ambulatorial quando possível.",
+"A cirurgia de urgência se reserva a complicações como perfuração livre e peritonite generalizada.",
+"A colonoscopia na fase aguda é contraindicada pelo risco de perfuração do segmento inflamado.",
+"Liberar sem imagem nem tratamento perde complicações como abscesso e perfuração contida.",
+"O laxante estimulante agrava a dor e o risco de perfuração no segmento agudamente inflamado."
+]
+},
+{
+"q": "Paciente com sangramento digestivo baixo volumoso e instabilidade hemodinâmica. Qual é a conduta inicial?",
+"alts": [
+"Estabilizar e investigar a fonte com angiotomografia ou colonoscopia, excluindo sempre origem digestiva alta.",
+"Realizar colonoscopia imediata sem qualquer preparo ou estabilização hemodinâmica prévia do paciente agora.",
+"Indicar colectomia total imediata em todos os casos de sangramento digestivo baixo com instabilidade agora.",
+"Prescrever apenas antifibrinolítico oral como tratamento definitivo do sangramento digestivo baixo volumoso.",
+"Aguardar a cessação espontânea do sangramento por quarenta e oito horas antes de qualquer investigação agora."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "ACG Clinical Guideline on the management of patients with acute lower gastrointestinal bleeding, 2023; ESGE guideline, 2021",
+"coment": "No sangramento digestivo baixo com instabilidade, a prioridade é a ressuscitação com acessos calibrosos, reposição volêmica e transfusão com estratégia restritiva. É obrigatório excluir origem digestiva alta, que responde por parte dos casos de hematoquezia volumosa, com passagem de sonda nasogástrica ou endoscopia alta. A angiotomografia identifica sangramento ativo e orienta embolização, e a colonoscopia é feita após preparo quando o paciente estabiliza.",
+"porAlt": [
+"Correta: estabilizar e investigar a fonte, excluindo origem alta antes de assumir sangramento baixo.",
+"A colonoscopia sem preparo e sem estabilização tem baixo rendimento e alto risco no instável.",
+"A colectomia é medida de exceção, após falha das abordagens endoscópica e angiográfica.",
+"O antifibrinolítico não controla sangramento digestivo baixo ativo com instabilidade hemodinâmica.",
+"Aguardar quarenta e oito horas em paciente instável permite choque hemorrágico e óbito."
+]
+},
+{
+"q": "Paciente com esôfago de Barrett sem displasia em endoscopia de rastreio. Qual é a conduta?",
+"alts": [
+"Vigilância endoscópica programada com inibidor de bomba de prótons, definindo sempre o intervalo pela extensão.",
+"Indicar esofagectomia imediata em todos os pacientes com esôfago de Barrett sem displasia identificada agora.",
+"Não realizar qualquer seguimento, pois o esôfago de Barrett não aumenta o risco de adenocarcinoma esofágico.",
+"Realizar ablação por radiofrequência em todos os pacientes com esôfago de Barrett sem qualquer displasia agora.",
+"Prescrever apenas antiácido de demanda e alta definitiva sem qualquer programação de novo exame endoscópico."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "ACG Clinical Guideline on the Diagnosis and Management of Barrett's Esophagus, 2022; AGA Clinical Practice Update, 2024",
+"coment": "O esôfago de Barrett é metaplasia intestinal do esôfago distal e fator de risco para adenocarcinoma, com risco anual baixo na ausência de displasia. A conduta é vigilância endoscópica com biópsias em quatro quadrantes, com intervalo definido pela extensão do segmento, tipicamente de três a cinco anos sem displasia, associada a inibidor de bomba de prótons. Displasia de baixo ou alto grau indica terapia endoscópica, geralmente ablação por radiofrequência.",
+"porAlt": [
+"Correta: vigilância endoscópica programada com inibidor de bomba, com intervalo definido pela extensão.",
+"A esofagectomia é cirurgia de grande porte e não se indica na ausência de displasia ou neoplasia.",
+"O Barrett aumenta o risco de adenocarcinoma e por isso justifica programa de vigilância definido.",
+"A ablação é indicada diante de displasia, e não em todo Barrett sem alteração displásica.",
+"Alta definitiva sem vigilância perde a progressão para displasia em fase ainda tratável."
+]
+},
+{
+"q": "Paciente com hepatite alcoólica grave e escore de Maddrey acima de 32, sem infecção ativa. Qual é a conduta?",
+"alts": [
+"Corticoide sistêmico com suporte nutricional e abstinência, avaliando sempre a resposta pelo escore de Lille.",
+"Manter o consumo de álcool em dose reduzida durante o tratamento da hepatite alcoólica grave do paciente.",
+"Iniciar antibiótico de amplo espectro isolado como tratamento específico da hepatite alcoólica grave descrita.",
+"Indicar transplante hepático imediato em todos os pacientes com hepatite alcoólica grave, sem qualquer critério.",
+"Prescrever apenas hepatoprotetor de venda livre como tratamento definitivo da hepatite alcoólica grave agora."
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "EASL Clinical Practice Guidelines on alcohol-related liver disease, 2018 com revisão 2023; AASLD practice guidance, 2020",
+"coment": "Na hepatite alcoólica grave, definida por escore de Maddrey igual ou superior a 32, o corticoide reduz a mortalidade em curto prazo em pacientes selecionados, desde que afastadas infecção ativa, sangramento digestivo não controlado e insuficiência renal grave. A resposta é avaliada pelo escore de Lille no sétimo dia, e a ausência de resposta indica suspensão. São essenciais a abstinência absoluta, o suporte nutricional intensivo e a reposição de tiamina.",
+"porAlt": [
+"Correta: corticoide com suporte nutricional e abstinência, avaliando a resposta pelo escore de Lille.",
+"Manter qualquer consumo de álcool impede a recuperação e piora diretamente o prognóstico.",
+"O antibiótico é necessário se houver infecção, mas não é o tratamento específico da hepatite alcoólica.",
+"O transplante nessa indicação segue critérios rigorosos e não é indicado indiscriminadamente.",
+"Hepatoprotetores não têm eficácia demonstrada e não reduzem a mortalidade nesse quadro grave."
+]
 }
 ];

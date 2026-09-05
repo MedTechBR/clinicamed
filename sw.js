@@ -3,7 +3,7 @@
    versão velha e a correção vira fantasma.
    Estáticos usam stale-while-revalidate: bump de versão não basta quando a borda do CDN
    devolve conteúdo velho para o precache. HTML é network-first. */
-const CACHE="cm-v19", FONTES="cm-fontes-v1";
+const CACHE="cm-v20", FONTES="cm-fontes-v1";
 const PRE=["./","./index.html","./taxonomia.js","./provas.js","./banco.js","./flash.js",
            "./pratica.js","./leituras.js","./manifest.webmanifest",
            "./leituras/_leitura.css","./leituras/_leitura.js"];
