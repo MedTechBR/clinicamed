@@ -192,3 +192,22 @@ O Matheus deu acesso a `~/Documents/Livros/` — diretrizes em PDF e livros. O c
 GitHub Pages, repo público `MedTechBR/clinicamed` → medtechbr.github.io/clinicamed/.
 Conteúdo 100% autoral. Se entrarem questões transcritas de provas reais, reavaliar: material de
 banca pode exigir o esquema privado do RadioTítulo.
+
+## Deploy: rode `python3 bump.py` antes de todo commit
+
+O `sw.js` usa stale-while-revalidate nos estáticos e o handler casa por URL **completa**.
+Bumpar só a constante `CACHE` não bastava: quem não tinha o service worker registrado
+(primeira visita, aba anônima, PWA recém-instalado) recebia o `banco.js` da cache HTTP do
+navegador, que não expira — o deploy ficava invisível. Foi exatamente o que aconteceu ao
+publicar as 700 questões: o arquivo no ar já tinha 700, e a página carregada mostrava 645.
+
+`bump.py` incrementa a versão em quatro lugares de uma vez, para que não possam divergir:
+- `const CACHE="cm-vN"` no sw.js
+- a lista `PRE` do sw.js (precisa do mesmo `?v=` que a página pede, senão o precache
+  nunca atende e o app perde o offline na primeira visita)
+- as tags `<script src="...?v=N">` do index.html
+- `_leitura.css` / `_leitura.js` nas 16 páginas de leitura
+
+Verificação de deploy: buscar `banco.js?cb=<timestamp>` com `cache:'no-store'` e contar
+`"gab":` — comparar com `window.BANCO.length` da página carregada. Se divergirem, é cache,
+não build.
