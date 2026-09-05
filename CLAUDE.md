@@ -211,3 +211,31 @@ publicar as 700 questões: o arquivo no ar já tinha 700, e a página carregada 
 Verificação de deploy: buscar `banco.js?cb=<timestamp>` com `cache:'no-store'` e contar
 `"gab":` — comparar com `window.BANCO.length` da página carregada. Se divergirem, é cache,
 não build.
+
+## Questões de prova real: o que se copia e o que se escreve
+
+O banco é misto: 700 autorais + 211 copiadas de provas oficiais públicas
+(ENARE 2024/EBSERH-FGV, Revalida 2022 e 2024/INEP-MEC, USP 2026/FUVEST). A fonte
+delas é `MedTech/site/flashmed-provas.js` — **espelho, nunca commitar de lá**.
+
+**Enunciado e alternativas são VERBATIM.** Reescrever o texto da banca falsifica a
+questão e destrói o que a torna útil: treinar no enunciado que a banca escreveu,
+com os tells que a banca teve. O caderno oficial só traz `"Gabarito oficial (…)"`,
+então tudo o mais é escrito aqui: tema/cenário/competência/nível, `base` com
+diretriz **e ano**, `coment` (≥150 caracteres) e um `porAlt` por alternativa.
+
+`valida_banco.py` reconhece a questão real pelo campo `fonte:{banca,ano}` e a
+isenta das regras de estilo AUTORAL — comprimento das alternativas em 95–108%,
+termos absolutos, linguagem cautelosa, acento nos distratores — porque essas
+regras policiam vício de escrita, não a prova. Aceita 4 ou 5 alternativas
+(Revalida e ENARE usam 4). O viés de tamanho das reais é **medido e reportado
+separado, não corrigido**. O que continua valendo para elas: `coment` mínimo,
+`porAlt` completo, `base` com ano, chave única, classificação obrigatória.
+
+Triagem: das 655 questões das 7 provas, 286 eram de clínica médica; 211 entraram.
+Descartadas as de GO, pediatria, cirurgia, as sem gabarito (`correct: -1`) e as
+cujo gabarito oficial contraria a diretriz vigente (ensinar o erro é pior que
+não ter a questão).
+
+O app deixa isso visível: filtro **Procedência** na aba Questões (todas / só de
+prova real / só autorais) e pílula com banca e ano no feedback pós-resposta.
