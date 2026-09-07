@@ -3,10 +3,10 @@
    versão velha e a correção vira fantasma.
    Estáticos usam stale-while-revalidate: bump de versão não basta quando a borda do CDN
    devolve conteúdo velho para o precache. HTML é network-first. */
-const CACHE="cm-v45", FONTES="cm-fontes-v1";
-const PRE=["./","./index.html","./taxonomia.js?v=45","./provas.js?v=45","./banco.js?v=45","./flash.js?v=45",
-           "./pratica.js?v=45","./leituras.js?v=45","./nuvem.js?v=45","./turma.js?v=45","./manifest.webmanifest",
-           "./leituras/_leitura.css?v=45","./leituras/_leitura.js?v=45"];
+const CACHE="cm-v46", FONTES="cm-fontes-v1";
+const PRE=["./","./index.html","./taxonomia.js?v=46","./provas.js?v=46","./banco.js?v=46","./flash.js?v=46",
+           "./pratica.js?v=46","./leituras.js?v=46","./nuvem.js?v=46","./turma.js?v=46","./indice-leituras.js?v=46","./manifest.webmanifest",
+           "./leituras/_leitura.css?v=46","./leituras/_leitura.js?v=46"];
 self.addEventListener("install",e=>{
   e.waitUntil(caches.open(CACHE).then(c=>Promise.allSettled(PRE.map(u=>c.add(u)))).then(()=>self.skipWaiting()));
 });
@@ -20,6 +20,15 @@ self.addEventListener("fetch",e=>{
   /* SÓ fontes e os módulos versionados do Firebase entram no cache-first. O teste antigo era
      hostname.endsWith("googleapis.com"), que engolia firestore.googleapis.com — o canal de
      escuta do Firestore usa GET, e servir isso da cache trava a sincronização em silêncio. */
+  /* cdn.jsdelivr.net (ícones Tabler, mermaid) fica no balde de fontes, que sobrevive ao bump de
+     versão, mas em stale-while-revalidate: o caminho tem versão maior (@3, @11) e pode andar. */
+  if(url.hostname==="cdn.jsdelivr.net"){
+    e.respondWith(caches.open(FONTES).then(async c=>{
+      const hit=await c.match(req);
+      const rede=fetch(req).then(r=>{if(r.ok)c.put(req,r.clone());return r}).catch(()=>null);
+      return hit||(await rede)||Response.error();
+    })); return;
+  }
   if(url.hostname==="fonts.googleapis.com"||url.hostname==="fonts.gstatic.com"||
      (url.hostname==="www.gstatic.com"&&url.pathname.startsWith("/firebasejs/"))){
     e.respondWith(caches.open(FONTES).then(async c=>{

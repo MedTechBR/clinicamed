@@ -14,81 +14,98 @@ document.documentElement.classList.add("travado");})();
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- gramática visual do ecossistema: tokens da raiz do site + ícones Tabler (nunca emoji) -->
+<link rel="stylesheet" href="/_mttokens.css?v=2">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3/dist/tabler-icons.min.css">
 <style>
+/* ============================================================
+   ClínicaMed — gramática visual MedTech (papel #FAFAF8, Figtree, Tabler, flat),
+   com o teal como cor canônica do app. Sem gradiente, sem fundo-grade, sem emoji.
+   Os --mt-* vêm de /_mttokens.css; os nomes curtos abaixo são o contrato local.
+   ============================================================ */
 :root{
-  --papel:#FAF5F1; --sup:#FFFFFF; --sup2:#F4ECE6;
-  --ink:#191512; --ink2:#5B5049; --linha:#E3D3C8;
-  --brand:#0B6A72; --brandInk:#0B6A72; --brandSup:#E4F0F0; --brandTxt:#FFFFFF;
-  --ok:#1B7A45; --okSup:#E3F3EA; --err:#B3261E; --errSup:#FBE9E7;
-  --avi:#8A5A00; --aviSup:#FBF0DC;
-  --grade:rgba(196,120,90,.20);
-  --r:12px; --sombra:0 1px 2px rgba(25,21,18,.06),0 2px 8px rgba(25,21,18,.04);
+  --papel:var(--mt-bg,#FAFAF8); --sup:#FFFFFF; --sup2:var(--mt-surface-2,#F1F1EC);
+  --ink:var(--mt-text,#23272E); --ink2:var(--mt-text-dim,#5E646B); --linha:var(--mt-line,#E8E8E2); --linhaF:var(--mt-line-strong,#DDDDD5);
+  --brand:#0B6A72; --brandInk:#0B6A72; --brandSup:#E3F1F1; --brandTxt:#FFFFFF;
+  --ok:#1D7A46; --okSup:#E6F3EB; --err:#C6453D; --errSup:#FBEAE8;
+  --avi:#A3730A; --aviSup:#FBF1DC;
+  --r:12px; --sombra:0 1px 2px rgba(35,39,46,.05),0 6px 18px rgba(35,39,46,.05);
+  --nav:0px;
 }
 @media (prefers-color-scheme:dark){:root:not([data-tema="claro"]){
-  --papel:#121010; --sup:#1C1918; --sup2:#252120;
-  --ink:#EFE8E3; --ink2:#A99E97; --linha:#332D2B;
-  --brand:#4FB8BD; --brandInk:#4FB8BD; --brandSup:#132A2C; --brandTxt:#0E1414;
+  --papel:#121417; --sup:#1B1E23; --sup2:#23272E;
+  --ink:#E9EBEE; --ink2:#A3A9B2; --linha:#2B3037; --linhaF:#363C44;
+  --brand:#4FB8BD; --brandInk:#4FB8BD; --brandSup:#14292B; --brandTxt:#0E1414;
   --ok:#5FCB8E; --okSup:#14291D; --err:#F0837A; --errSup:#301A18;
   --avi:#E0AE5A; --aviSup:#2C2418;
-  --grade:rgba(120,90,80,.16);
   --sombra:0 1px 2px rgba(0,0,0,.4);
 }}
 :root[data-tema="escuro"]{
-  --papel:#121010; --sup:#1C1918; --sup2:#252120;
-  --ink:#EFE8E3; --ink2:#A99E97; --linha:#332D2B;
-  --brand:#4FB8BD; --brandInk:#4FB8BD; --brandSup:#132A2C; --brandTxt:#0E1414;
+  --papel:#121417; --sup:#1B1E23; --sup2:#23272E;
+  --ink:#E9EBEE; --ink2:#A3A9B2; --linha:#2B3037; --linhaF:#363C44;
+  --brand:#4FB8BD; --brandInk:#4FB8BD; --brandSup:#14292B; --brandTxt:#0E1414;
   --ok:#5FCB8E; --okSup:#14291D; --err:#F0837A; --errSup:#301A18;
   --avi:#E0AE5A; --aviSup:#2C2418;
-  --grade:rgba(120,90,80,.16);
   --sombra:0 1px 2px rgba(0,0,0,.4);
 }
+:root[data-tema="escuro"]{color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-tema="claro"]){color-scheme:dark}}
 *{box-sizing:border-box}
+html{-webkit-tap-highlight-color:transparent}
 body{margin:0;background:var(--papel);color:var(--ink);
-  font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
-  -webkit-text-size-adjust:100%;padding-bottom:64px}
-h1,h2,h3,.serif{font-family:Newsreader,Georgia,serif;font-weight:600;letter-spacing:-.01em}
+  font:15px/1.55 Figtree,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:-.005em;
+  -webkit-text-size-adjust:100%;padding-bottom:calc(64px + var(--nav))}
+h1,h2,h3,h4{font-weight:600;letter-spacing:-.012em;line-height:1.25}
+h2{font-size:20px}h3{font-size:17px}
 button,input,select,textarea{font:inherit;color:inherit}
 a{color:var(--brandInk)}
+.ti{font-size:1.15em;line-height:1;vertical-align:-.12em}
+.num{font-variant-numeric:tabular-nums}
 
-/* cabeçalho: a faixa de papel milimetrado do ECG */
+/* cabeçalho: branco, linha fina, sem ornamento */
 header{position:sticky;top:0;z-index:30;background:var(--sup);border-bottom:1px solid var(--linha);
-  background-image:linear-gradient(var(--grade) 1px,transparent 1px),linear-gradient(90deg,var(--grade) 1px,transparent 1px);
-  background-size:16px 16px,16px 16px}
-.topo{max-width:1000px;margin:0 auto;padding:10px 14px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.marca{font-family:Newsreader,serif;font-weight:700;font-size:21px;letter-spacing:-.02em;display:flex;align-items:center;gap:8px}
-.marca svg{display:block}
-.contador{margin-left:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-.contador select{background:var(--sup2);border:1px solid var(--linha);border-radius:999px;padding:7px 10px;max-width:210px}
-.dias{background:var(--brandSup);color:var(--brandInk);border-radius:999px;padding:7px 12px;font-weight:600;font-size:13px;white-space:nowrap}
-.btTema{background:var(--sup2);border:1px solid var(--linha);border-radius:999px;padding:7px 12px;cursor:pointer;min-height:38px}
-nav.abas{max-width:1000px;margin:0 auto;padding:0 10px 10px;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+  padding-top:env(safe-area-inset-top)}
+.topo{max-width:1040px;margin:0 auto;padding:9px 14px;display:flex;align-items:center;gap:10px}
+.marca{font-weight:700;font-size:18px;letter-spacing:-.02em;display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none}
+.marca .tile{width:32px;height:32px;border-radius:9px;background:var(--brand);display:grid;place-items:center;flex:0 0 auto}
+.marca .tile svg{display:block}
+.contador{margin-left:auto;display:flex;align-items:center;gap:6px}
+.btIco{width:38px;height:38px;border-radius:10px;border:1px solid var(--linha);background:var(--sup);color:var(--ink2);
+  display:grid;place-items:center;cursor:pointer;font-size:19px;padding:0}
+.btIco:hover{background:var(--sup2);color:var(--ink)}
+nav.abas{max-width:1040px;margin:0 auto;padding:0 10px 8px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
 nav.abas::-webkit-scrollbar{display:none}
-nav.abas button{white-space:nowrap;background:transparent;border:1px solid transparent;color:var(--ink2);
-  border-radius:999px;padding:9px 14px;cursor:pointer;font-weight:500;min-height:40px}
-nav.abas button:hover{background:var(--sup2)}
-nav.abas button[aria-selected="true"]{background:var(--brand);color:var(--brandTxt);font-weight:600}
+nav.abas button{white-space:nowrap;background:transparent;border:0;color:var(--ink2);display:inline-flex;align-items:center;gap:7px;
+  border-radius:9px;padding:8px 12px;cursor:pointer;font-weight:500;min-height:38px;font-size:14px}
+nav.abas button .ti{font-size:18px}
+nav.abas button:hover{background:var(--sup2);color:var(--ink)}
+nav.abas button[aria-selected="true"]{background:var(--brandSup);color:var(--brandInk);font-weight:600}
 
-main{max-width:1000px;margin:0 auto;padding:16px 14px 40px}
+main{max-width:1040px;margin:0 auto;padding:16px 14px 40px}
 section[hidden]{display:none!important}
-.cx{background:var(--sup);border:1px solid var(--linha);border-radius:var(--r);padding:16px;box-shadow:var(--sombra);margin-bottom:14px}
+.cx{background:var(--sup);border:1px solid var(--linha);border-radius:var(--r);padding:16px;box-shadow:var(--sombra);margin-bottom:12px}
 .linha{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-.bt{background:var(--brand);color:var(--brandTxt);border:0;border-radius:10px;padding:11px 16px;font-weight:600;cursor:pointer;min-height:44px}
-.bt.sec{background:var(--sup2);color:var(--ink);border:1px solid var(--linha)}
-.bt.mini{padding:7px 11px;min-height:38px;font-size:13px}
+.bt{background:var(--brand);color:var(--brandTxt);border:1px solid transparent;border-radius:10px;padding:10px 16px;font-weight:600;cursor:pointer;min-height:42px;
+  display:inline-flex;align-items:center;gap:7px;justify-content:center;text-decoration:none}
+.bt:hover{filter:brightness(.96)}
+.bt.sec{background:var(--sup);color:var(--ink);border-color:var(--linhaF)}
+.bt.sec:hover{background:var(--sup2);filter:none}
+.bt.mini{padding:6px 11px;min-height:34px;font-size:13px}
 .bt:disabled{opacity:.5;cursor:default}
-select,input[type=text],input[type=number],textarea{background:var(--sup);border:1px solid var(--linha);border-radius:10px;padding:10px;min-height:44px;max-width:100%}
+select,input[type=text],input[type=number],input[type=search],input[type=email],input:not([type]),textarea{background:var(--sup);border:1px solid var(--linhaF);border-radius:10px;padding:9px 11px;min-height:42px;max-width:100%;color:var(--ink)}
+select:focus,input:focus,textarea:focus{outline:none;border-color:var(--brand);box-shadow:0 0 0 3px rgba(11,106,114,.18)}
 textarea{min-height:120px;line-height:1.5}
 label.cmp{display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--ink2);font-weight:500}
-.pilula{display:inline-block;background:var(--sup2);border:1px solid var(--linha);border-radius:999px;padding:3px 9px;font-size:11.5px;color:var(--ink2);font-weight:500}
-.pilula.b{background:var(--brandSup);color:var(--brandInk);border-color:transparent}
-.pilula.ok{background:var(--okSup);color:var(--ok);border-color:transparent}
-.pilula.er{background:var(--errSup);color:var(--err);border-color:transparent}
+.pilula{display:inline-flex;align-items:center;gap:4px;background:var(--sup2);border:1px solid transparent;border-radius:999px;padding:3px 9px;font-size:11.5px;color:var(--ink2);font-weight:500}
+.pilula.b{background:var(--brandSup);color:var(--brandInk)}
+.pilula.ok{background:var(--okSup);color:var(--ok)}
+.pilula.er{background:var(--errSup);color:var(--err)}
 .enun{font-size:16.5px;line-height:1.6;margin:12px 0 14px}
-.alt{display:flex;gap:11px;width:100%;text-align:left;background:var(--sup);border:1px solid var(--linha);
+.alt{display:flex;gap:11px;width:100%;text-align:left;background:var(--sup);border:1px solid var(--linhaF);
   border-radius:10px;padding:13px;margin-bottom:8px;cursor:pointer;align-items:flex-start;min-height:44px}
 .alt:hover{border-color:var(--brand)}
-.alt .let{font-weight:700;color:var(--ink2);min-width:18px;font-family:Newsreader,serif}
+.alt .let{font-weight:700;color:var(--ink2);min-width:18px}
 .alt.certa{background:var(--okSup);border-color:var(--ok)}
 .alt.errada{background:var(--errSup);border-color:var(--err)}
 .alt[disabled]{cursor:default}
@@ -97,24 +114,24 @@ label.cmp{display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--
 .expl{font-size:13.5px;color:var(--ink2);margin:6px 0 0 29px}
 .grade2{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
 .kpi{background:var(--sup2);border-radius:10px;padding:13px}
-.kpi b{display:block;font-family:Newsreader,serif;font-size:27px;font-weight:600;line-height:1.1}
+.kpi b{display:block;font-size:26px;font-weight:700;line-height:1.1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
 .kpi span{font-size:12px;color:var(--ink2)}
-.barra{height:7px;background:var(--sup2);border-radius:99px;overflow:hidden;margin-top:6px}
+.barra{height:6px;background:var(--sup2);border-radius:99px;overflow:hidden;margin-top:6px}
 .barra i{display:block;height:100%;background:var(--brand)}
 .rolagem{overflow-x:auto;-webkit-overflow-scrolling:touch}
 table{border-collapse:collapse;width:100%;font-size:14px}
 th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--linha)}
 th{font-size:12px;color:var(--ink2);text-transform:none;font-weight:600}
-.faixas{position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px;display:flex;flex-direction:column;gap:8px;pointer-events:none}
+.faixas{position:fixed;left:0;right:0;bottom:calc(var(--nav) + 0px);z-index:60;padding:10px;display:flex;flex-direction:column;gap:8px;pointer-events:none}
 .faixa{pointer-events:auto;max-width:640px;margin:0 auto;width:100%;display:flex;gap:10px;align-items:center;
-  border-radius:10px;padding:11px 13px;font-size:14px;box-shadow:0 4px 16px rgba(0,0,0,.18)}
+  border-radius:10px;padding:11px 13px;font-size:14px;box-shadow:0 4px 16px rgba(0,0,0,.18);background:var(--sup)}
 .faixa span{flex:1}
-.faixa button{background:transparent;border:0;cursor:pointer;font-size:16px;padding:4px 8px;min-height:36px}
-.faixa.ok{background:var(--okSup);color:var(--ok);border:1px solid var(--ok)}
-.faixa.erro{background:var(--errSup);color:var(--err);border:1px solid var(--err)}
-.faixa.avi{background:var(--aviSup);color:var(--avi);border:1px solid var(--avi)}
+.faixa button{background:transparent;border:0;cursor:pointer;font-size:16px;padding:4px 8px;min-height:36px;color:inherit}
+.faixa.ok{color:var(--ok);border:1px solid var(--ok)}
+.faixa.erro{color:var(--err);border:1px solid var(--err)}
+.faixa.avi{color:var(--avi);border:1px solid var(--avi)}
 .vazio{color:var(--ink2);font-size:14px;padding:22px 0;text-align:center}
-.crono{font-family:Newsreader,serif;font-size:30px;font-weight:600;font-variant-numeric:tabular-nums}
+.crono{font-size:30px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
 details{border:1px solid var(--linha);border-radius:10px;padding:11px 13px;margin-bottom:8px;background:var(--sup)}
 summary{cursor:pointer;font-weight:600}
 .quadro{width:100%;border:1px solid var(--linha);border-radius:var(--r);background:var(--sup)}
@@ -122,11 +139,11 @@ body.lendo{padding-bottom:0}
 body.lendo main{padding-bottom:0}
 hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 .mini{font-size:12.5px;color:var(--ink2)}
-/* modal de contestação */
-.fundo{position:fixed;inset:0;background:rgba(10,8,8,.55);z-index:80;display:flex;align-items:flex-start;
+/* modal */
+.fundo{position:fixed;inset:0;background:rgba(20,22,26,.5);z-index:80;display:flex;align-items:flex-start;
   justify-content:center;padding:18px;overflow-y:auto}
-.modal{background:var(--sup);border:1px solid var(--linha);border-radius:var(--r);max-width:620px;width:100%;
-  padding:18px;box-shadow:0 12px 40px rgba(0,0,0,.3);margin:auto}
+.modal{background:var(--sup);border:1px solid var(--linha);border-radius:14px;max-width:620px;width:100%;
+  padding:18px;box-shadow:0 12px 40px rgba(0,0,0,.25);margin:auto}
 .modal h3{margin:0 0 4px}
 .modal label.cmp{margin-top:12px}
 .modal textarea{width:100%}
@@ -134,14 +151,41 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 .opcs label{display:flex;gap:9px;align-items:flex-start;background:var(--sup2);border:1px solid var(--linha);
   border-radius:9px;padding:10px;cursor:pointer;font-size:14px}
 .opcs input{margin-top:2px}
-/* `.mini` é usada em dois papéis: texto auxiliar e modificador de botão (.bt.mini). Como as duas
-   regras têm a mesma especificidade, a última vencia e pintava o texto do botão primário de cinza
-   sobre o teal (1,23:1). As duas regras abaixo resolvem por especificidade, não por ordem. */
 .bt.mini{color:var(--brandTxt)}
 .bt.sec.mini{color:var(--ink)}
-@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
-@media(max-width:520px){.contador select{max-width:150px}.marca{font-size:19px}}
 
+/* busca global */
+.busca{max-width:680px}
+.busca .campo{display:flex;gap:8px;align-items:center}
+.busca .campo input{flex:1;font-size:16px}
+.hit{display:block;width:100%;text-align:left;background:var(--sup);border:1px solid var(--linha);border-radius:10px;padding:10px 12px;margin-top:8px;cursor:pointer}
+.hit:hover{border-color:var(--brand);background:var(--brandSup)}
+.hit small{display:block;color:var(--ink2);font-size:12px;margin-top:2px}
+.hit mark{background:var(--aviSup);color:inherit;border-radius:3px;padding:0 2px}
+.grupoB{font-size:12px;color:var(--ink2);font-weight:600;margin:14px 0 2px;text-transform:none}
+
+/* progresso de leitura no cartão */
+.progL{height:4px;background:var(--sup2);border-radius:99px;overflow:hidden;margin-top:10px}
+.progL i{display:block;height:100%;background:var(--brand)}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* ---------- modo app no celular: abas viram barra inferior ---------- */
+@media(max-width:640px){
+  :root{--nav:calc(62px + env(safe-area-inset-bottom))}
+  .marca{font-size:17px}
+  nav.abas{position:fixed;left:0;right:0;bottom:0;z-index:55;margin:0;padding:6px 4px calc(6px + env(safe-area-inset-bottom));
+    background:var(--sup);border-top:1px solid var(--linha);display:grid;grid-template-columns:repeat(var(--nAbas,7),1fr);gap:0;overflow:visible}
+  nav.abas button{flex-direction:column;gap:3px;padding:4px 2px;min-height:50px;font-size:10.5px;border-radius:8px;justify-content:center}
+  nav.abas button .ti{font-size:21px}
+  nav.abas button[hidden]{display:none}
+  main{padding-bottom:calc(20px + var(--nav))}
+  body.lendo main{padding-bottom:0}
+  input,select,textarea{font-size:16px}  /* anti-zoom iOS */
+  /* filtros em duas colunas: seis selects empilhados empurravam a questão para fora da tela */
+  .linha label.cmp{flex:1 1 calc(50% - 5px);min-width:0}
+  .linha label.cmp select,.linha label.cmp input{width:100%}
+}
 /* ---------- conta MedTech ----------
    Login é OBRIGATÓRIO: o app é acompanhado pela coordenação, e quem estuda sem conta não
    aparece para ninguém. A tela de login e o splash do _mtauth.js ficam como vêm.
@@ -162,22 +206,26 @@ body.mt-shell{padding-top:0!important}
   border-radius:50%;animation:cmgira .8s linear infinite}
 @keyframes cmgira{to{transform:rotate(360deg)}}
 html.travado,html.travado body{overflow:hidden}
-.btConta{background:var(--sup2);border:1px solid var(--linha);border-radius:999px;
-  padding:7px 12px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
-.btConta.logado{background:var(--brandSup);border-color:var(--brand);color:var(--brandInk)}
+.btConta{background:var(--sup);border:1px solid var(--linha);border-radius:999px;height:38px;
+  padding:0 12px 0 9px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;color:var(--ink2)}
+.btConta.logado{background:var(--brandSup);border-color:transparent;color:var(--brandInk)}
+.btConta .ti{font-size:17px}
+@media(max-width:480px){.btConta span{display:none}.btConta{padding:0 9px}}
 </style>
 
 <header>
  <div class="topo">
-  <div class="marca">
-   <svg width="26" height="18" viewBox="0 0 52 24" fill="none" aria-hidden="true">
-    <path d="M1 16h9l3-9 4 15 4-20 4 14 3-6h5l3 6h11" stroke="var(--brand)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-   </svg>
+  <a class="marca" href="./">
+   <span class="tile"><svg width="22" height="14" viewBox="0 0 52 24" fill="none" aria-hidden="true">
+    <path d="M1 16h9l3-9 4 15 4-20 4 14 3-6h5l3 6h11" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+   </svg></span>
    ClínicaMed
-  </div>
+  </a>
   <div class="contador">
-   <button class="btConta" id="btConta" hidden>Entrar</button>
-   <button class="btTema" id="btTema" title="Alternar tema">◐</button>
+   <button class="btIco" id="btBusca" title="Buscar em tudo (/)" aria-label="Buscar"><i class="ti ti-search" aria-hidden="true"></i></button>
+   <button class="btConta" id="btConta" hidden><i class="ti ti-user-circle" aria-hidden="true"></i><span>Entrar</span></button>
+   <button class="btIco" id="btTema" title="Alternar tema" aria-label="Alternar tema"><i class="ti ti-moon" aria-hidden="true"></i></button>
+   <button class="btIco" id="btMedTech" title="Outras funções MedTech" aria-label="Outras funções MedTech" hidden><i class="ti ti-grid-dots" aria-hidden="true"></i></button>
   </div>
  </div>
  <nav class="abas" id="abas" role="tablist"></nav>
@@ -214,14 +262,15 @@ html.travado,html.travado body{overflow:hidden}
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=45"></script>
-<script src="provas.js?v=45"></script>
-<script src="banco.js?v=45"></script>
-<script src="flash.js?v=45"></script>
-<script src="pratica.js?v=45"></script>
-<script src="leituras.js?v=45"></script>
-<script src="nuvem.js?v=45"></script>
-<script src="turma.js?v=45"></script>
+<script src="taxonomia.js?v=46"></script>
+<script src="provas.js?v=46"></script>
+<script src="banco.js?v=46"></script>
+<script src="flash.js?v=46"></script>
+<script src="pratica.js?v=46"></script>
+<script src="leituras.js?v=46"></script>
+<script src="indice-leituras.js?v=46"></script>
+<script src="nuvem.js?v=46"></script>
+<script src="turma.js?v=46"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -251,14 +300,14 @@ const NNIV=Object.fromEntries(NIVEIS.map(t=>[t.id,t.nome]));
 
 const UI={banner(tipo,msg,fixa){
   const d=document.createElement("div");d.className="faixa "+tipo;
-  d.innerHTML=`<span>${esc(msg)}</span><button aria-label="fechar">✕</button>`;
+  d.innerHTML=`<span>${esc(msg)}</span><button aria-label="fechar"><i class="ti ti-x" aria-hidden="true"></i></button>`;
   d.querySelector("button").onclick=()=>d.remove();
   $("#faixas").appendChild(d); if(!fixa)setTimeout(()=>d.remove(),11000);
 }};
 
 /* ---------- blindagem de armazenamento ----------
    load() que falha TRAVA a gravação da chave: melhor não salvar do que salvar vazio por cima. */
-const CHAVES=["resp","fav","flash","erros","cfg","sim","simativo","pos","treino","atividade","lidas","contest"].map(k=>PREF+k);
+const CHAVES=["resp","fav","flash","erros","cfg","sim","simativo","pos","treino","atividade","lidas","contest","prog"].map(k=>PREF+k);
 const ARM={
  db:null,travas:{},tsBackup:0,recuperado:null,persistOK:null,
  async boot(){
@@ -336,7 +385,8 @@ function carregaEstado(){ST={
   resp:ARM.load(PREF+"resp",{}), fav:ARM.load(PREF+"fav",{}), flash:ARM.load(PREF+"flash",{}),
   erros:ARM.load(PREF+"erros",[]), cfg:ARM.load(PREF+"cfg",{}), sim:ARM.load(PREF+"sim",[]),
   simativo:ARM.load(PREF+"simativo",null), pos:ARM.load(PREF+"pos",{}), treino:ARM.load(PREF+"treino",{}),
-  atividade:ARM.load(PREF+"atividade",{}), lidas:ARM.load(PREF+"lidas",{}), contest:ARM.load(PREF+"contest",[])
+  atividade:ARM.load(PREF+"atividade",{}), lidas:ARM.load(PREF+"lidas",{}), contest:ARM.load(PREF+"contest",[]),
+  prog:ARM.load(PREF+"prog",{})
 }}
 /* Único funil de gravação do app — por isso o carimbo da nuvem nasce aqui, e não espalhado
    por cada ponto de escrita. NUVEM.carimba compara com o retrato anterior e datas o que mudou. */
@@ -381,9 +431,9 @@ function espalhaTemas(lista){
 </script>
 <script>
 /* ================= navegação ================= */
-const ABAS=[["questoes","Questões"],["simulado","Simulado"],["pratica","Prática"],
-            ["leituras","Leituras"],["cartoes","Cartões"],["painel","Painel"],
-            ["turma","Turma"],["ajustes","Ajustes"]];
+const ABAS=[["questoes","Questões","list-check"],["simulado","Simulado","stopwatch"],["pratica","Prática","stethoscope"],
+            ["leituras","Leituras","book"],["cartoes","Cartões","cards"],["painel","Painel","chart-bar"],
+            ["turma","Turma","users"],["ajustes","Ajustes","settings"]];
 /* A aba Turma nasce escondida e só é revelada quando o backend confirma que este e-mail
    é da coordenação. Esconder o botão é conveniência: a permissão é conferida na função,
    a cada chamada — mexer no DOM daqui não dá acesso a nada. */
@@ -393,9 +443,13 @@ const ABAS_RESTRITAS=["turma"];
 const PINTA={questoes:()=>pintaQuestoes(),simulado:()=>pintaSimulado(),pratica:()=>pintaPratica(),
              leituras:()=>pintaLeituras(),cartoes:()=>pintaCartoes(),
              painel:()=>pintaPainel(),turma:()=>TURMA.chefe?TURMA.carrega():TURMA.pintaTurma(),ajustes:()=>pintaAjustes()};
+/* a barra inferior do celular é uma grade: precisa saber quantas abas estão visíveis */
+function ajustaNav(){const n=$$("#abas button").filter(b=>!b.hidden).length;
+  document.documentElement.style.setProperty("--nAbas",n)}
 function montaAbas(){
-  $("#abas").innerHTML=ABAS.map(([id,n])=>
-    `<button role="tab" data-aba="${id}" aria-selected="false"${ABAS_RESTRITAS.includes(id)?" hidden":""}>${n}</button>`).join("");
+  $("#abas").innerHTML=ABAS.map(([id,n,ic])=>
+    `<button role="tab" data-aba="${id}" aria-selected="false"${ABAS_RESTRITAS.includes(id)?" hidden":""}><i class="ti ti-${ic}" aria-hidden="true"></i><span>${n}</span></button>`).join("");
+  ajustaNav();
   $$("#abas button").forEach(b=>b.onclick=()=>irAba(b.dataset.aba));
 }
 function irAba(id){
@@ -406,6 +460,63 @@ function irAba(id){
   PINTA[id]();
   if(id!=="leituras")window.scrollTo(0,0);
 }
+
+/* ================= busca global =================
+   Procura em títulos e seções das leituras (indice-leituras.js), enunciados das questões,
+   cartões e estações. A seção da leitura abre já rolada até o cabeçalho (#id). */
+function normaliza(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
+function marca(txt,q){const n=normaliza(txt),i=n.indexOf(q);if(i<0)return esc(txt);
+  return esc(txt.slice(0,i))+"<mark>"+esc(txt.slice(i,i+q.length))+"</mark>"+esc(txt.slice(i+q.length))}
+function buscaTudo(q){
+  q=normaliza(q).trim(); if(q.length<2)return null;
+  const out={leituras:[],secoes:[],questoes:[],cartoes:[],estacoes:[]};
+  const idx=(typeof IDXL!=="undefined")?IDXL:[];
+  LEITURAS.filter(l=>l.f).forEach(l=>{
+    if(normaliza(l.t+" "+l.s+" "+(l.tipo||"")).includes(q))out.leituras.push(l);
+    const ix=idx.find(x=>x.f===l.f); if(!ix)return;
+    ix.h.forEach(h=>{if(normaliza(h.t).includes(q))out.secoes.push({l,h})});
+  });
+  BANCO.forEach(x=>{if(out.questoes.length<40&&normaliza(x.q).includes(q))out.questoes.push(x)});
+  FLASH.forEach((c,i)=>{if(out.cartoes.length<20&&normaliza((c.f||c.frente||"")+" "+(c.v||c.verso||"")).includes(q))out.cartoes.push({c,i})});
+  PRATICA.forEach(e=>{if(normaliza((e.t||e.titulo||"")+" "+(e.caso||"")).includes(q))out.estacoes.push(e)});
+  return out;
+}
+function abreBusca(){
+  if($("#fundoBusca"))return;
+  const d=document.createElement("div");d.className="fundo";d.id="fundoBusca";
+  d.innerHTML=`<div class="modal busca">
+    <div class="campo"><i class="ti ti-search" style="color:var(--ink2)"></i>
+     <input id="qBusca" type="search" placeholder="critério de Light, adenosina, CHA₂DS₂-VA…" autocomplete="off">
+     <button class="btIco" id="fechaBusca" aria-label="fechar"><i class="ti ti-x"></i></button></div>
+    <div id="resBusca"><p class="mini" style="margin:12px 0 0">Procura nas 96 leituras (por seção), nas ${BANCO.length} questões, nos cartões e nas estações.</p></div></div>`;
+  document.body.appendChild(d);
+  const fecha=()=>d.remove();
+  $("#fechaBusca").onclick=fecha; d.onclick=e=>{if(e.target===d)fecha()};
+  d.onkeydown=e=>{if(e.key==="Escape")fecha()};
+  const inp=$("#qBusca"); inp.focus();
+  let deb; inp.oninput=()=>{clearTimeout(deb);deb=setTimeout(()=>pintaBusca(inp.value,fecha),180)};
+}
+function pintaBusca(q,fecha){
+  const r=buscaTudo(q), box=$("#resBusca"); if(!box)return;
+  if(!r){box.innerHTML=`<p class="mini" style="margin:12px 0 0">Digite ao menos duas letras.</p>`;return}
+  const qn=normaliza(q).trim();
+  const total=r.leituras.length+r.secoes.length+r.questoes.length+r.cartoes.length+r.estacoes.length;
+  if(!total){box.innerHTML=`<p class="vazio">Nada com “${esc(q)}”.</p>`;return}
+  const grupo=(n,itens,f)=>itens.length?`<div class="grupoB">${n} (${itens.length})</div>${itens.slice(0,12).map(f).join("")}`:"";
+  box.innerHTML=
+    grupo("Leituras",r.leituras,l=>`<button class="hit" data-ler="${esc(l.f)}">${marca(l.t,qn)}<small>${esc(NOME[l.area]||"")} · ${l.min} min</small></button>`)+
+    grupo("Seções de leitura",r.secoes,x=>`<button class="hit" data-ler="${esc(x.l.f)}" data-sec="${esc(x.h.id)}">${marca(x.h.t,qn)}<small>em ${esc(x.l.t)}</small></button>`)+
+    grupo("Questões",r.questoes,x=>`<button class="hit" data-q="${esc(x._ch)}">${marca(x.q.length>160?x.q.slice(0,160)+"…":x.q,qn)}<small>${esc(NOME[x.tema]||x.tema)}${x.fonte?" · "+esc(x.fonte.banca+" "+x.fonte.ano):""}</small></button>`)+
+    grupo("Cartões",r.cartoes,x=>`<button class="hit" data-card="${x.i}">${marca(x.c.f||x.c.frente||"",qn)}</button>`)+
+    grupo("Estações",r.estacoes,e=>`<button class="hit" data-est="${esc(e.id)}">${marca(e.t||e.titulo||"",qn)}</button>`);
+  $$("#resBusca [data-ler]").forEach(b=>b.onclick=()=>{fecha();ST.cfg.lendo=b.dataset.ler;ST.cfg.secao=b.dataset.sec||null;salva("cfg",ST.cfg);irAba("leituras")});
+  $$("#resBusca [data-q]").forEach(b=>b.onclick=()=>{fecha();
+    ST.pos.fq={area:"",cen:"",comp:"",niv:"",modo:"todas",proc:""};ST.pos.assq=null;ST.pos.chq=b.dataset.q;salva("pos",ST.pos);irAba("questoes")});
+  $$("#resBusca [data-card]").forEach(b=>b.onclick=()=>{fecha();irAba("cartoes")});
+  $$("#resBusca [data-est]").forEach(b=>b.onclick=()=>{fecha();ST.cfg.estacao=b.dataset.est;salva("cfg",ST.cfg);irAba("pratica")});
+}
+$("#btBusca").onclick=abreBusca;
+addEventListener("keydown",e=>{if(e.key==="/"&&!/input|textarea|select/i.test(e.target.tagName)&&!e.metaKey&&!e.ctrlKey){e.preventDefault();abreBusca()}});
 
 /* ================= referência das provas =================
    O app NÃO tem modo/objetivo global: o banco é um só e a escolha de formato acontece na hora
@@ -422,6 +533,7 @@ $("#btTema").onclick=()=>{
   UI.banner("ok","Tema: "+({auto:"segue o sistema",claro:"claro",escuro:"escuro"}[nv]));
 };
 function aplicaTema(){const t=ST.cfg.tema||"auto";
+  const ic=$("#btTema i");if(ic)ic.className="ti ti-"+({auto:"sun-moon",claro:"sun",escuro:"moon"}[t]);
   if(t==="auto")document.documentElement.removeAttribute("data-tema");
   else document.documentElement.setAttribute("data-tema",t);
   try{localStorage.setItem(PREF+"tema",t)}catch(e){}
@@ -608,7 +720,7 @@ function pintaCartaoQuestao(q,l,i){
   alvo.innerHTML=`
   <div class="cx">
    <div class="linha" style="gap:6px">
-    <button class="bt sec mini" id="btFav" style="margin-left:auto">${ST.fav[q._ch]?"★ marcada":"☆ marcar"}</button>
+    <button class="bt ${ST.fav[q._ch]?"":"sec "}mini" id="btFav" style="margin-left:auto"><i class="ti ti-star"></i> ${ST.fav[q._ch]?"marcada":"marcar"}</button>
    </div>
    <p class="enun">${esc(q.q)}</p>
    <div id="alts">${q.alts.map((a,j)=>
@@ -616,8 +728,8 @@ function pintaCartaoQuestao(q,l,i){
    <div id="fb"></div>
    <hr>
    <div class="linha">
-    <button class="bt sec" id="btAnt" ${i<=0?"disabled":""}>← anterior</button>
-    <button class="bt" id="btProx" ${i>=l.length-1?"disabled":""}>próxima →</button>
+    <button class="bt sec" id="btAnt" ${i<=0?"disabled":""}><i class="ti ti-arrow-left"></i> anterior</button>
+    <button class="bt" id="btProx" ${i>=l.length-1?"disabled":""}>próxima <i class="ti ti-arrow-right"></i></button>
     <span class="mini" style="margin-left:auto">${i+1} de ${l.length}${ja?` · última vez: ${ja.ok?"acertou":"errou"}`:""}</span>
    </div>
   </div>`;
@@ -726,9 +838,9 @@ function pintaSimEmCurso(s){
      `<button class="alt${s.res[q._ch]===j?" certa":""}" data-j="${j}"><span class="let">${LETRAS[j]}</span><span>${esc(a)}</span></button>`).join("")}</div>
    <hr>
    <div class="linha">
-    <button class="bt sec" id="sAnt" ${s.i<=0?"disabled":""}>← anterior</button>
+    <button class="bt sec" id="sAnt" ${s.i<=0?"disabled":""}><i class="ti ti-arrow-left"></i> anterior</button>
     <button class="bt sec" id="sPular">pular</button>
-    <button class="bt" id="sProx" ${s.i>=s.qs.length-1?"disabled":""}>próxima →</button>
+    <button class="bt" id="sProx" ${s.i>=s.qs.length-1?"disabled":""}>próxima <i class="ti ti-arrow-right"></i></button>
    </div>
   </div>`;
   const tick=()=>{const r=rest();
@@ -902,7 +1014,7 @@ function desenhaEspelho(e){
     <h3 style="margin:0 0 4px">Espelho de correção</h3>
     <p class="mini">Marque apenas o que você realmente escreveu ou disse — não o que você "sabia". A nota sai da razão entre os pesos marcados e o total de ${teto.toFixed(1)} pontos.</p>
     ${["C","H","A"].map(x=>{const itens=e.espelho.filter(i=>i.eixo===x);if(!itens.length)return "";
-      return `<h4 style="margin:14px 0 6px;font-family:Newsreader,serif">${eixo[x]}</h4>`+
+      return `<h4 style="margin:14px 0 6px">${eixo[x]}</h4>`+
         itens.map(i=>{const k=e.espelho.indexOf(i);
           return `<label class="alt" style="cursor:pointer"><input type="checkbox" data-k="${k}" ${t.marcados.includes(k)?"checked":""} style="min-height:auto;margin-top:3px">
            <span>${esc(i.item)} <span class="pilula">${i.peso.toFixed(1)}</span></span></label>`}).join("")}).join("")}
@@ -928,12 +1040,13 @@ function pintaLeituras(){
     const it=LEITURAS.find(l=>l.f===aberta);
     $("#sec-leituras").innerHTML=`
      <div class="cx"><div class="linha">
-       <button class="bt sec mini" id="fecharL">← voltar</button>
+       <button class="bt sec mini" id="fecharL"><i class="ti ti-arrow-left"></i> voltar</button>
        <span class="mini">${esc(it?it.t:"")}</span>
        <button class="bt sec mini" id="discordoL" style="margin-left:auto">Discordo</button>
-       <button class="bt mini" id="marcaL">${ST.lidas[aberta]?"✓ lida":"marcar como lida"}</button>
+       <button class="bt mini" id="marcaL">${ST.lidas[aberta]?'<i class="ti ti-check"></i> lida':'marcar como lida'}</button>
      </div></div>
-     <iframe class="quadro" id="quadroLeitura" src="leituras/${encodeURIComponent(aberta)}?tema=${temaEfetivo()}" title="${esc(it?it.t:"leitura")}"></iframe>`;
+     <iframe class="quadro" id="quadroLeitura" src="leituras/${encodeURIComponent(aberta)}?tema=${temaEfetivo()}${ST.cfg.secao?"#"+encodeURIComponent(ST.cfg.secao):""}" title="${esc(it?it.t:"leitura")}"></iframe>`;
+    ST.cfg.secao=null;
     document.body.classList.add("lendo");
     ajustaQuadro();addEventListener("resize",ajustaQuadro);
     $("#fecharL").onclick=()=>{ST.cfg.lendo=null;salva("cfg",ST.cfg);document.body.classList.remove("lendo");pintaLeituras()};
@@ -966,9 +1079,15 @@ function pintaLeituras(){
   const lista = filtrando
     ? vis.map(cartaoLeitura).join("")
     : LEITURAS.map(l=>l.grupo
-        ? `<h3 style="margin:20px 0 8px;font-family:Newsreader,serif">${esc(l.grupo)} <span class="mini" style="font-family:Inter">${esc(l.sub||"")}</span></h3>`
+        ? `<h3 style="margin:20px 0 8px">${esc(l.grupo)} <span class="mini">${esc(l.sub||"")}</span></h3>`
         : cartaoLeitura(l)).join("");
+  const emCurso=Object.keys(ST.prog).filter(f=>!ST.lidas[f]&&ST.prog[f]>0&&ST.prog[f]<95)
+    .map(f=>({f,l:LEITURAS.find(x=>x.f===f)})).filter(x=>x.l).sort((a,b)=>ST.prog[b.f]-ST.prog[a.f]).slice(0,3);
   $("#sec-leituras").innerHTML=LEITURAS.length?`
+  ${emCurso.length&&!filtrando?`<div class="cx" style="background:var(--brandSup);border-color:transparent">
+    <div class="mini" style="color:var(--brandInk);font-weight:600;margin-bottom:6px"><i class="ti ti-book"></i> Continuar lendo</div>
+    <div class="linha">${emCurso.map(x=>`<button class="bt sec mini" data-ler="${esc(x.f)}">${esc(x.l.t)} · ${ST.prog[x.f]}%</button>`).join("")}</div>
+  </div>`:""}
   <div class="cx">
    <h2 style="margin:0 0 8px">Leituras</h2>
    <div class="linha">
@@ -1005,12 +1124,26 @@ function pintaLeituras(){
   $$("[data-ler]").forEach(b=>b.onclick=()=>{ST.cfg.lendo=b.dataset.ler;salva("cfg",ST.cfg);pintaLeituras()});
 }
 function cartaoLeitura(l){
+  const pg=ST.prog[l.f]||0, ix=(typeof IDXL!=="undefined")?IDXL.find(x=>x.f===l.f):null;
   return `<div class="cx"><div class="linha" style="gap:6px">
      <span class="pilula b">${esc(l.tipo||"")}</span><span class="pilula">${esc(NOME[l.area]||l.area||"")}</span>
-     <span class="pilula">${l.min} min</span>${ST.lidas[l.f]?`<span class="pilula ok">lida</span>`:""}</div>
+     <span class="pilula">${l.min} min</span>${ix&&ix.fx?`<span class="pilula"><i class="ti ti-route"></i> ${ix.fx} fluxograma${ix.fx>1?"s":""}</span>`:""}${ST.lidas[l.f]?`<span class="pilula ok"><i class="ti ti-check"></i> lida</span>`:pg>0?`<span class="pilula">${pg}%</span>`:""}</div>
     <h3 style="margin:9px 0 4px">${esc(l.t)}</h3><p class="mini">${esc(l.s)}</p>
-    <button class="bt mini" data-ler="${esc(l.f)}" style="margin-top:9px">ler</button></div>`;
+    ${pg>0&&!ST.lidas[l.f]?`<div class="progL"><i style="width:${pg}%"></i></div>`:""}
+    <button class="bt mini" data-ler="${esc(l.f)}" style="margin-top:9px">${pg>0&&!ST.lidas[l.f]?"continuar":"ler"}</button></div>`;
 }
+/* A leitura (iframe) avisa até onde rolou. Guarda o MÁXIMO por arquivo; a partir de 95% conta
+   como lida sozinha — quem chegou ao fim não deveria ter de voltar ao topo para marcar. */
+let progDeb;
+addEventListener("message",e=>{
+  const m=e.data; if(!m||m.cm!=="prog"||!m.f)return;
+  const pct=Math.max(0,Math.min(100,Math.round(+m.pct||0)));
+  if(pct<=(ST.prog[m.f]||0))return;
+  ST.prog[m.f]=pct;
+  clearTimeout(progDeb); progDeb=setTimeout(()=>salva("prog",ST.prog),1500);
+  if(pct>=95&&!ST.lidas[m.f]){ST.lidas[m.f]=true;salva("lidas",ST.lidas);atividade(2);
+    const b=$("#marcaL");if(b)b.innerHTML='<i class="ti ti-check"></i> lida'}
+});
 function ajustaQuadro(){const f=$("#quadroLeitura");if(!f)return;
   const topo=f.getBoundingClientRect().top;
   f.style.height=Math.max(320,innerHeight-topo-12)+"px"}

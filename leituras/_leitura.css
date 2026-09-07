@@ -1,49 +1,79 @@
-/* Folha compartilhada das leituras. Uma só cópia — não duplicar estilo por arquivo. */
-:root{--papel:#FAF5F1;--sup:#FFF;--sup2:#F4ECE6;--ink:#191512;--ink2:#5B5049;--linha:#E3D3C8;
- --brand:#0B6A72;--brandInk:#0B6A72;--brandSup:#E4F0F0;--ok:#1B7A45;--okSup:#E3F3EA;
- --err:#B3261E;--errSup:#FBE9E7;--avi:#8A5A00;--aviSup:#FBF0DC}
-html[data-tema="escuro"]{--papel:#121010;--sup:#1C1918;--sup2:#252120;--ink:#EFE8E3;--ink2:#A99E97;
- --linha:#332D2B;--brand:#4FB8BD;--brandInk:#4FB8BD;--brandSup:#132A2C;--ok:#5FCB8E;--okSup:#14291D;
- --err:#F0837A;--errSup:#301A18;--avi:#E0AE5A;--aviSup:#2C2418}
-/* Rede de segurança: se o ?tema= não chegar (JS bloqueado, arquivo com "_" servido como 404 pelo
-   Jekyll, iframe aberto direto), o escuro do sistema ainda precisa render leitura legível. */
-@media (prefers-color-scheme:dark){html:not([data-tema="claro"]){--papel:#121010;--sup:#1C1918;--sup2:#252120;--ink:#EFE8E3;--ink2:#A99E97;
- --linha:#332D2B;--brand:#4FB8BD;--brandInk:#4FB8BD;--brandSup:#132A2C;--ok:#5FCB8E;--okSup:#14291D;
- --err:#F0837A;--errSup:#301A18;--avi:#E0AE5A;--aviSup:#2C2418}}
+/* Folha compartilhada das leituras — uma só cópia, não duplicar estilo por arquivo.
+   Gramática MedTech: papel #FAFAF8, Figtree, flat; teal como cor do app. */
+:root{--papel:#FAFAF8;--sup:#FFF;--sup2:#F1F1EC;--ink:#23272E;--ink2:#5E646B;--linha:#E8E8E2;--linhaF:#DDDDD5;
+ --brand:#0B6A72;--brandInk:#0B6A72;--brandSup:#E3F1F1;--ok:#1D7A46;--okSup:#E6F3EB;
+ --err:#C6453D;--errSup:#FBEAE8;--avi:#A3730A;--aviSup:#FBF1DC;--roxo:#5B4FCF;--roxoSup:#ECEAFB}
+html[data-tema="escuro"]{--papel:#121417;--sup:#1B1E23;--sup2:#23272E;--ink:#E9EBEE;--ink2:#A3A9B2;
+ --linha:#2B3037;--linhaF:#363C44;--brand:#4FB8BD;--brandInk:#4FB8BD;--brandSup:#14292B;--ok:#5FCB8E;--okSup:#14291D;
+ --err:#F0837A;--errSup:#301A18;--avi:#E0AE5A;--aviSup:#2C2418;--roxo:#A9A1F0;--roxoSup:#232041;color-scheme:dark}
+/* Rede de segurança: se o ?tema= não chegar (JS bloqueado, arquivo aberto direto), o escuro do
+   sistema ainda precisa render leitura legível. */
+@media (prefers-color-scheme:dark){html:not([data-tema="claro"]){--papel:#121417;--sup:#1B1E23;--sup2:#23272E;--ink:#E9EBEE;--ink2:#A3A9B2;
+ --linha:#2B3037;--linhaF:#363C44;--brand:#4FB8BD;--brandInk:#4FB8BD;--brandSup:#14292B;--ok:#5FCB8E;--okSup:#14291D;
+ --err:#F0837A;--errSup:#301A18;--avi:#E0AE5A;--aviSup:#2C2418;--roxo:#A9A1F0;--roxoSup:#232041;color-scheme:dark}}
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0;background:var(--papel);color:var(--ink);
- font:16px/1.65 Inter,system-ui,-apple-system,sans-serif;padding:0 0 60px}
-.wrap{max-width:720px;margin:0 auto;padding:22px 18px}
-h1{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:31px;line-height:1.2;margin:6px 0 8px;letter-spacing:-.015em}
-h2{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:22px;margin:30px 0 8px;scroll-margin-top:14px}
-h3{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:18px;margin:20px 0 6px}
-.kicker{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);font-weight:600}
-.dek{font-size:17px;color:var(--ink2);margin:0 0 16px}
+ font:16px/1.68 Figtree,system-ui,-apple-system,sans-serif;letter-spacing:-.004em;padding:0 0 60px}
+.wrap{max-width:760px;margin:0 auto;padding:22px 18px}
+h1{font-weight:700;font-size:30px;line-height:1.18;margin:6px 0 10px;letter-spacing:-.022em}
+h2{font-weight:700;font-size:22px;margin:34px 0 10px;scroll-margin-top:16px;letter-spacing:-.015em;
+ border-top:1px solid var(--linha);padding-top:24px}
+h2:first-of-type{border-top:0;padding-top:0}
+h3{font-weight:600;font-size:17.5px;margin:22px 0 6px;scroll-margin-top:16px;letter-spacing:-.01em}
+h4{font-weight:600;font-size:15.5px;margin:16px 0 4px;color:var(--ink2)}
+p{margin:0 0 12px}
+.kicker{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--brandInk);font-weight:700}
+.dek{font-size:17.5px;line-height:1.55;color:var(--ink2);margin:0 0 18px}
 .toc{background:var(--sup);border:1px solid var(--linha);border-radius:12px;padding:12px 16px;margin:18px 0 26px}
-.toc ol{margin:6px 0 0;padding-left:20px}
+.toc b{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2)}
+.toc ol{margin:6px 0 0;padding-left:20px;columns:2;column-gap:22px;font-size:14.5px}
+.toc li{break-inside:avoid;margin:2px 0}
+@media(max-width:560px){.toc ol{columns:1}}
 .toc a{color:var(--brandInk);text-decoration:none}
 .toc a:hover{text-decoration:underline}
+/* caixas */
 .cx{border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:15px;border-left:3px solid}
 .fonte{background:var(--brandSup);border-color:var(--brand)}
 .chave{background:var(--okSup);border-color:var(--ok)}
 .armadilha{background:var(--errSup);border-color:var(--err)}
+.nota{background:var(--sup2);border-color:var(--linhaF)}
 .cx b{display:block;margin-bottom:4px}
+.cx p:last-child{margin-bottom:0}
+/* questão-âncora: mini-caso no fim da seção */
+.ancora{background:var(--roxoSup);border-left:3px solid var(--roxo);border-radius:0 10px 10px 0;padding:12px 14px;margin:16px 0;font-size:15px}
+.ancora b{display:block;color:var(--roxo);font-size:12px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:4px}
+.ancora details{border:0;background:transparent;padding:0;margin:6px 0 0}
+.ancora summary{color:var(--roxo);font-size:14px}
+/* abordagem sindrômica: perguntar / examinar / pedir */
+.sind{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:14px 0}
+.sind div{background:var(--sup);border:1px solid var(--linha);border-radius:10px;padding:11px 13px;font-size:14.5px}
+.sind div b{display:block;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--brandInk);margin-bottom:6px}
+.sind ul{margin:0;padding-left:18px}
+.sind li{margin:3px 0}
+/* comparação lado a lado */
+.compara{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:14px 0}
+.compara div{background:var(--sup2);border-radius:10px;padding:12px 14px;font-size:14.5px}
+.compara div b:first-child{display:block;margin-bottom:6px;font-size:15px}
+/* tabelas */
 table{border-collapse:collapse;width:100%;font-size:14.5px;margin:12px 0}
 th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--linha);vertical-align:top}
-th{font-size:12.5px;color:var(--ink2);font-weight:600}
+th{font-size:12.5px;color:var(--ink2);font-weight:600;background:var(--sup2)}
+th:first-child{border-radius:8px 0 0 0}th:last-child{border-radius:0 8px 0 0}
+tr:hover td{background:rgba(11,106,114,.03)}
 .rolagem{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.criterio td:first-child{font-weight:600;width:34%}
 details{border:1px solid var(--linha);border-radius:10px;padding:11px 14px;margin:8px 0;background:var(--sup)}
 summary{cursor:pointer;font-weight:600}
 footer{margin-top:34px;border-top:1px solid var(--linha);padding-top:16px;font-size:13.5px;color:var(--ink2)}
 footer ol{padding-left:20px}
 a{color:var(--brandInk)}
 strong,b{color:var(--ink)}
-.vaiQuestoes{display:inline-block;background:var(--brand);color:#fff;border:0;border-radius:10px;
+.vaiQuestoes{display:inline-flex;align-items:center;gap:8px;background:var(--brand);color:#fff;border:0;border-radius:10px;
  padding:12px 18px;font-weight:600;cursor:pointer;margin-top:20px;text-decoration:none;min-height:44px}
 html[data-tema="escuro"] .vaiQuestoes{color:#0E1414}
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
-
-/* --- tabela de recomendação: classe e nível de evidência --- */
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+/* recomendação com classe e nível de evidência */
 .rec{width:100%;border-collapse:collapse;font-size:14.5px;margin:14px 0}
 .rec th{font-size:12.5px;color:var(--ink2);font-weight:600;text-align:left;padding:8px 10px;border-bottom:1px solid var(--linha)}
 .rec td{padding:10px;border-bottom:1px solid var(--linha);vertical-align:top}
@@ -55,7 +85,7 @@ html[data-tema="escuro"] .vaiQuestoes{color:#0E1414}
 .c3{background:var(--errSup);color:var(--err)}
 .niv{font-size:11.5px;color:var(--ink2);display:block;margin-top:3px}
 .legenda{font-size:12.5px;color:var(--ink2);margin:-6px 0 16px}
-/* --- passos numerados e caixa de dose --- */
+/* passos numerados e caixa de dose */
 .passos{counter-reset:p;list-style:none;padding:0}
 .passos li{counter-increment:p;position:relative;padding:0 0 0 34px;margin:10px 0}
 .passos li::before{content:counter(p);position:absolute;left:0;top:1px;width:24px;height:24px;border-radius:50%;
@@ -64,5 +94,21 @@ html[data-tema="escuro"] .passos li::before{color:#0E1414}
 @media (prefers-color-scheme:dark){html:not([data-tema="claro"]) .passos li::before{color:#0E1414}}
 .dose{background:var(--sup2);border:1px solid var(--linha);border-radius:10px;padding:12px 14px;margin:12px 0;font-size:14.5px}
 .dose b{display:block;margin-bottom:6px}
-h2{border-top:1px solid var(--linha);padding-top:22px}
-h2:first-of-type{border-top:0;padding-top:0}
+.dose ul{margin:0;padding-left:18px}
+/* fluxograma (mermaid) e figura */
+.fluxo{background:var(--sup);border:1px solid var(--linha);border-radius:12px;padding:12px 12px 6px;margin:16px 0;overflow-x:auto}
+.fluxo .leg{font-size:13px;color:var(--ink2);margin:6px 2px 6px;display:flex;gap:8px;align-items:baseline}
+.fluxo .leg b{color:var(--brandInk);font-size:12px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
+.fluxo pre.mermaid{margin:0;font:13px/1.5 ui-monospace,Menlo,monospace;white-space:pre-wrap;color:var(--ink2);
+ background:var(--sup2);border-radius:8px;padding:10px 12px}
+.fluxo pre.mermaid[data-processed]{background:transparent;padding:0;font:inherit;white-space:normal;text-align:center}
+.fluxo svg{max-width:100%;height:auto}
+.fluxo .off{font-size:12px;color:var(--avi);margin:0 2px 6px}
+.fig{margin:16px 0;background:var(--sup);border:1px solid var(--linha);border-radius:12px;padding:12px;text-align:center}
+.fig svg{max-width:100%;height:auto;display:block;margin:0 auto}
+.fig figcaption{font-size:13px;color:var(--ink2);text-align:left;margin-top:8px}
+/* barra de progresso da leitura (topo) */
+#barraLeitura{position:fixed;top:0;left:0;height:3px;width:0;background:var(--brand);z-index:9;transition:width .15s linear}
+/* âncora copiável no h2 */
+h2 .lnk{opacity:0;margin-left:6px;font-size:14px;color:var(--ink2);text-decoration:none;cursor:pointer}
+h2:hover .lnk{opacity:.8}

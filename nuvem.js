@@ -25,7 +25,7 @@
 const NUVEM=(function(){
 
 /* mapas chave→valor: carimbo por item, lápide na exclusão */
-const MAPAS=["resp","fav","flash","treino","lidas"];
+const MAPAS=["resp","fav","flash","treino","lidas","prog"];
 /* listas com identidade própria: união pelo campo, sem carimbo */
 const LISTAS={sim:"quando",contest:"quando"};
 /* atividade é {dia:n} e se resolve pelo maior; erros é DERIVADO de resp */
@@ -217,10 +217,13 @@ function pintaChip(estado){
   b.hidden=false;
   if(usuario){
     const nome=(usuario.displayName||usuario.email||"conta").split(/[ @]/)[0];
-    b.textContent=(estado==="erro"?"⚠ ":"● ")+nome;
+    b.innerHTML=`<i class="ti ti-${estado==="erro"?"cloud-off":"cloud-check"}" aria-hidden="true"></i><span>${nome.replace(/[<>&]/g,"")}</span>`;
     b.title=estado==="erro"?"Falha ao sincronizar — toque para ver":"Sincronizado com sua conta MedTech";
     b.classList.add("logado");
-  } else { b.textContent="Entrar"; b.title="Entrar na conta MedTech"; b.classList.remove("logado") }
+  } else { b.innerHTML=`<i class="ti ti-user-circle" aria-hidden="true"></i><span>Entrar</span>`; b.title="Entrar na conta MedTech"; b.classList.remove("logado") }
+  /* trocador de funções do ecossistema (selo MedTech), só quando o módulo o oferece */
+  const m=document.getElementById("btMedTech");
+  if(m){m.hidden=!(window.MT&&typeof MT.openSwitcher==="function");m.onclick=()=>MT.openSwitcher()}
 }
 function abreLogin(){
   if(!window.MT)return;
