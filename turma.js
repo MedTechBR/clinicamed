@@ -12,7 +12,7 @@
    o RESUMO de cada aluno. O caderno de respostas de ninguém sai de lá.
    ================================================================ */
 const TURMA=(function(){
-let ehChefe=false, dados=null, carregando=false, erro="", Fn=null, so="";
+let ehChefe=false, dados=null, carregando=false, erro="", Fn=null, so="", fora=null, buscandoFora=false;
 
 async function chamar(op,extra){
   if(!window.MT||!MT._fb)throw new Error("Conta MedTech indisponível.");
@@ -89,13 +89,14 @@ function pintaTurma(){
 
   <div class="cx">
    <h3 style="margin:0 0 8px">Cadastrar</h3>
-   <p class="mini">Cria a conta MedTech já com uma senha provisória e coloca a pessoa na sua turma.
-    Se o e-mail já tiver conta no ecossistema, a conta é aproveitada (nada dela é apagado) e só entra na turma.</p>
+   <p class="mini">Se o e-mail ainda não tem conta MedTech, ela é criada com a senha provisória que você escrever.
+    Se já tem — inclusive de outro app do ecossistema —, a conta é aproveitada como está: senha, progresso e acesso
+    continuam os mesmos, e a pessoa só entra na sua turma. Nesse caso a senha nem é usada.</p>
    <div class="linha" style="margin-top:10px;flex-wrap:wrap">
     <input id="nNome" placeholder="nome" style="flex:1 1 160px">
     <input id="nEmail" placeholder="e-mail" type="email" style="flex:1 1 200px">
     <input id="nTurma" placeholder="turma (ex.: R1)" style="flex:0 1 120px" value="${esc(so)}">
-    <input id="nSenha" placeholder="senha provisória" style="flex:0 1 150px">
+    <input id="nSenha" placeholder="senha provisória (só se for conta nova)" style="flex:1 1 200px">
     <button class="bt sec mini" id="btSorteia">sortear senha</button>
     <button class="bt" id="btCria">Cadastrar</button>
    </div>
@@ -126,6 +127,25 @@ function pintaTurma(){
   </div>
 
   <div class="cx">
+   <h3 style="margin:0 0 8px">Já usam o ClínicaMed, fora da turma</h3>
+   <p class="mini">Com login obrigatório, quem cria a própria conta e começa a estudar ficaria invisível para você
+    até alguém digitar o e-mail à mão. Esta lista mostra quem já usou o app e ainda não está em nenhuma turma —
+    contas dos outros apps MedTech não aparecem aqui.</p>
+   <div class="linha" style="margin-top:10px">
+    <button class="bt sec mini" id="btFora">${buscandoFora?"procurando…":(fora?"procurar de novo":"procurar")}</button>
+    ${fora?`<span class="mini">${fora.fora.length} fora da turma · ${fora.contasVarridas} contas conferidas</span>`:""}
+   </div>
+   ${fora&&fora.fora.length?`<div class="rolagem" style="margin-top:10px"><table class="rec">
+    <tr><th>Pessoa</th><th>Questões</th><th>Acerto</th><th>Último acesso</th><th></th></tr>
+    ${fora.fora.map(f=>{const r=f.resumo;return `<tr>
+      <td><b>${esc(f.nome||f.email)}</b><br><span class="mini">${esc(f.email)}</span></td>
+      <td>${r?r.unicas:"—"}</td><td>${r?pct(r.acertos,r.unicas):"—"}</td>
+      <td>${r?diasAtras(r.ultimaAtividade):"—"}</td>
+      <td><button class="bt sec mini" data-add="${esc(f.uid)}">pôr na turma</button></td></tr>`}).join("")}
+   </table></div>`:fora?`<p class="mini" style="margin-top:8px">Ninguém de fora da turma usando o app.</p>`:""}
+  </div>
+
+  <div class="cx">
    <h3 style="margin:0 0 8px">Coordenação</h3>
    <p class="mini">Quem está nesta lista vê esta aba e administra a turma.</p>
    <div class="linha" style="margin-top:8px;flex-wrap:wrap">
@@ -151,14 +171,24 @@ function pintaTurma(){
     if(!confirm(`Tirar ${b.dataset.tirachefe} da coordenação?`))return;
     try{ await chamar("removeChefe",{email:b.dataset.tirachefe}); await carrega() }catch(x){ alert(x.message||x) }});
   $$("[data-det]").forEach(b=>b.onclick=()=>detalhe(b.dataset.det));
+  $("#btFora").onclick=async()=>{
+    buscandoFora=true;pintaTurma();
+    try{ fora=await chamar("descobre") }catch(x){ erro=x.message||String(x) }
+    buscandoFora=false;pintaTurma();
+  };
+  $$("[data-add]").forEach(b=>b.onclick=async()=>{
+    const t=prompt("Em qual turma? (pode deixar em branco)", so||"");
+    if(t===null)return;
+    try{ await chamar("addTurma",{uid:b.dataset.add,turma:t.trim()});
+      if(fora)fora.fora=fora.fora.filter(f=>f.uid!==b.dataset.add);
+      await carrega() }catch(x){ alert(x.message||x) }});
 }
 
 async function cria(){
   const nome=$("#nNome").value.trim(), email=$("#nEmail").value.trim(),
         turma=$("#nTurma").value.trim(), senha=$("#nSenha").value;
   const m=$("#msgCria");
-  if(!email||senha.length<6){m.style.color="var(--err)";
-    m.textContent="Preencha o e-mail e uma senha provisória de pelo menos 6 caracteres.";return}
+  if(!email){m.style.color="var(--err)";m.textContent="Preencha o e-mail.";return}
   m.style.color="";m.textContent="cadastrando…";
   try{
     const r=await chamar("criaAluno",{nome,email,turma,senha});

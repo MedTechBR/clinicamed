@@ -1,9 +1,12 @@
 /* ================================================================
    ClínicaMed — conta MedTech e sincronização entre aparelhos.
 
-   Login é OPCIONAL: sem conta o app continua inteiro, gravando só neste
-   aparelho. Entrar apenas acrescenta a cópia na nuvem e o encontro entre
-   celular e computador.
+   Login é OBRIGATÓRIO desde 07/09/2026: a coordenação acompanha o
+   desempenho dos residentes, e quem estuda sem conta não aparece para
+   ninguém. Quem já entrou uma vez neste aparelho continua entrando SEM
+   internet — a sessão do Firebase fica gravada aqui e o módulo do login
+   está no cache do service worker. Sem nunca ter entrado e sem rede, o
+   app não abre, e diz isso com todas as letras.
 
    Por que NÃO usamos o MT.save cru do _mtauth.js: ele grava o estado
    inteiro num doc só (setDoc merge) — isso é last-write-wins, e foi
@@ -217,19 +220,37 @@ function pintaChip(estado){
     b.textContent=(estado==="erro"?"⚠ ":"● ")+nome;
     b.title=estado==="erro"?"Falha ao sincronizar — toque para ver":"Sincronizado com sua conta MedTech";
     b.classList.add("logado");
-  } else { b.textContent="Entrar"; b.title="Entrar na conta MedTech e sincronizar entre aparelhos"; b.classList.remove("logado") }
+  } else { b.textContent="Entrar"; b.title="Entrar na conta MedTech"; b.classList.remove("logado") }
 }
 function abreLogin(){
   if(!window.MT)return;
   if(!document.getElementById("mt-auth")&&window.__mtMountAuth)window.__mtMountAuth();
-  const card=document.querySelector("#mt-auth .mt-card");
-  if(card&&!card.querySelector(".mt-fecha")){
-    const x=document.createElement("button"); x.className="mt-fecha"; x.type="button";
-    x.textContent="Continuar sem entrar";
-    x.onclick=()=>document.body.classList.remove("quer-login");
-    card.appendChild(x);
-  }
-  document.body.classList.add("quer-login");
+}
+
+/* ---------- trava de entrada ----------
+   libera() só é chamada com usuário confirmado. barra() escreve o motivo na própria
+   trava, em vez de deixar o app aberto: a alternativa silenciosa seria alguém estudar
+   fora da conta e não aparecer para a coordenação. */
+function libera(){
+  document.documentElement.classList.remove("travado");
+  const el=document.getElementById("cmTrava"); if(el)el.remove();
+}
+function barra(txt,botao){
+  const el=document.getElementById("cmTrava"); if(!el)return;
+  document.documentElement.classList.add("travado");
+  el.hidden=false;
+  const g=document.getElementById("cmTravaGiro"); if(g)g.hidden=!!txt;
+  const p=document.getElementById("cmTravaTxt"); if(p)p.textContent=txt||"Verificando sua conta MedTech…";
+  const b=document.getElementById("cmTravaBt"); if(!b)return;
+  b.hidden=!botao; b.innerHTML="";
+  if(botao){const x=document.createElement("button");x.className="bt";x.textContent=botao.txt;
+    x.onclick=botao.acao;b.appendChild(x)}
+}
+/* Deslogado, a trava sai da frente para o login do _mtauth aparecer — mas a rolagem
+   continua presa, porque o app inteiro segue atrás. */
+function esperaLogin(){
+  const el=document.getElementById("cmTrava"); if(el)el.hidden=true;
+  document.documentElement.classList.add("travado");
 }
 
 /* ---------- boot ---------- */
@@ -249,18 +270,23 @@ function init(){
 }
 async function boot(){
   init();
-  await esperaMT(8000);
-  if(!window.MT||window.MT.mode!=="cloud"){modo="local";pintaChip();return}
-  try{ await MT.ready }catch(e){ modo="local";pintaChip();return }
-  if(!MT._fb){modo="local";pintaChip();return}
+  const semConta=m=>{modo="local";pintaChip();
+    barra(m,{txt:"Tentar de novo",acao:()=>location.reload()})};
+  await esperaMT(12000);
+  if(!window.MT||window.MT.mode!=="cloud")
+    return semConta("Não consegui carregar a conta MedTech. O ClínicaMed pede login, e para o primeiro acesso neste aparelho é preciso estar conectado. Depois disso ele abre sem internet.");
+  try{ await MT.ready }catch(e){
+    return semConta("A conta MedTech não respondeu. Verifique a conexão e tente de novo.") }
+  if(!MT._fb) return semConta("A conta MedTech não respondeu. Verifique a conexão e tente de novo.");
   modo="nuvem";
   const {A,auth}=MT._fb;
   A.onAuthStateChanged(auth,u=>{
     usuario=u||null;
-    if(u){ document.body.classList.remove("quer-login");
+    if(u){ libera();
       leCoord().then(()=>{if(typeof pintaAjustes==="function"&&(ST.cfg||{}).aba==="ajustes")pintaAjustes()});
       if(typeof TURMA!=="undefined")TURMA.boot(); }
     else { ultimoEnv="";ultimoResumo="";ultimoSync=null;coord=null;
+      esperaLogin();
       if(typeof TURMA!=="undefined")TURMA.esconde(); }
     pintaChip();
     if(typeof pintaAjustes==="function"&&ST.cfg.aba==="ajustes")pintaAjustes();

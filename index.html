@@ -8,7 +8,9 @@
 <script>
 /* tema antes do CSS para não piscar */
 (function(){try{var t=localStorage.getItem("cm_tema")||"auto";
-if(t==="claro"||t==="escuro")document.documentElement.setAttribute("data-tema",t);}catch(e){}})();
+if(t==="claro"||t==="escuro")document.documentElement.setAttribute("data-tema",t);}catch(e){}
+/* trava a rolagem já aqui: o #cmTrava cobre a tela até a conta ser confirmada */
+document.documentElement.classList.add("travado");})();
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -141,16 +143,25 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 @media(max-width:520px){.contador select{max-width:150px}.marca{font-size:19px}}
 
 /* ---------- conta MedTech ----------
-   O _mtauth.js cobre a tela com login e splash sempre que não há usuário. Aqui login é
-   OPCIONAL: o overlay só aparece quando o usuário PEDE (body.quer-login). O botão flutuante
-   "voltar ao MedTech" também sai — ele cobriria a marca no cabeçalho fixo. */
-#mt-splash{display:none!important}
-#mt-auth{display:none!important}
-body.quer-login #mt-auth{display:flex!important}
+   Login é OBRIGATÓRIO: o app é acompanhado pela coordenação, e quem estuda sem conta não
+   aparece para ninguém. A tela de login e o splash do _mtauth.js ficam como vêm.
+   Sai só o botão flutuante "voltar ao MedTech", que cobriria a marca no cabeçalho fixo
+   (o caminho de volta ao portal está em Ajustes).
+
+   #cmTrava está no HTML desde o primeiro pixel, e não é montado por script: entre a
+   pintura da página e a execução do módulo do login existe uma janela em que o app
+   apareceria inteiro. Ele cobre essa janela e só sai quando há usuário confirmado. */
 #mt-home{display:none!important}
 body.mt-shell{padding-top:0!important}
-.mt-fecha{display:block;width:100%;margin-top:12px;background:none;border:none;color:#8FA3BC;
-  font-size:13px;cursor:pointer;padding:6px}
+#cmTrava{position:fixed;inset:0;z-index:9998;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:14px;padding:26px;text-align:center;
+  background:var(--papel);color:var(--ink)}
+#cmTrava .marca{font-size:24px}
+#cmTrava p{max-width:380px;color:var(--ink2);font-size:14px;line-height:1.6;margin:0}
+#cmTrava .giro{width:22px;height:22px;border:3px solid var(--linha);border-top-color:var(--brand);
+  border-radius:50%;animation:cmgira .8s linear infinite}
+@keyframes cmgira{to{transform:rotate(360deg)}}
+html.travado,html.travado body{overflow:hidden}
 .btConta{background:var(--sup2);border:1px solid var(--linha);border-radius:999px;
   padding:7px 12px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
 .btConta.logado{background:var(--brandSup);border-color:var(--brand);color:var(--brandInk)}
@@ -184,20 +195,33 @@ body.mt-shell{padding-top:0!important}
 </main>
 <div class="faixas" id="faixas"></div>
 
+<!-- trava de entrada: some quando a conta MedTech confirma o usuário -->
+<div id="cmTrava">
+ <div class="marca">
+  <svg width="34" height="24" viewBox="0 0 52 24" fill="none" aria-hidden="true">
+   <path d="M1 16h9l3-9 4 15 4-20 4 14 3-6h5l3 6h11" stroke="var(--brand)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  ClínicaMed
+ </div>
+ <div class="giro" id="cmTravaGiro"></div>
+ <p id="cmTravaTxt">Verificando sua conta MedTech…</p>
+ <div class="linha" id="cmTravaBt" hidden></div>
+</div>
+
 <!-- conta MedTech: mesma origem do site principal, então a sessão é compartilhada com os
      outros apps do ecossistema. Se a raiz não responder (offline), window.MT não existe e o
      app segue inteiro em modo local — o nuvem.js trata isso. -->
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=43"></script>
-<script src="provas.js?v=43"></script>
-<script src="banco.js?v=43"></script>
-<script src="flash.js?v=43"></script>
-<script src="pratica.js?v=43"></script>
-<script src="leituras.js?v=43"></script>
-<script src="nuvem.js?v=43"></script>
-<script src="turma.js?v=43"></script>
+<script src="taxonomia.js?v=44"></script>
+<script src="provas.js?v=44"></script>
+<script src="banco.js?v=44"></script>
+<script src="flash.js?v=44"></script>
+<script src="pratica.js?v=44"></script>
+<script src="leituras.js?v=44"></script>
+<script src="nuvem.js?v=44"></script>
+<script src="turma.js?v=44"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -1126,8 +1150,8 @@ function contaMarkup(){
   if(typeof NUVEM==="undefined"||NUVEM.modo!=="nuvem")
     return `<p class="mini">A conta MedTech não respondeu neste carregamento (offline, ou o site principal fora do ar). O app segue inteiro, gravando só neste aparelho.</p>`;
   const u=NUVEM.usuario;
-  if(!u)return `<p class="mini">Você está estudando sem conta: o progresso fica só neste aparelho e some se o navegador limpar o armazenamento. Entrando com a conta MedTech — a mesma dos outros apps —, respostas, cartões, leituras lidas e simulados passam a acompanhar você entre aparelhos.</p>
-    <div class="linha" style="margin-top:10px"><button class="bt" id="btEntrar">Entrar ou criar conta</button></div>`;
+  if(!u)return `<p class="mini">Sessão encerrada. Entre de novo para continuar.</p>
+    <div class="linha" style="margin-top:10px"><button class="bt" id="btEntrar">Entrar</button></div>`;
   const s=NUVEM.ultimoSync;
   return `<p class="mini">Conectado como <b>${esc(u.displayName||u.email||"")}</b>${u.displayName&&u.email?` (${esc(u.email)})`:""}.
     ${s?`Última sincronização às ${String(s.getHours()).padStart(2,"0")}:${String(s.getMinutes()).padStart(2,"0")}.`:"Sincronizando…"}</p>
@@ -1139,7 +1163,8 @@ function contaMarkup(){
    <p class="mini" style="margin-top:6px">Sincronizam: respostas, favoritas, cartões, estações, leituras lidas, simulados e contestações.
     Não sincronizam: aba aberta, filtros, tema e simulado em andamento — são a tela deste aparelho.
     O que chega do outro aparelho é <b>mesclado</b> item a item; nada é sobrescrito em bloco.</p>
-   <div class="linha" style="margin-top:10px"><button class="bt sec" id="btSair">Sair da conta</button></div>`;
+   <div class="linha" style="margin-top:10px"><button class="bt sec" id="btSair">Sair da conta</button>
+    <a class="bt sec" href="/app.html">Outros apps MedTech</a></div>`;
 }
 async function pintaAjustes(){
   $("#sec-ajustes").innerHTML=`
@@ -1165,7 +1190,7 @@ async function pintaAjustes(){
   </div>
   <div class="cx">
    <h3 style="margin:0 0 8px">Seus dados</h3>
-   <p class="mini">O estudo é gravado neste aparelho (localStorage espelhado em IndexedDB) e continua funcionando sem conta e sem internet. Com a conta MedTech, o mesmo progresso aparece no celular e no computador — mas o backup exportado continua valendo a pena, porque é o único que você guarda fora do navegador e da nuvem.</p>
+   <p class="mini">O estudo é gravado neste aparelho (localStorage espelhado em IndexedDB) e sincronizado com a sua conta, então o mesmo progresso aparece no celular e no computador. Depois do primeiro acesso, o app abre e funciona sem internet — o que você fizer offline sobe na próxima vez que houver rede. O backup exportado continua valendo a pena: é o único que fica fora do navegador e da nuvem.</p>
    <div class="linha" style="margin-top:10px">
     <button class="bt" id="btExp">Exportar backup</button>
     <button class="bt sec" id="btImp">Importar backup</button>
@@ -1193,7 +1218,7 @@ async function pintaAjustes(){
   $$("[data-tema]").forEach(b=>b.onclick=()=>{ST.cfg.tema=b.dataset.tema;salva("cfg",ST.cfg);aplicaTema();pintaAjustes()});
   if($("#btEntrar"))$("#btEntrar").onclick=()=>NUVEM.entrar();
   if($("#btSair"))$("#btSair").onclick=()=>{
-    if(confirm("Sair da conta? O progresso já sincronizado continua neste aparelho e na nuvem."))NUVEM.sair()};
+    if(confirm("Sair da conta? O ClínicaMed pede login, então a tela de entrada volta. O progresso já sincronizado continua na nuvem."))NUVEM.sair()};
   $("#btExp").onclick=()=>{
     const blob=new Blob([JSON.stringify(ARM.exporta())],{type:"application/json"});
     const a=document.createElement("a");a.href=URL.createObjectURL(blob);
