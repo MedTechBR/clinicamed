@@ -291,6 +291,7 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
    <button class="btIco" id="btBusca" title="Buscar em tudo (/)" aria-label="Buscar"><i class="ti ti-search" aria-hidden="true"></i></button>
    <button class="btConta" id="btConta" hidden><i class="ti ti-user-circle" aria-hidden="true"></i><span>Entrar</span></button>
    <button class="btIco" id="btTema" title="Alternar tema" aria-label="Alternar tema"><i class="ti ti-moon" aria-hidden="true"></i></button>
+   <button class="btIco" id="btLinha" title="MedTech Provas: outras plataformas de estudo" aria-label="MedTech Provas" hidden><i class="ti ti-grid-dots" aria-hidden="true"></i></button>
   </div>
  </div>
  <nav class="abas" id="abas" role="tablist"></nav>
@@ -325,17 +326,17 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
      outros apps do ecossistema. Se a raiz não responder (offline), window.MT não existe e o
      app segue inteiro em modo local — o nuvem.js trata isso. -->
 <script src="/_mtfb.js"></script>
-<script>window.MT_APP={id:"clinicamed",name:"ClínicaMed"};</script>
+<script>window.MT_APP={id:"clinicamed",name:"ClínicaMed",linha:"provas"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=50"></script>
-<script src="provas.js?v=50"></script>
-<script src="banco.js?v=50"></script>
-<script src="flash.js?v=50"></script>
-<script src="pratica.js?v=50"></script>
-<script src="leituras.js?v=50"></script>
-<script src="indice-leituras.js?v=50"></script>
-<script src="nuvem.js?v=50"></script>
-<script src="turma.js?v=50"></script>
+<script src="taxonomia.js?v=51"></script>
+<script src="provas.js?v=51"></script>
+<script src="banco.js?v=51"></script>
+<script src="flash.js?v=51"></script>
+<script src="pratica.js?v=51"></script>
+<script src="leituras.js?v=51"></script>
+<script src="indice-leituras.js?v=51"></script>
+<script src="nuvem.js?v=51"></script>
+<script src="turma.js?v=51"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -1391,7 +1392,7 @@ function contaMarkup(){
     Não sincronizam: aba aberta, filtros, tema e simulado em andamento — são a tela deste aparelho.
     O que chega do outro aparelho é <b>mesclado</b> item a item; nada é sobrescrito em bloco.</p>
    <div class="linha" style="margin-top:10px"><button class="bt sec" id="btSair">Sair da conta</button>
-    <a class="bt sec" href="/app.html">Outros apps MedTech</a></div>`;
+    <a class="bt sec" href="/provas.html">MedTech Provas</a></div>`;
 }
 async function pintaAjustes(){
   $("#sec-ajustes").innerHTML=`

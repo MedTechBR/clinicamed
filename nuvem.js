@@ -221,8 +221,10 @@ function pintaChip(estado){
     b.title=estado==="erro"?"Falha ao sincronizar — toque para ver":"Sincronizado com sua conta MedTech";
     b.classList.add("logado");
   } else { b.innerHTML=`<i class="ti ti-user-circle" aria-hidden="true"></i><span>Entrar</span>`; b.title="Entrar na conta MedTech"; b.classList.remove("logado") }
-  /* SEM o trocador de funções do ecossistema: ele lista produtos de outros públicos (farmácia,
-     gestão) dentro de um app para médicos. O Matheus vetou a mistura em 07/09. */
+  /* Trocador SÓ da linha MedTech Provas (o _mtauth v20 filtra pela linha do MT_APP). O trocador
+     antigo listava farmácia e gestão dentro de um app para médicos; o Matheus vetou em 07/09. */
+  const m=document.getElementById("btLinha");
+  if(m){m.hidden=!(usuario&&window.MT&&typeof MT.openSwitcher==="function");m.onclick=()=>MT.openSwitcher()}
 }
 function abreLogin(){
   if(!window.MT)return;
