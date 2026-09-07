@@ -27,8 +27,9 @@ quiz-enare-farmacia.
   `trilha.js` (R1/R2/R3 por rodízio), `pratica.js` (estações), `flash.js`, `leituras.js`.
 - PWA: `manifest.webmanifest` + `sw.js`. **BUMPAR a constante `CACHE` do sw.js a CADA deploy**
   (cm-v1, cm-v2…). Estáticos em stale-while-revalidate; HTML network-first. Testar SW em **aba nova**.
-- Sem Firebase, sem login, sem sincronização: os dados vivem no aparelho (localStorage + espelho
-  IndexedDB), com prefixo `cm_` centralizado na constante `PREF`.
+- Os dados vivem no aparelho (localStorage + espelho IndexedDB), prefixo `cm_` na constante `PREF`.
+  **Login é OPCIONAL** (`nuvem.js`): sem conta o app é inteiro; com conta MedTech o progresso
+  encontra os outros aparelhos. Ver "Contas e coordenação" abaixo.
 
 ## Abas
 Questões · Simulado · Prática · Leituras · Cartões · Painel · Ajustes
@@ -106,7 +107,10 @@ Auditoria de contraste por DOM: **0 falhas** nos 8 painéis × 2 temas (≥4,5:1
 
 ## Rotina de QA (antes de dizer "pronto")
 1. `python3 monta_banco.py` (roda o validador; erro duro = não publica).
-2. `node --check` na sintaxe de todos os `.js` e dos blocos inline do index.
+2. `python3 valida_html.py` — sintaxe dos `.js` E dos `<script>` **inline** do index. Não pular:
+   um `async` comido por substituição de texto deixou um `await` órfão, o bloco inteiro parou de
+   executar e o app subiu **sem nenhuma aba**; `node --check` sozinho não vê isso.
+   Se mexeu em `nuvem.js`: `node teste_nuvem.js` (16 casos de mesclagem).
 3. Servir com `servir.py` (launch.json → `clinicamed`, porta 8711) e rodar asserções por DOM.
 4. Auditoria de contraste nos 8 painéis × 2 temas — exigido: `total: 0`.
    Conferir também a distribuição do gabarito impressa pelo validador: as cinco letras devem
@@ -187,6 +191,41 @@ O Matheus deu acesso a `~/Documents/Livros/` — diretrizes em PDF e livros. O c
 - Quando houver PDF da diretriz, **ler o PDF em vez de confiar em busca web**: a diretriz brasileira
   de hipertensão de 2025 mostrou que a busca dava a régua americana (dupla acima de 150/90) enquanto
   a fonte primária recomenda dupla para a **maioria** dos pacientes, com meta única de <130/80.
+
+## Contas e coordenação (06/09/2026, cm-v43)
+
+**Login opcional, pelo login único do ecossistema.** `/_mtfb.js` + `/_mtauth.js` vêm da RAIZ do
+medtechbr.github.io — mesma origem, então a sessão é a mesma dos outros apps MedTech. Se a raiz
+não responder, `window.MT` não existe e o app segue local. As duas cópias locais desses arquivos
+(para testar em localhost) estão no `.gitignore` **de propósito**: commitá-las criaria uma segunda
+versão que envelhece sozinha.
+
+O `_mtauth.js` cobre a tela com login e splash quando não há usuário. Aqui isso é neutralizado por
+CSS (`#mt-auth` só aparece com `body.quer-login`, `#mt-splash` e `#mt-home` somem) — receita do
+FarmáciaGest.
+
+**`nuvem.js` NÃO usa o `MT.save` cru.** O `MT.save` grava o estado inteiro num doc só com
+`setDoc merge`: last-write-wins, exatamente o que apagou dados no Granaê. Aqui o que vem da nuvem
+é mesclado **antes** de gravar:
+- mapas (`resp`, `fav`, `flash`, `treino`, `lidas`): carimbo por item + **lápide** na exclusão
+  (sem lápide, o item apagado aqui volta do outro aparelho);
+- `resp`: o histórico é **unido** por `ts`, então nenhum lado perde uma resposta;
+- `atividade`: o **maior** por dia (somar inflaria o número em estudo simultâneo);
+- `sim`/`contest`: união por `quando`; `erros` é **derivado** de `resp`, não mesclado.
+- **Fora da sincronização de propósito:** `cfg`, `pos`, `simativo` — são a tela DESTE aparelho.
+- Comparação com `estavel()` (chaves ordenadas): `JSON.stringify` cru depende da ordem das chaves,
+  e os dois aparelhos montam o objeto em ordens diferentes → ficariam se reenviando para sempre.
+- O carimbo nasce em `salva()`, o único funil de gravação. Não espalhar carimbo por ponto de escrita.
+
+**Aba Turma** — a coordenação cria as contas e vê o desempenho. Passa pela função `clinicamed`
+(backend `medtech-c658c`, código em `MedTech/backend/functions/clinicamed.js`, deploy com
+`bash ~/Documents/Claude/MedTech/backend/deploy-clinicamed.command`). Ela existe porque criar conta
+no cliente TROCA a sessão de quem cria, e ler o desempenho alheio exigiria afrouxar as regras do
+Firestore. A função roda com a conta de serviço e confere a permissão ela mesma — **nenhuma regra
+foi mexida, e nenhuma deve ser**. Coordenadores em `clinicamed_cfg/chefes`, coleção que cliente
+nenhum alcança. Esconder o botão da aba é conveniência de tela; a permissão é conferida a cada
+chamada. O app publica `users/{uid}/apps/clinicamed_resumo` só com o agregado: **o caderno de
+respostas não sai do aparelho de ninguém**, e o aluno lê em Ajustes que é acompanhado.
 
 ## Hospedagem
 GitHub Pages, repo público `MedTechBR/clinicamed` → medtechbr.github.io/clinicamed/.
