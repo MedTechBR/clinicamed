@@ -3,10 +3,10 @@
    versão velha e a correção vira fantasma.
    Estáticos usam stale-while-revalidate: bump de versão não basta quando a borda do CDN
    devolve conteúdo velho para o precache. HTML é network-first. */
-const CACHE="cm-v48", FONTES="cm-fontes-v1";
-const PRE=["./","./index.html","./taxonomia.js?v=48","./provas.js?v=48","./banco.js?v=48","./flash.js?v=48",
-           "./pratica.js?v=48","./leituras.js?v=48","./nuvem.js?v=48","./turma.js?v=48","./indice-leituras.js?v=48","./manifest.webmanifest",
-           "./leituras/_leitura.css?v=48","./leituras/_leitura.js?v=48"];
+const CACHE="cm-v49", FONTES="cm-fontes-v1";
+const PRE=["./","./index.html","./taxonomia.js?v=49","./provas.js?v=49","./banco.js?v=49","./flash.js?v=49",
+           "./pratica.js?v=49","./leituras.js?v=49","./nuvem.js?v=49","./turma.js?v=49","./indice-leituras.js?v=49","./manifest.webmanifest",
+           "./leituras/_leitura.css?v=49","./leituras/_leitura.js?v=49"];
 self.addEventListener("install",e=>{
   e.waitUntil(caches.open(CACHE).then(c=>Promise.allSettled(PRE.map(u=>c.add(u)))).then(()=>self.skipWaiting()));
 });

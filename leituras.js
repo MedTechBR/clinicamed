@@ -37,6 +37,9 @@ window.LEITURAS=[
   s:"QRS largo é ventricular até prova em contrário, a torsades que pede magnésio, a febre que desmascara Brugada, a síncope de esforço que não é vasovagal e quando o cardiodesfibrilador não entra."},
 
  {grupo:"O paciente instável", sub:"o que precisa estar automático"},
+ {f:"dor-toracica.html", tipo:"Abordagem sindrômica · 2021–2026", area:"emergencias", min:45,
+  t:"Dor torácica aguda: abordagem sindrômica no pronto-socorro",
+  s:"Os seis diagnósticos que matam em horas organizados pela decisão: ECG em 10 minutos, troponina ultrassensível em caminho de decisão, ADD-RS antes do D-dímero na aorta, PERC e D-dímero ajustado à idade na embolia, e o que autoriza alta com MACE abaixo de 1%. Fluxograma de triagem."},
  {f:"choque-septico.html", tipo:"Surviving Sepsis 2026", area:"emergencias", min:12,
   t:"Choque séptico: da suspeita à primeira hora",
   s:"O que mudou em 2026: alvo pressórico no idoso, infusão prolongada de betalactâmico, descalonamento como recomendação e o fim do lactato como meta de volume."},

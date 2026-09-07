@@ -98,7 +98,49 @@ e mostra a matriz cenário × competência (lacuna ali costuma ser jeito de pens
   desregistrar (`getRegistrations().then(rs=>rs.map(r=>r.unregister()))`) e limpar `caches` antes
   de recarregar — foi o que fez o app mostrar 42 questões depois de o banco já ter 48.
 
-## Identidade visual — "Papel de ECG"
+## Formato "monografia" das leituras (07/09/2026)
+
+Pedido do Matheus: "maior texto nas leituras (maioria ainda extremamente superficial quando comparada
+com a diretriz), imagens, fluxogramas, abordagens sindrômicas". O padrão que passou a valer para toda
+leitura nova ou reescrita — modelos: `parada-cardiaca.html`, `choque.html`, `dor-toracica.html`:
+
+- **4.500–6.000 palavras** na monografia de diretriz e **3.500–5.000** na abordagem sindrômica; `min = palavras/80`. Kicker termina em `· monografia` (ou `· abordagem
+  sindrômica`). O `tipo` em `leituras.js` idem.
+- **Classe e nível transcritos da fonte** em `table.rec` (`.cls c1/c2a/c2b/c3` + `.niv`). Quando a
+  fonte usa GRADE (ESICM), os rótulos são forte/fraca/boa prática/contra. Item sem classe legível na
+  fonte fica sem classe — nunca inventar.
+- **Fluxogramas em mermaid** dentro de `<div class="fluxo"><div class="leg"><b>Fluxograma N</b>…</div>
+  <pre class="mermaid">…</pre></div>`. Rótulos entre aspas, `<br/>` para quebra, sem parênteses fora de
+  aspas. O `_leitura.js` só carrega o mermaid se a página tiver algum; offline sem cache o texto do
+  diagrama continua legível.
+- **Bloco sindrômico** `div.sind` (perguntar / examinar / pedir), **questões-âncora** `div.ancora`
+  (mini-caso + `<details>`), **comparação** `div.compara`, **critérios** `table.criterio`, além de
+  `.cx chave/armadilha/fonte/nota`, `.dose`, `ol.passos`, "Armadilhas consolidadas", autoteste e
+  `<footer>` com fontes primárias numeradas.
+- **Imagens**: fotos de exame (ECG real, radiografia) NÃO entram — direitos autorais. Diagramas em SVG
+  inline (`figure.fig`) e fluxogramas, sim.
+- Antes de escrever, **minerar a fonte** em `fontes/` (COR/LOE por regex, ver os greps usados em
+  07/09) e conferir na web o que não estiver na biblioteca. `docs/FONTES.md` registra cada fonte usada.
+- Depois: `python3 gera_indice.py` (busca por seção + contagem de fluxogramas no cartão) antes do bump.
+
+**Fila de reescrita** (mais peso no edital × texto mais curto, com fonte disponível em `fontes/`):
+sindromes-coronarianas (ACC/AHA 2025), hipertensao (SBC 2025), tromboembolismo (AHA/ACC 2026),
+fibrilacao-atrial (ESC 2024), sdra (2024), taquiarritmias (ESC 2019), bradiarritmias (2018),
+arritmias-ventriculares (ESC 2022). Sem fonte local (conferir na web antes): insuficiencia-cardiaca,
+avc-isquemico, choque-septico, dengue, pneumonia-duracao, cirrose, eletrolitos, hemorragia-digestiva.
+Abordagens sindrômicas a criar: dispneia aguda, síncope, cefaleia aguda, febre no imunossuprimido,
+icterícia, edema, rebaixamento do sensório, dor abdominal aguda no clínico.
+
+## Identidade visual — gramática MedTech (07/09/2026)
+
+O "Papel de ECG" (Newsreader, fundo-grade, tons quentes) foi substituído em 07/09 pela gramática do
+ecossistema: papel `#FAFAF8` e tokens de `/_mttokens.css`, **Figtree**, ícones **Tabler** (nunca emoji
+nem glifo Unicode como ◐★✓✕), cabeçalho branco com linha fina, um botão primário + ghost, sombras
+leves, sem gradiente. O **teal `#0B6A72`** continua como cor canônica do ClínicaMed (`#4FB8BD` no
+escuro). No celular (≤640px) as abas viram barra inferior fixa (`--nav`, grade de `--nAbas` colunas).
+Busca global no cabeçalho (tecla `/`) usa `indice-leituras.js`.
+
+## Identidade visual anterior — "Papel de ECG" (histórico)
 Tirada do próprio assunto, não decorativa: papel quente com a grade milimetrada no cabeçalho, tinta
 grafite, e o **teal do monitor** (`#0B6A72` claro / `#4FB8BD` escuro) como marca — verde e vermelho
 ficam reservados para acerto e erro, como na prática. Títulos em **Newsreader** (ar de compêndio

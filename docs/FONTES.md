@@ -28,6 +28,10 @@ pdftotext -layout "~/Documents/Livros/<arquivo>.pdf" fontes/<nome>.txt
 | ACC/AHA/HRS — Bradiarritmias e distúrbios de condução | 2018 | leitura `bradiarritmias-e-marcapasso.html` (sem versão mais nova) |
 | Ministério da Saúde — Dengue, diagnóstico e manejo, 6ª ed. | 2024 | leitura `dengue.html`, leva 16 (PDF em `docs/`) |
 | SBC/AMB — Edital TECM nº 2473 | 2026 | taxonomia e formato do simulado (PDF em `docs/`) |
+| AHA — Part 11: Post–Cardiac Arrest Care (conferida na web; PDF não está na biblioteca) | 2025 | leitura `parada-cardiaca.html` (seção pós-ROSC) |
+| ESICM — Guidelines on circulatory shock and hemodynamic monitoring (Monnet et al., ICM) | 2025 | leitura `choque.html` (monografia; 50 declarações) |
+| AHA/ACC — Evaluation and Diagnosis of Chest Pain (conferida na web) | 2021 | leitura `dor-toracica.html` |
+| ACC/AHA — Diagnosis and Management of Aortic Disease (conferida na web) | 2022 | leitura `dor-toracica.html` (ADD-RS, alvos de FC e PA) |
 
 ## Cadernos de revisão do Matheus (uso como MAPA DE TEMAS, nunca como texto)
 
