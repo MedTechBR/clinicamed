@@ -1,0 +1,121 @@
+{
+ "ecg-normal": {
+  "t": "Eletrocardiograma normal"
+ },
+ "ecg-stemi-inferior": {
+  "t": "Infarto com supra de ST inferior"
+ },
+ "ecg-stemi-anterior": {
+  "t": "Infarto com supra de ST anterior extenso"
+ },
+ "ecg-infarto-posterior": {
+  "t": "Infarto de parede posterior"
+ },
+ "ecg-infra-difuso-avr": {
+  "t": "Infra difuso com supra em aVR"
+ },
+ "ecg-fibrilacao-atrial": {
+  "t": "Fibrilação atrial"
+ },
+ "ecg-flutter": {
+  "t": "Flutter atrial 2:1"
+ },
+ "ecg-tsv": {
+  "t": "Taquicardia supraventricular"
+ },
+ "ecg-tv-monomorfica": {
+  "t": "Taquicardia ventricular monomórfica"
+ },
+ "ecg-torsades": {
+  "t": "Torsades de pointes"
+ },
+ "ecg-fa-pre-excitada": {
+  "t": "Fibrilação atrial pré-excitada"
+ },
+ "ecg-wpw": {
+  "t": "Pré-excitação (Wolff-Parkinson-White)"
+ },
+ "ecg-bav1": {
+  "t": "Bloqueio atrioventricular de primeiro grau"
+ },
+ "ecg-mobitz1": {
+  "t": "Bloqueio AV de segundo grau Mobitz I"
+ },
+ "ecg-mobitz2": {
+  "t": "Bloqueio AV de segundo grau Mobitz II"
+ },
+ "ecg-bavt": {
+  "t": "Bloqueio atrioventricular total"
+ },
+ "ecg-hipercalemia": {
+  "t": "Hipercalemia"
+ },
+ "ecg-brugada": {
+  "t": "Padrão de Brugada tipo 1"
+ },
+ "ecg-pericardite": {
+  "t": "Pericardite aguda"
+ },
+ "ecg-tep": {
+  "t": "Sobrecarga aguda de ventrículo direito"
+ },
+ "ecg-bre": {
+  "t": "Bloqueio de ramo esquerdo"
+ },
+ "ecg-brd": {
+  "t": "Bloqueio de ramo direito"
+ },
+ "ecg-hve": {
+  "t": "Hipertrofia ventricular esquerda"
+ },
+ "ecg-hipocalemia": {
+  "t": "Hipocalemia"
+ },
+ "ecg-marcapasso": {
+  "t": "Ritmo de marca-passo ventricular"
+ },
+ "ecg-extrassistoles": {
+  "t": "Extrassístoles ventriculares em bigeminismo"
+ },
+ "rx-normal": {
+  "t": "Radiografia de tórax — esquema normal",
+  "cap": "Esquema — não é radiografia de paciente. Índice cardiotorácico normal, seios costofrênicos livres, cúpulas nítidas."
+ },
+ "rx-derrame": {
+  "t": "Derrame pleural",
+  "cap": "Opacidade homogênea de base com a borda superior côncava para cima (menisco) e apagamento do seio costofrênico."
+ },
+ "rx-pneumotorax": {
+  "t": "Pneumotórax hipertensivo",
+  "cap": "Linha pleural visível, ausência de trama vascular além dela e desvio do mediastino para o lado oposto — o hipertensivo se trata antes da radiografia."
+ },
+ "rx-congestao": {
+  "t": "Congestão pulmonar",
+  "cap": "Cardiomegalia, redistribuição para os ápices, infiltrado peri-hilar em asa de borboleta e linhas B de Kerley nas bases."
+ },
+ "rx-consolidacao": {
+  "t": "Consolidação lobar",
+  "cap": "Opacidade que respeita o limite do lobo, com broncograma aéreo e sem desvio de estruturas — diferente do derrame, que decola e faz menisco."
+ },
+ "us-praia": {
+  "t": "Ultrassom pulmonar em modo M — sinal da praia",
+  "cap": "Deslizamento pleural presente: acima da pleura, linhas paralelas; abaixo, aspecto granular. Afasta pneumotórax naquele ponto."
+ },
+ "us-codigo-barras": {
+  "t": "Ultrassom pulmonar em modo M — código de barras",
+  "cap": "Sem deslizamento pleural: as linhas paralelas continuam abaixo da pleura. Sugere pneumotórax — confirme achando o ponto pulmonar."
+ },
+ "us-linhas-b": {
+  "t": "Ultrassom pulmonar — linhas B",
+  "cap": "Artefatos verticais que partem da pleura, apagam as linhas A e acompanham o deslizamento. Três ou mais num espaço = síndrome intersticial."
+ },
+ "fig-curva-pv": {
+  "t": "Curva pressão-volume do sistema respiratório"
+ },
+ "fig-capnografia": {
+  "t": "Capnografia de onda normal"
+ },
+ "fig-troponina": {
+  "t": "Troponina ultrassensível no caminho 0/1 h"
+ }
+}

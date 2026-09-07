@@ -104,9 +104,20 @@ html[data-tema="escuro"] .passos li::before{color:#0E1414}
 .fluxo pre.mermaid[data-processed]{background:transparent;padding:0;font:inherit;white-space:normal;text-align:center}
 .fluxo svg{max-width:100%;height:auto}
 .fluxo .off{font-size:12px;color:var(--avi);margin:0 2px 6px}
-.fig{margin:16px 0;background:var(--sup);border:1px solid var(--linha);border-radius:12px;padding:12px;text-align:center}
+.fig{margin:18px 0;background:var(--sup);border:1px solid var(--linha);border-radius:12px;padding:12px;text-align:center}
 .fig svg{max-width:100%;height:auto;display:block;margin:0 auto}
-.fig figcaption{font-size:13px;color:var(--ink2);text-align:left;margin-top:8px}
+/* ECG e esquemas vêm de leituras/fig/*.svg. O papel do ECG é claro nos dois temas — papel de
+   eletrocardiograma é branco/rosa de verdade —, então a figura ganha uma moldura no escuro
+   em vez de ser invertida. */
+.fig img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:8px}
+.fig.ecg{padding:8px}
+html[data-tema="escuro"] .fig img{outline:1px solid var(--linhaF);outline-offset:-1px}
+@media (prefers-color-scheme:dark){html:not([data-tema="claro"]) .fig img{outline:1px solid var(--linhaF);outline-offset:-1px}}
+.fig figcaption{font-size:13.5px;line-height:1.55;color:var(--ink2);text-align:left;margin-top:10px}
+.fig figcaption b{color:var(--ink)}
+/* ampliar: o ECG de 12 derivações é largo; no celular o leitor arrasta na horizontal */
+.fig .zoom{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.fig .zoom img{min-width:520px}
 /* barra de progresso da leitura (topo) */
 #barraLeitura{position:fixed;top:0;left:0;height:3px;width:0;background:var(--brand);z-index:9;transition:width .15s linear}
 /* âncora copiável no h2 */

@@ -117,11 +117,27 @@ leitura nova ou reescrita — modelos: `parada-cardiaca.html`, `choque.html`, `d
   (mini-caso + `<details>`), **comparação** `div.compara`, **critérios** `table.criterio`, além de
   `.cx chave/armadilha/fonte/nota`, `.dose`, `ol.passos`, "Armadilhas consolidadas", autoteste e
   `<footer>` com fontes primárias numeradas.
-- **Imagens**: fotos de exame (ECG real, radiografia) NÃO entram — direitos autorais. Diagramas em SVG
-  inline (`figure.fig`) e fluxogramas, sim.
+- **Imagens** (07/09/2026): as figuras são **geradas**, não copiadas. `gera_figuras.py` sintetiza
+  ECGs de 12 derivações e tiras de ritmo em SVG (papel milimetrado, 25 mm/s, 10 mm/mV, pulso de
+  calibração), esquemas de radiografia de tórax e de ultrassom pulmonar, e curvas — 37 figuras em
+  `leituras/fig/`, catálogo em `leituras/fig/_catalogo.json`, `python3 gera_figuras.py --lista`.
+  Uso: `<figure class="fig ecg"><div class="zoom"><img src="fig/NOME.svg" alt="…"></div>
+  <figcaption><b>Figura N.</b> …</figcaption></figure>`.
+  **Por que gerar em vez de copiar:** a biblioteca em `~/Documents/Livros/` é toda de terceiros —
+  diretrizes publicadas em revista, livros e cadernos de cursinho. Recortar figura de lá e
+  republicar num app público e pago é violação de direito autoral, e a exposição é do Matheus. Ele
+  pediu em 07/09 para "pegar do material"; a resposta foi sintetizar, que além de legal é melhor
+  para ensinar — a morfologia sai exatamente no ponto que o texto quer mostrar. **Se faltar um ECG,
+  acrescente ao `gera_figuras.py`; não recorte de PDF nem baixe da web.**
+  As figuras têm fundo claro nos dois temas (papel de ECG é branco/rosa); no tema escuro ganham
+  contorno. Esquemas próprios de uma leitura podem ser SVG inline com `var(--ink)`, `var(--brand)` etc.
 - Antes de escrever, **minerar a fonte** em `fontes/` (COR/LOE por regex, ver os greps usados em
   07/09) e conferir na web o que não estiver na biblioteca. `docs/FONTES.md` registra cada fonte usada.
 - Depois: `python3 gera_indice.py` (busca por seção + contagem de fluxogramas no cartão) antes do bump.
+- **Escrever em paralelo**: `docs/BRIEF_MONOGRAFIA.md` é o brief que se entrega a cada agente —
+  formato, componentes, catálogo de figuras e regras de fechamento. Cada agente escreve SÓ as suas
+  leituras e a entrada do índice em `leituras/_entradas_<slug>.json`; **ninguém edita `leituras.js`**
+  (cinco agentes no mesmo arquivo colidem). Depois, `python3 junta_entradas.py` mescla tudo.
 
 **Fila de reescrita** (mais peso no edital × texto mais curto, com fonte disponível em `fontes/`):
 sindromes-coronarianas (ACC/AHA 2025), hipertensao (SBC 2025), tromboembolismo (AHA/ACC 2026),
