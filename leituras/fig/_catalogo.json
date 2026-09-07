@@ -74,6 +74,12 @@
  "ecg-marcapasso": {
   "t": "Ritmo de marca-passo ventricular"
  },
+ "ecg-infarto-vd": {
+  "t": "Infarto de ventrículo direito (precordiais direitas)"
+ },
+ "ecg-de-winter": {
+  "t": "Padrão de De Winter"
+ },
  "ecg-extrassistoles": {
   "t": "Extrassístoles ventriculares em bigeminismo"
  },

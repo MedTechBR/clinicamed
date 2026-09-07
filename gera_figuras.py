@@ -359,6 +359,28 @@ def catalogo():
               nota="padrão do TEP · presente em minoria dos casos"))
     return F
 
+def svgpainel(nomes, leads, titulo, hr, nota="", cols=2, irregular=False):
+    """Painel pequeno com poucas derivações — para precordiais direitas e posteriores,
+    que não cabem no arranjo de 12 e são justamente as que a prova cobra."""
+    colw, rowh, mx, my = 66.0, 38.0, 10.0, 12.0
+    linhas = (len(nomes) + cols - 1) // cols
+    W, H = mx + cols * colw + 4, my + linhas * rowh + 12
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="{titulo}">',
+           GRID, f'<rect width="{W:.0f}" height="{H:.0f}" fill="#FFF8F7"/>',
+           f'<rect x="{mx}" y="{my}" width="{cols*colw:.1f}" height="{linhas*rowh:.1f}" fill="url(#p5)"/>',
+           f'<text x="{mx}" y="{my-4:.0f}" font-family="Figtree,system-ui,sans-serif" font-size="4.2" font-weight="600" fill="#23272E">{titulo}</text>']
+    for i, nome in enumerate(nomes):
+        c, r = i % cols, i // cols
+        x0 = mx + c * colw + 6
+        y0 = my + r * rowh + rowh / 2
+        out.append(polyline(traco(leads[nome], (colw - 10) / MM_S, hr, ini=0.05, irregular=irregular, seed=9 + i), x0, y0))
+        out.append(f'<text x="{x0+1:.1f}" y="{y0-12:.1f}" font-family="Figtree,system-ui,sans-serif" font-size="3.6" font-weight="600" fill="#23272E">{nome}</text>')
+    out.append(f'<text x="{mx}" y="{H-1.5:.0f}" font-family="Figtree,system-ui,sans-serif" font-size="3.2" fill="#5E646B">25 mm/s · 10 mm/mV — ClínicaMed</text>')
+    if nota:
+        out.append(f'<text x="{W-4:.0f}" y="{H-1.5:.0f}" text-anchor="end" font-family="Figtree,system-ui,sans-serif" font-size="3.4" fill="#5E646B">{nota}</text>')
+    out.append('</svg>')
+    return "".join(out)
+
 # ---------------------------------------------------------------- ECG, segunda leva
 def catalogo2():
     F, n = {}, normal()
@@ -399,6 +421,26 @@ def catalogo2():
         svgtira(dict(p=0, q=0, r=-.25, s=-1.5, r2=.15, t=.55, pr=0, qd=.16, spike=1),
                 "Estimulação ventricular: espícula seguida de QRS largo", 72,
                 nota="morfologia de BRE quando o eletrodo está no VD · T discordante"))
+
+    # precordiais direitas: o supra que só aparece se alguém pedir
+    dir_ = {"V1": dict(p=.10, q=0, r=.3, s=-.7, st=.12, t=.10),
+            "V3R": dict(p=.10, q=-.08, r=.35, s=-.35, st=.30, t=.35),
+            "V4R": dict(p=.10, q=-.10, r=.30, s=-.30, st=.36, t=.40),
+            "V5R": dict(p=.10, q=-.08, r=.35, s=-.25, st=.22, t=.28)}
+    F["ecg-infarto-vd"] = ("Infarto de ventrículo direito (precordiais direitas)",
+        svgpainel(["V1", "V3R", "V4R", "V5R"], dir_,
+                  "Supra de ST em V3R–V4R no infarto inferior", 58,
+                  nota="≥ 0,5 mm em V4R · sem nitrato · volume"))
+
+    # De Winter: infra ascendente no ponto J com T apiculada — equivalente de oclusão da DA
+    dw = {}
+    for k, (r, s) in {"V1": (.3, -.9), "V2": (.5, -1.2), "V3": (.7, -1.0),
+                      "V4": (1.3, -.6), "V5": (1.4, -.3), "V6": (1.1, -.2)}.items():
+        dw[k] = dict(p=.12, q=0, r=r, s=s, st=-.24, t=1.10, tw=.13, tdel=.19)
+    F["ecg-de-winter"] = ("Padrão de De Winter",
+        svgpainel(["V1", "V2", "V3", "V4", "V5", "V6"], dw,
+                  "Infra de ST ascendente no ponto J com T alta e apiculada", 84, cols=3,
+                  nota="equivalente de oclusão da descendente anterior — trata como supra"))
 
     F["ecg-extrassistoles"] = ("Extrassístoles ventriculares em bigeminismo",
         svgtira(dict(p=.14, q=-.05, r=1.0, s=-.2, t=.30, bigem=1),
