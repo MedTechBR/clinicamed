@@ -27,9 +27,9 @@ quiz-enare-farmacia.
   `trilha.js` (R1/R2/R3 por rodízio), `pratica.js` (estações), `flash.js`, `leituras.js`.
 - PWA: `manifest.webmanifest` + `sw.js`. **BUMPAR a constante `CACHE` do sw.js a CADA deploy**
   (cm-v1, cm-v2…). Estáticos em stale-while-revalidate; HTML network-first. Testar SW em **aba nova**.
-- Os dados vivem no aparelho (localStorage + espelho IndexedDB), prefixo `cm_` na constante `PREF`.
-  **Login é OPCIONAL** (`nuvem.js`): sem conta o app é inteiro; com conta MedTech o progresso
-  encontra os outros aparelhos. Ver "Contas e coordenação" abaixo.
+- Os dados vivem no aparelho (localStorage + espelho IndexedDB), prefixo `cm_` na constante `PREF`,
+  e sincronizam com a conta. **Login é OBRIGATÓRIO** (`nuvem.js`) desde 07/09/2026: a coordenação
+  acompanha os residentes e quem estuda sem conta não aparece. Ver "Contas e coordenação" abaixo.
 
 ## Abas
 Questões · Simulado · Prática · Leituras · Cartões · Painel · Ajustes
@@ -192,17 +192,23 @@ O Matheus deu acesso a `~/Documents/Livros/` — diretrizes em PDF e livros. O c
   de hipertensão de 2025 mostrou que a busca dava a régua americana (dupla acima de 150/90) enquanto
   a fonte primária recomenda dupla para a **maioria** dos pacientes, com meta única de <130/80.
 
-## Contas e coordenação (06/09/2026, cm-v43)
+## Contas e coordenação (06–07/09/2026, cm-v44)
 
-**Login opcional, pelo login único do ecossistema.** `/_mtfb.js` + `/_mtauth.js` vêm da RAIZ do
+**Login obrigatório, pelo login único do ecossistema.** `/_mtfb.js` + `/_mtauth.js` vêm da RAIZ do
 medtechbr.github.io — mesma origem, então a sessão é a mesma dos outros apps MedTech. Se a raiz
 não responder, `window.MT` não existe e o app segue local. As duas cópias locais desses arquivos
 (para testar em localhost) estão no `.gitignore` **de propósito**: commitá-las criaria uma segunda
 versão que envelhece sozinha.
 
-O `_mtauth.js` cobre a tela com login e splash quando não há usuário. Aqui isso é neutralizado por
-CSS (`#mt-auth` só aparece com `body.quer-login`, `#mt-splash` e `#mt-home` somem) — receita do
-FarmáciaGest.
+**A trava `#cmTrava` está no HTML, não é montada por script.** O `_mtauth.js` é `type="module"` e
+portanto diferido: entre a pintura da página e a execução dele existe uma janela em que o app
+apareceria inteiro. A trava cobre essa janela e só sai com usuário confirmado. Some só `#mt-home`,
+que cobriria a marca no cabeçalho fixo (o caminho de volta ao portal está em Ajustes).
+
+**Offline continua valendo para quem já entrou uma vez neste aparelho** — a sessão do Firebase fica
+gravada aqui e o módulo do login está no cache do SW. Quem nunca entrou e está sem rede lê o motivo
+na trava, com botão de tentar de novo: entrar em silêncio sem conta é justamente o caso que o login
+obrigatório existe para eliminar.
 
 **`nuvem.js` NÃO usa o `MT.save` cru.** O `MT.save` grava o estado inteiro num doc só com
 `setDoc merge`: last-write-wins, exatamente o que apagou dados no Granaê. Aqui o que vem da nuvem
@@ -226,6 +232,10 @@ foi mexida, e nenhuma deve ser**. Coordenadores em `clinicamed_cfg/chefes`, cole
 nenhum alcança. Esconder o botão da aba é conveniência de tela; a permissão é conferida a cada
 chamada. O app publica `users/{uid}/apps/clinicamed_resumo` só com o agregado: **o caderno de
 respostas não sai do aparelho de ninguém**, e o aluno lê em Ajustes que é acompanhado.
+Com login obrigatório, quem cria a própria conta ficaria invisível para a coordenação; por isso a
+aba tem **"Já usam o ClínicaMed, fora da turma"** (op `descobre`), que varre as contas do projeto e
+mostra só quem TEM resumo do ClínicaMed e não está em turma nenhuma. Cadastrar por e-mail não pede
+senha quando a conta já existe: mexer nela levaria junto o acesso e os dados dos outros apps.
 
 ## Hospedagem
 GitHub Pages, repo público `MedTechBR/clinicamed` → medtechbr.github.io/clinicamed/.
