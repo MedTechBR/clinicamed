@@ -149,8 +149,9 @@ function pintaTurma(){
    <h3 style="margin:0 0 8px">Coordenação</h3>
    <p class="mini">Quem está nesta lista vê esta aba e administra a turma.</p>
    <div class="linha" style="margin-top:8px;flex-wrap:wrap">
-    ${((dados||{}).chefes||[]).map(e=>`<span class="pilula">${esc(e)}
-      <button class="bt sec mini" data-tirachefe="${esc(e)}" style="margin-left:6px">tirar</button></span>`).join("")}
+    ${((dados||{}).chefes||[]).map(e=>{const dono=((dados||{}).donos||[]).includes(e);
+      return `<span class="pilula">${esc(e)}${dono?" · conta dona"
+        :`<button class="bt sec mini" data-tirachefe="${esc(e)}" style="margin-left:6px">tirar</button>`}</span>`}).join("")}
    </div>
    <div class="linha" style="margin-top:10px">
     <input id="nChefe" placeholder="e-mail de quem vai coordenar" type="email" style="flex:1 1 220px">
