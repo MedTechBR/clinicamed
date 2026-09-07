@@ -1,6 +1,9 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#0B6A72">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="ClínicaMed">
 <title>ClínicaMed</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
@@ -81,6 +84,9 @@ nav.abas button{white-space:nowrap;background:transparent;border:0;color:var(--i
 nav.abas button .ti{font-size:18px}
 nav.abas button:hover{background:var(--sup2);color:var(--ink)}
 nav.abas button[aria-selected="true"]{background:var(--brandSup);color:var(--brandInk);font-weight:600}
+/* a regra de display acima vence o [hidden] do navegador — sem isto a aba Turma apareceria para todos */
+nav.abas button[hidden]{display:none!important}
+@media(min-width:641px){nav.abas button[data-aba="mais"]{display:none!important}}
 
 main{max-width:1040px;margin:0 auto;padding:16px 14px 40px}
 section[hidden]{display:none!important}
@@ -170,47 +176,107 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
-/* ---------- modo app no celular: abas viram barra inferior ---------- */
+/* ---------- computador: duas colunas onde há filtro + conteúdo ---------- */
+@media(min-width:900px){
+  #sec-questoes,#sec-leituras,#sec-pratica{display:grid;grid-template-columns:272px minmax(0,1fr);gap:18px;align-items:start}
+  #sec-questoes>.cx:first-child,#sec-leituras>.filtroL,#sec-pratica>.cx:first-child{position:sticky;top:104px}
+  #sec-questoes>.cx:first-child .linha,#sec-pratica>.cx:first-child .linha{flex-direction:column;align-items:stretch}
+  #sec-questoes>.cx:first-child label.cmp,#sec-pratica>.cx:first-child label.cmp{width:100%}
+  #sec-questoes>.cx:first-child select,#sec-pratica>.cx:first-child select{width:100%}
+  #sec-questoes>.cx:first-child .bt{align-self:stretch!important}
+  #sec-leituras>.filtroL .linha{flex-direction:column;align-items:stretch}
+  #sec-leituras>.filtroL label.cmp{width:100%;min-width:0!important}
+  #sec-leituras .listaL{min-width:0}
+  #sec-pratica>.cx:first-child .grade2{grid-template-columns:1fr}
+  #sec-pratica .listaP{min-width:0}
+  .grade2{grid-template-columns:repeat(4,1fr)}
+  .enun{font-size:17.5px}
+  .fToggle{display:none}
+}
+/* cabeçalho de filtro recolhível: no computador fica sempre aberto (regra acima esconde o botão) */
+.fToggle{width:100%;display:flex;align-items:center;gap:8px;background:transparent;border:0;padding:4px 0;color:var(--ink);font-weight:600;font-size:14px;cursor:pointer;text-align:left}
+.fToggle .ti{font-size:18px;color:var(--ink2)}
+.fToggle .resumo{color:var(--ink2);font-weight:500;margin-left:auto;font-size:13px}
+.fToggle .seta{transition:transform .15s}
+.filtros.aberto .fToggle .seta{transform:rotate(180deg)}
+
+/* ---------- modo app no celular ---------- */
 @media(max-width:640px){
-  :root{--nav:calc(62px + env(safe-area-inset-bottom))}
+  :root{--nav:calc(58px + env(safe-area-inset-bottom))}
+  body{font-size:16px}
+  .topo{padding:6px 12px 6px 14px;gap:8px}
   .marca{font-size:17px}
-  nav.abas{position:fixed;left:0;right:0;bottom:0;z-index:55;margin:0;padding:6px 4px calc(6px + env(safe-area-inset-bottom));
-    background:var(--sup);border-top:1px solid var(--linha);display:grid;grid-template-columns:repeat(var(--nAbas,7),1fr);gap:0;overflow:visible}
-  nav.abas button{flex-direction:column;gap:3px;padding:4px 2px;min-height:50px;font-size:10.5px;border-radius:8px;justify-content:center}
-  nav.abas button .ti{font-size:21px}
-  nav.abas button[hidden]{display:none}
-  main{padding-bottom:calc(20px + var(--nav))}
-  body.lendo main{padding-bottom:0}
-  input,select,textarea{font-size:16px}  /* anti-zoom iOS */
-  /* filtros em duas colunas: seis selects empilhados empurravam a questão para fora da tela */
+  .marca .tile{width:28px;height:28px;border-radius:8px}
+  .btIco{width:34px;height:34px;border:0;background:transparent;font-size:21px}
+  #btTema{display:none}
+  .btConta{height:34px;padding:0 6px;background:transparent;border:0}
+  .btConta.logado{background:transparent;color:var(--brandInk)}
+  main{padding:10px 16px calc(24px + var(--nav))}
+  /* sem caixa para tudo: seções são blocos separados por espaço, não por borda */
+  .cx{background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;margin:0 0 22px}
+  .cx+.cx{padding-top:18px;border-top:1px solid var(--linha)}
+  h2{font-size:22px}
+  /* barra inferior com 5 lugares: 4 abas principais + Mais */
+  nav.abas{position:fixed;left:0;right:0;bottom:0;z-index:55;margin:0;padding:4px 2px calc(4px + env(safe-area-inset-bottom));
+    background:rgba(255,255,255,.96);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-top:1px solid var(--linha);
+    display:grid;grid-template-columns:repeat(5,1fr);gap:0;overflow:visible}
+  :root[data-tema="escuro"] nav.abas{background:rgba(27,30,35,.96)}
+  @media (prefers-color-scheme:dark){:root:not([data-tema="claro"]) nav.abas{background:rgba(27,30,35,.96)}}
+  nav.abas button{display:none;flex-direction:column;gap:2px;padding:4px 2px;min-height:50px;font-size:10.5px;border-radius:10px;justify-content:center;font-weight:500}
+  nav.abas button[data-prim],nav.abas button[data-aba="mais"]{display:inline-flex}
+  nav.abas button[hidden]{display:none!important}
+  nav.abas button .ti{font-size:22px}
+  nav.abas button[aria-selected="true"]{background:transparent;color:var(--brandInk);font-weight:600}
+  body.lendo nav.abas{display:none}
+  body.lendo main{padding:6px 10px 0}
+  input,select,textarea{font-size:16px}
+  /* filtros recolhidos: um toque abre */
+  .filtros .fCorpo{display:none;margin-top:10px}
+  .filtros.aberto .fCorpo{display:flex}
   .linha label.cmp{flex:1 1 calc(50% - 5px);min-width:0}
   .linha label.cmp select,.linha label.cmp input{width:100%}
+  /* questão: página inteira, alternativas em linhas */
+  .enun{font-size:18px;line-height:1.5;margin:10px 0 14px}
+  .alt{border:0;border-bottom:1px solid var(--linha);border-radius:0;padding:14px 0;margin:0;gap:14px;background:transparent}
+  .alt:last-child{border-bottom:0}
+  .alt.certa,.alt.errada{border-radius:10px;padding:14px 12px;border-bottom:0}
+  .alt .let{min-width:22px}
+  .expl{margin-left:36px}
+  #qCartao .linha:last-child .bt{flex:1 1 40%}
+  #qCartao .linha:last-child .mini{flex-basis:100%;text-align:center;margin:6px 0 0}
+  /* painel: indicadores dois a dois */
+  .grade2{grid-template-columns:1fr 1fr;gap:10px}
+  .kpi{padding:11px 12px}
+  .kpi b{font-size:22px}
+  /* leituras: linhas, não cartões */
+  .listaL .cx{padding:14px 0;margin:0;border-top:1px solid var(--linha)}
+  .listaL .cx:first-child{border-top:0}
+  .listaL .cx h3{font-size:16.5px;margin:6px 0 3px}
+  .listaL .cx .mini{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .listaL h3.grupo{margin:22px 0 4px;font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2)}
+  .listaL h3.grupo .mini{display:none}
+  /* cartões: o cartão é a tela */
+  #sec-cartoes .heroCard{min-height:calc(100vh - 150px - var(--nav));display:flex;flex-direction:column}
+  #sec-cartoes .heroCard .enun{font-size:21px;flex:1;display:flex;align-items:center;margin:20px 0}
+  #sec-cartoes .heroCard .bt{width:100%}
+  #sec-cartoes .heroCard .linha .bt{flex:1}
+  /* estações e simulado */
+  .crono{font-size:26px}
+  /* painel: a coluna de cobertura (barra) não cabe; a tabela já rola, mas sem ela não precisa */
+  #sec-painel table td:nth-child(5),#sec-painel table th:nth-child(5){display:none}
+  /* faixas acima da barra */
+  .faixas{bottom:calc(var(--nav) + 4px)}
+  .fundo{padding:10px;align-items:flex-end}
+  .modal{border-radius:16px 16px 0 0;max-height:88vh;overflow:auto}
 }
-/* ---------- conta MedTech ----------
-   Login é OBRIGATÓRIO: o app é acompanhado pela coordenação, e quem estuda sem conta não
-   aparece para ninguém. A tela de login e o splash do _mtauth.js ficam como vêm.
-   Sai só o botão flutuante "voltar ao MedTech", que cobriria a marca no cabeçalho fixo
-   (o caminho de volta ao portal está em Ajustes).
-
-   #cmTrava está no HTML desde o primeiro pixel, e não é montado por script: entre a
-   pintura da página e a execução do módulo do login existe uma janela em que o app
-   apareceria inteiro. Ele cobre essa janela e só sai quando há usuário confirmado. */
-#mt-home{display:none!important}
-body.mt-shell{padding-top:0!important}
-#cmTrava{position:fixed;inset:0;z-index:9998;display:flex;flex-direction:column;
-  align-items:center;justify-content:center;gap:14px;padding:26px;text-align:center;
-  background:var(--papel);color:var(--ink)}
-#cmTrava .marca{font-size:24px}
-#cmTrava p{max-width:380px;color:var(--ink2);font-size:14px;line-height:1.6;margin:0}
-#cmTrava .giro{width:22px;height:22px;border:3px solid var(--linha);border-top-color:var(--brand);
-  border-radius:50%;animation:cmgira .8s linear infinite}
-@keyframes cmgira{to{transform:rotate(360deg)}}
-html.travado,html.travado body{overflow:hidden}
-.btConta{background:var(--sup);border:1px solid var(--linha);border-radius:999px;height:38px;
-  padding:0 12px 0 9px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;color:var(--ink2)}
-.btConta.logado{background:var(--brandSup);border-color:transparent;color:var(--brandInk)}
-.btConta .ti{font-size:17px}
-@media(max-width:480px){.btConta span{display:none}.btConta{padding:0 9px}}
+/* folha "Mais" da barra inferior */
+.folha{position:fixed;inset:0;z-index:70;background:rgba(20,22,26,.35);display:flex;align-items:flex-end}
+.folha .cartao{background:var(--sup);width:100%;border-radius:16px 16px 0 0;padding:10px 12px calc(14px + env(safe-area-inset-bottom));box-shadow:0 -8px 30px rgba(0,0,0,.18)}
+.folha .puxador{width:38px;height:4px;border-radius:4px;background:var(--linhaF);margin:2px auto 10px}
+.folha button.item{display:flex;align-items:center;gap:14px;width:100%;background:transparent;border:0;padding:13px 8px;font-size:16px;color:var(--ink);cursor:pointer;border-radius:10px;text-align:left}
+.folha button.item .ti{font-size:22px;color:var(--brandInk)}
+.folha button.item:hover{background:var(--sup2)}
+.folha button.item[aria-selected="true"]{background:var(--brandSup)}
 </style>
 
 <header>
@@ -225,7 +291,6 @@ html.travado,html.travado body{overflow:hidden}
    <button class="btIco" id="btBusca" title="Buscar em tudo (/)" aria-label="Buscar"><i class="ti ti-search" aria-hidden="true"></i></button>
    <button class="btConta" id="btConta" hidden><i class="ti ti-user-circle" aria-hidden="true"></i><span>Entrar</span></button>
    <button class="btIco" id="btTema" title="Alternar tema" aria-label="Alternar tema"><i class="ti ti-moon" aria-hidden="true"></i></button>
-   <button class="btIco" id="btMedTech" title="Outras funções MedTech" aria-label="Outras funções MedTech" hidden><i class="ti ti-grid-dots" aria-hidden="true"></i></button>
   </div>
  </div>
  <nav class="abas" id="abas" role="tablist"></nav>
@@ -262,15 +327,15 @@ html.travado,html.travado body{overflow:hidden}
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=49"></script>
-<script src="provas.js?v=49"></script>
-<script src="banco.js?v=49"></script>
-<script src="flash.js?v=49"></script>
-<script src="pratica.js?v=49"></script>
-<script src="leituras.js?v=49"></script>
-<script src="indice-leituras.js?v=49"></script>
-<script src="nuvem.js?v=49"></script>
-<script src="turma.js?v=49"></script>
+<script src="taxonomia.js?v=50"></script>
+<script src="provas.js?v=50"></script>
+<script src="banco.js?v=50"></script>
+<script src="flash.js?v=50"></script>
+<script src="pratica.js?v=50"></script>
+<script src="leituras.js?v=50"></script>
+<script src="indice-leituras.js?v=50"></script>
+<script src="nuvem.js?v=50"></script>
+<script src="turma.js?v=50"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -438,6 +503,8 @@ const ABAS=[["questoes","Questões","list-check"],["simulado","Simulado","stopwa
    é da coordenação. Esconder o botão é conveniência: a permissão é conferida na função,
    a cada chamada — mexer no DOM daqui não dá acesso a nada. */
 const ABAS_RESTRITAS=["turma"];
+/* no celular só estas quatro ficam na barra; o resto entra pela folha "Mais" */
+const ABAS_PRIM=["questoes","leituras","cartoes","painel"];
 /* Resolvido na hora da chamada: cada aba é declarada num bloco <script> posterior a este,
    então referenciar a função aqui na criação do objeto quebraria o boot inteiro. */
 const PINTA={questoes:()=>pintaQuestoes(),simulado:()=>pintaSimulado(),pratica:()=>pintaPratica(),
@@ -446,14 +513,42 @@ const PINTA={questoes:()=>pintaQuestoes(),simulado:()=>pintaSimulado(),pratica:(
 /* a barra inferior do celular é uma grade: precisa saber quantas abas estão visíveis */
 function ajustaNav(){const n=$$("#abas button").filter(b=>!b.hidden).length;
   document.documentElement.style.setProperty("--nAbas",n)}
+function abreMais(){
+  if($("#folhaMais"))return;
+  const d=document.createElement("div");d.className="folha";d.id="folhaMais";
+  const itens=ABAS.filter(([id])=>!ABAS_PRIM.includes(id)&&!$(`#abas [data-aba="${id}"]`).hidden);
+  d.innerHTML=`<div class="cartao"><div class="puxador"></div>${itens.map(([id,n,ic])=>
+    `<button class="item" data-vai="${id}" aria-selected="${String(ST.cfg.aba===id)}"><i class="ti ti-${ic}"></i>${n}</button>`).join("")}</div>`;
+  document.body.appendChild(d);
+  d.onclick=e=>{if(e.target===d)d.remove()};
+  $$("#folhaMais [data-vai]").forEach(b=>b.onclick=()=>{d.remove();irAba(b.dataset.vai)});
+}
+/* caixa de filtros que recolhe no celular (no computador o botão some e ela fica aberta) */
+function filtroBox(k,resumo,corpo,extra){
+  const ab=!!(ST.cfg.fAb||{})[k];
+  return `<div class="cx filtros${ab?" aberto":""}" data-fk="${k}">
+    <button class="fToggle" type="button"><i class="ti ti-adjustments-horizontal"></i>Filtros<span class="resumo">${resumo}</span><i class="ti ti-chevron-down seta"></i></button>
+    <div class="linha fCorpo">${corpo}</div>${extra||""}</div>`;
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest(".fToggle"); if(!b)return;
+  const box=b.parentElement,k=box.dataset.fk;
+  ST.cfg.fAb=ST.cfg.fAb||{}; ST.cfg.fAb[k]=!ST.cfg.fAb[k]; salva("cfg",ST.cfg);
+  box.classList.toggle("aberto",ST.cfg.fAb[k]);
+});
 function montaAbas(){
   $("#abas").innerHTML=ABAS.map(([id,n,ic])=>
-    `<button role="tab" data-aba="${id}" aria-selected="false"${ABAS_RESTRITAS.includes(id)?" hidden":""}><i class="ti ti-${ic}" aria-hidden="true"></i><span>${n}</span></button>`).join("");
+    `<button role="tab" data-aba="${id}" aria-selected="false"${ABAS_RESTRITAS.includes(id)?" hidden":""}${ABAS_PRIM.includes(id)?" data-prim":""}><i class="ti ti-${ic}" aria-hidden="true"></i><span>${n}</span></button>`).join("")
+    +`<button data-aba="mais" aria-selected="false" hidden><i class="ti ti-dots" aria-hidden="true"></i><span>Mais</span></button>`;
+  const mais=$('#abas [data-aba="mais"]');
+  mais.hidden=!matchMedia("(max-width:640px)").matches;
+  mais.onclick=abreMais;
+  matchMedia("(max-width:640px)").addEventListener("change",e=>{mais.hidden=!e.matches});
   ajustaNav();
-  $$("#abas button").forEach(b=>b.onclick=()=>irAba(b.dataset.aba));
+  $$("#abas button").forEach(b=>{if(b.dataset.aba!=="mais")b.onclick=()=>irAba(b.dataset.aba)});
 }
 function irAba(id){
-  $$("#abas button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.aba===id)));
+  $$("#abas button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.aba===id||(b.dataset.aba==="mais"&&!ABAS_PRIM.includes(id)))));
   ABAS.forEach(([a])=>$("#sec-"+a).hidden=(a!==id));
   document.body.classList.toggle("lendo",id==="leituras"&&!!ST.cfg.lendo);
   ST.cfg.aba=id;salva("cfg",ST.cfg);
@@ -680,9 +775,8 @@ function pintaQuestoes(){
   const i=l.findIndex(q=>q._ch===ST.pos.chq), q=l[i];
   const opt=(arr,v,vazio)=>`<option value="">${vazio}</option>`+arr.map(o=>
     `<option value="${o.id}"${o.id===v?" selected":""}>${esc(o.nome)}</option>`).join("");
-  $("#sec-questoes").innerHTML=`
-  <div class="cx">
-   <div class="linha">
+  const resumoF=[f.area?NOME[f.area]:"todas as áreas",f.modo&&f.modo!=="todas"?{novas:"não respondidas",erros:"meus erros",fav:"marcadas"}[f.modo]:null].filter(Boolean).join(" · ");
+  $("#sec-questoes").innerHTML=filtroBox("q",`${l.length} · ${esc(resumoF)}`,`
     <label class="cmp">Área<select id="fArea">${opt(TAX,f.area,"todas as áreas")}</select></label>
     <label class="cmp">Cenário<select id="fCen">${opt(CEN,f.cen,"todos")}</select></label>
     <label class="cmp">Competência<select id="fComp">${opt(COMP,f.comp,"todas")}</select></label>
@@ -698,11 +792,9 @@ function pintaQuestoes(){
       <option value="erros"${f.modo==="erros"?" selected":""}>meus erros</option>
       <option value="fav"${f.modo==="fav"?" selected":""}>marcadas</option>
     </select></label>
-    <button class="bt sec mini" id="btEmb" style="align-self:flex-end">Embaralhar</button>
-   </div>
-   <div class="mini" style="margin-top:10px">${l.length} ${l.length===1?"questão":"questões"} no filtro${l.length?` — você está na ${i+1}ª`:""}</div>
-  </div>
-  <div id="qCartao"></div>`;
+    <button class="bt sec mini" id="btEmb" style="align-self:flex-end"><i class="ti ti-arrows-shuffle"></i> Embaralhar</button>
+    <div class="mini" style="flex-basis:100%">${l.length} ${l.length===1?"questão":"questões"} no filtro${l.length?` — você está na ${i+1}ª`:""}</div>`)
+  +`<div id="qCartao"></div>`;
   $("#fArea").onchange=e=>mudaFiltro("area",e.target.value);
   $("#fCen").onchange=e=>mudaFiltro("cen",e.target.value);
   $("#fComp").onchange=e=>mudaFiltro("comp",e.target.value);
@@ -949,7 +1041,7 @@ function pintaPratica(){
     <span class="mini" style="margin-left:auto;align-self:flex-end">${lista.length} de ${PRATICA.length}</span>
    </div>
   </div>
-  ${lista.map(e=>{const t=ST.treino[e.id];
+  <div class="listaP">${lista.map(e=>{const t=ST.treino[e.id];
     return `<div class="cx"><div class="linha" style="gap:6px">
       <span class="pilula b">${esc(NOME[e.area]||e.area)}</span>
       <span class="pilula">${esc(NCEN[e.cenario]||"")}</span>
@@ -959,7 +1051,7 @@ function pintaPratica(){
      <h3 style="margin:9px 0 4px">${esc(e.titulo)}</h3>
      <p class="mini">${esc(e.abertura.slice(0,150))}…</p>
      <button class="bt mini" data-est="${e.id}" style="margin-top:9px">${t?"treinar de novo":"iniciar estação"}</button>
-    </div>`}).join("")}`;
+    </div>`}).join("")}</div>`;
   if($("#pArea"))$("#pArea").onchange=e=>{ST.cfg.fp=e.target.value;salva("cfg",ST.cfg);pintaPratica()};
   if($("#pLimpa"))$("#pLimpa").onclick=()=>{ST.cfg.fp="";salva("cfg",ST.cfg);pintaPratica()};
   $$("[data-est]").forEach(b=>b.onclick=()=>{ST.cfg.estacao=b.dataset.est;ST.cfg.etapa=0;ST.cfg.iniEst=Date.now();salva("cfg",ST.cfg);pintaPratica()});
@@ -1079,18 +1171,17 @@ function pintaLeituras(){
   const lista = filtrando
     ? vis.map(cartaoLeitura).join("")
     : LEITURAS.map(l=>l.grupo
-        ? `<h3 style="margin:20px 0 8px">${esc(l.grupo)} <span class="mini">${esc(l.sub||"")}</span></h3>`
+        ? `<h3 class="grupo" style="margin:20px 0 8px">${esc(l.grupo)} <span class="mini">${esc(l.sub||"")}</span></h3>`
         : cartaoLeitura(l)).join("");
   const emCurso=Object.keys(ST.prog).filter(f=>!ST.lidas[f]&&ST.prog[f]>0&&ST.prog[f]<95)
     .map(f=>({f,l:LEITURAS.find(x=>x.f===f)})).filter(x=>x.l).sort((a,b)=>ST.prog[b.f]-ST.prog[a.f]).slice(0,3);
+  const ab=!!(ST.cfg.fAb||{}).l;
   $("#sec-leituras").innerHTML=LEITURAS.length?`
-  ${emCurso.length&&!filtrando?`<div class="cx" style="background:var(--brandSup);border-color:transparent">
-    <div class="mini" style="color:var(--brandInk);font-weight:600;margin-bottom:6px"><i class="ti ti-book"></i> Continuar lendo</div>
-    <div class="linha">${emCurso.map(x=>`<button class="bt sec mini" data-ler="${esc(x.f)}">${esc(x.l.t)} · ${ST.prog[x.f]}%</button>`).join("")}</div>
-  </div>`:""}
-  <div class="cx">
-   <h2 style="margin:0 0 8px">Leituras</h2>
-   <div class="linha">
+  <div class="cx filtros filtroL${ab?" aberto":""}" data-fk="l">
+   <h2 style="margin:0 0 10px">Leituras</h2>
+   <input id="lBusca" type="search" placeholder="Buscar tema, diretriz, palavra do resumo…" value="${esc(fl.busca||"")}" style="width:100%">
+   <button class="fToggle" type="button" style="margin-top:8px"><i class="ti ti-adjustments-horizontal"></i>Filtros<span class="resumo">${fl.area?esc(NOME[fl.area]):"todas as áreas"}${fl.so?" · "+(fl.so==="lidas"?"lidas":"não lidas"):""}</span><i class="ti ti-chevron-down seta"></i></button>
+   <div class="linha fCorpo">
     <label class="cmp">Área<select id="lArea">
       <option value="">todas as áreas</option>
       ${comLeitura.map(t=>`<option value="${t.id}"${t.id===fl.area?" selected":""}>${esc(t.nome)} (${todas.filter(l=>l.area===t.id).length})</option>`).join("")}
@@ -1100,14 +1191,17 @@ function pintaLeituras(){
       <option value="naolidas"${fl.so==="naolidas"?" selected":""}>ainda não lidas</option>
       <option value="lidas"${fl.so==="lidas"?" selected":""}>já lidas</option>
     </select></label>
-    <label class="cmp" style="flex:1;min-width:200px">Buscar
-      <input id="lBusca" type="search" placeholder="tema, diretriz, palavra do resumo…" value="${esc(fl.busca||"")}">
-    </label>
     ${filtrando?`<button class="bt sec mini" id="lLimpa" style="align-self:flex-end">limpar</button>`:""}
    </div>
-   <div class="mini" style="margin-top:10px">${vis.length} de ${todas.length} ${vis.length===1?"leitura":"leituras"} — cerca de ${minVis} min, ${lidasVis} já ${lidasVis===1?"lida":"lidas"}.</div>
+   <div class="mini" style="margin-top:10px">${vis.length} de ${todas.length} ${vis.length===1?"leitura":"leituras"} — cerca de ${Math.round(minVis/60)} h, ${lidasVis} já ${lidasVis===1?"lida":"lidas"}.</div>
   </div>
-  ${vis.length?lista:`<div class="cx"><p class="vazio">Nenhuma leitura com esse filtro. <button class="bt sec mini" id="lLimpa2">limpar filtro</button></p></div>`}`
+  <div class="listaL">
+  ${emCurso.length&&!filtrando?`<div class="cx continuar">
+    <div class="mini" style="color:var(--brandInk);font-weight:600;margin-bottom:6px"><i class="ti ti-book"></i> Continuar lendo</div>
+    <div class="linha">${emCurso.map(x=>`<button class="bt sec mini" data-ler="${esc(x.f)}">${esc(x.l.t)} · ${ST.prog[x.f]}%</button>`).join("")}</div>
+  </div>`:""}
+  ${vis.length?lista:`<div class="cx"><p class="vazio">Nenhuma leitura com esse filtro. <button class="bt sec mini" id="lLimpa2">limpar filtro</button></p></div>`}
+  </div>`
   :`<div class="cx"><p class="vazio">Nenhuma leitura publicada ainda. As leituras entram por <code>leituras.js</code> + um arquivo em <code>leituras/</code>.</p></div>`;
   const aplica=(k,v)=>{ST.cfg.fl[k]=v;salva("cfg",ST.cfg);pintaLeituras()};
   const limpa=()=>{ST.cfg.fl={area:"",busca:"",so:""};salva("cfg",ST.cfg);pintaLeituras()};
@@ -1177,7 +1271,7 @@ function pintaCartoes(){
   }
   const {c,i}=d[0];
   $("#sec-cartoes").innerHTML=`
-  <div class="cx">${barra}<div class="linha">
+  <div class="cx heroCard">${barra}<div class="linha">
     <span class="pilula b">${esc(NOME[c.tema]||c.tema)}</span>
     <span class="mini" style="margin-left:auto">${d.length} para hoje</span></div>
    <p class="enun">${esc(c.a)}</p>
