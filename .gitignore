@@ -4,3 +4,9 @@ __pycache__/
 
 # texto extraído das diretrizes (grande, de terceiros)
 fontes/
+
+# cópias locais dos scripts da raiz do medtechbr.github.io, só para testar em localhost.
+# Em produção o app carrega /_mtfb.js e /_mtauth.js do site principal — commitá-las aqui
+# criaria uma segunda cópia que envelhece sozinha.
+_mtfb.js
+_mtauth.js

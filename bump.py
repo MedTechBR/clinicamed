@@ -26,7 +26,9 @@ sw.write_text(s)
 
 t = idx.read_text()
 # acrescenta ou atualiza ?v=N nos scripts locais (ignora http/https)
-t, n = re.subn(r'<script src="(?!https?:)([^"?]+)(?:\?v=\d+)?"',
+# o (?!https?:|/) deixa de fora os scripts da raiz do site (/_mtfb.js, /_mtauth.js): eles
+# são de outro repo e versionar aqui só geraria cache miss a cada deploy
+t, n = re.subn(r'<script src="(?!https?:|/)([^"?]+)(?:\?v=\d+)?"',
                lambda x: f'<script src="{x.group(1)}?v={novo}"', t)
 idx.write_text(t)
 

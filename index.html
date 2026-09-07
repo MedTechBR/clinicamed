@@ -139,6 +139,21 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 .bt.sec.mini{color:var(--ink)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 @media(max-width:520px){.contador select{max-width:150px}.marca{font-size:19px}}
+
+/* ---------- conta MedTech ----------
+   O _mtauth.js cobre a tela com login e splash sempre que não há usuário. Aqui login é
+   OPCIONAL: o overlay só aparece quando o usuário PEDE (body.quer-login). O botão flutuante
+   "voltar ao MedTech" também sai — ele cobriria a marca no cabeçalho fixo. */
+#mt-splash{display:none!important}
+#mt-auth{display:none!important}
+body.quer-login #mt-auth{display:flex!important}
+#mt-home{display:none!important}
+body.mt-shell{padding-top:0!important}
+.mt-fecha{display:block;width:100%;margin-top:12px;background:none;border:none;color:#8FA3BC;
+  font-size:13px;cursor:pointer;padding:6px}
+.btConta{background:var(--sup2);border:1px solid var(--linha);border-radius:999px;
+  padding:7px 12px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.btConta.logado{background:var(--brandSup);border-color:var(--brand);color:var(--brandInk)}
 </style>
 
 <header>
@@ -150,6 +165,7 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
    ClínicaMed
   </div>
   <div class="contador">
+   <button class="btConta" id="btConta" hidden>Entrar</button>
    <button class="btTema" id="btTema" title="Alternar tema">◐</button>
   </div>
  </div>
@@ -167,12 +183,19 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 </main>
 <div class="faixas" id="faixas"></div>
 
-<script src="taxonomia.js?v=41"></script>
-<script src="provas.js?v=41"></script>
-<script src="banco.js?v=41"></script>
-<script src="flash.js?v=41"></script>
-<script src="pratica.js?v=41"></script>
-<script src="leituras.js?v=41"></script>
+<!-- conta MedTech: mesma origem do site principal, então a sessão é compartilhada com os
+     outros apps do ecossistema. Se a raiz não responder (offline), window.MT não existe e o
+     app segue inteiro em modo local — o nuvem.js trata isso. -->
+<script src="/_mtfb.js"></script>
+<script>window.MT_APP={id:"clinicamed",name:"ClínicaMed"};</script>
+<script type="module" src="/_mtauth.js"></script>
+<script src="taxonomia.js?v=42"></script>
+<script src="provas.js?v=42"></script>
+<script src="banco.js?v=42"></script>
+<script src="flash.js?v=42"></script>
+<script src="pratica.js?v=42"></script>
+<script src="leituras.js?v=42"></script>
+<script src="nuvem.js?v=42"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -289,7 +312,13 @@ function carregaEstado(){ST={
   simativo:ARM.load(PREF+"simativo",null), pos:ARM.load(PREF+"pos",{}), treino:ARM.load(PREF+"treino",{}),
   atividade:ARM.load(PREF+"atividade",{}), lidas:ARM.load(PREF+"lidas",{}), contest:ARM.load(PREF+"contest",[])
 }}
-const salva=(k,v)=>ARM.save(PREF+k,v);
+/* Único funil de gravação do app — por isso o carimbo da nuvem nasce aqui, e não espalhado
+   por cada ponto de escrita. NUVEM.carimba compara com o retrato anterior e datas o que mudou. */
+function salva(k,v){const ok=ARM.save(PREF+k,v);
+  if(ok&&typeof NUVEM!=="undefined"){NUVEM.carimba(k,v);NUVEM.agenda()}
+  return ok}
+/* redesenha a aba aberta — usado quando a nuvem traz novidade do outro aparelho */
+function repinta(){const a=(ST.cfg||{}).aba;if(PINTA[a])PINTA[a]()}
 function atividade(n){const d=dataISO();ST.atividade[d]=(ST.atividade[d]||0)+n;salva("atividade",ST.atividade)}
 function registraResposta(q,alt,ok,modo){
   const r=ST.resp[q._ch]||(ST.resp[q._ch]={hist:[]});
@@ -354,6 +383,8 @@ function diasPara(iso){if(!iso)return null;
   const h=new Date(dataISO()+"T12:00:00"),d=new Date(iso+"T12:00:00");
   return Math.round((d-h)/864e5)}
 const provaPorId=id=>PROVAS.find(p=>p.id===id)||PROVAS[0];
+/* deslogado o chip abre o login; logado ele leva para Ajustes, onde está o estado da conta */
+$("#btConta").onclick=()=>{ if(NUVEM.usuario)irAba("ajustes"); else NUVEM.entrar() };
 $("#btTema").onclick=()=>{
   const seq=["auto","claro","escuro"],at=ST.cfg.tema||"auto",nv=seq[(seq.indexOf(at)+1)%3];
   ST.cfg.tema=nv;salva("cfg",ST.cfg);aplicaTema();
@@ -1084,6 +1115,20 @@ function pintaPainel(){
 }
 
 /* ================= aba AJUSTES ================= */
+function contaMarkup(){
+  if(typeof NUVEM==="undefined"||NUVEM.modo!=="nuvem")
+    return `<p class="mini">A conta MedTech não respondeu neste carregamento (offline, ou o site principal fora do ar). O app segue inteiro, gravando só neste aparelho.</p>`;
+  const u=NUVEM.usuario;
+  if(!u)return `<p class="mini">Você está estudando sem conta: o progresso fica só neste aparelho e some se o navegador limpar o armazenamento. Entrando com a conta MedTech — a mesma dos outros apps —, respostas, cartões, leituras lidas e simulados passam a acompanhar você entre aparelhos.</p>
+    <div class="linha" style="margin-top:10px"><button class="bt" id="btEntrar">Entrar ou criar conta</button></div>`;
+  const s=NUVEM.ultimoSync;
+  return `<p class="mini">Conectado como <b>${esc(u.displayName||u.email||"")}</b>${u.displayName&&u.email?` (${esc(u.email)})`:""}.
+    ${s?`Última sincronização às ${String(s.getHours()).padStart(2,"0")}:${String(s.getMinutes()).padStart(2,"0")}.`:"Sincronizando…"}</p>
+   <p class="mini" style="margin-top:6px">Sincronizam: respostas, favoritas, cartões, estações, leituras lidas, simulados e contestações.
+    Não sincronizam: aba aberta, filtros, tema e simulado em andamento — são a tela deste aparelho.
+    O que chega do outro aparelho é <b>mesclado</b> item a item; nada é sobrescrito em bloco.</p>
+   <div class="linha" style="margin-top:10px"><button class="bt sec" id="btSair">Sair da conta</button></div>`;
+}
 async function pintaAjustes(){
   $("#sec-ajustes").innerHTML=`
   <div class="cx">
@@ -1103,8 +1148,12 @@ async function pintaAjustes(){
    </div>
   </div>
   <div class="cx">
+   <h3 style="margin:0 0 8px">Sua conta MedTech</h3>
+   ${contaMarkup()}
+  </div>
+  <div class="cx">
    <h3 style="margin:0 0 8px">Seus dados</h3>
-   <p class="mini">Tudo fica neste aparelho (localStorage espelhado em IndexedDB). Não há servidor, login nem sincronização — e por isso o backup é responsabilidade sua.</p>
+   <p class="mini">O estudo é gravado neste aparelho (localStorage espelhado em IndexedDB) e continua funcionando sem conta e sem internet. Com a conta MedTech, o mesmo progresso aparece no celular e no computador — mas o backup exportado continua valendo a pena, porque é o único que você guarda fora do navegador e da nuvem.</p>
    <div class="linha" style="margin-top:10px">
     <button class="bt" id="btExp">Exportar backup</button>
     <button class="bt sec" id="btImp">Importar backup</button>
@@ -1130,6 +1179,9 @@ async function pintaAjustes(){
    Conteúdo autoral ancorado em diretriz com ano declarado. Nenhuma conduta aqui substitui a diretriz na fonte: em prova e em plantão, confira a versão vigente.</p>
   </div>`;
   $$("[data-tema]").forEach(b=>b.onclick=()=>{ST.cfg.tema=b.dataset.tema;salva("cfg",ST.cfg);aplicaTema();pintaAjustes()});
+  if($("#btEntrar"))$("#btEntrar").onclick=()=>NUVEM.entrar();
+  if($("#btSair"))$("#btSair").onclick=()=>{
+    if(confirm("Sair da conta? O progresso já sincronizado continua neste aparelho e na nuvem."))NUVEM.sair()};
   $("#btExp").onclick=()=>{
     const blob=new Blob([JSON.stringify(ARM.exporta())],{type:"application/json"});
     const a=document.createElement("a");a.href=URL.createObjectURL(blob);
@@ -1168,6 +1220,7 @@ async function pintaAjustes(){
   carregaEstado();
   await ARM.boot();
   carregaEstado();
+  NUVEM.init();   /* retrato do estado antes da primeira gravação (carimbos da nuvem) */
   if(ARM.recuperado)UI.banner("ok",`Recuperei ${ARM.recuperado.n} chaves do espelho interno (backup de ${String(ARM.recuperado.quando).slice(0,10)}). Seus dados voltaram.`,true);
   aplicaTema();
   matchMedia("(prefers-color-scheme:dark)").addEventListener("change",()=>{if((ST.cfg.tema||"auto")==="auto")aplicaTema()});
@@ -1181,6 +1234,7 @@ async function pintaAjustes(){
     history.replaceState(null,"",location.pathname);
   }
   irAba(ST.cfg.aba&&PINTA[ST.cfg.aba]?ST.cfg.aba:"questoes");
+  NUVEM.boot();   /* não bloqueia: o app já está de pé; a nuvem entra quando responder */
   if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
   window.__cm={ST,ARM,BANCO,QIDX,chaveQ,embaralha,espalhaTemas,irAba,estatArea,V};
 })();
