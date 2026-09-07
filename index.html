@@ -179,6 +179,7 @@ body.mt-shell{padding-top:0!important}
  <section id="sec-leituras" hidden></section>
  <section id="sec-cartoes" hidden></section>
  <section id="sec-painel" hidden></section>
+ <section id="sec-turma" hidden></section>
  <section id="sec-ajustes" hidden></section>
 </main>
 <div class="faixas" id="faixas"></div>
@@ -189,13 +190,14 @@ body.mt-shell{padding-top:0!important}
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=42"></script>
-<script src="provas.js?v=42"></script>
-<script src="banco.js?v=42"></script>
-<script src="flash.js?v=42"></script>
-<script src="pratica.js?v=42"></script>
-<script src="leituras.js?v=42"></script>
-<script src="nuvem.js?v=42"></script>
+<script src="taxonomia.js?v=43"></script>
+<script src="provas.js?v=43"></script>
+<script src="banco.js?v=43"></script>
+<script src="flash.js?v=43"></script>
+<script src="pratica.js?v=43"></script>
+<script src="leituras.js?v=43"></script>
+<script src="nuvem.js?v=43"></script>
+<script src="turma.js?v=43"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -356,15 +358,20 @@ function espalhaTemas(lista){
 <script>
 /* ================= navegação ================= */
 const ABAS=[["questoes","Questões"],["simulado","Simulado"],["pratica","Prática"],
-            ["leituras","Leituras"],["cartoes","Cartões"],["painel","Painel"],["ajustes","Ajustes"]];
+            ["leituras","Leituras"],["cartoes","Cartões"],["painel","Painel"],
+            ["turma","Turma"],["ajustes","Ajustes"]];
+/* A aba Turma nasce escondida e só é revelada quando o backend confirma que este e-mail
+   é da coordenação. Esconder o botão é conveniência: a permissão é conferida na função,
+   a cada chamada — mexer no DOM daqui não dá acesso a nada. */
+const ABAS_RESTRITAS=["turma"];
 /* Resolvido na hora da chamada: cada aba é declarada num bloco <script> posterior a este,
    então referenciar a função aqui na criação do objeto quebraria o boot inteiro. */
 const PINTA={questoes:()=>pintaQuestoes(),simulado:()=>pintaSimulado(),pratica:()=>pintaPratica(),
              leituras:()=>pintaLeituras(),cartoes:()=>pintaCartoes(),
-             painel:()=>pintaPainel(),ajustes:()=>pintaAjustes()};
+             painel:()=>pintaPainel(),turma:()=>TURMA.chefe?TURMA.carrega():TURMA.pintaTurma(),ajustes:()=>pintaAjustes()};
 function montaAbas(){
   $("#abas").innerHTML=ABAS.map(([id,n])=>
-    `<button role="tab" data-aba="${id}" aria-selected="false">${n}</button>`).join("");
+    `<button role="tab" data-aba="${id}" aria-selected="false"${ABAS_RESTRITAS.includes(id)?" hidden":""}>${n}</button>`).join("");
   $$("#abas button").forEach(b=>b.onclick=()=>irAba(b.dataset.aba));
 }
 function irAba(id){
@@ -1124,6 +1131,11 @@ function contaMarkup(){
   const s=NUVEM.ultimoSync;
   return `<p class="mini">Conectado como <b>${esc(u.displayName||u.email||"")}</b>${u.displayName&&u.email?` (${esc(u.email)})`:""}.
     ${s?`Última sincronização às ${String(s.getHours()).padStart(2,"0")}:${String(s.getMinutes()).padStart(2,"0")}.`:"Sincronizando…"}</p>
+   ${NUVEM.coord?`<p class="mini" style="margin-top:6px;padding:8px 10px;background:var(--aviSup);border-radius:8px">
+     <b>A coordenação acompanha seu desempenho neste app.</b> ${esc(NUVEM.coord.coordenador||"")}
+     ${NUVEM.coord.turma?`incluiu você na turma ${esc(NUVEM.coord.turma)}`:"incluiu você na turma"} e vê o resumo do seu estudo:
+     quantas questões você fez, o acerto por área, leituras concluídas, simulados e há quanto tempo você não entra.
+     O que você respondeu em cada questão <b>não</b> aparece para ninguém.</p>`:""}
    <p class="mini" style="margin-top:6px">Sincronizam: respostas, favoritas, cartões, estações, leituras lidas, simulados e contestações.
     Não sincronizam: aba aberta, filtros, tema e simulado em andamento — são a tela deste aparelho.
     O que chega do outro aparelho é <b>mesclado</b> item a item; nada é sobrescrito em bloco.</p>

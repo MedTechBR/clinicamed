@@ -137,6 +137,57 @@ function mescla(rem){
   return mudou;
 }
 
+/* ---------- resumo para a coordenação ----------------------------------
+   Quem tem o banco de questões é o cliente: só aqui a chave da resposta vira área do
+   edital. Então o resumo é calculado no aparelho e publicado num doc PEQUENO e separado
+   (apps/clinicamed_resumo). A coordenação lê esse doc — nunca o caderno de respostas:
+   ela acompanha desempenho, não o que a pessoa respondeu em cada questão.
+   "acertos" conta questão cuja ÚLTIMA tentativa foi certa, igual ao painel do aluno;
+   "respondidas" conta todas as tentativas, inclusive as repetidas. */
+function resumo(){
+  const resp=ST.resp||{}, porArea={};
+  let tentativas=0, unicas=0, acertos=0;
+  Object.keys(resp).forEach(ch=>{
+    const h=((resp[ch]||{}).hist)||[]; if(!h.length)return;
+    unicas++; tentativas+=h.length;
+    const certa=!!h[h.length-1].ok; if(certa)acertos++;
+    const q=(typeof QIDX!=="undefined")&&QIDX.get(ch); if(!q)return;
+    const a=porArea[q.tema]||(porArea[q.tema]={n:0,ok:0}); a.n++; if(certa)a.ok++;
+  });
+  const dias=Object.keys(ST.atividade||{}).sort();
+  const corte=new Date(Date.now()-7*864e5).toISOString().slice(0,10);
+  const ultimos7=dias.filter(d=>d>corte).reduce((s,d)=>s+(+ST.atividade[d]||0),0);
+  const sims=Array.isArray(ST.sim)?ST.sim:[];
+  return {respondidas:tentativas, unicas, acertos,
+    leituras:Object.keys(ST.lidas||{}).length, cartoes:Object.keys(ST.flash||{}).length,
+    simulados:sims.length,
+    notaMedia:sims.length?Math.round(sims.reduce((s,x)=>s+(+x.nota||0),0)/sims.length*100)/100:0,
+    diasAtivos:dias.length, ultimos7, ultimaAtividade:dias[dias.length-1]||"",
+    porArea, versao:(typeof V!=="undefined")?V:""};
+}
+let ultimoResumo="", coord=null;
+async function publicaResumo(){
+  if(!usuario||!window.MT||!MT._fb)return;
+  const r=resumo(), s=JSON.stringify(r);
+  if(s===ultimoResumo)return;
+  try{
+    const {db,F}=MT._fb;
+    await F.setDoc(F.doc(db,"users",usuario.uid,"apps","clinicamed_resumo"),
+      {json:s, atualizadoEm:new Date().toISOString(),
+       nome:usuario.displayName||"", email:usuario.email||""},{merge:true});
+    ultimoResumo=s;
+  }catch(e){ console.warn("nuvem: resumo não publicado",e) }
+}
+/* A pessoa tem de PODER SABER que é acompanhada. A coordenação grava este doc na área
+   dela quando a inclui na turma, e o app mostra isso em Ajustes. */
+async function leCoord(){
+  if(!usuario||!window.MT||!MT._fb){coord=null;return}
+  try{ const {db,F}=MT._fb;
+    const s=await F.getDoc(F.doc(db,"users",usuario.uid,"apps","clinicamed_coord"));
+    coord=s.exists()?s.data():null;
+  }catch(e){ coord=null }
+}
+
 /* ---------- transporte ---------- */
 function pacote(){
   const d={}; SINC.forEach(k=>{if(ST[k]!==undefined)d[k]=ST[k]});
@@ -151,7 +202,7 @@ async function envia(){
   if(s.length>TETO_DURO){UI.banner("erro",`Seu progresso passou de ${Math.round(s.length/1024)} KB e não cabe mais num registro da nuvem. Exporte o backup em Ajustes — a gravação local segue normal.`,true);return}
   if(s.length>TETO_AVISO&&!avisouTeto){avisouTeto=true;
     UI.banner("avi",`O progresso já ocupa ${Math.round(s.length/1024)} KB dos 1000 KB que cabem na nuvem.`)}
-  try{ await MT.save(p); ultimoEnv=corpo; ultimoSync=new Date(); pintaChip() }
+  try{ await MT.save(p); ultimoEnv=corpo; ultimoSync=new Date(); pintaChip(); publicaResumo() }
   catch(e){ console.warn("nuvem: falha ao enviar",e); pintaChip("erro") }
 }
 function agenda(){ if(!usuario)return; clearTimeout(pend); pend=setTimeout(envia,2500) }
@@ -206,8 +257,11 @@ async function boot(){
   const {A,auth}=MT._fb;
   A.onAuthStateChanged(auth,u=>{
     usuario=u||null;
-    if(u)document.body.classList.remove("quer-login");
-    else {ultimoEnv="";ultimoSync=null}
+    if(u){ document.body.classList.remove("quer-login");
+      leCoord().then(()=>{if(typeof pintaAjustes==="function"&&(ST.cfg||{}).aba==="ajustes")pintaAjustes()});
+      if(typeof TURMA!=="undefined")TURMA.boot(); }
+    else { ultimoEnv="";ultimoResumo="";ultimoSync=null;coord=null;
+      if(typeof TURMA!=="undefined")TURMA.esconde(); }
     pintaChip();
     if(typeof pintaAjustes==="function"&&ST.cfg.aba==="ajustes")pintaAjustes();
   });
@@ -227,7 +281,7 @@ async function boot(){
    navegador (scratchpad/teste_merge.js) e inspecionada no console quando algo não bate. */
 return {init,boot,carimba,agenda,abreLogin,mescla,pacote,
   get modo(){return modo}, get usuario(){return usuario},
-  get ultimoSync(){return ultimoSync},
+  get ultimoSync(){return ultimoSync}, get coord(){return coord}, resumo,
   sair(){ if(window.MT&&MT.signOut)MT.signOut() },
   entrar:abreLogin};
 })();
