@@ -1,13 +1,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#FFFFFF">
+<!-- a barra de status acompanha o tema: fixa em branco, o modo escuro ficava com uma faixa clara -->
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121417" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="ClínicaMed">
 <title>ClínicaMed</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
-<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
 <script>
 /* tema antes do CSS para não piscar */
 (function(){try{var t=localStorage.getItem("cm_tema")||"auto";
@@ -170,6 +173,17 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 .hit mark{background:var(--aviSup);color:inherit;border-radius:3px;padding:0 2px}
 .grupoB{font-size:12px;color:var(--ink2);font-weight:600;margin:14px 0 2px;text-transform:none}
 
+/* convite de instalação e barra do download offline */
+.convite{display:flex;gap:12px;align-items:center;background:var(--brandSup);border-radius:12px;padding:12px 14px;margin-bottom:12px}
+.convite .ti{font-size:26px;color:var(--brandInk);flex:0 0 auto}
+.convite div{flex:1;min-width:0}
+.convite b{display:block;font-size:14.5px}
+.convite span{font-size:12.5px;color:var(--ink2)}
+.convite button{flex:0 0 auto}
+@media(max-width:520px){.convite{flex-wrap:wrap}.convite button{width:100%}}
+.progOff{height:6px;background:var(--sup2);border-radius:99px;overflow:hidden;margin:10px 0 6px}
+.progOff i{display:block;height:100%;background:var(--brand);transition:width .2s}
+
 /* progresso de leitura no cartão */
 .progL{height:4px;background:var(--sup2);border-radius:99px;overflow:hidden;margin-top:10px}
 .progL i{display:block;height:100%;background:var(--brand)}
@@ -328,15 +342,15 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed",linha:"provas"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=52"></script>
-<script src="provas.js?v=52"></script>
-<script src="banco.js?v=52"></script>
-<script src="flash.js?v=52"></script>
-<script src="pratica.js?v=52"></script>
-<script src="leituras.js?v=52"></script>
-<script src="indice-leituras.js?v=52"></script>
-<script src="nuvem.js?v=52"></script>
-<script src="turma.js?v=52"></script>
+<script src="taxonomia.js?v=53"></script>
+<script src="provas.js?v=53"></script>
+<script src="banco.js?v=53"></script>
+<script src="flash.js?v=53"></script>
+<script src="pratica.js?v=53"></script>
+<script src="leituras.js?v=53"></script>
+<script src="indice-leituras.js?v=53"></script>
+<script src="nuvem.js?v=53"></script>
+<script src="turma.js?v=53"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -374,6 +388,7 @@ const UI={banner(tipo,msg,fixa){
 /* ---------- blindagem de armazenamento ----------
    load() que falha TRAVA a gravação da chave: melhor não salvar do que salvar vazio por cima. */
 const CHAVES=["resp","fav","flash","erros","cfg","sim","simativo","pos","treino","atividade","lidas","contest","prog"].map(k=>PREF+k);
+const LIVROS="cm-livros-v1";   /* balde do service worker que guarda leituras e figuras */
 const ARM={
  db:null,travas:{},tsBackup:0,recuperado:null,persistOK:null,
  async boot(){
@@ -557,6 +572,72 @@ function irAba(id){
   if(id!=="leituras")window.scrollTo(0,0);
 }
 
+/* ================= convite de instalação =================
+   Sem isto, instalar dependia de o usuário achar "adicionar à tela inicial" no menu do navegador.
+   O convite só aparece quando o navegador diz que dá (beforeinstallprompt) e o usuário não
+   dispensou antes; no iPhone, onde esse evento não existe, mostra a instrução do Safari. */
+let promptInstalar=null;
+addEventListener("beforeinstallprompt",e=>{e.preventDefault();promptInstalar=e;convidaInstalar()});
+addEventListener("appinstalled",()=>{promptInstalar=null;const c=$("#convite");if(c)c.remove()});
+function jaEhApp(){return matchMedia("(display-mode: standalone)").matches||navigator.standalone===true}
+function convidaInstalar(){
+  if(jaEhApp()||ST.cfg.semConvite||$("#convite"))return;
+  const iOS=/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream;
+  if(!promptInstalar&&!iOS)return;
+  const sec=$("#sec-"+((ST.cfg||{}).aba||"questoes")); if(!sec)return;
+  const d=document.createElement("div"); d.className="convite"; d.id="convite";
+  d.innerHTML=`<i class="ti ti-device-mobile" aria-hidden="true"></i>
+    <div><b>Instale o ClínicaMed no aparelho</b><span>${iOS
+      ? "No Safari: botão de compartilhar e depois “Adicionar à Tela de Início”."
+      : "Abre em tela cheia, entra pelo ícone e funciona sem internet."}</span></div>
+    ${promptInstalar?`<button class="bt mini" id="btInstalar">Instalar</button>`:""}
+    <button class="btIco" id="btNaoInstalar" aria-label="dispensar"><i class="ti ti-x"></i></button>`;
+  sec.prepend(d);
+  if($("#btInstalar"))$("#btInstalar").onclick=async()=>{
+    const p=promptInstalar; promptInstalar=null; d.remove();
+    p.prompt(); await p.userChoice;
+  };
+  $("#btNaoInstalar").onclick=()=>{ST.cfg.semConvite=1;salva("cfg",ST.cfg);d.remove()};
+}
+
+/* ================= modo offline =================
+   O ativo do app são 97 leituras e 41 figuras — 44 h de estudo. O service worker guarda o que
+   você abre, mas quem vai estudar no plantão precisa poder baixar tudo ANTES. O download é
+   explícito por causa da rede do hospital: ninguém deve gastar 2,6 MB de 4G sem ter pedido.
+   A página fala direto com a Cache API (mesmo balde que o SW lê), sem depender de mensagem. */
+const OFF={
+  urls(){
+    const v=(document.querySelector('script[src*="leituras.js"]').src.match(/v=(\d+)/)||[])[1]||"";
+    const u=LEITURAS.filter(l=>l.f).map(l=>"leituras/"+l.f);
+    u.push("leituras/_leitura.css?v="+v,"leituras/_leitura.js?v="+v);
+    (typeof FIGS!=="undefined"?FIGS:[]).forEach(f=>u.push("leituras/fig/"+f+".svg"));
+    return u;
+  },
+  async estado(){
+    try{
+      const c=await caches.open(LIVROS), ks=await c.keys();
+      /* comparar pela URL ABSOLUTA resolvida: recortar o prefixo "/clinicamed/" à mão dava
+         0 de 140 em qualquer caminho diferente (localhost, subpasta, domínio próprio). */
+      const tem=new Set(ks.map(r=>r.url));
+      const alvo=this.urls();
+      const faltam=alvo.filter(u=>!tem.has(new URL(u,location.href).href));
+      return {total:alvo.length, baixados:alvo.length-faltam.length, faltam};
+    }catch(e){ return {total:0,baixados:0,faltam:[],erro:e.message} }
+  },
+  async baixa(aoAndar){
+    const c=await caches.open(LIVROS);
+    const {faltam}=await this.estado();
+    let n=0;
+    for(let i=0;i<faltam.length;i+=6){
+      await Promise.all(faltam.slice(i,i+6).map(async u=>{
+        try{ const r=await fetch(u,{cache:"reload"}); if(r.ok)await c.put(u,r) }catch(e){}
+        n++; if(aoAndar)aoAndar(n,faltam.length);
+      }));
+    }
+    return n;
+  },
+  async remove(){ await caches.delete(LIVROS) }
+};
 /* ================= busca global =================
    Procura em títulos e seções das leituras (indice-leituras.js), enunciados das questões,
    cartões e estações. A seção da leitura abre já rolada até o cabeçalho (#id). */
@@ -1374,6 +1455,32 @@ function pintaPainel(){
 }
 
 /* ================= aba AJUSTES ================= */
+async function pintaOffline(){
+  const cx=$("#cxOff"); if(!cx)return;
+  if(!("caches" in window)){cx.innerHTML=`<p class="mini">Este navegador não guarda páginas para uso offline.</p>`;return}
+  const e=await OFF.estado();
+  const tudo=e.faltam.length===0&&e.total>0;
+  cx.innerHTML=tudo
+    ? `<p class="mini" style="color:var(--ok);font-weight:600"><i class="ti ti-circle-check"></i> Biblioteca inteira no aparelho — ${e.total} arquivos.</p>
+       <div class="linha" style="margin-top:8px"><button class="bt sec mini" id="btOffRem">Liberar o espaço</button></div>`
+    : `<div class="linha"><button class="bt" id="btOffBaixa"><i class="ti ti-download"></i> Baixar a biblioteca</button>
+        <span class="mini">${e.baixados} de ${e.total} já guardados</span></div>
+       ${e.baixados?`<div class="progOff"><i style="width:${Math.round(100*e.baixados/e.total)}%"></i></div>`:""}`;
+  if($("#btOffRem"))$("#btOffRem").onclick=async()=>{
+    if(!confirm("Remover a biblioteca guardada? As leituras voltam a precisar de internet. Seu progresso não é afetado."))return;
+    await OFF.remove(); pintaOffline();
+  };
+  if($("#btOffBaixa"))$("#btOffBaixa").onclick=async()=>{
+    const b=$("#btOffBaixa"); b.disabled=true;
+    cx.innerHTML=`<p class="mini">Baixando… <span id="offN">0</span> de <span id="offT">?</span></p><div class="progOff"><i id="offBar" style="width:0"></i></div>`;
+    await OFF.baixa((n,tot)=>{
+      const a=$("#offN"),c2=$("#offT"),bar=$("#offBar");
+      if(a)a.textContent=n; if(c2)c2.textContent=tot; if(bar)bar.style.width=Math.round(100*n/tot)+"%";
+    });
+    UI.banner("ok","Biblioteca guardada. Agora ela abre sem internet.");
+    pintaOffline();
+  };
+}
 function contaMarkup(){
   if(typeof NUVEM==="undefined"||NUVEM.modo!=="nuvem")
     return `<p class="mini">A conta MedTech não respondeu neste carregamento (offline, ou o site principal fora do ar). O app segue inteiro, gravando só neste aparelho.</p>`;
@@ -1417,6 +1524,11 @@ async function pintaAjustes(){
    ${contaMarkup()}
   </div>
   <div class="cx">
+   <h3 style="margin:0 0 8px">Estudar sem internet</h3>
+   <p class="mini">O app abre sem rede depois do primeiro acesso, e guarda sozinho toda leitura que você abrir. Para levar a <b>biblioteca inteira</b> para o plantão — 97 leituras e as figuras —, baixe de uma vez, de preferência no wi-fi: são cerca de 2,6 MB.</p>
+   <div id="cxOff" style="margin-top:10px"><p class="mini">verificando…</p></div>
+  </div>
+  <div class="cx">
    <h3 style="margin:0 0 8px">Seus dados</h3>
    <p class="mini">O estudo é gravado neste aparelho (localStorage espelhado em IndexedDB) e sincronizado com a sua conta, então o mesmo progresso aparece no celular e no computador. Depois do primeiro acesso, o app abre e funciona sem internet — o que você fizer offline sobe na próxima vez que houver rede. O backup exportado continua valendo a pena: é o único que fica fora do navegador e da nuvem.</p>
    <div class="linha" style="margin-top:10px">
@@ -1444,6 +1556,7 @@ async function pintaAjustes(){
    Conteúdo autoral ancorado em diretriz com ano declarado. Nenhuma conduta aqui substitui a diretriz na fonte: em prova e em plantão, confira a versão vigente.</p>
   </div>`;
   $$("[data-tema]").forEach(b=>b.onclick=()=>{ST.cfg.tema=b.dataset.tema;salva("cfg",ST.cfg);aplicaTema();pintaAjustes()});
+  pintaOffline();
   if($("#btEntrar"))$("#btEntrar").onclick=()=>NUVEM.entrar();
   if($("#btSair"))$("#btSair").onclick=()=>{
     if(confirm("Sair da conta? O ClínicaMed pede login, então a tela de entrada volta. O progresso já sincronizado continua na nuvem."))NUVEM.sair()};
@@ -1499,6 +1612,10 @@ async function pintaAjustes(){
     history.replaceState(null,"",location.pathname);
   }
   irAba(ST.cfg.aba&&PINTA[ST.cfg.aba]?ST.cfg.aba:"questoes");
+  convidaInstalar();
+  /* atalho do toque longo no ícone (manifest shortcuts): ?ir=<aba> */
+  const irPar=par.get("ir");
+  if(irPar&&PINTA[irPar]){ST.cfg.aba=irPar;salva("cfg",ST.cfg);history.replaceState(null,"",location.pathname)}
   NUVEM.boot();   /* não bloqueia: o app já está de pé; a nuvem entra quando responder */
   if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
   window.__cm={ST,ARM,BANCO,QIDX,chaveQ,embaralha,espalhaTemas,irAba,estatArea,V};

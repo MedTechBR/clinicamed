@@ -3,10 +3,10 @@
    versão velha e a correção vira fantasma.
    Estáticos usam stale-while-revalidate: bump de versão não basta quando a borda do CDN
    devolve conteúdo velho para o precache. HTML é network-first. */
-const CACHE="cm-v52", FONTES="cm-fontes-v1";
-const PRE=["./","./index.html","./taxonomia.js?v=52","./provas.js?v=52","./banco.js?v=52","./flash.js?v=52",
-           "./pratica.js?v=52","./leituras.js?v=52","./nuvem.js?v=52","./turma.js?v=52","./indice-leituras.js?v=52","./manifest.webmanifest",
-           "./leituras/_leitura.css?v=52","./leituras/_leitura.js?v=52"];
+const CACHE="cm-v53", FONTES="cm-fontes-v1", LIVROS="cm-livros-v1";
+const PRE=["./","./index.html","./taxonomia.js?v=53","./provas.js?v=53","./banco.js?v=53","./flash.js?v=53",
+           "./pratica.js?v=53","./leituras.js?v=53","./nuvem.js?v=53","./turma.js?v=53","./indice-leituras.js?v=53","./manifest.webmanifest",
+           "./leituras/_leitura.css?v=53","./leituras/_leitura.js?v=53"];
 /* As figuras (leituras/fig/*.svg) NÃO entram no precache — são 41 arquivos e 291 KB, e nem toda
    leitura usa todas. Elas caem no cache pela regra geral de estáticos (stale-while-revalidate)
    na primeira vez que a leitura abre online, e a partir daí funcionam offline. */
@@ -15,7 +15,7 @@ self.addEventListener("install",e=>{
 });
 self.addEventListener("activate",e=>{
   e.waitUntil(caches.keys().then(ks=>Promise.all(
-    ks.filter(k=>k!==CACHE&&k!==FONTES).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));
+    ks.filter(k=>k!==CACHE&&k!==FONTES&&k!==LIVROS).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));
 });
 self.addEventListener("fetch",e=>{
   const req=e.request; if(req.method!=="GET")return;
@@ -40,13 +40,25 @@ self.addEventListener("fetch",e=>{
     })); return;
   }
   if(url.origin!==location.origin)return;
+  /* HTML é network-first, mas AGORA GUARDA o que baixou. Antes não guardava: o app abria offline
+     e as 97 leituras não — a leitura caía no fallback e servia o index.html DENTRO do iframe, que
+     é o app inteiro dentro da leitura. O fallback usa caches.match global de propósito, para achar
+     também o que o botão "guardar no aparelho" pôs no balde LIVROS. */
   if(req.mode==="navigate"||req.destination==="document"){
-    e.respondWith(fetch(req).catch(()=>caches.match(req).then(r=>r||caches.match("./index.html"))));
+    const leitura=url.pathname.includes("/leituras/");
+    e.respondWith(
+      fetch(req).then(r=>{
+        if(r.ok&&r.type==="basic")caches.open(leitura?LIVROS:CACHE).then(c=>c.put(req,r.clone())).catch(()=>{});
+        return r;
+      }).catch(()=>caches.match(req).then(r=>r||caches.match("./index.html"))));
     return;
   }
-  e.respondWith(caches.open(CACHE).then(async c=>{
+  /* As figuras vão para o balde da biblioteca, que sobrevive ao bump — um ECG não muda de deploy
+     para deploy, e re-baixar 291 KB de SVG a cada versão é desperdício em rede de hospital. */
+  const balde=url.pathname.includes("/leituras/fig/")?LIVROS:CACHE;
+  e.respondWith(caches.open(balde).then(async c=>{
     const hit=await c.match(req);
     const rede=fetch(req).then(r=>{if(r.ok)c.put(req,r.clone());return r}).catch(()=>null);
-    return hit||(await rede)||Response.error();
+    return hit||(await rede)||(await caches.match(req))||Response.error();
   }));
 });

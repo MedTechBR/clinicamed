@@ -20,8 +20,11 @@ for f in sorted(pathlib.Path('leituras').glob('*.html')):
     palavras = len(re.sub(r'<[^>]+>', ' ', s).split())
     itens.append({'f': f.name, 'h': secs, 'w': palavras,
                   'fx': len(re.findall(r'class="mermaid"', s))})
+cat = pathlib.Path('leituras/fig/_catalogo.json')
+figs = sorted(json.loads(cat.read_text()).keys()) if cat.exists() else []
 pathlib.Path('indice-leituras.js').write_text(
     '/* GERADO por gera_indice.py — não editar à mão. */\nwindow.IDXL=' +
-    json.dumps(itens, ensure_ascii=False, separators=(',', ':')) + ';\n')
+    json.dumps(itens, ensure_ascii=False, separators=(',', ':')) + ';\n'
+    'window.FIGS=' + json.dumps(figs, ensure_ascii=False, separators=(',', ':')) + ';\n')
 print(f'{len(itens)} leituras, {sum(len(i["h"]) for i in itens)} seções indexadas, '
-      f'{sum(i["fx"] for i in itens)} fluxogramas')
+      f'{sum(i["fx"] for i in itens)} fluxogramas, {len(figs)} figuras')

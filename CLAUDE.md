@@ -25,7 +25,15 @@ quiz-enare-farmacia.
   **Nunca editar `banco.js` à mão** — editar a leva e rodar o montador.
 - Dados em JSON estrito: `taxonomia.js` (18 áreas + as 3 matrizes + níveis), `provas.js`,
   `trilha.js` (R1/R2/R3 por rodízio), `pratica.js` (estações), `flash.js`, `leituras.js`.
-- PWA: `manifest.webmanifest` + `sw.js`. **BUMPAR a constante `CACHE` do sw.js a CADA deploy**
+- PWA (auditado em 07/09/2026): `manifest.webmanifest` com id, descrição, categorias, ícone de 180
+  para iOS e **atalhos** (`?ir=<aba>` no toque longo do ícone); convite de instalação próprio
+  (`beforeinstallprompt`, com instrução do Safari no iPhone e "não mostrar mais" gravado em `cfg`);
+  `theme-color` por esquema de cor. **Três baldes de cache**: `cm-vN` (shell, apagado a cada bump),
+  `cm-fontes-v1` (fontes, gstatic, jsdelivr) e **`cm-livros-v1`** (leituras e figuras) — os dois
+  últimos **sobrevivem ao bump**, senão cada deploy re-baixaria 2,6 MB de conteúdo que não mudou.
+  Ajustes tem "Estudar sem internet", que baixa as 140 URLs da biblioteca de uma vez (o SW já
+  guarda sozinho o que se abre). **O HTML das leituras não era guardado**: offline, a leitura caía
+  no fallback e servia o `index.html` DENTRO do iframe — corrigido. **BUMPAR a constante `CACHE` do sw.js a CADA deploy**
   (cm-v1, cm-v2…). Estáticos em stale-while-revalidate; HTML network-first. Testar SW em **aba nova**.
 - Os dados vivem no aparelho (localStorage + espelho IndexedDB), prefixo `cm_` na constante `PREF`,
   e sincronizam com a conta. **Login é OBRIGATÓRIO** (`nuvem.js`) desde 07/09/2026: a coordenação
