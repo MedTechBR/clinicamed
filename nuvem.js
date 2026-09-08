@@ -35,6 +35,11 @@ const TETO_AVISO=800*1024, TETO_DURO=950*1024;   /* doc do Firestore: 1 MB */
 
 let CAR={}, LAP={}, FOTO={};          /* carimbos, lápides, retrato do último estado visto */
 let usuario=null, modo="local", aplicando=false, ultimoEnv="", ultimoSync=null, pend=null, avisouTeto=false;
+/* O MT.save do _mtauth.js EMITE o pacote para os ouvintes de MT.onData (síncrono, antes de
+   gravar na nuvem). Sem estas duas travas, o nosso próprio envio voltava como "dado novo",
+   a mesclagem chamava envia() de novo e a recursão só parava no estouro de pilha — mais de
+   mil gravações por toque, tela presa por segundos. */
+let enviando=false, reenviar=false, eco=null;
 
 const clona=o=>JSON.parse(JSON.stringify(o));
 /* JSON.stringify depende da ORDEM das chaves, e a mesclagem monta o objeto em ordens
@@ -199,14 +204,17 @@ function pacote(){
 }
 async function envia(){
   if(!usuario||!window.MT)return;
+  if(enviando){reenviar=true;return}                 /* já há um envio no ar: repete ao terminar */
   const p=pacote(), s=JSON.stringify(p);
   const corpo=estavel({...p,t:0});                 /* o carimbo t muda sempre; fora da comparação */
   if(corpo===ultimoEnv)return;
   if(s.length>TETO_DURO){UI.banner("erro",`Seu progresso passou de ${Math.round(s.length/1024)} KB e não cabe mais num registro da nuvem. Exporte o backup em Ajustes — a gravação local segue normal.`,true);return}
   if(s.length>TETO_AVISO&&!avisouTeto){avisouTeto=true;
     UI.banner("avi",`O progresso já ocupa ${Math.round(s.length/1024)} KB dos 1000 KB que cabem na nuvem.`)}
+  enviando=true; eco=p;
   try{ await MT.save(p); ultimoEnv=corpo; ultimoSync=new Date(); pintaChip(); publicaResumo() }
   catch(e){ console.warn("nuvem: falha ao enviar",e); pintaChip("erro") }
+  finally{ enviando=false; eco=null; if(reenviar){reenviar=false;agenda()} }
 }
 function agenda(){ if(!usuario)return; clearTimeout(pend); pend=setTimeout(envia,2500) }
 
@@ -297,6 +305,7 @@ async function boot(){
   });
   MT.onData(rem=>{
     if(!usuario)return;
+    if(rem===eco){pintaChip();return}                /* eco do nosso próprio MT.save: nada a mesclar */
     const mudou=mescla(rem);
     ultimoSync=new Date();
     if(mudou&&typeof repinta==="function")repinta();
