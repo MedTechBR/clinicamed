@@ -31,7 +31,7 @@ quiz-enare-farmacia.
   `theme-color` por esquema de cor. **Três baldes de cache**: `cm-vN` (shell, apagado a cada bump),
   `cm-fontes-v1` (fontes, gstatic, jsdelivr) e **`cm-livros-v1`** (leituras e figuras) — os dois
   últimos **sobrevivem ao bump**, senão cada deploy re-baixaria 2,6 MB de conteúdo que não mudou.
-  Ajustes tem "Estudar sem internet", que baixa as 140 URLs da biblioteca de uma vez (o SW já
+  Ajustes tem "Estudar sem internet", que baixa a biblioteca inteira de uma vez (o SW já
   guarda sozinho o que se abre). **O HTML das leituras não era guardado**: offline, a leitura caía
   no fallback e servia o `index.html` DENTRO do iframe — corrigido. **BUMPAR a constante `CACHE` do sw.js a CADA deploy**
   (cm-v1, cm-v2…). Estáticos em stale-while-revalidate; HTML network-first. Testar SW em **aba nova**.
@@ -186,6 +186,16 @@ offline baixaria os esquemas e deixaria as radiografias de fora.
 projeta-se para a direita. Afetava `rx-normal`, `rx-consolidacao` e `rx-congestao`, que nunca tinham
 sido usadas em leitura nenhuma. **`<text>` do SVG não quebra linha** — frase longa vaza para fora do
 quadro; por isso `radiologia_torax()` tem o helper `txt()`, que quebra por largura em caracteres.
+
+### Peso da biblioteca offline (08/09/2026)
+
+Medido depois de entrarem as imagens reais: **3,1 MB** — 336 KB de esquemas SVG, 913 KB de fotos
+WebP e 1,9 MB do HTML das leituras. Os ECGs em papel são o pior caso de compressão que existe aqui:
+a grade milimetrada é ruído de alta frequência em toda a área, e o WebP não tem o que jogar fora.
+Um único traçado de 12 derivações a 1600 px e qualidade 82 pesava 400 KB. Em 1400 px e qualidade
+**68** o mesmo traçado cai para 242 KB e continua legível no zoom — testar grayscale não ajudou
+(225 KB), porque o custo é a grade, não a cor. **Medir antes de escolher o parâmetro: aqui a
+compressão não se comporta como nas radiografias, que são suaves.** Receita em `docs/extrai_ecg.py`.
 
 ### Varredura das 16 aulas — o que existe onde (08/09/2026)
 
