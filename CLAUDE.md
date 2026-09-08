@@ -149,8 +149,8 @@ leitura nova ou reescrita — modelos: `parada-cardiaca.html`, `choque.html`, `d
 
 **Já em formato monografia (07–08/09/2026):** parada-cardiaca, choque, dor-toracica (sindrômica),
 sindromes-coronarianas, tromboembolismo, sdra, taquiarritmias, arritmias-ventriculares, hipertensao,
-choque-septico, fibrilacao-atrial, bradiarritmias-e-marcapasso, **radiografia-torax** — 13 leituras,
-~77 mil palavras.
+choque-septico, fibrilacao-atrial, bradiarritmias-e-marcapasso, **radiografia-torax**,
+**derrame-pleural** — 14 leituras, ~82 mil palavras.
 
 ### As radiografias da aula de RX (08/09/2026) — quem é dono do quê
 
@@ -205,8 +205,9 @@ por quê está no commit e nos lotes 003/004/005 de lá.
 
 **Fila de reescrita** (mais peso no edital × texto mais curto). Com fonte em `fontes/`: avc-isquemico
 (AHA/ASA 2026), asma e dpoc (GINA/GOLD 2026), intoxicacoes (COVISA 2017), politraumatizado (ATLS 11).
-**derrame-pleural** (1.906 palavras, sem figura e sem fluxograma) foi auditada em 08/09 e é a próxima
-de pneumo: já existem `rx-derrame-volume` e os esquemas de ultrassom para ilustrá-la.
+**derrame-pleural** foi reescrita em 08/09 (1.906 → 5.124 palavras, 6 figuras, 3 fluxogramas), com
+quatro ultrassons pulmonares reais do acervo das aulas. Três imagens do mesmo conjunto saíram por
+marca d'água do **THE POCUS ATLAS**; receita da extração em `docs/extrai_ultrassom.py`.
 Sem fonte local, conferir na web antes: insuficiencia-cardiaca, pneumonia-duracao, cirrose,
 eletrolitos, hemorragia-digestiva, dengue, avc, drc, diabetes-tipo2.
 Abordagens sindrômicas a criar: dispneia aguda, síncope, cefaleia aguda, febre no imunossuprimido,
