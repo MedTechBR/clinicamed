@@ -32,6 +32,8 @@ pdftotext -layout "~/Documents/Livros/<arquivo>.pdf" fontes/<nome>.txt
 | ESICM — Guidelines on circulatory shock and hemodynamic monitoring (Monnet et al., ICM) | 2025 | leitura `choque.html` (monografia; 50 declarações) |
 | AHA/ACC — Evaluation and Diagnosis of Chest Pain (conferida na web) | 2021 | leitura `dor-toracica.html` |
 | ACC/AHA — Diagnosis and Management of Aortic Disease (conferida na web) | 2022 | leitura `dor-toracica.html` (ADD-RS, alvos de FC e PA) |
+| ATS — An Update on Management of Adult Patients with ARDS (Qadir et al.; **conferida na web**, PDF não está na biblioteca) | 2024 | leitura `sdra.html` — força e certeza de todas as recomendações de tratamento |
+| ESC — Acute Pulmonary Embolism (só a tabela de contraindicações à fibrinólise, que a AHA/ACC 2026 não traz) | 2019 | leitura `tromboembolismo.html` |
 
 ## Cadernos de revisão do Matheus (uso como MAPA DE TEMAS, nunca como texto)
 
