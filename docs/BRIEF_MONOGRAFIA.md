@@ -111,7 +111,9 @@ legenda pronta). Rode `python3 gera_figuras.py --lista` para ver os nomes. Hoje 
   `ecg-torsades`, `ecg-fa-pre-excitada`, `ecg-bav1`, `ecg-mobitz1`, `ecg-mobitz2`, `ecg-bavt`,
   `ecg-marcapasso`, `ecg-extrassistoles`
 - **Radiografia de tórax (esquemas de linha)**: `rx-normal`, `rx-derrame`, `rx-pneumotorax`,
-  `rx-congestao`, `rx-consolidacao`
+  `rx-congestao`, `rx-consolidacao`, `rx-abcde`, `rx-qualidade`, `rx-pa-ap`, `rx-lobos`,
+  `rx-silhueta`, `rx-consolidacao-atelectasia`, `rx-golden`, `rx-derrame-volume`,
+  `rx-pneumotorax-deitado`, `rx-pneumoperitonio`, `rx-pontos-cegos`, `rx-tubos`
 - **Ultrassom pulmonar (esquemas)**: `us-praia`, `us-codigo-barras`, `us-linhas-b`
 - **Curvas e algoritmos**: `fig-curva-pv`, `fig-capnografia`, `fig-troponina`
 

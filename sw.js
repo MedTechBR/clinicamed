@@ -3,10 +3,10 @@
    versão velha e a correção vira fantasma.
    Estáticos usam stale-while-revalidate: bump de versão não basta quando a borda do CDN
    devolve conteúdo velho para o precache. HTML é network-first. */
-const CACHE="cm-v53", FONTES="cm-fontes-v1", LIVROS="cm-livros-v1";
-const PRE=["./","./index.html","./taxonomia.js?v=53","./provas.js?v=53","./banco.js?v=53","./flash.js?v=53",
-           "./pratica.js?v=53","./leituras.js?v=53","./nuvem.js?v=53","./turma.js?v=53","./indice-leituras.js?v=53","./manifest.webmanifest",
-           "./leituras/_leitura.css?v=53","./leituras/_leitura.js?v=53"];
+const CACHE="cm-v54", FONTES="cm-fontes-v1", LIVROS="cm-livros-v1";
+const PRE=["./","./index.html","./taxonomia.js?v=54","./provas.js?v=54","./banco.js?v=54","./flash.js?v=54",
+           "./pratica.js?v=54","./leituras.js?v=54","./nuvem.js?v=54","./turma.js?v=54","./indice-leituras.js?v=54","./manifest.webmanifest",
+           "./leituras/_leitura.css?v=54","./leituras/_leitura.js?v=54"];
 /* As figuras (leituras/fig/*.svg) NÃO entram no precache — são 41 arquivos e 291 KB, e nem toda
    leitura usa todas. Elas caem no cache pela regra geral de estáticos (stale-while-revalidate)
    na primeira vez que a leitura abre online, e a partir daí funcionam offline. */

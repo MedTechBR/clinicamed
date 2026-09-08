@@ -35,6 +35,17 @@ pdftotext -layout "~/Documents/Livros/<arquivo>.pdf" fontes/<nome>.txt
 | ATS — An Update on Management of Adult Patients with ARDS (Qadir et al.; **conferida na web**, PDF não está na biblioteca) | 2024 | leitura `sdra.html` — força e certeza de todas as recomendações de tratamento |
 | ESC — Acute Pulmonary Embolism (só a tabela de contraindicações à fibrinólise, que a AHA/ACC 2026 não traz) | 2019 | leitura `tromboembolismo.html` |
 
+| Fleischner Society — Glossary of Terms for Thoracic Imaging (Bankier, Radiology 2024;310:e232558) | 2024 | leitura `radiografia-torax.html` (edição vigente do glossário) |
+| Fleischner Society — Glossary (Hansell, Radiology 2008;246:697-722) | 2008 | leitura `radiografia-torax.html` — as definições transcritas saíram desta edição, que está em texto acessível |
+| Self WH, *Am J Emerg Med* 2013;31:401-5 — radiografia × TC para opacidade pulmonar | 2013 | leitura `radiografia-torax.html` (sensibilidade 43,5%) |
+| Claessens YE, *AJRCCM* 2015;192:974-82 — TC precoce na PAC suspeita | 2015 | leitura `radiografia-torax.html` |
+| Alrajab S, *Crit Care* 2013;17:R208 — ultrassom × radiografia no pneumotórax | 2013 | leitura `radiografia-torax.html` (39,8% × 78,6%) |
+| Collins SP, *Ann Emerg Med* 2006;47:13-8 — registro ADHERE, radiografia negativa na IC | 2006 | leitura `radiografia-torax.html` (18,7%) |
+| Blackmore CC, *Acad Radiol* 1996;3:103-9 — volume de derrame por radiografia | 1996 | leitura `radiografia-torax.html` (50 / 200 / 500 mL) |
+| Vera-Ponce VJ, *Respir Med Res* 2025;88:101200 — metanálise ultrassom × radiografia na PAC | 2025 | leitura `radiografia-torax.html` |
+| Goodman LR, *AJR* 1976;127:433-4 — posição do tubo orotraqueal | 1976 | leitura `radiografia-torax.html` (5 ± 2 cm da carina) |
+| Mettler FA, *Radiology* 2008;248:254-63 — catálogo de doses efetivas | 2008 | leitura `radiografia-torax.html` (0,02 mSv) |
+
 ## Cadernos de revisão do Matheus (uso como MAPA DE TEMAS, nunca como texto)
 
 Os cadernos de cursinho em `~/Documents/Livros/` — Intensiva I (cardio e pneumointensivismo),
@@ -71,3 +82,12 @@ referências atualizadas"*.
 
 Quando um tema não tiver diretriz recente na biblioteca, ancorar na bibliografia oficial do edital
 (Harrison 22ª ed./2025 ou Cecil 26ª ed./2022) — nunca em edição antiga.
+
+## Aulas de terceiros (roteiro, nunca imagem)
+
+`~/Documents/Estácio IDOMED/AULAS EMERGÊNCIAS CLÍNICAS/AULA 1 - RX.pdf` — **Dr. Gebson Lopes,
+radiologista, CRM 20411, RQE 16352**. 108 slides. Usada como MAPA da monografia de radiografia de
+tórax (ABCDE, os cinco padrões, os sinais que ele ensina). As radiografias do arquivo são dele e
+**não foram reproduzidas**: o ClínicaMed é público e pago. Todas as figuras da leitura são esquemas
+gerados por `gera_figuras.py`. Se houver autorização escrita dele, as imagens podem entrar com
+crédito na abertura da leitura.

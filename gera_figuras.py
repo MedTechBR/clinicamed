@@ -528,7 +528,11 @@ def radiologia():
                 + '<path d="M150 50v210" opacity=".35"/><path d="M138 50v42 M162 50v42" opacity=".5"/>'
                 + '</g>')
     def coracao(d=None):
-        return f'<path d="{d or "M150 150 q-42 6 -50 56 q-6 40 30 52 q28 10 40 -8"}" fill="#F1F1EC" stroke="#5E646B" stroke-width="1.8"/>'
+        # PA: a direita do paciente fica à ESQUERDA da imagem, então a silhueta cardíaca projeta-se
+        # para a DIREITA da figura. A versão anterior desenhava o coração espelhado.
+        pad = ("M132 156 C 128 196 134 234 146 258 C 168 272 200 268 206 254 "
+               "C 198 220 190 186 182 158 C 176 142 156 138 144 144 C 136 148 133 149 132 156 Z")
+        return f'<path d="{d or pad}" fill="#F1F1EC" stroke="#5E646B" stroke-width="1.8"/>'
     def wrap(nome, titulo, corpo, legenda, w=300, h=316):
         return (titulo, f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" role="img" aria-label="{titulo}">'
                 f'<style>text{{font-family:Figtree,system-ui,sans-serif}}.t{{font-size:12.5px;font-weight:600;fill:#23272E}}'
@@ -559,7 +563,7 @@ def radiologia():
         "Linha pleural visível, ausência de trama vascular além dela e desvio do mediastino para o lado oposto — o hipertensivo se trata antes da radiografia.")
 
     F["rx-congestao"] = wrap("rx-congestao", "Congestão pulmonar",
-        '<path d="M150 150 q-58 8 -66 62 q-8 44 34 58 q32 12 44 -10" fill="#F1F1EC" stroke="#5E646B" stroke-width="1.8"/>'
+        '<path d="M126 154 C 120 200 126 240 142 262 C 168 278 204 272 212 256 C 202 220 194 184 186 156 C 180 140 156 136 142 142 C 132 147 127 148 126 154 Z" fill="#F1F1EC" stroke="#5E646B" stroke-width="1.8"/>'
         + "".join(f'<path d="M{70+i*8} {250+ (i%3)*8} h16" stroke="#0B6A72" stroke-width="1.8"/>' for i in range(6))
         + "".join(f'<path d="M{216-i*8} {250+ (i%3)*8} h16" stroke="#0B6A72" stroke-width="1.8"/>' for i in range(6))
         + '<ellipse cx="118" cy="168" rx="20" ry="12" fill="#E3F1F1" opacity=".8"/>'
@@ -610,6 +614,352 @@ def radiologia():
                '<text class="k" x="176" y="150" fill="#EEE">linhas B</text>')
     F["us-linhas-b"] = us("us-linhas-b", "Ultrassom pulmonar — linhas B", linhasb,
         "Artefatos verticais que partem da pleura, apagam as linhas A e acompanham o deslizamento. Três ou mais num espaço = síndrome intersticial.")
+    return F
+
+# ---------------------------------------------------------------- radiografia de tórax (monografia)
+def radiologia_torax():
+    """Esquemas da monografia de radiografia de tórax. Desenho de linha rotulado, nunca radiografia
+    de paciente: as imagens da aula de RX do material são de terceiro (Dr. Gebson Lopes, CRM 20411),
+    e a biblioteca em ~/Documents/Livros é toda de terceiros.
+
+    ORIENTAÇÃO PA: a direita do paciente aparece à ESQUERDA da imagem. Por isso o coração projeta-se
+    para a direita da figura e a cúpula mais alta é a da esquerda da figura (a direita do paciente).
+
+    Nada de <text> solto com frase longa: SVG não quebra linha e a legenda vaza para fora do quadro.
+    Toda frase passa por txt(), que quebra por largura estimada em caracteres."""
+    INK, INK2, BR, RED, AMB, OK = "#23272E", "#5E646B", "#0B6A72", "#C6453D", "#A3730A", "#1D7A46"
+    CL, PAPEL = "#C7CBC4", "#FFFFFF"
+    W, H = 620, 372
+
+    def txt(x, y, s, cls="l", larg=44, dy=14, anchor="start"):
+        """Quebra por contagem de caracteres — suficiente para fonte de 10,5 px em caixa fixa."""
+        linhas, atual = [], ""
+        for palavra in s.split():
+            if len(atual) + len(palavra) + 1 > larg and atual:
+                linhas.append(atual); atual = palavra
+            else:
+                atual = (atual + " " + palavra).strip()
+        if atual: linhas.append(atual)
+        return "".join(f'<text class="{cls}" x="{x}" y="{y + i * dy}" text-anchor="{anchor}">{l}</text>'
+                       for i, l in enumerate(linhas))
+
+    def moldura(titulo, corpo, legenda, w=W, h=H):
+        return (titulo,
+                f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" role="img" aria-label="{titulo}">'
+                f'<style>text{{font-family:Figtree,system-ui,sans-serif}}'
+                f'.t{{font-size:13.5px;font-weight:600;fill:{INK}}}.l{{font-size:10.5px;fill:{INK2}}}'
+                f'.k{{font-size:10.5px;font-weight:600;fill:{BR}}}.r{{font-size:10.5px;font-weight:600;fill:{RED}}}'
+                f'.a{{font-size:10.5px;font-weight:600;fill:{AMB}}}.v{{font-size:10.5px;font-weight:600;fill:{OK}}}'
+                f'.n{{font-size:11.5px;font-weight:600;fill:{INK}}}</style>'
+                f'<rect width="{w}" height="{h}" fill="{PAPEL}"/>'
+                f'<text class="t" x="16" y="24">{titulo}</text>{corpo}</svg>', legenda)
+
+    # --- tórax em caixa local de 210 x 250 ------------------------------------------------------
+    CONT_D = "M105 16 C 66 20 34 54 26 104 C 21 140 20 170 23 190"
+    CONT_E = "M105 16 C 144 20 176 54 184 104 C 189 140 190 170 187 190"
+    CUP_D  = "M23 190 C 46 212 84 216 104 192"          # direita do paciente: mais alta
+    CUP_E  = "M187 196 C 166 218 128 222 106 198"       # esquerda do paciente: fígado não a empurra
+    CORACAO = ("M92 118 C 88 152 94 186 106 200 C 124 212 152 208 158 196 "
+               "C 150 168 142 140 136 118 C 130 100 112 96 102 102 C 95 106 93 108 92 118 Z")
+
+    def torax(x=0, y=0, s=1.0, coracao=True, costelas=True, hilos=True, dentro="", cupulas=True):
+        g = [f'<g transform="translate({x},{y}) scale({s})">']
+        g.append(f'<g fill="none" stroke="{INK2}" stroke-width="1.5">')
+        if costelas:
+            for i in range(6):
+                g.append(f'<path d="M{30+i*2} {62+i*24} q {74-i*3} {-17-i} {148-i*6} 0" opacity=".32"/>')
+        g.append(f'<path d="{CONT_D}"/><path d="{CONT_E}"/>')
+        if cupulas:
+            g.append(f'<path d="{CUP_D}" stroke-width="2.2"/><path d="{CUP_E}" stroke-width="2.2"/>')
+        g.append('<path d="M105 18 V196" opacity=".25"/>')
+        g.append('<path d="M98 16 V70 M112 16 V70" opacity=".45"/>')
+        g.append('<path d="M105 72 L80 90 M105 72 L131 88" opacity=".45"/>')
+        g.append('</g>')
+        if coracao:
+            g.append(f'<path d="{CORACAO}" fill="#F0F0EB" stroke="{INK2}" stroke-width="1.8"/>')
+        if hilos:
+            g.append(f'<g fill="none" stroke="{INK2}" stroke-width="1.4" opacity=".65">'
+                     '<path d="M80 90 q-10 14 -13 30"/><path d="M131 88 q9 14 12 28"/></g>')
+        g.append(dentro); g.append('</g>')
+        return "".join(g)
+
+    F = {}
+
+    # 1. ABCDE -----------------------------------------------------------------------------------
+    itens = [("A", "Vias aéreas", "traqueia central, carina, brônquios-fonte"),
+             ("B", "Pulmões", "os dois campos, zona a zona, até os ápices"),
+             ("C", "Coração e mediastino", "índice cardiotorácico, bordas, hilos, aorta"),
+             ("D", "Diafragma", "cúpulas, seios costofrênicos, ar sob o diafragma"),
+             ("E", "Esqueleto e esquecidos", "arcos, coluna, partes moles, tubos, cateteres")]
+    c = [torax(22, 44, 1.16, dentro=(
+         f'<path d="M105 18 V70" stroke="{BR}" stroke-width="2.6" fill="none"/>'
+         f'<ellipse cx="105" cy="126" rx="76" ry="62" fill="none" stroke="{BR}" stroke-width="1.4" stroke-dasharray="5 4" opacity=".75"/>'
+         f'<circle cx="27" cy="192" r="9" fill="none" stroke="{BR}" stroke-width="1.8"/>'
+         f'<circle cx="184" cy="198" r="9" fill="none" stroke="{BR}" stroke-width="1.8"/>'))]
+    for i, (L, t, sub) in enumerate(itens):
+        yy = 64 + i * 58
+        c.append(f'<circle cx="300" cy="{yy-5}" r="13.5" fill="#E3F1F1" stroke="{BR}" stroke-width="1.4"/>')
+        c.append(f'<text x="300" y="{yy-1}" text-anchor="middle" font-size="13" font-weight="700" fill="{BR}">{L}</text>')
+        c.append(f'<text class="n" x="326" y="{yy-8}">{t}</text>')
+        c.append(txt(326, yy + 8, sub, "l", larg=40))
+    c.append(txt(16, 352, "A ordem existe para o olho não parar no primeiro achado e deixar de varrer o resto do filme.", "l", larg=96))
+    F["rx-abcde"] = moldura("Leitura sistemática: A · B · C · D · E", "".join(c),
+        "A sequência ABCDE não é enfeite mnemônico: é o que impede o erro de satisfação de busca — enxergar a pneumonia e não ver o pneumotórax ao lado dela.")
+
+    # 2. Qualidade técnica -------------------------------------------------------------------------
+    def mini(x, titulo, corpo, nota):
+        return (f'<g transform="translate({x},44)">'
+                f'<rect width="138" height="182" rx="10" fill="none" stroke="{CL}"/>'
+                f'<text class="n" x="10" y="22">{titulo}</text>{corpo}</g>'
+                + txt(x + 10, 250, nota, "l", larg=26))
+    q = []
+    pen = (f'<g transform="translate(24,34) scale(.42)">'
+           f'<path d="{CONT_D}" fill="none" stroke="{INK2}" stroke-width="2.6"/>'
+           f'<path d="{CONT_E}" fill="none" stroke="{INK2}" stroke-width="2.6"/>'
+           f'<path d="{CORACAO}" fill="#EFEFEA" stroke="{INK2}" stroke-width="2.2"/>'
+           + "".join(f'<path d="M97 {126+i*18} h16" stroke="{BR}" stroke-width="3.4"/>' for i in range(4))
+           + '</g>')
+    q.append(mini(16, "Penetração", pen, "vértebras visíveis ATRÁS do coração"))
+    rota = (f'<g transform="translate(20,40) scale(.48)">'
+            f'<path d="M105 18 V170" stroke="{INK2}" stroke-width="2.6"/>'
+            f'<path d="M36 48 q69 -18 138 0" fill="none" stroke="{INK2}" stroke-width="3.4"/>'
+            f'<circle cx="72" cy="40" r="7" fill="{BR}"/><circle cx="138" cy="40" r="7" fill="{BR}"/>'
+            f'<circle cx="105" cy="44" r="6" fill="none" stroke="{RED}" stroke-width="3.4"/></g>')
+    q.append(mini(166, "Rotação", rota, "espinhosa no meio das duas clavículas"))
+    insp = (f'<g transform="translate(16,38) scale(.5)">'
+            + "".join(f'<path d="M18 {36+i*20} q 84 -18 168 0" fill="none" stroke="{INK2}" stroke-width="2.4" opacity=".55"/>' for i in range(6))
+            + f'<path d="M16 158 C 62 184 138 186 190 160" fill="none" stroke="{BR}" stroke-width="4.4"/>'
+            + f'<text x="176" y="146" font-size="20" font-weight="700" fill="{BR}">6</text></g>')
+    q.append(mini(316, "Inspiração", insp, "6 arcos anteriores ou 9 a 10 posteriores"))
+    enq = (f'<g transform="translate(24,34) scale(.42)">'
+           f'<path d="{CONT_D}" fill="none" stroke="{INK2}" stroke-width="2.6"/>'
+           f'<path d="{CONT_E}" fill="none" stroke="{INK2}" stroke-width="2.6"/>'
+           f'<path d="{CUP_D}" fill="none" stroke="{INK2}" stroke-width="2.6"/>'
+           f'<path d="{CUP_E}" fill="none" stroke="{INK2}" stroke-width="2.6"/>'
+           f'<rect x="10" y="4" width="192" height="230" fill="none" stroke="{BR}" stroke-width="3.4" stroke-dasharray="8 5"/></g>')
+    q.append(mini(466, "Enquadramento", enq, "ápices e os dois seios dentro do filme"))
+    q.append(txt(16, 320, "Filme mal feito muda o laudo: rotação cria falso desvio de mediastino e falsa cardiomegalia; "
+                          "expiração cria falsa congestão e falso aumento da área cardíaca.", "l", larg=98))
+    F["rx-qualidade"] = moldura("Antes de laudar: os quatro controles de qualidade", "".join(q),
+        "Julgar a técnica antes do conteúdo. A pergunta não é 'o que tem aqui?', e sim 'esta imagem permite responder o que eu preciso saber?'.")
+
+    # 3. PA x AP e índice cardiotorácico -----------------------------------------------------------
+    p = []
+    p.append(f'<g transform="translate(22,44)"><rect width="266" height="152" rx="10" fill="none" stroke="{CL}"/>'
+             f'<text class="n" x="12" y="22">PA — de pé, tubo atrás</text>'
+             f'<circle cx="30" cy="76" r="7" fill="{INK2}"/>'
+             f'<path d="M38 76 L 190 46 M38 76 L190 128" stroke="{INK2}" stroke-width="1.1" stroke-dasharray="4 3"/>'
+             f'<rect x="190" y="36" width="8" height="102" fill="#EFEFEA" stroke="{INK2}"/>'
+             f'<ellipse cx="158" cy="88" rx="24" ry="17" fill="#E3F1F1" stroke="{BR}" stroke-width="1.8"/>'
+             f'<text class="k" x="12" y="140">coração encostado no filme → tamanho real</text></g>')
+    p.append(f'<g transform="translate(310,44)"><rect width="290" height="152" rx="10" fill="none" stroke="{CL}"/>'
+             f'<text class="n" x="12" y="22">AP — no leito, tubo à frente</text>'
+             f'<circle cx="30" cy="76" r="7" fill="{INK2}"/>'
+             f'<path d="M38 76 L 214 30 M38 76 L214 140" stroke="{INK2}" stroke-width="1.1" stroke-dasharray="4 3"/>'
+             f'<rect x="214" y="24" width="8" height="122" fill="#EFEFEA" stroke="{INK2}"/>'
+             f'<ellipse cx="112" cy="86" rx="18" ry="13" fill="#E3F1F1" stroke="{BR}" stroke-width="1.8"/>'
+             f'<ellipse cx="186" cy="84" rx="30" ry="22" fill="none" stroke="{RED}" stroke-width="1.8" stroke-dasharray="4 3"/>'
+             f'<text class="r" x="12" y="140">coração longe do filme → projetado maior</text></g>')
+    p.append(f'<g transform="translate(40,232)">'
+             f'<path d="M0 40 H250" stroke="{INK2}" stroke-width="1.4"/>'
+             f'<path d="M0 28 V54 M250 28 V54" stroke="{INK2}" stroke-width="2"/>'
+             f'<path d="M74 28 V54 M186 28 V54" stroke="{BR}" stroke-width="2"/>'
+             f'<path d="M74 40 H186" stroke="{BR}" stroke-width="3"/>'
+             f'<text class="k" x="76" y="22">maior diâmetro cardíaco</text>'
+             f'<text class="l" x="0" y="72">maior diâmetro torácico interno</text></g>')
+    p.append(f'<text class="n" x="330" y="258">Índice cardiotorácico = coração ÷ tórax</text>')
+    p.append(txt(330, 280, "Acima de 0,50 na PA de pé = cardiomegalia. Na AP de leito o índice não vale: "
+                           "a magnificação sozinha leva coração normal a ultrapassar 0,50.", "k", larg=42))
+    p.append(txt(16, 352, "Diante de 'aumento da área cardíaca' num raio-x de leito, a primeira pergunta é a incidência.", "l", larg=98))
+    F["rx-pa-ap"] = moldura("PA × AP e o índice cardiotorácico", "".join(p),
+        "Na PA o coração encosta no filme e sai do tamanho real; na AP de leito ele fica longe do detector e o feixe divergente o amplia. Índice cardiotorácico só se mede em PA de pé.")
+
+    # 4. Lobos: PA e perfil --------------------------------------------------------------------------
+    l = [torax(18, 46, 1.14, dentro=(
+        f'<path d="M25 106 C 62 122 88 132 97 136" fill="none" stroke="{BR}" stroke-width="2" stroke-dasharray="5 4"/>'
+        f'<path d="M33 156 C 60 146 82 140 97 138" fill="none" stroke="{BR}" stroke-width="2" stroke-dasharray="5 4"/>'
+        f'<path d="M183 118 C 154 136 128 148 114 154" fill="none" stroke="{BR}" stroke-width="2" stroke-dasharray="5 4"/>'
+        f'<text class="k" x="42" y="74">LSD</text><text class="k" x="34" y="132">LM</text>'
+        f'<text class="k" x="36" y="180">LID</text>'
+        f'<text class="k" x="150" y="78">LSE</text><text class="k" x="152" y="182">LIE</text>'
+        f'<text class="l" x="14" y="240">frente (PA)</text>'))]
+    l.append(f'<g transform="translate(316,46) scale(1.14)">'
+             f'<path d="M34 16 C 10 44 6 106 12 158 C 16 184 22 192 28 196" fill="none" stroke="{INK2}" stroke-width="1.5"/>'
+             f'<path d="M34 16 C 102 22 148 64 158 124 C 162 158 158 180 152 192" fill="none" stroke="{INK2}" stroke-width="1.5"/>'
+             f'<path d="M28 196 C 64 210 122 208 152 192" fill="none" stroke="{INK2}" stroke-width="2.2"/>'
+             f'<path d="M30 62 C 74 100 114 146 148 180" stroke="{BR}" stroke-width="2" stroke-dasharray="5 4" fill="none"/>'
+             f'<path d="M82 110 C 106 108 128 112 154 124" stroke="{BR}" stroke-width="2" stroke-dasharray="5 4" fill="none"/>'
+             f'<text class="k" x="46" y="56">superior</text><text class="k" x="102" y="104">médio</text>'
+             f'<text class="k" x="48" y="170">inferior</text>'
+             f'<text class="l" x="10" y="232">perfil direito</text></g>')
+    l.append(txt(16, 344, "A cissura horizontal só existe à direita. É por isso que o lobo médio é a chave do sinal da silhueta: "
+                          "é o único que encosta na borda direita do coração.", "l", larg=98))
+    F["rx-lobos"] = moldura("Onde cada lobo encosta — a base do sinal da silhueta", "".join(l),
+        "Na incidência de frente os lobos se sobrepõem; o perfil os separa. Guardar o que cada lobo toca vale mais do que decorar o desenho das cissuras.")
+
+    # 5. Sinal da silhueta ----------------------------------------------------------------------------
+    s = [torax(24, 46, 1.10, dentro=(
+        f'<path d="M88 120 C 76 138 72 164 82 182 C 96 194 122 190 128 182 C 122 158 116 136 110 118 Z" fill="{BR}" opacity=".26"/>'
+        f'<path d="M92 118 C 88 152 94 186 106 200" fill="none" stroke="{RED}" stroke-width="3.2" stroke-dasharray="4 4"/>'
+        f'<path d="M23 190 C 46 212 84 216 104 192" fill="none" stroke="{OK}" stroke-width="2.6"/>'))]
+    s.append(f'<text class="n" x="28" y="320">Lobo médio: encosta no coração</text>')
+    s.append(txt(28, 338, "A opacidade apaga a borda direita do coração; a cúpula continua nítida.", "l", larg=44))
+    s.append(torax(330, 46, 1.10, dentro=(
+        f'<path d="M34 152 C 60 148 88 154 102 164 L 98 192 C 64 200 38 190 30 180 Z" fill="{BR}" opacity=".26"/>'
+        f'<path d="M92 118 C 88 152 94 186 106 200" fill="none" stroke="{OK}" stroke-width="3.2"/>'
+        f'<path d="M23 190 C 46 212 84 216 104 192" fill="none" stroke="{RED}" stroke-width="3.2" stroke-dasharray="4 4"/>')))
+    s.append(f'<text class="n" x="334" y="320">Lobo inferior: encosta no diafragma</text>')
+    s.append(txt(334, 338, "A borda do coração aparece nítida através da opacidade; a cúpula é que some.", "l", larg=44))
+    F["rx-silhueta"] = moldura("Sinal da silhueta: a opacidade apaga o que ela toca", "".join(s),
+        "Duas estruturas de mesma densidade encostadas perdem a interface entre si. É o que localiza a consolidação sem tomografia: apagou a borda do coração, é lobo médio (ou língula); apagou a cúpula, é lobo inferior.")
+
+    # 6. Consolidação x atelectasia --------------------------------------------------------------------
+    a = [torax(24, 46, 1.10, dentro=(
+        f'<path d="M32 92 C 64 84 88 88 100 100 L 96 154 C 62 162 34 152 27 144 Z" fill="{BR}" opacity=".26"/>'
+        + "".join(f'<path d="M{44+i*13} {106+i*10} l 16 8" stroke="#FFFFFF" stroke-width="2.6" fill="none"/>' for i in range(4))
+        + f'<path d="M105 18 V196" stroke="{OK}" stroke-width="2.6"/>'))]
+    a.append(f'<text class="n" x="28" y="320">Consolidação: alvéolo cheio, volume mantido</text>')
+    a.append(txt(28, 338, "Traqueia e cúpula no lugar; broncograma aéreo dentro da opacidade.", "l", larg=46))
+    a.append(torax(330, 46, 1.10, costelas=False, dentro=(
+        f'<path d="M34 88 C 62 82 84 88 94 100 L 90 142 C 62 150 38 140 30 132 Z" fill="{BR}" opacity=".30"/>'
+        f'<path d="M105 18 C 100 62 94 104 90 144" stroke="{RED}" stroke-width="2.8" fill="none"/>'
+        f'<path d="M23 172 C 46 194 84 198 104 176" stroke="{RED}" stroke-width="2.8" fill="none"/>'
+        + "".join(f'<path d="M{36+i*2} {58+i*17} q {58-i*3} {-14-i} {116-i*6} 0" fill="none" stroke="{RED}" stroke-width="1.5" opacity=".65"/>' for i in range(5))
+        + f'<text class="r" x="6" y="52">arcos aproximados</text>' 
+        + f'<text class="r" x="112" y="46">traqueia puxada</text>'
+        f'<text class="r" x="6" y="214">cúpula elevada</text>')))
+    a.append(f'<text class="n" x="334" y="320">Atelectasia: perda de volume</text>')
+    a.append(txt(334, 338, "Tudo é atraído PARA a opacidade — traqueia, cissura, cúpula, hilo e arcos.", "l", larg=46))
+    F["rx-consolidacao-atelectasia"] = moldura("Opacidade que empurra × opacidade que puxa", "".join(a),
+        "A pergunta que separa as duas em cinco segundos: para onde foram as estruturas móveis? Atelectasia puxa; derrame volumoso e massa empurram; consolidação não desloca nada.")
+
+    # 7. S de Golden -------------------------------------------------------------------------------------
+    g = [torax(30, 46, 1.20, dentro=(
+        f'<path d="M32 56 C 62 48 88 56 100 72 C 96 92 88 104 76 112 C 58 122 38 112 28 100 Z" fill="{BR}" opacity=".28"/>'
+        f'<path d="M28 100 C 40 84 56 82 68 94 C 78 104 88 106 100 72" fill="none" stroke="{RED}" stroke-width="3.4"/>'
+        f'<circle cx="92" cy="86" r="14" fill="#EFEFEA" stroke="{RED}" stroke-width="2.4"/>'
+        f'<text class="r" x="112" y="90">massa</text>'
+        f'<text class="l" x="30" y="140">lobo colapsado</text>'))]
+    g.append(f'<text class="n" x="330" y="86">A cissura do lobo colapsado faz um S,</text>')
+    g.append(f'<text class="n" x="330" y="104">não uma linha reta</text>')
+    g.append(txt(330, 130, "A parte côncava é o colapso puxando; a parte convexa é a massa que obstrui o "
+                           "brônquio e não deixa o lobo colabar até o fim.", "l", larg=42))
+    g.append(txt(330, 190, "Atelectasia lobar em adulto fumante pede tomografia e broncoscopia, "
+                           "não fisioterapia respiratória.", "k", larg=42))
+    g.append(txt(16, 344, "Descrito por Ross Golden em 1925 para o colapso do lobo superior direito; o raciocínio vale para "
+                          "qualquer atelectasia com massa central.", "l", larg=98))
+    F["rx-golden"] = moldura("Sinal do S de Golden", "".join(g),
+        "Colapso lobar cuja cissura, em vez de reta, desenha um S: a convexidade é o tumor que obstrui. É o achado que transforma um laudo de 'atelectasia' em investigação de câncer.")
+
+    # 8. Volume do derrame -----------------------------------------------------------------------------
+    d = []
+    for i, (inc, vol, nota) in enumerate(
+            [("perfil", "≈ 50 mL", "apaga o seio costofrênico posterior — só o perfil mostra"),
+             ("PA", "≈ 200 mL", "apaga o seio costofrênico lateral, já com menisco"),
+             ("PA", "≈ 500 mL", "o menisco sobe e apaga a cúpula diafragmática")]):
+        x = 22 + i * 200
+        if inc == "perfil":
+            corpo = (f'<path d="M34 16 C 10 44 6 106 12 158 C 16 184 22 192 28 196" fill="none" stroke="{INK2}" stroke-width="1.5"/>'
+                     f'<path d="M34 16 C 102 22 148 64 158 124 C 162 158 158 180 152 192" fill="none" stroke="{INK2}" stroke-width="1.5"/>'
+                     f'<path d="M28 196 C 64 210 122 208 152 192" fill="none" stroke="{INK2}" stroke-width="2.2"/>'
+                     f'<path d="M22 182 C 36 198 48 202 58 200 L 56 184 C 44 184 32 178 24 170 Z" fill="#E3F1F1" stroke="{BR}" stroke-width="2.2"/>')
+        else:
+            # o menisco sobe NA PAREDE e desce em direção ao mediastino: a borda é côncava para cima
+            alt = 0.34 if vol.endswith("200 mL") else 0.62
+            hpar = 192 - alt * 104          # altura junto à parede lateral
+            hmed = 192 - alt * 34           # altura junto ao mediastino
+            corpo = (f'<path d="{CONT_D}" fill="none" stroke="{INK2}" stroke-width="1.5"/>'
+                     f'<path d="{CONT_E}" fill="none" stroke="{INK2}" stroke-width="1.5"/>'
+                     f'<path d="{CUP_E}" fill="none" stroke="{INK2}" stroke-width="2.2"/>'
+                     f'<path d="M105 18 V196" stroke="{INK2}" stroke-width="1.2" opacity=".28"/>'
+                     f'<path d="{CORACAO}" fill="#F0F0EB" stroke="{INK2}" stroke-width="1.6"/>'
+                     f'<path d="M24 {hpar:.0f} C 48 {hmed+26:.0f} 76 {hmed:.0f} 100 {hmed:.0f} '
+                     f'L 100 196 C 72 214 44 210 23 190 Z" fill="#E3F1F1" stroke="{BR}" stroke-width="2.2"/>'
+                     f'<path d="M24 {hpar:.0f} C 48 {hmed+26:.0f} 76 {hmed:.0f} 100 {hmed:.0f}" '
+                     f'fill="none" stroke="{BR}" stroke-width="2.8"/>')
+        d.append(f'<g transform="translate({x},44) scale(.78)">{corpo}</g>')
+        d.append(f'<text class="n" x="{x+4}" y="244">{vol} · {inc}</text>')
+        d.append(txt(x + 4, 262, nota, "l", larg=30))
+    d.append(txt(16, 344, "Regra de Blackmore: cerca de 50 mL para aparecer no perfil, 200 mL na PA e 500 mL para apagar a "
+                          "cúpula. Abaixo disso, só ultrassom ou tomografia enxergam.", "l", larg=98))
+    F["rx-derrame-volume"] = moldura("Quanto líquido cada incidência enxerga", "".join(d),
+        "Derrame pequeno não é derrame ausente: a PA de pé só o mostra a partir de cerca de 200 mL, enquanto o ultrassom à beira do leito detecta poucos mililitros e ainda guia a punção.")
+
+    # 9. Pneumotórax de pé x deitado ---------------------------------------------------------------------
+    n = [torax(24, 46, 1.10, dentro=(
+        f'<path d="M74 44 C 48 78 42 130 46 172 L 26 174 C 20 128 26 76 50 40 Z" fill="{RED}" opacity=".10"/>'
+        f'<path d="M74 44 C 48 78 42 130 46 172" fill="none" stroke="{RED}" stroke-width="3"/>'
+        f'<text class="r" x="80" y="40">linha pleural</text>'
+        f'<text class="l" x="14" y="120">ar</text>'))]
+    n.append(f'<text class="n" x="28" y="320">De pé: o ar sobe para o ápice</text>')
+    n.append(txt(28, 338, "Linha pleural fina paralela à parede, sem trama vascular além dela.", "l", larg=46))
+    n.append(torax(330, 46, 1.10, dentro=(
+        f'<path d="M23 190 C 38 208 54 214 68 214 L 70 196 C 52 196 36 188 25 178 Z" fill="{RED}" opacity=".18"/>'
+        f'<path d="M23 190 C 38 210 56 216 70 215" fill="none" stroke="{RED}" stroke-width="3.2"/>'
+        f'<text class="r" x="34" y="232">sulco profundo</text>'
+        f'<text class="l" x="118" y="56">ápice sem linha</text>')))
+    n.append(f'<text class="n" x="334" y="320">Deitado: o ar vai para a base anterior</text>')
+    n.append(txt(334, 338, "Sinal do sulco profundo: seio costofrênico escuro e alongado, sem linha apical.", "l", larg=46))
+    F["rx-pneumotorax-deitado"] = moldura("Pneumotórax: onde o ar aparece muda com a posição", "".join(n),
+        "No paciente deitado — o do CTI e o do trauma — o ar não vai ao ápice. Procurar linha apical num filme de leito é a causa clássica de pneumotórax não visto.")
+
+    # 10. Pneumoperitônio ------------------------------------------------------------------------------------
+    pp = [torax(40, 46, 1.16, dentro=(
+        f'<path d="M23 190 C 46 212 84 216 104 192 L 102 204 C 80 224 44 220 22 200 Z" fill="{RED}" opacity=".22"/>'
+        f'<path d="M22 200 C 44 220 80 224 102 204" fill="none" stroke="{RED}" stroke-width="2.6"/>'
+        f'<text class="r" x="34" y="240">ar livre</text>'))]
+    pp.append(f'<text class="n" x="316" y="76">A incidência decide</text>')
+    pp.append(txt(316, 98, "De pé, ou em decúbito lateral esquerdo com raio horizontal, o ar sobe e se desenha "
+                           "como faixa fina sob o diafragma. Deitado, esse mesmo ar fica na frente das alças e some.", "l", larg=44))
+    pp.append(txt(316, 168, "Sentar o paciente por 5 a 10 minutos antes do disparo.", "k", larg=44))
+    pp.append(f'<text class="a" x="316" y="212">Não confundir com o sinal de Chilaiditi:</text>')
+    pp.append(txt(316, 230, "alça de cólon interposta entre fígado e diafragma, com haustrações visíveis dentro do ar.", "l", larg=44))
+    pp.append(txt(16, 344, "Ausência de ar livre na radiografia não exclui perfuração — a tomografia é bem mais sensível.", "l", larg=98))
+    F["rx-pneumoperitonio"] = moldura("Ar livre sob o diafragma", "".join(pp),
+        "Faixa de ar entre a cúpula e o fígado, com o diafragma nitidamente desenhado dos dois lados. Só aparece com o paciente vertical, e sua ausência não afasta perfuração.")
+
+    # 11. Pontos cegos ------------------------------------------------------------------------------------------
+    zonas = [(105, 40, 40, 20, "Ápices", "atrás da clavícula e do primeiro arco"),
+             (128, 152, 30, 36, "Região retrocardíaca", "o coração esconde o lobo inferior esquerdo"),
+             (60, 196, 42, 16, "Abaixo das cúpulas", "bases pulmonares, câmara gástrica, ar livre"),
+             (82, 96, 26, 18, "Hilos", "massa e linfonodo somem no emaranhado vascular"),
+             (176, 124, 18, 46, "Parede e partes moles", "pneumotórax fino, mama, enfisema de subcutâneo")]
+    corpo_b = "".join(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="{AMB}" opacity=".16" '
+                      f'stroke="{AMB}" stroke-width="1.4" stroke-dasharray="4 3"/>' for cx, cy, rx, ry, _, _ in zonas)
+    b = [torax(24, 46, 1.16, dentro=corpo_b)]
+    for i, (_, _, _, _, nome, sub) in enumerate(zonas):
+        yy = 66 + i * 56
+        b.append(f'<circle cx="306" cy="{yy-5}" r="5.5" fill="{AMB}"/>')
+        b.append(f'<text class="n" x="322" y="{yy-1}">{nome}</text>')
+        b.append(txt(322, yy + 15, sub, "l", larg=40))
+    b.append(txt(16, 350, "Boa parte dos cânceres de pulmão perdidos em radiografia estava numa destas cinco áreas. "
+                          "Revisá-las é parte do E de 'esquecidos'.", "l", larg=98))
+    F["rx-pontos-cegos"] = moldura("As cinco áreas onde o achado se esconde", "".join(b),
+        "Depois do ABCDE, uma segunda passada obrigatória por ápices, região retrocardíaca, abaixo das cúpulas, hilos e parede torácica.")
+
+    # 12. Tubos e cateteres --------------------------------------------------------------------------------------
+    t = [torax(24, 46, 1.20, dentro=(
+        f'<path d="M105 16 V62" stroke="{BR}" stroke-width="3.6"/>'
+        f'<path d="M100 62 h10" stroke="{BR}" stroke-width="3.6"/>'
+        f'<path d="M105 72 L80 90 M105 72 L131 88" stroke="{RED}" stroke-width="1.6" opacity=".5"/>'
+        f'<path d="M113 16 C 118 62 122 112 118 156 C 116 178 113 190 111 200" stroke="{AMB}" stroke-width="2.6" fill="none"/>'
+        f'<circle cx="111" cy="202" r="3.6" fill="{AMB}"/>'
+        f'<path d="M152 38 C 142 60 130 78 122 92" stroke="{OK}" stroke-width="2.6" fill="none"/>'
+        f'<circle cx="122" cy="92" r="3.6" fill="{OK}"/>'))]
+    linhas = [(BR, "Tubo orotraqueal", "ponta a 5 ± 2 cm da carina, com o pescoço em posição neutra; flexão e extensão movem a ponta cerca de 2 cm"),
+              (AMB, "Sonda nasogástrica", "desce na linha média, corta a carina, cruza o diafragma e a ponta fica abaixo da cúpula esquerda"),
+              (OK, "Cateter venoso central", "ponta no terço distal da veia cava superior, perto da junção com o átrio direito"),
+              (RED, "Dreno de tórax", "todos os orifícios laterais dentro da pleura; ar sobe, líquido desce")]
+    for i, (cor, nome, sub) in enumerate(linhas):
+        yy = 66 + i * 70
+        t.append(f'<path d="M300 {yy-9} h24" stroke="{cor}" stroke-width="3.6"/>')
+        t.append(f'<text class="n" x="332" y="{yy-5}">{nome}</text>')
+        t.append(txt(332, yy + 12, sub, "l", larg=40))
+    t.append(txt(16, 352, "A radiografia pós-procedimento responde a duas perguntas: o dispositivo está onde deveria "
+                          "e o procedimento causou dano?", "l", larg=98))
+    F["rx-tubos"] = moldura("Tubos e cateteres: onde a ponta tem de estar", "".join(t),
+        "Sonda enteral mal posicionada é evento adverso grave e a radiografia é a confirmação padrão. Conferir o trajeto inteiro, não apenas a ponta.")
+
     return F
 
 # ---------------------------------------------------------------- esquemas (não-ECG)
@@ -677,7 +1027,7 @@ def esquemas():
 # ---------------------------------------------------------------- main
 def main():
     dest = pathlib.Path("leituras/fig"); dest.mkdir(parents=True, exist_ok=True)
-    F = {}; F.update(catalogo()); F.update(catalogo2()); F.update(radiologia()); F.update(esquemas())
+    F = {}; F.update(catalogo()); F.update(catalogo2()); F.update(radiologia()); F.update(radiologia_torax()); F.update(esquemas())
     if "--lista" in sys.argv:
         for k, v in sorted(F.items()): print(f"{k}.svg  —  {v[0]}")
         return

@@ -147,12 +147,27 @@ leitura nova ou reescrita — modelos: `parada-cardiaca.html`, `choque.html`, `d
   leituras e a entrada do índice em `leituras/_entradas_<slug>.json`; **ninguém edita `leituras.js`**
   (cinco agentes no mesmo arquivo colidem). Depois, `python3 junta_entradas.py` mescla tudo.
 
-**Já em formato monografia (07/09/2026):** parada-cardiaca, choque, dor-toracica (sindrômica),
+**Já em formato monografia (07–08/09/2026):** parada-cardiaca, choque, dor-toracica (sindrômica),
 sindromes-coronarianas, tromboembolismo, sdra, taquiarritmias, arritmias-ventriculares, hipertensao,
-choque-septico, fibrilacao-atrial, bradiarritmias-e-marcapasso — 12 leituras, ~70 mil palavras.
+choque-septico, fibrilacao-atrial, bradiarritmias-e-marcapasso, **radiografia-torax** — 13 leituras,
+~77 mil palavras.
+
+### A aula de RX do material é de terceiro (08/09/2026)
+`~/Documents/Estácio IDOMED/AULAS EMERGÊNCIAS CLÍNICAS/AULA 1 - RX.pdf` (108 slides, Keynote) é
+assinada pelo **Dr. Gebson Lopes, radiologista, CRM 20411** — não é material do Matheus. Serviu como
+**roteiro** da monografia `radiografia-torax.html` (ABCDE, os cinco padrões, os sinais), e as imagens
+NÃO foram usadas: são dele e o app é público e pago. Se ele autorizar por escrito, entram com crédito
+na abertura da leitura. As 12 figuras novas de `gera_figuras.py` (`radiologia_torax()`) cobrem o que a
+aula ilustrava. **Bug corrigido junto:** o `coracao()` de `radiologia()` desenhava a silhueta cardíaca
+ESPELHADA (para a esquerda da imagem); em PA a direita do paciente fica à esquerda do filme e o coração
+projeta-se para a direita. Afetava `rx-normal`, `rx-consolidacao` e `rx-congestao`, que nunca tinham
+sido usadas em leitura nenhuma. **`<text>` do SVG não quebra linha** — frase longa vaza para fora do
+quadro; por isso `radiologia_torax()` tem o helper `txt()`, que quebra por largura em caracteres.
 
 **Fila de reescrita** (mais peso no edital × texto mais curto). Com fonte em `fontes/`: avc-isquemico
 (AHA/ASA 2026), asma e dpoc (GINA/GOLD 2026), intoxicacoes (COVISA 2017), politraumatizado (ATLS 11).
+**derrame-pleural** (1.906 palavras, sem figura e sem fluxograma) foi auditada em 08/09 e é a próxima
+de pneumo: já existem `rx-derrame-volume` e os esquemas de ultrassom para ilustrá-la.
 Sem fonte local, conferir na web antes: insuficiencia-cardiaca, pneumonia-duracao, cirrose,
 eletrolitos, hemorragia-digestiva, dengue, avc, drc, diabetes-tipo2.
 Abordagens sindrômicas a criar: dispneia aguda, síncope, cefaleia aguda, febre no imunossuprimido,
