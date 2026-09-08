@@ -108,30 +108,71 @@ def beat(t, L, rr):
     # a TV monomórfica, sem onda q, desenhava 124 ms de QRS com `qd=170 ms` na legenda — e
     # parecia taquicardia supraventricular. Em BRE, as derivações V1–V3 (q=0), justamente as
     # que a figura usa para mostrar QRS largo, saíam com 110 ms.
-    comp = [("q", 0.18, 0.15, 0.15), ("r", 0.45, 0.21, 0.21),
-            ("s", 0.78, 0.19, 0.19), ("r2", 0.95, 0.17, 0.17)]
+    comp = [("q", 0.18, 0.30), ("r", 0.45, 0.42), ("s", 0.78, 0.38), ("r2", 0.95, 0.34)]
     pres = [c for c in comp if L.get(c[0], 0.0)]
-    for k, (nome, c, we, wd) in enumerate(pres):
-        if k == 0:                              # primeiro componente: encosta em 0.03*qd
-            we = max(we, c - 0.03)
-        if k == len(pres) - 1:                  # último: vai até 0.97*qd (o R' passa disso)
-            wd = max(wd, 0.97 - c)
-        v += _tri2(t, qrs0 + qd * c, qd * we, qd * wd, L.get(nome, 0.0))
+    fim = 0.97
+    if pres:
+        # Os componentes presentes são ESTICADOS EM BLOCO para ocupar 0.03*qd .. 0.97*qd, com as
+        # proporções entre eles preservadas. Um QRS largo é um QRS esticado.
+        #
+        # Duas versões anteriores erraram aqui. A primeira não esticava nada: sem onda q (a TV,
+        # V1–V3 no BRE) o complexo começava só em 0.24*qd e saía 27% mais estreito do que a
+        # legenda dizia. A segunda alargava só o lado esquerdo do primeiro componente — e a subida
+        # da R passava a levar 42% do QRS, o que desenha um empastamento inicial que parece onda
+        # delta (visível no V2 do Brugada). Esticar o bloco inteiro resolve os dois.
+        a = min(c - w / 2 for _, c, w in pres)
+        b = max(c + w / 2 for _, c, w in pres)
+        k = 0.94 / max(1e-6, b - a)
+        for nome, c, w in pres:
+            cc = 0.03 + (c - w / 2 - a) * k + w * k / 2
+            v += _tri(t, qrs0 + qd * cc, qd * w * k, L[nome])
+    # infradesnivelamento do segmento PR — o achado que faz par com o supra difuso na pericardite
+    # (e que aparece invertido em aVR). Não existia: a legenda dizia "com infra de PR" e não havia
+    # nada desenhado entre o fim da P e o início do QRS.
+    if L.get("prd"):
+        p_fim = P_INI + 4 * P_SIG
+        if p_fim < t < qrs0:
+            r = min(1.0, (t - p_fim) / 0.015, (qrs0 - t) / 0.015)
+            v += L["prd"] * r
     # segmento ST + onda T
     st = L.get("st", 0.0)
-    jt = qrs0 + qd
+    jt = qrs0 + fim * qd                        # ponto J = fim real do QRS
     esc = qt_escala(rr)
     tc = jt + L.get("tdel", 0.16 * esc)
     # sigma da T: 0.055 da ~220 ms de largura visivel (T normal 160-200 ms). Estava em 0.17,
     # ou seja 680 ms — a T invadia o segmento ST e o proprio batimento seguinte, e media-se
     # "supra de ST" de 0,11 mV num tracado normal so por causa do ramo ascendente da T.
     tw = L.get("tw", 0.055 * esc)
-    if t > jt:
-        # o ST decai suavemente para a linha da T
-        v += st * max(0.0, 1 - (t - jt) / max(0.001, tc - jt) * 0.35)
+    t_on = tc - 2 * tw                          # onde a onda T começa a subir
+    t_off = tc + 2 * tw                         # onde ela termina
+    if st and jt - 0.35 * qd < t <= jt:
+        # O desnivelamento entra em RAMPA no fim do QRS, para o traçado chegar ao ponto J já no
+        # nível do ST. Aplicá-lo de uma vez em t > jt criava um degrau vertical de 3,5 mm entre o
+        # fim da onda S e o segmento ST — coisa que eletrocardiógrafo nenhum desenha.
+        v += st * (t - (jt - 0.35 * qd)) / (0.35 * qd)
+    if st and t > jt:
+        # O desnivelamento vale do ponto J ao fim da onda T e DEPOIS VOLTA À LINHA DE BASE — o
+        # segmento TP é a referência isoelétrica. Ao trocar isto por um `min(1.0, ...)` eu deixei
+        # o desvio preso em 0,65·st até o fim da janela do batimento: o supra do STEMI virava um
+        # degrau que só caía muito depois da T. Achado na revisão visual da própria correção.
+        dec = L.get("stdec", 0.35)          # quanto o ST decai do ponto J até o início da T
+        if t <= t_on:
+            v += st * (1 - dec * (t - jt) / max(0.001, t_on - jt))
+        elif t < t_off:
+            v += st * (1 - dec) * (1 - (t - t_on) / max(0.001, t_off - t_on))
+    # FORMA do segmento: `stc` é o quanto o meio do ST se afasta da reta que liga o ponto J ao
+    # início da T, em mV. Positivo = convexo (abóbada do STEMI, coved do Brugada); negativo =
+    # côncavo (pericardite, repolarização precoce). A forma é o discriminador que se ensina — e o
+    # modelo desenhava o ST sempre reto, mesmo com a legenda dizendo "côncavo".
+    if L.get("stc") and jt < t < t_on:
+        w = (t - jt) / (t_on - jt)
+        v += L["stc"] * 4 * w * (1 - w)
     v += _gauss(t, tc, tw, L.get("t", 0.30))
     if L.get("u"):
-        v += _gauss(t, tc + tw * 1.15, 0.10, L["u"])
+        # a U vem DEPOIS da T e é estreita: o sigma fixo de 0.10 dava 400 ms de base e a U saía
+        # fundida à onda T, exatamente o defeito que a T larga tinha antes.
+        uw = L.get("uw", 0.045 * esc)
+        v += _gauss(t, tc + 2 * tw + 2 * uw, uw, L["u"])
     return v
 
 def traco(L, dur, hr, ini=0.0, irregular=False, seed=7):
@@ -299,14 +340,15 @@ def catalogo():
         nota="P antes de cada QRS · PR 160 ms · QRS 90 ms"))
 
     # STEMI inferior com imagem em espelho
-    sup = mod(n, II=dict(st=.35, t=.5), III=dict(st=.42, t=.45, r=.5), aVF=dict(st=.38, t=.48),
+    sup = mod(n, II=dict(st=.35, stc=.09, stdec=0, t=.5), III=dict(st=.42, stc=.10, stdec=0, t=.45, r=.5),
+                 aVF=dict(st=.38, stc=.09, stdec=0, t=.48),
                  I=dict(st=-.12, t=.10), aVL=dict(st=-.18, t=-.10))
     F["ecg-stemi-inferior"] = ("Infarto com supra de ST inferior",
         svg12(sup, "Supra de ST em II, III e aVF com infra recíproco em I e aVL", 62,
               nota="parede inferior · pedir V3R–V4R e V7–V9"))
 
-    ant = mod(n, V1=dict(st=.35, r=.2, s=-.5, t=.55), V2=dict(st=.55, r=.35, s=-.6, t=.8),
-                 V3=dict(st=.55, r=.5, s=-.4, t=.8), V4=dict(st=.40, r=.9, s=-.2, t=.6),
+    ant = mod(n, V1=dict(st=.35, stc=.09, stdec=0, r=.2, s=-.5, t=.55), V2=dict(st=.55, stc=.14, stdec=0, r=.35, s=-.6, t=.8),
+                 V3=dict(st=.55, stc=.14, stdec=0, r=.5, s=-.4, t=.8), V4=dict(st=.40, stc=.10, stdec=0, r=.9, s=-.2, t=.6),
                  V5=dict(st=.22, t=.45), aVL=dict(st=.15), III=dict(st=-.15, t=-.05), aVF=dict(st=-.12))
     F["ecg-stemi-anterior"] = ("Infarto com supra de ST anterior extenso",
         svg12(ant, "Supra de ST de V1 a V4 com onda R em progressão perdida", 88,
@@ -441,12 +483,13 @@ def catalogo():
               nota="hipercalemia · cálcio agora"))
 
     F["ecg-brugada"] = ("Padrão de Brugada tipo 1",
-        svg12(mod(n, V1=dict(r=.3, r2=.55, s=-.2, st=.28, t=-.35, qd=.12),
-                     V2=dict(r=.35, r2=.6, s=-.25, st=.32, t=-.40, qd=.12)),
+        svg12(mod(n, V1=dict(r=.3, r2=.55, s=-.2, st=.28, stc=.10, stdec=.55, t=-.35, qd=.12),
+                     V2=dict(r=.35, r2=.6, s=-.25, st=.32, stc=.12, stdec=.55, t=-.40, qd=.12)),
               "Supra de ST descendente em V1–V2 com T negativa", 72, nota="tipo 1 · em côncavo para baixo"))
 
     F["ecg-pericardite"] = ("Pericardite aguda",
-        svg12(mod(n, _todas=dict(st=.16), aVR=dict(st=-.18, r=-.75, t=-.20), V1=dict(st=.05)),
+        svg12(mod(n, _todas=dict(st=.22, stc=-.05, prd=-.08),
+                     aVR=dict(st=-.20, stc=.05, prd=.08, r=-.75, t=-.20), V1=dict(st=.08, stc=-.03)),
               "Supra de ST difuso, côncavo, com infra de PR", 92, nota="difuso · sem território coronariano"))
 
     F["ecg-tep"] = ("Sobrecarga aguda de ventrículo direito",

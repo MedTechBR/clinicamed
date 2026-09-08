@@ -88,7 +88,41 @@ def mede(L, hr=60.0):
     esc = gf.qt_escala(rr)                                # QT encurta com a frequência
     tw = L.get("tw", 0.055 * esc)
     tc = qrs0 + qd + L.get("tdel", 0.16 * esc)
+    # nível do segmento PR (entre o fim da P e o início do QRS) e forma do ST
+    p_fim = gf.P_INI + 4 * gf.P_SIG
+    seg_pr = gf.beat((p_fim + qrs0) / 2, L, rr) if tem_p and qrs0 - p_fim > 0.04 else 0.0
+    # concavidade: quanto o MEIO do segmento ST se afasta da reta que liga o ponto J ao início
+    # da T. Positivo = convexo (abóbada), negativo = côncavo. É o que separa infarto de pericardite.
+    # a forma é medida no SEGMENTO ST — do ponto J até onde a onda T começa a subir. Medir até
+    # o PICO da T (foi o que fiz primeiro) põe metade da onda T dentro da conta e o resultado só
+    # descreve a T: o traçado normal "media" 0,12 mV de concavidade que não existe.
+    # segmento TP: depois que a onda (e a U) terminam, o traçado TEM de estar na linha de base.
+    # É a referência isoelétrica do eletrocardiograma. Um erro meu deixou o supra do STEMI preso
+    # num degrau até o fim da janela do batimento e a revisão automática não viu, porque ninguém
+    # olhava para depois da onda T.
+    fim_onda = tc + 2 * tw
+    if L.get("u"):
+        fim_onda = tc + 2 * tw + 4 * L.get("uw", 0.045 * esc)
+    tp = 0.0
+    passo = 0.005
+    x = fim_onda + 0.02
+    while x < rr:
+        tp = max(tp, abs(gf.beat(x, L, rr)))
+        x += passo
+
+    t_on = tc - 2 * tw
+    if t_on - j > 0.02:
+        meio = gf.beat((j + t_on) / 2, L, rr)
+        reta = (gf.beat(j + 0.002, L, rr) + gf.beat(t_on - 0.002, L, rr)) / 2
+    else:
+        meio = reta = 0.0
     return {
+        "seg_pr": seg_pr,
+        "forma_st": meio - reta,
+        "u_fim": (tc + 2 * tw + 4 * L.get("uw", 0.045 * esc)) * 1000 if L.get("u") else None,
+        "tp": tp,
+        "s_amp": L.get("s", 0.0),
+        "r_amp": L.get("r", 0.0),
         "pr": (ini_vent - gf.P_INI) * 1000 if tem_p else None,
         "qrs": qrs * 1000,
         "p_larg": 4 * gf.P_SIG * 1000 if tem_p else None,
@@ -116,21 +150,25 @@ AFIRMACOES = [
         R("QRS < 120 ms", None, lambda m: m["qrs"] < 120),
         R("sem supra nem infra em J+60", None, lambda m: abs(m["st_j60"]) < 0.05),
         R("onda P <= 120 ms", None, lambda m: m["p_larg"] is None or m["p_larg"] <= 120),
+        R("segmento PR na linha de base", None, lambda m: abs(m["seg_pr"]) < 0.03),
+        R("ST reto", None, lambda m: abs(m["forma_st"]) < 0.02),
     ]),
     ("Supra de ST em II, III e aVF", [
-        R("supra >= 0,1 mV", ["II", "III", "aVF"], lambda m: m["st_j60"] >= 0.10),
-        R("imagem recíproca", ["I", "aVL"], lambda m: m["st_j60"] <= -0.05),
+        R("supra >= 0,1 mV no ponto J", ["II", "III", "aVF"], lambda m: m["st_j"] >= 0.10),
+        R("supra CONVEXO (abóbada)", ["II", "III", "aVF"], lambda m: m["forma_st"] > 0.02),
+        R("imagem recíproca", ["I", "aVL"], lambda m: m["st_j"] <= -0.05),
     ]),
     ("Supra de ST de V1 a V4", [
-        R("supra >= 0,1 mV", ["V1", "V2", "V3", "V4"], lambda m: m["st_j60"] >= 0.10),
+        R("supra >= 0,1 mV no ponto J", ["V1", "V2", "V3", "V4"], lambda m: m["st_j"] >= 0.10),
+        R("supra CONVEXO (abóbada)", ["V2", "V3"], lambda m: m["forma_st"] > 0.02),
     ]),
     ("Infra de ST com R alta em V1–V3", [
-        R("infra <= -0,05 mV", ["V1", "V2", "V3"], lambda m: m["st_j60"] <= -0.05),
+        R("infra <= -0,05 mV", ["V1", "V2", "V3"], lambda m: m["st_j"] <= -0.05),
         R("R/S > 1", ["V1", "V2"], lambda m: m["r_s"] > 1.0),
     ]),
     ("Infra de ST em várias derivações com supra em aVR", [
-        R("supra em aVR", ["aVR"], lambda m: m["st_j60"] >= 0.05),
-        R("infra em >= 6 derivações", None, lambda m: m["st_j60"] <= -0.05, modo="conta>=6"),
+        R("supra em aVR", ["aVR"], lambda m: m["st_j"] >= 0.05),
+        R("infra em >= 6 derivações", None, lambda m: m["st_j"] <= -0.05, modo="conta>=6"),
     ]),
     ("Taquicardia de QRS estreito", [
         R("QRS < 120 ms", None, lambda m: m["qrs"] < 120),
@@ -156,12 +194,16 @@ AFIRMACOES = [
         R("QRS alargando (> 100 ms)", None, lambda m: m["qrs"] > 100),
     ]),
     ("Supra de ST descendente em V1–V2", [
-        R("supra >= 0,2 mV", ["V1", "V2"], lambda m: m["st_j60"] >= 0.20),
+        R("supra >= 0,2 mV no ponto J", ["V1", "V2"], lambda m: m["st_j"] >= 0.20),
         R("T negativa", ["V1", "V2"], lambda m: m["t_amp"] < 0),
+        R("supra COVED (convexo)", ["V1", "V2"], lambda m: m["forma_st"] > 0.02),
     ]),
     ("Supra de ST difuso", [
-        R("supra em >= 7 derivações", None, lambda m: m["st_j60"] >= 0.10, modo="conta>=7"),
-        R("aVR na contramão", ["aVR"], lambda m: m["st_j60"] < 0),
+        R("supra em >= 7 derivações", None, lambda m: m["st_j"] >= 0.10, modo="conta>=7"),
+        R("aVR na contramão", ["aVR"], lambda m: m["st_j"] < 0),
+        R("supra CÔNCAVO", ["I", "II", "V4", "V5", "V6"], lambda m: m["forma_st"] < -0.02),
+        R("infra de PR", ["I", "II", "V4", "V5", "V6"], lambda m: m["seg_pr"] <= -0.04),
+        R("PR elevado em aVR", ["aVR"], lambda m: m["seg_pr"] >= 0.04),
     ]),
     ("S em I, Q e T invertida em III", [
         R("S em I", ["I"], lambda m: m["r_s"] < 3),
@@ -175,16 +217,18 @@ AFIRMACOES = [
     ]),
     ("Voltagem alta", [
         R("QRS ainda estreito", None, lambda m: m["qrs"] < 120),
+        R("Sokolow-Lyon >= 35 mm", ["V1"], lambda m: True, modo="sokolow"),
     ]),
     ("T achatada", [
         R("T <= 0,15 mV", None, lambda m: abs(m["t_amp"]) <= 0.15),
         R("onda U presente", None, lambda m: m["u"] >= 0.15),
+        R("U termina antes do batimento seguinte", None, lambda m: m["u_fim"] < m["rr"]),
     ]),
     ("Estimulação ventricular", [
         R("QRS largo (> 120 ms)", None, lambda m: m["qrs"] > 120),
     ]),
     ("Supra de ST em V3R–V4R", [
-        R("supra >= 0,05 mV (0,5 mm)", ["V3R", "V4R"], lambda m: m["st_j60"] >= 0.05),
+        R("supra >= 0,05 mV (0,5 mm)", ["V3R", "V4R"], lambda m: m["st_j"] >= 0.05),
     ]),
     ("Infra de ST ascendente no ponto J", [
         R("infra no ponto J", None, lambda m: m["st_j"] <= -0.10),
@@ -200,6 +244,7 @@ UNIVERSAIS = [
     R("onda P <= 120 ms", None, lambda m: m["p_larg"] is None or m["p_larg"] <= 120),
     R("T termina antes do batimento seguinte", None, lambda m: m["t_fim"] < m["rr"] + 80),
     R("QRS cabe no ciclo", None, lambda m: m["qrs"] < m["rr"] * 0.75),
+    R("volta à linha de base no segmento TP", None, lambda m: m["tp"] < 0.03),
 ]
 
 
@@ -207,6 +252,12 @@ def aplica(nome, leads, hr, regras, falhas, detalhe=False):
     for rotulo, derivs, teste, modo in regras:
         alvo = {k: v for k, v in leads.items() if derivs is None or k in derivs}
         if derivs and not alvo:
+            continue
+        if modo == "sokolow":
+            sv1 = abs(mede(leads["V1"], hr)["s_amp"])
+            rv = max(mede(leads[d], hr)["r_amp"] for d in ("V5", "V6") if d in leads)
+            if (sv1 + rv) * 10 < 35:
+                falhas.append("%-46s %-38s %.0f mm" % (nome, rotulo, (sv1 + rv) * 10))
             continue
         if modo.startswith("conta>="):
             n = sum(1 for v in alvo.values() if teste(mede(v, hr)))
