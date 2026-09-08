@@ -3,10 +3,13 @@
    versão velha e a correção vira fantasma.
    Estáticos usam stale-while-revalidate: bump de versão não basta quando a borda do CDN
    devolve conteúdo velho para o precache. HTML é network-first. */
-const CACHE="cm-v51", FONTES="cm-fontes-v1";
-const PRE=["./","./index.html","./taxonomia.js?v=51","./provas.js?v=51","./banco.js?v=51","./flash.js?v=51",
-           "./pratica.js?v=51","./leituras.js?v=51","./nuvem.js?v=51","./turma.js?v=51","./indice-leituras.js?v=51","./manifest.webmanifest",
-           "./leituras/_leitura.css?v=51","./leituras/_leitura.js?v=51"];
+const CACHE="cm-v52", FONTES="cm-fontes-v1";
+const PRE=["./","./index.html","./taxonomia.js?v=52","./provas.js?v=52","./banco.js?v=52","./flash.js?v=52",
+           "./pratica.js?v=52","./leituras.js?v=52","./nuvem.js?v=52","./turma.js?v=52","./indice-leituras.js?v=52","./manifest.webmanifest",
+           "./leituras/_leitura.css?v=52","./leituras/_leitura.js?v=52"];
+/* As figuras (leituras/fig/*.svg) NÃO entram no precache — são 41 arquivos e 291 KB, e nem toda
+   leitura usa todas. Elas caem no cache pela regra geral de estáticos (stale-while-revalidate)
+   na primeira vez que a leitura abre online, e a partir daí funcionam offline. */
 self.addEventListener("install",e=>{
   e.waitUntil(caches.open(CACHE).then(c=>Promise.allSettled(PRE.map(u=>c.add(u)))).then(()=>self.skipWaiting()));
 });

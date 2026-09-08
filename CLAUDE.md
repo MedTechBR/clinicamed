@@ -139,11 +139,14 @@ leitura nova ou reescrita — modelos: `parada-cardiaca.html`, `choque.html`, `d
   leituras e a entrada do índice em `leituras/_entradas_<slug>.json`; **ninguém edita `leituras.js`**
   (cinco agentes no mesmo arquivo colidem). Depois, `python3 junta_entradas.py` mescla tudo.
 
-**Fila de reescrita** (mais peso no edital × texto mais curto, com fonte disponível em `fontes/`):
-sindromes-coronarianas (ACC/AHA 2025), hipertensao (SBC 2025), tromboembolismo (AHA/ACC 2026),
-fibrilacao-atrial (ESC 2024), sdra (2024), taquiarritmias (ESC 2019), bradiarritmias (2018),
-arritmias-ventriculares (ESC 2022). Sem fonte local (conferir na web antes): insuficiencia-cardiaca,
-avc-isquemico, choque-septico, dengue, pneumonia-duracao, cirrose, eletrolitos, hemorragia-digestiva.
+**Já em formato monografia (07/09/2026):** parada-cardiaca, choque, dor-toracica (sindrômica),
+sindromes-coronarianas, tromboembolismo, sdra, taquiarritmias, arritmias-ventriculares, hipertensao,
+choque-septico, fibrilacao-atrial, bradiarritmias-e-marcapasso — 12 leituras, ~70 mil palavras.
+
+**Fila de reescrita** (mais peso no edital × texto mais curto). Com fonte em `fontes/`: avc-isquemico
+(AHA/ASA 2026), asma e dpoc (GINA/GOLD 2026), intoxicacoes (COVISA 2017), politraumatizado (ATLS 11).
+Sem fonte local, conferir na web antes: insuficiencia-cardiaca, pneumonia-duracao, cirrose,
+eletrolitos, hemorragia-digestiva, dengue, avc, drc, diabetes-tipo2.
 Abordagens sindrômicas a criar: dispneia aguda, síncope, cefaleia aguda, febre no imunossuprimido,
 icterícia, edema, rebaixamento do sensório, dor abdominal aguda no clínico.
 
