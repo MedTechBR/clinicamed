@@ -31,16 +31,30 @@ def _tri(t, c, w, a):
     d = abs(t - c)
     return 0.0 if d > w / 2 else a * (1 - d / (w / 2))
 
+P_INI = 0.05      # onde a onda P COMEÇA dentro do batimento (s)
+P_SIG = 0.026     # sigma da P: largura visível ~4 sigma = 104 ms (P normal <= 120 ms)
+
+
 def beat(t, L, rr):
-    """mV no instante t (s) de um batimento que começa em 0. L = parâmetros da derivação."""
+    """mV no instante t (s) de um batimento que começa em 0. L = parâmetros da derivação.
+
+    O intervalo PR é do INÍCIO DA P ao INÍCIO DO QRS. Por isso a P é ancorada em P_INI e o QRS
+    começa em P_INI + pr — mexer em `pr` move só o QRS.
+
+    Era aqui o defeito que o Matheus encontrou em 08/09/2026: a P ficava em `pr - 0.10` e o QRS
+    em `pr`, então aumentar `pr` empurrava OS DOIS juntos e o PR desenhado era sempre
+    280 + 30*qd ms, independentemente de `pr`. O ECG de BAV de 1º grau saía com o mesmo PR do
+    normal — e o "normal" saía com 283 ms, que já é bloqueio. A P também tinha sigma 0.09, ou
+    seja, 360 ms de largura: três vezes uma P normal, larga demais para o PR ser legível.
+    Conferir com `python3 docs/audita_ecg.py` a cada mexida aqui."""
     v = 0.0
     pr  = L.get("pr", 0.16)
-    qrs0 = pr                                  # início do QRS
     qd  = L.get("qd", 0.09)                    # duração do QRS
+    qrs0 = P_INI + pr                          # início do QRS = um PR depois do início da P
     # onda P (ausente na FA/flutter/TV; bífida ou apiculada conforme amplitude)
     if L.get("p", 0.0) or L.get("p2"):
-        v += _gauss(t, pr - 0.10, 0.09, L.get("p", 0.0))
-        if L.get("p2"): v += _gauss(t, pr - 0.045, 0.06, L["p2"])
+        v += _gauss(t, P_INI + 2 * P_SIG, P_SIG, L.get("p", 0.0))
+        if L.get("p2"): v += _gauss(t, P_INI + 2 * P_SIG + 0.045, P_SIG, L["p2"])
     # onda delta (pré-excitação): empastamento subindo antes do QRS
     if L.get("delta"):
         v += _tri(t, qrs0 + 0.02, 0.08, L["delta"])
@@ -54,7 +68,10 @@ def beat(t, L, rr):
     st = L.get("st", 0.0)
     jt = qrs0 + qd
     tc = jt + L.get("tdel", 0.16)
-    tw = L.get("tw", 0.17)
+    # sigma da T: 0.055 da ~220 ms de largura visivel (T normal 160-200 ms). Estava em 0.17,
+    # ou seja 680 ms — a T invadia o segmento ST e o proprio batimento seguinte, e media-se
+    # "supra de ST" de 0,11 mV num tracado normal so por causa do ramo ascendente da T.
+    tw = L.get("tw", 0.055)
     if t > jt:
         # o ST decai suavemente para a linha da T
         v += st * max(0.0, 1 - (t - jt) / max(0.001, tc - jt) * 0.35)
@@ -282,7 +299,7 @@ def catalogo():
                 nota="nenhum bloqueador do nó AV · cardioversão"))
 
     F["ecg-wpw"] = ("Pré-excitação (Wolff-Parkinson-White)",
-        svg12(mod(n, _todas=dict(delta=.30, pr=.10, qd=.13)), "PR curto com onda delta e QRS alargado", 72,
+        svg12(mod(n, _todas=dict(delta=.30, pr=.12, qd=.13)), "PR curto com onda delta e QRS alargado", 72,
               nota="empastamento inicial do QRS"))
 
     # Bloqueios
@@ -340,7 +357,7 @@ def catalogo():
 
     # Distúrbios eletrolíticos e outros padrões
     F["ecg-hipercalemia"] = ("Hipercalemia",
-        svg12(mod(n, _todas=dict(t=.85, tw=.10, p=.03, qd=.13)), "Ondas T apiculadas e estreitas, P achatada, QRS alargando", 64,
+        svg12(mod(n, _todas=dict(t=.85, tw=.045, p=.03, qd=.13)), "Ondas T apiculadas e estreitas, P achatada, QRS alargando", 64,
               nota="hipercalemia · cálcio agora"))
 
     F["ecg-brugada"] = ("Padrão de Brugada tipo 1",
@@ -413,7 +430,7 @@ def catalogo2():
               nota="Sokolow-Lyon: S em V1 + R em V5/V6 ≥ 35 mm"))
 
     F["ecg-hipocalemia"] = ("Hipocalemia",
-        svg12(mod(n, _todas=dict(t=.09, st=-.09, u=.20, tw=.14)),
+        svg12(mod(n, _todas=dict(t=.09, st=-.09, u=.20, tw=.06)),
               "T achatada, infra de ST discreto e onda U proeminente", 78,
               nota="hipocalemia · repor potássio e magnésio · risco de torsades"))
 

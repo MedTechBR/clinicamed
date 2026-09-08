@@ -187,6 +187,34 @@ projeta-se para a direita. Afetava `rx-normal`, `rx-consolidacao` e `rx-congesta
 sido usadas em leitura nenhuma. **`<text>` do SVG não quebra linha** — frase longa vaza para fora do
 quadro; por isso `radiologia_torax()` tem o helper `txt()`, que quebra por largura em caracteres.
 
+### Os ECGs sintetizados estavam errados — três defeitos (08/09/2026)
+
+O Matheus achou olhando: **o ECG de BAV de 1º grau não tinha PR alargado**. A conferência que eu
+tinha feito era visual, e visual não pega isto. Passou a existir **`docs/audita_ecg.py`**, que mede
+o traçado que o gerador produz e confere contra o que a figura AFIRMA. Rodar a cada mexida no
+`beat()`.
+
+Os três defeitos, todos no modelo de batimento:
+
+1. **O parâmetro `pr` não fazia nada.** A P era desenhada em `pr - 0.10` e o QRS em `pr` — aumentar
+   `pr` empurrava os dois juntos, e o PR desenhado era sempre `280 + 30*qd` ms, qualquer que fosse
+   `pr`. Consequência dupla: o BAV de 1º grau saía com o mesmo PR do normal, e o "normal" saía com
+   **283 ms**, que já é bloqueio. Corrigido ancorando a P em `P_INI` e pondo o QRS em `P_INI + pr`.
+   Medido depois: normal 160 ms, BAV1 300 ms, WPW 80 ms.
+2. **A onda P tinha 360 ms de largura** (sigma 0.09). Uma P normal tem até 120 ms. Com a P ocupando
+   três vezes o normal, nenhum PR seria legível mesmo com o item 1 corrigido. Sigma passou a 0.026.
+3. **A onda T tinha 680 ms** (sigma 0.17). O ramo ascendente dela invadia o ponto J + 60 ms e o
+   traçado NORMAL media **0,11 mV de "supra de ST"**. Sigma passou a 0.055 (~220 ms). Junto, a T da
+   hipercalemia (base de 400 ms) e a da hipocalemia (560 ms) foram estreitadas: o achado da
+   hipercalemia é T de base ESTREITA, e a larga ensinava o contrário do sinal.
+
+**Erro meu de método, registrado porque quase virou correção errada:** o primeiro detector de
+largura de QRS usava limiar de 12% da inclinação de pico e media 49 ms num QRS normal de 85 ms —
+eu quase reportei um defeito de largura que não existia. A largura do QRS passou a ser calculada
+pela GEOMETRIA do modelo (`0,94 x qd`), que é exata; o limiar de inclinação ficou só para achar o
+início do QRS. Mesma coisa no início da P: limiar fixo em mV atrasava a detecção em derivação de P
+pequena e inflava o PR medido. **Medir com um instrumento não calibrado é pior do que não medir.**
+
 ### Peso da biblioteca offline (08/09/2026)
 
 Medido depois de entrarem as imagens reais: **3,1 MB** — 336 KB de esquemas SVG, 913 KB de fotos
