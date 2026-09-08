@@ -215,6 +215,49 @@ pela GEOMETRIA do modelo (`0,94 x qd`), que é exata; o limiar de inclinação f
 início do QRS. Mesma coisa no início da P: limiar fixo em mV atrasava a detecção em derivação de P
 pequena e inflava o PR medido. **Medir com um instrumento não calibrado é pior do que não medir.**
 
+### Segunda rodada: a TV monomórfica parecia TSV (08/09/2026)
+
+O Matheus achou olhando de novo, e de novo estava certo: **a tira de "Taquicardia de QRS largo,
+regular, monomórfica, a 168 bpm" desenhava um QRS estreito**. Cinco defeitos saíram daí — e a
+lição principal é que a primeira versão do auditor *não pegava nenhum deles*, porque só conferia
+7 dos 30 traçados e usava uma fórmula de largura que só valia num caso.
+
+1. **Derivação sem onda q desenhava um QRS 27% mais estreito do que o `qd` declarado.** Os três
+   triângulos vão de `0,03·qd` a `0,97·qd`, mas o primeiro deles é o da q: onde `q=0` (a TV, e
+   V1–V3 no BRE — justamente as derivações que a figura usa para mostrar QRS largo) o complexo
+   começava só em `0,24·qd`. A TV com `qd=170 ms` saía com 124 ms. Corrigido com `_tri2()`, de
+   meias-larguras diferentes: o primeiro componente PRESENTE encosta em `0,03·qd` e o último vai
+   até `0,97·qd`. Agora TV = 160 ms, TSV = 75 ms, BRE ≥ 141 ms em toda derivação.
+2. **`ecg-tsv.svg` era XML inválido e não abria no navegador.** A nota dizia `QRS < 120 ms` com o
+   `<` cru; SVG servido em `<img>` é lido como XML, e o arquivo inteiro morre. Existe agora `esc()`
+   nos montadores e, principalmente, **`main()` recusa gravar SVG que não passe no parser** — as 53
+   figuras são validadas a cada geração.
+3. **Mobitz I, Mobitz II e BAVT tinham uma cópia velha do modelo dentro de `strip_bloqueio`**, que
+   a correção da manhã não alcançou: P de 360 ms e T de 680 ms, e o PR do Wenckebach saía 180 ms
+   mais longo do que o declarado. Passaram a usar a mesma geometria, com `ps`/`qrss` guardando
+   INÍCIOS de onda, não picos.
+4. **O QT não encurtava com a frequência.** A T era desenhada com o mesmo atraso a 60 e a 210 bpm e
+   caía dentro do batimento seguinte na FA, no flutter, na TSV e na FA pré-excitada. Existe
+   `qt_escala(rr)` (Bazett). Junto: **sem onda P não existe PR** — na FA o `pr` padrão de 0,16
+   empurrava o QRS 160 ms para dentro do ciclo à toa.
+5. **A decimação (`_rala`) deformava o traçado.** Ela olhava só o ponto do meio e nunca movia o
+   âncora, então o erro somava; e media distância PERPENDICULAR, que num segmento quase vertical
+   (a descida de uma S de 2,5 mV) deixa o ápice praticamente sobre a corda — comia 0,6 mm de
+   amplitude sem "errar" pelo critério. Agora o desvio é vertical, contra todos os pontos pulados,
+   `tol=0,10 mm`. Amostragem subiu para 1 kHz.
+
+**O auditor foi refeito.** Ele não lista mais as figuras à mão: instrumenta `svg12`/`svgtira`/
+`svgpainel` e recebe título, nota, frequência e os parâmetros de cada derivação das **30** figuras.
+As tiras montadas à mão são conferidas pelas constantes do próprio gerador (`WENCKEBACH_PR`,
+`MOBITZ2_PR`, `BAVT_*`, `TVD_*`, `EXTRA_BIGEM`) — repetir os números no auditor seria aferir uma
+balança com outra balança. Há ainda uma trava de fidelidade: o que sobra depois da decimação tem de
+ter o mesmo pico e o mesmo vale do traçado cheio.
+
+**De novo o erro de instrumento**, agora medindo o arquivo gravado: comparei desenho e modelo pela
+diferença VERTICAL e li 0,28 mV de erro. Não havia erro nenhum — sobre a subida do R, quase
+vertical, um deslocamento horizontal de 2 ms vira 1 mm de diferença vertical. As amplitudes batem
+até a terceira casa. **É a terceira vez neste projeto que a medida errada quase virou conserto.**
+
 ### Peso da biblioteca offline (08/09/2026)
 
 Medido depois de entrarem as imagens reais: **3,1 MB** — 336 KB de esquemas SVG, 913 KB de fotos

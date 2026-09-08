@@ -16,9 +16,10 @@ Uso:  python3 gera_figuras.py            (gera tudo em leituras/fig/)
       python3 gera_figuras.py --lista    (só lista o catálogo)
 """
 import math, pathlib, sys, json
+import xml.etree.ElementTree as ET
 
 MM_S, MM_MV = 25.0, 10.0          # varredura e ganho padrão
-FS = 500                           # amostras por segundo
+FS = 1000                          # amostras por segundo (a 500 Hz o ápice do R saía até 0,05 mV baixo)
 
 # ---------------------------------------------------------------- formas de onda
 def _gauss(t, c, w, a):
@@ -26,13 +27,54 @@ def _gauss(t, c, w, a):
     z = (t - c) / (w / 2.4)
     return a * math.exp(-0.5 * z * z)
 
+def esc(s):
+    """Escapa texto que vai virar conteúdo de <text> ou de aria-label.
+
+    SVG servido em <img> é lido como XML: um `<` cru quebra o arquivo inteiro. Foi o que
+    aconteceu com `ecg-tsv.svg`, cuja nota dizia "QRS < 120 ms" — a figura da taquicardia de
+    QRS estreito simplesmente não abria no navegador. main() agora recusa SVG que não parseia."""
+    return (str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            .replace('"', "&quot;"))
+
+
+def qt_escala(rr):
+    """Fator de Bazett: o QT encurta com a frequência (QT = QTc·raiz(RR)).
+
+    Sem isto, a onda T de um traçado a 180 bpm ainda era desenhada com o mesmo atraso e a mesma
+    largura de um a 60 bpm, e acabava dentro do QRS seguinte. `docs/audita_ecg.py` confere."""
+    return min(1.0, math.sqrt(max(0.05, rr)))
+
+
 def _tri(t, c, w, a):
     """Deflexão triangular — é o que dá o aspecto anguloso do QRS."""
     d = abs(t - c)
     return 0.0 if d > w / 2 else a * (1 - d / (w / 2))
 
+def _tri2(t, c, we, wd, a):
+    """Triângulo de meias-larguras diferentes à esquerda (we) e à direita (wd).
+
+    Existe porque o QRS precisa OCUPAR a duração declarada mesmo quando falta um componente:
+    numa derivação sem onda q, o triângulo da R começava em 0,24·qd e o complexo saía 27% mais
+    estreito do que o `qd` que a legenda afirma. Alargar só o lado que ficou órfão mantém a
+    morfologia e devolve a duração."""
+    if a == 0.0:
+        return 0.0
+    d = t - c
+    if d < -we or d > wd:
+        return 0.0
+    return a * (1 - (-d / we if d < 0 else d / wd))
+
 P_INI = 0.05      # onde a onda P COMEÇA dentro do batimento (s)
 P_SIG = 0.026     # sigma da P: largura visível ~4 sigma = 104 ms (P normal <= 120 ms)
+
+# Parâmetros que as figuras "afirmam" e que o auditor (docs/audita_ecg.py) confere. Ficam aqui,
+# e não soltos dentro das funções, para que a conferência leia a mesma fonte que o desenho.
+EXTRA_BIGEM = dict(p=0, p2=0, q=0, r=-0.35, s=-1.7, r2=0.2, t=0.62,
+                   pr=0.0, qd=0.16, tdel=0.11, tw=0.06)   # extrassístole do bigeminismo
+WENCKEBACH_PR = [.18, .26, .38, None]        # Mobitz I: PR alonga até a P bloquear (4:3)
+MOBITZ2_PR = .17                             # Mobitz II: PR fixo
+BAVT_P_RR, BAVT_ESC_RR = 0.72, 1.75          # BAVT: átrio e escape ventricular independentes
+TVD_RR, TVD_P_RR = 0.40, 0.74                # TV com dissociação: ventrículo 150/min, átrio 81/min
 
 
 def beat(t, L, rr):
@@ -48,7 +90,9 @@ def beat(t, L, rr):
     seja, 360 ms de largura: três vezes uma P normal, larga demais para o PR ser legível.
     Conferir com `python3 docs/audita_ecg.py` a cada mexida aqui."""
     v = 0.0
-    pr  = L.get("pr", 0.16)
+    # sem onda P não existe intervalo PR: na FA e no flutter o padrão 0,16 empurrava o QRS
+    # 160 ms para dentro do ciclo à toa, e a 210 bpm a onda T caía no batimento seguinte.
+    pr  = L.get("pr", 0.16 if (L.get("p", 0.0) or L.get("p2", 0.0)) else 0.0)
     qd  = L.get("qd", 0.09)                    # duração do QRS
     qrs0 = P_INI + pr                          # início do QRS = um PR depois do início da P
     # onda P (ausente na FA/flutter/TV; bífida ou apiculada conforme amplitude)
@@ -58,20 +102,30 @@ def beat(t, L, rr):
     # onda delta (pré-excitação): empastamento subindo antes do QRS
     if L.get("delta"):
         v += _tri(t, qrs0 + 0.02, 0.08, L["delta"])
-    # QRS
-    v += _tri(t, qrs0 + qd * 0.18, qd * 0.30, L.get("q", 0.0))
-    v += _tri(t, qrs0 + qd * 0.45, qd * 0.42, L.get("r", 0.0))
-    v += _tri(t, qrs0 + qd * 0.78, qd * 0.38, L.get("s", 0.0))
-    if L.get("r2"):                             # R' (BRD, Brugada, padrão de VD)
-        v += _tri(t, qrs0 + qd * 0.95, qd * 0.34, L["r2"])
+    # QRS — três (ou quatro) triângulos entre qrs0 + 0.03*qd e qrs0 + 0.97*qd.
+    # O primeiro componente PRESENTE começa em 0.03*qd e o último termina em 0.97*qd, mesmo
+    # quando falta a q ou a s. Era esse o segundo defeito que o Matheus achou olhando (08/09):
+    # a TV monomórfica, sem onda q, desenhava 124 ms de QRS com `qd=170 ms` na legenda — e
+    # parecia taquicardia supraventricular. Em BRE, as derivações V1–V3 (q=0), justamente as
+    # que a figura usa para mostrar QRS largo, saíam com 110 ms.
+    comp = [("q", 0.18, 0.15, 0.15), ("r", 0.45, 0.21, 0.21),
+            ("s", 0.78, 0.19, 0.19), ("r2", 0.95, 0.17, 0.17)]
+    pres = [c for c in comp if L.get(c[0], 0.0)]
+    for k, (nome, c, we, wd) in enumerate(pres):
+        if k == 0:                              # primeiro componente: encosta em 0.03*qd
+            we = max(we, c - 0.03)
+        if k == len(pres) - 1:                  # último: vai até 0.97*qd (o R' passa disso)
+            wd = max(wd, 0.97 - c)
+        v += _tri2(t, qrs0 + qd * c, qd * we, qd * wd, L.get(nome, 0.0))
     # segmento ST + onda T
     st = L.get("st", 0.0)
     jt = qrs0 + qd
-    tc = jt + L.get("tdel", 0.16)
+    esc = qt_escala(rr)
+    tc = jt + L.get("tdel", 0.16 * esc)
     # sigma da T: 0.055 da ~220 ms de largura visivel (T normal 160-200 ms). Estava em 0.17,
     # ou seja 680 ms — a T invadia o segmento ST e o proprio batimento seguinte, e media-se
     # "supra de ST" de 0,11 mV num tracado normal so por causa do ramo ascendente da T.
-    tw = L.get("tw", 0.055)
+    tw = L.get("tw", 0.055 * esc)
     if t > jt:
         # o ST decai suavemente para a linha da T
         v += st * max(0.0, 1 - (t - jt) / max(0.001, tc - jt) * 0.35)
@@ -96,8 +150,7 @@ def traco(L, dur, hr, ini=0.0, irregular=False, seed=7):
     # bigeminismo: entre dois sinusais entra uma extrassístole larga, sem P, mais precoce
     extras = []
     if L.get("bigem"):
-        extras = [(b + rr * 0.52, dict(p=0, p2=0, q=0, r=-0.35, s=-1.7, r2=0.2, t=0.62,
-                                       pr=0.0, qd=0.16, tdel=0.20, tw=0.20)) for b in inicios]
+        extras = [(b + rr * 0.52, dict(EXTRA_BIGEM)) for b in inicios]
         inicios = [b for k, b in enumerate(inicios)]
     n = int(dur * FS)
     for i in range(n + 1):
@@ -129,19 +182,31 @@ GRID = ('<defs>'
         '<path d="M5 0V5M0 5H5" fill="none" stroke="#E39C93" stroke-width=".3"/></pattern>'
         '</defs>')
 
-def _rala(xy, tol=0.02):
-    """Tira o ponto que está praticamente sobre a reta entre o anterior e o seguinte.
-    Sem isso cada traçado sai com 5.000 pontos e o SVG passa de 100 KB — com isso cai a
-    um décimo e o desenho fica idêntico (tolerância de 0,02 mm, bem abaixo do traço)."""
+def _rala(xy, tol=0.10):
+    """Descarta pontos que o traço não distingue, mantendo o erro ACUMULADO abaixo de `tol` mm.
+
+    A versão anterior olhava só o ponto do meio entre o âncora e o seguinte. Como o âncora não
+    se movia enquanto os pontos eram descartados, o desvio somava: ao dobrar a amostragem para
+    1 kHz o desenho chegou a ficar 0,3 mV (3 mm no papel!) fora do modelo. Agora o teste é a
+    distância de TODOS os pontos pulados à corda âncora→candidato — que é o erro de verdade."""
     if len(xy) < 3: return xy
     out = [xy[0]]
-    for i in range(1, len(xy) - 1):
-        x0, y0 = out[-1]; x1, y1 = xy[i]; x2, y2 = xy[i + 1]
-        dx, dy = x2 - x0, y2 - y0
-        n = math.hypot(dx, dy)
-        dev = abs(dy * (x1 - x0) - dx * (y1 - y0)) / n if n else 0
-        if dev > tol: out.append(xy[i])
-    out.append(xy[-1])
+    i = 0
+    while i < len(xy) - 1:
+        j = i + 1
+        while j < len(xy) - 1:
+            x0, y0 = xy[i]; x2, y2 = xy[j + 1]
+            dx, dy = x2 - x0, y2 - y0
+            if not dx: break
+            # desvio VERTICAL, não perpendicular: num segmento quase vertical (a subida do R,
+            # a descida de uma S de 2,5 mV) o ápice fica praticamente sobre a corda em distância
+            # perpendicular, e o filtro comia 0,6 mm de amplitude sem "errar" pelo critério.
+            pior = max(abs(y0 + dy * (xy[k][0] - x0) / dx - xy[k][1])
+                       for k in range(i + 1, j + 1))
+            if pior > tol: break
+            j += 1
+        out.append(xy[j])
+        i = j
     return out
 
 def polyline(pts, x0, y0, cor="#1A1A1A", lw=0.42):
@@ -156,6 +221,7 @@ def calibracao(x0, y0):
 ORDEM12 = [["I", "II", "III"], ["aVR", "aVL", "aVF"], ["V1", "V2", "V3"], ["V4", "V5", "V6"]]
 
 def svg12(leads, titulo, hr, irregular=False, rotulo_ritmo="II", nota=""):
+    titulo, nota = esc(titulo), esc(nota)
     colw, rowh, mx, my = 62.5, 40.0, 10.0, 12.0
     W, H = mx + 4 * colw + 4, my + 3 * rowh + 44 + 8
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="{titulo}">',
@@ -184,6 +250,7 @@ def svg12(leads, titulo, hr, irregular=False, rotulo_ritmo="II", nota=""):
     return "".join(out)
 
 def svgtira(L, titulo, hr, dur=10.0, irregular=False, nota="", rotulo="II"):
+    titulo, nota = esc(titulo), esc(nota)
     mx, my = 10.0, 12.0
     W, H = mx + dur * MM_S + 6, my + 42
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="{titulo}">',
@@ -252,7 +319,8 @@ def catalogo():
               nota="confirmar com V7–V9 · é supra, não isquemia anterior"))
 
     isq = mod(n, aVR=dict(st=.22, t=-.05), V4=dict(st=-.28, t=-.12), V5=dict(st=-.30, t=-.15),
-                 V6=dict(st=-.25, t=-.12), I=dict(st=-.18), II=dict(st=-.22, t=-.05))
+                 V6=dict(st=-.25, t=-.12), I=dict(st=-.18), II=dict(st=-.22, t=-.05),
+                 aVF=dict(st=-.16, t=-.05), III=dict(st=-.12))
     F["ecg-infra-difuso-avr"] = ("Infra difuso com supra em aVR",
         svg12(isq, "Infra de ST em várias derivações com supra em aVR", 104,
               nota="tronco de coronária esquerda ou triarterial até prova em contrário"))
@@ -271,7 +339,7 @@ def catalogo():
                 180, nota="sem P visível · QRS < 120 ms"))
 
     F["ecg-tv-monomorfica"] = ("Taquicardia ventricular monomórfica",
-        svgtira(dict(p=0, q=0, r=1.5, s=-1.0, t=-.5, pr=.0, qd=.17, tdel=.20, tw=.20),
+        svgtira(dict(p=0, q=0, r=1.5, s=-1.0, t=-.5, pr=.0, qd=.17, tdel=.09, tw=.05),
                 "Taquicardia de QRS largo, regular, monomórfica, a 168 bpm", 168,
                 nota="QRS > 120 ms · é TV até prova em contrário"))
 
@@ -309,23 +377,35 @@ def catalogo():
 
     # Mobitz I e II e BAVT precisam de P dissociado: monta na mão
     def strip_bloqueio(nome, titulo, nota, ps, qrss, dur=9.0):
+        titulo, nota = esc(titulo), esc(nota)
         W, H = 10 + dur * MM_S + 6, 12 + 42
         o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="{titulo}">',
              GRID, f'<rect width="{W:.0f}" height="{H:.0f}" fill="#FFF8F7"/>',
              f'<rect x="10" y="12" width="{dur*MM_S:.1f}" height="34" fill="url(#p5)"/>',
              f'<text x="10" y="8" font-family="Figtree,system-ui,sans-serif" font-size="4.2" font-weight="600" fill="#23272E">{titulo}</text>',
              f'<text x="{W-4:.0f}" y="8" text-anchor="end" font-family="Figtree,system-ui,sans-serif" font-size="3.4" fill="#5E646B">{nota}</text>']
+        # Estas três tiras têm P e QRS independentes, então não dá para usar `beat()` inteiro —
+        # mas o batimento é desenhado com a MESMA geometria dele. Antes havia aqui uma cópia com
+        # os parâmetros antigos (P de sigma 0,09 = 360 ms e T de sigma 0,17 = 680 ms), que a
+        # correção de 08/09 não alcançou: no Mobitz I o PR ficava 180 ms mais longo do que o
+        # declarado e a P larga demais para alguém enxergar o alongamento progressivo.
+        # `ps` e `qrss` guardam INÍCIOS (de onda P e de QRS), não picos.
+        def _bat(d, largo):
+            qd = .15 if largo else .09
+            o = d + .03 * qd                     # janela do QRS: 0.03*qd .. 0.97*qd
+            return (_tri2(o, qd * .18, qd * .15, qd * .15, -.05)
+                    + _tri2(o, qd * .45, qd * .21, qd * .21, 1.0)
+                    + _tri2(o, qd * .78, qd * .19, qd * .19, -.2)
+                    + _gauss(o, qd + .13, .055, -.30 if largo else .28))
         pts = []
         for i in range(int((dur - .3) * FS)):
             t = i / FS
             v = 0.0
-            for tp in ps: v += _gauss(t, tp, .09, .16)
+            for tp in ps: v += _gauss(t, tp + 2 * P_SIG, P_SIG, .16)
             for tq, largo in qrss:
                 d = t - tq
-                if -.02 < d < .55:
-                    qd = .15 if largo else .09
-                    v += _tri(d, qd * .18, qd * .30, -.05) + _tri(d, qd * .45, qd * .42, 1.0) + _tri(d, qd * .78, qd * .38, -.2)
-                    v += _gauss(d, qd + .17, .17, .28 if not largo else -.30)
+                if -.02 < d < .60:
+                    v += _bat(d, largo)
             pts.append((t, v))
         o.append(polyline(pts, 12, 29))
         o.append(f'<text x="13" y="17" font-family="Figtree,system-ui,sans-serif" font-size="3.6" font-weight="600" fill="#23272E">II</text>')
@@ -335,7 +415,7 @@ def catalogo():
 
     ps, qs, t = [], [], 0.35
     for ciclo in range(3):                       # Wenckebach 4:3
-        for k, pr in enumerate([.18, .26, .38, None]):
+        for k, pr in enumerate(WENCKEBACH_PR):
             ps.append(t)
             if pr: qs.append((t + pr, False))
             t += .84
@@ -345,13 +425,13 @@ def catalogo():
     ps, qs, t = [], [], 0.3
     for k in range(10):
         ps.append(t)
-        if k % 3 != 2: qs.append((t + .17, True))
+        if k % 3 != 2: qs.append((t + MOBITZ2_PR, True))
         t += .82
     F["ecg-mobitz2"] = strip_bloqueio("Bloqueio AV de segundo grau Mobitz II",
         "Mobitz II: PR fixo e P que bloqueia sem aviso", "QRS largo · infranodal · marca-passo", ps, qs)
 
-    ps = [0.25 + i * 0.72 for i in range(12)]
-    qs = [(0.55 + i * 1.75, True) for i in range(5)]
+    ps = [0.25 + i * BAVT_P_RR for i in range(12)]
+    qs = [(0.55 + i * BAVT_ESC_RR, True) for i in range(5)]
     F["ecg-bavt"] = strip_bloqueio("Bloqueio atrioventricular total",
         "BAV total: P e QRS em ritmos independentes", "dissociação AV · escape largo a ~34 bpm", ps, qs)
 
@@ -379,6 +459,7 @@ def catalogo():
 def svgpainel(nomes, leads, titulo, hr, nota="", cols=2, irregular=False):
     """Painel pequeno com poucas derivações — para precordiais direitas e posteriores,
     que não cabem no arranjo de 12 e são justamente as que a prova cobra."""
+    titulo, nota = esc(titulo), esc(nota)
     colw, rowh, mx, my = 66.0, 38.0, 10.0, 12.0
     linhas = (len(nomes) + cols - 1) // cols
     W, H = mx + cols * colw + 4, my + linhas * rowh + 12
@@ -453,7 +534,7 @@ def catalogo2():
     dw = {}
     for k, (r, s) in {"V1": (.3, -.9), "V2": (.5, -1.2), "V3": (.7, -1.0),
                       "V4": (1.3, -.6), "V5": (1.4, -.3), "V6": (1.1, -.2)}.items():
-        dw[k] = dict(p=.12, q=0, r=r, s=s, st=-.24, t=1.10, tw=.13, tdel=.19)
+        dw[k] = dict(p=.12, q=0, r=r, s=s, st=-.24, t=1.10, tw=.075, tdel=.15)
     F["ecg-de-winter"] = ("Padrão de De Winter",
         svgpainel(["V1", "V2", "V3", "V4", "V5", "V6"], dw,
                   "Infra de ST ascendente no ponto J com T alta e apiculada", 84, cols=3,
@@ -467,7 +548,7 @@ def catalogo2():
              f'<rect x="10" y="12" width="{dur*MM_S:.1f}" height="34" fill="url(#p5)"/>',
              '<text x="10" y="8" font-family="Figtree,system-ui,sans-serif" font-size="4.2" font-weight="600" fill="#23272E">Taquicardia ventricular: dissociação AV, captura e fusão</text>',
              f'<text x="{W-4:.0f}" y="8" text-anchor="end" font-family="Figtree,system-ui,sans-serif" font-size="3.4" fill="#5E646B">os três achados que fecham o diagnóstico</text>']
-        rr, prr = 0.40, 0.74          # ventrículo a 150/min, átrio a ~81/min, independentes
+        rr, prr = TVD_RR, TVD_P_RR    # ventrículo a 150/min, átrio a ~81/min, independentes
         vent = [0.18 + i * rr for i in range(25)]
         idx_cap, idx_fus = 11, 17     # um batimento capturado e um de fusão
         pts = []
@@ -475,21 +556,21 @@ def catalogo2():
             tt = i / FS
             v = 0.0
             for k in range(20):       # P marchando por conta própria, inclusive dentro do QRS
-                v += _gauss(tt, 0.10 + k * prr, .09, .13)
+                v += _gauss(tt, 0.10 + k * prr, P_SIG, .13)
             for k, b in enumerate(vent):
                 d = tt - b
                 if not (-.02 < d < .42): continue
                 if k == idx_cap:      # captura: estreito, com P antes
-                    v += _gauss(d, .02, .08, .14) + _tri(d, .18, .03, -.06) + _tri(d, .22, .04, 1.05) + _tri(d, .27, .035, -.18) + _gauss(d, .40, .13, .28)
+                    v += _gauss(d, .05, P_SIG, .14) + _tri(d, .14, .026, -.06) + _tri(d, .165, .038, 1.05) + _tri(d, .195, .032, -.18) + _gauss(d, .30, .055, .28)
                 elif k == idx_fus:    # fusão: intermediário entre o estreito e o largo
-                    v += _tri(d, .05, .05, -.10) + _tri(d, .10, .07, 1.25) + _tri(d, .17, .06, -.55) + _gauss(d, .30, .15, -.20)
+                    v += _tri(d, .04, .038, -.10) + _tri(d, .08, .055, 1.25) + _tri(d, .128, .047, -.55) + _gauss(d, .25, .055, -.20)
                 else:                 # o batimento da TV: largo e monomórfico
-                    v += _tri(d, .03, .05, -.18) + _tri(d, .08, .075, 1.45) + _tri(d, .15, .065, -.95) + _gauss(d, .29, .17, -.42)
+                    v += _tri(d, .03, .05, -.18) + _tri(d, .08, .075, 1.45) + _tri(d, .15, .065, -.95) + _gauss(d, .29, .055, -.42)
             pts.append((tt, v))
         o.append(polyline(pts, 12, 29))
         # setas apontando a captura e a fusão
-        for k, rot in ((idx_cap, "captura"), (idx_fus, "fusão")):
-            x = 12 + vent[k] * MM_S + 2
+        for k, rot, pico in ((idx_cap, "captura", .165), (idx_fus, "fusão", .08)):
+            x = 12 + (vent[k] + pico) * MM_S
             o.append(f'<path d="M{x:.1f} 15 v6" stroke="#0B6A72" stroke-width=".7"/>')
             o.append(f'<text x="{x:.1f}" y="13.5" text-anchor="middle" font-family="Figtree,system-ui,sans-serif" font-size="3.4" font-weight="600" fill="#0B6A72">{rot}</text>')
         o.append('<text x="13" y="44" font-family="Figtree,system-ui,sans-serif" font-size="3.6" font-weight="600" fill="#23272E">II</text>')
@@ -513,7 +594,7 @@ def catalogo2():
                 d = tt - (0.16 + k * rr)
                 if not (-.02 < d < .40): continue
                 s = 1 if k % 2 == 0 else -1     # é isto que a prova quer: a alternância do eixo
-                v += _tri(d, .03, .05, -.15 * s) + _tri(d, .08, .075, 1.35 * s) + _tri(d, .15, .065, -.80 * s) + _gauss(d, .28, .16, -.35 * s)
+                v += _tri(d, .03, .05, -.15 * s) + _tri(d, .08, .075, 1.35 * s) + _tri(d, .15, .065, -.80 * s) + _gauss(d, .28, .055, -.35 * s)
             pts.append((tt, v))
         o.append(polyline(pts, 12, 29))
         o.append('<text x="13" y="44" font-family="Figtree,system-ui,sans-serif" font-size="3.6" font-weight="600" fill="#23272E">II</text>')
@@ -1052,6 +1133,10 @@ def main():
     for nome, item in F.items():
         titulo, svg = item[0], item[1]
         cap = item[2] if len(item) > 2 else ""
+        try:
+            ET.fromstring(svg)      # inválido como XML = figura que não abre no navegador
+        except ET.ParseError as e:
+            raise SystemExit(f"{nome}.svg é XML inválido ({e}) — texto sem escape?")
         (dest / f"{nome}.svg").write_text(svg)
         idx[nome] = {"t": titulo, "cap": cap} if cap else {"t": titulo}
     (dest / "_catalogo.json").write_text(json.dumps(idx, ensure_ascii=False, indent=1))
