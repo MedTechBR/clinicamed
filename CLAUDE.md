@@ -187,6 +187,22 @@ projeta-se para a direita. Afetava `rx-normal`, `rx-consolidacao` e `rx-congesta
 sido usadas em leitura nenhuma. **`<text>` do SVG não quebra linha** — frase longa vaza para fora do
 quadro; por isso `radiologia_torax()` tem o helper `txt()`, que quebra por largura em caracteres.
 
+### Varredura das 16 aulas — o que existe onde (08/09/2026)
+
+Triagem visual concluída com `docs/garimpa_aulas.py` + `peneira_imagens.py` + `liga_slide.py`.
+Guardar este mapa: refazer a varredura custa horas e o resultado não muda.
+
+| Aula | O que tem |
+|---|---|
+| AVC, trauma, AULA 1 - RX | **imagem real e limpa** — TC de crânio e difusão, TC/RX de trauma, RX e TC de tórax, contrastados |
+| Insuficiência respiratória | **ultrassom pulmonar** (linhas A, linhas B, consolidação, derrame) — ainda não usado, serve ao `derrame-pleural` e à sindrômica de dispneia |
+| Arritmias, SCA | ECG real, inclusive infarto posterior com V7–V9 e precordiais direitas |
+| TEP, DPOC, asma, sepse, PCR | quase só ilustração gerada por IA — não rende figura |
+| Paciente crítico, intoxicação | fotos clínicas e de embalagem — fora por privacidade e por serem produto de marca |
+
+31 imagens foram para o **RadioTítulo** (banco de imagens 15 → 46 casos). O que ficou de fora e
+por quê está no commit e nos lotes 003/004/005 de lá.
+
 **Fila de reescrita** (mais peso no edital × texto mais curto). Com fonte em `fontes/`: avc-isquemico
 (AHA/ASA 2026), asma e dpoc (GINA/GOLD 2026), intoxicacoes (COVISA 2017), politraumatizado (ATLS 11).
 **derrame-pleural** (1.906 palavras, sem figura e sem fluxograma) foi auditada em 08/09 e é a próxima
