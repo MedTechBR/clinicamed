@@ -152,14 +152,37 @@ sindromes-coronarianas, tromboembolismo, sdra, taquiarritmias, arritmias-ventric
 choque-septico, fibrilacao-atrial, bradiarritmias-e-marcapasso, **radiografia-torax** — 13 leituras,
 ~77 mil palavras.
 
-### A aula de RX do material é de terceiro (08/09/2026)
-`~/Documents/Estácio IDOMED/AULAS EMERGÊNCIAS CLÍNICAS/AULA 1 - RX.pdf` (108 slides, Keynote) é
-assinada pelo **Dr. Gebson Lopes, radiologista, CRM 20411** — não é material do Matheus. Serviu como
-**roteiro** da monografia `radiografia-torax.html` (ABCDE, os cinco padrões, os sinais), e as imagens
-NÃO foram usadas: são dele e o app é público e pago. Se ele autorizar por escrito, entram com crédito
-na abertura da leitura. As 12 figuras novas de `gera_figuras.py` (`radiologia_torax()`) cobrem o que a
-aula ilustrava. **Bug corrigido junto:** o `coracao()` de `radiologia()` desenhava a silhueta cardíaca
-ESPELHADA (para a esquerda da imagem); em PA a direita do paciente fica à esquerda do filme e o coração
+### As radiografias da aula de RX (08/09/2026) — quem é dono do quê
+
+`~/Documents/Estácio IDOMED/AULAS EMERGÊNCIAS CLÍNICAS/AULA 1 - RX.pdf` (108 slides) é assinada pelo
+**Dr. Gebson Lopes, radiologista, CRM 20411**, mas o **Matheus forneceu as imagens** para essa aula
+— ele disse isso explicitamente quando eu recusei usá-las. A recusa inicial estava errada quanto à
+autoria; o que ela acertou foi exigir conferência antes de publicar.
+
+**O deck é MISTO, e a conferência provou.** Ao abrir os 108 slides em resolução alta apareceram
+marcas de terceiro que a miniatura escondia:
+- slide 042: **"LearningRadiology.com (C) All Rights Reserved"** queimado no canto da imagem;
+- slide 004: marca d'água **www.labcisco.com.br**;
+- slide 107: burn-in de PACS americano (`9/22/2017`, `PORTABLE`, `ERECT`) — não é exame brasileiro;
+- dezenas de slides com rotulagem de atlas em inglês (*Right lung*, *Aortic knuckle*, *Cardiac width*,
+  *Bat's wing*, *Bulbar urethral stricture*) e pranchas de editora.
+
+Por isso a regra que ficou: **entra só imagem sem marca de terceiro e sem burn-in estrangeiro.**
+Nove figuras passaram (`leituras/fig/foto/*.webp`, 224 KB), extraídas com `pdfimages` — bitmap
+ORIGINAL, não recorte do slide, então vêm sem o fundo azul e sem a legenda do Keynote. O script está
+em `scratchpad/rx/compoe.py` (copiado para `docs/` se for repetir).
+
+**LGPD:** cada imagem foi ampliada nos quatro cantos antes de publicar. Não havia nome, data nem
+registro — só marcadores de lateralidade (`L`, `R`, `pa`) e iniciais do técnico no marcador de chumbo.
+A única identificação encontrada foi **"PILAR"** no canto de um dos filmes de penetração, coberta por
+tarja no `compoe.py`. **Repetir essa conferência sempre que entrar radiografia nova.**
+
+`window.FOTOS` (gerado por `gera_indice.py` a partir de `leituras/fig/foto/*.webp`) existe porque
+`OFF.urls()` montava a URL das figuras com sufixo `.svg` fixo: sem a lista própria, a biblioteca
+offline baixaria os esquemas e deixaria as radiografias de fora.
+
+**Bug corrigido junto:** o `coracao()` de `radiologia()` desenhava a silhueta cardíaca ESPELHADA
+(para a esquerda da imagem); em PA a direita do paciente fica à esquerda do filme e o coração
 projeta-se para a direita. Afetava `rx-normal`, `rx-consolidacao` e `rx-congestao`, que nunca tinham
 sido usadas em leitura nenhuma. **`<text>` do SVG não quebra linha** — frase longa vaza para fora do
 quadro; por isso `radiologia_torax()` tem o helper `txt()`, que quebra por largura em caracteres.

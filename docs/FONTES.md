@@ -83,6 +83,20 @@ referências atualizadas"*.
 Quando um tema não tiver diretriz recente na biblioteca, ancorar na bibliografia oficial do edital
 (Harrison 22ª ed./2025 ou Cecil 26ª ed./2022) — nunca em edição antiga.
 
+## A aula de RX e as radiografias publicadas (08/09/2026)
+
+`~/Documents/Estácio IDOMED/AULAS EMERGÊNCIAS CLÍNICAS/AULA 1 - RX.pdf` — assinada pelo **Dr. Gebson
+Lopes** (radiologista, CRM 20411, RQE 16352), 108 slides. **As radiografias foram fornecidas pelo
+Matheus** para a aula; a autoria do material didático é do Gebson.
+
+Serviu de **roteiro** da monografia `radiografia-torax.html` e forneceu **nove radiografias**, hoje em
+`leituras/fig/foto/*.webp`. O deck é misto e nem tudo nele é do Matheus — a conferência slide a slide
+encontrou marca de terceiro em vários (LearningRadiology.com "All Rights Reserved" no slide 042,
+watermark labcisco.com.br no 004, burn-in de PACS americano no 107, pranchas de atlas em inglês em
+dezenas deles). **Esses ficaram de fora.** Entraram apenas imagens sem marca de terceiro e sem
+burn-in estrangeiro, conferidas canto a canto: nenhuma traz identificação de paciente; a única
+encontrada ("PILAR") foi coberta por tarja.
+
 ## Aulas de terceiros (roteiro, nunca imagem)
 
 `~/Documents/Estácio IDOMED/AULAS EMERGÊNCIAS CLÍNICAS/AULA 1 - RX.pdf` — **Dr. Gebson Lopes,

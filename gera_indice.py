@@ -22,9 +22,13 @@ for f in sorted(pathlib.Path('leituras').glob('*.html')):
                   'fx': len(re.findall(r'class="mermaid"', s))})
 cat = pathlib.Path('leituras/fig/_catalogo.json')
 figs = sorted(json.loads(cat.read_text()).keys()) if cat.exists() else []
+# As radiografias são raster e ficam em fig/foto/*.webp, fora do catálogo do gerador de SVG.
+# Precisam de lista própria, senão a biblioteca offline baixa os esquemas e deixa as fotos de fora.
+fotos = sorted(p.stem for p in pathlib.Path('leituras/fig/foto').glob('*.webp'))
 pathlib.Path('indice-leituras.js').write_text(
     '/* GERADO por gera_indice.py — não editar à mão. */\nwindow.IDXL=' +
     json.dumps(itens, ensure_ascii=False, separators=(',', ':')) + ';\n'
-    'window.FIGS=' + json.dumps(figs, ensure_ascii=False, separators=(',', ':')) + ';\n')
+    'window.FIGS=' + json.dumps(figs, ensure_ascii=False, separators=(',', ':')) + ';\n'
+    'window.FOTOS=' + json.dumps(fotos, ensure_ascii=False, separators=(',', ':')) + ';\n')
 print(f'{len(itens)} leituras, {sum(len(i["h"]) for i in itens)} seções indexadas, '
-      f'{sum(i["fx"] for i in itens)} fluxogramas, {len(figs)} figuras')
+      f'{sum(i["fx"] for i in itens)} fluxogramas, {len(figs)} esquemas, {len(fotos)} radiografias')

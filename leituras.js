@@ -120,9 +120,9 @@ window.LEITURAS=[
   s:"Dor nociceptiva, neuropática e nociplástica; as bandeiras vermelhas da lombalgia e por que imagem precoce piora; exercício como primeira linha; e o que nunca usar na fibromialgia."},
 
  {grupo:"Pneumologia", sub:"diretrizes de 2026"},
- {f:"radiografia-torax.html", tipo:"Fleischner 2024 · monografia", area:"pneumo", min:85,
+ {f:"radiografia-torax.html", tipo:"Fleischner 2024 · monografia", area:"pneumo", min:89,
   t:"Radiografia de tórax: o que o clínico precisa saber",
-  s:"A leitura que se faz à beira do leito antes do laudo: os quatro controles de qualidade que impedem laudo falso, a varredura ABCDE, o sinal da silhueta que localiza a consolidação sem tomografia, os cinco padrões com o vocabulário da Fleischner Society, o pneumotórax que no paciente deitado não vai para o ápice, o ar livre que só aparece de pé, tubos e cateteres com as medidas, e os números que dizem quando a radiografia NÃO basta — 43% de sensibilidade para pneumonia, 40% para pneumotórax, 19% das descompensações cardíacas sem congestão. Treze esquemas próprios e três fluxogramas."},
+  s:"A leitura que se faz à beira do leito antes do laudo: os quatro controles de qualidade que impedem laudo falso, a varredura ABCDE, o sinal da silhueta que localiza a consolidação sem tomografia, os cinco padrões com o vocabulário da Fleischner Society, o pneumotórax que no paciente deitado não vai para o ápice, o ar livre que só aparece de pé, tubos e cateteres com as medidas, e os números que dizem quando a radiografia NÃO basta — 43% de sensibilidade para pneumonia, 40% para pneumotórax, 19% das descompensações cardíacas sem congestão. Vinte e duas figuras — treze esquemas próprios e nove radiografias comentadas — e três fluxogramas."},
  {f:"dpoc.html", tipo:"GOLD 2026", area:"pneumo", min:19,
   t:"DPOC: o que o GOLD 2026 mudou",
   s:"Uma única exacerbação moderada já pesa para escalonar, os eosinófilos que decidem o corticoide inalatório, o alvo de saturação de 88 a 92% e o que realmente reduz mortalidade."},
