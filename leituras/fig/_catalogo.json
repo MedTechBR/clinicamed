@@ -80,6 +80,12 @@
  "ecg-de-winter": {
   "t": "Padrão de De Winter"
  },
+ "ecg-tv-dissociacao": {
+  "t": "Taquicardia ventricular com dissociação AV, captura e fusão"
+ },
+ "ecg-tv-bidirecional": {
+  "t": "Taquicardia ventricular bidirecional"
+ },
  "ecg-extrassistoles": {
   "t": "Extrassístoles ventriculares em bigeminismo"
  },

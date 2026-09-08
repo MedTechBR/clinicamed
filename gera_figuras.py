@@ -442,6 +442,69 @@ def catalogo2():
                   "Infra de ST ascendente no ponto J com T alta e apiculada", 84, cols=3,
                   nota="equivalente de oclusão da descendente anterior — trata como supra"))
 
+    # TV com os três achados que a ESC chama de diagnósticos: dissociação AV, captura e fusão
+    def tv_dissociacao():
+        dur, W, H = 10.0, 10 + 10.0 * MM_S + 6, 12 + 46
+        o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="Taquicardia ventricular com dissociação atrioventricular, batimento de captura e batimento de fusão">',
+             GRID, f'<rect width="{W:.0f}" height="{H:.0f}" fill="#FFF8F7"/>',
+             f'<rect x="10" y="12" width="{dur*MM_S:.1f}" height="34" fill="url(#p5)"/>',
+             '<text x="10" y="8" font-family="Figtree,system-ui,sans-serif" font-size="4.2" font-weight="600" fill="#23272E">Taquicardia ventricular: dissociação AV, captura e fusão</text>',
+             f'<text x="{W-4:.0f}" y="8" text-anchor="end" font-family="Figtree,system-ui,sans-serif" font-size="3.4" fill="#5E646B">os três achados que fecham o diagnóstico</text>']
+        rr, prr = 0.40, 0.74          # ventrículo a 150/min, átrio a ~81/min, independentes
+        vent = [0.18 + i * rr for i in range(25)]
+        idx_cap, idx_fus = 11, 17     # um batimento capturado e um de fusão
+        pts = []
+        for i in range(int((dur - .3) * FS)):
+            tt = i / FS
+            v = 0.0
+            for k in range(20):       # P marchando por conta própria, inclusive dentro do QRS
+                v += _gauss(tt, 0.10 + k * prr, .09, .13)
+            for k, b in enumerate(vent):
+                d = tt - b
+                if not (-.02 < d < .42): continue
+                if k == idx_cap:      # captura: estreito, com P antes
+                    v += _gauss(d, .02, .08, .14) + _tri(d, .18, .03, -.06) + _tri(d, .22, .04, 1.05) + _tri(d, .27, .035, -.18) + _gauss(d, .40, .13, .28)
+                elif k == idx_fus:    # fusão: intermediário entre o estreito e o largo
+                    v += _tri(d, .05, .05, -.10) + _tri(d, .10, .07, 1.25) + _tri(d, .17, .06, -.55) + _gauss(d, .30, .15, -.20)
+                else:                 # o batimento da TV: largo e monomórfico
+                    v += _tri(d, .03, .05, -.18) + _tri(d, .08, .075, 1.45) + _tri(d, .15, .065, -.95) + _gauss(d, .29, .17, -.42)
+            pts.append((tt, v))
+        o.append(polyline(pts, 12, 29))
+        # setas apontando a captura e a fusão
+        for k, rot in ((idx_cap, "captura"), (idx_fus, "fusão")):
+            x = 12 + vent[k] * MM_S + 2
+            o.append(f'<path d="M{x:.1f} 15 v6" stroke="#0B6A72" stroke-width=".7"/>')
+            o.append(f'<text x="{x:.1f}" y="13.5" text-anchor="middle" font-family="Figtree,system-ui,sans-serif" font-size="3.4" font-weight="600" fill="#0B6A72">{rot}</text>')
+        o.append('<text x="13" y="44" font-family="Figtree,system-ui,sans-serif" font-size="3.6" font-weight="600" fill="#23272E">II</text>')
+        o.append(f'<text x="10" y="{H-1.5:.0f}" font-family="Figtree,system-ui,sans-serif" font-size="3.2" fill="#5E646B">25 mm/s · 10 mm/mV · traçado sintetizado para ensino — ClínicaMed</text>')
+        o.append('</svg>')
+        return "".join(o)
+    F["ecg-tv-dissociacao"] = ("Taquicardia ventricular com dissociação AV, captura e fusão", tv_dissociacao())
+
+    def tv_bidirecional():
+        dur, W, H = 8.0, 10 + 8.0 * MM_S + 6, 12 + 46
+        o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="Taquicardia ventricular bidirecional">',
+             GRID, f'<rect width="{W:.0f}" height="{H:.0f}" fill="#FFF8F7"/>',
+             f'<rect x="10" y="12" width="{dur*MM_S:.1f}" height="34" fill="url(#p5)"/>',
+             '<text x="10" y="8" font-family="Figtree,system-ui,sans-serif" font-size="4.2" font-weight="600" fill="#23272E">Taquicardia ventricular bidirecional</text>',
+             f'<text x="{W-4:.0f}" y="8" text-anchor="end" font-family="Figtree,system-ui,sans-serif" font-size="3.4" fill="#5E646B">eixo alterna a cada batimento · TVPC e intoxicação digitálica</text>']
+        rr, pts = 0.40, []
+        for i in range(int((dur - .3) * FS)):
+            tt = i / FS
+            v = 0.0
+            for k in range(24):
+                d = tt - (0.16 + k * rr)
+                if not (-.02 < d < .40): continue
+                s = 1 if k % 2 == 0 else -1     # é isto que a prova quer: a alternância do eixo
+                v += _tri(d, .03, .05, -.15 * s) + _tri(d, .08, .075, 1.35 * s) + _tri(d, .15, .065, -.80 * s) + _gauss(d, .28, .16, -.35 * s)
+            pts.append((tt, v))
+        o.append(polyline(pts, 12, 29))
+        o.append('<text x="13" y="44" font-family="Figtree,system-ui,sans-serif" font-size="3.6" font-weight="600" fill="#23272E">II</text>')
+        o.append(f'<text x="10" y="{H-1.5:.0f}" font-family="Figtree,system-ui,sans-serif" font-size="3.2" fill="#5E646B">25 mm/s · 10 mm/mV · traçado sintetizado para ensino — ClínicaMed</text>')
+        o.append('</svg>')
+        return "".join(o)
+    F["ecg-tv-bidirecional"] = ("Taquicardia ventricular bidirecional", tv_bidirecional())
+
     F["ecg-extrassistoles"] = ("Extrassístoles ventriculares em bigeminismo",
         svgtira(dict(p=.14, q=-.05, r=1.0, s=-.2, t=.30, bigem=1),
                 "Bigeminismo ventricular: cada sinusal seguido de uma extrassístole larga", 68,
