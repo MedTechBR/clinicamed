@@ -99,9 +99,16 @@ def falhas(x):
 
 
 def falhas_lote(qs):
-    """O que só faz sentido no conjunto."""
+    """O que só faz sentido no conjunto — e só com conjunto de verdade.
+
+    Abaixo de 10 questões estas medidas são ruído: a mediana de 2 enunciados não diz nada sobre a
+    distribuição do banco. Aplicar estatística a n pequeno é a mesma falha de calibração que já
+    apareceu neste projeto em outras roupas.
+    """
     ms = [mede(x) for x in qs]
     f = []
+    if len(qs) < 10:
+        return f
     med_pal = statistics.median(m["pal"] for m in ms)
     if med_pal < LOTE["pal_mediana"]:
         f.append("mediana de %.0f palavras por enunciado (banca: 95; meta ≥ %d)" % (med_pal, LOTE["pal_mediana"]))

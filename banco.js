@@ -6770,11 +6770,11 @@ window.BANCO=[
  {
   "q": "Mulher de 67 anos usa losartana 100 mg, anlodipino 10 mg e hidroclorotiazida 25 mg em doses otimizadas há seis meses, com adesão confirmada por contagem de comprimidos. Mantém pressão de 162/98 mmHg em consultório e MAPA de vigília com média de 154/94 mmHg. Potássio de 3,2 mEq/L, creatinina de 1,0 mg/dL e relação aldosterona-renina elevada. A tomografia mostra nódulo adrenal esquerdo de 1,8 cm. Qual é a conduta?",
   "alts": [
-   "Investigar hiperaldosteronismo primário com cateterismo de veias adrenais",
+   "Investigar hiperaldosteronismo com cateterismo adrenal",
    "Acrescentar espironolactona sem investigação adicional",
    "Indicar adrenalectomia esquerda de imediato",
    "Trocar a hidroclorotiazida por clortalidona",
-   "Encaminhar para denervação renal"
+   "Encaminhar para denervação renal simpática"
   ],
   "gab": 0,
   "tema": "cardio",
@@ -7754,11 +7754,11 @@ window.BANCO=[
  {
   "q": "Homem de 55 anos, hipertenso controlado com losartana, sem doença cardiovascular estabelecida e não diabético, tem LDL-colesterol de 168 mg/dL em duas dosagens, HDL de 42 mg/dL e triglicérides de 180 mg/dL. É tabagista de 15 cigarros por dia. Pressão de 132/82 mmHg, índice de massa corporal de 28 kg/m². O risco cardiovascular calculado em dez anos é de 18%. Qual é a conduta em relação ao lípide?",
   "alts": [
-   "Estatina de alta potência com meta de LDL abaixo de 70 mg/dL",
-   "Estatina de baixa potência com meta de LDL abaixo de 130 mg/dL",
+   "Estatina de alta potência, meta de LDL abaixo de 70",
+   "Estatina de baixa potência, meta de LDL abaixo de 130",
    "Apenas dieta e exercício por seis meses",
-   "Ezetimiba isolada",
-   "Fibrato como primeira escolha"
+   "Ezetimiba isolada como primeira escolha",
+   "Fibrato como primeira escolha para o LDL"
   ],
   "gab": 0,
   "tema": "cardio",
