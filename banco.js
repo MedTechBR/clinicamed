@@ -12469,7 +12469,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS 11ª edição — tamponamento cardíaco no trauma",
+  "base": "ATLS 11ª edição, 2018 — tamponamento cardíaco no trauma",
   "coment": "A tríade de Beck com pulso paradoxal e colapso de câmaras direitas ao ultrassom define tamponamento cardíaco traumático. O tratamento é a descompressão imediata — pericardiocentese como medida temporária ou toracotomia, conforme o cenário e a disponibilidade cirúrgica. O murmúrio simétrico e a traqueia central afastam pneumotórax hipertensivo.",
   "porAlt": [
    "Correta: tamponamento exige descompressão imediata.",
