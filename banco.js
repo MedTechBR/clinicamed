@@ -1,74 +1,74 @@
 window.BANCO=[
  {
-  "q": "Homem de 68 anos, hipertenso e diabético em uso de metformina, procura o ambulatório com palpitações há três semanas. O eletrocardiograma mostra fibrilação atrial. Não há histórico de acidente vascular cerebral, insuficiência cardíaca ou doença arterial periférica. Qual é a conduta antitrombótica indicada pela diretriz vigente?",
+  "q": "Homem de 68 anos, hipertenso e diabético em uso de metformina, procura o ambulatório com palpitações intermitentes há três semanas. Nega dispneia, dor torácica ou síncope. Não teve acidente vascular cerebral, insuficiência cardíaca ou doença arterial periférica. Está com pressão de 138/84 mmHg, frequência de 88 bpm e ausculta sem sopros. O eletrocardiograma mostra fibrilação atrial com resposta ventricular controlada. Creatinina de 1,1 mg/dL, clearance estimado de 72 mL/min e hemoglobina de 14 g/dL. Qual é a conduta antitrombótica?",
   "alts": [
-   "Ácido acetilsalicílico em dose baixa agora, deixando o anticoagulante para depois do primeiro AVC.",
-   "Nenhum antitrombótico neste momento, já que o escore só indica tratamento a partir dos 75 anos.",
-   "Anticoagular somente se o ecocardiograma transesofágico revelar trombo no apêndice atrial esquerdo.",
-   "Dupla antiagregação com ácido acetilsalicílico e clopidogrel, que substitui a anticoagulação aqui.",
-   "Anticoagulação oral plena desde já: todo escore CHA₂DS₂-VA de dois ou mais manda anticoagular."
+   "Anticoagulante oral direto em dose plena",
+   "Ácido acetilsalicílico em dose baixa",
+   "Nenhum antitrombótico neste momento",
+   "Dupla antiagregação com clopidogrel",
+   "Anticoagular após ecocardiograma transesofágico"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2024 — Guidelines for the management of atrial fibrillation (escore CHA₂DS₂-VA)",
-  "coment": "A diretriz europeia de 2024 substituiu o CHA₂DS₂-VASc pelo CHA₂DS₂-VA: o ponto atribuído ao sexo feminino saiu do escore, que passou a ter máximo de 8. Aqui somam-se idade entre 65 e 74 anos (1), hipertensão (1) e diabetes (1) = 3 pontos. Com escore ≥2 a anticoagulação oral é recomendação classe I, com preferência pelos anticoagulantes orais diretos sobre a varfarina em pacientes sem estenose mitral moderada a grave ou prótese mecânica. O antiagregante plaquetário não tem papel na profilaxia de embolia na fibrilação atrial: não reduz AVC de forma comparável e mantém risco de sangramento.",
+  "base": "ESC 2024 — fibrilação atrial: CHA₂DS₂-VA e anticoagulantes diretos",
+  "coment": "O CHA₂DS₂-VA soma idade entre 65 e 74 anos (1), hipertensão (1) e diabetes (1) = 3 pontos. Com escore de 2 ou mais a anticoagulação oral é classe I, e os anticoagulantes diretos são preferidos à varfarina na ausência de estenose mitral moderada a grave ou prótese mecânica. O antiagregante não tem papel na profilaxia de embolia da fibrilação atrial.",
   "porAlt": [
-   "O AAS foi abandonado na profilaxia de embolia da fibrilação atrial — é muito menos eficaz que o anticoagulante e não é opção mais segura.",
-   "A idade entre 65 e 74 anos já pontua 1; somada a hipertensão e diabetes, ultrapassa o limiar de 2 pontos. Esperar os 75 anos custa AVC evitável.",
-   "Trombo no apêndice não é pré-requisito para anticoagular: o escore clínico é que define a indicação, e o eco negativo não exclui risco embólico.",
-   "A dupla antiagregação soma sangramento sem oferecer a proteção do anticoagulante; só entra em situações específicas de doença coronária, e por tempo limitado.",
-   "Correta: três pontos no CHA₂DS₂-VA (idade 65–74, hipertensão e diabetes) colocam o paciente na recomendação classe I de anticoagulação oral."
+   "Correta: escore 3, sem contraindicação, com preferência pelos diretos.",
+   "O AAS é muito menos eficaz e mantém risco de sangramento.",
+   "Escore 3 já indica anticoagulação, e o sexo saiu do escore em 2024.",
+   "A dupla antiagregação não substitui anticoagulação.",
+   "O transesofágico serve à cardioversão, não à decisão de anticoagular."
   ]
  },
  {
-  "q": "Mulher de 72 anos com fibrilação atrial permanente e escore CHA₂DS₂-VA de 4 pontos usa rivaroxabana. Chega à emergência com hematêmese e queda de 3 g/dL na hemoglobina, pressão arterial de 92/60 mmHg e frequência de 110 bpm. Tomou a última dose há seis horas. Qual é a prioridade imediata do atendimento?",
+  "q": "Mulher de 72 anos com fibrilação atrial permanente e escore CHA₂DS₂-VA de 4 pontos usa rivaroxabana 20 mg ao dia, com última dose há 6 horas. Chega à emergência com hematêmese volumosa. Está com pressão de 82/50 mmHg, frequência de 122 bpm, extremidades frias e hemoglobina de 6,8 g/dL, caindo de 11,4 g/dL há uma semana. Creatinina de 1,4 mg/dL. Já recebeu cristaloide e duas unidades de concentrado de hemácias, sem estabilizar. Qual é a conduta específica sobre a anticoagulação?",
   "alts": [
-   "Aplicar vitamina K endovenosa em dose máxima, que reverte o efeito anticoagulante da rivaroxabana.",
-   "Transfundir plaquetas antes de qualquer procedimento, pois o fármaco age inibindo a agregação delas.",
-   "Suspender o anticoagulante e estabilizar a paciente, acionando a endoscopia digestiva alta de urgência.",
-   "Manter a anticoagulação sem alteração, já que interrompê-la implica risco proibitivo de AVC agora.",
-   "Solicitar a dosagem do INR e adiar a endoscopia até que o resultado desse exame esteja abaixo de 1,5."
+   "Administrar andexanet alfa ou complexo protrombínico",
+   "Administrar idarucizumabe",
+   "Infundir plasma fresco congelado",
+   "Aplicar vitamina K intravenosa",
+   "Suspender o fármaco e aguardar a meia-vida"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ESC 2024 — manejo de sangramento em uso de anticoagulante oral direto; Baveno VII, 2022, para HDA",
-  "coment": "Diante de sangramento maior em uso de anticoagulante oral direto, a sequência é suspender o fármaco, ressuscitar volemicamente, transfundir conforme alvo restritivo e controlar a fonte — aqui, endoscopia digestiva alta em até 24 horas, antecipada quando há instabilidade. A vitamina K reverte antagonistas da vitamina K, não inibidores diretos do fator Xa; para estes existe agente específico (andexanete alfa) ou, na indisponibilidade, complexo protrombínico. Como a rivaroxabana tem meia-vida curta, a suspensão já reduz o efeito em poucas horas. O INR não mede de forma confiável o efeito dos anticoagulantes diretos.",
+  "base": "ESC 2024 — fibrilação atrial: reversão de anticoagulante direto no sangramento maior",
+  "coment": "Sangramento maior com instabilidade em uso de inibidor do fator Xa exige reversão específica: andexanet alfa quando disponível, ou complexo protrombínico de quatro fatores como alternativa. Idarucizumabe reverte dabigatrana, que é inibidor direto da trombina, não do Xa. Vitamina K e plasma não revertem anticoagulante direto.",
   "porAlt": [
-   "A vitamina K só reverte antagonistas da vitamina K, como a varfarina; não tem qualquer efeito sobre inibidores diretos do fator Xa.",
-   "A rivaroxabana inibe o fator Xa e não a função plaquetária; transfundir plaquetas sem plaquetopenia não corrige a coagulopatia do caso.",
-   "Correta: suspender o anticoagulante, ressuscitar e levar à endoscopia é a sequência do sangramento maior com instabilidade hemodinâmica.",
-   "Sangramento maior com hipotensão obriga a suspender o anticoagulante; o risco tromboembólico de dias sem droga é bem menor que o da hemorragia.",
-   "O INR não afere o efeito dos anticoagulantes diretos, e esperar o exame só atrasa o controle endoscópico da fonte do sangramento."
+   "Correta: é a reversão indicada para inibidor do fator Xa.",
+   "O idarucizumabe é específico para dabigatrana.",
+   "O plasma não contém fator suficiente para reverter e sobrecarrega volume.",
+   "A vitamina K age sobre antagonistas da vitamina K, não sobre os diretos.",
+   "Esperar a meia-vida em choque hemorrágico não é opção."
   ]
  },
  {
-  "q": "Homem de 59 anos, tabagista, chega à emergência com dor torácica opressiva iniciada há 50 minutos. O eletrocardiograma mostra supradesnivelamento de ST em parede inferior. O hospital não tem hemodinâmica e o tempo de transferência até o centro com angioplastia primária é estimado em 150 minutos. Qual é a conduta correta?",
+  "q": "Homem de 59 anos, tabagista e dislipidêmico, chega à emergência com dor torácica opressiva iniciada há 50 minutos, irradiada para o membro superior esquerdo, com sudorese. Está com pressão de 138/86 mmHg, frequência de 92 bpm, saturação de 96% e ausculta pulmonar limpa. O eletrocardiograma mostra supradesnivelamento de ST de 3 mm em DII, DIII e aVF com infradesnivelamento em DI e aVL. O hospital não tem hemodinâmica e o centro com angioplastia fica a 150 minutos de transporte. Qual é a conduta?",
   "alts": [
-   "Transferir sem trombolisar, porque a angioplastia primária é superior em qualquer tempo de trajeto.",
-   "Aguardar a curva de troponina no serviço antes de decidir se vai trombolisar ou só transferir.",
-   "Iniciar heparina isolada em infusão contínua e reservar a reperfusão para depois das 12 horas.",
-   "Administrar fibrinolítico agora no próprio serviço e transferir em seguida para coronariografia.",
-   "Prescrever nitrato e morfina e repetir o eletrocardiograma após duas horas, antes de reperfundir."
+   "Fibrinólise imediata e transferência para coronariografia",
+   "Transferir para angioplastia primária sem fibrinólise",
+   "Aguardar troponina antes de qualquer reperfusão",
+   "Iniciar heparina plena e transferência eletiva",
+   "Administrar nitrato sublingual e reavaliar em 1 hora"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ESC 2023 — Guidelines for acute coronary syndromes; Diretriz SBC de IAM com supra de ST, 2021",
-  "coment": "Com supradesnivelamento de ST e tempo previsto até a angioplastia primária acima de 120 minutos, a estratégia recomendada é a fibrinólise imediata seguida de transferência para estratégia fármaco-invasiva, com coronariografia entre 2 e 24 horas (ou de resgate imediato, se não houver critérios de reperfusão). O paciente está com 50 minutos de sintomas, dentro da janela em que o fibrinolítico tem maior benefício. Esperar troponina em vigência de supra de ST é erro grave: o diagnóstico é eletrocardiográfico e clínico, e cada minuto perdido custa miocárdio.",
+  "base": "ACC/AHA 2025 — SCA com supra: estratégia fármaco-invasiva acima de 120 minutos",
+  "coment": "Quando o tempo previsto até a angioplastia primária ultrapassa 120 minutos, a estratégia é fibrinólise imediata seguida de transferência para coronariografia em 2 a 24 horas — a estratégia fármaco-invasiva. Com 50 minutos de dor o paciente está na janela de maior benefício da fibrinólise, e o supra em duas derivações contíguas dispensa a troponina.",
   "porAlt": [
-   "A angioplastia primária só é preferida quando alcançável em até 120 minutos; acima disso, o atraso anula sua vantagem sobre o fibrinolítico.",
-   "Troponina não é necessária para indicar reperfusão no infarto com supra de ST; esperar o resultado só atrasa o tratamento e amplia a necrose.",
-   "A heparina é adjuvante e não reperfunde a artéria; reservar a reperfusão para depois de 12 horas condena o território a necrose completa.",
-   "Correta: tempo até a angioplastia acima de 120 minutos indica fibrinólise imediata seguida de transferência para a estratégia fármaco-invasiva.",
-   "Nitrato e morfina tratam sintoma, não obstrução; repetir o eletrocardiograma em duas horas desperdiça a janela mais eficaz da fibrinólise."
+   "Correta: acima de 120 minutos, fibrinólise e transferência.",
+   "Transportar por 150 minutos sem reperfusão perde músculo.",
+   "A troponina não é esperada no infarto com supra.",
+   "Heparina isolada não é reperfusão.",
+   "Nitrato alivia sintoma e não reperfunde; ainda exige V3R–V4R antes, pela parede inferior."
   ]
  },
  {
@@ -5160,27 +5160,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 58 anos com choque cardiogênico após infarto agudo do miocárdio de parede anterior, em uso de noradrenalina, apresenta índice cardíaco reduzido, pressão de oclusão elevada e extremidades frias. Qual é a associação terapêutica mais adequada nesse momento?",
+  "q": "Homem de 58 anos, no segundo dia após infarto anterior extenso tratado com angioplastia primária, evolui na terapia intensiva com hipotensão. Está com pressão de 78/48 mmHg em noradrenalina 0,4 mcg/kg/min, frequência de 118 bpm, extremidades frias, lactato de 4,8 mmol/L e débito urinário de 0,3 mL/kg/h. O ecocardiograma mostra fração de ejeção de 20% sem derrame nem defeito mecânico. A saturação venosa central é de 52% e a pressão de oclusão pulmonar é de 24 mmHg. Qual é a conduta?",
   "alts": [
-   "Associar vasopressina para elevar a resistência vascular sistêmica e melhorar a perfusão tecidual.",
-   "Iniciar betabloqueador venoso para reduzir o consumo de oxigênio pelo miocárdio já isquêmico.",
-   "Administrar volume em bolus repetidos até normalizar a pressão de oclusão da artéria pulmonar.",
-   "Iniciar nitroprussiato isolado para reduzir a pós-carga sem qualquer suporte inotrópico associado.",
-   "Associar dobutamina como inotrópico e discutir revascularização e suporte circulatório mecânico."
+   "Associar dobutamina à noradrenalina",
+   "Expandir com 30 mL/kg de cristaloide",
+   "Aumentar a noradrenalina isoladamente",
+   "Iniciar betabloqueador para a taquicardia",
+   "Administrar furosemida em bolus alto"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ESC Guidelines for the management of acute coronary syndromes, 2023; SBC, diretriz de insuficiência cardíaca aguda",
-  "coment": "O choque cardiogênico pós-infarto combina baixo débito com congestão, e o tratamento reúne suporte inotrópico com dobutamina, vasopressor para manter pressão de perfusão e, sobretudo, a revascularização precoce da artéria culpada, que é a medida com maior impacto em mortalidade. Suporte circulatório mecânico pode ser considerado em centros com experiência. Betabloqueador é contraindicado na vigência do choque, e volume adicional em paciente congesto agrava o edema pulmonar.",
+  "base": "ESC 2021 — insuficiência cardíaca aguda e choque cardiogênico",
+  "coment": "O quadro é de choque cardiogênico: hipoperfusão com pressões de enchimento elevadas e saturação venosa baixa. Com a pressão de oclusão em 24 mmHg não há espaço para volume, e a noradrenalina isolada não corrige o débito. O inotrópico é a medida que aumenta o débito cardíaco — dobutamina associada ao vasopressor, com reavaliação para suporte circulatório mecânico se não responder.",
   "porAlt": [
-   "A vasopressina não corrige o baixo débito, que é o mecanismo predominante do choque cardiogênico.",
-   "Betabloqueador está contraindicado na vigência de choque cardiogênico por reduzir ainda mais o débito.",
-   "Volume em paciente com pressão de oclusão elevada agrava a congestão pulmonar e a hipoxemia.",
-   "Vasodilatador isolado em paciente hipotenso reduz a pressão de perfusão coronariana e sistêmica.",
-   "Correta: associar inotrópico e priorizar revascularização, considerando suporte circulatório mecânico."
+   "Correta: inotrópico associado ao vasopressor no choque cardiogênico.",
+   "Expandir com pressão de oclusão de 24 mmHg piora a congestão.",
+   "Mais vasopressor eleva a pós-carga sem melhorar o débito.",
+   "Betabloqueador em choque cardiogênico é contraindicado.",
+   "Diurético em choque com hipoperfusão agrava a instabilidade."
   ]
  },
  {
@@ -5232,27 +5232,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 66 anos internado na enfermaria por insuficiência cardíaca descompensada com fração de ejeção de 28% recebe furosemida intravenosa e apresenta melhora da congestão no terceiro dia. Ainda não usa terapia modificadora de doença. Qual é a conduta antes da alta?",
+  "q": "Homem de 66 anos internado na enfermaria por insuficiência cardíaca descompensada com fração de ejeção de 28% recebeu furosemida intravenosa e está no quarto dia, sem congestão ao exame e com peso estável há 48 horas. Pressão de 108/68 mmHg, frequência de 72 bpm, creatinina de 1,2 mg/dL, potássio de 4,4 mEq/L e sódio de 138 mEq/L. Ainda não usa nenhuma das classes de base. Qual é a conduta antes da alta?",
   "alts": [
-   "Adiar todo o tratamento modificador para o ambulatório, mantendo apenas o diurético após a alta.",
-   "Iniciar os quatro pilares ainda na internação, titulando conforme pressão, potássio e função renal.",
-   "Prescrever apenas digoxina como fármaco de manutenção por melhorar a fração de ejeção dele agora.",
-   "Manter somente o diurético de alça porque ele seria o fármaco que reduz mortalidade nessa doença.",
-   "Iniciar apenas um pilar por consulta ambulatorial, com intervalo mínimo de três meses entre eles."
+   "Iniciar as quatro classes em doses baixas antes da alta",
+   "Iniciar apenas o inibidor da ECA e escalonar ambulatorialmente",
+   "Aguardar 30 dias de estabilidade para iniciar as classes",
+   "Iniciar somente betabloqueador e diurético de manutenção",
+   "Manter só diurético e reavaliar em consulta"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure, 2021 e atualização de 2023; Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda, SBC",
-  "coment": "Na insuficiência cardíaca com fração de ejeção reduzida, os quatro pilares — inibidor do sistema renina-angiotensina, preferencialmente sacubitril-valsartana, betabloqueador, antagonista mineralocorticoide e inibidor de SGLT2 — reduzem mortalidade, e a recomendação atual é iniciá-los precocemente, ainda na internação, após a compensação da congestão, com titulação rápida e reavaliação em uma a duas semanas. O diurético alivia sintomas mas não muda prognóstico, e adiar os pilares para o ambulatório deixa o paciente exposto no período de maior risco de reinternação e óbito.",
+  "base": "ESC 2023 e ensaio STRONG-HF — início e titulação intra-hospitalar",
+  "coment": "A estratégia validada pelo ensaio STRONG-HF é iniciar as quatro classes fundamentais ainda na internação, em doses baixas, e titular rapidamente nas semanas seguintes com consultas próximas — reduziu morte e reinternação em 180 dias. Este paciente está descongestionado, com pressão, potássio e função renal que permitem o início.",
   "porAlt": [
-   "Adiar o tratamento modificador expõe o paciente ao período de maior risco de reinternação e óbito.",
-   "Correta: iniciar os quatro pilares ainda na internação, com titulação guiada por pressão, potássio e rim.",
-   "A digoxina reduz internação em casos selecionados, mas não substitui os pilares que reduzem mortalidade.",
-   "O diurético de alça alivia congestão, porém não demonstrou redução de mortalidade nessa população.",
-   "Espaçar a introdução por meses atrasa o benefício que aparece nas primeiras semanas de tratamento."
+   "Correta: início intra-hospitalar das quatro classes, com titulação rápida.",
+   "Iniciar só uma classe desperdiça a janela da internação.",
+   "Esperar 30 dias é justamente o que o STRONG-HF mostrou ser pior.",
+   "Duas classes deixam de fora antagonista mineralocorticoide e inibidor do SGLT2.",
+   "Só diurético não altera prognóstico."
   ]
  },
  {
@@ -5712,27 +5712,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 63 anos internada na enfermaria por fibrilação atrial de início indeterminado, estável, com frequência de 110 batimentos por minuto e escore CHA2DS2-VASc de 4. Qual é a conduta mais adequada nesse momento?",
+  "q": "Mulher de 63 anos é internada com palpitações e fibrilação atrial de início indeterminado, provavelmente há mais de uma semana. Está estável, com pressão de 128/78 mmHg, frequência de 128 bpm e sem congestão. Nunca usou anticoagulante, tem CHA₂DS₂-VA de 3 pontos e deseja reverter o ritmo. Creatinina de 0,9 mg/dL e função tireoidiana normal. Qual é a conduta para a cardioversão?",
   "alts": [
-   "Realizar cardioversão elétrica imediata sem anticoagulação prévia por estar clinicamente estável.",
-   "Controlar a frequência e iniciar anticoagulação oral, discutindo o momento da cardioversão eletiva.",
-   "Prescrever apenas ácido acetilsalicílico como profilaxia de embolia nessa paciente de alto risco.",
-   "Manter somente controle da frequência e dispensar a anticoagulação por ausência de sintoma grave.",
-   "Indicar ablação por cateter durante esta internação como a primeira medida terapêutica para ela."
+   "Ecocardiograma transesofágico antes de cardioverter",
+   "Cardioversão elétrica imediata",
+   "Anticoagular e cardioverter em 24 horas",
+   "Cardioversão química com propafenona agora",
+   "Adiar a cardioversão por seis meses"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC Guidelines for the management of atrial fibrillation (AF-CARE), 2024; ACC/AHA/ACCP/HRS atrial fibrillation guideline, 2023",
-  "coment": "Com escore CHA2DS2-VASc de 4, a anticoagulação oral está indicada independentemente da estratégia de ritmo ou de frequência, e o anticoagulante oral direto é preferido ao antagonista da vitamina K, exceto em estenose mitral moderada a grave e prótese mecânica. Em fibrilação de início indeterminado ou com mais de 48 horas, a cardioversão eletiva exige três semanas de anticoagulação prévia ou ecocardiograma transesofágico que exclua trombo, mantendo anticoagulação por pelo menos quatro semanas depois.",
+  "base": "ESC 2024 — fibrilação atrial: transesofágico fora da janela de 24 horas",
+  "coment": "Fora da janela de 24 horas, ou quando o tempo de início é indeterminado, existem dois caminhos: anticoagular por pelo menos três semanas antes, ou fazer transesofágico para excluir trombo em apêndice atrial e cardioverter sob anticoagulação. Com desejo de reversão precoce, o transesofágico é o caminho — e a anticoagulação segue por pelo menos quatro semanas depois.",
   "porAlt": [
-   "Cardioversão sem anticoagulação em arritmia de início indeterminado traz risco elevado de embolia.",
-   "Correta: controle de frequência com anticoagulação oral e cardioversão programada com segurança.",
-   "A antiagregação isolada não protege contra cardioembolia e foi abandonada como alternativa.",
-   "Escore de risco elevado indica anticoagulação, independentemente da intensidade dos sintomas.",
-   "A ablação é opção de controle de ritmo em casos selecionados, não a medida inicial nessa internação."
+   "Correta: exclui trombo e permite cardioverter sem esperar três semanas.",
+   "Cardioverter sem excluir trombo em tempo indeterminado é embolizar.",
+   "A janela de 24 horas não se aplica a início indeterminado.",
+   "A cardioversão química tem o mesmo risco embólico da elétrica.",
+   "Adiar seis meses não é conduta em paciente sintomático."
   ]
  },
  {
@@ -6168,27 +6168,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 68 anos em terapia intensiva por infarto agudo do miocárdio evolui, no terceiro dia, com dor torácica, atrito pericárdico e supradesnivelamento difuso do segmento ST, sem elevação adicional de marcadores. Qual é o diagnóstico e a conduta?",
+  "q": "Homem de 68 anos, no terceiro dia de internação por infarto inferior tratado com angioplastia, apresenta piora súbita da dispneia. Está com pressão de 88/56 mmHg, frequência de 124 bpm e saturação de 89%. Surgiu sopro holossistólico rude em borda esternal esquerda baixa, com frêmito, ausente nos dias anteriores. Há estertores difusos e turgência jugular. O ecocardiograma mostra fluxo turbulento através do septo interventricular com shunt esquerda-direita. Qual é a conduta?",
   "alts": [
-   "Reinfarto do miocárdio: indicar nova coronariografia de urgência mesmo sem alteração de marcadores.",
-   "Pericardite pós-infarto: usar dose alta de ácido acetilsalicílico e evitar outros anti-inflamatórios.",
-   "Ruptura de parede livre: encaminhar imediatamente para cirurgia cardíaca de emergência sem exames.",
-   "Pericardite pós-infarto: iniciar corticoide sistêmico em dose alta como tratamento de primeira linha.",
-   "Embolia pulmonar aguda: iniciar trombólise sistêmica imediata pela presença de dor torácica intensa."
+   "Suporte circulatório e correção cirúrgica",
+   "Diurético intravenoso e observação clínica",
+   "Trombólise para reinfarto",
+   "Pericardiocentese de urgência",
+   "Betabloqueador para reduzir a frequência"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ESC Guidelines for the diagnosis and management of pericardial diseases, 2015; ESC Guidelines for the management of acute coronary syndromes, 2023",
-  "coment": "A pericardite pós-infarto precoce, ou epistenocárdica, surge nos primeiros dias após necrose transmural e se manifesta por dor pleurítica que melhora ao sentar, atrito pericárdico e supradesnivelamento difuso com infradesnivelamento do segmento PR. O tratamento é ácido acetilsalicílico em dose alta, porque outros anti-inflamatórios e o corticoide prejudicam a cicatrização miocárdica e aumentam o risco de complicação mecânica. A colchicina é adjuvante e reduz recorrência.",
+  "base": "ACC/AHA 2025 — SCA: complicações mecânicas do infarto",
+  "coment": "Sopro novo com frêmito e shunt septal ao ecocardiograma definem comunicação interventricular pós-infarto, complicação mecânica de alta letalidade. A conduta é estabilização com suporte — inotrópico, vasodilatador se a pressão permitir, balão intra-aórtico ou assistência — e correção cirúrgica ou percutânea, com discussão imediata com a cirurgia cardíaca.",
   "porAlt": [
-   "O reinfarto cursaria com nova elevação de marcadores e supradesnivelamento localizado, não difuso.",
-   "Correta: pericardite pós-infarto, tratada com ácido acetilsalicílico em dose alta e colchicina adjuvante.",
-   "A ruptura de parede livre cursa com colapso hemodinâmico súbito e tamponamento, quadro distinto.",
-   "O corticoide prejudica a cicatrização miocárdica e aumenta o risco de complicações mecânicas.",
-   "A embolia pulmonar não produz atrito pericárdico nem supradesnivelamento difuso do segmento ST."
+   "Correta: complicação mecânica exige correção, não tratamento clínico isolado.",
+   "Diurético isolado não resolve o shunt e o paciente já está hipotenso.",
+   "Não há evidência de reinfarto, e trombólise agravaria a ruptura.",
+   "O quadro não é tamponamento: há sopro e shunt septal.",
+   "Betabloqueador em choque com complicação mecânica é contraindicado."
   ]
  },
  {
@@ -6552,147 +6552,147 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 64 anos, ex-tabagista, tem dispneia aos médios esforços e ecocardiograma com fração de ejeção de 44%. Segundo a diretriz europeia vigente de insuficiência cardíaca, como esse paciente é classificado quanto ao fenótipo?",
+  "q": "Homem de 64 anos, ex-tabagista e hipertenso, refere dispneia aos médios esforços há seis meses, com discreto edema vespertino. Está com pressão de 136/82 mmHg, frequência de 76 bpm, sem estertores e com turgência jugular normal. O ecocardiograma mostra fração de ejeção de 44%, átrio esquerdo de 44 mm e disfunção diastólica grau II. O NT-proBNP é de 640 pg/mL e a creatinina de 1,1 mg/dL. Qual é a classificação e a conduta inicial?",
   "alts": [
-   "Insuficiência cardíaca com fração de ejeção levemente reduzida, categoria mantida na faixa de 41% a 49%.",
-   "Insuficiência cardíaca com fração de ejeção preservada, uma vez que o valor está acima do limite de 40%.",
-   "Insuficiência cardíaca com fração de ejeção recuperada, categoria aplicada a qualquer valor entre 40% e 50%.",
-   "Não caracteriza insuficiência cardíaca, porque só se define a síndrome com fração de ejeção abaixo de 40%.",
-   "Insuficiência cardíaca com fração de ejeção reduzida, categoria que passou a englobar tudo abaixo de 50%."
+   "Fração levemente reduzida: iniciar inibidor do SGLT2",
+   "Fração preservada: apenas controlar a pressão",
+   "Fração reduzida: iniciar as quatro classes",
+   "Sem insuficiência cardíaca: investigar causa pulmonar",
+   "Fração levemente reduzida: apenas diurético se congestão"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "tit",
-  "base": "ESC 2026 — Guidelines for the management of heart failure (eliminação do fenótipo de fração levemente reduzida)",
-  "coment": "A diretriz europeia de 2026 eliminou o fenótipo de fração de ejeção levemente reduzida. Restaram dois: fração reduzida, definida por fração de ejeção abaixo de 50%, e fração preservada, com fração de 50% ou mais. O argumento foi fisiopatológico e terapêutico: a faixa antes chamada de levemente reduzida compartilha mecanismo com a reduzida e responde ao mesmo tratamento, de modo que separá-las criava uma categoria sem consequência prática. A diretriz também adotou quatro estágios, de A a D, reforçando prevenção e identificação precoce, e substituiu o termo insuficiência cardíaca aguda por descompensada.",
+  "base": "ESC 2021/2023 — insuficiência cardíaca: fenótipo de fração levemente reduzida",
+  "coment": "Fração de ejeção entre 41% e 49% define insuficiência cardíaca de fração levemente reduzida, e o quadro clínico com NT-proBNP elevado confirma o diagnóstico. Os inibidores do SGLT2 são a classe com benefício demonstrado em todo o espectro de fração de ejeção e entram como recomendação nesse fenótipo, junto ao tratamento das comorbidades.",
   "porAlt": [
-   "A faixa de 41% a 49% era a antiga fração levemente reduzida, categoria justamente eliminada nesta atualização.",
-   "A fração preservada agora exige valor de 50% ou mais, de modo que 44% não se enquadra nessa definição atual.",
-   "Fração recuperada descreve quem tinha fração baixa e melhorou com tratamento, não uma faixa numérica fixa.",
-   "O corte de 40% pertence a versões antigas; a síndrome se define pelo quadro clínico somado à alteração estrutural.",
-   "Correta: com a mudança de 2026, tudo abaixo de 50% é fração reduzida, e a categoria intermediária deixou de existir."
+   "Correta: 44% é levemente reduzida, e o inibidor do SGLT2 atravessa todo o espectro.",
+   "Preservada exige fração de 50% ou mais.",
+   "Reduzida exige fração de 40% ou menos.",
+   "O NT-proBNP elevado com o quadro clínico sustenta o diagnóstico.",
+   "Diurético trata congestão, não modifica prognóstico."
   ]
  },
  {
-  "q": "Mulher de 58 anos tem insuficiência cardíaca com fração de ejeção de 32%, classe funcional II, pressão de 118/72 mmHg, frequência de 74 bpm, potássio de 4,3 mEq/L e taxa de filtração glomerular de 62 mL/min/1,73 m². Está apenas em uso de furosemida. Quais classes compõem a terapia medicamentosa fundamental que ela deve receber?",
+  "q": "Mulher de 58 anos com miocardiopatia dilatada tem fração de ejeção de 32% e classe funcional II. Usa enalapril 10 mg duas vezes ao dia, carvedilol 12,5 mg duas vezes ao dia e espironolactona 25 mg, todas há três meses. Pressão de 118/72 mmHg, frequência de 68 bpm, creatinina de 1,0 mg/dL, potássio de 4,3 mEq/L e sem congestão. Não é diabética. Qual é o próximo passo?",
   "alts": [
-   "Betabloqueador, inibidor da neprilisina com bloqueador do receptor, antagonista mineralocorticoide e inibidor de SGLT2.",
-   "Apenas diurético de alça em dose otimizada, com betabloqueador acrescentado somente se surgir taquicardia sintomática.",
-   "Digoxina associada a diurético tiazídico, esquema que segue sendo a base do tratamento da fração de ejeção reduzida.",
-   "Bloqueador de canal de cálcio associado a nitrato oral, combinação preferida para reduzir a pós-carga nesse cenário.",
-   "Amiodarona em dose de manutenção somada a anticoagulante oral, indicadas a toda fração de ejeção abaixo de 35% hoje."
+   "Trocar o enalapril por sacubitril-valsartana e iniciar inibidor do SGLT2",
+   "Manter o esquema e reavaliar em seis meses",
+   "Iniciar digoxina para melhorar sintomas",
+   "Acrescentar hidralazina com nitrato",
+   "Indicar cardiodesfibrilador imediatamente"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2026 — terapia medicamentosa fundamental na insuficiência cardíaca com fração reduzida",
-  "coment": "A terapia medicamentosa fundamental na fração de ejeção reduzida tem quatro componentes: betabloqueador; inibidor da enzima conversora, inibidor da neprilisina com bloqueador do receptor ou bloqueador do receptor de angiotensina; antagonista do receptor mineralocorticoide; e inibidor de SGLT2. As quatro classes têm efeito aditivo sobre mortalidade e devem ser iniciadas cedo, em doses baixas e tituladas em paralelo, em vez de sequencialmente ao longo de meses. O diurético trata congestão e alivia sintoma, mas não altera sobrevida. A diretriz de 2026 ainda tornou classe I o antagonista mineralocorticoide na insuficiência cardíaca crônica independentemente da fração de ejeção.",
+  "base": "ESC 2021/2023 — insuficiência cardíaca: quatro pilares e substituição por ARNI",
+  "coment": "Com pressão e função renal preservadas, a troca do inibidor da enzima conversora por sacubitril-valsartana reduz mortalidade além do que o inibidor oferece, e o inibidor do SGLT2 é indicado independentemente de diabetes. Completar os quatro pilares antecede qualquer decisão sobre dispositivo, que se reavalia após três meses de terapia otimizada.",
   "porAlt": [
-   "Correta: os quatro pilares são betabloqueador, bloqueio do sistema renina-angiotensina, antagonista mineralocorticoide e inibidor de SGLT2.",
-   "O diurético de alça alivia congestão e sintoma, mas não reduz mortalidade; deixar a paciente só com ele é subtratamento grave.",
-   "A digoxina hoje é adjuvante para controle de sintomas e frequência, e o tiazídico não faz parte da base terapêutica atual.",
-   "Bloqueadores de canal de cálcio não di-hidropiridínicos são evitados na fração reduzida por efeito inotrópico negativo.",
-   "Amiodarona e anticoagulante não são indicados apenas pela fração baixa; dependem de arritmia e de risco embólico próprios."
+   "Correta: completa os quatro pilares antes de qualquer outra medida.",
+   "Manter esquema incompleto por seis meses desperdiça benefício disponível.",
+   "A digoxina alivia sintoma, mas não é o próximo passo com pilares incompletos.",
+   "Hidralazina com nitrato entra na intolerância ao bloqueio do sistema.",
+   "A avaliação para desfibrilador vem depois dos três meses de terapia otimizada."
   ]
  },
  {
-  "q": "Homem de 71 anos tem insuficiência cardíaca com fração de ejeção de 56%, índice de massa corporal de 36 kg/m², dispneia aos esforços e edema de membros inferiores. Já usa inibidor de SGLT2 e antagonista mineralocorticoide. Segundo a diretriz vigente, que terapia adicional pode ser considerada?",
+  "q": "Homem de 71 anos, hipertenso, refere dispneia aos esforços habituais e edema de tornozelos. Índice de massa corporal de 36 kg/m², pressão de 148/88 mmHg, frequência de 78 bpm, com estertores discretos em bases. O ecocardiograma mostra fração de ejeção de 56%, hipertrofia ventricular esquerda e pressão de enchimento elevada; o NT-proBNP é de 720 pg/mL. Não é diabético e a taxa de filtração glomerular é de 62 mL/min/1,73 m². Qual é a conduta com maior evidência de benefício?",
   "alts": [
-   "Betabloqueador em dose plena, que nesse fenótipo demonstra redução consistente de mortalidade cardiovascular.",
-   "Digoxina em dose de manutenção, indicada como terapia de base para todo paciente com fração preservada.",
-   "Anticoagulação oral plena, recomendada a todos os pacientes com esse fenótipo independentemente do ritmo.",
-   "Agonista do receptor de GLP-1, semaglutida ou tirzepatida, considerado em todo paciente com obesidade.",
-   "Bloqueador de canal de cálcio di-hidropiridínico, considerado o quarto pilar do tratamento nesse fenótipo."
+   "Iniciar inibidor do SGLT2",
+   "Iniciar digoxina em dose baixa",
+   "Iniciar betabloqueador para a hipertrofia",
+   "Indicar apenas restrição de sódio",
+   "Iniciar nitrato de ação prolongada"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2026 — recomendação classe IIa de semaglutida ou tirzepatida na fração preservada com obesidade",
-  "coment": "Na fração de ejeção preservada, a base medicamentosa passou a ser antagonista mineralocorticoide somado a inibidor de SGLT2. A diretriz de 2026 acrescentou recomendação classe IIa para semaglutida ou tirzepatida em pacientes com fração preservada e obesidade, apoiada em ensaios que mostraram melhora de sintomas, de capacidade funcional e de qualidade de vida nesse fenótipo — em que a obesidade não é comorbidade acessória, e sim parte do mecanismo. O betabloqueador não tem benefício de mortalidade demonstrado na fração preservada e é usado por indicação própria, como controle de frequência.",
+  "base": "ESC 2023 — insuficiência cardíaca de fração preservada: EMPEROR-Preserved e DELIVER",
+  "coment": "Na insuficiência cardíaca de fração preservada, os inibidores do SGLT2 são a única classe com redução consistente do desfecho combinado de morte cardiovascular e internação, demonstrada nos ensaios EMPEROR-Preserved e DELIVER. Com obesidade associada, os análogos de GLP-1 entraram como opção adicional na diretriz de 2026.",
   "porAlt": [
-   "O betabloqueador não demonstrou redução de mortalidade na fração preservada; entra por indicação própria, não como pilar.",
-   "A digoxina não é terapia de base na fração preservada e pode ser mal tolerada, sobretudo no idoso com função renal limítrofe.",
-   "A anticoagulação depende de fibrilação atrial ou de outra indicação específica, e não do fenótipo de insuficiência cardíaca.",
-   "Correta: a diretriz de 2026 passou a considerar semaglutida ou tirzepatida na fração preservada quando há obesidade associada.",
-   "Não há quarto pilar com bloqueador de canal de cálcio; essa classe não integra o tratamento de base desse fenótipo."
+   "Correta: é a classe com benefício demonstrado nesse fenótipo.",
+   "A digoxina não tem benefício demonstrado na fração preservada.",
+   "O betabloqueador não modifica desfecho nesse fenótipo.",
+   "A restrição de sódio é medida adjuvante, não a de maior evidência.",
+   "O nitrato piorou o desempenho funcional no ensaio NEAT-HFpEF."
   ]
  },
  {
-  "q": "Homem de 69 anos chega à emergência com dispneia em repouso, estertores até terços médios, ortopneia e saturação de 88% em ar ambiente. A pressão é de 168/96 mmHg e há insuficiência cardíaca conhecida. Qual é a conduta inicial correta?",
+  "q": "Homem de 69 anos chega à emergência com dispneia intensa em repouso iniciada há duas horas. Está sentado, com tiragem, sudorese e agitação. Pressão de 196/112 mmHg, frequência de 128 bpm, saturação de 82% em ar ambiente, estertores crepitantes até os ápices e ortopneia. A radiografia mostra congestão bilateral em asa de borboleta. Não há dor torácica e o eletrocardiograma mostra sobrecarga ventricular esquerda sem supradesnivelamento. Qual é a conduta inicial?",
   "alts": [
-   "Expansão volêmica com cristaloide, para melhorar a pré-carga e o débito cardíaco desse paciente.",
-   "Betabloqueador endovenoso em bolus, para reduzir de imediato a frequência e o consumo de oxigênio.",
-   "Ventilação não invasiva com vasodilatador endovenoso e diurético de alça, tratando a congestão.",
-   "Apenas oxigênio por cateter nasal, adiando qualquer droga até que o ecocardiograma seja realizado.",
-   "Morfina endovenosa em dose alta como primeira medida, por reduzir a ansiedade e a pré-carga logo."
+   "Ventilação não invasiva e nitrato intravenoso",
+   "Reposição volêmica e oxigênio por cateter",
+   "Intubação orotraqueal imediata",
+   "Dobutamina em dose baixa",
+   "Furosemida oral e observação"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ESC 2026 — insuficiência cardíaca descompensada, perfil congestivo com pressão elevada",
-  "coment": "O quadro é insuficiência cardíaca descompensada com congestão pulmonar e pressão elevada, o perfil que mais se beneficia de vasodilatador. A conduta reúne ventilação não invasiva, que reduz o trabalho respiratório e a pré e a pós-carga, vasodilatador endovenoso titulado e diurético de alça para a congestão. Expandir volume nesse perfil piora o edema pulmonar. O betabloqueador endovenoso na descompensação aguda com congestão pode precipitar choque, e a morfina caiu em desuso pela associação com maior necessidade de ventilação invasiva e pior desfecho.",
+  "base": "ESC 2021 — insuficiência cardíaca aguda: edema agudo hipertensivo",
+  "coment": "É edema agudo hipertensivo: a pressão muito elevada produz redistribuição de volume para o pulmão. A ventilação não invasiva com pressão positiva melhora a oxigenação e reduz o trabalho respiratório e a necessidade de intubação; o vasodilatador intravenoso reduz a pós-carga rapidamente. O diurético entra, mas o paciente costuma estar euvolêmico e a pressão é o alvo principal.",
   "porAlt": [
-   "Expandir volume em paciente com edema pulmonar agrava a congestão e a hipoxemia — é o oposto do que o quadro pede.",
-   "Betabloqueador endovenoso na descompensação com congestão franca pode precipitar choque cardiogênico nesse paciente.",
-   "Correta: no perfil congestivo com pressão elevada, a combinação de ventilação não invasiva, vasodilatador e diurético é o padrão.",
-   "Adiar o tratamento até o ecocardiograma é perder tempo: a conduta inicial da congestão é clínica e não depende do exame.",
-   "A morfina foi associada a mais intubação e pior desfecho na descompensação, e deixou de ser medida inicial recomendada."
+   "Correta: pressão positiva e vasodilatador atacam o mecanismo.",
+   "Volume piora a congestão.",
+   "A intubação fica reservada à falha da ventilação não invasiva ou rebaixamento.",
+   "Inotrópico é para o perfil frio, e a pressão aqui está muito elevada.",
+   "A via oral não tem lugar no edema agudo."
   ]
  },
  {
-  "q": "Paciente com insuficiência cardíaca e fração de ejeção de 28% está em uso das quatro classes fundamentais em dose otimizada há seis meses. Mantém classe funcional III, ritmo sinusal, frequência de 78 bpm e QRS de 158 ms com padrão de bloqueio de ramo esquerdo. Qual é a próxima medida indicada?",
+  "q": "Homem de 60 anos com miocardiopatia isquêmica mantém fração de ejeção de 28% após seis meses de sacubitril-valsartana, carvedilol, espironolactona e dapagliflozina em doses-alvo. Está em classe funcional II, sem internações no período, com pressão de 112/70 mmHg, frequência de 64 bpm em ritmo sinusal e QRS de 104 ms. A expectativa de vida com boa qualidade excede um ano. Qual é a conduta?",
   "alts": [
-   "Aumentar a dose do diurético de alça até que os sintomas de classe funcional III desapareçam por fim.",
-   "Terapia de ressincronização cardíaca, indicada nesse padrão de condução com sintomas persistentes.",
-   "Suspender o betabloqueador, cuja bradicardia relativa explicaria a limitação funcional que ele apresenta.",
-   "Iniciar dobutamina em infusão contínua domiciliar, medida que melhora a sobrevida nesse cenário clínico.",
-   "Indicar transplante cardíaco de imediato, sem antes considerar qualquer terapia por dispositivo cardíaco."
+   "Indicar cardiodesfibrilador para prevenção primária",
+   "Indicar ressincronização cardíaca",
+   "Iniciar amiodarona profilática",
+   "Manter apenas a terapia medicamentosa",
+   "Encaminhar para transplante cardíaco"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2026 — terapia por dispositivo na insuficiência cardíaca com fração reduzida e QRS alargado",
-  "coment": "Paciente sintomático apesar de terapia medicamentosa fundamental otimizada, em ritmo sinusal, com fração de ejeção reduzida e QRS alargado com morfologia de bloqueio de ramo esquerdo, é o perfil de maior benefício da ressincronização cardíaca: melhora sintomas, reduz internação e reduz mortalidade, com resposta tanto maior quanto mais largo o QRS e mais típica a morfologia. Aumentar diurético trata congestão, não a dissincronia. A dobutamina contínua é medida paliativa em doença avançada, associada a arritmia, e não melhora sobrevida. O transplante é considerado depois de esgotadas as terapias estabelecidas.",
+  "base": "ESC 2021 — insuficiência cardíaca: desfibrilador na prevenção primária isquêmica",
+  "coment": "Fração de ejeção igual ou inferior a 35% após pelo menos três meses de terapia otimizada, em paciente sintomático de etiologia isquêmica e com expectativa de vida superior a um ano, é indicação de classe I de desfibrilador para prevenção primária de morte súbita. O QRS estreito afasta a ressincronização.",
   "porAlt": [
-   "Subir o diurético alivia congestão mas não corrige a dissincronia ventricular que limita este paciente já otimizado.",
-   "Correta: sintomas persistentes com fração reduzida, ritmo sinusal e bloqueio de ramo esquerdo largo indicam ressincronização.",
-   "Retirar o betabloqueador em fração reduzida piora o prognóstico; a frequência de 78 bpm não caracteriza bradicardia.",
-   "A dobutamina contínua é recurso paliativo na doença avançada, com mais arritmia e sem ganho de sobrevida demonstrado.",
-   "O transplante entra depois das terapias estabelecidas, entre elas o dispositivo que este paciente ainda não recebeu."
+   "Correta: etiologia isquêmica, fração ≤ 35% após terapia otimizada.",
+   "A ressincronização exige QRS de pelo menos 130 ms, e aqui é de 104 ms.",
+   "A amiodarona não reduz mortalidade na prevenção primária.",
+   "Manter só medicamento deixa de fora a prevenção de morte súbita indicada.",
+   "Ele está em classe II sem internações: não é insuficiência cardíaca avançada."
   ]
  },
  {
-  "q": "Mulher de 63 anos, hipertensa e diabética, é atendida em consulta de rotina sem sintomas cardiovasculares. O eletrocardiograma é normal e o ecocardiograma mostra hipertrofia ventricular esquerda com fração de ejeção de 60%. Segundo o estadiamento adotado pela diretriz vigente, em que estágio ela se encontra e o que isso implica?",
+  "q": "Mulher de 63 anos, hipertensa e diabética em uso de metformina e losartana, comparece a consulta de rotina sem sintomas cardiovasculares. Pressão de 134/82 mmHg, frequência de 72 bpm, índice de massa corporal de 29 kg/m². O eletrocardiograma de rotina mostra ritmo sinusal com onda Q de 0,04 s e 3 mm de profundidade em DII, DIII e aVF, com ondas T achatadas nessas derivações. Ela nega dor torácica atual ou passada. Qual é a conduta?",
   "alts": [
-   "Estágio A, porque a ausência de sintomas exclui qualquer alteração estrutural relevante no coração.",
-   "Estágio C, uma vez que a hipertrofia ventricular equivale a sintomas manifestos de insuficiência.",
-   "Estágio D, reservado a quem apresenta hipertrofia ventricular associada a diabetes de longa data.",
-   "Fora do estadiamento, que se aplica apenas a pacientes já sintomáticos e em acompanhamento regular.",
-   "Estágio B, com doença estrutural sem sintomas, o que já indica intervir para evitar a progressão."
+   "Investigar isquemia com exame não invasivo",
+   "Considerar achado normal e repetir em um ano",
+   "Iniciar dupla antiagregação empírica",
+   "Solicitar coronariografia imediata",
+   "Atribuir a alteração ao diabetes e observar"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "ESC 2026 — estadiamento em quatro estágios (A a D) e ênfase em prevenção",
-  "coment": "A diretriz de 2026 adotou quatro estágios: A, para quem tem fatores de risco sem doença estrutural ou sintomas; B, para doença estrutural ou funcional sem sintomas, situação antes chamada de pré-insuficiência cardíaca; C, para quem tem ou teve sintomas; e D, para doença avançada e refratária. A paciente tem hipertrofia ventricular sem sintomas, portanto estágio B — e a mensagem prática do estadiamento é exatamente essa: o estágio B pede intervenção, com controle rigoroso de pressão e escolha de hipoglicemiante com benefício cardiovascular, para impedir a progressão ao estágio sintomático.",
+  "base": "ESC 2024 — síndromes coronarianas crônicas: onda Q patológica e infarto silencioso",
+  "coment": "Ondas Q patológicas em derivações contíguas sugerem infarto prévio, possivelmente silencioso — apresentação mais frequente em diabéticos por neuropatia autonômica. O achado muda a estratificação de risco e exige investigação de isquemia e de função ventricular antes de qualquer decisão terapêutica.",
   "porAlt": [
-   "O estágio A é o de fatores de risco sem alteração estrutural, e a hipertrofia já demonstra acometimento do órgão.",
-   "O estágio C exige sintomas atuais ou pregressos de insuficiência cardíaca, que esta paciente não apresenta.",
-   "O estágio D descreve doença avançada e refratária ao tratamento, situação muito distante do quadro atual dela.",
-   "O estadiamento cobre desde quem apenas tem risco, justamente para orientar prevenção antes do primeiro sintoma.",
-   "Correta: doença estrutural sem sintomas é estágio B, e a diretriz enfatiza intervir aí para evitar a progressão."
+   "Correta: a onda Q patológica exige investigação, mesmo sem sintoma.",
+   "Onda Q de 3 mm em derivações contíguas não é variante normal.",
+   "Antiagregação dupla sem diagnóstico não se justifica.",
+   "O invasivo não é o primeiro passo em assintomática.",
+   "Atribuir ao diabetes sem investigar é justamente perder o infarto silencioso."
   ]
  },
  {
@@ -6744,99 +6744,99 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 51 anos, sem comorbidades, tem medidas repetidas de pressão arterial em torno de 158/96 mmHg no consultório, confirmadas fora dele. O risco cardiovascular é alto pela presença de dislipidemia e história familiar precoce. Segundo a diretriz brasileira vigente, como iniciar o tratamento?",
+  "q": "Homem de 51 anos, sem comorbidades, tem medidas repetidas de pressão em torno de 158/96 mmHg no consultório, confirmadas por MRPA com média de 152/94 mmHg. É sedentário, tem índice de massa corporal de 29 kg/m², não fuma, e os exames mostram creatinina de 0,9 mg/dL, potássio de 4,1 mEq/L, glicemia de 96 mg/dL e LDL de 128 mg/dL. O eletrocardiograma é normal e não há albuminúria. Qual é a conduta inicial?",
   "alts": [
-   "Monoterapia em dose baixa por seis meses, reservando a segunda droga apenas se a meta não for alcançada depois.",
-   "Apenas mudanças de estilo de vida por um ano, adiando qualquer fármaco enquanto não houver lesão de órgão.",
-   "Três classes simultâneas desde a primeira consulta, esquema padrão para qualquer hipertensão de estágio 2.",
-   "Combinação de duas classes desde o início, de preferência em comprimido único, sempre com estilo de vida.",
-   "Betabloqueador isolado como primeira escolha, por ser a classe de melhor perfil nesse patamar de pressão."
+   "Associação de dois fármacos em comprimido único",
+   "Monoterapia com diurético tiazídico",
+   "Apenas mudança de estilo de vida por seis meses",
+   "Monoterapia com betabloqueador",
+   "Associação de três fármacos de imediato"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025, capítulo 7 (tratamento medicamentoso)",
-  "coment": "A diretriz brasileira de 2025 recomenda, com força FORTE, iniciar o tratamento da hipertensão com associação dupla de medicamentos em doses baixas, preferencialmente em comprimido único, para a MAIORIA dos pacientes — e não apenas nos de pressão mais alta. A monoterapia ficou com recomendação fraca e reservada a situações específicas: pressão de 130-139/80-89 mmHg com alto risco cardiovascular, hipertensão estágio 1 de baixo risco a critério médico, pacientes frágeis, muito idosos com 80 anos ou mais e hipotensão ortostática sintomática. As classes preferenciais são diurético tiazídico ou similar, inibidor da enzima conversora ou bloqueador do receptor, e bloqueador de canal de cálcio. A meta é pressão abaixo de 130/80 mmHg para todos os hipertensos, independentemente do risco cardiovascular ser baixo, moderado ou alto.",
+  "base": "SBC 2025 — hipertensão: início com dois fármacos no estágio 2",
+  "coment": "Hipertensão estágio 2 confirmada indica início com dois fármacos, preferencialmente em associação fixa — a combinação alcança a meta em mais pacientes, mais rápido, e melhora a adesão. As combinações preferenciais associam bloqueador do sistema renina-angiotensina a bloqueador de canal de cálcio ou a diurético tiazídico.",
   "porAlt": [
-   "A monoterapia tem recomendação fraca e é reservada a perfis específicos — frágil, muito idoso, estágio 1 de baixo risco —, o que não é o caso deste paciente de alto risco.",
-   "Adiar o fármaco por um ano em paciente de alto risco com estágio 2 deixa exposição pressórica acumulada sem necessidade.",
-   "Três classes de saída não é o padrão inicial; a escalada para o terceiro fármaco vem se a meta não for alcançada.",
-   "Correta: a diretriz brasileira de 2025 indica começar com associação dupla em doses baixas, de preferência em comprimido único, para a maioria dos pacientes.",
-   "O betabloqueador entra por indicação própria, como coronariopatia ou arritmia, e não como primeira escolha isolada."
+   "Correta: estágio 2 começa com dois fármacos em associação.",
+   "A monoterapia raramente alcança a meta no estágio 2.",
+   "Estilo de vida isolado por seis meses adia o controle necessário.",
+   "O betabloqueador não é primeira linha sem indicação específica.",
+   "Três fármacos de entrada não é a recomendação inicial."
   ]
  },
  {
-  "q": "Mulher de 67 anos em uso de três anti-hipertensivos em dose otimizada, incluindo diurético tiazídico, mantém pressão de 156/94 mmHg confirmada fora do consultório. A adesão foi verificada e não há uso de anti-inflamatórios. Qual é a próxima medida?",
+  "q": "Mulher de 67 anos usa losartana 100 mg, anlodipino 10 mg e hidroclorotiazida 25 mg em doses otimizadas há seis meses, com adesão confirmada por contagem de comprimidos. Mantém pressão de 162/98 mmHg em consultório e MAPA de vigília com média de 154/94 mmHg. Potássio de 3,2 mEq/L, creatinina de 1,0 mg/dL e relação aldosterona-renina elevada. A tomografia mostra nódulo adrenal esquerdo de 1,8 cm. Qual é a conduta?",
   "alts": [
-   "Acrescentar espironolactona, quarta droga com melhor evidência na hipertensão resistente comprovada.",
-   "Trocar as três classes por outras três, mantendo o mesmo número de fármacos no esquema terapêutico.",
-   "Iniciar investigação apenas com dosagem de cortisol sérico, adiando qualquer ajuste farmacológico agora.",
-   "Suspender o diurético, que nessa faixa etária costuma elevar a pressão em vez de reduzi-la no seguimento.",
-   "Aumentar todas as doses acima do máximo de bula antes de considerar acrescentar uma quarta classe."
+   "Investigar hiperaldosteronismo primário com cateterismo de veias adrenais",
+   "Acrescentar espironolactona sem investigação adicional",
+   "Indicar adrenalectomia esquerda de imediato",
+   "Trocar a hidroclorotiazida por clortalidona",
+   "Encaminhar para denervação renal"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; definição e manejo da hipertensão resistente",
-  "coment": "Hipertensão resistente é a que permanece acima da meta apesar de três classes em dose otimizada, uma delas diurético, confirmada fora do consultório e com adesão verificada — exatamente o caso. O quarto fármaco com melhor evidência é a espironolactona, apoiada em ensaio que a comparou a outras opções e mostrou superioridade na redução pressórica. O acompanhamento exige controle de potássio e função renal. Em paralelo, investiga-se hipertensão secundária, sobretudo hiperaldosteronismo primário, apneia do sono, doença renal e estenose de artéria renal, mas a investigação não adia a otimização do tratamento.",
+  "base": "SBC 2025 — hipertensão secundária: hiperaldosteronismo primário e cateterismo adrenal",
+  "coment": "Hipertensão resistente com hipocalemia espontânea, relação aldosterona-renina elevada e nódulo adrenal aponta hiperaldosteronismo primário. A tomografia não distingue adenoma funcionante de nódulo não funcionante com hiperplasia contralateral, e o cateterismo de veias adrenais é o exame que lateraliza a produção e decide entre cirurgia e tratamento clínico.",
   "porAlt": [
-   "Correta: na hipertensão resistente confirmada, a espironolactona é a quarta droga com melhor evidência de redução pressórica.",
-   "Trocar as classes sem acrescentar a quarta droga não resolve resistência e reinicia a titulação sem ganho esperado.",
-   "O cortisol isolado investiga uma causa pouco provável e adiar o ajuste mantém a paciente exposta à pressão elevada.",
-   "O diurético é peça central no esquema da hipertensão resistente; retirá-lo tende a piorar o controle pressórico.",
-   "Ultrapassar a dose máxima de bula soma efeito adverso sem ganho pressórico proporcional ao risco assumido."
+   "Correta: o cateterismo lateraliza e define cirurgia ou tratamento clínico.",
+   "Iniciar espironolactona antes mascara a dosagem e impede a investigação.",
+   "Operar sem lateralizar pode retirar uma adrenal não funcionante.",
+   "Trocar o tiazídico não investiga a causa secundária evidente.",
+   "A denervação vem depois de excluídas as causas secundárias."
   ]
  },
  {
-  "q": "Homem de 62 anos chega à emergência com pressão de 210/126 mmHg, cefaleia intensa, turvação visual e creatinina que subiu de 1,1 para 2,0 mg/dL em duas semanas, com hematúria. Está lúcido. Qual é a conduta correta?",
+  "q": "Homem de 62 anos chega à emergência com cefaleia intensa e turvação visual há seis horas. Pressão de 210/126 mmHg em ambos os braços, frequência de 92 bpm. A fundoscopia mostra papiledema e hemorragias em chama de vela. Creatinina de 2,4 mg/dL, subindo de 1,1 mg/dL há três meses, com hematúria dismórfica e proteinúria. Desidrogenase láctica elevada e esquizócitos no sangue periférico. Qual é a conduta?",
   "alts": [
-   "Prescrever captopril sublingual e liberar para casa assim que a pressão cair abaixo de 180/110 mmHg.",
-   "Baixar a pressão para valores normais na primeira hora, evitando qualquer atraso na correção do quadro.",
-   "Reduzir a pressão de forma controlada por via endovenosa, pois há lesão aguda de órgão-alvo em curso.",
-   "Apenas observar por seis horas sem medicação, já que o paciente está lúcido e sem déficit neurológico.",
-   "Iniciar anti-hipertensivo oral e agendar retorno ambulatorial em trinta dias para só então reavaliar."
+   "Redução da pressão com nitroprussiato intravenoso em ambiente monitorado",
+   "Captopril sublingual e reavaliação em uma hora",
+   "Redução rápida para menos de 140/90 mmHg em duas horas",
+   "Anti-hipertensivo oral e alta com retorno em 48 horas",
+   "Observação sem anti-hipertensivo até a creatinina estabilizar"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; emergência hipertensiva com lesão de órgão-alvo",
-  "coment": "Pressão muito elevada acompanhada de lesão aguda de órgão-alvo — aqui, injúria renal com hematúria e sintomas visuais — caracteriza emergência hipertensiva, que exige redução controlada por via endovenosa em ambiente monitorado. A meta é reduzir cerca de 20% a 25% da pressão arterial média na primeira hora, e não normalizar depressa: queda abrupta compromete a perfusão cerebral, coronária e renal, deslocada da curva de autorregulação de quem convive com pressão alta. Captopril sublingual foi abandonado justamente por produzir queda imprevisível e não controlável.",
+  "base": "SBC 2025 — emergências hipertensivas: hipertensão maligna e redução controlada",
+  "coment": "Papiledema com lesão renal aguda e microangiopatia trombótica caracteriza emergência hipertensiva com hipertensão maligna. O tratamento é intravenoso, titulável, em ambiente monitorado, com redução de até 25% da pressão arterial média na primeira hora — queda mais rápida compromete a perfusão de órgãos com autorregulação já deslocada.",
   "porAlt": [
-   "O captopril sublingual produz queda imprevisível e foi abandonado; liberar para casa ignora a lesão renal em curso.",
-   "Normalizar a pressão na primeira hora provoca hipoperfusão de cérebro, coração e rim em quem tem autorregulação deslocada.",
-   "Correta: há lesão aguda de órgão-alvo, o que caracteriza emergência hipertensiva e exige redução controlada por via endovenosa.",
-   "Observar sem tratar diante de injúria renal aguda e sintomas visuais permite que a lesão de órgão progrida.",
-   "Retorno em trinta dias é conduta de urgência hipertensiva sem lesão de órgão, situação diferente da descrita aqui."
+   "Correta: fármaco intravenoso titulável, com redução controlada.",
+   "Captopril sublingual produz queda imprevisível e não é recomendado.",
+   "Normalizar em duas horas provoca isquemia cerebral e renal.",
+   "Alta com lesão de órgão-alvo em curso não é opção.",
+   "Deixar sem tratamento perpetua a lesão."
   ]
  },
  {
-  "q": "Durante a discussão de um caso, o preceptor pergunta ao residente qual é a diferença prática entre urgência e emergência hipertensiva. Qual resposta está correta?",
+  "q": "Mulher de 58 anos chega à emergência com pressão de 198/118 mmHg aferida em casa e cefaleia leve. Está lúcida, sem déficit neurológico, sem dor torácica ou dispneia. A fundoscopia não mostra papiledema, o eletrocardiograma é normal, a creatinina é de 1,0 mg/dL igual à de três meses atrás, a troponina é indetectável e a radiografia de tórax é normal. Ela havia suspendido os anti-hipertensivos por conta própria há uma semana. Qual é a conduta?",
   "alts": [
-   "A emergência é definida por pressão sistólica acima de 220 mmHg, independentemente de qualquer sintoma.",
-   "A urgência exige internação em unidade de terapia intensiva e redução pressórica por via endovenosa.",
-   "A diferença está no tempo de evolução: acima de doze horas de sintomas, todo quadro vira emergência.",
-   "A emergência tem lesão aguda de órgão-alvo; a urgência não, e o número da pressão não define a diferença.",
-   "São sinônimos na prática clínica atual, e ambos exigem a mesma velocidade de redução da pressão arterial."
+   "Reintroduzir anti-hipertensivo oral e reavaliar em 24 a 48 horas",
+   "Nitroprussiato intravenoso em terapia intensiva",
+   "Reduzir a pressão para menos de 140/90 mmHg antes da alta",
+   "Captopril sublingual seriado até normalizar",
+   "Internar para investigação de causa secundária"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; distinção entre urgência e emergência hipertensiva",
-  "coment": "A separação é clínica e não numérica: emergência hipertensiva é a elevação pressórica acompanhada de lesão aguda de órgão-alvo — encefalopatia, acidente vascular cerebral, edema agudo de pulmão, síndrome coronariana, dissecção de aorta, injúria renal aguda, eclâmpsia —, e exige redução controlada por via parenteral em ambiente monitorado. Urgência é a elevação importante sem lesão aguda de órgão, tratada com medicação oral e redução em 24 a 48 horas, em geral sem internação. Tratar urgência como emergência causa hipoperfusão iatrogênica; o contrário custa órgão.",
+  "base": "SBC 2025 — urgência e emergência hipertensiva: definição pela lesão de órgão-alvo",
+  "coment": "Sem lesão aguda de órgão-alvo, o quadro é urgência hipertensiva — pressão muito elevada sem dano em curso. A redução deve ser gradual, em 24 a 48 horas, com anti-hipertensivo oral e reavaliação ambulatorial precoce. A diferença entre urgência e emergência não está no número da pressão, e sim na presença de lesão aguda de órgão-alvo.",
   "porAlt": [
-   "Não existe corte numérico que defina emergência: pacientes com valores altíssimos podem estar sem lesão de órgão.",
-   "A urgência é tratada por via oral, com redução em 24 a 48 horas, e em geral sem necessidade de terapia intensiva.",
-   "O tempo de sintomas não converte urgência em emergência; o que converte é o surgimento de lesão aguda de órgão.",
-   "Correta: o que separa as duas é a presença de lesão aguda de órgão-alvo, e não o valor absoluto da pressão arterial.",
-   "São entidades distintas com velocidades de redução diferentes, e tratá-las igual gera dano em uma das direções."
+   "Correta: sem lesão aguda, redução gradual por via oral.",
+   "O intravenoso é para emergência com lesão de órgão-alvo.",
+   "Normalizar antes da alta expõe a hipoperfusão sem ganho.",
+   "O sublingual seriado produz quedas abruptas e imprevisíveis.",
+   "Não há indicação de internação, e a causa aqui é a suspensão do tratamento."
   ]
  },
  {
@@ -7728,243 +7728,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 63 anos, diabética, chega com dor torácica em aperto há 4 horas, em repouso. O eletrocardiograma mostra infradesnivelamento de ST de 1,5 mm em V4 a V6 e a troponina ultrassensível está elevada, com curva ascendente. Está estável, sem sinais de insuficiência cardíaca. Qual é a conduta?",
+  "q": "Mulher de 63 anos, diabética e hipertensa, chega com dor torácica em aperto há 4 horas, em repouso, com náusea. Está com pressão de 128/78 mmHg, frequência de 96 bpm e ausculta normal. O eletrocardiograma mostra infradesnivelamento de ST de 2 mm em V4 a V6, DI e aVL. A troponina de alta sensibilidade é de 240 ng/L na chegada e 680 ng/L após 1 hora. O escore GRACE é de 152 pontos. Está sem dor após nitrato e morfina. Qual é a conduta?",
   "alts": [
-   "Liberar após alívio da dor, com reavaliação ambulatorial marcada para dentro de trinta dias.",
-   "Internar sempre com antiagregação, anticoagulação e coronariografia precoce em 24 horas.",
-   "Administrar fibrinolítico imediatamente, indicado sempre que a troponina estiver elevada.",
-   "Solicitar teste ergométrico ainda hoje, antes de qualquer decisão sobre internação da paciente.",
-   "Apenas observar por doze horas sem medicação, repetindo o eletrocardiograma antes da alta."
+   "Coronariografia em até 24 horas",
+   "Coronariografia imediata, em menos de 2 horas",
+   "Fibrinólise imediata",
+   "Estratégia conservadora com teste funcional em 72 horas",
+   "Coronariografia eletiva ambulatorial"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "European Society of Cardiology, 2023 — Guidelines for the management of acute coronary syndromes",
-  "coment": "Trata-se de síndrome coronariana aguda sem supradesnivelamento de ST com troponina elevada, ou seja, infarto sem supra. A conduta é internação com dupla antiagregação conforme a estratégia planejada, anticoagulação parenteral e estratificação invasiva precoce, com coronariografia em até 24 horas nos pacientes de alto risco — critério que a elevação de troponina já preenche. Fibrinolítico é contraindicado na síndrome sem supra de ST: não há benefício e há risco de sangramento. Teste ergométrico é contraindicado em quadro instável com troponina positiva.",
+  "base": "ACC/AHA 2025 e ESC 2023 — SCA sem supra: estratificação e tempo da coronariografia",
+  "coment": "É síndrome coronariana aguda sem supradesnivelamento de risco alto: troponina com curva ascendente e GRACE acima de 140. A recomendação é estratégia invasiva precoce, em até 24 horas. A estratégia imediata, em menos de 2 horas, é reservada ao risco muito alto — instabilidade hemodinâmica, arritmia grave, dor refratária ou insuficiência cardíaca aguda —, ausente aqui.",
   "porAlt": [
-   "Liberar paciente com troponina em curva ascendente e dor em repouso arrisca infarto extenso e morte súbita.",
-   "Correta: infarto sem supra de ST é de alto risco e exige internação, antitrombóticos e coronariografia em até 24 horas.",
-   "O fibrinolítico não tem indicação na síndrome sem supra de ST, onde acrescenta sangramento sem benefício.",
-   "Teste ergométrico é formalmente contraindicado em síndrome coronariana instável com marcador já elevado.",
-   "Observar sem antitrombótico em quadro de alto risco desperdiça o tratamento que reduz eventos nas primeiras horas."
+   "Correta: risco alto pelo GRACE e pela curva de troponina.",
+   "O risco muito alto exige instabilidade, que ela não apresenta.",
+   "Não há supradesnivelamento: fibrinólise é contraindicada e pode causar dano.",
+   "A conservadora é para risco baixo.",
+   "Adiar para o ambulatório em risco alto aumenta eventos."
   ]
  },
  {
-  "q": "Homem de 55 anos, sem doença cardiovascular estabelecida, tem LDL-colesterol de 168 mg/dL, hipertensão controlada e é tabagista. O risco cardiovascular calculado é alto. Qual é a conduta quanto ao tratamento hipolipemiante?",
+  "q": "Homem de 55 anos, hipertenso controlado com losartana, sem doença cardiovascular estabelecida e não diabético, tem LDL-colesterol de 168 mg/dL em duas dosagens, HDL de 42 mg/dL e triglicérides de 180 mg/dL. É tabagista de 15 cigarros por dia. Pressão de 132/82 mmHg, índice de massa corporal de 28 kg/m². O risco cardiovascular calculado em dez anos é de 18%. Qual é a conduta em relação ao lípide?",
   "alts": [
-   "Apenas orientar dieta por um ano, adiando qualquer estatina enquanto não houver evento clínico.",
-   "Iniciar fibrato como primeira escolha, classe preferida para já reduzir o LDL-colesterol elevado.",
-   "Iniciar estatina de alta potência, com meta de LDL definida pela categoria de risco do paciente.",
-   "Iniciar ezetimiba isolada, que reduz o LDL mais intensamente que qualquer estatina já disponível.",
-   "Prescrever ômega-3 em dose alta como monoterapia, medida suficiente para atingir a meta lipídica."
+   "Estatina de alta potência com meta de LDL abaixo de 70 mg/dL",
+   "Estatina de baixa potência com meta de LDL abaixo de 130 mg/dL",
+   "Apenas dieta e exercício por seis meses",
+   "Ezetimiba isolada",
+   "Fibrato como primeira escolha"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose — SBC, 2017/2019; ESC 2019",
-  "coment": "Em prevenção primária de alto risco, a estatina de alta potência é a base do tratamento, associada a mudanças de estilo de vida e, aqui, à cessação do tabagismo, que é a intervenção isolada de maior impacto neste paciente. As metas de LDL são progressivamente mais baixas conforme a categoria de risco, e a ezetimiba entra como associação quando a meta não é alcançada com estatina em dose otimizada. O fibrato atua sobretudo sobre triglicérides, não sendo a escolha para reduzir LDL, e o ômega-3 não substitui a estatina na prevenção de eventos.",
+  "base": "SBC 2025 e AHA/ACC — dislipidemia: metas por estrato de risco",
+  "coment": "Risco cardiovascular alto em prevenção primária — acima de 20% pelo escore global, ou entre 7,5% e 20% com agravantes como tabagismo e LDL acima de 160 mg/dL — indica estatina de alta potência, com meta de LDL abaixo de 70 mg/dL e redução de pelo menos 50% do valor basal. A cessação do tabagismo é a outra medida de maior impacto.",
   "porAlt": [
-   "Adiar a estatina por um ano em paciente de alto risco acumula exposição ao LDL, que é causal na aterosclerose.",
-   "O fibrato reduz sobretudo triglicérides e tem efeito modesto sobre o LDL, não sendo a escolha nesse cenário.",
-   "Correta: alto risco cardiovascular indica estatina de alta potência com meta de LDL definida pela categoria de risco.",
-   "A ezetimiba isolada reduz bem menos o LDL que a estatina, e seu papel principal é como terapia associada.",
-   "O ômega-3 não substitui a estatina e não demonstrou reduzir eventos como monoterapia nessa indicação."
+   "Correta: risco alto exige estatina de alta potência e meta abaixo de 70 mg/dL.",
+   "Baixa potência não alcança a redução necessária nesse risco.",
+   "Adiar seis meses com LDL de 168 mg/dL e tabagismo não é prudente.",
+   "A ezetimiba entra associada, não isolada.",
+   "O fibrato trata hipertrigliceridemia, não é primeira escolha para LDL."
   ]
  },
  {
-  "q": "Homem de 70 anos com fibrilação atrial permanente e escore CHA₂DS₂-VA de 5 pontos será submetido a colonoscopia eletiva com possível polipectomia. Usa apixabana. Qual é a conduta quanto à anticoagulação no periprocedimento?",
+  "q": "Homem de 70 anos com fibrilação atrial permanente e escore CHA₂DS₂-VA de 5 pontos usa apixabana 5 mg duas vezes ao dia há três anos. Será submetido a colonoscopia com polipectomia programada em duas semanas, após achado de pólipo em rastreamento. A creatinina é de 1,0 mg/dL, com clearance estimado de 68 mL/min, hemoglobina de 13,8 g/dL e plaquetas de 210 mil. Não teve sangramento prévio, não tem prótese valvar nem evento embólico nos últimos três meses. Qual é a conduta com a anticoagulação?",
   "alts": [
-   "Suspender a apixabana por poucos dias conforme função renal e risco do procedimento, sem ponte.",
-   "Manter a apixabana sem qualquer interrupção, independentemente do risco hemorrágico do exame.",
-   "Suspender e fazer ponte com heparina de baixo peso molecular em todos os já anticoagulados.",
-   "Suspender a apixabana por trinta dias antes do exame, para garantir a normalização da coagulação.",
-   "Trocar por varfarina duas semanas antes do procedimento, o que facilita o controle da coagulação."
+   "Suspender a apixabana 48 horas antes, sem ponte",
+   "Suspender e fazer ponte com heparina de baixo peso",
+   "Manter a apixabana durante o procedimento",
+   "Suspender por sete dias antes do exame",
+   "Trocar por varfarina antes do procedimento"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "European Society of Cardiology, 2024 — manejo periprocedimento de anticoagulante oral direto na fibrilação atrial",
-  "coment": "Os anticoagulantes orais diretos têm meia-vida curta e previsível, o que dispensa a ponte com heparina na imensa maioria dos casos — a ponte aumenta sangramento sem reduzir eventos tromboembólicos, achado consistente em ensaio clínico. A suspensão é breve, tipicamente de um a dois dias antes de procedimento de risco hemorrágico baixo a moderado, ajustada pela função renal e pela droga. Trocar por varfarina antes de um procedimento é conduta oposta à racional: prolonga o tempo de exposição e complica o controle sem qualquer vantagem.",
+  "base": "ESC 2024 — fibrilação atrial: manejo periprocedimento dos anticoagulantes diretos",
+  "coment": "Polipectomia é procedimento de risco hemorrágico alto, o que exige interromper o anticoagulante direto — 48 horas antes com função renal preservada. A ponte com heparina não é feita com anticoagulantes diretos: eles têm início e fim de ação rápidos, e a ponte só aumenta sangramento sem reduzir embolia.",
   "porAlt": [
-   "Correta: suspende-se o anticoagulante direto por poucos dias conforme função renal e risco do exame, sem ponte com heparina.",
-   "Manter sem interrupção em procedimento com possibilidade de polipectomia expõe o paciente a sangramento evitável.",
-   "A ponte com heparina aumenta sangramento sem reduzir tromboembolismo e foi abandonada na maioria dos casos.",
-   "Trinta dias sem anticoagulação em escore de 5 pontos expõe o paciente a risco embólico alto e desnecessário.",
-   "Trocar por varfarina complica o controle, prolonga a interrupção efetiva e não traz vantagem periprocedimento."
+   "Correta: suspensão curta e sem ponte é o padrão com os diretos.",
+   "A ponte aumenta sangramento sem benefício embólico nos diretos.",
+   "Manter em procedimento de alto risco hemorrágico não é seguro.",
+   "Sete dias é intervalo desnecessariamente longo e expõe à embolia.",
+   "Trocar por varfarina complica o manejo sem qualquer ganho."
   ]
  },
  {
-  "q": "Mulher de 38 anos, previamente hígida, chega com dispneia e dor torácica após viagem longa de avião. Está com frequência de 112 bpm, saturação de 93% e pressão de 118/74 mmHg. O eletrocardiograma mostra taquicardia sinusal e a radiografia de tórax é normal. Qual é o próximo passo?",
+  "q": "Mulher de 38 anos, previamente hígida e em uso de contraceptivo oral, chega com dispneia súbita e dor torácica pleurítica após viagem de avião de 11 horas. Está com frequência de 112 bpm, frequência respiratória de 24 irpm, saturação de 92% em ar ambiente e pressão de 118/74 mmHg. Não há edema de membros inferiores nem sinais de trombose. O eletrocardiograma mostra taquicardia sinusal e a radiografia de tórax é normal. Qual é a conduta inicial?",
   "alts": [
-   "Aplicar sempre um escore de probabilidade e, se baixa, usar o dímero D para excluir a embolia.",
-   "Solicitar angiotomografia de tórax para todos os pacientes com dispneia após viagem prolongada.",
-   "Iniciar anticoagulação plena empírica sem qualquer estratificação de probabilidade clínica antes.",
-   "Solicitar apenas ecocardiograma transtorácico, exame que exclui com segurança a embolia pulmonar.",
-   "Liberar com analgesia, já que a radiografia de tórax normal afasta causa cardiopulmonar aguda grave."
+   "Angiotomografia de tórax",
+   "Dosar dímero D e liberar se negativo",
+   "Iniciar anticoagulação empírica e observar",
+   "Cintilografia de ventilação-perfusão",
+   "Ecocardiograma transtorácico"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r1",
-  "base": "European Society of Cardiology, 2019 — Guidelines for the diagnosis and management of acute pulmonary embolism",
-  "coment": "A investigação de embolia pulmonar começa pela probabilidade clínica, com escore de Wells ou de Genebra. Em probabilidade baixa ou intermediária, o dímero D negativo — idealmente com corte ajustado pela idade — exclui a doença com segurança e evita tomografia desnecessária, sua radiação e o contraste. Em probabilidade alta, o dímero D não deve ser usado e parte-se direto para a angiotomografia, com anticoagulação iniciada enquanto se aguarda. Radiografia normal não afasta embolia; ao contrário, é o achado mais comum na doença.",
+  "base": "AHA/ACC 2026 — tromboembolismo pulmonar: probabilidade pré-teste e angiotomografia",
+  "coment": "O escore de Wells é intermediário a alto — taquicardia acima de 100 bpm, imobilização recente e ausência de diagnóstico mais provável. Nessa faixa o dímero D perde valor de exclusão e a angiotomografia é o exame de escolha, com boa disponibilidade e acurácia. A hipoxemia com radiografia normal reforça a suspeita.",
   "porAlt": [
-   "Correta: estratificar a probabilidade primeiro e, se baixa ou intermediária, usar o dímero D para excluir a embolia.",
-   "Tomografia para todos expõe a radiação e contraste sem necessidade em quem poderia ser excluído pelo dímero D.",
-   "Anticoagular sem estratificar expõe ao sangramento pacientes que não têm a doença que se pretende tratar.",
-   "O ecocardiograma pode sugerir sobrecarga do ventrículo direito, mas um exame normal não exclui embolia pulmonar.",
-   "A radiografia normal é o achado mais comum na embolia pulmonar e não serve para afastar o diagnóstico."
+   "Correta: probabilidade não baixa exige imagem confirmatória.",
+   "O dímero D só exclui com probabilidade baixa ou intermediária pelo escore de dois níveis.",
+   "Anticoagular sem confirmar em paciente estável não é a conduta inicial.",
+   "A cintilografia é alternativa quando há contraindicação ao contraste.",
+   "O ecocardiograma não exclui embolia pulmonar."
   ]
  },
  {
-  "q": "Homem de 71 anos com fibrilação atrial e cardiomiopatia hipertrófica tem escore CHA₂DS₂-VA de 1 ponto. Está assintomático, com pressão controlada e sem sangramento prévio. Segundo a diretriz europeia vigente, qual é a conduta antitrombótica?",
+  "q": "Homem de 71 anos com cardiomiopatia hipertrófica diagnosticada há dez anos, em uso de metoprolol, apresenta fibrilação atrial paroxística documentada em Holter de 24 horas, com dois episódios de até 40 minutos. O escore CHA₂DS₂-VA é de 1 ponto, apenas pela idade. Está assintomático, com pressão de 126/76 mmHg e frequência de 64 bpm. O ecocardiograma mostra septo de 22 mm, gradiente de via de saída de 15 mmHg e átrio esquerdo de 45 mm. Creatinina de 1,0 mg/dL, hemoglobina de 14 g/dL e sem histórico de sangramento. Qual é a conduta antitrombótica?",
   "alts": [
-   "Anticoagular sempre, porque a cardiomiopatia hipertrófica indica anticoagulação independentemente do escore.",
-   "Não anticoagular agora, uma vez que o escore de apenas um ponto não alcança o limiar de indicação formal.",
-   "Prescrever ácido acetilsalicílico isolado, alternativa aceita quando o escore fica exatamente em um ponto.",
-   "Repetir o escore em doze meses e decidir depois, mantendo o paciente sem qualquer terapia antitrombótica.",
-   "Indicar oclusão do apêndice atrial esquerdo, primeira escolha nesse grupo por dispensar anticoagulação oral."
+   "Anticoagular independentemente do escore",
+   "Não anticoagular, pois o escore é de 1 ponto",
+   "Prescrever ácido acetilsalicílico",
+   "Anticoagular apenas durante os episódios",
+   "Repetir o Holter antes de decidir"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2024 — Guidelines for the management of atrial fibrillation, Recommendation Table 6 (classe I, nível B)",
-  "coment": "A diretriz de 2024 traz recomendação classe I, nível B, de anticoagulação oral em TODOS os pacientes com fibrilação atrial e cardiomiopatia hipertrófica ou amiloidose cardíaca, independentemente do escore CHA₂DS₂-VA. Nessas duas condições o escore simplesmente não se aplica: o risco embólico decorre da própria doença estrutural, com átrio doente e fluxo lentificado. Também vale lembrar que a diretriz classifica como classe III, nível A, o uso de antiagregante como alternativa à anticoagulação — o ácido acetilsalicílico não protege contra embolia na fibrilação atrial.",
+  "base": "ESC 2024 — fibrilação atrial: anticoagulação na cardiomiopatia hipertrófica",
+  "coment": "A cardiomiopatia hipertrófica é uma das condições em que a fibrilação atrial indica anticoagulação independentemente do CHA₂DS₂-VA — o risco embólico atribuível à doença não é capturado pelo escore. O mesmo vale para amiloidose cardíaca e estenose mitral reumática.",
   "porAlt": [
-   "Correta: cardiomiopatia hipertrófica e amiloidose cardíaca anticoagulam sempre, com recomendação classe I, independentemente do escore.",
-   "O escore não se aplica a essas duas condições: nelas a indicação vem da doença estrutural, e não da pontuação clínica.",
-   "O antiagregante como alternativa à anticoagulação é classe III nível A — não protege contra embolia na fibrilação atrial.",
-   "Adiar por um ano mantém sem proteção um paciente que tem indicação formal e imediata de anticoagulação oral plena.",
-   "A oclusão do apêndice é opção para quem não pode anticoagular, e não primeira escolha em paciente elegível à droga."
+   "Correta: a hipertrófica anticoagula qualquer que seja o escore.",
+   "Aplicar o escore aqui subestima o risco embólico real.",
+   "O AAS não protege contra embolia na fibrilação atrial.",
+   "O caráter paroxístico não reduz o risco embólico.",
+   "Repetir o Holter não muda a indicação já estabelecida."
   ]
  },
  {
-  "q": "Mulher de 79 anos, 55 kg, creatinina de 1,1 mg/dL, com fibrilação atrial e escore CHA₂DS₂-VA de 4 pontos, vai iniciar apixabana. O médico pensa em prescrever a dose reduzida por causa da idade e do peso. Qual é a conduta correta?",
+  "q": "Mulher de 79 anos, 55 kg, com fibrilação atrial permanente e escore CHA₂DS₂-VA de 4 pontos, vai iniciar apixabana. A creatinina é de 1,1 mg/dL, com clearance estimado de 42 mL/min pelo Cockcroft-Gault. Não tem histórico de sangramento, usa omeprazol e anlodipino, e a hemoglobina é de 12,6 g/dL. Não usa antifúngico azólico, inibidor de protease nem anti-inflamatório. A função hepática é normal e ela não tem prótese valvar. Qual é a dose adequada?",
   "alts": [
-   "Prescrever a dose reduzida, já que idade avançada isoladamente é critério suficiente para reduzir.",
-   "Prescrever a dose plena, porque ela preenche apenas um dos três critérios de redução da apixabana.",
-   "Prescrever a dose reduzida, porque peso abaixo de sessenta quilos sozinho já obriga a redução da dose.",
-   "Trocar por varfarina, opção preferida em toda paciente idosa com risco elevado de sangramento.",
-   "Prescrever metade da dose reduzida, ajuste individualizado indicado às pacientes muito idosas."
+   "5 mg duas vezes ao dia",
+   "2,5 mg duas vezes ao dia",
+   "10 mg uma vez ao dia",
+   "2,5 mg uma vez ao dia",
+   "5 mg uma vez ao dia"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2024 — Table 11 (doses de anticoagulante oral direto) e recomendação classe III contra subdose",
-  "coment": "A apixabana só tem dose reduzida para 2,5 mg de doze em doze horas quando o paciente preenche DOIS dos três critérios: idade de 80 anos ou mais, peso de 60 kg ou menos, creatinina de 1,5 mg/dL ou mais. A paciente tem 79 anos e 55 kg com creatinina normal, ou seja, apenas um critério — mantém-se a dose plena de 5 mg de doze em doze horas. A diretriz de 2024 é explícita ao classificar como recomendação classe III o uso de dose reduzida sem preenchimento dos critérios específicos, justamente para evitar subdose e eventos tromboembólicos evitáveis.",
+  "base": "ESC 2024 — fibrilação atrial: critérios de redução de dose da apixabana",
+  "coment": "A apixabana só tem a dose reduzida quando o paciente preenche pelo menos DOIS de três critérios: idade igual ou maior que 80 anos, peso igual ou menor que 60 kg e creatinina igual ou maior que 1,5 mg/dL. Aqui há apenas um — o peso de 55 kg. A idade de 79 anos e a creatinina de 1,1 mg/dL não pontuam, e o clearance de 42 mL/min não é critério de redução da apixabana. A dose é a plena. Reduzir por conta da idade próxima de 80 ou do clearance é o erro mais comum com esse fármaco, e subdosar aumenta o risco de acidente vascular sem reduzir sangramento de forma proporcional.",
   "porAlt": [
-   "A idade isolada não basta para a apixabana: são necessários dois dos três critérios definidos pela bula e pela diretriz.",
-   "Correta: com apenas um dos três critérios, a apixabana mantém a dose plena; reduzir seria a subdose que a diretriz classifica como classe III.",
-   "O peso abaixo de sessenta quilos é um critério, mas sozinho não autoriza a redução da dose desse anticoagulante.",
-   "Trocar por varfarina em paciente elegível ao anticoagulante direto contraria a preferência atual e exige controle de INR.",
-   "Não existe metade da dose reduzida: prescrever esquema fora da bula deixa a paciente sem proteção comprovada."
+   "Correta: apenas um dos três critérios está presente, então a dose é plena.",
+   "Reduzir com um único critério subdosa e aumenta o risco embólico.",
+   "A apixabana não tem apresentação de tomada única na fibrilação atrial.",
+   "Dose e intervalo ambos reduzidos não existem no esquema.",
+   "A apixabana é sempre em duas tomadas diárias."
   ]
  },
  {
-  "q": "Homem de 66 anos com fibrilação atrial paroxística sintomática, ainda sem uso de antiarrítmico, pergunta sobre ablação. Está sem cardiopatia estrutural relevante e com boa capacidade funcional. Segundo a diretriz europeia vigente, qual a posição da ablação por cateter nesse caso?",
+  "q": "Homem de 66 anos com fibrilação atrial paroxística sintomática há um ano, com quatro episódios documentados no último semestre, refere limitação para as atividades habituais e faltas ao trabalho. Está anticoagulado com apixabana e ainda não usou nenhum antiarrítmico. Pressão de 124/78 mmHg, frequência de 70 bpm em ritmo sinusal na consulta. O ecocardiograma mostra fração de ejeção de 58%, átrio esquerdo de 40 mm e ausência de valvopatia ou hipertrofia. Ele pergunta sobre ablação por cateter como primeira opção. Qual é a orientação?",
   "alts": [
-   "Só é aceitável após falha documentada de pelo menos dois antiarrítmicos usados em dose plena por um ano.",
-   "Está contraindicada enquanto houver qualquer sintoma, pelo risco elevado de complicação periprocedimento.",
-   "É recomendada apenas em pacientes com fração de ejeção reduzida associada à fibrilação atrial documentada.",
-   "Deve ser oferecida somente depois dos setenta e cinco anos, faixa em que o benefício supera o risco.",
-   "É recomendada como opção de primeira linha em toda fibrilação paroxística, com decisão compartilhada."
+   "Ablação por cateter é opção de primeira linha",
+   "Ablação só após falha de dois antiarrítmicos",
+   "Ablação está contraindicada sem cardiopatia",
+   "Ablação só se o átrio esquerdo ultrapassar 50 mm",
+   "Ablação apenas na fibrilação persistente"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2024 — Recommendation Table 19, ablação como primeira linha na fibrilação paroxística (classe I, nível A)",
-  "coment": "A diretriz de 2024 elevou a ablação por cateter a recomendação classe I, nível A, como opção de primeira linha dentro de uma estratégia de controle de ritmo com decisão compartilhada, em pacientes com fibrilação atrial paroxística — para reduzir sintomas, recorrência e progressão da arritmia. Não é mais necessário falhar antes com antiarrítmico. Duas condições operacionais acompanham: trombo em átrio esquerdo é contraindicação, e pacientes com risco tromboembólico elevado devem estar anticoagulados por pelo menos três semanas completas antes do procedimento, sem interromper o anticoagulante no periprocedimento.",
+  "base": "ESC 2024 — fibrilação atrial: ablação como primeira linha na paroxística",
+  "coment": "A diretriz de 2024 promoveu o isolamento de veias pulmonares a opção de primeira linha na fibrilação atrial paroxística sintomática, mesmo sem tentativa prévia de antiarrítmico — os ensaios EARLY-AF e STOP-AF mostraram superioridade sobre o fármaco na manutenção do ritmo sinusal e na qualidade de vida.",
   "porAlt": [
-   "A exigência de falha de antiarrítmico permanece para a fibrilação persistente, mas deixou de valer para a paroxística.",
-   "Sintoma é justamente a indicação da estratégia de ritmo; não há contraindicação por sintomatologia presente.",
-   "A fração de ejeção reduzida reforça a indicação, mas a recomendação de primeira linha não depende dela.",
-   "Não existe corte etário para indicar ablação: a decisão pesa risco do procedimento, benefício esperado e preferência.",
-   "Correta: a ablação é classe I como primeira linha na fibrilação paroxística, com decisão compartilhada, sem exigir falha prévia."
+   "Correta: primeira linha na paroxística sintomática.",
+   "Exigir falha de dois fármacos é a recomendação antiga.",
+   "Ausência de cardiopatia estrutural favorece o resultado, não contraindica.",
+   "O tamanho atrial pesa no prognóstico, mas não é critério de indicação.",
+   "A paroxística é justamente o cenário de melhor resultado."
   ]
  },
  {
-  "q": "Paciente de 74 anos com fibrilação atrial em uso correto de rivaroxabana na dose plena sofre acidente vascular cerebral isquêmico. A investigação inicial não mostra estenose carotídea significativa. Qual é a conduta recomendada quanto à terapia antitrombótica?",
+  "q": "Homem de 74 anos com fibrilação atrial em uso correto e documentado de rivaroxabana 20 mg ao dia há dois anos sofre acidente vascular cerebral isquêmico cardioembólico. Chega 30 horas após o início dos sintomas, com NIHSS de 6 e tomografia mostrando infarto de território de artéria cerebral média direita sem transformação hemorrágica. A adesão foi confirmada com a família e o clearance é de 62 mL/min. Qual é a conduta em relação à anticoagulação?",
   "alts": [
-   "Acrescentar ácido acetilsalicílico ao anticoagulante, para prevenir a recorrência do evento embólico.",
-   "Trocar de imediato para outro anticoagulante direto, medida que reduziria o risco já no próximo mês.",
-   "Trocar para varfarina com alvo de INR entre dois e três, esquema superior após falha do anticoagulante.",
-   "Suspender toda anticoagulação por trinta dias, para reduzir o risco de transformação hemorrágica ampla.",
-   "Investigar a fundo causa, dose e adesão, sem acrescentar antiagregante nem trocar o anticoagulante."
+   "Investigar causas alternativas e considerar troca de anticoagulante",
+   "Dobrar a dose da rivaroxabana",
+   "Associar ácido acetilsalicílico à rivaroxabana",
+   "Suspender definitivamente a anticoagulação",
+   "Trocar por varfarina com alvo de RNI entre 3,0 e 4,0"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2024 — recomendações sobre risco isquêmico residual (IIa B) e classe III contra antiagregante e troca sem indicação",
-  "coment": "A diretriz orienta, com classe IIa, investigação diagnóstica minuciosa em paciente que sofre evento isquêmico em uso de anticoagulante: procurar causas não cardioembólicas, avaliar fatores de risco vasculares, checar se a dose estava correta e verificar adesão. Duas condutas frequentes são explicitamente desaconselhadas com classe III: acrescentar antiagregante à anticoagulação para prevenir recorrência de AVC embólico, e trocar de um anticoagulante direto para outro, ou para antagonista da vitamina K, sem indicação clara. Na prática, a maior parte dessas falhas é de dose ou de adesão, e não da molécula.",
+  "base": "ESC 2024 — fibrilação atrial: acidente vascular sob anticoagulação adequada",
+  "coment": "Evento embólico sob anticoagulação adequada é falha terapêutica e exige procurar outra explicação — aterosclerose de grandes vasos, endocardite, neoplasia oculta, forame oval patente, arterite — antes de simplesmente mexer na dose. Se nada for encontrado, considera-se a troca de anticoagulante ou a oclusão de apêndice atrial. Dobrar a dose ou associar antiagregante só aumenta sangramento.",
   "porAlt": [
-   "Somar antiagregante ao anticoagulante para prevenir recorrência embólica é classe III: acrescenta sangramento sem benefício.",
-   "Trocar de um anticoagulante direto para outro sem indicação clara também é classe III na diretriz vigente.",
-   "A varfarina não é superior após evento em uso de anticoagulante direto, e exige controle de INR com mais interações.",
-   "Suspender por trinta dias expõe a novo evento embólico; o reinício é definido pelo tamanho do infarto e pelo risco.",
-   "Correta: a conduta é investigar causa, dose e adesão — somar antiagregante ou trocar a droga sem motivo são recomendações classe III."
+   "Correta: falha sob anticoagulação exige investigar outra causa.",
+   "Dose acima da recomendada não tem respaldo e aumenta sangramento.",
+   "Associar antiagregante multiplica o risco hemorrágico sem reduzir recorrência.",
+   "Suspender deixa o paciente sem proteção alguma.",
+   "RNI supraterapêutico aumenta hemorragia intracraniana."
   ]
  },
  {
-  "q": "Mulher de 62 anos chega ao pronto-socorro com fibrilação atrial de início há cerca de três dias, sintomática mas estável, sem uso prévio de anticoagulante. O ecocardiograma transtorácico não mostra alterações significativas. Qual é a conduta antes de uma cardioversão eletiva?",
+  "q": "Mulher de 62 anos chega ao pronto-socorro com palpitações iniciadas há cerca de três dias, de forma intermitente. Está sintomática mas estável, com pressão de 126/80 mmHg, frequência de 122 bpm e sem congestão. O eletrocardiograma confirma fibrilação atrial. O escore CHA₂DS₂-VA é de 2 pontos e ela nunca usou anticoagulante. Creatinina de 0,9 mg/dL e hemograma normal. Qual é a conduta imediata?",
   "alts": [
-   "Cardioverter de imediato, porque o início há três dias ainda está dentro da janela segura de quarenta e oito horas.",
-   "Anticoagular por três semanas ou fazer ecocardiograma transesofágico, com quatro semanas de anticoagulação depois.",
-   "Cardioverter após heparina em dose única, dispensando anticoagulação oral depois do retorno ao ritmo sinusal normal.",
-   "Adiar a cardioversão por seis meses, tempo mínimo de anticoagulação exigido antes de qualquer tentativa de reversão.",
-   "Cardioverter e suspender o anticoagulante assim que o ritmo sinusal for confirmado no eletrocardiograma já feito."
+   "Controlar a frequência, anticoagular e programar cardioversão",
+   "Cardioversão elétrica imediata",
+   "Cardioversão química com amiodarona agora",
+   "Anticoagular e liberar sem controle de frequência",
+   "Observação sem intervenção por 24 horas"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2024 — recomendações para cardioversão elétrica e farmacológica da fibrilação atrial",
-  "coment": "Com início há mais de 48 horas ou indeterminado, a cardioversão eletiva exige três semanas de anticoagulação efetiva prévia ou ecocardiograma transesofágico excluindo trombo em átrio esquerdo. Depois da cardioversão, mantêm-se pelo menos quatro semanas de anticoagulação em todos os pacientes, porque o átrio permanece atordoado e trombogênico mesmo em ritmo sinusal. Passado esse período, a manutenção do anticoagulante depende do escore CHA₂DS₂-VA, e não do sucesso da cardioversão — suspender porque o ritmo voltou é um dos erros mais comuns e mais custosos.",
+  "base": "ESC 2024 — fibrilação atrial: cardioversão fora da janela de 24 horas",
+  "coment": "Com três dias de evolução o paciente está fora da janela de 24 horas, e a cardioversão exige três semanas de anticoagulação prévia ou transesofágico. O manejo imediato é controle de frequência para aliviar sintomas, início da anticoagulação — que já está indicada pelo escore de 2 — e programação da reversão pelo caminho seguro.",
   "porAlt": [
-   "A janela de segurança é de 48 horas, e o quadro tem três dias — cardioverter agora arrisca embolia por trombo já formado.",
-   "Correta: acima de 48 horas exige três semanas de anticoagulação ou transesofágico, com quatro semanas de anticoagulação depois.",
-   "Heparina em dose única não substitui a preparação, e a anticoagulação pós-cardioversão de quatro semanas é obrigatória.",
-   "Seis meses não é exigência de nenhuma diretriz: três semanas de anticoagulação efetiva já permitem a cardioversão.",
-   "Suspender ao voltar ao ritmo sinusal ignora o átrio atordoado e a indicação definida pelo escore, não pelo ritmo."
+   "Correta: fora da janela, controlar frequência e anticoagular primeiro.",
+   "Cardioverter sem excluir trombo após três dias é embolizar.",
+   "A cardioversão química tem o mesmo risco embólico.",
+   "Deixá-la a 122 bpm mantém o sintoma que a trouxe.",
+   "Observar sem tratar não alivia sintoma nem protege contra embolia."
   ]
  },
  {
-  "q": "Durante consulta de seguimento, um paciente com fibrilação atrial permanente e escore CHA₂DS₂-VA de 3 pontos pergunta por que o médico insiste em tratar seu peso, sua apneia do sono e sua pressão, se ele já toma o anticoagulante. Qual é a justificativa correta?",
+  "q": "Homem de 68 anos com fibrilação atrial permanente e escore CHA₂DS₂-VA de 3 pontos comparece a consulta de seguimento em uso de edoxabana. Está bem, sem sangramentos. Ele leu na internet que poderia trocar o anticoagulante por ácido acetilsalicílico, que considera mais seguro, e pergunta se isso é possível. Pressão de 130/80 mmHg, hemoglobina de 14,1 g/dL, creatinina de 1,0 mg/dL e HAS-BLED de 2 pontos. Qual é a orientação?",
   "alts": [
-   "São medidas apenas estéticas e de bem-estar, sem impacto sobre a arritmia ou sobre desfechos duros.",
-   "Servem exclusivamente para permitir a retirada futura do anticoagulante oral que ele usa já hoje.",
-   "Só importam se ele for submetido a ablação, sendo dispensáveis em quem segue o controle de frequência.",
-   "O tratamento das comorbidades reduz recorrência e progressão da arritmia, sendo pilar do cuidado.",
-   "Devem ser adiadas até que a arritmia esteja controlada, para não sobrecarregar o paciente com metas."
+   "Manter o anticoagulante: o antiagregante não substitui",
+   "Trocar por ácido acetilsalicílico, dado o HAS-BLED de 2",
+   "Associar os dois para reduzir a dose do anticoagulante",
+   "Suspender tudo e reavaliar em seis meses",
+   "Trocar por clopidogrel, mais potente que o AAS"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "ESC 2024 — domínio [C] do caminho AF-CARE, manejo de comorbidades e fatores de risco",
-  "coment": "O caminho AF-CARE organiza o cuidado em quatro domínios, e o primeiro deles é justamente o manejo de comorbidades e fatores de risco: hipertensão, insuficiência cardíaca, diabetes, obesidade, apneia obstrutiva do sono e inatividade física. A diretriz recomenda controle pressórico com classe I para reduzir recorrência, AVC e sangramento, e redução de peso mirando ao menos 10% do peso corporal também com classe I. Tratar essas condições é tratamento antiarrítmico por outra via, porque age sobre o substrato que gera e perpetua a arritmia — e reduz recorrência inclusive após ablação.",
+  "base": "ESC 2024 — fibrilação atrial: papel do HAS-BLED e ausência de papel do antiagregante",
+  "coment": "O antiagregante foi abandonado na profilaxia de embolia da fibrilação atrial: reduz pouco o acidente vascular e mantém risco de sangramento comparável ao do anticoagulante. O HAS-BLED não serve para contraindicar anticoagulação — serve para identificar e corrigir fatores de risco modificáveis de sangramento e definir a intensidade do seguimento.",
   "porAlt": [
-   "Controle pressórico e redução de peso têm recomendação classe I na fibrilação atrial, com impacto sobre desfechos duros.",
-   "O anticoagulante segue indicado pelo escore; controlar comorbidades não é estratégia de retirada da anticoagulação.",
-   "O benefício não se limita a candidatos à ablação: vale também para quem segue apenas com controle de frequência.",
-   "Correta: o manejo das comorbidades reduz recorrência e progressão da arritmia e é o primeiro domínio do caminho AF-CARE.",
-   "Não há motivo para adiar: as comorbidades são parte do tratamento da arritmia, e não um cuidado posterior a ela."
+   "Correta: o antiagregante não protege e o HAS-BLED não contraindica.",
+   "HAS-BLED alto pede corrigir fatores modificáveis, não suspender.",
+   "A associação soma sangramento sem somar proteção.",
+   "Suspender deixa um escore 3 sem proteção alguma.",
+   "O clopidogrel tem o mesmo problema do AAS nesse cenário."
   ]
  },
  {
@@ -8064,51 +8064,51 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 60 anos com infarto agudo do miocárdio com supradesnivelamento de ST é levado à angioplastia primária e apresenta doença triarterial. Está em choque cardiogênico, em uso de noradrenalina. Segundo a diretriz americana vigente, qual é a estratégia de revascularização?",
+  "q": "Homem de 60 anos, tabagista, com infarto com supradesnivelamento de ST anterior é levado à angioplastia primária 90 minutos após o início da dor, com implante de stent farmacológico em descendente anterior proximal e fluxo TIMI 3 ao final. Evolui estável, com pressão de 126/78 mmHg, frequência de 78 bpm e sem congestão. O ecocardiograma de controle mostra fração de ejeção de 42% com acinesia apical. Não tem indicação de anticoagulação por outro motivo, não teve sangramento e a hemoglobina é de 14,2 g/dL. Qual é o esquema antitrombótico na alta?",
   "alts": [
-   "Revascularizar todas as lesões significativas no mesmo procedimento, estratégia preferida no choque.",
-   "Adiar toda revascularização até a estabilização hemodinâmica completa do paciente em terapia intensiva.",
-   "Revascularizar apenas o vaso culpado em emergência, sem angioplastia das artérias não culpadas agora.",
-   "Encaminhar diretamente à cirurgia de revascularização, que é a escolha padrão diante do choque instalado.",
-   "Tratar apenas clinicamente, uma vez que a angioplastia no choque não altera a mortalidade hospitalar."
+   "Ácido acetilsalicílico com ticagrelor ou prasugrel por 12 meses",
+   "Ácido acetilsalicílico com clopidogrel por 1 mês",
+   "Ácido acetilsalicílico isolado",
+   "Anticoagulante oral direto com ácido acetilsalicílico",
+   "Ticagrelor isolado por 12 meses"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "tit",
-  "base": "ACC/AHA 2025 — Guideline for acute coronary syndromes, revascularização no choque cardiogênico",
-  "coment": "A diretriz de 2025 recomenda revascularização completa no infarto com supradesnivelamento de ST e na síndrome sem supra — mas abre exceção explícita para o choque cardiogênico: nesse cenário, indica-se revascularização de emergência do vaso culpado, e a angioplastia de rotina das artérias não relacionadas ao infarto no mesmo tempo NÃO é recomendada. A diretriz também incorporou o suporte com bomba de fluxo microaxial em pacientes selecionados com choque relacionado ao infarto, como razoável para reduzir morte, com atenção ao maior risco de sangramento, isquemia de membro e insuficiência renal.",
+  "base": "ACC/AHA 2025 — SCA: dupla antiagregação após angioplastia primária",
+  "coment": "Após infarto com supradesnivelamento tratado com stent, a dupla antiagregação padrão é ácido acetilsalicílico associado a um inibidor potente do P2Y12 — ticagrelor ou prasugrel — por 12 meses, na ausência de risco hemorrágico proibitivo. O clopidogrel fica para quem tem contraindicação aos potentes ou necessita de anticoagulação concomitante.",
   "porAlt": [
-   "A revascularização completa é a regra fora do choque; no choque, tratar os não culpados no mesmo tempo piora desfechos.",
-   "Adiar a revascularização do vaso culpado no choque retira a única intervenção que pode reverter a causa da instabilidade.",
-   "Correta: no choque cardiogênico revasculariza-se o vaso culpado, e a angioplastia de rotina dos não culpados não é recomendada.",
-   "A cirurgia tem indicação em anatomia específica, mas não é a via padrão de emergência no choque por infarto agudo.",
-   "O tratamento apenas clínico no choque por infarto tem mortalidade proibitiva; a reperfusão é o que muda o desfecho."
+   "Correta: inibidor potente do P2Y12 por 12 meses.",
+   "Um mês é insuficiente após infarto, e o clopidogrel é menos potente.",
+   "A antiagregação simples logo após stent expõe a trombose do dispositivo.",
+   "Não há indicação de anticoagulação neste paciente.",
+   "A monoterapia com ticagrelor pode entrar após alguns meses, não na alta."
   ]
  },
  {
-  "q": "Paciente de 68 anos internado por síndrome coronariana aguda sem supradesnivelamento apresenta hemoglobina de 8,1 g/dL por anemia crônica, sem qualquer sangramento ativo. Está com angina aos mínimos esforços. Qual é a conduta transfusional segundo a diretriz vigente?",
+  "q": "Homem de 68 anos internado por síndrome coronariana aguda sem supradesnivelamento, no terceiro dia, apresenta hemoglobina de 8,2 g/dL, queda de 10,4 g/dL na admissão, sem sangramento exteriorizado. Está estável, sem dor torácica, com pressão de 118/72 mmHg e frequência de 84 bpm. A endoscopia não mostrou lesão sangrante ativa. Está em uso de ácido acetilsalicílico, clopidogrel e enoxaparina. Qual é a conduta transfusional?",
   "alts": [
-   "Aplicar alvo restritivo de sete gramas, estratégia que costuma ser usada na hemorragia digestiva.",
-   "Não transfundir em hipótese alguma, já que a anemia crônica é bem tolerada por pacientes coronariopatas.",
-   "Pode ser razoável transfundir mirando hemoglobina em torno de dez, por causa da isquemia miocárdica.",
-   "Transfundir apenas se a hemoglobina cair abaixo de seis, limiar único aceito em qualquer contexto clínico.",
-   "Transfundir plasma fresco congelado antes das hemácias, corrigindo primeiro os fatores de coagulação."
+   "Transfundir com alvo de hemoglobina em torno de 10 g/dL",
+   "Transfundir apenas se a hemoglobina cair abaixo de 7 g/dL",
+   "Não transfundir enquanto estiver assintomático",
+   "Transfundir duas unidades e reavaliar em 24 horas",
+   "Suspender toda antiagregação antes de decidir"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ACC/AHA 2025 — manejo da anemia na síndrome coronariana aguda",
-  "coment": "A diretriz de 2025 afirma que a transfusão de concentrado de hemácias para manter hemoglobina em torno de 10 g/dL pode ser razoável em pacientes com síndrome coronariana aguda e anemia aguda ou crônica que não estejam sangrando ativamente. O alvo é mais alto do que o restritivo de 7 a 8 g/dL usado, por exemplo, na hemorragia digestiva alta, porque o miocárdio isquêmico depende da oferta de oxigênio. Saber que o alvo transfusional muda conforme o contexto — e não é um número universal — é justamente o tipo de distinção que a prova cobra.",
+  "base": "ACC/AHA 2025 e ensaio MINT — transfusão no infarto com anemia",
+  "coment": "O ensaio MINT comparou estratégia restritiva e liberal em pacientes com infarto e anemia: a estratégia liberal, com alvo em torno de 10 g/dL, mostrou tendência de benefício no desfecho de morte ou reinfarto em 30 dias. A diretriz de 2025 passou a considerar razoável a transfusão com alvo mais alto nesse cenário específico, diferente do paciente crítico geral.",
   "porAlt": [
-   "O alvo restritivo se aplica à hemorragia digestiva, onde transfundir demais eleva a pressão portal e o ressangramento.",
-   "Anemia com isquemia miocárdica ativa não é bem tolerada: reduz a oferta de oxigênio ao miocárdio já comprometido.",
-   "Correta: na síndrome coronariana com anemia e sem sangramento ativo, mirar hemoglobina em torno de dez pode ser razoável.",
-   "O limiar de seis gramas não é universal e seria insuficiente diante de angina aos mínimos esforços neste paciente.",
-   "O plasma corrige coagulopatia específica e não trata anemia, que é o problema de oferta de oxigênio deste caso."
+   "Correta: no infarto com anemia, o alvo mais liberal é o razoável.",
+   "O gatilho de 7 g/dL é do paciente crítico sem isquemia.",
+   "Esperar sintoma em miocárdio isquêmico é arriscado.",
+   "Transfundir por número fixo de unidades sem alvo não é estratégia.",
+   "Suspender toda antiagregação após stent recente expõe a trombose."
   ]
  },
  {
@@ -8256,147 +8256,147 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 24 anos, sem cardiopatia conhecida, chega com palpitações e taquicardia regular de QRS estreito a 190 bpm. Está com pressão de 118/76 mmHg, lúcido e sem dor torácica. A manobra vagal foi realizada corretamente sem reversão. Qual é a conduta seguinte?",
+  "q": "Homem de 24 anos, sem cardiopatia conhecida e sem uso de medicamentos, chega com palpitações de início súbito há 40 minutos, iniciadas em repouso. Está com pressão de 124/76 mmHg, frequência de 190 bpm, saturação de 98% em ar ambiente, lúcido, sem dor torácica, dispneia ou sinais de hipoperfusão. O eletrocardiograma mostra taquicardia regular de QRS estreito a 190 bpm, sem ondas P identificáveis e sem alternância de amplitude. A manobra de Valsalva modificada, feita corretamente com elevação das pernas, não reverteu o ritmo. Qual é a conduta?",
   "alts": [
-   "Cardioversão elétrica sincronizada imediata, já que a manobra vagal não reverteu a arritmia dele.",
-   "Amiodarona endovenosa em infusão lenta ao longo de trinta minutos como próxima medida do caso.",
-   "Adenosina em bolus rápido de seis miligramas, seguida de flush salino e elevação do membro.",
-   "Digoxina endovenosa em dose de ataque, opção preferida nas taquicardias de complexo estreito.",
-   "Observação por seis horas sem medicação, aguardando a reversão espontânea do ritmo do paciente."
+   "Adenosina 6 mg em bolus rápido",
+   "Cardioversão elétrica sincronizada",
+   "Amiodarona intravenosa",
+   "Metoprolol intravenoso lento",
+   "Digoxina intravenosa"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ESC 2019 — Guidelines for the management of patients with supraventricular tachycardia",
-  "coment": "Em taquicardia supraventricular regular com paciente estável, a sequência é manobra vagal, depois adenosina e, na persistência, bloqueador de canal de cálcio não di-hidropiridínico ou betabloqueador por via endovenosa. A adenosina é dada em bolus rápido de 6 mg em veia proximal e calibrosa, seguida imediatamente de flush de 20 mL de salina e elevação do membro — a meia-vida é de segundos, e a administração lenta simplesmente não chega ao coração em concentração útil. Não revertendo, repete-se com 12 mg. A cardioversão elétrica fica para instabilidade ou falha das medidas.",
+  "base": "ESC 2019 — taquicardias supraventriculares: manobra vagal e adenosina",
+  "coment": "Taquicardia supraventricular estável que não responde à manobra vagal tem indicação de adenosina em bolus rápido seguido de flush de soro — bloqueia transitoriamente o nó AV e interrompe o circuito de reentrada. Se falhar, seguem-se bloqueadores de canal de cálcio não di-hidropiridínicos ou betabloqueador; a cardioversão fica para a instabilidade.",
   "porAlt": [
-   "A cardioversão elétrica se reserva à instabilidade hemodinâmica ou à falha das medidas farmacológicas iniciais.",
-   "A amiodarona não é primeira linha na supraventricular estável e sua infusão lenta atrasa a reversão do quadro.",
-   "Correta: falhada a manobra vagal em paciente estável, a adenosina em bolus rápido com flush é o passo seguinte.",
-   "A digoxina tem início lento e eficácia limitada nesse cenário, não sendo opção para reversão aguda da arritmia.",
-   "Observar sem tratar mantém a frequência muito elevada, com risco de deterioração e de taquicardiomiopatia."
+   "Correta: é o fármaco de escolha após falha da manobra vagal no estável.",
+   "A cardioversão elétrica é para o instável.",
+   "A amiodarona não é primeira escolha em QRS estreito estável.",
+   "O betabloqueador é opção de segunda linha, mais lento.",
+   "A digoxina tem início lento demais para o quadro agudo."
   ]
  },
  {
-  "q": "Homem de 28 anos chega com taquicardia irregular, QRS largo com morfologia variável e frequência acima de 250 bpm. Um eletrocardiograma prévio mostrava intervalo PR curto com onda delta. Está com pressão de 96/60 mmHg e sudoreico. Qual conduta deve ser evitada de forma absoluta?",
+  "q": "Homem de 28 anos chega com palpitações e mal-estar há 30 minutos. Está com pressão de 96/60 mmHg, frequência acima de 250 bpm e sudorese, mas lúcido. O eletrocardiograma mostra taquicardia irregular com QRS largo de morfologia variável a cada batimento. Um traçado antigo, trazido pela família, mostra PR curto com onda delta em ritmo sinusal. Qual é a conduta?",
   "alts": [
-   "Realizar cardioversão elétrica sincronizada, medida que agravaria a instabilidade hemodinâmica atual.",
-   "Administrar procainamida endovenosa, fármaco contraindicado em qualquer paciente com pré-excitação.",
-   "Administrar bloqueador do nó atrioventricular, que acelera a via acessória e leva à fibrilação.",
-   "Colher eletrocardiograma de doze derivações antes de decidir a conduta terapêutica mais adequada.",
-   "Instalar monitorização contínua e acesso venoso calibroso antes de iniciar qualquer tratamento dele."
+   "Cardioversão elétrica sincronizada",
+   "Adenosina 6 mg em bolus",
+   "Diltiazem intravenoso",
+   "Digoxina intravenosa",
+   "Metoprolol intravenoso"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "ESC 2019 — manejo da fibrilação atrial pré-excitada em pacientes com via acessória",
-  "coment": "Taquicardia irregular, de QRS largo, muito rápida e com morfologia variável em paciente com pré-excitação conhecida é fibrilação atrial conduzida pela via acessória. Nesse cenário, os bloqueadores do nó atrioventricular — adenosina, verapamil, diltiazem, betabloqueador e digoxina — são formalmente contraindicados: ao bloquear o nó, todo o estímulo desce pela via acessória, a resposta ventricular dispara e o quadro pode degenerar em fibrilação ventricular. A conduta é cardioversão elétrica se houver instabilidade, e procainamida ou ibutilida no paciente estável, com ablação da via como tratamento definitivo.",
+  "base": "ESC 2019 — taquicardias supraventriculares: fibrilação atrial pré-excitada",
+  "coment": "O quadro é de fibrilação atrial pré-excitada: irregular, muito rápida e com QRS largo de morfologia variável, em portador de via acessória documentada. Todo bloqueador do nó atrioventricular está contraindicado — desvia a condução para a via acessória e pode precipitar fibrilação ventricular. Com frequência acima de 250 bpm e hipotensão, a conduta é cardioversão elétrica.",
   "porAlt": [
-   "A cardioversão elétrica é justamente a conduta indicada diante de instabilidade nesse cenário, e não algo a evitar.",
-   "A procainamida atua na via acessória e é uma das opções recomendadas no paciente estável com pré-excitação.",
-   "Correta: bloquear o nó atrioventricular na fibrilação pré-excitada acelera a condução pela via acessória e pode gerar fibrilação ventricular.",
-   "Obter o eletrocardiograma de doze derivações é parte da avaliação e não configura conduta a ser evitada.",
-   "Monitorização e acesso venoso são medidas de suporte padrão em qualquer taquiarritmia com instabilidade."
+   "Correta: cardioversão elétrica, evitando qualquer bloqueio do nó AV.",
+   "A adenosina bloqueia o nó e pode degenerar o ritmo.",
+   "O diltiazem é bloqueador do nó e está contraindicado.",
+   "A digoxina encurta o período refratário da via acessória.",
+   "O betabloqueador também bloqueia o nó e é contraindicado aqui."
   ]
  },
  {
-  "q": "Mulher de 67 anos com infarto prévio e fração de ejeção de 30% chega com taquicardia regular de QRS largo a 160 bpm, pressão de 104/68 mmHg e sem dor torácica. Está consciente e orientada. Qual é a hipótese diagnóstica prioritária e a conduta?",
+  "q": "Mulher de 67 anos com infarto prévio e fração de ejeção de 30% chega com palpitações há 25 minutos. Está com pressão de 118/72 mmHg, frequência de 160 bpm, lúcida e sem dor torácica. O eletrocardiograma mostra taquicardia regular de QRS largo, monomórfica, a 160 bpm. Em DII há deflexões regulares mais lentas que os QRS, deformando o segmento ST de alguns batimentos, e um complexo estreito isolado no meio do traçado. Qual é o diagnóstico e a conduta?",
   "alts": [
-   "Taquicardia supraventricular com aberrância, tratada com verapamil endovenoso para reverter o ritmo.",
-   "Taquicardia ventricular até prova em contrário, tratada com antiarrítmico endovenoso e monitorização.",
-   "Taquicardia sinusal secundária à dor, que se resolve apenas com analgesia adequada e observação.",
-   "Flutter atrial com condução dois para um, tratado com digoxina endovenosa em dose de ataque agora.",
-   "Artefato de monitorização, sem necessidade de qualquer intervenção além de refazer o traçado do ECG."
+   "Taquicardia ventricular: amiodarona ou cardioversão",
+   "Supraventricular com aberrância: adenosina",
+   "Fibrilação atrial pré-excitada: cardioversão",
+   "Flutter atrial 2:1: diltiazem",
+   "Taquicardia sinusal: tratar a causa"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "tit",
-  "base": "ESC 2022 — Guidelines for ventricular arrhythmias and the prevention of sudden cardiac death",
-  "coment": "Toda taquicardia de QRS largo deve ser tratada como taquicardia ventricular até prova em contrário, e em paciente com cardiopatia estrutural ou infarto prévio a probabilidade ultrapassa 90%. Achados que reforçam são dissociação atrioventricular, batimentos de captura e de fusão e concordância nas precordiais. A conduta na forma monomórfica com pulso e paciente estável é antiarrítmico endovenoso — amiodarona ou procainamida — com cardioversão sincronizada se houver deterioração. Administrar verapamil presumindo aberrância pode precipitar colapso hemodinâmico e é um dos erros mais graves da emergência.",
+  "base": "ESC 2022 — arritmias ventriculares: critérios diagnósticos de TV",
+  "coment": "As deflexões regulares mais lentas que os QRS são ondas P dissociadas, e o complexo estreito isolado é um batimento de captura. Dissociação atrioventricular e captura fecham o diagnóstico de taquicardia ventricular sem necessidade de algoritmo. Em paciente estável, o tratamento é antiarrítmico — amiodarona ou procainamida — com cardioversão se houver deterioração.",
   "porAlt": [
-   "Presumir aberrância e dar verapamil em taquicardia ventricular pode causar colapso hemodinâmico e parada.",
-   "Correta: QRS largo em cardiopata é taquicardia ventricular até prova em contrário, tratada com antiarrítmico e monitorização.",
-   "A taquicardia sinusal é regular mas de QRS estreito e com onda P identificável, o que não corresponde ao traçado descrito.",
-   "O flutter conduzido dois para um tem QRS estreito, salvo aberrância, e a digoxina não é conduta de urgência aqui.",
-   "Descartar como artefato um traçado de taquicardia larga em cardiopata pode custar a vida do paciente."
+   "Correta: dissociação com captura fecha taquicardia ventricular.",
+   "Adenosina em taquicardia ventricular não reverte e pode piorar.",
+   "O ritmo é regular e monomórfico, não a fibrilação pré-excitada.",
+   "O flutter não produz dissociação atrioventricular nem captura.",
+   "A frequência de 160 bpm regular com QRS largo não é sinusal."
   ]
  },
  {
-  "q": "Homem de 58 anos com miocardiopatia isquêmica mantém fração de ejeção de 28% após seis meses de terapia medicamentosa fundamental otimizada, em classe funcional II, sem arritmia documentada. A expectativa de vida é boa. Qual é a conduta quanto à prevenção de morte súbita?",
+  "q": "Homem de 58 anos com miocardiopatia isquêmica por infarto anterior há dois anos mantém fração de ejeção de 28% após seis meses de terapia otimizada com sacubitril-valsartana, carvedilol, espironolactona e empagliflozina em doses-alvo. Está em classe funcional II, sem internações no período, com pressão de 110/68 mmHg, frequência de 62 bpm em ritmo sinusal e QRS de 98 ms ao eletrocardiograma. Não há arritmia ventricular documentada no Holter e a expectativa de vida com boa qualidade supera um ano. Qual é a medida de prevenção indicada?",
   "alts": [
-   "Indicar cardiodesfibrilador em prevenção primária a todo paciente com fração reduzida persistente.",
-   "Não indicar dispositivo algum, pois sem arritmia documentada não há indicação de prevenção nenhuma.",
-   "Indicar amiodarona contínua como alternativa equivalente ao dispositivo na prevenção de morte súbita.",
-   "Aguardar ao menos dois anos de terapia otimizada antes de considerar qualquer dispositivo terapêutico.",
-   "Indicar apenas ressincronização cardíaca, independentemente da duração e da morfologia do QRS dele."
+   "Cardiodesfibrilador implantável",
+   "Ressincronização cardíaca",
+   "Amiodarona em dose de manutenção",
+   "Ablação de substrato ventricular",
+   "Apenas manter a terapia medicamentosa"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "ESC 2022 — cardiodesfibrilador implantável em prevenção primária na cardiopatia isquêmica",
-  "coment": "Na prevenção primária, o cardiodesfibrilador implantável é indicado em pacientes com fração de ejeção reduzida persistente apesar de pelo menos três meses de terapia medicamentosa fundamental otimizada, em classe funcional II ou III e com expectativa de vida razoável — com peso maior de evidência na etiologia isquêmica. O ponto que se esquece é a reavaliação: muitos pacientes melhoram a fração após a otimização e deixam de ter indicação, motivo pelo qual o dispositivo não é indicado antes desse período. A amiodarona não substitui o dispositivo na prevenção de morte súbita.",
+  "base": "ESC 2021/2022 — desfibrilador na prevenção primária da cardiopatia isquêmica",
+  "coment": "Fração de ejeção igual ou inferior a 35% após pelo menos três meses de terapia otimizada, em cardiopatia isquêmica com sintomas e expectativa de vida acima de um ano, é indicação de classe I de desfibrilador para prevenção primária. O QRS estreito exclui a ressincronização, e a amiodarona não reduz mortalidade nesse contexto.",
   "porAlt": [
-   "Correta: fração reduzida persistente após terapia otimizada, em classe II, indica cardiodesfibrilador em prevenção primária.",
-   "Prevenção primária existe justamente para quem ainda não teve arritmia documentada, com base no risco estimado.",
-   "A amiodarona reduz arritmia sintomática mas não substitui o dispositivo na redução de morte súbita arrítmica.",
-   "O intervalo exigido é de cerca de três meses de terapia otimizada, e não de dois anos, que atrasaria a proteção.",
-   "A ressincronização depende de QRS alargado com morfologia adequada, o que o enunciado não descreve."
+   "Correta: indicação de classe I de prevenção primária.",
+   "A ressincronização exige QRS alargado, ausente aqui.",
+   "A amiodarona não substitui o dispositivo na prevenção primária.",
+   "A ablação de substrato é para arritmia documentada e recorrente.",
+   "Manter só o medicamento deixa a prevenção de morte súbita sem cobrir."
   ]
  },
  {
-  "q": "Mulher de 74 anos chega com síncope e bradicardia. O eletrocardiograma mostra ondas P regulares dissociadas dos complexos QRS, com frequência ventricular de 34 bpm e QRS alargado. Está com pressão de 82/50 mmHg e confusa. Qual é a conduta imediata?",
+  "q": "Mulher de 74 anos é trazida após síncope sem pródromos, com trauma facial. Está com pressão de 96/58 mmHg, frequência de 34 bpm, lúcida mas com tontura ao sentar. O eletrocardiograma mostra ondas P regulares a 82 por minuto, dissociadas de complexos QRS largos e regulares a 34 por minuto. Potássio de 4,1 mEq/L, troponina normal e não usa fármacos bradicardizantes. Qual é a conduta?",
   "alts": [
-   "Atropina enquanto se prepara marca-passo transcutâneo, com droga cronotrópica se não houver resposta.",
-   "Observação em monitorização, aguardando reversão espontânea do bloqueio antes de qualquer intervenção.",
-   "Betabloqueador endovenoso para estabilizar o ritmo de escape ventricular que ela já apresenta agora.",
-   "Adenosina endovenosa para desmascarar a origem do ritmo antes de decidir a conduta terapêutica dela.",
-   "Cardioversão elétrica sincronizada imediata, que é indicada em toda bradiarritmia com instabilidade."
+   "Marca-passo transcutâneo e depois definitivo",
+   "Atropina 1 mg e observação",
+   "Reposição volêmica e reavaliação",
+   "Isoproterenol contínuo como tratamento definitivo",
+   "Observação em monitor sem intervenção"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ACC/AHA/HRS 2018 — Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay",
-  "coment": "O traçado descreve bloqueio atrioventricular total, com dissociação entre ondas P e complexos QRS e ritmo de escape lento e alargado, em paciente instável. A conduta imediata combina atropina — reconhecendo que ela costuma ter pouco efeito quando o bloqueio é infranodal, como sugere o QRS alargado — com preparo imediato de marca-passo transcutâneo, e drogas cronotrópicas como dopamina ou adrenalina se não houver resposta. O tratamento definitivo é o marca-passo definitivo, indicado no bloqueio total e no Mobitz II sintomáticos. Betabloqueador e adenosina agravariam a bradicardia.",
+  "base": "ESC 2021 — estimulação cardíaca: bloqueio atrioventricular total",
+  "coment": "O traçado mostra bloqueio atrioventricular total com escape ventricular lento e hipoperfusão sintomática. A medida imediata é estimulação transcutânea, ou transvenosa se houver demora, enquanto se providencia o marca-passo definitivo — indicação de classe I no bloqueio total adquirido, independentemente de sintoma. A atropina age no nó AV e tende a ser inútil no bloqueio infra-hissiano.",
   "porAlt": [
-   "Correta: bradiarritmia instável exige atropina com preparo de marca-passo transcutâneo e cronotrópico se não houver resposta.",
-   "Observar paciente hipotensa e confusa com bloqueio total desperdiça o tempo em que a perfusão pode ser restaurada.",
-   "O betabloqueador reduz ainda mais a frequência e pioraria de forma grave a bradicardia e a hipotensão.",
-   "A adenosina bloqueia o nó atrioventricular e pode causar assistolia em paciente com bloqueio já instalado.",
-   "Cardioversão sincronizada trata taquiarritmia; não tem qualquer papel no tratamento das bradiarritmias."
+   "Correta: estimulação imediata seguida de marca-passo definitivo.",
+   "A atropina não atua no bloqueio infra-hissiano com escape ventricular.",
+   "Não há hipovolemia: o problema é a frequência de 34 bpm.",
+   "O isoproterenol é ponte, nunca tratamento definitivo.",
+   "Observar paciente sintomático com escape lento é arriscado."
   ]
  },
  {
-  "q": "Homem de 61 anos assintomático realiza eletrocardiograma de rotina que mostra alargamento progressivo do intervalo PR até que uma onda P deixa de conduzir, repetindo o ciclo. A frequência é de 62 bpm e ele não tem sintomas nem cardiopatia estrutural. Qual é a conduta?",
+  "q": "Homem de 61 anos, assintomático, realiza eletrocardiograma em avaliação periódica de rotina. O traçado mostra ritmo sinusal a 62 bpm com alongamento progressivo do intervalo PR ao longo de três batimentos conduzidos — 180, 240 e 320 ms — até uma onda P não conduzida, com reinício do ciclo no batimento seguinte. O QRS mede 92 ms com eixo normal. Ele nega tontura, síncope, dispneia ou intolerância ao esforço, não usa fármacos bradicardizantes e o exame cardiovascular é normal. Qual é a conduta?",
   "alts": [
-   "Implante de marca-passo definitivo imediato, indicado em todo bloqueio atrioventricular já de segundo grau.",
-   "Suspensão imediata de qualquer atividade física até que o distúrbio de condução seja revertido por droga.",
-   "Acompanhamento clínico, pois o bloqueio de segundo grau tipo um assintomático não exige marca-passo.",
-   "Início de atropina de uso contínuo por via oral, para acelerar a condução pelo nó atrioventricular dele.",
-   "Estudo eletrofisiológico de urgência com ablação do nó atrioventricular como tratamento definitivo."
+   "Observação clínica sem indicação de marca-passo",
+   "Implante de marca-passo definitivo",
+   "Atropina e internação para monitorização",
+   "Suspender betabloqueador e reavaliar",
+   "Estudo eletrofisiológico imediato"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ACC/AHA/HRS 2018 — bloqueio atrioventricular de segundo grau tipo I (Wenckebach) assintomático",
-  "coment": "O padrão descrito é bloqueio atrioventricular de segundo grau tipo I, o fenômeno de Wenckebach, em que o intervalo PR se alarga progressivamente até uma onda P bloqueada. Quando é assintomático, ocorre em nível nodal e não se associa a cardiopatia estrutural, o prognóstico é benigno e não há indicação de marca-passo — o acompanhamento clínico basta, com revisão de fármacos que deprimem a condução. A situação é diferente do Mobitz tipo II e do bloqueio total, que são infranodais, imprevisíveis e têm indicação de marca-passo definitivo mesmo com sintomas discretos.",
+  "base": "ESC 2021 — estimulação cardíaca: Mobitz I assintomático",
+  "coment": "O alongamento progressivo do PR até a onda bloqueada define Mobitz I, e o QRS estreito localiza o distúrbio no nó atrioventricular. Em assintomático a evolução é benigna e não há indicação de marca-passo — a conduta é acompanhamento, com reavaliação se surgirem sintomas.",
   "porAlt": [
-   "Nem todo bloqueio de segundo grau indica dispositivo: o tipo I assintomático é justamente a exceção clássica.",
-   "Não há razão para restringir atividade física em paciente assintomático com bloqueio nodal benigno.",
-   "Correta: o Wenckebach assintomático tem prognóstico benigno, dispensa marca-passo e exige apenas acompanhamento.",
-   "A atropina não tem formulação de uso contínuo com essa finalidade e não trata distúrbio crônico de condução.",
-   "A ablação do nó atrioventricular agravaria o bloqueio e é conduta usada em contexto totalmente distinto."
+   "Correta: Mobitz I assintomático com QRS estreito não indica dispositivo.",
+   "Marca-passo é a conduta do Mobitz II, não do I nodal assintomático.",
+   "Não há instabilidade que justifique atropina ou internação.",
+   "Ele não usa bradicardizante.",
+   "O estudo eletrofisiológico não muda a conduta no Mobitz I assintomático."
   ]
  },
  {
@@ -8688,243 +8688,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 52 anos, hipertenso, tem dor precordial em aperto aos grandes esforços há três meses, aliviada com repouso em cinco minutos. O eletrocardiograma de repouso é normal e ele está assintomático na consulta. Qual é a conduta inicial adequada?",
+  "q": "Homem de 52 anos, hipertenso e dislipidêmico, refere dor precordial em aperto aos grandes esforços há três meses, que cede com repouso em cerca de três minutos e não progrediu. Está com pressão de 138/86 mmHg, frequência de 72 bpm, ausculta normal e eletrocardiograma de repouso sem alterações. A angiotomografia mostra lesão de 50% em descendente anterior média, sem outras lesões. A fração de ejeção é de 62%. Ele já usa atorvastatina 40 mg e ácido acetilsalicílico. Qual é a conduta?",
   "alts": [
-   "Encaminhar direto para coronariografia invasiva, exame inicial de escolha na angina estável.",
-   "Prescrever apenas analgésico e reavaliar em seis meses, dado o eletrocardiograma normal.",
-   "Solicitar apenas troponina seriada ambulatorial para excluir doença coronária obstrutiva.",
-   "Iniciar antiagregante e estatina e solicitar teste não invasivo para isquemia miocárdica.",
-   "Indicar cirurgia de revascularização empírica, pela duração dos sintomas relatados por ele."
+   "Betabloqueador e otimização clínica",
+   "Angioplastia com stent na lesão de 50%",
+   "Cirurgia de revascularização miocárdica",
+   "Suspender o ácido acetilsalicílico",
+   "Repetir a angiotomografia em seis meses"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2024 — Guidelines for the management of chronic coronary syndromes; Harrison's, 22ª edição, 2025",
-  "coment": "Angina estável típica exige terapia antianginosa e de prevenção — antiagregante e estatina de alta potência — associada a teste não invasivo para isquemia, seja funcional ou anatômico por angiotomografia de coronárias. A coronariografia invasiva de saída fica reservada a alta probabilidade com sintomas limitantes ou a resultado de teste indicando alto risco. Eletrocardiograma de repouso normal não exclui doença coronária: a maioria dos pacientes com angina estável tem traçado normal fora da crise.",
+  "base": "ESC 2024 e ensaio ISCHEMIA — síndrome coronariana crônica: terapia otimizada",
+  "coment": "Angina estável com lesão intermediária, função ventricular preservada e sintomas controláveis é tratada clinicamente: antianginoso — betabloqueador de primeira escolha — associado a estatina de alta potência e antiagregante. O ensaio ISCHEMIA mostrou que revascularizar de rotina na doença estável não reduz morte ou infarto frente à terapia otimizada.",
   "porAlt": [
-   "A coronariografia é reservada a alto risco ou sintomas refratários, não como primeiro exame de todos.",
-   "Analgésico não trata isquemia e adiar seis meses expõe o paciente a evento coronário evitável.",
-   "Troponina ambulatorial não rastreia doença coronária estável e um valor normal não exclui obstrução.",
-   "Correta: antiagregante e estatina com teste não invasivo compõem a abordagem inicial da angina estável.",
-   "Indicar cirurgia sem definir anatomia coronária é conduta sem qualquer respaldo em diretriz atual."
+   "Correta: terapia otimizada é a estratégia inicial na angina estável.",
+   "Lesão de 50% não é obstrutiva e não tem indicação de intervenção.",
+   "A cirurgia é para anatomia de alto risco, ausente aqui.",
+   "O antiagregante está indicado na doença coronariana estabelecida.",
+   "Repetir imagem não trata o sintoma que ele tem hoje."
   ]
  },
  {
-  "q": "Mulher de 45 anos tem sopro sistólico em foco mitral com irradiação para axila, associado a dispneia progressiva. O ecocardiograma mostra insuficiência mitral grave com fração de ejeção de 58% e diâmetro sistólico final de 42 mm. Qual é a conduta?",
+  "q": "Mulher de 45 anos apresenta dispneia progressiva há um ano, hoje aos esforços habituais. Ao exame, sopro holossistólico em foco mitral com irradiação para axila, terceira bulha e pressão de 122/76 mmHg. O ecocardiograma mostra insuficiência mitral primária grave por prolapso de folheto posterior, fração de ejeção de 58%, diâmetro sistólico final de 42 mm e pressão sistólica de artéria pulmonar de 46 mmHg. A anatomia é favorável ao reparo. Qual é a conduta?",
   "alts": [
-   "Encaminhar para correção cirúrgica ou percutânea da valva, pela gravidade com sintomas presentes.",
-   "Manter apenas seguimento clínico anual, já que a fração de ejeção permanece acima de cinquenta.",
-   "Iniciar betabloqueador isolado, tratamento definitivo da insuficiência mitral grave sintomática.",
-   "Prescrever diurético contínuo e considerar cirurgia somente se a fração cair abaixo de trinta.",
-   "Indicar profilaxia antibiótica contínua como única medida necessária para essa paciente agora."
+   "Cirurgia de reparo valvar mitral",
+   "Tratamento clínico com inibidor da ECA e diurético",
+   "Implante percutâneo de clipe mitral",
+   "Seguimento ecocardiográfico semestral",
+   "Troca valvar por prótese mecânica"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC/EACTS 2021 — Guidelines for the management of valvular heart disease",
-  "coment": "Insuficiência mitral primária grave com sintomas tem indicação de correção da valva, cirúrgica ou percutânea conforme anatomia e risco, independentemente de a fração de ejeção estar preservada. Em pacientes assintomáticos, a indicação surge com disfunção ventricular (fração igual ou menor que 60% ou diâmetro sistólico final igual ou maior que 40 mm), fibrilação atrial nova ou hipertensão pulmonar. Esperar a fração cair muito é perder a janela: a disfunção na sobrecarga de volume aparece tarde e nem sempre reverte.",
+  "base": "ESC 2021 — valvopatias: reparo na insuficiência mitral primária grave sintomática",
+  "coment": "Insuficiência mitral primária grave em paciente sintomática é indicação de classe I de cirurgia. Quando a anatomia é favorável, o reparo é preferível à troca — preserva o aparelho subvalvar, dispensa anticoagulação permanente e tem melhor sobrevida a longo prazo. O clipe percutâneo é para quem tem risco cirúrgico proibitivo.",
   "porAlt": [
-   "Correta: insuficiência mitral grave com sintomas indica correção da valva, mesmo com fração preservada.",
-   "Fração acima de cinquenta não afasta indicação quando há sintoma; o diâmetro sistólico já é limítrofe.",
-   "O betabloqueador alivia sintoma mas não corrige a regurgitação nem altera a história natural.",
-   "Esperar fração abaixo de trinta significa operar com disfunção instalada e muitas vezes irreversível.",
-   "A profilaxia de endocardite tem indicações restritas e não substitui a correção valvar indicada."
+   "Correta: sintomática com anatomia favorável, o reparo é o padrão.",
+   "O tratamento clínico não corrige a lesão mecânica.",
+   "O clipe é alternativa no risco cirúrgico alto, não em paciente de 45 anos.",
+   "Seguir observando paciente sintomática é perder a janela.",
+   "A troca por prótese só quando o reparo não é viável."
   ]
  },
  {
-  "q": "Homem de 38 anos, previamente hígido, chega com dor torácica que piora ao deitar e melhora ao sentar inclinado para frente. Há atrito pericárdico à ausculta e o eletrocardiograma mostra supradesnivelamento de ST difuso com infra de PR. Qual é o tratamento de primeira linha?",
+  "q": "Homem de 38 anos, previamente hígido, chega com dor torácica há um dia que piora ao deitar e melhora ao sentar-se inclinado para a frente, precedida de quadro gripal. Temperatura de 37,6 °C, pressão de 126/78 mmHg, frequência de 88 bpm, com atrito pericárdico. O eletrocardiograma mostra supradesnivelamento côncavo difuso com infra de PR. A troponina é normal, a proteína C reativa é de 42 mg/L e o ecocardiograma não mostra derrame significativo. Qual é o tratamento e o cuidado principal?",
   "alts": [
-   "Corticoide sistêmico em dose alta como primeira escolha, por acelerar a resolução do quadro.",
-   "Antibiótico de amplo espectro empírico, cobrindo etiologia bacteriana da inflamação pericárdica.",
-   "Anti-inflamatório não esteroidal associado a colchicina, que reduz recorrência do quadro.",
-   "Trombolítico endovenoso imediato, pelo supradesnivelamento de ST observado no eletrocardiograma.",
-   "Anticoagulação plena com heparina, indicada em toda pericardite aguda de causa viral."
+   "AINE com colchicina por três meses, evitando corticoide",
+   "Corticoide em dose imunossupressora por seis semanas",
+   "Apenas analgesia simples e observação",
+   "Antibiótico empírico de amplo espectro",
+   "Colchicina isolada por trinta dias"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2015 — Guidelines for the diagnosis and management of pericardial diseases; Harrison's, 22ª ed., 2025",
-  "coment": "O quadro é pericardite aguda, sustentado por dor pleurítica que melhora ao inclinar-se, atrito pericárdico e supradesnivelamento difuso com infradesnivelamento de PR. O tratamento de primeira linha combina anti-inflamatório não esteroidal com colchicina, que reduz de forma consistente a recorrência. O corticoide é reservado a falha, contraindicação ou etiologia específica, porque associa-se a mais recorrência. Trombolítico é formalmente contraindicado e a anticoagulação aumenta risco de transformação hemorrágica do derrame.",
+  "base": "ESC 2015 — doenças do pericárdio: primeira linha e papel do corticoide",
+  "coment": "O esquema de primeira linha é anti-inflamatório não esteroidal em dose plena com desmame, associado a colchicina por três meses — a colchicina reduz cerca de metade das recorrências, que são o principal problema da pericardite aguda. O corticoide se evita justamente por aumentar a taxa de recorrência.",
   "porAlt": [
-   "O corticoide como primeira escolha associa-se a mais recorrências e fica para falha ou causa específica.",
-   "Etiologia bacteriana é rara e o antibiótico empírico não faz parte do tratamento inicial da pericardite.",
-   "Correta: anti-inflamatório com colchicina é a primeira linha e a colchicina reduz recorrência da pericardite.",
-   "O trombolítico é contraindicado: o supra difuso com infra de PR não corresponde a oclusão coronária.",
-   "A anticoagulação aumenta o risco de derrame hemorrágico e não integra o tratamento da pericardite."
+   "Correta: a associação reduz recorrência, e o corticoide a aumenta.",
+   "O corticoide de entrada associa-se a mais recorrência.",
+   "Analgesia isolada não previne a recorrência.",
+   "Não há dado sugerindo pericardite bacteriana.",
+   "A colchicina sozinha por trinta dias não cobre a fase aguda nem o tempo necessário."
   ]
  },
  {
-  "q": "Mulher de 71 anos chega com dispneia e edema de membros inferiores. O exame mostra turgência jugular a 45 graus, hepatomegalia dolorosa e estertores bibasais. A fração de ejeção é de 62% e há hipertrofia ventricular esquerda importante. Qual é a base do tratamento medicamentoso?",
+  "q": "Mulher de 71 anos chega com dispneia e edema de membros inferiores há três semanas. Ao exame, turgência jugular a 45 graus com sinal de Kussmaul, hepatomegalia dolorosa, ascite e edema até as coxas, sem estertores pulmonares. Pressão de 108/72 mmHg com pulso paradoxal de 8 mmHg. O ecocardiograma mostra fração de ejeção de 60%, pericárdio espessado, movimento septal em salto e variação respiratória exagerada dos fluxos transvalvares. Fez radioterapia torácica há 15 anos. Qual é o diagnóstico?",
   "alts": [
-   "Digoxina associada a diurético tiazídico, esquema de escolha na fração de ejeção preservada.",
-   "Betabloqueador em dose plena isolado, que reduz a mortalidade nesse fenótipo clínico.",
-   "Bloqueador de canal de cálcio di-hidropiridínico, quarto pilar do tratamento nesse cenário.",
-   "Anticoagulação oral plena, recomendada a todos os pacientes com fração preservada e congestão.",
-   "Antagonista mineralocorticoide associado a inibidor de SGLT2, base atual desse fenótipo."
+   "Pericardite constritiva",
+   "Miocardiopatia restritiva",
+   "Tamponamento cardíaco",
+   "Insuficiência cardíaca de fração preservada",
+   "Cirrose hepática com hipertensão portal"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2026 — Guidelines for the management of heart failure, fenótipo de fração preservada",
-  "coment": "Na insuficiência cardíaca com fração de ejeção preservada, definida por fração igual ou maior que 50% pela diretriz de 2026, a base medicamentosa passou a ser antagonista do receptor mineralocorticoide somado a inibidor de SGLT2. O antagonista mineralocorticoide ganhou recomendação classe I na insuficiência cardíaca crônica independentemente da fração de ejeção. O diurético de alça trata congestão e alivia sintomas, mas não altera sobrevida. O betabloqueador não demonstrou benefício de mortalidade nesse fenótipo.",
+  "base": "ESC 2015 — doenças do pericárdio: constrição e diferencial com restritiva",
+  "coment": "Congestão sistêmica predominante com pulmão limpo, sinal de Kussmaul, pericárdio espessado, salto septal e interdependência ventricular exagerada compõem o quadro de pericardite constritiva — e a radioterapia torácica prévia é uma das causas clássicas. O diagnóstico diferencial com a restritiva é o desafio, e a interdependência ventricular é o achado que separa os dois.",
   "porAlt": [
-   "A digoxina não é base na fração preservada e o tiazídico não substitui o diurético de alça na congestão.",
-   "O betabloqueador não reduz mortalidade nesse fenótipo e entra apenas por indicação própria.",
-   "Não existe quarto pilar com bloqueador de canal de cálcio no tratamento da insuficiência cardíaca.",
-   "A anticoagulação depende de fibrilação atrial ou outra indicação, e não do fenótipo de insuficiência.",
-   "Correta: a base na fração preservada é antagonista mineralocorticoide com inibidor de SGLT2."
+   "Correta: constrição, com etiologia actínica plausível.",
+   "Na restritiva não há espessamento pericárdico nem interdependência exagerada.",
+   "O tamponamento cursa com pulso paradoxal maior e colapso de câmaras.",
+   "A fração preservada não explica pericárdio espessado e Kussmaul.",
+   "A cirrose não produz turgência jugular com Kussmaul."
   ]
  },
  {
-  "q": "Homem de 66 anos, tabagista e diabético, refere claudicação intermitente em panturrilha após duzentos metros de caminhada. Os pulsos pediosos estão reduzidos e o índice tornozelo-braquial é de 0,68. Qual é a conduta inicial?",
+  "q": "Homem de 66 anos, tabagista de 45 maços-ano e diabético, refere dor em panturrilha direita após caminhar duzentos metros, que cede com repouso, há oito meses, estável. Os pulsos pediosos estão diminuídos à direita, sem lesões tróficas ou dor em repouso. Pressão de 142/86 mmHg, índice tornozelo-braquial de 0,68 à direita. Já usa metformina, e o LDL é de 122 mg/dL. Qual é a conduta inicial?",
   "alts": [
-   "Cessação do tabagismo, estatina, antiagregante e programa supervisionado de exercício físico.",
-   "Revascularização cirúrgica imediata, indicada sempre que o índice fica abaixo de 0,7 neste caso.",
-   "Anticoagulação plena com anticoagulante oral direto, tratamento de escolha na doença arterial.",
-   "Repouso absoluto do membro afetado até que os pulsos periféricos retornem à normalidade neste caso.",
-   "Antibiótico profilático contínuo, prevenindo infecção secundária à isquemia crônica do membro."
+   "Exercício supervisionado, estatina, antiagregante e cessar o tabagismo",
+   "Angioplastia da artéria femoral superficial",
+   "Cirurgia de revascularização femoropoplítea",
+   "Anticoagulação oral plena",
+   "Pentoxifilina isolada"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2024 — Guidelines for peripheral arterial and aortic diseases; Harrison's, 22ª edição, 2025",
-  "coment": "Na doença arterial periférica com claudicação, o tratamento inicial é clínico e tem dois objetivos distintos: reduzir eventos cardiovasculares e melhorar a caminhada. O primeiro se alcança com cessação do tabagismo, estatina de alta potência, antiagregante e controle rigoroso de pressão e diabetes. O segundo, com exercício supervisionado, que melhora a distância percorrida de forma comparável à revascularização em muitos pacientes. A revascularização fica para claudicação limitante refratária ao tratamento clínico e para isquemia crítica.",
+  "base": "ESC 2024 — doença arterial periférica: tratamento da claudicação intermitente",
+  "coment": "Claudicação intermitente estável, sem isquemia crítica, é tratada clinicamente: programa de exercício supervisionado — a intervenção com maior ganho de distância percorrida —, estatina de alta potência, antiagregante e cessação do tabagismo, que é a medida isolada de maior impacto. A revascularização entra na falha do tratamento clínico ou na isquemia crítica.",
   "porAlt": [
-   "Correta: cessação do tabagismo, estatina, antiagregante e exercício supervisionado formam a base inicial.",
-   "O índice isolado não indica revascularização: a decisão depende de sintoma limitante ou isquemia crítica.",
-   "A anticoagulação não é tratamento da doença arterial periférica estável e acrescenta risco hemorrágico.",
-   "O repouso piora o condicionamento; o exercício supervisionado é justamente o que melhora a claudicação.",
-   "Não há indicação de antibiótico profilático contínuo na doença arterial periférica sem infecção."
+   "Correta: tratamento clínico e exercício antes de qualquer intervenção.",
+   "A angioplastia é para refratários ao tratamento clínico ou isquemia crítica.",
+   "A cirurgia tem indicação ainda mais restrita.",
+   "A anticoagulação não tem papel na claudicação estável.",
+   "A pentoxifilina tem eficácia marginal e não substitui o pacote."
   ]
  },
  {
-  "q": "Mulher de 29 anos, gestante de 32 semanas, chega com dispneia progressiva e ortopneia. O ecocardiograma mostra fração de ejeção de 30% sem cardiopatia prévia conhecida. Qual é a hipótese diagnóstica mais provável?",
+  "q": "Mulher de 29 anos, gestante de 32 semanas, chega com dispneia progressiva há duas semanas, hoje com ortopneia e tosse noturna. Está com pressão de 118/74 mmHg, frequência de 108 bpm, saturação de 94%, estertores em bases e edema de membros inferiores. O ecocardiograma mostra fração de ejeção de 32%, ventrículo esquerdo dilatado e ausência de valvopatia. Não tinha cardiopatia prévia conhecida e o pré-natal era normal até então. Qual é o diagnóstico mais provável?",
   "alts": [
-   "Estenose mitral reumática descompensada, causa mais comum de dispneia no terceiro trimestre.",
-   "Cardiomiopatia periparto, que se manifesta no fim da gestação ou nos meses após o parto.",
-   "Embolia pulmonar maciça, que caracteristicamente cursa com queda da fração de ejeção esquerda.",
-   "Hipertensão pulmonar idiopática, cujo diagnóstico é firmado pela fração de ejeção reduzida.",
-   "Sobrecarga volêmica fisiológica da gestação, que não exige investigação nem tratamento algum."
+   "Cardiomiopatia periparto",
+   "Sobrecarga volêmica fisiológica da gestação",
+   "Estenose mitral descompensada",
+   "Tromboembolismo pulmonar",
+   "Pré-eclâmpsia com edema agudo"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ESC 2018 — Guidelines for the management of cardiovascular diseases during pregnancy; ESC 2026 de insuficiência cardíaca",
-  "coment": "A cardiomiopatia periparto é definida por insuficiência cardíaca com fração de ejeção reduzida que surge no fim da gestação ou nos meses seguintes ao parto, sem outra causa identificável e sem cardiopatia prévia. O tratamento segue os princípios da insuficiência cardíaca, com as adaptações da gestação: inibidores do sistema renina-angiotensina são contraindicados antes do parto e substituídos por hidralazina com nitrato, mantendo-se betabloqueador seletivo e diurético conforme congestão. A doença exige acompanhamento conjunto com obstetrícia e definição da via de parto.",
+  "base": "ESC 2018 — doença cardiovascular na gestação: cardiomiopatia periparto",
+  "coment": "Insuficiência cardíaca de início no último mês de gestação ou nos cinco meses seguintes ao parto, com fração de ejeção abaixo de 45% e sem outra causa identificável, define cardiomiopatia periparto. O tratamento respeita a gestação — inibidores da enzima conversora e do receptor de angiotensina são contraindicados antes do parto, e a hidralazina com nitrato ocupa esse lugar.",
   "porAlt": [
-   "A estenose mitral descompensa na gestação, mas cursa com fração preservada e achados valvares típicos.",
-   "Correta: insuficiência cardíaca de início no fim da gestação, sem cardiopatia prévia, define cardiomiopatia periparto.",
-   "A embolia pulmonar sobrecarrega o ventrículo direito e não reduz caracteristicamente a fração esquerda.",
-   "A hipertensão pulmonar não é diagnosticada pela fração de ejeção esquerda, que costuma estar preservada.",
-   "Dispneia com ortopneia e fração de 30% não é achado fisiológico e exige investigação e tratamento."
+   "Correta: início no terceiro trimestre com disfunção sistólica nova e sem outra causa.",
+   "A sobrecarga fisiológica não reduz a fração de ejeção a 32%.",
+   "Não há sopro nem achado ecocardiográfico de estenose mitral.",
+   "A embolia não cursa com dilatação ventricular e disfunção sistólica difusa.",
+   "Não há hipertensão nem proteinúria descritas."
   ]
  },
  {
-  "q": "Homem de 74 anos apresenta síncope aos esforços, angina e dispneia. Há sopro sistólico rude em foco aórtico com irradiação para carótidas e pulso parvus et tardus. O ecocardiograma mostra área valvar de 0,8 cm² com gradiente médio de 48 mmHg. Qual é a conduta?",
+  "q": "Homem de 74 anos apresenta síncope aos esforços, angina aos médios esforços e dispneia há seis meses, com piora progressiva. Ao exame, sopro sistólico rude em foco aórtico com irradiação para carótidas, pulso parvus et tardus e segunda bulha hipofonética. Pressão de 128/78 mmHg. O ecocardiograma mostra área valvar de 0,7 cm², gradiente médio de 52 mmHg, velocidade máxima de 4,6 m/s e fração de ejeção de 55%. O risco cirúrgico pelo STS é intermediário. Qual é a conduta?",
   "alts": [
-   "Manter seguimento ecocardiográfico semestral, adiando intervenção enquanto a fração estiver normal.",
-   "Iniciar vasodilatador em dose plena para reduzir a pós-carga e aliviar o gradiente transvalvar.",
-   "Prescrever betabloqueador isolado como tratamento definitivo da estenose aórtica sintomática.",
-   "Indicar apenas valvoplastia por balão como tratamento definitivo nesse grupo de pacientes idosos.",
-   "Encaminhar para troca valvar aórtica, cirúrgica ou por cateter, pela estenose grave sintomática."
+   "Substituição valvar aórtica, cirúrgica ou transcateter",
+   "Tratamento clínico com betabloqueador e diurético",
+   "Valvoplastia aórtica por balão como definitivo",
+   "Seguimento ecocardiográfico semestral",
+   "Vasodilatador para reduzir a pós-carga"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC/EACTS 2021 — Guidelines for the management of valvular heart disease, estenose aórtica",
-  "coment": "Estenose aórtica grave — área menor que 1 cm² com gradiente médio acima de 40 mmHg — que se torna sintomática tem indicação formal de troca valvar, cirúrgica ou por cateter conforme risco, idade e anatomia. A tríade sintomática de angina, síncope e dispneia marca a virada prognóstica: sem intervenção, a sobrevida média cai drasticamente após o início dos sintomas. Vasodilatadores devem ser usados com muita cautela, porque a obstrução fixa impede o aumento compensatório do débito e a queda da pós-carga pode causar hipotensão grave.",
+  "base": "ESC 2021 — valvopatias: estenose aórtica grave sintomática",
+  "coment": "Estenose aórtica grave sintomática — a tríade de angina, síncope e dispneia — é indicação de classe I de substituição valvar, e a sobrevida sem intervenção é medida em meses. A escolha entre cirurgia e implante transcateter depende de idade, risco cirúrgico e anatomia, decidida pelo heart team; no risco intermediário as duas são opções.",
   "porAlt": [
-   "Adiar intervenção em estenose grave sintomática desperdiça a janela em que o prognóstico ainda é modificável.",
-   "Vasodilatador em obstrução fixa pode causar hipotensão grave, pois o débito não aumenta em compensação.",
-   "O betabloqueador não trata a obstrução valvar e não altera a história natural da estenose aórtica.",
-   "A valvoplastia por balão é medida paliativa ou ponte, sem durabilidade como tratamento definitivo.",
-   "Correta: estenose aórtica grave sintomática indica troca valvar, cirúrgica ou por cateter conforme o risco."
+   "Correta: grave e sintomática, a intervenção é classe I.",
+   "O tratamento clínico não altera a história natural.",
+   "A valvoplastia por balão é ponte, não tratamento definitivo.",
+   "Observar sintomático é aceitar mortalidade alta em curto prazo.",
+   "Vasodilatador na estenose aórtica grave pode precipitar hipotensão."
   ]
  },
  {
-  "q": "Homem de 60 anos chega com dor torácica intensa de início súbito, irradiada para o dorso, descrita como rasgando. A pressão é de 190/110 mmHg no braço direito e 150/90 mmHg no esquerdo. Qual é a conduta imediata?",
+  "q": "Homem de 60 anos, hipertenso mal controlado, chega com dor torácica intensa de início súbito há uma hora, irradiada para o dorso e descrita como rasgando. Pressão de 178/98 mmHg no braço direito e 146/84 mmHg no esquerdo, frequência de 102 bpm. Há sopro diastólico aspirativo em foco aórtico novo e assimetria de pulsos radiais. O eletrocardiograma não mostra supradesnivelamento e a radiografia revela alargamento do mediastino. Qual é a conduta imediata?",
   "alts": [
-   "Administrar trombolítico imediatamente, presumindo infarto agudo com supradesnivelamento de ST.",
-   "Iniciar anticoagulação plena empírica antes de qualquer exame de imagem torácica ser realizado.",
-   "Suspeitar de dissecção de aorta, controlar frequência e pressão e solicitar imagem urgente.",
-   "Prescrever apenas analgesia e reavaliar em duas horas, dada a ausência de alteração no traçado.",
-   "Solicitar radiografia de tórax isolada, exame suficiente para confirmar ou excluir a hipótese."
+   "Betabloqueador intravenoso e angiotomografia de urgência",
+   "Fibrinólise imediata para infarto",
+   "Nitroprussiato isolado antes de qualquer imagem",
+   "Anticoagulação plena com heparina",
+   "Ácido acetilsalicílico e coronariografia"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "ESC 2024 — Guidelines for peripheral arterial and aortic diseases, síndromes aórticas agudas",
-  "coment": "Dor torácica de início súbito, lancinante, irradiada para o dorso, com diferença de pressão entre os membros, sugere dissecção aórtica. A conduta imediata é controlar primeiro a frequência cardíaca com betabloqueador endovenoso e depois a pressão com vasodilatador — a ordem importa, porque vasodilatar antes de frear aumenta a força de cisalhamento sobre a parede. O alvo é frequência abaixo de 60 bpm e pressão sistólica entre 100 e 120 mmHg. Trombolítico e anticoagulação são catastróficos nesse cenário e a radiografia normal não exclui o diagnóstico.",
+  "base": "ESC 2024 — síndromes aórticas agudas: manejo inicial da dissecção",
+  "coment": "Dor rasgando com irradiação dorsal, assimetria de pressão e de pulsos, sopro de insuficiência aórtica novo e mediastino alargado apontam dissecção aguda de aorta. O tratamento inicial é reduzir a força de cisalhamento: betabloqueador intravenoso primeiro, para baixar frequência e derivada de pressão, e só depois vasodilatador se necessário. A angiotomografia define o tipo e a conduta cirúrgica.",
   "porAlt": [
-   "Trombolisar uma dissecção é catastrófico: a diferença de pressão entre os membros já aponta o diagnóstico.",
-   "A anticoagulação plena numa dissecção agrava o sangramento e pode ser fatal antes de qualquer imagem.",
-   "Correta: suspeitar de dissecção, controlar frequência antes da pressão e confirmar com imagem urgente.",
-   "Adiar duas horas em dor lancinante com assimetria de pulsos permite a progressão da dissecção.",
-   "A radiografia pode mostrar alargamento do mediastino, mas um exame normal não exclui a dissecção."
+   "Correta: controlar frequência e pressão, e definir por imagem.",
+   "Fibrinólise em dissecção é catastrófica.",
+   "Vasodilatador antes do betabloqueador aumenta a taquicardia reflexa e o cisalhamento.",
+   "A anticoagulação agrava o sangramento da falsa luz.",
+   "Antiagregar e cateterizar sem excluir dissecção é perigoso."
   ]
  },
  {
-  "q": "Mulher de 34 anos apresenta palpitações frequentes e o Holter mostra extrassístoles ventriculares isoladas, monomórficas, correspondendo a 2% dos batimentos. O ecocardiograma é normal e não há cardiopatia estrutural nem história familiar de morte súbita. Qual é a conduta?",
+  "q": "Mulher de 34 anos, sem comorbidades, refere palpitações frequentes há seis meses, sem síncope ou dispneia. O Holter de 24 horas mostra 480 extrassístoles ventriculares isoladas, monomórficas, com morfologia de bloqueio de ramo esquerdo e eixo inferior, representando 0,6% dos batimentos. O ecocardiograma é normal, o eletrocardiograma de repouso não tem alterações e não há história familiar de morte súbita. Qual é a conduta?",
   "alts": [
-   "Iniciar amiodarona contínua, tratamento de escolha para extrassístoles ventriculares isoladas.",
-   "Indicar cardiodesfibrilador implantável, pela presença de arritmia ventricular documentada agora.",
-   "Solicitar estudo eletrofisiológico com ablação imediata, seja qual for a carga delas neste caso.",
-   "Restringir toda atividade física de forma definitiva, pelo risco elevado de morte súbita associada.",
-   "Orientar, reduzir estimulantes e considerar betabloqueador caso os sintomas incomodem muito."
+   "Orientação, betabloqueador se sintomas incomodarem",
+   "Ablação por cateter imediata",
+   "Amiodarona em dose de manutenção",
+   "Cardiodesfibrilador implantável",
+   "Restrição definitiva de atividade física"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2022 — Guidelines for ventricular arrhythmias and the prevention of sudden cardiac death",
-  "coment": "Extrassístoles ventriculares monomórficas isoladas, com carga baixa, em coração estruturalmente normal e sem história familiar de morte súbita, têm prognóstico benigno. A conduta é tranquilizar, revisar estimulantes como cafeína, álcool e descongestionantes, corrigir distúrbios eletrolíticos e oferecer betabloqueador se o sintoma incomodar. A ablação entra em carga alta, tipicamente acima de 10% a 15% dos batimentos, sobretudo se houver queda da fração de ejeção — a chamada taquicardiomiopatia induzida por extrassístoles. Amiodarona contínua nessa idade traz toxicidade cumulativa desnecessária.",
+  "base": "ESC 2022 — arritmias ventriculares: extrassistolia em coração estruturalmente normal",
+  "coment": "Extrassístoles monomórficas com morfologia de bloqueio de ramo esquerdo e eixo inferior sugerem origem em via de saída de ventrículo direito, de bom prognóstico em coração estruturalmente normal. Com carga baixa — bem abaixo dos 10% a 15% associados a miocardiopatia induzida — a conduta é tranquilizar e tratar sintoma, se incomodar, com betabloqueador.",
   "porAlt": [
-   "A amiodarona tem toxicidade tireoidiana, hepática e pulmonar cumulativa, desproporcional a esse quadro.",
-   "Não há indicação de dispositivo em extrassístoles isoladas com coração estruturalmente normal.",
-   "A ablação depende de carga alta ou de disfunção ventricular associada, não da simples presença delas.",
-   "Restringir atividade física de forma definitiva não tem respaldo e prejudica a saúde cardiovascular.",
-   "Correta: carga baixa em coração normal tem prognóstico benigno; orientar e usar betabloqueador se sintomática."
+   "Correta: origem benigna, carga baixa e coração normal.",
+   "A ablação entra na carga alta, refratariedade ou disfunção induzida.",
+   "A amiodarona tem toxicidade incompatível com quadro benigno em jovem.",
+   "Não há indicação de dispositivo em coração normal com extrassístoles benignas.",
+   "Restringir atividade sem indicação prejudica sem benefício."
   ]
  },
  {
-  "q": "Homem de 58 anos, diabético e hipertenso, teve infarto com supradesnivelamento de ST tratado com angioplastia primária há duas semanas. Na consulta de alta, qual conjunto de medidas compõe a prevenção secundária?",
+  "q": "Homem de 58 anos, diabético e hipertenso, teve infarto com supradesnivelamento de ST tratado com angioplastia primária há duas semanas e comparece à primeira consulta ambulatorial. Está assintomático, com pressão de 128/78 mmHg, frequência de 68 bpm, fração de ejeção de 48% e LDL de 88 mg/dL em uso de atorvastatina 80 mg. Usa também ácido acetilsalicílico, ticagrelor, metoprolol e enalapril. Hemoglobina glicada de 7,8%. Qual é a conduta em relação ao lípide?",
   "alts": [
-   "Apenas ácido acetilsalicílico isolado e controle pressórico, dispensando as demais classes citadas.",
-   "Anticoagulação oral plena substituindo a antiagregação em todos os pacientes após angioplastia.",
-   "Somente estatina em dose baixa, já com meta de LDL definida apenas pelo valor inicial do paciente.",
-   "Dupla antiagregação, estatina potente, betabloqueador, inibidor do sistema e sempre reabilitação.",
-   "Repouso absoluto por seis meses, contraindicando qualquer programa de reabilitação cardiovascular."
+   "Associar ezetimiba para atingir LDL abaixo de 55 mg/dL",
+   "Manter a estatina isolada, pois o LDL está abaixo de 100 mg/dL",
+   "Suspender a estatina pelo risco de miopatia",
+   "Trocar por estatina de baixa potência",
+   "Associar fibrato ao esquema atual"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "ACC/AHA 2025 — Guideline for the management of patients with acute coronary syndromes, prevenção secundária",
-  "coment": "A prevenção secundária após síndrome coronariana reúne dupla antiagregação por pelo menos doze meses nos pacientes sem alto risco de sangramento, estatina de alta intensidade para todos com opção de ezetimiba concomitante, betabloqueador iniciado precocemente, inibidor do sistema renina-angiotensina sobretudo com disfunção ventricular, diabetes ou hipertensão, e encaminhamento à reabilitação cardíaca. Acrescenta-se controle rigoroso de pressão, diabetes e peso, cessação do tabagismo e perfil lipídico de controle entre quatro e oito semanas.",
+  "base": "ACC/AHA 2025 e ESC — metas lipídicas em prevenção secundária",
+  "coment": "A meta pós-síndrome coronariana aguda é LDL abaixo de 55 mg/dL, com redução de pelo menos 50% do basal. Com 88 mg/dL sob estatina de alta potência na dose máxima, o passo seguinte é associar ezetimiba, e se ainda não atingir, inibidor de PCSK9. Em paciente de altíssimo risco há quem defenda meta ainda mais baixa.",
   "porAlt": [
-   "Antiagregante isolado subtrata: a dupla antiagregação é padrão por pelo menos doze meses nesse cenário.",
-   "A anticoagulação só entra por indicação própria, como fibrilação atrial, e não substitui a antiagregação.",
-   "A estatina é de alta intensidade para todos, independentemente do LDL inicial do paciente.",
-   "Correta: dupla antiagregação, estatina de alta potência, betabloqueador, bloqueio do sistema e reabilitação.",
-   "A reabilitação cardíaca é recomendação formal e o repouso prolongado piora o prognóstico funcional."
+   "Correta: meta abaixo de 55 mg/dL, com ezetimiba como próximo passo.",
+   "A meta de 100 mg/dL não vale para prevenção secundária.",
+   "Não há sintoma nem alteração enzimática que justifique suspender.",
+   "Reduzir a potência contraria a meta.",
+   "O fibrato não é a escolha para reduzir LDL."
   ]
  },
  {
@@ -12288,243 +12288,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 58 anos com dispneia progressiva, ortopneia e edema, com fração de ejeção de 30%. Já usa inibidor da enzima conversora e betabloqueador otimizados. Qual é o próximo passo?",
+  "q": "Homem de 58 anos com miocardiopatia dilatada tem dispneia progressiva, ortopneia e edema de membros inferiores. A fração de ejeção é de 30% e ele já usa enalapril 20 mg duas vezes ao dia e furosemida 40 mg ao dia. Está sem congestão pulmonar hoje, com pressão de 116/72 mmHg, frequência de 78 bpm em ritmo sinusal, creatinina de 1,1 mg/dL e potássio de 4,2 mEq/L. Não é diabético. Qual é a conduta para completar o tratamento?",
   "alts": [
-   "Acrescentar antagonista mineralocorticoide e inibidor de SGLT2, sempre buscando as quatro classes basais.",
-   "Acrescentar apenas diurético de alça em dose alta, medida que reduz mortalidade nesse perfil clínico.",
-   "Suspender o betabloqueador diante da fração de ejeção reduzida e da congestão clínica apresentada agora.",
-   "Iniciar digoxina como próxima droga modificadora de prognóstico nesse paciente já otimizado neste caso.",
-   "Indicar transplante cardíaco imediatamente, antes de completar o tratamento medicamentoso otimizado."
+   "Acrescentar betabloqueador, antagonista mineralocorticoide e inibidor do SGLT2",
+   "Aumentar a furosemida e reavaliar em três meses",
+   "Acrescentar apenas digoxina",
+   "Trocar o enalapril por hidralazina com nitrato",
+   "Acrescentar bloqueador de canal de cálcio"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024; ESC Heart Failure Guidelines, 2021 com atualização 2023",
-  "coment": "O tratamento da insuficiência cardíaca com fração de ejeção reduzida se apoia em quatro pilares que reduzem mortalidade: inibidor do sistema renina-angiotensina, preferencialmente sacubitril-valsartana, betabloqueador, antagonista do receptor mineralocorticoide e inibidor de SGLT2. As quatro classes devem ser instituídas rapidamente, em semanas, com titulação subsequente. Diuréticos aliviam congestão sem impacto em mortalidade, e a digoxina reduz internação sem reduzir óbito.",
+  "base": "ESC 2021/2023 — insuficiência cardíaca: quatro pilares",
+  "coment": "Os quatro pilares da insuficiência cardíaca de fração reduzida são bloqueio do sistema renina-angiotensina — preferencialmente sacubitril-valsartana —, betabloqueador, antagonista mineralocorticoide e inibidor do SGLT2. Ele usa apenas um. Com pressão, potássio e função renal adequados, os três restantes devem ser introduzidos em doses baixas e titulados.",
   "porAlt": [
-   "Correta: completar os quatro pilares acrescentando antagonista mineralocorticoide e inibidor de SGLT2.",
-   "O diurético de alça alivia congestão e melhora sintomas, mas não reduz mortalidade nessa doença.",
-   "Suspender o betabloqueador retira um pilar que reduz mortalidade; ajusta-se a dose se necessário.",
-   "A digoxina reduz internações sem reduzir mortalidade e não precede as classes com esse benefício.",
-   "O transplante se avalia após otimização plena e persistência de doença avançada e refratária."
+   "Correta: completar os pilares é o que muda mortalidade.",
+   "O diurético alivia congestão, mas não altera prognóstico.",
+   "A digoxina não é pilar e não reduz mortalidade.",
+   "A hidralazina com nitrato é para intolerantes ao bloqueio do sistema.",
+   "O bloqueador de canal de cálcio não tem papel na fração reduzida."
   ]
  },
  {
-  "q": "Paciente de 62 anos com dor torácica típica há 40 minutos e supradesnivelamento de ST em parede inferior. O hospital não tem hemodinâmica e a transferência levaria 3 horas. Qual é a conduta?",
+  "q": "Homem de 62 anos chega com dor torácica típica há 40 minutos. O eletrocardiograma mostra supradesnivelamento de ST de 3 mm em DII, DIII e aVF com infra recíproco em DI e aVL. Está com pressão de 132/82 mmHg, frequência de 76 bpm e saturação de 97%. O hospital dispõe de hemodinâmica no local, com equipe de plantão e sala disponível. O tempo estimado entre o diagnóstico e a passagem do fio-guia é de 40 minutos. Qual é a conduta?",
   "alts": [
-   "Aguardar a transferência para angioplastia primária, ainda que o tempo total ultrapasse três horas.",
-   "Prescrever apenas antiagregante e anticoagulante, sem qualquer estratégia de reperfusão miocárdica.",
-   "Solicitar cintilografia miocárdica antes de decidir sobre a estratégia de reperfusão do paciente.",
-   "Trombolítico imediato no local e transferência para centro com hemodinâmica, sempre após a infusão.",
-   "Iniciar betabloqueador endovenoso em dose alta como principal estratégia de reperfusão coronariana."
-  ],
-  "gab": 3,
-  "tema": "cardio",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "Diretriz Brasileira de Síndromes Coronarianas Agudas com Supradesnivelamento de ST — SBC, 2021; ESC STEMI guidelines, 2023",
-  "coment": "No infarto com supradesnivelamento de ST, a angioplastia primária é preferida quando o tempo entre o primeiro contato médico e a abertura do vaso é inferior a cento e vinte minutos. Se esse tempo não é factível, indica-se trombólise no local, idealmente em até trinta minutos da chegada, seguida de transferência para estratégia fármaco-invasiva com coronariografia entre duas e vinte e quatro horas. Reperfundir tarde é pior do que reperfundir com trombolítico logo.",
-  "porAlt": [
-   "Aguardar transferência longa perde músculo viável e piora mortalidade em comparação à trombólise.",
-   "Antiagregante e anticoagulante são adjuvantes e não substituem a reperfusão do vaso ocluído.",
-   "A cintilografia não tem papel na fase aguda e apenas atrasaria a reperfusão do miocárdio.",
-   "Correta: trombólise imediata seguida de transferência para estratégia fármaco-invasiva programada.",
-   "O betabloqueador é adjuvante e não promove reperfusão da artéria coronária ocluída pelo trombo."
-  ]
- },
- {
-  "q": "Homem de 70 anos com sopro sistólico rude em foco aórtico irradiado para carótidas, síncope aos esforços e área valvar de 0,8 cm². Qual é a conduta?",
-  "alts": [
-   "Manter tratamento clínico com vasodilatador em dose plena e reavaliar em doze meses de seguimento.",
-   "Indicar apenas restrição de sal e diurético, medidas que revertem a obstrução valvar do paciente.",
-   "Encaminhar para substituição valvar, pois o sintoma indica sempre intervenção na estenose grave.",
-   "Iniciar anticoagulação oral plena, tratamento de escolha para a estenose aórtica grave sintomática.",
-   "Prescrever betabloqueador em dose alta, já medida que reduz o gradiente transvalvar e resolve o quadro."
-  ],
-  "gab": 2,
-  "tema": "cardio",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "Diretriz Brasileira de Valvopatias — SBC, 2020 com atualização 2023; ACC/AHA Valvular Heart Disease Guideline, 2020",
-  "coment": "A estenose aórtica grave sintomática — angina, síncope ou insuficiência cardíaca — tem prognóstico ruim sem intervenção, com sobrevida média de dois a cinco anos conforme o sintoma. A indicação de troca valvar é classe I, seja cirúrgica ou por implante transcateter, escolhida por risco cirúrgico, idade, anatomia e preferência. Vasodilatadores devem ser usados com cautela extrema, pois a redução da pós-carga em obstrução fixa pode precipitar hipotensão grave.",
-  "porAlt": [
-   "Vasodilatador em obstrução fixa pode precipitar hipotensão grave e não resolve a lesão valvar.",
-   "Restrição de sal e diurético aliviam congestão, mas não corrigem a obstrução valvar mecânica.",
-   "Correta: estenose aórtica grave sintomática tem indicação de troca valvar cirúrgica ou transcateter.",
-   "A anticoagulação não tem indicação pela estenose aórtica isolada sem outra condição associada.",
-   "O betabloqueador não reduz a obstrução valvar fixa e pode piorar o débito em alguns pacientes."
-  ]
- },
- {
-  "q": "Paciente de 55 anos, hipertenso e diabético, com LDL de 160 mg/dL e risco cardiovascular alto. Qual é a conduta?",
-  "alts": [
-   "Prescrever apenas dieta e exercício por doze meses antes de considerar qualquer terapia farmacológica.",
-   "Iniciar fibrato isolado, já tratamento de primeira escolha para reduzir o LDL nesse perfil de risco agora.",
-   "Iniciar ômega-3 em dose alta como monoterapia para atingir a meta lipídica desse paciente diabético agora.",
-   "Não tratar o colesterol enquanto a pressão arterial não estiver plenamente controlada no paciente agora.",
-   "Estatina de alta potência com meta de LDL abaixo de 70 mg/dL, sempre associada a mudança de estilo de vida."
-  ],
-  "gab": 4,
-  "tema": "cardio",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Atualização da Diretriz Brasileira de Dislipidemias — SBC, 2025; ESC/EAS Dyslipidaemia Guidelines, 2019 com atualização 2023",
-  "coment": "Paciente diabético e hipertenso com LDL de 160 mg/dL está em risco alto ou muito alto, com meta de LDL abaixo de 70 mg/dL no alto risco e abaixo de 50 mg/dL no muito alto. O tratamento é estatina de alta potência desde o início, associada a mudança de estilo de vida, com ezetimiba e, se necessário, inibidor de PCSK9 quando a meta não é atingida. Fibratos atuam sobre triglicerídeos e não são a escolha para reduzir LDL.",
-  "porAlt": [
-   "Adiar a estatina por doze meses em paciente de alto risco deixa eventos evitáveis sem prevenção.",
-   "O fibrato atua sobre triglicerídeos e tem efeito modesto sobre o LDL, não sendo primeira escolha.",
-   "O ômega-3 não reduz LDL de forma relevante e não substitui a estatina na prevenção de eventos.",
-   "O controle lipídico e o pressórico são conduzidos simultaneamente, e não em sequência.",
-   "Correta: estatina de alta potência com meta agressiva de LDL, somada à mudança de estilo de vida."
-  ]
- },
- {
-  "q": "Mulher de 68 anos com palpitações e eletrocardiograma mostrando taquicardia de QRS estreito, regular, a 180 bpm, com estabilidade hemodinâmica. Qual é a conduta inicial?",
-  "alts": [
-   "Cardioversão elétrica sincronizada imediata em todos os casos de taquicardia com QRS estreito regular.",
-   "Manobra vagal e, se não houver reversão, adenosina endovenosa em bolus rápido, sempre monitorizada.",
-   "Amiodarona endovenosa em infusão lenta como primeira medida na taquicardia supraventricular estável.",
-   "Betabloqueador oral e observação ambulatorial sem qualquer tentativa de reversão do ritmo na urgência.",
-   "Marca-passo transvenoso de urgência como conduta inicial diante da taquicardia supraventricular descrita."
-  ],
-  "gab": 1,
-  "tema": "cardio",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r1",
-  "base": "Diretriz Brasileira de Arritmias Cardíacas — SBC, 2016 com atualização 2022; ACC/AHA/HRS SVT guideline, revisão 2023",
-  "coment": "Taquicardia supraventricular paroxística estável é tratada primeiro com manobras vagais, sendo a manobra de Valsalva modificada a de maior taxa de sucesso. Sem reversão, administra-se adenosina em bolus rápido com flush salino, por sua meia-vida muito curta, com monitorização eletrocardiográfica contínua. Bloqueadores de canal de cálcio e betabloqueadores endovenosos são alternativas. A cardioversão elétrica se reserva à instabilidade hemodinâmica.",
-  "porAlt": [
-   "A cardioversão elétrica se reserva a instabilidade hemodinâmica, ausente neste caso descrito.",
-   "Correta: manobra vagal seguida de adenosina em bolus rápido, com monitorização eletrocardiográfica.",
-   "A amiodarona não é a primeira escolha na supraventricular estável, com início de ação mais lento.",
-   "Liberar sem reverter mantém a taquicardia sustentada e pode levar a taquicardiomiopatia.",
-   "O marca-passo trata bradiarritmia e não tem qualquer papel no manejo dessa taquiarritmia."
-  ]
- },
- {
-  "q": "Paciente de 45 anos com pressão de 190/120 mmHg, cefaleia intensa, papiledema e creatinina em elevação. Qual é a conduta?",
-  "alts": [
-   "Reduzir a pressão de forma controlada com anti-hipertensivo endovenoso, sempre em ambiente monitorizado.",
-   "Reduzir a pressão para valores normais na primeira hora com nifedipino sublingual em dose alta agora.",
-   "Prescrever anti-hipertensivo oral e liberar para acompanhamento ambulatorial na semana seguinte agora já.",
-   "Aguardar redução espontânea da pressão em repouso por vinte e quatro horas antes de qualquer droga.",
-   "Prescrever apenas analgésico para a cefaleia, sem qualquer intervenção sobre o nível pressórico agora."
+   "Angioplastia primária imediata",
+   "Fibrinólise imediata e transferência",
+   "Aguardar troponina para confirmar",
+   "Anticoagulação plena e coronariografia em 24 horas",
+   "Teste ergométrico antes de decidir"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; ESC hypertension guidelines, 2024",
-  "coment": "Emergência hipertensiva é elevação pressórica com lesão aguda de órgão-alvo, aqui encefalopatia e lesão renal. O tratamento é endovenoso em ambiente monitorizado, com nitroprussiato, nicardipino ou clevidipino, reduzindo a pressão arterial média em cerca de vinte a vinte e cinco por cento na primeira hora e alcançando 160 por 100 mmHg em algumas horas. Queda abrupta reduz a perfusão cerebral, coronariana e renal, podendo causar isquemia. Nifedipino sublingual é proscrito.",
+  "base": "ACC/AHA 2025 — SCA com supra: angioplastia primária e tempos-alvo",
+  "coment": "Com hemodinâmica disponível e tempo do diagnóstico até o fio-guia dentro de 60 minutos em centro com angioplastia, a reperfusão de escolha é a angioplastia primária — superior à fibrinólise em mortalidade, reinfarto e acidente vascular hemorrágico. Antes de nitrato, a parede inferior obriga a pedir V3R–V4R.",
   "porAlt": [
-   "Correta: redução gradual e controlada com anti-hipertensivo endovenoso em ambiente monitorizado.",
-   "O nifedipino sublingual causa queda abrupta e imprevisível, com risco de isquemia, sendo proscrito.",
-   "Tratamento oral ambulatorial é insuficiente diante de lesão aguda de órgão-alvo estabelecida.",
-   "Aguardar sem tratar permite a progressão do dano cerebral e renal já em curso no paciente.",
-   "O analgésico não trata a causa e a cefaleia aqui é manifestação da encefalopatia hipertensiva."
+   "Correta: reperfusão mecânica disponível dentro do tempo-alvo.",
+   "A fibrinólise é para quando a angioplastia não é alcançável em 120 minutos.",
+   "A troponina não é esperada no infarto com supra.",
+   "Adiar a reperfusão por 24 horas no supra perde músculo.",
+   "Teste funcional em infarto agudo é contraindicado."
   ]
  },
  {
-  "q": "Homem de 60 anos com fibrilação atrial não valvar, hipertensão, diabetes e acidente vascular cerebral prévio. Qual é a conduta quanto à profilaxia de embolia?",
+  "q": "Homem de 70 anos apresenta síncope aos esforços há dois meses e dispneia progressiva. Ao exame, sopro sistólico rude em foco aórtico irradiado para as carótidas, com segunda bulha hipofonética e pulso de ascensão lenta. Pressão de 122/80 mmHg. O ecocardiograma mostra área valvar de 0,8 cm², gradiente médio de 48 mmHg e fração de ejeção de 60%. Ele tem doença pulmonar obstrutiva e fragilidade, com risco cirúrgico alto pelo escore STS. Qual é a conduta?",
   "alts": [
-   "Apenas ácido acetilsalicílico em dose baixa, suficiente para prevenir embolia nesse perfil de risco.",
-   "Nenhuma profilaxia enquanto o paciente permanecer assintomático e com frequência cardíaca controlada.",
-   "Anticoagulação oral plena com anticoagulante direto, sempre preferido à varfarina na doença não valvar.",
-   "Clopidogrel isolado, estratégia preferida à anticoagulação para prevenção de embolia nesse paciente.",
-   "Anticoagulação apenas durante internações, suspendendo o fármaco a cada alta hospitalar do paciente."
+   "Implante valvar aórtico transcateter",
+   "Cirurgia aberta de troca valvar",
+   "Valvoplastia por balão como tratamento definitivo",
+   "Tratamento clínico exclusivo",
+   "Seguimento anual com ecocardiograma"
   ],
-  "gab": 2,
-  "tema": "cardio",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Diretriz Brasileira de Fibrilação Atrial — SBC, 2024; ESC Atrial Fibrillation Guidelines, 2024",
-  "coment": "O escore CHA2DS2-VASc deste paciente é alto, com hipertensão, diabetes e acidente vascular prévio, que sozinho vale dois pontos. A anticoagulação oral está indicada, e os anticoagulantes diretos — apixabana, rivaroxabana, edoxabana e dabigatrana — são preferidos à varfarina na fibrilação atrial não valvar por menor risco de hemorragia intracraniana e por dispensarem monitorização de rotina. Antiagregantes não substituem anticoagulação nessa indicação.",
-  "porAlt": [
-   "O ácido acetilsalicílico é insuficiente para a prevenção de embolia na fibrilação atrial de alto risco.",
-   "O risco embólico independe de sintomas e do controle da frequência cardíaca do paciente.",
-   "Correta: anticoagulação oral plena, com anticoagulante direto preferido na fibrilação atrial não valvar.",
-   "O clopidogrel isolado é inferior à anticoagulação na prevenção de embolia dessa arritmia.",
-   "A anticoagulação é contínua; suspender a cada alta expõe o paciente a eventos embólicos evitáveis."
-  ]
- },
- {
-  "q": "Paciente com dor torácica, hipotensão, turgência jugular e bulhas abafadas após trauma torácico fechado. Qual é a conduta imediata?",
-  "alts": [
-   "Iniciar diurético endovenoso em dose alta para reduzir a pressão de enchimento do coração comprometido.",
-   "Pericardiocentese de urgência associada sempre a reposição volêmica enquanto se prepara o procedimento.",
-   "Solicitar ressonância cardíaca antes de qualquer intervenção sobre o quadro hemodinâmico descrito.",
-   "Prescrever betabloqueador endovenoso para reduzir a frequência cardíaca e melhorar o enchimento agora.",
-   "Aguardar estabilização espontânea por duas horas antes de qualquer procedimento invasivo no paciente."
-  ],
-  "gab": 1,
-  "tema": "cardio",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "ATLS 11ª edição, 2024; ESC Guidelines on Pericardial Diseases, 2015 com revisão 2023",
-  "coment": "A tríade de Beck — hipotensão, turgência jugular e bulhas abafadas — sugere tamponamento cardíaco, no qual o enchimento diastólico é restringido pelo derrame sob pressão. A conduta é drenagem imediata por pericardiocentese, idealmente guiada por ultrassom, ou toracotomia conforme o contexto do trauma, enquanto se repõe volume para manter a pré-carga. Diuréticos e vasodilatadores são deletérios porque reduzem justamente o enchimento que sustenta o débito.",
-  "porAlt": [
-   "O diurético reduz a pré-carga que sustenta o débito no tamponamento e agrava o choque instalado.",
-   "Correta: pericardiocentese de urgência com reposição volêmica para manter a pré-carga até a drenagem.",
-   "A ressonância não tem papel na emergência e apenas atrasaria a drenagem que salva a vida.",
-   "O betabloqueador reduz a taquicardia compensatória necessária para manter o débito cardíaco.",
-   "Aguardar duas horas em tamponamento com choque leva a parada cardíaca por dissociação eletromecânica."
-  ]
- },
- {
-  "q": "Homem de 66 anos com claudicação intermitente de panturrilha após 200 metros e índice tornozelo-braquial de 0,7. Qual é a conduta inicial?",
-  "alts": [
-   "Indicar revascularização cirúrgica imediata a todos os pacientes com claudicação intermitente descrita.",
-   "Prescrever repouso prolongado dos membros inferiores como principal medida terapêutica desse quadro.",
-   "Iniciar anticoagulação oral plena, tratamento de escolha para a doença arterial periférica sintomática.",
-   "Programa de exercício supervisionado com estatina e antiagregante, sempre com cessação do tabagismo.",
-   "Prescrever apenas vasodilatador oral, medida isolada que resolve a claudicação e melhora o prognóstico."
-  ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC/ESVS Guidelines on Peripheral Arterial Diseases, 2024; AHA/ACC Lower Extremity PAD Guideline, 2024",
-  "coment": "A doença arterial periférica com claudicação é tratada inicialmente com terapia clínica intensiva: cessação do tabagismo, exercício supervisionado — que aumenta a distância de marcha de forma comparável à revascularização em muitos pacientes —, estatina de alta potência, antiagregante e controle de pressão e glicemia. O índice tornozelo-braquial abaixo de 0,9 confirma o diagnóstico. Revascularização se reserva a sintomas limitantes refratários ou isquemia crítica.",
+  "base": "ESC 2021 — valvopatias: escolha entre cirurgia e transcateter",
+  "coment": "Estenose aórtica grave sintomática indica substituição valvar. Em paciente idoso, frágil e com risco cirúrgico alto, o implante transcateter é a via preferida — mostrou não inferioridade e, em vários cenários, superioridade sobre a cirurgia nessa faixa de risco, com recuperação mais rápida.",
   "porAlt": [
-   "A revascularização se reserva a sintomas refratários ou isquemia crítica, e não à claudicação inicial.",
-   "O repouso piora o condicionamento e reduz a distância de marcha, sendo o oposto do recomendado.",
-   "A anticoagulação plena não é o tratamento da doença arterial periférica aterosclerótica estável.",
-   "Correta: exercício supervisionado, estatina, antiagregante e cessação do tabagismo como base do tratamento.",
-   "O vasodilatador isolado tem benefício limitado e não modifica o prognóstico cardiovascular global."
+   "Correta: grave sintomática com risco cirúrgico alto favorece o transcateter.",
+   "A cirurgia aberta tem morbimortalidade maior nesse perfil.",
+   "A valvoplastia por balão é apenas ponte.",
+   "O tratamento clínico não altera a história natural.",
+   "Observar sintomático é aceitar mortalidade alta em meses."
   ]
  },
  {
-  "q": "Paciente com insuficiência cardíaca com fração de ejeção preservada, hipertensa e obesa, com dispneia aos esforços. Qual é a conduta com melhor evidência?",
+  "q": "Homem de 55 anos, hipertenso em uso de losartana e diabético em uso de metformina, tem LDL-colesterol de 160 mg/dL, HDL de 40 mg/dL e triglicérides de 190 mg/dL. Não fuma e não tem doença cardiovascular estabelecida. Pressão de 132/84 mmHg, índice de massa corporal de 30 kg/m², hemoglobina glicada de 7,4% e taxa de filtração glomerular de 78 mL/min/1,73 m². O risco cardiovascular é classificado como alto. Qual é a conduta em relação ao lípide?",
   "alts": [
-   "Digoxina em dose plena, medida com melhor evidência de benefício nessa forma de insuficiência cardíaca.",
-   "Betabloqueador em dose alta isolado, intervenção que reduz mortalidade nessa apresentação clínica.",
-   "Inibidor de SGLT2 associado sempre ao controle da pressão, ao manejo do peso e ao uso de diurético.",
-   "Anticoagulação oral plena de rotina, conduta recomendada para todos os pacientes com esse diagnóstico.",
-   "Restrição hídrica extrema de meio litro por dia como principal intervenção terapêutica nesses casos."
+   "Estatina de alta potência com meta de LDL abaixo de 70 mg/dL",
+   "Estatina de moderada potência com meta abaixo de 130 mg/dL",
+   "Apenas mudança de estilo de vida",
+   "Ezetimiba isolada como primeira escolha",
+   "Ácido nicotínico associado à dieta"
   ],
-  "gab": 2,
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "SBC 2025 — dislipidemia: metas por estrato de risco no diabético",
+  "coment": "Diabetes com fator de risco adicional e LDL acima de 160 mg/dL coloca o paciente em risco cardiovascular alto, com meta de LDL abaixo de 70 mg/dL e redução de pelo menos 50% do basal. Isso exige estatina de alta potência, com ezetimiba associada se a meta não for alcançada.",
+  "porAlt": [
+   "Correta: risco alto exige alta potência e meta abaixo de 70 mg/dL.",
+   "A moderada potência não alcança a meta desse estrato.",
+   "Estilo de vida isolado é insuficiente com LDL de 160 mg/dL e risco alto.",
+   "A ezetimiba é associada, não substitui a estatina.",
+   "O ácido nicotínico não reduz eventos e saiu das recomendações."
+  ]
+ },
+ {
+  "q": "Mulher de 68 anos chega com palpitações de início há uma hora. Está com pressão de 128/78 mmHg, frequência de 180 bpm, lúcida, sem dor torácica ou dispneia. O eletrocardiograma mostra taquicardia regular de QRS estreito a 180 bpm, sem ondas P visíveis. Não usa medicamentos, não tem asma nem broncoespasmo, e a função renal é normal. Qual é a conduta inicial?",
+  "alts": [
+   "Manobra vagal e, se falhar, adenosina",
+   "Cardioversão elétrica sincronizada",
+   "Amiodarona intravenosa",
+   "Digoxina intravenosa",
+   "Verapamil sem manobra prévia"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "ESC 2019 — taquicardias supraventriculares: sequência terapêutica",
+  "coment": "Taquicardia supraventricular estável tem sequência definida: manobra vagal primeiro — a modificada, com decúbito e elevação das pernas, tem rendimento maior que a clássica —, e adenosina se falhar. A cardioversão fica para a instabilidade, e os bloqueadores de canal de cálcio são segunda linha.",
+  "porAlt": [
+   "Correta: manobra vagal primeiro, adenosina depois.",
+   "A cardioversão elétrica é para o instável.",
+   "A amiodarona não é primeira escolha em QRS estreito estável.",
+   "A digoxina tem início lento demais.",
+   "O verapamil é segunda linha e não dispensa a manobra."
+  ]
+ },
+ {
+  "q": "Mulher de 45 anos chega com cefaleia intensa e escotomas há oito horas. A pressão é de 190/120 mmHg em ambos os braços, a frequência é de 88 bpm e a fundoscopia mostra papiledema bilateral com exsudatos. A creatinina subiu de 0,9 para 1,9 mg/dL em dois meses, com proteinúria de 1,8 g em 24 horas e hematúria dismórfica. Está lúcida, sem déficit focal. Qual é a conduta?",
+  "alts": [
+   "Anti-hipertensivo intravenoso titulável com redução gradual",
+   "Captopril sublingual seriado",
+   "Redução para menos de 140/90 mmHg na primeira hora",
+   "Anti-hipertensivo oral e alta em 6 horas",
+   "Observação até o resultado da biópsia renal"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "SBC 2025 — emergências hipertensivas: alvos de redução",
+  "coment": "Papiledema com lesão renal aguda em progressão define emergência hipertensiva. O tratamento é intravenoso, titulável, em ambiente monitorado, com redução de até 25% da pressão arterial média na primeira hora e chegada gradual a valores próximos do normal em 24 a 48 horas — a autorregulação cerebral e renal está deslocada e queda abrupta causa isquemia.",
+  "porAlt": [
+   "Correta: intravenoso titulável com redução controlada.",
+   "O sublingual produz queda imprevisível e não é recomendado.",
+   "Normalizar em uma hora causa hipoperfusão de órgãos.",
+   "Alta com lesão de órgão-alvo em curso não é opção.",
+   "A biópsia não precede o controle pressórico."
+  ]
+ },
+ {
+  "q": "Homem de 60 anos com fibrilação atrial não valvar, hipertenso, diabético e com acidente vascular cerebral isquêmico há três anos, comparece para definir a profilaxia. Está estável, com pressão de 132/80 mmHg, frequência de 76 bpm, creatinina de 1,0 mg/dL e clearance de 76 mL/min. Não tem prótese valvar nem estenose mitral. Hemoglobina de 14,2 g/dL, sem sangramento prévio e sem uso de anti-inflamatórios. Qual é a conduta antitrombótica?",
+  "alts": [
+   "Anticoagulante oral direto em dose plena",
+   "Varfarina com alvo de RNI entre 2,0 e 3,0",
+   "Ácido acetilsalicílico com clopidogrel",
+   "Ácido acetilsalicílico isolado",
+   "Nenhuma profilaxia, pois o evento foi há três anos"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "ESC 2024 — fibrilação atrial: anticoagulantes diretos como preferência",
+  "coment": "O CHA₂DS₂-VA soma hipertensão (1), diabetes (1) e acidente vascular prévio (2) = 4 pontos, com indicação clara de anticoagulação. Na fibrilação atrial não valvar, os anticoagulantes diretos são preferidos à varfarina por menor risco de hemorragia intracraniana e dispensa de monitorização, com eficácia ao menos equivalente.",
+  "porAlt": [
+   "Correta: escore alto, sem contraindicação, com preferência pelos diretos.",
+   "A varfarina é alternativa, não a preferência na não valvar.",
+   "A dupla antiagregação não substitui anticoagulação.",
+   "O AAS isolado é insuficiente nesse escore.",
+   "O tempo decorrido não reduz o risco de recorrência."
+  ]
+ },
+ {
+  "q": "Homem de 32 anos é trazido após colisão automobilística com impacto no volante. Está com pressão de 84/62 mmHg, frequência de 128 bpm, turgência jugular a 45 graus e bulhas abafadas. O murmúrio vesicular é simétrico e a traqueia é central. A saturação é de 95% e o pulso paradoxal é de 16 mmHg. O ultrassom à beira do leito mostra derrame pericárdico com colapso diastólico de átrio e ventrículo direitos. Qual é a conduta imediata?",
+  "alts": [
+   "Pericardiocentese ou toracotomia de emergência",
+   "Drenagem torácica no quinto espaço intercostal",
+   "Reposição volêmica isolada e observação",
+   "Tomografia de tórax antes de qualquer intervenção",
+   "Intubação e ventilação com pressão positiva alta"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ATLS 11ª edição — tamponamento cardíaco no trauma",
+  "coment": "A tríade de Beck com pulso paradoxal e colapso de câmaras direitas ao ultrassom define tamponamento cardíaco traumático. O tratamento é a descompressão imediata — pericardiocentese como medida temporária ou toracotomia, conforme o cenário e a disponibilidade cirúrgica. O murmúrio simétrico e a traqueia central afastam pneumotórax hipertensivo.",
+  "porAlt": [
+   "Correta: tamponamento exige descompressão imediata.",
+   "Não há sinais de pneumotórax: murmúrio simétrico e traqueia central.",
+   "O volume é medida de ponte, não resolve o tamponamento.",
+   "Levar à tomografia um paciente em choque obstrutivo é perder tempo.",
+   "A pressão positiva reduz ainda mais o retorno venoso."
+  ]
+ },
+ {
+  "q": "Mulher de 68 anos, hipertensa e obesa com índice de massa corporal de 34 kg/m², refere dispneia aos esforços habituais há quatro meses e edema de tornozelos ao fim do dia. Pressão de 146/86 mmHg, frequência de 76 bpm, com estertores discretos em bases e turgência jugular normal. O ecocardiograma mostra fração de ejeção de 58%, hipertrofia concêntrica, átrio esquerdo de 46 mm e relação E/e' de 16. O NT-proBNP é de 680 pg/mL, a taxa de filtração glomerular é de 66 mL/min/1,73 m² e ela não é diabética. Qual é a conduta com maior benefício demonstrado?",
+  "alts": [
+   "Iniciar inibidor do SGLT2",
+   "Iniciar betabloqueador cardiosseletivo",
+   "Iniciar digoxina em dose baixa",
+   "Iniciar nitrato de ação prolongada",
+   "Manter apenas restrição hídrica e sódica"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESC 2023 — insuficiência cardíaca de fração preservada",
+  "coment": "Na insuficiência cardíaca de fração preservada, os inibidores do SGLT2 são a classe com redução consistente do desfecho de morte cardiovascular e internação, demonstrada no EMPEROR-Preserved e no DELIVER, independentemente de diabetes. Controle pressórico e manejo da obesidade completam o tratamento, e na obesidade os análogos de GLP-1 entraram como opção na diretriz de 2026.",
+  "porAlt": [
+   "Correta: única classe com benefício consistente nesse fenótipo.",
+   "O betabloqueador não modifica desfecho na fração preservada.",
+   "A digoxina não tem benefício demonstrado nesse fenótipo.",
+   "O nitrato piorou o desempenho funcional no ensaio NEAT-HFpEF.",
+   "A restrição isolada não altera desfecho clínico."
+  ]
+ },
+ {
+  "q": "Mulher de 68 anos, hipertensa e obesa com índice de massa corporal de 34 kg/m², refere dispneia aos esforços habituais há quatro meses e edema de tornozelos. Pressão de 146/86 mmHg, frequência de 76 bpm, com estertores discretos em bases. O ecocardiograma mostra fração de ejeção de 58%, hipertrofia concêntrica, átrio esquerdo de 46 mm e relação E/e' de 16. O NT-proBNP é de 680 pg/mL, a taxa de filtração glomerular é de 66 mL/min/1,73 m² e ela não é diabética. Qual é a conduta com maior benefício demonstrado?",
+  "alts": [
+   "Iniciar inibidor do SGLT2",
+   "Iniciar betabloqueador",
+   "Iniciar digoxina",
+   "Iniciar nitrato de ação prolongada",
+   "Apenas restrição hídrica"
+  ],
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Diretriz Brasileira de Insuficiência Cardíaca — SBC, 2024; ESC Focused Update on Heart Failure, 2023",
-  "coment": "Na insuficiência cardíaca com fração de ejeção preservada, os inibidores de SGLT2 são a primeira classe com benefício consistente em ensaios randomizados, reduzindo internação e morte cardiovascular, e passaram a recomendação forte. O restante do tratamento consiste em diurético para congestão, controle rigoroso da pressão arterial, manejo do peso e das comorbidades, e atividade física. Antagonistas mineralocorticoides podem ser considerados em subgrupos.",
+  "base": "ESC 2023 — insuficiência cardíaca de fração preservada",
+  "coment": "Na insuficiência cardíaca de fração preservada, os inibidores do SGLT2 são a classe com redução consistente do desfecho de morte cardiovascular e internação, demonstrada no EMPEROR-Preserved e no DELIVER, independentemente de diabetes. Controle pressórico e manejo da obesidade completam o tratamento, e na obesidade os análogos de GLP-1 entraram como opção.",
   "porAlt": [
-   "A digoxina não tem benefício demonstrado nessa forma de insuficiência cardíaca com fração preservada.",
-   "O betabloqueador não demonstrou redução de mortalidade nessa apresentação da insuficiência cardíaca.",
-   "Correta: inibidor de SGLT2 com controle pressórico, manejo do peso e diurético para a congestão.",
-   "A anticoagulação de rotina não é indicada sem fibrilação atrial ou outra indicação específica.",
-   "A restrição hídrica extrema não tem respaldo e pode causar desidratação e lesão renal aguda."
+   "Correta: única classe com benefício consistente nesse fenótipo.",
+   "O betabloqueador não modifica desfecho na fração preservada.",
+   "A digoxina não tem benefício demonstrado aqui.",
+   "O nitrato piorou o desempenho funcional no NEAT-HFpEF.",
+   "A restrição hídrica isolada não altera desfecho."
   ]
  },
  {
@@ -18120,13 +18120,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 49 anos, hipertenso recém-diagnosticado, tem pressão de 152/96 mmHg em medidas repetidas. Não é diabético. A relação albumina-creatinina urinária é de 78 mg/g em duas amostras, com creatinina de 1,0 mg/dL e taxa de filtração glomerular estimada de 88 mL/min/1,73 m² pelo CKD-EPI 2021. Índice de massa corporal de 28 kg/m², potássio de 4,2 mEq/L. Qual é a classe anti-hipertensiva preferencial?",
+  "q": "Homem de 49 anos, hipertenso recém-diagnosticado, tem pressão de 152/96 mmHg em medidas repetidas de consultório e MAPA confirmatória. Não é diabético e não fuma. A relação albumina-creatinina urinária é de 78 mg/g em duas amostras separadas, com creatinina de 1,0 mg/dL e taxa de filtração glomerular estimada de 88 mL/min/1,73 m² pelo CKD-EPI 2021. Índice de massa corporal de 28 kg/m², potássio de 4,2 mEq/L e ultrassom renal sem alterações. Qual é a classe anti-hipertensiva preferencial?",
   "alts": [
    "Bloqueador do receptor de angiotensina",
-   "Betabloqueador cardiosseletivo",
-   "Diurético tiazídico isolado",
-   "Bloqueador de canal de cálcio isolado",
-   "Alfabloqueador"
+   "Betabloqueador cardiosseletivo em dose baixa",
+   "Diurético tiazídico em monoterapia",
+   "Bloqueador de canal de cálcio di-hidropiridínico",
+   "Alfabloqueador de ação prolongada"
   ],
   "gab": 0,
   "tema": "cardio",
@@ -18139,7 +18139,7 @@ window.BANCO=[
    "Correta: reduz albuminúria além do efeito sobre a pressão.",
    "O betabloqueador não é de primeira linha sem indicação específica.",
    "O tiazídico não tem o efeito antiproteinúrico do bloqueio do sistema.",
-   "O cálcio di-hidropiridínico pode até aumentar a albuminúria isoladamente.",
+   "O cálcio di-hidropiridínico isolado pode até aumentar a albuminúria.",
    "O alfabloqueador não é primeira linha na hipertensão."
   ]
  },

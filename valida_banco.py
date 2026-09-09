@@ -126,11 +126,18 @@ def main():
         # a banca escreveu, com os tells que a banca teve. O vies de tamanho
         # das questoes reais e medido e reportado, nao corrigido.
         # ---------------------------------------------------------------
+        # A faixa de 95-108% foi ABANDONADA em 09/09/2026: aferida contra as 211 questões de banca
+        # do próprio banco, ela reprovava 79% das alternativas oficiais (razão distrator/correta:
+        # mediana 100%, mas p5 de 53% e p95 de 194%). Uniformizar comprimento é falsa precisão — e
+        # foi ela que produziu as alternativas longas, explicativas e todas do mesmo tamanho que
+        # deixaram as questões fáceis. O que importa é medido por LOTE em docs/audita_questoes.py:
+        # a correta não pode ser a mais longa muito acima do acaso. Aqui fica só o extremo, que é
+        # tell de verdade: distrator curto demais ao lado de uma correta longa entrega a resposta.
         if not real:
             for j, a in enumerate(alts):
                 r = len(a) / Lc
-                if not (0.95 <= r <= 1.08):
-                    duros.append(f"{rot} alt {j}: comprimento {len(a)} = {r*100:.0f}% da correta ({Lc}) — fora de 95–108%")
+                if r < 0.45 or r > 2.4:
+                    duros.append(f"{rot} alt {j}: comprimento {len(a)} = {r*100:.0f}% da correta ({Lc}) — fora de 45–240%")
         if Lc > max(outras):
             correta_mais_longa += 1
             folgas.append((Lc - max(outras)) / max(outras) * 100)
