@@ -12288,13 +12288,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 58 anos com miocardiopatia dilatada tem dispneia progressiva, ortopneia e edema de membros inferiores. A fração de ejeção é de 30% e ele já usa enalapril 20 mg duas vezes ao dia e furosemida 40 mg ao dia. Está sem congestão pulmonar hoje, com pressão de 116/72 mmHg, frequência de 78 bpm em ritmo sinusal, creatinina de 1,1 mg/dL e potássio de 4,2 mEq/L. Não é diabético. Qual é a conduta para completar o tratamento?",
+  "q": "Homem de 58 anos com miocardiopatia dilatada tem dispneia progressiva, ortopneia e edema de membros inferiores há dois meses. A fração de ejeção é de 30% e ele já usa enalapril 20 mg duas vezes ao dia e furosemida 40 mg ao dia. Está sem congestão pulmonar hoje, com pressão de 116/72 mmHg, frequência de 78 bpm em ritmo sinusal, creatinina de 1,1 mg/dL e potássio de 4,2 mEq/L. Não é diabético e o QRS mede 100 ms. Qual é a conduta para completar o tratamento?",
   "alts": [
-   "Acrescentar betabloqueador, antagonista mineralocorticoide e inibidor do SGLT2",
+   "Acrescentar betabloqueador, espironolactona e inibidor do SGLT2",
    "Aumentar a furosemida e reavaliar em três meses",
-   "Acrescentar apenas digoxina",
+   "Acrescentar digoxina em dose baixa de manutenção",
    "Trocar o enalapril por hidralazina com nitrato",
-   "Acrescentar bloqueador de canal de cálcio"
+   "Acrescentar bloqueador de canal de cálcio di-hidropiridínico"
   ],
   "gab": 0,
   "tema": "cardio",
@@ -12302,7 +12302,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "ESC 2021/2023 — insuficiência cardíaca: quatro pilares",
-  "coment": "Os quatro pilares da insuficiência cardíaca de fração reduzida são bloqueio do sistema renina-angiotensina — preferencialmente sacubitril-valsartana —, betabloqueador, antagonista mineralocorticoide e inibidor do SGLT2. Ele usa apenas um. Com pressão, potássio e função renal adequados, os três restantes devem ser introduzidos em doses baixas e titulados.",
+  "coment": "Os quatro pilares da insuficiência cardíaca de fração reduzida são bloqueio do sistema renina-angiotensina — preferencialmente sacubitril-valsartana —, betabloqueador, antagonista mineralocorticoide e inibidor do SGLT2. Ele usa apenas um. Com pressão, potássio e função renal adequados, os três restantes devem ser introduzidos em doses baixas e titulados rapidamente.",
   "porAlt": [
    "Correta: completar os pilares é o que muda mortalidade.",
    "O diurético alivia congestão, mas não altera prognóstico.",
