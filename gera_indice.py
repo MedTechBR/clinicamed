@@ -22,6 +22,12 @@ for f in sorted(pathlib.Path('leituras').glob('*.html')):
                   'fx': len(re.findall(r'class="mermaid"', s))})
 cat = pathlib.Path('leituras/fig/_catalogo.json')
 figs = sorted(json.loads(cat.read_text()).keys()) if cat.exists() else []
+# Os traçados reais do PTB-XL são SVG como os esquemas, mas saem de outro gerador
+# (docs/ptbxl_figuras.py) e têm catálogo próprio. Sem juntar aqui, a biblioteca offline
+# baixaria os esquemas e deixaria de fora justamente os 13 eletrocardiogramas de paciente.
+real = pathlib.Path('leituras/fig/_catalogo_real.json')
+if real.exists():
+    figs = sorted(set(figs) | set(json.loads(real.read_text()).keys()))
 # As radiografias são raster e ficam em fig/foto/*.webp, fora do catálogo do gerador de SVG.
 # Precisam de lista própria, senão a biblioteca offline baixa os esquemas e deixa as fotos de fora.
 fotos = sorted(p.stem for p in pathlib.Path('leituras/fig/foto').glob('*.webp'))
