@@ -1,54 +1,110 @@
 {
  "real-normal": {
   "t": "Eletrocardiograma normal",
-  "reg": "00014"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 00014"
  },
  "real-sae": {
   "t": "Sobrecarga atrial esquerda",
-  "reg": "01328"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 01328"
  },
  "real-sad": {
   "t": "Sobrecarga atrial direita",
-  "reg": "03269"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 03269"
  },
  "real-hve": {
   "t": "Sobrecarga ventricular esquerda",
-  "reg": "00138"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 00138"
  },
  "real-bav1": {
   "t": "Bloqueio AV de primeiro grau",
-  "reg": "00209"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 00209"
+ },
+ "real-mobitz1": {
+  "t": "Bloqueio AV de segundo grau, Mobitz I",
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 01222"
+ },
+ "real-bavt": {
+  "t": "Bloqueio AV total",
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 00959"
  },
  "real-bre": {
   "t": "Bloqueio de ramo esquerdo",
-  "reg": "00346"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 00346"
  },
  "real-brd": {
   "t": "Bloqueio de ramo direito",
-  "reg": "00680"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 00680"
  },
  "real-fa": {
   "t": "Fibrilação atrial",
-  "reg": "08215"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 08215"
  },
  "real-flutter": {
   "t": "Flutter atrial com condução 2:1",
-  "reg": "00023"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 00023"
  },
  "real-bigeminismo": {
   "t": "Extrassístoles ventriculares em bigeminismo",
-  "reg": "10355"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 10355"
  },
  "real-iam-inferior": {
   "t": "Infarto inferior estabelecido",
-  "reg": "00627"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 00627"
  },
  "real-iam-anterosseptal": {
   "t": "Infarto ântero-septal estabelecido",
-  "reg": "00536"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 00536"
  },
  "real-wpw": {
   "t": "Pré-excitação (Wolff-Parkinson-White)",
-  "reg": "09699"
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 09699"
+ },
+ "real-tsv": {
+  "t": "Taquicardia supraventricular",
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 01919"
+ },
+ "real-fa-pre-excitada": {
+  "t": "Fibrilação atrial pré-excitada",
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 16497"
+ },
+ "real-iam-posterior": {
+  "t": "Infarto ínfero-lateral com comprometimento posterior",
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 02993"
+ },
+ "real-infra-avr": {
+  "t": "Infra de ST difuso com supra em aVR",
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 02886"
+ },
+ "real-tep": {
+  "t": "Padrão S1Q3 em taquicardia sinusal",
+  "fonte": "PTB-XL (PhysioNet), CC BY 4.0 — registro 06997"
+ },
+ "real-stemi-inferior": {
+  "t": "Infarto inferior agudo",
+  "fonte": "PTB Diagnostic ECG Database (PhysioNet), ODC-BY 1.0 — patient011/s0039lre"
+ },
+ "real-stemi-anterior": {
+  "t": "Infarto anterior agudo",
+  "fonte": "PTB Diagnostic ECG Database (PhysioNet), ODC-BY 1.0 — patient005/s0021are"
+ },
+ "real-bav-2para1": {
+  "t": "Bloqueio AV de segundo grau 2:1",
+  "fonte": "MIT-BIH Arrhythmia Database (PhysioNet), ODC-BY 1.0 — registro 231"
+ },
+ "real-tv-fusao": {
+  "t": "Salva de taquicardia ventricular",
+  "fonte": "MIT-BIH Arrhythmia Database (PhysioNet), ODC-BY 1.0 — registro 205"
+ },
+ "real-tv-sustentada": {
+  "t": "Taquicardia ventricular sustentada",
+  "fonte": "MIT-BIH Malignant Ventricular Ectopy Database (PhysioNet), ODC-BY 1.0 — registro 420"
+ },
+ "real-flutter-ventricular": {
+  "t": "Flutter ventricular",
+  "fonte": "MIT-BIH Malignant Ventricular Ectopy Database (PhysioNet), ODC-BY 1.0 — registro 609"
+ },
+ "real-fv": {
+  "t": "Fibrilação ventricular",
+  "fonte": "MIT-BIH Malignant Ventricular Ectopy Database (PhysioNet), ODC-BY 1.0 — registro 424"
  }
 }

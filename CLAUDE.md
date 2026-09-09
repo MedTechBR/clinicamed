@@ -215,6 +215,28 @@ pela GEOMETRIA do modelo (`0,94 x qd`), que é exata; o limiar de inclinação f
 início do QRS. Mesma coisa no início da P: limiar fixo em mV atrasava a detecção em derivação de P
 pequena e inflava o PR medido. **Medir com um instrumento não calibrado é pior do que não medir.**
 
+### ECGs sintetizados APOSENTADOS — todas as figuras de ECG são de pacientes reais (09/09/2026)
+
+Depois da segunda rodada o Matheus disse que os traçados desenhados continuavam sem confiança e
+pediu para trocar todos por reais. Feito: **29 figuras trocadas, 6 removidas** (Brugada, De Winter,
+hipocalemia, TV bidirecional e o infarto de VD sintético — que já tinha foto real ao lado — não
+existem em banco aberto e saíram em vez de ficar como esquema). `gera_figuras.py` não emite mais
+`ecg-*.svg`; o código do modelo fica só como registro e para `docs/audita_ecg.py`.
+
+**Fontes, todas do PhysioNet, todas por SINAL (nunca imagem):** PTB-XL (CC BY 4.0), PTB Diagnostic
+ECG Database — infartos agudos com ECG do 1º dia, 1 kHz —, MIT-BIH Arrhythmia Database — episódios
+de TV, bigeminismo, bloqueio 2:1 anotados batimento a batimento — e MIT-BIH Malignant Ventricular
+Ectopy Database — TV sustentada, flutter ventricular, FV (as três ODC-BY 1.0). Leitor WFDB próprio em
+`docs/wfdb.py` (formatos 16 e 212, anotações .atr com SKIP na ordem certa: palavra alta primeiro).
+Tabela curada em `docs/ptbxl_figuras.py`; cache dos registros em `~/Documents/Claude/_physionet/`.
+**physionet.org ficou com certificado TLS expirado em 09/09** — usar o espelho oficial
+`physionet-open.s3.amazonaws.com`, já configurado.
+
+Regras que ficaram: quem afirma o diagnóstico é o laudo/anotação do banco; a legenda diz "traçado
+de paciente" e cita o laudo quando útil; nenhum número medido por mim vai para legenda; figura de
+ensino só entra se o achado for legível de relance (por isso o BAVT do PTB-XL foi lido em V5, e o
+Mobitz II virou "BAV 2:1" do MIT-BIH com a legenda explicando por que 2:1 não se classifica).
+
 ### Segunda rodada: a TV monomórfica parecia TSV (08/09/2026)
 
 O Matheus achou olhando de novo, e de novo estava certo: **a tira de "Taquicardia de QRS largo,

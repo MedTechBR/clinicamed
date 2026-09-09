@@ -28,9 +28,11 @@ import ast
 import csv
 import pathlib
 import struct
-import urllib.request
+import subprocess
 
-BASE = "https://physionet.org/files/ptb-xl/1.0.3/"
+# espelho oficial do PhysioNet no S3: em 09/09/2026 o certificado TLS de physionet.org expirou
+# e o curl (com razão) recusou; o bucket público serve os mesmos arquivos.
+BASE = "https://physionet-open.s3.amazonaws.com/ptb-xl/1.0.3/"
 CACHE = pathlib.Path.home() / "Documents/Claude/_ptbxl"      # fora do repo: são dados, não código
 META = CACHE / "ptbxl_database.csv"
 
@@ -39,7 +41,12 @@ def _baixa(rel, dest):
     dest.parent.mkdir(parents=True, exist_ok=True)
     if dest.exists() and dest.stat().st_size:
         return dest
-    urllib.request.urlretrieve(BASE + rel, dest)
+    # curl em vez de urllib: o Python.org 3.14 não enxerga a cadeia de certificados do sistema e
+    # passou a falhar com "certificate has expired" para o physionet.org; o curl usa o keychain.
+    r = subprocess.run(["curl", "-sfL", "-o", str(dest), BASE + rel])
+    if r.returncode or not dest.exists() or not dest.stat().st_size:
+        if dest.exists(): dest.unlink()
+        raise RuntimeError("falha ao baixar " + rel)
     return dest
 
 

@@ -1168,7 +1168,11 @@ def esquemas():
 # ---------------------------------------------------------------- main
 def main():
     dest = pathlib.Path("leituras/fig"); dest.mkdir(parents=True, exist_ok=True)
-    F = {}; F.update(catalogo()); F.update(catalogo2()); F.update(radiologia()); F.update(radiologia_torax()); F.update(esquemas())
+    # Os ECGs sintetizados (catalogo/catalogo2) foram APOSENTADOS em 09/09/2026: depois de duas
+    # rodadas de defeitos achados pelo Matheus olhando, o modelo perdeu a confiança; todas as
+    # figuras de ECG passaram a ser traçados de pacientes reais (docs/ptbxl_figuras.py). O código
+    # fica para o auditor e como registro, mas não gera mais arquivo.
+    F = {}; F.update(radiologia()); F.update(radiologia_torax()); F.update(esquemas())
     if "--lista" in sys.argv:
         for k, v in sorted(F.items()): print(f"{k}.svg  —  {v[0]}")
         return

@@ -44,15 +44,30 @@ def _filtra(x, fs, corte=0.5):
     return hp(hp(x)[::-1])[::-1]
 
 
+NORMA = {"i": "I", "ii": "II", "iii": "III", "avr": "AVR", "avl": "AVL", "avf": "AVF",
+         "v1": "V1", "v2": "V2", "v3": "V3", "v4": "V4", "v5": "V5", "v6": "V6"}
+
+
+def _norma(sig):
+    return {NORMA.get(k.lower(), k): v for k, v in sig.items()}
+
+
 def desenha(nome, seg=2.5, titulo="", nota="", ritmo="II"):
+    sig, fs = ptbxl.le_sinal(nome)
+    return desenha_sinal(sig, fs, seg=seg, titulo=titulo, nota=nota, ritmo=ritmo,
+                         fonte="PTB-XL (PhysioNet), CC BY 4.0 — registro " + nome.replace("_hr", ""))
+
+
+def desenha_sinal(sig, fs, seg=2.5, titulo="", nota="", ritmo="II", fonte="", ini=0.0):
     """12 derivações no arranjo 4x3 + tira de ritmo, como sai do aparelho.
 
     O ganho é escolhido pelo traçado: ECG real tem R de 20 mm em V4 e, a 10 mm/mV, a onda invade
     a raia de cima. Aparelho de verdade resolve isso do mesmo jeito — cai para 5 mm/mV e imprime
     o pulso de calibração pela metade, para quem lê saber. O rodapé diz qual ganho está em uso.
     """
-    sig, fs = ptbxl.le_sinal(nome)
-    sig = {k: _filtra(v, fs) for k, v in sig.items()}
+    sig = {k: _filtra(v, fs) for k, v in _norma(sig).items()}
+    off = int(ini * fs)
+    sig = {k: v[off:] for k, v in sig.items()}
     n = int(seg * fs)
     colw, mx, my = 62.5, 10.0, 12.0
     pico = max(max(abs(x) for x in v) for v in sig.values())
@@ -99,30 +114,34 @@ def desenha(nome, seg=2.5, titulo="", nota="", ritmo="II"):
              f'{ROTULO.get(ritmo, ritmo)}</text>')
     g = "10 mm/mV" if ganho == gf.MM_MV else "5 mm/mV (metade do ganho)"
     o.append(f'<text x="{mx}" y="{H-3:.0f}" font-family="Figtree,system-ui,sans-serif" '
-             f'font-size="3.2" fill="#5E646B">25 mm/s · {g} · PTB-XL (PhysioNet), CC BY 4.0 — '
-             f'registro {nome.replace("_hr","")}</text>')
+             f'font-size="3.2" fill="#5E646B">25 mm/s · {g} · {gf.esc(fonte)}</text>')
     o.append('</svg>')
     return "".join(o), sig, fs
 
 
 def tira(nome, deriv="II", seg=8.0, titulo="", nota=""):
-    """Uma derivação na largura inteira — o formato em que ritmo e bloqueio se leem."""
     sig, fs = ptbxl.le_sinal(nome)
-    v = _filtra(sig[deriv], fs)
+    return tira_sinal(sig[deriv], fs, deriv=deriv, seg=seg, titulo=titulo, nota=nota,
+                      fonte="PTB-XL (PhysioNet), CC BY 4.0 — registro " + nome.replace("_hr", ""))
+
+
+def tira_sinal(canal, fs, deriv="II", seg=8.0, titulo="", nota="", fonte="", ini=0.0):
+    """Uma derivação na largura inteira — o formato em que ritmo e bloqueio se leem."""
+    v = _filtra(canal[int(ini * fs):], fs)
     pico = max(abs(x) for x in v)
-    ganho = gf.MM_MV if pico * gf.MM_MV < 16 else gf.MM_MV / 2
+    ganho = gf.MM_MV if pico * gf.MM_MV < 20 else gf.MM_MV / 2
     mx, my = 10.0, 12.0
-    W, H = mx + seg * gf.MM_S + 6, my + 44
+    W, H = mx + seg * gf.MM_S + 6, my + 50
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" role="img" '
          f'aria-label="{gf.esc(titulo)}">', gf.GRID,
          f'<rect width="{W:.0f}" height="{H:.0f}" fill="#FFF8F7"/>',
-         f'<rect x="{mx}" y="{my}" width="{seg*gf.MM_S:.1f}" height="36" fill="url(#p5)"/>',
+         f'<rect x="{mx}" y="{my}" width="{seg*gf.MM_S:.1f}" height="42" fill="url(#p5)"/>',
          f'<text x="{mx}" y="{my-4:.0f}" font-family="Figtree,system-ui,sans-serif" font-size="4.2" '
          f'font-weight="600" fill="#23272E">{gf.esc(titulo)}</text>']
     if nota:
         o.append(f'<text x="{W-4:.0f}" y="{my-4:.0f}" text-anchor="end" font-family="Figtree,'
                  f'system-ui,sans-serif" font-size="3.4" fill="#5E646B">{gf.esc(nota)}</text>')
-    y0 = my + 20
+    y0 = my + 23
     xy = gf._rala([(mx + 8 + i / fs * gf.MM_S, y0 - v[i] * ganho)
                    for i in range(min(len(v), int(seg * fs)))])
     o.append('<polyline fill="none" stroke="#23272E" stroke-width=".45" stroke-linejoin="round" '
@@ -132,8 +151,7 @@ def tira(nome, deriv="II", seg=8.0, titulo="", nota=""):
              f'font-size="3.6" font-weight="600" fill="#23272E">{ROTULO.get(deriv, deriv)}</text>')
     g = "10 mm/mV" if ganho == gf.MM_MV else "5 mm/mV"
     o.append(f'<text x="{mx}" y="{H-3:.0f}" font-family="Figtree,system-ui,sans-serif" '
-             f'font-size="3.2" fill="#5E646B">25 mm/s · {g} · PTB-XL (PhysioNet), CC BY 4.0 — '
-             f'registro {nome.replace("_hr","")}</text>')
+             f'font-size="3.2" fill="#5E646B">25 mm/s · {g} · {gf.esc(fonte)}</text>')
     o.append('</svg>')
     return "".join(o)
 
