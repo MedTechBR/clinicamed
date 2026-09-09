@@ -8784,13 +8784,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 66 anos, tabagista de 45 maços-ano e diabético, refere dor em panturrilha direita após caminhar duzentos metros, que cede com repouso, há oito meses, estável. Os pulsos pediosos estão diminuídos à direita, sem lesões tróficas ou dor em repouso. Pressão de 142/86 mmHg, índice tornozelo-braquial de 0,68 à direita. Já usa metformina, e o LDL é de 122 mg/dL. Qual é a conduta inicial?",
+  "q": "Homem de 66 anos, tabagista de 45 maços-ano e diabético, refere dor em panturrilha direita após caminhar duzentos metros, que cede com repouso, há oito meses e estável. Os pulsos pediosos estão diminuídos à direita, sem lesões tróficas, palidez de elevação ou dor em repouso. Pressão de 142/86 mmHg, índice tornozelo-braquial de 0,68 à direita e 0,92 à esquerda. Já usa metformina, o LDL é de 122 mg/dL e a hemoglobina glicada é de 7,6%. Qual é a conduta inicial?",
   "alts": [
-   "Exercício supervisionado, estatina, antiagregante e cessar o tabagismo",
+   "Exercício supervisionado, estatina e antiagregante",
    "Angioplastia da artéria femoral superficial",
    "Cirurgia de revascularização femoropoplítea",
-   "Anticoagulação oral plena",
-   "Pentoxifilina isolada"
+   "Anticoagulação oral plena de longo prazo",
+   "Pentoxifilina isolada em dose plena"
   ],
   "gab": 0,
   "tema": "cardio",
@@ -8802,7 +8802,7 @@ window.BANCO=[
   "porAlt": [
    "Correta: tratamento clínico e exercício antes de qualquer intervenção.",
    "A angioplastia é para refratários ao tratamento clínico ou isquemia crítica.",
-   "A cirurgia tem indicação ainda mais restrita.",
+   "A cirurgia tem indicação ainda mais restrita nesse cenário.",
    "A anticoagulação não tem papel na claudicação estável.",
    "A pentoxifilina tem eficácia marginal e não substitui o pacote."
   ]
