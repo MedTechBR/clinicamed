@@ -90,6 +90,11 @@ def falhas(x):
         f.append("gabarito fora da faixa")
     if m["n_alts"] < 4:
         f.append("menos de 4 alternativas")
+    # distrator curto demais ao lado de correta longa entrega a resposta; o p5 da banca é 53%
+    Lc = len(x["alts"][x["gab"]])
+    for j, a in enumerate(x["alts"]):
+        if j != x["gab"] and Lc and not (0.45 <= len(a) / Lc <= 2.4):
+            f.append("alt %d com %.0f%% do comprimento da correta (faixa 45–240%%)" % (j, 100 * len(a) / Lc))
     return f
 
 

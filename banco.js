@@ -7896,12 +7896,12 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 74 anos com fibrilação atrial em uso correto e documentado de rivaroxabana 20 mg ao dia há dois anos sofre acidente vascular cerebral isquêmico cardioembólico. Chega 30 horas após o início dos sintomas, com NIHSS de 6 e tomografia mostrando infarto de território de artéria cerebral média direita sem transformação hemorrágica. A adesão foi confirmada com a família e o clearance é de 62 mL/min. Qual é a conduta em relação à anticoagulação?",
+  "q": "Homem de 74 anos com fibrilação atrial em uso correto e documentado de rivaroxabana 20 mg ao dia há dois anos sofre acidente vascular cerebral isquêmico cardioembólico. Chega 30 horas após o início dos sintomas, com NIHSS de 6 e tomografia mostrando infarto de território de artéria cerebral média direita sem transformação hemorrágica. A adesão foi confirmada com a família e por contagem de comprimidos, o clearance é de 62 mL/min e ele não usa indutores enzimáticos. Qual é a conduta em relação à anticoagulação?",
   "alts": [
    "Investigar causas alternativas e considerar troca de anticoagulante",
-   "Dobrar a dose da rivaroxabana",
-   "Associar ácido acetilsalicílico à rivaroxabana",
-   "Suspender definitivamente a anticoagulação",
+   "Dobrar a dose da rivaroxabana e manter o seguimento",
+   "Associar ácido acetilsalicílico à rivaroxabana atual",
+   "Suspender definitivamente qualquer anticoagulação",
    "Trocar por varfarina com alvo de RNI entre 3,0 e 4,0"
   ],
   "gab": 0,
