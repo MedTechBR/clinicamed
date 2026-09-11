@@ -16488,243 +16488,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com pneumonia grave e necessidade de terapia intensiva. Qual é o esquema antibiótico empírico?",
+  "q": "Homem de 68 anos, tabagista com doença pulmonar obstrutiva crônica, chega com febre há três dias, tosse produtiva e dispneia. Está com pressão de 86/54 mmHg, frequência respiratória de 34 irpm, saturação de 86% em máscara, confuso, com temperatura de 38,8 °C. A radiografia mostra consolidação multilobar. Não teve internação nem antibiótico nos últimos 90 dias e não há fatores de risco para Pseudomonas. Será admitido em terapia intensiva. Qual é o esquema antibiótico empírico?",
   "alts": [
-   "Betalactâmico associado a macrolídeo ou quinolona respiratória, ajustando sempre conforme fatores de risco.",
-   "Monoterapia com amoxicilina oral em todos os pacientes com pneumonia grave internados em terapia intensiva já.",
-   "Apenas antifúngico endovenoso empírico como tratamento inicial da pneumonia grave adquirida na comunidade.",
-   "Apenas antiviral oral por cinco dias como tratamento empírico da pneumonia grave com critério de internação.",
-   "Aguardar o resultado da cultura de escarro antes de iniciar qualquer antibiótico no paciente com pneumonia grave."
+   "Betalactâmico associado a macrolídeo",
+   "Amoxicilina com clavulanato via oral",
+   "Ceftriaxona isolada em monoterapia",
+   "Meropeném associado a vancomicina",
+   "Azitromicina isolada por cinco dias"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ATS/IDSA Guidelines for Community-Acquired Pneumonia, 2019 com revisão 2023; SBPT — Diretrizes de pneumonia, 2023",
-  "coment": "Na pneumonia grave com internação em terapia intensiva, o esquema empírico combina betalactâmico — ceftriaxona, cefotaxima ou ampicilina-sulbactam — com macrolídeo ou quinolona respiratória, cobrindo pneumococo e germes atípicos. Fatores de risco para Pseudomonas ou Staphylococcus aureus resistente ampliam a cobertura. O antibiótico deve ser administrado o mais precocemente possível, e o descalonamento é guiado por culturas e evolução clínica.",
+  "base": "IDSA/ATS 2019 — pneumonia comunitária grave",
+  "coment": "Na pneumonia comunitária grave com indicação de terapia intensiva, o esquema empírico associa betalactâmico — ceftriaxona, cefotaxima ou ampicilina-sulbactam — a macrolídeo ou quinolona respiratória. A associação com macrolídeo reduz mortalidade nas formas graves, efeito atribuído à cobertura de atípicos e à ação imunomoduladora. Sem fatores de risco, não se cobre Pseudomonas nem MRSA.",
   "porAlt": [
-   "Correta: betalactâmico com macrolídeo ou quinolona respiratória, ajustado por fatores de risco.",
-   "A monoterapia oral com amoxicilina é insuficiente para a pneumonia grave com critério de terapia intensiva.",
-   "O antifúngico não cobre os agentes bacterianos habituais da pneumonia adquirida na comunidade.",
-   "O antiviral isolado não cobre a etiologia bacteriana, responsável pela maioria dos casos graves.",
-   "Aguardar cultura atrasa o antibiótico, e o atraso é determinante direto de maior mortalidade."
+   "Correta: betalactâmico com macrolídeo é o padrão na forma grave.",
+   "Via oral em paciente em choque não é opção.",
+   "A monoterapia deixa os atípicos descobertos na forma grave.",
+   "O carbapenêmico com vancomicina é espectro excessivo sem fator de risco.",
+   "O macrolídeo isolado não cobre pneumococo resistente."
   ]
  },
  {
-  "q": "Paciente com celulite de membro inferior sem resposta após setenta e duas horas de cefalexina oral. Qual é a conduta?",
+  "q": "Homem de 52 anos, diabético, apresenta celulite em perna direita há cinco dias, tratada com cefalexina oral. Após 72 horas de antibiótico há piora: a área de eritema aumentou, surgiu flutuação central de 4 cm e o edema progrediu. Está com temperatura de 38,3 °C, frequência de 102 bpm e pressão de 128/78 mmHg. Não há crepitação, bolhas hemorrágicas nem dor desproporcional. A hemoglobina glicada é de 9,2%. Qual é a conduta?",
   "alts": [
-   "Manter o mesmo antibiótico por mais duas semanas sem qualquer reavaliação clínica ou de imagem neste caso.",
-   "Reavaliar o diagnóstico e ampliar cobertura, investigando sempre abscesso, resistência ou trombose associada.",
-   "Suspender o antibiótico e apenas observar clinicamente a evolução da lesão por mais uma semana neste caso.",
-   "Iniciar corticoide sistêmico em dose alta como tratamento de escolha para a celulite sem resposta agora.",
-   "Indicar amputação do membro em todos os casos de celulite sem resposta ao antibiótico oral inicial agora."
+   "Drenar a coleção e cobrir MRSA",
+   "Manter cefalexina por mais 48 horas",
+   "Trocar por amoxicilina com clavulanato oral",
+   "Desbridamento cirúrgico amplo de urgência",
+   "Corticoide sistêmico para reduzir a inflamação"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA Practice Guidelines for Skin and Soft Tissue Infections, revisão 2023",
-  "coment": "Falha após setenta e duas horas exige reavaliar antes de simplesmente trocar o antibiótico: procurar coleção que exija drenagem, considerar Staphylococcus aureus resistente à meticilina, revisar adesão e dose, e afastar diagnósticos que imitam celulite, como trombose venosa profunda, dermatite de estase, erisipela bolhosa e fasciíte necrosante. A elevação do membro e o tratamento da porta de entrada, como micose interdigital, são frequentemente negligenciados.",
+  "base": "IDSA 2014 — infecções de pele e partes moles",
+  "coment": "Falha de betalactâmico com surgimento de flutuação indica abscesso, e a drenagem é o tratamento principal — antibiótico não penetra coleção. A cobertura passa a incluir MRSA comunitário, com sulfametoxazol-trimetoprima, clindamicina ou doxiciclina. Ausência de crepitação, bolhas e dor desproporcional afasta fasciíte necrosante.",
   "porAlt": [
-   "Manter o mesmo esquema sem reavaliar perpetua a falha e pode retardar o tratamento de complicação.",
-   "Correta: reavaliar diagnóstico e ampliar cobertura, procurando abscesso, resistência ou trombose.",
-   "Suspender o antibiótico em infecção ativa sem resposta arrisca progressão para quadro sistêmico.",
-   "O corticoide não trata a infecção e pode mascarar a progressão de um quadro potencialmente grave.",
-   "A amputação é conduta de exceção e não decorre da simples falha do antibiótico oral inicial."
+   "Correta: drenar a coleção e cobrir MRSA.",
+   "Insistir no mesmo fármaco após falha e com coleção não resolve.",
+   "Trocar de betalactâmico mantém o MRSA descoberto e não drena.",
+   "Não há sinais de fasciíte que justifiquem desbridamento amplo.",
+   "O corticoide não tem papel no tratamento da celulite."
   ]
  },
  {
-  "q": "Paciente com HIV e CD4 de 40 células/mm³ apresenta cefaleia subaguda, febre e rigidez de nuca discreta. Qual é a investigação prioritária?",
+  "q": "Homem de 36 anos com HIV, sem tratamento antirretroviral e CD4 de 40 células/mm³, chega com cefaleia há três semanas, de piora progressiva, febre baixa e náuseas. Está lúcido, com rigidez de nuca discreta e sem déficit focal. A tomografia de crânio não mostra lesão com efeito de massa. O líquor tem 20 células com predomínio linfocitário, glicose de 28 mg/dL, proteína de 90 mg/dL e pressão de abertura de 38 cmH₂O. Qual é a hipótese e a conduta?",
   "alts": [
-   "Apenas tomografia de crânio sem contraste, exame suficiente para o diagnóstico etiológico nesse contexto.",
-   "Apenas hemograma completo e proteína C reativa como investigação inicial do quadro neurológico descrito.",
-   "Punção lombar com tinta da China e antígeno criptocócico, avaliando sempre a pressão de abertura do líquor.",
-   "Iniciar antibiótico empírico e não realizar qualquer punção lombar no paciente com imunossupressão grave.",
-   "Solicitar apenas eletroencefalograma, exame que estabelece o diagnóstico etiológico do quadro descrito."
+   "Criptococose: anfotericina e punções de alívio",
+   "Meningite bacteriana: ceftriaxona com vancomicina",
+   "Neurotoxoplasmose: sulfadiazina com pirimetamina",
+   "Tuberculose meníngea: esquema RIPE com corticoide",
+   "Meningite viral: sintomáticos e observação clínica"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; IDSA guideline for cryptococcal disease, revisão 2023",
-  "coment": "Com CD4 abaixo de 100 células por milímetro cúbico, cefaleia subaguda com febre aponta meningite criptocócica, cuja apresentação costuma ter poucos sinais meníngeos. A investigação é punção lombar com tinta da China, antígeno criptocócico no líquor e no soro e cultura, sempre com medida da pressão de abertura, porque a hipertensão intracraniana é a principal causa de morte precoce e exige punções de alívio repetidas. Neuroimagem precede a punção quando há sinal focal.",
+  "base": "IDSA 2010 e OMS 2022 — criptococose meníngea no HIV",
+  "coment": "Cefaleia subaguda com CD4 abaixo de 100, líquor com poucas células, glicose baixa e pressão de abertura muito elevada é criptococose até prova em contrário. O tratamento de indução é anfotericina B associada à flucitosina, e o controle da pressão intracraniana com punções lombares de repetição é o que mais reduz mortalidade precoce — o fluconazol isolado é inferior na indução.",
   "porAlt": [
-   "A tomografia pode ser normal na meningite criptocócica e não fornece o diagnóstico etiológico.",
-   "Hemograma e proteína C reativa são inespecíficos e não identificam o agente responsável pelo quadro.",
-   "Correta: punção lombar com pesquisa criptocócica e medida obrigatória da pressão de abertura.",
-   "Deixar de puncionar impede o diagnóstico e a medida da pressão, que orienta o alívio terapêutico.",
-   "O eletroencefalograma não identifica o agente etiológico da meningite nesse paciente imunossuprimido."
+   "Correta: quadro típico, com punções de alívio como medida crítica.",
+   "A bacteriana é aguda, com neutrófilos e centenas de células.",
+   "A neurotoxoplasmose cursa com lesões com efeito de massa.",
+   "A tuberculose meníngea é possível, mas a pressão muito alta aponta criptococo.",
+   "Glicose baixa e pressão de 38 cmH₂O não são de meningite viral."
   ]
  },
  {
-  "q": "Paciente com febre e sopro cardíaco novo após procedimento dentário, com CD4 normal e sem uso de drogas. Qual é a suspeita?",
+  "q": "Homem de 44 anos, sem comorbidades, apresenta febre há três semanas, sudorese noturna e perda de 3 kg, iniciadas duas semanas após extração dentária sem profilaxia. Ao exame, sopro de regurgitação mitral novo, esplenomegalia discreta e lesões de Janeway nas palmas. Está com temperatura de 38,2 °C, frequência de 104 bpm e pressão de 118/70 mmHg. Hemoglobina de 10,8 g/dL, proteína C reativa de 88 mg/L e três pares de hemocultura positivos para Streptococcus viridans. Qual é a conduta diagnóstica?",
   "alts": [
-   "Febre reumática aguda, condição desencadeada diretamente por procedimento dentário em adulto saudável.",
-   "Endocardite infecciosa, cuja investigação exige sempre hemoculturas seriadas e ecocardiograma dirigido.",
-   "Pericardite constritiva crônica, quadro definido por febre e sopro cardíaco novo após procedimento dental.",
-   "Miocardiopatia dilatada idiopática, condição definida por febre e sopro novo após procedimento odontológico.",
-   "Estenose mitral degenerativa, quadro caracterizado por febre e sopro novo após manipulação dentária."
+   "Ecocardiograma transesofágico",
+   "Repetir hemoculturas antes de qualquer imagem",
+   "Tomografia de tórax com contraste",
+   "Ressonância cardíaca",
+   "Biópsia das lesões cutâneas"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ESC Guidelines for the management of endocarditis, 2023; critérios de Duke modificados, atualização 2023",
-  "coment": "Febre com sopro novo ou modificado levanta suspeita de endocardite infecciosa, sobretudo após bacteremia por manipulação dentária. A avaliação usa os critérios de Duke, que combinam hemoculturas positivas para germes típicos, evidência de acometimento endocárdico por ecocardiograma e critérios menores como febre, fenômenos vasculares e imunológicos e predisposição. O ecocardiograma transesofágico é indicado quando o transtorácico é normal e a suspeita persiste.",
+  "base": "ESC 2023 — endocardite infecciosa: critérios de Duke e imagem",
+  "coment": "Com dois critérios maiores de Duke em construção — hemoculturas persistentemente positivas para germe típico e sopro de regurgitação novo —, o próximo passo é documentar o acometimento endocárdico. O transesofágico tem sensibilidade muito superior ao transtorácico para vegetações, abscesso perianular e deiscência, e é o exame indicado em suspeita alta ou transtorácico não conclusivo.",
   "porAlt": [
-   "A febre reumática decorre de faringite estreptocócica prévia, e não de procedimento dentário.",
-   "Correta: endocardite infecciosa, investigada com hemoculturas seriadas e ecocardiograma dirigido.",
-   "A pericardite constritiva cursa com sinais de congestão sistêmica e não com sopro novo febril.",
-   "A miocardiopatia dilatada não é desencadeada por procedimento dentário nem cursa com febre.",
-   "A estenose degenerativa é crônica e não explica o surgimento agudo de febre com sopro novo."
+   "Correta: melhor exame para documentar o acometimento valvar.",
+   "As hemoculturas já são positivas para germe típico em três pares.",
+   "A tomografia de tórax não avalia a valva.",
+   "A ressonância não é o exame de escolha para vegetação.",
+   "A biópsia cutânea não é necessária com hemocultura positiva."
   ]
  },
  {
-  "q": "Paciente com diagnóstico de tuberculose pulmonar inicia tratamento e, na terceira semana, apresenta icterícia e transaminases dez vezes acima do normal. Qual é a conduta?",
+  "q": "Homem de 42 anos iniciou tratamento para tuberculose pulmonar com esquema básico há três semanas. Retorna com náuseas, vômitos, dor em hipocôndrio direito e icterícia. Está com bilirrubina total de 4,8 mg/dL com predomínio direto, alanina aminotransferase de 480 U/L e aspartato aminotransferase de 390 U/L — mais de cinco vezes o limite superior. Nega uso de álcool ou outros fármacos e as sorologias virais são negativas. Qual é a conduta?",
   "alts": [
-   "Suspender o esquema e reintroduzir os fármacos de forma escalonada, monitorando sempre a função hepática.",
-   "Manter o esquema completo e apenas repetir os exames hepáticos após o término do tratamento previsto.",
-   "Suspender definitivamente todo tratamento da tuberculose e não reintroduzir qualquer fármaco no paciente.",
-   "Substituir imediatamente o esquema por antibiótico de amplo espectro sem qualquer atividade antituberculosa.",
-   "Aumentar as doses dos fármacos para superar a redução do metabolismo hepático observada no paciente."
+   "Suspender o esquema e reintroduzir escalonadamente",
+   "Manter o esquema e acompanhar as enzimas semanalmente",
+   "Reduzir a dose da rifampicina pela metade",
+   "Trocar apenas a isoniazida por levofloxacino",
+   "Associar hepatoprotetor e manter o esquema atual"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019 com atualização 2023; ATS/CDC/IDSA hepatotoxicity guidance, 2023",
-  "coment": "A hepatotoxicidade é a reação adversa maior mais frequente do esquema básico, atribuída sobretudo a isoniazida, rifampicina e pirazinamida. Diante de transaminases cinco vezes acima do normal, ou três vezes com sintomas, ou icterícia, suspende-se o esquema e aguarda-se a normalização. A reintrodução é escalonada, um fármaco por vez com intervalo, monitorando enzimas, permitindo identificar o agente responsável e preservar o máximo de fármacos eficazes.",
+  "base": "Ministério da Saúde, 2019 — Manual de recomendações para o controle da tuberculose: hepatotoxicidade",
+  "coment": "Hepatotoxicidade com transaminases acima de cinco vezes o limite, ou acima de três vezes com sintomas ou icterícia, impõe suspender todo o esquema. Após normalização — ou queda abaixo de duas vezes o limite — a reintrodução é escalonada, fármaco a fármaco, com intervalo e monitorização, para identificar o agente responsável. Em formas graves usa-se esquema alternativo sem hepatotóxicos durante a suspensão.",
   "porAlt": [
-   "Correta: suspender o esquema e reintroduzir de forma escalonada com monitorização hepática seriada.",
-   "Manter o esquema com hepatite estabelecida arrisca insuficiência hepática aguda e óbito.",
-   "Não reintroduzir deixa a tuberculose sem tratamento, com risco de morte e de transmissão continuada.",
-   "Antibióticos comuns não têm atividade antituberculosa e não substituem o esquema específico.",
-   "Aumentar as doses agrava a hepatotoxicidade e não corrige o problema metabólico do paciente."
+   "Correta: suspensão completa e reintrodução escalonada.",
+   "Manter o esquema com icterícia e enzimas cinco vezes altas arrisca hepatite fulminante.",
+   "Reduzir dose não é conduta reconhecida na hepatotoxicidade.",
+   "Trocar só a isoniazida ignora rifampicina e pirazinamida, também hepatotóxicas.",
+   "Não há hepatoprotetor com eficácia demonstrada."
   ]
  },
  {
-  "q": "Paciente sem esquema vacinal conhecido sofre ferimento profundo contaminado com terra. Qual é a conduta?",
+  "q": "Homem de 47 anos, lavrador, chega duas horas após ferimento profundo e sujo de terra em planta do pé, com fragmento de madeira retirado no local. A ferida tem bordas irregulares e tecido desvitalizado. Ele não sabe informar o esquema vacinal e não tem caderneta. Está afebril, com pressão de 128/76 mmHg e sem sinais de infecção. Não há comprometimento neurovascular. Qual é a conduta profilática para o tétano?",
   "alts": [
-   "Apenas antibiótico oral por sete dias, medida suficiente para a profilaxia do tétano nesse ferimento agora.",
-   "Apenas vacina antitetânica isolada, sem qualquer imunoglobulina no paciente sem esquema conhecido agora.",
-   "Apenas limpeza local com água e sabão, sem qualquer imunização ou avaliação do estado vacinal neste caso.",
-   "Apenas imunoglobulina isolada, já sem qualquer dose de vacina no paciente com ferimento contaminado agora.",
-   "Vacina antitetânica e imunoglobulina específica, com limpeza sempre cuidadosa e desbridamento do ferimento."
+   "Vacina dupla adulto e imunoglobulina antitetânica",
+   "Apenas a vacina dupla adulto",
+   "Apenas imunoglobulina antitetânica",
+   "Antibiótico profilático, sem vacina nem soro",
+   "Nenhuma profilaxia, por estar assintomático"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de tétano acidental; Calendário Nacional de Vacinação, 2025",
-  "coment": "Em ferimento de alto risco — profundo, contaminado com terra, com tecido desvitalizado — e paciente com esquema vacinal desconhecido ou incompleto, indica-se vacina antitetânica mais imunoglobulina antitetânica humana, pois a vacina leva dias para produzir anticorpos e a imunoglobulina oferece proteção imediata. O componente mecânico é essencial: limpeza abundante, remoção de corpos estranhos e desbridamento de tecido desvitalizado.",
+  "base": "Ministério da Saúde, 2022 — profilaxia antitetânica em ferimentos",
+  "coment": "Ferimento de alto risco — profundo, sujo de terra, com tecido desvitalizado — em pessoa com esquema vacinal desconhecido ou incompleto exige as duas medidas: vacina, que constrói a proteção duradoura, e imunoglobulina, que oferece proteção imediata enquanto a resposta vacinal não se estabelece. Somam-se limpeza e desbridamento da ferida.",
   "porAlt": [
-   "O antibiótico não substitui a imunização e não previne a ação da toxina tetânica no organismo.",
-   "A vacina isolada não protege de imediato, e o ferimento de alto risco exige proteção passiva.",
-   "A limpeza é essencial, mas isolada não previne o tétano em ferimento de alto risco.",
-   "A imunoglobulina isolada protege apenas temporariamente, sem induzir memória imunológica.",
-   "Correta: vacina com imunoglobulina específica, associadas a limpeza cuidadosa e desbridamento."
+   "Correta: alto risco com esquema desconhecido exige vacina e imunoglobulina.",
+   "A vacina isolada deixa o paciente desprotegido nas próximas semanas.",
+   "A imunoglobulina isolada não constrói proteção duradoura.",
+   "O antibiótico não substitui a profilaxia antitetânica.",
+   "Esperar sintoma de tétano é esperar uma doença de alta letalidade."
   ]
  },
  {
-  "q": "Paciente com infecção urinária de repetição e urocultura mostrando bactéria produtora de betalactamase de espectro estendido. Qual é a implicação terapêutica?",
+  "q": "Mulher de 68 anos, diabética com infecções urinárias de repetição, apresenta febre de 38,5 °C, dor lombar à direita e disúria há dois dias. Está com pressão de 118/74 mmHg, frequência de 96 bpm e Giordano positivo à direita. A urocultura colhida na consulta anterior mostrou Escherichia coli produtora de betalactamase de espectro estendido, sensível a meropeném, amicacina e nitrofurantoína, e resistente a quinolonas e cefalosporinas. Qual é a conduta?",
   "alts": [
-   "Sensibilidade preservada a todas as cefalosporinas de terceira geração disponíveis para uso oral agora.",
-   "Indicação de vancomicina como antibiótico de escolha para essa bactéria gram-negativa resistente agora.",
-   "Necessidade de antifúngico associado em todos os casos de bactéria produtora dessa enzima neste caso.",
-   "Resistência a cefalosporinas e penicilinas, exigindo sempre escolha guiada pelo antibiograma disponível.",
-   "Indicação de tratamento prolongado por seis meses em todos os pacientes com essa resistência agora."
+   "Internar e iniciar carbapenêmico intravenoso",
+   "Nitrofurantoína oral por sete dias",
+   "Ciprofloxacino oral por catorze dias",
+   "Ceftriaxona intravenosa por dez dias",
+   "Fosfomicina em dose única"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "IDSA Guidance on the Treatment of Antimicrobial-Resistant Gram-Negative Infections, atualização 2024",
-  "coment": "As betalactamases de espectro estendido hidrolisam penicilinas, cefalosporinas de amplo espectro e monobactâmicos, mantendo sensibilidade aos carbapenêmicos. Em infecção urinária não complicada, opções poupadoras de carbapenêmico incluem nitrofurantoína e fosfomicina conforme o antibiograma; em infecção invasiva, o carbapenêmico é a escolha. A vancomicina não cobre gram-negativos, e a decisão sempre se apoia no teste de sensibilidade do isolado.",
+  "base": "IDSA 2023 — tratamento de infecções por bactérias resistentes: ESBL",
+  "coment": "Pielonefrite por enterobactéria produtora de betalactamase de espectro estendido exige carbapenêmico intravenoso — é o tratamento de referência para infecção sistêmica por esse perfil. A nitrofurantoína e a fosfomicina não atingem concentração tecidual renal adequada e servem apenas para cistite não complicada; cefalosporinas e quinolonas estão excluídas pelo antibiograma.",
   "porAlt": [
-   "As cefalosporinas de terceira geração são justamente hidrolisadas por essa enzima bacteriana.",
-   "A vancomicina age sobre gram-positivos e não tem qualquer atividade contra essa bactéria.",
-   "Não há indicação de antifúngico associado apenas pela presença dessa resistência bacteriana.",
-   "Correta: resistência a penicilinas e cefalosporinas, com escolha guiada pelo antibiograma do isolado.",
-   "A duração é definida pelo sítio e pela gravidade da infecção, e não pelo perfil de resistência."
+   "Correta: infecção sistêmica com esse perfil exige carbapenêmico.",
+   "A nitrofurantoína não alcança o parênquima renal.",
+   "O antibiograma mostra resistência a quinolonas.",
+   "As cefalosporinas são inativadas pela betalactamase.",
+   "A fosfomicina em dose única trata cistite, não pielonefrite."
   ]
  },
  {
-  "q": "Paciente com febre, esplenomegalia, pancitopenia e perda de peso, procedente de área endêmica de leishmaniose. Qual é a conduta?",
+  "q": "Homem de 31 anos, procedente do interior do Ceará, apresenta febre irregular há dois meses, perda de 12 kg, astenia e aumento progressivo do volume abdominal. Ao exame, palidez intensa, esplenomegalia de 8 cm do rebordo costal e hepatomegalia. Hemoglobina de 7,2 g/dL, leucócitos de 2.100/mm³, plaquetas de 68.000/mm³, albumina de 2,4 g/dL e inversão da relação albumina-globulina. Está afebril no momento, com pressão de 106/64 mmHg. Qual é a hipótese e a conduta diagnóstica?",
   "alts": [
-   "Iniciar antibiótico de amplo espectro empírico e não investigar qualquer causa parasitária do quadro.",
-   "Solicitar apenas radiografia de tórax como investigação inicial da febre com esplenomegalia descrita.",
-   "Indicar esplenectomia diagnóstica imediata em todos os pacientes com esplenomegalia e pancitopenia.",
-   "Investigar leishmaniose visceral com sorologia ou parasitológico e notificar sempre o caso confirmado.",
-   "Prescrever apenas sulfato ferroso e reavaliar clinicamente após três meses de suplementação oral."
+   "Leishmaniose visceral: rK39 ou aspirado de medula",
+   "Linfoma: biópsia de linfonodo cervical profundo",
+   "Leucemia aguda: imunofenotipagem de sangue periférico",
+   "Esquistossomose hepatoesplênica: ultrassom com Doppler",
+   "Tuberculose disseminada: escarro e cultura para micobactéria"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual de Vigilância e Controle da Leishmaniose Visceral, revisão 2023; Guia de Vigilância em Saúde, 2024",
-  "coment": "A leishmaniose visceral cursa com febre prolongada, esplenomegalia volumosa, hepatomegalia, pancitopenia, hipergamaglobulinemia e emagrecimento. O diagnóstico usa teste rápido imunocromatográfico, imunofluorescência indireta ou pesquisa direta do parasito em aspirado de medula óssea. É doença de notificação compulsória, e o tratamento no Brasil emprega antimoniato de meglumina ou anfotericina B lipossomal, esta preferida em casos graves e em grupos de risco.",
+  "base": "Ministério da Saúde, 2014 — Manual de vigilância e controle da leishmaniose visceral",
+  "coment": "Febre prolongada, hepatoesplenomegalia volumosa, pancitopenia, emagrecimento e inversão da relação albumina-globulina, em procedente de área endêmica, compõem o quadro clássico de calazar. O diagnóstico se faz por teste rápido rK39, com alta sensibilidade, e a confirmação parasitológica por aspirado de medula óssea quando necessário.",
   "porAlt": [
-   "O antibiótico empírico sem investigar deixa sem tratamento uma doença potencialmente fatal.",
-   "A radiografia de tórax não avalia a causa da esplenomegalia com pancitopenia neste contexto.",
-   "A esplenectomia não é procedimento diagnóstico inicial e traz morbidade elevada e evitável.",
-   "Correta: investigar leishmaniose visceral com sorologia ou parasitológico e notificar o caso confirmado.",
-   "O sulfato ferroso não trata pancitopenia por doença infecciosa nem investiga a causa do quadro."
+   "Correta: quadro e procedência típicos, com os exames de escolha.",
+   "O linfoma não explica a inversão da relação albumina-globulina desse modo.",
+   "A leucemia não costuma cursar com esplenomegalia desse volume e febre prolongada.",
+   "A esquistossomose hepatoesplênica não cursa com febre prolongada e emagrecimento.",
+   "A tuberculose disseminada é diferencial, mas a apresentação aqui é típica de calazar."
   ]
  },
  {
-  "q": "Paciente internado desenvolve febre no quinto dia de cateter venoso central, sem outro foco identificado. Qual é a conduta?",
+  "q": "Homem de 59 anos, internado há cinco dias por pancreatite, apresenta febre de 38,7 °C e calafrios, sem outro foco identificado ao exame. Tem cateter venoso central em jugular interna direita há cinco dias, com hiperemia e secreção purulenta no sítio de inserção. A pressão é de 104/62 mmHg e a frequência de 108 bpm. Os leucócitos subiram de 9.000 para 18.000/mm³. A radiografia de tórax e o exame de urina não mostram alterações. Qual é a conduta?",
   "alts": [
-   "Manter o cateter e apenas iniciar antitérmico, sem qualquer coleta de hemocultura ou reavaliação.",
-   "Trocar o cateter pelo mesmo trajeto com fio-guia em todos os casos de suspeita de infecção do dispositivo.",
-   "Iniciar antifúngico isolado como tratamento empírico padrão da infecção relacionada a cateter venoso.",
-   "Aguardar setenta e duas horas de febre antes de colher qualquer hemocultura no paciente internado já.",
-   "Colher hemoculturas periféricas e do cateter e avaliar sempre a necessidade de remoção do dispositivo."
+   "Remover o cateter e colher hemoculturas pareadas",
+   "Manter o cateter e iniciar antibiótico sistêmico",
+   "Trocar o cateter pelo mesmo trajeto com fio-guia",
+   "Colher cultura apenas da ponta do cateter removido",
+   "Observar por 24 horas antes de qualquer decisão"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Intravascular Catheter-Related Infection, revisão 2023",
-  "coment": "Diante de febre em paciente com cateter venoso central sem outro foco, colhem-se hemoculturas pareadas — uma periférica e uma do lúmen do cateter — para avaliar o tempo diferencial de positividade. A remoção é obrigatória em sepse grave, instabilidade, infecção do túnel, tromboflebite supurada e em infecções por Staphylococcus aureus, Candida, Pseudomonas e enterococo. A troca por fio-guia é inadequada quando há suspeita de infecção do dispositivo.",
+  "base": "IDSA 2009 — infecção de corrente sanguínea relacionada a cateter",
+  "coment": "Infecção de corrente sanguínea associada a cateter com sinais locais de infecção no sítio de inserção impõe a remoção do dispositivo — mantê-lo perpetua a bacteremia. Colhem-se hemoculturas pareadas, do cateter e de veia periférica, antes do antibiótico, e a ponta do cateter segue para cultura. A troca por fio-guia é contraindicada com infecção do túnel ou do sítio.",
   "porAlt": [
-   "Manter o cateter sem investigar perpetua a fonte e pode evoluir para sepse e endocardite.",
-   "A troca por fio-guia mantém o trajeto colonizado e é inadequada diante de suspeita de infecção.",
-   "O antifúngico isolado não é o empírico padrão, que depende do perfil de risco e da gravidade.",
-   "Aguardar setenta e duas horas atrasa o diagnóstico e o controle da fonte da bacteremia.",
-   "Correta: hemoculturas pareadas do cateter e periférica, avaliando a necessidade de remover o dispositivo."
+   "Correta: remover o foco e colher culturas pareadas antes do antibiótico.",
+   "Manter o cateter com secreção purulenta mantém o foco.",
+   "A troca por fio-guia mantém o trajeto infectado.",
+   "Só a ponta não permite documentar a bacteremia.",
+   "Observar com febre, leucocitose e sítio purulento atrasa o tratamento."
   ]
  },
  {
-  "q": "Paciente com quadro gripal, febre e mialgia há dois dias, com asma e obesidade. Qual é a conduta?",
+  "q": "Mulher de 34 anos, asmática em uso de corticoide inalatório e com índice de massa corporal de 38 kg/m², procura atendimento com febre de 38,6 °C, mialgia, cefaleia, tosse seca e coriza iniciados há 36 horas. Está com frequência respiratória de 18 irpm, saturação de 97% em ar ambiente, pressão de 118/74 mmHg e ausculta com sibilos discretos. Não está gestante e a radiografia de tórax é normal. Há circulação de influenza na comunidade. Qual é a conduta?",
   "alts": [
-   "Iniciar oseltamivir precocemente, indicado sempre para pacientes com condições de risco para complicações.",
-   "Prescrever apenas sintomáticos, pois o antiviral não tem indicação em nenhum paciente com quadro gripal.",
-   "Iniciar antibiótico de amplo espectro empírico como tratamento padrão de todo quadro gripal com febre.",
-   "Aguardar o resultado do teste molecular antes de iniciar qualquer antiviral no paciente de risco descrito já.",
-   "Indicar internação hospitalar imediata para todos os pacientes com quadro gripal e condição de risco."
+   "Oseltamivir, pela condição de risco",
+   "Apenas sintomáticos, por ser quadro leve",
+   "Aguardar o teste rápido antes de tratar",
+   "Antibiótico para prevenir pneumonia bacteriana",
+   "Corticoide sistêmico em dose alta"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Protocolo de tratamento de influenza, 2023; IDSA Clinical Practice Guidelines on Seasonal Influenza, revisão 2024",
-  "coment": "O oseltamivir está indicado para todo paciente com síndrome gripal e condição ou fator de risco para complicações — pneumopatia incluindo asma, obesidade, diabetes, cardiopatia, imunossupressão, gestação e puerpério, idade avançada e povos indígenas —, além de todos os casos de síndrome respiratória aguda grave. O tratamento começa o mais cedo possível, idealmente em até quarenta e oito horas, sem aguardar confirmação laboratorial.",
+  "base": "Ministério da Saúde, 2024 — protocolo de tratamento de influenza",
+  "coment": "Síndrome gripal em pessoa com condição de risco — aqui asma e obesidade — tem indicação de oseltamivir independentemente da gravidade, e o benefício é maior quando iniciado nas primeiras 48 horas. O tratamento não deve esperar confirmação laboratorial: o teste negativo não afasta influenza e a demora anula o efeito.",
   "porAlt": [
-   "Correta: oseltamivir precoce, indicado pelas condições de risco para complicação da influenza.",
-   "O antiviral tem indicação clara em pacientes com fatores de risco, como neste caso descrito.",
-   "O antibiótico não trata influenza e só entra quando há suspeita de infecção bacteriana associada.",
-   "Aguardar o teste atrasa o antiviral, cujo benefício depende do início precoce do tratamento.",
-   "A internação depende da gravidade clínica, e não apenas da presença de fator de risco isolado."
+   "Correta: condição de risco indica antiviral, iniciado precocemente.",
+   "Ser leve não dispensa o antiviral em quem tem fator de risco.",
+   "Esperar o teste desperdiça a janela de 48 horas.",
+   "Não há indicação de antibiótico profilático.",
+   "O corticoide sistêmico não trata influenza e pode piorar o desfecho."
   ]
  },
  {
@@ -18408,51 +18408,51 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com HIV em tratamento apresenta carga viral indetectável há dois anos e pergunta sobre transmissão sexual. Qual é a orientação?",
+  "q": "Homem de 38 anos com HIV em uso regular de dolutegravir com tenofovir e lamivudina há três anos mantém carga viral indetectável nas últimas quatro medidas e CD4 de 720 células/mm³. Tem parceira soronegativa estável e pergunta sobre o risco de transmissão sexual sem preservativo. Nega outras infecções sexualmente transmissíveis e a adesão é confirmada pela farmácia. Qual é a orientação?",
   "alts": [
-   "A transmissão sexual permanece igualmente provável mesmo com carga viral indetectável sustentada por anos neste caso.",
-   "A carga viral indetectável autoriza a suspensão do antirretroviral sem qualquer risco de rebote virológico neste caso.",
-   "A transmissão só é evitada com abstinência sexual completa, mesmo com carga viral indetectável sustentada neste caso.",
-   "A indetectabilidade elimina a necessidade de qualquer acompanhamento clínico ou laboratorial posterior neste caso.",
-   "Carga viral indetectável sustentada torna a transmissão sexual intransmissível, mantendo sempre a adesão ao tratamento."
+   "Carga indetectável significa intransmissível por via sexual",
+   "O risco é reduzido, mas permanece significativo",
+   "A indetecção não altera o risco de transmissão",
+   "Só é seguro se o CD4 estiver acima de 1.000",
+   "É preciso suspender o antirretroviral para avaliar"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; estudos PARTNER e HPTN 052",
-  "coment": "O conceito indetectável igual a intransmissível está estabelecido por grandes estudos: pessoas com HIV em tratamento e carga viral indetectável sustentada por pelo menos seis meses não transmitem o vírus por via sexual. Isso não dispensa a adesão contínua, o acompanhamento com carga viral periódica, nem a prevenção de outras infecções sexualmente transmissíveis, que seguem sendo transmitidas independentemente da carga viral do HIV.",
+  "base": "Ministério da Saúde, 2024 e estudo PARTNER — indetectável igual a intransmissível",
+  "coment": "O conceito de indetectável igual a intransmissível está consolidado pelos estudos PARTNER e Opposites Attract, que não registraram nenhuma transmissão ligada ao parceiro com carga viral suprimida — mesmo em milhares de relações sem preservativo. A condição é supressão sustentada por pelo menos seis meses com boa adesão. O preservativo segue recomendado para outras infecções.",
   "porAlt": [
-   "Grandes estudos demonstraram ausência de transmissão sexual com carga viral indetectável sustentada.",
-   "Suspender o antirretroviral leva a rebote virológico e retorno do risco de transmissão em semanas.",
-   "A abstinência não é necessária, pois a indetectabilidade sustentada já impede a transmissão sexual.",
-   "O acompanhamento clínico e a carga viral periódica seguem sendo necessários indefinidamente.",
-   "Correta: indetectável sustentado significa intransmissível por via sexual, com adesão mantida."
+   "Correta: supressão sustentada elimina o risco de transmissão sexual.",
+   "Os estudos não encontraram risco residual mensurável.",
+   "A carga viral é justamente o determinante da transmissão.",
+   "O CD4 não é o determinante da transmissibilidade.",
+   "Suspender o antirretroviral é conduta errada e perigosa."
   ]
  },
  {
-  "q": "Paciente com abscesso cutâneo de 4 cm flutuante, sem sinais sistêmicos. Qual é a conduta?",
+  "q": "Homem de 29 anos, hígido, apresenta lesão em face lateral da coxa há cinco dias, com dor local progressiva. Ao exame, há nódulo eritematoso de 4 cm, quente, doloroso e com flutuação central evidente, sem linfangite ou crepitação. Está afebril, com pressão de 124/78 mmHg, frequência de 78 bpm e sem comorbidades. O eritema circunjacente é de 1 cm além da coleção e não há imunossupressão. Qual é a conduta?",
   "alts": [
-   "Apenas antibiótico oral sem qualquer drenagem do abscesso flutuante identificado ao exame físico agora.",
-   "Apenas compressa morna domiciliar por trinta dias como tratamento definitivo do abscesso descrito agora já.",
-   "Antibiótico endovenoso em ambiente hospitalar para todos os pacientes com abscesso cutâneo flutuante.",
-   "Corticoide sistêmico em dose alta como tratamento de escolha para o abscesso cutâneo flutuante descrito.",
-   "Drenagem cirúrgica do abscesso, considerando sempre antibiótico associado conforme o tamanho e o contexto."
+   "Drenagem cirúrgica da coleção",
+   "Antibiótico oral isolado por sete dias",
+   "Compressas mornas e reavaliação em 48 horas",
+   "Antibiótico intravenoso e internação",
+   "Punção aspirativa com agulha fina"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "IDSA Practice Guidelines for Skin and Soft Tissue Infections, revisão 2023",
-  "coment": "O tratamento do abscesso cutâneo é a drenagem, que é a intervenção essencial. Antibiótico sistêmico é acrescentado em abscessos maiores que dois centímetros, múltiplos, com celulite extensa associada, em imunossuprimidos, em áreas de difícil drenagem e diante de sinais sistêmicos, cobrindo Staphylococcus aureus incluindo cepas resistentes conforme a epidemiologia local. Antibiótico sem drenagem falha porque não penetra adequadamente na coleção.",
+  "base": "IDSA 2014 — infecções de pele e partes moles: abscesso cutâneo",
+  "coment": "Abscesso cutâneo flutuante tem como tratamento principal a incisão e drenagem — antibiótico não penetra coleção formada. Em abscesso não complicado, sem sinais sistêmicos, imunossupressão ou celulite extensa, a drenagem isolada é suficiente; o antibiótico se associa quando há esses fatores ou múltiplas lesões.",
   "porAlt": [
-   "O antibiótico isolado penetra mal na coleção e falha sem a drenagem da cavidade abscedada.",
-   "Compressas mornas por trinta dias permitem progressão local e disseminação da infecção.",
-   "O tratamento endovenoso hospitalar é desproporcional para abscesso sem sinais sistêmicos.",
-   "O corticoide não trata a infecção e favorece a disseminação do processo infeccioso local.",
-   "Correta: drenagem do abscesso, com antibiótico associado conforme o tamanho e o contexto clínico."
+   "Correta: a drenagem é o tratamento, e basta no não complicado.",
+   "Antibiótico sem drenar não resolve coleção formada.",
+   "Compressas apenas atrasam o tratamento definitivo.",
+   "Não há critério de gravidade para internação.",
+   "A punção com agulha fina não drena adequadamente."
   ]
  },
  {
@@ -18480,75 +18480,75 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com suspeita de sepse de foco urinário e cultura mostrando bactéria multirresistente. Qual princípio orienta o ajuste?",
+  "q": "Mulher de 74 anos, institucionalizada e com sonda vesical de demora, é internada com febre de 39 °C, confusão e dor em flanco. Está com pressão de 88/56 mmHg, frequência de 116 bpm e lactato de 3,2 mmol/L. Iniciou piperacilina-tazobactam empírica. No segundo dia a urocultura mostra Klebsiella pneumoniae produtora de carbapenemase, sensível apenas a ceftazidima-avibactam e polimixina B, com resistência ao esquema em uso. Qual é a conduta?",
   "alts": [
-   "Manter o esquema empírico de amplo espectro por tempo indefinido, mesmo após o resultado da cultura.",
-   "Descalonar ou ajustar conforme o antibiograma, mantendo sempre a menor duração eficaz do tratamento.",
-   "Associar sempre quatro antibióticos diferentes em todos os casos de bactéria multirresistente identificada.",
-   "Suspender toda antibioticoterapia assim que houver melhora clínica nas primeiras vinte e quatro horas.",
-   "Escolher o antibiótico apenas pelo custo, sem qualquer consideração sobre o perfil de sensibilidade."
+   "Trocar para ceftazidima-avibactam e remover a sonda",
+   "Manter piperacilina-tazobactam em dose otimizada",
+   "Associar amicacina ao esquema empírico atual",
+   "Trocar para meropeném em infusão prolongada",
+   "Aguardar novo antibiograma antes de mudar"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA Guidance on Antimicrobial-Resistant Gram-Negative Infections, atualização 2024; ANVISA — programas de gerenciamento de antimicrobianos, 2023",
-  "coment": "O gerenciamento de antimicrobianos orienta iniciar cobertura empírica adequada e, com o resultado da cultura, descalonar para o agente de menor espectro eficaz, ajustar dose pela função renal e pelo sítio, e definir a menor duração com evidência. Reduzir espectro e duração diminui resistência, toxicidade, custo e infecção por Clostridioides difficile, sem prejuízo de desfecho quando a fonte está controlada e a resposta clínica é adequada.",
+  "base": "IDSA 2023 — tratamento de infecções por bactérias resistentes: enterobactérias produtoras de carbapenemase",
+  "coment": "Com sepse de foco urinário por enterobactéria produtora de carbapenemase, o tratamento deve seguir o antibiograma: ceftazidima-avibactam é preferível à polimixina por melhor eficácia e menor nefrotoxicidade. Tão importante quanto o antimicrobiano é o controle do foco — a sonda de demora colonizada deve ser removida ou trocada.",
   "porAlt": [
-   "Manter amplo espectro indefinidamente seleciona resistência e aumenta toxicidade e custo.",
-   "Correta: descalonar ou ajustar pelo antibiograma, mantendo a menor duração eficaz do tratamento.",
-   "Associar quatro antibióticos amplia toxicidade e interações sem benefício demonstrado.",
-   "Suspender em vinte e quatro horas subtrata a infecção e favorece recidiva com resistência.",
-   "Escolher apenas pelo custo, ignorando a sensibilidade, resulta em falha terapêutica previsível."
+   "Correta: seguir o antibiograma e remover o dispositivo colonizado.",
+   "Manter um fármaco ao qual a cepa é resistente é manter o paciente sem tratamento.",
+   "O aminoglicosídeo isolado não resgata um esquema ineficaz.",
+   "A cepa produz carbapenemase: o meropeném não funciona.",
+   "Esperar novo antibiograma com sepse em curso é adiar o necessário."
   ]
  },
  {
-  "q": "Paciente com mordedura de cão em membro superior, ferimento profundo, em área endêmica de raiva. Qual é a conduta?",
+  "q": "Homem de 45 anos é mordido por cão desconhecido em antebraço direito há duas horas, com ferimento profundo e lacerante. O animal fugiu e não pode ser observado. A região tem circulação comprovada de raiva em morcegos e casos caninos notificados no último ano. O paciente nunca foi vacinado contra raiva. O ferimento foi lavado com água e sabão. Está afebril, com pressão de 126/78 mmHg. Qual é a conduta profilática para raiva?",
   "alts": [
-   "Lavar o ferimento, avaliar profilaxia antirrábica e antitetânica e observar sempre o animal quando possível.",
-   "Suturar imediatamente o ferimento e liberar sem qualquer avaliação de profilaxia antirrábica indicada agora.",
-   "Aplicar apenas antibiótico tópico e liberar sem qualquer avaliação da situação vacinal do paciente agora.",
-   "Indicar soro antirrábico para todos os casos de mordedura, independentemente de qualquer avaliação clínica.",
-   "Aguardar o aparecimento de sintomas neurológicos antes de qualquer profilaxia antirrábica no paciente agora."
+   "Soro antirrábico infiltrado na lesão e esquema vacinal completo",
+   "Apenas esquema vacinal, sem soro",
+   "Observar o animal por dez dias antes de decidir",
+   "Apenas lavagem e antibiótico profilático",
+   "Soro antirrábico isolado, sem vacina"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Nota Técnica sobre profilaxia da raiva humana, 2022; Guia de Vigilância em Saúde, 2024",
-  "coment": "O manejo da mordedura combina lavagem abundante com água e sabão, avaliação de profilaxia antirrábica conforme a gravidade da exposição e a possibilidade de observar o animal por dez dias, profilaxia antitetânica conforme a situação vacinal e consideração de antibiótico, geralmente amoxicilina com clavulanato, em ferimentos profundos, em mãos e face e em imunossuprimidos. O esquema antirrábico varia entre observação, vacina isolada e vacina com soro.",
+  "base": "Ministério da Saúde, 2022 — Nota Técnica de profilaxia antirrábica humana",
+  "coment": "Ferimento profundo e lacerante por animal não passível de observação, em área com circulação viral, configura acidente grave: indica-se soro antirrábico com infiltração no fundo e nas paredes da lesão, mais esquema vacinal completo. A observação do animal por dez dias só se aplica quando o cão pode ser observado — o que não é o caso.",
   "porAlt": [
-   "Correta: lavar o ferimento, avaliar profilaxia antirrábica e antitetânica e observar o animal se possível.",
-   "Suturar sem avaliação aumenta infecção e ignora a necessidade de profilaxia antirrábica indicada.",
-   "Antibiótico tópico isolado não previne raiva nem tétano e é insuficiente em ferimento profundo.",
-   "O soro não é indicado em todos os casos: o esquema depende da gravidade e do animal envolvido.",
-   "A raiva é praticamente sempre fatal quando sintomática; a profilaxia deve ser feita antes disso."
+   "Correta: acidente grave com animal não observável exige soro e vacina.",
+   "A vacina isolada não protege no intervalo até a resposta imune.",
+   "Não há animal para observar: ele fugiu.",
+   "A lavagem e o antibiótico não previnem a raiva.",
+   "O soro isolado não confere proteção duradoura."
   ]
  },
  {
-  "q": "Paciente imunossuprimido apresenta febre e infiltrado pulmonar com nódulos e sinal do halo na tomografia. Qual é a suspeita?",
+  "q": "Homem de 52 anos, no vigésimo dia após transplante de medula óssea alogênico, com neutropenia prolongada, apresenta febre persistente há cinco dias apesar de antibiótico de amplo espectro. Refere dor torácica pleurítica e tosse seca. Está com temperatura de 38,6 °C, frequência respiratória de 24 irpm e saturação de 93%. A tomografia de tórax mostra múltiplos nódulos com halo de vidro fosco ao redor e um deles com sinal do crescente aéreo. Qual é a hipótese e a conduta?",
   "alts": [
-   "Pneumonia pneumocócica típica, definida por nódulos com sinal do halo em paciente imunossuprimido febril agora.",
-   "Aspergilose pulmonar invasiva, cuja suspeita exige sempre início precoce de antifúngico e investigação dirigida.",
-   "Tuberculose pulmonar cavitária clássica, caracterizada por nódulos múltiplos com sinal do halo na tomografia.",
-   "Edema pulmonar cardiogênico agudo, definido por nódulos pulmonares com sinal do halo à tomografia de tórax.",
-   "Sarcoidose pulmonar em atividade, quadro definido por febre com nódulos e sinal do halo em imunossuprimido."
+   "Aspergilose invasiva: voriconazol e galactomanana",
+   "Pneumonia bacteriana: ampliar o espectro antibacteriano",
+   "Tuberculose pulmonar: iniciar esquema RIPE",
+   "Pneumocistose: sulfametoxazol-trimetoprima em dose alta",
+   "Embolia pulmonar séptica: anticoagulação plena"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "IDSA Practice Guidelines for the Diagnosis and Management of Aspergillosis, revisão 2023; ECIL guidelines, 2023",
-  "coment": "O sinal do halo — nódulo com halo de vidro fosco ao redor, correspondente a hemorragia perilesional — em paciente neutropênico ou imunossuprimido é altamente sugestivo de aspergilose pulmonar invasiva, sobretudo em fase precoce. A investigação inclui galactomanana sérica e em lavado broncoalveolar, cultura e tomografia seriada. O tratamento com voriconazol ou isavuconazol deve começar precocemente, pois o atraso aumenta muito a mortalidade.",
+  "base": "IDSA 2016 — aspergilose invasiva: diagnóstico e tratamento",
+  "coment": "Nódulos com sinal do halo em neutropênico prolongado com febre refratária a antibacterianos são característicos de aspergilose pulmonar invasiva; o sinal do crescente aéreo aparece mais tarde, na recuperação dos neutrófilos. O tratamento de escolha é voriconazol, e a galactomanana sérica e do lavado broncoalveolar apoia o diagnóstico.",
   "porAlt": [
-   "A pneumonia pneumocócica cursa com consolidação lobar, e não com nódulos e sinal do halo.",
-   "Correta: aspergilose pulmonar invasiva, com antifúngico precoce e investigação dirigida imediata.",
-   "A tuberculose cursa com cavitação e infiltrado apical, sem o sinal do halo característico descrito.",
-   "O edema cardiogênico cursa com congestão difusa e derrame, e não com nódulos e halo.",
-   "A sarcoidose cursa com adenomegalia hilar e nódulos peribroncovasculares, sem esse padrão agudo."
+   "Correta: achados tomográficos típicos em hospedeiro de risco.",
+   "A febre já é refratária ao antibacteriano de amplo espectro.",
+   "A tuberculose não produz sinal do halo nesse contexto.",
+   "A pneumocistose cursa com infiltrado intersticial difuso, não nódulos com halo.",
+   "Não há dado de foco embólico séptico nem trombose."
   ]
  },
  {
@@ -18576,75 +18576,75 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com febre e petéquias de instalação rápida, com sinais de choque. Qual é a conduta imediata?",
+  "q": "Homem de 19 anos, universitário morador de alojamento, é trazido com febre de 39,5 °C iniciada há oito horas, cefaleia intensa e vômitos. Evoluiu rapidamente com sonolência e surgimento de petéquias em tronco e membros, algumas confluindo em equimoses. Está com pressão de 78/44 mmHg, frequência de 132 bpm, tempo de enchimento capilar de 5 segundos e rigidez de nuca. A glicemia é de 118 mg/dL. Qual é a conduta imediata?",
   "alts": [
-   "Antibiótico endovenoso imediato com suporte, pois a suspeita de meningococcemia exige sempre tratamento sem demora.",
-   "Aguardar a punção lombar e o resultado do líquor antes de qualquer administração de antibiótico ao paciente agora.",
-   "Prescrever apenas antitérmico e observar clinicamente por doze horas antes de qualquer conduta adicional agora.",
-   "Iniciar apenas corticoide sistêmico em dose alta, sem qualquer antibiótico no paciente com petéquias e choque.",
-   "Solicitar hemograma e aguardar o resultado antes de iniciar qualquer antibiótico no paciente com choque agora."
+   "Antibiótico imediato e ressuscitação volêmica",
+   "Punção lombar antes de qualquer antibiótico",
+   "Tomografia de crânio antes do antibiótico",
+   "Corticoide isolado antes do antibiótico",
+   "Isolamento respiratório e observação clínica"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de doença meningocócica; IDSA/ESCMID guidance, revisão 2023",
-  "coment": "Febre com petéquias ou púrpura de instalação rápida e sinais de choque sugere meningococcemia, cuja letalidade é alta e a evolução é medida em horas. O antibiótico endovenoso — ceftriaxona — deve ser administrado imediatamente, sem aguardar punção lombar ou exames, junto de ressuscitação volêmica e suporte hemodinâmico. A doença é de notificação compulsória imediata e exige quimioprofilaxia dos contatos próximos com rifampicina ou ceftriaxona.",
+  "base": "IDSA 2004 e Ministério da Saúde — doença meningocócica",
+  "coment": "Febre com petéquias de instalação rápida e choque é meningococcemia até prova em contrário, e a mortalidade sobe a cada hora sem antibiótico. A conduta é ceftriaxona imediata com ressuscitação volêmica e vasopressor — hemoculturas são colhidas se não atrasarem, e a punção lombar fica para depois da estabilização, sobretudo com instabilidade hemodinâmica.",
   "porAlt": [
-   "Correta: antibiótico endovenoso imediato com suporte, pela suspeita de doença meningocócica invasiva.",
-   "Aguardar a punção lombar atrasa em horas um antibiótico que define a sobrevida do paciente.",
-   "Observar por doze horas nesse quadro permite evolução para choque refratário e óbito.",
-   "O corticoide é adjuvante em situações específicas e nunca substitui o antibiótico nessa doença.",
-   "Aguardar o hemograma atrasa o tratamento de uma emergência infecciosa de evolução muito rápida."
+   "Correta: o antibiótico não espera procedimento nenhum.",
+   "A punção em paciente em choque atrasa o tratamento e é arriscada.",
+   "A imagem não deve atrasar o antibiótico.",
+   "A dexametasona se associa ao antibiótico, não o substitui.",
+   "Observar meningococcemia é aceitar mortalidade evitável."
   ]
  },
  {
-  "q": "Paciente será submetido a esplenectomia eletiva. Qual é a conduta preventiva?",
+  "q": "Mulher de 36 anos será submetida a esplenectomia eletiva por esferocitose hereditária, programada para daqui a quatro semanas. Está assintomática, com hemoglobina de 10,2 g/dL, sem uso de imunossupressor e com caderneta vacinal em dia para a idade, exceto por vacinas específicas para asplenia. A cirurgia é eletiva e há tempo hábil para preparo. Qual é a conduta preventiva?",
   "alts": [
-   "Não realizar qualquer vacinação, pois a esplenectomia não aumenta o risco de infecção grave no paciente agora.",
-   "Vacinar apenas após um ano da cirurgia, pois a vacinação prévia não confere qualquer proteção adicional agora.",
-   "Prescrever apenas antibiótico profilático contínuo, dispensando qualquer imunização antes do procedimento.",
-   "Vacinar apenas contra influenza, única vacina indicada para pacientes submetidos a esplenectomia eletiva.",
-   "Vacinar contra germes encapsulados antes da cirurgia, orientando sempre conduta diante de febre no seguimento."
+   "Vacinar contra pneumococo, meningococo e Haemophilus antes da cirurgia",
+   "Vacinar apenas depois da cirurgia, quando houver cicatrização",
+   "Antibiótico profilático contínuo, dispensando vacinas",
+   "Apenas vacina pneumocócica, por ser o agente mais comum",
+   "Nenhuma medida, por ser cirurgia eletiva em jovem"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual dos Centros de Referência para Imunobiológicos Especiais, 2023; IDSA guidance on asplenia, revisão 2023",
-  "coment": "O paciente asplênico tem risco elevado de sepse fulminante por germes encapsulados, sobretudo pneumococo, meningococo e Haemophilus influenzae tipo b. Na esplenectomia eletiva, as vacinas devem ser aplicadas pelo menos duas semanas antes do procedimento, com reforços conforme o calendário do centro de imunobiológicos especiais. Orienta-se ainda vacinação anual contra influenza, conduta imediata diante de febre e, em grupos selecionados, antibiótico profilático.",
+  "base": "Ministério da Saúde, 2023 — Manual dos CRIE: imunização em asplenia",
+  "coment": "O asplênico tem risco elevado de sepse fulminante por germes encapsulados. Em esplenectomia eletiva as vacinas contra pneumococo, meningococo e Haemophilus influenzae tipo b devem ser aplicadas idealmente pelo menos duas semanas antes do procedimento, quando a resposta imune é melhor. Somam-se influenza anual, orientação de febre como urgência e antibiótico de emergência em domicílio.",
   "porAlt": [
-   "A asplenia aumenta muito o risco de sepse fulminante por bactérias encapsuladas no paciente.",
-   "Adiar a vacinação por um ano deixa o paciente desprotegido no período de maior vulnerabilidade.",
-   "O antibiótico profilático é complementar em grupos selecionados e não substitui a imunização.",
-   "Além da influenza, são indicadas vacinas contra pneumococo, meningococo e Haemophilus tipo b.",
-   "Correta: vacinar contra germes encapsulados antes da cirurgia e orientar conduta diante de febre."
+   "Correta: os três agentes encapsulados, antes da cirurgia.",
+   "Vacinar depois produz resposta imune inferior.",
+   "O antibiótico é complementar, não substitui as vacinas.",
+   "Meningococo e Haemophilus também causam sepse no asplênico.",
+   "Justamente o esplenectomizado precisa de preparo."
   ]
  },
  {
-  "q": "Paciente com diarreia aguda aquosa sem febre e sem sangue, há dois dias, sem sinais de desidratação grave. Qual é a conduta?",
+  "q": "Homem de 27 anos, sem comorbidades, apresenta diarreia aquosa há dois dias, com cerca de cinco evacuações por dia, sem sangue, muco ou febre. Refere cólicas leves e náuseas. Está com pressão de 122/76 mmHg, frequência de 82 bpm, mucosas úmidas, turgor preservado e diurese normal. Não viajou recentemente, não usou antibiótico e não há relato de surto. O abdome é flácido, doloroso à palpação profunda difusa. Qual é a conduta?",
   "alts": [
-   "Antibiótico de amplo espectro para todos os pacientes com diarreia aguda atendidos no serviço de saúde.",
-   "Solicitar coprocultura de rotina em todos os casos de diarreia aguda aquosa sem febre e sem sangue agora já.",
-   "Hidratação oral e orientação alimentar, reservando sempre o antibiótico a situações específicas e definidas.",
-   "Prescrever antiparasitário empírico em todos os casos de diarreia aguda com duração de dois dias agora.",
-   "Indicar internação hospitalar para hidratação endovenosa em todos os casos de diarreia aguda aquosa agora."
+   "Hidratação oral e sintomáticos",
+   "Ciprofloxacino oral por cinco dias",
+   "Coprocultura antes de qualquer conduta",
+   "Internação para hidratação intravenosa",
+   "Loperamida em dose alta como medida isolada"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea, revisão 2023; Ministério da Saúde — manejo da diarreia aguda, 2022",
-  "coment": "A diarreia aguda aquosa sem febre e sem sangue é geralmente viral e autolimitada, e o tratamento é hidratação oral com solução de reidratação, manutenção da alimentação e orientação sobre sinais de alarme. Antibiótico se reserva a disenteria com febre alta, suspeita de cólera, diarreia do viajante moderada a grave, imunossupressão e sepse. Coprocultura é indicada em disenteria, febre, imunossupressão, quadro prolongado ou surto sob investigação.",
+  "base": "IDSA 2017 — diarreia infecciosa: diagnóstico e tratamento",
+  "coment": "Diarreia aguda aquosa, sem febre, sem sangue e sem sinais de desidratação, em imunocompetente, é autolimitada e o tratamento é reidratação oral com sintomáticos. Antibiótico não encurta o quadro viral, seleciona resistência e, na suspeita de Escherichia coli produtora de toxina Shiga, aumenta o risco de síndrome hemolítico-urêmica. Coprocultura fica para disenteria, febre alta, imunossupressão ou quadro prolongado.",
   "porAlt": [
-   "O antibiótico universal é desnecessário, seleciona resistência e pode prolongar o estado de portador.",
-   "A coprocultura de rotina tem baixo rendimento na diarreia aquosa autolimitada sem sinais de alarme.",
-   "Correta: hidratação oral e orientação alimentar, com antibiótico restrito a situações específicas.",
-   "O antiparasitário empírico não é indicado em diarreia aguda de dois dias sem fatores de risco.",
-   "A internação se reserva à desidratação grave ou à intolerância à hidratação por via oral."
+   "Correta: quadro autolimitado tratado com reidratação.",
+   "O antibiótico não está indicado na diarreia aquosa sem sinais de gravidade.",
+   "A coprocultura não muda a conduta nesse quadro.",
+   "Não há desidratação que justifique internação.",
+   "A loperamida isolada não é a base do tratamento e se evita em disenteria."
   ]
  },
  {
