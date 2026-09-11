@@ -192,75 +192,75 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 61 anos internado em UTI com choque séptico por pneumonia recebeu a dose de ataque de piperacilina-tazobactam. A equipe discute como programar as doses de manutenção nas próximas 48 horas. Considerando a diretriz de sepse vigente, qual estratégia é recomendada?",
+  "q": "Homem de 61 anos, 80 kg, está na terapia intensiva com choque séptico por pneumonia comunitária. Recebeu dose de ataque de vancomicina e mantém noradrenalina 0,2 mcg/kg/min após ressuscitação volêmica adequada. A creatinina é de 2,2 mg/dL, com taxa de filtração glomerular estimada de 32 mL/min/1,73 m², e o débito urinário é de 0,6 mL/kg/h. O vale de vancomicina colhido antes da terceira dose está em 24 mcg/mL. O agente é Staphylococcus aureus sensível à oxacilina. Qual é a conduta?",
   "alts": [
-   "Fazer a manutenção do betalactâmico em infusão prolongada, depois da dose de ataque já administrada.",
-   "Manter todas as doses em bolus rápido de trinta minutos, esquema que apresenta a melhor evidência.",
-   "Espaçar as doses para uma vez ao dia, aproveitando o efeito pós-antibiótico próprio dos betalactâmicos.",
-   "Trocar por um aminoglicosídeo em dose única diária, cuja ação depende do pico sérico alcançado.",
-   "Suspender o antimicrobiano por 24 horas para colher novas culturas em vigência de janela terapêutica."
+   "Trocar por oxacilina, que é superior na cepa sensível",
+   "Manter vancomicina e reduzir a dose pelo vale",
+   "Associar oxacilina à vancomicina",
+   "Trocar por daptomicina em dose alta",
+   "Suspender o antimicrobiano e reavaliar culturas"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Surviving Sepsis Campaign 2026 — recomendação de infusão prolongada de betalactâmicos na manutenção",
-  "coment": "Entre as novidades da diretriz de 2026 está a recomendação, e não mais apenas sugestão, de usar infusão prolongada de betalactâmicos na manutenção, após o bolus inicial, em vez da infusão convencional. O racional é farmacodinâmico: a eficácia dos betalactâmicos depende do tempo em que a concentração livre permanece acima da concentração inibitória mínima, e a infusão estendida amplia esse intervalo, sobretudo em patógenos com CIM elevada e em pacientes com volume de distribuição aumentado. A dose de ataque continua sendo em bolus, para atingir depressa a concentração-alvo. Suspender antimicrobiano em choque séptico para colher cultura é conduta perigosa.",
+  "base": "Surviving Sepsis Campaign 2021/2026 e IDSA — descalonamento em S. aureus sensível",
+  "coment": "Em bacteremia por Staphylococcus aureus sensível à oxacilina, o betalactâmico antiestafilocócico é superior à vancomicina em mortalidade e tempo de clareamento da bacteremia. O descalonamento é obrigatório assim que o antibiograma chega — manter vancomicina por comodidade é erro com consequência mensurável, e aqui ela ainda está acumulando com a função renal em queda.",
   "porAlt": [
-   "Correta: a diretriz de 2026 recomenda infusão prolongada dos betalactâmicos na manutenção, mantendo o bolus apenas para a dose de ataque.",
-   "O bolus convencional na manutenção deixa vales abaixo da concentração inibitória mínima, justamente o que a infusão estendida vem corrigir.",
-   "Betalactâmicos praticamente não têm efeito pós-antibiótico contra bacilos gram-negativos, de modo que espaçar as doses reduz a eficácia.",
-   "O aminoglicosídeo tem morte bacteriana dependente de pico, mas não substitui o betalactâmico como terapia principal na pneumonia grave.",
-   "Suspender o antimicrobiano em vigência de choque séptico para colher cultura aumenta mortalidade e não tem respaldo em nenhuma diretriz."
+   "Correta: descalonar para betalactâmico é superior na cepa sensível.",
+   "Ajustar a dose mantém um fármaco inferior para essa cepa.",
+   "Associar não traz benefício e soma nefrotoxicidade.",
+   "A daptomicina é alternativa na resistência ou intolerância.",
+   "Suspender antimicrobiano em choque séptico com agente isolado não é opção."
   ]
  },
  {
-  "q": "Mulher de 45 anos com sepse abdominal recebeu 30 mL/kg de cristaloide nas primeiras três horas. Está com pressão arterial média de 68 mmHg sem vasopressor, perfusão periférica adequada e diurese preservada, mas o lactato permanece em 3,2 mmol/L, com valor anterior de 4,0. Qual é a conduta correta quanto à reposição volêmica?",
+  "q": "Mulher de 45 anos com sepse abdominal por diverticulite perfurada recebeu 30 mL/kg de cristaloide nas primeiras três horas e antibiótico adequado. Mantém pressão arterial média de 58 mmHg, frequência de 122 bpm, lactato de 4,4 mmol/L e débito urinário de 0,3 mL/kg/h. A variação de pressão de pulso é de 8% e o ecocardiograma à beira do leito mostra ventrículo esquerdo hipercontrátil com veia cava inferior pouco distensível. Qual é a conduta?",
   "alts": [
-   "Infundir cristaloide em bolus repetidos até que o lactato sérico fique abaixo de 2,0 mmol/L no exame.",
-   "Trocar todo o cristaloide restante por albumina a 20%, que corrige o lactato de forma mais rápida.",
-   "Iniciar transfusão de concentrado de hemácias para melhorar o transporte de oxigênio e o lactato.",
-   "Suspender qualquer reavaliação do lactato, já que o exame não guia a ressuscitação da sepse hoje.",
-   "Individualizar a reposição após o bolus inicial, sem infundir volume apenas para baixar o lactato."
+   "Iniciar noradrenalina para alvo de pressão média de 65",
+   "Nova expansão com 30 mL/kg de cristaloide",
+   "Iniciar dobutamina pela taquicardia",
+   "Transfundir para hemoglobina acima de 10 g/dL",
+   "Aguardar mais duas horas antes de intervir"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "tit",
-  "base": "Surviving Sepsis Campaign 2026 — lactato seriado e individualização da fluidoterapia após o bolus inicial",
-  "coment": "A diretriz de 2026 sugere medidas seriadas de lactato para guiar a ressuscitação, mas foi explícita ao separar duas coisas que costumavam ser confundidas: acompanhar a tendência do lactato não significa infundir volume até que ele normalize. Depois do bolus inicial, a administração de fluidos deve ser individualizada, guiada por resposta hemodinâmica e por marcadores de perfusão, porque a hiperidratação piora desfechos. A paciente está com pressão adequada sem vasopressor, perfusão satisfatória e lactato em queda: a tendência já é favorável e o excesso de volume traria edema pulmonar, edema intestinal e disfunção renal.",
+  "base": "Surviving Sepsis Campaign 2021/2026 — vasopressor e alvos de perfusão",
+  "coment": "A variação de pressão de pulso de 8% e a cava pouco distensível indicam que a paciente não é mais responsiva a volume, e o ventrículo hipercontrátil descarta disfunção sistólica. Persistindo hipotensa após a ressuscitação inicial, o passo é vasopressor — noradrenalina, com alvo de pressão arterial média de 65 mmHg. Em paralelo, o controle do foco cirúrgico é prioridade.",
   "porAlt": [
-   "Perseguir lactato abaixo de 2,0 mmol/L com bolus repetidos leva a sobrecarga hídrica, com piora de troca gasosa e de função renal.",
-   "A albumina é alternativa em pacientes que já receberam grande volume de cristaloide, e não um agente que corrija o lactato mais depressa.",
-   "Transfundir sem anemia significativa não melhora a perfusão tecidual e expõe a paciente aos riscos próprios da transfusão sanguínea.",
-   "O lactato seriado continua sugerido como ferramenta de acompanhamento; o que a diretriz nega é usá-lo como meta de infusão de volume.",
-   "Correta: após o bolus inicial a fluidoterapia é individualizada, e a diretriz desaconselha infundir volume apenas para normalizar o lactato."
+   "Correta: sem responsividade a volume, o passo é vasopressor.",
+   "Mais volume em quem não responde só causa congestão.",
+   "O inotrópico não se justifica com ventrículo hipercontrátil.",
+   "O alvo transfusional de 10 g/dL foi abandonado na sepse.",
+   "Esperar com lactato de 4,4 mmol/L e oligúria é adiar o necessário."
   ]
  },
  {
-  "q": "Homem de 58 anos com choque séptico iniciou meropeném associado a vancomicina empiricamente. No terceiro dia, está estável, sem vasopressor, e a hemocultura identifica Escherichia coli sensível a ceftriaxona. As culturas de vigilância não mostram germe resistente. Qual é a conduta recomendada quanto ao esquema antimicrobiano?",
+  "q": "Homem de 58 anos, internado há dois dias por choque séptico de foco pulmonar, iniciou meropeném com vancomicina empiricamente. No terceiro dia está afebril há 36 horas, sem vasopressor, com melhora do lactato e da função renal. A hemocultura e o aspirado traqueal isolaram Klebsiella pneumoniae sensível a ceftriaxona, sem produção de betalactamase de espectro estendido. A procalcitonina caiu de 18 para 2 ng/mL. Qual é a conduta antimicrobiana?",
   "alts": [
-   "Manter meropeném e vancomicina até completar catorze dias, para não arriscar a recidiva da infecção.",
-   "Acrescentar um aminoglicosídeo ao esquema atual, buscando sinergismo contra o bacilo gram-negativo.",
-   "Suspender de imediato todo antimicrobiano, uma vez que o paciente já se encontra clinicamente estável.",
-   "Descalonar o esquema para ceftriaxona, guiando-se pelo agente isolado e pelo perfil de sensibilidade.",
-   "Trocar a vancomicina por daptomicina e conservar o carbapenêmico até a alta hospitalar do paciente."
+   "Descalonar para ceftriaxona e suspender a vancomicina",
+   "Manter meropeném com vancomicina por 14 dias",
+   "Suspender todos os antimicrobianos agora",
+   "Trocar por polimixina pelo risco de resistência",
+   "Associar amicacina para sinergismo"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign 2026 — recomendação de descalonamento diante de diagnóstico microbiológico confirmado",
-  "coment": "A diretriz de 2026 elevou o descalonamento ao status de recomendação: havendo diagnóstico microbiológico confirmado e perfil de sensibilidade disponível, deve-se estreitar o espectro em vez de manter a cobertura empírica ampla. Isolada Escherichia coli sensível a ceftriaxona, com paciente em melhora e sem evidência de cocos gram-positivos, mantêm-se apenas a droga necessária: retira-se a vancomicina e substitui-se o carbapenêmico. O benefício é duplo, individual e coletivo — menos toxicidade, menos infecção por Clostridioides difficile e menor pressão seletiva para resistência. Descalonar não é o mesmo que interromper o tratamento.",
+  "base": "Surviving Sepsis Campaign 2021/2026 — descalonamento e duração",
+  "coment": "Com agente identificado, sensibilidade conhecida e boa evolução clínica, o descalonamento é obrigatório: estreitar para o espectro mais adequado reduz pressão seletiva, colite por Clostridioides difficile e custo, sem perda de eficácia. A vancomicina sai porque não há Gram-positivo isolado. A duração habitual na pneumonia com boa resposta é de sete dias.",
   "porAlt": [
-   "Manter carbapenêmico e vancomicina sem indicação amplia toxicidade e pressão seletiva, sem reduzir a chance de recidiva da infecção tratada.",
-   "O sinergismo com aminoglicosídeo não traz benefício na bacteriemia por gram-negativo sensível e acrescenta nefrotoxicidade ao tratamento.",
-   "Descalonar não significa suspender: a bacteriemia por Escherichia coli exige completar o tempo de tratamento previsto para o foco encontrado.",
-   "Correta: com germe identificado e sensível, a diretriz recomenda descalonar para o antimicrobiano de menor espectro que cubra o agente isolado.",
-   "A daptomicina não cobriria melhor este caso, e não há razão para manter cobertura para gram-positivos sem germe correspondente isolado."
+   "Correta: descalonar e retirar a cobertura desnecessária.",
+   "Manter carbapenêmico com agente sensível a ceftriaxona é pressão seletiva à toa.",
+   "Suspender no terceiro dia interrompe o tratamento antes da duração adequada.",
+   "Polimixina em cepa sensível não faz sentido e é nefrotóxica.",
+   "O aminoglicosídeo não acrescenta benefício aqui."
   ]
  },
  {
@@ -4992,51 +4992,51 @@ window.BANCO=[
   }
  },
  {
-  "q": "Paciente de 62 anos em ventilação mecânica por síndrome do desconforto respiratório agudo grave, com volume corrente de 6 mL/kg de peso predito, PEEP de 12 cmH2O e pressão de platô de 32 cmH2O. A pressão de distensão está em 20 cmH2O. Qual é o ajuste ventilatório mais adequado?",
+  "q": "Homem de 62 anos está em ventilação mecânica há três dias por síndrome do desconforto respiratório agudo grave secundária a pneumonia. Mantém relação entre pressão parcial de oxigênio e fração inspirada de 85 com FiO₂ de 0,9 e PEEP de 14 cmH₂O, em ventilação protetora com volume de 6 mL/kg de peso predito e pressão de platô de 28 cmH₂O. Está sedado, sem bloqueio neuromuscular, hemodinamicamente estável em noradrenalina baixa. Qual é a conduta?",
   "alts": [
-   "Aumentar o volume corrente para corrigir a hipercapnia observada nesse paciente crítico.",
-   "Manter os parâmetros atuais porque o volume corrente já se encontra na faixa protetora.",
-   "Reduzir o volume corrente e reavaliar a pressão de distensão, que se associa a mortalidade.",
-   "Elevar a PEEP até que a pressão de platô ultrapasse o limite de trinta e cinco cmH2O medidos.",
-   "Aumentar a frequência respiratória para quarenta incursões e reduzir a PEEP até zero cmH2O."
+   "Posição prona por pelo menos 16 horas",
+   "Aumentar o volume corrente para melhorar a oxigenação",
+   "Reduzir a PEEP para diminuir a pressão de platô",
+   "Iniciar óxido nítrico inalatório como terapia de resgate",
+   "Traqueostomia precoce para facilitar o desmame"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ATS/ESICM/SCCM Clinical Practice Guideline on mechanical ventilation in adults with ARDS, 2023; Amato et al., driving pressure and survival in ARDS, 2015",
-  "coment": "A pressão de distensão, obtida pela diferença entre a pressão de platô e a PEEP, é a variável ventilatória que melhor se correlaciona com mortalidade na síndrome do desconforto respiratório agudo, e o alvo é mantê-la abaixo de 15 cmH2O. Com 20 cmH2O, o ajuste é reduzir o volume corrente, mesmo já estando em 6 mL/kg de peso predito, aceitando hipercapnia permissiva enquanto o pH se mantiver acima de 7,20. A pressão de platô deve permanecer abaixo de 30 cmH2O.",
+  "base": "Guérin C, et al. PROSEVA, N Engl J Med 2013 — posição prona na SDRA grave",
+  "coment": "Relação abaixo de 150 apesar de ventilação protetora e PEEP adequada indica posição prona por pelo menos 16 horas por sessão — o ensaio PROSEVA mostrou redução de mortalidade nesse cenário. O bloqueio neuromuscular pode ser associado nas primeiras 48 horas se houver assincronia. O óxido nítrico melhora a oxigenação sem reduzir mortalidade.",
   "porAlt": [
-   "Aumentar o volume corrente eleva a pressão de distensão e agrava a lesão induzida pela ventilação.",
-   "Manter parâmetros ignora a pressão de distensão elevada, que é a variável de maior peso prognóstico.",
-   "Correta: reduzir o volume corrente para diminuir a pressão de distensão, que se associa a mortalidade.",
-   "Elevar a PEEP sem controlar a platô ultrapassa limites seguros e piora a sobredistensão alveolar.",
-   "Frequência muito alta gera autoPEEP e zerar a PEEP provoca colapso alveolar cíclico."
+   "Correta: prona é a medida com redução de mortalidade demonstrada.",
+   "Aumentar o volume corrente abandona a ventilação protetora.",
+   "Reduzir a PEEP piora o colapso alveolar e a oxigenação.",
+   "O óxido nítrico é resgate e não altera mortalidade.",
+   "A traqueostomia não trata a hipoxemia refratária."
   ]
  },
  {
-  "q": "Homem de 55 anos internado em unidade de terapia intensiva por choque séptico de foco abdominal, após ressuscitação volêmica adequada, mantém pressão arterial média de 58 mmHg e lactato em elevação. Qual é a conduta vasopressora inicial recomendada?",
+  "q": "Homem de 55 anos, internado por choque séptico de foco abdominal, está no segundo dia de terapia intensiva. Após ressuscitação adequada e controle cirúrgico do foco, mantém pressão arterial média de 62 mmHg com noradrenalina 0,6 mcg/kg/min, sem responsividade a volume. O lactato é de 3,0 mmol/L, a saturação venosa central de 72% e o ecocardiograma mostra contratilidade preservada. O cortisol basal não foi dosado. Qual é a conduta?",
   "alts": [
-   "Iniciar dopamina em dose alfa por ser a droga com menor risco de arritmia nesse paciente.",
-   "Iniciar noradrenalina, vasopressor de primeira escolha, com alvo de pressão média de 65 mmHg.",
-   "Iniciar dobutamina isolada para melhorar o débito cardíaco antes de qualquer vasopressor.",
-   "Manter apenas cristaloide em infusão contínua até que o lactato retorne ao valor de normalidade.",
-   "Iniciar adrenalina isolada como primeira escolha por sua potência inotrópica e cronotrópica."
+   "Associar vasopressina e considerar hidrocortisona",
+   "Aumentar a noradrenalina sem limite superior",
+   "Iniciar dobutamina pela hipotensão persistente",
+   "Transfundir hemácias para elevar a oferta de oxigênio",
+   "Reexpandir com 30 mL/kg de cristaloide"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Surviving Sepsis Campaign — International Guidelines for Management of Sepsis and Septic Shock, 2021",
-  "coment": "No choque séptico com hipotensão persistente após reposição volêmica inicial, a noradrenalina é o vasopressor de primeira escolha, com alvo inicial de pressão arterial média de 65 mmHg. A vasopressina pode ser associada para reduzir a dose de noradrenalina, e a adrenalina entra como terceira opção. A dobutamina se reserva à disfunção miocárdica com sinais de baixo débito apesar de volume e vasopressor adequados. Insistir apenas em volume gera sobrecarga hídrica, que se associa a pior desfecho.",
+  "base": "Surviving Sepsis Campaign 2021/2026 — vasopressina e corticoide no choque refratário",
+  "coment": "Com dose crescente de noradrenalina, a vasopressina é associada para reduzir a exposição ao catecolaminérgico — e sua introdução é recomendada quando a noradrenalina se aproxima de 0,25 a 0,5 mcg/kg/min. No choque refratário a vasopressor, a hidrocortisona em dose baixa é sugerida, sem necessidade de dosar cortisol. A contratilidade preservada afasta indicação de inotrópico.",
   "porAlt": [
-   "A dopamina associa-se a mais arritmias e foi abandonada como primeira escolha no choque séptico.",
-   "Correta: noradrenalina como vasopressor de primeira linha, com alvo de pressão arterial média de 65 mmHg.",
-   "A dobutamina não corrige a vasoplegia e pode agravar a hipotensão por vasodilatação periférica.",
-   "Insistir apenas em volume causa sobrecarga hídrica, que se associa a maior mortalidade na sepse.",
-   "A adrenalina isolada não é primeira escolha e traz mais arritmia, taquicardia e hiperlactatemia."
+   "Correta: segundo vasopressor e corticoide no choque refratário.",
+   "Escalar catecolamina sem associar aumenta arritmia e isquemia digital.",
+   "Inotrópico com contratilidade preservada não se justifica.",
+   "O alvo transfusional liberal foi abandonado na sepse.",
+   "Ele já não responde a volume."
   ]
  },
  {
@@ -5088,27 +5088,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 60 anos em ventilação mecânica há quatro dias por pneumonia comunitária grave, sedado com midazolam em infusão contínua e sem uso de bloqueador neuromuscular, apresenta melhora da troca gasosa com FiO2 de 35% e PEEP de 5 cmH2O. Qual é a conduta mais adequada?",
+  "q": "Homem de 60 anos está em ventilação mecânica há quatro dias por pneumonia comunitária grave, sedado com midazolam e fentanil em infusão contínua, com escala de Richmond de menos 4. Está hemodinamicamente estável, sem vasopressor, com relação entre pressão parcial de oxigênio e fração inspirada de 240, PEEP de 6 cmH₂O e FiO₂ de 0,4. Não há bloqueio neuromuscular, hipertensão intracraniana ou isquemia miocárdica ativa. Qual é a conduta quanto à sedação?",
   "alts": [
-   "Interromper diariamente a sedação e avaliar o paciente para teste de respiração espontânea.",
-   "Manter sedação profunda até completar sete dias de ventilação por segurança do paciente.",
-   "Trocar o midazolam por propofol mantendo o mesmo nível profundo de sedação contínua dele.",
-   "Realizar traqueostomia precoce antes de qualquer tentativa de desmame ventilatório dele.",
-   "Reduzir a FiO2 para vinte e um por cento antes de considerar o teste de respiração espontânea."
+   "Interrupção diária da sedação com teste de respiração espontânea",
+   "Manter sedação profunda até resolver a pneumonia",
+   "Trocar midazolam por propofol mantendo Richmond menos 4",
+   "Associar bloqueador neuromuscular para sincronia",
+   "Aprofundar a sedação para reduzir o consumo de oxigênio"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "PADIS Guidelines — Clinical Practice Guidelines for the Prevention and Management of Pain, Agitation/Sedation, Delirium, Immobility, and Sleep Disruption in Adult Patients in the ICU, 2018; ATS/CHEST guideline on liberation from mechanical ventilation, 2017",
-  "coment": "A estratégia que reduz tempo de ventilação, de internação e de delirium combina sedação leve com interrupção diária, teste de respiração espontânea sempre que houver critérios e mobilização precoce. O paciente atende aos critérios de triagem para o teste: causa da falência em resolução, oxigenação adequada com FiO2 e PEEP baixas, estabilidade hemodinâmica sem vasopressor em dose alta e capacidade de disparar o ventilador. Sedação profunda prolongada associa-se a mais delirium, fraqueza adquirida e mortalidade.",
+  "base": "SCCM 2018 — diretriz PADIS: sedação leve e interrupção diária",
+  "coment": "Sedação profunda sem indicação prolonga ventilação, aumenta delirium e mortalidade. O pacote recomendado é sedação leve — alvo de Richmond entre menos 2 e zero —, interrupção diária e teste de respiração espontânea nos candidatos, que é exatamente o perfil deste paciente: estável, oxigenando bem e sem contraindicação.",
   "porAlt": [
-   "Correta: interrupção diária da sedação com avaliação para teste de respiração espontânea.",
-   "Manter sedação profunda por tempo fixo prolonga ventilação e aumenta delirium e fraqueza muscular.",
-   "Trocar o hipnótico sem aliviar a profundidade da sedação não traz o benefício da estratégia leve.",
-   "A traqueostomia não é indicada antes de tentar o desmame em paciente com critérios favoráveis.",
-   "Reduzir a fração inspirada ao ar ambiente não é pré-requisito para indicar o teste de respiração."
+   "Correta: sedação leve com interrupção diária e teste de desmame.",
+   "Sedação profunda sem indicação prolonga a ventilação.",
+   "Trocar o fármaco sem mudar o alvo não resolve o problema.",
+   "O bloqueio neuromuscular não está indicado em paciente sincrônico.",
+   "Aprofundar a sedação é o oposto do recomendado."
   ]
  },
  {
@@ -5184,27 +5184,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 45 anos internado em terapia intensiva após parada cardiorrespiratória em fibrilação ventricular, com retorno da circulação espontânea, permanece comatoso e em ventilação mecânica. Qual é a conduta adequada nas primeiras horas?",
+  "q": "Homem de 45 anos está na terapia intensiva após parada cardiorrespiratória em fibrilação ventricular revertida na emergência, com retorno da circulação há oito horas. Permanece comatoso, sem sedação há duas horas, sem resposta a estímulo doloroso, em ventilação mecânica. A temperatura é de 38,4 °C, a pressão de 112/68 mmHg sem vasopressor e a glicemia de 190 mg/dL. O eletrocardiograma pós-parada não mostra supradesnivelamento e a troponina está elevada. Qual é a conduta imediata quanto à temperatura?",
   "alts": [
-   "Aquecer ativamente o paciente até trinta e oito graus para reduzir o consumo cerebral de oxigênio.",
-   "Definir prognóstico neurológico já nas primeiras vinte e quatro horas após o evento de parada.",
-   "Manter controle de temperatura evitando febre e realizar coronariografia se houver supra de ST.",
-   "Manter hiperventilação sustentada com alvo de PaCO2 abaixo de vinte e cinco milímetros de mercúrio.",
-   "Manter saturação de oxigênio em cem por cento com fração inspirada máxima durante toda a fase inicial."
+   "Controle ativo de temperatura evitando febre",
+   "Aquecimento ativo até 38,5 °C",
+   "Antitérmico apenas se a temperatura passar de 39 °C",
+   "Hipotermia profunda a 32 °C por 48 horas",
+   "Nenhuma medida, pois a febre é protetora"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AHA Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care, 2020 e atualizações de 2023 e 2025; ensaio TTM2, 2021",
-  "coment": "Os cuidados pós-parada incluem controle ativo da temperatura com prevenção rigorosa de febre, oxigenação com alvo de saturação entre 92 e 98% evitando hiperóxia, normocapnia, controle pressórico com pressão arterial média adequada e coronariografia imediata quando há supradesnivelamento do segmento ST. A prognosticação neurológica é multimodal e deve ser postergada por pelo menos 72 horas após o retorno da circulação, e ainda mais quando houve uso de sedativos ou hipotermia.",
+  "base": "AHA 2025 — cuidados pós-parada: controle de temperatura",
+  "coment": "A febre após parada piora o desfecho neurológico, e a recomendação atual é controle ativo de temperatura com alvo entre 32 e 37,5 °C, prevenindo ativamente a hipertermia por pelo menos 72 horas. A hipotermia profunda foi abandonada; o essencial demonstrado é evitar a febre.",
   "porAlt": [
-   "Aquecer ativamente até temperatura elevada piora o desfecho neurológico após parada cardíaca.",
-   "A prognosticação precoce é fonte de erro e deve aguardar pelo menos setenta e duas horas.",
-   "Correta: controle de temperatura com prevenção de febre e coronariografia diante de supra de ST.",
-   "A hiperventilação agressiva causa vasoconstrição cerebral e reduz a perfusão do encéfalo lesado.",
-   "A hiperóxia sustentada associa-se a maior lesão de reperfusão e a pior desfecho neurológico."
+   "Correta: prevenir febre é o núcleo da recomendação atual.",
+   "Aquecer ativamente é o oposto do indicado.",
+   "Tolerar até 39 °C expõe o cérebro a dano adicional.",
+   "A hipotermia profunda não mostrou vantagem e traz complicações.",
+   "A febre pós-parada não é protetora, é deletéria."
   ]
  },
  {
@@ -5496,27 +5496,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 40 anos admitido em terapia intensiva após queda de altura, com escala de coma de Glasgow de 7, apresenta pressão arterial de 88 por 50 mmHg e saturação de 87% em ar ambiente. Qual é a prioridade imediata no cuidado neurointensivo?",
+  "q": "Homem de 40 anos é admitido após queda de 6 metros. Está com Glasgow de 7, pupilas isocóricas e reativas, pressão de 96/60 mmHg, frequência de 118 bpm e saturação de 90% em máscara. Foi intubado na sala de emergência. A tomografia de crânio mostra hematoma subdural agudo de 6 mm com desvio de linha média de 3 mm e edema difuso. O FAST é negativo e a radiografia de pelve é normal. Qual é o alvo de pressão de perfusão cerebral e a conduta?",
   "alts": [
-   "Administrar manitol em todos os casos de traumatismo grave logo na chegada, antes da tomografia.",
-   "Manter hiperventilação profilática sustentada para reduzir a pressão intracraniana desse paciente.",
-   "Prescrever corticoide em dose alta para reduzir o edema cerebral associado ao traumatismo dele.",
-   "Adiar a intubação orotraqueal até que a tomografia de crânio seja realizada e devidamente interpretada.",
-   "Corrigir hipoxemia e hipotensão, que são as principais causas de lesão cerebral secundária evitável."
+   "Manter pressão de perfusão entre 60 e 70 mmHg, evitando hipotensão",
+   "Manter pressão arterial média abaixo de 70 mmHg para reduzir edema",
+   "Hiperventilar de rotina para pressão parcial de dióxido de carbono de 25 mmHg",
+   "Corticoide em dose alta para reduzir o edema",
+   "Restringir volume para reduzir a pressão intracraniana"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Brain Trauma Foundation — Guidelines for the Management of Severe Traumatic Brain Injury, 4ª edição, 2016; ATLS, 10ª edição, 2018",
-  "coment": "No traumatismo cranioencefálico grave, hipóxia e hipotensão são os determinantes mais fortes de lesão secundária e de mortalidade, e corrigi-los tem prioridade sobre qualquer terapia dirigida à pressão intracraniana. Escala de coma igual ou inferior a 8 indica via aérea definitiva. Manitol e salina hipertônica são usados diante de sinais de hipertensão intracraniana ou herniação, a hiperventilação profilática sustentada é deletéria por vasoconstrição, e corticoide aumentou mortalidade no ensaio CRASH.",
+  "base": "Brain Trauma Foundation e ATLS 11ª edição, 2018 — TCE grave",
+  "coment": "No trauma cranioencefálico grave, o alvo de pressão de perfusão cerebral é de 60 a 70 mmHg, e uma única queda de pressão sistólica abaixo de 90 mmHg dobra a mortalidade. As prioridades são evitar hipotensão e hipóxia, manter normocapnia, cabeceira elevada e analgesia adequada. A hiperventilação profilática causa vasoconstrição e isquemia; o corticoide aumentou mortalidade no CRASH.",
   "porAlt": [
-   "O manitol se destina a sinais de hipertensão intracraniana, e não ao uso indiscriminado na chegada.",
-   "A hiperventilação profilática sustentada reduz o fluxo sanguíneo cerebral e agrava a isquemia.",
-   "O corticoide aumentou a mortalidade no traumatismo cranioencefálico no ensaio clínico CRASH.",
-   "Escala de coma igual ou menor que oito indica via aérea definitiva antes de qualquer transporte.",
-   "Correta: corrigir hipoxemia e hipotensão, principais causas de lesão cerebral secundária evitável."
+   "Correta: proteger a perfusão é a medida de maior impacto.",
+   "Baixar a pressão reduz a perfusão cerebral e agrava a lesão secundária.",
+   "A hiperventilação de rotina causa isquemia.",
+   "O corticoide aumentou mortalidade no ensaio CRASH.",
+   "Restringir volume favorece hipotensão, que é o que mais mata."
   ]
  },
  {
@@ -5544,51 +5544,51 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 30 anos internado em terapia intensiva por politrauma, no quinto dia, recebe nutrição enteral plena após período de jejum prolongado e evolui com hipofosfatemia grave, hipocalemia e hipomagnesemia. Qual é o diagnóstico e a conduta?",
+  "q": "Homem de 30 anos está na terapia intensiva no quinto dia após politrauma, em ventilação mecânica e nutrição enteral plena por sonda nasogástrica há três dias. Apresenta resíduo gástrico de 400 mL em duas aferições, distensão abdominal e um episódio de vômito. Está hemodinamicamente estável, sem vasopressor, com ruídos hidroaéreos reduzidos e sem sinais de peritonite. A radiografia de abdome mostra distensão gástrica sem pneumoperitônio. Qual é a conduta?",
   "alts": [
-   "Síndrome de realimentação: aumentar a oferta calórica rapidamente para corrigir o catabolismo dele.",
-   "Insuficiência adrenal aguda: iniciar hidrocortisona intravenosa e suspender a dieta enteral plena.",
-   "Sepse de foco abdominal: ampliar o espectro antimicrobiano e suspender a nutrição enteral plena.",
-   "Lesão renal aguda: indicar terapia renal substitutiva imediata para corrigir os distúrbios iônicos.",
-   "Síndrome de realimentação: reduzir a oferta calórica, repor eletrólitos e administrar tiamina."
+   "Procinético e considerar sonda pós-pilórica",
+   "Suspender a dieta e iniciar nutrição parenteral",
+   "Aumentar a velocidade de infusão da dieta",
+   "Manter a dieta sem mudanças e reavaliar em 48 horas",
+   "Realizar gastrostomia endoscópica"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ASPEN Consensus Recommendations for Refeeding Syndrome, 2020; ESPEN guideline on clinical nutrition in the intensive care unit, 2023",
-  "coment": "A síndrome de realimentação ocorre quando se reintroduz aporte calórico em paciente desnutrido ou após jejum prolongado: o pico de insulina desloca fósforo, potássio e magnésio para o intracelular, produzindo a tríade de hipofosfatemia, hipocalemia e hipomagnesemia, com risco de arritmia, insuficiência respiratória e morte. O manejo é reduzir a oferta calórica, repor eletrólitos de forma agressiva, administrar tiamina antes e durante a reintrodução e progredir a dieta lentamente com monitorização diária.",
+  "base": "ASPEN/SCCM 2016 — terapia nutricional no paciente crítico",
+  "coment": "Intolerância gástrica com resíduo elevado e distensão é manejada com procinético — metoclopramida ou eritromicina — e, na persistência, com posicionamento pós-pilórico da sonda, que permite manter a via enteral. A parenteral é reservada à falha da enteral, porque a via enteral preserva a barreira intestinal e reduz infecção.",
   "porAlt": [
-   "Aumentar rapidamente o aporte calórico agrava o deslocamento iônico e pode ser fatal nesse contexto.",
-   "A insuficiência adrenal cursa com hiponatremia e hipercalemia, padrão oposto ao descrito no caso.",
-   "O quadro eletrolítico surgiu com a reintrodução da dieta e não caracteriza foco infeccioso abdominal.",
-   "Os distúrbios se corrigem com reposição e ajuste da dieta, sem indicação de diálise neste momento.",
-   "Correta: síndrome de realimentação, com redução da oferta calórica, reposição iônica e tiamina."
+   "Correta: procinético e via pós-pilórica mantêm a nutrição enteral.",
+   "A parenteral é para falha da enteral, que ainda não foi tentada.",
+   "Aumentar a velocidade agrava a intolerância.",
+   "Manter sem mudança com vômito arrisca aspiração.",
+   "A gastrostomia não resolve gastroparesia e é desproporcional."
   ]
  },
  {
-  "q": "Mulher de 58 anos em terapia intensiva por choque séptico, sedada e em ventilação mecânica, apresenta pressão arterial média de 70 mmHg com noradrenalina, tempo de enchimento capilar de quatro segundos e lactato de 4,5 mmol/L. Qual é a interpretação e a conduta?",
+  "q": "Mulher de 58 anos está na terapia intensiva por choque séptico de foco urinário, sedada e em ventilação mecânica. No terceiro dia, apresenta débito urinário de 0,2 mL/kg/h nas últimas seis horas, creatinina de 3,8 mg/dL — subindo de 1,0 mg/dL na admissão —, potássio de 6,4 mEq/L com ondas T apiculadas ao eletrocardiograma, pH de 7,18 e bicarbonato de 12 mEq/L. Está sem vasopressor e sem responsividade a volume, com balanço hídrico positivo de 6 litros. Qual é a conduta?",
   "alts": [
-   "A perfusão está adequada porque a pressão arterial média alcançou o alvo estabelecido pela diretriz.",
-   "O lactato elevado indica sempre a necessidade imediata de transfundir concentrado de hemácias ao paciente.",
-   "O tempo de enchimento capilar não tem valor na avaliação da perfusão do paciente em choque séptico.",
-   "Persiste hipoperfusão tecidual apesar da pressão adequada: reavaliar volemia, débito e foco infeccioso.",
-   "A conduta correta é elevar a pressão arterial média acima de noventa mmHg em todos os pacientes sépticos."
+   "Iniciar terapia de substituição renal",
+   "Nova expansão volêmica com cristaloide",
+   "Furosemida em dose alta em bolus",
+   "Aguardar 24 horas antes de decidir",
+   "Bicarbonato de sódio isolado"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign, 2021; ensaio ANDROMEDA-SHOCK, 2019",
-  "coment": "Pressão arterial média no alvo não garante perfusão adequada. Tempo de enchimento capilar prolongado e lactato elevado indicam hipoperfusão persistente, e a conduta é reavaliar responsividade a volume, função cardíaca por ecocardiografia à beira do leito, adequação do controle do foco e do antimicrobiano. O ensaio ANDROMEDA-SHOCK mostrou que a ressuscitação guiada pelo tempo de enchimento capilar é ao menos tão eficaz quanto a guiada por lactato, com menos disfunção orgânica.",
+  "base": "KDIGO 2012 — lesão renal aguda: indicações de terapia de substituição renal",
+  "coment": "A indicação de diálise na lesão renal aguda não é o valor da creatinina, e sim as complicações refratárias: hipercalemia com repercussão eletrocardiográfica, acidose metabólica grave, hipervolemia refratária, uremia sintomática e algumas intoxicações. Aqui há hipercalemia com alteração no traçado, acidose e sobrecarga — a diálise está indicada, sem esperar.",
   "porAlt": [
-   "Atingir o alvo pressórico não assegura perfusão tecidual adequada nos pacientes com choque séptico.",
-   "O lactato elevado reflete hipoperfusão e metabolismo, e não indica transfusão por si só nesse caso.",
-   "O tempo de enchimento capilar é parâmetro validado e útil para guiar a ressuscitação no choque.",
-   "Correta: há hipoperfusão apesar da pressão no alvo, exigindo reavaliação de volemia, débito e foco.",
-   "Elevar a pressão média acima do necessário aumenta dose de vasopressor e eventos adversos."
+   "Correta: complicações refratárias indicam substituição renal.",
+   "Mais volume com balanço positivo de 6 litros agrava a congestão.",
+   "O diurético não corrige a hipercalemia com repercussão nem a acidose.",
+   "Esperar com T apiculada é arriscar arritmia fatal.",
+   "O bicarbonato isolado não resolve a sobrecarga nem a uremia."
   ]
  },
  {
@@ -5952,27 +5952,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 54 anos internado em terapia intensiva com pancreatite grave e distensão abdominal apresenta pressão intra-abdominal de 24 mmHg, oligúria, pressão de pico elevada no ventilador e hipotensão. Qual é o diagnóstico e a conduta inicial?",
+  "q": "Homem de 54 anos está na terapia intensiva com pancreatite aguda grave por litíase, no quarto dia. Apresenta distensão abdominal progressiva, oligúria com débito de 0,2 mL/kg/h, pressão de pico em ascensão no ventilador, hipoxemia e pressão de 96/60 mmHg. A pressão intra-abdominal medida pela sonda vesical é de 26 mmHg em três aferições. Está em ventilação mecânica, sedado, com balanço positivo de 8 litros. Qual é o diagnóstico e a conduta?",
   "alts": [
-   "Síndrome compartimental abdominal: aumentar a reposição volêmica agressiva para melhorar a diurese.",
-   "Obstrução intestinal mecânica: indicar laparotomia exploradora imediata sem qualquer medida clínica.",
-   "Síndrome compartimental abdominal: medidas clínicas de descompressão e cirurgia se não houver resposta.",
-   "Pneumoperitônio hipertensivo: realizar punção com agulha na parede abdominal como primeira medida.",
-   "Insuficiência renal pré-renal simples: prescrever furosemida em dose alta para restaurar a diurese."
+   "Síndrome compartimental abdominal: medidas clínicas e descompressão se refratário",
+   "Íleo paralítico simples: apenas sonda nasogástrica",
+   "Necrose infectada: antibiótico e necrosectomia imediata",
+   "Lesão renal pré-renal: expandir com mais volume",
+   "Pneumonia associada à ventilação: trocar antibiótico"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "World Society of the Abdominal Compartment Syndrome — consensus definitions and clinical practice guidelines on intra-abdominal hypertension, 2013",
-  "coment": "A síndrome compartimental abdominal é definida por pressão intra-abdominal sustentada acima de 20 mmHg associada a nova disfunção orgânica, e compromete perfusão renal e esplâncnica, retorno venoso e complacência pulmonar. O manejo escalonado inclui descompressão gástrica e colônica, sedação e analgesia adequadas, drenagem percutânea de coleções, correção do balanço hídrico com uso criterioso de diurético ou ultrafiltração e, na ausência de resposta, laparotomia descompressiva.",
+  "base": "WSACS 2013 — hipertensão intra-abdominal e síndrome compartimental",
+  "coment": "Pressão intra-abdominal acima de 20 mmHg com nova disfunção orgânica define síndrome compartimental abdominal. O manejo inicia com medidas clínicas — sedação e analgesia, drenagem de conteúdo gástrico e intestinal, drenagem percutânea de coleções, balanço hídrico negativo e bloqueio neuromuscular em casos selecionados —, e a descompressão cirúrgica entra na refratariedade.",
   "porAlt": [
-   "A reposição volêmica agressiva aumenta o edema visceral e eleva ainda mais a pressão intra-abdominal.",
-   "A obstrução mecânica não explica o conjunto de disfunções, e a cirurgia não é a primeira medida.",
-   "Correta: síndrome compartimental abdominal, com medidas clínicas escalonadas e cirurgia se refratária.",
-   "Não há descrição de pneumoperitônio, e a punção com agulha não trata a hipertensão intra-abdominal.",
-   "O diurético isolado não trata o mecanismo e pode agravar a hipoperfusão renal existente aqui."
+   "Correta: pressão acima de 20 mmHg com disfunção é compartimental.",
+   "O íleo isolado não explica a disfunção de múltiplos órgãos.",
+   "A necrosectomia precoce piora desfecho; a abordagem é postergada.",
+   "Mais volume com balanço de 8 litros agrava a hipertensão intra-abdominal.",
+   "Não há dado sugerindo pneumonia como causa da oligúria e da distensão."
   ]
  },
  {
@@ -6072,51 +6072,51 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 44 anos em terapia intensiva por trauma torácico apresenta hipotensão súbita, turgência jugular, desvio de traqueia e ausência de murmúrio vesicular à direita durante a ventilação mecânica. Qual é a conduta imediata?",
+  "q": "Homem de 44 anos está na terapia intensiva no segundo dia após trauma torácico fechado com fraturas de arcos costais à direita, em ventilação mecânica. Apresenta hipotensão súbita, com pressão caindo para 74/44 mmHg, turgência jugular, taquicardia de 130 bpm, queda de saturação para 84% e aumento da pressão de pico no ventilador. A ausculta mostra abolição do murmúrio à direita com hipertimpanismo e a traqueia está desviada para a esquerda. Qual é a conduta imediata?",
   "alts": [
-   "Solicitar radiografia de tórax e aguardar o laudo antes de qualquer procedimento invasivo nele.",
-   "Aumentar a PEEP para recrutar as áreas colapsadas do pulmão direito que está sem murmúrio.",
-   "Administrar volume em grande quantidade como medida principal para reverter a hipotensão dele.",
-   "Realizar pericardiocentese imediata, pois a turgência jugular indica tamponamento cardíaco agudo.",
-   "Descomprimir o tórax com punção seguida de drenagem, sem aguardar a confirmação radiológica."
+   "Descompressão torácica imediata seguida de drenagem",
+   "Radiografia de tórax para confirmar antes de agir",
+   "Aumentar a fração inspirada de oxigênio e observar",
+   "Reposição volêmica rápida com dois litros",
+   "Ecocardiograma para excluir tamponamento"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ATLS, 10ª edição, 2018; consensos de trauma torácico e ventilação mecânica",
-  "coment": "O quadro é de pneumotórax hipertensivo, diagnóstico clínico que não deve aguardar imagem: hipotensão, turgência jugular, ausência de murmúrio e hipertimpanismo do lado afetado, com desvio contralateral da traqueia, agravado pela pressão positiva da ventilação mecânica. A conduta é descompressão imediata por punção, seguida de drenagem torácica definitiva. Aumentar a PEEP agrava o quadro, e a reposição volêmica isolada não resolve a obstrução mecânica ao retorno venoso.",
+  "base": "ATLS 11ª edição, 2018 — pneumotórax hipertensivo no paciente ventilado",
+  "coment": "Pneumotórax hipertensivo em paciente ventilado tem apresentação típica: queda súbita de saturação e pressão, aumento da pressão de pico, ausência de murmúrio unilateral com hipertimpanismo e desvio de traqueia. O diagnóstico é clínico e o tratamento é descompressão imediata — a ventilação com pressão positiva acelera a progressão e reduz a janela de tempo.",
   "porAlt": [
-   "Aguardar a radiografia no pneumotórax hipertensivo pode custar a vida do paciente em minutos.",
-   "Aumentar a PEEP agrava o pneumotórax hipertensivo e piora ainda mais o retorno venoso ao coração.",
-   "O volume é medida de suporte transitória e não resolve a obstrução mecânica ao enchimento cardíaco.",
-   "O tamponamento cursa com bulhas abafadas e murmúrio preservado, sem desvio da traqueia descrito.",
-   "Correta: descompressão torácica imediata seguida de drenagem, sem aguardar confirmação por imagem."
+   "Correta: clínica fecha o diagnóstico e a descompressão é imediata.",
+   "Esperar imagem num quadro que mata em minutos é erro grave.",
+   "Aumentar a fração inspirada não corrige o colapso circulatório.",
+   "Volume não resolve choque obstrutivo.",
+   "O quadro clínico é típico de pneumotórax, não de tamponamento."
   ]
  },
  {
-  "q": "Paciente de 63 anos em terapia intensiva por choque séptico refratário, em uso de noradrenalina em dose alta por mais de vinte e quatro horas, permanece hipotenso apesar de volume e antimicrobiano adequados. Qual é a medida adjuvante recomendada?",
+  "q": "Homem de 63 anos está na terapia intensiva com choque séptico refratário de foco pulmonar. Mantém pressão arterial média de 60 mmHg com noradrenalina 0,8 mcg/kg/min e vasopressina 0,03 U/min, após ressuscitação adequada e controle do foco. O lactato é de 4,0 mmol/L, a saturação venosa central de 70% e o ecocardiograma mostra contratilidade preservada. A glicemia é de 210 mg/dL e ele não recebeu corticoide. Qual é a conduta?",
   "alts": [
-   "Iniciar dexametasona em dose alta por sete dias como terapia principal do choque séptico refratário.",
-   "Realizar teste de estímulo com cosintropina antes de qualquer decisão sobre o corticoide adjuvante.",
-   "Suspender o vasopressor para avaliar a resposta hemodinâmica espontânea desse paciente instável.",
-   "Iniciar hidrocortisona intravenosa como corticoide adjuvante em choque com vasopressor em dose alta.",
-   "Administrar imunoglobulina intravenosa de rotina como terapia imunomoduladora no choque séptico."
+   "Hidrocortisona 200 mg por dia em dose baixa",
+   "Metilprednisolona 1 g por dia em pulso",
+   "Dexametasona 8 mg a cada 8 horas",
+   "Dosar cortisol basal antes de qualquer corticoide",
+   "Não usar corticoide, pois aumenta mortalidade"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Surviving Sepsis Campaign, 2021; ensaios ADRENAL e APROCCHSS",
-  "coment": "No choque séptico com necessidade contínua de vasopressor em dose relevante para manter a pressão-alvo, sugere-se hidrocortisona intravenosa como adjuvante, tipicamente 200 mg por dia em infusão contínua ou em doses divididas, o que acelera a reversão do choque. O teste de estímulo com cosintropina não é necessário para indicar a terapia. A imunoglobulina não é recomendada de rotina, e suspender o vasopressor em paciente instável é conduta perigosa.",
+  "base": "Surviving Sepsis Campaign 2021/2026 — corticoide no choque refratário",
+  "coment": "No choque séptico refratário, com necessidade crescente de vasopressor apesar de ressuscitação e controle do foco, a hidrocortisona em dose baixa — 200 mg ao dia, em infusão contínua ou fracionada — é sugerida: acelera a reversão do choque. Não se dosa cortisol para decidir, e doses imunossupressoras não são indicadas.",
   "porAlt": [
-   "A dexametasona em dose alta não é o esquema recomendado como adjuvante no choque séptico.",
-   "O teste de estímulo com cosintropina não é exigido para indicar o corticoide adjuvante nesse cenário.",
-   "Suspender o vasopressor no paciente ainda hipotenso agrava a hipoperfusão e o risco de parada.",
-   "Correta: hidrocortisona intravenosa como adjuvante no choque séptico com necessidade de vasopressor.",
-   "A imunoglobulina intravenosa não demonstrou benefício consistente e não é recomendada de rotina."
+   "Correta: dose baixa, sem necessidade de teste prévio.",
+   "Pulso de metilprednisolona não é o esquema da sepse.",
+   "A dexametasona não é o corticoide recomendado nesse cenário.",
+   "A dosagem de cortisol não orienta a decisão.",
+   "O corticoide em dose baixa não aumenta mortalidade no choque refratário."
   ]
  },
  {
@@ -6696,51 +6696,51 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 58 anos entra em parada cardiorrespiratória na emergência. O monitor mostra fibrilação ventricular. A equipe inicia compressões de alta qualidade e o desfibrilador está pronto. Segundo a diretriz vigente de suporte avançado, em que momento a adrenalina deve ser administrada?",
+  "q": "Homem de 58 anos entra em parada cardiorrespiratória enquanto aguardava atendimento na emergência. A parada foi presenciada pela equipe e as compressões começaram imediatamente. O monitor, conectado em 40 segundos, mostra fibrilação ventricular. O desfibrilador bifásico está disponível e carregado. Há dois profissionais realizando compressões em revezamento e um acesso venoso periférico já obtido. Qual é a sequência correta?",
   "alts": [
-   "Somente após as tentativas iniciais de desfibrilação falharem, com 1 mg a cada 3 a 5 minutos.",
-   "Imediatamente ao reconhecer a parada, antes até do primeiro choque ser aplicado no paciente.",
-   "Somente após vinte minutos de reanimação, quando o ritmo já tiver degenerado para assistolia.",
-   "Nunca em ritmo chocável, situação em que apenas a amiodarona tem indicação formal de uso hoje.",
-   "Substituída pela vasopressina, que oferece vantagem clara sobre a adrenalina nesse contexto."
+   "Desfibrilar, retomar compressões por 2 minutos e reavaliar",
+   "Checar pulso após o choque antes de retomar compressões",
+   "Adrenalina antes do primeiro choque",
+   "Intubar antes de desfibrilar",
+   "Amiodarona antes do primeiro choque"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Heart Association 2025 — Guidelines for CPR and Emergency Cardiovascular Care, suporte avançado no adulto",
-  "coment": "Em ritmo chocável, a prioridade absoluta é compressão de alta qualidade e desfibrilação precoce: a diretriz de 2025 orienta administrar adrenalina depois que as tentativas iniciais de desfibrilação falharem, e não junto dos primeiros choques. A dose é 1 mg a cada 3 a 5 minutos. Em ritmos não chocáveis — assistolia e atividade elétrica sem pulso — a lógica se inverte: a adrenalina deve ser dada o quanto antes, porque ali não há choque a priorizar. A vasopressina, isolada ou associada, não oferece vantagem como substituta da adrenalina.",
+  "base": "AHA 2025 — suporte avançado de vida: sequência em ritmo chocável",
+  "coment": "Em ritmo chocável, desfibrila-se e retomam-se as compressões imediatamente, sem checar pulso — a pausa reduz a pressão de perfusão coronariana conquistada. Reavalia-se o ritmo após dois minutos. Adrenalina depois do segundo choque, amiodarona ou lidocaína depois do terceiro; a via aérea avançada não interrompe o ciclo.",
   "porAlt": [
-   "Correta: em ritmo chocável a adrenalina entra após a falha das desfibrilações iniciais, na dose de 1 mg a cada 3 a 5 minutos.",
-   "Dar adrenalina antes do primeiro choque atrasa a única intervenção que reverte fibrilação ventricular precocemente.",
-   "Esperar vinte minutos contraria a recomendação e desperdiça a fase em que a droga ainda pode fazer diferença.",
-   "A adrenalina tem indicação em qualquer ritmo de parada; o que muda entre eles é o momento da administração.",
-   "A vasopressina, isolada ou combinada, não demonstrou vantagem sobre a adrenalina e não a substitui na parada."
+   "Correta: choque e retomada imediata das compressões.",
+   "Checar pulso logo após o choque desperdiça perfusão coronariana.",
+   "A adrenalina em ritmo chocável vem após o segundo choque.",
+   "A intubação não precede a desfibrilação.",
+   "A amiodarona entra após o terceiro choque."
   ]
  },
  {
-  "q": "Mulher de 44 anos é encontrada inconsciente e sem pulso. O monitor mostra atividade elétrica sem pulso. As compressões estão em curso e o acesso venoso foi obtido. Qual é a conduta quanto à adrenalina nesse ritmo?",
+  "q": "Mulher de 44 anos é encontrada inconsciente e sem pulso na enfermaria. As compressões foram iniciadas e o monitor mostra atividade elétrica organizada a 70 bpm sem pulso palpável. Ela estava internada por trombose venosa profunda extensa e havia se queixado de dispneia súbita minutos antes. Está em ventilação com bolsa-válvula-máscara, com acesso venoso periférico. O ultrassom à beira do leito mostra ventrículo direito dilatado e hipocinético. Qual é a conduta?",
   "alts": [
-   "Aguardar dois ciclos completos de compressão antes de administrar a primeira dose de adrenalina.",
-   "Aplicar um choque sincronizado antes de qualquer droga, mesmo sem ritmo chocável no monitor.",
-   "Administrar somente se a causa reversível já tiver sido identificada e corrigida pela equipe toda.",
-   "Preferir vasopressina em dose única, alternativa superior à adrenalina na atividade sem pulso.",
-   "Administrar assim que for possível, porque não há choque a ser priorizado nesse tipo de ritmo."
+   "Adrenalina, compressões e considerar trombólise",
+   "Desfibrilação imediata com 200 J",
+   "Cardioversão sincronizada",
+   "Marca-passo transcutâneo",
+   "Suspender a reanimação pela causa irreversível"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Heart Association 2025 — adrenalina precoce nos ritmos não chocáveis",
-  "coment": "Em atividade elétrica sem pulso e em assistolia, a diretriz orienta administrar adrenalina o quanto antes, porque não existe desfibrilação a priorizar e o benefício da droga é maior quanto mais precoce. Isso contrasta com o ritmo chocável, em que a adrenalina só entra depois das tentativas iniciais de choque. Em paralelo, a equipe deve procurar ativamente as causas reversíveis — hipovolemia, hipóxia, acidose, distúrbios de potássio, hipotermia, pneumotórax hipertensivo, tamponamento, toxinas, tromboses coronária e pulmonar —, mas essa busca corre junto e nunca atrasa a droga.",
+  "base": "AHA 2025 — ritmos não chocáveis e causas reversíveis",
+  "coment": "Atividade elétrica sem pulso é ritmo não chocável: compressões de alta qualidade e adrenalina a cada 3 a 5 minutos, enquanto se busca a causa reversível. Trombose venosa prévia, dispneia súbita e ventrículo direito dilatado apontam embolia pulmonar maciça — cenário em que a trombólise durante a reanimação é recomendada, com manobras prolongadas por 60 a 90 minutos após a infusão.",
   "porAlt": [
-   "Aguardar dois ciclos atrasa sem motivo a única droga com indicação formal precoce nesse tipo de ritmo de parada.",
-   "Choque sincronizado não tem lugar na parada; atividade elétrica sem pulso e assistolia não são ritmos chocáveis.",
-   "A busca de causas reversíveis corre em paralelo à reanimação e jamais deve atrasar a administração da adrenalina.",
-   "A vasopressina não é superior à adrenalina e a diretriz não a recomenda como substituta em nenhum ritmo de parada.",
-   "Correta: em ritmo não chocável a adrenalina deve ser dada assim que possível, já que não há choque a ser priorizado."
+   "Correta: ritmo não chocável com causa reversível identificada.",
+   "Não se desfibrila atividade elétrica sem pulso.",
+   "A cardioversão exige pulso e ritmo organizado com perfusão.",
+   "O marca-passo não trata ausência de contração mecânica.",
+   "A causa é potencialmente reversível: suspender é precipitado."
   ]
  },
  {
@@ -7440,99 +7440,99 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 62 anos chega à emergência com dispneia intensa, saturação de 84% em ar ambiente, tiragem intercostal e uso de musculatura acessória. Está sonolento e responde apenas a estímulo verbal vigoroso. A gasometria mostra pH 7,21 e pressão de gás carbônico de 78 mmHg. Qual é a conduta imediata?",
+  "q": "Homem de 62 anos, tabagista com doença pulmonar obstrutiva crônica, chega com dispneia intensa há um dia. Está sentado, com tiragem intercostal, fala entrecortada, frequência respiratória de 32 irpm, saturação de 84% em ar ambiente, frequência de 116 bpm e pressão de 142/84 mmHg. A ausculta mostra sibilos difusos com tempo expiratório prolongado. A gasometria em ar ambiente revela pH de 7,28, pressão parcial de dióxido de carbono de 62 mmHg e bicarbonato de 28 mEq/L. Está lúcido e colaborativo. Qual é a conduta?",
   "alts": [
-   "Assegurar via aérea definitiva com intubação, dada a hipercapnia com rebaixamento do sensório.",
-   "Tentar ventilação não invasiva por seis horas antes de considerar qualquer via aérea definitiva.",
-   "Ofertar apenas cateter nasal de oxigênio e reavaliar a gasometria arterial em duas horas seguidas.",
-   "Prescrever furosemida endovenosa isolada e observar a resposta clínica ao longo do próximo turno.",
-   "Administrar naloxona empírica antes de cada suporte, pela sonolência apresentada pelo paciente."
+   "Ventilação não invasiva com broncodilatador e corticoide",
+   "Intubação orotraqueal imediata",
+   "Oxigênio a 100% em máscara com reservatório",
+   "Sedação leve para reduzir o trabalho respiratório",
+   "Aguardar resposta ao broncodilatador por 2 horas"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Medicina de Emergência: Abordagem Prática, USP, 19ª edição; Harrison's, 22ª edição, 2025",
-  "coment": "Insuficiência respiratória hipercápnica com rebaixamento do nível de consciência é contraindicação relativa forte à ventilação não invasiva, porque o paciente não protege via aérea e o risco de aspiração é alto. A conduta é intubação e ventilação mecânica. A ventilação não invasiva é excelente na exacerbação de DPOC e no edema agudo de pulmão em paciente alerta e colaborativo — insistir nela em quem está sonolento e acidótico atrasa a via aérea definitiva e costuma terminar em intubação de emergência, em condições piores.",
+  "base": "GOLD 2026 — exacerbação da DPOC e ventilação não invasiva",
+  "coment": "Exacerbação de doença pulmonar obstrutiva crônica com acidose respiratória — pH abaixo de 7,35 com hipercapnia — em paciente lúcido e colaborativo é a indicação clássica de ventilação não invasiva, que reduz intubação e mortalidade. Broncodilatador, corticoide sistêmico e oxigênio com alvo de saturação entre 88% e 92% completam o tratamento.",
   "porAlt": [
-   "Correta: hipercapnia grave com rebaixamento do sensório indica via aérea definitiva, e não tentativa prolongada de máscara.",
-   "Insistir seis horas na ventilação não invasiva em paciente sonolento arrisca aspiração e adia a intubação necessária.",
-   "Cateter nasal não corrige hipoventilação alveolar e reavaliar em duas horas ignora a gravidade já documentada.",
-   "Furosemida trata congestão, mas o quadro aqui é de falência ventilatória com retenção grave de gás carbônico.",
-   "A naloxona só faz sentido diante de suspeita de opioide, que o enunciado não apresenta em nenhum momento."
+   "Correta: indicação clássica de ventilação não invasiva.",
+   "A intubação fica para falha da não invasiva ou rebaixamento.",
+   "Oxigênio a 100% pode agravar a hipercapnia nesse paciente.",
+   "Sedar sem suporte ventilatório precipita parada respiratória.",
+   "Esperar duas horas com pH de 7,28 é perder a janela."
   ]
  },
  {
-  "q": "Mulher de 29 anos é trazida após ingestão intencional de dose alta de paracetamol há seis horas. Está assintomática, com exame normal e sem alteração laboratorial ainda. Qual é a conduta correta?",
+  "q": "Mulher de 29 anos é trazida seis horas após ingestão intencional de 25 g de paracetamol em dose única. Está lúcida, orientada, com náuseas e dor epigástrica leve. A pressão é de 118/74 mmHg, a frequência de 88 bpm e o exame é normal. As transaminases estão normais, o RNI é de 1,0 e a creatinina é de 0,8 mg/dL. A concentração sérica de paracetamol colhida nesta hora está acima da linha de tratamento do nomograma de Rumack-Matthew. Qual é a conduta?",
   "alts": [
-   "Iniciar N-acetilcisteína, cuja eficácia é máxima quando administrada nas primeiras horas da ingestão.",
-   "Aguardar o surgimento de elevação das transaminases antes de iniciar qualquer antídoto específico.",
-   "Prescrever apenas carvão ativado agora, medida suficiente seis horas após a ingestão do fármaco.",
-   "Realizar hemodiálise imediata, que é o tratamento de escolha na intoxicação grave por paracetamol.",
-   "Liberar a paciente após avaliação psiquiátrica, já que está assintomática e sem alteração de exames."
+   "N-acetilcisteína imediatamente",
+   "Aguardar elevação das transaminases para iniciar o antídoto",
+   "Carvão ativado isolado, sem antídoto",
+   "Hemodiálise de urgência",
+   "Apenas observação clínica por 24 horas"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Medicina de Emergência: Abordagem Prática, USP, 19ª edição; Harrison's, 22ª edição, 2025 — intoxicação por paracetamol",
-  "coment": "A intoxicação por paracetamol tem período de latência: o paciente passa horas assintomático enquanto o metabólito tóxico consome as reservas de glutationa, e a lesão hepática se manifesta depois de 24 a 72 horas. A N-acetilcisteína repõe glutationa e tem eficácia praticamente completa quando iniciada nas primeiras 8 a 10 horas — esperar a transaminase subir é esperar o dano acontecer. O carvão ativado é útil nas primeiras horas e perde valor depois. Liberar paciente assintomática após ingestão intencional de dose tóxica é erro grave, clínico e psiquiátrico.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 — paracetamol e nomograma de Rumack-Matthew",
+  "coment": "Com concentração acima da linha de tratamento do nomograma, a N-acetilcisteína é iniciada imediatamente — sua eficácia é máxima nas primeiras 8 a 10 horas e decai depois. Esperar a lesão hepática aparecer é esperar o dano que o antídoto existe para prevenir. O carvão ativado só é útil nas primeiras horas e não substitui o antídoto.",
   "porAlt": [
-   "Correta: a N-acetilcisteína tem eficácia máxima nas primeiras horas, antes de qualquer alteração laboratorial aparecer.",
-   "Esperar a transaminase subir significa esperar a necrose hepática instalar-se, quando o antídoto já perdeu boa parte do efeito.",
-   "O carvão ativado tem janela curta e não substitui o antídoto, que é a intervenção que muda o desfecho hepático.",
-   "A hemodiálise tem papel restrito a situações específicas e não é o tratamento de escolha da intoxicação por paracetamol.",
-   "Liberar paciente assintomática após ingestão intencional ignora tanto a latência do quadro quanto o risco psiquiátrico."
+   "Correta: nomograma acima da linha indica antídoto sem demora.",
+   "Esperar transaminase subir é perder a janela de prevenção.",
+   "O carvão não substitui a N-acetilcisteína.",
+   "O paracetamol não é removido de forma útil por diálise nesse contexto.",
+   "Observar sem tratar com nível tóxico é conduta perigosa."
   ]
  },
  {
-  "q": "Homem de 71 anos, em terapia intensiva por choque séptico, está em ventilação mecânica. A equipe discute a estratégia ventilatória adequada diante de síndrome do desconforto respiratório agudo instalada. Qual conduta tem benefício de mortalidade demonstrado?",
+  "q": "Homem de 71 anos está na terapia intensiva por choque séptico de foco abdominal, em ventilação mecânica há cinco dias, sem vasopressor há 24 horas. Está desperto, obedece comandos, com relação entre pressão parcial de oxigênio e fração inspirada de 260, PEEP de 5 cmH₂O, FiO₂ de 0,35 e sem sedação contínua. A tosse é eficaz, o balanço hídrico está equilibrado e não há infecção ativa em curso. A equipe discute o desmame. Qual é a conduta?",
   "alts": [
-   "Volume corrente alto, de 12 mL/kg, para garantir a eliminação adequada de gás carbônico do paciente.",
-   "Ventilação protetora com volume corrente de 6 mL/kg de peso predito e pressão de platô limitada.",
-   "Manter fração inspirada de oxigênio em 100% durante toda a ventilação, independentemente da saturação.",
-   "Usar pressão expiratória final zero no ventilador, evitando barotrauma pela pressão positiva.",
-   "Sedar profundamente com bloqueio neuromuscular contínuo nos pacientes ventilados na unidade."
+   "Teste de respiração espontânea por 30 a 120 minutos",
+   "Extubar diretamente, sem teste prévio",
+   "Traqueostomia imediata pelo tempo de ventilação",
+   "Reduzir a PEEP em 1 cmH₂O por dia até 2",
+   "Manter ventilação controlada por mais 48 horas"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "tit",
-  "base": "American Thoracic Society/ESICM/SCCM, 2017, e Surviving Sepsis Campaign 2026 — ventilação protetora na SDRA",
-  "coment": "A ventilação protetora é uma das poucas intervenções com redução de mortalidade demonstrada em ensaio clínico na síndrome do desconforto respiratório agudo: volume corrente de 6 mL/kg de peso predito — calculado pela altura, não pelo peso real — e pressão de platô mantida abaixo de 30 cmH2O. Volumes altos causam lesão induzida pela ventilação. A pressão expiratória final positiva é necessária para manter alvéolos recrutados; zerá-la produz colapso cíclico e piora a lesão. Bloqueio neuromuscular tem indicação seletiva na forma grave e por período curto, não como rotina.",
+  "base": "ATS/CHEST 2017 — desmame ventilatório: teste de respiração espontânea",
+  "coment": "Preenchidos os critérios — causa resolvida, oxigenação adequada com PEEP e FiO₂ baixas, estabilidade hemodinâmica sem vasopressor, nível de consciência e tosse adequados —, o passo é o teste de respiração espontânea, em tubo T ou com pressão de suporte baixa, por 30 a 120 minutos. A aprovação no teste é o que autoriza a extubação.",
   "porAlt": [
-   "Volume corrente de 12 mL/kg produz lesão induzida pela ventilação e foi associado a maior mortalidade em ensaio clínico.",
-   "Correta: volume corrente de 6 mL/kg de peso predito com platô limitado é a estratégia com redução de mortalidade comprovada.",
-   "Manter oxigênio a 100% de forma indiscriminada causa toxicidade e atelectasia de absorção, sem benefício algum.",
-   "Pressão expiratória final zero promove colapso e reabertura cíclica de alvéolos, agravando a lesão pulmonar existente.",
-   "O bloqueio neuromuscular é seletivo, para casos graves e por período curto, e não conduta de rotina em ventilados."
+   "Correta: o teste é a etapa que define a extubação.",
+   "Extubar sem teste aumenta a taxa de reintubação.",
+   "A traqueostomia se discute após falhas de desmame ou ventilação prolongada.",
+   "O desmame lento de PEEP não substitui o teste.",
+   "Manter ventilação controlada em quem preenche critérios prolonga riscos."
   ]
  },
  {
-  "q": "Mulher de 58 anos é admitida com hemorragia digestiva alta volumosa, pressão de 82/50 mmHg, frequência de 126 bpm e hemoglobina de 6,2 g/dL, sem doença coronária. Qual é a estratégia transfusional e a meta inicial?",
+  "q": "Mulher de 58 anos, cirrótica por hepatite C com Child-Pugh B, chega com hematêmese volumosa há duas horas. Está com pressão de 82/50 mmHg, frequência de 128 bpm, pele fria e Glasgow de 14. A hemoglobina é de 7,0 g/dL, as plaquetas de 68.000/mm³ e o RNI de 1,6. Já recebeu 1000 mL de cristaloide com resposta parcial. Não há sinais de encefalopatia e o abdome tem ascite moderada. Qual é o conjunto inicial de medidas?",
   "alts": [
-   "Transfundir até hemoglobina de 12 g/dL, meta que garante melhor oxigenação tecidual nesse quadro.",
-   "Não transfundir enquanto o sangramento estiver ativo, para não aumentar a pressão de perfusão.",
-   "Transfundir sempre com estratégia restritiva, mirando hemoglobina de 7 a 8 g/dL após estabilizar.",
-   "Transfundir apenas plasma fresco congelado, corrigindo a coagulopatia antes das hemácias sempre.",
-   "Transfundir somente após a endoscopia, mesmo em vigência de instabilidade hemodinâmica marcada."
+   "Transfusão com alvo de 7 g/dL, terlipressina, antibiótico e endoscopia em 12 horas",
+   "Transfundir até hemoglobina de 10 g/dL antes da endoscopia",
+   "Endoscopia eletiva em 72 horas, após estabilizar",
+   "Balão de Sengstaken-Blakemore como primeira medida",
+   "Plasma fresco congelado para normalizar o RNI"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "European Society of Gastrointestinal Endoscopy, 2021, e Baveno VII, 2022 — estratégia transfusional na HDA",
-  "coment": "A estratégia restritiva é superior na hemorragia digestiva alta: ensaio clínico mostrou menor mortalidade e menos ressangramento com alvo de hemoglobina entre 7 e 8 g/dL, comparado à estratégia liberal. O racional é que transfundir demais eleva a pressão portal e a esplâncnica, favorecendo novo sangramento. Isso não significa deixar de transfundir quem está em choque com hemoglobina de 6,2 g/dL — significa não perseguir números altos depois de estabilizado. Pacientes com síndrome coronariana ou isquemia ativa exigem alvo individualizado e mais alto.",
+  "base": "Baveno VII, 2022 — hemorragia varicosa na hipertensão portal",
+  "coment": "Na hemorragia varicosa o pacote inicial reúne transfusão restritiva com alvo de 7 g/dL — a estratégia liberal aumenta ressangramento e mortalidade —, vasoconstritor esplâncnico como terlipressina ou octreotide, antibiótico profilático com ceftriaxona, que reduz infecção e mortalidade, e endoscopia em até 12 horas para ligadura elástica.",
   "porAlt": [
-   "A meta de 12 g/dL é a estratégia liberal, associada a mais ressangramento e maior mortalidade nesse cenário.",
-   "Deixar de transfundir com hemoglobina de 6,2 g/dL e choque instalado compromete a oferta de oxigênio aos tecidos.",
-   "Correta: o alvo restritivo de 7 a 8 g/dL reduz mortalidade e ressangramento, sem deixar de transfundir quem está em choque.",
-   "O plasma corrige coagulopatia específica e não substitui hemácias em paciente com anemia grave e sangramento ativo.",
-   "A instabilidade hemodinâmica exige transfusão imediata; esperar a endoscopia mantém o choque sem correção."
+   "Correta: é o pacote completo, com alvo transfusional restritivo.",
+   "Transfundir até 10 g/dL eleva a pressão portal e o ressangramento.",
+   "Adiar 72 horas em sangramento varicoso aumenta mortalidade.",
+   "O balão é resgate para sangramento refratário, não primeira medida.",
+   "Corrigir o RNI com plasma não reduz sangramento na cirrose."
   ]
  },
  {
@@ -8136,123 +8136,123 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 62 anos, 1,60 m, com síndrome do desconforto respiratório agudo, será ventilada. Ela pesa 92 kg. Qual é a base de cálculo do volume corrente na ventilação protetora e por quê?",
+  "q": "Mulher de 62 anos, 1,60 m e 95 kg, será ventilada por síndrome do desconforto respiratório agudo secundária a pneumonia aspirativa. A relação entre pressão parcial de oxigênio e fração inspirada é de 130, com infiltrados bilaterais e sem evidência de causa cardiogênica. O peso predito calculado pela altura é de 52 kg. Está sedada, sem esforço respiratório, hemodinamicamente estável. Qual é o volume corrente inicial?",
   "alts": [
-   "Peso real aferido na balança, que reflete melhor a demanda metabólica desta paciente com obesidade.",
-   "Peso ideal calculado pelo índice de massa corporal alvo, ajustado conforme a idade e o sexo dela.",
-   "Peso predito pela altura, porque o volume pulmonar depende da estatura e não da massa corporal.",
-   "Média entre o peso real e o predito, ajuste indicado especificamente para pacientes com obesidade.",
-   "Peso seco estimado após diurese, medida usada para calcular o volume corrente na fase de desmame."
+   "Cerca de 310 mL, por 6 mL/kg de peso predito",
+   "Cerca de 570 mL, por 6 mL/kg de peso real corporal",
+   "Cerca de 520 mL, por 10 mL/kg de peso predito",
+   "Cerca de 950 mL, por 10 mL/kg de peso real corporal",
+   "Ajustar pelo volume que normalize o dióxido de carbono"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESICM/ATS/SCCM 2024 e diretrizes de ventilação protetora — volume corrente por peso predito",
-  "coment": "O volume corrente na ventilação protetora é calculado sobre o peso predito, derivado da altura e do sexo, e não sobre o peso real. A razão é anatômica: o volume pulmonar acompanha a estatura, não a massa gorda. Usar o peso real numa paciente com obesidade entrega volumes muito acima do alvo de 6 mL/kg, produzindo lesão induzida pela ventilação justamente em quem tem pulmão vulnerável. Para 1,60 m, o peso predito fica em torno de 52 kg em mulher, o que corresponde a aproximadamente 310 mL — bem distante dos 550 mL que sairiam do peso real.",
+  "base": "ARDS Network, N Engl J Med 2000 — volume corrente sobre peso predito",
+  "coment": "O volume corrente na ventilação protetora é calculado sobre o peso PREDITO, que depende apenas da altura e do sexo — o pulmão não cresce com a obesidade. Com 52 kg de peso predito, 6 mL/kg resultam em cerca de 310 mL. Usar o peso real, aqui, entregaria quase o dobro e produziria lesão induzida pela ventilação.",
   "porAlt": [
-   "O peso real numa paciente obesa entrega volume muito acima do alvo e produz lesão induzida pela ventilação.",
-   "Não se usa peso ideal por índice de massa corporal: a fórmula do peso predito parte diretamente da altura e do sexo.",
-   "Correta: usa-se o peso predito pela altura, porque o volume pulmonar acompanha a estatura e não a massa corporal.",
-   "Não existe recomendação de média entre peso real e predito para calcular volume corrente na ventilação protetora.",
-   "Peso seco é conceito de balanço hídrico e de diálise, sem relação com o cálculo do volume corrente protetor."
+   "Correta: 6 mL/kg sobre o peso predito de 52 kg.",
+   "O peso real não determina o tamanho do pulmão.",
+   "10 mL/kg abandona a estratégia protetora.",
+   "Combina os dois erros: volume alto sobre peso real.",
+   "Normalizar o dióxido de carbono às custas de volume alto é o oposto da hipercapnia permissiva."
   ]
  },
  {
-  "q": "Paciente em choque séptico está com pressão arterial média de 67 mmHg em noradrenalina, mas mantém tempo de enchimento capilar de 5 segundos, livedo em joelhos e lactato em elevação. Segundo o consenso europeu vigente de choque, como interpretar essa situação?",
+  "q": "Homem de 67 anos está em choque séptico de foco pulmonar na terapia intensiva, após ressuscitação volêmica adequada e antibiótico apropriado. Mantém pressão arterial média de 67 mmHg em noradrenalina 0,25 mcg/kg/min, mas persiste com lactato de 4,2 mmol/L, extremidades frias, livedo em joelhos e débito urinário de 0,3 mL/kg/h. O ecocardiograma mostra contratilidade preservada e a variação de pressão de pulso é de 7%. Qual é a interpretação e a conduta?",
   "alts": [
-   "A meta foi atingida e a conduta correta é apenas observar, pois os sinais de pele são subjetivos demais.",
-   "A meta numérica foi atingida mas a perfusão não, e o alvo deve ser individualizado nesse paciente.",
-   "O alvo pressórico deve ser reduzido para poupar vasopressor, já que a pressão média está acima de 65.",
-   "A perfusão cutânea não integra a monitorização recomendada e não deve orientar decisão terapêutica.",
-   "O lactato elevado indica sempre falha da noradrenalina, que deve ser substituída por adrenalina agora."
+   "Hipoperfusão persistente: reavaliar foco e associar vasopressina",
+   "Perfusão adequada: manter conduta e reavaliar em 12 horas",
+   "Responsividade a volume: expandir com mais 30 mL/kg",
+   "Disfunção sistólica: iniciar dobutamina em dose baixa",
+   "Excesso de vasopressor: reduzir a noradrenalina pela metade"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESICM 2025 — consenso de choque circulatório e monitorização hemodinâmica",
-  "coment": "O consenso recomenda individualizar o alvo de pressão arterial, sugerindo inicialmente pressão média de pelo menos 65 mmHg, com faixa de 65 a 70 mmHg no choque séptico e alvo de pelo menos 80 mmHg no traumatismo cranioencefálico com Glasgow igual ou menor que 8. Também recomenda avaliação seriada da perfusão tecidual e, especificamente, monitorização da perfusão cutânea pelo tempo de enchimento capilar, complementada por temperatura da pele e livedo. Quando a meta numérica é atingida mas a perfusão permanece ruim, o alvo daquele paciente não era 65 — e a reavaliação inclui débito cardíaco, volume e controle de foco.",
+  "base": "Surviving Sepsis Campaign 2021/2026 — alvos de perfusão além da pressão",
+  "coment": "Pressão arterial média na meta não significa perfusão adequada. Lactato elevado, livedo, extremidades frias e oligúria indicam hipoperfusão tecidual persistente, e a primeira pergunta é se o foco está controlado — a causa mais comum de refratariedade. A vasopressina é associada para poupar catecolamina, e o tempo de enchimento capilar é marcador útil de seguimento.",
   "porAlt": [
-   "O tempo de enchimento capilar é recomendação formal de monitorização, e não um dado subjetivo a ser ignorado.",
-   "Correta: o consenso manda individualizar o alvo, e perfusão ruim com pressão na meta indica que aquele alvo era insuficiente.",
-   "Reduzir o alvo diante de hipoperfusão evidente agrava a lesão de órgão que a ressuscitação pretende evitar.",
-   "A perfusão cutânea integra explicitamente as recomendações de monitorização regional do consenso vigente.",
-   "O lactato tem múltiplas causas e não indica por si troca de vasopressor; a adrenalina traz mais arritmia e lactato."
+   "Correta: a pressão na meta não exclui hipoperfusão; reavaliar foco.",
+   "Lactato de 4,2 com livedo e oligúria não é perfusão adequada.",
+   "A variação de 7% indica que ele não responde mais a volume.",
+   "A contratilidade está preservada: inotrópico não se justifica.",
+   "Reduzir o vasopressor com hipoperfusão agrava o quadro."
   ]
  },
  {
-  "q": "Em paciente com choque e cateter venoso central e arterial, a equipe observa saturação venosa central de 74% com diferença veno-arterial de pressão parcial de gás carbônico de 9 mmHg. Como interpretar esse conjunto?",
+  "q": "Homem de 54 anos está na terapia intensiva em choque, com cateter venoso central em veia cava superior e linha arterial. Após ressuscitação volêmica, mantém pressão arterial média de 66 mmHg em noradrenalina, lactato de 4,5 mmol/L, extremidades frias e enchimento capilar de 5 segundos. A saturação venosa central é de 55% e a hemoglobina é de 11,0 g/dL, com saturação arterial de 97%. O ecocardiograma mostra fração de ejeção de 30%. Qual é a interpretação e a conduta?",
   "alts": [
-   "Indica perfusão plenamente adequada, já que a saturação venosa central acima de setenta exclui hipofluxo.",
-   "Aponta hiperóxia tecidual por oferta excessiva de oxigênio, exigindo redução imediata da fração inspirada.",
-   "Reflete apenas erro de coleta, pois os dois marcadores nunca podem apontar direções opostas no choque.",
-   "Confirma anemia grave como causa isolada do quadro, indicando transfusão imediata de concentrado.",
-   "Sugere débito cardíaco insuficiente para o consumo, apesar da saturação venosa aparentemente normal."
+   "Débito cardíaco insuficiente: iniciar inotrópico",
+   "Anemia grave: transfundir hemácias",
+   "Hipoxemia: aumentar a fração inspirada de oxigênio",
+   "Consumo elevado: aprofundar a sedação",
+   "Hipovolemia: expandir com mais volume"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ESICM 2025 — monitorização da perfusão regional, saturação venosa central e Pv-aCO₂",
-  "coment": "O consenso recomenda medidas seriadas da saturação venosa central em pacientes com cateter venoso central e, quando há também cateter arterial, medida seriada da diferença veno-arterial de pressão parcial de gás carbônico. Uma diferença alargada, acima de cerca de 6 mmHg, indica fluxo insuficiente para lavar o gás carbônico produzido pelos tecidos — mesmo quando a saturação venosa central parece tranquilizadora. É o marcador que desmascara o débito insuficiente em pacientes cuja saturação venosa está normal por má distribuição de fluxo, situação comum na sepse.",
+  "base": "Surviving Sepsis Campaign 2021 — saturação venosa central e oferta de oxigênio",
+  "coment": "Saturação venosa central baixa significa extração aumentada de oxigênio, e as causas são oferta insuficiente ou consumo elevado. Com saturação arterial de 97% e hemoglobina de 11 g/dL, os componentes de oxigenação e transporte estão adequados — sobra o débito cardíaco, e a fração de ejeção de 30% confirma. A conduta é inotrópico, tipicamente dobutamina.",
   "porAlt": [
-   "Saturação venosa normal não exclui hipofluxo: na sepse ela pode estar normal por má distribuição do fluxo sanguíneo.",
-   "Hiperóxia tecidual não é o que a diferença alargada indica; ela sinaliza estagnação de fluxo, e não excesso de oferta.",
-   "Os dois marcadores medem coisas diferentes e podem divergir legitimamente — é justamente aí que a Pv-aCO₂ agrega.",
-   "A anemia altera a oferta, mas não explica isoladamente a diferença alargada nem indica transfusão sem outros dados.",
-   "Correta: diferença veno-arterial alargada aponta fluxo insuficiente para lavar o gás carbônico, apesar da saturação venosa normal."
+   "Correta: oferta limitada pelo débito, com disfunção sistólica confirmada.",
+   "Hemoglobina de 11 g/dL não justifica transfusão nesse contexto.",
+   "A saturação arterial de 97% já está adequada.",
+   "Sedar reduz consumo, mas não corrige a disfunção sistólica que é a causa.",
+   "Não há indicação de mais volume com fração de ejeção de 30%."
   ]
  },
  {
-  "q": "Homem de 58 anos em parada cardiorrespiratória por atividade elétrica sem pulso recebe compressões de alta qualidade e acesso venoso. Um residente sugere administrar bicarbonato de sódio e cálcio empiricamente para melhorar a chance de retorno da circulação. Qual é a orientação da diretriz vigente?",
+  "q": "Homem de 58 anos está em parada cardiorrespiratória por atividade elétrica sem pulso há seis minutos, recebendo compressões de alta qualidade e ventilação com bolsa-válvula-máscara. Já recebeu duas doses de adrenalina. Estava internado por diarreia com desidratação grave e insuficiência renal, com último potássio de 7,2 mEq/L e eletrocardiograma prévio mostrando ondas T apiculadas com QRS alargado. Qual é a conduta específica?",
   "alts": [
-   "Ambos devem ser administrados de rotina, por corrigirem a acidose e estabilizarem a membrana já.",
-   "Apenas o bicarbonato é recomendado de rotina, ficando o cálcio reservado às paradas prolongadas.",
-   "Apenas o cálcio é recomendado de rotina, ficando o bicarbonato restrito à parada por afogamento.",
-   "Ambos são recomendados desde que a parada ultrapasse vinte minutos de reanimação sem resposta alguma.",
-   "Nenhum dos dois de rotina: a administração rotineira de ambos não é recomendada na parada do adulto."
+   "Gluconato de cálcio e medidas para hipercalemia",
+   "Desfibrilação imediata com 200 J bifásicos",
+   "Bicarbonato de sódio como medida isolada",
+   "Marca-passo transcutâneo em frequência alta",
+   "Suspender a reanimação por tempo prolongado"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AHA 2025 — Part 9: Adult Advanced Life Support, recomendações classe 3 contra uso rotineiro",
-  "coment": "A diretriz de 2025 é explícita: a administração rotineira de cálcio, de bicarbonato de sódio e de magnésio não é recomendada em adultos em parada cardiorrespiratória, todas com classificação de ausência de benefício. A palavra decisiva é rotina — essas drogas permanecem indicadas em situações específicas, como cálcio e bicarbonato na hipercalemia, bicarbonato na intoxicação por antidepressivo tricíclico e magnésio na torsades de pointes. O que muda desfecho na parada é compressão de alta qualidade, desfibrilação precoce quando o ritmo é chocável e a busca ativa de causa reversível.",
+  "base": "AHA 2025 — causas reversíveis na atividade elétrica sem pulso",
+  "coment": "Na atividade elétrica sem pulso a busca pela causa reversível é o que muda o desfecho. Aqui a hipercalemia grave com alteração eletrocardiográfica prévia é a causa mais provável: administra-se gluconato de cálcio para estabilizar a membrana, seguido de insulina com glicose, bicarbonato e planejamento de diálise. Compressões e adrenalina seguem em paralelo.",
   "porAlt": [
-   "Dar os dois de rotina contraria recomendação explícita e desvia a equipe do que realmente muda desfecho.",
-   "O bicarbonato de rotina foi justamente uma das práticas desaconselhadas, com classificação de ausência de benefício.",
-   "O cálcio de rotina também não é recomendado; sua indicação é específica, como na hipercalemia documentada.",
-   "Não há limiar de tempo que converta essas drogas em conduta de rotina durante a reanimação do adulto.",
-   "Correta: a diretriz de 2025 não recomenda o uso rotineiro de cálcio, bicarbonato nem magnésio na parada do adulto."
+   "Correta: causa reversível identificada, com tratamento específico.",
+   "Atividade elétrica sem pulso não é ritmo chocável.",
+   "O bicarbonato isolado não estabiliza a membrana como o cálcio.",
+   "O marca-passo não trata ausência de contração mecânica.",
+   "O ritmo é organizado e a causa é reversível: não se suspende."
   ]
  },
  {
-  "q": "Paciente é reanimado com sucesso após parada por fibrilação ventricular e permanece comatoso doze horas depois, ainda sob efeito de sedação. A família pergunta sobre o prognóstico neurológico. Qual é a conduta correta?",
+  "q": "Homem de 61 anos foi reanimado após parada por fibrilação ventricular e permanece comatoso 12 horas depois, em ventilação mecânica, sem sedação há quatro horas e sem bloqueio neuromuscular. Não responde a estímulo doloroso, os reflexos pupilares estão presentes e não há mioclonias. A temperatura é de 36,8 °C sob controle ativo, a pressão de 120/72 mmHg e a glicemia de 160 mg/dL. A família pergunta sobre o prognóstico neurológico. Qual é a conduta?",
   "alts": [
-   "Definir o prognóstico agora pelo exame neurológico, confiável já nas primeiras horas após a parada.",
-   "Adiar a definição prognóstica, que deve ser multimodal e tardia, sem efeito residual de sedativo.",
-   "Basear a decisão apenas na duração da reanimação, parâmetro isolado suficiente para prever o desfecho.",
-   "Solicitar somente tomografia de crânio e decidir pelo resultado desse exame isolado nas próximas horas.",
-   "Suspender o suporte se não houver resposta motora em vinte e quatro horas, prazo definido em diretriz."
+   "Adiar a prognosticação para depois de 72 horas, com avaliação multimodal",
+   "Definir prognóstico agora pelo exame neurológico",
+   "Suspender o suporte pela ausência de resposta a estímulo",
+   "Realizar apenas eletroencefalograma e decidir",
+   "Repetir a tomografia de crânio e decidir em 24 horas"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "prev",
   "nivel": "r3",
-  "base": "AHA 2025 — cuidados pós-parada e prognóstico neurológico multimodal",
-  "coment": "A definição prognóstica após parada cardiorrespiratória deve ser multimodal e tardia, combinando exame neurológico seriado, eletroencefalograma, potenciais evocados somatossensitivos, biomarcadores e neuroimagem, sempre depois de afastado o efeito residual de sedativos e bloqueadores neuromusculares. Prognosticar cedo, com sedação em curso, produz profecia autorrealizável: a limitação de suporte baseada em um exame não confiável causa o desfecho que ela previu. Enquanto isso, o cuidado pós-parada segue: evitar hiperóxia e hipoxemia, tratar hipotensão, controlar temperatura e prevenir febre.",
+  "base": "AHA 2025 e ERC — prognosticação neurológica pós-parada",
+  "coment": "A prognosticação neurológica pós-parada só é confiável após pelo menos 72 horas do retorno da circulação, em paciente sem sedação residual, hipotermia ou bloqueio neuromuscular, e deve ser multimodal — exame neurológico, eletroencefalograma, potenciais evocados somatossensitivos, enolase neurônio-específica e imagem. Nenhum achado isolado nas primeiras horas autoriza decisão de limitação.",
   "porAlt": [
-   "O exame neurológico nas primeiras horas, sob sedação, não prediz desfecho e não deve fundamentar decisão.",
-   "Correta: o prognóstico é multimodal e tardio, feito apenas depois de afastado o efeito residual de sedação.",
-   "A duração da reanimação é um dado entre vários e nunca deve ser usada isoladamente para prognosticar.",
-   "A tomografia isolada tem valor limitado nas primeiras horas e não substitui a avaliação multimodal.",
-   "Não existe prazo fixo de vinte e quatro horas para suspender suporte: a decisão exige avaliação completa e tardia."
+   "Correta: multimodal e depois de 72 horas.",
+   "O exame nas primeiras horas não prediz desfecho de forma confiável.",
+   "Suspender o suporte agora é decisão precipitada e irreversível.",
+   "Nenhum exame isolado basta para prognosticar.",
+   "A tomografia isolada não define prognóstico."
   ]
  },
  {
@@ -8928,243 +8928,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 45 anos é trazido após acidente automobilístico, com hipotensão, taquicardia e distensão abdominal. A avaliação primária mostra via aérea pérvia e murmúrio simétrico. Qual é a prioridade após o controle da via aérea e da ventilação?",
+  "q": "Homem de 45 anos é trazido após colisão automobilística em alta velocidade. Está com pressão de 84/50 mmHg, frequência de 128 bpm, pele fria e pálida, Glasgow de 15 e abdome distendido com dor difusa. O murmúrio vesicular é simétrico, a traqueia é central e a pelve é estável. Recebeu 1000 mL de cristaloide aquecido, com elevação transitória da pressão para 100/60 mmHg e queda em seguida. O FAST mostra líquido livre em espaço hepatorrenal. Qual é a conduta?",
   "alts": [
-   "Solicitar tomografia de corpo inteiro antes de qualquer reposição volêmica ou hemocomponente.",
-   "Administrar grande volume de cristaloide isolado até normalizar completamente a pressão arterial.",
-   "Controlar toda hemorragia e repor com sangue, buscando a fonte com exame dirigido e com imagem.",
-   "Iniciar vasopressor em dose alta como primeira medida para corrigir a hipotensão traumática.",
-   "Aguardar avaliação da cirurgia sem qualquer intervenção, mantendo o paciente em observação."
+   "Laparotomia exploradora e protocolo de transfusão maciça",
+   "Tomografia de abdome com contraste",
+   "Repetir expansão com mais 2000 mL de cristaloide",
+   "Lavado peritoneal diagnóstico",
+   "Observação com reavaliação seriada"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ATLS — Advanced Trauma Life Support, 11ª edição, 2024; avaliação primária e choque hemorrágico",
-  "coment": "No trauma, a letra C da avaliação primária significa controlar hemorragia e restaurar circulação. A ressuscitação moderna prioriza hemocomponentes em vez de grandes volumes de cristaloide, que diluem fatores de coagulação, agravam a coagulopatia e a hipotermia. A busca da fonte é dirigida: tórax, abdome, pelve, retroperitônio e ossos longos, com ultrassom à beira do leito. O paciente instável não vai à tomografia — vai ao centro cirúrgico ou tem a fonte controlada primeiro.",
+  "base": "ATLS 11ª edição, 2018 — resposta à volemia e controle de danos",
+  "coment": "Resposta transitória à volemia com FAST positivo indica sangramento intra-abdominal ativo. A conduta é controle cirúrgico imediato, com acionamento do protocolo de transfusão maciça e reanimação com hemocomponentes em proporção equilibrada, limitando o cristaloide para não agravar a coagulopatia dilucional.",
   "porAlt": [
-   "Paciente instável não deve ir à tomografia: a imagem só entra depois da estabilização inicial.",
-   "Grandes volumes de cristaloide agravam coagulopatia, hipotermia e acidose, a tríade letal do trauma.",
-   "Correta: controlar a hemorragia e repor com hemocomponentes, buscando a fonte de forma dirigida.",
-   "O vasopressor não substitui volume e sangue no choque hemorrágico, e mascara a hipovolemia real.",
-   "Aguardar sem intervir em choque hemorrágico permite a progressão para parada por exsanguinação."
+   "Correta: sangramento ativo com resposta transitória vai ao centro cirúrgico.",
+   "A tomografia é para o estável.",
+   "Mais cristaloide agrava a tríade letal sem controlar a fonte.",
+   "O lavado peritoneal foi substituído pelo FAST.",
+   "Observar sangramento ativo é inaceitável."
   ]
  },
  {
-  "q": "Mulher de 26 anos chega com edema de lábios e língua, urticária generalizada, sibilos e pressão de 82/48 mmHg, minutos após ingerir amendoim. Qual é a primeira conduta e a via?",
+  "q": "Mulher de 26 anos, com alergia conhecida a amendoim, chega 20 minutos após ingerir bolo em festa. Apresenta edema de lábios e língua, urticária generalizada, sibilos difusos, náusea e sensação de morte iminente. Está com pressão de 78/42 mmHg, frequência de 132 bpm, frequência respiratória de 30 irpm e saturação de 90% em ar ambiente. Está consciente, com estridor incipiente e dificuldade para engolir a própria saliva. Qual é a conduta imediata?",
   "alts": [
-   "Adrenalina por via subcutânea no braço, que é a via de escolha para reação anafilática grave.",
-   "Corticoide endovenoso em dose alta como primeira droga, já por reverter rapidamente o quadro.",
-   "Adrenalina intramuscular na face anterolateral da coxa, antes de qualquer outra medicação.",
-   "Anti-histamínico endovenoso isolado, suficiente para reverter o broncoespasmo e a hipotensão.",
-   "Expansão volêmica isolada com cristaloide, adiando a adrenalina até a chegada do especialista."
+   "Adrenalina intramuscular na coxa",
+   "Corticoide intravenoso em dose alta",
+   "Anti-histamínico intravenoso isolado",
+   "Adrenalina subcutânea no braço acometido",
+   "Nebulização com salbutamol isolada"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "World Allergy Organization anaphylaxis guidance, 2020; GINA 2026 para asma com anafilaxia",
-  "coment": "A adrenalina intramuscular na face anterolateral da coxa é a primeira e insubstituível medida da anafilaxia, na dose de 0,3 a 0,5 mg no adulto, repetível a cada 5 a 15 minutos. A via intramuscular na coxa atinge pico sérico mais rápido que a subcutânea ou o deltoide. Corticoide e anti-histamínico são adjuvantes e não revertem obstrução de via aérea nem choque. O atraso da adrenalina é o principal fator associado a morte por anafilaxia, e não existe contraindicação absoluta ao seu uso nesse contexto.",
+  "base": "WAO 2020 — anafilaxia: adrenalina intramuscular como primeira linha",
+  "coment": "Anafilaxia com comprometimento respiratório e hipotensão tem tratamento único de primeira linha: adrenalina intramuscular no vasto lateral da coxa, 0,01 mg/kg até 0,5 mg, repetível a cada 5 a 15 minutos. Decúbito com elevação de membros inferiores, oxigênio e volume completam o atendimento. O edema de língua com estridor exige preparo para via aérea difícil.",
   "porAlt": [
-   "A via subcutânea tem absorção mais lenta e errática, sendo inferior à intramuscular na coxa.",
-   "O corticoide leva horas para agir e não reverte a obstrução de via aérea nem a hipotensão.",
-   "Correta: adrenalina intramuscular na face anterolateral da coxa é a primeira medida da anafilaxia.",
-   "O anti-histamínico age sobre prurido e urticária, sem efeito sobre broncoespasmo ou choque.",
-   "Adiar a adrenalina é o principal fator associado a morte por anafilaxia em todas as séries."
+   "Correta: primeira linha, sem substituto.",
+   "O corticoide tem início lento e não atua na fase aguda.",
+   "O anti-histamínico trata urticária, não o colapso.",
+   "A via subcutânea tem absorção errática no choque.",
+   "O broncodilatador é adjuvante, não trata a anafilaxia."
   ]
  },
  {
-  "q": "Homem de 62 anos é encontrado inconsciente. A glicemia capilar é de 32 mg/dL e ele usa glibenclamida. Após correção com glicose hipertônica, recupera a consciência. Qual é a conduta seguinte?",
+  "q": "Homem de 62 anos, diabético em uso de glibenclamida 10 mg ao dia e com doença renal crônica estágio 3, é encontrado inconsciente pela esposa. A glicemia capilar é de 32 mg/dL. Após glicose hipertônica intravenosa recupera a consciência, mas duas horas depois a glicemia volta a 48 mg/dL, apesar de soro glicosado a 10% em infusão contínua. Está com pressão de 132/78 mmHg, frequência de 88 bpm e creatinina de 2,1 mg/dL. Qual é a conduta?",
   "alts": [
-   "Liberar imediatamente após a recuperação, já que a hipoglicemia foi prontamente corrigida agora.",
-   "Prescrever octreotide como primeira medida, dispensando qualquer observação hospitalar posterior.",
-   "Manter infusão de glicose e observar por tempo prolongado, pelo risco de hipoglicemia recorrente.",
-   "Suspender apenas a glibenclamida e liberar, sem necessidade de observação clínica adicional neste caso.",
-   "Iniciar corticoide em dose alta para prevenir a recorrência do episódio hipoglicêmico grave neste caso."
+   "Internar, manter glicose e considerar octreotide",
+   "Alta após a segunda correção, com orientação alimentar",
+   "Suspender apenas a glibenclamida e liberar",
+   "Administrar glucagon intramuscular e observar 2 horas",
+   "Iniciar insulina em dose baixa para estabilizar"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "American Diabetes Association, Standards of Care 2026 — hipoglicemia por sulfonilureia",
-  "coment": "A hipoglicemia por sulfonilureia de longa ação, como a glibenclamida, recorre com frequência depois da correção inicial, porque a meia-vida da droga e de seus metabólitos ultrapassa em muito a duração do bolus de glicose — sobretudo em idosos e na insuficiência renal. Esses pacientes exigem infusão contínua de glicose e observação prolongada, tipicamente de 24 a 48 horas. O octreotide é uma opção adjuvante em hipoglicemia refratária por sulfonilureia, por inibir a secreção de insulina, mas não substitui a observação.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 — hipoglicemia por sulfonilureia e octreotide",
+  "coment": "A hipoglicemia por sulfonilureia é prolongada e recorrente, especialmente com meia-vida alargada pela doença renal. Esses pacientes exigem internação e observação por pelo menos 24 a 48 horas, com infusão contínua de glicose. O octreotide inibe a liberação pancreática de insulina e é o tratamento indicado na hipoglicemia refratária por sulfonilureia.",
   "porAlt": [
-   "Liberar após um bolus de glicose ignora a meia-vida longa da droga e a recorrência esperada do quadro.",
-   "O octreotide é adjuvante em casos refratários, e nunca substitui a observação hospitalar necessária.",
-   "Correta: sulfonilureia de longa ação causa hipoglicemia recorrente e exige glicose contínua com observação.",
-   "Suspender a droga é necessário, mas a que já está circulando continua causando hipoglicemia por horas.",
-   "O corticoide não previne hipoglicemia por sulfonilureia e não tem indicação nesse contexto clínico."
+   "Correta: internar, manter glicose e usar octreotide na recorrência.",
+   "Dar alta com recorrência documentada é conduta perigosa.",
+   "Suspender o fármaco não reverte o que já está circulando.",
+   "O glucagon tem efeito breve e pode estimular mais insulina.",
+   "Insulina em hipoglicemia é erro grave."
   ]
  },
  {
-  "q": "Mulher de 55 anos chega com vômitos incoercíveis e desidratação grave. Está com pressão de 88/54 mmHg, mucosas secas, turgor reduzido e oligúria há doze horas. Qual é a conduta inicial?",
+  "q": "Mulher de 55 anos chega com vômitos incoercíveis há três dias, sem diarreia, incapaz de aceitar líquidos. Está com mucosas secas, turgor reduzido, pressão de 88/54 mmHg em decúbito, frequência de 122 bpm e débito urinário ausente há 12 horas. Os exames mostram sódio de 148 mEq/L, potássio de 2,8 mEq/L, cloro de 92 mEq/L, bicarbonato de 34 mEq/L, ureia de 92 mg/dL e creatinina de 1,9 mg/dL. Qual é o distúrbio e a conduta inicial?",
   "alts": [
-   "Reposição com solução glicosada a cinco por cento, mais fisiológica para corrigir desidratação.",
-   "Iniciar vasopressor de imediato, antes de qualquer reposição volêmica, para elevar a pressão.",
-   "Prescrever apenas antiemético e reavaliar em seis horas, sem qualquer reposição endovenosa.",
-   "Repor com solução hipertônica a três por cento, corrigindo o déficit de volume mais rápido.",
-   "Reposição volêmica com cristaloide isotônico, com reavaliação frequente da resposta clínica."
+   "Alcalose metabólica hipoclorêmica: salina isotônica com potássio",
+   "Acidose metabólica: bicarbonato intravenoso",
+   "Alcalose respiratória: reduzir a frequência respiratória",
+   "Hiponatremia dilucional: restrição hídrica",
+   "Acidose respiratória: ventilação não invasiva"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — ressuscitação volêmica na hipovolemia",
-  "coment": "Na hipovolemia por perdas digestivas, a reposição é feita com cristaloide isotônico — salina ou solução balanceada —, em alíquotas com reavaliação frequente de perfusão, pressão, diurese e sinais de congestão. Solução glicosada distribui-se por toda a água corporal e expande muito pouco o intravascular, sendo inadequada para ressuscitação. Salina hipertônica tem indicações específicas, como hiponatremia sintomática e hipertensão intracraniana. O vasopressor só entra depois de volume adequado, salvo hipotensão ameaçadora.",
+  "base": "Distúrbios ácido-base — alcalose metabólica responsiva ao cloro (revisão UpToDate 2025)",
+  "coment": "A perda de suco gástrico leva embora hidrogênio, cloro e potássio, produzindo alcalose metabólica hipoclorêmica e hipocalêmica, com contração de volume que perpetua o distúrbio. O tratamento é reposição de volume com salina isotônica e potássio — é a chamada alcalose responsiva ao cloro, corrigida ao restaurar volume e cloreto.",
   "porAlt": [
-   "A glicosada se distribui por toda a água corporal e praticamente não expande o intravascular.",
-   "O vasopressor sem volume mascara a hipovolemia e piora a perfusão de órgãos periféricos.",
-   "Antiemético isolado não corrige o déficit de volume nem a hipoperfusão já instalada.",
-   "A hipertônica é reservada a hiponatremia sintomática e hipertensão intracraniana, não à hipovolemia.",
-   "Correta: cristaloide isotônico com reavaliação frequente é a base da reposição na hipovolemia."
+   "Correta: bicarbonato alto com cloro e potássio baixos, corrigidos com salina e potássio.",
+   "O bicarbonato está elevado: não há acidose metabólica.",
+   "Não há dado de hiperventilação como causa primária.",
+   "O sódio está em 148 mEq/L: é hipernatremia, não hiponatremia.",
+   "Não há hipercapnia nem insuficiência ventilatória."
   ]
  },
  {
-  "q": "Homem de 70 anos chega com dor abdominal difusa intensa, desproporcional ao exame físico, e história de fibrilação atrial sem anticoagulação. O lactato está em 4,8 mmol/L e o abdome é pouco doloroso à palpação. Qual é a principal hipótese?",
+  "q": "Homem de 70 anos, hipertenso e com fibrilação atrial sem anticoagulação, chega com dor abdominal difusa de início súbito há seis horas, de forte intensidade e contínua, com dois episódios de vômito. Ao exame, o abdome é flácido e pouco doloroso à palpação, sem defesa, com ruídos hidroaéreos diminuídos — desproporcional à dor referida. Está com pressão de 122/74 mmHg, frequência de 112 bpm irregular, lactato de 5,0 mmol/L, leucócitos de 21.000/mm³ e acidose metabólica. Qual é a hipótese e a conduta?",
   "alts": [
-   "Isquemia mesentérica aguda por embolia, que cursa com dor desproporcional ao exame físico.",
-   "Diverticulite aguda não complicada, que explica a dor difusa e a elevação do lactato sérico.",
-   "Gastroenterite viral, hipótese preferida diante de dor abdominal difusa em pacientes idosos.",
-   "Constipação intestinal crônica agudizada, causa mais comum de dor abdominal nessa faixa etária.",
-   "Pancreatite aguda leve, já que tipicamente cursa com abdome pouco doloroso e lactato elevado."
+   "Isquemia mesentérica: angiotomografia imediata",
+   "Obstrução intestinal: sonda e radiografia seriada",
+   "Pancreatite aguda: amilase e tomografia em 72 horas",
+   "Diverticulite aguda: antibiótico e tratamento clínico",
+   "Gastroenterite aguda: hidratação e antiemético"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "tit",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — isquemia mesentérica aguda",
-  "coment": "A tríade clássica da isquemia mesentérica aguda é dor abdominal intensa e desproporcional aos achados do exame físico, fator de risco embólico — fibrilação atrial sem anticoagulação é o exemplo clássico — e acidose com lactato elevado. O diagnóstico se faz com angiotomografia de abdome, e o atraso é a principal causa de mortalidade, que permanece alta. Nas fases iniciais, o abdome é surpreendentemente inocente à palpação; quando surgem peritonite e defesa, já há necrose transmural instalada.",
+  "base": "AGA 2000 e ESTES 2016 — isquemia mesentérica aguda",
+  "coment": "Dor desproporcional ao exame físico, em idoso com fibrilação atrial não anticoagulada, com lactato elevado e acidose, é isquemia mesentérica aguda até prova em contrário — provavelmente embólica, por oclusão da artéria mesentérica superior. A angiotomografia com fases arterial e venosa deve ser feita imediatamente: o prognóstico depende do tempo até a revascularização.",
   "porAlt": [
-   "Correta: dor desproporcional ao exame com fator embólico e lactato elevado define isquemia mesentérica.",
-   "A diverticulite tem dor localizada, geralmente em fossa ilíaca esquerda, com sinais inflamatórios locais.",
-   "Gastroenterite não explica lactato elevado nem dor intensa em paciente com fator de risco embólico.",
-   "Constipação não causa lactato elevado e não justifica dor desproporcional em paciente com fibrilação.",
-   "A pancreatite cursa com dor epigástrica intensa à palpação e elevação de amilase e lipase."
+   "Correta: o desproporcional é a assinatura da isquemia mesentérica.",
+   "A obstrução cursa com distensão, parada de eliminação e ruídos aumentados.",
+   "A dor da pancreatite é epigástrica em faixa, e adiar imagem 72 horas é inadequado.",
+   "A diverticulite tem dor localizada em fossa ilíaca esquerda com defesa.",
+   "Gastroenterite não explica lactato de 5,0 mmol/L com acidose."
   ]
  },
  {
-  "q": "Mulher de 40 anos com cetoacidose diabética em tratamento apresenta, após seis horas de insulina endovenosa, glicemia de 240 mg/dL com pH de 7,20 e cetonemia ainda positiva. Qual é a conduta?",
+  "q": "Mulher de 40 anos com cetoacidose diabética está em tratamento há seis horas com insulina regular em bomba de infusão e reposição volêmica. Apresenta agora fraqueza muscular difusa, parestesias e extrassístoles frequentes ao monitor. A glicemia caiu de 480 para 260 mg/dL, o pH está em 7,26, o bicarbonato em 14 mEq/L e o ânion gap em 18. O potássio, que era de 4,2 mEq/L na admissão, está agora em 2,9 mEq/L. O débito urinário é adequado. Qual é a conduta?",
   "alts": [
-   "Suspender a insulina agora, pois a glicemia já caiu abaixo do limiar de duzentos e cinquenta.",
-   "Aumentar a insulina sem glicose associada, acelerando a queda da glicemia até a normalização.",
-   "Iniciar bicarbonato de sódio de rotina, indicado sempre que o pH ficar abaixo de sete e trinta.",
-   "Acrescentar solução glicosada e manter a insulina até a resolução completa da cetoacidose.",
-   "Trocar a insulina endovenosa por subcutânea de longa ação, encerrando a fase aguda do tratamento."
+   "Suspender a insulina, repor potássio e retomar depois",
+   "Manter a insulina e repor potássio em paralelo",
+   "Administrar bicarbonato de sódio intravenoso",
+   "Aumentar a infusão de insulina para fechar o ânion gap",
+   "Suspender a hidratação para concentrar o potássio"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "American Diabetes Association, Standards of Care 2026 — manejo da cetoacidose diabética",
-  "coment": "O alvo do tratamento da cetoacidose não é a glicemia, e sim a resolução da cetoacidose: pH acima de 7,30, bicarbonato acima de 18 e fechamento do ânion gap. Quando a glicemia chega a cerca de 200 a 250 mg/dL e a acidose persiste, acrescenta-se solução glicosada e mantém-se a insulina em infusão, para continuar suprimindo a cetogênese sem causar hipoglicemia. Suspender a insulina nesse ponto interrompe a supressão da cetogênese e faz a cetoacidose recrudescer. O bicarbonato não é rotina.",
+  "base": "SBD 2026 e ADA — potássio no tratamento da cetoacidose diabética",
+  "coment": "A insulina desloca potássio para o intracelular e a cetoacidose já cursa com déficit corporal total, mesmo quando o valor inicial parece normal. Com potássio abaixo de 3,3 mEq/L a insulina deve ser SUSPENSA até a reposição corrigir o valor — manter a infusão nesse patamar arrisca arritmia fatal e fraqueza da musculatura respiratória.",
   "porAlt": [
-   "Suspender a insulina com cetonemia ativa faz a cetoacidose recrudescer, prolongando a internação.",
-   "Aumentar insulina sem glicose associada leva a hipoglicemia sem acelerar a resolução da acidose.",
-   "O bicarbonato não é indicado de rotina e fica reservado a acidose muito grave, com pH bem menor.",
-   "Correta: acrescentar glicose e manter a insulina até fechar o ânion gap e resolver a acidose.",
-   "A transição para subcutânea só ocorre após resolução da cetoacidose e com sobreposição das vias."
+   "Correta: abaixo de 3,3 mEq/L, suspender a insulina e repor primeiro.",
+   "Manter a insulina com potássio de 2,9 mEq/L é o erro que mata.",
+   "O bicarbonato só entra com pH abaixo de 6,9 e agrava a hipocalemia.",
+   "Aumentar a insulina agrava a hipocalemia.",
+   "Suspender a hidratação piora a perfusão sem corrigir o potássio."
   ]
  },
  {
-  "q": "Homem de 35 anos é trazido com rebaixamento do nível de consciência, pupilas puntiformes e frequência respiratória de 6 irpm. Há relato de uso de opioide. Qual é a conduta imediata?",
+  "q": "Homem de 35 anos é trazido por familiares com rebaixamento do nível de consciência iniciado há cerca de uma hora. Está com Glasgow de 7, pupilas puntiformes e pouco reativas, frequência respiratória de 7 irpm, saturação de 84% em ar ambiente, pressão de 110/68 mmHg e frequência de 62 bpm. A glicemia capilar é de 102 mg/dL e não há sinais de trauma. A família relata uso de analgésico opioide prescrito após cirurgia recente. Qual é a conduta imediata?",
   "alts": [
-   "Intubar imediatamente sem tentar antídoto, conduta padrão em toda depressão respiratória grave.",
-   "Administrar flumazenil, antídoto indicado na intoxicação por opioide com rebaixamento grave.",
-   "Aguardar a eliminação espontânea da droga, mantendo apenas monitorização em ambiente seguro.",
-   "Prescrever carvão ativado por sonda como medida inicial, mesmo com o paciente rebaixado neste caso.",
-   "Assegurar ventilação e administrar naloxona, titulando a dose conforme a resposta respiratória."
-  ],
-  "gab": 4,
-  "tema": "emergencias",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r1",
-  "base": "Medicina de Emergência: Abordagem Prática, USP, 19ª edição; Harrison's, 22ª edição, 2025",
-  "coment": "A tríade de rebaixamento do nível de consciência, miose puntiforme e depressão respiratória caracteriza intoxicação por opioide. A conduta é assegurar ventilação e administrar naloxona, titulada para restaurar a respiração sem precipitar abstinência abrupta — o alvo é a frequência respiratória, não o despertar completo. A meia-vida da naloxona é curta e pode ser inferior à do opioide, exigindo doses repetidas ou infusão contínua. O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão.",
-  "porAlt": [
-   "A intubação pode ser evitada quando a naloxona reverte a depressão respiratória com segurança.",
-   "O flumazenil reverte benzodiazepínico e pode precipitar convulsão, sem efeito sobre opioide.",
-   "Aguardar a eliminação espontânea mantém a hipoventilação e o risco de parada respiratória.",
-   "Carvão ativado em paciente rebaixado sem via aérea protegida arrisca aspiração pulmonar grave.",
-   "Correta: garantir ventilação e titular naloxona pela resposta respiratória é a conduta imediata."
-  ]
- },
- {
-  "q": "Mulher de 68 anos chega com febre, tosse produtiva e confusão. A frequência respiratória é de 32 irpm, a pressão é de 88/56 mmHg e a ureia está elevada. Qual escore orienta a decisão sobre o local de tratamento e o que ele indica aqui?",
-  "alts": [
-   "O escore de Wells, já que estratifica a gravidade da pneumonia e define o local de tratamento dela.",
-   "O escore de Glasgow, instrumento validado para decidir internação em pneumonia comunitária neste caso.",
-   "O CURB-65, que com quatro critérios presentes indica internação e avaliação de terapia intensiva.",
-   "O escore de Child-Pugh, usado para estimar a gravidade das infecções respiratórias no idoso neste caso.",
-   "O escore de Framingham, que orienta a necessidade de internação nas pneumonias comunitárias neste caso."
-  ],
-  "gab": 2,
-  "tema": "emergencias",
-  "cenario": "emg",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "American Thoracic Society 2025 — Diagnosis and Management of Community-acquired Pneumonia",
-  "coment": "O CURB-65 pontua confusão, ureia elevada, frequência respiratória de 30 irpm ou mais, pressão baixa (sistólica abaixo de 90 ou diastólica de 60 ou menos) e idade de 65 anos ou mais. A paciente reúne quatro critérios, o que indica internação com forte consideração de terapia intensiva. Escores auxiliam mas não substituem o julgamento clínico, que pesa comorbidades, suporte social e capacidade de tomar medicação em casa. Os demais escores citados pertencem a outros contextos clínicos.",
-  "porAlt": [
-   "O escore de Wells estima probabilidade de embolia pulmonar, sem relação com gravidade de pneumonia.",
-   "A escala de Glasgow mede nível de consciência e não estratifica gravidade de pneumonia comunitária.",
-   "Correta: o CURB-65 com quatro critérios indica internação e avaliação de terapia intensiva.",
-   "O Child-Pugh estima gravidade de hepatopatia crônica, sem aplicação em infecção respiratória.",
-   "O escore de Framingham estima risco cardiovascular, sem qualquer papel na decisão de internar."
-  ]
- },
- {
-  "q": "Homem de 50 anos com queimadura de segundo grau em 30% da superfície corporal chega ao pronto-socorro duas horas após o acidente. Qual é a base do manejo inicial das primeiras vinte e quatro horas?",
-  "alts": [
-   "Antibiótico profilático sistêmico de amplo espectro, prevenindo infecção da queimadura.",
-   "Corticoide sistêmico em dose alta, reduzindo o edema e a resposta inflamatória da queimadura.",
-   "Restrição hídrica rigorosa, evitando o edema tecidual que agrava a lesão térmica instalada.",
-   "Reposição volêmica calculada por fórmula, ajustada pela diurese, com analgesia adequada.",
-   "Desbridamento cirúrgico completo imediato, antes de qualquer reposição volêmica endovenosa."
-  ],
-  "gab": 3,
-  "tema": "emergencias",
-  "cenario": "emg",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "ATLS — Advanced Trauma Life Support, 11ª edição, 2024; manejo inicial do grande queimado",
-  "coment": "O manejo inicial do grande queimado se apoia em reposição volêmica calculada por fórmula, tipicamente com cristaloide, metade nas primeiras oito horas contadas do momento da queimadura, e o restante nas dezesseis horas seguintes. O ajuste real é feito pela diurese, mirando 0,5 mL/kg/h no adulto — a fórmula é ponto de partida, não meta rígida. Somam-se analgesia adequada, controle de temperatura, avaliação de via aérea diante de suspeita de lesão inalatória e profilaxia antitetânica. Antibiótico sistêmico profilático não é indicado.",
-  "porAlt": [
-   "O antibiótico sistêmico profilático não reduz infecção no queimado e seleciona germes resistentes.",
-   "O corticoide não faz parte do manejo do grande queimado e aumenta o risco infeccioso.",
-   "Restringir volume no grande queimado leva a hipoperfusão e aprofunda a lesão térmica existente.",
-   "Correta: reposição calculada por fórmula e ajustada pela diurese, com analgesia, é a base inicial.",
-   "O desbridamento tem seu tempo cirúrgico, mas nunca precede a estabilização volêmica inicial."
-  ]
- },
- {
-  "q": "Mulher de 30 anos chega com crise convulsiva tônico-clônica que já dura oito minutos, sem recuperação da consciência entre os episódios. Qual é a conduta imediata?",
-  "alts": [
-   "Benzodiazepínico endovenoso, sempre a primeira linha no estado de mal epiléptico instalado.",
-   "Fenitoína isolada como primeira droga, sem benzodiazepínico prévio, no estado de mal convulsivo.",
-   "Aguardar a resolução espontânea por mais dez minutos antes de qualquer intervenção farmacológica.",
-   "Contenção física isolada, garantindo a segurança da paciente sem administrar qualquer droga.",
-   "Punção lombar imediata antes de qualquer tratamento, para definir a etiologia da crise atual."
+   "Ventilar com bolsa-válvula-máscara e administrar naloxona",
+   "Intubação orotraqueal imediata sem antídoto",
+   "Flumazenil intravenoso em bolus",
+   "Tomografia de crânio antes de qualquer medida",
+   "Carvão ativado por sonda nasogástrica"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Epilepsy Society, 2016, e Harrison's, 22ª edição, 2025 — estado de mal epiléptico",
-  "coment": "Crise com mais de cinco minutos de duração, ou crises sem recuperação da consciência entre elas, define estado de mal epiléptico e exige tratamento imediato. A primeira linha é benzodiazepínico — diazepam ou midazolam endovenoso, ou midazolam intramuscular quando não há acesso —, seguido de droga de segunda linha como fenitoína, fosfenitoína, valproato ou levetiracetam. Em paralelo, corrigem-se causas imediatas: glicemia, eletrólitos, febre e intoxicação. Quanto maior a duração, menor a chance de resposta e maior a lesão neuronal.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 — síndrome opioide",
+  "coment": "A tríade de rebaixamento, miose puntiforme e bradipneia define a síndrome opioide. A prioridade é ventilar — a morte vem da hipoventilação — e administrar naloxona titulada até restaurar a ventilação adequada, não a consciência plena. Com a resposta ao antídoto, a intubação frequentemente se torna desnecessária.",
   "porAlt": [
-   "Correta: o benzodiazepínico endovenoso é a primeira linha do estado de mal epiléptico.",
-   "A fenitoína é droga de segunda linha e não substitui o benzodiazepínico na abordagem inicial.",
-   "Esperar mais dez minutos prolonga a crise, reduz a resposta ao tratamento e agrava a lesão neuronal.",
-   "A contenção isolada não interrompe a atividade epiléptica e pode causar lesão osteomuscular.",
-   "A punção lombar pode ser necessária depois, mas jamais precede o controle da crise em curso."
+   "Correta: ventilar e reverter, nessa ordem.",
+   "A intubação costuma ser evitável com o antídoto.",
+   "O flumazenil é para benzodiazepínico e não atua aqui.",
+   "A imagem não precede o tratamento de síndrome tóxica reconhecível.",
+   "O carvão não tem papel com a via aérea desprotegida e rebaixamento."
+  ]
+ },
+ {
+  "q": "Mulher de 68 anos, hipertensa, chega com febre há dois dias, tosse produtiva e confusão mental nova. Está com frequência respiratória de 32 irpm, pressão de 88/56 mmHg, frequência de 116 bpm, temperatura de 38,9 °C e saturação de 89% em ar ambiente. A ureia é de 68 mg/dL, os leucócitos de 19.200/mm³ e a radiografia mostra consolidação em lobo inferior esquerdo com pequeno derrame. Qual é a pontuação no CURB-65 e a conduta?",
+  "alts": [
+   "Quatro pontos: internação, avaliar terapia intensiva",
+   "Um ponto: tratamento ambulatorial com amoxicilina",
+   "Dois pontos: internação em enfermaria por 48 horas",
+   "Zero ponto: alta com reavaliação em 72 horas",
+   "Três pontos: enfermaria, dispensando culturas"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "BTS 2009 e IDSA/ATS 2019 — pneumonia comunitária: CURB-65",
+  "coment": "O CURB-65 soma confusão, ureia acima de 50 mg/dL, frequência respiratória igual ou maior que 30 irpm, pressão sistólica abaixo de 90 mmHg ou diastólica igual ou menor que 60 mmHg, e idade igual ou maior que 65 anos. Aqui há confusão, ureia de 68, frequência de 32 e idade de 68 — quatro pontos, com mortalidade alta e indicação de internação com avaliação para terapia intensiva.",
+  "porAlt": [
+   "Correta: quatro critérios preenchidos, com indicação de cuidado intensivo.",
+   "Um ponto não corresponde aos critérios presentes.",
+   "Dois pontos subestima a gravidade deste caso.",
+   "Zero ponto seria paciente sem nenhum critério.",
+   "Três pontos também subestima, e culturas estão indicadas na grave."
+  ]
+ },
+ {
+  "q": "Homem de 50 anos, 80 kg, chega ao pronto-socorro duas horas após incêndio, com queimaduras de segundo grau em tronco anterior, membros superiores e coxas, estimadas em 30% da superfície corporal pela regra dos nove. As lesões são róseas, dolorosas e com flictenas. Está com pressão de 112/70 mmHg, frequência de 108 bpm, Glasgow de 15, sem rouquidão, fuligem ou queimadura de vibrissas. Qual é o volume de reposição nas primeiras 24 horas e como distribuí-lo?",
+  "alts": [
+   "9.600 mL de Ringer lactato, metade nas primeiras 8 horas",
+   "4.800 mL de salina isotônica, distribuídos igualmente",
+   "2.400 mL de Ringer lactato em 24 horas",
+   "9.600 mL de coloide nas primeiras 8 horas",
+   "Reposição apenas oral, por estar consciente"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ATLS 11ª edição, 2018 — fórmula de Parkland",
+  "coment": "A fórmula de Parkland prevê 4 mL por quilo por porcentagem de superfície queimada nas primeiras 24 horas: 4 × 80 × 30 = 9.600 mL de Ringer lactato. Metade é infundida nas primeiras 8 horas contadas do momento da queimadura — não da chegada —, e o restante nas 16 horas seguintes, com ajuste pela diurese de 0,5 a 1 mL/kg/h.",
+  "porAlt": [
+   "Correta: cálculo e distribuição corretos, com contagem desde a lesão.",
+   "O volume está subestimado e a distribuição, errada.",
+   "Corresponde a 1 mL/kg por porcentagem, muito abaixo do necessário.",
+   "Coloide nas primeiras 24 horas não é o padrão inicial.",
+   "A via oral é insuficiente em queimadura de 30%."
+  ]
+ },
+ {
+  "q": "Mulher de 30 anos, epiléptica em uso irregular de carbamazepina, chega em crise tônico-clônica generalizada que já dura oito minutos, sem recuperação da consciência entre os abalos. Está com saturação de 88%, frequência de 128 bpm, pressão de 138/84 mmHg, temperatura de 37,4 °C e glicemia capilar de 96 mg/dL. Tem acesso venoso periférico. Não há sinais de trauma ou febre. Qual é a conduta imediata?",
+  "alts": [
+   "Benzodiazepínico intravenoso em dose adequada",
+   "Fenitoína intravenosa como primeira medida",
+   "Tomografia de crânio antes de medicar",
+   "Intubação orotraqueal imediata",
+   "Glicose hipertônica intravenosa"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "American Epilepsy Society 2016 — estado de mal epiléptico",
+  "coment": "Crise com mais de cinco minutos de duração define estado de mal epiléptico e exige tratamento imediato. A primeira linha é benzodiazepínico em dose adequada — diazepam ou midazolam intravenoso —, e a subdose é o erro mais comum. A segunda linha, com fenitoína, fosfenitoína, valproato ou levetiracetam, vem depois da falha do benzodiazepínico.",
+  "porAlt": [
+   "Correta: benzodiazepínico em dose adequada é a primeira linha.",
+   "A fenitoína é segunda linha, após o benzodiazepínico.",
+   "A imagem não precede o controle da crise.",
+   "A intubação entra na falha do controle ou na via aérea comprometida.",
+   "A glicemia já está normal."
   ]
  },
  {
@@ -13968,243 +13968,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com choque séptico por foco abdominal, já com antibiótico e 30 mL/kg de cristaloide, mantém pressão arterial média de 58 mmHg. Qual é o próximo passo?",
+  "q": "Homem de 59 anos com choque séptico por peritonite secundária a perfuração de cólon já recebeu antibiótico de amplo espectro e 30 mL/kg de cristaloide, além de laparotomia com lavagem há quatro horas. Mantém pressão arterial média de 58 mmHg, frequência de 128 bpm, lactato de 5,0 mmol/L, débito urinário de 0,2 mL/kg/h e extremidades frias. A variação de pressão de pulso é de 6% e a cava inferior está pouco distensível. Qual é a conduta?",
   "alts": [
-   "Manter apenas a expansão volêmica com mais dez litros de cristaloide antes de qualquer vasopressor.",
-   "Iniciar noradrenalina como vasopressor de primeira escolha, sempre com alvo de pressão média de 65 mmHg.",
-   "Iniciar dopamina como vasopressor preferencial nesse contexto pelo melhor perfil de segurança clínica.",
-   "Iniciar dobutamina isolada como primeira droga vasoativa diante da hipotensão persistente descrita.",
-   "Administrar corticoide em dose alta isolado como primeira medida antes de qualquer droga vasoativa já."
+   "Iniciar noradrenalina com alvo de pressão média de 65",
+   "Nova expansão com 30 mL/kg de cristaloide",
+   "Transfundir para hemoglobina acima de 10 g/dL",
+   "Iniciar corticoide antes de qualquer vasopressor",
+   "Reoperar de imediato, adiando a estabilização"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign — International Guidelines, 2021 com atualização 2024",
-  "coment": "No choque séptico, após a expansão inicial de trinta mililitros por quilo, o vasopressor de primeira escolha é a noradrenalina, com alvo de pressão arterial média de 65 mmHg. A dopamina é evitada por maior incidência de arritmias. Vasopressina é acrescentada quando a dose de noradrenalina sobe, e a dobutamina se reserva a disfunção miocárdica com sinais de hipoperfusão apesar de pressão adequada. Corticoide entra na dependência persistente de vasopressor.",
+  "base": "Surviving Sepsis Campaign 2021/2026 — vasopressor após a ressuscitação inicial",
+  "coment": "Sem responsividade a volume e ainda hipotenso após a ressuscitação inicial, o passo é vasopressor: noradrenalina como primeira escolha, com alvo de pressão arterial média de 65 mmHg. O corticoide entra depois, se houver refratariedade à noradrenalina em dose crescente; e a reavaliação do foco corre em paralelo, não no lugar da estabilização.",
   "porAlt": [
-   "Expansão indefinida causa sobrecarga volêmica, edema pulmonar e piora do desfecho no choque.",
-   "Correta: noradrenalina como vasopressor de primeira escolha, com alvo de pressão média de 65 mmHg.",
-   "A dopamina tem mais arritmias e não é a escolha preferencial no choque séptico atualmente.",
-   "A dobutamina é inotrópico e pode agravar a hipotensão quando usada sem vasopressor associado.",
-   "O corticoide se reserva ao choque com dependência persistente de vasopressor, não como primeira medida."
+   "Correta: sem responsividade a volume, o passo é vasopressor.",
+   "Mais volume em quem não responde causa congestão.",
+   "O alvo transfusional liberal foi abandonado na sepse.",
+   "O corticoide vem depois, no choque refratário a vasopressor.",
+   "A estabilização e a reavaliação do foco correm juntas, não uma no lugar da outra."
   ]
  },
  {
-  "q": "Paciente em parada cardiorrespiratória com ritmo de fibrilação ventricular. Qual é a conduta imediata?",
+  "q": "Homem de 58 anos entra em parada cardiorrespiratória presenciada na sala de emergência enquanto era avaliado por dor torácica. O monitor mostra fibrilação ventricular de amplitude grossa. A equipe já iniciou compressões torácicas e o desfibrilador está carregado e disponível ao lado do leito. Há dois acessos venosos periféricos e o carrinho de parada está montado. Qual é a conduta imediata?",
   "alts": [
-   "Administrar adrenalina antes de qualquer tentativa de desfibrilação nesse ritmo do monitor.",
-   "Realizar cardioversão sincronizada, modalidade indicada para a fibrilação ventricular identificada.",
-   "Checar o pulso imediatamente após o choque antes de retomar as compressões torácicas externas.",
-   "Iniciar apenas ventilação com bolsa-válvula-máscara sem qualquer compressão ou desfibrilação.",
-   "Desfibrilação imediata seguida sempre de retomada das compressões torácicas sem checar o pulso."
+   "Desfibrilação imediata seguida de compressões",
+   "Adrenalina 1 mg antes de qualquer choque",
+   "Amiodarona 300 mg em bolus primeiro",
+   "Intubação orotraqueal antes do choque",
+   "Dois minutos de compressões antes de desfibrilar"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Heart Association Guidelines for CPR and ECC, 2020 com atualização 2025; ERC Guidelines, 2021",
-  "coment": "Fibrilação ventricular é ritmo chocável e a desfibrilação imediata é a intervenção que define o desfecho, com benefício que cai a cada minuto de atraso. Após o choque, retomam-se as compressões por dois minutos sem checar pulso, para não interromper a perfusão coronariana recém-restabelecida. A adrenalina em ritmo chocável é administrada após o terceiro choque, e a amiodarona é considerada na fibrilação refratária.",
+  "base": "AHA 2025 — suporte avançado de vida: ritmos chocáveis",
+  "coment": "Fibrilação ventricular é ritmo chocável e, com desfibrilador disponível em parada presenciada, o choque é a prioridade absoluta — cada minuto de atraso reduz a sobrevida em cerca de 10%. Retoma-se a compressão imediatamente após o choque, sem checar pulso, e a adrenalina entra depois do segundo choque; a amiodarona, depois do terceiro.",
   "porAlt": [
-   "A adrenalina em ritmo chocável vem após o terceiro choque, sem preceder a desfibrilação inicial.",
-   "A cardioversão sincronizada é impossível na fibrilação ventricular, que não tem onda R para sincronizar.",
-   "Checar pulso logo após o choque interrompe as compressões e reduz a perfusão coronariana.",
-   "A ventilação isolada não trata a fibrilação ventricular nem gera qualquer perfusão coronariana.",
-   "Correta: desfibrilar imediatamente e retomar as compressões por dois minutos sem checar pulso."
+   "Correta: ritmo chocável com desfibrilador pronto, o choque vem primeiro.",
+   "A adrenalina em ritmo chocável vem depois do segundo choque.",
+   "A amiodarona entra após o terceiro choque, na refratariedade.",
+   "A via aérea avançada não precede a desfibrilação.",
+   "Aguardar compressões só se aplica quando o desfibrilador ainda não chegou."
   ]
  },
  {
-  "q": "Paciente politraumatizado com hipotensão, taquicardia e ausência de murmúrio vesicular à direita com timpanismo. Qual é a conduta imediata?",
+  "q": "Homem de 34 anos é trazido após colisão frontal de automóvel. Está agitado, com pressão de 82/50 mmHg, frequência de 132 bpm, frequência respiratória de 34 irpm e saturação de 86% em máscara de alto fluxo. O murmúrio vesicular está ausente no hemitórax direito, há hipertimpanismo à percussão, desvio da traqueia para a esquerda e turgência jugular. A pelve é estável e o abdome é flácido. Qual é a conduta imediata?",
   "alts": [
-   "Descompressão torácica imediata seguida sempre de drenagem definitiva do espaço pleural acometido.",
-   "Solicitar radiografia de tórax antes de qualquer intervenção sobre o quadro respiratório do paciente.",
-   "Iniciar apenas oxigênio suplementar em alto fluxo e reavaliar clinicamente após quinze minutos.",
-   "Realizar tomografia de tórax de urgência antes de qualquer descompressão pleural ser realizada.",
-   "Realizar intubação orotraqueal isolada como conduta suficiente para a estabilização desse paciente."
+   "Descompressão torácica imediata por punção",
+   "Radiografia de tórax antes de intervir",
+   "Intubação orotraqueal e ventilação com pressão positiva",
+   "Reposição volêmica rápida com dois litros",
+   "Tomografia de tórax para confirmar o diagnóstico"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS — Advanced Trauma Life Support, 11ª edição, 2024",
-  "coment": "O pneumotórax hipertensivo é diagnóstico clínico e o tratamento não deve aguardar imagem: hipotensão, taquicardia, ausência de murmúrio vesicular com hipertimpanismo e, tardiamente, desvio de traqueia. A conduta é descompressão imediata, por punção com agulha no quinto espaço intercostal na linha axilar anterior ou por toracostomia com dedo, seguida de drenagem torácica definitiva. Aguardar radiografia pode custar a vida do paciente em minutos.",
+  "base": "ATLS 11ª edição, 2018 — pneumotórax hipertensivo",
+  "coment": "Ausência de murmúrio com hipertimpanismo, desvio de traqueia, turgência jugular e choque define pneumotórax hipertensivo — diagnóstico clínico, tratamento imediato. A descompressão por punção no quinto espaço intercostal na linha axilar média precede qualquer exame, e é seguida de drenagem torácica formal.",
   "porAlt": [
-   "Correta: descompressão imediata seguida de drenagem torácica definitiva do espaço pleural acometido.",
-   "A radiografia atrasa uma intervenção que salva a vida em um diagnóstico essencialmente clínico.",
-   "O oxigênio isolado não descomprime a cavidade pleural e não corrige o comprometimento do retorno venoso.",
-   "A tomografia é inadequada no paciente instável e apenas atrasaria a descompressão necessária.",
-   "A intubação sem descompressão pode agravar o quadro pela ventilação com pressão positiva."
+   "Correta: diagnóstico clínico com descompressão antes de qualquer imagem.",
+   "Esperar radiografia num quadro que mata em minutos é erro grave.",
+   "A pressão positiva antes da descompressão agrava o colapso circulatório.",
+   "Volume não corrige choque obstrutivo.",
+   "A tomografia é ainda mais demorada e igualmente desnecessária."
   ]
  },
  {
-  "q": "Paciente com intoxicação por opioide, com rebaixamento de consciência, pupilas puntiformes e frequência respiratória de 6 por minuto. Qual é a conduta?",
+  "q": "Homem de 26 anos é encontrado inconsciente em via pública com seringa ao lado. Está com Glasgow de 6, pupilas puntiformes bilateralmente e pouco reativas, frequência respiratória de 6 irpm, saturação de 82% em ar ambiente, pressão de 104/62 mmHg e frequência de 58 bpm. A glicemia capilar é de 98 mg/dL e não há sinais de trauma. A ausculta pulmonar é limpa. Qual é a conduta imediata?",
   "alts": [
-   "Administrar flumazenil endovenoso imediatamente como antídoto de escolha para o quadro descrito neste caso.",
-   "Realizar lavagem gástrica de rotina em todos os casos antes de qualquer suporte ventilatório instituído.",
-   "Administrar carvão ativado em dose alta como primeira medida no paciente com rebaixamento profundo agora.",
-   "Aguardar a metabolização espontânea do opioide sem qualquer intervenção sobre a via aérea do paciente agora.",
-   "Suporte ventilatório e naloxona titulada, sempre buscando restaurar a ventilação sem precipitar abstinência."
+   "Naloxona intravenosa com suporte ventilatório",
+   "Intubação orotraqueal antes de qualquer antídoto",
+   "Flumazenil intravenoso em bolus",
+   "Carvão ativado por sonda nasogástrica",
+   "Tomografia de crânio antes de intervir"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AHA Guidelines — Opioid-Associated Emergency, 2023; Ministério da Saúde — manejo de intoxicações agudas, 2022",
-  "coment": "A tríade de rebaixamento, miose puntiforme e depressão respiratória caracteriza intoxicação por opioide. A prioridade é a ventilação, seguida de naloxona titulada por via endovenosa, intramuscular ou intranasal, com o objetivo de restaurar a respiração adequada e não de despertar completamente o paciente, evitando abstinência aguda e agitação. A meia-vida da naloxona é curta, exigindo observação prolongada e eventual infusão contínua.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 — síndrome opioide e naloxona",
+  "coment": "A tríade de rebaixamento, miose puntiforme e depressão respiratória define intoxicação por opioide. A naloxona é o antídoto e deve ser titulada para restaurar a ventilação, não a consciência plena — doses altas precipitam abstinência. Ventilação com bolsa-válvula-máscara é feita em paralelo, e muitas vezes a intubação se torna desnecessária.",
   "porAlt": [
-   "O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão em intoxicações mistas.",
-   "A lavagem gástrica é inútil para opioide já absorvido e arriscada no paciente com rebaixamento.",
-   "O carvão ativado é contraindicado sem via aérea protegida pelo risco elevado de broncoaspiração.",
-   "Aguardar sem suporte permite parada respiratória, que é a causa de morte nessa intoxicação.",
-   "Correta: suporte ventilatório e naloxona titulada para restaurar a ventilação sem precipitar abstinência."
+   "Correta: antídoto titulado com suporte ventilatório concomitante.",
+   "A intubação costuma ser evitável com a naloxona.",
+   "O flumazenil é para benzodiazepínico e não atua aqui.",
+   "O carvão não tem papel na intoxicação injetável.",
+   "A imagem não precede o tratamento de uma síndrome tóxica reconhecível."
   ]
  },
  {
-  "q": "Paciente com anafilaxia por picada de inseto, com urticária, broncoespasmo e hipotensão. Qual é a primeira medida?",
+  "q": "Mulher de 31 anos é picada por abelha no braço e, em quinze minutos, desenvolve urticária generalizada, edema de lábios, sensação de aperto na garganta, sibilos difusos e tontura. Está com pressão de 76/44 mmHg, frequência de 128 bpm, frequência respiratória de 28 irpm e saturação de 91%. Já teve reação leve a picada anterior. Está consciente, ansiosa e com estridor incipiente. Qual é a conduta imediata?",
   "alts": [
-   "Corticoide endovenoso em dose alta como primeira medida no tratamento da anafilaxia com hipotensão.",
-   "Anti-histamínico endovenoso isolado, primeira medida recomendada no manejo da reação anafilática grave.",
-   "Adrenalina endovenosa em bolus rápido como via preferencial no atendimento inicial da anafilaxia agora.",
-   "Adrenalina intramuscular na face lateral da coxa, administrada sempre antes de qualquer outra medicação.",
-   "Broncodilatador inalatório isolado como primeira medida para o controle completo do quadro descrito."
+   "Adrenalina intramuscular na face lateral da coxa",
+   "Anti-histamínico intravenoso como primeira medida",
+   "Corticoide intravenoso em dose alta primeiro",
+   "Adrenalina subcutânea no braço acometido",
+   "Broncodilatador inalatório isolado"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "World Allergy Organization Anaphylaxis Guidance, atualização 2024; EAACI guideline on anaphylaxis, 2021",
-  "coment": "A adrenalina intramuscular na face anterolateral da coxa é a primeira e insubstituível medida na anafilaxia, em dose de 0,01 mg/kg até 0,5 mg, repetível a cada cinco a quinze minutos. Corticoide e anti-histamínico são adjuvantes que não tratam a obstrução de via aérea nem o choque e nunca devem retardar a adrenalina. A via endovenosa em bolus é reservada a ambiente monitorizado por risco de arritmia e isquemia miocárdica.",
+  "base": "WAO 2020 — anafilaxia: adrenalina intramuscular como primeira linha",
+  "coment": "A anafilaxia tem um único tratamento de primeira linha: adrenalina intramuscular no vasto lateral da coxa, 0,01 mg/kg até 0,5 mg, repetível a cada 5 a 15 minutos. A via intramuscular na coxa alcança pico plasmático mais rápido que a subcutânea. Anti-histamínico e corticoide são adjuvantes e não substituem a adrenalina nem previnem a evolução.",
   "porAlt": [
-   "O corticoide tem início lento e não trata a obstrução de via aérea nem a hipotensão imediata.",
-   "O anti-histamínico alivia urticária e prurido, mas não reverte broncoespasmo nem choque.",
-   "A adrenalina endovenosa em bolus tem risco de arritmia e se reserva a ambiente monitorizado.",
-   "Correta: adrenalina intramuscular na face lateral da coxa, antes de qualquer outra medicação adjuvante.",
-   "O broncodilatador é adjuvante para o broncoespasmo e não trata a hipotensão da anafilaxia."
+   "Correta: primeira linha, via intramuscular na coxa.",
+   "O anti-histamínico trata urticária, não o colapso circulatório.",
+   "O corticoide tem início lento e não atua na fase aguda.",
+   "A via subcutânea tem absorção errática, especialmente em choque.",
+   "O broncodilatador é adjuvante do broncoespasmo, não da anafilaxia."
   ]
  },
  {
-  "q": "Paciente vítima de queimadura de 30% da superfície corporal, com pele em couro e sem dor nas áreas acometidas. Qual é a conduta inicial de reposição volêmica?",
+  "q": "Homem de 42 anos é trazido após incêndio domiciliar com queimaduras em tronco anterior, ambos os membros superiores e face anterior das coxas, totalizando 30% da superfície corporal. As áreas afetadas têm aspecto de couro, coloração esbranquiçada e nacarada, são secas e indolores à punção. Pesa 70 kg, está com pressão de 108/70 mmHg, frequência de 112 bpm e Glasgow de 15. A queimadura ocorreu há uma hora. Qual é a classificação e a reposição volêmica?",
   "alts": [
-   "Reposição inicial exclusivamente com coloide nas primeiras vinte e quatro horas após a queimadura agora.",
-   "Reposição com cristaloide guiada por fórmula e ajustada sempre pelo débito urinário horário do paciente.",
-   "Restringir líquidos nas primeiras horas para reduzir o edema de tecidos acometidos pela queimadura.",
-   "Transfundir hemácias como primeira medida de reposição volêmica no grande queimado sem sangramento.",
-   "Repor apenas por via oral, mesmo em queimaduras extensas com essa área de superfície corporal acometida."
+   "Terceiro grau; Parkland com 4 mL/kg por porcentagem queimada",
+   "Segundo grau superficial; hidratação oral",
+   "Terceiro grau; reposição guiada apenas pela diurese",
+   "Segundo grau profundo; 2 mL/kg por porcentagem",
+   "Primeiro grau; apenas curativo e analgesia"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2024; American Burn Association clinical practice guidelines, revisão 2023",
-  "coment": "A queimadura de espessura total, com aspecto de couro e indolor pela destruição de terminações nervosas, exige reposição volêmica calculada pela fórmula de Parkland — cerca de 2 a 4 mL por quilo por porcentagem de superfície queimada com Ringer lactato nas primeiras vinte e quatro horas, metade nas primeiras oito horas contadas do trauma. A fórmula é apenas ponto de partida: o ajuste real é feito pelo débito urinário, mantido entre 0,5 e 1 mL/kg/h no adulto.",
+  "base": "ATLS 11ª edição, 2018 — classificação da queimadura e fórmula de Parkland",
+  "coment": "Aspecto de couro, coloração nacarada, superfície seca e ausência de dor indicam queimadura de espessura total — terceiro grau —, porque as terminações nervosas foram destruídas. A fórmula de Parkland prevê 4 mL por quilo por porcentagem de superfície queimada em 24 horas, metade nas primeiras 8 horas contadas do momento da lesão, com ajuste pela diurese de 0,5 a 1 mL/kg/h.",
   "porAlt": [
-   "O coloide exclusivo não é recomendado nas primeiras horas da ressuscitação do grande queimado.",
-   "Correta: cristaloide pela fórmula, com ajuste contínuo guiado pelo débito urinário horário do paciente.",
-   "Restringir líquidos no grande queimado leva a choque hipovolêmico e lesão renal aguda evitável.",
-   "A transfusão não é reposição volêmica inicial na queimadura sem perda sanguínea associada.",
-   "A via oral é insuficiente para reposição em queimadura extensa, que exige acesso venoso calibroso."
+   "Correta: espessura total, com Parkland a partir da hora da queimadura.",
+   "Segundo grau superficial é doloroso, róseo e com bolhas.",
+   "A diurese ajusta a reposição, mas não substitui a estimativa inicial.",
+   "O aspecto descrito não é de segundo grau profundo.",
+   "Primeiro grau é eritema doloroso sem flictenas."
   ]
  },
  {
-  "q": "Paciente com hipotermia grave, temperatura central de 28 °C, em parada cardiorrespiratória. Qual é a conduta?",
+  "q": "Homem de 52 anos é resgatado após passar a noite exposto ao frio em região serrana. Chega em parada cardiorrespiratória, com temperatura esofágica de 28 °C, rigidez muscular e pupilas fixas. O monitor mostra fibrilação ventricular. A equipe iniciou compressões e obteve acesso intraósseo. Já foram administrados dois choques sem reversão. Não há sinais de lesão incompatível com a vida nem rigidez cadavérica verdadeira. Qual é a conduta?",
   "alts": [
-   "Declarar o óbito após vinte minutos de reanimação sem resposta, mesmo com a temperatura central baixa agora.",
-   "Administrar doses habituais de adrenalina em intervalos usuais durante toda a reanimação do paciente agora.",
-   "Aplicar choques repetidos indefinidamente na mesma temperatura sem qualquer tentativa de reaquecimento já.",
-   "Interromper as compressões torácicas durante todo o processo de reaquecimento ativo do paciente neste caso.",
-   "Manter reanimação prolongada com reaquecimento ativo, pois não se declara óbito sempre antes do aquecimento."
+   "Reaquecer ativamente e prolongar a reanimação",
+   "Suspender a reanimação por assistolia refratária",
+   "Administrar adrenalina a cada 3 minutos normalmente",
+   "Aquecer apenas passivamente com cobertores",
+   "Declarar óbito após o terceiro choque"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "European Resuscitation Council Guidelines — Special Circumstances, 2021; AHA Guidelines, atualização 2025",
-  "coment": "Na hipotermia grave o metabolismo cerebral está muito reduzido e a recuperação neurológica é possível mesmo após reanimação prolongada, o que sustenta o princípio de que ninguém está morto até estar quente e morto. Abaixo de 30 °C, limitam-se as tentativas de desfibrilação e adiam-se as drogas, cujos intervalos são espaçados entre 30 e 35 °C. O reaquecimento ativo, idealmente extracorpóreo nos casos com parada, é conduzido junto da reanimação.",
+  "base": "AHA 2025 — situações especiais: parada na hipotermia acidental",
+  "coment": "Na hipotermia grave a regra é que ninguém está morto até estar quente e morto: o metabolismo reduzido protege o cérebro e há relatos de recuperação neurológica íntegra após reanimações prolongadas. Abaixo de 30 °C limitam-se os choques e espaçam-se os fármacos, que se acumulam sem efeito; o reaquecimento ativo — idealmente com circulação extracorpórea — é a medida definitiva.",
   "porAlt": [
-   "Vinte minutos é intervalo insuficiente para decidir na hipotermia grave, em que há recuperação tardia.",
-   "As drogas são adiadas abaixo de 30 °C e administradas em intervalos espaçados entre 30 e 35 °C.",
-   "Choques repetidos sem reaquecimento raramente revertem a fibrilação no miocárdio muito frio.",
-   "As compressões são mantidas durante o reaquecimento, pois sustentam a perfusão do paciente.",
-   "Correta: reanimação prolongada com reaquecimento ativo, sem declarar óbito antes de aquecer o paciente."
+   "Correta: reaquecer é o tratamento, e a reanimação se prolonga.",
+   "Suspender antes do reaquecimento é decisão precipitada.",
+   "Abaixo de 30 °C os fármacos se acumulam e são espaçados.",
+   "O reaquecimento passivo é insuficiente na hipotermia grave.",
+   "Declarar óbito em hipotermia sem reaquecer é erro clássico."
   ]
  },
  {
-  "q": "Paciente com síndrome coronariana aguda sem supradesnivelamento de ST, com troponina elevada e escore GRACE de risco alto. Qual é a conduta?",
+  "q": "Homem de 64 anos, diabético, chega com dor torácica em repouso há duas horas, agora sem dor. Está com pressão de 138/84 mmHg e frequência de 82 bpm. O eletrocardiograma mostra infradesnivelamento de ST de 1,5 mm em V4 a V6. A troponina de alta sensibilidade é de 180 ng/L na chegada e 520 ng/L após uma hora. O escore GRACE é de 148 pontos e não há instabilidade hemodinâmica, arritmia ou insuficiência cardíaca. Qual é a conduta?",
   "alts": [
-   "Estratégia invasiva precoce com coronariografia em até vinte e quatro horas, sempre com terapia antitrombótica.",
-   "Estratégia conservadora com alta precoce e reavaliação ambulatorial em trinta dias após o evento agudo agora.",
-   "Trombólise sistêmica imediata, tratamento indicado para essa apresentação sem supradesnivelamento de ST agora.",
-   "Apenas teste ergométrico ambulatorial em uma semana, sem qualquer terapia antitrombótica na internação agora.",
-   "Anticoagulação isolada por seis semanas sem qualquer avaliação anatômica das artérias coronárias neste caso."
+   "Coronariografia em até 24 horas",
+   "Fibrinólise imediata",
+   "Coronariografia em menos de 2 horas",
+   "Estratégia conservadora com teste funcional",
+   "Alta com reavaliação ambulatorial"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC Guidelines for the management of acute coronary syndromes, 2023; Diretriz Brasileira de SCA sem supra de ST — SBC, 2021",
-  "coment": "Na síndrome coronariana aguda sem supradesnivelamento de ST com risco alto — troponina elevada, alterações dinâmicas de ST, escore GRACE acima de 140 —, a estratégia invasiva precoce com coronariografia em até vinte e quatro horas reduz eventos isquêmicos. Associa-se antiagregação dupla, anticoagulação parenteral, betabloqueador e estatina de alta potência. Trombólise não tem indicação nessa apresentação e aumenta o risco de sangramento sem benefício.",
+  "base": "ACC/AHA 2025 — SCA sem supra: estratificação e tempo da coronariografia",
+  "coment": "Troponina em curva ascendente e GRACE acima de 140 classificam como risco alto, com indicação de estratégia invasiva precoce em até 24 horas. A estratégia imediata, abaixo de 2 horas, exige risco muito alto — instabilidade, choque, arritmia ameaçadora, dor refratária ou insuficiência cardíaca aguda —, ausentes aqui. Fibrinólise não tem lugar sem supradesnivelamento.",
   "porAlt": [
-   "Correta: estratégia invasiva precoce em até vinte e quatro horas, com terapia antitrombótica associada.",
-   "A alta precoce em paciente de risco alto expõe a infarto e óbito no período de maior vulnerabilidade.",
-   "A trombólise não é indicada nessa apresentação e aumenta o risco hemorrágico sem qualquer benefício.",
-   "O teste ergométrico é inadequado no paciente de alto risco com troponina elevada e dor recente.",
-   "A anticoagulação isolada não define a anatomia nem trata a lesão culpada responsável pelo evento."
+   "Correta: risco alto pela curva de troponina e pelo GRACE.",
+   "A fibrinólise sem supra causa dano sem benefício.",
+   "O risco muito alto exige instabilidade, que ele não tem.",
+   "A conservadora é para risco baixo.",
+   "Alta com troponina ascendente é inaceitável."
   ]
  },
  {
-  "q": "Paciente com hemorragia digestiva alta e instabilidade hemodinâmica, com hemoglobina de 6,2 g/dL. Qual é a estratégia transfusional?",
+  "q": "Mulher de 66 anos, em uso de anti-inflamatório para dor lombar, chega com hematêmese e melena há seis horas. Está com pressão de 84/52 mmHg, frequência de 124 bpm, extremidades frias e Glasgow de 14. A hemoglobina é de 6,2 g/dL, as plaquetas de 190.000/mm³ e o RNI de 1,1. Já recebeu 1000 mL de cristaloide, com resposta parcial. Não usa anticoagulante e não tem doença hepática conhecida. Qual é a conduta?",
   "alts": [
-   "Estratégia liberal com alvo de hemoglobina acima de 10 g/dL em todos os pacientes com sangramento agora.",
-   "Não transfundir enquanto a hemoglobina permanecer acima de 5 g/dL, independentemente da instabilidade.",
-   "Transfundir apenas plasma fresco congelado, sem qualquer concentrado de hemácias no paciente instável.",
-   "Transfundir apenas plaquetas, componente indicado como reposição inicial nesse sangramento digestivo.",
-   "Estratégia restritiva com alvo de hemoglobina em torno de 7 g/dL, sempre reavaliando a resposta clínica."
+   "Transfundir concentrado de hemácias e endoscopia precoce",
+   "Transfundir apenas se a hemoglobina cair abaixo de 5 g/dL",
+   "Endoscopia eletiva em 72 horas, após estabilizar",
+   "Plasma fresco congelado antes de transfundir hemácias",
+   "Balão de Sengstaken-Blakemore de imediato"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "AABB/ICTMG red blood cell transfusion guidelines, 2023; ESGE guideline on nonvariceal upper GI hemorrhage, 2021",
-  "coment": "Ensaios clínicos mostraram que a estratégia transfusional restritiva, com alvo de hemoglobina em torno de 7 g/dL, reduz mortalidade e ressangramento na hemorragia digestiva alta em comparação à liberal, sobretudo no cirrótico, porque a transfusão excessiva eleva a pressão portal. Em coronariopatas o alvo pode ser um pouco maior, em torno de 8 g/dL. A decisão sempre considera o sangramento ativo e a resposta clínica, não apenas o número.",
+  "base": "ESGE 2021 — hemorragia digestiva alta não varicosa",
+  "coment": "Hemorragia digestiva alta com instabilidade e hemoglobina de 6,2 g/dL exige transfusão — a estratégia restritiva tem alvo de 7 g/dL, mas o gatilho sobe diante de instabilidade ou sangramento ativo. A endoscopia deve ser feita em até 24 horas, e em até 12 horas quando há instabilidade ou suspeita de sangramento varicoso. Inibidor de bomba de prótons intravenoso entra em paralelo.",
   "porAlt": [
-   "A estratégia liberal aumentou mortalidade e ressangramento nos ensaios clínicos comparativos.",
-   "Aguardar até 5 g/dL em paciente instável com sangramento ativo é conduta de risco inaceitável.",
-   "O plasma se indica na coagulopatia documentada e não substitui a reposição de hemácias.",
-   "As plaquetas se repõem conforme a contagem e o sangramento, não como reposição inicial isolada.",
-   "Correta: estratégia restritiva com alvo em torno de 7 g/dL, reavaliando resposta e sangramento ativo."
+   "Correta: transfundir e levar à endoscopia precoce.",
+   "O gatilho de 7 g/dL vale para o estável, não para quem está em choque.",
+   "Adiar 72 horas com sangramento ativo aumenta mortalidade.",
+   "Não há coagulopatia: o RNI é de 1,1.",
+   "O balão é para varizes refratárias, e não há doença hepática aqui."
   ]
  },
  {
-  "q": "Paciente com trauma cranioencefálico grave e Glasgow de 6. Qual é a conduta imediata quanto à via aérea e à pressão?",
+  "q": "Homem de 29 anos é trazido após queda de moto sem capacete. Está com Glasgow de 6 — abertura ocular à dor, resposta verbal com sons incompreensíveis e flexão anormal —, pupila direita de 5 mm pouco reativa e esquerda de 3 mm. A pressão é de 142/78 mmHg, a frequência de 58 bpm e a saturação de 92% em máscara. Há vômito e sangue em cavidade oral. O colar cervical está posicionado. Qual é a conduta imediata quanto à via aérea?",
   "alts": [
-   "Manter apenas máscara de oxigênio e permitir hipotensão leve para reduzir o edema cerebral instalado.",
-   "Intubação orotraqueal para proteção da via aérea e evitar sempre hipotensão e hipoxemia secundárias.",
-   "Hiperventilar de rotina e de forma prolongada todos os pacientes com esse escore de coma de Glasgow já.",
-   "Administrar manitol de rotina em todos os pacientes antes de qualquer avaliação por neuroimagem.",
-   "Adiar a intubação até o resultado da tomografia de crânio para não interferir na avaliação neurológica."
+   "Intubação em sequência rápida com estabilização cervical",
+   "Máscara laríngea como via aérea definitiva",
+   "Oxigênio por máscara e tomografia imediata",
+   "Cricotireoidostomia de urgência",
+   "Ventilação com bolsa-válvula-máscara até a tomografia"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Brain Trauma Foundation Guidelines for the Management of Severe TBI, 4ª edição com atualização 2023; ATLS 11ª edição, 2024",
-  "coment": "Glasgow igual ou menor que 8 indica intubação para proteção da via aérea. As duas agressões secundárias que mais pioram o desfecho no trauma cranioencefálico grave são hipotensão e hipoxemia, de modo que manter pressão sistólica adequada e saturação acima de noventa por cento é prioridade. Hiperventilação profilática prolongada é deletéria por vasoconstrição e isquemia, reservando-se à herniação iminente como medida temporária.",
+  "base": "ATLS 11ª edição, 2018 — via aérea no trauma cranioencefálico grave",
+  "coment": "Glasgow igual ou menor que 8 no trauma é indicação de via aérea definitiva. Com vômito e sangue em orofaringe o risco de aspiração é imediato. A intubação em sequência rápida, com estabilização cervical manual em linha, é o padrão — e a anisocoria com bradicardia e hipertensão sugere herniação, o que torna a proteção da via aérea e o controle da ventilação ainda mais urgentes.",
   "porAlt": [
-   "Permitir hipotensão piora a perfusão cerebral e é um dos maiores determinantes de mau desfecho.",
-   "Correta: intubar para proteger a via aérea e evitar hipotensão e hipoxemia, as agressões secundárias.",
-   "A hiperventilação prolongada causa vasoconstrição e isquemia, sendo reservada à herniação iminente.",
-   "O manitol é usado diante de sinais de hipertensão intracraniana, e não de rotina em todos os casos.",
-   "Adiar a intubação com Glasgow de 6 expõe o paciente a broncoaspiração e hipoxemia evitáveis."
+   "Correta: Glasgow ≤ 8 com risco de aspiração pede via aérea definitiva.",
+   "A máscara laríngea é dispositivo de resgate, não definitivo no trauma.",
+   "Levar à tomografia sem via aérea protegida é arriscado.",
+   "A via cirúrgica é para falha da intubação ou impossibilidade de ventilar.",
+   "A bolsa-válvula-máscara não protege contra aspiração."
   ]
  },
  {
@@ -16248,243 +16248,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com suspeita de sepse chega ao pronto-socorro com lactato de 4,5 mmol/L e hipotensão. Qual é o conjunto de medidas iniciais?",
+  "q": "Homem de 64 anos, diabético, chega ao pronto-socorro com febre há dois dias, tosse produtiva e confusão mental nova. Está com pressão de 84/52 mmHg, frequência de 118 bpm, frequência respiratória de 28 irpm, temperatura de 38,7 °C e saturação de 91% em ar ambiente. O lactato inicial é de 4,5 mmol/L, leucócitos de 18.400/mm³ e creatinina de 1,8 mg/dL. A radiografia mostra consolidação em lobo inferior direito. Qual é o conjunto de medidas da primeira hora?",
   "alts": [
-   "Aguardar as culturas e iniciar o antibiótico apenas após a identificação do agente etiológico responsável.",
-   "Iniciar corticoide em dose alta isolado como primeira medida antes de qualquer antibiótico ou volume agora.",
-   "Culturas, antibiótico na primeira hora, cristaloide e lactato seriado, com vasopressor sempre se necessário.",
-   "Restringir a oferta de volume em todos os pacientes com hipotensão e lactato elevado na sepse neste caso.",
-   "Transfundir hemácias como primeira medida em todos os pacientes sépticos com lactato acima de quatro agora."
+   "Cultura, antibiótico, cristaloide 30 mL/kg e lactato seriado",
+   "Antibiótico isolado, aguardando as culturas",
+   "Cristaloide 10 mL/kg e reavaliação em 6 horas",
+   "Vasopressor antes da reposição volêmica",
+   "Tomografia de tórax antes do antibiótico"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Surviving Sepsis Campaign, 2021 com atualização 2024; Instituto Latino-Americano de Sepse — protocolo, 2023",
-  "coment": "O pacote inicial da sepse inclui dosar lactato e repeti-lo, colher culturas antes do antibiótico, administrar antimicrobiano de amplo espectro na primeira hora no choque séptico, iniciar cristaloide de trinta mililitros por quilo na hipotensão ou lactato acima de quatro, e usar vasopressor para manter pressão arterial média de 65 mmHg. A precocidade do antibiótico é a variável mais associada à sobrevida nesse conjunto de medidas.",
+  "base": "Surviving Sepsis Campaign 2021/2026 — pacote de primeira hora",
+  "coment": "O pacote de primeira hora reúne: colher lactato e hemoculturas antes do antibiótico, administrar antimicrobiano de amplo espectro, iniciar cristaloide 30 mL/kg na hipotensão ou lactato acima de 4 mmol/L, e dosar novo lactato. O vasopressor entra se a pressão arterial média não alcança 65 mmHg apesar do volume — não antes dele.",
   "porAlt": [
-   "Aguardar identificação do agente atrasa horas o antibiótico e aumenta muito a mortalidade.",
-   "O corticoide não substitui antibiótico e volume, entrando no choque com vasopressor persistente.",
-   "Correta: culturas, antibiótico na primeira hora, cristaloide e lactato seriado, com vasopressor se necessário.",
-   "A restrição volêmica inicial no choque séptico hipotenso contraria a ressuscitação recomendada.",
-   "A transfusão não é medida inicial e o alvo transfusional na sepse é restritivo, sem hemorragia."
+   "Correta: é o pacote de primeira hora completo.",
+   "Antibiótico sem volume deixa a hipoperfusão sem tratar.",
+   "Volume insuficiente e reavaliação tardia atrasam a ressuscitação.",
+   "O vasopressor vem depois do volume, salvo congestão evidente.",
+   "Nenhum exame de imagem deve atrasar o antibiótico na sepse."
   ]
  },
  {
-  "q": "Paciente com queda de saturação e dispneia súbita no pós-operatório de artroplastia de quadril, com taquicardia. Qual é a hipótese principal?",
+  "q": "Mulher de 72 anos, no terceiro dia após artroplastia total de quadril, apresenta dispneia súbita e queda de saturação para 88% em ar ambiente. Está com frequência de 118 bpm, frequência respiratória de 28 irpm, pressão de 122/76 mmHg e ausculta pulmonar sem estertores. A panturrilha direita está discretamente edemaciada. O eletrocardiograma mostra taquicardia sinusal e a radiografia de tórax é normal. Usava enoxaparina profilática. Qual é a conduta inicial?",
   "alts": [
-   "Crise asmática de início súbito, principal hipótese diagnóstica no pós-operatório de artroplastia de quadril.",
-   "Tromboembolismo pulmonar, cuja investigação exige sempre estratificação de probabilidade antes da imagem.",
-   "Pneumonia bacteriana instalada em poucas horas, hipótese mais provável nesse contexto pós-operatório.",
-   "Anemia ferropriva crônica descompensada, causa mais provável da dispneia súbita nesse cenário clínico.",
-   "Refluxo gastroesofágico agudizado, principal hipótese para a hipoxemia súbita no pós-operatório recente."
+   "Angiotomografia de tórax",
+   "Dosar dímero D e liberar se negativo",
+   "Broncoscopia de urgência",
+   "Ecocardiograma transtorácico",
+   "Iniciar antibiótico para pneumonia"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r1",
-  "base": "ESC Guidelines on acute pulmonary embolism, 2019 com atualização 2024; ASH VTE guidelines, 2020",
-  "coment": "Dispneia e hipoxemia súbitas com taquicardia no pós-operatório de cirurgia ortopédica de grande porte apontam tromboembolismo pulmonar, pois esse cenário reúne os três elementos da tríade de Virchow: estase, lesão endotelial e hipercoagulabilidade. A abordagem começa pela estratificação de probabilidade com escores como Wells ou Genebra, definindo se cabe dímero-D ou se vai direto à angiotomografia de tórax.",
+  "base": "AHA/ACC 2026 — tromboembolismo pulmonar: probabilidade pré-teste e imagem",
+  "coment": "Dispneia súbita com hipoxemia e radiografia normal, em pós-operatório ortopédico recente, coloca a embolia pulmonar como primeira hipótese, com probabilidade pré-teste alta. Nessa faixa o dímero D não exclui — está quase sempre elevado no pós-operatório — e a angiotomografia é o exame de escolha. Profilaxia em uso não afasta o diagnóstico.",
   "porAlt": [
-   "A crise asmática cursa com sibilância e história prévia de asma, ausentes na descrição do caso.",
-   "Correta: tromboembolismo pulmonar, com estratificação de probabilidade orientando a investigação.",
-   "A pneumonia bacteriana costuma cursar com febre e evolução em dias, e não com início súbito.",
-   "A anemia crônica não causa hipoxemia súbita nem explica o quadro descrito no pós-operatório.",
-   "O refluxo não causa hipoxemia súbita com taquicardia no pós-operatório de artroplastia."
+   "Correta: probabilidade alta exige imagem confirmatória direta.",
+   "O dímero D é inútil como exclusão no pós-operatório recente.",
+   "Não há suspeita de obstrução de via aérea.",
+   "O ecocardiograma pode sugerir sobrecarga direita, mas não exclui embolia.",
+   "A radiografia normal e a ausculta limpa não sustentam pneumonia."
   ]
  },
  {
-  "q": "Paciente intubado em ventilação mecânica por síndrome do desconforto respiratório agudo. Qual é a estratégia ventilatória correta?",
+  "q": "Homem de 58 anos, 1,75 m, está intubado por síndrome do desconforto respiratório agudo secundária a pneumonia comunitária, com relação entre pressão parcial de oxigênio e fração inspirada de 140 e infiltrados bilaterais. O peso predito calculado pela altura é de 70 kg e o peso real é de 92 kg. Está em ventilação controlada a volume, sedado e sem esforço respiratório, com FiO₂ de 0,7 e PEEP de 10 cmH₂O. A pressão de platô é de 32 cmH₂O e a complacência estática está reduzida. Qual é a estratégia ventilatória?",
   "alts": [
-   "Volume corrente alto para melhorar a oxigenação e reduzir rapidamente a hipercapnia do paciente ventilado.",
-   "Volume corrente baixo com pressão de platô limitada, mantendo sempre PEEP ajustada e hipercapnia permissiva.",
-   "Pressão de platô acima de trinta e cinco centímetros de água para recrutar completamente os alvéolos agora.",
-   "PEEP zero em todos os pacientes para reduzir o risco de barotrauma durante a ventilação mecânica agora.",
-   "Fração inspirada de oxigênio mantida em cem por cento durante todo o período de ventilação mecânica agora."
+   "Volume corrente de 6 mL/kg de peso predito",
+   "Volume corrente de 10 mL/kg de peso real",
+   "Manter pressão de platô até 40 cmH₂O",
+   "PEEP mínima para baixar a pressão de platô",
+   "Hiperventilar para normalizar o dióxido de carbono"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ATS/ESICM/SCCM Clinical Practice Guideline on mechanical ventilation in ARDS, atualização 2023; ARDSNet protocol",
-  "coment": "A ventilação protetora reduz mortalidade na síndrome do desconforto respiratório agudo: volume corrente de seis mililitros por quilo de peso predito, pressão de platô mantida abaixo de trinta centímetros de água, driving pressure abaixo de quinze e PEEP titulada conforme a gravidade da hipoxemia. Aceita-se hipercapnia permissiva desde que o pH se mantenha aceitável. Posição prona por dezesseis horas é indicada na hipoxemia grave.",
+  "base": "ARDS Network, N Engl J Med 2000 — ventilação protetora na SDRA",
+  "coment": "A ventilação protetora reduz mortalidade: volume corrente de 6 mL/kg de peso PREDITO — calculado pela altura e pelo sexo, nunca pelo peso real —, pressão de platô abaixo de 30 cmH₂O e PEEP titulada. A hipercapnia permissiva é aceita para manter esses limites, e a pressão de distensão abaixo de 15 cmH₂O é alvo adicional.",
   "porAlt": [
-   "Volume corrente alto causa lesão induzida pela ventilação e aumenta a mortalidade nessa síndrome.",
-   "Correta: volume corrente baixo, platô limitado, PEEP ajustada e hipercapnia permissiva tolerada.",
-   "Pressão de platô acima de trinta centímetros de água associa-se a maior lesão alveolar e mortalidade.",
-   "PEEP zero favorece colapso alveolar cíclico e piora a oxigenação e a lesão pulmonar.",
-   "Manter fração inspirada de cem por cento causa toxicidade pelo oxigênio e atelectasia de absorção."
+   "Correta: é a estratégia protetora que reduziu mortalidade no ARDSNet.",
+   "Volume alto e peso real produzem lesão induzida pela ventilação.",
+   "Platô acima de 30 cmH₂O aumenta a lesão alveolar.",
+   "PEEP baixa favorece colapso cíclico e piora a oxigenação.",
+   "Normalizar o dióxido de carbono às custas de volume alto é o erro que a hipercapnia permissiva evita."
   ]
  },
  {
-  "q": "Paciente com choque cardiogênico pós-infarto, com hipotensão, extremidades frias e congestão pulmonar. Qual é a conduta?",
+  "q": "Homem de 66 anos, no primeiro dia após infarto anterior extenso tratado com angioplastia primária tardia, evolui com hipotensão progressiva. Está com pressão de 80/50 mmHg, frequência de 122 bpm, extremidades frias, livedo reticular, lactato de 5,2 mmol/L e débito urinário de 0,2 mL/kg/h nas últimas quatro horas. O ecocardiograma mostra fração de ejeção de 22% sem defeito mecânico ou derrame pericárdico. A saturação venosa central é de 50% e há estertores até os terços médios. Qual é a conduta?",
   "alts": [
-   "Revascularização precoce com suporte hemodinâmico, associando sempre inotrópico e vasopressor conforme a resposta.",
-   "Reposição volêmica agressiva com grandes volumes de cristaloide como primeira e única medida terapêutica agora.",
-   "Betabloqueador endovenoso em dose alta como primeira medida diante do choque cardiogênico descrito neste caso.",
-   "Diurético isolado em dose alta como única medida no paciente hipotenso com extremidades frias nesse contexto.",
-   "Aguardar melhora espontânea por vinte e quatro horas antes de qualquer intervenção coronariana indicada agora."
+   "Noradrenalina associada a dobutamina",
+   "Expandir com 30 mL/kg de cristaloide",
+   "Betabloqueador para reduzir a frequência",
+   "Diurético em dose alta, isolado",
+   "Apenas oxigênio suplementar e observação"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ESC Guidelines for the management of acute coronary syndromes, 2023; AHA scientific statement on cardiogenic shock, revisão 2023",
-  "coment": "No choque cardiogênico pós-infarto, a revascularização precoce da artéria culpada é a intervenção que reduz mortalidade, e deve ser feita o mais rápido possível. O suporte inclui noradrenalina como vasopressor preferido e dobutamina como inotrópico, monitorização hemodinâmica e, em casos selecionados, dispositivos de assistência circulatória. Betabloqueador endovenoso é contraindicado no choque, e a expansão volêmica agressiva agrava a congestão.",
+  "base": "ESC 2021 — choque cardiogênico: vasopressor, inotrópico e suporte mecânico",
+  "coment": "É choque cardiogênico: hipoperfusão com congestão e saturação venosa baixa. A noradrenalina restaura a pressão de perfusão e a dobutamina aumenta o débito; a expansão volêmica agrava a congestão já presente. Se não houver resposta, discute-se suporte circulatório mecânico e revascularização — a reperfusão é o que muda o prognóstico.",
   "porAlt": [
-   "Correta: revascularização precoce com suporte hemodinâmico, associando inotrópico e vasopressor.",
-   "A expansão agressiva agrava a congestão pulmonar sem corrigir a falência de bomba instalada.",
-   "O betabloqueador endovenoso é contraindicado no choque cardiogênico por reduzir ainda mais o débito.",
-   "O diurético isolado no paciente hipotenso e hipoperfundido agrava a hipoperfusão dos órgãos.",
-   "Aguardar vinte e quatro horas perde a janela em que a revascularização reduz a mortalidade."
+   "Correta: vasopressor com inotrópico, e suporte mecânico se refratário.",
+   "Volume com estertores difusos e fração de 22% piora a congestão.",
+   "Betabloqueador no choque cardiogênico é contraindicado.",
+   "Diurético isolado em hipoperfusão agrava a instabilidade.",
+   "Observar choque com lactato de 5,2 mmol/L é inaceitável."
   ]
  },
  {
-  "q": "Paciente com rebaixamento de consciência e glicemia capilar de 35 mg/dL. Qual é a conduta imediata?",
+  "q": "Homem de 74 anos, diabético em uso de glibenclamida e insulina NPH, é encontrado pela filha com rebaixamento do nível de consciência e sudorese fria, cerca de quatro horas após o almoço. Está com Glasgow de 10, glicemia capilar de 35 mg/dL, pressão de 138/82 mmHg, frequência de 96 bpm e sem déficit focal. Tem acesso venoso periférico calibroso já obtido. A filha relata que ele almoçou pouco e aplicou a dose habitual de insulina. Qual é a conduta imediata?",
   "alts": [
-   "Aguardar a confirmação laboratorial da glicemia antes de qualquer administração de glicose ao paciente.",
-   "Administrar insulina regular endovenosa para estabilizar o metabolismo do paciente com rebaixamento.",
-   "Administrar glicose endovenosa imediatamente, considerando sempre tiamina antes em pacientes de risco.",
-   "Oferecer apenas líquidos açucarados por via oral em paciente com rebaixamento importante de consciência.",
-   "Realizar tomografia de crânio antes de qualquer correção da glicemia capilar encontrada no exame."
+   "Glicose hipertônica intravenosa em bolus",
+   "Glicose oral em gel pela boca",
+   "Glucagon intramuscular e observação domiciliar",
+   "Soro glicosado a 5% em infusão lenta",
+   "Aguardar glicemia laboratorial antes de tratar"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "AHA/ACLS guidance, atualização 2025; Ministério da Saúde — manejo das emergências glicêmicas, 2022",
-  "coment": "A hipoglicemia é causa reversível de rebaixamento de consciência e deve ser corrigida imediatamente com glicose hipertônica endovenosa, sem aguardar confirmação laboratorial. Em etilistas e desnutridos, administra-se tiamina antes ou junto da glicose, para prevenir encefalopatia de Wernicke. A via oral é contraindicada no paciente com rebaixamento pelo risco de broncoaspiração. Após a correção, investiga-se a causa e mantém-se observação prolongada.",
+  "base": "SBD 2026 — manejo da hipoglicemia grave",
+  "coment": "Hipoglicemia com rebaixamento de consciência e acesso venoso disponível é tratada com glicose hipertônica intravenosa em bolus, seguida de infusão contínua e reavaliação. A via oral está contraindicada pelo risco de aspiração. Com sulfonilureia envolvida, a hipoglicemia recorre — internação e observação prolongada são obrigatórias, e o octreotide entra na refratariedade.",
   "porAlt": [
-   "Aguardar confirmação laboratorial prolonga a neuroglicopenia e pode causar dano cerebral permanente.",
-   "A insulina agrava a hipoglicemia e é exatamente o oposto do que o paciente necessita agora.",
-   "Correta: glicose endovenosa imediata, com tiamina antes ou junto em pacientes de risco nutricional.",
-   "A via oral é contraindicada no rebaixamento de consciência pelo risco elevado de broncoaspiração.",
-   "A tomografia não deve preceder a correção de uma causa metabólica reversível e imediata."
+   "Correta: via intravenosa, rápida, com o paciente rebaixado.",
+   "A via oral no rebaixado arrisca aspiração.",
+   "O glucagon é alternativa sem acesso venoso, e alta domiciliar com sulfonilureia é perigosa.",
+   "Soro a 5% em infusão lenta não corrige rapidamente.",
+   "Esperar o laboratório atrasa o tratamento de uma glicemia capilar já diagnóstica."
   ]
  },
  {
-  "q": "Paciente com intoxicação por benzodiazepínico isolado, sonolento mas com via aérea pérvia e ventilação adequada. Qual é a conduta?",
+  "q": "Homem de 34 anos é trazido pela família após ingestão de aproximadamente 40 comprimidos de clonazepam há três horas, em tentativa de autoextermínio. Está sonolento mas desperta ao chamado, com Glasgow de 13, pupilas médias reativas, pressão de 118/72 mmHg, frequência de 76 bpm, frequência respiratória de 14 irpm e saturação de 97% em ar ambiente. Nega uso de outras substâncias e o eletrocardiograma é normal. Qual é a conduta?",
   "alts": [
-   "Administrar flumazenil de rotina em todos os pacientes com intoxicação por benzodiazepínico atendidos.",
-   "Realizar lavagem gástrica de rotina mesmo várias horas após a ingestão do medicamento pelo paciente.",
-   "Administrar naloxona endovenosa como antídoto de escolha para a intoxicação benzodiazepínica descrita.",
-   "Intubar imediatamente todos os pacientes sonolentos por benzodiazepínico, mesmo com ventilação adequada.",
-   "Observação com suporte e monitorização, reservando sempre o flumazenil a situações muito selecionadas."
+   "Suporte clínico e monitorização",
+   "Flumazenil intravenoso em bolus",
+   "Intubação orotraqueal profilática",
+   "Lavagem gástrica com sonda calibrosa",
+   "Hemodiálise de urgência imediata"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AACT/EAPCCT position papers on gastrointestinal decontamination, revisão 2023; Ministério da Saúde — intoxicações agudas, 2022",
-  "coment": "A intoxicação isolada por benzodiazepínico costuma ter curso benigno e o tratamento é de suporte, com monitorização e proteção da via aérea se houver deterioração. O flumazenil é reservado a casos muito selecionados, porque pode precipitar convulsão em usuários crônicos e em intoxicações mistas com antidepressivos tricíclicos. A naloxona é antídoto de opioide. Lavagem gástrica tardia não é recomendada e traz risco de aspiração.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 — benzodiazepínicos e flumazenil",
+  "coment": "Na intoxicação isolada por benzodiazepínico, com via aérea pérvia e ventilação adequada, o tratamento é de suporte: monitorização, oxigênio e observação. O flumazenil é evitado — pode precipitar convulsão refratária em usuários crônicos ou em coingestão com tricíclicos, e a abstinência aguda é de difícil manejo. O benefício raramente supera o risco.",
   "porAlt": [
-   "O flumazenil de rotina pode precipitar convulsão em usuários crônicos e em intoxicações mistas.",
-   "A lavagem gástrica tardia não é recomendada e expõe o paciente a broncoaspiração e lesão.",
-   "A naloxona reverte opioide e não tem efeito sobre a intoxicação por benzodiazepínico.",
-   "A intubação se indica na perda de proteção da via aérea, ausente neste paciente ventilando bem.",
-   "Correta: suporte e monitorização, com flumazenil restrito a situações muito selecionadas."
+   "Correta: suporte e observação, sem antagonista.",
+   "O flumazenil pode precipitar convulsão de difícil controle.",
+   "Não há indicação de intubação com Glasgow de 13 e ventilação adequada.",
+   "A lavagem gástrica saiu da rotina e tem mais risco que benefício.",
+   "O benzodiazepínico não é dialisável de forma útil."
   ]
  },
  {
-  "q": "Paciente com trauma abdominal fechado, instável hemodinamicamente, com FAST positivo. Qual é a conduta?",
+  "q": "Homem de 28 anos é trazido após colisão de motocicleta em alta velocidade, sem capacete. Está com pressão de 78/44 mmHg, frequência de 134 bpm, pele fria e pálida, Glasgow de 14 e abdome distendido, doloroso difusamente, com descompressão dolorosa. O murmúrio vesicular é simétrico, a traqueia é central e a pelve é estável à compressão. Recebeu 1000 mL de cristaloide aquecido sem melhora sustentada da pressão. O FAST mostra líquido livre em Morrison e em pelve. Qual é a conduta?",
   "alts": [
-   "Solicitar tomografia de abdome com contraste antes de qualquer intervenção cirúrgica no paciente instável.",
-   "Laparotomia de urgência, pois a instabilidade com líquido livre indica sempre controle cirúrgico imediato.",
-   "Observação clínica por vinte e quatro horas com reavaliação seriada do exame físico do abdome neste caso.",
-   "Realizar apenas lavado peritoneal diagnóstico e aguardar o resultado antes de qualquer conduta cirúrgica.",
-   "Prescrever apenas analgesia e repouso, sem qualquer intervenção cirúrgica ou monitorização intensiva."
+   "Laparotomia exploradora imediata",
+   "Tomografia de abdome com contraste",
+   "Repetir o FAST em 30 minutos",
+   "Lavado peritoneal diagnóstico",
+   "Transfusão e observação em terapia intensiva"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS — Advanced Trauma Life Support, 11ª edição, 2024",
-  "coment": "No trauma abdominal fechado com instabilidade hemodinâmica e FAST positivo, o paciente vai direto para a sala de cirurgia: a tomografia exige paciente estável e transportá-lo instável para o tomógrafo é conduta reconhecidamente perigosa. A laparotomia busca o controle rápido do sangramento, dentro da estratégia de controle de danos, que prioriza hemostasia e controle de contaminação sobre a reconstrução definitiva imediata.",
+  "base": "ATLS 11ª edição, 2018 — trauma abdominal fechado com instabilidade",
+  "coment": "Trauma abdominal fechado com instabilidade hemodinâmica e FAST positivo é indicação de laparotomia imediata — a imagem já respondeu à pergunta e levar o paciente instável à tomografia é perder tempo em corredor. A tomografia é para o estável; o lavado peritoneal foi substituído pelo FAST.",
   "porAlt": [
-   "A tomografia exige estabilidade hemodinâmica e transportar o paciente instável é perigoso.",
-   "Correta: laparotomia de urgência, pois instabilidade com líquido livre indica controle cirúrgico imediato.",
-   "Observar por vinte e quatro horas o paciente instável permite exsanguinação e óbito evitável.",
-   "O lavado peritoneal foi substituído pelo FAST, que já está positivo e dispensa exame adicional.",
-   "Analgesia e repouso não controlam a hemorragia intra-abdominal ativa que causa a instabilidade."
+   "Correta: instável com FAST positivo vai direto ao centro cirúrgico.",
+   "A tomografia é para o estável.",
+   "Repetir exame em paciente em choque atrasa o controle do sangramento.",
+   "O lavado peritoneal foi substituído pelo ultrassom.",
+   "Transfundir sem controlar a fonte não resolve o sangramento."
   ]
  },
  {
-  "q": "Paciente com acidente ofídico por Bothrops, com dor local, edema progressivo e sangramento gengival. Qual é a conduta?",
+  "q": "Homem de 41 anos, lavrador, é picado por serpente no dorso do pé há duas horas enquanto trabalhava. Trouxe o animal, identificado como jararaca. Apresenta dor intensa, edema que progrediu do pé até a raiz da coxa, equimose extensa e bolhas locais, além de sangramento gengival espontâneo. Está com pressão de 112/70 mmHg e frequência de 96 bpm. O tempo de coagulação está incoagulável, as plaquetas em 98.000/mm³ e a creatinina em 1,1 mg/dL. Qual é a classificação e a conduta?",
   "alts": [
-   "Realizar torniquete no membro acometido e aguardar a evolução espontânea sem qualquer soroterapia agora.",
-   "Aplicar o soro por via intramuscular no local da picada como via preferencial de administração agora.",
-   "Realizar incisão e sucção no local da picada como principal medida terapêutica no acidente ofídico agora.",
-   "Soro antibotrópico conforme a gravidade, administrado sempre por via endovenosa em ambiente monitorizado.",
-   "Aguardar a confirmação laboratorial da espécie antes de qualquer administração de soro antiveneno agora."
+   "Acidente botrópico grave: soro antibotrópico, 12 ampolas",
+   "Acidente leve: apenas observação e analgesia",
+   "Acidente moderado: 4 ampolas de soro antibotrópico",
+   "Soro antiofídico polivalente sem classificar",
+   "Antibiótico profilático e torniquete proximal"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de acidentes por animais peçonhentos",
-  "coment": "O acidente botrópico cursa com dor, edema progressivo, equimose e alterações da coagulação com sangramentos. O tratamento é a soroterapia específica, com número de ampolas definido pela classificação de gravidade em leve, moderado e grave, administrada por via endovenosa em ambiente com suporte para reação anafilática. Torniquete, incisão e sucção são proscritos por agravarem a lesão local e não reduzirem a absorção do veneno.",
+  "base": "Ministério da Saúde, 2001 — Manual de diagnóstico e tratamento de acidentes por animais peçonhentos: acidente botrópico",
+  "coment": "No acidente botrópico, edema que ultrapassa dois segmentos do membro, com sangramento sistêmico e distúrbio de coagulação, classifica o caso como grave — e grave recebe 12 ampolas de soro antibotrópico por via intravenosa. A dose depende da gravidade, não do peso, e crianças recebem a mesma quantidade de adultos.",
   "porAlt": [
-   "O torniquete agrava a isquemia e a necrose local sem reduzir a absorção sistêmica do veneno.",
-   "A via intramuscular é inadequada; a soroterapia antiveneno é administrada por via endovenosa.",
-   "Incisão e sucção aumentam infecção e sangramento local sem qualquer benefício terapêutico.",
-   "Correta: soro antibotrópico endovenoso conforme a gravidade, em ambiente com suporte monitorizado.",
-   "A conduta é clínica e epidemiológica, e aguardar identificação laboratorial atrasa o antiveneno."
+   "Correta: edema extenso com sangramento sistêmico define grave.",
+   "Sangramento gengival e coagulação alterada não são acidente leve.",
+   "Quatro ampolas é a dose do moderado, insuficiente aqui.",
+   "O soro é específico por gênero, e o acidente foi identificado.",
+   "O torniquete é contraindicado e agrava a necrose local."
   ]
  },
  {
-  "q": "Paciente com rabdomiólise após esforço extremo, com CPK de 40.000 U/L e urina escura. Qual é a conduta principal?",
+  "q": "Homem de 24 anos, sem comorbidades, procura atendimento 36 horas após treino extenuante de musculação, com dor muscular intensa difusa, fraqueza e urina escura. Está com pressão de 124/76 mmHg, frequência de 92 bpm e sem febre. A creatinofosfoquinase é de 40.000 U/L, a creatinina é de 1,4 mg/dL, o potássio de 5,4 mEq/L e a urina tem dipstick positivo para sangue com sedimento sem hemácias. Qual é a conduta inicial?",
   "alts": [
-   "Hidratação endovenosa vigorosa precoce, monitorando sempre débito urinário, potássio e função renal.",
-   "Restringir líquidos para reduzir a sobrecarga renal em paciente com creatinoquinase muito elevada.",
-   "Administrar diurético de alça isolado como primeira e principal medida no tratamento da rabdomiólise.",
-   "Iniciar diálise imediata em todos os pacientes com creatinoquinase acima de dez mil unidades por litro.",
-   "Prescrever apenas repouso domiciliar e reavaliação clínica após uma semana sem qualquer hidratação."
+   "Hidratação intravenosa vigorosa e precoce",
+   "Alcalinização urinária como medida isolada",
+   "Diurético de alça precoce para forçar diurese",
+   "Hemodiálise imediata, antes da hidratação",
+   "Restrição hídrica até a creatinina estabilizar"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "KDIGO Acute Kidney Injury Guideline, atualização 2024; NEJM review on rhabdomyolysis, 2023",
-  "coment": "O pilar do tratamento da rabdomiólise é a hidratação endovenosa vigorosa e precoce, que aumenta o fluxo tubular e reduz a precipitação de mioglobina, prevenindo lesão renal aguda. Monitoram-se débito urinário, potássio, cálcio, fósforo e função renal, atento à hipercalemia grave e à hipocalcemia. Alcalinização urinária e manitol são controversos. A diálise se indica por critérios clínicos, e não pelo valor isolado da creatinoquinase.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 e literatura de rabdomiólise",
+  "coment": "O pilar do tratamento da rabdomiólise é hidratação intravenosa precoce e vigorosa, com solução cristaloide, para manter débito urinário alto e reduzir a precipitação tubular de mioglobina. Potássio, cálcio, fósforo e função renal são monitorados de perto. A alcalinização e o manitol têm evidência fraca, e a diálise fica para a lesão renal estabelecida com indicação própria.",
   "porAlt": [
-   "Correta: hidratação endovenosa vigorosa e precoce, com monitorização de diurese, potássio e função renal.",
-   "Restringir líquidos favorece a precipitação de mioglobina nos túbulos e a lesão renal aguda.",
-   "O diurético isolado sem reposição prévia agrava a hipovolemia e a lesão renal do paciente.",
-   "A diálise se indica por critérios clínicos, e não pelo valor isolado da creatinoquinase sérica.",
-   "Repouso sem hidratação permite a evolução para lesão renal aguda potencialmente dialítica."
+   "Correta: hidratação precoce é a medida que previne a lesão renal.",
+   "A alcalinização não substitui a hidratação e tem evidência fraca.",
+   "O diurético antes da reposição de volume agrava a hipovolemia.",
+   "A diálise é para indicação estabelecida, não profilática.",
+   "Restringir líquido é o oposto do tratamento."
   ]
  },
  {
-  "q": "Paciente em pós-parada cardiorrespiratória com retorno da circulação espontânea, comatoso. Qual é a conduta?",
+  "q": "Homem de 56 anos é reanimado após parada em fibrilação ventricular presenciada na emergência, com retorno da circulação espontânea após 14 minutos de manobras. Doze horas depois permanece comatoso, sem resposta a estímulo doloroso, em ventilação mecânica e com pressão de 118/70 mmHg em noradrenalina baixa. A temperatura é de 37,8 °C, a glicemia de 180 mg/dL e o lactato de 3,1 mmol/L. O eletrocardiograma pós-parada mostra supradesnivelamento de ST em parede anterior. Qual é o conjunto de cuidados pós-parada?",
   "alts": [
-   "Hiperventilar de rotina para reduzir a pressão intracraniana em todos os pacientes pós-parada cardíaca.",
-   "Controle direcionado de temperatura e suporte com alvos definidos, evitando sempre hipotensão e hipoxemia.",
-   "Manter fração inspirada de oxigênio em cem por cento durante todo o período pós-parada cardíaca agora.",
-   "Prognosticar e definir limitação terapêutica nas primeiras seis horas após o retorno da circulação agora.",
-   "Manter glicemia acima de trezentos miligramas por decilitro para proteger o cérebro no pós-parada agora."
+   "Controle de temperatura e coronariografia",
+   "Hipotermia profunda a 32 °C por 72 horas",
+   "Suspender sedação e prognosticar em 24 horas",
+   "Hiperventilar para baixar a pressão intracraniana",
+   "Aguardar 72 horas antes de investigar coronárias"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "AHA Guidelines for CPR and ECC — Post-Cardiac Arrest Care, atualização 2025; ERC/ESICM post-resuscitation care guidelines, 2021",
-  "coment": "O cuidado pós-parada busca evitar a lesão cerebral secundária: controle direcionado de temperatura com alvo definido e prevenção ativa de febre, manutenção de pressão arterial média adequada, normoxemia com saturação entre 92 e 98 por cento, normocapnia, controle glicêmico e tratamento da causa, com coronariografia quando indicada. O prognóstico neurológico só é definido após pelo menos setenta e duas horas, com abordagem multimodal.",
+  "base": "AHA 2025 — cuidados pós-parada cardiorrespiratória",
+  "coment": "Os cuidados pós-parada incluem controle ativo de temperatura com alvo entre 32 e 37,5 °C e prevenção rigorosa da febre, coronariografia precoce quando há supradesnivelamento, alvos de oxigenação evitando hiperóxia e hipóxia, normocapnia e pressão arterial média adequada. A prognosticação neurológica é multimodal e só depois de 72 horas.",
   "porAlt": [
-   "A hiperventilação de rotina causa vasoconstrição cerebral e agrava a isquemia no pós-parada.",
-   "Correta: controle direcionado de temperatura e suporte com alvos definidos, evitando hipotensão e hipoxemia.",
-   "A hiperóxia sustentada aumenta a lesão de reperfusão; o alvo é normoxemia bem controlada.",
-   "Prognosticar nas primeiras horas é inadequado, pois exige pelo menos setenta e duas horas e abordagem multimodal.",
-   "A hiperglicemia sustentada piora o desfecho neurológico e deve ser controlada no pós-parada."
+   "Correta: é o pacote pós-parada com a coronariografia indicada pelo supra.",
+   "A hipotermia profunda foi abandonada; o alvo hoje é mais amplo.",
+   "Prognosticar antes de 72 horas leva a decisões precipitadas.",
+   "A hiperventilação de rotina causa vasoconstrição e isquemia cerebral.",
+   "Com supradesnivelamento, a coronariografia é precoce."
   ]
  },
  {
@@ -18168,243 +18168,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com queimadura de via aérea suspeita após incêndio em ambiente fechado, com rouquidão e escarro carbonáceo. Qual é a conduta?",
+  "q": "Homem de 38 anos é resgatado de incêndio em ambiente fechado após cerca de 20 minutos de exposição à fumaça densa. Apresenta rouquidão progressiva, estridor leve, queimadura de vibrissas nasais, fuligem em orofaringe e escarro carbonáceo. Está com Glasgow de 15, saturação de 96% pelo oxímetro de pulso, frequência de 110 bpm, frequência respiratória de 26 irpm e queimaduras de segundo grau em face, pescoço e tórax anterior. Qual é a conduta imediata quanto à via aérea?",
   "alts": [
-   "Aguardar sinais claros de insuficiência respiratória antes de qualquer abordagem da via aérea do paciente.",
-   "Intubação orotraqueal precoce, pois o edema progressivo torna sempre a via aérea rapidamente inacessível.",
-   "Prescrever apenas corticoide sistêmico e oxigênio por máscara sem qualquer avaliação da via aérea agora.",
-   "Realizar traqueostomia eletiva em todos os casos como primeira abordagem da via aérea nesse cenário.",
-   "Prescrever apenas broncodilatador inalatório como conduta definitiva para o quadro descrito no enunciado."
+   "Intubação orotraqueal precoce",
+   "Observação com oxigênio por máscara",
+   "Corticoide intravenoso e reavaliação em 6 horas",
+   "Nebulização com adrenalina e alta",
+   "Traqueostomia de urgência"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2024; American Burn Association guidelines on inhalation injury, revisão 2023",
-  "coment": "Rouquidão, estridor, queimadura de face, vibrissas chamuscadas e escarro carbonáceo após exposição em ambiente fechado indicam lesão inalatória com risco de obstrução por edema progressivo. A intubação deve ser precoce, antes que o edema torne o procedimento impossível, pois a janela de oportunidade se fecha em poucas horas. Avalia-se também intoxicação por monóxido de carbono e cianeto, administrando oxigênio a cem por cento e antídoto quando indicado.",
+  "base": "ATLS 11ª edição, 2018 — lesão inalatória e via aérea no queimado",
+  "coment": "Rouquidão, estridor, queimadura de vibrissas, fuligem em orofaringe e escarro carbonáceo em incêndio confinado são sinais de lesão inalatória com edema progressivo de via aérea. A intubação deve ser precoce e eletiva: adiar leva a uma via aérea que, em uma ou duas horas, se torna impossível de instrumentar. O oxímetro não é confiável na intoxicação por monóxido.",
   "porAlt": [
-   "Aguardar insuficiência respiratória instalada arrisca uma via aérea impossível de ser assegurada.",
-   "Correta: intubação precoce, pois o edema progressivo pode tornar a via aérea inacessível em horas.",
-   "Corticoide e oxigênio não impedem o edema progressivo nem substituem a proteção da via aérea.",
-   "A traqueostomia é procedimento de resgate, e não a primeira abordagem eletiva nesse cenário.",
-   "O broncodilatador é adjuvante e não protege contra a obstrução mecânica por edema de via aérea."
+   "Correta: edema progressivo torna a via aérea impossível se houver demora.",
+   "Observar com sinais de edema instalado é apostar contra o relógio.",
+   "O corticoide não previne o edema da lesão inalatória.",
+   "Nebulização e alta com estridor é conduta perigosa.",
+   "A traqueostomia não é a primeira via em edema de via aérea superior."
   ]
  },
  {
-  "q": "Paciente com intoxicação por antidepressivo tricíclico apresenta QRS alargado e hipotensão. Qual é a conduta?",
+  "q": "Mulher de 22 anos é trazida duas horas após ingestão de amitriptilina em tentativa de autoextermínio. Está sonolenta, com Glasgow de 11, pupilas midriáticas, mucosas secas e retenção urinária. A pressão é de 84/50 mmHg e a frequência de 124 bpm. O eletrocardiograma mostra QRS de 140 ms com onda R proeminente em aVR. O pH arterial é de 7,30 e o potássio de 3,6 mEq/L. Qual é a conduta?",
   "alts": [
-   "Administrar flumazenil endovenoso como antídoto de escolha para a intoxicação por antidepressivo tricíclico.",
-   "Administrar antiarrítmico de classe IA para corrigir o alargamento do QRS observado no eletrocardiograma.",
-   "Realizar apenas lavagem gástrica tardia como principal medida terapêutica nessa intoxicação medicamentosa.",
-   "Bicarbonato de sódio endovenoso em bolus, indicado sempre diante de alargamento do QRS nessa intoxicação.",
-   "Aguardar a metabolização espontânea do fármaco sem qualquer intervenção sobre a alteração eletrocardiográfica."
+   "Bicarbonato de sódio intravenoso em bolus",
+   "Amiodarona para o alargamento do QRS",
+   "Flumazenil para reverter o rebaixamento",
+   "Betabloqueador para controlar a taquicardia",
+   "Carvão ativado como medida isolada"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "AACT/EAPCCT guidance on tricyclic antidepressant poisoning, revisão 2023; Ministério da Saúde — intoxicações agudas, 2022",
-  "coment": "Os antidepressivos tricíclicos bloqueiam canais de sódio, alargando o QRS e predispondo a arritmias ventriculares e hipotensão. Alargamento acima de cem milissegundos indica bicarbonato de sódio endovenoso em bolus, que alcaliniza o plasma e aumenta o sódio extracelular, deslocando o fármaco do canal. Antiarrítmicos de classe IA e IC são contraindicados por agravarem o bloqueio. O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão aqui.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 — antidepressivos tricíclicos",
+  "coment": "Os tricíclicos bloqueiam canais de sódio e alargam o QRS, e o alargamento acima de 100 ms prediz convulsão e arritmia. O bicarbonato de sódio é o antídoto funcional: alcaliniza o plasma e aumenta o sódio extracelular, revertendo o bloqueio de canal. Antiarrítmicos das classes IA e IC são contraindicados por agravarem o bloqueio.",
   "porAlt": [
-   "O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão em intoxicação mista.",
-   "Antiarrítmicos de classe IA bloqueiam canais de sódio e agravam diretamente o alargamento do QRS.",
-   "A lavagem gástrica tardia não é recomendada e traz risco de aspiração no paciente rebaixado.",
-   "Correta: bicarbonato de sódio endovenoso em bolus diante do alargamento do QRS nessa intoxicação.",
-   "Aguardar sem tratar permite evolução para arritmia ventricular e parada cardiorrespiratória."
+   "Correta: reverte o bloqueio de canal de sódio.",
+   "A amiodarona pode agravar o bloqueio de canal e a hipotensão.",
+   "O flumazenil pode precipitar convulsão e é perigoso na coingestão.",
+   "O betabloqueador agrava a hipotensão e a cardiotoxicidade.",
+   "O carvão isolado não trata a cardiotoxicidade já instalada."
   ]
  },
  {
-  "q": "Paciente com afogamento em água doce, resgatado consciente, com tosse e hipoxemia leve. Qual é a conduta?",
+  "q": "Homem de 19 anos é resgatado após submersão em rio de água doce, com cerca de dois minutos submerso e resgate imediato por terceiros. Chega consciente, orientado e colaborativo, com tosse persistente, frequência respiratória de 24 irpm, saturação de 93% em ar ambiente e estertores discretos em ambas as bases. Pressão de 124/78 mmHg, frequência de 98 bpm e temperatura de 36,2 °C. A radiografia de tórax mostra infiltrado intersticial bibasal discreto. Qual é a conduta?",
   "alts": [
-   "Alta imediata do serviço, pois o paciente consciente após afogamento não apresenta qualquer risco posterior.",
-   "Administrar antibiótico profilático de rotina em todos os pacientes vítimas de afogamento em água doce.",
-   "Observação hospitalar com oxigênio e reavaliação, pois a piora respiratória surge sempre em poucas horas.",
-   "Realizar manobra de Heimlich em todos os pacientes resgatados de afogamento para retirar a água aspirada.",
-   "Administrar corticoide sistêmico em dose alta de rotina em todos os casos de afogamento com hipoxemia."
+   "Observação hospitalar com oxigênio",
+   "Alta imediata, por estar consciente e orientado",
+   "Antibiótico profilático de amplo espectro",
+   "Corticoide para prevenir lesão pulmonar",
+   "Intubação orotraqueal profilática"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Sociedade Brasileira de Salvamento Aquático — diretrizes de afogamento, revisão 2023; ILCOR/AHA drowning guidance, 2024",
-  "coment": "O afogamento com sintomas respiratórios exige observação hospitalar, pois a lesão pulmonar pode progredir nas horas seguintes, com piora da hipoxemia e edema pulmonar. O tratamento é suporte com oxigênio, ventilação não invasiva ou intubação conforme a gravidade. Antibiótico profilático não é rotina, sendo reservado a água notoriamente contaminada ou a sinais de infecção. Corticoide não tem benefício, e a manobra de Heimlich está contraindicada por risco de aspiração.",
+  "base": "ILCOR/AHA 2025 — afogamento: observação e manejo respiratório",
+  "coment": "Afogamento com sintomas respiratórios exige observação hospitalar: a lesão pulmonar por aspiração pode piorar nas horas seguintes, com hipoxemia progressiva. Corticoide e antibiótico profiláticos não têm benefício demonstrado — o antibiótico entra se houver sinais de infecção ou água claramente contaminada. A distinção entre água doce e salgada tem pouca relevância prática.",
   "porAlt": [
-   "A alta imediata desconsidera a possibilidade de deterioração respiratória nas horas seguintes.",
-   "O antibiótico profilático de rotina não é indicado e seleciona resistência sem benefício claro.",
-   "Correta: observação hospitalar com oxigênio, pois a piora respiratória surge nas horas seguintes.",
-   "A manobra de Heimlich é contraindicada no afogamento e aumenta o risco de vômito e aspiração.",
-   "O corticoide não demonstrou benefício na lesão pulmonar decorrente do afogamento."
+   "Correta: sintomático exige observação pelo risco de piora tardia.",
+   "Alta com hipoxemia e infiltrado é arriscada.",
+   "A profilaxia antibiótica não reduz pneumonia no afogamento.",
+   "O corticoide não previne a lesão pulmonar por aspiração.",
+   "Não há indicação de intubação com essa saturação e nível de consciência."
   ]
  },
  {
-  "q": "Paciente com hipertermia de 41 °C após esforço físico em ambiente quente, com alteração de consciência. Qual é a conduta imediata?",
+  "q": "Homem de 27 anos, militar em treinamento, é trazido após colapso durante corrida em dia de 38 °C e umidade alta. Está confuso e agitado, com temperatura retal de 41,2 °C, pele quente e seca, pressão de 96/58 mmHg, frequência de 136 bpm e frequência respiratória de 30 irpm. A creatinofosfoquinase é de 12.000 U/L, a creatinina de 2,0 mg/dL, as transaminases estão três vezes acima do limite e as plaquetas em 90.000/mm³. Qual é a conduta imediata?",
   "alts": [
-   "Resfriamento agressivo imediato com imersão, associado sempre a suporte e monitorização de complicações.",
-   "Administrar apenas antitérmico oral e aguardar a queda espontânea da temperatura corporal do paciente.",
-   "Resfriar lentamente ao longo de doze horas para evitar qualquer variação térmica brusca no paciente.",
-   "Administrar apenas hidratação oral e liberar o paciente para casa após a melhora inicial dos sintomas.",
-   "Administrar corticoide sistêmico em dose alta como tratamento de escolha da hipertermia por esforço."
+   "Resfriamento rápido por imersão",
+   "Antitérmico com dipirona intravenosa",
+   "Resfriamento lento com compressas mornas",
+   "Dantroleno intravenoso em dose de ataque",
+   "Aguardar os exames antes de resfriar"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ACSM/Wilderness Medical Society guidance on exertional heat stroke, revisão 2023; NEJM review on heat stroke, 2022",
-  "coment": "A intermação por esforço é emergência: a mortalidade depende diretamente do tempo em que a temperatura central permanece elevada. O tratamento é resfriamento agressivo imediato, sendo a imersão em água gelada o método mais eficaz, com alvo de temperatura central em torno de 38,5 a 39 °C. Antitérmicos são ineficazes, porque o mecanismo não é o ponto de ajuste hipotalâmico. Monitoram-se rabdomiólise, lesão renal, coagulopatia e disfunção hepática.",
+  "base": "ACSM 2007 e Wilderness Medical Society 2019 — insolação por esforço",
+  "coment": "A insolação por esforço é emergência: o dano é tempo-dependente e a meta é reduzir a temperatura central abaixo de 39 °C o mais rápido possível. A imersão em água gelada é o método mais eficaz. Antitérmicos não funcionam — o ponto de ajuste hipotalâmico não está elevado — e o dantroleno é para hipertermia maligna, não para insolação.",
   "porAlt": [
-   "Correta: resfriamento agressivo imediato com imersão, com suporte e vigilância de complicações.",
-   "Antitérmicos são ineficazes na intermação, pois o mecanismo não envolve o ponto de ajuste hipotalâmico.",
-   "Resfriar lentamente prolonga a exposição ao calor e aumenta diretamente a mortalidade do quadro.",
-   "Liberar sem observação ignora as complicações que surgem nas horas seguintes ao evento.",
-   "O corticoide não tem papel no tratamento da hipertermia por esforço e atrasa o resfriamento."
+   "Correta: imersão é o resfriamento mais rápido, e a velocidade define o desfecho.",
+   "Antitérmico não atua quando o problema é falha de termorregulação.",
+   "Resfriamento lento não impede a lesão de órgãos.",
+   "O dantroleno trata hipertermia maligna anestésica.",
+   "Adiar o resfriamento por exame é perder tempo de órgão."
   ]
  },
  {
-  "q": "Paciente em ventilação mecânica apresenta queda súbita de saturação, hipotensão e ausência de murmúrio à esquerda. Qual é a conduta?",
+  "q": "Homem de 62 anos, em ventilação mecânica por pneumonia grave, apresenta queda súbita da saturação de 95% para 78%, com pressão caindo de 130/78 para 76/44 mmHg em poucos minutos. A pressão de pico subiu de 28 para 48 cmH₂O. Ao exame, ausência de murmúrio vesicular à direita, hipertimpanismo à percussão, desvio da traqueia para a esquerda e turgência jugular. O ventilador alarma pressão alta. Qual é a conduta imediata?",
   "alts": [
-   "Aumentar a pressão positiva expiratória final para recrutar os alvéolos colapsados do lado acometido agora.",
-   "Solicitar tomografia de tórax antes de qualquer intervenção sobre o quadro respiratório do paciente ventilado.",
-   "Administrar apenas broncodilatador inalatório como primeira medida diante da queda súbita de saturação agora.",
-   "Descomprimir imediatamente o hemitórax acometido, pois o pneumotórax hipertensivo é diagnóstico sempre clínico.",
-   "Aumentar a sedação do paciente como primeira medida diante do quadro descrito durante a ventilação mecânica."
+   "Descompressão torácica por punção seguida de drenagem",
+   "Radiografia de tórax antes de qualquer intervenção",
+   "Aumentar a PEEP para recrutar o pulmão",
+   "Aspirar a cânula e trocar o circuito",
+   "Reposição volêmica rápida e reavaliação"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2024; SCCM/ESICM guidance on mechanical ventilation complications, revisão 2023",
-  "coment": "Em paciente ventilado, queda súbita de saturação com hipotensão e ausência de murmúrio unilateral sugere pneumotórax hipertensivo, complicação do barotrauma. O diagnóstico é clínico e a descompressão não deve aguardar imagem. Aumentar a pressão positiva expiratória final agrava o quadro ao insuflar mais o espaço pleural. A abordagem sistemática de deterioração no ventilador considera deslocamento do tubo, obstrução, pneumotórax e falha do equipamento.",
+  "base": "ATLS 11ª edição, 2018 — pneumotórax hipertensivo",
+  "coment": "A tríade de ausência de murmúrio, hipertimpanismo e desvio de traqueia, com hipotensão e alarme de pressão alta em paciente ventilado, define pneumotórax hipertensivo. É diagnóstico clínico e o tratamento é imediato: descompressão por punção — quinto espaço na linha axilar média em adultos — seguida de drenagem torácica. Esperar a radiografia pode custar a vida.",
   "porAlt": [
-   "Aumentar a pressão expiratória final insufla ainda mais o pneumotórax e agrava o colapso circulatório.",
-   "A tomografia atrasa uma intervenção que salva a vida em minutos no paciente instável.",
-   "O broncodilatador não trata a compressão mecânica causada pelo ar no espaço pleural.",
-   "Correta: descompressão imediata do hemitórax, pois o pneumotórax hipertensivo é diagnóstico clínico.",
-   "Aumentar a sedação mascara o quadro sem corrigir a causa mecânica da deterioração aguda."
+   "Correta: diagnóstico clínico e descompressão imediata.",
+   "A radiografia atrasa o tratamento de um quadro que mata em minutos.",
+   "Aumentar a PEEP agrava o pneumotórax hipertensivo.",
+   "O quadro não é obstrução de cânula: há desvio de traqueia e hipertimpanismo.",
+   "Volume não resolve choque obstrutivo por pneumotórax."
   ]
  },
  {
-  "q": "Paciente vítima de esmagamento prolongado de membro é liberado do escombro. Qual é a principal preocupação imediata?",
+  "q": "Homem de 44 anos ficou preso sob laje por seis horas após desabamento, com compressão de coxa e perna direitas. É liberado pela equipe de resgate e trazido ao pronto-socorro. Está consciente e orientado, com pressão de 108/68 mmHg, frequência de 104 bpm, membro edemaciado, tenso, frio e com parestesia distal. O eletrocardiograma mostra ondas T apiculadas de base estreita e QRS de 118 ms. O potássio colhido ainda no local é de 6,8 mEq/L e a creatinofosfoquinase está acima de 50.000 U/L. Qual é a principal preocupação imediata?",
   "alts": [
-   "Hipoglicemia grave isolada, principal complicação metabólica esperada após a liberação do membro esmagado.",
-   "Hipernatremia refratária, complicação mais frequente e temida após a liberação de esmagamento prolongado.",
-   "Alcalose metabólica grave, principal distúrbio associado à síndrome de esmagamento em vítimas soterradas.",
-   "Hipocalemia grave, alteração eletrolítica característica que surge imediatamente após a liberação do membro.",
-   "Hipercalemia com risco de arritmia, exigindo sempre hidratação precoce e monitorização eletrocardiográfica."
+   "Hipercalemia com risco de arritmia",
+   "Infecção do membro esmagado",
+   "Dor refratária como prioridade inicial",
+   "Anemia por sangramento oculto",
+   "Hipotermia por exposição prolongada"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Disaster medicine guidance on crush syndrome — WHO/ISN Renal Disaster Relief Task Force, revisão 2023; ATLS 11ª edição, 2024",
-  "coment": "Na síndrome de esmagamento, a liberação do membro reperfunde o tecido lesado e libera na circulação potássio, fósforo, ácido úrico, mioglobina e ácido láctico, com risco de hipercalemia grave e parada cardíaca nos primeiros minutos. A conduta é iniciar hidratação vigorosa antes mesmo da liberação sempre que possível, monitorar o eletrocardiograma, tratar a hipercalemia com cálcio e medidas de deslocamento intracelular e prevenir lesão renal aguda.",
+  "base": "ATLS 11ª edição, 2018 — síndrome de esmagamento e hipercalemia",
+  "coment": "A síndrome de esmagamento libera potássio, mioglobina e fosfato na reperfusão do membro. A hipercalemia é a causa de morte precoce, e o eletrocardiograma já mostra toxicidade — T apiculada com QRS alargando. A conduta imediata é gluconato de cálcio para estabilizar a membrana, seguido de medidas para deslocar e eliminar o potássio, com hidratação vigorosa iniciada idealmente antes da liberação.",
   "porAlt": [
-   "A hipoglicemia não é a complicação característica da reperfusão do tecido muscular esmagado.",
-   "A hipernatremia não é o distúrbio típico da síndrome de esmagamento após a liberação do membro.",
-   "A síndrome de esmagamento cursa com acidose metabólica, e não com alcalose grave.",
-   "A liberação do conteúdo intracelular causa hipercalemia, e não hipocalemia, no período imediato.",
-   "Correta: hipercalemia com risco de arritmia, exigindo hidratação precoce e monitorização eletrocardiográfica."
+   "Correta: a hipercalemia da reperfusão mata primeiro.",
+   "A infecção é preocupação tardia, não imediata.",
+   "A analgesia é necessária, mas não é a prioridade que mata.",
+   "Não há dado sugerindo sangramento importante.",
+   "A hipotermia não explica os achados eletrocardiográficos."
   ]
  },
  {
-  "q": "Paciente com convulsão em uso de tramadol e antidepressivo serotoninérgico, sem história prévia de epilepsia. Qual é a conduta?",
+  "q": "Mulher de 36 anos, em uso de sertralina para depressão e tramadol prescrito há três dias para lombalgia, é trazida após crise convulsiva tônico-clônica generalizada, a primeira da vida. Chega pós-ictal, com temperatura de 38,6 °C, frequência de 126 bpm, pressão de 156/92 mmHg, rigidez de membros inferiores, mioclonias e hiperreflexia com clônus de tornozelo. A glicemia é de 104 mg/dL e a tomografia de crânio é normal. Qual é o diagnóstico e a conduta?",
   "alts": [
-   "Iniciar antiepiléptico contínuo por tempo indeterminado sem qualquer revisão dos medicamentos em uso.",
-   "Aumentar a dose do tramadol para melhor controle da dor apesar do episódio convulsivo apresentado.",
-   "Atribuir a crise a epilepsia idiopática e não revisar qualquer medicação em uso pelo próprio paciente.",
-   "Suspender apenas o antidepressivo e manter o tramadol na mesma dose plena após o episódio convulsivo.",
-   "Tratar a crise e revisar os fármacos, considerando sempre interação e redução do limiar convulsivo."
+   "Síndrome serotoninérgica: suspender os fármacos e sedar",
+   "Epilepsia de início tardio: iniciar fenitoína",
+   "Síndrome neuroléptica maligna: iniciar dantroleno",
+   "Meningite bacteriana: antibiótico empírico",
+   "Intoxicação por tramadol: naloxona em bolus"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AACT guidance on drug-induced seizures, revisão 2023; bula e alertas regulatórios sobre tramadol",
-  "coment": "O tramadol reduz o limiar convulsivo, sobretudo em doses altas, em associação com serotoninérgicos, na insuficiência renal e no idoso. Diante de crise convulsiva em paciente sem epilepsia prévia, é obrigatório revisar a prescrição em busca de fármacos que reduzam o limiar — tramadol, bupropiona, antidepressivos, antipsicóticos, quinolonas e teofilina — e afastar causas metabólicas e estruturais antes de assumir epilepsia e iniciar tratamento crônico.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 — síndrome serotoninérgica",
+  "coment": "A tríade de alteração do estado mental, hiperatividade autonômica e excitação neuromuscular — com clônus e hiperreflexia predominantes em membros inferiores — define síndrome serotoninérgica, aqui precipitada pela associação de tramadol e inibidor seletivo de recaptação de serotonina. O tratamento é suspender os agentes, suporte, benzodiazepínico e resfriamento; a ciproeptadina entra nos casos moderados a graves.",
   "porAlt": [
-   "Iniciar antiepiléptico crônico sem revisar a causa medicamentosa trata o sintoma e mantém o gatilho.",
-   "Aumentar o tramadol amplia diretamente o risco de novas crises convulsivas nesse paciente.",
-   "Assumir epilepsia idiopática sem revisar a prescrição perde uma causa evidente e reversível.",
-   "Manter o tramadol conserva o principal fármaco associado à redução do limiar convulsivo.",
-   "Correta: tratar a crise e revisar os fármacos, considerando interação e redução do limiar convulsivo."
+   "Correta: a associação e o clônus ascendente fecham o diagnóstico.",
+   "Iniciar antiepiléptico sem tratar a causa não resolve.",
+   "A neuroléptica maligna cursa com rigidez em cano de chumbo e instalação lenta.",
+   "Não há sinais meníngeos e a apresentação é tóxica.",
+   "A naloxona não trata a toxicidade serotoninérgica."
   ]
  },
  {
-  "q": "Paciente com bradicardia sintomática de 35 bpm, hipotensão e rebaixamento. Qual é a conduta imediata?",
+  "q": "Mulher de 78 anos é trazida com tontura e quase síncope há uma hora. Está com pressão de 78/46 mmHg, frequência de 35 bpm, pele fria, confusa e com dor torácica leve. O eletrocardiograma mostra bloqueio atrioventricular total com escape de QRS largo a 35 bpm. Usa metoprolol e anlodipino. O potássio é de 4,4 mEq/L e a troponina está discretamente elevada. Já recebeu atropina 1 mg, sem resposta. Qual é a conduta?",
   "alts": [
-   "Atropina endovenosa e preparo de marca-passo transcutâneo, iniciando sempre suporte enquanto se busca a causa.",
-   "Aguardar a recuperação espontânea da frequência cardíaca antes de qualquer intervenção medicamentosa agora.",
-   "Administrar betabloqueador endovenoso para estabilizar o ritmo cardíaco do paciente bradicárdico e hipotenso.",
-   "Realizar cardioversão elétrica sincronizada imediata como primeira medida diante da bradicardia sintomática.",
-   "Administrar apenas oxigênio suplementar e observar clinicamente por seis horas antes de qualquer conduta."
+   "Marca-passo transcutâneo e preparar o transvenoso",
+   "Repetir atropina até a dose máxima e observar",
+   "Adenosina intravenosa em bolus",
+   "Reposição volêmica rápida com dois litros",
+   "Aguardar o efeito da suspensão do metoprolol"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "AHA Guidelines for CPR and ECC — Adult Bradycardia Algorithm, atualização 2025; ERC Guidelines, 2021",
-  "coment": "Na bradicardia sintomática com instabilidade — hipotensão, alteração de consciência, dor torácica isquêmica ou sinais de choque —, a primeira medida farmacológica é atropina endovenosa, com preparo simultâneo de marca-passo transcutâneo e consideração de infusão de dopamina ou adrenalina. Enquanto isso, busca-se a causa: isquemia, hipercalemia, hipotermia, hipotireoidismo e fármacos como betabloqueador, bloqueador de canal de cálcio e digital.",
+  "base": "AHA 2025 — suporte avançado: bradicardia com instabilidade",
+  "coment": "Bradicardia com instabilidade que não responde à atropina indica estimulação — marca-passo transcutâneo imediato, com sedação e analgesia, enquanto se providencia o transvenoso. No bloqueio infra-hissiano com escape ventricular a atropina costuma ser ineficaz, porque age no nó atrioventricular. Adrenalina ou dopamina em infusão são alternativas de ponte.",
   "porAlt": [
-   "Correta: atropina endovenosa com preparo de marca-passo transcutâneo enquanto se busca a causa.",
-   "Aguardar recuperação espontânea em paciente instável arrisca parada cardíaca por bradiarritmia.",
-   "O betabloqueador agrava a bradicardia e é exatamente o oposto do que o paciente necessita.",
-   "A cardioversão trata taquiarritmias e não tem qualquer papel no manejo da bradicardia sintomática.",
-   "Oxigênio e observação por seis horas são insuficientes diante de instabilidade hemodinâmica."
+   "Correta: falha da atropina em bradicardia instável pede estimulação.",
+   "Insistir na atropina no bloqueio infra-hissiano é perder tempo.",
+   "A adenosina agrava a bradicardia.",
+   "Volume não corrige bradiarritmia com instabilidade.",
+   "Esperar a meia-vida do betabloqueador em paciente em choque não é opção."
   ]
  },
  {
-  "q": "Paciente com dor abdominal súbita e intensa, abdome em tábua e pneumoperitônio na radiografia. Qual é a conduta?",
+  "q": "Homem de 58 anos, em uso crônico de anti-inflamatório por artrose, chega com dor abdominal de início súbito há quatro horas, de forte intensidade, difusa. Está pálido, com pressão de 96/58 mmHg, frequência de 118 bpm, temperatura de 37,9 °C e abdome rígido, em tábua, com descompressão dolorosa generalizada e ausência de ruídos hidroaéreos. A radiografia de tórax em ortostase mostra pneumoperitônio subdiafragmático bilateral. Qual é a conduta?",
   "alts": [
-   "Prescrever apenas analgésico e observar clinicamente a evolução do abdome agudo por vinte e quatro horas.",
-   "Prescrever apenas antibiótico endovenoso, sem qualquer abordagem cirúrgica da perfuração identificada agora.",
-   "Antibiótico, ressuscitação volêmica e cirurgia de urgência, pois a perfuração exige sempre controle da fonte.",
-   "Realizar apenas endoscopia digestiva alta de urgência como conduta definitiva diante do pneumoperitônio.",
-   "Solicitar tomografia com contraste oral antes de qualquer ressuscitação ou indicação cirúrgica do paciente."
+   "Laparotomia de urgência com antibiótico e ressuscitação",
+   "Tomografia de abdome com contraste oral antes de decidir",
+   "Tratamento clínico com jejum, sonda e antibiótico",
+   "Endoscopia digestiva alta de urgência",
+   "Analgesia potente e reavaliação em 6 horas"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "WSES guidelines on perforated peptic ulcer and generalized peritonitis, revisão 2023; ATLS 11ª edição, 2024",
-  "coment": "Pneumoperitônio com abdome em tábua indica perfuração de víscera oca e peritonite, exigindo abordagem imediata: ressuscitação volêmica, antibiótico de amplo espectro cobrindo gram-negativos e anaeróbios, analgesia, sonda nasogástrica e cirurgia de urgência para controle da fonte. O atraso aumenta de forma expressiva a mortalidade. Exames complementares não devem retardar a decisão cirúrgica quando o quadro clínico e a radiografia já são conclusivos.",
+  "base": "WSES 2020 — abdome agudo perfurativo: úlcera péptica perfurada",
+  "coment": "Pneumoperitônio com peritonite difusa e instabilidade é abdome agudo perfurativo com indicação cirúrgica imediata. Em paralelo correm ressuscitação volêmica, antibiótico de amplo espectro cobrindo Gram-negativos e anaeróbios, analgesia e sonda nasogástrica. Nenhum exame adicional deve atrasar a cirurgia quando o diagnóstico já está feito.",
   "porAlt": [
-   "Observar por vinte e quatro horas com peritonite estabelecida permite sepse e óbito evitável.",
-   "O antibiótico isolado não resolve a perfuração e não substitui o controle cirúrgico da fonte.",
-   "Correta: antibiótico, ressuscitação volêmica e cirurgia de urgência para o controle da fonte.",
-   "A endoscopia pode agravar a perfuração ao insuflar e não é conduta definitiva nesse quadro.",
-   "O contraste oral é contraindicado na suspeita de perfuração e apenas atrasaria a cirurgia."
+   "Correta: diagnóstico fechado, cirurgia sem atraso.",
+   "Contraste oral em perfuração é contraindicado e atrasa a cirurgia.",
+   "O tratamento conservador é exceção muito restrita, não se aplica com instabilidade.",
+   "A endoscopia insufla ar e agrava a perfuração.",
+   "Analgesia sem operar mascara a evolução de uma peritonite."
   ]
  },
  {
-  "q": "Paciente com hemorragia grave por trauma recebe transfusão maciça. Qual é a estratégia recomendada?",
+  "q": "Homem de 31 anos chega com ferimento por arma de fogo em abdome, pressão de 70/40 mmHg, frequência de 140 bpm e pele fria. Recebeu 1500 mL de cristaloide sem resposta sustentada. A hemoglobina é de 6,8 g/dL e o lactato de 6,0 mmol/L. O escore ABC indica necessidade de transfusão maciça e o protocolo foi acionado. Está sendo encaminhado ao centro cirúrgico. Qual é a estratégia transfusional recomendada?",
   "alts": [
-   "Protocolo de transfusão maciça com proporção equilibrada de hemocomponentes, associando sempre ácido tranexâmico.",
-   "Transfundir apenas concentrado de hemácias em grande volume, sem plasma nem plaquetas associados neste caso.",
-   "Infundir grandes volumes de cristaloide antes de qualquer hemocomponente na hemorragia grave por trauma agora já.",
-   "Aguardar o resultado do coagulograma completo antes de administrar qualquer hemocomponente ao paciente agora já.",
-   "Manter pressão arterial elevada com vasopressor em dose alta antes do controle cirúrgico do sangramento agora."
+   "Hemácias, plasma e plaquetas na proporção de 1:1:1",
+   "Apenas concentrado de hemácias até hemoglobina de 10",
+   "Cristaloide em grande volume antes dos hemoderivados",
+   "Plasma isolado para corrigir a coagulopatia",
+   "Transfundir somente após o resultado do coagulograma"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ATLS 11ª edição, 2024; European guideline on management of major bleeding and coagulopathy following trauma, 6ª edição, 2023",
-  "coment": "O protocolo de transfusão maciça no trauma usa proporção equilibrada de concentrado de hemácias, plasma fresco congelado e plaquetas, próxima de um para um para um, prevenindo a coagulopatia induzida pela reposição desbalanceada. O ácido tranexâmico é administrado nas primeiras três horas e reduz mortalidade. Grandes volumes de cristaloide agravam a tríade letal de hipotermia, acidose e coagulopatia, e a hipotensão permissiva é adotada até o controle da fonte.",
+  "base": "ATLS 11ª edição, 2018 e ensaio PROPPR — transfusão maciça",
+  "coment": "Na hemorragia maciça do trauma, a reanimação com controle de danos usa hemocomponentes em proporção próxima de 1:1:1, limita o cristaloide — que dilui fatores e agrava a coagulopatia —, mantém hipotensão permissiva até o controle cirúrgico, previne hipotermia e administra ácido tranexâmico nas primeiras três horas. O ensaio PROPPR sustenta a proporção equilibrada.",
   "porAlt": [
-   "Correta: protocolo de transfusão maciça com proporção equilibrada e ácido tranexâmico precoce.",
-   "Hemácias isoladas em grande volume produzem coagulopatia dilucional e piora do sangramento.",
-   "Grandes volumes de cristaloide agravam a tríade letal de hipotermia, acidose e coagulopatia.",
-   "Aguardar o coagulograma atrasa a reposição em uma situação de exsanguinação em curso.",
-   "Elevar a pressão antes do controle da fonte aumenta o sangramento e desloca o coágulo formado."
+   "Correta: proporção equilibrada de hemocomponentes.",
+   "Só hemácias produz coagulopatia dilucional.",
+   "Cristaloide em volume agrava a tríade letal.",
+   "Plasma isolado não corrige a perda de transportador de oxigênio.",
+   "Esperar exame em hemorragia maciça atrasa o que salva."
   ]
  },
  {
@@ -20088,243 +20088,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com suspeita de intoxicação por monóxido de carbono após incêndio, com cefaleia e confusão. Qual é a conduta?",
+  "q": "Mulher de 44 anos é resgatada de incêndio em residência com ambiente fechado. Queixa cefaleia intensa, náusea e tontura, e está confusa. Não há queimaduras cutâneas nem sinais de lesão inalatória. A saturação pelo oxímetro é de 99% em ar ambiente, a pressão é de 128/78 mmHg e a frequência de 104 bpm. A gasometria mostra pressão parcial de oxigênio de 96 mmHg e a carboxiemoglobina é de 28%. O lactato é de 3,8 mmol/L. Qual é a conduta?",
   "alts": [
-   "Aguardar a oximetria de pulso confirmar a hipoxemia antes de administrar qualquer oxigênio ao paciente.",
-   "Oxigênio a cem por cento com máscara não reinalante, considerando sempre câmara hiperbárica em casos graves.",
-   "Administrar apenas hidratação endovenosa como tratamento definitivo da intoxicação por monóxido de carbono.",
-   "Administrar oxigênio em baixo fluxo por cateter nasal como tratamento de escolha da intoxicação descrita.",
-   "Prescrever apenas analgésico para a cefaleia e liberar o paciente sem qualquer oxigenoterapia associada."
+   "Oxigênio a 100% em máscara com reservatório",
+   "Oxigênio suplementar por cateter nasal a 3 L/min",
+   "Ventilação não invasiva com pressão positiva",
+   "Aguardar nova gasometria antes de tratar",
+   "Hidroxicobalamina como primeira medida"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AHA/ACEP guidance on carbon monoxide poisoning, revisão 2023; Undersea and Hyperbaric Medical Society indications, 2023",
-  "coment": "A intoxicação por monóxido de carbono reduz o transporte de oxigênio pela formação de carboxi-hemoglobina, e a oximetria de pulso convencional é falsamente normal porque não distingue a carboxi-hemoglobina da oxi-hemoglobina. O tratamento é oxigênio a cem por cento com máscara não reinalante, que reduz a meia-vida do monóxido de várias horas para cerca de uma hora. Câmara hiperbárica é considerada em alteração neurológica, gestação, isquemia e níveis muito elevados.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 — intoxicação por monóxido de carbono",
+  "coment": "O oxímetro de pulso não distingue carboxiemoglobina de oxiemoglobina e mostra saturação falsamente normal — por isso o diagnóstico é clínico e confirmado pela carboxiemoglobina. O tratamento é oxigênio a 100%, que reduz a meia-vida do monóxido de aproximadamente 4 horas para cerca de 1 hora. A câmara hiperbárica é considerada em carboxiemoglobina acima de 25%, alteração neurológica, gestação ou isquemia miocárdica.",
   "porAlt": [
-   "A oximetria de pulso convencional é falsamente normal nessa intoxicação e não deve orientar a conduta.",
-   "Correta: oxigênio a cem por cento com máscara não reinalante, com hiperbárica nos casos graves.",
-   "A hidratação é suporte e não acelera a eliminação do monóxido ligado à hemoglobina.",
-   "O baixo fluxo é insuficiente: é preciso a maior fração inspirada possível para acelerar a eliminação.",
-   "Liberar sem oxigenoterapia mantém a carboxi-hemoglobina elevada e o risco de sequela neurológica."
+   "Correta: fração inspirada máxima é o tratamento imediato.",
+   "Cateter nasal não oferece fração inspirada suficiente.",
+   "A pressão positiva não acelera a eliminação do monóxido.",
+   "Esperar exame com carboxiemoglobina de 28% atrasa o tratamento.",
+   "A hidroxicobalamina é antídoto do cianeto, considerada na suspeita associada."
   ]
  },
  {
-  "q": "Paciente com estado de mal asmático, exausto, com silêncio auscultatório e hipercapnia. Qual é a conduta?",
+  "q": "Homem de 32 anos, asmático, chega com crise iniciada há dois dias, sem melhora com salbutamol domiciliar. Está sentado, exausto, falando palavras isoladas, com frequência respiratória de 34 irpm, frequência cardíaca de 132 bpm, saturação de 88% em máscara e uso intenso de musculatura acessória. A ausculta mostra silêncio auscultatório. A gasometria revela pH de 7,22, pressão parcial de dióxido de carbono de 58 mmHg e bicarbonato de 22 mEq/L. Qual é a conduta?",
   "alts": [
-   "Manter apenas broncodilatador inalatório e observar clinicamente por mais duas horas antes de qualquer decisão.",
-   "Intubação com ventilação protetora e broncodilatador contínuo, evitando sempre o aprisionamento aéreo excessivo.",
-   "Administrar sedativo sem qualquer suporte ventilatório para reduzir a ansiedade do paciente exausto neste caso.",
-   "Ventilar com volume corrente e frequência elevados para corrigir rapidamente a hipercapnia do paciente agora.",
-   "Prescrever apenas antibiótico de amplo espectro como tratamento definitivo do estado de mal asmático agora."
+   "Intubação orotraqueal com ventilação protetora e hipercapnia permissiva",
+   "Aumentar a dose de beta-agonista inalatório e reavaliar",
+   "Ventilação não invasiva como medida definitiva",
+   "Corticoide intravenoso isolado e observação",
+   "Sedação leve para reduzir a ansiedade"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "GINA — Global Strategy for Asthma Management and Prevention, 2025; ERS/ATS statement on severe asthma, revisão 2023",
-  "coment": "Silêncio auscultatório, exaustão e hipercapnia na crise asmática indicam falência ventilatória iminente e necessidade de intubação. Na ventilação, o desafio é o aprisionamento aéreo: usam-se frequência baixa, tempo expiratório prolongado, volume corrente reduzido e aceita-se hipercapnia permissiva, monitorando a pressão de platô e a auto-PEEP. Broncodilatador contínuo, corticoide sistêmico e sulfato de magnésio compõem o tratamento farmacológico.",
+  "base": "GINA 2026 — asma quase fatal e indicação de ventilação invasiva",
+  "coment": "Silêncio auscultatório, exaustão, fala entrecortada e hipercapnia com acidose em asmático são sinais de parada respiratória iminente. A indicação é intubação, com estratégia que privilegia tempo expiratório longo, frequência baixa e volume corrente reduzido, aceitando hipercapnia — a armadilha é o auto-PEEP com hiperinsuflação dinâmica e colapso hemodinâmico.",
   "porAlt": [
-   "Observar mais duas horas o paciente exausto e hipercápnico arrisca parada respiratória iminente.",
-   "Correta: intubação com ventilação protetora e broncodilatador contínuo, evitando aprisionamento aéreo.",
-   "Sedar sem suporte ventilatório em paciente exausto precipita parada respiratória imediata.",
-   "Frequência e volume elevados agravam o aprisionamento aéreo e podem causar barotrauma e colapso.",
-   "O antibiótico não trata o broncoespasmo grave que caracteriza o estado de mal asmático."
+   "Correta: sinais de parada iminente indicam via aérea definitiva.",
+   "Insistir no inalatório com hipercapnia e exaustão é perder o momento.",
+   "A ventilação não invasiva não é definitiva nesse estágio.",
+   "O corticoide é essencial, mas leva horas e não resolve a exaustão.",
+   "Sedar sem proteger a via aérea precipita a parada."
   ]
  },
  {
-  "q": "Paciente com sepse e hipoperfusão apresenta lactato que não reduz após ressuscitação inicial. Qual é a conduta?",
+  "q": "Homem de 60 anos com choque séptico por pneumonia está na terapia intensiva, após 30 mL/kg de cristaloide e antibiótico adequado nas primeiras horas. Mantém pressão arterial média de 68 mmHg com noradrenalina 0,3 mcg/kg/min, débito urinário de 0,4 mL/kg/h e extremidades frias. O lactato inicial era de 5,2 mmol/L e, após seis horas, está em 4,8 mmol/L. A saturação venosa central é de 60% e a variação de pressão de pulso é de 16%. Qual é a conduta?",
   "alts": [
-   "Ignorar o lactato persistente, pois ele não tem qualquer valor prognóstico após a ressuscitação inicial.",
-   "Suspender o antibiótico e apenas observar a evolução clínica do paciente com lactato persistentemente elevado.",
-   "Administrar bicarbonato de sódio endovenoso de rotina para normalizar o lactato sérico do paciente agora.",
-   "Reduzir a dose do vasopressor apesar da persistência dos sinais de hipoperfusão tecidual no paciente agora.",
-   "Reavaliar a fonte e o controle do foco, ajustando sempre a ressuscitação com avaliação hemodinâmica dirigida."
+   "Avaliar responsividade a volume e considerar inotrópico",
+   "Aumentar a noradrenalina até pressão média de 85 mmHg",
+   "Transfundir para hemoglobina acima de 10 g/dL",
+   "Trocar o antibiótico empiricamente",
+   "Iniciar corticoide em dose imunossupressora"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Surviving Sepsis Campaign, 2021 com atualização 2024; SCCM guidance on hemodynamic monitoring, revisão 2023",
-  "coment": "Lactato que não reduz após a ressuscitação inicial indica hipoperfusão persistente ou foco não controlado e é marcador prognóstico importante. A conduta é reavaliar o controle da fonte — abscesso não drenado, cateter infectado, tecido necrótico, obstrução —, revisar a adequação do antimicrobiano, e ajustar a ressuscitação com avaliação dinâmica de responsividade a volume, função cardíaca e perfusão periférica, incluindo tempo de enchimento capilar.",
+  "base": "Surviving Sepsis Campaign 2021/2026 — ressuscitação guiada por perfusão",
+  "coment": "Lactato que não clareia com hipoperfusão persistente indica reavaliar a ressuscitação: variação de pressão de pulso de 16% sugere responsividade a volume, e saturação venosa central baixa com extremidades frias levanta a hipótese de débito cardíaco insuficiente, caso em que se associa inotrópico. Também se reavalia o controle do foco, que é a causa mais comum de refratariedade.",
   "porAlt": [
-   "O lactato persistente é marcador prognóstico relevante e sinaliza hipoperfusão ainda ativa.",
-   "Suspender o antibiótico em sepse com hipoperfusão persistente agrava diretamente o quadro.",
-   "O bicarbonato não corrige a causa da hiperlactatemia e não melhora desfechos nessa situação.",
-   "Reduzir o vasopressor com hipoperfusão persistente aprofunda o choque e a lesão de órgãos.",
-   "Correta: reavaliar fonte e controle do foco e ajustar a ressuscitação com avaliação hemodinâmica dirigida."
+   "Correta: reavaliar volume, débito e foco antes de escalar às cegas.",
+   "Alvos de pressão média acima de 65 mmHg não mostraram benefício e aumentam eventos.",
+   "A transfusão por alvo de 10 g/dL foi abandonada na sepse.",
+   "Trocar antibiótico sem dado microbiológico ou falha clara é empirismo.",
+   "O corticoide na sepse é hidrocortisona em dose baixa, no choque refratário a vasopressor."
   ]
  },
  {
-  "q": "Paciente com abdome agudo e suspeita de isquemia mesentérica, com dor desproporcional ao exame físico. Qual é a conduta?",
+  "q": "Homem de 76 anos, com fibrilação atrial sem anticoagulação, chega com dor abdominal de início súbito há cinco horas, de forte intensidade e contínua. Ao exame, o abdome é flácido e pouco doloroso à palpação, com ruídos hidroaéreos presentes — achados desproporcionais à intensidade da dor relatada. Está com pressão de 128/76 mmHg, frequência de 110 bpm irregular, lactato de 4,2 mmol/L e leucócitos de 19.000/mm³. A radiografia de abdome é inespecífica. Qual é a conduta?",
   "alts": [
-   "Aguardar o surgimento de peritonite franca antes de qualquer investigação por imagem no paciente descrito.",
-   "Prescrever apenas analgésico potente e observar clinicamente por vinte e quatro horas antes de investigar.",
-   "Realizar apenas radiografia simples de abdome, exame suficiente para o diagnóstico de isquemia mesentérica.",
-   "Prescrever apenas antiespasmódico e liberar o paciente com retorno agendado em uma semana para reavaliação.",
-   "Angiotomografia de abdome com urgência e avaliação cirúrgica, mantendo sempre alto índice de suspeição clínica."
+   "Angiotomografia de abdome com fases arterial e venosa",
+   "Radiografia seriada de abdome a cada 6 horas",
+   "Laparotomia exploradora sem exame de imagem",
+   "Tratamento clínico com jejum e antibiótico",
+   "Colonoscopia de urgência"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "WSES guidelines on acute mesenteric ischemia, 2022; ESVS Clinical Practice Guidelines on mesenteric ischemia, 2023",
-  "coment": "A isquemia mesentérica aguda tem como marca clínica a dor desproporcional ao exame físico, e o diagnóstico precoce é o principal determinante de sobrevida, com mortalidade que cresce muito após a instalação de necrose transmural. A angiotomografia com fases arterial e venosa é o exame de escolha e deve ser feita com urgência. O tratamento combina revascularização — endovascular ou cirúrgica —, ressecção de alça inviável e suporte intensivo.",
+  "base": "AGA 2000 e ESTES 2016 — isquemia mesentérica aguda",
+  "coment": "Dor abdominal desproporcional ao exame físico, em idoso com fibrilação atrial não anticoagulada e lactato elevado, é isquemia mesentérica aguda até prova em contrário — provavelmente embólica. A angiotomografia com contraste em fases arterial e venosa é o exame de escolha e deve ser feita sem demora: o prognóstico despenca com o tempo de isquemia.",
   "porAlt": [
-   "Esperar peritonite significa esperar necrose transmural, quando a mortalidade já é muito elevada.",
-   "Analgesia e observação por vinte e quatro horas permitem a progressão para infarto intestinal.",
-   "A radiografia simples é normal em fase inicial e não exclui isquemia mesentérica aguda.",
-   "Liberar com retorno em uma semana em suspeita de isquemia mesentérica é conduta de altíssimo risco.",
-   "Correta: angiotomografia com urgência e avaliação cirúrgica, mantendo alto índice de suspeição."
+   "Correta: exame de escolha, feito com urgência.",
+   "Radiografia seriada perde tempo e tem baixa sensibilidade.",
+   "Operar sem definir o território e o mecanismo prejudica o planejamento.",
+   "O tratamento clínico isolado não trata a oclusão arterial.",
+   "A colonoscopia não avalia o território arterial mesentérico agudo."
   ]
  },
  {
-  "q": "Paciente com trauma raquimedular e hipotensão com bradicardia, sem sinais de sangramento. Qual é a hipótese?",
+  "q": "Homem de 23 anos é trazido após mergulho em água rasa, com impacto craniano. Está consciente, com Glasgow de 15, tetraplegia flácida abaixo de C6, anestesia em nível correspondente e priapismo. A pressão é de 78/46 mmHg e a frequência de 48 bpm. A pele está quente e seca, o enchimento capilar é de 2 segundos, o abdome é flácido e o FAST é negativo. Não há sangramento externo nem fratura de ossos longos. Qual é o diagnóstico e a conduta?",
   "alts": [
-   "Choque hipovolêmico clássico, definido por hipotensão com bradicardia e ausência de sangramento evidente.",
-   "Choque cardiogênico agudo, condição caracterizada por hipotensão com bradicardia após trauma raquimedular.",
-   "Choque séptico precoce, quadro definido por hipotensão com bradicardia nas primeiras horas do trauma.",
-   "Choque anafilático, condição caracterizada por hipotensão com bradicardia após lesão medular traumática.",
-   "Choque neurogênico por perda do tônus simpático, exigindo sempre exclusão de hemorragia concomitante."
+   "Choque neurogênico: volume criterioso e vasopressor",
+   "Choque hipovolêmico: reposição volêmica agressiva",
+   "Choque cardiogênico: iniciar inotrópico",
+   "Choque obstrutivo: descompressão torácica",
+   "Choque séptico: antibiótico de amplo espectro"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ATLS 11ª edição, 2024; AANS/CNS guidelines on management of acute cervical spine and spinal cord injuries, revisão 2023",
-  "coment": "O choque neurogênico decorre da perda do tônus simpático em lesões medulares acima do nível torácico médio, produzindo vasodilatação com hipotensão, bradicardia paradoxal e pele quente e seca, o que o distingue do choque hipovolêmico, que cursa com taquicardia e extremidades frias. É diagnóstico de exclusão no politraumatizado, exigindo afastar hemorragia. O tratamento combina reposição volêmica criteriosa, vasopressor e, quando necessário, atropina para a bradicardia.",
+  "base": "ATLS 11ª edição, 2018 — choque neurogênico no trauma raquimedular",
+  "coment": "Hipotensão com bradicardia, pele quente e seca e FAST negativo, em lesão medular alta, define choque neurogênico — a perda do tônus simpático causa vasodilatação e impede a taquicardia compensatória. O tratamento é volume criterioso seguido de vasopressor, com alvo de pressão arterial média em torno de 85 a 90 mmHg para perfundir a medula. É diagnóstico de exclusão: hemorragia precisa ser descartada.",
   "porAlt": [
-   "O choque hipovolêmico cursa com taquicardia e extremidades frias, ao contrário do descrito aqui.",
-   "O choque cardiogênico cursa com congestão e sinais de falência de bomba, ausentes neste caso.",
-   "O choque séptico não se instala nas primeiras horas do trauma e cursa com taquicardia.",
-   "A anafilaxia cursa com taquicardia, urticária e broncoespasmo, sem relação com a lesão medular.",
-   "Correta: choque neurogênico por perda do tônus simpático, com exclusão obrigatória de hemorragia."
+   "Correta: bradicardia com pele quente e FAST negativo aponta neurogênico.",
+   "O hipovolêmico cursa com taquicardia e pele fria.",
+   "Não há dado de disfunção cardíaca.",
+   "Não há sinais de pneumotórax ou tamponamento.",
+   "Não há foco infeccioso, e a evolução é aguda e traumática."
   ]
  },
  {
-  "q": "Paciente com cetoacidose diabética em tratamento apresenta queda da glicemia para 210 mg/dL, mas mantém acidose e cetose. Qual é a conduta?",
+  "q": "Mulher de 27 anos, diabética tipo 1, está em tratamento de cetoacidose há seis horas com insulina regular em bomba e reposição volêmica. A glicemia caiu de 520 para 210 mg/dL. O pH permanece em 7,22, o bicarbonato em 12 mEq/L, o ânion gap em 20 e a cetonemia segue positiva. O potássio é de 4,0 mEq/L e ela está lúcida, com débito urinário adequado. Qual é a conduta?",
   "alts": [
-   "Suspender a insulina imediatamente assim que a glicemia atingir duzentos e dez miligramas por decilitro já.",
-   "Aumentar a insulina sem qualquer oferta de glicose apesar da queda da glicemia observada no paciente agora já.",
-   "Acrescentar glicose à infusão e manter a insulina, mantendo sempre o gotejamento até a resolução da cetose.",
-   "Suspender toda hidratação endovenosa assim que a glicemia cair abaixo de duzentos e cinquenta miligramas.",
-   "Administrar bicarbonato de sódio de rotina em todos os pacientes com cetoacidose e glicemia em queda agora."
+   "Associar soro glicosado e manter a insulina",
+   "Suspender a insulina, pois a glicemia normalizou",
+   "Reduzir a insulina pela metade e observar",
+   "Administrar bicarbonato de sódio intravenoso",
+   "Iniciar insulina de ação prolongada e suspender a bomba"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ADA/EASD consensus report on hyperglycaemic crises in adults, 2024",
-  "coment": "Na cetoacidose diabética, a glicemia normaliza antes da cetose e da acidose, e a insulina precisa ser mantida até a resolução dos critérios: pH e bicarbonato adequados, cetonemia negativada e ânion gap normalizado. Quando a glicemia cai para cerca de 200 mg/dL, acrescenta-se glicose à infusão para permitir manter a insulina sem hipoglicemia. Suspender a insulina precocemente é erro clássico e leva a recidiva da cetoacidose.",
+  "base": "SBD 2026 e ADA — tratamento da cetoacidose diabética",
+  "coment": "O alvo do tratamento da cetoacidose é fechar o ânion gap, não normalizar a glicemia — a insulina é o que interrompe a cetogênese. Quando a glicemia chega a 200 a 250 mg/dL, associa-se soro glicosado para permitir manter a infusão de insulina sem hipoglicemia, até resolução da acidose. O bicarbonato só é considerado com pH abaixo de 6,9.",
   "porAlt": [
-   "Suspender a insulina antes da resolução da cetose leva a recidiva da cetoacidose no paciente.",
-   "Manter insulina sem oferta de glicose nesse ponto provoca hipoglicemia grave no paciente.",
-   "Correta: acrescentar glicose à infusão e manter a insulina até a resolução completa da cetose.",
-   "A hidratação é mantida conforme o estado volêmico e não é suspensa pela queda da glicemia.",
-   "O bicarbonato de rotina não é recomendado e pode agravar a acidose intracelular e a hipocalemia."
+   "Correta: manter insulina com glicose até fechar o ânion gap.",
+   "Suspender a insulina com acidose aberta faz a cetogênese recomeçar.",
+   "Reduzir pela metade retarda a resolução da acidose.",
+   "O bicarbonato só entra com pH abaixo de 6,9.",
+   "A transição para subcutânea exige acidose resolvida e sobreposição."
   ]
  },
  {
-  "q": "Paciente com queimadura elétrica de alta tensão apresenta lesões cutâneas pequenas de entrada e saída. Qual é a preocupação principal?",
+  "q": "Homem de 33 anos, eletricista, sofre choque elétrico de alta tensão ao tocar cabo energizado. Apresenta lesão de entrada de 3 cm na palma direita e de saída no pé esquerdo, ambas de aparência pequena. Está consciente, com pressão de 118/72 mmHg, frequência de 104 bpm, dor intensa no antebraço direito, que está tenso e endurecido, com parestesia distal. A urina é escura, a creatinofosfoquinase é de 28.000 U/L e o eletrocardiograma mostra extrassístoles ventriculares frequentes. Qual é a principal preocupação?",
   "alts": [
-   "Lesão limitada à pele visível, dispensando qualquer monitorização cardíaca ou avaliação de função renal agora.",
-   "Risco exclusivamente estético das lesões de entrada e saída, sem qualquer repercussão sistêmica relevante agora.",
-   "Lesão profunda extensa com rabdomiólise e arritmia, exigindo sempre monitorização e hidratação vigorosa precoce.",
-   "Necessidade apenas de curativo simples ambulatorial em todos os casos de queimadura elétrica de alta tensão.",
-   "Risco apenas de infecção local, sem qualquer necessidade de avaliação laboratorial ou eletrocardiográfica agora."
+   "Lesão profunda extensa com rabdomiólise e síndrome compartimental",
+   "Apenas lesão cutânea, de tratamento ambulatorial",
+   "Infecção secundária das feridas de entrada e saída",
+   "Desidratação leve por exposição ao calor",
+   "Lesão ocular tardia por arco elétrico"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "American Burn Association guidelines on electrical injury, revisão 2023; ATLS 11ª edição, 2024",
-  "coment": "Na queimadura elétrica de alta tensão, as lesões cutâneas visíveis subestimam gravemente o dano: a corrente percorre tecidos profundos, causando necrose muscular extensa, rabdomiólise com risco de lesão renal aguda, síndrome compartimental e arritmias cardíacas. A conduta inclui monitorização eletrocardiográfica, hidratação vigorosa com alvo de débito urinário elevado, dosagem de creatinoquinase e mioglobina, e avaliação cirúrgica para fasciotomia quando necessário.",
+  "base": "ATLS 11ª edição, 2018 — queimadura elétrica de alta tensão",
+  "coment": "Na queimadura elétrica de alta tensão a lesão cutânea subestima grosseiramente o dano: a corrente percorre músculos, vasos e nervos, produzindo necrose profunda, rabdomiólise com risco renal e síndrome compartimental, além de arritmias. O manejo inclui hidratação vigorosa, monitorização cardíaca e avaliação cirúrgica para fasciotomia — a urina escura com creatinofosfoquinase alta confirma a mionecrose.",
   "porAlt": [
-   "A lesão cutânea visível subestima muito o dano profundo causado pela passagem da corrente.",
-   "O risco é sistêmico e grave, envolvendo coração, músculo e rim, e não apenas estético.",
-   "Correta: lesão profunda extensa com rabdomiólise e arritmia, exigindo monitorização e hidratação precoce.",
-   "O curativo simples ignora a necessidade de monitorização, hidratação e avaliação de compartimentos.",
-   "Além da infecção, há risco de rabdomiólise, lesão renal, arritmia e síndrome compartimental."
+   "Correta: o dano profundo e suas consequências dominam o quadro.",
+   "O aspecto pequeno das lesões é exatamente o que engana.",
+   "A infecção é preocupação tardia, não a principal agora.",
+   "Não há dado de desidratação isolada por calor.",
+   "A lesão ocular é possível, mas não é a ameaça imediata."
   ]
  },
  {
-  "q": "Paciente com dor torácica súbita, intensa, irradiada para o dorso, com assimetria de pulsos e hipertensão grave. Qual é a conduta?",
+  "q": "Homem de 63 anos, hipertenso de longa data com adesão irregular, chega com dor torácica súbita e intensa iniciada há 40 minutos, irradiada para o dorso interescapular, descrita como rasgando. Está com pressão de 186/104 mmHg no braço direito e 148/86 mmHg no esquerdo, frequência de 106 bpm. Há sopro diastólico aspirativo novo em foco aórtico e assimetria de pulsos radiais. O eletrocardiograma não mostra supradesnivelamento e a radiografia revela mediastino alargado. Qual é a conduta imediata?",
   "alts": [
-   "Iniciar trombólise sistêmica imediata em todos os pacientes com dor torácica intensa irradiada para o dorso.",
-   "Suspeitar de dissecção de aorta e reduzir frequência e pressão, solicitando sempre imagem vascular de urgência.",
-   "Iniciar anticoagulação plena imediata como tratamento de escolha diante da suspeita clínica descrita no caso.",
-   "Prescrever apenas analgésico e observar clinicamente por doze horas antes de qualquer investigação por imagem.",
-   "Reduzir a pressão apenas com vasodilatador isolado, sem qualquer controle prévio da frequência cardíaca agora."
+   "Betabloqueador intravenoso seguido de angiotomografia",
+   "Fibrinólise imediata para infarto agudo",
+   "Vasodilatador isolado antes do betabloqueador",
+   "Ácido acetilsalicílico e heparina plena",
+   "Aguardar troponina antes de qualquer conduta"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ESC Guidelines for the diagnosis and management of aortic diseases, 2024; ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease, 2022",
-  "coment": "A dissecção aguda de aorta se apresenta com dor súbita, intensa, lancinante, irradiada para o dorso, podendo cursar com assimetria de pulsos e pressão, déficit neurológico e insuficiência aórtica. O tratamento inicial reduz a força de cisalhamento sobre a parede: primeiro betabloqueador endovenoso para controlar a frequência, depois vasodilatador para a pressão — a ordem importa, pois vasodilatador isolado causa taquicardia reflexa e agrava a dissecção.",
+  "base": "ESC 2024 — síndromes aórticas agudas",
+  "coment": "Dor rasgando com irradiação dorsal, assimetria de pressão e de pulsos, sopro de insuficiência aórtica novo e mediastino alargado apontam dissecção aguda de aorta. O tratamento inicial reduz a força de cisalhamento: betabloqueador intravenoso primeiro, baixando frequência e derivada de pressão, e vasodilatador depois, se necessário. A angiotomografia define o tipo e a conduta cirúrgica.",
   "porAlt": [
-   "A trombólise em dissecção de aorta é catastrófica e pode causar hemorragia fatal imediata.",
-   "Correta: suspeitar de dissecção, reduzir frequência antes da pressão e solicitar imagem vascular urgente.",
-   "A anticoagulação plena agrava o sangramento na parede aórtica e é contraindicada nessa suspeita.",
-   "Observar doze horas em suspeita de dissecção permite rotura e óbito nesse intervalo de tempo.",
-   "Vasodilatador isolado causa taquicardia reflexa e aumenta a força de cisalhamento sobre a aorta."
+   "Correta: controlar cisalhamento e definir por imagem.",
+   "Fibrinólise em dissecção é catastrófica.",
+   "Vasodilatador antes do betabloqueador aumenta a taquicardia reflexa.",
+   "Antiagregação e heparina agravam o sangramento da falsa luz.",
+   "Esperar troponina atrasa uma emergência cirúrgica."
   ]
  },
  {
-  "q": "Paciente com hipoglicemia refratária após intoxicação por sulfonilureia, apesar de glicose endovenosa repetida. Qual é a conduta adicional?",
+  "q": "Mulher de 71 anos, diabética em uso de glibenclamida, deu entrada por hipoglicemia e recebeu três bolus de glicose hipertônica, além de soro glicosado a 10% contínuo. Seis horas depois mantém glicemias entre 45 e 58 mg/dL a cada aferição, com sudorese e tremores recorrentes. Está lúcida, com pressão de 128/76 mmHg, frequência de 92 bpm, creatinina de 1,8 mg/dL e sem ingestão oral adequada. Qual é a conduta específica?",
   "alts": [
-   "Administrar insulina para estabilizar o metabolismo do paciente com hipoglicemia refratária por sulfonilureia agora.",
-   "Suspender toda oferta de glicose e apenas observar a recuperação espontânea do paciente intoxicado nesse contexto.",
-   "Considerar octreotide associado à infusão de glicose, mantendo sempre monitorização glicêmica frequente e prolongada.",
-   "Administrar flumazenil endovenoso como antídoto específico da intoxicação por sulfonilureia descrita no caso agora.",
-   "Liberar o paciente para casa assim que a glicemia normalizar uma única vez durante o atendimento nesse contexto."
+   "Octreotide subcutâneo associado à infusão de glicose",
+   "Aumentar a concentração da glicose para 50% em periférico",
+   "Glucagon intramuscular a cada 4 horas",
+   "Corticoide intravenoso para elevar a glicemia",
+   "Alta com orientação de dieta fracionada"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "AACT/EAPCCT position paper on sulfonylurea poisoning, revisão 2023; Ministério da Saúde — intoxicações agudas, 2022",
-  "coment": "Na hipoglicemia refratária por sulfonilureia, a glicose endovenosa estimula ainda mais a secreção de insulina pelas células beta, criando um ciclo de recorrência. O octreotide inibe a secreção de insulina e é o antídoto funcional nessa situação, reduzindo episódios e a necessidade de glicose. A observação deve ser prolongada, de pelo menos vinte e quatro horas, dada a meia-vida longa do fármaco e o risco de recorrência após a normalização inicial.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 — octreotide na hipoglicemia por sulfonilureia",
+  "coment": "Na hipoglicemia refratária por sulfonilureia, o octreotide é o tratamento específico: inibe a secreção pancreática de insulina estimulada pelo fármaco e reduz a necessidade de glicose e a recorrência. A infusão de glicose é mantida em paralelo, e a observação se estende porque a meia-vida do fármaco está prolongada pela doença renal.",
   "porAlt": [
-   "A insulina agrava a hipoglicemia e é exatamente o oposto do necessário nessa intoxicação.",
-   "Suspender a glicose em hipoglicemia refratária expõe o paciente a dano neurológico permanente.",
-   "Correta: octreotide associado à glicose, com monitorização glicêmica frequente e observação prolongada.",
-   "O flumazenil é antídoto de benzodiazepínico e não tem qualquer efeito sobre a sulfonilureia.",
-   "A alta precoce arrisca recorrência em domicílio pela meia-vida longa do fármaco ingerido."
+   "Correta: octreotide é o tratamento específico na refratariedade.",
+   "Glicose a 50% em acesso periférico causa flebite e não resolve o mecanismo.",
+   "O glucagon pode estimular mais liberação de insulina nesse contexto.",
+   "O corticoide não tem papel nessa indicação.",
+   "Dar alta com hipoglicemia recorrente é conduta perigosa."
   ]
  },
  {
-  "q": "Paciente com múltiplas vítimas em acidente e recursos limitados. Qual é o princípio da triagem em desastre?",
+  "q": "Uma explosão em fábrica produz 28 vítimas que chegam simultaneamente a um pronto-socorro com duas salas de emergência e equipe reduzida no plantão noturno. Entre elas há pacientes com queimaduras extensas, fraturas expostas, trauma cranioencefálico e ferimentos superficiais. O hospital acionou o plano de catástrofe e o transporte para outros serviços levará pelo menos 40 minutos. Qual é o princípio que rege a triagem nesse cenário?",
   "alts": [
-   "Priorizar sempre o paciente mais grave, independentemente da chance de sobrevida e dos recursos disponíveis agora.",
-   "Atender estritamente por ordem de chegada em todos os cenários de múltiplas vítimas com recursos limitados agora.",
-   "Priorizar quem tem maior chance de sobreviver com os recursos disponíveis, buscando sempre o maior benefício coletivo.",
-   "Priorizar apenas por idade cronológica, atendendo primeiro os mais jovens em qualquer cenário de desastre neste caso.",
-   "Aguardar a chegada de recursos adicionais antes de iniciar qualquer atendimento às vítimas do acidente neste caso."
+   "Maior benefício para o maior número",
+   "Atender primeiro quem chegou primeiro",
+   "Priorizar o mais grave, qualquer que seja o prognóstico",
+   "Atender por ordem de idade, do mais jovem ao mais velho",
+   "Aguardar reforço antes de iniciar o atendimento"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2024, capítulo de desastres; Ministério da Saúde — Plano de resposta a emergências com múltiplas vítimas, 2022",
-  "coment": "Na triagem de desastre, o princípio muda em relação ao atendimento cotidiano: o objetivo deixa de ser o melhor para cada indivíduo e passa a ser o maior benefício para o maior número, com os recursos disponíveis. Pacientes com lesões incompatíveis com a sobrevida diante dos recursos existentes recebem cuidado de conforto, enquanto os recursos vão para quem tem chance real de sobreviver com intervenção. Sistemas como o START organizam essa classificação rapidamente.",
+  "base": "ATLS 11ª edição, 2018 — triagem em múltiplas vítimas",
+  "coment": "Na triagem de múltiplas vítimas com recursos insuficientes a lógica se inverte em relação ao atendimento individual: deixa de ser o mais grave primeiro e passa a ser o maior benefício para o maior número. Sistemas como o START classificam por cores e reservam a categoria expectante para quem consumiria recursos desproporcionais com baixa chance de sobrevida.",
   "porAlt": [
-   "Priorizar o mais grave sem considerar recursos e prognóstico consome tudo em quem não sobreviverá.",
-   "A ordem de chegada não considera gravidade e produz mortes evitáveis em cenário de desastre.",
-   "Correta: priorizar quem tem maior chance de sobreviver com os recursos disponíveis no cenário.",
-   "A idade isolada não é critério de triagem e não estima chance de sobrevida no evento.",
-   "Aguardar recursos sem iniciar o atendimento aumenta a mortalidade das vítimas recuperáveis."
+   "Correta: é o princípio utilitarista da triagem em catástrofe.",
+   "A ordem de chegada não ordena prioridade clínica.",
+   "Priorizar o mais grave sem considerar prognóstico é a lógica do atendimento individual, não da catástrofe.",
+   "A idade isolada não é critério de triagem.",
+   "Adiar o atendimento à espera de reforço aumenta mortes evitáveis."
   ]
  },
  {
@@ -21720,27 +21720,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com suspeita de intoxicação por paracetamol em dose elevada há 6 horas. Qual é a conduta?",
+  "q": "Homem de 24 anos é trazido pela família seis horas após ingerir cerca de 20 g de paracetamol em tentativa de autoextermínio. Está lúcido e orientado, com náuseas e vômitos, sem dor abdominal importante. A pressão é de 122/76 mmHg, a frequência de 84 bpm e o exame físico é normal. As transaminases, o RNI e a creatinina estão normais. A concentração sérica de paracetamol nesta hora situa-se acima da linha de tratamento do nomograma. Qual é a conduta?",
   "alts": [
-   "Aguardar o surgimento de icterícia e alteração hepática antes de iniciar qualquer antídoto no paciente intoxicado.",
-   "Administrar apenas carvão ativado seis horas após a ingestão como único tratamento da intoxicação descrita.",
-   "Dosar o nível sérico e iniciar N-acetilcisteína conforme o nomograma, sem sempre aguardar sintomas para tratar.",
-   "Administrar flumazenil endovenoso como antídoto específico da intoxicação por paracetamol em dose elevada.",
-   "Aguardar a metabolização espontânea do fármaco sem qualquer intervenção no paciente com ingestão elevada agora."
+   "Iniciar N-acetilcisteína imediatamente",
+   "Aguardar as transaminases de 24 horas",
+   "Carvão ativado isolado, sem antídoto",
+   "Lavagem gástrica com sonda calibrosa",
+   "Hemodiálise de urgência"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AACT/EAPCCT guidance on paracetamol poisoning, revisão 2023; Ministério da Saúde — intoxicações agudas, 2022",
-  "coment": "Na intoxicação por paracetamol, o nível sérico colhido a partir de quatro horas da ingestão é interpretado pelo nomograma de Rumack-Matthew, que define a indicação de N-acetilcisteína. O antídoto é altamente eficaz quando iniciado nas primeiras oito a dez horas e perde eficácia progressivamente depois, de modo que não se aguarda o surgimento de lesão hepática, que aparece após vinte e quatro a setenta e duas horas, quando o dano já está instalado.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 — paracetamol",
+  "coment": "Com nível acima da linha de tratamento do nomograma de Rumack-Matthew, a N-acetilcisteína é iniciada imediatamente. A eficácia é máxima nas primeiras 8 a 10 horas e cai depois — esperar a lesão hepática se instalar é justamente o que o antídoto existe para evitar. Exames devem ser monitorados, mas não condicionam o início.",
   "porAlt": [
-   "Aguardar icterícia significa tratar quando a lesão hepática já está instalada e o antídoto perdeu eficácia.",
-   "O carvão ativado tem papel limitado após seis horas e não substitui o antídoto específico indicado.",
-   "Correta: dosar o nível sérico e iniciar N-acetilcisteína conforme o nomograma, sem aguardar sintomas.",
-   "O flumazenil é antídoto de benzodiazepínico e não tem qualquer efeito na intoxicação por paracetamol.",
-   "Aguardar a metabolização permite hepatotoxicidade grave e insuficiência hepática fulminante."
+   "Correta: nível tóxico indica antídoto sem esperar.",
+   "Esperar 24 horas desperdiça a janela de maior eficácia.",
+   "O carvão só é útil nas primeiras horas e não substitui o antídoto.",
+   "A lavagem gástrica saiu da rotina e não substitui o antídoto.",
+   "O paracetamol não é removido de forma útil por diálise nesse cenário."
   ]
  },
  {
@@ -21960,27 +21960,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com sepse de foco pulmonar apresenta melhora clínica após cinco dias de antibiótico. Qual é a conduta quanto à duração?",
+  "q": "Homem de 66 anos internado por pneumonia comunitária grave com bacteremia por Streptococcus pneumoniae sensível à penicilina completa cinco dias de ceftriaxona. Está afebril há 72 horas, sem vasopressor desde o segundo dia, com frequência respiratória de 18 irpm, saturação de 95% em ar ambiente, leucócitos normalizados e aceitando dieta. A radiografia mostra melhora parcial da consolidação, e a procalcitonina caiu de 12 para 0,3 ng/mL. Qual é a conduta quanto à duração do antibiótico?",
   "alts": [
-   "Manter o antibiótico por trinta dias em todos os pacientes com sepse de foco pulmonar independentemente da resposta.",
-   "Suspender o antibiótico após vinte e quatro horas de melhora clínica em todos os pacientes com sepse pulmonar.",
-   "Manter o antibiótico indefinidamente até a normalização completa da radiografia de tórax do paciente tratado.",
-   "Definir a duração pela resposta clínica e pelo foco, evitando sempre prolongar o antibiótico sem indicação clara.",
-   "Trocar o antibiótico a cada três dias de rotina para evitar o surgimento de resistência bacteriana no paciente."
+   "Suspender após sete dias de tratamento",
+   "Manter por 21 dias pela bacteremia",
+   "Manter até a radiografia normalizar",
+   "Trocar para via oral e completar 14 dias",
+   "Manter até a procalcitonina zerar"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign, 2021 com atualização 2024; ATS/IDSA Guidelines for pneumonia, revisão 2023",
-  "coment": "A tendência atual é encurtar a duração do antibiótico quando o foco está controlado e há boa resposta clínica: cinco a sete dias bastam na maioria das pneumonias, com desfechos equivalentes aos de cursos prolongados e menos resistência, toxicidade e infecção por Clostridioides difficile. A procalcitonina pode auxiliar na decisão de suspender. A radiografia demora semanas a normalizar e não deve guiar a duração do tratamento antimicrobiano.",
+  "base": "IDSA/ATS 2019 — pneumonia adquirida na comunidade: duração do tratamento",
+  "coment": "Na pneumonia comunitária com boa resposta clínica, sete dias são suficientes — cursos mais longos não melhoram desfecho e aumentam resistência e efeitos adversos. A imagem melhora semanas depois da cura clínica e não deve guiar a duração. A procalcitonina em queda reforça a suspensão; não é preciso esperar zerar.",
   "porAlt": [
-   "Trinta dias é excessivo para foco pulmonar controlado e favorece resistência e toxicidade.",
-   "Suspender após vinte e quatro horas de melhora é insuficiente e favorece recidiva da infecção.",
-   "A radiografia leva semanas a normalizar e não deve guiar a duração do tratamento antimicrobiano.",
-   "Correta: definir a duração pela resposta clínica e pelo foco, sem prolongar o antibiótico desnecessariamente.",
-   "Trocar antibiótico de rotina a cada três dias não previne resistência e desorganiza o tratamento."
+   "Correta: sete dias com boa resposta clínica são suficientes.",
+   "Bacteremia pneumocócica com boa resposta não exige 21 dias.",
+   "A radiografia demora semanas para normalizar.",
+   "Quatorze dias prolongam sem benefício demonstrado.",
+   "Esperar a procalcitonina zerar prolonga o tratamento sem ganho."
   ]
  },
  {

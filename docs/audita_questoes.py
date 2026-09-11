@@ -145,7 +145,7 @@ def veredito(qs, rot, lista=False):
         print("  LOTE: " + y)
     if lista:
         for i, x, f in ruins:
-            print("\n  #%d [%s/%s] %s" % (i, x["tema"], x.get("nivel"), x["q"][:110]))
+            print("\n  #%d [%s/%s] %s" % (i, x.get("tema", "?"), x.get("nivel"), x["q"][:110]))
             for y in f:
                 print("      · " + y)
     return len(ruins) + len(fl)
