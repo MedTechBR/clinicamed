@@ -12528,243 +12528,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com diagnóstico recente de HIV, CD4 de 120 células/mm³, assintomático. Qual é a conduta?",
+  "q": "Homem de 29 anos recebe diagnóstico de infecção pelo HIV em rastreamento de rotina. Está assintomático, sem infecção oportunista, com CD4 de 120 células/mm³ e carga viral de 240.000 cópias/mL. Não é gestante, a função renal e hepática são normais, a radiografia de tórax não mostra alterações e o teste tuberculínico é não reagente. Nunca usou antirretroviral. Qual é a conduta?",
   "alts": [
-   "Aguardar o CD4 cair abaixo de cinquenta células antes de iniciar qualquer terapia antirretroviral.",
-   "Iniciar antirretroviral imediatamente e avaliar sempre a necessidade de profilaxias para oportunistas.",
-   "Iniciar apenas profilaxia com sulfametoxazol-trimetoprima, adiando o antirretroviral por seis meses.",
-   "Iniciar antirretroviral apenas quando surgir a primeira infecção oportunista definidora de aids agora.",
-   "Solicitar apenas carga viral seriada trimestral, sem qualquer tratamento antirretroviral no período."
+   "Iniciar antirretroviral agora",
+   "Aguardar CD4 abaixo de 100 para iniciar",
+   "Iniciar apenas profilaxias e reavaliar em 3 meses",
+   "Aguardar surgimento de sintomas",
+   "Repetir a carga viral antes de decidir"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; DHHS Guidelines, 2024",
-  "coment": "O tratamento antirretroviral é indicado para toda pessoa com HIV, independentemente de CD4 ou de sintomas, e deve ser iniciado o mais rápido possível, inclusive no mesmo dia do diagnóstico quando há condições. O esquema preferencial no Brasil é tenofovir com lamivudina e dolutegravir. Com CD4 abaixo de 200 células por milímetro cúbico indica-se profilaxia para pneumocistose com sulfametoxazol-trimetoprima, e é preciso afastar tuberculose e criptococose ativas antes.",
+  "base": "Ministério da Saúde, 2024 — PCDT de manejo da infecção pelo HIV em adultos",
+  "coment": "O tratamento antirretroviral é indicado para toda pessoa com HIV, independentemente de CD4 ou de sintoma — o ensaio START demonstrou redução de eventos graves com início imediato. O esquema preferencial inicial é dolutegravir com tenofovir e lamivudina. Com CD4 abaixo de 200 associa-se profilaxia para pneumocistose, que não substitui nem adia o antirretroviral.",
   "porAlt": [
-   "Aguardar queda do CD4 é conduta abandonada há anos e aumenta morbidade e mortalidade.",
-   "Correta: antirretroviral imediato, com avaliação das profilaxias indicadas para o nível de CD4.",
-   "A profilaxia é necessária, mas adiar o antirretroviral mantém a replicação viral e a imunossupressão.",
-   "Esperar a doença oportunista significa deixar o paciente evoluir para aids de forma evitável.",
-   "Monitorizar sem tratar não interrompe a progressão da doença nem reduz a transmissão."
+   "Correta: início imediato, qualquer que seja o CD4.",
+   "Esperar CD4 cair é a conduta antiga, abandonada desde o START.",
+   "A profilaxia é adicional, não substitui o antirretroviral.",
+   "Esperar sintoma significa esperar doença definidora.",
+   "A carga viral já está medida e não muda a indicação."
   ]
  },
  {
-  "q": "Homem de 40 anos com tosse produtiva há 4 semanas, febre vespertina, sudorese noturna e perda de peso. Qual é a conduta inicial?",
+  "q": "Homem de 40 anos, etilista, apresenta tosse produtiva há quatro semanas, febre vespertina, sudorese noturna e perda de 8 kg. Está com temperatura de 37,8 °C, frequência de 92 bpm e estertores em ápice direito. A radiografia mostra infiltrado com cavitação em lobo superior direito. Não tem diagnóstico prévio de HIV e nunca tratou tuberculose. Qual é a conduta diagnóstica inicial?",
   "alts": [
-   "Iniciar antibiótico de amplo espectro por dez dias e reavaliar apenas se não houver melhora clínica.",
-   "Solicitar apenas radiografia de tórax e iniciar tratamento empírico sem qualquer exame de escarro.",
-   "Solicitar teste rápido molecular para tuberculose no escarro e notificar sempre o caso confirmado.",
-   "Prescrever antitussígeno e reavaliar clinicamente em dois meses caso a tosse não tenha melhorado.",
-   "Solicitar tomografia de tórax de rotina como primeiro exame para o diagnóstico de tuberculose pulmonar."
+   "Teste rápido molecular para tuberculose no escarro",
+   "Baciloscopia seriada em três amostras",
+   "Tomografia de tórax de alta resolução",
+   "Broncoscopia com lavado broncoalveolar",
+   "Prova tuberculínica e repetir em duas semanas"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019 com atualização 2023",
-  "coment": "Tosse por três semanas ou mais define sintomático respiratório e obriga a investigar tuberculose. O exame de escolha no Brasil é o teste rápido molecular, que detecta o complexo Mycobacterium tuberculosis e a resistência à rifampicina em poucas horas. Cultura com teste de sensibilidade é solicitada nos casos indicados. A tuberculose é de notificação compulsória, e todo paciente diagnosticado deve ser testado para HIV e ter seus contatos avaliados.",
+  "base": "Ministério da Saúde, 2019 — Manual de recomendações para o controle da tuberculose",
+  "coment": "O teste rápido molecular é o exame de escolha inicial no Brasil para tuberculose pulmonar: detecta o DNA do bacilo e a resistência à rifampicina em cerca de duas horas, com sensibilidade superior à baciloscopia. A cultura com teste de sensibilidade é colhida em paralelo, e o teste para HIV é obrigatório em todo caso novo.",
   "porAlt": [
-   "Antibiótico de amplo espectro atrasa o diagnóstico e mantém a transmissão ativa no domicílio.",
-   "A radiografia é complementar e não substitui a pesquisa bacteriológica no escarro do paciente.",
-   "Correta: teste rápido molecular no escarro, com notificação compulsória do caso confirmado.",
-   "Adiar por dois meses mantém a transmissão e permite a progressão da doença pulmonar.",
-   "A tomografia não é o primeiro exame; o diagnóstico se apoia na investigação bacteriológica."
+   "Correta: exame inicial, com detecção de resistência no mesmo resultado.",
+   "A baciloscopia tem sensibilidade menor e não detecta resistência.",
+   "A tomografia não faz diagnóstico microbiológico.",
+   "A broncoscopia fica para quem não expectora ou tem molecular negativo com alta suspeita.",
+   "A prova tuberculínica diagnostica infecção latente, não doença ativa."
   ]
  },
  {
-  "q": "Paciente com febre há 5 dias, mialgia, cefaleia retro-orbitária e prova do laço positiva, com plaquetas de 90.000/mm³ e dor abdominal intensa. Qual é a conduta?",
+  "q": "Mulher de 34 anos chega com febre há cinco dias, mialgia intensa, cefaleia retro-orbitária e exantema. A prova do laço é positiva com 25 petéquias. Está com pressão de 112/70 mmHg, frequência de 96 bpm, tempo de enchimento capilar de 2 segundos e sem dor abdominal, vômitos persistentes ou letargia. O hematócrito é de 40% e as plaquetas de 118.000/mm³. Aceita líquidos por via oral. Qual é a classificação e a conduta?",
   "alts": [
-   "Alta domiciliar com hidratação oral e retorno apenas se surgir sangramento espontâneo em mucosas.",
-   "Prescrever ácido acetilsalicílico para o controle da febre e da mialgia intensa referida pelo paciente.",
-   "Hidratação endovenosa em ambiente de observação, pois o sinal de alarme indica sempre risco de choque.",
-   "Iniciar antibiótico de amplo espectro endovenoso como tratamento específico para o quadro descrito.",
-   "Transfundir plaquetas profilaticamente diante da contagem observada, antes de qualquer hidratação."
+   "Grupo B: hidratação oral supervisionada e exames",
+   "Grupo A: hidratação oral domiciliar e retorno se piorar",
+   "Grupo C: expansão com 20 mL/kg em duas horas",
+   "Grupo D: expansão e transferência para terapia intensiva",
+   "Grupo C: transfusão de plaquetas imediata"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Dengue: diagnóstico e manejo clínico, adulto e criança, 6ª edição, 2024",
-  "coment": "Dor abdominal intensa e contínua é sinal de alarme na dengue, classificando o paciente no grupo C, que exige hidratação endovenosa imediata com dez mililitros por quilo na primeira hora e observação em unidade com leito. Os sinais de alarme aparecem tipicamente na defervescência, quando ocorre o extravasamento plasmático. Salicilatos e anti-inflamatórios são contraindicados pelo risco de sangramento, e a transfusão de plaquetas profilática não é recomendada.",
+  "base": "Ministério da Saúde, 2024 — Dengue: diagnóstico e manejo clínico",
+  "coment": "A prova do laço positiva, sem sinais de alarme e sem instabilidade, classifica como grupo B — sangramento espontâneo de pele ou prova do laço positiva, ou condição de risco associada. A conduta é hidratação oral supervisionada em unidade de saúde, com hemograma colhido e reavaliação até o resultado, antes de decidir a alta.",
   "porAlt": [
-   "A alta domiciliar diante de sinal de alarme arrisca choque e óbito em poucas horas de evolução.",
-   "Salicilatos são contraindicados na dengue por aumentarem o risco de sangramento no paciente.",
-   "Correta: sinal de alarme indica hidratação endovenosa imediata e observação em unidade de saúde.",
-   "A dengue é viral e o antibiótico não tem qualquer papel no tratamento específico da doença.",
-   "A transfusão profilática de plaquetas não é recomendada e não previne sangramento na dengue."
+   "Correta: prova do laço positiva sem alarme define grupo B.",
+   "O grupo A não tem sangramento espontâneo nem prova do laço positiva.",
+   "O grupo C exige sinal de alarme, que ela não apresenta.",
+   "O grupo D exige choque ou sangramento grave.",
+   "A transfusão de plaquetas não é indicada pelo número isolado."
   ]
  },
  {
-  "q": "Paciente com febre, icterícia, mialgia intensa em panturrilhas, sufusão conjuntival e histórico de contato com água de enchente. Qual é a conduta?",
+  "q": "Homem de 38 anos, morador de área que sofreu enchente há duas semanas, chega com febre alta, cefaleia, mialgia intensa em panturrilhas e icterícia rubínica. Está com pressão de 104/62 mmHg, frequência de 108 bpm, sufusão conjuntival bilateral e dor à palpação de panturrilhas. A creatinina é de 3,2 mg/dL, o potássio de 3,0 mEq/L, as bilirrubinas de 9,8 mg/dL com predomínio direto e as plaquetas de 78.000/mm³. Qual é o diagnóstico e a conduta?",
   "alts": [
-   "Aguardar a confirmação sorológica antes de iniciar qualquer antibiótico no paciente com esse quadro.",
-   "Prescrever apenas sintomáticos, pois a doença suspeitada tem curso invariavelmente autolimitado.",
-   "Iniciar antiviral por sete dias, tratamento indicado para o quadro febril ictérico descrito no caso.",
-   "Indicar hemodiálise imediata em todos os casos com icterícia e mialgia após contato com enchente.",
-   "Iniciar antibiótico específico precocemente e notificar sempre o caso à vigilância epidemiológica."
-  ],
-  "gab": 4,
-  "tema": "infecto",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de leptospirose",
-  "coment": "A leptospirose deve ser suspeitada diante de febre, mialgia intensa em panturrilhas, sufusão conjuntival e exposição a água contaminada. O antibiótico é iniciado precocemente pela suspeita clínica, sem aguardar sorologia, que costuma positivar tardiamente: penicilina ou ceftriaxona nas formas graves, doxiciclina nas leves. A forma grave, síndrome de Weil, cursa com icterícia rubínica, lesão renal e hemorragia pulmonar. A doença é de notificação compulsória.",
-  "porAlt": [
-   "A sorologia positiva tardiamente e aguardá-la atrasa o antibiótico que muda o desfecho da doença.",
-   "A forma grave tem letalidade elevada e não é autolimitada, exigindo tratamento e suporte intensivo.",
-   "A leptospirose é bacteriana e não responde a antiviral, que não tem papel algum no tratamento.",
-   "A diálise se indica na lesão renal com critérios próprios, e não a todos os pacientes ictéricos.",
-   "Correta: antibiótico precoce guiado pela suspeita clínica, com notificação compulsória do caso."
-  ]
- },
- {
-  "q": "Paciente com cefaleia, febre e rigidez de nuca. Após coleta de culturas, qual é a conduta imediata?",
-  "alts": [
-   "Aguardar o resultado da análise do líquor antes de administrar a primeira dose de antibiótico ao paciente.",
-   "Iniciar apenas antiviral endovenoso, tratamento empírico de escolha para o quadro meníngeo descrito.",
-   "Prescrever analgésico e observar clinicamente por doze horas antes de qualquer decisão terapêutica agora.",
-   "Iniciar antibiótico empírico imediatamente, sempre sem aguardar o resultado do líquido cefalorraquidiano.",
-   "Realizar tomografia de crânio em todos os pacientes antes de qualquer administração de antibiótico agora."
-  ],
-  "gab": 3,
-  "tema": "infecto",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "IDSA/ESCMID guideline on bacterial meningitis, revisão 2023; Ministério da Saúde — Guia de Vigilância em Saúde, 2024",
-  "coment": "Na suspeita de meningite bacteriana, cada hora de atraso na antibioticoterapia aumenta a mortalidade. Após coletar hemoculturas, o antibiótico empírico com ceftriaxona, associado a vancomicina conforme epidemiologia e a ampicilina em grupos de risco para Listeria, é administrado imediatamente, junto de dexametasona. A punção lombar é feita em seguida e não deve atrasar o tratamento. Tomografia prévia se reserva a imunossupressão, déficit focal, convulsão ou rebaixamento.",
-  "porAlt": [
-   "Aguardar o resultado do líquor atrasa horas o antibiótico e aumenta mortalidade e sequelas.",
-   "O antiviral isolado não cobre a etiologia bacteriana, que é a de maior letalidade nesse quadro.",
-   "Observar por doze horas em suspeita de meningite bacteriana é intervalo inaceitavelmente longo.",
-   "Correta: antibiótico empírico imediato após as culturas, sem aguardar o resultado do líquor.",
-   "A tomografia prévia é seletiva e, quando indicada, não deve retardar a primeira dose do antibiótico."
-  ]
- },
- {
-  "q": "Paciente com febre alta há 3 dias após retorno de área endêmica de malária. Qual é a conduta imediata?",
-  "alts": [
-   "Iniciar antibiótico de amplo espectro empírico sem qualquer investigação parasitológica prévia.",
-   "Aguardar sete dias de febre antes de solicitar qualquer exame para pesquisa de plasmódio no sangue.",
-   "Solicitar apenas hemocultura e tratar somente se houver crescimento bacteriano documentado já.",
-   "Prescrever antitérmico e reavaliar clinicamente em uma semana caso a febre persista no paciente.",
-   "Pesquisa de plasmódio por gota espessa ou teste rápido e sempre tratamento conforme a espécie."
-  ],
-  "gab": 4,
-  "tema": "infecto",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Tratamento da Malária no Brasil, 2023; OMS Guidelines for malaria, 2024",
-  "coment": "Febre em quem esteve em área endêmica é malária até prova em contrário, e o diagnóstico é urgente porque a malária por Plasmodium falciparum pode evoluir para forma grave em poucas horas. A pesquisa é feita por gota espessa ou teste rápido, com resultado no mesmo atendimento. O tratamento depende da espécie: derivados de artemisinina combinados para falciparum e cloroquina com primaquina para vivax, esta última após avaliar deficiência de G6PD.",
-  "porAlt": [
-   "Antibiótico empírico sem investigar malária deixa sem tratamento uma doença potencialmente fatal.",
-   "Aguardar sete dias permite a evolução para malária grave, com disfunção orgânica e óbito.",
-   "A hemocultura investiga bacteremia e não detecta o plasmódio responsável pelo quadro febril.",
-   "Adiar por uma semana em suspeita de malária é conduta com risco elevado de desfecho fatal.",
-   "Correta: pesquisa imediata de plasmódio e tratamento conforme a espécie identificada no exame."
-  ]
- },
- {
-  "q": "Profissional de saúde sofre acidente com agulha de paciente com HIV com carga viral detectável. Qual é a conduta?",
-  "alts": [
-   "Aguardar o resultado da sorologia do profissional acidentado antes de iniciar qualquer profilaxia indicada já.",
-   "Iniciar profilaxia apenas se a sorologia do profissional se tornar reagente nas semanas seguintes agora já.",
-   "Prescrever apenas antibiótico profilático e realizar acompanhamento sorológico por seis meses neste caso.",
-   "Iniciar profilaxia pós-exposição idealmente nas primeiras duas horas, sempre com acompanhamento sorológico.",
-   "Não indicar profilaxia, pois o risco de transmissão por acidente perfurocortante é considerado nulo agora."
-  ],
-  "gab": 3,
-  "tema": "infecto",
-  "cenario": "emg",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "Ministério da Saúde — PCDT para Profilaxia Pós-Exposição de Risco à Infecção pelo HIV, IST e Hepatites Virais, 2024",
-  "coment": "A profilaxia pós-exposição ao HIV deve começar o mais precocemente possível, idealmente nas primeiras duas horas e no máximo em setenta e duas horas, mantida por vinte e oito dias. O esquema preferencial é tenofovir com lamivudina e dolutegravir. Realiza-se sorologia basal do profissional, que se negativa não atrasa o início, e acompanhamento sorológico posterior. Avalia-se também profilaxia para hepatite B conforme situação vacinal e sorológica.",
-  "porAlt": [
-   "A sorologia basal é colhida mas não deve atrasar o início da profilaxia, que é tempo-dependente.",
-   "Esperar a soroconversão significa não fazer profilaxia, pois nesse ponto a infecção já se instalou.",
-   "O antibiótico não previne infecção viral e não substitui a profilaxia antirretroviral indicada.",
-   "Correta: profilaxia iniciada o mais cedo possível, com sorologia basal e acompanhamento posterior.",
-   "O risco não é nulo e a profilaxia reduz de forma expressiva a chance de transmissão do vírus."
-  ]
- },
- {
-  "q": "Paciente com endocardite infecciosa por Staphylococcus aureus em válvula nativa, com insuficiência cardíaca aguda por regurgitação valvar grave. Qual é a conduta?",
-  "alts": [
-   "Manter apenas antibiótico endovenoso por seis semanas, sem qualquer avaliação de indicação cirúrgica agora.",
-   "Antibiótico dirigido e avaliação cirúrgica precoce, pois a insuficiência cardíaca indica sempre intervenção.",
-   "Aguardar a conclusão do tratamento antibiótico antes de considerar qualquer abordagem cirúrgica da válvula.",
-   "Prescrever anticoagulação plena de rotina, medida indicada para todos os casos de endocardite infecciosa.",
-   "Indicar apenas diurético e reavaliar em três meses com novo ecocardiograma transtorácico do paciente agora."
-  ],
-  "gab": 1,
-  "tema": "infecto",
-  "cenario": "uti",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "ESC Guidelines for the management of endocarditis, 2023; AHA scientific statement on infective endocarditis, 2023",
-  "coment": "A insuficiência cardíaca por disfunção valvar é a principal indicação de cirurgia na endocardite e a que mais impacta mortalidade, devendo ser realizada precocemente, sem esperar o término do antibiótico. As outras indicações são infecção não controlada — abscesso, febre persistente, germe resistente — e prevenção de embolia com vegetação grande após evento embólico. A anticoagulação de rotina não é indicada e pode aumentar o risco de hemorragia intracraniana.",
-  "porAlt": [
-   "Manter apenas antibiótico diante de insuficiência cardíaca por disfunção valvar aumenta a mortalidade.",
-   "Correta: antibiótico dirigido com avaliação cirúrgica precoce, pois a insuficiência cardíaca indica cirurgia.",
-   "Aguardar o fim do antibiótico atrasa a cirurgia que deveria ser precoce nessa indicação clínica.",
-   "A anticoagulação de rotina não é indicada e aumenta o risco de hemorragia intracraniana no paciente.",
-   "Diurético isolado não corrige a regurgitação grave e não resolve a infecção valvar estabelecida."
-  ]
- },
- {
-  "q": "Paciente internado há 8 dias em uso de antibiótico apresenta diarreia aquosa, dor abdominal e leucocitose. Qual é a conduta?",
-  "alts": [
-   "Pesquisar toxina de Clostridioides difficile e tratar com antibiótico específico, suspendendo sempre o agente.",
-   "Prescrever loperamida em dose plena para reduzir o número de evacuações e aliviar a dor abdominal neste caso.",
-   "Manter o antibiótico em curso e prescrever apenas hidratação oral com reavaliação em uma semana neste caso.",
-   "Iniciar corticoide sistêmico em dose alta, tratamento de escolha para a diarreia associada a antibiótico.",
-   "Solicitar colonoscopia de rotina em todos os pacientes antes de qualquer tratamento específico da diarreia."
+   "Leptospirose grave: penicilina cristalina e suporte",
+   "Hepatite viral aguda: apenas suporte clínico",
+   "Malária grave: artesunato intravenoso",
+   "Febre amarela: suporte em terapia intensiva",
+   "Colangite aguda: antibiótico e drenagem biliar"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA/SHEA Clinical Practice Guidelines for Clostridioides difficile infection, atualização 2021 com revisão 2024",
-  "coment": "Diarreia associada a antibiótico em paciente internado sugere infecção por Clostridioides difficile, diagnosticada por pesquisa de toxina ou teste molecular em fezes diarreicas. O tratamento de primeira linha é vancomicina oral ou fidaxomicina, com suspensão do antibiótico desencadeante sempre que possível e precauções de contato com higiene das mãos com água e sabão. Antiperistálticos são evitados por risco de megacólon tóxico e retenção da toxina.",
+  "base": "Ministério da Saúde, 2014 — Leptospirose: diagnóstico e manejo clínico",
+  "coment": "Icterícia rubínica, insuficiência renal com hipocalemia — a leptospirose cursa com perda tubular de potássio, ao contrário de outras causas de lesão renal —, sufusão conjuntival, mialgia de panturrilhas e exposição a enchente compõem a síndrome de Weil. O tratamento é penicilina cristalina ou ceftriaxona, com suporte, e não se aguarda sorologia para iniciar.",
   "porAlt": [
-   "Correta: pesquisar a toxina, tratar com antibiótico específico e suspender o agente desencadeante.",
-   "A loperamida é evitada pelo risco de megacólon tóxico e retenção da toxina no lúmen intestinal.",
-   "Manter o antibiótico desencadeante perpetua a disbiose e a infecção, agravando o quadro clínico.",
-   "O corticoide não trata a infecção e pode agravar o quadro colônico do paciente internado.",
-   "A colonoscopia se reserva a casos duvidosos ou graves, não sendo exame de rotina nesse contexto."
+   "Correta: quadro clássico de leptospirose ictérica com lesão renal.",
+   "A hepatite viral não cursa com lesão renal e hipocalemia.",
+   "Não há história de área de transmissão de malária.",
+   "A febre amarela não cursa com sufusão conjuntival nem essa lesão renal típica.",
+   "Não há dor em hipocôndrio direito com dilatação biliar."
   ]
  },
  {
-  "q": "Homem de 35 anos com úlcera genital única, indolor, de bordas endurecidas e fundo limpo, com adenopatia inguinal indolor. Qual é o diagnóstico mais provável?",
+  "q": "Homem de 52 anos, previamente hígido, chega com febre de 39 °C, cefaleia intensa e rigidez de nuca há 12 horas, precedidas de otite tratada parcialmente. Está com Glasgow de 14, pressão de 122/78 mmHg, frequência de 104 bpm e sem déficit focal, papiledema ou crise convulsiva. Não é imunossuprimido e não usa anticoagulante. As hemoculturas já foram colhidas e a punção lombar está sendo providenciada, com resultado previsto em cerca de 40 minutos. Qual é a conduta imediata?",
   "alts": [
-   "Herpes genital primário, que cursa com úlcera única indolor de bordas endurecidas e fundo limpo agora.",
-   "Cancro mole por Haemophilus ducreyi, que cursa com úlcera única indolor e adenopatia indolor associada.",
-   "Donovanose em fase inicial, caracterizada por úlcera indolor de bordas endurecidas com fundo limpo agora.",
-   "Linfogranuloma venéreo, que cursa com úlcera única indolor endurecida e adenopatia inguinal indolor.",
-   "Sífilis primária, que exige sempre tratamento com penicilina benzatina e notificação compulsória do caso."
+   "Dexametasona seguida de ceftriaxona imediata",
+   "Aguardar o resultado do líquor para escolher",
+   "Ceftriaxona apenas após a bacterioscopia",
+   "Aciclovir empírico isolado por enquanto",
+   "Tomografia de crânio antes de qualquer medida"
   ],
-  "gab": 4,
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "IDSA 2004 e ESCMID 2016 — meningite bacteriana aguda",
+  "coment": "Na meningite bacteriana o antibiótico não espera resultado: cada hora de atraso aumenta mortalidade. A dexametasona deve ser administrada antes ou junto com a primeira dose — reduz sequela auditiva e mortalidade na meningite pneumocócica, e perde o efeito se dada depois. Sem déficit focal, papiledema, convulsão ou imunossupressão, a tomografia não precede a punção.",
+  "porAlt": [
+   "Correta: corticoide antes ou junto do antibiótico, sem esperar o líquor.",
+   "Esperar o líquor atrasa o tratamento que define o desfecho.",
+   "A bacterioscopia é rápida, mas não deve retardar a primeira dose.",
+   "O aciclovir cobre herpes, não substitui o antibacteriano.",
+   "Sem os critérios de risco, a tomografia só atrasa."
+  ]
+ },
+ {
+  "q": "Homem de 31 anos retorna de viagem de três semanas à Amazônia e apresenta febre alta intermitente há três dias, com calafrios, cefaleia e sudorese profusa. Está com temperatura de 39,4 °C, pressão de 116/72 mmHg, frequência de 104 bpm, sem rebaixamento, icterícia ou sangramento. A hemoglobina é de 12,4 g/dL, as plaquetas de 92.000/mm³ e a bilirrubina normal. Não fez quimioprofilaxia. Qual é a conduta imediata?",
+  "alts": [
+   "Gota espessa ou teste rápido imediatos",
+   "Iniciar cloroquina empírica sem exame",
+   "Hemocultura e aguardar 48 horas",
+   "Sorologia para malária",
+   "Tratar como dengue e reavaliar em 24 horas"
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, 2021 — Guia de tratamento da malária no Brasil",
+  "coment": "Febre em viajante procedente de área endêmica é malária até prova em contrário, e o diagnóstico é urgente: gota espessa — ainda o padrão no Brasil, que identifica espécie e parasitemia — ou teste rápido. A espécie determina o esquema, e a falciparum pode evoluir para forma grave em horas. Tratamento empírico sem diagnóstico não é a regra quando o exame está disponível no mesmo dia.",
+  "porAlt": [
+   "Correta: diagnóstico rápido define espécie e esquema.",
+   "Tratar às cegas com cloroquina falha na falciparum resistente.",
+   "A hemocultura não diagnostica malária e 48 horas é tempo demais.",
+   "A sorologia não serve para o diagnóstico agudo.",
+   "Assumir dengue em procedente de área endêmica de malária é erro grave."
+  ]
+ },
+ {
+  "q": "Técnica de enfermagem de 28 anos sofre acidente com agulha oca, com sangue visível, ao puncionar veia de paciente com HIV em falha terapêutica e carga viral de 68.000 cópias/mL. A lesão é profunda, no dedo indicador. Ela é soronegativa, não está gestante e o acidente ocorreu há duas horas. A função renal é normal e ela não usa medicamentos. Qual é a conduta?",
+  "alts": [
+   "Profilaxia antirretroviral por 28 dias, iniciada agora",
+   "Aguardar a sorologia dela antes de iniciar",
+   "Profilaxia apenas se a sorologia de 6 semanas for positiva",
+   "Lavagem do local e acompanhamento sorológico isolado",
+   "Profilaxia por 7 dias, conforme o risco estimado"
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, 2021 — PCDT de profilaxia pós-exposição de risco ao HIV",
+  "coment": "Exposição percutânea profunda com agulha oca e sangue visível, de fonte com carga viral detectável, é indicação de profilaxia pós-exposição. Deve começar o quanto antes, idealmente nas primeiras duas horas e no máximo em 72 horas, com esquema de três fármacos por 28 dias — tenofovir, lamivudina e dolutegravir. O acompanhamento sorológico corre em paralelo.",
+  "porAlt": [
+   "Correta: exposição de alto risco, profilaxia imediata por 28 dias.",
+   "Esperar sorologia perde a janela de maior eficácia.",
+   "A soroconversão aos 6 semanas é o que a profilaxia existe para evitar.",
+   "Só acompanhar deixa a exposição de alto risco sem proteção.",
+   "O esquema é de 28 dias, não de 7."
+  ]
+ },
+ {
+  "q": "Homem de 49 anos, usuário de drogas injetáveis, tem endocardite de válvula nativa aórtica por Staphylococcus aureus sensível à oxacilina, no quinto dia de tratamento. Evolui com dispneia progressiva, ortopneia e estertores até terços médios. Está com pressão de 102/48 mmHg, frequência de 118 bpm e sopro diastólico intenso. O ecocardiograma mostra insuficiência aórtica grave nova, vegetação de 14 mm e fechamento mitral precoce. Qual é a conduta?",
+  "alts": [
+   "Cirurgia valvar precoce, sem completar o antibiótico",
+   "Completar seis semanas de antibiótico antes de operar",
+   "Trocar oxacilina por vancomicina e observar",
+   "Associar gentamicina e adiar a decisão cirúrgica",
+   "Anticoagular para reduzir o risco embólico"
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESC 2023 — endocardite infecciosa: indicações de cirurgia precoce",
+  "coment": "Insuficiência cardíaca por disfunção valvar aguda é a principal indicação de cirurgia precoce na endocardite, e não se espera completar o antibiótico — o fechamento mitral precoce indica pressão diastólica ventricular muito elevada, sinal de gravidade hemodinâmica. As outras indicações precoces são infecção não controlada e embolia recorrente com vegetação grande.",
+  "porAlt": [
+   "Correta: insuficiência cardíaca por lesão valvar aguda indica cirurgia precoce.",
+   "Esperar seis semanas com insuficiência aórtica aguda é inaceitável.",
+   "A cepa é sensível à oxacilina; trocar por vancomicina piora o tratamento.",
+   "O aminoglicosídeo não é mais recomendado de rotina e adiar é o erro.",
+   "A anticoagulação não previne embolia na endocardite e aumenta hemorragia cerebral."
+  ]
+ },
+ {
+  "q": "Mulher de 70 anos, internada há oito dias em uso de piperacilina-tazobactam por pneumonia, apresenta diarreia aquosa há dois dias, com oito evacuações diárias, dor abdominal em cólica e febre de 38,4 °C. Está com pressão de 118/72 mmHg, frequência de 96 bpm, leucócitos de 19.500/mm³, creatinina de 1,2 mg/dL e albumina de 3,1 mg/dL. O teste para toxina de Clostridioides difficile é positivo. Não há megacólon à radiografia. Qual é o tratamento?",
+  "alts": [
+   "Vancomicina oral ou fidaxomicina",
+   "Metronidazol oral como primeira escolha",
+   "Vancomicina intravenosa em dose plena",
+   "Loperamida para reduzir as evacuações",
+   "Transplante de microbiota fecal de imediato"
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "IDSA/SHEA 2021 — infecção por Clostridioides difficile",
+  "coment": "A vancomicina oral e a fidaxomicina são as primeiras escolhas no episódio inicial — o metronidazol foi rebaixado a alternativa quando nenhuma das duas está disponível, por taxas de cura inferiores. A vancomicina intravenosa não atinge a luz intestinal e é inútil. O transplante de microbiota é para recorrências múltiplas, e antimotilidade se evita pelo risco de megacólon.",
+  "porAlt": [
+   "Correta: são as primeiras escolhas no episódio inicial.",
+   "O metronidazol deixou de ser primeira escolha por inferioridade.",
+   "A via intravenosa não alcança a luz do cólon.",
+   "A loperamida favorece megacólon tóxico.",
+   "O transplante é para recorrências, não para o primeiro episódio."
+  ]
+ },
+ {
+  "q": "Homem de 35 anos apresenta úlcera genital única em sulco balanoprepucial há 12 dias, indolor, de bordas endurecidas e fundo limpo, com adenopatia inguinal bilateral não supurativa e móvel. Nega febre, exantema ou lesões palmoplantares. O teste rápido treponêmico é reagente e o VDRL tem título de 1:32. É a primeira vez que recebe esse diagnóstico, nega alergia a penicilina e não tem sinais neurológicos ou oftalmológicos. Qual é o tratamento?",
+  "alts": [
+   "Penicilina benzatina em dose única",
+   "Penicilina benzatina em três doses semanais",
+   "Doxiciclina por catorze dias, mesmo sem alergia",
+   "Ceftriaxona intramuscular por dez dias",
+   "Penicilina cristalina intravenosa por catorze dias"
+  ],
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com IST, 2022; CDC STI Treatment Guidelines, 2021",
-  "coment": "O cancro duro da sífilis primária é úlcera única, indolor, de bordas endurecidas e fundo limpo, acompanhada de adenopatia regional indolor, surgindo cerca de três semanas após a exposição e cicatrizando espontaneamente, o que não significa cura. O tratamento é penicilina benzatina em dose única de 2,4 milhões de unidades na forma recente. A doença é de notificação compulsória e as parcerias sexuais devem ser testadas e tratadas.",
+  "base": "Ministério da Saúde, 2022 — PCDT de infecções sexualmente transmissíveis",
+  "coment": "O cancro duro define sífilis primária — recente —, tratada com penicilina benzatina 2,4 milhões UI por via intramuscular em dose única. As três doses semanais são para sífilis tardia ou de duração ignorada. A penicilina cristalina intravenosa fica para neurossífilis, e a doxiciclina é alternativa apenas na alergia comprovada, não sendo opção em gestante.",
   "porAlt": [
-   "O herpes cursa com vesículas que evoluem para úlceras múltiplas, rasas e tipicamente dolorosas.",
-   "O cancro mole produz úlceras múltiplas, dolorosas, de fundo sujo, com adenopatia dolorosa supurativa.",
-   "A donovanose cursa com úlcera vegetante de fundo granuloso e evolução crônica e progressiva.",
-   "O linfogranuloma cursa com lesão inicial fugaz seguida de adenopatia dolorosa que pode fistulizar.",
-   "Correta: úlcera única indolor de bordas endurecidas com adenopatia indolor caracteriza sífilis primária."
+   "Correta: sífilis recente, dose única.",
+   "Três doses é o esquema da sífilis tardia ou de duração ignorada.",
+   "A doxiciclina é alternativa só na alergia à penicilina.",
+   "A ceftriaxona é alternativa de exceção, sem a mesma evidência.",
+   "A via intravenosa é reservada à neurossífilis."
   ]
  },
  {
@@ -18456,27 +18456,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com esquistossomose e hipertensão portal com varizes esofágicas. Qual é a conduta?",
+  "q": "Homem de 42 anos, natural do norte de Minas, tem esquistossomose mansônica na forma hepatoesplênica. Apresenta esplenomegalia de 6 cm do rebordo, sem ascite ou icterícia. A endoscopia mostra varizes esofágicas de médio calibre com sinais vermelhos, sem sangramento prévio. Plaquetas de 84.000/mm³, albumina de 4,0 g/dL, RNI de 1,1 e bilirrubinas normais. Ainda não usou praziquantel. Qual é a conduta?",
   "alts": [
-   "Tratar apenas com antibiótico de amplo espectro, sem qualquer fármaco específico contra o parasito.",
-   "Aguardar a resolução espontânea da infecção sem qualquer tratamento antiparasitário no paciente agora.",
-   "Indicar transplante hepático imediato em todos os pacientes com esquistossomose e varizes esofágicas.",
-   "Tratar a infecção com praziquantel e conduzir sempre a hipertensão portal com profilaxia de sangramento.",
-   "Prescrever apenas dieta hipossódica como tratamento definitivo da hipertensão portal esquistossomótica."
+   "Betabloqueador não seletivo e praziquantel",
+   "Ligadura elástica de urgência",
+   "Esplenectomia com desconexão ázigo-portal",
+   "Transjugular intra-hepatic portosystemic shunt",
+   "Apenas praziquantel, sem profilaxia de sangramento"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de esquistossomose; OMS — Guideline on control and elimination of schistosomiasis, 2022",
-  "coment": "A forma hepatoesplênica da esquistossomose causa fibrose de Symmers e hipertensão portal pré-sinusoidal, com função hepatocelular relativamente preservada, o que a distingue da cirrose. O tratamento antiparasitário com praziquantel é indicado mesmo na forma avançada, para interromper a deposição de ovos, e a hipertensão portal é conduzida com profilaxia de sangramento por betabloqueador ou ligadura elástica, além do tratamento do sangramento agudo.",
+  "base": "Baveno VII, 2022 e Ministério da Saúde, 2014 — esquistossomose e hipertensão portal",
+  "coment": "Varizes de médio calibre com sinais vermelhos, sem sangramento prévio, indicam profilaxia primária — betabloqueador não seletivo, como propranolol ou carvedilol, ou ligadura elástica eletiva. O praziquantel trata a infecção e reduz a progressão da fibrose. Na esquistossomose a função hepatocelular é preservada, o que explica albumina e coagulação normais.",
   "porAlt": [
-   "O antibiótico de amplo espectro não tem ação sobre o parasito responsável pela doença.",
-   "A infecção não se resolve espontaneamente e a deposição de ovos mantém a fibrose progressiva.",
-   "O transplante é excepcional nessa forma, cuja função hepatocelular costuma estar preservada.",
-   "Correta: praziquantel para o parasito e manejo da hipertensão portal com profilaxia de sangramento.",
-   "A dieta hipossódica é adjuvante e não trata a hipertensão portal nem o risco de sangramento."
+   "Correta: profilaxia primária associada ao tratamento etiológico.",
+   "A ligadura de urgência é para sangramento ativo; eletiva é alternativa ao betabloqueador.",
+   "A cirurgia é reservada a refratários ao tratamento clínico e endoscópico.",
+   "O TIPS é para sangramento refratário ou ascite intratável.",
+   "Tratar a infecção sem profilaxia deixa o risco de sangramento descoberto."
   ]
  },
  {
@@ -18552,27 +18552,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com doença de Chagas crônica e alterações no eletrocardiograma. Qual é a conduta?",
+  "q": "Mulher de 56 anos, natural do sul do Piauí, tem sorologia reagente em dois métodos para doença de Chagas. Está assintomática, sem dispneia ou palpitações. O eletrocardiograma mostra bloqueio de ramo direito associado a bloqueio divisional ântero-superior. O ecocardiograma revela fração de ejeção de 58% sem alteração segmentar, e a radiografia de tórax tem área cardíaca normal. Não há megaesôfago ou megacólon. Qual é a conduta?",
   "alts": [
-   "Não realizar qualquer avaliação cardiológica, pois a doença de Chagas crônica não acomete o coração neste caso.",
-   "Iniciar apenas antibiótico de amplo espectro como tratamento da doença de Chagas crônica diagnosticada neste caso.",
-   "Indicar transplante cardíaco imediato em todos os pacientes com alteração eletrocardiográfica e sorologia positiva.",
-   "Prescrever apenas anti-inflamatório contínuo como tratamento da cardiopatia chagásica crônica identificada agora.",
-   "Avaliar a forma cardíaca com exames complementares e considerar sempre tratamento antiparasitário conforme a idade."
+   "Benznidazol e seguimento cardiológico anual",
+   "Apenas seguimento, sem tratamento etiológico",
+   "Marca-passo definitivo pelo bloqueio bifascicular",
+   "Amiodarona profilática para arritmia ventricular",
+   "Cardiodesfibrilador implantável"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas da Doença de Chagas, 2018 com revisão 2022; Diretriz Brasileira de Cardiopatia Chagásica — SBC, 2023",
-  "coment": "Na doença de Chagas crônica, a avaliação cardiológica inclui eletrocardiograma, ecocardiograma e Holter, buscando bloqueios, extrassístoles, taquicardia ventricular, aneurisma apical e disfunção ventricular, que definem o estadiamento e o prognóstico. O tratamento antiparasitário com benznidazol é recomendado na forma indeterminada e nas formas iniciais, sobretudo abaixo de cinquenta anos, e o manejo da cardiopatia segue as diretrizes de insuficiência cardíaca e arritmias.",
+  "base": "SBC 2023 — diretriz de cardiopatia chagásica; Ministério da Saúde, 2018",
+  "coment": "A forma cardíaca indeterminada com alteração eletrocardiográfica e função ventricular preservada corresponde ao estágio A ou B1, em que o tratamento etiológico com benznidazol está indicado, sobretudo abaixo de 50 a 60 anos e sem cardiopatia avançada. O seguimento é anual com eletrocardiograma e ecocardiograma, e o bloqueio bifascicular assintomático não indica marca-passo.",
   "porAlt": [
-   "A cardiopatia chagásica crônica é a manifestação mais importante e determina o prognóstico.",
-   "O antibiótico não tem ação sobre o Trypanosoma cruzi, cujo tratamento é com benznidazol.",
-   "O transplante se reserva a doença avançada refratária, e não a toda alteração eletrocardiográfica.",
-   "O anti-inflamatório não trata a cardiopatia chagásica nem modifica sua evolução natural.",
-   "Correta: avaliar a forma cardíaca com exames complementares e considerar antiparasitário conforme a idade."
+   "Correta: tratamento etiológico indicado com seguimento estruturado.",
+   "Deixar de tratar nessa faixa perde a janela de benefício.",
+   "Bifascicular assintomático não é indicação de marca-passo.",
+   "A amiodarona profilática não reduz mortalidade nesse estágio.",
+   "O desfibrilador exige disfunção ventricular ou arritmia documentada."
   ]
  },
  {
@@ -20328,243 +20328,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com pé diabético infectado, úlcera profunda que sonda o osso e alterações radiográficas. Qual é a conduta?",
+  "q": "Homem de 64 anos, diabético há 18 anos com neuropatia, apresenta úlcera plantar no antepé direito há dois meses, com secreção purulenta e odor fétido. A sondagem da úlcera toca osso. Está afebril, com pressão de 132/80 mmHg e pulsos pediosos palpáveis. A radiografia mostra reação periosteal e erosão cortical da cabeça do segundo metatarso. A velocidade de hemossedimentação é de 88 mm/h e a hemoglobina glicada de 9,4%. Qual é o diagnóstico e a conduta?",
   "alts": [
-   "Prescrever antibiótico oral por sete dias e alta definitiva sem qualquer avaliação cirúrgica ou de imagem agora.",
-   "Indicar amputação imediata do membro em todos os pacientes com úlcera profunda que sonda o osso nesse contexto.",
-   "Tratar osteomielite com antibiótico prolongado e avaliação cirúrgica, obtendo sempre cultura óssea quando possível.",
-   "Prescrever apenas curativo local diário sem qualquer antibiótico sistêmico no paciente com osteomielite agora.",
-   "Prescrever apenas antifúngico sistêmico prolongado como tratamento da osteomielite do pé diabético descrita agora."
+   "Osteomielite: biópsia óssea e antibiótico prolongado",
+   "Celulite superficial: antibiótico oral por sete dias",
+   "Artropatia de Charcot: imobilização sem antibiótico",
+   "Úlcera isquêmica: revascularização prioritária",
+   "Osteomielite: amputação transmetatársica imediata"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "IWGDF/IDSA Guidelines on diagnosis and treatment of foot infection in persons with diabetes, 2023",
-  "coment": "O teste de sondagem óssea positivo com alterações radiográficas tem alto valor preditivo para osteomielite no pé diabético. O tratamento combina antibiótico prolongado, tipicamente de seis semanas quando não há ressecção óssea, e avaliação cirúrgica para desbridamento ou ressecção do osso acometido, que permite reduzir a duração do antibiótico. A cultura óssea, quando obtida, é o padrão para dirigir a terapia, sendo superior ao swab superficial da úlcera.",
+  "base": "IWGDF 2023 e IDSA — infecção no pé diabético",
+  "coment": "A sondagem que toca osso tem valor preditivo positivo alto para osteomielite no pé diabético, e a alteração radiográfica com hemossedimentação acima de 70 mm/h reforça. A conduta é obter cultura óssea por biópsia — a cultura de swab da úlcera não representa o osso — e antibiótico prolongado, tipicamente por seis semanas, com desbridamento e controle metabólico. Pulsos palpáveis afastam predomínio isquêmico.",
   "porAlt": [
-   "Sete dias de antibiótico oral é insuficiente para osteomielite e leva a recidiva quase certa.",
-   "A amputação é medida de exceção, e muitos casos são controlados com antibiótico e desbridamento.",
-   "Correta: antibiótico prolongado com avaliação cirúrgica e cultura óssea para dirigir a terapia.",
-   "O curativo isolado não trata a infecção óssea estabelecida no paciente com pé diabético.",
-   "O antifúngico não cobre os agentes bacterianos responsáveis pela osteomielite do pé diabético."
+   "Correta: cultura óssea orienta o antibiótico prolongado.",
+   "Sete dias de oral não trata osteomielite.",
+   "A Charcot não cursa com secreção purulenta e hemossedimentação de 88 mm/h.",
+   "Os pulsos estão presentes: não é úlcera isquêmica predominante.",
+   "A amputação não é a primeira opção com perfusão preservada."
   ]
  },
  {
-  "q": "Paciente com suspeita de infecção por citomegalovírus após transplante, com febre e citopenias. Qual é a conduta?",
+  "q": "Homem de 47 anos, no sexagésimo dia após transplante renal, em uso de tacrolimo, micofenolato e prednisona, apresenta febre há cinco dias, mal-estar e mialgia. Está com temperatura de 38,5 °C, leucócitos de 2.800/mm³, plaquetas de 92.000/mm³ e transaminases três vezes acima do normal. A creatinina subiu de 1,2 para 1,7 mg/dL. O doador era soropositivo para citomegalovírus e o receptor, soronegativo. Não recebeu profilaxia por falha de dispensação. Qual é a conduta?",
   "alts": [
-   "Prescrever apenas antibiótico de amplo espectro sem qualquer investigação virológica no paciente transplantado.",
-   "Aumentar a imunossupressão para reduzir a resposta inflamatória associada à infecção viral suspeitada agora.",
-   "Prescrever apenas sintomáticos e observar clinicamente por trinta dias antes de qualquer investigação viral.",
-   "Indicar retirada imediata do enxerto em todos os pacientes com suspeita de infecção por citomegalovírus agora.",
-   "Investigar com carga viral e iniciar ganciclovir quando indicado, ajustando sempre a imunossupressão em curso."
+   "Carga viral para citomegalovírus e ganciclovir intravenoso",
+   "Aumentar a imunossupressão por suspeita de rejeição",
+   "Sorologia IgM e aguardar o resultado",
+   "Aciclovir oral em dose alta",
+   "Biópsia renal antes de qualquer tratamento"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "The Transplantation Society International CMV Consensus Guidelines, 2018 com revisão 2023; AST Infectious Diseases Community of Practice, 2024",
-  "coment": "A doença por citomegalovírus no transplantado cursa com febre, citopenias e acometimento de órgão, sobretudo trato digestivo, pulmão, fígado e retina. O diagnóstico usa carga viral quantitativa em sangue, complementada por histopatologia quando há doença tecidual. O tratamento é ganciclovir endovenoso ou valganciclovir oral, mantido até negativação da carga viral, com redução criteriosa da imunossupressão sempre que possível para permitir a resposta imune.",
+  "base": "The Transplantation Society, 2018 — consenso internacional de citomegalovírus em transplante",
+  "coment": "Doador positivo com receptor negativo é a combinação de maior risco para doença por citomegalovírus, e a ausência de profilaxia agrava. Febre com citopenias, hepatite e disfunção do enxerto no segundo mês compõem a síndrome. O diagnóstico é por carga viral — a sorologia não serve no imunossuprimido — e o tratamento é ganciclovir intravenoso, com redução da imunossupressão quando possível.",
   "porAlt": [
-   "O antibiótico não trata infecção viral e a ausência de investigação retarda o tratamento correto.",
-   "Aumentar a imunossupressão favorece a replicação viral e agrava a doença no paciente transplantado.",
-   "Observar trinta dias permite progressão para doença invasiva de órgão e perda do enxerto.",
-   "A retirada do enxerto não é conduta diante de infecção viral tratável no paciente transplantado.",
-   "Correta: investigar com carga viral e tratar com ganciclovir, ajustando a imunossupressão em curso."
+   "Correta: carga viral para diagnóstico e ganciclovir para tratamento.",
+   "Aumentar a imunossupressão em infecção ativa agrava o quadro.",
+   "A sorologia tem pouco valor no imunossuprimido e atrasa o tratamento.",
+   "O aciclovir não tem atividade adequada contra citomegalovírus.",
+   "A biópsia não precede o tratamento de uma suspeita infecciosa clara."
   ]
  },
  {
-  "q": "Paciente com quadro febril agudo, artralgia intensa e exantema, procedente de área com circulação de arbovírus. Qual é a conduta?",
+  "q": "Mulher de 41 anos, moradora de área com circulação simultânea de dengue, zika e chikungunya, apresenta febre alta de início súbito há três dias, exantema maculopapular e artralgia intensa e simétrica em punhos, tornozelos e pequenas articulações das mãos, com edema articular que a impede de segurar objetos. Está com pressão de 118/74 mmHg, plaquetas de 168.000/mm³ e hematócrito de 39%. Sem sinais de alarme. Qual é a hipótese e a conduta?",
   "alts": [
-   "Prescrever ácido acetilsalicílico para o controle da febre e da artralgia intensa referida pelo paciente.",
-   "Iniciar antibiótico de amplo espectro empírico como tratamento padrão do quadro febril com exantema descrito.",
-   "Investigar arboviroses e manejar sempre como dengue até a exclusão, evitando anti-inflamatórios e salicilatos.",
-   "Prescrever corticoide sistêmico em dose alta como tratamento inicial de escolha do quadro febril agudo agora.",
-   "Liberar sem qualquer orientação sobre sinais de alarme ou necessidade de reavaliação clínica programada agora."
+   "Chikungunya: analgesia, sem anti-inflamatório na fase aguda",
+   "Dengue: hidratação e reavaliação em 24 horas",
+   "Zika: apenas sintomáticos e repelente",
+   "Artrite reumatoide: iniciar metotrexato",
+   "Febre amarela: notificação e suporte intensivo"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024; Dengue: diagnóstico e manejo clínico, 6ª edição, 2024",
-  "coment": "Em área de circulação simultânea de dengue, chikungunya e zika, o quadro febril agudo com exantema e artralgia deve ser manejado como dengue até exclusão, pela gravidade potencial: hidratação conforme o estadiamento, orientação detalhada sobre sinais de alarme e reavaliação programada. Salicilatos e anti-inflamatórios não hormonais são contraindicados pelo risco de sangramento. A chikungunya cursa com artralgia mais intensa e prolongada, e todas são de notificação.",
+  "base": "Ministério da Saúde, 2017 — Chikungunya: manejo clínico",
+  "coment": "Artralgia intensa e incapacitante, simétrica e com edema articular, é o achado que separa a chikungunya da dengue e do zika. Na fase aguda evitam-se anti-inflamatórios e ácido acetilsalicílico, porque a coinfecção com dengue não pode ser descartada e o risco hemorrágico existe — a analgesia é feita com dipirona ou paracetamol, escalonando para opioide fraco se necessário.",
   "porAlt": [
-   "Os salicilatos são contraindicados na suspeita de dengue pelo risco aumentado de sangramento.",
-   "O antibiótico não trata arbovirose e não é indicado no quadro febril agudo descrito.",
-   "Correta: investigar arboviroses e manejar como dengue até exclusão, evitando salicilatos e anti-inflamatórios.",
-   "O corticoide não é tratamento inicial das arboviroses e pode mascarar sinais de gravidade.",
-   "Liberar sem orientar sinais de alarme e reavaliação é a principal causa de óbito evitável por dengue."
+   "Correta: artralgia incapacitante aponta chikungunya, e o AINE é evitado na fase aguda.",
+   "A dengue não cursa com artrite e edema articular desse grau.",
+   "O zika cursa com exantema pruriginoso e artralgia leve.",
+   "Não se diagnostica artrite reumatoide em quadro febril agudo de três dias.",
+   "Não há icterícia, hemorragia ou procedência que sustente febre amarela."
   ]
  },
  {
-  "q": "Paciente com abscesso hepático piogênico único de 6 cm e febre persistente apesar de antibiótico. Qual é a conduta?",
+  "q": "Homem de 58 anos, diabético, está no sétimo dia de ceftriaxona com metronidazol por abscesso hepático piogênico único de 6 cm no lobo direito, diagnosticado por tomografia. Mantém febre de 38,6 °C e leucocitose de 17.000/mm³, sem melhora clínica. Está com pressão de 124/78 mmHg, sem instabilidade. A tomografia de controle mostra a coleção com o mesmo tamanho, com parede definida e conteúdo líquido. Qual é a conduta?",
   "alts": [
-   "Manter apenas antibiótico endovenoso por mais quatro semanas sem qualquer drenagem da coleção hepática agora.",
-   "Drenagem percutânea guiada por imagem associada ao antibiótico, obtendo sempre material para cultura dirigida.",
-   "Indicar hepatectomia parcial imediata em todos os pacientes com abscesso hepático piogênico único neste caso.",
-   "Prescrever apenas antifúngico sistêmico como tratamento definitivo do abscesso hepático piogênico descrito.",
-   "Aguardar a resolução espontânea do abscesso hepático sem qualquer antibiótico ou procedimento associado agora."
+   "Drenagem percutânea guiada por imagem",
+   "Manter o antibiótico por mais sete dias",
+   "Trocar o antibiótico para carbapenêmico",
+   "Cirurgia aberta com hepatectomia parcial",
+   "Aspiração diagnóstica isolada, sem drenar"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "IDSA/WSES guidance on intra-abdominal infections, revisão 2023; Sleisenger and Fordtran, 11ª edição, 2021",
-  "coment": "O abscesso hepático piogênico é tratado com antibiótico associado a drenagem, que é indicada em coleções maiores que três a cinco centímetros, na ausência de resposta clínica ou quando há necessidade de material para cultura. A drenagem percutânea guiada por imagem é a técnica de escolha, com cirurgia reservada a falha, múltiplos abscessos complexos ou doença biliar associada que exija abordagem. Investiga-se sempre a origem, sobretudo biliar e portal.",
+  "base": "WSES 2021 — infecções intra-abdominais: abscesso hepático",
+  "coment": "Abscesso hepático maior que 5 cm, ou sem resposta ao antibiótico isolado, tem indicação de drenagem percutânea guiada por imagem — que é também a melhor amostra para cultura. Antibiótico não penetra coleção organizada com parede definida. A cirurgia fica para falha da drenagem, múltiplas lojas ou ruptura.",
   "porAlt": [
-   "Manter apenas antibiótico diante de falha clínica e coleção grande perpetua a infecção ativa.",
-   "Correta: drenagem percutânea guiada por imagem com antibiótico e coleta de material para cultura.",
-   "A hepatectomia é desproporcional quando a drenagem percutânea resolve a maioria dos casos.",
-   "O antifúngico não cobre os agentes bacterianos habituais do abscesso hepático piogênico.",
-   "O abscesso não se resolve espontaneamente e evolui para sepse sem tratamento adequado."
+   "Correta: falha do tratamento clínico com coleção drenável.",
+   "Prolongar antibiótico sem drenar repete o que já falhou.",
+   "Trocar o espectro não resolve a barreira física da coleção.",
+   "A cirurgia aberta é desproporcional antes de tentar a drenagem.",
+   "Aspirar sem deixar dreno favorece a recidiva em coleção desse tamanho."
   ]
  },
  {
-  "q": "Paciente com tuberculose e coinfecção por HIV, virgem de tratamento para ambas. Qual é a conduta?",
+  "q": "Homem de 33 anos recebe simultaneamente o diagnóstico de tuberculose pulmonar com baciloscopia positiva e de infecção pelo HIV. O CD4 é de 38 células/mm³ e a carga viral de 420.000 cópias/mL. Está com tosse, febre e perda de 10 kg, sem sinais neurológicos e com tomografia de crânio normal. É virgem de tratamento para as duas condições. A função hepática e renal são normais. Qual é a conduta quanto ao início dos tratamentos?",
   "alts": [
-   "Iniciar ambos os tratamentos no mesmo dia em todos os pacientes coinfectados, já sem qualquer intervalo entre eles nesse contexto.",
-   "Tratar apenas a tuberculose e adiar o antirretroviral por dois anos após o término do esquema antituberculose para este paciente.",
-   "Tratar apenas o HIV e adiar o tratamento da tuberculose até a carga viral se tornar indetectável no paciente para este paciente.",
-   "Iniciar o tratamento da tuberculose primeiro e o antirretroviral em semanas, atento sempre à síndrome inflamatória de reconstituição.",
-   "Não tratar nenhuma das duas condições até que o paciente apresente sintomas graves de qualquer uma delas desde o primeiro momento."
+   "Iniciar tuberculostáticos agora e o antirretroviral em duas semanas",
+   "Iniciar os dois esquemas no mesmo dia",
+   "Tratar a tuberculose por seis meses antes do antirretroviral",
+   "Iniciar o antirretroviral primeiro e a tuberculose depois",
+   "Aguardar o CD4 subir antes de tratar a tuberculose"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; Manual de Recomendações para o Controle da Tuberculose, revisão 2023",
-  "coment": "Na coinfecção, inicia-se primeiro o tratamento da tuberculose e depois o antirretroviral, em duas semanas quando o CD4 é muito baixo e em até oito semanas nos demais casos, equilibrando o benefício da reconstituição imune com o risco de síndrome inflamatória de reconstituição e de sobreposição de toxicidades. Atenção especial à interação entre rifampicina e antirretrovirais, que exige ajuste de dose ou escolha de esquema compatível.",
+  "base": "Ministério da Saúde, 2024 — PCDT de HIV: coinfecção tuberculose-HIV",
+  "coment": "Na coinfecção começa-se pelo tratamento da tuberculose. Com CD4 abaixo de 50 células/mm³, o antirretroviral entra em até duas semanas — o benefício de mortalidade supera o risco de síndrome inflamatória de reconstituição. Com CD4 acima de 50, espera-se entre 8 e 12 semanas. A exceção é a meningite tuberculosa, em que o início precoce aumenta mortalidade.",
   "porAlt": [
-   "Iniciar ambos no mesmo dia aumenta toxicidade sobreposta e o risco de reconstituição inflamatória grave.",
-   "Adiar o antirretroviral por dois anos mantém a imunossupressão e aumenta a mortalidade do paciente.",
-   "Tratar apenas o HIV deixa a tuberculose ativa progredir, com risco de morte e de transmissão.",
-   "Correta: tratar a tuberculose primeiro e iniciar o antirretroviral em semanas, atento à reconstituição imune.",
-   "Não tratar nenhuma das condições é conduta inaceitável diante de duas doenças graves e tratáveis."
+   "Correta: tuberculose primeiro, antirretroviral em duas semanas com CD4 abaixo de 50.",
+   "Começar os dois juntos aumenta reconstituição imune e toxicidade somada.",
+   "Esperar seis meses com CD4 de 38 expõe a infecções oportunistas.",
+   "Inverter a ordem aumenta o risco de reconstituição grave.",
+   "Adiar o tuberculostático em baciloscopia positiva é inaceitável."
   ]
  },
  {
-  "q": "Paciente com infecção de sítio cirúrgico superficial no sétimo dia de pós-operatório. Qual é a conduta inicial?",
+  "q": "Mulher de 58 anos, no sétimo dia após colecistectomia aberta, apresenta dor e eritema na ferida operatória, com saída de secreção purulenta à expressão. Está afebril, com pressão de 128/76 mmHg, frequência de 82 bpm e leucócitos de 9.800/mm³. O eritema se estende 1 cm além da incisão, sem crepitação, necrose ou comprometimento de fáscia. A glicemia é de 118 mg/dL e ela não é imunossuprimida. Qual é a conduta?",
   "alts": [
-   "Prescrever apenas antibiótico endovenoso de amplo espectro sem qualquer abertura ou drenagem da ferida agora.",
-   "Abrir e drenar a ferida com cuidados locais, avaliando sempre a necessidade de antibiótico sistêmico associado.",
-   "Manter a ferida fechada e observar clinicamente por mais duas semanas antes de qualquer intervenção local.",
-   "Realizar reoperação com revisão completa da cavidade em todos os casos de infecção superficial de ferida agora.",
-   "Prescrever apenas corticoide tópico sobre a ferida como tratamento da infecção de sítio cirúrgico superficial."
+   "Abrir a ferida e drenar, sem antibiótico sistêmico",
+   "Antibiótico sistêmico de amplo espectro por dez dias",
+   "Reoperar para revisão da cavidade abdominal",
+   "Curativo oclusivo com antisséptico e observação",
+   "Corticoide tópico para reduzir a inflamação"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "CDC/HICPAC Guideline for the Prevention of Surgical Site Infection, revisão 2023; IDSA Skin and Soft Tissue Infections, 2023",
-  "coment": "A infecção de sítio cirúrgico superficial é tratada primariamente com abertura da ferida, drenagem da coleção e cuidados locais com curativos, permitindo cicatrização por segunda intenção. Antibiótico sistêmico é acrescentado quando há celulite extensa ao redor, sinais sistêmicos, imunossupressão ou prótese. Coleta de cultura orienta a terapia em casos selecionados. Reoperação ampla se reserva a infecção profunda ou de órgão e espaço.",
+  "base": "IDSA 2014 — infecções de sítio cirúrgico",
+  "coment": "Infecção de sítio cirúrgico superficial, sem sinais sistêmicos e com celulite mínima ao redor, é tratada com abertura dos pontos, drenagem e curativos — o antibiótico sistêmico não é necessário nesse cenário. Ele entra quando há febre, celulite maior que 5 cm, sinais sistêmicos ou imunossupressão.",
   "porAlt": [
-   "O antibiótico isolado sem drenagem não resolve a coleção purulenta na ferida operatória.",
-   "Correta: abrir e drenar a ferida com cuidados locais, com antibiótico conforme a extensão e o quadro.",
-   "Manter fechada por duas semanas permite progressão para infecção profunda e deiscência maior.",
-   "A reoperação ampla é desproporcional para infecção limitada ao plano superficial da ferida.",
-   "O corticoide tópico prejudica a cicatrização e não trata a infecção do sítio cirúrgico."
+   "Correta: drenagem é o tratamento; antibiótico só com sinais sistêmicos.",
+   "Antibiótico de amplo espectro sem indicação é pressão seletiva desnecessária.",
+   "Não há sinal de infecção de órgão ou cavidade que justifique reoperar.",
+   "Curativo oclusivo sem drenar mantém a coleção.",
+   "O corticoide não tem papel em ferida infectada."
   ]
  },
  {
-  "q": "Paciente com meningite bacteriana confirmada por pneumococo. Qual é o papel da dexametasona?",
+  "q": "Homem de 62 anos é internado com meningite bacteriana confirmada por bacterioscopia e cultura de líquor positiva para Streptococcus pneumoniae. Está com Glasgow de 13, febre de 39 °C, rigidez de nuca e sem déficit focal. O líquor mostra 3.200 células com 92% de neutrófilos, glicose de 18 mg/dL e proteína de 280 mg/dL. Já recebeu a primeira dose de ceftriaxona há 30 minutos, sem corticoide antes. A equipe pergunta se ainda vale iniciar dexametasona. Qual é o papel do corticoide neste momento?",
   "alts": [
-   "Administrar apenas depois de setenta e duas horas do início do antibiótico em todos os casos confirmados.",
-   "Administrar antes ou junto da primeira dose de antibiótico, reduzindo sempre a chance de sequela neurológica.",
-   "Nunca administrar corticoide na meningite bacteriana, pois ele não traz qualquer benefício comprovado agora.",
-   "Administrar corticoide em substituição ao antibiótico nos casos confirmados de meningite pneumocócica agora.",
-   "Administrar apenas nos pacientes que apresentarem febre persistente após uma semana de antibioticoterapia."
+   "Reduz sequela e mortalidade, mas perdeu o momento",
+   "Deve ser iniciada agora e mantida por dez dias",
+   "Está contraindicada em meningite bacteriana",
+   "Substitui o antibiótico nas primeiras 24 horas",
+   "Só tem indicação na meningite meningocócica"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA/ESCMID guideline on bacterial meningitis, revisão 2023; ESCMID guideline on acute bacterial meningitis, 2016",
-  "coment": "A dexametasona na meningite bacteriana do adulto reduz mortalidade e sequelas, sobretudo perda auditiva, com maior benefício na etiologia pneumocócica. Para ser eficaz, deve ser administrada antes ou junto da primeira dose do antibiótico, porque atua reduzindo a resposta inflamatória desencadeada pela lise bacteriana. Administrá-la horas depois não produz o mesmo benefício, e a manutenção é por quatro dias conforme a etiologia identificada.",
+  "base": "IDSA 2004 e ESCMID 2016 — dexametasona na meningite bacteriana",
+  "coment": "A dexametasona reduz sequela auditiva e mortalidade na meningite pneumocócica do adulto, mas o benefício depende de ser administrada ANTES ou JUNTO com a primeira dose do antibiótico — ela atua reduzindo a resposta inflamatória desencadeada pela lise bacteriana. Iniciada 30 minutos depois, o efeito se perde; a recomendação, quando aplicada no tempo certo, é manter por quatro dias.",
   "porAlt": [
-   "Administrar após setenta e duas horas perde a janela em que o corticoide modula a inflamação.",
-   "Correta: administrar antes ou junto da primeira dose do antibiótico, reduzindo sequela neurológica.",
-   "O corticoide tem benefício demonstrado na meningite pneumocócica do adulto em ensaios clínicos.",
-   "O corticoide é adjuvante e jamais substitui o antibiótico no tratamento da meningite bacteriana.",
-   "A indicação é no início do tratamento, e não como resposta a febre persistente tardia."
+   "Correta: o benefício existe, mas depende do momento da administração.",
+   "O esquema é de quatro dias, e iniciar depois do antibiótico não resgata o efeito.",
+   "Não é contraindicada: é recomendada na pneumocócica, no tempo certo.",
+   "O corticoide é adjuvante e nunca substitui o antibacteriano.",
+   "O benefício maior é justamente na pneumocócica, não na meningocócica."
   ]
  },
  {
-  "q": "Paciente com suspeita de infecção por Clostridioides difficile grave, com leucocitose acentuada e elevação de creatinina. Qual é o tratamento?",
+  "q": "Homem de 76 anos, internado por pneumonia e em uso de ceftriaxona há dez dias, apresenta diarreia com doze evacuações diárias, dor abdominal difusa e distensão abdominal progressiva. Está com pressão de 92/56 mmHg, frequência de 116 bpm, temperatura de 38,8 °C, leucócitos de 28.000/mm³, creatinina de 2,4 mg/dL — subindo de 1,0 mg/dL — e lactato de 3,6 mmol/L. O teste para toxina de Clostridioides difficile é positivo e a tomografia mostra espessamento colônico difuso, sem perfuração ou megacólon. Qual é o tratamento?",
   "alts": [
-   "Vancomicina oral ou fidaxomicina, suspendendo sempre o antibiótico desencadeante e mantendo precauções de contato.",
-   "Metronidazol oral isolado como tratamento de escolha na infecção grave por Clostridioides difficile atual agora.",
-   "Manter o antibiótico desencadeante e prescrever apenas probiótico como tratamento da infecção grave descrita.",
-   "Prescrever apenas antiperistáltico em dose alta para reduzir o número de evacuações do paciente grave neste caso.",
-   "Indicar colectomia total imediata em todos os pacientes com infecção grave por Clostridioides difficile agora."
+   "Vancomicina oral em dose alta com metronidazol",
+   "Vancomicina oral isolada em dose habitual",
+   "Metronidazol oral isolado por catorze dias",
+   "Transplante de microbiota fecal imediato",
+   "Colectomia total de urgência agora"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "IDSA/SHEA Clinical Practice Guidelines for Clostridioides difficile infection, atualização 2021 com revisão 2024",
-  "coment": "Na infecção grave por Clostridioides difficile, definida por leucocitose acima de quinze mil ou creatinina elevada, o tratamento de escolha é vancomicina oral ou fidaxomicina, que passou a ser preferida em várias diretrizes pela menor recorrência. O metronidazol deixou de ser primeira linha por inferioridade demonstrada. Na forma fulminante, com íleo, megacólon ou choque, associam-se vancomicina em dose alta, metronidazol endovenoso e avaliação cirúrgica.",
+  "base": "IDSA/SHEA 2021 — Clostridioides difficile grave e fulminante",
+  "coment": "Leucocitose acima de 15.000/mm³ com creatinina elevada define forma grave, e hipotensão com lactato elevado caracteriza a forma fulminante. O tratamento é vancomicina oral em dose alta — 500 mg a cada 6 horas — associada a metronidazol intravenoso, com vancomicina em enema se houver íleo. A colectomia entra na falha clínica, perfuração ou megacólon tóxico.",
   "porAlt": [
-   "Correta: vancomicina oral ou fidaxomicina, com suspensão do antibiótico desencadeante e precauções de contato.",
-   "O metronidazol deixou de ser primeira linha por inferioridade demonstrada frente à vancomicina.",
-   "Manter o antibiótico desencadeante perpetua a disbiose, e o probiótico isolado não trata a infecção.",
-   "O antiperistáltico aumenta o risco de megacólon tóxico e retenção da toxina no intestino.",
-   "A colectomia se reserva à forma fulminante refratária, e não a toda infecção classificada como grave."
+   "Correta: forma fulminante exige dose alta com metronidazol intravenoso.",
+   "Dose habitual isolada é insuficiente na forma fulminante.",
+   "O metronidazol isolado não é opção nem no episódio leve.",
+   "O transplante é para recorrência, não para o quadro agudo grave.",
+   "A cirurgia vem depois da falha clínica ou com perfuração."
   ]
  },
  {
-  "q": "Paciente com bacteremia por Staphylococcus aureus em hemocultura. Qual é a conduta obrigatória?",
+  "q": "Mulher de 63 anos, em hemodiálise por cateter de longa permanência, tem hemocultura de duas amostras positiva para Staphylococcus aureus sensível à oxacilina. Está febril a 38,4 °C, com pressão de 118/70 mmHg e sem sopro à ausculta. Iniciou oxacilina intravenosa. A equipe pergunta quais medidas são obrigatórias além do antimicrobiano. Não há dor lombar, déficit neurológico ou lesão cutânea nova. Qual é a conduta obrigatória?",
   "alts": [
-   "Investigar foco e endocardite com ecocardiograma e repetir sempre hemoculturas até a documentada negativação.",
-   "Tratar por três dias com antibiótico oral e alta definitiva sem qualquer investigação de foco secundário.",
-   "Ignorar o resultado, pois o Staphylococcus aureus em hemocultura é quase sempre contaminação de coleta agora.",
-   "Prescrever apenas antibiótico tópico no sítio de punção como tratamento da bacteremia identificada agora.",
-   "Suspender o antibiótico assim que houver melhora clínica nas primeiras vinte e quatro horas de tratamento."
+   "Ecocardiograma, hemoculturas de controle e remoção do cateter",
+   "Apenas completar 14 dias de antibiótico intravenoso",
+   "Trocar o cateter por fio-guia e manter o antibiótico",
+   "Suspender o antibiótico se houver melhora em 48 horas",
+   "Antibiótico oral após 48 horas de melhora clínica"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA guidance on Staphylococcus aureus bacteremia, revisão 2024; ESC Guidelines for the management of endocarditis, 2023",
-  "coment": "A bacteremia por Staphylococcus aureus nunca deve ser considerada contaminação: tem alta taxa de foco metastático e mortalidade elevada. A conduta obrigatória inclui procurar o foco primário e focos secundários — endocardite, osteomielite, artrite séptica, abscesso, espondilodiscite —, realizar ecocardiograma, remover cateteres e dispositivos infectados, repetir hemoculturas até negativação e tratar com antibiótico endovenoso por período prolongado, tipicamente de duas a seis semanas.",
+  "base": "IDSA 2011 e consensos de bacteremia por S. aureus",
+  "coment": "Bacteremia por Staphylococcus aureus nunca é contaminação e exige um pacote obrigatório: ecocardiograma para excluir endocardite — transesofágico em portadores de dispositivo, prótese ou bacteremia persistente —, hemoculturas de controle em 48 a 96 horas para documentar clareamento, remoção do foco quando é cateter, e duração contada a partir da primeira cultura negativa.",
   "porAlt": [
-   "Correta: investigar foco e endocardite com ecocardiograma e repetir hemoculturas até a negativação.",
-   "Três dias de antibiótico oral é gravemente insuficiente e associa-se a recidiva e a foco metastático.",
-   "O Staphylococcus aureus em hemocultura raramente é contaminante e sempre exige investigação.",
-   "O antibiótico tópico não trata bacteremia, que exige terapia sistêmica endovenosa prolongada.",
-   "Suspender precocemente ao primeiro sinal de melhora leva a recidiva e a complicações metastáticas."
+   "Correta: é o pacote mínimo obrigatório nessa bacteremia.",
+   "Duração sem investigar foco e sem confirmar clareamento é insuficiente.",
+   "A troca por fio-guia mantém o trajeto colonizado.",
+   "Suspender cedo é o erro que produz recidiva e endocardite.",
+   "A transição oral precoce não é padrão nessa bacteremia."
   ]
  },
  {
-  "q": "Paciente com esplenomegalia febril e pancitopenia, com diagnóstico de leishmaniose visceral confirmado e sinais de gravidade. Qual é o tratamento de escolha?",
+  "q": "Homem de 28 anos, procedente do interior do Piauí, tem diagnóstico confirmado de leishmaniose visceral por aspirado de medula. Apresenta febre há dois meses, esplenomegalia de 10 cm, perda de 14 kg e icterícia leve. A hemoglobina é de 6,4 g/dL, os leucócitos de 1.400/mm³, as plaquetas de 42.000/mm³, o RNI de 1,8 e a bilirrubina de 3,2 mg/dL. Há sangramento gengival espontâneo. Qual é o tratamento?",
   "alts": [
-   "Antimoniato de meglumina em todos os casos, independentemente da gravidade e dos grupos de risco do paciente.",
-   "Anfotericina B lipossomal, preferida sempre nos casos graves e em grupos de risco definidos pelo protocolo.",
-   "Antibiótico de amplo espectro isolado como tratamento específico da leishmaniose visceral grave confirmada.",
-   "Corticoide sistêmico em dose alta como tratamento de escolha da leishmaniose visceral com sinais de gravidade.",
-   "Apenas suporte transfusional sem qualquer tratamento antiparasitário específico no paciente com forma grave."
+   "Anfotericina B lipossomal",
+   "Antimoniato de meglumina intravenoso",
+   "Pentamidina isetionato",
+   "Miltefosina por via oral",
+   "Apenas suporte e transfusão"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Manual de Vigilância e Controle da Leishmaniose Visceral, revisão 2023; OMS — Control of the leishmaniases, 2023",
-  "coment": "O antimoniato de meglumina segue como opção no Brasil, mas a anfotericina B lipossomal é a escolha nos casos graves e em grupos de maior risco de toxicidade e óbito: menores de um ano, maiores de cinquenta anos, gestantes, insuficiência renal, hepática ou cardíaca, coinfecção com HIV e sinais de gravidade como sangramento, icterícia, infecção associada e neutropenia intensa. A doença é de notificação compulsória e exige suporte clínico simultâneo.",
+  "base": "Ministério da Saúde, 2014 — Manual de vigilância e controle da leishmaniose visceral",
+  "coment": "Sinais de gravidade — icterícia, plaquetas abaixo de 50.000/mm³, sangramento, hemoglobina abaixo de 7 g/dL e coagulopatia — contraindicam o antimonial e indicam anfotericina B lipossomal, que é também a escolha em menores de um ano, maiores de cinquenta, gestantes, portadores de HIV e insuficiência renal ou hepática. O antimonial prolonga o QT e tem cardiotoxicidade e hepatotoxicidade relevantes.",
   "porAlt": [
-   "O antimoniato tem cardiotoxicidade e não é a escolha nos casos graves ou em grupos de risco.",
-   "Correta: anfotericina B lipossomal, preferida nos casos graves e nos grupos de risco definidos.",
-   "O antibiótico não tem ação sobre o parasito, embora infecção associada deva ser tratada.",
-   "O corticoide não trata a leishmaniose e pode agravar a imunossupressão já presente no paciente.",
-   "O suporte transfusional é adjuvante e não substitui o tratamento antiparasitário específico."
+   "Correta: os critérios de gravidade tornam a lipossomal a escolha.",
+   "O antimonial está contraindicado diante de icterícia e plaquetopenia grave.",
+   "A pentamidina é de segunda linha, com toxicidade importante.",
+   "A miltefosina não é a primeira escolha no Brasil para a forma grave.",
+   "Suporte isolado não trata a doença, que é letal sem tratamento."
   ]
  },
  {
@@ -21696,27 +21696,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com dor lombar e febre, com déficit neurológico progressivo e história de uso de drogas injetáveis. Qual é a suspeita?",
+  "q": "Homem de 44 anos, usuário de drogas injetáveis, chega com dor lombar intensa há dez dias e febre diária. Nas últimas 24 horas desenvolveu fraqueza progressiva em membros inferiores, hoje com força grau 3 bilateralmente, e retenção urinária com globo vesical palpável. Está com temperatura de 38,3 °C, pressão de 124/76 mmHg, dor à percussão dos processos espinhosos em L1-L2, proteína C reativa de 140 mg/L e leucócitos de 16.800/mm³. A hemocultura já foi colhida. Qual é a conduta imediata?",
   "alts": [
-   "Lombalgia mecânica inespecífica, hipótese mais provável diante de febre com déficit neurológico progressivo agora.",
-   "Hérnia de disco lombar simples, condição definida por febre e déficit neurológico rapidamente progressivo agora.",
-   "Espondilose degenerativa avançada, quadro caracterizado por febre alta e déficit neurológico de instalação rápida.",
-   "Abscesso epidural espinhal, exigindo sempre ressonância urgente e avaliação neurocirúrgica com antibiótico dirigido.",
-   "Fibromialgia com dor lombar predominante, condição que cursa com febre e déficit neurológico progressivo agora."
+   "Ressonância de urgência e avaliação neurocirúrgica",
+   "Radiografia de coluna lombar e analgesia",
+   "Antibiótico empírico e reavaliar em 48 horas",
+   "Tomografia de coluna lombar sem contraste",
+   "Fisioterapia motora e corticoide oral"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "IDSA guidance on spinal epidural abscess, revisão 2023; NASS clinical guideline on spinal infections, 2023",
-  "coment": "A tríade de dor lombar, febre e déficit neurológico sugere abscesso epidural espinhal, emergência cuja evolução é medida em horas e cujo prognóstico depende do estado neurológico no momento do tratamento. Fatores de risco incluem uso de drogas injetáveis, diabetes, imunossupressão, procedimentos espinhais e bacteremia. A conduta é ressonância urgente de toda a coluna, hemoculturas, antibiótico cobrindo Staphylococcus aureus e avaliação neurocirúrgica para drenagem.",
+  "base": "IDSA 2015 e literatura de abscesso epidural espinhal",
+  "coment": "Dor lombar com febre e déficit neurológico progressivo em usuário de droga injetável é abscesso epidural espinhal até prova em contrário. A ressonância com contraste é o exame de escolha e deve ser feita em caráter de urgência: o déficit progressivo indica compressão medular, e o tempo até a descompressão determina a recuperação neurológica.",
   "porAlt": [
-   "A lombalgia mecânica não cursa com febre nem com déficit neurológico progressivo em horas.",
-   "A hérnia de disco não causa febre e sua evolução não segue o padrão infeccioso descrito.",
-   "A espondilose é degenerativa e crônica, sem febre e sem déficit de instalação rapidamente progressiva.",
-   "Correta: abscesso epidural espinhal, com ressonância urgente, antibiótico dirigido e avaliação neurocirúrgica.",
-   "A fibromialgia não cursa com febre nem produz déficit neurológico objetivo e progressivo."
+   "Correta: imagem de urgência com avaliação cirúrgica imediata.",
+   "A radiografia não mostra abscesso epidural.",
+   "Esperar 48 horas com déficit progressivo pode custar a função medular.",
+   "A tomografia sem contraste tem sensibilidade baixa para o espaço epidural.",
+   "Fisioterapia e corticoide sem diagnóstico retardam a descompressão."
   ]
  },
  {
