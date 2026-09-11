@@ -1,5 +1,6 @@
 /* Folha compartilhada das leituras — uma só cópia, não duplicar estilo por arquivo.
-   Gramática MedTech: papel #FAFAF8, Figtree, flat; teal como cor do app. */
+   Fonte do sistema (SF/Segoe/Roboto), preto sobre papel, cantos quase retos, sem versalete nem sombra;
+   o teal fica só no que é clicável. Cara de manual, não de página gerada. */
 :root{--papel:#FAFAF8;--sup:#FFF;--sup2:#F1F1EC;--ink:#23272E;--ink2:#5E646B;--linha:#E8E8E2;--linhaF:#DDDDD5;
  --brand:#0B6A72;--brandInk:#0B6A72;--brandSup:#E3F1F1;--ok:#1D7A46;--okSup:#E6F3EB;
  --err:#C6453D;--errSup:#FBEAE8;--avi:#A3730A;--aviSup:#FBF1DC;--roxo:#5B4FCF;--roxoSup:#ECEAFB}
@@ -14,30 +15,29 @@ html[data-tema="escuro"]{--papel:#121417;--sup:#1B1E23;--sup2:#23272E;--ink:#E9E
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--papel);color:var(--ink);
- font:16px/1.68 Figtree,system-ui,-apple-system,sans-serif;letter-spacing:-.004em;padding:0 0 60px}
+ font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;padding:0 0 60px}
 .wrap{max-width:760px;margin:0 auto;padding:22px 18px}
-/* Serifada nos títulos: dá identidade de publicação médica sem mexer no corpo do texto, que
-   continua em Figtree porque é onde a legibilidade em tela importa mais. */
-h1{font:600 33px/1.16 Newsreader,Georgia,serif;margin:6px 0 12px;letter-spacing:-.018em}
-h2{font:600 24px/1.25 Newsreader,Georgia,serif;margin:46px 0 12px;scroll-margin-top:16px;
- letter-spacing:-.012em;border-top:1px solid var(--linha);padding-top:30px}
+/* Títulos na mesma família do texto, só mais pesados: hierarquia por tamanho e peso, não por troca de fonte. */
+h1{font-weight:700;font-size:28px;line-height:1.2;margin:4px 0 10px}
+h2{font-weight:700;font-size:21px;line-height:1.25;margin:40px 0 10px;scroll-margin-top:16px;
+ border-top:1px solid var(--linha);padding-top:26px}
 h2:first-of-type{border-top:0;padding-top:0}
-h3{font:600 18px/1.35 Newsreader,Georgia,serif;margin:28px 0 7px;scroll-margin-top:16px;letter-spacing:-.008em}
-h4{font-weight:600;font-size:15.5px;margin:16px 0 4px;color:var(--ink2)}
+h3{font-weight:700;font-size:17.5px;line-height:1.35;margin:26px 0 6px;scroll-margin-top:16px}
+h4{font-weight:600;font-size:16px;margin:16px 0 4px}
 p{margin:0 0 12px}
-.kicker{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--brandInk);font-weight:700}
-.dek{font-size:17.5px;line-height:1.55;color:var(--ink2);margin:0 0 18px}
+.kicker{font-size:14px;color:var(--ink2)}
+.dek{font-size:17px;line-height:1.55;color:var(--ink2);margin:0 0 18px}
 /* o sumário some aqui só quando o app mostra o dele na coluna lateral */
 html.embutida .toc{display:none}
-.toc{background:var(--sup);border:1px solid var(--linha);border-radius:12px;padding:12px 16px;margin:18px 0 26px}
-.toc b{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2)}
-.toc ol{margin:6px 0 0;padding-left:20px;columns:2;column-gap:22px;font-size:14.5px}
-.toc li{break-inside:avoid;margin:2px 0}
+.toc{border-top:1px solid var(--linha);border-bottom:1px solid var(--linha);padding:12px 0 14px;margin:18px 0 26px}
+.toc b{font-size:15px}
+.toc ol{margin:8px 0 0;padding:0;list-style:none;columns:2;column-gap:24px;font-size:15px;line-height:1.4}
+.toc li{break-inside:avoid;margin:0 0 5px}
 @media(max-width:560px){.toc ol{columns:1}}
 .toc a{color:var(--brandInk);text-decoration:none}
 .toc a:hover{text-decoration:underline}
 /* caixas */
-.cx{border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:15px;border-left:3px solid}
+.cx{padding:12px 14px;margin:14px 0;font-size:15.5px;border-left:3px solid}
 .fonte{background:var(--brandSup);border-color:var(--brand)}
 .chave{background:var(--okSup);border-color:var(--ok)}
 .armadilha{background:var(--errSup);border-color:var(--err)}
@@ -45,35 +45,33 @@ html.embutida .toc{display:none}
 .cx b{display:block;margin-bottom:4px}
 .cx p:last-child{margin-bottom:0}
 /* questão-âncora: mini-caso no fim da seção */
-.ancora{background:var(--roxoSup);border-left:3px solid var(--roxo);border-radius:0 10px 10px 0;padding:12px 14px;margin:16px 0;font-size:15px}
-.ancora b{display:block;color:var(--roxo);font-size:12px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:4px}
+.ancora{background:var(--roxoSup);border-left:3px solid var(--roxo);padding:12px 14px;margin:16px 0;font-size:15.5px}
+.ancora b{display:block;color:var(--roxo);font-size:14px;margin-bottom:4px}
 .ancora details{border:0;background:transparent;padding:0;margin:6px 0 0}
 .ancora summary{color:var(--roxo);font-size:14px}
 /* abordagem sindrômica: perguntar / examinar / pedir */
 .sind{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:14px 0}
-.sind div{background:var(--sup);border:1px solid var(--linha);border-radius:10px;padding:11px 13px;font-size:14.5px}
-.sind div b{display:block;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--brandInk);margin-bottom:6px}
+.sind div{background:var(--sup);border:1px solid var(--linha);border-radius:4px;padding:11px 13px;font-size:15px}
+.sind div b{display:block;font-size:14px;margin-bottom:6px}
 .sind ul{margin:0;padding-left:18px}
 .sind li{margin:3px 0}
 /* comparação lado a lado */
 .compara{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:14px 0}
-.compara div{background:var(--sup2);border-radius:10px;padding:12px 14px;font-size:14.5px}
+.compara div{background:var(--sup2);border-radius:4px;padding:12px 14px;font-size:15px}
 .compara div b:first-child{display:block;margin-bottom:6px;font-size:15px}
 /* tabelas */
-table{border-collapse:collapse;width:100%;font-size:14.5px;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:12px 0}
 th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--linha);vertical-align:top}
-th{font-size:12.5px;color:var(--ink2);font-weight:600;background:var(--sup2)}
-th:first-child{border-radius:8px 0 0 0}th:last-child{border-radius:0 8px 0 0}
-tr:hover td{background:rgba(11,106,114,.03)}
+th{font-size:13.5px;font-weight:600;border-bottom:2px solid var(--linhaF)}
 .rolagem{overflow-x:auto;-webkit-overflow-scrolling:touch}
 .criterio td:first-child{font-weight:600;width:34%}
-details{border:1px solid var(--linha);border-radius:10px;padding:11px 14px;margin:8px 0;background:var(--sup)}
+details{border:1px solid var(--linha);border-radius:4px;padding:11px 14px;margin:8px 0;background:var(--sup)}
 summary{cursor:pointer;font-weight:600}
-footer{margin-top:34px;border-top:1px solid var(--linha);padding-top:16px;font-size:13.5px;color:var(--ink2)}
+footer{margin-top:34px;border-top:1px solid var(--linha);padding-top:16px;font-size:14px;color:var(--ink2)}
 footer ol{padding-left:20px}
 a{color:var(--brandInk)}
 strong,b{color:var(--ink)}
-.vaiQuestoes{display:inline-flex;align-items:center;gap:8px;background:var(--brand);color:#fff;border:0;border-radius:10px;
+.vaiQuestoes{display:inline-flex;align-items:center;gap:8px;background:var(--brand);color:#fff;border:0;border-radius:6px;
  padding:12px 18px;font-weight:600;cursor:pointer;margin-top:20px;text-decoration:none;min-height:44px}
 html[data-tema="escuro"] .vaiQuestoes{color:#0E1414}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
@@ -82,7 +80,7 @@ html[data-tema="escuro"] .vaiQuestoes{color:#0E1414}
 .rec th{font-size:12.5px;color:var(--ink2);font-weight:600;text-align:left;padding:8px 10px;border-bottom:1px solid var(--linha)}
 .rec td{padding:10px;border-bottom:1px solid var(--linha);vertical-align:top}
 .rec td.c{width:1%;white-space:nowrap;text-align:center}
-.cls{display:inline-block;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:700;letter-spacing:.02em}
+.cls{display:inline-block;border-radius:3px;padding:1px 7px;font-size:12.5px;font-weight:700}
 .c1{background:var(--okSup);color:var(--ok)}
 .c2a{background:var(--brandSup);color:var(--brandInk)}
 .c2b{background:var(--sup2);color:var(--ink2)}
@@ -92,20 +90,17 @@ html[data-tema="escuro"] .vaiQuestoes{color:#0E1414}
 .legenda{font-size:12.5px;color:var(--ink2);margin:-6px 0 16px}
 /* passos numerados e caixa de dose */
 .passos{counter-reset:p;list-style:none;padding:0}
-.passos li{counter-increment:p;position:relative;padding:0 0 0 34px;margin:10px 0}
-.passos li::before{content:counter(p);position:absolute;left:0;top:1px;width:24px;height:24px;border-radius:50%;
- background:var(--brand);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
-html[data-tema="escuro"] .passos li::before{color:#0E1414}
-@media (prefers-color-scheme:dark){html:not([data-tema="claro"]) .passos li::before{color:#0E1414}}
-.dose{background:var(--sup2);border:1px solid var(--linha);border-radius:10px;padding:12px 14px;margin:12px 0;font-size:14.5px}
+.passos li{counter-increment:p;position:relative;padding:0 0 0 30px;margin:10px 0}
+.passos li::before{content:counter(p) ".";position:absolute;left:0;top:0;font-weight:700;color:var(--ink)}
+.dose{background:var(--sup2);border:1px solid var(--linha);border-radius:4px;padding:12px 14px;margin:12px 0;font-size:15px}
 .dose b{display:block;margin-bottom:6px}
 .dose ul{margin:0;padding-left:18px}
 /* fluxograma (mermaid) e figura */
 .fluxo{background:transparent;border:0;border-top:1px solid var(--linha);border-radius:0;padding:16px 0 6px;margin:26px 0;overflow-x:auto}
 .fluxo .leg{font-size:13px;color:var(--ink2);margin:6px 2px 6px;display:flex;gap:8px;align-items:baseline}
-.fluxo .leg b{color:var(--brandInk);font-size:12px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
+.fluxo .leg b{color:var(--ink);white-space:nowrap}
 .fluxo pre.mermaid{margin:0;font:13px/1.5 ui-monospace,Menlo,monospace;white-space:pre-wrap;color:var(--ink2);
- background:var(--sup2);border-radius:8px;padding:10px 12px}
+ background:var(--sup2);border-radius:4px;padding:10px 12px}
 .fluxo pre.mermaid[data-processed]{background:transparent;padding:0;font:inherit;white-space:normal;text-align:center}
 .fluxo svg{max-width:100%;height:auto}
 .fluxo .off{font-size:12px;color:var(--avi);margin:0 2px 6px}
@@ -118,11 +113,11 @@ html[data-tema="escuro"] .passos li::before{color:#0E1414}
 /* ECG e esquemas vêm de leituras/fig/*.svg. O papel do ECG é claro nos dois temas — papel de
    eletrocardiograma é branco/rosa de verdade —, então a figura ganha uma moldura no escuro
    em vez de ser invertida. */
-.fig img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:8px}
+.fig img{max-width:100%;height:auto;display:block;margin:0 auto;border-radius:3px}
 .fig.ecg{padding:8px}
 html[data-tema="escuro"] .fig img{outline:1px solid var(--linhaF);outline-offset:-1px}
 @media (prefers-color-scheme:dark){html:not([data-tema="claro"]) .fig img{outline:1px solid var(--linhaF);outline-offset:-1px}}
-.fig figcaption{font-size:13.5px;line-height:1.55;color:var(--ink2);text-align:left;margin-top:10px}
+.fig figcaption{font-size:14.5px;line-height:1.5;color:var(--ink2);text-align:left;margin-top:10px}
 .fig figcaption b{color:var(--ink)}
 /* ampliar: o ECG de 12 derivações é largo; no celular o leitor arrasta na horizontal */
 .fig .zoom{overflow-x:auto;-webkit-overflow-scrolling:touch}

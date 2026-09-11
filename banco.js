@@ -13,7 +13,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2024 — fibrilação atrial: CHA₂DS₂-VA e anticoagulantes diretos",
+  "base": "ESC 2024. Fibrilação atrial: CHA₂DS₂-VA e anticoagulantes diretos",
   "coment": "O CHA₂DS₂-VA soma idade entre 65 e 74 anos (1), hipertensão (1) e diabetes (1) = 3 pontos. Com escore de 2 ou mais a anticoagulação oral é classe I, e os anticoagulantes diretos são preferidos à varfarina na ausência de estenose mitral moderada a grave ou prótese mecânica. O antiagregante não tem papel na profilaxia de embolia da fibrilação atrial.",
   "porAlt": [
    "Correta: escore 3, sem contraindicação, com preferência pelos diretos.",
@@ -37,7 +37,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ESC 2024 — fibrilação atrial: reversão de anticoagulante direto no sangramento maior",
+  "base": "ESC 2024, fibrilação atrial: reversão de anticoagulante direto no sangramento maior",
   "coment": "Sangramento maior com instabilidade em uso de inibidor do fator Xa exige reversão específica: andexanet alfa quando disponível, ou complexo protrombínico de quatro fatores como alternativa. Idarucizumabe reverte dabigatrana, que é inibidor direto da trombina, não do Xa. Vitamina K e plasma não revertem anticoagulante direto.",
   "porAlt": [
    "Correta: é a reversão indicada para inibidor do fator Xa.",
@@ -61,8 +61,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ACC/AHA 2025 — SCA com supra: estratégia fármaco-invasiva acima de 120 minutos",
-  "coment": "Quando o tempo previsto até a angioplastia primária ultrapassa 120 minutos, a estratégia é fibrinólise imediata seguida de transferência para coronariografia em 2 a 24 horas — a estratégia fármaco-invasiva. Com 50 minutos de dor o paciente está na janela de maior benefício da fibrinólise, e o supra em duas derivações contíguas dispensa a troponina.",
+  "base": "ACC/AHA 2025, SCA com supra: estratégia fármaco-invasiva acima de 120 minutos",
+  "coment": "Quando o tempo previsto até a angioplastia primária ultrapassa 120 minutos, a estratégia é fibrinólise imediata seguida de transferência para coronariografia em 2 a 24 horas, a estratégia fármaco-invasiva. Com 50 minutos de dor o paciente está na janela de maior benefício da fibrinólise, e o supra em duas derivações contíguas dispensa a troponina.",
   "porAlt": [
    "Correta: acima de 120 minutos, fibrinólise e transferência.",
    "Transportar por 150 minutos sem reperfusão perde músculo.",
@@ -85,7 +85,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "GINA 2026 — Global Strategy for Asthma Management and Prevention, capítulo de asma aguda",
+  "base": "GINA 2026, Global Strategy for Asthma Management and Prevention, capítulo de asma aguda",
   "coment": "A atualização de 2026 do GINA foi explícita ao desencorajar a oxigenoterapia liberal na crise asmática: o oxigênio suplementar não é recomendado enquanto a saturação estiver em 92% ou mais, e quando indicado o alvo é uma faixa controlada de 93% a 95% em adultos, adolescentes e crianças de 6 a 11 anos. A hiperóxia na asma aguda associa-se a piora da relação ventilação-perfusão e a retenção de dióxido de carbono. A paciente com 94% em ar ambiente já está dentro do alvo, e o que muda desfecho aqui é broncodilatador, corticoide sistêmico e reavaliação seriada.",
   "porAlt": [
    "Máscara com reservatório a alto fluxo produz hiperóxia, que na crise asmática piora a troca gasosa e pode elevar a pressão de dióxido de carbono.",
@@ -109,8 +109,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "GINA 2026 — recomendação nova sobre asma com achados de anafilaxia (adrenalina antes do broncodilatador)",
-  "coment": "O GINA 2026 acrescentou uma recomendação específica para o cenário em que o paciente se apresenta com achados de anafilaxia e de asma ao mesmo tempo: dá-se primeiro a adrenalina e só depois os broncodilatadores. O caso reúne exposição a alérgeno, acometimento cutâneo-mucoso, broncoespasmo e hipotensão — anafilaxia por definição. A adrenalina intramuscular na face anterolateral da coxa é a única medida que atua nos três eixos do quadro: broncodilatação, vasoconstrição e estabilização do mastócito. Corticoide e anti-histamínico são adjuvantes e não substituem nem justificam adiar a adrenalina.",
+  "base": "GINA 2026, recomendação nova sobre asma com achados de anafilaxia (adrenalina antes do broncodilatador)",
+  "coment": "O GINA 2026 acrescentou uma recomendação específica para o cenário em que o paciente se apresenta com achados de anafilaxia e de asma ao mesmo tempo: dá-se primeiro a adrenalina e só depois os broncodilatadores. O caso reúne exposição a alérgeno, acometimento cutâneo-mucoso, broncoespasmo e hipotensão, anafilaxia por definição. A adrenalina intramuscular na face anterolateral da coxa é a única medida que atua nos três eixos do quadro: broncodilatação, vasoconstrição e estabilização do mastócito. Corticoide e anti-histamínico são adjuvantes e não substituem nem justificam adiar a adrenalina.",
   "porAlt": [
    "O beta-agonista trata o broncoespasmo, mas não reverte a hipotensão nem o edema de via aérea; adiar a adrenalina é a principal causa de morte evitável.",
    "Correta: diante de anafilaxia com asma, o GINA 2026 orienta administrar a adrenalina primeiro e só então os broncodilatadores inalatórios.",
@@ -133,8 +133,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "GOLD 2026 — Global Strategy for Diagnosis, Management and Prevention of COPD (limiar de uma exacerbação moderada)",
-  "coment": "O relatório GOLD de 2026 baixou o limiar para escalonamento: passou a recomendar intensificar o tratamento já após uma única exacerbação moderada, dentro do conceito de reduzir a atividade da doença — meta de nenhuma exacerbação, nenhuma piora de sintomas e nenhuma perda acelerada de função pulmonar. A escolha do corticoide inalatório é guiada por biomarcador: eosinófilos acima de 300 células/µL predizem boa resposta e sustentam a tripla terapia. Retirar broncodilatador ou substituir a dupla broncodilatação por corticoide com beta-agonista contraria a lógica de manter a base broncodilatadora.",
+  "base": "GOLD 2026, Global Strategy for Diagnosis, Management and Prevention of COPD (limiar de uma exacerbação moderada)",
+  "coment": "O relatório GOLD de 2026 baixou o limiar para escalonamento: passou a recomendar intensificar o tratamento já após uma única exacerbação moderada, dentro do conceito de reduzir a atividade da doença. Meta de nenhuma exacerbação, nenhuma piora de sintomas e nenhuma perda acelerada de função pulmonar. A escolha do corticoide inalatório é guiada por biomarcador: eosinófilos acima de 300 células/µL predizem boa resposta e sustentam a tripla terapia. Retirar broncodilatador ou substituir a dupla broncodilatação por corticoide com beta-agonista contraria a lógica de manter a base broncodilatadora.",
   "porAlt": [
    "Correta: o GOLD 2026 recomenda escalonar após uma exacerbação moderada, e a eosinofilia de 340 células/µL sustenta acrescentar o corticoide inalatório.",
    "O limiar de duas exacerbações pertence a versões anteriores do relatório; manter a conduta aqui deixa passar uma janela de prevenção já sinalizada.",
@@ -157,7 +157,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "GOLD 2026 — atualização da recomendação de vacina contra VSR (idade reduzida de 60 para 50 anos)",
+  "base": "GOLD 2026, atualização da recomendação de vacina contra VSR (idade reduzida de 60 para 50 anos)",
   "coment": "Entre as mudanças do relatório GOLD de 2026 está a redução da idade recomendada para a vacina contra o vírus sincicial respiratório em pacientes com DPOC: passou de 60 para 50 anos. A justificativa é o peso do VSR como causa de exacerbação e de hospitalização nesse grupo, com carga de doença comparável à da influenza em adultos com doença pulmonar crônica. As vacinas são imunologicamente distintas e não há proteção cruzada entre influenza e VSR. Não há exigência de gravidade funcional, de oxigenoterapia ou de número prévio de internações para indicar a vacinação.",
   "porAlt": [
    "Correta: o GOLD 2026 reduziu para 50 anos a idade a partir da qual a vacina contra o VSR é recomendada em pacientes com DPOC.",
@@ -181,7 +181,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "tit",
-  "base": "Surviving Sepsis Campaign 2026 — International Guidelines for Management of Sepsis and Septic Shock",
+  "base": "Surviving Sepsis Campaign 2026, International Guidelines for Management of Sepsis and Septic Shock",
   "coment": "A atualização de 2026 da Surviving Sepsis Campaign manteve a pressão arterial média inicial de 65 mmHg como alvo geral, com aplicação prática de uma faixa em torno desse valor, e passou a sugerir explicitamente uma faixa de 60 a 65 mmHg para pacientes com 65 anos ou mais, em vez de alvos mais altos. A lógica é evitar exposição desnecessária a vasopressor sem ganho de desfecho nessa população, apoiada em ensaios de permissividade hipotensiva no idoso. O paciente descrito está com 62 mmHg, perfusão em melhora e lactato em queda: elevar a dose apenas para atingir número mais alto acrescenta risco sem benefício.",
   "porAlt": [
    "Alvos elevados de pressão média aumentam a dose de vasopressor e os eventos arrítmicos sem melhorar sobrevida nem função renal no choque séptico.",
@@ -205,8 +205,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Surviving Sepsis Campaign 2021/2026 e IDSA — descalonamento em S. aureus sensível",
-  "coment": "Em bacteremia por Staphylococcus aureus sensível à oxacilina, o betalactâmico antiestafilocócico é superior à vancomicina em mortalidade e tempo de clareamento da bacteremia. O descalonamento é obrigatório assim que o antibiograma chega — manter vancomicina por comodidade é erro com consequência mensurável, e aqui ela ainda está acumulando com a função renal em queda.",
+  "base": "Surviving Sepsis Campaign 2021/2026 e IDSA, descalonamento em S. aureus sensível",
+  "coment": "Em bacteremia por Staphylococcus aureus sensível à oxacilina, o betalactâmico antiestafilocócico é superior à vancomicina em mortalidade e tempo de clareamento da bacteremia. O descalonamento é obrigatório assim que o antibiograma chega. Manter vancomicina por comodidade é erro com consequência mensurável, e aqui ela ainda está acumulando com a função renal em queda.",
   "porAlt": [
    "Correta: descalonar para betalactâmico é superior na cepa sensível.",
    "Ajustar a dose mantém um fármaco inferior para essa cepa.",
@@ -229,8 +229,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "tit",
-  "base": "Surviving Sepsis Campaign 2021/2026 — vasopressor e alvos de perfusão",
-  "coment": "A variação de pressão de pulso de 8% e a cava pouco distensível indicam que a paciente não é mais responsiva a volume, e o ventrículo hipercontrátil descarta disfunção sistólica. Persistindo hipotensa após a ressuscitação inicial, o passo é vasopressor — noradrenalina, com alvo de pressão arterial média de 65 mmHg. Em paralelo, o controle do foco cirúrgico é prioridade.",
+  "base": "Surviving Sepsis Campaign 2021/2026. Vasopressor e alvos de perfusão",
+  "coment": "A variação de pressão de pulso de 8% e a cava pouco distensível indicam que a paciente não é mais responsiva a volume, e o ventrículo hipercontrátil descarta disfunção sistólica. Persistindo hipotensa após a ressuscitação inicial, o passo é vasopressor. Noradrenalina, com alvo de pressão arterial média de 65 mmHg. Em paralelo, o controle do foco cirúrgico é prioridade.",
   "porAlt": [
    "Correta: sem responsividade a volume, o passo é vasopressor.",
    "Mais volume em quem não responde só causa congestão.",
@@ -253,7 +253,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign 2021/2026 — descalonamento e duração",
+  "base": "Surviving Sepsis Campaign 2021/2026, descalonamento e duração",
   "coment": "Com agente identificado, sensibilidade conhecida e boa evolução clínica, o descalonamento é obrigatório: estreitar para o espectro mais adequado reduz pressão seletiva, colite por Clostridioides difficile e custo, sem perda de eficácia. A vancomicina sai porque não há Gram-positivo isolado. A duração habitual na pneumonia com boa resposta é de sete dias.",
   "porAlt": [
    "Correta: descalonar e retirar a cobertura desnecessária.",
@@ -277,7 +277,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ADA Standards of Care in Diabetes 2026 e KDIGO 2024 — terapia com benefício cardiorrenal independentemente da HbA1c",
+  "base": "ADA Standards of Care in Diabetes 2026 e KDIGO 2024, terapia com benefício cardiorrenal independentemente da HbA1c",
   "coment": "O ponto que as duas diretrizes reforçam é que a escolha do hipoglicemiante deixou de ser guiada apenas pelo controle glicêmico: em pacientes com doença renal crônica, insuficiência cardíaca ou doença cardiovascular estabelecida, indica-se a classe com benefício de órgão independentemente da hemoglobina glicada. Com filtração de 48 mL/min e albuminúria acima de 200 mg/g, o inibidor de SGLT2 tem recomendação forte para retardar a progressão renal. A metformina pode ser mantida até filtração de 30 mL/min, com ajuste de dose abaixo de 45; suspendê-la aqui é erro comum e desnecessário.",
   "porAlt": [
    "Uma glicada na meta não encerra a decisão terapêutica: o que está em jogo aqui é a progressão renal, que exige droga com benefício próprio.",
@@ -301,7 +301,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ADA Standards of Care in Diabetes 2026 — uso de agonistas de GLP-1 na obesidade associada ao diabetes tipo 1",
+  "base": "ADA Standards of Care in Diabetes 2026, uso de agonistas de GLP-1 na obesidade associada ao diabetes tipo 1",
   "coment": "A edição de 2026 trouxe, pela primeira vez, recomendação de considerar agonistas do receptor de GLP-1 e congêneres em pessoas com diabetes tipo 1 e obesidade, sempre em associação à insulina, que continua indispensável. O texto também passou a enfatizar a individualização da dose dos fármacos antiobesidade: a dose mais eficaz para um determinado paciente pode não ser a maior aprovada, e a escalada deve considerar resposta, tolerância e objetivo terapêutico. Os cuidados específicos no tipo 1 são o risco de cetoacidose euglicêmica em uso concomitante de outras classes e a necessidade de reduzir a insulina prandial.",
   "porAlt": [
    "A contraindicação absoluta no tipo 1 é justamente o que a atualização derrubou, ao reconhecer o benefício sobre peso e sensibilidade à insulina.",
@@ -325,7 +325,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes 2026 — monitorização contínua de glicose desde o diagnóstico",
+  "base": "ADA Standards of Care in Diabetes 2026, monitorização contínua de glicose desde o diagnóstico",
   "coment": "A atualização de 2026 ampliou o papel da monitorização contínua de glicose: recomenda considerá-la no momento do diagnóstico e a qualquer tempo depois, com o objetivo de melhorar desfechos do manejo, sem restringir o recurso a quem usa insulina em múltiplas doses. O valor está em mostrar ao paciente o efeito imediato de alimentos, atividade física e medicação, e em revelar padrões que a glicemia de jejum não captura. A hemoglobina glicada continua sendo uma média de três meses, útil mas cega para variabilidade e hipoglicemia, e por isso não substitui a monitorização.",
   "porAlt": [
    "Correta: a diretriz de 2026 recomenda considerar a monitorização contínua já no diagnóstico, sem condicioná-la ao uso de insulina.",
@@ -349,7 +349,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "KDIGO 2024 — Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
+  "base": "KDIGO 2024, Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
   "coment": "A diretriz KDIGO de 2024 recomenda inibidor de SGLT2 para adultos com doença renal crônica e filtração glomerular igual ou maior que 20 mL/min/1,73 m² quando a relação albumina-creatinina está em 200 mg/g ou mais, com grau de recomendação 1A e independentemente de haver diabetes. O paciente preenche os dois critérios. O duplo bloqueio do sistema renina-angiotensina com inibidor da ECA somado a bloqueador do receptor foi abandonado por aumentar hipercalemia e injúria renal aguda sem ganho de desfecho. A restrição proteica extrema sem cetoanálogos leva a desnutrição, e não há indicação de iniciar diálise em paciente assintomático nessa faixa de filtração.",
   "porAlt": [
    "O duplo bloqueio do sistema renina-angiotensina aumenta hipercalemia e injúria renal aguda sem melhorar desfechos, e foi abandonado por isso.",
@@ -373,7 +373,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "KDIGO 2024 — antagonista mineralocorticoide não esteroidal (finerenona) na albuminúria residual do diabetes tipo 2",
+  "base": "KDIGO 2024, antagonista mineralocorticoide não esteroidal (finerenona) na albuminúria residual do diabetes tipo 2",
   "coment": "Na doença renal do diabetes tipo 2 com albuminúria persistente apesar de bloqueio do sistema renina-angiotensina e de inibidor de SGLT2 em doses otimizadas, a diretriz de 2024 admite acrescentar um antagonista mineralocorticoide não esteroidal, a finerenona, como terceiro pilar do tratamento. Os ensaios mostraram redução de desfechos renais e cardiovasculares nesse cenário. O cuidado obrigatório é a monitorização do potássio, com dosagem antes do início e nas semanas seguintes. A espironolactona, esteroidal, tem mais hipercalemia e ginecomastia e não é a opção estudada com esse desenho de proteção renal.",
   "porAlt": [
    "Correta: a finerenona é o terceiro pilar quando persiste albuminúria apesar de bloqueio do sistema e de inibidor de SGLT2, com controle do potássio.",
@@ -397,8 +397,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r1",
-  "base": "KDIGO 2024 e Cecil Medicina, 26ª edição, 2022 — abordagem dos distúrbios ácido-básicos pelo cloro urinário",
-  "coment": "O quadro é de alcalose metabólica com compensação respiratória apropriada — a pressão de gás carbônico sobe cerca de 0,7 mmHg para cada 1 mEq/L de bicarbonato acima do normal. A chave diagnóstica é o cloro urinário: valores abaixo de 20 mEq/L caracterizam a forma responsiva ao cloro, típica de perdas gástricas e de uso de diurético, em que há contração de volume e ávida reabsorção tubular de cloro. O tratamento é reposição de cloreto de sódio isotônico com potássio, o que restaura o volume e permite ao rim excretar o excesso de bicarbonato. Cloro urinário acima de 20 mEq/L apontaria excesso de mineralocorticoide.",
+  "base": "KDIGO 2024 e Cecil Medicina, 26ª edição, 2022 (abordagem dos distúrbios ácido-básicos pelo cloro urinário",
+  "coment": "O quadro é de alcalose metabólica com compensação respiratória apropriada) a pressão de gás carbônico sobe cerca de 0,7 mmHg para cada 1 mEq/L de bicarbonato acima do normal. A chave diagnóstica é o cloro urinário: valores abaixo de 20 mEq/L caracterizam a forma responsiva ao cloro, típica de perdas gástricas e de uso de diurético, em que há contração de volume e ávida reabsorção tubular de cloro. O tratamento é reposição de cloreto de sódio isotônico com potássio, o que restaura o volume e permite ao rim excretar o excesso de bicarbonato. Cloro urinário acima de 20 mEq/L apontaria excesso de mineralocorticoide.",
   "porAlt": [
    "Correta: alcalose metabólica com cloro urinário abaixo de 20 mEq/L é responsiva ao cloro, e a reposição de salina com potássio corrige o distúrbio.",
    "Na alcalose respiratória a pressão de gás carbônico estaria baixa, e não elevada como neste paciente, o que exclui a hipótese de imediato.",
@@ -421,7 +421,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "AHA/ASA 2026 — Guideline for the Early Management of Patients With Acute Ischemic Stroke",
+  "base": "AHA/ASA 2026, Guideline for the Early Management of Patients With Acute Ischemic Stroke",
   "coment": "A diretriz de 2026 consolidou a tenecteplase, na dose de 0,25 mg/kg com máximo de 25 mg, como alternativa plenamente aceitável à alteplase, que segue em 0,9 mg/kg com máximo de 90 mg, dentro da janela de até 4,5 horas. A vantagem prática da tenecteplase é o bolus único, que simplifica o fluxo e encurta o tempo porta-agulha, sobretudo quando há transferência para trombectomia. O limiar pressórico para trombolisar é 185/110 mmHg, e não valores de normotensão; baixar a pressão além disso reduz a perfusão da penumbra. Angiotomografia e ressonância não devem atrasar o trombolítico quando os critérios clínicos e a tomografia sem contraste já bastam.",
   "porAlt": [
    "A tenecteplase deixou de ser restrita a pesquisa: ensaios de não inferioridade sustentaram sua incorporação formal à recomendação atual.",
@@ -445,7 +445,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "AHA/ASA 2026 — seleção por imagem no AVC de horário de início desconhecido (dissociação difusão-FLAIR)",
+  "base": "AHA/ASA 2026. Seleção por imagem no AVC de horário de início desconhecido (dissociação difusão-FLAIR)",
   "coment": "O AVC ao despertar deixou de ser sinônimo de exclusão da trombólise. A diretriz de 2026 recomenda selecionar por imagem os pacientes com início desconhecido e déficit reconhecido há menos de quatro horas e meia: a ressonância que mostra lesão restrita à difusão sem tradução correspondente na sequência FLAIR indica lesão provavelmente com menos de 4,5 horas de evolução, e esses pacientes se beneficiam da trombólise. Contar o tempo a partir do último momento visto bem excluiria injustamente uma parcela grande de pacientes que ainda têm tecido salvável, e trombolisar sem essa seleção exporia outros a hemorragia sem benefício.",
   "porAlt": [
    "Horário de início desconhecido não exclui mais o paciente: existe seleção por imagem justamente para recuperar esses casos para o tratamento.",
@@ -469,7 +469,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AHA/ASA 2026 — refinamento dos critérios de trombólise em déficits leves (NIHSS de 0 a 5)",
+  "base": "AHA/ASA 2026. Refinamento dos critérios de trombólise em déficits leves (NIHSS de 0 a 5)",
   "coment": "A diretriz de 2026 formalizou que um escore NIHSS baixo, entre 0 e 5 pontos, não deve isoladamente motivar a decisão de não trombolisar. O que importa é se o déficit é incapacitante para aquele paciente: afasia, hemianopsia ou perda de destreza na mão dominante podem somar poucos pontos no escore e ainda assim comprometer a autonomia. A idade avançada por si só também não contraindica a trombólise, desde que a paciente tivesse independência funcional prévia. O raciocínio de recusar o tratamento apenas pelo número é uma das causas mais frequentes de subtratamento no AVC agudo.",
   "porAlt": [
    "Não existe contraindicação absoluta por escore: a avaliação é se o déficit incapacita aquele paciente na sua função e no seu contexto.",
@@ -493,11 +493,11 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Thoracic Society 2025 — Diagnosis and Management of Community-acquired Pneumonia",
-  "coment": "A diretriz de 2025 mudou de forma relevante o que se ensinava desde 2019: em adultos com pneumonia adquirida na comunidade tratados em ambulatório que atingem estabilidade clínica, sugere-se menos de cinco dias de antibiótico, com mínimo de três, em vez de cinco ou mais. Estabilidade clínica é definida por estar afebril, frequência cardíaca abaixo de 100 bpm, frequência respiratória abaixo de 24 irpm, saturação de pelo menos 90% em ar ambiente, pressão sistólica de pelo menos 90 mmHg e estado mental normal — exatamente o quadro descrito. Tratamento prolongado acrescenta infecção por Clostridioides difficile, injúria renal e pressão seletiva, sem ganho de cura.",
+  "base": "American Thoracic Society 2025, Diagnosis and Management of Community-acquired Pneumonia",
+  "coment": "A diretriz de 2025 mudou de forma relevante o que se ensinava desde 2019: em adultos com pneumonia adquirida na comunidade tratados em ambulatório que atingem estabilidade clínica, sugere-se menos de cinco dias de antibiótico, com mínimo de três, em vez de cinco ou mais. Estabilidade clínica é definida por estar afebril, frequência cardíaca abaixo de 100 bpm, frequência respiratória abaixo de 24 irpm, saturação de pelo menos 90% em ar ambiente, pressão sistólica de pelo menos 90 mmHg e estado mental normal, exatamente o quadro descrito. Tratamento prolongado acrescenta infecção por Clostridioides difficile, injúria renal e pressão seletiva, sem ganho de cura.",
   "porAlt": [
    "Dez dias é herança de recomendações antigas; a evidência de não inferioridade dos esquemas curtos derrubou essa duração na pneumonia não grave.",
-   "Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três — que ele já completou.",
+   "Correta: atingida a estabilidade clínica, a diretriz de 2025 sugere menos de cinco dias, respeitado o mínimo de três, que ele já completou.",
    "A imagem melhora semanas depois da cura clínica; guiar a duração por radiografia prolonga o antibiótico sem qualquer benefício ao paciente.",
    "Não há motivo para trocar a classe em quem respondeu bem, e estender por mais sete dias contraria a recomendação de curso curto.",
    "O padrão lobar não define duração nem exige esquema prolongado; o que define é a resposta clínica e a gravidade da apresentação inicial."
@@ -517,8 +517,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "American Thoracic Society 2025 — recomendação forte de cinco dias ou mais na pneumonia grave",
-  "coment": "A diretriz de 2025 separa com clareza dois cenários. Na pneumonia não grave, ambulatorial ou internada, sugere curso curto — menos de cinco dias, com mínimo de três — assim que houver estabilidade clínica. Na pneumonia grave, porém, a recomendação é forte no sentido oposto: cinco dias ou mais de tratamento. A gravidade da apresentação inicial, e não a velocidade da melhora, é o que define esse piso. Encerrar no quarto dia por resposta favorável contraria a recomendação; por outro lado, prolongar indefinidamente até a alta é o extremo oposto e igualmente sem respaldo.",
+  "base": "American Thoracic Society 2025. Recomendação forte de cinco dias ou mais na pneumonia grave",
+  "coment": "A diretriz de 2025 separa com clareza dois cenários. Na pneumonia não grave, ambulatorial ou internada, sugere curso curto (menos de cinco dias, com mínimo de três) assim que houver estabilidade clínica. Na pneumonia grave, porém, a recomendação é forte no sentido oposto: cinco dias ou mais de tratamento. A gravidade da apresentação inicial, e não a velocidade da melhora, é o que define esse piso. Encerrar no quarto dia por resposta favorável contraria a recomendação; por outro lado, prolongar indefinidamente até a alta é o extremo oposto e igualmente sem respaldo.",
   "porAlt": [
    "A melhora precoce não rebaixa a gravidade da apresentação inicial, que é justamente o critério usado para definir o piso de duração.",
    "Amarrar a duração do antimicrobiano à data da alta é decisão administrativa, não clínica, e costuma resultar em tratamento excessivo.",
@@ -541,7 +541,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "American Thoracic Society 2025 — terapia empírica ambulatorial na pneumonia adquirida na comunidade",
+  "base": "American Thoracic Society 2025, terapia empírica ambulatorial na pneumonia adquirida na comunidade",
   "coment": "Para o adulto ambulatorial sem comorbidades e sem uso recente de antimicrobiano, a diretriz mantém a monoterapia com amoxicilina em dose alta como escolha inicial, tipicamente 1 grama a cada 8 horas, tendo doxiciclina como alternativa e o macrolídeo condicionado a resistência local do pneumococo abaixo de 25%. Reservar a fluoroquinolona respiratória é decisão deliberada: ela seleciona resistência, mascara tuberculose e carrega alertas de tendinopatia, disglicemia e neuropatia. A cobertura de atípico não é obrigatória em todos os pacientes ambulatoriais sem comorbidade.",
   "porAlt": [
    "A fluoroquinolona é droga de reserva: seleciona resistência, mascara tuberculose e tem alertas de segurança que desaconselham o uso de rotina.",
@@ -565,7 +565,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r1",
-  "base": "American Thoracic Society 2025 — definição de estabilidade clínica na pneumonia adquirida na comunidade",
+  "base": "American Thoracic Society 2025, definição de estabilidade clínica na pneumonia adquirida na comunidade",
   "coment": "A definição é clínica e composta: paciente afebril, frequência cardíaca abaixo de 100 bpm, frequência respiratória abaixo de 24 irpm, saturação de pelo menos 90% em ar ambiente ou pressão parcial de oxigênio de ao menos 60 mmHg, pressão sistólica de pelo menos 90 mmHg e estado mental normal. Importa porque é esse conjunto, e não exame de imagem ou marcador inflamatório, que autoriza encerrar o antimicrobiano no curso curto. A radiografia melhora semanas após a cura clínica, e usar a imagem como critério é a causa mais comum de tratamento desnecessariamente prolongado.",
   "porAlt": [
    "Marcadores inflamatórios não fazem parte da definição e sua normalização costuma ser bem mais lenta que a recuperação clínica.",
@@ -589,8 +589,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Consenso de Baveno VII, 2022 — hipertensão portal clinicamente significativa e betabloqueador",
-  "coment": "O consenso de Baveno VII deslocou o alvo do tratamento: deixou de ser a variz e passou a ser a hipertensão portal clinicamente significativa, que a elastografia acima de 20 a 25 kPa com plaquetopenia permite presumir sem medir o gradiente. Nesse cenário indica-se betabloqueador não seletivo para prevenir descompensação — ascite, sangramento, encefalopatia —, com preferência pelo carvedilol na cirrose compensada, por reduzir mais a pressão portal graças ao bloqueio alfa-1 adicional. A conduta antiga, de só tratar quem já tem varizes de médio calibre, perde a janela em que a prevenção rende mais.",
+  "base": "Consenso de Baveno VII, 2022, hipertensão portal clinicamente significativa e betabloqueador",
+  "coment": "O consenso de Baveno VII deslocou o alvo do tratamento: deixou de ser a variz e passou a ser a hipertensão portal clinicamente significativa, que a elastografia acima de 20 a 25 kPa com plaquetopenia permite presumir sem medir o gradiente. Nesse cenário indica-se betabloqueador não seletivo para prevenir descompensação (ascite, sangramento, encefalopatia), com preferência pelo carvedilol na cirrose compensada, por reduzir mais a pressão portal graças ao bloqueio alfa-1 adicional. A conduta antiga, de só tratar quem já tem varizes de médio calibre, perde a janela em que a prevenção rende mais.",
   "porAlt": [
    "Esperar a variz aparecer desperdiça a fase em que o betabloqueador previne ascite e outras descompensações, não apenas o sangramento.",
    "Correta: elastografia acima de 20 a 25 kPa com plaquetopenia presume hipertensão portal significativa, e o carvedilol previne descompensação.",
@@ -613,7 +613,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "tit",
-  "base": "Consenso de Baveno VII, 2022 — profilaxia secundária do sangramento varicoso",
+  "base": "Consenso de Baveno VII, 2022. Profilaxia secundária do sangramento varicoso",
   "coment": "Depois de um episódio de hemorragia varicosa, o risco de ressangramento sem profilaxia chega a 60% em um ano, com mortalidade alta. A primeira linha da profilaxia secundária é a terapia combinada: betabloqueador não seletivo, com preferência ao carvedilol pela maior redução da pressão portal, somado a sessões de ligadura elástica até a erradicação das varizes. Nenhuma das duas isolada iguala a combinação. O inibidor de bomba tem papel limitado no pós-ligadura, para úlcera da banda, e não previne ressangramento varicoso. A derivação portossistêmica fica reservada a falha da profilaxia combinada ou a critérios de alto risco definidos.",
   "porAlt": [
    "O inibidor de bomba não previne ressangramento varicoso; seu papel se restringe à úlcera pós-ligadura e por período curto.",
@@ -637,10 +637,10 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Consenso de Baveno VII, 2022 — estratégia transfusional restritiva na hemorragia digestiva do cirrótico",
-  "coment": "A estratégia restritiva é recomendada na hemorragia digestiva do cirrótico, com alvo de hemoglobina em torno de 7 a 8 g/dL. O motivo é fisiopatológico e foi demonstrado em ensaio clínico: transfundir de forma liberal eleva a volemia e, com ela, a pressão portal, aumentando ressangramento e mortalidade. O alvo deve ser individualizado em pacientes com doença cardiovascular. A correção rotineira do tempo de protrombina com plasma fresco não é recomendada — o alargamento no cirrótico não reflete tendência a sangrar, porque há redução equilibrada de fatores pró e anticoagulantes, e o volume infundido eleva a pressão portal.",
+  "base": "Consenso de Baveno VII, 2022. Estratégia transfusional restritiva na hemorragia digestiva do cirrótico",
+  "coment": "A estratégia restritiva é recomendada na hemorragia digestiva do cirrótico, com alvo de hemoglobina em torno de 7 a 8 g/dL. O motivo é fisiopatológico e foi demonstrado em ensaio clínico: transfundir de forma liberal eleva a volemia e, com ela, a pressão portal, aumentando ressangramento e mortalidade. O alvo deve ser individualizado em pacientes com doença cardiovascular. A correção rotineira do tempo de protrombina com plasma fresco não é recomendada. O alargamento no cirrótico não reflete tendência a sangrar, porque há redução equilibrada de fatores pró e anticoagulantes, e o volume infundido eleva a pressão portal.",
   "porAlt": [
-   "A estratégia liberal aumenta a volemia e a pressão portal, com mais ressangramento e mortalidade — foi abandonada por ensaio clínico.",
+   "A estratégia liberal aumenta a volemia e a pressão portal, com mais ressangramento e mortalidade, foi abandonada por ensaio clínico.",
    "Não transfundir de forma alguma é o extremo oposto e igualmente errado: existe alvo, e ele orienta quando transfundir.",
    "O alargamento do tempo de protrombina no cirrótico não prediz sangramento, e o plasma de rotina só acrescenta volume e pressão portal.",
    "Correta: o alvo restritivo de 7 a 8 g/dL reduz ressangramento e mortalidade por evitar a elevação da pressão portal.",
@@ -661,8 +661,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "tit",
-  "base": "EASL 2018 — Clinical Practice Guidelines for the management of patients with decompensated cirrhosis",
-  "coment": "Contagem de neutrófilos igual ou superior a 250/mm³ no líquido ascítico fecha o diagnóstico de peritonite bacteriana espontânea, mesmo antes da cultura. Além da cefalosporina de terceira geração, a albumina endovenosa em 1,5 g/kg no dia do diagnóstico e 1,0 g/kg no terceiro dia reduz a incidência de síndrome hepatorrenal e a mortalidade, com benefício maior em quem já tem creatinina ou bilirrubina elevadas — o caso descrito. Diuréticos devem ser suspensos na vigência de injúria renal, e o betabloqueador é evitado ou suspenso em quem tem instabilidade, ascite refratária ou infecção grave.",
+  "base": "EASL 2018, Clinical Practice Guidelines for the management of patients with decompensated cirrhosis",
+  "coment": "Contagem de neutrófilos igual ou superior a 250/mm³ no líquido ascítico fecha o diagnóstico de peritonite bacteriana espontânea, mesmo antes da cultura. Além da cefalosporina de terceira geração, a albumina endovenosa em 1,5 g/kg no dia do diagnóstico e 1,0 g/kg no terceiro dia reduz a incidência de síndrome hepatorrenal e a mortalidade, com benefício maior em quem já tem creatinina ou bilirrubina elevadas, o caso descrito. Diuréticos devem ser suspensos na vigência de injúria renal, e o betabloqueador é evitado ou suspenso em quem tem instabilidade, ascite refratária ou infecção grave.",
   "porAlt": [
    "Diurético em dose alta durante infecção com creatinina elevada precipita injúria renal; o correto costuma ser suspender, não intensificar.",
    "Paracentese de repetição não trata a infecção e a retirada agressiva de volume agrava a disfunção circulatória do cirrótico.",
@@ -685,8 +685,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Lei nº 8.080/1990, art. 7º, e Decreto nº 7.508/2011 — organização regionalizada e hierarquizada do SUS",
-  "coment": "A Lei Orgânica da Saúde lista a regionalização e a hierarquização entre os princípios e diretrizes do SUS, e o Decreto nº 7.508/2011 detalhou o desenho: a região de saúde é o espaço em que se organiza a rede, com portas de entrada definidas e fluxo de referência pactuado na Comissão Intergestores. É por isso que o percurso do paciente segue a pactuação regional e não a simples proximidade geográfica — o município vizinho pode pertencer a outra região de saúde. Universalidade, integralidade e participação da comunidade também são princípios do SUS, mas respondem a outras perguntas.",
+  "base": "Lei nº 8.080/1990, art. 7º, e Decreto nº 7.508/2011. Organização regionalizada e hierarquizada do SUS",
+  "coment": "A Lei Orgânica da Saúde lista a regionalização e a hierarquização entre os princípios e diretrizes do SUS, e o Decreto nº 7.508/2011 detalhou o desenho: a região de saúde é o espaço em que se organiza a rede, com portas de entrada definidas e fluxo de referência pactuado na Comissão Intergestores. É por isso que o percurso do paciente segue a pactuação regional e não a simples proximidade geográfica. O município vizinho pode pertencer a outra região de saúde. Universalidade, integralidade e participação da comunidade também são princípios do SUS, mas respondem a outras perguntas.",
   "porAlt": [
    "A universalidade trata de quem tem direito ao atendimento, e não de como a rede se organiza no território para ofertá-lo.",
    "Correta: regionalização e hierarquização organizam a rede por região de saúde e níveis de complexidade, com fluxos pactuados entre gestores.",
@@ -709,14 +709,14 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "tit",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, capítulo V — autonomia do paciente e recusa terapêutica",
-  "coment": "O Código de Ética Médica veda desrespeitar o direito do paciente de decidir livremente sobre sua pessoa ou seu bem-estar. Em paciente adulto, capaz e sem risco iminente de morte, a recusa esclarecida deve ser respeitada, com registro detalhado em prontuário do que foi informado e das alternativas oferecidas — hematínicos, poupança de sangue, agentes hemostáticos. A exceção prevista é a iminência de morte, situação em que o médico pode agir para salvar a vida. Familiar não supre a decisão de paciente capaz, e recorrer ao Judiciário não autoriza suspender o cuidado enquanto se aguarda.",
+  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, capítulo V. Autonomia do paciente e recusa terapêutica",
+  "coment": "O Código de Ética Médica veda desrespeitar o direito do paciente de decidir livremente sobre sua pessoa ou seu bem-estar. Em paciente adulto, capaz e sem risco iminente de morte, a recusa esclarecida deve ser respeitada, com registro detalhado em prontuário do que foi informado e das alternativas oferecidas. Hematínicos, poupança de sangue, agentes hemostáticos. A exceção prevista é a iminência de morte, situação em que o médico pode agir para salvar a vida. Familiar não supre a decisão de paciente capaz, e recorrer ao Judiciário não autoriza suspender o cuidado enquanto se aguarda.",
   "porAlt": [
    "Correta: paciente capaz, sem risco iminente de morte, tem sua recusa respeitada, com registro e oferta das alternativas terapêuticas.",
    "A prevalência da conduta médica sobre a vontade só se coloca diante de iminente perigo de vida, que o enunciado afasta expressamente.",
    "Nada autoriza suspender o cuidado enquanto se aguarda decisão judicial; o tratamento alternativo deve seguir normalmente.",
    "Transferir compulsoriamente por discordância é abandono disfarçado e não encontra respaldo no Código de Ética Médica.",
-   "Familiar não substitui a decisão de paciente adulto e capaz — a autonomia é dela, e a assinatura de terceiro não a supre."
+   "Familiar não substitui a decisão de paciente adulto e capaz. A autonomia é dela, e a assinatura de terceiro não a supre."
   ]
  },
  {
@@ -757,12 +757,12 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "tit",
-  "base": "Ministério da Saúde, setembro de 2025, e Lei nº 15.284/2025 — rastreamento mamográfico a partir dos 40 anos",
+  "base": "Ministério da Saúde, setembro de 2025, e Lei nº 15.284/2025. Rastreamento mamográfico a partir dos 40 anos",
   "coment": "A diretriz brasileira mudou: desde a atualização de setembro de 2025, e com a Lei nº 15.284, sancionada em dezembro de 2025, mulheres de 40 a 49 anos podem realizar mamografia de rastreamento no SUS mesmo sem sinais ou sintomas, por decisão compartilhada com o profissional de saúde. A recomendação de rastreamento bienal foi mantida para a faixa de 50 a 74 anos, ampliada em relação ao limite anterior de 69 anos. Acima de 74 anos a indicação passa a considerar expectativa de vida e comorbidades. A faixa dos 40 aos 49 concentra cerca de 23% dos casos, o que motivou a mudança.",
   "porAlt": [
    "Correta: a partir dos 40 anos o exame está disponível no SUS por decisão compartilhada, após discussão de riscos e benefícios.",
    "O corte de cinquenta anos era a regra anterior; a diretriz de 2025 e a lei sancionada naquele ano ampliaram o acesso desde os 40.",
-   "Rastreamento não é obrigação e a periodicidade anual nessa faixa não é o que a diretriz define — a decisão é compartilhada.",
+   "Rastreamento não é obrigação e a periodicidade anual nessa faixa não é o que a diretriz define, a decisão é compartilhada.",
    "Nódulo palpável não é rastreamento, é investigação diagnóstica: são situações distintas com condutas e prazos distintos.",
    "A ressonância é reservada a situações específicas, como risco muito elevado, e não substituiu a mamografia no rastreamento."
   ]
@@ -781,8 +781,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Nota técnica do Ministério da Saúde e do INCA, 2023 — não recomendação do rastreamento populacional do câncer de próstata",
-  "coment": "O Ministério da Saúde e o INCA não recomendam o rastreamento populacional do câncer de próstata: os estudos não mostraram impacto relevante sobre a mortalidade e há dano documentado por sobrediagnóstico e sobretratamento, com incontinência e disfunção erétil. O que se orienta é a decisão compartilhada com o homem que procura o serviço solicitando o exame, após discussão franca de riscos e benefícios — posição diferente de proibir o exame. Note o contraste com o rastreamento de mama, que é organizado e recomendado por faixa etária; confundir os dois é erro frequente.",
+  "base": "Nota técnica do Ministério da Saúde e do INCA, 2023, não recomendação do rastreamento populacional do câncer de próstata",
+  "coment": "O Ministério da Saúde e o INCA não recomendam o rastreamento populacional do câncer de próstata: os estudos não mostraram impacto relevante sobre a mortalidade e há dano documentado por sobrediagnóstico e sobretratamento, com incontinência e disfunção erétil. O que se orienta é a decisão compartilhada com o homem que procura o serviço solicitando o exame, após discussão franca de riscos e benefícios. Posição diferente de proibir o exame. Note o contraste com o rastreamento de mama, que é organizado e recomendado por faixa etária; confundir os dois é erro frequente.",
   "porAlt": [
    "Não existe programa de rastreamento populacional de próstata no país, e solicitar de rotina contraria a nota técnica vigente.",
    "Correta: não há rastreamento populacional recomendado, e a conduta é a decisão compartilhada com quem procura o serviço pedindo o exame.",
@@ -831,7 +831,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "DSM-5-TR (APA, 2022); NICE guideline on depression in adults, 2022",
-  "coment": "Anedonia e humor deprimido persistentes por dois meses, com repercussão funcional percebida por terceiros, definem um episódio depressivo. Os dois ataques de pânico isolados, sem esquiva agorafóbica e sem preocupação persistente com novas crises, não constituem transtorno de pânico: no DSM-5-TR eles são registrados como especificador de ataques de pânico associado ao transtorno de base. A distinção importa porque o tratamento se dirige à depressão — antidepressivo e psicoterapia — com atenção aos ataques, e não a um transtorno de ansiedade primário.",
+  "coment": "Anedonia e humor deprimido persistentes por dois meses, com repercussão funcional percebida por terceiros, definem um episódio depressivo. Os dois ataques de pânico isolados, sem esquiva agorafóbica e sem preocupação persistente com novas crises, não constituem transtorno de pânico: no DSM-5-TR eles são registrados como especificador de ataques de pânico associado ao transtorno de base. A distinção importa porque o tratamento se dirige à depressão, antidepressivo e psicoterapia, com atenção aos ataques, e não a um transtorno de ansiedade primário.",
   "porAlt": [
    "O transtorno de pânico exige crises recorrentes com preocupação persistente ou mudança de comportamento, e a agorafobia exige esquiva de situações, ausentes aqui.",
    "Não há relato de episódio de mania ou hipomania que caracterize transtorno bipolar.",
@@ -857,7 +857,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r2",
   "base": "ESC Guidelines for the management of atrial fibrillation, 2024; ACC/AHA guideline on supraventricular tachycardia, 2015",
-  "coment": "Linha de base serrilhada com ondas F e intervalo RR irregular em frequência em torno de 125 bpm, em paciente estável, indica flutter atrial com condução variável. Estando estável, a conduta é controle de frequência com betabloqueador ou bloqueador de canal de cálcio não di-hidropiridínico, avaliação de anticoagulação pelo escore de risco e pela duração da arritmia, e busca de fatores precipitantes — álcool, distúrbio tireoidiano, distúrbio eletrolítico. A cardioversão elétrica sincronizada fica reservada à instabilidade hemodinâmica.",
+  "coment": "Linha de base serrilhada com ondas F e intervalo RR irregular em frequência em torno de 125 bpm, em paciente estável, indica flutter atrial com condução variável. Estando estável, a conduta é controle de frequência com betabloqueador ou bloqueador de canal de cálcio não di-hidropiridínico, avaliação de anticoagulação pelo escore de risco e pela duração da arritmia, e busca de fatores precipitantes, álcool, distúrbio tireoidiano, distúrbio eletrolítico. A cardioversão elétrica sincronizada fica reservada à instabilidade hemodinâmica.",
   "porAlt": [
    "Correta: controle de frequência com betabloqueador em paciente estável com flutter atrial.",
    "Desfibrilação é para fibrilação ventricular e taquicardia ventricular sem pulso; aqui, se fosse preciso, seria cardioversão sincronizada.",
@@ -883,7 +883,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r1",
   "base": "ESC Guidelines for the diagnosis and management of pericardial diseases, 2015; AHA scientific statement on cardiac tamponade",
-  "coment": "Hipotensão, turgência jugular e bulhas hipofonéticas compõem a tríade de Beck, e o pulso paradoxal — queda da pressão sistólica maior que 10 mmHg na inspiração — somado à baixa voltagem no eletrocardiograma fecha a suspeita de tamponamento cardíaco, aqui provavelmente por derrame pericárdico neoplásico em paciente com linfoma. A conduta é ecocardiograma imediato, que confirma o derrame e o colapso de câmaras direitas, seguido de pericardiocentese, que é ao mesmo tempo diagnóstica e terapêutica. Reposição volêmica serve apenas como ponte enquanto se prepara a drenagem.",
+  "coment": "Hipotensão, turgência jugular e bulhas hipofonéticas compõem a tríade de Beck, e o pulso paradoxal, queda da pressão sistólica maior que 10 mmHg na inspiração, somado à baixa voltagem no eletrocardiograma fecha a suspeita de tamponamento cardíaco, aqui provavelmente por derrame pericárdico neoplásico em paciente com linfoma. A conduta é ecocardiograma imediato, que confirma o derrame e o colapso de câmaras direitas, seguido de pericardiocentese, que é ao mesmo tempo diagnóstica e terapêutica. Reposição volêmica serve apenas como ponte enquanto se prepara a drenagem.",
   "porAlt": [
    "Correta: ecocardiografia seguida de pericardiocentese, diante do tamponamento cardíaco.",
    "Trombolítico em tamponamento pode agravar o derrame por sangramento pericárdico.",
@@ -908,13 +908,13 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA — Diretrizes diagnósticas e terapêuticas do câncer de rim, 2021; EAU Guidelines on Renal Cell Carcinoma, 2024",
+  "base": "INCA. Diretrizes diagnósticas e terapêuticas do câncer de rim, 2021; EAU Guidelines on Renal Cell Carcinoma, 2024",
   "coment": "Lesão renal sólida, hipervascular ao contraste, é carcinoma de células renais até prova em contrário, e essa é a apresentação mais comum hoje: achado incidental em imagem pedida por outro motivo, em paciente sem hematúria e sem a tríade clássica. Não se faz biópsia de rotina em massa renal sólida com esse padrão; a conduta é estadiamento com tomografia de tórax e tratamento cirúrgico. Para tumor menor que 4 cm, a nefrectomia parcial é preferida à radical por preservar função renal com igual controle oncológico.",
   "porAlt": [
    "O sarcoma renal é raro e costuma se apresentar como massa volumosa e heterogênea.",
    "O linfoma renal geralmente é bilateral, infiltrativo e acompanha doença sistêmica.",
    "Metástase para o rim é incomum e pressupõe tumor primário conhecido.",
-   "Correta: carcinoma de células renais — massa sólida hipervascular, achado incidental frequente."
+   "Correta: carcinoma de células renais. Massa sólida hipervascular, achado incidental frequente."
   ],
   "fonte": {
    "banca": "Revalida (INEP/MEC)",
@@ -934,8 +934,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual de Instruções para o Preenchimento da Declaração de Óbito, 2022; Resolução CFM sobre atestado de óbito",
-  "coment": "Em morte natural ocorrida em domicílio, com doença conhecida e acompanhamento assistencial, quem atesta é o médico assistente — no caso, o médico de família que acompanhava o paciente —, e não o legista, cuja atuação se reserva a morte violenta ou suspeita. No preenchimento, a causa básica é a doença que iniciou a cadeia que levou ao óbito, registrada na última linha da parte I; aqui, a broncopneumonia que motivou a deterioração, tendo a doença pulmonar obstrutiva crônica como antecedente e as demais condições como contribuintes. Parada cardiorrespiratória é modo de morrer, jamais causa básica.",
+  "base": "Ministério da Saúde. Manual de Instruções para o Preenchimento da Declaração de Óbito, 2022; Resolução CFM sobre atestado de óbito",
+  "coment": "Em morte natural ocorrida em domicílio, com doença conhecida e acompanhamento assistencial, quem atesta é o médico assistente (no caso, o médico de família que acompanhava o paciente), e não o legista, cuja atuação se reserva a morte violenta ou suspeita. No preenchimento, a causa básica é a doença que iniciou a cadeia que levou ao óbito, registrada na última linha da parte I; aqui, a broncopneumonia que motivou a deterioração, tendo a doença pulmonar obstrutiva crônica como antecedente e as demais condições como contribuintes. Parada cardiorrespiratória é modo de morrer, jamais causa básica.",
   "porAlt": [
    "Morte natural com doença conhecida e acompanhamento não é caso de legista.",
    "Sepse como causa básica inverte a cadeia e o caso não é de competência do legista.",
@@ -961,7 +961,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "AAN/ACP guidance on evaluation of distal symmetric polyneuropathy; diretrizes brasileiras de neuropatia diabética, 2023",
-  "coment": "A paciente tem neuropatia diabética estabelecida — monofilamento alterado, reflexos abolidos —, mas o dado que muda a conduta é a piora subaguda da fraqueza nas últimas duas semanas, a ponto de perder a marcha. Esse agravamento rápido não se explica por polineuropatia crônica e obriga a excluir compressão medular ou de cauda equina, o que exige ressonância magnética da coluna toracolombar. Radiografia não avalia medula, e o biotesiômetro apenas quantifica a sensibilidade vibratória já sabidamente alterada.",
+  "coment": "A paciente tem neuropatia diabética estabelecida (monofilamento alterado, reflexos abolidos), mas o dado que muda a conduta é a piora subaguda da fraqueza nas últimas duas semanas, a ponto de perder a marcha. Esse agravamento rápido não se explica por polineuropatia crônica e obriga a excluir compressão medular ou de cauda equina, o que exige ressonância magnética da coluna toracolombar. Radiografia não avalia medula, e o biotesiômetro apenas quantifica a sensibilidade vibratória já sabidamente alterada.",
   "porAlt": [
    "A radiografia não avalia medula, raízes nem disco de forma útil nesse contexto.",
    "A ressonância de encéfalo investiga lesão central alta, incompatível com arreflexia e hipotonia em membros inferiores.",
@@ -987,7 +987,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "Fleischner Society Guidelines for Management of Incidental Pulmonary Nodules, 2017; INCA, diretrizes diagnósticas e terapêuticas do câncer de pulmão, 2022",
-  "coment": "Nódulo sólido único de 18 mm em tabagista pesado é lesão de alto risco, e o exame inicial foi feito sem contraste. O passo esperado antes de qualquer procedimento invasivo é completar a caracterização com tomografia contrastada, avaliando realce, relação com estruturas vizinhas e linfonodos mediastinais — informação que orienta a escolha entre PET-CT, biópsia transtorácica, broncoscopia e ressecção. Acompanhamento anual é conduta de nódulo de baixo risco e seria inadequado aqui, e broncoscopia tem rendimento baixo em nódulo periférico.",
+  "coment": "Nódulo sólido único de 18 mm em tabagista pesado é lesão de alto risco, e o exame inicial foi feito sem contraste. O passo esperado antes de qualquer procedimento invasivo é completar a caracterização com tomografia contrastada, avaliando realce, relação com estruturas vizinhas e linfonodos mediastinais. Informação que orienta a escolha entre PET-CT, biópsia transtorácica, broncoscopia e ressecção. Acompanhamento anual é conduta de nódulo de baixo risco e seria inadequado aqui, e broncoscopia tem rendimento baixo em nódulo periférico.",
   "porAlt": [
    "Controle anual subestima um nódulo de 18 mm em tabagista pesado.",
    "A broncoscopia com lavado tem baixo rendimento em nódulo periférico, sem broncograma aéreo.",
@@ -1012,8 +1012,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "INCA — Diretrizes diagnósticas e terapêuticas do linfoma de Hodgkin e não Hodgkin, 2022; NCCN Guidelines for B-Cell Lymphomas",
-  "coment": "Linfadenomegalia progressiva, endurecida e fixa, em múltiplas cadeias, com sintomas B — febre acima de 38 °C, sudorese noturna e perda de mais de 10% do peso — e massa mediastinal, é linfoma até prova em contrário. O procedimento que fecha o diagnóstico é a biópsia excisional de linfonodo, que preserva a arquitetura ganglionar necessária à classificação histológica e à imuno-histoquímica. Punção aspirativa por agulha fina não é adequada para diagnóstico inicial de linfoma justamente por não permitir avaliar arquitetura.",
+  "base": "INCA. Diretrizes diagnósticas e terapêuticas do linfoma de Hodgkin e não Hodgkin, 2022; NCCN Guidelines for B-Cell Lymphomas",
+  "coment": "Linfadenomegalia progressiva, endurecida e fixa, em múltiplas cadeias, com sintomas B (febre acima de 38 °C, sudorese noturna e perda de mais de 10% do peso) e massa mediastinal, é linfoma até prova em contrário. O procedimento que fecha o diagnóstico é a biópsia excisional de linfonodo, que preserva a arquitetura ganglionar necessária à classificação histológica e à imuno-histoquímica. Punção aspirativa por agulha fina não é adequada para diagnóstico inicial de linfoma justamente por não permitir avaliar arquitetura.",
   "porAlt": [
    "Citomegalovírus causa linfonodomegalia com linfócitos atípicos, sem massa mediastinal volumosa e gânglios fixos.",
    "Correta: linfoma, com biópsia de linfonodo cervical para diagnóstico histológico.",
@@ -1038,8 +1038,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Conselho Federal de Medicina — Código de Ética Médica, Resolução CFM 2.217/2018, artigos 74 e 75; Estatuto da Criança e do Adolescente",
-  "coment": "O adolescente tem direito ao sigilo na consulta e à confidencialidade, mas esse direito cede quando há risco à própria vida ou à de terceiros, ou quando a ausência de comunicação impede o cuidado necessário. Duas internações por cetoacidose em três meses por recusa de insulina configuram risco concreto, e o Código de Ética autoriza — e o dever de cuidado exige — comunicar aos responsáveis. A boa prática é informar previamente o adolescente sobre a quebra, explicando o motivo, e mantê-lo como protagonista do plano de cuidado, com apoio de saúde mental.",
+  "base": "Conselho Federal de Medicina. Código de Ética Médica, Resolução CFM 2.217/2018, artigos 74 e 75; Estatuto da Criança e do Adolescente",
+  "coment": "O adolescente tem direito ao sigilo na consulta e à confidencialidade, mas esse direito cede quando há risco à própria vida ou à de terceiros, ou quando a ausência de comunicação impede o cuidado necessário. Duas internações por cetoacidose em três meses por recusa de insulina configuram risco concreto, e o Código de Ética autoriza, e o dever de cuidado exige, comunicar aos responsáveis. A boa prática é informar previamente o adolescente sobre a quebra, explicando o motivo, e mantê-lo como protagonista do plano de cuidado, com apoio de saúde mental.",
   "porAlt": [
    "Não houve infração: o sigilo do adolescente não é absoluto e cede diante de risco à vida.",
    "Correta: não houve infração ética, pois a situação envolve risco concreto à vida do paciente.",
@@ -1065,10 +1065,10 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r1",
   "base": "EULAR revised recommendations for the management of fibromyalgia, 2017; Sociedade Brasileira de Reumatologia, diretrizes de fibromialgia, 2021",
-  "coment": "Dor difusa por mais de três meses, sono não reparador, fadiga ao acordar e exame físico com dor à palpação de múltiplos grupamentos musculares, sem sinovite e com provas de fase aguda e TSH normais, caracterizam fibromialgia. É diagnóstico clínico positivo, não de exclusão infinita, e o mecanismo é de sensibilização central. O tratamento de primeira linha é não farmacológico: exercício aeróbico progressivo, educação em dor e terapia cognitivo-comportamental, com fármaco adjuvante conforme o sintoma dominante — amitriptilina, duloxetina ou pregabalina. Opioide e corticoide não têm lugar.",
+  "coment": "Dor difusa por mais de três meses, sono não reparador, fadiga ao acordar e exame físico com dor à palpação de múltiplos grupamentos musculares, sem sinovite e com provas de fase aguda e TSH normais, caracterizam fibromialgia. É diagnóstico clínico positivo, não de exclusão infinita, e o mecanismo é de sensibilização central. O tratamento de primeira linha é não farmacológico: exercício aeróbico progressivo, educação em dor e terapia cognitivo-comportamental, com fármaco adjuvante conforme o sintoma dominante, amitriptilina, duloxetina ou pregabalina. Opioide e corticoide não têm lugar.",
   "porAlt": [
    "A polimiosite cursa com fraqueza proximal objetiva e elevação de enzimas musculares.",
-   "Correta: fibromialgia — dor difusa crônica, sono não reparador e exames normais.",
+   "Correta: fibromialgia. Dor difusa crônica, sono não reparador e exames normais.",
    "A síndrome de fadiga crônica tem a fadiga como sintoma central, com critérios próprios.",
    "A polimialgia reumática ocorre acima de 50 anos, com rigidez de cinturas e velocidade de hemossedimentação elevada."
   ],
@@ -1091,7 +1091,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "ATA Guidelines for Diagnosis and Management of Hyperthyroidism, 2016; Sociedade Brasileira de Endocrinologia e Metabologia, consenso de doença de Graves, 2013",
-  "coment": "Na doença de Graves, o hipertireoidismo é primário e autoimune: TSH suprimido com T4 livre e T3 elevados, anticorpo antirreceptor de TSH positivo, captação de iodo radioativo elevada e distribuição difusa do radiotraçador à cintilografia, correspondendo ao bócio difuso hipercaptante. Esse padrão separa Graves das tireotoxicoses por destruição glandular — tireoidite subaguda e tireotoxicose factícia —, em que a captação é baixa, distinção decisiva porque essas não respondem a droga antitireoidiana. A oftalmopatia reforça o diagnóstico clínico.",
+  "coment": "Na doença de Graves, o hipertireoidismo é primário e autoimune: TSH suprimido com T4 livre e T3 elevados, anticorpo antirreceptor de TSH positivo, captação de iodo radioativo elevada e distribuição difusa do radiotraçador à cintilografia, correspondendo ao bócio difuso hipercaptante. Esse padrão separa Graves das tireotoxicoses por destruição glandular, tireoidite subaguda e tireotoxicose factícia, em que a captação é baixa, distinção decisiva porque essas não respondem a droga antitireoidiana. A oftalmopatia reforça o diagnóstico clínico.",
   "porAlt": [
    "Na doença de Graves o anticorpo antirreceptor de TSH está elevado, não reduzido.",
    "A ultrassonografia mostra glândula difusamente aumentada e hipoecogênica com fluxo aumentado, não nódulos císticos difusos.",
@@ -1116,8 +1116,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "International Working Group on the Diabetic Foot — IWGDF Guidelines, 2023; Ministério da Saúde, Manual do pé diabético",
-  "coment": "A úlcera descrita é neuropática, plantar, sob área de pressão, com hiperqueratose ao redor, tecido de granulação e sem sinais de infecção ou de isquemia — os pulsos estão presentes e simétricos. O tratamento central é o alívio da pressão sobre a lesão, por adaptação de calçado, palmilha ou dispositivo de descarga, associado a desbridamento da hiperqueratose, curativo adequado e controle glicêmico. Sem retirar a carga do ponto ulcerado, nenhum curativo cicatriza, e é esse o erro mais comum no manejo ambulatorial.",
+  "base": "International Working Group on the Diabetic Foot: IWGDF Guidelines, 2023; Ministério da Saúde, Manual do pé diabético",
+  "coment": "A úlcera descrita é neuropática, plantar, sob área de pressão, com hiperqueratose ao redor, tecido de granulação e sem sinais de infecção ou de isquemia. Os pulsos estão presentes e simétricos. O tratamento central é o alívio da pressão sobre a lesão, por adaptação de calçado, palmilha ou dispositivo de descarga, associado a desbridamento da hiperqueratose, curativo adequado e controle glicêmico. Sem retirar a carga do ponto ulcerado, nenhum curativo cicatriza, e é esse o erro mais comum no manejo ambulatorial.",
   "porAlt": [
    "Simpatectomia lombar não tem indicação: não há isquemia, e os pulsos estão presentes.",
    "Enxerto de pele não se aplica a uma úlcera que ainda não teve a pressão aliviada.",
@@ -1143,7 +1143,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "International Myeloma Working Group — critérios diagnósticos e da síndrome POEMS, 2014; consensos brasileiros de gamopatias monoclonais, 2022",
+  "base": "International Myeloma Working Group. Critérios diagnósticos e da síndrome POEMS, 2014; consensos brasileiros de gamopatias monoclonais, 2022",
   "coment": "Polineuropatia progressiva associada a organomegalia, ascite, hipertensão intracraniana com papiledema e síndrome consumptiva sugere gamopatia monoclonal com manifestação sistêmica, como a síndrome POEMS ou a amiloidose de cadeia leve. O passo diagnóstico é a eletroforese de proteínas séricas e urinárias com imunofixação, à procura de componente monoclonal, complementada pela dosagem de cadeias leves livres. Só depois se investiga o órgão-alvo por biópsia. Fechar o caso como doença do tecido conjuntivo e pulsar corticoide sem essa etapa retarda o diagnóstico.",
   "porAlt": [
    "Painel de autoanticorpos com pulsoterapia empírica não explica o conjunto e adia o diagnóstico correto.",
@@ -1172,7 +1172,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "EULAR recommendations for the management of systemic lupus erythematosus, 2023; KDIGO Clinical Practice Guideline for the Management of Lupus Nephritis, 2024",
-  "coment": "Mulher jovem com anasarca, hipertensão, anemia, leucopenia com linfopenia, FAN em título elevado, anti-DNA e anti-Sm reagentes tem lúpus eritematoso sistêmico com provável nefrite lúpica, e o quadro de síndrome nefrótica com atividade sorológica exige imunossupressão. O tratamento começa com corticoide, associado a imunossupressor — micofenolato ou ciclofosfamida, com belimumabe ou voclosporina em esquemas atuais —, com biópsia renal indicada para definir a classe histológica. Hidroxicloroquina é medida de base para todo paciente com lúpus, mas isolada não trata a nefrite ativa.",
+  "coment": "Mulher jovem com anasarca, hipertensão, anemia, leucopenia com linfopenia, FAN em título elevado, anti-DNA e anti-Sm reagentes tem lúpus eritematoso sistêmico com provável nefrite lúpica, e o quadro de síndrome nefrótica com atividade sorológica exige imunossupressão. O tratamento começa com corticoide, associado a imunossupressor (micofenolato ou ciclofosfamida, com belimumabe ou voclosporina em esquemas atuais), com biópsia renal indicada para definir a classe histológica. Hidroxicloroquina é medida de base para todo paciente com lúpus, mas isolada não trata a nefrite ativa.",
   "porAlt": [
    "Correta: corticoide, associado a imunossupressor, diante de lúpus com acometimento renal ativo.",
    "Eritropoetina não trata a anemia da doença inflamatória ativa nem a nefrite.",
@@ -1200,12 +1200,12 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; escore BISAP (Wu et al., 2008)",
-  "coment": "O escore BISAP prevê mortalidade na pancreatite aguda nas primeiras 24 horas e reúne cinco itens, um ponto cada: ureia nitrogenada sérica acima de 25 mg/dL, alteração do estado mental, presença de síndrome da resposta inflamatória sistêmica, idade acima de 60 anos e derrame pleural à imagem. Glicemia não faz parte dele — aparece nos critérios de Ranson, com os quais o BISAP é frequentemente confundido. A vantagem do BISAP é usar dados disponíveis à admissão, sem esperar as 48 horas exigidas pelo escore de Ranson.",
+  "coment": "O escore BISAP prevê mortalidade na pancreatite aguda nas primeiras 24 horas e reúne cinco itens, um ponto cada: ureia nitrogenada sérica acima de 25 mg/dL, alteração do estado mental, presença de síndrome da resposta inflamatória sistêmica, idade acima de 60 anos e derrame pleural à imagem. Glicemia não faz parte dele. Aparece nos critérios de Ranson, com os quais o BISAP é frequentemente confundido. A vantagem do BISAP é usar dados disponíveis à admissão, sem esperar as 48 horas exigidas pelo escore de Ranson.",
   "porAlt": [
    "Derrame pleural integra o escore.",
    "Ureia nitrogenada acima de 25 mg/dL integra o escore.",
    "Idade acima de 60 anos integra o escore.",
-   "Correta: glicemia acima de 200 mg/dL não faz parte do BISAP — é critério de Ranson.",
+   "Correta: glicemia acima de 200 mg/dL não faz parte do BISAP, é critério de Ranson.",
    "Alteração do estado mental integra o escore."
   ],
   "fonte": {
@@ -1226,7 +1226,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "KDIGO e KDOQI — recomendações sobre complicações agudas da hemodiálise; Sociedade Brasileira de Nefrologia, diretrizes de hemodiálise, 2021",
+  "base": "KDIGO e KDOQI. Recomendações sobre complicações agudas da hemodiálise; Sociedade Brasileira de Nefrologia, diretrizes de hemodiálise, 2021",
   "coment": "Hipotensão com flush facial e sibilância nos primeiros minutos de uma sessão de hemodiálise caracteriza a reação de hipersensibilidade do tipo A ao dialisador, classicamente atribuída ao óxido de etileno usado na esterilização ou a componentes da membrana, e agravada pelo uso concomitante de inibidor da enzima conversora com membranas de alto fluxo. A conduta é interromper a sessão imediatamente, não devolver o sangue do circuito e tratar como anafilaxia, com adrenalina se houver comprometimento respiratório ou circulatório. Nas sessões seguintes, troca-se o tipo de dialisador.",
   "porAlt": [
    "A embolia gasosa cursa com dor torácica súbita, dispneia e alteração neurológica, sem flush e sibilância.",
@@ -1254,7 +1254,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "Tokyo Guidelines 2018 para colangite aguda e colecistite; ACG Clinical Guideline on choledocholithiasis, 2019",
-  "coment": "Dor em hipocôndrio direito, febre e icterícia compõem a tríade de Charcot, que define colangite aguda, aqui por coledocolitíase com dilatação discreta das vias biliares. Pelas diretrizes de Tóquio, a colangite leve — sem disfunção orgânica e sem hipotensão — é tratada inicialmente com antibiótico e suporte clínico, reservando a drenagem biliar endoscópica para quem não responde em 24 horas ou já se apresenta em grau moderado a grave. A colecistectomia é feita depois, na mesma internação, após a resolução do quadro agudo.",
+  "coment": "Dor em hipocôndrio direito, febre e icterícia compõem a tríade de Charcot, que define colangite aguda, aqui por coledocolitíase com dilatação discreta das vias biliares. Pelas diretrizes de Tóquio, a colangite leve, sem disfunção orgânica e sem hipotensão, é tratada inicialmente com antibiótico e suporte clínico, reservando a drenagem biliar endoscópica para quem não responde em 24 horas ou já se apresenta em grau moderado a grave. A colecistectomia é feita depois, na mesma internação, após a resolução do quadro agudo.",
   "porAlt": [
    "A papilotomia de urgência é indicada na colangite moderada a grave ou na ausência de resposta ao tratamento clínico.",
    "A drenagem cirúrgica com dreno de Kehr foi substituída pela via endoscópica na maioria dos casos.",
@@ -1281,8 +1281,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, coqueluche, 2024; CDC guidance on pertussis treatment and postexposure prophylaxis",
-  "coment": "O tratamento da coqueluche é feito com macrolídeo — azitromicina, claritromicina ou eritromicina —, escolha que vale também para a quimioprofilaxia dos contatos próximos, sobretudo lactentes, gestantes no terceiro trimestre e quem convive com eles. O antibiótico encurta o período de transmissibilidade e, quando iniciado na fase catarral, atenua o quadro; iniciado na fase paroxística, altera pouco os sintomas mas ainda interrompe a cadeia de transmissão. Alternativa em intolerância é sulfametoxazol-trimetoprima. A doença é de notificação compulsória.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, coqueluche, 2024; CDC guidance on pertussis treatment and postexposure prophylaxis",
+  "coment": "O tratamento da coqueluche é feito com macrolídeo (azitromicina, claritromicina ou eritromicina), escolha que vale também para a quimioprofilaxia dos contatos próximos, sobretudo lactentes, gestantes no terceiro trimestre e quem convive com eles. O antibiótico encurta o período de transmissibilidade e, quando iniciado na fase catarral, atenua o quadro; iniciado na fase paroxística, altera pouco os sintomas mas ainda interrompe a cadeia de transmissão. Alternativa em intolerância é sulfametoxazol-trimetoprima. A doença é de notificação compulsória.",
   "porAlt": [
    "Fosfomicina é usada em infecção urinária não complicada.",
    "Quinolonas não são a classe de escolha e são evitadas em crianças.",
@@ -1309,8 +1309,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, vigilância do sarampo e da rubéola, 2024",
-  "coment": "Caso suspeito de rubéola — febre com exantema maculopapular, linfadenopatia retroauricular, occipital ou cervical, conjuntivite e artralgia — exige confirmação laboratorial obrigatória, com sorologia IgM e IgG, coleta de amostras para identificação viral e notificação imediata. Critério clínico isolado não confirma, pela sobreposição com outras doenças exantemáticas, e o vínculo epidemiológico só se aplica quando há caso confirmado laboratorialmente na cadeia de transmissão. A investigação inclui ainda busca ativa de casos e verificação da situação vacinal dos contatos.",
+  "base": "Ministério da Saúde (Guia de Vigilância em Saúde, vigilância do sarampo e da rubéola, 2024",
+  "coment": "Caso suspeito de rubéola) febre com exantema maculopapular, linfadenopatia retroauricular, occipital ou cervical, conjuntivite e artralgia. Exige confirmação laboratorial obrigatória, com sorologia IgM e IgG, coleta de amostras para identificação viral e notificação imediata. Critério clínico isolado não confirma, pela sobreposição com outras doenças exantemáticas, e o vínculo epidemiológico só se aplica quando há caso confirmado laboratorialmente na cadeia de transmissão. A investigação inclui ainda busca ativa de casos e verificação da situação vacinal dos contatos.",
   "porAlt": [
    "O vínculo epidemiológico depende de caso confirmado em laboratório, e o paciente nega contato.",
    "Correta: sorologia com pesquisa de IgM e IgG, obrigatória na vigilância da rubéola.",
@@ -1337,12 +1337,12 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Manual de Normas e Procedimentos para Vacinação, 2024; Programa Nacional de Imunizações, campanha anual de influenza",
-  "coment": "A vacina influenza é composta por vírus inativado, é segura em qualquer trimestre da gestação e a gestante é grupo prioritário: a vacinação protege a mãe da forma grave e transfere anticorpos ao recém-nascido, que só poderá ser vacinado a partir dos seis meses. A proteção não é duradoura — a composição da vacina muda a cada ano conforme as cepas circulantes e a imunidade declina —, de modo que a revacinação é anual. Vacina de vírus vivo atenuado é que seria contraindicada na gestação.",
+  "base": "Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação, 2024; Programa Nacional de Imunizações, campanha anual de influenza",
+  "coment": "A vacina influenza é composta por vírus inativado, é segura em qualquer trimestre da gestação e a gestante é grupo prioritário: a vacinação protege a mãe da forma grave e transfere anticorpos ao recém-nascido, que só poderá ser vacinado a partir dos seis meses. A proteção não é duradoura, a composição da vacina muda a cada ano conforme as cepas circulantes e a imunidade declina, de modo que a revacinação é anual. Vacina de vírus vivo atenuado é que seria contraindicada na gestação.",
   "porAlt": [
    "Não há restrição de trimestre: a vacina é recomendada em qualquer fase da gestação.",
    "A proteção da vacina influenza não dura anos; a revacinação é anual.",
-   "A vacina é indicada, e não evitada, na gestação — a gestante é grupo prioritário.",
+   "A vacina é indicada, e não evitada, na gestação, a gestante é grupo prioritário.",
    "Correta: revacinar, porque a composição muda a cada ano e a gestante é prioritária.",
    "Não há necessidade de aguardar a 12ª semana para vacinar contra influenza."
   ],
@@ -1365,7 +1365,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2024",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2024",
   "coment": "O Manual do Ministério da Saúde quantifica o risco relativo de adoecimento por tuberculose nas populações mais vulneráveis, e a população em situação de rua é a de maior risco, várias dezenas de vezes superior ao da população geral, seguida por pessoas privadas de liberdade, pessoas vivendo com HIV e indígenas. A consequência prática é a busca ativa dirigida a esses grupos, com rastreio de sintomático respiratório, oferta de teste rápido molecular, investigação de infecção latente e estratégias de tratamento diretamente observado.",
   "porAlt": [
    "Indígenas têm risco aumentado, mas inferior ao da população em situação de rua.",
@@ -1392,8 +1392,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Política Nacional de Educação Popular em Saúde, 2013; Starfield, atributos da atenção primária",
-  "coment": "A educação popular em saúde parte do diálogo e do saber do próprio grupo, e não da transmissão vertical de informação. Diante de hesitação vacinal, a estratégia com melhor resultado é a roda de conversa que acolhe percepções positivas e negativas, porque só é possível responder a uma dúvida que foi enunciada — apresentar apenas as percepções favoráveis, ou apenas dados epidemiológicos em palestra, não alcança quem resiste. Isso corresponde aos atributos de orientação comunitária e competência cultural da atenção primária.",
+  "base": "Ministério da Saúde. Política Nacional de Educação Popular em Saúde, 2013; Starfield, atributos da atenção primária",
+  "coment": "A educação popular em saúde parte do diálogo e do saber do próprio grupo, e não da transmissão vertical de informação. Diante de hesitação vacinal, a estratégia com melhor resultado é a roda de conversa que acolhe percepções positivas e negativas, porque só é possível responder a uma dúvida que foi enunciada. Apresentar apenas as percepções favoráveis, ou apenas dados epidemiológicos em palestra, não alcança quem resiste. Isso corresponde aos atributos de orientação comunitária e competência cultural da atenção primária.",
   "porAlt": [
    "A palestra expositiva é vertical e não dialoga com as razões da recusa.",
    "Levantar somente as percepções positivas deixa de fora justamente as dúvidas que sustentam a hesitação.",
@@ -1419,7 +1419,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "ACG Clinical Guideline: Ulcerative Colitis in Adults, 2019; ECCO guidelines on ulcerative colitis, 2022",
-  "coment": "Diarreia com sangue e muco, urgência e tenesmo, com evolução em surtos ao longo de um ano e perda ponderal, em ex-tabagista, é a apresentação da retocolite ulcerativa — doença que acomete o reto e se estende de forma contínua pelo cólon e cuja incidência é maior em ex-fumantes, ao contrário da doença de Crohn. No surto moderado a grave, o tratamento inclui corticoide sistêmico para indução, com mesalazina para doença leve a moderada e manutenção, e imunobiológico nos casos refratários ou corticodependentes.",
+  "coment": "Diarreia com sangue e muco, urgência e tenesmo, com evolução em surtos ao longo de um ano e perda ponderal, em ex-tabagista, é a apresentação da retocolite ulcerativa. Doença que acomete o reto e se estende de forma contínua pelo cólon e cuja incidência é maior em ex-fumantes, ao contrário da doença de Crohn. No surto moderado a grave, o tratamento inclui corticoide sistêmico para indução, com mesalazina para doença leve a moderada e manutenção, e imunobiológico nos casos refratários ou corticodependentes.",
   "porAlt": [
    "A doença de Crohn é descontínua, transmural e pode acometer todo o trato digestivo; infliximabe não é a indução inicial padrão aqui.",
    "A colite microscópica cursa com diarreia aquosa sem sangue e colonoscopia macroscopicamente normal.",
@@ -1444,10 +1444,10 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, esporotricose, 2024; consenso brasileiro de micoses subcutâneas, 2022",
-  "coment": "Úlcera de inoculação em extremidade seguida de nódulos que ascendem em trajeto linear pelo vaso linfático — padrão esporotricoide — em pessoa que lida com gatos é esporotricose, hoje com transmissão zoonótica predominante no Brasil e área urbana. O diagnóstico se confirma por cultura de material da lesão. O tratamento de escolha na forma cutaneolinfática é itraconazol por três a seis meses, mantido por semanas após a cura clínica; iodeto de potássio é alternativa e anfotericina B se reserva à doença disseminada. Manejo do animal e notificação fazem parte da conduta.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, esporotricose, 2024; consenso brasileiro de micoses subcutâneas, 2022",
+  "coment": "Úlcera de inoculação em extremidade seguida de nódulos que ascendem em trajeto linear pelo vaso linfático, padrão esporotricoide, em pessoa que lida com gatos é esporotricose, hoje com transmissão zoonótica predominante no Brasil e área urbana. O diagnóstico se confirma por cultura de material da lesão. O tratamento de escolha na forma cutaneolinfática é itraconazol por três a seis meses, mantido por semanas após a cura clínica; iodeto de potássio é alternativa e anfotericina B se reserva à doença disseminada. Manejo do animal e notificação fazem parte da conduta.",
   "porAlt": [
-   "Correta: esporotricose — úlcera com nódulos em trajeto linfático linear e contato com gatos.",
+   "Correta: esporotricose. Úlcera com nódulos em trajeto linfático linear e contato com gatos.",
    "A cromoblastomicose forma placas verrucosas de evolução muito lenta, sem disseminação linfática linear.",
    "A leishmaniose tegumentar produz úlcera de bordas elevadas e fundo granuloso, geralmente única e sem esse padrão ascendente.",
    "A paracoccidioidomicose acomete mucosa oral e pulmão em trabalhador rural, com quadro sistêmico."
@@ -1470,7 +1470,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA — Diretrizes diagnósticas e terapêuticas do câncer de pulmão, 2022; ATS/IDSA guideline on community-acquired pneumonia, 2019",
+  "base": "INCA. Diretrizes diagnósticas e terapêuticas do câncer de pulmão, 2022; ATS/IDSA guideline on community-acquired pneumonia, 2019",
   "coment": "Pneumonia que recorre no mesmo local em tabagista pesado, com hemoptoicos, rouquidão e emagrecimento, deve levantar a hipótese de neoplasia pulmonar com obstrução brônquica, e a pneumonia é pós-obstrutiva. Ao exame, macicez em base com hipersonoridade acima sugere derrame pleural associado. A rouquidão indica acometimento do nervo laríngeo recorrente, sinal de doença localmente avançada. A investigação segue com tomografia de tórax, broncoscopia com biópsia e toracocentese com análise do líquido, incluindo citologia oncótica.",
   "porAlt": [
    "Silicose exige exposição ocupacional a sílica e não explica a recorrência focal com rouquidão.",
@@ -1497,14 +1497,14 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Sociedade Brasileira de Dermatologia — consenso sobre reações adversas cutâneas graves, 2020; RegiSCAR criteria for DRESS",
-  "coment": "A síndrome DRESS combina exantema extenso, febre, edema facial, linfadenomegalia, eosinofilia e acometimento visceral — mais frequentemente hepático —, com início tardio, tipicamente de duas a oito semanas após o início do fármaco. Alopurinol, anticonvulsivantes aromáticos, sulfonamidas e vancomicina são os agentes clássicos. A conduta é suspender imediatamente o fármaco, iniciar corticoide sistêmico nos casos com acometimento de órgão, monitorar função hepática e renal por semanas e alertar sobre risco de reativação viral e de tireoidite tardia.",
+  "base": "Sociedade Brasileira de Dermatologia. Consenso sobre reações adversas cutâneas graves, 2020; RegiSCAR criteria for DRESS",
+  "coment": "A síndrome DRESS combina exantema extenso, febre, edema facial, linfadenomegalia, eosinofilia e acometimento visceral, mais frequentemente hepático, com início tardio, tipicamente de duas a oito semanas após o início do fármaco. Alopurinol, anticonvulsivantes aromáticos, sulfonamidas e vancomicina são os agentes clássicos. A conduta é suspender imediatamente o fármaco, iniciar corticoide sistêmico nos casos com acometimento de órgão, monitorar função hepática e renal por semanas e alertar sobre risco de reativação viral e de tireoidite tardia.",
   "porAlt": [
    "O eritema multiforme cursa com lesões em alvo, sem eosinofilia e acometimento hepático desse porte.",
    "Urticária medicamentosa produz placas fugazes e pruriginosas, sem febre, adenomegalia e hepatite.",
    "A síndrome de Stevens-Johnson cursa com acometimento de mucosas e descolamento epidérmico.",
    "A púrpura trombocitopênica idiopática cursa com plaquetopenia isolada e sangramento, sem esse quadro sistêmico.",
-   "Correta: DRESS — exantema, febre, edema facial, adenomegalia, eosinofilia e hepatite após alopurinol."
+   "Correta: DRESS. Exantema, febre, edema facial, adenomegalia, eosinofilia e hepatite após alopurinol."
   ],
   "fonte": {
    "banca": "ENARE (EBSERH/FGV)",
@@ -1524,8 +1524,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Sociedade Brasileira de Dermatologia — diretrizes de dermatite de contato, 2021; Ministério da Saúde, protocolo de dermatoses ocupacionais",
-  "coment": "Vesículas, eritema e fissuras nas mãos de profissional de saúde, com melhora nas férias e piora no retorno ao trabalho, caracterizam dermatite de contato ocupacional, que pode ser irritativa — por lavagem frequente, sabões, antissépticos — ou alérgica, com o látex das luvas entre os alérgenos clássicos. A melhora no afastamento é justamente o dado que reforça a relação com o trabalho, e não o que a afasta. A investigação inclui teste de contato quando se suspeita de mecanismo alérgico, e o manejo passa por proteção da barreira, emolientes, corticoide tópico e substituição do agente.",
+  "base": "Sociedade Brasileira de Dermatologia. Diretrizes de dermatite de contato, 2021; Ministério da Saúde, protocolo de dermatoses ocupacionais",
+  "coment": "Vesículas, eritema e fissuras nas mãos de profissional de saúde, com melhora nas férias e piora no retorno ao trabalho, caracterizam dermatite de contato ocupacional, que pode ser irritativa (por lavagem frequente, sabões, antissépticos) ou alérgica, com o látex das luvas entre os alérgenos clássicos. A melhora no afastamento é justamente o dado que reforça a relação com o trabalho, e não o que a afasta. A investigação inclui teste de contato quando se suspeita de mecanismo alérgico, e o manejo passa por proteção da barreira, emolientes, corticoide tópico e substituição do agente.",
   "porAlt": [
    "Fotodermatite exige relação com exposição solar, e o dorso das mãos não basta para concluí-la.",
    "Ceratose actínica é lesão pré-maligna de pele fotoexposta em idade mais avançada, não vesículas com prurido.",
@@ -1550,8 +1550,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Sociedade Brasileira de Angiologia e Cirurgia Vascular — diretrizes de úlcera venosa, 2022; NICE guideline on varicose veins",
-  "coment": "Edema vespertino de longa data, dermatite ocre e úlcera rasa em região maleolar interna compõem a úlcera venosa, a mais comum das úlceras de membros inferiores. O tratamento com maior impacto na cicatrização é a compressão — meia elástica de média a alta compressão ou bota de Unna —, associada à elevação dos membros, cuidado local da ferida e exercício de panturrilha. Antes de comprimir, é obrigatório afastar doença arterial periférica pelo índice tornozelo-braço, porque compressão em membro isquêmico causa necrose.",
+  "base": "Sociedade Brasileira de Angiologia e Cirurgia Vascular, diretrizes de úlcera venosa, 2022; NICE guideline on varicose veins",
+  "coment": "Edema vespertino de longa data, dermatite ocre e úlcera rasa em região maleolar interna compõem a úlcera venosa, a mais comum das úlceras de membros inferiores. O tratamento com maior impacto na cicatrização é a compressão, meia elástica de média a alta compressão ou bota de Unna, associada à elevação dos membros, cuidado local da ferida e exercício de panturrilha. Antes de comprimir, é obrigatório afastar doença arterial periférica pelo índice tornozelo-braço, porque compressão em membro isquêmico causa necrose.",
   "porAlt": [
    "Baixa compressão é insuficiente para reverter a hipertensão venosa e cicatrizar a úlcera.",
    "Correta: compressão de média intensidade associada à elevação dos membros.",
@@ -1577,7 +1577,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "NCCN Guidelines for Cutaneous Melanoma, 2025; INCA, diretrizes diagnósticas e terapêuticas do melanoma cutâneo, 2023",
-  "coment": "Melanoma com índice de Breslow de 4,5 mm e ulceração é, no mínimo, T4b, categoria de alto risco de doença metastática. Nesse cenário, o estadiamento por imagem de corpo — tomografia de tórax, abdome e pelve com contraste, e ressonância de crânio conforme o protocolo — precede as decisões cirúrgicas, porque a presença de metástase muda toda a estratégia. Confirmada a doença localizada, seguem-se ampliação de margens de 2 cm e pesquisa de linfonodo sentinela, além da discussão de terapia adjuvante com imunoterapia ou inibidores de BRAF e MEK.",
+  "coment": "Melanoma com índice de Breslow de 4,5 mm e ulceração é, no mínimo, T4b, categoria de alto risco de doença metastática. Nesse cenário, o estadiamento por imagem de corpo (tomografia de tórax, abdome e pelve com contraste, e ressonância de crânio conforme o protocolo) precede as decisões cirúrgicas, porque a presença de metástase muda toda a estratégia. Confirmada a doença localizada, seguem-se ampliação de margens de 2 cm e pesquisa de linfonodo sentinela, além da discussão de terapia adjuvante com imunoterapia ou inibidores de BRAF e MEK.",
   "porAlt": [
    "Margem de 1 cm é insuficiente para lesão com Breslow acima de 2 mm.",
    "A margem de 2 cm com linfonodo sentinela é correta, mas vem depois do estadiamento sistêmico em lesão T4b.",
@@ -1602,8 +1602,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Portaria GM/MS que atualiza a Lista Nacional de Notificação Compulsória, 2025; Guia de Vigilância em Saúde, esporotricose",
-  "coment": "A inclusão de um agravo na lista de notificação compulsória segue critérios clássicos de vigilância: magnitude, potencial de disseminação, transcendência, vulnerabilidade — isto é, existência de intervenção eficaz — e compromissos internacionais. A esporotricose reúne crescimento acelerado de casos com transmissão zoonótica urbana pelo gato doméstico, alto potencial de disseminação, acometimento de populações vulneráveis e possibilidade de intervenção, tanto no tratamento humano e animal quanto no manejo dos felinos. Notificar permite dimensionar o problema e organizar a resposta.",
+  "base": "Ministério da Saúde. Portaria GM/MS que atualiza a Lista Nacional de Notificação Compulsória, 2025; Guia de Vigilância em Saúde, esporotricose",
+  "coment": "A inclusão de um agravo na lista de notificação compulsória segue critérios clássicos de vigilância: magnitude, potencial de disseminação, transcendência, vulnerabilidade (isto é, existência de intervenção eficaz) e compromissos internacionais. A esporotricose reúne crescimento acelerado de casos com transmissão zoonótica urbana pelo gato doméstico, alto potencial de disseminação, acometimento de populações vulneráveis e possibilidade de intervenção, tanto no tratamento humano e animal quanto no manejo dos felinos. Notificar permite dimensionar o problema e organizar a resposta.",
   "porAlt": [
    "Correta: crescimento de casos, risco de disseminação, acometimento de populações vulneráveis e existência de intervenção eficaz.",
    "Restringir a justificativa a áreas urbanas e a profissionais de saúde animal não descreve os critérios de notificação.",
@@ -1628,8 +1628,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Portaria GM/MS nº 635/2023 — equipes Multiprofissionais na Atenção Primária à Saúde (eMulti); Política Nacional de Atenção Básica",
-  "coment": "As eMulti substituíram os antigos núcleos de apoio à saúde da família e atuam de forma complementar às equipes de atenção primária, com apoio matricial, cuidado compartilhado e atendimento conjunto, incluindo teleatendimento como parte do processo de trabalho. A composição é definida localmente a partir de uma lista ampla de categorias, que inclui médicos especialistas focais — cardiologia, dermatologia, endocrinologia, infectologia, psiquiatria, entre outras. O financiamento é tripartite, com incentivo federal específico, e a vinculação é à atenção primária.",
+  "base": "Portaria GM/MS nº 635/2023. Equipes Multiprofissionais na Atenção Primária à Saúde (eMulti); Política Nacional de Atenção Básica",
+  "coment": "As eMulti substituíram os antigos núcleos de apoio à saúde da família e atuam de forma complementar às equipes de atenção primária, com apoio matricial, cuidado compartilhado e atendimento conjunto, incluindo teleatendimento como parte do processo de trabalho. A composição é definida localmente a partir de uma lista ampla de categorias, que inclui médicos especialistas focais. Cardiologia, dermatologia, endocrinologia, infectologia, psiquiatria, entre outras. O financiamento é tripartite, com incentivo federal específico, e a vinculação é à atenção primária.",
   "porAlt": [
    "O teleatendimento está previsto e incorporado ao processo de trabalho das eMulti.",
    "As eMulti vinculam-se à atenção primária, e não a unidades de pronto atendimento e ambulatórios de especialidades.",
@@ -1654,8 +1654,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AABB — Transfusion Reactions: guidelines and hemovigilance; Ministério da Saúde, Guia para o uso de hemocomponentes, 2024",
-  "coment": "Febre com calafrios ao final ou logo após a transfusão, em paciente estável, sem icterícia, sem hemoglobinúria e sem alteração respiratória ou radiológica, caracteriza reação febril não hemolítica — a reação transfusional mais comum, causada por citocinas acumuladas na bolsa e por anticorpos contra leucócitos do doador. Ainda assim, a conduta obrigatória é interromper a transfusão, conferir identificação do paciente e da bolsa e excluir hemólise e contaminação bacteriana antes de atribuir o quadro à forma benigna. A leucorredução previne a recorrência.",
+  "base": "AABB: Transfusion Reactions: guidelines and hemovigilance; Ministério da Saúde, Guia para o uso de hemocomponentes, 2024",
+  "coment": "Febre com calafrios ao final ou logo após a transfusão, em paciente estável, sem icterícia, sem hemoglobinúria e sem alteração respiratória ou radiológica, caracteriza reação febril não hemolítica. A reação transfusional mais comum, causada por citocinas acumuladas na bolsa e por anticorpos contra leucócitos do doador. Ainda assim, a conduta obrigatória é interromper a transfusão, conferir identificação do paciente e da bolsa e excluir hemólise e contaminação bacteriana antes de atribuir o quadro à forma benigna. A leucorredução previne a recorrência.",
   "porAlt": [
    "A sobrecarga circulatória cursa com dispneia, hipertensão, turgência jugular e congestão radiológica.",
    "A TRALI cursa com hipoxemia e infiltrado bilateral novo, ausentes com radiografia normal.",
@@ -1681,9 +1681,9 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "NCCN Guidelines for Acute Myeloid Leukemia, 2025; INCA, diretrizes diagnósticas e terapêuticas das leucemias agudas",
-  "coment": "Pancitopenia com neutropenia grave, plaquetopenia acentuada, sangramento mucoso, febre e presença de células anômalas com nucléolos evidentes no esfregaço indica leucemia aguda com blastos circulantes. O alargamento do tempo de protrombina com fibrinogênio baixo levanta a suspeita de coagulação intravascular disseminada, característica da leucemia promielocítica aguda — emergência hematológica em que o ácido transretinoico deve ser iniciado à suspeita, antes da confirmação genética, junto com suporte transfusional agressivo. A confirmação é por mielograma com imunofenotipagem e citogenética.",
+  "coment": "Pancitopenia com neutropenia grave, plaquetopenia acentuada, sangramento mucoso, febre e presença de células anômalas com nucléolos evidentes no esfregaço indica leucemia aguda com blastos circulantes. O alargamento do tempo de protrombina com fibrinogênio baixo levanta a suspeita de coagulação intravascular disseminada, característica da leucemia promielocítica aguda. Emergência hematológica em que o ácido transretinoico deve ser iniciado à suspeita, antes da confirmação genética, junto com suporte transfusional agressivo. A confirmação é por mielograma com imunofenotipagem e citogenética.",
   "porAlt": [
-   "Correta: leucemia aguda — pancitopenia com células anômalas e coagulopatia associada.",
+   "Correta: leucemia aguda. Pancitopenia com células anômalas e coagulopatia associada.",
    "A anemia megaloblástica cursa com macrocitose e pancitopenia, mas não com blastos nem coagulopatia de consumo.",
    "A aplasia medular não apresenta células anômalas no sangue periférico.",
    "A septicemia pode causar coagulopatia, mas não explica as células com nucléolos evidentes no esfregaço."
@@ -1707,7 +1707,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "EAU Guidelines on Non-muscle-invasive Bladder Cancer, 2024; INCA, diretrizes de câncer de bexiga",
-  "coment": "Hematúria em homem acima de 50 anos, tabagista e com exposição ocupacional a corantes e solventes — aminas aromáticas, presentes na indústria de tintas — é câncer de bexiga até prova em contrário, e infecções urinárias de repetição em homem são elas próprias um alerta. A investigação obrigatória combina cistoscopia com biópsia das lesões e imagem do trato urinário superior, tipicamente uroTC. Citologia urinária complementa, mas não substitui a cistoscopia, que é o exame que faz o diagnóstico.",
+  "coment": "Hematúria em homem acima de 50 anos, tabagista e com exposição ocupacional a corantes e solventes (aminas aromáticas, presentes na indústria de tintas) é câncer de bexiga até prova em contrário, e infecções urinárias de repetição em homem são elas próprias um alerta. A investigação obrigatória combina cistoscopia com biópsia das lesões e imagem do trato urinário superior, tipicamente uroTC. Citologia urinária complementa, mas não substitui a cistoscopia, que é o exame que faz o diagnóstico.",
   "porAlt": [
    "Nefrolitíase não explica disúria com hematúria persistente por meses e não se investiga primariamente por ressonância.",
    "Correta: tumor de bexiga, investigado por cistoscopia com biópsia.",
@@ -1733,7 +1733,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r1",
   "base": "AASLD Position Paper on Acute Liver Failure, 2023; nomograma de Rumack-Matthew (1975) e diretrizes de manejo da intoxicação por paracetamol",
-  "coment": "Ingestão de 35 g de paracetamol é dose amplamente tóxica — acima de 150 mg/kg —, e o antídoto é a N-acetilcisteína, que reconstitui a glutationa e é altamente eficaz quando iniciada nas primeiras 8 a 10 horas. Com quatro horas de ingestão, cabe também o carvão ativado, cujo benefício é maior nas primeiras duas horas mas persiste em ingestão maciça. Não se espera dosagem sérica nem elevação de transaminases para tratar: a nível sérico se usa para orientar a manutenção, e a hepatotoxicidade só aparece após 24 a 48 horas, quando o antídoto já perdeu grande parte da eficácia.",
+  "coment": "Ingestão de 35 g de paracetamol é dose amplamente tóxica, acima de 150 mg/kg, e o antídoto é a N-acetilcisteína, que reconstitui a glutationa e é altamente eficaz quando iniciada nas primeiras 8 a 10 horas. Com quatro horas de ingestão, cabe também o carvão ativado, cujo benefício é maior nas primeiras duas horas mas persiste em ingestão maciça. Não se espera dosagem sérica nem elevação de transaminases para tratar: a nível sérico se usa para orientar a manutenção, e a hepatotoxicidade só aparece após 24 a 48 horas, quando o antídoto já perdeu grande parte da eficácia.",
   "porAlt": [
    "A hemodiálise não é a conduta inicial e se reserva a intoxicação maciça com acidose e coma.",
    "Correta: N-acetilcisteína associada a carvão ativado, sem aguardar exames.",
@@ -1758,11 +1758,11 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "OMS — Critérios Médicos de Elegibilidade para uso de contraceptivos, 2015; EULAR recommendations for women’s health in SLE and APS, 2017",
-  "coment": "Na síndrome do anticorpo antifosfolípide, com ou sem lúpus, o contraceptivo combinado com estrogênio é categoria 4 dos critérios de elegibilidade — risco inaceitável, por aumento adicional do risco trombótico —, e isso vale para qualquer via, incluindo adesivo transdérmico. A opção mais segura e mais eficaz é o dispositivo intrauterino com levonorgestrel, que além de contracepção de longa duração reduz o sangramento menstrual, aspecto relevante em paciente anticoagulada. O dispositivo de cobre é seguro do ponto de vista trombótico, mas tende a aumentar o fluxo menstrual.",
+  "base": "OMS. Critérios Médicos de Elegibilidade para uso de contraceptivos, 2015; EULAR recommendations for women’s health in SLE and APS, 2017",
+  "coment": "Na síndrome do anticorpo antifosfolípide, com ou sem lúpus, o contraceptivo combinado com estrogênio é categoria 4 dos critérios de elegibilidade (risco inaceitável, por aumento adicional do risco trombótico), e isso vale para qualquer via, incluindo adesivo transdérmico. A opção mais segura e mais eficaz é o dispositivo intrauterino com levonorgestrel, que além de contracepção de longa duração reduz o sangramento menstrual, aspecto relevante em paciente anticoagulada. O dispositivo de cobre é seguro do ponto de vista trombótico, mas tende a aumentar o fluxo menstrual.",
   "porAlt": [
    "O dispositivo de cobre é aceitável, mas aumenta o fluxo menstrual em paciente em uso de varfarina.",
-   "Correta: sistema intrauterino com levonorgestrel — sem estrogênio, eficaz e com redução do sangramento.",
+   "Correta: sistema intrauterino com levonorgestrel, sem estrogênio, eficaz e com redução do sangramento.",
    "Contraceptivo combinado com etinilestradiol é contraindicado na síndrome antifosfolípide.",
    "O adesivo combinado também contém estrogênio e mantém o risco trombótico."
   ],
@@ -1810,8 +1810,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas — Portaria MS nº 254/2002; Política Nacional de Saúde Integral das Populações do Campo, da Floresta e das Águas, 2013",
-  "coment": "Os distritos sanitários especiais indígenas são unidades organizacionais definidas por critérios etnoculturais e pela distribuição demográfica tradicional dos povos, e por isso seus limites podem atravessar fronteiras de municípios e de estados — diferentemente do território das equipes de saúde da família, que segue o recorte municipal e a adscrição populacional. Reconhecer essa diferença é o que permite articular o subsistema de atenção à saúde indígena com a rede do Sistema Único de Saúde sem sobrepor ou deixar vazios assistenciais.",
+  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas: Portaria MS nº 254/2002; Política Nacional de Saúde Integral das Populações do Campo, da Floresta e das Águas, 2013",
+  "coment": "Os distritos sanitários especiais indígenas são unidades organizacionais definidas por critérios etnoculturais e pela distribuição demográfica tradicional dos povos, e por isso seus limites podem atravessar fronteiras de municípios e de estados. Diferentemente do território das equipes de saúde da família, que segue o recorte municipal e a adscrição populacional. Reconhecer essa diferença é o que permite articular o subsistema de atenção à saúde indígena com a rede do Sistema Único de Saúde sem sobrepor ou deixar vazios assistenciais.",
   "porAlt": [
    "Correta: a delimitação dos distritos indígenas segue a distribuição demográfica tradicional e pode não coincidir com limites estaduais.",
    "A demarcação de terras não elimina conflitos nem situações de vulnerabilidade.",
@@ -1837,7 +1837,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "ATA Guidelines for the Treatment of Hypothyroidism, 2014; NICE guideline on depression in adults, 2022",
-  "coment": "Quadro depressivo com fadiga, ganho de peso, sonolência, constipação e irregularidade menstrual, refratário a antidepressivo em dose plena, aponta para depressão secundária a causa orgânica — aqui, hipotireoidismo. Antes de rotular como depressão resistente e escalonar psicofármaco, a investigação obrigatória inclui TSH e T4 livre, hemograma, glicemia, função renal e hepática, vitamina B12 e revisão de fármacos. Corrigir a causa costuma resolver ou atenuar substancialmente o humor, e manter apenas o antidepressivo mantém a paciente sintomática.",
+  "coment": "Quadro depressivo com fadiga, ganho de peso, sonolência, constipação e irregularidade menstrual, refratário a antidepressivo em dose plena, aponta para depressão secundária a causa orgânica, aqui, hipotireoidismo. Antes de rotular como depressão resistente e escalonar psicofármaco, a investigação obrigatória inclui TSH e T4 livre, hemograma, glicemia, função renal e hepática, vitamina B12 e revisão de fármacos. Corrigir a causa costuma resolver ou atenuar substancialmente o humor, e manter apenas o antidepressivo mantém a paciente sintomática.",
   "porAlt": [
    "O transtorno depressivo persistente exige humor deprimido por pelo menos dois anos e não explica os achados sistêmicos.",
    "Correta: transtorno depressivo secundário a doença orgânica, com hipotireoidismo como principal suspeita.",
@@ -1850,7 +1850,7 @@ window.BANCO=[
   }
  },
  {
-  "q": "Um homem de 68 anos, portador de enfisema pulmonar e de fibrilação atrial (FA) permanente, encontra-se internado na sala vermelha de uma unidade de pronto-atendimento em razão de exacerbação aguda de doença pulmonar obstrutiva crônica. Subitamente, ele apresenta dessaturação e apneia. A equipe observa que o paciente encontra-se em parada cardiorrespiratória, a despeito de manter o ritmo de FA — agora em alta resposta ventricular. Iniciados os procedimentos de reanimação cardiopulmonar, é constatada turgência jugular e ausência de expansibilidade em hemitórax direito, mesmo com a ventilação com bolsa-máscara; além disso, a percussão local revela timpanismo. Já foi administrada uma dose de 1 mg de epinefrina intravenosa. Diante do quadro desse paciente, a conduta indicada é",
+  "q": "Um homem de 68 anos, portador de enfisema pulmonar e de fibrilação atrial (FA) permanente, encontra-se internado na sala vermelha de uma unidade de pronto-atendimento em razão de exacerbação aguda de doença pulmonar obstrutiva crônica. Subitamente, ele apresenta dessaturação e apneia. A equipe observa que o paciente encontra-se em parada cardiorrespiratória, a despeito de manter o ritmo de FA, agora em alta resposta ventricular. Iniciados os procedimentos de reanimação cardiopulmonar, é constatada turgência jugular e ausência de expansibilidade em hemitórax direito, mesmo com a ventilação com bolsa-máscara; além disso, a percussão local revela timpanismo. Já foi administrada uma dose de 1 mg de epinefrina intravenosa. Diante do quadro desse paciente, a conduta indicada é",
   "alts": [
    "proceder à imediata cardioversão elétrica da fibrilação atrial",
    "realizar toracocentese imediata no 5º espaço intercostal direito",
@@ -1863,7 +1863,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r1",
   "base": "AHA Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care, 2020 e atualização 2025; ATLS, 10ª edição",
-  "coment": "Parada cardiorrespiratória com atividade elétrica sem pulso, turgência jugular, ausência de expansibilidade e timpanismo em um hemitórax indica pneumotórax hipertensivo — uma das causas reversíveis que devem ser buscadas ativamente durante a reanimação. Em paciente com enfisema, o pneumotórax por ruptura de bolha é complicação conhecida. O tratamento é imediato e não espera radiografia: descompressão por punção com agulha, seguida de drenagem torácica. Nenhuma dose adicional de fármaco reverte a parada enquanto a causa mecânica persistir.",
+  "coment": "Parada cardiorrespiratória com atividade elétrica sem pulso, turgência jugular, ausência de expansibilidade e timpanismo em um hemitórax indica pneumotórax hipertensivo. Uma das causas reversíveis que devem ser buscadas ativamente durante a reanimação. Em paciente com enfisema, o pneumotórax por ruptura de bolha é complicação conhecida. O tratamento é imediato e não espera radiografia: descompressão por punção com agulha, seguida de drenagem torácica. Nenhuma dose adicional de fármaco reverte a parada enquanto a causa mecânica persistir.",
   "porAlt": [
    "Cardioversão não trata atividade elétrica sem pulso, e a fibrilação atrial não é a causa da parada.",
    "Correta: descompressão torácica imediata pelo pneumotórax hipertensivo.",
@@ -1888,7 +1888,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Diabetes Association — Standards of Care in Diabetes, 2025; KDIGO 2024 CKD guideline; Diretriz da Sociedade Brasileira de Diabetes, 2024",
+  "base": "American Diabetes Association. Standards of Care in Diabetes, 2025; KDIGO 2024 CKD guideline; Diretriz da Sociedade Brasileira de Diabetes, 2024",
   "coment": "Paciente com diabetes tipo 2, doença cardiovascular aterosclerótica estabelecida e albuminúria elevada tem indicação de inibidor de SGLT2 independentemente do valor da hemoglobina glicada: a classe reduz mortalidade cardiovascular, hospitalização por insuficiência cardíaca e progressão da doença renal. A conduta soma-se ao controle glicêmico, e não o substitui. Confirmar a albuminúria em nova amostra faz parte do seguimento, mas não deve atrasar o início do fármaco, e proteinúria de 24 horas foi substituída pela relação albumina-creatinina em amostra isolada.",
   "porAlt": [
    "Manter apenas metformina e pedir proteinúria de 24 horas adia uma indicação já estabelecida.",
@@ -1914,8 +1914,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline — Pheochromocytoma and Paraganglioma, 2014; Diretriz Brasileira de Hipertensão Arterial, 2025",
-  "coment": "A tríade de cefaleia, sudorese e palpitação com hipertensão paroxística em paciente jovem é a apresentação clássica do feocromocitoma, e o rastreio se faz por metanefrinas fracionadas plasmáticas livres ou urinárias de 24 horas — elevadas mais de duas a três vezes acima do limite, como aqui, o diagnóstico é bioquímico e o passo seguinte é localizar o tumor por tomografia ou ressonância de abdome. No tratamento, o bloqueio alfa-adrenérgico precede obrigatoriamente o betabloqueio: inverter a ordem provoca crise hipertensiva por vasoconstrição sem oposição.",
+  "base": "Endocrine Society Clinical Practice Guideline: Pheochromocytoma and Paraganglioma, 2014; Diretriz Brasileira de Hipertensão Arterial, 2025",
+  "coment": "A tríade de cefaleia, sudorese e palpitação com hipertensão paroxística em paciente jovem é a apresentação clássica do feocromocitoma, e o rastreio se faz por metanefrinas fracionadas plasmáticas livres ou urinárias de 24 horas. Elevadas mais de duas a três vezes acima do limite, como aqui, o diagnóstico é bioquímico e o passo seguinte é localizar o tumor por tomografia ou ressonância de abdome. No tratamento, o bloqueio alfa-adrenérgico precede obrigatoriamente o betabloqueio: inverter a ordem provoca crise hipertensiva por vasoconstrição sem oposição.",
   "porAlt": [
    "O hipertireoidismo está afastado: TSH e hormônios tireoidianos estão dentro da faixa de referência.",
    "Correta: feocromocitoma, com metanefrina e normetanefrina urinárias muito elevadas.",
@@ -1967,7 +1967,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "European guideline on chronic pruritus, 2019; American Geriatrics Society Beers Criteria, 2023",
-  "coment": "Prurido crônico sem lesão cutânea primária, com exames de função renal e hepática e hemograma normais, obriga a revisar a prescrição antes de qualquer terapia sintomática. O tramadol é opioide, e o prurido induzido por opioide é mecanismo bem estabelecido, mediado centralmente e não histaminérgico — daí a resposta pobre a anti-histamínico. A conduta é retirar o agente causal, substituindo-o por analgésico simples, e só depois considerar gabapentinoide ou outra terapia dirigida se o sintoma persistir.",
+  "coment": "Prurido crônico sem lesão cutânea primária, com exames de função renal e hepática e hemograma normais, obriga a revisar a prescrição antes de qualquer terapia sintomática. O tramadol é opioide, e o prurido induzido por opioide é mecanismo bem estabelecido, mediado centralmente e não histaminérgico. Daí a resposta pobre a anti-histamínico. A conduta é retirar o agente causal, substituindo-o por analgésico simples, e só depois considerar gabapentinoide ou outra terapia dirigida se o sintoma persistir.",
   "porAlt": [
    "Hidratação e corticoide tópico tratam a xerose e as escoriações, mas não a causa do prurido.",
    "Correta: substituir o tramadol, opioide reconhecidamente causador de prurido crônico.",
@@ -1993,9 +1993,9 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "DSM-5-TR (APA, 2022); NICE guideline on generalised anxiety disorder and panic disorder, 2020",
-  "coment": "A agorafobia se define pelo medo e pela esquiva de situações das quais possa ser difícil escapar ou obter ajuda caso ocorra uma crise — transporte público, elevadores, filas, espaços fechados ou abertos, multidões. Evitar o elevador especificamente por medo de ter uma crise e não conseguir sair é o desenho exato desse diagnóstico, distinto da claustrofobia, em que o temor recai sobre o ambiente fechado em si. O tratamento combina terapia cognitivo-comportamental com exposição e antidepressivo, sendo a exposição o componente que reverte a esquiva.",
+  "coment": "A agorafobia se define pelo medo e pela esquiva de situações das quais possa ser difícil escapar ou obter ajuda caso ocorra uma crise. Transporte público, elevadores, filas, espaços fechados ou abertos, multidões. Evitar o elevador especificamente por medo de ter uma crise e não conseguir sair é o desenho exato desse diagnóstico, distinto da claustrofobia, em que o temor recai sobre o ambiente fechado em si. O tratamento combina terapia cognitivo-comportamental com exposição e antidepressivo, sendo a exposição o componente que reverte a esquiva.",
   "porAlt": [
-   "Correta: agorafobia — esquiva por medo de não conseguir escapar ou obter ajuda durante uma crise.",
+   "Correta: agorafobia. Esquiva por medo de não conseguir escapar ou obter ajuda durante uma crise.",
    "Na claustrofobia o medo é do ambiente fechado em si, e não da impossibilidade de socorro em uma crise.",
    "A ansiedade generalizada é preocupação persistente e difusa, e o enunciado afirma não haver queixas entre as crises.",
    "A fobia específica se dirige a um objeto ou situação delimitada, sem a lógica da crise e do socorro."
@@ -2006,20 +2006,20 @@ window.BANCO=[
   }
  },
  {
-  "q": "Homem, 58 anos de idade, procura atendimento por dispneia. A médica residente, que realizou o atendimento, observou a presença de um achado clínico que favoreceu, significativamente, a possibilidade de se tratar de um caso de insuficiência cardíaca. A partir da análise da tabela, assinale a alternativa que contém o achado clínico observado.\n(Cada alternativa traz: Sinal clínico — Sensibilidade (%); Especificidade (%); Razão de verossimilhança positiva; Razão de verossimilhança negativa.)",
+  "q": "Homem, 58 anos de idade, procura atendimento por dispneia. A médica residente, que realizou o atendimento, observou a presença de um achado clínico que favoreceu, significativamente, a possibilidade de se tratar de um caso de insuficiência cardíaca. A partir da análise da tabela, assinale a alternativa que contém o achado clínico observado.\n(Cada alternativa traz: Sinal clínico (Sensibilidade (%); Especificidade (%); Razão de verossimilhança positiva; Razão de verossimilhança negativa.)",
   "alts": [
-   "Hepatomegalia — Sensibilidade 3,2%; Especificidade 97%; RV+ 1,07; RV- 1,00",
-   "Terceira bulha — Sensibilidade 10%; Especificidade 85%; RV+ 0,67; RV- 1,06",
-   "Estertores — Sensibilidade 29%; Especificidade 77%; RV+ 1,26; RV- 0,92",
-   "Reflexo abdomino jugular — Sensibilidade 33%; Especificidade 94%; RV+ 5,50; RV- 0,71"
+   "Hepatomegalia) Sensibilidade 3,2%; Especificidade 97%; RV+ 1,07; RV- 1,00",
+   "Terceira bulha (Sensibilidade 10%; Especificidade 85%; RV+ 0,67; RV- 1,06",
+   "Estertores) Sensibilidade 29%; Especificidade 77%; RV+ 1,26; RV- 0,92",
+   "Reflexo abdomino jugular: Sensibilidade 33%; Especificidade 94%; RV+ 5,50; RV- 0,71"
   ],
   "gab": 3,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "JAMA Rational Clinical Examination — Does this dyspneic patient have congestive heart failure?; ESC Guidelines for heart failure, 2021",
-  "coment": "A razão de verossimilhança positiva é o que mede quanto um achado aumenta a probabilidade da doença: valores acima de 5 produzem mudança importante, e acima de 10, decisiva. Entre os sinais listados, o refluxo abdominojugular tem razão de verossimilhança positiva de 5,5 — o único que desloca de forma relevante a probabilidade de insuficiência cardíaca. Sensibilidade baixa com especificidade alta é o padrão dos sinais que servem para confirmar, não para excluir: a ausência deles não afasta o diagnóstico, como mostram as razões de verossimilhança negativas próximas de 1.",
+  "base": "JAMA Rational Clinical Examination. Does this dyspneic patient have congestive heart failure?; ESC Guidelines for heart failure, 2021",
+  "coment": "A razão de verossimilhança positiva é o que mede quanto um achado aumenta a probabilidade da doença: valores acima de 5 produzem mudança importante, e acima de 10, decisiva. Entre os sinais listados, o refluxo abdominojugular tem razão de verossimilhança positiva de 5,5. O único que desloca de forma relevante a probabilidade de insuficiência cardíaca. Sensibilidade baixa com especificidade alta é o padrão dos sinais que servem para confirmar, não para excluir: a ausência deles não afasta o diagnóstico, como mostram as razões de verossimilhança negativas próximas de 1.",
   "porAlt": [
    "Hepatomegalia tem razão de verossimilhança positiva de 1,07, praticamente sem efeito sobre a probabilidade.",
    "A terceira bulha, na tabela apresentada, tem razão de verossimilhança positiva menor que 1, o que reduziria a probabilidade.",
@@ -2045,7 +2045,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "IDSA guidelines on intravascular catheter-related infection e sobre uso racional de antimicrobianos; ANVISA, critérios diagnósticos de infecção relacionada à assistência à saúde, 2017",
-  "coment": "Estafilococo coagulase-negativo isolado em um único frasco, de um único par de hemoculturas, com o par restante negativo, é quase sempre contaminação de coleta, e não bacteriemia verdadeira — que exigiria crescimento em dois ou mais frascos de sítios diferentes ou tempo de positivação sugestivo. O paciente tem quadro de pneumonia hospitalar após oito dias de internação, e a terapia deve cobrir esse foco, com esquema antipseudomonas. Tratar o contaminante com vancomicina expõe a nefrotoxicidade e a pressão seletiva sem benefício.",
+  "coment": "Estafilococo coagulase-negativo isolado em um único frasco, de um único par de hemoculturas, com o par restante negativo, é quase sempre contaminação de coleta, e não bacteriemia verdadeira. Que exigiria crescimento em dois ou mais frascos de sítios diferentes ou tempo de positivação sugestivo. O paciente tem quadro de pneumonia hospitalar após oito dias de internação, e a terapia deve cobrir esse foco, com esquema antipseudomonas. Tratar o contaminante com vancomicina expõe a nefrotoxicidade e a pressão seletiva sem benefício.",
   "porAlt": [
    "Ceftriaxona com azitromicina cobre pneumonia comunitária, inadequada após oito dias de internação.",
    "Correta: piperacilina com tazobactam, cobrindo pneumonia hospitalar, sem tratar o provável contaminante.",
@@ -2071,7 +2071,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "MDS Clinical Diagnostic Criteria for Parkinson’s Disease, 2015; American Geriatrics Society Beers Criteria, 2023",
-  "coment": "Parkinsonismo de instalação subaguda durante internação, simétrico e progressivo, é fortemente sugestivo de causa medicamentosa — ao contrário da doença de Parkinson idiopática, que é assimétrica e insidiosa. Os agentes são bloqueadores dopaminérgicos: metoclopramida, bromoprida, haloperidol, flunarizina, cinarizina e antipsicóticos típicos. A conduta é suspender o fármaco, com melhora habitual em semanas a meses, ainda que possa demorar. Carvedilol, losartana e clonazepam não bloqueiam receptores dopaminérgicos e não causam parkinsonismo.",
+  "coment": "Parkinsonismo de instalação subaguda durante internação, simétrico e progressivo, é fortemente sugestivo de causa medicamentosa. Ao contrário da doença de Parkinson idiopática, que é assimétrica e insidiosa. Os agentes são bloqueadores dopaminérgicos: metoclopramida, bromoprida, haloperidol, flunarizina, cinarizina e antipsicóticos típicos. A conduta é suspender o fármaco, com melhora habitual em semanas a meses, ainda que possa demorar. Carvedilol, losartana e clonazepam não bloqueiam receptores dopaminérgicos e não causam parkinsonismo.",
   "porAlt": [
    "O clonazepam pode causar sedação e ataxia, mas não parkinsonismo.",
    "O carvedilol pode causar tremor postural leve, não a tríade de rigidez, bradicinesia e tremor de repouso.",
@@ -2097,7 +2097,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "KDIGO Clinical Practice Guideline on Blood Pressure Management in CKD, 2021; Sociedade Brasileira de Nefrologia, diretrizes de hemodiálise",
-  "coment": "Em paciente dialítico, a hipertensão persistente é, na maioria das vezes, expressão de sobrecarga de volume — peso acima do peso seco —, e não de falha de anti-hipertensivo. Por isso, a etapa fundamental do exame físico é pesar o paciente e compará-lo ao peso seco, junto da avaliação de turgência jugular, edema e ausculta pulmonar, para reajustar a ultrafiltração na próxima sessão. Acrescentar fármaco sem corrigir o volume trata o número e não o mecanismo, e a cefaleia relatada é a habitual do paciente, sem sinais de emergência hipertensiva.",
+  "coment": "Em paciente dialítico, a hipertensão persistente é, na maioria das vezes, expressão de sobrecarga de volume, peso acima do peso seco, e não de falha de anti-hipertensivo. Por isso, a etapa fundamental do exame físico é pesar o paciente e compará-lo ao peso seco, junto da avaliação de turgência jugular, edema e ausculta pulmonar, para reajustar a ultrafiltração na próxima sessão. Acrescentar fármaco sem corrigir o volume trata o número e não o mecanismo, e a cefaleia relatada é a habitual do paciente, sem sinais de emergência hipertensiva.",
   "porAlt": [
    "O fundo de olho é útil na suspeita de emergência hipertensiva, que não se caracteriza aqui.",
    "Correta: medir o peso e compará-lo ao peso seco, para reajustar a ultrafiltração.",
@@ -2122,8 +2122,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Epidemiologia clínica — medidas de efeito (redução absoluta de risco e número necessário para tratar); ensaio STELLAR (sotatercepte), 2023",
-  "coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Aqui, o risco de morte foi de 7 em 84 no grupo tratado, cerca de 8,3%, contra 13 em 86 no placebo, cerca de 15,1%. A redução absoluta é de aproximadamente 6,8 pontos percentuais, e o inverso disso resulta em torno de 15 — ou seja, tratar cerca de 15 pacientes para evitar um óbito. O erro clássico da questão é calcular sobre a redução relativa de risco, que aqui é de cerca de 45% e produziria um número muito diferente e sem sentido clínico.",
+  "base": "Epidemiologia clínica. Medidas de efeito (redução absoluta de risco e número necessário para tratar); ensaio STELLAR (sotatercepte), 2023",
+  "coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Aqui, o risco de morte foi de 7 em 84 no grupo tratado, cerca de 8,3%, contra 13 em 86 no placebo, cerca de 15,1%. A redução absoluta é de aproximadamente 6,8 pontos percentuais, e o inverso disso resulta em torno de 15, ou seja, tratar cerca de 15 pacientes para evitar um óbito. O erro clássico da questão é calcular sobre a redução relativa de risco, que aqui é de cerca de 45% e produziria um número muito diferente e sem sentido clínico.",
   "porAlt": [
    "Correta: cerca de 15 pacientes tratados para evitar um óbito, pelo inverso da redução absoluta de risco.",
    "O valor 53 não decorre do cálculo com esses dados.",
@@ -2148,8 +2148,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Diabetes Association — Standards of Care in Diabetes, 2025, capítulo de idosos; Diretriz da Sociedade Brasileira de Diabetes, 2024",
-  "coment": "Metas glicêmicas em idosos são individualizadas pela expectativa de vida, comorbidades e, sobretudo, pelo risco de hipoglicemia. A paciente tem 78 anos, doença cardiovascular estabelecida, doença renal crônica avançada e — o dado decisivo — dois episódios de hipoglicemia grave, que exigiram auxílio de terceiros, no último ano. Nesse perfil de saúde complexa, a meta apropriada é menos rigorosa, entre 7,5 e 8,5%, e o objetivo passa a ser evitar hipoglicemia e sintomas de hiperglicemia, com desintensificação do esquema, e não perseguir números baixos.",
+  "base": "American Diabetes Association. Standards of Care in Diabetes, 2025, capítulo de idosos; Diretriz da Sociedade Brasileira de Diabetes, 2024",
+  "coment": "Metas glicêmicas em idosos são individualizadas pela expectativa de vida, comorbidades e, sobretudo, pelo risco de hipoglicemia. A paciente tem 78 anos, doença cardiovascular estabelecida, doença renal crônica avançada e, o dado decisivo, dois episódios de hipoglicemia grave, que exigiram auxílio de terceiros, no último ano. Nesse perfil de saúde complexa, a meta apropriada é menos rigorosa, entre 7,5 e 8,5%, e o objetivo passa a ser evitar hipoglicemia e sintomas de hiperglicemia, com desintensificação do esquema, e não perseguir números baixos.",
   "porAlt": [
    "Meta entre 6,0 e 6,5% é inadequada e perigosa nesse perfil de alto risco de hipoglicemia.",
    "Meta entre 6,5 e 7,0% aplica-se a paciente jovem, hígido e sem risco de hipoglicemia.",
@@ -2175,7 +2175,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "WHO Classification of Haematolymphoid Tumours, 5ª edição, 2022; NCCN Guidelines for Myelodysplastic Syndromes, 2025",
-  "coment": "Anemia macrocítica em idoso com reticulócitos inadequadamente baixos e alterações displásicas no esfregaço — neutrófilos hipossegmentados e hipogranulares, a anomalia de pseudo-Pelger-Huët — aponta para síndrome mielodisplásica. Antes de confirmar, é obrigatório excluir as causas reversíveis de macrocitose com displasia: deficiência de B12 e folato, álcool, hipotireoidismo, HIV e fármacos. A confirmação exige mielograma com biópsia, citogenética e painel molecular, que definem o risco e o tratamento.",
+  "coment": "Anemia macrocítica em idoso com reticulócitos inadequadamente baixos e alterações displásicas no esfregaço (neutrófilos hipossegmentados e hipogranulares, a anomalia de pseudo-Pelger-Huët) aponta para síndrome mielodisplásica. Antes de confirmar, é obrigatório excluir as causas reversíveis de macrocitose com displasia: deficiência de B12 e folato, álcool, hipotireoidismo, HIV e fármacos. A confirmação exige mielograma com biópsia, citogenética e painel molecular, que definem o risco e o tratamento.",
   "porAlt": [
    "Correta: síndrome mielodisplásica, sugerida pela displasia no esfregaço com reticulócitos baixos.",
    "A anemia megaloblástica é diferencial obrigatório, mas precisa ser afastada por dosagem de B12 e folato, e não explica a hipogranulação.",
@@ -2201,7 +2201,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r3",
   "base": "ESC/ESA Guidelines on cardiovascular assessment and management of patients undergoing non-cardiac surgery, 2022; Diretriz de avaliação perioperatória da SBC, 2017",
-  "coment": "A avaliação perioperatória cruza dois eixos independentes. O risco do paciente é alto: doença arterial coronariana com revascularização recente, diabetes, hipertensão, tabagismo pesado, alteração de repolarização no eletrocardiograma e capacidade funcional limitada — dispneia aos moderados esforços indica menos de 4 equivalentes metabólicos. O risco do procedimento também é alto: cirurgia abdominal maior, de oito horas, com perda sanguínea estimada de até um litro. A combinação de paciente de alto risco com cirurgia de alto risco é o que define a necessidade de monitorização e planejamento reforçados.",
+  "coment": "A avaliação perioperatória cruza dois eixos independentes. O risco do paciente é alto: doença arterial coronariana com revascularização recente, diabetes, hipertensão, tabagismo pesado, alteração de repolarização no eletrocardiograma e capacidade funcional limitada. Dispneia aos moderados esforços indica menos de 4 equivalentes metabólicos. O risco do procedimento também é alto: cirurgia abdominal maior, de oito horas, com perda sanguínea estimada de até um litro. A combinação de paciente de alto risco com cirurgia de alto risco é o que define a necessidade de monitorização e planejamento reforçados.",
   "porAlt": [
    "Classificar ambos como moderados subestima tanto a doença coronariana recente quanto o porte da cirurgia.",
    "O risco do paciente não é moderado diante de revascularização há oito meses e baixa capacidade funcional.",
@@ -2279,7 +2279,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure, 2021 e atualização 2023; Diretriz brasileira de insuficiência cardíaca crônica, SBC",
-  "coment": "Na insuficiência cardíaca com fração de ejeção reduzida, os quatro pilares — inibidor do sistema renina-angiotensina, betabloqueador, antagonista mineralocorticoide e inibidor de SGLT2 — modificam mortalidade, e a meta é titulá-los até a dose máxima tolerada. O diurético de alça, ao contrário, apenas controla congestão e não muda prognóstico. Diante de hipotensão sintomática em paciente euvolêmico e em classe funcional II, a primeira medida é reduzir o diurético — dose alta de furosemida em paciente compensado é causa frequente de hipotensão —, preservando as drogas que salvam vida.",
+  "coment": "Na insuficiência cardíaca com fração de ejeção reduzida, os quatro pilares (inibidor do sistema renina-angiotensina, betabloqueador, antagonista mineralocorticoide e inibidor de SGLT2) modificam mortalidade, e a meta é titulá-los até a dose máxima tolerada. O diurético de alça, ao contrário, apenas controla congestão e não muda prognóstico. Diante de hipotensão sintomática em paciente euvolêmico e em classe funcional II, a primeira medida é reduzir o diurético, dose alta de furosemida em paciente compensado é causa frequente de hipotensão, preservando as drogas que salvam vida.",
   "porAlt": [
    "Suspender a espironolactona retira um fármaco que reduz mortalidade.",
    "Ivabradina não substitui o betabloqueador; entra como adição quando a frequência permanece alta em ritmo sinusal.",
@@ -2304,7 +2304,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Osteoporosis in Postmenopausal Women, 2019; diretrizes de acompanhamento metabólico pós-cirurgia bariátrica, 2020",
+  "base": "Endocrine Society Clinical Practice Guideline: Osteoporosis in Postmenopausal Women, 2019; diretrizes de acompanhamento metabólico pós-cirurgia bariátrica, 2020",
   "coment": "A paciente tem osteoporose com fratura por fragilidade, mas o passo inicial é corrigir a deficiência grave de vitamina D e a hipocalcemia relativa que sustentam o hiperparatireoidismo secundário. Iniciar bisfosfonato com vitamina D em 9 ng/mL provoca hipocalcemia sintomática. Após cirurgia bariátrica disabsortiva, a forma preferida é o citrato de cálcio, que independe de acidez gástrica para ser absorvido, ao contrário do carbonato. Repostos cálcio, vitamina D e normalizado o paratormônio, aí sim entra o antirreabsortivo.",
   "porAlt": [
    "Correta: citrato de cálcio com vitamina D primeiro, corrigindo a deficiência antes do antirreabsortivo.",
@@ -2331,7 +2331,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "AASLD Practice Guidance on MASLD, 2023; EASL-EASD-EASO Clinical Practice Guidelines on MASLD, 2024",
-  "coment": "Na doença hepática esteatótica associada a disfunção metabólica, o que determina o prognóstico é o grau de fibrose, não a esteatose nem o nível de transaminases — que podem estar normais em doença avançada. Por isso, todo paciente com esteatose e fator de risco metabólico deve ser estratificado, e o primeiro passo é o FIB-4, calculado com idade, plaquetas e transaminases. Valor baixo permite seguimento na atenção primária; valor intermediário ou alto leva à elastografia hepática e ao encaminhamento. A biópsia ficou reservada a casos selecionados.",
+  "coment": "Na doença hepática esteatótica associada a disfunção metabólica, o que determina o prognóstico é o grau de fibrose, não a esteatose nem o nível de transaminases. Que podem estar normais em doença avançada. Por isso, todo paciente com esteatose e fator de risco metabólico deve ser estratificado, e o primeiro passo é o FIB-4, calculado com idade, plaquetas e transaminases. Valor baixo permite seguimento na atenção primária; valor intermediário ou alto leva à elastografia hepática e ao encaminhamento. A biópsia ficou reservada a casos selecionados.",
   "porAlt": [
    "Correta: calcular o FIB-4, primeiro passo da estratificação de fibrose.",
    "A biópsia hepática não é o primeiro passo e se reserva a dúvida diagnóstica ou discordância entre métodos.",
@@ -2357,7 +2357,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r2",
   "base": "American Geriatrics Society Beers Criteria, 2023; World Guidelines for Falls Prevention and Management in Older Adults, 2022",
-  "coment": "Tontura tipo desequilíbrio ao caminhar em idosa polimedicada, com hipotensão ortostática documentada — queda de 30 mmHg na sistólica ao ficar em pé —, exige antes de tudo revisar a prescrição. A amitriptilina é o alvo evidente: antidepressivo tricíclico, fortemente anticolinérgico, causa hipotensão ortostática, sedação, confusão e retenção urinária, e está entre os fármacos formalmente desaconselhados no idoso pelos critérios de Beers. Suspendê-la, com desmame, é a medida de maior impacto na prevenção de queda e fratura.",
+  "coment": "Tontura tipo desequilíbrio ao caminhar em idosa polimedicada, com hipotensão ortostática documentada, queda de 30 mmHg na sistólica ao ficar em pé, exige antes de tudo revisar a prescrição. A amitriptilina é o alvo evidente: antidepressivo tricíclico, fortemente anticolinérgico, causa hipotensão ortostática, sedação, confusão e retenção urinária, e está entre os fármacos formalmente desaconselhados no idoso pelos critérios de Beers. Suspendê-la, com desmame, é a medida de maior impacto na prevenção de queda e fratura.",
   "porAlt": [
    "A metformina não causa hipotensão ortostática, e a glicemia está adequada.",
    "O enalapril integra o tratamento da insuficiência cardíaca com fração de ejeção reduzida e não é o primeiro a sair.",
@@ -2382,8 +2382,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Epidemiologia clínica — número necessário para tratar; ensaios RE-LY (2009), ROCKET-AF (2011) e ARISTOTLE (2011)",
-  "coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Com incidência de 4,7% no braço do novo fármaco e 8% no comparador, a redução absoluta é de 3,3 pontos percentuais, e o inverso de 0,033 resulta em aproximadamente 30 pacientes tratados para evitar um desfecho a mais. Note que a redução relativa é de cerca de 41% — número que impressiona mais e por isso costuma ser destacado —, mas é a redução absoluta que traduz o benefício concreto para a população tratada e permite comparar intervenções.",
+  "base": "Epidemiologia clínica, número necessário para tratar; ensaios RE-LY (2009), ROCKET-AF (2011) e ARISTOTLE (2011)",
+  "coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Com incidência de 4,7% no braço do novo fármaco e 8% no comparador, a redução absoluta é de 3,3 pontos percentuais, e o inverso de 0,033 resulta em aproximadamente 30 pacientes tratados para evitar um desfecho a mais. Note que a redução relativa é de cerca de 41%, número que impressiona mais e por isso costuma ser destacado, mas é a redução absoluta que traduz o benefício concreto para a população tratada e permite comparar intervenções.",
   "porAlt": [
    "O valor 7 corresponderia a uma redução absoluta muito maior que a observada.",
    "O valor 25 corresponderia a uma redução absoluta de 4 pontos percentuais.",
@@ -2409,7 +2409,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "EAACI/GA²LEN/EDF/WAO guideline for the definition, classification, diagnosis and management of urticaria, 2022",
-  "coment": "Urticária com angioedema recorrente em paciente que usa anti-inflamatório não esteroide sob demanda aponta para reação de hipersensibilidade não alérgica a essa classe — mecanismo farmacológico, por inibição da cicloxigenase e desvio para leucotrienos, que afeta todos os anti-inflamatórios inibidores da COX-1, e não apenas o fármaco específico. A associação eventual com camarão é coincidência frequente: alergia alimentar verdadeira reproduz o quadro de forma consistente e costuma surgir minutos após a ingestão. Não há anafilaxia, já que faltam broncoespasmo, sintomas gastrointestinais e hipotensão.",
+  "coment": "Urticária com angioedema recorrente em paciente que usa anti-inflamatório não esteroide sob demanda aponta para reação de hipersensibilidade não alérgica a essa classe. Mecanismo farmacológico, por inibição da cicloxigenase e desvio para leucotrienos, que afeta todos os anti-inflamatórios inibidores da COX-1, e não apenas o fármaco específico. A associação eventual com camarão é coincidência frequente: alergia alimentar verdadeira reproduz o quadro de forma consistente e costuma surgir minutos após a ingestão. Não há anafilaxia, já que faltam broncoespasmo, sintomas gastrointestinais e hipotensão.",
   "porAlt": [
    "Correta: urticária com angioedema desencadeada por anti-inflamatório não esteroide.",
    "A alergia alimentar seria reprodutível e consistente a cada exposição, não em duas de oito ocasiões.",
@@ -2461,7 +2461,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "ACG Clinical Guideline on Chronic Diarrhea, 2025; American Geriatrics Society Beers Criteria, 2023",
-  "coment": "Diarreia crônica é sintoma cuja causa mais frequente, e mais barata de resolver, é medicamentosa. A diacereína, usada em osteoartrite, tem a diarreia como efeito adverso muito comum, dose-dependente e reversível com a suspensão. Antes de investigar com colonoscopia ou tratar sintomaticamente, a conduta é revisar a prescrição e retirar o agente suspeito — no caso, também há omeprazol e sertralina, igualmente associados a diarreia. Loperamida sem diagnóstico mascara o quadro, e probióticos não têm indicação nesse contexto.",
+  "coment": "Diarreia crônica é sintoma cuja causa mais frequente, e mais barata de resolver, é medicamentosa. A diacereína, usada em osteoartrite, tem a diarreia como efeito adverso muito comum, dose-dependente e reversível com a suspensão. Antes de investigar com colonoscopia ou tratar sintomaticamente, a conduta é revisar a prescrição e retirar o agente suspeito, no caso, também há omeprazol e sertralina, igualmente associados a diarreia. Loperamida sem diagnóstico mascara o quadro, e probióticos não têm indicação nesse contexto.",
   "porAlt": [
    "Loperamida trata o sintoma sem esclarecer nem remover a causa.",
    "Probióticos não têm papel estabelecido na diarreia medicamentosa.",
@@ -2486,8 +2486,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Blood — Duffy-null associated neutrophil count (DANC) e ASH/ASCP consenso sobre faixas de referência de neutrófilos, 2023",
-  "coment": "Neutropenia leve, isolada, persistente e assintomática em adulto saudável, sem infecções de repetição, sem alteração das demais séries e sem sinais sistêmicos, corresponde na maioria das vezes à neutropenia constitucional associada ao fenótipo Duffy-nulo, comum em pessoas de ascendência africana. Trata-se de variação da normalidade, e não de doença: a reserva medular é normal e não há risco infeccioso aumentado. Reconhecê-la evita mielograma desnecessário, adiamento de quimioterapia e exclusão indevida de tratamentos — motivo pelo qual as faixas de referência foram revistas.",
+  "base": "Blood, Duffy-null associated neutrophil count (DANC) e ASH/ASCP consenso sobre faixas de referência de neutrófilos, 2023",
+  "coment": "Neutropenia leve, isolada, persistente e assintomática em adulto saudável, sem infecções de repetição, sem alteração das demais séries e sem sinais sistêmicos, corresponde na maioria das vezes à neutropenia constitucional associada ao fenótipo Duffy-nulo, comum em pessoas de ascendência africana. Trata-se de variação da normalidade, e não de doença: a reserva medular é normal e não há risco infeccioso aumentado. Reconhecê-la evita mielograma desnecessário, adiamento de quimioterapia e exclusão indevida de tratamentos. Motivo pelo qual as faixas de referência foram revistas.",
   "porAlt": [
    "A avaliação de medula óssea é invasiva e desnecessária diante de neutropenia isolada e assintomática.",
    "Correta: fenotipagem do sistema Duffy, que identifica a neutropenia constitucional benigna.",
@@ -2512,13 +2512,13 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Dengue: diagnóstico e manejo clínico, adulto e criança, 2024; Guia de Vigilância em Saúde",
+  "base": "Ministério da Saúde. Dengue: diagnóstico e manejo clínico, adulto e criança, 2024; Guia de Vigilância em Saúde",
   "coment": "Febre com mialgia e cefaleia por cinco dias, com prova do laço positiva, em paciente estável, é dengue do grupo B: sem sinais de alarme, mas com sangramento espontâneo induzido, o que exige hemograma e observação até o resultado. A conduta reúne hidratação oral, sintomático sem anti-inflamatório, hemograma, orientação sobre sinais de alarme com retorno imediato e notificação. Em área sem casos autóctones prévios, o achado dispara resposta de vigilância: notificação imediata, investigação e reforço do controle vetorial no território, com envolvimento do agente de combate a endemias.",
   "porAlt": [
    "Azitromicina e corticoide não tratam covid-19 e não têm indicação neste quadro.",
    "Anti-inflamatório está contraindicado enquanto dengue não for afastada, pelo risco de sangramento.",
    "A ageusia e a prova do laço positiva não apontam zika, e a conduta descrita ignora o manejo do próprio paciente.",
-   "Correta: dengue — hidratação, hemograma, notificação e reforço do controle vetorial."
+   "Correta: dengue. Hidratação, hemograma, notificação e reforço do controle vetorial."
   ],
   "fonte": {
    "banca": "Revalida (INEP/MEC)",
@@ -2538,7 +2538,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Chikungunya: manejo clínico, 2023; Sociedade Brasileira de Reumatologia, recomendações para artropatia pós-chikungunya",
+  "base": "Ministério da Saúde: Chikungunya: manejo clínico, 2023; Sociedade Brasileira de Reumatologia, recomendações para artropatia pós-chikungunya",
   "coment": "Quadro febril agudo com exantema, conjuntivite e poliartralgia que evolui com artrite persistente por mais de três meses caracteriza a fase crônica da chikungunya, cuja artropatia é simétrica, acomete pequenas articulações e pode ser incapacitante. Persistindo apesar de analgésico e anti-inflamatório, a recomendação é escalonar para droga modificadora do curso da doença, sendo o metotrexato a de escolha, com hidroxicloroquina e sulfassalazina como alternativas ou associações, e corticoide em curso curto na transição. Acompanhamento reumatológico e reabilitação completam o manejo.",
   "porAlt": [
    "A citomegalovirose não cursa com artrite persistente por meses nesse padrão.",
@@ -2564,8 +2564,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; Protocolo de sífilis na gestação",
-  "coment": "O seguimento pós-tratamento da sífilis é feito com teste não treponêmico quantitativo — o VDRL ou o RPR —, cujo título deve cair; espera-se queda de pelo menos duas diluições em três meses e de quatro diluições em seis meses, e a ausência dessa queda ou um novo aumento indicam falha ou reinfecção. Na gestante, o controle é mensal até o parto, pelo risco de sífilis congênita. Os testes treponêmicos — TPHA e FTA-Abs — permanecem reagentes por toda a vida na maioria dos casos e por isso não servem para seguimento.",
+  "base": "Ministério da Saúde. PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; Protocolo de sífilis na gestação",
+  "coment": "O seguimento pós-tratamento da sífilis é feito com teste não treponêmico quantitativo, o VDRL ou o RPR, cujo título deve cair; espera-se queda de pelo menos duas diluições em três meses e de quatro diluições em seis meses, e a ausência dessa queda ou um novo aumento indicam falha ou reinfecção. Na gestante, o controle é mensal até o parto, pelo risco de sífilis congênita. Os testes treponêmicos, TPHA e FTA-Abs, permanecem reagentes por toda a vida na maioria dos casos e por isso não servem para seguimento.",
   "porAlt": [
    "Correta: VDRL quantitativo, com controle mensal na gestante.",
    "O TPHA permanece reagente indefinidamente e não monitora resposta ao tratamento.",
@@ -2591,7 +2591,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r1",
   "base": "IDSA/ESCMID Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women; Ministério da Saúde, protocolo de infecção do trato urinário na atenção primária, 2023",
-  "coment": "Disúria, polaciúria, urgência e dor suprapúbica, sem febre, sem dor lombar e sem sinais sistêmicos, em mulher jovem sem comorbidade, caracterizam cistite aguda não complicada — diagnóstico clínico, que dispensa urocultura de rotina e não exige aguardar exame para tratar. O tratamento de primeira linha é nitrofurantoína por cinco dias, com fosfomicina em dose única ou sulfametoxazol-trimetoprima como alternativas conforme o perfil local de resistência. Quinolonas são evitadas nesse cenário pelo perfil de efeitos adversos e pela necessidade de preservá-las.",
+  "coment": "Disúria, polaciúria, urgência e dor suprapúbica, sem febre, sem dor lombar e sem sinais sistêmicos, em mulher jovem sem comorbidade, caracterizam cistite aguda não complicada. Diagnóstico clínico, que dispensa urocultura de rotina e não exige aguardar exame para tratar. O tratamento de primeira linha é nitrofurantoína por cinco dias, com fosfomicina em dose única ou sulfametoxazol-trimetoprima como alternativas conforme o perfil local de resistência. Quinolonas são evitadas nesse cenário pelo perfil de efeitos adversos e pela necessidade de preservá-las.",
   "porAlt": [
    "Correta: cistite aguda não complicada tratada com nitrofurantoína.",
    "Não há critérios de infecção alta: faltam febre, dor lombar e sinais sistêmicos, e a quinolona não é primeira escolha.",
@@ -2616,8 +2616,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Sociedade Brasileira de Imunizações — Calendário de vacinação do adulto e do idoso, 2025; Ministério da Saúde, Manual dos Centros de Referência para Imunobiológicos Especiais",
-  "coment": "A paciente já teve sarampo, caxumba, rubéola, varicela e hepatite A, o que confere imunidade natural e torna dispensáveis as vacinas correspondentes. Resta a vacina contra herpes-zóster, indicada justamente a quem já teve varicela — porque o vírus permanece latente nos gânglios e reativa com a idade e com a imunossenescência —, com recomendação a partir dos 50 anos e reforçada em diabéticos. A vacina recombinante é preferida e pode ser usada em imunossuprimidos, enquanto a atenuada é contraindicada nesse grupo.",
+  "base": "Sociedade Brasileira de Imunizações. Calendário de vacinação do adulto e do idoso, 2025; Ministério da Saúde, Manual dos Centros de Referência para Imunobiológicos Especiais",
+  "coment": "A paciente já teve sarampo, caxumba, rubéola, varicela e hepatite A, o que confere imunidade natural e torna dispensáveis as vacinas correspondentes. Resta a vacina contra herpes-zóster, indicada justamente a quem já teve varicela, porque o vírus permanece latente nos gânglios e reativa com a idade e com a imunossenescência, com recomendação a partir dos 50 anos e reforçada em diabéticos. A vacina recombinante é preferida e pode ser usada em imunossuprimidos, enquanto a atenuada é contraindicada nesse grupo.",
   "porAlt": [
    "A paciente teve caxumba e tem imunidade natural.",
    "A hepatite A prévia confere imunidade duradoura.",
@@ -2642,8 +2642,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Diretrizes para vigilância, atenção e eliminação da hanseníase, 2022; WHO Guidelines for the diagnosis, treatment and prevention of leprosy",
-  "coment": "Nódulos cutâneos múltiplos, dolorosos e eritematosos, com febre, artrite e madarose, cuja histologia mostra vasculite leucocitoclástica sobre granulomas, caracterizam o eritema nodoso hansênico, a reação hansênica tipo 2, mediada por imunocomplexos e típica das formas multibacilares. É urgência: pode cursar com neurite, orquite, irite e dano neural permanente. O tratamento é talidomida — proibida para mulheres em idade fértil sem controle rigoroso do risco teratogênico — associada a corticoide quando há neurite ou acometimento visceral, mantendo-se a poliquimioterapia.",
+  "base": "Ministério da Saúde. Diretrizes para vigilância, atenção e eliminação da hanseníase, 2022; WHO Guidelines for the diagnosis, treatment and prevention of leprosy",
+  "coment": "Nódulos cutâneos múltiplos, dolorosos e eritematosos, com febre, artrite e madarose, cuja histologia mostra vasculite leucocitoclástica sobre granulomas, caracterizam o eritema nodoso hansênico, a reação hansênica tipo 2, mediada por imunocomplexos e típica das formas multibacilares. É urgência: pode cursar com neurite, orquite, irite e dano neural permanente. O tratamento é talidomida, proibida para mulheres em idade fértil sem controle rigoroso do risco teratogênico, associada a corticoide quando há neurite ou acometimento visceral, mantendo-se a poliquimioterapia.",
   "porAlt": [
    "Correta: reação hansênica tipo 2, o eritema nodoso hansênico, com vasculite sobre granulomas.",
    "A granulomatose com poliangiíte cursa com acometimento de vias aéreas e rins, com ANCA positivo.",
@@ -2668,8 +2668,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Epidemiologia clínica — valor preditivo positivo e teorema de Bayes; Ministério da Saúde, diretrizes de vigilância da hanseníase, 2022",
-  "coment": "Sensibilidade e especificidade são propriedades do teste; o valor preditivo positivo depende também da prevalência. Com sensibilidade de 80% e especificidade de 80% numa população com prevalência de 10%, em mil pessoas haveria 100 doentes, dos quais 80 testariam positivo, e 900 sem a doença, dos quais 180 seriam falso-positivos. Entre os 260 positivos, 80 têm a doença — cerca de 31%. É o ponto central da testagem: em doença de baixa prevalência, mesmo um teste razoável produz maioria de falso-positivos, e por isso não se rastreia população de baixo risco.",
+  "base": "Epidemiologia clínica. Valor preditivo positivo e teorema de Bayes; Ministério da Saúde, diretrizes de vigilância da hanseníase, 2022",
+  "coment": "Sensibilidade e especificidade são propriedades do teste; o valor preditivo positivo depende também da prevalência. Com sensibilidade de 80% e especificidade de 80% numa população com prevalência de 10%, em mil pessoas haveria 100 doentes, dos quais 80 testariam positivo, e 900 sem a doença, dos quais 180 seriam falso-positivos. Entre os 260 positivos, 80 têm a doença, cerca de 31%. É o ponto central da testagem: em doença de baixa prevalência, mesmo um teste razoável produz maioria de falso-positivos, e por isso não se rastreia população de baixo risco.",
   "porAlt": [
    "Correta: aproximadamente 31%, calculado a partir de 80 verdadeiro-positivos entre 260 positivos totais.",
    "O valor de 97% corresponderia ao valor preditivo negativo neste cenário.",
@@ -2694,8 +2694,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2024",
-  "coment": "Tosse por duas semanas ou mais com febre, sudorese noturna e emagrecimento em pessoa em situação de rua define sintomático respiratório em população de altíssimo risco. A investigação recomendada é o teste rápido molecular ou baciloscopia com cultura e teste de sensibilidade — importante nesse grupo pelo risco de resistência —, somada à testagem para HIV, hepatites virais e sífilis, porque a coinfecção muda o tratamento e o prognóstico. Radiografia complementa, mas não substitui a investigação bacteriológica, e o tratamento é feito na própria atenção primária, preferencialmente supervisionado.",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2024",
+  "coment": "Tosse por duas semanas ou mais com febre, sudorese noturna e emagrecimento em pessoa em situação de rua define sintomático respiratório em população de altíssimo risco. A investigação recomendada é o teste rápido molecular ou baciloscopia com cultura e teste de sensibilidade, importante nesse grupo pelo risco de resistência, somada à testagem para HIV, hepatites virais e sífilis, porque a coinfecção muda o tratamento e o prognóstico. Radiografia complementa, mas não substitui a investigação bacteriológica, e o tratamento é feito na própria atenção primária, preferencialmente supervisionado.",
   "porAlt": [
    "Correta: investigação bacteriológica com cultura e teste de sensibilidade somada à testagem para HIV, hepatites e sífilis.",
    "Iniciar tratamento apenas pela radiografia dispensa a confirmação bacteriológica e o teste de sensibilidade.",
@@ -2721,7 +2721,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "ACG Clinical Guideline: Ulcerative Colitis in Adults, 2019; ECCO-ESGAR guidelines on diagnostics in inflammatory bowel disease, 2019",
-  "coment": "Diarreia sanguinolenta com tenesmo, cólicas e artralgia migratória por três meses, sem resposta a antibiótico, aponta para doença inflamatória intestinal, e a investigação que fecha o diagnóstico é a colonoscopia com biópsias da mucosa — que define extensão, padrão de acometimento e histologia, separando retocolite de doença de Crohn. As causas infecciosas devem ser afastadas em paralelo com coproculturas e pesquisa de parasitas, mas nenhuma delas explica três meses de evolução com manifestação articular associada.",
+  "coment": "Diarreia sanguinolenta com tenesmo, cólicas e artralgia migratória por três meses, sem resposta a antibiótico, aponta para doença inflamatória intestinal, e a investigação que fecha o diagnóstico é a colonoscopia com biópsias da mucosa. Que define extensão, padrão de acometimento e histologia, separando retocolite de doença de Crohn. As causas infecciosas devem ser afastadas em paralelo com coproculturas e pesquisa de parasitas, mas nenhuma delas explica três meses de evolução com manifestação articular associada.",
   "porAlt": [
    "Correta: colonoscopia com biópsias da mucosa, exame que estabelece o diagnóstico.",
    "A investigação de coccídios se justifica em imunossupressão com diarreia crônica aquosa, não com sangue e tenesmo.",
@@ -2746,8 +2746,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, tungíase e dermatoses parasitárias, 2024; consensos de dermatologia tropical",
-  "coment": "Lesões papulosas amareladas com ponto enegrecido central nos pés, pruriginosas e dolorosas, em quem trabalha com criação de porcos e circula descalço em solo contaminado, caracterizam tungíase, causada pela pulga Tunga penetrans. O tratamento é a remoção do parasita em condições assépticas, com antiparasitário sistêmico — tiabendazol ou ivermectina — nas infestações múltiplas, além de atualizar a profilaxia antitetânica, tratar os animais e o solo, e orientar o uso de calçado fechado, que é o que evita a reinfestação.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, tungíase e dermatoses parasitárias, 2024; consensos de dermatologia tropical",
+  "coment": "Lesões papulosas amareladas com ponto enegrecido central nos pés, pruriginosas e dolorosas, em quem trabalha com criação de porcos e circula descalço em solo contaminado, caracterizam tungíase, causada pela pulga Tunga penetrans. O tratamento é a remoção do parasita em condições assépticas, com antiparasitário sistêmico, tiabendazol ou ivermectina, nas infestações múltiplas, além de atualizar a profilaxia antitetânica, tratar os animais e o solo, e orientar o uso de calçado fechado, que é o que evita a reinfestação.",
   "porAlt": [
    "A resolução espontânea não é conduta: as lesões múltiplas causam dor, infecção secundária e risco de tétano.",
    "Antibiótico e pomada antialérgica não removem o parasita nem interrompem o ciclo.",
@@ -2772,8 +2772,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2024; Política Nacional para a População em Situação de Rua",
-  "coment": "Tosse há oito dias em pessoa em situação de rua deve ser investigada para tuberculose mesmo antes das clássicas três semanas: nessa população o risco relativo é dezenas de vezes maior que o da população geral, e a oportunidade de contato com o serviço costuma ser única. A prioridade, portanto, é o exame de escarro — teste rápido molecular ou baciloscopia com cultura —, aproveitando o atendimento para oferecer também testagem para HIV, hepatites e sífilis. A cefaleia, sem alteração no exame neurológico, não muda essa prioridade.",
+  "base": "Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil, 2024; Política Nacional para a População em Situação de Rua",
+  "coment": "Tosse há oito dias em pessoa em situação de rua deve ser investigada para tuberculose mesmo antes das clássicas três semanas: nessa população o risco relativo é dezenas de vezes maior que o da população geral, e a oportunidade de contato com o serviço costuma ser única. A prioridade, portanto, é o exame de escarro, teste rápido molecular ou baciloscopia com cultura, aproveitando o atendimento para oferecer também testagem para HIV, hepatites e sífilis. A cefaleia, sem alteração no exame neurológico, não muda essa prioridade.",
   "porAlt": [
    "Tomografia de tórax não é o exame de triagem para tuberculose pulmonar.",
    "A dosagem de tiamina não é prioritária diante de exame neurológico normal.",
@@ -2798,10 +2798,10 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Guia de Tratamento da Malária no Brasil, 2023; Guia de Vigilância em Saúde",
-  "coment": "Febre com calafrios e sudorese que se organiza em paroxismos a cada 48 horas, em pessoa procedente da Amazônia há 30 dias, com esplenomegalia, é malária até prova em contrário — o padrão terçã sugere Plasmodium vivax ou falciparum. O diagnóstico é imediato, por gota espessa ou teste rápido, com resultado no mesmo atendimento, e o tratamento é gratuito e padronizado. Fora da área endêmica, o risco é justamente o atraso diagnóstico: malária por falciparum evolui para forma grave em horas, e todo caso é de notificação imediata.",
+  "base": "Ministério da Saúde. Guia de Tratamento da Malária no Brasil, 2023; Guia de Vigilância em Saúde",
+  "coment": "Febre com calafrios e sudorese que se organiza em paroxismos a cada 48 horas, em pessoa procedente da Amazônia há 30 dias, com esplenomegalia, é malária até prova em contrário. O padrão terçã sugere Plasmodium vivax ou falciparum. O diagnóstico é imediato, por gota espessa ou teste rápido, com resultado no mesmo atendimento, e o tratamento é gratuito e padronizado. Fora da área endêmica, o risco é justamente o atraso diagnóstico: malária por falciparum evolui para forma grave em horas, e todo caso é de notificação imediata.",
   "porAlt": [
-   "Correta: malária — investigação por hematoscopia e tratamento antimalárico com suporte.",
+   "Correta: malária. Investigação por hematoscopia e tratamento antimalárico com suporte.",
    "A chikungunya não cursa com paroxismos febris a cada 48 horas por um mês.",
    "A febre amarela tem curso bifásico de dias, não paroxismos por semanas, e não se trata com vitamina A.",
    "A doença de Chagas aguda não produz esse padrão febril periódico, e a pesquisa a fresco tem janela nas primeiras semanas."
@@ -2824,7 +2824,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "CDC — Epstein-Barr Virus and Infectious Mononucleosis, 2024; Ministério da Saúde, Guia de Vigilância em Saúde, 2024 (síndromes febris com linfadenopatia)",
+  "base": "CDC. Epstein-Barr Virus and Infectious Mononucleosis, 2024; Ministério da Saúde, Guia de Vigilância em Saúde, 2024 (síndromes febris com linfadenopatia)",
   "coment": "Faringite exsudativa com linfadenomegalia cervical posterior, febre, astenia importante, petéquias em palato e exantema em adolescente é o quadro clássico da mononucleose infecciosa por vírus Epstein-Barr. O hemograma mostra linfocitose com linfócitos atípicos, e a confirmação se faz por anticorpos heterófilos ou sorologia específica. Dois pontos práticos: prescrever amoxicilina provoca exantema em grande parte dos casos, e o paciente deve evitar esportes de contato por semanas pelo risco de ruptura esplênica.",
   "porAlt": [
    "A criptococose acomete imunossuprimidos, com meningite subaguda.",
@@ -2850,11 +2850,11 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Dengue: diagnóstico e manejo clínico, 2024; OPAS, diretrizes para arboviroses nas Américas",
-  "coment": "Febre alta de início abrupto com cefaleia, mialgia, dor retro-orbitária sem conjuntivite e exantema, em residente de área urbana do Sudeste, corresponde ao quadro de dengue, a arbovirose de maior incidência no país — e a hipótese epidemiológica se apoia tanto na clínica quanto na prevalência local. O detalhe que merece atenção é o momento: a febre cessou há quatro dias, e é justamente na defervescência que se instala o período crítico, motivo pelo qual o paciente precisa de reavaliação e orientação sobre sinais de alarme.",
+  "base": "Ministério da Saúde. Dengue: diagnóstico e manejo clínico, 2024; OPAS, diretrizes para arboviroses nas Américas",
+  "coment": "Febre alta de início abrupto com cefaleia, mialgia, dor retro-orbitária sem conjuntivite e exantema, em residente de área urbana do Sudeste, corresponde ao quadro de dengue, a arbovirose de maior incidência no país, e a hipótese epidemiológica se apoia tanto na clínica quanto na prevalência local. O detalhe que merece atenção é o momento: a febre cessou há quatro dias, e é justamente na defervescência que se instala o período crítico, motivo pelo qual o paciente precisa de reavaliação e orientação sobre sinais de alarme.",
   "porAlt": [
    "O Zika cursa com exantema pruriginoso proeminente, conjuntivite não purulenta e febre baixa ou ausente.",
-   "Correta: dengue — febre alta abrupta, dor retro-orbitária e exantema, com maior prevalência local.",
+   "Correta: dengue. Febre alta abrupta, dor retro-orbitária e exantema, com maior prevalência local.",
    "A chikungunya tem a poliartralgia intensa e incapacitante como marca, não artralgia leve.",
    "A febre amarela exige exposição em área de mata e evolui com icterícia e disfunção hepática."
   ],
@@ -2877,7 +2877,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r3",
   "base": "Baveno VII, 2022; AASLD Practice Guidance on portal hypertensive bleeding; Ministério da Saúde, PCDT de esquistossomose",
-  "coment": "Na esquistossomose hepatoesplênica, a hipertensão portal é pré-sinusoidal e a função hepatocelular costuma ser relativamente preservada, mas o risco de hemorragia por varizes é alto. Com plaquetopenia e esplenomegalia indicando hipertensão portal clinicamente significativa, a conduta preventiva é o betabloqueador não seletivo — hoje o carvedilol é preferido, por reduzir mais o gradiente de pressão venosa hepática. O edema discreto não caracteriza ascite volumosa nem indica paracentese, e a albumina se reserva a paracentese de grande volume, peritonite espontânea e síndrome hepatorrenal.",
+  "coment": "Na esquistossomose hepatoesplênica, a hipertensão portal é pré-sinusoidal e a função hepatocelular costuma ser relativamente preservada, mas o risco de hemorragia por varizes é alto. Com plaquetopenia e esplenomegalia indicando hipertensão portal clinicamente significativa, a conduta preventiva é o betabloqueador não seletivo. Hoje o carvedilol é preferido, por reduzir mais o gradiente de pressão venosa hepática. O edema discreto não caracteriza ascite volumosa nem indica paracentese, e a albumina se reserva a paracentese de grande volume, peritonite espontânea e síndrome hepatorrenal.",
   "porAlt": [
    "Albumina não é conduta ambulatorial em edema discreto sem paracentese de grande volume.",
    "Correta: carvedilol, betabloqueador de escolha para profilaxia de sangramento na hipertensão portal.",
@@ -2902,7 +2902,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis, 2020",
+  "base": "American Society of Colon and Rectal Surgeons, Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis, 2020",
   "coment": "Diverticulite aguda com abscesso pericólico pequeno, de até 3 a 4 cm, sem peritonite e em paciente estável, é tratada com antibioticoterapia isolada, tipicamente por via intravenosa com internação, reservando a drenagem percutânea para abscessos maiores ou para falha do tratamento clínico. Cirurgia de urgência se restringe à peritonite difusa, à perfuração livre e à ausência de resposta. Após a resolução, indica-se colonoscopia de intervalo em seis a oito semanas para excluir neoplasia, e a ressecção eletiva é decidida caso a caso.",
   "porAlt": [
    "Correta: antibioticoterapia isolada, adequada para abscesso pequeno em paciente estável.",
@@ -2954,12 +2954,12 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Brain Trauma Foundation — Guidelines for the Management of Severe Traumatic Brain Injury, 4ª edição, 2016; ATLS, 10ª edição, 2018",
+  "base": "Brain Trauma Foundation. Guidelines for the Management of Severe Traumatic Brain Injury, 4ª edição, 2016; ATLS, 10ª edição, 2018",
   "coment": "Hipertensão arterial, bradicardia e alteração do padrão respiratório compõem a tríade de Cushing, resposta fisiológica à hipertensão intracraniana grave com iminência de herniação. É o achado que mais diretamente indica a necessidade de medidas imediatas: cabeceira elevada, controle de PaCO₂, sedação e analgesia, terapia hiperosmolar com salina hipertônica ou manitol, e tomografia com avaliação neurocirúrgica urgente. Escala de coma baixa, midríase e ausência de reflexos indicam gravidade, mas é a tríade que sinaliza a fisiopatologia em curso.",
   "porAlt": [
    "Escala de coma 3 indica gravidade, mas não caracteriza por si a hipertensão intracraniana.",
    "A midríase sugere herniação, porém isolada é menos específica que o conjunto hemodinâmico e respiratório.",
-   "Correta: presença da tríade de Cushing — hipertensão, bradicardia e respiração irregular.",
+   "Correta: presença da tríade de Cushing, hipertensão, bradicardia e respiração irregular.",
    "A ausência de reflexo córneo-palpebral indica disfunção de tronco, mas não é o marcador da hipertensão intracraniana."
   ],
   "fonte": {
@@ -2980,8 +2980,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ATS/ERS Official Statement — Diagnosis and Initial Management of Nonmalignant Diseases Related to Asbestos, 2004 e atualizações; Ministério da Saúde, protocolo de asbestose relacionada ao trabalho",
-  "coment": "Dispneia progressiva com tosse seca em trabalhador da construção civil por 25 anos, com opacidades reticulares e placas pleurais calcificadas bilaterais, é asbestose. As placas pleurais são o marcador de exposição ao asbesto — indicam contato, não necessariamente doença —, e a fibrose de predomínio basal define a pneumoconiose. Não há tratamento específico: a conduta é afastar a exposição, notificar como doença relacionada ao trabalho, oferecer reabilitação, vacinação e cessação de tabagismo, e vigiar o risco aumentado de câncer de pulmão e de mesotelioma.",
+  "base": "ATS/ERS Official Statement. Diagnosis and Initial Management of Nonmalignant Diseases Related to Asbestos, 2004 e atualizações; Ministério da Saúde, protocolo de asbestose relacionada ao trabalho",
+  "coment": "Dispneia progressiva com tosse seca em trabalhador da construção civil por 25 anos, com opacidades reticulares e placas pleurais calcificadas bilaterais, é asbestose. As placas pleurais são o marcador de exposição ao asbesto (indicam contato, não necessariamente doença), e a fibrose de predomínio basal define a pneumoconiose. Não há tratamento específico: a conduta é afastar a exposição, notificar como doença relacionada ao trabalho, oferecer reabilitação, vacinação e cessação de tabagismo, e vigiar o risco aumentado de câncer de pulmão e de mesotelioma.",
   "porAlt": [
    "Correta: asbestose, sugerida pelas placas pleurais calcificadas com fibrose intersticial em exposto.",
    "A paracoccidioidomicose acomete pulmão e mucosa oral, com padrão em asa de morcego, sem placas pleurais.",
@@ -2994,7 +2994,7 @@ window.BANCO=[
   }
  },
  {
-  "q": "Um paciente de 25 anos está internado há 10 dias com politraumatismo devido a acidente de moto. Ele está acamado, com múltiplas escoriações na perna, e na face lateral da coxa direita — em região de projeção da articulação coxo-femoral. Apresenta febre e inapetência há 5 dias. Refere aparecimento súbito de dor intensa, há 3 dias, que não cede aos analgésicos comuns, acompanhada de área eritematosa e dolorosa à palpação, em região inguinal, estendendo-se ao terço proximal da face anterior da coxa. Constata-se que há limitação na amplitude do movimento da articulação coxo-femoral em virtude da dor. O exame de imagem mais indicado para o diagnóstico desse paciente é a",
+  "q": "Um paciente de 25 anos está internado há 10 dias com politraumatismo devido a acidente de moto. Ele está acamado, com múltiplas escoriações na perna, e na face lateral da coxa direita, em região de projeção da articulação coxo-femoral. Apresenta febre e inapetência há 5 dias. Refere aparecimento súbito de dor intensa, há 3 dias, que não cede aos analgésicos comuns, acompanhada de área eritematosa e dolorosa à palpação, em região inguinal, estendendo-se ao terço proximal da face anterior da coxa. Constata-se que há limitação na amplitude do movimento da articulação coxo-femoral em virtude da dor. O exame de imagem mais indicado para o diagnóstico desse paciente é a",
   "alts": [
    "radiografia simples",
    "ressonância magnética",
@@ -3032,7 +3032,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Norma Técnica de Atenção Humanizada às Pessoas em Situação de Violência Sexual, 2015 e atualizações; PCDT de Profilaxia Pós-Exposição ao HIV, 2022",
+  "base": "Ministério da Saúde. Norma Técnica de Atenção Humanizada às Pessoas em Situação de Violência Sexual, 2015 e atualizações; PCDT de Profilaxia Pós-Exposição ao HIV, 2022",
   "coment": "O atendimento à pessoa em situação de violência sexual é urgência e não depende de boletim de ocorrência, exame pericial ou autorização judicial. Nas primeiras 72 horas oferecem-se contracepção de emergência com levonorgestrel em dose única, profilaxia das infecções sexualmente transmissíveis não virais em dose única, profilaxia pós-exposição ao HIV com antirretrovirais e vacinação e imunoglobulina para hepatite B conforme o status vacinal. O desconhecimento sorológico do agressor não posterga a profilaxia, e a notificação é compulsória e imediata.",
   "porAlt": [
    "Correta: levonorgestrel em dose única e profilaxia das infecções virais e não virais, independentemente do status do agressor.",
@@ -3059,7 +3059,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r1",
   "base": "NICE guideline on low back pain and sciatica, 2020; American College of Physicians, avaliação da lombalgia com bandeiras vermelhas",
-  "coment": "Lombalgia acompanhada de fraqueza em membros inferiores, anestesia em sela, alteração do hábito intestinal e retenção urinária configura síndrome da cauda equina — emergência neurocirúrgica em que o tempo até a descompressão determina a recuperação esfincteriana. A conduta é ressonância magnética da coluna lombossacra imediatamente e avaliação cirúrgica; nenhum outro exame precede a imagem. Radiografia não avalia raízes, e investigar infecção urinária diante de retenção com anestesia em sela desvia do diagnóstico que ameaça função definitiva.",
+  "coment": "Lombalgia acompanhada de fraqueza em membros inferiores, anestesia em sela, alteração do hábito intestinal e retenção urinária configura síndrome da cauda equina. Emergência neurocirúrgica em que o tempo até a descompressão determina a recuperação esfincteriana. A conduta é ressonância magnética da coluna lombossacra imediatamente e avaliação cirúrgica; nenhum outro exame precede a imagem. Radiografia não avalia raízes, e investigar infecção urinária diante de retenção com anestesia em sela desvia do diagnóstico que ameaça função definitiva.",
   "porAlt": [
    "Radiografia não avalia raízes nem cone medular e não exclui compressão.",
    "A punção lombar é contraindicada antes de excluir lesão compressiva e não é o exame indicado.",
@@ -3084,8 +3084,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025; AHA scientific statement on measurement of blood pressure in humans, 2019",
-  "coment": "Antes de interpretar qualquer valor pressórico, é preciso garantir a técnica: manguito de tamanho adequado ao braço, paciente sentado com dorso apoiado e pés no chão, braço na altura do coração, após cinco minutos de repouso, sem falar durante a medida. Manguito estreito ou curto demais superestima a pressão de forma expressiva, sobretudo em pessoas com sobrepeso — erro sistemático e frequente. Só depois de confirmada a técnica correta faz sentido repetir a medida, indicar monitorização ambulatorial ou residencial e discutir tratamento.",
+  "base": "Diretriz Brasileira de Hipertensão Arterial: SBC/SBH/SBN, 2025; AHA scientific statement on measurement of blood pressure in humans, 2019",
+  "coment": "Antes de interpretar qualquer valor pressórico, é preciso garantir a técnica: manguito de tamanho adequado ao braço, paciente sentado com dorso apoiado e pés no chão, braço na altura do coração, após cinco minutos de repouso, sem falar durante a medida. Manguito estreito ou curto demais superestima a pressão de forma expressiva, sobretudo em pessoas com sobrepeso, erro sistemático e frequente. Só depois de confirmada a técnica correta faz sentido repetir a medida, indicar monitorização ambulatorial ou residencial e discutir tratamento.",
   "porAlt": [
    "A polissonografia não é o passo inicial, e o quadro descrito não caracteriza apneia do sono.",
    "A monitorização ambulatorial é útil, mas depois de garantir que a medida de consultório foi feita corretamente.",
@@ -3111,7 +3111,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "IDSA/ATS Guidelines for the Management of Hospital-acquired and Ventilator-associated Pneumonia, 2016; IDSA Clinical Practice Guideline for the Management of Candidiasis, 2016",
-  "coment": "Duas lições se cruzam aqui. Primeira: Candida isolada em secreção traqueal de paciente intubado representa colonização, e não pneumonia — tratar antifúngico nesse cenário não traz benefício e é uma das principais fontes de uso desnecessário de antifúngico na terapia intensiva. Segunda: o Staphylococcus aureus é sensível à oxacilina, e o tratamento de escolha para essa cepa é um betalactâmico antiestafilocócico, como a cefazolina ou a própria oxacilina — vancomicina é inferior no estafilococo sensível e deve ser reservada às cepas resistentes.",
+  "coment": "Duas lições se cruzam aqui. Primeira: Candida isolada em secreção traqueal de paciente intubado representa colonização, e não pneumonia. Tratar antifúngico nesse cenário não traz benefício e é uma das principais fontes de uso desnecessário de antifúngico na terapia intensiva. Segunda: o Staphylococcus aureus é sensível à oxacilina, e o tratamento de escolha para essa cepa é um betalactâmico antiestafilocócico, como a cefazolina ou a própria oxacilina. Vancomicina é inferior no estafilococo sensível e deve ser reservada às cepas resistentes.",
   "porAlt": [
    "Correta: cefazolina, betalactâmico adequado ao estafilococo sensível, sem tratar a colonização por Candida.",
    "Clindamicina é alternativa de segunda linha e não é a escolha para bacteremia ou pneumonia estafilocócica.",
@@ -3137,7 +3137,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "DSM-5-TR (APA, 2022); NICE guideline on eating disorders: recognition and treatment, 2020",
-  "coment": "Restrição alimentar deliberada com perda ponderal acentuada, exercício excessivo, distorção da imagem corporal e amenorreia secundária em adolescente caracterizam anorexia nervosa do tipo restritivo. O tratamento de primeira linha é psicoterapia — com destaque para as intervenções baseadas na família em adolescentes —, associada à reabilitação nutricional cuidadosa, pelo risco de síndrome de realimentação, e ao acompanhamento clínico de eletrólitos, função cardíaca e densidade óssea. Não há fármaco de primeira linha, e bupropiona é contraindicada em transtornos alimentares.",
+  "coment": "Restrição alimentar deliberada com perda ponderal acentuada, exercício excessivo, distorção da imagem corporal e amenorreia secundária em adolescente caracterizam anorexia nervosa do tipo restritivo. O tratamento de primeira linha é psicoterapia, com destaque para as intervenções baseadas na família em adolescentes, associada à reabilitação nutricional cuidadosa, pelo risco de síndrome de realimentação, e ao acompanhamento clínico de eletrólitos, função cardíaca e densidade óssea. Não há fármaco de primeira linha, e bupropiona é contraindicada em transtornos alimentares.",
   "porAlt": [
    "A bulimia envolve compulsões com comportamentos compensatórios, negados no relato, e bupropiona é contraindicada nesse grupo pelo risco de convulsão.",
    "O hipertireoidismo cursa com perda de peso apesar do apetite aumentado, com taquicardia e tremor.",
@@ -3163,7 +3163,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "EULAR/ACR classification criteria for systemic lupus erythematosus, 2019; Sociedade Brasileira de Reumatologia, consenso de lúpus, 2022",
-  "coment": "Poliartrite migratória e não erosiva em mulher jovem, com fadiga e recidiva após anti-inflamatório, deve levantar a hipótese de lúpus eritematoso sistêmico, e o anticorpo antinuclear é o exame de entrada: é o critério de entrada dos critérios de classificação de 2019 e tem sensibilidade muito alta, de modo que um resultado negativo torna o diagnóstico improvável. Confirmado o FAN reagente, seguem-se anticorpos específicos — anti-DNA nativo e anti-Sm —, complemento, hemograma, urina tipo 1 e função renal.",
+  "coment": "Poliartrite migratória e não erosiva em mulher jovem, com fadiga e recidiva após anti-inflamatório, deve levantar a hipótese de lúpus eritematoso sistêmico, e o anticorpo antinuclear é o exame de entrada: é o critério de entrada dos critérios de classificação de 2019 e tem sensibilidade muito alta, de modo que um resultado negativo torna o diagnóstico improvável. Confirmado o FAN reagente, seguem-se anticorpos específicos, anti-DNA nativo e anti-Sm, complemento, hemograma, urina tipo 1 e função renal.",
   "porAlt": [
    "O HLA-B27 se associa a espondiloartrites, com dor axial inflamatória e entesite.",
    "O fator reumatoide é pouco específico e a artrite reumatoide é aditiva e simétrica, não migratória.",
@@ -3189,7 +3189,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r3",
   "base": "European guideline on diagnosis and treatment of hyponatraemia, 2014; ASCO/NCCN guidance on SIADH in malignancy",
-  "coment": "Câncer de pulmão de pequenas células é a causa clássica de síndrome de secreção inapropriada de hormônio antidiurético, e o paciente evoluiu com hiponatremia sintomática grave — rebaixamento de consciência e crise convulsiva. Nessa situação, o tratamento é solução salina a 3% em bólus ou infusão, visando elevar o sódio em 4 a 6 mEq/L rapidamente para cessar o sintoma neurológico, com correção total limitada a 8 a 10 mEq/L em 24 horas para evitar síndrome de desmielinização osmótica. Restrição hídrica é conduta da hiponatremia crônica assintomática.",
+  "coment": "Câncer de pulmão de pequenas células é a causa clássica de síndrome de secreção inapropriada de hormônio antidiurético, e o paciente evoluiu com hiponatremia sintomática grave. Rebaixamento de consciência e crise convulsiva. Nessa situação, o tratamento é solução salina a 3% em bólus ou infusão, visando elevar o sódio em 4 a 6 mEq/L rapidamente para cessar o sintoma neurológico, com correção total limitada a 8 a 10 mEq/L em 24 horas para evitar síndrome de desmielinização osmótica. Restrição hídrica é conduta da hiponatremia crônica assintomática.",
   "porAlt": [
    "Correta: salina hipertônica a 3%, tratamento da hiponatremia sintomática grave.",
    "Dexametasona trata edema por metástase cerebral, hipótese secundária diante de hiponatremia com convulsão.",
@@ -3214,8 +3214,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline — Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016; recomendações sobre dose de estresse em insuficiência adrenal",
-  "coment": "Todo paciente com insuficiência adrenal precisa conhecer a regra do dia de doença: diante de febre ou infecção, a dose de hidrocortisona deve ser dobrada ou triplicada enquanto durar o quadro, retornando à dose habitual depois. Aqui há infecção de vias aéreas com febre de 38,3 °C, mas o paciente está em bom estado geral, sem vômito, sem diarreia e sem instabilidade — não há crise adrenal, e portanto não há indicação de hidrocortisona parenteral nem de internação. Vômitos, diarreia, hipotensão ou rebaixamento mudam a conduta para dose parenteral e hospitalização.",
+  "base": "Endocrine Society Clinical Practice Guideline. Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016; recomendações sobre dose de estresse em insuficiência adrenal",
+  "coment": "Todo paciente com insuficiência adrenal precisa conhecer a regra do dia de doença: diante de febre ou infecção, a dose de hidrocortisona deve ser dobrada ou triplicada enquanto durar o quadro, retornando à dose habitual depois. Aqui há infecção de vias aéreas com febre de 38,3 °C, mas o paciente está em bom estado geral, sem vômito, sem diarreia e sem instabilidade. Não há crise adrenal, e portanto não há indicação de hidrocortisona parenteral nem de internação. Vômitos, diarreia, hipotensão ou rebaixamento mudam a conduta para dose parenteral e hospitalização.",
   "porAlt": [
    "Manter a dose habitual durante infecção febril arrisca desencadear crise adrenal.",
    "Hospitalizar sem ajustar a dose combina o erro terapêutico com internação desnecessária.",
@@ -3266,8 +3266,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "US Multi-Society Task Force on Colorectal Cancer — Recommendations for Follow-up After Colonoscopy and Polypectomy, 2020",
-  "coment": "O intervalo de vigilância após polipectomia depende do número, do tamanho e da histologia dos pólipos. Aqui há sete adenomas, um deles maior que 10 mm e um com componente viloso — cada um desses critérios já classificaria a paciente como de alto risco, e a recomendação é repetir a colonoscopia em três anos. Intervalos de sete a dez anos se aplicam a exame normal ou a um ou dois adenomas tubulares pequenos com displasia de baixo grau. Ressecção cirúrgica não se justifica quando todos os pólipos foram removidos completamente por via endoscópica.",
+  "base": "US Multi-Society Task Force on Colorectal Cancer. Recommendations for Follow-up After Colonoscopy and Polypectomy, 2020",
+  "coment": "O intervalo de vigilância após polipectomia depende do número, do tamanho e da histologia dos pólipos. Aqui há sete adenomas, um deles maior que 10 mm e um com componente viloso. Cada um desses critérios já classificaria a paciente como de alto risco, e a recomendação é repetir a colonoscopia em três anos. Intervalos de sete a dez anos se aplicam a exame normal ou a um ou dois adenomas tubulares pequenos com displasia de baixo grau. Ressecção cirúrgica não se justifica quando todos os pólipos foram removidos completamente por via endoscópica.",
   "porAlt": [
    "Correta: repetir a colonoscopia em três anos, pelo número e pelas características dos adenomas.",
    "O intervalo de sete a dez anos vale para exame normal ou poucos adenomas pequenos de baixo risco.",
@@ -3293,7 +3293,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r1",
   "base": "MDS Clinical Diagnostic Criteria for Parkinson’s Disease, 2015; Academia Brasileira de Neurologia, recomendações para doença de Parkinson",
-  "coment": "Bradicinesia associada a tremor de repouso e rigidez, com início assimétrico e progressão lenta, define parkinsonismo, e a presença de sintomas não motores prodrômicos — hiposmia, constipação e distúrbio comportamental do sono REM — reforça fortemente a doença de Parkinson. O diagnóstico é clínico; neuroimagem serve para afastar parkinsonismo secundário. O tratamento se apoia em levodopa, agonistas dopaminérgicos e inibidores enzimáticos, e a fisioterapia e o exercício estruturado têm efeito consistente na marcha e no equilíbrio.",
+  "coment": "Bradicinesia associada a tremor de repouso e rigidez, com início assimétrico e progressão lenta, define parkinsonismo, e a presença de sintomas não motores prodrômicos (hiposmia, constipação e distúrbio comportamental do sono REM) reforça fortemente a doença de Parkinson. O diagnóstico é clínico; neuroimagem serve para afastar parkinsonismo secundário. O tratamento se apoia em levodopa, agonistas dopaminérgicos e inibidores enzimáticos, e a fisioterapia e o exercício estruturado têm efeito consistente na marcha e no equilíbrio.",
   "porAlt": [
    "A demência vascular cursa com declínio cognitivo em degraus e sinais focais, e o paciente nega alteração cognitiva.",
    "O tremor essencial é postural e de ação, melhora com álcool e não vem com bradicinesia e rigidez.",
@@ -3319,7 +3319,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022; ACG guideline on eosinophilic esophagitis, 2025",
-  "coment": "Disfagia é sinal de alarme e, por si, indica endoscopia. Somada à falha de oito semanas de inibidor de bomba em dose dobrada, o exame indicado é a endoscopia digestiva alta com biópsias — inclusive de mucosa de aspecto normal, porque é assim que se diagnostica a esofagite eosinofílica, causa frequentemente perdida em adulto jovem rotulado como refluxo refratário. Manometria e pHmetria entram depois, se a endoscopia for normal e persistir a dúvida entre distúrbio motor e refluxo.",
+  "coment": "Disfagia é sinal de alarme e, por si, indica endoscopia. Somada à falha de oito semanas de inibidor de bomba em dose dobrada, o exame indicado é a endoscopia digestiva alta com biópsias, inclusive de mucosa de aspecto normal, porque é assim que se diagnostica a esofagite eosinofílica, causa frequentemente perdida em adulto jovem rotulado como refluxo refratário. Manometria e pHmetria entram depois, se a endoscopia for normal e persistir a dúvida entre distúrbio motor e refluxo.",
   "porAlt": [
    "A esofagomanometria investiga distúrbio motor, mas vem depois de excluir lesão estrutural e inflamatória.",
    "A pHmetria quantifica refluxo, e não é o primeiro exame diante de disfagia.",
@@ -3344,8 +3344,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, esquistossomose mansônica, 2024; PCDT de esquistossomose",
-  "coment": "Hematêmese e melena em paciente procedente de área endêmica, com história de contato com coleções de água doce onde há caramujos, sugerem forma hepatoesplênica da esquistossomose com hemorragia digestiva por varizes de esôfago. A investigação inicial combina ultrassonografia abdominal — que mostra a fibrose periportal de Symmers, achado característico e padronizado pela classificação de Niamey —, endoscopia digestiva alta para avaliar e tratar as varizes, e pesquisa de ovos nas fezes pelo método de Kato-Katz. O tratamento é praziquantel, além do manejo da hipertensão portal.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, esquistossomose mansônica, 2024; PCDT de esquistossomose",
+  "coment": "Hematêmese e melena em paciente procedente de área endêmica, com história de contato com coleções de água doce onde há caramujos, sugerem forma hepatoesplênica da esquistossomose com hemorragia digestiva por varizes de esôfago. A investigação inicial combina ultrassonografia abdominal (que mostra a fibrose periportal de Symmers, achado característico e padronizado pela classificação de Niamey), endoscopia digestiva alta para avaliar e tratar as varizes, e pesquisa de ovos nas fezes pelo método de Kato-Katz. O tratamento é praziquantel, além do manejo da hipertensão portal.",
   "porAlt": [
    "A intradermorreação não é usada na rotina diagnóstica e a ultrassonografia é essencial para avaliar a fibrose periportal.",
    "Correta: ultrassonografia abdominal, endoscopia digestiva alta e pesquisa de ovos nas fezes.",
@@ -3371,7 +3371,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r1",
   "base": "Critérios de Roma IV; ACG Clinical Guideline: Management of Irritable Bowel Syndrome, 2021",
-  "coment": "Dor abdominal recorrente há anos, associada à evacuação e a mudança na forma das fezes, alternando constipação e fezes amolecidas, sem sangue, sem muco, sem perda de peso e sem sinais de alarme, preenche os critérios de Roma IV para síndrome do intestino irritável. É diagnóstico positivo, com investigação mínima dirigida — sorologia de doença celíaca e calprotectina fecal, conforme o subtipo. O manejo começa pela relação terapêutica e pela explicação do mecanismo, e inclui dieta orientada, exercício, manejo do estresse e fármaco conforme o sintoma dominante.",
+  "coment": "Dor abdominal recorrente há anos, associada à evacuação e a mudança na forma das fezes, alternando constipação e fezes amolecidas, sem sangue, sem muco, sem perda de peso e sem sinais de alarme, preenche os critérios de Roma IV para síndrome do intestino irritável. É diagnóstico positivo, com investigação mínima dirigida. Sorologia de doença celíaca e calprotectina fecal, conforme o subtipo. O manejo começa pela relação terapêutica e pela explicação do mecanismo, e inclui dieta orientada, exercício, manejo do estresse e fármaco conforme o sintoma dominante.",
   "porAlt": [
    "A doença celíaca deve ser afastada por sorologia, mas o quadro descrito não a sugere como diagnóstico principal.",
    "Não há sinais de alarme que sugiram neoplasia em paciente de 28 anos com quatro anos de sintomas estáveis.",
@@ -3397,7 +3397,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r3",
   "base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021; ESGE guideline on non-variceal upper gastrointestinal haemorrhage, 2021",
-  "coment": "Ressangramento após terapia endoscópica bem-sucedida em úlcera péptica com estigma de alto risco é indicação de nova tentativa endoscópica, e não de cirurgia — a segunda endoscopia obtém hemostasia na maioria dos casos, com menos complicações que a abordagem cirúrgica. O inibidor de bomba intravenoso em infusão contínua é adjuvante obrigatório, mas não substitui a hemostasia mecânica ou térmica. Falhando a segunda endoscopia, as opções são embolização arterial por radiologia intervencionista e, por último, cirurgia.",
+  "coment": "Ressangramento após terapia endoscópica bem-sucedida em úlcera péptica com estigma de alto risco é indicação de nova tentativa endoscópica, e não de cirurgia. A segunda endoscopia obtém hemostasia na maioria dos casos, com menos complicações que a abordagem cirúrgica. O inibidor de bomba intravenoso em infusão contínua é adjuvante obrigatório, mas não substitui a hemostasia mecânica ou térmica. Falhando a segunda endoscopia, as opções são embolização arterial por radiologia intervencionista e, por último, cirurgia.",
   "porAlt": [
    "Gastrectomia total é desproporcional e não é a conduta de resgate inicial.",
    "A cirurgia por videolaparoscopia com antrectomia não é a primeira opção após ressangramento.",
@@ -3423,7 +3423,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "ESC Guidelines on cardiomyopathies, 2023; AHA scientific statement on alcohol and cardiovascular health",
-  "coment": "Insuficiência cardíaca com dispneia, ortopneia, refluxo hepatojugular e edema em paciente de meia-idade com consumo alcoólico elevado e sustentado aponta para cardiomiopatia alcoólica — causa reversível de disfunção ventricular quando o consumo cessa, o que torna a abstinência parte do tratamento, ao lado da terapia otimizada da insuficiência cardíaca e da reposição de tiamina. A amiloidose é o diferencial sugerido pela síndrome do túnel do carpo, mas exigiria outros achados, como espessamento parietal com baixa voltagem no eletrocardiograma.",
+  "coment": "Insuficiência cardíaca com dispneia, ortopneia, refluxo hepatojugular e edema em paciente de meia-idade com consumo alcoólico elevado e sustentado aponta para cardiomiopatia alcoólica. Causa reversível de disfunção ventricular quando o consumo cessa, o que torna a abstinência parte do tratamento, ao lado da terapia otimizada da insuficiência cardíaca e da reposição de tiamina. A amiloidose é o diferencial sugerido pela síndrome do túnel do carpo, mas exigiria outros achados, como espessamento parietal com baixa voltagem no eletrocardiograma.",
   "porAlt": [
    "A amiloidose por transtirretina é diferencial relevante, sugerido pelo túnel do carpo, mas exigiria achados eletrocardiográficos e de imagem específicos.",
    "Correta: cardiomiopatia alcoólica, potencialmente reversível com abstinência.",
@@ -3449,11 +3449,11 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "ASGE guideline on the role of endoscopy in the evaluation of suspected choledocholithiasis, 2019; Tokyo Guidelines 2018",
-  "coment": "Dor biliar com icterícia e padrão laboratorial colestático — fosfatase alcalina e gama-GT elevadas com bilirrubina aumentada —, sem febre e sem leucocitose, indica coledocolitíase sem colangite. A ausência de febre afasta a tríade de Charcot, e a ausência de sinal de Murphy e de leucocitose afasta colecistite. A conduta é confirmar por colangiorressonância ou ecoendoscopia quando a probabilidade é intermediária, e proceder à colangiopancreatografia retrógrada com papilotomia quando é alta, seguida de colecistectomia na mesma internação.",
+  "coment": "Dor biliar com icterícia e padrão laboratorial colestático, fosfatase alcalina e gama-GT elevadas com bilirrubina aumentada, sem febre e sem leucocitose, indica coledocolitíase sem colangite. A ausência de febre afasta a tríade de Charcot, e a ausência de sinal de Murphy e de leucocitose afasta colecistite. A conduta é confirmar por colangiorressonância ou ecoendoscopia quando a probabilidade é intermediária, e proceder à colangiopancreatografia retrógrada com papilotomia quando é alta, seguida de colecistectomia na mesma internação.",
   "porAlt": [
    "A cólica biliar simples não cursa com icterícia e padrão colestático laboratorial.",
    "A colangite exigiria febre, ausente no caso, além da dor e da icterícia.",
-   "Correta: coledocolitíase — dor biliar com icterícia e colestase, sem febre.",
+   "Correta: coledocolitíase. Dor biliar com icterícia e colestase, sem febre.",
    "A colecistite aguda cursa com febre, leucocitose e sinal de Murphy, sem esse grau de colestase."
   ],
   "fonte": {
@@ -3475,7 +3475,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "ACG Clinical Guideline on Chronic Diarrhea, 2025; British Society of Gastroenterology guidelines on bile acid diarrhoea, 2018",
-  "coment": "Diarreia aquosa crônica, com despertar noturno — o que caracteriza doença orgânica —, em paciente colecistectomizada, com calprotectina e proteína C reativa normais, é o quadro típico de má absorção de sais biliares. Sem a vesícula, o fluxo biliar contínuo excede a capacidade de reabsorção ileal, e os sais biliares no cólon induzem secreção. O tratamento e ao mesmo tempo teste diagnóstico é o sequestrante — colestiramina, colestipol ou colesevelam. Muitos desses pacientes carregam por anos o rótulo de intestino irritável.",
+  "coment": "Diarreia aquosa crônica, com despertar noturno, o que caracteriza doença orgânica, em paciente colecistectomizada, com calprotectina e proteína C reativa normais, é o quadro típico de má absorção de sais biliares. Sem a vesícula, o fluxo biliar contínuo excede a capacidade de reabsorção ileal, e os sais biliares no cólon induzem secreção. O tratamento e ao mesmo tempo teste diagnóstico é o sequestrante, colestiramina, colestipol ou colesevelam. Muitos desses pacientes carregam por anos o rótulo de intestino irritável.",
   "porAlt": [
    "Amitriptilina é adjuvante da dor na síndrome do intestino irritável, e a diarreia noturna afasta quadro funcional.",
    "Correta: colestiramina, sequestrante de sais biliares, diagnóstica e terapêutica.",
@@ -3500,8 +3500,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Endocrine Society Clinical Practice Guideline — Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016",
-  "coment": "Astenia, perda de peso, hipotensão postural, hiperpigmentação, hiponatremia, hipercalemia e hipoglicemia, com cortisol matinal baixo e ACTH muito elevado, fecham insuficiência adrenal primária — o ACTH alto localiza a lesão na adrenal e dispensa o teste de estímulo, que só seria necessário diante de cortisol indeterminado. O tratamento é reposição imediata de glicocorticoide e mineralocorticoide: hidrocortisona e fludrocortisona. Postergar para repetir exames arrisca crise adrenal, e reposição isolada de mineralocorticoide é insuficiente.",
+  "base": "Endocrine Society Clinical Practice Guideline, Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016",
+  "coment": "Astenia, perda de peso, hipotensão postural, hiperpigmentação, hiponatremia, hipercalemia e hipoglicemia, com cortisol matinal baixo e ACTH muito elevado, fecham insuficiência adrenal primária. O ACTH alto localiza a lesão na adrenal e dispensa o teste de estímulo, que só seria necessário diante de cortisol indeterminado. O tratamento é reposição imediata de glicocorticoide e mineralocorticoide: hidrocortisona e fludrocortisona. Postergar para repetir exames arrisca crise adrenal, e reposição isolada de mineralocorticoide é insuficiente.",
   "porAlt": [
    "Repetir exames adia a reposição, e fludrocortisona isolada não substitui o glicocorticoide.",
    "Correta: iniciar hidrocortisona e fludrocortisona, com diagnóstico já estabelecido.",
@@ -3526,8 +3526,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Geriatrics Society — recomendações sobre desnutrição e restrição dietética em idosos; ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022",
-  "coment": "Perda de peso não intencional em idosa é evento de alto risco, associado a sarcopenia, quedas, internação e mortalidade. Dietas restritivas — hipossódicas e com restrição de carboidratos — reduzem palatabilidade e ingestão calórica e têm benefício marginal nessa faixa etária, motivo pelo qual as diretrizes recomendam flexibilizá-las para priorizar aporte energético e proteico. Também fazem parte da avaliação a triagem de disfagia sugerida pelos engasgos, a revisão de fármacos, a saúde bucal e o rastreio de causas orgânicas.",
+  "base": "American Geriatrics Society. Recomendações sobre desnutrição e restrição dietética em idosos; ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022",
+  "coment": "Perda de peso não intencional em idosa é evento de alto risco, associado a sarcopenia, quedas, internação e mortalidade. Dietas restritivas, hipossódicas e com restrição de carboidratos, reduzem palatabilidade e ingestão calórica e têm benefício marginal nessa faixa etária, motivo pelo qual as diretrizes recomendam flexibilizá-las para priorizar aporte energético e proteico. Também fazem parte da avaliação a triagem de disfagia sugerida pelos engasgos, a revisão de fármacos, a saúde bucal e o rastreio de causas orgânicas.",
   "porAlt": [
    "Trocar losartana por enalapril não resolve a perda de peso e acrescenta risco de tosse.",
    "Substituir metformina por inibidor de SGLT2 pode agravar a perda de peso.",
@@ -3553,7 +3553,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r3",
   "base": "AASLD Practice Guidance on coagulation disorders in patients with cirrhosis, 2021; ASH guidelines for VTE prophylaxis in hospitalized patients, 2018",
-  "coment": "Cirrose não é estado de anticoagulação natural: o INR alargado reflete a queda dos fatores pró-coagulantes, mas os anticoagulantes naturais também caem, e o equilíbrio é instável — pacientes cirróticos internados têm risco aumentado de tromboembolismo venoso, inclusive de trombose portal. Por isso, INR alargado e plaquetopenia moderada não contraindicam profilaxia farmacológica, e a heparina de baixo peso molecular está indicada. A contraindicação real seria sangramento ativo ou plaquetas muito baixas, em geral abaixo de 50 mil.",
+  "coment": "Cirrose não é estado de anticoagulação natural: o INR alargado reflete a queda dos fatores pró-coagulantes, mas os anticoagulantes naturais também caem, e o equilíbrio é instável. Pacientes cirróticos internados têm risco aumentado de tromboembolismo venoso, inclusive de trombose portal. Por isso, INR alargado e plaquetopenia moderada não contraindicam profilaxia farmacológica, e a heparina de baixo peso molecular está indicada. A contraindicação real seria sangramento ativo ou plaquetas muito baixas, em geral abaixo de 50 mil.",
   "porAlt": [
    "A profilaxia mecânica isolada subestima o risco trombótico e não é a primeira escolha sem contraindicação farmacológica.",
    "Correta: heparina de baixo peso molecular, indicada apesar do INR alargado.",
@@ -3579,7 +3579,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "ESC Guidelines for the management of adult congenital heart disease, 2020; AHA/ACC guideline for the management of adults with congenital heart disease, 2018",
-  "coment": "Desdobramento fixo da segunda bulha — que não varia com a respiração — é o achado semiológico característico da comunicação interatrial, porque o shunt esquerda-direita mantém sobrecarga constante do ventrículo direito e retarda o fechamento pulmonar em todas as fases do ciclo respiratório. A dispneia progressiva em adulto jovem completa o quadro. O risco clássico é a embolia paradoxal: um trombo venoso atravessa o defeito e alcança a circulação sistêmica, causando acidente vascular cerebral em paciente jovem sem outros fatores de risco.",
+  "coment": "Desdobramento fixo da segunda bulha, que não varia com a respiração, é o achado semiológico característico da comunicação interatrial, porque o shunt esquerda-direita mantém sobrecarga constante do ventrículo direito e retarda o fechamento pulmonar em todas as fases do ciclo respiratório. A dispneia progressiva em adulto jovem completa o quadro. O risco clássico é a embolia paradoxal: um trombo venoso atravessa o defeito e alcança a circulação sistêmica, causando acidente vascular cerebral em paciente jovem sem outros fatores de risco.",
   "porAlt": [
    "A estenose pulmonar causa sopro sistólico ejetivo com clique e desdobramento amplo, mas variável.",
    "A estenose mitral cursa com ruflar diastólico e primeira bulha hiperfonética.",
@@ -3604,8 +3604,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025; AHA scientific statement on hypertensive crises",
-  "coment": "Elevação pressórica grave com confusão mental e papiledema caracteriza emergência hipertensiva com encefalopatia — lesão aguda de órgão-alvo que exige internação em ambiente monitorizado e redução controlada da pressão por via intravenosa, com nitroprussiato de sódio ou nicardipina, buscando queda de 20 a 25% na primeira hora, e não normalização abrupta, que causa isquemia. O contexto sugere ainda rebote pela suspensão da clonidina, agravado pelo betabloqueio sem alfabloqueio prévio — mecanismo idêntico ao erro cometido no feocromocitoma.",
+  "base": "Diretriz Brasileira de Hipertensão Arterial: SBC/SBH/SBN, 2025; AHA scientific statement on hypertensive crises",
+  "coment": "Elevação pressórica grave com confusão mental e papiledema caracteriza emergência hipertensiva com encefalopatia, lesão aguda de órgão-alvo que exige internação em ambiente monitorizado e redução controlada da pressão por via intravenosa, com nitroprussiato de sódio ou nicardipina, buscando queda de 20 a 25% na primeira hora, e não normalização abrupta, que causa isquemia. O contexto sugere ainda rebote pela suspensão da clonidina, agravado pelo betabloqueio sem alfabloqueio prévio. Mecanismo idêntico ao erro cometido no feocromocitoma.",
   "porAlt": [
    "Intubar e dosar enzimas cardíacas não é a prioridade diante de encefalopatia hipertensiva com papiledema.",
    "Correta: monitorização, acesso venoso e anti-hipertensivo intravenoso titulável, com redução controlada.",
@@ -3630,7 +3630,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "INCA/Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020; US Public Health Service, Treating Tobacco Use and Dependence",
+  "base": "INCA/Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020; US Public Health Service, Treating Tobacco Use and Dependence",
   "coment": "O programa brasileiro de cessação do tabagismo é estruturado em abordagem cognitivo-comportamental, preferencialmente em grupo, com quatro sessões iniciais semanais e manutenção, associada a farmacoterapia conforme o grau de dependência. O formato em grupo funciona pela interação, pelo apoio mútuo e pelo compartilhamento de estratégias, com resultados equivalentes ou superiores ao atendimento individual e melhor custo-efetividade. Aconselhamento e medicação são eficazes isoladamente e mais eficazes em conjunto, e intervenções mais intensas produzem maiores taxas de abstinência.",
   "porAlt": [
    "Intervenções mais intensas produzem taxas de abstinência maiores que a intervenção breve.",
@@ -3657,7 +3657,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "NCCN Guidelines for Hodgkin Lymphoma, 2025; INCA, diretrizes diagnósticas e terapêuticas do linfoma de Hodgkin, 2022",
-  "coment": "Linfonodo cervical firme, indolor e persistente, com prurido generalizado, calafrios recorrentes e taquicardia em adulta jovem, aponta para linfoma — o prurido e os sintomas B são apresentação típica do Hodgkin. Nesse cenário, aguardar resolução, tratar com antibiótico ou prescrever corticoide são condutas prejudiciais: o corticoide, em especial, pode induzir remissão parcial e comprometer o diagnóstico histológico. A conduta é biópsia excisional do linfonodo, que preserva a arquitetura necessária ao diagnóstico e à classificação.",
+  "coment": "Linfonodo cervical firme, indolor e persistente, com prurido generalizado, calafrios recorrentes e taquicardia em adulta jovem, aponta para linfoma. O prurido e os sintomas B são apresentação típica do Hodgkin. Nesse cenário, aguardar resolução, tratar com antibiótico ou prescrever corticoide são condutas prejudiciais: o corticoide, em especial, pode induzir remissão parcial e comprometer o diagnóstico histológico. A conduta é biópsia excisional do linfonodo, que preserva a arquitetura necessária ao diagnóstico e à classificação.",
   "porAlt": [
    "A sorologia para mononucleose não explica três meses de evolução com prurido e linfonodo endurecido.",
    "Antibiótico trata adenite bacteriana, que seria dolorosa e de curta evolução.",
@@ -3683,7 +3683,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r3",
   "base": "AASLD Practice Guidance on coagulation disorders in patients with cirrhosis, 2021; ASH/ISTH guidance on periprocedural management in liver disease",
-  "coment": "Na cirrose, o INR alargado não prediz risco de sangramento: ele mede apenas os fatores pró-coagulantes, enquanto os anticoagulantes naturais também estão reduzidos, mantendo um equilíbrio instável. Por isso, corrigir INR com plasma ou complexo protrombínico antes de procedimento é prática abandonada — não reduz sangramento, causa sobrecarga de volume e eleva a pressão portal. Transfusão de plaquetas se discute em contagens muito baixas, em geral abaixo de 50 mil, o que não é o caso, e a vitamina K só ajuda quando há deficiência associada.",
+  "coment": "Na cirrose, o INR alargado não prediz risco de sangramento: ele mede apenas os fatores pró-coagulantes, enquanto os anticoagulantes naturais também estão reduzidos, mantendo um equilíbrio instável. Por isso, corrigir INR com plasma ou complexo protrombínico antes de procedimento é prática abandonada. Não reduz sangramento, causa sobrecarga de volume e eleva a pressão portal. Transfusão de plaquetas se discute em contagens muito baixas, em geral abaixo de 50 mil, o que não é o caso, e a vitamina K só ajuda quando há deficiência associada.",
   "porAlt": [
    "Vitamina K corrige deficiência específica, e não a coagulopatia da hepatopatia crônica.",
    "Plasma ou complexo protrombínico não reduz sangramento e aumenta volume e pressão portal.",
@@ -3709,8 +3709,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "INCA/Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020; Miller e Rollnick, entrevista motivacional",
-  "coment": "A paciente tem dependência muito elevada pelo teste de Fagerström, motivação para cessar em estágio pré-contemplativo e diagnóstico recente de câncer de pulmão — condição em que parar de fumar melhora resposta ao tratamento, cicatrização e sobrevida. A abordagem indicada combina entrevista motivacional, para trabalhar a ambivalência sem confronto, apoio cognitivo-comportamental e farmacoterapia plena, que na dependência elevada costuma associar reposição de nicotina em duas formas ou reposição combinada a bupropiona ou vareniclina.",
+  "base": "INCA/Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020; Miller e Rollnick, entrevista motivacional",
+  "coment": "A paciente tem dependência muito elevada pelo teste de Fagerström, motivação para cessar em estágio pré-contemplativo e diagnóstico recente de câncer de pulmão. Condição em que parar de fumar melhora resposta ao tratamento, cicatrização e sobrevida. A abordagem indicada combina entrevista motivacional, para trabalhar a ambivalência sem confronto, apoio cognitivo-comportamental e farmacoterapia plena, que na dependência elevada costuma associar reposição de nicotina em duas formas ou reposição combinada a bupropiona ou vareniclina.",
   "porAlt": [
    "Correta: entrevista motivacional com suporte comportamental e farmacoterapia adequada.",
    "Cigarro eletrônico não é estratégia aprovada de cessação no Brasil e é proibido pela ANVISA.",
@@ -3737,7 +3737,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r1",
   "base": "ASH Guidelines for Management of Venous Thromboembolism: Diagnosis of VTE, 2018; ESC Guidelines on acute pulmonary embolism, 2019",
-  "coment": "Dor, edema progressivo e aumento de sensibilidade em membro inferior de paciente com neoplasia ativa configuram alta probabilidade clínica de trombose venosa profunda — o câncer é um dos principais fatores de risco, tanto pela doença quanto pelo tratamento. Com probabilidade alta pelo escore de Wells, o exame indicado é a ultrassonografia com Doppler, e o dímero-D perde utilidade, pois já está elevado na maioria dos pacientes oncológicos. Confirmada a trombose, a anticoagulação preferida hoje é com anticoagulante oral direto ou heparina de baixo peso molecular.",
+  "coment": "Dor, edema progressivo e aumento de sensibilidade em membro inferior de paciente com neoplasia ativa configuram alta probabilidade clínica de trombose venosa profunda. O câncer é um dos principais fatores de risco, tanto pela doença quanto pelo tratamento. Com probabilidade alta pelo escore de Wells, o exame indicado é a ultrassonografia com Doppler, e o dímero-D perde utilidade, pois já está elevado na maioria dos pacientes oncológicos. Confirmada a trombose, a anticoagulação preferida hoje é com anticoagulante oral direto ou heparina de baixo peso molecular.",
   "porAlt": [
    "A flebografia é invasiva e foi substituída pela ultrassonografia com Doppler.",
    "A arteriografia investiga doença arterial, e o pulso está presente.",
@@ -3763,7 +3763,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "ESPEN practical guideline: Clinical Nutrition in Cancer, 2021; consenso brasileiro de nutrição em oncologia",
-  "coment": "As metas nutricionais em oncologia se calculam pelo peso: 25 a 30 quilocalorias por quilo por dia e 1 a 1,5 grama de proteína por quilo por dia, podendo chegar a 2 gramas em depleção acentuada. Para 70 kg, isso corresponde a cerca de 2.000 quilocalorias e cerca de 100 gramas de proteína. Perda de 10% do peso caracteriza risco nutricional elevado e justifica intervenção precoce, com suplementação oral e, quando insuficiente, terapia enteral — a desnutrição reduz tolerância à quimioterapia, aumenta toxicidade e piora o desfecho cirúrgico.",
+  "coment": "As metas nutricionais em oncologia se calculam pelo peso: 25 a 30 quilocalorias por quilo por dia e 1 a 1,5 grama de proteína por quilo por dia, podendo chegar a 2 gramas em depleção acentuada. Para 70 kg, isso corresponde a cerca de 2.000 quilocalorias e cerca de 100 gramas de proteína. Perda de 10% do peso caracteriza risco nutricional elevado e justifica intervenção precoce, com suplementação oral e, quando insuficiente, terapia enteral. A desnutrição reduz tolerância à quimioterapia, aumenta toxicidade e piora o desfecho cirúrgico.",
   "porAlt": [
    "Correta: cerca de 2.000 quilocalorias e 100 gramas de proteína, pelo cálculo por quilo de peso.",
    "Duzentos gramas de proteína excedem largamente a recomendação máxima de 2 g/kg.",
@@ -3788,8 +3788,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Epidemiologia — viés de aferição em estudos caso-controle; Rothman, Modern Epidemiology, 4ª edição, 2021",
-  "coment": "A razão de chances compara a chance de exposição entre casos e controles. Se os controles subestimam sistematicamente o tabagismo por desejabilidade social, a exposição medida no grupo controle fica artificialmente baixa, o denominador da razão diminui e a razão de chances resulta maior que a verdadeira — ou seja, superestimada. Trata-se de viés de aferição diferencial, e a maneira de reduzi-lo é usar medidas objetivas, como cotinina, ou coleta padronizada e cega quanto ao desfecho.",
+  "base": "Epidemiologia. Viés de aferição em estudos caso-controle; Rothman, Modern Epidemiology, 4ª edição, 2021",
+  "coment": "A razão de chances compara a chance de exposição entre casos e controles. Se os controles subestimam sistematicamente o tabagismo por desejabilidade social, a exposição medida no grupo controle fica artificialmente baixa, o denominador da razão diminui e a razão de chances resulta maior que a verdadeira, ou seja, superestimada. Trata-se de viés de aferição diferencial, e a maneira de reduzi-lo é usar medidas objetivas, como cotinina, ou coleta padronizada e cega quanto ao desfecho.",
   "porAlt": [
    "Correta: a razão de chances será superestimada, porque a exposição nos controles é subnotificada.",
    "A subestimação da razão ocorreria se os casos é que subnotificassem a exposição.",
@@ -3815,7 +3815,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "NCCN Guidelines for Antiemesis, 2025; ASCO Antiemetics Guideline Update, 2020",
-  "coment": "Em êmese por quimioterapia altamente emetogênica que persiste apesar de esquema tríplice com antagonista de receptor de serotonina, corticoide e antagonista de neurocinina-1, a adição recomendada é a olanzapina — que bloqueia múltiplos receptores envolvidos na êmese e mostrou superioridade em ensaios randomizados, tanto na fase aguda quanto na tardia. O esquema quádruplo passou a ser padrão nesses regimes. Metoclopramida, haloperidol e anti-histamínicos permanecem como opções de resgate, com evidência inferior.",
+  "coment": "Em êmese por quimioterapia altamente emetogênica que persiste apesar de esquema tríplice com antagonista de receptor de serotonina, corticoide e antagonista de neurocinina-1, a adição recomendada é a olanzapina. Que bloqueia múltiplos receptores envolvidos na êmese e mostrou superioridade em ensaios randomizados, tanto na fase aguda quanto na tardia. O esquema quádruplo passou a ser padrão nesses regimes. Metoclopramida, haloperidol e anti-histamínicos permanecem como opções de resgate, com evidência inferior.",
   "porAlt": [
    "Metoclopramida é opção de resgate com evidência inferior à olanzapina nesse cenário.",
    "Haloperidol é alternativa de resgate, não a adição preferida ao esquema profilático.",
@@ -3840,8 +3840,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Epidemiologia clínica — interpretação de hazard ratio e intervalo de confiança; ensaio CHALLENGE de exercício estruturado em câncer de cólon, 2025",
-  "coment": "O hazard ratio de 0,72 indica redução de 28% no risco relativo do desfecho, e o intervalo de confiança de 95% entre 0,55 e 0,94 não inclui o valor nulo de 1, o que significa significância estatística. A diferença absoluta de sobrevida livre de doença em cinco anos, de 80,3% contra 73,9%, são 6,4 pontos percentuais — magnitude clinicamente relevante para uma intervenção não farmacológica, segura e de baixo custo. Ensaio randomizado com quase 900 pacientes e seguimento de quase oito anos é desenho adequado para esse desfecho.",
+  "base": "Epidemiologia clínica. Interpretação de hazard ratio e intervalo de confiança; ensaio CHALLENGE de exercício estruturado em câncer de cólon, 2025",
+  "coment": "O hazard ratio de 0,72 indica redução de 28% no risco relativo do desfecho, e o intervalo de confiança de 95% entre 0,55 e 0,94 não inclui o valor nulo de 1, o que significa significância estatística. A diferença absoluta de sobrevida livre de doença em cinco anos, de 80,3% contra 73,9%, são 6,4 pontos percentuais. Magnitude clinicamente relevante para uma intervenção não farmacológica, segura e de baixo custo. Ensaio randomizado com quase 900 pacientes e seguimento de quase oito anos é desenho adequado para esse desfecho.",
   "porAlt": [
    "Randomização protege contra viés de seleção, e o problema levantado não se aplica.",
    "Quase oito anos de seguimento é tempo adequado para sobrevida livre de doença nesse cenário.",
@@ -3866,8 +3866,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; CDC STI Treatment Guidelines, 2021",
-  "coment": "Alteração de personalidade com desinibição, associada a pupilas mióticas que não reagem à luz — pupila de Argyll Robertson — e a comprometimento do cordão posterior, com perda vibratória e sinal de Romberg, é a apresentação da neurossífilis nas formas parética e tabética. O exame que confirma é a punção lombar com VDRL no líquido cefalorraquidiano, ao lado de celularidade e proteína. O tratamento é penicilina cristalina intravenosa por 14 dias, e a demência da neurossífilis é uma das poucas causas potencialmente reversíveis.",
+  "base": "Ministério da Saúde. PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; CDC STI Treatment Guidelines, 2021",
+  "coment": "Alteração de personalidade com desinibição, associada a pupilas mióticas que não reagem à luz, pupila de Argyll Robertson, e a comprometimento do cordão posterior, com perda vibratória e sinal de Romberg, é a apresentação da neurossífilis nas formas parética e tabética. O exame que confirma é a punção lombar com VDRL no líquido cefalorraquidiano, ao lado de celularidade e proteína. O tratamento é penicilina cristalina intravenosa por 14 dias, e a demência da neurossífilis é uma das poucas causas potencialmente reversíveis.",
   "porAlt": [
    "O eletroencefalograma não estabelece esse diagnóstico.",
    "A deficiência de folato não explica a pupila de Argyll Robertson.",
@@ -3892,8 +3892,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "OMS — AUDIT: Guidelines for Use in Primary Care, 2ª edição, 2001; Ministério da Saúde, Guia de intervenção breve para uso de álcool, 2021",
-  "coment": "O AUDIT rastreia uso problemático de álcool: escores de 8 a 15 indicam uso de risco, 16 a 19 uso nocivo e 20 ou mais sugerem provável dependência, com indicação de avaliação e tratamento. O escore de 22 é, portanto, rastreamento positivo em faixa de dependência. O manejo combina intervenção breve e psicoterapia com farmacoterapia — naltrexona ou acamprosato, ambos de primeira linha —, e a situação exige ainda orientação explícita sobre dirigir, dado que se trata de exame admissional para motorista profissional.",
+  "base": "OMS. AUDIT: Guidelines for Use in Primary Care, 2ª edição, 2001; Ministério da Saúde, Guia de intervenção breve para uso de álcool, 2021",
+  "coment": "O AUDIT rastreia uso problemático de álcool: escores de 8 a 15 indicam uso de risco, 16 a 19 uso nocivo e 20 ou mais sugerem provável dependência, com indicação de avaliação e tratamento. O escore de 22 é, portanto, rastreamento positivo em faixa de dependência. O manejo combina intervenção breve e psicoterapia com farmacoterapia (naltrexona ou acamprosato, ambos de primeira linha), e a situação exige ainda orientação explícita sobre dirigir, dado que se trata de exame admissional para motorista profissional.",
   "porAlt": [
    "Escore de 22 é rastreamento positivo, e não negativo, e a farmacoterapia não é dispensável.",
    "Correta: rastreamento positivo, com orientação sobre direção e oferta de naltrexona ou acamprosato.",
@@ -3919,8 +3919,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "AGS Beers Criteria 2023 — medicamentos potencialmente inapropriados em idosos",
-  "coment": "Os critérios de Beers listam os benzodiazepínicos entre os medicamentos potencialmente inapropriados em idosos, por aumentarem comprometimento cognitivo, delirium, quedas e fraturas — e esta paciente já apresenta o desfecho que se queria evitar. A conduta correta é a desprescrição planejada, com redução gradual, tipicamente de 10% a 25% da dose a cada duas a quatro semanas, associada a terapia cognitivo-comportamental para insônia, que é a intervenção de primeira linha. A retirada abrupta após anos de uso pode provocar abstinência com ansiedade de rebote e convulsão. Zolpidem e anti-histamínicos de primeira geração constam da mesma lista e não são alternativas seguras.",
+  "base": "AGS Beers Criteria 2023, medicamentos potencialmente inapropriados em idosos",
+  "coment": "Os critérios de Beers listam os benzodiazepínicos entre os medicamentos potencialmente inapropriados em idosos, por aumentarem comprometimento cognitivo, delirium, quedas e fraturas, e esta paciente já apresenta o desfecho que se queria evitar. A conduta correta é a desprescrição planejada, com redução gradual, tipicamente de 10% a 25% da dose a cada duas a quatro semanas, associada a terapia cognitivo-comportamental para insônia, que é a intervenção de primeira linha. A retirada abrupta após anos de uso pode provocar abstinência com ansiedade de rebote e convulsão. Zolpidem e anti-histamínicos de primeira geração constam da mesma lista e não são alternativas seguras.",
   "porAlt": [
    "O zolpidem consta da mesma lista de medicamentos inapropriados e associa-se a queda e fratura, somando risco em vez de resolver.",
    "Meia-vida longa é justamente o que piora o acúmulo e a sonolência residual no idoso, com mais queda, e não menos.",
@@ -3944,7 +3944,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r1",
   "base": "AGS Beers Criteria 2023 e diretrizes de delirium do American Geriatrics Society, 2015 (reafirmadas)",
-  "coment": "O quadro é delirium: início agudo, curso flutuante, desatenção e alteração do nível de consciência. O tratamento é a correção da causa — infecção, dor, retenção urinária, constipação, distúrbio hidroeletrolítico, droga nova — somada a medidas não farmacológicas: reorientação, mobilização precoce, óculos e aparelho auditivo disponíveis, higiene do sono, presença de familiar. Antipsicótico é reservado para agitação que ameaça a segurança, na menor dose e pelo menor tempo, nunca de horário profilático. Benzodiazepínico piora o delirium, exceto na abstinência alcoólica. Contenção mecânica de rotina agrava agitação e aumenta lesão.",
+  "coment": "O quadro é delirium: início agudo, curso flutuante, desatenção e alteração do nível de consciência. O tratamento é a correção da causa (infecção, dor, retenção urinária, constipação, distúrbio hidroeletrolítico, droga nova) somada a medidas não farmacológicas: reorientação, mobilização precoce, óculos e aparelho auditivo disponíveis, higiene do sono, presença de familiar. Antipsicótico é reservado para agitação que ameaça a segurança, na menor dose e pelo menor tempo, nunca de horário profilático. Benzodiazepínico piora o delirium, exceto na abstinência alcoólica. Contenção mecânica de rotina agrava agitação e aumenta lesão.",
   "porAlt": [
    "Antipsicótico de horário como profilaxia não reduz delirium e acrescenta risco cardiovascular e extrapiramidal ao idoso.",
    "Correta: a base do tratamento é corrigir a causa e aplicar medidas não farmacológicas de reorientação e higiene do sono.",
@@ -3967,8 +3967,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Diretrizes de avaliação geriátrica ampla — Ministério da Saúde, Caderno de Atenção Básica nº 19, e AGS 2023",
-  "coment": "A avaliação geriátrica ampla é multidimensional: examina funcionalidade nas atividades básicas e instrumentais, cognição, humor, mobilidade e risco de queda, nutrição, continência, visão e audição, suporte social e medicamentos em uso. Seu valor está em revelar o que a consulta orientada por queixa não alcança — declínio cognitivo inicial, depressão, sarcopenia, polifarmácia, isolamento —, condições que mudam o plano terapêutico e predizem desfecho melhor que o diagnóstico isolado. É ferramenta de planejamento do cuidado, não escala prognóstica nem critério para institucionalização.",
+  "base": "Diretrizes de avaliação geriátrica ampla, Ministério da Saúde, Caderno de Atenção Básica nº 19, e AGS 2023",
+  "coment": "A avaliação geriátrica ampla é multidimensional: examina funcionalidade nas atividades básicas e instrumentais, cognição, humor, mobilidade e risco de queda, nutrição, continência, visão e audição, suporte social e medicamentos em uso. Seu valor está em revelar o que a consulta orientada por queixa não alcança (declínio cognitivo inicial, depressão, sarcopenia, polifarmácia, isolamento), condições que mudam o plano terapêutico e predizem desfecho melhor que o diagnóstico isolado. É ferramenta de planejamento do cuidado, não escala prognóstica nem critério para institucionalização.",
   "porAlt": [
    "A anamnese por aparelhos não capta funcionalidade, cognição, humor nem suporte social, que são os eixos que mudam o plano.",
    "A avaliação vai muito além de triar fragilidade e não tem como finalidade decidir internação de longa permanência.",
@@ -3991,10 +3991,10 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "ELN recommendations for the management of chronic myeloid leukemia, 2020; WHO Classification of Haematolymphoid Tumours, 5ª edição, 2022",
-  "coment": "Leucocitose acentuada com desvio escalonado à esquerda — mieloblastos, promielócitos, mielócitos e metamielócitos presentes em pequena proporção —, associada a basofilia, eosinofilia, trombocitose e esplenomegalia volumosa, é o quadro característico da leucemia mieloide crônica. A basofilia é a pista mais específica. A confirmação é a detecção do cromossomo Philadelphia ou do rearranjo BCR-ABL1 por citogenética, FISH ou PCR, e o tratamento com inibidores de tirosinoquinase transformou a doença em condição de sobrevida próxima à da população geral.",
+  "coment": "Leucocitose acentuada com desvio escalonado à esquerda (mieloblastos, promielócitos, mielócitos e metamielócitos presentes em pequena proporção), associada a basofilia, eosinofilia, trombocitose e esplenomegalia volumosa, é o quadro característico da leucemia mieloide crônica. A basofilia é a pista mais específica. A confirmação é a detecção do cromossomo Philadelphia ou do rearranjo BCR-ABL1 por citogenética, FISH ou PCR, e o tratamento com inibidores de tirosinoquinase transformou a doença em condição de sobrevida próxima à da população geral.",
   "porAlt": [
    "A leucemia mielomonocítica crônica cursa com monocitose persistente acima de mil por milímetro cúbico.",
-   "Correta: leucemia mieloide crônica — desvio escalonado com basofilia, trombocitose e esplenomegalia.",
+   "Correta: leucemia mieloide crônica. Desvio escalonado com basofilia, trombocitose e esplenomegalia.",
    "A leishmaniose visceral cursa com pancitopenia, e não com leucocitose e trombocitose.",
    "A mielofibrose primária cursa com quadro leucoeritroblástico, hemácias em lágrima e citopenias."
   ],
@@ -4017,7 +4017,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "European guideline on chronic pruritus, 2019; NCCN Guidelines for Hodgkin Lymphoma, 2025",
-  "coment": "Prurido crônico sem lesão cutânea primária é chamado prurido de origem indeterminada e obriga a investigar causa sistêmica: doença renal, hepática, tireoidiana, HIV, deficiência de ferro, fármacos e neoplasia. Afastadas as causas metabólicas e infecciosas, e diante de leucocitose com eosinofilia em idoso, a hipótese que se impõe é linfoma — o prurido pode preceder o diagnóstico em meses, especialmente no linfoma de Hodgkin. A investigação segue com exame minucioso de linfonodos, imagem de tórax, abdome e pelve, e biópsia excisional se houver linfonodo acessível.",
+  "coment": "Prurido crônico sem lesão cutânea primária é chamado prurido de origem indeterminada e obriga a investigar causa sistêmica: doença renal, hepática, tireoidiana, HIV, deficiência de ferro, fármacos e neoplasia. Afastadas as causas metabólicas e infecciosas, e diante de leucocitose com eosinofilia em idoso, a hipótese que se impõe é linfoma. O prurido pode preceder o diagnóstico em meses, especialmente no linfoma de Hodgkin. A investigação segue com exame minucioso de linfonodos, imagem de tórax, abdome e pelve, e biópsia excisional se houver linfonodo acessível.",
   "porAlt": [
    "Correta: linfoma, principal neoplasia associada a prurido sem lesão cutânea primária.",
    "A escabiose produz lesões primárias, túneis e acometimento de contatos domiciliares.",
@@ -4042,8 +4042,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, Guidelines for diagnosing and managing cryptococcal disease, 2022",
-  "coment": "Leveduras encapsuladas na tinta da China em pessoa com HIV e CD4 muito baixo confirmam meningite criptocócica. A indução de escolha, quando não há flucitosina nem formulação lipídica de anfotericina, é anfotericina B desoxicolato 1 mg/kg/dia associada a fluconazol 800 mg/dia por duas semanas, seguida de consolidação e manutenção com fluconazol. Igualmente decisivo é o controle da hipertensão intracraniana com punções lombares de alívio repetidas — a principal causa de morte precoce —, e o início da terapia antirretroviral deve ser adiado por quatro a seis semanas.",
+  "base": "Ministério da Saúde. PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, Guidelines for diagnosing and managing cryptococcal disease, 2022",
+  "coment": "Leveduras encapsuladas na tinta da China em pessoa com HIV e CD4 muito baixo confirmam meningite criptocócica. A indução de escolha, quando não há flucitosina nem formulação lipídica de anfotericina, é anfotericina B desoxicolato 1 mg/kg/dia associada a fluconazol 800 mg/dia por duas semanas, seguida de consolidação e manutenção com fluconazol. Igualmente decisivo é o controle da hipertensão intracraniana com punções lombares de alívio repetidas, a principal causa de morte precoce, e o início da terapia antirretroviral deve ser adiado por quatro a seis semanas.",
   "porAlt": [
    "Fluconazol em monoterapia tem eficácia inferior na indução e maior mortalidade.",
    "A dose de anfotericina desoxicolato na indução é 1 mg/kg/dia quando associada ao fluconazol nesse esquema.",
@@ -4069,7 +4069,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r3",
   "base": "ACR Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases, 2022; Sociedade Brasileira de Imunizações, calendário do paciente imunossuprimido, 2025",
-  "coment": "Antes de iniciar um inibidor de TNF, atualiza-se o calendário vacinal, priorizando as vacinas não vivas — que podem ser aplicadas mesmo sob imunossupressão — e evitando as vacinas de vírus vivo atenuado, contraindicadas durante o bloqueio de TNF. Meningocócica ACWY é inativada e recomendada; a vacina recombinante contra herpes-zóster também é não viva e está indicada, ao contrário da versão atenuada. Febre amarela é vacina de vírus vivo, e a dengue disponível no Brasil também é atenuada, ambas contraindicadas nesse cenário.",
+  "coment": "Antes de iniciar um inibidor de TNF, atualiza-se o calendário vacinal, priorizando as vacinas não vivas, que podem ser aplicadas mesmo sob imunossupressão, e evitando as vacinas de vírus vivo atenuado, contraindicadas durante o bloqueio de TNF. Meningocócica ACWY é inativada e recomendada; a vacina recombinante contra herpes-zóster também é não viva e está indicada, ao contrário da versão atenuada. Febre amarela é vacina de vírus vivo, e a dengue disponível no Brasil também é atenuada, ambas contraindicadas nesse cenário.",
   "porAlt": [
    "Febre amarela é vacina de vírus vivo atenuado, contraindicada sob imunossupressão.",
    "A vacina de dengue disponível é atenuada, também contraindicada.",
@@ -4095,7 +4095,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r3",
   "base": "CONSORT extension for non-inferiority trials, 2012; ensaio OVIVA (antibiótico oral versus intravenoso em infecção osteoarticular), 2019",
-  "coment": "Em ensaios de não inferioridade, a conclusão exige que todo o intervalo de confiança fique acima da margem pré-especificada, e a análise por protocolo é tão ou mais importante que a por intenção de tratar — nela, a intenção de tratar tende a diluir diferenças e favorecer artificialmente a conclusão de não inferioridade. Aqui, o intervalo da análise por protocolo, de 0,76 a 1,02, cruza a margem de 0,80, de modo que a não inferioridade não fica demonstrada de forma consistente nas duas análises, que é o padrão exigido.",
+  "coment": "Em ensaios de não inferioridade, a conclusão exige que todo o intervalo de confiança fique acima da margem pré-especificada, e a análise por protocolo é tão ou mais importante que a por intenção de tratar. Nela, a intenção de tratar tende a diluir diferenças e favorecer artificialmente a conclusão de não inferioridade. Aqui, o intervalo da análise por protocolo, de 0,76 a 1,02, cruza a margem de 0,80, de modo que a não inferioridade não fica demonstrada de forma consistente nas duas análises, que é o padrão exigido.",
   "porAlt": [
    "A análise por intenção de tratar isolada não basta em ensaio de não inferioridade.",
    "A análise por protocolo não deve ser evitada: em não inferioridade ela é essencial e costuma ser mais conservadora.",
@@ -4121,7 +4121,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r3",
   "base": "AASLD Practice Guidance on acute kidney injury and hepatorenal syndrome in cirrhosis, 2021; International Club of Ascites, critérios de LRA-SHR",
-  "coment": "Lesão renal aguda progressiva em cirrótico com ascite, sódio urinário muito baixo, sem resposta à expansão volêmica e após suspensão de diuréticos, com infecção em tratamento e sem choque, caracteriza síndrome hepatorrenal — antes chamada tipo 1, hoje lesão renal aguda com fenótipo hepatorrenal. O tratamento é vasoconstritor esplâncnico, terlipressina, associado à albumina, com monitorização de isquemia e sobrecarga volêmica. Norepinefrina em terapia intensiva é alternativa, e o transplante hepático é o tratamento definitivo.",
+  "coment": "Lesão renal aguda progressiva em cirrótico com ascite, sódio urinário muito baixo, sem resposta à expansão volêmica e após suspensão de diuréticos, com infecção em tratamento e sem choque, caracteriza síndrome hepatorrenal. Antes chamada tipo 1, hoje lesão renal aguda com fenótipo hepatorrenal. O tratamento é vasoconstritor esplâncnico, terlipressina, associado à albumina, com monitorização de isquemia e sobrecarga volêmica. Norepinefrina em terapia intensiva é alternativa, e o transplante hepático é o tratamento definitivo.",
   "porAlt": [
    "Correta: terlipressina associada a albumina, tratamento da síndrome hepatorrenal.",
    "Corticoide não tem papel nesse quadro.",
@@ -4172,8 +4172,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "GOLD — Global Strategy for the Diagnosis, Management and Prevention of COPD, 2026",
-  "coment": "Doença pulmonar obstrutiva crônica com VEF1 muito reduzido e duas exacerbações no último ano define grupo E na classificação GOLD. A terapia recomendada é broncodilatador duplo de longa duração — beta-2 agonista associado a antimuscarínico —, e o corticoide inalatório só se acrescenta quando os eosinófilos estão acima de 300 células por microlitro ou há asma associada, o que não é o caso, com 380 células apenas se aproximando do limiar em contagem isolada. Corticoide oral crônico não tem indicação, e metilxantina foi relegada a última linha por toxicidade.",
+  "base": "GOLD. Global Strategy for the Diagnosis, Management and Prevention of COPD, 2026",
+  "coment": "Doença pulmonar obstrutiva crônica com VEF1 muito reduzido e duas exacerbações no último ano define grupo E na classificação GOLD. A terapia recomendada é broncodilatador duplo de longa duração, beta-2 agonista associado a antimuscarínico, e o corticoide inalatório só se acrescenta quando os eosinófilos estão acima de 300 células por microlitro ou há asma associada, o que não é o caso, com 380 células apenas se aproximando do limiar em contagem isolada. Corticoide oral crônico não tem indicação, e metilxantina foi relegada a última linha por toxicidade.",
   "porAlt": [
    "Metilxantina é opção de última linha por estreita margem terapêutica.",
    "Corticoide oral contínuo não é tratamento de manutenção na doença pulmonar obstrutiva crônica.",
@@ -4199,7 +4199,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Intravascular Catheter-Related Infection, 2009 e atualizações; KDOQI vascular access guidelines, 2019",
-  "coment": "Bacteremia por Staphylococcus aureus relacionada a cateter de longa permanência exige três decisões. Primeira, o antimicrobiano: sendo sensível à oxacilina, o tratamento é betalactâmico — oxacilina ou cefazolina —, superior à vancomicina nessa situação. Segunda, o cateter: em S. aureus, a remoção é mandatória, e o selo antibiótico não é aceitável como estratégia de salvamento. Terceira, a busca de foco metastático: ecocardiograma para endocardite, fundo de olho para endoftalmite, e duração de pelo menos duas a quatro semanas conforme a resposta e as complicações.",
+  "coment": "Bacteremia por Staphylococcus aureus relacionada a cateter de longa permanência exige três decisões. Primeira, o antimicrobiano: sendo sensível à oxacilina, o tratamento é betalactâmico, oxacilina ou cefazolina, superior à vancomicina nessa situação. Segunda, o cateter: em S. aureus, a remoção é mandatória, e o selo antibiótico não é aceitável como estratégia de salvamento. Terceira, a busca de foco metastático: ecocardiograma para endocardite, fundo de olho para endoftalmite, e duração de pelo menos duas a quatro semanas conforme a resposta e as complicações.",
   "porAlt": [
    "Vancomicina é inferior ao betalactâmico em cepa sensível, e manter o cateter com selo é inadequado em S. aureus.",
    "A remoção do cateter está correta, mas vancomicina não é a escolha para cepa sensível à oxacilina.",
@@ -4224,7 +4224,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Hepatite B e Coinfecções, 2024; EASL Clinical Practice Guidelines on hepatitis B, 2017",
+  "base": "Ministério da Saúde. PCDT para Hepatite B e Coinfecções, 2024; EASL Clinical Practice Guidelines on hepatitis B, 2017",
   "coment": "HBsAg e HBeAg positivos com carga viral muito alta, transaminases normais, ausência de fibrose e paciente jovem e assintomático caracterizam a fase de infecção crônica HBeAg-positiva, antigamente chamada de imunotolerância. Nessa fase não há indicação de tratamento: a atividade inflamatória é mínima e a chance de soroconversão sustentada com antiviral é baixa. A conduta é vigilância ativa, com ALT e carga viral a cada três a seis meses, avaliação periódica de fibrose e rastreio de hepatocarcinoma conforme o perfil de risco, tratando quando a ALT se elevar.",
   "porAlt": [
    "Lamivudina tem alta taxa de resistência e não é escolha atual.",
@@ -4250,8 +4250,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Profilaxia Pré-Exposição (PrEP) de Risco à Infecção pelo HIV, 2022; OMS, guidelines on HIV prevention",
-  "coment": "A profilaxia pré-exposição é segura na gestação e deve ser mantida em quem permanece sob risco — no caso, parceria sorodiferente com carga viral nem sempre indetectável e uso irregular de preservativo. A conduta é manter a PrEP, testar para HIV e demais infecções sexualmente transmissíveis e reforçar a adesão. Não se suspende a profilaxia para depois reiniciar, nem se troca por profilaxia pós-exposição em quem já está em uso regular e adequado da pré-exposição; a PEP se destina a quem não estava protegido.",
+  "base": "Ministério da Saúde. PCDT para Profilaxia Pré-Exposição (PrEP) de Risco à Infecção pelo HIV, 2022; OMS, guidelines on HIV prevention",
+  "coment": "A profilaxia pré-exposição é segura na gestação e deve ser mantida em quem permanece sob risco, no caso, parceria sorodiferente com carga viral nem sempre indetectável e uso irregular de preservativo. A conduta é manter a PrEP, testar para HIV e demais infecções sexualmente transmissíveis e reforçar a adesão. Não se suspende a profilaxia para depois reiniciar, nem se troca por profilaxia pós-exposição em quem já está em uso regular e adequado da pré-exposição; a PEP se destina a quem não estava protegido.",
   "porAlt": [
    "Suspender a PrEP na gestação retira a proteção justamente em período de risco aumentado.",
    "Trocar PrEP por PEP não faz sentido em quem já usa a profilaxia pré-exposição de forma regular.",
@@ -4276,8 +4276,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Abordagem sistemática dos distúrbios ácido-base — Berend et al., NEJM, 2014; ATS/ESICM/SCCM guideline on mechanical ventilation in ARDS, 2023",
-  "coment": "O pH de 7,49 define alcalemia, e a PaCO₂ de 19 mmHg identifica o distúrbio primário como alcalose respiratória por hiperventilação — a paciente está com frequência de 32 e hipoxemia. O bicarbonato baixo representa compensação metabólica e, possivelmente, um distúrbio metabólico associado, que a análise do ânion-gap ajudaria a esclarecer. O tratamento é da causa: suporte ventilatório e correção da hipoxemia e do trabalho respiratório. Administrar bicarbonato em paciente alcalêmico agravaria o distúrbio.",
+  "base": "Abordagem sistemática dos distúrbios ácido-base: Berend et al., NEJM, 2014; ATS/ESICM/SCCM guideline on mechanical ventilation in ARDS, 2023",
+  "coment": "O pH de 7,49 define alcalemia, e a PaCO₂ de 19 mmHg identifica o distúrbio primário como alcalose respiratória por hiperventilação. A paciente está com frequência de 32 e hipoxemia. O bicarbonato baixo representa compensação metabólica e, possivelmente, um distúrbio metabólico associado, que a análise do ânion-gap ajudaria a esclarecer. O tratamento é da causa: suporte ventilatório e correção da hipoxemia e do trabalho respiratório. Administrar bicarbonato em paciente alcalêmico agravaria o distúrbio.",
   "porAlt": [
    "Acetazolamida não trata alcalose respiratória e agrava a acidose metabólica associada.",
    "Correta: alcalose respiratória, tratada com suporte ventilatório e correção da causa.",
@@ -4302,8 +4302,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2024; PCDT para Manejo da Infecção pelo HIV em Adultos, 2024",
-  "coment": "Em pessoa vivendo com HIV, o tratamento da infecção latente por tuberculose está indicado quando a prova tuberculínica é igual ou maior que 5 mm, quando há contato com caso de tuberculose ativa, quando houve tratamento prévio de tuberculose ou radiografia com cicatriz, e — independentemente do resultado da prova — quando a contagem de CD4 é igual ou inferior a 350 células. Com CD4 de 249 e doença ativa excluída, a indicação está posta. O esquema pode ser isoniazida por seis a nove meses ou rifapentina com isoniazida semanal por três meses.",
+  "base": "Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil, 2024; PCDT para Manejo da Infecção pelo HIV em Adultos, 2024",
+  "coment": "Em pessoa vivendo com HIV, o tratamento da infecção latente por tuberculose está indicado quando a prova tuberculínica é igual ou maior que 5 mm, quando há contato com caso de tuberculose ativa, quando houve tratamento prévio de tuberculose ou radiografia com cicatriz, e, independentemente do resultado da prova, quando a contagem de CD4 é igual ou inferior a 350 células. Com CD4 de 249 e doença ativa excluída, a indicação está posta. O esquema pode ser isoniazida por seis a nove meses ou rifapentina com isoniazida semanal por três meses.",
   "porAlt": [
    "Ter apresentado doença definidora de aids não é, por si, o critério que indica o tratamento da infecção latente.",
    "Correta: CD4 abaixo de 350 indica o tratamento independentemente do resultado da prova tuberculínica.",
@@ -4329,7 +4329,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r2",
   "base": "USPSTF Lung Cancer Screening Recommendation Statement, 2021; GOLD 2026; Ministério da Saúde, diretrizes de oxigenoterapia domiciliar prolongada",
-  "coment": "O paciente tem carga tabágica de 50 anos-maço, cessou há cinco anos e está na faixa etária de rastreio — critérios preenchidos para tomografia de tórax de baixa dose anual, único método com redução comprovada de mortalidade por câncer de pulmão. A oxigenoterapia domiciliar exige PaO₂ igual ou inferior a 55 mmHg, ou entre 56 e 59 com cor pulmonale ou policitemia, o que não se aplica com PaO₂ de 62. A reabilitação pulmonar independe de corrigir a hipoxemia, e o esquema vacinal descrito não pede reforço anual de pneumocócica.",
+  "coment": "O paciente tem carga tabágica de 50 anos-maço, cessou há cinco anos e está na faixa etária de rastreio. Critérios preenchidos para tomografia de tórax de baixa dose anual, único método com redução comprovada de mortalidade por câncer de pulmão. A oxigenoterapia domiciliar exige PaO₂ igual ou inferior a 55 mmHg, ou entre 56 e 59 com cor pulmonale ou policitemia, o que não se aplica com PaO₂ de 62. A reabilitação pulmonar independe de corrigir a hipoxemia, e o esquema vacinal descrito não pede reforço anual de pneumocócica.",
   "porAlt": [
    "A oxigenoterapia domiciliar exige PaO₂ igual ou inferior a 55 mmHg, ou 56 a 59 com repercussão.",
    "A vacina pneumocócica polissacarídica não é de reforço anual.",
@@ -4354,8 +4354,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign — International Guidelines for Management of Sepsis and Septic Shock, 2021",
-  "coment": "Paciente em pós-operatório de grande porte que evolui com sonolência, taquicardia, hipotensão e hipoxemia tem sepse até prova em contrário. As medidas imediatas são o pacote de primeira hora: coletar culturas antes do antibiótico, iniciar antimicrobiano de amplo espectro precocemente, ressuscitação volêmica e dosagem de lactato, com busca ativa do foco — no caso, sítio cirúrgico, pulmão e dispositivos. Analgesia adequada faz parte do cuidado. A boa funcionalidade prévia não sustenta, neste momento, a decisão por limitação de suporte.",
+  "base": "Surviving Sepsis Campaign. International Guidelines for Management of Sepsis and Septic Shock, 2021",
+  "coment": "Paciente em pós-operatório de grande porte que evolui com sonolência, taquicardia, hipotensão e hipoxemia tem sepse até prova em contrário. As medidas imediatas são o pacote de primeira hora: coletar culturas antes do antibiótico, iniciar antimicrobiano de amplo espectro precocemente, ressuscitação volêmica e dosagem de lactato, com busca ativa do foco, no caso, sítio cirúrgico, pulmão e dispositivos. Analgesia adequada faz parte do cuidado. A boa funcionalidade prévia não sustenta, neste momento, a decisão por limitação de suporte.",
   "porAlt": [
    "Hipocalcemia é possível após cirurgia cervical, mas não explica hipotensão com sonolência e hipoxemia.",
    "Correta: analgesia, coleta de culturas e antibioticoterapia precoce, pelo quadro séptico.",
@@ -4381,7 +4381,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "IARC Monographs on human papillomavirus; NCCN Guidelines for Head and Neck Cancers, 2025",
-  "coment": "Carcinoma de células escamosas com imuno-histoquímica positiva para citoqueratina 5/6, p63 e p40, em mulher jovem não tabagista, com doença metastática de sítio primário oculto e acometimento cervical, aponta para tumor associado ao papilomavírus humano — a etiologia que explica o aumento dos carcinomas de orofaringe em pacientes jovens e sem exposição ao tabaco, com prognóstico melhor. A pesquisa de p16 por imuno-histoquímica é o marcador substituto usado na prática. Hepatite C associa-se a linfoma e hepatocarcinoma; Epstein-Barr, ao carcinoma de nasofaringe.",
+  "coment": "Carcinoma de células escamosas com imuno-histoquímica positiva para citoqueratina 5/6, p63 e p40, em mulher jovem não tabagista, com doença metastática de sítio primário oculto e acometimento cervical, aponta para tumor associado ao papilomavírus humano. A etiologia que explica o aumento dos carcinomas de orofaringe em pacientes jovens e sem exposição ao tabaco, com prognóstico melhor. A pesquisa de p16 por imuno-histoquímica é o marcador substituto usado na prática. Hepatite C associa-se a linfoma e hepatocarcinoma; Epstein-Barr, ao carcinoma de nasofaringe.",
   "porAlt": [
    "O vírus da hepatite C associa-se a hepatocarcinoma e a linfoma, não a carcinoma escamoso.",
    "Correta: papilomavírus humano, causa crescente de carcinoma escamoso em jovens não tabagistas.",
@@ -4407,7 +4407,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "ATS/ESICM/SCCM Clinical Practice Guideline on mechanical ventilation in adults with ARDS, 2023; conceitos de ventilação protetora",
-  "coment": "O paciente está em acidose respiratória com volume corrente já protetor, pressão de platô no limite e frequência alta — não há folga para aumentar volume corrente nem frequência sem gerar autoPEEP. A manobra correta é reduzir o espaço morto do circuito, retirando extensões, filtro trocador de calor e umidade ou peça em Y desnecessária: isso aumenta a ventilação alveolar efetiva sem elevar pressões. Bicarbonato não corrige a causa e gera mais CO₂; aumentar PEEP piora a pressão de platô; reduzir o volume corrente agravaria a hipercapnia.",
+  "coment": "O paciente está em acidose respiratória com volume corrente já protetor, pressão de platô no limite e frequência alta. Não há folga para aumentar volume corrente nem frequência sem gerar autoPEEP. A manobra correta é reduzir o espaço morto do circuito, retirando extensões, filtro trocador de calor e umidade ou peça em Y desnecessária: isso aumenta a ventilação alveolar efetiva sem elevar pressões. Bicarbonato não corrige a causa e gera mais CO₂; aumentar PEEP piora a pressão de platô; reduzir o volume corrente agravaria a hipercapnia.",
   "porAlt": [
    "Aumentar a PEEP elevaria a pressão de platô, já em 27, sem corrigir a hipercapnia.",
    "Bicarbonato gera mais CO₂ e não trata a causa da acidose respiratória.",
@@ -4433,7 +4433,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "European guideline on diagnosis and treatment of hyponatraemia, 2014; American Geriatrics Society Beers Criteria, 2023",
-  "coment": "Hiponatremia em paciente euvolêmico, sem edema, sem restrição dietética e com função tireoidiana normal, em uso de carbamazepina, é a apresentação típica da síndrome de secreção inapropriada de hormônio antidiurético induzida por fármaco. O padrão laboratorial que confirma é urina inapropriadamente concentrada — osmolalidade urinária alta — com sódio urinário elevado, acima de 30 a 40 mmol/L, refletindo excreção de sódio preservada. Sendo assintomática e crônica, o tratamento é retirar o agente causal e restringir líquidos, sem salina hipertônica.",
+  "coment": "Hiponatremia em paciente euvolêmico, sem edema, sem restrição dietética e com função tireoidiana normal, em uso de carbamazepina, é a apresentação típica da síndrome de secreção inapropriada de hormônio antidiurético induzida por fármaco. O padrão laboratorial que confirma é urina inapropriadamente concentrada, osmolalidade urinária alta, com sódio urinário elevado, acima de 30 a 40 mmol/L, refletindo excreção de sódio preservada. Sendo assintomática e crônica, o tratamento é retirar o agente causal e restringir líquidos, sem salina hipertônica.",
   "porAlt": [
    "Urina diluída com sódio urinário baixo indicaria polidipsia primária ou ingestão excessiva de água.",
    "Urina diluída afasta a secreção inapropriada e diurético de alça não é o tratamento indicado.",
@@ -4458,7 +4458,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Surviving Sepsis Campaign — International Guidelines for Management of Sepsis and Septic Shock, 2021; consensos sobre avaliação dinâmica de fluidorresponsividade",
+  "base": "Surviving Sepsis Campaign. International Guidelines for Management of Sepsis and Septic Shock, 2021; consensos sobre avaliação dinâmica de fluidorresponsividade",
   "coment": "A elevação passiva dos membros inferiores funciona como uma prova de volume reversível: variação do integral velocidade-tempo da via de saída do ventrículo esquerdo acima de 10 a 12% indica que o paciente é fluidorresponsivo, ou seja, ainda ganha débito cardíaco com volume. Com 13% de variação e sinais de hipoperfusão persistente, a conduta é nova expansão com cristaloide, reavaliando de forma dinâmica a cada etapa. Vasopressor entra quando a hipotensão persiste apesar de volume adequado ou quando o paciente deixa de ser responsivo.",
   "porAlt": [
    "Noradrenalina seria a escolha se o paciente não fosse mais fluidorresponsivo ou se houvesse hipotensão grave persistente após volume.",
@@ -4485,7 +4485,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012; KDIGO controversies conference on CRRT e anticoagulação regional com citrato, 2023",
-  "coment": "Piora inexplicada da acidose metabólica em paciente cirrótico sob hemodiafiltração contínua levanta a suspeita de acúmulo de citrato, quando se usa anticoagulação regional: o fígado insuficiente não metaboliza o citrato, que quela cálcio e produz acidose com hipocalcemia iônica. O marcador é a relação entre cálcio total e cálcio iônico — valor acima de 2,5 confirma o acúmulo. A conduta é reduzir ou suspender o citrato, ajustar a reposição de cálcio e reavaliar a estratégia de anticoagulação do circuito.",
+  "coment": "Piora inexplicada da acidose metabólica em paciente cirrótico sob hemodiafiltração contínua levanta a suspeita de acúmulo de citrato, quando se usa anticoagulação regional: o fígado insuficiente não metaboliza o citrato, que quela cálcio e produz acidose com hipocalcemia iônica. O marcador é a relação entre cálcio total e cálcio iônico. Valor acima de 2,5 confirma o acúmulo. A conduta é reduzir ou suspender o citrato, ajustar a reposição de cálcio e reavaliar a estratégia de anticoagulação do circuito.",
   "porAlt": [
    "A cetonemia investiga cetoacidose, improvável nesse contexto sob terapia contínua.",
    "O gap osmolar investiga intoxicação por álcoois tóxicos, sem relação com o quadro.",
@@ -4511,7 +4511,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r2",
   "base": "ASCO Guideline on Management of Hypercalcemia of Malignancy, 2023; ESMO Clinical Practice Guidelines on bone health in cancer, 2020",
-  "coment": "Confusão mental, hiporexia e desidratação em paciente com neoplasia metastática para ossos, com fosfatase alcalina muito elevada, apontam para hipercalcemia da malignidade — a emergência metabólica mais comum em oncologia. A avaliação imediata é dosar cálcio, corrigido pela albumina ou preferencialmente o cálcio iônico, e afastar metástase cerebral por imagem com contraste. O tratamento é hidratação vigorosa com salina, bisfosfonato ou denosumabe e, quando há dúvida, calcitonina para efeito rápido; corticoide é útil em causas mediadas por calcitriol.",
+  "coment": "Confusão mental, hiporexia e desidratação em paciente com neoplasia metastática para ossos, com fosfatase alcalina muito elevada, apontam para hipercalcemia da malignidade. A emergência metabólica mais comum em oncologia. A avaliação imediata é dosar cálcio, corrigido pela albumina ou preferencialmente o cálcio iônico, e afastar metástase cerebral por imagem com contraste. O tratamento é hidratação vigorosa com salina, bisfosfonato ou denosumabe e, quando há dúvida, calcitonina para efeito rápido; corticoide é útil em causas mediadas por calcitriol.",
   "porAlt": [
    "Correta: dosar cálcio sérico e obter imagem de crânio com contraste, buscando hipercalcemia e metástase.",
    "A amônia investiga encefalopatia hepática, hipótese secundária diante do padrão colestático sem cirrose.",
@@ -4537,7 +4537,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r3",
   "base": "Revisões e consensos sobre síndrome de retirada do baclofeno, 2021; American Psychiatric Association, Practice Guideline for Schizophrenia, 2020 (síndrome neuroléptica maligna)",
-  "coment": "Febre alta, tremores e espasticidade em paciente com lesão medular cujo baclofeno foi interrompido pela impossibilidade da via oral configuram síndrome de retirada do baclofeno — quadro que imita a síndrome neuroléptica maligna e a hipertermia maligna, mas cuja cura é restituir o fármaco. A conduta é reintroduzir o baclofeno pela via disponível e controlar a hiperatividade adrenérgica com sedação, sendo a dexmedetomidina uma opção adequada. Reconhecer a retirada evita tratar o paciente indefinidamente como síndrome neuroléptica maligna.",
+  "coment": "Febre alta, tremores e espasticidade em paciente com lesão medular cujo baclofeno foi interrompido pela impossibilidade da via oral configuram síndrome de retirada do baclofeno. Quadro que imita a síndrome neuroléptica maligna e a hipertermia maligna, mas cuja cura é restituir o fármaco. A conduta é reintroduzir o baclofeno pela via disponível e controlar a hiperatividade adrenérgica com sedação, sendo a dexmedetomidina uma opção adequada. Reconhecer a retirada evita tratar o paciente indefinidamente como síndrome neuroléptica maligna.",
   "porAlt": [
    "Bromocriptina e benzodiazepínico tratariam síndrome neuroléptica maligna, sem restituir o baclofeno.",
    "Correta: reintroduzir o baclofeno e associar sedação, reconhecendo a síndrome de retirada.",
@@ -4563,7 +4563,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "ATS/ESICM/SCCM Clinical Practice Guideline on mechanical ventilation in adults with ARDS, 2023; ensaio PROSEVA, 2013",
-  "coment": "Hipoxemia grave com opacidades bilaterais e ventilação já protetora — volume corrente de 6 mL/kg e pressão de platô controlada — caracteriza síndrome do desconforto respiratório agudo grave, com relação entre PaO₂ e FiO₂ muito baixa. A intervenção com redução comprovada de mortalidade nesse cenário é a posição prona por pelo menos 16 horas por dia, conforme o ensaio PROSEVA. Manobras de recrutamento agressivas foram associadas a dano no estudo ART, trombólise não se aplica sem embolia confirmada, e diurético não trata edema não hidrostático.",
+  "coment": "Hipoxemia grave com opacidades bilaterais e ventilação já protetora, volume corrente de 6 mL/kg e pressão de platô controlada, caracteriza síndrome do desconforto respiratório agudo grave, com relação entre PaO₂ e FiO₂ muito baixa. A intervenção com redução comprovada de mortalidade nesse cenário é a posição prona por pelo menos 16 horas por dia, conforme o ensaio PROSEVA. Manobras de recrutamento agressivas foram associadas a dano no estudo ART, trombólise não se aplica sem embolia confirmada, e diurético não trata edema não hidrostático.",
   "porAlt": [
    "Correta: posição prona, medida com redução de mortalidade na síndrome do desconforto respiratório agudo grave.",
    "Trombólise não se justifica sem embolia pulmonar confirmada e com quadro pulmonar bilateral explicado.",
@@ -4588,8 +4588,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "American Academy of Clinical Toxicology — Practice Guidelines on the Treatment of Methanol and Ethylene Glycol Poisoning, atualização de 2022; Ministério da Saúde, Diretrizes de atenção às intoxicações exógenas, 2020",
-  "coment": "Acidose metabólica grave com ânion-gap muito elevado e gap osmolar aumentado — osmolaridade medida de 330 contra calculada em torno de 290 —, com lactato normal e sem cetose ou uremia, é o padrão da intoxicação por álcool tóxico: metanol ou etilenoglicol. O antídoto é o fomepizol, inibidor da álcool desidrogenase, que impede a formação dos metabólitos tóxicos; etanol é alternativa quando não há fomepizol. A hemodiálise se associa nos casos graves, com acidose refratária, alteração visual ou níveis muito altos, mas o antídoto vem primeiro.",
+  "base": "American Academy of Clinical Toxicology. Practice Guidelines on the Treatment of Methanol and Ethylene Glycol Poisoning, atualização de 2022; Ministério da Saúde, Diretrizes de atenção às intoxicações exógenas, 2020",
+  "coment": "Acidose metabólica grave com ânion-gap muito elevado e gap osmolar aumentado, osmolaridade medida de 330 contra calculada em torno de 290, com lactato normal e sem cetose ou uremia, é o padrão da intoxicação por álcool tóxico: metanol ou etilenoglicol. O antídoto é o fomepizol, inibidor da álcool desidrogenase, que impede a formação dos metabólitos tóxicos; etanol é alternativa quando não há fomepizol. A hemodiálise se associa nos casos graves, com acidose refratária, alteração visual ou níveis muito altos, mas o antídoto vem primeiro.",
   "porAlt": [
    "Correta: fomepizol, antídoto que bloqueia a formação dos metabólitos tóxicos.",
    "Carvão ativado não adsorve álcoois de baixo peso molecular.",
@@ -4640,7 +4640,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Diabetes Association — Standards of Care in Diabetes, 2025; consenso ADA/EASD sobre manejo de crise hiperglicêmica, 2024",
+  "base": "American Diabetes Association. Standards of Care in Diabetes, 2025; consenso ADA/EASD sobre manejo de crise hiperglicêmica, 2024",
   "coment": "Na cetoacidose diabética, a insulina desloca potássio para dentro da célula, e o potássio total do organismo já está depletado mesmo quando o valor sérico inicial parece alto. Por isso, a reposição começa quando o potássio cai abaixo de 5,2 a 5,3 mEq/L, mantendo-se a insulina, com o objetivo de manter o valor entre 4 e 5. Se o potássio inicial estivesse abaixo de 3,3, a insulina deveria ser adiada até a reposição. A solução glicosada entra quando a glicemia chega a 200 a 250 mg/dL, momento também próximo neste caso.",
   "porAlt": [
    "Adicionar glicose é etapa correta próxima, mas a prioridade após a queda do potássio é repô-lo.",
@@ -4667,7 +4667,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r3",
   "base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019; recomendações sobre dissecção arterial cervical",
-  "coment": "Vertigem de início súbito durante esforço, com diplopia binocular, desalinhamento vertical, nistagmo e miose ipsilateral — sugerindo síndrome de Horner —, configura síndrome vestibular aguda central, provavelmente por dissecção de artéria vertebral com isquemia de fossa posterior. A tomografia simples é frequentemente normal nessa topografia, e o exame indicado é a angiotomografia arterial cervical e intracraniana. Tratar como vertigem periférica com manobras é o erro que atrasa o diagnóstico e permite a progressão do acidente vascular cerebral.",
+  "coment": "Vertigem de início súbito durante esforço, com diplopia binocular, desalinhamento vertical, nistagmo e miose ipsilateral, sugerindo síndrome de Horner, configura síndrome vestibular aguda central, provavelmente por dissecção de artéria vertebral com isquemia de fossa posterior. A tomografia simples é frequentemente normal nessa topografia, e o exame indicado é a angiotomografia arterial cervical e intracraniana. Tratar como vertigem periférica com manobras é o erro que atrasa o diagnóstico e permite a progressão do acidente vascular cerebral.",
   "porAlt": [
    "Manobras de Dix-Hallpike e Epley se aplicam à vertigem posicional periférica, incompatível com diplopia e Horner.",
    "Sintomáticos com anti-hipertensivo intravenoso não investigam nem tratam a causa.",
@@ -4692,8 +4692,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ILAE — definição e manejo de crises sintomáticas agudas; American Epilepsy Society guideline on convulsive status epilepticus, 2016",
-  "coment": "Crise única, autolimitada, em contexto de causa aguda identificável — no caso, provável hiponatremia induzida por carbamazepina iniciada há duas semanas — é crise sintomática aguda, não epilepsia. O tratamento é corrigir a causa e suspender o fármaco desencadeante, sem indicação de anticonvulsivante de manutenção nem de dose de ataque, uma vez que a crise já cessou e o paciente não está em estado de mal. Iniciar antiepiléptico crônico nesse cenário expõe o paciente a efeitos adversos sem reduzir recorrência.",
+  "base": "ILAE. Definição e manejo de crises sintomáticas agudas; American Epilepsy Society guideline on convulsive status epilepticus, 2016",
+  "coment": "Crise única, autolimitada, em contexto de causa aguda identificável (no caso, provável hiponatremia induzida por carbamazepina iniciada há duas semanas) é crise sintomática aguda, não epilepsia. O tratamento é corrigir a causa e suspender o fármaco desencadeante, sem indicação de anticonvulsivante de manutenção nem de dose de ataque, uma vez que a crise já cessou e o paciente não está em estado de mal. Iniciar antiepiléptico crônico nesse cenário expõe o paciente a efeitos adversos sem reduzir recorrência.",
   "porAlt": [
    "A dose de ataque de fenitoína se destina ao estado de mal, não a crise única já encerrada.",
    "Midazolam contínuo é tratamento do estado de mal refratário.",
@@ -4719,7 +4719,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "ESE/ENSAT Clinical Practice Guideline on the management of adrenal incidentalomas, 2023",
-  "coment": "Todo incidentaloma adrenal exige duas perguntas: é funcionante e é maligno? A densidade abaixo de 10 unidades Hounsfield sem contraste caracteriza adenoma rico em lipídios, de comportamento benigno. Já o cortisol de 2,5 µg/dL após 1 mg de dexametasona, com ACTH suprimido no limite inferior, define secreção autônoma de cortisol. Diante de comorbidades potencialmente atribuíveis ao excesso de cortisol — diabetes, hipertensão e fratura por fragilidade —, a diretriz recomenda considerar a adrenalectomia, que pode reverter parte desse dano metabólico e ósseo.",
+  "coment": "Todo incidentaloma adrenal exige duas perguntas: é funcionante e é maligno? A densidade abaixo de 10 unidades Hounsfield sem contraste caracteriza adenoma rico em lipídios, de comportamento benigno. Já o cortisol de 2,5 µg/dL após 1 mg de dexametasona, com ACTH suprimido no limite inferior, define secreção autônoma de cortisol. Diante de comorbidades potencialmente atribuíveis ao excesso de cortisol (diabetes, hipertensão e fratura por fragilidade), a diretriz recomenda considerar a adrenalectomia, que pode reverter parte desse dano metabólico e ósseo.",
   "porAlt": [
    "Correta: adrenalectomia, indicada pela secreção autônoma de cortisol com comorbidades atribuíveis.",
    "A densidade abaixo de 10 unidades Hounsfield já caracteriza adenoma, dispensando estadiamento oncológico.",
@@ -4745,7 +4745,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "WAO/EAACI Anaphylaxis Guidance, 2020; ASCIA/consensos sobre triptase sérica na anafilaxia",
-  "coment": "O diagnóstico de anafilaxia é clínico e o tratamento — adrenalina intramuscular na face lateral da coxa — não espera exame algum. Quando se busca confirmação laboratorial retrospectiva, o exame é a triptase sérica, que se eleva a partir de 30 minutos, atinge pico entre 1 e 2 horas e deve ser comparada a uma dosagem basal colhida 24 horas ou mais depois. A IgE específica identifica o alérgeno em investigação posterior, mas não confirma o episódio agudo, e a histamina tem meia-vida curta demais para uso prático.",
+  "coment": "O diagnóstico de anafilaxia é clínico e o tratamento, adrenalina intramuscular na face lateral da coxa, não espera exame algum. Quando se busca confirmação laboratorial retrospectiva, o exame é a triptase sérica, que se eleva a partir de 30 minutos, atinge pico entre 1 e 2 horas e deve ser comparada a uma dosagem basal colhida 24 horas ou mais depois. A IgE específica identifica o alérgeno em investigação posterior, mas não confirma o episódio agudo, e a histamina tem meia-vida curta demais para uso prático.",
   "porAlt": [
    "Cortisol não tem papel diagnóstico na anafilaxia.",
    "A IgE específica identifica sensibilização ao alérgeno, mas não confirma o evento agudo.",
@@ -4771,7 +4771,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r3",
   "base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019; ensaio WAKE-UP, 2018",
-  "coment": "No acidente vascular cerebral do despertar, o horário de início é desconhecido e o critério de tempo não pode ser aplicado. A estratégia validada é a seleção por imagem: a incompatibilidade entre difusão e FLAIR na ressonância — lesão visível na difusão sem correspondente no FLAIR — indica evento com menos de 4,5 horas e autoriza a trombólise, como demonstrou o ensaio WAKE-UP. A trombectomia mecânica exigiria oclusão de grande vaso, que a angiotomografia não demonstrou neste caso.",
+  "coment": "No acidente vascular cerebral do despertar, o horário de início é desconhecido e o critério de tempo não pode ser aplicado. A estratégia validada é a seleção por imagem: a incompatibilidade entre difusão e FLAIR na ressonância, lesão visível na difusão sem correspondente no FLAIR, indica evento com menos de 4,5 horas e autoriza a trombólise, como demonstrou o ensaio WAKE-UP. A trombectomia mecânica exigiria oclusão de grande vaso, que a angiotomografia não demonstrou neste caso.",
   "porAlt": [
    "Correta: incompatibilidade difusão-FLAIR selecionando o paciente para trombólise química.",
    "A incompatibilidade clínico-radiológica orienta trombectomia em janelas estendidas, com oclusão de grande vaso.",
@@ -4797,7 +4797,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012; KDIGO 2021 Glomerular Diseases guideline (nefrite intersticial)",
-  "coment": "Lesão renal aguda progressiva em paciente que vinha usando anti-inflamatório não esteroide, sem sinais de obstrução nem de hipovolemia, sugere nefrite intersticial aguda medicamentosa — a tríade clássica de febre, rash e eosinofilia é pouco frequente, e a eosinofilúria tem baixa acurácia. A confirmação, quando a suspensão do fármaco não reverte o quadro e a creatinina continua subindo, é a biópsia renal, seguida de corticoide, que acelera a recuperação da função renal quando iniciado precocemente.",
+  "coment": "Lesão renal aguda progressiva em paciente que vinha usando anti-inflamatório não esteroide, sem sinais de obstrução nem de hipovolemia, sugere nefrite intersticial aguda medicamentosa. A tríade clássica de febre, rash e eosinofilia é pouco frequente, e a eosinofilúria tem baixa acurácia. A confirmação, quando a suspensão do fármaco não reverte o quadro e a creatinina continua subindo, é a biópsia renal, seguida de corticoide, que acelera a recuperação da função renal quando iniciado precocemente.",
   "porAlt": [
    "Correta: biópsia renal para confirmar nefrite intersticial e corticoide em dose imunossupressora.",
    "Hemoglobina glicada e insulina não explicam nem tratam a lesão renal aguda em curso.",
@@ -4875,7 +4875,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "AASM Clinical Practice Guideline for the Treatment of Obstructive Sleep Apnea with Positive Airway Pressure, 2019; AASM guideline for the behavioral treatment of chronic insomnia, 2021",
-  "coment": "A paciente tem duas condições sobrepostas: apneia obstrutiva do sono grave, com índice de apneia e hipopneia de 45 eventos por hora, e insônia crônica — combinação conhecida como insônia comórbida à apneia, frequente e frequentemente subtratada. O tratamento adequado trata as duas: CPAP para a apneia e terapia cognitivo-comportamental para insônia, que é a primeira linha e supera o hipnótico em manutenção do efeito. Hipnóticos em apneia não tratada podem prolongar eventos respiratórios e agravar a dessaturação.",
+  "coment": "A paciente tem duas condições sobrepostas: apneia obstrutiva do sono grave, com índice de apneia e hipopneia de 45 eventos por hora, e insônia crônica. Combinação conhecida como insônia comórbida à apneia, frequente e frequentemente subtratada. O tratamento adequado trata as duas: CPAP para a apneia e terapia cognitivo-comportamental para insônia, que é a primeira linha e supera o hipnótico em manutenção do efeito. Hipnóticos em apneia não tratada podem prolongar eventos respiratórios e agravar a dessaturação.",
   "porAlt": [
    "Hipnótico não é primeira linha para insônia crônica e é problemático em apneia.",
    "Correta: CPAP para a apneia associado a terapia cognitivo-comportamental para a insônia.",
@@ -4900,8 +4900,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Lei nº 8.080/1990 e Lei nº 8.142/1990 — leis orgânicas da saúde; Decreto nº 7.508/2011",
-  "coment": "A Lei nº 8.142/1990 condiciona o repasse regular e automático de recursos federais do Sistema Único de Saúde à existência, em cada ente, de fundo de saúde, conselho de saúde com composição paritária entre usuários e demais segmentos, plano de saúde, relatório de gestão, contrapartida orçamentária e comissão de elaboração do plano de carreira, cargos e salários. Entre as alternativas, a que reúne dois desses requisitos essenciais é fundo de saúde somado a conselho paritário — o fundo garante a vinculação contábil do recurso e o conselho, o controle social.",
+  "base": "Lei nº 8.080/1990 e Lei nº 8.142/1990, leis orgânicas da saúde; Decreto nº 7.508/2011",
+  "coment": "A Lei nº 8.142/1990 condiciona o repasse regular e automático de recursos federais do Sistema Único de Saúde à existência, em cada ente, de fundo de saúde, conselho de saúde com composição paritária entre usuários e demais segmentos, plano de saúde, relatório de gestão, contrapartida orçamentária e comissão de elaboração do plano de carreira, cargos e salários. Entre as alternativas, a que reúne dois desses requisitos essenciais é fundo de saúde somado a conselho paritário. O fundo garante a vinculação contábil do recurso e o conselho, o controle social.",
   "porAlt": [
    "A comissão de plano de carreira é requisito, mas prontuário eletrônico não é condição para repasse.",
    "Plano diretor de regionalização é instrumento de organização regional, não requisito de repasse.",
@@ -4914,7 +4914,7 @@ window.BANCO=[
   }
  },
  {
-  "q": "Uma associação de pacientes ostomizados de um município pressiona os gestores de saúde para a disponibilização — ou para o financiamento — de bolsas e de capacitação em cuidados com ostomias na atenção primária de saúde. Diante disso, uma médica de uma unidade básica de saúde decide levar a proposta para a reunião do conselho municipal de saúde (CMS). Nesse caso, no que diz respeito ao funcionamento desse conselho, é correto afirmar que",
+  "q": "Uma associação de pacientes ostomizados de um município pressiona os gestores de saúde para a disponibilização, ou para o financiamento, de bolsas e de capacitação em cuidados com ostomias na atenção primária de saúde. Diante disso, uma médica de uma unidade básica de saúde decide levar a proposta para a reunião do conselho municipal de saúde (CMS). Nesse caso, no que diz respeito ao funcionamento desse conselho, é correto afirmar que",
   "alts": [
    "a discussão a respeito dessa proposta deve ser feita na secretaria de saúde municipal, uma vez que a prerrogativa de proposição de novos serviços é do poder executivo",
    "a participação da associação é vedada nas reuniões, considerando-se que os participantes dos conselhos são trabalhadores e gestores da área da saúde",
@@ -4927,7 +4927,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r2",
   "base": "Lei nº 8.142/1990; Resolução CNS nº 453/2012 sobre organização dos conselhos de saúde",
-  "coment": "O conselho de saúde é órgão colegiado permanente e deliberativo, com composição paritária — metade de usuários e metade dividida entre trabalhadores, gestores e prestadores — e competência para formular estratégias e controlar a execução da política de saúde, inclusive nos aspectos econômicos e financeiros. Associações de usuários podem propor pautas e participar. Aprovada a proposta no conselho, cabe à secretaria de saúde viabilizar a execução, incorporando-a ao planejamento e ao orçamento.",
+  "coment": "O conselho de saúde é órgão colegiado permanente e deliberativo, com composição paritária (metade de usuários e metade dividida entre trabalhadores, gestores e prestadores) e competência para formular estratégias e controlar a execução da política de saúde, inclusive nos aspectos econômicos e financeiros. Associações de usuários podem propor pautas e participar. Aprovada a proposta no conselho, cabe à secretaria de saúde viabilizar a execução, incorporando-a ao planejamento e ao orçamento.",
   "porAlt": [
    "A proposição não é prerrogativa exclusiva da secretaria: o conselho é espaço deliberativo com participação dos usuários.",
    "A participação de usuários é justamente a base da composição paritária do conselho.",
@@ -4953,7 +4953,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "EULAR revised recommendations for the management of fibromyalgia, 2017; American College of Physicians, manejo da dor crônica musculoesquelética",
-  "coment": "Dor musculoesquelética difusa há seis meses, com provas inflamatórias normais, resposta apenas parcial a analgésico e contexto de luto recente, corresponde a dor crônica de mecanismo nociplástico, do espectro da fibromialgia. Entre as opções, a amitriptilina em dose baixa à noite é a que tem evidência nesse cenário: atua sobre dor e sono, os dois sintomas centrais. O tratamento, porém, não se resume ao fármaco — exercício progressivo, educação em dor e abordagem do sofrimento psíquico são o núcleo da conduta.",
+  "coment": "Dor musculoesquelética difusa há seis meses, com provas inflamatórias normais, resposta apenas parcial a analgésico e contexto de luto recente, corresponde a dor crônica de mecanismo nociplástico, do espectro da fibromialgia. Entre as opções, a amitriptilina em dose baixa à noite é a que tem evidência nesse cenário: atua sobre dor e sono, os dois sintomas centrais. O tratamento, porém, não se resume ao fármaco. Exercício progressivo, educação em dor e abordagem do sofrimento psíquico são o núcleo da conduta.",
   "porAlt": [
    "Correta: amitriptilina em dose baixa à noite, que atua sobre dor e sono.",
    "A fluoxetina não é a primeira escolha para dor com insônia proeminente.",
@@ -4979,7 +4979,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022",
-  "coment": "Esofagite erosiva grau C ou D de Los Angeles é doença de refluxo grave, com alta taxa de recidiva e risco de complicações — estenose, sangramento e esôfago de Barrett. Nessas classes, o inibidor de bomba de prótons é mantido em dose de manutenção de forma continuada, e não sob demanda, e recomenda-se endoscopia de controle após oito semanas de tratamento para documentar a cicatrização e pesquisar Barrett subjacente, que só se torna visível depois que a inflamação regride.",
+  "coment": "Esofagite erosiva grau C ou D de Los Angeles é doença de refluxo grave, com alta taxa de recidiva e risco de complicações. Estenose, sangramento e esôfago de Barrett. Nessas classes, o inibidor de bomba de prótons é mantido em dose de manutenção de forma continuada, e não sob demanda, e recomenda-se endoscopia de controle após oito semanas de tratamento para documentar a cicatrização e pesquisar Barrett subjacente, que só se torna visível depois que a inflamação regride.",
   "porAlt": [
    "Suspender o inibidor de bomba em esofagite grave leva a recidiva e complicações.",
    "Bloqueador H2 é menos eficaz e não substitui o inibidor de bomba nessa gravidade.",
@@ -5005,8 +5005,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Guérin C, et al. PROSEVA, N Engl J Med 2013 — posição prona na SDRA grave",
-  "coment": "Relação abaixo de 150 apesar de ventilação protetora e PEEP adequada indica posição prona por pelo menos 16 horas por sessão — o ensaio PROSEVA mostrou redução de mortalidade nesse cenário. O bloqueio neuromuscular pode ser associado nas primeiras 48 horas se houver assincronia. O óxido nítrico melhora a oxigenação sem reduzir mortalidade.",
+  "base": "Guérin C, et al. PROSEVA, N Engl J Med 2013 (posição prona na SDRA grave",
+  "coment": "Relação abaixo de 150 apesar de ventilação protetora e PEEP adequada indica posição prona por pelo menos 16 horas por sessão) o ensaio PROSEVA mostrou redução de mortalidade nesse cenário. O bloqueio neuromuscular pode ser associado nas primeiras 48 horas se houver assincronia. O óxido nítrico melhora a oxigenação sem reduzir mortalidade.",
   "porAlt": [
    "Correta: prona é a medida com redução de mortalidade demonstrada.",
    "Aumentar o volume corrente abandona a ventilação protetora.",
@@ -5029,8 +5029,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Surviving Sepsis Campaign 2021/2026 — vasopressina e corticoide no choque refratário",
-  "coment": "Com dose crescente de noradrenalina, a vasopressina é associada para reduzir a exposição ao catecolaminérgico — e sua introdução é recomendada quando a noradrenalina se aproxima de 0,25 a 0,5 mcg/kg/min. No choque refratário a vasopressor, a hidrocortisona em dose baixa é sugerida, sem necessidade de dosar cortisol. A contratilidade preservada afasta indicação de inotrópico.",
+  "base": "Surviving Sepsis Campaign 2021/2026 (vasopressina e corticoide no choque refratário",
+  "coment": "Com dose crescente de noradrenalina, a vasopressina é associada para reduzir a exposição ao catecolaminérgico) e sua introdução é recomendada quando a noradrenalina se aproxima de 0,25 a 0,5 mcg/kg/min. No choque refratário a vasopressor, a hidrocortisona em dose baixa é sugerida, sem necessidade de dosar cortisol. A contratilidade preservada afasta indicação de inotrópico.",
   "porAlt": [
    "Correta: segundo vasopressor e corticoide no choque refratário.",
    "Escalar catecolamina sem associar aumenta arritmia e isquemia digital.",
@@ -5101,8 +5101,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "SCCM 2018 — diretriz PADIS: sedação leve e interrupção diária",
-  "coment": "Sedação profunda sem indicação prolonga ventilação, aumenta delirium e mortalidade. O pacote recomendado é sedação leve — alvo de Richmond entre menos 2 e zero —, interrupção diária e teste de respiração espontânea nos candidatos, que é exatamente o perfil deste paciente: estável, oxigenando bem e sem contraindicação.",
+  "base": "SCCM 2018. Diretriz PADIS: sedação leve e interrupção diária",
+  "coment": "Sedação profunda sem indicação prolonga ventilação, aumenta delirium e mortalidade. O pacote recomendado é sedação leve, alvo de Richmond entre menos 2 e zero, interrupção diária e teste de respiração espontânea nos candidatos, que é exatamente o perfil deste paciente: estável, oxigenando bem e sem contraindicação.",
   "porAlt": [
    "Correta: sedação leve com interrupção diária e teste de desmame.",
    "Sedação profunda sem indicação prolonga a ventilação.",
@@ -5125,7 +5125,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Resolução CFM nº 2.173/2017 — critérios de determinação de morte encefálica; Lei nº 9.434/1997",
+  "base": "Resolução CFM nº 2.173/2017. Critérios de determinação de morte encefálica; Lei nº 9.434/1997",
   "coment": "A resolução do Conselho Federal de Medicina exige, para determinar morte encefálica, a presença dos pré-requisitos clínicos, dois exames clínicos realizados por médicos diferentes e capacitados, sendo um deles especialista em área definida pela norma, um teste de apneia e um exame complementar que demonstre ausência de atividade encefálica, de perfusão ou de metabolismo. O intervalo entre os exames clínicos varia conforme a faixa etária, sendo de uma hora acima de dois anos. A determinação é ato médico e não depende de autorização familiar, embora a comunicação à família seja obrigatória.",
   "porAlt": [
    "Um único exame clínico não satisfaz a norma vigente para a determinação de morte encefálica.",
@@ -5149,7 +5149,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign, 2021; American Diabetes Association — Standards of Care in Diabetes, 2025, capítulo de cuidado hospitalar; ensaio NICE-SUGAR, 2009",
+  "base": "Surviving Sepsis Campaign, 2021; American Diabetes Association. Standards of Care in Diabetes, 2025, capítulo de cuidado hospitalar; ensaio NICE-SUGAR, 2009",
   "coment": "No paciente crítico, o controle glicêmico intensivo com alvo entre 80 e 110 mg/dL aumentou mortalidade e hipoglicemia grave no ensaio NICE-SUGAR. A recomendação atual é iniciar insulina quando duas medidas consecutivas ultrapassam 180 mg/dL, mantendo alvo entre 140 e 180 mg/dL, com insulina intravenosa contínua no paciente instável e monitorização capilar frequente. Antidiabéticos orais não são adequados no paciente crítico pela imprevisibilidade de absorção e pelos riscos de acidose e hipoglicemia.",
   "porAlt": [
    "O controle intensivo com alvo muito baixo aumentou hipoglicemia grave e mortalidade no NICE-SUGAR.",
@@ -5173,8 +5173,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ESC 2021 — insuficiência cardíaca aguda e choque cardiogênico",
-  "coment": "O quadro é de choque cardiogênico: hipoperfusão com pressões de enchimento elevadas e saturação venosa baixa. Com a pressão de oclusão em 24 mmHg não há espaço para volume, e a noradrenalina isolada não corrige o débito. O inotrópico é a medida que aumenta o débito cardíaco — dobutamina associada ao vasopressor, com reavaliação para suporte circulatório mecânico se não responder.",
+  "base": "ESC 2021. Insuficiência cardíaca aguda e choque cardiogênico",
+  "coment": "O quadro é de choque cardiogênico: hipoperfusão com pressões de enchimento elevadas e saturação venosa baixa. Com a pressão de oclusão em 24 mmHg não há espaço para volume, e a noradrenalina isolada não corrige o débito. O inotrópico é a medida que aumenta o débito cardíaco. Dobutamina associada ao vasopressor, com reavaliação para suporte circulatório mecânico se não responder.",
   "porAlt": [
    "Correta: inotrópico associado ao vasopressor no choque cardiogênico.",
    "Expandir com pressão de oclusão de 24 mmHg piora a congestão.",
@@ -5197,7 +5197,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AHA 2025 — cuidados pós-parada: controle de temperatura",
+  "base": "AHA 2025, cuidados pós-parada: controle de temperatura",
   "coment": "A febre após parada piora o desfecho neurológico, e a recomendação atual é controle ativo de temperatura com alvo entre 32 e 37,5 °C, prevenindo ativamente a hipertermia por pelo menos 72 horas. A hipotermia profunda foi abandonada; o essencial demonstrado é evitar a febre.",
   "porAlt": [
    "Correta: prevenir febre é o núcleo da recomendação atual.",
@@ -5245,8 +5245,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2023 e ensaio STRONG-HF — início e titulação intra-hospitalar",
-  "coment": "A estratégia validada pelo ensaio STRONG-HF é iniciar as quatro classes fundamentais ainda na internação, em doses baixas, e titular rapidamente nas semanas seguintes com consultas próximas — reduziu morte e reinternação em 180 dias. Este paciente está descongestionado, com pressão, potássio e função renal que permitem o início.",
+  "base": "ESC 2023 e ensaio STRONG-HF, início e titulação intra-hospitalar",
+  "coment": "A estratégia validada pelo ensaio STRONG-HF é iniciar as quatro classes fundamentais ainda na internação, em doses baixas, e titular rapidamente nas semanas seguintes com consultas próximas. Reduziu morte e reinternação em 180 dias. Este paciente está descongestionado, com pressão, potássio e função renal que permitem o início.",
   "porAlt": [
    "Correta: início intra-hospitalar das quatro classes, com titulação rápida.",
    "Iniciar só uma classe desperdiça a janela da internação.",
@@ -5269,7 +5269,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
-  "base": "ATS/IDSA Clinical Practice Guideline — Community-acquired Pneumonia in Adults, 2019; SBPT, diretrizes brasileiras de pneumonia adquirida na comunidade",
+  "base": "ATS/IDSA Clinical Practice Guideline: Community-acquired Pneumonia in Adults, 2019; SBPT, diretrizes brasileiras de pneumonia adquirida na comunidade",
   "coment": "A transição da via intravenosa para a oral é indicada quando o paciente está clinicamente estável, hemodinamicamente compensado, afebril, com melhora dos sintomas respiratórios e capaz de ingerir e absorver medicação. A duração total mínima é de cinco dias, estendida conforme resposta clínica e presença de complicações. A resolução radiológica é lenta, pode levar semanas e não deve retardar a alta nem prolongar o antibiótico, e imagem de controle imediata não é rotina.",
   "porAlt": [
    "Prolongar a via intravenosa sem necessidade aumenta tempo de internação e risco de complicação de acesso.",
@@ -5341,8 +5341,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
-  "base": "NICE guideline — Delirium: prevention, diagnosis and management in hospital and long-term care, atualização de 2023; American Geriatrics Society, guideline for postoperative delirium",
-  "coment": "O quadro é de delirium, e a conduta inicial é buscar causas reversíveis — dor, retenção urinária, fecaloma, desidratação, distúrbio eletrolítico, hipóxia, infecção, abstinência e fármacos — e aplicar medidas não farmacológicas, que são as únicas com evidência de prevenção e redução de duração: reorientação, presença de acompanhante, óculos e aparelho auditivo, sono preservado, hidratação e mobilização precoce. Antipsicótico não previne delirium e fica reservado à agitação com risco de dano; benzodiazepínico agrava, exceto na abstinência alcoólica.",
+  "base": "NICE guideline. Delirium: prevention, diagnosis and management in hospital and long-term care, atualização de 2023; American Geriatrics Society, guideline for postoperative delirium",
+  "coment": "O quadro é de delirium, e a conduta inicial é buscar causas reversíveis (dor, retenção urinária, fecaloma, desidratação, distúrbio eletrolítico, hipóxia, infecção, abstinência e fármacos) e aplicar medidas não farmacológicas, que são as únicas com evidência de prevenção e redução de duração: reorientação, presença de acompanhante, óculos e aparelho auditivo, sono preservado, hidratação e mobilização precoce. Antipsicótico não previne delirium e fica reservado à agitação com risco de dano; benzodiazepínico agrava, exceto na abstinência alcoólica.",
   "porAlt": [
    "Antipsicótico não previne delirium nem encurta sua duração e traz risco em pacientes idosos.",
    "Benzodiazepínico agrava o delirium, exceto quando a causa é abstinência de álcool ou do próprio fármaco.",
@@ -5437,7 +5437,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r1",
-  "base": "GOLD — Global Strategy for the Diagnosis, Management and Prevention of COPD, 2026; ERS/ATS guidelines on noninvasive ventilation for acute respiratory failure, 2017",
+  "base": "GOLD. Global Strategy for the Diagnosis, Management and Prevention of COPD, 2026; ERS/ATS guidelines on noninvasive ventilation for acute respiratory failure, 2017",
   "coment": "Na exacerbação da doença pulmonar obstrutiva crônica com acidose respiratória, definida por pH abaixo de 7,35 com hipercapnia, a ventilação não invasiva com dois níveis de pressão é indicação de primeira linha: reduz intubação, mortalidade e tempo de internação. O paciente está alerta e colaborativo, sem contraindicação. A oxigenoterapia deve ser titulada para saturação entre 88 e 92%, porque a oferta liberal agrava a hipercapnia, e sedativos são evitados fora do ambiente monitorizado.",
   "porAlt": [
    "A intubação se reserva à falha da ventilação não invasiva, rebaixamento ou instabilidade hemodinâmica.",
@@ -5485,7 +5485,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r1",
-  "base": "American Diabetes Association — Standards of Care in Diabetes, 2025; consenso ADA/EASD sobre crises hiperglicêmicas, 2024",
+  "base": "American Diabetes Association. Standards of Care in Diabetes, 2025; consenso ADA/EASD sobre crises hiperglicêmicas, 2024",
   "coment": "O critério de resolução da cetoacidose diabética não é a glicemia, e sim o fechamento do ânion-gap com normalização do bicarbonato e do pH. Quando a glicemia atinge cerca de 200 a 250 mg/dL, associa-se solução glicosada e mantém-se a infusão de insulina, que é o que interrompe a cetogênese. A transição para insulina subcutânea só ocorre após a resolução, com sobreposição de uma a duas horas. Bicarbonato se reserva a pH abaixo de 6,9.",
   "porAlt": [
    "Correta: associar glicose e manter a insulina até a resolução do ânion-gap e da acidose.",
@@ -5509,7 +5509,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Brain Trauma Foundation e ATLS 11ª edição, 2018 — TCE grave",
+  "base": "Brain Trauma Foundation e ATLS 11ª edição, 2018. TCE grave",
   "coment": "No trauma cranioencefálico grave, o alvo de pressão de perfusão cerebral é de 60 a 70 mmHg, e uma única queda de pressão sistólica abaixo de 90 mmHg dobra a mortalidade. As prioridades são evitar hipotensão e hipóxia, manter normocapnia, cabeceira elevada e analgesia adequada. A hiperventilação profilática causa vasoconstrição e isquemia; o corticoide aumentou mortalidade no CRASH.",
   "porAlt": [
    "Correta: proteger a perfusão é a medida de maior impacto.",
@@ -5533,7 +5533,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign, 2021; IDSA/SHEA — Implementing an Antibiotic Stewardship Program, 2016",
+  "base": "Surviving Sepsis Campaign, 2021; IDSA/SHEA, Implementing an Antibiotic Stewardship Program, 2016",
   "coment": "Com identificação do agente e melhora clínica, a conduta é o descalonamento para o antimicrobiano de menor espectro eficaz, medida central dos programas de uso racional de antimicrobianos, que reduz seleção de resistência, toxicidade e custo sem prejudicar desfecho. A duração deve ser a mais curta possível conforme o sítio e a resposta, geralmente de cinco a sete dias em pneumonia com boa evolução, apoiada por parâmetros clínicos e, quando disponível, pela curva de procalcitonina.",
   "porAlt": [
    "Manter amplo espectro por tempo prolongado seleciona resistência sem melhorar o desfecho clínico.",
@@ -5557,8 +5557,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ASPEN/SCCM 2016 — terapia nutricional no paciente crítico",
-  "coment": "Intolerância gástrica com resíduo elevado e distensão é manejada com procinético — metoclopramida ou eritromicina — e, na persistência, com posicionamento pós-pilórico da sonda, que permite manter a via enteral. A parenteral é reservada à falha da enteral, porque a via enteral preserva a barreira intestinal e reduz infecção.",
+  "base": "ASPEN/SCCM 2016 (terapia nutricional no paciente crítico",
+  "coment": "Intolerância gástrica com resíduo elevado e distensão é manejada com procinético) metoclopramida ou eritromicina, e, na persistência, com posicionamento pós-pilórico da sonda, que permite manter a via enteral. A parenteral é reservada à falha da enteral, porque a via enteral preserva a barreira intestinal e reduz infecção.",
   "porAlt": [
    "Correta: procinético e via pós-pilórica mantêm a nutrição enteral.",
    "A parenteral é para falha da enteral, que ainda não foi tentada.",
@@ -5568,7 +5568,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 58 anos está na terapia intensiva por choque séptico de foco urinário, sedada e em ventilação mecânica. No terceiro dia, apresenta débito urinário de 0,2 mL/kg/h nas últimas seis horas, creatinina de 3,8 mg/dL — subindo de 1,0 mg/dL na admissão —, potássio de 6,4 mEq/L com ondas T apiculadas ao eletrocardiograma, pH de 7,18 e bicarbonato de 12 mEq/L. Está sem vasopressor e sem responsividade a volume, com balanço hídrico positivo de 6 litros. Qual é a conduta?",
+  "q": "Mulher de 58 anos está na terapia intensiva por choque séptico de foco urinário, sedada e em ventilação mecânica. No terceiro dia, apresenta débito urinário de 0,2 mL/kg/h nas últimas seis horas, creatinina de 3,8 mg/dL (subindo de 1,0 mg/dL na admissão), potássio de 6,4 mEq/L com ondas T apiculadas ao eletrocardiograma, pH de 7,18 e bicarbonato de 12 mEq/L. Está sem vasopressor e sem responsividade a volume, com balanço hídrico positivo de 6 litros. Qual é a conduta?",
   "alts": [
    "Iniciar terapia de substituição renal",
    "Nova expansão volêmica com cristaloide",
@@ -5581,8 +5581,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "KDIGO 2012 — lesão renal aguda: indicações de terapia de substituição renal",
-  "coment": "A indicação de diálise na lesão renal aguda não é o valor da creatinina, e sim as complicações refratárias: hipercalemia com repercussão eletrocardiográfica, acidose metabólica grave, hipervolemia refratária, uremia sintomática e algumas intoxicações. Aqui há hipercalemia com alteração no traçado, acidose e sobrecarga — a diálise está indicada, sem esperar.",
+  "base": "KDIGO 2012, lesão renal aguda: indicações de terapia de substituição renal",
+  "coment": "A indicação de diálise na lesão renal aguda não é o valor da creatinina, e sim as complicações refratárias: hipercalemia com repercussão eletrocardiográfica, acidose metabólica grave, hipervolemia refratária, uremia sintomática e algumas intoxicações. Aqui há hipercalemia com alteração no traçado, acidose e sobrecarga. A diálise está indicada, sem esperar.",
   "porAlt": [
    "Correta: complicações refratárias indicam substituição renal.",
    "Mais volume com balanço positivo de 6 litros agrava a congestão.",
@@ -5678,7 +5678,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r2",
   "base": "Resolução CFM nº 1.805/2006 e Código de Ética Médica (Resolução CFM nº 2.217/2018); ANCP, Manual de Cuidados Paliativos, 2021",
-  "coment": "Diante de doença grave e irreversível, é eticamente permitido limitar ou suspender procedimentos que prolonguem a vida sem trazer benefício, respeitando a vontade do paciente ou de seu representante. A conduta correta é a reunião familiar estruturada, com esclarecimento do prognóstico, escuta de valores e preferências, recomendação médica explícita e registro em prontuário. Medidas de conforto — analgesia, sedação, higiene e presença — nunca são suspensas, e ortotanásia não se confunde com eutanásia.",
+  "coment": "Diante de doença grave e irreversível, é eticamente permitido limitar ou suspender procedimentos que prolonguem a vida sem trazer benefício, respeitando a vontade do paciente ou de seu representante. A conduta correta é a reunião familiar estruturada, com esclarecimento do prognóstico, escuta de valores e preferências, recomendação médica explícita e registro em prontuário. Medidas de conforto (analgesia, sedação, higiene e presença) nunca são suspensas, e ortotanásia não se confunde com eutanásia.",
   "porAlt": [
    "Manter intervenções sem benefício contra a vontade manifestada configura obstinação terapêutica.",
    "Medidas de conforto como analgesia e sedação jamais são suspensas na limitação de suporte avançado.",
@@ -5725,8 +5725,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2024 — fibrilação atrial: transesofágico fora da janela de 24 horas",
-  "coment": "Fora da janela de 24 horas, ou quando o tempo de início é indeterminado, existem dois caminhos: anticoagular por pelo menos três semanas antes, ou fazer transesofágico para excluir trombo em apêndice atrial e cardioverter sob anticoagulação. Com desejo de reversão precoce, o transesofágico é o caminho — e a anticoagulação segue por pelo menos quatro semanas depois.",
+  "base": "ESC 2024, fibrilação atrial: transesofágico fora da janela de 24 horas",
+  "coment": "Fora da janela de 24 horas, ou quando o tempo de início é indeterminado, existem dois caminhos: anticoagular por pelo menos três semanas antes, ou fazer transesofágico para excluir trombo em apêndice atrial e cardioverter sob anticoagulação. Com desejo de reversão precoce, o transesofágico é o caminho, e a anticoagulação segue por pelo menos quatro semanas depois.",
   "porAlt": [
    "Correta: exclui trombo e permite cardioverter sem esperar três semanas.",
    "Cardioverter sem excluir trombo em tempo indeterminado é embolizar.",
@@ -5749,7 +5749,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease; American Diabetes Association — Standards of Care in Diabetes, 2025",
+  "base": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease; American Diabetes Association. Standards of Care in Diabetes, 2025",
   "coment": "A metformina pode ser mantida com filtração entre 30 e 45 mL/min/1,73 m², em dose reduzida e com monitorização, sendo contraindicada apenas abaixo de 30. Em paciente com diabetes tipo 2 e doença renal crônica, o inibidor de SGLT2 é recomendado por reduzir progressão renal, hospitalização por insuficiência cardíaca e mortalidade cardiovascular, com benefício que independe do controle glicêmico. Sulfonilureias de longa ação são evitadas pelo risco de hipoglicemia prolongada.",
   "porAlt": [
    "Correta: manter metformina com ajuste de dose e associar inibidor de SGLT2 por proteção renal e cardíaca.",
@@ -5797,8 +5797,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
-  "base": "AABB — Red Blood Cell Transfusion: 2023 International Collaboration Clinical Practice Guidelines; Ministério da Saúde, Guia para uso de hemocomponentes, 2024",
-  "coment": "A estratégia restritiva, com gatilho abaixo de 7 g/dL no paciente estável e abaixo de 8 g/dL em doença cardiovascular prévia ou pós-operatório, é ao menos tão segura quanto a liberal e reduz exposição a hemocomponentes. Com 7,8 g/dL, sem sintoma e sem sangramento, a conduta é investigar a causa — ferro, B12, folato, perda oculta, doença renal e inflamação — e tratá-la. Quando a transfusão é indicada, transfunde-se uma unidade por vez, com reavaliação clínica e laboratorial.",
+  "base": "AABB. Red Blood Cell Transfusion: 2023 International Collaboration Clinical Practice Guidelines; Ministério da Saúde, Guia para uso de hemocomponentes, 2024",
+  "coment": "A estratégia restritiva, com gatilho abaixo de 7 g/dL no paciente estável e abaixo de 8 g/dL em doença cardiovascular prévia ou pós-operatório, é ao menos tão segura quanto a liberal e reduz exposição a hemocomponentes. Com 7,8 g/dL, sem sintoma e sem sangramento, a conduta é investigar a causa (ferro, B12, folato, perda oculta, doença renal e inflamação) e tratá-la. Quando a transfusão é indicada, transfunde-se uma unidade por vez, com reavaliação clínica e laboratorial.",
   "porAlt": [
    "Prescrever duas unidades de rotina é a prática que a evidência atual mais claramente desautoriza.",
    "O gatilho de dez gramas por decilitro corresponde à estratégia liberal, abandonada nesse cenário.",
@@ -5870,7 +5870,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r1",
   "base": "AASLD/EASL Practice Guideline on hepatic encephalopathy, 2014 e atualizações; Baveno VII, 2022",
-  "coment": "A encefalopatia hepática é diagnóstico clínico, e a prioridade é identificar e tratar o precipitante — infecção, sangramento digestivo, constipação, distúrbio eletrolítico, desidratação, sedativos e lesão renal. O tratamento é lactulose, titulada para duas a três evacuações pastosas por dia, com rifaximina associada na recorrência. A amônia sérica não confirma nem exclui o diagnóstico e não deve guiar a terapia. A restrição proteica prolongada agrava sarcopenia e piora o prognóstico.",
+  "coment": "A encefalopatia hepática é diagnóstico clínico, e a prioridade é identificar e tratar o precipitante. Infecção, sangramento digestivo, constipação, distúrbio eletrolítico, desidratação, sedativos e lesão renal. O tratamento é lactulose, titulada para duas a três evacuações pastosas por dia, com rifaximina associada na recorrência. A amônia sérica não confirma nem exclui o diagnóstico e não deve guiar a terapia. A restrição proteica prolongada agrava sarcopenia e piora o prognóstico.",
   "porAlt": [
    "A amônia sérica não confirma nem exclui encefalopatia hepática e não serve para guiar o tratamento.",
    "A restrição proteica prolongada agrava a sarcopenia e piora o prognóstico do paciente cirrótico.",
@@ -5893,7 +5893,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline — Osteoporosis in Postmenopausal Women, 2019; Sociedade Brasileira de Endocrinologia, diretrizes de osteoporose",
+  "base": "Endocrine Society Clinical Practice Guideline: Osteoporosis in Postmenopausal Women, 2019; Sociedade Brasileira de Endocrinologia, diretrizes de osteoporose",
   "coment": "Fratura por fragilidade define osteoporose estabelecida e indica tratamento antirreabsortivo independentemente do valor da densitometria. Antes de iniciar bisfosfonato, corrige-se a deficiência de vitamina D e garante-se aporte adequado de cálcio, sob risco de hipocalcemia sintomática. O plano inclui ainda prevenção de quedas, revisão de fármacos sedativos e hipotensores, reabilitação, avaliação de causas secundárias de osteoporose e saúde bucal antes de terapias específicas.",
   "porAlt": [
    "Iniciar antirreabsortivo com vitamina D deficiente expõe a paciente à hipocalcemia sintomática.",
@@ -5917,8 +5917,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, guidelines on advanced HIV disease",
-  "coment": "A recomendação atual é iniciar a terapia antirretroviral para todas as pessoas vivendo com HIV, o mais precocemente possível e independentemente da contagem de CD4, o que reduz morbidade, mortalidade e transmissão. Com CD4 abaixo de 200, associam-se profilaxias — sulfametoxazol-trimetoprima para pneumocistose e, conforme o valor e o quadro, para toxoplasmose e micobactérias —, além do rastreio de tuberculose e de criptococose. Em algumas infecções oportunistas do sistema nervoso, o início é postergado por semanas.",
+  "base": "Ministério da Saúde. PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, guidelines on advanced HIV disease",
+  "coment": "A recomendação atual é iniciar a terapia antirretroviral para todas as pessoas vivendo com HIV, o mais precocemente possível e independentemente da contagem de CD4, o que reduz morbidade, mortalidade e transmissão. Com CD4 abaixo de 200, associam-se profilaxias (sulfametoxazol-trimetoprima para pneumocistose e, conforme o valor e o quadro, para toxoplasmose e micobactérias), além do rastreio de tuberculose e de criptococose. Em algumas infecções oportunistas do sistema nervoso, o início é postergado por semanas.",
   "porAlt": [
    "Correta: iniciar a terapia antirretroviral precocemente e manter as profilaxias indicadas pelo CD4.",
    "O critério de contagem de CD4 para iniciar tratamento foi abandonado: trata-se toda pessoa com HIV.",
@@ -5965,8 +5965,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "WSACS 2013 — hipertensão intra-abdominal e síndrome compartimental",
-  "coment": "Pressão intra-abdominal acima de 20 mmHg com nova disfunção orgânica define síndrome compartimental abdominal. O manejo inicia com medidas clínicas — sedação e analgesia, drenagem de conteúdo gástrico e intestinal, drenagem percutânea de coleções, balanço hídrico negativo e bloqueio neuromuscular em casos selecionados —, e a descompressão cirúrgica entra na refratariedade.",
+  "base": "WSACS 2013. Hipertensão intra-abdominal e síndrome compartimental",
+  "coment": "Pressão intra-abdominal acima de 20 mmHg com nova disfunção orgânica define síndrome compartimental abdominal. O manejo inicia com medidas clínicas (sedação e analgesia, drenagem de conteúdo gástrico e intestinal, drenagem percutânea de coleções, balanço hídrico negativo e bloqueio neuromuscular em casos selecionados), e a descompressão cirúrgica entra na refratariedade.",
   "porAlt": [
    "Correta: pressão acima de 20 mmHg com disfunção é compartimental.",
    "O íleo isolado não explica a disfunção de múltiplos órgãos.",
@@ -6037,7 +6037,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Sterns RH — Disorders of plasma sodium (NEJM, 2015); KDIGO e consensos sobre distúrbios do sódio no paciente crítico",
+  "base": "Sterns RH. Disorders of plasma sodium (NEJM, 2015); KDIGO e consensos sobre distúrbios do sódio no paciente crítico",
   "coment": "Hipernatremia com poliúria e urina inapropriadamente diluída sugere perda de água livre por diabetes insípido, que no paciente crítico pode ser central, após lesão neurológica, ou nefrogênico, por fármacos e distúrbios eletrolíticos. A conduta é calcular e repor o déficit de água livre, corrigindo o sódio em ritmo não superior a 10 a 12 mEq/L em vinte e quatro horas para evitar edema cerebral, tratar as perdas em curso e investigar a etiologia, com desmopressina quando a causa é central.",
   "porAlt": [
    "A correção rápida da hipernatremia crônica provoca edema cerebral e convulsão nesse contexto.",
@@ -6062,7 +6062,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "ERS/ATS clinical practice guideline on high-flow nasal cannula in acute respiratory failure, 2022; ensaio FLORALI, 2015",
-  "coment": "Na insuficiência respiratória aguda hipoxêmica sem hipercapnia, o cateter nasal de alto fluxo reduz a necessidade de intubação em comparação à oxigenoterapia convencional e é a estratégia inicial preferida em pacientes selecionados, com monitorização estreita. O índice ROX, que combina saturação, fração inspirada de oxigênio e frequência respiratória, ajuda a identificar precocemente quem falhará e precisará de intubação — o retardo da intubação na falha se associa a pior desfecho.",
+  "coment": "Na insuficiência respiratória aguda hipoxêmica sem hipercapnia, o cateter nasal de alto fluxo reduz a necessidade de intubação em comparação à oxigenoterapia convencional e é a estratégia inicial preferida em pacientes selecionados, com monitorização estreita. O índice ROX, que combina saturação, fração inspirada de oxigênio e frequência respiratória, ajuda a identificar precocemente quem falhará e precisará de intubação. O retardo da intubação na falha se associa a pior desfecho.",
   "porAlt": [
    "A ventilação não invasiva tem melhor desempenho na insuficiência hipercápnica e no edema pulmonar.",
    "Correta: cateter nasal de alto fluxo com monitorização estreita e reavaliação pelo índice ROX.",
@@ -6085,8 +6085,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ATLS 11ª edição, 2018 — pneumotórax hipertensivo no paciente ventilado",
-  "coment": "Pneumotórax hipertensivo em paciente ventilado tem apresentação típica: queda súbita de saturação e pressão, aumento da pressão de pico, ausência de murmúrio unilateral com hipertimpanismo e desvio de traqueia. O diagnóstico é clínico e o tratamento é descompressão imediata — a ventilação com pressão positiva acelera a progressão e reduz a janela de tempo.",
+  "base": "ATLS 11ª edição, 2018, pneumotórax hipertensivo no paciente ventilado",
+  "coment": "Pneumotórax hipertensivo em paciente ventilado tem apresentação típica: queda súbita de saturação e pressão, aumento da pressão de pico, ausência de murmúrio unilateral com hipertimpanismo e desvio de traqueia. O diagnóstico é clínico e o tratamento é descompressão imediata. A ventilação com pressão positiva acelera a progressão e reduz a janela de tempo.",
   "porAlt": [
    "Correta: clínica fecha o diagnóstico e a descompressão é imediata.",
    "Esperar imagem num quadro que mata em minutos é erro grave.",
@@ -6109,8 +6109,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Surviving Sepsis Campaign 2021/2026 — corticoide no choque refratário",
-  "coment": "No choque séptico refratário, com necessidade crescente de vasopressor apesar de ressuscitação e controle do foco, a hidrocortisona em dose baixa — 200 mg ao dia, em infusão contínua ou fracionada — é sugerida: acelera a reversão do choque. Não se dosa cortisol para decidir, e doses imunossupressoras não são indicadas.",
+  "base": "Surviving Sepsis Campaign 2021/2026, corticoide no choque refratário",
+  "coment": "No choque séptico refratário, com necessidade crescente de vasopressor apesar de ressuscitação e controle do foco, a hidrocortisona em dose baixa (200 mg ao dia, em infusão contínua ou fracionada) é sugerida: acelera a reversão do choque. Não se dosa cortisol para decidir, e doses imunossupressoras não são indicadas.",
   "porAlt": [
    "Correta: dose baixa, sem necessidade de teste prévio.",
    "Pulso de metilprednisolona não é o esquema da sepse.",
@@ -6133,7 +6133,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Hormonal Replacement in Hypopituitarism in Adults, 2016; consenso sobre distúrbios da água após cirurgia hipofisária, 2022",
+  "base": "Endocrine Society Clinical Practice Guideline. Hormonal Replacement in Hypopituitarism in Adults, 2016; consenso sobre distúrbios da água após cirurgia hipofisária, 2022",
   "coment": "Poliúria intensa com urina muito diluída e hipernatremia após cirurgia hipofisária caracteriza diabetes insípido central, hoje também chamado de deficiência de arginina-vasopressina, complicação frequente e geralmente transitória. O tratamento é repor as perdas de água livre e administrar desmopressina, com monitorização rigorosa do sódio e do débito urinário. Deve-se vigiar a evolução trifásica, com fase intermediária de secreção inapropriada, e avaliar a função adrenal, cuja deficiência exige reposição imediata.",
   "porAlt": [
    "A diurese osmótica cursa com urina concentrada em solutos, e não com osmolalidade urinária baixa.",
@@ -6157,8 +6157,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "American Epilepsy Society — Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults, 2016; Neurocritical Care Society guidelines",
-  "coment": "O estado de mal epiléptico refratário é definido pela persistência das crises após benzodiazepínico em dose adequada seguido de um antiepiléptico de segunda linha. A conduta é escalonar para anestésico intravenoso contínuo — midazolam, propofol ou tiopental —, com intubação, suporte hemodinâmico e monitorização eletroencefalográfica contínua para documentar a supressão das crises. Em paralelo, investiga-se e trata-se a causa, incluindo infecção, distúrbio metabólico, lesão estrutural e abstinência.",
+  "base": "American Epilepsy Society. Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults, 2016; Neurocritical Care Society guidelines",
+  "coment": "O estado de mal epiléptico refratário é definido pela persistência das crises após benzodiazepínico em dose adequada seguido de um antiepiléptico de segunda linha. A conduta é escalonar para anestésico intravenoso contínuo (midazolam, propofol ou tiopental), com intubação, suporte hemodinâmico e monitorização eletroencefalográfica contínua para documentar a supressão das crises. Em paralelo, investiga-se e trata-se a causa, incluindo infecção, distúrbio metabólico, lesão estrutural e abstinência.",
   "porAlt": [
    "Repetir benzodiazepínico indefinidamente causa depressão respiratória sem controlar as crises.",
    "O estado de mal prolongado provoca lesão neuronal e falência sistêmica e não pode ser observado.",
@@ -6181,8 +6181,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ACC/AHA 2025 — SCA: complicações mecânicas do infarto",
-  "coment": "Sopro novo com frêmito e shunt septal ao ecocardiograma definem comunicação interventricular pós-infarto, complicação mecânica de alta letalidade. A conduta é estabilização com suporte — inotrópico, vasodilatador se a pressão permitir, balão intra-aórtico ou assistência — e correção cirúrgica ou percutânea, com discussão imediata com a cirurgia cardíaca.",
+  "base": "ACC/AHA 2025. SCA: complicações mecânicas do infarto",
+  "coment": "Sopro novo com frêmito e shunt septal ao ecocardiograma definem comunicação interventricular pós-infarto, complicação mecânica de alta letalidade. A conduta é estabilização com suporte (inotrópico, vasodilatador se a pressão permitir, balão intra-aórtico ou assistência) e correção cirúrgica ou percutânea, com discussão imediata com a cirurgia cardíaca.",
   "porAlt": [
    "Correta: complicação mecânica exige correção, não tratamento clínico isolado.",
    "Diurético isolado não resolve o shunt e o paciente já está hipotenso.",
@@ -6205,10 +6205,10 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "American College of Rheumatology 2020 — Guideline for the Management of Gout",
-  "coment": "A diretriz de 2020 recomenda fortemente a terapia hipouricemiante para quem tem duas ou mais crises por ano, tofos ou dano radiográfico — este paciente teve três. O alopurinol é a primeira linha, inclusive em doença renal crônica, iniciado em dose baixa e titulado até o alvo de urato sérico abaixo de 6 mg/dL, com profilaxia anti-inflamatória por três a seis meses para evitar as crises de mobilização. Outra mudança relevante: não é preciso esperar a crise passar para começar, desde que o paciente esteja em tratamento anti-inflamatório adequado. O febuxostate é segunda linha, com alerta cardiovascular.",
+  "base": "American College of Rheumatology 2020. Guideline for the Management of Gout",
+  "coment": "A diretriz de 2020 recomenda fortemente a terapia hipouricemiante para quem tem duas ou mais crises por ano, tofos ou dano radiográfico, este paciente teve três. O alopurinol é a primeira linha, inclusive em doença renal crônica, iniciado em dose baixa e titulado até o alvo de urato sérico abaixo de 6 mg/dL, com profilaxia anti-inflamatória por três a seis meses para evitar as crises de mobilização. Outra mudança relevante: não é preciso esperar a crise passar para começar, desde que o paciente esteja em tratamento anti-inflamatório adequado. O febuxostate é segunda linha, com alerta cardiovascular.",
   "porAlt": [
-   "A recomendação atual permite iniciar durante a crise, desde que sob tratamento anti-inflamatório — esperar só adia a prevenção.",
+   "A recomendação atual permite iniciar durante a crise, desde que sob tratamento anti-inflamatório, esperar só adia a prevenção.",
    "A dieta isolada reduz pouco o urato sérico e raramente alcança o alvo em quem já tem crises recorrentes documentadas.",
    "A colchicina isolada previne crises, mas não reduz o urato nem dissolve os depósitos que causam a doença.",
    "Correta: com três crises no ano há indicação forte de hipouricemiante, começando alopurinol com profilaxia e alvo abaixo de 6 mg/dL.",
@@ -6229,8 +6229,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "EULAR 2023 — recommendations for the management of systemic lupus erythematosus; critérios EULAR/ACR 2019",
-  "coment": "A hidroxicloroquina é recomendada para todos os pacientes com lúpus, salvo contraindicação: reduz atividade de doença, previne surtos, protege contra dano orgânico e trombose e melhora sobrevida, com necessidade de rastreamento oftalmológico periódico pelo risco de retinopatia. O corticoide deve ser usado na menor dose possível e desmamado, porque grande parte do dano acumulado no lúpus vem dele. O envolvimento renal com proteinúria acima de 0,5 g em 24 horas exige biópsia para definir a classe da nefrite, que é o que orienta a escolha do imunossupressor — micofenolato ou ciclofosfamida, a depender do caso.",
+  "base": "EULAR 2023. Recommendations for the management of systemic lupus erythematosus; critérios EULAR/ACR 2019",
+  "coment": "A hidroxicloroquina é recomendada para todos os pacientes com lúpus, salvo contraindicação: reduz atividade de doença, previne surtos, protege contra dano orgânico e trombose e melhora sobrevida, com necessidade de rastreamento oftalmológico periódico pelo risco de retinopatia. O corticoide deve ser usado na menor dose possível e desmamado, porque grande parte do dano acumulado no lúpus vem dele. O envolvimento renal com proteinúria acima de 0,5 g em 24 horas exige biópsia para definir a classe da nefrite, que é o que orienta a escolha do imunossupressor. Micofenolato ou ciclofosfamida, a depender do caso.",
   "porAlt": [
    "Corticoide em dose alta e contínua é a principal fonte de dano acumulado no lúpus; a meta é a menor dose com desmame.",
    "Anti-inflamatório isolado não controla atividade sistêmica e ainda arrisca a função renal já comprometida pela proteinúria.",
@@ -6253,7 +6253,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American College of Rheumatology 2021 — Guideline for the Treatment of Rheumatoid Arthritis",
+  "base": "American College of Rheumatology 2021. Guideline for the Treatment of Rheumatoid Arthritis",
   "coment": "O metotrexato é a droga modificadora de primeira escolha na artrite reumatoide, inclusive na doença moderada a grave, por eficácia, custo e experiência acumulada. O corticoide pode ser usado como ponte, na menor dose e pelo menor tempo, enquanto a droga modificadora atinge o efeito pleno em oito a doze semanas. O conceito que orienta tudo é a janela de oportunidade: iniciar nos primeiros meses muda a história natural da doença e previne dano estrutural. Esperar novas erosões para tratar é exatamente o erro que a estratégia de tratamento por meta veio corrigir.",
   "porAlt": [
    "O anti-TNF entra após falha ou intolerância ao metotrexato; usá-lo de saída eleva custo e risco sem ganho demonstrado.",
@@ -6277,8 +6277,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "tit",
-  "base": "International Myeloma Working Group, 2014 — critérios diagnósticos revisados (CRAB e critérios SLiM)",
-  "coment": "O diagnóstico exige plasmócitos clonais na medula em 10% ou mais, ou plasmocitoma comprovado, somados a pelo menos um evento definidor. Os eventos clássicos formam o acrônimo CRAB: hipercalcemia, insuficiência renal, anemia e lesão óssea. Os critérios revisados acrescentaram os eventos SLiM, que definem mieloma mesmo sem lesão de órgão: plasmocitose medular de 60% ou mais, relação de cadeias leves livres envolvida sobre não envolvida de 100 ou mais, e mais de uma lesão focal à ressonância. Este paciente reúne plasmocitose de 42% com hipercalcemia, insuficiência renal e anemia — três eventos CRAB.",
+  "base": "International Myeloma Working Group, 2014. Critérios diagnósticos revisados (CRAB e critérios SLiM)",
+  "coment": "O diagnóstico exige plasmócitos clonais na medula em 10% ou mais, ou plasmocitoma comprovado, somados a pelo menos um evento definidor. Os eventos clássicos formam o acrônimo CRAB: hipercalcemia, insuficiência renal, anemia e lesão óssea. Os critérios revisados acrescentaram os eventos SLiM, que definem mieloma mesmo sem lesão de órgão: plasmocitose medular de 60% ou mais, relação de cadeias leves livres envolvida sobre não envolvida de 100 ou mais, e mais de uma lesão focal à ressonância. Este paciente reúne plasmocitose de 42% com hipercalcemia, insuficiência renal e anemia, três eventos CRAB.",
   "porAlt": [
    "Correta: plasmocitose clonal acima de 10% com hipercalcemia, insuficiência renal e anemia fecha o diagnóstico de mieloma múltiplo.",
    "A gamopatia de significado indeterminado exige plasmocitose abaixo de 10% e ausência de lesão de órgão, o oposto do quadro.",
@@ -6301,8 +6301,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "British Society of Gastroenterology, 2021 — guidelines for the management of iron deficiency anaemia in adults",
-  "coment": "Anemia ferropriva em homem adulto ou em mulher após a menopausa é perda sanguínea gastrointestinal até prova em contrário, e a investigação com endoscopia alta e colonoscopia é obrigatória mesmo sem sangramento visível — o objetivo é encontrar câncer colorretal ou gástrico em fase tratável. Repor ferro sem investigar corrige o número e mascara a doença, um dos erros mais custosos da clínica ambulatorial. Ferritina abaixo de 30 ng/mL já confirma deficiência de ferro; abaixo de 15 é diagnóstica com certeza ainda maior. Mielograma não é exame de primeira linha nesse contexto.",
+  "base": "British Society of Gastroenterology, 2021, guidelines for the management of iron deficiency anaemia in adults",
+  "coment": "Anemia ferropriva em homem adulto ou em mulher após a menopausa é perda sanguínea gastrointestinal até prova em contrário, e a investigação com endoscopia alta e colonoscopia é obrigatória mesmo sem sangramento visível. O objetivo é encontrar câncer colorretal ou gástrico em fase tratável. Repor ferro sem investigar corrige o número e mascara a doença, um dos erros mais custosos da clínica ambulatorial. Ferritina abaixo de 30 ng/mL já confirma deficiência de ferro; abaixo de 15 é diagnóstica com certeza ainda maior. Mielograma não é exame de primeira linha nesse contexto.",
   "porAlt": [
    "Repor ferro e acompanhar apenas o hemograma normaliza o exame e mascara a neoplasia que poderia ser achada a tempo.",
    "O mielograma é invasivo e desnecessário aqui: a ferritina baixa já define a causa da anemia como carência de ferro.",
@@ -6325,7 +6325,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Society of Hematology, 2020 — guidelines for sickle cell disease: management of acute and chronic pain",
+  "base": "American Society of Hematology, 2020, guidelines for sickle cell disease: management of acute and chronic pain",
   "coment": "A crise vaso-oclusiva é emergência de dor: a diretriz recomenda analgesia com opioide parenteral rapidamente, idealmente na primeira hora da chegada, com reavaliação a cada 15 a 30 minutos e titulação até o controle. O subtratamento da dor nesses pacientes é bem documentado e frequentemente atribuído a preconceito e a suspeita infundada de busca por droga. A hidratação corrige desidratação quando presente, mas não substitui analgesia, e a hiper-hidratação arrisca síndrome torácica aguda. A meperidina deve ser evitada pelo acúmulo de normeperidina, que é neurotóxica e reduz o limiar convulsivo. Transfusão não é indicada de rotina para dor não complicada.",
   "porAlt": [
    "A hidratação é adjuvante, não analgésico; em excesso ainda favorece congestão e síndrome torácica aguda nesses pacientes.",
@@ -6349,8 +6349,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "IDSA 2014 — Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections",
-  "coment": "Dor desproporcional aos achados de pele, bolhas hemorrágicas, áreas acinzentadas de necrose, crepitação e sinais sistêmicos configuram fasciíte necrosante — emergência cirúrgica. O diagnóstico é clínico e a exploração cirúrgica é ao mesmo tempo diagnóstica e terapêutica: nenhum exame de imagem deve atrasá-la em paciente com quadro compatível e instabilidade. O antimicrobiano de amplo espectro cobre gram-positivos, gram-negativos e anaeróbios, com clindamicina pelo efeito antitoxina, mas é adjuvante — o que muda a mortalidade é o desbridamento precoce.",
+  "base": "IDSA 2014, Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections",
+  "coment": "Dor desproporcional aos achados de pele, bolhas hemorrágicas, áreas acinzentadas de necrose, crepitação e sinais sistêmicos configuram fasciíte necrosante, emergência cirúrgica. O diagnóstico é clínico e a exploração cirúrgica é ao mesmo tempo diagnóstica e terapêutica: nenhum exame de imagem deve atrasá-la em paciente com quadro compatível e instabilidade. O antimicrobiano de amplo espectro cobre gram-positivos, gram-negativos e anaeróbios, com clindamicina pelo efeito antitoxina, mas é adjuvante, o que muda a mortalidade é o desbridamento precoce.",
   "porAlt": [
    "Antibiótico oral para celulite não trata infecção necrosante e desperdiça as horas em que o desbridamento ainda mudaria o desfecho.",
    "A ressonância pode auxiliar em casos duvidosos e estáveis, mas aqui atrasaria a cirurgia em paciente já com sinais de choque.",
@@ -6373,8 +6373,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Diretrizes de manejo da necrólise epidérmica tóxica — British Association of Dermatologists, 2016",
-  "coment": "O sinal de Nikolsky com acometimento de duas ou mais mucosas, surgindo entre uma e três semanas após início de fármaco de alto risco — sulfonamidas, alopurinol, anticonvulsivantes, nevirapina, oxicams —, é síndrome de Stevens-Johnson ou necrólise epidérmica tóxica. A medida isolada com maior impacto na mortalidade é a suspensão imediata do fármaco causador, seguida de cuidado em unidade de queimados ou terapia intensiva, com suporte hidroeletrolítico, controle de dor, cuidado ocular precoce e vigilância de infecção. Atribuir o quadro à doença de base e manter a droga é o erro mais custoso.",
+  "base": "Diretrizes de manejo da necrólise epidérmica tóxica, British Association of Dermatologists, 2016",
+  "coment": "O sinal de Nikolsky com acometimento de duas ou mais mucosas, surgindo entre uma e três semanas após início de fármaco de alto risco (sulfonamidas, alopurinol, anticonvulsivantes, nevirapina, oxicams), é síndrome de Stevens-Johnson ou necrólise epidérmica tóxica. A medida isolada com maior impacto na mortalidade é a suspensão imediata do fármaco causador, seguida de cuidado em unidade de queimados ou terapia intensiva, com suporte hidroeletrolítico, controle de dor, cuidado ocular precoce e vigilância de infecção. Atribuir o quadro à doença de base e manter a droga é o erro mais custoso.",
   "porAlt": [
    "Correta: suspender o fármaco suspeito de imediato e transferir para cuidado especializado é o que mais impacta a mortalidade.",
    "Manter o fármaco causador perpetua a agressão epidérmica, e anti-histamínico não tem qualquer efeito sobre a necrólise em curso.",
@@ -6397,8 +6397,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Society of Addiction Medicine, 2020 — Clinical Practice Guideline on Alcohol Withdrawal Management",
-  "coment": "O quadro é delirium tremens: surge entre 48 e 96 horas após a última dose, com alteração do sensório, alucinações, hiperatividade autonômica e febre, e tem mortalidade relevante se não tratado. O tratamento de primeira linha é o benzodiazepínico, titulado por escala de sintomas como a CIWA-Ar, associado à tiamina parenteral antes de qualquer carga de glicose — administrar glicose primeiro em desnutrido pode precipitar encefalopatia de Wernicke. O antipsicótico é adjuvante para alucinação persistente, nunca substituto, porque reduz o limiar convulsivo e não previne convulsão de abstinência.",
+  "base": "American Society of Addiction Medicine, 2020, Clinical Practice Guideline on Alcohol Withdrawal Management",
+  "coment": "O quadro é delirium tremens: surge entre 48 e 96 horas após a última dose, com alteração do sensório, alucinações, hiperatividade autonômica e febre, e tem mortalidade relevante se não tratado. O tratamento de primeira linha é o benzodiazepínico, titulado por escala de sintomas como a CIWA-Ar, associado à tiamina parenteral antes de qualquer carga de glicose. Administrar glicose primeiro em desnutrido pode precipitar encefalopatia de Wernicke. O antipsicótico é adjuvante para alucinação persistente, nunca substituto, porque reduz o limiar convulsivo e não previne convulsão de abstinência.",
   "porAlt": [
    "Correta: benzodiazepínico titulado por escala somado a tiamina parenteral é o tratamento de primeira linha do delirium tremens.",
    "O haloperidol isolado reduz o limiar convulsivo e não previne a convulsão de abstinência, sendo apenas adjuvante da agitação.",
@@ -6421,10 +6421,10 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Ministério da Saúde, 2024 — Dengue: diagnóstico e manejo clínico, adulto e criança, 6ª edição",
+  "base": "Ministério da Saúde, 2024, Dengue: diagnóstico e manejo clínico, adulto e criança, 6ª edição",
   "coment": "Dor abdominal intensa e contínua e vômitos persistentes são sinais de alarme, e a presença de qualquer um deles classifica o paciente no grupo C, independentemente de estar hemodinamicamente estável. A conduta é iniciar imediatamente reposição volêmica com 10 mL/kg de soro fisiológico na primeira hora, mantendo 10 mL/kg na segunda hora conforme resposta, com reavaliação após cada etapa. O momento é típico: os sinais de alarme surgem justamente quando a febre cede, entre o terceiro e o sexto dia, marcando o início da fase crítica pelo extravasamento plasmático.",
   "porAlt": [
-   "O grupo A é para quem não tem sinal de alarme, comorbidade nem risco social — a dor abdominal contínua já o exclui.",
+   "O grupo A é para quem não tem sinal de alarme, comorbidade nem risco social. A dor abdominal contínua já o exclui.",
    "Correta: sinal de alarme presente classifica no grupo C, com reposição de 10 mL/kg de soro fisiológico na primeira hora.",
    "O grupo B é definido por comorbidade, risco social ou condição especial sem sinal de alarme, o que não é o caso aqui.",
    "O grupo D exige sinais de gravidade, como choque ou sangramento grave, ausentes neste paciente com pressão normal.",
@@ -6445,7 +6445,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Ministério da Saúde, 2024 — Dengue: diagnóstico e manejo clínico, grupo D e choque",
+  "base": "Ministério da Saúde, 2024. Dengue: diagnóstico e manejo clínico, grupo D e choque",
   "coment": "Pressão convergente abaixo de 20 mmHg, extremidades frias, enchimento capilar lento e alteração do sensório configuram choque por dengue, que é grupo D. O manual é explícito: iniciar a expansão com 20 mL/kg em até 20 minutos em qualquer nível de complexidade, ou seja, sem esperar transferência. A reavaliação ocorre ao fim de cada etapa e a expansão pode ser repetida até três vezes. O erro que mata é transferir antes de expandir: o choque da dengue responde a volume, e o tempo gasto no transporte sem reposição é tempo de hipoperfusão.",
   "porAlt": [
    "Correta: choque na dengue é grupo D, com expansão de 20 mL/kg em até 20 minutos iniciada onde o paciente estiver.",
@@ -6469,8 +6469,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde, 2024 — Dengue: estratificação de risco em grupos A, B, C e D",
-  "coment": "A presença de comorbidade — hipertensão, diabetes, asma, doença hematológica, doença renal, hepatopatia, uso de anticoagulante —, de condição clínica especial (gestante, menor de 2 anos, maior de 65 anos) ou de risco social classifica o paciente no grupo B, mesmo sem sinal de alarme. A conduta difere do grupo A por exigir hemograma: o paciente aguarda o resultado na unidade e a conduta seguinte depende do hematócrito. Sem sinal de alarme e com hematócrito normal, mantém-se hidratação oral, com orientação de retorno imediato se surgir qualquer sinal de alarme.",
+  "base": "Ministério da Saúde, 2024, Dengue: estratificação de risco em grupos A, B, C e D",
+  "coment": "A presença de comorbidade (hipertensão, diabetes, asma, doença hematológica, doença renal, hepatopatia, uso de anticoagulante), de condição clínica especial (gestante, menor de 2 anos, maior de 65 anos) ou de risco social classifica o paciente no grupo B, mesmo sem sinal de alarme. A conduta difere do grupo A por exigir hemograma: o paciente aguarda o resultado na unidade e a conduta seguinte depende do hematócrito. Sem sinal de alarme e com hematócrito normal, mantém-se hidratação oral, com orientação de retorno imediato se surgir qualquer sinal de alarme.",
   "porAlt": [
    "Correta: a comorbidade classifica no grupo B, que exige hemograma com o paciente aguardando o resultado na unidade.",
    "O grupo A é reservado a quem não tem comorbidade, condição especial nem risco social, o que não se aplica a ele.",
@@ -6493,8 +6493,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde, 2024 — Dengue: fases da doença e início da fase crítica na defervescência",
-  "coment": "A dengue tem três fases: febril, crítica e de recuperação. A fase crítica começa justamente com o desaparecimento da febre, entre o terceiro e o sexto dia de doença, e é quando ocorre o aumento da permeabilidade capilar com extravasamento de plasma — daí a hemoconcentração, o acúmulo de líquidos em serosas e o choque. É por isso que o momento de maior vigilância é aquele em que o paciente e a família acham que está tudo resolvido. Orientar o retorno imediato diante de qualquer sinal de alarme é a intervenção mais eficaz na atenção básica.",
+  "base": "Ministério da Saúde, 2024. Dengue: fases da doença e início da fase crítica na defervescência",
+  "coment": "A dengue tem três fases: febril, crítica e de recuperação. A fase crítica começa justamente com o desaparecimento da febre, entre o terceiro e o sexto dia de doença, e é quando ocorre o aumento da permeabilidade capilar com extravasamento de plasma. Daí a hemoconcentração, o acúmulo de líquidos em serosas e o choque. É por isso que o momento de maior vigilância é aquele em que o paciente e a família acham que está tudo resolvido. Orientar o retorno imediato diante de qualquer sinal de alarme é a intervenção mais eficaz na atenção básica.",
   "porAlt": [
    "A febre não determina gravidade na dengue; sua queda é justamente o marcador temporal de maior atenção clínica.",
    "A viremia declina com a febre, mas a gravidade decorre da resposta imune e do extravasamento, não da replicação.",
@@ -6517,7 +6517,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde, 2024 — Dengue: fases de manutenção após resposta à expansão no grupo C",
+  "base": "Ministério da Saúde, 2024. Dengue: fases de manutenção após resposta à expansão no grupo C",
   "coment": "Pressão estável, diurese adequada acima de 1 mL/kg/h e queda do hematócrito indicam boa resposta à expansão. O manual orienta então passar à manutenção em duas fases: 25 mL/kg em 6 horas e, mantida a melhora, 25 mL/kg em 8 horas com soro fisiológico. Continuar expandindo rapidamente um paciente que já respondeu produz congestão e desconforto respiratório, complicação frequente na fase de reabsorção. A queda do hematócrito nesse contexto é sinal de melhora, não de sangramento, e não indica transfusão por si só.",
   "porAlt": [
    "Repetir expansão rápida em quem já respondeu causa congestão pulmonar, sobretudo na fase de reabsorção do plasma.",
@@ -6541,7 +6541,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Ministério da Saúde, 2024 — Dengue grave: sangramento e indicação de hemocomponentes",
+  "base": "Ministério da Saúde, 2024, Dengue grave: sangramento e indicação de hemocomponentes",
   "coment": "Sangramento grave com repercussão hemodinâmica é critério de dengue grave e indica transfusão de concentrado de hemácias, na faixa de 10 a 15 mL/kg/dia, mantida a reposição volêmica. A transfusão profilática de plaquetas apenas pela contagem não é recomendada na dengue e não previne sangramento. Salicilatos e anti-inflamatórios não esteroidais são contraindicados por agravarem o sangramento e a disfunção plaquetária. O corticoide não tem benefício comprovado sobre mortalidade e não faz parte do tratamento preconizado.",
   "porAlt": [
    "A transfusão profilática de plaquetas guiada só pela contagem não é recomendada na dengue e não previne o sangramento.",
@@ -6565,7 +6565,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "tit",
-  "base": "ESC 2021/2023 — insuficiência cardíaca: fenótipo de fração levemente reduzida",
+  "base": "ESC 2021/2023. Insuficiência cardíaca: fenótipo de fração levemente reduzida",
   "coment": "Fração de ejeção entre 41% e 49% define insuficiência cardíaca de fração levemente reduzida, e o quadro clínico com NT-proBNP elevado confirma o diagnóstico. Os inibidores do SGLT2 são a classe com benefício demonstrado em todo o espectro de fração de ejeção e entram como recomendação nesse fenótipo, junto ao tratamento das comorbidades.",
   "porAlt": [
    "Correta: 44% é levemente reduzida, e o inibidor do SGLT2 atravessa todo o espectro.",
@@ -6589,7 +6589,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2021/2023 — insuficiência cardíaca: quatro pilares e substituição por ARNI",
+  "base": "ESC 2021/2023, insuficiência cardíaca: quatro pilares e substituição por ARNI",
   "coment": "Com pressão e função renal preservadas, a troca do inibidor da enzima conversora por sacubitril-valsartana reduz mortalidade além do que o inibidor oferece, e o inibidor do SGLT2 é indicado independentemente de diabetes. Completar os quatro pilares antecede qualquer decisão sobre dispositivo, que se reavalia após três meses de terapia otimizada.",
   "porAlt": [
    "Correta: completa os quatro pilares antes de qualquer outra medida.",
@@ -6613,7 +6613,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2023 — insuficiência cardíaca de fração preservada: EMPEROR-Preserved e DELIVER",
+  "base": "ESC 2023, insuficiência cardíaca de fração preservada: EMPEROR-Preserved e DELIVER",
   "coment": "Na insuficiência cardíaca de fração preservada, os inibidores do SGLT2 são a única classe com redução consistente do desfecho combinado de morte cardiovascular e internação, demonstrada nos ensaios EMPEROR-Preserved e DELIVER. Com obesidade associada, os análogos de GLP-1 entraram como opção adicional na diretriz de 2026.",
   "porAlt": [
    "Correta: é a classe com benefício demonstrado nesse fenótipo.",
@@ -6637,7 +6637,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ESC 2021 — insuficiência cardíaca aguda: edema agudo hipertensivo",
+  "base": "ESC 2021. Insuficiência cardíaca aguda: edema agudo hipertensivo",
   "coment": "É edema agudo hipertensivo: a pressão muito elevada produz redistribuição de volume para o pulmão. A ventilação não invasiva com pressão positiva melhora a oxigenação e reduz o trabalho respiratório e a necessidade de intubação; o vasodilatador intravenoso reduz a pós-carga rapidamente. O diurético entra, mas o paciente costuma estar euvolêmico e a pressão é o alvo principal.",
   "porAlt": [
    "Correta: pressão positiva e vasodilatador atacam o mecanismo.",
@@ -6661,7 +6661,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2021 — insuficiência cardíaca: desfibrilador na prevenção primária isquêmica",
+  "base": "ESC 2021, insuficiência cardíaca: desfibrilador na prevenção primária isquêmica",
   "coment": "Fração de ejeção igual ou inferior a 35% após pelo menos três meses de terapia otimizada, em paciente sintomático de etiologia isquêmica e com expectativa de vida superior a um ano, é indicação de classe I de desfibrilador para prevenção primária de morte súbita. O QRS estreito afasta a ressincronização.",
   "porAlt": [
    "Correta: etiologia isquêmica, fração ≤ 35% após terapia otimizada.",
@@ -6685,8 +6685,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "ESC 2024 — síndromes coronarianas crônicas: onda Q patológica e infarto silencioso",
-  "coment": "Ondas Q patológicas em derivações contíguas sugerem infarto prévio, possivelmente silencioso — apresentação mais frequente em diabéticos por neuropatia autonômica. O achado muda a estratificação de risco e exige investigação de isquemia e de função ventricular antes de qualquer decisão terapêutica.",
+  "base": "ESC 2024 (síndromes coronarianas crônicas: onda Q patológica e infarto silencioso",
+  "coment": "Ondas Q patológicas em derivações contíguas sugerem infarto prévio, possivelmente silencioso) apresentação mais frequente em diabéticos por neuropatia autonômica. O achado muda a estratificação de risco e exige investigação de isquemia e de função ventricular antes de qualquer decisão terapêutica.",
   "porAlt": [
    "Correta: a onda Q patológica exige investigação, mesmo sem sintoma.",
    "Onda Q de 3 mm em derivações contíguas não é variante normal.",
@@ -6709,8 +6709,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "AHA 2025 — suporte avançado de vida: sequência em ritmo chocável",
-  "coment": "Em ritmo chocável, desfibrila-se e retomam-se as compressões imediatamente, sem checar pulso — a pausa reduz a pressão de perfusão coronariana conquistada. Reavalia-se o ritmo após dois minutos. Adrenalina depois do segundo choque, amiodarona ou lidocaína depois do terceiro; a via aérea avançada não interrompe o ciclo.",
+  "base": "AHA 2025 (suporte avançado de vida: sequência em ritmo chocável",
+  "coment": "Em ritmo chocável, desfibrila-se e retomam-se as compressões imediatamente, sem checar pulso) a pausa reduz a pressão de perfusão coronariana conquistada. Reavalia-se o ritmo após dois minutos. Adrenalina depois do segundo choque, amiodarona ou lidocaína depois do terceiro; a via aérea avançada não interrompe o ciclo.",
   "porAlt": [
    "Correta: choque e retomada imediata das compressões.",
    "Checar pulso logo após o choque desperdiça perfusão coronariana.",
@@ -6733,8 +6733,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "AHA 2025 — ritmos não chocáveis e causas reversíveis",
-  "coment": "Atividade elétrica sem pulso é ritmo não chocável: compressões de alta qualidade e adrenalina a cada 3 a 5 minutos, enquanto se busca a causa reversível. Trombose venosa prévia, dispneia súbita e ventrículo direito dilatado apontam embolia pulmonar maciça — cenário em que a trombólise durante a reanimação é recomendada, com manobras prolongadas por 60 a 90 minutos após a infusão.",
+  "base": "AHA 2025. Ritmos não chocáveis e causas reversíveis",
+  "coment": "Atividade elétrica sem pulso é ritmo não chocável: compressões de alta qualidade e adrenalina a cada 3 a 5 minutos, enquanto se busca a causa reversível. Trombose venosa prévia, dispneia súbita e ventrículo direito dilatado apontam embolia pulmonar maciça. Cenário em que a trombólise durante a reanimação é recomendada, com manobras prolongadas por 60 a 90 minutos após a infusão.",
   "porAlt": [
    "Correta: ritmo não chocável com causa reversível identificada.",
    "Não se desfibrila atividade elétrica sem pulso.",
@@ -6757,8 +6757,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "SBC 2025 — hipertensão: início com dois fármacos no estágio 2",
-  "coment": "Hipertensão estágio 2 confirmada indica início com dois fármacos, preferencialmente em associação fixa — a combinação alcança a meta em mais pacientes, mais rápido, e melhora a adesão. As combinações preferenciais associam bloqueador do sistema renina-angiotensina a bloqueador de canal de cálcio ou a diurético tiazídico.",
+  "base": "SBC 2025 (hipertensão: início com dois fármacos no estágio 2",
+  "coment": "Hipertensão estágio 2 confirmada indica início com dois fármacos, preferencialmente em associação fixa) a combinação alcança a meta em mais pacientes, mais rápido, e melhora a adesão. As combinações preferenciais associam bloqueador do sistema renina-angiotensina a bloqueador de canal de cálcio ou a diurético tiazídico.",
   "porAlt": [
    "Correta: estágio 2 começa com dois fármacos em associação.",
    "A monoterapia raramente alcança a meta no estágio 2.",
@@ -6781,7 +6781,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "SBC 2025 — hipertensão secundária: hiperaldosteronismo primário e cateterismo adrenal",
+  "base": "SBC 2025. Hipertensão secundária: hiperaldosteronismo primário e cateterismo adrenal",
   "coment": "Hipertensão resistente com hipocalemia espontânea, relação aldosterona-renina elevada e nódulo adrenal aponta hiperaldosteronismo primário. A tomografia não distingue adenoma funcionante de nódulo não funcionante com hiperplasia contralateral, e o cateterismo de veias adrenais é o exame que lateraliza a produção e decide entre cirurgia e tratamento clínico.",
   "porAlt": [
    "Correta: o cateterismo lateraliza e define cirurgia ou tratamento clínico.",
@@ -6805,8 +6805,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "SBC 2025 — emergências hipertensivas: hipertensão maligna e redução controlada",
-  "coment": "Papiledema com lesão renal aguda e microangiopatia trombótica caracteriza emergência hipertensiva com hipertensão maligna. O tratamento é intravenoso, titulável, em ambiente monitorado, com redução de até 25% da pressão arterial média na primeira hora — queda mais rápida compromete a perfusão de órgãos com autorregulação já deslocada.",
+  "base": "SBC 2025. Emergências hipertensivas: hipertensão maligna e redução controlada",
+  "coment": "Papiledema com lesão renal aguda e microangiopatia trombótica caracteriza emergência hipertensiva com hipertensão maligna. O tratamento é intravenoso, titulável, em ambiente monitorado, com redução de até 25% da pressão arterial média na primeira hora. Queda mais rápida compromete a perfusão de órgãos com autorregulação já deslocada.",
   "porAlt": [
    "Correta: fármaco intravenoso titulável, com redução controlada.",
    "Captopril sublingual produz queda imprevisível e não é recomendado.",
@@ -6829,8 +6829,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r1",
-  "base": "SBC 2025 — urgência e emergência hipertensiva: definição pela lesão de órgão-alvo",
-  "coment": "Sem lesão aguda de órgão-alvo, o quadro é urgência hipertensiva — pressão muito elevada sem dano em curso. A redução deve ser gradual, em 24 a 48 horas, com anti-hipertensivo oral e reavaliação ambulatorial precoce. A diferença entre urgência e emergência não está no número da pressão, e sim na presença de lesão aguda de órgão-alvo.",
+  "base": "SBC 2025 (urgência e emergência hipertensiva: definição pela lesão de órgão-alvo",
+  "coment": "Sem lesão aguda de órgão-alvo, o quadro é urgência hipertensiva) pressão muito elevada sem dano em curso. A redução deve ser gradual, em 24 a 48 horas, com anti-hipertensivo oral e reavaliação ambulatorial precoce. A diferença entre urgência e emergência não está no número da pressão, e sim na presença de lesão aguda de órgão-alvo.",
   "porAlt": [
    "Correta: sem lesão aguda, redução gradual por via oral.",
    "O intravenoso é para emergência com lesão de órgão-alvo.",
@@ -6853,8 +6853,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "KDIGO 2024 e Harrison's Principles of Internal Medicine, 22ª edição, 2025 — manejo da hipercalemia grave",
-  "coment": "Hipercalemia com alteração eletrocardiográfica é emergência, e a sequência tem três tempos. Primeiro, estabilizar a membrana com gluconato de cálcio, que não reduz o potássio mas protege contra arritmia em minutos. Segundo, deslocar o potássio para o intracelular com insulina e glicose, e beta-agonista inalatório. Terceiro, remover potássio do corpo com resina de troca, diurético ou diálise, conforme função renal e gravidade. Suspender as drogas que retêm potássio — aqui, o inibidor da enzima conversora e a espironolactona — é parte obrigatória da conduta.",
+  "base": "KDIGO 2024 e Harrison's Principles of Internal Medicine, 22ª edição, 2025. Manejo da hipercalemia grave",
+  "coment": "Hipercalemia com alteração eletrocardiográfica é emergência, e a sequência tem três tempos. Primeiro, estabilizar a membrana com gluconato de cálcio, que não reduz o potássio mas protege contra arritmia em minutos. Segundo, deslocar o potássio para o intracelular com insulina e glicose, e beta-agonista inalatório. Terceiro, remover potássio do corpo com resina de troca, diurético ou diálise, conforme função renal e gravidade. Suspender as drogas que retêm potássio (aqui, o inibidor da enzima conversora e a espironolactona) é parte obrigatória da conduta.",
   "porAlt": [
    "A resina age em horas e não protege o coração no intervalo em que a arritmia pode ocorrer neste paciente.",
    "Correta: o cálcio estabiliza a membrana em minutos e protege contra arritmia, sendo a primeira medida da hipercalemia com alteração no eletrocardiograma.",
@@ -6878,7 +6878,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "European Clinical Practice Guideline on the diagnosis and treatment of hyponatraemia, 2014; Cecil Medicina, 26ª edição, 2022",
-  "coment": "Em hiponatremia crônica, o cérebro já se adaptou perdendo osmóis, e a correção rápida provoca síndrome de desmielinização osmótica, com quadro neurológico devastador dias depois. O limite recomendado é de cerca de 8 mEq/L em 24 horas, ainda mais conservador em pacientes de risco — desnutrição, alcoolismo, hipocalemia, hepatopatia. A suspensão do tiazídico é obrigatória. Salina hipertônica em bólus fica reservada a sintomas neurológicos graves, como convulsão ou rebaixamento importante, e mesmo assim com alvo de elevação de poucos mEq/L para reverter o edema cerebral.",
+  "coment": "Em hiponatremia crônica, o cérebro já se adaptou perdendo osmóis, e a correção rápida provoca síndrome de desmielinização osmótica, com quadro neurológico devastador dias depois. O limite recomendado é de cerca de 8 mEq/L em 24 horas, ainda mais conservador em pacientes de risco, desnutrição, alcoolismo, hipocalemia, hepatopatia. A suspensão do tiazídico é obrigatória. Salina hipertônica em bólus fica reservada a sintomas neurológicos graves, como convulsão ou rebaixamento importante, e mesmo assim com alvo de elevação de poucos mEq/L para reverter o edema cerebral.",
   "porAlt": [
    "Normalizar o sódio em seis horas é justamente o erro que produz desmielinização osmótica, com sequela neurológica grave.",
    "Correta: em hiponatremia crônica o teto é de cerca de 8 mEq/L em 24 horas, para evitar desmielinização osmótica.",
@@ -6901,8 +6901,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "KDIGO 2012 — Clinical Practice Guideline for Acute Kidney Injury; Harrison's, 22ª edição, 2025",
-  "coment": "O primeiro passo na injúria renal aguda é entender o mecanismo: avaliar volemia e perfusão, revisar todos os fármacos nefrotóxicos e suas doses, e afastar obstrução com ultrassonografia quando houver dúvida. Aqui há dois agressores identificáveis — contraste e vancomicina — além da própria sepse. A diálise tem indicações precisas: hipercalemia refratária, acidose grave, sobrecarga volêmica refratária, uremia sintomática. Diurético não previne nem trata injúria renal, apenas maneja volume; e a dopamina em dose renal foi abandonada por não proteger o rim e acrescentar arritmia.",
+  "base": "KDIGO 2012. Clinical Practice Guideline for Acute Kidney Injury; Harrison's, 22ª edição, 2025",
+  "coment": "O primeiro passo na injúria renal aguda é entender o mecanismo: avaliar volemia e perfusão, revisar todos os fármacos nefrotóxicos e suas doses, e afastar obstrução com ultrassonografia quando houver dúvida. Aqui há dois agressores identificáveis, contraste e vancomicina, além da própria sepse. A diálise tem indicações precisas: hipercalemia refratária, acidose grave, sobrecarga volêmica refratária, uremia sintomática. Diurético não previne nem trata injúria renal, apenas maneja volume; e a dopamina em dose renal foi abandonada por não proteger o rim e acrescentar arritmia.",
   "porAlt": [
    "A diálise tem indicações específicas e a oligúria isolada, sem distúrbio refratário, não é uma delas neste momento.",
    "O diurético maneja volume mas não trata a lesão nem melhora sobrevida; converter para não oligúrica não muda desfecho.",
@@ -6925,8 +6925,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "KDIGO 2021 — Glomerular Diseases Guideline; Cecil Medicina, 26ª edição, 2022",
-  "coment": "Proteinúria acima de 3,5 g em 24 horas com hipoalbuminemia, edema e dislipidemia define síndrome nefrótica. No adulto, a biópsia renal é habitualmente indicada, porque o tratamento depende do padrão histológico — doença de lesões mínimas, glomeruloesclerose segmentar e focal, nefropatia membranosa, entre outras — e porque muitas dessas doenças têm causa secundária a investigar. O manejo de suporte inclui bloqueio do sistema renina-angiotensina para reduzir proteinúria, controle de edema com restrição de sódio e diurético, e atenção ao risco trombótico, que é elevado nessa síndrome.",
+  "base": "KDIGO 2021: Glomerular Diseases Guideline; Cecil Medicina, 26ª edição, 2022",
+  "coment": "Proteinúria acima de 3,5 g em 24 horas com hipoalbuminemia, edema e dislipidemia define síndrome nefrótica. No adulto, a biópsia renal é habitualmente indicada, porque o tratamento depende do padrão histológico (doença de lesões mínimas, glomeruloesclerose segmentar e focal, nefropatia membranosa, entre outras) e porque muitas dessas doenças têm causa secundária a investigar. O manejo de suporte inclui bloqueio do sistema renina-angiotensina para reduzir proteinúria, controle de edema com restrição de sódio e diurético, e atenção ao risco trombótico, que é elevado nessa síndrome.",
   "porAlt": [
    "Correta: o conjunto define síndrome nefrótica, e no adulto a biópsia costuma ser necessária para definir a doença de base.",
    "A síndrome nefrítica cursa com hematúria dismórfica, hipertensão e queda de filtração, ausentes neste quadro.",
@@ -6949,7 +6949,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "KDIGO 2024 — Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
+  "base": "KDIGO 2024. Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
   "coment": "No estágio avançado pré-dialítico, o cuidado é multifrontal e simultâneo. O distúrbio mineral e ósseo exige controle de fósforo com dieta e quelantes, atenção ao paratormônio e à vitamina D. A anemia deve ser investigada quanto a ferro antes de considerar agente estimulador da eritropoese. A acidose metabólica é tratada com bicarbonato, o que retarda a progressão. O risco cardiovascular é a principal causa de morte nessa população e exige controle pressórico, estatina e bloqueio do sistema renina-angiotensina. Em paralelo, prepara-se o acesso e discute-se a modalidade de terapia renal substitutiva.",
   "porAlt": [
    "A anemia é uma das frentes, mas tratá-la isoladamente deixa progredir doença óssea, acidose e risco cardiovascular.",
@@ -6997,8 +6997,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "American Diabetes Association, Standards of Care 2026 — cetoacidose euglicêmica em uso de inibidor de SGLT2",
-  "coment": "A cetoacidose euglicêmica é armadilha diagnóstica clássica em usuários de inibidores de SGLT2: a glicosúria induzida pela droga mantém a glicemia relativamente baixa enquanto a cetogênese avança, de modo que o médico que exige glicemia acima de 250 mg/dL para pensar em cetoacidose deixa o diagnóstico passar. O tratamento é o mesmo — volume, insulina endovenosa com glicose associada para permitir a infusão de insulina sem hipoglicemia, e correção eletrolítica —, somado à suspensão do inibidor de SGLT2. O estado hiperosmolar, por definição, cursa com glicemia muito alta e sem cetoacidose significativa.",
+  "base": "American Diabetes Association, Standards of Care 2026, cetoacidose euglicêmica em uso de inibidor de SGLT2",
+  "coment": "A cetoacidose euglicêmica é armadilha diagnóstica clássica em usuários de inibidores de SGLT2: a glicosúria induzida pela droga mantém a glicemia relativamente baixa enquanto a cetogênese avança, de modo que o médico que exige glicemia acima de 250 mg/dL para pensar em cetoacidose deixa o diagnóstico passar. O tratamento é o mesmo (volume, insulina endovenosa com glicose associada para permitir a infusão de insulina sem hipoglicemia, e correção eletrolítica), somado à suspensão do inibidor de SGLT2. O estado hiperosmolar, por definição, cursa com glicemia muito alta e sem cetoacidose significativa.",
   "porAlt": [
    "A acidose láctica pela metformina cursa com lactato elevado e sem cetonemia fortemente positiva como neste caso.",
    "Correta: é cetoacidose euglicêmica pelo inibidor de SGLT2, que deve ser suspenso, com tratamento igual ao da cetoacidose clássica.",
@@ -7021,7 +7021,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American Thyroid Association, 2016 — Guidelines for Diagnosis and Management of Hyperthyroidism; Cecil, 26ª edição, 2022",
+  "base": "American Thyroid Association, 2016. Guidelines for Diagnosis and Management of Hyperthyroidism; Cecil, 26ª edição, 2022",
   "coment": "A combinação de tireotoxicidade, bócio difuso, oftalmopatia e captação difusa aumentada define doença de Graves. As três opções de tratamento são droga antitireoidiana, iodo radioativo e cirurgia; no Brasil, o metimazol é a escolha inicial na maioria dos adultos, por eficácia e por permitir remissão em parte dos pacientes. O propiltiouracil fica reservado ao primeiro trimestre da gestação e à crise tireotóxica. O betabloqueador alivia sintomas adrenérgicos enquanto a droga age. A oftalmopatia moderada a grave pesa contra o iodo radioativo, que pode agravá-la.",
   "porAlt": [
    "A tireoidite subaguda cursa com captação baixa à cintilografia e dor cervical, não com captação difusa aumentada.",
@@ -7045,8 +7045,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "American Diabetes Association, Standards of Care 2026 — estado hiperglicêmico hiperosmolar",
-  "coment": "O estado hiperglicêmico hiperosmolar difere da cetoacidose por cursar com glicemia muito mais alta, osmolaridade elevada, acidose discreta ou ausente e cetonemia mínima, porque resta insulina suficiente para conter a cetogênese. O déficit de água costuma ser de 8 a 10 litros, e a reposição volêmica é o pilar do tratamento — corrige perfusão, reduz a glicemia por diluição e por melhora da filtração, e antecede a insulina, que só entra depois de iniciada a hidratação e com potássio conhecido. A mortalidade é maior que a da cetoacidose, sobretudo no idoso.",
+  "base": "American Diabetes Association, Standards of Care 2026, estado hiperglicêmico hiperosmolar",
+  "coment": "O estado hiperglicêmico hiperosmolar difere da cetoacidose por cursar com glicemia muito mais alta, osmolaridade elevada, acidose discreta ou ausente e cetonemia mínima, porque resta insulina suficiente para conter a cetogênese. O déficit de água costuma ser de 8 a 10 litros, e a reposição volêmica é o pilar do tratamento. Corrige perfusão, reduz a glicemia por diluição e por melhora da filtração, e antecede a insulina, que só entra depois de iniciada a hidratação e com potássio conhecido. A mortalidade é maior que a da cetoacidose, sobretudo no idoso.",
   "porAlt": [
    "Insulina antes do volume agrava a hipovolemia ao deslocar água para o intracelular, com risco de colapso circulatório.",
    "O bicarbonato não tem indicação aqui: a acidose é discreta e o problema central é hiperosmolaridade com desidratação.",
@@ -7070,7 +7070,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "tit",
   "base": "American Headache Society, 2019, e Harrison's Principles of Internal Medicine, 22ª edição, 2025",
-  "coment": "Cefaleia em trovoada — início súbito com pico em segundos — obriga a excluir hemorragia subaracnóidea. A tomografia sem contraste tem sensibilidade próxima de 100% nas primeiras seis horas, mas cai progressivamente depois disso; quando a suspeita é forte e a tomografia é normal, a punção lombar em busca de xantocromia e hemácias que não clareiam segue indicada, idealmente após 12 horas do início. Angiotomografia é alternativa em protocolos específicos. Liberar o paciente sem completar a investigação é o erro que precede o ressangramento, que costuma ser fatal.",
+  "coment": "Cefaleia em trovoada, início súbito com pico em segundos, obriga a excluir hemorragia subaracnóidea. A tomografia sem contraste tem sensibilidade próxima de 100% nas primeiras seis horas, mas cai progressivamente depois disso; quando a suspeita é forte e a tomografia é normal, a punção lombar em busca de xantocromia e hemácias que não clareiam segue indicada, idealmente após 12 horas do início. Angiotomografia é alternativa em protocolos específicos. Liberar o paciente sem completar a investigação é o erro que precede o ressangramento, que costuma ser fatal.",
   "porAlt": [
    "A tomografia perde sensibilidade após as primeiras horas e não afasta hemorragia subaracnóidea neste cenário.",
    "O eletroencefalograma não tem papel na investigação de cefaleia em trovoada com suspeita de hemorragia.",
@@ -7093,7 +7093,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r3",
-  "base": "American Academy of Neurology, 2015 — Evidence-based guideline: management of an unprovoked first seizure in adults",
+  "base": "American Academy of Neurology, 2015, Evidence-based guideline: management of an unprovoked first seizure in adults",
   "coment": "Após uma primeira crise não provocada com exame neurológico, imagem e eletroencefalograma normais, o risco de recorrência em dois anos é de cerca de 30% a 40%, e iniciar antiepiléptico reduz a chance de crise a curto prazo sem melhorar o prognóstico a longo prazo. A decisão é individualizada e considera profissão, direção veicular e preferência do paciente. Quando há lesão estrutural na imagem, alteração epileptiforme no eletroencefalograma, crise noturna ou déficit neurológico, o risco de recorrência sobe muito e o tratamento passa a ser recomendado.",
   "porAlt": [
    "Tratar toda primeira crise expõe o paciente a efeitos adversos sem melhorar o prognóstico a longo prazo.",
@@ -7118,7 +7118,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "National Institute on Aging e Alzheimer's Association, 2011, critérios revisados; Cecil Medicina, 26ª edição, 2022",
-  "coment": "O padrão insidioso e progressivo, com perda de memória episódica seguida de alteração de linguagem e de orientação espacial, é típico de doença de Alzheimer. Corpos de Lewy cursaria com flutuação cognitiva, alucinações visuais bem formadas e parkinsonismo; demência vascular costuma ter curso em degraus e fatores de risco vasculares; e depressão pode causar déficit cognitivo, mas o quadro tende a melhorar com tratamento. O manejo combina intervenção não farmacológica — estimulação, exercício, ajuste ambiental, apoio ao cuidador — com inibidor de colinesterase, e exige rever a lista de medicamentos anticolinérgicos.",
+  "coment": "O padrão insidioso e progressivo, com perda de memória episódica seguida de alteração de linguagem e de orientação espacial, é típico de doença de Alzheimer. Corpos de Lewy cursaria com flutuação cognitiva, alucinações visuais bem formadas e parkinsonismo; demência vascular costuma ter curso em degraus e fatores de risco vasculares; e depressão pode causar déficit cognitivo, mas o quadro tende a melhorar com tratamento. O manejo combina intervenção não farmacológica (estimulação, exercício, ajuste ambiental, apoio ao cuidador) com inibidor de colinesterase, e exige rever a lista de medicamentos anticolinérgicos.",
   "porAlt": [
    "A demência por corpos de Lewy exige flutuação, alucinação visual ou parkinsonismo, justamente o que o enunciado nega.",
    "A demência vascular costuma ter curso em degraus, com achados focais e fatores de risco vasculares proeminentes.",
@@ -7141,8 +7141,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Headache Society, 2021 — consensus statement on integrating new migraine treatments; Cecil, 26ª edição, 2022",
-  "coment": "A enxaqueca tem dois eixos de tratamento. O agudo usa anti-inflamatório ou triptano, tomado cedo na crise. A profilaxia é indicada quando há quatro ou mais dias de dor por mês, ou quando as crises são incapacitantes ou não respondem bem ao tratamento agudo — o caso descrito —, com opções como betabloqueador, topiramato, amitriptilina, candesartana e, em falha, anticorpos contra o CGRP. Neuroimagem não é necessária na enxaqueca típica sem bandeira vermelha. O uso frequente de analgésico comum leva à cefaleia por uso excessivo de medicação, que perpetua o quadro.",
+  "base": "American Headache Society, 2021. Consensus statement on integrating new migraine treatments; Cecil, 26ª edição, 2022",
+  "coment": "A enxaqueca tem dois eixos de tratamento. O agudo usa anti-inflamatório ou triptano, tomado cedo na crise. A profilaxia é indicada quando há quatro ou mais dias de dor por mês, ou quando as crises são incapacitantes ou não respondem bem ao tratamento agudo, o caso descrito, com opções como betabloqueador, topiramato, amitriptilina, candesartana e, em falha, anticorpos contra o CGRP. Neuroimagem não é necessária na enxaqueca típica sem bandeira vermelha. O uso frequente de analgésico comum leva à cefaleia por uso excessivo de medicação, que perpetua o quadro.",
   "porAlt": [
    "Aumentar a frequência do analgésico comum leva à cefaleia por uso excessivo, que agrava e cronifica o quadro.",
    "A enxaqueca típica sem bandeira vermelha dispensa neuroimagem, que não deve atrasar o início do tratamento.",
@@ -7165,8 +7165,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "European Society of Cardiology, 2019 — Guidelines for the diagnosis and management of acute pulmonary embolism",
-  "coment": "Com alta probabilidade clínica, o dímero D perde utilidade: seu valor está em excluir a doença quando a probabilidade é baixa ou intermediária, e um resultado normal não afastaria embolia nesse cenário. A conduta é iniciar anticoagulação plena enquanto se confirma o diagnóstico por angiotomografia, desde que não haja contraindicação — o risco de morte por embolia não tratada supera o do sangramento nas horas de espera. Trombólise fica reservada ao alto risco, definido por hipotensão ou choque, e não à hipoxemia isolada em paciente estável.",
+  "base": "European Society of Cardiology, 2019, Guidelines for the diagnosis and management of acute pulmonary embolism",
+  "coment": "Com alta probabilidade clínica, o dímero D perde utilidade: seu valor está em excluir a doença quando a probabilidade é baixa ou intermediária, e um resultado normal não afastaria embolia nesse cenário. A conduta é iniciar anticoagulação plena enquanto se confirma o diagnóstico por angiotomografia, desde que não haja contraindicação. O risco de morte por embolia não tratada supera o do sangramento nas horas de espera. Trombólise fica reservada ao alto risco, definido por hipotensão ou choque, e não à hipoxemia isolada em paciente estável.",
   "porAlt": [
    "Correta: alta probabilidade clínica indica anticoagular já e confirmar por angiotomografia, sem esperar exames intermediários.",
    "O dímero D serve para excluir doença em probabilidade baixa ou intermediária; aqui não muda conduta e atrasa o tratamento.",
@@ -7189,8 +7189,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American Academy of Sleep Medicine, 2017 — Clinical Practice Guideline for Diagnostic Testing for Adult OSA",
-  "coment": "Ronco alto, engasgos presenciados, sonolência diurna e obesidade compõem alta probabilidade pré-teste de apneia obstrutiva do sono, e a hipertensão resistente reforça a suspeita — é uma das causas secundárias que precisam ser rastreadas. O diagnóstico exige teste objetivo: polissonografia em laboratório ou poligrafia domiciliar em pacientes com alta probabilidade e sem comorbidade cardiopulmonar significativa. A espirometria avalia função pulmonar e não tem papel diagnóstico aqui. Tratar sem confirmar impede graduar a gravidade e ajustar a pressão terapêutica.",
+  "base": "American Academy of Sleep Medicine, 2017, Clinical Practice Guideline for Diagnostic Testing for Adult OSA",
+  "coment": "Ronco alto, engasgos presenciados, sonolência diurna e obesidade compõem alta probabilidade pré-teste de apneia obstrutiva do sono, e a hipertensão resistente reforça a suspeita. É uma das causas secundárias que precisam ser rastreadas. O diagnóstico exige teste objetivo: polissonografia em laboratório ou poligrafia domiciliar em pacientes com alta probabilidade e sem comorbidade cardiopulmonar significativa. A espirometria avalia função pulmonar e não tem papel diagnóstico aqui. Tratar sem confirmar impede graduar a gravidade e ajustar a pressão terapêutica.",
   "porAlt": [
    "A espirometria mede função pulmonar em vigília e não detecta eventos obstrutivos que ocorrem durante o sono.",
    "Tratar sem diagnóstico impede graduar gravidade, titular a pressão e documentar a indicação para o seguimento.",
@@ -7213,7 +7213,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "GOLD 2026 e US Preventive Services Task Force, 2021 — rastreamento de câncer de pulmão com tomografia de baixa dose",
+  "base": "GOLD 2026 e US Preventive Services Task Force, 2021, rastreamento de câncer de pulmão com tomografia de baixa dose",
   "coment": "O rastreamento com tomografia de baixa dose anual reduz mortalidade por câncer de pulmão em população de risco: adultos com carga tabágica significativa, fumantes atuais ou que cessaram há menos de 15 anos, dentro da faixa etária recomendada. A conversa deve ser compartilhada, porque há falsos-positivos, achados incidentais e exposição à radiação, e deve vir acompanhada da intervenção com maior impacto de todas: apoio estruturado à cessação do tabagismo. A radiografia de tórax não reduz mortalidade e marcadores séricos não têm papel no rastreamento.",
   "porAlt": [
    "A radiografia anual foi testada e não reduz mortalidade por câncer de pulmão, tendo sido abandonada como rastreamento.",
@@ -7237,8 +7237,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "GOLD 2026 — exacerbação de DPOC com acidose respiratória e indicação de ventilação não invasiva",
-  "coment": "Exacerbação com acidose respiratória — pH abaixo de 7,35 com hipercapnia — é a indicação clássica de ventilação não invasiva, que reduz intubação, mortalidade e tempo de internação. O oxigênio deve ter alvo controlado, em torno de 88% a 92%, porque a hiperóxia piora a hipercapnia por alteração da relação ventilação-perfusão e efeito Haldane. Os três critérios cardinais de exacerbação — piora da dispneia, aumento do volume e da purulência do escarro — estão presentes, o que sustenta o antimicrobiano. Corticoide sistêmico por cinco dias acelera a recuperação.",
+  "base": "GOLD 2026 (exacerbação de DPOC com acidose respiratória e indicação de ventilação não invasiva",
+  "coment": "Exacerbação com acidose respiratória) pH abaixo de 7,35 com hipercapnia. É a indicação clássica de ventilação não invasiva, que reduz intubação, mortalidade e tempo de internação. O oxigênio deve ter alvo controlado, em torno de 88% a 92%, porque a hiperóxia piora a hipercapnia por alteração da relação ventilação-perfusão e efeito Haldane. Os três critérios cardinais de exacerbação (piora da dispneia, aumento do volume e da purulência do escarro) estão presentes, o que sustenta o antimicrobiano. Corticoide sistêmico por cinco dias acelera a recuperação.",
   "porAlt": [
    "A intubação imediata se reserva à falha ou contraindicação da ventilação não invasiva, e não ao valor isolado do pH.",
    "Correta: acidose respiratória indica ventilação não invasiva, somada a oxigênio com alvo controlado, broncodilatador, corticoide e antimicrobiano.",
@@ -7261,7 +7261,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American College of Gastroenterology, 2024 — Guidelines: Management of Acute Pancreatitis",
+  "base": "American College of Gastroenterology, 2024, Guidelines: Management of Acute Pancreatitis",
   "coment": "As primeiras 24 horas definem o desfecho da pancreatite aguda, e a intervenção com maior impacto é a hidratação venosa precoce com cristaloide balanceado, em ritmo moderado e guiada por resposta, junto de analgesia eficaz. A nutrição enteral ou a dieta oral precoce, quando tolerada, é preferível ao jejum prolongado, que se associa a atrofia de mucosa e translocação bacteriana. Antibiótico profilático não é recomendado na pancreatite sem infecção documentada. A tomografia é mais útil após 72 horas para avaliar necrose, e a via endoscópica se reserva à colangite ou obstrução biliar persistente.",
   "porAlt": [
    "Jejum prolongado com nutrição parenteral foi abandonado: piora a barreira intestinal e não melhora o curso da doença.",
@@ -7285,8 +7285,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American College of Gastroenterology, 2019 — Ulcerative Colitis in Adults; Cecil Medicina, 26ª edição, 2022",
-  "coment": "A retocolite ulcerativa acomete o reto e se estende de forma contínua e proximal, com inflamação restrita à mucosa e submucosa — exatamente o descrito. A doença de Crohn tem acometimento descontínuo, com lesões salteadas, poupa frequentemente o reto, é transmural e pode acometer qualquer segmento do tubo digestivo, com fístulas e doença perianal. Colite infecciosa não se arrasta por meses com perda ponderal progressiva. Sangramento e emagrecimento são bandeiras vermelhas que afastam o diagnóstico de síndrome do intestino irritável, que é de exclusão e não cursa com esses achados.",
+  "base": "American College of Gastroenterology, 2019: Ulcerative Colitis in Adults; Cecil Medicina, 26ª edição, 2022",
+  "coment": "A retocolite ulcerativa acomete o reto e se estende de forma contínua e proximal, com inflamação restrita à mucosa e submucosa, exatamente o descrito. A doença de Crohn tem acometimento descontínuo, com lesões salteadas, poupa frequentemente o reto, é transmural e pode acometer qualquer segmento do tubo digestivo, com fístulas e doença perianal. Colite infecciosa não se arrasta por meses com perda ponderal progressiva. Sangramento e emagrecimento são bandeiras vermelhas que afastam o diagnóstico de síndrome do intestino irritável, que é de exclusão e não cursa com esses achados.",
   "porAlt": [
    "A doença de Crohn tem padrão salteado e inflamação transmural, o oposto do que a colonoscopia e a biópsia mostraram.",
    "Colite infecciosa é aguda e autolimitada; quatro meses de sintomas com perda ponderal apontam doença inflamatória.",
@@ -7309,8 +7309,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "American College of Gastroenterology, 2022 — Diagnosis and Management of Gastroesophageal Reflux Disease",
-  "coment": "Disfagia progressiva e perda de peso são sinais de alarme e mudam a conduta: o paciente com sintomas de refluxo e qualquer bandeira vermelha — disfagia, odinofagia, emagrecimento, anemia, sangramento, vômitos persistentes, história familiar de neoplasia — deve fazer endoscopia digestiva alta antes de tratamento empírico, para afastar esofagite grave, estenose, esôfago de Barrett e neoplasia. Na ausência de sinais de alarme, o teste terapêutico com inibidor de bomba por oito semanas é aceitável como estratégia inicial, com pHmetria reservada a casos duvidosos ou refratários.",
+  "base": "American College of Gastroenterology, 2022, Diagnosis and Management of Gastroesophageal Reflux Disease",
+  "coment": "Disfagia progressiva e perda de peso são sinais de alarme e mudam a conduta: o paciente com sintomas de refluxo e qualquer bandeira vermelha (disfagia, odinofagia, emagrecimento, anemia, sangramento, vômitos persistentes, história familiar de neoplasia) deve fazer endoscopia digestiva alta antes de tratamento empírico, para afastar esofagite grave, estenose, esôfago de Barrett e neoplasia. Na ausência de sinais de alarme, o teste terapêutico com inibidor de bomba por oito semanas é aceitável como estratégia inicial, com pHmetria reservada a casos duvidosos ou refratários.",
   "porAlt": [
    "O teste terapêutico é aceitável só na ausência de sinais de alarme, que aqui estão presentes e mudam a conduta.",
    "Adiar por seis meses um paciente com disfagia e emagrecimento pode atrasar o diagnóstico de neoplasia esofágica.",
@@ -7333,7 +7333,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Instituto Nacional de Câncer e Sociedade Brasileira de Coloproctologia, 2024 — rastreamento de câncer colorretal",
+  "base": "Instituto Nacional de Câncer e Sociedade Brasileira de Coloproctologia, 2024, rastreamento de câncer colorretal",
   "coment": "O rastreamento de câncer colorretal em risco habitual começa na faixa dos 45 a 50 anos e vai até cerca dos 75, com duas estratégias principais: pesquisa de sangue oculto nas fezes por método imunoquímico, anual ou bienal, com colonoscopia se positivo; ou colonoscopia como exame primário, repetida a cada dez anos quando normal. A maioria dos casos ocorre em pessoas sem história familiar, de modo que a ausência de parente afetado não dispensa o rastreamento. Colonoscopia anual só se justifica em situações específicas, como polipose ou síndromes hereditárias.",
   "porAlt": [
    "A maior parte dos casos de câncer colorretal ocorre sem história familiar, de modo que a ausência dela não dispensa rastrear.",
@@ -7381,8 +7381,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "Infectious Diseases Society of America, 2004, e Harrison's, 22ª edição, 2025 — meningite bacteriana aguda",
-  "coment": "Na suspeita de meningite bacteriana, cada hora de atraso do antimicrobiano piora o prognóstico. Sem indicação de tomografia prévia — que se reserva a imunossupressão, história de doença do sistema nervoso central, convulsão recente, papiledema, déficit focal ou alteração importante do sensório —, a sequência é colher hemoculturas, iniciar antimicrobiano empírico com dexametasona antes ou junto da primeira dose, e então realizar a punção lombar. Quando a tomografia é necessária, o antimicrobiano é iniciado antes dela, jamais depois. A dexametasona reduz sequela auditiva e mortalidade na etiologia pneumocócica.",
+  "base": "Infectious Diseases Society of America, 2004, e Harrison's, 22ª edição, 2025. Meningite bacteriana aguda",
+  "coment": "Na suspeita de meningite bacteriana, cada hora de atraso do antimicrobiano piora o prognóstico. Sem indicação de tomografia prévia (que se reserva a imunossupressão, história de doença do sistema nervoso central, convulsão recente, papiledema, déficit focal ou alteração importante do sensório), a sequência é colher hemoculturas, iniciar antimicrobiano empírico com dexametasona antes ou junto da primeira dose, e então realizar a punção lombar. Quando a tomografia é necessária, o antimicrobiano é iniciado antes dela, jamais depois. A dexametasona reduz sequela auditiva e mortalidade na etiologia pneumocócica.",
   "porAlt": [
    "Aguardar imagem e resultado de líquor atrasa horas o antimicrobiano, e esse atraso se traduz em mortalidade.",
    "Esperar a cultura leva dias e é incompatível com a velocidade de deterioração da meningite bacteriana aguda.",
@@ -7405,8 +7405,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos — Ministério da Saúde, 2024",
-  "coment": "A recomendação vigente é iniciar terapia antirretroviral para todas as pessoas vivendo com HIV, independentemente da contagem de linfócitos T CD4, e o quanto antes — idealmente no mesmo dia do diagnóstico, quando houver condições. O benefício é duplo: reduz morbidade e mortalidade individuais e zera a transmissão sexual quando a carga viral se torna indetectável e assim se mantém. A espera por contagens baixas pertence a protocolos abandonados há mais de uma década, e adiar significa acumular dano imunológico e manter transmissibilidade.",
+  "base": "Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Ministério da Saúde, 2024",
+  "coment": "A recomendação vigente é iniciar terapia antirretroviral para todas as pessoas vivendo com HIV, independentemente da contagem de linfócitos T CD4, e o quanto antes, idealmente no mesmo dia do diagnóstico, quando houver condições. O benefício é duplo: reduz morbidade e mortalidade individuais e zera a transmissão sexual quando a carga viral se torna indetectável e assim se mantém. A espera por contagens baixas pertence a protocolos abandonados há mais de uma década, e adiar significa acumular dano imunológico e manter transmissibilidade.",
   "porAlt": [
    "Correta: a terapia é indicada para todas as pessoas com HIV, independentemente do CD4, e deve começar o quanto antes.",
    "O limiar de 350 células pertence a protocolos abandonados; esperar acumula dano imunológico e mantém transmissão.",
@@ -7429,7 +7429,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "European Society of Cardiology, 2023 — Guidelines for the management of endocarditis",
+  "base": "European Society of Cardiology, 2023, Guidelines for the management of endocarditis",
   "coment": "Em portador de prótese valvar com bacteriemia por Staphylococcus aureus, a suspeita de endocardite é alta e o ecocardiograma transesofágico é o exame de escolha: o transtorácico tem sensibilidade baixa em próteses, pela sombra acústica do material, e um exame negativo não afasta o diagnóstico. O transesofágico avalia melhor vegetações pequenas, abscesso de anel e deiscência. Bacteriemia por Staphylococcus aureus, sobretudo com material protético, exige investigação sistemática de foco endovascular, e a antibioticoterapia é prolongada e guiada pelo agente e pela suscetibilidade.",
   "porAlt": [
    "Correta: em prótese valvar o transesofágico é o exame de escolha, pela baixa sensibilidade do transtorácico nesse cenário.",
@@ -7453,8 +7453,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "GOLD 2026 — exacerbação da DPOC e ventilação não invasiva",
-  "coment": "Exacerbação de doença pulmonar obstrutiva crônica com acidose respiratória — pH abaixo de 7,35 com hipercapnia — em paciente lúcido e colaborativo é a indicação clássica de ventilação não invasiva, que reduz intubação e mortalidade. Broncodilatador, corticoide sistêmico e oxigênio com alvo de saturação entre 88% e 92% completam o tratamento.",
+  "base": "GOLD 2026 (exacerbação da DPOC e ventilação não invasiva",
+  "coment": "Exacerbação de doença pulmonar obstrutiva crônica com acidose respiratória) pH abaixo de 7,35 com hipercapnia, em paciente lúcido e colaborativo é a indicação clássica de ventilação não invasiva, que reduz intubação e mortalidade. Broncodilatador, corticoide sistêmico e oxigênio com alvo de saturação entre 88% e 92% completam o tratamento.",
   "porAlt": [
    "Correta: indicação clássica de ventilação não invasiva.",
    "A intubação fica para falha da não invasiva ou rebaixamento.",
@@ -7477,8 +7477,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Manual de Toxicologia Clínica COVISA 2017 — paracetamol e nomograma de Rumack-Matthew",
-  "coment": "Com concentração acima da linha de tratamento do nomograma, a N-acetilcisteína é iniciada imediatamente — sua eficácia é máxima nas primeiras 8 a 10 horas e decai depois. Esperar a lesão hepática aparecer é esperar o dano que o antídoto existe para prevenir. O carvão ativado só é útil nas primeiras horas e não substitui o antídoto.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 (paracetamol e nomograma de Rumack-Matthew",
+  "coment": "Com concentração acima da linha de tratamento do nomograma, a N-acetilcisteína é iniciada imediatamente) sua eficácia é máxima nas primeiras 8 a 10 horas e decai depois. Esperar a lesão hepática aparecer é esperar o dano que o antídoto existe para prevenir. O carvão ativado só é útil nas primeiras horas e não substitui o antídoto.",
   "porAlt": [
    "Correta: nomograma acima da linha indica antídoto sem demora.",
    "Esperar transaminase subir é perder a janela de prevenção.",
@@ -7501,8 +7501,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ATS/CHEST 2017 — desmame ventilatório: teste de respiração espontânea",
-  "coment": "Preenchidos os critérios — causa resolvida, oxigenação adequada com PEEP e FiO₂ baixas, estabilidade hemodinâmica sem vasopressor, nível de consciência e tosse adequados —, o passo é o teste de respiração espontânea, em tubo T ou com pressão de suporte baixa, por 30 a 120 minutos. A aprovação no teste é o que autoriza a extubação.",
+  "base": "ATS/CHEST 2017, desmame ventilatório: teste de respiração espontânea",
+  "coment": "Preenchidos os critérios (causa resolvida, oxigenação adequada com PEEP e FiO₂ baixas, estabilidade hemodinâmica sem vasopressor, nível de consciência e tosse adequados), o passo é o teste de respiração espontânea, em tubo T ou com pressão de suporte baixa, por 30 a 120 minutos. A aprovação no teste é o que autoriza a extubação.",
   "porAlt": [
    "Correta: o teste é a etapa que define a extubação.",
    "Extubar sem teste aumenta a taxa de reintubação.",
@@ -7525,8 +7525,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Baveno VII, 2022 — hemorragia varicosa na hipertensão portal",
-  "coment": "Na hemorragia varicosa o pacote inicial reúne transfusão restritiva com alvo de 7 g/dL — a estratégia liberal aumenta ressangramento e mortalidade —, vasoconstritor esplâncnico como terlipressina ou octreotide, antibiótico profilático com ceftriaxona, que reduz infecção e mortalidade, e endoscopia em até 12 horas para ligadura elástica.",
+  "base": "Baveno VII, 2022, hemorragia varicosa na hipertensão portal",
+  "coment": "Na hemorragia varicosa o pacote inicial reúne transfusão restritiva com alvo de 7 g/dL, a estratégia liberal aumenta ressangramento e mortalidade, vasoconstritor esplâncnico como terlipressina ou octreotide, antibiótico profilático com ceftriaxona, que reduz infecção e mortalidade, e endoscopia em até 12 horas para ligadura elástica.",
   "porAlt": [
    "Correta: é o pacote completo, com alvo transfusional restritivo.",
    "Transfundir até 10 g/dL eleva a pressão portal e o ressangramento.",
@@ -7549,14 +7549,14 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "International Workshop on Chronic Lymphocytic Leukemia, 2018 — critérios diagnósticos e de indicação de tratamento",
+  "base": "International Workshop on Chronic Lymphocytic Leukemia, 2018, critérios diagnósticos e de indicação de tratamento",
   "coment": "A leucemia linfocítica crônica em estágio inicial e assintomática não se beneficia de tratamento precoce: os ensaios mostraram que tratar antes de haver indicação não prolonga a sobrevida e expõe a toxicidade. A conduta é vigilância ativa, com consultas e hemogramas periódicos. O tratamento é indicado diante de doença ativa: anemia ou plaquetopenia por infiltração medular, sintomas B, adenomegalia volumosa ou sintomática, esplenomegalia importante, ou duplicação rápida da contagem de linfócitos. A linfocitose isolada, por mais alta que seja, não é critério de tratamento.",
   "porAlt": [
    "Tratar todo paciente ao diagnóstico expõe à toxicidade sem ganho de sobrevida demonstrado em ensaio clínico.",
    "O transplante tem indicações restritas na doença refratária e de alto risco, e não como conduta inicial nessa idade.",
    "O corticoide contínuo não é tratamento da doença e traria imunossupressão adicional a um paciente já suscetível.",
    "Mielograma mensal é invasivo e desnecessário: o acompanhamento se faz por clínica e hemograma periódicos.",
-   "Correta: em estágio inicial e assintomático, a conduta é vigilância ativa — tratar cedo não prolonga a sobrevida."
+   "Correta: em estágio inicial e assintomático, a conduta é vigilância ativa. Tratar cedo não prolonga a sobrevida."
   ]
  },
  {
@@ -7573,8 +7573,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "EULAR 2023 — recommendations for the management of systemic lupus erythematosus; Harrison's, 22ª edição, 2025",
-  "coment": "Infecção é uma das principais causas de morte no lúpus, e o corticoide mascara sinais inflamatórios. Febre com foco urinário, hipotensão e taquicardia em paciente imunossuprimida deve ser tratada como sepse até prova em contrário: culturas e antimicrobiano precoce, com ressuscitação volêmica. A leucopenia pode ser da própria doença, mas não afasta infecção — ao contrário, agrava o risco. Também é preciso considerar insuficiência adrenal em quem usa corticoide crônico e enfrenta estresse agudo. Atribuir tudo à atividade de lúpus e apenas subir o corticoide é o erro que mata nesse cenário.",
+  "base": "EULAR 2023. Recommendations for the management of systemic lupus erythematosus; Harrison's, 22ª edição, 2025",
+  "coment": "Infecção é uma das principais causas de morte no lúpus, e o corticoide mascara sinais inflamatórios. Febre com foco urinário, hipotensão e taquicardia em paciente imunossuprimida deve ser tratada como sepse até prova em contrário: culturas e antimicrobiano precoce, com ressuscitação volêmica. A leucopenia pode ser da própria doença, mas não afasta infecção, ao contrário, agrava o risco. Também é preciso considerar insuficiência adrenal em quem usa corticoide crônico e enfrenta estresse agudo. Atribuir tudo à atividade de lúpus e apenas subir o corticoide é o erro que mata nesse cenário.",
   "porAlt": [
    "Subir corticoide sem cobrir infecção em paciente hipotensa pode ser fatal; atividade de lúpus é diagnóstico de exclusão aqui.",
    "A hidroxicloroquina não causa esse quadro agudo e suspendê-la não trataria a hipotensão nem o foco urinário.",
@@ -7597,12 +7597,12 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "British Committee for Standards in Haematology, 2015, e Harrison's, 22ª edição, 2025 — síndrome de lise tumoral",
-  "coment": "A tétrade — hipercalemia, hiperfosfatemia, hipocalcemia e hiperuricemia — surgindo em até 72 horas do início da quimioterapia em tumor de alta carga e alta taxa proliferativa define síndrome de lise tumoral. O tratamento é hidratação vigorosa para manter débito urinário, redução do ácido úrico com rasburicase nos casos de alto risco ou alopurinol na profilaxia, correção dos distúrbios eletrolíticos e monitorização estreita, com diálise se houver refratariedade. A hipocalcemia não deve ser corrigida agressivamente na presença de hiperfosfatemia, pelo risco de precipitação de cálcio e fósforo.",
+  "base": "British Committee for Standards in Haematology, 2015, e Harrison's, 22ª edição, 2025 (síndrome de lise tumoral",
+  "coment": "A tétrade) hipercalemia, hiperfosfatemia, hipocalcemia e hiperuricemia. Surgindo em até 72 horas do início da quimioterapia em tumor de alta carga e alta taxa proliferativa define síndrome de lise tumoral. O tratamento é hidratação vigorosa para manter débito urinário, redução do ácido úrico com rasburicase nos casos de alto risco ou alopurinol na profilaxia, correção dos distúrbios eletrolíticos e monitorização estreita, com diálise se houver refratariedade. A hipocalcemia não deve ser corrigida agressivamente na presença de hiperfosfatemia, pelo risco de precipitação de cálcio e fósforo.",
   "porAlt": [
    "Correta: a tétrade eletrolítica após quimioterapia define lise tumoral, tratada com hidratação, rasburicase e correção dos distúrbios.",
    "A nefrite intersticial não produz esse padrão eletrolítico característico nem essa cronologia tão próxima da quimioterapia.",
-   "A hipercalcemia da malignidade cursa com cálcio alto, e aqui o cálcio está baixo — o oposto do que a hipótese exige.",
+   "A hipercalcemia da malignidade cursa com cálcio alto, e aqui o cálcio está baixo. O oposto do que a hipótese exige.",
    "A insuficiência adrenal não explica hiperfosfatemia, hipocalcemia e hiperuricemia surgindo após a quimioterapia.",
    "A rabdomiólise cursaria com creatinoquinase muito elevada e não tem relação temporal com o início do tratamento."
   ]
@@ -7621,7 +7621,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "American College of Rheumatology, 2022 — Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis",
+  "base": "American College of Rheumatology, 2022. Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis",
   "coment": "O corticoide crônico é a causa mais comum de osteoporose secundária, e a perda óssea é mais rápida nos primeiros meses de uso. Com escore T de -2,8 em paciente sob corticoide, há indicação de tratamento farmacológico com bisfosfonato, associado a cálcio e vitamina D, que sozinhos não bastam. Também se recomenda usar a menor dose de corticoide pelo menor tempo possível, avaliar risco de queda e estimular exercício com carga. A suspensão abrupta do corticoide em uso crônico arrisca insuficiência adrenal e reativação da doença de base.",
   "porAlt": [
    "Cálcio e vitamina D são adjuvantes necessários, mas não revertem a perda óssea induzida pelo corticoide sozinhos.",
@@ -7645,8 +7645,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Decreto nº 7.508/2011 e Lei nº 8.080/1990 — região de saúde, mapa da saúde e COAP",
-  "coment": "O Decreto nº 7.508/2011 organizou a regionalização: a região de saúde reúne municípios limítrofes, com serviços mínimos definidos, e as referências para os pontos de maior densidade tecnológica são pactuadas entre os gestores nas comissões intergestores, formalizando-se no contrato organizativo da ação pública da saúde. O usuário entra pelas portas de entrada definidas — atenção primária, urgência, atenção psicossocial e serviços especiais de acesso aberto — e o percurso subsequente segue a pactuação, não a escolha individual do profissional nem a livre apresentação em qualquer serviço.",
+  "base": "Decreto nº 7.508/2011 e Lei nº 8.080/1990. Região de saúde, mapa da saúde e COAP",
+  "coment": "O Decreto nº 7.508/2011 organizou a regionalização: a região de saúde reúne municípios limítrofes, com serviços mínimos definidos, e as referências para os pontos de maior densidade tecnológica são pactuadas entre os gestores nas comissões intergestores, formalizando-se no contrato organizativo da ação pública da saúde. O usuário entra pelas portas de entrada definidas (atenção primária, urgência, atenção psicossocial e serviços especiais de acesso aberto) e o percurso subsequente segue a pactuação, não a escolha individual do profissional nem a livre apresentação em qualquer serviço.",
   "porAlt": [
    "A universalidade garante acesso, mas o percurso segue as portas de entrada e a pactuação regional definidas em norma.",
    "O encaminhamento segue fluxo pactuado; não é decisão isolada do profissional, que atua dentro da rede organizada.",
@@ -7693,8 +7693,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "AGS Beers Criteria 2023 — medicamentos potencialmente inapropriados e risco de queda no idoso",
-  "coment": "Amitriptilina, benzodiazepínico e anti-inflamatório contínuo constam entre os medicamentos potencialmente inapropriados no idoso, e os três aumentam risco de queda — o desfecho que já ocorreu. A desprescrição deve ser estruturada: listar todos os fármacos, identificar os de maior risco e menor benefício, retirar um de cada vez com plano de redução gradual quando houver risco de abstinência, e acompanhar. Retirar tudo de uma vez arrisca abstinência e descompensação. Trocar por outro tricíclico não resolve, porque a classe inteira é anticolinérgica e sedativa.",
+  "base": "AGS Beers Criteria 2023, medicamentos potencialmente inapropriados e risco de queda no idoso",
+  "coment": "Amitriptilina, benzodiazepínico e anti-inflamatório contínuo constam entre os medicamentos potencialmente inapropriados no idoso, e os três aumentam risco de queda, o desfecho que já ocorreu. A desprescrição deve ser estruturada: listar todos os fármacos, identificar os de maior risco e menor benefício, retirar um de cada vez com plano de redução gradual quando houver risco de abstinência, e acompanhar. Retirar tudo de uma vez arrisca abstinência e descompensação. Trocar por outro tricíclico não resolve, porque a classe inteira é anticolinérgica e sedativa.",
   "porAlt": [
    "Manter tudo e apenas somar cálcio ignora a causa da queda e acrescenta mais um item à polifarmácia existente.",
    "Trocar por outro tricíclico mantém o efeito anticolinérgico e sedativo que contribuiu para a queda da paciente.",
@@ -7717,8 +7717,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018 — autonomia do paciente e registro da recusa",
-  "coment": "Paciente adulto, lúcido e capaz tem direito de recusar internação, mesmo com indicação clínica. O papel do médico é assegurar que a decisão seja informada — explicar o quadro, os riscos concretos da recusa e as alternativas possíveis —, registrar tudo em prontuário de forma detalhada e oferecer plano alternativo com orientação de retorno. A internação involuntária tem hipóteses específicas e restritas, e não se aplica ao paciente capaz que discorda. Familiar não supre a vontade de adulto capaz, e negar assistência futura configura abandono.",
+  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018. Autonomia do paciente e registro da recusa",
+  "coment": "Paciente adulto, lúcido e capaz tem direito de recusar internação, mesmo com indicação clínica. O papel do médico é assegurar que a decisão seja informada (explicar o quadro, os riscos concretos da recusa e as alternativas possíveis), registrar tudo em prontuário de forma detalhada e oferecer plano alternativo com orientação de retorno. A internação involuntária tem hipóteses específicas e restritas, e não se aplica ao paciente capaz que discorda. Familiar não supre a vontade de adulto capaz, e negar assistência futura configura abandono.",
   "porAlt": [
    "A indicação clínica não autoriza internar à força paciente capaz; isso configuraria constrangimento ilegal.",
    "Correta: registrar a recusa esclarecida, oferecer alternativas e manter a porta aberta é o que a ética e a boa prática exigem.",
@@ -7741,8 +7741,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "ACC/AHA 2025 e ESC 2023 — SCA sem supra: estratificação e tempo da coronariografia",
-  "coment": "É síndrome coronariana aguda sem supradesnivelamento de risco alto: troponina com curva ascendente e GRACE acima de 140. A recomendação é estratégia invasiva precoce, em até 24 horas. A estratégia imediata, em menos de 2 horas, é reservada ao risco muito alto — instabilidade hemodinâmica, arritmia grave, dor refratária ou insuficiência cardíaca aguda —, ausente aqui.",
+  "base": "ACC/AHA 2025 e ESC 2023. SCA sem supra: estratificação e tempo da coronariografia",
+  "coment": "É síndrome coronariana aguda sem supradesnivelamento de risco alto: troponina com curva ascendente e GRACE acima de 140. A recomendação é estratégia invasiva precoce, em até 24 horas. A estratégia imediata, em menos de 2 horas, é reservada ao risco muito alto (instabilidade hemodinâmica, arritmia grave, dor refratária ou insuficiência cardíaca aguda), ausente aqui.",
   "porAlt": [
    "Correta: risco alto pelo GRACE e pela curva de troponina.",
    "O risco muito alto exige instabilidade, que ela não apresenta.",
@@ -7765,8 +7765,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "SBC 2025 e AHA/ACC — dislipidemia: metas por estrato de risco",
-  "coment": "Risco cardiovascular alto em prevenção primária — acima de 20% pelo escore global, ou entre 7,5% e 20% com agravantes como tabagismo e LDL acima de 160 mg/dL — indica estatina de alta potência, com meta de LDL abaixo de 70 mg/dL e redução de pelo menos 50% do valor basal. A cessação do tabagismo é a outra medida de maior impacto.",
+  "base": "SBC 2025 e AHA/ACC (dislipidemia: metas por estrato de risco",
+  "coment": "Risco cardiovascular alto em prevenção primária) acima de 20% pelo escore global, ou entre 7,5% e 20% com agravantes como tabagismo e LDL acima de 160 mg/dL. Indica estatina de alta potência, com meta de LDL abaixo de 70 mg/dL e redução de pelo menos 50% do valor basal. A cessação do tabagismo é a outra medida de maior impacto.",
   "porAlt": [
    "Correta: risco alto exige estatina de alta potência e meta abaixo de 70 mg/dL.",
    "Baixa potência não alcança a redução necessária nesse risco.",
@@ -7789,8 +7789,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2024 — fibrilação atrial: manejo periprocedimento dos anticoagulantes diretos",
-  "coment": "Polipectomia é procedimento de risco hemorrágico alto, o que exige interromper o anticoagulante direto — 48 horas antes com função renal preservada. A ponte com heparina não é feita com anticoagulantes diretos: eles têm início e fim de ação rápidos, e a ponte só aumenta sangramento sem reduzir embolia.",
+  "base": "ESC 2024. Fibrilação atrial: manejo periprocedimento dos anticoagulantes diretos",
+  "coment": "Polipectomia é procedimento de risco hemorrágico alto, o que exige interromper o anticoagulante direto, 48 horas antes com função renal preservada. A ponte com heparina não é feita com anticoagulantes diretos: eles têm início e fim de ação rápidos, e a ponte só aumenta sangramento sem reduzir embolia.",
   "porAlt": [
    "Correta: suspensão curta e sem ponte é o padrão com os diretos.",
    "A ponte aumenta sangramento sem benefício embólico nos diretos.",
@@ -7813,8 +7813,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r1",
-  "base": "AHA/ACC 2026 — tromboembolismo pulmonar: probabilidade pré-teste e angiotomografia",
-  "coment": "O escore de Wells é intermediário a alto — taquicardia acima de 100 bpm, imobilização recente e ausência de diagnóstico mais provável. Nessa faixa o dímero D perde valor de exclusão e a angiotomografia é o exame de escolha, com boa disponibilidade e acurácia. A hipoxemia com radiografia normal reforça a suspeita.",
+  "base": "AHA/ACC 2026 (tromboembolismo pulmonar: probabilidade pré-teste e angiotomografia",
+  "coment": "O escore de Wells é intermediário a alto) taquicardia acima de 100 bpm, imobilização recente e ausência de diagnóstico mais provável. Nessa faixa o dímero D perde valor de exclusão e a angiotomografia é o exame de escolha, com boa disponibilidade e acurácia. A hipoxemia com radiografia normal reforça a suspeita.",
   "porAlt": [
    "Correta: probabilidade não baixa exige imagem confirmatória.",
    "O dímero D só exclui com probabilidade baixa ou intermediária pelo escore de dois níveis.",
@@ -7837,8 +7837,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2024 — fibrilação atrial: anticoagulação na cardiomiopatia hipertrófica",
-  "coment": "A cardiomiopatia hipertrófica é uma das condições em que a fibrilação atrial indica anticoagulação independentemente do CHA₂DS₂-VA — o risco embólico atribuível à doença não é capturado pelo escore. O mesmo vale para amiloidose cardíaca e estenose mitral reumática.",
+  "base": "ESC 2024. Fibrilação atrial: anticoagulação na cardiomiopatia hipertrófica",
+  "coment": "A cardiomiopatia hipertrófica é uma das condições em que a fibrilação atrial indica anticoagulação independentemente do CHA₂DS₂-VA, o risco embólico atribuível à doença não é capturado pelo escore. O mesmo vale para amiloidose cardíaca e estenose mitral reumática.",
   "porAlt": [
    "Correta: a hipertrófica anticoagula qualquer que seja o escore.",
    "Aplicar o escore aqui subestima o risco embólico real.",
@@ -7861,8 +7861,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2024 — fibrilação atrial: critérios de redução de dose da apixabana",
-  "coment": "A apixabana só tem a dose reduzida quando o paciente preenche pelo menos DOIS de três critérios: idade igual ou maior que 80 anos, peso igual ou menor que 60 kg e creatinina igual ou maior que 1,5 mg/dL. Aqui há apenas um — o peso de 55 kg. A idade de 79 anos e a creatinina de 1,1 mg/dL não pontuam, e o clearance de 42 mL/min não é critério de redução da apixabana. A dose é a plena. Reduzir por conta da idade próxima de 80 ou do clearance é o erro mais comum com esse fármaco, e subdosar aumenta o risco de acidente vascular sem reduzir sangramento de forma proporcional.",
+  "base": "ESC 2024, fibrilação atrial: critérios de redução de dose da apixabana",
+  "coment": "A apixabana só tem a dose reduzida quando o paciente preenche pelo menos DOIS de três critérios: idade igual ou maior que 80 anos, peso igual ou menor que 60 kg e creatinina igual ou maior que 1,5 mg/dL. Aqui há apenas um, o peso de 55 kg. A idade de 79 anos e a creatinina de 1,1 mg/dL não pontuam, e o clearance de 42 mL/min não é critério de redução da apixabana. A dose é a plena. Reduzir por conta da idade próxima de 80 ou do clearance é o erro mais comum com esse fármaco, e subdosar aumenta o risco de acidente vascular sem reduzir sangramento de forma proporcional.",
   "porAlt": [
    "Correta: apenas um dos três critérios está presente, então a dose é plena.",
    "Reduzir com um único critério subdosa e aumenta o risco embólico.",
@@ -7885,8 +7885,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2024 — fibrilação atrial: ablação como primeira linha na paroxística",
-  "coment": "A diretriz de 2024 promoveu o isolamento de veias pulmonares a opção de primeira linha na fibrilação atrial paroxística sintomática, mesmo sem tentativa prévia de antiarrítmico — os ensaios EARLY-AF e STOP-AF mostraram superioridade sobre o fármaco na manutenção do ritmo sinusal e na qualidade de vida.",
+  "base": "ESC 2024, fibrilação atrial: ablação como primeira linha na paroxística",
+  "coment": "A diretriz de 2024 promoveu o isolamento de veias pulmonares a opção de primeira linha na fibrilação atrial paroxística sintomática, mesmo sem tentativa prévia de antiarrítmico. Os ensaios EARLY-AF e STOP-AF mostraram superioridade sobre o fármaco na manutenção do ritmo sinusal e na qualidade de vida.",
   "porAlt": [
    "Correta: primeira linha na paroxística sintomática.",
    "Exigir falha de dois fármacos é a recomendação antiga.",
@@ -7909,8 +7909,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2024 — fibrilação atrial: acidente vascular sob anticoagulação adequada",
-  "coment": "Evento embólico sob anticoagulação adequada é falha terapêutica e exige procurar outra explicação — aterosclerose de grandes vasos, endocardite, neoplasia oculta, forame oval patente, arterite — antes de simplesmente mexer na dose. Se nada for encontrado, considera-se a troca de anticoagulante ou a oclusão de apêndice atrial. Dobrar a dose ou associar antiagregante só aumenta sangramento.",
+  "base": "ESC 2024 (fibrilação atrial: acidente vascular sob anticoagulação adequada",
+  "coment": "Evento embólico sob anticoagulação adequada é falha terapêutica e exige procurar outra explicação) aterosclerose de grandes vasos, endocardite, neoplasia oculta, forame oval patente, arterite. Antes de simplesmente mexer na dose. Se nada for encontrado, considera-se a troca de anticoagulante ou a oclusão de apêndice atrial. Dobrar a dose ou associar antiagregante só aumenta sangramento.",
   "porAlt": [
    "Correta: falha sob anticoagulação exige investigar outra causa.",
    "Dose acima da recomendada não tem respaldo e aumenta sangramento.",
@@ -7933,8 +7933,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2024 — fibrilação atrial: cardioversão fora da janela de 24 horas",
-  "coment": "Com três dias de evolução o paciente está fora da janela de 24 horas, e a cardioversão exige três semanas de anticoagulação prévia ou transesofágico. O manejo imediato é controle de frequência para aliviar sintomas, início da anticoagulação — que já está indicada pelo escore de 2 — e programação da reversão pelo caminho seguro.",
+  "base": "ESC 2024. Fibrilação atrial: cardioversão fora da janela de 24 horas",
+  "coment": "Com três dias de evolução o paciente está fora da janela de 24 horas, e a cardioversão exige três semanas de anticoagulação prévia ou transesofágico. O manejo imediato é controle de frequência para aliviar sintomas, início da anticoagulação, que já está indicada pelo escore de 2, e programação da reversão pelo caminho seguro.",
   "porAlt": [
    "Correta: fora da janela, controlar frequência e anticoagular primeiro.",
    "Cardioverter sem excluir trombo após três dias é embolizar.",
@@ -7957,8 +7957,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "ESC 2024 — fibrilação atrial: papel do HAS-BLED e ausência de papel do antiagregante",
-  "coment": "O antiagregante foi abandonado na profilaxia de embolia da fibrilação atrial: reduz pouco o acidente vascular e mantém risco de sangramento comparável ao do anticoagulante. O HAS-BLED não serve para contraindicar anticoagulação — serve para identificar e corrigir fatores de risco modificáveis de sangramento e definir a intensidade do seguimento.",
+  "base": "ESC 2024, fibrilação atrial: papel do HAS-BLED e ausência de papel do antiagregante",
+  "coment": "O antiagregante foi abandonado na profilaxia de embolia da fibrilação atrial: reduz pouco o acidente vascular e mantém risco de sangramento comparável ao do anticoagulante. O HAS-BLED não serve para contraindicar anticoagulação. Serve para identificar e corrigir fatores de risco modificáveis de sangramento e definir a intensidade do seguimento.",
   "porAlt": [
    "Correta: o antiagregante não protege e o HAS-BLED não contraindica.",
    "HAS-BLED alto pede corrigir fatores modificáveis, não suspender.",
@@ -7981,7 +7981,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "tit",
-  "base": "AHA/ACC 2026 — Guideline for acute pulmonary embolism, categoria clínica A",
+  "base": "AHA/ACC 2026. Guideline for acute pulmonary embolism, categoria clínica A",
   "coment": "A diretriz de 2026 substituiu a classificação em maciço, submaciço e não maciço por categorias clínicas de A a E. A categoria A corresponde ao paciente com embolia pulmonar aguda assintomática, e a diretriz afirma que esses pacientes podem receber alta do pronto-socorro com segurança, sem necessidade de hospitalização. A categoria B, de sintomáticos com escore de gravidade clínica baixo, recebe recomendação de alta hospitalar precoce. Já as categorias C, D e E devem ser hospitalizadas. O achado incidental não dispensa anticoagulação: a embolia existe e é tratada.",
   "porAlt": [
    "Internação de sete dias não é exigida em nenhuma categoria e contraria a recomendação para pacientes assintomáticos.",
@@ -8005,8 +8005,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "AHA/ACC 2026 — categorias clínicas de embolia pulmonar, categoria C",
-  "coment": "A categoria C reúne pacientes sintomáticos com escore de gravidade clínica elevado, incluindo aqueles com biomarcadores elevados e disfunção de ventrículo direito — exatamente o quadro descrito. Esses pacientes devem ser hospitalizados para otimizar o tratamento, mesmo estando normotensos, porque são os que podem deteriorar nas primeiras horas. A categoria D corresponde à falência cardiopulmonar incipiente e a E à falência com hipotensão persistente. Confundir pressão normal com gravidade baixa é o erro clássico da embolia de risco intermediário.",
+  "base": "AHA/ACC 2026. Categorias clínicas de embolia pulmonar, categoria C",
+  "coment": "A categoria C reúne pacientes sintomáticos com escore de gravidade clínica elevado, incluindo aqueles com biomarcadores elevados e disfunção de ventrículo direito, exatamente o quadro descrito. Esses pacientes devem ser hospitalizados para otimizar o tratamento, mesmo estando normotensos, porque são os que podem deteriorar nas primeiras horas. A categoria D corresponde à falência cardiopulmonar incipiente e a E à falência com hipotensão persistente. Confundir pressão normal com gravidade baixa é o erro clássico da embolia de risco intermediário.",
   "porAlt": [
    "A categoria A é reservada ao paciente assintomático, o que não se aplica a quem tem sintomas e disfunção ventricular.",
    "Correta: sintomático com biomarcador elevado e disfunção de ventrículo direito é categoria C, com indicação de internação.",
@@ -8029,8 +8029,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "tit",
-  "base": "AHA/ACC 2026 — terapias avançadas nas categorias E1 e D1-2 da embolia pulmonar aguda",
-  "coment": "A diretriz de 2026 posiciona as terapias avançadas — trombólise sistêmica, trombólise dirigida por cateter, trombectomia mecânica e embolectomia cirúrgica — como razoáveis para pacientes na categoria E1, isto é, falência cardiopulmonar com hipotensão persistente, e como possíveis de considerar nas categorias D1 e D2, de falência cardiopulmonar incipiente. A diretriz também recomenda a existência de equipes de resposta à embolia pulmonar, os chamados PERT, para melhorar a tempestividade do cuidado, já que essa decisão é multidisciplinar e sensível ao tempo.",
+  "base": "AHA/ACC 2026 (terapias avançadas nas categorias E1 e D1-2 da embolia pulmonar aguda",
+  "coment": "A diretriz de 2026 posiciona as terapias avançadas) trombólise sistêmica, trombólise dirigida por cateter, trombectomia mecânica e embolectomia cirúrgica, como razoáveis para pacientes na categoria E1, isto é, falência cardiopulmonar com hipotensão persistente, e como possíveis de considerar nas categorias D1 e D2, de falência cardiopulmonar incipiente. A diretriz também recomenda a existência de equipes de resposta à embolia pulmonar, os chamados PERT, para melhorar a tempestividade do cuidado, já que essa decisão é multidisciplinar e sensível ao tempo.",
   "porAlt": [
    "O uso de vasopressor não contraindica terapia avançada; ao contrário, marca a gravidade que a justifica nesse cenário.",
    "Contraindicação à anticoagulação leva a filtro de veia cava, e não é o que define a indicação de terapia avançada.",
@@ -8053,7 +8053,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "AHA/ACC 2026 — anticoagulação na fase estendida após primeira embolia sem fator de risco maior reversível",
+  "base": "AHA/ACC 2026, anticoagulação na fase estendida após primeira embolia sem fator de risco maior reversível",
   "coment": "A diretriz recomenda que pacientes com primeira embolia pulmonar sem fator de risco maior reversível, e também aqueles com fator de risco persistente, continuem a anticoagulação além da fase inicial de tratamento, de três a seis meses, entrando na fase estendida. O racional é o risco elevado de recorrência da doença não provocada, que se mantém alto após a suspensão. A decisão é revisada periodicamente, pesando risco de recorrência contra risco hemorrágico, e alguns anticoagulantes diretos permitem dose reduzida nessa fase. O ácido acetilsalicílico é bem menos eficaz que a anticoagulação.",
   "porAlt": [
    "Encerrar em seis meses é a conduta da embolia provocada por fator maior reversível, o que não é o caso descrito.",
@@ -8077,8 +8077,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "tit",
-  "base": "ACC/AHA 2025 — SCA: dupla antiagregação após angioplastia primária",
-  "coment": "Após infarto com supradesnivelamento tratado com stent, a dupla antiagregação padrão é ácido acetilsalicílico associado a um inibidor potente do P2Y12 — ticagrelor ou prasugrel — por 12 meses, na ausência de risco hemorrágico proibitivo. O clopidogrel fica para quem tem contraindicação aos potentes ou necessita de anticoagulação concomitante.",
+  "base": "ACC/AHA 2025, SCA: dupla antiagregação após angioplastia primária",
+  "coment": "Após infarto com supradesnivelamento tratado com stent, a dupla antiagregação padrão é ácido acetilsalicílico associado a um inibidor potente do P2Y12, ticagrelor ou prasugrel, por 12 meses, na ausência de risco hemorrágico proibitivo. O clopidogrel fica para quem tem contraindicação aos potentes ou necessita de anticoagulação concomitante.",
   "porAlt": [
    "Correta: inibidor potente do P2Y12 por 12 meses.",
    "Um mês é insuficiente após infarto, e o clopidogrel é menos potente.",
@@ -8101,7 +8101,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ACC/AHA 2025 e ensaio MINT — transfusão no infarto com anemia",
+  "base": "ACC/AHA 2025 e ensaio MINT, transfusão no infarto com anemia",
   "coment": "O ensaio MINT comparou estratégia restritiva e liberal em pacientes com infarto e anemia: a estratégia liberal, com alvo em torno de 10 g/dL, mostrou tendência de benefício no desfecho de morte ou reinfarto em 30 dias. A diretriz de 2025 passou a considerar razoável a transfusão com alvo mais alto nesse cenário específico, diferente do paciente crítico geral.",
   "porAlt": [
    "Correta: no infarto com anemia, o alvo mais liberal é o razoável.",
@@ -8125,7 +8125,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "dx",
   "nivel": "tit",
-  "base": "ESICM/ATS/SCCM 2024 — A New Global Definition of Acute Respiratory Distress Syndrome",
+  "base": "ESICM/ATS/SCCM 2024, A New Global Definition of Acute Respiratory Distress Syndrome",
   "coment": "A definição global de 2024 expandiu os critérios de Berlim em quatro pontos: passou a incluir o cateter nasal de alto fluxo com fluxo mínimo acima de 30 L/min, aceitou a razão entre saturação e fração inspirada abaixo de 315 como marcador de hipoxemia quando a saturação está abaixo de 97%, acrescentou o ultrassom como modalidade de imagem aceita e, em locais de poucos recursos, dispensou exigência de pressão expiratória final, fluxo mínimo e dispositivo específico. Aqui a razão entre saturação e fração é 130, o fluxo é adequado, a imagem é bilateral e o quadro está dentro de uma semana.",
   "porAlt": [
    "A exigência de ventilação invasiva era de Berlim; a categoria de síndrome não intubada foi criada justamente para esses casos.",
@@ -8149,8 +8149,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ARDS Network, N Engl J Med 2000 — volume corrente sobre peso predito",
-  "coment": "O volume corrente na ventilação protetora é calculado sobre o peso PREDITO, que depende apenas da altura e do sexo — o pulmão não cresce com a obesidade. Com 52 kg de peso predito, 6 mL/kg resultam em cerca de 310 mL. Usar o peso real, aqui, entregaria quase o dobro e produziria lesão induzida pela ventilação.",
+  "base": "ARDS Network, N Engl J Med 2000 (volume corrente sobre peso predito",
+  "coment": "O volume corrente na ventilação protetora é calculado sobre o peso PREDITO, que depende apenas da altura e do sexo) o pulmão não cresce com a obesidade. Com 52 kg de peso predito, 6 mL/kg resultam em cerca de 310 mL. Usar o peso real, aqui, entregaria quase o dobro e produziria lesão induzida pela ventilação.",
   "porAlt": [
    "Correta: 6 mL/kg sobre o peso predito de 52 kg.",
    "O peso real não determina o tamanho do pulmão.",
@@ -8173,8 +8173,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "tit",
-  "base": "Surviving Sepsis Campaign 2021/2026 — alvos de perfusão além da pressão",
-  "coment": "Pressão arterial média na meta não significa perfusão adequada. Lactato elevado, livedo, extremidades frias e oligúria indicam hipoperfusão tecidual persistente, e a primeira pergunta é se o foco está controlado — a causa mais comum de refratariedade. A vasopressina é associada para poupar catecolamina, e o tempo de enchimento capilar é marcador útil de seguimento.",
+  "base": "Surviving Sepsis Campaign 2021/2026. Alvos de perfusão além da pressão",
+  "coment": "Pressão arterial média na meta não significa perfusão adequada. Lactato elevado, livedo, extremidades frias e oligúria indicam hipoperfusão tecidual persistente, e a primeira pergunta é se o foco está controlado. A causa mais comum de refratariedade. A vasopressina é associada para poupar catecolamina, e o tempo de enchimento capilar é marcador útil de seguimento.",
   "porAlt": [
    "Correta: a pressão na meta não exclui hipoperfusão; reavaliar foco.",
    "Lactato de 4,2 com livedo e oligúria não é perfusão adequada.",
@@ -8197,8 +8197,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Surviving Sepsis Campaign 2021 — saturação venosa central e oferta de oxigênio",
-  "coment": "Saturação venosa central baixa significa extração aumentada de oxigênio, e as causas são oferta insuficiente ou consumo elevado. Com saturação arterial de 97% e hemoglobina de 11 g/dL, os componentes de oxigenação e transporte estão adequados — sobra o débito cardíaco, e a fração de ejeção de 30% confirma. A conduta é inotrópico, tipicamente dobutamina.",
+  "base": "Surviving Sepsis Campaign 2021. Saturação venosa central e oferta de oxigênio",
+  "coment": "Saturação venosa central baixa significa extração aumentada de oxigênio, e as causas são oferta insuficiente ou consumo elevado. Com saturação arterial de 97% e hemoglobina de 11 g/dL, os componentes de oxigenação e transporte estão adequados. Sobra o débito cardíaco, e a fração de ejeção de 30% confirma. A conduta é inotrópico, tipicamente dobutamina.",
   "porAlt": [
    "Correta: oferta limitada pelo débito, com disfunção sistólica confirmada.",
    "Hemoglobina de 11 g/dL não justifica transfusão nesse contexto.",
@@ -8221,7 +8221,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AHA 2025 — causas reversíveis na atividade elétrica sem pulso",
+  "base": "AHA 2025. Causas reversíveis na atividade elétrica sem pulso",
   "coment": "Na atividade elétrica sem pulso a busca pela causa reversível é o que muda o desfecho. Aqui a hipercalemia grave com alteração eletrocardiográfica prévia é a causa mais provável: administra-se gluconato de cálcio para estabilizar a membrana, seguido de insulina com glicose, bicarbonato e planejamento de diálise. Compressões e adrenalina seguem em paralelo.",
   "porAlt": [
    "Correta: causa reversível identificada, com tratamento específico.",
@@ -8245,8 +8245,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "prev",
   "nivel": "r3",
-  "base": "AHA 2025 e ERC — prognosticação neurológica pós-parada",
-  "coment": "A prognosticação neurológica pós-parada só é confiável após pelo menos 72 horas do retorno da circulação, em paciente sem sedação residual, hipotermia ou bloqueio neuromuscular, e deve ser multimodal — exame neurológico, eletroencefalograma, potenciais evocados somatossensitivos, enolase neurônio-específica e imagem. Nenhum achado isolado nas primeiras horas autoriza decisão de limitação.",
+  "base": "AHA 2025 e ERC, prognosticação neurológica pós-parada",
+  "coment": "A prognosticação neurológica pós-parada só é confiável após pelo menos 72 horas do retorno da circulação, em paciente sem sedação residual, hipotermia ou bloqueio neuromuscular, e deve ser multimodal. Exame neurológico, eletroencefalograma, potenciais evocados somatossensitivos, enolase neurônio-específica e imagem. Nenhum achado isolado nas primeiras horas autoriza decisão de limitação.",
   "porAlt": [
    "Correta: multimodal e depois de 72 horas.",
    "O exame nas primeiras horas não prediz desfecho de forma confiável.",
@@ -8269,8 +8269,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ESC 2019 — taquicardias supraventriculares: manobra vagal e adenosina",
-  "coment": "Taquicardia supraventricular estável que não responde à manobra vagal tem indicação de adenosina em bolus rápido seguido de flush de soro — bloqueia transitoriamente o nó AV e interrompe o circuito de reentrada. Se falhar, seguem-se bloqueadores de canal de cálcio não di-hidropiridínicos ou betabloqueador; a cardioversão fica para a instabilidade.",
+  "base": "ESC 2019. Taquicardias supraventriculares: manobra vagal e adenosina",
+  "coment": "Taquicardia supraventricular estável que não responde à manobra vagal tem indicação de adenosina em bolus rápido seguido de flush de soro, bloqueia transitoriamente o nó AV e interrompe o circuito de reentrada. Se falhar, seguem-se bloqueadores de canal de cálcio não di-hidropiridínicos ou betabloqueador; a cardioversão fica para a instabilidade.",
   "porAlt": [
    "Correta: é o fármaco de escolha após falha da manobra vagal no estável.",
    "A cardioversão elétrica é para o instável.",
@@ -8293,8 +8293,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "ESC 2019 — taquicardias supraventriculares: fibrilação atrial pré-excitada",
-  "coment": "O quadro é de fibrilação atrial pré-excitada: irregular, muito rápida e com QRS largo de morfologia variável, em portador de via acessória documentada. Todo bloqueador do nó atrioventricular está contraindicado — desvia a condução para a via acessória e pode precipitar fibrilação ventricular. Com frequência acima de 250 bpm e hipotensão, a conduta é cardioversão elétrica.",
+  "base": "ESC 2019. Taquicardias supraventriculares: fibrilação atrial pré-excitada",
+  "coment": "O quadro é de fibrilação atrial pré-excitada: irregular, muito rápida e com QRS largo de morfologia variável, em portador de via acessória documentada. Todo bloqueador do nó atrioventricular está contraindicado. Desvia a condução para a via acessória e pode precipitar fibrilação ventricular. Com frequência acima de 250 bpm e hipotensão, a conduta é cardioversão elétrica.",
   "porAlt": [
    "Correta: cardioversão elétrica, evitando qualquer bloqueio do nó AV.",
    "A adenosina bloqueia o nó e pode degenerar o ritmo.",
@@ -8317,8 +8317,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "tit",
-  "base": "ESC 2022 — arritmias ventriculares: critérios diagnósticos de TV",
-  "coment": "As deflexões regulares mais lentas que os QRS são ondas P dissociadas, e o complexo estreito isolado é um batimento de captura. Dissociação atrioventricular e captura fecham o diagnóstico de taquicardia ventricular sem necessidade de algoritmo. Em paciente estável, o tratamento é antiarrítmico — amiodarona ou procainamida — com cardioversão se houver deterioração.",
+  "base": "ESC 2022. Arritmias ventriculares: critérios diagnósticos de TV",
+  "coment": "As deflexões regulares mais lentas que os QRS são ondas P dissociadas, e o complexo estreito isolado é um batimento de captura. Dissociação atrioventricular e captura fecham o diagnóstico de taquicardia ventricular sem necessidade de algoritmo. Em paciente estável, o tratamento é antiarrítmico, amiodarona ou procainamida, com cardioversão se houver deterioração.",
   "porAlt": [
    "Correta: dissociação com captura fecha taquicardia ventricular.",
    "Adenosina em taquicardia ventricular não reverte e pode piorar.",
@@ -8341,7 +8341,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "ESC 2021/2022 — desfibrilador na prevenção primária da cardiopatia isquêmica",
+  "base": "ESC 2021/2022, desfibrilador na prevenção primária da cardiopatia isquêmica",
   "coment": "Fração de ejeção igual ou inferior a 35% após pelo menos três meses de terapia otimizada, em cardiopatia isquêmica com sintomas e expectativa de vida acima de um ano, é indicação de classe I de desfibrilador para prevenção primária. O QRS estreito exclui a ressincronização, e a amiodarona não reduz mortalidade nesse contexto.",
   "porAlt": [
    "Correta: indicação de classe I de prevenção primária.",
@@ -8365,8 +8365,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ESC 2021 — estimulação cardíaca: bloqueio atrioventricular total",
-  "coment": "O traçado mostra bloqueio atrioventricular total com escape ventricular lento e hipoperfusão sintomática. A medida imediata é estimulação transcutânea, ou transvenosa se houver demora, enquanto se providencia o marca-passo definitivo — indicação de classe I no bloqueio total adquirido, independentemente de sintoma. A atropina age no nó AV e tende a ser inútil no bloqueio infra-hissiano.",
+  "base": "ESC 2021. Estimulação cardíaca: bloqueio atrioventricular total",
+  "coment": "O traçado mostra bloqueio atrioventricular total com escape ventricular lento e hipoperfusão sintomática. A medida imediata é estimulação transcutânea, ou transvenosa se houver demora, enquanto se providencia o marca-passo definitivo. Indicação de classe I no bloqueio total adquirido, independentemente de sintoma. A atropina age no nó AV e tende a ser inútil no bloqueio infra-hissiano.",
   "porAlt": [
    "Correta: estimulação imediata seguida de marca-passo definitivo.",
    "A atropina não atua no bloqueio infra-hissiano com escape ventricular.",
@@ -8376,7 +8376,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 61 anos, assintomático, realiza eletrocardiograma em avaliação periódica de rotina. O traçado mostra ritmo sinusal a 62 bpm com alongamento progressivo do intervalo PR ao longo de três batimentos conduzidos — 180, 240 e 320 ms — até uma onda P não conduzida, com reinício do ciclo no batimento seguinte. O QRS mede 92 ms com eixo normal. Ele nega tontura, síncope, dispneia ou intolerância ao esforço, não usa fármacos bradicardizantes e o exame cardiovascular é normal. Qual é a conduta?",
+  "q": "Homem de 61 anos, assintomático, realiza eletrocardiograma em avaliação periódica de rotina. O traçado mostra ritmo sinusal a 62 bpm com alongamento progressivo do intervalo PR ao longo de três batimentos conduzidos (180, 240 e 320 ms) até uma onda P não conduzida, com reinício do ciclo no batimento seguinte. O QRS mede 92 ms com eixo normal. Ele nega tontura, síncope, dispneia ou intolerância ao esforço, não usa fármacos bradicardizantes e o exame cardiovascular é normal. Qual é a conduta?",
   "alts": [
    "Observação clínica sem indicação de marca-passo",
    "Implante de marca-passo definitivo",
@@ -8389,8 +8389,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ESC 2021 — estimulação cardíaca: Mobitz I assintomático",
-  "coment": "O alongamento progressivo do PR até a onda bloqueada define Mobitz I, e o QRS estreito localiza o distúrbio no nó atrioventricular. Em assintomático a evolução é benigna e não há indicação de marca-passo — a conduta é acompanhamento, com reavaliação se surgirem sintomas.",
+  "base": "ESC 2021. Estimulação cardíaca: Mobitz I assintomático",
+  "coment": "O alongamento progressivo do PR até a onda bloqueada define Mobitz I, e o QRS estreito localiza o distúrbio no nó atrioventricular. Em assintomático a evolução é benigna e não há indicação de marca-passo. A conduta é acompanhamento, com reavaliação se surgirem sintomas.",
   "porAlt": [
    "Correta: Mobitz I assintomático com QRS estreito não indica dispositivo.",
    "Marca-passo é a conduta do Mobitz II, não do I nodal assintomático.",
@@ -8413,8 +8413,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "prev",
   "nivel": "r3",
-  "base": "EASL 2018 — Clinical Practice Guidelines for the management of patients with decompensated cirrhosis",
-  "coment": "A contagem de 180 neutrófilos está abaixo do corte de 250, portanto não há peritonite bacteriana espontânea para tratar. O gradiente albumina soro-ascite de 1,6 confirma hipertensão portal como causa da ascite. O que muda a conduta aqui é a proteína total baixa no líquido, inferior a 1,5 g/dL, associada a disfunção hepática e renal — perfil que indica profilaxia primária de peritonite bacteriana espontânea com quinolona. A profilaxia primária também é indicada por sete dias em todo cirrótico com hemorragia digestiva, e a secundária é contínua após um episódio prévio.",
+  "base": "EASL 2018. Clinical Practice Guidelines for the management of patients with decompensated cirrhosis",
+  "coment": "A contagem de 180 neutrófilos está abaixo do corte de 250, portanto não há peritonite bacteriana espontânea para tratar. O gradiente albumina soro-ascite de 1,6 confirma hipertensão portal como causa da ascite. O que muda a conduta aqui é a proteína total baixa no líquido, inferior a 1,5 g/dL, associada a disfunção hepática e renal. Perfil que indica profilaxia primária de peritonite bacteriana espontânea com quinolona. A profilaxia primária também é indicada por sete dias em todo cirrótico com hemorragia digestiva, e a secundária é contínua após um episódio prévio.",
   "porAlt": [
    "A contagem está abaixo de 250 neutrófilos, de modo que não há peritonite bacteriana espontânea a ser tratada.",
    "O gradiente elevado indica hipertensão portal como causa da ascite e não afasta infecção do líquido ascítico.",
@@ -8437,7 +8437,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "tit",
-  "base": "EASL 2018 — encefalopatia hepática na cirrose descompensada",
+  "base": "EASL 2018. Encefalopatia hepática na cirrose descompensada",
   "coment": "A encefalopatia hepática é diagnóstico clínico. A amônia sérica não serve para diagnosticar, não exclui quando normal, não confirma quando elevada e não deve ser usada para acompanhar a resposta ao tratamento. O passo que muda desfecho é procurar o fator precipitante: infecção, incluindo peritonite bacteriana espontânea, hemorragia digestiva, constipação, distúrbio eletrolítico, desidratação por diurético, sedativos e injúria renal. O tratamento é lactulose titulada para duas a três evacuações pastosas por dia, com rifaximina associada sobretudo na prevenção de recorrência. A restrição proteica foi abandonada por piorar a sarcopenia.",
   "porAlt": [
    "A amônia normal não afasta encefalopatia; abandonar a hipótese por causa dela atrasa o tratamento correto.",
@@ -8461,8 +8461,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "EASL 2018 — paracentese de grande volume e prevenção de disfunção circulatória pós-paracentese",
-  "coment": "Em paracenteses de grande volume, acima de cerca de 5 litros, indica-se reposição de albumina na dose de 6 a 8 gramas por litro retirado, para prevenir a disfunção circulatória pós-paracentese — quadro de queda do volume arterial efetivo, ativação neuro-humoral, hiponatremia, injúria renal e reacúmulo mais rápido da ascite. Salina isotônica não substitui a albumina nessa indicação, porque não expande o compartimento intravascular com a mesma eficiência nem sustenta a pressão oncótica. A correção profilática de coagulopatia não é necessária para paracentese.",
+  "base": "EASL 2018, paracentese de grande volume e prevenção de disfunção circulatória pós-paracentese",
+  "coment": "Em paracenteses de grande volume, acima de cerca de 5 litros, indica-se reposição de albumina na dose de 6 a 8 gramas por litro retirado, para prevenir a disfunção circulatória pós-paracentese. Quadro de queda do volume arterial efetivo, ativação neuro-humoral, hiponatremia, injúria renal e reacúmulo mais rápido da ascite. Salina isotônica não substitui a albumina nessa indicação, porque não expande o compartimento intravascular com a mesma eficiência nem sustenta a pressão oncótica. A correção profilática de coagulopatia não é necessária para paracentese.",
   "porAlt": [
    "A salina não sustenta a pressão oncótica e não previne a disfunção circulatória da mesma forma que a albumina.",
    "A paracentese de grande volume altera sim a hemodinâmica, e é justamente por isso que se repõe albumina.",
@@ -8485,8 +8485,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — ânion gap corrigido pela albumina e fórmula de Winter",
-  "coment": "O ânion gap medido é 138 menos 100 menos 15, ou seja, 23 — já elevado. A correção pela albumina o eleva ainda mais: soma-se 2,5 vezes a diferença entre 4 e a albumina de 2,0, o que acrescenta 5, resultando em 28. A hipoalbuminemia reduz o ânion gap aparente e, sem a correção, acidoses com gap elevado passam despercebidas em pacientes graves e desnutridos. A compensação está adequada pela fórmula de Winter: pressão esperada de 1,5 vezes 15 mais 8, ou seja, 30,5, exatamente o valor encontrado — portanto não há distúrbio misto respiratório.",
+  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 (ânion gap corrigido pela albumina e fórmula de Winter",
+  "coment": "O ânion gap medido é 138 menos 100 menos 15, ou seja, 23) já elevado. A correção pela albumina o eleva ainda mais: soma-se 2,5 vezes a diferença entre 4 e a albumina de 2,0, o que acrescenta 5, resultando em 28. A hipoalbuminemia reduz o ânion gap aparente e, sem a correção, acidoses com gap elevado passam despercebidas em pacientes graves e desnutridos. A compensação está adequada pela fórmula de Winter: pressão esperada de 1,5 vezes 15 mais 8, ou seja, 30,5, exatamente o valor encontrado. Portanto não há distúrbio misto respiratório.",
   "porAlt": [
    "Sem corrigir pela albumina o gap parece menor, e é exatamente esse erro que faz a acidose com gap passar despercebida.",
    "A pressão de gás carbônico baixa aqui é a compensação esperada da acidose metabólica, e não um distúrbio primário.",
@@ -8509,8 +8509,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Cecil Medicina, 26ª edição, 2022, e Harrison's, 22ª edição, 2025 — hipocalemia refratária e hipomagnesemia",
-  "coment": "A hipomagnesemia é a causa clássica de hipocalemia refratária: o magnésio é necessário para bloquear os canais de potássio na membrana luminal do túbulo distal, e sua falta perpetua a perda urinária de potássio, tornando a reposição ineficaz enquanto não for corrigida. O contexto reforça: furosemida e inibidor de bomba de prótons de uso prolongado são causas frequentes de hipomagnesemia. A mesma lógica vale para a hipocalcemia refratária, que também não corrige sem magnésio adequado — motivo pelo qual o magnésio deve ser dosado sempre que potássio ou cálcio não sobem.",
+  "base": "Cecil Medicina, 26ª edição, 2022, e Harrison's, 22ª edição, 2025, hipocalemia refratária e hipomagnesemia",
+  "coment": "A hipomagnesemia é a causa clássica de hipocalemia refratária: o magnésio é necessário para bloquear os canais de potássio na membrana luminal do túbulo distal, e sua falta perpetua a perda urinária de potássio, tornando a reposição ineficaz enquanto não for corrigida. O contexto reforça: furosemida e inibidor de bomba de prótons de uso prolongado são causas frequentes de hipomagnesemia. A mesma lógica vale para a hipocalcemia refratária, que também não corrige sem magnésio adequado. Motivo pelo qual o magnésio deve ser dosado sempre que potássio ou cálcio não sobem.",
   "porAlt": [
    "O cálcio elevado não impede a correção do potássio e não explica a refratariedade descrita neste caso.",
    "O fósforo não regula a reabsorção tubular de potássio dessa forma e não causa hipocalemia refratária.",
@@ -8533,8 +8533,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — hipernatremia por déficit de água livre",
-  "coment": "Hipernatremia quase sempre significa falta de água, e não excesso de sódio, ocorrendo em quem não tem acesso livre à água: idoso institucionalizado, acamado, sedado ou com rebaixamento. A correção deve ser gradual, não reduzindo o sódio mais do que cerca de dez miliequivalentes por litro em vinte e quatro horas, sob risco de edema cerebral — o espelho exato do cuidado que se tem na hiponatremia. O déficit de água livre é estimado pela água corporal total multiplicada pela razão entre o sódio atual e 140, menos um, repondo preferencialmente por via enteral, somada às perdas em curso.",
+  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025. Hipernatremia por déficit de água livre",
+  "coment": "Hipernatremia quase sempre significa falta de água, e não excesso de sódio, ocorrendo em quem não tem acesso livre à água: idoso institucionalizado, acamado, sedado ou com rebaixamento. A correção deve ser gradual, não reduzindo o sódio mais do que cerca de dez miliequivalentes por litro em vinte e quatro horas, sob risco de edema cerebral. O espelho exato do cuidado que se tem na hiponatremia. O déficit de água livre é estimado pela água corporal total multiplicada pela razão entre o sódio atual e 140, menos um, repondo preferencialmente por via enteral, somada às perdas em curso.",
   "porAlt": [
    "Excesso de sódio na dieta é causa rara, e diurético em dose alta agravaria a desidratação já instalada.",
    "Correta: a causa é falta de acesso à água livre, e a correção é limitada a cerca de dez miliequivalentes em 24 horas.",
@@ -8558,7 +8558,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r2",
   "base": "Instrumentos de identificação em cuidados paliativos e Resolução CFM nº 1.805/2006",
-  "coment": "A pergunta surpresa — eu ficaria surpreso se este paciente morresse nos próximos doze meses? — é o instrumento de triagem mais difundido para identificar quem se beneficia de abordagem paliativa. Resposta negativa indica avaliação, e isso não significa suspender tratamento modificador algum: cuidado paliativo é cuidado ativo que corre em paralelo. Somam-se indicadores gerais, como declínio funcional progressivo, perda de peso, internações repetidas e dependência, e indicadores específicos por doença. Esperar que não haja mais tratamento disponível é justamente o erro que atrasa o cuidado.",
+  "coment": "A pergunta surpresa, eu ficaria surpreso se este paciente morresse nos próximos doze meses?, é o instrumento de triagem mais difundido para identificar quem se beneficia de abordagem paliativa. Resposta negativa indica avaliação, e isso não significa suspender tratamento modificador algum: cuidado paliativo é cuidado ativo que corre em paralelo. Somam-se indicadores gerais, como declínio funcional progressivo, perda de peso, internações repetidas e dependência, e indicadores específicos por doença. Esperar que não haja mais tratamento disponível é justamente o erro que atrasa o cuidado.",
   "porAlt": [
    "Correta: a pergunta surpresa é o instrumento de triagem, e resposta negativa indica avaliação paliativa desde já.",
    "A escala de coma de Glasgow mede nível de consciência e não tem qualquer papel na indicação de cuidados paliativos.",
@@ -8582,7 +8582,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "tit",
   "base": "WHO Guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults, 2018; Harrison's, 22ª edição, 2025",
-  "coment": "Mioclonias e sonolência excessiva com dor controlada indicam neurotoxicidade por opioide, agravada aqui pela piora da função renal, que faz acumular metabólitos ativos da morfina. A conduta é a rotação de opioide: converte-se pela tabela de equianalgesia e reduz-se de vinte e cinco a cinquenta por cento a dose calculada, por tolerância cruzada incompleta, escolhendo agente com metabolismo mais seguro na insuficiência renal, como fentanil ou metadona — esta com cautela, pela meia-vida longa. Hidratação e revisão de outros fármacos sedativos completam a conduta. Suspender abruptamente causa dor e abstinência.",
+  "coment": "Mioclonias e sonolência excessiva com dor controlada indicam neurotoxicidade por opioide, agravada aqui pela piora da função renal, que faz acumular metabólitos ativos da morfina. A conduta é a rotação de opioide: converte-se pela tabela de equianalgesia e reduz-se de vinte e cinco a cinquenta por cento a dose calculada, por tolerância cruzada incompleta, escolhendo agente com metabolismo mais seguro na insuficiência renal, como fentanil ou metadona. Esta com cautela, pela meia-vida longa. Hidratação e revisão de outros fármacos sedativos completam a conduta. Suspender abruptamente causa dor e abstinência.",
   "porAlt": [
    "Aumentar a dose agrava a neurotoxicidade em paciente cuja dor já está controlada e que acumula metabólitos.",
    "Suspender abruptamente provoca dor intensa e síndrome de abstinência, sem resolver a causa do problema.",
@@ -8605,8 +8605,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — manejo da dispneia refratária em doença avançada",
-  "coment": "O opioide em dose baixa é o tratamento de escolha da dispneia refratária: reduz a percepção de falta de ar por ação central, sem depressão respiratória clinicamente relevante nas doses usadas. O oxigênio só alivia quando há hipoxemia — nesta paciente, com saturação de 95%, não há benefício. Uma medida não farmacológica com efeito real é o ar corrente no rosto, com ventilador. O benzodiazepínico entra como adjuvante quando há componente ansioso importante, mas não é primeira escolha isolada. Broncodilatador e corticoide tratam mecanismos específicos, ausentes no caso.",
+  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025, manejo da dispneia refratária em doença avançada",
+  "coment": "O opioide em dose baixa é o tratamento de escolha da dispneia refratária: reduz a percepção de falta de ar por ação central, sem depressão respiratória clinicamente relevante nas doses usadas. O oxigênio só alivia quando há hipoxemia. Nesta paciente, com saturação de 95%, não há benefício. Uma medida não farmacológica com efeito real é o ar corrente no rosto, com ventilador. O benzodiazepínico entra como adjuvante quando há componente ansioso importante, mas não é primeira escolha isolada. Broncodilatador e corticoide tratam mecanismos específicos, ausentes no caso.",
   "porAlt": [
    "O oxigênio alivia dispneia apenas quando há hipoxemia; com saturação de 95% não traz benefício demonstrado.",
    "Correta: o opioide em dose baixa é o tratamento de escolha da dispneia refratária, mesmo sem hipoxemia.",
@@ -8630,7 +8630,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "tit",
   "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, e Resolução CFM nº 1.805/2006 sobre ortotanásia",
-  "coment": "A reunião de definição de objetivos de cuidado tem uma sequência: investigar o que a família compreende, explorar valores e o que o paciente consideraria aceitável, e então oferecer uma recomendação médica fundamentada. Transferir a decisão crua — perguntar se a família quer que se faça tudo — é injusto, ininteligível e produz culpa e decisões piores. Decidir sozinho e apenas comunicar retira a família do processo. Adiar para o momento da deterioração transforma uma deliberação cuidadosa em decisão sob pânico. Recomendar não é impor: a família permanece com a palavra final.",
+  "coment": "A reunião de definição de objetivos de cuidado tem uma sequência: investigar o que a família compreende, explorar valores e o que o paciente consideraria aceitável, e então oferecer uma recomendação médica fundamentada. Transferir a decisão crua, perguntar se a família quer que se faça tudo, é injusto, ininteligível e produz culpa e decisões piores. Decidir sozinho e apenas comunicar retira a família do processo. Adiar para o momento da deterioração transforma uma deliberação cuidadosa em decisão sob pânico. Recomendar não é impor: a família permanece com a palavra final.",
   "porAlt": [
    "Apresentar opções sem recomendação sobrecarrega a família com uma responsabilidade técnica que é do médico.",
    "Correta: ouvir valores e então recomendar de forma fundamentada é o que a boa prática e a ética exigem nessa conversa.",
@@ -8653,8 +8653,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Manejo de sintomas nos últimos dias de vida — bibliografia de cuidados paliativos e Resolução CFM nº 1.805/2006",
-  "coment": "A secreção respiratória terminal resulta do acúmulo de secreções em paciente que perdeu o reflexo de deglutição, e incomoda muito mais quem ouve do que o próprio paciente, que está sonolento e sem desconforto. A conduta combina reposicionamento, redução ou suspensão da hidratação artificial — que aumenta a secreção —, anticolinérgico e, sobretudo, explicação à família. A aspiração vigorosa é desconfortável e estimula mais secreção. Hidratar mais piora o quadro. Antimicrobiano e intubação são intervenções desproporcionais que prolongam o processo de morrer sem benefício.",
+  "base": "Manejo de sintomas nos últimos dias de vida. Bibliografia de cuidados paliativos e Resolução CFM nº 1.805/2006",
+  "coment": "A secreção respiratória terminal resulta do acúmulo de secreções em paciente que perdeu o reflexo de deglutição, e incomoda muito mais quem ouve do que o próprio paciente, que está sonolento e sem desconforto. A conduta combina reposicionamento, redução ou suspensão da hidratação artificial, que aumenta a secreção, anticolinérgico e, sobretudo, explicação à família. A aspiração vigorosa é desconfortável e estimula mais secreção. Hidratar mais piora o quadro. Antimicrobiano e intubação são intervenções desproporcionais que prolongam o processo de morrer sem benefício.",
   "porAlt": [
    "A aspiração vigorosa causa desconforto e estimula ainda mais a produção de secreção nesse contexto.",
    "Aumentar a hidratação piora a secreção respiratória e o edema, sem qualquer benefício ao paciente.",
@@ -8678,7 +8678,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "Resolução CFM nº 1.805/2006 (ortotanásia) e Código de Ética Médica, Resolução CFM nº 2.217/2018",
-  "coment": "Ortotanásia é permitir que a morte ocorra no seu tempo, sem prolongar artificialmente o processo de morrer: suspender ou não iniciar tratamento fútil, mantendo todo o cuidado de conforto. É lícita e amparada por resolução do Conselho Federal de Medicina. Eutanásia é o ato de provocar a morte para aliviar sofrimento, e é ilegal no Brasil. Distanásia é o oposto da ortotanásia — prolongar o morrer com tratamentos que apenas adiam a morte e aumentam o sofrimento — e deve ser evitada. A sedação paliativa, que reduz a consciência de forma proporcional para aliviar sintoma refratário, é lícita porque a intenção é aliviar, não abreviar.",
+  "coment": "Ortotanásia é permitir que a morte ocorra no seu tempo, sem prolongar artificialmente o processo de morrer: suspender ou não iniciar tratamento fútil, mantendo todo o cuidado de conforto. É lícita e amparada por resolução do Conselho Federal de Medicina. Eutanásia é o ato de provocar a morte para aliviar sofrimento, e é ilegal no Brasil. Distanásia é o oposto da ortotanásia, prolongar o morrer com tratamentos que apenas adiam a morte e aumentam o sofrimento, e deve ser evitada. A sedação paliativa, que reduz a consciência de forma proporcional para aliviar sintoma refratário, é lícita porque a intenção é aliviar, não abreviar.",
   "porAlt": [
    "Correta: ortotanásia é não prolongar artificialmente o morrer, sendo lícita; eutanásia é provocar a morte, e é ilegal.",
    "Não são sinônimos, e a ortotanásia é expressamente amparada por resolução do Conselho Federal de Medicina.",
@@ -8701,8 +8701,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2024 e ensaio ISCHEMIA — síndrome coronariana crônica: terapia otimizada",
-  "coment": "Angina estável com lesão intermediária, função ventricular preservada e sintomas controláveis é tratada clinicamente: antianginoso — betabloqueador de primeira escolha — associado a estatina de alta potência e antiagregante. O ensaio ISCHEMIA mostrou que revascularizar de rotina na doença estável não reduz morte ou infarto frente à terapia otimizada.",
+  "base": "ESC 2024 e ensaio ISCHEMIA, síndrome coronariana crônica: terapia otimizada",
+  "coment": "Angina estável com lesão intermediária, função ventricular preservada e sintomas controláveis é tratada clinicamente: antianginoso, betabloqueador de primeira escolha, associado a estatina de alta potência e antiagregante. O ensaio ISCHEMIA mostrou que revascularizar de rotina na doença estável não reduz morte ou infarto frente à terapia otimizada.",
   "porAlt": [
    "Correta: terapia otimizada é a estratégia inicial na angina estável.",
    "Lesão de 50% não é obstrutiva e não tem indicação de intervenção.",
@@ -8725,8 +8725,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2021 — valvopatias: reparo na insuficiência mitral primária grave sintomática",
-  "coment": "Insuficiência mitral primária grave em paciente sintomática é indicação de classe I de cirurgia. Quando a anatomia é favorável, o reparo é preferível à troca — preserva o aparelho subvalvar, dispensa anticoagulação permanente e tem melhor sobrevida a longo prazo. O clipe percutâneo é para quem tem risco cirúrgico proibitivo.",
+  "base": "ESC 2021. Valvopatias: reparo na insuficiência mitral primária grave sintomática",
+  "coment": "Insuficiência mitral primária grave em paciente sintomática é indicação de classe I de cirurgia. Quando a anatomia é favorável, o reparo é preferível à troca. Preserva o aparelho subvalvar, dispensa anticoagulação permanente e tem melhor sobrevida a longo prazo. O clipe percutâneo é para quem tem risco cirúrgico proibitivo.",
   "porAlt": [
    "Correta: sintomática com anatomia favorável, o reparo é o padrão.",
    "O tratamento clínico não corrige a lesão mecânica.",
@@ -8749,8 +8749,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2015 — doenças do pericárdio: primeira linha e papel do corticoide",
-  "coment": "O esquema de primeira linha é anti-inflamatório não esteroidal em dose plena com desmame, associado a colchicina por três meses — a colchicina reduz cerca de metade das recorrências, que são o principal problema da pericardite aguda. O corticoide se evita justamente por aumentar a taxa de recorrência.",
+  "base": "ESC 2015. Doenças do pericárdio: primeira linha e papel do corticoide",
+  "coment": "O esquema de primeira linha é anti-inflamatório não esteroidal em dose plena com desmame, associado a colchicina por três meses, a colchicina reduz cerca de metade das recorrências, que são o principal problema da pericardite aguda. O corticoide se evita justamente por aumentar a taxa de recorrência.",
   "porAlt": [
    "Correta: a associação reduz recorrência, e o corticoide a aumenta.",
    "O corticoide de entrada associa-se a mais recorrência.",
@@ -8773,8 +8773,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2015 — doenças do pericárdio: constrição e diferencial com restritiva",
-  "coment": "Congestão sistêmica predominante com pulmão limpo, sinal de Kussmaul, pericárdio espessado, salto septal e interdependência ventricular exagerada compõem o quadro de pericardite constritiva — e a radioterapia torácica prévia é uma das causas clássicas. O diagnóstico diferencial com a restritiva é o desafio, e a interdependência ventricular é o achado que separa os dois.",
+  "base": "ESC 2015, doenças do pericárdio: constrição e diferencial com restritiva",
+  "coment": "Congestão sistêmica predominante com pulmão limpo, sinal de Kussmaul, pericárdio espessado, salto septal e interdependência ventricular exagerada compõem o quadro de pericardite constritiva, e a radioterapia torácica prévia é uma das causas clássicas. O diagnóstico diferencial com a restritiva é o desafio, e a interdependência ventricular é o achado que separa os dois.",
   "porAlt": [
    "Correta: constrição, com etiologia actínica plausível.",
    "Na restritiva não há espessamento pericárdico nem interdependência exagerada.",
@@ -8797,8 +8797,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2024 — doença arterial periférica: tratamento da claudicação intermitente",
-  "coment": "Claudicação intermitente estável, sem isquemia crítica, é tratada clinicamente: programa de exercício supervisionado — a intervenção com maior ganho de distância percorrida —, estatina de alta potência, antiagregante e cessação do tabagismo, que é a medida isolada de maior impacto. A revascularização entra na falha do tratamento clínico ou na isquemia crítica.",
+  "base": "ESC 2024, doença arterial periférica: tratamento da claudicação intermitente",
+  "coment": "Claudicação intermitente estável, sem isquemia crítica, é tratada clinicamente: programa de exercício supervisionado, a intervenção com maior ganho de distância percorrida, estatina de alta potência, antiagregante e cessação do tabagismo, que é a medida isolada de maior impacto. A revascularização entra na falha do tratamento clínico ou na isquemia crítica.",
   "porAlt": [
    "Correta: tratamento clínico e exercício antes de qualquer intervenção.",
    "A angioplastia é para refratários ao tratamento clínico ou isquemia crítica.",
@@ -8821,8 +8821,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ESC 2018 — doença cardiovascular na gestação: cardiomiopatia periparto",
-  "coment": "Insuficiência cardíaca de início no último mês de gestação ou nos cinco meses seguintes ao parto, com fração de ejeção abaixo de 45% e sem outra causa identificável, define cardiomiopatia periparto. O tratamento respeita a gestação — inibidores da enzima conversora e do receptor de angiotensina são contraindicados antes do parto, e a hidralazina com nitrato ocupa esse lugar.",
+  "base": "ESC 2018, doença cardiovascular na gestação: cardiomiopatia periparto",
+  "coment": "Insuficiência cardíaca de início no último mês de gestação ou nos cinco meses seguintes ao parto, com fração de ejeção abaixo de 45% e sem outra causa identificável, define cardiomiopatia periparto. O tratamento respeita a gestação. Inibidores da enzima conversora e do receptor de angiotensina são contraindicados antes do parto, e a hidralazina com nitrato ocupa esse lugar.",
   "porAlt": [
    "Correta: início no terceiro trimestre com disfunção sistólica nova e sem outra causa.",
    "A sobrecarga fisiológica não reduz a fração de ejeção a 32%.",
@@ -8845,8 +8845,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2021 — valvopatias: estenose aórtica grave sintomática",
-  "coment": "Estenose aórtica grave sintomática — a tríade de angina, síncope e dispneia — é indicação de classe I de substituição valvar, e a sobrevida sem intervenção é medida em meses. A escolha entre cirurgia e implante transcateter depende de idade, risco cirúrgico e anatomia, decidida pelo heart team; no risco intermediário as duas são opções.",
+  "base": "ESC 2021 (valvopatias: estenose aórtica grave sintomática",
+  "coment": "Estenose aórtica grave sintomática) a tríade de angina, síncope e dispneia. É indicação de classe I de substituição valvar, e a sobrevida sem intervenção é medida em meses. A escolha entre cirurgia e implante transcateter depende de idade, risco cirúrgico e anatomia, decidida pelo heart team; no risco intermediário as duas são opções.",
   "porAlt": [
    "Correta: grave e sintomática, a intervenção é classe I.",
    "O tratamento clínico não altera a história natural.",
@@ -8869,7 +8869,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "ESC 2024 — síndromes aórticas agudas: manejo inicial da dissecção",
+  "base": "ESC 2024. Síndromes aórticas agudas: manejo inicial da dissecção",
   "coment": "Dor rasgando com irradiação dorsal, assimetria de pressão e de pulsos, sopro de insuficiência aórtica novo e mediastino alargado apontam dissecção aguda de aorta. O tratamento inicial é reduzir a força de cisalhamento: betabloqueador intravenoso primeiro, para baixar frequência e derivada de pressão, e só depois vasodilatador se necessário. A angiotomografia define o tipo e a conduta cirúrgica.",
   "porAlt": [
    "Correta: controlar frequência e pressão, e definir por imagem.",
@@ -8893,8 +8893,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2022 — arritmias ventriculares: extrassistolia em coração estruturalmente normal",
-  "coment": "Extrassístoles monomórficas com morfologia de bloqueio de ramo esquerdo e eixo inferior sugerem origem em via de saída de ventrículo direito, de bom prognóstico em coração estruturalmente normal. Com carga baixa — bem abaixo dos 10% a 15% associados a miocardiopatia induzida — a conduta é tranquilizar e tratar sintoma, se incomodar, com betabloqueador.",
+  "base": "ESC 2022, arritmias ventriculares: extrassistolia em coração estruturalmente normal",
+  "coment": "Extrassístoles monomórficas com morfologia de bloqueio de ramo esquerdo e eixo inferior sugerem origem em via de saída de ventrículo direito, de bom prognóstico em coração estruturalmente normal. Com carga baixa, bem abaixo dos 10% a 15% associados a miocardiopatia induzida, a conduta é tranquilizar e tratar sintoma, se incomodar, com betabloqueador.",
   "porAlt": [
    "Correta: origem benigna, carga baixa e coração normal.",
    "A ablação entra na carga alta, refratariedade ou disfunção induzida.",
@@ -8917,7 +8917,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "ACC/AHA 2025 e ESC — metas lipídicas em prevenção secundária",
+  "base": "ACC/AHA 2025 e ESC. Metas lipídicas em prevenção secundária",
   "coment": "A meta pós-síndrome coronariana aguda é LDL abaixo de 55 mg/dL, com redução de pelo menos 50% do basal. Com 88 mg/dL sob estatina de alta potência na dose máxima, o passo seguinte é associar ezetimiba, e se ainda não atingir, inibidor de PCSK9. Em paciente de altíssimo risco há quem defenda meta ainda mais baixa.",
   "porAlt": [
    "Correta: meta abaixo de 55 mg/dL, com ezetimiba como próximo passo.",
@@ -8941,7 +8941,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ATLS 11ª edição, 2018 — resposta à volemia e controle de danos",
+  "base": "ATLS 11ª edição, 2018. Resposta à volemia e controle de danos",
   "coment": "Resposta transitória à volemia com FAST positivo indica sangramento intra-abdominal ativo. A conduta é controle cirúrgico imediato, com acionamento do protocolo de transfusão maciça e reanimação com hemocomponentes em proporção equilibrada, limitando o cristaloide para não agravar a coagulopatia dilucional.",
   "porAlt": [
    "Correta: sangramento ativo com resposta transitória vai ao centro cirúrgico.",
@@ -8965,7 +8965,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "WAO 2020 — anafilaxia: adrenalina intramuscular como primeira linha",
+  "base": "WAO 2020, anafilaxia: adrenalina intramuscular como primeira linha",
   "coment": "Anafilaxia com comprometimento respiratório e hipotensão tem tratamento único de primeira linha: adrenalina intramuscular no vasto lateral da coxa, 0,01 mg/kg até 0,5 mg, repetível a cada 5 a 15 minutos. Decúbito com elevação de membros inferiores, oxigênio e volume completam o atendimento. O edema de língua com estridor exige preparo para via aérea difícil.",
   "porAlt": [
    "Correta: primeira linha, sem substituto.",
@@ -8989,7 +8989,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Manual de Toxicologia Clínica COVISA 2017 — hipoglicemia por sulfonilureia e octreotide",
+  "base": "Manual de Toxicologia Clínica COVISA 2017. Hipoglicemia por sulfonilureia e octreotide",
   "coment": "A hipoglicemia por sulfonilureia é prolongada e recorrente, especialmente com meia-vida alargada pela doença renal. Esses pacientes exigem internação e observação por pelo menos 24 a 48 horas, com infusão contínua de glicose. O octreotide inibe a liberação pancreática de insulina e é o tratamento indicado na hipoglicemia refratária por sulfonilureia.",
   "porAlt": [
    "Correta: internar, manter glicose e usar octreotide na recorrência.",
@@ -9013,8 +9013,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Distúrbios ácido-base — alcalose metabólica responsiva ao cloro (revisão UpToDate 2025)",
-  "coment": "A perda de suco gástrico leva embora hidrogênio, cloro e potássio, produzindo alcalose metabólica hipoclorêmica e hipocalêmica, com contração de volume que perpetua o distúrbio. O tratamento é reposição de volume com salina isotônica e potássio — é a chamada alcalose responsiva ao cloro, corrigida ao restaurar volume e cloreto.",
+  "base": "Distúrbios ácido-base, alcalose metabólica responsiva ao cloro (revisão UpToDate 2025)",
+  "coment": "A perda de suco gástrico leva embora hidrogênio, cloro e potássio, produzindo alcalose metabólica hipoclorêmica e hipocalêmica, com contração de volume que perpetua o distúrbio. O tratamento é reposição de volume com salina isotônica e potássio. É a chamada alcalose responsiva ao cloro, corrigida ao restaurar volume e cloreto.",
   "porAlt": [
    "Correta: bicarbonato alto com cloro e potássio baixos, corrigidos com salina e potássio.",
    "O bicarbonato está elevado: não há acidose metabólica.",
@@ -9024,7 +9024,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 70 anos, hipertenso e com fibrilação atrial sem anticoagulação, chega com dor abdominal difusa de início súbito há seis horas, de forte intensidade e contínua, com dois episódios de vômito. Ao exame, o abdome é flácido e pouco doloroso à palpação, sem defesa, com ruídos hidroaéreos diminuídos — desproporcional à dor referida. Está com pressão de 122/74 mmHg, frequência de 112 bpm irregular, lactato de 5,0 mmol/L, leucócitos de 21.000/mm³ e acidose metabólica. Qual é a hipótese e a conduta?",
+  "q": "Homem de 70 anos, hipertenso e com fibrilação atrial sem anticoagulação, chega com dor abdominal difusa de início súbito há seis horas, de forte intensidade e contínua, com dois episódios de vômito. Ao exame, o abdome é flácido e pouco doloroso à palpação, sem defesa, com ruídos hidroaéreos diminuídos, desproporcional à dor referida. Está com pressão de 122/74 mmHg, frequência de 112 bpm irregular, lactato de 5,0 mmol/L, leucócitos de 21.000/mm³ e acidose metabólica. Qual é a hipótese e a conduta?",
   "alts": [
    "Isquemia mesentérica: angiotomografia imediata",
    "Obstrução intestinal: sonda e radiografia seriada",
@@ -9037,8 +9037,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "tit",
-  "base": "AGA 2000 e ESTES 2016 — isquemia mesentérica aguda",
-  "coment": "Dor desproporcional ao exame físico, em idoso com fibrilação atrial não anticoagulada, com lactato elevado e acidose, é isquemia mesentérica aguda até prova em contrário — provavelmente embólica, por oclusão da artéria mesentérica superior. A angiotomografia com fases arterial e venosa deve ser feita imediatamente: o prognóstico depende do tempo até a revascularização.",
+  "base": "AGA 2000 e ESTES 2016. Isquemia mesentérica aguda",
+  "coment": "Dor desproporcional ao exame físico, em idoso com fibrilação atrial não anticoagulada, com lactato elevado e acidose, é isquemia mesentérica aguda até prova em contrário, provavelmente embólica, por oclusão da artéria mesentérica superior. A angiotomografia com fases arterial e venosa deve ser feita imediatamente: o prognóstico depende do tempo até a revascularização.",
   "porAlt": [
    "Correta: o desproporcional é a assinatura da isquemia mesentérica.",
    "A obstrução cursa com distensão, parada de eliminação e ruídos aumentados.",
@@ -9061,8 +9061,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "SBD 2026 e ADA — potássio no tratamento da cetoacidose diabética",
-  "coment": "A insulina desloca potássio para o intracelular e a cetoacidose já cursa com déficit corporal total, mesmo quando o valor inicial parece normal. Com potássio abaixo de 3,3 mEq/L a insulina deve ser SUSPENSA até a reposição corrigir o valor — manter a infusão nesse patamar arrisca arritmia fatal e fraqueza da musculatura respiratória.",
+  "base": "SBD 2026 e ADA. Potássio no tratamento da cetoacidose diabética",
+  "coment": "A insulina desloca potássio para o intracelular e a cetoacidose já cursa com déficit corporal total, mesmo quando o valor inicial parece normal. Com potássio abaixo de 3,3 mEq/L a insulina deve ser SUSPENSA até a reposição corrigir o valor. Manter a infusão nesse patamar arrisca arritmia fatal e fraqueza da musculatura respiratória.",
   "porAlt": [
    "Correta: abaixo de 3,3 mEq/L, suspender a insulina e repor primeiro.",
    "Manter a insulina com potássio de 2,9 mEq/L é o erro que mata.",
@@ -9085,8 +9085,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Manual de Toxicologia Clínica COVISA 2017 — síndrome opioide",
-  "coment": "A tríade de rebaixamento, miose puntiforme e bradipneia define a síndrome opioide. A prioridade é ventilar — a morte vem da hipoventilação — e administrar naloxona titulada até restaurar a ventilação adequada, não a consciência plena. Com a resposta ao antídoto, a intubação frequentemente se torna desnecessária.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 (síndrome opioide",
+  "coment": "A tríade de rebaixamento, miose puntiforme e bradipneia define a síndrome opioide. A prioridade é ventilar) a morte vem da hipoventilação, e administrar naloxona titulada até restaurar a ventilação adequada, não a consciência plena. Com a resposta ao antídoto, a intubação frequentemente se torna desnecessária.",
   "porAlt": [
    "Correta: ventilar e reverter, nessa ordem.",
    "A intubação costuma ser evitável com o antídoto.",
@@ -9109,8 +9109,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r1",
-  "base": "BTS 2009 e IDSA/ATS 2019 — pneumonia comunitária: CURB-65",
-  "coment": "O CURB-65 soma confusão, ureia acima de 50 mg/dL, frequência respiratória igual ou maior que 30 irpm, pressão sistólica abaixo de 90 mmHg ou diastólica igual ou menor que 60 mmHg, e idade igual ou maior que 65 anos. Aqui há confusão, ureia de 68, frequência de 32 e idade de 68 — quatro pontos, com mortalidade alta e indicação de internação com avaliação para terapia intensiva.",
+  "base": "BTS 2009 e IDSA/ATS 2019, pneumonia comunitária: CURB-65",
+  "coment": "O CURB-65 soma confusão, ureia acima de 50 mg/dL, frequência respiratória igual ou maior que 30 irpm, pressão sistólica abaixo de 90 mmHg ou diastólica igual ou menor que 60 mmHg, e idade igual ou maior que 65 anos. Aqui há confusão, ureia de 68, frequência de 32 e idade de 68. Quatro pontos, com mortalidade alta e indicação de internação com avaliação para terapia intensiva.",
   "porAlt": [
    "Correta: quatro critérios preenchidos, com indicação de cuidado intensivo.",
    "Um ponto não corresponde aos critérios presentes.",
@@ -9133,8 +9133,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2018 — fórmula de Parkland",
-  "coment": "A fórmula de Parkland prevê 4 mL por quilo por porcentagem de superfície queimada nas primeiras 24 horas: 4 × 80 × 30 = 9.600 mL de Ringer lactato. Metade é infundida nas primeiras 8 horas contadas do momento da queimadura — não da chegada —, e o restante nas 16 horas seguintes, com ajuste pela diurese de 0,5 a 1 mL/kg/h.",
+  "base": "ATLS 11ª edição, 2018. Fórmula de Parkland",
+  "coment": "A fórmula de Parkland prevê 4 mL por quilo por porcentagem de superfície queimada nas primeiras 24 horas: 4 × 80 × 30 = 9.600 mL de Ringer lactato. Metade é infundida nas primeiras 8 horas contadas do momento da queimadura, não da chegada, e o restante nas 16 horas seguintes, com ajuste pela diurese de 0,5 a 1 mL/kg/h.",
   "porAlt": [
    "Correta: cálculo e distribuição corretos, com contagem desde a lesão.",
    "O volume está subestimado e a distribuição, errada.",
@@ -9157,8 +9157,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Epilepsy Society 2016 — estado de mal epiléptico",
-  "coment": "Crise com mais de cinco minutos de duração define estado de mal epiléptico e exige tratamento imediato. A primeira linha é benzodiazepínico em dose adequada — diazepam ou midazolam intravenoso —, e a subdose é o erro mais comum. A segunda linha, com fenitoína, fosfenitoína, valproato ou levetiracetam, vem depois da falha do benzodiazepínico.",
+  "base": "American Epilepsy Society 2016. Estado de mal epiléptico",
+  "coment": "Crise com mais de cinco minutos de duração define estado de mal epiléptico e exige tratamento imediato. A primeira linha é benzodiazepínico em dose adequada, diazepam ou midazolam intravenoso, e a subdose é o erro mais comum. A segunda linha, com fenitoína, fosfenitoína, valproato ou levetiracetam, vem depois da falha do benzodiazepínico.",
   "porAlt": [
    "Correta: benzodiazepínico em dose adequada é a primeira linha.",
    "A fenitoína é segunda linha, após o benzodiazepínico.",
@@ -9181,7 +9181,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019, atualizado",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019, atualizado",
   "coment": "Tosse por três semanas ou mais, febre vespertina, sudorese noturna, perda de peso e imagem com cavitação apical caracterizam suspeita de tuberculose pulmonar. O exame inicial recomendado no Brasil é o teste rápido molecular no escarro, que detecta o complexo Mycobacterium tuberculosis e a resistência à rifampicina em cerca de duas horas. Devem ser solicitadas também cultura e teste de sensibilidade. A sorologia não é recomendada para diagnóstico e a biópsia cirúrgica é reservada a casos em que os métodos habituais falharam.",
   "porAlt": [
    "Tratar como pneumonia bacteriana atrasa o diagnóstico e mantém a transmissão na comunidade.",
@@ -9205,7 +9205,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas para Infecções Sexualmente Transmissíveis, 2022",
+  "base": "Ministério da Saúde, Protocolo Clínico e Diretrizes Terapêuticas para Infecções Sexualmente Transmissíveis, 2022",
   "coment": "A úlcera genital indolor, única, de bordas endurecidas e fundo limpo, com adenopatia regional indolor, é o cancro duro da sífilis primária. O tratamento é penicilina benzatina de 2,4 milhões de unidades em dose única por via intramuscular. Herpes cursa com vesículas agrupadas e úlceras dolorosas; cancro mole com úlceras múltiplas, dolorosas e de fundo sujo; linfogranuloma com adenopatia dolorosa e fistulizante. Testagem para HIV, hepatites e o tratamento das parcerias completam a conduta.",
   "porAlt": [
    "O herpes genital cursa com vesículas agrupadas e úlceras dolorosas, não com lesão única e indolor.",
@@ -9229,7 +9229,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Infectious Diseases Society of America, 2023 — diagnosis and treatment of diabetic foot infections",
+  "base": "Infectious Diseases Society of America, 2023, diagnosis and treatment of diabetic foot infections",
   "coment": "O teste do toque ósseo positivo em úlcera de pé diabético tem alta probabilidade de osteomielite e muda a conduta: exige cultura profunda ou óssea, evitando o swab superficial que só revela colonização, antimicrobiano guiado pelo agente e avaliação cirúrgica para desbridamento. A radiografia é pouco sensível nas primeiras semanas e um exame normal não afasta o diagnóstico, sendo a ressonância o exame de maior acurácia. Amputação não é conduta automática: muitos casos respondem a desbridamento com antimicrobiano prolongado.",
   "porAlt": [
    "Antibiótico oral curto sem cultura subtrata uma infecção profunda e favorece a seleção de resistência.",
@@ -9253,7 +9253,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais, 2022",
+  "base": "Ministério da Saúde, Protocolo Clínico e Diretrizes Terapêuticas para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais, 2022",
   "coment": "Na gestação, o único tratamento que trata adequadamente o feto é a penicilina benzatina, e gestante com sífilis de duração indeterminada ou latente tardia recebe três doses de 2,4 milhões de unidades com intervalo semanal. Doxiciclina é contraindicada na gestação e a azitromicina não é aceita pelo risco de resistência e por não tratar o feto. Gestante alérgica deve ser dessensibilizada, e não substituída por outra droga. O seguimento é sorológico mensal e o tratamento das parcerias é parte da conduta.",
   "porAlt": [
    "A doxiciclina é contraindicada na gestação por efeitos sobre ossos e dentes fetais.",
@@ -9277,8 +9277,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de leptospirose",
-  "coment": "A síndrome de Weil reúne icterícia rubínica, injúria renal aguda e fenômenos hemorrágicos, e a sufusão conjuntival é um achado bastante sugestivo de leptospirose. O contexto epidemiológico de contato com água de enchente ou esgoto reforça o diagnóstico. O tratamento é antimicrobiano — penicilina ou ceftriaxona nos casos graves, doxiciclina nos leves — associado a suporte, com atenção especial à injúria renal, que costuma ser não oligúrica e hipocalêmica, e à hemorragia pulmonar, principal causa de morte.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, 2024, capítulo de leptospirose",
+  "coment": "A síndrome de Weil reúne icterícia rubínica, injúria renal aguda e fenômenos hemorrágicos, e a sufusão conjuntival é um achado bastante sugestivo de leptospirose. O contexto epidemiológico de contato com água de enchente ou esgoto reforça o diagnóstico. O tratamento é antimicrobiano (penicilina ou ceftriaxona nos casos graves, doxiciclina nos leves) associado a suporte, com atenção especial à injúria renal, que costuma ser não oligúrica e hipocalêmica, e à hemorragia pulmonar, principal causa de morte.",
   "porAlt": [
    "Correta: icterícia rubínica, injúria renal e sufusão conjuntival com exposição a enchente definem leptospirose grave.",
    "A hepatite A cursa com icterícia, mas não com sufusão conjuntival nem com injúria renal desse padrão.",
@@ -9301,8 +9301,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Infectious Diseases Society of America e SHEA, 2021 — clinical practice guidelines for Clostridioides difficile infection",
-  "coment": "Diarreia que surge durante ou após antimicrobiano, em paciente internado, com dor abdominal e leucocitose, deve levantar a suspeita de infecção por Clostridioides difficile. O diagnóstico se faz por pesquisa de toxina associada a antígeno ou por teste molecular nas fezes, sempre em amostra diarreica — testar fezes formadas detecta colonização e leva a tratamento desnecessário. O tratamento de primeira linha passou a ser fidaxomicina ou vancomicina por via oral; o metronidazol ficou como alternativa quando as outras não estão disponíveis.",
+  "base": "Infectious Diseases Society of America e SHEA, 2021, clinical practice guidelines for Clostridioides difficile infection",
+  "coment": "Diarreia que surge durante ou após antimicrobiano, em paciente internado, com dor abdominal e leucocitose, deve levantar a suspeita de infecção por Clostridioides difficile. O diagnóstico se faz por pesquisa de toxina associada a antígeno ou por teste molecular nas fezes, sempre em amostra diarreica. Testar fezes formadas detecta colonização e leva a tratamento desnecessário. O tratamento de primeira linha passou a ser fidaxomicina ou vancomicina por via oral; o metronidazol ficou como alternativa quando as outras não estão disponíveis.",
   "porAlt": [
    "A gastroenterite viral não explica leucocitose acentuada nem a associação temporal com o antimicrobiano.",
    "A colite isquêmica cursa com dor desproporcional e sangramento, em perfil de paciente diferente.",
@@ -9325,7 +9325,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Infectious Diseases Society of America — guidelines for the treatment of methicillin-resistant Staphylococcus aureus infections, 2011, atualizadas",
+  "base": "Infectious Diseases Society of America, guidelines for the treatment of methicillin-resistant Staphylococcus aureus infections, 2011, atualizadas",
   "coment": "A resistência à oxacilina define o Staphylococcus aureus resistente à meticilina, contra o qual todos os betalactâmicos tradicionais são ineficazes, incluindo oxacilina e cefalosporinas de primeira a terceira geração. A escolha é vancomicina endovenosa com monitorização de nível sérico e de função renal, tendo daptomicina e linezolida como alternativas conforme o sítio. Bacteriemia por Staphylococcus aureus exige ainda busca de foco endovascular, ecocardiograma, retirada de cateteres e hemoculturas de controle.",
   "porAlt": [
    "A resistência à oxacilina implica ineficácia de todos os betalactâmicos tradicionais contra a cepa.",
@@ -9349,7 +9349,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Infectious Diseases Society of America, 2011, atualizada; Harrison's, 22ª edição, 2025 — pielonefrite aguda",
+  "base": "Infectious Diseases Society of America, 2011, atualizada; Harrison's, 22ª edição, 2025. Pielonefrite aguda",
   "coment": "Febre, calafrios, dor lombar e sintomas urinários caracterizam pielonefrite aguda, que difere da cistite por ser infecção de trato urinário alto e exigir urocultura antes do antimicrobiano. A escolha da via depende da gravidade, da tolerância oral e das comorbidades: pacientes estáveis e capazes de tomar medicação podem ser tratados em casa com quinolona ou cefalosporina, com reavaliação precoce. A nitrofurantoína é inadequada porque não atinge concentração tecidual renal suficiente, servindo apenas para cistite.",
   "porAlt": [
    "A nitrofurantoína não atinge concentração renal adequada e é inadequada para infecção do trato alto.",
@@ -9373,7 +9373,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — infecção fulminante pós-esplenectomia",
+  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025, infecção fulminante pós-esplenectomia",
   "coment": "O paciente esplenectomizado tem risco muito elevado de sepse fulminante por germes encapsulados, sobretudo pneumococo, Haemophilus influenzae e meningococo, com evolução para choque em poucas horas. A conduta é antimicrobiano de amplo espectro imediato, na primeira hora, junto de ressuscitação volêmica e coleta de culturas sem atrasar a droga. A prevenção é vacinação contra esses germes, revacinação conforme calendário e orientação de procurar atendimento imediato diante de febre, com esquema antimicrobiano de emergência disponível.",
   "porAlt": [
    "Correta: o esplenectomizado tem risco de sepse fulminante por encapsulado e exige antimicrobiano na primeira hora.",
@@ -9397,7 +9397,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Calendário Nacional de Vacinação e Guia de Vigilância em Saúde, 2024",
+  "base": "Ministério da Saúde, Calendário Nacional de Vacinação e Guia de Vigilância em Saúde, 2024",
   "coment": "A vacina de febre amarela deve ser aplicada com pelo menos dez dias de antecedência da viagem para área com recomendação de vacinação, prazo necessário para o desenvolvimento de imunidade protetora. A vacina é de vírus vivo atenuado, com contraindicações específicas: imunossupressão grave, alergia a ovo com anafilaxia, gestantes e lactantes de crianças com menos de seis meses, situações em que se avalia risco e benefício. Uma dose confere proteção duradoura para a maioria das pessoas.",
   "porAlt": [
    "A imunidade não se estabelece em vinte e quatro horas: leva cerca de dez dias para ser protetora.",
@@ -9421,7 +9421,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "GINA 2026 — Global Strategy for Asthma Management and Prevention",
+  "base": "GINA 2026, Global Strategy for Asthma Management and Prevention",
   "coment": "A estratégia atual eliminou o tratamento apenas com broncodilatador de curta ação: todo adulto e adolescente com asma deve receber tratamento contendo corticoide inalatório, seja como manutenção diária, seja no esquema de anti-inflamatório de resgate com corticoide combinado a formoterol. O uso isolado de salbutamol aumenta exacerbações graves e mortalidade. A paciente descrita tem asma não controlada, com sintomas frequentes e despertares noturnos, o que reforça a introdução do corticoide inalatório.",
   "porAlt": [
    "Manter só o salbutamol aumenta exacerbação grave e mortalidade, mesmo com sintomas aparentemente leves.",
@@ -9445,7 +9445,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ATS/ERS/JRS/ALAT, 2022 — Idiopathic Pulmonary Fibrosis, diagnóstico e tratamento",
+  "base": "ATS/ERS/JRS/ALAT, 2022, Idiopathic Pulmonary Fibrosis, diagnóstico e tratamento",
   "coment": "Faveolamento subpleural de predomínio basal com bronquiectasias de tração define o padrão de pneumonia intersticial usual, característico da fibrose pulmonar idiopática quando afastadas causas secundárias. O diagnóstico em padrão típico dispensa biópsia. O tratamento inclui antifibróticos, que reduzem a queda da função pulmonar, reabilitação pulmonar, oxigenoterapia quando indicada, tratamento de refluxo e avaliação precoce para transplante. Corticoide isolado não beneficia e pode piorar o desfecho nessa doença.",
   "porAlt": [
    "Vidro fosco difuso sugere outras pneumopatias intersticiais, com abordagem e prognóstico distintos.",
@@ -9469,7 +9469,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American College of Chest Physicians, 2018, e Harrison's, 22ª edição, 2025 — tosse crônica",
+  "base": "American College of Chest Physicians, 2018, e Harrison's, 22ª edição, 2025, tosse crônica",
   "coment": "Na tosse crônica com radiografia normal, em não tabagista sem inibidor da enzima conversora, três causas respondem pela grande maioria dos casos: síndrome de tosse de vias aéreas superiores, antes chamada de gotejamento pós-nasal, asma na forma de tosse variante e doença do refluxo gastroesofágico. Podem coexistir. A abordagem é sequencial, com tratamento empírico dirigido a cada hipótese e reavaliação. A investigação ampla de saída raramente é necessária quando radiografia e espirometria são normais.",
   "porAlt": [
    "Essas hipóteses costumam alterar a radiografia e ganham peso diante de fatores de risco ausentes aqui.",
@@ -9493,7 +9493,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American Thoracic Society, 2023, e Harrison's, 22ª edição, 2025 — critérios de Light no derrame pleural",
+  "base": "American Thoracic Society, 2023, e Harrison's, 22ª edição, 2025, critérios de Light no derrame pleural",
   "coment": "Os critérios de Light definem exsudato quando pelo menos um está presente: relação de proteína no líquido sobre proteína sérica acima de 0,5, relação de desidrogenase láctica no líquido sobre a sérica acima de 0,6, ou desidrogenase láctica no líquido acima de dois terços do limite superior sérico. O paciente preenche dois. Exsudato exige investigação etiológica: citologia oncótica, citometria, bacterioscopia e culturas, adenosina deaminase quando há suspeita de tuberculose, glicose e pH quando se cogita derrame parapneumônico complicado.",
   "porAlt": [
    "O transudato exige que nenhum critério de Light esteja presente, o que não ocorre neste caso.",
@@ -9517,8 +9517,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "British Thoracic Society, 2023 — pleural disease guideline, manejo do pneumotórax espontâneo",
-  "coment": "O quadro sugere pneumotórax espontâneo primário, típico de jovens altos e magros. Sem sinais de hipertensão — desvio de traqueia, instabilidade, turgência jugular —, há tempo de confirmar por imagem e então decidir: pneumotórax pequeno em paciente pouco sintomático pode ser observado com oxigênio, enquanto os maiores ou sintomáticos recebem aspiração ou drenagem. A punção de alívio imediata sem imagem é reservada ao pneumotórax hipertensivo, em que a descompressão não pode esperar exame algum.",
+  "base": "British Thoracic Society, 2023. Pleural disease guideline, manejo do pneumotórax espontâneo",
+  "coment": "O quadro sugere pneumotórax espontâneo primário, típico de jovens altos e magros. Sem sinais de hipertensão (desvio de traqueia, instabilidade, turgência jugular), há tempo de confirmar por imagem e então decidir: pneumotórax pequeno em paciente pouco sintomático pode ser observado com oxigênio, enquanto os maiores ou sintomáticos recebem aspiração ou drenagem. A punção de alívio imediata sem imagem é reservada ao pneumotórax hipertensivo, em que a descompressão não pode esperar exame algum.",
   "porAlt": [
    "A punção imediata sem imagem se reserva ao pneumotórax hipertensivo, com instabilidade e desvio de traqueia.",
    "A tomografia com contraste não é necessária e aguardar sem conduta atrasa o tratamento indicado.",
@@ -9541,8 +9541,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "GOLD 2026 — Global Strategy for Diagnosis, Management and Prevention of COPD, oxigenoterapia domiciliar",
-  "coment": "Na DPOC, três intervenções alteram sobrevida: cessação do tabagismo, oxigenoterapia domiciliar prolongada em pacientes com hipoxemia grave e crônica, e cirurgia de redução de volume pulmonar em subgrupos selecionados. O critério clássico para o oxigênio é pressão parcial de oxigênio igual ou menor que 55 mmHg, ou saturação igual ou menor que 88%, em condições estáveis e medidas repetidas — ou valores um pouco mais altos na presença de cor pulmonale ou policitemia. A prescrição deve prever pelo menos quinze horas diárias.",
+  "base": "GOLD 2026, Global Strategy for Diagnosis, Management and Prevention of COPD, oxigenoterapia domiciliar",
+  "coment": "Na DPOC, três intervenções alteram sobrevida: cessação do tabagismo, oxigenoterapia domiciliar prolongada em pacientes com hipoxemia grave e crônica, e cirurgia de redução de volume pulmonar em subgrupos selecionados. O critério clássico para o oxigênio é pressão parcial de oxigênio igual ou menor que 55 mmHg, ou saturação igual ou menor que 88%, em condições estáveis e medidas repetidas, ou valores um pouco mais altos na presença de cor pulmonale ou policitemia. A prescrição deve prever pelo menos quinze horas diárias.",
   "porAlt": [
    "O corticoide oral contínuo não prolonga sobrevida na DPOC e acumula efeitos adversos importantes.",
    "Correta: hipoxemia crônica grave indica oxigenoterapia domiciliar por pelo menos quinze horas por dia.",
@@ -9565,8 +9565,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ESC/ERS 2022 — Guidelines for the diagnosis and treatment of pulmonary hypertension",
-  "coment": "O ecocardiograma é o exame de rastreio da hipertensão pulmonar, mas o diagnóstico definitivo exige cateterismo cardíaco direito, que mede a pressão média de artéria pulmonar, a pressão de oclusão e a resistência vascular pulmonar — separando os grupos pré e pós-capilares, que têm tratamentos completamente distintos. Tratar com vasodilatador pulmonar um paciente do grupo de doença cardíaca esquerda pode causar edema pulmonar. A investigação inclui ainda cintilografia de ventilação-perfusão para afastar doença tromboembólica crônica.",
+  "base": "ESC/ERS 2022, Guidelines for the diagnosis and treatment of pulmonary hypertension",
+  "coment": "O ecocardiograma é o exame de rastreio da hipertensão pulmonar, mas o diagnóstico definitivo exige cateterismo cardíaco direito, que mede a pressão média de artéria pulmonar, a pressão de oclusão e a resistência vascular pulmonar. Separando os grupos pré e pós-capilares, que têm tratamentos completamente distintos. Tratar com vasodilatador pulmonar um paciente do grupo de doença cardíaca esquerda pode causar edema pulmonar. A investigação inclui ainda cintilografia de ventilação-perfusão para afastar doença tromboembólica crônica.",
   "porAlt": [
    "Tratar apenas pelo ecocardiograma arrisca dar vasodilatador a quem tem doença cardíaca esquerda.",
    "Correta: o cateterismo cardíaco direito confirma o diagnóstico e define o padrão hemodinâmico da doença.",
@@ -9589,8 +9589,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Fleischner Society, 2017, e American College of Chest Physicians, 2013, atualizados — nódulo pulmonar solitário",
-  "coment": "A conduta no nódulo pulmonar solitário depende do risco de malignidade, estimado por idade, tabagismo, tamanho, localização em lobo superior e características das bordas — espiculação aumenta bastante a probabilidade. Nódulo de 12 mm com bordas espiculadas em tabagista de 60 anos em lobo superior é de risco intermediário a alto, e a conduta é investigação ativa com tomografia por emissão de pósitrons ou biópsia, conforme acessibilidade e localização. Seguimento apenas com imagem é para nódulos de baixo risco.",
+  "base": "Fleischner Society, 2017, e American College of Chest Physicians, 2013, atualizados. Nódulo pulmonar solitário",
+  "coment": "A conduta no nódulo pulmonar solitário depende do risco de malignidade, estimado por idade, tabagismo, tamanho, localização em lobo superior e características das bordas, espiculação aumenta bastante a probabilidade. Nódulo de 12 mm com bordas espiculadas em tabagista de 60 anos em lobo superior é de risco intermediário a alto, e a conduta é investigação ativa com tomografia por emissão de pósitrons ou biópsia, conforme acessibilidade e localização. Seguimento apenas com imagem é para nódulos de baixo risco.",
   "porAlt": [
    "Cinco anos de intervalo é prazo de nódulo de baixíssimo risco e permitiria a progressão de um câncer.",
    "Antibiótico empírico atrasa o diagnóstico e o padrão descrito não sugere etiologia infecciosa.",
@@ -9613,7 +9613,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ATS/ERS/WASOG, 2020 — Diagnosis and Detection of Sarcoidosis; Harrison's, 22ª edição, 2025",
+  "base": "ATS/ERS/WASOG, 2020: Diagnosis and Detection of Sarcoidosis; Harrison's, 22ª edição, 2025",
   "coment": "Adenomegalia hilar bilateral simétrica com eritema nodoso e granulomas não caseosos caracteriza sarcoidose, e a associação com febre e artrite compõe a síndrome de Löfgren, de bom prognóstico e frequentemente autolimitada. Muitos pacientes com doença em estágio inicial e assintomáticos são apenas observados, com corticoide reservado a acometimento pulmonar significativo, cardíaco, neurológico, ocular, hipercalcemia ou sintomas limitantes. Granuloma caseoso apontaria tuberculose, e a exclusão de micobactérias e fungos é obrigatória.",
   "porAlt": [
    "Correta: o quadro é sarcoidose, com observação em muitos casos e corticoide conforme o acometimento.",
@@ -9637,7 +9637,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Academy of Sleep Medicine, 2019 — treatment of adult obstructive sleep apnea with positive airway pressure",
+  "base": "American Academy of Sleep Medicine, 2019, treatment of adult obstructive sleep apnea with positive airway pressure",
   "coment": "A pressão positiva contínua em via aérea é o tratamento de primeira linha da apneia obstrutiva do sono moderada a grave, com melhora da sonolência, da qualidade de vida, do controle pressórico e da segurança ao dirigir. Associam-se sempre medidas comportamentais: redução de peso, evitar álcool e sedativos à noite, terapia posicional quando aplicável. Dispositivos intraorais são alternativa em casos leves a moderados ou em intolerantes. O oxigênio isolado não corrige a obstrução e os sedativos agravam os eventos.",
   "porAlt": [
    "A modafinila trata sonolência residual em quem já usa pressão positiva, e não substitui o tratamento.",
@@ -9661,7 +9661,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "American College of Gastroenterology, 2024 — treatment of Helicobacter pylori infection",
+  "base": "American College of Gastroenterology, 2024. Treatment of Helicobacter pylori infection",
   "coment": "Úlcera péptica com Helicobacter pylori positivo tem indicação formal de erradicação, que cura a doença e reduz drasticamente a recorrência e o risco de complicação. O esquema mais usado no Brasil associa inibidor de bomba a dois antimicrobianos por catorze dias. A confirmação da erradicação é obrigatória, feita por teste respiratório ou antígeno fecal, pelo menos quatro semanas após o antimicrobiano e duas semanas após suspender o inibidor de bomba.",
   "porAlt": [
    "O inibidor isolado cicatriza a úlcera mas mantém a bactéria, com recorrência alta em poucos meses.",
@@ -9685,8 +9685,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Critérios de Roma IV, 2016, e American College of Gastroenterology, 2021 — manejo da síndrome do intestino irritável",
-  "coment": "Os critérios de Roma IV definem a síndrome do intestino irritável por dor abdominal recorrente, ao menos um dia por semana nos últimos três meses, relacionada à evacuação ou associada a mudança na frequência ou na forma das fezes. A ausência de sinais de alarme — perda de peso, sangramento, anemia, febre, início após os 50 anos, história familiar de neoplasia ou doença inflamatória — sustenta o diagnóstico clínico sem investigação extensa. O manejo combina orientação dietética, incluindo dieta com baixo teor de oligossacarídeos fermentáveis, e tratamento sintomático.",
+  "base": "Critérios de Roma IV, 2016, e American College of Gastroenterology, 2021, manejo da síndrome do intestino irritável",
+  "coment": "Os critérios de Roma IV definem a síndrome do intestino irritável por dor abdominal recorrente, ao menos um dia por semana nos últimos três meses, relacionada à evacuação ou associada a mudança na frequência ou na forma das fezes. A ausência de sinais de alarme (perda de peso, sangramento, anemia, febre, início após os 50 anos, história familiar de neoplasia ou doença inflamatória) sustenta o diagnóstico clínico sem investigação extensa. O manejo combina orientação dietética, incluindo dieta com baixo teor de oligossacarídeos fermentáveis, e tratamento sintomático.",
   "porAlt": [
    "A doença de Crohn cursa com sinais de alarme, que estão explicitamente ausentes nesta paciente.",
    "A doença celíaca exige sorologia e biópsia duodenal, não se define pelo padrão do hábito intestinal.",
@@ -9709,7 +9709,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "American College of Gastroenterology, 2022 — dysphagia evaluation; Harrison's, 22ª edição, 2025",
+  "base": "American College of Gastroenterology, 2022, dysphagia evaluation; Harrison's, 22ª edição, 2025",
   "coment": "Disfagia progressiva de sólidos para líquidos, com perda ponderal, em homem tabagista e etilista de 60 anos, é neoplasia esofágica até prova em contrário. O exame inicial é a endoscopia digestiva alta com biópsias, que visualiza, caracteriza e coleta material da lesão em um único procedimento. Manometria investiga distúrbios motores, como acalasia, que cursam com disfagia para sólidos e líquidos desde o início. Teste terapêutico é inadequado diante de sinal de alarme.",
   "porAlt": [
    "A manometria investiga distúrbio motor, que tem padrão de disfagia distinto do descrito no caso.",
@@ -9733,8 +9733,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — icterícia obstrutiva e sinal de Courvoisier",
-  "coment": "O sinal de Courvoisier — vesícula palpável e indolor em paciente ictérico — sugere obstrução maligna da via biliar distal, tipicamente neoplasia de cabeça de pâncreas ou periampular, porque a obstrução se instala de forma progressiva e a vesícula se distende sem inflamação prévia. Na coledocolitíase, a vesícula costuma estar fibrosada por colecistite crônica e há dor. A investigação segue com tomografia ou ressonância com colangiografia e avaliação de ressecabilidade.",
+  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 (icterícia obstrutiva e sinal de Courvoisier",
+  "coment": "O sinal de Courvoisier) vesícula palpável e indolor em paciente ictérico. Sugere obstrução maligna da via biliar distal, tipicamente neoplasia de cabeça de pâncreas ou periampular, porque a obstrução se instala de forma progressiva e a vesícula se distende sem inflamação prévia. Na coledocolitíase, a vesícula costuma estar fibrosada por colecistite crônica e há dor. A investigação segue com tomografia ou ressonância com colangiografia e avaliação de ressecabilidade.",
   "porAlt": [
    "Na coledocolitíase há dor e a vesícula costuma estar fibrosada, não distendida e indolor.",
    "A hepatite viral cursa com icterícia hepatocelular, sem vesícula palpável nem acolia persistente.",
@@ -9757,8 +9757,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "American College of Gastroenterology, 2018, e ECCO, 2020 — manejo da doença de Crohn",
-  "coment": "Corticoide não é terapia de manutenção na doença de Crohn: serve para induzir remissão e deve ser desmamado. Necessidade de dois ou mais ciclos por ano caracteriza dependência e indica introduzir terapia de manutenção poupadora — tiopurina, metotrexato ou biológico, conforme o perfil de risco. O corticoide crônico acumula osteoporose, diabetes, catarata, infecção e não previne recidiva. A cirurgia não cura a doença, que recidiva na anastomose.",
+  "base": "American College of Gastroenterology, 2018, e ECCO, 2020. Manejo da doença de Crohn",
+  "coment": "Corticoide não é terapia de manutenção na doença de Crohn: serve para induzir remissão e deve ser desmamado. Necessidade de dois ou mais ciclos por ano caracteriza dependência e indica introduzir terapia de manutenção poupadora. Tiopurina, metotrexato ou biológico, conforme o perfil de risco. O corticoide crônico acumula osteoporose, diabetes, catarata, infecção e não previne recidiva. A cirurgia não cura a doença, que recidiva na anastomose.",
   "porAlt": [
    "Corticoide contínuo não mantém remissão e acumula osteoporose, diabetes, catarata e infecção.",
    "Tratar apenas surtos perpetua a inflamação e o dano intestinal progressivo ao longo do tempo.",
@@ -9781,7 +9781,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "AASLD, 2023 — Practice Guidance on the clinical assessment and management of MASLD",
+  "base": "AASLD, 2023. Practice Guidance on the clinical assessment and management of MASLD",
   "coment": "Na doença hepática esteatótica associada à disfunção metabólica, o que define prognóstico é o grau de fibrose, e não o valor das transaminases. A conduta inicial é estratificar fibrose por métodos não invasivos, como escores baseados em exames laboratoriais e elastografia, e tratar de forma agressiva os determinantes metabólicos: perda de peso, controle de diabetes com fármacos de benefício hepático e cardiovascular, dislipidemia e pressão. A biópsia fica para casos duvidosos.",
   "porAlt": [
    "A biópsia não é necessária na maioria dos casos, pois métodos não invasivos estratificam bem a fibrose.",
@@ -9805,7 +9805,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "European Society of Gastrointestinal Endoscopy, 2021 — nonvariceal upper gastrointestinal hemorrhage",
+  "base": "European Society of Gastrointestinal Endoscopy, 2021, nonvariceal upper gastrointestinal hemorrhage",
   "coment": "Na hemorragia digestiva alta não varicosa, o inibidor de bomba de prótons endovenoso é iniciado antes da endoscopia: reduz achados de alto risco no exame e a necessidade de terapêutica endoscópica, ainda que não reduza isoladamente mortalidade ou ressangramento. Antibiótico profilático e vasoconstritor esplâncnico são indicados quando há cirrose ou suspeita de sangramento varicoso, o que não é o caso. O ácido tranexâmico não demonstrou benefício e associou-se a mais eventos trombóticos.",
   "porAlt": [
    "O antibiótico profilático é indicado em cirróticos que sangram, e não em toda hemorragia digestiva.",
@@ -9829,8 +9829,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Instituto Nacional de Câncer e US Preventive Services Task Force, 2021 — rastreamento de câncer colorretal",
-  "coment": "O rastreamento com pesquisa de sangue oculto nas fezes só faz sentido se o resultado positivo for seguido de colonoscopia diagnóstica — que localiza a lesão, permite biópsia e remove pólipos no mesmo procedimento. Repetir o teste ou tratar anemia empiricamente desperdiça o achado e atrasa o diagnóstico. A ausência de sintomas é esperada: o rastreamento existe justamente para detectar doença antes que ela se manifeste clinicamente.",
+  "base": "Instituto Nacional de Câncer e US Preventive Services Task Force, 2021. Rastreamento de câncer colorretal",
+  "coment": "O rastreamento com pesquisa de sangue oculto nas fezes só faz sentido se o resultado positivo for seguido de colonoscopia diagnóstica, que localiza a lesão, permite biópsia e remove pólipos no mesmo procedimento. Repetir o teste ou tratar anemia empiricamente desperdiça o achado e atrasa o diagnóstico. A ausência de sintomas é esperada: o rastreamento existe justamente para detectar doença antes que ela se manifeste clinicamente.",
   "porAlt": [
    "Repetir o exame desperdiça um achado positivo e atrasa o diagnóstico de lesão potencialmente curável.",
    "Repor ferro sem investigar mascara o sangramento e é um dos erros mais custosos da clínica.",
@@ -9853,7 +9853,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "American College of Gastroenterology, 2024 — management of acute pancreatitis",
+  "base": "American College of Gastroenterology, 2024, management of acute pancreatitis",
   "coment": "Na pancreatite aguda biliar leve, a colecistectomia deve ser realizada na mesma internação, após a resolução do quadro: adiar a cirurgia expõe o paciente a risco elevado de recorrência de pancreatite, colecistite e coledocolitíase nas semanas seguintes. A colangiopancreatografia endoscópica não é rotina e fica reservada a colangite associada ou obstrução biliar persistente documentada. O ácido ursodesoxicólico não é alternativa à cirurgia nesse contexto.",
   "porAlt": [
    "Adiar seis meses expõe a recorrência de pancreatite, colecistite e coledocolitíase no intervalo.",
@@ -9877,7 +9877,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "AASLD, 2018, e EASL, 2017 — Primary Biliary Cholangitis, diagnóstico e tratamento",
+  "base": "AASLD, 2018, e EASL, 2017. Primary Biliary Cholangitis, diagnóstico e tratamento",
   "coment": "Colestase crônica com fosfatase alcalina elevada e anticorpo antimitocôndria positivo, em mulher de meia-idade com prurido e fadiga, define colangite biliar primária. O tratamento de primeira linha é o ácido ursodesoxicólico, que melhora bioquímica e sobrevida livre de transplante; em resposta inadequada, acrescenta-se ácido obeticólico ou fibrato. O prurido é tratado com colestiramina e outras opções. O anticorpo antimitocôndria é bastante específico dessa doença.",
   "porAlt": [
    "A hepatite autoimune cursa com transaminases elevadas e outros autoanticorpos, não com esse padrão.",
@@ -9901,8 +9901,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Thyroid Association, 2014, e Harrison's, 22ª edição, 2025 — hipotireoidismo subclínico",
-  "coment": "No hipotireoidismo subclínico com TSH abaixo de 10 mUI/L, a decisão de tratar é individualizada: pesam sintomas compatíveis, anticorpo antitireoperoxidase positivo — que prediz progressão para hipotireoidismo franco —, dislipidemia, risco cardiovascular, desejo de gestar e idade. Acima de 10 mUI/L, o tratamento costuma ser indicado. Em idosos, a tolerância a TSH mais alto é maior e o excesso de levotiroxina traz fibrilação atrial e perda óssea.",
+  "base": "American Thyroid Association, 2014, e Harrison's, 22ª edição, 2025, hipotireoidismo subclínico",
+  "coment": "No hipotireoidismo subclínico com TSH abaixo de 10 mUI/L, a decisão de tratar é individualizada: pesam sintomas compatíveis, anticorpo antitireoperoxidase positivo, que prediz progressão para hipotireoidismo franco, dislipidemia, risco cardiovascular, desejo de gestar e idade. Acima de 10 mUI/L, o tratamento costuma ser indicado. Em idosos, a tolerância a TSH mais alto é maior e o excesso de levotiroxina traz fibrilação atrial e perda óssea.",
   "porAlt": [
    "Tratar todo hipotireoidismo subclínico expõe pacientes a excesso de hormônio sem benefício comprovado.",
    "O TSH elevado com anticorpo positivo indica tireoidite e exige ao menos acompanhamento.",
@@ -9925,7 +9925,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "American Diabetes Association, Standards of Care 2026 — escolha de terapia com benefício cardiometabólico",
+  "base": "American Diabetes Association, Standards of Care 2026, escolha de terapia com benefício cardiometabólico",
   "coment": "Em paciente com diabetes tipo 2 e doença cardiovascular aterosclerótica estabelecida, a escolha da segunda droga privilegia agentes com benefício cardiovascular comprovado: agonistas do receptor de GLP-1 e inibidores de SGLT2, independentemente da hemoglobina glicada. Com obesidade associada, o agonista de GLP-1 tem vantagem adicional pelo efeito sobre o peso. A sulfonilureia causa hipoglicemia e ganho ponderal, sem benefício cardiovascular, e a insulina não é obrigatória nesse patamar de glicada.",
   "porAlt": [
    "A sulfonilureia causa hipoglicemia e ganho de peso, sem benefício cardiovascular demonstrado.",
@@ -9949,8 +9949,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Endocrine Society, 2011, atualizada, e Harrison's, 22ª edição, 2025 — hiperprolactinemia e prolactinoma",
-  "coment": "Hiperprolactinemia sintomática com valores acima de 150 a 200 ng/mL, afastadas gestação, hipotireoidismo primário, insuficiência renal e fármacos, sugere adenoma hipofisário produtor de prolactina, e a ressonância de sela túrcica define tamanho e relação com estruturas vizinhas. O tratamento de primeira linha é clínico, com agonista dopaminérgico — cabergolina de preferência —, que normaliza a prolactina e reduz o tumor na maioria dos casos. A cirurgia fica para falha, intolerância ou compressão de vias ópticas.",
+  "base": "Endocrine Society, 2011, atualizada, e Harrison's, 22ª edição, 2025, hiperprolactinemia e prolactinoma",
+  "coment": "Hiperprolactinemia sintomática com valores acima de 150 a 200 ng/mL, afastadas gestação, hipotireoidismo primário, insuficiência renal e fármacos, sugere adenoma hipofisário produtor de prolactina, e a ressonância de sela túrcica define tamanho e relação com estruturas vizinhas. O tratamento de primeira linha é clínico, com agonista dopaminérgico, cabergolina de preferência, que normaliza a prolactina e reduz o tumor na maioria dos casos. A cirurgia fica para falha, intolerância ou compressão de vias ópticas.",
   "porAlt": [
    "A cirurgia é reservada a falha do tratamento clínico, intolerância ou compressão de quiasma óptico.",
    "Correta: solicitar ressonância de sela e iniciar agonista dopaminérgico, que é o tratamento de primeira linha.",
@@ -9973,7 +9973,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "tit",
-  "base": "Surviving Sepsis Campaign 2026 e Endocrine Society, 2016 — insuficiência adrenal no paciente crítico",
+  "base": "Surviving Sepsis Campaign 2026 e Endocrine Society, 2016. Insuficiência adrenal no paciente crítico",
   "coment": "Paciente em corticoterapia crônica tem supressão do eixo hipotálamo-hipófise-adrenal e não consegue montar a resposta de estresse exigida por sepse, cirurgia ou trauma. O quadro se manifesta como hipotensão refratária a volume e vasopressor, muitas vezes com hiponatremia, hipercalemia e hipoglicemia. A conduta é administrar corticoide em dose de estresse, tipicamente hidrocortisona endovenosa, sem atrasar o tratamento para aguardar dosagem de cortisol.",
   "porAlt": [
    "Correta: corticoterapia crônica com choque refratário sugere insuficiência adrenal e indica dose de estresse.",
@@ -9997,7 +9997,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Endocrine Society, 2019, e American Association of Clinical Endocrinology, 2020 — osteoporose pós-menopausa",
+  "base": "Endocrine Society, 2019, e American Association of Clinical Endocrinology, 2020. Osteoporose pós-menopausa",
   "coment": "Escore T igual ou menor que -2,5 em coluna, colo femoral ou fêmur total define osteoporose e indica tratamento farmacológico, mesmo sem fratura prévia. Os bisfosfonatos são primeira linha para a maioria das pacientes, associados a cálcio e vitamina D e a medidas de prevenção de queda. Agentes anabólicos, como o paratormônio recombinante, ficam para osteoporose grave, múltiplas fraturas ou falha terapêutica. A reposição estrogênica não é primeira linha pela relação entre risco e benefício.",
   "porAlt": [
    "Apenas exercício não reverte osteoporose já estabelecida, e cinco anos de espera acumulam risco de fratura.",
@@ -10021,7 +10021,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Endocrine Society, 2008, atualizada, e Harrison's, 22ª edição, 2025 — diagnóstico da síndrome de Cushing",
+  "base": "Endocrine Society, 2008, atualizada, e Harrison's, 22ª edição, 2025, diagnóstico da síndrome de Cushing",
   "coment": "A investigação da síndrome de Cushing tem três etapas em ordem obrigatória: confirmar o hipercortisolismo, definir se é dependente ou independente de corticotropina, e só então localizar a lesão por imagem. Os testes de rastreio são cortisol salivar à meia-noite, cortisol livre urinário de vinte e quatro horas e teste de supressão com dexametasona em dose baixa, sendo necessários pelo menos dois alterados. O cortisol sérico matinal isolado não serve para rastrear, pela variabilidade e pela sobreposição.",
   "porAlt": [
    "A imagem antes da confirmação bioquímica encontra incidentalomas e leva a diagnósticos equivocados.",
@@ -10045,7 +10045,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "American Diabetes Association, Standards of Care 2026 — hipoglicemia e monitorização contínua de glicose",
+  "base": "American Diabetes Association, Standards of Care 2026, hipoglicemia e monitorização contínua de glicose",
   "coment": "Hipoglicemias frequentes com perda da percepção dos sintomas de alarme configuram situação de risco elevado e exigem três medidas: relaxar temporariamente os alvos glicêmicos por algumas semanas, o que ajuda a recuperar a percepção; revisar doses, horários, contagem de carboidratos e técnica de aplicação; e oferecer monitorização contínua de glicose, que a diretriz de 2026 recomenda considerar amplamente. A insulina não pode ser suspensa no diabetes tipo 1, sob risco de cetoacidose.",
   "porAlt": [
    "Aumentar a basal noturna agravaria justamente as hipoglicemias que ocorrem durante o sono.",
@@ -10069,8 +10069,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Endocrine Society, 2016, e Diretriz Brasileira de Hipertensão Arterial, 2025 — hiperaldosteronismo primário",
-  "coment": "Hipertensão resistente com hipocalemia espontânea e alcalose metabólica é a apresentação clássica do hiperaldosteronismo primário, que é a causa secundária mais comum de hipertensão e frequentemente subdiagnosticada. O rastreio é feito pela relação entre aldosterona plasmática e atividade de renina, com atenção às drogas que interferem no resultado — espironolactona deve ser suspensa antes. Confirmado o rastreio, seguem-se teste confirmatório e tomografia de adrenais, com cateterismo de veias adrenais quando a lateralização é necessária.",
+  "base": "Endocrine Society, 2016, e Diretriz Brasileira de Hipertensão Arterial, 2025, hiperaldosteronismo primário",
+  "coment": "Hipertensão resistente com hipocalemia espontânea e alcalose metabólica é a apresentação clássica do hiperaldosteronismo primário, que é a causa secundária mais comum de hipertensão e frequentemente subdiagnosticada. O rastreio é feito pela relação entre aldosterona plasmática e atividade de renina, com atenção às drogas que interferem no resultado, espironolactona deve ser suspensa antes. Confirmado o rastreio, seguem-se teste confirmatório e tomografia de adrenais, com cateterismo de veias adrenais quando a lateralização é necessária.",
   "porAlt": [
    "O feocromocitoma cursa com paroxismos de hipertensão, cefaleia, sudorese e palpitação, sem hipocalemia típica.",
    "A síndrome de Cushing tem outros achados clínicos e não é rastreada pela dosagem isolada de corticotropina.",
@@ -10093,7 +10093,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American Thyroid Association, 2015, e sistema TI-RADS — avaliação do nódulo tireoidiano",
+  "base": "American Thyroid Association, 2015, e sistema TI-RADS. Avaliação do nódulo tireoidiano",
   "coment": "Nódulo sólido e hipoecogênico com microcalcificações e margens irregulares tem alta suspeição ultrassonográfica e indicação de punção aspirativa por agulha fina a partir de um centímetro. A cintilografia só entra quando o TSH está suprimido, para identificar nódulo hiperfuncionante, que raramente é maligno. A supressão com levotiroxina foi abandonada por ineficácia e por risco de tireotoxicose iatrogênica. A cirurgia sem citologia expõe muitos pacientes a ressecção de lesão benigna.",
   "porAlt": [
    "A cintilografia se indica quando o TSH está suprimido, para identificar nódulo hiperfuncionante.",
@@ -10141,7 +10141,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "KDIGO 2024 — Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
+  "base": "KDIGO 2024, Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
   "coment": "Albuminúria persistente de 30 a 300 mg/g define doença renal do diabetes em fase inicial, mesmo com filtração preservada, e marca risco cardiovascular e renal aumentado. A conduta é bloqueio do sistema renina-angiotensina em dose máxima tolerada, inibidor de SGLT2, controle pressórico com meta abaixo de 130/80 e controle glicêmico e lipídico. A metformina é mantida até filtração de 30 mL/min, com ajuste abaixo de 45.",
   "porAlt": [
    "Repetir em cinco anos ignora um marcador precoce de dano renal e cardiovascular já estabelecido.",
@@ -10165,7 +10165,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "KDIGO 2021 — Glomerular Diseases Guideline; Harrison's, 22ª edição, 2025",
+  "base": "KDIGO 2021: Glomerular Diseases Guideline; Harrison's, 22ª edição, 2025",
   "coment": "A tríade de hematúria dismórfica com cilindros hemáticos, hipertensão e queda da filtração define síndrome nefrítica, que indica glomerulonefrite. A investigação inclui complemento, autoanticorpos, sorologias virais, pesquisa de anticorpo anticitoplasma de neutrófilo e anti-membrana basal, além de biópsia renal para definir o padrão histológico, que orienta a imunossupressão. O cilindro hemático é praticamente patognomônico de origem glomerular.",
   "porAlt": [
    "A síndrome nefrótica cursa com proteinúria acima de 3,5 g e sem hematúria dismórfica proeminente.",
@@ -10189,7 +10189,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "KDIGO 2012 — Acute Kidney Injury; Harrison's, 22ª edição, 2025 — nefrite intersticial aguda",
+  "base": "KDIGO 2012 (Acute Kidney Injury; Harrison's, 22ª edição, 2025) nefrite intersticial aguda",
   "coment": "Nefrite intersticial aguda por fármaco cursa com injúria renal dias a semanas após a exposição, podendo vir com febre, rash e eosinofilia, embora a tríade completa seja infrequente. O sedimento mostra leucocitúria estéril, cilindros leucocitários e eventualmente eosinofilúria, que tem baixa sensibilidade. Antimicrobianos, inibidores de bomba de prótons e anti-inflamatórios são as causas mais comuns. A conduta é suspender a droga suspeita, com corticoide considerado em casos selecionados.",
   "porAlt": [
    "A necrose tubular cursa com cilindros granulosos pigmentados, e não com eosinofilúria e leucocitúria.",
@@ -10213,7 +10213,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "KDIGO 2017 — Clinical Practice Guideline Update for CKD-MBD; KDIGO 2024",
+  "base": "KDIGO 2017. Clinical Practice Guideline Update for CKD-MBD; KDIGO 2024",
   "coment": "O distúrbio mineral e ósseo da doença renal crônica exige controle do fósforo em primeiro lugar: restrição dietética orientada, quelantes de fósforo com as refeições e adequação da diálise. O hiperparatireoidismo secundário é tratado com calcitriol ou análogos da vitamina D e calcimiméticos, monitorando cálcio e fósforo. A paratireoidectomia fica para doença refratária ao tratamento clínico. Bisfosfonato tem uso restrito na doença renal avançada.",
   "porAlt": [
    "Correta: controlar fósforo com dieta e quelante é prioridade, tratando o hiperparatireoidismo secundário.",
@@ -10237,8 +10237,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "KDIGO 2012 — Acute Kidney Injury; Harrison's, 22ª edição, 2025 — injúria renal pós-renal",
-  "coment": "Anúria súbita em homem idoso com hiperplasia prostática sugere injúria renal pós-renal por obstrução. A ultrassonografia de vias urinárias é o exame inicial, rápido e sem contraste, mostrando hidronefrose e bexiga distendida. A conduta é desobstruir de imediato — sondagem vesical ou nefrostomia conforme o nível —, o que costuma reverter a injúria. Atenção à poliúria pós-desobstrução, que exige reposição cuidadosa de volume e eletrólitos.",
+  "base": "KDIGO 2012 (Acute Kidney Injury; Harrison's, 22ª edição, 2025) injúria renal pós-renal",
+  "coment": "Anúria súbita em homem idoso com hiperplasia prostática sugere injúria renal pós-renal por obstrução. A ultrassonografia de vias urinárias é o exame inicial, rápido e sem contraste, mostrando hidronefrose e bexiga distendida. A conduta é desobstruir de imediato, sondagem vesical ou nefrostomia conforme o nível, o que costuma reverter a injúria. Atenção à poliúria pós-desobstrução, que exige reposição cuidadosa de volume e eletrólitos.",
   "porAlt": [
    "A biópsia renal não tem papel na investigação inicial de anúria com suspeita de obstrução urinária.",
    "A diálise pode ser necessária, mas desobstruir é o que resolve a causa e costuma dispensar a diálise.",
@@ -10261,7 +10261,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Infectious Diseases Society of America e European Association of Urology, 2022 — infecção urinária recorrente",
+  "base": "Infectious Diseases Society of America e European Association of Urology, 2022. Infecção urinária recorrente",
   "coment": "Infecção urinária recorrente é definida por três episódios em doze meses ou dois em seis meses. A abordagem começa por medidas comportamentais e não antimicrobianas: hidratação adequada, micção pós-coito, evitar espermicida e considerar estrogênio tópico na pós-menopausa. A profilaxia antimicrobiana, contínua ou pós-coito, é uma opção discutida com a paciente, pesando resistência e efeitos adversos. Imagem e cistoscopia ficam para casos atípicos ou complicados.",
   "porAlt": [
    "Antimicrobiano contínuo sem discussão ignora resistência, efeitos adversos e a preferência da paciente.",
@@ -10285,7 +10285,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "KDIGO 2012 — Anemia in CKD, e KDIGO 2024 — Chronic Kidney Disease",
+  "base": "KDIGO 2012 (Anemia in CKD, e KDIGO 2024) Chronic Kidney Disease",
   "coment": "Na anemia da doença renal crônica, o primeiro passo é avaliar e corrigir o estado de ferro: saturação de transferrina abaixo de 30% com ferritina abaixo de 500 ng/mL indica reposição, preferencialmente endovenosa nos pacientes em diálise. Só depois se considera agente estimulador da eritropoese, com alvo de hemoglobina que evite tanto a anemia sintomática quanto valores altos, associados a eventos cardiovasculares. Transfusão é reservada a sintomas ou instabilidade.",
   "porAlt": [
    "Iniciar eritropoetina sem ferro adequado leva a resposta inadequada e desperdício de tratamento.",
@@ -10309,8 +10309,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "European Association of Urology, 2023 — Urolithiasis Guidelines; Harrison's, 22ª ed., 2025",
-  "coment": "Cálculos ureterais menores que 5 a 6 mm têm alta chance de eliminação espontânea e são manejados clinicamente: analgesia com anti-inflamatório não esteroidal, que é superior ao opioide na cólica renal, hidratação adequada e terapia médica expulsiva com bloqueador alfa em cálculos distais. Intervenção urgente é indicada diante de infecção associada, rim único, injúria renal, dor refratária ou obstrução bilateral — situações ausentes neste caso.",
+  "base": "European Association of Urology, 2023: Urolithiasis Guidelines; Harrison's, 22ª ed., 2025",
+  "coment": "Cálculos ureterais menores que 5 a 6 mm têm alta chance de eliminação espontânea e são manejados clinicamente: analgesia com anti-inflamatório não esteroidal, que é superior ao opioide na cólica renal, hidratação adequada e terapia médica expulsiva com bloqueador alfa em cálculos distais. Intervenção urgente é indicada diante de infecção associada, rim único, injúria renal, dor refratária ou obstrução bilateral, situações ausentes neste caso.",
   "porAlt": [
    "A litotripsia é indicada em cálculos maiores ou refratários, e não em todo cálculo ureteral.",
    "A nefrostomia é reservada a obstrução com infecção ou injúria renal, ausentes neste caso.",
@@ -10333,8 +10333,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "American Urological Association, 2020 — Microhematuria guideline; Harrison's, 22ª ed., 2025",
-  "coment": "Hematúria microscópica sem dismorfismo eritrocitário, sem proteinúria e com função renal normal aponta origem urológica, e o tabagismo é fator de risco importante para neoplasia urotelial. A investigação inclui imagem do trato urinário superior — tomografia com fase excretora na maioria dos casos — e cistoscopia, conforme estratificação de risco por idade, sexo, carga tabágica e grau de hematúria. Origem glomerular seria sugerida por dismorfismo, cilindros hemáticos e proteinúria.",
+  "base": "American Urological Association, 2020: Microhematuria guideline; Harrison's, 22ª ed., 2025",
+  "coment": "Hematúria microscópica sem dismorfismo eritrocitário, sem proteinúria e com função renal normal aponta origem urológica, e o tabagismo é fator de risco importante para neoplasia urotelial. A investigação inclui imagem do trato urinário superior, tomografia com fase excretora na maioria dos casos, e cistoscopia, conforme estratificação de risco por idade, sexo, carga tabágica e grau de hematúria. Origem glomerular seria sugerida por dismorfismo, cilindros hemáticos e proteinúria.",
   "porAlt": [
    "Repetir o exame em dois anos permitiria a progressão de uma neoplasia urotelial potencialmente curável.",
    "Correta: hematúria sem sinais glomerulares em tabagista exige imagem do trato urinário e cistoscopia.",
@@ -10357,8 +10357,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — diabetes insipidus nefrogênico",
-  "coment": "Poliúria hipotônica com hipernatremia e ausência de resposta à desmopressina define diabetes insipidus nefrogênico: o rim não responde ao hormônio antidiurético. O lítio é a causa medicamentosa mais comum, por lesão do túbulo coletor, e o efeito pode persistir após a suspensão. O manejo inclui acesso livre à água, restrição de sódio, diurético tiazídico — que paradoxalmente reduz o volume urinário — e amilorida, além de rever a indicação do lítio com a psiquiatria.",
+  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025. Diabetes insipidus nefrogênico",
+  "coment": "Poliúria hipotônica com hipernatremia e ausência de resposta à desmopressina define diabetes insipidus nefrogênico: o rim não responde ao hormônio antidiurético. O lítio é a causa medicamentosa mais comum, por lesão do túbulo coletor, e o efeito pode persistir após a suspensão. O manejo inclui acesso livre à água, restrição de sódio, diurético tiazídico, que paradoxalmente reduz o volume urinário, e amilorida, além de rever a indicação do lítio com a psiquiatria.",
   "porAlt": [
    "No diabetes insipidus central há resposta à desmopressina, com concentração da urina após a dose.",
    "A polidipsia psicogênica cursa com sódio baixo ou normal, e não com hipernatremia como aqui.",
@@ -10405,7 +10405,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Critérios de McDonald 2017, revisados; Harrison's, 22ª edição, 2025 — esclerose múltipla",
+  "base": "Critérios de McDonald 2017, revisados; Harrison's, 22ª edição, 2025. Esclerose múltipla",
   "coment": "Episódios neurológicos recorrentes separados no tempo e no espaço, com neurite óptica e lesões desmielinizantes típicas na ressonância, definem esclerose múltipla pelos critérios de McDonald. O tratamento tem dois eixos: pulso de corticoide nos surtos e terapia modificadora da doença iniciada precocemente, que reduz surtos, lesões novas e acúmulo de incapacidade. Quanto mais cedo se inicia a terapia modificadora, melhor o prognóstico funcional a longo prazo.",
   "porAlt": [
    "Correta: o quadro é esclerose múltipla, e a terapia modificadora deve ser iniciada precocemente.",
@@ -10429,7 +10429,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Infectious Diseases Society of America, 2004, e Harrison's, 22ª edição, 2025 — meningite bacteriana",
+  "base": "Infectious Diseases Society of America, 2004, e Harrison's, 22ª edição, 2025, meningite bacteriana",
   "coment": "Líquor com pleocitose neutrofílica, glicose baixa e proteína elevada é padrão de meningite bacteriana e exige antimicrobiano empírico imediato, com dexametasona administrada antes ou junto da primeira dose, que reduz sequela auditiva e mortalidade na etiologia pneumocócica. O esquema empírico cobre pneumococo e meningococo, com ampicilina acrescentada em idosos e imunossuprimidos pela cobertura de Listeria. O ajuste vem com cultura e sensibilidade.",
   "porAlt": [
    "Suspender antimicrobiano com esse padrão liquórico é conduta com mortalidade elevada em poucas horas.",
@@ -10453,8 +10453,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — síndrome de Guillain-Barré",
-  "coment": "Fraqueza flácida ascendente, simétrica, com arreflexia e parestesias, instalada em dias após infecção — clássica após diarreia por Campylobacter —, define a síndrome de Guillain-Barré. O ponto crítico do manejo é a monitorização respiratória seriada, com capacidade vital forçada e pressões inspiratórias, porque a falência ventilatória é a principal causa de morte e pode ser súbita. O tratamento é imunoglobulina endovenosa ou plasmaférese; corticoide isolado não é eficaz.",
+  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025. Síndrome de Guillain-Barré",
+  "coment": "Fraqueza flácida ascendente, simétrica, com arreflexia e parestesias, instalada em dias após infecção, clássica após diarreia por Campylobacter, define a síndrome de Guillain-Barré. O ponto crítico do manejo é a monitorização respiratória seriada, com capacidade vital forçada e pressões inspiratórias, porque a falência ventilatória é a principal causa de morte e pode ser súbita. O tratamento é imunoglobulina endovenosa ou plasmaférese; corticoide isolado não é eficaz.",
   "porAlt": [
    "Correta: o quadro é Guillain-Barré, exigindo monitorização respiratória e imunoglobulina ou plasmaférese.",
    "A miastenia cursa com fatigabilidade e reflexos preservados, sem o padrão ascendente arreflexo descrito.",
@@ -10477,7 +10477,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "AHA/ASA 2022 — Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage",
+  "base": "AHA/ASA 2022, Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage",
   "coment": "No acidente vascular cerebral hemorrágico, os pilares iniciais são o controle pressórico cuidadoso, a reversão de coagulopatia ou de anticoagulação quando presente, o manejo da pressão intracraniana e a avaliação neurocirúrgica conforme localização, volume e nível de consciência. Trombolítico e anticoagulação são catastróficos nesse contexto, e a punção lombar é contraindicada diante de efeito de massa com desvio de linha média.",
   "porAlt": [
    "O trombolítico é para o acidente vascular isquêmico e agrava de forma fatal um hematoma já instalado.",
@@ -10501,8 +10501,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Organização Mundial da Saúde — Critérios Médicos de Elegibilidade para uso de contraceptivos, 2015; International Headache Society",
-  "coment": "Enxaqueca com aura é categoria 4 nos critérios de elegibilidade para contraceptivo hormonal combinado, ou seja, risco inaceitável: o estrogênio aumenta de forma significativa o risco de acidente vascular cerebral isquêmico nessas pacientes, e o tabagismo multiplica esse risco. A conduta é suspender o combinado e oferecer método sem estrogênio — progestágeno isolado, dispositivo intrauterino ou método de barreira —, além de apoio intensivo à cessação do tabagismo.",
+  "base": "Organização Mundial da Saúde. Critérios Médicos de Elegibilidade para uso de contraceptivos, 2015; International Headache Society",
+  "coment": "Enxaqueca com aura é categoria 4 nos critérios de elegibilidade para contraceptivo hormonal combinado, ou seja, risco inaceitável: o estrogênio aumenta de forma significativa o risco de acidente vascular cerebral isquêmico nessas pacientes, e o tabagismo multiplica esse risco. A conduta é suspender o combinado e oferecer método sem estrogênio (progestágeno isolado, dispositivo intrauterino ou método de barreira), além de apoio intensivo à cessação do tabagismo.",
   "porAlt": [
    "Correta: enxaqueca com aura contraindica o contraceptivo combinado pelo risco de acidente vascular isquêmico.",
    "Manter o combinado mantém o risco vascular elevado, que a profilaxia da enxaqueca não reduz.",
@@ -10525,8 +10525,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "International Headache Society e American Headache Society, 2021 — cefaleias trigeminoautonômicas",
-  "coment": "A cefaleia em salvas é a mais dolorosa das cefaleias primárias e responde a dois tratamentos agudos de eficácia comprovada: oxigênio a alto fluxo sob máscara com reservatório e triptano por via subcutânea ou nasal, ambos com início rápido — essencial, porque a crise dura de quinze minutos a três horas. Analgésicos orais e opioides são ineficazes pela latência. O verapamil é a profilaxia de escolha, e o corticoide serve como ponte até a profilaxia agir.",
+  "base": "International Headache Society e American Headache Society, 2021, cefaleias trigeminoautonômicas",
+  "coment": "A cefaleia em salvas é a mais dolorosa das cefaleias primárias e responde a dois tratamentos agudos de eficácia comprovada: oxigênio a alto fluxo sob máscara com reservatório e triptano por via subcutânea ou nasal, ambos com início rápido. Essencial, porque a crise dura de quinze minutos a três horas. Analgésicos orais e opioides são ineficazes pela latência. O verapamil é a profilaxia de escolha, e o corticoide serve como ponte até a profilaxia agir.",
   "porAlt": [
    "Analgésico oral tem latência longa demais para uma crise que dura de quinze minutos a três horas.",
    "Correta: oxigênio em alto fluxo e triptano subcutâneo são os tratamentos agudos com eficácia comprovada.",
@@ -10549,8 +10549,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AHA/ASA 2021 — Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack",
-  "coment": "Amaurose fugaz é um ataque isquêmico transitório da circulação retiniana e carrega o mesmo risco de acidente vascular cerebral subsequente de qualquer outro ataque transitório — risco máximo nas primeiras 48 horas. A investigação é urgente: imagem cerebral e vascular, avaliação de carótidas, eletrocardiograma e rastreio de fibrilação atrial, além de perfil metabólico. Institui-se prevenção secundária imediata com antiagregante e estatina, e a endarterectomia é avaliada quando há estenose carotídea significativa.",
+  "base": "AHA/ASA 2021, Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack",
+  "coment": "Amaurose fugaz é um ataque isquêmico transitório da circulação retiniana e carrega o mesmo risco de acidente vascular cerebral subsequente de qualquer outro ataque transitório. Risco máximo nas primeiras 48 horas. A investigação é urgente: imagem cerebral e vascular, avaliação de carótidas, eletrocardiograma e rastreio de fibrilação atrial, além de perfil metabólico. Institui-se prevenção secundária imediata com antiagregante e estatina, e a endarterectomia é avaliada quando há estenose carotídea significativa.",
   "porAlt": [
    "A recuperação completa é a regra no ataque transitório, e não afasta o risco alto de acidente vascular.",
    "Correta: amaurose fugaz é ataque isquêmico transitório e exige investigação urgente e prevenção secundária.",
@@ -10573,7 +10573,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "tit",
-  "base": "AHA/ASA 2026 e ESC 2024 — reintrodução de anticoagulação após acidente vascular isquêmico na fibrilação atrial",
+  "base": "AHA/ASA 2026 e ESC 2024, reintrodução de anticoagulação após acidente vascular isquêmico na fibrilação atrial",
   "coment": "A reintrodução da anticoagulação após acidente vascular isquêmico em paciente com fibrilação atrial equilibra dois riscos opostos: recorrência embólica se demorar e transformação hemorrágica se antecipar. O critério orientador é o tamanho do infarto e a presença de transformação hemorrágica na imagem de controle, com infartos pequenos permitindo reintrodução mais precoce e extensos exigindo mais tempo. Antiagregante não substitui a anticoagulação na prevenção embólica da fibrilação atrial.",
   "porAlt": [
    "Reiniciar em seis horas num infarto extenso arrisca transformação hemorrágica com desfecho catastrófico.",
@@ -10597,7 +10597,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — miastenia gravis",
+  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025. Miastenia gravis",
   "coment": "Fatigabilidade muscular com piora ao longo do dia e melhora com repouso, acometendo musculatura ocular com ptose e diplopia e poupando a pupila, é a apresentação clássica da miastenia gravis. A confirmação se faz por anticorpo antirreceptor de acetilcolina, com anticorpo anti-MuSK nos soronegativos, e por estudo eletrofisiológico com estimulação repetitiva ou eletromiografia de fibra única. Investiga-se timoma por tomografia de tórax em todos os casos.",
   "porAlt": [
    "A paralisia do terceiro nervo por aneurisma cursa com midríase e dor, sem flutuação ao longo do dia.",
@@ -10621,8 +10621,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024; Lei nº 8.080/1990",
-  "coment": "A vigilância epidemiológica é atribuição de todos os níveis do sistema, e a atenção primária é a porta que detecta o evento. Diante de surto, a equipe notifica de imediato — surto é evento de notificação compulsória imediata — e inicia investigação de fonte comum, com busca ativa de casos, coleta de amostras conforme orientação e medidas de controle, como orientação sobre água e alimentos. Não se espera confirmação laboratorial para notificar.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, 2024; Lei nº 8.080/1990",
+  "coment": "A vigilância epidemiológica é atribuição de todos os níveis do sistema, e a atenção primária é a porta que detecta o evento. Diante de surto, a equipe notifica de imediato, surto é evento de notificação compulsória imediata, e inicia investigação de fonte comum, com busca ativa de casos, coleta de amostras conforme orientação e medidas de controle, como orientação sobre água e alimentos. Não se espera confirmação laboratorial para notificar.",
   "porAlt": [
    "Tratar sem notificar impede a resposta coletiva e permite que a fonte permaneça ativa no território.",
    "Correta: notificar de imediato e investigar a fonte comum, articulando com a vigilância municipal.",
@@ -10645,7 +10645,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Portaria GM/MS nº 2.436/2017 — Política Nacional de Atenção Básica",
+  "base": "Portaria GM/MS nº 2.436/2017, Política Nacional de Atenção Básica",
   "coment": "A Política Nacional de Atenção Básica estrutura o cuidado sobre território definido e população adscrita, com equipe multiprofissional, longitudinalidade, coordenação do cuidado e responsabilidade sanitária. Para condições crônicas, isso se traduz em conhecer a população, estratificar risco, construir plano de cuidado individual com metas pactuadas, apoiar autocuidado e reservar o especialista para apoio matricial e casos complexos.",
   "porAlt": [
    "Correta: população adscrita, estratificação de risco e plano de cuidado multiprofissional são o núcleo da política.",
@@ -10693,7 +10693,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Lei nº 8.080/1990, artigos 2º e 7º — universalidade e integralidade; Política Nacional para População em Situação de Rua",
+  "base": "Lei nº 8.080/1990, artigos 2º e 7º, universalidade e integralidade; Política Nacional para População em Situação de Rua",
   "coment": "A universalidade é princípio constitucional e legal do sistema: a saúde é direito de todos e dever do Estado, sem exigência de documento, cadastro ou comprovação de residência como condição de acesso. Para população em situação de rua há política específica, com equipes de consultório na rua e articulação intersetorial. Negar atendimento por ausência de documento configura violação de direito e infração ética.",
   "porAlt": [
    "Correta: a universalidade garante o acesso independentemente de documentação ou de cadastro prévio.",
@@ -10717,7 +10717,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, capítulo IX — sigilo profissional",
+  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, capítulo IX. Sigilo profissional",
   "coment": "O sigilo profissional é dever do médico e direito do paciente, e só é rompido por justa causa, dever legal ou autorização expressa do próprio paciente. Vínculo familiar não autoriza acesso: o paciente adulto e capaz decide quem recebe suas informações. Informar apenas parte também configura quebra. As exceções legais incluem notificação compulsória de doenças e situações previstas em lei, sempre restritas ao mínimo necessário.",
   "porAlt": [
    "Correta: o sigilo só se rompe por justa causa, dever legal ou autorização expressa do paciente.",
@@ -10741,7 +10741,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Acolhimento com Classificação de Risco, 2009; Portaria GM/MS nº 1.600/2011 (Rede de Atenção às Urgências)",
+  "base": "Ministério da Saúde. Acolhimento com Classificação de Risco, 2009; Portaria GM/MS nº 1.600/2011 (Rede de Atenção às Urgências)",
   "coment": "O acolhimento com classificação de risco é diretriz da Política Nacional de Humanização e da rede de urgência: todo usuário é acolhido e avaliado quanto à gravidade, e o atendimento é ordenado por prioridade clínica, não por ordem de chegada. Protocolos estruturados atribuem cores ou níveis conforme risco. A ordem de chegada permanece apenas para desempatar dentro de uma mesma categoria de risco.",
   "porAlt": [
    "Correta: a classificação de risco ordena o atendimento por gravidade, e não pela ordem de chegada.",
@@ -10765,7 +10765,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, e legislação previdenciária sobre acidente de trabalho",
+  "base": "Ministério da Saúde, Guia de Vigilância em Saúde, 2024, e legislação previdenciária sobre acidente de trabalho",
   "coment": "Acidente de trabalho grave ou com afastamento tem dois deveres associados: a comunicação de acidente de trabalho, documento previdenciário que garante direitos ao trabalhador, e a notificação em vigilância epidemiológica, já que agravos relacionados ao trabalho integram a lista de notificação. O médico assistente pode emitir a comunicação, e a omissão prejudica direitos do trabalhador e apaga o dado epidemiológico que orienta a prevenção.",
   "porAlt": [
    "Correta: emitir a comunicação de acidente de trabalho e notificar à vigilância são deveres associados.",
@@ -10789,7 +10789,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Ministério da Saúde — lista brasileira de internações por condições sensíveis à atenção primária, Portaria nº 221/2008",
+  "base": "Ministério da Saúde, lista brasileira de internações por condições sensíveis à atenção primária, Portaria nº 221/2008",
   "coment": "As internações por condições sensíveis à atenção primária compõem indicador consagrado de efetividade do primeiro nível de atenção: são internações que poderiam ser evitadas por acesso oportuno e cuidado adequado, como as por asma, insuficiência cardíaca, diabetes descompensado, infecção urinária e pneumonia. Sua redução sugere melhor desempenho da rede básica. Volume de consultas, exames, encaminhamentos e medicamentos mede atividade, não resultado.",
   "porAlt": [
    "O número de consultas mede produção e volume de atividade, sem informar sobre resultado alcançado.",
@@ -10813,7 +10813,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Resolução CFM nº 2.217/2018 e Estatuto da Criança e do Adolescente — atendimento e sigilo do adolescente",
+  "base": "Resolução CFM nº 2.217/2018 e Estatuto da Criança e do Adolescente. Atendimento e sigilo do adolescente",
   "coment": "O adolescente tem direito ao atendimento e ao sigilo, e a presença dos pais não é condição para o atendimento quando ele tem capacidade de discernimento sobre o próprio cuidado. O sigilo é rompido apenas diante de risco à vida ou à saúde, ou em situações de violência, com comunicação feita da forma menos danosa possível. Negar contracepção a adolescente que a procura aumenta gestação não planejada e infecções sexualmente transmissíveis.",
   "porAlt": [
    "Correta: o adolescente com discernimento tem direito ao atendimento e ao sigilo, incluindo contracepção.",
@@ -10837,8 +10837,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019",
-  "coment": "O tratamento diretamente observado é a estratégia central para reduzir abandono e evitar resistência: um profissional ou pessoa treinada observa a tomada da medicação, criando vínculo e permitindo detectar precocemente efeitos adversos e dificuldades sociais. Associa-se a apoio social — transporte, alimentação, acolhimento — porque o abandono tem determinantes sociais fortes. Entregar a medicação sem acompanhamento é o oposto do recomendado.",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019",
+  "coment": "O tratamento diretamente observado é a estratégia central para reduzir abandono e evitar resistência: um profissional ou pessoa treinada observa a tomada da medicação, criando vínculo e permitindo detectar precocemente efeitos adversos e dificuldades sociais. Associa-se a apoio social (transporte, alimentação, acolhimento) porque o abandono tem determinantes sociais fortes. Entregar a medicação sem acompanhamento é o oposto do recomendado.",
   "porAlt": [
    "Aumentar dose não reduz o tempo do esquema padronizado e aumenta a toxicidade do tratamento.",
    "Entregar tudo de uma vez sem acompanhamento é justamente o padrão associado a mais abandono.",
@@ -10861,7 +10861,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Manual de Anemia Ferropriva, 2022; ASH/AGA guidelines on iron deficiency anemia, 2020",
+  "base": "Ministério da Saúde: Manual de Anemia Ferropriva, 2022; ASH/AGA guidelines on iron deficiency anemia, 2020",
   "coment": "Ferritina abaixo de 30 ng/mL confirma deficiência de ferro, e valor abaixo de 15 ng/mL é praticamente diagnóstico. O tratamento tem duas metades igualmente obrigatórias: repor ferro e achar a causa da perda. Em mulher em idade fértil, menorragia é a causa mais comum, mas perda digestiva precisa ser considerada, sobretudo se houver sintomas ou anemia desproporcional. A reposição oral em dias alternados aumenta a absorção ao reduzir o pico de hepcidina.",
   "porAlt": [
    "Correta: repor ferro e investigar a fonte de perda são as duas metades obrigatórias do tratamento.",
@@ -10933,8 +10933,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "International Myeloma Working Group — critérios diagnósticos, atualização 2024; NCCN Multiple Myeloma, 2024",
-  "coment": "A tétrade de hipercalcemia, insuficiência renal, anemia e lesão óssea aponta mieloma múltiplo. O diagnóstico exige demonstrar a proteína monoclonal — eletroforese com imunofixação em soro e urina e cadeias leves livres séricas — e plasmocitose clonal na medula, além de imagem para lesões ósseas, preferencialmente tomografia de baixa dose, ressonância ou PET, e não cintilografia óssea, que é falsamente negativa por serem lesões líticas sem resposta osteoblástica.",
+  "base": "International Myeloma Working Group, critérios diagnósticos, atualização 2024; NCCN Multiple Myeloma, 2024",
+  "coment": "A tétrade de hipercalcemia, insuficiência renal, anemia e lesão óssea aponta mieloma múltiplo. O diagnóstico exige demonstrar a proteína monoclonal, eletroforese com imunofixação em soro e urina e cadeias leves livres séricas, e plasmocitose clonal na medula, além de imagem para lesões ósseas, preferencialmente tomografia de baixa dose, ressonância ou PET, e não cintilografia óssea, que é falsamente negativa por serem lesões líticas sem resposta osteoblástica.",
   "porAlt": [
    "A cintilografia óssea costuma ser negativa porque as lesões são líticas, sem reação osteoblástica.",
    "Correta: eletroforese com imunofixação, cadeias leves livres e avaliação medular fecham o diagnóstico.",
@@ -11006,7 +11006,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r1",
   "base": "BSH guidelines for the diagnosis and treatment of cobalamin and folate disorders, 2014; UpToDate revisão 2024",
-  "coment": "Macrocitose com neutrófilos hipersegmentados e sintomas neurológicos aponta deficiência de vitamina B12. O envolvimento neurológico — degeneração combinada subaguda dos cordões posteriores e laterais — é a razão para repor sem demora, pois o dano se torna irreversível se prolongado. Repor apenas folato corrige a anemia e mascara o quadro enquanto a lesão neurológica progride, erro clássico. Investigar a causa inclui anticorpos anti-fator intrínseco, doença ileal e uso de metformina.",
+  "coment": "Macrocitose com neutrófilos hipersegmentados e sintomas neurológicos aponta deficiência de vitamina B12. O envolvimento neurológico, degeneração combinada subaguda dos cordões posteriores e laterais, é a razão para repor sem demora, pois o dano se torna irreversível se prolongado. Repor apenas folato corrige a anemia e mascara o quadro enquanto a lesão neurológica progride, erro clássico. Investigar a causa inclui anticorpos anti-fator intrínseco, doença ileal e uso de metformina.",
   "porAlt": [
    "Repor apenas folato corrige a anemia e mascara o quadro enquanto o dano neurológico progride.",
    "Transfundir sem repor não trata a causa e permite a progressão do comprometimento neurológico.",
@@ -11029,7 +11029,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "OMS — classificação de neoplasias mieloides, 5ª edição, 2022; NCCN Myeloproliferative Neoplasms, 2024",
+  "base": "OMS. Classificação de neoplasias mieloides, 5ª edição, 2022; NCCN Myeloproliferative Neoplasms, 2024",
   "coment": "Eritrocitose com plaquetose, esplenomegalia e prurido aquagênico caracteriza policitemia vera. O critério molecular é a mutação JAK2, presente em mais de noventa e cinco por cento dos casos na forma V617F, e a eritropoetina sérica costuma estar baixa, ao contrário das causas secundárias. O tratamento combina flebotomia com alvo de hematócrito abaixo de quarenta e cinco por cento, ácido acetilsalicílico em dose baixa e citorredução nos pacientes de alto risco.",
   "porAlt": [
    "Correta: pesquisa de JAK2 com eritropoetina sérica é a via diagnóstica dessa neoplasia mieloproliferativa.",
@@ -11053,7 +11053,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "World Federation of Hemophilia — Guidelines for the Management of Hemophilia, 3ª edição, 2020",
+  "base": "World Federation of Hemophilia, Guidelines for the Management of Hemophilia, 3ª edição, 2020",
   "coment": "Na hemofilia a regra é tratar primeiro e investigar depois: diante de suspeita de sangramento, o fator deficiente é reposto imediatamente, sem aguardar imagem ou confirmação. Na hemartrose, o alvo habitual é elevar o fator para cerca de cinquenta por cento. Punção articular raramente é necessária e traz risco de sangramento e infecção. Anti-inflamatórios não hormonais são evitados por disfunção plaquetária e risco digestivo; analgesia se faz com paracetamol e opioide se necessário.",
   "porAlt": [
    "A punção articular raramente é necessária e traz risco de sangramento adicional e de infecção.",
@@ -11126,7 +11126,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "ASAS-EULAR recommendations for the management of axial spondyloarthritis, 2022",
-  "coment": "Na espondiloartrite axial, o tratamento de primeira linha combina anti-inflamatório não hormonal em dose plena com exercício regular e fisioterapia — o exercício é parte do tratamento, não adjuvante. Se houver falha de pelo menos dois anti-inflamatórios em quatro semanas cada, indica-se biológico anti-TNF ou anti-IL-17. Drogas modificadoras sintéticas como metotrexato e sulfassalazina não funcionam na doença axial, servindo apenas ao acometimento periférico.",
+  "coment": "Na espondiloartrite axial, o tratamento de primeira linha combina anti-inflamatório não hormonal em dose plena com exercício regular e fisioterapia. O exercício é parte do tratamento, não adjuvante. Se houver falha de pelo menos dois anti-inflamatórios em quatro semanas cada, indica-se biológico anti-TNF ou anti-IL-17. Drogas modificadoras sintéticas como metotrexato e sulfassalazina não funcionam na doença axial, servindo apenas ao acometimento periférico.",
   "porAlt": [
    "O metotrexato não tem eficácia no acometimento axial, servindo apenas à artrite periférica.",
    "O corticoide sistêmico contínuo tem eficácia limitada no eixo e traz toxicidade importante.",
@@ -11222,7 +11222,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "EULAR/ACR recommendations for the management of polymyalgia rheumatica, 2015; revisão ACR 2023",
-  "coment": "Polimialgia reumática afeta pessoas acima de cinquenta anos com dor e rigidez de cinturas, provas inflamatórias elevadas, ausência de fraqueza objetiva e CPK normal — a queixa é de dor limitando o movimento, não de perda de força. A resposta a prednisona em dose baixa, tipicamente de doze a vinte e cinco miligramas ao dia, é rápida e dramática, e a ausência dessa resposta obriga a reconsiderar o diagnóstico. É obrigatório procurar arterite de células gigantes associada.",
+  "coment": "Polimialgia reumática afeta pessoas acima de cinquenta anos com dor e rigidez de cinturas, provas inflamatórias elevadas, ausência de fraqueza objetiva e CPK normal. A queixa é de dor limitando o movimento, não de perda de força. A resposta a prednisona em dose baixa, tipicamente de doze a vinte e cinco miligramas ao dia, é rápida e dramática, e a ausência dessa resposta obriga a reconsiderar o diagnóstico. É obrigatório procurar arterite de células gigantes associada.",
   "porAlt": [
    "A polimiosite cursa com fraqueza proximal objetiva e CPK elevada, ausentes neste quadro clínico.",
    "A fibromialgia cursa com provas inflamatórias normais, o que não corresponde à VHS elevada aqui.",
@@ -11269,7 +11269,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "ACR/EULAR — abordagem das espondiloartrites, revisão 2022; Manual MSD revisão 2024",
+  "base": "ACR/EULAR, abordagem das espondiloartrites, revisão 2022; Manual MSD revisão 2024",
   "coment": "A tríade de artrite, uretrite e conjuntivite após infecção entérica ou geniturinária caracteriza artrite reativa, espondiloartrite associada ao HLA-B27. Os agentes clássicos são Chlamydia, Salmonella, Shigella, Yersinia e Campylobacter. O tratamento é sintomático com anti-inflamatório não hormonal; antibiótico só se houver infecção ativa documentada, sobretudo clamídia. A maioria resolve em três a doze meses, e casos persistentes recebem sulfassalazina.",
   "porAlt": [
    "A artrite séptica é monoarticular com febre e derrame purulento, sem uretrite e conjuntivite.",
@@ -11293,7 +11293,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "American Academy of Ophthalmology — Recommendations on Screening for Chloroquine and Hydroxychloroquine Retinopathy, revisão 2024",
+  "base": "American Academy of Ophthalmology. Recommendations on Screening for Chloroquine and Hydroxychloroquine Retinopathy, revisão 2024",
   "coment": "A retinopatia é a toxicidade que define o seguimento da hidroxicloroquina. Recomenda-se avaliação basal no primeiro ano e rastreio anual a partir do quinto ano de uso, ou mais cedo se houver fatores de risco como dose acima de cinco miligramas por quilo de peso real, doença renal crônica, uso de tamoxifeno ou retinopatia prévia. Os exames de escolha são campo visual automatizado e tomografia de coerência óptica de domínio espectral.",
   "porAlt": [
    "A cardiomiopatia é complicação rara e não define o rastreio de rotina desta medicação.",
@@ -11341,7 +11341,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r2",
-  "base": "NICE guideline CG103 — Delirium, atualização 2023; American Geriatrics Society, revisão 2023",
+  "base": "NICE guideline CG103: Delirium, atualização 2023; American Geriatrics Society, revisão 2023",
   "coment": "Delirium é disfunção cerebral aguda com causa quase sempre identificável: infecção, dor, retenção urinária, constipação, distúrbio hidroeletrolítico, hipoxemia, abstinência e fármacos, sobretudo anticolinérgicos, benzodiazepínicos e opioides. A abordagem começa por tratar a causa e aplicar medidas não farmacológicas: reorientação, presença de familiar, mobilização precoce, óculos e aparelho auditivo, higiene do sono e retirada de cateteres. Antipsicótico se reserva a agitação com risco.",
   "porAlt": [
    "Correta: identificar e tratar a causa, com medidas não farmacológicas antes de qualquer sedativo.",
@@ -11390,7 +11390,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r2",
   "base": "AGS Beers Criteria, atualização 2023; STOPP/START version 3, 2023",
-  "coment": "Polifarmácia com sintomas sugestivos de efeito adverso pede revisão sistemática. Os critérios de Beers listam medicamentos potencialmente inapropriados no idoso — benzodiazepínicos, anticolinérgicos, anti-inflamatórios, sulfonilureias de longa ação — e o STOPP/START acrescenta o outro lado, os medicamentos indicados que faltam. A desprescrição é gradual, um fármaco por vez, com pactuação e monitoramento de sintomas de retirada e de retorno da condição tratada.",
+  "coment": "Polifarmácia com sintomas sugestivos de efeito adverso pede revisão sistemática. Os critérios de Beers listam medicamentos potencialmente inapropriados no idoso (benzodiazepínicos, anticolinérgicos, anti-inflamatórios, sulfonilureias de longa ação) e o STOPP/START acrescenta o outro lado, os medicamentos indicados que faltam. A desprescrição é gradual, um fármaco por vez, com pactuação e monitoramento de sintomas de retirada e de retorno da condição tratada.",
   "porAlt": [
    "A escala de Glasgow avalia nível de consciência e não tem relação com revisão de prescrição.",
    "O índice tornozelo-braquial avalia doença arterial periférica, sem relação com a polifarmácia.",
@@ -11461,7 +11461,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "NICE guideline NG97 — Dementia, atualização 2023; Academia Brasileira de Neurologia, 2022",
+  "base": "NICE guideline NG97: Dementia, atualização 2023; Academia Brasileira de Neurologia, 2022",
   "coment": "Declínio cognitivo com perda de funcionalidade caracteriza demência e exige avaliação estruturada: testes cognitivos e de funcionalidade, história com informante, exame neurológico e busca de causas reversíveis com hemograma, função renal e hepática, cálcio, TSH, vitamina B12, sorologias e neuroimagem estrutural. Só após caracterizar o quadro se define a etiologia e o tratamento, que inclui inibidor de colinesterase quando a doença de Alzheimer é provável.",
   "porAlt": [
    "Tratar sem investigar arrisca perder causa reversível, como hipotireoidismo ou deficiência de B12.",
@@ -11485,7 +11485,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "prev",
   "nivel": "r1",
-  "base": "EPUAP/NPIAP/PPPIA — Prevention and Treatment of Pressure Ulcers, 3ª edição, 2019, com revisão 2023",
+  "base": "EPUAP/NPIAP/PPPIA, Prevention and Treatment of Pressure Ulcers, 3ª edição, 2019, com revisão 2023",
   "coment": "Lesão por pressão estágio dois, de espessura parcial, é prevenida e tratada por alívio da pressão: reposicionamento programado, superfície de redistribuição, proteção da pele com hidratação e barreira, manejo da umidade e aporte nutricional adequado, com atenção especial à ingestão de proteína e calorias. A cobertura mantém o meio úmido e protege. Antibiótico sistêmico só se houver infecção clínica, e desbridamento se houver tecido desvitalizado.",
   "porAlt": [
    "O calor local não acelera cicatrização e pode aumentar a demanda metabólica do tecido lesado.",
@@ -11509,7 +11509,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; ESC guidelines for hypertension, 2024",
+  "base": "Diretriz Brasileira de Hipertensão Arterial: SBC, 2025; ESC guidelines for hypertension, 2024",
   "coment": "O idoso funcionalmente independente se beneficia do mesmo alvo dos demais adultos, abaixo de 130 por 80 mmHg, com base em ensaios que mostraram redução de eventos e de mortalidade com controle mais estrito. O que muda é a forma: titulação gradual, medida de pressão em pé para detectar hipotensão postural, atenção a quedas, função renal e eletrólitos. No idoso frágil ou com expectativa de vida limitada o alvo é individualizado, com metas menos rígidas.",
   "porAlt": [
    "Alvo de 160 por 100 mmHg deixa risco cardiovascular evitável sem tratamento adequado.",
@@ -11534,7 +11534,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r3",
   "base": "USPSTF colorectal cancer screening, 2021; ACS guideline, atualização 2024",
-  "coment": "O rastreio de câncer colorretal produz benefício com defasagem de aproximadamente dez anos entre o exame e a redução de mortalidade, enquanto o dano — preparo, sedação, perfuração, achados incidentais — é imediato. Em expectativa de vida inferior a esse intervalo, o rastreio causa mais dano que benefício. As diretrizes recomendam individualizar entre setenta e seis e oitenta e cinco anos e não rastrear acima disso, considerando expectativa e preferência.",
+  "coment": "O rastreio de câncer colorretal produz benefício com defasagem de aproximadamente dez anos entre o exame e a redução de mortalidade, enquanto o dano (preparo, sedação, perfuração, achados incidentais) é imediato. Em expectativa de vida inferior a esse intervalo, o rastreio causa mais dano que benefício. As diretrizes recomendam individualizar entre setenta e seis e oitenta e cinco anos e não rastrear acima disso, considerando expectativa e preferência.",
   "porAlt": [
    "Manter o rastreio sem considerar prognóstico expõe a dano imediato sem benefício alcançável.",
    "A tomografia de abdome não é método de rastreio de câncer colorretal em nenhuma diretriz atual.",
@@ -11582,7 +11582,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r2",
   "base": "IDSA guideline for antimicrobial use in neutropenic patients, revisão 2024; ASCO/IDSA outpatient management, 2018",
-  "coment": "Neutropenia febril é emergência oncológica: temperatura isolada de 38,3 °C ou 38,0 °C mantida por uma hora com neutrófilos abaixo de 500 por milímetro cúbico. O antibiótico de amplo espectro com cobertura antipseudomonas — cefepima, piperacilina-tazobactam ou meropenem — é administrado na primeira hora, após coleta de culturas, sem esperar resultado. Vancomicina não é rotina, entrando em suspeita de cateter, pele ou instabilidade. Antifúngico entra na febre persistente.",
+  "coment": "Neutropenia febril é emergência oncológica: temperatura isolada de 38,3 °C ou 38,0 °C mantida por uma hora com neutrófilos abaixo de 500 por milímetro cúbico. O antibiótico de amplo espectro com cobertura antipseudomonas (cefepima, piperacilina-tazobactam ou meropenem) é administrado na primeira hora, após coleta de culturas, sem esperar resultado. Vancomicina não é rotina, entrando em suspeita de cateter, pele ou instabilidade. Antifúngico entra na febre persistente.",
   "porAlt": [
    "Aguardar culturas atrasa em horas o antibiótico e aumenta a mortalidade nessa emergência.",
    "Antitérmico isolado não trata a infecção e permite evolução para choque em poucas horas.",
@@ -11605,7 +11605,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ESMO Clinical Practice Guidelines — hypercalcaemia of malignancy, 2020; Endocrine Society, revisão 2023",
+  "base": "ESMO Clinical Practice Guidelines, hypercalcaemia of malignancy, 2020; Endocrine Society, revisão 2023",
   "coment": "A hipercalcemia da malignidade cursa com desidratação grave, porque o cálcio elevado gera diabetes insípido nefrogênico. O primeiro passo é hidratação vigorosa com salina isotônica, que restaura o volume e aumenta a excreção renal de cálcio. Em seguida entra bisfosfonato endovenoso, como zoledronato, com efeito em dois a quatro dias, ou denosumabe. Diurético de alça não é rotina e só entra após reposição, se houver sobrecarga. Calcitonina serve à queda rápida inicial.",
   "porAlt": [
    "Correta: hidratação vigorosa com salina isotônica seguida de bisfosfonato endovenoso.",
@@ -11629,7 +11629,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ASCO/British Committee for Standards in Haematology — tumour lysis syndrome, revisão 2023",
+  "base": "ASCO/British Committee for Standards in Haematology. Tumour lysis syndrome, revisão 2023",
   "coment": "A síndrome de lise tumoral resulta da destruição maciça de células com liberação de potássio, fósforo e ácidos nucleicos. O padrão é hipercalemia, hiperfosfatemia, hiperuricemia e hipocalcemia secundária à quelação pelo fósforo, com lesão renal aguda. A prevenção e o tratamento incluem hidratação vigorosa, alopurinol nos casos de risco intermediário e rasburicase no alto risco ou na hiperuricemia estabelecida. Cálcio só se repõe se houver sintoma, pela precipitação.",
   "porAlt": [
    "Correta: o padrão eletrolítico com lesão renal após quimioterapia define a síndrome de lise tumoral.",
@@ -11653,7 +11653,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "NICE guideline NG234 — Metastatic spinal cord compression, 2023; ESMO guideline, 2020",
+  "base": "NICE guideline NG234: Metastatic spinal cord compression, 2023; ESMO guideline, 2020",
   "coment": "Compressão medular metastática é emergência: o preditor mais forte de recuperação é o estado neurológico no momento do tratamento, de modo que quem chega deambulando tende a continuar deambulando e quem chega plégico raramente recupera. A conduta é dexametasona imediata e ressonância de toda a coluna em até vinte e quatro horas, seguida de decisão entre cirurgia descompressiva e radioterapia. Dor lombar em paciente oncológico com déficit motor é compressão até prova contrária.",
   "porAlt": [
    "Agendar imagem eletiva permite que o déficit se complete e se torne irreversível nesse intervalo.",
@@ -11677,7 +11677,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "INCA/Ministério da Saúde — Diretrizes para a detecção precoce do câncer de mama no Brasil, revisão 2023",
+  "base": "INCA/Ministério da Saúde, Diretrizes para a detecção precoce do câncer de mama no Brasil, revisão 2023",
   "coment": "No Brasil, a recomendação oficial para mulheres de risco habitual é mamografia bienal dos cinquenta aos sessenta e nove anos, com decisão compartilhada e informação sobre benefícios e danos, incluindo resultado falso-positivo e sobrediagnóstico. Sociedades médicas defendem início aos quarenta anos e periodicidade anual, divergência que o candidato precisa conhecer. Ultrassonografia e ressonância são complementares ou reservadas ao alto risco, não ao rastreio populacional.",
   "porAlt": [
    "Iniciar aos vinte e cinco anos não tem respaldo e produz muito mais dano do que benefício.",
@@ -11701,7 +11701,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "ESMO Clinical Practice Guidelines — cancer pain management, 2018 com atualização 2023; ANZSPM revisão 2022",
+  "base": "ESMO Clinical Practice Guidelines. Cancer pain management, 2018 com atualização 2023; ANZSPM revisão 2022",
   "coment": "A constipação induzida por opioide não sofre tolerância: persiste enquanto durar o tratamento, diferentemente de náusea e sonolência. Por isso o laxante é prescrito de forma profilática desde o início, tipicamente combinando estimulante como bisacodil ou sena com osmótico como polietilenoglicol ou lactulose. Fibra isolada é insuficiente e pode piorar em paciente com baixa ingesta hídrica. Antagonistas periféricos como metilnaltrexona ficam para casos refratários.",
   "porAlt": [
    "Suspender o opioide deixa a dor sem controle e o anti-inflamatório é insuficiente na dor intensa.",
@@ -11749,8 +11749,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ASCO Patient-Clinician Communication guideline, 2017; ANCP — Manual de Cuidados Paliativos, 2ª edição, 2021",
-  "coment": "A comunicação de más notícias segue protocolos como o SPIKES: preparar o ambiente, verificar a percepção do paciente, obter o convite — quanto ele deseja saber —, dar a informação em linguagem simples, acolher a emoção e traçar o plano. Prognóstico é comunicado em intervalos, como dias a semanas ou semanas a meses, e não em número exato. Omitir informação de quem quer saber viola a autonomia; informar só ao familiar configura conspiração do silêncio.",
+  "base": "ASCO Patient-Clinician Communication guideline, 2017; ANCP, Manual de Cuidados Paliativos, 2ª edição, 2021",
+  "coment": "A comunicação de más notícias segue protocolos como o SPIKES: preparar o ambiente, verificar a percepção do paciente, obter o convite, quanto ele deseja saber, dar a informação em linguagem simples, acolher a emoção e traçar o plano. Prognóstico é comunicado em intervalos, como dias a semanas ou semanas a meses, e não em número exato. Omitir informação de quem quer saber viola a autonomia; informar só ao familiar configura conspiração do silêncio.",
   "porAlt": [
    "Números exatos não são confiáveis individualmente; comunica-se em intervalos de tempo amplos.",
    "Omitir informação de quem deseja saber viola a autonomia e impede o planejamento do cuidado.",
@@ -11773,7 +11773,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA — Detecção precoce do câncer de mama, revisão 2023; NCCN Breast Cancer Screening and Diagnosis, 2024",
+  "base": "INCA. Detecção precoce do câncer de mama, revisão 2023; NCCN Breast Cancer Screening and Diagnosis, 2024",
   "coment": "Lesão palpável suspeita exige investigação independentemente da mamografia, que tem sensibilidade reduzida em mama densa e pode ser normal em até quinze por cento dos cânceres palpáveis. A conduta é ultrassonografia complementar e biópsia da lesão, geralmente por agulha grossa, que fornece histologia e perfil imuno-histoquímico. Achados de alarme incluem consistência endurecida, fixação a planos profundos, retração de pele e linfonodo axilar endurecido.",
   "porAlt": [
    "Repetir em doze meses permite a progressão da doença e perde a janela de tratamento curativo.",
@@ -11821,7 +11821,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "NCCN Melanoma: Cutaneous, 2024; Sociedade Brasileira de Dermatologia — consenso de melanoma, 2023",
+  "base": "NCCN Melanoma: Cutaneous, 2024; Sociedade Brasileira de Dermatologia. Consenso de melanoma, 2023",
   "coment": "Lesão pigmentada com assimetria, bordas irregulares, cores variadas e diâmetro acima de seis milímetros é suspeita de melanoma. O procedimento indicado é biópsia excisional com margem de um a três milímetros, incluindo toda a espessura até a gordura subcutânea, porque a espessura de Breslow determina prognóstico e margens definitivas. Raspagem, crioterapia e eletrocoagulação destroem a lesão ou truncam a profundidade e inviabilizam o estadiamento.",
   "porAlt": [
    "A raspagem pode truncar a base da lesão e impedir a medida correta da espessura de Breslow.",
@@ -11917,7 +11917,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "NCCN Basal Cell Skin Cancer, 2024; Sociedade Brasileira de Dermatologia — câncer da pele não melanoma, 2023",
+  "base": "NCCN Basal Cell Skin Cancer, 2024; Sociedade Brasileira de Dermatologia. Câncer da pele não melanoma, 2023",
   "coment": "O carcinoma basocelular é o câncer de pele mais frequente, típico de áreas fotoexpostas em pessoas com exposição solar crônica. A apresentação clássica é pápula perolada com telangiectasias e bordas elevadas, de crescimento lento, que pode ulcerar no centro. É localmente invasivo e raramente metastatiza, mas em área de risco como a asa nasal a destruição local é importante. Confirma-se por biópsia e trata-se por excisão, com cirurgia micrográfica nas áreas de risco.",
   "porAlt": [
    "O melanoma amelanótico tem crescimento rápido e não apresenta o aspecto perolado característico.",
@@ -11989,8 +11989,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "CDC — Shingles clinical guidance, revisão 2024; IDSA/AAD recomendações sobre herpes-zóster, 2022",
-  "coment": "O herpes-zóster é reativação do vírus varicela-zóster em um dermátomo. O antiviral — aciclovir, valaciclovir ou fanciclovir — deve começar preferencialmente nas primeiras setenta e duas horas do início das lesões, reduzindo duração e, em parte, a neuralgia pós-herpética. Analgesia adequada é essencial, e casos com dor intensa podem exigir gabapentinoide. Acometimento oftálmico, disseminação ou imunossupressão exigem avaliação especializada e tratamento endovenoso.",
+  "base": "CDC: Shingles clinical guidance, revisão 2024; IDSA/AAD recomendações sobre herpes-zóster, 2022",
+  "coment": "O herpes-zóster é reativação do vírus varicela-zóster em um dermátomo. O antiviral (aciclovir, valaciclovir ou fanciclovir) deve começar preferencialmente nas primeiras setenta e duas horas do início das lesões, reduzindo duração e, em parte, a neuralgia pós-herpética. Analgesia adequada é essencial, e casos com dor intensa podem exigir gabapentinoide. Acometimento oftálmico, disseminação ou imunossupressão exigem avaliação especializada e tratamento endovenoso.",
   "porAlt": [
    "Medidas tópicas isoladas não reduzem a duração do quadro nem o risco de neuralgia pós-herpética.",
    "O antibiótico não tem ação sobre o vírus e só entra se houver infecção bacteriana secundária.",
@@ -12013,7 +12013,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase, 2022; OMS Guidelines, 2018",
+  "base": "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase, 2022; OMS Guidelines, 2018",
   "coment": "Mácula hipocrômica com alteração de sensibilidade e espessamento de nervo periférico é diagnóstico clínico de hanseníase, que dispensa exame complementar para iniciar o tratamento. A doença é de notificação compulsória. A poliquimioterapia atual é o esquema único com rifampicina, dapsona e clofazimina, por seis meses nos paucibacilares e doze nos multibacilares. Todos os contatos domiciliares são examinados e recebem quimioprofilaxia com rifampicina em dose única quando elegíveis.",
   "porAlt": [
    "Correta: diagnóstico clínico, notificação, poliquimioterapia e avaliação de contatos domiciliares.",
@@ -12085,7 +12085,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "APA Practice Guideline for the Treatment of Patients With Schizophrenia, 2020; Ministério da Saúde — Rede de Atenção Psicossocial",
+  "base": "APA Practice Guideline for the Treatment of Patients With Schizophrenia, 2020; Ministério da Saúde. Rede de Atenção Psicossocial",
   "coment": "O primeiro episódio psicótico é tratado com antipsicótico, preferindo os de segunda geração pelo menor risco extrapiramidal, com atenção ao ganho de peso e ao perfil metabólico. A duração da psicose não tratada é preditor de pior desfecho, o que justifica iniciar sem demora. O cuidado inclui intervenção psicossocial, apoio familiar e vinculação ao centro de atenção psicossocial. Internação involuntária se reserva a risco a si ou a terceiros, com comunicação formal.",
   "porAlt": [
    "O ansiolítico não trata sintomas psicóticos e o atraso piora o prognóstico funcional a longo prazo.",
@@ -12109,7 +12109,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "NICE guidance on antipsychotic adverse effects, revisão 2023; Critical Care Medicine — neuroleptic malignant syndrome review, 2022",
+  "base": "NICE guidance on antipsychotic adverse effects, revisão 2023; Critical Care Medicine, neuroleptic malignant syndrome review, 2022",
   "coment": "A síndrome neuroléptica maligna cursa com hipertermia, rigidez em cano de chumbo, alteração de consciência, instabilidade autonômica e elevação importante de CPK, com risco de rabdomiólise e lesão renal aguda. A conduta imediata é suspender o antipsicótico e oferecer suporte: hidratação vigorosa, resfriamento, correção eletrolítica e monitorização. Em casos graves usam-se dantroleno e bromocriptina. Benzodiazepínico ajuda na agitação e na rigidez leve.",
   "porAlt": [
    "Aumentar a dose agrava diretamente a síndrome e aumenta o risco de morte do paciente.",
@@ -12133,7 +12133,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management, 2020; Ministério da Saúde — abordagem do uso de álcool, 2022",
+  "base": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management, 2020; Ministério da Saúde. Abordagem do uso de álcool, 2022",
   "coment": "A abstinência alcoólica é tratada com benzodiazepínico, titulado preferencialmente por escala de sintomas como a CIWA-Ar, o que reduz a dose total e o tempo de tratamento. Em hepatopatia grave preferem-se lorazepam ou oxazepam. A tiamina é administrada antes de qualquer carga de glicose, porque a glicose consome tiamina e pode precipitar encefalopatia de Wernicke. Alucinações e delirium tremens indicam quadro grave, com necessidade de monitorização estreita.",
   "porAlt": [
    "O antipsicótico isolado não previne convulsões e reduz o limiar convulsivo do paciente em abstinência.",
@@ -12157,7 +12157,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "WHO — Preventing suicide: a resource for general physicians, revisão 2021; Ministério da Saúde — prevenção do suicídio, 2021",
+  "base": "WHO (Preventing suicide: a resource for general physicians, revisão 2021; Ministério da Saúde) prevenção do suicídio, 2021",
   "coment": "Ideação suicida com plano estruturado e acesso ao meio caracteriza risco alto e exige ação imediata: não deixar a pessoa sozinha, restringir o acesso ao meio com apoio da rede, envolver familiares ou pessoas de confiança e avaliar necessidade de internação, que pode ser involuntária se houver risco iminente e recusa. Perguntar diretamente sobre suicídio não induz o comportamento e é parte essencial da avaliação, além de aliviar o paciente.",
   "porAlt": [
    "Retorno em trinta dias deixa desprotegido um paciente com risco imediato e plano estruturado.",
@@ -12181,7 +12181,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "NICE guideline CG113 — Generalised anxiety disorder, revisão 2023; APA/Canadian anxiety guidelines, 2022",
+  "base": "NICE guideline CG113: Generalised anxiety disorder, revisão 2023; APA/Canadian anxiety guidelines, 2022",
   "coment": "O transtorno de ansiedade generalizada tem como primeira linha a terapia cognitivo-comportamental e os antidepressivos serotoninérgicos, isolados ou combinados. A resposta medicamentosa leva de quatro a seis semanas e o início costuma ser com dose baixa, para evitar piora inicial da ansiedade. Benzodiazepínicos podem ser usados por curto período em sintomas incapacitantes, evitando uso contínuo por dependência, prejuízo cognitivo e risco de quedas.",
   "porAlt": [
    "O uso contínuo de benzodiazepínico gera dependência, prejuízo cognitivo e risco aumentado de quedas.",
@@ -12205,7 +12205,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "EXTRIP workgroup recommendations for lithium poisoning, 2015; NICE CG185 — Bipolar disorder, revisão 2023",
+  "base": "EXTRIP workgroup recommendations for lithium poisoning, 2015; NICE CG185. Bipolar disorder, revisão 2023",
   "coment": "A intoxicação por lítio se manifesta com tremor grosseiro, ataxia, disartria, vômitos, confusão e, em casos graves, convulsão e arritmia. A conduta é suspender o lítio, hidratar com salina isotônica para restaurar a filtração e corrigir a depleção de sódio, e considerar hemodiálise, que é o método eficaz de remoção, indicada em níveis muito elevados, alteração neurológica grave ou insuficiência renal. Tiazídicos e anti-inflamatórios aumentam a litemia.",
   "porAlt": [
    "Manter o lítio em intoxicação estabelecida permite a progressão do dano neurológico do paciente.",
@@ -12253,7 +12253,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "AGS Beers Criteria, 2023; Choosing Wisely Canada — benzodiazepine deprescribing guideline, revisão 2023",
+  "base": "AGS Beers Criteria, 2023; Choosing Wisely Canada. Benzodiazepine deprescribing guideline, revisão 2023",
   "coment": "O uso crônico de benzodiazepínico no idoso associa-se a quedas, fraturas, prejuízo cognitivo, acidentes e dependência, e o benefício hipnótico se perde em poucas semanas. A desprescrição é gradual, reduzindo cerca de vinte e cinco por cento da dose a cada duas semanas, com pactuação e apoio, associada a terapia cognitivo-comportamental para insônia, que é o tratamento de primeira linha. Retirada abrupta pode causar abstinência com ansiedade, insônia e convulsão.",
   "porAlt": [
    "A suspensão abrupta pode causar abstinência grave, com ansiedade intensa, insônia e convulsão.",
@@ -12277,7 +12277,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "NICE guideline CG192 — Antenatal and postnatal mental health, revisão 2023; ACOG Committee Opinion, atualização 2023",
+  "base": "NICE guideline CG192. Antenatal and postnatal mental health, revisão 2023; ACOG Committee Opinion, atualização 2023",
   "coment": "A depressão pós-parto é frequente e subdiagnosticada, e se distingue do blues puerperal pela duração e pela intensidade do prejuízo. O rastreio pode ser feito pela escala de Edimburgo, com atenção especial ao item de autoagressão. O tratamento combina psicoterapia e, quando necessário, antidepressivo: sertralina é habitualmente preferida pela baixa transferência para o leite, de modo que a amamentação em geral pode ser mantida. Ideias de morte ou sintomas psicóticos exigem avaliação urgente.",
   "porAlt": [
    "Aguardar sem tratar prolonga o sofrimento e prejudica o vínculo e o desenvolvimento do bebê.",
@@ -12301,8 +12301,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2021/2023 — insuficiência cardíaca: quatro pilares",
-  "coment": "Os quatro pilares da insuficiência cardíaca de fração reduzida são bloqueio do sistema renina-angiotensina — preferencialmente sacubitril-valsartana —, betabloqueador, antagonista mineralocorticoide e inibidor do SGLT2. Ele usa apenas um. Com pressão, potássio e função renal adequados, os três restantes devem ser introduzidos em doses baixas e titulados rapidamente.",
+  "base": "ESC 2021/2023, insuficiência cardíaca: quatro pilares",
+  "coment": "Os quatro pilares da insuficiência cardíaca de fração reduzida são bloqueio do sistema renina-angiotensina, preferencialmente sacubitril-valsartana, betabloqueador, antagonista mineralocorticoide e inibidor do SGLT2. Ele usa apenas um. Com pressão, potássio e função renal adequados, os três restantes devem ser introduzidos em doses baixas e titulados rapidamente.",
   "porAlt": [
    "Correta: completar os pilares é o que muda mortalidade.",
    "O diurético alivia congestão, mas não altera prognóstico.",
@@ -12325,8 +12325,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ACC/AHA 2025 — SCA com supra: angioplastia primária e tempos-alvo",
-  "coment": "Com hemodinâmica disponível e tempo do diagnóstico até o fio-guia dentro de 60 minutos em centro com angioplastia, a reperfusão de escolha é a angioplastia primária — superior à fibrinólise em mortalidade, reinfarto e acidente vascular hemorrágico. Antes de nitrato, a parede inferior obriga a pedir V3R–V4R.",
+  "base": "ACC/AHA 2025. SCA com supra: angioplastia primária e tempos-alvo",
+  "coment": "Com hemodinâmica disponível e tempo do diagnóstico até o fio-guia dentro de 60 minutos em centro com angioplastia, a reperfusão de escolha é a angioplastia primária, superior à fibrinólise em mortalidade, reinfarto e acidente vascular hemorrágico. Antes de nitrato, a parede inferior obriga a pedir V3R–V4R.",
   "porAlt": [
    "Correta: reperfusão mecânica disponível dentro do tempo-alvo.",
    "A fibrinólise é para quando a angioplastia não é alcançável em 120 minutos.",
@@ -12349,8 +12349,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2021 — valvopatias: escolha entre cirurgia e transcateter",
-  "coment": "Estenose aórtica grave sintomática indica substituição valvar. Em paciente idoso, frágil e com risco cirúrgico alto, o implante transcateter é a via preferida — mostrou não inferioridade e, em vários cenários, superioridade sobre a cirurgia nessa faixa de risco, com recuperação mais rápida.",
+  "base": "ESC 2021. Valvopatias: escolha entre cirurgia e transcateter",
+  "coment": "Estenose aórtica grave sintomática indica substituição valvar. Em paciente idoso, frágil e com risco cirúrgico alto, o implante transcateter é a via preferida. Mostrou não inferioridade e, em vários cenários, superioridade sobre a cirurgia nessa faixa de risco, com recuperação mais rápida.",
   "porAlt": [
    "Correta: grave sintomática com risco cirúrgico alto favorece o transcateter.",
    "A cirurgia aberta tem morbimortalidade maior nesse perfil.",
@@ -12373,7 +12373,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "SBC 2025 — dislipidemia: metas por estrato de risco no diabético",
+  "base": "SBC 2025, dislipidemia: metas por estrato de risco no diabético",
   "coment": "Diabetes com fator de risco adicional e LDL acima de 160 mg/dL coloca o paciente em risco cardiovascular alto, com meta de LDL abaixo de 70 mg/dL e redução de pelo menos 50% do basal. Isso exige estatina de alta potência, com ezetimiba associada se a meta não for alcançada.",
   "porAlt": [
    "Correta: risco alto exige alta potência e meta abaixo de 70 mg/dL.",
@@ -12397,8 +12397,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ESC 2019 — taquicardias supraventriculares: sequência terapêutica",
-  "coment": "Taquicardia supraventricular estável tem sequência definida: manobra vagal primeiro — a modificada, com decúbito e elevação das pernas, tem rendimento maior que a clássica —, e adenosina se falhar. A cardioversão fica para a instabilidade, e os bloqueadores de canal de cálcio são segunda linha.",
+  "base": "ESC 2019, taquicardias supraventriculares: sequência terapêutica",
+  "coment": "Taquicardia supraventricular estável tem sequência definida: manobra vagal primeiro (a modificada, com decúbito e elevação das pernas, tem rendimento maior que a clássica), e adenosina se falhar. A cardioversão fica para a instabilidade, e os bloqueadores de canal de cálcio são segunda linha.",
   "porAlt": [
    "Correta: manobra vagal primeiro, adenosina depois.",
    "A cardioversão elétrica é para o instável.",
@@ -12421,8 +12421,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "SBC 2025 — emergências hipertensivas: alvos de redução",
-  "coment": "Papiledema com lesão renal aguda em progressão define emergência hipertensiva. O tratamento é intravenoso, titulável, em ambiente monitorado, com redução de até 25% da pressão arterial média na primeira hora e chegada gradual a valores próximos do normal em 24 a 48 horas — a autorregulação cerebral e renal está deslocada e queda abrupta causa isquemia.",
+  "base": "SBC 2025. Emergências hipertensivas: alvos de redução",
+  "coment": "Papiledema com lesão renal aguda em progressão define emergência hipertensiva. O tratamento é intravenoso, titulável, em ambiente monitorado, com redução de até 25% da pressão arterial média na primeira hora e chegada gradual a valores próximos do normal em 24 a 48 horas. A autorregulação cerebral e renal está deslocada e queda abrupta causa isquemia.",
   "porAlt": [
    "Correta: intravenoso titulável com redução controlada.",
    "O sublingual produz queda imprevisível e não é recomendado.",
@@ -12445,7 +12445,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "ESC 2024 — fibrilação atrial: anticoagulantes diretos como preferência",
+  "base": "ESC 2024. Fibrilação atrial: anticoagulantes diretos como preferência",
   "coment": "O CHA₂DS₂-VA soma hipertensão (1), diabetes (1) e acidente vascular prévio (2) = 4 pontos, com indicação clara de anticoagulação. Na fibrilação atrial não valvar, os anticoagulantes diretos são preferidos à varfarina por menor risco de hemorragia intracraniana e dispensa de monitorização, com eficácia ao menos equivalente.",
   "porAlt": [
    "Correta: escore alto, sem contraindicação, com preferência pelos diretos.",
@@ -12469,8 +12469,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2018 — tamponamento cardíaco no trauma",
-  "coment": "A tríade de Beck com pulso paradoxal e colapso de câmaras direitas ao ultrassom define tamponamento cardíaco traumático. O tratamento é a descompressão imediata — pericardiocentese como medida temporária ou toracotomia, conforme o cenário e a disponibilidade cirúrgica. O murmúrio simétrico e a traqueia central afastam pneumotórax hipertensivo.",
+  "base": "ATLS 11ª edição, 2018. Tamponamento cardíaco no trauma",
+  "coment": "A tríade de Beck com pulso paradoxal e colapso de câmaras direitas ao ultrassom define tamponamento cardíaco traumático. O tratamento é a descompressão imediata. Pericardiocentese como medida temporária ou toracotomia, conforme o cenário e a disponibilidade cirúrgica. O murmúrio simétrico e a traqueia central afastam pneumotórax hipertensivo.",
   "porAlt": [
    "Correta: tamponamento exige descompressão imediata.",
    "Não há sinais de pneumotórax: murmúrio simétrico e traqueia central.",
@@ -12493,7 +12493,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2023 — insuficiência cardíaca de fração preservada",
+  "base": "ESC 2023, insuficiência cardíaca de fração preservada",
   "coment": "Na insuficiência cardíaca de fração preservada, os inibidores do SGLT2 são a classe com redução consistente do desfecho de morte cardiovascular e internação, demonstrada no EMPEROR-Preserved e no DELIVER, independentemente de diabetes. Controle pressórico e manejo da obesidade completam o tratamento, e na obesidade os análogos de GLP-1 entraram como opção na diretriz de 2026.",
   "porAlt": [
    "Correta: única classe com benefício consistente nesse fenótipo.",
@@ -12517,7 +12517,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2023 — insuficiência cardíaca de fração preservada",
+  "base": "ESC 2023, insuficiência cardíaca de fração preservada",
   "coment": "Na insuficiência cardíaca de fração preservada, os inibidores do SGLT2 são a classe com redução consistente do desfecho de morte cardiovascular e internação, demonstrada no EMPEROR-Preserved e no DELIVER, independentemente de diabetes. Controle pressórico e manejo da obesidade completam o tratamento, e na obesidade os análogos de GLP-1 entraram como opção.",
   "porAlt": [
    "Correta: única classe com benefício consistente nesse fenótipo.",
@@ -12541,8 +12541,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde, 2024 — PCDT de manejo da infecção pelo HIV em adultos",
-  "coment": "O tratamento antirretroviral é indicado para toda pessoa com HIV, independentemente de CD4 ou de sintoma — o ensaio START demonstrou redução de eventos graves com início imediato. O esquema preferencial inicial é dolutegravir com tenofovir e lamivudina. Com CD4 abaixo de 200 associa-se profilaxia para pneumocistose, que não substitui nem adia o antirretroviral.",
+  "base": "Ministério da Saúde, 2024 (PCDT de manejo da infecção pelo HIV em adultos",
+  "coment": "O tratamento antirretroviral é indicado para toda pessoa com HIV, independentemente de CD4 ou de sintoma) o ensaio START demonstrou redução de eventos graves com início imediato. O esquema preferencial inicial é dolutegravir com tenofovir e lamivudina. Com CD4 abaixo de 200 associa-se profilaxia para pneumocistose, que não substitui nem adia o antirretroviral.",
   "porAlt": [
    "Correta: início imediato, qualquer que seja o CD4.",
    "Esperar CD4 cair é a conduta antiga, abandonada desde o START.",
@@ -12565,7 +12565,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde, 2019 — Manual de recomendações para o controle da tuberculose",
+  "base": "Ministério da Saúde, 2019, Manual de recomendações para o controle da tuberculose",
   "coment": "O teste rápido molecular é o exame de escolha inicial no Brasil para tuberculose pulmonar: detecta o DNA do bacilo e a resistência à rifampicina em cerca de duas horas, com sensibilidade superior à baciloscopia. A cultura com teste de sensibilidade é colhida em paralelo, e o teste para HIV é obrigatório em todo caso novo.",
   "porAlt": [
    "Correta: exame inicial, com detecção de resistência no mesmo resultado.",
@@ -12589,8 +12589,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Ministério da Saúde, 2024 — Dengue: diagnóstico e manejo clínico",
-  "coment": "A prova do laço positiva, sem sinais de alarme e sem instabilidade, classifica como grupo B — sangramento espontâneo de pele ou prova do laço positiva, ou condição de risco associada. A conduta é hidratação oral supervisionada em unidade de saúde, com hemograma colhido e reavaliação até o resultado, antes de decidir a alta.",
+  "base": "Ministério da Saúde, 2024 (Dengue: diagnóstico e manejo clínico",
+  "coment": "A prova do laço positiva, sem sinais de alarme e sem instabilidade, classifica como grupo B) sangramento espontâneo de pele ou prova do laço positiva, ou condição de risco associada. A conduta é hidratação oral supervisionada em unidade de saúde, com hemograma colhido e reavaliação até o resultado, antes de decidir a alta.",
   "porAlt": [
    "Correta: prova do laço positiva sem alarme define grupo B.",
    "O grupo A não tem sangramento espontâneo nem prova do laço positiva.",
@@ -12613,8 +12613,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde, 2014 — Leptospirose: diagnóstico e manejo clínico",
-  "coment": "Icterícia rubínica, insuficiência renal com hipocalemia — a leptospirose cursa com perda tubular de potássio, ao contrário de outras causas de lesão renal —, sufusão conjuntival, mialgia de panturrilhas e exposição a enchente compõem a síndrome de Weil. O tratamento é penicilina cristalina ou ceftriaxona, com suporte, e não se aguarda sorologia para iniciar.",
+  "base": "Ministério da Saúde, 2014, Leptospirose: diagnóstico e manejo clínico",
+  "coment": "Icterícia rubínica, insuficiência renal com hipocalemia (a leptospirose cursa com perda tubular de potássio, ao contrário de outras causas de lesão renal), sufusão conjuntival, mialgia de panturrilhas e exposição a enchente compõem a síndrome de Weil. O tratamento é penicilina cristalina ou ceftriaxona, com suporte, e não se aguarda sorologia para iniciar.",
   "porAlt": [
    "Correta: quadro clássico de leptospirose ictérica com lesão renal.",
    "A hepatite viral não cursa com lesão renal e hipocalemia.",
@@ -12637,8 +12637,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "IDSA 2004 e ESCMID 2016 — meningite bacteriana aguda",
-  "coment": "Na meningite bacteriana o antibiótico não espera resultado: cada hora de atraso aumenta mortalidade. A dexametasona deve ser administrada antes ou junto com a primeira dose — reduz sequela auditiva e mortalidade na meningite pneumocócica, e perde o efeito se dada depois. Sem déficit focal, papiledema, convulsão ou imunossupressão, a tomografia não precede a punção.",
+  "base": "IDSA 2004 e ESCMID 2016. Meningite bacteriana aguda",
+  "coment": "Na meningite bacteriana o antibiótico não espera resultado: cada hora de atraso aumenta mortalidade. A dexametasona deve ser administrada antes ou junto com a primeira dose. Reduz sequela auditiva e mortalidade na meningite pneumocócica, e perde o efeito se dada depois. Sem déficit focal, papiledema, convulsão ou imunossupressão, a tomografia não precede a punção.",
   "porAlt": [
    "Correta: corticoide antes ou junto do antibiótico, sem esperar o líquor.",
    "Esperar o líquor atrasa o tratamento que define o desfecho.",
@@ -12661,8 +12661,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Ministério da Saúde, 2021 — Guia de tratamento da malária no Brasil",
-  "coment": "Febre em viajante procedente de área endêmica é malária até prova em contrário, e o diagnóstico é urgente: gota espessa — ainda o padrão no Brasil, que identifica espécie e parasitemia — ou teste rápido. A espécie determina o esquema, e a falciparum pode evoluir para forma grave em horas. Tratamento empírico sem diagnóstico não é a regra quando o exame está disponível no mesmo dia.",
+  "base": "Ministério da Saúde, 2021 (Guia de tratamento da malária no Brasil",
+  "coment": "Febre em viajante procedente de área endêmica é malária até prova em contrário, e o diagnóstico é urgente: gota espessa) ainda o padrão no Brasil, que identifica espécie e parasitemia, ou teste rápido. A espécie determina o esquema, e a falciparum pode evoluir para forma grave em horas. Tratamento empírico sem diagnóstico não é a regra quando o exame está disponível no mesmo dia.",
   "porAlt": [
    "Correta: diagnóstico rápido define espécie e esquema.",
    "Tratar às cegas com cloroquina falha na falciparum resistente.",
@@ -12685,8 +12685,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde, 2021 — PCDT de profilaxia pós-exposição de risco ao HIV",
-  "coment": "Exposição percutânea profunda com agulha oca e sangue visível, de fonte com carga viral detectável, é indicação de profilaxia pós-exposição. Deve começar o quanto antes, idealmente nas primeiras duas horas e no máximo em 72 horas, com esquema de três fármacos por 28 dias — tenofovir, lamivudina e dolutegravir. O acompanhamento sorológico corre em paralelo.",
+  "base": "Ministério da Saúde, 2021. PCDT de profilaxia pós-exposição de risco ao HIV",
+  "coment": "Exposição percutânea profunda com agulha oca e sangue visível, de fonte com carga viral detectável, é indicação de profilaxia pós-exposição. Deve começar o quanto antes, idealmente nas primeiras duas horas e no máximo em 72 horas, com esquema de três fármacos por 28 dias, tenofovir, lamivudina e dolutegravir. O acompanhamento sorológico corre em paralelo.",
   "porAlt": [
    "Correta: exposição de alto risco, profilaxia imediata por 28 dias.",
    "Esperar sorologia perde a janela de maior eficácia.",
@@ -12709,8 +12709,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2023 — endocardite infecciosa: indicações de cirurgia precoce",
-  "coment": "Insuficiência cardíaca por disfunção valvar aguda é a principal indicação de cirurgia precoce na endocardite, e não se espera completar o antibiótico — o fechamento mitral precoce indica pressão diastólica ventricular muito elevada, sinal de gravidade hemodinâmica. As outras indicações precoces são infecção não controlada e embolia recorrente com vegetação grande.",
+  "base": "ESC 2023. Endocardite infecciosa: indicações de cirurgia precoce",
+  "coment": "Insuficiência cardíaca por disfunção valvar aguda é a principal indicação de cirurgia precoce na endocardite, e não se espera completar o antibiótico, o fechamento mitral precoce indica pressão diastólica ventricular muito elevada, sinal de gravidade hemodinâmica. As outras indicações precoces são infecção não controlada e embolia recorrente com vegetação grande.",
   "porAlt": [
    "Correta: insuficiência cardíaca por lesão valvar aguda indica cirurgia precoce.",
    "Esperar seis semanas com insuficiência aórtica aguda é inaceitável.",
@@ -12733,8 +12733,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA/SHEA 2021 — infecção por Clostridioides difficile",
-  "coment": "A vancomicina oral e a fidaxomicina são as primeiras escolhas no episódio inicial — o metronidazol foi rebaixado a alternativa quando nenhuma das duas está disponível, por taxas de cura inferiores. A vancomicina intravenosa não atinge a luz intestinal e é inútil. O transplante de microbiota é para recorrências múltiplas, e antimotilidade se evita pelo risco de megacólon.",
+  "base": "IDSA/SHEA 2021 (infecção por Clostridioides difficile",
+  "coment": "A vancomicina oral e a fidaxomicina são as primeiras escolhas no episódio inicial) o metronidazol foi rebaixado a alternativa quando nenhuma das duas está disponível, por taxas de cura inferiores. A vancomicina intravenosa não atinge a luz intestinal e é inútil. O transplante de microbiota é para recorrências múltiplas, e antimotilidade se evita pelo risco de megacólon.",
   "porAlt": [
    "Correta: são as primeiras escolhas no episódio inicial.",
    "O metronidazol deixou de ser primeira escolha por inferioridade.",
@@ -12757,8 +12757,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde, 2022 — PCDT de infecções sexualmente transmissíveis",
-  "coment": "O cancro duro define sífilis primária — recente —, tratada com penicilina benzatina 2,4 milhões UI por via intramuscular em dose única. As três doses semanais são para sífilis tardia ou de duração ignorada. A penicilina cristalina intravenosa fica para neurossífilis, e a doxiciclina é alternativa apenas na alergia comprovada, não sendo opção em gestante.",
+  "base": "Ministério da Saúde, 2022. PCDT de infecções sexualmente transmissíveis",
+  "coment": "O cancro duro define sífilis primária, recente, tratada com penicilina benzatina 2,4 milhões UI por via intramuscular em dose única. As três doses semanais são para sífilis tardia ou de duração ignorada. A penicilina cristalina intravenosa fica para neurossífilis, e a doxiciclina é alternativa apenas na alergia comprovada, não sendo opção em gestante.",
   "porAlt": [
    "Correta: sífilis recente, dose única.",
    "Três doses é o esquema da sífilis tardia ou de duração ignorada.",
@@ -12805,7 +12805,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; SBEM — Consenso de hipotireoidismo, 2022",
+  "base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; SBEM, Consenso de hipotireoidismo, 2022",
   "coment": "TSH elevado com T4 livre baixo define hipotireoidismo primário franco, cujo tratamento é levotiroxina, tipicamente 1,6 microgramas por quilo ao dia em adultos jovens sem cardiopatia, com dose inicial menor no idoso e no coronariopata. A absorção exige jejum, com intervalo de trinta a sessenta minutos antes do café e afastamento de cálcio, ferro e inibidores de bomba de prótons. O TSH é reavaliado em seis a oito semanas, tempo necessário para o novo equilíbrio.",
   "porAlt": [
    "O metimazol trata hipertireoidismo e agravaria ainda mais o hipotireoidismo descrito no caso.",
@@ -12854,7 +12854,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r1",
   "base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016 com revisão 2023; SBEM, 2022",
-  "coment": "Hipertireoidismo com exoftalmia caracteriza doença de Graves, autoimune, mediada por anticorpos estimuladores do receptor de TSH. O tratamento inicial combina antitireoidiano — metimazol, exceto no primeiro trimestre de gestação, quando se usa propiltiouracila — e betabloqueador para controle de sintomas adrenérgicos. As alternativas definitivas são iodo radioativo, evitado na orbitopatia moderada a grave por poder agravá-la, e tireoidectomia.",
+  "coment": "Hipertireoidismo com exoftalmia caracteriza doença de Graves, autoimune, mediada por anticorpos estimuladores do receptor de TSH. O tratamento inicial combina antitireoidiano (metimazol, exceto no primeiro trimestre de gestação, quando se usa propiltiouracila) e betabloqueador para controle de sintomas adrenérgicos. As alternativas definitivas são iodo radioativo, evitado na orbitopatia moderada a grave por poder agravá-la, e tireoidectomia.",
   "porAlt": [
    "A tireoidite de Hashimoto cursa com hipotireoidismo, o oposto do padrão hormonal descrito aqui.",
    "O hipotireoidismo central cursa com T4 livre baixo, e não com o T4 elevado do enunciado.",
@@ -12901,7 +12901,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Primary Aldosteronism, 2016 com revisão 2022; Diretriz Brasileira de Hipertensão — SBC, 2025",
+  "base": "Endocrine Society Clinical Practice Guideline (Primary Aldosteronism, 2016 com revisão 2022; Diretriz Brasileira de Hipertensão) SBC, 2025",
   "coment": "Hipertensão resistente com hipocalemia espontânea e alcalose metabólica sugere hiperaldosteronismo primário, hoje reconhecido como a causa secundária mais frequente de hipertensão. O rastreio é a relação entre aldosterona e atividade de renina plasmática, colhida pela manhã com o paciente sentado, corrigindo hipocalemia antes e suspendendo espironolactona por quatro a seis semanas. Após confirmação, tomografia de adrenais e cateterismo de veias adrenais definem lateralização.",
   "porAlt": [
    "O cortisol salivar noturno rastreia síndrome de Cushing, hipótese distinta da sugerida neste caso.",
@@ -12949,7 +12949,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline — Diagnosis and Treatment of Primary Adrenal Insufficiency, revisão 2023",
+  "base": "Endocrine Society Clinical Practice Guideline, Diagnosis and Treatment of Primary Adrenal Insufficiency, revisão 2023",
   "coment": "A insuficiência adrenal primária cursa com deficiência de cortisol e aldosterona: fraqueza, hipotensão, hiponatremia, hipercalemia, e hiperpigmentação decorrente do excesso de ACTH, que estimula receptores de melanocortina na pele. Na crise adrenal o tratamento é imediato, com hidrocortisona endovenosa e reposição volêmica com salina isotônica e glicose, sem esperar confirmação laboratorial. O diagnóstico se confirma depois com cortisol basal e teste de estímulo.",
   "porAlt": [
    "A síndrome de Cushing cursa com hipertensão, hipocalemia e excesso de cortisol, o padrão inverso.",
@@ -12997,7 +12997,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline — Hyperprolactinemia, revisão 2023; Pituitary Society consensus, 2023",
+  "base": "Endocrine Society Clinical Practice Guideline: Hyperprolactinemia, revisão 2023; Pituitary Society consensus, 2023",
   "coment": "Hiperprolactinemia com amenorreia e galactorreia, após excluir gestação, fármacos e hipotireoidismo, exige ressonância de sela túrcica para caracterizar micro ou macroadenoma. O tratamento de primeira linha é agonista dopaminérgico, preferencialmente cabergolina, que normaliza a prolactina e reduz o tumor na maioria dos casos, restaurando a fertilidade. A cirurgia transesfenoidal se reserva a intolerância, resistência ao fármaco ou compressão de vias ópticas.",
   "porAlt": [
    "O contraceptivo pode regularizar o ciclo, mas não trata o adenoma nem reduz a prolactina elevada.",
@@ -13093,7 +13093,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde — PCDT para Hepatite C e Coinfecções, 2024; EASL recommendations on treatment of hepatitis C, 2023",
+  "base": "Ministério da Saúde. PCDT para Hepatite C e Coinfecções, 2024; EASL recommendations on treatment of hepatitis C, 2023",
   "coment": "Todo paciente com hepatite C crônica tem indicação de tratamento, independentemente do grau de fibrose, com antivirais de ação direta pangenotípicos como sofosbuvir com velpatasvir ou glecaprevir com pibrentasvir, por oito a doze semanas, alcançando resposta virológica sustentada acima de noventa e cinco por cento. Interferon foi abandonado. Mesmo após a cura, pacientes com fibrose avançada mantêm rastreio de carcinoma hepatocelular por ultrassom semestral.",
   "porAlt": [
    "Esperar fibrose avançada permite dano hepático evitável, já que hoje se trata todos os pacientes.",
@@ -13166,7 +13166,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r3",
   "base": "Baveno VII consensus on portal hypertension, 2022; AASLD practice guidance on variceal hemorrhage, 2023",
-  "coment": "Na hemorragia digestiva alta do cirrótico, a conduta é estabilização com estratégia restritiva de transfusão, alvo de hemoglobina em torno de 7 g/dL, droga vasoativa como terlipressina ou octreotide iniciada antes da endoscopia, antibiótico profilático com ceftriaxona — que reduz infecção e mortalidade —, e endoscopia diagnóstica e terapêutica nas primeiras doze horas. Transfundir em excesso eleva a pressão portal e pode agravar o sangramento.",
+  "coment": "Na hemorragia digestiva alta do cirrótico, a conduta é estabilização com estratégia restritiva de transfusão, alvo de hemoglobina em torno de 7 g/dL, droga vasoativa como terlipressina ou octreotide iniciada antes da endoscopia, antibiótico profilático com ceftriaxona, que reduz infecção e mortalidade, e endoscopia diagnóstica e terapêutica nas primeiras doze horas. Transfundir em excesso eleva a pressão portal e pode agravar o sangramento.",
   "porAlt": [
    "A endoscopia sem estabilização prévia aumenta o risco de complicações durante o procedimento.",
    "Correta: estabilizar, iniciar vasoativo e antibiótico profilático, com endoscopia nas primeiras horas.",
@@ -13190,7 +13190,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r1",
   "base": "AGA/ACG Clinical Practice Guideline on chronic idiopathic constipation, 2023",
-  "coment": "Na constipação crônica sem sinais de alarme, após medidas comportamentais e fibras, o próximo passo é laxante osmótico, sendo o polietilenoglicol o de melhor evidência e boa tolerância. Laxantes estimulantes são alternativa ou resgate. Secretagogos como linaclotida e lubiprostona ficam para refratários. Colonoscopia é indicada diante de sinais de alarme — sangramento, anemia, perda de peso, idade de rastreio, história familiar — ausentes neste caso.",
+  "coment": "Na constipação crônica sem sinais de alarme, após medidas comportamentais e fibras, o próximo passo é laxante osmótico, sendo o polietilenoglicol o de melhor evidência e boa tolerância. Laxantes estimulantes são alternativa ou resgate. Secretagogos como linaclotida e lubiprostona ficam para refratários. Colonoscopia é indicada diante de sinais de alarme (sangramento, anemia, perda de peso, idade de rastreio, história familiar) ausentes neste caso.",
   "porAlt": [
    "A colonoscopia é indicada por sinais de alarme ou idade de rastreio, ausentes neste caso descrito.",
    "O estimulante é alternativa ou resgate, e não a primeira escolha após a falha das fibras.",
@@ -13237,7 +13237,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "US Multi-Society Task Force on Colorectal Cancer — post-polypectomy surveillance recommendations, atualização 2020 com revisão 2024",
+  "base": "US Multi-Society Task Force on Colorectal Cancer. Post-polypectomy surveillance recommendations, atualização 2020 com revisão 2024",
   "coment": "O intervalo de vigilância após polipectomia depende do número, tamanho e histologia das lesões. Adenoma de dez milímetros ou mais, ou histologia com componente viloso ou displasia de alto grau, ou de três a quatro adenomas, indicam nova colonoscopia em três anos. Um ou dois adenomas tubulares pequenos permitem intervalo de sete a dez anos. Deve-se garantir que a ressecção foi completa e que o preparo permitiu exame adequado de toda a mucosa.",
   "porAlt": [
    "Correta: adenoma de dez milímetros ou mais indica nova colonoscopia em três anos de intervalo.",
@@ -13261,7 +13261,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "GOLD Report — Global Strategy for Prevention, Diagnosis and Management of COPD, 2025",
+  "base": "GOLD Report. Global Strategy for Prevention, Diagnosis and Management of COPD, 2025",
   "coment": "A relação pós-broncodilatador abaixo de 0,7 confirma limitação fixa ao fluxo aéreo. Com histórico de exacerbações, o tratamento inicial recomendado é a combinação de broncodilatador de longa duração antimuscarínico e beta-agonista. A adição de corticoide inalatório é orientada pela contagem de eosinófilos, indicada acima de 300 células por microlitro e considerada entre 100 e 300 com exacerbações. Cessação do tabagismo, vacinação e reabilitação pulmonar são obrigatórias.",
   "porAlt": [
    "O corticoide inalatório isolado não é recomendado nessa doença, sempre associado a broncodilatador.",
@@ -13285,7 +13285,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "GINA — Global Strategy for Asthma Management and Prevention, 2025",
+  "base": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
   "coment": "O tratamento da asma com beta-agonista de curta duração isolado foi abandonado, por aumentar exacerbações graves e mortalidade. Toda pessoa com asma deve receber tratamento contendo corticoide inalatório. A estratégia preferencial combina corticoide inalatório com formoterol, usada conforme a necessidade nas etapas iniciais e como manutenção e resgate nas etapas seguintes. Avaliam-se ainda técnica inalatória, adesão, gatilhos e comorbidades antes de escalonar.",
   "porAlt": [
    "O uso isolado de beta-agonista de curta duração aumenta exacerbações graves e a mortalidade.",
@@ -13358,7 +13358,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r2",
   "base": "GOLD Report, 2025; ERS/ATS guidelines on noninvasive ventilation for acute respiratory failure, 2017 com revisão 2023",
-  "coment": "Na exacerbação com acidose respiratória — pH abaixo de 7,35 com hipercapnia — a ventilação não invasiva com dois níveis de pressão é a intervenção que reduz intubação, mortalidade e tempo de internação, sendo indicação de primeira linha. Associa-se broncodilatador de curta duração, corticoide sistêmico por cinco dias e antibiótico quando há aumento de purulência e volume do escarro. O alvo de saturação é de 88 a 92 por cento, evitando hiperóxia.",
+  "coment": "Na exacerbação com acidose respiratória (pH abaixo de 7,35 com hipercapnia) a ventilação não invasiva com dois níveis de pressão é a intervenção que reduz intubação, mortalidade e tempo de internação, sendo indicação de primeira linha. Associa-se broncodilatador de curta duração, corticoide sistêmico por cinco dias e antibiótico quando há aumento de purulência e volume do escarro. O alvo de saturação é de 88 a 92 por cento, evitando hiperóxia.",
   "porAlt": [
    "A intubação se reserva à falha da ventilação não invasiva ou a contraindicação formal ao método.",
    "O alvo de saturação nessa doença é de 88 a 92 por cento, pois a hiperóxia agrava a hipercapnia.",
@@ -13405,7 +13405,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "ATS/IDSA Guidelines for Community-Acquired Pneumonia, 2019 com revisão 2023; SBPT — Diretrizes de pneumonia, 2023",
+  "base": "ATS/IDSA Guidelines for Community-Acquired Pneumonia, 2019 com revisão 2023; SBPT. Diretrizes de pneumonia, 2023",
   "coment": "O escore CURB-65 estima gravidade pela confusão, ureia, frequência respiratória, pressão arterial e idade acima de sessenta e cinco anos. Pontuação de zero a um permite tratamento ambulatorial na maioria dos casos, com amoxicilina ou amoxicilina com clavulanato, ou macrolídeo conforme o perfil e as comorbidades. A reavaliação em quarenta e oito a setenta e duas horas é essencial para identificar falha terapêutica precoce e complicações.",
   "porAlt": [
    "Correta: tratamento ambulatorial com antibiótico oral e reavaliação clínica em quarenta e oito horas.",
@@ -13669,7 +13669,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "IDSA/ESCMID guidelines for uncomplicated cystitis, revisão 2023; Ministério da Saúde — protocolo de infecção urinária, 2022",
+  "base": "IDSA/ESCMID guidelines for uncomplicated cystitis, revisão 2023; Ministério da Saúde. Protocolo de infecção urinária, 2022",
   "coment": "A cistite não complicada em mulher jovem sem fatores de risco é diagnóstico clínico e permite tratamento empírico sem urocultura. As opções incluem nitrofurantoína por cinco dias, fosfomicina em dose única e sulfametoxazol-trimetoprima por três dias conforme a resistência local. Quinolonas são evitadas como primeira escolha por efeitos adversos e pressão seletiva. Urocultura se reserva a falha terapêutica, recorrência, gestação ou infecção complicada.",
   "porAlt": [
    "Aguardar a urocultura atrasa desnecessariamente o alívio de um quadro de manejo empírico consagrado.",
@@ -13766,7 +13766,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r3",
   "base": "Neurocritical Care Society/AES guideline on status epilepticus, atualização 2023",
-  "coment": "O estado de mal epiléptico é definido por crise com cinco minutos ou mais de duração. A primeira linha é benzodiazepínico em dose adequada, e a subdosagem é o erro mais frequente. Sem resposta, passa-se imediatamente à segunda linha endovenosa — fosfenitoína, ácido valproico ou levetiracetam, com eficácia semelhante entre eles — em dose de ataque. Persistindo, indica-se anestésico em infusão contínua com intubação e monitorização eletroencefalográfica.",
+  "coment": "O estado de mal epiléptico é definido por crise com cinco minutos ou mais de duração. A primeira linha é benzodiazepínico em dose adequada, e a subdosagem é o erro mais frequente. Sem resposta, passa-se imediatamente à segunda linha endovenosa (fosfenitoína, ácido valproico ou levetiracetam, com eficácia semelhante entre eles) em dose de ataque. Persistindo, indica-se anestésico em infusão contínua com intubação e monitorização eletroencefalográfica.",
   "porAlt": [
    "Repetir benzodiazepínico indefinidamente causa depressão respiratória sem controlar a crise refratária.",
    "Esperar trinta minutos aumenta a lesão neuronal e reduz a chance de controle da crise prolongada.",
@@ -13909,7 +13909,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ICHD-3 — Medication-overuse headache; American Headache Society consensus statement, 2021 com revisão 2024",
+  "base": "ICHD-3: Medication-overuse headache; American Headache Society consensus statement, 2021 com revisão 2024",
   "coment": "A cefaleia por uso excessivo de medicação ocorre com analgésicos comuns em quinze ou mais dias por mês, ou triptanos, ergotamínicos, opioides e combinações em dez ou mais dias por mês, por mais de três meses. O tratamento é a retirada da medicação em excesso, associada ao início de profilaxia da cefaleia primária de base e a um plano para o período de rebote. Manter ou aumentar o analgésico perpetua o ciclo e agrava a cronificação da dor.",
   "porAlt": [
    "Aumentar a dose agrava a cefaleia por uso excessivo e aprofunda a cronificação do quadro doloroso.",
@@ -13933,7 +13933,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "NIA-AA Research Framework, revisão 2024; Academia Brasileira de Neurologia — diretrizes de demência, 2022",
+  "base": "NIA-AA Research Framework, revisão 2024; Academia Brasileira de Neurologia, diretrizes de demência, 2022",
   "coment": "A doença de Alzheimer é a causa mais frequente de demência e tem apresentação típica com declínio insidioso e progressivo da memória episódica, seguido de desorientação espacial, alteração de linguagem e de funções executivas, sem sinais focais precoces. A demência vascular tende a ter curso em degraus com sinais focais; a frontotemporal inicia com alteração de comportamento ou linguagem; e a hidrocefalia de pressão normal associa marcha, cognição e incontinência.",
   "porAlt": [
    "A demência vascular tende a evoluir em degraus, com sinais focais e fatores de risco vasculares.",
@@ -13957,7 +13957,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "HINTS examination — Kattah et al., Stroke; AAN/AHA guidance on acute vestibular syndrome, revisão 2023",
+  "base": "HINTS examination: Kattah et al., Stroke; AAN/AHA guidance on acute vestibular syndrome, revisão 2023",
   "coment": "Na síndrome vestibular aguda, o exame HINTS diferencia causa periférica de central com sensibilidade superior à da ressonância nas primeiras horas. Sugerem origem central: teste de impulso cefálico normal, nistagmo que muda de direção com o olhar e desvio vertical de um olho ao teste de cobertura alternada. O padrão periférico é o inverso: impulso cefálico alterado com sacada corretiva e nistagmo horizontal unidirecional que não muda de direção.",
   "porAlt": [
    "O nistagmo horizontal unidirecional é o padrão típico da causa periférica da vertigem aguda.",
@@ -13981,7 +13981,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign 2021/2026 — vasopressor após a ressuscitação inicial",
+  "base": "Surviving Sepsis Campaign 2021/2026. Vasopressor após a ressuscitação inicial",
   "coment": "Sem responsividade a volume e ainda hipotenso após a ressuscitação inicial, o passo é vasopressor: noradrenalina como primeira escolha, com alvo de pressão arterial média de 65 mmHg. O corticoide entra depois, se houver refratariedade à noradrenalina em dose crescente; e a reavaliação do foco corre em paralelo, não no lugar da estabilização.",
   "porAlt": [
    "Correta: sem responsividade a volume, o passo é vasopressor.",
@@ -14005,8 +14005,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "AHA 2025 — suporte avançado de vida: ritmos chocáveis",
-  "coment": "Fibrilação ventricular é ritmo chocável e, com desfibrilador disponível em parada presenciada, o choque é a prioridade absoluta — cada minuto de atraso reduz a sobrevida em cerca de 10%. Retoma-se a compressão imediatamente após o choque, sem checar pulso, e a adrenalina entra depois do segundo choque; a amiodarona, depois do terceiro.",
+  "base": "AHA 2025. Suporte avançado de vida: ritmos chocáveis",
+  "coment": "Fibrilação ventricular é ritmo chocável e, com desfibrilador disponível em parada presenciada, o choque é a prioridade absoluta, cada minuto de atraso reduz a sobrevida em cerca de 10%. Retoma-se a compressão imediatamente após o choque, sem checar pulso, e a adrenalina entra depois do segundo choque; a amiodarona, depois do terceiro.",
   "porAlt": [
    "Correta: ritmo chocável com desfibrilador pronto, o choque vem primeiro.",
    "A adrenalina em ritmo chocável vem depois do segundo choque.",
@@ -14029,8 +14029,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2018 — pneumotórax hipertensivo",
-  "coment": "Ausência de murmúrio com hipertimpanismo, desvio de traqueia, turgência jugular e choque define pneumotórax hipertensivo — diagnóstico clínico, tratamento imediato. A descompressão por punção no quinto espaço intercostal na linha axilar média precede qualquer exame, e é seguida de drenagem torácica formal.",
+  "base": "ATLS 11ª edição, 2018 (pneumotórax hipertensivo",
+  "coment": "Ausência de murmúrio com hipertimpanismo, desvio de traqueia, turgência jugular e choque define pneumotórax hipertensivo) diagnóstico clínico, tratamento imediato. A descompressão por punção no quinto espaço intercostal na linha axilar média precede qualquer exame, e é seguida de drenagem torácica formal.",
   "porAlt": [
    "Correta: diagnóstico clínico com descompressão antes de qualquer imagem.",
    "Esperar radiografia num quadro que mata em minutos é erro grave.",
@@ -14053,8 +14053,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Manual de Toxicologia Clínica COVISA 2017 — síndrome opioide e naloxona",
-  "coment": "A tríade de rebaixamento, miose puntiforme e depressão respiratória define intoxicação por opioide. A naloxona é o antídoto e deve ser titulada para restaurar a ventilação, não a consciência plena — doses altas precipitam abstinência. Ventilação com bolsa-válvula-máscara é feita em paralelo, e muitas vezes a intubação se torna desnecessária.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017. Síndrome opioide e naloxona",
+  "coment": "A tríade de rebaixamento, miose puntiforme e depressão respiratória define intoxicação por opioide. A naloxona é o antídoto e deve ser titulada para restaurar a ventilação, não a consciência plena, doses altas precipitam abstinência. Ventilação com bolsa-válvula-máscara é feita em paralelo, e muitas vezes a intubação se torna desnecessária.",
   "porAlt": [
    "Correta: antídoto titulado com suporte ventilatório concomitante.",
    "A intubação costuma ser evitável com a naloxona.",
@@ -14077,7 +14077,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "WAO 2020 — anafilaxia: adrenalina intramuscular como primeira linha",
+  "base": "WAO 2020. Anafilaxia: adrenalina intramuscular como primeira linha",
   "coment": "A anafilaxia tem um único tratamento de primeira linha: adrenalina intramuscular no vasto lateral da coxa, 0,01 mg/kg até 0,5 mg, repetível a cada 5 a 15 minutos. A via intramuscular na coxa alcança pico plasmático mais rápido que a subcutânea. Anti-histamínico e corticoide são adjuvantes e não substituem a adrenalina nem previnem a evolução.",
   "porAlt": [
    "Correta: primeira linha, via intramuscular na coxa.",
@@ -14101,8 +14101,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2018 — classificação da queimadura e fórmula de Parkland",
-  "coment": "Aspecto de couro, coloração nacarada, superfície seca e ausência de dor indicam queimadura de espessura total — terceiro grau —, porque as terminações nervosas foram destruídas. A fórmula de Parkland prevê 4 mL por quilo por porcentagem de superfície queimada em 24 horas, metade nas primeiras 8 horas contadas do momento da lesão, com ajuste pela diurese de 0,5 a 1 mL/kg/h.",
+  "base": "ATLS 11ª edição, 2018. Classificação da queimadura e fórmula de Parkland",
+  "coment": "Aspecto de couro, coloração nacarada, superfície seca e ausência de dor indicam queimadura de espessura total, terceiro grau, porque as terminações nervosas foram destruídas. A fórmula de Parkland prevê 4 mL por quilo por porcentagem de superfície queimada em 24 horas, metade nas primeiras 8 horas contadas do momento da lesão, com ajuste pela diurese de 0,5 a 1 mL/kg/h.",
   "porAlt": [
    "Correta: espessura total, com Parkland a partir da hora da queimadura.",
    "Segundo grau superficial é doloroso, róseo e com bolhas.",
@@ -14125,8 +14125,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "AHA 2025 — situações especiais: parada na hipotermia acidental",
-  "coment": "Na hipotermia grave a regra é que ninguém está morto até estar quente e morto: o metabolismo reduzido protege o cérebro e há relatos de recuperação neurológica íntegra após reanimações prolongadas. Abaixo de 30 °C limitam-se os choques e espaçam-se os fármacos, que se acumulam sem efeito; o reaquecimento ativo — idealmente com circulação extracorpórea — é a medida definitiva.",
+  "base": "AHA 2025, situações especiais: parada na hipotermia acidental",
+  "coment": "Na hipotermia grave a regra é que ninguém está morto até estar quente e morto: o metabolismo reduzido protege o cérebro e há relatos de recuperação neurológica íntegra após reanimações prolongadas. Abaixo de 30 °C limitam-se os choques e espaçam-se os fármacos, que se acumulam sem efeito; o reaquecimento ativo, idealmente com circulação extracorpórea, é a medida definitiva.",
   "porAlt": [
    "Correta: reaquecer é o tratamento, e a reanimação se prolonga.",
    "Suspender antes do reaquecimento é decisão precipitada.",
@@ -14149,8 +14149,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ACC/AHA 2025 — SCA sem supra: estratificação e tempo da coronariografia",
-  "coment": "Troponina em curva ascendente e GRACE acima de 140 classificam como risco alto, com indicação de estratégia invasiva precoce em até 24 horas. A estratégia imediata, abaixo de 2 horas, exige risco muito alto — instabilidade, choque, arritmia ameaçadora, dor refratária ou insuficiência cardíaca aguda —, ausentes aqui. Fibrinólise não tem lugar sem supradesnivelamento.",
+  "base": "ACC/AHA 2025. SCA sem supra: estratificação e tempo da coronariografia",
+  "coment": "Troponina em curva ascendente e GRACE acima de 140 classificam como risco alto, com indicação de estratégia invasiva precoce em até 24 horas. A estratégia imediata, abaixo de 2 horas, exige risco muito alto (instabilidade, choque, arritmia ameaçadora, dor refratária ou insuficiência cardíaca aguda), ausentes aqui. Fibrinólise não tem lugar sem supradesnivelamento.",
   "porAlt": [
    "Correta: risco alto pela curva de troponina e pelo GRACE.",
    "A fibrinólise sem supra causa dano sem benefício.",
@@ -14173,8 +14173,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESGE 2021 — hemorragia digestiva alta não varicosa",
-  "coment": "Hemorragia digestiva alta com instabilidade e hemoglobina de 6,2 g/dL exige transfusão — a estratégia restritiva tem alvo de 7 g/dL, mas o gatilho sobe diante de instabilidade ou sangramento ativo. A endoscopia deve ser feita em até 24 horas, e em até 12 horas quando há instabilidade ou suspeita de sangramento varicoso. Inibidor de bomba de prótons intravenoso entra em paralelo.",
+  "base": "ESGE 2021 (hemorragia digestiva alta não varicosa",
+  "coment": "Hemorragia digestiva alta com instabilidade e hemoglobina de 6,2 g/dL exige transfusão) a estratégia restritiva tem alvo de 7 g/dL, mas o gatilho sobe diante de instabilidade ou sangramento ativo. A endoscopia deve ser feita em até 24 horas, e em até 12 horas quando há instabilidade ou suspeita de sangramento varicoso. Inibidor de bomba de prótons intravenoso entra em paralelo.",
   "porAlt": [
    "Correta: transfundir e levar à endoscopia precoce.",
    "O gatilho de 7 g/dL vale para o estável, não para quem está em choque.",
@@ -14184,7 +14184,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 29 anos é trazido após queda de moto sem capacete. Está com Glasgow de 6 — abertura ocular à dor, resposta verbal com sons incompreensíveis e flexão anormal —, pupila direita de 5 mm pouco reativa e esquerda de 3 mm. A pressão é de 142/78 mmHg, a frequência de 58 bpm e a saturação de 92% em máscara. Há vômito e sangue em cavidade oral. O colar cervical está posicionado. Qual é a conduta imediata quanto à via aérea?",
+  "q": "Homem de 29 anos é trazido após queda de moto sem capacete. Está com Glasgow de 6 (abertura ocular à dor, resposta verbal com sons incompreensíveis e flexão anormal), pupila direita de 5 mm pouco reativa e esquerda de 3 mm. A pressão é de 142/78 mmHg, a frequência de 58 bpm e a saturação de 92% em máscara. Há vômito e sangue em cavidade oral. O colar cervical está posicionado. Qual é a conduta imediata quanto à via aérea?",
   "alts": [
    "Intubação em sequência rápida com estabilização cervical",
    "Máscara laríngea como via aérea definitiva",
@@ -14197,8 +14197,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2018 — via aérea no trauma cranioencefálico grave",
-  "coment": "Glasgow igual ou menor que 8 no trauma é indicação de via aérea definitiva. Com vômito e sangue em orofaringe o risco de aspiração é imediato. A intubação em sequência rápida, com estabilização cervical manual em linha, é o padrão — e a anisocoria com bradicardia e hipertensão sugere herniação, o que torna a proteção da via aérea e o controle da ventilação ainda mais urgentes.",
+  "base": "ATLS 11ª edição, 2018. Via aérea no trauma cranioencefálico grave",
+  "coment": "Glasgow igual ou menor que 8 no trauma é indicação de via aérea definitiva. Com vômito e sangue em orofaringe o risco de aspiração é imediato. A intubação em sequência rápida, com estabilização cervical manual em linha, é o padrão, e a anisocoria com bradicardia e hipertensão sugere herniação, o que torna a proteção da via aérea e o controle da ventilação ainda mais urgentes.",
   "porAlt": [
    "Correta: Glasgow ≤ 8 com risco de aspiração pede via aérea definitiva.",
    "A máscara laríngea é dispositivo de resgate, não definitivo no trauma.",
@@ -14221,7 +14221,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019 com atualização 2023",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019 com atualização 2023",
   "coment": "O controle da transmissão da tuberculose combina medidas administrativas, ambientais e de proteção individual: identificar precocemente o sintomático respiratório, priorizar seu atendimento, oferecer máscara cirúrgica ao paciente e mantê-lo em ambiente ventilado e separado. A recusa é abordada com informação e negociação, sem negar assistência, que é direito garantido. Internação compulsória é medida excepcional e nunca a resposta inicial à recusa.",
   "porAlt": [
    "Negar atendimento viola o direito à saúde e afasta do serviço quem precisa de tratamento supervisionado.",
@@ -14245,7 +14245,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Calendário Nacional de Vacinação, 2025",
+  "base": "Ministério da Saúde, Calendário Nacional de Vacinação, 2025",
   "coment": "O calendário do adulto inclui dupla adulto com reforço a cada dez anos, hepatite B em três doses para quem não tem esquema completo, febre amarela em dose única conforme área de risco e tríplice viral conforme idade e situação vacinal. Acrescentam-se influenza anual para grupos prioritários, pneumocócica e vacinas para gestantes. A avaliação da caderneta é oportunidade em toda consulta, aproveitando o contato com o serviço.",
   "porAlt": [
    "A influenza é importante em grupos prioritários, mas não é a única vacina prevista para adultos.",
@@ -14269,7 +14269,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Lei nº 10.778/2003; Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de violência interpessoal",
+  "base": "Lei nº 10.778/2003; Ministério da Saúde, Guia de Vigilância em Saúde, 2024, capítulo de violência interpessoal",
   "coment": "A notificação de violência interpessoal e autoprovocada é compulsória para todos os serviços de saúde, públicos e privados, e independe de boletim de ocorrência. Ela é instrumento epidemiológico e de proteção, não denúncia policial: a comunicação à autoridade policial é obrigatória apenas em situações específicas, como violência contra criança, adolescente, idoso e pessoa com deficiência. O acolhimento inclui avaliação de risco e articulação com a rede.",
   "porAlt": [
    "A notificação independe de boletim de ocorrência e é dever do serviço de saúde que atende.",
@@ -14293,7 +14293,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Diretrizes metodológicas de avaliação de tecnologias em saúde, 2022; epidemiologia clínica clássica",
+  "base": "Ministério da Saúde. Diretrizes metodológicas de avaliação de tecnologias em saúde, 2022; epidemiologia clínica clássica",
   "coment": "Sensibilidade é a proporção de doentes com teste positivo e responde à pergunta sobre quantos doentes o teste encontra; especificidade é a proporção de não doentes com teste negativo. Ambas são propriedades relativamente estáveis do teste. Já os valores preditivos dependem fortemente da prevalência: o mesmo teste tem valor preditivo positivo alto em população de alto risco e baixo em rastreamento populacional de doença rara.",
   "porAlt": [
    "Especificidade se refere aos não doentes corretamente identificados como negativos pelo teste.",
@@ -14341,7 +14341,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Rede Cegonha/Rede Alyne, 2024; UNICEF/OMS recomendações sobre mortalidade infantil",
+  "base": "Ministério da Saúde: Rede Cegonha/Rede Alyne, 2024; UNICEF/OMS recomendações sobre mortalidade infantil",
   "coment": "A mortalidade infantil responde principalmente a ações de atenção primária: pré-natal com número adequado de consultas e exames, identificação de gestação de risco, parto seguro, incentivo ao aleitamento materno exclusivo até seis meses, vacinação em dia, acompanhamento do crescimento e busca ativa de faltosos. Leitos de terapia intensiva são necessários, mas atuam sobre o desfecho já instalado e têm menor impacto populacional do que a prevenção.",
   "porAlt": [
    "Leitos intensivos são necessários, mas atuam depois do agravo e têm menor impacto populacional.",
@@ -14365,7 +14365,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Resolução CFM nº 1.995/2012 sobre diretivas antecipadas; Código de Ética Médica, 2018; ANCP — Manual de Cuidados Paliativos, 2021",
+  "base": "Resolução CFM nº 1.995/2012 sobre diretivas antecipadas; Código de Ética Médica, 2018; ANCP, Manual de Cuidados Paliativos, 2021",
   "coment": "O paciente lúcido e capaz tem direito de recusar tratamento, inclusive suporte nutricional artificial, e essa recusa deve ser respeitada e registrada, com esclarecimento sobre consequências e alternativas. Recusar um tratamento específico não significa recusar cuidado: analgesia, controle de sintomas, higiene e apoio continuam obrigatórios. Impor tratamento contra a vontade de paciente capaz configura constrangimento ilegal e infração ética.",
   "porAlt": [
    "Impor tratamento a paciente capaz que recusa configura constrangimento e infração ética grave.",
@@ -14389,7 +14389,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Portaria GM/MS nº 2.436/2017 — Política Nacional de Atenção Básica; Ministério da Saúde — linha de cuidado da hipertensão, 2021",
+  "base": "Portaria GM/MS nº 2.436/2017, Política Nacional de Atenção Básica; Ministério da Saúde, linha de cuidado da hipertensão, 2021",
   "coment": "A responsabilidade sanitária sobre a população adscrita implica buscar quem não comparece, e não apenas atender quem chega. A busca ativa com agentes comunitários e visita domiciliar identifica barreiras concretas: horário incompatível com o trabalho, dificuldade de transporte, efeitos adversos, falta de compreensão do tratamento e problemas sociais. A resposta combina reorganizar o acesso, apoiar o autocuidado e articular a rede intersetorial.",
   "porAlt": [
    "Excluir faltosos do cadastro contraria a responsabilidade sanitária sobre a população adscrita.",
@@ -14413,7 +14413,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Diretrizes metodológicas: elaboração de revisão sistemática e metanálise, 2022; GRADE Working Group",
+  "base": "Ministério da Saúde. Diretrizes metodológicas: elaboração de revisão sistemática e metanálise, 2022; GRADE Working Group",
   "coment": "Risco relativo abaixo de um indica redução do desfecho no grupo intervenção. O intervalo de confiança de 95% entre 0,60 e 0,94 não inclui o valor 1, que é a nulidade para medidas de razão, e portanto o resultado é estatisticamente significativo. Além da significância, a interpretação clínica considera a magnitude do efeito, o número necessário para tratar, a precisão do intervalo e a relevância do desfecho medido.",
   "porAlt": [
    "O intervalo apresentado não contém o valor 1, de modo que não indica ausência de diferença.",
@@ -14461,7 +14461,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ACCP/ASH guidelines on antithrombotic therapy — management of supratherapeutic INR, revisão 2023",
+  "base": "ACCP/ASH guidelines on antithrombotic therapy, management of supratherapeutic INR, revisão 2023",
   "coment": "Com INR acima de 10 sem sangramento, ou entre 4,5 e 10 com risco elevado, suspende-se a varfarina e considera-se vitamina K oral em dose baixa, de 2,5 a 5 mg, com reavaliação seriada. Plasma fresco e complexo protrombínico são reservados a sangramento grave ou necessidade de reversão imediata para procedimento, pois expõem a risco transfusional e trombótico sem benefício quando não há sangramento em curso.",
   "porAlt": [
    "O plasma se reserva a sangramento grave, expondo a risco transfusional sem benefício aqui.",
@@ -14485,7 +14485,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "British Society for Haematology guideline on significant haemoglobinopathies, revisão 2023; OMS — hemoglobinopatias, 2023",
+  "base": "British Society for Haematology guideline on significant haemoglobinopathies, revisão 2023; OMS. Hemoglobinopatias, 2023",
   "coment": "Na talassemia menor a microcitose é desproporcional à anemia, que costuma ser leve, com contagem de hemácias normal ou elevada, RDW normal e ferritina normal. Na ferropenia ocorre o oposto: ferritina baixa, RDW elevado e contagem de hemácias reduzida. A confirmação da talassemia é feita por eletroforese de hemoglobina, com elevação de hemoglobina A2 na forma beta. Reconhecer evita reposição de ferro desnecessária e prolongada.",
   "porAlt": [
    "Correta: microcitose desproporcional com ferritina e RDW normais sugere talassemia menor.",
@@ -14533,7 +14533,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ASH Clinical Practice Guidelines on Sickle Cell Disease — acute pain management, 2020; Ministério da Saúde — PCDT Doença Falciforme, 2023",
+  "base": "ASH Clinical Practice Guidelines on Sickle Cell Disease (acute pain management, 2020; Ministério da Saúde) PCDT Doença Falciforme, 2023",
   "coment": "A crise vaso-oclusiva exige analgesia precoce, idealmente iniciada em até uma hora da chegada, com escalonamento rápido para opioide quando a dor é intensa, reavaliação frequente e associação de analgésico simples. Hidratação é feita em ritmo adequado, e a hiperidratação favorece síndrome torácica aguda. Transfusão não é rotina na crise simples, ficando reservada a síndrome torácica, acidente vascular cerebral e outras complicações graves.",
   "porAlt": [
    "A transfusão de rotina em crise simples não é recomendada e expõe a aloimunização desnecessária.",
@@ -14558,7 +14558,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "International Myeloma Working Group criteria, atualização 2024; NCCN Multiple Myeloma, 2024",
-  "coment": "A gamopatia monoclonal de significado indeterminado é definida por proteína monoclonal abaixo de 3 g/dL, plasmócitos clonais medulares abaixo de dez por cento e ausência de lesão de órgão-alvo — hipercalcemia, insuficiência renal, anemia e lesão óssea. O risco de progressão para mieloma é de cerca de um por cento ao ano, o que justifica seguimento periódico com eletroforese, hemograma, cálcio, creatinina e cadeias leves livres.",
+  "coment": "A gamopatia monoclonal de significado indeterminado é definida por proteína monoclonal abaixo de 3 g/dL, plasmócitos clonais medulares abaixo de dez por cento e ausência de lesão de órgão-alvo. Hipercalcemia, insuficiência renal, anemia e lesão óssea. O risco de progressão para mieloma é de cerca de um por cento ao ano, o que justifica seguimento periódico com eletroforese, hemograma, cálcio, creatinina e cadeias leves livres.",
   "porAlt": [
    "Correta: pico abaixo de 3 g/dL, plasmócitos abaixo de dez por cento e sem lesão de órgão-alvo.",
    "O mieloma sintomático exige lesão de órgão-alvo ou biomarcadores de malignidade, ausentes aqui.",
@@ -14606,7 +14606,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r2",
   "base": "ASCO/IDSA guideline on antimicrobial prophylaxis for neutropenia, revisão 2024; NCCN Prevention and Treatment of Cancer-Related Infections, 2024",
-  "coment": "O paciente neutropênico afebril e assintomático não precisa de internação nem de antibiótico terapêutico. A conduta é orientação sobre sinais de alerta — sobretudo febre, que deve levar a procurar atendimento imediatamente —, higiene das mãos, cuidados com alimentos e evitar contato com doentes. Profilaxia antimicrobiana e fator estimulador de colônias são considerados conforme o risco do esquema e do paciente, não de forma universal.",
+  "coment": "O paciente neutropênico afebril e assintomático não precisa de internação nem de antibiótico terapêutico. A conduta é orientação sobre sinais de alerta (sobretudo febre, que deve levar a procurar atendimento imediatamente), higiene das mãos, cuidados com alimentos e evitar contato com doentes. Profilaxia antimicrobiana e fator estimulador de colônias são considerados conforme o risco do esquema e do paciente, não de forma universal.",
   "porAlt": [
    "A profilaxia antibiótica universal não é indicada e favorece a seleção de germes resistentes.",
    "Correta: orientar sinais de alerta e higiene, com profilaxia e fator de crescimento conforme o risco.",
@@ -14629,7 +14629,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "OMS — classificação de neoplasias mieloides, 5ª edição, 2022; European LeukemiaNet recommendations for CML, 2020",
+  "base": "OMS. Classificação de neoplasias mieloides, 5ª edição, 2022; European LeukemiaNet recommendations for CML, 2020",
   "coment": "Leucocitose acentuada com desvio à esquerda em todas as fases de maturação, basofilia e esplenomegalia volumosa caracteriza leucemia mieloide crônica, definida pela translocação entre os cromossomos 9 e 22, que gera o rearranjo BCR-ABL1. O diagnóstico é confirmado por citogenética, FISH ou PCR quantitativo, este também usado no monitoramento da resposta. O tratamento com inibidores de tirosina quinase transformou o prognóstico da doença.",
   "porAlt": [
    "Correta: pesquisa do cromossomo Filadélfia ou do rearranjo BCR-ABL confirma o diagnóstico.",
@@ -14653,7 +14653,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AABB Standards for Blood Banks and Transfusion Services, 2024; Ministério da Saúde — Guia para uso de hemocomponentes, 2021",
+  "base": "AABB Standards for Blood Banks and Transfusion Services, 2024; Ministério da Saúde. Guia para uso de hemocomponentes, 2021",
   "coment": "Febre com dor lombar, hipotensão e hemoglobinúria durante a transfusão sugere reação hemolítica aguda, geralmente por incompatibilidade ABO decorrente de erro de identificação. A conduta é interromper imediatamente a transfusão, manter o acesso com salina, iniciar hidratação vigorosa para proteger a função renal, oferecer suporte hemodinâmico, comunicar o serviço de hemoterapia e enviar bolsa e amostras para investigação da causa.",
   "porAlt": [
    "Reduzir a velocidade mantém a infusão de hemácias incompatíveis e agrava a hemólise em curso.",
@@ -14702,7 +14702,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r1",
   "base": "ACR/AF Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, 2019 com revisão 2023; OARSI guidelines, 2019",
-  "coment": "O tratamento da osteoartrite de joelho tem como pilares o exercício — fortalecimento de quadríceps e condicionamento aeróbico —, a perda de peso quando há sobrepeso e a educação sobre a doença, todos com recomendação forte. Analgesia inclui anti-inflamatório tópico, paracetamol e anti-inflamatório oral pelo menor tempo possível. Infiltração de corticoide alivia por curtos períodos. Artroplastia se reserva à doença avançada refratária com prejuízo funcional.",
+  "coment": "O tratamento da osteoartrite de joelho tem como pilares o exercício, fortalecimento de quadríceps e condicionamento aeróbico, a perda de peso quando há sobrepeso e a educação sobre a doença, todos com recomendação forte. Analgesia inclui anti-inflamatório tópico, paracetamol e anti-inflamatório oral pelo menor tempo possível. Infiltração de corticoide alivia por curtos períodos. Artroplastia se reserva à doença avançada refratária com prejuízo funcional.",
   "porAlt": [
    "O corticoide sistêmico contínuo não é indicado e traz toxicidade sem benefício estrutural algum.",
    "O metotrexato trata artrite inflamatória autoimune, e não a doença degenerativa aqui descrita.",
@@ -14725,7 +14725,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Sociedade Brasileira de Reumatologia — Consenso sobre terapia biológica, 2022; EULAR recommendations, 2022",
+  "base": "Sociedade Brasileira de Reumatologia: Consenso sobre terapia biológica, 2022; EULAR recommendations, 2022",
   "coment": "Antes de iniciar imunobiológico, sobretudo anti-TNF, é obrigatório rastrear tuberculose latente com prova tuberculínica ou ensaio de liberação de interferon gama e radiografia de tórax, tratando a infecção latente antes de iniciar. Rastreiam-se também hepatites B e C, pelo risco de reativação viral, e HIV, além de atualizar o calendário vacinal, aplicando vacinas de vírus vivo com antecedência, pois ficam contraindicadas depois.",
   "porAlt": [
    "Correta: rastreio de tuberculose latente e de hepatites virais antes da primeira dose do imunobiológico.",
@@ -14797,7 +14797,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ASAS-EULAR recommendations for axial spondyloarthritis, 2022; American Academy of Ophthalmology — Uveitis Preferred Practice Pattern, 2023",
+  "base": "ASAS-EULAR recommendations for axial spondyloarthritis, 2022; American Academy of Ophthalmology, Uveitis Preferred Practice Pattern, 2023",
   "coment": "A uveíte anterior aguda é a manifestação extra-articular mais frequente das espondiloartrites associadas ao HLA-B27, tipicamente unilateral, dolorosa, com fotofobia e hiperemia perilímbica. Exige avaliação oftalmológica urgente e tratamento com corticoide tópico e midriático para evitar sinéquias, com risco de perda visual se negligenciada. Recorrências frequentes favorecem a escolha de anti-TNF monoclonal, que reduz novos episódios oculares.",
   "porAlt": [
    "O lubrificante não trata a inflamação intraocular e a demora pode causar sinéquias e perda visual.",
@@ -14941,7 +14941,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "USPSTF prostate cancer screening recommendation, 2018 com revisão 2024; INCA — posicionamento sobre rastreio de câncer de próstata, 2023",
+  "base": "USPSTF prostate cancer screening recommendation, 2018 com revisão 2024; INCA, posicionamento sobre rastreio de câncer de próstata, 2023",
   "coment": "O rastreio de câncer de próstata é o exemplo clássico de decisão compartilhada: reduz modestamente a mortalidade específica, ao custo de sobrediagnóstico e de tratamentos com incontinência e disfunção erétil. As diretrizes recomendam informar o homem entre cinquenta e sessenta e nove anos, ou antes em alto risco, sobre benefícios e danos, e respeitar a decisão. O INCA não recomenda o rastreio organizado populacional no Brasil.",
   "porAlt": [
    "Rastrear todos anualmente desde os quarenta anos amplia o sobrediagnóstico sem benefício proporcional.",
@@ -14965,7 +14965,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "NCCN Breast Cancer, 2024; NICE guideline NG234 — Metastatic spinal cord compression, 2023",
+  "base": "NCCN Breast Cancer, 2024; NICE guideline NG234. Metastatic spinal cord compression, 2023",
   "coment": "Dor óssea nova em paciente com câncer é metástase até prova em contrário, e dor em coluna exige atenção especial ao risco de compressão medular, que é emergência. A investigação começa por imagem dirigida do segmento sintomático, preferencialmente ressonância quando há suspeita de acometimento epidural, complementada por avaliação de extensão com cintilografia óssea ou tomografia por emissão de pósitrons conforme o caso.",
   "porAlt": [
    "O hemograma não avalia a coluna nem detecta lesão óssea metastática no segmento doloroso.",
@@ -14989,7 +14989,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESMO Clinical Practice Guidelines on dyspnoea in advanced cancer, 2021; ANCP — Manual de Cuidados Paliativos, 2ª edição, 2021",
+  "base": "ESMO Clinical Practice Guidelines on dyspnoea in advanced cancer, 2021; ANCP, Manual de Cuidados Paliativos, 2ª edição, 2021",
   "coment": "O opioide sistêmico em dose titulada é a intervenção com melhor evidência para a dispneia refratária no câncer avançado, reduzindo a percepção do desconforto sem causar depressão respiratória quando titulado adequadamente. Associam-se medidas não farmacológicas: ventilador com fluxo de ar no rosto, posicionamento, técnicas de respiração e manejo da ansiedade. Oxigênio beneficia sobretudo os hipoxêmicos, e benzodiazepínico é adjuvante quando há ansiedade importante.",
   "porAlt": [
    "Correta: opioide titulado com medidas não farmacológicas é a base do alívio da dispneia refratária.",
@@ -15013,7 +15013,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA — Diretrizes brasileiras para o rastreamento do câncer do colo do útero, 2ª edição atualizada, 2024",
+  "base": "INCA, Diretrizes brasileiras para o rastreamento do câncer do colo do útero, 2ª edição atualizada, 2024",
   "coment": "Citologia com lesão intraepitelial escamosa de alto grau tem alta probabilidade de corresponder a neoplasia intraepitelial cervical de grau 2 ou 3, e a conduta é colposcopia com biópsia dirigida. Confirmada a lesão, o tratamento habitual é excisão da zona de transformação, com técnica definida pela extensão e visibilidade da junção escamocolunar. Histerectomia não é tratamento de lesão precursora e não há antiviral que trate a lesão.",
   "porAlt": [
    "Lesão de alto grau tem risco relevante de progressão e não permite seguimento apenas citológico.",
@@ -15037,7 +15037,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESMO/EAPC guidelines on malignant bowel obstruction, revisão 2023; ANCP — Manual de Cuidados Paliativos, 2021",
+  "base": "ESMO/EAPC guidelines on malignant bowel obstruction, revisão 2023; ANCP, Manual de Cuidados Paliativos, 2021",
   "coment": "Na obstrução intestinal maligna inoperável, o controle de sintomas combina antiemético como haloperidol ou metoclopramida na obstrução parcial, corticoide para reduzir edema peritumoral, antissecretor como octreotide ou butilescopolamina para diminuir o volume de secreções, além de analgesia. Sonda nasogástrica de alívio ou gastrostomia descompressiva e prótese endoscópica são opções conforme o nível e o prognóstico do paciente.",
   "porAlt": [
    "Manter dieta livre em obstrução estabelecida agrava vômitos e o risco de broncoaspiração.",
@@ -15133,7 +15133,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "ASCO Clinical Practice Guideline Update on integration of palliative care, 2017 com revisão 2024; OMS — cuidados paliativos, 2020",
+  "base": "ASCO Clinical Practice Guideline Update on integration of palliative care, 2017 com revisão 2024; OMS. Cuidados paliativos, 2020",
   "coment": "Os cuidados paliativos devem ser integrados precocemente, desde o diagnóstico de doença avançada, em paralelo ao tratamento oncológico ativo. Ensaios clínicos mostraram melhora de qualidade de vida, redução de sintomas depressivos, menor uso de intervenções agressivas no fim da vida e, em alguns estudos, aumento da sobrevida. Associar cuidados paliativos a fim de vida é equívoco que atrasa o alívio de sintomas e o planejamento do cuidado.",
   "porAlt": [
    "Reservar os cuidados paliativos ao fim do tratamento oncológico atrasa o alívio de sintomas.",
@@ -15182,7 +15182,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "IWGDF Guidelines on the prevention and management of diabetes-related foot disease, 2023",
-  "coment": "A úlcera neuropática plantar exige três pilares: desbridamento do tecido desvitalizado e do calo circundante, alívio de pressão com dispositivo de descarga — sendo o gesso de contato total o padrão-ouro — e avaliação vascular para identificar isquemia associada. Investiga-se osteomielite quando a úlcera é profunda, sonda o osso ou não cicatriza. Antibiótico é indicado apenas quando há infecção clínica, e não em toda úlcera.",
+  "coment": "A úlcera neuropática plantar exige três pilares: desbridamento do tecido desvitalizado e do calo circundante, alívio de pressão com dispositivo de descarga, sendo o gesso de contato total o padrão-ouro, e avaliação vascular para identificar isquemia associada. Investiga-se osteomielite quando a úlcera é profunda, sonda o osso ou não cicatriza. Antibiótico é indicado apenas quando há infecção clínica, e não em toda úlcera.",
   "porAlt": [
    "O curativo sem alívio de pressão não cicatriza a úlcera, pois a carga mecânica mantém a lesão.",
    "Correta: desbridamento, alívio de pressão e avaliação vascular, com investigação de osteomielite.",
@@ -15205,8 +15205,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "NCCN Melanoma: Cutaneous, 2024; Sociedade Brasileira de Dermatologia — campanha de detecção precoce, 2023",
-  "coment": "A evolução — mudança de tamanho, cor, forma ou surgimento de sintomas como prurido e sangramento — é o critério mais importante do sistema ABCDE e, isoladamente, justifica a investigação de melanoma. A conduta é avaliação especializada com dermatoscopia e biópsia excisional com margem estreita, que preserva a espessura para estadiamento. Métodos destrutivos como crioterapia impedem o diagnóstico histológico e são inaceitáveis diante de suspeita.",
+  "base": "NCCN Melanoma: Cutaneous, 2024; Sociedade Brasileira de Dermatologia (campanha de detecção precoce, 2023",
+  "coment": "A evolução) mudança de tamanho, cor, forma ou surgimento de sintomas como prurido e sangramento. É o critério mais importante do sistema ABCDE e, isoladamente, justifica a investigação de melanoma. A conduta é avaliação especializada com dermatoscopia e biópsia excisional com margem estreita, que preserva a espessura para estadiamento. Métodos destrutivos como crioterapia impedem o diagnóstico histológico e são inaceitáveis diante de suspeita.",
   "porAlt": [
    "Correta: avaliação especializada e biópsia excisional, pois a mudança recente é sinal de alarme.",
    "Observar por doze meses permite progressão em profundidade e piora expressiva do prognóstico.",
@@ -15277,7 +15277,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "AAD clinical guidance on acanthosis nigricans, revisão 2023; Endocrine Society — obesity and insulin resistance, 2023",
+  "base": "AAD clinical guidance on acanthosis nigricans, revisão 2023; Endocrine Society. Obesity and insulin resistance, 2023",
   "coment": "A acantose nigricans é marcador cutâneo de resistência insulínica, associada a obesidade, diabetes tipo 2, síndrome dos ovários policísticos e a alguns fármacos. O tratamento é o da condição de base: perda de peso, atividade física e controle metabólico melhoram as lesões. Início abrupto, extenso, em paciente magro e com acometimento de mucosas e palmas levanta suspeita de acantose nigricans maligna, associada a adenocarcinoma, sobretudo gástrico.",
   "porAlt": [
    "O corticoide tópico não trata a causa metabólica e não resolve a hiperpigmentação aveludada.",
@@ -15349,7 +15349,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "NICE guideline CG185 — Bipolar disorder, revisão 2023; CANMAT/ISBD guidelines, 2018 com atualização 2023",
+  "base": "NICE guideline CG185: Bipolar disorder, revisão 2023; CANMAT/ISBD guidelines, 2018 com atualização 2023",
   "coment": "O lítio tem janela terapêutica estreita e exige monitorização: litemia colhida doze horas após a última dose, inicialmente a cada uma a duas semanas até a estabilização e depois a cada três a seis meses. Monitoram-se também função renal, por risco de doença renal crônica e diabetes insípido nefrogênico, função tireoidiana, pelo risco de hipotireoidismo, e calcemia. Anti-inflamatórios, tiazídicos e desidratação elevam a litemia.",
   "porAlt": [
    "A dosagem única no início não detecta variações que ocorrem ao longo de anos de tratamento.",
@@ -15421,7 +15421,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AAEP Project BETA guidelines on agitation, revisão 2022; Ministério da Saúde — manejo da agitação psicomotora, 2021",
+  "base": "AAEP Project BETA guidelines on agitation, revisão 2022; Ministério da Saúde, manejo da agitação psicomotora, 2021",
   "coment": "O manejo da agitação começa pelo desescalonamento verbal e pela organização de um ambiente seguro, com equipe treinada, redução de estímulos, postura não confrontativa e oferta de medicação oral. A contenção química entra quando o desescalonamento falha, preferindo antipsicótico e benzodiazepínico conforme a etiologia. A contenção física é último recurso, por tempo mínimo, com monitorização e registro. Causas orgânicas devem ser afastadas.",
   "porAlt": [
    "A contenção física é último recurso, e não a abordagem inicial de todo paciente agitado.",
@@ -15446,7 +15446,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "APA Practice Guideline for Major Depressive Disorder, revisão 2023; CANMAT guidelines, 2023",
-  "coment": "Diante de resposta insuficiente após quatro a oito semanas em dose adequada, o passo inicial é revisar adesão, dose, diagnóstico e comorbidades — uso de substâncias, hipotireoidismo, bipolaridade não reconhecida e fatores psicossociais. Confirmada a falha, as estratégias são otimizar a dose, trocar de antidepressivo ou potencializar com lítio, antipsicótico atípico ou psicoterapia. Eletroconvulsoterapia se reserva a casos graves ou refratários a múltiplas tentativas.",
+  "coment": "Diante de resposta insuficiente após quatro a oito semanas em dose adequada, o passo inicial é revisar adesão, dose, diagnóstico e comorbidades. Uso de substâncias, hipotireoidismo, bipolaridade não reconhecida e fatores psicossociais. Confirmada a falha, as estratégias são otimizar a dose, trocar de antidepressivo ou potencializar com lítio, antipsicótico atípico ou psicoterapia. Eletroconvulsoterapia se reserva a casos graves ou refratários a múltiplas tentativas.",
   "porAlt": [
    "Suspender o tratamento sem alternativa deixa o paciente sem cobertura terapêutica por meses.",
    "Correta: revisar adesão e diagnóstico, otimizando a dose ou trocando a classe do antidepressivo.",
@@ -15493,7 +15493,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "NICE guideline NG116 — Post-traumatic stress disorder, revisão 2023; APA/ISTSS guidelines, 2023",
+  "base": "NICE guideline NG116: Post-traumatic stress disorder, revisão 2023; APA/ISTSS guidelines, 2023",
   "coment": "O tratamento de primeira linha do transtorno de estresse pós-traumático é psicoterapia focada no trauma, como terapia cognitivo-comportamental focada no trauma ou dessensibilização e reprocessamento por movimentos oculares. Antidepressivos serotoninérgicos, como sertralina e paroxetina, são indicados quando a psicoterapia não está disponível, é recusada ou há comorbidade depressiva. Benzodiazepínicos são desaconselhados por piorarem desfechos e dificultarem a extinção do medo.",
   "porAlt": [
    "Correta: psicoterapia focada no trauma, com antidepressivo serotoninérgico associado quando indicado.",
@@ -15517,7 +15517,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r3",
-  "base": "NICE guideline NG69 — Eating disorders, revisão 2023; ASPEN consensus recommendations for refeeding syndrome, 2020",
+  "base": "NICE guideline NG69: Eating disorders, revisão 2023; ASPEN consensus recommendations for refeeding syndrome, 2020",
   "coment": "A síndrome de realimentação decorre do desvio intracelular de fósforo, potássio e magnésio quando a oferta de carboidrato reativa a secreção de insulina em paciente desnutrido. A hipofosfatemia é a alteração central e pode causar insuficiência cardíaca, arritmia, fraqueza respiratória, rabdomiólise e convulsão. A prevenção é iniciar com oferta calórica baixa, repor tiamina antes da oferta de glicose e monitorar eletrólitos diariamente nos primeiros dias.",
   "porAlt": [
    "A hiperglicemia pode ocorrer, mas não é a complicação central e temida da realimentação.",
@@ -15565,7 +15565,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "AGS Feeding Tubes in Advanced Dementia position statement, revisão 2023; Choosing Wisely; ANCP — Manual de Cuidados Paliativos, 2021",
+  "base": "AGS Feeding Tubes in Advanced Dementia position statement, revisão 2023; Choosing Wisely; ANCP. Manual de Cuidados Paliativos, 2021",
   "coment": "Em demência avançada, revisões sistemáticas não demonstraram que a alimentação por sonda prolongue a sobrevida, previna aspiração, melhore lesões por pressão ou aumente conforto. A alternativa recomendada é a alimentação assistida cuidadosa por via oral, com consistência adequada, posicionamento correto, higiene oral rigorosa e respeito ao ritmo e à vontade do paciente. A decisão é compartilhada com a família, esclarecendo o que se pode e o que não se pode esperar.",
   "porAlt": [
    "As revisões sistemáticas não demonstraram ganho de sobrevida nem prevenção de broncoaspiração.",
@@ -15589,7 +15589,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "AGS Beers Criteria, 2023; Deprescribing.org — evidence-based deprescribing guidelines, revisão 2023",
+  "base": "AGS Beers Criteria, 2023; Deprescribing.org, evidence-based deprescribing guidelines, revisão 2023",
   "coment": "A desprescrição é processo estruturado: listar todos os medicamentos incluindo os de venda livre, identificar os potencialmente inapropriados e sem indicação atual, priorizar aquele com maior risco e menor benefício, reduzir um fármaco por vez de forma gradual e monitorar sintomas de retirada e retorno da condição tratada. Suspender tudo de uma vez impede identificar qual fármaco causava o sintoma e pode precipitar abstinência ou descompensação.",
   "porAlt": [
    "Suspender tudo simultaneamente impede identificar o responsável e pode precipitar descompensações.",
@@ -15614,7 +15614,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r3",
   "base": "USPSTF breast cancer screening recommendation, 2024; AGS/ACS guidance on cancer screening in older adults, revisão 2023",
-  "coment": "Acima da faixa etária com evidência direta de benefício, o rastreio de câncer de mama passa a ser decisão individualizada, guiada pela expectativa de vida — o benefício do rastreio leva cerca de dez anos para se materializar —, pelo estado funcional, pelas comorbidades e pela preferência da paciente. Suspender automaticamente por idade cronológica é tão inadequado quanto rastrear indefinidamente sem considerar o prognóstico individual.",
+  "coment": "Acima da faixa etária com evidência direta de benefício, o rastreio de câncer de mama passa a ser decisão individualizada, guiada pela expectativa de vida, o benefício do rastreio leva cerca de dez anos para se materializar, pelo estado funcional, pelas comorbidades e pela preferência da paciente. Suspender automaticamente por idade cronológica é tão inadequado quanto rastrear indefinidamente sem considerar o prognóstico individual.",
   "porAlt": [
    "Suspender por idade cronológica isolada ignora a expectativa de vida e o estado funcional real.",
    "Rastrear indefinidamente expõe a dano imediato quando o benefício não é mais alcançável.",
@@ -15709,7 +15709,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ESC Guidelines for the management of valvular heart disease, 2021; Diretriz Brasileira de Valvopatias — SBC, revisão 2023",
+  "base": "ESC Guidelines for the management of valvular heart disease, 2021; Diretriz Brasileira de Valvopatias, SBC, revisão 2023",
   "coment": "Síncope aos esforços com sopro sistólico rude em foco aórtico irradiado para carótidas é altamente sugestiva de estenose aórtica grave, condição em que a síncope é um dos três sintomas cardinais e indica prognóstico reservado sem intervenção. A investigação é ecocardiograma, e a presença de sintomas em estenose grave indica substituição valvar, cirúrgica ou por implante transcateter, opção que ampliou o tratamento de pacientes muito idosos.",
   "porAlt": [
    "Atribuir à idade uma síncope de esforço com sopro é erro que pode custar a vida do paciente.",
@@ -15733,7 +15733,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "ESC Atrial Fibrillation Guidelines, 2024; AGS Beers Criteria, 2023; Diretriz Brasileira de Fibrilação Atrial — SBC, 2024",
+  "base": "ESC Atrial Fibrillation Guidelines, 2024; AGS Beers Criteria, 2023; Diretriz Brasileira de Fibrilação Atrial, SBC, 2024",
   "coment": "Análises clássicas estimam que seria necessário um número muito elevado de quedas por ano para que o risco de hemorragia intracraniana superasse o benefício da anticoagulação na prevenção de acidente vascular cerebral. Assim, o risco de queda isolado não contraindica anticoagular: a conduta é anticoagular e trabalhar a prevenção de quedas com avaliação multifatorial, revisão de medicamentos, exercício e adequação do ambiente domiciliar.",
   "porAlt": [
    "O risco de queda não é contraindicação absoluta, sendo abordado com prevenção multifatorial.",
@@ -15757,8 +15757,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "NICE guideline CG103 — Delirium, revisão 2023; ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022",
-  "coment": "A recusa alimentar no idoso com delirium costuma ser manifestação do próprio quadro confusional e da doença de base. A conduta é tratar a causa — aqui a pneumonia —, corrigir fatores contribuintes, aplicar medidas não farmacológicas e oferecer alimentação assistida com avaliação de deglutição, ajustando consistência e posicionamento. A via alternativa de nutrição é considerada individualmente, após avaliar prognóstico, objetivos de cuidado e preferências.",
+  "base": "NICE guideline CG103: Delirium, revisão 2023; ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022",
+  "coment": "A recusa alimentar no idoso com delirium costuma ser manifestação do próprio quadro confusional e da doença de base. A conduta é tratar a causa, aqui a pneumonia, corrigir fatores contribuintes, aplicar medidas não farmacológicas e oferecer alimentação assistida com avaliação de deglutição, ajustando consistência e posicionamento. A via alternativa de nutrição é considerada individualmente, após avaliar prognóstico, objetivos de cuidado e preferências.",
   "porAlt": [
    "A sonda imediata em toda recusa ignora que o quadro costuma reverter com o tratamento da causa.",
    "O antipsicótico não estimula apetite e aumenta mortalidade quando usado de rotina no idoso.",
@@ -15829,7 +15829,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ABESO/SBEM — Diretrizes brasileiras de obesidade, 2022; Endocrine Society guideline on pharmacological management of obesity, revisão 2023",
+  "base": "ABESO/SBEM: Diretrizes brasileiras de obesidade, 2022; Endocrine Society guideline on pharmacological management of obesity, revisão 2023",
   "coment": "O tratamento farmacológico da obesidade é indicado com índice de massa corporal a partir de 30 kg/m², ou a partir de 27 kg/m² com comorbidades, sempre associado a mudança de estilo de vida. As opções aprovadas incluem análogos de GLP-1 como liraglutida e semaglutida, tirzepatida, orlistate e sibutramina em pacientes selecionados sem doença cardiovascular. Diuréticos e hormônio tireoidiano em eutireóideos não são tratamentos e são potencialmente perigosos.",
   "porAlt": [
    "Prescrever substância sem registro sanitário é conduta insegura e eticamente inaceitável.",
@@ -15853,7 +15853,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Evaluation and Management of Adult Hypoglycemic Disorders, revisão 2022",
+  "base": "Endocrine Society Clinical Practice Guideline, Evaluation and Management of Adult Hypoglycemic Disorders, revisão 2022",
   "coment": "A hipoglicemia hiperinsulinêmica endógena é caracterizada por glicemia baixa com insulina, peptídeo C e pró-insulina elevados e rastreio negativo para hipoglicemiantes orais. O insulinoma é a principal causa em adultos sem diabetes, e a confirmação é feita pelo teste de jejum prolongado de setenta e duas horas, seguido de localização por tomografia, ressonância ou ultrassonografia endoscópica. Insulina exógena cursa com peptídeo C suprimido, pois não estimula a produção endógena.",
   "porAlt": [
    "A insulina exógena suprime o peptídeo C, que estaria baixo e não elevado como neste caso.",
@@ -15901,7 +15901,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline — Testosterone Therapy in Men With Hypogonadism, revisão 2023",
+  "base": "Endocrine Society Clinical Practice Guideline, Testosterone Therapy in Men With Hypogonadism, revisão 2023",
   "coment": "Confirmado o hipogonadismo com duas dosagens matinais de testosterona total baixas, o passo seguinte é dosar LH e FSH para diferenciar hipogonadismo primário, com gonadotrofinas elevadas, de secundário, com gonadotrofinas baixas ou inapropriadamente normais. No secundário, dosa-se prolactina e avalia-se o eixo hipofisário com ressonância de sela quando indicado. Tratar sem investigar pode mascarar prolactinoma, hemocromatose ou outras causas tratáveis.",
   "porAlt": [
    "Repor sem investigar pode mascarar causas tratáveis como prolactinoma ou hemocromatose.",
@@ -15974,7 +15974,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "American Thyroid Association Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, revisão 2023",
-  "coment": "Diante de nódulo tireoidiano com TSH suprimido, a cintilografia é indicada para identificar nódulo hiperfuncionante — o nódulo quente —, que raramente é maligno e dispensa punção, sendo tratado com iodo radioativo ou cirurgia. Com TSH normal ou elevado, a avaliação segue por ultrassonografia com estratificação de risco e punção conforme tamanho e características. Contraste iodado deve ser evitado quando se cogita terapia com iodo radioativo.",
+  "coment": "Diante de nódulo tireoidiano com TSH suprimido, a cintilografia é indicada para identificar nódulo hiperfuncionante, o nódulo quente, que raramente é maligno e dispensa punção, sendo tratado com iodo radioativo ou cirurgia. Com TSH normal ou elevado, a avaliação segue por ultrassonografia com estratificação de risco e punção conforme tamanho e características. Contraste iodado deve ser evitado quando se cogita terapia com iodo radioativo.",
   "porAlt": [
    "A punção é dispensável no nódulo quente, e o TSH suprimido muda a sequência da investigação.",
    "A ressonância não avalia a função do nódulo nem substitui a cintilografia neste contexto clínico.",
@@ -16021,11 +16021,11 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2021/2023 — insuficiência cardíaca: ressincronização classe I com QRS ≥ 150 ms e BRE",
-  "coment": "Ritmo sinusal, fração de ejeção ≤ 35%, QRS ≥ 150 ms com morfologia de bloqueio de ramo esquerdo e sintomas apesar de terapia otimizada compõem a indicação de classe I para ressincronização — o cenário de maior benefício, com redução de mortalidade e de internação. O dispositivo é, na prática, um ressincronizador com desfibrilador, mas o que muda o prognóstico aqui é a ressincronização.",
+  "base": "ESC 2021/2023, insuficiência cardíaca: ressincronização classe I com QRS ≥ 150 ms e BRE",
+  "coment": "Ritmo sinusal, fração de ejeção ≤ 35%, QRS ≥ 150 ms com morfologia de bloqueio de ramo esquerdo e sintomas apesar de terapia otimizada compõem a indicação de classe I para ressincronização. O cenário de maior benefício, com redução de mortalidade e de internação. O dispositivo é, na prática, um ressincronizador com desfibrilador, mas o que muda o prognóstico aqui é a ressincronização.",
   "porAlt": [
    "Correta: é a indicação de classe I de ressincronização.",
-   "A frequência já está em 68 bpm e a pressão é limítrofe — há pouca margem, e não é o que falta.",
+   "A frequência já está em 68 bpm e a pressão é limítrofe. Há pouca margem, e não é o que falta.",
    "Ivabradina exige frequência ≥ 70 bpm em ritmo sinusal apesar do betabloqueador otimizado.",
    "O desfibrilador isolado não corrige a dissincronia que o QRS largo denuncia.",
    "A finerenona não substitui a espironolactona na insuficiência cardíaca com fração reduzida."
@@ -16045,8 +16045,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ESC 2022 — arritmias ventriculares e prevenção de morte súbita: síncope de esforço",
-  "coment": "Síncope no esforço, sem pródromos, com história familiar de morte súbita precoce e eletrocardiograma com sobrecarga e alterações de repolarização apontam causa estrutural — cardiomiopatia hipertrófica na frente. O sopro que aparece com a Valsalva reforça a obstrução dinâmica da via de saída. O ecocardiograma responde à pergunta e é o exame que se pede primeiro.",
+  "base": "ESC 2022, arritmias ventriculares e prevenção de morte súbita: síncope de esforço",
+  "coment": "Síncope no esforço, sem pródromos, com história familiar de morte súbita precoce e eletrocardiograma com sobrecarga e alterações de repolarização apontam causa estrutural, cardiomiopatia hipertrófica na frente. O sopro que aparece com a Valsalva reforça a obstrução dinâmica da via de saída. O ecocardiograma responde à pergunta e é o exame que se pede primeiro.",
   "porAlt": [
    "Correta: define hipertrofia, obstrução e gradiente.",
    "O teste de inclinação investiga síncope reflexa, que não é o cenário do esforço com história familiar.",
@@ -16069,8 +16069,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ESC 2024 — fibrilação atrial: janela de 24 horas para cardioversão",
-  "coment": "A janela de cardioversão sem imagem prévia encolheu de 48 para 24 horas na diretriz de 2024. Com 8 horas de evolução ainda se pode cardioverter, mas a anticoagulação é iniciada antes e mantida por pelo menos quatro semanas depois, porque o atordoamento atrial pós-cardioversão é o momento de maior risco embólico — e o escore de 2 pontos já indicaria anticoagulação de qualquer forma.",
+  "base": "ESC 2024. Fibrilação atrial: janela de 24 horas para cardioversão",
+  "coment": "A janela de cardioversão sem imagem prévia encolheu de 48 para 24 horas na diretriz de 2024. Com 8 horas de evolução ainda se pode cardioverter, mas a anticoagulação é iniciada antes e mantida por pelo menos quatro semanas depois, porque o atordoamento atrial pós-cardioversão é o momento de maior risco embólico, e o escore de 2 pontos já indicaria anticoagulação de qualquer forma.",
   "porAlt": [
    "Correta: anticoagular e cardioverter dentro da janela.",
    "Cardioverter sem anticoagulação expõe ao embolismo pós-reversão.",
@@ -16093,8 +16093,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "ESC 2022 — arritmias ventriculares: miocardite e retorno ao esporte",
-  "coment": "Na miocardite aguda o exercício aumenta a replicação viral e a necrose miocárdica em modelos experimentais, e a atividade competitiva é o gatilho descrito de morte súbita em atletas jovens. A recomendação é abstenção por três a seis meses, com liberação condicionada à reavaliação — função ventricular normalizada, ausência de arritmia no Holter e marcadores normais.",
+  "base": "ESC 2022, arritmias ventriculares: miocardite e retorno ao esporte",
+  "coment": "Na miocardite aguda o exercício aumenta a replicação viral e a necrose miocárdica em modelos experimentais, e a atividade competitiva é o gatilho descrito de morte súbita em atletas jovens. A recomendação é abstenção por três a seis meses, com liberação condicionada à reavaliação. Função ventricular normalizada, ausência de arritmia no Holter e marcadores normais.",
   "porAlt": [
    "Correta: três a seis meses de abstenção, com reavaliação antes de liberar.",
    "Liberar já contraria a recomendação e é o cenário do gatilho arrítmico.",
@@ -16117,8 +16117,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2015 — doenças do pericárdio: AINE + colchicina por três meses",
-  "coment": "O tratamento de primeira linha da pericardite aguda é anti-inflamatório não esteroidal em dose plena com desmame, associado a colchicina por três meses — a colchicina reduz cerca de metade das recorrências, que são o principal problema desta doença. O corticoide fica para quando há contraindicação aos dois, porque associa-se a mais recorrência.",
+  "base": "ESC 2015. Doenças do pericárdio: AINE + colchicina por três meses",
+  "coment": "O tratamento de primeira linha da pericardite aguda é anti-inflamatório não esteroidal em dose plena com desmame, associado a colchicina por três meses, a colchicina reduz cerca de metade das recorrências, que são o principal problema desta doença. O corticoide fica para quando há contraindicação aos dois, porque associa-se a mais recorrência.",
   "porAlt": [
    "Correta: a associação é o esquema que reduz recorrência.",
    "Corticoide de entrada aumenta a taxa de recorrência.",
@@ -16141,7 +16141,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "SBC 2025 e AHA/ACC 2025 — hipertensão resistente: espironolactona como quarto fármaco",
+  "base": "SBC 2025 e AHA/ACC 2025. Hipertensão resistente: espironolactona como quarto fármaco",
   "coment": "Hipertensão resistente é a que persiste acima da meta com três classes em dose otimizada, uma delas diurético. O quarto fármaco de escolha é a espironolactona: no PATHWAY-2 ela reduziu a pressão mais que bisoprolol e doxazosina, e a diretriz brasileira de 2025 a mantém como preferencial nesse degrau. Vigiar potássio e creatinina após o início.",
   "porAlt": [
    "Correta: é o quarto fármaco de escolha na resistente.",
@@ -16165,7 +16165,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "AHA/ACC 2019 — prevenção primária: escore de cálcio no risco intermediário",
+  "base": "AHA/ACC 2019, prevenção primária: escore de cálcio no risco intermediário",
   "coment": "No risco intermediário e assintomático, o escore de cálcio é o exame com melhor capacidade de reclassificação: zero desloca para baixo e permite adiar a estatina em quem hesita, enquanto valores altos deslocam para cima e indicam tratamento. Os testes funcionais investigam isquemia, que não é a pergunta em paciente sem sintomas.",
   "porAlt": [
    "Correta: é o exame de reclassificação de risco nesse cenário.",
@@ -16189,8 +16189,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ESC 2023 — endocardite infecciosa: três pares antes do antimicrobiano",
-  "coment": "O padrão é de três pares colhidos de punções venosas distintas, com intervalo, e sempre antes da primeira dose de antibiótico — a bacteremia da endocardite é contínua, então não é preciso esperar o pico febril, e uma dose de antibiótico pode negativar a cultura e comprometer todo o tratamento subsequente.",
+  "base": "ESC 2023. Endocardite infecciosa: três pares antes do antimicrobiano",
+  "coment": "O padrão é de três pares colhidos de punções venosas distintas, com intervalo, e sempre antes da primeira dose de antibiótico, a bacteremia da endocardite é contínua, então não é preciso esperar o pico febril, e uma dose de antibiótico pode negativar a cultura e comprometer todo o tratamento subsequente.",
   "porAlt": [
    "Correta: três pares, sítios diferentes, antes do antibiótico.",
    "Esperar o pico não aumenta o rendimento, e colher depois do antibiótico reduz.",
@@ -16213,7 +16213,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ESC 2024 — síndromes coronarianas crônicas: angiotomografia como exame inicial",
+  "base": "ESC 2024, síndromes coronarianas crônicas: angiotomografia como exame inicial",
   "coment": "Na síndrome coronariana crônica com probabilidade pré-teste baixa a intermediária, a angiotomografia passou a ser o exame inicial preferencial: tem alto valor preditivo negativo, exclui doença obstrutiva com segurança e ainda mostra a carga aterosclerótica não obstrutiva, que muda a intensidade da prevenção. O ergométrico ficou relegado por acurácia inferior.",
   "porAlt": [
    "Correta: exame anatômico inicial preferencial nessa faixa de probabilidade.",
@@ -16237,12 +16237,12 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ESC 2021 — insuficiência cardíaca aguda: perfis clínicos e descongestão",
+  "base": "ESC 2021. Insuficiência cardíaca aguda: perfis clínicos e descongestão",
   "coment": "É o perfil quente e úmido: congestão sem hipoperfusão. O tratamento é descongestão com diurético de alça intravenoso, e a pressão elevada permite associar vasodilatador, que reduz pós-carga e alivia a dispneia mais rápido. Oxigênio suplementar para a saturação de 88% completa a medida inicial.",
   "porAlt": [
    "Correta: descongestionar, com vasodilatador pela pressão elevada.",
    "Volume piora a congestão que já existe.",
-   "Inotrópico é para o perfil frio, com hipoperfusão — não é o caso.",
+   "Inotrópico é para o perfil frio, com hipoperfusão, não é o caso.",
    "A taquicardia é resposta à congestão; betabloqueador intravenoso aqui pode precipitar choque.",
    "A via oral tem absorção errática no intestino congesto."
   ]
@@ -16261,8 +16261,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Surviving Sepsis Campaign 2021/2026 — pacote de primeira hora",
-  "coment": "O pacote de primeira hora reúne: colher lactato e hemoculturas antes do antibiótico, administrar antimicrobiano de amplo espectro, iniciar cristaloide 30 mL/kg na hipotensão ou lactato acima de 4 mmol/L, e dosar novo lactato. O vasopressor entra se a pressão arterial média não alcança 65 mmHg apesar do volume — não antes dele.",
+  "base": "Surviving Sepsis Campaign 2021/2026, pacote de primeira hora",
+  "coment": "O pacote de primeira hora reúne: colher lactato e hemoculturas antes do antibiótico, administrar antimicrobiano de amplo espectro, iniciar cristaloide 30 mL/kg na hipotensão ou lactato acima de 4 mmol/L, e dosar novo lactato. O vasopressor entra se a pressão arterial média não alcança 65 mmHg apesar do volume, não antes dele.",
   "porAlt": [
    "Correta: é o pacote de primeira hora completo.",
    "Antibiótico sem volume deixa a hipoperfusão sem tratar.",
@@ -16285,8 +16285,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r1",
-  "base": "AHA/ACC 2026 — tromboembolismo pulmonar: probabilidade pré-teste e imagem",
-  "coment": "Dispneia súbita com hipoxemia e radiografia normal, em pós-operatório ortopédico recente, coloca a embolia pulmonar como primeira hipótese, com probabilidade pré-teste alta. Nessa faixa o dímero D não exclui — está quase sempre elevado no pós-operatório — e a angiotomografia é o exame de escolha. Profilaxia em uso não afasta o diagnóstico.",
+  "base": "AHA/ACC 2026, tromboembolismo pulmonar: probabilidade pré-teste e imagem",
+  "coment": "Dispneia súbita com hipoxemia e radiografia normal, em pós-operatório ortopédico recente, coloca a embolia pulmonar como primeira hipótese, com probabilidade pré-teste alta. Nessa faixa o dímero D não exclui, está quase sempre elevado no pós-operatório, e a angiotomografia é o exame de escolha. Profilaxia em uso não afasta o diagnóstico.",
   "porAlt": [
    "Correta: probabilidade alta exige imagem confirmatória direta.",
    "O dímero D é inútil como exclusão no pós-operatório recente.",
@@ -16309,8 +16309,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ARDS Network, N Engl J Med 2000 — ventilação protetora na SDRA",
-  "coment": "A ventilação protetora reduz mortalidade: volume corrente de 6 mL/kg de peso PREDITO — calculado pela altura e pelo sexo, nunca pelo peso real —, pressão de platô abaixo de 30 cmH₂O e PEEP titulada. A hipercapnia permissiva é aceita para manter esses limites, e a pressão de distensão abaixo de 15 cmH₂O é alvo adicional.",
+  "base": "ARDS Network, N Engl J Med 2000. Ventilação protetora na SDRA",
+  "coment": "A ventilação protetora reduz mortalidade: volume corrente de 6 mL/kg de peso PREDITO (calculado pela altura e pelo sexo, nunca pelo peso real), pressão de platô abaixo de 30 cmH₂O e PEEP titulada. A hipercapnia permissiva é aceita para manter esses limites, e a pressão de distensão abaixo de 15 cmH₂O é alvo adicional.",
   "porAlt": [
    "Correta: é a estratégia protetora que reduziu mortalidade no ARDSNet.",
    "Volume alto e peso real produzem lesão induzida pela ventilação.",
@@ -16333,8 +16333,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ESC 2021 — choque cardiogênico: vasopressor, inotrópico e suporte mecânico",
-  "coment": "É choque cardiogênico: hipoperfusão com congestão e saturação venosa baixa. A noradrenalina restaura a pressão de perfusão e a dobutamina aumenta o débito; a expansão volêmica agrava a congestão já presente. Se não houver resposta, discute-se suporte circulatório mecânico e revascularização — a reperfusão é o que muda o prognóstico.",
+  "base": "ESC 2021. Choque cardiogênico: vasopressor, inotrópico e suporte mecânico",
+  "coment": "É choque cardiogênico: hipoperfusão com congestão e saturação venosa baixa. A noradrenalina restaura a pressão de perfusão e a dobutamina aumenta o débito; a expansão volêmica agrava a congestão já presente. Se não houver resposta, discute-se suporte circulatório mecânico e revascularização. A reperfusão é o que muda o prognóstico.",
   "porAlt": [
    "Correta: vasopressor com inotrópico, e suporte mecânico se refratário.",
    "Volume com estertores difusos e fração de 22% piora a congestão.",
@@ -16357,8 +16357,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "SBD 2026 — manejo da hipoglicemia grave",
-  "coment": "Hipoglicemia com rebaixamento de consciência e acesso venoso disponível é tratada com glicose hipertônica intravenosa em bolus, seguida de infusão contínua e reavaliação. A via oral está contraindicada pelo risco de aspiração. Com sulfonilureia envolvida, a hipoglicemia recorre — internação e observação prolongada são obrigatórias, e o octreotide entra na refratariedade.",
+  "base": "SBD 2026. Manejo da hipoglicemia grave",
+  "coment": "Hipoglicemia com rebaixamento de consciência e acesso venoso disponível é tratada com glicose hipertônica intravenosa em bolus, seguida de infusão contínua e reavaliação. A via oral está contraindicada pelo risco de aspiração. Com sulfonilureia envolvida, a hipoglicemia recorre. Internação e observação prolongada são obrigatórias, e o octreotide entra na refratariedade.",
   "porAlt": [
    "Correta: via intravenosa, rápida, com o paciente rebaixado.",
    "A via oral no rebaixado arrisca aspiração.",
@@ -16381,8 +16381,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Manual de Toxicologia Clínica COVISA 2017 — benzodiazepínicos e flumazenil",
-  "coment": "Na intoxicação isolada por benzodiazepínico, com via aérea pérvia e ventilação adequada, o tratamento é de suporte: monitorização, oxigênio e observação. O flumazenil é evitado — pode precipitar convulsão refratária em usuários crônicos ou em coingestão com tricíclicos, e a abstinência aguda é de difícil manejo. O benefício raramente supera o risco.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017. Benzodiazepínicos e flumazenil",
+  "coment": "Na intoxicação isolada por benzodiazepínico, com via aérea pérvia e ventilação adequada, o tratamento é de suporte: monitorização, oxigênio e observação. O flumazenil é evitado. Pode precipitar convulsão refratária em usuários crônicos ou em coingestão com tricíclicos, e a abstinência aguda é de difícil manejo. O benefício raramente supera o risco.",
   "porAlt": [
    "Correta: suporte e observação, sem antagonista.",
    "O flumazenil pode precipitar convulsão de difícil controle.",
@@ -16405,8 +16405,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2018 — trauma abdominal fechado com instabilidade",
-  "coment": "Trauma abdominal fechado com instabilidade hemodinâmica e FAST positivo é indicação de laparotomia imediata — a imagem já respondeu à pergunta e levar o paciente instável à tomografia é perder tempo em corredor. A tomografia é para o estável; o lavado peritoneal foi substituído pelo FAST.",
+  "base": "ATLS 11ª edição, 2018 (trauma abdominal fechado com instabilidade",
+  "coment": "Trauma abdominal fechado com instabilidade hemodinâmica e FAST positivo é indicação de laparotomia imediata) a imagem já respondeu à pergunta e levar o paciente instável à tomografia é perder tempo em corredor. A tomografia é para o estável; o lavado peritoneal foi substituído pelo FAST.",
   "porAlt": [
    "Correta: instável com FAST positivo vai direto ao centro cirúrgico.",
    "A tomografia é para o estável.",
@@ -16429,8 +16429,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Ministério da Saúde, 2001 — Manual de diagnóstico e tratamento de acidentes por animais peçonhentos: acidente botrópico",
-  "coment": "No acidente botrópico, edema que ultrapassa dois segmentos do membro, com sangramento sistêmico e distúrbio de coagulação, classifica o caso como grave — e grave recebe 12 ampolas de soro antibotrópico por via intravenosa. A dose depende da gravidade, não do peso, e crianças recebem a mesma quantidade de adultos.",
+  "base": "Ministério da Saúde, 2001, Manual de diagnóstico e tratamento de acidentes por animais peçonhentos: acidente botrópico",
+  "coment": "No acidente botrópico, edema que ultrapassa dois segmentos do membro, com sangramento sistêmico e distúrbio de coagulação, classifica o caso como grave, e grave recebe 12 ampolas de soro antibotrópico por via intravenosa. A dose depende da gravidade, não do peso, e crianças recebem a mesma quantidade de adultos.",
   "porAlt": [
    "Correta: edema extenso com sangramento sistêmico define grave.",
    "Sangramento gengival e coagulação alterada não são acidente leve.",
@@ -16477,7 +16477,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "AHA 2025 — cuidados pós-parada cardiorrespiratória",
+  "base": "AHA 2025, cuidados pós-parada cardiorrespiratória",
   "coment": "Os cuidados pós-parada incluem controle ativo de temperatura com alvo entre 32 e 37,5 °C e prevenção rigorosa da febre, coronariografia precoce quando há supradesnivelamento, alvos de oxigenação evitando hiperóxia e hipóxia, normocapnia e pressão arterial média adequada. A prognosticação neurológica é multimodal e só depois de 72 horas.",
   "porAlt": [
    "Correta: é o pacote pós-parada com a coronariografia indicada pelo supra.",
@@ -16501,8 +16501,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA/ATS 2019 — pneumonia comunitária grave",
-  "coment": "Na pneumonia comunitária grave com indicação de terapia intensiva, o esquema empírico associa betalactâmico — ceftriaxona, cefotaxima ou ampicilina-sulbactam — a macrolídeo ou quinolona respiratória. A associação com macrolídeo reduz mortalidade nas formas graves, efeito atribuído à cobertura de atípicos e à ação imunomoduladora. Sem fatores de risco, não se cobre Pseudomonas nem MRSA.",
+  "base": "IDSA/ATS 2019 (pneumonia comunitária grave",
+  "coment": "Na pneumonia comunitária grave com indicação de terapia intensiva, o esquema empírico associa betalactâmico) ceftriaxona, cefotaxima ou ampicilina-sulbactam, a macrolídeo ou quinolona respiratória. A associação com macrolídeo reduz mortalidade nas formas graves, efeito atribuído à cobertura de atípicos e à ação imunomoduladora. Sem fatores de risco, não se cobre Pseudomonas nem MRSA.",
   "porAlt": [
    "Correta: betalactâmico com macrolídeo é o padrão na forma grave.",
    "Via oral em paciente em choque não é opção.",
@@ -16525,8 +16525,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA 2014 — infecções de pele e partes moles",
-  "coment": "Falha de betalactâmico com surgimento de flutuação indica abscesso, e a drenagem é o tratamento principal — antibiótico não penetra coleção. A cobertura passa a incluir MRSA comunitário, com sulfametoxazol-trimetoprima, clindamicina ou doxiciclina. Ausência de crepitação, bolhas e dor desproporcional afasta fasciíte necrosante.",
+  "base": "IDSA 2014 (infecções de pele e partes moles",
+  "coment": "Falha de betalactâmico com surgimento de flutuação indica abscesso, e a drenagem é o tratamento principal) antibiótico não penetra coleção. A cobertura passa a incluir MRSA comunitário, com sulfametoxazol-trimetoprima, clindamicina ou doxiciclina. Ausência de crepitação, bolhas e dor desproporcional afasta fasciíte necrosante.",
   "porAlt": [
    "Correta: drenar a coleção e cobrir MRSA.",
    "Insistir no mesmo fármaco após falha e com coleção não resolve.",
@@ -16549,8 +16549,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "IDSA 2010 e OMS 2022 — criptococose meníngea no HIV",
-  "coment": "Cefaleia subaguda com CD4 abaixo de 100, líquor com poucas células, glicose baixa e pressão de abertura muito elevada é criptococose até prova em contrário. O tratamento de indução é anfotericina B associada à flucitosina, e o controle da pressão intracraniana com punções lombares de repetição é o que mais reduz mortalidade precoce — o fluconazol isolado é inferior na indução.",
+  "base": "IDSA 2010 e OMS 2022. Criptococose meníngea no HIV",
+  "coment": "Cefaleia subaguda com CD4 abaixo de 100, líquor com poucas células, glicose baixa e pressão de abertura muito elevada é criptococose até prova em contrário. O tratamento de indução é anfotericina B associada à flucitosina, e o controle da pressão intracraniana com punções lombares de repetição é o que mais reduz mortalidade precoce. O fluconazol isolado é inferior na indução.",
   "porAlt": [
    "Correta: quadro típico, com punções de alívio como medida crítica.",
    "A bacteriana é aguda, com neutrófilos e centenas de células.",
@@ -16573,8 +16573,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ESC 2023 — endocardite infecciosa: critérios de Duke e imagem",
-  "coment": "Com dois critérios maiores de Duke em construção — hemoculturas persistentemente positivas para germe típico e sopro de regurgitação novo —, o próximo passo é documentar o acometimento endocárdico. O transesofágico tem sensibilidade muito superior ao transtorácico para vegetações, abscesso perianular e deiscência, e é o exame indicado em suspeita alta ou transtorácico não conclusivo.",
+  "base": "ESC 2023, endocardite infecciosa: critérios de Duke e imagem",
+  "coment": "Com dois critérios maiores de Duke em construção, hemoculturas persistentemente positivas para germe típico e sopro de regurgitação novo, o próximo passo é documentar o acometimento endocárdico. O transesofágico tem sensibilidade muito superior ao transtorácico para vegetações, abscesso perianular e deiscência, e é o exame indicado em suspeita alta ou transtorácico não conclusivo.",
   "porAlt": [
    "Correta: melhor exame para documentar o acometimento valvar.",
    "As hemoculturas já são positivas para germe típico em três pares.",
@@ -16584,7 +16584,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 42 anos iniciou tratamento para tuberculose pulmonar com esquema básico há três semanas. Retorna com náuseas, vômitos, dor em hipocôndrio direito e icterícia. Está com bilirrubina total de 4,8 mg/dL com predomínio direto, alanina aminotransferase de 480 U/L e aspartato aminotransferase de 390 U/L — mais de cinco vezes o limite superior. Nega uso de álcool ou outros fármacos e as sorologias virais são negativas. Qual é a conduta?",
+  "q": "Homem de 42 anos iniciou tratamento para tuberculose pulmonar com esquema básico há três semanas. Retorna com náuseas, vômitos, dor em hipocôndrio direito e icterícia. Está com bilirrubina total de 4,8 mg/dL com predomínio direto, alanina aminotransferase de 480 U/L e aspartato aminotransferase de 390 U/L. Mais de cinco vezes o limite superior. Nega uso de álcool ou outros fármacos e as sorologias virais são negativas. Qual é a conduta?",
   "alts": [
    "Suspender o esquema e reintroduzir escalonadamente",
    "Manter o esquema e acompanhar as enzimas semanalmente",
@@ -16597,8 +16597,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde, 2019 — Manual de recomendações para o controle da tuberculose: hepatotoxicidade",
-  "coment": "Hepatotoxicidade com transaminases acima de cinco vezes o limite, ou acima de três vezes com sintomas ou icterícia, impõe suspender todo o esquema. Após normalização — ou queda abaixo de duas vezes o limite — a reintrodução é escalonada, fármaco a fármaco, com intervalo e monitorização, para identificar o agente responsável. Em formas graves usa-se esquema alternativo sem hepatotóxicos durante a suspensão.",
+  "base": "Ministério da Saúde, 2019. Manual de recomendações para o controle da tuberculose: hepatotoxicidade",
+  "coment": "Hepatotoxicidade com transaminases acima de cinco vezes o limite, ou acima de três vezes com sintomas ou icterícia, impõe suspender todo o esquema. Após normalização, ou queda abaixo de duas vezes o limite, a reintrodução é escalonada, fármaco a fármaco, com intervalo e monitorização, para identificar o agente responsável. Em formas graves usa-se esquema alternativo sem hepatotóxicos durante a suspensão.",
   "porAlt": [
    "Correta: suspensão completa e reintrodução escalonada.",
    "Manter o esquema com icterícia e enzimas cinco vezes altas arrisca hepatite fulminante.",
@@ -16621,8 +16621,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde, 2022 — profilaxia antitetânica em ferimentos",
-  "coment": "Ferimento de alto risco — profundo, sujo de terra, com tecido desvitalizado — em pessoa com esquema vacinal desconhecido ou incompleto exige as duas medidas: vacina, que constrói a proteção duradoura, e imunoglobulina, que oferece proteção imediata enquanto a resposta vacinal não se estabelece. Somam-se limpeza e desbridamento da ferida.",
+  "base": "Ministério da Saúde, 2022 (profilaxia antitetânica em ferimentos",
+  "coment": "Ferimento de alto risco) profundo, sujo de terra, com tecido desvitalizado, em pessoa com esquema vacinal desconhecido ou incompleto exige as duas medidas: vacina, que constrói a proteção duradoura, e imunoglobulina, que oferece proteção imediata enquanto a resposta vacinal não se estabelece. Somam-se limpeza e desbridamento da ferida.",
   "porAlt": [
    "Correta: alto risco com esquema desconhecido exige vacina e imunoglobulina.",
    "A vacina isolada deixa o paciente desprotegido nas próximas semanas.",
@@ -16645,8 +16645,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "IDSA 2023 — tratamento de infecções por bactérias resistentes: ESBL",
-  "coment": "Pielonefrite por enterobactéria produtora de betalactamase de espectro estendido exige carbapenêmico intravenoso — é o tratamento de referência para infecção sistêmica por esse perfil. A nitrofurantoína e a fosfomicina não atingem concentração tecidual renal adequada e servem apenas para cistite não complicada; cefalosporinas e quinolonas estão excluídas pelo antibiograma.",
+  "base": "IDSA 2023. Tratamento de infecções por bactérias resistentes: ESBL",
+  "coment": "Pielonefrite por enterobactéria produtora de betalactamase de espectro estendido exige carbapenêmico intravenoso, é o tratamento de referência para infecção sistêmica por esse perfil. A nitrofurantoína e a fosfomicina não atingem concentração tecidual renal adequada e servem apenas para cistite não complicada; cefalosporinas e quinolonas estão excluídas pelo antibiograma.",
   "porAlt": [
    "Correta: infecção sistêmica com esse perfil exige carbapenêmico.",
    "A nitrofurantoína não alcança o parênquima renal.",
@@ -16669,7 +16669,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde, 2014 — Manual de vigilância e controle da leishmaniose visceral",
+  "base": "Ministério da Saúde, 2014, Manual de vigilância e controle da leishmaniose visceral",
   "coment": "Febre prolongada, hepatoesplenomegalia volumosa, pancitopenia, emagrecimento e inversão da relação albumina-globulina, em procedente de área endêmica, compõem o quadro clássico de calazar. O diagnóstico se faz por teste rápido rK39, com alta sensibilidade, e a confirmação parasitológica por aspirado de medula óssea quando necessário.",
   "porAlt": [
    "Correta: quadro e procedência típicos, com os exames de escolha.",
@@ -16693,8 +16693,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "IDSA 2009 — infecção de corrente sanguínea relacionada a cateter",
-  "coment": "Infecção de corrente sanguínea associada a cateter com sinais locais de infecção no sítio de inserção impõe a remoção do dispositivo — mantê-lo perpetua a bacteremia. Colhem-se hemoculturas pareadas, do cateter e de veia periférica, antes do antibiótico, e a ponta do cateter segue para cultura. A troca por fio-guia é contraindicada com infecção do túnel ou do sítio.",
+  "base": "IDSA 2009. Infecção de corrente sanguínea relacionada a cateter",
+  "coment": "Infecção de corrente sanguínea associada a cateter com sinais locais de infecção no sítio de inserção impõe a remoção do dispositivo, mantê-lo perpetua a bacteremia. Colhem-se hemoculturas pareadas, do cateter e de veia periférica, antes do antibiótico, e a ponta do cateter segue para cultura. A troca por fio-guia é contraindicada com infecção do túnel ou do sítio.",
   "porAlt": [
    "Correta: remover o foco e colher culturas pareadas antes do antibiótico.",
    "Manter o cateter com secreção purulenta mantém o foco.",
@@ -16717,8 +16717,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde, 2024 — protocolo de tratamento de influenza",
-  "coment": "Síndrome gripal em pessoa com condição de risco — aqui asma e obesidade — tem indicação de oseltamivir independentemente da gravidade, e o benefício é maior quando iniciado nas primeiras 48 horas. O tratamento não deve esperar confirmação laboratorial: o teste negativo não afasta influenza e a demora anula o efeito.",
+  "base": "Ministério da Saúde, 2024 (protocolo de tratamento de influenza",
+  "coment": "Síndrome gripal em pessoa com condição de risco) aqui asma e obesidade. Tem indicação de oseltamivir independentemente da gravidade, e o benefício é maior quando iniciado nas primeiras 48 horas. O tratamento não deve esperar confirmação laboratorial: o teste negativo não afasta influenza e a demora anula o efeito.",
   "porAlt": [
    "Correta: condição de risco indica antiviral, iniciado precocemente.",
    "Ser leve não dispensa o antiviral em quem tem fator de risco.",
@@ -16742,7 +16742,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r1",
   "base": "AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and TIA, 2021 com revisão 2024",
-  "coment": "A prevenção secundária do acidente vascular cerebral isquêmico não cardioembólico combina antiagregante — ácido acetilsalicílico ou clopidogrel, com dupla antiagregação por curto período em eventos menores ou ataque isquêmico transitório de alto risco —, estatina de alta potência com meta de LDL abaixo de 70 mg/dL, controle pressórico rigoroso, controle glicêmico, cessação do tabagismo e atividade física regular. Anticoagulação se reserva à origem cardioembólica.",
+  "coment": "A prevenção secundária do acidente vascular cerebral isquêmico não cardioembólico combina antiagregante (ácido acetilsalicílico ou clopidogrel, com dupla antiagregação por curto período em eventos menores ou ataque isquêmico transitório de alto risco), estatina de alta potência com meta de LDL abaixo de 70 mg/dL, controle pressórico rigoroso, controle glicêmico, cessação do tabagismo e atividade física regular. Anticoagulação se reserva à origem cardioembólica.",
   "porAlt": [
    "A anticoagulação se reserva à etiologia cardioembólica e aumenta risco hemorrágico sem essa indicação.",
    "O controle pressórico isolado deixa de fora antiagregação e estatina, ambas com benefício comprovado.",
@@ -16789,7 +16789,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ILAE definition of drug-resistant epilepsy; NICE guideline NG217 — Epilepsies in children, young people and adults, 2022",
+  "base": "ILAE definition of drug-resistant epilepsy; NICE guideline NG217, Epilepsies in children, young people and adults, 2022",
   "coment": "Diante de crises persistentes, revisam-se adesão, dose, tipo de crise e diagnóstico, além de fatores desencadeantes como privação de sono, álcool e interações medicamentosas. Otimiza-se a dose até a máxima tolerada, e persistindo as crises, troca-se por outra monoterapia ou associa-se um segundo fármaco. Epilepsia farmacorresistente é definida pela falha de dois esquemas adequados e tolerados, ponto em que se avalia cirurgia em centro especializado.",
   "porAlt": [
    "Suspender a medicação expõe o paciente a crises mais frequentes e ao risco de estado de mal.",
@@ -17029,7 +17029,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Primary Aldosteronism, revisão 2022; KDIGO controversies on potassium, 2020",
+  "base": "Endocrine Society Clinical Practice Guideline: Primary Aldosteronism, revisão 2022; KDIGO controversies on potassium, 2020",
   "coment": "A tríade de hipocalemia, alcalose metabólica e hipertensão aponta excesso de mineralocorticoide, sendo o hiperaldosteronismo primário a causa mais frequente. A investigação inicia com a relação entre aldosterona e renina plasmáticas, corrigindo a hipocalemia antes da coleta, porque ela suprime a secreção de aldosterona e pode gerar falso-negativo. Diferenciais incluem síndrome de Cushing, estenose de artéria renal e uso de alcaçuz e corticoides.",
   "porAlt": [
    "O hormônio tireoestimulante não explica a associação de hipocalemia, alcalose e hipertensão.",
@@ -17246,7 +17246,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "AASLD Practice Guidance on metabolic dysfunction-associated steatotic liver disease, 2023; EASL-EASD-EASO Clinical Practice Guidelines, 2024",
-  "coment": "A doença hepática esteatótica associada à disfunção metabólica é hoje a hepatopatia crônica mais prevalente e pode evoluir para esteato-hepatite, fibrose, cirrose e carcinoma hepatocelular. O tratamento central é perda de peso — cerca de sete a dez por cento reverte esteato-hepatite e melhora a fibrose — associada a controle de diabetes, dislipidemia e pressão. A avaliação de fibrose usa escores como FIB-4 e elastografia, reservando a biópsia a casos duvidosos.",
+  "coment": "A doença hepática esteatótica associada à disfunção metabólica é hoje a hepatopatia crônica mais prevalente e pode evoluir para esteato-hepatite, fibrose, cirrose e carcinoma hepatocelular. O tratamento central é perda de peso, cerca de sete a dez por cento reverte esteato-hepatite e melhora a fibrose, associada a controle de diabetes, dislipidemia e pressão. A avaliação de fibrose usa escores como FIB-4 e elastografia, reservando a biópsia a casos duvidosos.",
   "porAlt": [
    "Hepatoprotetores de venda livre não têm eficácia demonstrada nessa hepatopatia metabólica.",
    "A biópsia se reserva a casos duvidosos, após triagem de fibrose por escores e elastografia.",
@@ -17270,7 +17270,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "ECCO guidelines on therapeutics in Crohn's disease, 2022; AGA Clinical Practice Guideline, revisão 2024",
-  "coment": "O corticoide induz remissão mas não a mantém, e não deve ser usado como manutenção pela toxicidade. Na doença de Crohn moderada a grave com falha ou dependência de corticoide, indicam-se imunobiológicos — anti-TNF, ustequinumabe ou vedolizumabe — isolados ou combinados com imunomodulador, sempre após rastreio de tuberculose latente e hepatites. A cirurgia se reserva a complicações como estenose sintomática, fístula complexa e abscesso.",
+  "coment": "O corticoide induz remissão mas não a mantém, e não deve ser usado como manutenção pela toxicidade. Na doença de Crohn moderada a grave com falha ou dependência de corticoide, indicam-se imunobiológicos (anti-TNF, ustequinumabe ou vedolizumabe) isolados ou combinados com imunomodulador, sempre após rastreio de tuberculose latente e hepatites. A cirurgia se reserva a complicações como estenose sintomática, fístula complexa e abscesso.",
   "porAlt": [
    "O corticoide não mantém remissão e o uso prolongado acumula toxicidade importante e evitável.",
    "Correta: imunobiológico após rastreio de infecções latentes, com estratégia de manutenção definida.",
@@ -17318,7 +17318,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r1",
   "base": "ACG/CAG Clinical Guideline on dyspepsia, revisão 2022; Consenso Brasileiro sobre Helicobacter pylori, 2022",
-  "coment": "Em paciente jovem com dispepsia e sem sinais de alarme — perda de peso, disfagia, vômitos persistentes, anemia, sangramento, massa palpável e história familiar de neoplasia gástrica —, a estratégia recomendada é testar e tratar Helicobacter pylori, com teste respiratório ou antígeno fecal. Sem resposta, tenta-se inibidor de bomba de prótons. A endoscopia é reservada a sinais de alarme, idade acima do limiar local e falha terapêutica.",
+  "coment": "Em paciente jovem com dispepsia e sem sinais de alarme (perda de peso, disfagia, vômitos persistentes, anemia, sangramento, massa palpável e história familiar de neoplasia gástrica), a estratégia recomendada é testar e tratar Helicobacter pylori, com teste respiratório ou antígeno fecal. Sem resposta, tenta-se inibidor de bomba de prótons. A endoscopia é reservada a sinais de alarme, idade acima do limiar local e falha terapêutica.",
   "porAlt": [
    "A endoscopia em todos os jovens sem alarme é de baixo rendimento e onera o sistema de saúde.",
    "Correta: testar e tratar Helicobacter pylori, com endoscopia reservada a falha ou sinais de alarme.",
@@ -17390,7 +17390,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r2",
   "base": "Tokyo Guidelines 2018 com revisão 2023; ESGE guideline on endoscopic management of acute cholangitis, 2023",
-  "coment": "A tríade de Charcot — febre, icterícia e dor em hipocôndrio direito — sugere colangite aguda, que se torna grave com hipotensão e alteração de consciência, completando a pêntade de Reynolds. O tratamento combina antibiótico com cobertura para gram-negativos e anaeróbios, suporte hemodinâmico e drenagem biliar precoce, geralmente por colangiopancreatografia retrógrada endoscópica, feita em até vinte e quatro horas nos casos graves.",
+  "coment": "A tríade de Charcot (febre, icterícia e dor em hipocôndrio direito) sugere colangite aguda, que se torna grave com hipotensão e alteração de consciência, completando a pêntade de Reynolds. O tratamento combina antibiótico com cobertura para gram-negativos e anaeróbios, suporte hemodinâmico e drenagem biliar precoce, geralmente por colangiopancreatografia retrógrada endoscópica, feita em até vinte e quatro horas nos casos graves.",
   "porAlt": [
    "Antibiótico oral ambulatorial não trata colangite com obstrução, que evolui rapidamente para sepse.",
    "Aguardar resolução espontânea em colangite obstrutiva permite choque séptico e óbito evitável.",
@@ -17414,7 +17414,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r1",
   "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022",
-  "coment": "No refluxo com sintomas típicos e sem sinais de alarme, o diagnóstico é clínico e a resposta ao inibidor de bomba de prótons confirma a hipótese. O tratamento associa medidas comportamentais — perda de peso, elevação da cabeceira, evitar deitar após refeições, cessar tabagismo — ao fármaco na menor dose eficaz, com tentativa de redução após oito semanas. Endoscopia se reserva a sinais de alarme, falha terapêutica ou rastreio de esôfago de Barrett em grupos de risco.",
+  "coment": "No refluxo com sintomas típicos e sem sinais de alarme, o diagnóstico é clínico e a resposta ao inibidor de bomba de prótons confirma a hipótese. O tratamento associa medidas comportamentais (perda de peso, elevação da cabeceira, evitar deitar após refeições, cessar tabagismo) ao fármaco na menor dose eficaz, com tentativa de redução após oito semanas. Endoscopia se reserva a sinais de alarme, falha terapêutica ou rastreio de esôfago de Barrett em grupos de risco.",
   "porAlt": [
    "A endoscopia anual de rotina não é indicada em paciente com sintomas típicos e boa resposta.",
    "A cirurgia se reserva a casos selecionados, como refratariedade ou intolerância ao tratamento clínico.",
@@ -17485,8 +17485,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ATS/ERS/JRS/ALAT Clinical Practice Guideline on idiopathic pulmonary fibrosis, 2022; SBPT — Diretrizes de doenças intersticiais, 2023",
-  "coment": "A fibrose pulmonar idiopática cursa com dispneia progressiva, tosse seca, crepitações em velcro nas bases e baqueteamento digital, em pacientes acima de sessenta anos. O padrão tomográfico de pneumonia intersticial usual — reticulado subpleural e basal, bronquiectasias de tração e faveolamento — permite o diagnóstico sem biópsia quando o contexto clínico é compatível e outras causas foram afastadas. O tratamento usa antifibróticos como nintedanibe e pirfenidona.",
+  "base": "ATS/ERS/JRS/ALAT Clinical Practice Guideline on idiopathic pulmonary fibrosis, 2022; SBPT. Diretrizes de doenças intersticiais, 2023",
+  "coment": "A fibrose pulmonar idiopática cursa com dispneia progressiva, tosse seca, crepitações em velcro nas bases e baqueteamento digital, em pacientes acima de sessenta anos. O padrão tomográfico de pneumonia intersticial usual (reticulado subpleural e basal, bronquiectasias de tração e faveolamento) permite o diagnóstico sem biópsia quando o contexto clínico é compatível e outras causas foram afastadas. O tratamento usa antifibróticos como nintedanibe e pirfenidona.",
   "porAlt": [
    "Correta: padrão tomográfico de pneumonia intersticial usual permite o diagnóstico sem biópsia.",
    "A asma é doença obstrutiva reversível e não produz faveolamento nem crepitações em velcro.",
@@ -17509,7 +17509,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "GINA — Global Strategy for Asthma Management and Prevention, 2025",
+  "base": "GINA, Global Strategy for Asthma Management and Prevention, 2025",
   "coment": "Após três a seis meses de controle sustentado, considera-se reduzir o tratamento de forma escalonada, sempre mantendo corticoide inalatório em alguma dose, nunca chegando a beta-agonista isolado, que aumenta exacerbações graves e mortalidade. A redução é gradual, com reavaliação em intervalos, evitando períodos de risco como infecções respiratórias, viagens e gestação. Antes de qualquer ajuste, checam-se técnica inalatória, adesão e controle de gatilhos.",
   "porAlt": [
    "Suspender todo o tratamento expõe o paciente a exacerbação e perda do controle alcançado.",
@@ -17534,7 +17534,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "BTS Pleural Disease Guideline, 2023; ATS/STS/STR guideline on pleural infection, revisão 2023",
-  "coment": "Derrame parapneumônico complicado ou empiema — pH abaixo de 7,20, glicose reduzida, desidrogenase láctica elevada, cultura positiva ou aspecto purulento — exige drenagem torácica associada a antibiótico com cobertura para germes respiratórios e anaeróbios. Sem drenagem, a infecção se organiza e evolui para encarceramento pulmonar. Falha da drenagem indica fibrinolítico intrapleural com desoxirribonuclease ou abordagem cirúrgica por videotoracoscopia.",
+  "coment": "Derrame parapneumônico complicado ou empiema (pH abaixo de 7,20, glicose reduzida, desidrogenase láctica elevada, cultura positiva ou aspecto purulento) exige drenagem torácica associada a antibiótico com cobertura para germes respiratórios e anaeróbios. Sem drenagem, a infecção se organiza e evolui para encarceramento pulmonar. Falha da drenagem indica fibrinolítico intrapleural com desoxirribonuclease ou abordagem cirúrgica por videotoracoscopia.",
   "porAlt": [
    "O antibiótico isolado não penetra adequadamente na coleção organizada do espaço pleural infectado.",
    "Correta: drenagem torácica com antibiótico, pois o derrame complicado exige esvaziamento pleural.",
@@ -17558,7 +17558,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension, 2022",
-  "coment": "O ecocardiograma é a ferramenta de triagem, estimando a probabilidade de hipertensão pulmonar, mas o diagnóstico exige cateterismo cardíaco direito, que mede diretamente a pressão média de artéria pulmonar — definida como acima de 20 mmHg em repouso —, a pressão de oclusão e a resistência vascular pulmonar, permitindo distinguir hipertensão pré-capilar de pós-capilar e definir o grupo, o que determina completamente o tratamento indicado.",
+  "coment": "O ecocardiograma é a ferramenta de triagem, estimando a probabilidade de hipertensão pulmonar, mas o diagnóstico exige cateterismo cardíaco direito, que mede diretamente a pressão média de artéria pulmonar, definida como acima de 20 mmHg em repouso, a pressão de oclusão e a resistência vascular pulmonar, permitindo distinguir hipertensão pré-capilar de pós-capilar e definir o grupo, o que determina completamente o tratamento indicado.",
   "porAlt": [
    "O ecocardiograma estima a probabilidade, mas não confirma o diagnóstico nem define o grupo.",
    "A radiografia pode sugerir aumento de tronco pulmonar, mas não confirma o diagnóstico hemodinâmico.",
@@ -17582,7 +17582,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "BTS Pleural Disease Guideline, 2023; ACCP/ERS statement on primary spontaneous pneumothorax, revisão 2023",
-  "coment": "O pneumotórax espontâneo primário pequeno em paciente estável e assintomático pode ser conduzido de forma conservadora, com observação, oxigênio suplementar — que acelera a reabsorção — e reavaliação por imagem. Ensaios recentes mostraram que a conduta conservadora é não inferior à drenagem em pacientes selecionados, com menos complicações. Drenagem ou aspiração se indicam em pneumotórax grande, sintomático ou com instabilidade clínica.",
+  "coment": "O pneumotórax espontâneo primário pequeno em paciente estável e assintomático pode ser conduzido de forma conservadora, com observação, oxigênio suplementar, que acelera a reabsorção, e reavaliação por imagem. Ensaios recentes mostraram que a conduta conservadora é não inferior à drenagem em pacientes selecionados, com menos complicações. Drenagem ou aspiração se indicam em pneumotórax grande, sintomático ou com instabilidade clínica.",
   "porAlt": [
    "A drenagem universal expõe a complicações desnecessárias em pneumotórax pequeno e assintomático.",
    "A toracotomia aberta não é conduta de primeiro episódio de pneumotórax espontâneo primário.",
@@ -17606,7 +17606,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "ERS guidelines for the management of adult bronchiectasis, 2017 com revisão 2023; BTS guideline, 2019",
-  "coment": "O tratamento crônico das bronquiectasias se apoia na higiene brônquica diária com técnicas de desobstrução e fisioterapia respiratória, tratamento das exacerbações com antibiótico guiado por cultura de escarro, vacinação, reabilitação pulmonar e investigação da causa subjacente — imunodeficiência, fibrose cística, discinesia ciliar, aspergilose e sequela infecciosa. Macrolídeo em uso prolongado é considerado em pacientes com exacerbações frequentes.",
+  "coment": "O tratamento crônico das bronquiectasias se apoia na higiene brônquica diária com técnicas de desobstrução e fisioterapia respiratória, tratamento das exacerbações com antibiótico guiado por cultura de escarro, vacinação, reabilitação pulmonar e investigação da causa subjacente. Imunodeficiência, fibrose cística, discinesia ciliar, aspergilose e sequela infecciosa. Macrolídeo em uso prolongado é considerado em pacientes com exacerbações frequentes.",
   "porAlt": [
    "O corticoide sistêmico contínuo não é base do tratamento e aumenta o risco infeccioso do paciente.",
    "O antitussígeno prejudica a depuração de secreções, agravando a obstrução e as infecções.",
@@ -17677,8 +17677,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Protocolo de vigilância da silicose, revisão 2022; ATS/ERS statement on occupational lung disease, 2023",
-  "coment": "A silicose é pneumoconiose fibrogênica irreversível causada por inalação de sílica cristalina, com nódulos predominantes em lobos superiores e possível massa conglomerada. A conduta inclui imagem, prova de função pulmonar, afastamento definitivo da exposição — única medida que interrompe a progressão —, notificação como doença relacionada ao trabalho e rastreio periódico de tuberculose, cujo risco é várias vezes maior nesses pacientes.",
+  "base": "Ministério da Saúde. Protocolo de vigilância da silicose, revisão 2022; ATS/ERS statement on occupational lung disease, 2023",
+  "coment": "A silicose é pneumoconiose fibrogênica irreversível causada por inalação de sílica cristalina, com nódulos predominantes em lobos superiores e possível massa conglomerada. A conduta inclui imagem, prova de função pulmonar, afastamento definitivo da exposição, única medida que interrompe a progressão, notificação como doença relacionada ao trabalho e rastreio periódico de tuberculose, cujo risco é várias vezes maior nesses pacientes.",
   "porAlt": [
    "Manter o paciente exposto permite a progressão da fibrose, que é irreversível uma vez instalada.",
    "O transplante é opção muito selecionada em doença avançada, e não conduta para toda exposição.",
@@ -17725,7 +17725,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Diretrizes metodológicas de avaliação de tecnologias em saúde, 2022; epidemiologia clínica clássica",
+  "base": "Ministério da Saúde. Diretrizes metodológicas de avaliação de tecnologias em saúde, 2022; epidemiologia clínica clássica",
   "coment": "O estudo de coorte acompanha grupos expostos e não expostos ao longo do tempo, permitindo estimar incidência, risco relativo e a relação temporal entre exposição e desfecho, o que o torna adequado para avaliar impacto de programas quando o ensaio randomizado não é factível. O transversal mede exposição e desfecho no mesmo momento e não estabelece temporalidade; o ecológico analisa grupos e está sujeito à falácia ecológica.",
   "porAlt": [
    "O estudo transversal mede exposição e desfecho simultaneamente e não estabelece a temporalidade.",
@@ -17749,8 +17749,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Lei nº 10.216/2001 — Lei da Reforma Psiquiátrica; Ministério da Saúde — Rede de Atenção Psicossocial",
-  "coment": "A Lei da Reforma Psiquiátrica prevê três modalidades de internação: voluntária, involuntária — a pedido de terceiro e sem consentimento do paciente — e compulsória, determinada pela Justiça. A internação involuntária exige laudo médico circunstanciado e comunicação ao Ministério Público em até setenta e duas horas, tanto na admissão quanto na alta. Ela é indicada quando os recursos extra-hospitalares se mostram insuficientes e há risco.",
+  "base": "Lei nº 10.216/2001, Lei da Reforma Psiquiátrica; Ministério da Saúde, Rede de Atenção Psicossocial",
+  "coment": "A Lei da Reforma Psiquiátrica prevê três modalidades de internação: voluntária, involuntária, a pedido de terceiro e sem consentimento do paciente, e compulsória, determinada pela Justiça. A internação involuntária exige laudo médico circunstanciado e comunicação ao Ministério Público em até setenta e duas horas, tanto na admissão quanto na alta. Ela é indicada quando os recursos extra-hospitalares se mostram insuficientes e há risco.",
   "porAlt": [
    "Aguardar concordância diante de risco iminente de morte omite socorro e viola o dever de cuidado.",
    "A internação compulsória é determinada pela Justiça; a involuntária exige comunicação ao Ministério Público.",
@@ -17773,8 +17773,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "prev",
   "nivel": "r1",
-  "base": "OMS — Diretrizes sobre higienização das mãos na assistência à saúde; ANVISA — Medidas de prevenção de IRAS, revisão 2023",
-  "coment": "A higienização das mãos nos cinco momentos — antes do contato com o paciente, antes de procedimento asséptico, após risco de exposição a fluidos, após contato com o paciente e após contato com áreas próximas — é a medida isolada de maior impacto na prevenção de infecções relacionadas à assistência, com custo baixo. Antibiótico profilático indiscriminado seleciona resistência, e a troca rotineira de cateteres não reduz infecção.",
+  "base": "OMS, Diretrizes sobre higienização das mãos na assistência à saúde; ANVISA, Medidas de prevenção de IRAS, revisão 2023",
+  "coment": "A higienização das mãos nos cinco momentos (antes do contato com o paciente, antes de procedimento asséptico, após risco de exposição a fluidos, após contato com o paciente e após contato com áreas próximas) é a medida isolada de maior impacto na prevenção de infecções relacionadas à assistência, com custo baixo. Antibiótico profilático indiscriminado seleciona resistência, e a troca rotineira de cateteres não reduz infecção.",
   "porAlt": [
    "O antibiótico profilático indiscriminado seleciona resistência e aumenta infecção por germes difíceis.",
    "Isolar todos indistintamente consome recursos e reduz o contato assistencial sem benefício claro.",
@@ -17797,7 +17797,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Resolução CFM nº 1.995/2012 — Diretivas antecipadas de vontade; Código de Ética Médica, 2018",
+  "base": "Resolução CFM nº 1.995/2012: Diretivas antecipadas de vontade; Código de Ética Médica, 2018",
   "coment": "As diretivas antecipadas de vontade são o conjunto de desejos previamente manifestados pelo paciente sobre cuidados que deseja ou não receber quando estiver incapaz de expressar sua vontade. A resolução do Conselho Federal de Medicina determina que o médico as registre no prontuário e as respeite, prevalecendo sobre o desejo de familiares. Não é exigido registro em cartório, e é justamente na incapacidade de comunicar-se que elas produzem efeito.",
   "porAlt": [
    "A manifestação prévia de vontade é reconhecida por resolução do Conselho Federal de Medicina.",
@@ -17821,8 +17821,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Portaria GM/MS nº 2.436/2017 — Política Nacional de Atenção Básica; Ministério da Saúde — Caderneta da Gestante e diretrizes do pré-natal, 2022",
-  "coment": "O pré-natal adequado é um dos determinantes mais fortes de desfechos maternos e neonatais, e a responsabilidade sanitária sobre a população adscrita implica busca ativa das faltosas. A visita domiciliar por agente comunitário identifica barreiras concretas — transporte, trabalho, violência doméstica, uso de substâncias, insegurança alimentar — e a resposta combina flexibilizar o acesso e acionar assistência social, conselho tutelar quando adolescente e demais equipamentos.",
+  "base": "Portaria GM/MS nº 2.436/2017, Política Nacional de Atenção Básica; Ministério da Saúde, Caderneta da Gestante e diretrizes do pré-natal, 2022",
+  "coment": "O pré-natal adequado é um dos determinantes mais fortes de desfechos maternos e neonatais, e a responsabilidade sanitária sobre a população adscrita implica busca ativa das faltosas. A visita domiciliar por agente comunitário identifica barreiras concretas (transporte, trabalho, violência doméstica, uso de substâncias, insegurança alimentar) e a resposta combina flexibilizar o acesso e acionar assistência social, conselho tutelar quando adolescente e demais equipamentos.",
   "porAlt": [
    "Excluir do cadastro contraria a responsabilidade sanitária sobre a população adscrita ao território.",
    "Esperar o trabalho de parto elimina toda a prevenção que o pré-natal poderia oferecer à gestante.",
@@ -17845,7 +17845,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Diretrizes metodológicas, 2022; GRADE Working Group; epidemiologia clínica clássica",
+  "base": "Ministério da Saúde: Diretrizes metodológicas, 2022; GRADE Working Group; epidemiologia clínica clássica",
   "coment": "O número necessário para tratar é o inverso da redução absoluta de risco e indica quantos pacientes precisam receber a intervenção, pelo tempo do estudo, para evitar um evento. Um valor de 25 em cinco anos significa que tratar vinte e cinco pessoas por esse período evita um desfecho. É a medida mais útil para comunicar benefício ao paciente, porque incorpora o risco basal, ao contrário da redução relativa de risco, que pode exagerar a percepção do efeito.",
   "porAlt": [
    "O número necessário para tratar não é uma porcentagem de pacientes beneficiados individualmente.",
@@ -17869,8 +17869,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Lei nº 12.401/2011 — incorporação de tecnologias no SUS; Ministério da Saúde — Relação Nacional de Medicamentos Essenciais, 2024",
-  "coment": "O acesso a medicamentos no sistema público segue a Relação Nacional de Medicamentos Essenciais e os protocolos clínicos e diretrizes terapêuticas, com incorporação avaliada pela comissão nacional de incorporação de tecnologias. Diante de pedido por fármaco não incorporado, o médico deve conhecer as vias formais — componente especializado, solicitação administrativa e protocolos —, discutir alternativas terapêuticas com evidência e explicar o processo com transparência.",
+  "base": "Lei nº 12.401/2011, incorporação de tecnologias no SUS; Ministério da Saúde, Relação Nacional de Medicamentos Essenciais, 2024",
+  "coment": "O acesso a medicamentos no sistema público segue a Relação Nacional de Medicamentos Essenciais e os protocolos clínicos e diretrizes terapêuticas, com incorporação avaliada pela comissão nacional de incorporação de tecnologias. Diante de pedido por fármaco não incorporado, o médico deve conhecer as vias formais (componente especializado, solicitação administrativa e protocolos), discutir alternativas terapêuticas com evidência e explicar o processo com transparência.",
   "porAlt": [
    "Existem vias administrativas e protocolos que permitem acesso a fármacos em situações específicas.",
    "A via judicial é último recurso, e não o primeiro caminho a ser orientado ao paciente.",
@@ -17917,7 +17917,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Estatuto da Pessoa Idosa, Lei nº 10.741/2003, artigo 19; Ministério da Saúde — Guia de Vigilância em Saúde, 2024",
+  "base": "Estatuto da Pessoa Idosa, Lei nº 10.741/2003, artigo 19; Ministério da Saúde, Guia de Vigilância em Saúde, 2024",
   "coment": "O Estatuto da Pessoa Idosa determina que casos suspeitos ou confirmados de violência contra idoso sejam obrigatoriamente comunicados pelos profissionais de saúde à autoridade sanitária e a uma das instâncias de proteção: autoridade policial, Ministério Público ou conselho do idoso. A notificação é compulsória, independe de confirmação e de autorização, e a avaliação inclui exame clínico completo, registro detalhado das lesões e avaliação do risco de retorno ao domicílio.",
   "porAlt": [
    "Correta: acolher, notificar compulsoriamente e comunicar a autoridade competente conforme a lei.",
@@ -17941,8 +17941,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2021 — estimulação cardíaca: Mobitz II é classe I para marca-passo",
-  "coment": "O PR fixo antes da onda bloqueada define Mobitz II, e o QRS largo confirma a localização infra-hissiana. É doença do sistema His-Purkinje, que progride para bloqueio total de forma súbita e sem aviso — por isso o marca-passo definitivo é indicação de classe I mesmo em paciente assintomático, ao contrário do Mobitz I nodal.",
+  "base": "ESC 2021. Estimulação cardíaca: Mobitz II é classe I para marca-passo",
+  "coment": "O PR fixo antes da onda bloqueada define Mobitz II, e o QRS largo confirma a localização infra-hissiana. É doença do sistema His-Purkinje, que progride para bloqueio total de forma súbita e sem aviso, por isso o marca-passo definitivo é indicação de classe I mesmo em paciente assintomático, ao contrário do Mobitz I nodal.",
   "porAlt": [
    "Correta: Mobitz II assintomático já é indicação de classe I.",
    "Observar é a conduta do Mobitz I, não do II.",
@@ -17965,7 +17965,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ACC/AHA 2025 e ESC 2023 — SCA sem supra: algoritmo 0/1 hora da troponina ultrassensível",
+  "base": "ACC/AHA 2025 e ESC 2023. SCA sem supra: algoritmo 0/1 hora da troponina ultrassensível",
   "coment": "Troponina indetectável na chegada só afasta infarto isoladamente se a dor tiver começado há mais de três horas. Com 90 minutos de início, o valor pode ainda não ter subido, e o protocolo 0/1 hora exige a segunda dosagem: a variação absoluta entre as duas é o que classifica em descartar, observar ou confirmar.",
   "porAlt": [
    "Correta: o protocolo exige a segunda amostra com 90 minutos de dor.",
@@ -17989,11 +17989,11 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "ESC 2023 — cardiomiopatias: estratificação de risco de morte súbita na hipertrófica",
+  "base": "ESC 2023, cardiomiopatias: estratificação de risco de morte súbita na hipertrófica",
   "coment": "Somam-se aqui vários marcadores maiores de risco: história familiar de morte súbita em parente de primeiro grau, espessura septal acima de 30 mm, taquicardia ventricular não sustentada ao Holter e realce tardio extenso à ressonância. Nesse patamar de risco a decisão é a prevenção primária de morte súbita com desfibrilador implantável.",
   "porAlt": [
    "Correta: o conjunto de marcadores coloca o desfibrilador como decisão principal.",
-   "A miectomia trata obstrução sintomática — o gradiente aqui é baixo e ela é assintomática.",
+   "A miectomia trata obstrução sintomática. O gradiente aqui é baixo e ela é assintomática.",
    "O betabloqueador controla sintoma, não previne morte súbita.",
    "A amiodarona não substitui o desfibrilador na prevenção primária.",
    "Adiar seis meses não muda o risco já demonstrado."
@@ -18013,7 +18013,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ACC/AHA 2025 — SCA: apresentação atípica e tempo de reperfusão",
+  "base": "ACC/AHA 2025. SCA: apresentação atípica e tempo de reperfusão",
   "coment": "O infarto sem dor é mais frequente em diabéticos, idosos e mulheres, e a apresentação equivalente costuma ser dispneia, sudorese, síncope ou mal-estar. O supradesnivelamento em duas derivações contíguas já fecha o diagnóstico: a decisão de reperfusão é eletrocardiográfica e clínica, e esperar dor típica ou troponina só consome o tempo de músculo salvável.",
   "porAlt": [
    "Correta: o critério já está preenchido e o relógio da reperfusão já começou.",
@@ -18037,7 +18037,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "ESC 2018 — síncope: diagnóstico clínico da síncope reflexa",
+  "base": "ESC 2018, síncope: diagnóstico clínico da síncope reflexa",
   "coment": "O quadro tem todos os elementos da síncope reflexa vasovagal: gatilho postural em ambiente quente, pródromos autonômicos, recuperação rápida e completa, exame e eletrocardiograma normais. O diagnóstico é clínico e não exige exame complementar. O tratamento é educação sobre gatilhos, ingesta hídrica e salina e manobras de contrapressão física ao primeiro pródromo.",
   "porAlt": [
    "Correta: diagnóstico clínico, tratamento não farmacológico.",
@@ -18061,14 +18061,14 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2021/2023 — insuficiência cardíaca: ferropenia e ferro intravenoso",
-  "coment": "A definição de ferropenia na insuficiência cardíaca não depende de anemia: ferritina abaixo de 100 ng/mL, ou entre 100 e 299 com saturação de transferrina abaixo de 20%, já a caracteriza. Aqui os dois critérios se aplicam. A reposição é intravenosa, com carboximaltose ou derisomaltose férrica, que melhora sintomas e reduz internação — a via oral tem absorção ruim nesses pacientes.",
+  "base": "ESC 2021/2023, insuficiência cardíaca: ferropenia e ferro intravenoso",
+  "coment": "A definição de ferropenia na insuficiência cardíaca não depende de anemia: ferritina abaixo de 100 ng/mL, ou entre 100 e 299 com saturação de transferrina abaixo de 20%, já a caracteriza. Aqui os dois critérios se aplicam. A reposição é intravenosa, com carboximaltose ou derisomaltose férrica, que melhora sintomas e reduz internação. A via oral tem absorção ruim nesses pacientes.",
   "porAlt": [
    "Correta: critério de ferropenia preenchido, reposição por via intravenosa.",
    "A absorção oral é limitada pela hepcidina elevada da insuficiência cardíaca.",
    "Não há anemia que justifique transfusão.",
    "A eritropoetina não mostrou benefício e aumentou eventos tromboembólicos.",
-   "A ferropenia se define sem anemia — é justamente o ponto."
+   "A ferropenia se define sem anemia, é justamente o ponto."
   ]
  },
  {
@@ -18085,8 +18085,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "AHA/ACC 2026 — tromboembolismo venoso: filtro de veia cava na contraindicação à anticoagulação",
-  "coment": "Com trombose proximal e contraindicação absoluta à anticoagulação — sangramento ativo recente com queda importante de hemoglobina — a indicação é o filtro de veia cava, preferencialmente removível, para impedir a embolização enquanto o sangramento não permite anticoagular. Assim que o risco hemorrágico ceder, inicia-se a anticoagulação e programa-se a retirada do filtro.",
+  "base": "AHA/ACC 2026 (tromboembolismo venoso: filtro de veia cava na contraindicação à anticoagulação",
+  "coment": "Com trombose proximal e contraindicação absoluta à anticoagulação) sangramento ativo recente com queda importante de hemoglobina. A indicação é o filtro de veia cava, preferencialmente removível, para impedir a embolização enquanto o sangramento não permite anticoagular. Assim que o risco hemorrágico ceder, inicia-se a anticoagulação e programa-se a retirada do filtro.",
   "porAlt": [
    "Correta: é a indicação clássica de filtro, com plano de retirada.",
    "Dose profilática não trata trombose já estabelecida e ainda expõe ao sangramento.",
@@ -18109,8 +18109,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "ESC 2021 — valvopatias: anticoagulação em prótese mecânica; RE-ALIGN",
-  "coment": "Prótese valvar mecânica é contraindicação formal aos anticoagulantes orais diretos. O ensaio RE-ALIGN foi interrompido precocemente por excesso de eventos tromboembólicos e de sangramento com dabigatrana frente à varfarina. Na posição mitral o alvo de RNI é mais alto que na aórtica, entre 2,5 e 3,5 — exatamente onde ela está.",
+  "base": "ESC 2021, valvopatias: anticoagulação em prótese mecânica; RE-ALIGN",
+  "coment": "Prótese valvar mecânica é contraindicação formal aos anticoagulantes orais diretos. O ensaio RE-ALIGN foi interrompido precocemente por excesso de eventos tromboembólicos e de sangramento com dabigatrana frente à varfarina. Na posição mitral o alvo de RNI é mais alto que na aórtica, entre 2,5 e 3,5, exatamente onde ela está.",
   "porAlt": [
    "Correta: os diretos são contraindicados e o alvo atual está correto.",
    "A rivaroxabana não foi testada e a classe é contraindicada nesse cenário.",
@@ -18133,8 +18133,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "SBC 2025 — hipertensão: albuminúria como lesão de órgão-alvo e bloqueio do SRAA",
-  "coment": "A albuminúria elevada é lesão de órgão-alvo e marcador de risco cardiovascular e renal. O bloqueio do sistema renina-angiotensina, com inibidor da enzima conversora ou bloqueador do receptor, reduz a albuminúria além do efeito pressórico e retarda a progressão da doença renal — é a classe preferencial mesmo sem diabetes.",
+  "base": "SBC 2025. Hipertensão: albuminúria como lesão de órgão-alvo e bloqueio do SRAA",
+  "coment": "A albuminúria elevada é lesão de órgão-alvo e marcador de risco cardiovascular e renal. O bloqueio do sistema renina-angiotensina, com inibidor da enzima conversora ou bloqueador do receptor, reduz a albuminúria além do efeito pressórico e retarda a progressão da doença renal. É a classe preferencial mesmo sem diabetes.",
   "porAlt": [
    "Correta: reduz albuminúria além do efeito sobre a pressão.",
    "O betabloqueador não é de primeira linha sem indicação específica.",
@@ -18157,8 +18157,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2024 e ACC/AHA 2021 — revascularização: tronco com SYNTAX alto e diabetes; FREEDOM",
-  "coment": "Lesão de tronco com doença multiarterial, SYNTAX alto e diabetes é o cenário em que a cirurgia mantém superioridade sobre a angioplastia — o FREEDOM demonstrou menos morte e infarto com a cirurgia em diabéticos multiarteriais, e a anatomia complexa amplia a diferença. O paciente ainda é sintomático apesar de terapia otimizada, o que reforça a revascularização.",
+  "base": "ESC 2024 e ACC/AHA 2021. Revascularização: tronco com SYNTAX alto e diabetes; FREEDOM",
+  "coment": "Lesão de tronco com doença multiarterial, SYNTAX alto e diabetes é o cenário em que a cirurgia mantém superioridade sobre a angioplastia. O FREEDOM demonstrou menos morte e infarto com a cirurgia em diabéticos multiarteriais, e a anatomia complexa amplia a diferença. O paciente ainda é sintomático apesar de terapia otimizada, o que reforça a revascularização.",
   "porAlt": [
    "Correta: tronco, multiarterial, diabético e SYNTAX alto favorecem a cirurgia.",
    "A angioplastia de tronco compete com a cirurgia apenas no SYNTAX baixo.",
@@ -18181,7 +18181,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2018 — lesão inalatória e via aérea no queimado",
+  "base": "ATLS 11ª edição, 2018. Lesão inalatória e via aérea no queimado",
   "coment": "Rouquidão, estridor, queimadura de vibrissas, fuligem em orofaringe e escarro carbonáceo em incêndio confinado são sinais de lesão inalatória com edema progressivo de via aérea. A intubação deve ser precoce e eletiva: adiar leva a uma via aérea que, em uma ou duas horas, se torna impossível de instrumentar. O oxímetro não é confiável na intoxicação por monóxido.",
   "porAlt": [
    "Correta: edema progressivo torna a via aérea impossível se houver demora.",
@@ -18205,7 +18205,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Manual de Toxicologia Clínica COVISA 2017 — antidepressivos tricíclicos",
+  "base": "Manual de Toxicologia Clínica COVISA 2017. Antidepressivos tricíclicos",
   "coment": "Os tricíclicos bloqueiam canais de sódio e alargam o QRS, e o alargamento acima de 100 ms prediz convulsão e arritmia. O bicarbonato de sódio é o antídoto funcional: alcaliniza o plasma e aumenta o sódio extracelular, revertendo o bloqueio de canal. Antiarrítmicos das classes IA e IC são contraindicados por agravarem o bloqueio.",
   "porAlt": [
    "Correta: reverte o bloqueio de canal de sódio.",
@@ -18229,8 +18229,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ILCOR/AHA 2025 — afogamento: observação e manejo respiratório",
-  "coment": "Afogamento com sintomas respiratórios exige observação hospitalar: a lesão pulmonar por aspiração pode piorar nas horas seguintes, com hipoxemia progressiva. Corticoide e antibiótico profiláticos não têm benefício demonstrado — o antibiótico entra se houver sinais de infecção ou água claramente contaminada. A distinção entre água doce e salgada tem pouca relevância prática.",
+  "base": "ILCOR/AHA 2025. Afogamento: observação e manejo respiratório",
+  "coment": "Afogamento com sintomas respiratórios exige observação hospitalar: a lesão pulmonar por aspiração pode piorar nas horas seguintes, com hipoxemia progressiva. Corticoide e antibiótico profiláticos não têm benefício demonstrado. O antibiótico entra se houver sinais de infecção ou água claramente contaminada. A distinção entre água doce e salgada tem pouca relevância prática.",
   "porAlt": [
    "Correta: sintomático exige observação pelo risco de piora tardia.",
    "Alta com hipoxemia e infiltrado é arriscada.",
@@ -18253,8 +18253,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ACSM 2007 e Wilderness Medical Society 2019 — insolação por esforço",
-  "coment": "A insolação por esforço é emergência: o dano é tempo-dependente e a meta é reduzir a temperatura central abaixo de 39 °C o mais rápido possível. A imersão em água gelada é o método mais eficaz. Antitérmicos não funcionam — o ponto de ajuste hipotalâmico não está elevado — e o dantroleno é para hipertermia maligna, não para insolação.",
+  "base": "ACSM 2007 e Wilderness Medical Society 2019. Insolação por esforço",
+  "coment": "A insolação por esforço é emergência: o dano é tempo-dependente e a meta é reduzir a temperatura central abaixo de 39 °C o mais rápido possível. A imersão em água gelada é o método mais eficaz. Antitérmicos não funcionam, o ponto de ajuste hipotalâmico não está elevado, e o dantroleno é para hipertermia maligna, não para insolação.",
   "porAlt": [
    "Correta: imersão é o resfriamento mais rápido, e a velocidade define o desfecho.",
    "Antitérmico não atua quando o problema é falha de termorregulação.",
@@ -18277,8 +18277,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2018 — pneumotórax hipertensivo",
-  "coment": "A tríade de ausência de murmúrio, hipertimpanismo e desvio de traqueia, com hipotensão e alarme de pressão alta em paciente ventilado, define pneumotórax hipertensivo. É diagnóstico clínico e o tratamento é imediato: descompressão por punção — quinto espaço na linha axilar média em adultos — seguida de drenagem torácica. Esperar a radiografia pode custar a vida.",
+  "base": "ATLS 11ª edição, 2018. Pneumotórax hipertensivo",
+  "coment": "A tríade de ausência de murmúrio, hipertimpanismo e desvio de traqueia, com hipotensão e alarme de pressão alta em paciente ventilado, define pneumotórax hipertensivo. É diagnóstico clínico e o tratamento é imediato: descompressão por punção, quinto espaço na linha axilar média em adultos, seguida de drenagem torácica. Esperar a radiografia pode custar a vida.",
   "porAlt": [
    "Correta: diagnóstico clínico e descompressão imediata.",
    "A radiografia atrasa o tratamento de um quadro que mata em minutos.",
@@ -18301,8 +18301,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ATLS 11ª edição, 2018 — síndrome de esmagamento e hipercalemia",
-  "coment": "A síndrome de esmagamento libera potássio, mioglobina e fosfato na reperfusão do membro. A hipercalemia é a causa de morte precoce, e o eletrocardiograma já mostra toxicidade — T apiculada com QRS alargando. A conduta imediata é gluconato de cálcio para estabilizar a membrana, seguido de medidas para deslocar e eliminar o potássio, com hidratação vigorosa iniciada idealmente antes da liberação.",
+  "base": "ATLS 11ª edição, 2018. Síndrome de esmagamento e hipercalemia",
+  "coment": "A síndrome de esmagamento libera potássio, mioglobina e fosfato na reperfusão do membro. A hipercalemia é a causa de morte precoce, e o eletrocardiograma já mostra toxicidade: T apiculada com QRS alargando. A conduta imediata é gluconato de cálcio para estabilizar a membrana, seguido de medidas para deslocar e eliminar o potássio, com hidratação vigorosa iniciada idealmente antes da liberação.",
   "porAlt": [
    "Correta: a hipercalemia da reperfusão mata primeiro.",
    "A infecção é preocupação tardia, não imediata.",
@@ -18325,8 +18325,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Manual de Toxicologia Clínica COVISA 2017 — síndrome serotoninérgica",
-  "coment": "A tríade de alteração do estado mental, hiperatividade autonômica e excitação neuromuscular — com clônus e hiperreflexia predominantes em membros inferiores — define síndrome serotoninérgica, aqui precipitada pela associação de tramadol e inibidor seletivo de recaptação de serotonina. O tratamento é suspender os agentes, suporte, benzodiazepínico e resfriamento; a ciproeptadina entra nos casos moderados a graves.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 (síndrome serotoninérgica",
+  "coment": "A tríade de alteração do estado mental, hiperatividade autonômica e excitação neuromuscular) com clônus e hiperreflexia predominantes em membros inferiores. Define síndrome serotoninérgica, aqui precipitada pela associação de tramadol e inibidor seletivo de recaptação de serotonina. O tratamento é suspender os agentes, suporte, benzodiazepínico e resfriamento; a ciproeptadina entra nos casos moderados a graves.",
   "porAlt": [
    "Correta: a associação e o clônus ascendente fecham o diagnóstico.",
    "Iniciar antiepiléptico sem tratar a causa não resolve.",
@@ -18349,8 +18349,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "AHA 2025 — suporte avançado: bradicardia com instabilidade",
-  "coment": "Bradicardia com instabilidade que não responde à atropina indica estimulação — marca-passo transcutâneo imediato, com sedação e analgesia, enquanto se providencia o transvenoso. No bloqueio infra-hissiano com escape ventricular a atropina costuma ser ineficaz, porque age no nó atrioventricular. Adrenalina ou dopamina em infusão são alternativas de ponte.",
+  "base": "AHA 2025 (suporte avançado: bradicardia com instabilidade",
+  "coment": "Bradicardia com instabilidade que não responde à atropina indica estimulação) marca-passo transcutâneo imediato, com sedação e analgesia, enquanto se providencia o transvenoso. No bloqueio infra-hissiano com escape ventricular a atropina costuma ser ineficaz, porque age no nó atrioventricular. Adrenalina ou dopamina em infusão são alternativas de ponte.",
   "porAlt": [
    "Correta: falha da atropina em bradicardia instável pede estimulação.",
    "Insistir na atropina no bloqueio infra-hissiano é perder tempo.",
@@ -18373,7 +18373,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "WSES 2020 — abdome agudo perfurativo: úlcera péptica perfurada",
+  "base": "WSES 2020. Abdome agudo perfurativo: úlcera péptica perfurada",
   "coment": "Pneumoperitônio com peritonite difusa e instabilidade é abdome agudo perfurativo com indicação cirúrgica imediata. Em paralelo correm ressuscitação volêmica, antibiótico de amplo espectro cobrindo Gram-negativos e anaeróbios, analgesia e sonda nasogástrica. Nenhum exame adicional deve atrasar a cirurgia quando o diagnóstico já está feito.",
   "porAlt": [
    "Correta: diagnóstico fechado, cirurgia sem atraso.",
@@ -18397,8 +18397,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ATLS 11ª edição, 2018 e ensaio PROPPR — transfusão maciça",
-  "coment": "Na hemorragia maciça do trauma, a reanimação com controle de danos usa hemocomponentes em proporção próxima de 1:1:1, limita o cristaloide — que dilui fatores e agrava a coagulopatia —, mantém hipotensão permissiva até o controle cirúrgico, previne hipotermia e administra ácido tranexâmico nas primeiras três horas. O ensaio PROPPR sustenta a proporção equilibrada.",
+  "base": "ATLS 11ª edição, 2018 e ensaio PROPPR, transfusão maciça",
+  "coment": "Na hemorragia maciça do trauma, a reanimação com controle de danos usa hemocomponentes em proporção próxima de 1:1:1, limita o cristaloide, que dilui fatores e agrava a coagulopatia, mantém hipotensão permissiva até o controle cirúrgico, previne hipotermia e administra ácido tranexâmico nas primeiras três horas. O ensaio PROPPR sustenta a proporção equilibrada.",
   "porAlt": [
    "Correta: proporção equilibrada de hemocomponentes.",
    "Só hemácias produz coagulopatia dilucional.",
@@ -18421,8 +18421,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde, 2024 e estudo PARTNER — indetectável igual a intransmissível",
-  "coment": "O conceito de indetectável igual a intransmissível está consolidado pelos estudos PARTNER e Opposites Attract, que não registraram nenhuma transmissão ligada ao parceiro com carga viral suprimida — mesmo em milhares de relações sem preservativo. A condição é supressão sustentada por pelo menos seis meses com boa adesão. O preservativo segue recomendado para outras infecções.",
+  "base": "Ministério da Saúde, 2024 e estudo PARTNER, indetectável igual a intransmissível",
+  "coment": "O conceito de indetectável igual a intransmissível está consolidado pelos estudos PARTNER e Opposites Attract, que não registraram nenhuma transmissão ligada ao parceiro com carga viral suprimida. Mesmo em milhares de relações sem preservativo. A condição é supressão sustentada por pelo menos seis meses com boa adesão. O preservativo segue recomendado para outras infecções.",
   "porAlt": [
    "Correta: supressão sustentada elimina o risco de transmissão sexual.",
    "Os estudos não encontraram risco residual mensurável.",
@@ -18445,8 +18445,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "IDSA 2014 — infecções de pele e partes moles: abscesso cutâneo",
-  "coment": "Abscesso cutâneo flutuante tem como tratamento principal a incisão e drenagem — antibiótico não penetra coleção formada. Em abscesso não complicado, sem sinais sistêmicos, imunossupressão ou celulite extensa, a drenagem isolada é suficiente; o antibiótico se associa quando há esses fatores ou múltiplas lesões.",
+  "base": "IDSA 2014 (infecções de pele e partes moles: abscesso cutâneo",
+  "coment": "Abscesso cutâneo flutuante tem como tratamento principal a incisão e drenagem) antibiótico não penetra coleção formada. Em abscesso não complicado, sem sinais sistêmicos, imunossupressão ou celulite extensa, a drenagem isolada é suficiente; o antibiótico se associa quando há esses fatores ou múltiplas lesões.",
   "porAlt": [
    "Correta: a drenagem é o tratamento, e basta no não complicado.",
    "Antibiótico sem drenar não resolve coleção formada.",
@@ -18469,8 +18469,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Baveno VII, 2022 e Ministério da Saúde, 2014 — esquistossomose e hipertensão portal",
-  "coment": "Varizes de médio calibre com sinais vermelhos, sem sangramento prévio, indicam profilaxia primária — betabloqueador não seletivo, como propranolol ou carvedilol, ou ligadura elástica eletiva. O praziquantel trata a infecção e reduz a progressão da fibrose. Na esquistossomose a função hepatocelular é preservada, o que explica albumina e coagulação normais.",
+  "base": "Baveno VII, 2022 e Ministério da Saúde, 2014 (esquistossomose e hipertensão portal",
+  "coment": "Varizes de médio calibre com sinais vermelhos, sem sangramento prévio, indicam profilaxia primária) betabloqueador não seletivo, como propranolol ou carvedilol, ou ligadura elástica eletiva. O praziquantel trata a infecção e reduz a progressão da fibrose. Na esquistossomose a função hepatocelular é preservada, o que explica albumina e coagulação normais.",
   "porAlt": [
    "Correta: profilaxia primária associada ao tratamento etiológico.",
    "A ligadura de urgência é para sangramento ativo; eletiva é alternativa ao betabloqueador.",
@@ -18493,8 +18493,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA 2023 — tratamento de infecções por bactérias resistentes: enterobactérias produtoras de carbapenemase",
-  "coment": "Com sepse de foco urinário por enterobactéria produtora de carbapenemase, o tratamento deve seguir o antibiograma: ceftazidima-avibactam é preferível à polimixina por melhor eficácia e menor nefrotoxicidade. Tão importante quanto o antimicrobiano é o controle do foco — a sonda de demora colonizada deve ser removida ou trocada.",
+  "base": "IDSA 2023, tratamento de infecções por bactérias resistentes: enterobactérias produtoras de carbapenemase",
+  "coment": "Com sepse de foco urinário por enterobactéria produtora de carbapenemase, o tratamento deve seguir o antibiograma: ceftazidima-avibactam é preferível à polimixina por melhor eficácia e menor nefrotoxicidade. Tão importante quanto o antimicrobiano é o controle do foco. A sonda de demora colonizada deve ser removida ou trocada.",
   "porAlt": [
    "Correta: seguir o antibiograma e remover o dispositivo colonizado.",
    "Manter um fármaco ao qual a cepa é resistente é manter o paciente sem tratamento.",
@@ -18517,8 +18517,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde, 2022 — Nota Técnica de profilaxia antirrábica humana",
-  "coment": "Ferimento profundo e lacerante por animal não passível de observação, em área com circulação viral, configura acidente grave: indica-se soro antirrábico com infiltração no fundo e nas paredes da lesão, mais esquema vacinal completo. A observação do animal por dez dias só se aplica quando o cão pode ser observado — o que não é o caso.",
+  "base": "Ministério da Saúde, 2022, Nota Técnica de profilaxia antirrábica humana",
+  "coment": "Ferimento profundo e lacerante por animal não passível de observação, em área com circulação viral, configura acidente grave: indica-se soro antirrábico com infiltração no fundo e nas paredes da lesão, mais esquema vacinal completo. A observação do animal por dez dias só se aplica quando o cão pode ser observado, o que não é o caso.",
   "porAlt": [
    "Correta: acidente grave com animal não observável exige soro e vacina.",
    "A vacina isolada não protege no intervalo até a resposta imune.",
@@ -18541,7 +18541,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "IDSA 2016 — aspergilose invasiva: diagnóstico e tratamento",
+  "base": "IDSA 2016. Aspergilose invasiva: diagnóstico e tratamento",
   "coment": "Nódulos com sinal do halo em neutropênico prolongado com febre refratária a antibacterianos são característicos de aspergilose pulmonar invasiva; o sinal do crescente aéreo aparece mais tarde, na recuperação dos neutrófilos. O tratamento de escolha é voriconazol, e a galactomanana sérica e do lavado broncoalveolar apoia o diagnóstico.",
   "porAlt": [
    "Correta: achados tomográficos típicos em hospedeiro de risco.",
@@ -18565,7 +18565,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "SBC 2023 — diretriz de cardiopatia chagásica; Ministério da Saúde, 2018",
+  "base": "SBC 2023, diretriz de cardiopatia chagásica; Ministério da Saúde, 2018",
   "coment": "A forma cardíaca indeterminada com alteração eletrocardiográfica e função ventricular preservada corresponde ao estágio A ou B1, em que o tratamento etiológico com benznidazol está indicado, sobretudo abaixo de 50 a 60 anos e sem cardiopatia avançada. O seguimento é anual com eletrocardiograma e ecocardiograma, e o bloqueio bifascicular assintomático não indica marca-passo.",
   "porAlt": [
    "Correta: tratamento etiológico indicado com seguimento estruturado.",
@@ -18589,8 +18589,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "IDSA 2004 e Ministério da Saúde — doença meningocócica",
-  "coment": "Febre com petéquias de instalação rápida e choque é meningococcemia até prova em contrário, e a mortalidade sobe a cada hora sem antibiótico. A conduta é ceftriaxona imediata com ressuscitação volêmica e vasopressor — hemoculturas são colhidas se não atrasarem, e a punção lombar fica para depois da estabilização, sobretudo com instabilidade hemodinâmica.",
+  "base": "IDSA 2004 e Ministério da Saúde. Doença meningocócica",
+  "coment": "Febre com petéquias de instalação rápida e choque é meningococcemia até prova em contrário, e a mortalidade sobe a cada hora sem antibiótico. A conduta é ceftriaxona imediata com ressuscitação volêmica e vasopressor. Hemoculturas são colhidas se não atrasarem, e a punção lombar fica para depois da estabilização, sobretudo com instabilidade hemodinâmica.",
   "porAlt": [
    "Correta: o antibiótico não espera procedimento nenhum.",
    "A punção em paciente em choque atrasa o tratamento e é arriscada.",
@@ -18613,7 +18613,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde, 2023 — Manual dos CRIE: imunização em asplenia",
+  "base": "Ministério da Saúde, 2023. Manual dos CRIE: imunização em asplenia",
   "coment": "O asplênico tem risco elevado de sepse fulminante por germes encapsulados. Em esplenectomia eletiva as vacinas contra pneumococo, meningococo e Haemophilus influenzae tipo b devem ser aplicadas idealmente pelo menos duas semanas antes do procedimento, quando a resposta imune é melhor. Somam-se influenza anual, orientação de febre como urgência e antibiótico de emergência em domicílio.",
   "porAlt": [
    "Correta: os três agentes encapsulados, antes da cirurgia.",
@@ -18637,7 +18637,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "IDSA 2017 — diarreia infecciosa: diagnóstico e tratamento",
+  "base": "IDSA 2017. Diarreia infecciosa: diagnóstico e tratamento",
   "coment": "Diarreia aguda aquosa, sem febre, sem sangue e sem sinais de desidratação, em imunocompetente, é autolimitada e o tratamento é reidratação oral com sintomáticos. Antibiótico não encurta o quadro viral, seleciona resistência e, na suspeita de Escherichia coli produtora de toxina Shiga, aumenta o risco de síndrome hemolítico-urêmica. Coprocultura fica para disenteria, febre alta, imunossupressão ou quadro prolongado.",
   "porAlt": [
    "Correta: quadro autolimitado tratado com reidratação.",
@@ -18685,7 +18685,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r1",
-  "base": "American Headache Society consensus statement, 2021 com revisão 2024; Academia Brasileira de Neurologia — diretrizes de cefaleia, 2022",
+  "base": "American Headache Society consensus statement, 2021 com revisão 2024; Academia Brasileira de Neurologia, diretrizes de cefaleia, 2022",
   "coment": "O tratamento da crise de enxaqueca escalona conforme a intensidade: anti-inflamatório não hormonal ou analgésico simples nas crises leves a moderadas, e triptano nas moderadas a graves ou quando há falha dos anteriores. Antieméticos como metoclopramida tratam a náusea e melhoram a absorção. Opioides são desaconselhados por favorecerem cronificação e cefaleia por uso excessivo. Neuroimagem se reserva a sinais de alarme ou mudança do padrão habitual.",
   "porAlt": [
    "Os opioides favorecem cronificação e cefaleia por uso excessivo, sendo desaconselhados na enxaqueca.",
@@ -18733,7 +18733,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "EFNS guidelines for diagnosis and treatment of Wernicke encephalopathy, revisão 2023; Ministério da Saúde — abordagem do uso de álcool, 2022",
+  "base": "EFNS guidelines for diagnosis and treatment of Wernicke encephalopathy, revisão 2023; Ministério da Saúde. Abordagem do uso de álcool, 2022",
   "coment": "A encefalopatia de Wernicke decorre de deficiência de tiamina e tem a tríade clássica de confusão, ataxia e alterações oculomotoras, embora frequentemente incompleta. O tratamento é tiamina endovenosa em dose alta, administrada antes de qualquer carga de glicose, porque a glicose consome tiamina e pode precipitar ou agravar o quadro. O atraso leva à síndrome de Korsakoff, com amnésia irreversível. Não se aguarda dosagem laboratorial para tratar.",
   "porAlt": [
    "Glicose antes de tiamina consome a reserva remanescente e pode precipitar o quadro neurológico.",
@@ -18781,7 +18781,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "DLB Consortium diagnostic criteria, quarta revisão; NICE guideline NG97 — Dementia, revisão 2023",
+  "base": "DLB Consortium diagnostic criteria, quarta revisão; NICE guideline NG97. Dementia, revisão 2023",
   "coment": "A demência com corpos de Lewy cursa com flutuação cognitiva, alucinações visuais bem formadas, parkinsonismo e transtorno comportamental do sono REM. Um traço crítico é a hipersensibilidade a antipsicóticos, sobretudo típicos, que podem causar piora grave do parkinsonismo, rebaixamento e até síndrome neuroléptica maligna. Priorizam-se medidas não farmacológicas, inibidores de colinesterase, que têm boa resposta nas alucinações, e quetiapina ou clozapina se indispensável.",
   "porAlt": [
    "Correta: evitar antipsicóticos típicos pela hipersensibilidade característica dessa forma de demência.",
@@ -18973,7 +18973,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Diagnosis of Cushing's Syndrome, revisão 2023",
+  "base": "Endocrine Society Clinical Practice Guideline, Diagnosis of Cushing's Syndrome, revisão 2023",
   "coment": "O diagnóstico da síndrome de Cushing tem duas etapas: primeiro confirmar o hipercortisolismo, com pelo menos dois testes alterados entre cortisol salivar noturno, cortisol livre urinário de vinte e quatro horas e supressão com um miligrama de dexametasona; depois definir a causa, dosando ACTH e realizando imagem dirigida. Imagem antes da confirmação bioquímica leva a achados incidentais frequentes e a diagnósticos equivocados.",
   "porAlt": [
    "O cortisol sérico matinal isolado tem ampla variação e não confirma o hipercortisolismo.",
@@ -18998,7 +18998,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
-  "coment": "A hipoglicemia grave recorrente é evento sentinela: obriga a rever metas, que devem ser afrouxadas, e a simplificar o esquema, preferindo análogos com menor risco. Investigam-se causas contribuintes — piora da função renal, redução da ingesta, perda de peso, insuficiência adrenal, gastroparesia, uso de álcool, sulfonilureias associadas — e trabalha-se a percepção de hipoglicemia, que se perde com episódios repetidos e aumenta o risco de novos eventos graves.",
+  "coment": "A hipoglicemia grave recorrente é evento sentinela: obriga a rever metas, que devem ser afrouxadas, e a simplificar o esquema, preferindo análogos com menor risco. Investigam-se causas contribuintes (piora da função renal, redução da ingesta, perda de peso, insuficiência adrenal, gastroparesia, uso de álcool, sulfonilureias associadas) e trabalha-se a percepção de hipoglicemia, que se perde com episódios repetidos e aumenta o risco de novos eventos graves.",
   "porAlt": [
    "Aumentar a insulina diante de hipoglicemias graves multiplica o risco de evento fatal.",
    "Manter o esquema sem mudanças perpetua episódios que já se mostraram graves e recorrentes.",
@@ -19021,7 +19021,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; Ministério da Saúde — manejo das emergências glicêmicas, 2022",
+  "base": "ADA Standards of Care in Diabetes, 2025; Ministério da Saúde, manejo das emergências glicêmicas, 2022",
   "coment": "As sulfonilureias têm meia-vida longa e estimulam a secreção de insulina de forma prolongada, de modo que a hipoglicemia por essa classe recorre com frequência após a correção inicial, exigindo observação prolongada e por vezes infusão contínua de glicose. O risco é maior em idosos, na doença renal crônica, na baixa ingesta e no uso de fármacos que interagem. Após o episódio, a sulfonilureia deve ser suspensa ou substituída por classe mais segura.",
   "porAlt": [
    "A alta imediata arrisca recorrência da hipoglicemia em domicílio, com desfecho potencialmente fatal.",
@@ -19213,7 +19213,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Hepatite B e Coinfecções, 2024; EASL Clinical Practice Guidelines on hepatitis B, 2017 com revisão 2023",
+  "base": "Ministério da Saúde. PCDT para Hepatite B e Coinfecções, 2024; EASL Clinical Practice Guidelines on hepatitis B, 2017 com revisão 2023",
   "coment": "A hepatite B crônica HBeAg negativa com carga viral elevada e transaminases alteradas configura hepatite ativa e tem indicação de tratamento com análogo de nucleotídeo ou nucleosídeo de alta barreira genética, como tenofovir ou entecavir, geralmente por tempo prolongado. Independentemente do tratamento, mantém-se rastreio semestral de carcinoma hepatocelular em grupos de risco, pois a hepatite B pode causar o tumor mesmo sem cirrose estabelecida.",
   "porAlt": [
    "Correta: antiviral com tenofovir ou entecavir, mantendo rastreio semestral de carcinoma hepatocelular.",
@@ -19238,7 +19238,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r3",
   "base": "ECCO-ESGAR guidelines on ulcerative colitis, 2022; AGA Clinical Practice Guideline on moderate to severe UC, revisão 2024",
-  "coment": "A colite aguda grave, definida pelos critérios de Truelove e Witts, é emergência com risco de megacólon tóxico e perfuração. O manejo inclui internação, corticoide endovenoso, hidratação, correção eletrolítica, profilaxia de tromboembolismo — o risco é alto mesmo com sangramento intestinal —, exclusão de infecção por Clostridioides difficile e citomegalovírus e avaliação de resposta em três a cinco dias, quando se decide por terapia de resgate ou colectomia.",
+  "coment": "A colite aguda grave, definida pelos critérios de Truelove e Witts, é emergência com risco de megacólon tóxico e perfuração. O manejo inclui internação, corticoide endovenoso, hidratação, correção eletrolítica, profilaxia de tromboembolismo, o risco é alto mesmo com sangramento intestinal, exclusão de infecção por Clostridioides difficile e citomegalovírus e avaliação de resposta em três a cinco dias, quando se decide por terapia de resgate ou colectomia.",
   "porAlt": [
    "Correta: internação com corticoide endovenoso e profilaxia de trombose, com avaliação em poucos dias.",
    "A mesalazina oral isolada é insuficiente para a colite aguda grave com repercussão sistêmica.",
@@ -19430,7 +19430,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "BSH guidelines on the laboratory diagnosis of functional iron deficiency, revisão 2023; NEJM review on anemia of inflammation, 2022",
-  "coment": "Na anemia de doença crônica, ou anemia da inflamação, a hepcidina elevada bloqueia a liberação de ferro dos estoques e a absorção intestinal, resultando em ferritina normal ou elevada — porque é proteína de fase aguda e os estoques estão preservados — com saturação de transferrina baixa e capacidade total de ligação reduzida. A anemia é tipicamente normocítica e leve a moderada, e o tratamento é o da doença de base que mantém a inflamação.",
+  "coment": "Na anemia de doença crônica, ou anemia da inflamação, a hepcidina elevada bloqueia a liberação de ferro dos estoques e a absorção intestinal, resultando em ferritina normal ou elevada, porque é proteína de fase aguda e os estoques estão preservados, com saturação de transferrina baixa e capacidade total de ligação reduzida. A anemia é tipicamente normocítica e leve a moderada, e o tratamento é o da doença de base que mantém a inflamação.",
   "porAlt": [
    "A ferropenia cursa com ferritina baixa, o oposto do perfil descrito no enunciado deste caso.",
    "A talassemia cursa com microcitose acentuada e ferritina normal, sem o padrão inflamatório descrito.",
@@ -19454,7 +19454,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r3",
   "base": "ACCP/CHEST Guideline on perioperative management of antithrombotic therapy, 2022; ASH guidelines, 2022",
-  "coment": "Em cirurgia eletiva de alto risco de sangramento, a varfarina é suspensa cerca de cinco dias antes, com verificação do INR na véspera. A ponte com heparina é reservada a pacientes de alto risco tromboembólico — prótese mecânica mitral, fibrilação atrial com escore muito elevado ou evento tromboembólico recente —, porque ensaios mostraram que a ponte indiscriminada aumenta sangramento sem reduzir eventos embólicos na maioria dos pacientes.",
+  "coment": "Em cirurgia eletiva de alto risco de sangramento, a varfarina é suspensa cerca de cinco dias antes, com verificação do INR na véspera. A ponte com heparina é reservada a pacientes de alto risco tromboembólico (prótese mecânica mitral, fibrilação atrial com escore muito elevado ou evento tromboembólico recente), porque ensaios mostraram que a ponte indiscriminada aumenta sangramento sem reduzir eventos embólicos na maioria dos pacientes.",
   "porAlt": [
    "Manter a varfarina em cirurgia de alto risco de sangramento expõe a hemorragia perioperatória grave.",
    "Correta: suspender com antecedência e indicar ponte apenas conforme o risco tromboembólico do paciente.",
@@ -19550,7 +19550,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "NCCN Hodgkin Lymphoma e B-Cell Lymphomas, 2024; BSH guideline on investigation of lymphadenopathy, revisão 2023",
-  "coment": "Linfonodomegalia indolor, endurecida, persistente e acompanhada de sintomas B — febre, sudorese noturna e perda de peso — exige biópsia excisional, que preserva a arquitetura do linfonodo e permite classificação histológica e imuno-histoquímica, essencial para definir o subtipo e o tratamento. A punção aspirativa fornece células sem arquitetura e é insuficiente para o diagnóstico inicial de linfoma. Corticoide antes da biópsia pode inviabilizar o diagnóstico histológico.",
+  "coment": "Linfonodomegalia indolor, endurecida, persistente e acompanhada de sintomas B (febre, sudorese noturna e perda de peso) exige biópsia excisional, que preserva a arquitetura do linfonodo e permite classificação histológica e imuno-histoquímica, essencial para definir o subtipo e o tratamento. A punção aspirativa fornece células sem arquitetura e é insuficiente para o diagnóstico inicial de linfoma. Corticoide antes da biópsia pode inviabilizar o diagnóstico histológico.",
   "porAlt": [
    "Antibiótico empírico atrasa o diagnóstico diante de linfonodo com características claramente suspeitas.",
    "Observar por doze meses permite progressão de uma neoplasia potencialmente curável no início.",
@@ -19573,8 +19573,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "OMS — classificação de neoplasias mieloides, 5ª edição, 2022; NCCN Myeloproliferative Neoplasms, 2024",
-  "coment": "Trombocitose persistente sem causa reativa — ferropenia, inflamação, infecção, neoplasia, asplenia — sugere neoplasia mieloproliferativa, sobretudo trombocitemia essencial. A investigação inclui pesquisa de JAK2, CALR e MPL e, quando necessário, biópsia de medula óssea. O tratamento é definido pelo risco trombótico: ácido acetilsalicílico em dose baixa na maioria e citorredução com hidroxiureia nos pacientes de alto risco, com idade avançada ou trombose prévia.",
+  "base": "OMS (classificação de neoplasias mieloides, 5ª edição, 2022; NCCN Myeloproliferative Neoplasms, 2024",
+  "coment": "Trombocitose persistente sem causa reativa) ferropenia, inflamação, infecção, neoplasia, asplenia. Sugere neoplasia mieloproliferativa, sobretudo trombocitemia essencial. A investigação inclui pesquisa de JAK2, CALR e MPL e, quando necessário, biópsia de medula óssea. O tratamento é definido pelo risco trombótico: ácido acetilsalicílico em dose baixa na maioria e citorredução com hidroxiureia nos pacientes de alto risco, com idade avançada ou trombose prévia.",
   "porAlt": [
    "A transfusão de plaquetas agravaria a contagem já elevada e não tem qualquer indicação aqui.",
    "A trombocitose persistente sem causa reativa exige investigação pelo risco trombótico associado.",
@@ -19597,7 +19597,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "AABB Standards, 2024; Ministério da Saúde — Guia para uso de hemocomponentes, 2021; ISBT definitions of transfusion reactions",
+  "base": "AABB Standards, 2024; Ministério da Saúde. Guia para uso de hemocomponentes, 2021; ISBT definitions of transfusion reactions",
   "coment": "A sobrecarga circulatória associada à transfusão cursa com dispneia, congestão pulmonar, hipertensão arterial e elevação do peptídeo natriurético, tipicamente nas primeiras seis horas, sendo mais comum em idosos, cardiopatas, nefropatas e com infusão rápida ou de grande volume. O tratamento é interromper ou reduzir a infusão, oxigênio e diurético. A lesão pulmonar aguda relacionada à transfusão, em contraste, cursa com hipotensão e não responde a diurético.",
   "porAlt": [
    "A reação hemolítica aguda cursa com febre, dor lombar, hipotensão e hemoglobinúria, não congestão.",
@@ -19694,7 +19694,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r3",
   "base": "EULAR/ACR classification criteria for idiopathic inflammatory myopathies; British Society for Rheumatology guideline on myositis, revisão 2023",
-  "coment": "O heliótropo palpebral e as pápulas de Gottron sobre as articulações das mãos caracterizam dermatomiosite. No adulto, sobretudo acima de quarenta anos, a doença associa-se a risco aumentado de neoplasia — ovário, pulmão, mama, cólon, estômago e nasofaringe —, com maior incidência nos três anos ao redor do diagnóstico. O rastreio dirigido por idade, sexo e fatores de risco é obrigatório e repetido durante o seguimento inicial.",
+  "coment": "O heliótropo palpebral e as pápulas de Gottron sobre as articulações das mãos caracterizam dermatomiosite. No adulto, sobretudo acima de quarenta anos, a doença associa-se a risco aumentado de neoplasia (ovário, pulmão, mama, cólon, estômago e nasofaringe), com maior incidência nos três anos ao redor do diagnóstico. O rastreio dirigido por idade, sexo e fatores de risco é obrigatório e repetido durante o seguimento inicial.",
   "porAlt": [
    "A associação com neoplasia está bem estabelecida e torna o rastreio obrigatório nesse contexto.",
    "A radiografia de mãos não é a avaliação adicional prioritária diante do risco oncológico associado.",
@@ -19742,7 +19742,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "EULAR recommendations for the management of large vessel vasculitis, 2018 com revisão 2023; ACR/VF guideline on Takayasu arteritis, 2021",
-  "coment": "A arterite de Takayasu acomete aorta e seus ramos principais em mulheres jovens, cursando com claudicação de membros, assimetria de pulsos e pressão, sopros vasculares e hipertensão renovascular. O diagnóstico usa angiotomografia, angiorressonância ou tomografia por emissão de pósitrons. O tratamento é corticoide associado a imunossupressor poupador — metotrexato, azatioprina ou tocilizumabe. A revascularização é feita preferencialmente com a doença em remissão.",
+  "coment": "A arterite de Takayasu acomete aorta e seus ramos principais em mulheres jovens, cursando com claudicação de membros, assimetria de pulsos e pressão, sopros vasculares e hipertensão renovascular. O diagnóstico usa angiotomografia, angiorressonância ou tomografia por emissão de pósitrons. O tratamento é corticoide associado a imunossupressor poupador, metotrexato, azatioprina ou tocilizumabe. A revascularização é feita preferencialmente com a doença em remissão.",
   "porAlt": [
    "O antiagregante é adjuvante e não controla a inflamação da parede arterial nessa vasculite.",
    "A revascularização com doença ativa tem alta taxa de reestenose e é feita preferencialmente em remissão.",
@@ -19813,7 +19813,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Valvopatias — SBC, revisão 2023; AHA scientific statement on acute rheumatic fever, revisão 2023; critérios de Jones atualizados",
+  "base": "Diretriz Brasileira de Valvopatias: SBC, revisão 2023; AHA scientific statement on acute rheumatic fever, revisão 2023; critérios de Jones atualizados",
   "coment": "A febre reumática é diagnosticada pelos critérios de Jones atualizados, que consideram a incidência populacional. O tratamento inclui erradicação do estreptococo com penicilina benzatina, anti-inflamatório para a artrite, corticoide na cardite grave e, sobretudo, profilaxia secundária prolongada com penicilina benzatina a cada três a quatro semanas, cuja duração depende da presença e da gravidade do acometimento cardíaco, podendo chegar a toda a vida.",
   "porAlt": [
    "Correta: erradicar a infecção e iniciar profilaxia secundária prolongada, conforme o acometimento cardíaco.",
@@ -19861,8 +19861,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "SBC 2025 — hipertensão resistente: rastrear e tratar apneia obstrutiva do sono",
-  "coment": "Apneia obstrutiva do sono é a causa secundária mais comum de hipertensão resistente, e este paciente tem apneia grave com sonolência — indicação formal de CPAP. Tratá-la é parte do tratamento da pressão, ainda que o efeito pressórico isolado do CPAP seja modesto: o ganho maior é sintomático e cardiovascular.",
+  "base": "SBC 2025. Hipertensão resistente: rastrear e tratar apneia obstrutiva do sono",
+  "coment": "Apneia obstrutiva do sono é a causa secundária mais comum de hipertensão resistente, e este paciente tem apneia grave com sonolência, indicação formal de CPAP. Tratá-la é parte do tratamento da pressão, ainda que o efeito pressórico isolado do CPAP seja modesto: o ganho maior é sintomático e cardiovascular.",
   "porAlt": [
    "Correta: apneia grave sintomática tem indicação de CPAP, e ela é a causa secundária identificada.",
    "A espironolactona é o quarto fármaco, mas deixar a causa secundária sem tratar não faz sentido.",
@@ -19885,7 +19885,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2021 — insuficiência cardíaca avançada: critérios e momento do encaminhamento",
+  "base": "ESC 2021, insuficiência cardíaca avançada: critérios e momento do encaminhamento",
   "coment": "Estão presentes os marcadores clássicos de insuficiência cardíaca avançada: classe funcional IV persistente, internações repetidas apesar de terapia otimizada, hiponatremia, piora renal, hipotensão e consumo de oxigênio de pico abaixo de 12 mL/kg/min. O momento de encaminhar para transplante ou assistência circulatória é antes da falência de órgãos-alvo, e ele já passou.",
   "porAlt": [
    "Correta: os marcadores de avançada estão todos presentes e o encaminhamento não deve esperar.",
@@ -19909,8 +19909,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ESC 2021 — valvopatias: critérios cirúrgicos na insuficiência aórtica assintomática",
-  "coment": "Na insuficiência aórtica grave, a cirurgia é indicada no sintomático ou, no assintomático, quando a fração de ejeção cai abaixo de 50% ou o ventrículo dilata — diâmetro sistólico final acima de 50 mm, ou acima de 20 mm/m² indexado. Com 48 mm em um paciente de superfície corporal habitual o índice já ultrapassa o corte, e operar antes da disfunção preserva a função ventricular.",
+  "base": "ESC 2021, valvopatias: critérios cirúrgicos na insuficiência aórtica assintomática",
+  "coment": "Na insuficiência aórtica grave, a cirurgia é indicada no sintomático ou, no assintomático, quando a fração de ejeção cai abaixo de 50% ou o ventrículo dilata. Diâmetro sistólico final acima de 50 mm, ou acima de 20 mm/m² indexado. Com 48 mm em um paciente de superfície corporal habitual o índice já ultrapassa o corte, e operar antes da disfunção preserva a função ventricular.",
   "porAlt": [
    "Correta: o critério de dimensão ventricular já está atingido.",
    "Seguir observando depois de atingido o critério é perder a janela cirúrgica.",
@@ -19933,8 +19933,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ESC 2022 — arritmias ventriculares: taquicardia instável com pulso",
-  "coment": "Taquicardia com pulso e sinais de instabilidade — hipotensão, alteração de consciência e hipoperfusão — tem tratamento único: cardioversão elétrica sincronizada imediata, sem esperar fármaco. Em paciente com infarto prévio e disfunção ventricular, taquicardia de QRS largo é ventricular até prova em contrário, e bloqueadores do nó AV são perigosos.",
+  "base": "ESC 2022 (arritmias ventriculares: taquicardia instável com pulso",
+  "coment": "Taquicardia com pulso e sinais de instabilidade) hipotensão, alteração de consciência e hipoperfusão. Tem tratamento único: cardioversão elétrica sincronizada imediata, sem esperar fármaco. Em paciente com infarto prévio e disfunção ventricular, taquicardia de QRS largo é ventricular até prova em contrário, e bloqueadores do nó AV são perigosos.",
   "porAlt": [
    "Correta: instabilidade com pulso pede cardioversão sincronizada agora.",
    "O antiarrítmico é para o estável; aqui gasta tempo que o paciente não tem.",
@@ -19957,8 +19957,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ESC 2023 e ACC/AHA 2025 — MINOCA: ressonância como exame definidor",
-  "coment": "É um caso de infarto sem doença coronariana obstrutiva, e a definição exige investigar a causa em vez de encerrar o caso. A ressonância cardíaca é o exame que separa as possibilidades — miocardite, síndrome de takotsubo, infarto por embolia ou espasmo — porque mostra edema, realce tardio e o padrão de acometimento. Aqui o balonamento apical e o gatilho emocional sugerem takotsubo, mas a confirmação muda o tratamento.",
+  "base": "ESC 2023 e ACC/AHA 2025. MINOCA: ressonância como exame definidor",
+  "coment": "É um caso de infarto sem doença coronariana obstrutiva, e a definição exige investigar a causa em vez de encerrar o caso. A ressonância cardíaca é o exame que separa as possibilidades (miocardite, síndrome de takotsubo, infarto por embolia ou espasmo) porque mostra edema, realce tardio e o padrão de acometimento. Aqui o balonamento apical e o gatilho emocional sugerem takotsubo, mas a confirmação muda o tratamento.",
   "porAlt": [
    "Correta: a ressonância define a causa e orienta o tratamento.",
    "Troponina de 890 ng/L com alteração segmentar não é dor não cardíaca.",
@@ -19981,8 +19981,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "SBC 2025 — hipertensão: tosse por inibidor da ECA e substituição por BRA",
-  "coment": "A tosse dos inibidores da enzima conversora decorre do acúmulo de bradicinina, ocorre em cerca de 10% dos usuários, é seca e pode surgir meses após o início. A conduta é trocar por um bloqueador do receptor de angiotensina, que não tem esse efeito e preserva o mesmo benefício de bloqueio do sistema — sem abrir mão da classe indicada.",
+  "base": "SBC 2025. Hipertensão: tosse por inibidor da ECA e substituição por BRA",
+  "coment": "A tosse dos inibidores da enzima conversora decorre do acúmulo de bradicinina, ocorre em cerca de 10% dos usuários, é seca e pode surgir meses após o início. A conduta é trocar por um bloqueador do receptor de angiotensina, que não tem esse efeito e preserva o mesmo benefício de bloqueio do sistema, sem abrir mão da classe indicada.",
   "porAlt": [
    "Correta: a troca dentro do mesmo eixo resolve a tosse e mantém o benefício.",
    "Antitussígeno mascara um efeito adverso com solução simples.",
@@ -20005,8 +20005,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ESC 2022 — arritmias ventriculares: síndrome do QT longo congênito",
-  "coment": "Síncope sem pródromos deflagrada por estímulo auditivo súbito, história familiar de morte súbita precoce, QT corrigido de 520 ms com onda T bizarra e eletrólitos normais compõem a síndrome do QT longo congênito. O tratamento de base é betabloqueador — nadolol ou propranolol —, associado à retirada rigorosa de fármacos que prolongam o QT e à investigação familiar. O desfibrilador entra na recorrência sob betabloqueador ou na parada recuperada.",
+  "base": "ESC 2022, arritmias ventriculares: síndrome do QT longo congênito",
+  "coment": "Síncope sem pródromos deflagrada por estímulo auditivo súbito, história familiar de morte súbita precoce, QT corrigido de 520 ms com onda T bizarra e eletrólitos normais compõem a síndrome do QT longo congênito. O tratamento de base é betabloqueador, nadolol ou propranolol, associado à retirada rigorosa de fármacos que prolongam o QT e à investigação familiar. O desfibrilador entra na recorrência sob betabloqueador ou na parada recuperada.",
   "porAlt": [
    "Correta: betabloqueador é o tratamento de base, com lista de fármacos proibidos.",
    "O desfibrilador não é o primeiro passo antes de tentar o betabloqueador.",
@@ -20029,8 +20029,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r1",
-  "base": "AHA/ACC 2026 — tromboembolismo venoso: escore de Wells e ultrassom com Doppler",
-  "coment": "O escore de Wells é alto — assimetria acima de 3 cm, dor no trajeto venoso profundo, edema depressível, veias colaterais e imobilização recente. Com probabilidade alta, o dímero D não serve para excluir e o exame indicado é o ultrassom com Doppler, que confirma o diagnóstico e define a extensão proximal ou distal.",
+  "base": "AHA/ACC 2026 (tromboembolismo venoso: escore de Wells e ultrassom com Doppler",
+  "coment": "O escore de Wells é alto) assimetria acima de 3 cm, dor no trajeto venoso profundo, edema depressível, veias colaterais e imobilização recente. Com probabilidade alta, o dímero D não serve para excluir e o exame indicado é o ultrassom com Doppler, que confirma o diagnóstico e define a extensão proximal ou distal.",
   "porAlt": [
    "Correta: probabilidade alta pede imagem direta.",
    "O dímero D só afasta trombose quando a probabilidade é baixa ou intermediária.",
@@ -20053,7 +20053,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2015 e ensaio AIRTRIP — pericardite recorrente corticodependente",
+  "base": "ESC 2015 e ensaio AIRTRIP, pericardite recorrente corticodependente",
   "coment": "Pericardite recorrente dependente de corticoide, com efeitos adversos já instalados, é a indicação de bloqueio da interleucina-1: o ensaio AIRTRIP mostrou redução expressiva de recorrência com anakinra, permitindo o desmame do corticoide. A colchicina é mantida, e a pericardiectomia fica reservada à constrição ou à refratariedade a tudo.",
   "porAlt": [
    "Correta: anticorpo anti-interleucina-1 é o caminho no corticodependente.",
@@ -20077,8 +20077,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "ESC 2024 — doenças arteriais periféricas e aórticas: limiar de 5,5 cm",
-  "coment": "O limiar para correção eletiva do aneurisma de aorta abdominal é 5,5 cm em homens, ou crescimento maior que 1 cm por ano, ou sintomas. Com 4,2 cm a conduta é vigilância por imagem em intervalos definidos pelo diâmetro, com cessação do tabagismo, controle rigoroso da pressão e estatina — as medidas que reduzem a velocidade de expansão e o risco cardiovascular global.",
+  "base": "ESC 2024. Doenças arteriais periféricas e aórticas: limiar de 5,5 cm",
+  "coment": "O limiar para correção eletiva do aneurisma de aorta abdominal é 5,5 cm em homens, ou crescimento maior que 1 cm por ano, ou sintomas. Com 4,2 cm a conduta é vigilância por imagem em intervalos definidos pelo diâmetro, com cessação do tabagismo, controle rigoroso da pressão e estatina. As medidas que reduzem a velocidade de expansão e o risco cardiovascular global.",
   "porAlt": [
    "Correta: abaixo do limiar, vigilância com controle agressivo de risco.",
    "O reparo endovascular abaixo de 5,5 cm não mostrou benefício sobre a vigilância.",
@@ -20101,8 +20101,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Manual de Toxicologia Clínica COVISA 2017 — intoxicação por monóxido de carbono",
-  "coment": "O oxímetro de pulso não distingue carboxiemoglobina de oxiemoglobina e mostra saturação falsamente normal — por isso o diagnóstico é clínico e confirmado pela carboxiemoglobina. O tratamento é oxigênio a 100%, que reduz a meia-vida do monóxido de aproximadamente 4 horas para cerca de 1 hora. A câmara hiperbárica é considerada em carboxiemoglobina acima de 25%, alteração neurológica, gestação ou isquemia miocárdica.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 (intoxicação por monóxido de carbono",
+  "coment": "O oxímetro de pulso não distingue carboxiemoglobina de oxiemoglobina e mostra saturação falsamente normal) por isso o diagnóstico é clínico e confirmado pela carboxiemoglobina. O tratamento é oxigênio a 100%, que reduz a meia-vida do monóxido de aproximadamente 4 horas para cerca de 1 hora. A câmara hiperbárica é considerada em carboxiemoglobina acima de 25%, alteração neurológica, gestação ou isquemia miocárdica.",
   "porAlt": [
    "Correta: fração inspirada máxima é o tratamento imediato.",
    "Cateter nasal não oferece fração inspirada suficiente.",
@@ -20125,8 +20125,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "GINA 2026 — asma quase fatal e indicação de ventilação invasiva",
-  "coment": "Silêncio auscultatório, exaustão, fala entrecortada e hipercapnia com acidose em asmático são sinais de parada respiratória iminente. A indicação é intubação, com estratégia que privilegia tempo expiratório longo, frequência baixa e volume corrente reduzido, aceitando hipercapnia — a armadilha é o auto-PEEP com hiperinsuflação dinâmica e colapso hemodinâmico.",
+  "base": "GINA 2026. Asma quase fatal e indicação de ventilação invasiva",
+  "coment": "Silêncio auscultatório, exaustão, fala entrecortada e hipercapnia com acidose em asmático são sinais de parada respiratória iminente. A indicação é intubação, com estratégia que privilegia tempo expiratório longo, frequência baixa e volume corrente reduzido, aceitando hipercapnia. A armadilha é o auto-PEEP com hiperinsuflação dinâmica e colapso hemodinâmico.",
   "porAlt": [
    "Correta: sinais de parada iminente indicam via aérea definitiva.",
    "Insistir no inalatório com hipercapnia e exaustão é perder o momento.",
@@ -20149,7 +20149,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Surviving Sepsis Campaign 2021/2026 — ressuscitação guiada por perfusão",
+  "base": "Surviving Sepsis Campaign 2021/2026, ressuscitação guiada por perfusão",
   "coment": "Lactato que não clareia com hipoperfusão persistente indica reavaliar a ressuscitação: variação de pressão de pulso de 16% sugere responsividade a volume, e saturação venosa central baixa com extremidades frias levanta a hipótese de débito cardíaco insuficiente, caso em que se associa inotrópico. Também se reavalia o controle do foco, que é a causa mais comum de refratariedade.",
   "porAlt": [
    "Correta: reavaliar volume, débito e foco antes de escalar às cegas.",
@@ -20160,7 +20160,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 76 anos, com fibrilação atrial sem anticoagulação, chega com dor abdominal de início súbito há cinco horas, de forte intensidade e contínua. Ao exame, o abdome é flácido e pouco doloroso à palpação, com ruídos hidroaéreos presentes — achados desproporcionais à intensidade da dor relatada. Está com pressão de 128/76 mmHg, frequência de 110 bpm irregular, lactato de 4,2 mmol/L e leucócitos de 19.000/mm³. A radiografia de abdome é inespecífica. Qual é a conduta?",
+  "q": "Homem de 76 anos, com fibrilação atrial sem anticoagulação, chega com dor abdominal de início súbito há cinco horas, de forte intensidade e contínua. Ao exame, o abdome é flácido e pouco doloroso à palpação, com ruídos hidroaéreos presentes. Achados desproporcionais à intensidade da dor relatada. Está com pressão de 128/76 mmHg, frequência de 110 bpm irregular, lactato de 4,2 mmol/L e leucócitos de 19.000/mm³. A radiografia de abdome é inespecífica. Qual é a conduta?",
   "alts": [
    "Angiotomografia de abdome com fases arterial e venosa",
    "Radiografia seriada de abdome a cada 6 horas",
@@ -20173,8 +20173,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "AGA 2000 e ESTES 2016 — isquemia mesentérica aguda",
-  "coment": "Dor abdominal desproporcional ao exame físico, em idoso com fibrilação atrial não anticoagulada e lactato elevado, é isquemia mesentérica aguda até prova em contrário — provavelmente embólica. A angiotomografia com contraste em fases arterial e venosa é o exame de escolha e deve ser feita sem demora: o prognóstico despenca com o tempo de isquemia.",
+  "base": "AGA 2000 e ESTES 2016. Isquemia mesentérica aguda",
+  "coment": "Dor abdominal desproporcional ao exame físico, em idoso com fibrilação atrial não anticoagulada e lactato elevado, é isquemia mesentérica aguda até prova em contrário, provavelmente embólica. A angiotomografia com contraste em fases arterial e venosa é o exame de escolha e deve ser feita sem demora: o prognóstico despenca com o tempo de isquemia.",
   "porAlt": [
    "Correta: exame de escolha, feito com urgência.",
    "Radiografia seriada perde tempo e tem baixa sensibilidade.",
@@ -20197,8 +20197,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ATLS 11ª edição, 2018 — choque neurogênico no trauma raquimedular",
-  "coment": "Hipotensão com bradicardia, pele quente e seca e FAST negativo, em lesão medular alta, define choque neurogênico — a perda do tônus simpático causa vasodilatação e impede a taquicardia compensatória. O tratamento é volume criterioso seguido de vasopressor, com alvo de pressão arterial média em torno de 85 a 90 mmHg para perfundir a medula. É diagnóstico de exclusão: hemorragia precisa ser descartada.",
+  "base": "ATLS 11ª edição, 2018 (choque neurogênico no trauma raquimedular",
+  "coment": "Hipotensão com bradicardia, pele quente e seca e FAST negativo, em lesão medular alta, define choque neurogênico) a perda do tônus simpático causa vasodilatação e impede a taquicardia compensatória. O tratamento é volume criterioso seguido de vasopressor, com alvo de pressão arterial média em torno de 85 a 90 mmHg para perfundir a medula. É diagnóstico de exclusão: hemorragia precisa ser descartada.",
   "porAlt": [
    "Correta: bradicardia com pele quente e FAST negativo aponta neurogênico.",
    "O hipovolêmico cursa com taquicardia e pele fria.",
@@ -20221,8 +20221,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "SBD 2026 e ADA — tratamento da cetoacidose diabética",
-  "coment": "O alvo do tratamento da cetoacidose é fechar o ânion gap, não normalizar a glicemia — a insulina é o que interrompe a cetogênese. Quando a glicemia chega a 200 a 250 mg/dL, associa-se soro glicosado para permitir manter a infusão de insulina sem hipoglicemia, até resolução da acidose. O bicarbonato só é considerado com pH abaixo de 6,9.",
+  "base": "SBD 2026 e ADA (tratamento da cetoacidose diabética",
+  "coment": "O alvo do tratamento da cetoacidose é fechar o ânion gap, não normalizar a glicemia) a insulina é o que interrompe a cetogênese. Quando a glicemia chega a 200 a 250 mg/dL, associa-se soro glicosado para permitir manter a infusão de insulina sem hipoglicemia, até resolução da acidose. O bicarbonato só é considerado com pH abaixo de 6,9.",
   "porAlt": [
    "Correta: manter insulina com glicose até fechar o ânion gap.",
    "Suspender a insulina com acidose aberta faz a cetogênese recomeçar.",
@@ -20245,8 +20245,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ATLS 11ª edição, 2018 — queimadura elétrica de alta tensão",
-  "coment": "Na queimadura elétrica de alta tensão a lesão cutânea subestima grosseiramente o dano: a corrente percorre músculos, vasos e nervos, produzindo necrose profunda, rabdomiólise com risco renal e síndrome compartimental, além de arritmias. O manejo inclui hidratação vigorosa, monitorização cardíaca e avaliação cirúrgica para fasciotomia — a urina escura com creatinofosfoquinase alta confirma a mionecrose.",
+  "base": "ATLS 11ª edição, 2018, queimadura elétrica de alta tensão",
+  "coment": "Na queimadura elétrica de alta tensão a lesão cutânea subestima grosseiramente o dano: a corrente percorre músculos, vasos e nervos, produzindo necrose profunda, rabdomiólise com risco renal e síndrome compartimental, além de arritmias. O manejo inclui hidratação vigorosa, monitorização cardíaca e avaliação cirúrgica para fasciotomia. A urina escura com creatinofosfoquinase alta confirma a mionecrose.",
   "porAlt": [
    "Correta: o dano profundo e suas consequências dominam o quadro.",
    "O aspecto pequeno das lesões é exatamente o que engana.",
@@ -20269,7 +20269,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ESC 2024 — síndromes aórticas agudas",
+  "base": "ESC 2024. Síndromes aórticas agudas",
   "coment": "Dor rasgando com irradiação dorsal, assimetria de pressão e de pulsos, sopro de insuficiência aórtica novo e mediastino alargado apontam dissecção aguda de aorta. O tratamento inicial reduz a força de cisalhamento: betabloqueador intravenoso primeiro, baixando frequência e derivada de pressão, e vasodilatador depois, se necessário. A angiotomografia define o tipo e a conduta cirúrgica.",
   "porAlt": [
    "Correta: controlar cisalhamento e definir por imagem.",
@@ -20293,7 +20293,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Manual de Toxicologia Clínica COVISA 2017 — octreotide na hipoglicemia por sulfonilureia",
+  "base": "Manual de Toxicologia Clínica COVISA 2017, octreotide na hipoglicemia por sulfonilureia",
   "coment": "Na hipoglicemia refratária por sulfonilureia, o octreotide é o tratamento específico: inibe a secreção pancreática de insulina estimulada pelo fármaco e reduz a necessidade de glicose e a recorrência. A infusão de glicose é mantida em paralelo, e a observação se estende porque a meia-vida do fármaco está prolongada pela doença renal.",
   "porAlt": [
    "Correta: octreotide é o tratamento específico na refratariedade.",
@@ -20317,7 +20317,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r2",
-  "base": "ATLS 11ª edição, 2018 — triagem em múltiplas vítimas",
+  "base": "ATLS 11ª edição, 2018, triagem em múltiplas vítimas",
   "coment": "Na triagem de múltiplas vítimas com recursos insuficientes a lógica se inverte em relação ao atendimento individual: deixa de ser o mais grave primeiro e passa a ser o maior benefício para o maior número. Sistemas como o START classificam por cores e reservam a categoria expectante para quem consumiria recursos desproporcionais com baixa chance de sobrevida.",
   "porAlt": [
    "Correta: é o princípio utilitarista da triagem em catástrofe.",
@@ -20341,8 +20341,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "IWGDF 2023 e IDSA — infecção no pé diabético",
-  "coment": "A sondagem que toca osso tem valor preditivo positivo alto para osteomielite no pé diabético, e a alteração radiográfica com hemossedimentação acima de 70 mm/h reforça. A conduta é obter cultura óssea por biópsia — a cultura de swab da úlcera não representa o osso — e antibiótico prolongado, tipicamente por seis semanas, com desbridamento e controle metabólico. Pulsos palpáveis afastam predomínio isquêmico.",
+  "base": "IWGDF 2023 e IDSA. Infecção no pé diabético",
+  "coment": "A sondagem que toca osso tem valor preditivo positivo alto para osteomielite no pé diabético, e a alteração radiográfica com hemossedimentação acima de 70 mm/h reforça. A conduta é obter cultura óssea por biópsia, a cultura de swab da úlcera não representa o osso, e antibiótico prolongado, tipicamente por seis semanas, com desbridamento e controle metabólico. Pulsos palpáveis afastam predomínio isquêmico.",
   "porAlt": [
    "Correta: cultura óssea orienta o antibiótico prolongado.",
    "Sete dias de oral não trata osteomielite.",
@@ -20365,8 +20365,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "The Transplantation Society, 2018 — consenso internacional de citomegalovírus em transplante",
-  "coment": "Doador positivo com receptor negativo é a combinação de maior risco para doença por citomegalovírus, e a ausência de profilaxia agrava. Febre com citopenias, hepatite e disfunção do enxerto no segundo mês compõem a síndrome. O diagnóstico é por carga viral — a sorologia não serve no imunossuprimido — e o tratamento é ganciclovir intravenoso, com redução da imunossupressão quando possível.",
+  "base": "The Transplantation Society, 2018. Consenso internacional de citomegalovírus em transplante",
+  "coment": "Doador positivo com receptor negativo é a combinação de maior risco para doença por citomegalovírus, e a ausência de profilaxia agrava. Febre com citopenias, hepatite e disfunção do enxerto no segundo mês compõem a síndrome. O diagnóstico é por carga viral, a sorologia não serve no imunossuprimido, e o tratamento é ganciclovir intravenoso, com redução da imunossupressão quando possível.",
   "porAlt": [
    "Correta: carga viral para diagnóstico e ganciclovir para tratamento.",
    "Aumentar a imunossupressão em infecção ativa agrava o quadro.",
@@ -20389,8 +20389,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde, 2017 — Chikungunya: manejo clínico",
-  "coment": "Artralgia intensa e incapacitante, simétrica e com edema articular, é o achado que separa a chikungunya da dengue e do zika. Na fase aguda evitam-se anti-inflamatórios e ácido acetilsalicílico, porque a coinfecção com dengue não pode ser descartada e o risco hemorrágico existe — a analgesia é feita com dipirona ou paracetamol, escalonando para opioide fraco se necessário.",
+  "base": "Ministério da Saúde, 2017. Chikungunya: manejo clínico",
+  "coment": "Artralgia intensa e incapacitante, simétrica e com edema articular, é o achado que separa a chikungunya da dengue e do zika. Na fase aguda evitam-se anti-inflamatórios e ácido acetilsalicílico, porque a coinfecção com dengue não pode ser descartada e o risco hemorrágico existe. A analgesia é feita com dipirona ou paracetamol, escalonando para opioide fraco se necessário.",
   "porAlt": [
    "Correta: artralgia incapacitante aponta chikungunya, e o AINE é evitado na fase aguda.",
    "A dengue não cursa com artrite e edema articular desse grau.",
@@ -20413,8 +20413,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "WSES 2021 — infecções intra-abdominais: abscesso hepático",
-  "coment": "Abscesso hepático maior que 5 cm, ou sem resposta ao antibiótico isolado, tem indicação de drenagem percutânea guiada por imagem — que é também a melhor amostra para cultura. Antibiótico não penetra coleção organizada com parede definida. A cirurgia fica para falha da drenagem, múltiplas lojas ou ruptura.",
+  "base": "WSES 2021. Infecções intra-abdominais: abscesso hepático",
+  "coment": "Abscesso hepático maior que 5 cm, ou sem resposta ao antibiótico isolado, tem indicação de drenagem percutânea guiada por imagem, que é também a melhor amostra para cultura. Antibiótico não penetra coleção organizada com parede definida. A cirurgia fica para falha da drenagem, múltiplas lojas ou ruptura.",
   "porAlt": [
    "Correta: falha do tratamento clínico com coleção drenável.",
    "Prolongar antibiótico sem drenar repete o que já falhou.",
@@ -20437,8 +20437,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde, 2024 — PCDT de HIV: coinfecção tuberculose-HIV",
-  "coment": "Na coinfecção começa-se pelo tratamento da tuberculose. Com CD4 abaixo de 50 células/mm³, o antirretroviral entra em até duas semanas — o benefício de mortalidade supera o risco de síndrome inflamatória de reconstituição. Com CD4 acima de 50, espera-se entre 8 e 12 semanas. A exceção é a meningite tuberculosa, em que o início precoce aumenta mortalidade.",
+  "base": "Ministério da Saúde, 2024. PCDT de HIV: coinfecção tuberculose-HIV",
+  "coment": "Na coinfecção começa-se pelo tratamento da tuberculose. Com CD4 abaixo de 50 células/mm³, o antirretroviral entra em até duas semanas. O benefício de mortalidade supera o risco de síndrome inflamatória de reconstituição. Com CD4 acima de 50, espera-se entre 8 e 12 semanas. A exceção é a meningite tuberculosa, em que o início precoce aumenta mortalidade.",
   "porAlt": [
    "Correta: tuberculose primeiro, antirretroviral em duas semanas com CD4 abaixo de 50.",
    "Começar os dois juntos aumenta reconstituição imune e toxicidade somada.",
@@ -20461,8 +20461,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA 2014 — infecções de sítio cirúrgico",
-  "coment": "Infecção de sítio cirúrgico superficial, sem sinais sistêmicos e com celulite mínima ao redor, é tratada com abertura dos pontos, drenagem e curativos — o antibiótico sistêmico não é necessário nesse cenário. Ele entra quando há febre, celulite maior que 5 cm, sinais sistêmicos ou imunossupressão.",
+  "base": "IDSA 2014. Infecções de sítio cirúrgico",
+  "coment": "Infecção de sítio cirúrgico superficial, sem sinais sistêmicos e com celulite mínima ao redor, é tratada com abertura dos pontos, drenagem e curativos, o antibiótico sistêmico não é necessário nesse cenário. Ele entra quando há febre, celulite maior que 5 cm, sinais sistêmicos ou imunossupressão.",
   "porAlt": [
    "Correta: drenagem é o tratamento; antibiótico só com sinais sistêmicos.",
    "Antibiótico de amplo espectro sem indicação é pressão seletiva desnecessária.",
@@ -20485,8 +20485,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA 2004 e ESCMID 2016 — dexametasona na meningite bacteriana",
-  "coment": "A dexametasona reduz sequela auditiva e mortalidade na meningite pneumocócica do adulto, mas o benefício depende de ser administrada ANTES ou JUNTO com a primeira dose do antibiótico — ela atua reduzindo a resposta inflamatória desencadeada pela lise bacteriana. Iniciada 30 minutos depois, o efeito se perde; a recomendação, quando aplicada no tempo certo, é manter por quatro dias.",
+  "base": "IDSA 2004 e ESCMID 2016. Dexametasona na meningite bacteriana",
+  "coment": "A dexametasona reduz sequela auditiva e mortalidade na meningite pneumocócica do adulto, mas o benefício depende de ser administrada ANTES ou JUNTO com a primeira dose do antibiótico, ela atua reduzindo a resposta inflamatória desencadeada pela lise bacteriana. Iniciada 30 minutos depois, o efeito se perde; a recomendação, quando aplicada no tempo certo, é manter por quatro dias.",
   "porAlt": [
    "Correta: o benefício existe, mas depende do momento da administração.",
    "O esquema é de quatro dias, e iniciar depois do antibiótico não resgata o efeito.",
@@ -20496,7 +20496,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 76 anos, internado por pneumonia e em uso de ceftriaxona há dez dias, apresenta diarreia com doze evacuações diárias, dor abdominal difusa e distensão abdominal progressiva. Está com pressão de 92/56 mmHg, frequência de 116 bpm, temperatura de 38,8 °C, leucócitos de 28.000/mm³, creatinina de 2,4 mg/dL — subindo de 1,0 mg/dL — e lactato de 3,6 mmol/L. O teste para toxina de Clostridioides difficile é positivo e a tomografia mostra espessamento colônico difuso, sem perfuração ou megacólon. Qual é o tratamento?",
+  "q": "Homem de 76 anos, internado por pneumonia e em uso de ceftriaxona há dez dias, apresenta diarreia com doze evacuações diárias, dor abdominal difusa e distensão abdominal progressiva. Está com pressão de 92/56 mmHg, frequência de 116 bpm, temperatura de 38,8 °C, leucócitos de 28.000/mm³, creatinina de 2,4 mg/dL (subindo de 1,0 mg/dL) e lactato de 3,6 mmol/L. O teste para toxina de Clostridioides difficile é positivo e a tomografia mostra espessamento colônico difuso, sem perfuração ou megacólon. Qual é o tratamento?",
   "alts": [
    "Vancomicina oral em dose alta com metronidazol",
    "Vancomicina oral isolada em dose habitual",
@@ -20509,8 +20509,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "IDSA/SHEA 2021 — Clostridioides difficile grave e fulminante",
-  "coment": "Leucocitose acima de 15.000/mm³ com creatinina elevada define forma grave, e hipotensão com lactato elevado caracteriza a forma fulminante. O tratamento é vancomicina oral em dose alta — 500 mg a cada 6 horas — associada a metronidazol intravenoso, com vancomicina em enema se houver íleo. A colectomia entra na falha clínica, perfuração ou megacólon tóxico.",
+  "base": "IDSA/SHEA 2021. Clostridioides difficile grave e fulminante",
+  "coment": "Leucocitose acima de 15.000/mm³ com creatinina elevada define forma grave, e hipotensão com lactato elevado caracteriza a forma fulminante. O tratamento é vancomicina oral em dose alta, 500 mg a cada 6 horas, associada a metronidazol intravenoso, com vancomicina em enema se houver íleo. A colectomia entra na falha clínica, perfuração ou megacólon tóxico.",
   "porAlt": [
    "Correta: forma fulminante exige dose alta com metronidazol intravenoso.",
    "Dose habitual isolada é insuficiente na forma fulminante.",
@@ -20534,7 +20534,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "IDSA 2011 e consensos de bacteremia por S. aureus",
-  "coment": "Bacteremia por Staphylococcus aureus nunca é contaminação e exige um pacote obrigatório: ecocardiograma para excluir endocardite — transesofágico em portadores de dispositivo, prótese ou bacteremia persistente —, hemoculturas de controle em 48 a 96 horas para documentar clareamento, remoção do foco quando é cateter, e duração contada a partir da primeira cultura negativa.",
+  "coment": "Bacteremia por Staphylococcus aureus nunca é contaminação e exige um pacote obrigatório: ecocardiograma para excluir endocardite (transesofágico em portadores de dispositivo, prótese ou bacteremia persistente), hemoculturas de controle em 48 a 96 horas para documentar clareamento, remoção do foco quando é cateter, e duração contada a partir da primeira cultura negativa.",
   "porAlt": [
    "Correta: é o pacote mínimo obrigatório nessa bacteremia.",
    "Duração sem investigar foco e sem confirmar clareamento é insuficiente.",
@@ -20557,8 +20557,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde, 2014 — Manual de vigilância e controle da leishmaniose visceral",
-  "coment": "Sinais de gravidade — icterícia, plaquetas abaixo de 50.000/mm³, sangramento, hemoglobina abaixo de 7 g/dL e coagulopatia — contraindicam o antimonial e indicam anfotericina B lipossomal, que é também a escolha em menores de um ano, maiores de cinquenta, gestantes, portadores de HIV e insuficiência renal ou hepática. O antimonial prolonga o QT e tem cardiotoxicidade e hepatotoxicidade relevantes.",
+  "base": "Ministério da Saúde, 2014 (Manual de vigilância e controle da leishmaniose visceral",
+  "coment": "Sinais de gravidade) icterícia, plaquetas abaixo de 50.000/mm³, sangramento, hemoglobina abaixo de 7 g/dL e coagulopatia. Contraindicam o antimonial e indicam anfotericina B lipossomal, que é também a escolha em menores de um ano, maiores de cinquenta, gestantes, portadores de HIV e insuficiência renal ou hepática. O antimonial prolonga o QT e tem cardiotoxicidade e hepatotoxicidade relevantes.",
   "porAlt": [
    "Correta: os critérios de gravidade tornam a lipossomal a escolha.",
    "O antimonial está contraindicado diante de icterícia e plaquetopenia grave.",
@@ -20581,7 +20581,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "GOLD Report, 2025; Ministério da Saúde — Manual dos Centros de Referência para Imunobiológicos Especiais, 2023",
+  "base": "GOLD Report, 2025; Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais, 2023",
   "coment": "A vacinação reduz exacerbações e internações na doença pulmonar obstrutiva crônica. Recomendam-se influenza anual, vacina pneumocócica conforme o esquema disponível, vacina contra coqueluche em quem não recebeu na vida adulta, vacina contra covid-19 conforme o calendário vigente e, quando disponível, vacina contra o vírus sincicial respiratório em faixas etárias indicadas. A doença não contraindica imunização e é justamente indicação de prioridade.",
   "porAlt": [
    "A influenza é essencial, mas não é a única vacina recomendada para esse grupo de pacientes.",
@@ -20702,7 +20702,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "Endocrine Society/ESE clinical practice guideline on diabetes insipidus, 2023; KDIGO guidance on drug-induced kidney disease, revisão 2023",
-  "coment": "O lítio é a causa medicamentosa mais frequente de diabetes insipidus nefrogênico, por resistência tubular à ação do hormônio antidiurético, o que explica a ausência de resposta à desmopressina — que distingue a forma nefrogênica da central, esta sim responsiva. A conduta envolve discutir com a psiquiatria a manutenção ou substituição do lítio, garantir acesso livre à água, e considerar amilorida, que reduz a entrada de lítio na célula tubular.",
+  "coment": "O lítio é a causa medicamentosa mais frequente de diabetes insipidus nefrogênico, por resistência tubular à ação do hormônio antidiurético, o que explica a ausência de resposta à desmopressina. Que distingue a forma nefrogênica da central, esta sim responsiva. A conduta envolve discutir com a psiquiatria a manutenção ou substituição do lítio, garantir acesso livre à água, e considerar amilorida, que reduz a entrada de lítio na célula tubular.",
   "porAlt": [
    "A forma central responde à desmopressina, justamente o que não ocorre neste paciente descrito.",
    "Correta: diabetes insipidus nefrogênico induzido pelo lítio, com reavaliação do fármaco e do balanço hídrico.",
@@ -20774,7 +20774,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "KDIGO Clinical Practice Guideline for the Care of Kidney Transplant Recipients, revisão 2023; The Transplantation Society guidance, 2023",
-  "coment": "A disfunção do enxerto renal exige diagnóstico diferencial sistemático: rejeição aguda celular ou mediada por anticorpos, toxicidade por inibidor de calcineurina, infecção — sobretudo por vírus BK e citomegalovírus —, obstrução urinária, trombose vascular, desidratação e recidiva da doença de base. A avaliação combina nível sérico do imunossupressor, ultrassonografia com doppler, pesquisa viral e biópsia do enxerto, que frequentemente é decisiva.",
+  "coment": "A disfunção do enxerto renal exige diagnóstico diferencial sistemático: rejeição aguda celular ou mediada por anticorpos, toxicidade por inibidor de calcineurina, infecção, sobretudo por vírus BK e citomegalovírus, obstrução urinária, trombose vascular, desidratação e recidiva da doença de base. A avaliação combina nível sérico do imunossupressor, ultrassonografia com doppler, pesquisa viral e biópsia do enxerto, que frequentemente é decisiva.",
   "porAlt": [
    "Aumentar a imunossupressão sem diagnóstico agrava toxicidade e infecção, se forem essas as causas.",
    "Suspender toda a imunossupressão precipita rejeição aguda e perda do enxerto transplantado.",
@@ -20798,7 +20798,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "EASL Clinical Practice Guidelines on decompensated cirrhosis, 2018 com atualização 2023; AASLD practice guidance, 2021",
-  "coment": "A síndrome hepatorrenal é lesão renal funcional por vasoconstrição renal intensa secundária à vasodilatação esplâncnica da cirrose avançada. O tratamento é vasoconstritor esplâncnico — terlipressina, a opção com melhor evidência — associado a albumina, após suspender diuréticos e nefrotóxicos e afastar outras causas de lesão renal e infecção. O tratamento definitivo é o transplante hepático, e a diálise serve de ponte em candidatos selecionados.",
+  "coment": "A síndrome hepatorrenal é lesão renal funcional por vasoconstrição renal intensa secundária à vasodilatação esplâncnica da cirrose avançada. O tratamento é vasoconstritor esplâncnico (terlipressina, a opção com melhor evidência) associado a albumina, após suspender diuréticos e nefrotóxicos e afastar outras causas de lesão renal e infecção. O tratamento definitivo é o transplante hepático, e a diálise serve de ponte em candidatos selecionados.",
   "porAlt": [
    "Os diuréticos são suspensos na síndrome hepatorrenal, pois agravam a hipovolemia efetiva.",
    "A restrição hídrica extrema agrava a hipoperfusão renal e não trata o mecanismo vasoconstritor.",
@@ -20870,7 +20870,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "CDC Clinical Practice Guideline for Prescribing Opioids for Pain, 2022; AGS Beers Criteria, 2023",
-  "coment": "Na dor crônica não oncológica, as diretrizes priorizam tratamento não farmacológico — exercício, fisioterapia, terapia cognitivo-comportamental — e fármacos não opioides, com opioide reservado a casos selecionados em que o benefício supera os riscos, na menor dose e pelo menor tempo, com metas funcionais definidas. No idoso, anti-inflamatórios contínuos trazem risco digestivo, renal e cardiovascular, e benzodiazepínicos combinados a opioides aumentam a mortalidade.",
+  "coment": "Na dor crônica não oncológica, as diretrizes priorizam tratamento não farmacológico (exercício, fisioterapia, terapia cognitivo-comportamental) e fármacos não opioides, com opioide reservado a casos selecionados em que o benefício supera os riscos, na menor dose e pelo menor tempo, com metas funcionais definidas. No idoso, anti-inflamatórios contínuos trazem risco digestivo, renal e cardiovascular, e benzodiazepínicos combinados a opioides aumentam a mortalidade.",
   "porAlt": [
    "O opioide não é primeira linha na dor crônica não oncológica e traz riscos relevantes no idoso.",
    "Existem opções seguras e eficazes, e não tratar a dor crônica prejudica função e qualidade de vida.",
@@ -20917,8 +20917,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "AGS Beers Criteria, 2023; Deprescribing.org guidelines, revisão 2023; ANCP — Manual de Cuidados Paliativos, 2021",
-  "coment": "Medicamentos preventivos têm tempo até o benefício: estatina em prevenção primária, bisfosfonato e controle glicêmico rígido levam anos para produzir ganho. Quando a expectativa de vida é menor que esse intervalo, o paciente carrega os efeitos adversos e o custo sem alcançar o benefício, e a desprescrição é apropriada. Já os fármacos que controlam sintomas — analgésicos, antieméticos, broncodilatadores — devem ser mantidos ou otimizados.",
+  "base": "AGS Beers Criteria, 2023; Deprescribing.org guidelines, revisão 2023; ANCP. Manual de Cuidados Paliativos, 2021",
+  "coment": "Medicamentos preventivos têm tempo até o benefício: estatina em prevenção primária, bisfosfonato e controle glicêmico rígido levam anos para produzir ganho. Quando a expectativa de vida é menor que esse intervalo, o paciente carrega os efeitos adversos e o custo sem alcançar o benefício, e a desprescrição é apropriada. Já os fármacos que controlam sintomas (analgésicos, antieméticos, broncodilatadores) devem ser mantidos ou otimizados.",
   "porAlt": [
    "Manter todos os preventivos entrega efeitos adversos sem alcançar o benefício, que é tardio.",
    "Suspender tudo abruptamente inclui fármacos de sintomas e provoca sofrimento evitável.",
@@ -20965,7 +20965,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "IDSA Clinical Practice Guideline for Vaccination of the Immunocompromised Host, revisão 2023; Ministério da Saúde — CRIE, 2023",
+  "base": "IDSA Clinical Practice Guideline for Vaccination of the Immunocompromised Host, revisão 2023; Ministério da Saúde. CRIE, 2023",
   "coment": "Pacientes em quimioterapia têm risco aumentado de complicações por influenza e devem ser vacinados com vacina inativada, que é segura em imunossuprimidos. Vacinas de vírus vivo atenuado são contraindicadas. A resposta imune é melhor quando a vacina é aplicada em momento de recuperação hematológica, tipicamente antes do próximo ciclo, e recomenda-se também vacinar os contatos domiciliares, estratégia conhecida como proteção por cocoon.",
   "porAlt": [
    "Vacinas inativadas são seguras e indicadas em pacientes imunossuprimidos por quimioterapia.",
@@ -20989,8 +20989,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESMO Clinical Practice Guidelines on delirium in adult cancer patients, revisão 2023; ANCP — Manual de Cuidados Paliativos, 2021",
-  "coment": "O delirium no fim da vida é frequente e angustiante para o paciente e a família. A abordagem começa por buscar causas potencialmente reversíveis compatíveis com os objetivos de cuidado — fármacos, retenção urinária, constipação, dor, hipercalcemia, infecção — e aplicar medidas ambientais e de reorientação, com apoio e explicação à família. Antipsicótico em dose baixa é usado quando há sofrimento ou risco, e a sedação paliativa fica para o delirium refratário.",
+  "base": "ESMO Clinical Practice Guidelines on delirium in adult cancer patients, revisão 2023; ANCP. Manual de Cuidados Paliativos, 2021",
+  "coment": "O delirium no fim da vida é frequente e angustiante para o paciente e a família. A abordagem começa por buscar causas potencialmente reversíveis compatíveis com os objetivos de cuidado (fármacos, retenção urinária, constipação, dor, hipercalcemia, infecção) e aplicar medidas ambientais e de reorientação, com apoio e explicação à família. Antipsicótico em dose baixa é usado quando há sofrimento ou risco, e a sedação paliativa fica para o delirium refratário.",
   "porAlt": [
    "A sedação contínua se reserva ao delirium verdadeiramente refratário às medidas anteriores.",
    "O benzodiazepínico isolado pode agravar o delirium hiperativo, exceto na abstinência alcoólica.",
@@ -21014,7 +21014,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "AASLD Practice Guidance on hepatocellular carcinoma, 2023; EASL Clinical Practice Guidelines, 2025; critérios de Milão",
-  "coment": "O carcinoma hepatocelular em estágio inicial — nódulo único até cinco centímetros, ou até três nódulos de até três centímetros, com função hepática preservada e bom estado funcional — é potencialmente curável. As opções são ressecção, ablação percutânea e transplante hepático, este indicado dentro dos critérios de Milão e que trata simultaneamente o tumor e a cirrose. A decisão é multidisciplinar e considera função hepática, hipertensão portal e comorbidades.",
+  "coment": "O carcinoma hepatocelular em estágio inicial (nódulo único até cinco centímetros, ou até três nódulos de até três centímetros, com função hepática preservada e bom estado funcional) é potencialmente curável. As opções são ressecção, ablação percutânea e transplante hepático, este indicado dentro dos critérios de Milão e que trata simultaneamente o tumor e a cirrose. A decisão é multidisciplinar e considera função hepática, hipertensão portal e comorbidades.",
   "porAlt": [
    "O estágio descrito é potencialmente curável e não corresponde a indicação de paliação exclusiva.",
    "A quimioterapia convencional tem eficácia limitada e não é a primeira escolha nesse estágio inicial.",
@@ -21110,7 +21110,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "American Thyroid Association Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, revisão 2023; Bethesda System, 3ª edição, 2023",
-  "coment": "A categoria Bethesda III — atipia de significado indeterminado — tem risco intermediário de malignidade e admite três caminhos: repetir a punção aspirativa, aplicar teste molecular quando disponível, ou realizar lobectomia diagnóstica. A escolha considera o risco ultrassonográfico, o tamanho, a idade, comorbidades e a preferência do paciente. A tireoidectomia total imediata é desproporcional para a maioria, pois grande parte desses nódulos é benigna.",
+  "coment": "A categoria Bethesda III, atipia de significado indeterminado, tem risco intermediário de malignidade e admite três caminhos: repetir a punção aspirativa, aplicar teste molecular quando disponível, ou realizar lobectomia diagnóstica. A escolha considera o risco ultrassonográfico, o tamanho, a idade, comorbidades e a preferência do paciente. A tireoidectomia total imediata é desproporcional para a maioria, pois grande parte desses nódulos é benigna.",
   "porAlt": [
    "A tireoidectomia total imediata é desproporcional, pois a maioria desses nódulos é benigna.",
    "Ignorar citologia indeterminada perde o diagnóstico de carcinoma em parte relevante dos casos.",
@@ -21133,7 +21133,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Pheochromocytoma and Paraganglioma, revisão 2023",
+  "base": "Endocrine Society Clinical Practice Guideline, Pheochromocytoma and Paraganglioma, revisão 2023",
   "coment": "O preparo pré-operatório do feocromocitoma exige bloqueio alfa-adrenérgico iniciado dez a catorze dias antes, tipicamente com fenoxibenzamina ou doxazosina, associado a dieta rica em sal e hidratação para restaurar o volume plasmático contraído. O betabloqueador só é acrescentado depois do bloqueio alfa estabelecido: usado antes, permite vasoconstrição alfa sem oposição e pode precipitar crise hipertensiva grave, edema pulmonar e óbito.",
   "porAlt": [
    "O betabloqueador antes do alfa permite vasoconstrição sem oposição e pode precipitar crise grave.",
@@ -21158,7 +21158,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "EULAR recommendations for management of vasculitis, 2022; British Association of Dermatologists guideline on cutaneous vasculitis, revisão 2023",
-  "coment": "A púrpura palpável indica vasculite leucocitoclástica de pequenos vasos, que pode ser limitada à pele ou manifestação cutânea de doença sistêmica. A investigação busca causas — infecções, fármacos, doenças autoimunes, crioglobulinemia, neoplasia — e avalia acometimento sistêmico, sobretudo renal, com creatinina e sedimento urinário procurando hematúria dismórfica e proteinúria. O tratamento vai de suporte e retirada do agente causal a imunossupressão nos casos sistêmicos.",
+  "coment": "A púrpura palpável indica vasculite leucocitoclástica de pequenos vasos, que pode ser limitada à pele ou manifestação cutânea de doença sistêmica. A investigação busca causas (infecções, fármacos, doenças autoimunes, crioglobulinemia, neoplasia) e avalia acometimento sistêmico, sobretudo renal, com creatinina e sedimento urinário procurando hematúria dismórfica e proteinúria. O tratamento vai de suporte e retirada do agente causal a imunossupressão nos casos sistêmicos.",
   "porAlt": [
    "O corticoide tópico não trata a causa nem avalia o acometimento sistêmico potencialmente grave.",
    "O antibiótico empírico não trata a vasculite, embora infecção possa ser o gatilho a investigar.",
@@ -21301,7 +21301,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Diretrizes metodológicas para elaboração de diretrizes clínicas, 2022; GRADE Working Group",
+  "base": "Ministério da Saúde. Diretrizes metodológicas para elaboração de diretrizes clínicas, 2022; GRADE Working Group",
   "coment": "Um protocolo institucional deve partir de diretrizes vigentes de boa qualidade, avaliadas por instrumentos como o AGREE, e ser adaptado ao contexto local: recursos disponíveis, perfil epidemiológico, fluxos assistenciais e capacidade instalada. É elaborado com participação multiprofissional, aprovado formalmente, difundido com treinamento e, sobretudo, tem prazo definido de revisão, porque a evidência muda e o protocolo desatualizado passa a induzir conduta errada.",
   "porAlt": [
    "Copiar sem adaptar ignora recursos, epidemiologia e fluxos locais e gera protocolo inaplicável.",
@@ -21349,7 +21349,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; OMS — Patient Safety, diretrizes sobre divulgação de incidentes, revisão 2023",
+  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; OMS, Patient Safety, diretrizes sobre divulgação de incidentes, revisão 2023",
   "coment": "A comunicação honesta de incidentes é dever ético e prática recomendada de segurança do paciente: informar o que ocorreu, o impacto, as medidas de correção adotadas e o que será feito para evitar recorrência, com registro em prontuário e notificação ao sistema institucional de segurança. Ocultar o erro viola a autonomia e a confiança, e a análise do incidente deve buscar causas sistêmicas, não apenas culpar o indivíduo envolvido.",
   "porAlt": [
    "Ocultar o erro viola a autonomia do paciente e destrói a confiança quando descoberto depois.",
@@ -21373,7 +21373,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Diretrizes metodológicas de avaliação em saúde, 2022; IHI Quality Improvement framework",
+  "base": "Ministério da Saúde. Diretrizes metodológicas de avaliação em saúde, 2022; IHI Quality Improvement framework",
   "coment": "A avaliação de melhoria exige indicador que meça diretamente o desfecho de interesse, colhido da mesma forma antes e depois da intervenção. Para tempo de espera, usa-se o intervalo entre solicitação e atendimento, preferindo a mediana à média por ser menos sensível a valores extremos, e complementando com percentis para descrever a cauda da distribuição. Indicadores de processo e de estrutura complementam, mas não substituem a medida do desfecho.",
   "porAlt": [
    "O número de atendimentos mede volume de produção e não informa sobre o tempo de espera.",
@@ -21421,8 +21421,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024; OMS — Guideline on control of soil-transmitted helminth infections, 2023",
-  "coment": "As geo-helmintíases são doenças ligadas a determinantes sociais: sem saneamento, água tratada e educação em saúde, a reinfestação após o tratamento é rápida e o ciclo se mantém. A abordagem efetiva combina tratamento — individual ou em massa conforme a prevalência — com ações intersetoriais de saneamento, acesso à água, destino de dejetos, higiene e educação. A atenção primária tem papel central por conhecer o território e articular os setores.",
+  "base": "Ministério da Saúde (Guia de Vigilância em Saúde, 2024; OMS) Guideline on control of soil-transmitted helminth infections, 2023",
+  "coment": "As geo-helmintíases são doenças ligadas a determinantes sociais: sem saneamento, água tratada e educação em saúde, a reinfestação após o tratamento é rápida e o ciclo se mantém. A abordagem efetiva combina tratamento, individual ou em massa conforme a prevalência, com ações intersetoriais de saneamento, acesso à água, destino de dejetos, higiene e educação. A atenção primária tem papel central por conhecer o território e articular os setores.",
   "porAlt": [
    "O tratamento isolado é seguido de reinfestação rápida enquanto o ambiente permanece contaminado.",
    "Encaminhar ao terciário desorganiza a rede e não atua sobre a causa no território adscrito.",
@@ -21469,8 +21469,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com IST, 2022; Guia de Vigilância em Saúde, 2024",
-  "coment": "O aumento de sífilis em gestantes indica falha no fluxo do pré-natal, e a resposta combina ampliar testagem — no primeiro e no terceiro trimestre e no parto —, garantir tratamento imediato com penicilina benzatina na própria unidade, tratar as parcerias sexuais, que é o ponto mais frequentemente falho e causa de reinfecção, e investigar barreiras como falta de insumo, medo de reação alérgica e captação tardia. A sífilis congênita é evento sentinela evitável.",
+  "base": "Ministério da Saúde. PCDT para Atenção Integral às Pessoas com IST, 2022; Guia de Vigilância em Saúde, 2024",
+  "coment": "O aumento de sífilis em gestantes indica falha no fluxo do pré-natal, e a resposta combina ampliar testagem, no primeiro e no terceiro trimestre e no parto, garantir tratamento imediato com penicilina benzatina na própria unidade, tratar as parcerias sexuais, que é o ponto mais frequentemente falho e causa de reinfecção, e investigar barreiras como falta de insumo, medo de reação alérgica e captação tardia. A sífilis congênita é evento sentinela evitável.",
   "porAlt": [
    "Aguardar orientação estadual atrasa uma resposta que é competência e capacidade da própria equipe.",
    "Encaminhar ao terciário retira da primária uma ação simples, resolutiva e de sua competência.",
@@ -21493,7 +21493,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Manual de Instruções para o Preenchimento da Declaração de Óbito, revisão 2022; Resolução CFM sobre declaração de óbito",
+  "base": "Ministério da Saúde. Manual de Instruções para o Preenchimento da Declaração de Óbito, revisão 2022; Resolução CFM sobre declaração de óbito",
   "coment": "A declaração de óbito é documento médico e fonte primária das estatísticas de mortalidade que orientam políticas de saúde. Em morte natural com assistência médica, o médico assistente preenche o documento registrando a cadeia causal: causa imediata, causas intermediárias e, na última linha, a causa básica, que é a doença que iniciou a sequência. Registrar apenas parada cardiorrespiratória é erro grave, pois é o modo de morrer e não informa a causa.",
   "porAlt": [
    "Parada cardiorrespiratória é o modo de morrer e não informa a causa básica que iniciou a sequência.",
@@ -21517,7 +21517,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Política Nacional sobre Drogas e Rede de Atenção Psicossocial; PCDT sobre uso de substâncias, 2022",
+  "base": "Ministério da Saúde. Política Nacional sobre Drogas e Rede de Atenção Psicossocial; PCDT sobre uso de substâncias, 2022",
   "coment": "A abordagem do transtorno por uso de substâncias parte do acolhimento sem julgamento e do vínculo, com articulação da rede de atenção psicossocial, incluindo centros de atenção psicossocial de álcool e drogas. A redução de danos é diretriz da política brasileira: reconhece que nem todo paciente está pronto para a abstinência e busca reduzir riscos enquanto o uso persiste. Exigir abstinência prévia afasta justamente quem mais precisa do cuidado.",
   "porAlt": [
    "Exigir abstinência prévia afasta o paciente do serviço e contraria a política vigente de cuidado.",
@@ -21541,8 +21541,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC 2024 — fibrilação atrial: controle de frequência na fração de ejeção reduzida",
-  "coment": "Na fibrilação atrial permanente com insuficiência cardíaca de fração reduzida, o betabloqueador é o fármaco de escolha para controle de frequência — reduz a resposta ventricular e é um dos pilares da própria insuficiência cardíaca. Os bloqueadores de canal de cálcio não di-hidropiridínicos são contraindicados por efeito inotrópico negativo.",
+  "base": "ESC 2024. Fibrilação atrial: controle de frequência na fração de ejeção reduzida",
+  "coment": "Na fibrilação atrial permanente com insuficiência cardíaca de fração reduzida, o betabloqueador é o fármaco de escolha para controle de frequência, reduz a resposta ventricular e é um dos pilares da própria insuficiência cardíaca. Os bloqueadores de canal de cálcio não di-hidropiridínicos são contraindicados por efeito inotrópico negativo.",
   "porAlt": [
    "Correta: acumula controle de frequência e benefício na insuficiência cardíaca.",
    "A amiodarona é opção de ritmo, não a estratégia inicial na permanente.",
@@ -21566,7 +21566,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "BTS Pleural Disease Guideline, 2023; ATS/IDSA Guidelines for Community-Acquired Pneumonia, revisão 2023",
-  "coment": "O derrame parapneumônico simples — pequeno, de fluxo livre, com pH e glicose normais e sem crescimento bacteriano — resolve com o tratamento da pneumonia, sem necessidade de drenagem. A punção diagnóstica é indicada em derrames maiores, loculados, com espessura significativa ou diante de febre persistente e piora clínica. Sinais de complicação são pH abaixo de 7,20, glicose reduzida, cultura positiva, loculações e aspecto purulento.",
+  "coment": "O derrame parapneumônico simples (pequeno, de fluxo livre, com pH e glicose normais e sem crescimento bacteriano) resolve com o tratamento da pneumonia, sem necessidade de drenagem. A punção diagnóstica é indicada em derrames maiores, loculados, com espessura significativa ou diante de febre persistente e piora clínica. Sinais de complicação são pH abaixo de 7,20, glicose reduzida, cultura positiva, loculações e aspecto purulento.",
   "porAlt": [
    "A drenagem universal expõe a complicações desnecessárias em derrames simples e pequenos.",
    "Suspender o antibiótico com pneumonia em tratamento provoca recidiva e piora do quadro.",
@@ -21637,7 +21637,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "NICE guideline NG206 — Myalgic encephalomyelitis/chronic fatigue syndrome, 2021; ACP guidance on fatigue evaluation, revisão 2023",
+  "base": "NICE guideline NG206: Myalgic encephalomyelitis/chronic fatigue syndrome, 2021; ACP guidance on fatigue evaluation, revisão 2023",
   "coment": "A fadiga crônica com exames iniciais normais pede aprofundamento clínico, e não ampliação indiscriminada de exames, que produz achados incidentais e ansiedade. Investigam-se qualidade e distúrbios do sono, depressão e ansiedade, uso de fármacos e substâncias, apneia obstrutiva, condições de trabalho e sobrecarga, dor crônica e descondicionamento. A validação da queixa é essencial: a fadiga é real e incapacitante, mesmo quando não há alteração laboratorial.",
   "porAlt": [
    "Correta: aprofundar a anamnese e investigar sono, humor e fármacos, sem solicitar exames indiscriminadamente.",
@@ -21661,7 +21661,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "AGS Beers Criteria, 2023; anticholinergic burden scales; NICE guideline CG103 — Delirium, revisão 2023",
+  "base": "AGS Beers Criteria, 2023; anticholinergic burden scales; NICE guideline CG103, Delirium, revisão 2023",
   "coment": "A tríade de constipação, retenção urinária e confusão após introdução de fármaco aponta carga anticolinérgica, efeito de antidepressivos tricíclicos, anti-histamínicos de primeira geração, antipsicóticos, antiespasmódicos, antimuscarínicos urinários e relaxantes musculares. No idoso, esses fármacos causam delirium, quedas, boca seca, visão turva e declínio cognitivo, e constam dos critérios de Beers. A conduta é revisar a prescrição e suspender ou substituir o agente responsável.",
   "porAlt": [
    "Correta: efeito anticolinérgico do novo fármaco, exigindo revisão da prescrição e suspensão do agente.",
@@ -21733,8 +21733,8 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Manual de Toxicologia Clínica COVISA 2017 — paracetamol",
-  "coment": "Com nível acima da linha de tratamento do nomograma de Rumack-Matthew, a N-acetilcisteína é iniciada imediatamente. A eficácia é máxima nas primeiras 8 a 10 horas e cai depois — esperar a lesão hepática se instalar é justamente o que o antídoto existe para evitar. Exames devem ser monitorados, mas não condicionam o início.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017. Paracetamol",
+  "coment": "Com nível acima da linha de tratamento do nomograma de Rumack-Matthew, a N-acetilcisteína é iniciada imediatamente. A eficácia é máxima nas primeiras 8 a 10 horas e cai depois. Esperar a lesão hepática se instalar é justamente o que o antídoto existe para evitar. Exames devem ser monitorados, mas não condicionam o início.",
   "porAlt": [
    "Correta: nível tóxico indica antídoto sem esperar.",
    "Esperar 24 horas desperdiça a janela de maior eficácia.",
@@ -21758,7 +21758,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r2",
   "base": "KDIGO Chronic Kidney Disease Guideline, 2024; KDOQI Clinical Practice Guideline for Vascular Access, 2019 com revisão 2023",
-  "coment": "O encaminhamento precoce ao nefrologista, idealmente com filtração glomerular abaixo de 30 mL/min/1,73 m², reduz mortalidade e internação ao permitir preparo adequado: educação sobre as modalidades — hemodiálise, diálise peritoneal, transplante preemptivo e tratamento conservador —, decisão compartilhada, confecção de fístula arteriovenosa com meses de antecedência, e avaliação de elegibilidade para transplante. Iniciar por cateter associa-se a mais infecção e pior desfecho.",
+  "coment": "O encaminhamento precoce ao nefrologista, idealmente com filtração glomerular abaixo de 30 mL/min/1,73 m², reduz mortalidade e internação ao permitir preparo adequado: educação sobre as modalidades (hemodiálise, diálise peritoneal, transplante preemptivo e tratamento conservador), decisão compartilhada, confecção de fístula arteriovenosa com meses de antecedência, e avaliação de elegibilidade para transplante. Iniciar por cateter associa-se a mais infecção e pior desfecho.",
   "porAlt": [
    "Correta: encaminhamento precoce, discussão das modalidades e preparo antecipado do acesso vascular.",
    "Aguardar a urgência obriga a iniciar por cateter, com mais infecção e pior desfecho a longo prazo.",
@@ -21781,8 +21781,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "ACC/AHA 2025 — SCA: prevenção secundária e metas lipídicas",
-  "coment": "A prevenção secundária pós-infarto é um pacote: dupla antiagregação por 12 meses, estatina de alta potência com meta de LDL abaixo de 55 mg/dL, betabloqueador, bloqueio do sistema renina-angiotensina — reforçado pela fração de ejeção reduzida e pelo diabetes — cessação do tabagismo e reabilitação cardiovascular, que reduz mortalidade e reinternação. O LDL de 96 mg/dL está acima da meta e exige intensificação.",
+  "base": "ACC/AHA 2025, SCA: prevenção secundária e metas lipídicas",
+  "coment": "A prevenção secundária pós-infarto é um pacote: dupla antiagregação por 12 meses, estatina de alta potência com meta de LDL abaixo de 55 mg/dL, betabloqueador, bloqueio do sistema renina-angiotensina, reforçado pela fração de ejeção reduzida e pelo diabetes, cessação do tabagismo e reabilitação cardiovascular, que reduz mortalidade e reinternação. O LDL de 96 mg/dL está acima da meta e exige intensificação.",
   "porAlt": [
    "Correta: é o conjunto completo, e a reabilitação faz parte dele.",
    "Antiagregação simples logo após stent expõe a trombose do dispositivo.",
@@ -21902,7 +21902,7 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r2",
   "base": "World Falls Guidelines, 2022; AGS Beers Criteria, 2023",
-  "coment": "Fármacos que aumentam o risco de queda — benzodiazepínicos, antipsicóticos, antidepressivos, anti-hipertensivos com hipotensão postural, hipoglicemiantes com risco de hipoglicemia, opioides e anticolinérgicos — são alvo prioritário na prevenção. A desprescrição é gradual e priorizada, um fármaco por vez, associada à intervenção com melhor evidência: exercício estruturado com componentes de força e equilíbrio, além de adequação do ambiente, visão e calçado.",
+  "coment": "Fármacos que aumentam o risco de queda (benzodiazepínicos, antipsicóticos, antidepressivos, anti-hipertensivos com hipotensão postural, hipoglicemiantes com risco de hipoglicemia, opioides e anticolinérgicos) são alvo prioritário na prevenção. A desprescrição é gradual e priorizada, um fármaco por vez, associada à intervenção com melhor evidência: exercício estruturado com componentes de força e equilíbrio, além de adequação do ambiente, visão e calçado.",
   "porAlt": [
    "Manter os fármacos e restringir a marcha agrava a sarcopenia e aumenta o risco de novas quedas.",
    "A cadeira de rodas acelera o descondicionamento e retira a mobilidade ainda preservada do idoso.",
@@ -21949,7 +21949,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ESC 2015 — doenças do pericárdio: síndrome pós-lesão cardíaca",
+  "base": "ESC 2015, doenças do pericárdio: síndrome pós-lesão cardíaca",
   "coment": "A pericardite tardia pós-infarto, ou síndrome de Dressler, aparece entre uma e várias semanas após o evento, é imunomediada e traz febre, dor pericárdica, atrito e elevação de provas inflamatórias. O tratamento é ácido acetilsalicílico em dose alta com colchicina; anti-inflamatórios não esteroidais e corticoide são evitados por interferirem na cicatrização do miocárdio infartado.",
   "porAlt": [
    "Correta: quadro e tempo típicos, com o esquema que respeita a cicatrização.",
@@ -21973,8 +21973,8 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA/ATS 2019 — pneumonia adquirida na comunidade: duração do tratamento",
-  "coment": "Na pneumonia comunitária com boa resposta clínica, sete dias são suficientes — cursos mais longos não melhoram desfecho e aumentam resistência e efeitos adversos. A imagem melhora semanas depois da cura clínica e não deve guiar a duração. A procalcitonina em queda reforça a suspensão; não é preciso esperar zerar.",
+  "base": "IDSA/ATS 2019 (pneumonia adquirida na comunidade: duração do tratamento",
+  "coment": "Na pneumonia comunitária com boa resposta clínica, sete dias são suficientes) cursos mais longos não melhoram desfecho e aumentam resistência e efeitos adversos. A imagem melhora semanas depois da cura clínica e não deve guiar a duração. A procalcitonina em queda reforça a suspensão; não é preciso esperar zerar.",
   "porAlt": [
    "Correta: sete dias com boa resposta clínica são suficientes.",
    "Bacteremia pneumocócica com boa resposta não exige 21 dias.",
@@ -21997,7 +21997,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "ACG/AGA Clinical Guideline on gastrointestinal evaluation of iron deficiency anemia, 2020 com revisão 2023; INCA — rastreamento do câncer colorretal, 2023",
+  "base": "ACG/AGA Clinical Guideline on gastrointestinal evaluation of iron deficiency anemia, 2020 com revisão 2023; INCA, rastreamento do câncer colorretal, 2023",
   "coment": "Anemia ferropriva com sangue oculto positivo em homem ou em mulher pós-menopausa é câncer colorretal até prova em contrário e exige investigação endoscópica do trato digestivo, habitualmente colonoscopia e, quando esta é normal, endoscopia digestiva alta na mesma avaliação. Repor ferro sem investigar mascara a anemia enquanto a neoplasia progride, sendo um dos erros que mais atrasam o diagnóstico de tumores potencialmente curáveis nessa faixa etária.",
   "porAlt": [
    "Repor ferro sem investigar mascara a anemia enquanto a neoplasia progride sem diagnóstico.",
@@ -22021,8 +22021,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "SBC 2025 — hipertensão: estágio 1 de risco baixo e tratamento não farmacológico",
-  "coment": "Hipertensão estágio 1 confirmada por MAPA, em paciente de risco cardiovascular baixo e sem lesão de órgão-alvo, permite começar por mudança de estilo de vida com reavaliação em três meses — restrição de sódio, dieta DASH, atividade física, controle do peso e do álcool. Persistindo acima da meta, inicia-se farmacoterapia.",
+  "base": "SBC 2025, hipertensão: estágio 1 de risco baixo e tratamento não farmacológico",
+  "coment": "Hipertensão estágio 1 confirmada por MAPA, em paciente de risco cardiovascular baixo e sem lesão de órgão-alvo, permite começar por mudança de estilo de vida com reavaliação em três meses. Restrição de sódio, dieta DASH, atividade física, controle do peso e do álcool. Persistindo acima da meta, inicia-se farmacoterapia.",
   "porAlt": [
    "Correta: risco baixo e estágio 1 autorizam a tentativa não farmacológica.",
    "A associação de dois fármacos é o início no estágio 2 ou no risco alto.",
@@ -22118,7 +22118,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r2",
   "base": "WSES guidelines on small bowel obstruction, revisão 2023; ACS guidance on acute abdomen, 2023",
-  "coment": "Parada de eliminação de gases e fezes com distensão e ruídos aumentados sugere obstrução intestinal mecânica. A conduta inclui jejum, sonda nasogástrica para descompressão, reposição volêmica e correção eletrolítica, e imagem — tomografia de abdome com contraste é o exame de escolha, definindo o nível, a causa e sinais de sofrimento de alça. Sinais de estrangulamento, peritonite ou falha do tratamento conservador indicam abordagem cirúrgica.",
+  "coment": "Parada de eliminação de gases e fezes com distensão e ruídos aumentados sugere obstrução intestinal mecânica. A conduta inclui jejum, sonda nasogástrica para descompressão, reposição volêmica e correção eletrolítica, e imagem. Tomografia de abdome com contraste é o exame de escolha, definindo o nível, a causa e sinais de sofrimento de alça. Sinais de estrangulamento, peritonite ou falha do tratamento conservador indicam abordagem cirúrgica.",
   "porAlt": [
    "O laxante estimulante em obstrução mecânica agrava a dor e pode precipitar perfuração intestinal.",
    "Liberar sem investigar arrisca estrangulamento de alça, isquemia e perfuração com peritonite.",
@@ -22142,7 +22142,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "ESC Guidelines for the management of atrial fibrillation (AF-CARE), 2024; ACC/AHA/ACCP/HRS atrial fibrillation guideline, 2023",
-  "coment": "Fibrilação atrial associada a estenose mitral moderada a grave (ou a prótese valvar mecânica) é a chamada FA valvar, e nela a anticoagulação é feita com antagonista da vitamina K — varfarina com INR alvo entre 2 e 3 —, não com anticoagulante oral direto. Os ensaios que aprovaram os DOACs excluíram esse grupo, e o estudo INVICTUS, que testou rivaroxabana contra varfarina justamente em doença reumática mitral, mostrou desfecho pior com o DOAC. A paciente ainda soma um evento cerebrovascular prévio, o que torna a anticoagulação plena obrigatória.",
+  "coment": "Fibrilação atrial associada a estenose mitral moderada a grave (ou a prótese valvar mecânica) é a chamada FA valvar, e nela a anticoagulação é feita com antagonista da vitamina K, varfarina com INR alvo entre 2 e 3, não com anticoagulante oral direto. Os ensaios que aprovaram os DOACs excluíram esse grupo, e o estudo INVICTUS, que testou rivaroxabana contra varfarina justamente em doença reumática mitral, mostrou desfecho pior com o DOAC. A paciente ainda soma um evento cerebrovascular prévio, o que torna a anticoagulação plena obrigatória.",
   "porAlt": [
    "A rivaroxabana é anticoagulante oral direto, e o INVICTUS mostrou desfecho cardiovascular pior que a varfarina na doença mitral reumática.",
    "Antiagregação com aspirina não previne cardioembolia na fibrilação atrial e foi abandonada como alternativa à anticoagulação.",
@@ -22169,10 +22169,10 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025; ESC guidelines for the management of elevated blood pressure and hypertension, 2024",
+  "base": "Diretriz Brasileira de Hipertensão Arterial: SBC/SBH/SBN, 2025; ESC guidelines for the management of elevated blood pressure and hypertension, 2024",
   "coment": "A combinação de edema agudo de pulmão hipertensivo súbito (flash pulmonary edema), hipertensão que se torna refratária, lesão renal aguda desencadeada por bloqueador do receptor de angiotensina e sopro abdominal aponta para estenose de artéria renal aterosclerótica. A queda da filtração após bloqueio do sistema renina-angiotensina ocorre porque a angiotensina II mantinha a pressão de filtração no glomérulo pós-estenótico. O paciente tem aterosclerose difusa documentada nas carótidas, o que reforça a etiologia; o rastreio se faz com dúplex de artérias renais, angiotomografia ou angiorressonância.",
   "porAlt": [
-   "Correta: estenose de artéria renal — edema pulmonar súbito, hipertensão refratária, lesão renal após BRA e sopro abdominal em paciente com aterosclerose difusa.",
+   "Correta: estenose de artéria renal. Edema pulmonar súbito, hipertensão refratária, lesão renal após BRA e sopro abdominal em paciente com aterosclerose difusa.",
    "A doença de Kawasaki é vasculite da infância com acometimento coronariano, incompatível com esta apresentação.",
    "A arterite de Takayasu acomete tipicamente mulheres jovens, com claudicação de membros, assimetria de pulsos e sopros em grandes vasos.",
    "O hiperaldosteronismo primário cursa com hipertensão e hipocalemia, mas não explica a queda da função renal após o bloqueador nem o sopro abdominal.",
@@ -22197,11 +22197,11 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, botulismo, 2024; CDC clinical guidelines for botulism, 2021",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, botulismo, 2024; CDC clinical guidelines for botulism, 2021",
   "coment": "O quadro é de botulismo: pródromo gastrointestinal seguido de acometimento de pares cranianos (ptose, diplopia, disfagia, disartria, visão turva) e paralisia flácida simétrica e descendente, com disautonomia (boca seca, retenção urinária, hipotensão sem taquicardia compensatória), sensibilidade preservada e nível de consciência mantido durante toda a evolução. A insuficiência respiratória é a causa de morte, e a conduta é suporte ventilatório precoce, antitoxina botulínica o mais cedo possível e notificação imediata, por se tratar de agravo de vigilância e de possível surto alimentar.",
   "porAlt": [
    "A meningite bacteriana cursa com febre, rigidez de nuca e rebaixamento de consciência, ausentes neste caso.",
-   "Correta: botulismo — paralisia flácida descendente com pares cranianos, disautonomia e consciência preservada após pródromo gastrointestinal.",
+   "Correta: botulismo. Paralisia flácida descendente com pares cranianos, disautonomia e consciência preservada após pródromo gastrointestinal.",
    "A síndrome de Guillain-Barré causa paralisia tipicamente ascendente com arreflexia, frequentemente com parestesias, e sem a disautonomia colinérgica de boca seca, midríase e retenção que marca o botulismo.",
    "A doença de Lyme cursa com eritema migratório, artrite e paralisia facial, e não com paralisia descendente aguda.",
    "Na raiva há encefalite com agitação, hidrofobia e alteração do nível de consciência, o que não ocorreu aqui."
@@ -22225,13 +22225,13 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, leptospirose, 2024; OPAS/OMS, diretrizes de leptospirose humana",
-  "coment": "A tríade de icterícia rubínica, lesão renal aguda e hemorragia pulmonar define a síndrome de Weil, forma grave da leptospirose. Reforçam o diagnóstico a mialgia intensa em panturrilhas, a hemorragia conjuntival, a elevação de CPK, a plaquetopenia e a lesão renal com perda de capacidade de concentração urinária, que caracteristicamente cursa com hipocalemia. O tratamento da forma grave é penicilina cristalina ou ceftriaxona, iniciado sem aguardar sorologia, associado a suporte intensivo, diálise precoce e ventilação protetora — a hemorragia alveolar é a principal causa de óbito.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, leptospirose, 2024; OPAS/OMS, diretrizes de leptospirose humana",
+  "coment": "A tríade de icterícia rubínica, lesão renal aguda e hemorragia pulmonar define a síndrome de Weil, forma grave da leptospirose. Reforçam o diagnóstico a mialgia intensa em panturrilhas, a hemorragia conjuntival, a elevação de CPK, a plaquetopenia e a lesão renal com perda de capacidade de concentração urinária, que caracteristicamente cursa com hipocalemia. O tratamento da forma grave é penicilina cristalina ou ceftriaxona, iniciado sem aguardar sorologia, associado a suporte intensivo, diálise precoce e ventilação protetora. A hemorragia alveolar é a principal causa de óbito.",
   "porAlt": [
    "A febre maculosa cursa com exantema que se inicia em punhos e tornozelos e evolui para palmas e plantas, e o tratamento é doxiciclina imediata.",
    "A endocardite infecciosa cursa com febre arrastada, sopro novo e fenômenos embólicos, sem essa evolução hepatorrenal e pulmonar em dias.",
    "A dengue grave cursa com extravasamento plasmático e choque no período crítico, sem a icterícia rubínica e a lesão renal com hipocalemia descritas.",
-   "Correta: leptospirose com síndrome de Weil — icterícia rubínica, lesão renal aguda e hemorragia pulmonar após quadro febril com mialgia em panturrilhas.",
+   "Correta: leptospirose com síndrome de Weil. Icterícia rubínica, lesão renal aguda e hemorragia pulmonar após quadro febril com mialgia em panturrilhas.",
    "Infecção urinária não explica icterícia, hemorragia pulmonar e mialgia de panturrilhas."
   ],
   "fonte": {
@@ -22254,10 +22254,10 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r1",
   "base": "Global Initiative for Asthma (GINA), 2026; Diretrizes da Sociedade Brasileira de Pneumologia e Tisiologia para manejo da asma, 2020",
-  "coment": "Sintomas respiratórios variáveis — tosse seca, chiado e dispneia — com piora noturna e desencadeados por exposição a irritante, em adulta jovem com sibilos difusos à ausculta e sem febre ou perda de peso, configuram o padrão clínico da asma. O diagnóstico é confirmado pela demonstração de limitação variável ao fluxo aéreo, idealmente pela espirometria com prova broncodilatadora. Afastar o tabagismo passivo faz parte do tratamento, e a asma leve não deve ser tratada apenas com broncodilatador de resgate isolado, e sim com esquema contendo corticoide inalatório.",
+  "coment": "Sintomas respiratórios variáveis (tosse seca, chiado e dispneia) com piora noturna e desencadeados por exposição a irritante, em adulta jovem com sibilos difusos à ausculta e sem febre ou perda de peso, configuram o padrão clínico da asma. O diagnóstico é confirmado pela demonstração de limitação variável ao fluxo aéreo, idealmente pela espirometria com prova broncodilatadora. Afastar o tabagismo passivo faz parte do tratamento, e a asma leve não deve ser tratada apenas com broncodilatador de resgate isolado, e sim com esquema contendo corticoide inalatório.",
   "porAlt": [
    "A rinossinusite cursa com obstrução nasal, secreção e dor facial, e a mucosa nasal está descrita como normal.",
-   "Correta: asma — sintomas variáveis com piora noturna, gatilho irritante e sibilos difusos, sem febre nem perda ponderal.",
+   "Correta: asma. Sintomas variáveis com piora noturna, gatilho irritante e sibilos difusos, sem febre nem perda ponderal.",
    "A DPOC exige exposição cumulativa relevante e ocorre em faixa etária mais avançada, com obstrução persistente e pouco reversível.",
    "A tuberculose cursa tipicamente com tosse por três semanas ou mais, febre vespertina, sudorese noturna e perda de peso, ausentes aqui.",
    "A pneumonia adquirida na comunidade cursa com febre e achados focais de consolidação, não com sibilância difusa sem febre."
@@ -22281,7 +22281,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025",
+  "base": "Diretriz Brasileira de Hipertensão Arterial, SBC/SBH/SBN, 2025",
   "coment": "O diagnóstico de hipertensão arterial exige pressão igual ou superior a 140 por 90 mmHg em pelo menos duas ocasiões distintas, com técnica adequada, ou confirmação por monitorização ambulatorial ou residencial. O paciente traz cinco aferições registradas ao longo do último ano, todas acima do limiar, o que já satisfaz o critério e dispensa nova confirmação. Sedentarismo e história familiar são fatores de risco que aumentam a probabilidade da doença, mas não fazem diagnóstico, assim como uma única medida isolada em pronto atendimento não o faz.",
   "porAlt": [
    "Uma medida isolada em atendimento de urgência, muitas vezes em contexto de dor ou ansiedade, não estabelece o diagnóstico.",
@@ -22296,7 +22296,7 @@ window.BANCO=[
   }
  },
  {
-  "q": "Uma paciente de 62 anos de idade foi encaminhada ao ambulatório de nefrologia de um hospital universitário para ajuste no tratamento anti-hipertensivo, em razão de suposta nefropatia hipertensiva estágio 3. A paciente tem hipertensão arterial sistêmica (HAS) há longa data e faz tratamento com hidroclorotiazida 25 mg/dia e anlodipino 10 mg duas vezes ao dia. Recentemente, seus exames de sangue revelaram pequena retenção de escórias nitrogenadas, sendo o cálculo estimado da taxa de filtração glomerular de 54 ml/min/1,73 m². Exame urinário revelou a presença de microalbuminúria (120 mg/g de creatinina em amostra isolada de urina; valor de referência: 30 mg/g de creatinina na urina). No exame físico, os níveis tensionais se encontravam em 150 x 90 mmHg no membro superior (MS) direito e em 148 x 92 mmHg no MS esquerdo. Considerando-se o risco cardiovascular da paciente, os níveis tensionais observados na consulta e a presença de dano renal crônico em estágio 3 (da classificação KDIGO — do inglês Kidney Disease: Improving Global Outcomes), em relação ao esquema terapêutico em curso, a conduta correta seria",
+  "q": "Uma paciente de 62 anos de idade foi encaminhada ao ambulatório de nefrologia de um hospital universitário para ajuste no tratamento anti-hipertensivo, em razão de suposta nefropatia hipertensiva estágio 3. A paciente tem hipertensão arterial sistêmica (HAS) há longa data e faz tratamento com hidroclorotiazida 25 mg/dia e anlodipino 10 mg duas vezes ao dia. Recentemente, seus exames de sangue revelaram pequena retenção de escórias nitrogenadas, sendo o cálculo estimado da taxa de filtração glomerular de 54 ml/min/1,73 m². Exame urinário revelou a presença de microalbuminúria (120 mg/g de creatinina em amostra isolada de urina; valor de referência: 30 mg/g de creatinina na urina). No exame físico, os níveis tensionais se encontravam em 150 x 90 mmHg no membro superior (MS) direito e em 148 x 92 mmHg no MS esquerdo. Considerando-se o risco cardiovascular da paciente, os níveis tensionais observados na consulta e a presença de dano renal crônico em estágio 3 (da classificação KDIGO, do inglês Kidney Disease: Improving Global Outcomes), em relação ao esquema terapêutico em curso, a conduta correta seria",
   "alts": [
    "adicionar inibidor da enzima conversora ou bloqueador do receptor de angiotensina II",
    "trocar a hidroclorotiazida por diurético de alça e aumentar a dose do bloqueador de canal de cálcio",
@@ -22308,7 +22308,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease; Diretriz Brasileira de Hipertensão Arterial — SBC, 2025",
+  "base": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease; Diretriz Brasileira de Hipertensão Arterial, SBC, 2025",
   "coment": "Em doença renal crônica com albuminúria e pressão acima da meta, o bloqueio do sistema renina-angiotensina com inibidor da enzima conversora ou bloqueador do receptor de angiotensina é o pilar do tratamento: além do efeito anti-hipertensivo, reduz a albuminúria e retarda a progressão da doença renal. Espera-se elevação da creatinina de até 30% após o início, que não motiva suspensão, com controle de potássio e função renal em uma a duas semanas. A associação a inibidor de SGLT2 é hoje recomendada nesse mesmo perfil por reduzir desfechos renais e cardiovasculares.",
   "porAlt": [
    "Correta: acrescentar bloqueador do sistema renina-angiotensina, que reduz pressão, albuminúria e progressão da doença renal.",
@@ -22334,8 +22334,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose — SBC, 2017 e atualizações; ESC/EAS Guidelines for the management of dyslipidaemias, 2019",
-  "coment": "A queixa de mialgia difusa surgida duas semanas após a introdução de um fármaco em paciente hipertenso com exames alterados aponta para sintoma muscular associado a estatina, prescrita por dislipidemia. A conduta é dosar creatinoquinase, afastar rabdomiólise, revisar interações medicamentosas e causas que aumentam o risco — hipotireoidismo, doença renal, uso de fibrato — e, em geral, suspender temporariamente, reintroduzindo em dose menor, em dias alternados ou com outra estatina. Suspender definitivamente sem tentativa de reintrodução priva o paciente de redução de risco cardiovascular.",
+  "base": "Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose: SBC, 2017 e atualizações; ESC/EAS Guidelines for the management of dyslipidaemias, 2019",
+  "coment": "A queixa de mialgia difusa surgida duas semanas após a introdução de um fármaco em paciente hipertenso com exames alterados aponta para sintoma muscular associado a estatina, prescrita por dislipidemia. A conduta é dosar creatinoquinase, afastar rabdomiólise, revisar interações medicamentosas e causas que aumentam o risco (hipotireoidismo, doença renal, uso de fibrato) e, em geral, suspender temporariamente, reintroduzindo em dose menor, em dias alternados ou com outra estatina. Suspender definitivamente sem tentativa de reintrodução priva o paciente de redução de risco cardiovascular.",
   "porAlt": [
    "A obesidade não motiva prescrição de fármaco que cause mialgia nesse contexto.",
    "Correta: a dislipidemia justifica a prescrição de estatina, cujo efeito adverso mais frequente é o sintoma muscular.",
@@ -22361,7 +22361,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases",
-  "coment": "O quadro reúne os quatro elementos da síndrome nefrótica — proteinúria acima de 3,5 g em 24 horas, hipoalbuminemia, edema e dislipidemia — em paciente com adenocarcinoma recém-diagnosticado. Em adultos com neoplasia sólida, a glomerulopatia paraneoplásica mais associada é a nefropatia membranosa, e nessa forma secundária o anticorpo anti-PLA2R costuma ser negativo, ao contrário da forma primária. O tratamento da neoplasia frequentemente melhora a proteinúria, e o manejo de suporte inclui bloqueio do sistema renina-angiotensina, restrição de sódio e atenção ao risco trombótico elevado.",
+  "coment": "O quadro reúne os quatro elementos da síndrome nefrótica (proteinúria acima de 3,5 g em 24 horas, hipoalbuminemia, edema e dislipidemia) em paciente com adenocarcinoma recém-diagnosticado. Em adultos com neoplasia sólida, a glomerulopatia paraneoplásica mais associada é a nefropatia membranosa, e nessa forma secundária o anticorpo anti-PLA2R costuma ser negativo, ao contrário da forma primária. O tratamento da neoplasia frequentemente melhora a proteinúria, e o manejo de suporte inclui bloqueio do sistema renina-angiotensina, restrição de sódio e atenção ao risco trombótico elevado.",
   "porAlt": [
    "Hipertensão portal por metástase hepática causaria ascite com albumina baixa, mas não proteinúria maciça nem urina espumosa.",
    "Angioedema é súbito, localizado e sem proteinúria.",
@@ -22387,7 +22387,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r1",
   "base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019 e atualizações; Diretrizes da Sociedade Brasileira de Doenças Cerebrovasculares, 2023",
-  "coment": "Trata-se de acidente vascular cerebral isquêmico com déficit instalado há cerca de duas horas e tomografia sem hemorragia, dentro da janela de 4,5 horas para trombólise endovenosa com alteplase. Nenhum dado do caso configura contraindicação: a pressão de 160 por 100 mmHg está abaixo do teto de 185 por 110 mmHg, e a hiperglicemia contraindica apenas quando há hipoglicemia abaixo de 50 mg/dL, que não é o caso. Cardiopatia embólica por fibrilação atrial é a etiologia provável, mas a anticoagulação é decisão posterior — o que muda o prognóstico funcional agora é reperfundir.",
+  "coment": "Trata-se de acidente vascular cerebral isquêmico com déficit instalado há cerca de duas horas e tomografia sem hemorragia, dentro da janela de 4,5 horas para trombólise endovenosa com alteplase. Nenhum dado do caso configura contraindicação: a pressão de 160 por 100 mmHg está abaixo do teto de 185 por 110 mmHg, e a hiperglicemia contraindica apenas quando há hipoglicemia abaixo de 50 mg/dL, que não é o caso. Cardiopatia embólica por fibrilação atrial é a etiologia provável, mas a anticoagulação é decisão posterior, o que muda o prognóstico funcional agora é reperfundir.",
   "porAlt": [
    "Cardioversão química na fase aguda do acidente vascular cerebral não é indicada e traz risco embólico adicional.",
    "Correta: trombólise endovenosa com alteplase, com déficit de duas horas e tomografia sem hemorragia.",
@@ -22412,13 +22412,13 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde/INCA — Diretrizes para a detecção precoce do câncer de próstata, 2023; USPSTF prostate cancer screening statement, 2018",
-  "coment": "O Ministério da Saúde e o INCA não recomendam o rastreamento populacional de câncer de próstata com PSA ou toque retal, por não haver evidência de que o benefício supere os danos — sobrediagnóstico, biópsias desnecessárias, incontinência e disfunção erétil. Além disso, rastreamento só faz sentido em quem tem expectativa de vida suficiente para se beneficiar, em geral acima de dez anos, o que não é o caso de um paciente de 83 anos com cardiopatia grave. A conduta correta é não rastrear e concentrar o cuidado no controle dos fatores de risco e na qualidade de vida.",
+  "base": "Ministério da Saúde/INCA. Diretrizes para a detecção precoce do câncer de próstata, 2023; USPSTF prostate cancer screening statement, 2018",
+  "coment": "O Ministério da Saúde e o INCA não recomendam o rastreamento populacional de câncer de próstata com PSA ou toque retal, por não haver evidência de que o benefício supere os danos. Sobrediagnóstico, biópsias desnecessárias, incontinência e disfunção erétil. Além disso, rastreamento só faz sentido em quem tem expectativa de vida suficiente para se beneficiar, em geral acima de dez anos, o que não é o caso de um paciente de 83 anos com cardiopatia grave. A conduta correta é não rastrear e concentrar o cuidado no controle dos fatores de risco e na qualidade de vida.",
   "porAlt": [
    "A ultrassonografia transretal não é exame de rastreamento, e sim de apoio à biópsia.",
    "Toque retal e PSA constituem justamente o rastreamento que o Ministério da Saúde não recomenda.",
    "PSA isolado tem os mesmos problemas de sobrediagnóstico e não está indicado como rastreio.",
-   "Correta: não indicar rastreamento — não é recomendado pelo Ministério da Saúde e a expectativa de vida do paciente não comporta benefício."
+   "Correta: não indicar rastreamento. Não é recomendado pelo Ministério da Saúde e a expectativa de vida do paciente não comporta benefício."
   ],
   "fonte": {
    "banca": "Revalida (INEP/MEC)",
@@ -22438,7 +22438,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025; Diretriz da SBC sobre síndromes coronarianas agudas, 2021",
+  "base": "Diretriz Brasileira de Hipertensão Arterial: SBC/SBH/SBN, 2025; Diretriz da SBC sobre síndromes coronarianas agudas, 2021",
   "coment": "Pressão muito elevada acompanhada de dor torácica, dispneia e alteração do nível de consciência não é urgência hipertensiva assintomática, e sim emergência hipertensiva com suspeita de síndrome coronariana aguda em curso. Na unidade básica, a conduta é monitorizar, obter eletrocardiograma se disponível, administrar ácido acetilsalicílico e acionar transporte imediato para serviço com capacidade de reperfusão. Reduzir a pressão de forma ambulatorial ou aguardar melhora na sala de observação retarda o tratamento do evento que ameaça a vida.",
   "porAlt": [
    "Reduzir a pressão em 24 a 48 horas com seguimento ambulatorial é a conduta da urgência hipertensiva sem lesão de órgão-alvo, o oposto deste caso.",
@@ -22464,7 +22464,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ATS/IDSA Clinical Practice Guideline — Community-acquired Pneumonia in Adults, 2019; Diretrizes brasileiras para pneumonia adquirida na comunidade — SBPT, 2018",
+  "base": "ATS/IDSA Clinical Practice Guideline (Community-acquired Pneumonia in Adults, 2019; Diretrizes brasileiras para pneumonia adquirida na comunidade) SBPT, 2018",
   "coment": "Trata-se de pneumonia adquirida na comunidade em paciente com comorbidades (hipertensão e diabetes), porém sem critérios de gravidade: está lúcido, com frequência respiratória de 20, pressão preservada e saturação de 96%, o que corresponde a CURB-65 zero e permite tratamento ambulatorial. Na presença de comorbidade, o esquema oral recomendado é betalactâmico com inibidor de betalactamase associado a macrolídeo, ou uma quinolona respiratória isolada. Monoterapia com macrolídeo é reservada a paciente previamente hígido em região com baixa resistência do pneumococo.",
   "porAlt": [
    "Azitromicina isolada é opção apenas para paciente sem comorbidades, pela resistência do pneumococo aos macrolídeos.",
@@ -22491,8 +22491,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, guidelines on advanced HIV disease",
-  "coment": "Piora clínica com febre, linfadenomegalia com necrose central e fistulização, infiltrado reticulonodular e espessamento ileal cerca de um mês após o início da terapia antirretroviral em paciente com CD4 muito baixo caracteriza síndrome inflamatória de reconstituição imune, quase sempre desmascarando tuberculose ou micobacteriose. A conduta é manter a terapia antirretroviral — suspendê-la agrava a imunossupressão e a mortalidade —, investigar e tratar a infecção subjacente e associar corticoide, que reduz sintomas e necessidade de internação na reconstituição associada a tuberculose.",
+  "base": "Ministério da Saúde. PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, guidelines on advanced HIV disease",
+  "coment": "Piora clínica com febre, linfadenomegalia com necrose central e fistulização, infiltrado reticulonodular e espessamento ileal cerca de um mês após o início da terapia antirretroviral em paciente com CD4 muito baixo caracteriza síndrome inflamatória de reconstituição imune, quase sempre desmascarando tuberculose ou micobacteriose. A conduta é manter a terapia antirretroviral, suspendê-la agrava a imunossupressão e a mortalidade, investigar e tratar a infecção subjacente e associar corticoide, que reduz sintomas e necessidade de internação na reconstituição associada a tuberculose.",
   "porAlt": [
    "Suspender a terapia antirretroviral em doença avançada aumenta a mortalidade e não resolve a reação inflamatória.",
    "Linfoma é diferencial, mas o contexto temporal e o padrão necrótico apontam para reconstituição imune com micobactéria; a biópsia não muda a conduta imediata.",
@@ -22519,7 +22519,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA/CDC — Guidelines for Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV, 2024; Ministério da Saúde, Manual de precauções e isolamento hospitalar, 2022",
+  "base": "IDSA/CDC. Guidelines for Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV, 2024; Ministério da Saúde, Manual de precauções e isolamento hospitalar, 2022",
   "coment": "Herpes-zóster em paciente gravemente imunossuprimido por pulsoterapia com corticoide e ciclofosfamida, acometendo o ramo oftálmico, tem risco elevado de disseminação cutânea e visceral e de complicação ocular. A conduta é internar, iniciar aciclovir por via parenteral e manter precaução de contato somada à precaução respiratória para aerossóis enquanto houver risco de disseminação, porque o zóster disseminado transmite varicela. O acometimento do ramo oftálmico exige ainda avaliação oftalmológica pelo risco de ceratite e uveíte.",
   "porAlt": [
    "Aciclovir oral domiciliar é insuficiente em imunossupressão grave com acometimento oftálmico e risco de disseminação.",
@@ -22553,7 +22553,7 @@ window.BANCO=[
    "A hemocromatose cursa com sobrecarga de ferro, diabetes e hiperpigmentação, sem parkinsonismo em jovem.",
    "A hepatite autoimune não explica o quadro neurológico extrapiramidal nem responde a quelação de cobre.",
    "A colangite esclerosante primária cursa com colestase e associação com doença inflamatória intestinal.",
-   "Correta: doença de Wilson — hepatopatia, hemólise com Coombs negativo e disfunção dos gânglios da base, tratada com quelação e zinco.",
+   "Correta: doença de Wilson. Hepatopatia, hemólise com Coombs negativo e disfunção dos gânglios da base, tratada com quelação e zinco.",
    "A síndrome de Budd-Chiari é obstrução do fluxo venoso hepático, com ascite e hepatomegalia dolorosa, sem manifestação neurológica."
   ],
   "fonte": {
@@ -22578,7 +22578,7 @@ window.BANCO=[
   "base": "ASAS/EULAR recommendations for the management of axial spondyloarthritis, 2022; Sociedade Brasileira de Reumatologia, consenso de espondiloartrites",
   "coment": "Lombalgia e dor sacroilíaca com mais de três meses em paciente jovem, com rigidez matinal que melhora com exercício, dor que desperta na segunda metade da noite e redução da expansibilidade torácica constituem o padrão de dor lombar inflamatória da espondiloartrite axial, cujo protótipo é a espondilite anquilosante. A investigação inclui radiografia de sacroilíacas, ressonância quando a radiografia é normal, proteína C reativa e HLA-B27. O tratamento começa com exercício e anti-inflamatório, escalonando para imunobiológico anti-TNF ou anti-IL-17 na doença ativa persistente.",
   "porAlt": [
-   "Correta: espondilite anquilosante — dor lombar inflamatória crônica em jovem, com rigidez que melhora ao exercício e redução da expansibilidade torácica.",
+   "Correta: espondilite anquilosante. Dor lombar inflamatória crônica em jovem, com rigidez que melhora ao exercício e redução da expansibilidade torácica.",
    "A artrite reumatoide acomete predominantemente pequenas articulações periféricas de forma simétrica e poupa o esqueleto axial.",
    "A esclerose sistêmica cursa com fenômeno de Raynaud, espessamento cutâneo e acometimento visceral.",
    "A doença de Crohn pode associar-se a espondiloartrite, mas exige manifestação intestinal, ausente no enunciado.",
@@ -22604,7 +22604,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r3",
   "base": "EASL Clinical Practice Guidelines on porphyrias, 2022; Ministério da Saúde, PCDT de hepatite C, 2024",
-  "coment": "A porfiria cutânea tardia é a porfiria mais comum e a única em que o tratamento consiste em flebotomias seriadas e hidroxicloroquina em dose baixa, associadas à eliminação dos fatores desencadeantes — hepatite C, álcool, estrogênio, sobrecarga de ferro e HIV. Manifesta-se por fragilidade cutânea, bolhas e cicatrizes em áreas fotoexpostas, sobretudo no dorso das mãos, com hipertricose malar. O tratamento da hepatite C com antivirais de ação direta melhora a porfiria, o que confirma o vínculo etiológico neste caso.",
+  "coment": "A porfiria cutânea tardia é a porfiria mais comum e a única em que o tratamento consiste em flebotomias seriadas e hidroxicloroquina em dose baixa, associadas à eliminação dos fatores desencadeantes. Hepatite C, álcool, estrogênio, sobrecarga de ferro e HIV. Manifesta-se por fragilidade cutânea, bolhas e cicatrizes em áreas fotoexpostas, sobretudo no dorso das mãos, com hipertricose malar. O tratamento da hepatite C com antivirais de ação direta melhora a porfiria, o que confirma o vínculo etiológico neste caso.",
   "porAlt": [
    "A porfiria aguda intermitente cursa com crises de dor abdominal e manifestação neuropsiquiátrica, sem lesão cutânea, e o tratamento é hemina e glicose.",
    "A protoporfiria eritropoiética causa dor e queimação imediata à exposição solar, iniciando na infância.",
@@ -22631,7 +22631,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, leptospirose, 2024; KDIGO, lesão renal aguda",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, leptospirose, 2024; KDIGO, lesão renal aguda",
   "coment": "A lesão renal da leptospirose é uma nefrite tubulointersticial aguda, com acometimento predominante do túbulo, o que explica dois achados típicos e cobrados: a poliúria com incapacidade de concentrar a urina e a hipocalemia, incomum em outras causas de lesão renal aguda, em que a tendência é reter potássio. A gravidade renal se soma à icterícia e à hemorragia pulmonar na síndrome de Weil, e o tratamento inclui antibiótico precoce, correção volêmica cuidadosa e diálise indicada de forma precoce.",
   "porAlt": [
    "A necrose tubular aguda é o padrão da lesão isquêmica ou tóxica clássica, e não o achado característico da leptospirose.",
@@ -22659,7 +22659,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Hepatite C e Coinfecções, 2024; EASL recommendations on treatment of hepatitis C",
+  "base": "Ministério da Saúde. PCDT para Hepatite C e Coinfecções, 2024; EASL recommendations on treatment of hepatitis C",
   "coment": "No retratamento da hepatite C após falha a antiviral de ação direta, o protocolo do Ministério da Saúde indica esquema que combine inibidor de protease com inibidor de NS5A e sofosbuvir, ou seja, sofosbuvir associado a glecaprevir/pibrentasvir, por 12 semanas em cirrose compensada Child-Pugh A. Repetir esquema semelhante ao que falhou tende a esbarrar em variantes de resistência. Inibidores de protease são contraindicados na cirrose descompensada Child-Pugh B ou C, ponto que precisa ser checado antes da prescrição.",
   "porAlt": [
    "Correta: associação de sofosbuvir a glecaprevir/pibrentasvir por 12 semanas, esquema de resgate recomendado após falha a antiviral de ação direta.",
@@ -22687,12 +22687,12 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA — Diretrizes diagnósticas e terapêuticas do melanoma cutâneo, 2023; NCCN Guidelines for Cutaneous Melanoma",
-  "coment": "Lesão pigmentada de crescimento lento com bordas irregulares, coloração heterogênea, ulceração e linfonodo axilar palpável em área fotoexposta de trabalhador rural preenche os critérios de suspeição para melanoma. A conduta é biópsia excisional com margens estreitas para definir o índice de Breslow, seguida de ampliação de margens conforme a espessura e pesquisa do linfonodo sentinela — que, com linfonodo clinicamente palpável, dá lugar à confirmação por punção e ao esvaziamento quando positiva. Curetagem, eletrocoagulação e crioterapia destroem a lesão e impedem o estadiamento histológico.",
+  "base": "INCA. Diretrizes diagnósticas e terapêuticas do melanoma cutâneo, 2023; NCCN Guidelines for Cutaneous Melanoma",
+  "coment": "Lesão pigmentada de crescimento lento com bordas irregulares, coloração heterogênea, ulceração e linfonodo axilar palpável em área fotoexposta de trabalhador rural preenche os critérios de suspeição para melanoma. A conduta é biópsia excisional com margens estreitas para definir o índice de Breslow, seguida de ampliação de margens conforme a espessura e pesquisa do linfonodo sentinela. Que, com linfonodo clinicamente palpável, dá lugar à confirmação por punção e ao esvaziamento quando positiva. Curetagem, eletrocoagulação e crioterapia destroem a lesão e impedem o estadiamento histológico.",
   "porAlt": [
    "O carcinoma basocelular é perolado com telangiectasias e raramente dá linfonodo palpável.",
    "O queratoacantoma cresce em semanas e não se trata com antibiótico.",
-   "Correta: melanoma — excisão cirúrgica com margens e avaliação do linfonodo.",
+   "Correta: melanoma. Excisão cirúrgica com margens e avaliação do linfonodo.",
    "O dermatofibroma é nódulo firme e estável, e observar uma lesão ulcerada em crescimento perde o diagnóstico.",
    "Eletrocoagulação e curetagem destroem a peça e inviabilizam a medida do Breslow, mesmo se fosse carcinoma espinocelular."
   ],
@@ -22715,7 +22715,7 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis, 2020; ACG guideline on diverticular disease",
+  "base": "American Society of Colon and Rectal Surgeons. Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis, 2020; ACG guideline on diverticular disease",
   "coment": "Diverticulite aguda complicada por abscesso pericólico maior que 3 a 4 cm é tratada com antibioticoterapia intravenosa associada a drenagem percutânea guiada por imagem, estratégia que controla o foco, evita cirurgia de urgência e permite, quando indicada, uma ressecção eletiva posterior em melhores condições. Abscessos menores costumam responder apenas ao antibiótico. A cirurgia de urgência fica reservada à peritonite difusa, à perfuração livre e à falha do tratamento clínico e da drenagem.",
   "porAlt": [
    "Tratamento ambulatorial é inadequado diante de abscesso de 6 cm.",
@@ -22743,7 +22743,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Caderneta de Saúde da Pessoa Idosa e diretrizes de cuidados paliativos, 2023; ANCP, Manual de Cuidados Paliativos",
+  "base": "Ministério da Saúde. Caderneta de Saúde da Pessoa Idosa e diretrizes de cuidados paliativos, 2023; ANCP, Manual de Cuidados Paliativos",
   "coment": "Idoso com demência avançada, imobilidade grau IV e alta dependência corresponde ao perfil de fragilidade em que a meta do cuidado deixa de ser reabilitação ou controle metabólico rigoroso e passa a ser conforto, prevenção de complicações e qualidade de vida. Metas glicêmicas e pressóricas devem ser afrouxadas pelo risco de hipoglicemia, hipotensão e queda, e a desprescrição de fármacos sem benefício no horizonte de vida restante é parte do tratamento. Reconhecer esse paciente como candidato a cuidados paliativos é o que organiza todas as demais decisões.",
   "porAlt": [
    "Controle rigoroso de pressão e glicemia nesse perfil aumenta o risco de hipoglicemia, hipotensão e queda sem benefício.",
@@ -22771,7 +22771,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Diretriz da Sociedade Brasileira de Diabetes, 2024; American Diabetes Association — Standards of Care in Diabetes, 2025",
+  "base": "Diretriz da Sociedade Brasileira de Diabetes, 2024; American Diabetes Association, Standards of Care in Diabetes, 2025",
   "coment": "O diagnóstico de diabetes exige glicemia de jejum igual ou superior a 126 mg/dL, hemoglobina glicada igual ou superior a 6,5% ou glicemia de duas horas no teste de tolerância igual ou superior a 200 mg/dL, sempre confirmados por um segundo exame alterado em ocasião distinta, salvo quando há sintomas clássicos com glicemia casual igual ou superior a 200 mg/dL. Duas glicemias de jejum em datas diferentes, ambas acima de 126 mg/dL, satisfazem o critério. Glicemia capilar não serve para diagnóstico, e glicada entre 5,7 e 6,4% indica pré-diabetes.",
   "porAlt": [
    "Correta: duas glicemias de jejum em datas distintas, de 136 e 152 mg/dL, confirmam o diagnóstico.",
@@ -22799,7 +22799,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "International Working Group on the Diabetic Foot — IWGDF Guidelines, 2023; Ministério da Saúde, Manual do pé diabético",
+  "base": "International Working Group on the Diabetic Foot: IWGDF Guidelines, 2023; Ministério da Saúde, Manual do pé diabético",
   "coment": "A estratificação do risco do pé diabético combina três elementos: perda da sensibilidade protetora, doença arterial periférica e presença de deformidade, úlcera ou amputação prévia. Sem nenhum deles, a paciente é de risco muito baixo, categoria zero, e a recomendação é reavaliação anual com educação sobre autoexame, calçado adequado e cuidados com as unhas. À medida que surgem neuropatia, deformidade, doença arterial ou história de úlcera, a categoria sobe e o intervalo de reavaliação encurta progressivamente até três meses.",
   "porAlt": [
    "O grau I pressupõe perda da sensibilidade protetora ou doença arterial periférica.",
@@ -22827,7 +22827,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "American Burn Association — Advanced Burn Life Support, 2023; Ministério da Saúde, Cartilha para tratamento de emergência das queimaduras",
+  "base": "American Burn Association: Advanced Burn Life Support, 2023; Ministério da Saúde, Cartilha para tratamento de emergência das queimaduras",
   "coment": "A fórmula de Parkland estima a reposição das primeiras 24 horas em queimadura extensa: 4 mL por quilo por porcentagem de superfície corporal queimada de Ringer lactato, metade nas primeiras 8 horas contadas a partir do momento da queimadura e a outra metade nas 16 horas seguintes. O valor calculado é ponto de partida: o ajuste real se faz pelo débito urinário, com meta de 0,5 mL por quilo por hora no adulto. Coloide não é a solução inicial, e a superfície é estimada por regra dos nove ou tabela de Lund-Browder, contando apenas segundo e terceiro graus.",
   "porAlt": [
    "Reposição de 2 mL por quilo por porcentagem subestima a necessidade e distribuir o volume igualmente ignora a maior perda das primeiras horas.",
@@ -22854,12 +22854,12 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Protocolo de vigilância da intoxicação por chumbo relacionada ao trabalho, 2023; CDC, Adult Blood Lead Epidemiology and Surveillance, 2022",
+  "base": "Ministério da Saúde. Protocolo de vigilância da intoxicação por chumbo relacionada ao trabalho, 2023; CDC, Adult Blood Lead Epidemiology and Surveillance, 2022",
   "coment": "Anemia hipocrômica e microcítica que não responde a seis meses de ferro oral, em trabalhador de reciclagem de baterias, com surgimento de alteração cognitiva, aponta para saturnismo. O chumbo inibe enzimas da síntese do heme, produzindo anemia com pontilhado basófilo nas hemácias, e causa neuropatia periférica, encefalopatia, dor abdominal em cólica e nefropatia. O exame que confirma é a plumbemia, e a conduta inclui afastamento imediato da exposição, notificação como doença relacionada ao trabalho e quelação nos casos com níveis elevados ou sintomas.",
   "porAlt": [
    "Mielograma não é o primeiro exame diante de exposição ocupacional tão sugestiva.",
    "Haptoglobina investiga hemólise, que não explica a microcitose refratária ao ferro nem a alteração cognitiva.",
-   "Correta: dosagem de chumbo sérico — a ocupação e a refratariedade ao ferro apontam saturnismo.",
+   "Correta: dosagem de chumbo sérico. A ocupação e a refratariedade ao ferro apontam saturnismo.",
    "O teste de Coombs avalia hemólise autoimune, fora do quadro descrito."
   ],
   "fonte": {
@@ -22880,7 +22880,7 @@ window.BANCO=[
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Manual de Normas e Procedimentos para Vacinação, 2024; Guia de Vigilância em Saúde, profilaxia do tétano acidental",
+  "base": "Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação, 2024; Guia de Vigilância em Saúde, profilaxia do tétano acidental",
   "coment": "A profilaxia do tétano depende de dois eixos: o estado vacinal e o tipo de ferimento. Com esquema completo de três doses e última dose há menos de cinco anos, não se indica reforço nem soro, mesmo em ferimento de alto risco como queimadura. O reforço passa a ser indicado com esquema completo e última dose entre cinco e dez anos em ferimento de alto risco, ou acima de dez anos em qualquer ferimento. O soro ou imunoglobulina antitetânica se reserva a esquema incompleto ou desconhecido associado a ferimento de alto risco, ou a imunossuprimidos.",
   "porAlt": [
    "O reforço não é necessário com vacinação completa há apenas três anos.",
@@ -22907,7 +22907,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "Fleischner Society Guidelines for Management of Incidental Pulmonary Nodules, 2017; ACCP guidelines on pulmonary nodules",
-  "coment": "Nódulo pulmonar solitário com contorno regular e calcificação de padrão benigno — central, difusa, laminar ou em pipoca — tem probabilidade muito baixa de malignidade, ainda que o paciente seja tabagista. A conduta é acompanhamento ambulatorial, com comparação a exames antigos quando disponíveis; estabilidade radiológica por dois anos em nódulo sólido praticamente exclui neoplasia. Investigação invasiva se reserva a nódulo com características suspeitas: bordas espiculadas, ausência de calcificação benigna, crescimento documentado ou captação em PET-CT.",
+  "coment": "Nódulo pulmonar solitário com contorno regular e calcificação de padrão benigno (central, difusa, laminar ou em pipoca) tem probabilidade muito baixa de malignidade, ainda que o paciente seja tabagista. A conduta é acompanhamento ambulatorial, com comparação a exames antigos quando disponíveis; estabilidade radiológica por dois anos em nódulo sólido praticamente exclui neoplasia. Investigação invasiva se reserva a nódulo com características suspeitas: bordas espiculadas, ausência de calcificação benigna, crescimento documentado ou captação em PET-CT.",
   "porAlt": [
    "Ressecção cirúrgica é desproporcional para nódulo com calcificação de padrão benigno.",
    "Broncoscopia com biópsia tem baixo rendimento em nódulo periférico e não se justifica aqui.",
@@ -22933,7 +22933,7 @@ window.BANCO=[
   "comp": "urg",
   "nivel": "r1",
   "base": "IDSA Practice Guidelines for Bacterial Meningitis; Ministério da Saúde, PCDT para Manejo da Infecção pelo HIV, 2024",
-  "coment": "A paciente apresenta sinais de hipertensão intracraniana — cefaleia progressiva, vômitos, papiledema bilateral, rebaixamento de consciência, hipertensão com bradicardia e respiração irregular, que compõem a tríade de Cushing. Nesse cenário, punção lombar antes de imagem pode precipitar herniação. A conduta é tomografia de crânio imediata, buscando lesão expansiva — em pessoa com HIV mal controlado, neurotoxoplasmose, linfoma primário do sistema nervoso central, tuberculoma ou criptococose. A punção, quando indicada, vem depois da imagem e com medida de pressão de abertura.",
+  "coment": "A paciente apresenta sinais de hipertensão intracraniana. Cefaleia progressiva, vômitos, papiledema bilateral, rebaixamento de consciência, hipertensão com bradicardia e respiração irregular, que compõem a tríade de Cushing. Nesse cenário, punção lombar antes de imagem pode precipitar herniação. A conduta é tomografia de crânio imediata, buscando lesão expansiva, em pessoa com HIV mal controlado, neurotoxoplasmose, linfoma primário do sistema nervoso central, tuberculoma ou criptococose. A punção, quando indicada, vem depois da imagem e com medida de pressão de abertura.",
   "porAlt": [
    "Punção lombar antes da imagem, com papiledema e sinais de hipertensão intracraniana, arrisca herniação.",
    "Eletroencefalograma não é a prioridade diante de sinais de efeito de massa.",
@@ -22958,12 +22958,12 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Sociedade Brasileira de Dermatologia — Consenso sobre farmacodermias, 2020; ANVISA, guia de farmacovigilância, 2021",
+  "base": "Sociedade Brasileira de Dermatologia: Consenso sobre farmacodermias, 2020; ANVISA, guia de farmacovigilância, 2021",
   "coment": "Exantema maculopapular pruriginoso surgido dias após a introdução de um anti-inflamatório, em paciente estável, sem acometimento de mucosa, sem febre, sem descamação e sem repercussão sistêmica, é a farmacodermia benigna mais comum. A conduta é suspender o fármaco suspeito, prescrever anti-histamínico oral e orientar o paciente a registrar a reação e evitar o agente no futuro. O que exige atenção redobrada são os sinais de gravidade: acometimento de mucosas, sinal de Nikolsky, febre alta, edema facial, eosinofilia e alteração hepática, que sugerem síndrome de Stevens-Johnson ou DRESS.",
   "porAlt": [
    "A doença do soro cursa com febre, artralgia e urticária cerca de uma a três semanas após a exposição, e manter o fármaco é sempre inadequado.",
    "Não há anafilaxia: o paciente está estável, sem hipotensão, broncoespasmo ou edema de via aérea.",
-   "Correta: farmacodermia — suspender o naproxeno e prescrever anti-histamínico por via oral.",
+   "Correta: farmacodermia. Suspender o naproxeno e prescrever anti-histamínico por via oral.",
    "A dermatite atópica é doença crônica com lesões em áreas flexurais, não um exantema agudo relacionado a fármaco."
   ],
   "fonte": {
@@ -22985,8 +22985,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American College of Physicians — Diagnosis and Treatment of Low Back Pain, 2017; NICE guideline on low back pain and sciatica",
-  "coment": "Dor toracolombar em paciente acima de 50 anos, tabagista pesado e etilista, com déficit sensitivo bilateral e sinais de estiramento radicular, reúne bandeiras vermelhas que afastam a lombalgia inespecífica. A investigação inicial combina exames simples de triagem — hemograma, velocidade de hemossedimentação, proteína C reativa e radiografia de tórax, buscando neoplasia e infecção — com ressonância magnética quando persiste a suspeita de compressão medular, infecção ou metástase. Pedir ressonância indiscriminadamente em toda dor lombar, por outro lado, gera achados degenerativos irrelevantes e cascata de exames.",
+  "base": "American College of Physicians. Diagnosis and Treatment of Low Back Pain, 2017; NICE guideline on low back pain and sciatica",
+  "coment": "Dor toracolombar em paciente acima de 50 anos, tabagista pesado e etilista, com déficit sensitivo bilateral e sinais de estiramento radicular, reúne bandeiras vermelhas que afastam a lombalgia inespecífica. A investigação inicial combina exames simples de triagem (hemograma, velocidade de hemossedimentação, proteína C reativa e radiografia de tórax, buscando neoplasia e infecção) com ressonância magnética quando persiste a suspeita de compressão medular, infecção ou metástase. Pedir ressonância indiscriminadamente em toda dor lombar, por outro lado, gera achados degenerativos irrelevantes e cascata de exames.",
   "porAlt": [
    "A investigação é necessária, mas o enunciado descreve dor de três semanas com sinais neurológicos: não é apenas questão de idade e tabagismo.",
    "A ressonância pode ser necessária, mas não substitui a triagem laboratorial e radiográfica que orienta a hipótese.",
@@ -23073,7 +23073,7 @@ window.BANCO=[
   "coment": "Nódulo hepático sólido em mulher jovem, hipervascular na fase arterial, bem circunscrito e com cicatriz central, é a descrição típica da hiperplasia nodular focal, lesão benigna de origem hiperplásica que não tem potencial maligno nem risco relevante de sangramento. Quando a imagem é característica, sobretudo à ressonância com contraste hepatoespecífico, dispensa biópsia, e a conduta é conservadora, sem necessidade de suspender contraceptivo nem de seguimento prolongado. O principal diferencial é o adenoma hepático, que não tem cicatriz central e pode sangrar ou malignizar.",
   "porAlt": [
    "O adenoma hepático associa-se a contraceptivo, é heterogêneo e não apresenta cicatriz central típica.",
-   "Correta: hiperplasia nodular focal — lesão hipervascular bem delimitada com cicatriz central em paciente jovem.",
+   "Correta: hiperplasia nodular focal. Lesão hipervascular bem delimitada com cicatriz central em paciente jovem.",
    "O hepatocarcinoma ocorre em fígado cirrótico ou com hepatite crônica, com lavagem do contraste na fase tardia.",
    "O hemangioma tem captação globular periférica descontínua com preenchimento centrípeto.",
    "O colangiocarcinoma periférico costuma ter captação tardia e retração capsular, com quadro clínico distinto."
@@ -23097,7 +23097,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022",
+  "base": "Ministério da Saúde, PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022",
   "coment": "Múltiplas úlceras genitais pequenas, dolorosas e coalescentes, precedidas de pródromo de ardor local e com adenopatia inguinal, caracterizam o herpes genital, cujo tratamento do primeiro episódio é aciclovir 400 mg três vezes ao dia por 7 a 10 dias, iniciado o mais precocemente possível. Sífilis primária cursa com úlcera única e indolor; o cancro mole produz úlceras dolorosas com fundo sujo e adenopatia supurativa. Fazem parte da conduta o rastreio das demais infecções sexualmente transmissíveis, incluindo HIV e sífilis, e a orientação sobre recorrência e transmissão.",
   "porAlt": [
    "Ceftriaxona trata gonorreia e, em esquema específico, o cancro mole, não o herpes.",
@@ -23124,7 +23124,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Conselho Federal de Medicina — Código de Ética Médica, Resolução CFM 2.217/2018; Recomendação CFM sobre uso de aplicativos de mensagens",
+  "base": "Conselho Federal de Medicina. Código de Ética Médica, Resolução CFM 2.217/2018; Recomendação CFM sobre uso de aplicativos de mensagens",
   "coment": "O Conselho Federal de Medicina admite o uso de aplicativos de mensagem para discussão entre médicos, desde que o grupo seja restrito a profissionais médicos, que as informações sejam tratadas como confidenciais e que não extrapolem os limites do grupo. O sigilo é dever de cada participante, e não apenas do administrador. Compartilhar dados que permitam identificar o paciente, mesmo com autorização informal, é prática de risco, e o envio de imagens e resultados deve observar as mesmas cautelas do prontuário.",
   "porAlt": [
    "O uso do grupo não é vedado: a recomendação admite grupos restritos a médicos com dever de confidencialidade.",
@@ -23150,7 +23150,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Portaria Interministerial nº 1/2014 — Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP)",
+  "base": "Portaria Interministerial nº 1/2014, Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP)",
   "coment": "A PNAISP inclui a população privada de liberdade no Sistema Único de Saúde por meio de pactuação entre União, estados, Distrito Federal e municípios, com adesão voluntária dos entes e financiamento específico. As equipes de atenção primária prisional podem contar com profissionais de saúde mental, e o cuidado deve articular-se com a rede de atenção psicossocial do território. A responsabilidade sanitária pelo território inclui as unidades prisionais nele situadas, e a atenção segue os princípios de universalidade, integralidade e equidade.",
   "porAlt": [
    "Correta: a política se efetiva por pactuação entre União, estados e municípios, com adesão dos entes federados.",
@@ -23176,7 +23176,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Lei nº 10.778/2003 e Portaria de Consolidação nº 4 — notificação compulsória de violência interpessoal; Ministério da Saúde, Linha de cuidado para atenção a pessoas em situação de violência",
+  "base": "Lei nº 10.778/2003 e Portaria de Consolidação nº 4, notificação compulsória de violência interpessoal; Ministério da Saúde, Linha de cuidado para atenção a pessoas em situação de violência",
   "coment": "O relato configura violência psicológica e patrimonial por parceiro íntimo, com controle, humilhação e medo, o que já caracteriza violência doméstica independentemente de agressão física. A notificação de violência interpessoal é compulsória para todo serviço de saúde, tem caráter epidemiológico e de proteção e não depende de autorização da vítima nem equivale a denúncia policial. A conduta é acolher, notificar e manter acompanhamento longitudinal na própria unidade, construindo plano de segurança, sem medicalizar de imediato o sofrimento com benzodiazepínico.",
   "porAlt": [
    "Correta: notificar o agravo e manter o acompanhamento na própria unidade de saúde da família.",
@@ -23203,9 +23203,9 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r2",
   "base": "Lei nº 8.080/1990 e Política Nacional de Atenção Básica (PNAB), Portaria nº 2.436/2017",
-  "coment": "Estabelecer critérios para priorizar visitas domiciliares significa oferecer mais recurso a quem tem maior necessidade, o que corresponde ao princípio da equidade — tratar de modo desigual os desiguais para reduzir injustiças no acesso. Universalidade diz respeito ao direito de todos ao sistema; integralidade, à oferta articulada de ações de promoção, prevenção, tratamento e reabilitação; e a autonomia é princípio bioético, não organizativo do sistema. Distinguir esses conceitos é cobrança recorrente nas provas de residência.",
+  "coment": "Estabelecer critérios para priorizar visitas domiciliares significa oferecer mais recurso a quem tem maior necessidade, o que corresponde ao princípio da equidade. Tratar de modo desigual os desiguais para reduzir injustiças no acesso. Universalidade diz respeito ao direito de todos ao sistema; integralidade, à oferta articulada de ações de promoção, prevenção, tratamento e reabilitação; e a autonomia é princípio bioético, não organizativo do sistema. Distinguir esses conceitos é cobrança recorrente nas provas de residência.",
   "porAlt": [
-   "Correta: equidade — priorizar quem tem maior necessidade na alocação das visitas.",
+   "Correta: equidade. Priorizar quem tem maior necessidade na alocação das visitas.",
    "Autonomia é princípio bioético da relação com o paciente, não princípio organizativo do sistema.",
    "Integralidade se refere à articulação de ações de promoção, prevenção, tratamento e reabilitação.",
    "Universalidade é a garantia de acesso de todos ao sistema, sem recorte de prioridade."
@@ -23229,7 +23229,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Política Nacional de Saúde da Pessoa Idosa e Caderno de Atenção Domiciliar, 2023; ANCP, Manual de Cuidados Paliativos, 2021",
+  "base": "Ministério da Saúde. Política Nacional de Saúde da Pessoa Idosa e Caderno de Atenção Domiciliar, 2023; ANCP, Manual de Cuidados Paliativos, 2021",
   "coment": "Em demência avançada com paciente acamada e estável, cuidada em casa por familiar, o plano terapêutico singular se organiza em torno de dois eixos: manter o acompanhamento longitudinal pela equipe de atenção primária, que já responde pelo território, e cuidar de quem cuida. A sobrecarga do cuidador é fator de risco para adoecimento próprio e para falha do cuidado, e deve ser avaliada de forma sistemática, com instrumentos como a escala de Zarit. Encaminhamentos para reabilitação não têm objetivo realista nesse estágio e fragmentam o cuidado sem benefício.",
   "porAlt": [
    "Reabilitação e encaminhamento à geriatria não mudam o curso da demência avançada em paciente acamada e estável.",
@@ -23285,7 +23285,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r1",
   "base": "International Classification of Headache Disorders (ICHD-3); American Headache Society consensus statement, 2021",
-  "coment": "Cefaleia unilateral, pulsátil, de 6 a 10 horas, com fotofobia e fonofobia e precedida de escotomas visuais, recorrente há anos e com exame neurológico normal, é migrânea com aura. O tratamento da crise de intensidade moderada a grave, ou com resposta insuficiente a analgésico simples, é o triptano, associado a antiemético quando há náusea. Sem sinais de alarme, não há indicação de neuroimagem. Com frequência crescente de crises ou uso excessivo de analgésico, entra a profilaxia — topiramato, propranolol, amitriptilina, candesartana ou anticorpo anti-CGRP.",
+  "coment": "Cefaleia unilateral, pulsátil, de 6 a 10 horas, com fotofobia e fonofobia e precedida de escotomas visuais, recorrente há anos e com exame neurológico normal, é migrânea com aura. O tratamento da crise de intensidade moderada a grave, ou com resposta insuficiente a analgésico simples, é o triptano, associado a antiemético quando há náusea. Sem sinais de alarme, não há indicação de neuroimagem. Com frequência crescente de crises ou uso excessivo de analgésico, entra a profilaxia. Topiramato, propranolol, amitriptilina, candesartana ou anticorpo anti-CGRP.",
   "porAlt": [
    "Correta: migrânea com aura, tratada na crise com triptano.",
    "A cefaleia tensional é bilateral, em peso, sem aura, náusea ou fotofobia proeminente.",
@@ -23310,8 +23310,8 @@ window.BANCO=[
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, síndrome de Guillain-Barré e arboviroses, 2024; diretrizes brasileiras de neuropatias periféricas inflamatórias",
-  "coment": "Fraqueza flácida ascendente, simétrica e progressiva, com arreflexia distal e parestesias, surgindo cerca de uma a duas semanas após quadro exantemático febril, é a apresentação típica da síndrome de Guillain-Barré, cuja associação com arboviroses e com infecções gastrointestinais é bem estabelecida. A avaliação inclui líquor com dissociação proteinocitológica, eletroneuromiografia e, sobretudo, medida seriada da capacidade vital — a insuficiência respiratória é o risco imediato. O tratamento é imunoglobulina ou plasmaférese; corticoide isolado não funciona.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, síndrome de Guillain-Barré e arboviroses, 2024; diretrizes brasileiras de neuropatias periféricas inflamatórias",
+  "coment": "Fraqueza flácida ascendente, simétrica e progressiva, com arreflexia distal e parestesias, surgindo cerca de uma a duas semanas após quadro exantemático febril, é a apresentação típica da síndrome de Guillain-Barré, cuja associação com arboviroses e com infecções gastrointestinais é bem estabelecida. A avaliação inclui líquor com dissociação proteinocitológica, eletroneuromiografia e, sobretudo, medida seriada da capacidade vital. A insuficiência respiratória é o risco imediato. O tratamento é imunoglobulina ou plasmaférese; corticoide isolado não funciona.",
   "porAlt": [
    "A miastenia gravis cursa com fraqueza flutuante e fatigável, com ptose e diplopia, e reflexos preservados.",
    "Correta: síndrome de Guillain-Barré após quadro exantemático, com fraqueza ascendente e arreflexia.",
@@ -23337,7 +23337,7 @@ window.BANCO=[
   "comp": "dx",
   "nivel": "r2",
   "base": "CID-11 (OMS, 2022) e DSM-5-TR (APA, 2022), transtornos por uso de substâncias; Ministério da Saúde, Guia prático de matriciamento em saúde mental, 2011",
-  "coment": "O padrão descrito — episódios repetidos de consumo pesado com prejuízo funcional pontual, cerca de duas vezes por mês, sem tolerância, sem abstinência, sem fissura e com funcionamento preservado entre os episódios — caracteriza uso nocivo, ou padrão de consumo de risco, e não dependência. A distinção orienta a conduta: aqui cabem intervenção breve motivacional, rastreio com AUDIT e seguimento na atenção primária. Os sintomas depressivos que se seguem à intoxicação são transitórios e não configuram episódio depressivo, que exige duração mínima de duas semanas.",
+  "coment": "O padrão descrito. Episódios repetidos de consumo pesado com prejuízo funcional pontual, cerca de duas vezes por mês, sem tolerância, sem abstinência, sem fissura e com funcionamento preservado entre os episódios, caracteriza uso nocivo, ou padrão de consumo de risco, e não dependência. A distinção orienta a conduta: aqui cabem intervenção breve motivacional, rastreio com AUDIT e seguimento na atenção primária. Os sintomas depressivos que se seguem à intoxicação são transitórios e não configuram episódio depressivo, que exige duração mínima de duas semanas.",
   "porAlt": [
    "Correta: uso nocivo de álcool, com prejuízo episódico e sem critérios de dependência.",
    "A dependência exige tolerância, abstinência, fissura ou perda de controle persistente, ausentes aqui.",
@@ -23363,11 +23363,11 @@ window.BANCO=[
   "comp": "prev",
   "nivel": "r1",
   "base": "Leavell e Clark, níveis de prevenção (1976); Ministério da Saúde, Política Nacional de Promoção da Saúde, revisão de 2018",
-  "coment": "A prevenção secundária atua em quem já tem a doença, para detectá-la precocemente ou evitar recorrência e progressão — é o caso da antiagregação após um evento cerebrovascular. A prevenção primária evita a doença em quem ainda não a tem; a terciária busca reduzir incapacidade e reabilitar quem já tem sequela; e a quaternária protege o paciente do excesso de intervenção médica, evitando iatrogenia e sobrediagnóstico. Essa taxonomia é cobrada com frequência e se distingue pelo momento da história natural em que a ação incide.",
+  "coment": "A prevenção secundária atua em quem já tem a doença, para detectá-la precocemente ou evitar recorrência e progressão. É o caso da antiagregação após um evento cerebrovascular. A prevenção primária evita a doença em quem ainda não a tem; a terciária busca reduzir incapacidade e reabilitar quem já tem sequela; e a quaternária protege o paciente do excesso de intervenção médica, evitando iatrogenia e sobrediagnóstico. Essa taxonomia é cobrada com frequência e se distingue pelo momento da história natural em que a ação incide.",
   "porAlt": [
    "A prevenção primária evita a ocorrência da doença em quem ainda não a tem.",
    "A prevenção terciária busca reduzir incapacidade e reabilitar quem já apresenta sequela.",
-   "Correta: prevenção secundária — evitar recorrência em paciente que já teve o evento.",
+   "Correta: prevenção secundária. Evitar recorrência em paciente que já teve o evento.",
    "A prevenção quaternária protege o paciente do excesso de intervenção médica."
   ],
   "fonte": {
@@ -23389,7 +23389,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r3",
   "base": "MDS evidence-based review on treatments for Parkinson’s disease, 2024; American Geriatrics Society Beers Criteria, 2023",
-  "coment": "Paciente com doença de Parkinson que passa a apresentar declínio cognitivo e alucinações visuais tem, como primeira medida, a revisão dos fármacos com potencial de piorar cognição e psicose. O anticolinérgico — biperideno — é o primeiro a sair: tem baixa eficácia motora, é formalmente desaconselhado no idoso pelos critérios de Beers e é a causa mais evitável de confusão e alucinação nesse contexto. Só depois se considera reduzir agonista dopaminérgico e, persistindo o quadro, prescrever inibidor da colinesterase para a demência e quetiapina ou clozapina para a psicose.",
+  "coment": "Paciente com doença de Parkinson que passa a apresentar declínio cognitivo e alucinações visuais tem, como primeira medida, a revisão dos fármacos com potencial de piorar cognição e psicose. O anticolinérgico, biperideno, é o primeiro a sair: tem baixa eficácia motora, é formalmente desaconselhado no idoso pelos critérios de Beers e é a causa mais evitável de confusão e alucinação nesse contexto. Só depois se considera reduzir agonista dopaminérgico e, persistindo o quadro, prescrever inibidor da colinesterase para a demência e quetiapina ou clozapina para a psicose.",
   "porAlt": [
    "Suspender a levodopa piora o parkinsonismo e não é o primeiro passo diante de alucinação.",
    "Correta: suspender o biperideno, anticolinérgico desaconselhado no idoso e principal culpado pela piora cognitiva e pelas alucinações.",
@@ -23414,12 +23414,12 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA — Diretrizes diagnósticas e terapêuticas de sarcomas ósseos, 2022; NCCN Guidelines for Bone Cancer",
-  "coment": "Dor óssea progressiva, com piora noturna, massa palpável em região metafisária de osso longo, febre e perda de peso em adolescente ou adulto jovem alto é a apresentação clássica do osteossarcoma. A investigação começa por radiografia — que mostra lesão agressiva com reação periosteal em raios de sol e triângulo de Codman —, segue com ressonância do segmento para estadiamento local, tomografia de tórax para metástases pulmonares e biópsia realizada em centro de referência, no trajeto da futura cirurgia. O tratamento combina quimioterapia neoadjuvante, cirurgia e quimioterapia adjuvante.",
+  "base": "INCA. Diretrizes diagnósticas e terapêuticas de sarcomas ósseos, 2022; NCCN Guidelines for Bone Cancer",
+  "coment": "Dor óssea progressiva, com piora noturna, massa palpável em região metafisária de osso longo, febre e perda de peso em adolescente ou adulto jovem alto é a apresentação clássica do osteossarcoma. A investigação começa por radiografia, que mostra lesão agressiva com reação periosteal em raios de sol e triângulo de Codman, segue com ressonância do segmento para estadiamento local, tomografia de tórax para metástases pulmonares e biópsia realizada em centro de referência, no trajeto da futura cirurgia. O tratamento combina quimioterapia neoadjuvante, cirurgia e quimioterapia adjuvante.",
   "porAlt": [
    "Calo ósseo não cursa com febre, perda ponderal e massa progressiva.",
    "Osteopenia não produz tumoração palpável nem dor progressiva com febre.",
-   "Correta: osteossarcoma — investigação com ressonância e biópsia, com tratamento que inclui quimioterapia.",
+   "Correta: osteossarcoma. Investigação com ressonância e biópsia, com tratamento que inclui quimioterapia.",
    "Lesão por esforço repetitivo não explica massa, febre e emagrecimento."
   ],
   "fonte": {
@@ -23441,7 +23441,7 @@ window.BANCO=[
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "American Psychiatric Association — Practice Guideline for the Treatment of Patients With Schizophrenia, 2020; UpToDate/consensos sobre síndrome neuroléptica maligna",
+  "base": "American Psychiatric Association. Practice Guideline for the Treatment of Patients With Schizophrenia, 2020; UpToDate/consensos sobre síndrome neuroléptica maligna",
   "coment": "A síndrome neuroléptica maligna combina hipertermia, rigidez muscular generalizada, disautonomia e alteração do nível de consciência, com elevação acentuada de creatinoquinase e risco de rabdomiólise e lesão renal. O tratamento é suspender imediatamente o agente antidopaminérgico, oferecer suporte intensivo com resfriamento e hidratação vigorosa e, nos casos moderados a graves, associar dantroleno, que age no músculo, e agonista dopaminérgico como bromocriptina ou amantadina. Benzodiazepínico ajuda na agitação e na rigidez, e eletroconvulsoterapia é opção refratária.",
   "porAlt": [
    "Correta: dantroleno e bromocriptina, associados à suspensão do agente e ao suporte intensivo.",
@@ -23469,8 +23469,8 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — manual do Prontuário Eletrônico do Cidadão (e-SUS APS), 2023; Weed, problem-oriented medical record (1968)",
-  "coment": "No registro clínico orientado por problemas, organizado pelo método SOAP, o campo Subjetivo reúne o que o paciente relata — sintomas, preocupações, contexto; o Objetivo reúne o que o profissional mede ou observa, como sinais vitais, medidas antropométricas e achados de exame físico e complementares; a Avaliação traz a hipótese e a interpretação; e o Plano descreve conduta, exames solicitados e orientações. Sinais vitais e medidas antropométricas são, portanto, dado objetivo, e o medo e a insônia relatados são conteúdo subjetivo relevante, não descartável.",
+  "base": "Ministério da Saúde. Manual do Prontuário Eletrônico do Cidadão (e-SUS APS), 2023; Weed, problem-oriented medical record (1968)",
+  "coment": "No registro clínico orientado por problemas, organizado pelo método SOAP, o campo Subjetivo reúne o que o paciente relata, sintomas, preocupações, contexto; o Objetivo reúne o que o profissional mede ou observa, como sinais vitais, medidas antropométricas e achados de exame físico e complementares; a Avaliação traz a hipótese e a interpretação; e o Plano descreve conduta, exames solicitados e orientações. Sinais vitais e medidas antropométricas são, portanto, dado objetivo, e o medo e a insônia relatados são conteúdo subjetivo relevante, não descartável.",
   "porAlt": [
    "Sinais vitais e medidas antropométricas não são relato do paciente, e sim dado medido.",
    "A Avaliação registra hipótese e interpretação, não os dados brutos medidos.",
@@ -23496,7 +23496,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Rede de Atenção Psicossocial (RAPS), Portaria nº 3.088/2011; Guia prático de matriciamento em saúde mental",
+  "base": "Ministério da Saúde. Rede de Atenção Psicossocial (RAPS), Portaria nº 3.088/2011; Guia prático de matriciamento em saúde mental",
   "coment": "Depressão com resposta insuficiente após seis meses de tratamento que evolui com sintomas psicóticos e ideação suicida sem plano configura caso de maior complexidade, que exige cuidado intensivo mas não internação imediata: a paciente mantém vínculo, tem suporte familiar e não apresenta risco iminente. O dispositivo adequado da Rede de Atenção Psicossocial é o Centro de Atenção Psicossocial, com equipe multiprofissional, que oferece acompanhamento intensivo em regime aberto e articula-se com a unidade básica por matriciamento. Internação se reserva a risco iminente ou falha do cuidado territorial.",
   "porAlt": [
    "Apenas trocar a medicação na unidade básica subestima a gravidade do quadro com sintomas psicóticos e ideação suicida.",
@@ -23523,7 +23523,7 @@ window.BANCO=[
   "comp": "tto",
   "nivel": "r2",
   "base": "NICE guideline on generalised anxiety disorder and panic disorder, 2020; Ministério da Saúde, Caderno de Atenção Básica de Saúde Mental",
-  "coment": "Ataques recorrentes de ansiedade intensa desencadeados por sair de casa, com esquiva que limita atividades cotidianas, caracterizam transtorno de pânico com agorafobia. O tratamento com melhor evidência combina psicoterapia estruturada — terapia cognitivo-comportamental com exposição — e ajuste do antidepressivo, cuja dose de sertralina pode ser titulada progressivamente, já que dez semanas com resposta parcial em dose inicial indicam subtratamento. Benzodiazepínico pode ser usado por período curto na crise, mas como estratégia isolada mantém a esquiva e cria dependência.",
+  "coment": "Ataques recorrentes de ansiedade intensa desencadeados por sair de casa, com esquiva que limita atividades cotidianas, caracterizam transtorno de pânico com agorafobia. O tratamento com melhor evidência combina psicoterapia estruturada, terapia cognitivo-comportamental com exposição, e ajuste do antidepressivo, cuja dose de sertralina pode ser titulada progressivamente, já que dez semanas com resposta parcial em dose inicial indicam subtratamento. Benzodiazepínico pode ser usado por período curto na crise, mas como estratégia isolada mantém a esquiva e cria dependência.",
   "porAlt": [
    "Benzodiazepínico isolado com encaminhamento à emergência psiquiátrica é desproporcional e não trata a esquiva.",
    "Manter a mesma dose diante de resposta parcial após dez semanas perpetua o subtratamento.",
@@ -23548,7 +23548,7 @@ window.BANCO=[
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas — Portaria MS nº 254/2002; Ministério da Saúde, diretrizes do Subsistema de Atenção à Saúde Indígena",
+  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas: Portaria MS nº 254/2002; Ministério da Saúde, diretrizes do Subsistema de Atenção à Saúde Indígena",
   "coment": "A política de saúde indígena exige atenção diferenciada, com respeito às práticas e à organização social de cada povo, e participação da comunidade nas decisões sobre o próprio cuidado. Uma intervenção comunitária construída com as lideranças, na própria aldeia, em roda de conversa que pactua os próximos passos com os participantes, é coerente com esses princípios e com o controle social. Palestras expositivas no polo base, planejadas apenas pela equipe, deslocam o cuidado para fora do território e reproduzem um modelo vertical que a política afasta.",
   "porAlt": [
    "Correta: roda de conversa na aldeia, construída com as lideranças e pactuando os próximos passos com os participantes.",

@@ -15,6 +15,13 @@ erros = []
 for f in sorted(pathlib.Path('leituras').glob('*.html')):
     if f.name.startswith('_'): continue
     s = f.read_text(); e = lambda m: erros.append(f"{f.name}: {m}")
+    # regras de 10/09 ("cara de IA"): sem fonte externa, sem seção numerada, sem travessão na prosa
+    if 'fonts.googleapis' in s: e('carrega fonte do Google (o app usa a fonte do sistema)')
+    if re.search(r'<h2 id="[^"]+"[^>]*>\s*\d+\.\s', s): e('h2 numerado no texto')
+    if '>Neste texto<' in s or 'Armadilhas consolidadas' in s or '>Autoteste<' in s: e('rótulo antigo (Neste texto/Armadilhas consolidadas/Autoteste)')
+    prosa = re.sub(r'<script.*?</script>|<style.*?</style>|<pre.*?</pre>|<td[^>]*>\s*—\s*</td>|<span class="niv">—</span>', '', s, flags=re.S)
+    n = prosa.count('—')
+    if n: e(f'{n} travessão(ões) na prosa; passar docs/travessao.py')
     if not s.startswith('<meta charset'): e('nao comeca com <meta charset>')
     for req in ('_leitura.css', '_leitura.js', 'class="kicker"', '<h1>',
                 'class="dek"', 'class="toc"', '<details>', '<footer>'):

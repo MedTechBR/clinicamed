@@ -123,8 +123,9 @@ leitura nova ou reescrita — modelos: `parada-cardiaca.html`, `choque.html`, `d
   diagrama continua legível.
 - **Bloco sindrômico** `div.sind` (perguntar / examinar / pedir), **questões-âncora** `div.ancora`
   (mini-caso + `<details>`), **comparação** `div.compara`, **critérios** `table.criterio`, além de
-  `.cx chave/armadilha/fonte/nota`, `.dose`, `ol.passos`, "Armadilhas consolidadas", autoteste e
-  `<footer>` com fontes primárias numeradas.
+  `.cx chave/armadilha/fonte/nota`, `.dose`, `ol.passos`, as duas seções finais "Erros frequentes" e
+  "Perguntas de revisão" (eram "Armadilhas consolidadas"/"Autoteste" até 10/09) e `<footer>` com fontes
+  primárias numeradas. **h2 sem numeração** no texto (o sumário também não numera).
 - **Imagens** (07/09/2026): as figuras são **geradas**, não copiadas. `gera_figuras.py` sintetiza
   ECGs de 12 derivações e tiras de ritmo em SVG (papel milimetrado, 25 mm/s, 10 mm/mV, pulso de
   calibração), esquemas de radiografia de tórax e de ultrassom pulmonar, e curvas — 37 figuras em
@@ -316,7 +317,35 @@ eletrolitos, hemorragia-digestiva, dengue, avc, drc, diabetes-tipo2.
 Abordagens sindrômicas a criar: dispneia aguda, síncope, cefaleia aguda, febre no imunossuprimido,
 icterícia, edema, rebaixamento do sensório, dor abdominal aguda no clínico.
 
-## Identidade visual — gramática MedTech (07/09/2026)
+## Identidade visual — "cara de manual" (10/09/2026, cm-v75)
+
+Matheus, duas vezes: "layout com muita cara de IA — fonte, escrita etc". O diagnóstico foi medido, não
+achado: Figtree + Newsreader (o par de fonte que toda página gerada usa), versalete rastreado no kicker
+e nos rótulos, pílulas de 999px, sombras, cantos de 10–16px, abas com ícone e fundo teal; na escrita,
+**13,8 travessões por mil palavras** (3.150 nas leituras, 1.342 no banco), 56 de 99 títulos no molde
+"Assunto: manchete", 207 h2 idem, dek que narra o próprio texto ("Este texto percorre…"), seções
+numeradas e o par "Armadilhas consolidadas/Autoteste" em todas as 99.
+
+O que vale agora (e o que não voltar a fazer):
+- **Fonte do sistema** em tudo: `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica
+  Neue", Arial`. Nenhum `fonts.googleapis` no index nem nas leituras (o `<link>` foi removido das 99).
+  Títulos na mesma família, só mais pesados; sem `letter-spacing`, sem `text-transform:uppercase`.
+- **Cantos 6px** (`--r`), `--sombra:none`, pílula 4px, barras de progresso 2px. Abas do computador são
+  texto com sublinhado de 2px em `--ink`; ícone só na barra inferior do celular.
+- O teal fica **só no que é clicável** (link, botão, aba ativa do celular). Título, kicker e rótulo em
+  `--ink`/`--ink2`.
+- Leitura: kicker em 14px cinza sem versalete; `.toc` é lista simples entre duas linhas, rótulo
+  "Sumário"; callouts sem raio; `ol.passos` com número em negrito (sem bolinha); `th` com linha de 2px.
+- **Escrita:** travessão só em célula vazia de tabela e em rótulo de mermaid. `docs/travessao.py`
+  (`limpa`/`limpa_html`) converte: parentético → vírgulas ou parênteses; travessão solto → vírgula se
+  o resto é curto ou começa por conjunção/preposição, senão ponto e maiúscula. Título e h2 são
+  **substantivos** ("Feocromocitoma", não "Feocromocitoma: o preparo que evita a morte na mesa"); o
+  dek diz **o que o texto cobre e por qual fonte**, nunca "este texto percorre…"; o `s:` do catálogo é
+  o mesmo texto do dek. Sem "Neste texto", sem numeração de seção, sem subtítulo de grupo no catálogo.
+- O que ficou e ainda é tell: negrito denso no corpo (35/mil palavras), frases-aforismo de fechamento
+  ("o atraso mata"), "não é X, é Y". Só reescrita frase a frase resolve; não fazer por regex.
+
+## Identidade visual — gramática MedTech (07/09/2026, superada em 10/09)
 
 O "Papel de ECG" (Newsreader, fundo-grade, tons quentes) foi substituído em 07/09 pela gramática do
 ecossistema: papel `#FAFAF8` e tokens de `/_mttokens.css`, **Figtree**, ícones **Tabler** (nunca emoji
