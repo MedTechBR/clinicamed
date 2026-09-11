@@ -111,8 +111,9 @@ label.cmp{display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--
 .pilula.ok{background:var(--okSup);color:var(--ok)}
 .pilula.er{background:var(--errSup);color:var(--err)}
 .enun{font-size:16.5px;line-height:1.6;margin:12px 0 14px}
-.alt{display:flex;gap:11px;width:100%;text-align:left;background:var(--sup);border:1px solid var(--linhaF);
-  border-radius:10px;padding:13px;margin-bottom:8px;cursor:pointer;align-items:flex-start;min-height:44px}
+/* borda leve e mais respiro: a moldura forte disputava atenção com o caso clínico */
+.alt{display:flex;gap:11px;width:100%;text-align:left;background:var(--sup);border:1px solid var(--linha);
+  border-radius:10px;padding:14px 15px;margin-bottom:9px;cursor:pointer;align-items:flex-start;min-height:44px}
 .alt:hover{border-color:var(--brand)}
 .alt .let{font-weight:700;color:var(--ink2);min-width:18px}
 .alt.certa{background:var(--okSup);border-color:var(--ok)}
@@ -183,6 +184,62 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 @media(max-width:520px){.convite{flex-wrap:wrap}.convite button{width:100%}}
 .progOff{height:6px;background:var(--sup2);border-radius:99px;overflow:hidden;margin:10px 0 6px}
 .progOff i{display:block;height:100%;background:var(--brand);transition:width .2s}
+
+/* ---------- questões: dois filtros à vista, o resto recolhido ---------- */
+/* o <details> do app é um cartão com borda; aqui ele é só um disclosure de filtro */
+.maisF{width:100%;margin-top:2px;border:0;background:transparent;padding:0;box-shadow:none}
+.maisF>summary{cursor:pointer;list-style:none;font-size:13px;color:var(--ink2);padding:6px 0;
+  display:flex;align-items:center;gap:7px}
+.maisF>summary::-webkit-details-marker{display:none}
+.maisF>summary:before{content:"+";font-size:14px;color:var(--ink2);width:12px;text-align:center}
+.maisF[open]>summary:before{content:"−"}
+.maisF>summary .pt{width:6px;height:6px;border-radius:50%;background:var(--brand)}
+.maisF[open]{display:flex;flex-wrap:wrap;gap:10px}
+.maisF[open]>summary{flex-basis:100%}
+
+/* ---------- leitura aberta: sumário lateral + barra fina ---------- */
+.sumarioL{display:none}
+.leituraCol{min-width:0;display:flex;flex-direction:column}
+.barraL{display:flex;align-items:center;gap:8px;padding:0 2px 9px;margin-bottom:2px;
+  border-bottom:1px solid var(--linha)}
+.barraL .tituloL{font-size:13px;color:var(--ink2);margin-right:auto;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+@media(min-width:900px){
+  body.lendo #sec-leituras{grid-template-columns:248px minmax(0,1fr)}
+  .sumarioL{display:block;position:sticky;top:104px;max-height:calc(100vh - 130px);overflow:auto;
+    padding:0 10px 0 4px;border-right:1px solid var(--linha)}
+  .sumarioL b{display:block;font-size:11px;letter-spacing:.05em;text-transform:uppercase;
+    color:var(--ink2);margin-bottom:9px}
+  .sumarioL ol{margin:0;padding-left:25px;font-size:13px;line-height:1.42}
+  .sumarioL li{margin:0 0 7px}
+  .sumarioL a{color:var(--ink2);text-decoration:none}
+  .sumarioL a:hover{color:var(--brandInk)}
+  .sumarioL a.aqui{color:var(--brandInk);font-weight:600}
+}
+
+/* Filtro sem moldura: ele tinha a mesma caixa do cartão de questão e do alerta, nivelando a
+   importância de tudo. Agora se separa do conteúdo por uma linha, não por uma borda fechada. */
+#sec-leituras>.filtroL,#sec-questoes>.cx:first-child,#sec-pratica>.cx:first-child{
+  background:transparent;border:0;box-shadow:none;border-bottom:1px solid var(--linha);
+  border-radius:0;padding:2px 0 14px;margin-bottom:6px}
+@media(min-width:900px){
+  #sec-leituras>.filtroL,#sec-questoes>.cx:first-child,#sec-pratica>.cx:first-child{
+    border-bottom:0;border-right:1px solid var(--linha);padding:2px 16px 2px 0}
+}
+
+/* ---------- catálogo de leituras: lista, não grade de caixas ---------- */
+.listaL .itemL{padding:15px 2px 16px;border-top:1px solid var(--linha);cursor:pointer;background:transparent}
+.listaL .itemL:first-child{border-top:0}
+.listaL .itemL:hover,.listaL .itemL:focus-visible{background:var(--sup);outline:0}
+.listaL .itemL h3{margin:0 0 5px;font-size:16.5px;line-height:1.32}
+/* duas linhas, e só: o resumo inteiro vive no dek da leitura */
+.resumoL{margin:0;color:var(--ink2);font-size:13.5px;line-height:1.48;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.metaL{display:flex;flex-wrap:wrap;gap:0 14px;margin-top:8px;font-size:11.5px;color:var(--ink2)}
+.metaL span{position:relative}
+.metaL span+span:before{content:"";position:absolute;left:-8px;top:50%;width:2px;height:2px;
+  border-radius:50%;background:currentColor;opacity:.55}
+.metaL .lido{color:var(--ok);font-weight:600}
 
 /* progresso de leitura no cartão */
 .progL{height:4px;background:var(--sup2);border-radius:99px;overflow:hidden;margin-top:10px}
@@ -263,10 +320,7 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
   .kpi{padding:11px 12px}
   .kpi b{font-size:22px}
   /* leituras: linhas, não cartões */
-  .listaL .cx{padding:14px 0;margin:0;border-top:1px solid var(--linha)}
-  .listaL .cx:first-child{border-top:0}
-  .listaL .cx h3{font-size:16.5px;margin:6px 0 3px}
-  .listaL .cx .mini{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .listaL .itemL h3{font-size:16px}
   .listaL h3.grupo{margin:22px 0 4px;font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2)}
   .listaL h3.grupo .mini{display:none}
   /* cartões: o cartão é a tela */
@@ -342,15 +396,15 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed",linha:"provas"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=71"></script>
-<script src="provas.js?v=71"></script>
-<script src="banco.js?v=71"></script>
-<script src="flash.js?v=71"></script>
-<script src="pratica.js?v=71"></script>
-<script src="leituras.js?v=71"></script>
-<script src="indice-leituras.js?v=71"></script>
-<script src="nuvem.js?v=71"></script>
-<script src="turma.js?v=71"></script>
+<script src="taxonomia.js?v=74"></script>
+<script src="provas.js?v=74"></script>
+<script src="banco.js?v=74"></script>
+<script src="flash.js?v=74"></script>
+<script src="pratica.js?v=74"></script>
+<script src="leituras.js?v=74"></script>
+<script src="indice-leituras.js?v=74"></script>
+<script src="nuvem.js?v=74"></script>
+<script src="turma.js?v=74"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -861,23 +915,29 @@ function pintaQuestoes(){
   const opt=(arr,v,vazio)=>`<option value="">${vazio}</option>`+arr.map(o=>
     `<option value="${o.id}"${o.id===v?" selected":""}>${esc(o.nome)}</option>`).join("");
   const resumoF=[f.area?NOME[f.area]:"todas as áreas",f.modo&&f.modo!=="todas"?{novas:"não respondidas",erros:"meus erros",fav:"marcadas"}[f.modo]:null].filter(Boolean).join(" · ");
+  /* Seis seletores abertos competiam com o enunciado pela atenção. Ficam à vista os dois que se
+     mexem todo dia — área e conjunto —; cenário, competência, nível e procedência entram em
+     "mais filtros", que abre quando algum deles está em uso. */
+  const extraAtivo=!!(f.cen||f.comp||f.niv||f.proc);
   $("#sec-questoes").innerHTML=filtroBox("q",`${l.length} · ${esc(resumoF)}`,`
     <label class="cmp">Área<select id="fArea">${opt(TAX,f.area,"todas as áreas")}</select></label>
-    <label class="cmp">Cenário<select id="fCen">${opt(CEN,f.cen,"todos")}</select></label>
-    <label class="cmp">Competência<select id="fComp">${opt(COMP,f.comp,"todas")}</select></label>
-    <label class="cmp">Nível<select id="fNiv">${opt(NIVEIS,f.niv,"todos")}</select></label>
-    <label class="cmp">Procedência<select id="fProc">
-      <option value=""${f.proc?"":" selected"}>todas (${BANCO.length})</option>
-      <option value="real"${f.proc==="real"?" selected":""}>só de prova real (${NREAIS})</option>
-      <option value="autoral"${f.proc==="autoral"?" selected":""}>só autorais (${BANCO.length-NREAIS})</option>
-    </select></label>
     <label class="cmp">Conjunto<select id="fModo">
       <option value="todas"${f.modo==="todas"?" selected":""}>todas</option>
       <option value="novas"${f.modo==="novas"?" selected":""}>ainda não respondidas</option>
       <option value="erros"${f.modo==="erros"?" selected":""}>meus erros</option>
       <option value="fav"${f.modo==="fav"?" selected":""}>marcadas</option>
     </select></label>
-    <button class="bt sec mini" id="btEmb" style="align-self:flex-end"><i class="ti ti-arrows-shuffle"></i> Embaralhar</button>
+    <details class="maisF"${extraAtivo?" open":""}><summary>mais filtros${extraAtivo?" <span class=\"pt\"></span>":""}</summary>
+     <label class="cmp">Cenário<select id="fCen">${opt(CEN,f.cen,"todos")}</select></label>
+     <label class="cmp">Competência<select id="fComp">${opt(COMP,f.comp,"todas")}</select></label>
+     <label class="cmp">Nível<select id="fNiv">${opt(NIVEIS,f.niv,"todos")}</select></label>
+     <label class="cmp">Procedência<select id="fProc">
+       <option value=""${f.proc?"":" selected"}>todas (${BANCO.length})</option>
+       <option value="real"${f.proc==="real"?" selected":""}>só de prova real (${NREAIS})</option>
+       <option value="autoral"${f.proc==="autoral"?" selected":""}>só autorais (${BANCO.length-NREAIS})</option>
+     </select></label>
+    </details>
+    <button class="bt sec mini" id="btEmb"><i class="ti ti-arrows-shuffle"></i> Embaralhar</button>
     <div class="mini" style="flex-basis:100%">${l.length} ${l.length===1?"questão":"questões"} no filtro${l.length?` — você está na ${i+1}ª`:""}</div>`)
   +`<div id="qCartao"></div>`;
   $("#fArea").onchange=e=>mudaFiltro("area",e.target.value);
@@ -900,7 +960,7 @@ function pintaCartaoQuestao(q,l,i){
     <button class="bt ${ST.fav[q._ch]?"":"sec "}mini" id="btFav" style="margin-left:auto"><i class="ti ti-star"></i> ${ST.fav[q._ch]?"marcada":"marcar"}</button>
    </div>
    <p class="enun">${esc(q.q)}</p>
-   <div id="alts">${q.alts.map((a,j)=>
+   <div id="alts" style="margin-top:16px">${q.alts.map((a,j)=>
      `<button class="alt" data-j="${j}"><span class="let">${LETRAS[j]}</span><span>${esc(a)}</span></button>`).join("")}</div>
    <div id="fb"></div>
    <hr>
@@ -1215,14 +1275,42 @@ function pintaLeituras(){
   const aberta=ST.cfg.lendo;
   if(aberta){
     const it=LEITURAS.find(l=>l.f===aberta);
+    /* O sumário sai de dentro do texto e vira coluna: no computador ele acompanha a leitura, em
+       vez de ocupar meia tela na abertura e nunca mais aparecer. Os cabeçalhos já estão indexados
+       em IDXL — o mesmo dado que alimenta a busca global. Os controles viram barra fina: eram uma
+       caixa com borda e sombra disputando atenção com o título do capítulo. */
+    const ixA=(typeof IDXL!=="undefined")?IDXL.find(x=>x.f===aberta):null;
+    const sumario=(ixA&&ixA.h&&ixA.h.length>2)?`<nav class="sumarioL" id="sumarioL">
+       <b>Neste texto</b>
+       <ol>${ixA.h.map((h,i)=>`<li><a href="#${esc(h.id)}" data-sec="${esc(h.id)}">${esc(h.t)}</a></li>`).join("")}</ol>
+     </nav>`:`<div></div>`;
     $("#sec-leituras").innerHTML=`
-     <div class="cx"><div class="linha">
+     ${sumario}
+     <div class="leituraCol">
+      <div class="barraL">
        <button class="bt sec mini" id="fecharL"><i class="ti ti-arrow-left"></i> voltar</button>
-       <span class="mini">${esc(it?it.t:"")}</span>
-       <button class="bt sec mini" id="discordoL" style="margin-left:auto">Discordo</button>
-       <button class="bt mini" id="marcaL">${ST.lidas[aberta]?'<i class="ti ti-check"></i> lida':'marcar como lida'}</button>
-     </div></div>
-     <iframe class="quadro" id="quadroLeitura" src="leituras/${encodeURIComponent(aberta)}?tema=${temaEfetivo()}${ST.cfg.secao?"#"+encodeURIComponent(ST.cfg.secao):""}" title="${esc(it?it.t:"leitura")}"></iframe>`;
+       <span class="tituloL">${esc(it?it.t:"")}</span>
+       <button class="bt sec mini" id="discordoL">Discordo</button>
+       <button class="bt sec mini" id="marcaL">${ST.lidas[aberta]?'<i class="ti ti-check"></i> lida':'marcar como lida'}</button>
+      </div>
+      <iframe class="quadro" id="quadroLeitura" src="leituras/${encodeURIComponent(aberta)}?tema=${temaEfetivo()}&embutida=1${ST.cfg.secao?"#"+encodeURIComponent(ST.cfg.secao):""}" title="${esc(it?it.t:"leitura")}"></iframe>
+     </div>`;
+    $$("#sumarioL a").forEach(a=>a.onclick=e=>{
+      e.preventDefault();
+      const q=$("#quadroLeitura");
+      q.contentWindow.postMessage({cm:"ir",id:a.dataset.sec},"*");
+    });
+    /* Quem decide se o sumário de dentro some é a coluna lateral estar VISÍVEL, não a página
+       estar embutida: entre 700 e 900 px a coluna não cabe, e esconder os dois deixaria a
+       leitura sem sumário nenhum. O app avisa, e reavalia a cada resize. */
+    const avisaSumario=()=>{
+      const q=$("#quadroLeitura"); if(!q||!q.contentWindow)return;
+      const nav=$("#sumarioL");
+      const lateral=!!nav&&getComputedStyle(nav).display!=="none";
+      q.contentWindow.postMessage({cm:"sumario",lateral},"*");
+    };
+    $("#quadroLeitura").addEventListener("load",avisaSumario);
+    addEventListener("resize",avisaSumario);
     ST.cfg.secao=null;
     document.body.classList.add("lendo");
     ajustaQuadro();addEventListener("resize",ajustaQuadro);
@@ -1300,22 +1388,42 @@ function pintaLeituras(){
       deb=setTimeout(()=>{const pos=cb.selectionStart;aplica("busca",v);
         const n=$("#lBusca");if(n){n.focus();try{n.setSelectionRange(pos,pos)}catch(_){}}},250)};
   }
-  $$("[data-ler]").forEach(b=>b.onclick=()=>{ST.cfg.lendo=b.dataset.ler;salva("cfg",ST.cfg);pintaLeituras()});
+  $$("[data-ler]").forEach(b=>{
+    const abre=()=>{ST.cfg.lendo=b.dataset.ler;salva("cfg",ST.cfg);pintaLeituras()};
+    b.onclick=abre;
+    if(b.getAttribute("role")==="button")b.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();abre()}};
+  });
 }
+/* Item de catálogo, não cartão. Antes cada leitura era uma caixa com borda, sombra, cinco pílulas
+   e o resumo inteiro — dois materiais preenchiam a tela e percorrer 99 leituras era impossível.
+   Agora: título, duas linhas de resumo e UMA linha de procedência. O resumo completo está no dek
+   da própria leitura, que é onde ele serve. */
 function cartaoLeitura(l){
-  const pg=ST.prog[l.f]||0, ix=(typeof IDXL!=="undefined")?IDXL.find(x=>x.f===l.f):null;
-  return `<div class="cx"><div class="linha" style="gap:6px">
-     <span class="pilula b">${esc(l.tipo||"")}</span><span class="pilula">${esc(NOME[l.area]||l.area||"")}</span>
-     <span class="pilula">${l.min} min</span>${ix&&ix.fx?`<span class="pilula"><i class="ti ti-route"></i> ${ix.fx} fluxograma${ix.fx>1?"s":""}</span>`:""}${ST.lidas[l.f]?`<span class="pilula ok"><i class="ti ti-check"></i> lida</span>`:pg>0?`<span class="pilula">${pg}%</span>`:""}</div>
-    <h3 style="margin:9px 0 4px">${esc(l.t)}</h3><p class="mini">${esc(l.s)}</p>
+  const pg=ST.prog[l.f]||0;
+  const estado=ST.lidas[l.f]?'<span class="lido"><i class="ti ti-check"></i>lida</span>'
+              :pg>0?`<span class="lido">${pg}% lido</span>`:"";
+  return `<article class="itemL" data-ler="${esc(l.f)}" tabindex="0" role="button">
+    <h3>${esc(l.t)}</h3>
+    <p class="resumoL">${esc(l.s)}</p>
+    <div class="metaL"><span>${esc(NOME[l.area]||l.area||"")}</span><span>${esc(l.tipo||"")}</span><span>${l.min} min</span>${estado}</div>
     ${pg>0&&!ST.lidas[l.f]?`<div class="progL"><i style="width:${pg}%"></i></div>`:""}
-    <button class="bt mini" data-ler="${esc(l.f)}" style="margin-top:9px">${pg>0&&!ST.lidas[l.f]?"continuar":"ler"}</button></div>`;
+  </article>`;
 }
 /* A leitura (iframe) avisa até onde rolou. Guarda o MÁXIMO por arquivo; a partir de 95% conta
    como lida sozinha — quem chegou ao fim não deveria ter de voltar ao topo para marcar. */
 let progDeb;
 addEventListener("message",e=>{
-  const m=e.data; if(!m||m.cm!=="prog"||!m.f)return;
+  const m=e.data; if(!m)return;
+  if(m.cm==="sec"&&m.id){
+    const nav=$("#sumarioL"); if(nav){
+      $$("#sumarioL a").forEach(a=>a.classList.toggle("aqui",a.dataset.sec===m.id));
+      const at=nav.querySelector("a.aqui");
+      if(at&&at.offsetTop<nav.scrollTop||at&&at.offsetTop>nav.scrollTop+nav.clientHeight-40)
+        nav.scrollTop=Math.max(0,at.offsetTop-nav.clientHeight/2);
+    }
+    return;
+  }
+  if(m.cm!=="prog"||!m.f)return;
   const pct=Math.max(0,Math.min(100,Math.round(+m.pct||0)));
   if(pct<=(ST.prog[m.f]||0))return;
   ST.prog[m.f]=pct;

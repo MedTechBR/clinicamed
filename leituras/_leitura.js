@@ -7,7 +7,21 @@
 (function(){
   function aplica(t){ if(t==="escuro"||t==="claro")document.documentElement.setAttribute("data-tema",t) }
   var p=new URLSearchParams(location.search); aplica(p.get("tema"));
-  addEventListener("message",function(e){ if(e.data&&e.data.cm==="tema"){aplica(e.data.tema);desenha(true)} });
+  /* Embutida no app, o sumário vive na coluna lateral — mantê-lo aqui repetiria meia tela de
+     links na abertura, que era o que empurrava o texto para baixo. Fora do app (leitura aberta
+     direto pelo endereço) ele continua no lugar. */
+  /* `embutida=1` só marca que estamos dentro do app; quem manda esconder o sumário é a mensagem
+     `sumario`, porque depende da largura da janela do app, não da nossa. */
+  if(p.get("embutida")==="1") document.documentElement.classList.add("noApp");
+  addEventListener("message",function(e){
+    if(!e.data)return;
+    if(e.data.cm==="tema"){aplica(e.data.tema);desenha(true)}
+    if(e.data.cm==="ir"){ var el=document.getElementById(e.data.id);
+      /* salto direto: com 14 mil pixels de texto, a rolagem suave leva segundos e qualquer
+         toque no meio do caminho a cancela — o sumário deixaria de funcionar sem avisar. */
+      if(el)el.scrollIntoView({behavior:"auto",block:"start"}) }
+    if(e.data.cm==="sumario"){ document.documentElement.classList.toggle("embutida", !!e.data.lateral) }
+  });
 
   var arq=location.pathname.split("/").pop();
   /* Só há progresso se a página for maior que a janela. No instante do load, antes de fonte
@@ -25,7 +39,15 @@
       try{ if(parent&&parent!==window)parent.postMessage({cm:"prog",f:arq,pct:v},"*") }catch(e){}
     },400);
   }
-  addEventListener("scroll",progresso,{passive:true});
+  /* diz ao app qual capítulo está na tela, para o sumário lateral acompanhar a leitura */
+  var secAtual=null;
+  function secaoVisivel(){
+    var hs=document.querySelectorAll("h2[id],h3[id]"), achou=null;
+    for(var i=0;i<hs.length;i++){ if(hs[i].getBoundingClientRect().top<=140) achou=hs[i].id; else break }
+    if(achou&&achou!==secAtual){ secAtual=achou;
+      try{ if(parent&&parent!==window)parent.postMessage({cm:"sec",f:arq,id:achou},"*") }catch(e){} }
+  }
+  addEventListener("scroll",function(){progresso();secaoVisivel()},{passive:true});
   addEventListener("load",function(){
     /* link copiável em cada seção */
     document.querySelectorAll("h2[id]").forEach(function(h){
