@@ -5040,27 +5040,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 48 anos internada na unidade de terapia intensiva por pancreatite aguda grave evolui, no quinto dia, com febre, leucocitose e piora clínica. A tomografia mostra necrose pancreática extensa, sem gás e sem coleção organizada. Qual é a conduta adequada?",
+  "q": "Mulher de 48 anos está na unidade de terapia intensiva por pancreatite aguda biliar grave. A tomografia do quinto dia mostrou necrose de cerca de 50% do parênquima. Hoje, no 19º dia, tem febre de 38,6 °C, frequência cardíaca de 108 bpm e pressão arterial de 118/70 mmHg, sem vasopressor. Leucócitos 18.400/mm³, proteína C reativa 210 mg/L, lactato 1,4 mmol/L. Recebe dieta por sonda nasojejunal, com boa tolerância. A nova tomografia mostra coleção necrótica de 9 cm com bolhas de gás e parede parcialmente definida. Hemoculturas foram colhidas. Qual é a conduta mais adequada agora?",
   "alts": [
-   "Iniciar antibiótico profilático de amplo espectro para toda necrose extensa vista na imagem.",
-   "Coletar culturas e considerar punção guiada, sem indicar antibiótico profilático de rotina.",
-   "Indicar necrosectomia cirúrgica aberta imediata devido à extensão da necrose vista no exame.",
-   "Suspender a dieta enteral e manter nutrição parenteral exclusiva até a resolução do quadro.",
-   "Solicitar colangiopancreatografia retrógrada endoscópica de urgência para todos esses casos."
+   "Necrosectomia cirúrgica aberta nas próximas 48 horas",
+   "Punção aspirativa guiada antes de iniciar antibiótico",
+   "Carbapenêmico e adiar a drenagem até a encapsulação",
+   "Trocar a dieta enteral por nutrição parenteral total",
+   "Meropeném com fluconazol empírico e drenagem imediata"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; IAP/APA evidence-based guidelines for the management of acute pancreatitis",
-  "coment": "Na pancreatite necrosante, o antibiótico profilático não reduz mortalidade nem infecção da necrose e não é recomendado de rotina. A febre e a leucocitose podem decorrer da própria resposta inflamatória sistêmica, e a conduta é investigar foco com culturas, avaliando punção aspirativa guiada quando há suspeita de necrose infectada, cujo marcador radiológico mais específico é a presença de gás. A nutrição enteral é preferida à parenteral, e a intervenção sobre a necrose é postergada, idealmente por quatro semanas, com preferência por abordagem minimamente invasiva escalonada.",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; IAP/APA evidence-based guidelines for the management of acute pancreatitis, 2013",
+  "coment": "Bolhas de gás numa coleção necrótica, com febre e leucocitose depois da segunda semana, bastam para tratar como necrose infectada. No paciente estável, a diretriz do ACG (2024) e a IAP/APA indicam antibiótico com penetração no tecido pancreático (carbapenêmico, ou quinolona com metronidazol) e adiar a intervenção até a necrose ficar encapsulada, em geral após 4 semanas. Se piorar apesar do antibiótico, a sequência é escalonada: drenagem percutânea ou endoscópica e, só depois, necrosectomia minimamente invasiva.",
   "porAlt": [
-   "O antibiótico profilático não reduz mortalidade nem infecção e seleciona germes resistentes e fungos.",
-   "Correta: culturas e eventual punção guiada, sem antibiótico profilático de rotina na necrose estéril.",
-   "A necrosectomia precoce aumenta a mortalidade; a abordagem é postergada e minimamente invasiva.",
-   "A nutrição enteral é preferida à parenteral por reduzir infecção e preservar a barreira intestinal.",
-   "A colangiopancreatografia de urgência se reserva à colangite associada ou à obstrução biliar persistente."
+   "Cirurgia aberta precoce aumenta falência orgânica e mortalidade; a abordagem é escalonada e minimamente invasiva.",
+   "Gás na necrose já indica infecção; a punção de rotina deixou de ser recomendada e atrasaria o antibiótico.",
+   "Paciente estável com necrose infectada: antibiótico com boa penetração e intervenção adiada até a coleção estar encapsulada.",
+   "A via enteral preserva a barreira intestinal, reduz infecção e está sendo bem tolerada.",
+   "Antifúngico empírico não é rotina, e drenar antes da encapsulação só se justifica se houver deterioração."
   ]
  },
  {
@@ -5304,27 +5304,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 62 anos, cirrótico, internado na enfermaria com ascite volumosa e dor abdominal difusa. A paracentese diagnóstica mostra 480 neutrófilos por milímetro cúbico no líquido ascítico. Qual é a conduta correta?",
+  "q": "Homem de 62 anos com cirrose alcoólica, Child-Pugh C, é internado por aumento do volume abdominal e dor difusa leve. Temperatura 37,6 °C, pressão arterial 104/62 mmHg. Exames: creatinina 1,7 mg/dL (0,9 mg/dL há um mês), bilirrubina total 4,6 mg/dL, sódio 131 mEq/L. Não usa profilaxia antibiótica. A paracentese diagnóstica mostra 480 polimorfonucleares/mm³, proteína total de 0,9 g/dL e bacterioscopia sem bactérias. Qual é a conduta?",
   "alts": [
-   "Iniciar cefalosporina de terceira geração e albumina, que reduz a mortalidade e a lesão renal.",
-   "Aguardar a cultura do líquido ascítico antes de iniciar qualquer tratamento antimicrobiano dele.",
-   "Iniciar apenas albumina intravenosa, reservando o antibiótico para o caso de cultura positiva.",
-   "Indicar laparotomia exploradora de urgência devido à peritonite identificada na paracentese dele.",
-   "Prescrever antibiótico oral por sete dias e liberar a alta hospitalar no mesmo dia do exame."
+   "Ceftriaxona isolada e nova paracentese em 48 horas",
+   "Aguardar a cultura, pois a bacterioscopia foi negativa",
+   "Ceftriaxona e terlipressina iniciadas já na admissão",
+   "Albumina 20 g/dia e manter os diuréticos em uso",
+   "Ceftriaxona com albumina nos dias 1 e 3"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
-  "base": "AASLD Practice Guidance on ascites and spontaneous bacterial peritonitis, 2021; Baveno VII, 2022",
-  "coment": "Contagem de neutrófilos igual ou superior a 250 por milímetro cúbico no líquido ascítico define peritonite bacteriana espontânea, mesmo com cultura negativa, e o tratamento começa imediatamente com cefalosporina de terceira geração. A infusão de albumina, 1,5 g/kg no primeiro dia e 1 g/kg no terceiro, reduz a incidência de síndrome hepatorrenal e a mortalidade. Após o episódio, indica-se profilaxia secundária com quinolona e avaliação para transplante hepático.",
+  "base": "AASLD Practice Guidance: Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome, 2021; EASL Clinical Practice Guidelines for decompensated cirrhosis, 2018",
+  "coment": "O diagnóstico de peritonite bacteriana espontânea exige apenas 250 ou mais polimorfonucleares/mm³ no líquido ascítico. Na infecção adquirida na comunidade, sem profilaxia prévia, cefalosporina de terceira geração é adequada. A albumina no esquema de Sort (1,5 g/kg no dia 1 e 1 g/kg no dia 3) reduz síndrome hepatorrenal e mortalidade, com benefício concentrado em quem tem creatinina acima de 1 mg/dL, ureia acima de 60 mg/dL ou bilirrubina acima de 4 mg/dL. Os diuréticos são suspensos pela lesão renal.",
   "porAlt": [
-   "Correta: cefalosporina de terceira geração associada a albumina, que reduz lesão renal e mortalidade.",
-   "Aguardar cultura atrasa o tratamento de uma infecção com mortalidade elevada e cultura frequentemente negativa.",
-   "Albumina isolada não trata a infecção e o antibiótico não deve depender do resultado da cultura.",
-   "A peritonite bacteriana espontânea é tratada clinicamente, e a laparotomia não está indicada aqui.",
-   "O tratamento é intravenoso e hospitalar, com reavaliação e profilaxia secundária programada depois."
+   "Com creatinina acima de 1 mg/dL e bilirrubina acima de 4 mg/dL, a albumina reduz lesão renal e mortalidade; o antibiótico isolado é insuficiente.",
+   "Mais de 250 polimorfonucleares/mm³ já definem a peritonite; a bacterioscopia costuma ser negativa.",
+   "Terlipressina trata a síndrome hepatorrenal estabelecida, não previne a lesão renal da peritonite.",
+   "Diuréticos devem ser suspensos diante de lesão renal aguda, e a dose de albumina está abaixo da estudada.",
+   "Cefalosporina de terceira geração com albumina 1,5 g/kg no diagnóstico e 1 g/kg no terceiro dia, indicada pela creatinina e bilirrubina elevadas."
   ]
  },
  {
@@ -5376,27 +5376,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 48 anos internado na enfermaria por pielonefrite aguda com boa resposta ao antibiótico apresenta, no quarto dia, três evacuações líquidas ao dia, sem sangue, com febre baixa e leucocitose. Qual é a conduta inicial mais adequada?",
+  "q": "Homem de 71 anos, internado há 6 dias por pneumonia comunitária em uso de ceftriaxona, passa a ter 7 evacuações líquidas por dia, febre de 38,1 °C e distensão abdominal leve, sem sinais de peritonite. Pressão arterial 124/76 mmHg, ruídos hidroaéreos presentes. Leucócitos 19.800/mm³, creatinina 1,8 mg/dL (0,9 mg/dL na admissão), lactato 1,3 mmol/L. Nas fezes, glutamato desidrogenase e toxina de Clostridioides difficile positivos. A pneumonia já completou o tempo de tratamento. Além de suspender a ceftriaxona, qual é o tratamento?",
   "alts": [
-   "Prescrever loperamida imediatamente para reduzir o número de evacuações e o desconforto do paciente.",
-   "Iniciar vancomicina oral empírica para todo paciente com diarreia durante o uso de antibiótico.",
-   "Suspender o antibiótico da pielonefrite e liberar a alta hospitalar com dieta livre de lactose.",
-   "Solicitar colonoscopia de urgência como primeiro exame para investigar a causa da diarreia dele.",
-   "Pesquisar toxina e antígeno de Clostridioides difficile nas fezes antes de prescrever antidiarreico."
+   "Metronidazol oral 500 mg de 8/8 horas por 10 dias",
+   "Vancomicina oral 125 mg de 6/6 horas por 10 dias",
+   "Vancomicina endovenosa 1 g de 12/12 horas",
+   "Vancomicina oral 500 mg e metronidazol endovenoso",
+   "Loperamida associada à vancomicina oral"
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ACG Clinical Guideline: Prevention, Diagnosis, and Treatment of Clostridioides difficile Infections, 2021; IDSA/SHEA guideline, 2021",
-  "coment": "Diarreia que surge durante ou após antibioticoterapia em paciente internado deve levantar a suspeita de infecção por Clostridioides difficile, investigada por pesquisa de toxina associada a antígeno ou teste molecular, em amostra de fezes não formadas. O antidiarreico está contraindicado até que o diagnóstico seja afastado, pelo risco de megacólon tóxico. Confirmada a infecção, o tratamento de primeira linha é vancomicina oral ou fidaxomicina, com medidas de precaução de contato e higiene das mãos com água e sabão.",
+  "base": "IDSA/SHEA Focused Update Guidelines on Clostridioides difficile Infection in Adults, 2021; ACG Clinical Guideline: Clostridioides difficile Infections, 2021",
+  "coment": "Leucocitose acima de 15.000/mm³ ou creatinina acima de 1,5 mg/dL classificam a infecção por C. difficile como grave. A atualização da IDSA/SHEA (2021) prefere fidaxomicina e aceita vancomicina oral 125 mg de 6/6 horas por 10 dias; o metronidazol ficou restrito à forma não grave quando as outras opções não estão disponíveis. Vancomicina oral 500 mg com metronidazol endovenoso é o esquema da forma fulminante. Suspender o antibiótico desencadeante faz parte do tratamento.",
   "porAlt": [
-   "Loperamida antes de afastar a infecção aumenta o risco de íleo e de megacólon tóxico.",
-   "O tratamento empírico universal não é recomendado: a investigação precede a terapia dirigida.",
-   "Suspender o antibiótico da infecção urinária tratada e dar alta ignora a suspeita diagnóstica atual.",
-   "A colonoscopia não é o exame inicial e traz risco de perfuração na colite grave estabelecida.",
-   "Correta: investigar Clostridioides difficile antes de qualquer antidiarreico nesse contexto."
+   "Metronidazol não é primeira linha, e muito menos na forma grave definida por leucócitos acima de 15.000/mm³ ou creatinina acima de 1,5 mg/dL.",
+   "Forma grave, não fulminante: vancomicina oral ou fidaxomicina por 10 dias.",
+   "Vancomicina endovenosa não chega à luz do cólon.",
+   "Esquema da forma fulminante, com hipotensão, choque, íleo ou megacólon, ausentes aqui.",
+   "Antiperistáltico na colite por C. difficile aumenta o risco de megacólon tóxico."
   ]
  },
  {
@@ -5448,27 +5448,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 52 anos internado na enfermaria por hemorragia digestiva alta por úlcera péptica, após endoscopia com hemostasia bem-sucedida, encontra-se estável. A pesquisa de Helicobacter pylori foi positiva. Qual é a conduta correta na alta?",
+  "q": "Homem de 52 anos teve hemorragia digestiva alta por úlcera duodenal de 12 mm com coágulo aderido, tratada com injeção de adrenalina e clipe. Recebe omeprazol endovenoso 80 mg/dia desde a admissão, há 3 dias. O teste rápido da urease feito em biópsia antral durante a endoscopia foi negativo. Não usa anti-inflamatório nem ácido acetilsalicílico. Hemoglobina estável em 9,8 g/dL; terá alta hoje. Qual é a conduta quanto ao Helicobacter pylori?",
   "alts": [
-   "Manter inibidor de bomba de prótons de forma isolada, sem tratar a infecção diagnosticada nele.",
-   "Repetir a endoscopia em quarenta e oito horas para todos os pacientes com úlcera já tratada.",
-   "Prescrever anti-inflamatório para a dor abdominal residual associado a protetor gástrico oral.",
-   "Encaminhar diretamente para cirurgia eletiva de úlcera devido ao episódio de sangramento dele.",
-   "Tratar a infecção com esquema de erradicação e confirmar a cura por teste posterior programado."
+   "Considerar a úlcera não relacionada à bactéria",
+   "Teste respiratório na alta, mantendo o omeprazol",
+   "Endoscopia de revisão em 48 horas com nova biópsia",
+   "Nova pesquisa depois do curso de omeprazol",
+   "Tríplice empírica com claritromicina já na alta"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
   "base": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024; ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021",
-  "coment": "A erradicação do Helicobacter pylori reduz de forma expressiva a recidiva de úlcera péptica e de novo sangramento, e o tratamento deve ser prescrito sempre que a infecção for identificada nesse contexto. A confirmação da erradicação é recomendada, por teste respiratório da ureia ou antígeno fecal, ao menos quatro semanas após o término do antibiótico e com o inibidor de bomba suspenso por duas semanas. Anti-inflamatórios devem ser evitados, e a endoscopia de controle não é rotina após hemostasia bem-sucedida.",
+  "coment": "Durante hemorragia digestiva alta e sob inibidor de bomba em dose alta, os testes para H. pylori (urease, histologia, teste respiratório) perdem sensibilidade. A diretriz do ACG recomenda repetir a pesquisa quando o teste da fase aguda é negativo, depois de suspender o inibidor por 2 semanas e antibiótico ou bismuto por 4 semanas. Úlcera duodenal sem anti-inflamatório tem H. pylori como causa na grande maioria dos casos, e a erradicação é o que previne o ressangramento.",
   "porAlt": [
-   "Manter apenas inibidor de bomba sem erradicar mantém alto o risco de recidiva da úlcera e do sangramento.",
-   "A endoscopia de controle precoce não é rotina após hemostasia endoscópica bem-sucedida e estável.",
-   "O anti-inflamatório é justamente um dos fatores que causam e perpetuam a doença ulcerosa péptica.",
-   "A cirurgia se reserva à falha do tratamento endoscópico e clínico, o que não ocorreu neste caso.",
-   "Correta: erradicar a infecção e confirmar a cura por teste realizado após o intervalo adequado."
+   "Com sangramento e inibidor de bomba há muitos falsos negativos; úlcera duodenal sem anti-inflamatório é, na maioria, por H. pylori.",
+   "O inibidor de bomba reduz a carga bacteriana e torna o teste respiratório falsamente negativo.",
+   "Endoscopia de revisão programada não é recomendada após hemostasia eficaz.",
+   "Teste negativo durante o sangramento deve ser repetido, com o inibidor suspenso há pelo menos 2 semanas.",
+   "Tratar sem diagnóstico expõe a antibiótico desnecessário e dificulta a escolha de esquema se houver falha."
   ]
  },
  {
@@ -5856,27 +5856,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 62 anos internado na enfermaria por descompensação de cirrose apresenta, no terceiro dia, desorientação, inversão do ciclo de sono e flapping. Não há febre, sangramento nem uso recente de sedativo. Qual é a conduta inicial?",
+  "q": "Homem de 62 anos com cirrose por vírus C, em uso de espironolactona 200 mg/dia e furosemida 80 mg/dia, é internado por confusão e inversão do ciclo sono-vigília há 2 dias. Tem asterixe, está afebril e sem sinais de sangramento; a última evacuação foi há 4 dias. Exames: sódio 128 mEq/L, potássio 2,9 mEq/L, creatinina 1,6 mg/dL (1,0 mg/dL há 2 meses), hemoglobina estável em 11,2 g/dL. A paracentese diagnóstica mostra 90 polimorfonucleares/mm³. Qual é a conduta inicial?",
   "alts": [
-   "Dosar a amônia sérica e ajustar a lactulose exclusivamente conforme o valor obtido nesse exame.",
-   "Restringir proteína da dieta de forma prolongada para reduzir a produção intestinal de amônia.",
-   "Prescrever benzodiazepínico para regularizar o ciclo de sono e vigília alterado desse paciente.",
-   "Investigar e tratar o fator precipitante e iniciar lactulose, com rifaximina em casos recorrentes.",
-   "Indicar transplante hepático de urgência para todo episódio de encefalopatia hepática recorrente."
+   "Suspender diuréticos, repor potássio e iniciar lactulose",
+   "Rifaximina isolada como tratamento de primeira linha",
+   "Restringir proteína da dieta a 0,6 g/kg/dia",
+   "Tomografia de crânio antes de iniciar a lactulose",
+   "Flumazenil e manutenção dos diuréticos"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
-  "base": "AASLD/EASL Practice Guideline on hepatic encephalopathy, 2014 e atualizações; Baveno VII, 2022",
-  "coment": "A encefalopatia hepática é diagnóstico clínico, e a prioridade é identificar e tratar o precipitante. Infecção, sangramento digestivo, constipação, distúrbio eletrolítico, desidratação, sedativos e lesão renal. O tratamento é lactulose, titulada para duas a três evacuações pastosas por dia, com rifaximina associada na recorrência. A amônia sérica não confirma nem exclui o diagnóstico e não deve guiar a terapia. A restrição proteica prolongada agrava sarcopenia e piora o prognóstico.",
+  "base": "AASLD/EASL Practice Guideline: Hepatic Encephalopathy in Chronic Liver Disease, 2014; EASL Clinical Practice Guidelines on the management of hepatic encephalopathy, 2022",
+  "coment": "Encefalopatia hepática quase sempre tem precipitante. Aqui há três: hipocalemia, que aumenta a produção renal de amônia, lesão renal aguda por diurético e constipação. Peritonite e sangramento foram afastados. A conduta é corrigir os precipitantes, suspender os diuréticos e iniciar lactulose titulada para 2 a 3 evacuações pastosas por dia. Rifaximina entra associada à lactulose na profilaxia de recorrência.",
   "porAlt": [
-   "A amônia sérica não confirma nem exclui encefalopatia hepática e não serve para guiar o tratamento.",
-   "A restrição proteica prolongada agrava a sarcopenia e piora o prognóstico do paciente cirrótico.",
-   "Benzodiazepínico agrava a encefalopatia hepática e deve ser evitado nesses pacientes internados.",
-   "Correta: tratar o fator precipitante e iniciar lactulose, associando rifaximina nos casos recorrentes.",
-   "O transplante é discutido conforme gravidade e critérios, e não indicado por um episódio isolado."
+   "Hipocalemia, lesão renal por diurético e constipação são os precipitantes; corrigi-los com lactulose resolve a maioria dos episódios.",
+   "Rifaximina é associada à lactulose na prevenção de recorrência, não usada isolada no episódio agudo.",
+   "Restrição proteica piora a sarcopenia; a meta na cirrose é 1,2 a 1,5 g/kg/dia.",
+   "Sem trauma, déficit focal ou falta de resposta, a imagem não precisa preceder o tratamento.",
+   "Não há uso de benzodiazepínico, e manter o diurético perpetua a hipocalemia e a lesão renal."
   ]
  },
  {
@@ -7248,99 +7248,99 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 45 anos, etilista, chega com dor epigástrica intensa irradiada para o dorso, vômitos e amilase cinco vezes acima do normal. Está com frequência de 104 bpm e pressão de 116/72 mmHg. Qual é a conduta inicial mais importante nas primeiras 24 horas?",
+  "q": "Homem de 45 anos, etilista, chega com dor epigástrica em faixa há 10 horas, vômitos e lipase de 1.900 U/L (referência até 60 U/L). Frequência cardíaca 104 bpm, pressão arterial 116/72 mmHg, saturação 97% em ar ambiente. Hematócrito 46%, ureia 48 mg/dL, creatinina 1,1 mg/dL. Ultrassonografia sem cálculos biliares. Não há sinais de sobrecarga de volume nem cardiopatia conhecida. Qual esquema de hidratação é o recomendado?",
   "alts": [
-   "Jejum absoluto prolongado por sete dias, com nutrição parenteral total desde a admissão hospitalar.",
-   "Antibiótico profilático de amplo espectro para todos, prevenindo a necrose pancreática infectada.",
-   "Tomografia de abdome imediata na admissão, exame que define a conduta das primeiras horas do caso.",
-   "Colangiopancreatografia endoscópica de urgência em todos os casos de pancreatite aguda instalada.",
-   "Hidratação venosa precoce com cristaloide balanceado, analgesia e dieta oral precoce em todos."
+   "Ringer lactato 20 mL/kg em bolus e 3 mL/kg/h por 48 h",
+   "Soro fisiológico a 250 mL/h fixos por 72 horas",
+   "Ringer lactato 10 mL/kg e 1,5 mL/kg/h, reavaliando",
+   "Hidroxietilamido para reduzir o volume infundido",
+   "Hidratação restrita até a tomografia afastar necrose"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American College of Gastroenterology, 2024, Guidelines: Management of Acute Pancreatitis",
-  "coment": "As primeiras 24 horas definem o desfecho da pancreatite aguda, e a intervenção com maior impacto é a hidratação venosa precoce com cristaloide balanceado, em ritmo moderado e guiada por resposta, junto de analgesia eficaz. A nutrição enteral ou a dieta oral precoce, quando tolerada, é preferível ao jejum prolongado, que se associa a atrofia de mucosa e translocação bacteriana. Antibiótico profilático não é recomendado na pancreatite sem infecção documentada. A tomografia é mais útil após 72 horas para avaliar necrose, e a via endoscópica se reserva à colangite ou obstrução biliar persistente.",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; de-Madaria et al., WATERFALL, NEJM, 2022",
+  "coment": "O estudo WATERFALL (NEJM, 2022) comparou hidratação agressiva (20 mL/kg em bolus e 3 mL/kg/h) com moderada (10 mL/kg em bolus apenas se hipovolêmico e 1,5 mL/kg/h) e foi interrompido por mais sobrecarga de volume no braço agressivo, sem melhora de desfecho. A diretriz do ACG de 2024 passou a recomendar hidratação moderada, com Ringer lactato e reavaliação frequente. Analgesia adequada e dieta oral precoce assim que tolerada completam o manejo inicial.",
   "porAlt": [
-   "Jejum prolongado com nutrição parenteral foi abandonado: piora a barreira intestinal e não melhora o curso da doença.",
-   "A profilaxia antibiótica não reduz necrose infectada nem mortalidade, e seleciona germes resistentes sem benefício.",
-   "A tomografia precoce subestima a necrose, que leva dias para se delimitar, e não muda a conduta das primeiras horas.",
-   "A via endoscópica de urgência se reserva à colangite associada ou à obstrução biliar persistente, não a todos os casos.",
-   "Correta: hidratação precoce com cristaloide balanceado, analgesia e dieta oral precoce compõem o cuidado inicial que muda o desfecho."
+   "É o esquema agressivo do WATERFALL: mais sobrecarga de volume sem benefício clínico.",
+   "Volume fixo dispensa a reavaliação, e o soro fisiológico em grande volume causa acidose hiperclorêmica.",
+   "Hidratação moderada com cristaloide balanceado e reavaliação frequente, como no WATERFALL.",
+   "Hidroxietilamido aumenta lesão renal e não é indicado.",
+   "A tomografia não é necessária no primeiro dia e não deve atrasar a hidratação."
   ]
  },
  {
-  "q": "Mulher de 31 anos tem diarreia crônica com sangue, dor abdominal e perda de 6 kg em quatro meses. A colonoscopia mostra acometimento contínuo desde o reto até o cólon descendente, com friabilidade e úlceras superficiais. A biópsia confirma inflamação limitada à mucosa. Qual é o diagnóstico?",
+  "q": "Mulher de 64 anos tem há 5 meses diarreia aquosa, sem sangue, com 6 a 8 evacuações por dia, inclusive à noite, e perda de 3 kg. Usa omeprazol 20 mg/dia há 2 anos, sertralina 50 mg/dia e naproxeno eventual. Tem hipotireoidismo autoimune. Antitransglutaminase IgA negativa com IgA total normal, calprotectina fecal de 90 µg/g, TSH normal. Colonoscopia macroscopicamente normal; biópsias seriadas do cólon mostram banda de colágeno subepitelial de 18 µm e aumento de linfócitos na lâmina própria. Qual é a conduta?",
   "alts": [
-   "Doença de Crohn, sustentada pelo padrão contínuo e pela ausência de acometimento transmural aqui.",
-   "Colite infecciosa aguda, hipótese preferida diante de quatro meses de sintomas e perda ponderal.",
-   "Síndrome do intestino irritável, cujo diagnóstico é compatível com sangramento e emagrecimento.",
-   "Colite isquêmica crônica, achado esperado em mulheres jovens sem qualquer fator de risco vascular.",
-   "Retocolite ulcerativa, pelo acometimento contínuo desde o reto com inflamação restrita à mucosa."
+   "Mesalazina oral 3 g/dia",
+   "Budesonida oral 9 mg/dia e revisão dos fármacos",
+   "Prednisona 40 mg/dia por 8 semanas",
+   "Loperamida contínua como tratamento principal",
+   "Metronidazol por 14 dias"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AGA Institute Guideline on the Medical Management of Microscopic Colitis, 2016; European Guidelines on microscopic colitis (UEG and EMCG), 2021",
+  "coment": "Diarreia aquosa crônica com colonoscopia normal e banda de colágeno subepitelial acima de 10 µm nas biópsias define colite colagenosa, uma forma de colite microscópica, mais comum em mulheres acima de 50 anos, com doença autoimune e em uso de inibidor de bomba, inibidor seletivo de recaptação de serotonina ou anti-inflamatório. A AGA (2016) e a European Microscopic Colitis Group (2021) recomendam budesonida oral 9 mg/dia para indução e revisão dos fármacos associados. Mesalazina e prednisona são menos eficazes.",
+  "porAlt": [
+   "Mesalazina foi inferior à budesonida e não é recomendada na colite microscópica.",
+   "Budesonida induz remissão em cerca de 80% dos casos; suspender ou trocar omeprazol, sertralina e naproxeno quando possível.",
+   "Corticoide sistêmico tem mais efeitos adversos e resposta inferior à da budesonida.",
+   "Loperamida alivia sintomas leves, mas não trata a inflamação de um quadro com 6 a 8 evacuações.",
+   "Não há evidência de causa infecciosa, e antibiótico não trata colite microscópica."
+  ]
+ },
+ {
+  "q": "Mulher de 44 anos tem pirose e regurgitação há 2 anos. Usa omeprazol 20 mg duas vezes ao dia, 30 minutos antes do café e do jantar, há 10 semanas, com melhora de apenas 30%. Não tem disfagia, perda de peso, anemia ou vômitos. Endoscopia recente sem esofagite, sem hérnia hiatal e sem esôfago de Barrett, com biópsias esofágicas normais. Não há exame funcional prévio. Qual é o próximo passo?",
+  "alts": [
+   "Fundoplicatura laparoscópica pela refratariedade",
+   "Trocar para outro inibidor em dose dobrada",
+   "Manometria esofágica para confirmar refluxo",
+   "Baclofeno associado ao omeprazol",
+   "pHmetria prolongada com o inibidor suspenso"
   ],
   "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r2",
-  "base": "American College of Gastroenterology, 2019: Ulcerative Colitis in Adults; Cecil Medicina, 26ª edição, 2022",
-  "coment": "A retocolite ulcerativa acomete o reto e se estende de forma contínua e proximal, com inflamação restrita à mucosa e submucosa, exatamente o descrito. A doença de Crohn tem acometimento descontínuo, com lesões salteadas, poupa frequentemente o reto, é transmural e pode acometer qualquer segmento do tubo digestivo, com fístulas e doença perianal. Colite infecciosa não se arrasta por meses com perda ponderal progressiva. Sangramento e emagrecimento são bandeiras vermelhas que afastam o diagnóstico de síndrome do intestino irritável, que é de exclusão e não cursa com esses achados.",
-  "porAlt": [
-   "A doença de Crohn tem padrão salteado e inflamação transmural, o oposto do que a colonoscopia e a biópsia mostraram.",
-   "Colite infecciosa é aguda e autolimitada; quatro meses de sintomas com perda ponderal apontam doença inflamatória.",
-   "Sangramento e emagrecimento são bandeiras vermelhas que excluem o diagnóstico de síndrome do intestino irritável.",
-   "Colite isquêmica ocorre em idosos com doença vascular, tipicamente no cólon esquerdo e de forma aguda, não crônica.",
-   "Correta: acometimento contínuo a partir do reto com inflamação limitada à mucosa caracteriza retocolite ulcerativa."
-  ]
- },
- {
-  "q": "Homem de 58 anos tem pirose três vezes por semana há seis meses, com regurgitação. Refere ainda disfagia progressiva para sólidos e perda de 5 kg no período. Qual é a conduta correta?",
-  "alts": [
-   "Iniciar inibidor de bomba por oito semanas e reavaliar, sem nenhum exame já neste primeiro momento.",
-   "Prescrever apenas medidas comportamentais, adiando exame e medicação por seis meses de observação.",
-   "Solicitar endoscopia digestiva alta: todo sinal de alarme junto de refluxo obriga a ver o esôfago.",
-   "Solicitar pHmetria esofágica como primeiro exame, mesmo diante de disfagia e perda de peso presentes.",
-   "Tratar empiricamente para infecção por Helicobacter pylori, sem qualquer investigação prévia do caso."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "dx",
   "nivel": "r1",
-  "base": "American College of Gastroenterology, 2022, Diagnosis and Management of Gastroesophageal Reflux Disease",
-  "coment": "Disfagia progressiva e perda de peso são sinais de alarme e mudam a conduta: o paciente com sintomas de refluxo e qualquer bandeira vermelha (disfagia, odinofagia, emagrecimento, anemia, sangramento, vômitos persistentes, história familiar de neoplasia) deve fazer endoscopia digestiva alta antes de tratamento empírico, para afastar esofagite grave, estenose, esôfago de Barrett e neoplasia. Na ausência de sinais de alarme, o teste terapêutico com inibidor de bomba por oito semanas é aceitável como estratégia inicial, com pHmetria reservada a casos duvidosos ou refratários.",
+  "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022; Lyon Consensus 2.0, 2024",
+  "coment": "Sintomas típicos que não respondem a 8 semanas de inibidor em dose dobrada, com endoscopia sem esofagite LA grau B ou mais grave, Barrett ou estenose péptica, deixam o diagnóstico de doença do refluxo sem confirmação. A diretriz do ACG (2022) recomenda monitorização prolongada do pH esofágico sem o inibidor antes de escalar o tratamento. Se o refluxo já tivesse sido comprovado, o exame seria feito em uso do inibidor, com impedância. Parte desses pacientes tem pirose funcional ou hipersensibilidade ao refluxo.",
   "porAlt": [
-   "O teste terapêutico é aceitável só na ausência de sinais de alarme, que aqui estão presentes e mudam a conduta.",
-   "Adiar por seis meses um paciente com disfagia e emagrecimento pode atrasar o diagnóstico de neoplasia esofágica.",
-   "Correta: disfagia progressiva e perda de peso são sinais de alarme e indicam endoscopia antes do tratamento empírico.",
-   "A pHmetria não é o primeiro exame e não afasta lesão estrutural, que é justamente a preocupação neste caso.",
-   "Tratar Helicobacter sem investigar não responde à disfagia nem à perda ponderal, que exigem visualização direta."
+   "Cirurgia sem prova objetiva de refluxo tem alto risco de falha; muitos refratários têm pirose funcional.",
+   "Trocar de inibidor sem confirmar o diagnóstico prolonga um tratamento possivelmente inútil.",
+   "Manometria avalia motilidade e orienta a posição do cateter, mas não diagnostica refluxo.",
+   "Baclofeno tem papel limitado e só depois de refluxo comprovado.",
+   "Sem esofagite ou Barrett, o refluxo deve ser comprovado por monitorização de pH fora do inibidor, idealmente por 96 horas com cápsula."
   ]
  },
  {
-  "q": "Mulher de 55 anos, assintomática, sem história familiar de câncer colorretal e sem doença inflamatória intestinal, pergunta sobre rastreamento de câncer de intestino. Qual é a orientação correta segundo as diretrizes brasileiras vigentes?",
+  "q": "Mulher de 38 anos, assintomática, procura a unidade básica pedindo orientação sobre câncer colorretal. O pai teve adenocarcinoma de cólon sigmoide diagnosticado aos 52 anos e está vivo; a mãe e os dois irmãos não tiveram câncer, e não há casos de câncer de endométrio, ovário ou estômago na família, nem critérios clínicos para síndrome hereditária. Ela não fez exame do intestino até hoje, tem hábito intestinal normal e não usa medicações. Hemograma normal. Qual é a recomendação de rastreamento?",
   "alts": [
-   "Não há indicação de rastrear, pois sem história familiar o risco de câncer colorretal é desprezível.",
-   "O rastreamento começa apenas aos setenta anos de idade para pessoas de risco habitual como ela.",
-   "A colonoscopia deve ser repetida anualmente em todos os adultos, seja qual for o resultado já obtido.",
-   "Está na faixa de rastreamento, feito sempre por colonoscopia ou por pesquisa de sangue oculto.",
-   "Somente a tomografia de abdome é aceita como método de rastreamento de câncer colorretal no país."
+   "Colonoscopia aos 45 anos, a cada 10 anos",
+   "Colonoscopia aos 40 anos, a cada 5 anos",
+   "Sangue oculto anual a partir dos 50 anos",
+   "Colonoscopia aos 42 anos, a cada 10 anos",
+   "Teste genético antes de indicar colonoscopia"
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Instituto Nacional de Câncer e Sociedade Brasileira de Coloproctologia, 2024, rastreamento de câncer colorretal",
-  "coment": "O rastreamento de câncer colorretal em risco habitual começa na faixa dos 45 a 50 anos e vai até cerca dos 75, com duas estratégias principais: pesquisa de sangue oculto nas fezes por método imunoquímico, anual ou bienal, com colonoscopia se positivo; ou colonoscopia como exame primário, repetida a cada dez anos quando normal. A maioria dos casos ocorre em pessoas sem história familiar, de modo que a ausência de parente afetado não dispensa o rastreamento. Colonoscopia anual só se justifica em situações específicas, como polipose ou síndromes hereditárias.",
+  "base": "US Multi-Society Task Force on Colorectal Cancer: Recommendations for Physicians and Patients, 2017, e atualização de 2021",
+  "coment": "Um parente de primeiro grau com câncer colorretal ou adenoma avançado diagnosticado antes dos 60 anos coloca o paciente em risco aumentado. A US Multi-Society Task Force recomenda colonoscopia a partir dos 40 anos ou 10 anos antes da idade do diagnóstico do parente mais jovem, o que ocorrer primeiro, repetida a cada 5 anos. Aqui, 40 anos vem antes de 42.",
   "porAlt": [
-   "A maior parte dos casos de câncer colorretal ocorre sem história familiar, de modo que a ausência dela não dispensa rastrear.",
-   "Começar aos setenta perde décadas de detecção precoce, justamente quando a remoção de pólipos previne o câncer.",
-   "Colonoscopia anual não é recomendada em risco habitual: o intervalo é de dez anos quando o exame é normal.",
-   "Correta: ela está na faixa de rastreamento de risco habitual, que admite sangue oculto imunoquímico ou colonoscopia.",
-   "A tomografia não é método de rastreamento de rotina; a colonografia tem indicações restritas e não substitui os métodos padrão."
+   "É a regra do risco habitual; parente de primeiro grau com câncer antes dos 60 anos aumenta o risco.",
+   "Início aos 40 anos ou 10 anos antes do caso mais jovem, o que vier primeiro, repetida a cada 5 anos.",
+   "Pesquisa de sangue oculto não é o método preferido nesse grupo de risco aumentado.",
+   "Aos 42 seria 10 anos antes do caso, mas 40 vem antes; e o intervalo é de 5 anos.",
+   "Sem critérios para síndrome hereditária, o teste genético não é pré-requisito do rastreamento."
   ]
  },
  {
@@ -8424,51 +8424,51 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 63 anos com cirrose apresenta confusão mental e inversão do ciclo sono-vigília há dois dias. Está afebril, sem sinais de sangramento, com amônia sérica dentro da normalidade. Como interpretar e conduzir?",
+  "q": "Mulher de 63 anos com cirrose por esteato-hepatite, Child-Pugh B8, recebe alta após o segundo episódio de encefalopatia hepática em 4 meses. Nos dois houve confusão e asterixe, sem precipitante identificado. Usa lactulose 20 mL três vezes ao dia, com 2 a 3 evacuações pastosas diárias, e refere boa adesão. Função renal e eletrólitos normais; MELD 16. Qual é a melhor conduta para prevenir novo episódio?",
   "alts": [
-   "Encefalopatia está excluída pela amônia normal, devendo-se investigar apenas causas neurológicas primárias.",
-   "Dosar amônia seriada a cada seis horas para acompanhar a resposta ao tratamento instituído na internação.",
-   "Iniciar restrição proteica rigorosa, medida central no tratamento da encefalopatia hepática em cirróticos.",
-   "Prescrever benzodiazepínico para regularizar o ciclo do sono e reavaliar o quadro no dia seguinte.",
-   "Encefalopatia hepática é clínica: amônia normal não exclui, e a busca do precipitante orienta o manejo."
+   "Trocar a lactulose por neomicina contínua",
+   "Restringir proteína a 0,8 g/kg/dia",
+   "Suspender a lactulose e manter rifaximina",
+   "Associar rifaximina à lactulose",
+   "Dosar amônia mensal para ajustar a lactulose"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "gastro",
-  "cenario": "enf",
-  "comp": "dx",
-  "nivel": "tit",
-  "base": "EASL 2018. Encefalopatia hepática na cirrose descompensada",
-  "coment": "A encefalopatia hepática é diagnóstico clínico. A amônia sérica não serve para diagnosticar, não exclui quando normal, não confirma quando elevada e não deve ser usada para acompanhar a resposta ao tratamento. O passo que muda desfecho é procurar o fator precipitante: infecção, incluindo peritonite bacteriana espontânea, hemorragia digestiva, constipação, distúrbio eletrolítico, desidratação por diurético, sedativos e injúria renal. O tratamento é lactulose titulada para duas a três evacuações pastosas por dia, com rifaximina associada sobretudo na prevenção de recorrência. A restrição proteica foi abandonada por piorar a sarcopenia.",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AASLD/EASL Practice Guideline: Hepatic Encephalopathy in Chronic Liver Disease, 2014; EASL Clinical Practice Guidelines on hepatic encephalopathy, 2022; Bass et al., NEJM, 2010",
+  "coment": "Depois do primeiro episódio, a profilaxia secundária é lactulose. Quando há recorrência apesar de lactulose com boa adesão, AASLD e EASL recomendam associar rifaximina 550 mg duas vezes ao dia, que reduziu recorrência e internação no estudo de Bass (NEJM, 2010), feito quase todo com lactulose associada. Encefalopatia recorrente também é motivo para encaminhar à avaliação de transplante hepático.",
   "porAlt": [
-   "A amônia normal não afasta encefalopatia; abandonar a hipótese por causa dela atrasa o tratamento correto.",
-   "A dosagem seriada de amônia não guia tratamento e apenas consome recursos sem alterar a conduta clínica.",
-   "A restrição proteica foi abandonada: piora a sarcopenia, que por sua vez agrava a própria encefalopatia.",
-   "Benzodiazepínico agrava o rebaixamento e é justamente uma das causas precipitantes a serem investigadas.",
-   "Correta: o diagnóstico é clínico, a amônia normal não exclui, e o essencial é identificar e tratar o fator precipitante."
+   "Neomicina tem ototoxicidade e nefrotoxicidade e não é recomendada para uso prolongado.",
+   "A ingestão proteica recomendada na cirrose é de 1,2 a 1,5 g/kg/dia; restringir agrava a sarcopenia.",
+   "O benefício da rifaximina foi demonstrado em associação à lactulose, não em substituição.",
+   "Recorrência apesar de lactulose bem usada é a indicação de associar rifaximina.",
+   "A amônia não guia o tratamento nem se correlaciona bem com a gravidade."
   ]
  },
  {
-  "q": "Paciente de 70 anos com cirrose e ascite refratária será submetido a paracentese de alívio, com previsão de retirada de 8 litros. Qual medida deve acompanhar o procedimento?",
+  "q": "Homem de 70 anos, 68 kg, com cirrose alcoólica em abstinência há 2 anos e ascite refratária a espironolactona 400 mg e furosemida 160 mg, faz paracentese de alívio a cada 3 semanas. Hoje foram retirados 8 litros de líquido citrino, sem intercorrências e com 110 polimorfonucleares/mm³ na amostra enviada. Pressão arterial 108/66 mmHg, creatinina 1,2 mg/dL, sódio 132 mEq/L, INR 1,7 e plaquetas 62.000/mm³. Qual medida deve acompanhar o procedimento?",
   "alts": [
-   "Reposição de solução salina isotônica em volume igual ao retirado durante o próprio procedimento.",
-   "Nenhuma reposição, uma vez que a paracentese de alívio não altera a hemodinâmica desses pacientes.",
-   "Transfusão profilática de plasma fresco congelado antes do procedimento, corrigindo a coagulopatia.",
-   "Reposição de albumina de seis a oito gramas por litro retirado, prevenindo disfunção circulatória.",
-   "Reposição de concentrado de hemácias, mesmo sem anemia, para compensar a perda proteica do líquido."
+   "Albumina de 48 a 64 g ao final da paracentese",
+   "Soro fisiológico no mesmo volume retirado",
+   "Plasma fresco antes da punção pelo INR de 1,7",
+   "Albumina 1,5 g/kg, como na peritonite espontânea",
+   "Transfusão de plaquetas antes da punção"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "EASL 2018, paracentese de grande volume e prevenção de disfunção circulatória pós-paracentese",
-  "coment": "Em paracenteses de grande volume, acima de cerca de 5 litros, indica-se reposição de albumina na dose de 6 a 8 gramas por litro retirado, para prevenir a disfunção circulatória pós-paracentese. Quadro de queda do volume arterial efetivo, ativação neuro-humoral, hiponatremia, injúria renal e reacúmulo mais rápido da ascite. Salina isotônica não substitui a albumina nessa indicação, porque não expande o compartimento intravascular com a mesma eficiência nem sustenta a pressão oncótica. A correção profilática de coagulopatia não é necessária para paracentese.",
+  "base": "AASLD Practice Guidance on ascites and hepatorenal syndrome, 2021; EASL Clinical Practice Guidelines for decompensated cirrhosis, 2018",
+  "coment": "Paracenteses de mais de 5 litros causam disfunção circulatória, com ativação do sistema renina-angiotensina, hiponatremia e lesão renal. AASLD e EASL recomendam albumina de 6 a 8 g por litro retirado, o que dá 48 a 64 g para 8 litros, infundida ao final do procedimento. Coagulopatia e plaquetopenia da cirrose não exigem correção profilática para paracentese.",
   "porAlt": [
-   "A salina não sustenta a pressão oncótica e não previne a disfunção circulatória da mesma forma que a albumina.",
-   "A paracentese de grande volume altera sim a hemodinâmica, e é justamente por isso que se repõe albumina.",
-   "A correção profilática da coagulopatia não é necessária para paracentese, procedimento de baixo risco hemorrágico.",
-   "Correta: acima de cinco litros repõe-se albumina de seis a oito gramas por litro, prevenindo disfunção circulatória.",
-   "A transfusão de hemácias sem anemia não tem indicação e não compensa a perda proteica do líquido ascítico."
+   "Reposição de 6 a 8 g de albumina por litro em paracenteses acima de 5 litros previne disfunção circulatória.",
+   "Cristaloide é menos eficaz que albumina na prevenção da disfunção circulatória pós-paracentese.",
+   "INR não mede o risco de sangramento na cirrose; plasma profilático não é indicado.",
+   "Essa dose é a do esquema da peritonite bacteriana espontânea, não da paracentese.",
+   "Plaquetopenia desse grau não contraindica paracentese nem exige transfusão."
   ]
  },
  {
@@ -9648,243 +9648,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 42 anos tem epigastralgia em queimação, pior em jejum e aliviada com alimentação, há dois meses. A endoscopia mostra úlcera duodenal e o teste de urease é positivo. Qual é a conduta?",
+  "q": "Homem de 42 anos teve úlcera duodenal de 8 mm, sem sangramento, com teste da urease positivo na biópsia antral. Tratou com amoxicilina 1 g, claritromicina 500 mg e omeprazol 20 mg duas vezes ao dia por 14 dias e manteve omeprazol 20 mg/dia por mais 4 semanas. Está assintomático, sem efeitos adversos, e toma o omeprazol até hoje. Não usa anti-inflamatório nem ácido acetilsalicílico. Quer saber se a bactéria foi erradicada. Qual é a forma correta de confirmar?",
   "alts": [
-   "Prescrever inibidor de bomba isolado por oito semanas, sem tratar a bactéria identificada agora.",
-   "Indicar cirurgia antirrefluxo, tratamento definitivo da úlcera duodenal associada à bactéria.",
-   "Erradicar Helicobacter pylori com esquema tríplice e confirmar a erradicação após o tratamento.",
-   "Prescrever antiácido de demanda e reavaliar em seis meses, sem erradicar o agente encontrado.",
-   "Iniciar corticoide sistêmico, medida que acelera a cicatrização das úlceras pépticas duodenais."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "American College of Gastroenterology, 2024. Treatment of Helicobacter pylori infection",
-  "coment": "Úlcera péptica com Helicobacter pylori positivo tem indicação formal de erradicação, que cura a doença e reduz drasticamente a recorrência e o risco de complicação. O esquema mais usado no Brasil associa inibidor de bomba a dois antimicrobianos por catorze dias. A confirmação da erradicação é obrigatória, feita por teste respiratório ou antígeno fecal, pelo menos quatro semanas após o antimicrobiano e duas semanas após suspender o inibidor de bomba.",
-  "porAlt": [
-   "O inibidor isolado cicatriza a úlcera mas mantém a bactéria, com recorrência alta em poucos meses.",
-   "A cirurgia antirrefluxo trata refluxo, não úlcera duodenal por Helicobacter pylori.",
-   "Correta: erradicar a bactéria e confirmar a erradicação após o tratamento é a conduta indicada.",
-   "Antiácido de demanda não cicatriza a úlcera nem elimina a causa da doença péptica.",
-   "O corticoide não cicatriza úlcera péptica e aumenta o risco de complicação hemorrágica."
-  ]
- },
- {
-  "q": "Mulher de 28 anos tem dor abdominal em cólica, distensão e alternância entre diarreia e constipação há um ano, com alívio após evacuar. Não há perda de peso, sangramento nem anemia. Qual é o diagnóstico e a conduta?",
-  "alts": [
-   "Doença de Crohn, que deve ser confirmada por colonoscopia com biópsias seriadas de imediato.",
-   "Doença celíaca, cujo diagnóstico se firma apenas pelo padrão de alternância do hábito intestinal.",
-   "Câncer colorretal, hipótese principal diante de sintomas intestinais crônicos em adultos jovens.",
-   "Síndrome do intestino irritável pelos critérios de Roma, com manejo dietético e sintomático.",
-   "Colite pseudomembranosa, diagnosticada pela alternância entre diarreia e constipação relatada."
-  ],
-  "gab": 3,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "Critérios de Roma IV, 2016, e American College of Gastroenterology, 2021, manejo da síndrome do intestino irritável",
-  "coment": "Os critérios de Roma IV definem a síndrome do intestino irritável por dor abdominal recorrente, ao menos um dia por semana nos últimos três meses, relacionada à evacuação ou associada a mudança na frequência ou na forma das fezes. A ausência de sinais de alarme (perda de peso, sangramento, anemia, febre, início após os 50 anos, história familiar de neoplasia ou doença inflamatória) sustenta o diagnóstico clínico sem investigação extensa. O manejo combina orientação dietética, incluindo dieta com baixo teor de oligossacarídeos fermentáveis, e tratamento sintomático.",
-  "porAlt": [
-   "A doença de Crohn cursa com sinais de alarme, que estão explicitamente ausentes nesta paciente.",
-   "A doença celíaca exige sorologia e biópsia duodenal, não se define pelo padrão do hábito intestinal.",
-   "Câncer colorretal em jovem sem sinal de alarme é improvável e não se sustenta como hipótese principal.",
-   "Correta: os critérios de Roma IV, sem sinais de alarme, permitem o diagnóstico clínico e o manejo sintomático.",
-   "A colite pseudomembranosa cursa com diarreia aguda associada a antimicrobiano, não com esse padrão."
-  ]
- },
- {
-  "q": "Homem de 60 anos tem disfagia progressiva para sólidos evoluindo para líquidos, com perda de 8 kg em três meses. É tabagista e etilista. Qual é a conduta inicial?",
-  "alts": [
-   "Esofagomanometria como primeiro exame, padrão-ouro para investigar disfagia progressiva.",
-   "Teste terapêutico com inibidor de bomba por oito semanas, adiando qualquer exame invasivo.",
-   "Endoscopia digestiva alta com biópsias, pela suspeita de neoplasia esofágica nesse contexto.",
-   "Radiografia contrastada de esôfago isolada, exame suficiente para excluir lesão neoplásica.",
-   "pHmetria de vinte e quatro horas, já exame inicial de escolha na disfagia com perda de peso."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "American College of Gastroenterology, 2022, dysphagia evaluation; Harrison's, 22ª edição, 2025",
-  "coment": "Disfagia progressiva de sólidos para líquidos, com perda ponderal, em homem tabagista e etilista de 60 anos, é neoplasia esofágica até prova em contrário. O exame inicial é a endoscopia digestiva alta com biópsias, que visualiza, caracteriza e coleta material da lesão em um único procedimento. Manometria investiga distúrbios motores, como acalasia, que cursam com disfagia para sólidos e líquidos desde o início. Teste terapêutico é inadequado diante de sinal de alarme.",
-  "porAlt": [
-   "A manometria investiga distúrbio motor, que tem padrão de disfagia distinto do descrito no caso.",
-   "Teste terapêutico diante de sinal de alarme atrasa o diagnóstico de uma neoplasia potencialmente curável.",
-   "Correta: disfagia progressiva com perda de peso exige endoscopia com biópsias como exame inicial.",
-   "A radiografia contrastada pode sugerir a lesão, mas não permite biópsia nem exclui neoplasia.",
-   "A pHmetria avalia refluxo ácido e não tem papel na investigação inicial da disfagia progressiva."
-  ]
- },
- {
-  "q": "Mulher de 55 anos apresenta icterícia indolor, colúria, acolia fecal e vesícula palpável não dolorosa. Perdeu 10 kg em dois meses. Qual é a hipótese principal?",
-  "alts": [
-   "Coledocolitíase simples, que classicamente cursa com vesícula palpável e ausência total de dor.",
-   "Hepatite viral aguda, cuja apresentação típica inclui acolia fecal com vesícula palpável indolor.",
-   "Neoplasia periampular, sugerida pelo sinal de Courvoisier com icterícia indolor e perda de peso.",
-   "Cirrose hepática compensada, causa mais provável de icterícia obstrutiva nessa faixa etária.",
-   "Síndrome de Gilbert, que cursa com colúria, acolia e vesícula palpável em pacientes de meia-idade."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 (icterícia obstrutiva e sinal de Courvoisier",
-  "coment": "O sinal de Courvoisier) vesícula palpável e indolor em paciente ictérico. Sugere obstrução maligna da via biliar distal, tipicamente neoplasia de cabeça de pâncreas ou periampular, porque a obstrução se instala de forma progressiva e a vesícula se distende sem inflamação prévia. Na coledocolitíase, a vesícula costuma estar fibrosada por colecistite crônica e há dor. A investigação segue com tomografia ou ressonância com colangiografia e avaliação de ressecabilidade.",
-  "porAlt": [
-   "Na coledocolitíase há dor e a vesícula costuma estar fibrosada, não distendida e indolor.",
-   "A hepatite viral cursa com icterícia hepatocelular, sem vesícula palpável nem acolia persistente.",
-   "Correta: vesícula palpável indolor com icterícia e perda de peso sugere obstrução maligna periampular.",
-   "A cirrose compensada não cursa com icterícia obstrutiva nem com vesícula palpável indolor.",
-   "A síndrome de Gilbert cursa com hiperbilirrubinemia indireta leve, sem colúria, acolia ou perda de peso."
-  ]
- },
- {
-  "q": "Homem de 35 anos com doença de Crohn ileal em remissão pergunta sobre manutenção do tratamento. Já usou corticoide duas vezes no último ano para controlar surtos. Qual é a conduta?",
-  "alts": [
-   "Manter corticoide contínuo em dose baixa como terapia de manutenção de longo prazo na doença.",
-   "Não usar manutenção alguma e tratar apenas os surtos com corticoide quando eles ocorrerem agora.",
-   "Indicar ressecção cirúrgica do íleo de imediato, tratamento curativo da doença de Crohn ileal.",
-   "Introduzir terapia de manutenção poupadora de corticoide, evitando novos ciclos repetidos dele.",
-   "Prescrever apenas antiespasmódico de horário, suficiente para prevenir novos surtos da doença."
-  ],
-  "gab": 3,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "American College of Gastroenterology, 2018, e ECCO, 2020. Manejo da doença de Crohn",
-  "coment": "Corticoide não é terapia de manutenção na doença de Crohn: serve para induzir remissão e deve ser desmamado. Necessidade de dois ou mais ciclos por ano caracteriza dependência e indica introduzir terapia de manutenção poupadora. Tiopurina, metotrexato ou biológico, conforme o perfil de risco. O corticoide crônico acumula osteoporose, diabetes, catarata, infecção e não previne recidiva. A cirurgia não cura a doença, que recidiva na anastomose.",
-  "porAlt": [
-   "Corticoide contínuo não mantém remissão e acumula osteoporose, diabetes, catarata e infecção.",
-   "Tratar apenas surtos perpetua a inflamação e o dano intestinal progressivo ao longo do tempo.",
-   "A cirurgia não cura a doença de Crohn, que recidiva na anastomose na maioria dos pacientes.",
-   "Correta: dois ciclos de corticoide no ano indicam terapia de manutenção poupadora de corticoide.",
-   "Antiespasmódico alivia cólica e não tem qualquer efeito sobre a inflamação transmural da doença."
-  ]
- },
- {
-  "q": "Mulher de 48 anos, obesa, tem transaminases discretamente elevadas e ultrassom com esteatose hepática. As sorologias virais são negativas e ela não usa álcool. Qual é a conduta inicial?",
-  "alts": [
-   "Solicitar biópsia hepática imediata em todos os pacientes com esteatose e transaminases alteradas.",
-   "Prescrever hepatoprotetor e reavaliar em um ano, sem qualquer estratificação de fibrose hepática.",
-   "Iniciar corticoide em dose imunossupressora, tratamento de escolha da esteatose metabólica.",
-   "Estratificar sempre a fibrose por métodos não invasivos e tratar peso, diabetes e risco agora.",
-   "Contraindicar qualquer atividade física, evitando a piora da lesão hepatocelular já instalada."
-  ],
-  "gab": 3,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "AASLD, 2023. Practice Guidance on the clinical assessment and management of MASLD",
-  "coment": "Na doença hepática esteatótica associada à disfunção metabólica, o que define prognóstico é o grau de fibrose, e não o valor das transaminases. A conduta inicial é estratificar fibrose por métodos não invasivos, como escores baseados em exames laboratoriais e elastografia, e tratar de forma agressiva os determinantes metabólicos: perda de peso, controle de diabetes com fármacos de benefício hepático e cardiovascular, dislipidemia e pressão. A biópsia fica para casos duvidosos.",
-  "porAlt": [
-   "A biópsia não é necessária na maioria dos casos, pois métodos não invasivos estratificam bem a fibrose.",
-   "Hepatoprotetor sem estratificação nem tratamento metabólico não altera a história natural da doença.",
-   "O corticoide não trata esteatose metabólica e piora o controle glicêmico e o peso da paciente.",
-   "Correta: estratificar fibrose por métodos não invasivos e tratar os determinantes metabólicos é a conduta inicial.",
-   "A atividade física é parte central do tratamento e melhora a esteatose e a sensibilidade à insulina."
-  ]
- },
- {
-  "q": "Homem de 70 anos apresenta melena e hematêmese. Está com pressão de 96/58 mmHg e frequência de 118 bpm, sem hepatopatia conhecida. Além da ressuscitação, qual medida deve preceder a endoscopia?",
-  "alts": [
-   "Antibiótico profilático de amplo espectro, indicado em toda hemorragia digestiva alta do adulto.",
-   "Vasoconstritor esplâncnico em dose plena, indicado independentemente da causa do sangramento.",
-   "Inibidor de bomba de prótons endovenoso, iniciado antes da endoscopia digestiva alta agora.",
-   "Ácido tranexâmico em dose alta, medida que comprovadamente reduz a mortalidade nesse cenário.",
-   "Anticoagulação profilática plena, prevenindo trombose durante a internação por sangramento."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "European Society of Gastrointestinal Endoscopy, 2021, nonvariceal upper gastrointestinal hemorrhage",
-  "coment": "Na hemorragia digestiva alta não varicosa, o inibidor de bomba de prótons endovenoso é iniciado antes da endoscopia: reduz achados de alto risco no exame e a necessidade de terapêutica endoscópica, ainda que não reduza isoladamente mortalidade ou ressangramento. Antibiótico profilático e vasoconstritor esplâncnico são indicados quando há cirrose ou suspeita de sangramento varicoso, o que não é o caso. O ácido tranexâmico não demonstrou benefício e associou-se a mais eventos trombóticos.",
-  "porAlt": [
-   "O antibiótico profilático é indicado em cirróticos que sangram, e não em toda hemorragia digestiva.",
-   "O vasoconstritor esplâncnico se aplica ao sangramento varicoso, com suspeita ou diagnóstico de cirrose.",
-   "Correta: o inibidor de bomba endovenoso antes da endoscopia reduz achados de alto risco no exame.",
-   "O ácido tranexâmico não reduziu mortalidade e associou-se a mais eventos trombóticos em ensaio grande.",
-   "Anticoagular profilaticamente durante sangramento ativo agrava a perda sanguínea do paciente."
-  ]
- },
- {
-  "q": "Mulher de 62 anos assintomática tem pesquisa de sangue oculto nas fezes positiva em rastreamento. Não há sintomas nem anemia. Qual é a conduta?",
-  "alts": [
-   "Repetir a pesquisa de sangue oculto em seis meses antes de indicar qualquer exame endoscópico.",
-   "Prescrever sulfato ferroso e reavaliar o hemograma, já sem investigar a origem do sangramento.",
-   "Colonoscopia diagnóstica, que é o exame indicado após sangue oculto positivo no rastreamento.",
-   "Solicitar apenas tomografia de abdome, exame que substitui a colonoscopia após teste positivo.",
-   "Tranquilizar a paciente, já que a ausência de sintomas exclui doença colorretal significativa."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Instituto Nacional de Câncer e US Preventive Services Task Force, 2021. Rastreamento de câncer colorretal",
-  "coment": "O rastreamento com pesquisa de sangue oculto nas fezes só faz sentido se o resultado positivo for seguido de colonoscopia diagnóstica, que localiza a lesão, permite biópsia e remove pólipos no mesmo procedimento. Repetir o teste ou tratar anemia empiricamente desperdiça o achado e atrasa o diagnóstico. A ausência de sintomas é esperada: o rastreamento existe justamente para detectar doença antes que ela se manifeste clinicamente.",
-  "porAlt": [
-   "Repetir o exame desperdiça um achado positivo e atrasa o diagnóstico de lesão potencialmente curável.",
-   "Repor ferro sem investigar mascara o sangramento e é um dos erros mais custosos da clínica.",
-   "Correta: sangue oculto positivo no rastreamento indica colonoscopia diagnóstica, que localiza e trata.",
-   "A tomografia não substitui a colonoscopia, que permite biópsia e polipectomia no mesmo tempo.",
-   "A ausência de sintomas é esperada no rastreamento e não exclui neoplasia colorretal inicial."
-  ]
- },
- {
-  "q": "Homem de 50 anos com pancreatite aguda biliar leve tem melhora clínica em 48 horas, com dieta oral bem tolerada. A ultrassonografia confirmou colelitíase. Qual é a conduta antes da alta?",
-  "alts": [
-   "Agendar a colecistectomia para daqui a seis meses, permitindo a resolução completa da inflamação.",
-   "Não indicar cirurgia alguma, uma vez que o episódio foi leve e houve boa resposta ao tratamento.",
-   "Colecistectomia na mesma internação, que reduz recorrência de pancreatite e complicações biliares.",
-   "Prescrever ácido ursodesoxicólico contínuo, que dissolve os cálculos e dispensa a cirurgia agora.",
-   "Indicar colangiopancreatografia endoscópica de rotina antes da alta, mesmo sem colangite associada."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "American College of Gastroenterology, 2024, management of acute pancreatitis",
-  "coment": "Na pancreatite aguda biliar leve, a colecistectomia deve ser realizada na mesma internação, após a resolução do quadro: adiar a cirurgia expõe o paciente a risco elevado de recorrência de pancreatite, colecistite e coledocolitíase nas semanas seguintes. A colangiopancreatografia endoscópica não é rotina e fica reservada a colangite associada ou obstrução biliar persistente documentada. O ácido ursodesoxicólico não é alternativa à cirurgia nesse contexto.",
-  "porAlt": [
-   "Adiar seis meses expõe a recorrência de pancreatite, colecistite e coledocolitíase no intervalo.",
-   "Não operar mantém a causa do episódio, com risco alto de novo evento em poucas semanas.",
-   "Correta: na pancreatite biliar leve a colecistectomia é feita na mesma internação, reduzindo recorrência.",
-   "O ácido ursodesoxicólico não dissolve a maioria dos cálculos nem previne a recorrência do quadro.",
-   "A via endoscópica se reserva à colangite ou obstrução persistente, e não é rotina antes da alta."
-  ]
- },
- {
-  "q": "Mulher de 40 anos apresenta prurido, fadiga e fosfatase alcalina elevada com anticorpo antimitocôndria positivo. A bilirrubina está normal e não há uso de medicações hepatotóxicas. Qual é o diagnóstico e o tratamento?",
-  "alts": [
-   "Hepatite autoimune, já tratada com corticoide e azatioprina como terapia inicial de escolha aqui.",
-   "Colangite esclerosante primária, cujo marcador diagnóstico é o anticorpo antimitocôndria positivo.",
-   "Doença de Wilson, definida pela combinação de prurido com fosfatase alcalina elevada na mulher.",
-   "Hemocromatose hereditária, cujo diagnóstico é firmado pelo anticorpo antimitocôndria reagente.",
-   "Colangite biliar primária, tratada com ácido ursodesoxicólico como terapia de primeira linha."
+   "Sorologia IgG 4 semanas após o antibiótico",
+   "Teste respiratório hoje, mantendo o omeprazol",
+   "Nova endoscopia com biópsia para urease",
+   "Aguardar 6 meses e testar se houver sintomas",
+   "Teste respiratório 2 semanas sem omeprazol"
   ],
   "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "AASLD, 2018, e EASL, 2017. Primary Biliary Cholangitis, diagnóstico e tratamento",
-  "coment": "Colestase crônica com fosfatase alcalina elevada e anticorpo antimitocôndria positivo, em mulher de meia-idade com prurido e fadiga, define colangite biliar primária. O tratamento de primeira linha é o ácido ursodesoxicólico, que melhora bioquímica e sobrevida livre de transplante; em resposta inadequada, acrescenta-se ácido obeticólico ou fibrato. O prurido é tratado com colestiramina e outras opções. O anticorpo antimitocôndria é bastante específico dessa doença.",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024; IV Consenso Brasileiro sobre Helicobacter pylori, 2018",
+  "coment": "A erradicação deve ser confirmada em todos os tratados, pelo menos 4 semanas depois do fim do antibiótico e após 2 semanas sem inibidor de bomba, com teste respiratório com ureia marcada, antígeno fecal ou, se houver indicação de endoscopia, biópsia. Sorologia não serve, porque os anticorpos persistem. Na úlcera duodenal não complicada não há necessidade de nova endoscopia; na gástrica, sim, pelo risco de neoplasia.",
   "porAlt": [
-   "A hepatite autoimune cursa com transaminases elevadas e outros autoanticorpos, não com esse padrão.",
-   "A colangite esclerosante tem padrão colangiográfico característico e não cursa com esse anticorpo.",
-   "A doença de Wilson cursa com achados neuropsiquiátricos e ceruloplasmina baixa, com outro perfil.",
-   "A hemocromatose é diagnosticada por saturação de transferrina e ferritina, não por autoanticorpo.",
-   "Correta: colestase com anticorpo antimitocôndria positivo é colangite biliar primária, tratada com ursodesoxicólico."
+   "Os anticorpos persistem por meses após a erradicação; sorologia não confirma cura.",
+   "O inibidor de bomba produz falso negativo no teste respiratório.",
+   "Úlcera duodenal não complicada não requer endoscopia de controle; o teste não invasivo basta.",
+   "A cura deve ser confirmada após todo tratamento, com ou sem sintomas.",
+   "Teste respiratório ou antígeno fecal, 4 semanas após o antibiótico e 2 semanas sem inibidor."
+  ]
+ },
+ {
+  "q": "Mulher de 28 anos tem há 14 meses dor abdominal em cólica 2 a 3 vezes por semana, que melhora ao evacuar, com fezes amolecidas e 3 a 4 evacuações por dia. Não há sangue nas fezes, perda de peso, febre, despertar noturno para evacuar nem uso recente de antibiótico. Sem história familiar de câncer colorretal ou doença inflamatória intestinal. Exame físico normal. Hemoglobina 12,9 g/dL e proteína C reativa 2 mg/L. Qual investigação é recomendada antes de firmar o diagnóstico?",
+  "alts": [
+   "Colonoscopia com biópsias seriadas do cólon",
+   "Teste respiratório para supercrescimento bacteriano",
+   "Sorologia para doença celíaca e calprotectina fecal",
+   "Tomografia de abdome com contraste",
+   "Endoscopia digestiva alta com biópsia gástrica"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome, 2021; Critérios de Roma IV, 2016",
+  "coment": "O quadro preenche os critérios de Roma IV para síndrome do intestino irritável com predomínio de diarreia. A diretriz do ACG (2021) recomenda estratégia de diagnóstico positivo, sem exames exaustivos, mas com sorologia para doença celíaca e calprotectina ou lactoferrina fecal na forma diarreica, que afastam doença celíaca e doença inflamatória intestinal. Colonoscopia fica para quem tem sinais de alarme ou idade de rastreamento.",
+  "porAlt": [
+   "Abaixo de 45 anos e sem sinais de alarme, colonoscopia de rotina não é recomendada.",
+   "A diretriz do ACG não recomenda teste respiratório de rotina na síndrome do intestino irritável.",
+   "Na forma diarreica, sorologia para celíaca e calprotectina ou lactoferrina fecal afastam as principais doenças orgânicas.",
+   "Imagem não acrescenta em quem preenche Roma IV sem sinais de alarme.",
+   "Não há sintoma dispéptico ou suspeita que justifique endoscopia alta."
+  ]
+ },
+ {
+  "q": "Homem de 38 anos tem há 3 anos disfagia para sólidos e líquidos desde o início, regurgitação noturna de alimento não digerido e perda de 6 kg. Endoscopia: esôfago discretamente dilatado com resíduo alimentar e transição esofagogástrica que cede à passagem do aparelho, sem lesão à retroflexão. Manometria de alta resolução: pressão de relaxamento integrada de 28 mmHg (normal abaixo de 15 mmHg), ausência de peristalse e pressurização panesofágica em 40% das deglutições. Qual é o diagnóstico e uma opção de tratamento adequada?",
+  "alts": [
+   "Espasmo esofágico distal; nitrato e antagonista de cálcio",
+   "Acalasia tipo II; miotomia endoscópica ou cirúrgica",
+   "Esôfago hipercontrátil; inibidor de bomba em dose dobrada",
+   "Esclerose sistêmica; procinético e inibidor de bomba",
+   "Obstrução funcional da junção; observação clínica"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Achalasia, 2020; Chicago Classification of Esophageal Motility Disorders v4.0, 2021",
+  "coment": "Pela classificação de Chicago 4.0, pressão de relaxamento integrada elevada com ausência de peristalse define acalasia; pressurização panesofágica em 20% ou mais das deglutições caracteriza o tipo II, o de melhor resposta a qualquer tratamento. Dilatação pneumática, miotomia de Heller laparoscópica com fundoplicatura e miotomia endoscópica peroral (POEM) têm eficácia semelhante nesse tipo. A endoscopia com retroflexão vem antes, para afastar pseudoacalasia por neoplasia da cárdia.",
+  "porAlt": [
+   "Espasmo distal tem contrações prematuras com relaxamento da junção preservado.",
+   "Relaxamento incompleto, aperistalse e pressurização panesofágica em 20% ou mais das deglutições: acalasia tipo II, que responde bem a miotomia ou dilatação.",
+   "Esôfago hipercontrátil tem contrações vigorosas, não ausência de peristalse.",
+   "Na esclerose sistêmica a junção fica hipotônica, e não com relaxamento incompleto.",
+   "Na obstrução funcional da junção a peristalse está preservada, o que não é o caso."
+  ]
+ },
+ {
+  "q": "Mulher de 64 anos tem icterícia indolor há 3 semanas, colúria, prurido e perda de 7 kg. Bilirrubina total 9,2 mg/dL, fosfatase alcalina 610 U/L, sem febre. A tomografia com protocolo de pâncreas mostra massa de 2,6 cm na cabeça do pâncreas, com dilatação do colédoco e do ducto pancreático, sem contato com artéria mesentérica superior, tronco celíaco ou veia porta, e sem metástases. Não há colangite. A duodenopancreatectomia está agendada para daqui a 10 dias. Qual é a conduta em relação à via biliar?",
+  "alts": [
+   "Prótese biliar por CPRE antes da cirurgia",
+   "Drenagem percutânea trans-hepática pré-operatória",
+   "Aguardar bilirrubina abaixo de 3 mg/dL para operar",
+   "Operar sem drenagem biliar pré-operatória",
+   "Colecistostomia percutânea para descompressão"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "NCCN Guidelines: Pancreatic Adenocarcinoma, 2024; van der Gaag et al., Preoperative biliary drainage for cancer of the head of the pancreas, NEJM, 2010",
+  "coment": "No tumor de cabeça de pâncreas ressecável com cirurgia prevista em poucas semanas, a drenagem biliar pré-operatória de rotina aumentou complicações graves (74% contra 39%) sem reduzir mortalidade no ensaio de van der Gaag (NEJM, 2010). Drenar fica indicado se houver colangite, prurido intratável, insuficiência renal, atraso da cirurgia ou plano de quimioterapia neoadjuvante, e então de preferência com prótese metálica por CPRE.",
+  "porAlt": [
+   "Drenagem pré-operatória de rotina aumentou complicações sem benefício no ensaio de van der Gaag (2010).",
+   "A via percutânea tem ainda mais complicações e não se justifica sem colangite.",
+   "Esperar a bilirrubina cair atrasa a ressecção de um tumor ressecável.",
+   "Tumor ressecável, sem colangite e com cirurgia próxima: operar sem drenagem.",
+   "Colecistostomia não descomprime adequadamente a via biliar e não tem indicação aqui."
+  ]
+ },
+ {
+  "q": "Homem de 35 anos com doença de Crohn ileocecal, sem fístulas, precisou de três cursos de prednisona no último ano e volta a ter 5 evacuações diárias e dor sempre que a dose cai abaixo de 15 mg/dia. Calprotectina fecal 780 µg/g; enterorressonância com inflamação em 15 cm do íleo terminal, sem estenose fixa. IGRA negativo, HBsAg e anti-HBc negativos, radiografia de tórax normal. Qual é a melhor estratégia de manutenção?",
+  "alts": [
+   "Infliximabe associado a azatioprina",
+   "Mesalazina oral 4 g/dia",
+   "Budesonida oral contínua",
+   "Metronidazol contínuo por 12 meses",
+   "Ciclosporina oral de manutenção"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ECCO Guidelines on Therapeutics in Crohn's Disease: Medical Treatment, 2020; ACG Clinical Guideline: Management of Crohn's Disease in Adults, 2018; Colombel et al., SONIC, NEJM, 2010",
+  "coment": "Dependência de corticoide com inflamação objetiva (calprotectina alta e atividade na enterorressonância) indica terapia avançada. No estudo SONIC, infliximabe com azatioprina produziu mais remissão sem corticoide que cada fármaco isolado, e a combinação também reduz a formação de anticorpos contra o infliximabe. O rastreio de tuberculose latente e hepatite B, já feito, é obrigatório antes do anti-TNF. Mesalazina não tem papel na manutenção da doença de Crohn.",
+  "porAlt": [
+   "Anti-TNF com tiopurina foi superior a cada um isolado na remissão sem corticoide (SONIC).",
+   "Mesalazina não tem eficácia na manutenção da doença de Crohn.",
+   "Budesonida não mantém remissão além de alguns meses e perpetua a dependência de corticoide.",
+   "Antibiótico contínuo não é tratamento de manutenção da doença luminal.",
+   "Ciclosporina não tem papel na doença de Crohn luminal."
+  ]
+ },
+ {
+  "q": "Mulher de 56 anos, com diabetes tipo 2 há 8 anos em uso de metformina, hipertensão e índice de massa corporal de 33 kg/m², tem ultrassonografia de abdome com esteatose hepática moderada e baço de tamanho normal. Consome menos de uma dose de álcool por semana. AST 48 U/L, ALT 52 U/L, gama-GT 70 U/L, plaquetas 180.000/mm³, albumina 4,1 g/dL, bilirrubina normal; sorologias para hepatites B e C negativas. O FIB-4 calculado é 2,1. Qual é o próximo passo na estratificação da fibrose?",
+  "alts": [
+   "Biópsia hepática para estadiar a fibrose",
+   "Repetir o FIB-4 em 2 a 3 anos",
+   "Elastografia hepática transitória",
+   "Ressonância com quantificação de gordura",
+   "Endoscopia para rastrear varizes"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AASLD Practice Guidance on the clinical assessment and management of MASLD, 2023; EASL-EASD-EASO Clinical Practice Guidelines on MASLD, 2024",
+  "coment": "Na doença hepática esteatótica associada a disfunção metabólica, o prognóstico depende da fibrose. A AASLD (2023) usa o FIB-4 como primeiro passo: abaixo de 1,3 o risco é baixo; entre 1,3 e 2,67 é indeterminado e exige um segundo teste, em geral elastografia transitória; acima de 2,67 o risco é alto e o paciente vai ao hepatologista. Rigidez hepática abaixo de 8 kPa afasta fibrose avançada com boa segurança.",
+  "porAlt": [
+   "Biópsia fica para resultados discordantes ou dúvida diagnóstica.",
+   "Repetir em 2 a 3 anos é a conduta para FIB-4 abaixo de 1,3.",
+   "FIB-4 entre 1,3 e 2,67 é indeterminado; o segundo passo é a elastografia.",
+   "Quantificar gordura não estima fibrose, que é o que define prognóstico.",
+   "Não há evidência de fibrose avançada que justifique rastreio de varizes."
+  ]
+ },
+ {
+  "q": "Homem de 70 anos, sem hepatopatia conhecida, chega com melena há 12 horas e um episódio de hematêmese. Usa naproxeno para dor lombar. Na admissão, pressão arterial 96/58 mmHg e frequência 118 bpm; após 1.000 mL de cristaloide, pressão 112/70 mmHg e frequência 96 bpm. Hemoglobina 8,1 g/dL, ureia 92 mg/dL, sem doença cardiovascular. Já recebe inibidor de bomba endovenoso. Qual é a conduta seguinte mais adequada?",
+  "alts": [
+   "Endoscopia em até 6 horas, pelo ganho de sobrevida",
+   "Endoscopia nas primeiras 24 horas",
+   "Transfundir para hemoglobina acima de 10 g/dL",
+   "Ácido tranexâmico endovenoso antes da endoscopia",
+   "Octreotida empírica até a endoscopia"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ESGE Guideline: Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage, 2021; Lau et al., NEJM, 2020; HALT-IT, Lancet, 2020",
+  "coment": "Na hemorragia digestiva alta não varicosa, a ESGE recomenda ressuscitação, inibidor de bomba endovenoso em dose alta antes da endoscopia e endoscopia nas primeiras 24 horas. No ensaio de Lau (NEJM, 2020), a endoscopia em até 6 horas em pacientes de alto risco não reduziu mortalidade. A transfusão é restritiva: limiar de 7 g/dL sem doença cardiovascular e de 8 g/dL com ela. Ácido tranexâmico não tem indicação desde o HALT-IT (2020).",
+  "porAlt": [
+   "Endoscopia em até 6 horas não reduziu mortalidade em relação a 6 a 24 horas no ensaio de Lau (2020).",
+   "Após ressuscitação, a endoscopia deve ser feita nas primeiras 24 horas.",
+   "Sem doença cardiovascular, o limiar de transfusão é 7 g/dL, com alvo entre 7 e 9 g/dL.",
+   "Ácido tranexâmico não reduziu mortalidade e aumentou eventos trombóticos no HALT-IT.",
+   "Somatostatina e análogos são para suspeita de sangramento varicoso."
+  ]
+ },
+ {
+  "q": "Mulher de 62 anos, hipertensa e sem outras doenças, teve pesquisa imunoquímica de sangue oculto nas fezes positiva no rastreamento feito pela unidade básica. A colonoscopia seguinte foi completa até o ceco, com preparo adequado (escala de Boston 8), tempo de retirada de 9 minutos e endoscopista com taxa de detecção de adenomas de 32%, sem pólipos ou outras lesões. Ela não tem anemia, sintomas intestinais, perda de peso ou história familiar de câncer colorretal. Qual é o seguimento recomendado?",
+  "alts": [
+   "Repetir a pesquisa de sangue oculto anualmente",
+   "Nova colonoscopia em 3 anos",
+   "Colonografia por tomografia em 1 ano",
+   "Endoscopia alta e cápsula endoscópica",
+   "Retomar o rastreamento em 10 anos"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "US Multi-Society Task Force: Fecal Immunochemical Testing for Colorectal Cancer Screening, 2017; Colorectal Cancer Screening Recommendations, 2021",
+  "coment": "Teste imunoquímico positivo exige colonoscopia. Quando ela é completa, com bom preparo e tempo de retirada adequado, e não mostra lesões, a US Multi-Society Task Force recomenda retomar o rastreamento após 10 anos, sem repetir o teste imunoquímico no intervalo. Investigar trato digestivo alto ou delgado só se justifica com anemia ferropriva ou sintomas.",
+  "porAlt": [
+   "Após colonoscopia de alta qualidade normal, o teste anual não é retomado no intervalo.",
+   "Intervalo de 3 anos é para achados como adenoma avançado, ausentes aqui.",
+   "Colonoscopia normal e completa não exige imagem complementar.",
+   "Sem anemia ou sintomas, sangue oculto positivo não indica investigar trato alto ou delgado.",
+   "Colonoscopia de alta qualidade normal após teste imunoquímico positivo: novo rastreamento em 10 anos."
+  ]
+ },
+ {
+  "q": "Homem de 50 anos com pancreatite aguda biliar leve tinha na admissão bilirrubina total de 2,9 mg/dL, que caiu para 1,3 mg/dL no terceiro dia, com enzimas hepáticas também em queda. Está afebril, sem dor e tolerando dieta oral. Ultrassonografia com colelitíase e colédoco de 6 mm, sem cálculo visível. Não teve colangite. Não tem comorbidades que aumentem o risco cirúrgico. Qual é a conduta antes da alta?",
+  "alts": [
+   "CPRE antes da alta pela bilirrubina da admissão",
+   "Colecistectomia na mesma internação",
+   "Colecistectomia após 6 semanas",
+   "Ursodiol e cirurgia se houver recorrência",
+   "Esfincterotomia endoscópica profilática"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; da Costa et al., PONCHO, Lancet, 2015",
+  "coment": "No ensaio PONCHO (Lancet, 2015), a colecistectomia na mesma internação após pancreatite biliar leve reduziu readmissões por complicações biliares de 17% para 5%, sem aumentar a dificuldade cirúrgica. CPRE precoce só está indicada na colangite ou na obstrução biliar persistente; bilirrubina em queda sugere que o cálculo passou. Se restar suspeita de coledocolitíase, colangiorressonância, ecoendoscopia ou colangiografia intraoperatória esclarecem.",
+  "porAlt": [
+   "Sem colangite e com bilirrubina em queda, CPRE não é indicada; o cálculo provavelmente passou.",
+   "Pancreatite biliar leve: colecistectomia na mesma internação, avaliando a via biliar se houver suspeita de cálculo residual.",
+   "Adiar a cirurgia aumentou os eventos biliares no estudo PONCHO.",
+   "Ursodiol não previne recorrência de pancreatite biliar.",
+   "Esfincterotomia é alternativa apenas para quem não pode ser operado."
+  ]
+ },
+ {
+  "q": "Mulher de 49 anos tem prurido e fadiga há 8 meses. Fosfatase alcalina 390 U/L (limite superior de 120 U/L), gama-GT 280 U/L, ALT 54 U/L, bilirrubina total 0,8 mg/dL, albumina 4,1 g/dL, plaquetas 240.000/mm³. Anticorpo antimitocôndria reagente em título de 1:320. Ultrassonografia com vias biliares normais. Não usa medicamentos hepatotóxicos nem álcool. Qual é o diagnóstico e o tratamento?",
+  "alts": [
+   "Colangite esclerosante; colangiorressonância e ursodiol em dose alta",
+   "Hepatite autoimune; prednisona e azatioprina",
+   "Colangite biliar primária; ursodiol 13 a 15 mg/kg/dia",
+   "Colangite biliar primária; biópsia antes de tratar",
+   "Colestase por fármaco; suspender e observar"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "AASLD Practice Guidance: Primary Biliary Cholangitis, 2018, e atualização de 2021; EASL Clinical Practice Guidelines on Primary Biliary Cholangitis, 2017",
+  "coment": "Colangite biliar primária é diagnosticada com fosfatase alcalina elevada e anticorpo antimitocôndria positivo, sem necessidade de biópsia. O tratamento de primeira linha é ácido ursodesoxicólico 13 a 15 mg/kg/dia, com resposta avaliada em 6 a 12 meses pela fosfatase alcalina e pela bilirrubina. Resposta inadequada leva a terapia de segunda linha, com agonista de PPAR ou fibrato. Biópsia fica para antimitocôndria negativo ou suspeita de sobreposição com hepatite autoimune.",
+  "porAlt": [
+   "Antimitocôndria positivo com colestase define colangite biliar primária; ursodiol em dose alta é prejudicial na colangite esclerosante.",
+   "Transaminases pouco elevadas e perfil colestático não sugerem hepatite autoimune.",
+   "Fosfatase alcalina elevada com antimitocôndria positivo fecha o diagnóstico; ursodiol 13 a 15 mg/kg/dia.",
+   "Biópsia não é necessária com os dois critérios presentes; fica para antimitocôndria negativo ou sobreposição.",
+   "Não há uso de fármaco que explique o quadro."
   ]
  },
  {
@@ -13008,243 +13008,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 58 anos com cirrose e ascite volumosa apresenta febre, dor abdominal e 400 neutrófilos/mm³ no líquido ascítico. Qual é a conduta?",
+  "q": "Homem de 58 anos com cirrose alcoólica e ascite volumosa é internado com febre de 38,4 °C e dor abdominal difusa há 2 dias. Pressão arterial 112/68 mmHg, frequência 102 bpm, abdome tenso e doloroso, sem rigidez. Creatinina 1,1 mg/dL, bilirrubina 2,3 mg/dL. A paracentese mostra líquido turvo com 5.200 polimorfonucleares/mm³, proteína total de 1,8 g/dL, glicose de 22 mg/dL e desidrogenase láctica de 410 U/L (sérica de 230 U/L). A bacterioscopia mostra bacilos gram-negativos, cocos gram-positivos e bacilos gram-positivos. Qual é a conduta?",
   "alts": [
-   "Cefalosporina de terceira geração e albumina endovenosa, sempre nos dias definidos pelo protocolo.",
-   "Apenas paracentese de alívio repetida, sem qualquer antibiótico associado ao procedimento realizado.",
-   "Aguardar o resultado da cultura do líquido ascítico antes de iniciar qualquer antibioticoterapia.",
-   "Prescrever apenas diurético em dose alta e reavaliar clinicamente em quarenta e oito horas agora.",
-   "Iniciar antifúngico endovenoso empírico como tratamento de escolha para o quadro descrito no caso."
+   "Ceftriaxona e albumina, como peritonite espontânea",
+   "Norfloxacino oral e nova paracentese em 48 horas",
+   "Paracentese de alívio e antibiótico após a cultura",
+   "Tomografia de abdome e antibiótico com cobertura anaeróbia",
+   "Terlipressina e albumina pela lesão renal iminente"
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "enf",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "EASL Clinical Practice Guidelines on decompensated cirrhosis, 2018 com atualização 2023; AASLD guidance, 2021",
-  "coment": "Peritonite bacteriana espontânea é definida por 250 ou mais neutrófilos por milímetro cúbico no líquido ascítico, independentemente da cultura. O tratamento é cefotaxima ou ceftriaxona por cinco a sete dias, iniciado imediatamente após a paracentese diagnóstica. A albumina endovenosa, 1,5 g/kg no primeiro dia e 1 g/kg no terceiro, reduz síndrome hepatorrenal e mortalidade. Após o episódio indica-se profilaxia secundária contínua com norfloxacino.",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "AASLD Practice Guidance on ascites, spontaneous bacterial peritonitis and hepatorenal syndrome, 2021; EASL Clinical Practice Guidelines for decompensated cirrhosis, 2018",
+  "coment": "No líquido ascítico, dois ou mais critérios de Runyon (proteína total acima de 1 g/dL, glicose abaixo de 50 mg/dL, desidrogenase láctica acima do limite normal do soro) sugerem peritonite bacteriana secundária, sobretudo com bacterioscopia polimicrobiana e contagem muito alta de neutrófilos. A conduta é tomografia de abdome para procurar perfuração de víscera ou abscesso, antibiótico de amplo espectro com cobertura anaeróbia (por exemplo, cefalosporina de terceira geração com metronidazol) e avaliação cirúrgica. Tratada como peritonite espontânea, a mortalidade é muito alta.",
   "porAlt": [
-   "Correta: cefalosporina de terceira geração com albumina nos dias primeiro e terceiro do tratamento.",
-   "A paracentese isolada não trata a infecção instalada e a mortalidade sem antibiótico é elevada.",
-   "Aguardar a cultura atrasa o tratamento, e a contagem de neutrófilos já basta para o diagnóstico.",
-   "O diurético isolado não trata a infecção e pode precipitar disfunção renal nesse contexto.",
-   "O antifúngico não cobre os agentes bacterianos habituais dessa infecção do líquido ascítico."
+   "Critérios de Runyon e flora polimicrobiana apontam peritonite secundária, que não se resolve com cefalosporina isolada.",
+   "Antibiótico oral de profilaxia não trata peritonite, e menos ainda a secundária.",
+   "Atrasar o antibiótico numa peritonite aumenta a mortalidade.",
+   "Suspeita de peritonite secundária: imagem para achar perfuração ou abscesso, antibiótico com cobertura anaeróbia e avaliação cirúrgica.",
+   "Creatinina normal; não há síndrome hepatorrenal a tratar."
   ]
  },
  {
-  "q": "Paciente de 45 anos com epigastralgia em queimação, pirose e teste positivo para Helicobacter pylori. Qual é a conduta?",
+  "q": "Mulher de 45 anos com dispepsia e teste respiratório positivo para Helicobacter pylori tratou com omeprazol, amoxicilina e claritromicina por 14 dias, com boa adesão e sem efeitos adversos importantes. Seis semanas depois do fim do tratamento, com o omeprazol suspenso há 3 semanas, o teste respiratório com ureia marcada continua positivo. Não tem alergia a penicilina e não usou quinolona nem metronidazol antes. Endoscopia prévia mostrou apenas gastrite enantematosa de antro. Qual é o esquema de resgate mais adequado?",
   "alts": [
-   "Prescrever apenas inibidor de bomba de prótons contínuo, sem qualquer tentativa de erradicação.",
-   "Indicar cirurgia antirrefluxo imediatamente diante da positividade do teste para a bactéria descrita.",
-   "Erradicar o Helicobacter pylori com esquema combinado e confirmar sempre a cura após o tratamento.",
-   "Prescrever antiácido de demanda e reavaliar clinicamente após doze meses de acompanhamento agora.",
-   "Iniciar corticoide oral em dose alta, tratamento indicado para a inflamação gástrica associada."
+   "Quádrupla com bismuto, tetraciclina e metronidazol por 14 dias",
+   "Repetir a tríplice com claritromicina por 14 dias",
+   "Amoxicilina e claritromicina com dose dobrada de omeprazol",
+   "Omeprazol em dose dobrada por 8 semanas, sem antibiótico",
+   "Claritromicina com levofloxacino e omeprazol por 10 dias"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024; Maastricht VI/Florence Consensus Report, 2022",
+  "coment": "Resistência à claritromicina é a principal causa de falha da terapia tríplice, e ela não deve ser repetida. A diretriz do ACG (2024) e o consenso de Maastricht VI recomendam como resgate a quádrupla com bismuto (inibidor de bomba, subcitrato de bismuto, tetraciclina e metronidazol) por 14 dias. Esquema com levofloxacino e amoxicilina é alternativa, idealmente guiado por teste de sensibilidade. A cura deve ser confirmada de novo após o resgate.",
+  "porAlt": [
+   "Após falha com claritromicina, a quádrupla com bismuto por 14 dias é o resgate preferido.",
+   "Repetir claritromicina após falha tem baixa taxa de cura pela resistência selecionada.",
+   "Aumentar a dose do inibidor não supera a resistência à claritromicina.",
+   "Sem antibiótico não há erradicação.",
+   "Não se repete claritromicina; o levofloxacino é combinado com amoxicilina."
+  ]
+ },
+ {
+  "q": "Homem de 24 anos vem ao pronto-socorro por impactação de carne, a segunda em um ano, resolvida espontaneamente. Refere disfagia intermitente para sólidos há 5 anos, come devagar e bebe muita água nas refeições. Tem rinite alérgica e asma leve. Endoscopia: anéis esofágicos concêntricos, sulcos longitudinais e exsudato esbranquiçado, sem estenose. Biópsias de esôfago proximal e distal com 40 eosinófilos por campo de grande aumento; mucosa gástrica e duodenal normais. Qual é o diagnóstico e o tratamento inicial adequado?",
+  "alts": [
+   "Doença do refluxo; fundoplicatura laparoscópica",
+   "Candidíase esofágica; fluconazol por 14 dias",
+   "Esofagite eosinofílica; inibidor de bomba",
+   "Acalasia; dilatação pneumática do cárdia",
+   "Gastroenterite eosinofílica; prednisona sistêmica"
   ],
   "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "Consenso Brasileiro sobre Helicobacter pylori, 2022; Maastricht VI/Florence Consensus Report, 2022",
-  "coment": "A infecção por Helicobacter pylori deve ser erradicada sempre que diagnosticada, por reduzir úlcera péptica e risco de câncer gástrico. O esquema tradicional no Brasil associa inibidor de bomba de prótons, amoxicilina e claritromicina por catorze dias, com esquemas quádruplos com bismuto ganhando espaço pela resistência crescente à claritromicina. A confirmação de cura é feita quatro semanas após o fim do tratamento, por teste respiratório ou antígeno fecal.",
-  "porAlt": [
-   "O inibidor isolado alivia sintomas, mas mantém a infecção e o risco de úlcera e câncer gástrico.",
-   "A cirurgia antirrefluxo não trata a infecção pela bactéria e não tem indicação neste contexto.",
-   "Correta: erradicar com esquema combinado e confirmar a cura quatro semanas após o tratamento.",
-   "O antiácido de demanda não erradica a bactéria nem modifica o risco de complicações futuras.",
-   "O corticoide não trata a infecção e pode favorecer complicações da mucosa gastroduodenal."
-  ]
- },
- {
-  "q": "Homem de 62 anos com disfagia progressiva para sólidos e depois líquidos, com perda de peso de 8 kg em 3 meses. Qual é a conduta?",
-  "alts": [
-   "Prescrever inibidor de bomba de prótons por três meses e reavaliar apenas se a disfagia persistir.",
-   "Solicitar apenas manometria esofágica, exame que estabelece o diagnóstico da causa dessa disfagia.",
-   "Prescrever apenas dieta pastosa e orientação postural, sem qualquer investigação complementar.",
-   "Solicitar apenas radiografia contrastada de esôfago, exame que dispensa a avaliação endoscópica.",
-   "Endoscopia digestiva alta com biópsia, sempre pela alta suspeita de neoplasia esofágica no quadro."
-  ],
-  "gab": 4,
-  "tema": "gastro",
-  "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "ASGE guideline on the role of endoscopy in dysphagia, revisão 2023; Sociedade Brasileira de Endoscopia Digestiva, 2022",
-  "coment": "Disfagia progressiva de sólidos para líquidos com perda ponderal é sinal de alarme e sugere causa mecânica obstrutiva, sobretudo neoplasia esofágica. A endoscopia digestiva alta com biópsia é o exame inicial, por permitir visualização direta e diagnóstico histológico. Prescrever inibidor de bomba de prótons sem investigar retarda o diagnóstico. A manometria é útil em distúrbios motores como acalasia, avaliada após a exclusão de causa estrutural pela endoscopia.",
+  "base": "AGA and Joint Task Force Clinical Practice Guidelines for the Management of Eosinophilic Esophagitis, 2020",
+  "coment": "Disfagia com impactação alimentar em adulto jovem atópico sugere esofagite eosinofílica. O diagnóstico exige sintomas de disfunção esofágica e pelo menos 15 eosinófilos por campo de grande aumento na biópsia, após considerar outras causas de eosinofilia. As opções de primeira linha, de eficácia semelhante, são inibidor de bomba em dose dobrada por 8 a 12 semanas, corticoide tópico deglutido (budesonida ou fluticasona) e dieta de eliminação, com nova biópsia para confirmar resposta. Dilatação fica para estenose.",
   "porAlt": [
-   "O inibidor de bomba mascara sintomas e adia o diagnóstico de uma doença potencialmente curável.",
-   "A manometria avalia distúrbio motor, investigado após excluir causa estrutural pela endoscopia.",
-   "Medidas dietéticas isoladas não investigam a causa e permitem a progressão da doença de base.",
-   "A radiografia contrastada é complementar e não fornece o material histológico necessário.",
-   "Correta: endoscopia digestiva alta com biópsia, pela alta suspeita de neoplasia esofágica no caso."
+   "Anéis, sulcos, exsudato e 15 ou mais eosinófilos por campo definem outra doença, não refluxo.",
+   "Candidíase mostra placas e hifas na biópsia, não eosinofilia.",
+   "Disfagia com atopia e 15 ou mais eosinófilos por campo: inibidor de bomba, budesonida deglutida ou dieta são primeira linha.",
+   "Acalasia não tem eosinofilia nem esse aspecto endoscópico.",
+   "Estômago e duodeno normais afastam gastroenterite eosinofílica."
   ]
  },
  {
-  "q": "Paciente com hepatite C crônica, genótipo 1, sem cirrose, virgem de tratamento. Qual é a conduta?",
+  "q": "Homem de 50 anos tem anti-HCV reagente e RNA do HCV de 1,2 milhão UI/mL, detectados em exame de rotina. Está assintomático. ALT 88 U/L, plaquetas 210.000/mm³, albumina 4,2 g/dL e elastografia de 7,1 kPa. Não usa álcool, não tem doença renal e toma apenas losartana. Anti-HIV não reagente. O plano é tratar com sofosbuvir e velpatasvir por 12 semanas. Qual exame deve ser solicitado antes de iniciar o antiviral, por um risco ligado ao próprio tratamento?",
   "alts": [
-   "Tratar apenas quando surgir fibrose avançada documentada por elastografia ou biópsia hepática agora.",
-   "Prescrever interferon peguilado com ribavirina, esquema atualmente preferencial para esse genótipo.",
-   "Apenas monitorizar a carga viral anualmente sem qualquer tratamento antiviral específico indicado.",
-   "Iniciar corticoide sistêmico contínuo, tratamento indicado para a hepatite crônica de origem viral.",
-   "Tratar com antiviral de ação direta por doze semanas, esperando sempre resposta virológica sustentada."
-  ],
-  "gab": 4,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "Ministério da Saúde. PCDT para Hepatite C e Coinfecções, 2024; EASL recommendations on treatment of hepatitis C, 2023",
-  "coment": "Todo paciente com hepatite C crônica tem indicação de tratamento, independentemente do grau de fibrose, com antivirais de ação direta pangenotípicos como sofosbuvir com velpatasvir ou glecaprevir com pibrentasvir, por oito a doze semanas, alcançando resposta virológica sustentada acima de noventa e cinco por cento. Interferon foi abandonado. Mesmo após a cura, pacientes com fibrose avançada mantêm rastreio de carcinoma hepatocelular por ultrassom semestral.",
-  "porAlt": [
-   "Esperar fibrose avançada permite dano hepático evitável, já que hoje se trata todos os pacientes.",
-   "O interferon foi abandonado por menor eficácia e toxicidade muito superior à dos antivirais atuais.",
-   "Apenas monitorizar mantém a inflamação ativa e a progressão para cirrose e carcinoma hepático.",
-   "O corticoide trata hepatite autoimune e pode aumentar a replicação viral na hepatite crônica C.",
-   "Correta: antiviral de ação direta por doze semanas, com resposta virológica sustentada muito alta."
-  ]
- },
- {
-  "q": "Homem de 40 anos com dor abdominal intensa em faixa, vômitos e lipase cinco vezes acima do limite superior. Qual é a conduta inicial?",
-  "alts": [
-   "Antibiótico profilático endovenoso de rotina em todos os casos, iniciado já no primeiro atendimento.",
-   "Hidratação endovenosa vigorosa com solução balanceada e analgesia, sempre com dieta precoce se tolerada.",
-   "Jejum absoluto prolongado por dez dias como medida principal do tratamento da pancreatite aguda agora já.",
-   "Realizar tomografia de abdome de imediato em todos os casos para confirmar o diagnóstico do quadro.",
-   "Indicar laparotomia exploradora precoce como conduta padrão na pancreatite aguda diagnosticada agora."
+   "Biópsia hepática para estadiar a fibrose",
+   "HBsAg e anti-HBc total",
+   "Alfafetoproteína para indicar o tratamento",
+   "Tipagem HLA-B*5701",
+   "Carga viral do HCV semanal no tratamento"
   ],
   "gab": 1,
   "tema": "gastro",
-  "cenario": "emg",
-  "comp": "urg",
+  "cenario": "amb",
+  "comp": "tto",
   "nivel": "r2",
-  "base": "American Gastroenterological Association guideline on initial management of acute pancreatitis, 2024; IAP/APA guidelines, revisão 2023",
-  "coment": "O tratamento inicial da pancreatite aguda é de suporte: hidratação endovenosa com solução balanceada em ritmo moderado e guiado por metas, analgesia adequada e nutrição enteral precoce assim que tolerada, o que reduz complicações infecciosas em comparação ao jejum prolongado. Antibiótico profilático não é recomendado na pancreatite sem infecção documentada. A tomografia é reservada a dúvida diagnóstica ou avaliação de complicações após setenta e duas horas.",
+  "base": "Ministério da Saúde, PCDT para Hepatite C e Coinfecções, 2019; AASLD-IDSA HCV Guidance, 2023",
+  "coment": "Antes de antivirais de ação direta para hepatite C, todo paciente deve ser testado para hepatite B com HBsAg e anti-HBc, porque a supressão rápida do HCV pode reativar o HBV, com casos de hepatite fulminante. HBsAg positivo indica profilaxia ou tratamento do HBV; anti-HBc isolado exige monitorização. Com esquema pangenotípico e sem cirrose, o tratamento é simplificado, e a cura é confirmada pelo RNA indetectável 12 semanas após o fim.",
   "porAlt": [
-   "A profilaxia antibiótica de rotina não reduz mortalidade e favorece infecção por germes resistentes.",
-   "Correta: hidratação com solução balanceada, analgesia e reintrodução precoce da dieta se tolerada.",
-   "O jejum prolongado aumenta translocação bacteriana e complicações infecciosas na pancreatite.",
-   "A tomografia precoce subestima a necrose e não é necessária quando o diagnóstico já está feito.",
-   "A cirurgia precoce aumenta mortalidade e se reserva a complicações específicas bem definidas."
+   "A elastografia já estadiou a fibrose; biópsia não é necessária.",
+   "Antivirais de ação direta podem reativar hepatite B; rastrear antes e acompanhar se positivo.",
+   "Alfafetoproteína não indica nem contraindica o tratamento.",
+   "HLA-B*5701 é exigido antes de abacavir, não de antivirais para hepatite C.",
+   "Não há monitorização semanal; a resposta é confirmada 12 semanas após o fim."
   ]
  },
  {
-  "q": "Paciente de 35 anos com diarreia crônica com sangue, dor abdominal e perda de peso, com colonoscopia mostrando inflamação contínua do reto ao cólon descendente. Qual é o diagnóstico?",
+  "q": "Mulher de 51 anos chega ao pronto-socorro com dor epigástrica intensa irradiada para o dorso há 8 horas e vômitos. Não bebe álcool e não iniciou medicações. Frequência 96 bpm, pressão arterial 132/80 mmHg, afebril. Lipase 1.450 U/L (referência até 60 U/L), ALT 190 U/L, fosfatase alcalina 210 U/L, bilirrubina total 1,4 mg/dL, triglicerídeos 160 mg/dL, cálcio 9,2 mg/dL. O diagnóstico de pancreatite aguda está estabelecido. Qual exame de imagem é indicado na admissão?",
   "alts": [
-   "Doença de Crohn colônica, caracterizada por acometimento contínuo iniciado no reto sem lesões salteadas.",
-   "Colite isquêmica crônica, definida por inflamação contínua que se estende do reto ao cólon descendente.",
-   "Síndrome do intestino irritável, condição que cursa com inflamação contínua da mucosa à colonoscopia.",
-   "Retocolite ulcerativa, que cursa sempre com acometimento contínuo a partir do reto, sem áreas poupadas.",
-   "Colite por radiação prévia, quadro definido por inflamação contínua retal com diarreia crônica com sangue."
+   "Tomografia com contraste para graduar a necrose",
+   "Colangiopancreatografia retrógrada nas primeiras 24 horas",
+   "Ressonância antes de liberar a dieta",
+   "Ecoendoscopia na admissão",
+   "Ultrassonografia de abdome"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; AGA Clinical Practice Guideline on Initial Management of Acute Pancreatitis, 2018",
+  "coment": "O diagnóstico de pancreatite aguda exige dois de três critérios: dor típica, lipase ou amilase acima de 3 vezes o normal e imagem compatível. Com os dois primeiros, a tomografia na admissão é dispensável e, antes de 72 horas, subestima a necrose. Todo paciente deve fazer ultrassonografia de abdome na admissão para pesquisar litíase biliar, a causa mais comum; ALT acima de 150 U/L nas primeiras 48 horas reforça a origem biliar. CPRE precoce fica restrita à colangite associada.",
+  "porAlt": [
+   "Com dor típica e lipase acima de 3 vezes o normal, a tomografia na admissão não é necessária e subestima necrose antes de 72 horas.",
+   "CPRE precoce só está indicada na colangite; sem ela não muda desfecho.",
+   "Ressonância é exame de segunda linha e não deve atrasar a dieta.",
+   "Ecoendoscopia serve à pancreatite sem causa aparente, depois da fase aguda.",
+   "Ultrassonografia na admissão para procurar litíase biliar, sugerida também pela ALT acima de 150 U/L."
+  ]
+ },
+ {
+  "q": "Mulher de 35 anos tem há 6 semanas 5 a 6 evacuações diárias com sangue, urgência e tenesmo, sem febre. Frequência 84 bpm, hemoglobina 11,8 g/dL, proteína C reativa 14 mg/L, albumina 3,9 g/dL. Pesquisa de Clostridioides difficile e coprocultura negativas. Colonoscopia: inflamação contínua do reto até o ângulo esplênico, com friabilidade, erosões e perda do padrão vascular (Mayo endoscópico 2); íleo terminal normal. Biópsias compatíveis com retocolite ulcerativa. Qual é o tratamento de indução mais adequado?",
+  "alts": [
+   "Mesalazina retal isolada em supositório",
+   "Mesalazina oral e mesalazina em enema",
+   "Infliximabe como primeira linha",
+   "Prednisona 1 mg/kg com azatioprina",
+   "Ciprofloxacino e metronidazol por 14 dias"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment, 2022; AGA Clinical Practice Guidelines on the Management of Mild-to-Moderate Ulcerative Colitis, 2019",
+  "coment": "A doença vai do reto ao ângulo esplênico (colite esquerda, E2 de Montreal), com atividade leve a moderada e sem critérios de gravidade de Truelove e Witts. ECCO e AGA recomendam indução com mesalazina oral de pelo menos 2 a 3 g/dia combinada a mesalazina retal em enema, mais eficaz que cada via isolada. Supositório só alcança o reto. Corticoide oral entra se não houver resposta em 2 a 4 semanas.",
+  "porAlt": [
+   "Supositório atinge apenas o reto; a doença vai até o ângulo esplênico.",
+   "Colite esquerda leve a moderada: mesalazina oral de pelo menos 2 g/dia com mesalazina em enema.",
+   "Terapia biológica fica para doença moderada a grave refratária ou de mau prognóstico.",
+   "Corticoide sistêmico é para falha da mesalazina, e azatioprina não induz remissão.",
+   "Antibiótico não trata retocolite ulcerativa."
+  ]
+ },
+ {
+  "q": "Homem de 55 anos, cirrótico por álcool, é admitido com hematêmese volumosa. Recebeu terlipressina, ceftriaxona e transfusão restritiva, e a endoscopia em 8 horas mostrou sangramento ativo de variz esofágica, tratado com ligadura elástica. Está estável há 18 horas, sem ressangramento. Child-Pugh C11 (bilirrubina 3,4 mg/dL, albumina 2,6 g/dL, INR 1,9, ascite moderada, sem encefalopatia), creatinina 1,0 mg/dL. Não tem trombose portal nem carcinoma hepatocelular. Qual é a conduta que reduz mortalidade?",
+  "alts": [
+   "Manter terlipressina por 5 dias e betabloqueador na alta",
+   "Balão de Sengstaken-Blakemore preventivo por 24 horas",
+   "TIPS preemptivo nas primeiras 72 horas",
+   "Nova ligadura elástica em 24 horas",
+   "Derivação portossistêmica cirúrgica eletiva"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Baveno VII: Renewing consensus in portal hypertension, 2022; AASLD Practice Guidance on risk stratification and management of portal hypertension and varices in cirrhosis, 2024",
+  "coment": "Após o controle inicial do sangramento varicoso com droga vasoativa, antibiótico e ligadura, o Baveno VII recomenda TIPS preemptivo com prótese recoberta, em até 72 horas e idealmente nas primeiras 24, para Child-Pugh C com 10 a 13 pontos ou Child-Pugh B acima de 7 com sangramento ativo na endoscopia. Nesse grupo, o TIPS precoce reduziu ressangramento e mortalidade em relação ao tratamento padrão. Com 14 pontos ou mais o benefício é duvidoso, salvo em candidato a transplante.",
+  "porAlt": [
+   "É o tratamento padrão, mas no Child-Pugh C de 10 a 13 pontos o TIPS precoce reduz ressangramento e mortalidade.",
+   "Balão é ponte para sangramento refratário, não medida preventiva.",
+   "Child-Pugh C de 10 a 13 pontos com sangramento varicoso: TIPS preemptivo em até 72 horas.",
+   "Ligadura seriada é repetida a cada 1 a 2 semanas, não em 24 horas.",
+   "Derivação cirúrgica foi substituída pelo TIPS e tem mais morbidade."
+  ]
+ },
+ {
+  "q": "Mulher de 46 anos tem constipação há 10 anos, com 2 evacuações por semana, esforço evacuatório intenso, sensação de evacuação incompleta e necessidade de pressionar o períneo para evacuar. Sem sangramento, anemia ou perda de peso; colonoscopia de rastreamento aos 45 anos normal. Hormônios tireoidianos e cálcio normais. Usou fibras, 2 litros de água por dia e polietilenoglicol 17 g/dia por 3 meses, com pouca melhora. Ao toque retal, há contração paradoxal do esfíncter quando se pede que faça força. Qual é o próximo passo?",
+  "alts": [
+   "Tempo de trânsito colônico com marcadores radiopacos",
+   "Laxante estimulante diário por tempo indeterminado",
+   "Prucaloprida, adiando outros exames",
+   "Manometria anorretal e teste de expulsão do balão",
+   "Colectomia subtotal pela refratariedade"
   ],
   "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ECCO-ESGAR guidelines on ulcerative colitis, 2022; AGA Clinical Practice Guideline, revisão 2024",
-  "coment": "A retocolite ulcerativa acomete a mucosa de forma contínua e ascendente a partir do reto, sem áreas poupadas e sem lesão transmural, cursando com diarreia com sangue, urgência e tenesmo. A doença de Crohn, em contraste, tem acometimento salteado, transmural, pode envolver qualquer segmento do tubo digestivo e frequentemente poupa o reto, além de cursar com fístulas e doença perianal. A distinção orienta tratamento clínico e planejamento cirúrgico.",
+  "base": "AGA Technical Review on Constipation, 2013; ACG/AGA Clinical Practice Guideline: Pharmacological Management of Chronic Idiopathic Constipation, 2023",
+  "coment": "Esforço excessivo, manobras digitais e contração paradoxal do puborretal ao toque sugerem distúrbio de evacuação (dissinergia), presente em boa parte de quem não responde a fibra e laxante osmótico. A AGA recomenda manometria anorretal com teste de expulsão do balão antes de outros exames de motilidade. Confirmada a dissinergia, o tratamento de escolha é biofeedback, com resposta em cerca de 70% dos casos.",
   "porAlt": [
-   "A doença de Crohn tem lesões salteadas, acometimento transmural e frequentemente poupa o reto.",
-   "A colite isquêmica acomete territórios vasculares, tipicamente o ângulo esplênico, de forma segmentar.",
-   "A síndrome do intestino irritável não cursa com sangramento nem com inflamação à colonoscopia.",
-   "Correta: acometimento contínuo e ascendente a partir do reto caracteriza a retocolite ulcerativa.",
-   "A colite actínica exige história de radioterapia pélvica, não referida no enunciado do caso."
+   "Trânsito colônico vem depois de afastar distúrbio de evacuação, que altera o próprio resultado.",
+   "Tratar só com laxante ignora a causa provável, a dissinergia.",
+   "Pró-cinético não corrige a contração paradoxal do assoalho pélvico.",
+   "Sintomas de obstrução de saída e contração paradoxal ao toque: confirmar dissinergia, que se trata com biofeedback.",
+   "Colectomia só se considera em inércia colônica comprovada, após afastar dissinergia."
   ]
  },
  {
-  "q": "Homem de 55 anos, etilista, com hematêmese volumosa e cirrose conhecida. Qual é a conduta imediata?",
+  "q": "Mulher de 30 anos tem anemia ferropriva que não corrige com sulfato ferroso oral há 8 meses, distensão abdominal e evacuações amolecidas. Hemoglobina 9,6 g/dL, ferritina 6 ng/mL. Está em dieta com glúten. Antitransglutaminase IgA negativo; IgA sérica total abaixo de 7 mg/dL (referência de 70 a 400 mg/dL). Endoscopia ainda não realizada. Tem uma irmã com diabetes tipo 1. Qual é a conduta mais adequada para investigar doença celíaca?",
   "alts": [
-   "Realizar endoscopia antes de qualquer estabilização hemodinâmica ou reposição volêmica do paciente agora.",
-   "Estabilizar, iniciar droga vasoativa e antibiótico profilático, com endoscopia sempre nas primeiras horas.",
-   "Transfundir hemácias até hemoglobina de 12 g/dL como meta inicial da reposição nesse sangramento agora.",
-   "Prescrever apenas inibidor de bomba de prótons endovenoso, sem droga vasoativa ou antibiótico neste caso.",
-   "Indicar cirurgia de urgência como primeira medida em todo sangramento digestivo alto no cirrótico agora."
-  ],
-  "gab": 1,
-  "tema": "gastro",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r3",
-  "base": "Baveno VII consensus on portal hypertension, 2022; AASLD practice guidance on variceal hemorrhage, 2023",
-  "coment": "Na hemorragia digestiva alta do cirrótico, a conduta é estabilização com estratégia restritiva de transfusão, alvo de hemoglobina em torno de 7 g/dL, droga vasoativa como terlipressina ou octreotide iniciada antes da endoscopia, antibiótico profilático com ceftriaxona, que reduz infecção e mortalidade, e endoscopia diagnóstica e terapêutica nas primeiras doze horas. Transfundir em excesso eleva a pressão portal e pode agravar o sangramento.",
-  "porAlt": [
-   "A endoscopia sem estabilização prévia aumenta o risco de complicações durante o procedimento.",
-   "Correta: estabilizar, iniciar vasoativo e antibiótico profilático, com endoscopia nas primeiras horas.",
-   "A meta de 12 g/dL eleva a pressão portal e aumenta o ressangramento; o alvo é restritivo.",
-   "O inibidor de bomba isolado não controla o sangramento varicoso e não substitui o vasoativo.",
-   "A cirurgia é medida de exceção, após falha do tratamento endoscópico e farmacológico combinado."
-  ]
- },
- {
-  "q": "Paciente com constipação crônica sem sinais de alarme, sem melhora com fibras e hidratação. Qual é o próximo passo?",
-  "alts": [
-   "Indicar colonoscopia imediata para todos os pacientes com constipação crônica sem sinais de alarme.",
-   "Prescrever laxante estimulante em uso contínuo diário indefinido como próxima etapa do tratamento.",
-   "Indicar cirurgia de ressecção colônica como próximo passo diante da falha das medidas iniciais agora.",
-   "Prescrever antiespasmódico isolado, medida com melhor evidência para a constipação crônica descrita.",
-   "Acrescentar laxante osmótico como polietilenoglicol, sempre reavaliando a resposta em algumas semanas."
-  ],
-  "gab": 4,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "AGA/ACG Clinical Practice Guideline on chronic idiopathic constipation, 2023",
-  "coment": "Na constipação crônica sem sinais de alarme, após medidas comportamentais e fibras, o próximo passo é laxante osmótico, sendo o polietilenoglicol o de melhor evidência e boa tolerância. Laxantes estimulantes são alternativa ou resgate. Secretagogos como linaclotida e lubiprostona ficam para refratários. Colonoscopia é indicada diante de sinais de alarme (sangramento, anemia, perda de peso, idade de rastreio, história familiar) ausentes neste caso.",
-  "porAlt": [
-   "A colonoscopia é indicada por sinais de alarme ou idade de rastreio, ausentes neste caso descrito.",
-   "O estimulante é alternativa ou resgate, e não a primeira escolha após a falha das fibras.",
-   "A cirurgia é excepcional, reservada a inércia colônica documentada e refratária ao tratamento.",
-   "O antiespasmódico não tem evidência para constipação e pode até reduzir a motilidade intestinal.",
-   "Correta: laxante osmótico como polietilenoglicol, com reavaliação da resposta em algumas semanas."
-  ]
- },
- {
-  "q": "Mulher de 30 anos com diarreia crônica, distensão abdominal, anemia ferropriva e anticorpo antitransglutaminase IgA positivo. Qual é a conduta?",
-  "alts": [
-   "Confirmar com biópsia duodenal antes da dieta e iniciar depois exclusão sempre rigorosa do glúten.",
-   "Iniciar dieta sem glúten imediatamente e realizar a biópsia duodenal apenas semanas depois do início.",
-   "Prescrever apenas reposição de ferro isolada, sem qualquer investigação adicional ou mudança dietética.",
-   "Iniciar corticoide sistêmico contínuo, tratamento de escolha para a doença celíaca em adultos jovens.",
-   "Solicitar apenas colonoscopia, exame que estabelece o diagnóstico definitivo da doença suspeitada."
+   "Antigliadina deaminada IgG ou antitransglutaminase IgG",
+   "Afastar doença celíaca pelo anticorpo negativo",
+   "Dieta sem glúten e repetir o IgA em 6 meses",
+   "Antiendomísio IgA para confirmar o resultado",
+   "HLA-DQ2 e DQ8 para firmar o diagnóstico"
   ],
   "gab": 0,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ACG Clinical Guideline: Diagnosis and Management of Celiac Disease, 2023; ESsCD guideline, 2019",
-  "coment": "No adulto, o diagnóstico de doença celíaca exige biópsia duodenal com o paciente ainda em dieta contendo glúten, porque a retirada prévia normaliza a mucosa e inviabiliza a confirmação histológica. Colhem-se pelo menos quatro fragmentos de duodeno distal e dois de bulbo. Confirmado o diagnóstico, a dieta sem glúten é permanente e rigorosa. Deficiências de ferro, ácido fólico, vitamina D e cálcio devem ser pesquisadas e corrigidas no seguimento.",
+  "base": "ACG Clinical Guideline Update: Diagnosis and Management of Celiac Disease, 2023",
+  "coment": "Deficiência seletiva de IgA é mais frequente em quem tem doença celíaca e torna falsamente negativos a antitransglutaminase IgA e o antiendomísio IgA; por isso a IgA total acompanha a sorologia. Com IgA baixa, o ACG (2023) recomenda testes em IgG (peptídeo de gliadina deaminada ou antitransglutaminase IgG) e biópsia duodenal, sempre com o paciente consumindo glúten. Tipagem HLA serve para afastar, não para confirmar.",
   "porAlt": [
-   "Correta: confirmar com biópsia duodenal ainda em dieta com glúten e só então excluí-lo de forma rigorosa.",
-   "Retirar o glúten antes da biópsia normaliza a mucosa e impede a confirmação histológica do diagnóstico.",
-   "Repor ferro sem investigar deixa a causa ativa e a anemia recorre após o fim da suplementação.",
-   "O corticoide não é o tratamento da doença celíaca, cuja base é a exclusão permanente do glúten.",
-   "A colonoscopia avalia o cólon e não fornece a histologia duodenal necessária ao diagnóstico."
+   "Na deficiência de IgA, os testes em IgA são falsamente negativos; usa-se sorologia em IgG e, se positiva, biópsia duodenal.",
+   "Com IgA total indetectável, o anticorpo IgA negativo não tem valor.",
+   "Retirar o glúten antes do diagnóstico torna sorologia e biópsia falsamente negativas.",
+   "Antiendomísio também é IgA e tem a mesma limitação.",
+   "HLA negativo praticamente afasta, mas positivo é comum na população e não confirma."
   ]
  },
  {
-  "q": "Paciente de 68 anos com achado de pólipo adenomatoso de 12 mm ressecado na colonoscopia. Qual é a conduta de seguimento?",
+  "q": "Homem de 68 anos fez a primeira colonoscopia de rastreamento, completa até o ceco e com preparo adequado. Foram ressecados por completo um adenoma tubular de 6 mm no cólon transverso e um adenoma tubular de 4 mm no sigmoide, ambos com displasia de baixo grau, além de um pólipo hiperplásico de 3 mm no reto. Não há história familiar de câncer colorretal. Está bem, sem comorbidades relevantes. Qual é o intervalo para a próxima colonoscopia?",
   "alts": [
-   "Nova colonoscopia em três anos, definida sempre pelo tamanho e pela histologia do pólipo ressecado.",
-   "Nova colonoscopia em dez anos, intervalo padrão independentemente do tamanho e da histologia do pólipo.",
-   "Indicar colectomia segmentar profilática após a ressecção endoscópica completa do pólipo adenomatoso.",
-   "Repetir a colonoscopia a cada seis meses indefinidamente após qualquer ressecção de pólipo colônico.",
-   "Não repetir a colonoscopia, pois a ressecção completa dispensa qualquer seguimento endoscópico futuro."
+   "Em 1 ano",
+   "Em 3 anos",
+   "Em 5 anos",
+   "Não repetir",
+   "Em 7 a 10 anos"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "US Multi-Society Task Force on Colorectal Cancer. Post-polypectomy surveillance recommendations, atualização 2020 com revisão 2024",
-  "coment": "O intervalo de vigilância após polipectomia depende do número, tamanho e histologia das lesões. Adenoma de dez milímetros ou mais, ou histologia com componente viloso ou displasia de alto grau, ou de três a quatro adenomas, indicam nova colonoscopia em três anos. Um ou dois adenomas tubulares pequenos permitem intervalo de sete a dez anos. Deve-se garantir que a ressecção foi completa e que o preparo permitiu exame adequado de toda a mucosa.",
+  "base": "US Multi-Society Task Force: Recommendations for Follow-Up After Colonoscopy and Polypectomy, 2020",
+  "coment": "A atualização de 2020 da US Multi-Society Task Force alongou o intervalo para 1 ou 2 adenomas tubulares menores que 10 mm: 7 a 10 anos. Três ou quatro adenomas pequenos: 3 a 5 anos. Adenoma de 10 mm ou mais, componente viloso, displasia de alto grau ou 5 a 10 adenomas: 3 anos. Pólipo hiperplásico menor que 10 mm no retossigmoide não altera o intervalo.",
   "porAlt": [
-   "Correta: adenoma de dez milímetros ou mais indica nova colonoscopia em três anos de intervalo.",
-   "O intervalo de dez anos se aplica a exame normal, e não após ressecção de adenoma avançado.",
-   "A colectomia não é indicada após ressecção endoscópica completa de pólipo adenomatoso benigno.",
-   "O intervalo semestral indefinido não tem respaldo e multiplica riscos e custos sem benefício.",
-   "A ausência de seguimento perde lesões metacrônicas em paciente com risco comprovadamente maior."
+   "Intervalo de 1 ano não se aplica a adenomas pequenos ressecados por completo.",
+   "3 anos é para adenoma de 10 mm ou mais, viloso, com displasia de alto grau ou 5 a 10 adenomas.",
+   "Pólipo hiperplásico pequeno no reto não muda o intervalo.",
+   "Com boa saúde aos 68 anos, a vigilância deve continuar.",
+   "Um ou dois adenomas tubulares menores que 10 mm: nova colonoscopia em 7 a 10 anos."
   ]
  },
  {
@@ -17208,243 +17208,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com cirrose e encefalopatia hepática grau 2, com desorientação e asterixe. Qual é a conduta?",
+  "q": "Homem de 57 anos com cirrose por vírus B é trazido ao pronto-socorro sonolento, com abertura ocular e sons incompreensíveis apenas ao estímulo doloroso e flexão ao estímulo; escala de coma de Glasgow 7. A família relata confusão e tremor nas mãos nos últimos 2 dias. Sem sinais de trauma ou déficit focal. Glicemia capilar 104 mg/dL, temperatura 37,2 °C, saturação 91% em ar ambiente, com vômito recente. Pressão arterial 110/70 mmHg. Qual é a conduta inicial?",
   "alts": [
-   "Lactulose com identificação e correção do fator precipitante, associando sempre rifaximina se houver recorrência.",
-   "Restringir proteína da dieta de forma prolongada como principal medida terapêutica da encefalopatia hepática.",
-   "Prescrever apenas benzodiazepínico para o controle da agitação associada ao quadro de encefalopatia neste caso.",
-   "Iniciar corticoide sistêmico em dose alta como tratamento de escolha da encefalopatia hepática descrita agora.",
-   "Indicar transplante hepático imediato em todos os casos de encefalopatia hepática grau 2 diagnosticada agora."
-  ],
-  "gab": 0,
-  "tema": "gastro",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "EASL Clinical Practice Guidelines on hepatic encephalopathy, 2022; AASLD practice guidance, 2023",
-  "coment": "O tratamento da encefalopatia hepática combina lactulose, que reduz a produção e a absorção de amônia e tem alvo de duas a três evacuações pastosas por dia, com a busca ativa do fator precipitante: infecção incluindo peritonite bacteriana espontânea, sangramento digestivo, constipação, distúrbio eletrolítico, desidratação por diurético e uso de sedativos. Rifaximina é acrescentada na recorrência. A restrição proteica prolongada é contraindicada por agravar a sarcopenia.",
-  "porAlt": [
-   "Correta: lactulose com correção do fator precipitante, acrescentando rifaximina na recorrência.",
-   "A restrição proteica prolongada agrava a sarcopenia e piora o prognóstico do paciente cirrótico.",
-   "Benzodiazepínicos agravam a encefalopatia e devem ser evitados nesses pacientes com cirrose.",
-   "O corticoide não trata a encefalopatia hepática e pode favorecer infecção no paciente cirrótico.",
-   "O transplante é avaliado no contexto da doença hepática avançada, e não indicado por um episódio."
-  ]
- },
- {
-  "q": "Paciente com achado de esteatose hepática e síndrome metabólica, com transaminases levemente elevadas. Qual é a conduta?",
-  "alts": [
-   "Prescrever apenas hepatoprotetor de venda livre como tratamento definitivo da esteatose hepática descrita.",
-   "Indicar biópsia hepática imediata em todos os pacientes com esteatose e transaminases levemente elevadas.",
-   "Perda de peso e controle metabólico, avaliando sempre o grau de fibrose por método não invasivo disponível.",
-   "Iniciar corticoide sistêmico contínuo como tratamento de escolha da doença hepática gordurosa metabólica.",
-   "Não realizar qualquer avaliação, pois a esteatose hepática nunca evolui para fibrose ou cirrose hepática."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "AASLD Practice Guidance on metabolic dysfunction-associated steatotic liver disease, 2023; EASL-EASD-EASO Clinical Practice Guidelines, 2024",
-  "coment": "A doença hepática esteatótica associada à disfunção metabólica é hoje a hepatopatia crônica mais prevalente e pode evoluir para esteato-hepatite, fibrose, cirrose e carcinoma hepatocelular. O tratamento central é perda de peso, cerca de sete a dez por cento reverte esteato-hepatite e melhora a fibrose, associada a controle de diabetes, dislipidemia e pressão. A avaliação de fibrose usa escores como FIB-4 e elastografia, reservando a biópsia a casos duvidosos.",
-  "porAlt": [
-   "Hepatoprotetores de venda livre não têm eficácia demonstrada nessa hepatopatia metabólica.",
-   "A biópsia se reserva a casos duvidosos, após triagem de fibrose por escores e elastografia.",
-   "Correta: perda de peso e controle metabólico, com avaliação de fibrose por método não invasivo.",
-   "O corticoide não é tratamento dessa doença e agrava o ganho de peso e o controle glicêmico.",
-   "A esteatose pode evoluir para fibrose e cirrose, o que justifica a estratificação e o seguimento."
-  ]
- },
- {
-  "q": "Paciente com doença de Crohn ileal com doença moderada a grave e falha de corticoide. Qual é a conduta?",
-  "alts": [
-   "Manter corticoide sistêmico em dose alta indefinidamente como estratégia de manutenção da remissão.",
-   "Iniciar imunobiológico após rastreio de infecções latentes, planejando sempre estratégia de manutenção.",
-   "Prescrever apenas antiespasmódico e dieta sem lactose como tratamento da doença moderada a grave agora.",
-   "Indicar ressecção intestinal extensa imediatamente a todos os pacientes com falha do corticoide inicial.",
-   "Iniciar apenas antibiótico oral contínuo por doze meses como tratamento de manutenção da doença agora."
-  ],
-  "gab": 1,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "ECCO guidelines on therapeutics in Crohn's disease, 2022; AGA Clinical Practice Guideline, revisão 2024",
-  "coment": "O corticoide induz remissão mas não a mantém, e não deve ser usado como manutenção pela toxicidade. Na doença de Crohn moderada a grave com falha ou dependência de corticoide, indicam-se imunobiológicos (anti-TNF, ustequinumabe ou vedolizumabe) isolados ou combinados com imunomodulador, sempre após rastreio de tuberculose latente e hepatites. A cirurgia se reserva a complicações como estenose sintomática, fístula complexa e abscesso.",
-  "porAlt": [
-   "O corticoide não mantém remissão e o uso prolongado acumula toxicidade importante e evitável.",
-   "Correta: imunobiológico após rastreio de infecções latentes, com estratégia de manutenção definida.",
-   "Antiespasmódico e dieta são adjuvantes e não controlam a inflamação transmural da doença.",
-   "A ressecção extensa se reserva a complicações, e não à falha do tratamento clínico inicial.",
-   "O antibiótico prolongado não é tratamento de manutenção da doença inflamatória intestinal."
-  ]
- },
- {
-  "q": "Paciente com cirrose compensada por hepatite B pergunta sobre rastreio de carcinoma hepatocelular. Qual é a orientação?",
-  "alts": [
-   "Tomografia de abdome mensal como método de rastreio de carcinoma hepatocelular no paciente cirrótico.",
-   "Nenhum rastreio, pois a cirrose compensada não aumenta o risco de carcinoma hepatocelular no paciente.",
-   "Apenas dosagem isolada de alfafetoproteína anual como único método de rastreio nesse grupo de risco agora.",
-   "Biópsia hepática semestral como método de rastreio de carcinoma hepatocelular no paciente com cirrose.",
-   "Ultrassonografia abdominal a cada seis meses, com alfafetoproteína conforme sempre o protocolo do serviço."
-  ],
-  "gab": 4,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "AASLD Practice Guidance on hepatocellular carcinoma, 2023; EASL Clinical Practice Guidelines, 2025",
-  "coment": "O rastreio de carcinoma hepatocelular é indicado para todos os cirróticos e para portadores de hepatite B em grupos de risco mesmo sem cirrose, com ultrassonografia abdominal a cada seis meses, associada ou não à alfafetoproteína conforme o protocolo. O intervalo de seis meses é definido pelo tempo de duplicação tumoral. Nódulo detectado é caracterizado por tomografia ou ressonância com contraste em fases dinâmicas, muitas vezes dispensando biópsia.",
-  "porAlt": [
-   "A tomografia mensal expõe a radiação e contraste sem qualquer benefício adicional demonstrado.",
-   "A cirrose é o principal fator de risco para carcinoma hepatocelular e exige rastreio regular.",
-   "A alfafetoproteína isolada tem sensibilidade insuficiente e não substitui a ultrassonografia.",
-   "A biópsia é procedimento diagnóstico invasivo e nunca método de rastreio populacional periódico.",
-   "Correta: ultrassonografia semestral, com alfafetoproteína conforme o protocolo adotado no serviço."
-  ]
- },
- {
-  "q": "Paciente com dispepsia sem sinais de alarme, com menos de 45 anos. Qual é a conduta inicial?",
-  "alts": [
-   "Realizar endoscopia digestiva alta em todos os pacientes jovens com dispepsia sem sinais de alarme.",
-   "Testar e tratar Helicobacter pylori, reservando sempre a endoscopia aos casos com falha ou alarme.",
-   "Prescrever apenas antiespasmódico contínuo por doze meses sem qualquer investigação complementar.",
-   "Iniciar corticoide oral em dose alta como tratamento inicial da dispepsia sem sinais de alarme.",
-   "Indicar cirurgia antirrefluxo imediatamente em todos os pacientes jovens com queixa de dispepsia."
-  ],
-  "gab": 1,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "ACG/CAG Clinical Guideline on dyspepsia, revisão 2022; Consenso Brasileiro sobre Helicobacter pylori, 2022",
-  "coment": "Em paciente jovem com dispepsia e sem sinais de alarme (perda de peso, disfagia, vômitos persistentes, anemia, sangramento, massa palpável e história familiar de neoplasia gástrica), a estratégia recomendada é testar e tratar Helicobacter pylori, com teste respiratório ou antígeno fecal. Sem resposta, tenta-se inibidor de bomba de prótons. A endoscopia é reservada a sinais de alarme, idade acima do limiar local e falha terapêutica.",
-  "porAlt": [
-   "A endoscopia em todos os jovens sem alarme é de baixo rendimento e onera o sistema de saúde.",
-   "Correta: testar e tratar Helicobacter pylori, com endoscopia reservada a falha ou sinais de alarme.",
-   "O antiespasmódico contínuo por um ano não trata a causa e retarda o manejo adequado do quadro.",
-   "O corticoide não é tratamento da dispepsia e pode agravar a lesão da mucosa gastroduodenal.",
-   "A cirurgia antirrefluxo tem indicações restritas e jamais é conduta inicial para dispepsia."
-  ]
- },
- {
-  "q": "Paciente com diarreia crônica aquosa de grande volume que persiste durante o jejum. Qual é o mecanismo mais provável?",
-  "alts": [
-   "Diarreia osmótica clássica, que persiste durante o jejum e cursa com hiato osmótico fecal reduzido.",
-   "Diarreia por má absorção de gordura, que cessa completamente durante o jejum prolongado do paciente.",
-   "Diarreia funcional do intestino irritável, que tipicamente desperta o paciente e persiste no jejum.",
-   "Diarreia secretória, que persiste sempre durante o jejum e cursa com hiato osmótico fecal reduzido.",
-   "Diarreia factícia por laxante osmótico, definida por persistência no jejum com hiato osmótico baixo."
-  ],
-  "gab": 3,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "AGA Clinical Practice Guideline on the evaluation of chronic diarrhea, revisão 2023; Sleisenger and Fordtran, 11ª edição, 2021",
-  "coment": "A diarreia secretória decorre de secreção ativa de eletrólitos, é de grande volume, persiste no jejum, costuma ocorrer também à noite e tem hiato osmótico fecal reduzido, abaixo de cinquenta miliosmóis por quilograma. A osmótica, ao contrário, cessa com o jejum e tem hiato elevado. Causas secretórias incluem toxinas bacterianas, tumores neuroendócrinos, colite microscópica, má absorção de sais biliares e uso de laxantes estimulantes.",
-  "porAlt": [
-   "A diarreia osmótica cessa com o jejum e cursa com hiato osmótico fecal elevado, não reduzido.",
-   "A má absorção de gordura melhora com o jejum, pois depende da oferta de nutrientes na luz.",
-   "A diarreia funcional tipicamente não desperta o paciente à noite e não persiste no jejum.",
-   "Correta: diarreia secretória, que persiste no jejum e cursa com hiato osmótico fecal reduzido.",
-   "Laxante osmótico produz diarreia osmótica, que cessa no jejum e tem hiato osmótico elevado."
-  ]
- },
- {
-  "q": "Paciente com hemorragia digestiva alta não varicosa e úlcera com vaso visível na endoscopia. Qual é a conduta?",
-  "alts": [
-   "Terapia endoscópica combinada seguida de inibidor de bomba de prótons endovenoso, mantido sempre em infusão.",
-   "Apenas observação clínica sem qualquer terapia endoscópica na úlcera com vaso visível identificada agora.",
-   "Cirurgia imediata em todos os casos de úlcera com vaso visível encontrada durante o exame endoscópico agora.",
-   "Apenas inibidor de bomba de prótons oral em dose habitual, sem qualquer terapia endoscópica associada agora.",
-   "Anticoagulação plena imediata para melhorar a perfusão da mucosa gástrica acometida pela úlcera neste caso."
-  ],
-  "gab": 0,
-  "tema": "gastro",
-  "cenario": "emg",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "ESGE Guideline on diagnosis and management of nonvariceal upper gastrointestinal hemorrhage, 2021; ACG Clinical Guideline, 2021",
-  "coment": "A classificação de Forrest estratifica o risco de ressangramento: sangramento ativo e vaso visível não sangrante são lesões de alto risco e exigem terapia endoscópica, preferencialmente combinada, associando injeção de adrenalina a método térmico ou mecânico como clipe. Após o procedimento, indica-se inibidor de bomba de prótons endovenoso em infusão contínua ou em bolus intermitente de dose alta, além de pesquisa e erradicação de Helicobacter pylori.",
-  "porAlt": [
-   "Correta: terapia endoscópica combinada seguida de inibidor de bomba de prótons endovenoso.",
-   "Vaso visível é lesão de alto risco de ressangramento e exige tratamento endoscópico dirigido.",
-   "A cirurgia se reserva à falha do tratamento endoscópico repetido ou a sangramento incontrolável.",
-   "O inibidor oral em dose habitual é insuficiente após lesão endoscópica de alto risco.",
-   "A anticoagulação agrava o sangramento e é formalmente contraindicada nesse contexto agudo."
-  ]
- },
- {
-  "q": "Paciente com icterícia, colúria, acolia e dilatação de vias biliares à ultrassonografia, com febre e dor em hipocôndrio direito. Qual é a conduta?",
-  "alts": [
-   "Apenas antibiótico oral ambulatorial e reavaliação clínica após sete dias de tratamento antimicrobiano.",
-   "Aguardar a resolução espontânea da obstrução biliar antes de qualquer drenagem ou antibioticoterapia.",
-   "Prescrever apenas analgésico e antiespasmódico como tratamento definitivo do quadro clínico descrito.",
-   "Antibiótico e drenagem biliar precoce, pois a colangite aguda exige sempre descompressão da via obstruída.",
-   "Indicar apenas colecistectomia eletiva em três meses, sem qualquer drenagem da via biliar obstruída agora."
+   "Lactulose oral 30 mL a cada 2 horas",
+   "Flumazenil e reavaliação em 30 minutos",
+   "Tomografia de crânio antes do tratamento",
+   "Intubação orotraqueal e lactulose por sonda",
+   "Rifaximina isolada por sonda nasogástrica"
   ],
   "gab": 3,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Tokyo Guidelines 2018 com revisão 2023; ESGE guideline on endoscopic management of acute cholangitis, 2023",
-  "coment": "A tríade de Charcot (febre, icterícia e dor em hipocôndrio direito) sugere colangite aguda, que se torna grave com hipotensão e alteração de consciência, completando a pêntade de Reynolds. O tratamento combina antibiótico com cobertura para gram-negativos e anaeróbios, suporte hemodinâmico e drenagem biliar precoce, geralmente por colangiopancreatografia retrógrada endoscópica, feita em até vinte e quatro horas nos casos graves.",
+  "base": "AASLD/EASL Practice Guideline: Hepatic Encephalopathy in Chronic Liver Disease, 2014; EASL Clinical Practice Guidelines on hepatic encephalopathy, 2022",
+  "coment": "Encefalopatia hepática grau 3 a 4, com Glasgow de 8 ou menos e vômito, tem alto risco de broncoaspiração. A prioridade é proteger a via aérea com intubação e internar em terapia intensiva. A lactulose é dada por sonda nasogástrica ou por enema, e os precipitantes são pesquisados (infecção, sangramento, distúrbio eletrolítico, fármacos). Hipoglicemia foi afastada; tomografia de crânio entra depois da estabilização, se houver dúvida diagnóstica.",
   "porAlt": [
-   "Antibiótico oral ambulatorial não trata colangite com obstrução, que evolui rapidamente para sepse.",
-   "Aguardar resolução espontânea em colangite obstrutiva permite choque séptico e óbito evitável.",
-   "Analgésico e antiespasmódico não tratam a infecção nem descomprimem a via biliar obstruída.",
-   "Correta: antibiótico com drenagem biliar precoce, pois a via obstruída precisa ser descomprimida.",
-   "Adiar por três meses sem drenar a via biliar obstruída não é conduta aceitável nesse quadro."
+   "Via oral com Glasgow 7 e vômito expõe à broncoaspiração.",
+   "Não há suspeita de benzodiazepínico, e o problema imediato é a via aérea.",
+   "Tomografia pode vir depois de proteger a via aérea; não deve atrasar a estabilização.",
+   "Encefalopatia grau 3 a 4 com vômito: proteger a via aérea e dar lactulose por sonda ou enema.",
+   "Rifaximina não é tratamento isolado do episódio agudo."
   ]
  },
  {
-  "q": "Paciente com doença do refluxo gastroesofágico com sintomas típicos e boa resposta ao inibidor de bomba de prótons, sem sinais de alarme. Qual é a conduta?",
+  "q": "Homem de 52 anos com diabetes tipo 2, índice de massa corporal de 36 kg/m² e hemoglobina glicada de 8,4% em uso de metformina 2 g/dia tem doença hepática esteatótica associada a disfunção metabólica. Elastografia com rigidez de 11,5 kPa, compatível com fibrose significativa, sem sinais de hipertensão portal; plaquetas 196.000/mm³. Não consome álcool. Não tem doença cardiovascular nem história de pancreatite ou de carcinoma medular de tireoide. Qual conduta farmacológica é a mais adequada, junto com a mudança de estilo de vida?",
   "alts": [
-   "Indicar endoscopia digestiva alta anual de rotina para todos os pacientes com sintomas típicos e boa resposta agora.",
-   "Indicar cirurgia antirrefluxo imediatamente em todos os pacientes com sintomas típicos e boa resposta clínica agora.",
-   "Manter inibidor de bomba de prótons em dose máxima indefinidamente sem qualquer tentativa de redução neste caso.",
-   "Suspender abruptamente o inibidor e não oferecer qualquer medida comportamental ou seguimento clínico neste caso.",
-   "Manter o tratamento pelo menor tempo eficaz com medidas comportamentais, reservando sempre exames a alarme ou falha."
+   "Ácido ursodesoxicólico 15 mg/kg/dia",
+   "Semaglutida e perda de 10% do peso",
+   "Silimarina como hepatoprotetor",
+   "Vitamina E 800 UI/dia como primeira opção",
+   "Aumentar a metformina para tratar a fibrose"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AASLD Practice Guidance on MASLD, 2023; EASL-EASD-EASO Clinical Practice Guidelines on MASLD, 2024; Sanyal et al., ESSENCE, NEJM, 2025",
+  "coment": "Perda de 7 a 10% do peso melhora esteatose, inflamação e fibrose. Em diabético com obesidade e fibrose significativa, a AASLD (2023) e a EASL-EASD-EASO (2024) favorecem agonista do receptor de GLP-1, como a semaglutida, que trata as comorbidades e melhorou a esteato-hepatite em ensaio de fase 3 (ESSENCE, 2025). Pioglitazona é alternativa. Metformina, ursodiol e silimarina não modificam a histologia.",
+  "porAlt": [
+   "Ursodiol não melhora a esteato-hepatite nem a fibrose.",
+   "Agonista de GLP-1 trata diabetes e obesidade e melhora a esteato-hepatite; perder 10% do peso reduz inflamação e fibrose.",
+   "Silimarina não tem benefício demonstrado.",
+   "Vitamina E é opção em não diabéticos com esteato-hepatite comprovada, com ressalvas de segurança.",
+   "Metformina não melhora a histologia hepática."
+  ]
+ },
+ {
+  "q": "Homem de 29 anos com doença de Crohn ileocolônica há 3 anos, em uso de azatioprina, tem há 2 meses drenagem purulenta perianal, dor e febre baixa intermitente. Ao exame, orifício fistuloso externo às 5 horas com secreção e área de flutuação adjacente. Ressonância magnética de pelve: fístula transesfincteriana complexa com abscesso de 2,5 cm. IGRA negativo, HBsAg e anti-HBc negativos. Proteína C reativa 38 mg/L. Qual é a abordagem inicial mais adequada?",
+  "alts": [
+   "Fistulotomia ampla no mesmo tempo da drenagem",
+   "Metronidazol isolado por 3 meses",
+   "Infliximabe antes de drenar o abscesso",
+   "Prednisona 40 mg/dia e manter azatioprina",
+   "Drenagem com sedenho, antibiótico e depois infliximabe"
   ],
   "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022",
-  "coment": "No refluxo com sintomas típicos e sem sinais de alarme, o diagnóstico é clínico e a resposta ao inibidor de bomba de prótons confirma a hipótese. O tratamento associa medidas comportamentais (perda de peso, elevação da cabeceira, evitar deitar após refeições, cessar tabagismo) ao fármaco na menor dose eficaz, com tentativa de redução após oito semanas. Endoscopia se reserva a sinais de alarme, falha terapêutica ou rastreio de esôfago de Barrett em grupos de risco.",
+  "nivel": "r3",
+  "base": "ECCO Guidelines on Therapeutics in Crohn's Disease: Surgical Treatment, 2020; ACG Clinical Guideline: Management of Crohn's Disease in Adults, 2018",
+  "coment": "Na doença de Crohn perianal complexa, a ressonância de pelve define a anatomia e a presença de abscesso. A sequência recomendada pela ECCO é controlar a sepse primeiro, com exame sob anestesia, drenagem e sedenho frouxo, associado a antibiótico (metronidazol ou ciprofloxacino), e só então iniciar anti-TNF, com o infliximabe como o de maior evidência (ACCENT II). Fistulotomia em fístula complexa arrisca incontinência, e corticoide não tem papel.",
   "porAlt": [
-   "A endoscopia anual de rotina não é indicada em paciente com sintomas típicos e boa resposta.",
-   "A cirurgia se reserva a casos selecionados, como refratariedade ou intolerância ao tratamento clínico.",
-   "Manter dose máxima indefinidamente sem tentar reduzir expõe a efeitos adversos de uso prolongado.",
-   "Suspender abruptamente sem medidas comportamentais provoca recidiva sintomática por rebote ácido.",
-   "Correta: menor dose eficaz com medidas comportamentais, reservando exames a alarme ou falha."
+   "Fistulotomia em fístula transesfincteriana complexa arrisca incontinência.",
+   "Antibiótico isolado raramente fecha fístula complexa e não drena o abscesso.",
+   "Iniciar anti-TNF com abscesso não drenado agrava a infecção.",
+   "Corticoide não trata doença fistulizante e piora a infecção.",
+   "Drenar o abscesso com sedenho frouxo, antibiótico e, controlada a sepse, anti-TNF."
   ]
  },
  {
-  "q": "Paciente com ascite de início recente. Qual exame define se a causa é hipertensão portal?",
+  "q": "Homem de 61 anos com cirrose compensada por vírus B, em uso de entecavir e com carga viral indetectável, faz rastreamento de carcinoma hepatocelular. Índice de massa corporal de 38 kg/m². A última ultrassonografia registrou visualização limitada do fígado, com grande parte do lobo direito obscurecida (escore de visualização C do LI-RADS), sem nódulos vistos. Alfafetoproteína 4 ng/mL. Child-Pugh A5, MELD 8. Qual é a conduta de rastreamento mais adequada?",
   "alts": [
-   "Gradiente de albumina entre soro e ascite, que separa sempre as causas com e sem hipertensão portal.",
-   "Dosagem isolada de amilase no líquido ascítico, exame que define a presença de hipertensão portal.",
-   "Contagem isolada de hemácias no líquido ascítico, parâmetro que estabelece a origem portal da ascite.",
-   "Dosagem isolada de glicose no líquido ascítico, exame que define a etiologia portal do derrame abdominal.",
-   "Apenas ultrassonografia abdominal, exame que estabelece com precisão a etiologia da ascite descrita."
+   "Trocar por ressonância ou tomografia multifásica",
+   "Repetir a ultrassonografia em 6 meses",
+   "Manter só a alfafetoproteína semestral",
+   "Biópsia hepática anual",
+   "Suspender o rastreamento pela carga indetectável"
   ],
   "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma, 2023; ACR LI-RADS US Surveillance, 2017",
+  "coment": "Rastreamento de carcinoma hepatocelular na cirrose é ultrassonografia a cada 6 meses, com ou sem alfafetoproteína. A AASLD (2023) passou a pedir que o laudo informe a qualidade da visualização: com escore C (limitação grave), frequente em obesos e na cirrose avançada, recomenda-se trocar para ressonância abreviada ou tomografia multifásica. A supressão viral reduz, mas não elimina, o risco de tumor no cirrótico.",
+  "porAlt": [
+   "Com visualização C na ultrassonografia, a AASLD sugere ressonância abreviada ou tomografia multifásica.",
+   "Repetir um exame que não enxerga o fígado mantém o rastreamento ineficaz.",
+   "Alfafetoproteína isolada tem baixa sensibilidade para tumor inicial.",
+   "Biópsia não é método de rastreamento.",
+   "O risco de carcinoma persiste na cirrose mesmo com o vírus suprimido."
+  ]
+ },
+ {
+  "q": "Mulher de 36 anos tem há 1 ano dor e queimação epigástricas 3 a 4 dias por semana, sem relação com evacuação. Não há perda de peso, vômitos, disfagia, anemia ou história familiar de câncer gástrico. Pesquisa de Helicobacter pylori por antígeno fecal negativa. Endoscopia digestiva alta normal, com biópsias gástricas sem alterações. Ultrassonografia com cálculo único de 6 mm na vesícula. Usou omeprazol 20 mg/dia por 8 semanas, com resposta mínima. Qual é o próximo tratamento recomendado?",
+  "alts": [
+   "Omeprazol 40 mg duas vezes ao dia por 6 meses",
+   "Colecistectomia pela colelitíase encontrada",
+   "Amitriptilina em dose baixa à noite",
+   "Tratar Helicobacter pylori empiricamente",
+   "Domperidona contínua como primeira opção"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACG and CAG Clinical Guideline: Management of Dyspepsia, 2017; Critérios de Roma IV, 2016",
+  "coment": "Com endoscopia normal e H. pylori negativo, o quadro é dispepsia funcional pelos critérios de Roma IV. A diretriz do ACG e da CAG recomenda inibidor de bomba como primeiro tratamento e, sem resposta, antidepressivo tricíclico em dose baixa (amitriptilina 10 a 25 mg à noite), que atua como neuromodulador. Procinéticos e terapia psicológica vêm depois. Colelitíase assintomática, ou com dor que não é cólica biliar, não indica colecistectomia.",
+  "porAlt": [
+   "Aumentar e prolongar o inibidor após falha tem pouco benefício e expõe a efeitos adversos.",
+   "Cálculo pequeno com dor epigástrica que não é cólica biliar não justifica cirurgia.",
+   "Dispepsia funcional sem resposta ao inibidor: tricíclico em dose baixa é o segundo passo.",
+   "Teste negativo e biópsias normais; tratar sem infecção não traz benefício.",
+   "Procinético entra depois do tricíclico e com cautela pelos efeitos cardíacos."
+  ]
+ },
+ {
+  "q": "Mulher de 54 anos tem há 4 meses diarreia aquosa de cerca de 1,5 litro por dia, que persiste durante jejum de 48 horas na internação, com perda de 9 kg. Potássio sérico 2,8 mEq/L, bicarbonato 16 mEq/L. Sem sangue nas fezes, calprotectina normal, colonoscopia com biópsias normais. Eletrólitos fecais: sódio 75 mEq/L e potássio 60 mEq/L; osmolalidade fecal medida de 290 mOsm/kg. Qual é a interpretação e o próximo passo?",
+  "alts": [
+   "Diarreia osmótica; pesquisar laxativo com magnésio",
+   "Diarreia secretória; investigar tumor neuroendócrino e laxativo",
+   "Má absorção de gordura; dosar elastase fecal",
+   "Síndrome do intestino irritável; loperamida",
+   "Colite microscópica; budesonida empírica"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "British Society of Gastroenterology guidelines for the investigation of chronic diarrhoea in adults, 2018; Sleisenger and Fordtran's Gastrointestinal and Liver Disease, 11ª edição, 2021",
+  "coment": "O hiato osmótico fecal é 290 menos duas vezes a soma de sódio e potássio fecais: 290 − 2 × (75 + 60) = 20 mOsm/kg. Abaixo de 50 indica diarreia secretória; acima de 125, osmótica. Diarreia secretória de grande volume, que persiste no jejum, com hipocalemia, acidose e biópsias normais, leva à pesquisa de tumores neuroendócrinos (polipeptídeo intestinal vasoativo, gastrina, cromogranina, 5-HIAA urinário) e de uso oculto de laxativo estimulante.",
+  "porAlt": [
+   "Hiato osmótico de 20 mOsm/kg é baixo; a diarreia osmótica tem hiato acima de 125 e cessa no jejum.",
+   "Hiato abaixo de 50 e persistência no jejum definem diarreia secretória; pesquisar VIPoma, gastrinoma, carcinoide e laxativo estimulante.",
+   "Esteatorreia costuma diminuir no jejum e não produz esse hiato osmótico.",
+   "Volume de 1,5 litro, hipocalemia e perda de peso afastam distúrbio funcional.",
+   "Biópsias colônicas normais afastam colite microscópica."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos teve hemorragia digestiva alta por úlcera gástrica de 15 mm na pequena curvatura com vaso visível não sangrante (Forrest IIa), tratada com adrenalina e eletrocoagulação bipolar, seguida de inibidor de bomba endovenoso em dose alta. No segundo dia, tem nova hematêmese, pressão arterial 92/60 mmHg e frequência 120 bpm, que melhoram com cristaloide e duas unidades de concentrado de hemácias. Hemoglobina 7,2 g/dL. Qual é a conduta mais adequada agora?",
+  "alts": [
+   "Gastrectomia parcial de urgência",
+   "Aumentar o inibidor de bomba e observar",
+   "Ácido tranexâmico e octreotida",
+   "Nova endoscopia com terapia hemostática",
+   "Angiografia com embolização como primeira escolha"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESGE Guideline: Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage, 2021; Lau et al., NEJM, 1999",
+  "coment": "Após hemostasia endoscópica de úlcera péptica, o ressangramento deve ser tratado com nova endoscopia terapêutica. Em ensaio clínico, a segunda endoscopia controlou a maioria dos casos com menos complicações que a cirurgia. Se falhar, a ESGE recomenda embolização angiográfica transcateter e, depois, cirurgia. Clipe sobre o endoscópio (over-the-scope) é uma opção na segunda tentativa.",
+  "porAlt": [
+   "Cirurgia fica para falha da segunda endoscopia e da embolização.",
+   "Ressangramento com instabilidade exige nova hemostasia, não observação.",
+   "Nenhum dos dois tem benefício no sangramento por úlcera.",
+   "Ressangramento após hemostasia inicial: segunda endoscopia terapêutica, que controla a maioria dos casos.",
+   "Embolização é o passo seguinte se a segunda endoscopia falhar."
+  ]
+ },
+ {
+  "q": "Mulher de 74 anos chega com febre de 39 °C, calafrios, icterícia e dor em hipocôndrio direito há 2 dias. Está confusa, com pressão arterial de 82/48 mmHg que exige noradrenalina após 30 mL/kg de cristaloide. Leucócitos 21.000/mm³, bilirrubina total 6,8 mg/dL, creatinina 2,1 mg/dL, plaquetas 88.000/mm³, INR 1,6. Ultrassonografia: colédoco de 12 mm com cálculo distal e colelitíase. Hemoculturas colhidas e piperacilina-tazobactam iniciada. Qual é a conduta seguinte?",
+  "alts": [
+   "Drenagem biliar por CPRE assim que possível",
+   "Colecistectomia de urgência",
+   "Colangiorressonância antes de decidir drenar",
+   "Antibiótico por 72 horas e CPRE eletiva",
+   "Colecistostomia percutânea"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis; ESGE Guideline on endoscopic management of common bile duct stones, 2019",
+  "coment": "Tríade de Charcot com hipotensão que exige vasopressor, confusão, lesão renal e plaquetopenia define colangite aguda grave, grau III pelas diretrizes de Tóquio. O tratamento é antibiótico, suporte orgânico e drenagem biliar urgente assim que o paciente tolerar o procedimento, de preferência por CPRE. Na forma moderada, a drenagem é precoce, em até 24 a 48 horas. A colecistectomia vem depois.",
+  "porAlt": [
+   "Colangite grave (grau III de Tóquio): drenagem biliar urgente, de preferência endoscópica, com suporte orgânico.",
+   "O problema é o colédoco obstruído; colecistectomia não drena a via biliar e é arriscada no choque.",
+   "A ultrassonografia já mostrou dilatação e cálculo; outra imagem só atrasa a drenagem.",
+   "Adiar a drenagem na colangite com disfunção orgânica aumenta a mortalidade.",
+   "Colecistostomia não descomprime o colédoco obstruído."
+  ]
+ },
+ {
+  "q": "Homem de 50 anos, com índice de massa corporal de 31 kg/m², tem pirose e regurgitação diárias há 1 ano. Sem disfagia, anemia ou perda de peso. A endoscopia mostrou esofagite erosiva com erosões confluentes em menos de 75% da circunferência (Los Angeles grau C), hérnia hiatal de 3 cm e nenhum sinal visível de esôfago de Barrett. Tratou com omeprazol 40 mg/dia por 8 semanas e está assintomático desde a quarta semana. Qual é a conduta mais adequada agora?",
+  "alts": [
+   "Suspender o omeprazol, já que está assintomático",
+   "Nova endoscopia para avaliar cicatrização e Barrett",
+   "Omeprazol sob demanda, quando houver sintomas",
+   "Fundoplicatura para evitar uso crônico de inibidor",
+   "pHmetria para confirmar a doença do refluxo"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022",
+  "coment": "Esofagite de Los Angeles grau C ou D confirma doença do refluxo e tem alta recorrência. A diretriz do ACG (2022) recomenda repetir a endoscopia após 8 semanas de inibidor para documentar a cicatrização e procurar esôfago de Barrett, que a inflamação intensa pode esconder, e manter inibidor contínuo na menor dose eficaz. Uso sob demanda fica para doença não erosiva e esofagite grau A ou B.",
+  "porAlt": [
+   "Esofagite grau C recorre com frequência sem manutenção; o inibidor deve ser mantido.",
+   "Na esofagite LA C ou D, nova endoscopia após o tratamento avalia cicatrização e afasta Barrett encoberto pela inflamação.",
+   "Uso sob demanda serve à doença não erosiva ou à esofagite leve, não ao grau C.",
+   "Cirurgia é opção em casos selecionados, não exigência para evitar o inibidor.",
+   "Esofagite LA grau C já confirma a doença do refluxo."
+  ]
+ },
+ {
+  "q": "Homem de 67 anos com insuficiência cardíaca por cardiopatia isquêmica e fração de ejeção de 30% é internado por dispneia, edema de membros inferiores e ascite de início recente. Turgência jugular a 45 graus, refluxo hepatojugular positivo. Não tem história de etilismo; sorologias para hepatites negativas. Albumina sérica 3,0 g/dL. Paracentese diagnóstica: albumina 1,2 g/dL, proteína total 3,4 g/dL, 180 células/mm³ com 20% de neutrófilos, citologia oncótica negativa. Qual é a interpretação do líquido?",
+  "alts": [
+   "Carcinomatose peritoneal pela proteína alta",
+   "Cirrose, pelo gradiente acima de 1,1",
+   "Peritonite tuberculosa pela proteína elevada",
+   "Síndrome nefrótica pela hipoalbuminemia",
+   "Ascite cardíaca, pós-sinusoidal"
+  ],
+  "gab": 4,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "AASLD practice guidance on ascites due to cirrhosis, 2021 com revisão 2023; EASL Clinical Practice Guidelines, 2018",
-  "coment": "O gradiente de albumina entre soro e líquido ascítico é o parâmetro que melhor separa as causas: valor igual ou superior a 1,1 g/dL indica hipertensão portal, como cirrose, insuficiência cardíaca e trombose de veia porta, enquanto valor inferior aponta causas peritoneais, como carcinomatose, tuberculose peritoneal e ascite pancreática. A proteína total do líquido complementa, ajudando a distinguir cirrose de causa cardíaca na ascite com hipertensão portal.",
+  "base": "AASLD Practice Guidance: Diagnosis, Evaluation, and Management of Ascites, 2021; EASL Clinical Practice Guidelines for decompensated cirrhosis, 2018",
+  "coment": "O gradiente de albumina soro-ascite é 3,0 − 1,2 = 1,8 g/dL. Valor igual ou acima de 1,1 indica hipertensão portal. A proteína total do líquido separa a origem: abaixo de 2,5 g/dL na cirrose, em que os sinusoides capilarizados deixam passar pouca proteína, e acima de 2,5 g/dL na hipertensão pós-sinusoidal (insuficiência cardíaca, pericardite constritiva, síndrome de Budd-Chiari), em que os sinusoides estão preservados. Gradiente abaixo de 1,1 aponta para carcinomatose, tuberculose, pancreatite ou síndrome nefrótica.",
   "porAlt": [
-   "Correta: o gradiente de albumina entre soro e ascite separa as causas com e sem hipertensão portal.",
-   "A amilase se eleva na ascite pancreática, mas não define a presença de hipertensão portal.",
-   "A contagem de hemácias sugere ascite hemorrágica, sem definir o mecanismo portal do derrame.",
-   "A glicose do líquido é inespecífica e não estabelece a etiologia portal da ascite investigada.",
-   "A ultrassonografia detecta o líquido e sinais de cirrose, mas não substitui a análise do líquido."
+   "Carcinomatose tem gradiente abaixo de 1,1 e costuma ter citologia positiva.",
+   "Cirrose tem gradiente alto, mas proteína total do líquido abaixo de 2,5 g/dL.",
+   "Tuberculose peritoneal tem gradiente abaixo de 1,1 e predomínio de linfócitos com contagem maior.",
+   "Síndrome nefrótica produz gradiente baixo e proteína baixa no líquido.",
+   "Gradiente de 1,8 g/dL com proteína total acima de 2,5 g/dL: hipertensão portal pós-sinusoidal, como na insuficiência cardíaca."
   ]
  },
  {
@@ -19128,243 +19128,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com cirrose e primeiro episódio de ascite. Qual é a conduta inicial?",
+  "q": "Mulher de 59 anos com cirrose por vírus C e ascite, em uso de espironolactona 200 mg/dia e furosemida 80 mg/dia há 3 semanas, retorna com cãibras e fraqueza. Perdeu 4 kg no período, sem edema e com ascite pequena ao exame. Pressão arterial 98/60 mmHg. Sódio 122 mEq/L (134 mEq/L há 3 semanas), potássio 5,4 mEq/L, creatinina 1,9 mg/dL (0,9 mg/dL antes dos diuréticos). Afebril; paracentese com 60 polimorfonucleares/mm³. Qual é a conduta?",
   "alts": [
-   "Paracentese de grande volume diária como tratamento inicial de escolha do primeiro episódio de ascite agora.",
-   "Restrição de sódio com diurético combinado, monitorando sempre peso, eletrólitos e função renal do paciente.",
-   "Restrição hídrica extrema isolada como primeira medida no paciente cirrótico com ascite de início recente.",
-   "Iniciar albumina endovenosa isolada, sem qualquer diurético ou restrição de sódio na dieta do paciente.",
-   "Indicar transplante hepático imediato em todos os pacientes com primeiro episódio de ascite por cirrose."
+   "Reduzir a furosemida e manter a espironolactona",
+   "Restrição hídrica de 1 litro e manter diuréticos",
+   "Suspender diuréticos e albumina 1 g/kg por 2 dias",
+   "Terlipressina com albumina desde já",
+   "Tolvaptano para corrigir o sódio"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "gastro",
-  "cenario": "amb",
+  "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "EASL Clinical Practice Guidelines on decompensated cirrhosis, 2018 com atualização 2023; AASLD practice guidance on ascites, 2021",
-  "coment": "O tratamento inicial da ascite por cirrose combina restrição de sódio, em torno de dois gramas por dia, com diurético, tipicamente espironolactona associada a furosemida em proporção que preserva o potássio. Monitoram-se peso diário, eletrólitos e função renal, com perda ponderal alvo de até meio quilo por dia sem edema periférico. Restrição hídrica se reserva à hiponatremia significativa, e paracentese de grande volume é para ascite tensa ou refratária.",
+  "base": "EASL Clinical Practice Guidelines for decompensated cirrhosis, 2018; AASLD Practice Guidance on ascites and hepatorenal syndrome, 2021",
+  "coment": "Perda de peso excessiva, hipotensão, hiponatremia, hipercalemia e creatinina dobrada após diuréticos caracterizam lesão renal aguda pré-renal com hiponatremia hipovolêmica. EASL e AASLD recomendam suspender todos os diuréticos e expandir com albumina 1 g/kg/dia por 2 dias. Se a creatinina não melhorar e não houver outra causa, o diagnóstico passa a ser lesão renal aguda por síndrome hepatorrenal, tratada com terlipressina e albumina.",
   "porAlt": [
-   "A paracentese diária não é tratamento inicial e expõe a complicações e perda proteica repetida.",
-   "Correta: restrição de sódio com diurético combinado e monitorização de peso, eletrólitos e função renal.",
-   "A restrição hídrica extrema se reserva à hiponatremia e não é a medida inicial da ascite.",
-   "A albumina é adjuvante em situações específicas e não substitui diurético e restrição de sódio.",
-   "O transplante é avaliado na doença avançada, e não indicado pelo primeiro episódio de ascite."
+   "Com lesão renal aguda, sódio abaixo de 125 mEq/L e potássio alto, todos os diuréticos devem ser suspensos.",
+   "Restrição hídrica não trata hiponatremia hipovolêmica por diurético, e manter diuréticos agrava a lesão renal.",
+   "Lesão renal aguda por diurético: suspender e expandir com albumina por 2 dias antes de pensar em síndrome hepatorrenal.",
+   "Terlipressina só entra se não houver resposta à suspensão dos diuréticos e à albumina.",
+   "Tolvaptano tem alerta de hepatotoxicidade, não é recomendado na cirrose e não corrige a causa."
   ]
  },
  {
-  "q": "Paciente com doença celíaca em dieta sem glúten mantém sintomas e sorologia persistentemente positiva. Qual é a primeira hipótese?",
+  "q": "Mulher de 34 anos recebeu diagnóstico de doença celíaca há 14 meses, com antitransglutaminase IgA de 180 U/mL (referência abaixo de 10 U/mL) e atrofia vilositária Marsh 3b. Diz seguir dieta sem glúten, mas mantém distensão e 3 evacuações amolecidas por dia. Hoje a antitransglutaminase IgA é de 64 U/mL. Almoça em restaurante por quilo nos dias úteis e usa um suplemento importado. Ferritina 14 ng/mL. Qual é a causa mais provável e a conduta inicial?",
   "alts": [
-   "Doença celíaca refratária verdadeira, hipótese mais provável e frequente na persistência dos sintomas.",
-   "Diagnóstico incorreto de doença celíaca, que deve ser descartado imediatamente sem qualquer investigação.",
-   "Necessidade de aumentar a ingestão de glúten para induzir tolerância imunológica progressiva ao antígeno.",
-   "Exposição inadvertida ao glúten, causa mais frequente de persistência dos sintomas nesses pacientes.",
-   "Indicação imediata de corticoide sistêmico contínuo sem qualquer revisão da dieta seguida pelo paciente."
+   "Celíaca refratária tipo II; tipar linfócitos intraepiteliais",
+   "Linfoma associado a enteropatia; tomografia de abdome",
+   "Diagnóstico inicial incorreto; repetir biópsia com glúten",
+   "Exposição inadvertida ao glúten; revisão com nutricionista",
+   "Insuficiência pancreática; enzimas pancreáticas empíricas"
   ],
   "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ACG Clinical Guideline: Diagnosis and Management of Celiac Disease, 2023",
-  "coment": "A causa mais frequente de sintomas persistentes na doença celíaca é a exposição inadvertida ao glúten, muitas vezes por contaminação cruzada, medicamentos, alimentos industrializados e refeições fora de casa, o que exige revisão detalhada com nutricionista especializado. Outras causas incluem intolerância à lactose, supercrescimento bacteriano, colite microscópica e síndrome do intestino irritável associada. A doença celíaca refratária verdadeira é rara e diagnóstico de exclusão.",
+  "base": "ACG Clinical Guideline Update: Diagnosis and Management of Celiac Disease, 2023",
+  "coment": "A causa mais comum de sintomas persistentes na doença celíaca é a exposição continuada ao glúten, muitas vezes inadvertida (contaminação cruzada em refeições fora de casa, suplementos, medicamentos). A sorologia costuma negativar entre 6 e 24 meses de dieta rigorosa; continuar positiva sugere ingestão. O ACG (2023) recomenda revisar a dieta com nutricionista experiente antes de investigar outras causas ou doença celíaca refratária, que exige atrofia persistente após 12 meses de dieta comprovadamente estrita.",
   "porAlt": [
-   "A doença celíaca refratária verdadeira é rara e diagnóstico de exclusão, não a primeira hipótese.",
-   "O diagnóstico não deve ser descartado sem investigação, e a sorologia positiva o sustenta.",
-   "A reintrodução de glúten agrava a lesão intestinal e é contraindicada nesses pacientes.",
-   "Correta: exposição inadvertida ao glúten é a causa mais frequente de persistência dos sintomas.",
-   "O corticoide não é indicado antes de revisar a dieta e excluir a exposição inadvertida."
+   "Refratária exige atrofia persistente após 12 meses de dieta rigorosa confirmada; sorologia ainda positiva aponta exposição.",
+   "Linfoma é raro e não explica a sorologia persistentemente positiva.",
+   "Sorologia muito alta com Marsh 3b confirmou o diagnóstico.",
+   "Sorologia em queda mas ainda positiva após um ano, com refeições fora de casa, indica ingestão de glúten; a revisão da dieta vem primeiro.",
+   "Insuficiência pancreática é causa possível, mas é investigada depois de afastar exposição ao glúten."
   ]
  },
  {
-  "q": "Paciente com pancreatite aguda biliar leve já resolvida. Qual é a conduta para prevenir recorrência?",
+  "q": "Mulher de 86 anos, com insuficiência cardíaca de fração de ejeção de 25%, doença renal crônica estágio 4 e dependência parcial para atividades diárias, teve pancreatite aguda biliar leve, resolvida em 4 dias. A ultrassonografia mostra múltiplos cálculos na vesícula; a colangiorressonância não mostra cálculos no colédoco. A equipe de anestesia classificou o risco cirúrgico como proibitivo, e paciente e família preferem evitar cirurgia. Qual é a conduta para reduzir a recorrência?",
   "alts": [
-   "Colecistectomia eletiva apenas depois de um ano da alta hospitalar em todos os pacientes com pancreatite biliar já.",
-   "Colecistectomia na mesma internação, pois adiá-la aumenta sempre o risco de novo episódio no intervalo agora.",
-   "Manter apenas dieta com baixo teor de gordura como única medida preventiva de novos episódios de pancreatite.",
-   "Prescrever antibiótico profilático contínuo por seis meses como prevenção de recorrência da pancreatite biliar.",
-   "Não realizar qualquer intervenção, pois a pancreatite biliar não recorre após o primeiro episódio resolvido."
+   "Esfincterotomia endoscópica por CPRE",
+   "Colecistectomia laparoscópica na mesma internação",
+   "Ácido ursodesoxicólico contínuo como alternativa",
+   "Colecistostomia percutânea definitiva",
+   "Dieta pobre em gordura, sem outro procedimento"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "prev",
-  "nivel": "r2",
-  "base": "American Gastroenterological Association guideline on acute pancreatitis, 2024; IAP/APA guidelines, revisão 2023",
-  "coment": "Na pancreatite aguda biliar leve, a colecistectomia deve ser realizada na mesma internação, pois o risco de novo episódio, colecistite ou colangite no intervalo até a cirurgia eletiva é elevado, chegando a cerca de vinte por cento em seis semanas. Ensaio clínico demonstrou redução de complicações com a cirurgia precoce. Em pancreatite grave com coleções, a cirurgia é adiada até a resolução do processo inflamatório.",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; AGA Clinical Practice Guideline on Initial Management of Acute Pancreatitis, 2018",
+  "coment": "Na pancreatite biliar leve, a colecistectomia na mesma internação é o padrão, pois adiá-la aumenta a recorrência. Quando o risco cirúrgico é proibitivo, ACG e AGA consideram a esfincterotomia endoscópica uma alternativa: ela reduz novos episódios de pancreatite, embora não previna colecistite nem cólica biliar.",
   "porAlt": [
-   "Aguardar um ano expõe o paciente a recorrência precoce, colecistite e colangite no intervalo.",
-   "Correta: colecistectomia na mesma internação, pois adiar aumenta o risco de novo episódio.",
-   "A dieta isolada não previne a migração de cálculos nem a recorrência da pancreatite biliar.",
-   "O antibiótico profilático não previne a recorrência, que depende da remoção da vesícula.",
-   "A pancreatite biliar recorre com frequência elevada quando a vesícula não é removida."
+   "Em quem não pode ser operado, a esfincterotomia endoscópica reduz a recorrência de pancreatite biliar.",
+   "Seria o padrão, mas o risco cirúrgico foi considerado proibitivo.",
+   "Ursodiol não previne pancreatite biliar recorrente de forma confiável.",
+   "Colecistostomia é ponte na colecistite aguda, não prevenção de pancreatite.",
+   "Dieta não impede a migração de cálculos."
   ]
  },
  {
-  "q": "Paciente com hepatite B crônica, HBeAg negativo, carga viral elevada e transaminases persistentemente alteradas. Qual é a conduta?",
+  "q": "Mulher de 64 anos com hepatite B crônica HBeAg negativo tem DNA do HBV de 28.000 UI/mL e ALT de 96 U/L (limite superior de 35 U/L) em três dosagens ao longo de 9 meses. Elastografia de 9,8 kPa. Tem doença renal crônica com taxa de filtração glomerular estimada de 44 mL/min/1,73 m² e osteoporose com fratura vertebral prévia. Anti-HIV não reagente. Não recebeu tratamento para hepatite B antes. Qual antiviral é o mais adequado?",
   "alts": [
-   "Iniciar antiviral com tenofovir ou entecavir, mantendo sempre rastreio de carcinoma hepatocelular no seguimento.",
-   "Não tratar, pois a hepatite B crônica com HBeAg negativo nunca requer tratamento antiviral específico agora.",
-   "Iniciar interferon convencional como tratamento de escolha atual para todos os pacientes com hepatite B crônica.",
-   "Prescrever apenas hepatoprotetor de venda livre como tratamento da hepatite B crônica com carga viral elevada.",
-   "Indicar transplante hepático imediato para todos os pacientes com hepatite B crônica e carga viral elevada."
+   "Tenofovir desoproxila",
+   "Lamivudina em dose ajustada",
+   "Entecavir ou tenofovir alafenamida",
+   "Interferon peguilado por 48 semanas",
+   "Adefovir dipivoxila"
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde. PCDT para Hepatite B e Coinfecções, 2024; EASL Clinical Practice Guidelines on hepatitis B, 2017 com revisão 2023",
-  "coment": "A hepatite B crônica HBeAg negativa com carga viral elevada e transaminases alteradas configura hepatite ativa e tem indicação de tratamento com análogo de nucleotídeo ou nucleosídeo de alta barreira genética, como tenofovir ou entecavir, geralmente por tempo prolongado. Independentemente do tratamento, mantém-se rastreio semestral de carcinoma hepatocelular em grupos de risco, pois a hepatite B pode causar o tumor mesmo sem cirrose estabelecida.",
+  "base": "EASL Clinical Practice Guidelines on the management of hepatitis B virus infection, 2017; AASLD Update on Prevention, Diagnosis, and Treatment of Chronic Hepatitis B, 2018",
+  "coment": "HBeAg negativo com DNA acima de 2.000 UI/mL, ALT elevada e fibrose ao menos moderada indica tratamento. A primeira linha são os antivirais de alta barreira genética: entecavir, tenofovir desoproxila e tenofovir alafenamida. Na doença renal crônica ou na osteoporose, EASL e AASLD preferem entecavir, com dose ajustada à filtração, ou tenofovir alafenamida, pela menor toxicidade renal e óssea que a do tenofovir desoproxila. Lamivudina e adefovir não são mais recomendados.",
   "porAlt": [
-   "Correta: antiviral com tenofovir ou entecavir, mantendo rastreio semestral de carcinoma hepatocelular.",
-   "A forma HBeAg negativa com atividade tem indicação clara de tratamento antiviral específico.",
-   "O interferon convencional foi amplamente substituído pelos análogos de alta barreira genética.",
-   "Hepatoprotetores não suprimem a replicação viral nem reduzem a progressão da doença hepática.",
-   "O transplante se reserva a doença hepática avançada, e não a toda hepatite crônica ativa."
+   "Tenofovir desoproxila tem toxicidade renal e óssea e deve ser evitado com doença renal e osteoporose.",
+   "Lamivudina tem alta taxa de resistência e não é primeira linha.",
+   "Alta barreira genética e menor toxicidade renal e óssea: entecavir ajustado à filtração ou tenofovir alafenamida.",
+   "Interferon tem baixa resposta, muitos efeitos adversos e pouco uso nessa idade.",
+   "Adefovir é nefrotóxico e pouco potente."
   ]
  },
  {
-  "q": "Paciente com colite ulcerativa em atividade grave, com mais de seis evacuações sanguinolentas ao dia, febre e taquicardia. Qual é a conduta?",
+  "q": "Homem de 31 anos com retocolite ulcerativa extensa foi internado com 10 evacuações sanguinolentas por dia, frequência de 104 bpm, temperatura de 37,9 °C e hemoglobina de 9,8 g/dL. Pesquisa de Clostridioides difficile negativa e biópsia retal sem citomegalovírus. Recebe metilprednisolona 60 mg/dia endovenosa e enoxaparina profilática. No terceiro dia, mantém 9 evacuações com sangue, e a proteína C reativa é de 62 mg/L. Radiografia de abdome sem dilatação colônica. Qual é a conduta?",
   "alts": [
-   "Internar com corticoide endovenoso e profilaxia de trombose, avaliando sempre resposta em três a cinco dias.",
-   "Manter tratamento ambulatorial com mesalazina oral isolada em todos os casos de colite ulcerativa grave já.",
-   "Prescrever antidiarreico em dose plena para reduzir o número de evacuações nesse paciente com colite grave.",
-   "Iniciar antibiótico de amplo espectro isolado como tratamento definitivo da colite ulcerativa em atividade grave.",
-   "Indicar colectomia total imediata em todos os pacientes na primeira apresentação de colite ulcerativa grave."
+   "Manter a metilprednisolona por mais 7 dias",
+   "Resgate com infliximabe e avaliação cirúrgica",
+   "Metilprednisolona em pulso de 1 g/dia",
+   "Associar azatioprina como terapia de resgate",
+   "Mesalazina oral 4,8 g/dia com o corticoide"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ECCO-ESGAR guidelines on ulcerative colitis, 2022; AGA Clinical Practice Guideline on moderate to severe UC, revisão 2024",
-  "coment": "A colite aguda grave, definida pelos critérios de Truelove e Witts, é emergência com risco de megacólon tóxico e perfuração. O manejo inclui internação, corticoide endovenoso, hidratação, correção eletrolítica, profilaxia de tromboembolismo, o risco é alto mesmo com sangramento intestinal, exclusão de infecção por Clostridioides difficile e citomegalovírus e avaliação de resposta em três a cinco dias, quando se decide por terapia de resgate ou colectomia.",
+  "base": "ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment, 2022; Travis et al., Predicting outcome in severe ulcerative colitis, Gut, 1996",
+  "coment": "Colite aguda grave pelos critérios de Truelove e Witts é tratada com corticoide endovenoso, profilaxia de tromboembolismo e exclusão de C. difficile e citomegalovírus. No terceiro dia, mais de 8 evacuações, ou 3 a 8 com proteína C reativa acima de 45 mg/L (critério de Oxford), predizem cerca de 85% de colectomia. A ECCO recomenda resgate com infliximabe ou ciclosporina e avaliação cirúrgica conjunta; sem resposta em 4 a 7 dias, colectomia.",
   "porAlt": [
-   "Correta: internação com corticoide endovenoso e profilaxia de trombose, com avaliação em poucos dias.",
-   "A mesalazina oral isolada é insuficiente para a colite aguda grave com repercussão sistêmica.",
-   "O antidiarreico pode precipitar megacólon tóxico e é contraindicado na colite aguda grave.",
-   "O antibiótico isolado não trata a inflamação, embora infecção associada deva ser afastada.",
-   "A colectomia é indicada na falha do tratamento clínico ou em complicações, não de imediato."
+   "Prolongar corticoide sem resposta atrasa o resgate e aumenta a mortalidade operatória.",
+   "Mais de 8 evacuações no terceiro dia prevê colectomia: resgate com infliximabe ou ciclosporina, com o cirurgião acompanhando.",
+   "Pulso de corticoide não tem benefício sobre a dose padrão.",
+   "Azatioprina leva meses para agir e não serve de resgate.",
+   "Mesalazina não acrescenta na colite aguda grave."
   ]
  },
  {
-  "q": "Paciente com suspeita de intolerância à lactose relata distensão e diarreia após laticínios. Qual é a conduta inicial?",
+  "q": "Mulher de 26 anos atribui ao leite a distensão abdominal e as evacuações amolecidas que tem há 1 ano, e já retirou os laticínios por conta própria, com melhora parcial. Perdeu 5 kg no período, sem intenção. Hemoglobina 10,4 g/dL, volume corpuscular médio 74 fL, ferritina 8 ng/mL. Ciclos menstruais de fluxo normal. Tem hipotireoidismo autoimune em uso de levotiroxina. Não há sangue nas fezes. Qual é a conduta mais adequada?",
   "alts": [
-   "Indicar biópsia intestinal imediata em todos os pacientes com sintomas após consumo de laticínios agora.",
-   "Excluir permanentemente todos os laticínios da dieta sem qualquer teste de reintrodução ou avaliação nutricional.",
-   "Prescrever corticoide sistêmico contínuo como tratamento de escolha para a intolerância à lactose suspeitada.",
-   "Prescrever antibiótico de amplo espectro por dez dias como tratamento inicial da intolerância à lactose.",
-   "Retirada temporária da lactose com reintrodução programada, avaliando sempre a correlação com os sintomas."
+   "Teste respiratório do hidrogênio com lactose",
+   "Manter a dieta sem lactose e repor ferro",
+   "Colonoscopia com biópsias do cólon",
+   "Lactase em cápsulas e reavaliar em 3 meses",
+   "Antitransglutaminase IgA e IgA total"
   ],
   "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r1",
-  "base": "ACG Clinical Guideline on chronic diarrhea, revisão 2023; NIH consensus on lactose intolerance, revisão 2022",
-  "coment": "A intolerância à lactose é avaliada inicialmente pela retirada temporária da lactose por duas a quatro semanas com reintrodução programada, observando a correlação com os sintomas, ou por teste respiratório com hidrogênio expirado quando disponível. A exclusão permanente e total não é necessária: a maioria tolera pequenas quantidades, sobretudo com alimentos, e a enzima lactase exógena permite consumo. Importa afastar doença celíaca, que pode cursar com intolerância secundária.",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline Update: Diagnosis and Management of Celiac Disease, 2023; British Society of Gastroenterology guidelines for the investigation of chronic diarrhoea in adults, 2018",
+  "coment": "Intolerância à lactose isolada não causa perda de peso nem anemia ferropriva. Esses achados, junto com doença autoimune da tireoide, sugerem má absorção por doença celíaca, que lesa a borda em escova e produz hipolactasia secundária. O primeiro passo é antitransglutaminase IgA com IgA total, com a paciente consumindo glúten, e biópsia duodenal se positiva.",
   "porAlt": [
-   "A biópsia intestinal não é necessária para o diagnóstico de intolerância à lactose simples.",
-   "A exclusão permanente e total é desnecessária e compromete o aporte de cálcio na dieta.",
-   "O corticoide não trata deficiência enzimática e adiciona toxicidade sem qualquer benefício.",
-   "O antibiótico não trata intolerância à lactose, que decorre de deficiência da enzima lactase.",
-   "Correta: retirada temporária com reintrodução programada, avaliando a correlação com os sintomas."
+   "Confirmar hipolactasia não explicaria a perda de peso e a anemia; ela pode ser secundária.",
+   "Tratar o sintoma deixa sem diagnóstico uma provável doença celíaca.",
+   "Sem sangramento ou alarme colônico, colonoscopia não é o primeiro exame.",
+   "Suplementar lactase ignora os sinais de má absorção.",
+   "Perda de peso, anemia ferropriva e autoimunidade tireoidiana: rastrear doença celíaca, que causa intolerância à lactose secundária."
   ]
  },
  {
-  "q": "Paciente com doença diverticular apresenta dor em fossa ilíaca esquerda, febre e leucocitose, sem sinais de peritonite. Qual é a conduta?",
+  "q": "Homem de 58 anos tem dor em fossa ilíaca esquerda há 4 dias, febre de 38,3 °C e leucócitos de 16.500/mm³. Abdome doloroso à palpação profunda na fossa ilíaca esquerda, sem defesa generalizada. Pressão arterial 128/78 mmHg, frequência 96 bpm. Tomografia de abdome: diverticulite de sigmoide com abscesso pélvico de 5 cm, bem delimitado, sem ar livre ou líquido livre na cavidade (Hinchey II). Não é imunossuprimido e fez colonoscopia normal há 2 anos. Qual é a conduta mais adequada?",
   "alts": [
-   "Indicar colectomia de urgência em todos os pacientes com diverticulite aguda e febre com leucocitose nesse contexto.",
-   "Confirmar por tomografia e tratar conforme a gravidade, considerando sempre manejo ambulatorial em casos selecionados.",
-   "Realizar colonoscopia imediata na fase aguda como exame de escolha para confirmar o diagnóstico do quadro neste caso.",
-   "Prescrever apenas analgésico e liberar sem qualquer avaliação por imagem ou tratamento antimicrobiano neste caso.",
-   "Prescrever apenas laxante estimulante em dose alta como tratamento inicial da diverticulite aguda descrita agora."
+   "Antibiótico oral ambulatorial por 7 dias",
+   "Sigmoidectomia com colostomia de urgência",
+   "Colonoscopia na internação para afastar câncer",
+   "Antibiótico endovenoso e drenagem percutânea",
+   "Observação clínica sem antibiótico"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ACG Clinical Guideline on the management of acute diverticulitis, 2021; WSES guidelines, revisão 2023",
-  "coment": "O diagnóstico de diverticulite aguda é confirmado por tomografia de abdome com contraste, que também estratifica a gravidade e identifica abscesso, perfuração e fístula. Casos não complicados em pacientes imunocompetentes e sem comorbidades podem ser manejados ambulatorialmente, e evidências recentes mostram que muitos dispensam antibiótico. Colonoscopia é contraindicada na fase aguda por risco de perfuração, sendo realizada semanas depois para excluir neoplasia.",
+  "base": "AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis, 2021; ASCRS Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis, 2020",
+  "coment": "Diverticulite complicada por abscesso menor que 3 cm costuma responder a antibiótico endovenoso. Abscessos de 3 cm ou mais, como este, pedem drenagem percutânea guiada por tomografia junto com o antibiótico, reservando cirurgia para falha ou peritonite. Colonoscopia após a fase aguda fica para quem não tem exame recente de qualidade. Na diverticulite não complicada em imunocompetente, o antibiótico pode ser usado de forma seletiva.",
   "porAlt": [
-   "A cirurgia de urgência se reserva a complicações como perfuração livre e peritonite generalizada.",
-   "Correta: confirmar por tomografia e tratar conforme a gravidade, com manejo ambulatorial quando possível.",
-   "A colonoscopia na fase aguda é contraindicada pelo risco de perfuração do segmento inflamado.",
-   "Liberar sem imagem nem tratamento perde complicações como abscesso e perfuração contida.",
-   "O laxante estimulante agrava a dor e o risco de perfuração no segmento agudamente inflamado."
+   "Abscesso de 5 cm não se resolve com antibiótico oral ambulatorial.",
+   "Sem peritonite generalizada, cirurgia de urgência não é a primeira escolha.",
+   "Colonoscopia na fase aguda arrisca perfuração, e há exame normal recente.",
+   "Abscesso de 3 cm ou mais: antibiótico endovenoso e drenagem guiada por imagem.",
+   "Observação sem antibiótico serve à diverticulite não complicada, não ao abscesso."
   ]
  },
  {
-  "q": "Paciente com sangramento digestivo baixo volumoso e instabilidade hemodinâmica. Qual é a conduta inicial?",
+  "q": "Homem de 76 anos, em uso de ácido acetilsalicílico, chega com três episódios de sangue vermelho vivo e coágulos pelo reto nas últimas 2 horas. Pressão arterial 84/50 mmHg e frequência de 122 bpm, que melhoram só em parte após 2 litros de cristaloide e duas unidades de hemácias. Hemoglobina 7,8 g/dL, ureia 38 mg/dL, creatinina 1,0 mg/dL. Sem hepatopatia. Continua eliminando sangue vivo na sala de emergência. Qual é o próximo passo diagnóstico?",
   "alts": [
-   "Estabilizar e investigar a fonte com angiotomografia ou colonoscopia, excluindo sempre origem digestiva alta.",
-   "Realizar colonoscopia imediata sem qualquer preparo ou estabilização hemodinâmica prévia do paciente agora.",
-   "Indicar colectomia total imediata em todos os casos de sangramento digestivo baixo com instabilidade agora.",
-   "Prescrever apenas antifibrinolítico oral como tratamento definitivo do sangramento digestivo baixo volumoso.",
-   "Aguardar a cessação espontânea do sangramento por quarenta e oito horas antes de qualquer investigação agora."
+   "Angiotomografia de abdome",
+   "Colonoscopia após preparo nas primeiras 24 horas",
+   "Cintilografia com hemácias marcadas",
+   "Colectomia subtotal de urgência",
+   "Retossigmoidoscopia na sala de emergência"
   ],
   "gab": 0,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ACG Clinical Guideline on the management of patients with acute lower gastrointestinal bleeding, 2023; ESGE guideline, 2021",
-  "coment": "No sangramento digestivo baixo com instabilidade, a prioridade é a ressuscitação com acessos calibrosos, reposição volêmica e transfusão com estratégia restritiva. É obrigatório excluir origem digestiva alta, que responde por parte dos casos de hematoquezia volumosa, com passagem de sonda nasogástrica ou endoscopia alta. A angiotomografia identifica sangramento ativo e orienta embolização, e a colonoscopia é feita após preparo quando o paciente estabiliza.",
+  "base": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023; ESGE Guideline on diagnosis and management of acute lower gastrointestinal bleeding, 2021",
+  "coment": "Hematoquezia com instabilidade hemodinâmica persistente e sangramento em curso pede angiotomografia de abdome como primeiro exame, pela diretriz do ACG (2023): ela localiza o sangramento ativo e orienta embolização transcateter. Ureia normal torna improvável fonte alta, que deve ser considerada quando a relação ureia/creatinina está elevada. Colonoscopia com preparo é o exame inicial no paciente estabilizado. Cirurgia fica para falha das outras medidas.",
   "porAlt": [
-   "Correta: estabilizar e investigar a fonte, excluindo origem alta antes de assumir sangramento baixo.",
-   "A colonoscopia sem preparo e sem estabilização tem baixo rendimento e alto risco no instável.",
-   "A colectomia é medida de exceção, após falha das abordagens endoscópica e angiográfica.",
-   "O antifibrinolítico não controla sangramento digestivo baixo ativo com instabilidade hemodinâmica.",
-   "Aguardar quarenta e oito horas em paciente instável permite choque hemorrágico e óbito."
+   "Sangramento ativo com instabilidade: a angiotomografia localiza o ponto e orienta a embolização.",
+   "Colonoscopia é o exame de escolha no paciente estável; aqui há sangramento ativo e instabilidade.",
+   "Cintilografia é lenta e localiza mal.",
+   "Cirurgia sem localizar o sangramento tem alta mortalidade e ressangramento.",
+   "Retossigmoidoscopia não avalia o cólon proximal, fonte frequente de sangramento volumoso."
   ]
  },
  {
-  "q": "Paciente com esôfago de Barrett sem displasia em endoscopia de rastreio. Qual é a conduta?",
+  "q": "Homem de 57 anos, com obesidade central e sintomas de refluxo há 20 anos, fez endoscopia que mostrou mucosa colunar estendendo-se 4 cm acima da junção esofagogástrica, com extensão circunferencial de 2 cm (Praga C2M4). As biópsias pelo protocolo de Seattle mostram metaplasia intestinal sem displasia, confirmada por um segundo patologista. Usa omeprazol 20 mg/dia e está assintomático. Qual é a conduta?",
   "alts": [
-   "Indicar esofagectomia imediata em todos os pacientes com esôfago de Barrett sem displasia identificada agora.",
-   "Vigilância endoscópica programada com inibidor de bomba de prótons, definindo sempre o intervalo pela extensão.",
-   "Não realizar qualquer seguimento, pois o esôfago de Barrett não aumenta o risco de adenocarcinoma esofágico.",
-   "Realizar ablação por radiofrequência em todos os pacientes com esôfago de Barrett sem qualquer displasia agora.",
-   "Prescrever apenas antiácido de demanda e alta definitiva sem qualquer programação de novo exame endoscópico."
+   "Ablação por radiofrequência preventiva",
+   "Esofagectomia pelo risco de adenocarcinoma",
+   "Nova endoscopia com biópsias em 3 anos",
+   "Endoscopia anual com biópsias",
+   "Alta da vigilância com inibidor contínuo"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
-  "nivel": "r3",
-  "base": "ACG Clinical Guideline on the Diagnosis and Management of Barrett's Esophagus, 2022; AGA Clinical Practice Update, 2024",
-  "coment": "O esôfago de Barrett é metaplasia intestinal do esôfago distal e fator de risco para adenocarcinoma, com risco anual baixo na ausência de displasia. A conduta é vigilância endoscópica com biópsias em quatro quadrantes, com intervalo definido pela extensão do segmento, tipicamente de três a cinco anos sem displasia, associada a inibidor de bomba de prótons. Displasia de baixo ou alto grau indica terapia endoscópica, geralmente ablação por radiofrequência.",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Barrett's Esophagus, 2022",
+  "coment": "Esôfago de Barrett sem displasia progride para adenocarcinoma em cerca de 0,2 a 0,5% ao ano. A diretriz do ACG (2022) recomenda vigilância com biópsias pelo protocolo de Seattle a cada 3 a 5 anos se o segmento for menor que 3 cm e a cada 3 anos se for de 3 cm ou mais, como aqui (M4). Ablação é reservada à displasia; na displasia de baixo grau confirmada, é a opção preferida.",
   "porAlt": [
-   "A esofagectomia é cirurgia de grande porte e não se indica na ausência de displasia ou neoplasia.",
-   "Correta: vigilância endoscópica programada com inibidor de bomba, com intervalo definido pela extensão.",
-   "O Barrett aumenta o risco de adenocarcinoma e por isso justifica programa de vigilância definido.",
-   "A ablação é indicada diante de displasia, e não em todo Barrett sem alteração displásica.",
-   "Alta definitiva sem vigilância perde a progressão para displasia em fase ainda tratável."
+   "Ablação não é indicada no Barrett sem displasia pelo baixo risco de progressão.",
+   "Esofagectomia não tem papel sem displasia de alto grau ou câncer.",
+   "Barrett sem displasia de 3 cm ou mais: vigilância endoscópica a cada 3 anos.",
+   "Intervalo anual é para displasia de baixo grau não tratada.",
+   "Segmento longo tem risco de progressão que justifica vigilância."
   ]
  },
  {
-  "q": "Paciente com hepatite alcoólica grave e escore de Maddrey acima de 32, sem infecção ativa. Qual é a conduta?",
+  "q": "Homem de 44 anos, etilista pesado até 3 semanas atrás, foi internado com icterícia progressiva, febre baixa e hepatomegalia dolorosa. Bilirrubina total 18,2 mg/dL, AST 210 U/L, ALT 84 U/L, INR 2,1, creatinina 0,9 mg/dL; MELD 26 e função discriminante de Maddrey de 58. Infecção foi afastada com hemoculturas, urocultura, paracentese e radiografia de tórax. Iniciou prednisolona 40 mg/dia. No sétimo dia, a bilirrubina é de 17,6 mg/dL e o escore de Lille é 0,62. Qual é a conduta?",
   "alts": [
-   "Corticoide sistêmico com suporte nutricional e abstinência, avaliando sempre a resposta pelo escore de Lille.",
-   "Manter o consumo de álcool em dose reduzida durante o tratamento da hepatite alcoólica grave do paciente.",
-   "Iniciar antibiótico de amplo espectro isolado como tratamento específico da hepatite alcoólica grave descrita.",
-   "Indicar transplante hepático imediato em todos os pacientes com hepatite alcoólica grave, sem qualquer critério.",
-   "Prescrever apenas hepatoprotetor de venda livre como tratamento definitivo da hepatite alcoólica grave agora."
+   "Manter prednisolona até completar 28 dias",
+   "Trocar a prednisolona por pentoxifilina",
+   "Dobrar a prednisolona para 80 mg/dia",
+   "Associar N-acetilcisteína e manter 28 dias",
+   "Suspender a prednisolona pela falta de resposta"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "EASL Clinical Practice Guidelines on alcohol-related liver disease, 2018 com revisão 2023; AASLD practice guidance, 2020",
-  "coment": "Na hepatite alcoólica grave, definida por escore de Maddrey igual ou superior a 32, o corticoide reduz a mortalidade em curto prazo em pacientes selecionados, desde que afastadas infecção ativa, sangramento digestivo não controlado e insuficiência renal grave. A resposta é avaliada pelo escore de Lille no sétimo dia, e a ausência de resposta indica suspensão. São essenciais a abstinência absoluta, o suporte nutricional intensivo e a reposição de tiamina.",
+  "base": "EASL Clinical Practice Guidelines: Management of alcohol-related liver disease, 2018; AASLD Practice Guidance: Diagnosis and Treatment of Alcohol-Associated Liver Diseases, 2019",
+  "coment": "Hepatite alcoólica grave (Maddrey de 32 ou mais, ou MELD acima de 20) sem infecção é tratada com prednisolona 40 mg/dia por 28 dias. O escore de Lille no sétimo dia mede a resposta: acima de 0,45 indica não resposta, com sobrevida em 6 meses em torno de 25%, e o corticoide deve ser suspenso. Nesses pacientes, EASL e AASLD aceitam discutir transplante hepático precoce em centros com critérios estritos de seleção.",
   "porAlt": [
-   "Correta: corticoide com suporte nutricional e abstinência, avaliando a resposta pelo escore de Lille.",
-   "Manter qualquer consumo de álcool impede a recuperação e piora diretamente o prognóstico.",
-   "O antibiótico é necessário se houver infecção, mas não é o tratamento específico da hepatite alcoólica.",
-   "O transplante nessa indicação segue critérios rigorosos e não é indicado indiscriminadamente.",
-   "Hepatoprotetores não têm eficácia demonstrada e não reduzem a mortalidade nesse quadro grave."
+   "Lille acima de 0,45 indica não resposta; manter só acrescenta risco de infecção.",
+   "Pentoxifilina não melhora a sobrevida e não serve de resgate.",
+   "Aumentar a dose não recupera a resposta e eleva o risco de infecção.",
+   "N-acetilcisteína foi estudada associada desde o início; prolongar corticoide sem resposta não é recomendado.",
+   "Lille de 0,62 no sétimo dia: não respondedor; suspender o corticoide e discutir transplante precoce."
   ]
  },
  {
@@ -21600,27 +21600,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com hepatite medicamentosa suspeitada em uso de múltiplos fármacos. Qual é a conduta inicial?",
+  "q": "Homem de 69 anos usou amoxicilina-clavulanato para sinusite e, 3 semanas depois do fim do tratamento, apresenta icterícia, prurido e colúria. Não bebe álcool e não usa outros medicamentos. ALT 180 U/L (limite superior de 40 U/L), fosfatase alcalina 620 U/L (limite superior de 120 U/L), bilirrubina total 7,4 mg/dL, INR 1,1. Sorologias para hepatites A, B, C e E negativas. Ultrassonografia sem dilatação de vias biliares. Como se classifica a lesão e qual é o agente mais provável?",
   "alts": [
-   "Manter todos os fármacos e apenas repetir os exames hepáticos após três meses de acompanhamento clínico.",
-   "Suspender todos os medicamentos simultaneamente, incluindo os essenciais e sem qualquer substituição indicada.",
-   "Suspender o agente mais provável e monitorar as enzimas, afastando sempre outras causas de lesão hepática.",
-   "Iniciar corticoide sistêmico em dose alta de rotina em todos os casos de hepatite medicamentosa suspeitada.",
-   "Indicar transplante hepático imediato em todos os pacientes com suspeita de hepatite induzida por fármaco."
+   "Hepatocelular; lesão pelo clavulanato é improvável",
+   "Colestática; amoxicilina-clavulanato é causa típica",
+   "Mista; hepatite autoimune é o diagnóstico provável",
+   "Hepatocelular; a latência afasta o antibiótico",
+   "Colestática; obstrução biliar pela icterícia"
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "enf",
-  "comp": "tto",
+  "comp": "dx",
   "nivel": "r3",
-  "base": "EASL Clinical Practice Guidelines on drug-induced liver injury, 2019 com revisão 2023; ACG Clinical Guideline on idiosyncratic DILI, 2021",
-  "coment": "A lesão hepática induzida por fármacos é diagnóstico de exclusão: afastam-se hepatites virais, doença hepática autoimune, doença biliar obstrutiva, isquemia e doença de Wilson, e avalia-se a relação temporal com cada agente, usando escalas de causalidade. A conduta é suspender o agente mais provável e monitorar as enzimas, mantendo os fármacos essenciais sem alternativa quando o risco é aceitável. Sinais de insuficiência hepática indicam avaliação para transplante.",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Idiosyncratic Drug-Induced Liver Injury, 2021; EASL Clinical Practice Guidelines: Drug-induced liver injury, 2019",
+  "coment": "O fator R é a razão entre ALT e fosfatase alcalina, cada uma dividida por seu limite superior: (180/40) / (620/120) = 4,5 / 5,2 = 0,9. R de 5 ou mais é hepatocelular, entre 2 e 5 é misto e 2 ou menos é colestático. Amoxicilina-clavulanato é a causa mais comum de lesão hepática por fármaco em vários registros, tipicamente colestática ou mista em homens idosos, e pode começar semanas após o fim do tratamento. A conduta é não reexpor e acompanhar as enzimas; a recuperação pode levar meses.",
   "porAlt": [
-   "Manter todos os fármacos por três meses arrisca progressão para insuficiência hepática aguda.",
-   "Suspender tudo simultaneamente pode descompensar condições essenciais e impede identificar o agente.",
-   "Correta: suspender o agente mais provável e monitorar as enzimas, afastando outras causas de lesão.",
-   "O corticoide de rotina não é indicado, ficando reservado a formas com componente autoimune.",
-   "O transplante se reserva à insuficiência hepática aguda grave, e não a toda suspeita de hepatite."
+   "Fator R de 0,9 não é hepatocelular, e o clavulanato é uma das principais causas de lesão hepática por fármaco.",
+   "Fator R abaixo de 2 define padrão colestático, o típico da amoxicilina-clavulanato, inclusive semanas após a suspensão.",
+   "Fator R entre 2 e 5 seria misto; aqui é 0,9.",
+   "Lesão por amoxicilina-clavulanato pode surgir semanas após o fim do tratamento.",
+   "Vias biliares sem dilatação afastam obstrução."
   ]
  },
  {
@@ -21840,27 +21840,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com esteatose hepática e fibrose avançada estimada por elastografia. Qual é a conduta adicional?",
+  "q": "Homem de 60 anos com doença hepática esteatótica associada a disfunção metabólica, diabetes e obesidade, sem descompensação prévia, tem elastografia hepática de 26 kPa e plaquetas de 118.000/mm³. Bilirrubina 1,1 mg/dL, albumina 3,9 g/dL, INR 1,1, sem ascite à ultrassonografia. Frequência 78 bpm, pressão arterial 138/84 mmHg. Não tem asma nem bloqueio atrioventricular. Qual é a conduta mais adequada para prevenir descompensação?",
   "alts": [
-   "Não realizar qualquer rastreio adicional, pois a fibrose avançada não aumenta o risco de complicações hepáticas.",
-   "Indicar transplante hepático imediato em todos os pacientes com fibrose avançada estimada por elastografia.",
-   "Prescrever apenas hepatoprotetor de venda livre como conduta adicional no paciente com fibrose avançada agora.",
-   "Rastrear varizes e carcinoma hepatocelular conforme o protocolo, mantendo sempre o controle metabólico rigoroso.",
-   "Suspender qualquer acompanhamento e liberar o paciente definitivamente após o resultado da elastografia agora."
+   "Carvedilol, sem endoscopia de rastreamento",
+   "Endoscopia e ligadura se houver varizes grossas",
+   "Propranolol apenas após confirmar varizes",
+   "TIPS preventivo pela rigidez elevada",
+   "Repetir a elastografia em 2 anos sem tratar"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "AASLD Practice Guidance on metabolic dysfunction-associated steatotic liver disease, 2023; EASL-EASD-EASO Clinical Practice Guidelines, 2024",
-  "coment": "A fibrose é o principal determinante prognóstico na doença hepática esteatótica metabólica. Fibrose avançada aproxima o paciente do comportamento de cirrose, exigindo rastreio de carcinoma hepatocelular com ultrassonografia semestral e avaliação de hipertensão portal com pesquisa de varizes conforme critérios de elastografia e plaquetas. Simultaneamente, mantém-se o controle metabólico intensivo, com perda de peso, tratamento do diabetes e da dislipidemia.",
+  "base": "Baveno VII: Renewing consensus in portal hypertension, 2022; Villanueva et al., PREDESCI, Lancet, 2019",
+  "coment": "Pelo Baveno VII, elastografia de 25 kPa ou mais basta para diagnosticar hipertensão portal clinicamente significativa na cirrose compensada. Nesses pacientes, o betabloqueador não seletivo, de preferência carvedilol, reduziu descompensação e morte (estudo PREDESCI) e deve ser iniciado independentemente da presença de varizes; quem usa betabloqueador não precisa de endoscopia de rastreamento. Rastreamento semestral de carcinoma hepatocelular e controle metabólico continuam.",
   "porAlt": [
-   "A fibrose avançada é o principal determinante prognóstico e aumenta muito o risco de complicações.",
-   "O transplante se reserva à doença hepática descompensada ou a indicações oncológicas específicas.",
-   "Hepatoprotetores não têm eficácia demonstrada e não substituem o rastreio nem o controle metabólico.",
-   "Correta: rastrear varizes e carcinoma hepatocelular conforme protocolo, com controle metabólico rigoroso.",
-   "Liberar sem seguimento perde complicações graves que são detectáveis e tratáveis precocemente."
+   "Rigidez de 25 kPa ou mais indica hipertensão portal clinicamente significativa; carvedilol previne descompensação.",
+   "Pelo Baveno VII, quem pode usar betabloqueador não precisa de endoscopia para rastrear varizes.",
+   "O objetivo é prevenir descompensação, não apenas o sangramento de varizes.",
+   "TIPS não é indicado na cirrose compensada.",
+   "Adiar o tratamento perde a janela de prevenção de descompensação."
   ]
  },
  {
@@ -21984,27 +21984,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com anemia e sangue oculto positivo nas fezes, sem sintomas digestivos, com 62 anos. Qual é a conduta?",
+  "q": "Mulher de 62 anos tem anemia ferropriva recorrente há 1 ano, com hemoglobina de 8,6 g/dL e ferritina de 5 ng/mL, sem sangramento visível. Pesquisa de sangue oculto nas fezes positiva. Endoscopia digestiva alta com biópsias duodenais e colonoscopia completa com bom preparo, feitas há 2 meses, foram normais. Usa ácido acetilsalicílico 100 mg/dia por doença coronariana. Não tem doença renal nem hepatopatia. Qual é o próximo exame?",
   "alts": [
-   "Repor apenas ferro por via oral e reavaliar somente após doze meses de suplementação sem qualquer investigação.",
-   "Ignorar completamente o resultado, pois sangue oculto positivo nunca tem significado clínico em pacientes idosos.",
-   "Prescrever apenas dieta rica em ferro como conduta definitiva no paciente com anemia e sangue oculto positivo já.",
-   "Investigar o trato digestivo com colonoscopia e endoscopia, considerando sempre neoplasia como principal hipótese.",
-   "Indicar colectomia total imediata em todos os pacientes com anemia e pesquisa de sangue oculto positiva nas fezes já."
+   "Suspender o ácido acetilsalicílico e repor ferro",
+   "Arteriografia mesentérica",
+   "Cintilografia com hemácias marcadas",
+   "Cápsula endoscópica do intestino delgado",
+   "Tomografia de abdome com contraste oral"
   ],
   "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "ACG/AGA Clinical Guideline on gastrointestinal evaluation of iron deficiency anemia, 2020 com revisão 2023; INCA, rastreamento do câncer colorretal, 2023",
-  "coment": "Anemia ferropriva com sangue oculto positivo em homem ou em mulher pós-menopausa é câncer colorretal até prova em contrário e exige investigação endoscópica do trato digestivo, habitualmente colonoscopia e, quando esta é normal, endoscopia digestiva alta na mesma avaliação. Repor ferro sem investigar mascara a anemia enquanto a neoplasia progride, sendo um dos erros que mais atrasam o diagnóstico de tumores potencialmente curáveis nessa faixa etária.",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Small Bowel Bleeding, 2015; AGA Clinical Practice Guideline on Gastrointestinal Evaluation of Iron Deficiency Anemia, 2020",
+  "coment": "Sangramento oculto com endoscopia alta e colonoscopia de boa qualidade normais costuma vir do intestino delgado (angiodisplasias, úlceras por anti-inflamatório, tumores). A diretriz do ACG recomenda cápsula endoscópica como exame seguinte; lesões encontradas são tratadas por enteroscopia assistida por balão. Repetir as endoscopias pode ser considerado se o primeiro exame foi de qualidade duvidosa, o que não é o caso.",
   "porAlt": [
-   "Repor ferro sem investigar mascara a anemia enquanto a neoplasia progride sem diagnóstico.",
-   "Sangue oculto positivo com anemia nessa faixa etária é achado de alarme que exige investigação.",
-   "A dieta não corrige a perda contínua nem investiga a causa do sangramento digestivo oculto.",
-   "Correta: investigar o trato digestivo com colonoscopia e endoscopia, com neoplasia como principal hipótese.",
-   "A colectomia sem diagnóstico e sem localização da lesão é conduta absolutamente inadequada."
+   "O ácido acetilsalicílico tem indicação coronariana, e a fonte de sangramento precisa ser encontrada.",
+   "Arteriografia exige sangramento ativo e volumoso.",
+   "Cintilografia serve a sangramento ativo, não a perda oculta.",
+   "Endoscopia alta e colonoscopia normais com anemia ferropriva e sangue oculto: sangramento de delgado; a cápsula é o próximo exame.",
+   "Tomografia com contraste oral tem baixo rendimento para lesões vasculares da mucosa."
   ]
  },
  {
@@ -22104,27 +22104,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com dor abdominal difusa e distensão, sem eliminação de gases e fezes há dois dias, com ruídos aumentados. Qual é a conduta?",
+  "q": "Mulher de 63 anos, com histerectomia por laparotomia há 15 anos, chega com dor abdominal em cólica, vômitos e parada de eliminação de gases há 36 horas. Afebril, frequência 94 bpm, pressão arterial 130/80 mmHg, abdome distendido e timpânico, com ruídos aumentados e sem peritonismo. Leucócitos 10.200/mm³, lactato 1,2 mmol/L. Tomografia: obstrução de delgado com ponto de transição no íleo, sem sinais de isquemia, pneumatose ou líquido livre. Não há hérnias ao exame. Qual é a conduta inicial?",
   "alts": [
-   "Prescrever laxante estimulante em dose alta como primeira conduta diante do quadro obstrutivo descrito no caso já.",
-   "Prescrever apenas analgésico e liberar o paciente sem qualquer investigação por imagem do abdome distendido agora.",
-   "Iniciar dieta oral livre imediatamente para estimular o trânsito intestinal do paciente com o quadro descrito agora.",
-   "Indicar colonoscopia de urgência como primeiro exame em todos os pacientes com suspeita de obstrução intestinal.",
-   "Investigar obstrução intestinal com imagem e iniciar suporte, avaliando sempre a necessidade de abordagem cirúrgica."
+   "Laparotomia exploradora nas próximas horas",
+   "Colonoscopia descompressiva",
+   "Sonda nasogástrica e contraste hidrossolúvel",
+   "Neostigmina endovenosa",
+   "Laxante osmótico por via oral"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "emg",
-  "comp": "urg",
+  "comp": "tto",
   "nivel": "r2",
-  "base": "WSES guidelines on small bowel obstruction, revisão 2023; ACS guidance on acute abdomen, 2023",
-  "coment": "Parada de eliminação de gases e fezes com distensão e ruídos aumentados sugere obstrução intestinal mecânica. A conduta inclui jejum, sonda nasogástrica para descompressão, reposição volêmica e correção eletrolítica, e imagem. Tomografia de abdome com contraste é o exame de escolha, definindo o nível, a causa e sinais de sofrimento de alça. Sinais de estrangulamento, peritonite ou falha do tratamento conservador indicam abordagem cirúrgica.",
+  "base": "Bologna guidelines for diagnosis and management of adhesive small bowel obstruction, World Society of Emergency Surgery, 2017",
+  "coment": "Obstrução de delgado por brida sem sinais de sofrimento de alça (febre, taquicardia importante, peritonismo, lactato elevado, isquemia na tomografia) é tratada inicialmente sem cirurgia: jejum, sonda nasogástrica, hidratação e correção eletrolítica. As diretrizes de Bolonha recomendam contraste hidrossolúvel, que é diagnóstico e terapêutico: a presença no cólon em até 24 horas prediz resolução. Falha em 72 horas ou sinais de estrangulamento indicam cirurgia.",
   "porAlt": [
-   "O laxante estimulante em obstrução mecânica agrava a dor e pode precipitar perfuração intestinal.",
-   "Liberar sem investigar arrisca estrangulamento de alça, isquemia e perfuração com peritonite.",
-   "A dieta oral em obstrução aumenta a distensão, o vômito e o risco de broncoaspiração.",
-   "A colonoscopia não é o primeiro exame e pode ser perigosa diante de obstrução com distensão.",
-   "Correta: investigar com imagem e iniciar suporte, avaliando a necessidade de abordagem cirúrgica."
+   "Sem isquemia ou peritonite, a obstrução por brida começa com tratamento não operatório.",
+   "A obstrução é de delgado; colonoscopia não descomprime.",
+   "Descompressão, hidratação e contraste hidrossolúvel: se chega ao cólon em 24 horas, a resolução sem cirurgia é provável.",
+   "Neostigmina é para pseudo-obstrução colônica aguda (síndrome de Ogilvie).",
+   "Laxante oral com vômitos e obstrução mecânica está contraindicado."
   ]
  },
  {
