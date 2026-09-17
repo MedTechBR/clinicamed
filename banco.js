@@ -5136,27 +5136,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 68 anos internada em unidade de terapia intensiva por choque séptico apresenta glicemias capilares entre 190 e 230 mg/dL nas últimas medidas, sem uso prévio de insulina. Qual é o alvo glicêmico recomendado nesse cenário?",
+  "q": "Mulher de 68 anos, sem diabetes conhecido, está na terapia intensiva por choque séptico de foco urinário, em ventilação mecânica, com noradrenalina 0,2 µg/kg/min e hidrocortisona 200 mg/dia. Recebe dieta enteral contínua. As glicemias capilares das últimas 12 horas ficaram entre 190 e 236 mg/dL. Hemoglobina glicada de 5,9%, creatinina 1,8 mg/dL. Pressão arterial média de 68 mmHg, lactato de 3,1 mmol/L em queda, potássio de 4,0 mEq/L. A enfermagem pergunta se deve seguir apenas com a escala de insulina subcutânea que foi prescrita na admissão. Qual é a conduta glicêmica recomendada?",
   "alts": [
-   "Iniciar controle intensivo buscando manter a glicemia entre oitenta e cento e dez mg/dL sempre.",
-   "Não tratar a hiperglicemia porque ela é reação adaptativa esperada em pacientes graves.",
-   "Prescrever antidiabético oral em dose plena para reduzir gradualmente as glicemias medidas.",
-   "Iniciar insulina apenas quando a glicemia ultrapassar trezentos miligramas por decilitro.",
-   "Iniciar insulina buscando manter a glicemia entre cento e quarenta e cento e oitenta mg/dL."
+   "Insulina endovenosa para glicemia entre 80 e 110 mg/dL",
+   "Tolerar glicemias até 250 mg/dL sem insulina",
+   "Insulina endovenosa para glicemia entre 140 e 180 mg/dL",
+   "Suspender a dieta enteral até a glicemia normalizar",
+   "Metformina por sonda, poupando a insulina"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "endocrino",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign, 2021; American Diabetes Association. Standards of Care in Diabetes, 2025, capítulo de cuidado hospitalar; ensaio NICE-SUGAR, 2009",
-  "coment": "No paciente crítico, o controle glicêmico intensivo com alvo entre 80 e 110 mg/dL aumentou mortalidade e hipoglicemia grave no ensaio NICE-SUGAR. A recomendação atual é iniciar insulina quando duas medidas consecutivas ultrapassam 180 mg/dL, mantendo alvo entre 140 e 180 mg/dL, com insulina intravenosa contínua no paciente instável e monitorização capilar frequente. Antidiabéticos orais não são adequados no paciente crítico pela imprevisibilidade de absorção e pelos riscos de acidose e hipoglicemia.",
+  "base": "ADA Standards of Care in Diabetes, seção 16, 2025; Surviving Sepsis Campaign Guidelines, 2021; NICE-SUGAR, NEJM, 2009",
+  "coment": "No paciente crítico, a insulina é iniciada quando a glicemia persiste acima de 180 mg/dL, com alvo de 140 a 180 mg/dL, pela ADA e pela Surviving Sepsis Campaign. O estudo NICE-SUGAR (2009) mostrou mais mortalidade e hipoglicemia grave com alvo de 81 a 108 mg/dL. Corticoide e dieta enteral contínua explicam parte da hiperglicemia; insulina endovenosa por protocolo é a forma mais segura de titular no choque.",
   "porAlt": [
-   "O controle intensivo com alvo muito baixo aumentou hipoglicemia grave e mortalidade no NICE-SUGAR.",
-   "A hiperglicemia sustentada no paciente crítico associa-se a infecção e a pior desfecho clínico.",
-   "Antidiabético oral tem absorção imprevisível e risco de acidose e hipoglicemia no paciente grave.",
-   "Esperar glicemias muito altas mantém o paciente exposto por longos períodos a hiperglicemia.",
-   "Correta: iniciar insulina com alvo entre 140 e 180 mg/dL, faixa recomendada no paciente crítico."
+   "Controle intensivo aumentou mortalidade e hipoglicemia grave no NICE-SUGAR.",
+   "Glicemias persistentemente acima de 180 mg/dL indicam iniciar insulina.",
+   "Hiperglicemia persistente acima de 180 mg/dL no crítico: insulina com alvo de 140 a 180 mg/dL.",
+   "Suspender a nutrição piora o estado nutricional e não é estratégia glicêmica.",
+   "Metformina é contraindicada no choque e na lesão renal pelo risco de acidose lática."
   ]
  },
  {
@@ -5472,27 +5472,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 44 anos internada em terapia intensiva por cetoacidose diabética recebe hidratação e insulina intravenosa contínua. Após seis horas, a glicemia é de 210 mg/dL, o pH é de 7,22 e o ânion-gap permanece elevado. Qual é a conduta?",
+  "q": "Mulher de 44 anos com diabetes tipo 1 está na terapia intensiva por cetoacidose diabética precipitada por pielonefrite. Recebeu 2 litros de salina isotônica, insulina regular endovenosa a 0,1 U/kg/h e cloreto de potássio. Após 6 horas, glicemia 210 mg/dL, pH 7,22, bicarbonato 12 mEq/L, ânion gap 20 mEq/L, potássio 4,1 mEq/L e beta-hidroxibutirato 3,1 mmol/L. Está consciente, ainda com vômitos. Qual é a conduta?",
   "alts": [
-   "Associar solução glicosada e manter a insulina até a resolução completa do ânion-gap elevado.",
-   "Suspender a insulina intravenosa porque a glicemia já se aproxima do valor considerado seguro.",
-   "Trocar imediatamente para insulina subcutânea de ação intermediária e liberar dieta por via oral.",
-   "Administrar bicarbonato de sódio intravenoso para acelerar a correção da acidose metabólica dela.",
-   "Reduzir a hidratação intravenosa pela metade para evitar sobrecarga de volume nesse momento."
+   "Soro glicosado a 5% e manter a insulina endovenosa",
+   "Suspender a insulina pela glicemia abaixo de 250",
+   "Trocar para insulina subcutânea basal e correção",
+   "Bicarbonato de sódio até pH acima de 7,3",
+   "Reduzir a insulina a 0,02 U/kg/h sem glicose"
   ],
   "gab": 0,
   "tema": "endocrino",
   "cenario": "uti",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "American Diabetes Association. Standards of Care in Diabetes, 2025; consenso ADA/EASD sobre crises hiperglicêmicas, 2024",
-  "coment": "O critério de resolução da cetoacidose diabética não é a glicemia, e sim o fechamento do ânion-gap com normalização do bicarbonato e do pH. Quando a glicemia atinge cerca de 200 a 250 mg/dL, associa-se solução glicosada e mantém-se a infusão de insulina, que é o que interrompe a cetogênese. A transição para insulina subcutânea só ocorre após a resolução, com sobreposição de uma a duas horas. Bicarbonato se reserva a pH abaixo de 6,9.",
+  "nivel": "r2",
+  "base": "Hyperglycemic crises in adults with diabetes: a consensus report (ADA, EASD, JBDS, AACE, DTS), Diabetes Care, 2024",
+  "coment": "Na cetoacidose, a glicemia cai antes de a cetose se resolver. Quando fica abaixo de 250 mg/dL, o consenso de 2024 (ADA, EASD, JBDS, AACE, DTS) orienta acrescentar dextrose a 5% ou 10% e manter a insulina, reduzindo a taxa para cerca de 0,05 U/kg/h se necessário, até a resolução: pH de 7,3 ou mais, bicarbonato de 18 mEq/L ou mais e beta-hidroxibutirato abaixo de 0,6 mmol/L. Suspender a insulina porque a glicemia caiu é o erro clássico.",
   "porAlt": [
-   "Correta: associar glicose e manter a insulina até a resolução do ânion-gap e da acidose.",
-   "Suspender a insulina com ânion-gap ainda elevado permite a retomada imediata da cetogênese.",
-   "A transição para insulina subcutânea antes da resolução leva à recidiva da cetoacidose diabética.",
-   "O bicarbonato não melhora desfecho e se reserva a acidose extrema, com pH abaixo de seis vírgula nove.",
-   "Reduzir a hidratação sem sinais de congestão prolonga a hipoperfusão e atrasa a correção do quadro."
+   "Glicemia abaixo de 250 mg/dL com cetose ativa: acrescentar glicose e manter insulina até a resolução.",
+   "Suspender a insulina com beta-hidroxibutirato de 3,1 mmol/L perpetua a cetoacidose.",
+   "A transição para subcutânea exige resolução da cetoacidose e aceitação oral.",
+   "Bicarbonato não é indicado com pH acima de 7,0.",
+   "Dose muito baixa e sem glicose não interrompe a cetogênese."
   ]
  },
  {
@@ -5736,27 +5736,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 59 anos internado na enfermaria por diabetes descompensado recebe alta programada. Ele tem doença renal crônica com filtração estimada de 38 mL/min/1,73 m², hemoglobina glicada de 8,4% e usa apenas metformina. Qual é o ajuste adequado?",
+  "q": "Homem de 59 anos com diabetes tipo 2 há 12 anos recebe alta após internação por celulite. Tem doença renal crônica com taxa de filtração glomerular estimada de 38 mL/min/1,73 m² e relação albumina/creatinina urinária de 320 mg/g, hipertensão controlada com losartana 100 mg/dia e hemoglobina glicada de 8,4%. Usa metformina 850 mg três vezes ao dia. Não tem insuficiência cardíaca. Qual é o ajuste mais adequado?",
   "alts": [
-   "Manter a metformina com ajuste de dose e associar inibidor de SGLT2, que protege rim e coração.",
-   "Suspender a metformina, que está formalmente contraindicada com essa filtração glomerular estimada.",
-   "Associar sulfonilureia de longa ação por ser a opção mais segura no paciente com doença renal.",
-   "Iniciar apenas insulina de ação prolongada e suspender qualquer antidiabético oral definitivamente.",
-   "Manter somente a metformina em dose plena e reavaliar a hemoglobina glicada daqui a seis meses."
+   "Suspender a metformina e iniciar glibenclamida",
+   "Manter 2.550 mg de metformina e iniciar pioglitazona",
+   "Suspender a metformina e iniciar insulina NPH",
+   "Metformina até 1.000 mg/dia e inibidor de SGLT2",
+   "Trocar losartana por enalapril e manter a metformina"
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease; American Diabetes Association. Standards of Care in Diabetes, 2025",
-  "coment": "A metformina pode ser mantida com filtração entre 30 e 45 mL/min/1,73 m², em dose reduzida e com monitorização, sendo contraindicada apenas abaixo de 30. Em paciente com diabetes tipo 2 e doença renal crônica, o inibidor de SGLT2 é recomendado por reduzir progressão renal, hospitalização por insuficiência cardíaca e mortalidade cardiovascular, com benefício que independe do controle glicêmico. Sulfonilureias de longa ação são evitadas pelo risco de hipoglicemia prolongada.",
+  "base": "KDIGO Clinical Practice Guideline for Diabetes Management in CKD, 2022; ADA Standards of Care in Diabetes, 2025",
+  "coment": "Com taxa de filtração entre 30 e 45 mL/min/1,73 m², a metformina pode ser mantida em dose reduzida (até 1.000 mg/dia) e é suspensa abaixo de 30. Doença renal crônica com albuminúria é indicação de inibidor de SGLT2 independentemente da glicada, pelo KDIGO e pela ADA, com benefício renal comprovado a partir de filtração de 20 mL/min/1,73 m². O efeito glicêmico cai com a filtração, mas a proteção renal e cardiovascular se mantém.",
   "porAlt": [
-   "Correta: manter metformina com ajuste de dose e associar inibidor de SGLT2 por proteção renal e cardíaca.",
-   "A contraindicação formal da metformina ocorre abaixo de trinta mL/min, e não nessa faixa de filtração.",
-   "Sulfonilureia de longa ação causa hipoglicemia prolongada e é desaconselhada na doença renal crônica.",
-   "A insulina pode ser necessária, mas não substitui as classes com proteção cardiorrenal comprovada.",
-   "Manter apenas metformina com glicada acima da meta deixa o paciente sem tratamento adequado."
+   "Glibenclamida acumula na doença renal e causa hipoglicemia prolongada.",
+   "Com filtração entre 30 e 45, a dose máxima de metformina é 1.000 mg/dia, e pioglitazona não protege o rim.",
+   "A metformina não precisa ser suspensa com filtração acima de 30, e insulina não traz proteção renal.",
+   "Reduzir a metformina pela filtração e acrescentar inibidor de SGLT2, que retarda a progressão renal e reduz eventos cardiovasculares.",
+   "Trocar um bloqueador do sistema renina-angiotensina por outro não acrescenta proteção."
   ]
  },
  {
@@ -6120,27 +6120,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 52 anos em terapia intensiva após ressecção de adenoma hipofisário evolui com poliúria de 400 mL por hora, sódio sérico de 152 mEq/L e osmolalidade urinária de 120 mOsm/kg. Qual é o diagnóstico e a conduta?",
+  "q": "Mulher de 52 anos fez ressecção transesfenoidal de macroadenoma hipofisário. Nos dias 1 e 2 teve poliúria de 300 a 400 mL/h com sódio de 149 mEq/L e recebeu duas doses de desmopressina. No sétimo dia, em casa, tem cefaleia e náusea, com diurese reduzida. Sódio 124 mEq/L, osmolalidade sérica 258 mOsm/kg, osmolalidade urinária 540 mOsm/kg, sódio urinário 62 mEq/L, glicemia normal. Está euvolêmica e recebe hidrocortisona 20 mg/dia. Pressão arterial de 118/74 mmHg sem hipotensão postural. Qual é a conduta?",
   "alts": [
-   "Diurese osmótica por hiperglicemia: iniciar insulina intravenosa contínua e restringir a oferta hídrica.",
-   "Secreção inapropriada de hormônio antidiurético: restringir líquidos e suspender fluidos hipotônicos.",
-   "Diabetes insípido central: repor água livre e administrar desmopressina com monitorização do sódio.",
-   "Insuficiência adrenal secundária: administrar hidrocortisona e repor volume com solução salina isotônica.",
-   "Sobrecarga hídrica iatrogênica: prescrever furosemida em dose alta e restringir a oferta de líquidos."
+   "Nova dose de desmopressina pelo diabetes insípido",
+   "Suspender desmopressina e restringir líquidos",
+   "Salina a 0,9%, 2 litros em 24 horas",
+   "Tolvaptano em dose plena",
+   "Furosemida isolada e dieta hipossódica"
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "endocrino",
-  "cenario": "uti",
-  "comp": "dx",
+  "cenario": "enf",
+  "comp": "tto",
   "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline. Hormonal Replacement in Hypopituitarism in Adults, 2016; consenso sobre distúrbios da água após cirurgia hipofisária, 2022",
-  "coment": "Poliúria intensa com urina muito diluída e hipernatremia após cirurgia hipofisária caracteriza diabetes insípido central, hoje também chamado de deficiência de arginina-vasopressina, complicação frequente e geralmente transitória. O tratamento é repor as perdas de água livre e administrar desmopressina, com monitorização rigorosa do sódio e do débito urinário. Deve-se vigiar a evolução trifásica, com fase intermediária de secreção inapropriada, e avaliar a função adrenal, cuja deficiência exige reposição imediata.",
+  "base": "Endocrine Society Clinical Practice Guideline: Hormonal Replacement in Hypopituitarism in Adults, 2016; European Clinical Practice Guideline on diagnosis and treatment of hyponatraemia, 2014",
+  "coment": "Após cirurgia hipofisária pode ocorrer resposta trifásica: diabetes insípido nos primeiros dias, fase de antidiurese inapropriada por liberação da vasopressina estocada entre o 5º e o 10º dia e, às vezes, diabetes insípido permanente. Hiponatremia hipotônica com urina concentrada e sódio urinário alto, em paciente euvolêmica e com glicocorticoide reposto, indica a segunda fase. A conduta é suspender desmopressina, restringir líquidos e dosar sódio seriado; hiponatremia com sintomas graves pede salina hipertônica.",
   "porAlt": [
-   "A diurese osmótica cursa com urina concentrada em solutos, e não com osmolalidade urinária baixa.",
-   "A secreção inapropriada cursa com hiponatremia e urina concentrada, padrão oposto ao descrito.",
-   "Correta: diabetes insípido central, com reposição de água livre e desmopressina sob monitorização.",
-   "A insuficiência adrenal deve ser avaliada, mas não explica a poliúria com urina muito diluída.",
-   "Não há sinais de sobrecarga hídrica, e a furosemida agravaria a perda de água livre já intensa."
+   "O quadro atual é de antidiurese inapropriada; desmopressina agravaria a hiponatremia.",
+   "Fase de secreção inapropriada da resposta trifásica: suspender desmopressina e restringir líquidos, com sódio seriado.",
+   "Salina isotônica com urina tão concentrada pode piorar o sódio.",
+   "Tolvaptano em dose plena arrisca correção rápida demais e não é primeira linha.",
+   "Dieta hipossódica agrava a hiponatremia, e diurético isolado não é o tratamento inicial."
   ]
  },
  {
@@ -6960,99 +6960,99 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 24 anos com diabetes tipo 1 chega com vômitos, dor abdominal e respiração profunda. A glicemia é de 480 mg/dL, pH 7,12, bicarbonato 8 mEq/L, cetonemia positiva e potássio sérico de 3,1 mEq/L. Qual é a conduta inicial correta quanto à insulina?",
+  "q": "Mulher de 24 anos com diabetes tipo 1 chega com vômitos há 2 dias, dor abdominal e respiração profunda. Pressão arterial 98/60 mmHg, frequência 118 bpm. Glicemia 480 mg/dL, pH 7,12, bicarbonato 8 mEq/L, ânion gap 26 mEq/L, beta-hidroxibutirato 6,2 mmol/L, sódio 131 mEq/L, potássio 3,1 mEq/L, creatinina 1,3 mg/dL. Eletrocardiograma com ondas U. Já iniciou salina isotônica. Qual é a conduta em relação à insulina?",
   "alts": [
-   "Iniciar insulina em bolus alto imediatamente, já que a acidose é grave e exige correção mais rápida.",
-   "Iniciar insulina subcutânea de ação lenta como medida isolada, dispensando qualquer via endovenosa.",
-   "Adiar a insulina e repor potássio primeiro, porque abaixo de 3,3 mEq/L a insulina agrava a hipocalemia.",
-   "Iniciar insulina apenas quando a glicemia ultrapassar 600 mg/dL, patamar que define a sua indicação.",
-   "Corrigir a acidose com bicarbonato antes da insulina, porque o pH abaixo de 7,2 exige essa correção."
+   "Insulina regular 0,1 U/kg em bolus e infusão contínua",
+   "Insulina ultrarrápida subcutânea a cada 2 horas",
+   "Insulina e potássio infundidos juntos, sem esperar",
+   "Bicarbonato antes da insulina pelo pH de 7,12",
+   "Adiar a insulina e repor potássio primeiro"
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "American Diabetes Association, Standards of Care 2026, e consenso ADA/EASD 2024 sobre crises hiperglicêmicas",
-  "coment": "Na cetoacidose diabética, a insulina desloca potássio para o intracelular e pode precipitar arritmia fatal se o potássio inicial já estiver baixo. Por isso a regra: com potássio abaixo de 3,3 mEq/L, repõe-se potássio antes de iniciar a insulina, mantendo a hidratação. Com potássio entre 3,3 e 5,2, inicia-se insulina e repõe-se potássio junto. Acima de 5,2, inicia-se a insulina sem reposição, monitorando. O bicarbonato não é recomendado de rotina, ficando reservado a pH muito baixo, e o tratamento essencial é volume, insulina e correção eletrolítica.",
+  "base": "Hyperglycemic crises in adults with diabetes: a consensus report (ADA, EASD, JBDS, AACE, DTS), Diabetes Care, 2024",
+  "coment": "Apesar do déficit corporal total de potássio, na cetoacidose o potássio sérico costuma vir normal ou alto pela acidose e pela falta de insulina. Quando já vem baixo, a insulina o desloca para dentro das células e pode precipitar arritmia e fraqueza respiratória. O consenso de 2024 recomenda adiar a insulina e repor potássio enquanto ele estiver abaixo de 3,5 mEq/L, mantendo a hidratação; entre 3,5 e 5,0 mEq/L, repõe-se junto com a insulina.",
   "porAlt": [
-   "Bolus alto de insulina com potássio de 3,1 mEq/L pode precipitar arritmia grave; a hipocalemia precede qualquer insulina.",
-   "A cetoacidose exige insulina por via endovenosa em infusão contínua, com titulação, e não apenas insulina basal.",
-   "Correta: com potássio abaixo de 3,3 mEq/L repõe-se potássio antes da insulina, que agravaria a hipocalemia e o risco de arritmia.",
-   "O diagnóstico não depende do valor da glicemia: existe cetoacidose euglicêmica, sobretudo em uso de inibidor de SGLT2.",
-   "O bicarbonato não é rotina e não precede a insulina; a acidose se resolve com volume, insulina e correção de eletrólitos."
+   "Insulina com potássio de 3,1 mEq/L desloca potássio para a célula e pode causar arritmia grave.",
+   "Via subcutânea não é adequada na cetoacidose grave com hipotensão, e o problema do potássio continua.",
+   "Iniciar insulina com hipocalemia e ondas U arrisca arritmia, mesmo com reposição simultânea.",
+   "Bicarbonato não é indicado com pH acima de 7,0 e piora a hipocalemia.",
+   "Potássio abaixo de 3,5 mEq/L: repor antes e só então iniciar a insulina."
   ]
  },
  {
-  "q": "Homem de 68 anos, diabético tipo 2 em uso de dapagliflozina, chega com náusea, dor abdominal e respiração acidótica. A glicemia é de 190 mg/dL, pH 7,18, bicarbonato de 11 mEq/L e cetonemia fortemente positiva. Qual é a interpretação correta?",
+  "q": "Homem de 68 anos com diabetes tipo 2 em uso de metformina e dapagliflozina 10 mg/dia fez colecistectomia há 3 dias, com jejum prolongado no pós-operatório. Chega com náusea, dor abdominal e taquipneia. Glicemia 190 mg/dL, pH 7,18, bicarbonato 11 mEq/L, ânion gap 24 mEq/L, beta-hidroxibutirato 5,4 mmol/L, lactato 1,6 mmol/L, creatinina 1,1 mg/dL, lipase normal. Não consome álcool. Qual é a interpretação e a conduta?",
   "alts": [
-   "Acidose láctica pela metformina, hipótese confirmada apenas pela glicemia próxima do valor normal.",
-   "Cetoacidose euglicêmica pelo inibidor de SGLT2, que deve ser suspenso e tratada como cetoacidose.",
-   "Quadro sem relação com o diabetes, uma vez que a glicemia abaixo de 250 mg/dL exclui cetoacidose.",
-   "Cetose de jejum fisiológica, condição benigna que não exige tratamento nem suspensão de fármacos.",
-   "Estado hiperglicêmico hiperosmolar, definido pela cetonemia positiva com acidose metabólica grave."
+   "Acidose lática por metformina; hemodiálise",
+   "Cetose de jejum; dieta e observação",
+   "Cetoacidose euglicêmica; insulina com glicose",
+   "Acidose por pancreatite; hidratação isolada",
+   "Cetoacidose alcoólica; tiamina e glicose"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "endocrino",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "American Diabetes Association, Standards of Care 2026, cetoacidose euglicêmica em uso de inibidor de SGLT2",
-  "coment": "A cetoacidose euglicêmica é armadilha diagnóstica clássica em usuários de inibidores de SGLT2: a glicosúria induzida pela droga mantém a glicemia relativamente baixa enquanto a cetogênese avança, de modo que o médico que exige glicemia acima de 250 mg/dL para pensar em cetoacidose deixa o diagnóstico passar. O tratamento é o mesmo (volume, insulina endovenosa com glicose associada para permitir a infusão de insulina sem hipoglicemia, e correção eletrolítica), somado à suspensão do inibidor de SGLT2. O estado hiperosmolar, por definição, cursa com glicemia muito alta e sem cetoacidose significativa.",
+  "base": "Hyperglycemic crises in adults with diabetes: a consensus report, Diabetes Care, 2024; ADA Standards of Care in Diabetes, 2025",
+  "coment": "Inibidores de SGLT2 podem causar cetoacidose com glicemia abaixo de 250 mg/dL, sobretudo com jejum, cirurgia, doença aguda ou redução de insulina. O diagnóstico depende de medir cetonas e gasometria mesmo com glicemia pouco elevada. O tratamento é o da cetoacidose: suspender o inibidor, hidratar e dar insulina endovenosa com dextrose desde o início. A ADA recomenda suspender o inibidor 3 dias antes de cirurgias programadas (4 dias para a ertugliflozina).",
   "porAlt": [
-   "A acidose láctica pela metformina cursa com lactato elevado e sem cetonemia fortemente positiva como neste caso.",
-   "Correta: é cetoacidose euglicêmica pelo inibidor de SGLT2, que deve ser suspenso, com tratamento igual ao da cetoacidose clássica.",
-   "Exigir glicemia acima de 250 mg/dL para diagnosticar cetoacidose é exatamente o erro que essa apresentação revela.",
-   "A cetose de jejum não produz acidose metabólica com bicarbonato de 11 mEq/L nem esse grau de sintomas.",
-   "O estado hiperosmolar cursa com glicemia muito elevada, osmolaridade alta e sem cetoacidose significativa."
+   "Lactato normal afasta acidose lática.",
+   "Cetose de jejum não produz pH de 7,18 nem bicarbonato de 11 mEq/L.",
+   "Inibidor de SGLT2 com jejum e cirurgia: cetoacidose com glicemia abaixo de 250; suspender o fármaco e tratar com insulina e dextrose.",
+   "Lipase normal afasta pancreatite, e hidratação isolada não interrompe a cetogênese.",
+   "Não há consumo de álcool; o desencadeante é o inibidor de SGLT2."
   ]
  },
  {
-  "q": "Mulher de 52 anos tem TSH de 0,01 mUI/L, T4 livre elevado, bócio difuso, exoftalmia e tremor. A cintilografia mostra captação difusa e aumentada. Qual é o diagnóstico e a primeira linha de tratamento no Brasil?",
+  "q": "Mulher de 31 anos com doença de Graves em uso de metimazol 10 mg/dia descobre gestação de 6 semanas. Está clinicamente eutireoidiana, com T4 livre no limite superior da normalidade e TSH de 0,05 mUI/L. Anticorpo antirreceptor de TSH (TRAb) 3 vezes acima do limite superior. Não tem hepatopatia. O bócio é pequeno e não há sintomas compressivos. Pesa 62 kg, frequência cardíaca de 84 bpm e está sem oftalmopatia ativa. Pergunta se pode continuar o comprimido que já toma, pois está bem. Qual é a conduta em relação ao antitireoidiano?",
   "alts": [
-   "Tireoidite subaguda, tratada apenas com anti-inflamatório e observação por algumas semanas.",
-   "Bócio multinodular tóxico, cuja cirurgia imediata é o único tratamento definitivo possível.",
-   "Doença de Graves, com metimazol como primeira escolha na maioria dos pacientes adultos.",
-   "Hipotireoidismo primário, tratado com levotiroxina em dose plena ajustada por peso corporal.",
-   "Adenoma hipofisário produtor de TSH, hipótese sustentada pelo valor suprimido do hormônio."
+   "Trocar para propiltiouracil até cerca de 16 semanas",
+   "Manter metimazol na mesma dose toda a gestação",
+   "Suspender o antitireoidiano pelo risco fetal",
+   "Iodo radioativo após o primeiro trimestre",
+   "Aumentar o metimazol para normalizar o TSH"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American Thyroid Association, 2016. Guidelines for Diagnosis and Management of Hyperthyroidism; Cecil, 26ª edição, 2022",
-  "coment": "A combinação de tireotoxicidade, bócio difuso, oftalmopatia e captação difusa aumentada define doença de Graves. As três opções de tratamento são droga antitireoidiana, iodo radioativo e cirurgia; no Brasil, o metimazol é a escolha inicial na maioria dos adultos, por eficácia e por permitir remissão em parte dos pacientes. O propiltiouracil fica reservado ao primeiro trimestre da gestação e à crise tireotóxica. O betabloqueador alivia sintomas adrenérgicos enquanto a droga age. A oftalmopatia moderada a grave pesa contra o iodo radioativo, que pode agravá-la.",
+  "base": "American Thyroid Association Guidelines for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum, 2017",
+  "coment": "Metimazol no primeiro trimestre está associado a embriopatia (aplasia cútis, atresia de coanas e de esôfago). A ATA (2017) recomenda propiltiouracil no primeiro trimestre, considerando voltar ao metimazol depois pelo risco de hepatotoxicidade do propiltiouracil. O alvo é T4 livre no limite superior da normalidade com a menor dose possível, porque os antitireoidianos atravessam a placenta. TRAb elevado exige vigilância de hipertireoidismo fetal.",
   "porAlt": [
-   "A tireoidite subaguda cursa com captação baixa à cintilografia e dor cervical, não com captação difusa aumentada.",
-   "O bócio multinodular tóxico mostra captação heterogênea em nódulos, e não o padrão difuso descrito no exame.",
-   "Correta: o quadro é doença de Graves, e o metimazol é a primeira escolha para a maioria dos adultos no país.",
-   "O TSH suprimido com T4 livre elevado indica hipertireoidismo, o oposto de hipotireoidismo primário.",
-   "No adenoma produtor de TSH o hormônio estaria normal ou elevado, e não suprimido como neste caso."
+   "Metimazol no primeiro trimestre associa-se a embriopatia; propiltiouracil é preferido até cerca de 16 semanas.",
+   "Manter metimazol na organogênese expõe a malformações.",
+   "Com TRAb alto, suspender arrisca recidiva materna e hipertireoidismo fetal.",
+   "Iodo radioativo é contraindicado na gestação.",
+   "O alvo é T4 livre no limite superior com a menor dose; TSH suprimido é aceitável."
   ]
  },
  {
-  "q": "Homem de 74 anos, diabético tipo 2, é trazido com desidratação grave e rebaixamento de consciência. A glicemia é de 890 mg/dL, osmolaridade de 340 mOsm/kg, pH de 7,34, bicarbonato de 20 mEq/L e cetonemia fracamente positiva. Qual é a prioridade do tratamento inicial?",
+  "q": "Homem de 74 anos com diabetes tipo 2 é trazido com 5 dias de poliúria, pouca ingestão de líquidos e sonolência progressiva. Pressão arterial 96/58 mmHg, frequência 112 bpm, mucosas secas. Glicemia 890 mg/dL, sódio 142 mEq/L, potássio 4,6 mEq/L, ureia 110 mg/dL, creatinina 2,2 mg/dL, pH 7,34, bicarbonato 20 mEq/L, beta-hidroxibutirato 0,9 mmol/L e osmolalidade efetiva calculada de 333 mOsm/kg. Qual é a estratégia inicial?",
   "alts": [
-   "Insulina em bolus alto antes de qualquer volume, para reduzir a glicemia com a máxima rapidez.",
-   "Bicarbonato endovenoso imediato, indicado já pela osmolaridade muito elevada que ele apresenta.",
-   "Solução glicosada isotônica de início, para prevenir a hipoglicemia que costuma seguir o quadro.",
-   "Reposição volêmica vigorosa, pilar do tratamento desse quadro por causa do déficit hídrico enorme.",
-   "Restrição hídrica rigorosa, porque a osmolaridade elevada reflete excesso de água corporal total."
+   "Insulina 0,1 U/kg/h na chegada, antes dos fluidos",
+   "Salina isotônica primeiro, com insulina em dose baixa depois",
+   "Salina a 0,45% em bolus para baixar o sódio",
+   "Bicarbonato de sódio e insulina em bolus",
+   "Restrição hídrica pelo risco de edema cerebral"
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "endocrino",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "American Diabetes Association, Standards of Care 2026, estado hiperglicêmico hiperosmolar",
-  "coment": "O estado hiperglicêmico hiperosmolar difere da cetoacidose por cursar com glicemia muito mais alta, osmolaridade elevada, acidose discreta ou ausente e cetonemia mínima, porque resta insulina suficiente para conter a cetogênese. O déficit de água costuma ser de 8 a 10 litros, e a reposição volêmica é o pilar do tratamento. Corrige perfusão, reduz a glicemia por diluição e por melhora da filtração, e antecede a insulina, que só entra depois de iniciada a hidratação e com potássio conhecido. A mortalidade é maior que a da cetoacidose, sobretudo no idoso.",
+  "base": "JBDS-IP Guideline: The management of the hyperosmolar hyperglycaemic state in adults, 2022; Hyperglycemic crises in adults with diabetes: a consensus report, Diabetes Care, 2024",
+  "coment": "No estado hiperglicêmico hiperosmolar, o déficit de água passa de 8 a 12 litros e a reposição de volume, por si, reduz a glicemia. A JBDS e o consenso de 2024 orientam começar com salina isotônica e usar insulina em dose baixa (cerca de 0,05 U/kg/h) quando a glicemia deixar de cair só com fluido, a menos que haja cetonemia significativa. A queda da osmolalidade deve ser gradual, de 3 a 8 mOsm/kg/h, para evitar mielinólise e edema cerebral.",
   "porAlt": [
-   "Insulina antes do volume agrava a hipovolemia ao deslocar água para o intracelular, com risco de colapso circulatório.",
-   "O bicarbonato não tem indicação aqui: a acidose é discreta e o problema central é hiperosmolaridade com desidratação.",
-   "Solução glicosada de início agravaria a hiperglicemia; ela entra depois, quando a glicemia cair a determinado patamar.",
-   "Correta: o déficit hídrico é enorme e a reposição volêmica é o pilar inicial, antes e junto de qualquer insulina.",
-   "A osmolaridade elevada reflete falta de água, não excesso; restringir líquido pioraria gravemente a perfusão."
+   "Insulina antes do volume desloca água para as células e pode agravar a hipotensão.",
+   "Estado hiperosmolar: fluido é o pilar, e a insulina em dose baixa entra quando a glicemia para de cair.",
+   "Solução hipotônica em bolus derruba a osmolalidade rápido demais.",
+   "Não há acidose que justifique bicarbonato.",
+   "O déficit de água é grande; restringir agrava choque e lesão renal."
   ]
  },
  {
@@ -9888,243 +9888,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 44 anos tem TSH de 8,9 mUI/L com T4 livre normal, em duas dosagens separadas por três meses. Está assintomática, não é gestante e o anticorpo antitireoperoxidase é positivo. Qual é a conduta?",
+  "q": "Homem de 78 anos, independente, com hipertensão e fibrilação atrial anticoagulada, faz exames de rotina. TSH 8,9 mUI/L e T4 livre de 1,0 ng/dL (normal); nova dosagem após 3 meses mostra TSH de 8,4 mUI/L com T4 livre normal. Anticorpo antitireoperoxidase positivo. Não tem cansaço, ganho de peso ou constipação novos. Não usa amiodarona nem lítio. Hemoglobina, colesterol e função renal normais, e ele pergunta se precisa de hormônio. Qual é a conduta?",
   "alts": [
-   "Iniciar levotiroxina em dose plena imediatamente em qualquer hipotireoidismo subclínico detectado.",
-   "Não tratar e nem acompanhar, uma vez que o T4 livre normal exclui qualquer disfunção tireoidiana.",
-   "Solicitar cintilografia de tireoide como próximo passo antes de qualquer decisão terapêutica.",
-   "Considerar sempre levotiroxina, pesando anticorpo, sintomas e risco cardiovascular neste caso.",
-   "Iniciar metimazol, pois o TSH elevado indica hiperfunção glandular a ser suprimida com droga."
+   "Levotiroxina 50 µg/dia pelo anticorpo positivo",
+   "Levotiroxina 1,6 µg/kg/dia",
+   "Cintilografia de tireoide antes de decidir",
+   "Não tratar e repetir o TSH em 6 a 12 meses",
+   "Levotiroxina com alvo de TSH abaixo de 2,5"
   ],
   "gab": 3,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Thyroid Association, 2014, e Harrison's, 22ª edição, 2025, hipotireoidismo subclínico",
-  "coment": "No hipotireoidismo subclínico com TSH abaixo de 10 mUI/L, a decisão de tratar é individualizada: pesam sintomas compatíveis, anticorpo antitireoperoxidase positivo, que prediz progressão para hipotireoidismo franco, dislipidemia, risco cardiovascular, desejo de gestar e idade. Acima de 10 mUI/L, o tratamento costuma ser indicado. Em idosos, a tolerância a TSH mais alto é maior e o excesso de levotiroxina traz fibrilação atrial e perda óssea.",
+  "base": "European Thyroid Association Guideline on the management of subclinical hypothyroidism, 2013; Stott et al., TRUST, NEJM, 2017; BMJ Rapid Recommendation, 2019",
+  "coment": "O TSH normal sobe com a idade. No ensaio TRUST (NEJM, 2017), levotiroxina em pessoas com 65 anos ou mais e hipotireoidismo subclínico não melhorou sintomas nem cansaço. A European Thyroid Association e a recomendação rápida do BMJ (2019) desaconselham tratar TSH abaixo de 10 mUI/L em idosos assintomáticos; anticorpo positivo aumenta o risco de progressão e justifica repetir o TSH a cada 6 a 12 meses.",
   "porAlt": [
-   "Tratar todo hipotireoidismo subclínico expõe pacientes a excesso de hormônio sem benefício comprovado.",
-   "O TSH elevado com anticorpo positivo indica tireoidite e exige ao menos acompanhamento.",
-   "A cintilografia não tem papel na avaliação do hipotireoidismo subclínico com anticorpo positivo.",
-   "Correta: com TSH abaixo de dez, a decisão é individualizada pesando anticorpo, sintomas e risco.",
-   "O metimazol trata hipertireoidismo; o TSH elevado indica hipofunção, e a droga agravaria o quadro."
+   "No idoso com TSH abaixo de 10, a levotiroxina não melhorou sintomas nem qualidade de vida (TRUST).",
+   "Dose plena em idoso com fibrilação atrial arrisca taquiarritmia, e não há indicação de tratar.",
+   "Cintilografia não tem papel no hipotireoidismo subclínico.",
+   "Idoso assintomático com TSH entre 4,5 e 10: observar, sem reposição.",
+   "Alvo de TSH baixo no idoso aumenta o risco de fibrilação atrial e osteoporose."
   ]
  },
  {
-  "q": "Homem de 58 anos com diabetes tipo 2, hemoglobina glicada de 8,4% em metformina em dose máxima, tem doença arterial coronária estabelecida e índice de massa corporal de 34 kg/m². Qual é a melhor segunda droga?",
+  "q": "Homem de 58 anos com diabetes tipo 2 há 9 anos teve infarto agudo do miocárdio há 1 ano, tratado com angioplastia. Índice de massa corporal de 34 kg/m², hemoglobina glicada de 8,4% com metformina 2 g/dia, taxa de filtração glomerular de 78 mL/min/1,73 m², relação albumina/creatinina de 18 mg/g e fração de ejeção de 55%. Não tem história de pancreatite, retinopatia proliferativa ou carcinoma medular de tireoide. Qual segundo fármaco atende melhor ao caso?",
   "alts": [
-   "Sulfonilureia, escolha preferida pelo baixo custo e pelo perfil favorável nesse tipo de paciente.",
-   "Agonista do receptor de GLP-1, sempre pelo benefício cardiovascular e pelo efeito no peso agora.",
-   "Insulina basal noturna, primeira opção obrigatória sempre que a glicada ultrapassa oito por cento.",
-   "Pioglitazona, já indicada como segunda droga por seu efeito neutro sobre o peso corporal do paciente.",
-   "Acarbose isolada, opção de escolha em pacientes com doença coronária e obesidade associadas."
+   "Gliclazida de liberação prolongada",
+   "Semaglutida semanal",
+   "Insulina NPH ao deitar",
+   "Pioglitazona 30 mg/dia",
+   "Sitagliptina 100 mg/dia"
   ],
   "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "American Diabetes Association, Standards of Care 2026, escolha de terapia com benefício cardiometabólico",
-  "coment": "Em paciente com diabetes tipo 2 e doença cardiovascular aterosclerótica estabelecida, a escolha da segunda droga privilegia agentes com benefício cardiovascular comprovado: agonistas do receptor de GLP-1 e inibidores de SGLT2, independentemente da hemoglobina glicada. Com obesidade associada, o agonista de GLP-1 tem vantagem adicional pelo efeito sobre o peso. A sulfonilureia causa hipoglicemia e ganho ponderal, sem benefício cardiovascular, e a insulina não é obrigatória nesse patamar de glicada.",
+  "base": "ADA Standards of Care in Diabetes, seção 9, 2025; Diretriz da Sociedade Brasileira de Diabetes, 2024",
+  "coment": "Em diabético com doença cardiovascular aterosclerótica, ADA e SBD recomendam acrescentar agonista do receptor de GLP-1 ou inibidor de SGLT2 com benefício cardiovascular comprovado, independentemente da glicada. Com obesidade e fração de ejeção preservada, o agonista de GLP-1 atende melhor: reduz eventos cardiovasculares, glicemia e peso. Se houvesse insuficiência cardíaca ou doença renal com albuminúria, o inibidor de SGLT2 teria prioridade.",
   "porAlt": [
-   "A sulfonilureia causa hipoglicemia e ganho de peso, sem benefício cardiovascular demonstrado.",
-   "Correta: com doença coronária e obesidade, o agonista de GLP-1 soma benefício cardiovascular e perda de peso.",
-   "A insulina não é obrigatória com glicada de 8,4% e não traz o benefício cardiovascular buscado.",
-   "A pioglitazona causa retenção hídrica e ganho de peso, além de risco de fratura em alguns perfis.",
-   "A acarbose tem eficácia modesta e não oferece proteção cardiovascular nesse contexto clínico."
+   "Sulfonilureia não reduz eventos cardiovasculares e causa ganho de peso e hipoglicemia.",
+   "Doença aterosclerótica e obesidade: agonista de GLP-1 com benefício cardiovascular comprovado e perda de peso.",
+   "Insulina não tem benefício cardiovascular e aumenta o peso.",
+   "Pioglitazona aumenta peso e retenção de líquido.",
+   "Inibidor de DPP-4 é neutro para eventos cardiovasculares e para o peso."
   ]
  },
  {
-  "q": "Mulher de 36 anos apresenta amenorreia secundária, galactorreia e cefaleia. A prolactina está em 180 ng/mL e o teste de gravidez é negativo. Não usa medicações. Qual é a conduta?",
+  "q": "Mulher de 36 anos tem amenorreia há 8 meses, galactorreia e cefaleia. Prolactina 2.400 ng/mL, beta-hCG negativo, TSH e creatinina normais, sem uso de medicações. Ressonância: macroadenoma hipofisário de 2,4 cm com extensão suprasselar, tocando o quiasma óptico. Campimetria com hemianopsia bitemporal parcial. Sem cefaleia súbita nem alteração da consciência. Tem ciclos irregulares desde a menarca, deseja engravidar nos próximos anos e não tem contraindicação cardiovascular conhecida. Cortisol matinal e T4 livre normais. Qual é o tratamento inicial?",
   "alts": [
-   "Indicar cirurgia transesfenoidal de imediato, já tratamento de primeira linha de todo prolactinoma.",
-   "Solicitar ressonância de sela túrcica e iniciar agonista dopaminérgico conforme o achado agora.",
-   "Prescrever apenas anticoncepcional oral, já que normaliza a prolactina e resolve a galactorreia.",
-   "Solicitar cintilografia de tireoide, exame inicial na investigação da hiperprolactinemia sintomática.",
-   "Iniciar radioterapia hipofisária, opção preferida em mulheres jovens com hiperprolactinemia."
-  ],
-  "gab": 1,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "Endocrine Society, 2011, atualizada, e Harrison's, 22ª edição, 2025, hiperprolactinemia e prolactinoma",
-  "coment": "Hiperprolactinemia sintomática com valores acima de 150 a 200 ng/mL, afastadas gestação, hipotireoidismo primário, insuficiência renal e fármacos, sugere adenoma hipofisário produtor de prolactina, e a ressonância de sela túrcica define tamanho e relação com estruturas vizinhas. O tratamento de primeira linha é clínico, com agonista dopaminérgico, cabergolina de preferência, que normaliza a prolactina e reduz o tumor na maioria dos casos. A cirurgia fica para falha, intolerância ou compressão de vias ópticas.",
-  "porAlt": [
-   "A cirurgia é reservada a falha do tratamento clínico, intolerância ou compressão de quiasma óptico.",
-   "Correta: solicitar ressonância de sela e iniciar agonista dopaminérgico, que é o tratamento de primeira linha.",
-   "O anticoncepcional pode regularizar o ciclo mas não trata o tumor nem normaliza a prolactina.",
-   "A cintilografia de tireoide não investiga hiperprolactinemia; dosa-se TSH para afastar hipotireoidismo.",
-   "A radioterapia é opção de exceção em tumores refratários, com risco de hipopituitarismo tardio."
-  ]
- },
- {
-  "q": "Homem de 62 anos, em uso crônico de prednisona por polimialgia reumática, é internado com pneumonia grave e hipotensão refratária a volume e vasopressor. Qual é a hipótese que deve ser considerada?",
-  "alts": [
-   "Insuficiência adrenal relativa, sempre com corticoide em dose de estresse por via venosa agora.",
-   "Choque cardiogênico primário, hipótese preferida diante da refratariedade ao volume administrado.",
-   "Reação anafilática tardia ao antimicrobiano prescrito, causa mais provável de choque refratário.",
-   "Hipotireoidismo descompensado, que classicamente cursa com choque refratário a vasopressor.",
-   "Feocromocitoma oculto, cuja crise explica a hipotensão refratária em paciente séptico grave."
-  ],
-  "gab": 0,
-  "tema": "endocrino",
-  "cenario": "uti",
-  "comp": "urg",
-  "nivel": "tit",
-  "base": "Surviving Sepsis Campaign 2026 e Endocrine Society, 2016. Insuficiência adrenal no paciente crítico",
-  "coment": "Paciente em corticoterapia crônica tem supressão do eixo hipotálamo-hipófise-adrenal e não consegue montar a resposta de estresse exigida por sepse, cirurgia ou trauma. O quadro se manifesta como hipotensão refratária a volume e vasopressor, muitas vezes com hiponatremia, hipercalemia e hipoglicemia. A conduta é administrar corticoide em dose de estresse, tipicamente hidrocortisona endovenosa, sem atrasar o tratamento para aguardar dosagem de cortisol.",
-  "porAlt": [
-   "Correta: corticoterapia crônica com choque refratário sugere insuficiência adrenal e indica dose de estresse.",
-   "O choque cardiogênico exigiria disfunção miocárdica evidente, ausente na descrição do caso.",
-   "A anafilaxia é de instalação rápida após exposição, com achados cutâneos e respiratórios típicos.",
-   "O hipotireoidismo descompensado cursa com bradicardia, hipotermia e rebaixamento, não com esse padrão.",
-   "O feocromocitoma cursa com hipertensão paroxística, e não com hipotensão refratária a vasopressor."
-  ]
- },
- {
-  "q": "Mulher de 52 anos, pós-menopausa, tem densitometria com escore T de -2,6 em colo femoral, sem fratura prévia e sem uso de corticoide. Qual é a conduta?",
-  "alts": [
-   "Apenas orientar exercícios e repetir a densitometria em cinco anos, sem tratamento farmacológico.",
-   "Iniciar reposição hormonal estrogênica como primeira linha do tratamento da osteoporose pós-menopausa.",
-   "Prescrever apenas cálcio isolado em dose alta, suficiente para reverter a perda óssea instalada.",
-   "Iniciar sempre bisfosfonato com cálcio e vitamina D, pelo diagnóstico de osteoporose neste caso.",
-   "Indicar paratormônio recombinante de saída, primeira escolha em qualquer osteoporose densitométrica."
-  ],
-  "gab": 3,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "Endocrine Society, 2019, e American Association of Clinical Endocrinology, 2020. Osteoporose pós-menopausa",
-  "coment": "Escore T igual ou menor que -2,5 em coluna, colo femoral ou fêmur total define osteoporose e indica tratamento farmacológico, mesmo sem fratura prévia. Os bisfosfonatos são primeira linha para a maioria das pacientes, associados a cálcio e vitamina D e a medidas de prevenção de queda. Agentes anabólicos, como o paratormônio recombinante, ficam para osteoporose grave, múltiplas fraturas ou falha terapêutica. A reposição estrogênica não é primeira linha pela relação entre risco e benefício.",
-  "porAlt": [
-   "Apenas exercício não reverte osteoporose já estabelecida, e cinco anos de espera acumulam risco de fratura.",
-   "A reposição estrogênica não é primeira linha para osteoporose pela relação entre risco e benefício.",
-   "O cálcio isolado não trata osteoporose; é adjuvante obrigatório, mas nunca terapia única.",
-   "Correta: escore T igual ou menor que -2,5 define osteoporose e indica bisfosfonato com cálcio e vitamina D.",
-   "Os anabólicos ficam para doença grave ou falha, pelo custo e pelo perfil de indicação restrito."
-  ]
- },
- {
-  "q": "Homem de 30 anos apresenta ganho de peso central, estrias violáceas largas, fraqueza proximal e hipertensão de início recente. Qual é o primeiro passo diagnóstico?",
-  "alts": [
-   "Solicitar tomografia de adrenais como primeiro exame, que confirma o diagnóstico de imediato.",
-   "Iniciar cetoconazol empiricamente e reavaliar em três meses, sem confirmação laboratorial prévia.",
-   "Confirmar hipercortisolismo com teste de rastreio, como cortisol salivar noturno ou supressão.",
-   "Dosar apenas o cortisol sérico matinal isolado, exame suficiente para confirmar o diagnóstico.",
-   "Indicar adrenalectomia bilateral de imediato, já tratamento definitivo de qualquer hipercortisolismo."
+   "Ressecção transesfenoidal de urgência",
+   "Radioterapia estereotáxica",
+   "Cabergolina com campimetria seriada",
+   "Octreotida de liberação prolongada",
+   "Observação até nova ressonância em 6 meses"
   ],
   "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Endocrine Society, 2008, atualizada, e Harrison's, 22ª edição, 2025, diagnóstico da síndrome de Cushing",
-  "coment": "A investigação da síndrome de Cushing tem três etapas em ordem obrigatória: confirmar o hipercortisolismo, definir se é dependente ou independente de corticotropina, e só então localizar a lesão por imagem. Os testes de rastreio são cortisol salivar à meia-noite, cortisol livre urinário de vinte e quatro horas e teste de supressão com dexametasona em dose baixa, sendo necessários pelo menos dois alterados. O cortisol sérico matinal isolado não serve para rastrear, pela variabilidade e pela sobreposição.",
+  "base": "Endocrine Society Clinical Practice Guideline: Diagnosis and Treatment of Hyperprolactinemia, 2011; Pituitary Society International Consensus Statement on prolactinomas, 2023",
+  "coment": "Prolactina acima de 250 ng/mL com macroadenoma confirma prolactinoma. Pela Endocrine Society e pelo consenso da Pituitary Society (2023), agonista dopaminérgico, de preferência cabergolina, é o tratamento inicial mesmo nos macroadenomas com compressão do quiasma: reduz o tumor e melhora o campo visual em dias a semanas na maioria dos casos. Cirurgia fica para intolerância, resistência, piora visual apesar do fármaco ou apoplexia.",
   "porAlt": [
-   "A imagem antes da confirmação bioquímica encontra incidentalomas e leva a diagnósticos equivocados.",
-   "Tratar empiricamente sem confirmar expõe o paciente à toxicidade de droga sem diagnóstico firmado.",
-   "Correta: o primeiro passo é confirmar o hipercortisolismo com teste de rastreio adequado.",
-   "O cortisol matinal isolado tem grande variabilidade e não serve como teste de rastreio da síndrome.",
-   "A adrenalectomia bilateral é medida de exceção e jamais precede a confirmação e a localização."
+   "Mesmo com compressão do quiasma, o macroprolactinoma responde rápido ao agonista dopaminérgico; cirurgia fica para falha ou apoplexia.",
+   "Radioterapia é para casos refratários a fármaco e cirurgia.",
+   "Prolactinoma, inclusive macro e com defeito visual: cabergolina é primeira linha.",
+   "Análogo de somatostatina não trata prolactinoma.",
+   "Há defeito visual e hipogonadismo; observar não é aceitável."
   ]
  },
  {
-  "q": "Mulher de 25 anos com diabetes tipo 1 refere hipoglicemias noturnas frequentes e desconhecimento dos sintomas de alarme. Usa esquema basal-bolus com múltiplas doses. Qual é a conduta mais adequada?",
+  "q": "Homem de 62 anos usa prednisona 10 mg/dia há 2 anos por polimialgia reumática. Está na terapia intensiva por pneumonia grave e choque, com noradrenalina 0,4 µg/kg/min após 30 mL/kg de cristaloide e antibiótico na primeira hora. Lactato 4,2 mmol/L. Não recebe a prednisona desde a admissão, há 36 horas, por estar em jejum e sonolento. Sódio 131 mEq/L, glicemia 88 mg/dL. Qual é a conduta mais importante a acrescentar?",
   "alts": [
-   "Aumentar a insulina basal noturna, corrigindo a variabilidade glicêmica observada durante o sono.",
-   "Suspender toda a insulina basal e manter apenas bolus prandiais até a resolução das hipoglicemias.",
-   "Prescrever apenas lanche noturno rico em carboidrato simples, já dispensando ajuste de doses agora.",
-   "Considerar monitorização contínua de glicose e revisar doses, com alvos glicêmicos menos rígidos.",
-   "Trocar para hipoglicemiante oral, já alternativa segura ao esquema de insulina no diabetes tipo 1."
+   "Dosar cortisol basal antes de qualquer corticoide",
+   "Teste de estímulo com cosintropina",
+   "Retomar prednisona 10 mg por sonda",
+   "Hidrocortisona endovenosa em dose de estresse",
+   "Fludrocortisona 50 µg/dia"
   ],
   "gab": 3,
+  "tema": "endocrino",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "European Society of Endocrinology and Endocrine Society Guideline on Glucocorticoid-Induced Adrenal Insufficiency, 2024; Surviving Sepsis Campaign Guidelines, 2021",
+  "coment": "Prednisona acima de 5 mg/dia por mais de 3 a 4 semanas suprime o eixo hipotálamo-hipófise-adrenal. Interromper a dose durante doença grave, com choque que exige noradrenalina crescente, hiponatremia e glicemia baixa, sugere crise adrenal. A conduta é hidrocortisona endovenosa em dose de estresse (100 mg em bolus e 200 mg/dia), sem esperar exames. A Surviving Sepsis Campaign também sugere hidrocortisona 200 mg/dia no choque séptico com necessidade crescente de vasopressor.",
+  "porAlt": [
+   "Esperar o cortisol atrasa o tratamento, e em uso crônico de corticoide o exame não muda a conduta.",
+   "Teste de estímulo não deve atrasar tratamento em choque.",
+   "Dose de manutenção por sonda é insuficiente no choque e tem absorção incerta.",
+   "Uso crônico de corticoide interrompido e choque refratário: hidrocortisona 200 mg/dia endovenosa.",
+   "Na insuficiência adrenal por corticoide exógeno, o eixo mineralocorticoide está preservado."
+  ]
+ },
+ {
+  "q": "Mulher de 66 anos usa alendronato 70 mg/semana há 5 anos, iniciado por escore T de −2,6 no colo femoral, sem fraturas. A densitometria atual mostra escore T de −2,1 no colo femoral e −1,8 na coluna lombar. Não teve fraturas nem quedas, não usa corticoide e o FRAX calculado é de 11% para fratura maior e 1,9% para quadril. Vitamina D 34 ng/mL, cálcio normal. Tem boa adesão, sem queixas digestivas, e pergunta por quanto tempo ainda precisa tomar o remédio. Qual é a conduta?",
+  "alts": [
+   "Suspender o alendronato e reavaliar em 2 a 3 anos",
+   "Manter o alendronato por mais 5 anos",
+   "Trocar para teriparatida",
+   "Associar denosumabe ao alendronato",
+   "Trocar para ácido zoledrônico anual"
+  ],
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r3",
-  "base": "American Diabetes Association, Standards of Care 2026, hipoglicemia e monitorização contínua de glicose",
-  "coment": "Hipoglicemias frequentes com perda da percepção dos sintomas de alarme configuram situação de risco elevado e exigem três medidas: relaxar temporariamente os alvos glicêmicos por algumas semanas, o que ajuda a recuperar a percepção; revisar doses, horários, contagem de carboidratos e técnica de aplicação; e oferecer monitorização contínua de glicose, que a diretriz de 2026 recomenda considerar amplamente. A insulina não pode ser suspensa no diabetes tipo 1, sob risco de cetoacidose.",
+  "nivel": "r2",
+  "base": "Endocrine Society Clinical Practice Guideline: Pharmacological Management of Osteoporosis in Postmenopausal Women, 2019, e atualização de 2020; ASBMR Task Force on long-term bisphosphonate therapy, 2016",
+  "coment": "Após 5 anos de bisfosfonato oral (ou 3 de ácido zoledrônico), a Endocrine Society e a ASBMR recomendam reavaliar o risco. Sem fratura, com escore T acima de −2,5 e risco baixo a moderado, sugere-se pausa terapêutica de 2 a 3 anos, pois o efeito persiste e o risco de fratura atípica de fêmur e de osteonecrose de mandíbula cresce com o tempo de uso. Alto risco (fratura prévia, escore T de −2,5 ou menos) justifica manter até 10 anos. Denosumabe, ao contrário, não permite pausa.",
   "porAlt": [
-   "Aumentar a basal noturna agravaria justamente as hipoglicemias que ocorrem durante o sono.",
-   "Suspender a basal no diabetes tipo 1 precipita cetoacidose em poucas horas, sendo conduta perigosa.",
-   "Lanche noturno é medida paliativa e não corrige o excesso de insulina que causa as hipoglicemias.",
-   "Correta: monitorização contínua, revisão de doses e alvos menos rígidos ajudam a recuperar a percepção.",
-   "Hipoglicemiante oral não substitui insulina no diabetes tipo 1, que tem deficiência absoluta."
+   "Risco baixo a moderado após 5 anos de bisfosfonato oral: pausa terapêutica com reavaliação.",
+   "Prolongar em risco baixo aumenta fratura atípica e osteonecrose sem ganho.",
+   "Anabólico é para risco muito alto, o que não é o caso.",
+   "Combinar antirreabsortivos não tem indicação.",
+   "Trocar de bisfosfonato não é necessário; ela é candidata a pausa."
   ]
  },
  {
-  "q": "Homem de 47 anos tem hipertensão resistente a três fármacos, hipocalemia espontânea de 3,0 mEq/L e alcalose metabólica. Qual é a hipótese e o exame inicial?",
+  "q": "Mulher de 30 anos tem ganho de peso central, estrias violáceas de 1,5 cm no abdome, fraqueza proximal, equimoses fáceis e hipertensão de início recente. Usa anticoncepcional oral combinado há 6 anos e não usa corticoide por nenhuma via. Fez teste de supressão com 1 mg de dexametasona à meia-noite, com cortisol sérico matinal de 7,8 µg/dL. Pressão arterial de 158/96 mmHg, glicemia de jejum de 118 mg/dL e potássio de 3,6 mEq/L. Não há hirsutismo importante, e a menstruação continua regular com o anticoncepcional. Qual é o próximo exame mais adequado?",
   "alts": [
-   "Feocromocitoma, rastreado pela dosagem de metanefrinas plasmáticas livres ou urinárias fracionadas.",
-   "Síndrome de Cushing, rastreada pela dosagem isolada do hormônio adrenocorticotrófico plasmático.",
-   "Estenose de artéria renal, cujo rastreio inicial é feito pela dosagem de potássio urinário isolado.",
-   "Hiperaldosteronismo primário, sempre rastreado pela relação entre aldosterona e renina agora.",
-   "Coarctação de aorta, sugerida pela combinação de hipocalemia espontânea com alcalose metabólica."
-  ],
-  "gab": 3,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "Endocrine Society, 2016, e Diretriz Brasileira de Hipertensão Arterial, 2025, hiperaldosteronismo primário",
-  "coment": "Hipertensão resistente com hipocalemia espontânea e alcalose metabólica é a apresentação clássica do hiperaldosteronismo primário, que é a causa secundária mais comum de hipertensão e frequentemente subdiagnosticada. O rastreio é feito pela relação entre aldosterona plasmática e atividade de renina, com atenção às drogas que interferem no resultado, espironolactona deve ser suspensa antes. Confirmado o rastreio, seguem-se teste confirmatório e tomografia de adrenais, com cateterismo de veias adrenais quando a lateralização é necessária.",
-  "porAlt": [
-   "O feocromocitoma cursa com paroxismos de hipertensão, cefaleia, sudorese e palpitação, sem hipocalemia típica.",
-   "A síndrome de Cushing tem outros achados clínicos e não é rastreada pela dosagem isolada de corticotropina.",
-   "A estenose de artéria renal não é rastreada por potássio urinário isolado e cursa com outro perfil.",
-   "Correta: hipertensão resistente com hipocalemia espontânea sugere hiperaldosteronismo, rastreado pela relação aldosterona-renina.",
-   "A coarctação cursa com diferença de pressão entre membros superiores e inferiores, não com hipocalemia."
-  ]
- },
- {
-  "q": "Mulher de 60 anos com nódulo tireoidiano de 2,5 cm, sólido e hipoecogênico, com microcalcificações e margens irregulares ao ultrassom. O TSH está normal. Qual é a conduta?",
-  "alts": [
-   "Cintilografia de tireoide como próximo exame, indicada em todo nódulo com TSH dentro do normal.",
-   "Tireoidectomia total imediata, sem qualquer investigação citológica prévia do nódulo detectado.",
-   "Apenas repetir o ultrassom em cinco anos, prazo adequado para nódulos com essas características.",
-   "Iniciar levotiroxina supressiva, tratamento de escolha para reduzir nódulos tireoidianos suspeitos.",
-   "Punção aspirativa por agulha fina, sempre indicada pelos achados de alta suspeição neste caso."
+   "Ressonância magnética de hipófise",
+   "ACTH plasmático para localizar a causa",
+   "Tomografia de adrenais com contraste",
+   "Repetir o teste com 8 mg de dexametasona",
+   "Cortisol salivar noturno ou cortisol livre urinário"
   ],
   "gab": 4,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r2",
-  "base": "American Thyroid Association, 2015, e sistema TI-RADS. Avaliação do nódulo tireoidiano",
-  "coment": "Nódulo sólido e hipoecogênico com microcalcificações e margens irregulares tem alta suspeição ultrassonográfica e indicação de punção aspirativa por agulha fina a partir de um centímetro. A cintilografia só entra quando o TSH está suprimido, para identificar nódulo hiperfuncionante, que raramente é maligno. A supressão com levotiroxina foi abandonada por ineficácia e por risco de tireotoxicose iatrogênica. A cirurgia sem citologia expõe muitos pacientes a ressecção de lesão benigna.",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline: The Diagnosis of Cushing's Syndrome, 2008; Pituitary Society Consensus on diagnosis and management of Cushing's disease, 2021",
+  "coment": "O quadro tem sinais de alta especificidade (estrias largas violáceas, fraqueza proximal, equimoses). O teste com 1 mg de dexametasona mede cortisol total, e o estrogênio oral eleva a globulina ligadora de cortisol, produzindo falso positivo. A Endocrine Society recomenda suspender o anticoncepcional por 6 semanas ou usar testes de cortisol livre, como cortisol salivar à meia-noite ou cortisol livre urinário de 24 horas, repetidos. Localização por ACTH e imagem vem só depois da confirmação.",
   "porAlt": [
-   "A cintilografia se indica quando o TSH está suprimido, para identificar nódulo hiperfuncionante.",
-   "Operar sem citologia expõe à ressecção pacientes com nódulo benigno, que são a maioria.",
-   "Cinco anos de intervalo em nódulo de alta suspeição permitiria a progressão de uma neoplasia.",
-   "A supressão com levotiroxina foi abandonada por ineficácia e risco de tireotoxicose iatrogênica.",
-   "Correta: achados de alta suspeição em nódulo acima de um centímetro indicam punção aspirativa por agulha fina."
+   "Imagem vem depois de confirmar hipercortisolismo e sua dependência de ACTH.",
+   "ACTH localiza a causa após confirmado o hipercortisolismo.",
+   "Tomografia antes da confirmação encontra incidentalomas e confunde.",
+   "O teste com 8 mg é de localização e está em desuso.",
+   "Estrogênio eleva a globulina ligadora e falseia a supressão; usar testes de cortisol livre."
   ]
  },
  {
-  "q": "Homem de 55 anos tem cálcio total de 11,8 mg/dL, cálcio iônico elevado, fósforo baixo e paratormônio de 96 pg/mL. A função renal é normal e ele está assintomático. Qual é o diagnóstico?",
+  "q": "Mulher de 25 anos com diabetes tipo 1 há 15 anos, em uso de glargina 22 U/dia e asparte nas refeições, tem hemoglobina glicada de 6,1%. Teve dois episódios de hipoglicemia grave no último mês, um deles com convulsão durante o sono, e não percebe tremor nem sudorese com glicemias de 50 mg/dL. Faz 6 glicemias capilares por dia. Função renal, TSH e cortisol normais. Mora sozinha e dirige para trabalhar. Qual é a conduta mais adequada?",
   "alts": [
-   "Hipercalcemia da malignidade, cujo marco é o paratormônio elevado com fósforo sérico reduzido agora.",
-   "Intoxicação por vitamina D, que cursa com paratormônio elevado e fósforo baixo caracteristicamente.",
-   "Hiperparatireoidismo primário, definido por hipercalcemia com paratormônio inapropriadamente elevado.",
-   "Hipercalcemia hipocalciúrica familiar, definida exclusivamente pelo valor do fósforo sérico baixo.",
-   "Doença de Paget óssea, cuja apresentação inclui hipercalcemia com paratormônio sempre elevado agora."
+   "Manter o esquema e reforçar o lanche noturno",
+   "Monitorização contínua com alarmes e metas menos rígidas",
+   "Trocar glargina por NPH duas vezes ao dia",
+   "Aumentar as glicemias capilares para 10 por dia",
+   "Sistema automatizado só após nova hipoglicemia grave"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ADA Standards of Care in Diabetes, seções 6 e 7, 2025",
+  "coment": "Hipoglicemias repetidas embotam a resposta autonômica e produzem perda da percepção, que aumenta muito o risco de hipoglicemia grave. A ADA recomenda, nesses casos, monitorização contínua de glicose com alarmes ou sistema automatizado de liberação de insulina, revisão das doses e metas glicêmicas menos rígidas. Evitar qualquer hipoglicemia por 2 a 3 semanas costuma restaurar parte da percepção. Glucagon deve estar disponível para familiares.",
+  "porAlt": [
+   "Manter glicada de 6,1% perpetua as hipoglicemias que causaram a perda da percepção.",
+   "Hipoglicemia grave com perda da percepção: monitorização contínua com alarmes, reduzir doses e aceitar glicada mais alta.",
+   "NPH tem mais variabilidade e mais hipoglicemia noturna que a glargina.",
+   "Glicemia capilar não alerta durante o sono, quando ocorreu a convulsão.",
+   "Sistemas automatizados estão indicados agora, sem esperar novo evento grave."
+  ]
+ },
+ {
+  "q": "Homem de 47 anos tem hipertensão em uso de anlodipino 10 mg, losartana 100 mg, clortalidona 25 mg e espironolactona 50 mg/dia, com pressão de 162/98 mmHg. Antes da espironolactona, tinha potássio de 3,0 mEq/L; hoje, 3,6 mEq/L. Bicarbonato 29 mEq/L. Tomografia de abdome prévia sem nódulos adrenais. O médico quer rastrear hiperaldosteronismo primário. Qual é o preparo mais adequado para a relação aldosterona/renina?",
+  "alts": [
+   "Dosar agora, pois os fármacos não interferem",
+   "Suspender o anlodipino e manter os demais",
+   "Dosar após sobrecarga oral de sal",
+   "Suspender a espironolactona por 4 semanas e repor potássio",
+   "Suspender todos os anti-hipertensivos por duas semanas"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline: The Management of Primary Aldosteronism, 2016",
+  "coment": "Espironolactona e eplerenona elevam a renina e podem mascarar o hiperaldosteronismo; a Endocrine Society recomenda suspendê-las por pelo menos 4 semanas antes da relação aldosterona/renina, trocando por fármacos de interferência mínima (verapamil de liberação lenta, hidralazina, doxazosina). A hipocalemia reduz a secreção de aldosterona e deve ser corrigida. Com inibidor da ECA, bloqueador do receptor ou diurético, um resultado positivo continua interpretável.",
+  "porAlt": [
+   "Antagonista mineralocorticoide eleva a renina e causa falso negativo.",
+   "Anlodipino interfere pouco; o problema é a espironolactona.",
+   "Sobrecarga de sal é teste confirmatório, feito depois do rastreio positivo.",
+   "Suspender o antagonista mineralocorticoide por 4 a 6 semanas e corrigir a hipocalemia, trocando por fármacos que não interferem.",
+   "Suspender todos os fármacos numa hipertensão grave é perigoso e desnecessário."
+  ]
+ },
+ {
+  "q": "Mulher de 60 anos tem nódulo tireoidiano descoberto em ultrassonografia de carótidas. TSH 1,8 mUI/L. Ultrassonografia de tireoide: nódulo de 1,4 cm no lobo direito, sólido, acentuadamente hipoecogênico, mais alto que largo, com margens irregulares e microcalcificações (ACR TI-RADS 5, 12 pontos). Sem linfonodos cervicais suspeitos. Não tem história de irradiação cervical nem de câncer de tireoide na família. A paciente pergunta se pode apenas repetir o exame no ano que vem, como fez com a mãe, que tinha nódulos benignos. Qual é a conduta?",
+  "alts": [
+   "Cintilografia de tireoide antes da punção",
+   "Nova ultrassonografia em 1 ano",
+   "Punção aspirativa por agulha fina guiada",
+   "Tireoidectomia total sem citologia",
+   "Calcitonina sérica e observação"
   ],
   "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r3",
-  "base": "Endocrine Society e workshops internacionais de hiperparatireoidismo primário, 2022; Harrison's, 22ª ed., 2025",
-  "coment": "Hipercalcemia com paratormônio normal-alto ou elevado é, por definição, inapropriada: em hipercalcemia de outra causa o paratormônio deveria estar suprimido. Somado a fósforo baixo, o quadro define hiperparatireoidismo primário, causa mais comum de hipercalcemia em ambulatório. Na hipercalcemia da malignidade, o paratormônio está suprimido. A avaliação segue com cálcio urinário de vinte e quatro horas, densitometria e imagem renal, e a paratireoidectomia é indicada por critérios específicos.",
+  "nivel": "r2",
+  "base": "ACR Thyroid Imaging, Reporting and Data System (TI-RADS), 2017; American Thyroid Association Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer, 2015",
+  "coment": "O ACR TI-RADS indica punção por agulha fina conforme pontuação e tamanho: TR5 a partir de 1 cm (acompanhar entre 0,5 e 1 cm), TR4 a partir de 1,5 cm e TR3 a partir de 2,5 cm. Com TSH normal, cintilografia não acrescenta; ela é reservada ao TSH baixo, para identificar nódulo hiperfuncionante, que não é puncionado.",
   "porAlt": [
-   "Na hipercalcemia da malignidade o paratormônio está suprimido, e não elevado como neste paciente.",
-   "A intoxicação por vitamina D suprime o paratormônio e costuma cursar com fósforo normal ou elevado.",
-   "Correta: hipercalcemia com paratormônio inapropriadamente elevado e fósforo baixo define hiperparatireoidismo primário.",
-   "A hipercalcemia hipocalciúrica familiar exige cálcio urinário baixo, e não se define pelo fósforo.",
-   "A doença de Paget cursa com fosfatase alcalina elevada e cálcio normal na maioria dos casos."
+   "Com TSH normal, cintilografia não é indicada.",
+   "TI-RADS 5 com 1 cm ou mais tem indicação de punção agora.",
+   "TI-RADS 5 com 1 cm ou mais: punção aspirativa guiada por ultrassom.",
+   "Cirurgia sem diagnóstico citológico não é recomendada.",
+   "Calcitonina de rotina é controversa e não substitui a punção."
+  ]
+ },
+ {
+  "q": "Homem de 34 anos tem cálcio total de 11,0 mg/dL (referência até 10,2 mg/dL), cálcio iônico elevado, fósforo 2,6 mg/dL e paratormônio de 68 pg/mL (referência de 15 a 65), semelhantes aos de 3 anos atrás. Assintomático, sem litíase, densitometria normal. Vitamina D 32 ng/mL, creatinina 0,9 mg/dL. A mãe e uma irmã têm cálcio elevado sem diagnóstico. Cálcio urinário de 24 horas de 60 mg e razão de depuração cálcio/creatinina de 0,006. Qual é o diagnóstico mais provável?",
+  "alts": [
+   "Hipercalcemia hipocalciúrica familiar",
+   "Hiperparatireoidismo primário por adenoma",
+   "Hiperparatireoidismo secundário",
+   "Intoxicação por vitamina D",
+   "Neoplasia endócrina múltipla tipo 1"
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Fifth International Workshop on the Management of Primary Hyperparathyroidism, Journal of Bone and Mineral Research, 2022",
+  "coment": "A hipercalcemia hipocalciúrica familiar, autossômica dominante, decorre de mutação inativadora do receptor sensor de cálcio: hipercalcemia leve e estável, paratormônio normal ou pouco elevado e calciúria baixa. Razão de depuração cálcio/creatinina abaixo de 0,01 sugere o diagnóstico, e acima de 0,02 favorece hiperparatireoidismo primário. Parentes de primeiro grau com hipercalcemia reforçam, e o teste genético do CASR confirma. É benigna, e a paratireoidectomia não corrige o cálcio.",
+  "porAlt": [
+   "Hipercalcemia leve e estável, calciúria baixa, razão abaixo de 0,01 e familiares afetados: mutação do sensor de cálcio.",
+   "Hiperparatireoidismo primário costuma ter razão acima de 0,02, e operar aqui não corrige o cálcio.",
+   "No hiperparatireoidismo secundário o cálcio é normal ou baixo.",
+   "Vitamina D normal e paratormônio não suprimido afastam intoxicação.",
+   "Neoplasia endócrina múltipla tipo 1 cursa com hiperparatireoidismo primário e calciúria normal ou alta."
   ]
  },
  {
@@ -12768,243 +12768,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 55 anos com diabetes tipo 2, hemoglobina glicada de 8,4%, doença renal crônica com albuminúria e obesidade. Qual é a conduta?",
+  "q": "Homem de 55 anos com diabetes tipo 2 há 14 anos e índice de massa corporal de 32 kg/m² acompanha doença renal crônica. Usa metformina 1 g/dia, empagliflozina 10 mg/dia há 8 meses, losartana 100 mg/dia e atorvastatina. Pressão arterial 128/78 mmHg, hemoglobina glicada de 7,1%. Taxa de filtração glomerular estimada de 52 mL/min/1,73 m², estável; relação albumina/creatinina urinária de 480 mg/g, que era de 620 mg/g antes da empagliflozina. Potássio 4,6 mEq/L. Não tem insuficiência cardíaca. Qual é a conduta para reduzir ainda mais o risco renal e cardiovascular?",
   "alts": [
-   "Sulfonilureia isolada em dose plena, escolha preferencial para o paciente com doença renal e albuminúria.",
-   "Metformina associada a inibidor de SGLT2, sempre pelo benefício renal e cardiovascular demonstrado.",
-   "Insulina basal isolada como primeira escolha antes de qualquer antidiabético oral nesse paciente.",
-   "Apenas orientação dietética por doze meses antes de considerar qualquer tratamento medicamentoso.",
-   "Glitazona em dose plena, escolha preferencial pelo benefício renal em pacientes com albuminúria."
+   "Associar enalapril à losartana",
+   "Trocar empagliflozina por pioglitazona",
+   "Aumentar a losartana para 200 mg/dia",
+   "Associar espironolactona 50 mg/dia",
+   "Associar finerenona com potássio monitorado"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "KDIGO Clinical Practice Guideline for Diabetes Management in CKD, 2022; ADA Standards of Care in Diabetes, 2025; FIDELIO-DKD, NEJM, 2020",
+  "coment": "Na doença renal do diabetes com albuminúria persistente apesar de bloqueador do sistema renina-angiotensina em dose máxima e inibidor de SGLT2, KDIGO (2022) e ADA recomendam acrescentar finerenona, antagonista mineralocorticoide não esteroidal que reduziu progressão renal e eventos cardiovasculares nos estudos FIDELIO-DKD e FIGARO-DKD. Exige filtração de 25 mL/min/1,73 m² ou mais e potássio normal, com nova dosagem em 4 semanas. Agonista de GLP-1 (estudo FLOW, 2024) é outra camada de proteção renal.",
+  "porAlt": [
+   "Duplo bloqueio do sistema renina-angiotensina aumenta hipercalemia e lesão renal sem benefício.",
+   "Pioglitazona não tem proteção renal, e o inibidor de SGLT2 deve ser mantido.",
+   "A losartana já está na dose máxima estudada.",
+   "Espironolactona não tem ensaio de desfecho renal no diabetes e causa mais hipercalemia.",
+   "Albuminúria residual apesar de bloqueio máximo e SGLT2: finerenona reduz progressão renal e eventos cardiovasculares."
+  ]
+ },
+ {
+  "q": "Mulher de 78 anos com doença arterial coronária, angioplastia há 3 anos e angina estável aos grandes esforços, queixa-se de cansaço, constipação e ganho de 4 kg em 6 meses. TSH 42 mUI/L e T4 livre de 0,4 ng/dL (referência de 0,9 a 1,8), com anticorpo antitireoperoxidase positivo. Pesa 60 kg. Frequência cardíaca 58 bpm, pressão arterial 134/80 mmHg. Usa ácido acetilsalicílico, atorvastatina, bisoprolol e omeprazol. Eletrocardiograma sem alterações agudas. Qual é a conduta mais adequada?",
+  "alts": [
+   "Levotiroxina 100 µg/dia, dose plena pelo peso",
+   "Levotiroxina 25 µg/dia com aumento gradual",
+   "Liotironina oral pela resposta mais rápida",
+   "Aguardar nova dosagem em 3 meses",
+   "Levotiroxina endovenosa em internação"
   ],
   "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; KDIGO Diabetes Management in CKD, 2022; SBD Diretriz 2024",
-  "coment": "Em diabetes tipo 2 com doença renal crônica e albuminúria, os inibidores de SGLT2 são indicados independentemente da hemoglobina glicada, por reduzirem progressão da doença renal, internação por insuficiência cardíaca e morte cardiovascular. A metformina permanece como base enquanto a filtração glomerular for maior que 30 mL/min/1,73 m². Agonistas de GLP-1 são a escolha adicional quando se busca perda de peso e proteção cardiovascular.",
+  "base": "American Thyroid Association Guidelines for the Treatment of Hypothyroidism, 2014",
+  "coment": "No hipotireoidismo franco, adultos jovens e saudáveis podem começar pela dose plena estimada (cerca de 1,6 µg/kg/dia). Em idosos e em quem tem doença coronária, a ATA recomenda iniciar com 12,5 a 25 µg/dia e aumentar gradualmente, com TSH a cada 6 semanas, porque a reposição rápida eleva o consumo de oxigênio do miocárdio. O omeprazol reduz a absorção e pode exigir dose maior; o comprimido é tomado em jejum.",
   "porAlt": [
-   "A sulfonilureia causa hipoglicemia e ganho de peso, sem benefício renal ou cardiovascular provado.",
-   "Correta: metformina com inibidor de SGLT2, pelo benefício renal e cardiovascular demonstrado.",
-   "A insulina basal não é primeira escolha aqui e não oferece a proteção renal buscada neste caso.",
-   "Adiar por doze meses em paciente com glicada de 8,4% e doença renal permite progressão evitável.",
-   "A glitazona causa retenção hídrica e ganho de peso, sem o benefício renal atribuído ao SGLT2."
+   "Dose plena em coronariopata idosa pode precipitar angina e infarto.",
+   "Idosa com doença coronária: iniciar com 12,5 a 25 µg/dia e aumentar a cada 4 a 6 semanas conforme o TSH.",
+   "Liotironina aumenta o consumo de oxigênio do miocárdio e não é recomendada.",
+   "Hipotireoidismo franco e sintomático deve ser tratado agora.",
+   "Não há coma mixedematoso; via oral ambulatorial é adequada."
   ]
  },
  {
-  "q": "Mulher de 45 anos com TSH de 12 mUI/L e T4 livre baixo, com fadiga e ganho de peso. Qual é a conduta?",
+  "q": "Homem de 22 anos, sem diagnóstico prévio, chega com 10 dias de poliúria, polidipsia e perda de 7 kg e, há 1 dia, vômitos e sonolência. Pressão arterial 102/64 mmHg, frequência 124 bpm, respiração de Kussmaul. Glicemia 480 mg/dL, pH 7,02, bicarbonato 5 mEq/L, pCO₂ 17 mmHg, ânion gap 30 mEq/L, beta-hidroxibutirato 7,5 mmol/L, potássio 5,2 mEq/L, sódio 130 mEq/L, creatinina 1,6 mg/dL. Recebeu 1 litro de salina. O residente sugere bicarbonato pelo pH. Qual é a conduta?",
   "alts": [
-   "Iniciar metimazol em dose plena, tratamento indicado para o padrão hormonal descrito no enunciado.",
-   "Solicitar apenas ultrassonografia de tireoide e adiar o tratamento até o resultado do exame de imagem.",
-   "Prescrever apenas iodo em dose alta, medida suficiente para normalizar os hormônios tireoidianos.",
-   "Indicar tireoidectomia total, tratamento de escolha para o hipotireoidismo primário diagnosticado.",
-   "Iniciar levotiroxina em jejum e reavaliar sempre a função tireoidiana após seis a oito semanas."
-  ],
-  "gab": 4,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; SBEM, Consenso de hipotireoidismo, 2022",
-  "coment": "TSH elevado com T4 livre baixo define hipotireoidismo primário franco, cujo tratamento é levotiroxina, tipicamente 1,6 microgramas por quilo ao dia em adultos jovens sem cardiopatia, com dose inicial menor no idoso e no coronariopata. A absorção exige jejum, com intervalo de trinta a sessenta minutos antes do café e afastamento de cálcio, ferro e inibidores de bomba de prótons. O TSH é reavaliado em seis a oito semanas, tempo necessário para o novo equilíbrio.",
-  "porAlt": [
-   "O metimazol trata hipertireoidismo e agravaria ainda mais o hipotireoidismo descrito no caso.",
-   "A ultrassonografia avalia a morfologia e não deve atrasar a reposição hormonal já indicada.",
-   "O iodo isolado não trata hipotireoidismo primário e pode agravar a disfunção em alguns casos.",
-   "A tireoidectomia é tratamento de doença nodular ou hipertireoidismo, não do hipotireoidismo.",
-   "Correta: levotiroxina em jejum, com reavaliação do TSH após seis a oito semanas de tratamento."
-  ]
- },
- {
-  "q": "Paciente de 22 anos com poliúria, polidipsia, perda de peso, glicemia de 480 mg/dL, cetonemia positiva e pH de 7,15. Qual é a conduta inicial?",
-  "alts": [
-   "Iniciar insulina endovenosa antes de qualquer reposição volêmica ou avaliação do potássio sérico agora.",
-   "Reposição volêmica com salina isotônica e insulina regular endovenosa, sempre com reposição de potássio.",
-   "Administrar bicarbonato de sódio endovenoso de rotina em todos os casos com esse valor de pH arterial.",
-   "Prescrever apenas insulina subcutânea de ação lenta e reavaliar a glicemia em vinte e quatro horas.",
-   "Iniciar reposição de glicose endovenosa imediatamente, antes de qualquer insulina ser administrada."
-  ],
-  "gab": 1,
-  "tema": "endocrino",
-  "cenario": "uti",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "ADA/EASD consensus report on hyperglycaemic crises in adults, 2024; SBD Diretriz 2024",
-  "coment": "A cetoacidose diabética é tratada com três pilares simultâneos: reposição volêmica vigorosa com salina isotônica, insulina regular endovenosa em infusão contínua e reposição de potássio. O potássio total está depletado mesmo quando o sérico está normal ou alto, e a insulina o desloca para dentro da célula: por isso a insulina só é iniciada com potássio acima de 3,3 mEq/L. Bicarbonato não é rotina, ficando reservado a pH abaixo de 6,9 em alguns protocolos.",
-  "porAlt": [
-   "Iniciar insulina sem volume e sem checar potássio pode precipitar hipocalemia grave e arritmia.",
-   "Correta: volume com salina isotônica, insulina endovenosa e atenção contínua à reposição de potássio.",
-   "O bicarbonato não é rotina e pode agravar a acidose intracelular e a hipocalemia do paciente.",
-   "A insulina subcutânea de ação lenta isolada não controla a cetoacidose instalada nesse paciente.",
-   "A glicose só entra quando a glicemia cai para cerca de 200 mg/dL, mantendo a infusão de insulina."
-  ]
- },
- {
-  "q": "Mulher de 30 anos com perda de peso, tremor, taquicardia, exoftalmia e TSH suprimido com T4 livre elevado. Qual é o diagnóstico e a conduta inicial?",
-  "alts": [
-   "Tireoidite de Hashimoto, tratada com reposição de levotiroxina em dose plena desde o diagnóstico agora.",
-   "Hipotireoidismo central, condição que cursa com exoftalmia e supressão do TSH com T4 livre elevado.",
-   "Adenoma hipofisário produtor de TSH, definido por TSH suprimido com hormônios periféricos elevados.",
-   "Doença de Graves, tratada sempre com antitireoidiano e betabloqueador para controle sintomático inicial.",
-   "Carcinoma medular de tireoide, já que cursa com exoftalmia, TSH suprimido e T4 livre francamente elevado."
-  ],
-  "gab": 3,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016 com revisão 2023; SBEM, 2022",
-  "coment": "Hipertireoidismo com exoftalmia caracteriza doença de Graves, autoimune, mediada por anticorpos estimuladores do receptor de TSH. O tratamento inicial combina antitireoidiano (metimazol, exceto no primeiro trimestre de gestação, quando se usa propiltiouracila) e betabloqueador para controle de sintomas adrenérgicos. As alternativas definitivas são iodo radioativo, evitado na orbitopatia moderada a grave por poder agravá-la, e tireoidectomia.",
-  "porAlt": [
-   "A tireoidite de Hashimoto cursa com hipotireoidismo, o oposto do padrão hormonal descrito aqui.",
-   "O hipotireoidismo central cursa com T4 livre baixo, e não com o T4 elevado do enunciado.",
-   "O adenoma produtor de TSH cursa com TSH normal ou elevado, e não suprimido como no caso.",
-   "Correta: doença de Graves, tratada com antitireoidiano e betabloqueador para controle dos sintomas.",
-   "O carcinoma medular deriva das células C e não altera esse padrão hormonal nem causa exoftalmia."
-  ]
- },
- {
-  "q": "Homem de 50 anos com nódulo tireoidiano de 2 cm, TSH normal, sólido, hipoecogênico, com microcalcificações. Qual é a conduta?",
-  "alts": [
-   "Repetir a ultrassonografia em cinco anos, pois o nódulo descrito não apresenta qualquer risco relevante.",
-   "Iniciar levotiroxina supressiva, conduta indicada para reduzir o nódulo antes de qualquer punção agora.",
-   "Indicar tireoidectomia total imediata sem qualquer avaliação citológica prévia da lesão nodular agora.",
-   "Solicitar apenas cintilografia de tireoide, exame que estabelece o diagnóstico de malignidade nodular.",
-   "Punção aspirativa por agulha fina guiada por ultrassom, sempre pelas características de risco descritas."
-  ],
-  "gab": 4,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "American Thyroid Association Management Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, revisão 2023; ACR TI-RADS, 2017",
-  "coment": "Nódulo sólido, hipoecogênico e com microcalcificações é de alta suspeita nos sistemas de classificação por ultrassom, e a partir de um centímetro tem indicação de punção aspirativa por agulha fina guiada por ultrassom, com o resultado classificado pelo sistema Bethesda. O TSH normal afasta nódulo hiperfuncionante, o que torna a cintilografia dispensável, pois esta só é útil quando o TSH está suprimido. A terapia supressiva com levotiroxina foi abandonada.",
-  "porAlt": [
-   "As características descritas são de alta suspeita e não permitem seguimento espaçado sem punção.",
-   "A supressão com levotiroxina foi abandonada por ineficácia e risco de tireotoxicose iatrogênica.",
-   "A cirurgia sem citologia expõe o paciente a procedimento potencialmente desnecessário e mutilador.",
-   "A cintilografia só é útil com TSH suprimido e não diferencia lesão benigna de maligna no nódulo.",
-   "Correta: punção aspirativa guiada por ultrassom, indicada pelas características de alta suspeita."
-  ]
- },
- {
-  "q": "Mulher de 38 anos com hipertensão de difícil controle, hipocalemia espontânea e alcalose metabólica. Qual é a investigação inicial?",
-  "alts": [
-   "Dosagem isolada de cortisol salivar noturno, exame indicado para o rastreio do hiperaldosteronismo primário.",
-   "Cintilografia de paratireoides, exame que investiga a causa da hipocalemia e da hipertensão descrita.",
-   "Relação aldosterona-renina plasmática, sempre com atenção aos fármacos que interferem no resultado agora.",
-   "Dosagem isolada de hormônio tireoestimulante, exame que estabelece o diagnóstico do quadro descrito.",
-   "Apenas ultrassonografia de rins e vias urinárias, exame que confirma o hiperaldosteronismo primário."
+   "Bicarbonato de sódio 100 mEq em 2 horas",
+   "Bicarbonato até pH de 7,2 antes da insulina",
+   "Volume, insulina endovenosa e potássio, sem bicarbonato",
+   "Intubação para corrigir a acidose",
+   "Insulina subcutânea e soro de manutenção"
   ],
   "gab": 2,
   "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline (Primary Aldosteronism, 2016 com revisão 2022; Diretriz Brasileira de Hipertensão) SBC, 2025",
-  "coment": "Hipertensão resistente com hipocalemia espontânea e alcalose metabólica sugere hiperaldosteronismo primário, hoje reconhecido como a causa secundária mais frequente de hipertensão. O rastreio é a relação entre aldosterona e atividade de renina plasmática, colhida pela manhã com o paciente sentado, corrigindo hipocalemia antes e suspendendo espironolactona por quatro a seis semanas. Após confirmação, tomografia de adrenais e cateterismo de veias adrenais definem lateralização.",
-  "porAlt": [
-   "O cortisol salivar noturno rastreia síndrome de Cushing, hipótese distinta da sugerida neste caso.",
-   "A cintilografia de paratireoides investiga hiperparatireoidismo, que não explica o quadro descrito.",
-   "Correta: relação aldosterona-renina, com atenção aos fármacos e à correção prévia da hipocalemia.",
-   "O hormônio tireoestimulante avalia a tireoide e não investiga a causa suspeitada neste paciente.",
-   "A ultrassonografia renal não avalia a produção de aldosterona nem confirma o diagnóstico suspeitado."
-  ]
- },
- {
-  "q": "Paciente de 60 anos com fratura de vértebra após queda da própria altura e densitometria com T-escore de -2,8. Qual é a conduta?",
-  "alts": [
-   "Prescrever apenas cálcio e vitamina D isolados, medidas suficientes para prevenir novas fraturas ósseas.",
-   "Indicar apenas fisioterapia motora, sem qualquer tratamento medicamentoso específico para o osso.",
-   "Iniciar corticoide sistêmico em dose baixa, medida que aumenta a densidade mineral óssea do paciente.",
-   "Repetir a densitometria em cinco anos antes de considerar qualquer tratamento farmacológico específico.",
-   "Iniciar bisfosfonato com cálcio e vitamina D, sempre após avaliar causas secundárias de perda óssea."
-  ],
-  "gab": 4,
-  "tema": "endocrino",
-  "cenario": "amb",
+  "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Endocrine Society guideline on pharmacological management of osteoporosis, revisão 2023; SBEM/ABRASSO, 2022",
-  "coment": "Fratura por fragilidade define osteoporose estabelecida e indica tratamento independentemente do valor da densitometria. Os bisfosfonatos são a primeira linha, com alendronato ou risedronato orais e zoledronato endovenoso anual, sempre com cálcio e vitamina D adequados. Antes de iniciar, investigam-se causas secundárias: hiperparatireoidismo, deficiência de vitamina D, mieloma, hipertireoidismo e uso de corticoide. Fraturas vertebrais múltiplas indicam anabólico.",
+  "base": "Hyperglycemic crises in adults with diabetes: a consensus report (ADA, EASD, JBDS, AACE, DTS), Diabetes Care, 2024",
+  "coment": "Bicarbonato na cetoacidose não acelerou a resolução nem melhorou desfechos em estudos com pH entre 6,9 e 7,1, e pode causar hipocalemia, sobrecarga de sódio e piora da acidose no liquor. O consenso de 2024 reserva bicarbonato para pH abaixo de 7,0. A pCO₂ de 17 mmHg está dentro da compensação esperada pela fórmula de Winter (1,5 × 5 + 8 ± 2). Com potássio de 5,2 mEq/L, a insulina pode começar, e o potássio entra no soro quando cair abaixo de 5,0.",
   "porAlt": [
-   "Cálcio e vitamina D isolados são insuficientes para reduzir o risco de nova fratura por fragilidade.",
-   "A fisioterapia é complementar e não substitui o tratamento farmacológico com evidência de eficácia.",
-   "O corticoide reduz a densidade mineral óssea e é causa importante de osteoporose secundária.",
-   "Adiar o tratamento por cinco anos após fratura por fragilidade expõe a novas fraturas evitáveis.",
-   "Correta: bisfosfonato com cálcio e vitamina D, após investigação de causas secundárias de perda óssea."
+   "Com pH de 7,0 ou mais, bicarbonato não melhora desfecho e pode agravar hipocalemia e acidose liquórica.",
+   "Adiar a insulina para dar bicarbonato atrasa o tratamento da causa.",
+   "pH acima de 7,0: volume, insulina endovenosa e potássio quando abaixo de 5,0 mEq/L.",
+   "Há compensação respiratória adequada; intubar pode piorar a acidose.",
+   "Cetoacidose grave com sonolência exige insulina endovenosa."
   ]
  },
  {
-  "q": "Homem de 42 anos com fraqueza, hiperpigmentação cutânea, hipotensão, hiponatremia e hipercalemia. Qual é a suspeita e a conduta?",
+  "q": "Mulher de 30 anos com doença de Graves iniciou metimazol 30 mg/dia há 7 semanas. Procura o pronto-socorro com febre de 39,2 °C, odinofagia intensa e úlceras orais há 2 dias. Pressão arterial 108/66 mmHg, frequência 116 bpm. Hemograma: leucócitos 1.100/mm³, neutrófilos 180/mm³, hemoglobina 12,4 g/dL, plaquetas 210.000/mm³. TSH suprimido, T4 livre de 2,1 ng/dL (referência até 1,8 ng/dL). Não usa outros medicamentos. Qual é a conduta?",
   "alts": [
-   "Síndrome de Cushing, condição que cursa com hipotensão, hiponatremia e hiperpigmentação cutânea.",
-   "Insuficiência adrenal primária, tratada sempre com hidrocortisona e reposição volêmica com salina.",
-   "Hiperaldosteronismo primário, que cursa com hipercalemia, hiponatremia e hipotensão arterial persistente.",
-   "Diabetes insipidus central, quadro caracterizado por hiperpigmentação, hipotensão e hipercalemia.",
-   "Hipotireoidismo primário grave, definido por hiperpigmentação, hipercalemia e hipotensão arterial."
+   "Reduzir o metimazol para 10 mg/dia e reavaliar",
+   "Trocar por propiltiouracil e antibiótico oral",
+   "Manter o metimazol e iniciar filgrastim",
+   "Suspender o metimazol, internar e antibiótico endovenoso",
+   "Iodo radioativo imediato e manter o metimazol"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline, Diagnosis and Treatment of Primary Adrenal Insufficiency, revisão 2023",
-  "coment": "A insuficiência adrenal primária cursa com deficiência de cortisol e aldosterona: fraqueza, hipotensão, hiponatremia, hipercalemia, e hiperpigmentação decorrente do excesso de ACTH, que estimula receptores de melanocortina na pele. Na crise adrenal o tratamento é imediato, com hidrocortisona endovenosa e reposição volêmica com salina isotônica e glicose, sem esperar confirmação laboratorial. O diagnóstico se confirma depois com cortisol basal e teste de estímulo.",
+  "base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis, 2016",
+  "coment": "Agranulocitose ocorre em cerca de 0,2 a 0,5% dos usuários de tionamidas, geralmente nos primeiros 90 dias e com doses maiores. Febre com odinofagia exige hemograma imediato; neutrófilos abaixo de 500/mm³ indicam suspensão definitiva e tratamento como neutropenia febril, com antibiótico de amplo espectro endovenoso. Há reação cruzada com o propiltiouracil, que também fica contraindicado. O hipertireoidismo passa a ser controlado com betabloqueador e, depois, iodo radioativo ou tireoidectomia.",
   "porAlt": [
-   "A síndrome de Cushing cursa com hipertensão, hipocalemia e excesso de cortisol, o padrão inverso.",
-   "Correta: insuficiência adrenal primária, tratada com hidrocortisona e reposição volêmica imediata.",
-   "O hiperaldosteronismo cursa com hipertensão e hipocalemia, exatamente o oposto do descrito aqui.",
-   "O diabetes insipidus cursa com poliúria e hipernatremia, sem a hipercalemia descrita no caso.",
-   "O hipotireoidismo pode causar hiponatremia, mas não produz hiperpigmentação nem hipercalemia."
+   "Agranulocitose exige suspensão definitiva, não redução de dose.",
+   "Há reação cruzada entre as tionamidas; propiltiouracil é contraindicado.",
+   "Manter o fármaco causador prolonga a agranulocitose.",
+   "Agranulocitose por metimazol com febre: suspender em definitivo, internar e tratar como neutropenia febril.",
+   "Iodo radioativo não trata a urgência infecciosa, e o metimazol precisa ser suspenso."
   ]
  },
  {
-  "q": "Paciente com obesidade grau III e diabetes tipo 2 mal controlado apesar de tratamento otimizado. Qual é a conduta a considerar?",
+  "q": "Homem de 50 anos fez ultrassonografia de tireoide por palpar um nódulo. TSH 2,1 mUI/L. Nódulo de 1,8 cm no lobo esquerdo, sólido, isoecogênico, mais largo que alto, com margens lisas e sem focos ecogênicos (ACR TI-RADS 3, 3 pontos). Não há outros nódulos nem linfonodos suspeitos. Não tem história de irradiação cervical nem parentes com câncer de tireoide ou neoplasia endócrina múltipla. Está assintomático, sem disfagia ou rouquidão. Qual é a conduta?",
   "alts": [
-   "Prescrever apenas dieta hipocalórica isolada por vinte e quatro meses antes de qualquer outra medida.",
-   "Aumentar a dose de insulina indefinidamente como única estratégia para o controle glicêmico do paciente.",
-   "Avaliar indicação de cirurgia metabólica, considerada sempre em equipe multiprofissional especializada.",
-   "Indicar apenas atividade física supervisionada, medida isolada suficiente para reverter o quadro descrito.",
-   "Prescrever diurético em dose alta para reduzir o peso corporal e melhorar o controle metabólico agora."
+   "Nova ultrassonografia, sem punção agora",
+   "Punção aspirativa por agulha fina",
+   "Cintilografia com iodo radioativo",
+   "Lobectomia diagnóstica",
+   "Levotiroxina para reduzir o nódulo"
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACR Thyroid Imaging, Reporting and Data System (TI-RADS), 2017; American Thyroid Association Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, 2015",
+  "coment": "O ACR TI-RADS combina pontuação e tamanho. TR3 (levemente suspeito): punção a partir de 2,5 cm e acompanhamento a partir de 1,5 cm, com nova ultrassonografia em 1, 3 e 5 anos. TR4: punção a partir de 1,5 cm. TR5: a partir de 1 cm. O sistema reduz punções desnecessárias de nódulos de baixo risco, que são a maioria. Levotiroxina para suprimir nódulo não é recomendada.",
+  "porAlt": [
+   "TI-RADS 3 entre 1,5 e 2,4 cm: acompanhamento ultrassonográfico; punção só a partir de 2,5 cm.",
+   "Para TI-RADS 3, a punção é indicada a partir de 2,5 cm.",
+   "Com TSH normal, cintilografia não é indicada.",
+   "Cirurgia sem suspeita citológica ou compressão não é indicada.",
+   "Supressão com levotiroxina não é recomendada e expõe a efeitos adversos."
+  ]
+ },
+ {
+  "q": "Mulher de 44 anos tem hipertensão resistente e hipocalemia espontânea. A relação aldosterona/renina foi de 86 ng/dL por ng/mL/h, com aldosterona de 28 ng/dL e renina suprimida, e o teste de infusão salina confirmou hiperaldosteronismo primário (aldosterona de 14 ng/dL após 2 litros). A tomografia de adrenais com cortes finos não mostra nódulos. Ela deseja tratamento curativo, se possível, e aceita cirurgia. Não tem contraindicação a procedimentos. Qual é o próximo passo?",
+  "alts": [
+   "Espironolactona e encerrar a investigação",
+   "Cateterismo das veias adrenais",
+   "Adrenalectomia bilateral",
+   "Ressonância magnética de hipófise",
+   "Cintilografia com metaiodobenzilguanidina"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline: The Management of Primary Aldosteronism, 2016",
+  "coment": "Confirmado o hiperaldosteronismo primário, a tomografia afasta carcinoma, mas não distingue com segurança adenoma produtor de hiperplasia: microadenomas passam despercebidos, e nódulos não funcionantes são comuns. Para quem deseja e pode ser operado, a Endocrine Society recomenda cateterismo das veias adrenais antes de decidir adrenalectomia unilateral. Doença bilateral é tratada com antagonista mineralocorticoide.",
+  "porAlt": [
+   "Tomografia normal não afasta microadenoma; em quem deseja cirurgia, a lateralização deve ser pesquisada.",
+   "Hiperaldosteronismo confirmado em candidata a cirurgia: cateterismo das veias adrenais define se a produção é unilateral.",
+   "Adrenalectomia bilateral causa insuficiência adrenal definitiva.",
+   "Não há suspeita de doença hipofisária.",
+   "Metaiodobenzilguanidina serve ao feocromocitoma."
+  ]
+ },
+ {
+  "q": "Mulher de 71 anos sofreu fratura vertebral de T12 por esforço mínimo há 2 meses e outra, de L2, há 10 meses. Densitometria: escore T de −3,4 na coluna lombar e −2,9 no colo femoral. Não usa corticoide. Creatinina 0,8 mg/dL, cálcio 9,4 mg/dL, 25-hidroxivitamina D de 36 ng/mL, paratormônio e eletroforese de proteínas normais. Não teve infarto ou AVC, litíase, câncer ósseo ou radioterapia. Não usou medicação para osteoporose antes. Qual é o tratamento inicial mais adequado?",
+  "alts": [
+   "Alendronato oral 70 mg por semana",
+   "Raloxifeno 60 mg/dia por 5 anos",
+   "Anabólico seguido de antirreabsortivo",
+   "Cálcio e vitamina D sem outro fármaco",
+   "Terapia hormonal com estrogênio"
   ],
   "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ADA Standards of Care in Diabetes, 2025; IFSO/ASMBS indications for metabolic and bariatric surgery, 2022; SBD 2024",
-  "coment": "A cirurgia metabólica está indicada em obesidade com índice de massa corporal a partir de 35 kg/m², e pode ser considerada a partir de 30 kg/m² no diabetes tipo 2 de difícil controle, com taxas expressivas de remissão e redução de mortalidade. A avaliação é multiprofissional, com acompanhamento nutricional e psicológico e suplementação vitamínica permanente. Antes e depois, agonistas de GLP-1 e inibidores de SGLT2 seguem tendo papel no controle metabólico.",
+  "base": "AACE/ACE Clinical Practice Guidelines for the Diagnosis and Treatment of Postmenopausal Osteoporosis, 2020; Endocrine Society Guideline Update, 2020",
+  "coment": "Fratura nos últimos 12 meses, múltiplas fraturas vertebrais e escore T abaixo de −3,0 classificam risco muito alto de fratura. A AACE (2020) e a Endocrine Society (2020) recomendam iniciar com anabólico (teriparatida, abaloparatida ou romosozumabe), que reduziu mais fraturas que o risedronato e o alendronato nos ensaios VERO e ARCH, seguido de antirreabsortivo para manter o ganho. Romosozumabe deve ser evitado em quem teve infarto ou AVC no último ano.",
   "porAlt": [
-   "Dieta isolada por dois anos raramente sustenta perda suficiente nesse grau de obesidade.",
-   "Aumentar insulina indefinidamente promove ganho de peso e piora o ciclo metabólico do paciente.",
-   "Correta: avaliar indicação de cirurgia metabólica em equipe multiprofissional especializada.",
-   "A atividade física é essencial, mas isolada não produz a perda de peso necessária nesse grau.",
-   "Diuréticos reduzem água corporal e não gordura, sem qualquer benefício metabólico sustentado."
+   "Bisfosfonato é aceitável em alto risco, mas no risco muito alto o anabólico primeiro reduz mais fraturas.",
+   "Raloxifeno protege só vértebras e aumenta tromboembolismo.",
+   "Risco muito alto (fraturas recentes e múltiplas, escore T abaixo de −3): anabólico por tempo limitado e depois antirreabsortivo.",
+   "Cálcio e vitamina D são adjuvantes, não tratamento.",
+   "Estrogênio não é indicado para tratar osteoporose aos 71 anos."
   ]
  },
  {
-  "q": "Mulher de 28 anos com amenorreia, galactorreia e prolactina de 120 ng/mL, sem uso de medicamentos. Qual é a conduta?",
+  "q": "Homem de 42 anos chega com fraqueza, vômitos e dor abdominal há 3 dias. Há 6 meses perde peso e notou escurecimento da pele e das gengivas. Pressão arterial 78/44 mmHg, frequência 124 bpm, temperatura 37,8 °C. Sódio 121 mEq/L, potássio 6,1 mEq/L, glicemia 58 mg/dL, creatinina 1,9 mg/dL, eosinófilos 900/mm³. Eletrocardiograma com ondas T apiculadas, sem alargamento do QRS. Foram colhidos cortisol e ACTH. Qual é a conduta imediata?",
   "alts": [
-   "Iniciar contraceptivo combinado isolado, já tratamento de escolha para a hiperprolactinemia diagnosticada.",
-   "Ressonância de sela túrcica e tratamento com agonista dopaminérgico, sempre conforme o tamanho da lesão.",
-   "Indicar cirurgia transesfenoidal imediata a todos os pacientes com esse nível de prolactina sérica.",
-   "Prescrever levotiroxina em dose plena, já tratamento indicado para a galactorreia com amenorreia descrita.",
-   "Apenas observar sem qualquer investigação ou tratamento, pois o quadro descrito é sempre autolimitado."
+   "Aguardar o cortisol para iniciar corticoide",
+   "Dexametasona 4 mg e soro glicosado a 5%",
+   "Teste com cosintropina antes de tratar",
+   "Fludrocortisona e salina hipertônica a 3%",
+   "Hidrocortisona 100 mg endovenosa e salina isotônica"
   ],
-  "gab": 1,
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Endocrine Society Clinical Practice Guideline: Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016",
+  "coment": "Hiperpigmentação, hipotensão, hiponatremia, hipercalemia, hipoglicemia e eosinofilia sugerem insuficiência adrenal primária em crise. A Endocrine Society recomenda colher cortisol e ACTH e tratar imediatamente com hidrocortisona 100 mg endovenosa, seguida de 200 mg/dia, e salina isotônica (1 litro na primeira hora), com glicose para a hipoglicemia. Nessa dose, a hidrocortisona tem efeito mineralocorticoide suficiente, e a hipercalemia costuma corrigir com hidrocortisona e volume.",
+  "porAlt": [
+   "Esperar o resultado numa crise adrenal com choque aumenta a mortalidade.",
+   "Dexametasona não tem efeito mineralocorticoide, e soro glicosado sem sódio agrava hiponatremia e hipovolemia.",
+   "O teste pode ser feito depois; a crise é tratada primeiro.",
+   "Fludrocortisona é desnecessária com hidrocortisona em dose alta, e salina hipertônica não é indicada.",
+   "Crise adrenal: hidrocortisona 100 mg em bolus e salina isotônica com glicose, sem esperar exames."
+  ]
+ },
+ {
+  "q": "Homem de 46 anos com diabetes tipo 2 há 8 anos e índice de massa corporal de 33 kg/m² usa metformina 2 g/dia, empagliflozina 25 mg/dia, semaglutida 1 mg/semana e insulina glargina 40 U/dia, com boa adesão confirmada por nutricionista e endocrinologista. Hemoglobina glicada de 9,2% e peptídeo C de 2,4 ng/mL. Não tem transtorno alimentar, uso abusivo de álcool ou doença psiquiátrica descompensada. Deseja discutir outras opções de tratamento. Qual é a conduta a considerar?",
+  "alts": [
+   "Encaminhar para avaliação de cirurgia metabólica",
+   "Cirurgia só com índice de massa corporal de 40",
+   "Balão intragástrico como tratamento definitivo",
+   "Trocar semaglutida por sitagliptina",
+   "Pesquisar anti-GAD e suspender os orais"
+  ],
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline: Hyperprolactinemia, revisão 2023; Pituitary Society consensus, 2023",
-  "coment": "Hiperprolactinemia com amenorreia e galactorreia, após excluir gestação, fármacos e hipotireoidismo, exige ressonância de sela túrcica para caracterizar micro ou macroadenoma. O tratamento de primeira linha é agonista dopaminérgico, preferencialmente cabergolina, que normaliza a prolactina e reduz o tumor na maioria dos casos, restaurando a fertilidade. A cirurgia transesfenoidal se reserva a intolerância, resistência ao fármaco ou compressão de vias ópticas.",
+  "nivel": "r3",
+  "base": "ADA Standards of Care in Diabetes, seção 8, 2025; ASMBS/IFSO Guidelines on Indications for Metabolic and Bariatric Surgery, 2022",
+  "coment": "A ADA e a declaração da ASMBS/IFSO de 2022 recomendam considerar cirurgia metabólica em adultos com diabetes tipo 2 e índice de massa corporal de 30 a 34,9 kg/m² (27,5 a 32,4 em asiáticos) sem controle glicêmico apesar de tratamento clínico otimizado. Peptídeo C preservado indica reserva de célula beta e maior chance de remissão. A avaliação é feita por equipe multiprofissional, com triagem psiquiátrica e nutricional.",
   "porAlt": [
-   "O contraceptivo pode regularizar o ciclo, mas não trata o adenoma nem reduz a prolactina elevada.",
-   "Correta: ressonância de sela túrcica e agonista dopaminérgico conforme o tamanho da lesão encontrada.",
-   "A cirurgia se reserva a resistência, intolerância ao fármaco ou compressão das vias ópticas.",
-   "O hipotireoidismo deve ser excluído, mas não há indício dele e a levotiroxina não trata o adenoma.",
-   "Deixar sem tratamento mantém o hipogonadismo, com perda óssea e infertilidade associadas."
+   "Diabetes não controlado apesar de tratamento otimizado, com índice de massa corporal de 30 a 34,9: cirurgia metabólica pode ser considerada.",
+   "O limiar de 40 kg/m² é antigo; no diabetes mal controlado, o limiar é 30 kg/m².",
+   "Balão tem efeito transitório e não é tratamento de diabetes.",
+   "Trocar por inibidor de DPP-4 reduz a potência do tratamento.",
+   "Peptídeo C preservado e 8 anos de evolução não sugerem diabetes autoimune."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos tem cefaleia há 6 meses, perda de libido e redução do campo visual lateral. Ressonância: macroadenoma hipofisário de 4,2 cm com invasão do seio cavernoso e compressão do quiasma. Prolactina sérica de 38 ng/mL (referência até 15), testosterona total de 140 ng/dL, cortisol matinal de 9 µg/dL, T4 livre no limite inferior. Não usa medicamentos. O neurocirurgião pretende operar por considerar o tumor não funcionante. Qual é a conduta antes de decidir?",
+  "alts": [
+   "Operar, pois a prolactina baixa exclui prolactinoma",
+   "Dosar macroprolactina",
+   "Repetir a prolactina com diluição da amostra",
+   "Tratar como elevação por compressão da haste",
+   "Teste de estímulo com TRH"
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline: Diagnosis and Treatment of Hyperprolactinemia, 2011; Pituitary Society International Consensus Statement on prolactinomas, 2023",
+  "coment": "Em imunoensaios de dois sítios, concentrações muito altas de prolactina saturam os anticorpos e produzem resultado falsamente baixo (efeito gancho). Todo macroadenoma volumoso com prolactina apenas discretamente elevada deve ter a dosagem repetida com diluição de 1:100. Se a prolactina diluída vier na casa dos milhares, trata-se de macroprolactinoma, e a cabergolina pode evitar a cirurgia. Se continuar baixa, a elevação é por compressão da haste, típica de adenoma não funcionante, em geral abaixo de 100 ng/mL.",
+  "porAlt": [
+   "Prolactina pouco elevada num tumor gigante pode ser efeito gancho do ensaio.",
+   "Macroprolactina explica hiperprolactinemia sem tumor, não um valor baixo diante de macroadenoma.",
+   "Macroadenoma gigante com prolactina pouco elevada: diluir a amostra afasta o efeito gancho.",
+   "Compressão da haste só pode ser aceita depois de afastar o efeito gancho.",
+   "Teste com TRH não diferencia as causas e está em desuso."
   ]
  },
  {
@@ -15768,243 +15768,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com diabetes tipo 2 em uso de metformina apresenta hemoglobina glicada de 8,0% e doença cardiovascular aterosclerótica estabelecida. Qual é o próximo passo?",
+  "q": "Homem de 64 anos com diabetes tipo 2 há 10 anos tem insuficiência cardíaca com fração de ejeção de 30% e duas internações por descompensação no último ano. Usa metformina 2 g/dia, sacubitril-valsartana, bisoprolol e espironolactona. Hemoglobina glicada de 8,0%, taxa de filtração glomerular de 58 mL/min/1,73 m², potássio de 4,7 mEq/L, índice de massa corporal de 27 kg/m². Não tem infecções genitais de repetição nem cetoacidose prévia. Qual é o acréscimo mais adequado?",
   "alts": [
-   "Acrescentar sulfonilureia em dose plena como próxima escolha nesse paciente com doença aterosclerótica agora.",
-   "Iniciar insulina basal isolada como próximo passo obrigatório antes de qualquer outro antidiabético oral.",
-   "Acrescentar agonista de GLP-1 ou inibidor de SGLT2 com benefício cardiovascular sempre comprovado em ensaios.",
-   "Acrescentar glitazona em dose plena, escolha preferencial pelo benefício cardiovascular demonstrado agora.",
-   "Manter apenas a metformina e reavaliar somente após doze meses de acompanhamento ambulatorial neste caso."
+   "Saxagliptina 5 mg/dia",
+   "Dapagliflozina 10 mg/dia",
+   "Pioglitazona 30 mg/dia",
+   "Glibenclamida 5 mg/dia",
+   "Insulina NPH ao deitar"
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024; ESC Guidelines on diabetes and cardiovascular disease, 2023",
-  "coment": "Em diabetes tipo 2 com doença cardiovascular aterosclerótica estabelecida, a escolha do segundo fármaco é guiada pelo benefício cardiovascular demonstrado, e não apenas pela redução da glicemia: agonistas de GLP-1 como liraglutida, semaglutida e dulaglutida reduzem eventos ateroscleróticos maiores, e inibidores de SGLT2 reduzem sobretudo internação por insuficiência cardíaca e progressão renal. A indicação independe do valor da hemoglobina glicada.",
+  "base": "ADA Standards of Care in Diabetes, seções 9 e 10, 2025; DAPA-HF, NEJM, 2019; EMPEROR-Reduced, NEJM, 2020",
+  "coment": "Em diabético com insuficiência cardíaca, sobretudo de fração reduzida, ADA e sociedades de cardiologia recomendam inibidor de SGLT2 independentemente da glicada: dapagliflozina e empagliflozina reduziram internação por insuficiência cardíaca e morte cardiovascular nos estudos DAPA-HF e EMPEROR-Reduced. É também um dos quatro pilares do tratamento da fração reduzida. Pioglitazona e saxagliptina devem ser evitadas.",
   "porAlt": [
-   "A sulfonilureia reduz glicemia mas não demonstrou benefício cardiovascular e causa hipoglicemia.",
-   "A insulina basal não é o próximo passo obrigatório e não oferece a proteção cardiovascular buscada.",
-   "Correta: agonista de GLP-1 ou inibidor de SGLT2, escolhidos pelo benefício cardiovascular comprovado.",
-   "A glitazona causa retenção hídrica e pode agravar insuficiência cardíaca nesse perfil de paciente.",
-   "Manter apenas metformina com glicada de 8,0 por cento deixa o paciente sem controle adequado."
+   "Saxagliptina aumentou internação por insuficiência cardíaca no SAVOR-TIMI 53.",
+   "Insuficiência cardíaca com fração reduzida: inibidor de SGLT2 reduz internação e morte cardiovascular.",
+   "Pioglitazona causa retenção hídrica e é contraindicada na insuficiência cardíaca sintomática.",
+   "Sulfonilureia não traz benefício cardiovascular e causa hipoglicemia.",
+   "Insulina retém sódio e não reduz eventos cardiovasculares."
   ]
  },
  {
-  "q": "Paciente com TSH de 7,5 mUI/L, T4 livre normal, assintomático, sem anticorpos e com 45 anos. Qual é a conduta?",
+  "q": "Mulher de 32 anos planeja engravidar nos próximos meses e fez exames pré-concepcionais. TSH de 5,8 mUI/L em duas dosagens com intervalo de 6 semanas, T4 livre normal e anticorpo antitireoperoxidase positivo em título alto. Está assintomática, sem bócio. Teve um aborto espontâneo com 8 semanas há 1 ano. Ciclos menstruais regulares. Não usa medicamentos além de ácido fólico. Qual é a conduta?",
   "alts": [
-   "Iniciar levotiroxina imediatamente em dose plena para todos os pacientes com esse valor de TSH agora já.",
-   "Iniciar metimazol em dose plena para reduzir o valor do hormônio tireoestimulante encontrado no exame.",
-   "Indicar tireoidectomia total como conduta diante do valor de TSH descrito no enunciado do caso agora já.",
-   "Repetir os exames em dois a três meses antes de decidir sempre sobre a indicação de reposição hormonal.",
-   "Ignorar completamente o resultado e não repetir qualquer exame de função tireoidiana no seguimento."
+   "Não tratar antes de confirmar a gestação",
+   "Repetir o TSH só no primeiro trimestre",
+   "Selênio oral para reduzir o anticorpo",
+   "Levotiroxina em dose baixa antes de engravidar",
+   "Liotironina associada até o parto"
   ],
   "gab": 3,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; European Thyroid Association guideline on subclinical hypothyroidism, 2013 com revisão 2022",
-  "coment": "O hipotireoidismo subclínico é definido por TSH elevado com T4 livre normal, e o TSH pode normalizar espontaneamente em parte dos casos, o que justifica repetir os exames em dois a três meses antes de tratar. Com TSH abaixo de 10 mUI/L em adulto jovem assintomático e sem anticorpos, a conduta habitual é observar. A reposição é indicada com TSH acima de 10, sintomas relevantes, anticorpos positivos, gestação ou desejo de engravidar.",
+  "base": "American Thyroid Association Guidelines for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum, 2017",
+  "coment": "Anticorpo antitireoperoxidase positivo aumenta o risco de progressão para hipotireoidismo na gestação. A ATA (2017) recomenda tratar a gestante com anticorpo positivo e TSH acima do limite de referência e considera razoável iniciar levotiroxina antes da concepção em mulheres com anticorpo positivo e TSH elevado, sobretudo com perda gestacional prévia. Confirmada a gestação, a dose costuma subir cerca de 25 a 30%, com TSH a cada 4 semanas.",
   "porAlt": [
-   "Tratar todo TSH levemente elevado sem confirmação expõe a sobretratamento e tireotoxicose iatrogênica.",
-   "O metimazol trata hipertireoidismo e agravaria o quadro de hipofunção sugerido pelo exame.",
-   "A tireoidectomia não tem qualquer indicação diante de alteração isolada e leve do TSH sérico.",
-   "Correta: repetir os exames em dois a três meses antes de decidir sobre a reposição hormonal.",
-   "Ignorar sem repetir perde a chance de identificar progressão para hipotireoidismo franco."
+   "Na mulher que planeja gestação, TSH acima do limite com anticorpo positivo justifica tratar antes.",
+   "A demanda de hormônio sobe cedo na gestação; adiar deixa a paciente descoberta nas primeiras semanas.",
+   "Selênio não é recomendado para esse fim.",
+   "TSH elevado com anticorpo positivo em quem planeja gestação: levotiroxina em dose baixa, com alvo de TSH abaixo de 2,5.",
+   "Liotironina não é recomendada na gestação; o feto depende do T4 materno."
   ]
  },
  {
-  "q": "Paciente com obesidade grau II sem diabetes deseja tratamento medicamentoso para perda de peso. Qual é a conduta?",
+  "q": "Mulher de 38 anos com índice de massa corporal de 34 kg/m², pré-diabetes (hemoglobina glicada de 6,2%), esteatose hepática e apneia do sono leve não perdeu peso com 6 meses de dieta acompanhada por nutricionista e atividade física regular. Tem epilepsia focal controlada com lamotrigina. Não tem história de pancreatite, carcinoma medular de tireoide ou neoplasia endócrina múltipla na família. Usa dispositivo intrauterino hormonal. Qual é a opção farmacológica mais adequada?",
   "alts": [
-   "Prescrever anfetamínico sem registro sanitário, alternativa habitual para o tratamento da obesidade.",
-   "Associar mudança de estilo de vida a fármaco aprovado, mantendo sempre acompanhamento clínico regular.",
-   "Prescrever diurético em dose alta como estratégia farmacológica para a redução do peso corporal agora.",
-   "Indicar apenas dieta de altíssima restrição sem qualquer acompanhamento clínico ou nutricional agora.",
-   "Prescrever hormônio tireoidiano em paciente eutireóideo como estratégia para acelerar o metabolismo."
+   "Semaglutida 2,4 mg semanal",
+   "Naltrexona-bupropiona",
+   "Sibutramina 15 mg/dia",
+   "Topiramato em dose alta isolado",
+   "Fluoxetina para perda de peso"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ABESO/SBEM: Diretrizes brasileiras de obesidade, 2022; Endocrine Society guideline on pharmacological management of obesity, revisão 2023",
-  "coment": "O tratamento farmacológico da obesidade é indicado com índice de massa corporal a partir de 30 kg/m², ou a partir de 27 kg/m² com comorbidades, sempre associado a mudança de estilo de vida. As opções aprovadas incluem análogos de GLP-1 como liraglutida e semaglutida, tirzepatida, orlistate e sibutramina em pacientes selecionados sem doença cardiovascular. Diuréticos e hormônio tireoidiano em eutireóideos não são tratamentos e são potencialmente perigosos.",
+  "base": "AACE Consensus Statement: Algorithm for the Management of Adults with Obesity, 2023; Wilding et al., STEP 1, NEJM, 2021",
+  "coment": "Farmacoterapia é indicada com índice de massa corporal de 30 kg/m² ou mais, ou de 27 com comorbidade, depois de mudança de estilo de vida. Agonistas do receptor de GLP-1 (semaglutida 2,4 mg) e o duplo agonista tirzepatida são os mais eficazes e tratam também pré-diabetes e esteatose. Naltrexona-bupropiona é contraindicada em epilepsia e em transtorno alimentar. Na mulher em idade fértil, a semaglutida deve ser suspensa 2 meses antes de tentar engravidar.",
   "porAlt": [
-   "Prescrever substância sem registro sanitário é conduta insegura e eticamente inaceitável.",
-   "Correta: mudança de estilo de vida associada a fármaco aprovado, com acompanhamento clínico regular.",
-   "O diurético reduz água corporal e não gordura, com risco de distúrbio hidroeletrolítico e renal.",
-   "A restrição extrema sem acompanhamento causa perda de massa magra e deficiências nutricionais.",
-   "O hormônio tireoidiano em eutireóideo causa tireotoxicose iatrogênica, com arritmia e perda óssea."
+   "Agonista de GLP-1 em dose de obesidade: perda média de cerca de 15% do peso e benefício no pré-diabetes e na esteatose.",
+   "Bupropiona reduz o limiar convulsivo e é contraindicada em epilepsia.",
+   "Sibutramina tem risco cardiovascular e perda de peso modesta.",
+   "Topiramato isolado não é aprovado para obesidade e é teratogênico.",
+   "Fluoxetina não é tratamento de obesidade."
   ]
  },
  {
-  "q": "Paciente com hipoglicemia recorrente em jejum, com insulina e peptídeo C elevados e ausência de sulfonilureia detectável. Qual é o diagnóstico?",
+  "q": "Mulher de 44 anos tem episódios de confusão, sudorese e visão turva pela manhã em jejum e após exercício, que melhoram ao se alimentar. Ganhou 6 kg em 1 ano. Não tem diabetes nem acesso a hipoglicemiantes. No teste de jejum supervisionado, após 14 horas, glicemia de 42 mg/dL com sintomas, insulina de 9 µU/mL, peptídeo C de 0,5 nmol/L, pró-insulina de 12 pmol/L e beta-hidroxibutirato de 0,8 mmol/L; pesquisa de sulfonilureias e glinidas negativa. Após glucagon, a glicemia subiu 36 mg/dL. Qual é o diagnóstico?",
   "alts": [
-   "Hipoglicemia factícia por insulina exógena, definida por peptídeo C elevado com insulina também elevada.",
-   "Insulinoma, cuja investigação exige sempre localização por imagem após a confirmação bioquímica do quadro.",
-   "Insuficiência adrenal primária, condição caracterizada por insulina e peptídeo C elevados no jejum agora.",
-   "Hipoglicemia reativa pós-prandial, quadro definido por episódios em jejum com peptídeo C elevado agora.",
-   "Deficiência de hormônio de crescimento, condição definida por insulina e peptídeo C elevados no jejum."
+   "Hipoglicemia factícia por insulina exógena",
+   "Hiperinsulinismo endógeno, provável insulinoma",
+   "Insuficiência adrenal",
+   "Hipoglicemia por sulfonilureia",
+   "Hipoglicemia reativa pós-prandial"
   ],
   "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline, Evaluation and Management of Adult Hypoglycemic Disorders, revisão 2022",
-  "coment": "A hipoglicemia hiperinsulinêmica endógena é caracterizada por glicemia baixa com insulina, peptídeo C e pró-insulina elevados e rastreio negativo para hipoglicemiantes orais. O insulinoma é a principal causa em adultos sem diabetes, e a confirmação é feita pelo teste de jejum prolongado de setenta e duas horas, seguido de localização por tomografia, ressonância ou ultrassonografia endoscópica. Insulina exógena cursa com peptídeo C suprimido, pois não estimula a produção endógena.",
+  "base": "Endocrine Society Clinical Practice Guideline: Evaluation and Management of Adult Hypoglycemic Disorders, 2009",
+  "coment": "A tríade de Whipple documentada no teste de jejum, com glicemia abaixo de 55 mg/dL e insulina de 3 µU/mL ou mais, peptídeo C de 0,2 nmol/L ou mais, pró-insulina de 5 pmol/L ou mais, beta-hidroxibutirato de 2,7 mmol/L ou menos e aumento da glicemia de 25 mg/dL ou mais após glucagon, define hiperinsulinismo endógeno. Com pesquisa de secretagogos negativa, a principal causa é insulinoma, localizado a seguir por tomografia, ressonância ou ecoendoscopia.",
   "porAlt": [
-   "A insulina exógena suprime o peptídeo C, que estaria baixo e não elevado como neste caso.",
-   "Correta: insulinoma, com confirmação bioquímica seguida de localização por métodos de imagem.",
-   "A insuficiência adrenal causa hipoglicemia com insulina baixa, e não com hiperinsulinismo endógeno.",
-   "A hipoglicemia reativa ocorre no período pós-prandial, e não durante o jejum prolongado.",
-   "A deficiência de hormônio de crescimento causa hipoglicemia sem o hiperinsulinismo descrito."
+   "Insulina exógena suprime o peptídeo C, que aqui está elevado.",
+   "Hipoglicemia com insulina, peptídeo C e pró-insulina não suprimidos, cetona baixa e resposta ao glucagon: hiperinsulinismo endógeno.",
+   "Insuficiência adrenal não eleva insulina nem peptídeo C.",
+   "A pesquisa de sulfonilureias foi negativa.",
+   "Os episódios ocorrem em jejum, não após refeições."
   ]
  },
  {
-  "q": "Paciente com hipercalcemia leve assintomática, PTH elevado e fósforo baixo. Qual é o diagnóstico e a conduta?",
+  "q": "Mulher de 62 anos, assintomática, tem hiperparatireoidismo primário diagnosticado em exames de rotina: cálcio total de 10,9 mg/dL (referência até 10,2), paratormônio de 112 pg/mL, fósforo 2,5 mg/dL, 25-hidroxivitamina D de 34 ng/mL, taxa de filtração glomerular de 78 mL/min/1,73 m² e calciúria de 24 horas de 210 mg. Ultrassonografia renal sem cálculos. Densitometria: escore T de −1,6 na coluna, −1,9 no quadril e −2,7 no terço distal do rádio. Sem fraturas. Qual é a conduta?",
   "alts": [
-   "Hipercalcemia da malignidade, definida por PTH elevado com fósforo sérico persistentemente baixo.",
-   "Intoxicação por vitamina D, condição caracterizada por PTH elevado com hipofosfatemia associada agora.",
-   "Hiperparatireoidismo primário, avaliando sempre critérios de indicação cirúrgica e seguimento clínico.",
-   "Hipoparatireoidismo primário, quadro definido por hipercalcemia com paratormônio francamente elevado.",
-   "Doença renal crônica avançada, caracterizada por hipercalcemia com fósforo sérico persistentemente baixo."
+   "Observação com cálcio anual, sem cirurgia",
+   "Cinacalcete como tratamento definitivo",
+   "Restringir cálcio da dieta e suspender vitamina D",
+   "Paratireoidectomia pela osteoporose no rádio",
+   "Bisfosfonato e observação do paratormônio"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Fifth International Workshop on the Management of Primary Hyperparathyroidism, Journal of Bone and Mineral Research, 2022",
+  "coment": "No hiperparatireoidismo primário assintomático, o Quinto Workshop Internacional (2022) indica cirurgia com qualquer um destes: cálcio mais de 1 mg/dL acima do limite, escore T de −2,5 ou menos em coluna, quadril ou terço distal do rádio, fratura vertebral, filtração abaixo de 60 mL/min/1,73 m², hipercalciúria importante com risco de litíase, nefrolitíase ou nefrocalcinose, ou idade abaixo de 50 anos. O terço distal do rádio, osso cortical, é o sítio mais afetado pelo paratormônio.",
+  "porAlt": [
+   "Há critério cirúrgico: escore T de −2,5 ou menos em qualquer sítio, incluindo o rádio.",
+   "Cinacalcete controla o cálcio, mas não melhora a massa óssea e fica para quem não pode ser operado.",
+   "Restringir cálcio estimula ainda mais o paratormônio e piora o osso.",
+   "Escore T de −2,5 ou menos em qualquer sítio é critério para paratireoidectomia.",
+   "Bisfosfonato é opção só para quem não pode ou não quer operar."
+  ]
+ },
+ {
+  "q": "Homem de 45 anos tem diminuição da libido, disfunção erétil e cansaço há 1 ano. Testosterona total de 180 e 190 ng/dL em duas dosagens às 8 horas, LH de 1,8 UI/L e FSH de 2,0 UI/L, prolactina de 9 ng/mL. Glicemia de jejum de 132 mg/dL, ALT 78 U/L, ferritina de 1.280 ng/mL e saturação de transferrina de 72%. Não usa opioides, corticoide ou anabolizantes e consome álcool raramente. Índice de massa corporal de 24 kg/m². Qual é a hipótese e o próximo passo?",
+  "alts": [
+   "Hipogonadismo primário; cariótipo",
+   "Hipogonadismo pela obesidade; perder peso",
+   "Prolactinoma; ressonância e cabergolina",
+   "Hipogonadismo tardio; repor testosterona",
+   "Hemocromatose; pesquisa da mutação HFE"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline: Testosterone Therapy in Men with Hypogonadism, 2018; ACG Clinical Guideline: Hereditary Hemochromatosis, 2019",
+  "coment": "Testosterona baixa com LH e FSH baixos ou inapropriadamente normais define hipogonadismo secundário. A Endocrine Society recomenda investigar prolactina, sobrecarga de ferro e, conforme o caso, imagem hipofisária. Saturação de transferrina acima de 45% com ferritina alta, hiperglicemia e transaminases elevadas sugerem hemocromatose hereditária, em que o ferro se deposita nos gonadotrofos. O próximo passo é a pesquisa da mutação C282Y do gene HFE e, se confirmada, flebotomias.",
+  "porAlt": [
+   "LH e FSH baixos ou normais com testosterona baixa indicam causa secundária, não primária.",
+   "O índice de massa corporal é normal.",
+   "Prolactina normal afasta prolactinoma.",
+   "Repor testosterona sem investigar deixa passar hemocromatose com lesão hepática e pancreática.",
+   "Hipogonadismo secundário com diabetes, transaminases altas e sobrecarga de ferro: hemocromatose; pesquisar HFE."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos usou prednisona por 8 meses para polimialgia reumática, com remissão completa, e hoje toma 5 mg/dia. Proteína C reativa e velocidade de hemossedimentação normais, sem sintomas de recidiva. A reumatologista quer suspender o corticoide. A paciente pesa 64 kg, tem glicemia e pressão controladas e não usa corticoide tópico, inalatório ou injetável. Pergunta se pode parar o remédio hoje, já que a dose é baixa. Qual é a conduta mais adequada para a retirada?",
+  "alts": [
+   "Suspender a prednisona hoje, pois 5 mg é dose baixa",
+   "Manter 5 mg/dia indefinidamente",
+   "Reduzir devagar e dosar cortisol matinal antes de suspender",
+   "Trocar por dexametasona 0,5 mg por 1 mês",
+   "Teste com cosintropina ainda em uso de 5 mg/dia"
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and therapy of glucocorticoid-induced adrenal insufficiency, 2024",
+  "coment": "A diretriz conjunta da ESE e da Endocrine Society (2024) orienta reduzir até a dose equivalente à fisiológica (cerca de 4 a 6 mg de prednisona) e, daí em diante, seguir reduzindo devagar ou dosar cortisol matinal, colhido pelo menos 24 horas após a última dose. Cortisol acima de cerca de 10 µg/dL sugere eixo recuperado e permite suspender; valores baixos indicam manter a reposição e repetir. Durante a retirada, a paciente precisa saber dobrar a dose em doença aguda.",
+  "porAlt": [
+   "Após 8 meses, o eixo pode estar suprimido; suspender de uma vez arrisca insuficiência adrenal.",
+   "Sem atividade da doença, manter corticoide só acumula efeitos adversos.",
+   "Em dose próxima da fisiológica, reduzir aos poucos e dosar cortisol matinal 24 horas após a última dose para decidir.",
+   "Dexametasona tem ação longa e suprime mais o eixo.",
+   "Sob prednisona, o teste é pouco interpretável; ele fica para cortisol matinal indeterminado."
+  ]
+ },
+ {
+  "q": "Homem de 48 anos com transtorno bipolar em uso de carbonato de lítio há 12 anos tem poliúria de 6 litros por dia e sede intensa. Litemia de 0,7 mEq/L; glicemia, cálcio e potássio normais; creatinina 1,3 mg/dL. Sódio sérico 146 mEq/L e osmolalidade urinária 150 mOsm/kg. No teste de restrição hídrica, a osmolalidade urinária chegou a 180 mOsm/kg e, após desmopressina 2 µg subcutânea, a 196 mOsm/kg. Copeptina elevada. Qual é o diagnóstico e o tratamento?",
+  "alts": [
+   "Diabetes insípido central; desmopressina",
+   "Polidipsia primária; restrição hídrica",
+   "Diabetes insípido central parcial; clorpropamida",
+   "Diabetes insípido nefrogênico por lítio; amilorida",
+   "Diurese osmótica; investigar hiperglicemia"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Christ-Crain et al., Diabetes insipidus, Nature Reviews Disease Primers, 2019; Working Group for Renaming Diabetes Insipidus, position statement, 2022",
+  "coment": "O lítio entra nas células do ducto coletor pelos canais epiteliais de sódio e reduz a expressão de aquaporina 2, causando diabetes insípido nefrogênico em parte importante dos usuários crônicos. O diagnóstico vem da urina que não se concentra com restrição hídrica nem após desmopressina (aumento menor que 50%) e da copeptina elevada. A amilorida bloqueia esses canais e reduz a poliúria; tiazídico é alternativa, com vigilância da litemia. A troca do estabilizador de humor é discutida com a psiquiatria.",
+  "porAlt": [
+   "No diabetes insípido central, a osmolalidade urinária sobe mais de 50% com desmopressina, e a copeptina é baixa.",
+   "Na polidipsia primária a urina se concentra com a restrição, e o sódio tende a ser baixo.",
+   "Resposta de apenas 9% à desmopressina e copeptina alta não indicam causa central.",
+   "Urina que não concentra com restrição nem com desmopressina, copeptina alta e lítio crônico: nefrogênico; amilorida.",
+   "Glicemia normal afasta diurese osmótica por glicose."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos tem nódulo tireoidiano de 2,8 cm no lobo direito, palpável, percebido há 1 ano. TSH 0,08 mUI/L, T4 livre 1,6 ng/dL (referência até 1,8), T3 total no limite superior. Refere palpitações ocasionais, sem oftalmopatia. Ultrassonografia: nódulo sólido, isoecogênico, com halo fino e vascularização periférica e central (ACR TI-RADS 3), sem outros nódulos. Anticorpo antirreceptor de TSH negativo. Não usa amiodarona nem contraste iodado recente. Qual é o próximo exame?",
+  "alts": [
+   "Punção aspirativa por agulha fina",
+   "Tomografia de pescoço",
+   "Cintilografia de tireoide",
+   "Calcitonina sérica",
+   "Ressonância de hipófise"
   ],
   "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Fifth International Workshop on the Management of Primary Hyperparathyroidism, 2022",
-  "coment": "Hipercalcemia com paratormônio elevado ou inapropriadamente normal e hipofosfatemia define hiperparatireoidismo primário, causado na maioria das vezes por adenoma único de paratireoide. A paratireoidectomia é indicada em pacientes sintomáticos e, nos assintomáticos, por critérios como cálcio acima de 1 mg/dL do limite superior, idade abaixo de cinquenta anos, osteoporose ou fratura vertebral, filtração glomerular reduzida e nefrolitíase ou hipercalciúria.",
+  "base": "American Thyroid Association Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer, 2015",
+  "coment": "Em nódulo tireoidiano com TSH baixo, a ATA recomenda cintilografia antes de qualquer punção. Nódulo hiperfuncionante (quente), com supressão do restante da glândula, raramente é maligno e não precisa de citologia; o hipertireoidismo subclínico ou franco é tratado com iodo radioativo ou lobectomia. Nódulo hipocaptante ou isocaptante segue o critério ultrassonográfico de punção.",
   "porAlt": [
-   "A hipercalcemia da malignidade cursa com paratormônio suprimido, e não elevado como no caso.",
-   "A intoxicação por vitamina D cursa com paratormônio suprimido e fósforo tipicamente elevado.",
-   "Correta: hiperparatireoidismo primário, com avaliação dos critérios de indicação cirúrgica e seguimento.",
-   "O hipoparatireoidismo cursa com hipocalcemia e paratormônio baixo, o oposto do descrito aqui.",
-   "A doença renal crônica cursa com hiperfosfatemia e hiperparatireoidismo secundário associado."
+   "Com TSH baixo, primeiro se define se o nódulo é hiperfuncionante; nódulo quente não é puncionado.",
+   "Tomografia não avalia função.",
+   "TSH suprimido com nódulo: cintilografia identifica nódulo autônomo, que dispensa punção.",
+   "Calcitonina não esclarece o TSH baixo.",
+   "TSH baixo com T4 no limite superior aponta para a tireoide, não para a hipófise."
   ]
  },
  {
-  "q": "Homem de 35 anos com ginecomastia, redução da libido e testosterona total baixa em duas dosagens matinais. Qual é o próximo passo?",
+  "q": "Mulher de 81 anos, com demência e diabetes tipo 2, é trazida da instituição de longa permanência com 4 dias de sonolência, pouca ingestão e febre por infecção urinária. Pressão arterial 92/54 mmHg, frequência 116 bpm. Glicemia 1.080 mg/dL, sódio 148 mEq/L, potássio 4,8 mEq/L, ureia 142 mg/dL, creatinina 2,4 mg/dL, pH 7,36, bicarbonato 21 mEq/L e beta-hidroxibutirato 0,6 mmol/L. Quais são, aproximadamente, a osmolalidade efetiva e o sódio corrigido pela glicemia?",
   "alts": [
-   "Iniciar reposição de testosterona imediatamente sem qualquer investigação da causa do hipogonadismo.",
-   "Dosar LH, FSH e prolactina para diferenciar sempre a causa primária da secundária do hipogonadismo.",
-   "Indicar mastectomia bilateral imediata como conduta inicial diante da ginecomastia descrita no caso já.",
-   "Solicitar apenas ultrassonografia de abdome total como exame inicial da investigação desse quadro.",
-   "Prescrever apenas anabolizante de uso contínuo como tratamento inicial do quadro clínico descrito."
-  ],
-  "gab": 1,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline, Testosterone Therapy in Men With Hypogonadism, revisão 2023",
-  "coment": "Confirmado o hipogonadismo com duas dosagens matinais de testosterona total baixas, o passo seguinte é dosar LH e FSH para diferenciar hipogonadismo primário, com gonadotrofinas elevadas, de secundário, com gonadotrofinas baixas ou inapropriadamente normais. No secundário, dosa-se prolactina e avalia-se o eixo hipofisário com ressonância de sela quando indicado. Tratar sem investigar pode mascarar prolactinoma, hemocromatose ou outras causas tratáveis.",
-  "porAlt": [
-   "Repor sem investigar pode mascarar causas tratáveis como prolactinoma ou hemocromatose.",
-   "Correta: dosar LH, FSH e prolactina para diferenciar hipogonadismo primário de secundário.",
-   "A cirurgia da ginecomastia é considerada após tratar a causa e persistindo o quadro por tempo prolongado.",
-   "A ultrassonografia de abdome não avalia o eixo hipotálamo-hipófise-gonadal do paciente.",
-   "Anabolizantes suprimem ainda mais o eixo e agravam o hipogonadismo a médio e longo prazo."
-  ]
- },
- {
-  "q": "Paciente em uso de corticoide sistêmico há oito meses precisa suspender o fármaco. Qual é a conduta?",
-  "alts": [
-   "Reduzir a dose de forma gradual e programada, atento sempre a sinais de insuficiência adrenal secundária.",
-   "Suspender abruptamente o corticoide na mesma consulta, sem qualquer esquema de redução programada agora.",
-   "Substituir por outro corticoide de meia-vida mais longa e manter indefinidamente a mesma dose diária.",
-   "Duplicar a dose antes da suspensão para reduzir o risco de recidiva da doença de base do paciente agora.",
-   "Manter o corticoide indefinidamente, pois a suspensão é sempre impossível após oito meses de uso agora."
-  ],
-  "gab": 0,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "Endocrine Society/ESE guideline on glucocorticoid-induced adrenal insufficiency, 2024",
-  "coment": "O uso de corticoide em dose suprafisiológica por mais de três a quatro semanas suprime o eixo hipotálamo-hipófise-adrenal, e a suspensão abrupta pode precipitar crise adrenal. A retirada é gradual, com reduções progressivas e mais lentas ao se aproximar da dose fisiológica, monitorando sintomas de insuficiência adrenal como fadiga, náusea, hipotensão e mialgia. Em situações de estresse durante a retirada, indica-se dose adicional de corticoide.",
-  "porAlt": [
-   "Correta: redução gradual e programada, atento a sinais de insuficiência adrenal secundária.",
-   "A suspensão abrupta pode precipitar crise adrenal, com hipotensão grave e risco de morte.",
-   "Trocar por corticoide de meia-vida longa mantida indefinidamente agrava a supressão do eixo.",
-   "Duplicar a dose antes de suspender aprofunda a supressão e a toxicidade sem qualquer benefício.",
-   "A suspensão é possível com esquema gradual adequado e monitorização clínica cuidadosa."
-  ]
- },
- {
-  "q": "Paciente com poliúria de grande volume, urina hipotônica e sódio sérico elevado, sem hiperglicemia. Qual é a hipótese?",
-  "alts": [
-   "Diabetes insipidus, cuja diferenciação entre a forma central e a nefrogênica exige sempre teste específico.",
-   "Diabetes mellitus descompensado, condição definida por urina hipotônica com glicemia sempre normal agora.",
-   "Síndrome da secreção inapropriada de hormônio antidiurético, definida por hipernatremia e urina hipotônica.",
-   "Insuficiência renal crônica terminal, caracterizada por poliúria hipotônica com hipernatremia acentuada.",
-   "Polidipsia psicogênica primária, condição definida por hipernatremia com urina persistentemente hipotônica."
-  ],
-  "gab": 0,
-  "tema": "endocrino",
-  "cenario": "enf",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "Endocrine Society/ESE clinical practice guideline on diabetes insipidus (arginine vasopressin deficiency), 2023",
-  "coment": "Poliúria hipotônica com hipernatremia sugere diabetes insipidus, hoje denominado deficiência ou resistência à arginina vasopressina. A diferenciação entre a forma central e a nefrogênica é feita pelo teste de restrição hídrica com administração de desmopressina, ou pela dosagem de copeptina estimulada, que aumentou a acurácia diagnóstica. A polidipsia primária cursa com sódio normal ou baixo, porque a perda de água é secundária à ingestão excessiva.",
-  "porAlt": [
-   "Correta: diabetes insipidus, com diferenciação entre forma central e nefrogênica por teste específico.",
-   "O diabetes mellitus descompensado cursa com glicosúria e urina não hipotônica, além de hiperglicemia.",
-   "A secreção inapropriada de antidiurético cursa com hiponatremia e urina concentrada, o oposto do caso.",
-   "A doença renal terminal cursa com retenção de solutos e não com esse padrão de poliúria hipotônica.",
-   "A polidipsia primária cursa com sódio normal ou baixo, e não com a hipernatremia descrita."
-  ]
- },
- {
-  "q": "Paciente com nódulo tireoidiano e TSH suprimido, com T4 livre discretamente elevado. Qual exame deve ser solicitado?",
-  "alts": [
-   "Punção aspirativa por agulha fina imediata, indicada em todos os nódulos independentemente do TSH sérico.",
-   "Ressonância magnética de pescoço como exame inicial para a caracterização funcional do nódulo descrito.",
-   "Tomografia de tórax com contraste iodado como primeiro exame na avaliação do nódulo tireoidiano agora.",
-   "Apenas dosagem de calcitonina, exame que substitui a avaliação funcional do nódulo neste contexto agora.",
-   "Cintilografia de tireoide para identificar nódulo hiperfuncionante, evitando sempre punção desnecessária."
+   "296 mOsm/kg e 148 mEq/L",
+   "356 mOsm/kg e 148 mEq/L",
+   "320 mOsm/kg e 132 mEq/L",
+   "406 mOsm/kg e 158 mEq/L",
+   "356 mOsm/kg e 164 mEq/L"
   ],
   "gab": 4,
   "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "American Thyroid Association Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, revisão 2023",
-  "coment": "Diante de nódulo tireoidiano com TSH suprimido, a cintilografia é indicada para identificar nódulo hiperfuncionante, o nódulo quente, que raramente é maligno e dispensa punção, sendo tratado com iodo radioativo ou cirurgia. Com TSH normal ou elevado, a avaliação segue por ultrassonografia com estratificação de risco e punção conforme tamanho e características. Contraste iodado deve ser evitado quando se cogita terapia com iodo radioativo.",
-  "porAlt": [
-   "A punção é dispensável no nódulo quente, e o TSH suprimido muda a sequência da investigação.",
-   "A ressonância não avalia a função do nódulo nem substitui a cintilografia neste contexto clínico.",
-   "O contraste iodado deve ser evitado quando se cogita terapia com iodo radioativo posteriormente.",
-   "A calcitonina rastreia carcinoma medular, mas não substitui a avaliação funcional indicada aqui.",
-   "Correta: cintilografia para identificar nódulo hiperfuncionante, que raramente é maligno e dispensa punção."
-  ]
- },
- {
-  "q": "Paciente com hiperglicemia importante, desidratação grave, sódio corrigido elevado, osmolalidade de 340 mOsm/kg e ausência de cetose significativa. Qual é o diagnóstico?",
-  "alts": [
-   "Cetoacidose diabética clássica, definida por hiperosmolalidade acentuada sem qualquer cetose significativa.",
-   "Estado hiperglicêmico hiperosmolar, cujo tratamento exige sempre reposição volêmica antes da insulina.",
-   "Acidose láctica por metformina, condição caracterizada por hiperosmolalidade sem cetose e sódio elevado.",
-   "Hipoglicemia grave prolongada, quadro definido por osmolalidade elevada com desidratação acentuada.",
-   "Insuficiência adrenal aguda, condição definida por hiperglicemia com hiperosmolalidade e sódio elevado."
-  ],
-  "gab": 1,
-  "tema": "endocrino",
   "cenario": "uti",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "ADA/EASD consensus report on hyperglycaemic crises in adults, 2024",
-  "coment": "O estado hiperglicêmico hiperosmolar cursa com glicemia muito elevada, osmolalidade acima de 320 mOsm/kg, desidratação profunda e ausência de cetose significativa, sendo mais frequente em idosos com diabetes tipo 2 e desencadeado por infecção ou baixa ingesta hídrica. O déficit de água é maior que na cetoacidose, e a prioridade é a reposição volêmica vigorosa, seguida de insulina em infusão e reposição de potássio conforme os níveis séricos.",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "JBDS-IP Guideline: The management of the hyperosmolar hyperglycaemic state in adults, 2022; Hyperglycemic crises in adults with diabetes: a consensus report, Diabetes Care, 2024",
+  "coment": "Osmolalidade efetiva = 2 × sódio + glicose/18, sem a ureia, que atravessa membranas: 296 + 60 = 356 mOsm/kg, acima dos 320 que definem o estado hiperosmolar, com pH acima de 7,3 e cetonemia baixa. O sódio medido cai cerca de 1,6 a 2,4 mEq/L para cada 100 mg/dL de glicose acima de 100; corrigido, fica em torno de 164 mEq/L. Sódio corrigido tão alto indica grande déficit de água livre: após a expansão com salina isotônica, costuma ser necessário fluido hipotônico, com queda de osmolalidade de 3 a 8 mOsm/kg/h.",
   "porAlt": [
-   "A cetoacidose cursa com cetose e acidose metabólica, ausentes na descrição deste caso clínico.",
-   "Correta: estado hiperglicêmico hiperosmolar, com reposição volêmica precedendo a infusão de insulina.",
-   "A acidose láctica cursa com acidose metabólica de ânion gap elevado, sem a hiperglicemia extrema.",
-   "O quadro descrito é de hiperglicemia grave, e não de hipoglicemia com rebaixamento de consciência.",
-   "A insuficiência adrenal cursa com hipoglicemia e hiponatremia, exatamente o oposto do descrito."
+   "Não soma a glicemia e não corrige o sódio.",
+   "A osmolalidade está certa, mas o sódio não foi corrigido para a hiperglicemia.",
+   "Os valores subestimam a osmolalidade e corrigem o sódio no sentido errado.",
+   "Somar a ureia dá a osmolalidade total, não a efetiva, e o fator 1,0 subestima o sódio corrigido.",
+   "2 × 148 + 1.080/18 = 356; sódio corrigido 148 + 1,6 × 9,8 ≈ 164 mEq/L."
   ]
  },
  {
@@ -18888,243 +18888,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com diabetes tipo 1 pergunta sobre monitorização glicêmica. Qual é a orientação atual?",
+  "q": "Homem de 29 anos com diabetes tipo 1 usa sensor de monitorização contínua de glicose há 3 meses. O relatório dos últimos 14 dias, com 94% de captura de dados, mostra tempo no alvo (70 a 180 mg/dL) de 58%, acima de 180 mg/dL de 34%, acima de 250 mg/dL de 12%, abaixo de 70 mg/dL de 8% e abaixo de 54 mg/dL de 2%. Glicose média de 172 mg/dL e coeficiente de variação de 41%. Usa glargina e asparte. Qual deve ser a prioridade do ajuste?",
   "alts": [
-   "Uma única glicemia capilar por semana é suficiente para o controle do diabetes tipo 1 no adulto agora.",
-   "Apenas hemoglobina glicada anual, sem qualquer monitorização glicêmica diária pelo próprio paciente agora.",
-   "Apenas glicosúria de fita urinária como método de monitorização recomendado no diabetes tipo 1 atual agora.",
-   "Nenhuma monitorização é necessária enquanto o paciente permanecer assintomático durante o tratamento agora.",
-   "Monitorização contínua de glicose ou capilar frequente, com metas sempre individualizadas de tempo no alvo."
+   "Reduzir hipoglicemias antes de tratar hiperglicemias",
+   "Aumentar a basal pelo tempo acima do alvo",
+   "Buscar glicada abaixo de 6,5% antes de tudo",
+   "Manter o esquema, pois o tempo no alvo passa de 50%",
+   "Trocar o sensor por glicemias capilares"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
-  "coment": "No diabetes tipo 1, a monitorização contínua de glicose é hoje recomendada como padrão sempre que disponível, com metas de tempo no alvo acima de setenta por cento e tempo abaixo do alvo inferior a quatro por cento. Quando não disponível, indica-se monitorização capilar frequente, tipicamente antes das refeições, ao deitar, antes e após exercício e diante de sintomas. A hemoglobina glicada complementa, mas não detecta variabilidade nem hipoglicemias.",
+  "base": "International Consensus on Time in Range, Diabetes Care, 2019; ADA Standards of Care in Diabetes, seção 6, 2025",
+  "coment": "O consenso internacional de tempo no alvo (2019), adotado pela ADA, define para a maioria dos adultos com diabetes: tempo entre 70 e 180 mg/dL acima de 70%, abaixo de 70 mg/dL menor que 4%, abaixo de 54 mg/dL menor que 1%, acima de 180 mg/dL menor que 25%, acima de 250 mg/dL menor que 5% e coeficiente de variação de 36% ou menos. A prioridade no ajuste começa pela hipoglicemia, sobretudo abaixo de 54 mg/dL, e pela variabilidade, antes de tratar a hiperglicemia.",
   "porAlt": [
-   "Uma medida semanal não permite ajuste de insulina nem detecção de hipoglicemias no tipo 1.",
-   "A hemoglobina glicada anual isolada não detecta variabilidade glicêmica nem hipoglicemias graves.",
-   "A glicosúria é método obsoleto, insensível e incapaz de detectar hipoglicemia no paciente.",
-   "A ausência de sintomas não exclui hipo ou hiperglicemias relevantes ao longo do dia.",
-   "Correta: monitorização contínua ou capilar frequente, com metas individualizadas de tempo no alvo."
+   "Tempo abaixo de 70 de 8% (meta abaixo de 4%), abaixo de 54 de 2% (meta abaixo de 1%) e variabilidade alta: hipoglicemia é a primeira prioridade.",
+   "Aumentar a basal agravaria hipoglicemias já acima da meta.",
+   "Meta de glicada muito baixa com hipoglicemias frequentes aumenta o risco.",
+   "A meta de tempo no alvo é acima de 70%.",
+   "O sensor é justamente o que mostra o problema."
   ]
  },
  {
-  "q": "Paciente em uso de insulina apresenta hipoglicemias noturnas recorrentes com hiperglicemia matinal. Qual é a conduta inicial?",
+  "q": "Mulher de 62 anos com diabetes tipo 2 usa insulina NPH 24 U antes do café e 20 U antes do jantar, às 19 horas, além de metformina. Relata acordar suada e com pesadelos de madrugada. Glicemias capilares: às 3 horas, entre 48 e 62 mg/dL; às 7 horas, entre 190 e 230 mg/dL; antes do almoço e do jantar, entre 120 e 160 mg/dL. Janta às 19h30 e não faz lanche noturno. Hemoglobina glicada de 7,6%, creatinina normal. Qual é a conduta mais adequada?",
   "alts": [
-   "Aumentar a dose da insulina basal noturna para corrigir a hiperglicemia observada pela manhã no paciente neste caso.",
-   "Revisar o esquema e a dose da insulina basal noturna, avaliando sempre alimentação, exercício e horário de aplicação.",
-   "Suspender completamente toda a insulina do paciente até a resolução espontânea das hipoglicemias noturnas agora.",
-   "Orientar refeição hipercalórica antes de dormir todas as noites como única medida corretiva do quadro neste caso.",
-   "Substituir toda a insulina por antidiabético oral em paciente com diabetes tipo 1 e hipoglicemias noturnas agora."
+   "Aumentar a NPH do jantar pela glicemia matinal",
+   "Acrescentar insulina regular ao deitar",
+   "Suspender a NPH noturna e manter a da manhã",
+   "NPH noturna às 22 horas e com dose menor",
+   "Associar glibenclamida antes do café"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
-  "coment": "Hipoglicemia noturna seguida de hiperglicemia matinal pode refletir excesso de insulina basal noturna, com hiperglicemia de rebote, ou simplesmente o fenômeno do alvorecer, e a distinção exige medidas na madrugada ou monitorização contínua. Aumentar a basal sem esclarecer agrava as hipoglicemias. A revisão inclui dose e horário da basal, tipo de insulina, alimentação noturna, exercício vespertino e técnica de aplicação e rodízio de locais.",
+  "base": "ADA Standards of Care in Diabetes, seção 9, 2025; Diretriz da Sociedade Brasileira de Diabetes, 2024",
+  "coment": "A NPH tem pico entre 4 e 8 horas: aplicada às 19 horas, age mais entre 23 e 3 horas e se esgota ao amanhecer. O resultado típico é hipoglicemia de madrugada e hiperglicemia de jejum, por rebote ou porque a insulina acabou. Aumentar a dose do jantar piora o problema. A ADA sugere levar a NPH noturna para a hora de dormir com dose menor ou trocar por análogo basal de ação prolongada, que causa menos hipoglicemia noturna.",
   "porAlt": [
-   "Aumentar a basal sem esclarecer a causa agrava as hipoglicemias noturnas do paciente.",
-   "Correta: revisar esquema, dose e horário da basal, avaliando alimentação, exercício e técnica.",
-   "Suspender toda a insulina no diabetes tipo 1 leva a cetoacidose em poucas horas.",
-   "A refeição hipercalórica noturna diária não corrige o esquema e piora o controle metabólico.",
-   "O paciente com diabetes tipo 1 depende de insulina e não pode ser tratado com oral isolado."
+   "Aumentar a NPH do jantar pioraria a hipoglicemia de madrugada.",
+   "Insulina rápida ao deitar agravaria a hipoglicemia noturna.",
+   "Suspender a dose noturna deixa a noite sem basal e piora o jejum.",
+   "Aplicar a NPH às 22 horas e com dose menor, ou trocar por análogo basal, desloca o pico e protege a madrugada.",
+   "Sulfonilureia aumenta o risco de hipoglicemia."
   ]
  },
  {
-  "q": "Paciente com diagnóstico recente de diabetes tipo 2 pergunta sobre exames de rastreio de complicações. Qual é a orientação?",
+  "q": "Homem de 52 anos recebe hoje o diagnóstico de diabetes tipo 2, com hemoglobina glicada de 7,8% em duas dosagens. Está assintomático. Pressão arterial 142/88 mmHg, índice de massa corporal de 30 kg/m². Não tem queixas visuais nem nos pés. Creatinina 0,9 mg/dL. Pergunta quais exames precisa fazer para complicações, pois leu que elas só aparecem depois de 10 anos de doença. Qual é a orientação correta?",
   "alts": [
-   "Rastrear complicações apenas após dez anos de diagnóstico do diabetes tipo 2 no paciente adulto nesse contexto.",
-   "Rastrear retinopatia, nefropatia e neuropatia já ao diagnóstico, repetindo sempre conforme o intervalo recomendado.",
-   "Rastrear apenas quando surgirem sintomas de complicação, sem qualquer avaliação sistemática programada neste caso.",
-   "Rastrear apenas complicações cardíacas, dispensando avaliação de retina, rins e nervos periféricos neste caso.",
-   "Não realizar qualquer rastreio, pois o diabetes tipo 2 não cursa com complicações microvasculares nesse contexto."
+   "Rastrear só após 5 anos de doença",
+   "Retina, rim e pés já no diagnóstico",
+   "Eletroneuromiografia anual de rotina",
+   "Apenas fundo de olho a cada ano",
+   "Cintilografia miocárdica de rotina"
   ],
   "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
-  "coment": "No diabetes tipo 2, o rastreio de complicações começa no diagnóstico, porque a hiperglicemia costuma preceder em anos o reconhecimento da doença. Avaliam-se fundo de olho com dilatação ou retinografia, relação albumina-creatinina urinária e taxa de filtração glomerular estimada, exame dos pés com teste de monofilamento e avaliação de risco cardiovascular. No tipo 1, o rastreio microvascular começa cinco anos após o diagnóstico.",
+  "base": "ADA Standards of Care in Diabetes, seções 11 e 12, 2025",
+  "coment": "Como o diabetes tipo 2 pode existir por anos antes do diagnóstico, a ADA recomenda, já no diagnóstico e depois anualmente: exame de retina (fundoscopia com dilatação ou retinografia), relação albumina/creatinina urinária e taxa de filtração glomerular, e exame dos pés com monofilamento de 10 g, sensibilidade vibratória e pulsos. No tipo 1, o primeiro exame de retina é feito em até 5 anos do início, e o rastreio renal a partir de 5 anos de doença. Teste de isquemia em assintomático não é recomendado.",
   "porAlt": [
-   "Aguardar dez anos perde complicações que já podem estar presentes no momento do diagnóstico.",
-   "Correta: rastrear retinopatia, nefropatia e neuropatia já ao diagnóstico, com repetição periódica.",
-   "Esperar sintomas significa diagnosticar complicações em fase avançada e pouco reversível.",
-   "O rastreio microvascular é tão necessário quanto a avaliação de risco cardiovascular do paciente.",
-   "O diabetes tipo 2 cursa com complicações microvasculares frequentes e potencialmente graves."
+   "No tipo 2, o diagnóstico costuma ser tardio, e complicações já podem estar presentes.",
+   "Tipo 2: fundo de olho, albuminúria, filtração glomerular e exame dos pés com monofilamento desde o diagnóstico.",
+   "Eletroneuromiografia não é exame de rastreio; usam-se monofilamento e vibração.",
+   "Rim e pés também precisam ser rastreados desde o início.",
+   "Rastreio de isquemia em assintomático não é recomendado."
   ]
  },
  {
-  "q": "Paciente com síndrome de Cushing suspeitada clinicamente. Qual é o exame de rastreio inicial?",
+  "q": "Mulher de 38 anos tem síndrome de Cushing confirmada por cortisol salivar noturno elevado em duas amostras e cortisol livre urinário 3 vezes o limite superior. ACTH plasmático de 64 pg/mL em duas dosagens. Ressonância de hipófise com contraste dinâmico mostra imagem hipocaptante duvidosa de 4 mm. Tomografia de tórax sem lesões. Potássio 3,9 mEq/L. Não usa corticoide por nenhuma via. Qual é o próximo passo para localizar a fonte de ACTH?",
   "alts": [
-   "Dosagem isolada de cortisol sérico matinal, exame que confirma sozinho o diagnóstico da síndrome de Cushing.",
-   "Ressonância de sela túrcica como exame inicial de rastreio antes de qualquer confirmação bioquímica do quadro.",
-   "Tomografia de adrenais como primeiro exame antes de qualquer avaliação hormonal do eixo do paciente agora.",
-   "Dosagem isolada de hormônio tireoestimulante como exame de rastreio inicial da síndrome de Cushing agora.",
-   "Cortisol salivar noturno, cortisol urinário de 24 horas ou teste de supressão com dexametasona em dose baixa."
-  ],
-  "gab": 4,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline, Diagnosis of Cushing's Syndrome, revisão 2023",
-  "coment": "O diagnóstico da síndrome de Cushing tem duas etapas: primeiro confirmar o hipercortisolismo, com pelo menos dois testes alterados entre cortisol salivar noturno, cortisol livre urinário de vinte e quatro horas e supressão com um miligrama de dexametasona; depois definir a causa, dosando ACTH e realizando imagem dirigida. Imagem antes da confirmação bioquímica leva a achados incidentais frequentes e a diagnósticos equivocados.",
-  "porAlt": [
-   "O cortisol sérico matinal isolado tem ampla variação e não confirma o hipercortisolismo.",
-   "A imagem antes da confirmação bioquímica leva a achados incidentais e conclusões equivocadas.",
-   "A tomografia de adrenais precede indevidamente a confirmação hormonal e a dosagem de ACTH.",
-   "O hormônio tireoestimulante avalia a tireoide e não tem papel no rastreio da síndrome de Cushing.",
-   "Correta: cortisol salivar noturno, cortisol urinário ou supressão com dexametasona em dose baixa."
-  ]
- },
- {
-  "q": "Paciente com diabetes tipo 2 em uso de insulina apresenta hipoglicemias graves recorrentes. Qual é a conduta?",
-  "alts": [
-   "Aumentar a dose de insulina para melhorar o controle glicêmico apesar das hipoglicemias graves recorrentes.",
-   "Manter exatamente o mesmo esquema e apenas orientar consumo de doces nas crises de hipoglicemia agora já.",
-   "Reduzir metas e simplificar o esquema, revisando sempre função renal, alimentação e uso de outros fármacos.",
-   "Suspender toda a monitorização glicêmica para reduzir a ansiedade do paciente diante das hipoglicemias.",
-   "Associar sulfonilureia em dose plena à insulina como estratégia para reduzir as hipoglicemias recorrentes."
+   "Adrenalectomia bilateral",
+   "Ressecção transesfenoidal da imagem de 4 mm",
+   "Cateterismo dos seios petrosos inferiores",
+   "PET com gálio-68 DOTATATE como primeiro exame",
+   "Tomografia de adrenais"
   ],
   "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
-  "coment": "A hipoglicemia grave recorrente é evento sentinela: obriga a rever metas, que devem ser afrouxadas, e a simplificar o esquema, preferindo análogos com menor risco. Investigam-se causas contribuintes (piora da função renal, redução da ingesta, perda de peso, insuficiência adrenal, gastroparesia, uso de álcool, sulfonilureias associadas) e trabalha-se a percepção de hipoglicemia, que se perde com episódios repetidos e aumenta o risco de novos eventos graves.",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Pituitary Society Consensus on diagnosis and management of Cushing's disease, Lancet Diabetes and Endocrinology, 2021",
+  "coment": "Com hipercortisolismo confirmado e ACTH normal ou alto, a causa é ACTH-dependente: doença de Cushing, em cerca de 80% dos casos, ou secreção ectópica. Com adenoma hipofisário de 10 mm ou mais e testes concordantes, pode-se ir direto à cirurgia; com lesão menor que 6 mm ou duvidosa, o consenso da Pituitary Society (2021) recomenda cateterismo bilateral dos seios petrosos inferiores. Gradiente central/periférico de 2 ou mais basal, ou de 3 ou mais após estímulo, confirma origem hipofisária.",
   "porAlt": [
-   "Aumentar a insulina diante de hipoglicemias graves multiplica o risco de evento fatal.",
-   "Manter o esquema sem mudanças perpetua episódios que já se mostraram graves e recorrentes.",
-   "Correta: reduzir metas e simplificar o esquema, revisando função renal, alimentação e outros fármacos.",
-   "Suspender a monitorização remove justamente a ferramenta que detecta e previne novos episódios.",
-   "A sulfonilureia aumenta o risco de hipoglicemia e agrava exatamente o problema apresentado."
+   "Adrenalectomia bilateral é último recurso, não passo diagnóstico.",
+   "Lesões menores que 6 mm podem ser incidentalomas; operar sem confirmar a origem arrisca cirurgia inútil.",
+   "ACTH-dependente com imagem menor que 6 mm ou duvidosa: cateterismo dos seios petrosos separa origem hipofisária de ectópica.",
+   "Imagem funcional para tumor ectópico entra se o cateterismo indicar fonte não hipofisária.",
+   "ACTH elevado indica causa dependente de ACTH; as adrenais são alvo, não origem."
   ]
  },
  {
-  "q": "Paciente com hipoglicemia em uso de sulfonilureia é atendido no pronto-socorro. Qual é o cuidado essencial?",
+  "q": "Homem de 84 anos com diabetes tipo 2 há 20 anos, doença renal crônica com filtração de 34 mL/min/1,73 m², insuficiência cardíaca e comprometimento cognitivo leve, mora com a filha. Usa glibenclamida 10 mg/dia, insulina NPH 18 U à noite e metformina 1 g/dia. Teve duas quedas com glicemias de 45 e 52 mg/dL no último mês, uma delas com atendimento no pronto-socorro. Hemoglobina glicada de 6,4%. Qual é a conduta?",
   "alts": [
-   "Alta imediata após a normalização da glicemia capilar em todos os pacientes em uso de sulfonilureia.",
-   "Observação prolongada após a correção, pois a hipoglicemia por sulfonilureia recorre sempre por horas.",
-   "Administrar apenas glicose oral e liberar sem qualquer período de observação clínica no serviço agora.",
-   "Administrar insulina para estabilizar o metabolismo do paciente após a correção da hipoglicemia inicial.",
-   "Suspender apenas a metformina e manter a sulfonilureia na mesma dose plena após a alta do paciente."
+   "Manter o esquema e orientar lanches",
+   "Aumentar a NPH noturna e suspender a metformina",
+   "Trocar a glibenclamida por glimepirida",
+   "Acrescentar acarbose para evitar picos",
+   "Suspender glibenclamida e aceitar glicada até 8%"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ADA Standards of Care in Diabetes, seção 13 (Older Adults), 2025; American Geriatrics Society Beers Criteria, 2023",
+  "coment": "Em idosos com múltiplas comorbidades, comprometimento cognitivo ou dependência, a ADA recomenda metas menos rígidas (glicada abaixo de 8,0% ou mesmo 8,5%, conforme a saúde) e desintensificação quando o tratamento causa hipoglicemia. Glibenclamida, de ação longa e excreção renal, é a sulfonilureia de maior risco e deve ser evitada no idoso pelos critérios de Beers. Glicada de 6,4% com hipoglicemias graves indica excesso de tratamento, não bom controle.",
+  "porAlt": [
+   "Manter sulfonilureia de ação longa com filtração reduzida perpetua as hipoglicemias.",
+   "Aumentar insulina com glicada de 6,4% agravaria as hipoglicemias.",
+   "Glimepirida também causa hipoglicemia; a meta e o esquema precisam ser revistos.",
+   "Acarbose não resolve a hipoglicemia e atrapalha tratá-la com sacarose.",
+   "Idoso frágil com hipoglicemia grave: desintensificar, suspender sulfonilureia e aceitar glicada abaixo de 8%."
+  ]
+ },
+ {
+  "q": "Mulher de 76 anos com doença renal crônica (filtração de 28 mL/min/1,73 m²) usa glibenclamida 5 mg/dia, iniciada há 1 semana em outro serviço. É trazida às 6 horas com rebaixamento de consciência e glicemia de 32 mg/dL. Recebeu 50 mL de glicose a 50%, acordou e comeu um lanche. Às 9 horas teve nova glicemia de 44 mg/dL, com sudorese; recebeu mais glicose a 50% e soro glicosado a 10%, mantendo glicemias de 60 a 70 mg/dL. Qual medida é a mais adequada para evitar recorrências?",
+  "alts": [
+   "Glucagon 1 mg intramuscular a cada hora",
+   "Octreotida subcutânea e internação com glicemia seriada",
+   "Alta com lanches a cada 3 horas",
+   "Hidrocortisona 100 mg endovenosa",
+   "Diazóxido como primeira escolha"
   ],
   "gab": 1,
   "tema": "endocrino",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; Ministério da Saúde, manejo das emergências glicêmicas, 2022",
-  "coment": "As sulfonilureias têm meia-vida longa e estimulam a secreção de insulina de forma prolongada, de modo que a hipoglicemia por essa classe recorre com frequência após a correção inicial, exigindo observação prolongada e por vezes infusão contínua de glicose. O risco é maior em idosos, na doença renal crônica, na baixa ingesta e no uso de fármacos que interagem. Após o episódio, a sulfonilureia deve ser suspensa ou substituída por classe mais segura.",
+  "base": "Goldfrank's Toxicologic Emergencies, 11ª edição, 2019",
+  "coment": "Glicose endovenosa estimula nova secreção de insulina pela célula beta exposta à sulfonilureia, e a hipoglicemia volta horas depois, sobretudo com fármaco de meia-vida longa e doença renal. A octreotida (50 a 100 µg subcutânea a cada 6 a 12 horas) inibe essa secreção e reduz a necessidade de glicose e as recorrências. A paciente deve ficar internada com glicemia seriada por pelo menos 24 horas sem hipoglicemia após a última glicose, e a sulfonilureia deve ser suspensa.",
   "porAlt": [
-   "A alta imediata arrisca recorrência da hipoglicemia em domicílio, com desfecho potencialmente fatal.",
-   "Correta: observação prolongada após a correção, pois a hipoglicemia por sulfonilureia recorre.",
-   "Glicose oral sem observação não protege contra a recorrência pela meia-vida longa do fármaco.",
-   "A insulina agrava a hipoglicemia e é exatamente o oposto do necessário nesse paciente.",
-   "Manter a sulfonilureia após hipoglicemia grave expõe o paciente a novo episódio semelhante."
+   "Glucagon estimula mais secreção de insulina e depende de glicogênio; não é a estratégia.",
+   "Hipoglicemia recorrente por sulfonilureia: octreotida inibe a secreção de insulina; internar e monitorar.",
+   "Glibenclamida com filtração reduzida tem efeito prolongado; alta precoce arrisca hipoglicemia fatal.",
+   "Não há insuficiência adrenal a tratar.",
+   "Diazóxido é menos eficaz e tem mais efeitos adversos que a octreotida."
   ]
  },
  {
-  "q": "Paciente com incidentaloma adrenal de 3 cm encontrado em tomografia. Qual é a conduta?",
+  "q": "Homem de 62 anos, hipertenso e com pré-diabetes, fez tomografia por cólica renal que mostrou nódulo adrenal esquerdo de 3,0 cm, homogêneo, com densidade de 6 unidades Hounsfield sem contraste. Não tem sinais clínicos de Cushing. Metanefrinas plasmáticas livres normais; relação aldosterona/renina normal, com potássio de 4,2 mEq/L. Teste de supressão com 1 mg de dexametasona: cortisol matinal de 3,2 µg/dL; ACTH de 8 pg/mL. Qual é a interpretação e a conduta?",
   "alts": [
-   "Indicar adrenalectomia imediata para todos os pacientes com incidentaloma adrenal de qualquer tamanho neste caso já.",
-   "Ignorar completamente o achado, pois nódulos adrenais nunca são funcionantes nem malignos no adulto neste caso.",
-   "Realizar biópsia percutânea do nódulo adrenal como primeiro passo em todos os casos identificados neste caso.",
-   "Avaliar função hormonal e características de imagem, definindo sempre seguimento ou cirurgia conforme o resultado.",
-   "Solicitar apenas repetição da tomografia em cinco anos, sem qualquer avaliação hormonal do paciente neste caso."
+   "Secreção autônoma possível; tratar comorbidades",
+   "Carcinoma adrenal provável; adrenalectomia",
+   "Feocromocitoma; bloqueio alfa e cirurgia",
+   "Cushing franco; adrenalectomia imediata",
+   "Nódulo não funcionante; alta do acompanhamento clínico"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ESE/ENSAT Clinical Practice Guideline on the management of adrenal incidentalomas, atualização 2023",
-  "coment": "Todo incidentaloma adrenal exige duas perguntas: é funcionante e é maligno. A avaliação hormonal inclui teste de supressão com um miligrama de dexametasona, metanefrinas plasmáticas ou urinárias e, se houver hipertensão ou hipocalemia, relação aldosterona-renina. A imagem avalia tamanho, densidade em unidades Hounsfield e washout. Lesões acima de quatro centímetros, com características suspeitas ou funcionantes, indicam cirurgia. Biópsia é excepcional e nunca precede a exclusão de feocromocitoma.",
+  "base": "European Society of Endocrinology Clinical Practice Guidelines on the management of adrenal incidentalomas, 2023",
+  "coment": "Nódulo adrenal homogêneo com densidade de 10 UH ou menos na tomografia sem contraste é adenoma benigno e dispensa nova imagem, pela diretriz da ESE (2023). Todo incidentaloma precisa de teste com 1 mg de dexametasona e metanefrinas, e de aldosterona se houver hipertensão ou hipocalemia. Cortisol pós-dexametasona abaixo de 1,8 µg/dL exclui secreção autônoma; entre 1,8 e 5,0 µg/dL, sem sinais de Cushing, define possível secreção autônoma de cortisol, associada a hipertensão, diabetes e eventos cardiovasculares. A conduta é rastrear e tratar essas comorbidades; adrenalectomia é decidida caso a caso.",
   "porAlt": [
-   "A adrenalectomia universal expõe a cirurgia desnecessária a lesões benignas e não funcionantes.",
-   "Incidentalomas podem ser funcionantes ou malignos e exigem avaliação sistemática obrigatória.",
-   "A biópsia é excepcional e jamais precede a exclusão bioquímica de feocromocitoma, pelo risco de crise.",
-   "Correta: avaliar função hormonal e características de imagem para definir seguimento ou cirurgia.",
-   "Repetir imagem em cinco anos sem avaliação hormonal perde lesões funcionantes tratáveis."
+   "Cortisol entre 1,8 e 5 µg/dL sem sinais de Cushing: possível secreção autônoma; tratar hipertensão, diabetes e osteoporose e decidir cirurgia caso a caso.",
+   "Densidade abaixo de 10 UH em nódulo homogêneo indica adenoma rico em lipídio.",
+   "Metanefrinas normais afastam feocromocitoma.",
+   "Sem fenótipo clínico e com cortisol de 3,2 µg/dL, não é Cushing franco.",
+   "Há produção autônoma de cortisol a considerar; não é caso de alta."
   ]
  },
  {
-  "q": "Paciente com tireotoxicose grave, febre, taquicardia importante e agitação após infecção. Qual é a conduta?",
+  "q": "Mulher de 38 anos com doença de Graves que abandonou o metimazol há 3 meses é trazida com febre de 39,8 °C, agitação, vômitos, diarreia e dispneia após pneumonia. Frequência cardíaca de 164 bpm em fibrilação atrial, pressão arterial 104/60 mmHg, estertores em bases. T4 livre acima de 7,7 ng/dL, TSH suprimido, bilirrubina 2,4 mg/dL. Escore de Burch-Wartofsky de 70. Fração de ejeção estimada de 45% ao ultrassom. Qual é a sequência terapêutica correta?",
   "alts": [
-   "Administrar iodo antes da tionamida para acelerar o bloqueio da síntese hormonal na crise tireotóxica agora.",
-   "Prescrever apenas antitérmico e observar clinicamente por vinte e quatro horas antes de qualquer tratamento.",
-   "Indicar tireoidectomia de urgência em todos os pacientes com crise tireotóxica antes de qualquer medida clínica.",
-   "Administrar levotiroxina em dose alta para estabilizar o eixo tireoidiano do paciente com tireotoxicose grave já.",
-   "Tratar a crise tireotóxica com tionamida, betabloqueador e iodo, mantendo sempre o intervalo correto entre eles."
+   "Iodo oral imediato e propiltiouracil algumas horas depois",
+   "Metimazol isolado e observação na enfermaria",
+   "Tionamida, iodo 1 hora depois, betabloqueador e corticoide",
+   "Iodo radioativo em caráter de urgência",
+   "Tireoidectomia de emergência antes dos fármacos"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "endocrino",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016 com revisão 2023",
-  "coment": "A crise tireotóxica é emergência com mortalidade elevada, desencadeada por infecção, cirurgia, trauma ou suspensão do antitireoidiano. O tratamento combina tionamida, preferencialmente propiltiouracila pelo bloqueio adicional da conversão periférica, betabloqueador para o controle adrenérgico, corticoide e iodo, que deve ser administrado pelo menos uma hora após a tionamida, para não fornecer substrato à síntese hormonal. Trata-se simultaneamente o fator precipitante.",
+  "base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis, 2016; Japan Thyroid Association and Japan Endocrine Society guidelines for thyroid storm, 2016",
+  "coment": "Crise tireotóxica (Burch-Wartofsky de 45 ou mais) é tratada em terapia intensiva com várias frentes: tionamida para bloquear a síntese (propiltiouracil, que também reduz a conversão de T4 em T3, ou metimazol), iodo inorgânico pelo menos 1 hora depois, para não servir de substrato, betabloqueador (propranolol ou esmolol, com cautela na disfunção ventricular e na hipotensão), hidrocortisona e tratamento do precipitante. A mortalidade ainda chega a 10% ou mais.",
   "porAlt": [
-   "Iodo antes da tionamida fornece substrato para síntese hormonal e pode agravar a tireotoxicose.",
-   "Antitérmico isolado com observação permite evolução para arritmia, choque e óbito do paciente.",
-   "A cirurgia é excepcional e exige controle clínico prévio, não sendo conduta inicial na crise.",
-   "A levotiroxina adiciona hormônio ao paciente já tireotóxico e agrava gravemente o quadro.",
-   "Correta: tionamida, betabloqueador e iodo, respeitando o intervalo obrigatório após a tionamida."
+   "Iodo antes da tionamida fornece substrato para mais síntese de hormônio.",
+   "Crise tireotóxica exige terapia intensiva e várias frentes, não tionamida isolada.",
+   "Tionamida para bloquear a síntese, iodo ao menos 1 hora depois, betabloqueador e hidrocortisona.",
+   "Iodo radioativo leva semanas para agir e pode piorar a tireotoxicose no início.",
+   "Cirurgia fica para falha do tratamento clínico, após estabilização."
   ]
  },
  {
-  "q": "Paciente com hipotireoidismo em uso de levotiroxina mantém TSH elevado apesar da dose adequada. Qual é a primeira hipótese?",
+  "q": "Mulher de 55 anos com hipotireoidismo por tireoidite de Hashimoto usa levotiroxina 125 µg/dia (1,8 µg/kg). O TSH era 2,0 mUI/L há 1 ano e hoje está em 14 mUI/L, com T4 livre no limite inferior. Diz não esquecer doses. Toma o comprimido às 7 horas com café com leite, junto com carbonato de cálcio e omeprazol, iniciados há 8 meses por osteopenia e dispepsia. Não houve troca de marca do comprimido. Qual é a conduta inicial?",
   "alts": [
-   "Necessidade imediata de triplicar a dose sem qualquer revisão da forma de administração do medicamento.",
-   "Má absorção ou erro na administração do fármaco, revisando sempre jejum, interações e adesão ao tratamento.",
-   "Diagnóstico incorreto de hipotireoidismo, que deve ser descartado e o tratamento suspenso de imediato.",
-   "Presença de hipertireoidismo mascarado, hipótese mais provável diante do TSH persistentemente elevado.",
-   "Necessidade de associar metimazol ao tratamento para normalizar o hormônio tireoestimulante elevado agora."
+   "Aumentar a levotiroxina para 175 µg/dia",
+   "Pesquisar doença celíaca antes de ajustar a dose",
+   "Trocar para liotironina",
+   "Tomar em jejum, 4 horas longe do cálcio",
+   "Levotiroxina endovenosa semanal"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; SBEM, 2022",
-  "coment": "A causa mais frequente de TSH persistentemente elevado apesar de dose aparentemente adequada é problema de adesão ou de absorção. A levotiroxina exige jejum, com intervalo de trinta a sessenta minutos antes do café, e afastamento de cálcio, ferro, inibidores de bomba de prótons, sais de alumínio e soja. Doenças que reduzem a absorção incluem doença celíaca, gastrite atrófica e infecção por Helicobacter pylori, e devem ser investigadas na falha persistente.",
+  "base": "American Thyroid Association Guidelines for the Treatment of Hypothyroidism, 2014",
+  "coment": "A causa mais comum de TSH elevado com dose adequada de levotiroxina é a forma de tomar: com alimento ou café, ou junto de cálcio, ferro, antiácidos e sequestradores de ácidos biliares. Inibidores de bomba também reduzem a absorção. A ATA recomenda tomar o comprimido com água, 30 a 60 minutos antes do café da manhã (ou ao deitar, 3 horas após o jantar), separado por 4 horas de cálcio e ferro, e repetir o TSH em 6 semanas. Se persistir, investigar má absorção (doença celíaca, gastrite atrófica, H. pylori).",
   "porAlt": [
-   "Triplicar a dose sem revisar a administração arrisca tireotoxicose iatrogênica quando a adesão melhorar.",
-   "Correta: má absorção ou erro de administração, revisando jejum, interações e adesão ao tratamento.",
-   "O TSH elevado confirma o hipotireoidismo, e suspender o tratamento agravaria o quadro do paciente.",
-   "O TSH elevado é incompatível com hipertireoidismo primário, que cursa com TSH suprimido.",
-   "O metimazol trata hipertireoidismo e agravaria ainda mais o hipotireoidismo do paciente."
+   "Aumentar a dose sem corrigir a administração leva a supertratamento quando as interações forem removidas.",
+   "Doença celíaca entra se o TSH não normalizar após corrigir a administração.",
+   "Liotironina não resolve a interação e não é recomendada como monoterapia.",
+   "Café, leite, cálcio e omeprazol reduzem a absorção: tomar com água em jejum e separar o cálcio por 4 horas.",
+   "Via endovenosa é para situações específicas, não para interação medicamentosa."
   ]
  },
  {
-  "q": "Paciente com hiperglicemia detectada durante internação por infecção, sem diagnóstico prévio de diabetes. Qual é a conduta?",
+  "q": "Homem de 58 anos, sem diagnóstico prévio de diabetes, está internado há 2 dias por pneumonia comunitária, estável e alimentando-se bem por via oral. As glicemias capilares variam de 210 a 290 mg/dL, apesar de insulina regular por escala a cada 6 horas. Hemoglobina glicada de 8,9%. Peso de 80 kg, creatinina 1,0 mg/dL. Não usa corticoide. A alta está prevista para 3 dias. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar antidiabético oral em dose plena durante a internação como tratamento de escolha nesse paciente agora.",
-   "Ignorar a hiperglicemia durante a internação, pois ela decorre exclusivamente do estresse da infecção agora.",
-   "Firmar o diagnóstico definitivo de diabetes apenas com a glicemia elevada durante a internação aguda agora.",
-   "Controlar a glicemia com insulina durante a internação e reavaliar sempre o diagnóstico após a alta hospitalar.",
-   "Suspender toda a nutrição do paciente até a normalização espontânea da glicemia durante a internação agora."
+   "Insulina basal com prandial e correção",
+   "Manter só a escala de insulina regular",
+   "Metformina e glibenclamida na internação",
+   "Aguardar a alta para tratar a hiperglicemia",
+   "Insulina endovenosa contínua na enfermaria"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025, capítulo de cuidado hospitalar; Endocrine Society guideline on inpatient hyperglycemia, revisão 2022",
-  "coment": "A hiperglicemia hospitalar associa-se a pior desfecho e deve ser tratada, preferencialmente com insulina em esquema basal-bolus no paciente que se alimenta, evitando o esquema de correção isolado. As metas são de 140 a 180 mg/dL na maioria dos pacientes. O diagnóstico de diabetes não deve ser firmado apenas com glicemia de internação, mas a hemoglobina glicada colhida ajuda a distinguir hiperglicemia de estresse de diabetes prévio não reconhecido.",
+  "base": "ADA Standards of Care in Diabetes, seção 16 (Diabetes Care in the Hospital), 2025; Umpierrez et al., RABBIT 2 Trial, Diabetes Care, 2007",
+  "coment": "Glicada de 6,5% ou mais indica diabetes prévio não diagnosticado, e não apenas hiperglicemia de estresse. No hospital, a ADA recomenda metas de 140 a 180 mg/dL e, para quem se alimenta, esquema com insulina basal, prandial e de correção. A escala de insulina regular isolada foi inferior no estudo RABBIT 2 e não deve ser usada como tratamento único. Na alta, o tratamento é planejado conforme a glicada, com educação e seguimento.",
   "porAlt": [
-   "Antidiabéticos orais são geralmente suspensos na internação aguda por risco e resposta imprevisível.",
-   "A hiperglicemia hospitalar associa-se a pior desfecho e deve ser tratada, não ignorada.",
-   "O diagnóstico não se firma com glicemia de internação aguda, sendo útil a hemoglobina glicada.",
-   "Correta: controlar com insulina durante a internação e reavaliar o diagnóstico após a alta hospitalar.",
-   "Suspender a nutrição agrava o catabolismo e não é estratégia de controle glicêmico hospitalar."
+   "Paciente que come, com hiperglicemia persistente: basal, prandial e correção, cerca de 0,4 a 0,5 U/kg/dia.",
+   "Escala isolada reage à hiperglicemia sem preveni-la e não é recomendada como esquema único.",
+   "Sulfonilureia no hospital causa hipoglicemia, e antidiabéticos orais têm uso limitado na internação.",
+   "Hiperglicemia persistente acima de 180 mg/dL no hospital aumenta infecção e complicações.",
+   "Infusão endovenosa é para paciente crítico ou instável."
   ]
  },
  {
@@ -21048,99 +21048,99 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com diabetes tipo 2 e obesidade em uso de metformina, com hemoglobina glicada de 7,8% e IMC de 34 kg/m². Qual é o próximo passo?",
+  "q": "Homem de 48 anos com diabetes tipo 2 e índice de massa corporal de 34 kg/m² usa metformina 2 g/dia, com hemoglobina glicada de 7,8%. Taxa de filtração glomerular de 90 mL/min/1,73 m², sem albuminúria nem doença cardiovascular. O irmão teve carcinoma medular de tireoide, e o paciente tem mutação do gene RET confirmada, em acompanhamento para tireoidectomia. Não tem infecções urinárias ou genitais de repetição. Qual é o segundo fármaco mais adequado?",
   "alts": [
-   "Acrescentar sulfonilureia em dose plena, escolha preferencial pelo efeito favorável sobre o peso corporal.",
-   "Acrescentar insulina basal isolada como próxima escolha pelo efeito favorável sobre o peso do paciente obeso.",
-   "Acrescentar glitazona em dose plena, escolha preferencial pela perda de peso associada ao seu uso agora.",
-   "Acrescentar agonista de GLP-1, que reduz sempre a glicemia e promove perda de peso relevante nesse perfil.",
-   "Manter apenas metformina e reavaliar somente após vinte e quatro meses de acompanhamento ambulatorial."
+   "Semaglutida semanal",
+   "Tirzepatida semanal",
+   "Dapagliflozina",
+   "Glibenclamida",
+   "Pioglitazona"
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
-  "coment": "Quando a perda de peso é objetivo terapêutico relevante no diabetes tipo 2, os agonistas de GLP-1 e a tirzepatida são as classes preferidas, com redução expressiva de peso e de hemoglobina glicada, além de benefício cardiovascular demonstrado para vários agentes da classe. Sulfonilureias, glitazonas e insulina promovem ganho de peso, e sulfonilureias e insulina também aumentam o risco de hipoglicemia nesse paciente.",
+  "base": "ADA Standards of Care in Diabetes, seções 8 e 9, 2025",
+  "coment": "Agonistas do receptor de GLP-1 e tirzepatida causaram tumores de células C em roedores e têm contraindicação em bula para quem tem história pessoal ou familiar de carcinoma medular de tireoide ou neoplasia endócrina múltipla tipo 2. Nesses pacientes, a ADA orienta escolher outra classe: inibidor de SGLT2 reduz glicemia e peso de forma modesta e protege rim e coração. Sulfonilureia e pioglitazona aumentam o peso.",
   "porAlt": [
-   "A sulfonilureia promove ganho de peso e hipoglicemia, sendo desfavorável no paciente obeso.",
-   "A insulina basal promove ganho de peso e não é a melhor escolha quando se busca emagrecimento.",
-   "A glitazona promove ganho de peso por retenção hídrica e acúmulo de tecido adiposo subcutâneo.",
-   "Correta: agonista de GLP-1, que reduz glicemia e promove perda de peso relevante nesse perfil.",
-   "Manter apenas metformina com glicada de 7,8 por cento deixa o paciente fora da meta por dois anos."
+   "Agonista de GLP-1 é contraindicado com história pessoal ou familiar de carcinoma medular de tireoide ou neoplasia endócrina múltipla tipo 2.",
+   "Tirzepatida tem a mesma contraindicação.",
+   "Sem poder usar incretina, inibidor de SGLT2 reduz glicemia, peso e risco cardiorrenal.",
+   "Sulfonilureia aumenta o peso e causa hipoglicemia.",
+   "Pioglitazona aumenta o peso e retém líquido."
   ]
  },
  {
-  "q": "Paciente com deficiência de vitamina D confirmada e osteoporose. Qual é a conduta?",
+  "q": "Mulher de 74 anos com osteoporose, operada de fratura de quadril há 3 semanas, tem indicação de ácido zoledrônico 5 mg endovenoso antes da alta. Exames: cálcio total 8,5 mg/dL, albumina 3,6 g/dL, fósforo 2,6 mg/dL, 25-hidroxivitamina D de 9 ng/mL, paratormônio de 98 pg/mL, taxa de filtração glomerular de 52 mL/min/1,73 m². Não tem doença de má absorção nem usa anticonvulsivantes. Qual é a conduta antes da infusão?",
   "alts": [
-   "Repor vitamina D com cálcio adequado antes e durante o antirreabsortivo, monitorando sempre os níveis séricos.",
-   "Iniciar o antirreabsortivo sem qualquer correção prévia da deficiência de vitamina D identificada no paciente.",
-   "Repor apenas cálcio isolado em dose alta, sem qualquer reposição de vitamina D no paciente com osteoporose.",
-   "Repor vitamina D em dose única muito elevada anualmente como estratégia preferencial nesse paciente agora.",
-   "Não repor nada, pois a deficiência de vitamina D não interfere no tratamento da osteoporose diagnosticada."
+   "Aplicar o ácido zoledrônico hoje, antes da alta",
+   "Repor vitamina D e adiar a infusão",
+   "Trocar por denosumabe hoje",
+   "Contraindicar bisfosfonato pela filtração",
+   "Iniciar teriparatida com o cálcio baixo"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Endocrine Society Clinical Practice Guideline: Pharmacological Management of Osteoporosis in Postmenopausal Women, 2019; Lyles et al., HORIZON Recurrent Fracture Trial, NEJM, 2007",
+  "coment": "Antes de antirreabsortivo potente, como ácido zoledrônico ou denosumabe, vitamina D e cálcio devem estar repostos: com deficiência grave, a inibição súbita da reabsorção óssea remove a fonte de cálcio que o paratormônio vinha mobilizando, e ocorre hipocalcemia, às vezes sintomática. O paratormônio elevado aqui é secundário. Repõe-se colecalciferol e cálcio, com reavaliação em algumas semanas. Após fratura de quadril, o ácido zoledrônico reduziu nova fratura e mortalidade no HORIZON-RFT.",
+  "porAlt": [
+   "Com vitamina D de 9 ng/mL, a infusão pode causar hipocalcemia sintomática.",
+   "Deficiência grave de vitamina D com hiperparatireoidismo secundário: repor e aplicar quando vitamina D e cálcio estiverem adequados.",
+   "Denosumabe também causa hipocalcemia na deficiência de vitamina D.",
+   "Ácido zoledrônico é contraindicado com filtração abaixo de 35 mL/min, o que não é o caso.",
+   "Teriparatida não é a solução para hipocalcemia por deficiência de vitamina D."
+  ]
+ },
+ {
+  "q": "Mulher de 46 anos tem nódulo tireoidiano de 2,2 cm, sólido, hipoecogênico e de margens lisas (ACR TI-RADS 4). TSH normal. A punção aspirativa mostrou atipia de significado indeterminado (Bethesda III), com amostra adequada. Não há linfonodos suspeitos, história de irradiação ou câncer de tireoide na família. Não tem sintomas compressivos. Está preocupada e pergunta se precisa operar agora. Qual é a conduta mais adequada?",
+  "alts": [
+   "Tireoidectomia total imediata",
+   "Alta e nova ultrassonografia em 5 anos",
+   "Iodo radioativo para ablação do nódulo",
+   "Levotiroxina supressiva e punção em 1 ano",
+   "Repetir a punção ou fazer teste molecular"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "The 2023 Bethesda System for Reporting Thyroid Cytopathology, Thyroid, 2023; American Thyroid Association Guidelines for Thyroid Nodules, 2015",
+  "coment": "Na terceira edição do sistema de Bethesda (2023), a categoria III (atipia de significado indeterminado) tem risco de malignidade de cerca de 13 a 30%. A ATA recomenda repetir a punção ou fazer teste molecular; se persistir indeterminado, a decisão entre vigilância e lobectomia diagnóstica considera a ultrassonografia, a preferência da paciente e o risco clínico. Tireoidectomia total não é o passo inicial.",
+  "porAlt": [
+   "Com risco de malignidade de 13 a 30%, cirurgia total imediata é excessiva.",
+   "Resultado indeterminado não permite alta.",
+   "Iodo radioativo não tem papel no nódulo com citologia indeterminada.",
+   "Supressão com levotiroxina não é recomendada.",
+   "Bethesda III: repetir a punção ou usar teste molecular; se persistir, considerar lobectomia diagnóstica."
+  ]
+ },
+ {
+  "q": "Homem de 44 anos com hipertensão paroxística, cefaleia e palpitações tem metanefrinas plasmáticas livres 6 vezes acima do limite e massa adrenal direita de 4,5 cm com densidade de 38 unidades Hounsfield. A cintilografia não mostra doença extra-adrenal. Pressão arterial 168/102 mmHg, frequência 96 bpm, glicemia de jejum de 112 mg/dL. A adrenalectomia laparoscópica está marcada para daqui a 3 semanas. Qual é o preparo pré-operatório adequado?",
+  "alts": [
+   "Bloqueio alfa, sal e líquidos, depois betabloqueador",
+   "Betabloqueador isolado para a frequência",
+   "Propranolol primeiro e doxazosina só na véspera",
+   "Nenhum preparo, pela via laparoscópica",
+   "Anlodipino isolado no dia da cirurgia"
   ],
   "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "Endocrine Society guideline on vitamin D, 2024; Endocrine Society guideline on osteoporosis, revisão 2023",
-  "coment": "A deficiência de vitamina D deve ser corrigida antes e durante o tratamento antirreabsortivo, porque o bisfosfonato e sobretudo o denosumabe podem precipitar hipocalcemia sintomática em paciente com vitamina D baixa e cálcio insuficiente. A reposição usa colecalciferol em esquema diário ou semanal, com monitorização dos níveis séricos e do cálcio. Doses únicas anuais muito elevadas foram associadas a aumento de quedas e fraturas em ensaios clínicos.",
-  "porAlt": [
-   "Correta: repor vitamina D com cálcio adequado antes e durante o antirreabsortivo, monitorando os níveis.",
-   "Iniciar antirreabsortivo com vitamina D baixa pode precipitar hipocalcemia sintomática grave.",
-   "O cálcio isolado sem vitamina D tem absorção prejudicada e não corrige o distúrbio de base.",
-   "Doses únicas anuais muito elevadas foram associadas a aumento de quedas e de fraturas.",
-   "A deficiência interfere diretamente na eficácia e na segurança do tratamento da osteoporose."
-  ]
- },
- {
-  "q": "Paciente com nódulo tireoidiano e citologia Bethesda III, indeterminada. Qual é a conduta?",
-  "alts": [
-   "Indicar tireoidectomia total imediata em todos os pacientes com citologia indeterminada na primeira punção.",
-   "Ignorar completamente o resultado e não realizar qualquer seguimento do nódulo tireoidiano identificado agora.",
-   "Iniciar levotiroxina supressiva como tratamento definitivo do nódulo com citologia indeterminada descrita agora.",
-   "Repetir a punção ou considerar teste molecular, definindo sempre a conduta em avaliação conjunta com o paciente.",
-   "Iniciar iodo radioativo imediatamente em todos os pacientes com citologia indeterminada em nódulo tireoidiano."
-  ],
-  "gab": 3,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
   "nivel": "r3",
-  "base": "American Thyroid Association Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, revisão 2023; Bethesda System, 3ª edição, 2023",
-  "coment": "A categoria Bethesda III, atipia de significado indeterminado, tem risco intermediário de malignidade e admite três caminhos: repetir a punção aspirativa, aplicar teste molecular quando disponível, ou realizar lobectomia diagnóstica. A escolha considera o risco ultrassonográfico, o tamanho, a idade, comorbidades e a preferência do paciente. A tireoidectomia total imediata é desproporcional para a maioria, pois grande parte desses nódulos é benigna.",
+  "base": "Endocrine Society Clinical Practice Guideline: Pheochromocytoma and Paraganglioma, 2014",
+  "coment": "A Endocrine Society recomenda preparar todo feocromocitoma funcionante com bloqueio alfa-adrenérgico por 7 a 14 dias, com metas de pressão abaixo de 130/80 mmHg sentado e sistólica acima de 90 mmHg em pé, associado a dieta rica em sal e líquidos para reexpandir o volume e reduzir a hipotensão após a retirada do tumor. Betabloqueador entra apenas depois do bloqueio alfa, para taquicardia. Bloqueador de canal de cálcio é complemento ou alternativa.",
   "porAlt": [
-   "A tireoidectomia total imediata é desproporcional, pois a maioria desses nódulos é benigna.",
-   "Ignorar citologia indeterminada perde o diagnóstico de carcinoma em parte relevante dos casos.",
-   "A terapia supressiva foi abandonada por ineficácia e risco de tireotoxicose iatrogênica.",
-   "Correta: repetir a punção ou usar teste molecular, definindo a conduta em decisão conjunta com o paciente.",
-   "O iodo radioativo trata hipertireoidismo e não tem papel diante de citologia indeterminada."
-  ]
- },
- {
-  "q": "Paciente com feocromocitoma confirmado será submetido a cirurgia. Qual é o preparo pré-operatório?",
-  "alts": [
-   "Iniciar betabloqueador isolado antes de qualquer bloqueio alfa-adrenérgico no preparo desse paciente agora.",
-   "Operar sem qualquer preparo farmacológico em todos os pacientes com feocromocitoma confirmado nesse contexto.",
-   "Iniciar apenas diurético em dose alta como preparo pré-operatório do paciente com feocromocitoma neste caso.",
-   "Bloqueio alfa-adrenérgico iniciado com antecedência, acrescentando sempre betabloqueador apenas depois do alfa.",
-   "Iniciar apenas restrição hídrica rigorosa como único preparo pré-operatório no paciente com feocromocitoma."
-  ],
-  "gab": 3,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline, Pheochromocytoma and Paraganglioma, revisão 2023",
-  "coment": "O preparo pré-operatório do feocromocitoma exige bloqueio alfa-adrenérgico iniciado dez a catorze dias antes, tipicamente com fenoxibenzamina ou doxazosina, associado a dieta rica em sal e hidratação para restaurar o volume plasmático contraído. O betabloqueador só é acrescentado depois do bloqueio alfa estabelecido: usado antes, permite vasoconstrição alfa sem oposição e pode precipitar crise hipertensiva grave, edema pulmonar e óbito.",
-  "porAlt": [
-   "O betabloqueador antes do alfa permite vasoconstrição sem oposição e pode precipitar crise grave.",
-   "Operar sem preparo expõe a crise hipertensiva intraoperatória com risco elevado de morte.",
-   "O diurético agrava a contração de volume já presente e não substitui o bloqueio adrenérgico.",
-   "Correta: bloqueio alfa iniciado com antecedência, com betabloqueador acrescentado somente depois.",
-   "A restrição hídrica é o oposto do indicado: o preparo inclui expansão de volume com sal e líquidos."
+   "Bloqueio alfa por 7 a 14 dias, dieta rica em sal e líquidos e betabloqueador só depois, se houver taquicardia.",
+   "Betabloqueador isolado deixa o estímulo alfa sem oposição e pode causar crise hipertensiva.",
+   "Iniciar beta antes do alfa é o erro clássico: vasoconstrição sem oposição.",
+   "A manipulação do tumor libera catecolaminas em qualquer via de acesso.",
+   "Bloqueador de canal pode complementar, mas não é preparo isolado de véspera."
   ]
  },
  {
@@ -21576,27 +21576,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com cetoacidose diabética apresenta potássio sérico de 3,1 mEq/L na admissão. Qual é a conduta?",
+  "q": "Mulher de 26 anos com diabetes tipo 1 foi internada por cetoacidose e recebe insulina regular endovenosa a 3 U/h com soro glicosado. Após 20 horas: pH 7,34, bicarbonato 20 mEq/L, ânion gap 10 mEq/L, beta-hidroxibutirato 0,4 mmol/L, glicemia 168 mg/dL e potássio 4,0 mEq/L. Está alerta, com fome, e aceitou o café da manhã. Antes da internação usava glargina 20 U/dia e lispro nas refeições. Qual é a conduta?",
   "alts": [
-   "Iniciar insulina imediatamente sem qualquer reposição de potássio no paciente com esse valor na admissão.",
-   "Não repor potássio em nenhum momento, pois a cetoacidose cursa com potássio corporal total elevado agora.",
-   "Administrar bicarbonato de sódio como medida prioritária antes de qualquer reposição de potássio no paciente.",
-   "Aguardar a normalização espontânea do potássio antes de iniciar qualquer hidratação endovenosa no paciente.",
-   "Repor potássio antes de iniciar a insulina, mantendo sempre a reposição durante todo o tratamento do paciente."
+   "Desligar a infusão e dar glargina à noite",
+   "Manter a infusão por mais 24 horas",
+   "Desligar a infusão e usar só escala",
+   "Glargina e desligar a bomba 2 horas depois",
+   "Reiniciar bicarbonato até pH de 7,4"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "uti",
-  "comp": "urg",
+  "comp": "tto",
   "nivel": "r3",
-  "base": "ADA/EASD consensus report on hyperglycaemic crises in adults, 2024",
-  "coment": "Na cetoacidose diabética o potássio corporal total está sempre depletado, mesmo quando o sérico está normal ou elevado, porque a acidose e a falta de insulina deslocam o íon para fora da célula. A insulina reverte esse deslocamento e pode precipitar hipocalemia grave com arritmia e parada respiratória. Por isso, com potássio abaixo de 3,3 mEq/L a insulina é adiada até a reposição, e acima disso repõe-se potássio junto à infusão de insulina.",
+  "base": "Hyperglycemic crises in adults with diabetes: a consensus report (ADA, EASD, JBDS, AACE, DTS), Diabetes Care, 2024",
+  "coment": "A cetoacidose está resolvida (pH de 7,3 ou mais, bicarbonato de 18 mEq/L ou mais, beta-hidroxibutirato abaixo de 0,6 mmol/L) e a paciente come. O consenso de 2024 recomenda aplicar insulina basal subcutânea e manter a infusão endovenosa por 1 a 2 horas, porque a insulina endovenosa age por poucos minutos. Quem já usava insulina pode retomar a dose prévia; no diagnóstico recente, estima-se 0,5 a 0,6 U/kg/dia. Aplicar a basal ainda durante a infusão, nas primeiras horas, também é aceito.",
   "porAlt": [
-   "Iniciar insulina com potássio abaixo de 3,3 pode precipitar arritmia e parada respiratória.",
-   "O potássio corporal total está depletado na cetoacidose, mesmo com sérico normal ou elevado.",
-   "O bicarbonato não é prioritário e pode agravar a hipocalemia ao deslocar potássio para a célula.",
-   "A hidratação é medida inicial obrigatória e não deve aguardar a normalização do potássio.",
-   "Correta: repor potássio antes da insulina e manter a reposição ao longo de todo o tratamento."
+   "A insulina endovenosa dura minutos; desligar sem basal ativa causa rebote de cetoacidose.",
+   "Cetoacidose resolvida e aceitação oral: prolongar a infusão não traz benefício.",
+   "Escala isolada não fornece insulina basal a quem tem diabetes tipo 1.",
+   "Resolvida a cetoacidose: basal subcutânea e infusão mantida por 1 a 2 horas, com prandial nas refeições.",
+   "Não há acidose a corrigir."
   ]
  },
  {
@@ -21864,27 +21864,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com uso crônico de corticoide desenvolve hiperglicemia. Qual é o padrão glicêmico esperado e a conduta?",
+  "q": "Homem de 67 anos com diabetes tipo 2 controlado com metformina (hemoglobina glicada de 6,9%) iniciou prednisona 40 mg às 8 horas para exacerbação de DPOC. Após 3 dias, as glicemias capilares são de 118 mg/dL em jejum, 196 mg/dL antes do almoço, 284 mg/dL antes do jantar e 150 mg/dL ao deitar. Pesa 75 kg e tem creatinina normal. A prednisona será mantida por mais 7 dias. Qual é a conduta mais adequada?",
   "alts": [
-   "Hiperglicemia exclusivamente de jejum matinal, único padrão observado no uso crônico de corticoide sistêmico.",
-   "Hiperglicemia predominantemente pós-prandial e vespertina, exigindo sempre monitorização em horários adequados.",
-   "Ausência de qualquer alteração glicêmica, pois o corticoide não interfere no metabolismo da glicose agora.",
-   "Hipoglicemia recorrente noturna, alteração característica do uso crônico de corticoide em dose suprafisiológica.",
-   "Padrão glicêmico completamente aleatório, que dispensa qualquer monitorização programada no paciente agora."
+   "Glargina ao deitar em dose alta",
+   "NPH pela manhã, junto com a prednisona",
+   "Aumentar a metformina e reavaliar depois",
+   "Insulina regular por escala às 3 horas",
+   "Glibenclamida antes do café"
   ],
   "gab": 1,
   "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
+  "cenario": "enf",
+  "comp": "tto",
   "nivel": "r3",
-  "base": "Endocrine Society guidance on glucocorticoid-induced hyperglycemia, revisão 2023; ADA Standards of Care in Diabetes, 2025",
-  "coment": "O corticoide, sobretudo em dose única matinal de ação intermediária como a prednisona, produz hiperglicemia predominantemente no período pós-prandial e vespertino, com glicemia de jejum frequentemente normal. Por isso, monitorar apenas o jejum subestima o problema, e a glicemia pós-almoço e do fim da tarde é mais sensível. O tratamento privilegia insulina com perfil que acompanhe esse padrão, ajustada conforme a dose e o horário do corticoide.",
+  "base": "ADA Standards of Care in Diabetes, seção 16, 2025; Joint British Diabetes Societies: Management of hyperglycaemia and steroid therapy, 2023",
+  "coment": "A prednisona em dose única matinal tem pico hiperglicemiante entre 4 e 8 horas: a glicemia de jejum fica quase normal e sobe à tarde e à noite. Medir só o jejum subestima o problema. A estratégia recomendada é insulina NPH aplicada junto com a prednisona, em dose proporcional ao corticoide (cerca de 0,1 U/kg para cada 10 mg de prednisona, até 0,4 U/kg), com insulina de correção, reduzindo a NPH conforme o corticoide é retirado.",
   "porAlt": [
-   "A glicemia de jejum é frequentemente normal, e monitorar apenas ela subestima a hiperglicemia.",
-   "Correta: hiperglicemia predominantemente pós-prandial e vespertina, exigindo monitorização nesses horários.",
-   "O corticoide aumenta a resistência insulínica e a produção hepática de glicose de forma marcante.",
-   "O corticoide causa hiperglicemia, e não hipoglicemia, no seu uso crônico em dose suprafisiológica.",
-   "O padrão é previsível e a monitorização deve ser dirigida aos horários de maior elevação."
+   "Basal noturna trataria o jejum, que está normal, e arriscaria hipoglicemia de madrugada.",
+   "Prednisona matinal causa hiperglicemia da tarde e da noite; NPH na mesma hora acompanha o pico.",
+   "Metformina não controla essa hiperglicemia vespertina.",
+   "Não há hiperglicemia de madrugada para corrigir.",
+   "Sulfonilureia tem ação desalinhada do corticoide e causa hipoglicemia."
   ]
  },
  {
@@ -22080,27 +22080,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com hipertireoidismo por doença de Graves deseja engravidar. Qual é a orientação?",
+  "q": "Mulher de 29 anos com doença de Graves há 18 meses, em uso de metimazol 15 mg/dia, deseja engravidar no próximo ano. Duas tentativas de reduzir a dose resultaram em recidiva. Tem bócio difuso de 60 g, TRAb 5 vezes acima do limite superior e oftalmopatia leve inativa. Não fuma. A função tireoidiana atual é normal. Pergunta qual é a melhor estratégia antes de engravidar. Qual é a orientação mais adequada?",
   "alts": [
-   "Controlar a função tireoidiana antes da concepção e ajustar sempre o antitireoidiano conforme o trimestre gestacional.",
-   "Engravidar imediatamente sem qualquer controle prévio da função tireoidiana no paciente com doença de Graves agora.",
-   "Manter metimazol em dose alta durante todo o primeiro trimestre, período de maior segurança desse fármaco neste caso.",
-   "Indicar iodo radioativo imediatamente antes da concepção, sem qualquer intervalo de espera após o tratamento agora.",
-   "Suspender todo tratamento durante a gestação, pois o hipertireoidismo não afeta o desfecho gestacional neste caso."
+   "Manter metimazol e engravidar sem mudanças",
+   "Iodo radioativo e engravidar no mês seguinte",
+   "Suspender o metimazol ao engravidar",
+   "Trocar por propiltiouracil por 18 meses",
+   "Tireoidectomia total antes da gestação"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "American Thyroid Association Guidelines for the Diagnosis and Management of Thyroid Disease During Pregnancy, 2017 com revisão 2023",
-  "coment": "O hipertireoidismo não controlado na gestação aumenta perda fetal, prematuridade, pré-eclâmpsia e crise tireotóxica, e a gravidez deve ser planejada com a função controlada. No primeiro trimestre prefere-se propiltiouracila, pelo menor risco de embriopatia associada ao metimazol, trocando-se para metimazol a partir do segundo trimestre pela hepatotoxicidade da propiltiouracila. O iodo radioativo exige intervalo de pelo menos seis meses antes da concepção.",
+  "base": "American Thyroid Association Guidelines for Hyperthyroidism, 2016; ATA Guidelines for Thyroid Disease During Pregnancy and the Postpartum, 2017",
+  "coment": "Mulheres com doença de Graves que planejam gestação devem discutir terapia definitiva antes. A ATA observa que o iodo radioativo tende a elevar o TRAb por meses, com risco de doença fetal, e exige esperar 6 meses para engravidar; com TRAb alto, a tireoidectomia é preferível, feita com antecedência e com o TRAb acompanhado depois. Após a cirurgia, a paciente engravida em uso de levotiroxina, sem exposição a antitireoidianos.",
   "porAlt": [
-   "Correta: controlar a função antes da concepção e ajustar o antitireoidiano conforme o trimestre.",
-   "Engravidar sem controle aumenta perda fetal, prematuridade e risco de crise tireotóxica materna.",
-   "O metimazol no primeiro trimestre associa-se a embriopatia, preferindo-se a propiltiouracila.",
-   "O iodo radioativo exige intervalo de pelo menos seis meses antes da concepção da paciente.",
-   "O hipertireoidismo não controlado afeta gravemente o desfecho gestacional e fetal."
+   "Manter tionamida expõe o embrião no primeiro trimestre, e o risco de recidiva é alto.",
+   "Após iodo radioativo, a gestação deve esperar pelo menos 6 meses, e o TRAb pode subir.",
+   "Com TRAb alto e recidivas, suspender causa hipertireoidismo materno e fetal.",
+   "Propiltiouracil por longo prazo tem risco de hepatotoxicidade grave.",
+   "TRAb alto, bócio grande e recidivas em quem planeja gestação: cirurgia antes, sem antitireoidiano na gravidez."
   ]
  },
  {
