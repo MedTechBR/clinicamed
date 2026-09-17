@@ -5208,27 +5208,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 72 anos internado em unidade de terapia intensiva por insuficiência respiratória, em ventilação mecânica há sete dias, apresenta febre, aumento da secreção traqueal purulenta e novo infiltrado radiológico. Qual é a conduta inicial mais adequada?",
+  "q": "Homem de 72 anos, em ventilação mecânica há 7 dias por AVC, recebeu ceftriaxona por 5 dias por broncoaspiração. Agora tem febre de 38,9 °C, secreção traqueal purulenta, novo infiltrado em lobo inferior esquerdo e PaO₂/FiO₂ de 160. Iniciou noradrenalina 0,2 µg/kg/min. Na UTI, 25% dos Staphylococcus aureus são resistentes à oxacilina e 15% das Pseudomonas resistem a cefepima. Pesa 70 kg, clearance de 60 mL/min, sem alergias. Qual é a antibioticoterapia empírica mais adequada após colher culturas?",
   "alts": [
-   "Iniciar antifúngico empírico porque a colonização das vias aéreas por fungos é frequente aqui.",
-   "Aguardar o resultado da cultura antes de iniciar qualquer antimicrobiano para evitar resistência.",
-   "Coletar aspirado traqueal e iniciar antibiótico empírico dirigido ao perfil local de resistência.",
-   "Trocar rotineiramente o circuito do ventilador e a cânula como medida terapêutica inicial dele.",
-   "Iniciar corticoide sistêmico em dose alta como tratamento principal do novo infiltrado pulmonar."
+   "Ceftriaxona com azitromicina",
+   "Piperacilina-tazobactam isolada",
+   "Levofloxacino 750 mg isolado",
+   "Vancomicina e 2 antipseudomonas distintos",
+   "Aguardar o aspirado traqueal para iniciar"
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "IDSA/ATS Guidelines for the Management of Adults with Hospital-acquired and Ventilator-associated Pneumonia, 2016; ANVISA, medidas de prevenção de infecção relacionada à assistência",
-  "coment": "Diante de suspeita de pneumonia associada à ventilação mecânica, colhe-se amostra respiratória e inicia-se antibioticoterapia empírica precoce, guiada pelo perfil microbiológico da unidade e pelos fatores de risco para germes multirresistentes, com descalonamento após o resultado das culturas. Aguardar a cultura para tratar aumenta mortalidade. Candida isolada em aspirado traqueal representa colonização e não indica antifúngico, e a troca rotineira do circuito não reduz infecção.",
+  "nivel": "r3",
+  "base": "IDSA/ATS Clinical Practice Guidelines: Management of Adults With Hospital-acquired and Ventilator-associated Pneumonia, 2016",
+  "coment": "Pela IDSA/ATS (2016), pneumonia associada à ventilação exige cobertura empírica de S. aureus, Pseudomonas e gram-negativos. Cobertura para MRSA é indicada com uso de antibiótico endovenoso nos últimos 90 dias ou prevalência local de MRSA acima de 10% a 20%. Dois antipseudomonas de classes diferentes são indicados com choque séptico, antibiótico endovenoso nos 90 dias prévios, SDRA, 5 dias ou mais de internação antes da pneumonia ou terapia renal substitutiva. Aqui há choque e antibiótico recente. Após culturas, descalona-se, com duração de 7 dias na maioria.",
   "porAlt": [
-   "Fungo em secreção traqueal representa colonização e o antifúngico empírico não traz benefício aqui.",
-   "Adiar o antimicrobiano na suspeita de pneumonia associada à ventilação aumenta a mortalidade.",
-   "Correta: coletar amostra respiratória e iniciar antibiótico empírico conforme o perfil local de resistência.",
-   "A troca rotineira de circuito não reduz infecção e não constitui tratamento do quadro instalado.",
-   "Corticoide não é o tratamento da pneumonia associada à ventilação e pode agravar a infecção."
+   "Esquema de pneumonia comunitária não cobre Pseudomonas e MRSA.",
+   "Monoterapia é insuficiente com choque e antibiótico recente.",
+   "Quinolona isolada não cobre MRSA e tem resistência alta.",
+   "Pneumonia associada à ventilação com choque e antibiótico recente: vancomicina e 2 antipseudomonas de classes diferentes.",
+   "Atrasar antibiótico em choque séptico aumenta mortalidade."
   ]
  },
  {
@@ -5520,27 +5520,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 65 anos em terapia intensiva por sepse de foco pulmonar, no terceiro dia, apresenta melhora clínica, sem vasopressor, com procalcitonina em queda e cultura identificando pneumococo sensível. Qual é a conduta antimicrobiana?",
+  "q": "Mulher de 65 anos está no terceiro dia de UTI por choque séptico de foco pulmonar, iniciado com meropeném e vancomicina. Hoje está sem vasopressor, afebril há 36 horas, extubada, com procalcitonina caindo de 18 para 4 ng/mL. Hemoculturas: Streptococcus pneumoniae sensível à penicilina (CIM de 0,03). Pesquisa de MRSA nasal negativa. Clearance de 70 mL/min, sem alergias. Pesa 64 kg e não tem derrame pleural na ultrassonografia. Qual é a conduta antimicrobiana mais adequada?",
   "alts": [
-   "Manter o esquema de amplo espectro por catorze dias completos para prevenir a recidiva do quadro.",
-   "Associar um segundo antimicrobiano para ampliar a cobertura mesmo com a melhora já observada.",
-   "Suspender todos os antimicrobianos imediatamente porque o paciente apresentou melhora clínica.",
-   "Descalonar para antimicrobiano de espectro estreito e programar duração total curta e definida.",
-   "Trocar o esquema por antifúngico empírico devido ao tempo de internação em terapia intensiva."
+   "Descalonar para penicilina, total de 5 a 7 dias",
+   "Manter meropeném e vancomicina por 14 dias",
+   "Suspender todos os antibióticos hoje",
+   "Trocar para linezolida por 10 dias",
+   "Acrescentar azitromicina ao meropeném"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign, 2021; IDSA/SHEA, Implementing an Antibiotic Stewardship Program, 2016",
-  "coment": "Com identificação do agente e melhora clínica, a conduta é o descalonamento para o antimicrobiano de menor espectro eficaz, medida central dos programas de uso racional de antimicrobianos, que reduz seleção de resistência, toxicidade e custo sem prejudicar desfecho. A duração deve ser a mais curta possível conforme o sítio e a resposta, geralmente de cinco a sete dias em pneumonia com boa evolução, apoiada por parâmetros clínicos e, quando disponível, pela curva de procalcitonina.",
+  "base": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock, 2021; IDSA/SHEA Guidelines for Implementing an Antibiotic Stewardship Program, 2016",
+  "coment": "Com agente identificado e sensível e melhora clínica, a Surviving Sepsis (2021) e os programas de gestão de antimicrobianos recomendam descalonar para o espectro mais estreito eficaz: pneumococo sensível à penicilina pode ser tratado com penicilina cristalina ou ampicilina (ou amoxicilina oral quando possível). Pesquisa nasal de MRSA negativa permite suspender vancomicina. Pneumonia pneumocócica com boa resposta dispensa cursos longos: 5 a 7 dias no total, guiados pela estabilidade clínica, com procalcitonina apoiando a suspensão.",
   "porAlt": [
-   "Manter amplo espectro por tempo prolongado seleciona resistência sem melhorar o desfecho clínico.",
-   "Ampliar a cobertura diante de melhora e agente identificado contraria o uso racional de antimicrobianos.",
-   "Suspender antes de completar o curso adequado ao sítio expõe o paciente à recidiva da infecção.",
-   "Correta: descalonar para espectro estreito e definir a menor duração eficaz para o sítio tratado.",
-   "Não há elementos que sugiram infecção fúngica invasiva a justificar antifúngico empírico agora."
+   "Pneumococo sensível com melhora: descalonar para penicilina ou ampicilina, total de 5 a 7 dias.",
+   "Manter amplo espectro sem necessidade gera resistência e toxicidade.",
+   "Três dias é curto para pneumonia grave com bacteremia.",
+   "Linezolida não é indicada para pneumococo sensível.",
+   "Somar macrolídeo ao carbapenêmico não é necessário com agente definido."
   ]
  },
  {
@@ -5904,27 +5904,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 39 anos internado na enfermaria com diagnóstico recente de infecção pelo HIV, com contagem de linfócitos CD4 de 90 células por milímetro cúbico e sem infecção oportunista ativa. Qual é a conduta em relação à terapia antirretroviral?",
+  "q": "Homem de 39 anos internado por perda de peso e candidíase oral recebe diagnóstico de HIV: CD4 de 90 células/mm³, carga viral de 250 mil cópias/mL. Sem cefaleia, tosse ou febre; radiografia de tórax normal. HBsAg negativo, clearance de 95 mL/min. Não há sinais de meningite ou tuberculose ativa. Pesa 60 kg. Não tem sintomas visuais nem alterações neurológicas. Mora com a irmã. Pelo PCDT do Ministério da Saúde, qual é o conjunto de condutas mais adequado?",
   "alts": [
-   "Iniciar terapia antirretroviral o mais precocemente possível e manter profilaxias conforme o CD4.",
-   "Adiar a terapia antirretroviral até que o CD4 ultrapasse duzentas células por milímetro cúbico.",
-   "Iniciar apenas as profilaxias para infecções oportunistas, sem terapia antirretroviral por ora.",
-   "Aguardar seis meses de acompanhamento para avaliar a adesão antes de iniciar qualquer esquema.",
-   "Iniciar monoterapia antirretroviral inicial e ampliar o esquema apenas se a carga viral persistir."
+   "Aguardar CD4 subir para iniciar antirretroviral",
+   "Iniciar antirretroviral só após 8 semanas de fluconazol",
+   "Profilaxia para complexo Mycobacterium avium e adiar antirretroviral",
+   "Apenas sulfametoxazol-trimetoprima e reavaliar em 3 meses",
+   "Antirretroviral rápido, SMX-TMP e antígeno criptocócico"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "Ministério da Saúde. PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, guidelines on advanced HIV disease",
-  "coment": "A recomendação atual é iniciar a terapia antirretroviral para todas as pessoas vivendo com HIV, o mais precocemente possível e independentemente da contagem de CD4, o que reduz morbidade, mortalidade e transmissão. Com CD4 abaixo de 200, associam-se profilaxias (sulfametoxazol-trimetoprima para pneumocistose e, conforme o valor e o quadro, para toxoplasmose e micobactérias), além do rastreio de tuberculose e de criptococose. Em algumas infecções oportunistas do sistema nervoso, o início é postergado por semanas.",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; WHO Guidelines for managing advanced HIV disease, 2017",
+  "coment": "Na doença avançada pelo HIV (CD4 abaixo de 200), o PCDT (2024) recomenda início rápido da terapia antirretroviral, idealmente em até 7 dias, após excluir tuberculose e meningite criptocócica ativas, que exigem adiar o início. Com CD4 abaixo de 200, faz-se profilaxia para pneumocistose com sulfametoxazol-trimetoprima (que protege também contra toxoplasmose) e rastreio de antígeno criptocócico no sangue; se positivo sem meningite, fluconazol preemptivo. Profilaxia para complexo M. avium não é necessária quando a terapia antirretroviral é iniciada rapidamente.",
   "porAlt": [
-   "Correta: iniciar a terapia antirretroviral precocemente e manter as profilaxias indicadas pelo CD4.",
-   "O critério de contagem de CD4 para iniciar tratamento foi abandonado: trata-se toda pessoa com HIV.",
-   "As profilaxias são necessárias, mas não substituem o tratamento antirretroviral, que é prioritário.",
-   "Adiar por meses para testar adesão contraria a recomendação e expõe o paciente a doença avançada.",
-   "A monoterapia não é utilizada como esquema inicial pelo risco de falha e de resistência viral."
+   "O CD4 só sobe com antirretroviral; adiar aumenta mortalidade.",
+   "Adiar 8 semanas é para meningite criptocócica confirmada.",
+   "Profilaxia para M. avium é dispensável com início rápido de antirretroviral.",
+   "Adiar o antirretroviral por 3 meses aumenta mortalidade.",
+   "Doença avançada sem infecção oportunista ativa: antirretroviral rápido, sulfametoxazol-trimetoprima e antígeno criptocócico."
   ]
  },
  {
@@ -6000,27 +6000,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 58 anos em terapia intensiva após transplante renal recente, em imunossupressão, apresenta febre e infiltrado pulmonar difuso, com hipoxemia progressiva. Qual é a abordagem diagnóstica mais adequada?",
+  "q": "Homem de 58 anos, 3 meses após transplante renal de doador falecido, em tacrolimo, micofenolato e prednisona, sem profilaxia com sulfametoxazol-trimetoprima desde o segundo mês por leucopenia, tem febre, tosse seca e dispneia progressiva há 5 dias. Saturação de 86% em ar ambiente, LDH de 620 U/L. Tomografia com vidro fosco difuso bilateral, sem consolidação. CMV sorologia do doador positiva e receptor negativa. Qual é a abordagem diagnóstica mais adequada?",
   "alts": [
-   "Tratar empiricamente apenas como pneumonia bacteriana comum, sem investigação microbiológica ampliada.",
-   "Ampliar a investigação para germes oportunistas, incluindo broncoscopia com lavado broncoalveolar.",
-   "Suspender toda a imunossupressão de imediato para restaurar a resposta imune desse paciente grave.",
-   "Iniciar corticoide em dose alta isoladamente como tratamento principal do infiltrado pulmonar difuso.",
-   "Aguardar a evolução clínica por setenta e duas horas antes de iniciar qualquer investigação ampliada."
+   "Ceftriaxona e azitromicina e observar",
+   "Biópsia pulmonar cirúrgica imediata",
+   "Broncoscopia com lavado para oportunistas",
+   "Apenas hemoculturas e aguardar resultado",
+   "Suspender toda a imunossupressão e observar"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ATS Workshop Report on pneumonia in the immunocompromised host, 2020; KDIGO Clinical Practice Guideline for the Care of Kidney Transplant Recipients, 2009 e atualizações de 2020",
-  "coment": "No transplantado com infiltrado pulmonar difuso e hipoxemia, o diferencial inclui pneumocistose, citomegalovírus, fungos filamentosos, micobactérias, germes bacterianos e causas não infecciosas como edema e toxicidade medicamentosa. A investigação ampliada com broncoscopia e lavado broncoalveolar, somada a antígenos, biologia molecular e imagem, é o que permite tratamento dirigido. A imunossupressão é ajustada em conjunto com a equipe do transplante, nunca suspensa abruptamente por conta própria.",
+  "base": "American Society of Transplantation Infectious Diseases Community of Practice Guidelines: Pneumocystis and CMV in solid organ transplantation, 2019",
+  "coment": "Entre 1 e 6 meses após transplante, predominam infecções oportunistas: pneumocistose (sobretudo sem profilaxia) e citomegalovírus (risco máximo em doador positivo e receptor negativo). Vidro fosco difuso, hipoxemia e LDH alto sugerem ambos. A investigação inclui broncoscopia com lavado broncoalveolar (PCR e imunofluorescência para Pneumocystis, PCR para CMV e outros vírus, fungos e bactérias), beta-D-glucana e PCR quantitativo de CMV no sangue. Enquanto isso, trata-se empiricamente a pneumocistose, sem atrasar pela broncoscopia.",
   "porAlt": [
-   "Tratar apenas como pneumonia bacteriana comum perde agentes oportunistas frequentes nesse perfil.",
-   "Correta: investigação ampliada para oportunistas, incluindo broncoscopia com lavado broncoalveolar.",
-   "A suspensão abrupta de toda a imunossupressão arrisca rejeição aguda do enxerto transplantado.",
-   "O corticoide isolado sem definição etiológica pode agravar uma infecção oportunista em curso.",
-   "Aguardar a evolução em paciente hipoxêmico e imunossuprimido atrasa o tratamento dirigido."
+   "Esquema comunitário ignora os oportunistas mais prováveis.",
+   "Biópsia cirúrgica é para falha dos métodos menos invasivos.",
+   "Transplantado sem profilaxia com vidro fosco difuso: broncoscopia com lavado para Pneumocystis, CMV e outros oportunistas.",
+   "Hemoculturas não diagnosticam os agentes mais prováveis.",
+   "Suspender toda imunossupressão arrisca rejeição; ajusta-se com a equipe."
   ]
  },
  {
@@ -7344,99 +7344,99 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 24 anos, hígida e não gestante, tem disúria, polaciúria e urgência há dois dias, sem febre, sem dor lombar e sem corrimento vaginal. É o primeiro episódio no ano. Qual é a conduta correta?",
+  "q": "Mulher de 24 anos, hígida, não gestante, tem disúria, polaciúria e urgência há 2 dias, sem febre, dor lombar, corrimento ou prurido vaginal. Primeiro episódio no ano. Usa anticoncepcional oral. Sem alergias. Clearance normal. Fita urinária com nitrito e leucócitos positivos. Sem uso de antibiótico nos últimos 3 meses. Pesa 58 kg e teve relação sexual há 3 dias. Não tem história de pielonefrite. Qual é o tratamento mais adequado?",
   "alts": [
-   "Tratar empiricamente como cistite não complicada, sem necessidade de urocultura antes de iniciar.",
-   "Solicitar urocultura e aguardar o resultado por três dias antes de prescrever qualquer antimicrobiano.",
-   "Prescrever fluoroquinolona por sete dias, esquema preferido para cistite não complicada em mulheres.",
-   "Solicitar tomografia de vias urinárias antes do tratamento, para afastar complicação neste episódio.",
-   "Tratar com antimicrobiano por catorze dias, duração mínima recomendada em cada infecção urinária."
+   "Ciprofloxacino por 7 dias",
+   "Amoxicilina 500 mg por 3 dias",
+   "Ceftriaxona intramuscular e urocultura obrigatória",
+   "Nitrofurantoína 5 dias ou fosfomicina",
+   "Aguardar urocultura para tratar"
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Infectious Diseases Society of America, 2011, atualizada; Harrison's Principles of Internal Medicine, 22ª edição, 2025",
-  "coment": "Na cistite não complicada de mulher jovem, hígida e não gestante, o diagnóstico é clínico e o tratamento é empírico, sem necessidade de urocultura prévia. As opções de primeira linha são nitrofurantoína por cinco dias, fosfomicina em dose única e sulfametoxazol-trimetoprima por três dias, onde a resistência local permitir. As fluoroquinolonas são reservadas por seleção de resistência e por eventos adversos, ficando como alternativa. A urocultura é indicada em falha terapêutica, recorrência, gestação, homens, suspeita de pielonefrite ou fatores de complicação.",
+  "base": "IDSA/ESCMID International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women, 2011; EAU Guidelines on Urological Infections, 2024",
+  "coment": "Cistite não complicada em mulher não gestante pode ser tratada empiricamente, sem urocultura obrigatória. A IDSA (2011) e o Ministério da Saúde recomendam como primeira linha nitrofurantoína 100 mg a cada 6 horas (ou a cada 12 horas na formulação de liberação lenta) por 5 dias, ou fosfomicina 3 g em dose única; sulfametoxazol-trimetoprima por 3 dias se a resistência local for abaixo de 20%. Fluoroquinolonas devem ser poupadas pelos efeitos adversos graves e pela resistência. Aminopenicilinas têm alta resistência em Escherichia coli.",
   "porAlt": [
-   "Correta: cistite não complicada em mulher jovem é diagnóstico clínico com tratamento empírico, sem urocultura prévia.",
-   "Aguardar três dias pela urocultura mantém a paciente sintomática sem necessidade e não muda a escolha inicial.",
-   "A fluoroquinolona é alternativa, e não preferência, por seleção de resistência e pelos alertas de segurança da classe.",
-   "A imagem não é indicada no primeiro episódio de cistite não complicada em paciente sem sinais de gravidade.",
-   "Catorze dias é duração de infecção complicada; a cistita simples se resolve com esquemas de um a cinco dias."
+   "Quinolona deve ser poupada na cistite não complicada.",
+   "Amoxicilina tem alta resistência em Escherichia coli.",
+   "Cistite simples não exige terapia parenteral nem cultura.",
+   "Cistite não complicada: nitrofurantoína por 5 dias ou fosfomicina em dose única.",
+   "Esperar a cultura prolonga sintomas sem necessidade."
   ]
  },
  {
-  "q": "Homem de 33 anos chega com febre, cefaleia intensa, rigidez de nuca e rebaixamento leve do sensório iniciados há 12 horas. Não há déficit focal, papiledema, convulsão nem imunossupressão. Qual é a sequência correta de condutas?",
+  "q": "Homem de 33 anos tem febre, cefaleia intensa, rigidez de nuca e fotofobia há 12 horas. Glasgow 14 (confuso), sem déficit focal, convulsão, papiledema ou imunossupressão, sem doença neurológica prévia. Pressão 118/72 mmHg, petéquias ausentes. Plaquetas e coagulograma normais. Hemoculturas colhidas agora. A tomografia só estaria disponível em 3 horas. Pesa 75 kg e não tem alergias. Não viajou e não teve contato com casos de meningite. Qual é a sequência mais adequada?",
   "alts": [
-   "Aguardar tomografia de crânio e o resultado da punção antes de iniciar qualquer antimicrobiano.",
-   "Iniciar o antimicrobiano só depois de confirmada a bactéria na cultura do líquor colhido.",
-   "Realizar punção lombar de imediato e iniciar antimicrobiano somente se o líquido estiver turvo.",
-   "Prescrever aciclovir isolado, cobrindo a causa mais provável de meningite comunitária no adulto.",
-   "Colher hemocultura, iniciar antimicrobiano e corticoide, e então realizar a punção lombar."
+   "Dexametasona e ceftriaxona já, e punção sem tomografia",
+   "Aguardar tomografia para puncionar e iniciar antibiótico",
+   "Antibiótico só após o resultado do liquor",
+   "Aciclovir isolado e punção após tomografia",
+   "Punção lombar e aguardar Gram para decidir antibiótico"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "Infectious Diseases Society of America, 2004, e Harrison's, 22ª edição, 2025. Meningite bacteriana aguda",
-  "coment": "Na suspeita de meningite bacteriana, cada hora de atraso do antimicrobiano piora o prognóstico. Sem indicação de tomografia prévia (que se reserva a imunossupressão, história de doença do sistema nervoso central, convulsão recente, papiledema, déficit focal ou alteração importante do sensório), a sequência é colher hemoculturas, iniciar antimicrobiano empírico com dexametasona antes ou junto da primeira dose, e então realizar a punção lombar. Quando a tomografia é necessária, o antimicrobiano é iniciado antes dela, jamais depois. A dexametasona reduz sequela auditiva e mortalidade na etiologia pneumocócica.",
+  "base": "ESCMID Guideline: Diagnosis and Treatment of Acute Bacterial Meningitis, 2016; IDSA Practice Guidelines for Bacterial Meningitis, 2004",
+  "coment": "Na suspeita de meningite bacteriana, cada hora de atraso no antibiótico aumenta mortalidade. A ESCMID (2016) indica tomografia antes da punção apenas com déficit focal, convulsão nova, Glasgow abaixo de 10 ou imunossupressão grave; Glasgow 14 sem outros achados não exige. A sequência é colher hemoculturas, dar dexametasona 10 mg a cada 6 horas (antes ou junto da primeira dose) e ceftriaxona 2 g a cada 12 horas (com ampicilina se acima de 50 anos ou imunossuprimido; vancomicina onde houver pneumococo resistente) e puncionar logo, sem que a punção atrase o antibiótico.",
   "porAlt": [
-   "Aguardar imagem e resultado de líquor atrasa horas o antimicrobiano, e esse atraso se traduz em mortalidade.",
-   "Esperar a cultura leva dias e é incompatível com a velocidade de deterioração da meningite bacteriana aguda.",
-   "O aspecto macroscópico do líquor não decide tratamento: a suspeita clínica já obriga a iniciar antimicrobiano.",
-   "Aciclovir cobre encefalite herpética, mas não substitui a cobertura bacteriana na suspeita de meningite aguda.",
-   "Correta: sem indicação de imagem prévia, colhe-se hemocultura, inicia-se antimicrobiano com corticoide e então punciona-se."
+   "Suspeita de meningite sem indicação de imagem: dexametasona e ceftriaxona já, com punção lombar sem tomografia.",
+   "Esperar tomografia desnecessária atrasa o antibiótico.",
+   "Antibiótico não pode esperar o liquor.",
+   "O quadro é de meningite bacteriana, não só encefalite herpética.",
+   "Esperar o Gram atrasa o tratamento."
   ]
  },
  {
-  "q": "Homem de 41 anos recebe diagnóstico de infecção pelo HIV, com carga viral de 180.000 cópias e linfócitos T CD4 de 480 células/mm³. Está assintomático e sem infecção oportunista. Qual é a conduta quanto à terapia antirretroviral?",
+  "q": "Homem de 41 anos, assintomático, recebe diagnóstico de HIV com carga viral de 180 mil cópias/mL e CD4 de 480 células/mm³. HBsAg negativo, anti-HBs negativo, clearance de 102 mL/min, sem tuberculose ou infecção oportunista. Não usa anticonvulsivante ou antiácido com magnésio. Genotipagem pré-tratamento indisponível. Pesa 80 kg e não tem parceria sabidamente positiva. Deseja iniciar logo. Pelo PCDT do Ministério da Saúde de 2024, qual é o esquema inicial mais adequado?",
   "alts": [
-   "Iniciar a terapia antirretroviral em todos, independentemente da contagem de linfócitos T CD4.",
-   "Aguardar que a contagem caia abaixo de 350 células/mm³ antes de iniciar qualquer antirretroviral.",
-   "Iniciar somente se surgir alguma infecção oportunista definidora de síndrome da imunodeficiência.",
-   "Tratar apenas com profilaxia para pneumocistose, adiando a terapia antirretroviral por três meses.",
-   "Repetir a carga viral em seis meses e decidir o início conforme a velocidade de queda dos linfócitos."
+   "Aguardar CD4 abaixo de 350 para iniciar",
+   "Zidovudina, lamivudina e efavirenz",
+   "Lopinavir com ritonavir isolado",
+   "Dolutegravir isolado",
+   "Tenofovir, lamivudina e dolutegravir"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Ministério da Saúde, 2024",
-  "coment": "A recomendação vigente é iniciar terapia antirretroviral para todas as pessoas vivendo com HIV, independentemente da contagem de linfócitos T CD4, e o quanto antes, idealmente no mesmo dia do diagnóstico, quando houver condições. O benefício é duplo: reduz morbidade e mortalidade individuais e zera a transmissão sexual quando a carga viral se torna indetectável e assim se mantém. A espera por contagens baixas pertence a protocolos abandonados há mais de uma década, e adiar significa acumular dano imunológico e manter transmissibilidade.",
+  "base": "Ministério da Saúde, PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; INSIGHT START Study Group, NEJM, 2015",
+  "coment": "A terapia antirretroviral é indicada a todas as pessoas vivendo com HIV, independentemente do CD4 (START, TEMPRANO), com benefício individual e prevenção da transmissão (indetectável igual a intransmissível). O PCDT (2024) define como esquema inicial preferencial tenofovir, lamivudina e dolutegravir, que tem alta barreira genética e boa tolerância. Efavirenz e zidovudina não são preferenciais. Monoterapia ou inibidor de protease isolado favorecem resistência. Vacina contra hepatite B deve ser oferecida (anti-HBs negativo).",
   "porAlt": [
-   "Correta: a terapia é indicada para todas as pessoas com HIV, independentemente do CD4, e deve começar o quanto antes.",
-   "O limiar de 350 células pertence a protocolos abandonados; esperar acumula dano imunológico e mantém transmissão.",
-   "Aguardar infecção oportunista significa tratar apenas quando o dano já ocorreu, contrariando toda a evidência atual.",
-   "A profilaxia isolada não controla a replicação viral nem impede a progressão da imunodeficiência do paciente.",
-   "Repetir exames por seis meses adia sem motivo uma terapia cuja indicação já está estabelecida no diagnóstico."
+   "Terapia é indicada para todos, independentemente do CD4.",
+   "Zidovudina e efavirenz não são esquema preferencial.",
+   "Inibidor de protease isolado favorece resistência.",
+   "Monoterapia com dolutegravir não é esquema inicial.",
+   "Início de terapia no Brasil: tenofovir, lamivudina e dolutegravir."
   ]
  },
  {
-  "q": "Mulher de 68 anos, portadora de prótese valvar aórtica, chega com febre há três semanas, perda de peso e sopro novo. Hemoculturas seriadas são positivas para Staphylococcus aureus. Qual é o exame que deve ser priorizado e por quê?",
+  "q": "Mulher de 68 anos com prótese biológica aórtica há 4 anos tem febre há 3 semanas e sopro diastólico novo. Hemoculturas: Staphylococcus aureus sensível à oxacilina em 3 de 3 amostras. Ecocardiograma transesofágico: vegetação de 14 mm na prótese e abscesso perivalvar com fístula. Pressão 112/64 mmHg, sem insuficiência cardíaca descompensada, sem AVC. Recebe oxacilina, gentamicina e rifampicina. Pesa 62 kg, clearance de 58 mL/min. Eletrocardiograma com PR de 240 ms, novo. Qual é a conduta mais adequada?",
   "alts": [
-   "Ecocardiograma transesofágico, pela sensibilidade superior na avaliação de prótese valvar infectada.",
-   "Radiografia de tórax isolada, exame suficiente para o diagnóstico de endocardite infecciosa aguda.",
-   "Tomografia de crânio, indicada como primeiro exame diante de qualquer febre prolongada no idoso.",
-   "Ecocardiograma transtorácico apenas, que tem a mesma acurácia do transesofágico nesse contexto.",
-   "Cintilografia óssea, para localizar o foco infeccioso primário antes do estudo cardíaco dessa idosa."
+   "Manter antibiótico por 6 semanas e repetir ecocardiograma",
+   "Trocar para vancomicina e manter clínico",
+   "Cirurgia de urgência, nos próximos dias",
+   "Cirurgia eletiva após 6 semanas de antibiótico",
+   "Anticoagulação plena e observação"
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "enf",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "European Society of Cardiology, 2023, Guidelines for the management of endocarditis",
-  "coment": "Em portador de prótese valvar com bacteriemia por Staphylococcus aureus, a suspeita de endocardite é alta e o ecocardiograma transesofágico é o exame de escolha: o transtorácico tem sensibilidade baixa em próteses, pela sombra acústica do material, e um exame negativo não afasta o diagnóstico. O transesofágico avalia melhor vegetações pequenas, abscesso de anel e deiscência. Bacteriemia por Staphylococcus aureus, sobretudo com material protético, exige investigação sistemática de foco endovascular, e a antibioticoterapia é prolongada e guiada pelo agente e pela suscetibilidade.",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC Guidelines for the management of endocarditis, 2023",
+  "coment": "Pela ESC (2023), endocardite com extensão perivalvar (abscesso, pseudoaneurisma, fístula) tem indicação de cirurgia de urgência (em 3 a 5 dias), pois é infecção não controlada. Endocardite de prótese por S. aureus também é fator de alto risco que favorece cirurgia precoce. Antibiótico isolado raramente esteriliza abscesso perivalvar. O esquema para prótese com S. aureus sensível inclui oxacilina e rifampicina por 6 semanas ou mais, com gentamicina nas 2 primeiras semanas. Anticoagulação não previne embolia na endocardite.",
   "porAlt": [
-   "Correta: em prótese valvar o transesofágico é o exame de escolha, pela baixa sensibilidade do transtorácico nesse cenário.",
-   "A radiografia de tórax não diagnostica endocardite e serve apenas para avaliar complicações pulmonares associadas.",
-   "A tomografia de crânio se justifica diante de sinais neurológicos, e não como primeiro exame de febre prolongada.",
-   "O transtorácico tem sensibilidade bem inferior em próteses, e um resultado negativo não afasta a endocardite.",
-   "A cintilografia óssea não é o passo inicial: a bacteriemia com prótese aponta o coração como foco a investigar."
+   "Abscesso perivalvar com fístula raramente se resolve com antibiótico isolado.",
+   "Agente sensível à oxacilina não justifica vancomicina.",
+   "Endocardite de prótese com abscesso e fístula: cirurgia de urgência.",
+   "Esperar 6 semanas com infecção não controlada aumenta mortalidade.",
+   "Anticoagulação não trata nem previne embolia na endocardite."
   ]
  },
  {
@@ -9168,243 +9168,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 44 anos apresenta febre há dez dias, perda de peso e tosse com escarro hemoptoico. A radiografia mostra infiltrado em ápice direito com cavitação. Qual é a conduta diagnóstica inicial?",
+  "q": "Homem de 44 anos, pesando 64 kg, tem tosse há 6 semanas, febre vespertina, sudorese noturna e perda de 6 kg. Radiografia com cavitação em ápice direito. Teste rápido molecular no escarro: Mycobacterium tuberculosis detectado, sem resistência à rifampicina. Anti-HIV negativo, glicemia normal, transaminases normais, não bebe. Nunca tratou tuberculose. Mora com a esposa e 2 filhos. Pelo manual do Ministério da Saúde, qual é o tratamento mais adequado?",
   "alts": [
-   "Iniciar antibiótico de amplo espectro para pneumonia bacteriana e reavaliar em quarenta e oito horas.",
-   "Solicitar apenas radiografia de controle em trinta dias, já sem coleta de escarro no momento atual.",
-   "Solicitar teste rápido molecular para tuberculose no escarro, com cultura e teste de sensibilidade.",
-   "Encaminhar direto para biópsia pulmonar cirúrgica, exame de escolha diante de lesão cavitária neste caso.",
-   "Solicitar somente sorologia para tuberculose, exame que confirma o diagnóstico com boa acurácia."
+   "RHZE 4 comprimidos 2 meses, RH 4 meses",
+   "RHZE 3 comprimidos por 6 meses",
+   "Isoniazida isolada por 9 meses",
+   "RHZE 2 meses e RH por 10 meses",
+   "Aguardar cultura para iniciar"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
-  "comp": "dx",
+  "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019, atualizado",
-  "coment": "Tosse por três semanas ou mais, febre vespertina, sudorese noturna, perda de peso e imagem com cavitação apical caracterizam suspeita de tuberculose pulmonar. O exame inicial recomendado no Brasil é o teste rápido molecular no escarro, que detecta o complexo Mycobacterium tuberculosis e a resistência à rifampicina em cerca de duas horas. Devem ser solicitadas também cultura e teste de sensibilidade. A sorologia não é recomendada para diagnóstico e a biópsia cirúrgica é reservada a casos em que os métodos habituais falharam.",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição, 2019",
+  "coment": "Tuberculose pulmonar sensível à rifampicina em adulto sem tratamento prévio: esquema básico com 2 meses de rifampicina, isoniazida, pirazinamida e etambutol (RHZE) e 4 meses de rifampicina e isoniazida (RH), em comprimidos de dose fixa combinada por faixa de peso: 20 a 35 kg, 2 comprimidos; 36 a 50 kg, 3; 51 a 70 kg, 4; acima de 70 kg, 5. O tratamento é diretamente observado quando possível, com notificação, investigação dos contatos e baciloscopia mensal. Esquema de 12 meses é para meningoencefalite e forma osteoarticular.",
   "porAlt": [
-   "Tratar como pneumonia bacteriana atrasa o diagnóstico e mantém a transmissão na comunidade.",
-   "Adiar trinta dias em caso suspeito perpetua a transmissão e agrava a lesão pulmonar do paciente.",
-   "Correta: o teste rápido molecular no escarro, com cultura e sensibilidade, é o exame inicial recomendado.",
-   "A biópsia cirúrgica é invasiva e desnecessária quando o escarro pode fechar o diagnóstico.",
-   "A sorologia para tuberculose tem acurácia ruim e não é recomendada para diagnóstico da doença."
+   "Tuberculose sensível em adulto de 51 a 70 kg: RHZE 4 comprimidos por 2 meses e RH por 4 meses.",
+   "Com 64 kg a dose é de 4 comprimidos, e a fase de manutenção usa RH.",
+   "Isoniazida isolada é para infecção latente.",
+   "Doze meses é para formas meningoencefálica e osteoarticular.",
+   "Com teste molecular positivo, trata-se sem esperar cultura."
   ]
  },
  {
-  "q": "Mulher de 33 anos tem lesão ulcerada indolor em região genital, de bordas endurecidas e fundo limpo, com adenopatia inguinal indolor. Qual é a hipótese principal e a conduta?",
+  "q": "Mulher de 33 anos tem úlcera genital única, indolor, de bordas endurecidas e fundo limpo há 10 dias, com linfonodos inguinais indolores. Teste rápido treponêmico reagente, VDRL de 1:16. Anti-HIV não reagente, sem gestação (beta-hCG negativo). Não tem alergia a penicilina. Tem parceiro fixo, assintomático. Nunca tratou sífilis. Pesa 60 kg e mora com o parceiro há 2 anos. Não teve outras parcerias no último ano. Qual é a conduta mais adequada?",
   "alts": [
-   "Herpes genital primário, tratado com aciclovir por via oral durante sete a dez dias seguidos.",
-   "Cancro mole, tratado com azitromicina, dada a característica indolor da úlcera descrita aqui.",
-   "Linfogranuloma venéreo, cuja úlcera dolorosa com fístulas é o achado típico dessa apresentação.",
-   "Sífilis primária, tratada com penicilina benzatina em dose única por via intramuscular agora.",
-   "Donovanose, diagnóstico definido pela adenopatia inguinal dolorosa e supurativa apresentada."
+   "Benzatina 2,4 milhões UI em 3 doses",
+   "Azitromicina 1 g em dose única",
+   "Aguardar FTA-ABS para tratar",
+   "Benzatina 2,4 milhões UI dose única e parceiro",
+   "Ceftriaxona 1 g por 10 dias"
   ],
   "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
-  "comp": "dx",
+  "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde, Protocolo Clínico e Diretrizes Terapêuticas para Infecções Sexualmente Transmissíveis, 2022",
-  "coment": "A úlcera genital indolor, única, de bordas endurecidas e fundo limpo, com adenopatia regional indolor, é o cancro duro da sífilis primária. O tratamento é penicilina benzatina de 2,4 milhões de unidades em dose única por via intramuscular. Herpes cursa com vesículas agrupadas e úlceras dolorosas; cancro mole com úlceras múltiplas, dolorosas e de fundo sujo; linfogranuloma com adenopatia dolorosa e fistulizante. Testagem para HIV, hepatites e o tratamento das parcerias completam a conduta.",
+  "base": "Ministério da Saúde, PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022",
+  "coment": "Sífilis primária (cancro duro): penicilina benzatina 2,4 milhões UI intramuscular em dose única (1,2 milhão em cada glúteo). Parcerias sexuais dos últimos 90 dias são tratadas presuntivamente, mesmo com testes não reagentes. O seguimento é com VDRL a cada 3 meses no primeiro ano, esperando queda de 2 diluições em 6 meses (ou 4 vezes o título). Três doses semanais são para sífilis latente tardia ou de duração ignorada. Azitromicina tem resistência de Treponema pallidum e não é recomendada.",
   "porAlt": [
-   "O herpes genital cursa com vesículas agrupadas e úlceras dolorosas, não com lesão única e indolor.",
-   "O cancro mole produz úlceras múltiplas e dolorosas, de fundo sujo, ao contrário do descrito no caso.",
-   "O linfogranuloma cursa com adenopatia dolorosa que fistuliza, e a lesão inicial costuma passar despercebida.",
-   "Correta: úlcera indolor de bordas endurecidas é cancro duro; trata-se com penicilina benzatina em dose única.",
-   "A donovanose produz lesão granulomatosa crônica e não a apresentação descrita nesta paciente."
+   "Três doses são para sífilis latente tardia ou ignorada.",
+   "Azitromicina tem resistência e não é recomendada.",
+   "Teste treponêmico e não treponêmico reagentes já permitem tratar.",
+   "Sífilis primária: penicilina benzatina 2,4 milhões UI dose única, parceiro tratado e VDRL trimestral.",
+   "Ceftriaxona é alternativa, não primeira escolha."
   ]
  },
  {
-  "q": "Homem de 58 anos, diabético, apresenta dor e edema em pé direito com úlcera plantar profunda e secreção purulenta. Há sinal de exposição óssea ao toque com sonda estéril. Qual é a conduta?",
+  "q": "Homem de 58 anos com diabetes tem úlcera plantar sob a cabeça do primeiro metatarso há 2 meses, profunda, com secreção purulenta e celulite de 3 cm ao redor. O teste de sondagem óssea (probe-to-bone) é positivo. VHS de 88 mm/h. Temperatura de 37,6 °C, sem sepse. Índice tornozelo-braquial de 0,95. Radiografia com erosão cortical na cabeça do metatarso. Pesa 90 kg e tem hemoglobina glicada de 9,4%. Pulsos pediosos palpáveis. Qual é a conduta mais adequada?",
   "alts": [
-   "Prescrever antibiótico oral por sete dias sem cultura, medida suficiente para infecção de pele.",
-   "Considerar osteomielite, colher cultura profunda e iniciar antimicrobiano com avaliação cirúrgica.",
-   "Solicitar apenas radiografia e liberar, já que ela é sensível para descartar acometimento ósseo.",
-   "Realizar curativo diário isolado, sem antimicrobiano, aguardando a cicatrização da lesão plantar.",
-   "Indicar amputação imediata do membro, conduta padrão diante de qualquer úlcera com exposição óssea."
+   "Swab superficial e antibiótico oral por 7 dias",
+   "Oxigenoterapia hiperbárica isolada",
+   "Amputação transtibial imediata",
+   "Curativo com prata e reavaliar em 1 mês",
+   "Biópsia óssea, antibiótico dirigido e cirurgia"
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Infectious Diseases Society of America, 2023, diagnosis and treatment of diabetic foot infections",
-  "coment": "O teste do toque ósseo positivo em úlcera de pé diabético tem alta probabilidade de osteomielite e muda a conduta: exige cultura profunda ou óssea, evitando o swab superficial que só revela colonização, antimicrobiano guiado pelo agente e avaliação cirúrgica para desbridamento. A radiografia é pouco sensível nas primeiras semanas e um exame normal não afasta o diagnóstico, sendo a ressonância o exame de maior acurácia. Amputação não é conduta automática: muitos casos respondem a desbridamento com antimicrobiano prolongado.",
+  "base": "IWGDF/IDSA Guidelines on the diagnosis and treatment of diabetes-related foot infections, 2023",
+  "coment": "Sondagem óssea positiva, VHS acima de 70 mm/h e erosão radiográfica em pé diabético indicam osteomielite. A IWGDF/IDSA (2023) recomenda cultura de amostra óssea (percutânea ou cirúrgica), pois swab superficial é contaminado e não representa o agente. O tratamento combina antibiótico dirigido (cerca de 6 semanas sem ressecção, ou 3 semanas após ressecção de osso infectado), desbridamento, alívio de pressão (offloading) e avaliação vascular. Amputação maior não é indicada com perfusão preservada e infecção localizada.",
   "porAlt": [
-   "Antibiótico oral curto sem cultura subtrata uma infecção profunda e favorece a seleção de resistência.",
-   "Correta: toque ósseo positivo sugere osteomielite; colher cultura profunda, tratar e avaliar cirurgia.",
-   "A radiografia é pouco sensível nas primeiras semanas e um exame normal não exclui a osteomielite.",
-   "Curativo isolado sem antimicrobiano permite a progressão da infecção óssea e a perda do membro.",
-   "A amputação é decisão de exceção; muitos casos respondem a desbridamento com antimicrobiano."
+   "Swab superficial não identifica o agente da osteomielite, e 7 dias são insuficientes.",
+   "Oxigenoterapia hiperbárica isolada não trata osteomielite.",
+   "Amputação maior é desproporcional com perfusão preservada.",
+   "Curativo isolado não trata infecção óssea.",
+   "Osteomielite em pé diabético: biópsia óssea para cultura, antibiótico dirigido e avaliação cirúrgica."
   ]
  },
  {
-  "q": "Mulher de 26 anos, gestante de 12 semanas, tem teste rápido reagente para sífilis e VDRL de 1:32. Nunca foi tratada. Qual é a conduta correta?",
+  "q": "Gestante de 26 anos, 12 semanas, tem teste rápido treponêmico reagente e VDRL de 1:32, sem lesões. Nunca foi tratada e não sabe quando se infectou. Refere que há 5 anos teve urticária generalizada e edema de lábios minutos após injeção de penicilina benzatina. Anti-HIV negativo. Parceiro não testado. Pesa 64 kg e está na primeira gestação. O pré-natal é feito na unidade básica. Qual é a conduta mais adequada?",
   "alts": [
-   "Doxiciclina por catorze dias, alternativa preferida à penicilina em gestantes com sífilis latente.",
-   "Azitromicina em dose única, esquema aceito para gestantes com sorologia reagente para sífilis.",
-   "Aguardar o segundo trimestre para iniciar qualquer tratamento, evitando risco fetal no período atual.",
-   "Penicilina benzatina em três doses semanais, com seguimento sorológico e tratamento do parceiro.",
-   "Repetir a sorologia em três meses antes de tratar, para confirmar se há infecção realmente ativa."
+   "Ceftriaxona por 10 dias como tratamento",
+   "Azitromicina 2 g em dose única",
+   "Dessensibilização hospitalar e depois benzatina",
+   "Aguardar o parto para tratar com penicilina",
+   "Doxiciclina 100 mg por 28 dias"
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "Ministério da Saúde, Protocolo Clínico e Diretrizes Terapêuticas para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais, 2022",
-  "coment": "Na gestação, o único tratamento que trata adequadamente o feto é a penicilina benzatina, e gestante com sífilis de duração indeterminada ou latente tardia recebe três doses de 2,4 milhões de unidades com intervalo semanal. Doxiciclina é contraindicada na gestação e a azitromicina não é aceita pelo risco de resistência e por não tratar o feto. Gestante alérgica deve ser dessensibilizada, e não substituída por outra droga. O seguimento é sorológico mensal e o tratamento das parcerias é parte da conduta.",
+  "base": "Ministério da Saúde, PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais, 2022",
+  "coment": "Sífilis latente de duração ignorada na gestação exige penicilina benzatina 2,4 milhões UI semanal por 3 semanas (7,2 milhões UI). Penicilina é o único fármaco que trata o feto e previne sífilis congênita; qualquer outro esquema na gestante é considerado tratamento inadequado para fins de sífilis congênita. Com história de alergia grave, o Ministério da Saúde recomenda dessensibilização em ambiente hospitalar. Doxiciclina é contraindicada na gestação. O parceiro deve ser testado e tratado.",
   "porAlt": [
-   "A doxiciclina é contraindicada na gestação por efeitos sobre ossos e dentes fetais.",
-   "A azitromicina não trata o feto adequadamente e há relatos de resistência do treponema à droga.",
-   "Adiar o tratamento aumenta o risco de sífilis congênita, que é evitável com tratamento oportuno.",
-   "Correta: penicilina benzatina em três doses semanais, com seguimento sorológico e tratamento das parcerias.",
-   "Repetir a sorologia antes de tratar retarda a proteção fetal em uma infecção já documentada."
+   "Ceftriaxona na gestante é considerada tratamento inadequado para prevenção de sífilis congênita.",
+   "Azitromicina tem resistência e não trata o feto.",
+   "Gestante com sífilis e alergia grave à penicilina: dessensibilização hospitalar e depois benzatina.",
+   "Adiar até o parto expõe o feto à sífilis congênita.",
+   "Doxiciclina é contraindicada na gestação."
   ]
  },
  {
-  "q": "Homem de 40 anos chega com febre alta, cefaleia intensa, mialgia e sufusão conjuntival, com história de contato com água de enchente há uma semana. Apresenta icterícia rubínica e creatinina de 3,2 mg/dL. Qual é a hipótese principal?",
+  "q": "Homem de 40 anos, catador de recicláveis, teve contato com água de enchente há 10 dias. Chega com febre, mialgia intensa em panturrilhas, sufusão conjuntival, icterícia rubínica e oligúria. Creatinina de 3,2 mg/dL, potássio de 3,1 mEq/L, bilirrubina direta de 9 mg/dL, plaquetas de 60 mil/mm³. Pressão de 104/66 mmHg, saturação de 95%, sem hemoptise. Pesa 72 kg, sem doença renal prévia. Radiografia de tórax sem infiltrados. Qual é a conduta mais adequada?",
   "alts": [
-   "Leptospirose na forma grave, com a tríade de icterícia, injúria renal e sufusão conjuntival.",
-   "Hepatite A aguda, cuja apresentação clássica inclui sufusão conjuntival e injúria renal aguda.",
-   "Dengue com sinais de alarme, hipótese sustentada pela icterícia rubínica descrita no exame.",
-   "Malária por Plasmodium vivax, causa mais provável diante do contato com água contaminada.",
-   "Febre tifoide não complicada, que cursa tipicamente com icterícia intensa e falência renal."
+   "Internar, penicilina cristalina e diálise se necessária",
+   "Doxiciclina oral ambulatorial por 7 dias",
+   "Aguardar sorologia para iniciar antibiótico",
+   "Metilprednisolona em dose alta isolada",
+   "Hidratação vigorosa e furosemida apenas"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
-  "comp": "dx",
+  "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, 2024, capítulo de leptospirose",
-  "coment": "A síndrome de Weil reúne icterícia rubínica, injúria renal aguda e fenômenos hemorrágicos, e a sufusão conjuntival é um achado bastante sugestivo de leptospirose. O contexto epidemiológico de contato com água de enchente ou esgoto reforça o diagnóstico. O tratamento é antimicrobiano (penicilina ou ceftriaxona nos casos graves, doxiciclina nos leves) associado a suporte, com atenção especial à injúria renal, que costuma ser não oligúrica e hipocalêmica, e à hemorragia pulmonar, principal causa de morte.",
+  "base": "Ministério da Saúde, Leptospirose: diagnóstico e manejo clínico, 2014; Guia de Vigilância em Saúde, 2024",
+  "coment": "Leptospirose grave (síndrome de Weil: icterícia rubínica, lesão renal e hemorragia) exige internação e antibiótico endovenoso iniciado sem esperar confirmação: penicilina cristalina 1,5 milhão UI a cada 6 horas ou ceftriaxona 1 a 2 g/dia por 7 dias. A lesão renal da leptospirose costuma ser não oligúrica e hipocalêmica no início; quando oligúrica ou com hipercalemia, acidose ou congestão, a diálise precoce reduz mortalidade. Hemorragia pulmonar é a principal causa de morte e deve ser vigiada. Doxiciclina oral é para formas leves.",
   "porAlt": [
-   "Correta: icterícia rubínica, injúria renal e sufusão conjuntival com exposição a enchente definem leptospirose grave.",
-   "A hepatite A cursa com icterícia, mas não com sufusão conjuntival nem com injúria renal desse padrão.",
-   "A dengue não causa icterícia rubínica, e o quadro descrito tem exposição epidemiológica característica.",
-   "A malária exige exposição em área endêmica com vetor, e não contato com água de enchente urbana.",
-   "A febre tifoide cursa com febre prolongada e sintomas digestivos, sem icterícia rubínica típica."
+   "Leptospirose grave: internação, penicilina cristalina ou ceftriaxona e diálise precoce se necessária.",
+   "Doxiciclina oral é para formas leves ambulatoriais.",
+   "Esperar sorologia atrasa o tratamento da forma grave.",
+   "Corticoide isolado não trata a infecção.",
+   "Diurético sem antibiótico não trata a causa."
   ]
  },
  {
-  "q": "Mulher de 62 anos internada há oito dias em uso de ceftriaxona evolui com diarreia aquosa volumosa, dor abdominal e leucocitose de 22.000/mm³. Qual é a principal hipótese e o exame indicado?",
+  "q": "Mulher de 62 anos, internada há 8 dias com ceftriaxona por pneumonia, tem 7 evacuações líquidas por dia, cólicas e febre de 38,2 °C. Leucócitos de 22 mil/mm³, creatinina de 1,7 mg/dL (basal 0,9). PCR para toxina B de Clostridioides difficile positiva. Sem hipotensão, íleo ou megacólon. Primeiro episódio. Pesa 60 kg e usou omeprazol durante a internação. A pneumonia já completou tratamento. Qual é o tratamento mais adequado?",
   "alts": [
-   "Gastroenterite viral hospitalar, cujo diagnóstico se faz por coprocultura para bactérias entéricas.",
-   "Colite isquêmica aguda, confirmada por pesquisa de sangue oculto nas fezes durante a internação neste caso.",
-   "Infecção por Clostridioides difficile, investigada por pesquisa de toxina ou teste molecular nas fezes.",
-   "Intolerância à lactose adquirida, diagnosticada por teste de tolerância oral realizado no leito neste caso.",
-   "Síndrome do intestino irritável, hipótese preferida diante de diarreia aquosa em pacientes internados."
+   "Metronidazol oral por 10 dias",
+   "Vancomicina endovenosa por 14 dias",
+   "Loperamida e probiótico",
+   "Fidaxomicina ou vancomicina oral",
+   "Colectomia de urgência"
   ],
-  "gab": 2,
-  "tema": "infecto",
-  "cenario": "enf",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "Infectious Diseases Society of America e SHEA, 2021, clinical practice guidelines for Clostridioides difficile infection",
-  "coment": "Diarreia que surge durante ou após antimicrobiano, em paciente internado, com dor abdominal e leucocitose, deve levantar a suspeita de infecção por Clostridioides difficile. O diagnóstico se faz por pesquisa de toxina associada a antígeno ou por teste molecular nas fezes, sempre em amostra diarreica. Testar fezes formadas detecta colonização e leva a tratamento desnecessário. O tratamento de primeira linha passou a ser fidaxomicina ou vancomicina por via oral; o metronidazol ficou como alternativa quando as outras não estão disponíveis.",
-  "porAlt": [
-   "A gastroenterite viral não explica leucocitose acentuada nem a associação temporal com o antimicrobiano.",
-   "A colite isquêmica cursa com dor desproporcional e sangramento, em perfil de paciente diferente.",
-   "Correta: diarreia associada a antimicrobiano em internado sugere Clostridioides difficile, investigado nas fezes.",
-   "A intolerância à lactose não causa leucocitose de 22.000 nem surge de forma aguda na internação.",
-   "A síndrome do intestino irritável é diagnóstico de exclusão ambulatorial, sem leucocitose associada."
-  ]
- },
- {
-  "q": "Homem de 55 anos com cirrose apresenta febre e piora do estado geral. As hemoculturas crescem Staphylococcus aureus resistente à oxacilina. Qual é o antimicrobiano de escolha?",
-  "alts": [
-   "Oxacilina endovenosa em dose plena, ainda a escolha para qualquer infecção por Staphylococcus aureus.",
-   "Ceftriaxona endovenosa isolada, que cobre adequadamente cepas resistentes à oxacilina no sangue.",
-   "Vancomicina endovenosa, com ajuste de dose por nível sérico e controle da função renal do paciente.",
-   "Azitromicina por via oral, opção preferida por sua excelente penetração em tecidos profundos neste caso.",
-   "Fluconazol endovenoso, indicado nas bacteriemias por cocos gram-positivos resistentes à oxacilina."
-  ],
-  "gab": 2,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "Infectious Diseases Society of America, guidelines for the treatment of methicillin-resistant Staphylococcus aureus infections, 2011, atualizadas",
-  "coment": "A resistência à oxacilina define o Staphylococcus aureus resistente à meticilina, contra o qual todos os betalactâmicos tradicionais são ineficazes, incluindo oxacilina e cefalosporinas de primeira a terceira geração. A escolha é vancomicina endovenosa com monitorização de nível sérico e de função renal, tendo daptomicina e linezolida como alternativas conforme o sítio. Bacteriemia por Staphylococcus aureus exige ainda busca de foco endovascular, ecocardiograma, retirada de cateteres e hemoculturas de controle.",
+  "nivel": "r2",
+  "base": "IDSA/SHEA Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults, 2021",
+  "coment": "Infecção por C. difficile com leucócitos de 15 mil ou mais ou creatinina acima de 1,5 mg/dL é classificada como grave (não fulminante). A IDSA/SHEA (2021) recomenda para o primeiro episódio fidaxomicina 200 mg duas vezes ao dia por 10 dias (preferida, menor recorrência) ou vancomicina oral 125 mg 4 vezes ao dia por 10 dias. Metronidazol é inferior e fica para quando os outros não estão disponíveis, em casos não graves. Vancomicina endovenosa não chega ao cólon. Suspender o antibiótico desencadeante se possível. Antidiarreicos são evitados.",
   "porAlt": [
-   "A resistência à oxacilina implica ineficácia de todos os betalactâmicos tradicionais contra a cepa.",
-   "A ceftriaxona não cobre cepas resistentes à meticilina e levaria a falha terapêutica no paciente.",
-   "Correta: cepa resistente à oxacilina exige vancomicina, com controle de nível sérico e função renal.",
-   "A azitromicina não tem atividade confiável contra essa cepa e não trata bacteriemia estafilocócica.",
-   "O fluconazol é antifúngico e não tem qualquer atividade sobre bactérias gram-positivas."
+   "Metronidazol é inferior, sobretudo na forma grave.",
+   "Vancomicina endovenosa não atinge o lúmen intestinal.",
+   "Antidiarreico pode precipitar megacólon.",
+   "Primeiro episódio grave de C. difficile: fidaxomicina ou vancomicina oral por 10 dias.",
+   "Não há critérios de doença fulminante que indiquem cirurgia."
   ]
  },
  {
-  "q": "Mulher de 29 anos, sem comorbidades, apresenta febre há três dias, dor lombar à esquerda, calafrios e vômitos, com disúria associada. Está com pressão de 108/66 mmHg e frequência de 96 bpm. Qual é a conduta?",
+  "q": "Homem de 55 anos com cirrose está no quinto dia de vancomicina ajustada por AUC/CIM (alvo 400 a 600) para bacteremia por Staphylococcus aureus resistente à oxacilina, com CIM de vancomicina de 2. Mantém febre e hemoculturas positivas colhidas hoje. Cateter venoso removido no primeiro dia. Ecocardiograma transesofágico sem vegetações. Tomografia sem abscessos. Creatinina de 1,6 mg/dL (basal 0,9). Pesa 70 kg, sem prótese ou dispositivo intracardíaco. Qual é a conduta mais adequada?",
   "alts": [
-   "Tratar como cistite não complicada com nitrofurantoína por cinco dias em regime totalmente domiciliar.",
-   "Solicitar tomografia de vias urinárias antes de iniciar qualquer antimicrobiano nesta paciente jovem.",
-   "Tratar como pielonefrite aguda com antimicrobiano após colher urocultura, avaliando via de administração.",
-   "Prescrever apenas analgésico e hidratação, reavaliando em setenta e duas horas no ambulatório neste caso.",
-   "Iniciar antifúngico empírico, cobertura preferida na infecção urinária alta em mulheres jovens neste caso."
+   "Manter vancomicina e aumentar a dose",
+   "Trocar para oxacilina",
+   "Acrescentar gentamicina à vancomicina",
+   "Suspender o antibiótico e repetir culturas",
+   "Trocar para daptomicina em dose alta"
+  ],
+  "gab": 4,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "IDSA Clinical Practice Guidelines for the Treatment of MRSA Infections, 2011; ASHP/IDSA/PIDS/SIDP Consensus: Therapeutic monitoring of vancomycin, 2020",
+  "coment": "Bacteremia persistente por MRSA (hemoculturas positivas após 5 a 7 dias de terapia adequada), CIM de vancomicina de 2 e lesão renal em evolução configuram falha da vancomicina. A IDSA e revisões posteriores recomendam trocar para daptomicina em dose alta (8 a 10 mg/kg/dia), possivelmente associada a betalactâmico, além de buscar e controlar focos. Aumentar vancomicina piora a nefrotoxicidade sem garantir resposta. Gentamicina não é mais recomendada na bacteremia por S. aureus pela nefrotoxicidade. Oxacilina não cobre MRSA.",
+  "porAlt": [
+   "Aumentar vancomicina piora a lesão renal sem garantir resposta.",
+   "Oxacilina não cobre MRSA.",
+   "Gentamicina aumenta nefrotoxicidade sem benefício.",
+   "Suspender antibiótico com bacteremia ativa é perigoso.",
+   "Bacteremia persistente por MRSA com CIM de 2 e lesão renal: trocar para daptomicina em dose alta."
+  ]
+ },
+ {
+  "q": "Mulher de 29 anos, não gestante, tem febre de 39 °C há 2 dias, dor lombar esquerda, calafrios, disúria e 4 episódios de vômito, sem conseguir ingerir líquidos ou medicamentos. Punho-percussão lombar positiva à esquerda. Pressão de 108/66 mmHg, frequência de 104 bpm, lactato de 1,6 mmol/L. Creatinina de 0,8 mg/dL. Sem litíase conhecida. Na região, a resistência de Escherichia coli a quinolonas é de 25%. Qual é a conduta mais adequada?",
+  "alts": [
+   "Ciprofloxacino oral ambulatorial por 7 dias",
+   "Nitrofurantoína por 5 dias",
+   "Internação, urocultura e ceftriaxona endovenosa",
+   "Fosfomicina em dose única",
+   "Amoxicilina oral por 14 dias"
   ],
   "gab": 2,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Infectious Diseases Society of America, 2011, atualizada; Harrison's, 22ª edição, 2025. Pielonefrite aguda",
-  "coment": "Febre, calafrios, dor lombar e sintomas urinários caracterizam pielonefrite aguda, que difere da cistite por ser infecção de trato urinário alto e exigir urocultura antes do antimicrobiano. A escolha da via depende da gravidade, da tolerância oral e das comorbidades: pacientes estáveis e capazes de tomar medicação podem ser tratados em casa com quinolona ou cefalosporina, com reavaliação precoce. A nitrofurantoína é inadequada porque não atinge concentração tecidual renal suficiente, servindo apenas para cistite.",
+  "base": "IDSA/ESCMID International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women, 2011; EAU Guidelines on Urological Infections, 2024",
+  "coment": "Pielonefrite aguda com vômitos incoercíveis e incapacidade de ingerir exige internação e terapia endovenosa após urocultura. Com resistência local a quinolonas acima de 10%, a IDSA (2011) recomenda dose inicial de agente parenteral de longa ação, como ceftriaxona, e depois terapia guiada pela cultura (quinolona por 7 dias ou betalactâmico por 10 a 14 dias se sensível). Nitrofurantoína e fosfomicina oral não atingem concentração renal adequada. Solicita-se imagem se não houver melhora em 48 a 72 horas.",
   "porAlt": [
-   "A nitrofurantoína não atinge concentração renal adequada e é inadequada para infecção do trato alto.",
-   "A imagem se reserva a falha terapêutica, suspeita de obstrução ou complicação, e não ao caso inicial.",
-   "Correta: pielonefrite exige urocultura e antimicrobiano, com a via definida pela gravidade e pela tolerância.",
-   "Analgésico isolado não trata a infecção e permite a progressão para sepse de foco urinário.",
-   "Antifúngico não é cobertura empírica na infecção urinária alta de mulher jovem sem fator de risco."
+   "Vômitos incoercíveis e resistência a quinolonas acima de 10% impedem tratamento oral empírico.",
+   "Nitrofurantoína não atinge concentração adequada no rim.",
+   "Pielonefrite com vômitos: internação, urocultura e ceftriaxona endovenosa.",
+   "Fosfomicina em dose única não trata pielonefrite.",
+   "Amoxicilina tem alta resistência."
   ]
  },
  {
-  "q": "Homem de 68 anos, esplenectomizado, chega com febre alta, hipotensão e rebaixamento do sensório de instalação rápida. Qual é a preocupação principal e a conduta imediata?",
+  "q": "Homem de 68 anos, esplenectomizado há 12 anos por trauma, sem reforço de vacina pneumocócica, tem febre de 40 °C há 8 horas, calafrios, petéquias em tronco e confusão. Pressão de 76/40 mmHg após 2 litros de cristaloide, lactato de 6,1 mmol/L, plaquetas de 42 mil/mm³. Sem rigidez de nuca. Sem alergias. Clearance normal. Pesa 80 kg, mora sozinho e foi trazido pelo vizinho. Qual é a conduta imediata mais adequada?",
   "alts": [
-   "Sepse fulminante por germe encapsulado, com antimicrobiano de amplo espectro na primeira hora.",
-   "Crise hemolítica autoimune, tratada prioritariamente com corticoide em dose imunossupressora alta.",
-   "Reação transfusional tardia, que explica febre e hipotensão em pacientes sem baço funcionante.",
-   "Insuficiência adrenal primária, causa mais provável de choque em pacientes esplenectomizados.",
-   "Intoxicação exógena, hipótese preferida diante de rebaixamento rápido do nível de consciência."
+   "Ceftriaxona e vancomicina já, com noradrenalina",
+   "Aguardar hemoculturas para escolher o antibiótico",
+   "Amoxicilina oral e observação",
+   "Punção lombar antes do antibiótico",
+   "Apenas vacinar contra pneumococo"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025, infecção fulminante pós-esplenectomia",
-  "coment": "O paciente esplenectomizado tem risco muito elevado de sepse fulminante por germes encapsulados, sobretudo pneumococo, Haemophilus influenzae e meningococo, com evolução para choque em poucas horas. A conduta é antimicrobiano de amplo espectro imediato, na primeira hora, junto de ressuscitação volêmica e coleta de culturas sem atrasar a droga. A prevenção é vacinação contra esses germes, revacinação conforme calendário e orientação de procurar atendimento imediato diante de febre, com esquema antimicrobiano de emergência disponível.",
+  "base": "Surviving Sepsis Campaign, 2021; Rubin e Schaffner, Care of the Asplenic Patient, NEJM, 2014",
+  "coment": "Infecção fulminante pós-esplenectomia é causada principalmente por germes encapsulados (pneumococo, meningococo, Haemophilus) e evolui para choque, CIVD e morte em horas. Conduta: hemoculturas sem atrasar o antibiótico, ceftriaxona 2 g com vancomicina (pela possibilidade de pneumococo resistente) na primeira hora, noradrenalina para PAM de 65 mmHg ou mais e suporte. Punção lombar não deve atrasar o antibiótico, especialmente com instabilidade e plaquetopenia. A prevenção inclui vacinas, educação e antibiótico de reserva para febre.",
   "porAlt": [
-   "Correta: o esplenectomizado tem risco de sepse fulminante por encapsulado e exige antimicrobiano na primeira hora.",
-   "A crise hemolítica não explica febre alta com hipotensão de instalação tão rápida nesse contexto.",
-   "Reação transfusional exige transfusão recente, que o enunciado não menciona em momento algum.",
-   "A insuficiência adrenal é possível, mas a infecção é muito mais provável e mais letal se não tratada.",
-   "A intoxicação não explica a febre alta nem o contexto de asplenia com risco infeccioso conhecido."
+   "Infecção fulminante pós-esplenectomia: ceftriaxona e vancomicina na primeira hora, hemoculturas e noradrenalina.",
+   "Esperar culturas em choque séptico aumenta mortalidade.",
+   "Antibiótico oral é inadequado em choque.",
+   "Punção lombar com instabilidade e plaquetopenia atrasa e arrisca.",
+   "Vacinar é prevenção, não tratamento."
   ]
  },
  {
-  "q": "Mulher de 35 anos vai viajar para região endêmica de febre amarela e nunca foi vacinada. Está saudável e não é gestante. Qual é a conduta e o prazo?",
+  "q": "Mulher de 32 anos vai morar em área com recomendação de vacina contra febre amarela em 3 semanas. Nunca foi vacinada. Está amamentando exclusivamente seu bebê de 4 meses. Não tem alergia grave a ovo, doença autoimune, imunossupressão ou doença do timo. Não está gestante. A mudança não pode ser adiada. Pesa 62 kg e trabalha como professora. O bebê nasceu a termo e é saudável. Pelo Ministério da Saúde, qual é a orientação mais adequada?",
   "alts": [
-   "Vacinar no dia da partida, já que a proteção se estabelece nas primeiras vinte e quatro horas.",
-   "Contraindicar a vacina e orientar apenas o uso de repelente durante toda a permanência local.",
-   "Prescrever quimioprofilaxia com antimalárico, que também protege contra o vírus da febre amarela.",
-   "Vacinar pelo menos dez dias antes da viagem, prazo necessário para a resposta imune adequada.",
-   "Vacinar apenas se ela apresentar sintomas compatíveis durante a estadia na região endêmica."
+   "Contraindicar a vacina de forma definitiva",
+   "Vacinar e manter o aleitamento normalmente",
+   "Vacinar o bebê no lugar da mãe",
+   "Vacinar e suspender aleitamento por 10 dias",
+   "Dose fracionada e aleitamento mantido"
   ],
   "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "prev",
-  "nivel": "r1",
-  "base": "Ministério da Saúde, Calendário Nacional de Vacinação e Guia de Vigilância em Saúde, 2024",
-  "coment": "A vacina de febre amarela deve ser aplicada com pelo menos dez dias de antecedência da viagem para área com recomendação de vacinação, prazo necessário para o desenvolvimento de imunidade protetora. A vacina é de vírus vivo atenuado, com contraindicações específicas: imunossupressão grave, alergia a ovo com anafilaxia, gestantes e lactantes de crianças com menos de seis meses, situações em que se avalia risco e benefício. Uma dose confere proteção duradoura para a maioria das pessoas.",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, Manual dos Centros de Referência para Imunobiológicos Especiais, 2023; Guia de Vigilância em Saúde, 2024 (febre amarela)",
+  "coment": "A vacina contra febre amarela é de vírus vivo atenuado e há casos de encefalite vacinal em lactentes amamentados por mães vacinadas. O Ministério da Saúde orienta adiar a vacinação de mulheres que amamentam bebês com menos de 6 meses; quando a vacinação não pode ser adiada (viagem ou residência em área de risco), vacina-se e suspende-se o aleitamento por 10 dias, com ordenha para manter a lactação e oferta de leite ordenhado antes da vacina ou fórmula. A vacina deve ser aplicada pelo menos 10 dias antes da exposição. Bebês são vacinados a partir de 9 meses.",
   "porAlt": [
-   "A imunidade não se estabelece em vinte e quatro horas: leva cerca de dez dias para ser protetora.",
-   "Não há contraindicação nesta paciente saudável e não gestante; o repelente é medida complementar.",
-   "O antimalárico não protege contra febre amarela, que é doença viral prevenida por vacina.",
-   "Correta: a vacinação deve ocorrer com pelo menos dez dias de antecedência para haver proteção.",
-   "Vacinar após o início dos sintomas não protege e a vacina não tem papel terapêutico na doença."
+   "A contraindicação é relativa e depende do risco de exposição.",
+   "Há risco de transmissão do vírus vacinal pelo leite.",
+   "Bebê de 4 meses não pode receber a vacina.",
+   "Lactante de bebê abaixo de 6 meses que não pode adiar: vacinar e suspender o aleitamento por 10 dias, mantendo a ordenha.",
+   "Dose fracionada não resolve o risco ao lactente."
   ]
  },
  {
@@ -20957,7 +20957,7 @@ window.BANCO=[
    "Contraindicar vacinas durante toda a quimioterapia",
    "Vacina de vírus vivo atenuado nasal",
    "Vacinar só após o fim do tratamento",
-   "Vacina inativada entre ciclos e nos contactantes",
+   "Vacina inativada já, antes do ciclo, e nos contactantes",
    "Vacinar apenas a filha, não a paciente"
   ],
   "gab": 3,
@@ -20971,7 +20971,7 @@ window.BANCO=[
    "Vacinas inativadas são indicadas durante a quimioterapia.",
    "Vacina de vírus vivo é contraindicada na imunossupressão.",
    "Esperar o fim deixa a paciente sem proteção na temporada.",
-   "Quimioterapia na campanha: vacina inativada entre ciclos e vacinação dos contactantes.",
+   "Vacina inativada o quanto antes do primeiro ciclo (ou entre ciclos, longe do nadir) e vacinação dos contactantes.",
    "A paciente é a de maior risco e deve ser vacinada."
   ]
  },
