@@ -353,22 +353,331 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 .folha button.item .ti{font-size:22px;color:var(--ink2)}
 .folha button.item:hover{background:var(--sup2)}
 .folha button.item[aria-selected="true"]{background:var(--sup2);font-weight:600}
+
+/* ============================================================
+   17/09/2026 — cm-v92, interface moderna.
+   O Matheus rejeitou a "prova impressa" (cm-v76) por simples demais. A direção agora é de app
+   de estudo atual: navegação lateral com ícones no computador e barra inferior no celular,
+   tela inicial com metas e progresso, superfícies em cartão com raio grande sobre um fundo
+   levemente tingido, questão em blocos clicáveis. O que continua proibido (e denunciava IA):
+   gradiente, emoji, par de fontes baixado, versalete rastreado, etiqueta colorida em tudo.
+   Este bloco sobrescreve o anterior; as regras acima ficam como base.
+   ============================================================ */
+:root{
+  --papel:#F4F6F8; --sup:#FFFFFF; --sup2:#EEF1F4; --sup3:#E6EAEF;
+  --ink:#0F1720; --ink2:#5A6675; --ink3:#8793A3; --linha:#E3E7EC; --linhaF:#CCD3DC;
+  --brand:#0A7C74; --brandInk:#0A6E67; --brandSup:#E2F2EF; --brandTxt:#FFFFFF; --brand2:#0FA396;
+  --ok:#16803C; --okSup:#E6F4EA; --err:#D0372B; --errSup:#FCEBE9;
+  --avi:#B26A00; --aviSup:#FDF1DC; --fogo:#E8590C;
+  --r:12px; --rG:16px;
+  --sombra:0 1px 2px rgba(15,23,32,.04),0 1px 3px rgba(15,23,32,.06);
+  --sombraM:0 4px 16px rgba(15,23,32,.08),0 1px 3px rgba(15,23,32,.05);
+  --lado:256px;
+  --serif:var(--sans);
+}
+@media (prefers-color-scheme:dark){:root:not([data-tema="claro"]){
+  --papel:#0B0F14; --sup:#121820; --sup2:#19212B; --sup3:#212B37;
+  --ink:#E7ECF2; --ink2:#9AA6B5; --ink3:#6E7B8C; --linha:#212A35; --linhaF:#303B49;
+  --brand:#2BB8AB; --brandInk:#4CCABD; --brandSup:#0F2B2A; --brandTxt:#04130F; --brand2:#38D1C2;
+  --ok:#4CC27A; --okSup:#10261A; --err:#F2766B; --errSup:#2C1614;
+  --avi:#E3A64B; --aviSup:#2A2012; --fogo:#FF8A3D;
+  --sombra:0 1px 2px rgba(0,0,0,.4); --sombraM:0 6px 20px rgba(0,0,0,.45);
+}}
+:root[data-tema="escuro"]{
+  --papel:#0B0F14; --sup:#121820; --sup2:#19212B; --sup3:#212B37;
+  --ink:#E7ECF2; --ink2:#9AA6B5; --ink3:#6E7B8C; --linha:#212A35; --linhaF:#303B49;
+  --brand:#2BB8AB; --brandInk:#4CCABD; --brandSup:#0F2B2A; --brandTxt:#04130F; --brand2:#38D1C2;
+  --ok:#4CC27A; --okSup:#10261A; --err:#F2766B; --errSup:#2C1614;
+  --avi:#E3A64B; --aviSup:#2A2012; --fogo:#FF8A3D;
+  --sombra:0 1px 2px rgba(0,0,0,.4); --sombraM:0 6px 20px rgba(0,0,0,.45);
+}
+body{background:var(--papel);font:15.5px/1.55 var(--sans);letter-spacing:-.003em;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+h1,h2,h3{letter-spacing:-.018em}
+h2{font-size:21px}h3{font-size:17px}
+::selection{background:var(--brandSup)}
+:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+
+/* ---------- marca ---------- */
+.marca{gap:10px;font-size:17px;font-weight:700;letter-spacing:-.02em}
+.marca .logo{width:32px;height:32px;border-radius:9px;background:var(--brand);color:#fff;display:grid;place-items:center;flex:0 0 auto}
+:root[data-tema="escuro"] .marca .logo{color:var(--brandTxt)}
+@media (prefers-color-scheme:dark){:root:not([data-tema="claro"]) .marca .logo{color:var(--brandTxt)}}
+.btIco .rot,.btIco kbd{display:none}
+kbd{font:600 11px/1 var(--sans);border:1px solid var(--linhaF);border-bottom-width:2px;border-radius:5px;padding:2px 5px;color:var(--ink2);background:var(--sup)}
+
+/* ---------- título da página ---------- */
+.pgTitulo{margin:0 0 22px}
+.pgTitulo:empty{display:none}
+.pgTitulo h1{font-size:28px;line-height:1.15;margin:0;font-weight:750;letter-spacing:-.028em}
+.pgTitulo p{margin:6px 0 0;color:var(--ink2);font-size:15px}
+body.lendo .pgTitulo{display:none}
+
+/* ---------- superfícies ---------- */
+.cx{background:var(--sup);border:1px solid var(--linha);border-radius:var(--rG);padding:22px 24px;box-shadow:var(--sombra);margin:0 0 18px}
+.cx+.cx{border-top:1px solid var(--linha);padding-top:22px}
+.cx>h2:first-child,.cx>h3:first-child{margin-top:0}
+.vazio{padding:10px 0}
+hr{border-top:1px solid var(--linha);margin:18px 0}
+.mini{font-size:13.5px}
+
+/* ---------- controles ---------- */
+.bt{border-radius:10px;min-height:42px;padding:8px 18px;font-weight:600;font-size:14.5px;transition:background .15s,border-color .15s,transform .05s,box-shadow .15s;box-shadow:0 1px 2px rgba(10,124,116,.25)}
+.bt:hover{filter:none;background:var(--brand2);border-color:var(--brand2)}
+.bt:active{transform:translateY(1px)}
+.bt .ti{display:inline-block;font-size:18px}
+.bt.sec{background:var(--sup);border-color:var(--linhaF);color:var(--ink);font-weight:600;box-shadow:var(--sombra)}
+.bt.sec:hover{background:var(--sup2);border-color:var(--linhaF)}
+.bt.mini{min-height:34px;padding:5px 12px;font-size:13.5px;border-radius:9px}
+select,input[type=text],input[type=number],input[type=search],input[type=email],input:not([type]),textarea{background:var(--sup);border:1px solid var(--linhaF);border-radius:10px;min-height:42px;padding:8px 12px;transition:border-color .15s,box-shadow .15s}
+select:focus,input:focus,textarea:focus{outline:0;border-color:var(--brand);box-shadow:0 0 0 3px var(--brandSup)}
+select{appearance:none;-webkit-appearance:none;padding-right:34px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%238793A3' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 11px center}
+label.cmp{font-size:13px;font-weight:600;color:var(--ink2);gap:6px}
+.pilula{font-size:13.5px}
+.pilula.ok,.pilula.er{display:inline-block;padding:2px 8px;border-radius:7px;font-size:13px}
+.pilula.ok{background:var(--okSup)}.pilula.er{background:var(--errSup)}
+.linha>.pilula.ok:before,.linha>.pilula.er:before{content:none}
+
+/* ---------- números ---------- */
+.grade2{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;border:0}
+.kpi{background:var(--sup2);border:0;border-radius:12px;padding:14px 16px;margin:0}
+.kpi:last-child{border:0}
+.kpi b{font-size:24px;font-weight:750;letter-spacing:-.02em}
+.kpi span{font-size:13px}
+.barra{height:6px;border-radius:6px;background:var(--sup3)}
+.barra i{background:var(--brand);border-radius:6px}
+table{font-size:14.5px}
+th{font-size:12.5px;color:var(--ink2);font-weight:600;border-bottom:1px solid var(--linha);padding-top:4px}
+td{border-bottom:1px solid var(--linha)}
+tr:last-child td{border-bottom:0}
+details{border-top:1px solid var(--linha)}
+
+/* ---------- avisos, modal, folha ---------- */
+.faixa{border-radius:12px;box-shadow:var(--sombraM);background:var(--sup)}
+.fundo{background:rgba(8,12,18,.55);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)}
+.modal{background:var(--sup);border:1px solid var(--linha);border-radius:18px;padding:24px;box-shadow:var(--sombraM)}
+.folha .cartao{background:var(--sup);border-radius:20px 20px 0 0}
+.folha button.item{border-radius:12px}
+.opcs label{border-top:0;border:1px solid var(--linha);border-radius:10px;padding:10px 12px}
+
+/* ---------- questão ---------- */
+.qTopo{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.qNum{font-size:13.5px;font-weight:650;color:var(--ink2);white-space:nowrap}
+.qNum b{color:var(--ink);font-size:15px}
+.qProg{flex:1;height:5px;border-radius:5px;background:var(--sup3);overflow:hidden;min-width:40px}
+.qProg i{display:block;height:100%;background:var(--brand);border-radius:5px}
+.qEstado{font-size:12.5px;font-weight:600;padding:3px 9px;border-radius:7px;white-space:nowrap}
+.qEstado.ok{background:var(--okSup);color:var(--ok)}.qEstado.er{background:var(--errSup);color:var(--err)}
+.btMarca{width:36px;height:36px;border-radius:10px;border:1px solid var(--linha);background:var(--sup);color:var(--ink2);display:grid;place-items:center;cursor:pointer;font-size:19px;padding:0}
+.btMarca:hover{background:var(--sup2);color:var(--ink)}
+.btMarca.on{color:var(--brandInk);background:var(--brandSup);border-color:transparent}
+.enun{font:17.5px/1.7 var(--sans);margin:4px 0 22px;color:var(--ink)}
+#alts{border:0;display:flex;flex-direction:column;gap:10px}
+.alt{border:1px solid var(--linha);border-radius:12px;background:var(--sup);padding:12px 14px;align-items:center;font:16px/1.5 var(--sans);gap:14px;
+  transition:border-color .15s,background .15s,box-shadow .15s}
+.alt:hover{background:var(--sup);border-color:var(--brand);box-shadow:0 0 0 3px var(--brandSup)}
+.alt .let{width:30px;height:30px;min-width:30px;border-radius:9px;background:var(--sup2);display:grid;place-items:center;font:700 13.5px/1 var(--sans);color:var(--ink2);transition:background .15s,color .15s}
+.alt:hover .let{background:var(--brandSup);color:var(--brandInk)}
+.alt[disabled]:hover{background:var(--sup);border-color:var(--linha);box-shadow:none}
+.alt[disabled]:hover .let{background:var(--sup2);color:var(--ink2)}
+.alt.certa,.alt.certa[disabled]:hover{background:var(--okSup);border-color:var(--ok);box-shadow:none}
+.alt.errada,.alt.errada[disabled]:hover{background:var(--errSup);border-color:var(--err);box-shadow:none}
+.alt.certa .let,.alt.certa[disabled]:hover .let{background:var(--ok);color:#fff}
+.alt.errada .let,.alt.errada[disabled]:hover .let{background:var(--err);color:#fff}
+.alt[disabled]:not(.certa):not(.errada){opacity:.72}
+.expl{font:14px/1.55 var(--sans);margin:-4px 0 4px 58px;color:var(--ink2)}
+.coment{border:0;background:var(--sup2);border-radius:14px;padding:18px 20px;margin-top:20px;font:15.5px/1.65 var(--sans)}
+.coment>b:first-child{display:block;font-size:16px;margin-bottom:6px}
+.coment.ok>b:first-child{color:var(--ok)}.coment.er>b:first-child{color:var(--err)}
+.coment .base{font-size:13px}
+.qPe{display:flex;align-items:center;gap:10px;margin-top:22px;padding-top:18px;border-top:1px solid var(--linha)}
+.qPe .atalhos{margin-left:auto;font-size:12.5px;color:var(--ink3);display:flex;gap:6px;align-items:center}
+
+/* ---------- filtros ---------- */
+.maisF>summary{font-size:13.5px;font-weight:600}
+.fToggle{font-size:15px}
+
+/* ---------- leituras ---------- */
+.listaL{background:var(--sup);border:1px solid var(--linha);border-radius:var(--rG);padding:4px 8px;box-shadow:var(--sombra)}
+.listaL .itemL{border-radius:12px;padding:14px 14px 15px;border-top:1px solid var(--linha)}
+.listaL .itemL:hover{background:var(--sup2)}
+.listaL .itemL h3{font-size:16.5px}
+.listaL h3.grupo{padding:14px 14px 2px;margin:0;font-size:13px;color:var(--ink2)}
+.progL{height:5px;border-radius:5px}.progL i{border-radius:5px}
+.barraL{border-bottom:1px solid var(--linha);padding-bottom:10px}
+
+/* ---------- tela inicial ---------- */
+.ini{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px}
+.ini>.cx{margin:0}
+.ini .c12{grid-column:span 12}.ini .c8{grid-column:span 8}.ini .c7{grid-column:span 7}.ini .c6{grid-column:span 6}.ini .c5{grid-column:span 5}.ini .c4{grid-column:span 4}
+.cxTit{display:flex;align-items:baseline;gap:10px;margin:0 0 14px}
+.cxTit h3{margin:0;font-size:16px}
+.cxTit .mini{margin-left:auto}
+.cxTit a,.cxTit button.link{margin-left:auto;background:none;border:0;color:var(--brandInk);font-weight:600;font-size:13.5px;cursor:pointer;padding:0}
+.meta{display:flex;align-items:center;gap:22px}
+.anel{position:relative;width:132px;height:132px;flex:0 0 auto}
+.anel svg{transform:rotate(-90deg)}
+.anel .val{position:absolute;inset:0;display:grid;place-content:center;text-align:center}
+.anel .val b{font-size:30px;font-weight:750;letter-spacing:-.03em;line-height:1}
+.anel .val span{font-size:12.5px;color:var(--ink2);margin-top:4px}
+.metaTxt h2{margin:0 0 4px;font-size:22px}
+.metaTxt p{margin:0 0 14px;color:var(--ink2)}
+.statsL{display:flex;gap:26px;flex-wrap:wrap;margin-top:4px}
+.statsL div b{display:block;font-size:20px;font-weight:750;letter-spacing:-.02em}
+.statsL div span{font-size:12.5px;color:var(--ink2)}
+.fogo{color:var(--fogo)}
+.semana{display:grid;grid-template-columns:repeat(14,1fr);gap:6px;align-items:end;height:118px;margin-top:6px}
+.semana div{display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end}
+.semana i{display:block;width:100%;max-width:26px;border-radius:6px 6px 3px 3px;background:var(--sup3);min-height:4px}
+.semana i.cheio{background:var(--brand)}
+.semana i.hoje{background:var(--brand2);box-shadow:0 0 0 2px var(--brandSup)}
+.semana span{font-size:11px;color:var(--ink3)}
+.acoes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.acao{display:flex;flex-direction:column;gap:10px;text-align:left;background:var(--sup);border:1px solid var(--linha);border-radius:14px;padding:16px;cursor:pointer;box-shadow:var(--sombra);
+  transition:border-color .15s,box-shadow .15s,transform .15s;color:var(--ink);min-width:0}
+.acao:hover{border-color:var(--brand);box-shadow:var(--sombraM);transform:translateY(-2px)}
+.acao .ic{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;font-size:21px}
+.acao b{font-size:15px;display:block}
+.acao small{font-size:13px;color:var(--ink2);display:block;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.acao .n{font-size:24px;font-weight:750;letter-spacing:-.02em;margin-top:auto}
+.foco .item{display:grid;grid-template-columns:10px minmax(0,1fr) 110px 52px;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--linha)}
+.foco .item:first-child{border-top:0;padding-top:2px}
+.foco .pt{width:10px;height:10px;border-radius:3px}
+.foco .nome{font-weight:600;font-size:14.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.foco .nome small{display:block;font-weight:400;color:var(--ink2);font-size:12.5px}
+.foco .taxa{text-align:right;font-weight:700;font-variant-numeric:tabular-nums;font-size:14px}
+.cta{display:flex;align-items:center;gap:16px;background:var(--brandSup);border:1px solid transparent}
+.cta .ic{width:46px;height:46px;border-radius:13px;background:var(--brand);color:#fff;display:grid;place-items:center;font-size:24px;flex:0 0 auto}
+.cta h3{margin:0 0 2px}.cta p{margin:0;color:var(--ink2);font-size:14px}
+.cta .bt{margin-left:auto}
+
+/* ============ computador: barra lateral ============ */
+@media(min-width:900px){
+  body{padding-left:var(--lado)}
+  header{position:fixed;top:0;left:0;bottom:0;width:var(--lado);background:var(--sup);border-bottom:0;border-right:1px solid var(--linha);padding:0;z-index:40}
+  .topo{flex-direction:column;align-items:stretch;max-width:none;height:100%;padding:18px 14px 14px;gap:0;min-height:0}
+  .marca{padding:2px 8px 20px}
+  nav.abas{flex-direction:column;gap:2px;overflow-y:auto;flex:1}
+  nav.abas button{border:0;padding:0 12px;min-height:40px;border-radius:10px;font-size:14.5px;font-weight:550;color:var(--ink2);gap:12px;justify-content:flex-start;transition:background .12s,color .12s}
+  nav.abas button .ti{display:inline-block;font-size:20px}
+  nav.abas button:hover{background:var(--sup2);color:var(--ink)}
+  nav.abas button[aria-selected="true"]{background:var(--brandSup);color:var(--brandInk);font-weight:650;border:0}
+  .navGrupo{font-size:11.5px;font-weight:650;color:var(--ink3);padding:16px 12px 6px;letter-spacing:.04em}
+  .navGrupo:first-child{padding-top:2px}
+  .contador{margin:10px 0 0;padding-top:10px;border-top:1px solid var(--linha);flex-direction:column;align-items:stretch;gap:2px}
+  .contador .btIco,.contador .btConta{width:100%;height:40px;justify-content:flex-start;gap:12px;padding:0 12px;border-radius:10px;font-size:14.5px;font-weight:550;color:var(--ink2);display:flex;align-items:center}
+  .contador .btIco .ti,.contador .btConta .ti{font-size:20px}
+  .contador .btIco .rot{display:inline}
+  .contador .btIco kbd{display:inline-block;margin-left:auto}
+  .contador .btIco:hover,.contador .btConta:hover{background:var(--sup2);color:var(--ink)}
+  .btConta.logado{color:var(--brandInk)}
+  #btLinha{display:none!important}
+  main{max-width:1160px;padding:34px 40px 64px}
+  .faixas{left:var(--lado)}
+  #sec-questoes>.cx:first-child,#sec-leituras>.filtroL,#sec-pratica>.cx:first-child{
+    border:1px solid var(--linha);border-radius:var(--rG);padding:18px;background:var(--sup);position:sticky;top:24px;box-shadow:var(--sombra)}
+  #sec-questoes>.cx:not(:first-child),#sec-pratica>*:not(:first-child),#sec-leituras>*:not(.filtroL){max-width:none}
+  #sec-questoes,#sec-leituras,#sec-pratica{grid-template-columns:260px minmax(0,1fr);gap:24px}
+  #sec-questoes #qCartao{max-width:840px}
+  #sec-questoes #qCartao .cx{padding:26px 30px}
+  .sumarioL{top:24px}
+  body.lendo #sec-leituras{grid-template-columns:240px minmax(0,1fr)}
+}
+@media(min-width:900px) and (max-width:1180px){
+  :root{--lado:76px}
+  .marca span:not(.logo),.navGrupo,nav.abas button span,.contador .rot,.contador kbd,.contador .btConta span{display:none!important}
+  .marca{padding:2px 0 18px;justify-content:center}
+  nav.abas button,.contador .btIco,.contador .btConta{justify-content:center;padding:0}
+  main{padding:28px 28px 60px}
+  .ini .c8,.ini .c7,.ini .c5,.ini .c4{grid-column:span 12}
+}
+
+/* ============ tablet ============ */
+@media(min-width:641px) and (max-width:899px){
+  header{background:var(--sup);border-bottom:1px solid var(--linha)}
+  .topo{max-width:none;padding:0 18px;gap:18px;min-height:58px}
+  .navGrupo{display:none}
+  nav.abas{gap:4px;align-items:center}
+  nav.abas button{border:0;padding:7px 11px;border-radius:9px;font-size:14px;font-weight:550}
+  nav.abas button[aria-selected="true"]{background:var(--brandSup);color:var(--brandInk);border:0}
+  main{padding:26px 22px 56px}
+  .ini .c8,.ini .c7,.ini .c6,.ini .c5,.ini .c4{grid-column:span 12}
+  .acoes{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+/* ============ celular ============ */
+@media(max-width:640px){
+  :root{--nav:calc(66px + env(safe-area-inset-bottom))}
+  /* sem backdrop-filter no header: ele vira bloco de contenção e a barra fixa de baixo subiria junto */
+  header{background:var(--sup);border-bottom:1px solid var(--linha)}
+  .topo{min-height:56px;padding:0 10px 0 16px}
+  .marca .logo{width:30px;height:30px;border-radius:9px}
+  .navGrupo{display:none}
+  main{padding:18px 14px calc(28px + var(--nav))}
+  .pgTitulo{margin-bottom:16px}
+  .pgTitulo h1{font-size:25px}
+  .pgTitulo p{font-size:14px}
+  .cx{padding:18px 16px;border-radius:14px;margin-bottom:14px}
+  .cx+.cx{padding-top:18px}
+  nav.abas{background:color-mix(in srgb,var(--sup) 92%,transparent);backdrop-filter:saturate(1.6) blur(16px);-webkit-backdrop-filter:saturate(1.6) blur(16px);
+    border-top:1px solid var(--linha);padding:6px 4px calc(6px + env(safe-area-inset-bottom))}
+  nav.abas button{gap:4px;min-height:54px;font-size:11.5px;font-weight:550;color:var(--ink2)}
+  nav.abas button .ti{font-size:22px;padding:3px 18px;border-radius:14px;transition:background .15s}
+  nav.abas button[aria-selected="true"]{color:var(--ink);font-weight:700}
+  nav.abas button[aria-selected="true"] .ti{background:var(--brandSup);color:var(--brandInk)}
+  .enun{font-size:17px;line-height:1.65}
+  .alt{padding:12px 12px;font-size:15.5px;gap:12px}
+  .expl{margin-left:12px}
+  #qCartao .cx{padding:18px 16px}
+  .qPe .atalhos{display:none}
+  .qPe .bt{flex:1}
+  .ini{gap:14px}
+  .ini .cx{grid-column:span 12!important}
+  .meta{gap:16px;align-items:flex-start}
+  .metaTxt p{display:none}
+  .metaTxt h2{margin:6px 0 10px}
+  .statsL{gap:14px 20px}
+  .statsL div b{font-size:18px}
+  .qTopo{gap:8px;flex-wrap:nowrap}
+  .qProg{display:none}
+  .qUlt{display:none}
+  .qEstado{margin-left:auto;font-size:12px;padding:3px 7px}
+  .btMarca{margin-left:auto;flex:0 0 auto}
+  .qEstado+.btMarca{margin-left:0}
+  .anel{width:108px;height:108px}
+  .anel svg{width:108px;height:108px}
+  .anel .val b{font-size:24px}
+  .metaTxt h2{font-size:19px}
+  .acoes{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .acao{padding:14px}
+  .foco .item{grid-template-columns:10px minmax(0,1fr) 64px 44px}
+  .semana{gap:4px;height:100px}
+  .grade2{grid-template-columns:1fr 1fr;gap:10px}
+  .kpi{border:0;padding:12px 14px}
+  .cta{flex-wrap:wrap}.cta .bt{margin-left:0;width:100%}
+  .listaL{padding:2px 4px}
+  #sec-questoes>.cx:first-child,#sec-leituras>.filtroL,#sec-pratica>.cx:first-child{background:var(--sup);border:1px solid var(--linha);border-radius:14px;padding:12px 14px;margin-bottom:14px}
+}
 </style>
 
 <header>
  <div class="topo">
-  <a class="marca" href="./">ClínicaMed</a>
+  <a class="marca" href="./"><span class="logo" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M2 13h4l2.2-5.5L12 19l3.2-12L17.6 13H22" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>ClínicaMed</span></a>
   <nav class="abas" id="abas" role="tablist"></nav>
   <div class="contador">
-   <button class="btIco" id="btBusca" title="Buscar em tudo (/)" aria-label="Buscar"><i class="ti ti-search" aria-hidden="true"></i></button>
+   <button class="btIco" id="btBusca" title="Buscar em tudo (/)" aria-label="Buscar"><i class="ti ti-search" aria-hidden="true"></i><span class="rot">Buscar</span><kbd>/</kbd></button>
+   <button class="btIco" id="btTema" title="Alternar tema" aria-label="Alternar tema"><i class="ti ti-moon" aria-hidden="true"></i><span class="rot">Tema</span></button>
    <button class="btConta" id="btConta" hidden><i class="ti ti-user-circle" aria-hidden="true"></i><span>Entrar</span></button>
-   <button class="btIco" id="btTema" title="Alternar tema" aria-label="Alternar tema"><i class="ti ti-moon" aria-hidden="true"></i></button>
    <button class="btIco" id="btLinha" title="MedTech Provas: outras plataformas de estudo" aria-label="MedTech Provas" hidden><i class="ti ti-grid-dots" aria-hidden="true"></i></button>
   </div>
  </div>
 </header>
 
 <main>
+ <div id="pgTitulo" class="pgTitulo"></div>
+ <section id="sec-inicio" hidden></section>
  <section id="sec-questoes"></section>
  <section id="sec-simulado" hidden></section>
  <section id="sec-pratica" hidden></section>
@@ -399,15 +708,15 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed",linha:"provas"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=91"></script>
-<script src="provas.js?v=91"></script>
-<script src="banco.js?v=91"></script>
-<script src="flash.js?v=91"></script>
-<script src="pratica.js?v=91"></script>
-<script src="leituras.js?v=91"></script>
-<script src="indice-leituras.js?v=91"></script>
-<script src="nuvem.js?v=91"></script>
-<script src="turma.js?v=91"></script>
+<script src="taxonomia.js?v=92"></script>
+<script src="provas.js?v=92"></script>
+<script src="banco.js?v=92"></script>
+<script src="flash.js?v=92"></script>
+<script src="pratica.js?v=92"></script>
+<script src="leituras.js?v=92"></script>
+<script src="indice-leituras.js?v=92"></script>
+<script src="nuvem.js?v=92"></script>
+<script src="turma.js?v=92"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -424,6 +733,23 @@ function hashTxt(s){let h1=5381,h2=0x811c9dc5;
   return (h1.toString(36)+h2.toString(36)).slice(0,10)}
 function chaveTxt(t){return hashTxt(String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,""))}
 const chaveQ=q=>chaveTxt(q.q);
+/* ---------- ordem de EXIBIÇÃO das alternativas (17/09/2026) ----------
+   O banco autoral concentrava o gabarito na letra A (36%). Reordenar o banco desalinharia o
+   histórico, que guarda o ÍNDICE ORIGINAL da alternativa (hist[].alt, sim.res). Então o banco não
+   muda: só a tela reordena. A posição da correta sai do hash da chave (estável entre aparelhos e
+   versões, uniforme em A–E); as demais mantêm a ordem relativa. Questão de prova real mantém a
+   ordem oficial. Todo código de tela usa q._ord (posição → índice original) e letraDe(q,j). */
+function ordemAlts(q){
+  if(q._ord)return q._ord;
+  const n=q.alts.length, idx=[...Array(n).keys()];
+  let alvo=q.gab;
+  if(!q.fonte&&n===5){let h=0;for(const c of q._ch)h=(h*31+c.charCodeAt(0))>>>0;alvo=h%5}
+  const outras=idx.filter(i=>i!==q.gab);
+  q._ord=[...outras.slice(0,alvo),q.gab,...outras.slice(alvo)];
+  q._pos=[];q._ord.forEach((orig,p)=>q._pos[orig]=p);
+  return q._ord;
+}
+const letraDe=(q,j)=>{ordemAlts(q);return LETRAS[q._pos[j]]};
 
 const BANCO=window.BANCO||[], TAX=window.TAXONOMIA||[], CEN=window.CENARIOS||[], COMP=window.COMPETENCIAS||[],
       NIVEIS=window.NIVEIS||[], PROVAS=window.PROVAS||[], FLASH=window.FLASH||[], PRATICA=window.PRATICA||[],
@@ -569,18 +895,18 @@ function espalhaTemas(lista){
 </script>
 <script>
 /* ================= navegação ================= */
-const ABAS=[["questoes","Questões","list-check"],["simulado","Simulado","stopwatch"],["pratica","Prática","stethoscope"],
-            ["leituras","Leituras","book"],["cartoes","Cartões","cards"],["painel","Painel","chart-bar"],
+const ABAS=[["inicio","Início","layout-dashboard"],["questoes","Questões","list-check"],["simulado","Simulado","stopwatch"],["pratica","Prática","stethoscope"],
+            ["leituras","Leituras","book"],["cartoes","Cartões","cards"],["painel","Desempenho","chart-bar"],
             ["turma","Turma","users"],["ajustes","Ajustes","settings"]];
 /* A aba Turma nasce escondida e só é revelada quando o backend confirma que este e-mail
    é da coordenação. Esconder o botão é conveniência: a permissão é conferida na função,
    a cada chamada — mexer no DOM daqui não dá acesso a nada. */
 const ABAS_RESTRITAS=["turma"];
 /* no celular só estas quatro ficam na barra; o resto entra pela folha "Mais" */
-const ABAS_PRIM=["questoes","leituras","cartoes","painel"];
+const ABAS_PRIM=["inicio","questoes","leituras","cartoes"];
 /* Resolvido na hora da chamada: cada aba é declarada num bloco <script> posterior a este,
    então referenciar a função aqui na criação do objeto quebraria o boot inteiro. */
-const PINTA={questoes:()=>pintaQuestoes(),simulado:()=>pintaSimulado(),pratica:()=>pintaPratica(),
+const PINTA={inicio:()=>pintaInicio(),questoes:()=>pintaQuestoes(),simulado:()=>pintaSimulado(),pratica:()=>pintaPratica(),
              leituras:()=>pintaLeituras(),cartoes:()=>pintaCartoes(),
              painel:()=>pintaPainel(),turma:()=>TURMA.chefe?TURMA.carrega():TURMA.pintaTurma(),ajustes:()=>pintaAjustes()};
 /* a barra inferior do celular é uma grade: precisa saber quantas abas estão visíveis */
@@ -610,7 +936,8 @@ document.addEventListener("click",e=>{
   box.classList.toggle("aberto",ST.cfg.fAb[k]);
 });
 function montaAbas(){
-  $("#abas").innerHTML=ABAS.map(([id,n,ic])=>
+  const GRUPO={inicio:"Estudo",painel:"Acompanhamento"};
+  $("#abas").innerHTML=ABAS.map(([id,n,ic])=>(GRUPO[id]?`<div class="navGrupo">${GRUPO[id]}</div>`:"")+
     `<button role="tab" data-aba="${id}" aria-selected="false"${ABAS_RESTRITAS.includes(id)?" hidden":""}${ABAS_PRIM.includes(id)?" data-prim":""}><i class="ti ti-${ic}" aria-hidden="true"></i><span>${n}</span></button>`).join("")
     +`<button data-aba="mais" aria-selected="false" hidden><i class="ti ti-dots" aria-hidden="true"></i><span>Mais</span></button>`;
   const mais=$('#abas [data-aba="mais"]');
@@ -620,12 +947,31 @@ function montaAbas(){
   ajustaNav();
   $$("#abas button").forEach(b=>{if(b.dataset.aba!=="mais")b.onclick=()=>irAba(b.dataset.aba)});
 }
+const TITULOS={
+  inicio:()=>{const h=new Date().getHours();return [h<12?"Bom dia":h<18?"Boa tarde":"Boa noite",
+    new Date().toLocaleDateString("pt-BR",{weekday:"long",day:"numeric",month:"long"}).replace(/^./,c=>c.toUpperCase())]},
+  questoes:()=>["Questões",`${BANCO.length} questões no formato das provas de título e R+, com comentário por alternativa.`],
+  simulado:()=>["Simulado","Prova cronometrada no peso do edital, corrigida no fim."],
+  pratica:()=>["Prática","Estações da segunda fase com espelho de correção."],
+  leituras:()=>["Leituras","Textos de referência por área, com sumário e progresso."],
+  cartoes:()=>["Cartões","Revisão espaçada: o que vence hoje aparece primeiro."],
+  painel:()=>["Desempenho","Acerto por área, pela matriz do edital e fila de erros."],
+  turma:()=>["Turma","Acompanhamento dos residentes."],
+  ajustes:()=>["Ajustes","Conta, tema, uso sem internet e dados."]
+};
+/* o título da página já está no topo: um h2/h3 igual logo no começo da seção vira ruído */
+function tiraTituloRepetido(id){
+  const t=($("#pgTitulo h1")||{}).textContent;if(!t)return;
+  $$(`#sec-${id} h2, #sec-${id} h3`).slice(0,2).forEach(h=>{if(h.textContent.trim()===t)h.remove()});
+}
 function irAba(id){
+  {const t=TITULOS[id]?TITULOS[id]():null;$("#pgTitulo").innerHTML=t?`<h1>${esc(t[0])}</h1><p>${esc(t[1])}</p>`:""}
   $$("#abas button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.aba===id||(b.dataset.aba==="mais"&&!ABAS_PRIM.includes(id)))));
   ABAS.forEach(([a])=>$("#sec-"+a).hidden=(a!==id));
   document.body.classList.toggle("lendo",id==="leituras"&&!!ST.cfg.lendo);
   ST.cfg.aba=id;salva("cfg",ST.cfg);
   PINTA[id]();
+  tiraTituloRepetido(id);
   if(id!=="leituras")window.scrollTo(0,0);
 }
 
@@ -753,6 +1099,14 @@ function pintaBusca(q,fecha){
   $$("#resBusca [data-est]").forEach(b=>b.onclick=()=>{fecha();ST.cfg.estacao=b.dataset.est;salva("cfg",ST.cfg);irAba("pratica")});
 }
 $("#btBusca").onclick=abreBusca;
+/* atalhos da questão: A–E responde, setas navegam (só na aba Questões, fora de campos) */
+addEventListener("keydown",e=>{
+  if((ST.cfg||{}).aba!=="questoes"||e.metaKey||e.ctrlKey||e.altKey||/input|textarea|select/i.test(e.target.tagName)||$(".fundo,.folha"))return;
+  const k=e.key.toUpperCase();
+  if("ABCDE".includes(k)&&k.length===1){const b=$$("#alts .alt")["ABCDE".indexOf(k)];if(b&&!b.disabled){e.preventDefault();b.click()}}
+  else if(e.key==="ArrowRight"){const b=$("#btProx");if(b&&!b.disabled){e.preventDefault();b.click()}}
+  else if(e.key==="ArrowLeft"){const b=$("#btAnt");if(b&&!b.disabled){e.preventDefault();b.click()}}
+});
 addEventListener("keydown",e=>{if(e.key==="/"&&!/input|textarea|select/i.test(e.target.tagName)&&!e.metaKey&&!e.ctrlKey){e.preventDefault();abreBusca()}});
 
 /* ================= referência das provas =================
@@ -806,7 +1160,7 @@ function contextoQuestao(q){
   return {tipo:"questão", ref:q._ch, area:t.nome||q.tema,
     corpo:[`Questão (chave ${q._ch})`,`Área: ${t.nome||q.tema} · ${NCEN[q.cenario]||""} · ${NCOMP[q.comp]||""} · ${NNIV[q.nivel]||""}`,
       "", "ENUNCIADO:", q.q, "", "ALTERNATIVAS:",
-      ...q.alts.map((a,i)=>`${LETRAS[i]}${i===q.gab?" (gabarito)":""}) ${a}`),
+      ...ordemAlts(q).map((i,p)=>`${LETRAS[p]}${i===q.gab?" (gabarito)":""}) ${q.alts[i]}`),
       "", "COMENTÁRIO:", q.coment, "", `ÂNCORA: ${q.base}`,
       q.fonte?`PROCEDÊNCIA: ${q.fonte.banca} ${q.fonte.ano}`:"PROCEDÊNCIA: autoral"].join("\n")};
 }
@@ -959,18 +1313,20 @@ function pintaCartaoQuestao(q,l,i){
   const t=TAX.find(t=>t.id===q.tema)||{}, resp=respostaDe(q), ja=(resp&&resp.hist.length)?resp.hist[resp.hist.length-1]:null;
   alvo.innerHTML=`
   <div class="cx">
-   <div class="linha" style="gap:6px">
-    <button class="bt ${ST.fav[q._ch]?"":"sec "}mini" id="btFav" style="margin-left:auto">${ST.fav[q._ch]?"marcada":"marcar"}</button>
+   <div class="qTopo">
+    <span class="qNum">Questão <b class="num">${i+1}</b> de <span class="num">${l.length}</span></span>
+    <span class="qProg"><i style="width:${Math.max(1,Math.round((i+1)/l.length*100))}%"></i></span>
+    ${ja?`<span class="qEstado ${ja.ok?"ok":"er"}">${ja.ok?"acertou":"errou"}<span class="qUlt"> da última vez</span></span>`:""}
+    <button class="btMarca${ST.fav[q._ch]?" on":""}" id="btFav" title="${ST.fav[q._ch]?"Desmarcar":"Marcar para revisar"}" aria-pressed="${!!ST.fav[q._ch]}"><i class="ti ti-bookmark${ST.fav[q._ch]?"-filled":""}"></i></button>
    </div>
    <p class="enun">${esc(q.q)}</p>
-   <div id="alts" style="margin-top:16px">${q.alts.map((a,j)=>
-     `<button class="alt" data-j="${j}"><span class="let">${LETRAS[j]}</span><span>${esc(a)}</span></button>`).join("")}</div>
+   <div id="alts">${ordemAlts(q).map((j,p)=>
+     `<button class="alt" data-j="${j}"><span class="let">${LETRAS[p]}</span><span>${esc(q.alts[j])}</span></button>`).join("")}</div>
    <div id="fb"></div>
-   <hr>
-   <div class="linha">
-    <button class="bt sec" id="btAnt" ${i<=0?"disabled":""}>anterior</button>
-    <button class="bt" id="btProx" ${i>=l.length-1?"disabled":""}>próxima</button>
-    <span class="mini" style="margin-left:auto">${i+1} de ${l.length}${ja?` · última vez: ${ja.ok?"acertou":"errou"}`:""}</span>
+   <div class="qPe">
+    <button class="bt sec" id="btAnt" ${i<=0?"disabled":""}><i class="ti ti-arrow-left"></i>Anterior</button>
+    <button class="bt" id="btProx" ${i>=l.length-1?"disabled":""}>Próxima<i class="ti ti-arrow-right"></i></button>
+    <span class="atalhos"><kbd>A</kbd>–<kbd>E</kbd> responder <kbd>←</kbd><kbd>→</kbd> navegar</span>
    </div>
   </div>`;
   $("#btFav").onclick=()=>{ST.fav[q._ch]=!ST.fav[q._ch];if(!ST.fav[q._ch])delete ST.fav[q._ch];salva("fav",ST.fav);pintaCartaoQuestao(q,l,i)};
@@ -981,7 +1337,8 @@ function pintaCartaoQuestao(q,l,i){
 function responde(q,j,l,i){
   const ok=j===q.gab;
   registraResposta(q,j,ok,"estudo");
-  $$("#alts .alt").forEach((b,k)=>{
+  $$("#alts .alt").forEach(b=>{
+    const k=+b.dataset.j;
     b.disabled=true;
     if(k===q.gab)b.classList.add("certa");
     if(k===j&&!ok)b.classList.add("errada");
@@ -989,8 +1346,8 @@ function responde(q,j,l,i){
     b.after(e);
   });
   $("#fb").innerHTML=`
-   <div class="coment">
-    <b>${ok?"Correta.":"Resposta correta: "+LETRAS[q.gab]+"."}</b> ${esc(q.coment)}
+   <div class="coment ${ok?"ok":"er"}">
+    <b>${ok?"Você acertou.":"Resposta correta: "+letraDe(q,q.gab)+"."}</b> ${esc(q.coment)}
     <div class="base">Âncora: ${esc(q.base)}</div>
     <div class="linha" style="gap:6px;margin-top:10px">
      <span class="pilula b">${esc(NOME[q.tema]||q.tema)}</span>
@@ -1074,8 +1431,8 @@ function pintaSimEmCurso(s){
   </div>
   <div class="cx">
    <p class="enun">${esc(q.q)}</p>
-   <div id="simAlts">${q.alts.map((a,j)=>
-     `<button class="alt${s.res[q._ch]===j?" certa":""}" data-j="${j}"><span class="let">${LETRAS[j]}</span><span>${esc(a)}</span></button>`).join("")}</div>
+   <div id="simAlts">${ordemAlts(q).map((j,p)=>
+     `<button class="alt${s.res[q._ch]===j?" certa":""}" data-j="${j}"><span class="let">${LETRAS[p]}</span><span>${esc(q.alts[j])}</span></button>`).join("")}</div>
    <hr>
    <div class="linha">
     <button class="bt sec" id="sAnt" ${s.i<=0?"disabled":""}>anterior</button>
@@ -1156,8 +1513,8 @@ function pintaResultadoSim(s){
         <span class="pilula ${ok?"ok":"er"}">${k+1}. ${ok?"acertou":r===undefined?"em branco":"errou"}</span>
         <span class="pilula b">${esc(NOME[q.tema]||q.tema)}</span></div>
        <p class="enun">${esc(q.q)}</p>
-       ${q.alts.map((a,j)=>`<div class="alt${j===q.gab?" certa":(j===r?" errada":"")}">
-         <span class="let">${LETRAS[j]}</span><span>${esc(a)}</span></div>`).join("")}
+       ${ordemAlts(q).map((j,p)=>`<div class="alt${j===q.gab?" certa":(j===r?" errada":"")}">
+         <span class="let">${LETRAS[p]}</span><span>${esc(q.alts[j])}</span></div>`).join("")}
        <div class="coment">${esc(q.coment)}<div class="base">Âncora: ${esc(q.base)}</div></div></div>`}).join("");
     $("#btRevisar").disabled=true;
   };
@@ -1506,6 +1863,100 @@ function estatArea(){
     return {t,total:qs.length,n,ok,taxa,cob,prio};
   }).sort((a,b)=>b.prio-a.prio);
 }
+/* ================= aba INÍCIO =================
+   Primeira tela: o que fazer agora. Meta do dia (questões respondidas hoje), sequência de dias,
+   atividade das duas últimas semanas, atalhos com número real e as áreas onde o ganho é maior
+   (a mesma prioridade do Desempenho: peso na prova × erro × o que falta ver). */
+const COR_AREA=["#0A7C74","#2563EB","#7C3AED","#DB2777","#EA580C","#CA8A04","#16A34A","#0891B2","#9333EA","#DC2626","#4F46E5","#65A30D","#0D9488","#C2410C","#475569"];
+const corArea=id=>COR_AREA[Math.max(0,TAX.findIndex(t=>t.id===id))%COR_AREA.length];
+function diasSeguidos(){
+  let n=0;const d=new Date();
+  if(!ST.atividade[dataISO(d)])d.setDate(d.getDate()-1);
+  while(ST.atividade[dataISO(d)]){n++;d.setDate(d.getDate()-1)}
+  return n;
+}
+function pintaInicio(){
+  const meta=Math.max(5,+(ST.cfg.meta||20)), hoje=ST.atividade[dataISO()]||0, feito=Math.min(1,hoje/meta);
+  const seq=diasSeguidos();
+  let acertos=0,tent=0;Object.values(ST.resp).forEach(r=>r.hist.forEach(h=>{tent++;if(h.ok)acertos++}));
+  const vistas=Object.keys(ST.resp).length;
+  const R=56,C=2*Math.PI*R;
+  const dias=[...Array(14)].map((_,k)=>{const d=new Date();d.setDate(d.getDate()-13+k);const iso=dataISO(d);
+    return {iso,n:ST.atividade[iso]||0,l:"DSTQQSS"[d.getDay()],hoje:k===13}});
+  const maxD=Math.max(meta,...dias.map(x=>x.n));
+  const devs=devidos().length;
+  const emCurso=Object.keys(ST.prog).filter(f=>!ST.lidas[f]&&ST.prog[f]>0&&ST.prog[f]<95)
+    .map(f=>({f,l:LEITURAS.find(x=>x.f===f)})).filter(x=>x.l).sort((a,b)=>ST.prog[b.f]-ST.prog[a.f])[0];
+  const ea=estatArea(), foco=ea.slice(0,5);
+  const fq=(ST.pos&&ST.pos.fq)||{}, qAtual=ST.pos&&ST.pos.chq?QIDX.get(ST.pos.chq):null;
+  const nLidas=Object.keys(ST.lidas).length, nLeit=LEITURAS.filter(l=>l.f).length;
+  $("#sec-inicio").innerHTML=`
+  <div class="ini">
+   <div class="cx c7">
+    <div class="meta">
+     <div class="anel"><svg width="132" height="132" viewBox="0 0 132 132">
+       <circle cx="66" cy="66" r="${R}" fill="none" stroke="var(--sup3)" stroke-width="11"/>
+       <circle cx="66" cy="66" r="${R}" fill="none" stroke="var(--brand)" stroke-width="11" stroke-linecap="round"
+        stroke-dasharray="${(C*feito).toFixed(1)} ${C.toFixed(1)}"${feito?"":' opacity="0"'}/></svg>
+      <div class="val"><b class="num">${hoje}</b><span>de ${meta} hoje</span></div></div>
+     <div class="metaTxt">
+      <h2>${hoje>=meta?"Meta do dia cumprida":hoje?`Faltam ${meta-hoje} questões`:"Comece a meta de hoje"}</h2>
+      <p>${hoje>=meta?"Aproveite para revisar os erros ou uma leitura.":"Questões respondidas em qualquer modo contam para a meta."}</p>
+      <div class="statsL">
+       <div><b class="num"><i class="ti ti-flame fogo"></i> ${seq}</b><span>${seq===1?"dia seguido":"dias seguidos"}</span></div>
+       <div><b class="num">${pct(acertos,tent)}%</b><span>acerto geral</span></div>
+       <div><b class="num">${vistas}</b><span>de ${BANCO.length} vistas</span></div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="cx c5">
+    <div class="cxTit"><h3>Últimas duas semanas</h3><span class="mini">${dias.reduce((a,x)=>a+x.n,0)} questões</span></div>
+    <div class="semana">${dias.map(x=>`<div title="${x.iso}: ${x.n}"><i class="${x.hoje?"hoje":x.n>=meta?"cheio":""}" style="height:${Math.max(4,Math.round(x.n/maxD*84))}px${x.n&&!x.hoje&&x.n<meta?";background:color-mix(in srgb,var(--brand) 45%,var(--sup3))":""}"></i><span>${x.l}</span></div>`).join("")}</div>
+   </div>
+   <div class="c12 acoes">
+    <button class="acao" data-ir="questoes"><span class="ic" style="background:var(--brandSup);color:var(--brandInk)"><i class="ti ti-player-play"></i></span>
+     <span><b>Continuar questões</b><small>${fq.area?esc(NOME[fq.area]||""):"todas as áreas"}${fq.modo&&fq.modo!=="todas"?" · "+({novas:"não respondidas",erros:"meus erros",fav:"marcadas"}[fq.modo]||""):""}</small></span>
+     <span class="n num">${BANCO.length-vistas}<span class="mini" style="font-weight:500"> novas</span></span></button>
+    <button class="acao" data-ir="erros"><span class="ic" style="background:var(--errSup);color:var(--err)"><i class="ti ti-refresh-alert"></i></span>
+     <span><b>Revisar erros</b><small>até acertar duas vezes seguidas</small></span>
+     <span class="n num">${ST.erros.length}</span></button>
+    <button class="acao" data-ir="cartoes"><span class="ic" style="background:var(--aviSup);color:var(--avi)"><i class="ti ti-cards"></i></span>
+     <span><b>Cartões de hoje</b><small>revisão espaçada</small></span>
+     <span class="n num">${devs}</span></button>
+    <button class="acao" data-ir="leitura"${emCurso?` data-f="${esc(emCurso.f)}"`:""}><span class="ic" style="background:color-mix(in srgb,#7C3AED 14%,var(--sup));color:#7C3AED"><i class="ti ti-book-2"></i></span>
+     <span><b>${emCurso?"Continuar leitura":"Leituras"}</b><small>${emCurso?esc(emCurso.l.t):`${nLidas} de ${nLeit} concluídas`}</small></span>
+     <span class="n num">${emCurso?ST.prog[emCurso.f]+"%":nLidas}</span></button>
+   </div>
+   <div class="cx c7">
+    <div class="cxTit"><h3>Onde focar</h3><button class="link" data-ir="painel">Ver desempenho</button></div>
+    <div class="foco">${foco.map(a=>`<div class="item">
+      <span class="pt" style="background:${corArea(a.t.id)}"></span>
+      <span class="nome">${esc(a.t.nome)}<small>peso ${a.t.peso} · ${a.n} de ${a.total} vistas</small></span>
+      <div class="barra"><i style="width:${Math.max(2,Math.round(a.cob*100))}%;background:${corArea(a.t.id)}"></i></div>
+      <span class="taxa" style="color:${a.taxa===null?"var(--ink3)":a.taxa>=.7?"var(--ok)":"var(--err)"}">${a.taxa===null?"—":Math.round(a.taxa*100)+"%"}</span>
+     </div>`).join("")}</div>
+   </div>
+   <div class="cx c5" style="display:flex;flex-direction:column;gap:14px">
+    <div class="cxTit" style="margin:0"><h3>Metas e prova</h3></div>
+    <label class="cmp">Meta diária de questões
+     <select id="iMeta">${[10,20,30,40,60,80].map(v=>`<option value="${v}"${v===meta?" selected":""}>${v} por dia</option>`).join("")}</select></label>
+    <div class="cta cx" style="margin:0;padding:16px;box-shadow:none">
+     <span class="ic"><i class="ti ti-stopwatch"></i></span>
+     <div><h3>Simulado</h3><p>${ST.sim.length?`${ST.sim.length} feito${ST.sim.length>1?"s":""} · último ${ST.sim[ST.sim.length-1].acertos}/${ST.sim[ST.sim.length-1].n}`:"Prova cronometrada no peso do edital"}</p></div>
+     <button class="bt mini" data-ir="simulado">Começar</button>
+    </div>
+   </div>
+  </div>`;
+  $("#iMeta").onchange=e=>{ST.cfg.meta=+e.target.value;salva("cfg",ST.cfg);pintaInicio()};
+  $$("#sec-inicio [data-ir]").forEach(b=>b.onclick=()=>{
+    const v=b.dataset.ir;
+    if(v==="erros"){ST.pos.fq={...filtroAtual(),modo:"erros"};ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);irAba("questoes")}
+    else if(v==="leitura"){if(b.dataset.f){ST.cfg.lendo=b.dataset.f;salva("cfg",ST.cfg)}irAba("leituras")}
+    else irAba(v);
+  });
+}
+
 function pintaPainel(){
   const respondidas=Object.keys(ST.resp).length;
   let acertos=0,tent=0;
@@ -1531,9 +1982,9 @@ function pintaPainel(){
    <div class="rolagem" style="margin-top:10px"><table>
     <tr><th>Área</th><th>Peso</th><th>Vistas</th><th>Acerto</th><th>Cobertura</th></tr>
     ${ea.map(a=>`<tr>
-      <td>${esc(a.t.nome)}</td><td>${a.t.peso}</td><td>${a.n}/${a.total}</td>
+      <td><span style="display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:9px;background:${corArea(a.t.id)}"></span>${esc(a.t.nome)}</td><td>${a.t.peso}</td><td>${a.n}/${a.total}</td>
       <td>${a.taxa===null?'<span class="mini">—</span>':`<span class="pilula ${a.taxa>=0.7?"ok":"er"}">${Math.round(a.taxa*100)}%</span>`}</td>
-      <td><div class="barra" style="min-width:70px"><i style="width:${Math.round(a.cob*100)}%"></i></div></td></tr>`).join("")}
+      <td><div class="barra" style="min-width:90px"><i style="width:${Math.max(2,Math.round(a.cob*100))}%;background:${corArea(a.t.id)}"></i></div></td></tr>`).join("")}
    </table></div>
   </div>
   <div class="cx">
@@ -1551,7 +2002,7 @@ function pintaPainel(){
    ${ST.erros.slice(0,12).map(ch=>{const q=QIDX.get(ch);if(!q)return "";
      return `<details><summary>${esc(NOME[q.tema]||q.tema)} · ${esc(q.q.slice(0,90))}…</summary>
       <p class="enun" style="font-size:15px">${esc(q.q)}</p>
-      <div class="coment"><b>Correta: ${LETRAS[q.gab]}.</b> ${esc(q.alts[q.gab])}<br><br>${esc(q.coment)}
+      <div class="coment"><b>Correta: ${letraDe(q,q.gab)}.</b> ${esc(q.alts[q.gab])}<br><br>${esc(q.coment)}
        <div class="base">Âncora: ${esc(q.base)}</div></div></details>`}).join("")}
    <button class="bt mini" id="btTreinarErros" style="margin-top:8px">Treinar só os erros</button></div>`:""}
   <div class="cx">
@@ -1725,7 +2176,7 @@ async function pintaAjustes(){
     ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);ST.cfg.aba="questoes";ST.cfg.lendo=null;salva("cfg",ST.cfg);
     history.replaceState(null,"",location.pathname);
   }
-  irAba(ST.cfg.aba&&PINTA[ST.cfg.aba]?ST.cfg.aba:"questoes");
+  irAba(ST.cfg.aba&&PINTA[ST.cfg.aba]?ST.cfg.aba:"inicio");
   convidaInstalar();
   /* atalho do toque longo no ícone (manifest shortcuts): ?ir=<aba> */
   const irPar=par.get("ir");

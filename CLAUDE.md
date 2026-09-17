@@ -5,6 +5,22 @@ App pessoal do Matheus, três públicos no mesmo banco: **título de especialist
 residência**. Herda a arquitetura do TráfegoTítulo/RadioTítulo e o cronograma vivo do
 quiz-enare-farmacia.
 
+## Interface moderna (17/09/2026, cm-v92) — substitui a "prova impressa"
+
+O Matheus reprovou a cm-v76 por "extremamente simples" e pediu algo moderno. Direção atual:
+- Computador: barra lateral fixa (256 px; 76 px só com ícones entre 900 e 1180 px) com grupos Estudo e
+  Acompanhamento, busca e tema no pé. Tablet: abas no topo. Celular: barra inferior com indicador atrás do
+  ícone (sem backdrop-filter no header: ele prende a barra fixa dentro dele).
+- Aba **Início** (padrão): anel da meta diária (`ST.cfg.meta`), sequência de dias, 14 dias de atividade,
+  4 atalhos com número real, "Onde focar" pela prioridade de `estatArea()`.
+- Superfícies em cartão (raio 16, fundo `--papel` levemente cinza), questão em blocos com letra em
+  quadrado, atalhos A–E e setas, título de página em `#pgTitulo` (títulos repetidos saem sozinhos).
+- Continua proibido: gradiente, emoji, fonte baixada, versalete, etiqueta colorida em tudo.
+
+**Ordem das alternativas (cm-v92):** o banco NÃO é reordenado. `ordemAlts(q)` define a ordem de EXIBIÇÃO
+(correta na posição hash(_ch)%5 nas autorais; prova real mantém a oficial). Histórico e simulado seguem
+gravando o índice ORIGINAL. Qualquer tela nova de alternativas tem de usar `ordemAlts`/`letraDe`.
+
 ## As provas (fonte primária em `docs/`)
 **TECM 2026 — Edital SBCM/AMB nº 2473** (`docs/edital-2473-tecm-2026.pdf`, texto extraído em `.txt`):
 - 1ª fase: **120 questões**, 5 alternativas. As **100 primeiras valem 0,8** e as **20 últimas valem 1,0**

@@ -72,13 +72,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 34 anos, asmática, chega à emergência com dispneia e sibilos difusos após quadro gripal. Está falando frases completas, com frequência respiratória de 24 irpm e oximetria de pulso de 94% em ar ambiente. Recebeu a primeira série de broncodilatador inalatório. Sobre a oxigenoterapia nesse atendimento, qual conduta segue a diretriz vigente?",
+  "q": "Mulher de 34 anos, asmática, chega à emergência com dispneia e sibilos difusos após quadro gripal. Está falando frases completas, com frequência respiratória de 24 irpm e oximetria de pulso de 94% em ar ambiente. Recebeu a primeira série de broncodilatador inalatório. Não tem cianose nem uso de musculatura acessória, a frequência cardíaca é de 104 bpm e o pico de fluxo está em 62% do melhor valor pessoal. Usa budesonida-formoterol de manutenção e nunca foi intubada. Sobre a oxigenoterapia nesse atendimento, qual conduta segue a diretriz vigente?",
   "alts": [
-   "Ofertar oxigênio sob máscara com reservatório a 15 L/min para manter a saturação acima de 98% agora.",
-   "Não ofertar oxigênio suplementar: só se indica a oferta quando a saturação cai abaixo do limiar.",
-   "Ofertar oxigênio por cateter nasal a 3 L/min de rotina em toda crise asmática atendida no setor.",
-   "Indicar ventilação não invasiva imediatamente, antes mesmo da segunda série de broncodilatador.",
-   "Ofertar oxigênio apenas se a gasometria arterial mostrar pressão parcial de oxigênio menor que 80."
+   "Máscara com reservatório a 15 L/min",
+   "Não ofertar oxigênio por ora",
+   "Cateter nasal a 3 L/min de rotina",
+   "Ventilação não invasiva já",
+   "Oxigênio só se PaO₂ abaixo de 80 mmHg"
   ],
   "gab": 1,
   "tema": "pneumo",
@@ -96,13 +96,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 26 anos, asmático, é atendido minutos após comer camarão em uma festa. Apresenta sibilância difusa, edema de lábios, urticária no tronco e pressão arterial de 84/50 mmHg. Já está em uso de sua bombinha de resgate sem melhora. Qual é a primeira medida a ser tomada?",
+  "q": "Homem de 26 anos, asmático, é atendido minutos após comer camarão em uma festa. Apresenta sibilância difusa, edema de lábios, urticária no tronco e pressão arterial de 84/50 mmHg. Já está em uso de sua bombinha de resgate sem melhora. A frequência cardíaca é de 128 bpm, a saturação de 90% em ar ambiente e ele refere aperto na garganta. Não usa betabloqueador, nunca teve anafilaxia e pesa 78 kg. Qual é a primeira medida a ser tomada?",
   "alts": [
-   "Salbutamol inalatório em série contínua, deixando a adrenalina para caso não haja resposta em 20 min.",
-   "Adrenalina intramuscular na face lateral da coxa, antes de repetir o broncodilatador inalatório.",
-   "Corticoide endovenoso em dose alta, que reverte com rapidez o broncoespasmo e a hipotensão do caso.",
-   "Anti-histamínico endovenoso associado a expansão volêmica, adiando a adrenalina para a sala vermelha.",
-   "Intubação orotraqueal imediata, pois a via aérea está inevitavelmente perdida nesse tipo de quadro."
+   "Salbutamol contínuo e adrenalina se falhar",
+   "Adrenalina intramuscular na coxa",
+   "Hidrocortisona endovenosa em dose alta",
+   "Anti-histamínico endovenoso e expansão volêmica",
+   "Intubação orotraqueal imediata"
   ],
   "gab": 1,
   "tema": "pneumo",
@@ -120,13 +120,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 67 anos com DPOC usa broncodilatador de ação longa duplo (LABA associado a LAMA). No último ano teve uma exacerbação moderada, tratada com corticoide oral em domicílio, sem internação. Está com dispneia mMRC 2 e contagem de eosinófilos sanguíneos de 340 células/µL. Segundo a versão vigente do relatório GOLD, qual é a conduta?",
+  "q": "Homem de 67 anos com DPOC usa broncodilatador de ação longa duplo (LABA associado a LAMA). No último ano teve uma exacerbação moderada, tratada com corticoide oral em domicílio, sem internação. Está com dispneia mMRC 2 e contagem de eosinófilos sanguíneos de 340 células/µL. Técnica inalatória e adesão foram conferidas e estão adequadas. Parou de fumar há 6 anos, o VEF₁ pós-broncodilatador é de 52% do previsto e não tem história de pneumonia ou micobacteriose. Segundo a versão vigente do relatório GOLD, qual é a conduta?",
   "alts": [
-   "Escalonar para terapia tripla com corticoide inalatório: qualquer exacerbação moderada já basta.",
-   "Manter o esquema atual, porque só duas ou mais exacerbações moderadas justificariam escalonar hoje.",
-   "Trocar a dupla broncodilatação por corticoide inalatório associado a beta-agonista de longa ação.",
-   "Suspender o LAMA e manter apenas o LABA, reduzindo o risco de eventos adversos anticolinérgicos.",
-   "Iniciar azitromicina em dose baixa por doze meses antes de considerar qualquer ajuste do inalatório."
+   "Escalonar para terapia tripla",
+   "Manter o esquema atual",
+   "Trocar por corticoide inalatório com LABA",
+   "Suspender o LAMA e manter o LABA",
+   "Azitromicina antes de ajustar o inalatório"
   ],
   "gab": 0,
   "tema": "pneumo",
@@ -144,13 +144,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 54 anos com DPOC moderada, ex-tabagista, comparece à consulta de rotina para atualizar o calendário vacinal. Já recebeu as vacinas contra influenza e pneumococo neste ciclo. Pergunta se existe algo mais indicado para a sua doença pulmonar. Segundo o relatório GOLD vigente, o que se recomenda quanto à vacina contra o vírus sincicial respiratório?",
+  "q": "Homem de 54 anos com DPOC moderada, ex-tabagista, comparece à consulta de rotina para atualizar o calendário vacinal. Já recebeu as vacinas contra influenza e pneumococo neste ciclo. Pergunta se existe algo mais indicado para a sua doença pulmonar. Não tem imunossupressão, usa tiotrópio-olodaterol e teve 1 internação por exacerbação no inverno passado. O VEF₁ é de 58% do previsto e ele mora com a esposa, de 52 anos. Segundo o relatório GOLD vigente, o que se recomenda quanto à vacina contra o vírus sincicial respiratório?",
   "alts": [
-   "Indicá-la agora, porque a recomendação passou a valer a partir dos 50 anos nesse grupo de pacientes.",
-   "Adiar a indicação até os 60 anos, faixa etária em que a vacina permanece recomendada atualmente.",
-   "Restringir a vacina aos pacientes com oxigenoterapia domiciliar contínua ou VEF₁ abaixo de trinta.",
-   "Considerá-la somente após duas internações por exacerbação ocorridas dentro do mesmo ano civil.",
-   "Dispensar a vacina, uma vez que a proteção da influenza cobre também o vírus sincicial respiratório."
+   "Indicar a vacina agora",
+   "Adiar a vacina até os 60 anos",
+   "Restringir a quem usa oxigênio domiciliar",
+   "Só após 2 internações no ano",
+   "Dispensar, pois a da influenza protege"
   ],
   "gab": 0,
   "tema": "pneumo",
@@ -168,13 +168,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 78 anos é admitido na UTI com choque séptico de foco urinário. Após a ressuscitação volêmica inicial, permanece com necessidade de noradrenalina. Está com pressão arterial média de 62 mmHg, lactato em queda, débito urinário de 0,6 mL/kg/h e extremidades aquecidas. Segundo a diretriz vigente de sepse, qual é a conduta quanto ao alvo pressórico?",
+  "q": "Homem de 78 anos é admitido na UTI com choque séptico de foco urinário. Após a ressuscitação volêmica inicial, permanece com necessidade de noradrenalina. Está com pressão arterial média de 62 mmHg, lactato em queda, débito urinário de 0,6 mL/kg/h e extremidades aquecidas. Não tem hipertensão prévia, a saturação venosa central é de 72% e o tempo de enchimento capilar é de 2 segundos. A noradrenalina está em 0,12 µg/kg/min e ele recebe piperacilina-tazobactam desde a admissão. Segundo a diretriz vigente de sepse, qual é a conduta quanto ao alvo pressórico?",
   "alts": [
-   "Elevar a noradrenalina até uma pressão arterial média de 80 mmHg, protegendo a perfusão renal do idoso.",
-   "Manter o alvo entre 60 e 65 mmHg, faixa sugerida para pacientes com 65 anos ou mais nesse cenário.",
-   "Reduzir o alvo para 55 mmHg enquanto o lactato estiver caindo, poupando a exposição ao vasopressor.",
-   "Perseguir pressão arterial sistólica maior que 140 mmHg, por causa da hipertensão crônica do paciente.",
-   "Abandonar alvo pressórico e titular o vasopressor apenas pelo débito urinário aferido de hora em hora."
+   "Titular até PAM de 80 mmHg",
+   "Manter PAM entre 60 e 65 mmHg",
+   "Reduzir o alvo para PAM de 55 mmHg",
+   "Buscar sistólica acima de 140 mmHg",
+   "Titular só pelo débito urinário"
   ],
   "gab": 1,
   "tema": "emergencias",
@@ -264,13 +264,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 52 anos com diabetes tipo 2 há oito anos, doença renal crônica com taxa de filtração glomerular de 48 mL/min/1,73 m² e relação albumina-creatinina de 380 mg/g, usa metformina e tem hemoglobina glicada de 6,8%. Está assintomática. Considerando as recomendações vigentes, qual é a melhor conduta farmacológica?",
+  "q": "Mulher de 52 anos com diabetes tipo 2 há oito anos, doença renal crônica com taxa de filtração glomerular de 48 mL/min/1,73 m² e relação albumina-creatinina de 380 mg/g, usa metformina e tem hemoglobina glicada de 6,8%. Está assintomática. A pressão arterial é de 128/78 mmHg em uso de losartana 100 mg, o potássio é de 4,7 mEq/L e o índice de massa corporal é de 29 kg/m². Não tem insuficiência cardíaca, e a última infecção urinária foi há 3 anos. Considerando as recomendações vigentes, qual é a melhor conduta farmacológica?",
   "alts": [
-   "Manter apenas a metformina, porque a hemoglobina glicada já está dentro da meta estabelecida hoje.",
-   "Acrescentar um inibidor de SGLT2, indicado pela proteção renal independentemente da glicada atual.",
-   "Iniciar insulina basal noturna para prevenir a progressão da doença renal crônica nessa paciente.",
-   "Suspender a metformina de imediato, uma vez que a filtração glomerular está abaixo de 60 mL/min.",
-   "Trocar a metformina por sulfonilureia, opção de menor custo com o mesmo efeito de proteção renal."
+   "Manter apenas a metformina",
+   "Acrescentar inibidor de SGLT2",
+   "Iniciar insulina basal",
+   "Suspender a metformina",
+   "Trocar metformina por sulfonilureia"
   ],
   "gab": 1,
   "tema": "endocrino",
@@ -288,13 +288,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 29 anos com diabetes tipo 1 há doze anos, em esquema basal-bolus com múltiplas aplicações, tem índice de massa corporal de 34 kg/m² e hemoglobina glicada de 7,9%. Pergunta sobre tratamento farmacológico para a obesidade. Segundo a versão de 2026 das recomendações da Associação Americana de Diabetes, qual é a orientação?",
+  "q": "Homem de 29 anos com diabetes tipo 1 há doze anos, em esquema basal-bolus com múltiplas aplicações, tem índice de massa corporal de 34 kg/m² e hemoglobina glicada de 7,9%. Pergunta sobre tratamento farmacológico para a obesidade. Não tem hipoglicemias graves, a pressão é de 132/84 mmHg e já tentou dieta com nutricionista e atividade física regular por 1 ano, perdendo apenas 2 kg. Não tem história de pancreatite ou de carcinoma medular de tireoide na família. Segundo a versão de 2026 das recomendações da Associação Americana de Diabetes, qual é a orientação?",
   "alts": [
-   "Fármacos dessa classe seguem contraindicados no diabetes tipo 1, restritos apenas ao diabetes tipo 2.",
-   "A conduta se limita a dieta e exercício, pois medicação para obesidade não tem espaço no tipo 1.",
-   "Um agonista do receptor de GLP-1 entra como opção, sempre com dose individualizada e insulina.",
-   "Deve-se sempre buscar a dose máxima aprovada em bula, que é a única dose com eficácia demonstrada.",
-   "A cirurgia bariátrica é a única opção admitida nesse caso, sem alternativa de tratamento clínico."
+   "Classe contraindicada no diabetes tipo 1",
+   "Apenas dieta e exercício",
+   "Agonista de GLP-1 como opção adjuvante",
+   "Sempre a dose máxima de bula",
+   "Somente cirurgia bariátrica"
   ],
   "gab": 2,
   "tema": "endocrino",
@@ -312,13 +312,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 61 anos com diabetes tipo 2 diagnosticado há dois meses, em uso de metformina, comparece à consulta e relata dificuldade para entender a variação da sua glicemia ao longo do dia. Não usa insulina. Pergunta se existe algum recurso além da glicemia capilar de jejum. Qual é a orientação alinhada às recomendações de 2026?",
+  "q": "Mulher de 61 anos com diabetes tipo 2 diagnosticado há dois meses, em uso de metformina, comparece à consulta e relata dificuldade para entender a variação da sua glicemia ao longo do dia. Não usa insulina. Pergunta se existe algum recurso além da glicemia capilar de jejum. A hemoglobina glicada ao diagnóstico era de 8,1% e caiu para 7,2%. Tem celular compatível, trabalha em turnos alternados e não tem doença renal ou cardiovascular conhecida. Qual é a orientação alinhada às recomendações de 2026?",
   "alts": [
-   "A monitorização contínua de glicose cabe a qualquer momento, mesmo sem insulina prandial em uso.",
-   "O uso de sensor contínuo fica restrito a quem usa insulina em múltiplas doses diárias, sem exceção.",
-   "A glicemia capilar de jejum isolada é suficiente, e qualquer outro método apenas eleva o custo do caso.",
-   "O sensor só deve ser cogitado depois de cinco anos de doença ou diante de hipoglicemias documentadas.",
-   "A hemoglobina glicada trimestral substitui integralmente qualquer forma de monitorização de glicose."
+   "Monitorização contínua já é uma opção",
+   "Sensor só com insulina em múltiplas doses",
+   "Glicemia capilar de jejum basta",
+   "Sensor só após 5 anos de doença",
+   "Hemoglobina glicada substitui a monitorização"
   ],
   "gab": 0,
   "tema": "endocrino",
@@ -336,13 +336,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 64 anos sem diabetes, com doença renal crônica por nefroesclerose hipertensiva, taxa de filtração glomerular estimada de 34 mL/min/1,73 m² e relação albumina-creatinina de 620 mg/g, já usa dose máxima tolerada de enalapril. A pressão está controlada e o potássio é de 4,6 mEq/L. Qual é a próxima medida com melhor evidência de nefroproteção?",
+  "q": "Homem de 64 anos sem diabetes, com doença renal crônica por nefroesclerose hipertensiva, taxa de filtração glomerular estimada de 34 mL/min/1,73 m² e relação albumina-creatinina de 620 mg/g, já usa dose máxima tolerada de enalapril. A pressão está controlada e o potássio é de 4,6 mEq/L. O índice de massa corporal é de 27 kg/m², não tem insuficiência cardíaca e a hemoglobina glicada é de 5,6%. Não usa diurético e a última creatinina, há 6 meses, era semelhante. Qual é a próxima medida com melhor evidência de nefroproteção?",
   "alts": [
-   "Associar um bloqueador do receptor de angiotensina à dose de enalapril que ele já vem usando hoje.",
-   "Prescrever alopurinol de rotina, cuja redução do ácido úrico freia a perda de função renal do paciente.",
-   "Restringir a proteína da dieta a 0,3 g/kg/dia, sem suplementação de cetoanálogos, para poupar o rim.",
-   "Iniciar diálise peritoneal preventiva agora, antes que a filtração glomerular caia abaixo de 30 mL/min.",
-   "Acrescentar um inibidor de SGLT2, que tem recomendação forte nesse patamar de albuminúria e filtração."
+   "Associar BRA ao enalapril",
+   "Alopurinol para frear a perda renal",
+   "Dieta com 0,3 g/kg/dia de proteína",
+   "Diálise peritoneal preventiva",
+   "Acrescentar inibidor de SGLT2"
   ],
   "gab": 4,
   "tema": "nefro",
@@ -384,13 +384,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 70 anos é admitido com vômitos há cinco dias por obstrução pilórica. A gasometria arterial mostra pH 7,52, pressão parcial de gás carbônico de 48 mmHg e bicarbonato de 38 mEq/L. O cloro urinário está em 8 mEq/L e ele apresenta sinais de desidratação. Qual é a interpretação e a conduta inicial adequadas?",
+  "q": "Homem de 70 anos é admitido com vômitos há cinco dias por obstrução pilórica. A gasometria arterial mostra pH 7,52, pressão parcial de gás carbônico de 48 mmHg e bicarbonato de 38 mEq/L. O cloro urinário está em 8 mEq/L e ele apresenta sinais de desidratação. A pressão é de 98/60 mmHg, a frequência de 108 bpm, o potássio sérico é de 2,9 mEq/L e o cloro sérico de 84 mEq/L. Não usa diuréticos e não tem hipertensão ou edema. Qual é a interpretação e a conduta inicial adequadas?",
   "alts": [
-   "Alcalose metabólica responsiva ao cloro, tratada com reposição de solução salina e de potássio.",
-   "Alcalose respiratória primária por dor, que se corrige com controle da frequência respiratória.",
-   "Alcalose metabólica resistente ao cloro, com indicação de espironolactona por hiperaldosteronismo.",
-   "Acidose metabólica com ânion gap elevado, que exige infusão imediata de bicarbonato de sódio.",
-   "Distúrbio misto sem tradução clínica, cuja conduta é observar sem reposição volêmica agora."
+   "Alcalose metabólica cloro-responsiva; salina e potássio",
+   "Alcalose respiratória; controlar a dor",
+   "Alcalose cloro-resistente; espironolactona",
+   "Acidose com ânion gap alto; bicarbonato",
+   "Distúrbio misto; apenas observar"
   ],
   "gab": 0,
   "tema": "nefro",
@@ -432,13 +432,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 58 anos acorda com fraqueza no braço esquerdo. Foi visto bem pela última vez ao deitar-se, oito horas antes, e o déficit foi percebido há 40 minutos. A tomografia sem contraste não mostra hemorragia. O hospital dispõe de ressonância magnética. Qual é a estratégia recomendada para decidir sobre a trombólise nesse paciente?",
+  "q": "Homem de 58 anos acorda com fraqueza no braço esquerdo. Foi visto bem pela última vez ao deitar-se, oito horas antes, e o déficit foi percebido há 40 minutos. A tomografia sem contraste não mostra hemorragia. O hospital dispõe de ressonância magnética. O NIHSS é de 6, a pressão arterial de 168/92 mmHg e a glicemia de 118 mg/dL. Não usa anticoagulante, não teve AVC nem cirurgia recente e as plaquetas são normais. Qual é a estratégia recomendada para decidir sobre a trombólise nesse paciente?",
   "alts": [
-   "Descartar a trombólise, já que o horário de início desconhecido exclui o paciente dessa opção.",
-   "Trombolisar de imediato, contando as oito horas desde o último momento em que ele foi visto bem.",
-   "Indicar apenas antiagregante e reavaliar em 24 horas com nova tomografia de crânio sem contraste.",
-   "Fazer ressonância e trombolisar somente se houver difusão positiva sem contrapartida no FLAIR.",
-   "Encaminhar direto à trombectomia sem exame vascular, dispensando qualquer estudo de imagem adicional."
+   "Excluir a trombólise pelo horário",
+   "Trombolisar contando 8 horas",
+   "Só antiagregante e nova tomografia",
+   "Ressonância: trombolisar se DWI-FLAIR discordante",
+   "Trombectomia sem estudo vascular"
   ],
   "gab": 3,
   "tema": "neuro",
@@ -504,13 +504,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 63 anos está internada em UTI com pneumonia adquirida na comunidade grave, em ventilação mecânica e vasopressor desde a admissão. No quarto dia melhorou: está sem vasopressor, afebril e com parâmetros ventilatórios em redução. A equipe questiona se pode suspender o antimicrobiano hoje. Qual é a orientação da diretriz vigente?",
+  "q": "Mulher de 63 anos está internada em UTI com pneumonia adquirida na comunidade grave, em ventilação mecânica e vasopressor desde a admissão. No quarto dia melhorou: está sem vasopressor, afebril e com parâmetros ventilatórios em redução. A equipe questiona se pode suspender o antimicrobiano hoje. Recebeu ceftriaxona e azitromicina desde a admissão, as hemoculturas foram negativas e o antígeno urinário para pneumococo foi positivo. A procalcitonina caiu de 12 para 1,8 ng/mL e não há empiema na ultrassonografia. Qual é a orientação da diretriz vigente?",
   "alts": [
-   "Suspender hoje mesmo, já que a melhora clínica no quarto dia autoriza encerrar o tratamento.",
-   "Manter o antimicrobiano até a alta hospitalar, independentemente do tempo total de tratamento.",
-   "Suspender e substituir por profilaxia com azitromicina em dias alternados por três semanas.",
-   "Manter o antimicrobiano por pelo menos cinco dias, patamar recomendado na apresentação grave.",
-   "Manter por vinte e um dias, duração exigida em toda pneumonia que precisou de ventilação."
+   "Suspender hoje pela melhora clínica",
+   "Manter até a alta hospitalar",
+   "Trocar por azitromicina profilática",
+   "Manter no mínimo 5 dias no total",
+   "Manter por 21 dias"
   ],
   "gab": 3,
   "tema": "infecto",
@@ -528,13 +528,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 38 anos, hígido, sem uso de antimicrobiano nos últimos três meses e sem comorbidades, recebe diagnóstico de pneumonia adquirida na comunidade em consulta ambulatorial. Não há critérios de gravidade e ele será tratado em casa. Considerando a diretriz vigente, qual é o esquema inicial mais apropriado?",
+  "q": "Homem de 38 anos, hígido, sem uso de antimicrobiano nos últimos três meses e sem comorbidades, recebe diagnóstico de pneumonia adquirida na comunidade em consulta ambulatorial. Não há critérios de gravidade e ele será tratado em casa. Tem febre de 38,4 °C há 2 dias, tosse produtiva e consolidação em lobo inferior direito na radiografia. A frequência respiratória é de 20 irpm, a saturação de 96% em ar ambiente e não tem alergia a betalactâmicos. Considerando a diretriz vigente, qual é o esquema inicial mais apropriado?",
   "alts": [
-   "Levofloxacino em monoterapia, que deve ser a primeira escolha no paciente ambulatorial saudável.",
-   "Amoxicilina com clavulanato somada a macrolídeo, cobrindo germe atípico de forma rotineira.",
-   "Amoxicilina em dose alta como monoterapia, reservando doxiciclina como alternativa aceitável.",
-   "Ceftriaxona intramuscular diária por cinco dias, garantindo adesão melhor que a via oral.",
-   "Azitromicina isolada na região onde ele atua, sem checar a resistência local do pneumococo."
+   "Levofloxacino em monoterapia",
+   "Amoxicilina-clavulanato com macrolídeo",
+   "Amoxicilina em dose alta",
+   "Ceftriaxona intramuscular por 5 dias",
+   "Azitromicina isolada sem checar resistência"
   ],
   "gab": 2,
   "tema": "infecto",
@@ -552,13 +552,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Durante a visita na enfermaria, o preceptor pede que o residente diga se um paciente internado por pneumonia atingiu estabilidade clínica, critério que orienta a decisão de encerrar o antimicrobiano. Qual conjunto de achados corresponde à definição usada pela diretriz vigente?",
+  "q": "Durante a visita na enfermaria, o preceptor pede que o residente diga se um paciente internado por pneumonia atingiu estabilidade clínica, critério que orienta a decisão de encerrar o antimicrobiano. O paciente em discussão tem 70 anos, está no terceiro dia de ceftriaxona por pneumonia de lobo inferior esquerdo e hoje apresenta temperatura de 37,2 °C, frequência cardíaca de 88 bpm, frequência respiratória de 20 irpm, pressão de 126/78 mmHg e saturação de 94% em ar ambiente, lúcido e aceitando dieta oral. Qual conjunto de achados corresponde à definição usada pela diretriz vigente?",
   "alts": [
-   "Proteína C reativa reduzida à metade e leucograma inteiramente normalizado no exame de controle.",
-   "Afebril, frequência cardíaca abaixo de 100 bpm, respiratória abaixo de 24 irpm e sem confusão.",
-   "Radiografia de tórax com resolução completa e ausculta pulmonar sem qualquer ruído adventício.",
-   "Hemocultura negativa em duas amostras colhidas após vinte e quatro horas de antimicrobiano.",
-   "Ausência de tosse e de expectoração por um período mínimo de quarenta e oito horas seguidas."
+   "PCR na metade e leucograma normal",
+   "Sinais vitais estáveis e sem confusão",
+   "Radiografia com resolução completa",
+   "Duas hemoculturas negativas",
+   "Sem tosse por 48 horas"
   ],
   "gab": 1,
   "tema": "infecto",
@@ -576,13 +576,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 58 anos com cirrose compensada por esteatose hepática metabólica tem elastografia hepática de 22 kPa e plaquetas de 118.000/mm³. Está assintomático, sem ascite ou encefalopatia, e a endoscopia recente não mostrou varizes esofágicas. Segundo o consenso vigente de hipertensão portal, qual é a conduta?",
+  "q": "Homem de 58 anos com cirrose compensada por esteatose hepática metabólica tem elastografia hepática de 22 kPa e plaquetas de 118.000/mm³. Está assintomático, sem ascite ou encefalopatia, e a endoscopia recente não mostrou varizes esofágicas. A pressão é de 128/80 mmHg, a frequência cardíaca de 74 bpm e o índice de massa corporal de 33 kg/m². Não tem contraindicação a betabloqueador, asma ou bradicardia. Segundo o consenso vigente de hipertensão portal, qual é a conduta?",
   "alts": [
-   "Não tratar e repetir a endoscopia em dois anos, já que sem varizes não há o que prevenir agora.",
-   "Iniciar carvedilol, indicado na hipertensão portal clinicamente significativa mesmo sem varizes.",
-   "Indicar ligadura elástica profilática, procedimento que dispensa a terapia farmacológica dele.",
-   "Iniciar propranolol quando surgirem varizes de médio calibre na próxima endoscopia de controle.",
-   "Solicitar medida direta do gradiente de pressão venosa hepática antes de qualquer intervenção."
+   "Não tratar e repetir endoscopia em 2 anos",
+   "Iniciar carvedilol",
+   "Ligadura elástica profilática",
+   "Propranolol quando surgirem varizes",
+   "Medir gradiente venoso hepático antes"
   ],
   "gab": 1,
   "tema": "gastro",
@@ -600,13 +600,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 61 anos com cirrose alcoólica teve hemorragia digestiva por varizes esofágicas, tratada com ligadura elástica e vasoconstritor esplâncnico, com controle do sangramento. Está estável, sem ascite volumosa, com pressão de 118/72 mmHg e frequência de 76 bpm. Qual é a profilaxia secundária indicada na alta?",
+  "q": "Mulher de 61 anos com cirrose alcoólica teve hemorragia digestiva por varizes esofágicas, tratada com ligadura elástica e vasoconstritor esplâncnico, com controle do sangramento. Está estável, sem ascite volumosa, com pressão de 118/72 mmHg e frequência de 76 bpm. A bilirrubina é de 2,1 mg/dL, o INR de 1,4 e a albumina de 3,1 g/dL (Child-Pugh B7). Parou de beber há 10 dias, não tem asma e o sódio é de 136 mEq/L. Qual é a profilaxia secundária indicada na alta?",
   "alts": [
-   "Somente inibidor de bomba de prótons em dose dobrada, por tempo indefinido após a alta.",
-   "Manter só a ligadura elástica, sem betabloqueador, preservando a perfusão hepática.",
-   "Anastomose portossistêmica intra-hepática eletiva logo após o primeiro sangramento.",
-   "Betabloqueador não seletivo somado à ligadura seriada até erradicar todas as varizes.",
-   "Betabloqueador isolado, dispensando quaisquer novas sessões endoscópicas adiante."
+   "Inibidor de bomba em dose dobrada",
+   "Só ligadura, sem betabloqueador",
+   "TIPS eletivo imediato",
+   "Betabloqueador não seletivo e ligadura seriada",
+   "Betabloqueador isolado, sem endoscopias"
   ],
   "gab": 3,
   "tema": "gastro",
@@ -624,13 +624,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 55 anos com cirrose chega à emergência com hematêmese. Está com pressão de 104/64 mmHg, frequência de 98 bpm, sem dor torácica e sem doença coronária conhecida. A hemoglobina inicial é de 7,4 g/dL e o sangramento parece controlado após a estabilização inicial. Qual é a estratégia transfusional adequada?",
+  "q": "Homem de 55 anos com cirrose chega à emergência com hematêmese. Está com pressão de 104/64 mmHg, frequência de 98 bpm, sem dor torácica e sem doença coronária conhecida. A hemoglobina inicial é de 7,4 g/dL e o sangramento parece controlado após a estabilização inicial. Recebeu terlipressina e ceftriaxona, e foi agendada endoscopia nas próximas 12 horas. O INR é de 1,8, as plaquetas de 72 mil/mm³ e ele não tem sinais de sangramento ativo no momento. Qual é a estratégia transfusional adequada?",
   "alts": [
-   "Estratégia liberal, transfundindo até que a hemoglobina alcance a faixa de 10 a 11 g/dL.",
-   "Não transfundir em nenhuma hipótese enquanto houver sangramento digestivo em atividade.",
-   "Transfundir plasma fresco para corrigir o tempo de protrombina alargado à admissão.",
-   "Estratégia restritiva, transfundindo com alvo de hemoglobina em torno de 7 a 8 g/dL.",
-   "Transfundir concentrado de plaquetas já à admissão, mesmo com plaquetas acima de 50.000."
+   "Liberal, com alvo de 10 a 11 g/dL",
+   "Não transfundir com sangramento ativo",
+   "Plasma para corrigir o INR",
+   "Restritiva, com alvo de 7 a 8 g/dL",
+   "Plaquetas já na admissão"
   ],
   "gab": 3,
   "tema": "gastro",
@@ -648,13 +648,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 67 anos com cirrose e ascite é internada por dor abdominal difusa e febre. A paracentese diagnóstica mostra 620 neutrófilos/mm³ no líquido ascítico, com cultura em andamento. A creatinina é de 1,4 mg/dL e a bilirrubina de 3,2 mg/dL. Além do antimicrobiano, qual medida reduz mortalidade nesse quadro?",
+  "q": "Mulher de 67 anos com cirrose e ascite é internada por dor abdominal difusa e febre. A paracentese diagnóstica mostra 620 neutrófilos/mm³ no líquido ascítico, com cultura em andamento. A creatinina é de 1,4 mg/dL e a bilirrubina de 3,2 mg/dL. A pressão é de 106/64 mmHg, sem choque, e ela iniciou ceftriaxona após a punção. O sódio é de 131 mEq/L e não há evidência de perfuração intestinal na tomografia. Além do antimicrobiano, qual medida reduz mortalidade nesse quadro?",
   "alts": [
-   "Furosemida endovenosa em dose alta, para acelerar a resolução da ascite da paciente.",
-   "Paracentese de alívio diária até secar completamente a ascite ao longo da internação atual.",
-   "Albumina endovenosa, 1,5 g/kg no primeiro dia e 1,0 g/kg no terceiro dia de tratamento.",
-   "Betabloqueador não seletivo em dose plena iniciado no mesmo dia do diagnóstico da infecção.",
-   "Restrição hídrica intensa, limitando a oferta a menos de 500 mL em vinte e quatro horas."
+   "Furosemida endovenosa em dose alta",
+   "Paracentese de alívio diária",
+   "Albumina 1,5 g/kg no dia 1 e 1 g/kg no dia 3",
+   "Betabloqueador em dose plena já",
+   "Restrição hídrica abaixo de 500 mL/dia"
   ],
   "gab": 2,
   "tema": "gastro",
@@ -672,13 +672,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Durante a discussão de um caso na enfermaria, o residente questiona por que um paciente do interior teve de ser transferido para a capital para fazer um exame que existe no município vizinho, mais próximo. A resposta passa por um princípio organizativo do SUS previsto em lei. Qual é esse princípio?",
+  "q": "Durante a discussão de um caso na enfermaria, o residente questiona por que um paciente do interior teve de ser transferido para a capital para fazer um exame que existe no município vizinho, mais próximo. A resposta passa por um princípio organizativo do SUS previsto em lei. O exame é uma ressonância magnética, disponível num hospital regional a 40 km, mas a central de regulação encaminhou para a capital, a 300 km. O paciente e a família reclamam da distância, e a equipe discute como deveria funcionar a organização da rede. Qual é esse princípio?",
   "alts": [
-   "Universalidade do acesso, que garante atendimento a qualquer cidadão em qualquer serviço.",
-   "Regionalização e hierarquização, que organizam a rede em níveis de complexidade por região.",
-   "Integralidade da assistência, que reúne ações preventivas e curativas em um mesmo serviço.",
-   "Equidade no financiamento, que distribui os recursos federais conforme a receita do município.",
-   "Participação da comunidade, exercida por conferências e conselhos de saúde nas três esferas."
+   "Universalidade do acesso",
+   "Regionalização e hierarquização",
+   "Integralidade da assistência",
+   "Equidade no financiamento",
+   "Participação da comunidade"
   ],
   "gab": 1,
   "tema": "sus",
@@ -696,13 +696,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Uma paciente de 34 anos, lúcida e orientada, recusa transfusão de sangue por convicção religiosa diante de anemia sintomática, sem risco iminente de morte. Ela compreende o quadro e as alternativas oferecidas. Segundo o Código de Ética Médica vigente, qual é a conduta correta do médico assistente?",
+  "q": "Uma paciente de 34 anos, lúcida e orientada, recusa transfusão de sangue por convicção religiosa diante de anemia sintomática, sem risco iminente de morte. Ela compreende o quadro e as alternativas oferecidas. A hemoglobina é de 6,8 g/dL, por sangramento menstrual volumoso, e ela está hemodinamicamente estável, com frequência de 102 bpm e pressão de 112/70 mmHg. Não é gestante e assina termo de recusa após explicação detalhada dos riscos. Segundo o Código de Ética Médica vigente, qual é a conduta correta do médico assistente?",
   "alts": [
-   "Respeitar a recusa e registrar, oferecendo todas as alternativas terapêuticas disponíveis.",
-   "Transfundir mesmo assim, pois a vida prevalece sobre a autonomia em qualquer circunstância.",
-   "Solicitar autorização judicial antes de qualquer conduta, suspendendo o tratamento até a decisão.",
-   "Transferir a paciente compulsoriamente para outro serviço, encerrando o vínculo assistencial.",
-   "Pedir que um familiar assine a autorização da transfusão, suprindo a recusa dada pela paciente."
+   "Respeitar a recusa, registrar e oferecer alternativas",
+   "Transfundir mesmo assim, contra a vontade",
+   "Pedir autorização judicial e suspender o tratamento",
+   "Transferir a paciente e encerrar o vínculo",
+   "Pedir a um familiar que autorize"
   ],
   "gab": 0,
   "tema": "sus",
@@ -5064,13 +5064,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 70 anos em pós-operatório de cirurgia abdominal, no terceiro dia de internação em terapia intensiva, apresenta creatinina que subiu de 0,9 para 2,1 mg/dL e débito urinário de 0,2 mL/kg/h nas últimas doze horas, sem hipervolemia e sem hipercalemia. Qual é a conduta inicial?",
+  "q": "Paciente de 70 anos em pós-operatório de cirurgia abdominal, no terceiro dia de internação em terapia intensiva, apresenta creatinina que subiu de 0,9 para 2,1 mg/dL e débito urinário de 0,2 mL/kg/h nas últimas doze horas, sem hipervolemia e sem hipercalemia. A pressão arterial média é de 64 mmHg em noradrenalina baixa, o balanço hídrico está negativo em 1,2 litro e ele recebeu vancomicina e contraste endovenoso na véspera. Potássio de 4,8 mEq/L, pH de 7,32 e bicarbonato de 20 mEq/L, sem congestão pulmonar. Qual é a conduta inicial?",
   "alts": [
-   "Iniciar hemodiálise imediata porque a creatinina dobrou em menos de setenta e duas horas.",
-   "Prescrever furosemida em dose alta para converter a lesão oligúrica em lesão não oligúrica.",
-   "Otimizar perfusão e volemia, suspender nefrotóxicos e reavaliar antes de indicar diálise.",
-   "Administrar dopamina em dose renal com o objetivo de aumentar a perfusão do parênquima.",
-   "Repor volume de forma agressiva até que o débito urinário retorne ao valor considerado normal."
+   "Hemodiálise imediata pela creatinina",
+   "Furosemida em dose alta para converter a diurese",
+   "Otimizar volemia e suspender nefrotóxicos",
+   "Dopamina em dose renal contínua",
+   "Volume agressivo até normalizar a diurese"
   ],
   "gab": 2,
   "tema": "nefro",
@@ -6408,13 +6408,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 33 anos, sem comorbidades, está no quarto dia de febre que cessou ontem. Retorna à unidade referindo dor abdominal intensa e contínua e dois episódios de vômito. Está lúcido, com pressão de 118/76 mmHg, pulso de 88 bpm e prova do laço negativa. Segundo o manual do Ministério da Saúde, qual é a classificação e a conduta?",
+  "q": "Homem de 33 anos, sem comorbidades, está no quarto dia de febre que cessou ontem. Retorna à unidade referindo dor abdominal intensa e contínua e dois episódios de vômito. Está lúcido, com pressão de 118/76 mmHg, pulso de 88 bpm e prova do laço negativa. O hematócrito subiu de 42% para 47%, as plaquetas são de 98 mil/mm³ e não há sangramento. Não é gestante, idoso ou portador de comorbidades, e a diurese está preservada. Segundo o manual do Ministério da Saúde, qual é a classificação e a conduta?",
   "alts": [
-   "Grupo A: hidratação oral domiciliar de 60 mL/kg/dia e retorno apenas se surgir febre alta novamente.",
-   "Grupo C: internação com reposição volêmica endovenosa de 10 mL/kg de soro fisiológico na primeira hora.",
-   "Grupo B: hidratação oral com hemograma de controle e liberação para casa após o resultado do exame.",
-   "Grupo D: expansão imediata com 20 mL/kg em até 20 minutos, repetida por até três vezes seguidas hoje.",
-   "Grupo A com repouso e sintomático, dispensando qualquer exame laboratorial ou reavaliação precoce."
+   "Grupo A: hidratação oral em casa",
+   "Grupo C: internar e 10 mL/kg na primeira hora",
+   "Grupo B: hemograma e alta após o resultado",
+   "Grupo D: 20 mL/kg em 20 minutos",
+   "Grupo A, sem exames nem reavaliação"
   ],
   "gab": 1,
   "tema": "infecto",
@@ -6432,13 +6432,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 26 anos, quinto dia de dengue, chega com extremidades frias, tempo de enchimento capilar de 4 segundos, pressão arterial de 90/78 mmHg e pulso filiforme. Está sonolenta. Qual é a conduta imediata segundo o manual vigente?",
+  "q": "Mulher de 26 anos, quinto dia de dengue, chega com extremidades frias, tempo de enchimento capilar de 4 segundos, pressão arterial de 90/78 mmHg e pulso filiforme. Está sonolenta. A diurese está reduzida, a frequência cardíaca é de 132 bpm, o hematócrito de 52% e as plaquetas de 38 mil/mm³. Não tem sinais de sangramento grave nem congestão pulmonar à ausculta, e o atendimento ocorre numa unidade de pronto atendimento. Qual é a conduta imediata segundo o manual vigente?",
   "alts": [
-   "Expansão com 20 mL/kg de soro fisiológico em até 20 minutos, em qualquer nível de complexidade.",
-   "Hidratação oral vigorosa com sais de reidratação e observação por seis horas na sala de espera.",
-   "Transferir para hospital terciário antes de iniciar qualquer expansão volêmica na unidade atual.",
-   "Iniciar noradrenalina antes de qualquer prova de volume, por causa da hipotensão já instalada.",
-   "Reposição de 10 mL/kg na primeira hora, mesma dose usada nos pacientes com sinais de alarme."
+   "20 mL/kg de soro em até 20 minutos",
+   "Reidratação oral e observação",
+   "Transferir antes de expandir",
+   "Noradrenalina antes do volume",
+   "10 mL/kg na primeira hora"
   ],
   "gab": 0,
   "tema": "infecto",
@@ -6456,13 +6456,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Durante uma epidemia, um médico da atenção básica atende um homem de 45 anos com febre há dois dias, mialgia e cefaleia retro-orbitária, sem sinais de alarme. Ele é hipertenso em uso de losartana. Está bem hidratado e sem alterações ao exame. Qual é a classificação e a conduta?",
+  "q": "Durante uma epidemia, um médico da atenção básica atende um homem de 45 anos com febre há dois dias, mialgia e cefaleia retro-orbitária, sem sinais de alarme. Ele é hipertenso em uso de losartana. Está bem hidratado e sem alterações ao exame. Temperatura de 38,6 °C, pressão de 132/84 mmHg sem hipotensão postural, prova do laço negativa, sem dor abdominal, vômitos ou sangramentos. Diurese preservada e aceita bem líquidos por via oral. Qual é a classificação e a conduta?",
   "alts": [
-   "Grupo B: hidratação oral e hemograma para todos, com reavaliação orientada pelo hematócrito.",
-   "Grupo A: hidratação oral domiciliar sem qualquer exame, por não haver sinal de alarme presente.",
-   "Grupo C: reposição endovenosa imediata, pela comorbidade que ele apresenta e que agrava o risco.",
-   "Grupo D: expansão rápida preventiva, indicada em todo paciente hipertenso com suspeita de dengue.",
-   "Grupo A com alta e retorno apenas no sétimo dia de doença, para reavaliação clínica ambulatorial."
+   "Grupo B: hidratação oral e hemograma",
+   "Grupo A: hidratação oral sem exames",
+   "Grupo C: hidratação endovenosa",
+   "Grupo D: expansão rápida",
+   "Grupo A com retorno no sétimo dia"
   ],
   "gab": 0,
   "tema": "infecto",
@@ -6480,13 +6480,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Um residente pergunta ao preceptor por que a maioria dos óbitos por dengue ocorre em pacientes que pareciam estar melhorando. Qual é a explicação fisiopatológica correta?",
+  "q": "Um residente pergunta ao preceptor por que a maioria dos óbitos por dengue ocorre em pacientes que pareciam estar melhorando. O caso em discussão é de uma mulher de 32 anos que, no quinto dia de febre, ficou afebril e sentiu-se melhor, voltou para casa e, 24 horas depois, chegou com extremidades frias, pressão convergente de 100/88 mmHg, dor abdominal intensa e hematócrito subindo de 38% para 49%, com plaquetas de 42 mil/mm³. Qual é a explicação fisiopatológica correta?",
   "alts": [
-   "A febre alta é o principal determinante de gravidade, e sua queda indica melhora consistente do quadro.",
-   "O vírus só se replica enquanto há febre, de modo que a defervescência encerra o risco de complicação.",
-   "A piora após a febre decorre sempre de infecção bacteriana secundária adquirida dentro do hospital.",
-   "O extravasamento plasmático ocorre apenas no primeiro dia de doença, antes mesmo do início da febre.",
-   "A defervescência sempre marca o início da fase crítica, com extravasamento e risco de choque agora."
+   "A febre alta define a gravidade",
+   "A replicação viral cessa sem febre",
+   "Infecção bacteriana secundária",
+   "Extravasamento só no primeiro dia",
+   "A fase crítica começa na defervescência"
   ],
   "gab": 4,
   "tema": "infecto",
@@ -6504,13 +6504,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente do grupo C recebeu duas etapas de expansão com 10 mL/kg cada. Reavaliado, está com pressão arterial estável, diurese de 1,2 mL/kg/h e queda do hematócrito em relação ao inicial. Qual é a conduta seguinte?",
+  "q": "Paciente do grupo C recebeu duas etapas de expansão com 10 mL/kg cada. Reavaliado, está com pressão arterial estável, diurese de 1,2 mL/kg/h e queda do hematócrito em relação ao inicial. Trata-se de um homem de 40 anos, com 70 kg, internado por dor abdominal intensa e vômitos persistentes no quinto dia de doença, sem hipotensão na admissão. O hematócrito inicial era de 48% e agora está em 43%, e ele já aceita pequenas quantidades de líquido por via oral. Qual é a conduta seguinte?",
   "alts": [
-   "Repetir mais três etapas de expansão rápida agora, para garantir a reserva volêmica.",
-   "Passar à fase de manutenção: 25 mL/kg de soro em 6 horas e depois 25 mL/kg em 8 horas.",
-   "Suspender toda a hidratação e liberar o paciente, pois os parâmetros normalizaram.",
-   "Iniciar transfusão de hemácias, indicada sempre que o hematócrito cai em dengue grave.",
-   "Trocar o soro fisiológico por coloide sintético, de rotina após a segunda expansão."
+   "Mais 3 etapas de expansão",
+   "Manutenção: 25 mL/kg em 6 h e em 8 h",
+   "Suspender a hidratação e dar alta",
+   "Transfundir hemácias",
+   "Trocar por coloide sintético"
   ],
   "gab": 1,
   "tema": "infecto",
@@ -6528,13 +6528,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 61 anos, diabética, é atendida no sexto dia de dengue com melena e hematócrito em queda acentuada, pressão de 88/60 mmHg e taquicardia. Já recebeu duas expansões. Além de manter o suporte hemodinâmico, qual é a conduta específica indicada?",
+  "q": "Mulher de 61 anos, diabética, é atendida no sexto dia de dengue com melena e hematócrito em queda acentuada, pressão de 88/60 mmHg e taquicardia. Já recebeu duas expansões. O hematócrito caiu de 50% para 34% em 6 horas, a hemoglobina é de 10,2 g/dL, as plaquetas são de 22 mil/mm³ e o coagulograma mostra INR de 1,4. Está lúcida, com frequência de 124 bpm e extremidades frias. Além de manter o suporte hemodinâmico, qual é a conduta específica indicada?",
   "alts": [
-   "Transfundir plaquetas já à admissão, mesmo sem sangramento, se a contagem cair abaixo de 50.000.",
-   "Prescrever ácido acetilsalicílico para melhorar a perfusão periférica comprometida pelo quadro atual.",
-   "Suspender toda a hidratação endovenosa, para não agravar o sangramento digestivo já em andamento.",
-   "Transfundir concentrado de hemácias, indicado no sangramento grave com repercussão hemodinâmica.",
-   "Iniciar corticoide em dose máxima, medida que comprovadamente reduz a mortalidade da dengue grave."
+   "Plaquetas profiláticas abaixo de 50 mil",
+   "Ácido acetilsalicílico",
+   "Suspender a hidratação endovenosa",
+   "Transfundir concentrado de hemácias",
+   "Corticoide em dose máxima"
   ],
   "gab": 3,
   "tema": "infecto",
@@ -6696,7 +6696,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 58 anos entra em parada cardiorrespiratória enquanto aguardava atendimento na emergência. A parada foi presenciada pela equipe e as compressões começaram imediatamente. O monitor, conectado em 40 segundos, mostra fibrilação ventricular. O desfibrilador bifásico está disponível e carregado. Há dois profissionais realizando compressões em revezamento e um acesso venoso periférico já obtido. Qual é a sequência correta?",
+  "q": "Homem de 58 anos entra em parada cardiorrespiratória enquanto aguardava atendimento na emergência. A parada foi presenciada pela equipe e as compressões começaram imediatamente. O monitor, conectado em 40 segundos, mostra fibrilação ventricular. O desfibrilador bifásico está disponível e carregado. Há dois profissionais realizando compressões em revezamento e um acesso venoso periférico já obtido. O paciente pesa cerca de 80 kg, não há via aérea avançada instalada e a ventilação está sendo feita com bolsa-válvula-máscara e oxigênio a 15 L/min. Qual é a sequência correta?",
   "alts": [
    "Desfibrilar, retomar compressões por 2 minutos e reavaliar",
    "Checar pulso após o choque antes de retomar compressões",
@@ -6840,13 +6840,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 66 anos com doença renal crônica em uso de enalapril e espironolactona chega com fraqueza. O potássio é de 7,2 mEq/L e o eletrocardiograma mostra ondas T apiculadas com alargamento do QRS. Está estável hemodinamicamente. Qual é a primeira medida a ser tomada?",
+  "q": "Homem de 66 anos com doença renal crônica em uso de enalapril e espironolactona chega com fraqueza. O potássio é de 7,2 mEq/L e o eletrocardiograma mostra ondas T apiculadas com alargamento do QRS. Está estável hemodinamicamente. A pressão é de 138/82 mmHg, a frequência cardíaca de 58 bpm, a glicemia de 142 mg/dL e o bicarbonato de 17 mEq/L. Tem clearance de 22 mL/min e não está em diálise. Qual é a primeira medida a ser tomada?",
   "alts": [
-   "Resina de troca por via oral isolada, medida mais rápida para reduzir o potássio sérico agora.",
-   "Gluconato de cálcio endovenoso, que estabiliza a membrana do miócito e protege contra arritmia.",
-   "Hemodiálise imediata antes de qualquer droga, único recurso capaz de proteger este paciente.",
-   "Solução de glicose com insulina isolada, sem nova medida de estabilização da membrana antes.",
-   "Furosemida endovenosa isolada, suficiente para corrigir a hipercalemia com alteração no traçado."
+   "Resina de troca oral isolada",
+   "Gluconato de cálcio endovenoso",
+   "Hemodiálise antes de qualquer fármaco",
+   "Glicose com insulina isolada",
+   "Furosemida endovenosa isolada"
   ],
   "gab": 1,
   "tema": "nefro",
@@ -7152,13 +7152,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 47 anos, em pós-operatório de artroplastia de joelho há dez dias, chega com dispneia súbita e dor pleurítica. Está com frequência de 108 bpm, saturação de 91%, pressão de 124/78 mmHg e sem hipotensão. O escore de Wells é de 6 pontos. Qual é a conduta inicial?",
+  "q": "Mulher de 47 anos, em pós-operatório de artroplastia de joelho há dez dias, chega com dispneia súbita e dor pleurítica. Está com frequência de 108 bpm, saturação de 91%, pressão de 124/78 mmHg e sem hipotensão. O escore de Wells é de 6 pontos. Não tem sangramento ativo, a creatinina é de 0,8 mg/dL, as plaquetas de 260 mil/mm³ e usou enoxaparina profilática por 7 dias após a cirurgia. A angiotomografia estará disponível em 2 horas. Qual é a conduta inicial?",
   "alts": [
-   "Anticoagular já e solicitar angiotomografia de tórax, pela alta probabilidade clínica de embolia.",
-   "Solicitar dímero D primeiro e só anticoagular se o resultado do exame estiver acima do corte.",
-   "Iniciar trombolítico imediatamente, indicado em toda embolia pulmonar com hipoxemia presente.",
-   "Aguardar o ecocardiograma para decidir, exame que confirma o diagnóstico de embolia pulmonar.",
-   "Prescrever apenas oxigênio e analgesia, reavaliando a paciente em vinte e quatro horas na unidade."
+   "Anticoagular e pedir angiotomografia",
+   "Dímero-D antes de anticoagular",
+   "Trombolítico imediato",
+   "Ecocardiograma para decidir",
+   "Só oxigênio e analgesia"
   ],
   "gab": 0,
   "tema": "pneumo",
@@ -7224,13 +7224,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 61 anos com DPOC chega com piora da dispneia, aumento do volume e purulência do escarro há três dias. Está com frequência respiratória de 26 irpm, saturação de 86% em ar ambiente e gasometria com pH 7,29, pressão de gás carbônico de 62 mmHg e bicarbonato de 30 mEq/L. Qual é a conduta inicial?",
+  "q": "Mulher de 61 anos com DPOC chega com piora da dispneia, aumento do volume e purulência do escarro há três dias. Está com frequência respiratória de 26 irpm, saturação de 86% em ar ambiente e gasometria com pH 7,29, pressão de gás carbônico de 62 mmHg e bicarbonato de 30 mEq/L. Está alerta e colaborativa, sem vômitos, com tosse eficaz e pressão de 136/82 mmHg. A radiografia não mostra pneumotórax nem consolidação, e ela recebe oxigênio a 1 L/min com saturação de 89%. Qual é a conduta inicial?",
   "alts": [
-   "Intubação orotraqueal imediata, indicada em toda acidose respiratória com pH abaixo de 7,30 hoje.",
-   "Ventilação não invasiva, oxigênio com alvo controlado, broncodilatador, corticoide e antimicrobiano.",
-   "Oxigênio em alto fluxo até saturação de 100%, corrigindo a hipoxemia da forma mais rápida possível.",
-   "Apenas broncodilatador inalatório e observação, adiando corticoide e antimicrobiano por 48 horas.",
-   "Doxapram endovenoso como estimulante respiratório, substituindo a ventilação não invasiva no caso."
+   "Intubação orotraqueal imediata pelo pH",
+   "VNI, oxigênio controlado, broncodilatador e corticoide",
+   "Oxigênio para saturação de 100%",
+   "Só broncodilatador por 48 horas",
+   "Doxapram endovenoso no lugar da VNI"
   ],
   "gab": 1,
   "tema": "pneumo",
@@ -7968,13 +7968,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 58 anos faz tomografia de tórax para estadiamento de neoplasia e o exame mostra embolia pulmonar segmentar incidental. Ela está assintomática, com sinais vitais normais e boa capacidade funcional. Segundo a diretriz americana vigente de embolia pulmonar, qual é a conduta quanto ao local de tratamento?",
+  "q": "Mulher de 58 anos faz tomografia de tórax para estadiamento de neoplasia e o exame mostra embolia pulmonar segmentar incidental. Ela está assintomática, com sinais vitais normais e boa capacidade funcional. O câncer é um adenocarcinoma de cólon ainda não tratado, o PESI simplificado é de 1 ponto pela neoplasia, a troponina e o BNP são normais e o ecocardiograma não mostra disfunção de ventrículo direito. Tem suporte familiar e acesso ao oncologista na semana seguinte. Segundo a diretriz americana vigente de embolia pulmonar, qual é a conduta quanto ao local de tratamento?",
   "alts": [
-   "Internação obrigatória em enfermaria por sete dias, período mínimo de observação após o diagnóstico.",
-   "Internação em terapia intensiva, indicada em toda embolia pulmonar diagnosticada em paciente oncológico.",
-   "Alta do pronto-socorro com anticoagulação, pois a categoria A dispensa a hospitalização do paciente.",
-   "Observação de doze horas com nova tomografia antes de decidir entre alta hospitalar ou internação.",
-   "Alta sem anticoagulação, uma vez que a embolia incidental assintomática não exige qualquer tratamento."
+   "Internação por 7 dias",
+   "Internação em UTI",
+   "Alta com anticoagulação",
+   "Observação de 12 h e nova tomografia",
+   "Alta sem anticoagulação"
   ],
   "gab": 2,
   "tema": "pneumo",
@@ -8112,13 +8112,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 54 anos com pneumonia grave está em cateter nasal de alto fluxo a 55 L/min, com saturação de 91% e fração inspirada de oxigênio de 0,7. O ultrassom pulmonar mostra opacidades bilaterais e o quadro começou há quatro dias. Não há evidência de causa cardiogênica. Segundo a definição vigente, o paciente tem síndrome do desconforto respiratório agudo?",
+  "q": "Homem de 54 anos com pneumonia grave está em cateter nasal de alto fluxo a 55 L/min, com saturação de 91% e fração inspirada de oxigênio de 0,7. O ultrassom pulmonar mostra opacidades bilaterais e o quadro começou há quatro dias. Não há evidência de causa cardiogênica. A frequência respiratória é de 30 irpm, a pressão de 112/68 mmHg e o ecocardiograma à beira do leito mostra fração de ejeção preservada, sem sobrecarga de câmaras esquerdas. Não há gasometria arterial disponível no momento. Segundo a definição vigente, o paciente tem síndrome do desconforto respiratório agudo?",
   "alts": [
-   "Não, porque o diagnóstico exige ventilação mecânica invasiva com pressão expiratória final positiva.",
-   "Sim, pois a definição global de 2024 passou a incluir o alto fluxo e a oximetria como critérios.",
-   "Não, uma vez que a imagem precisa ser tomográfica e o ultrassom não é aceito como critério válido.",
-   "Sim, mas somente se a gasometria arterial confirmar relação entre oxigênio e fração menor que 300.",
-   "Não, porque o quadro de quatro dias ultrapassa a janela temporal exigida para o diagnóstico atual."
+   "Não: exige ventilação invasiva com PEEP",
+   "Sim: a definição de 2024 aceita alto fluxo e oximetria",
+   "Não: a imagem precisa ser tomográfica",
+   "Sim, só com gasometria arterial",
+   "Não: 4 dias excede a janela"
   ],
   "gab": 1,
   "tema": "emergencias",
@@ -8400,13 +8400,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 55 anos com cirrose por álcool é internado com ascite volumosa. A paracentese diagnóstica mostra 180 neutrófilos/mm³, proteína total de 0,9 g/dL e gradiente albumina soro-ascite de 1,6 g/dL. Ele tem creatinina de 1,6 mg/dL e bilirrubina de 3,8 mg/dL. Qual é a conduta correta?",
+  "q": "Homem de 55 anos com cirrose por álcool é internado com ascite volumosa. A paracentese diagnóstica mostra 180 neutrófilos/mm³, proteína total de 0,9 g/dL e gradiente albumina soro-ascite de 1,6 g/dL. Ele tem creatinina de 1,6 mg/dL e bilirrubina de 3,8 mg/dL. Não tem dor abdominal, febre ou encefalopatia, o sódio é de 128 mEq/L e a pressão de 104/66 mmHg. Nunca teve peritonite bacteriana espontânea e não usa inibidor de bomba de prótons. Qual é a conduta correta?",
   "alts": [
-   "Iniciar cefalosporina de terceira geração, pois a contagem de neutrófilos já confirma peritonite instalada.",
-   "Suspender toda investigação, uma vez que o gradiente elevado exclui infecção do líquido ascítico atual.",
-   "Iniciar profilaxia primária de peritonite bacteriana, indicada pela proteína baixa com disfunção associada.",
-   "Repetir a paracentese em quarenta e oito horas antes de qualquer decisão terapêutica sobre esse caso dele.",
-   "Prescrever albumina em dose plena de peritonite, mesmo sem preencher os critérios diagnósticos dela agora."
+   "Cefalosporina de terceira geração para peritonite",
+   "Suspender a investigação",
+   "Profilaxia primária de peritonite bacteriana",
+   "Repetir a paracentese em 48 horas",
+   "Albumina em dose de peritonite"
   ],
   "gab": 2,
   "tema": "gastro",
@@ -8472,13 +8472,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 48 anos internado por pancreatite tem gasometria com pH 7,31, bicarbonato de 15 mEq/L e pressão parcial de gás carbônico de 30 mmHg. O sódio é 138, o cloro é 100 e a albumina está em 2,0 g/dL. Qual é a interpretação correta?",
+  "q": "Homem de 48 anos internado por pancreatite tem gasometria com pH 7,31, bicarbonato de 15 mEq/L e pressão parcial de gás carbônico de 30 mmHg. O sódio é 138, o cloro é 100 e a albumina está em 2,0 g/dL. A glicemia é de 132 mg/dL, sem cetonúria, o lactato é de 3,8 mmol/L e a creatinina de 1,3 mg/dL. Não há ingestão de tóxicos relatada. Qual é a interpretação correta?",
   "alts": [
-   "Acidose metabólica hiperclorêmica, pois o ânion gap calculado fica dentro da faixa de normalidade.",
-   "Alcalose respiratória primária, indicada pela pressão parcial de gás carbônico reduzida no exame.",
-   "Distúrbio respiratório puro sem componente metabólico, dispensando o cálculo do ânion gap no caso.",
-   "Acidose metabólica com ânion gap elevado após correção pela albumina, com compensação adequada.",
-   "Acidose metabólica sem compensação respiratória, o que caracteriza um distúrbio misto neste paciente."
+   "Acidose hiperclorêmica com ânion gap normal",
+   "Alcalose respiratória primária",
+   "Distúrbio respiratório puro",
+   "Acidose com ânion gap alto corrigido, compensada",
+   "Acidose sem compensação respiratória"
   ],
   "gab": 3,
   "tema": "nefro",
@@ -16968,7 +16968,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 54 anos com doença renal crônica estágio 5, ainda sem diálise, chega com dor torácica pleurítica, sonolência e asterixe. Ureia 310 mg/dL, creatinina 11,2 mg/dL, potássio 5,6 mEq/L, bicarbonato 15 mEq/L. Atrito pericárdico à ausculta. Ecocardiograma: derrame pericárdico moderado, sem colapso de câmaras. Pressão arterial 150/90 mmHg, sem pulso paradoxal. Plaquetas 180.000/mm³. Qual é a conduta?",
+  "q": "Homem de 54 anos com doença renal crônica estágio 5, ainda sem diálise, chega com dor torácica pleurítica, sonolência e asterixe. Ureia 310 mg/dL, creatinina 11,2 mg/dL, potássio 5,6 mEq/L, bicarbonato 15 mEq/L. Atrito pericárdico à ausculta. Ecocardiograma: derrame pericárdico moderado, sem colapso de câmaras. Pressão arterial 150/90 mmHg, sem pulso paradoxal. Plaquetas 180.000/mm³. Está em lista de preparo para fístula arteriovenosa, sem cateter de diálise, pesa 68 kg e tem hemoglobina de 8,9 g/dL. Qual é a conduta?",
   "alts": [
    "Hemodiálise urgente, com mínimo de heparina",
    "Colchicina e ibuprofeno",
@@ -18600,7 +18600,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 36 anos será submetida a esplenectomia eletiva por esferocitose hereditária, programada para daqui a quatro semanas. Está assintomática, com hemoglobina de 10,2 g/dL, sem uso de imunossupressor e com caderneta vacinal em dia para a idade, exceto por vacinas específicas para asplenia. A cirurgia é eletiva e há tempo hábil para preparo. Qual é a conduta preventiva?",
+  "q": "Mulher de 36 anos será submetida a esplenectomia eletiva por esferocitose hereditária, programada para daqui a quatro semanas. Está assintomática, com hemoglobina de 10,2 g/dL, sem uso de imunossupressor e com caderneta vacinal em dia para a idade, exceto por vacinas específicas para asplenia. A cirurgia é eletiva e há tempo hábil para preparo. Pesa 64 kg, não tem alergia a vacinas e mora com o marido e 2 filhos em idade escolar. Qual é a conduta preventiva?",
   "alts": [
    "Vacinar contra pneumococo, meningococo e Haemophilus antes da cirurgia",
    "Vacinar apenas depois da cirurgia, quando houver cicatrização",
@@ -18840,7 +18840,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 36 anos com HIV sem tratamento e CD4 de 38 células/mm³ chega com cefaleia há 2 semanas, febre baixa, confusão e hemiparesia esquerda. Não faz profilaxia com sulfametoxazol-trimetoprima. Ressonância: três lesões com realce anelar e edema, em núcleos da base e junção corticossubcortical. IgG anti-Toxoplasma positiva. Sem sinais de herniação, Glasgow 14. Qual é a conduta inicial?",
+  "q": "Homem de 36 anos com HIV sem tratamento e CD4 de 38 células/mm³ chega com cefaleia há 2 semanas, febre baixa, confusão e hemiparesia esquerda. Não faz profilaxia com sulfametoxazol-trimetoprima. Ressonância: três lesões com realce anelar e edema, em núcleos da base e junção corticossubcortical. IgG anti-Toxoplasma positiva. Sem sinais de herniação, Glasgow 14. Não tem alergia a sulfa, a creatinina é de 0,9 mg/dL e as plaquetas são de 140 mil/mm³. Pesa 60 kg. Qual é a conduta inicial?",
   "alts": [
    "Biópsia estereotáxica antes de qualquer tratamento",
    "Anfotericina B para criptococoma",
@@ -20064,7 +20064,7 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 68 anos, ex-tabagista de 40 maços-ano e hipertenso, realiza ultrassom abdominal por dor lombar inespecífica, que revela aneurisma de aorta abdominal infrarrenal de 4,2 cm, fusiforme, sem sinais de ruptura ou dissecção. Está assintomático, com pressão de 148/88 mmHg, pulsos periféricos presentes e simétricos. O exame físico não identifica massa pulsátil. Qual é a conduta?",
+  "q": "Homem de 68 anos, ex-tabagista de 40 maços-ano e hipertenso, realiza ultrassom abdominal por dor lombar inespecífica, que revela aneurisma de aorta abdominal infrarrenal de 4,2 cm, fusiforme, sem sinais de ruptura ou dissecção. Está assintomático, com pressão de 148/88 mmHg, pulsos periféricos presentes e simétricos. O exame físico não identifica massa pulsátil. Não tem história familiar de aneurisma, o clearance é de 78 mL/min e ele parou de fumar há 3 anos. Não há outros aneurismas periféricos. Qual é a conduta?",
   "alts": [
    "Vigilância por imagem seriada",
    "Correção endovascular eletiva neste momento",
