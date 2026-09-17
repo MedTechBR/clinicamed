@@ -5640,27 +5640,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 50 anos internada em terapia intensiva por leucemia aguda em quimioterapia de indução evolui com potássio de 6,4 mEq/L, fósforo elevado, cálcio baixo, ácido úrico elevado e creatinina em ascensão. Qual é o diagnóstico e a conduta?",
+  "q": "Homem de 24 anos com leucemia linfoblástica aguda de células T, leucócitos de 128 mil/mm³, LDH de 2.400 U/L (limite 250) e massa mediastinal, vai iniciar quimioterapia de indução amanhã. Creatinina de 1,0 mg/dL, ácido úrico de 7,4 mg/dL, potássio de 4,3 mEq/L, fósforo de 4,0 mg/dL. Pesquisa de deficiência de G6PD negativa. Diurese preservada, sem insuficiência cardíaca. Pesa 70 kg. Qual é a prevenção de síndrome de lise tumoral mais adequada?",
   "alts": [
-   "Síndrome de lise tumoral: hidratação vigorosa, controle do potássio e rasburicase conforme o risco.",
-   "Síndrome de lise tumoral: restringir líquidos e alcalinizar a urina de forma sistemática em todos.",
-   "Nefrite intersticial aguda: iniciar corticoide em dose imunossupressora e suspender quimioterapia.",
-   "Insuficiência adrenal aguda: iniciar hidrocortisona e repor volume com solução salina isotônica.",
-   "Hipercalcemia da malignidade: iniciar bisfosfonato intravenoso e hidratação com salina isotônica."
+   "Hidratação oral e alopurinol",
+   "Bicarbonato para alcalinizar a urina",
+   "Nenhuma prevenção até surgir alteração laboratorial",
+   "Hidratação endovenosa vigorosa e rasburicase",
+   "Furosemida em dose alta e restrição hídrica"
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "onco",
   "cenario": "uti",
-  "comp": "urg",
+  "comp": "prev",
   "nivel": "r2",
-  "base": "ASCO/NCCN guidance on tumor lysis syndrome; British Committee for Standards in Haematology guideline on tumour lysis syndrome, 2015",
-  "coment": "A síndrome de lise tumoral combina hipercalemia, hiperfosfatemia, hipocalcemia e hiperuricemia com lesão renal aguda, e ocorre tipicamente em neoplasias de alta carga e alta taxa de proliferação após o início do tratamento. O manejo inclui hidratação intravenosa vigorosa, monitorização laboratorial frequente, tratamento da hipercalemia, alopurinol na profilaxia e rasburicase nos casos de alto risco ou já estabelecidos, com atenção à deficiência de G6PD. A alcalinização urinária deixou de ser recomendada de rotina.",
+  "base": "Cairo et al., Recommendations for the evaluation of risk and prophylaxis of tumour lysis syndrome, British Journal of Haematology, 2010; Jones et al., BSH guidelines for management of tumour lysis syndrome, 2015",
+  "coment": "Leucemia linfoblástica aguda com leucócitos acima de 100 mil/mm³ e LDH acima de 2 vezes o normal é de alto risco para síndrome de lise tumoral. Nesse grupo, recomenda-se hidratação endovenosa vigorosa (cerca de 2,5 a 3 L/m²/dia, buscando diurese de 80 a 100 mL/m²/h) e rasburicase profilática, que degrada o ácido úrico já formado, desde que não haja deficiência de G6PD (risco de hemólise e metemoglobinemia). Alopurinol é suficiente no risco intermediário. Alcalinização urinária não é mais recomendada, pois favorece precipitação de fosfato de cálcio.",
   "porAlt": [
-   "Correta: síndrome de lise tumoral, com hidratação vigorosa, controle do potássio e rasburicase se indicada.",
-   "A restrição de líquidos agrava a lesão renal, e a alcalinização de rotina não é mais recomendada.",
-   "A nefrite intersticial não explica o conjunto de distúrbios iônicos característicos descrito no caso.",
-   "A insuficiência adrenal não cursa com hiperfosfatemia e hiperuricemia com lesão renal desse padrão.",
-   "O cálcio está baixo neste caso, o que exclui a hipótese de hipercalcemia associada à malignidade."
+   "Hidratação oral e alopurinol são insuficientes no alto risco.",
+   "Alcalinização favorece precipitação de fosfato de cálcio.",
+   "A prevenção deve começar antes da quimioterapia.",
+   "Alto risco de lise tumoral sem deficiência de G6PD: hidratação endovenosa vigorosa e rasburicase.",
+   "Restringir líquidos aumenta o risco de lesão renal."
   ]
  },
  {
@@ -7584,27 +7584,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 63 anos em tratamento de linfoma inicia quimioterapia e, 48 horas depois, apresenta potássio de 6,4 mEq/L, fósforo elevado, cálcio baixo, ácido úrico de 12 mg/dL e creatinina em elevação. Qual é o diagnóstico e a conduta?",
+  "q": "Homem de 63 anos com linfoma de Burkitt iniciou quimioterapia há 48 horas, com hidratação e alopurinol. Agora: potássio de 7,1 mEq/L com ondas T apiculadas, fósforo de 9,8 mg/dL, cálcio de 6,4 mg/dL, ácido úrico de 14 mg/dL e creatinina de 4,2 mg/dL (basal 1,0). Diurese de 150 mL em 12 horas, apesar de furosemida. Edema pulmonar incipiente com saturação de 91%. Qual é a conduta mais adequada?",
   "alts": [
-   "Síndrome de lise tumoral, tratada com hidratação vigorosa, rasburicase e correção dos distúrbios.",
-   "Nefrite intersticial pelo quimioterápico, cuja conduta é apenas corticoide em dose imunossupressora.",
-   "Hipercalcemia da malignidade, que explica a elevação da creatinina e o distúrbio eletrolítico do caso.",
-   "Insuficiência adrenal aguda, sugerida pela hipercalemia associada à elevação da creatinina sérica.",
-   "Rabdomiólise por imobilidade, hipótese preferida diante de hiperfosfatemia com hipocalcemia associada."
+   "Gluconato de cálcio pela hipercalemia, medidas para potássio e hemodiálise",
+   "Gluconato de cálcio para corrigir a hipocalcemia assintomática e manter",
+   "Aumentar a hidratação para 5 litros e aguardar",
+   "Bicarbonato em bolus e aguardar a diurese",
+   "Trocar alopurinol por febuxostate e observar"
   ],
   "gab": 0,
   "tema": "onco",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "British Committee for Standards in Haematology, 2015, e Harrison's, 22ª edição, 2025 (síndrome de lise tumoral",
-  "coment": "A tétrade) hipercalemia, hiperfosfatemia, hipocalcemia e hiperuricemia. Surgindo em até 72 horas do início da quimioterapia em tumor de alta carga e alta taxa proliferativa define síndrome de lise tumoral. O tratamento é hidratação vigorosa para manter débito urinário, redução do ácido úrico com rasburicase nos casos de alto risco ou alopurinol na profilaxia, correção dos distúrbios eletrolíticos e monitorização estreita, com diálise se houver refratariedade. A hipocalcemia não deve ser corrigida agressivamente na presença de hiperfosfatemia, pelo risco de precipitação de cálcio e fósforo.",
+  "base": "Howard, Jones e Pui, The Tumor Lysis Syndrome, NEJM, 2011; KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012",
+  "coment": "Síndrome de lise tumoral clínica com hipercalemia com alteração eletrocardiográfica, oligúria refratária, hiperfosfatemia grave e congestão tem indicação de hemodiálise, que remove potássio, fósforo e ácido úrico. Enquanto se prepara, dá-se gluconato de cálcio para estabilizar a membrana (pela hipercalemia com alteração no eletrocardiograma) e insulina com glicose. Hipocalcemia assintomática não deve ser corrigida, pelo risco de precipitação de fosfato de cálcio. Rasburicase deve ser feita se não houver deficiência de G6PD. Mais volume piora a congestão.",
   "porAlt": [
-   "Correta: a tétrade eletrolítica após quimioterapia define lise tumoral, tratada com hidratação, rasburicase e correção dos distúrbios.",
-   "A nefrite intersticial não produz esse padrão eletrolítico característico nem essa cronologia tão próxima da quimioterapia.",
-   "A hipercalcemia da malignidade cursa com cálcio alto, e aqui o cálcio está baixo. O oposto do que a hipótese exige.",
-   "A insuficiência adrenal não explica hiperfosfatemia, hipocalcemia e hiperuricemia surgindo após a quimioterapia.",
-   "A rabdomiólise cursaria com creatinoquinase muito elevada e não tem relação temporal com o início do tratamento."
+   "Lise tumoral com hipercalemia no eletrocardiograma, oligúria e congestão: cálcio para a membrana, medidas para potássio e hemodiálise.",
+   "Repor cálcio pela hipocalcemia assintomática aumenta precipitação de fosfato de cálcio.",
+   "Mais volume com oligúria e edema pulmonar é perigoso.",
+   "Bicarbonato piora a hipocalcemia e a precipitação de fosfato.",
+   "Trocar o inibidor da xantina oxidase não resolve a urgência."
   ]
  },
  {
@@ -11568,243 +11568,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente em quimioterapia há dez dias apresenta febre de 38,5 °C e neutrófilos de 380/mm³. Qual é a conduta imediata?",
+  "q": "Mulher de 58 anos com leucemia mieloide aguda, no décimo segundo dia de indução, com cateter venoso central, tem febre de 38,9 °C e calafrios após lavar o cateter. Neutrófilos de 80/mm³. Pressão de 84/50 mmHg após 1,5 litro de cristaloide, frequência de 122 bpm, lactato de 3,4 mmol/L. Hiperemia no óstio do cateter. Não é colonizada por germes resistentes conhecidos. Pesa 66 kg e não tem alergia a betalactâmicos. Qual é a antibioticoterapia empírica mais adequada?",
   "alts": [
-   "Aguardar o resultado das hemoculturas antes de iniciar qualquer antibiótico no paciente febril.",
-   "Prescrever apenas antitérmico e reavaliar em vinte e quatro horas com novo hemograma completo.",
-   "Iniciar antifúngico isolado como terapia inicial de escolha para o paciente com neutropenia febril.",
-   "Coletar culturas e iniciar antibiótico de amplo espectro sempre na primeira hora do atendimento.",
-   "Transfundir concentrado de granulócitos como primeira medida antes da coleta de qualquer cultura."
+   "Ceftriaxona isolada",
+   "Amoxicilina-clavulanato com ciprofloxacino oral",
+   "Fluconazol isolado",
+   "Aguardar hemoculturas por 48 horas",
+   "Cefepima ou meropeném com vancomicina"
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "onco",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "IDSA guideline for antimicrobial use in neutropenic patients, revisão 2024; ASCO/IDSA outpatient management, 2018",
-  "coment": "Neutropenia febril é emergência oncológica: temperatura isolada de 38,3 °C ou 38,0 °C mantida por uma hora com neutrófilos abaixo de 500 por milímetro cúbico. O antibiótico de amplo espectro com cobertura antipseudomonas (cefepima, piperacilina-tazobactam ou meropenem) é administrado na primeira hora, após coleta de culturas, sem esperar resultado. Vancomicina não é rotina, entrando em suspeita de cateter, pele ou instabilidade. Antifúngico entra na febre persistente.",
+  "base": "IDSA Clinical Practice Guideline for the Use of Antimicrobial Agents in Neutropenic Patients with Cancer, 2010; ASCO/IDSA Guideline Update: Outpatient Management of Fever and Neutropenia, 2018",
+  "coment": "Neutropenia febril de alto risco exige antibiótico endovenoso com cobertura antipseudomonas em até 1 hora (cefepima, piperacilina-tazobactam ou carbapenêmico). A IDSA orienta acrescentar cobertura para gram-positivos resistentes (vancomicina) quando há instabilidade hemodinâmica, suspeita de infecção relacionada a cateter, infecção de pele, pneumonia ou colonização por MRSA. Com choque, meropeném é razoável. Hemoculturas de cateter e periférica antes do antibiótico, sem atrasá-lo. Terapia oral é só para baixo risco.",
   "porAlt": [
-   "Aguardar culturas atrasa em horas o antibiótico e aumenta a mortalidade nessa emergência.",
-   "Antitérmico isolado não trata a infecção e permite evolução para choque em poucas horas.",
-   "O antifúngico entra na febre persistente após alguns dias, e não como terapia inicial isolada.",
-   "Correta: coletar culturas e iniciar antibiótico de amplo espectro na primeira hora do atendimento.",
-   "A transfusão de granulócitos é excepcional e não substitui a antibioticoterapia empírica precoce."
+   "Ceftriaxona não cobre Pseudomonas.",
+   "Via oral é só para baixo risco estável.",
+   "Antifúngico empírico é para febre persistente, não como terapia inicial isolada.",
+   "Atrasar antibiótico na neutropenia febril com choque aumenta mortalidade.",
+   "Neutropenia febril com choque e cateter suspeito: betalactâmico antipseudomonas com vancomicina."
   ]
  },
  {
-  "q": "Homem de 60 anos com câncer de pulmão apresenta cálcio de 14,2 mg/dL, confusão e desidratação. Qual é a conduta inicial?",
+  "q": "Homem de 60 anos com carcinoma epidermoide de pulmão tem confusão, poliúria e vômitos há 4 dias. Cálcio total de 14,2 mg/dL com albumina de 3,8 g/dL, PTH suprimido, PTHrP elevado. Creatinina de 2,9 mg/dL (clearance de 22 mL/min; basal de 1,0). Pressão de 104/62 mmHg, mucosas secas. Sem insuficiência cardíaca. Pesa 68 kg. Não usa tiazídico, lítio ou suplemento de cálcio. Última dose de quimioterapia há 3 semanas. Qual é o tratamento inicial mais adequado?",
   "alts": [
-   "Hidratação vigorosa com salina isotônica associada sempre a bisfosfonato endovenoso na sequência.",
-   "Iniciar diurético de alça isolado como primeira medida, antes de qualquer reposição volêmica.",
-   "Prescrever carbonato de cálcio por via oral e reavaliar a calcemia em quarenta e oito horas agora.",
-   "Indicar hemodiálise em todos os casos de hipercalcemia como primeira medida terapêutica adotada.",
-   "Iniciar reposição de fósforo endovenoso rápido, medida de escolha para reduzir a calcemia grave."
+   "Furosemida em dose alta antes de hidratar",
+   "Ácido zoledrônico 4 mg em 15 minutos isolado",
+   "Soro fisiológico, calcitonina e denosumabe",
+   "Restrição hídrica e prednisona",
+   "Hemodiálise imediata como primeira medida"
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "onco",
   "cenario": "enf",
   "comp": "urg",
-  "nivel": "r2",
-  "base": "ESMO Clinical Practice Guidelines, hypercalcaemia of malignancy, 2020; Endocrine Society, revisão 2023",
-  "coment": "A hipercalcemia da malignidade cursa com desidratação grave, porque o cálcio elevado gera diabetes insípido nefrogênico. O primeiro passo é hidratação vigorosa com salina isotônica, que restaura o volume e aumenta a excreção renal de cálcio. Em seguida entra bisfosfonato endovenoso, como zoledronato, com efeito em dois a quatro dias, ou denosumabe. Diurético de alça não é rotina e só entra após reposição, se houver sobrecarga. Calcitonina serve à queda rápida inicial.",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline: Treatment of Hypercalcemia of Malignancy in Adults, 2023",
+  "coment": "Hipercalcemia grave da malignidade (humoral por PTHrP) com sintomas: hidratação com soro fisiológico para restaurar volume e aumentar a calciurese, calcitonina para efeito rápido em horas (taquifilaxia em 48 horas) e antirreabsortivo para efeito sustentado. A Endocrine Society (2023) sugere denosumabe em vez de bisfosfonato quando há lesão renal importante, pois o ácido zoledrônico é nefrotóxico e exige ajuste. Diurético de alça só após hidratação e se houver sobrecarga. Corticoide é útil em linfomas ou excesso de calcitriol. Diálise é para casos refratários ou com insuficiência renal grave e congestão.",
   "porAlt": [
-   "Correta: hidratação vigorosa com salina isotônica seguida de bisfosfonato endovenoso.",
-   "O diurético antes da reposição agrava a desidratação e piora a hipercalcemia do paciente.",
-   "O carbonato de cálcio oral aumenta a calcemia e é exatamente o oposto do que se deve fazer.",
-   "A diálise se reserva a casos refratários, com insuficiência renal ou risco iminente de vida.",
-   "O fósforo endovenoso rápido causa precipitação de cálcio nos tecidos e é contraindicado."
+   "Furosemida antes de hidratar agrava a desidratação e a hipercalcemia.",
+   "Zoledronato é nefrotóxico com clearance de 22 e não age rápido.",
+   "Hipercalcemia grave com lesão renal: soro fisiológico, calcitonina e denosumabe.",
+   "Restrição hídrica piora a desidratação; corticoide é para linfoma ou calcitriol.",
+   "Diálise é para refratariedade ou congestão com insuficiência renal grave."
   ]
  },
  {
-  "q": "Paciente com linfoma de alto grau inicia quimioterapia e evolui com hipercalemia, hiperfosfatemia, hipocalcemia, hiperuricemia e elevação de creatinina. Qual é o diagnóstico?",
+  "q": "Mulher de 45 anos com linfoma difuso de grandes células B volumoso iniciou R-CHOP há 3 dias. Exames: ácido úrico de 9,1 mg/dL (basal 6,0), potássio de 5,4 mEq/L, fósforo de 5,2 mg/dL, cálcio de 8,6 mg/dL. Creatinina de 1,6 mg/dL (basal 0,9). Eletrocardiograma normal, sem arritmias ou convulsões, diurese de 1,2 mL/kg/h. Pesa 64 kg e recebe hidratação endovenosa e alopurinol desde a véspera. Pressão de 126/78 mmHg. Pelos critérios de Cairo-Bishop, qual é a classificação?",
   "alts": [
-   "Síndrome de lise tumoral, que exige sempre hidratação vigorosa e controle rigoroso do ácido úrico.",
-   "Síndrome da secreção inapropriada de hormônio antidiurético, definida por esse padrão eletrolítico.",
-   "Insuficiência adrenal aguda, condição caracterizada por hiperfosfatemia e hiperuricemia associadas.",
-   "Hipercalcemia da malignidade, definida por hipocalcemia e elevação do fósforo sérico no paciente.",
-   "Nefropatia por contraste iodado, já caracterizada por hipercalemia e hiperfosfatemia com hiperuricemia."
+   "Lise tumoral laboratorial e clínica",
+   "Não há síndrome de lise tumoral",
+   "Apenas hiperuricemia isolada",
+   "Lise tumoral clínica sem critério laboratorial",
+   "Nefropatia por contraste"
   ],
   "gab": 0,
   "tema": "onco",
   "cenario": "uti",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "ASCO/British Committee for Standards in Haematology. Tumour lysis syndrome, revisão 2023",
-  "coment": "A síndrome de lise tumoral resulta da destruição maciça de células com liberação de potássio, fósforo e ácidos nucleicos. O padrão é hipercalemia, hiperfosfatemia, hiperuricemia e hipocalcemia secundária à quelação pelo fósforo, com lesão renal aguda. A prevenção e o tratamento incluem hidratação vigorosa, alopurinol nos casos de risco intermediário e rasburicase no alto risco ou na hiperuricemia estabelecida. Cálcio só se repõe se houver sintoma, pela precipitação.",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Cairo e Bishop, Tumour lysis syndrome: new therapeutic strategies and classification, British Journal of Haematology, 2004; Howard et al., NEJM, 2011",
+  "coment": "Pelos critérios de Cairo-Bishop, lise tumoral laboratorial exige 2 ou mais alterações entre 3 dias antes e 7 dias após a quimioterapia: ácido úrico de 8 mg/dL ou mais, potássio de 6 mEq/L ou mais, fósforo de 4,5 mg/dL ou mais e cálcio de 7 mg/dL ou menos (ou alteração de 25% do basal). Aqui: ácido úrico e fósforo (2 critérios); o potássio subiu, mas não chegou a 6 nem subiu 25%. Lise clínica é a laboratorial com creatinina de 1,5 vez o limite superior ou mais, arritmia ou convulsão. Creatinina de 1,6 corresponde a 1,5 vez ou mais o limite (cerca de 1,0) e quase dobrou o basal.",
   "porAlt": [
-   "Correta: o padrão eletrolítico com lesão renal após quimioterapia define a síndrome de lise tumoral.",
-   "A secreção inapropriada de antidiurético cursa com hiponatremia, ausente na descrição deste caso.",
-   "A insuficiência adrenal cursa com hiponatremia e hipercalemia, sem hiperfosfatemia ou hiperuricemia.",
-   "A hipercalcemia da malignidade cursa com cálcio elevado, e não com a hipocalcemia descrita aqui.",
-   "A nefropatia por contraste não produz esse padrão eletrolítico característico de destruição celular."
+   "Dois critérios laboratoriais com creatinina de 1,5 vez o limite ou mais: lise laboratorial e clínica.",
+   "Ácido úrico e fósforo elevados já somam 2 critérios.",
+   "Há também hiperfosfatemia e lesão renal.",
+   "Lise clínica pressupõe a laboratorial.",
+   "Não há exposição a contraste."
   ]
  },
  {
-  "q": "Homem de 58 anos com câncer de próstata metastático apresenta dor lombar intensa e fraqueza progressiva em membros inferiores. Qual é a conduta imediata?",
+  "q": "Homem de 68 anos com câncer de próstata metastático para ossos tem dor dorsal progressiva há 2 semanas, pior ao deitar, e há 24 horas fraqueza nas pernas (força grau 4 em flexores do quadril), dormência abaixo do umbigo e dificuldade para urinar. Consegue andar com ajuda. Sem febre. Não fez radioterapia prévia na coluna. Pesa 74 kg e usa gosserrelina. Pressão de 138/80 mmHg. Qual é a conduta mais adequada?",
   "alts": [
-   "Prescrever analgésico oral e agendar ressonância de coluna eletiva para a semana seguinte ao quadro.",
-   "Solicitar cintilografia óssea e aguardar o resultado antes de qualquer intervenção terapêutica.",
-   "Iniciar fisioterapia motora intensiva como primeira medida para recuperar a força dos membros agora.",
-   "Corticoide em dose alta e ressonância de coluna com urgência, sempre antes do déficit se completar.",
-   "Realizar bloqueio anestésico paravertebral, conduta inicial de escolha para essa dor oncológica."
+   "Radiografia simples e analgesia ambulatorial",
+   "Cintilografia óssea em 1 semana",
+   "Tomografia de crânio antes de qualquer conduta",
+   "Dexametasona e ressonância de coluna já",
+   "Bloqueio hormonal e reavaliar em 1 mês"
   ],
   "gab": 3,
   "tema": "onco",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "NICE guideline NG234: Metastatic spinal cord compression, 2023; ESMO guideline, 2020",
-  "coment": "Compressão medular metastática é emergência: o preditor mais forte de recuperação é o estado neurológico no momento do tratamento, de modo que quem chega deambulando tende a continuar deambulando e quem chega plégico raramente recupera. A conduta é dexametasona imediata e ressonância de toda a coluna em até vinte e quatro horas, seguida de decisão entre cirurgia descompressiva e radioterapia. Dor lombar em paciente oncológico com déficit motor é compressão até prova contrária.",
+  "base": "NICE Guideline NG234: Spinal metastases and metastatic spinal cord compression, 2023; Patchell et al., Lancet, 2005",
+  "coment": "Dor dorsal em paciente com câncer e déficit neurológico novo (fraqueza, nível sensitivo, retenção) sugere compressão medular metastática, emergência oncológica cujo prognóstico depende da capacidade de deambular ao diagnóstico. A conduta é dexametasona (por exemplo, 10 mg endovenosa seguida de 16 mg/dia), ressonância de toda a coluna em até 24 horas (lesões múltiplas são comuns) e decisão urgente entre cirurgia descompressiva e radioterapia (Patchell, 2005). O NICE (2023) recomenda ressonância imediata quando há sintomas neurológicos.",
   "porAlt": [
-   "Agendar imagem eletiva permite que o déficit se complete e se torne irreversível nesse intervalo.",
-   "A cintilografia não avalia compressão medular e esperar seu resultado atrasa o tratamento eficaz.",
-   "A fisioterapia não reverte compressão medular e não substitui a descompressão urgente da medula.",
-   "Correta: corticoide imediato e ressonância urgente, porque o prognóstico depende do estado ao tratar.",
-   "O bloqueio trata a dor sem tratar a compressão, permitindo a progressão do déficit neurológico."
+   "Radiografia é pouco sensível e atrasa o diagnóstico.",
+   "Cintilografia não avalia a medula e atrasar 1 semana arrisca paraplegia.",
+   "Os sintomas são medulares, não encefálicos.",
+   "Suspeita de compressão medular com déficit: dexametasona e ressonância de toda a coluna com urgência.",
+   "Bloqueio hormonal é lento demais para déficit neurológico agudo."
   ]
  },
  {
-  "q": "Mulher de 52 anos, assintomática, com risco habitual. Qual é a recomendação de rastreio de câncer de mama no Brasil?",
+  "q": "Mulher de 56 anos, assintomática, faz mamografia de rastreamento. Surge nódulo novo de 11 mm, irregular, com margens espiculadas no quadrante superior externo esquerdo, sem calcificações. Ultrassonografia confirma nódulo sólido hipoecoico, não paralelo, com sombra acústica. Axila sem linfonodos suspeitos. Exame clínico sem nódulo palpável. Mãe teve câncer de mama aos 70 anos. Nunca fez biópsia mamária e não usa terapia hormonal. A mamografia anterior, de 2 anos atrás, era normal. Qual é a classificação BI-RADS e a conduta mais adequada?",
   "alts": [
-   "Mamografia anual a partir dos vinte e cinco anos para toda mulher com risco habitual no país.",
-   "Ultrassonografia mamária isolada anual, método de rastreio populacional recomendado no Brasil.",
-   "Ressonância magnética de mamas anual para toda mulher de risco habitual acima dos cinquenta anos.",
-   "Mamografia bienal dos cinquenta aos sessenta e nove anos, sempre pactuada com a mulher informada.",
-   "Apenas exame clínico das mamas anual, sem qualquer método de imagem no rastreio populacional."
+   "BI-RADS 3; controle em 6 meses",
+   "BI-RADS 2; rastreio habitual",
+   "BI-RADS 0; ressonância antes de decidir",
+   "BI-RADS 5; mastectomia sem biópsia",
+   "BI-RADS 5; biópsia com agulha grossa"
   ],
-  "gab": 3,
+  "gab": 4,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACR BI-RADS Atlas, 5th edition, 2013; INCA, Parâmetros técnicos para o rastreamento do câncer de mama, 2021",
+  "coment": "Nódulo irregular com margens espiculadas, orientação não paralela e sombra acústica é altamente suspeito (probabilidade de malignidade de 95% ou mais): BI-RADS 5. A conduta é biópsia percutânea com agulha grossa (core biopsy) guiada por ultrassonografia, que dá diagnóstico histológico, receptores hormonais e HER2 antes do planejamento. BI-RADS 3 (provavelmente benigno, 2% ou menos) permite controle em 6 meses. Cirurgia sem diagnóstico prévio não é recomendada. Punção por agulha fina é menos informativa.",
+  "porAlt": [
+   "Margens espiculadas não são achado provavelmente benigno.",
+   "Achados suspeitos não permitem rastreio habitual.",
+   "A avaliação já está completa com a ultrassonografia.",
+   "Cirurgia exige diagnóstico histológico e planejamento prévios.",
+   "Nódulo espiculado, irregular e com sombra acústica: BI-RADS 5; biópsia com agulha grossa."
+  ]
+ },
+ {
+  "q": "Mulher de 65 anos com câncer de pulmão metastático para ossos vai iniciar morfina de liberação imediata 5 mg a cada 4 horas por dor intensa. Evacua a cada 2 dias, sem distensão. Ingestão hídrica baixa e pouca mobilidade. Usa ondansetrona às vezes. Sem obstrução intestinal. Clearance de 70 mL/min. Mora com a filha, que ajuda nos remédios. Pesa 52 kg e come pouco. Qual é a conduta mais adequada para o intestino ao iniciar o opioide?",
+  "alts": [
+   "Aguardar surgir constipação para tratar",
+   "Fibra dietética em dose alta",
+   "Laxante osmótico ou estimulante de horário",
+   "Metilnaltrexona profilática",
+   "Enema de fosfato diário preventivo"
+  ],
+  "gab": 2,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "INCA/Ministério da Saúde, Diretrizes para a detecção precoce do câncer de mama no Brasil, revisão 2023",
-  "coment": "No Brasil, a recomendação oficial para mulheres de risco habitual é mamografia bienal dos cinquenta aos sessenta e nove anos, com decisão compartilhada e informação sobre benefícios e danos, incluindo resultado falso-positivo e sobrediagnóstico. Sociedades médicas defendem início aos quarenta anos e periodicidade anual, divergência que o candidato precisa conhecer. Ultrassonografia e ressonância são complementares ou reservadas ao alto risco, não ao rastreio populacional.",
+  "base": "ESMO Clinical Practice Guidelines: Diagnosis, assessment and management of constipation in advanced cancer, 2018; MASCC Recommendations, 2020",
+  "coment": "Constipação induzida por opioide ocorre na maioria dos pacientes e não desenvolve tolerância. A ESMO e a MASCC recomendam iniciar laxante profilático junto com o opioide, de horário: osmótico (polietilenoglicol, lactulose) e/ou estimulante (sene, bisacodil), titulado para evacuação a cada 1 a 2 dias. Fibra em pacientes com baixa ingestão hídrica e pouca mobilidade pode piorar. Antagonistas periféricos (metilnaltrexona, naloxegol) são para constipação refratária aos laxantes. Ondansetrona também constipa.",
   "porAlt": [
-   "Iniciar aos vinte e cinco anos não tem respaldo e produz muito mais dano do que benefício.",
-   "A ultrassonografia é complementar em mama densa, mas não é método de rastreio populacional.",
-   "A ressonância é reservada ao alto risco, como mutação genética ou irradiação torácica prévia.",
-   "Correta: mamografia bienal dos cinquenta aos sessenta e nove anos, com decisão compartilhada.",
-   "O exame clínico isolado tem sensibilidade insuficiente e não substitui a mamografia no rastreio."
+   "A constipação por opioide é previsível e deve ser prevenida desde o início.",
+   "Fibra com baixa ingestão hídrica e pouca mobilidade piora a constipação.",
+   "Ao iniciar opioide: laxante osmótico ou estimulante de horário.",
+   "Metilnaltrexona é para constipação refratária.",
+   "Enema diário causa distúrbios eletrolíticos e desconforto."
   ]
  },
  {
-  "q": "Paciente de 65 anos com câncer avançado e dor intensa em uso de morfina apresenta constipação persistente. Qual é a conduta?",
+  "q": "Homem de 66 anos, ex-tabagista de 40 maços-ano que parou há 6 anos, faz a primeira tomografia de baixa dose do programa de rastreamento de câncer de pulmão. Há nódulo sólido de 7 mm no lobo inferior direito, com contornos lisos, sem calcificação ou gordura, sem linfonodos. Nenhum outro achado. Assintomático. Não tem sintomas respiratórios e mantém boa capacidade funcional. Não há outros nódulos. Pelo Lung-RADS (versão 2022), qual é a categoria e a conduta?",
   "alts": [
-   "Suspender o opioide e substituir por anti-inflamatório não hormonal para controlar a dor descrita.",
-   "Prescrever laxante apenas quando a constipação se tornar grave e sintomática para o paciente.",
-   "Aumentar a ingestão de fibras como medida isolada, suficiente para resolver a constipação induzida.",
-   "Prescrever laxante de forma profilática e contínua, sempre mantido enquanto durar o opioide.",
-   "Indicar enema semanal programado como única medida de manejo da constipação induzida por opioide."
+   "Categoria 3; nova tomografia em 6 meses",
+   "Categoria 2; manter rastreio anual",
+   "Categoria 4A; PET-CT imediato",
+   "Categoria 4B; biópsia percutânea",
+   "Categoria 1; alta do programa"
+  ],
+  "gab": 0,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "American College of Radiology, Lung-RADS v2022 Assessment Categories, 2022",
+  "coment": "No Lung-RADS 2022, no exame de base, nódulo sólido abaixo de 6 mm é categoria 2 (rastreio anual); de 6 a menos de 8 mm, categoria 3, provavelmente benigno, com tomografia de baixa dose em 6 meses; de 8 a menos de 15 mm, categoria 4A, com tomografia em 3 meses ou PET-CT se 8 mm ou mais de componente sólido; de 15 mm ou mais, categoria 4B, com tomografia diagnóstica, PET-CT e/ou amostragem. O programa deve incluir decisão compartilhada e apoio à cessação.",
+  "porAlt": [
+   "Nódulo sólido de 7 mm no exame de base: Lung-RADS 3; tomografia de baixa dose em 6 meses.",
+   "Nódulo sólido de 6 a 8 mm na base não é categoria 2.",
+   "Categoria 4A começa em 8 mm.",
+   "Categoria 4B começa em 15 mm.",
+   "Há nódulo, e ninguém recebe alta do programa por isso."
+  ]
+ },
+ {
+  "q": "Homem de 62 anos com adenocarcinoma de pâncreas metastático para fígado, ECOG 3, com piora após 2 linhas de quimioterapia, volta à consulta com a esposa. O oncologista precisa conversar sobre fim do tratamento antitumoral e prognóstico de semanas a poucos meses. O paciente começa perguntando se 'a próxima químio vai funcionar'. A esposa pede em particular que não contem nada a ele. Ele está lúcido e capaz de decidir. Qual é a abordagem de comunicação mais adequada?",
+  "alts": [
+   "Informar todos os números de sobrevida de imediato",
+   "Evitar falar de prognóstico para não tirar a esperança",
+   "Conversar só com a esposa, sem o paciente",
+   "Perguntar o que entende e quanto quer saber",
+   "Prometer nova linha de quimioterapia para acalmar"
   ],
   "gab": 3,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "ESMO Clinical Practice Guidelines. Cancer pain management, 2018 com atualização 2023; ANZSPM revisão 2022",
-  "coment": "A constipação induzida por opioide não sofre tolerância: persiste enquanto durar o tratamento, diferentemente de náusea e sonolência. Por isso o laxante é prescrito de forma profilática desde o início, tipicamente combinando estimulante como bisacodil ou sena com osmótico como polietilenoglicol ou lactulose. Fibra isolada é insuficiente e pode piorar em paciente com baixa ingesta hídrica. Antagonistas periféricos como metilnaltrexona ficam para casos refratários.",
-  "porAlt": [
-   "Suspender o opioide deixa a dor sem controle e o anti-inflamatório é insuficiente na dor intensa.",
-   "Esperar a constipação se instalar produz sofrimento evitável, incluindo risco de fecaloma.",
-   "A fibra isolada é insuficiente e pode agravar o quadro em paciente com baixa ingesta de líquidos.",
-   "Correta: laxante profilático contínuo enquanto durar o opioide, pois não há tolerância a esse efeito.",
-   "O enema é medida de resgate pontual, e não estratégia de manejo contínuo da constipação."
-  ]
- },
- {
-  "q": "Homem de 70 anos, tabagista de 40 maços-ano, parou de fumar há 8 anos. Qual é a recomendação de rastreio de câncer de pulmão?",
-  "alts": [
-   "Radiografia de tórax anual, exame recomendado para o rastreio de câncer de pulmão nesse perfil.",
-   "Citologia de escarro seriada anual, método de rastreio validado para pacientes tabagistas pesados.",
-   "Nenhum rastreio, pois a cessação há oito anos elimina completamente o risco de câncer de pulmão.",
-   "Tomografia de tórax de baixa dose anual, sempre com programa estruturado de cessação do tabagismo.",
-   "Broncoscopia anual com biópsia dirigida, método de rastreio recomendado para tabagistas pesados."
-  ],
-  "gab": 3,
-  "tema": "onco",
-  "cenario": "amb",
-  "comp": "prev",
   "nivel": "r2",
-  "base": "USPSTF lung cancer screening recommendation, 2021; NCCN Lung Cancer Screening, 2024",
-  "coment": "O rastreio de câncer de pulmão com tomografia de baixa dose anual é recomendado para pessoas de cinquenta a oitenta anos com pelo menos vinte maços-ano de carga tabágica, fumantes atuais ou que cessaram há menos de quinze anos. O ensaio norte-americano mostrou redução de vinte por cento na mortalidade específica. A radiografia foi testada e não reduziu mortalidade. O programa deve incluir cessação do tabagismo, que amplifica o benefício obtido.",
+  "base": "Baile et al., SPIKES: A Six-Step Protocol for Delivering Bad News, The Oncologist, 2000; ASCO Consensus Guideline: Patient-Clinician Communication, 2017",
+  "coment": "O protocolo SPIKES organiza a comunicação de más notícias: preparar o ambiente, avaliar a percepção (o que a pessoa já entende), obter o convite (quanto e como deseja saber), dar o conhecimento com aviso prévio e linguagem simples, responder às emoções com empatia e resumir com estratégia. A ASCO (2017) recomenda perguntar antes de informar e discutir prognóstico e objetivos de cuidado com honestidade. Omitir ou dar falsa esperança prejudica decisões sobre o fim da vida, e o paciente capaz tem direito à informação.",
   "porAlt": [
-   "A radiografia foi avaliada em ensaio grande e não reduziu a mortalidade por câncer de pulmão.",
-   "A citologia de escarro tem baixa sensibilidade e foi abandonada como método de rastreio.",
-   "O risco permanece elevado por muitos anos após a cessação, mantendo a indicação de rastreio.",
-   "Correta: tomografia de baixa dose anual associada a programa estruturado de cessação do tabagismo.",
-   "A broncoscopia é procedimento invasivo diagnóstico e nunca foi método de rastreio populacional."
+   "Despejar números sem saber a percepção e o desejo dele não respeita o paciente.",
+   "Omitir prognóstico impede decisões informadas sobre o fim da vida.",
+   "Paciente capaz tem direito à informação e deve participar.",
+   "Más notícias pelo SPIKES: perguntar o que ele entende e quanto deseja saber antes de informar.",
+   "Promessa falsa compromete a confiança e o cuidado."
   ]
  },
  {
-  "q": "Paciente com câncer de pâncreas metastático e desempenho funcional muito comprometido pergunta sobre prognóstico. Qual é a melhor conduta de comunicação?",
+  "q": "Mulher de 45 anos percebeu nódulo na mama direita há 2 meses. Ao exame, massa de 2,5 cm, endurecida, fixa, com retração de pele sobrejacente, no quadrante superior externo, e linfonodo axilar homolateral endurecido de 1,5 cm. Mamografia com mamas densas (categoria D), sem achados suspeitos (BI-RADS 1). Não amamenta, sem trauma local. Mãe e tia com câncer de mama antes dos 50 anos. Pesa 70 kg e não usa terapia hormonal. Qual é a conduta mais adequada?",
   "alts": [
-   "Informar o tempo exato de sobrevida em meses, com precisão numérica, logo no início da conversa.",
-   "Evitar qualquer informação prognóstica para preservar a esperança e reduzir o sofrimento do paciente.",
-   "Comunicar o prognóstico apenas ao familiar acompanhante, sem envolver o paciente na conversa.",
-   "Perguntar sempre o que a pessoa já sabe e quanto deseja saber antes de informar o prognóstico.",
-   "Encaminhar a conversa integralmente ao serviço de psicologia, sem participação da equipe médica."
-  ],
-  "gab": 3,
-  "tema": "onco",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "ASCO Patient-Clinician Communication guideline, 2017; ANCP, Manual de Cuidados Paliativos, 2ª edição, 2021",
-  "coment": "A comunicação de más notícias segue protocolos como o SPIKES: preparar o ambiente, verificar a percepção do paciente, obter o convite, quanto ele deseja saber, dar a informação em linguagem simples, acolher a emoção e traçar o plano. Prognóstico é comunicado em intervalos, como dias a semanas ou semanas a meses, e não em número exato. Omitir informação de quem quer saber viola a autonomia; informar só ao familiar configura conspiração do silêncio.",
-  "porAlt": [
-   "Números exatos não são confiáveis individualmente; comunica-se em intervalos de tempo amplos.",
-   "Omitir informação de quem deseja saber viola a autonomia e impede o planejamento do cuidado.",
-   "Informar apenas o familiar configura conspiração do silêncio e desrespeita o direito do paciente.",
-   "Correta: verificar o que a pessoa sabe e quanto deseja saber antes de informar o prognóstico.",
-   "A comunicação de prognóstico é responsabilidade da equipe médica assistente, com apoio de outros."
-  ]
- },
- {
-  "q": "Mulher de 45 anos com massa mamária palpável endurecida, fixa, com retração de pele. Mamografia sem alterações. Qual é a conduta?",
-  "alts": [
-   "Tranquilizar a paciente e repetir a mamografia em doze meses, já dada a normalidade do exame atual.",
-   "Solicitar apenas termografia mamária, exame que esclarece a natureza do nódulo palpável descrito.",
-   "Prescrever anti-inflamatório por trinta dias e reavaliar clinicamente apenas se houver piora local.",
-   "Indicar mastectomia imediata sem qualquer confirmação histológica prévia da natureza da lesão agora.",
-   "Prosseguir a investigação com biópsia, pois a mamografia normal não exclui sempre a doença maligna."
+   "Tranquilizar pela mamografia normal",
+   "Repetir mamografia em 6 meses",
+   "Antibiótico por 14 dias e reavaliar",
+   "Ressonância e seguimento sem biópsia",
+   "Ultrassonografia e biópsia com agulha grossa"
   ],
   "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA. Detecção precoce do câncer de mama, revisão 2023; NCCN Breast Cancer Screening and Diagnosis, 2024",
-  "coment": "Lesão palpável suspeita exige investigação independentemente da mamografia, que tem sensibilidade reduzida em mama densa e pode ser normal em até quinze por cento dos cânceres palpáveis. A conduta é ultrassonografia complementar e biópsia da lesão, geralmente por agulha grossa, que fornece histologia e perfil imuno-histoquímico. Achados de alarme incluem consistência endurecida, fixação a planos profundos, retração de pele e linfonodo axilar endurecido.",
+  "base": "NCCN Guidelines: Breast Cancer Screening and Diagnosis, 2025; INCA, Controle do câncer de mama: documento de consenso, 2004 (atualizado 2019)",
+  "coment": "Nódulo palpável com características clínicas suspeitas (endurecido, fixo, retração de pele, linfonodo axilar) exige investigação completa mesmo com mamografia normal, cuja sensibilidade cai muito em mamas densas. A avaliação tripla combina exame clínico, imagem (mamografia e ultrassonografia, que é a imagem de escolha para nódulo palpável) e biópsia com agulha grossa, incluindo o linfonodo suspeito. Imagem negativa não afasta câncer quando o exame clínico é suspeito. A história familiar indica também aconselhamento genético.",
   "porAlt": [
-   "Repetir em doze meses permite a progressão da doença e perde a janela de tratamento curativo.",
-   "A termografia não tem acurácia para diagnóstico de câncer de mama e não é recomendada.",
-   "Anti-inflamatório não esclarece a natureza da lesão e apenas adia o diagnóstico definitivo.",
-   "A mastectomia sem histologia expõe a cirurgia mutiladora sem confirmação do diagnóstico.",
-   "Correta: lesão clinicamente suspeita exige biópsia, pois mamografia normal não exclui malignidade."
+   "Mamografia normal em mama densa não afasta câncer com exame suspeito.",
+   "Esperar 6 meses atrasa o diagnóstico de lesão suspeita.",
+   "Não há sinais de mastite que justifiquem antibiótico.",
+   "Ressonância não substitui a biópsia.",
+   "Nódulo palpável suspeito com mamografia negativa: ultrassonografia e biópsia com agulha grossa."
   ]
  },
  {
-  "q": "Paciente com câncer colorretal em quimioterapia relata náusea e vômito nas primeiras horas após cada infusão. Qual é a conduta?",
+  "q": "Homem de 62 anos com câncer colorretal metastático recebe FOLFOX (oxaliplatina, leucovorina e 5-fluorouracil). No primeiro ciclo usou só ondansetrona 8 mg antes da infusão e teve 4 episódios de vômito nas primeiras 24 horas e náusea intensa por 3 dias. Sem obstrução intestinal, hipercalcemia ou metástase cerebral. Glicemia normal, sem diabetes. Pesa 76 kg e mora com a esposa. Clearance de 85 mL/min. Qual é a profilaxia antiemética mais adequada para o próximo ciclo?",
   "alts": [
-   "Prescrever antiemético apenas quando o vômito ocorrer, evitando medicação desnecessária ao paciente.",
-   "Reduzir a dose da quimioterapia em cinquenta por cento como primeira medida para controlar a náusea.",
-   "Suspender definitivamente o tratamento oncológico diante de náusea e vômito após a infusão agora.",
-   "Prescrever apenas dieta líquida fria e repouso, medidas suficientes para o controle desse sintoma.",
-   "Profilaxia antiemética conforme o potencial emetogênico do esquema, sempre antes de cada infusão."
+   "Ondansetrona isolada em dose dobrada",
+   "Metoclopramida só se vomitar",
+   "Antagonista 5-HT3 com dexametasona",
+   "Lorazepam isolado antes da infusão",
+   "Nenhuma profilaxia, apenas resgate"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ASCO Antiemetics guideline, atualização 2024; MASCC/ESMO Antiemetic Guidelines, 2023",
-  "coment": "A prevenção da náusea e do vômito induzidos por quimioterapia é feita antes da infusão, conforme o potencial emetogênico do esquema. Em regimes altamente emetogênicos combinam-se antagonista de receptor de serotonina, antagonista de neurocinina-1, dexametasona e olanzapina. Tratar apenas quando o vômito ocorre é menos eficaz e favorece a náusea antecipatória, condicionamento difícil de reverter. Reduzir dose por sintoma controlável compromete a eficácia oncológica.",
+  "base": "ASCO Guideline Update: Antiemetics, 2020; MASCC/ESMO Antiemetic Guideline, 2023",
+  "coment": "Oxaliplatina tem potencial emetogênico moderado. A ASCO (2020) recomenda, para quimioterapia moderadamente emetogênica, antagonista 5-HT3 com dexametasona no dia 1 (com dexametasona nos dias 2 e 3 em alguns esquemas); para carboplatina com AUC de 4 ou mais, acrescenta-se antagonista NK1. Após falha, pode-se adicionar olanzapina ou NK1. Profilaxia com monoterapia foi insuficiente aqui. Benzodiazepínico é adjuvante para náusea antecipatória, não base.",
   "porAlt": [
-   "Tratar apenas quando ocorre o vômito é menos eficaz e favorece a náusea antecipatória condicionada.",
-   "Reduzir a dose por sintoma controlável com antiemético compromete a eficácia do tratamento.",
-   "Suspender o tratamento por náusea controlável retira do paciente o benefício oncológico esperado.",
-   "Medidas dietéticas ajudam, mas são insuficientes diante de esquemas de alto potencial emetogênico.",
-   "Correta: profilaxia antiemética antes de cada infusão, escolhida pelo potencial emetogênico do esquema."
+   "Dobrar a dose de 5-HT3 isolado não substitui a associação com dexametasona.",
+   "Tratar só após vomitar é pior que prevenir.",
+   "Quimioterapia moderadamente emetogênica: antagonista 5-HT3 com dexametasona.",
+   "Benzodiazepínico isolado é adjuvante para náusea antecipatória.",
+   "Após vômitos intensos, sem profilaxia a adesão ao tratamento cai."
   ]
  },
  {
@@ -14928,243 +14928,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 55 anos, sem sintomas, pergunta sobre rastreio de câncer de próstata. Qual é a orientação correta?",
+  "q": "Homem de 62 anos, assintomático, fez PSA por decisão compartilhada: 6,2 ng/mL. Repetiu após 6 semanas, sem infecção urinária, ejaculação ou ciclismo recente: 5,9 ng/mL. Toque retal com próstata aumentada, sem nódulos. Volume prostático estimado de 45 mL (densidade de PSA de 0,13). Sem história familiar ou mutação BRCA conhecida. Não usa finasterida. Pesa 78 kg, é hipertenso controlado e tem boa expectativa de vida. Não tem sintomas urinários importantes. Qual é a próxima etapa mais adequada?",
   "alts": [
-   "Rastrear todos os homens anualmente a partir dos quarenta anos com dosagem de antígeno prostático.",
-   "Não discutir o tema, pois o rastreio de câncer de próstata não tem qualquer respaldo na literatura.",
-   "Decisão compartilhada após informar benefícios e danos, sempre respeitando a preferência do paciente.",
-   "Indicar biópsia prostática de rotina para todos os homens acima de cinquenta anos de idade agora.",
-   "Rastrear apenas com toque retal isolado, sem qualquer dosagem do antígeno prostático específico."
-  ],
-  "gab": 2,
-  "tema": "onco",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "USPSTF prostate cancer screening recommendation, 2018 com revisão 2024; INCA, posicionamento sobre rastreio de câncer de próstata, 2023",
-  "coment": "O rastreio de câncer de próstata é o exemplo clássico de decisão compartilhada: reduz modestamente a mortalidade específica, ao custo de sobrediagnóstico e de tratamentos com incontinência e disfunção erétil. As diretrizes recomendam informar o homem entre cinquenta e sessenta e nove anos, ou antes em alto risco, sobre benefícios e danos, e respeitar a decisão. O INCA não recomenda o rastreio organizado populacional no Brasil.",
-  "porAlt": [
-   "Rastrear todos anualmente desde os quarenta anos amplia o sobrediagnóstico sem benefício proporcional.",
-   "O tema deve ser discutido: existe evidência, com benefício modesto e danos relevantes conhecidos.",
-   "Correta: decisão compartilhada após informar benefícios e danos, respeitando a preferência do paciente.",
-   "A biópsia é indicada por alteração no rastreio, e não como procedimento de rotina populacional.",
-   "O toque retal isolado tem desempenho insuficiente e não é recomendado como método único."
-  ]
- },
- {
-  "q": "Paciente com câncer de mama e dor óssea nova em coluna. Qual exame inicial deve ser solicitado?",
-  "alts": [
-   "Apenas hemograma completo, exame suficiente para investigar a dor óssea nova nesse contexto clínico agora.",
-   "Apenas dosagem de marcador tumoral sérico, exame que confirma a presença de metástase óssea nova agora.",
-   "Aguardar seis meses antes de qualquer investigação da dor óssea em paciente oncológico conhecido agora.",
-   "Solicitar apenas eletroneuromiografia, exame que estabelece o diagnóstico de metástase vertebral agora.",
-   "Imagem dirigida do segmento sintomático, avaliando sempre a possibilidade de compressão medular associada."
-  ],
-  "gab": 4,
-  "tema": "onco",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "NCCN Breast Cancer, 2024; NICE guideline NG234. Metastatic spinal cord compression, 2023",
-  "coment": "Dor óssea nova em paciente com câncer é metástase até prova em contrário, e dor em coluna exige atenção especial ao risco de compressão medular, que é emergência. A investigação começa por imagem dirigida do segmento sintomático, preferencialmente ressonância quando há suspeita de acometimento epidural, complementada por avaliação de extensão com cintilografia óssea ou tomografia por emissão de pósitrons conforme o caso.",
-  "porAlt": [
-   "O hemograma não avalia a coluna nem detecta lesão óssea metastática no segmento doloroso.",
-   "Os marcadores tumorais têm papel limitado e não substituem a imagem na investigação da dor.",
-   "Adiar por seis meses arrisca compressão medular com déficit neurológico permanente e evitável.",
-   "A eletroneuromiografia avalia função de nervo e músculo, e não a estrutura óssea vertebral.",
-   "Correta: imagem dirigida do segmento sintomático, atenta ao risco de compressão medular associada."
-  ]
- },
- {
-  "q": "Paciente com câncer avançado e dispneia refratária apesar de tratamento da causa. Qual é a conduta?",
-  "alts": [
-   "Opioide em dose titulada para alívio da dispneia, associado sempre a medidas não farmacológicas de conforto.",
-   "Sedação profunda contínua imediata em todos os pacientes com dispneia refratária em doença avançada agora.",
-   "Oxigênio suplementar de rotina em todos os casos, mesmo naqueles sem qualquer hipoxemia documentada agora.",
-   "Benzodiazepínico isolado em dose alta como primeira escolha para o controle da dispneia refratária agora.",
-   "Restrição hídrica extrema como principal medida terapêutica para a dispneia refratária no câncer avançado."
+   "Ressonância multiparamétrica antes da biópsia",
+   "Biópsia sistemática imediata sem imagem",
+   "Repetir o PSA em 5 anos",
+   "Iniciar bloqueio hormonal",
+   "PET-PSMA como primeiro exame"
   ],
   "gab": 0,
   "tema": "onco",
   "cenario": "amb",
-  "comp": "tto",
+  "comp": "dx",
   "nivel": "r2",
-  "base": "ESMO Clinical Practice Guidelines on dyspnoea in advanced cancer, 2021; ANCP, Manual de Cuidados Paliativos, 2ª edição, 2021",
-  "coment": "O opioide sistêmico em dose titulada é a intervenção com melhor evidência para a dispneia refratária no câncer avançado, reduzindo a percepção do desconforto sem causar depressão respiratória quando titulado adequadamente. Associam-se medidas não farmacológicas: ventilador com fluxo de ar no rosto, posicionamento, técnicas de respiração e manejo da ansiedade. Oxigênio beneficia sobretudo os hipoxêmicos, e benzodiazepínico é adjuvante quando há ansiedade importante.",
+  "base": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer, 2024",
+  "coment": "Com PSA persistentemente elevado, a EAU (2024) recomenda ressonância multiparamétrica de próstata antes da biópsia. Lesões PI-RADS 3 a 5 são biopsiadas de forma dirigida (associada ou não à sistemática), e com PI-RADS 1 a 2 e baixa suspeita clínica (densidade de PSA abaixo de 0,15-0,20) pode-se omitir a biópsia e seguir com PSA, reduzindo diagnósticos de câncer clinicamente insignificante. PET-PSMA é para estadiamento ou recidiva, não para diagnóstico primário.",
   "porAlt": [
-   "Correta: opioide titulado com medidas não farmacológicas é a base do alívio da dispneia refratária.",
-   "A sedação paliativa se reserva a sintomas verdadeiramente refratários a todas as medidas anteriores.",
-   "O oxigênio beneficia sobretudo os hipoxêmicos, sem ganho consistente nos pacientes sem hipoxemia.",
-   "O benzodiazepínico é adjuvante para ansiedade e não é a primeira escolha para a dispneia.",
-   "A restrição hídrica extrema não alivia dispneia e pode causar desconforto adicional ao paciente."
+   "PSA persistentemente elevado: ressonância multiparamétrica antes de decidir a biópsia.",
+   "Biópsia sem imagem aumenta diagnóstico de doença insignificante e perde lesões anteriores.",
+   "PSA de 6 persistente exige investigação.",
+   "Não há diagnóstico que justifique tratamento.",
+   "PET-PSMA é para estadiamento ou recidiva."
   ]
  },
  {
-  "q": "Mulher de 30 anos com HPV positivo e citologia com lesão intraepitelial de alto grau. Qual é a conduta?",
+  "q": "Mulher de 54 anos com câncer de mama luminal tratado há 3 anos, em anastrozol, refere dor em coluna torácica há 4 semanas, progressiva, pior à noite e ao deitar, sem trauma. Exame neurológico normal, sem alteração esfincteriana. Fosfatase alcalina de 210 U/L. Sem febre. Radiografia de coluna sem alterações. Pesa 64 kg. Não tem perda de peso e mantém atividades. Cálcio de 9,6 mg/dL. Qual é o exame mais adequado para investigar a dor?",
   "alts": [
-   "Repetir a citologia em três anos, pois a lesão descrita regride espontaneamente na maioria dos casos.",
-   "Encaminhar para colposcopia com biópsia dirigida, definindo sempre a conduta pelo resultado histológico.",
-   "Indicar histerectomia total imediata em todas as pacientes com lesão intraepitelial de alto grau agora.",
-   "Prescrever apenas antiviral oral por seis meses como tratamento da lesão cervical de alto grau agora.",
-   "Solicitar apenas ultrassonografia pélvica, exame que estabelece o diagnóstico da lesão cervical descrita."
+   "Nenhum exame, pois a radiografia é normal",
+   "Densitometria óssea",
+   "Tomografia de crânio",
+   "Ressonância de toda a coluna",
+   "Dosagem de CA 15-3 isolada"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "onco",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA, Diretrizes brasileiras para o rastreamento do câncer do colo do útero, 2ª edição atualizada, 2024",
-  "coment": "Citologia com lesão intraepitelial escamosa de alto grau tem alta probabilidade de corresponder a neoplasia intraepitelial cervical de grau 2 ou 3, e a conduta é colposcopia com biópsia dirigida. Confirmada a lesão, o tratamento habitual é excisão da zona de transformação, com técnica definida pela extensão e visibilidade da junção escamocolunar. Histerectomia não é tratamento de lesão precursora e não há antiviral que trate a lesão.",
+  "base": "ACR Appropriateness Criteria: Low Back Pain and Suspected Spine Metastases, 2021; NICE Guideline NG234, 2023",
+  "coment": "Dor dorsal nova, progressiva e noturna em paciente com câncer de mama é metástase até prova em contrário. A radiografia só mostra lesão lítica após perda de 30% a 50% do osso e não avalia medula ou partes moles. A ressonância de toda a coluna é o exame mais sensível para metástases vertebrais e para compressão medular precoce (ACR Appropriateness Criteria), que muda a urgência e o tratamento. Cintilografia ou PET-CT complementam o estadiamento sistêmico. Marcadores não confirmam nem excluem metástase.",
   "porAlt": [
-   "Lesão de alto grau tem risco relevante de progressão e não permite seguimento apenas citológico.",
-   "Correta: colposcopia com biópsia dirigida, com a conduta definida pelo resultado histológico obtido.",
-   "A histerectomia não é tratamento de lesão precursora e configura conduta desproporcional ao caso.",
-   "Não existe antiviral oral que trate a lesão intraepitelial cervical causada pelo papilomavírus.",
-   "A ultrassonografia não avalia o epitélio cervical nem substitui a colposcopia com biópsia."
+   "Radiografia normal não exclui metástase vertebral.",
+   "Densitometria não investiga metástase.",
+   "Os sintomas não são neurológicos centrais.",
+   "Dor dorsal nova em paciente com câncer de mama: ressonância de toda a coluna.",
+   "Marcador tumoral não confirma nem exclui metástase."
   ]
  },
  {
-  "q": "Paciente com câncer colorretal e obstrução intestinal maligna irressecável, com vômitos incoercíveis. Qual é a conduta paliativa?",
+  "q": "Homem de 58 anos, tabagista, tem edema de face e pescoço, pletora facial, turgência jugular sem pulsação e circulação colateral no tórax há 3 semanas, pior ao deitar. Sem estridor, rebaixamento de consciência ou edema de laringe. Saturação de 95%. Tomografia com massa mediastinal de 7 cm comprimindo a veia cava superior e linfonodos. Ainda sem diagnóstico histológico. Pesa 70 kg, fuma 40 maços-ano e não tem febre. Não tem cateter venoso central. Qual é a conduta mais adequada?",
   "alts": [
-   "Manter apenas dieta oral livre e observar clinicamente a evolução do quadro obstrutivo do paciente.",
-   "Controlar sintomas com antiemético, corticoide e antissecretor, considerando sempre sonda ou prótese.",
-   "Indicar laparotomia extensa em todos os casos de obstrução maligna irressecável com vômitos agora.",
-   "Prescrever apenas laxante estimulante em dose alta como medida principal do controle sintomático.",
-   "Suspender toda medicação sintomática para evitar interação com o tratamento oncológico em curso."
+   "Dexametasona e radioterapia antes de biopsiar",
+   "Anticoagulação plena isolada",
+   "Quimioterapia empírica imediata",
+   "Toracotomia de urgência",
+   "Biópsia para diagnóstico antes do tratamento"
   ],
-  "gab": 1,
+  "gab": 4,
+  "tema": "onco",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Wilson, Detterbeck e Yahalom, Superior Vena Cava Syndrome with Malignant Causes, NEJM, 2007; Friedman et al., Superior vena cava syndrome: diagnosis and management, Chest, 2017",
+  "coment": "Síndrome da veia cava superior por neoplasia raramente é emergência imediata: sem estridor, edema laríngeo ou cerebral, há tempo para diagnóstico histológico, que define o tratamento (carcinoma de pequenas células e linfomas respondem a quimioterapia; outros a radioterapia ou stent). Corticoide e radioterapia antes da biópsia podem impedir o diagnóstico, sobretudo em linfoma. Com sintomas graves (estridor, edema cerebral), faz-se stent endovascular de urgência, que alivia rapidamente. Elevar a cabeceira ajuda.",
+  "porAlt": [
+   "Corticoide e radioterapia antes da biópsia podem inviabilizar o diagnóstico histológico.",
+   "Não há trombose isolada que justifique só anticoagulação.",
+   "Quimioterapia sem histologia pode ser inadequada ao tumor.",
+   "Cirurgia de urgência não é indicada.",
+   "Síndrome da veia cava superior sem sinais de gravidade: biópsia antes do tratamento."
+  ]
+ },
+ {
+  "q": "Mulher de 30 anos, sem gestações, faz rastreio: teste de DNA-HPV oncogênico positivo para HPV 16 e citologia com lesão intraepitelial escamosa de alto grau. Assintomática, sem sangramento pós-coito. Não está grávida e usa preservativo. Não tem HIV ou imunossupressão. Exame especular sem lesão macroscópica. Tem 2 parceiros nos últimos 5 anos e nunca fez colposcopia. Vacinação para HPV não realizada. Pelas diretrizes brasileiras, qual é a conduta mais adequada?",
+  "alts": [
+   "Repetir citologia em 6 meses",
+   "Histerectomia total abdominal",
+   "Colposcopia, com biópsia ou excisão",
+   "Repetir o teste de HPV em 1 ano",
+   "Conização a frio sem colposcopia"
+  ],
+  "gab": 2,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "INCA, Diretrizes Brasileiras para o Rastreamento do Câncer do Colo do Útero, 2016; Ministério da Saúde, Diretrizes para rastreamento com teste de DNA-HPV, 2024",
+  "coment": "Citologia com lesão de alto grau exige colposcopia. Pelas diretrizes brasileiras (INCA 2016, atualizadas com o rastreio por DNA-HPV em 2024), com achados colposcópicos maiores e zona de transformação tipo 1 ou 2, em mulher com 25 anos ou mais e não gestante, pode-se fazer excisão tipo 1 ou 2 da zona de transformação no modelo 'ver e tratar'; caso contrário, biópsia dirigida. HPV 16 aumenta o risco imediato de NIC 3. Repetir citologia ou teste atrasa o tratamento de lesão precursora. Histerectomia não é tratamento de NIC.",
+  "porAlt": [
+   "Lesão de alto grau não se acompanha só com citologia.",
+   "Histerectomia não é tratamento de lesão precursora.",
+   "HPV 16 e lesão de alto grau: colposcopia, com biópsia ou excisão da zona de transformação conforme achados.",
+   "Repetir o teste atrasa a abordagem de lesão de alto grau.",
+   "Conização a frio sem colposcopia é excessiva e sem mapeamento."
+  ]
+ },
+ {
+  "q": "Mulher de 66 anos com carcinomatose peritoneal por câncer colorretal, sem proposta cirúrgica, tem obstrução intestinal maligna com vômitos fecaloides e cólicas há 3 dias. PPS de 30%. Deseja ficar em casa e priorizar conforto. Sem perfuração. Recebe hipodermóclise. Pesa 50 kg, está lúcida e a família concorda com o plano. Usa morfina subcutânea de horário. A radiografia mostra níveis hidroaéreos múltiplos. Qual é a conduta paliativa farmacológica mais adequada?",
+  "alts": [
+   "Octreotida, dexametasona, haloperidol e analgesia",
+   "Metoclopramida em dose alta contínua",
+   "Laxante estimulante e dieta laxativa",
+   "Sonda nasogástrica permanente como única medida",
+   "Nutrição parenteral total domiciliar"
+  ],
+  "gab": 0,
   "tema": "onco",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESMO/EAPC guidelines on malignant bowel obstruction, revisão 2023; ANCP, Manual de Cuidados Paliativos, 2021",
-  "coment": "Na obstrução intestinal maligna inoperável, o controle de sintomas combina antiemético como haloperidol ou metoclopramida na obstrução parcial, corticoide para reduzir edema peritumoral, antissecretor como octreotide ou butilescopolamina para diminuir o volume de secreções, além de analgesia. Sonda nasogástrica de alívio ou gastrostomia descompressiva e prótese endoscópica são opções conforme o nível e o prognóstico do paciente.",
+  "base": "ESMO Clinical Practice Guideline: Management of malignant bowel obstruction, 2023 (MASCC/ESMO); Ripamonti et al., Supportive Care in Cancer, 2008",
+  "coment": "Obstrução intestinal maligna completa inoperável é manejada com fármacos subcutâneos: antissecretores (octreotida ou butilbrometo de escopolamina), dexametasona (reduz edema peritumoral), antiemético central (haloperidol) e opioide para dor. Procinéticos como metoclopramida são contraindicados na obstrução completa, pois pioram as cólicas. Sonda nasogástrica é temporária; para vômitos persistentes, gastrostomia descompressiva. Nutrição parenteral raramente beneficia quem tem prognóstico de semanas.",
   "porAlt": [
-   "Manter dieta livre em obstrução estabelecida agrava vômitos e o risco de broncoaspiração.",
-   "Correta: antiemético, corticoide e antissecretor, com sonda ou prótese conforme o nível da obstrução.",
-   "A laparotomia extensa em doença irressecável traz morbidade alta sem benefício correspondente.",
-   "O laxante estimulante em obstrução mecânica agrava a dor e pode precipitar perfuração intestinal.",
-   "Suspender sintomáticos deixa o paciente sem controle de sintomas altamente angustiantes."
+   "Obstrução maligna inoperável: octreotida, dexametasona, haloperidol e analgesia.",
+   "Procinético na obstrução completa piora cólicas e pode perfurar.",
+   "Laxante estimulante na obstrução completa causa dor.",
+   "Sonda permanente é desconfortável; gastrostomia descompressiva é melhor se necessário.",
+   "Nutrição parenteral raramente beneficia com prognóstico de semanas."
   ]
  },
  {
-  "q": "Paciente em quimioterapia apresenta mucosite oral grau 3 com dor que impede a alimentação. Qual é a conduta?",
+  "q": "Mulher de 45 anos, no décimo dia de quimioterapia em altas doses para transplante autólogo, tem mucosite oral grau 3: úlceras confluentes que impedem a ingestão de sólidos, dor 8 em 10 apesar de bochecho com lidocaína. Neutrófilos de 200/mm³, afebril. Mantém ingestão de líquidos. Sem herpes nos lábios. Pesa 60 kg e recebe profilaxia com aciclovir. A família pergunta sobre bochecho de clorexidina. Qual é a conduta mais adequada?",
   "alts": [
-   "Analgesia sistêmica com opioide e higiene oral rigorosa, avaliando sempre a necessidade de suporte nutricional.",
-   "Prescrever apenas bochecho com antisséptico alcoólico três vezes ao dia como tratamento principal neste caso.",
-   "Suspender definitivamente o tratamento oncológico diante de qualquer episódio de mucosite oral neste caso.",
-   "Iniciar antibiótico sistêmico de amplo espectro em todos os casos de mucosite, mesmo sem infecção neste caso.",
-   "Manter apenas dieta sólida habitual, sem qualquer analgesia ou avaliação de suporte nutricional neste caso."
+   "Bochecho de clorexidina para tratar a mucosite",
+   "Suspender a ingestão oral e aguardar",
+   "Antibiótico tópico para as úlceras",
+   "Opioide sistêmico e higiene oral suave",
+   "Corticoide oral em dose alta"
+  ],
+  "gab": 3,
+  "tema": "onco",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "MASCC/ISOO Clinical Practice Guidelines for the Management of Mucositis Secondary to Cancer Therapy, 2020",
+  "coment": "Mucosite grau 3 exige analgesia sistêmica: a MASCC/ISOO (2020) recomenda morfina controlada pelo paciente em transplante de células-tronco, com higiene oral suave (bochechos com soro fisiológico ou bicarbonato, escova macia). Fotobiomodulação é recomendada para prevenção em transplante e radioterapia de cabeça e pescoço. Clorexidina não é recomendada para prevenir ou tratar mucosite. Avalia-se suporte nutricional se a ingestão cair e investiga-se herpes ou candidíase se houver suspeita.",
+  "porAlt": [
+   "Clorexidina não previne nem trata mucosite.",
+   "Jejum não trata a mucosite e piora o estado nutricional.",
+   "Antibiótico tópico não trata mucosite.",
+   "Mucosite grau 3: opioide sistêmico e higiene oral suave com soro ou bicarbonato.",
+   "Corticoide não trata mucosite e aumenta infecção."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos teve biópsia excisional de lesão pigmentada no dorso: melanoma extensivo superficial com espessura de Breslow de 1,5 mm, sem ulceração, 2 mitoses/mm², margens livres. Sem linfonodos palpáveis. Ultrassonografia das cadeias regionais normal. Sem sintomas sistêmicos. Pesa 82 kg. Não tem história familiar de melanoma. Fototipo II, com muitos nevos. Não há satelitose ou lesões em trânsito. Qual é a conduta cirúrgica mais adequada?",
+  "alts": [
+   "Margem de 0,5 cm, sem estadiar linfonodos",
+   "Linfadenectomia regional completa",
+   "Apenas seguimento, pois as margens estão livres",
+   "Margem de 5 cm e linfadenectomia",
+   "Margem de 1 a 2 cm e linfonodo sentinela"
+  ],
+  "gab": 4,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "NCCN Guidelines: Cutaneous Melanoma, 2025; Faries et al., MSLT-II, NEJM, 2017",
+  "coment": "Melanoma pT2a (espessura acima de 1 a 2 mm, sem ulceração) exige ampliação de margens de 1 a 2 cm (NCCN 2025) e biópsia do linfonodo sentinela, indicada para espessura acima de 0,8 mm ou abaixo disso com ulceração. Linfadenectomia completa após sentinela positivo não aumentou sobrevida (MSLT-II) e foi substituída por vigilância com ultrassonografia na maioria. Margem de 0,5 cm é para melanoma in situ. Margens de 5 cm são historicamente abandonadas.",
+  "porAlt": [
+   "Margem de 0,5 cm é para melanoma in situ.",
+   "Linfadenectomia completa não aumentou sobrevida.",
+   "Biópsia excisional não substitui a ampliação e o estadiamento nodal.",
+   "Margens de 5 cm aumentam morbidade sem benefício.",
+   "Melanoma de 1,5 mm sem ulceração: margem de 1 a 2 cm e biópsia do linfonodo sentinela."
+  ]
+ },
+ {
+  "q": "Mulher de 56 anos com adenocarcinoma de pulmão metastático tem dispneia progressiva há 5 dias, ortopneia e tontura. Pressão de 86/64 mmHg, pulso paradoxal de 18 mmHg, turgência jugular, bulhas abafadas, frequência de 124 bpm. Ecocardiograma: derrame pericárdico volumoso com colapso diastólico do ventrículo direito. Plaquetas e coagulograma normais. Pesa 60 kg, sem uso de anticoagulante. Recebe osimertinibe há 1 ano. Radiografia com área cardíaca aumentada. Qual é a conduta mais adequada?",
+  "alts": [
+   "Pericardiocentese de urgência guiada por ecocardiograma",
+   "Furosemida endovenosa para reduzir a congestão",
+   "Nitroglicerina e observação",
+   "Quimioterapia sistêmica imediata isolada",
+   "Volume de 3 litros e aguardar"
   ],
   "gab": 0,
   "tema": "onco",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "MASCC/ISOO Clinical Practice Guidelines for the management of mucositis, atualização 2020 com revisão 2024",
-  "coment": "A mucosite grau 3 impede a ingestão oral adequada e exige analgesia sistêmica, frequentemente com opioide, além de higiene oral rigorosa com solução salina ou bicarbonato, evitando produtos alcoólicos que agravam a dor. Avalia-se a necessidade de suporte nutricional enteral ou parenteral e de hidratação endovenosa. Crioterapia oral previne mucosite em alguns esquemas, e a laserterapia de baixa potência tem evidência favorável.",
-  "porAlt": [
-   "Correta: analgesia sistêmica, higiene oral rigorosa e avaliação da necessidade de suporte nutricional.",
-   "Antissépticos alcoólicos agravam a dor e a lesão da mucosa já inflamada pelo tratamento.",
-   "Suspender definitivamente o tratamento oncológico por mucosite manejável retira benefício curativo.",
-   "O antibiótico sistêmico não é rotina e se reserva a sinais de infecção documentada no paciente.",
-   "Manter dieta sólida sem analgesia perpetua a dor e leva a desnutrição e desidratação evitáveis."
-  ]
- },
- {
-  "q": "Paciente com melanoma cutâneo de espessura de Breslow de 1,5 mm sem ulceração. Qual é a conduta cirúrgica?",
-  "alts": [
-   "Apenas excisão simples da cicatriz sem qualquer ampliação de margens ou avaliação linfonodal.",
-   "Esvaziamento linfonodal completo eletivo em todos os pacientes com melanoma dessa espessura agora já.",
-   "Ampliação de margens e pesquisa do linfonodo sentinela, indicada sempre nessa faixa de espessura.",
-   "Apenas seguimento clínico sem qualquer procedimento cirúrgico adicional após a biópsia excisional.",
-   "Radioterapia local isolada como tratamento definitivo do melanoma cutâneo dessa espessura agora."
-  ],
-  "gab": 2,
-  "tema": "onco",
-  "cenario": "amb",
-  "comp": "tto",
+  "cenario": "emg",
+  "comp": "urg",
   "nivel": "r3",
-  "base": "NCCN Melanoma: Cutaneous, 2024; ASCO/SSO guideline on sentinel lymph node biopsy for melanoma, revisão 2023",
-  "coment": "No melanoma, a espessura de Breslow define margens e indicação de linfonodo sentinela. Lesões entre 1 e 2 mm exigem margem de um a dois centímetros e têm indicação de pesquisa do linfonodo sentinela, que é o principal fator prognóstico e orienta terapia adjuvante. Esvaziamento completo eletivo foi abandonado por não melhorar sobrevida global. Radioterapia isolada não é tratamento curativo do melanoma cutâneo primário.",
+  "base": "ESC Guidelines for the diagnosis and management of pericardial diseases, 2015; ESC Guidelines for the management of myocarditis and pericarditis, 2025",
+  "coment": "Tamponamento cardíaco (hipotensão, pulso paradoxal, turgência jugular, colapso diastólico do ventrículo direito) por derrame pericárdico maligno exige drenagem de urgência por pericardiocentese guiada por ecocardiograma, com dreno para evitar recidiva imediata. Diurético e nitrato reduzem a pré-carga e podem precipitar colapso. Pequena expansão volêmica ajuda como ponte, mas não substitui a drenagem. Recidivas levam a janela pericárdica ou esclerose. O líquido vai para citologia.",
   "porAlt": [
-   "A excisão simples sem margens adequadas associa-se a recorrência local e subestadiamento da doença.",
-   "O esvaziamento eletivo completo foi abandonado por não melhorar a sobrevida global dos pacientes.",
-   "Correta: ampliação de margens com pesquisa do linfonodo sentinela nessa faixa de espessura de Breslow.",
-   "O seguimento isolado sem ampliação de margens é conduta inadequada nessa espessura tumoral.",
-   "A radioterapia isolada não é tratamento curativo do melanoma cutâneo primário ressecável."
+   "Tamponamento maligno: pericardiocentese de urgência guiada por ecocardiograma.",
+   "Diurético reduz a pré-carga e agrava o tamponamento.",
+   "Nitrato reduz a pré-carga e pode causar colapso.",
+   "Quimioterapia não alivia o tamponamento a tempo.",
+   "Volume ajuda como ponte curta, mas não resolve."
   ]
  },
  {
-  "q": "Paciente com câncer de pulmão e derrame pleural maligno recidivante e sintomático. Qual é a conduta?",
+  "q": "Homem de 59 anos recebeu há 2 semanas o diagnóstico de adenocarcinoma de pulmão estádio IV, com metástases ósseas, ECOG 1, e vai iniciar quimioimunoterapia. Tem dor óssea moderada, ansiedade e insônia. Pergunta ao residente se 'cuidados paliativos' significam que desistiram do tratamento e se deve procurá-los só quando a quimioterapia parar. Mora com a esposa e 2 filhos adolescentes. Pesa 72 kg. Qual é a orientação mais adequada?",
   "alts": [
-   "Toracocenteses de alívio repetidas indefinidamente como única estratégia para o derrame recidivante.",
-   "Pleurodese ou cateter pleural de longa permanência, escolhidos sempre conforme o prognóstico do paciente.",
-   "Apenas diurético em dose alta, medida suficiente para controlar o derrame pleural de origem maligna.",
-   "Antibiótico de amplo espectro prolongado como tratamento do derrame pleural maligno recidivante agora.",
-   "Radioterapia torácica isolada como tratamento definitivo do derrame pleural maligno sintomático agora."
-  ],
-  "gab": 1,
-  "tema": "onco",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "ATS/STS/STR Clinical Practice Guideline on management of malignant pleural effusions, 2018 com revisão 2023; BTS Pleural Disease Guideline, 2023",
-  "coment": "No derrame pleural maligno sintomático e recidivante, com pulmão expansível, as opções definitivas são pleurodese química com talco e cateter pleural de longa permanência, escolhidos conforme expectativa de vida, preferência do paciente e disponibilidade de suporte domiciliar. Quando o pulmão não expande, o cateter é preferido. Toracocenteses repetidas são paliativas de curta duração e aumentam risco de complicações e de internações.",
-  "porAlt": [
-   "Punções repetidas indefinidamente trazem alívio breve e aumentam complicações e internações.",
-   "Correta: pleurodese ou cateter de longa permanência, escolhidos conforme prognóstico e preferência.",
-   "O diurético trata transudato cardiogênico e não controla o derrame de origem maligna.",
-   "O antibiótico não trata o mecanismo do derrame maligno, que é a disseminação pleural tumoral.",
-   "A radioterapia isolada não controla o derrame pleural maligno já estabelecido e recidivante."
-  ]
- },
- {
-  "q": "Paciente com diagnóstico de câncer avançado pergunta quando deve iniciar cuidados paliativos. Qual é a resposta correta?",
-  "alts": [
-   "Apenas quando todo tratamento oncológico ativo tiver sido definitivamente interrompido pela equipe.",
-   "Somente nas últimas quarenta e oito horas de vida, quando o prognóstico já estiver bem definido.",
-   "Apenas se o paciente solicitar de forma expressa e por escrito o encaminhamento à equipe especializada.",
-   "Somente após a falha de pelo menos três linhas de tratamento quimioterápico previamente instituídas.",
-   "Desde o diagnóstico, integrados sempre ao tratamento oncológico ativo e não apenas na fase final."
+   "Somente quando não houver mais tratamento oncológico",
+   "Somente nas últimas semanas de vida",
+   "Somente se a dor ficar refratária a opioides",
+   "Apenas se ele desistir da quimioterapia",
+   "Desde já, integrados ao tratamento oncológico"
   ],
   "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "ASCO Clinical Practice Guideline Update on integration of palliative care, 2017 com revisão 2024; OMS. Cuidados paliativos, 2020",
-  "coment": "Os cuidados paliativos devem ser integrados precocemente, desde o diagnóstico de doença avançada, em paralelo ao tratamento oncológico ativo. Ensaios clínicos mostraram melhora de qualidade de vida, redução de sintomas depressivos, menor uso de intervenções agressivas no fim da vida e, em alguns estudos, aumento da sobrevida. Associar cuidados paliativos a fim de vida é equívoco que atrasa o alívio de sintomas e o planejamento do cuidado.",
+  "base": "Temel et al., Early Palliative Care for Patients with Metastatic Non-Small-Cell Lung Cancer, NEJM, 2010; ASCO Guideline: Integration of Palliative Care Into Standard Oncology Care, 2017",
+  "coment": "No estudo de Temel (NEJM, 2010), cuidados paliativos precoces integrados ao tratamento oncológico em câncer de pulmão metastático melhoraram qualidade de vida e humor, reduziram tratamento agressivo no fim da vida e associaram-se a maior sobrevida. A ASCO (2017) recomenda que pacientes com câncer avançado recebam cuidado paliativo especializado dentro de 8 semanas do diagnóstico, simultâneo ao tratamento antitumoral. Cuidado paliativo não é desistir; trata dor, ansiedade, sono, comunicação e apoio à família.",
   "porAlt": [
-   "Reservar os cuidados paliativos ao fim do tratamento oncológico atrasa o alívio de sintomas.",
-   "Restringir às últimas horas de vida é a concepção equivocada que as diretrizes buscam corrigir.",
-   "O encaminhamento é indicação clínica da equipe e não depende de solicitação formal do paciente.",
-   "Não há exigência de falha de linhas de tratamento para a integração dos cuidados paliativos.",
-   "Correta: desde o diagnóstico, integrados ao tratamento oncológico ativo e não apenas na fase final."
+   "Cuidados paliativos não esperam o fim do tratamento oncológico.",
+   "Restringir às últimas semanas perde os benefícios demonstrados.",
+   "Dor refratária não é o único critério de indicação.",
+   "Paliativo não depende de desistir do tratamento.",
+   "Câncer avançado: cuidados paliativos desde o diagnóstico, integrados ao tratamento."
   ]
  },
  {
-  "q": "Paciente em uso de imunoterapia com inibidor de checkpoint apresenta diarreia com seis evacuações ao dia e dor abdominal. Qual é a conduta?",
+  "q": "Mulher de 64 anos com melanoma metastático, em ipilimumabe com nivolumabe, tem 9 evacuações líquidas por dia acima do basal, dor abdominal e sangue nas fezes há 4 dias. Toxina de C. difficile e coproculturas negativas. Tomografia com colite difusa, sem perfuração. Recebe metilprednisolona 2 mg/kg/dia endovenosa há 72 horas, sem melhora. Tuberculose latente e hepatites negativas. Pesa 58 kg, sem febre. Hemoglobina de 11,2 g/dL e albumina de 3,0 g/dL. Qual é a conduta mais adequada?",
   "alts": [
-   "Manter a imunoterapia e prescrever apenas loperamida em dose plena para o controle das evacuações agora.",
-   "Suspender a imunoterapia e iniciar corticoide sistêmico, avaliando sempre a exclusão de causa infecciosa.",
-   "Iniciar antibiótico de amplo espectro isolado como tratamento definitivo do quadro diarreico descrito.",
-   "Aumentar a dose da imunoterapia para acelerar a resposta antitumoral apesar do evento adverso agora já.",
-   "Prescrever apenas hidratação oral domiciliar sem qualquer suspensão do tratamento imunoterápico agora."
+   "Manter corticoide e reintroduzir a imunoterapia",
+   "Loperamida em dose alta",
+   "Infliximabe ou vedolizumabe",
+   "Colectomia imediata sem outra tentativa",
+   "Aumentar metilprednisolona para 10 mg/kg"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "onco",
   "cenario": "enf",
   "comp": "urg",
-  "nivel": "r3",
-  "base": "ASCO Guideline on management of immune-related adverse events, atualização 2024; ESMO Clinical Practice Guidelines, 2022",
-  "coment": "A colite imunomediada é evento adverso frequente e potencialmente grave dos inibidores de checkpoint. Com seis ou mais evacuações acima do basal, o grau é 3 ou superior: suspende-se a imunoterapia e inicia-se corticoide sistêmico em dose de 1 a 2 mg/kg de metilprednisolona equivalente, após afastar causa infecciosa, incluindo Clostridioides difficile. Sem resposta em setenta e duas horas, indica-se infliximabe ou vedolizumabe.",
+  "nivel": "tit",
+  "base": "ASCO Guideline Update: Management of Immune-Related Adverse Events in Patients Treated With Immune Checkpoint Inhibitor Therapy, 2021; ESMO Clinical Practice Guideline: Management of toxicities from immunotherapy, 2022",
+  "coment": "Colite imunomediada grau 3 (7 ou mais evacuações acima do basal, dor, sangue) exige suspender a imunoterapia e iniciar metilprednisolona 1 a 2 mg/kg/dia. Sem resposta em 48 a 72 horas, a ASCO (2021) e a ESMO recomendam imunossupressão adicional com infliximabe (5 mg/kg) ou vedolizumabe, após excluir infecção. A combinação anti-CTLA-4 com anti-PD-1 tem as maiores taxas de colite grave. Loperamida pode mascarar a piora e precipitar megacólon. Cirurgia fica para perfuração ou falha.",
   "porAlt": [
-   "Manter a imunoterapia com colite grave arrisca perfuração intestinal e desfecho potencialmente fatal.",
-   "Correta: suspender a imunoterapia e iniciar corticoide sistêmico, após excluir causa infecciosa.",
-   "O antibiótico isolado não trata a colite imunomediada, cujo mecanismo é inflamatório autoimune.",
-   "Aumentar a dose diante de evento adverso grave agrava a toxicidade sem qualquer justificativa.",
-   "Hidratação isolada sem suspender o fármaco permite a progressão da colite imunomediada grave."
+   "Reintroduzir imunoterapia com colite grau 3 ativa é perigoso.",
+   "Antidiarreico pode mascarar piora e causar megacólon.",
+   "Colite imunomediada grau 3 refratária ao corticoide: infliximabe ou vedolizumabe.",
+   "Cirurgia é para perfuração ou falha da terapia clínica.",
+   "Dose maior de corticoide não substitui imunossupressão adicional."
   ]
  },
  {
@@ -20928,123 +20928,123 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com câncer de mama em tratamento hormonal adjuvante pergunta sobre saúde óssea. Qual é a conduta?",
+  "q": "Mulher de 61 anos, na pós-menopausa, com câncer de mama luminal A operado, vai iniciar letrozol adjuvante por 5 anos. Densitometria de base: escore T de −2,1 no colo femoral e −1,8 na coluna. Sem fratura prévia. Índice de massa corporal de 21 kg/m², tabagista, mãe com fratura de quadril. Vitamina D de 24 ng/mL, cálcio e creatinina normais. Saúde dentária em dia. Qual é a conduta mais adequada para a saúde óssea?",
   "alts": [
-   "Não realizar qualquer avaliação óssea, pois o tratamento hormonal não afeta a densidade mineral do osso agora.",
-   "Suspender o tratamento hormonal adjuvante em todas as pacientes por causa do risco de perda óssea associada agora.",
-   "Prescrever apenas exercício aeróbico leve como única medida de proteção óssea durante o tratamento hormonal agora.",
-   "Avaliar densidade mineral óssea e repor cálcio e vitamina D, considerando sempre antirreabsortivo conforme o risco.",
-   "Iniciar corticoide sistêmico contínuo como estratégia de proteção óssea durante a hormonioterapia adjuvante agora."
+   "Vitamina D, cálcio e zoledronato ou denosumabe",
+   "Apenas repetir densitometria ao final dos 5 anos",
+   "Trocar letrozol por tamoxifeno para evitar perda óssea",
+   "Teriparatida durante todo o tratamento",
+   "Suspender o letrozol pelo risco ósseo"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "ASCO Clinical Practice Guideline on management of osteoporosis in survivors of adult cancers, revisão 2023; NCCN Breast Cancer, 2024",
-  "coment": "Inibidores de aromatase reduzem drasticamente o estrogênio circulante e aceleram a perda óssea, aumentando o risco de fratura, enquanto o tamoxifeno tem efeito protetor no osso da mulher pós-menopausa. A conduta inclui densitometria basal e seriada, reposição adequada de cálcio e vitamina D, exercício com carga e uso de bisfosfonato ou denosumabe conforme o risco de fratura, com benefício adicional de redução de recorrência óssea em alguns cenários.",
+  "base": "ASCO Guideline: Management of Osteoporosis in Survivors of Adult Cancers With Nonmetastatic Disease, 2019; Gnant et al., ABCSG-18, Lancet, 2015",
+  "coment": "Inibidores de aromatase aceleram a perda óssea e aumentam fraturas. A ASCO (2022) e o consenso europeu recomendam antirreabsortivo para mulheres em inibidor de aromatase com escore T abaixo de −2,0 ou com 2 ou mais fatores de risco (idade acima de 65, tabagismo, índice de massa baixo, história familiar de fratura de quadril, corticoide). Ácido zoledrônico a cada 6 meses ou denosumabe 60 mg a cada 6 meses (ABCSG-18 reduziu fraturas); bisfosfonato adjuvante também reduz recidiva óssea na pós-menopausa. Repor vitamina D e cálcio e revisar a saúde dentária.",
   "porAlt": [
-   "Os inibidores de aromatase aceleram a perda óssea e aumentam o risco de fratura na paciente.",
-   "Suspender a hormonioterapia retira benefício oncológico central por um risco que é manejável.",
-   "O exercício é adjuvante importante, mas não substitui a avaliação e o tratamento farmacológico.",
-   "Correta: avaliar densidade óssea, repor cálcio e vitamina D e indicar antirreabsortivo conforme o risco.",
-   "O corticoide causa perda óssea e agravaria exatamente o problema que se busca prevenir."
+   "Inibidor de aromatase com escore T abaixo de −2,0: vitamina D, cálcio e antirreabsortivo.",
+   "Escore T de −2,1 e fatores de risco não permitem esperar 5 anos.",
+   "Tamoxifeno tem menos benefício oncológico na pós-menopausa.",
+   "Teriparatida é contraindicada com risco de metástase óssea e radioterapia.",
+   "O letrozol reduz recidiva e deve ser mantido."
   ]
  },
  {
-  "q": "Paciente com câncer em quimioterapia pergunta sobre vacinação contra influenza. Qual é a orientação?",
+  "q": "Mulher de 48 anos com câncer de mama inicia quimioterapia com doxorrubicina e ciclofosfamida a cada 21 dias em abril, na campanha de influenza. Não tomou a vacina deste ano. Mora com o marido e uma filha de 8 meses. Nunca teve alergia a vacinas ou Guillain-Barré. Sem febre. Pergunta se pode vacinar e se a família deve vacinar. Pesa 64 kg e trabalha em escola. O primeiro ciclo está marcado para daqui a 10 dias. Qual é a orientação mais adequada?",
   "alts": [
-   "Não vacinar, pois pacientes em quimioterapia não podem receber qualquer tipo de vacina durante o tratamento.",
-   "Vacinar apenas com vacina de vírus vivo atenuado, que confere resposta imune superior nesse contexto agora.",
-   "Vacinar apenas após dois anos do término da quimioterapia em todos os pacientes oncológicos tratados agora.",
-   "Vacinar imediatamente após cada infusão de quimioterapia para aproveitar o pico de imunossupressão agora.",
-   "Vacinar com vacina inativada, preferindo sempre o momento de melhor recuperação hematológica entre os ciclos."
+   "Contraindicar vacinas durante toda a quimioterapia",
+   "Vacina de vírus vivo atenuado nasal",
+   "Vacinar só após o fim do tratamento",
+   "Vacina inativada entre ciclos e nos contactantes",
+   "Vacinar apenas a filha, não a paciente"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "IDSA Clinical Practice Guideline for Vaccination of the Immunocompromised Host, revisão 2023; Ministério da Saúde. CRIE, 2023",
-  "coment": "Pacientes em quimioterapia têm risco aumentado de complicações por influenza e devem ser vacinados com vacina inativada, que é segura em imunossuprimidos. Vacinas de vírus vivo atenuado são contraindicadas. A resposta imune é melhor quando a vacina é aplicada em momento de recuperação hematológica, tipicamente antes do próximo ciclo, e recomenda-se também vacinar os contatos domiciliares, estratégia conhecida como proteção por cocoon.",
+  "base": "IDSA Clinical Practice Guideline for Vaccination of the Immunocompromised Host, 2013; SBIm, Calendário de Vacinação de Pacientes Especiais, 2024/2025",
+  "coment": "Pacientes em quimioterapia devem receber vacina inativada contra influenza anualmente. A IDSA (2013) e a ASCO sugerem aplicá-la idealmente pelo menos 2 semanas antes do início ou entre ciclos, afastada do nadir, embora a resposta possa ser menor. Vacinas de vírus vivo são contraindicadas no imunossuprimido. Contactantes domiciliares devem ser vacinados (a filha a partir de 6 meses), o que protege a paciente. Evitar vacinar deixa sem proteção uma paciente de alto risco de complicações.",
   "porAlt": [
-   "Vacinas inativadas são seguras e indicadas em pacientes imunossuprimidos por quimioterapia.",
-   "Vacinas de vírus vivo atenuado são contraindicadas em pacientes imunossuprimidos pelo tratamento.",
-   "Aguardar dois anos deixa o paciente desprotegido justamente no período de maior vulnerabilidade.",
-   "Aplicar no pico de imunossupressão reduz a resposta imune e o benefício obtido com a vacina.",
-   "Correta: vacina inativada, aplicada preferencialmente em momento de melhor recuperação hematológica."
+   "Vacinas inativadas são indicadas durante a quimioterapia.",
+   "Vacina de vírus vivo é contraindicada na imunossupressão.",
+   "Esperar o fim deixa a paciente sem proteção na temporada.",
+   "Quimioterapia na campanha: vacina inativada entre ciclos e vacinação dos contactantes.",
+   "A paciente é a de maior risco e deve ser vacinada."
   ]
  },
  {
-  "q": "Paciente com câncer avançado e delirium hiperativo na fase final de vida. Qual é a conduta?",
+  "q": "Homem de 72 anos com câncer de pâncreas em fase final, prognóstico de dias, está em casa com equipe de cuidados paliativos. Tem delirium hiperativo com agitação intensa e sofrimento evidente há 24 horas. Causas reversíveis tratáveis foram abordadas (retenção urinária, dor, opioide trocado), e haloperidol até 5 mg/dia não controlou. A família e o paciente, antes, disseram que a prioridade era conforto. Está com hipodermóclise e cateter vesical. Pesa 55 kg. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar sedação profunda contínua imediatamente em todos os pacientes com delirium hiperativo na fase final agora.",
-   "Prescrever benzodiazepínico isolado em dose alta como primeira escolha para o delirium hiperativo descrito agora.",
-   "Manter contenção física prolongada como principal medida de manejo do delirium hiperativo no fim da vida agora.",
-   "Buscar causas reversíveis e usar antipsicótico se necessário, mantendo sempre medidas ambientais e apoio à família.",
-   "Não realizar qualquer intervenção, pois o delirium na fase final de vida nunca causa sofrimento ao paciente agora."
+   "Contenção mecânica contínua",
+   "Sedação paliativa proporcional com midazolam",
+   "Transferir para UTI e intubar",
+   "Suspender todos os fármacos e observar",
+   "Aumentar haloperidol para 30 mg/dia"
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "onco",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESMO Clinical Practice Guidelines on delirium in adult cancer patients, revisão 2023; ANCP. Manual de Cuidados Paliativos, 2021",
-  "coment": "O delirium no fim da vida é frequente e angustiante para o paciente e a família. A abordagem começa por buscar causas potencialmente reversíveis compatíveis com os objetivos de cuidado (fármacos, retenção urinária, constipação, dor, hipercalcemia, infecção) e aplicar medidas ambientais e de reorientação, com apoio e explicação à família. Antipsicótico em dose baixa é usado quando há sofrimento ou risco, e a sedação paliativa fica para o delirium refratário.",
+  "base": "EAPC recommended framework for the use of sedation in palliative care, 2009; Academia Nacional de Cuidados Paliativos, Manual de Cuidados Paliativos, 2021",
+  "coment": "Delirium refratário com sofrimento intenso nos últimos dias de vida, após abordar causas reversíveis e falhar o antipsicótico, é uma das principais indicações de sedação paliativa: redução intencional e proporcional do nível de consciência para aliviar sintoma refratário, com consentimento. O midazolam subcutâneo ou endovenoso, titulado, é o fármaco de escolha, podendo associar levomepromazina ou clorpromazina. Não abrevia a vida quando proporcional (EAPC 2009) e é amparada no Brasil pela Resolução CFM nº 1.805/2006.",
   "porAlt": [
-   "A sedação contínua se reserva ao delirium verdadeiramente refratário às medidas anteriores.",
-   "O benzodiazepínico isolado pode agravar o delirium hiperativo, exceto na abstinência alcoólica.",
-   "A contenção física prolongada aumenta agitação e lesões, sendo medida de último recurso.",
-   "Correta: buscar causas reversíveis e usar antipsicótico se necessário, com medidas ambientais e apoio familiar.",
-   "O delirium causa sofrimento intenso ao paciente e à família e sempre exige abordagem ativa."
+   "Contenção aumenta agitação e sofrimento.",
+   "Delirium refratário nos últimos dias: sedação paliativa proporcional com midazolam.",
+   "Medidas invasivas contrariam o plano de conforto.",
+   "Suspender tudo deixa o sofrimento sem controle.",
+   "Doses muito altas de haloperidol aumentam efeitos extrapiramidais sem benefício."
   ]
  },
  {
-  "q": "Paciente com carcinoma hepatocelular único de 3 cm em fígado cirrótico com função preservada. Qual é a conduta?",
+  "q": "Homem de 61 anos com cirrose por hepatite C tratada tem nódulo hepático único de 3 cm com hiperrealce arterial e washout na ressonância (LI-RADS 5). Child-Pugh A5, bilirrubina de 0,9 mg/dL, plaquetas de 160 mil/mm³, sem varizes esofágicas e gradiente de pressão portal abaixo de 10 mmHg. ECOG 0, sem invasão vascular ou metástases. Pesa 80 kg, não bebe e está na lista de espera de transplante há 1 mês. Alfafetoproteína de 45 ng/mL. Qual é a conduta mais adequada?",
   "alts": [
-   "Indicar apenas cuidados paliativos exclusivos em todos os pacientes com carcinoma hepatocelular diagnosticado neste caso já.",
-   "Iniciar quimioterapia sistêmica convencional como tratamento de primeira escolha para o nódulo único descrito neste caso.",
-   "Aguardar o crescimento do nódulo além de cinco centímetros antes de qualquer intervenção terapêutica indicada neste caso.",
-   "Prescrever apenas hepatoprotetor de venda livre como tratamento do carcinoma hepatocelular diagnosticado nesse contexto já.",
-   "Avaliar tratamento com intenção curativa por equipe multidisciplinar, considerando sempre ressecção, ablação ou transplante."
+   "Biópsia obrigatória antes de tratar",
+   "Sorafenibe oral contínuo",
+   "Apenas seguimento com ultrassonografia",
+   "Quimioembolização paliativa como primeira escolha",
+   "Ressecção ou ablação com intenção curativa"
   ],
   "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "AASLD Practice Guidance on hepatocellular carcinoma, 2023; EASL Clinical Practice Guidelines, 2025; critérios de Milão",
-  "coment": "O carcinoma hepatocelular em estágio inicial (nódulo único até cinco centímetros, ou até três nódulos de até três centímetros, com função hepática preservada e bom estado funcional) é potencialmente curável. As opções são ressecção, ablação percutânea e transplante hepático, este indicado dentro dos critérios de Milão e que trata simultaneamente o tumor e a cirrose. A decisão é multidisciplinar e considera função hepática, hipertensão portal e comorbidades.",
+  "base": "BCLC strategy for prognosis prediction and treatment recommendation: The 2022 update, Journal of Hepatology, 2022; AASLD Practice Guidance on HCC, 2023",
+  "coment": "Em cirrose, nódulo acima de 1 cm com hiperrealce arterial e washout (LI-RADS 5) confirma carcinoma hepatocelular sem biópsia. Tumor único de até 5 cm (BCLC 0 ou A), com função preservada, ECOG 0 e sem hipertensão portal clinicamente significativa, é candidato a tratamento curativo: ressecção cirúrgica ou ablação (radiofrequência ou micro-ondas, especialmente em lesões até 3 cm), com transplante como opção pelos critérios de Milão. Quimioembolização é para estádio intermediário, e terapia sistêmica para avançado.",
   "porAlt": [
-   "O estágio descrito é potencialmente curável e não corresponde a indicação de paliação exclusiva.",
-   "A quimioterapia convencional tem eficácia limitada e não é a primeira escolha nesse estágio inicial.",
-   "Aguardar o crescimento retira o paciente do estágio curável e piora drasticamente o prognóstico.",
-   "Hepatoprotetores não têm efeito sobre o tumor e apenas atrasam o tratamento potencialmente curativo.",
-   "Correta: avaliar tratamento com intenção curativa por equipe multidisciplinar, com ressecção, ablação ou transplante."
+   "LI-RADS 5 em cirrótico dispensa biópsia.",
+   "Terapia sistêmica é para doença avançada.",
+   "Observar tumor tratável com intenção curativa é inadequado.",
+   "Quimioembolização é para estádio intermediário.",
+   "Carcinoma hepatocelular único de 3 cm, Child A, sem hipertensão portal: ressecção ou ablação curativa."
   ]
  },
  {
-  "q": "Paciente com câncer de pulmão avançado com mutação driver identificada. Qual é a implicação terapêutica?",
+  "q": "Mulher de 55 anos, nunca fumou, tem adenocarcinoma de pulmão estádio IV com metástases ósseas e 2 metástases cerebrais pequenas assintomáticas. Sequenciamento de nova geração: deleção do éxon 19 do EGFR. PD-L1 de 60%. ECOG 1. Função hepática e renal normais. QTc de 430 ms. Pesa 60 kg e não tem sintomas neurológicos. Mora com o marido. Qual é o tratamento de primeira linha mais adequado?",
   "alts": [
-   "Indicar quimioterapia convencional isolada, pois a identificação de mutação não altera a conduta terapêutica agora.",
-   "Indicar apenas radioterapia torácica isolada como tratamento definitivo do câncer de pulmão avançado descrito agora.",
-   "Indicar apenas cuidados paliativos exclusivos em todos os pacientes com mutação driver identificada no tumor agora.",
-   "Indicar cirurgia de ressecção pulmonar ampla em todos os pacientes com doença avançada e mutação driver neste caso.",
-   "Indicar terapia-alvo específica, que oferece sempre melhor resposta e tolerabilidade que a quimioterapia convencional."
+   "Pembrolizumabe isolado pelo PD-L1",
+   "Platina e pemetrexede isolados",
+   "Osimertinibe oral em primeira linha",
+   "Radioterapia de crânio total primeiro",
+   "Gefitinibe com pembrolizumabe"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "NCCN Non-Small Cell Lung Cancer, 2024; ESMO Clinical Practice Guidelines on metastatic NSCLC, 2023",
-  "coment": "A pesquisa de alterações moleculares no carcinoma pulmonar não pequenas células avançado é obrigatória, incluindo EGFR, ALK, ROS1, BRAF, KRAS G12C, MET, RET e NTRK, além da expressão de PD-L1. A presença de mutação driver indica terapia-alvo específica, com taxas de resposta e sobrevida livre de progressão superiores às da quimioterapia e melhor tolerabilidade. O tratamento é personalizado e a repetição da pesquisa na progressão pode revelar resistência tratável.",
+  "base": "NCCN Guidelines: Non-Small Cell Lung Cancer, 2025; Soria et al., FLAURA, NEJM, 2018",
+  "coment": "Adenocarcinoma com mutação ativadora de EGFR (deleção do éxon 19 ou L858R) deve ser tratado em primeira linha com inibidor de tirosina quinase, preferencialmente osimertinibe (FLAURA: maior sobrevida e boa penetração no sistema nervoso central), podendo associar quimioterapia (FLAURA2) ou amivantamabe com lazertinibe (MARIPOSA). Imunoterapia isolada tem baixa eficácia em tumores com EGFR mutado, mesmo com PD-L1 alto, e associação de imunoterapia com inibidor de EGFR causa pneumonite grave. Metástases cerebrais pequenas assintomáticas podem ser tratadas com osimertinibe e vigilância.",
   "porAlt": [
-   "A identificação de mutação driver muda completamente a conduta e o prognóstico do paciente.",
-   "A radioterapia isolada não é tratamento sistêmico e não controla a doença metastática avançada.",
-   "A doença avançada com mutação driver tem tratamento sistêmico eficaz e não é apenas paliativa.",
-   "A cirurgia não é indicada na doença avançada com disseminação já estabelecida.",
-   "Correta: terapia-alvo específica, com melhor resposta e tolerabilidade que a quimioterapia convencional."
+   "Imunoterapia isolada é pouco eficaz com EGFR mutado, mesmo com PD-L1 alto.",
+   "Platina isolada é inferior ao inibidor de EGFR.",
+   "EGFR com deleção do éxon 19: osimertinibe em primeira linha.",
+   "Metástases pequenas assintomáticas respondem ao osimertinibe, evitando radioterapia de crânio total.",
+   "Inibidor de EGFR com anti-PD-1 aumenta pneumonite grave."
   ]
  },
  {
@@ -21912,27 +21912,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com neutropenia febril de baixo risco, sem comorbidades e com boa condição clínica. Qual é a conduta possível?",
+  "q": "Mulher de 52 anos com câncer de mama triplo negativo vai iniciar quimioterapia adjuvante com doxorrubicina e ciclofosfamida em dose densa (a cada 14 dias), esquema com risco de neutropenia febril acima de 20%. Não tem neutropenia prévia, infecção ativa ou comorbidades relevantes. Hemograma normal. Pesa 66 kg. Não tem cardiopatia e a fração de ejeção é de 62%. Mora a 30 minutos do hospital. Qual é a conduta mais adequada quanto à neutropenia febril?",
   "alts": [
-   "Tratamento ambulatorial com antibiótico oral em casos selecionados, garantindo sempre retorno rápido e reavaliação programada.",
-   "Internação obrigatória em unidade de terapia intensiva para todos os pacientes com neutropenia febril atendidos neste caso.",
-   "Alta sem qualquer antibiótico em pacientes de baixo risco com neutropenia febril e boa condição clínica para este paciente.",
-   "Antifúngico oral isolado como tratamento empírico inicial em pacientes de baixo risco com neutropenia febril neste caso.",
-   "Aguardar o resultado das culturas antes de iniciar qualquer antibiótico no paciente de baixo risco descrito nesse contexto."
+   "Filgrastim ou pegfilgrastim profilático",
+   "Ciprofloxacino profilático a cada ciclo",
+   "Reduzir a dose da quimioterapia em 50%",
+   "Nenhuma medida, tratar se ocorrer febre",
+   "Transfusão profilática de granulócitos"
   ],
   "gab": 0,
   "tema": "onco",
   "cenario": "amb",
-  "comp": "tto",
+  "comp": "prev",
   "nivel": "r3",
-  "base": "ASCO/IDSA guideline on outpatient management of febrile neutropenia, 2018 com revisão 2023; escore MASCC",
-  "coment": "Pacientes com neutropenia febril classificados como de baixo risco pelo escore MASCC, sem comorbidades descompensadas, com neutropenia de curta duração prevista, boa condição clínica, suporte domiciliar adequado e acesso rápido ao serviço, podem ser tratados ambulatorialmente com antibiótico oral, tipicamente amoxicilina com clavulanato associada a ciprofloxacino. Exige-se retorno programado em vinte e quatro a quarenta e oito horas e orientação clara de sinais de alarme.",
+  "base": "ASCO Guideline Update: Recommendations for the Use of White Blood Cell Growth Factors, 2015; EORTC guidelines for G-CSF, 2010",
+  "coment": "A ASCO (2015) e a EORTC recomendam profilaxia primária com fator estimulador de colônias de granulócitos (filgrastim ou pegfilgrastim) quando o risco de neutropenia febril do esquema é de 20% ou mais, ou entre 10% e 20% com fatores de risco do paciente. Esquemas de dose densa exigem esse suporte para manter a intensidade. Reduzir dose em tratamento curativo compromete o resultado. Profilaxia com quinolona é considerada em neutropenia profunda e prolongada (como leucemias), não de rotina em tumores sólidos.",
   "porAlt": [
-   "Correta: tratamento ambulatorial com antibiótico oral em casos selecionados, com retorno rápido programado.",
-   "A terapia intensiva se reserva a instabilidade e disfunção orgânica, ausentes no baixo risco.",
-   "Neutropenia febril sempre exige antibiótico, mesmo nos pacientes classificados como de baixo risco.",
-   "O antifúngico não é terapia empírica inicial e não cobre os agentes bacterianos mais prováveis.",
-   "Aguardar culturas atrasa o antibiótico, cuja precocidade é determinante da sobrevida nessa condição."
+   "Esquema com risco de neutropenia febril acima de 20%: fator estimulador de granulócitos profilático.",
+   "Quinolona profilática não é rotina em tumores sólidos.",
+   "Reduzir dose em intenção curativa compromete o resultado.",
+   "Com risco acima de 20%, a profilaxia primária é indicada.",
+   "Transfusão de granulócitos não é profilaxia."
   ]
  },
  {
