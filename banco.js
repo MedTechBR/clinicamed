@@ -10748,7 +10748,7 @@ window.BANCO=[
    "Amarelo subestima a gravidade da dor torácica típica.",
    "Verde é pouco urgente.",
    "Vermelho é emergência com risco imediato, como via aérea comprometida ou choque, não apenas parada.",
-   "Azul é não urgente."
+   "Azul é não urgente, o que não se aplica aqui."
   ]
  },
  {
