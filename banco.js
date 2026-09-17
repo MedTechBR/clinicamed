@@ -5352,27 +5352,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 55 anos internado na enfermaria em uso de enoxaparina profilática evolui no sétimo dia com queda das plaquetas de 240.000 para 80.000 por milímetro cúbico e trombose venosa profunda no membro inferior. Qual é a conduta?",
+  "q": "Homem de 55 anos, internado para cirurgia de quadril, usa enoxaparina 40 mg/dia desde o pós-operatório. No sétimo dia, as plaquetas caem de 240 mil para 80 mil/mm³ (queda de 67%), e surge trombose venosa profunda de veia femoral. Não há outra causa aparente: sem sepse, sem novos fármacos, sem sangramento. Creatinina de 1,0 mg/dL, bilirrubinas normais. Pelo escore 4T, qual é a probabilidade clínica e a conduta mais adequada?",
   "alts": [
-   "Suspender toda heparina e iniciar anticoagulante alternativo, sem transfundir plaquetas de rotina.",
-   "Manter a enoxaparina e transfundir plaquetas para permitir a continuidade da anticoagulação dele.",
-   "Trocar a enoxaparina por heparina não fracionada, mantendo a mesma classe farmacológica agora.",
-   "Suspender a anticoagulação por completo e apenas observar, dada a plaquetopenia identificada nele.",
-   "Iniciar corticoide em dose imunossupressora como tratamento principal da queda de plaquetas dele."
+   "4T de 4; manter enoxaparina e dosar anticorpo",
+   "4T de 8; suspender heparina, usar fondaparinux",
+   "4T de 8; trocar para heparina não fracionada",
+   "4T de 6; transfundir plaquetas e iniciar varfarina",
+   "4T de 2; baixa probabilidade, manter heparina"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "hemato",
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ASH Guidelines for Management of Venous Thromboembolism: Heparin-Induced Thrombocytopenia, 2018",
-  "coment": "Queda de mais de 50% das plaquetas entre o quinto e o décimo dia de exposição à heparina, associada a trombose, caracteriza trombocitopenia induzida por heparina, mecanismo imunomediado e paradoxalmente protrombótico. A conduta é suspender toda forma de heparina, incluindo flushes e cateteres impregnados, e iniciar anticoagulante alternativo, como argatroban, fondaparinux ou anticoagulante oral direto conforme a disponibilidade. Transfusão de plaquetas alimenta a trombose e está contraindicada fora do sangramento com risco de vida.",
+  "base": "American Society of Hematology Guidelines for Heparin-Induced Thrombocytopenia, 2018",
+  "coment": "No 4T: queda acima de 50% com nadir de 20 mil ou mais (2), início entre o quinto e o décimo dia (2), trombose nova (2) e nenhuma outra causa (2), total 8, alta probabilidade. Com 4T intermediário ou alto, a ASH (2018) recomenda suspender toda heparina e iniciar anticoagulante não heparínico (argatrobana, fondaparinux, bivalirudina ou anticoagulante oral direto) antes do resultado do anticorpo anti-PF4. Não se transfundem plaquetas sem sangramento, e varfarina só é iniciada com plaquetas acima de 150 mil, pelo risco de gangrena venosa.",
   "porAlt": [
-   "Correta: suspender toda heparina e iniciar anticoagulante alternativo, sem transfundir plaquetas.",
-   "Manter a heparina perpetua o mecanismo imunomediado e a transfusão de plaquetas agrava a trombose.",
-   "A heparina não fracionada pertence à mesma classe e mantém o estímulo imunológico responsável.",
-   "Suspender a anticoagulação em paciente com trombose ativa expõe a extensão e a embolia pulmonar.",
-   "Corticoide não é o tratamento e não substitui a troca imediata do anticoagulante nessa condição."
+   "O cálculo está errado, e manter heparina com suspeita alta agrava a trombose.",
+   "4T de 8: suspender toda heparina e iniciar anticoagulante não heparínico sem esperar o anticorpo.",
+   "Heparina não fracionada também desencadeia a trombocitopenia induzida por heparina.",
+   "O cálculo está errado; transfusão e varfarina precoce aumentam trombose e gangrena.",
+   "O cálculo está errado; a probabilidade é alta."
   ]
  },
  {
@@ -5784,27 +5784,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 71 anos internado na enfermaria por infecção de pele responde bem ao antibiótico, porém apresenta hemoglobina de 7,8 g/dL, estável, sem sangramento, sem dispneia e sem angina. Qual é a conduta transfusional adequada?",
+  "q": "Homem de 71 anos com doença coronariana estável (angioplastia há 4 anos, sem angina atual) está internado por celulite em perna, com boa resposta ao antibiótico. Hemoglobina caiu de 9,1 para 7,4 g/dL em 3 dias, sem sangramento visível. Pressão 128/74 mmHg, frequência cardíaca 84 bpm, sem dispneia, dor torácica ou alteração no eletrocardiograma. Troponina negativa. Ferritina de 22 ng/mL. Tem 76 kg e usa AAS e atorvastatina. Qual é a conduta transfusional mais adequada?",
   "alts": [
-   "Transfundir duas unidades de concentrado de hemácias para elevar rapidamente a hemoglobina dele.",
-   "Transfundir uma unidade sempre que a hemoglobina estiver abaixo de dez gramas por decilitro.",
-   "Prescrever eritropoetina para todos os pacientes internados que apresentem anemia normocítica.",
-   "Não transfundir e investigar a causa da anemia, reservando a transfusão para gatilho ou sintoma.",
-   "Transfundir plasma fresco congelado para corrigir a anemia identificada durante essa internação."
+   "Não transfundir, pois o limiar é 7 g/dL",
+   "Transfundir 3 concentrados para hemoglobina de 10",
+   "Transfundir apenas se a hemoglobina cair abaixo de 6",
+   "Transfundir 1 concentrado e reavaliar",
+   "Eritropoetina no lugar da transfusão"
   ],
   "gab": 3,
   "tema": "hemato",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "AABB. Red Blood Cell Transfusion: 2023 International Collaboration Clinical Practice Guidelines; Ministério da Saúde, Guia para uso de hemocomponentes, 2024",
-  "coment": "A estratégia restritiva, com gatilho abaixo de 7 g/dL no paciente estável e abaixo de 8 g/dL em doença cardiovascular prévia ou pós-operatório, é ao menos tão segura quanto a liberal e reduz exposição a hemocomponentes. Com 7,8 g/dL, sem sintoma e sem sangramento, a conduta é investigar a causa (ferro, B12, folato, perda oculta, doença renal e inflamação) e tratá-la. Quando a transfusão é indicada, transfunde-se uma unidade por vez, com reavaliação clínica e laboratorial.",
+  "nivel": "r2",
+  "base": "AABB International Guidelines: Red Blood Cell Transfusion Thresholds, JAMA, 2023",
+  "coment": "A AABB (2023) recomenda estratégia restritiva com limiar de 7 g/dL para adultos internados estáveis, mas sugere 8 g/dL para quem tem doença cardiovascular preexistente, além de 7,5 g/dL em cirurgia cardíaca e 8 g/dL em cirurgia ortopédica. Transfunde-se 1 concentrado por vez, reavaliando clínica e hemoglobina. Paralelamente, investiga-se a queda (ferritina baixa sugere perda e deficiência de ferro, com reposição após a fase aguda). Eritropoetina não tem efeito imediato.",
   "porAlt": [
-   "Prescrever duas unidades de rotina é a prática que a evidência atual mais claramente desautoriza.",
-   "O gatilho de dez gramas por decilitro corresponde à estratégia liberal, abandonada nesse cenário.",
-   "A eritropoetina tem indicações específicas e não é conduta para anemia de paciente internado.",
-   "Correta: não transfundir, investigar a causa da anemia e reservar a transfusão ao gatilho ou ao sintoma.",
-   "O plasma fresco congelado não corrige anemia: contém fatores de coagulação, e não hemácias."
+   "Com doença coronariana, o limiar sugerido é 8 g/dL.",
+   "Transfundir para alvo alto não traz benefício e aumenta riscos.",
+   "Limiar de 6 é baixo demais para coronariopata.",
+   "Doença cardiovascular preexistente e hemoglobina de 7,4: transfundir 1 concentrado e reavaliar.",
+   "Eritropoetina demora semanas e não é indicada nesse contexto."
   ]
  },
  {
@@ -5976,27 +5976,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 66 anos em terapia intensiva por sepse urinária evolui com plaquetopenia, prolongamento do tempo de protrombina, fibrinogênio baixo e produtos de degradação da fibrina elevados, além de sangramento em sítios de punção. Qual é o diagnóstico e a conduta?",
+  "q": "Mulher de 66 anos em terapia intensiva por choque séptico de foco urinário, em noradrenalina e meropeném, evolui no segundo dia com plaquetas de 38 mil/mm³ (eram 190 mil), tempo de protrombina prolongado em 5 segundos, fibrinogênio de 130 mg/dL e dímero-D muito elevado. Não há sangramento e nenhum procedimento invasivo está programado. Hemoglobina de 9,8 g/dL. Pelo escore da ISTH, qual é a interpretação e a conduta mais adequada?",
   "alts": [
-   "Coagulação intravascular disseminada: iniciar heparina plena em todos os casos, seja qual for o quadro.",
-   "Púrpura trombocitopênica trombótica: iniciar plasmaférese diária como primeira medida terapêutica.",
-   "Trombocitopenia induzida por heparina: suspender toda heparina e iniciar anticoagulante alternativo.",
-   "Hemofilia adquirida: administrar fator VIII recombinante em dose alta como tratamento principal.",
-   "Coagulação intravascular disseminada: tratar a sepse e repor hemocomponentes conforme sangramento."
+   "Escore de 3; não é CIVD, repor plasma",
+   "Escore de 6; transfundir plaquetas e plasma",
+   "Escore de 5; iniciar ácido tranexâmico",
+   "Escore de 6; heparina em dose plena",
+   "Escore de 6; tratar a sepse, sem repor"
   ],
   "gab": 4,
   "tema": "hemato",
   "cenario": "uti",
-  "comp": "dx",
+  "comp": "tto",
   "nivel": "r3",
-  "base": "ISTH guidance for diagnosis and management of disseminated intravascular coagulation, 2013; British Society for Haematology guidelines",
-  "coment": "A coagulação intravascular disseminada associada à sepse combina consumo de plaquetas e fatores com fibrinólise, produzindo plaquetopenia, alargamento dos tempos de coagulação, queda do fibrinogênio e elevação dos produtos de degradação. O tratamento essencial é controlar a doença de base; a reposição de hemocomponentes é guiada pelo sangramento ou pela necessidade de procedimento, não pelo valor laboratorial isolado. A heparina se reserva ao fenótipo predominantemente trombótico.",
+  "base": "ISTH Guidance for diagnosis and management of DIC, Journal of Thrombosis and Haemostasis, 2013; ISTH SSC Guidance on sepsis-induced coagulopathy, 2019",
+  "coment": "O escore da ISTH para CIVD franca soma plaquetas (acima de 100 mil: 0; 50 a 100 mil: 1; abaixo de 50 mil: 2), dímero-D (sem aumento 0, moderado 2, forte 3), tempo de protrombina (menos de 3 s: 0; 3 a 6 s: 1; mais de 6 s: 2) e fibrinogênio (1 se abaixo de 100 mg/dL). Aqui: 2 + 3 + 1 + 0 = 6; 5 ou mais é compatível com CIVD franca. O tratamento é o da causa. Hemocomponentes ficam para sangramento ou procedimento invasivo, e antifibrinolítico é contraindicado na CIVD da sepse, que é trombótica.",
   "porAlt": [
-   "A heparina não é indicada de forma indiscriminada e agrava o sangramento no fenótipo hemorrágico.",
-   "A púrpura trombocitopênica trombótica cursa com anemia microangiopática e fibrinogênio preservado.",
-   "Não há relação temporal com heparina nem trombose, elementos exigidos para essa outra hipótese.",
-   "A hemofilia adquirida altera apenas o tempo de tromboplastina parcial, com fibrinogênio normal.",
-   "Correta: coagulação intravascular disseminada, com tratamento da sepse e reposição guiada pelo sangramento."
+   "O cálculo está errado, e plasma sem sangramento não é indicado.",
+   "Sem sangramento, transfusão profilática não é recomendada.",
+   "O cálculo está errado; antifibrinolítico aumenta trombose na CIVD séptica.",
+   "Heparina plena com plaquetas de 38 mil aumenta sangramento sem benefício comprovado.",
+   "Escore de 6 é CIVD franca: tratar a sepse e reservar hemocomponentes para sangramento ou procedimento."
   ]
  },
  {
@@ -6264,75 +6264,75 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 68 anos apresenta lombalgia progressiva, anemia com hemoglobina de 8,9 g/dL, creatinina de 2,3 mg/dL e cálcio de 11,6 mg/dL. A eletroforese mostra pico monoclonal e a medula tem 42% de plasmócitos clonais. Considerando os critérios diagnósticos vigentes, o que o quadro caracteriza?",
+  "q": "Homem de 62 anos, assintomático, fez eletroforese por proteínas totais elevadas: pico monoclonal IgG kappa de 2,4 g/dL. Hemoglobina de 13,6 g/dL, creatinina de 0,9 mg/dL, cálcio de 9,2 mg/dL. Tomografia de baixa dose de corpo inteiro sem lesões líticas. Mielograma com 64% de plasmócitos clonais. Relação de cadeias leves livres kappa/lambda de 38. Ressonância sem lesões focais. Não tem dor óssea, infecções de repetição ou perda de peso. Pelos critérios do IMWG, qual é o diagnóstico?",
   "alts": [
-   "Mieloma múltiplo, pois há plasmocitose clonal com lesão de órgão-alvo atribuível à doença.",
-   "Gamopatia monoclonal de significado indeterminado, que dispensa tratamento e só exige controle.",
-   "Mieloma indolente, condição sem lesão de órgão-alvo e que também não requer tratamento imediato.",
-   "Amiloidose de cadeia leve, hipótese que a plasmocitose medular elevada torna praticamente certa.",
-   "Metástase óssea de tumor sólido oculto, explicando de forma mais simples a hipercalcemia do caso."
+   "Mieloma múltiplo, com indicação de tratar",
+   "Gamopatia monoclonal de significado indeterminado",
+   "Mieloma latente, apenas observação",
+   "Plasmocitoma ósseo solitário",
+   "Amiloidose AL com acometimento renal"
   ],
   "gab": 0,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "tit",
-  "base": "International Myeloma Working Group, 2014. Critérios diagnósticos revisados (CRAB e critérios SLiM)",
-  "coment": "O diagnóstico exige plasmócitos clonais na medula em 10% ou mais, ou plasmocitoma comprovado, somados a pelo menos um evento definidor. Os eventos clássicos formam o acrônimo CRAB: hipercalcemia, insuficiência renal, anemia e lesão óssea. Os critérios revisados acrescentaram os eventos SLiM, que definem mieloma mesmo sem lesão de órgão: plasmocitose medular de 60% ou mais, relação de cadeias leves livres envolvida sobre não envolvida de 100 ou mais, e mais de uma lesão focal à ressonância. Este paciente reúne plasmocitose de 42% com hipercalcemia, insuficiência renal e anemia, três eventos CRAB.",
+  "base": "Rajkumar et al., International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma, Lancet Oncology, 2014",
+  "coment": "Pelo IMWG (2014), mieloma múltiplo exige plasmócitos clonais de 10% ou mais (ou plasmocitoma) e um evento definidor: lesão de órgão-alvo (CRAB) ou biomarcador de malignidade (SLiM): plasmócitos clonais de 60% ou mais, relação de cadeias leves livres envolvida/não envolvida de 100 ou mais (com cadeia envolvida de 100 mg/L ou mais) ou mais de 1 lesão focal na ressonância. Com 64% de plasmócitos, mesmo sem CRAB, o diagnóstico é mieloma que deve ser tratado, pois o risco de progressão em 2 anos passa de 80%.",
   "porAlt": [
-   "Correta: plasmocitose clonal acima de 10% com hipercalcemia, insuficiência renal e anemia fecha o diagnóstico de mieloma múltiplo.",
-   "A gamopatia de significado indeterminado exige plasmocitose abaixo de 10% e ausência de lesão de órgão, o oposto do quadro.",
-   "O mieloma indolente pressupõe justamente a ausência de lesão de órgão-alvo, que aqui está presente em três eixos distintos.",
-   "A amiloidose exige comprovação de depósito amiloide em tecido, e a plasmocitose medular sozinha não estabelece esse diagnóstico.",
-   "Metástase de tumor sólido não explica o pico monoclonal nem a plasmocitose clonal encontrada no aspirado de medula óssea."
+   "Plasmócitos clonais de 60% ou mais são biomarcador SLiM: mieloma múltiplo com indicação de tratamento mesmo sem CRAB.",
+   "Plasmócitos de 10% ou mais excluem gamopatia de significado indeterminado.",
+   "Latente não tem evento definidor, e 64% de plasmócitos já é um.",
+   "Plasmocitoma solitário não tem infiltração medular extensa.",
+   "Não há dados de depósito amiloide."
   ]
  },
  {
-  "q": "Homem de 61 anos, assintomático, tem hemoglobina de 10,2 g/dL, volume corpuscular médio de 72 fL e ferritina de 8 ng/mL em exames de rotina. Não usa anti-inflamatório e não tem sangramento aparente. Além de repor ferro, qual é a conduta obrigatória nesse caso?",
+  "q": "Homem de 61 anos, assintomático, tem hemoglobina de 10,2 g/dL, VCM de 72 fL e ferritina de 8 ng/mL. Não usa anti-inflamatório ou anticoagulante, sem sangramento visível. Endoscopia digestiva alta normal, com biópsias duodenais sem doença celíaca e pesquisa de Helicobacter negativa. Colonoscopia completa com bom preparo, normal. Urina tipo 1 sem hematúria. Não fuma, não bebe e não tem história familiar de câncer colorretal. Qual é a conduta mais adequada?",
   "alts": [
-   "Repor ferro por três meses e repetir apenas o hemograma, sem qualquer investigação adicional.",
-   "Solicitar mielograma como primeiro exame, para excluir doença primária da medula óssea dele.",
-   "Transfundir concentrado de hemácias antes de qualquer investigação diagnóstica desse paciente.",
-   "Repetir a ferritina em um ano, já que ele está assintomático e não relata perda de sangue visível.",
-   "Investigar todo o trato gastrointestinal com endoscopia alta e colonoscopia para achar a perda."
+   "Cápsula endoscópica imediata antes de tratar",
+   "Tomografia de abdome com contraste",
+   "Repor ferro e reservar cápsula para recorrência",
+   "Repetir endoscopia e colonoscopia em 1 mês",
+   "Mielograma para excluir mielodisplasia"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "hemato",
   "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "British Society of Gastroenterology, 2021, guidelines for the management of iron deficiency anaemia in adults",
-  "coment": "Anemia ferropriva em homem adulto ou em mulher após a menopausa é perda sanguínea gastrointestinal até prova em contrário, e a investigação com endoscopia alta e colonoscopia é obrigatória mesmo sem sangramento visível. O objetivo é encontrar câncer colorretal ou gástrico em fase tratável. Repor ferro sem investigar corrige o número e mascara a doença, um dos erros mais custosos da clínica ambulatorial. Ferritina abaixo de 30 ng/mL já confirma deficiência de ferro; abaixo de 15 é diagnóstica com certeza ainda maior. Mielograma não é exame de primeira linha nesse contexto.",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "AGA Clinical Practice Guidelines on the Gastrointestinal Evaluation of Iron Deficiency Anemia, 2020; BSG Guidelines for the management of iron deficiency anaemia in adults, 2021",
+  "coment": "Homens e mulheres na pós-menopausa com deficiência de ferro devem fazer endoscopia alta e colonoscopia, com biópsias duodenais ou sorologia para doença celíaca (AGA 2020, BSG 2021). Com investigação bidirecional negativa, a conduta é repor ferro e acompanhar; investigação do intestino delgado com cápsula é reservada para anemia que não responde ou recorre, ou para sangramento visível. Tomografia e mielograma não têm papel com deficiência de ferro documentada.",
   "porAlt": [
-   "Repor ferro e acompanhar apenas o hemograma normaliza o exame e mascara a neoplasia que poderia ser achada a tempo.",
-   "O mielograma é invasivo e desnecessário aqui: a ferritina baixa já define a causa da anemia como carência de ferro.",
-   "Não há indicação de transfusão em paciente assintomático com esse nível de hemoglobina e anemia de instalação lenta.",
-   "Adiar a investigação por um ano em quem tem ferropenia franca é justamente o atraso que muda o estágio de um tumor.",
-   "Correta: em homem com anemia ferropriva, a investigação endoscópica alta e baixa é obrigatória para localizar a perda oculta."
+   "Com endoscopias normais e sem sangramento, cápsula fica para falha ou recorrência.",
+   "Tomografia tem baixo rendimento para sangramento oculto.",
+   "Investigação bidirecional negativa: repor ferro e reservar cápsula para recorrência ou falta de resposta.",
+   "Repetir exames de boa qualidade tão cedo não é indicado.",
+   "Ferritina de 8 confirma deficiência de ferro."
   ]
  },
  {
-  "q": "Mulher de 24 anos com anemia falciforme chega à emergência com dor intensa em membros inferiores e dorso, típica de suas crises, com escala de dor 9 em 10. Está afebril, saturando 97% em ar ambiente e hemodinamicamente estável. Qual é a conduta inicial correta para a dor?",
+  "q": "Mulher de 24 anos com anemia falciforme chega à emergência com dor intensa em membros inferiores e dorso, típica de suas crises, escala de dor 9 em 10, há 6 horas, sem melhora com dipirona e paracetamol em casa. Temperatura 37,2 °C, saturação 97%, sem dor torácica ou dispneia, radiografia normal. Hemoglobina de 7,8 g/dL (basal 8,0). Usa hidroxiureia. Não tem alergia a opioides. Qual é a conduta mais adequada?",
   "alts": [
-   "Hidratação venosa vigorosa isolada, medida que resolve a crise dolorosa sem uso de analgésico.",
-   "Meperidina como opioide de escolha nas crises, por ter o melhor perfil de segurança da classe.",
-   "Analgésico simples por via oral e observação por seis horas antes de considerar outra medicação.",
-   "Analgesia com opioide por via parenteral em até uma hora da chegada, com reavaliação frequente.",
-   "Transfusão simples imediata de concentrado de hemácias para toda crise vaso-oclusiva dolorosa."
+   "Aguardar exames antes de analgesia",
+   "Transfusão de hemácias imediata",
+   "Soro fisiológico 4 litros em 2 horas",
+   "Opioide parenteral em até 1 hora",
+   "Meperidina 100 mg intramuscular"
   ],
   "gab": 3,
   "tema": "hemato",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Society of Hematology, 2020, guidelines for sickle cell disease: management of acute and chronic pain",
-  "coment": "A crise vaso-oclusiva é emergência de dor: a diretriz recomenda analgesia com opioide parenteral rapidamente, idealmente na primeira hora da chegada, com reavaliação a cada 15 a 30 minutos e titulação até o controle. O subtratamento da dor nesses pacientes é bem documentado e frequentemente atribuído a preconceito e a suspeita infundada de busca por droga. A hidratação corrige desidratação quando presente, mas não substitui analgesia, e a hiper-hidratação arrisca síndrome torácica aguda. A meperidina deve ser evitada pelo acúmulo de normeperidina, que é neurotóxica e reduz o limiar convulsivo. Transfusão não é indicada de rotina para dor não complicada.",
+  "base": "American Society of Hematology Guidelines for Sickle Cell Disease: Management of Acute and Chronic Pain, 2020",
+  "coment": "A ASH (2020) recomenda, na crise vaso-oclusiva, opioide parenteral em até 1 hora da chegada (idealmente 30 minutos), com reavaliação a cada 30 a 60 minutos e ajuste, preferindo analgesia controlada pelo paciente quando disponível. Associa-se AINE se não houver contraindicação. Hidratação é para quem não consegue beber, sem excessos (risco de síndrome torácica aguda). Transfusão não trata a crise sem queda importante de hemoglobina. Meperidina é evitada pelo metabólito convulsivante.",
   "porAlt": [
-   "A hidratação é adjuvante, não analgésico; em excesso ainda favorece congestão e síndrome torácica aguda nesses pacientes.",
-   "A meperidina é justamente a que se deve evitar: seu metabólito neurotóxico acumula e reduz o limiar convulsivo.",
-   "Analgésico simples e seis horas de espera em dor 9 de 10 configura subtratamento, um problema bem documentado nessa população.",
-   "Correta: opioide parenteral na primeira hora, com reavaliação frequente e titulação, é o padrão para a crise vaso-oclusiva.",
-   "Transfusão não está indicada de rotina na crise dolorosa não complicada, e expõe a paciente a aloimunização evitável."
+   "Esperar exames atrasa a analgesia, que deve ser dada em até 1 hora.",
+   "Hemoglobina no basal não indica transfusão.",
+   "Hiperidratação aumenta o risco de síndrome torácica aguda.",
+   "Crise vaso-oclusiva: opioide parenteral em até 1 hora, reavaliando a cada 30 a 60 minutos.",
+   "Meperidina tem metabólito neurotóxico e é evitada."
   ]
  },
  {
@@ -7536,27 +7536,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 72 anos tem fadiga e linfocitose persistente de 42.000/mm³, com linfócitos de aparência madura no esfregaço. A imunofenotipagem mostra população monoclonal de linfócitos B com CD5 e CD23 positivos. Não há anemia, plaquetopenia, sintomas B nem adenomegalia volumosa. Qual é a conduta?",
+  "q": "Homem de 72 anos com leucemia linfocítica crônica há 4 anos, em observação, tem agora hemoglobina de 9,1 g/dL (era 12,5 há 6 meses), plaquetas de 88 mil/mm³, linfócitos de 140 mil/mm³ e linfonodos cervicais de 5 cm. Coombs direto negativo, reticulócitos baixos. Hibridização mostra deleção 17p, com mutação de TP53. Clearance de 55 mL/min, sem cardiopatia. Tem fadiga que limita as caminhadas, sem febre ou perda de peso. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar quimioterapia imediata, indicada em toda leucemia linfocítica crônica no momento do diagnóstico.",
-   "Realizar transplante de medula óssea de imediato, único tratamento capaz de curar a doença nessa idade.",
-   "Prescrever corticoide contínuo em dose alta, capaz de normalizar a contagem de linfócitos do paciente.",
-   "Solicitar apenas mielograma seriado a cada mês, adiando qualquer decisão terapêutica por dois anos.",
-   "Acompanhamento sem tratamento, pois a doença em estágio inicial assintomático não exige terapia agora."
+   "Manter observação até sintomas B",
+   "Fludarabina, ciclofosfamida e rituximabe",
+   "Clorambucila oral isolada",
+   "Prednisona em dose alta contínua",
+   "Inibidor de BTK ou venetoclax-obinutuzumabe"
   ],
   "gab": 4,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "International Workshop on Chronic Lymphocytic Leukemia, 2018, critérios diagnósticos e de indicação de tratamento",
-  "coment": "A leucemia linfocítica crônica em estágio inicial e assintomática não se beneficia de tratamento precoce: os ensaios mostraram que tratar antes de haver indicação não prolonga a sobrevida e expõe a toxicidade. A conduta é vigilância ativa, com consultas e hemogramas periódicos. O tratamento é indicado diante de doença ativa: anemia ou plaquetopenia por infiltração medular, sintomas B, adenomegalia volumosa ou sintomática, esplenomegalia importante, ou duplicação rápida da contagem de linfócitos. A linfocitose isolada, por mais alta que seja, não é critério de tratamento.",
+  "base": "iwCLL Guidelines for diagnosis, indications for treatment, response assessment, and supportive management of CLL, Blood, 2018; NCCN Guidelines: CLL/SLL, 2025",
+  "coment": "O iwCLL (2018) indica tratamento na doença ativa: anemia progressiva abaixo de 10 g/dL ou plaquetas abaixo de 100 mil por infiltração medular, linfonodos de 10 cm ou mais ou progressivos, esplenomegalia volumosa, linfocitose que dobra em menos de 6 meses ou sintomas constitucionais. Com deleção 17p ou mutação de TP53, quimioimunoterapia tem resposta ruim e curta, e a escolha é terapia-alvo: inibidor de BTK contínuo (ibrutinibe, acalabrutinibe, zanubrutinibe) ou venetoclax com obinutuzumabe.",
   "porAlt": [
-   "Tratar todo paciente ao diagnóstico expõe à toxicidade sem ganho de sobrevida demonstrado em ensaio clínico.",
-   "O transplante tem indicações restritas na doença refratária e de alto risco, e não como conduta inicial nessa idade.",
-   "O corticoide contínuo não é tratamento da doença e traria imunossupressão adicional a um paciente já suscetível.",
-   "Mielograma mensal é invasivo e desnecessário: o acompanhamento se faz por clínica e hemograma periódicos.",
-   "Correta: em estágio inicial e assintomático, a conduta é vigilância ativa. Tratar cedo não prolonga a sobrevida."
+   "Citopenias progressivas por infiltração já indicam tratamento.",
+   "Quimioimunoterapia tem resultado ruim com deleção 17p.",
+   "Clorambucila é inferior e ineficaz com TP53 mutado.",
+   "Corticoide isolado não trata a leucemia.",
+   "Doença ativa com TP53 mutado: terapia-alvo com inibidor de BTK ou venetoclax com obinutuzumabe."
   ]
  },
  {
@@ -10848,243 +10848,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 34 anos com fadiga. Hemoglobina 9,2 g/dL, VCM 68 fL, RDW 18%, ferritina 6 ng/mL. Qual é a conduta inicial?",
+  "q": "Mulher de 34 anos com fluxo menstrual intenso tem fadiga. Hemoglobina de 9,2 g/dL, VCM de 68 fL, RDW de 18%, ferritina de 6 ng/mL. Sem sintomas digestivos, sorologia para doença celíaca negativa. Usou sulfato ferroso 3 vezes ao dia por 2 semanas em outro serviço e parou por dor epigástrica e náuseas. Ginecologia avaliando o sangramento. Não está grávida. Qual é o esquema de reposição mais adequado?",
   "alts": [
-   "Repor ferro por via oral e investigar sempre a fonte de perda no trato digestivo ou ginecológica.",
-   "Transfundir dois concentrados de hemácias antes de qualquer investigação da causa da anemia agora.",
-   "Iniciar eritropoetina humana recombinante, já que corrige a anemia sem necessidade de repor ferro.",
-   "Prescrever vitamina B12 por via intramuscular, já que trata a microcitose e normaliza o volume agora.",
-   "Solicitar biópsia de medula óssea antes de qualquer reposição, pois a ferritina é pouco confiável."
+   "Ferro oral 1 vez ao dia ou dias alternados",
+   "Ferro endovenoso como primeira escolha",
+   "Sulfato ferroso 3 vezes ao dia com antiácido",
+   "Transfusão de 2 concentrados",
+   "Ferro oral por 1 mês até normalizar a hemoglobina"
   ],
   "gab": 0,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde: Manual de Anemia Ferropriva, 2022; ASH/AGA guidelines on iron deficiency anemia, 2020",
-  "coment": "Ferritina abaixo de 30 ng/mL confirma deficiência de ferro, e valor abaixo de 15 ng/mL é praticamente diagnóstico. O tratamento tem duas metades igualmente obrigatórias: repor ferro e achar a causa da perda. Em mulher em idade fértil, menorragia é a causa mais comum, mas perda digestiva precisa ser considerada, sobretudo se houver sintomas ou anemia desproporcional. A reposição oral em dias alternados aumenta a absorção ao reduzir o pico de hepcidina.",
+  "base": "BSG Guidelines for the management of iron deficiency anaemia in adults, 2021; Stoffel et al., Lancet Haematology, 2017",
+  "coment": "Doses orais frequentes elevam a hepcidina e reduzem a absorção da dose seguinte, além de aumentar efeitos gastrointestinais. Estudos de absorção (Stoffel, Lancet Haematology, 2017) mostraram que dose única em dias alternados absorve proporcionalmente mais, e a BSG (2021) recomenda 1 comprimido ao dia ou em dias alternados. Antiácido reduz a absorção. Mantém-se o ferro por cerca de 3 meses após normalizar a hemoglobina para repor estoques. Ferro endovenoso é para intolerância persistente, má absorção ou necessidade de reposição rápida.",
   "porAlt": [
-   "Correta: repor ferro e investigar a fonte de perda são as duas metades obrigatórias do tratamento.",
-   "Transfusão se reserva a instabilidade ou anemia muito grave e sintomática, não a este quadro.",
-   "Eritropoetina não corrige deficiência de ferro e pode agravar a depleção dos estoques corporais.",
-   "A deficiência de vitamina B12 causa macrocitose, e não a microcitose observada neste caso.",
-   "A ferritina baixa é específica para deficiência de ferro e dispensa a biópsia de medula óssea."
+   "Intolerância a doses frequentes: ferro oral 1 vez ao dia ou em dias alternados, que melhora absorção e tolerância.",
+   "Ferro endovenoso fica para intolerância persistente, má absorção ou urgência.",
+   "Doses frequentes pioram absorção e sintomas, e antiácido reduz a absorção.",
+   "Anemia estável sem instabilidade não indica transfusão.",
+   "É preciso manter cerca de 3 meses após normalizar para repor estoques."
   ]
  },
  {
-  "q": "Homem de 68 anos com linfocitose de 45.000/mm³ persistente, linfócitos maduros, sem sintomas, sem citopenias, sem linfonodomegalia volumosa. Qual é a conduta?",
+  "q": "Homem de 68 anos tem linfocitose de 45 mil/mm³ persistente há 4 meses, com linfócitos maduros e manchas de Gumprecht no esfregaço. Imunofenotipagem: população clonal CD5+, CD23+, CD20 fraco, cadeia leve kappa restrita. Hemoglobina de 13,8 g/dL, plaquetas de 190 mil/mm³, linfonodos cervicais de 1,5 cm, sem esplenomegalia, sem febre, sudorese ou perda de peso. Binet A. Não tem infecções de repetição, e as imunoglobulinas são normais. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar imediatamente quimioimunoterapia, pois a linfocitose isolada já indica tratamento urgente.",
-   "Realizar esplenectomia diagnóstica antes de qualquer caracterização imunofenotípica da doença.",
-   "Solicitar apenas hemograma seriado, sem qualquer caracterização por citometria de fluxo agora.",
-   "Imunofenotipagem de sangue periférico e sempre observação vigilante se o estágio for inicial.",
-   "Iniciar corticoide em dose alta e prolongada, já que reduz a linfocitose e altera a sobrevida."
+   "Ibrutinibe precoce para evitar progressão",
+   "Fludarabina, ciclofosfamida e rituximabe",
+   "Observação, hemograma a cada 3 a 6 meses",
+   "Biópsia de medula para estadiar",
+   "Esplenectomia para reduzir linfocitose"
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "iwCLL guidelines, 2018; NCCN Chronic Lymphocytic Leukemia, 2024",
-  "coment": "A leucemia linfocítica crônica é diagnosticada por imunofenotipagem de sangue periférico mostrando clone B com CD5, CD19, CD23 e cadeia leve restrita, com pelo menos 5.000 linfócitos B clonais por milímetro cúbico. Não é necessária biópsia de medula. Estágios iniciais assintomáticos, sem citopenia nem massa volumosa, são acompanhados sem tratamento: tratar cedo não prolonga a sobrevida. As indicações de tratar incluem citopenia progressiva, sintomas B, massa sintomática e tempo de duplicação curto.",
+  "base": "iwCLL Guidelines, Blood, 2018; Langerbeins et al., CLL12, Blood, 2022",
+  "coment": "Leucemia linfocítica crônica em estágio inicial (Binet A, Rai 0 a I) sem doença ativa pelo iwCLL deve ser apenas observada. Tratamento precoce não aumentou sobrevida em ensaios com quimioterapia nem com ibrutinibe (CLL12), apenas adiou progressão com toxicidade. Mielograma não é necessário para diagnóstico ou estadiamento. Acompanha-se com hemograma e exame físico a cada 3 a 12 meses, orientando vacinação (sem vacinas vivas) e sinais de alerta.",
   "porAlt": [
-   "Linfocitose isolada não indica tratamento; tratar cedo não melhora a sobrevida nesta doença.",
-   "A esplenectomia não tem papel diagnóstico e a citometria de fluxo resolve o caso sem cirurgia.",
-   "O hemograma seriado não distingue clone neoplásico de linfocitose reativa persistente.",
-   "Correta: imunofenotipagem confirma o clone e o estágio inicial assintomático é apenas observado.",
-   "O corticoide isolado não altera a história natural e traz toxicidade e risco infeccioso."
+   "Ibrutinibe precoce não aumentou sobrevida no CLL12.",
+   "Quimioimunoterapia em doença inicial não traz benefício de sobrevida.",
+   "Binet A sem doença ativa: observação com hemograma e exame periódicos.",
+   "Mielograma não é necessário para estadiar.",
+   "Esplenectomia não tem papel aqui."
   ]
  },
  {
-  "q": "Paciente com anemia, plaquetopenia, esquizócitos no sangue periférico, febre e alteração neurológica flutuante, com LDH muito elevado e Coombs direto negativo. Qual é a conduta imediata?",
+  "q": "Mulher de 38 anos tem confusão flutuante e petéquias. Hemoglobina de 8,1 g/dL, plaquetas de 14 mil/mm³, esquizócitos abundantes, reticulócitos elevados, bilirrubina indireta alta, haptoglobina indetectável, Coombs direto negativo. Creatinina de 1,3 mg/dL, INR de 1,1, VCM de 88 fL, sem câncer ou transplante. PLASMIC de 7. ADAMTS13 colhido, resultado em 5 dias. Pressão arterial de 138/84 mmHg, sem febre. Qual é a conduta mais adequada?",
   "alts": [
-   "Transfusão de plaquetas em alto volume, primeira medida para corrigir a plaquetopenia grave.",
-   "Heparina em dose plena, tratamento de escolha para a microangiopatia trombótica descrita.",
-   "Plasmaférese de urgência e corticoide, sempre antes do resultado da atividade da ADAMTS13.",
-   "Aguardar o resultado da ADAMTS13 antes de qualquer intervenção terapêutica ser iniciada.",
-   "Corticoide isolado por via oral, já suficiente para reverter o quadro sem procedimento invasivo."
+   "Transfusão de plaquetas e aguardar ADAMTS13",
+   "Plasmaférese, corticoide e caplacizumabe já",
+   "Eculizumabe como primeira linha",
+   "Heparina não fracionada",
+   "Aguardar ADAMTS13 antes de qualquer terapia"
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "hemato",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ISTH guidelines for thrombotic thrombocytopenic purpura, 2020; ASH TTP guideline, 2020",
-  "coment": "O quadro é púrpura trombocitopênica trombótica: anemia hemolítica microangiopática com esquizócitos, plaquetopenia, Coombs negativo e LDH elevado. A mortalidade sem tratamento supera noventa por cento e a plasmaférese reduz para menos de vinte, de modo que ela é iniciada por suspeita clínica, sem esperar a dosagem de ADAMTS13. Associa-se corticoide e, em muitos protocolos, caplacizumabe. Transfusão de plaquetas é contraindicada, salvo sangramento com risco de vida, por alimentar a trombose microvascular.",
+  "base": "ISTH Guidelines for the treatment of thrombotic thrombocytopenic purpura, Journal of Thrombosis and Haemostasis, 2020",
+  "coment": "O escore PLASMIC pontua plaquetas abaixo de 30 mil, hemólise, ausência de câncer ativo, ausência de transplante, VCM abaixo de 90 fL, INR abaixo de 1,5 e creatinina abaixo de 2,0; 6 ou 7 indica alta probabilidade de ADAMTS13 grave. A ISTH (2020) recomenda, com alta probabilidade, iniciar plasmaférese, corticoide e caplacizumabe sem esperar a dosagem, pois a púrpura trombocitopênica trombótica não tratada tem mortalidade acima de 90%; rituximabe é associado. Plaquetas são evitadas sem sangramento grave.",
   "porAlt": [
-   "A transfusão de plaquetas pode agravar a trombose microvascular e é evitada nesta condição.",
-   "A anticoagulação plena não trata a microangiopatia e aumenta o risco de sangramento grave.",
-   "Correta: plasmaférese de urgência com corticoide, iniciada pela suspeita clínica, sem aguardar exame.",
-   "Esperar o resultado da ADAMTS13 atrasa a plasmaférese e aumenta muito a mortalidade do quadro.",
-   "O corticoide isolado não substitui a plasmaférese, que é a intervenção que reduz a mortalidade."
+   "Plaquetas podem piorar a trombose microvascular e não substituem o tratamento.",
+   "PLASMIC de 7: plasmaférese, corticoide e caplacizumabe sem esperar a ADAMTS13.",
+   "Eculizumabe é para síndrome hemolítico-urêmica atípica.",
+   "Heparina não trata a púrpura trombocitopênica trombótica.",
+   "Esperar 5 dias arrisca morte."
   ]
  },
  {
-  "q": "Homem de 72 anos com dor lombar, anemia, cálcio de 11,8 mg/dL e creatinina de 2,4 mg/dL. Qual exame confirma a suspeita diagnóstica principal?",
+  "q": "Homem de 72 anos tem dor lombar há 3 meses, hemoglobina de 9,0 g/dL, cálcio de 11,8 mg/dL, creatinina de 2,4 mg/dL (basal de 1,0 há 1 ano), proteínas totais de 9,8 g/dL com albumina de 3,2 g/dL. Urina tipo 1 sem proteinúria na fita. Radiografia de coluna com fratura em L2. PTH suprimido. Qual é o conjunto de exames mais adequado para confirmar a principal hipótese?",
   "alts": [
-   "Cintilografia óssea, exame de escolha para detectar as lesões líticas típicas dessa doença agora.",
-   "Eletroforese de proteínas com imunofixação e cadeias leves livres séricas, sempre com mielograma.",
-   "Dosagem isolada de fosfatase alcalina, que se eleva de forma característica nessa condição agora.",
-   "Biópsia de linfonodo cervical, procedimento que estabelece o diagnóstico nesse cenário clínico.",
-   "Apenas radiografia simples de coluna lombar, suficiente para o diagnóstico definitivo do caso."
+   "Apenas eletroforese sérica de proteínas",
+   "Cintilografia óssea e fosfatase alcalina",
+   "Biópsia renal como primeiro exame",
+   "Imunofixação, cadeias leves, mielograma, tomografia",
+   "PTH-rP e tomografia de tórax com contraste"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "hemato",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "International Myeloma Working Group, critérios diagnósticos, atualização 2024; NCCN Multiple Myeloma, 2024",
-  "coment": "A tétrade de hipercalcemia, insuficiência renal, anemia e lesão óssea aponta mieloma múltiplo. O diagnóstico exige demonstrar a proteína monoclonal, eletroforese com imunofixação em soro e urina e cadeias leves livres séricas, e plasmocitose clonal na medula, além de imagem para lesões ósseas, preferencialmente tomografia de baixa dose, ressonância ou PET, e não cintilografia óssea, que é falsamente negativa por serem lesões líticas sem resposta osteoblástica.",
+  "base": "International Myeloma Working Group criteria, Lancet Oncology, 2014; IMWG consensus on imaging in multiple myeloma, Lancet Oncology, 2019",
+  "coment": "Anemia, hipercalcemia com PTH suprimido, lesão renal, fratura e gap proteico sugerem mieloma. Eletroforese isolada falha em mieloma de cadeias leves (cerca de 20%), e a fita urinária não detecta cadeias leves. Pelo IMWG, o rastreio inclui eletroforese e imunofixação séricas com cadeias leves livres; a confirmação exige mielograma ou biópsia com plasmócitos clonais, e a avaliação óssea é feita por tomografia de corpo inteiro de baixa dose (ou PET-CT ou ressonância). Cintilografia não detecta lesões líticas puras.",
   "porAlt": [
-   "A cintilografia óssea costuma ser negativa porque as lesões são líticas, sem reação osteoblástica.",
-   "Correta: eletroforese com imunofixação, cadeias leves livres e avaliação medular fecham o diagnóstico.",
-   "A fosfatase alcalina permanece tipicamente normal, justamente pela ausência de atividade osteoblástica.",
-   "A biópsia de linfonodo investiga linfoma, e não a discrasia plasmocitária suspeitada aqui.",
-   "A radiografia mostra lesões tardias e não demonstra a proteína monoclonal exigida pelo diagnóstico."
+   "Eletroforese isolada pode não detectar mieloma de cadeias leves.",
+   "Cintilografia não capta lesões líticas do mieloma.",
+   "Biópsia renal não é o primeiro passo.",
+   "Suspeita de mieloma: imunofixação, cadeias leves livres, mielograma e tomografia de corpo inteiro de baixa dose.",
+   "Com gap proteico, a hipótese de mieloma é mais provável que hipercalcemia humoral."
   ]
  },
  {
-  "q": "Paciente em uso de heparina há sete dias apresenta queda de plaquetas de 240.000 para 80.000/mm³ e trombose venosa nova. Qual é a conduta?",
+  "q": "Mulher de 64 anos teve trombocitopenia induzida por heparina com trombose venosa profunda femoral, confirmada por anti-PF4 positivo com densidade óptica de 2,1 e teste funcional positivo. Está em argatrobana há 8 dias; as plaquetas subiram de 62 mil para 210 mil/mm³. Clearance de 70 mL/min, sem sangramento, sem câncer. Pesa 70 kg e não tem valva mecânica ou síndrome antifosfolípide. Qual é a conduta de transição e a duração da anticoagulação mais adequadas?",
   "alts": [
-   "Manter a heparina em dose plena e transfundir plaquetas para corrigir a plaquetopenia observada.",
-   "Trocar a heparina não fracionada por heparina de baixo peso molecular em dose terapêutica.",
-   "Suspender a heparina e não anticoagular, pela plaquetopenia e pelo risco elevado de sangramento.",
-   "Suspender toda heparina e iniciar anticoagulante alternativo, sempre sem aguardar sorologia.",
-   "Iniciar varfarina isoladamente logo após a suspensão, sem qualquer anticoagulante parenteral."
-  ],
-  "gab": 3,
-  "tema": "hemato",
-  "cenario": "enf",
-  "comp": "urg",
-  "nivel": "r3",
-  "base": "ASH guidelines on heparin-induced thrombocytopenia, 2018; American Society of Hematology, atualização 2023",
-  "coment": "A trombocitopenia induzida por heparina é um estado protrombótico mediado por anticorpos contra o complexo heparina e fator plaquetário 4. Queda superior a cinquenta por cento entre o quinto e o décimo dia com trombose nova é altamente sugestiva. A conduta é suspender toda exposição à heparina e iniciar anticoagulante não heparínico, como argatroban, fondaparinux ou inibidor direto oral. A varfarina isolada é proibida no início, por precipitar gangrena venosa ao reduzir a proteína C.",
-  "porAlt": [
-   "Manter a heparina perpetua a trombose, e a transfusão de plaquetas pode agravar o risco trombótico.",
-   "A heparina de baixo peso molecular tem reação cruzada com os anticorpos e mantém o processo ativo.",
-   "Não anticoagular deixa ativo um estado protrombótico grave, com risco alto de novos eventos.",
-   "Correta: suspender toda heparina e anticoagular com alternativa não heparínica, sem esperar sorologia.",
-   "A varfarina isolada no início pode causar gangrena venosa por queda rápida da proteína C."
-  ]
- },
- {
-  "q": "Homem de 25 anos com anemia hemolítica, icterícia e esplenomegalia. Coombs direto positivo para IgG. Qual é o tratamento inicial?",
-  "alts": [
-   "Corticoide sistêmico em dose imunossupressora, sempre com investigação de causa secundária.",
-   "Esplenectomia imediata, tratamento de primeira linha para anemia hemolítica autoimune quente.",
-   "Transfusão de hemácias em alto volume como única medida terapêutica indicada para o quadro.",
-   "Reposição de ferro por via oral, que corrige a anemia hemolítica e reduz a icterícia observada.",
-   "Plasmaférese, procedimento de escolha para remover os anticorpos quentes já circulantes."
+   "Anticoagulante oral direto por pelo menos 3 meses",
+   "Suspender a argatrobana e alta sem anticoagulante",
+   "Enoxaparina terapêutica por 3 meses",
+   "Varfarina isolada, suspendendo a argatrobana no mesmo dia",
+   "Anticoagulação por 4 semanas"
   ],
   "gab": 0,
   "tema": "hemato",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "First International Consensus on autoimmune hemolytic anemia, 2020; British Society for Haematology, 2017",
-  "coment": "Coombs direto positivo para IgG caracteriza anemia hemolítica autoimune por anticorpos quentes, cujo tratamento de primeira linha é corticoide, tipicamente prednisona em torno de um miligrama por quilo, com desmame lento após resposta. Rituximabe é alternativa de primeira ou segunda linha em muitos consensos, e a esplenectomia fica para casos refratários. É obrigatório investigar causa secundária: lúpus, leucemia linfocítica crônica, linfoma, infecções e fármacos.",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "American Society of Hematology Guidelines for Heparin-Induced Thrombocytopenia, 2018",
+  "coment": "Com recuperação plaquetária (em geral acima de 150 mil), pode-se transicionar para anticoagulante oral. A ASH (2018) aceita anticoagulante oral direto como opção, que evita a sobreposição complexa da varfarina (que exige pelo menos 5 dias junto ao parenteral e INR no alvo por 24 horas, com monitorização da argatrobana alterando o INR). Com trombose associada, anticoagula-se por 3 meses; sem trombose, por 4 semanas a 3 meses. Heparinas de baixo peso molecular têm reação cruzada e são contraindicadas.",
   "porAlt": [
-   "Correta: corticoide é a primeira linha, e a busca de causa secundária faz parte da avaliação inicial.",
-   "A esplenectomia é opção para casos refratários, e não o tratamento inicial dessa condição.",
-   "A transfusão é suporte quando há anemia sintomática, mas não trata o mecanismo imune da hemólise.",
-   "A reposição de ferro não tem papel: na hemólise o ferro é reciclado e os estoques não estão baixos.",
-   "A plasmaférese remove mal a IgG extravascular e não é o tratamento padrão dos anticorpos quentes."
+   "Trombocitopenia por heparina com trombose e plaquetas recuperadas: anticoagulante oral direto por pelo menos 3 meses.",
+   "Trombose associada exige anticoagulação por pelo menos 3 meses.",
+   "Heparina de baixo peso molecular tem reação cruzada.",
+   "Varfarina sem sobreposição pode causar gangrena venosa.",
+   "Quatro semanas é para casos sem trombose."
   ]
  },
  {
-  "q": "Paciente com anemia macrocítica, VCM 118 fL, neutrófilos hipersegmentados, parestesias em pés e marcha instável. Qual é a conduta?",
+  "q": "Mulher de 67 anos tem fadiga, acrocianose e urina escura após exposição ao frio em viagem. Hemoglobina de 8,4 g/dL, reticulócitos elevados, LDH e bilirrubina indireta altos, haptoglobina baixa. Coombs direto positivo para C3d e negativo para IgG, crioaglutininas em título alto (1:2048). Imunofixação com pequeno clone IgM kappa. Sem linfonodos ou infecção recente por Mycoplasma. Creatinina e função hepática normais, sem esplenomegalia. Qual é a conduta mais adequada?",
   "alts": [
-   "Repor apenas ácido fólico, que corrige a macrocitose e resolve o comprometimento neurológico agora.",
-   "Transfundir concentrado de hemácias e reavaliar em três meses sem qualquer reposição vitamínica.",
-   "Solicitar biópsia de medula óssea antes de iniciar qualquer reposição vitamínica neste paciente.",
-   "Dosar vitamina B12 e repor precocemente, sempre antes que o dano neurológico se torne irreversível.",
-   "Iniciar ferro por via endovenosa, tratamento indicado para a macrocitose com hipersegmentação agora."
+   "Prednisona 1 mg/kg/dia por 6 semanas",
+   "Esplenectomia laparoscópica eletiva",
+   "Transfusão com bolsa fria da geladeira",
+   "Imunoglobulina endovenosa isolada",
+   "Evitar frio; rituximabe ou sutimlimabe"
   ],
-  "gab": 3,
+  "gab": 4,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Berentsen et al., Diagnosis and treatment of cold agglutinin disease, First International Consensus Meeting, Blood Reviews, 2020",
+  "coment": "Doença das aglutininas frias primária: hemólise mediada por IgM e complemento, Coombs positivo para C3d, com clone de células B em geral indolente. Corticoide é pouco eficaz e esplenectomia é ineficaz, pois a destruição ocorre sobretudo no fígado. O manejo é evitar frio, aquecer infusões e hemocomponentes e, na doença sintomática, rituximabe (isolado ou com bendamustina) ou inibidor de C1s (sutimlimabe). Ácido fólico acompanha a hemólise crônica.",
+  "porAlt": [
+   "Corticoide tem baixa eficácia na doença das aglutininas frias.",
+   "A hemólise é hepática; esplenectomia não funciona.",
+   "Hemocomponentes devem ser aquecidos, nunca frios.",
+   "Imunoglobulina isolada não é eficaz.",
+   "Doença das aglutininas frias sintomática: evitar frio, aquecer infusões e usar rituximabe ou sutimlimabe."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos tem parestesias em pés, perda de sensibilidade vibratória, Romberg positivo e marcha instável há 3 meses. Hemoglobina de 9,6 g/dL, VCM de 118 fL, neutrófilos hipersegmentados, LDH elevado. Usa metformina 2 g/dia há 10 anos e omeprazol. Folato normal. Vitamina B12 de 180 pg/mL, com ácido metilmalônico elevado. Anticorpo anti-fator intrínseco positivo. Não bebe e não faz dieta vegetariana. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Ácido fólico 5 mg/dia isolado",
+   "Vitamina B12 oral 100 µg/dia",
+   "B12 intramuscular por toda a vida",
+   "Transfusão de 2 concentrados",
+   "Suspender apenas o omeprazol"
+  ],
+  "gab": 2,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "BSH guidelines for the diagnosis and treatment of cobalamin and folate disorders, 2014; UpToDate revisão 2024",
-  "coment": "Macrocitose com neutrófilos hipersegmentados e sintomas neurológicos aponta deficiência de vitamina B12. O envolvimento neurológico, degeneração combinada subaguda dos cordões posteriores e laterais, é a razão para repor sem demora, pois o dano se torna irreversível se prolongado. Repor apenas folato corrige a anemia e mascara o quadro enquanto a lesão neurológica progride, erro clássico. Investigar a causa inclui anticorpos anti-fator intrínseco, doença ileal e uso de metformina.",
+  "base": "British Society for Haematology Guidelines for the diagnosis and treatment of cobalamin and folate disorders, 2014; NICE Guideline NG239: Vitamin B12 deficiency in over 16s, 2024",
+  "coment": "Anemia perniciosa (anti-fator intrínseco positivo) com mielopatia subaguda combinada exige vitamina B12 parenteral: por exemplo, hidroxocobalamina ou cianocobalamina 1.000 µg intramuscular em dias alternados até parar a melhora neurológica e depois a cada 2 a 3 meses (BSH), por toda a vida. Ácido fólico isolado corrige a anemia e deixa progredir o dano neurológico. B12 oral em dose alta (1.000 a 2.000 µg) absorve por difusão, mas a via parenteral é preferida com déficit neurológico. Metformina e inibidor de bomba contribuem e devem ser revistos.",
   "porAlt": [
-   "Repor apenas folato corrige a anemia e mascara o quadro enquanto o dano neurológico progride.",
-   "Transfundir sem repor não trata a causa e permite a progressão do comprometimento neurológico.",
-   "A biópsia de medula é desnecessária: a dosagem sérica e o quadro clínico já orientam a conduta.",
-   "Correta: dosar e repor vitamina B12 sem demora, porque o dano neurológico pode ficar irreversível.",
-   "O ferro não corrige macrocitose e a deficiência de ferro produz o padrão oposto, microcítico."
+   "Ácido fólico isolado pode piorar o dano neurológico.",
+   "Dose oral baixa não é absorvida sem fator intrínseco.",
+   "Anemia perniciosa com déficit neurológico: B12 intramuscular, ataque e manutenção por toda a vida.",
+   "Anemia estável não exige transfusão.",
+   "O déficit é por anemia perniciosa, não só pelo inibidor de bomba."
   ]
  },
  {
-  "q": "Homem de 55 anos com hematócrito 58%, hemoglobina 19,5 g/dL, plaquetas 520.000/mm³, prurido após banho quente e esplenomegalia. Qual exame é o mais indicado?",
+  "q": "Homem de 55 anos tem prurido após banho quente e cefaleia. Hemoglobina de 19,5 g/dL, hematócrito de 58%, plaquetas de 520 mil/mm³, leucócitos de 11 mil/mm³. Mutação JAK2 V617F positiva, eritropoetina sérica baixa. Baço palpável a 3 cm do rebordo. Nunca teve trombose ou sangramento. Hipertenso controlado, não fuma. Saturação de 97%. Não tem sintomas de hiperviscosidade graves nem sangramento. Pela classificação de risco trombótico, qual é o tratamento mais adequado?",
   "alts": [
-   "Pesquisa da mutação JAK2 V617F, sempre associada à dosagem de eritropoetina sérica do paciente.",
-   "Gasometria arterial isolada, exame que confirma o diagnóstico dessa condição hematológica crônica.",
-   "Polissonografia de noite inteira, já primeiro exame indicado para investigar essa eritrocitose.",
-   "Dosagem de testosterona sérica total, exame que estabelece a causa da poliglobulia observada.",
-   "Ecocardiograma com contraste salino, exame diagnóstico de escolha nesse quadro hematológico."
-  ],
-  "gab": 0,
-  "tema": "hemato",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "OMS. Classificação de neoplasias mieloides, 5ª edição, 2022; NCCN Myeloproliferative Neoplasms, 2024",
-  "coment": "Eritrocitose com plaquetose, esplenomegalia e prurido aquagênico caracteriza policitemia vera. O critério molecular é a mutação JAK2, presente em mais de noventa e cinco por cento dos casos na forma V617F, e a eritropoetina sérica costuma estar baixa, ao contrário das causas secundárias. O tratamento combina flebotomia com alvo de hematócrito abaixo de quarenta e cinco por cento, ácido acetilsalicílico em dose baixa e citorredução nos pacientes de alto risco.",
-  "porAlt": [
-   "Correta: pesquisa de JAK2 com eritropoetina sérica é a via diagnóstica dessa neoplasia mieloproliferativa.",
-   "A gasometria pode sugerir causa hipoxêmica secundária, mas não confirma a neoplasia clonal.",
-   "A polissonografia investiga apneia, causa secundária, e não é o primeiro exame neste quadro.",
-   "A testosterona interessa quando há uso de andrógenos, mas não explica prurido nem esplenomegalia.",
-   "O ecocardiograma investiga cardiopatia com shunt, hipótese pouco provável diante deste conjunto."
-  ]
- },
- {
-  "q": "Paciente com hemofilia A grave apresenta hemartrose aguda de joelho. Qual é a conduta imediata?",
-  "alts": [
-   "Realizar punção articular de urgência como primeira medida antes de qualquer reposição de fator.",
-   "Repor fator VIII imediatamente, sempre antes de qualquer exame de imagem ser realizado agora.",
-   "Prescrever anti-inflamatório não hormonal em dose plena para controlar a dor e a inflamação local.",
-   "Solicitar ressonância magnética do joelho antes de decidir sobre a reposição do fator deficiente.",
-   "Imobilizar o membro e observar por vinte e quatro horas antes de considerar reposição de fator."
-  ],
-  "gab": 1,
-  "tema": "hemato",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "World Federation of Hemophilia, Guidelines for the Management of Hemophilia, 3ª edição, 2020",
-  "coment": "Na hemofilia a regra é tratar primeiro e investigar depois: diante de suspeita de sangramento, o fator deficiente é reposto imediatamente, sem aguardar imagem ou confirmação. Na hemartrose, o alvo habitual é elevar o fator para cerca de cinquenta por cento. Punção articular raramente é necessária e traz risco de sangramento e infecção. Anti-inflamatórios não hormonais são evitados por disfunção plaquetária e risco digestivo; analgesia se faz com paracetamol e opioide se necessário.",
-  "porAlt": [
-   "A punção articular raramente é necessária e traz risco de sangramento adicional e de infecção.",
-   "Correta: repor o fator deficiente imediatamente, antes de exames, é a regra em sangramento na hemofilia.",
-   "Anti-inflamatórios não hormonais são evitados por disfunção plaquetária e risco de sangramento digestivo.",
-   "A ressonância não deve atrasar a reposição, que é decidida pelo quadro clínico e pela suspeita.",
-   "Observar sem repor permite dano articular progressivo e sangramento de difícil controle depois."
-  ]
- },
- {
-  "q": "Mulher de 28 anos, assintomática, com plaquetas de 45.000/mm³, restante do hemograma normal, sem esplenomegalia e sem sangramento. Qual é a conduta?",
-  "alts": [
-   "Iniciar corticoide em dose alta imediatamente, pois a contagem por si só já indica tratamento.",
-   "Transfundir plaquetas profilaticamente para elevar a contagem acima de cem mil por milímetro cúbico.",
-   "Indicar esplenectomia precoce, procedimento de primeira linha para essa condição hematológica.",
-   "Excluir causas secundárias e observar sem tratar, já que não há sangramento nem risco iminente.",
-   "Iniciar imunoglobulina endovenosa em dose alta como primeira medida terapêutica neste caso."
+   "Hidroxiureia 500 mg/dia e AAS",
+   "Apenas AAS 100 mg, sem flebotomia",
+   "Ruxolitinibe 10 mg duas vezes ao dia",
+   "Flebotomias, hematócrito abaixo de 45%, e AAS",
+   "Varfarina com INR entre 2 e 3"
   ],
   "gab": 3,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ASH guidelines for immune thrombocytopenia, 2019; International Consensus Report on ITP, 2019",
-  "coment": "Na trombocitopenia imune do adulto, a decisão de tratar depende de sangramento e risco, não apenas da contagem. Pacientes assintomáticos com plaquetas acima de trinta mil por milímetro cúbico são acompanhados sem tratamento na maioria das diretrizes. Antes disso é preciso excluir causas secundárias: hepatite C, HIV, lúpus, Helicobacter pylori, fármacos e pseudotrombocitopenia por EDTA. Quando indicado, o tratamento inicial é corticoide, com imunoglobulina reservada a resposta rápida.",
+  "base": "ELN Recommendations for the management of Philadelphia-negative myeloproliferative neoplasms, Leukemia, 2018; Marchioli et al., CYTO-PV, NEJM, 2013",
+  "coment": "Policitemia vera de baixo risco (idade abaixo de 60 anos e sem trombose prévia) é tratada com flebotomias para manter hematócrito abaixo de 45%, que no CYTO-PV reduziu morte cardiovascular e trombose maior em comparação com alvo de 45 a 50%, e AAS em dose baixa. Citorredução com hidroxiureia ou interferon é para alto risco (60 anos ou mais ou trombose prévia), intolerância à flebotomia ou doença progressiva. Ruxolitinibe é segunda linha. Controlam-se os fatores de risco cardiovascular.",
   "porAlt": [
-   "A contagem isolada acima de trinta mil, sem sangramento, não indica tratamento imediato no adulto.",
-   "A transfusão profilática de plaquetas não tem indicação e tem rendimento baixo nessa condição.",
-   "A esplenectomia é opção de segunda linha em casos refratários, e não conduta inicial aqui.",
-   "Correta: excluir causas secundárias e observar, pois não há sangramento e a contagem permite acompanhar.",
-   "A imunoglobulina se reserva a sangramento ou necessidade de elevar a contagem com rapidez."
+   "Hidroxiureia fica para alto risco ou intolerância à flebotomia.",
+   "Sem flebotomia o hematócrito elevado mantém o risco trombótico.",
+   "Ruxolitinibe é segunda linha, após falha ou intolerância à hidroxiureia.",
+   "Baixo risco: flebotomia com hematócrito abaixo de 45% e AAS em dose baixa.",
+   "Anticoagulação sem trombose não é indicada."
+  ]
+ },
+ {
+  "q": "Homem de 22 anos com hemofilia A grave e inibidor de alto título (18 unidades Bethesda) chega com hemartrose aguda de joelho direito há 2 horas, dor intensa e limitação. Não está em profilaxia com emicizumabe. Pressão 124/76 mmHg, hemoglobina de 13 g/dL. Sem trauma craniano ou sangramento em outro local. Já usou agente de bypass com boa resposta. Pesa 70 kg e tem acesso venoso periférico bom. Qual é o tratamento mais adequado do sangramento?",
+  "alts": [
+   "Fator VII ativado ou complexo protrombínico ativado",
+   "Fator VIII em dose padrão de 25 UI/kg",
+   "Plasma fresco congelado 15 mL/kg",
+   "Crioprecipitado 10 unidades endovenoso",
+   "Desmopressina 0,3 µg/kg endovenosa"
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "World Federation of Hemophilia Guidelines for the Management of Hemophilia, 3rd edition, 2020",
+  "coment": "Com inibidor de alto título (5 unidades Bethesda ou mais), o fator VIII é neutralizado e não controla o sangramento. A WFH (2020) recomenda agentes de bypass: fator VII ativado recombinante (90 µg/kg a cada 2 a 3 horas) ou complexo protrombínico ativado (50 a 100 U/kg). Em paciente em profilaxia com emicizumabe, prefere-se fator VII ativado, pois o complexo protrombínico ativado em doses altas causou microangiopatia trombótica. Plasma, crioprecipitado e desmopressina não resolvem hemofilia A grave com inibidor.",
+  "porAlt": [
+   "Hemofilia com inibidor de alto título: agente de bypass, fator VII ativado ou complexo protrombínico ativado.",
+   "Inibidor de alto título neutraliza o fator VIII.",
+   "Plasma tem pouco fator VIII e é neutralizado pelo inibidor.",
+   "Crioprecipitado não supera o inibidor.",
+   "Desmopressina não funciona na hemofilia A grave."
+  ]
+ },
+ {
+  "q": "Mulher de 28 anos tem petéquias em membros e gengivorragia leve ao escovar os dentes há 1 semana. Plaquetas de 12 mil/mm³, hemoglobina e leucócitos normais, esfregaço sem esquizócitos ou blastos e sem agregados. HIV, hepatite C e H. pylori negativos. Não está grávida, sem esplenomegalia ou uso de fármacos novos. Sem sangramento em mucosa extenso ou do sistema nervoso. Pesa 60 kg e não tem diabetes ou infecção ativa. Qual é o tratamento inicial mais adequado?",
+  "alts": [
+   "Transfusão de plaquetas de rotina",
+   "Esplenectomia laparoscópica precoce",
+   "Rituximabe como primeira linha",
+   "Observação com hemograma semanal",
+   "Prednisona por até 6 semanas"
+  ],
+  "gab": 4,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "American Society of Hematology Guidelines for Immune Thrombocytopenia, Blood Advances, 2019",
+  "coment": "Na trombocitopenia imune recém-diagnosticada em adulto com plaquetas abaixo de 30 mil, a ASH (2019) recomenda corticoide em vez de observação: prednisona 0,5 a 2 mg/kg/dia por no máximo 6 semanas (incluindo desmame) ou dexametasona 40 mg/dia por 4 dias. Imunoglobulina é somada quando se precisa de aumento rápido. Transfusão de plaquetas é para sangramento grave. Esplenectomia e rituximabe são segunda linha, e a esplenectomia deve ser adiada pelo menos 12 meses.",
+  "porAlt": [
+   "Transfusão é para sangramento grave, com efeito curto.",
+   "Esplenectomia é segunda linha e adiada por pelo menos 1 ano.",
+   "Rituximabe é segunda linha.",
+   "Com menos de 30 mil e sangramento, observação não é recomendada.",
+   "Trombocitopenia imune com plaquetas abaixo de 30 mil: corticoide curto (prednisona até 6 semanas ou dexametasona)."
   ]
  },
  {
@@ -14448,243 +14448,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente em uso de varfarina apresenta INR de 8,0 sem sangramento. Qual é a conduta?",
+  "q": "Homem de 70 anos usa varfarina por fibrilação atrial, com INR alvo de 2 a 3. Tomou ciprofloxacino por 5 dias, e o INR de controle é 8,0. Não tem sangramento, hematúria, melena ou queda recente. Hemoglobina de 13,4 g/dL, pressão controlada, sem procedimento programado. CHA₂DS₂-VASc de 4. Pesa 80 kg, tem função renal normal e mora com a esposa. Não teve AVC ou sangramento prévio. Qual é a conduta mais adequada?",
   "alts": [
-   "Administrar plasma fresco congelado em todos os pacientes com esse valor de INR, já mesmo sem sangramento.",
-   "Manter a mesma dose de varfarina e apenas repetir o exame após uma semana de acompanhamento agora.",
-   "Administrar concentrado de complexo protrombínico de rotina mesmo na ausência de qualquer sangramento.",
-   "Iniciar heparina de baixo peso molecular em dose plena associada à manutenção integral da varfarina.",
-   "Suspender a varfarina e administrar vitamina K por via oral, sempre com reavaliação seriada do INR."
+   "Vitamina K 10 mg endovenosa lenta",
+   "Complexo protrombínico 25 UI/kg",
+   "Suspender 1 a 2 doses e repetir o INR",
+   "Plasma fresco congelado 15 mL/kg",
+   "Manter a dose e repetir o INR em 7 dias"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ACCP/ASH guidelines on antithrombotic therapy, management of supratherapeutic INR, revisão 2023",
-  "coment": "Com INR acima de 10 sem sangramento, ou entre 4,5 e 10 com risco elevado, suspende-se a varfarina e considera-se vitamina K oral em dose baixa, de 2,5 a 5 mg, com reavaliação seriada. Plasma fresco e complexo protrombínico são reservados a sangramento grave ou necessidade de reversão imediata para procedimento, pois expõem a risco transfusional e trombótico sem benefício quando não há sangramento em curso.",
+  "base": "ACCP Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: Evidence-Based Management of Anticoagulant Therapy, Chest, 2012",
+  "coment": "Pelo ACCP (2012), INR entre 4,5 e 10 sem sangramento: suspender temporariamente a varfarina, sem vitamina K de rotina, que não reduziu sangramento em ensaios e pode dificultar o retorno ao alvo; INR acima de 10 sem sangramento: vitamina K oral (2,5 a 5 mg). Sangramento grave exige complexo protrombínico e vitamina K endovenosa. Deve-se revisar a interação (ciprofloxacino potencializa a varfarina) e repetir o INR em 24 a 48 horas.",
   "porAlt": [
-   "O plasma se reserva a sangramento grave, expondo a risco transfusional sem benefício aqui.",
-   "Manter a dose com INR muito elevado deixa o paciente sob risco alto de sangramento espontâneo.",
-   "O complexo protrombínico é para reversão urgente com sangramento grave ou cirurgia imediata.",
-   "Associar heparina em paciente com INR de 8,0 multiplica o risco hemorrágico sem qualquer benefício.",
-   "Correta: suspender a varfarina, dar vitamina K oral e reavaliar o INR de forma seriada."
+   "Vitamina K endovenosa é para sangramento grave.",
+   "Complexo protrombínico é para sangramento grave.",
+   "INR entre 4,5 e 10 sem sangramento: suspender a varfarina temporariamente e repetir o INR, sem vitamina K de rotina.",
+   "Plasma é inferior e sobrecarrega volume.",
+   "Manter a dose com INR de 8 aumenta o risco de sangramento."
   ]
  },
  {
-  "q": "Mulher de 25 anos com anemia microcítica, ferritina normal, RDW normal e história familiar de anemia. Qual é a hipótese?",
+  "q": "Mulher de 25 anos, assintomática, faz exames pré-concepcionais. Hemoglobina de 11,2 g/dL, VCM de 62 fL, hemácias de 5,9 milhões/mm³, RDW de 13,5%, ferritina de 85 ng/mL. A mãe tem 'anemia leve' que nunca melhorou com ferro. Eletroforese de hemoglobina com HbA2 de 5,2%, HbF de 1,5% e sem hemoglobinas variantes. Pesa 58 kg, tem ciclos menstruais normais e nega sangramentos. Qual é o diagnóstico e a conduta?",
   "alts": [
-   "Talassemia menor, que cursa sempre com microcitose desproporcional à intensidade da anemia observada.",
-   "Anemia ferropriva clássica, que cursa com ferritina normal e amplitude de distribuição eritrocitária normal.",
-   "Anemia de doença crônica avançada, definida por microcitose acentuada com ferritina sérica normal.",
-   "Anemia megaloblástica inicial, condição que cursa com microcitose e distribuição eritrocitária normal.",
-   "Anemia hemolítica autoimune, quadro caracterizado por microcitose com ferritina e distribuição normais."
+   "Beta-talassemia menor; aconselhamento genético e parceiro",
+   "Deficiência de ferro; sulfato ferroso",
+   "Alfa-talassemia maior; transfusão",
+   "Anemia de doença crônica; investigar inflamação",
+   "Anemia sideroblástica; piridoxina"
   ],
   "gab": 0,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "British Society for Haematology guideline on significant haemoglobinopathies, revisão 2023; OMS. Hemoglobinopatias, 2023",
-  "coment": "Na talassemia menor a microcitose é desproporcional à anemia, que costuma ser leve, com contagem de hemácias normal ou elevada, RDW normal e ferritina normal. Na ferropenia ocorre o oposto: ferritina baixa, RDW elevado e contagem de hemácias reduzida. A confirmação da talassemia é feita por eletroforese de hemoglobina, com elevação de hemoglobina A2 na forma beta. Reconhecer evita reposição de ferro desnecessária e prolongada.",
+  "base": "Thalassaemia International Federation, Guidelines for the Management of Non-Transfusion Dependent Thalassaemia, 2023; ACOG Committee Opinion: Hemoglobinopathies in Pregnancy, 2018",
+  "coment": "Microcitose acentuada com hemácias aumentadas, RDW normal e índice de Mentzer (VCM/hemácias) de 62/5,9 ≈ 10,5, abaixo de 13, sugere talassemia; ferritina normal afasta deficiência de ferro. HbA2 acima de 3,5% confirma beta-talassemia menor. Não há indicação de ferro. Antes da gestação, oferece-se aconselhamento genético e estudo do parceiro: se ele também for portador, o risco de filho com beta-talassemia maior é de 25%. Alfa-talassemia traço costuma ter HbA2 normal ou baixa.",
   "porAlt": [
-   "Correta: microcitose desproporcional com ferritina e RDW normais sugere talassemia menor.",
-   "A ferropenia cursa com ferritina baixa e RDW elevado, ao contrário do descrito neste caso.",
-   "A anemia de doença crônica costuma ser normocítica ou levemente microcítica, com ferritina alta.",
-   "A anemia megaloblástica cursa com macrocitose, e não com a microcitose descrita no enunciado.",
-   "A hemólise cursa com anemia normocítica ou macrocítica, com reticulocitose e LDH elevada."
+   "Mentzer abaixo de 13 e HbA2 de 5,2%: beta-talassemia menor; aconselhamento e estudo do parceiro.",
+   "Ferritina de 85 afasta deficiência de ferro, e ferro desnecessário causa sobrecarga.",
+   "Alfa-talassemia maior é incompatível com a vida sem tratamento intrauterino.",
+   "Não há inflamação e a microcitose é desproporcional.",
+   "Não há sideroblastos em anel ou ferritina alta."
   ]
  },
  {
-  "q": "Paciente com leucemia promielocítica aguda apresenta sangramento e coagulopatia. Qual é a conduta imediata?",
+  "q": "Homem de 34 anos tem gengivorragia e equimoses há 5 dias. Leucócitos de 2.100/mm³, plaquetas de 18 mil/mm³, hemoglobina de 8,2 g/dL. O esfregaço mostra promielócitos anômalos com bastonetes de Auer em feixes. Fibrinogênio de 90 mg/dL, INR de 1,8, dímero-D muito elevado. Aguarda mielograma e pesquisa de PML-RARA. Creatinina normal. Pressão arterial de 118/70 mmHg e saturação de 97%, sem febre. Qual é a conduta imediata mais adequada?",
   "alts": [
-   "Aguardar o resultado da pesquisa molecular antes de iniciar qualquer tratamento específico da leucemia.",
-   "Iniciar apenas quimioterapia convencional sem qualquer diferenciador, já tratamento de escolha nesse subtipo.",
-   "Administrar apenas antifibrinolítico isolado, medida suficiente para o controle da coagulopatia descrita.",
-   "Iniciar ácido transretinoico imediatamente e repor hemocomponentes, sempre antes da confirmação genética.",
-   "Iniciar anticoagulação plena com heparina como primeira medida diante da coagulopatia identificada agora."
+   "Aguardar PML-RARA para iniciar tratamento",
+   "Heparina para tratar a CIVD",
+   "Ácido tranexâmico endovenoso isolado",
+   "Ácido transretinoico já, com hemocomponentes",
+   "Quimioterapia de indução 7+3 isolada"
   ],
   "gab": 3,
   "tema": "hemato",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "NCCN Acute Myeloid Leukemia, 2024; European LeukemiaNet recommendations on APL, 2019 com revisão 2023",
-  "coment": "A leucemia promielocítica aguda é a emergência hematológica por excelência: a coagulopatia com fibrinólise e coagulação intravascular disseminada causa hemorragia fatal, sobretudo intracraniana e pulmonar, nas primeiras horas. O ácido transretinoico é iniciado pela suspeita morfológica ou clínica, sem aguardar a confirmação da translocação, porque reverte rapidamente a coagulopatia. Simultaneamente repõem-se plaquetas, fibrinogênio e plasma conforme metas.",
+  "base": "Sanz et al., Management of acute promyelocytic leukemia: updated recommendations from an expert panel of the European LeukemiaNet, Blood, 2019",
+  "coment": "Leucemia promielocítica aguda é emergência: a principal causa de morte precoce é hemorragia por coagulopatia. A ELN (2019) recomenda iniciar ácido transretinoico à mera suspeita morfológica, sem esperar a confirmação genética, e suporte transfusional agressivo: plaquetas acima de 30 a 50 mil, fibrinogênio acima de 100 a 150 mg/dL com crioprecipitado e plasma para INR. Com leucócitos baixos, trióxido de arsênio com ácido transretinoico é o padrão. Evitam-se procedimentos invasivos. Heparina e antifibrinolítico não são recomendados de rotina.",
   "porAlt": [
-   "Aguardar a confirmação genética custa horas em que o paciente pode morrer de hemorragia cerebral.",
-   "A quimioterapia sem o diferenciador não reverte a coagulopatia característica desse subtipo.",
-   "O antifibrinolítico isolado não trata a doença de base nem a coagulopatia de forma sustentada.",
-   "Correta: ácido transretinoico imediato pela suspeita clínica, com reposição agressiva de hemocomponentes.",
-   "A anticoagulação plena aumenta o sangramento em um paciente já gravemente coagulopata."
+   "Esperar a confirmação genética aumenta a morte hemorrágica precoce.",
+   "Heparina não é recomendada e aumenta sangramento.",
+   "Antifibrinolítico isolado não trata a coagulopatia e pode causar trombose.",
+   "Suspeita de leucemia promielocítica: ácido transretinoico imediato e suporte com plaquetas e crioprecipitado.",
+   "O padrão atual usa ácido transretinoico com arsênio, e quimioterapia sem ele atrasa o controle da coagulopatia."
   ]
  },
  {
-  "q": "Paciente com anemia falciforme apresenta crise vaso-oclusiva com dor intensa. Qual é a conduta?",
+  "q": "Homem de 19 anos com anemia falciforme, no segundo dia de internação por crise vaso-oclusiva em uso de morfina, desenvolve febre de 38,6 °C, dor torácica e tosse. Saturação de 89% em ar ambiente, frequência respiratória de 28 irpm. Radiografia com novo infiltrado em base esquerda. Hemoglobina caiu de 8,4 para 6,9 g/dL. Não recebeu transfusão recente. Pesa 62 kg, sem história de síndrome torácica aguda prévia. Qual é a conduta mais adequada?",
   "alts": [
-   "Transfundir concentrado de hemácias de rotina em toda crise vaso-oclusiva dolorosa não complicada.",
-   "Prescrever apenas anti-inflamatório oral e liberar o paciente sem qualquer reavaliação programada.",
-   "Hiperidratar com grande volume endovenoso rápido como principal medida terapêutica da crise dolorosa.",
-   "Analgesia precoce e agressiva com hidratação adequada, sempre investigando fatores desencadeantes.",
-   "Iniciar antibiótico de amplo espectro em todos os casos, mesmo sem qualquer sinal de foco infeccioso."
+   "Aumentar a morfina e hidratar",
+   "Exsanguineotransfusão sem antibiótico",
+   "Metilprednisolona em dose alta isolada",
+   "Hidratação agressiva com 5 litros por dia",
+   "Antibiótico, oxigênio, espirometria e transfusão"
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "hemato",
-  "cenario": "emg",
+  "cenario": "enf",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ASH Clinical Practice Guidelines on Sickle Cell Disease (acute pain management, 2020; Ministério da Saúde) PCDT Doença Falciforme, 2023",
-  "coment": "A crise vaso-oclusiva exige analgesia precoce, idealmente iniciada em até uma hora da chegada, com escalonamento rápido para opioide quando a dor é intensa, reavaliação frequente e associação de analgésico simples. Hidratação é feita em ritmo adequado, e a hiperidratação favorece síndrome torácica aguda. Transfusão não é rotina na crise simples, ficando reservada a síndrome torácica, acidente vascular cerebral e outras complicações graves.",
+  "base": "British Society for Haematology Guideline on the management of acute chest syndrome in sickle cell disease, 2015; ASH Guidelines for Sickle Cell Disease: Transfusion Support, 2020",
+  "coment": "Novo infiltrado com febre ou sintomas respiratórios em paciente falciforme define síndrome torácica aguda, principal causa de morte na doença, frequentemente desencadeada por hipoventilação na crise vaso-oclusiva. A BSH e a ASH recomendam antibiótico cobrindo germes atípicos (cefalosporina com macrolídeo), oxigênio para saturação acima de 95%, espirometria de incentivo, analgesia sem sedação excessiva e transfusão simples para hemoglobina baixa. Exsanguineotransfusão é para piora progressiva ou forma grave. Hiperidratação piora o edema pulmonar.",
   "porAlt": [
-   "A transfusão de rotina em crise simples não é recomendada e expõe a aloimunização desnecessária.",
-   "O anti-inflamatório isolado é insuficiente para dor intensa, que costuma exigir opioide titulado.",
-   "A hiperidratação rápida favorece congestão e síndrome torácica aguda, complicação grave e temida.",
-   "Correta: analgesia precoce e agressiva, hidratação adequada e busca de fatores desencadeantes.",
-   "O antibiótico sem sinal de infecção não é indicado, embora febre exija investigação imediata."
+   "Síndrome torácica aguda exige mais que analgesia.",
+   "Exsanguineotransfusão é para casos graves, e antibiótico é necessário.",
+   "Corticoide isolado não é padrão e causa crise rebote.",
+   "Hiperidratação piora o edema pulmonar.",
+   "Síndrome torácica aguda: antibiótico com cobertura atípica, oxigênio, espirometria de incentivo e transfusão simples."
   ]
  },
  {
-  "q": "Paciente assintomático apresenta pico monoclonal de 1,2 g/dL, sem anemia, sem lesão renal, sem hipercalcemia e com plasmócitos medulares de 5%. Qual é o diagnóstico?",
+  "q": "Homem de 64 anos, assintomático, tem pico monoclonal IgG lambda de 0,8 g/dL detectado em exames de check-up. Hemoglobina de 14,2 g/dL, creatinina de 0,9 mg/dL, cálcio de 9,1 mg/dL. Relação de cadeias leves livres kappa/lambda de 0,9 (normal). Sem dor óssea, perda de peso ou neuropatia. Proteinúria de 24 horas negativa. Função renal e albumina normais. Não usa fármacos e não tem doença autoimune. Qual é a conduta mais adequada?",
   "alts": [
-   "Gamopatia monoclonal de significado indeterminado, que exige sempre seguimento periódico programado.",
-   "Mieloma múltiplo sintomático, definido por esse pico monoclonal e por essa porcentagem de plasmócitos.",
-   "Macroglobulinemia de Waldenström, condição definida pelos achados descritos no enunciado do caso.",
-   "Amiloidose sistêmica estabelecida, diagnóstico que se define pela presença isolada do pico monoclonal.",
-   "Leucemia de células plasmáticas, definida por pico monoclonal com plasmocitose medular de cinco por cento."
+   "Mielograma e tomografia de corpo inteiro",
+   "Iniciar tratamento com lenalidomida",
+   "Eletroforese em 6 meses, depois a cada 2 a 3 anos",
+   "Alta do acompanhamento hematológico",
+   "PET-CT anual para rastrear lesões"
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "International Myeloma Working Group criteria, atualização 2024; NCCN Multiple Myeloma, 2024",
-  "coment": "A gamopatia monoclonal de significado indeterminado é definida por proteína monoclonal abaixo de 3 g/dL, plasmócitos clonais medulares abaixo de dez por cento e ausência de lesão de órgão-alvo. Hipercalcemia, insuficiência renal, anemia e lesão óssea. O risco de progressão para mieloma é de cerca de um por cento ao ano, o que justifica seguimento periódico com eletroforese, hemograma, cálcio, creatinina e cadeias leves livres.",
+  "base": "International Myeloma Working Group, Lancet Oncology, 2014; Kyle et al., Long-term follow-up of monoclonal gammopathy of undetermined significance, NEJM, 2018",
+  "coment": "Gamopatia monoclonal de significado indeterminado de baixo risco (proteína M abaixo de 1,5 g/dL, tipo IgG e relação de cadeias leves normal) tem risco de progressão de cerca de 2% em 20 anos. Pelo IMWG, dispensa mielograma e imagem se não houver anemia, lesão renal, hipercalcemia ou dor óssea; repete-se eletroforese e hemograma em 6 meses e, se estável, a cada 2 a 3 anos ou quando surgirem sintomas. Risco maior (IgM, IgA, proteína M de 1,5 ou mais, relação anormal) pede mielograma e imagem.",
   "porAlt": [
-   "Correta: pico abaixo de 3 g/dL, plasmócitos abaixo de dez por cento e sem lesão de órgão-alvo.",
-   "O mieloma sintomático exige lesão de órgão-alvo ou biomarcadores de malignidade, ausentes aqui.",
-   "A macroglobulinemia cursa com pico monoclonal de IgM e infiltração linfoplasmocitária da medula.",
-   "A amiloidose exige demonstração histológica de depósito amiloide em tecido acometido pela doença.",
-   "A leucemia de células plasmáticas exige plasmócitos circulantes em proporção muito elevada."
+   "Baixo risco sem CRAB não exige mielograma ou imagem.",
+   "Não há indicação de tratamento.",
+   "Gamopatia de baixo risco: eletroforese em 6 meses e depois a cada 2 a 3 anos.",
+   "O risco de progressão, embora baixo, justifica seguimento.",
+   "PET-CT anual não é indicado no baixo risco."
   ]
  },
  {
-  "q": "Paciente com trombose venosa profunda proximal de membro inferior, sem câncer e sem trombofilia conhecida, primeiro episódio provocado por cirurgia. Qual é a duração da anticoagulação?",
+  "q": "Homem de 45 anos teve trombose venosa profunda proximal de veia poplítea e femoral 3 semanas após artroscopia de joelho com imobilização gessada. Sem câncer, trombofilia conhecida ou episódios prévios. Iniciou rivaroxabana 15 mg duas vezes ao dia por 21 dias e depois 20 mg/dia. Agora completou 3 meses, sem sangramento, já retirou o gesso e voltou a caminhar. Pesa 82 kg, não fuma e tem clearance de 95 mL/min. Não tem história familiar de trombose. Qual é a conduta mais adequada?",
   "alts": [
-   "Três meses de anticoagulação, pois o fator provocador transitório já foi sempre removido do paciente.",
-   "Anticoagulação por tempo indeterminado em todos os casos de trombose venosa profunda proximal agora.",
-   "Seis semanas de anticoagulação, período suficiente para qualquer trombose venosa profunda proximal.",
-   "Apenas antiagregação plaquetária por três meses, sem qualquer anticoagulação plena para o paciente.",
-   "Anticoagulação por dez anos como padrão para trombose provocada por cirurgia de grande porte agora."
+   "Suspender a anticoagulação",
+   "Manter a rivaroxabana indefinidamente",
+   "Manter por mais 9 meses",
+   "Trocar para AAS por tempo indefinido",
+   "Dosar trombofilia antes de decidir"
   ],
   "gab": 0,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ASH guidelines for management of venous thromboembolism, 2020; CHEST Guideline and Expert Panel Report, atualização 2021",
-  "coment": "O tempo de anticoagulação depende de a trombose ser provocada por fator transitório maior, provocada por fator persistente ou não provocada. Trombose provocada por cirurgia, fator transitório maior, é tratada por três meses, pois o risco de recorrência após a remoção do fator é baixo. Trombose não provocada ou associada a câncer ativo ou trombofilia de alto risco costuma indicar anticoagulação estendida, com reavaliação periódica do risco de sangramento.",
+  "base": "ASH Guidelines for Management of Venous Thromboembolism: Treatment of Deep Vein Thrombosis and Pulmonary Embolism, 2020; CHEST Guideline: Antithrombotic Therapy for VTE Disease, 2021",
+  "coment": "Trombose venosa profunda provocada por fator de risco maior transitório (cirurgia, imobilização) tem risco de recorrência baixo após remoção do fator, em torno de 1% ao ano. A ASH (2020) e o ACCP (2021) recomendam fase primária de 3 meses e depois suspender. Estender não é indicado, pois o risco de sangramento supera o benefício. Pesquisa de trombofilia não muda a conduta nesse cenário. AAS é opção apenas para quem teria indicação de prolongar e não pode anticoagular.",
   "porAlt": [
-   "Correta: três meses, porque o fator provocador transitório maior já foi removido do paciente.",
-   "A anticoagulação indefinida se reserva a trombose não provocada ou a fatores de risco persistentes.",
-   "Seis semanas é período insuficiente e associa-se a taxa elevada de recorrência precoce do evento.",
-   "O antiagregante não substitui a anticoagulação plena no tratamento da trombose venosa profunda.",
-   "Dez anos não corresponde a qualquer recomendação para trombose provocada por fator transitório."
+   "Trombose provocada por fator transitório: 3 meses e suspender.",
+   "Fator provocador transitório removido não justifica tratamento indefinido.",
+   "Estender além de 3 meses não traz benefício líquido.",
+   "Não há indicação de prevenção prolongada.",
+   "Trombofilia não muda a conduta na trombose provocada."
   ]
  },
  {
-  "q": "Paciente com neutropenia de 300/mm³ após quimioterapia, afebril e assintomático. Qual é a conduta?",
+  "q": "Mulher de 52 anos em quimioterapia adjuvante para câncer de mama tem febre de 38,5 °C no décimo dia do ciclo. Neutrófilos de 300/mm³. Pressão 122/76 mmHg, sem sintomas respiratórios, sem hipotensão, sem DPOC, sem infecção fúngica prévia, tolera via oral, não precisa de internação por outro motivo e mora a 20 minutos do hospital com cuidador. MASCC de 23. Recebeu a última dose de doxorrubicina e ciclofosfamida há 10 dias. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar antibiótico de amplo espectro profilático em todos os pacientes neutropênicos e afebris agora.",
-   "Orientar sinais de alerta e higiene, considerando sempre fator estimulador de colônias conforme o risco.",
-   "Internar todos os pacientes com essa contagem de neutrófilos independentemente de qualquer sintoma.",
-   "Transfundir concentrado de granulócitos de rotina em todo paciente neutropênico após quimioterapia.",
-   "Suspender definitivamente o tratamento oncológico diante de qualquer episódio de neutropenia detectado."
+   "Internação com cefepima e vancomicina",
+   "Antibiótico oral ambulatorial após observação",
+   "Aguardar hemoculturas sem antibiótico",
+   "Filgrastim isolado e alta sem antibiótico",
+   "Anfotericina B lipossomal empírica"
   ],
   "gab": 1,
   "tema": "hemato",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "ASCO/IDSA guideline on antimicrobial prophylaxis for neutropenia, revisão 2024; NCCN Prevention and Treatment of Cancer-Related Infections, 2024",
-  "coment": "O paciente neutropênico afebril e assintomático não precisa de internação nem de antibiótico terapêutico. A conduta é orientação sobre sinais de alerta (sobretudo febre, que deve levar a procurar atendimento imediatamente), higiene das mãos, cuidados com alimentos e evitar contato com doentes. Profilaxia antimicrobiana e fator estimulador de colônias são considerados conforme o risco do esquema e do paciente, não de forma universal.",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ASCO/IDSA Guideline Update: Outpatient Management of Fever and Neutropenia in Adults Treated for Malignancy, 2018",
+  "coment": "Neutropenia febril com MASCC de 21 ou mais é de baixo risco. A ASCO/IDSA (2018) permite tratamento ambulatorial em pacientes selecionados: hemoculturas, primeira dose no hospital, observação de algumas horas e alta com amoxicilina-clavulanato e ciprofloxacino (ou levofloxacino), com acesso rápido ao serviço e cuidador. Todo paciente com neutropenia febril recebe antibiótico em até 1 hora. Vancomicina empírica não é de rotina, e antifúngico empírico é para febre persistente após 4 a 7 dias em alto risco.",
   "porAlt": [
-   "A profilaxia antibiótica universal não é indicada e favorece a seleção de germes resistentes.",
-   "Correta: orientar sinais de alerta e higiene, com profilaxia e fator de crescimento conforme o risco.",
-   "A internação de todo neutropênico afebril expõe a infecção hospitalar sem benefício demonstrado.",
-   "A transfusão de granulócitos é excepcional e não tem papel na neutropenia afebril de rotina.",
-   "Suspender definitivamente o tratamento oncológico por neutropenia esperada retira benefício curativo."
+   "Baixo risco pelo MASCC e boas condições permitem tratamento ambulatorial.",
+   "MASCC de 21 ou mais com suporte adequado: antibiótico oral ambulatorial após primeira dose e observação.",
+   "Neutropenia febril exige antibiótico em até 1 hora.",
+   "Filgrastim não substitui antibiótico.",
+   "Antifúngico empírico é para febre persistente em alto risco."
   ]
  },
  {
-  "q": "Homem de 45 anos com esplenomegalia volumosa, leucocitose de 90.000/mm³ com desvio à esquerda e basofilia. Qual exame confirma o diagnóstico?",
+  "q": "Homem de 45 anos com leucemia mieloide crônica em fase crônica iniciou imatinibe 400 mg/dia há 6 meses, com boa adesão confirmada e sem interações. Hemograma normalizado aos 3 meses. O BCR-ABL1 na escala internacional foi de 22% aos 3 meses e agora está em 15% aos 6 meses. Sem sinais de fase acelerada. Pesa 75 kg e usa só losartana. Pelos critérios da ELN, qual é a interpretação e a conduta mais adequada?",
   "alts": [
-   "Pesquisa do cromossomo Filadélfia ou do rearranjo BCR-ABL, sempre por citogenética ou biologia molecular.",
-   "Dosagem isolada de vitamina B12 sérica, exame que confirma o diagnóstico dessa neoplasia mieloproliferativa.",
-   "Cintilografia de baço, exame que estabelece o diagnóstico definitivo da doença suspeitada no enunciado.",
-   "Dosagem isolada de fosfatase alcalina leucocitária, exame que confirma o diagnóstico molecular da doença.",
-   "Biópsia de linfonodo cervical, procedimento diagnóstico de escolha para a leucocitose descrita no caso."
+   "Resposta ótima; manter imatinibe",
+   "Alerta; manter e repetir em 12 meses",
+   "Falha; transplante imediato",
+   "Falha; pesquisar mutações e trocar inibidor",
+   "Resposta ótima; suspender o inibidor"
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "hemato",
   "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "OMS. Classificação de neoplasias mieloides, 5ª edição, 2022; European LeukemiaNet recommendations for CML, 2020",
-  "coment": "Leucocitose acentuada com desvio à esquerda em todas as fases de maturação, basofilia e esplenomegalia volumosa caracteriza leucemia mieloide crônica, definida pela translocação entre os cromossomos 9 e 22, que gera o rearranjo BCR-ABL1. O diagnóstico é confirmado por citogenética, FISH ou PCR quantitativo, este também usado no monitoramento da resposta. O tratamento com inibidores de tirosina quinase transformou o prognóstico da doença.",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Hochhaus et al., European LeukemiaNet 2020 recommendations for treating chronic myeloid leukemia, Leukemia, 2020",
+  "coment": "Pela ELN (2020), os marcos de BCR-ABL1 na escala internacional são: aos 3 meses, 10% ou menos é ótimo e acima de 10% é alerta; aos 6 meses, 1% ou menos é ótimo, 1 a 10% alerta e acima de 10% falha; aos 12 meses, 0,1% ou menos é ótimo. BCR-ABL1 de 15% aos 6 meses é falha: confirma-se adesão, pesquisam-se mutações do domínio de quinase e troca-se para inibidor de segunda geração (dasatinibe, nilotinibe, bosutinibe) guiado pelas mutações. Transplante fica para falha a múltiplos inibidores ou progressão.",
   "porAlt": [
-   "Correta: pesquisa do cromossomo Filadélfia ou do rearranjo BCR-ABL confirma o diagnóstico.",
-   "A vitamina B12 pode estar elevada nessa doença, mas isso não confirma o diagnóstico molecular.",
-   "A cintilografia de baço avalia o órgão, mas não identifica a alteração genética que define a doença.",
-   "A fosfatase alcalina leucocitária é exame histórico, hoje substituído pela pesquisa molecular.",
-   "A biópsia de linfonodo investiga linfoma, e não a neoplasia mieloproliferativa suspeitada aqui."
+   "Acima de 10% aos 6 meses não é resposta ótima.",
+   "Esperar até 12 meses após falha arrisca progressão.",
+   "Transplante é para falha a múltiplos inibidores ou progressão.",
+   "BCR-ABL1 acima de 10% aos 6 meses é falha: pesquisar mutações e trocar o inibidor.",
+   "Suspensão só é considerada após resposta molecular profunda e sustentada."
   ]
  },
  {
-  "q": "Paciente recebe transfusão de hemácias e, após 15 minutos, apresenta febre, dor lombar, hipotensão e urina escura. Qual é a conduta?",
+  "q": "Mulher de 58 anos, no pós-operatório de colectomia, recebe concentrado de hemácias. Após 15 minutos, apresenta febre de 39 °C, calafrios, dor lombar, hipotensão de 82/50 mmHg e urina avermelhada. Pouco antes, outra paciente com sobrenome parecido havia recebido bolsa no mesmo setor. Saturação de 95%, sem urticária ou sibilos. Recebeu 60 mL da bolsa até o início dos sintomas. Qual é a conduta inicial mais adequada?",
   "alts": [
-   "Reduzir a velocidade da infusão e completar a bolsa sob observação clínica mais atenta do paciente.",
-   "Interromper a transfusão imediatamente e iniciar sempre hidratação vigorosa com suporte hemodinâmico.",
-   "Administrar apenas antitérmico e manter a transfusão, pois a febre isolada é reação sempre benigna.",
-   "Administrar apenas anti-histamínico e prosseguir com a transfusão até o término completo da bolsa.",
-   "Trocar a bolsa por outra do mesmo doador e reiniciar a transfusão imediatamente após a substituição."
+   "Reduzir a velocidade e manter a transfusão",
+   "Antitérmico e continuar a mesma bolsa",
+   "Adrenalina intramuscular e seguir",
+   "Furosemida e reiniciar com outra bolsa",
+   "Interromper, manter soro e conferir identificação"
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "hemato",
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AABB Standards for Blood Banks and Transfusion Services, 2024; Ministério da Saúde. Guia para uso de hemocomponentes, 2021",
-  "coment": "Febre com dor lombar, hipotensão e hemoglobinúria durante a transfusão sugere reação hemolítica aguda, geralmente por incompatibilidade ABO decorrente de erro de identificação. A conduta é interromper imediatamente a transfusão, manter o acesso com salina, iniciar hidratação vigorosa para proteger a função renal, oferecer suporte hemodinâmico, comunicar o serviço de hemoterapia e enviar bolsa e amostras para investigação da causa.",
+  "base": "Ministério da Saúde, Guia para Uso de Hemocomponentes, 2ª edição, 2015; Serious Hazards of Transfusion (SHOT) Annual Report, 2024",
+  "coment": "Febre, dor lombar, hipotensão e hemoglobinúria nos primeiros minutos sugerem reação hemolítica aguda por incompatibilidade ABO, em geral por erro de identificação. Conduta: interromper a transfusão, manter acesso venoso com soro fisiológico, conferir identificação da paciente e da bolsa à beira do leito, notificar o banco de sangue, enviar bolsa e amostras (Coombs direto, nova tipagem, LDH, bilirrubina, haptoglobina, hemoglobina livre), hidratar para diurese de 1 mL/kg/h e monitorizar CIVD e lesão renal. O outro paciente também deve ser verificado.",
   "porAlt": [
-   "Reduzir a velocidade mantém a infusão de hemácias incompatíveis e agrava a hemólise em curso.",
-   "Correta: interromper a transfusão de imediato e iniciar hidratação vigorosa com suporte hemodinâmico.",
-   "A reação descrita não é febril simples: há sinais claros de hemólise aguda com risco de vida.",
-   "O anti-histamínico trata reação alérgica leve e não tem papel na reação hemolítica aguda.",
-   "Trocar a bolsa sem investigar mantém o risco, pois o erro pode estar na identificação do paciente."
+   "Manter a transfusão aumenta a hemólise e a mortalidade.",
+   "Continuar a bolsa suspeita pode ser fatal.",
+   "Não há quadro anafilático, e a transfusão não pode continuar.",
+   "Nova bolsa só depois de esclarecer a causa.",
+   "Suspeita de reação hemolítica aguda: interromper, manter soro, conferir identificação e colher exames de hemólise."
   ]
  },
  {
-  "q": "Paciente com pancitopenia, medula óssea hipocelular e ausência de fibrose ou infiltração neoplásica. Qual é o diagnóstico mais provável?",
+  "q": "Homem de 26 anos tem petéquias, fadiga e infecções de repetição há 2 meses. Neutrófilos de 350/mm³, plaquetas de 12 mil/mm³, hemoglobina de 7,1 g/dL, reticulócitos de 18 mil/mm³. Biópsia de medula com celularidade de 10%, sem fibrose, blastos ou infiltração. Citometria para HPN com clone pequeno. Sem fármacos ou hepatite recente. Tem irmão HLA-idêntico. Não recebeu transfusões previamente. Função hepática normal e sorologias virais negativas. Qual é a classificação e a conduta mais adequada?",
   "alts": [
-   "Leucemia aguda em fase inicial, definida por medula hipocelular sem qualquer infiltração blástica.",
-   "Mielofibrose primária avançada, caracterizada por medula hipocelular sem fibrose ao exame histológico.",
-   "Anemia aplásica, que exige sempre pesquisa de causas secundárias e avaliação para terapia específica.",
-   "Anemia ferropriva grave, condição que cursa com pancitopenia e medula óssea acentuadamente hipocelular.",
-   "Esferocitose hereditária, quadro definido por pancitopenia com medula óssea hipocelular à biópsia."
+   "Anemia aplásica moderada; observação",
+   "Síndrome mielodisplásica; azacitidina",
+   "Grave; transplante de irmão compatível",
+   "Anemia aplásica grave; eltrombopague isolado",
+   "Hemoglobinúria paroxística noturna; eculizumabe"
   ],
   "gab": 2,
   "tema": "hemato",
   "cenario": "enf",
-  "comp": "dx",
+  "comp": "tto",
   "nivel": "r3",
-  "base": "British Society for Haematology guidelines for the diagnosis and management of aplastic anaemia, revisão 2023",
-  "coment": "Pancitopenia com medula hipocelular, sem fibrose, displasia significativa ou infiltração, caracteriza anemia aplásica. A investigação busca causas secundárias: fármacos, hepatite viral, radiação, benzeno, gestação, hemoglobinúria paroxística noturna e síndromes de falência medular hereditárias em pacientes jovens. O tratamento depende da gravidade e da idade: transplante alogênico em jovens com doador ou imunossupressão com globulina antitimócito e ciclosporina.",
+  "base": "British Society for Haematology Guidelines for the diagnosis and management of adult aplastic anaemia, 2024",
+  "coment": "Pelos critérios de Camitta, anemia aplásica grave tem celularidade abaixo de 25% e 2 de 3: neutrófilos abaixo de 500, plaquetas abaixo de 20 mil e reticulócitos abaixo de 60 mil (automatizados); muito grave, neutrófilos abaixo de 200. A BSH (2024) recomenda transplante alogênico de irmão HLA-idêntico como primeira linha em pacientes jovens (em geral abaixo de 40 anos) com doença grave. Sem doador, imunossupressão com globulina antitimocitária, ciclosporina e eltrombopague. Pequenos clones de HPN são comuns na aplasia e não mudam a conduta.",
   "porAlt": [
-   "A leucemia aguda cursa com medula hipercelular e infiltração por blastos, ausente neste caso.",
-   "A mielofibrose cursa com fibrose medular e hematopoese extramedular, achados que não constam aqui.",
-   "Correta: pancitopenia com medula hipocelular sem infiltração ou fibrose caracteriza anemia aplásica.",
-   "A ferropenia isolada causa anemia, e não pancitopenia com medula acentuadamente hipocelular.",
-   "A esferocitose cursa com anemia hemolítica e medula hipercelular por hiperplasia eritroide reativa."
+   "Neutrófilos abaixo de 500 e plaquetas abaixo de 20 mil definem doença grave.",
+   "Não há displasia ou blastos que sugiram mielodisplasia.",
+   "Anemia aplásica grave em jovem com irmão compatível: transplante alogênico como primeira linha.",
+   "Eltrombopague isolado não é tratamento de primeira linha.",
+   "Clone pequeno de HPN sem hemólise significativa não indica eculizumabe."
   ]
  },
  {
@@ -19368,243 +19368,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com anemia e insuficiência renal crônica em hemodiálise, com ferro adequado. Qual é a conduta?",
+  "q": "Homem de 62 anos em hemodiálise há 2 anos por nefropatia diabética tem hemoglobina de 9,2 g/dL e fadiga. Saturação de transferrina de 32% e ferritina de 480 ng/mL, sem sangramento, sem hiperparatireoidismo grave, PCR normal, dialisado adequadamente (Kt/V de 1,4). Teve AVC isquêmico há 5 anos. Não usa agente estimulador da eritropoese. Pressão arterial controlada, sem hipertensão refratária. Pesa 70 kg e está na lista de transplante renal. Qual é a conduta mais adequada?",
   "alts": [
-   "Transfundir concentrado de hemácias mensalmente como estratégia de manutenção da hemoglobina no paciente.",
-   "Normalizar completamente a hemoglobina acima de treze gramas por decilitro em todos os pacientes dialíticos.",
-   "Iniciar apenas ácido fólico isolado como tratamento definitivo da anemia da doença renal crônica dialítica.",
-   "Não tratar a anemia, pois ela não tem qualquer repercussão clínica em pacientes em hemodiálise crônica agora.",
-   "Iniciar agente estimulador da eritropoese com alvo restrito, evitando sempre correção completa da hemoglobina."
+   "Estimulador da eritropoese, alvo de 10 a 11,5",
+   "Ferro sacarato endovenoso adicional",
+   "Agente estimulador com alvo de 13 g/dL",
+   "Transfusão mensal de concentrado",
+   "Apenas observação até hemoglobina de 7"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "KDIGO Clinical Practice Guideline for Anemia in CKD, revisão 2023; ASH/ASCO guidance on ESA use, 2019",
-  "coment": "A anemia da doença renal crônica decorre principalmente da produção insuficiente de eritropoetina. Após garantir estoques adequados de ferro, indica-se agente estimulador da eritropoese com alvo restrito de hemoglobina, tipicamente entre 10 e 11,5 g/dL: ensaios clínicos mostraram que normalizar a hemoglobina aumenta eventos cardiovasculares, acidente vascular cerebral e trombose de acesso. Transfusões repetidas favorecem aloimunização e prejudicam futuro transplante.",
+  "base": "KDIGO Clinical Practice Guideline for Anemia in Chronic Kidney Disease, 2012 (atualização em revisão, 2025); Pfeffer et al., TREAT, NEJM, 2009",
+  "coment": "Com estoques de ferro adequados (saturação acima de 30% e ferritina acima de 500 em diálise são limites para parar de repor), a anemia da doença renal crônica é tratada com agente estimulador da eritropoese quando a hemoglobina está abaixo de 10 g/dL. O KDIGO sugere não ultrapassar 11,5 g/dL: no TREAT e no CHOIR, alvos de 13 g/dL aumentaram AVC, trombose e eventos cardiovasculares, especialmente em quem já teve AVC. Transfusões são evitadas, sobretudo em candidatos a transplante, pela sensibilização.",
   "porAlt": [
-   "A transfusão mensal favorece aloimunização e sobrecarga de ferro, prejudicando futuro transplante.",
-   "Normalizar a hemoglobina aumentou eventos cardiovasculares e trombóticos nos ensaios clínicos.",
-   "O ácido fólico isolado não corrige a deficiência de eritropoetina que causa essa anemia.",
-   "A anemia nessa população associa-se a pior qualidade de vida e a desfechos cardiovasculares.",
-   "Correta: agente estimulador da eritropoese com alvo restrito, evitando normalizar a hemoglobina."
+   "Anemia da doença renal com ferro adequado: agente estimulador, mantendo hemoglobina abaixo de 11,5.",
+   "Ferro já está adequado, e mais ferro não corrige a deficiência de eritropoetina.",
+   "Alvo de 13 aumentou AVC e eventos cardiovasculares.",
+   "Transfusão de rotina causa sensibilização e sobrecarga de ferro.",
+   "Esperar até 7 não é recomendado em paciente sintomático."
   ]
  },
  {
-  "q": "Paciente jovem com trombose venosa profunda não provocada e história familiar de trombose. Qual é a conduta quanto à trombofilia?",
+  "q": "Homem de 36 anos teve trombose venosa profunda proximal de veia femoral sem fator provocador (sem cirurgia, imobilização, viagem longa ou câncer). O pai teve embolia pulmonar aos 50 anos. Está no segundo mês de rivaroxabana, sem sangramento, e o plano da equipe é anticoagulação estendida por tempo indefinido pelo evento não provocado. Pede exames de trombofilia 'para saber o que tem'. Pesa 88 kg, não fuma e tem clearance de 105 mL/min. Não tem abortos ou tromboses arteriais na família. Qual é a conduta mais adequada?",
   "alts": [
-   "Avaliar trombofilia apenas se o resultado mudar a conduta, evitando sempre a coleta durante o evento agudo.",
-   "Solicitar painel completo de trombofilia imediatamente durante o evento agudo em todos esses pacientes.",
-   "Nunca investigar trombofilia, pois o resultado jamais altera a conduta em qualquer situação clínica agora.",
-   "Investigar trombofilia apenas depois de dez anos do evento trombótico inicial apresentado pelo paciente.",
-   "Iniciar anticoagulação apenas se o painel de trombofilia resultar positivo em pelo menos um marcador agora."
+   "Painel completo de trombofilia agora, em uso de rivaroxabana",
+   "Pesquisar e suspender o anticoagulante se o painel vier normal",
+   "Suspender a rivaroxabana por 2 semanas para colher o painel",
+   "Não pesquisar, pois o resultado não mudaria a conduta",
+   "Pesquisar apenas fator V de Leiden e dosar dímero-D"
+  ],
+  "gab": 3,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "American Society of Hematology 2023 Guidelines for Management of Venous Thromboembolism: Thrombophilia Testing, Blood Advances, 2023",
+  "coment": "A ASH (2023) sugere não pesquisar trombofilia quando o resultado não altera a conduta: após tromboembolismo não provocado, a anticoagulação estendida já é indicada independentemente do painel, e um painel normal não autoriza suspender. Anticoagulantes orais diretos interferem em testes funcionais (antitrombina, proteínas C e S, anticoagulante lúpico), e a fase aguda altera proteínas. Exceções em que o teste muda conduta incluem suspeita de síndrome antifosfolípide (em que anticoagulante direto é inferior à varfarina no perfil triplo positivo) e decisão sobre prolongar tratamento em trombose provocada por fator menor.",
+  "porAlt": [
+   "Anticoagulante direto interfere nos testes funcionais e o resultado não muda a conduta.",
+   "Painel normal não reduz o risco de recorrência do evento não provocado.",
+   "Suspender para colher expõe a recorrência sem benefício.",
+   "Tromboembolismo não provocado com plano de anticoagulação indefinida: não pesquisar, pois não muda a conduta.",
+   "Dímero-D e um único marcador não orientam a decisão."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos com artrite reumatoide ativa tem hemoglobina de 9,8 g/dL, VCM de 80 fL, ferritina de 85 ng/mL, saturação de transferrina de 9%, PCR de 42 mg/L. Usa metotrexato e AINE diário há 2 anos. Sem sangramento visível, sem sintomas digestivos. Creatinina normal. Receptor solúvel de transferrina elevado. Pesa 62 kg, está na pós-menopausa há 8 anos e nega melena ou hematoquezia. Faz uso de ácido fólico semanal. Qual é a interpretação mais adequada?",
+  "alts": [
+   "Deficiência de ferro associada à inflamação",
+   "Anemia de doença crônica isolada",
+   "Sobrecarga de ferro inflamatória",
+   "Anemia megaloblástica por metotrexato",
+   "Beta-talassemia menor associada"
   ],
   "gab": 0,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r3",
-  "base": "ASH guidelines for management of venous thromboembolism, 2020 com revisão 2023; ISTH guidance on thrombophilia testing, 2023",
-  "coment": "A pesquisa de trombofilia só se justifica quando o resultado muda a conduta, como na decisão sobre anticoagulação estendida em casos limítrofes, no aconselhamento de familiares e na síndrome antifosfolípide, que altera a escolha do anticoagulante. A coleta durante o evento agudo e em vigência de anticoagulação produz resultados falsamente alterados: proteínas C e S e antitrombina caem no evento e com anticoagulantes, exigindo coleta postergada.",
-  "porAlt": [
-   "Correta: investigar apenas se o resultado mudar a conduta, e nunca durante o evento agudo.",
-   "A coleta na fase aguda e sob anticoagulação produz resultados falsamente alterados e inúteis.",
-   "Há situações em que o resultado muda a conduta, como na síndrome antifosfolípide identificada.",
-   "Aguardar dez anos não faz sentido; o momento correto é após o período agudo e sob condições adequadas.",
-   "A anticoagulação do evento agudo independe totalmente do resultado do painel de trombofilia."
-  ]
- },
- {
-  "q": "Paciente com anemia normocítica, ferritina elevada, saturação de transferrina baixa e doença inflamatória crônica. Qual é o diagnóstico?",
-  "alts": [
-   "Anemia ferropriva clássica, definida por ferritina elevada com saturação de transferrina reduzida.",
-   "Talassemia menor, condição caracterizada por anemia normocítica com ferritina elevada e saturação baixa.",
-   "Anemia de doença crônica, cujo tratamento é sempre o da doença de base que mantém a inflamação agora.",
-   "Anemia megaloblástica por deficiência de vitamina B12, definida por esse perfil do metabolismo do ferro.",
-   "Anemia hemolítica autoimune, quadro definido por ferritina elevada com saturação de transferrina reduzida."
-  ],
-  "gab": 2,
-  "tema": "hemato",
-  "cenario": "amb",
-  "comp": "dx",
   "nivel": "r2",
-  "base": "BSH guidelines on the laboratory diagnosis of functional iron deficiency, revisão 2023; NEJM review on anemia of inflammation, 2022",
-  "coment": "Na anemia de doença crônica, ou anemia da inflamação, a hepcidina elevada bloqueia a liberação de ferro dos estoques e a absorção intestinal, resultando em ferritina normal ou elevada, porque é proteína de fase aguda e os estoques estão preservados, com saturação de transferrina baixa e capacidade total de ligação reduzida. A anemia é tipicamente normocítica e leve a moderada, e o tratamento é o da doença de base que mantém a inflamação.",
+  "base": "Camaschella, Iron deficiency, Blood, 2019; BSG Guidelines for the management of iron deficiency anaemia in adults, 2021",
+  "coment": "Ferritina é reagente de fase aguda e sobe com inflamação, mascarando deficiência de ferro. Com PCR elevada, ferritina abaixo de 100 ng/mL e saturação de transferrina abaixo de 20% sugerem deficiência absoluta associada à inflamação; o receptor solúvel de transferrina (que sobe na deficiência e não na inflamação) e o índice receptor/log ferritina reforçam. Com AINE crônico, investiga-se perda gastrointestinal com endoscopia alta e colonoscopia, e repõe-se ferro, de preferência endovenoso com inflamação ativa.",
   "porAlt": [
-   "A ferropenia cursa com ferritina baixa, o oposto do perfil descrito no enunciado deste caso.",
-   "A talassemia cursa com microcitose acentuada e ferritina normal, sem o padrão inflamatório descrito.",
-   "Correta: anemia de doença crônica, com ferritina elevada e saturação baixa por bloqueio do ferro.",
-   "A deficiência de vitamina B12 cursa com macrocitose e não altera esse perfil do metabolismo do ferro.",
-   "A hemólise cursa com reticulocitose, LDH elevada e haptoglobina baixa, ausentes na descrição."
+   "Ferritina abaixo de 100 com inflamação, saturação de 9% e receptor solúvel elevado: deficiência de ferro associada.",
+   "Ferritina abaixo de 100 com receptor solúvel alto indica deficiência de ferro associada.",
+   "Saturação de 9% afasta sobrecarga.",
+   "VCM de 80 não sugere megaloblastose.",
+   "Microcitose leve com ferritina e saturação baixas não sugere talassemia."
   ]
  },
  {
-  "q": "Paciente em tratamento com varfarina precisa de procedimento cirúrgico eletivo de alto risco de sangramento. Qual é a conduta?",
+  "q": "Homem de 69 anos com fibrilação atrial não valvar (CHA₂DS₂-VASc de 3, sem AVC prévio) usa varfarina com INR estável. Fará ressecção transuretral de próstata, procedimento de alto risco de sangramento, em 10 dias. Não tem valva mecânica, trombose venosa recente ou AVC nos últimos 3 meses. Clearance de 70 mL/min. Pesa 84 kg, tem hemoglobina de 14 g/dL e não teve sangramentos prévios. A cirurgia será sob raquianestesia. Qual é o manejo perioperatório mais adequado?",
   "alts": [
-   "Manter a varfarina em dose plena durante todo o período perioperatório em todos os procedimentos cirúrgicos.",
-   "Suspender a varfarina com antecedência e avaliar sempre a necessidade de ponte conforme o risco tromboembólico.",
-   "Suspender a varfarina no dia da cirurgia sem qualquer antecedência ou avaliação do risco tromboembólico agora.",
-   "Realizar ponte com heparina em todos os pacientes que usam varfarina, independentemente do risco embólico.",
-   "Substituir definitivamente a varfarina por antiagregante plaquetário antes de qualquer procedimento eletivo."
+   "Manter a varfarina com INR de 2",
+   "Suspender e fazer ponte com enoxaparina plena",
+   "Trocar para AAS 10 dias antes",
+   "Suspender 1 dia antes e dar vitamina K",
+   "Suspender 5 dias antes, sem ponte com heparina"
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "ACCP/CHEST Guideline on perioperative management of antithrombotic therapy, 2022; ASH guidelines, 2022",
-  "coment": "Em cirurgia eletiva de alto risco de sangramento, a varfarina é suspensa cerca de cinco dias antes, com verificação do INR na véspera. A ponte com heparina é reservada a pacientes de alto risco tromboembólico (prótese mecânica mitral, fibrilação atrial com escore muito elevado ou evento tromboembólico recente), porque ensaios mostraram que a ponte indiscriminada aumenta sangramento sem reduzir eventos embólicos na maioria dos pacientes.",
+  "base": "Douketis et al., BRIDGE, NEJM, 2015; CHEST Guideline: Perioperative Management of Antithrombotic Therapy, 2022",
+  "coment": "No BRIDGE (NEJM, 2015), em pacientes com fibrilação atrial que suspenderam varfarina para cirurgia, a ponte com heparina de baixo peso molecular não reduziu tromboembolismo e dobrou o sangramento maior. O ACCP (2022) recomenda suspender a varfarina 5 dias antes, sem ponte, na fibrilação atrial sem valva mecânica, e reiniciar 12 a 24 horas após, quando a hemostasia estiver assegurada. Ponte fica para valva mecânica mitral, AVC ou trombose recentes e alguns casos de risco trombótico muito alto.",
   "porAlt": [
-   "Manter a varfarina em cirurgia de alto risco de sangramento expõe a hemorragia perioperatória grave.",
-   "Correta: suspender com antecedência e indicar ponte apenas conforme o risco tromboembólico do paciente.",
-   "Suspender no dia não permite a normalização do INR, que leva vários dias para ocorrer.",
-   "A ponte indiscriminada aumenta sangramento sem reduzir eventos embólicos na maioria dos casos.",
-   "O antiagregante não substitui a anticoagulação nas indicações em que ela é necessária."
+   "Procedimento de alto risco de sangramento exige suspensão.",
+   "Ponte não reduziu eventos e dobrou sangramento no BRIDGE.",
+   "AAS não protege contra AVC e aumenta sangramento.",
+   "Um dia é insuficiente para normalizar o INR.",
+   "Fibrilação atrial sem valva mecânica: suspender 5 dias antes, sem ponte com heparina."
   ]
  },
  {
-  "q": "Paciente com síndrome mielodisplásica de baixo risco, assintomático, com anemia leve. Qual é a conduta?",
+  "q": "Mulher de 74 anos com síndrome mielodisplásica tem anemia dependente de transfusão (2 concentrados por mês há 4 meses), hemoglobina de 7,6 g/dL antes das transfusões, plaquetas de 180 mil/mm³ e neutrófilos de 1.900/mm³. Blastos medulares de 2%. Cariótipo com deleção isolada do 5q, sem mutação de TP53. IPSS-R de baixo risco. Eritropoetina sérica de 620 U/L. Pesa 60 kg, clearance de 58 mL/min e ECOG 1. Ferritina de 900 ng/mL. Qual é o tratamento mais adequado?",
   "alts": [
-   "Acompanhamento com suporte conforme a necessidade, reservando sempre terapia específica à progressão ou aos sintomas.",
-   "Iniciar quimioterapia intensiva imediatamente em todos os pacientes com síndrome mielodisplásica de baixo risco.",
-   "Indicar transplante alogênico de medula óssea imediato para todos os pacientes com essa condição hematológica agora.",
-   "Transfundir concentrado de hemácias semanalmente de rotina mesmo em pacientes assintomáticos e estáveis neste caso.",
-   "Iniciar corticoide sistêmico contínuo em dose alta como tratamento padrão da síndrome mielodisplásica de baixo risco."
+   "Eritropoetina em dose alta",
+   "Azacitidina subcutânea",
+   "Lenalidomida oral",
+   "Transplante alogênico",
+   "Transfusões e quelação"
+  ],
+  "gab": 2,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "NCCN Guidelines: Myelodysplastic Syndromes, 2025; Fenaux et al., MDS-004, Blood, 2011",
+  "coment": "Síndrome mielodisplásica de baixo risco com deleção isolada do 5q e anemia dependente de transfusão responde muito bem à lenalidomida: no MDS-004, cerca de 60% alcançaram independência transfusional. Agentes estimuladores da eritropoese funcionam melhor com eritropoetina abaixo de 500 U/L e baixa carga transfusional. Luspatercept é opção para sideroblastos em anel ou mutação SF3B1. Azacitidina e transplante são para alto risco. Neutropenia e trombocitopenia exigem monitorização no início da lenalidomida.",
+  "porAlt": [
+   "Eritropoetina acima de 500 U/L e dependência transfusional predizem baixa resposta.",
+   "Azacitidina é para alto risco.",
+   "Baixo risco com deleção isolada do 5q e dependência transfusional: lenalidomida.",
+   "Transplante não é indicado no baixo risco sem progressão.",
+   "Há tratamento eficaz que pode suprimir as transfusões."
+  ]
+ },
+ {
+  "q": "Homem de 48 anos tem fadiga e artralgia das segundas e terceiras metacarpofalângicas. Ferritina de 1.850 ng/mL, saturação de transferrina de 82%, homozigoto C282Y. ALT de 68 U/L. Não bebe, sem hepatites virais. Elastografia hepática com 13 kPa. Hemoglobina de 15,2 g/dL. Sem diabetes, sem cardiopatia. Pesa 80 kg e tem irmão e 2 filhos adultos. A glicemia de jejum é 94 mg/dL. Qual é a conduta mais adequada?",
+  "alts": [
+   "Flebotomias semanais e rastreio de carcinoma hepatocelular",
+   "Deferasirox oral como primeira linha",
+   "Dieta sem ferro e reavaliar em 1 ano",
+   "Flebotomias apenas se houver cirrose na biópsia",
+   "Encaminhar para transplante hepático"
   ],
   "gab": 0,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "NCCN Myelodysplastic Syndromes, 2024; ELN recommendations for the management of MDS, revisão 2023",
-  "coment": "As síndromes mielodisplásicas são estratificadas por escores prognósticos que consideram citopenias, blastos e citogenética. Nas de baixo risco, assintomáticas, a conduta é observação com suporte transfusional conforme sintomas, agentes estimuladores da eritropoese na anemia sintomática com eritropoetina baixa, e opções específicas como luspatercepte em subgrupos. Quimioterapia intensiva e transplante alogênico ficam para doença de alto risco ou progressão.",
+  "base": "EASL Clinical Practice Guidelines on haemochromatosis, Journal of Hepatology, 2022",
+  "coment": "Hemocromatose hereditária homozigótica C282Y com sobrecarga (ferritina acima de 1.000 e saturação alta) é tratada com flebotomias de 450 a 500 mL por semana, se tolerado, até ferritina de 50 a 100 ng/mL, seguidas de manutenção. Ferritina acima de 1.000 ng/mL com ALT elevada indica risco de fibrose avançada; elastografia de 13 kPa sugere fibrose avançada, o que exige rastreio de carcinoma hepatocelular a cada 6 meses (EASL 2022). Quelantes são para quem não tolera flebotomia ou tem anemia. Rastreiam-se parentes de primeiro grau.",
   "porAlt": [
-   "Correta: acompanhamento com suporte conforme a necessidade, reservando terapia específica à progressão.",
-   "A quimioterapia intensiva é reservada à doença de alto risco e traz toxicidade elevada e evitável.",
-   "O transplante alogênico se indica na doença de alto risco em pacientes elegíveis, e não em todos.",
-   "A transfusão de rotina em assintomático causa sobrecarga de ferro e aloimunização evitáveis.",
-   "O corticoide não é tratamento padrão da síndrome mielodisplásica e não modifica sua evolução."
+   "Hemocromatose com sobrecarga e fibrose avançada: flebotomias semanais até ferritina de 50 a 100 e rastreio de carcinoma hepatocelular.",
+   "Quelante é para quem não tolera flebotomia.",
+   "Dieta isolada não remove a sobrecarga.",
+   "Não se espera cirrose para tratar; a elastografia já estratifica.",
+   "Não há insuficiência hepática."
   ]
  },
  {
-  "q": "Paciente com hemocromatose hereditária confirmada e ferritina muito elevada. Qual é o tratamento de escolha?",
+  "q": "Homem de 76 anos usa dabigatrana 150 mg duas vezes ao dia por fibrilação atrial. Chega com melena volumosa há 4 horas, pressão de 82/50 mmHg após 1 litro de cristaloide, frequência de 124 bpm, hemoglobina de 6,8 g/dL. Última dose há 5 horas. Clearance de 48 mL/min. Tempo de trombina muito prolongado. Pesa 72 kg e não tem hepatopatia. A endoscopia está disponível em 1 hora. Qual é a conduta de reversão mais adequada?",
   "alts": [
-   "Suplementação oral de ferro para corrigir a alteração do metabolismo do ferro identificada no paciente neste caso.",
-   "Transfusão de concentrado de hemácias como tratamento de escolha para a hemocromatose hereditária nesse contexto.",
-   "Flebotomias terapêuticas seriadas, mantendo sempre alvo de ferritina definido e monitorização periódica dos exames.",
-   "Corticoide sistêmico contínuo em dose alta como tratamento padrão da sobrecarga de ferro hereditária neste caso.",
-   "Apenas dieta com restrição total de carne vermelha como tratamento definitivo da hemocromatose hereditária agora."
+   "Vitamina K 10 mg endovenosa",
+   "Plasma fresco congelado 15 mL/kg isolado",
+   "Andexanet alfa",
+   "Idarucizumabe 5 g endovenoso",
+   "Protamina endovenosa"
+  ],
+  "gab": 3,
+  "tema": "hemato",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "ACC Expert Consensus Decision Pathway on Management of Bleeding in Patients on Oral Anticoagulants, 2020; Pollack et al., RE-VERSE AD, NEJM, 2017",
+  "coment": "Sangramento grave com instabilidade em uso de dabigatrana, com tempo de trombina prolongado confirmando efeito, indica idarucizumabe 5 g endovenoso (2 doses de 2,5 g), anticorpo específico que reverte o efeito em minutos (RE-VERSE AD). Associam-se transfusão, suspensão do fármaco e endoscopia. Na falta dele, hemodiálise remove dabigatrana, e complexo protrombínico é alternativa. Andexanet é para inibidores do fator Xa. Vitamina K, plasma e protamina não revertem a dabigatrana.",
+  "porAlt": [
+   "Vitamina K não reverte inibidores diretos da trombina.",
+   "Plasma não reverte dabigatrana e sobrecarrega volume.",
+   "Andexanet reverte inibidores do fator Xa, não dabigatrana.",
+   "Sangramento grave com dabigatrana: idarucizumabe 5 g endovenoso.",
+   "Protamina reverte heparina."
+  ]
+ },
+ {
+  "q": "Homem de 42 anos tem linfonodo cervical de 3 cm, indolor e endurecido, há 2 meses, com sudorese noturna, febre vespertina e perda de 8% do peso. Sem infecção de orofaringe, sorologias para HIV, EBV e toxoplasmose negativas. Tomografia com linfonodos mediastinais aumentados. PPD de 0 mm. Punção aspirativa por agulha fina anterior mostrou 'células linfoides atípicas'. Hemograma, LDH de 420 U/L e função renal normal. Não tem prurido. Qual é a conduta diagnóstica mais adequada?",
+  "alts": [
+   "Nova punção aspirativa por agulha fina",
+   "Antibiótico por 3 semanas e reavaliar",
+   "PET-CT e iniciar quimioterapia empírica",
+   "Corticoide e observar a redução",
+   "Biópsia excisional do linfonodo"
+  ],
+  "gab": 4,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "NCCN Guidelines: B-Cell Lymphomas and Hodgkin Lymphoma, 2025; ESMO Clinical Practice Guidelines for Hodgkin lymphoma, 2018",
+  "coment": "Suspeita de linfoma (linfonodo persistente endurecido, sintomas B, adenomegalia mediastinal) exige biópsia excisional ou incisional, que preserva a arquitetura necessária para classificação pela OMS e para imuno-histoquímica e estudos moleculares. Punção por agulha fina é insuficiente para diagnosticar e classificar linfoma; biópsia por agulha grossa é aceitável quando a excisão não é viável. Corticoide antes da biópsia pode mascarar o diagnóstico, e tratamento empírico não é aceitável.",
+  "porAlt": [
+   "Punção por agulha fina não permite classificar linfoma.",
+   "Linfonodo persistente com sintomas B não deve ser tratado empiricamente com antibiótico.",
+   "Não se trata linfoma sem diagnóstico histológico.",
+   "Corticoide pode mascarar o diagnóstico histológico.",
+   "Suspeita de linfoma: biópsia excisional, que preserva a arquitetura para classificação."
+  ]
+ },
+ {
+  "q": "Mulher de 66 anos tem plaquetas de 1,6 milhão/mm³ persistentes há 4 meses, sem ferropenia, inflamação, esplenectomia ou infecção. JAK2 V617F positivo. Medula com megacariócitos grandes e hiperlobulados, sem fibrose. Teve epistaxe e hematomas recentes. Atividade do fator de von Willebrand (cofator de ristocetina) de 22%. Nunca teve trombose. Pesa 70 kg, é hipertensa controlada e não fuma. Hemoglobina de 13,5 g/dL e leucócitos normais. Qual é a conduta mais adequada?",
+  "alts": [
+   "AAS 100 mg e observação clínica",
+   "Anagrelida com AAS em dose alta",
+   "Hidroxiureia, sem AAS por ora",
+   "Plaquetaférese de rotina com AAS",
+   "Apenas observação sem tratamento"
   ],
   "gab": 2,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r3",
-  "base": "EASL Clinical Practice Guidelines on haemochromatosis, 2022; AASLD practice guidance, revisão 2023",
-  "coment": "O tratamento da hemocromatose hereditária é a flebotomia terapêutica, inicialmente semanal, com alvo de ferritina em torno de cinquenta nanogramas por mililitro na fase de indução e manutenção posterior com flebotomias espaçadas. O tratamento previne cirrose, diabetes, cardiomiopatia e artropatia quando iniciado antes do dano orgânico. Quelantes de ferro se reservam a quem não tolera flebotomia, como pacientes com anemia significativa ou cardiopatia grave.",
+  "nivel": "tit",
+  "base": "ELN Recommendations for Philadelphia-negative myeloproliferative neoplasms, Leukemia, 2018; Tefferi e Barbui, Essential thrombocythemia: 2024 update, American Journal of Hematology, 2024",
+  "coment": "Trombocitemia essencial com plaquetas acima de 1 a 1,5 milhão pode causar doença de von Willebrand adquirida (adsorção dos multímeros grandes às plaquetas), com risco de sangramento. Cofator de ristocetina abaixo de 30% contraindica AAS até a correção. Idade acima de 60 anos define alto risco no IPSET, com indicação de citorredução, sendo hidroxiureia a primeira linha. Ao reduzir as plaquetas, a atividade do von Willebrand normaliza e o AAS pode ser reconsiderado. Plaquetaférese fica para emergências.",
   "porAlt": [
-   "A suplementação de ferro agrava diretamente a sobrecarga que caracteriza a doença do paciente.",
-   "A transfusão adiciona ferro ao organismo e é o oposto do tratamento indicado na hemocromatose.",
-   "Correta: flebotomias terapêuticas seriadas com alvo de ferritina definido e monitorização periódica.",
-   "O corticoide não tem qualquer papel no tratamento da sobrecarga de ferro hereditária.",
-   "A dieta isolada tem impacto muito limitado sobre a sobrecarga de ferro já estabelecida."
+   "AAS com von Willebrand adquirido aumenta o sangramento.",
+   "AAS em dose alta agrava o sangramento.",
+   "Trombocitemia com von Willebrand adquirido e idade acima de 60: hidroxiureia e AAS só após corrigir.",
+   "Plaquetaférese é reservada para emergências.",
+   "Alto risco e sangramento exigem tratamento."
   ]
  },
  {
-  "q": "Paciente em uso de anticoagulante oral direto apresenta sangramento grave com instabilidade. Qual é a conduta?",
+  "q": "Mulher de 81 anos com insuficiência cardíaca de fração reduzida recebe 2 concentrados de hemácias em 2 horas, consecutivos. Ao fim, tem dispneia, estertores bibásicos, pressão de 178/96 mmHg, turgência jugular e saturação de 86%. Temperatura de 36,9 °C. BNP de 1.450 pg/mL (antes 380). Radiografia com congestão e derrame pleural bilateral. Pesa 55 kg e recebeu as bolsas por anemia de 6,9 g/dL. Usava furosemida 40 mg/dia. Qual é a hipótese e a conduta mais adequada?",
   "alts": [
-   "Administrar vitamina K endovenosa como agente de reversão específico do anticoagulante oral direto neste caso.",
-   "Manter o anticoagulante e apenas transfundir hemácias, sem qualquer tentativa de reversão do efeito neste caso.",
-   "Administrar protamina endovenosa como agente de reversão de escolha do anticoagulante oral direto neste caso.",
-   "Aguardar a eliminação espontânea do fármaco sem qualquer intervenção no paciente com sangramento grave agora.",
-   "Suspender o fármaco e usar agente de reversão específico ou complexo protrombínico, com suporte sempre agressivo."
+   "Sobrecarga circulatória associada à transfusão; diurético e oxigênio",
+   "Lesão pulmonar aguda relacionada à transfusão; restringir diurético",
+   "Reação anafilática; adrenalina intramuscular",
+   "Reação hemolítica aguda; hidratação vigorosa",
+   "Reação febril não hemolítica; antitérmico"
   ],
-  "gab": 4,
-  "tema": "hemato",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r3",
-  "base": "ISTH guidance on reversal of direct oral anticoagulants, revisão 2023; ACC Expert Consensus Decision Pathway, 2020",
-  "coment": "No sangramento grave por anticoagulante oral direto, suspende-se o fármaco e oferece-se suporte agressivo com controle local, reposição volêmica e hemocomponentes. Existem agentes específicos: idarucizumabe para dabigatrana e andexanet alfa para inibidores do fator Xa. Na indisponibilidade, usa-se complexo protrombínico. Vitamina K reverte antagonistas da vitamina K e protamina reverte heparina, nenhuma delas com efeito sobre os anticoagulantes diretos.",
-  "porAlt": [
-   "A vitamina K reverte antagonistas da vitamina K e não tem efeito sobre os anticoagulantes diretos.",
-   "Manter o anticoagulante em sangramento grave perpetua a hemorragia e o risco de morte.",
-   "A protamina reverte heparina e não tem qualquer efeito sobre os anticoagulantes orais diretos.",
-   "Aguardar a eliminação em sangramento grave com instabilidade é conduta de risco inaceitável.",
-   "Correta: suspender o fármaco e usar agente específico ou complexo protrombínico, com suporte agressivo."
-  ]
- },
- {
-  "q": "Paciente com linfonodomegalia cervical indolor, endurecida, com sudorese noturna e perda de peso. Qual é a conduta?",
-  "alts": [
-   "Prescrever antibiótico por dez dias e reavaliar apenas se a linfonodomegalia persistir após o tratamento agora.",
-   "Observar por doze meses antes de qualquer investigação da linfonodomegalia cervical descrita no caso neste caso.",
-   "Realizar apenas punção aspirativa por agulha fina, exame suficiente para o diagnóstico e a classificação do linfoma.",
-   "Prescrever apenas corticoide sistêmico em dose alta antes de qualquer investigação histológica do linfonodo.",
-   "Biópsia excisional do linfonodo para avaliação histológica completa, evitando sempre a punção aspirativa isolada."
-  ],
-  "gab": 4,
-  "tema": "hemato",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "NCCN Hodgkin Lymphoma e B-Cell Lymphomas, 2024; BSH guideline on investigation of lymphadenopathy, revisão 2023",
-  "coment": "Linfonodomegalia indolor, endurecida, persistente e acompanhada de sintomas B (febre, sudorese noturna e perda de peso) exige biópsia excisional, que preserva a arquitetura do linfonodo e permite classificação histológica e imuno-histoquímica, essencial para definir o subtipo e o tratamento. A punção aspirativa fornece células sem arquitetura e é insuficiente para o diagnóstico inicial de linfoma. Corticoide antes da biópsia pode inviabilizar o diagnóstico histológico.",
-  "porAlt": [
-   "Antibiótico empírico atrasa o diagnóstico diante de linfonodo com características claramente suspeitas.",
-   "Observar por doze meses permite progressão de uma neoplasia potencialmente curável no início.",
-   "A punção aspirativa não preserva a arquitetura e é insuficiente para classificar o linfoma.",
-   "O corticoide antes da biópsia pode lisar as células e inviabilizar o diagnóstico histológico.",
-   "Correta: biópsia excisional preserva a arquitetura e permite a classificação histológica completa."
-  ]
- },
- {
-  "q": "Paciente com trombocitose de 700.000/mm³ persistente, sem causa reativa evidente. Qual é a conduta?",
-  "alts": [
-   "Iniciar transfusão de plaquetas para corrigir a contagem plaquetária elevada identificada no hemograma agora.",
-   "Ignorar completamente o achado, pois a trombocitose nunca tem significado clínico relevante no adulto agora.",
-   "Iniciar anticoagulação plena imediata em todos os pacientes com trombocitose persistente identificada agora.",
-   "Indicar esplenectomia imediata em todos os pacientes com trombocitose persistente sem causa reativa neste caso já.",
-   "Investigar neoplasia mieloproliferativa com pesquisa molecular, avaliando sempre o risco trombótico do paciente."
-  ],
-  "gab": 4,
-  "tema": "hemato",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "OMS (classificação de neoplasias mieloides, 5ª edição, 2022; NCCN Myeloproliferative Neoplasms, 2024",
-  "coment": "Trombocitose persistente sem causa reativa) ferropenia, inflamação, infecção, neoplasia, asplenia. Sugere neoplasia mieloproliferativa, sobretudo trombocitemia essencial. A investigação inclui pesquisa de JAK2, CALR e MPL e, quando necessário, biópsia de medula óssea. O tratamento é definido pelo risco trombótico: ácido acetilsalicílico em dose baixa na maioria e citorredução com hidroxiureia nos pacientes de alto risco, com idade avançada ou trombose prévia.",
-  "porAlt": [
-   "A transfusão de plaquetas agravaria a contagem já elevada e não tem qualquer indicação aqui.",
-   "A trombocitose persistente sem causa reativa exige investigação pelo risco trombótico associado.",
-   "A anticoagulação plena não é indicada de rotina; a antiagregação é a conduta habitual inicial.",
-   "A esplenectomia não trata trombocitemia essencial e pode inclusive elevar ainda mais as plaquetas.",
-   "Correta: investigar neoplasia mieloproliferativa com pesquisa molecular e estratificar o risco trombótico."
-  ]
- },
- {
-  "q": "Paciente recebe transfusão e apresenta dispneia e congestão pulmonar com hipertensão nas primeiras horas. Qual é a hipótese?",
-  "alts": [
-   "Reação hemolítica aguda por incompatibilidade ABO, definida por congestão pulmonar com hipertensão arterial.",
-   "Sobrecarga circulatória associada à transfusão, cujo tratamento inclui sempre diurético e redução da velocidade.",
-   "Reação alérgica leve por proteínas plasmáticas, quadro caracterizado por congestão pulmonar e hipertensão agora.",
-   "Contaminação bacteriana da bolsa transfundida, definida por congestão pulmonar com pressão arterial elevada.",
-   "Reação febril não hemolítica simples, condição caracterizada por congestão pulmonar e hipertensão arterial."
-  ],
-  "gab": 1,
+  "gab": 0,
   "tema": "hemato",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "AABB Standards, 2024; Ministério da Saúde. Guia para uso de hemocomponentes, 2021; ISBT definitions of transfusion reactions",
-  "coment": "A sobrecarga circulatória associada à transfusão cursa com dispneia, congestão pulmonar, hipertensão arterial e elevação do peptídeo natriurético, tipicamente nas primeiras seis horas, sendo mais comum em idosos, cardiopatas, nefropatas e com infusão rápida ou de grande volume. O tratamento é interromper ou reduzir a infusão, oxigênio e diurético. A lesão pulmonar aguda relacionada à transfusão, em contraste, cursa com hipotensão e não responde a diurético.",
+  "base": "ISBT Revised TACO Surveillance Definition, 2018; Serious Hazards of Transfusion (SHOT) Annual Report, 2024",
+  "coment": "Dispneia com hipertensão, turgência jugular, BNP elevado e resposta esperada a diurético nas primeiras 12 horas após transfusão em idosa cardiopata caracterizam sobrecarga circulatória associada à transfusão (TACO), hoje a principal causa de morte relacionada à transfusão. Conduta: interromper, sentar, oxigênio, diurético. A lesão pulmonar aguda relacionada à transfusão (TRALI) cursa com hipotensão, febre, BNP pouco elevado e sem sobrecarga. Previne-se TACO com transfusão lenta, 1 unidade por vez e diurético entre as unidades em pacientes de risco.",
   "porAlt": [
-   "A reação hemolítica aguda cursa com febre, dor lombar, hipotensão e hemoglobinúria, não congestão.",
-   "Correta: sobrecarga circulatória associada à transfusão, tratada com diurético e redução da velocidade.",
-   "A reação alérgica leve cursa com urticária e prurido, sem congestão pulmonar nem hipertensão.",
-   "A contaminação bacteriana cursa com febre alta, calafrios e choque, e não com esse padrão congestivo.",
-   "A reação febril não hemolítica cursa apenas com febre e calafrios, sem congestão pulmonar."
+   "Hipertensão, turgência jugular e BNP alto após transfusão rápida em cardiopata: sobrecarga circulatória, com diurético e oxigênio.",
+   "TRALI costuma ter hipotensão e febre, sem sinais de sobrecarga.",
+   "Não há urticária, sibilos ou hipotensão.",
+   "Não há hemólise ou hipotensão, e hidratar pioraria.",
+   "Não há febre."
   ]
  },
  {
@@ -21672,27 +21672,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com plaquetopenia isolada detectada em hemograma de rotina, assintomático, sem sangramento. Qual é a primeira conduta?",
+  "q": "Homem de 45 anos, assintomático, faz exames pré-operatórios de hérnia inguinal. Plaquetas de 38 mil/mm³ no contador automático; hemoglobina e leucócitos normais. Sem petéquias, equimoses ou sangramento em extrações dentárias prévias. Exames de 1 ano atrás normais. Não usa fármacos, não bebe. O esfregaço da mesma amostra (tubo com EDTA) mostra grumos plaquetários. Pressão de 124/80 mmHg, sem esplenomegalia ou hepatopatia. Coagulograma normal. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar corticoide sistêmico em dose alta imediatamente em todos os casos de plaquetopenia isolada detectada agora.",
-   "Transfundir plaquetas profilaticamente em todos os pacientes com plaquetopenia isolada e assintomática neste caso.",
-   "Indicar esplenectomia imediata em todos os pacientes com plaquetopenia isolada detectada em exame de rotina agora já.",
-   "Ignorar completamente o resultado, pois plaquetopenia isolada nunca tem relevância clínica no adulto nesse contexto.",
-   "Repetir o hemograma com citrato para excluir pseudotrombocitopenia, revisando sempre o esfregaço de sangue periférico."
+   "Transfusão de plaquetas antes da cirurgia",
+   "Nova contagem em tubo com citrato",
+   "Mielograma com biópsia de medula",
+   "Prednisona e adiar a cirurgia",
+   "Pesquisa de anticorpo antiplaquetário"
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r2",
-  "base": "ASH guidelines for immune thrombocytopenia, 2019; BSH guideline on the investigation of thrombocytopenia, revisão 2023",
-  "coment": "Diante de plaquetopenia isolada e inesperada em paciente assintomático, o primeiro passo é excluir pseudotrombocitopenia, artefato causado por aglutinação plaquetária dependente de EDTA, repetindo a coleta em tubo com citrato e revisando o esfregaço de sangue periférico. O esfregaço também revela esquizócitos, blastos, plaquetas gigantes e outras alterações que mudam completamente a investigação, sendo passo obrigatório antes de qualquer tratamento.",
+  "nivel": "r1",
+  "base": "Lardinois et al., Pseudothrombocytopenia: a review on causes, occurrence and clinical implications, Journal of Clinical Medicine, 2021; ASH Guidelines for Immune Thrombocytopenia, 2019",
+  "coment": "Plaquetopenia isolada em paciente sem sangramento, com grumos no esfregaço, sugere pseudotrombocitopenia dependente de EDTA (cerca de 0,1% da população): anticorpos reagem com as plaquetas em presença do anticoagulante e formam agregados que o contador não reconhece. Confirma-se com contagem em tubo com citrato (multiplicando pelo fator de diluição) ou heparina, ou por esfregaço de sangue capilar. Não há risco de sangramento e nenhum tratamento é necessário. A cirurgia pode seguir.",
   "porAlt": [
-   "Tratar antes de confirmar a contagem expõe a corticoide um paciente que pode ter apenas artefato.",
-   "A transfusão profilática não é indicada em plaquetopenia assintomática e sem sangramento ativo.",
-   "A esplenectomia é opção de segunda linha em casos refratários, jamais conduta inicial diagnóstica.",
-   "A plaquetopenia isolada pode indicar condições relevantes e sempre exige investigação adequada.",
-   "Correta: repetir com citrato para excluir pseudotrombocitopenia e revisar o esfregaço de sangue periférico."
+   "Não há plaquetopenia real, e transfusão seria desnecessária.",
+   "Grumos em amostra com EDTA sem sangramento: repetir a contagem em tubo com citrato.",
+   "Mielograma não é indicado antes de excluir artefato.",
+   "Tratar pseudotrombocitopenia é erro.",
+   "Anticorpo antiplaquetário não tem papel aqui."
   ]
  },
  {
