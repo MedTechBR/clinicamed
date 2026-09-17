@@ -5256,27 +5256,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 74 anos internada na enfermaria por pneumonia comunitária, no segundo dia de ceftriaxona e azitromicina, apresenta melhora clínica, afebril há vinte e quatro horas, com saturação de 95% em ar ambiente e aceitando dieta oral. Qual é a conduta?",
+  "q": "Mulher de 74 anos está no terceiro dia de internação por pneumonia comunitária de lobo inferior direito, em uso de ceftriaxona e azitromicina endovenosas. Está afebril há 48 horas, com frequência cardíaca de 88 bpm, frequência respiratória de 20 irpm, pressão arterial 128/74 mmHg, saturação de 94% em ar ambiente, lúcida e aceitando bem a dieta oral. Hemoculturas negativas, proteína C reativa em queda. Qual é a conduta mais adequada?",
   "alts": [
-   "Manter a via intravenosa por pelo menos dez dias completos independentemente da melhora dela.",
-   "Ampliar o espectro antimicrobiano para cobrir germes multirresistentes antes de considerar alta.",
-   "Solicitar tomografia de tórax de controle antes de qualquer mudança na via de administração.",
-   "Repetir radiografia de tórax e só liberar a alta quando o infiltrado estiver completamente ausente.",
-   "Transicionar o antibiótico para a via oral e programar alta com o mesmo espectro de cobertura."
+   "Manter antibiótico endovenoso até completar 10 dias",
+   "Trocar para via oral e planejar a alta",
+   "Nova radiografia antes de mudar o tratamento",
+   "Escalonar para piperacilina-tazobactam",
+   "Suspender o antibiótico hoje sem prescrição oral"
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "ATS/IDSA Clinical Practice Guideline: Community-acquired Pneumonia in Adults, 2019; SBPT, diretrizes brasileiras de pneumonia adquirida na comunidade",
-  "coment": "A transição da via intravenosa para a oral é indicada quando o paciente está clinicamente estável, hemodinamicamente compensado, afebril, com melhora dos sintomas respiratórios e capaz de ingerir e absorver medicação. A duração total mínima é de cinco dias, estendida conforme resposta clínica e presença de complicações. A resolução radiológica é lenta, pode levar semanas e não deve retardar a alta nem prolongar o antibiótico, e imagem de controle imediata não é rotina.",
+  "nivel": "r2",
+  "base": "ATS/IDSA Guideline: Diagnosis and Treatment of Adults with Community-acquired Pneumonia, 2019; ATS Clinical Practice Guideline on duration of antibiotic therapy for CAP, 2025",
+  "coment": "Paciente com pneumonia comunitária que atinge estabilidade clínica (temperatura até 37,8 °C, frequência cardíaca até 100 bpm, frequência respiratória até 24 irpm, sistólica de 90 mmHg ou mais, saturação de 90% ou mais em ar ambiente, estado mental normal e capacidade de ingerir) pode passar para antibiótico oral de espectro equivalente e receber alta, sem esperar o fim do curso endovenoso. A duração total é guiada pela estabilidade clínica, e a radiografia melhora mais lentamente que a clínica e não decide a conduta.",
   "porAlt": [
-   "Prolongar a via intravenosa sem necessidade aumenta tempo de internação e risco de complicação de acesso.",
-   "Ampliar o espectro sem falha terapêutica seleciona resistência e não traz benefício ao paciente.",
-   "A tomografia não é necessária diante de boa resposta clínica ao tratamento instituído.",
-   "O infiltrado resolve em semanas e aguardar a limpeza radiológica prolonga internação sem benefício.",
-   "Correta: transição para a via oral e programação de alta, mantendo cobertura equivalente."
+   "Manter a via endovenosa após estabilidade prolonga a internação sem benefício.",
+   "Estabilidade clínica e via oral funcionante: trocar para antibiótico oral de mesmo espectro e dar alta.",
+   "A radiografia demora semanas para melhorar e não orienta a troca.",
+   "Não há falha terapêutica que justifique escalonar.",
+   "Suspender sem completar o curso mínimo não é recomendado."
   ]
  },
  {
@@ -5424,27 +5424,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 70 anos internado na enfermaria por doença pulmonar obstrutiva crônica exacerbada, com pH de 7,28, PaCO2 de 62 mmHg e frequência respiratória de 28, alerta e colaborativo. Qual é a conduta mais adequada?",
+  "q": "Homem de 70 anos com DPOC grave é internado por exacerbação. Após salbutamol e ipratrópio inalatórios, prednisona 40 mg e oxigênio a 2 L/min, a gasometria mostra pH 7,28, PaCO₂ de 62 mmHg, PaO₂ de 58 mmHg e bicarbonato de 30 mEq/L. Frequência respiratória 28 irpm, uso de musculatura acessória, alerta e colaborativo, sem vômitos, com tosse eficaz. Pressão arterial 142/84 mmHg. Recebeu 2 doses de antibiótico e não tem pneumotórax na radiografia. Qual é a conduta ventilatória mais adequada?",
   "alts": [
-   "Proceder à intubação orotraqueal imediata, já que existe acidose respiratória documentada nele.",
-   "Ofertar oxigênio em alto fluxo com máscara não reinalante buscando saturação de cem por cento agora.",
-   "Prescrever apenas broncodilatador e corticoide sistêmico, sem qualquer suporte ventilatório agora.",
-   "Administrar sedativo para reduzir o desconforto respiratório e diminuir o trabalho da respiração.",
-   "Iniciar ventilação não invasiva com dois níveis de pressão e manter tratamento farmacológico pleno."
+   "Oxigênio em alto fluxo para saturação de 98%",
+   "Intubação orotraqueal imediata",
+   "Ventilação não invasiva em dois níveis de pressão",
+   "Cateter nasal de alto fluxo como primeira escolha",
+   "Manter o oxigênio atual e repetir gasometria em 24 horas"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r1",
-  "base": "GOLD. Global Strategy for the Diagnosis, Management and Prevention of COPD, 2026; ERS/ATS guidelines on noninvasive ventilation for acute respiratory failure, 2017",
-  "coment": "Na exacerbação da doença pulmonar obstrutiva crônica com acidose respiratória, definida por pH abaixo de 7,35 com hipercapnia, a ventilação não invasiva com dois níveis de pressão é indicação de primeira linha: reduz intubação, mortalidade e tempo de internação. O paciente está alerta e colaborativo, sem contraindicação. A oxigenoterapia deve ser titulada para saturação entre 88 e 92%, porque a oferta liberal agrava a hipercapnia, e sedativos são evitados fora do ambiente monitorizado.",
+  "base": "ERS/ATS Clinical Practice Guidelines: Noninvasive Ventilation for Acute Respiratory Failure, 2017; GOLD Report, 2025",
+  "coment": "Na exacerbação de DPOC com acidose respiratória (pH de 7,35 ou menos e PaCO₂ acima de 45 mmHg) após tratamento inicial, a ventilação não invasiva em dois níveis de pressão reduz intubação e mortalidade (ERS/ATS 2017, GOLD). Começa-se com pressão inspiratória de cerca de 12 a 15 cmH₂O e expiratória de 4 a 5 cmH₂O, com gasometria em 1 a 2 horas. O oxigênio é titulado para saturação de 88 a 92%. Intubação fica para falha, rebaixamento, instabilidade ou incapacidade de proteger a via aérea.",
   "porAlt": [
-   "A intubação se reserva à falha da ventilação não invasiva, rebaixamento ou instabilidade hemodinâmica.",
-   "Oxigênio em alto fluxo com alvo de saturação máxima agrava a hipercapnia e a acidose respiratória.",
-   "O tratamento farmacológico isolado não corrige a acidose respiratória já instalada nesse paciente.",
-   "Sedativo em paciente hipercápnico fora de ambiente monitorizado agrava a depressão respiratória.",
-   "Correta: ventilação não invasiva com dois níveis de pressão associada ao tratamento farmacológico."
+   "Oxigênio para saturação alta piora a hipercapnia; o alvo é 88 a 92%.",
+   "Paciente alerta e colaborativo tem indicação de ventilação não invasiva antes de intubar.",
+   "Acidose respiratória na exacerbação de DPOC: ventilação não invasiva em dois níveis, que reduz intubação e mortalidade.",
+   "Cateter de alto fluxo não substitui a ventilação não invasiva na acidose hipercápnica.",
+   "Esperar 24 horas com pH de 7,28 arrisca falência respiratória."
   ]
  },
  {
@@ -5808,27 +5808,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 55 anos internada na enfermaria por tromboembolismo pulmonar submaciço, hemodinamicamente estável, com disfunção de ventrículo direito ao ecocardiograma e troponina elevada. Qual é a conduta inicial mais adequada?",
+  "q": "Mulher de 55 anos tem TEP bilateral confirmado por angiotomografia, com razão VD/VE de 1,2. Pressão arterial 122/78 mmHg sem nenhuma queda desde a chegada, frequência 104 bpm, saturação 93% em ar ambiente, lactato 1,4 mmol/L. sPESI de 1 pela frequência, troponina elevada e ecocardiograma com disfunção de ventrículo direito. Sem sangramento ou contraindicação a anticoagulante. Tem 62 kg, creatinina de 0,9 mg/dL e plaquetas de 240 mil. Pela classificação AHA/ACC de 2026, qual é a conduta inicial mais adequada?",
   "alts": [
-   "Anticoagulação plena com monitorização estreita, reservando trombólise para deterioração clínica.",
-   "Trombólise sistêmica imediata para todos os pacientes que apresentem disfunção do ventrículo direito.",
-   "Manter apenas profilaxia de tromboembolismo até que o resultado de novos exames esteja disponível.",
-   "Indicar embolectomia cirúrgica como primeira escolha diante da elevação de troponina observada.",
-   "Iniciar filtro de veia cava inferior em substituição à anticoagulação plena nessa fase inicial."
+   "Alteplase 100 mg em 2 horas",
+   "Anticoagulação e vigilância, com resgate se piorar",
+   "Filtro de veia cava como primeira medida",
+   "Alta para anticoagulação ambulatorial",
+   "Embolectomia cirúrgica eletiva"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "ESC Guidelines for the diagnosis and management of acute pulmonary embolism, 2019; ASH guidelines for management of venous thromboembolism, 2020",
-  "coment": "No tromboembolismo de risco intermediário-alto, com disfunção de ventrículo direito e biomarcadores elevados mas sem hipotensão, a conduta é anticoagulação plena com monitorização estreita, reservando a trombólise de resgate para quem deteriora hemodinamicamente. A trombólise sistêmica de rotina nesse grupo aumentou sangramento grave e hemorragia intracraniana sem reduzir mortalidade no ensaio PEITHO. O filtro de veia cava se destina a contraindicação absoluta à anticoagulação ou a recorrência sob tratamento adequado.",
+  "nivel": "r3",
+  "base": "AHA/ACC Guideline for the Management of Acute Pulmonary Embolism, 2026; Meyer et al., PEITHO, NEJM, 2014",
+  "coment": "Escore de gravidade elevado com troponina e ventrículo direito alterados, sem hipotensão ou hipoperfusão, corresponde à categoria C3 da AHA/ACC 2026 (antigo intermediário-alto). Nessa categoria, a trombólise sistêmica sobre anticoagulação isolada é incerta (2b): o PEITHO mostrou prevenção do colapso ao custo de mais sangramento e AVC. A conduta é anticoagulação, internação com monitorização e trombólise de resgate ou terapia por cateter se houver deterioração, com avaliação pela equipe de resposta ao TEP.",
   "porAlt": [
-   "Correta: anticoagulação plena com vigilância, reservando trombólise para a deterioração hemodinâmica.",
-   "A trombólise de rotina nesse grupo aumentou sangramento grave sem reduzir mortalidade no PEITHO.",
-   "Manter apenas dose profilática subtrata um evento agudo já confirmado e permite a sua progressão.",
-   "A embolectomia se reserva a casos de alto risco com contraindicação ou falha da trombólise sistêmica.",
-   "O filtro não substitui a anticoagulação e se indica na contraindicação absoluta ou na recorrência."
+   "Trombólise em C3 tem benefício incerto e mais sangramento; fica como resgate.",
+   "Categoria C3: anticoagular, monitorizar e reservar reperfusão para deterioração.",
+   "Filtro é para contraindicação à anticoagulação.",
+   "Escore elevado e disfunção de ventrículo direito exigem internação.",
+   "Embolectomia não é indicada no paciente estável."
   ]
  },
  {
@@ -6048,27 +6048,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 71 anos em terapia intensiva por insuficiência respiratória aguda hipoxêmica não hipercápnica, sem indicação imediata de intubação, com desconforto moderado e saturação de 88% sob máscara com reservatório. Qual é a estratégia inicial?",
+  "q": "Mulher de 71 anos está na terapia intensiva por pneumonia com insuficiência respiratória hipoxêmica, sem hipercapnia, em cateter nasal de alto fluxo a 60 L/min há 12 horas. Agora tem saturação de 88% com FiO₂ de 80%, frequência respiratória de 36 irpm, uso de musculatura acessória e respiração paradoxal. Está alerta. Pressão arterial 118/70 mmHg, lactato 1,8 mmol/L. Radiografia com consolidação bilateral, sem pneumotórax, e noradrenalina não foi necessária. Qual é o índice ROX e a conduta mais adequada?",
   "alts": [
-   "Ventilação não invasiva com dois níveis de pressão como primeira escolha na hipoxemia isolada.",
-   "Cateter nasal de alto fluxo com monitorização estreita e reavaliação frequente do índice ROX.",
-   "Manter apenas máscara com reservatório e reavaliar somente após vinte e quatro horas de suporte.",
-   "Intubar imediatamente todos os pacientes que apresentem saturação abaixo de noventa por cento.",
-   "Iniciar oxigenoterapia hiperbárica como suporte inicial para a insuficiência respiratória aguda."
+   "ROX de 7,2; manter o alto fluxo",
+   "ROX de 3,1; intubação orotraqueal",
+   "ROX de 4,4; reavaliar em 12 horas",
+   "ROX de 3,1; trocar para máscara com reservatório",
+   "ROX de 1,2; ventilação não invasiva por 24 horas"
   ],
   "gab": 1,
   "tema": "pneumo",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ERS/ATS clinical practice guideline on high-flow nasal cannula in acute respiratory failure, 2022; ensaio FLORALI, 2015",
-  "coment": "Na insuficiência respiratória aguda hipoxêmica sem hipercapnia, o cateter nasal de alto fluxo reduz a necessidade de intubação em comparação à oxigenoterapia convencional e é a estratégia inicial preferida em pacientes selecionados, com monitorização estreita. O índice ROX, que combina saturação, fração inspirada de oxigênio e frequência respiratória, ajuda a identificar precocemente quem falhará e precisará de intubação. O retardo da intubação na falha se associa a pior desfecho.",
+  "base": "Roca et al., An index combining respiratory rate and oxygenation to predict outcome of nasal high-flow therapy, AJRCCM, 2019; ERS Clinical Practice Guidelines: High-flow nasal cannula in acute respiratory failure, 2022",
+  "coment": "O índice ROX é a razão entre saturação/FiO₂ e frequência respiratória: (88/0,8)/36 = 110/36 ≈ 3,1. Em pacientes com pneumonia em cateter de alto fluxo, ROX de 4,88 ou mais em 2, 6 ou 12 horas prediz sucesso, e abaixo de 3,85 prediz falha. Com ROX baixo, esforço respiratório intenso e FiO₂ alta, adiar a intubação aumenta a mortalidade. Ventilação não invasiva na hipoxemia grave com esforço intenso pode mascarar a piora e gerar volumes lesivos.",
   "porAlt": [
-   "A ventilação não invasiva tem melhor desempenho na insuficiência hipercápnica e no edema pulmonar.",
-   "Correta: cateter nasal de alto fluxo com monitorização estreita e reavaliação pelo índice ROX.",
-   "Manter oxigenoterapia convencional sem reavaliação frequente atrasa o reconhecimento da falha.",
-   "A intubação imediata universal desconsidera estratégias que reduzem essa necessidade em parte dos casos.",
-   "A oxigenoterapia hiperbárica não tem indicação no manejo dessa forma de insuficiência respiratória."
+   "O cálculo está errado: (88/0,8)/36 ≈ 3,1.",
+   "ROX abaixo de 3,85 às 12 horas, com esforço intenso: intubar sem adiar.",
+   "O cálculo está errado, e esperar mais 12 horas atrasa a intubação.",
+   "Máscara com reservatório não resolve a falência.",
+   "O cálculo está errado, e ventilação não invasiva prolongada atrasa a intubação."
   ]
  },
  {
@@ -7176,51 +7176,51 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 54 anos, índice de massa corporal de 38 kg/m², refere ronco alto, engasgos noturnos relatados pela esposa e sonolência diurna excessiva. Tem hipertensão resistente a três fármacos. Qual é a conduta diagnóstica mais apropriada?",
+  "q": "Homem de 54 anos, com índice de massa corporal de 38 kg/m² e circunferência cervical de 44 cm, refere ronco alto, engasgos noturnos relatados pela esposa e sonolência diurna (Epworth de 15). Tem hipertensão resistente em uso de 3 fármacos. Não tem insuficiência cardíaca, DPOC, doença neuromuscular, uso de opioides nem insônia importante. STOP-Bang de 6. Não dirige profissionalmente e nunca fez estudo do sono. Tem acesso a polissonografia e a poligrafia pelo plano. Qual é o exame diagnóstico mais adequado?",
   "alts": [
-   "Solicitar apenas espirometria, exame que estabelece o diagnóstico de apneia obstrutiva do sono.",
-   "Tratar empiricamente com pressão positiva sem nova exame diagnóstico prévio nesse paciente.",
-   "Prescrever modafinila para a sonolência e reavaliar em três meses, sem investigar a causa do quadro.",
-   "Solicitar polissonografia ou poligrafia domiciliar, pela alta probabilidade de apneia do sono.",
-   "Solicitar tomografia de tórax, exame que demonstra o colapso de via aérea superior durante o sono."
+   "Oximetria noturna isolada",
+   "Poligrafia respiratória domiciliar",
+   "Espirometria com broncodilatador",
+   "Ressonância de vias aéreas superiores",
+   "Teste de latências múltiplas do sono"
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American Academy of Sleep Medicine, 2017, Clinical Practice Guideline for Diagnostic Testing for Adult OSA",
-  "coment": "Ronco alto, engasgos presenciados, sonolência diurna e obesidade compõem alta probabilidade pré-teste de apneia obstrutiva do sono, e a hipertensão resistente reforça a suspeita. É uma das causas secundárias que precisam ser rastreadas. O diagnóstico exige teste objetivo: polissonografia em laboratório ou poligrafia domiciliar em pacientes com alta probabilidade e sem comorbidade cardiopulmonar significativa. A espirometria avalia função pulmonar e não tem papel diagnóstico aqui. Tratar sem confirmar impede graduar a gravidade e ajustar a pressão terapêutica.",
+  "base": "AASM Clinical Practice Guideline for Diagnostic Testing for Adult Obstructive Sleep Apnea, 2017",
+  "coment": "Em adulto com alta probabilidade de apneia obstrutiva do sono moderada a grave (sonolência, ronco, apneias testemunhadas, obesidade, hipertensão), sem comorbidades que comprometam a acurácia (doença cardiopulmonar significativa, doença neuromuscular, uso crônico de opioides, suspeita de outros distúrbios do sono), a AASM (2017) recomenda polissonografia ou teste domiciliar tecnicamente adequado (poligrafia tipo 3). Oximetria isolada não é suficiente. Se o teste domiciliar for negativo ou inconclusivo, faz-se polissonografia.",
   "porAlt": [
-   "A espirometria mede função pulmonar em vigília e não detecta eventos obstrutivos que ocorrem durante o sono.",
-   "Tratar sem diagnóstico impede graduar gravidade, titular a pressão e documentar a indicação para o seguimento.",
-   "A modafinila trata sintoma sem corrigir a causa e não deve preceder a investigação de um quadro tão sugestivo.",
-   "Correta: alta probabilidade clínica indica teste objetivo, com polissonografia ou poligrafia domiciliar conforme o perfil.",
-   "A tomografia é exame estático e não demonstra colapso dinâmico de via aérea superior durante o sono."
+   "Oximetria isolada não diagnostica apneia obstrutiva do sono.",
+   "Alta probabilidade sem comorbidades complicadoras: poligrafia domiciliar é adequada; se negativa, polissonografia.",
+   "Espirometria não investiga apneia.",
+   "Ressonância não é exame diagnóstico de apneia.",
+   "Latências múltiplas são para narcolepsia e hipersonias centrais."
   ]
  },
  {
-  "q": "Homem de 66 anos, tabagista de 40 maços-ano, mantém a carga tabágica atual e tem 55 anos de idade completos há mais de uma década. Está assintomático e pergunta sobre exames para detectar câncer de pulmão precocemente. Qual é a conduta baseada em evidência?",
+  "q": "Homem de 72 anos, ex-tabagista de 25 maços-ano, parou de fumar há 12 anos. Assintomático, com boa capacidade funcional, sem doença que limite a expectativa de vida ou impeça cirurgia torácica. Não fez tomografia de tórax nos últimos anos. Pergunta sobre rastreamento de câncer de pulmão, pois um amigo com história parecida recebeu o diagnóstico. Espirometria recente com DPOC leve. Não tem tosse, hemoptise ou perda de peso. Qual é a conduta pela recomendação do USPSTF?",
   "alts": [
-   "Solicitar radiografia de tórax anual, exame consagrado para o rastreamento de câncer de pulmão.",
-   "Solicitar dosagem sérica de marcadores tumorais, estratégia mais custo-efetiva para essa finalidade.",
-   "Oferecer tomografia de baixa dose anual, com decisão compartilhada e apoio à cessação do tabagismo.",
-   "Não oferecer rastreamento nenhum, já que nenhum exame reduz mortalidade por câncer de pulmão hoje.",
-   "Solicitar broncoscopia com lavado a cada dois anos, protocolo indicado só para grandes tabagistas."
+   "Não rastrear, pois parou de fumar",
+   "Tomografia de baixa dose anual, com decisão compartilhada",
+   "Radiografia de tórax anual",
+   "Citologia de escarro semestral",
+   "Não rastrear, pela idade acima de 70 anos"
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "GOLD 2026 e US Preventive Services Task Force, 2021, rastreamento de câncer de pulmão com tomografia de baixa dose",
-  "coment": "O rastreamento com tomografia de baixa dose anual reduz mortalidade por câncer de pulmão em população de risco: adultos com carga tabágica significativa, fumantes atuais ou que cessaram há menos de 15 anos, dentro da faixa etária recomendada. A conversa deve ser compartilhada, porque há falsos-positivos, achados incidentais e exposição à radiação, e deve vir acompanhada da intervenção com maior impacto de todas: apoio estruturado à cessação do tabagismo. A radiografia de tórax não reduz mortalidade e marcadores séricos não têm papel no rastreamento.",
+  "base": "USPSTF Recommendation Statement: Screening for Lung Cancer, 2021; American Cancer Society Guideline for Lung Cancer Screening, 2023",
+  "coment": "O USPSTF (2021) recomenda tomografia de baixa dose anual para adultos de 50 a 80 anos com carga tabágica de 20 maços-ano ou mais que fumam atualmente ou pararam há menos de 15 anos. A ACS (2023) retirou o critério de tempo desde a cessação. O rastreamento deve incluir decisão compartilhada, apoio à cessação para quem fuma e ser interrompido quando a pessoa passa 15 anos sem fumar ou desenvolve condição que limite a expectativa de vida ou a possibilidade de cirurgia. Radiografia e citologia de escarro não reduzem mortalidade.",
   "porAlt": [
-   "A radiografia anual foi testada e não reduz mortalidade por câncer de pulmão, tendo sido abandonada como rastreamento.",
-   "Marcadores tumorais séricos não têm sensibilidade nem especificidade para rastrear câncer de pulmão em assintomáticos.",
-   "Correta: tomografia de baixa dose anual, com decisão compartilhada e apoio à cessação, é o rastreamento com benefício demonstrado.",
-   "Existe rastreamento com redução de mortalidade demonstrada, de modo que negar a discussão priva o paciente do benefício.",
-   "Broncoscopia é exame invasivo e diagnóstico, sem qualquer papel como estratégia de rastreamento populacional."
+   "Parou há menos de 15 anos: ainda é elegível.",
+   "50 a 80 anos, 20 maços-ano ou mais e cessação há menos de 15 anos: tomografia de baixa dose anual, com decisão compartilhada.",
+   "Radiografia de tórax não reduz mortalidade por câncer de pulmão.",
+   "Citologia de escarro não é método de rastreamento.",
+   "A faixa etária vai até 80 anos."
   ]
  },
  {
@@ -7992,75 +7992,75 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 63 anos com embolia pulmonar confirmada está com pressão de 122/78 mmHg e frequência de 96 bpm, mas apresenta troponina elevada e relação entre ventrículo direito e esquerdo aumentada na angiotomografia. Como classificar e onde tratar esse paciente?",
+  "q": "Homem de 63 anos com TEP bilateral confirmado chegou com pressão arterial de 84/52 mmHg, que subiu para 108/66 mmHg após 500 mL de cristaloide e se mantém há 1 hora sem vasopressor. Frequência 118 bpm, extremidades frias, enchimento capilar de 4 segundos, lactato de 3,6 mmol/L e diurese baixa. Troponina elevada e razão VD/VE de 1,4. Sem hipoxemia importante. Pela classificação AHA/ACC de 2026, em que categoria ele está?",
   "alts": [
-   "Categoria A, uma vez que a pressão arterial normal caracteriza embolia pulmonar de baixo risco real.",
-   "Categoria C, com indicação de hospitalização para otimizar as estratégias de tratamento adotadas.",
-   "Categoria B, com alta precoce indicada por não haver hipotensão nem necessidade de vasopressor agora.",
-   "Categoria E, definida pela presença de disfunção do ventrículo direito em qualquer nível de pressão.",
-   "Fora das categorias, que se aplicam somente aos pacientes com instabilidade hemodinâmica instalada."
+   "Categoria C3",
+   "Categoria D1",
+   "Categoria D2",
+   "Categoria E1",
+   "Categoria E2"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "AHA/ACC 2026. Categorias clínicas de embolia pulmonar, categoria C",
-  "coment": "A categoria C reúne pacientes sintomáticos com escore de gravidade clínica elevado, incluindo aqueles com biomarcadores elevados e disfunção de ventrículo direito, exatamente o quadro descrito. Esses pacientes devem ser hospitalizados para otimizar o tratamento, mesmo estando normotensos, porque são os que podem deteriorar nas primeiras horas. A categoria D corresponde à falência cardiopulmonar incipiente e a E à falência com hipotensão persistente. Confundir pressão normal com gravidade baixa é o erro clássico da embolia de risco intermediário.",
+  "base": "AHA/ACC Guideline for the Management of Acute Pulmonary Embolism, 2026",
+  "coment": "A AHA/ACC 2026 criou a categoria D para o estado de pré-falência cardiopulmonar, que a classificação antiga jogava no lado estável. D1 é hipotensão transitória ou recorrente, responsiva a volume, sem hipoperfusão; D2 é a mesma hipotensão transitória com marcador de hipoperfusão (lactato elevado, extremidades frias, oligúria), incluindo o choque normotenso. E1 é hipotensão persistente com choque cardiogênico, e E2, choque refratário ou parada. A categoria vem do indicador mais grave e muda ao longo da internação.",
   "porAlt": [
-   "A categoria A é reservada ao paciente assintomático, o que não se aplica a quem tem sintomas e disfunção ventricular.",
-   "Correta: sintomático com biomarcador elevado e disfunção de ventrículo direito é categoria C, com indicação de internação.",
-   "A categoria B pressupõe escore de gravidade clínica baixo, incompatível com troponina elevada e sobrecarga ventricular.",
-   "A categoria E exige falência cardiopulmonar com hipotensão persistente, ausente neste paciente normotenso.",
-   "As categorias cobrem todo o espectro, do assintomático ao choque, e não apenas os pacientes instáveis."
+   "C3 não tem hipotensão; aqui houve hipotensão transitória com hipoperfusão.",
+   "D1 é hipotensão transitória sem sinais de hipoperfusão.",
+   "Hipotensão transitória que respondeu a volume com lactato alto e extremidades frias: D2, pré-falência com hipoperfusão.",
+   "E1 exige hipotensão persistente ou recorrente com choque.",
+   "E2 é choque refratário ou parada cardíaca."
   ]
  },
  {
-  "q": "Paciente com embolia pulmonar e hipotensão persistente apesar de volume e noradrenalina, com lactato em elevação, é discutido pela equipe. Segundo a diretriz vigente, qual é a posição das terapias avançadas nesse cenário?",
+  "q": "Mulher de 58 anos, no quarto dia de pós-operatório de artroplastia de joelho, tem dispneia súbita e síncope. Pressão arterial 76/48 mmHg há 40 minutos, apesar de 1 litro de cristaloide e noradrenalina 0,3 µg/kg/min, lactato 5,2 mmol/L. Ecocardiograma à beira do leito com ventrículo direito muito dilatado e trombo em trânsito no átrio direito. A cirurgia foi feita com raquianestesia, sem sangramento. Qual é a conduta de reperfusão mais adequada?",
   "alts": [
-   "Estão contraindicadas enquanto o paciente usar vasopressor, por risco proibitivo de sangramento.",
-   "Ficam reservadas apenas aos pacientes com contraindicação absoluta à anticoagulação plena convencional.",
-   "Devem ser adiadas por vinte e quatro horas de anticoagulação plena antes de qualquer decisão invasiva.",
-   "São sempre razoáveis nessa categoria: trombólise sistêmica, cateter dirigido e trombectomia mecânica.",
-   "São indicadas somente após confirmação de trombo em átrio direito pelo ecocardiograma transesofágico."
+   "Anticoagulação plena isolada e reavaliar em 24 horas",
+   "Filtro de veia cava imediato e anticoagulação plena",
+   "Reperfusão trombolítica ou mecânica, conforme o risco de sangramento",
+   "Aguardar angiotomografia antes de qualquer reperfusão",
+   "Intubação imediata antes de qualquer outra medida"
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "tit",
-  "base": "AHA/ACC 2026 (terapias avançadas nas categorias E1 e D1-2 da embolia pulmonar aguda",
-  "coment": "A diretriz de 2026 posiciona as terapias avançadas) trombólise sistêmica, trombólise dirigida por cateter, trombectomia mecânica e embolectomia cirúrgica, como razoáveis para pacientes na categoria E1, isto é, falência cardiopulmonar com hipotensão persistente, e como possíveis de considerar nas categorias D1 e D2, de falência cardiopulmonar incipiente. A diretriz também recomenda a existência de equipes de resposta à embolia pulmonar, os chamados PERT, para melhorar a tempestividade do cuidado, já que essa decisão é multidisciplinar e sensível ao tempo.",
+  "base": "AHA/ACC Guideline for the Management of Acute Pulmonary Embolism, 2026; ESC Guidelines for acute pulmonary embolism, 2019",
+  "coment": "Hipotensão persistente com choque caracteriza a categoria E1 da AHA/ACC 2026 (antigo TEP maciço). Com risco de sangramento aceitável, trombólise sistêmica somada à anticoagulação é razoável para reduzir mortalidade e recorrência (2a); alteplase 100 mg em 2 horas é o esquema mais usado. Cirurgia de grande porte há 4 dias é contraindicação relativa, e a equipe de resposta ao TEP pesa trombólise em dose reduzida, trombectomia por cateter ou embolectomia cirúrgica, esta última atraente com trombo em trânsito. A intubação pode precipitar colapso no ventrículo direito falido e deve ser evitada ou feita com extremo cuidado.",
   "porAlt": [
-   "O uso de vasopressor não contraindica terapia avançada; ao contrário, marca a gravidade que a justifica nesse cenário.",
-   "Contraindicação à anticoagulação leva a filtro de veia cava, e não é o que define a indicação de terapia avançada.",
-   "Adiar por vinte e quatro horas em paciente com choque desperdiça a janela em que a reperfusão ainda muda o desfecho.",
-   "Correta: na categoria E1 as terapias avançadas são razoáveis, e a diretriz recomenda acionar a equipe de resposta à embolia.",
-   "Trombo em átrio direito é um achado adicional, mas não é pré-requisito para indicar terapia avançada no choque."
+   "Choque persistente exige reperfusão, não só anticoagulação.",
+   "Filtro não trata o choque.",
+   "Categoria E1: reperfusão imediata, trombolítica ou mecânica, pesando a cirurgia recente e o trombo em trânsito.",
+   "Com ecocardiograma compatível e instabilidade, não se deve esperar a tomografia.",
+   "Intubar antes de reperfundir pode precipitar parada pelo ventrículo direito."
   ]
  },
  {
-  "q": "Homem de 47 anos teve embolia pulmonar não provocada, sem cirurgia, trauma, imobilização ou neoplasia identificados. Completou seis meses de anticoagulação com boa tolerância e sem sangramento. Qual é a conduta quanto à duração do tratamento?",
+  "q": "Homem de 47 anos teve TEP segmentar bilateral não provocado, sem cirurgia, trauma, imobilização, câncer ou trombofilia conhecida. Completou 6 meses de apixabana 5 mg duas vezes ao dia, com boa adesão e sem sangramento. Função renal normal, sem úlcera ou uso de antiagregante. Pesquisa de câncer adequada para a idade negativa. Prefere seguir tratando se for seguro. O índice de massa corporal é 29 kg/m² e ele pratica corrida 3 vezes por semana. Qual é a conduta ao fim da fase inicial?",
   "alts": [
-   "Suspender agora, pois seis meses já encerram o tratamento em qualquer embolia do adulto jovem.",
-   "Suspender e repetir angiotomografia anualmente, estratégia que substitui a manutenção do anticoagulante.",
-   "Trocar por ácido acetilsalicílico em dose baixa por tempo indefinido, com a mesma eficácia preventiva.",
-   "Manter apenas meia dose por mais três meses e então encerrar definitivamente qualquer antitrombótico.",
-   "Estender a anticoagulação além da fase inicial, com reavaliação periódica do risco de sangramento."
+   "Suspender, pois completou 6 meses",
+   "Trocar para varfarina com INR 2 a 3",
+   "Apixabana 2,5 mg duas vezes ao dia estendida",
+   "Ácido acetilsalicílico e suspender o apixabana",
+   "Filtro de veia cava e suspender a anticoagulação"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "AHA/ACC 2026, anticoagulação na fase estendida após primeira embolia sem fator de risco maior reversível",
-  "coment": "A diretriz recomenda que pacientes com primeira embolia pulmonar sem fator de risco maior reversível, e também aqueles com fator de risco persistente, continuem a anticoagulação além da fase inicial de tratamento, de três a seis meses, entrando na fase estendida. O racional é o risco elevado de recorrência da doença não provocada, que se mantém alto após a suspensão. A decisão é revisada periodicamente, pesando risco de recorrência contra risco hemorrágico, e alguns anticoagulantes diretos permitem dose reduzida nessa fase. O ácido acetilsalicílico é bem menos eficaz que a anticoagulação.",
+  "base": "AHA/ACC Guideline for the Management of Acute Pulmonary Embolism, 2026; Agnelli et al., AMPLIFY-EXT, NEJM, 2013",
+  "coment": "Primeiro TEP sem fator de risco maior reversível tem recorrência de 30 a 40% em 10 anos se a anticoagulação for suspensa. A AHA/ACC 2026 considera benéfica a fase estendida além de 3 a 6 meses (classe 1) e recomenda, nela, meia dose de apixabana (2,5 mg duas vezes ao dia) ou rivaroxabana (10 mg/dia) para reduzir sangramento (classe 1). O risco de sangramento é reavaliado periodicamente. Aspirina é alternativa apenas para quem recusa ou não pode anticoagular.",
   "porAlt": [
-   "Encerrar em seis meses é a conduta da embolia provocada por fator maior reversível, o que não é o caso descrito.",
-   "Repetir imagem não previne recorrência e não substitui a anticoagulação na prevenção secundária do tromboembolismo.",
-   "O antiagregante reduz pouco a recorrência quando comparado ao anticoagulante e não é substituto adequado.",
-   "Não existe esquema de meia dose por três meses como estratégia de encerramento; a fase estendida é contínua e revisada.",
-   "Correta: embolia sem fator de risco maior reversível tem indicação de fase estendida, com reavaliação periódica do risco."
+   "TEP não provocado tem alta recorrência após suspender.",
+   "Varfarina tem mais sangramento e não é superior.",
+   "TEP não provocado ao fim da fase inicial: anticoagulação estendida com meia dose de apixabana, reavaliando o sangramento.",
+   "Aspirina é inferior e fica para quem não pode anticoagular.",
+   "Filtro não substitui anticoagulação."
   ]
  },
  {
@@ -9408,243 +9408,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 32 anos com asma usa apenas salbutamol de resgate, três a quatro vezes por semana, e acorda à noite duas vezes por mês. Segundo a estratégia vigente, qual é a conduta?",
+  "q": "Mulher de 32 anos com asma diagnosticada por espirometria usa apenas salbutamol de resgate, 3 a 4 vezes por semana, e acorda à noite pela asma 2 vezes por mês. Não teve exacerbação com corticoide oral no último ano. Técnica inalatória adequada, sem tabagismo. Pico de fluxo de 82% do previsto. Não tem refluxo nem rinite importante. Usa o salbutamol também antes de correr 3 vezes por semana e trabalha como professora. Pela estratégia do GINA, qual é o tratamento mais adequado?",
   "alts": [
-   "Manter apenas o salbutamol de resgate, que é suficiente para essa frequência de sintomas.",
-   "Iniciar corticoide oral contínuo em dose baixa como terapia de manutenção para essa paciente.",
-   "Prescrever antileucotrieno isolado, primeira escolha de manutenção em qualquer degrau da asma.",
-   "Indicar imunobiológico desde já, independentemente do fenótipo inflamatório apresentado por ela.",
-   "Introduzir corticoide inalatório, pois nenhum paciente com asma deve usar só broncodilatador."
+   "Manter o salbutamol, que controla bem",
+   "Budesonida-formoterol em dose baixa conforme sintomas",
+   "Salmeterol isolado de manutenção",
+   "Montelucaste isolado como primeira escolha",
+   "Prednisona oral por 7 dias"
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "GINA 2026, Global Strategy for Asthma Management and Prevention",
-  "coment": "A estratégia atual eliminou o tratamento apenas com broncodilatador de curta ação: todo adulto e adolescente com asma deve receber tratamento contendo corticoide inalatório, seja como manutenção diária, seja no esquema de anti-inflamatório de resgate com corticoide combinado a formoterol. O uso isolado de salbutamol aumenta exacerbações graves e mortalidade. A paciente descrita tem asma não controlada, com sintomas frequentes e despertares noturnos, o que reforça a introdução do corticoide inalatório.",
+  "base": "Global Initiative for Asthma (GINA), Global Strategy for Asthma Management and Prevention, 2025",
+  "coment": "O GINA não recomenda tratamento apenas com broncodilatador de curta ação, pelo risco de exacerbações graves e morte. Na via preferencial (trilha 1), sintomas menos que diários são tratados com budesonida-formoterol em dose baixa usada conforme a necessidade, que reduziu exacerbações graves em comparação com salbutamol isolado e foi semelhante ao corticoide inalatório diário. Beta-agonista de longa ação sem corticoide é contraindicado.",
   "porAlt": [
-   "Manter só o salbutamol aumenta exacerbação grave e mortalidade, mesmo com sintomas aparentemente leves.",
-   "O corticoide oral contínuo é reservado à asma grave refratária, pelo perfil de efeitos adversos.",
-   "O antileucotrieno é alternativa de segunda linha e não substitui o corticoide inalatório na manutenção.",
-   "O imunobiológico é indicado na asma grave com fenótipo definido, após otimização do tratamento inalatório.",
-   "Correta: nenhum paciente deve ficar só com broncodilatador; o corticoide inalatório é obrigatório na asma."
+   "Broncodilatador de curta ação isolado aumenta o risco de exacerbação grave e morte.",
+   "Sintomas menos que diários: budesonida-formoterol em dose baixa conforme a necessidade (trilha 1 do GINA).",
+   "Beta-agonista de longa ação sem corticoide aumenta mortalidade.",
+   "Montelucaste é menos eficaz que corticoide inalatório.",
+   "Corticoide oral não é tratamento de controle."
   ]
  },
  {
-  "q": "Homem de 70 anos, ex-tabagista, tem dispneia progressiva e estertores em velcro nas bases. A tomografia mostra faveolamento subpleural com predomínio basal e bronquiectasias de tração. Qual é o padrão e a conduta?",
+  "q": "Homem de 70 anos, ex-tabagista, tem dispneia progressiva há 2 anos e estertores em velcro nas bases. Tomografia de alta resolução: reticulação subpleural de predomínio basal, faveolamento e bronquiectasias de tração, sem vidro fosco extenso, nódulos ou aprisionamento aéreo. FAN, fator reumatoide e anti-CCP negativos; sem exposição a aves, mofo ou fármacos. CVF de 68% e difusão de 45% do previsto. Saturação de 91% em repouso, com dessaturação para 84% na caminhada. Qual é o diagnóstico e a conduta?",
   "alts": [
-   "Padrão de vidro fosco difuso, indicando corticoide em dose alta como tratamento de primeira linha.",
-   "Padrão de pneumonia intersticial usual, com avaliação para antifibrótico e reabilitação pulmonar.",
-   "Padrão de consolidação alveolar, tratado com antimicrobiano de amplo espectro por catorze dias.",
-   "Padrão de enfisema centrolobular, tratado exclusivamente com broncodilatador de longa duração.",
-   "Padrão de nódulos centrolobulares, que indica biópsia cirúrgica imediata para todos os pacientes."
+   "Pneumonite de hipersensibilidade; afastar exposição",
+   "Fibrose pulmonar idiopática; antifibrótico sem biópsia",
+   "Biópsia pulmonar cirúrgica antes de qualquer tratamento",
+   "Pneumonia em organização; prednisona",
+   "Sarcoidose estágio IV; corticoide"
   ],
   "gab": 1,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ATS/ERS/JRS/ALAT, 2022, Idiopathic Pulmonary Fibrosis, diagnóstico e tratamento",
-  "coment": "Faveolamento subpleural de predomínio basal com bronquiectasias de tração define o padrão de pneumonia intersticial usual, característico da fibrose pulmonar idiopática quando afastadas causas secundárias. O diagnóstico em padrão típico dispensa biópsia. O tratamento inclui antifibróticos, que reduzem a queda da função pulmonar, reabilitação pulmonar, oxigenoterapia quando indicada, tratamento de refluxo e avaliação precoce para transplante. Corticoide isolado não beneficia e pode piorar o desfecho nessa doença.",
+  "base": "ATS/ERS/JRS/ALAT Clinical Practice Guideline: Idiopathic Pulmonary Fibrosis and Progressive Pulmonary Fibrosis, 2022",
+  "coment": "Padrão de pneumonia intersticial usual na tomografia (faveolamento subpleural basal com ou sem bronquiectasias de tração) em paciente com contexto clínico compatível e sem causa identificável (exposições, fármacos, doença do tecido conjuntivo) define fibrose pulmonar idiopática sem necessidade de biópsia, após discussão multidisciplinar (ATS/ERS/JRS/ALAT 2022). O tratamento é antifibrótico (nintedanibe ou pirfenidona), que reduz o declínio da CVF, além de reabilitação, oxigênio se necessário e avaliação para transplante. Corticoide é prejudicial.",
   "porAlt": [
-   "Vidro fosco difuso sugere outras pneumopatias intersticiais, com abordagem e prognóstico distintos.",
-   "Correta: faveolamento basal com bronquiectasias de tração é padrão de pneumonia intersticial usual; avaliar antifibrótico.",
-   "Consolidação alveolar sugere processo infeccioso ou inflamatório agudo, não a fibrose crônica descrita.",
-   "O enfisema tem outro padrão tomográfico e não cursa com faveolamento nem bronquiectasias de tração.",
-   "Nódulos centrolobulares sugerem doença de vias aéreas pequenas, e o padrão típico dispensa biópsia."
+   "Sem exposição e sem nódulos ou aprisionamento aéreo, pneumonite de hipersensibilidade é improvável.",
+   "Padrão de pneumonia intersticial usual típico sem causa identificada: fibrose pulmonar idiopática; antifibrótico sem biópsia.",
+   "Com padrão típico, a biópsia não é necessária.",
+   "Pneumonia em organização tem consolidações, não faveolamento.",
+   "Sarcoidose tem predomínio superior e peribroncovascular."
   ]
  },
  {
-  "q": "Mulher de 45 anos tem tosse seca há dois meses, iniciada após quadro gripal, com radiografia e espirometria normais. Não usa inibidor da enzima conversora e não é tabagista. Quais são as três causas mais prováveis?",
+  "q": "Mulher de 58 anos tem tosse seca irritativa há 4 meses, pior à noite, com sensação de coceira na garganta. Iniciou enalapril 20 mg/dia há 5 meses para hipertensão. Não fuma, não tem pirose, rinorreia ou chiado. Radiografia de tórax e espirometria normais. Exame físico sem alterações. Pressão arterial 128/80 mmHg. Já tomou xarope antitussígeno por 2 semanas sem melhora, e a tosse atrapalha as aulas que dá. Qual é a conduta inicial mais adequada?",
   "alts": [
-   "Tuberculose pulmonar, câncer de pulmão e bronquiectasia difusa não diagnosticada previamente neste caso.",
-   "Insuficiência cardíaca, embolia pulmonar crônica e hipertensão arterial pulmonar idiopática neste caso.",
-   "Tosse variante de asma, refluxo gastroesofágico e síndrome de tosse de vias aéreas superiores dela.",
-   "Fibrose cística, deficiência de alfa-1-antitripsina e discinesia ciliar primária do adulto neste caso.",
-   "Sarcoidose pulmonar, pneumoconiose ocupacional e proteinose alveolar de início tardio neste caso."
+   "Tomografia de tórax de alta resolução",
+   "Inibidor de bomba por 8 semanas",
+   "Trocar o enalapril por losartana",
+   "Corticoide inalatório empírico",
+   "Broncoscopia com lavado"
   ],
   "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American College of Chest Physicians, 2018, e Harrison's, 22ª edição, 2025, tosse crônica",
-  "coment": "Na tosse crônica com radiografia normal, em não tabagista sem inibidor da enzima conversora, três causas respondem pela grande maioria dos casos: síndrome de tosse de vias aéreas superiores, antes chamada de gotejamento pós-nasal, asma na forma de tosse variante e doença do refluxo gastroesofágico. Podem coexistir. A abordagem é sequencial, com tratamento empírico dirigido a cada hipótese e reavaliação. A investigação ampla de saída raramente é necessária quando radiografia e espirometria são normais.",
+  "base": "CHEST Guideline and Expert Panel Report: Classification of Cough as a Symptom in Adults, 2018; ACCP evidence-based guideline on ACE inhibitor-induced cough, 2006",
+  "coment": "Tosse por inibidor da enzima conversora ocorre em até 15% dos usuários, por acúmulo de bradicinina e substância P, pode começar semanas a meses após o início e independe da dose. O CHEST recomenda suspender o fármaco em todo paciente com tosse crônica em uso de IECA, trocando por bloqueador do receptor de angiotensina, que não causa tosse. A melhora ocorre em 1 a 4 semanas, podendo levar até 3 meses. Só se a tosse persistir investigam-se as outras causas.",
   "porAlt": [
-   "Essas hipóteses costumam alterar a radiografia e ganham peso diante de fatores de risco ausentes aqui.",
-   "Causas cardiovasculares cursam com outros achados e não explicam tosse seca com exames normais.",
-   "Correta: vias aéreas superiores, asma variante de tosse e refluxo respondem pela maioria da tosse crônica.",
-   "Essas doenças são raras, de início mais precoce e costumam ter alterações radiológicas evidentes.",
-   "Doenças intersticiais e ocupacionais alteram a radiografia e a espirometria na maioria dos casos."
+   "Com radiografia normal e causa provável, tomografia não é o primeiro passo.",
+   "Não há sintomas de refluxo; a causa mais provável é o IECA.",
+   "Tosse em usuária de IECA: trocar por bloqueador do receptor de angiotensina e aguardar até algumas semanas.",
+   "Sem sinais de asma, corticoide empírico não é indicado.",
+   "Broncoscopia não é indicada nessa situação."
   ]
  },
  {
-  "q": "Homem de 58 anos, tabagista, tem derrame pleural unilateral. A toracocentese mostra proteína no líquido sobre proteína sérica de 0,62 e desidrogenase láctica no líquido acima de dois terços do limite superior sérico. Como classificar e o que fazer?",
+  "q": "Homem de 78 anos com insuficiência cardíaca de fração reduzida, em uso de furosemida 80 mg/dia há 3 semanas, tem derrame pleural direito moderado. Toracocentese: proteína do líquido 3,4 g/dL (sérica 5,6 g/dL; razão 0,61), desidrogenase láctica do líquido 190 U/L (sérica 240 U/L; limite superior 250). Albumina sérica 3,2 g/dL e do líquido 1,7 g/dL. Citologia e bacterioscopia negativas. pH do líquido 7,45, glicose 110 mg/dL e 900 células com 80% de mononucleares. Qual é a interpretação?",
   "alts": [
-   "Transudato, cuja conduta é apenas tratar a causa sistêmica sem qualquer investigação adicional.",
-   "Quilotórax, definido pela relação de proteínas encontrada no líquido pleural deste paciente.",
-   "Empiema, diagnosticado exclusivamente pela relação de desidrogenase láctica acima do corte.",
-   "Exsudato pelos critérios de Light, que sempre exige investigação com citologia e culturas.",
-   "Hemotórax, cuja definição depende apenas dos critérios bioquímicos aplicados ao líquido obtido."
+   "Exsudato; investigar neoplasia",
+   "Exsudato; investigar tuberculose",
+   "Transudato cardíaco pelo gradiente de albumina",
+   "Empiema; drenagem torácica",
+   "Quilotórax; dosar triglicerídeos"
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "BTS Guideline for Pleural Disease, 2023; Light, Pleural effusions, NEJM, 2002",
+  "coment": "Pelos critérios de Light, basta um para exsudato: razão de proteínas acima de 0,5, razão de desidrogenase láctica acima de 0,6 ou desidrogenase láctica do líquido acima de dois terços do limite superior sérico. Diuréticos concentram proteínas no derrame e fazem cerca de 25% dos transudatos cardíacos parecerem exsudatos. Nesse contexto, gradiente de albumina soro-líquido acima de 1,2 g/dL (aqui 1,5) ou de proteína acima de 3,1 g/dL indica transudato. A conduta é otimizar o tratamento da insuficiência cardíaca.",
+  "porAlt": [
+   "O critério de proteína é enganado pelo diurético; o gradiente de albumina mostra transudato.",
+   "Não há dados que apontem tuberculose, e o gradiente indica transudato.",
+   "Diurético pode transformar transudato em falso exsudato; gradiente de albumina de 1,5 g/dL confirma origem cardíaca.",
+   "Líquido sem pus e bacterioscopia negativa afastam empiema.",
+   "Não há aspecto leitoso que sugira quilotórax."
+  ]
+ },
+ {
+  "q": "Homem de 24 anos, alto e magro, tabagista, tem dor torácica súbita à direita e dispneia há 6 horas. Frequência respiratória 24 irpm, saturação 95% em ar ambiente, frequência cardíaca 98 bpm, pressão arterial 124/76 mmHg. Radiografia: pneumotórax direito com distância interpleural de 3,5 cm no nível do hilo, sem desvio de mediastino. Primeiro episódio, sem doença pulmonar conhecida. Fuma 10 cigarros por dia há 6 anos e mora a 15 minutos do hospital. Qual é a conduta pela diretriz britânica de 2023?",
+  "alts": [
+   "Toracotomia com pleurodese no primeiro episódio",
+   "Aspiração por agulha ou dispositivo ambulatorial",
+   "Observação domiciliar sem nova imagem",
+   "Dreno torácico de grosso calibre em aspiração contínua",
+   "Oxigênio e alta imediata"
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "British Thoracic Society Guideline for Pleural Disease, 2023; Brown et al., Conservative versus interventional treatment for spontaneous pneumothorax, NEJM, 2020",
+  "coment": "A diretriz britânica de 2023 abandonou o tamanho como critério principal no pneumotórax espontâneo primário: decide-se pelos sintomas, pelos critérios de alto risco (instabilidade, hipoxemia importante, bilateral, hemopneumotórax, doença pulmonar) e pela preferência do paciente. Com sintomas relevantes, as opções são aspiração por agulha, dispositivo ambulatorial com válvula ou dreno de pequeno calibre; com poucos sintomas, manejo conservador é aceitável (Brown, NEJM, 2020). Cirurgia é indicada na recorrência ou falha.",
+  "porAlt": [
+   "Cirurgia não é indicada no primeiro episódio sem complicação.",
+   "Pneumotórax primário sintomático sem critérios de alto risco: aspiração por agulha ou dispositivo ambulatorial.",
+   "Com dispneia, observação sem reavaliação não é adequada.",
+   "Dreno de grosso calibre e aspiração não são necessários e aumentam complicações.",
+   "Oxigênio e alta sem intervenção ou reavaliação não é seguro com sintomas."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos com DPOC grave (VEF₁ de 38%), sem exacerbações no último mês, tem saturação de 90% em ar ambiente em repouso, medida em duas consultas estáveis, e dessatura para 85% no teste de caminhada de 6 minutos. PaO₂ de 62 mmHg. Hematócrito de 44%, sem edema ou sinais de cor pulmonale. Parou de fumar há 2 anos. Faz 2 inalações de tiotrópio-olodaterol por dia e completou reabilitação pulmonar há 6 meses. Qual é a conduta em relação ao oxigênio?",
+  "alts": [
+   "Oxigênio contínuo por pelo menos 15 horas diárias",
+   "Oxigênio apenas durante o sono por 12 meses",
+   "Não indicar oxigenoterapia contínua",
+   "Oxigênio contínuo pela dessaturação ao esforço",
+   "Oxigênio contínuo pelo VEF₁ abaixo de 50%"
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "GOLD Report, 2025; Long-Term Oxygen Treatment Trial Research Group, LOTT, NEJM, 2016",
+  "coment": "Oxigênio domiciliar prolongado aumenta a sobrevida na DPOC com hipoxemia grave em repouso: PaO₂ de 55 mmHg ou menos (ou saturação de 88% ou menos), ou PaO₂ entre 56 e 59 mmHg com cor pulmonale, edema ou hematócrito acima de 55%. No LOTT (NEJM, 2016), oxigênio a longo prazo em pacientes com hipoxemia moderada em repouso ou dessaturação apenas ao esforço não reduziu mortalidade nem internação. Oxigênio no esforço pode ser considerado individualmente, com reabilitação.",
+  "porAlt": [
+   "Os critérios de oxigênio contínuo não foram atingidos.",
+   "Oxigênio só noturno não é indicado sem documentar indicação específica.",
+   "Hipoxemia moderada em repouso e dessaturação ao esforço: oxigênio contínuo não trouxe benefício de sobrevida (LOTT).",
+   "Dessaturação só ao esforço não é critério de oxigênio contínuo.",
+   "VEF₁ não define indicação de oxigênio."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos tem dispneia progressiva há 1 ano e síncope aos esforços. Há 3 anos teve TEP tratado com rivaroxabana por 6 meses. Ecocardiograma: velocidade de regurgitação tricúspide de 3,8 m/s, ventrículo direito dilatado e fração de ejeção do ventrículo esquerdo de 62%. Espirometria e tomografia de alta resolução sem doença do parênquima. NT-proBNP de 1.200 pg/mL. Caminha 320 metros em 6 minutos. Qual é o exame de imagem mais adequado para rastrear a causa tromboembólica crônica?",
+  "alts": [
+   "Angiotomografia de tórax isolada",
+   "Ressonância cardíaca com realce tardio",
+   "Dímero-D quantitativo",
+   "Cintilografia de ventilação e perfusão",
+   "Doppler venoso de membros inferiores"
   ],
   "gab": 3,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r2",
-  "base": "American Thoracic Society, 2023, e Harrison's, 22ª edição, 2025, critérios de Light no derrame pleural",
-  "coment": "Os critérios de Light definem exsudato quando pelo menos um está presente: relação de proteína no líquido sobre proteína sérica acima de 0,5, relação de desidrogenase láctica no líquido sobre a sérica acima de 0,6, ou desidrogenase láctica no líquido acima de dois terços do limite superior sérico. O paciente preenche dois. Exsudato exige investigação etiológica: citologia oncótica, citometria, bacterioscopia e culturas, adenosina deaminase quando há suspeita de tuberculose, glicose e pH quando se cogita derrame parapneumônico complicado.",
-  "porAlt": [
-   "O transudato exige que nenhum critério de Light esteja presente, o que não ocorre neste caso.",
-   "Quilotórax é definido pela dosagem de triglicérides no líquido, e não pela relação de proteínas.",
-   "Empiema é definido por pus, bacterioscopia positiva ou critérios específicos de pH e glicose.",
-   "Correta: os critérios de Light definem exsudato, que exige investigação etiológica com citologia e culturas.",
-   "Hemotórax é definido pelo hematócrito do líquido comparado ao sérico, não por critérios de Light."
-  ]
- },
- {
-  "q": "Mulher de 24 anos, alta e magra, chega com dor torácica súbita à direita e dispneia. O exame mostra murmúrio abolido e timpanismo à percussão, com traqueia centrada e pressão de 116/74 mmHg. Qual é a conduta?",
-  "alts": [
-   "Realizar punção de alívio imediata no segundo espaço intercostal antes de qualquer exame de imagem.",
-   "Solicitar tomografia de tórax com contraste e aguardar o resultado sem qualquer intervenção inicial.",
-   "Prescrever apenas analgesia e alta, uma vez que o pneumotórax espontâneo sempre se resolve sozinho.",
-   "Indicar toracotomia aberta de urgência, conduta padrão no primeiro episódio de pneumotórax espontâneo.",
-   "Confirmar sempre o pneumotórax com imagem e definir entre observação e drenagem pelo tamanho agora."
-  ],
-  "gab": 4,
-  "tema": "pneumo",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "British Thoracic Society, 2023. Pleural disease guideline, manejo do pneumotórax espontâneo",
-  "coment": "O quadro sugere pneumotórax espontâneo primário, típico de jovens altos e magros. Sem sinais de hipertensão (desvio de traqueia, instabilidade, turgência jugular), há tempo de confirmar por imagem e então decidir: pneumotórax pequeno em paciente pouco sintomático pode ser observado com oxigênio, enquanto os maiores ou sintomáticos recebem aspiração ou drenagem. A punção de alívio imediata sem imagem é reservada ao pneumotórax hipertensivo, em que a descompressão não pode esperar exame algum.",
-  "porAlt": [
-   "A punção imediata sem imagem se reserva ao pneumotórax hipertensivo, com instabilidade e desvio de traqueia.",
-   "A tomografia com contraste não é necessária e aguardar sem conduta atrasa o tratamento indicado.",
-   "Nem todo pneumotórax espontâneo se resolve sozinho; os maiores e sintomáticos exigem intervenção.",
-   "A toracotomia aberta não é conduta de primeiro episódio; a abordagem inicial é bem menos invasiva.",
-   "Correta: sem sinais de hipertensão, confirma-se por imagem e decide-se por tamanho e sintomas."
-  ]
- },
- {
-  "q": "Homem de 66 anos com DPOC grave tem saturação de 87% em ar ambiente em repouso, medida em duas ocasiões estáveis, com pressão parcial de oxigênio de 54 mmHg. Qual é a conduta que altera sobrevida?",
-  "alts": [
-   "Corticoide oral contínuo em dose baixa, medida que comprovadamente prolonga a sobrevida na DPOC neste caso.",
-   "Oxigenoterapia domiciliar prolongada, por pelo menos quinze horas diárias, incluindo o período do sono.",
-   "Antibiótico profilático contínuo por tempo indeterminado, independentemente de exacerbações prévias.",
-   "Broncodilatador de curta ação em série contínua ao longo do dia, dispensando o de longa duração neste caso.",
-   "Fisioterapia respiratória isolada, única intervenção com impacto demonstrado sobre a mortalidade neste caso."
-  ],
-  "gab": 1,
-  "tema": "pneumo",
-  "cenario": "amb",
-  "comp": "tto",
   "nivel": "r3",
-  "base": "GOLD 2026, Global Strategy for Diagnosis, Management and Prevention of COPD, oxigenoterapia domiciliar",
-  "coment": "Na DPOC, três intervenções alteram sobrevida: cessação do tabagismo, oxigenoterapia domiciliar prolongada em pacientes com hipoxemia grave e crônica, e cirurgia de redução de volume pulmonar em subgrupos selecionados. O critério clássico para o oxigênio é pressão parcial de oxigênio igual ou menor que 55 mmHg, ou saturação igual ou menor que 88%, em condições estáveis e medidas repetidas, ou valores um pouco mais altos na presença de cor pulmonale ou policitemia. A prescrição deve prever pelo menos quinze horas diárias.",
+  "base": "ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension, 2022",
+  "coment": "Em toda hipertensão pulmonar sem causa por doença cardíaca esquerda ou pulmonar, deve-se rastrear hipertensão pulmonar tromboembólica crônica. A diretriz ESC/ERS de 2022 indica a cintilografia de ventilação e perfusão como exame de rastreio: perfusão normal praticamente exclui a doença, com sensibilidade maior que a angiotomografia, que pode deixar passar lesões distais. Defeitos de perfusão levam a angiotomografia, cateterismo direito e angiografia pulmonar em centro especializado para decidir entre endarterectomia, angioplastia com balão ou riociguate.",
   "porAlt": [
-   "O corticoide oral contínuo não prolonga sobrevida na DPOC e acumula efeitos adversos importantes.",
-   "Correta: hipoxemia crônica grave indica oxigenoterapia domiciliar por pelo menos quinze horas por dia.",
-   "O antibiótico profilático é opção de exceção em exacerbadores, e não medida de sobrevida universal.",
-   "O broncodilatador de curta ação é de resgate e não substitui a terapia inalatória de manutenção.",
-   "A fisioterapia e a reabilitação melhoram sintomas e capacidade funcional, mas não a sobrevida isoladamente."
+   "A angiotomografia é menos sensível para doença distal e não exclui a causa tromboembólica crônica.",
+   "Ressonância avalia o ventrículo direito, mas não rastreia a causa tromboembólica.",
+   "Dímero-D não tem papel no diagnóstico da doença crônica.",
+   "Rastreio da forma tromboembólica crônica: cintilografia de ventilação e perfusão, cuja perfusão normal praticamente a exclui.",
+   "Doppler venoso não avalia a circulação pulmonar."
   ]
  },
  {
-  "q": "Mulher de 52 anos apresenta dispneia progressiva, síncope aos esforços e hiperfonese de segunda bulha em foco pulmonar. O ecocardiograma estima pressão sistólica de artéria pulmonar de 70 mmHg. Qual é o próximo passo diagnóstico?",
+  "q": "Homem de 64 anos, tabagista ativo de 45 maços-ano, com DPOC leve, tem nódulo sólido de 16 mm, espiculado, no lobo superior direito, sem linfonodos aumentados ou outras lesões na tomografia. Não havia nódulo em tomografia de 2 anos atrás. Capacidade funcional boa, VEF₁ de 72% e difusão de 70% do previsto. Sem perda de peso, sem sintomas neurológicos. O escore de Brock estima probabilidade de malignidade de cerca de 40%. Qual é a próxima etapa mais adequada?",
   "alts": [
-   "Iniciar tratamento específico com vasodilatador pulmonar apenas com base no ecocardiograma.",
-   "Cateterismo cardíaco direito, exame que sempre confirma o diagnóstico e a hemodinâmica agora.",
-   "Solicitar apenas espirometria, exame que estabelece o diagnóstico de hipertensão pulmonar.",
-   "Prescrever diurético em dose alta e reavaliar em seis meses, sem qualquer exame adicional.",
-   "Indicar transplante pulmonar imediato, conduta padrão diante dessa estimativa ecocardiográfica."
-  ],
-  "gab": 1,
-  "tema": "pneumo",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "ESC/ERS 2022, Guidelines for the diagnosis and treatment of pulmonary hypertension",
-  "coment": "O ecocardiograma é o exame de rastreio da hipertensão pulmonar, mas o diagnóstico definitivo exige cateterismo cardíaco direito, que mede a pressão média de artéria pulmonar, a pressão de oclusão e a resistência vascular pulmonar. Separando os grupos pré e pós-capilares, que têm tratamentos completamente distintos. Tratar com vasodilatador pulmonar um paciente do grupo de doença cardíaca esquerda pode causar edema pulmonar. A investigação inclui ainda cintilografia de ventilação-perfusão para afastar doença tromboembólica crônica.",
-  "porAlt": [
-   "Tratar apenas pelo ecocardiograma arrisca dar vasodilatador a quem tem doença cardíaca esquerda.",
-   "Correta: o cateterismo cardíaco direito confirma o diagnóstico e define o padrão hemodinâmico da doença.",
-   "A espirometria avalia função ventilatória e não diagnostica hipertensão pulmonar em nenhum cenário.",
-   "Diurético isolado com reavaliação semestral desperdiça a janela de investigação e tratamento específico.",
-   "O transplante é indicado em doença avançada refratária, e não a partir de uma estimativa ecocardiográfica."
-  ]
- },
- {
-  "q": "Homem de 60 anos, tabagista, tem nódulo pulmonar solitário de 12 mm, de bordas espiculadas, em lobo superior direito, achado em tomografia. Qual é a conduta mais apropriada?",
-  "alts": [
-   "Repetir a tomografia apenas em cinco anos, prazo adequado para nódulos com essas características.",
-   "Iniciar antibiótico por três semanas e reavaliar, presumindo etiologia infecciosa para o nódulo.",
-   "Indicar lobectomia imediata sem qualquer investigação prévia, dada a característica das bordas.",
-   "Tranquilizar o paciente e não repetir exame algum, pois nódulos abaixo de quinze milímetros são benignos.",
-   "Estratificar sempre o risco de malignidade e prosseguir com imagem funcional ou biópsia neste caso."
+   "Tomografia de controle em 3 meses",
+   "Tomografia de controle em 12 meses",
+   "Broncoscopia com lavado broncoalveolar apenas",
+   "Antibiótico e nova tomografia em 6 semanas",
+   "PET-CT, depois amostragem ou ressecção"
   ],
   "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r3",
-  "base": "Fleischner Society, 2017, e American College of Chest Physicians, 2013, atualizados. Nódulo pulmonar solitário",
-  "coment": "A conduta no nódulo pulmonar solitário depende do risco de malignidade, estimado por idade, tabagismo, tamanho, localização em lobo superior e características das bordas, espiculação aumenta bastante a probabilidade. Nódulo de 12 mm com bordas espiculadas em tabagista de 60 anos em lobo superior é de risco intermediário a alto, e a conduta é investigação ativa com tomografia por emissão de pósitrons ou biópsia, conforme acessibilidade e localização. Seguimento apenas com imagem é para nódulos de baixo risco.",
+  "nivel": "r2",
+  "base": "ACCP Guidelines: Evaluation of individuals with pulmonary nodules, 2013; Fleischner Society Guidelines for Management of Incidental Pulmonary Nodules, 2017",
+  "coment": "Nódulo sólido acima de 8 mm com probabilidade intermediária de malignidade (5 a 65% pelo ACCP) deve ser caracterizado por PET-CT, que também estadia. Se captante, segue-se com amostragem (biópsia percutânea ou broncoscopia guiada, e EBUS se houver linfonodo suspeito) ou ressecção diagnóstica e terapêutica em paciente com boa reserva. Acima de 65%, pode-se ir direto à cirurgia após estadiamento. Seguimento tomográfico isolado fica para baixa probabilidade ou paciente que não aceita procedimento.",
   "porAlt": [
-   "Cinco anos de intervalo é prazo de nódulo de baixíssimo risco e permitiria a progressão de um câncer.",
-   "Antibiótico empírico atrasa o diagnóstico e o padrão descrito não sugere etiologia infecciosa.",
-   "A cirurgia sem investigação prévia expõe a ressecção pacientes com lesão benigna.",
-   "O tamanho isolado não define benignidade, e as bordas espiculadas aumentam muito a suspeita.",
-   "Correta: estratificar o risco e investigar ativamente com imagem funcional ou biópsia é a conduta indicada."
+   "Probabilidade intermediária em nódulo acima de 8 mm pede caracterização, não apenas observação.",
+   "Esperar 12 meses atrasa o diagnóstico de lesão possivelmente maligna.",
+   "Lavado broncoalveolar tem baixo rendimento para nódulo periférico.",
+   "Sem quadro infeccioso, antibiótico empírico só atrasa a investigação.",
+   "Nódulo sólido de 16 mm com probabilidade intermediária: PET-CT para caracterizar e estadiar, depois amostragem ou ressecção."
   ]
  },
  {
-  "q": "Mulher de 38 anos apresenta tosse, dispneia e adenomegalia hilar bilateral simétrica na radiografia, com eritema nodoso em membros inferiores. A biópsia mostra granulomas não caseosos. Qual é o diagnóstico e a conduta inicial?",
+  "q": "Mulher de 34 anos tem há 3 semanas febre baixa, artralgia dos tornozelos com edema periarticular e nódulos dolorosos avermelhados nas pernas. Radiografia de tórax com adenomegalia hilar bilateral simétrica, sem infiltrado. Espirometria normal, cálcio sérico de 9,4 mg/dL, sem alterações oculares ou cardíacas. PPD de 0 mm e sorologias negativas. Exame físico sem outros achados, saturação de 98%. Velocidade de hemossedimentação de 48 mm/h e enzima conversora da angiotensina de 78 U/L. Qual é a conduta mais adequada?",
   "alts": [
-   "Sarcoidose, com observação em muitos casos e corticoide reservado ao acometimento significativo.",
-   "Tuberculose ganglionar, já que exige esquema antituberculose de seis meses iniciado imediatamente.",
-   "Linfoma de Hodgkin, cujo diagnóstico é firmado pela presença de granulomas não caseosos à biópsia.",
-   "Silicose aguda, definida pela combinação de adenomegalia hilar bilateral com eritema nodoso.",
-   "Histoplasmose disseminada, que se apresenta caracteristicamente com granulomas não caseosos."
+   "Biópsia por EBUS dos linfonodos hilares",
+   "Prednisona 40 mg/dia por 6 meses",
+   "Anti-inflamatório e seguimento clínico",
+   "Metotrexato semanal",
+   "Esquema para tuberculose por 6 meses"
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ATS Clinical Practice Guideline: Diagnosis and Detection of Sarcoidosis, 2020; ERS Clinical Practice Guidelines on Treatment of Sarcoidosis, 2021",
+  "coment": "Febre, eritema nodoso, periartrite de tornozelos e adenomegalia hilar bilateral caracterizam a síndrome de Löfgren, apresentação aguda da sarcoidose com alta especificidade. A diretriz ATS de 2020 sugere não biopsiar linfonodos nesse quadro típico, pois a probabilidade de outro diagnóstico é muito baixa, e o prognóstico é bom, com remissão espontânea em mais de 80% em 2 anos. O tratamento é sintomático com anti-inflamatório não esteroide; corticoide fica para sintomas refratários ou envolvimento de órgão.",
+  "porAlt": [
+   "No quadro típico de Löfgren, a ATS sugere não biopsiar.",
+   "Sem acometimento de órgão ou sintomas refratários, corticoide não é indicado.",
+   "Síndrome de Löfgren: diagnóstico clínico, anti-inflamatório e seguimento, com remissão espontânea na maioria.",
+   "Metotrexato é poupador de corticoide, não primeira linha.",
+   "PPD negativo e quadro típico não sugerem tuberculose."
+  ]
+ },
+ {
+  "q": "Homem de 47 anos com apneia obstrutiva do sono grave (índice de apneia e hipopneia de 42 eventos por hora, 20% de apneias centrais) não tolerou pressão positiva contínua apesar de 6 meses de ajuste de máscara, umidificação e acompanhamento. Índice de massa corporal de 30 kg/m². Tem hipertensão e Epworth de 14. Recusa aparelho intraoral por disfunção temporomandibular. Sem hipertrofia amigdaliana importante. Qual é a conduta mais adequada?",
+  "alts": [
+   "Avaliação cirúrgica, incluindo estimulação do hipoglosso",
+   "Oxigênio noturno domiciliar a 2 L/min",
+   "Modafinil e manter sem tratar a apneia",
+   "Uvulopalatofaringoplastia sem endoscopia do sono",
+   "Benzodiazepínico para adaptar à máscara"
   ],
   "gab": 0,
   "tema": "pneumo",
   "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "ATS/ERS/WASOG, 2020: Diagnosis and Detection of Sarcoidosis; Harrison's, 22ª edição, 2025",
-  "coment": "Adenomegalia hilar bilateral simétrica com eritema nodoso e granulomas não caseosos caracteriza sarcoidose, e a associação com febre e artrite compõe a síndrome de Löfgren, de bom prognóstico e frequentemente autolimitada. Muitos pacientes com doença em estágio inicial e assintomáticos são apenas observados, com corticoide reservado a acometimento pulmonar significativo, cardíaco, neurológico, ocular, hipercalcemia ou sintomas limitantes. Granuloma caseoso apontaria tuberculose, e a exclusão de micobactérias e fungos é obrigatória.",
-  "porAlt": [
-   "Correta: o quadro é sarcoidose, com observação em muitos casos e corticoide conforme o acometimento.",
-   "A tuberculose ganglionar cursa com granuloma caseoso e adenomegalia geralmente assimétrica.",
-   "O linfoma não cursa com granulomas não caseosos como achado diagnóstico característico.",
-   "A silicose exige exposição ocupacional e tem padrão radiológico distinto do descrito no caso.",
-   "A histoplasmose disseminada ocorre sobretudo em imunossuprimidos e tem apresentação diferente."
-  ]
- },
- {
-  "q": "Homem de 47 anos com apneia obstrutiva do sono grave, confirmada por polissonografia com índice de apneia e hipopneia de 42 eventos por hora, tem sonolência diurna importante. Qual é o tratamento de primeira linha?",
-  "alts": [
-   "Modafinila isolada, tratamento de escolha para a sonolência da apneia obstrutiva grave do sono.",
-   "Pressão positiva contínua em via aérea, sempre associada a perda de peso e higiene do sono.",
-   "Cirurgia de úvula e palato como primeira opção em todos os pacientes com apneia obstrutiva grave.",
-   "Oxigênio noturno em baixo fluxo, medida que corrige os eventos obstrutivos durante o sono.",
-   "Benzodiazepínico noturno, que melhora a arquitetura do sono e reduz os eventos obstrutivos."
-  ],
-  "gab": 1,
-  "tema": "pneumo",
-  "cenario": "amb",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "American Academy of Sleep Medicine, 2019, treatment of adult obstructive sleep apnea with positive airway pressure",
-  "coment": "A pressão positiva contínua em via aérea é o tratamento de primeira linha da apneia obstrutiva do sono moderada a grave, com melhora da sonolência, da qualidade de vida, do controle pressórico e da segurança ao dirigir. Associam-se sempre medidas comportamentais: redução de peso, evitar álcool e sedativos à noite, terapia posicional quando aplicável. Dispositivos intraorais são alternativa em casos leves a moderados ou em intolerantes. O oxigênio isolado não corrige a obstrução e os sedativos agravam os eventos.",
+  "nivel": "r3",
+  "base": "AASM Clinical Practice Guideline: Referral of Adults With Obstructive Sleep Apnea for Surgical Consultation, 2021",
+  "coment": "A AASM (2021) recomenda encaminhar para avaliação cirúrgica adultos com apneia obstrutiva e índice de massa corporal abaixo de 40 kg/m² que não toleram ou não aceitam pressão positiva. A estimulação do nervo hipoglosso é opção para índice de apneia e hipopneia entre 15 e 100 eventos por hora, com menos de 25% de apneias centrais e sem colapso concêntrico completo no palato na endoscopia do sono induzido. Oxigênio isolado não corrige os eventos, e estimulante não substitui o tratamento da apneia.",
   "porAlt": [
-   "A modafinila trata sonolência residual em quem já usa pressão positiva, e não substitui o tratamento.",
-   "Correta: a pressão positiva contínua é a primeira linha na apneia moderada a grave, com medidas comportamentais.",
-   "A cirurgia é opção selecionada conforme anatomia, e não primeira escolha universal na apneia grave.",
-   "O oxigênio noturno não corrige a obstrução de via aérea e pode prolongar os eventos apneicos.",
-   "Benzodiazepínico relaxa a musculatura faríngea e agrava os eventos obstrutivos durante o sono."
+   "Intolerância à pressão positiva com índice de massa abaixo de 40: avaliação cirúrgica, incluindo estimulação do hipoglosso após endoscopia do sono.",
+   "Oxigênio não trata a obstrução nem as consequências da apneia.",
+   "Estimulante não trata a apneia e o risco cardiovascular persiste.",
+   "Cirurgia exige endoscopia do sono e avaliação anatômica prévias.",
+   "Benzodiazepínico pode piorar a apneia."
   ]
  },
  {
@@ -13248,243 +13248,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 66 anos, tabagista, com dispneia progressiva e VEF1/CVF pós-broncodilatador de 0,58, com duas exacerbações no último ano. Qual é o tratamento de manutenção?",
+  "q": "Homem de 66 anos, ex-tabagista de 50 maços-ano, tem DPOC com VEF₁/CVF pós-broncodilatador de 0,58 e VEF₁ de 48%. Usa tiotrópio-olodaterol com boa técnica e adesão. No último ano teve 2 exacerbações tratadas com prednisona e antibiótico, sem internação. mMRC 2, CAT 18. Eosinófilos no sangue de 340 células/µL. Sem história de asma, pneumonia ou micobacteriose. Vacinação em dia e reabilitação pulmonar concluída há 4 meses. Qual é o ajuste terapêutico mais adequado?",
   "alts": [
-   "Corticoide inalatório isolado como tratamento inicial de manutenção para o paciente com essa doença.",
-   "Corticoide sistêmico contínuo em dose baixa, tratamento de manutenção de escolha na doença descrita.",
-   "Broncodilatador duplo de longa duração, sempre com avaliação de eosinófilos para acrescentar corticoide.",
-   "Antibiótico contínuo em dose plena por tempo indeterminado como manutenção nesse perfil de paciente.",
-   "Apenas broncodilatador de curta duração de resgate, sem qualquer tratamento contínuo de manutenção."
+   "Trocar o tiotrópio-olodaterol por corticoide inalatório isolado",
+   "Azitromicina diária antes de qualquer outra medida",
+   "Acrescentar corticoide inalatório à terapia dupla",
+   "Prednisona oral contínua em dose baixa",
+   "Roflumilaste como primeiro acréscimo"
   ],
   "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "GOLD Report. Global Strategy for Prevention, Diagnosis and Management of COPD, 2025",
-  "coment": "A relação pós-broncodilatador abaixo de 0,7 confirma limitação fixa ao fluxo aéreo. Com histórico de exacerbações, o tratamento inicial recomendado é a combinação de broncodilatador de longa duração antimuscarínico e beta-agonista. A adição de corticoide inalatório é orientada pela contagem de eosinófilos, indicada acima de 300 células por microlitro e considerada entre 100 e 300 com exacerbações. Cessação do tabagismo, vacinação e reabilitação pulmonar são obrigatórias.",
+  "base": "GOLD Report, 2025; Lipson et al., IMPACT, NEJM, 2018; Rabe et al., ETHOS, NEJM, 2020",
+  "coment": "Pelo GOLD, paciente que exacerba em uso de beta-agonista e antimuscarínico de longa ação com eosinófilos de 100 células/µL ou mais é candidato a terapia tripla; com 300 ou mais, o benefício é maior (IMPACT, ETHOS). A tripla reduziu exacerbações e, nesses estudos, mortalidade. Azitromicina (preferida em ex-tabagistas) e roflumilaste (VEF₁ abaixo de 50% com bronquite crônica) são alternativas quando os eosinófilos são baixos ou as exacerbações persistem na tripla. Corticoide inalatório isolado e corticoide oral contínuo não são indicados.",
   "porAlt": [
-   "O corticoide inalatório isolado não é recomendado nessa doença, sempre associado a broncodilatador.",
-   "O corticoide sistêmico contínuo traz toxicidade importante sem benefício como manutenção.",
-   "Correta: broncodilatador duplo de longa duração, com eosinófilos orientando a adição de corticoide.",
-   "O antibiótico contínuo se reserva a casos selecionados e não é manutenção padrão da doença.",
-   "O uso apenas de resgate deixa sem controle um paciente com exacerbações frequentes documentadas."
+   "Corticoide inalatório sem broncodilatadores de longa ação não é indicado na DPOC.",
+   "Azitromicina é opção quando os eosinófilos são baixos ou após a tripla.",
+   "Exacerbações em terapia dupla com eosinófilos de 300 ou mais: acrescentar corticoide inalatório (terapia tripla).",
+   "Corticoide oral contínuo tem mais dano que benefício.",
+   "Roflumilaste exige bronquite crônica e vem depois da tripla com eosinófilos altos."
   ]
  },
  {
-  "q": "Mulher de 28 anos com asma em uso apenas de beta-agonista de curta duração, com sintomas três vezes por semana e despertares noturnos. Qual é a conduta?",
+  "q": "Mulher de 28 anos com asma chega ao pronto-socorro após 2 dias de piora. Fala frases curtas, frequência respiratória 30 irpm, frequência cardíaca 124 bpm, saturação 90% em ar ambiente e pico de fluxo de 40% do previsto. Recebeu 3 ciclos de salbutamol com ipratrópio em 1 hora, oxigênio e hidrocortisona endovenosa, sem melhora: pico de fluxo de 42%. Está alerta, sem cianose. Radiografia sem pneumotórax. Qual é a próxima medida mais adequada?",
   "alts": [
-   "Manter apenas o beta-agonista de curta duração e aumentar a frequência das doses de resgate diárias.",
-   "Iniciar corticoide oral contínuo em dose baixa como etapa seguinte no tratamento da asma descrita.",
-   "Iniciar corticoide inalatório associado a formoterol, sempre substituindo o uso isolado do resgate.",
-   "Iniciar antibiótico profilático contínuo, medida indicada para a redução dos sintomas noturnos da asma.",
-   "Prescrever apenas anti-histamínico oral diário, tratamento suficiente para o controle do quadro descrito."
+   "Sulfato de magnésio 2 g endovenoso",
+   "Aminofilina endovenosa em bolus",
+   "Intubação orotraqueal em sequência rápida",
+   "Antibiótico endovenoso de amplo espectro",
+   "Adrenalina subcutânea em doses repetidas"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "pneumo",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "GINA. Global Strategy for Asthma Management and Prevention, 2025",
-  "coment": "O tratamento da asma com beta-agonista de curta duração isolado foi abandonado, por aumentar exacerbações graves e mortalidade. Toda pessoa com asma deve receber tratamento contendo corticoide inalatório. A estratégia preferencial combina corticoide inalatório com formoterol, usada conforme a necessidade nas etapas iniciais e como manutenção e resgate nas etapas seguintes. Avaliam-se ainda técnica inalatória, adesão, gatilhos e comorbidades antes de escalonar.",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Global Initiative for Asthma (GINA), Global Strategy for Asthma Management and Prevention, 2025",
+  "coment": "Na exacerbação grave de asma que não responde ao tratamento inicial (broncodilatador de curta ação com ipratrópio, oxigênio para saturação de 93 a 95% e corticoide sistêmico na primeira hora), o GINA indica sulfato de magnésio 2 g endovenoso em 20 minutos, que reduz internação em adultos com volume expiratório abaixo de 25 a 30% após o tratamento inicial. Aminofilina tem pior perfil de segurança e eficácia. Intubação é para rebaixamento, exaustão, hipercapnia progressiva ou parada iminente, ausentes aqui.",
   "porAlt": [
-   "O uso isolado de beta-agonista de curta duração aumenta exacerbações graves e a mortalidade.",
-   "O corticoide oral contínuo se reserva à asma grave refratária, pela toxicidade sistêmica acumulada.",
-   "Correta: introduzir corticoide inalatório com formoterol, abandonando o uso isolado do resgate.",
-   "O antibiótico profilático não tem papel no controle da asma, que é doença inflamatória crônica.",
-   "O anti-histamínico pode ajudar na rinite associada, mas não controla a inflamação brônquica."
+   "Asma grave sem resposta ao tratamento inicial: sulfato de magnésio endovenoso.",
+   "Aminofilina tem pouca eficácia e muitos efeitos adversos.",
+   "Paciente alerta, sem exaustão ou hipercapnia, ainda não tem indicação de intubação.",
+   "Não há sinais de infecção bacteriana.",
+   "Adrenalina fica para anafilaxia ou angioedema, não para rotina."
   ]
  },
  {
-  "q": "Paciente de 60 anos com nódulo pulmonar sólido de 9 mm encontrado incidentalmente em tomografia, tabagista. Qual é a conduta?",
+  "q": "Mulher de 58 anos, nunca fumou, fez tomografia de tórax para investigar dor torácica e foi encontrado nódulo em vidro fosco puro de 8 mm no lobo superior esquerdo, único, sem componente sólido. Não há linfonodos aumentados. Nova tomografia após 3 meses mostra a lesão inalterada. Não tem história de câncer. Assintomática do ponto de vista respiratório. Mede 1,62 m e pesa 60 kg, sem exposição ocupacional relevante. Pela sociedade Fleischner, qual é o seguimento mais adequado?",
   "alts": [
-   "Realizar toracotomia com ressecção imediata em todos os pacientes com nódulo pulmonar dessa dimensão agora.",
-   "Ignorar o achado e repetir a tomografia apenas depois de cinco anos, já independentemente do risco estimado.",
-   "Seguimento tomográfico programado ou investigação adicional, sempre conforme o risco estimado de malignidade.",
-   "Iniciar quimioterapia empírica antes de qualquer confirmação histológica da natureza do nódulo achado agora.",
-   "Solicitar apenas radiografia de tórax anual, exame suficiente para o seguimento do nódulo descrito agora."
+   "Ressecção cirúrgica por videotoracoscopia",
+   "PET-CT para caracterizar a lesão",
+   "Tomografia em 6 a 12 meses, depois a cada 2 anos",
+   "Alta do seguimento, pela estabilidade em 3 meses",
+   "Biópsia percutânea guiada por tomografia"
   ],
   "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r2",
-  "base": "Fleischner Society Guidelines for Management of Incidental Pulmonary Nodules, 2017 com revisão 2023; NCCN, 2024",
-  "coment": "Nódulo sólido incidental entre seis e oito milímetros em paciente de alto risco é seguido com tomografia em seis a doze meses e depois em dezoito a vinte e quatro meses. Acima de oito milímetros, considera-se tomografia em três meses, PET-CT ou biópsia, conforme a probabilidade de malignidade estimada por idade, tabagismo, tamanho, localização em lobo superior e espiculação. A radiografia é insuficiente para o seguimento por não detectar crescimento sutil.",
+  "nivel": "r3",
+  "base": "Fleischner Society Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images, 2017",
+  "coment": "Nódulo em vidro fosco puro de 6 mm ou mais, pela Fleischner 2017, pede tomografia em 6 a 12 meses para confirmar persistência e, se estável, a cada 2 anos até completar 5 anos, porque lesões do espectro do adenocarcinoma crescem devagar. Abaixo de 6 mm, não há seguimento de rotina. Crescimento ou surgimento de componente sólido levam a reavaliação e ressecção. PET-CT tem baixa sensibilidade em lesões em vidro fosco, e biópsia de lesão pura é pouco rendosa.",
   "porAlt": [
-   "A ressecção imediata sem estratificação expõe a cirurgia torácica lesões frequentemente benignas.",
-   "Adiar por cinco anos permite crescimento de neoplasia potencialmente curável no momento do achado.",
-   "Correta: seguimento tomográfico ou investigação adicional, definidos pelo risco estimado de malignidade.",
-   "Não se inicia quimioterapia sem confirmação histológica e sem estadiamento adequado da doença.",
-   "A radiografia não detecta variações sutis de tamanho e é inadequada ao seguimento do nódulo."
+   "Vidro fosco puro estável não pede ressecção imediata.",
+   "PET-CT tem baixa sensibilidade para lesão em vidro fosco puro.",
+   "Vidro fosco puro de 6 mm ou mais: tomografia em 6 a 12 meses e depois a cada 2 anos até 5 anos.",
+   "Três meses de estabilidade não bastam; lesões em vidro fosco crescem devagar.",
+   "Biópsia de vidro fosco puro tem baixo rendimento."
   ]
  },
  {
-  "q": "Paciente com derrame pleural unilateral de moderado volume, sem causa evidente. Qual é a conduta inicial?",
+  "q": "Mulher de 61 anos com adenocarcinoma de mama metastático tem derrame pleural direito recorrente, com citologia positiva. Já fez 2 toracocenteses de alívio em 5 semanas, com melhora clara da dispneia após cada uma. A radiografia após a última drenagem mostrou pulmão totalmente expandido. ECOG 1, expectativa de vida estimada acima de 6 meses. Quer passar pouco tempo internada. Hemoglobina de 11,8 g/dL, plaquetas de 210 mil e sem uso de anticoagulante. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar antibiótico empírico de amplo espectro sem qualquer punção diagnóstica prévia do derrame agora.",
-   "Iniciar diurético em dose alta e reavaliar em trinta dias sem qualquer análise do líquido pleural.",
-   "Indicar pleurodese química imediata em todos os casos de derrame pleural unilateral de causa indefinida.",
-   "Toracocentese diagnóstica com análise do líquido, sempre aplicando os critérios que separam transudato.",
-   "Solicitar apenas tomografia de tórax, exame que estabelece a etiologia do derrame pleural descrito."
+   "Toracocenteses de alívio repetidas a cada recidiva",
+   "Pleurectomia por toracotomia aberta",
+   "Dreno torácico de grosso calibre por 10 dias",
+   "Cateter pleural de longa permanência ou talco",
+   "Observação até o derrame ocupar todo o hemitórax"
   ],
   "gab": 3,
   "tema": "pneumo",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r1",
-  "base": "BTS Pleural Disease Guideline, 2023; ATS/STS/STR clinical practice guideline, 2018",
-  "coment": "Derrame pleural de causa indeterminada exige toracocentese diagnóstica. Os critérios de Light separam transudato de exsudato pela relação de proteínas e de desidrogenase láctica entre líquido e soro. Exsudato indica investigação adicional com citologia, cultura, pesquisa de bacilos, adenosina deaminase e, se necessário, biópsia pleural. Transudato aponta insuficiência cardíaca, cirrose ou síndrome nefrótica, tratando-se a doença de base.",
+  "base": "ATS/STS/STR Clinical Practice Guideline: Management of Malignant Pleural Effusions, 2018; BTS Guideline for Pleural Disease, 2023",
+  "coment": "Derrame pleural maligno sintomático e recorrente com pulmão expansível e melhora da dispneia após drenagem tem duas opções definitivas de eficácia semelhante: cateter pleural de longa permanência ou pleurodese com talco. A escolha é compartilhada: o cateter reduz internação e novos procedimentos e é preferido com pulmão encarcerado, e a pleurodese evita dispositivo permanente. Toracocenteses repetidas cabem apenas com expectativa de vida muito curta. Cirurgia aberta não é indicada.",
   "porAlt": [
-   "Tratar empiricamente sem punção deixa sem diagnóstico causas que exigem abordagem específica.",
-   "O diurético trata transudato cardiogênico, hipótese que ainda não foi estabelecida neste caso.",
-   "A pleurodese é tratamento de derrame maligno recidivante, e não conduta diagnóstica inicial.",
-   "Correta: toracocentese diagnóstica com aplicação dos critérios que diferenciam transudato de exsudato.",
-   "A tomografia caracteriza o derrame e o parênquima, mas não substitui a análise do líquido pleural."
+   "Toracocenteses repetidas geram mais procedimentos e são reservadas para sobrevida muito curta.",
+   "Cirurgia aberta tem morbidade sem vantagem.",
+   "Dreno prolongado não é estratégia definitiva e prolonga internação.",
+   "Derrame maligno recorrente com pulmão expansível: cateter de longa permanência ou pleurodese com talco, em decisão compartilhada.",
+   "Esperar piora da dispneia não se justifica."
   ]
  },
  {
-  "q": "Paciente com doença pulmonar obstrutiva crônica em exacerbação, com hipercapnia, pH de 7,28 e dispneia importante. Qual é a conduta?",
+  "q": "Homem de 69 anos com exacerbação de DPOC está em ventilação não invasiva há 2 horas com pressão inspiratória de 16 e expiratória de 5 cmH₂O, boa adaptação da máscara e oxigênio titulado. A gasometria inicial tinha pH 7,26 e PaCO₂ de 70 mmHg; agora mostra pH 7,21 e PaCO₂ de 82 mmHg. Está sonolento, abrindo os olhos só ao chamado, com frequência respiratória de 34 irpm. Pressão arterial 150/90 mmHg. Qual é a conduta mais adequada?",
   "alts": [
-   "Intubação orotraqueal imediata em todos os pacientes com esse valor de pH sem qualquer tentativa prévia.",
-   "Oxigênio em alto fluxo com alvo de saturação acima de noventa e oito por cento em todos os casos.",
-   "Prescrever apenas antibiótico oral e observar clinicamente por vinte e quatro horas sem outra medida.",
-   "Iniciar sedação profunda para reduzir o trabalho respiratório do paciente antes de qualquer suporte.",
-   "Ventilação não invasiva com dois níveis de pressão, sempre associada a broncodilatador e corticoide."
+   "Manter a ventilação não invasiva e repetir gasometria em 6 horas",
+   "Intubação orotraqueal e ventilação invasiva",
+   "Trocar para cateter nasal de alto fluxo",
+   "Aumentar a FiO₂ para saturação de 98%",
+   "Suspender a ventilação e dar bicarbonato"
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "pneumo",
-  "cenario": "uti",
+  "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "GOLD Report, 2025; ERS/ATS guidelines on noninvasive ventilation for acute respiratory failure, 2017 com revisão 2023",
-  "coment": "Na exacerbação com acidose respiratória (pH abaixo de 7,35 com hipercapnia) a ventilação não invasiva com dois níveis de pressão é a intervenção que reduz intubação, mortalidade e tempo de internação, sendo indicação de primeira linha. Associa-se broncodilatador de curta duração, corticoide sistêmico por cinco dias e antibiótico quando há aumento de purulência e volume do escarro. O alvo de saturação é de 88 a 92 por cento, evitando hiperóxia.",
+  "base": "ERS/ATS Clinical Practice Guidelines: Noninvasive Ventilation for Acute Respiratory Failure, 2017; GOLD Report, 2025",
+  "coment": "Piora do pH e da PaCO₂ após 1 a 2 horas de ventilação não invasiva bem ajustada, com rebaixamento do nível de consciência, define falha. Atrasar a intubação nesse cenário aumenta a mortalidade. Outras indicações de ventilação invasiva são incapacidade de proteger a via aérea, instabilidade hemodinâmica, arritmia grave, parada e intolerância à máscara. Oxigênio para saturação alta piora a hipercapnia, e bicarbonato não trata acidose respiratória.",
   "porAlt": [
-   "A intubação se reserva à falha da ventilação não invasiva ou a contraindicação formal ao método.",
-   "O alvo de saturação nessa doença é de 88 a 92 por cento, pois a hiperóxia agrava a hipercapnia.",
-   "O antibiótico isolado não corrige a acidose respiratória nem alivia o trabalho respiratório.",
-   "A sedação sem suporte ventilatório agrava a hipoventilação e pode precipitar parada respiratória.",
-   "Correta: ventilação não invasiva com dois níveis de pressão, somada a broncodilatador e corticoide."
+   "Esperar mais com piora gasométrica e rebaixamento atrasa a intubação.",
+   "Falha da ventilação não invasiva com rebaixamento e acidose piorando: intubação e ventilação invasiva.",
+   "Alto fluxo não corrige hipercapnia progressiva.",
+   "Saturação alta piora a retenção de CO₂.",
+   "Bicarbonato não trata acidose respiratória."
   ]
  },
  {
-  "q": "Homem de 45 anos com sonolência diurna excessiva, roncos e pausas respiratórias observadas pela parceira, com IMC de 34 kg/m². Qual é a conduta?",
+  "q": "Mulher de 52 anos, índice de massa corporal de 44 kg/m², tem sonolência diurna, cefaleia matinal e edema de membros inferiores. Gasometria em vigília, em ar ambiente: pH 7,38, PaCO₂ de 52 mmHg, PaO₂ de 64 mmHg, bicarbonato de 31 mEq/L. Espirometria sem obstrução, função tireoidiana normal, sem doença neuromuscular. Polissonografia com índice de apneia e hipopneia de 48 eventos por hora. Está estável, sem internação recente. Qual é o diagnóstico e o tratamento inicial?",
   "alts": [
-   "Prescrever apenas estimulante do sistema nervoso central para o controle da sonolência diurna do paciente.",
-   "Iniciar benzodiazepínico noturno para melhorar a qualidade do sono e reduzir os roncos referidos.",
-   "Indicar traqueostomia imediata em todos os pacientes com roncos e pausas respiratórias observadas.",
-   "Prescrever apenas descongestionante nasal contínuo como tratamento definitivo do quadro descrito.",
-   "Polissonografia ou poligrafia domiciliar e tratamento com pressão positiva, sempre com perda de peso."
+   "DPOC; broncodilatador de longa ação",
+   "Apneia central; servoventilação adaptativa",
+   "Hipotireoidismo subclínico; levotiroxina",
+   "Obesidade-hipoventilação; oxigênio noturno isolado",
+   "Obesidade-hipoventilação; pressão positiva contínua"
   ],
   "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "AASM Clinical Practice Guideline for Diagnostic Testing for Adult Obstructive Sleep Apnea, 2017 com revisão 2023; SBPT, 2022",
-  "coment": "A apneia obstrutiva do sono é confirmada por polissonografia ou, em alta probabilidade sem comorbidade cardiorrespiratória grave, por poligrafia domiciliar. O tratamento de primeira linha na doença moderada a grave é pressão positiva contínua, associada a perda de peso, higiene do sono, tratamento posicional e evitação de álcool e sedativos. Aparelho intraoral é alternativa em casos leves a moderados. Benzodiazepínicos agravam a apneia.",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ATS Clinical Practice Guideline: Evaluation and Management of Obesity Hypoventilation Syndrome, 2019",
+  "coment": "Obesidade (índice de massa de 30 ou mais) com hipercapnia diurna (PaCO₂ acima de 45 mmHg) sem outra causa define síndrome de obesidade-hipoventilação; bicarbonato sérico de 27 mEq/L ou mais ajuda a rastrear. A ATS (2019) sugere, no paciente ambulatorial estável com apneia obstrutiva grave associada (presente em cerca de 70%), iniciar com pressão positiva contínua, e não ventilação em dois níveis, além de perda de peso de 25 a 30%, idealmente com cirurgia bariátrica. Oxigênio isolado pode piorar a hipercapnia.",
   "porAlt": [
-   "O estimulante trata sonolência residual, mas não corrige a obstrução nem os riscos associados.",
-   "O benzodiazepínico relaxa a musculatura faríngea e agrava as apneias durante o sono do paciente.",
-   "A traqueostomia é medida excepcional para casos graves refratários a todas as outras opções.",
-   "O descongestionante contínuo não trata a obstrução faríngea e causa rinite medicamentosa.",
-   "Correta: confirmar por polissonografia ou poligrafia e tratar com pressão positiva e perda de peso."
+   "Espirometria sem obstrução afasta DPOC.",
+   "Os eventos são obstrutivos, e servoventilação não é indicada aqui.",
+   "A função tireoidiana é normal.",
+   "Oxigênio sem pressão positiva pode piorar a hipercapnia.",
+   "Obesidade, hipercapnia diurna e apneia grave: obesidade-hipoventilação; pressão positiva contínua no sono como tratamento inicial."
   ]
  },
  {
-  "q": "Paciente com pneumonia adquirida na comunidade e CURB-65 de 1, sem comorbidades descompensadas. Qual é a conduta?",
+  "q": "Homem de 67 anos, com diabetes tipo 2 e insuficiência cardíaca compensada, tem febre, tosse produtiva e consolidação no lobo inferior esquerdo há 2 dias. Lúcido, frequência respiratória 22 irpm, pressão arterial 130/80 mmHg, ureia de 38 mg/dL (CURB-65 de 1 pela idade), saturação de 95%. Não usou antibiótico nos últimos 90 dias, sem internação recente ou colonização conhecida por MRSA ou Pseudomonas. Tolera via oral e tem apoio em casa. Qual é o tratamento ambulatorial mais adequado?",
   "alts": [
-   "Tratamento ambulatorial com antibiótico oral, sempre com reavaliação clínica em quarenta e oito horas.",
-   "Internação em unidade de terapia intensiva para todos os pacientes com esse escore de gravidade agora.",
-   "Antibiótico endovenoso de amplo espectro em ambiente hospitalar por catorze dias em todos os casos.",
-   "Não prescrever antibiótico e reavaliar apenas em uma semana, dada a baixa gravidade do quadro agora.",
-   "Solicitar tomografia de tórax de rotina antes de qualquer prescrição de antibiótico para o paciente."
+   "Amoxicilina-clavulanato mais azitromicina",
+   "Amoxicilina isolada 500 mg a cada 8 horas",
+   "Azitromicina isolada por 3 dias",
+   "Piperacilina-tazobactam com vancomicina",
+   "Ciprofloxacino isolado por 7 dias"
   ],
   "gab": 0,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "ATS/IDSA Guidelines for Community-Acquired Pneumonia, 2019 com revisão 2023; SBPT. Diretrizes de pneumonia, 2023",
-  "coment": "O escore CURB-65 estima gravidade pela confusão, ureia, frequência respiratória, pressão arterial e idade acima de sessenta e cinco anos. Pontuação de zero a um permite tratamento ambulatorial na maioria dos casos, com amoxicilina ou amoxicilina com clavulanato, ou macrolídeo conforme o perfil e as comorbidades. A reavaliação em quarenta e oito a setenta e duas horas é essencial para identificar falha terapêutica precoce e complicações.",
+  "base": "ATS/IDSA Guideline: Diagnosis and Treatment of Adults with Community-acquired Pneumonia, 2019",
+  "coment": "Pela ATS/IDSA 2019, adulto ambulatorial com comorbidade (doença cardíaca, pulmonar, hepática ou renal crônica, diabetes, etilismo, neoplasia ou asplenia) deve receber betalactâmico (amoxicilina-clavulanato ou cefalosporina) com macrolídeo ou doxiciclina, ou monoterapia com fluoroquinolona respiratória (levofloxacino ou moxifloxacino). Amoxicilina isolada e macrolídeo isolado são reservados para quem não tem comorbidade, este último só com resistência pneumocócica abaixo de 25%. Ciprofloxacino tem cobertura ruim de pneumococo.",
   "porAlt": [
-   "Correta: tratamento ambulatorial com antibiótico oral e reavaliação clínica em quarenta e oito horas.",
-   "A unidade intensiva se reserva a critérios de gravidade que este paciente não apresenta.",
-   "O amplo espectro endovenoso por catorze dias é excessivo e favorece resistência antimicrobiana.",
-   "Não prescrever antibiótico em pneumonia confirmada permite progressão e complicação evitável.",
-   "A tomografia não é necessária quando o diagnóstico está estabelecido pela clínica e radiografia."
+   "Paciente ambulatorial com comorbidade: betalactâmico com macrolídeo, ou fluoroquinolona respiratória.",
+   "Amoxicilina isolada é para paciente sem comorbidade.",
+   "Macrolídeo isolado não é indicado com comorbidade e resistência alta.",
+   "Cobertura para MRSA e Pseudomonas não se justifica sem fatores de risco.",
+   "Ciprofloxacino cobre mal o pneumococo."
   ]
  },
  {
-  "q": "Paciente com dispneia súbita, dor torácica pleurítica e taquicardia, com escore de Wells de probabilidade alta. Qual é a conduta?",
+  "q": "Gestante de 29 anos, com 26 semanas, tem dispneia súbita, dor pleurítica à esquerda e edema doloroso da panturrilha esquerda há 2 dias, com 3 cm de diferença na circunferência. Frequência cardíaca 108 bpm, pressão arterial 118/72 mmHg, saturação 95% em ar ambiente, sem sinais de choque ou hipoperfusão. Radiografia de tórax normal. Função renal e plaquetas normais. É a primeira gestação, sem trombofilia conhecida e sem viagem recente. Qual é o primeiro exame diagnóstico mais adequado?",
   "alts": [
-   "Solicitar dímero-D e afastar o diagnóstico caso o resultado do exame se apresente dentro da normalidade.",
-   "Aguardar o resultado da angiotomografia antes de iniciar qualquer anticoagulação no paciente descrito.",
-   "Prescrever apenas analgésico e oxigênio suplementar, sem qualquer anticoagulação empírica indicada.",
-   "Anticoagulação empírica e angiotomografia de tórax, sempre iniciada antes da confirmação por imagem.",
-   "Iniciar trombólise sistêmica em todos os pacientes com probabilidade clínica alta para essa doença."
+   "Angiotomografia de tórax imediata",
+   "Ultrassonografia com compressão venosa da perna esquerda",
+   "Dímero-D e, se positivo, alta sem exame",
+   "Cintilografia antes de qualquer outro exame",
+   "Ressonância de tórax sem contraste"
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "ESC Guidelines on the diagnosis and management of acute pulmonary embolism, 2019 com atualização 2024",
-  "coment": "Com probabilidade clínica alta de embolia pulmonar, o dímero-D não deve ser usado, pois seu valor normal não exclui a doença nesse cenário: parte-se direto para angiotomografia de tórax. Se houver previsão de demora para o exame e não houver alto risco de sangramento, a anticoagulação empírica é iniciada de imediato. Trombólise se reserva à embolia de alto risco, com instabilidade hemodinâmica ou hipotensão sustentada.",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ESC Guidelines for acute pulmonary embolism, 2019; van der Pol et al., Artemis, NEJM, 2019; ATS/STR Clinical Practice Guideline: Evaluation of Suspected Pulmonary Embolism in Pregnancy, 2011",
+  "coment": "Na gestante com suspeita de TEP e sinais de trombose venosa profunda, a ultrassonografia com compressão vem primeiro: se mostrar trombose, inicia-se anticoagulação com heparina de baixo peso molecular sem irradiar mãe e feto. Se negativa, prossegue-se com cintilografia de perfusão (com radiografia normal) ou angiotomografia. Na gestante estável, o algoritmo YEARS adaptado à gravidez (Artemis) permite dispensar imagem de tórax em parte das pacientes. Anticoagulantes orais diretos são contraindicados na gestação.",
   "porAlt": [
-   "Com probabilidade alta o dímero-D normal não exclui a doença e não deve ser usado para afastar.",
-   "Aguardar a imagem sem anticoagular expõe o paciente a extensão do trombo e a novos êmbolos.",
-   "Analgesia e oxigênio são suporte e não tratam o evento tromboembólico em curso no paciente.",
-   "Correta: anticoagular empiricamente e confirmar com angiotomografia, sem esperar o exame para tratar.",
-   "A trombólise se reserva à embolia de alto risco com instabilidade hemodinâmica documentada."
+   "Com sinais de trombose na perna, a ultrassonografia pode confirmar o diagnóstico sem irradiar.",
+   "Gestante com suspeita de TEP e sintomas na perna: ultrassonografia com compressão primeiro; se positiva, heparina de baixo peso molecular.",
+   "Dímero-D positivo não permite alta, e sozinho não exclui TEP na gestante sintomática com sinais na perna.",
+   "A cintilografia é opção após ultrassonografia negativa.",
+   "Ressonância sem contraste não é exame validado para TEP."
   ]
  },
  {
-  "q": "Paciente com tosse crônica há 10 semanas, sem tabagismo, com radiografia de tórax normal e sem uso de inibidor da enzima conversora. Qual é a abordagem inicial?",
+  "q": "Mulher de 41 anos, não tabagista, tem tosse seca há 12 semanas, pior à noite e com ar frio, sem chiado audível. Não usa IECA, não tem pirose, rinorreia ou gotejamento pós-nasal. Radiografia de tórax normal. Espirometria com VEF₁/CVF de 0,78 e sem resposta significativa ao broncodilatador. Eosinófilos no sangue de 380 células/µL, FeNO de 52 ppb. Ausculta pulmonar normal. Já usou anti-histamínico por 3 semanas sem melhora. Qual é a conduta mais adequada?",
   "alts": [
-   "Investigar as três causas mais comuns, tratando sempre gotejamento nasal, asma e refluxo em sequência.",
-   "Solicitar tomografia de tórax e broncoscopia imediatamente em todos os pacientes com tosse crônica.",
-   "Prescrever antitussígeno de uso contínuo por seis meses sem qualquer investigação complementar agora.",
-   "Iniciar antibiótico de amplo espectro por quatro semanas como abordagem inicial da tosse crônica.",
-   "Iniciar corticoide sistêmico contínuo, abordagem de escolha para a tosse crônica com imagem normal."
+   "Tomografia de tórax de alta resolução",
+   "Inibidor de bomba de prótons por 12 semanas",
+   "Codeína contínua para suprimir a tosse",
+   "Teste terapêutico com corticoide inalatório",
+   "Broncoscopia com biópsia"
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "CHEST Expert Panel Report on chronic cough, 2018 com revisão 2023; ERS guidelines on chronic cough, 2020",
-  "coment": "Tosse crônica é definida por duração superior a oito semanas. Em não fumante, sem inibidor da enzima conversora e com radiografia normal, as três causas mais frequentes são síndrome de tosse de via aérea superior, asma ou tosse variante asmática e doença do refluxo gastroesofágico, isoladas ou combinadas. A abordagem é investigação e tratamento empírico sequencial dessas causas, reservando investigação adicional para os casos sem resposta.",
+  "base": "ERS Guidelines on the diagnosis and treatment of chronic cough in adults and children, 2020; CHEST Guideline: Classification of Cough as a Symptom in Adults, 2018",
+  "coment": "Tosse crônica com espirometria normal não afasta asma variante tosse ou bronquite eosinofílica não asmática. FeNO elevado (acima de 50 ppb em adultos) e eosinofilia predizem boa resposta a corticoide inalatório, e o CHEST e a ERS (2020) sugerem teste terapêutico por 2 a 4 semanas, ou broncoprovocação quando disponível. Tratamento de refluxo sem sintomas digestivos tem pouco benefício. Opioides ficam para tosse refratária após investigação.",
   "porAlt": [
-   "Correta: investigar e tratar sequencialmente gotejamento nasal, asma e refluxo, as três causas mais comuns.",
-   "A investigação invasiva é reservada a sinais de alarme ou falha da abordagem inicial sequencial.",
-   "O antitussígeno contínuo mascara o sintoma sem tratar a causa subjacente da tosse crônica.",
-   "O antibiótico prolongado não trata as causas mais frequentes de tosse crônica em não fumante.",
-   "O corticoide sistêmico contínuo tem toxicidade elevada e não é a abordagem inicial indicada."
+   "Com radiografia normal e provável causa eosinofílica, tomografia não é o próximo passo.",
+   "Inibidor de bomba sem sintomas de refluxo tem pouco benefício.",
+   "Opioide é para tosse refratária após investigação.",
+   "Tosse crônica com FeNO alto e eosinofilia: teste com corticoide inalatório, pela provável asma variante tosse ou bronquite eosinofílica.",
+   "Broncoscopia não é indicada com radiografia normal nesse contexto."
   ]
  },
  {
-  "q": "Paciente com hemoptise volumosa e instabilidade respiratória. Qual é a primeira medida?",
+  "q": "Homem de 56 anos com bronquiectasias pós-tuberculose tem hemoptise de cerca de 300 mL em 4 horas. Frequência respiratória 30 irpm, saturação 86% com máscara com reservatório, pressão arterial 104/66 mmHg, frequência cardíaca 118 bpm. A radiografia mostra opacidades no lobo superior direito, compatíveis com o local do sangramento. Hemoglobina 11,2 g/dL, coagulograma normal. Continua expelindo sangue e tem dificuldade de clarear a via aérea. Qual é a sequência inicial mais adequada?",
   "alts": [
-   "Proteger a via aérea e posicionar o paciente com o lado sangrante sempre voltado para baixo agora.",
-   "Posicionar o paciente com o lado sangrante voltado para cima para favorecer a ventilação do pulmão.",
-   "Iniciar anticoagulação plena imediatamente como primeira medida diante da hemoptise volumosa descrita.",
-   "Realizar fisioterapia respiratória com percussão torácica vigorosa como primeira medida terapêutica.",
-   "Prescrever apenas antitussígeno e observar clinicamente por doze horas antes de qualquer intervenção."
+   "Decúbito lateral esquerdo e nebulização com salbutamol",
+   "Lado direito para baixo, intubação e embolização brônquica",
+   "Broncoscopia flexível ambulatorial em 48 horas",
+   "Decúbito dorsal e ácido tranexâmico como medida única",
+   "Ressecção do lobo superior direito como primeira medida"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "CHEST guideline on management of massive hemoptysis, revisão 2023; ERS statement on hemoptysis, 2020",
-  "coment": "Na hemoptise maciça a morte ocorre por asfixia, não por perda sanguínea. A prioridade é proteger a via aérea, com intubação seletiva se necessário, e posicionar o paciente em decúbito lateral com o lado sangrante para baixo, impedindo que o sangue inunde o pulmão sadio. Segue-se correção de coagulopatia, broncoscopia para localizar e tratar, e arteriografia brônquica com embolização, que é o tratamento definitivo na maioria dos casos.",
+  "base": "Davidson e Shojaee, Managing Massive Hemoptysis, Chest, 2020; BTS Guideline for Bronchiectasis in Adults, 2019",
+  "coment": "Na hemoptise maciça, a morte vem da asfixia, não da perda de sangue. Deita-se o paciente com o lado que sangra para baixo (aqui o direito), para proteger o pulmão sadio; com troca gasosa comprometida, intuba-se com tubo de grosso calibre (8,0 ou mais), que permite broncoscopia e aspiração, podendo avançar seletivamente para o brônquio principal do lado sadio. A broncoscopia localiza e controla temporariamente, e a embolização das artérias brônquicas é o tratamento definitivo de primeira linha. Cirurgia fica para falha ou lesões específicas.",
   "porAlt": [
-   "Correta: proteger a via aérea e posicionar em decúbito lateral com o lado sangrante voltado para baixo.",
-   "Posicionar o lado sangrante para cima faz o sangue inundar o pulmão sadio e agrava a asfixia.",
-   "A anticoagulação agrava o sangramento e é o oposto do indicado nessa situação de hemoptise.",
-   "A percussão torácica pode agravar o sangramento e não protege a via aérea do paciente instável.",
-   "Observar sem proteger a via aérea permite asfixia, que é a principal causa de morte nesse quadro."
+   "O lado que sangra deve ficar para baixo; o esquerdo para baixo inunda o pulmão sadio.",
+   "Hemoptise maciça com hipoxemia: lado que sangra para baixo, intubação com tubo calibroso e embolização arterial brônquica.",
+   "Hemoptise maciça exige controle imediato, não ambulatorial.",
+   "Ácido tranexâmico é adjuvante e não protege a via aérea.",
+   "Cirurgia de urgência tem alta mortalidade e é reservada para falha da embolização."
   ]
  },
  {
@@ -17448,243 +17448,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com doença pulmonar obstrutiva crônica e hipoxemia em repouso com PaO2 de 52 mmHg. Qual é a conduta?",
+  "q": "Homem de 68 anos com DPOC grave, estável há 2 meses, mantém saturação de 86% em ar ambiente em duas consultas com 3 semanas de intervalo. Gasometria arterial em repouso: PaO₂ de 52 mmHg e PaCO₂ de 46 mmHg. Hematócrito de 50%. Parou de fumar há 5 anos e não fuma em casa. Usa terapia tripla inalatória com boa adesão. Mora com a esposa, sem fogão a lenha. Qual é a prescrição de oxigênio mais adequada?",
   "alts": [
-   "Oxigenoterapia domiciliar prolongada por pelo menos quinze horas diárias, medida que aumenta sempre a sobrevida.",
-   "Oxigenoterapia apenas durante as crises de dispneia, sem qualquer uso contínuo domiciliar de oxigênio agora.",
-   "Aumentar a dose do broncodilatador como único tratamento para a hipoxemia em repouso identificada neste caso.",
-   "Iniciar corticoide sistêmico contínuo em dose alta como tratamento definitivo da hipoxemia crônica neste caso.",
-   "Indicar transplante pulmonar imediato em todos os pacientes com esse valor de oxigenação arterial neste caso."
-  ],
-  "gab": 0,
-  "tema": "pneumo",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "GOLD Report, 2025; ATS Clinical Practice Guideline on home oxygen therapy, 2020 com revisão 2023",
-  "coment": "A oxigenoterapia domiciliar prolongada é uma das poucas intervenções que aumentam a sobrevida na doença pulmonar obstrutiva crônica, junto com a cessação do tabagismo. É indicada com PaO2 igual ou inferior a 55 mmHg, ou entre 55 e 60 mmHg quando há cor pulmonale, hipertensão pulmonar ou policitemia, mantida por pelo menos quinze horas por dia, incluindo o período de sono. Deve ser reavaliada após estabilização clínica de pelo menos trinta dias.",
-  "porAlt": [
-   "Correta: oxigenoterapia domiciliar por pelo menos quinze horas diárias, que aumenta a sobrevida.",
-   "O uso apenas nas crises não confere o benefício de sobrevida demonstrado no uso prolongado.",
-   "O broncodilatador melhora sintomas e função, mas não corrige a hipoxemia crônica em repouso.",
-   "O corticoide sistêmico contínuo traz toxicidade importante sem corrigir a hipoxemia do paciente.",
-   "O transplante é opção muito selecionada, e não conduta para todo paciente com essa oxigenação."
-  ]
- },
- {
-  "q": "Paciente com tosse, dispneia progressiva e crepitações em velcro nas bases, com padrão reticular e faveolamento na tomografia. Qual é o diagnóstico?",
-  "alts": [
-   "Fibrose pulmonar idiopática, cujo padrão tomográfico típico dispensa sempre a biópsia para o diagnóstico.",
-   "Asma brônquica de início tardio, condição definida por faveolamento e crepitações em velcro nas bases.",
-   "Doença pulmonar obstrutiva crônica avançada, caracterizada por padrão reticular com faveolamento bibasal.",
-   "Pneumonia bacteriana de evolução arrastada, definida por padrão reticular com faveolamento nas bases.",
-   "Tromboembolismo pulmonar crônico, quadro caracterizado por faveolamento bibasal e crepitações em velcro."
-  ],
-  "gab": 0,
-  "tema": "pneumo",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "ATS/ERS/JRS/ALAT Clinical Practice Guideline on idiopathic pulmonary fibrosis, 2022; SBPT. Diretrizes de doenças intersticiais, 2023",
-  "coment": "A fibrose pulmonar idiopática cursa com dispneia progressiva, tosse seca, crepitações em velcro nas bases e baqueteamento digital, em pacientes acima de sessenta anos. O padrão tomográfico de pneumonia intersticial usual (reticulado subpleural e basal, bronquiectasias de tração e faveolamento) permite o diagnóstico sem biópsia quando o contexto clínico é compatível e outras causas foram afastadas. O tratamento usa antifibróticos como nintedanibe e pirfenidona.",
-  "porAlt": [
-   "Correta: padrão tomográfico de pneumonia intersticial usual permite o diagnóstico sem biópsia.",
-   "A asma é doença obstrutiva reversível e não produz faveolamento nem crepitações em velcro.",
-   "A doença obstrutiva crônica cursa com enfisema e aprisionamento aéreo, e não com faveolamento.",
-   "A pneumonia bacteriana cursa com consolidação e não produz faveolamento crônico das bases.",
-   "O tromboembolismo crônico cursa com hipertensão pulmonar e defeitos de perfusão, não faveolamento."
-  ]
- },
- {
-  "q": "Paciente com asma controlada há seis meses em etapa intermediária de tratamento. Qual é a conduta?",
-  "alts": [
-   "Suspender completamente todo o tratamento, incluindo o corticoide inalatório, após seis meses de controle.",
-   "Manter indefinidamente a mesma dose sem qualquer tentativa de redução, mesmo com controle sustentado.",
-   "Considerar redução escalonada do tratamento, mantendo sempre o corticoide inalatório na menor dose eficaz.",
-   "Aumentar a dose do corticoide inalatório apesar do controle sustentado dos sintomas do paciente agora.",
-   "Substituir o corticoide inalatório por beta-agonista de curta duração isolado após o período de controle."
+   "Oxigênio apenas durante esforços e caminhadas",
+   "Oxigênio apenas noturno por 8 horas",
+   "Oxigênio 15 horas ou mais por dia, saturação 88 a 92%",
+   "Oxigênio contínuo para saturação acima de 98%",
+   "Não indicar oxigênio pela PaCO₂ de 46 mmHg"
   ],
   "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "GINA, Global Strategy for Asthma Management and Prevention, 2025",
-  "coment": "Após três a seis meses de controle sustentado, considera-se reduzir o tratamento de forma escalonada, sempre mantendo corticoide inalatório em alguma dose, nunca chegando a beta-agonista isolado, que aumenta exacerbações graves e mortalidade. A redução é gradual, com reavaliação em intervalos, evitando períodos de risco como infecções respiratórias, viagens e gestação. Antes de qualquer ajuste, checam-se técnica inalatória, adesão e controle de gatilhos.",
+  "base": "GOLD Report, 2025; ATS Clinical Practice Guideline: Home Oxygen Therapy for Adults with Chronic Lung Disease, 2020",
+  "coment": "PaO₂ de 55 mmHg ou menos (ou saturação de 88% ou menos) em repouso, confirmada em duas medidas com o paciente estável, indica oxigênio domiciliar prolongado, que aumenta a sobrevida (NOTT e MRC). O benefício depende do tempo de uso: pelo menos 15 horas por dia, idealmente 24. Titula-se o fluxo para saturação de 88 a 92% (ou PaO₂ de 60 mmHg ou mais), com reavaliação em 60 a 90 dias. Hipercapnia leve não contraindica, mas exige titulação cuidadosa. Tabagismo ativo é contraindicação pelo risco de incêndio.",
   "porAlt": [
-   "Suspender todo o tratamento expõe o paciente a exacerbação e perda do controle alcançado.",
-   "Manter indefinidamente a mesma dose expõe a efeitos adversos desnecessários do corticoide.",
-   "Correta: reduzir de forma escalonada mantendo corticoide inalatório na menor dose eficaz.",
-   "Aumentar a dose sem perda de controle não traz benefício e amplia a toxicidade do tratamento.",
-   "Voltar ao beta-agonista isolado aumenta exacerbações graves e mortalidade, sendo proscrito."
+   "Oxigênio só no esforço não traz o ganho de sobrevida da hipoxemia em repouso.",
+   "Uso só noturno não alcança o tempo que traz benefício.",
+   "PaO₂ de 55 mmHg ou menos em repouso: oxigênio por 15 horas ou mais por dia, alvo de saturação de 88 a 92%.",
+   "Saturação acima de 98% favorece hipercapnia.",
+   "PaCO₂ levemente elevada não contraindica, pede titulação."
   ]
  },
  {
-  "q": "Paciente com derrame pleural exsudativo, pH de 7,10, glicose baixa e presença de pus na toracocentese. Qual é a conduta?",
+  "q": "Mulher de 56 anos com esclerose sistêmica cutânea limitada e doença intersticial de padrão pneumonia intersticial não específica fibrosante está em micofenolato 3 g/dia há 18 meses, com boa adesão. No último ano, a CVF caiu de 78% para 67% do previsto e a difusão de 62% para 50%, com piora da dispneia e aumento da reticulação na tomografia. Sem hipertensão pulmonar ao ecocardiograma, sem refluxo sintomático não tratado. Saturação de 93% em repouso. Qual é a conduta mais adequada?",
   "alts": [
-   "Apenas antibiótico endovenoso sem qualquer drenagem do espaço pleural acometido pelo derrame descrito.",
-   "Drenagem torácica com antibiótico, pois o derrame complicado exige sempre esvaziamento do espaço pleural.",
-   "Apenas toracocenteses de alívio repetidas semanalmente como tratamento definitivo do empiema pleural.",
-   "Prescrever apenas anti-inflamatório e observar clinicamente a evolução do derrame pleural complicado.",
-   "Indicar pleurodese química imediata como primeira conduta diante do derrame pleural com essas características."
+   "Prednisona 1 mg/kg/dia por 3 meses",
+   "Suspender o micofenolato e observar",
+   "Acrescentar nintedanibe",
+   "Pirfenidona em substituição ao micofenolato",
+   "Ciclofosfamida oral por 5 anos"
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ATS/ERS/JRS/ALAT Clinical Practice Guideline: Idiopathic Pulmonary Fibrosis and Progressive Pulmonary Fibrosis, 2022; Distler et al., SENSCIS, NEJM, 2019",
+  "coment": "Queda da CVF de 10% ou mais em 1 ano com piora clínica e tomográfica, apesar do tratamento da doença de base, define fibrose pulmonar progressiva. A ATS/ERS/JRS/ALAT 2022 sugere nintedanibe nesse cenário (INBUILD), e na esclerose sistêmica o SENSCIS mostrou redução do declínio da CVF, inclusive associado ao micofenolato. Corticoide em dose alta na esclerose sistêmica aumenta o risco de crise renal. Ciclofosfamida é usada por tempo limitado, pela toxicidade.",
+  "porAlt": [
+   "Corticoide em dose alta aumenta o risco de crise renal esclerodérmica.",
+   "Suspender o imunossupressor deixa a doença de base sem controle.",
+   "Fibrose pulmonar progressiva apesar do micofenolato: acrescentar nintedanibe (INBUILD e SENSCIS).",
+   "Pirfenidona não tem a mesma evidência nesse cenário e não substitui a imunossupressão.",
+   "Ciclofosfamida por anos tem toxicidade inaceitável."
+  ]
+ },
+ {
+  "q": "Homem de 35 anos com asma alérgica usa budesonida-formoterol 200/6 µg, 2 inalações duas vezes ao dia, há 1 ano. Nos últimos 6 meses não teve sintomas diurnos nem despertares, usou resgate menos de 1 vez por mês e não teve exacerbação. VEF₁ de 92% do previsto. Técnica e adesão boas, sem exposição ocupacional, sem viagem ou mudança de estação prevista nos próximos meses. Pergunta se pode diminuir a medicação. Qual é a conduta mais adequada?",
+  "alts": [
+   "Suspender todo o tratamento de controle",
+   "Trocar para salbutamol de resgate isolado",
+   "Manter a dose atual por mais 2 anos",
+   "Reduzir para 1 inalação duas vezes ao dia",
+   "Trocar para formoterol isolado de manutenção"
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Global Initiative for Asthma (GINA), Global Strategy for Asthma Management and Prevention, 2025",
+  "coment": "Pelo GINA, asma bem controlada por 2 a 3 meses permite redução gradual para a menor dose eficaz, cortando o corticoide inalatório em 25 a 50% a cada 3 meses, em época favorável (sem infecção, viagem ou gestação), com plano de ação e reavaliação. Suspender totalmente o corticoide aumenta o risco de exacerbação. Broncodilatador de curta ação isolado não é recomendado em adultos, e beta-agonista de longa ação sem corticoide aumenta mortalidade.",
+  "porAlt": [
+   "Suspender todo o controle aumenta o risco de exacerbação.",
+   "Broncodilatador de curta ação isolado aumenta exacerbações graves.",
+   "Controle mantido por 6 meses permite reduzir gradualmente.",
+   "Controle por mais de 3 meses: reduzir o corticoide inalatório em cerca de 50% e reavaliar.",
+   "Beta-agonista de longa ação sem corticoide aumenta mortalidade."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos com pneumonia e empiema foi drenado há 3 dias com dreno de 14 Fr, após toracocentese com pus franco. Recebe ampicilina-sulbactam guiada por cultura. Continua febril, e o dreno parou de funcionar após 150 mL; lavado com soro, está pérvio e bem posicionado. A ultrassonografia mostra coleção residual multiloculada ocupando um terço do hemitórax. Creatinina normal, plaquetas de 320 mil, sem anticoagulante. Risco cirúrgico elevado por cirrose. Qual é a conduta mais adequada?",
+  "alts": [
+   "Trocar o antibiótico e manter o dreno",
+   "Alteplase com dornase alfa intrapleurais",
+   "Retirar o dreno e manter antibiótico por 6 semanas",
+   "Estreptoquinase intrapleural isolada",
+   "Toracotomia com decorticação imediata"
   ],
   "gab": 1,
   "tema": "pneumo",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "BTS Pleural Disease Guideline, 2023; ATS/STS/STR guideline on pleural infection, revisão 2023",
-  "coment": "Derrame parapneumônico complicado ou empiema (pH abaixo de 7,20, glicose reduzida, desidrogenase láctica elevada, cultura positiva ou aspecto purulento) exige drenagem torácica associada a antibiótico com cobertura para germes respiratórios e anaeróbios. Sem drenagem, a infecção se organiza e evolui para encarceramento pulmonar. Falha da drenagem indica fibrinolítico intrapleural com desoxirribonuclease ou abordagem cirúrgica por videotoracoscopia.",
+  "nivel": "r3",
+  "base": "Rahman et al., MIST2, NEJM, 2011; BTS Guideline for Pleural Disease, 2023",
+  "coment": "Empiema com coleção residual loculada e drenagem inadequada após dreno bem posicionado pede terapia fibrinolítica intrapleural combinada: alteplase 10 mg com dornase alfa 5 mg, duas vezes ao dia por 3 dias (MIST2). A combinação melhorou a drenagem radiológica e reduziu encaminhamento cirúrgico e internação; cada agente isolado não foi eficaz. Cirurgia videoassistida é a alternativa em paciente apto ou quando a terapia intrapleural falha; aqui o risco cirúrgico favorece a via intrapleural.",
   "porAlt": [
-   "O antibiótico isolado não penetra adequadamente na coleção organizada do espaço pleural infectado.",
-   "Correta: drenagem torácica com antibiótico, pois o derrame complicado exige esvaziamento pleural.",
-   "Punções repetidas não esvaziam adequadamente a coleção e retardam o controle da infecção.",
-   "Anti-inflamatório e observação permitem organização do empiema e encarceramento pulmonar.",
-   "A pleurodese trata derrame maligno recidivante e é contraindicada em espaço pleural infectado."
+   "Com antibiótico adequado, o problema é a coleção loculada não drenada.",
+   "Empiema loculado com drenagem insuficiente: alteplase e dornase alfa intrapleurais (MIST2).",
+   "Retirar o dreno deixa a coleção infectada sem drenagem.",
+   "Fibrinolítico isolado não melhorou desfechos no MIST1.",
+   "Cirurgia aberta tem alto risco neste paciente cirrótico."
   ]
  },
  {
-  "q": "Paciente com hipertensão pulmonar suspeitada ao ecocardiograma e dispneia progressiva. Qual exame confirma o diagnóstico?",
+  "q": "Mulher de 44 anos com dispneia progressiva há 2 anos e ecocardiograma sugerindo hipertensão pulmonar faz cateterismo cardíaco direito: pressão média da artéria pulmonar de 38 mmHg, pressão de oclusão da artéria pulmonar de 10 mmHg, débito cardíaco de 3,6 L/min. Espirometria e tomografia normais, cintilografia de perfusão normal, anti-HIV e sorologias negativas. Usou anfepramona por 1 ano há 10 anos. Não tem doença do tecido conjuntivo. Qual é a interpretação hemodinâmica e o próximo passo?",
   "alts": [
-   "Ecocardiograma transtorácico repetido, exame que confirma definitivamente o diagnóstico de hipertensão pulmonar.",
-   "Radiografia simples de tórax, exame suficiente para confirmar o diagnóstico de hipertensão arterial pulmonar.",
-   "Espirometria isolada com difusão, exame confirmatório do diagnóstico de hipertensão arterial pulmonar.",
-   "Cateterismo cardíaco direito, exame padrão-ouro que mede sempre a pressão da artéria pulmonar diretamente.",
-   "Apenas dosagem de peptídeo natriurético, exame que confirma o diagnóstico de hipertensão pulmonar agora."
+   "Pós-capilar isolada; otimizar diurético de alça",
+   "Resultado normal; alta do seguimento",
+   "Pré-capilar com resistência de 2 unidades Wood; observar",
+   "Pré-capilar, 7,8 unidades Wood; vasorreatividade",
+   "Pós-capilar combinada; iniciar sildenafila"
   ],
   "gab": 3,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r3",
+  "nivel": "tit",
   "base": "ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension, 2022",
-  "coment": "O ecocardiograma é a ferramenta de triagem, estimando a probabilidade de hipertensão pulmonar, mas o diagnóstico exige cateterismo cardíaco direito, que mede diretamente a pressão média de artéria pulmonar, definida como acima de 20 mmHg em repouso, a pressão de oclusão e a resistência vascular pulmonar, permitindo distinguir hipertensão pré-capilar de pós-capilar e definir o grupo, o que determina completamente o tratamento indicado.",
+  "coment": "Pela ESC/ERS 2022, hipertensão pulmonar é pressão média acima de 20 mmHg; pré-capilar quando a pressão de oclusão é de 15 mmHg ou menos e a resistência vascular pulmonar é acima de 2 unidades Wood. Aqui a resistência é (38 − 10)/3,6 ≈ 7,8 unidades Wood. Com causa cardíaca, pulmonar e tromboembólica afastadas, trata-se de hipertensão arterial pulmonar (idiopática ou associada a anorexígeno). O teste de vasorreatividade com óxido nítrico é indicado nas formas idiopática, hereditária e associada a fármacos, pois os respondedores podem ser tratados com bloqueador de canal de cálcio em dose alta.",
   "porAlt": [
-   "O ecocardiograma estima a probabilidade, mas não confirma o diagnóstico nem define o grupo.",
-   "A radiografia pode sugerir aumento de tronco pulmonar, mas não confirma o diagnóstico hemodinâmico.",
-   "A espirometria avalia a função ventilatória e não mede as pressões da circulação pulmonar.",
-   "Correta: cateterismo cardíaco direito é o padrão-ouro e mede diretamente as pressões pulmonares.",
-   "O peptídeo natriurético é marcador prognóstico, mas não confirma o diagnóstico hemodinâmico."
+   "Pressão de oclusão de 10 mmHg afasta componente pós-capilar.",
+   "Pressão média de 38 mmHg é francamente elevada.",
+   "O cálculo está errado: (38 − 10)/3,6 ≈ 7,8 unidades Wood.",
+   "Pré-capilar com resistência de cerca de 7,8 unidades Wood: teste de vasorreatividade antes de escolher o tratamento.",
+   "Pressão de oclusão normal afasta hipertensão pós-capilar."
   ]
  },
  {
-  "q": "Paciente jovem com pneumotórax espontâneo primário de pequeno volume, assintomático e estável. Qual é a conduta?",
+  "q": "Homem de 64 anos com DPOC grave (VEF₁ de 42%) tem dor torácica súbita à esquerda e piora da dispneia há 5 horas. Frequência respiratória 26 irpm, saturação 89% com 2 L/min de oxigênio, pressão arterial 136/82 mmHg, frequência cardíaca 104 bpm. Radiografia: pneumotórax esquerdo com distância interpleural de 2,5 cm no nível do hilo, sem desvio de mediastino, com bolhas apicais. É o primeiro episódio. Qual é a conduta mais adequada?",
   "alts": [
-   "Drenagem torácica imediata em todos os casos de pneumotórax espontâneo primário, mesmo assintomáticos.",
-   "Toracotomia aberta imediata como conduta padrão no primeiro episódio de pneumotórax espontâneo primário.",
-   "Alta imediata sem qualquer reavaliação por imagem ou orientação sobre sinais de alarme ao paciente agora.",
-   "Observação com oxigênio suplementar e reavaliação por imagem, reservando sempre a drenagem a casos maiores.",
-   "Pleurodese química imediata em todos os pacientes no primeiro episódio de pneumotórax espontâneo agora."
+   "Alta com observação domiciliar",
+   "Aspiração por agulha e alta no mesmo dia",
+   "Pleurodese com talco na admissão",
+   "Oxigênio em alto fluxo e reavaliação ambulatorial",
+   "Internação e dreno torácico de pequeno calibre"
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "BTS Pleural Disease Guideline, 2023; ACCP/ERS statement on primary spontaneous pneumothorax, revisão 2023",
-  "coment": "O pneumotórax espontâneo primário pequeno em paciente estável e assintomático pode ser conduzido de forma conservadora, com observação, oxigênio suplementar, que acelera a reabsorção, e reavaliação por imagem. Ensaios recentes mostraram que a conduta conservadora é não inferior à drenagem em pacientes selecionados, com menos complicações. Drenagem ou aspiração se indicam em pneumotórax grande, sintomático ou com instabilidade clínica.",
+  "base": "British Thoracic Society Guideline for Pleural Disease, 2023",
+  "coment": "Pneumotórax em paciente com doença pulmonar (secundário) tem maior mortalidade e menor reserva, e a BTS 2023 o classifica como de alto risco. Com sintomas e hipoxemia, indica-se internação e dreno torácico de pequeno calibre inserido por Seldinger. Aspiração isolada tem menor sucesso e não permite alta imediata. Após resolução, pneumotórax secundário justifica discutir cirurgia ou pleurodese para prevenir recorrência, especialmente se houver vazamento persistente por mais de 5 a 7 dias.",
   "porAlt": [
-   "A drenagem universal expõe a complicações desnecessárias em pneumotórax pequeno e assintomático.",
-   "A toracotomia aberta não é conduta de primeiro episódio de pneumotórax espontâneo primário.",
-   "Alta sem reavaliação nem orientação arrisca progressão do pneumotórax sem detecção oportuna.",
-   "Correta: observação com oxigênio e reavaliação por imagem, com drenagem reservada a casos maiores.",
-   "A pleurodese se considera na recorrência ou em situações específicas, não no primeiro episódio."
+   "Pneumotórax secundário sintomático e hipoxêmico não pode ser manejado em casa.",
+   "Aspiração tem menor sucesso no secundário e não permite alta imediata.",
+   "Pleurodese é para prevenir recorrência, após reexpansão.",
+   "Hipoxemia e doença de base exigem internação.",
+   "Pneumotórax secundário com hipoxemia: internação e dreno de pequeno calibre."
   ]
  },
  {
-  "q": "Paciente com bronquiectasias e exacerbações frequentes com escarro purulento. Qual é a base do tratamento crônico?",
+  "q": "Mulher de 49 anos com bronquiectasias idiopáticas faz fisioterapia respiratória diária e teve 4 exacerbações tratadas com antibiótico no último ano. Três culturas de escarro em 12 meses isolaram Pseudomonas aeruginosa, apesar de tentativa de erradicação com ciprofloxacino oral e colistina inalatória há 1 ano. Pesquisa de micobactérias não tuberculosas negativa. VEF₁ de 64% do previsto, sem broncoespasmo à inalação teste. Nunca usou macrolídeo prolongado, com audiometria e eletrocardiograma normais. Qual é o tratamento de manutenção mais adequado?",
   "alts": [
-   "Corticoide sistêmico contínuo em dose alta como base do tratamento crônico das bronquiectasias descritas.",
-   "Antitussígeno contínuo em dose plena para reduzir a tosse produtiva desses pacientes com bronquiectasias.",
-   "Higiene brônquica com fisioterapia respiratória, associada sempre ao tratamento das exacerbações e da causa.",
-   "Restrição hídrica rigorosa para reduzir o volume de secreção brônquica produzida pelo paciente neste caso.",
-   "Ressecção pulmonar em todos os pacientes com bronquiectasias e exacerbações frequentes documentadas agora."
+   "Ciprofloxacino oral contínuo",
+   "Corticoide inalatório em dose alta",
+   "Antibiótico inalatório de longa duração",
+   "Amoxicilina oral em ciclos mensais",
+   "Dornase alfa inalatória"
   ],
   "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "ERS guidelines for the management of adult bronchiectasis, 2017 com revisão 2023; BTS guideline, 2019",
-  "coment": "O tratamento crônico das bronquiectasias se apoia na higiene brônquica diária com técnicas de desobstrução e fisioterapia respiratória, tratamento das exacerbações com antibiótico guiado por cultura de escarro, vacinação, reabilitação pulmonar e investigação da causa subjacente. Imunodeficiência, fibrose cística, discinesia ciliar, aspergilose e sequela infecciosa. Macrolídeo em uso prolongado é considerado em pacientes com exacerbações frequentes.",
+  "nivel": "r3",
+  "base": "ERS Guidelines for the management of adult bronchiectasis, 2017",
+  "coment": "Pela ERS (2017), adultos com bronquiectasias, infecção crônica por Pseudomonas e 3 ou mais exacerbações por ano devem receber antibiótico inalatório de longa duração (colistina, gentamicina ou tobramicina), que reduz exacerbações. Macrolídeo prolongado é alternativa quando o inalatório não é tolerado ou está contraindicado, ou é somado se as exacerbações persistirem, sempre após excluir micobactérias. Dornase alfa aumentou exacerbações em bronquiectasias não fibrocísticas. Corticoide inalatório não é recomendado sem asma ou DPOC associadas.",
   "porAlt": [
-   "O corticoide sistêmico contínuo não é base do tratamento e aumenta o risco infeccioso do paciente.",
-   "O antitussígeno prejudica a depuração de secreções, agravando a obstrução e as infecções.",
-   "Correta: higiene brônquica com fisioterapia, tratamento das exacerbações e investigação da causa.",
-   "A restrição hídrica espessa as secreções e dificulta a depuração brônquica do paciente.",
-   "A ressecção se reserva a doença localizada e refratária, e não a todos com exacerbações frequentes."
+   "Quinolona oral contínua favorece resistência e efeitos adversos.",
+   "Corticoide inalatório não é indicado sem asma ou DPOC.",
+   "Pseudomonas crônica com 3 ou mais exacerbações por ano: antibiótico inalatório de longa duração.",
+   "Amoxicilina não cobre Pseudomonas.",
+   "Dornase alfa aumentou exacerbações em bronquiectasias não fibrocísticas."
   ]
  },
  {
-  "q": "Paciente tabagista com dispneia e enfisema de predomínio basal em paciente jovem, com história familiar. Qual é a investigação adicional?",
+  "q": "Homem de 42 anos, tabagista de 15 maços-ano, tem dispneia progressiva há 2 anos. Espirometria: VEF₁/CVF pós-broncodilatador de 0,52 e VEF₁ de 55%. Tomografia com enfisema panlobular de predomínio nos lobos inferiores. O pai morreu aos 50 anos de doença pulmonar, e um irmão teve cirrose sem etilismo. Transaminases normais. Eletroforese de proteínas com redução do pico de alfa-1. Saturação de 94% em repouso, sem hepatomegalia ao exame. Qual é a investigação mais adequada?",
   "alts": [
-   "Solicitar apenas gasometria arterial seriada, já exame suficiente para investigar o enfisema em paciente jovem.",
-   "Solicitar apenas eletrocardiograma como investigação adicional do enfisema de predomínio basal descrito.",
-   "Realizar biópsia pulmonar cirúrgica de rotina em todos os pacientes jovens com enfisema basal identificado.",
-   "Não realizar qualquer investigação adicional, pois o tabagismo explica integralmente o quadro descrito.",
-   "Dosar alfa-1-antitripsina sérica, investigando sempre deficiência genética como causa do enfisema precoce."
+   "Dosagem e fenotipagem de alfa-1 antitripsina",
+   "Teste do suor com cloro quantitativo",
+   "Dosagem de imunoglobulinas séricas",
+   "Biópsia pulmonar por videotoracoscopia",
+   "Pesquisa de anticorpo antimembrana basal glomerular"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r3",
-  "base": "GOLD Report, 2025; ATS/ERS statement on alpha-1 antitrypsin deficiency, revisão 2023",
-  "coment": "A deficiência de alfa-1-antitripsina deve ser investigada em enfisema de início precoce, com predomínio em lobos inferiores, história familiar, doença hepática associada ou ausência de fator de risco proporcional. A recomendação atual é dosar a proteína sérica ao menos uma vez em todo paciente com doença pulmonar obstrutiva crônica, sobretudo em áreas de maior prevalência. O diagnóstico permite aconselhamento familiar e terapia de reposição em casos selecionados.",
+  "nivel": "r2",
+  "base": "ERS Statement: Diagnosis and treatment of pulmonary disease in α1-antitrypsin deficiency, 2017; GOLD Report, 2025",
+  "coment": "Enfisema precoce, panlobular e basal, com história familiar de doença pulmonar e hepática, sugere deficiência de alfa-1 antitripsina. A ATS/ERS e a ERS (2017) recomendam dosar alfa-1 antitripsina em todo paciente com DPOC, com genotipagem ou fenotipagem quando o nível é baixo (o genótipo PiZZ é o mais grave). Confirmada a deficiência grave, discute-se reposição endovenosa (RAPID), cessação do tabagismo e rastreio de familiares.",
   "porAlt": [
-   "A gasometria avalia trocas gasosas, mas não identifica a causa genética do enfisema precoce.",
-   "O eletrocardiograma avalia repercussão cardíaca, sem esclarecer a etiologia do enfisema descrito.",
-   "A biópsia cirúrgica é invasiva e desnecessária quando a investigação sérica pode dar o diagnóstico.",
-   "O padrão basal em paciente jovem com história familiar exige investigação além do tabagismo.",
-   "Correta: dosar alfa-1-antitripsina, investigando deficiência genética como causa do enfisema precoce."
+   "Enfisema basal precoce com história familiar: dosar e fenotipar alfa-1 antitripsina.",
+   "Teste do suor investiga fibrose cística, que causa bronquiectasias de predomínio superior.",
+   "Imunodeficiência causa bronquiectasias, não enfisema panlobular.",
+   "Biópsia não é necessária.",
+   "Anti-GBM investiga síndrome pulmão-rim."
   ]
  },
  {
-  "q": "Paciente com apneia obstrutiva do sono grave em uso de pressão positiva contínua mantém sonolência diurna apesar de boa adesão. Qual é a conduta?",
+  "q": "Homem de 50 anos com apneia obstrutiva do sono grave (índice inicial de 55 eventos por hora) usa pressão positiva contínua há 4 meses e mantém Epworth de 15. Relata usar o aparelho toda noite. Dorme 7 horas, sem trabalho em turnos, sem uso de sedativos ou álcool à noite. PHQ-9 de 3. TSH normal. Índice de massa corporal de 31 kg/m². A esposa diz que ele não ronca mais. Qual é o primeiro passo mais adequado?",
   "alts": [
-   "Suspender definitivamente a pressão positiva contínua diante da persistência da sonolência diurna do paciente.",
-   "Aumentar a pressão de forma empírica ao máximo tolerado sem qualquer reavaliação ou estudo do sono agora.",
-   "Revisar a adesão, o ajuste da pressão e causas associadas, investigando sempre outros distúrbios do sono.",
-   "Prescrever apenas benzodiazepínico noturno para melhorar a qualidade do sono e reduzir a sonolência diurna.",
-   "Indicar traqueostomia imediata em todos os pacientes com sonolência residual apesar do uso do dispositivo."
+   "Iniciar modafinil 200 mg pela manhã",
+   "Encaminhar para cirurgia de via aérea",
+   "Baixar dados do aparelho: uso, vazamento e índice residual",
+   "Solicitar teste de latências múltiplas do sono",
+   "Suspender a pressão positiva por ineficácia"
   ],
   "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "AASM Clinical Practice Guideline on positive airway pressure treatment, revisão 2023; ERS statement on excessive daytime sleepiness, 2022",
-  "coment": "A sonolência residual apesar de tratamento adequado exige investigação sistemática: confirmar adesão objetiva pelos dados do aparelho, verificar vazamento e adequação da máscara, revisar a titulação da pressão e a persistência de eventos residuais, avaliar higiene do sono e privação, além de buscar comorbidades como depressão, hipotireoidismo, uso de fármacos sedativos, síndrome das pernas inquietas e narcolepsia. Fármacos promotores de vigília entram depois.",
+  "base": "AASM Clinical Practice Guideline: Pharmacologic treatment of central disorders of hypersomnolence, 2021; AASM Clinical Practice Guideline: Treatment of OSA with PAP, 2019",
+  "coment": "Sonolência residual em paciente tratado exige confirmar objetivamente a eficácia antes de outra conduta: os dados do aparelho mostram horas de uso (meta de 4 ou mais por noite em 70% das noites, e mais horas dão mais benefício), vazamento e índice de apneia residual. Com uso adequado e índice residual baixo, avaliam-se sono insuficiente, depressão, medicamentos e outros distúrbios do sono. Só então a AASM (2021) sugere estimulante como solriamfetol ou modafinil para sonolência residual.",
   "porAlt": [
-   "Suspender o tratamento remove o benefício cardiovascular e agrava a fragmentação do sono.",
-   "Aumentar a pressão empiricamente sem reavaliação pode gerar intolerância e vazamento adicional.",
-   "Correta: revisar adesão, ajuste da pressão e comorbidades, investigando outros distúrbios do sono.",
-   "O benzodiazepínico agrava a apneia ao relaxar a musculatura das vias aéreas superiores.",
-   "A traqueostomia é medida excepcional para casos graves refratários a todas as demais opções."
+   "Estimulante vem depois de confirmar adesão e eficácia objetiva.",
+   "Cirurgia é para intolerância, não para sonolência residual com uso adequado.",
+   "Sonolência residual: conferir objetivamente uso, vazamento e índice residual pelos dados do aparelho.",
+   "Latências múltiplas vêm depois de confirmar que a apneia está controlada.",
+   "Suspender a pressão positiva sem dados objetivos piora a apneia."
   ]
  },
  {
-  "q": "Paciente com tosse e dispneia após exposição ocupacional a poeira de sílica por vinte anos. Qual é a conduta?",
+  "q": "Homem de 52 anos trabalhou 20 anos como jateador de areia sem proteção respiratória e segue na mesma função. Tem tosse e dispneia leve. Radiografia com múltiplos nódulos pequenos nos lobos superiores e calcificação em casca de ovo nos linfonodos hilares. Espirometria com padrão misto leve. IGRA positivo, sem febre, sudorese ou perda de peso, baciloscopia de escarro negativa em 2 amostras. HIV negativo. Qual é a conduta mais adequada?",
   "alts": [
-   "Prescrever apenas broncodilatador inalatório e manter o paciente na mesma atividade ocupacional de risco.",
-   "Indicar transplante pulmonar imediato em todos os pacientes com exposição prolongada a poeira de sílica.",
-   "Investigar silicose com imagem e função pulmonar, afastando sempre a exposição e rastreando tuberculose.",
-   "Prescrever corticoide sistêmico contínuo em dose alta como tratamento curativo da doença ocupacional.",
-   "Não realizar qualquer investigação, pois a exposição ocupacional não causa doença pulmonar crônica."
+   "Esquema completo para tuberculose ativa",
+   "Corticoide oral em dose plena",
+   "Afastar da exposição, notificar e tratar infecção latente",
+   "Lavado broncoalveolar e manter a função",
+   "Avaliação para transplante pulmonar"
   ],
   "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde. Protocolo de vigilância da silicose, revisão 2022; ATS/ERS statement on occupational lung disease, 2023",
-  "coment": "A silicose é pneumoconiose fibrogênica irreversível causada por inalação de sílica cristalina, com nódulos predominantes em lobos superiores e possível massa conglomerada. A conduta inclui imagem, prova de função pulmonar, afastamento definitivo da exposição, única medida que interrompe a progressão, notificação como doença relacionada ao trabalho e rastreio periódico de tuberculose, cujo risco é várias vezes maior nesses pacientes.",
+  "base": "Ministério da Saúde, Protocolo de Pneumoconioses (Saúde do Trabalhador), 2006; Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019",
+  "coment": "Nódulos em lobos superiores e calcificação em casca de ovo em jateador de areia caracterizam silicose, doença sem tratamento que modifique a fibrose. A conduta é afastar da exposição, emitir CAT e notificar no SINAN como doença relacionada ao trabalho. A silicose aumenta muito o risco de tuberculose: afastada a doença ativa (sintomas, baciloscopia e cultura), o IGRA positivo indica tratamento da infecção latente. Silicose também eleva o risco de câncer de pulmão e doenças autoimunes.",
   "porAlt": [
-   "Manter o paciente exposto permite a progressão da fibrose, que é irreversível uma vez instalada.",
-   "O transplante é opção muito selecionada em doença avançada, e não conduta para toda exposição.",
-   "Correta: investigar com imagem e função, afastar a exposição e rastrear tuberculose periodicamente.",
-   "Não há tratamento curativo, e o corticoide contínuo não reverte a fibrose já estabelecida.",
-   "A exposição prolongada a sílica causa doença pulmonar crônica bem caracterizada e notificável."
+   "Sem sinais de doença ativa e com baciloscopia negativa, o esquema completo não é indicado.",
+   "Corticoide não altera a evolução da silicose.",
+   "Silicose: afastar da exposição, notificar como doença do trabalho e tratar tuberculose latente.",
+   "Manter a exposição acelera a progressão.",
+   "Transplante fica para doença terminal."
   ]
  },
  {
@@ -20568,51 +20568,51 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com doença pulmonar obstrutiva crônica estável pergunta sobre vacinação. Qual é a orientação?",
+  "q": "Mulher de 67 anos com DPOC moderada, estável, vem à consulta de rotina. Recebeu vacina contra influenza há 14 meses, dTpa há 12 anos e esquema primário de covid-19. Nunca recebeu vacina pneumocócica ou contra vírus sincicial respiratório. Não tem imunossupressão nem asplenia. Teve 1 exacerbação com internação no inverno passado. Mora com o neto de 2 meses. Sem alergia a componentes vacinais e sem febre no dia. Pela Sociedade Brasileira de Imunizações, qual é a orientação mais adequada?",
   "alts": [
-   "Apenas influenza anual, única vacina indicada para pacientes com doença pulmonar obstrutiva crônica agora.",
-   "Nenhuma vacina é indicada, pois a doença pulmonar obstrutiva crônica contraindica toda imunização agora.",
-   "Apenas vacina contra febre amarela, indicada especificamente para pacientes com doença pulmonar crônica.",
-   "Influenza anual, pneumocócica, coqueluche e demais vacinas indicadas, mantendo sempre a caderneta atualizada.",
-   "Apenas vacinas de vírus vivo atenuado, que conferem proteção superior nesse grupo de pacientes crônicos."
+   "Apenas influenza anual, pela idade",
+   "Pneumocócica polissacarídica 23 isolada a cada 2 anos",
+   "Contraindicar vacinas de vírus vivo e aguardar",
+   "Influenza, pneumocócica conjugada, VSR, covid-19 e dTpa",
+   "Apenas covid-19, pelo esquema primário incompleto"
   ],
   "gab": 3,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "GOLD Report, 2025; Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais, 2023",
-  "coment": "A vacinação reduz exacerbações e internações na doença pulmonar obstrutiva crônica. Recomendam-se influenza anual, vacina pneumocócica conforme o esquema disponível, vacina contra coqueluche em quem não recebeu na vida adulta, vacina contra covid-19 conforme o calendário vigente e, quando disponível, vacina contra o vírus sincicial respiratório em faixas etárias indicadas. A doença não contraindica imunização e é justamente indicação de prioridade.",
+  "base": "SBIm, Calendário de Vacinação do Idoso, 2025/2026; GOLD Report, 2025",
+  "coment": "Pessoas com DPOC devem receber influenza anual, vacina pneumocócica (conjugada de maior valência, como VPC20, ou esquema sequencial VPC13 ou VPC15 seguida de VPP23), vacina contra vírus sincicial respiratório a partir de 60 anos com doença pulmonar crônica, reforço de covid-19 e dTpa (que também protege o lactente contra coqueluche). O GOLD 2025 reforça essas recomendações. Nenhuma dessas vacinas é de vírus vivo.",
   "porAlt": [
-   "A influenza é essencial, mas não é a única vacina recomendada para esse grupo de pacientes.",
-   "A doença crônica não contraindica vacinas e é indicação prioritária de imunização.",
-   "A febre amarela segue a indicação por área de risco e não é específica dessa doença pulmonar.",
-   "Correta: influenza anual, pneumocócica, coqueluche e demais vacinas indicadas, com caderneta atualizada.",
-   "Vacinas de vírus vivo exigem cautela em imunossuprimidos e não são preferíveis por princípio."
+   "DPOC indica várias vacinas além da influenza.",
+   "VPP23 isolada e repetida a cada 2 anos não é o esquema recomendado.",
+   "Essas vacinas não são de vírus vivo.",
+   "DPOC aos 67 anos: influenza anual, pneumocócica conjugada, VSR, reforço de covid-19 e dTpa.",
+   "O calendário da DPOC vai além da covid-19."
   ]
  },
  {
-  "q": "Paciente com tosse crônica e escarro purulento diário, com tomografia mostrando dilatação brônquica. Qual é a investigação etiológica inicial?",
+  "q": "Homem de 36 anos tem tosse com escarro purulento diário há 3 anos e 3 pneumonias no período. Tomografia com bronquiectasias cilíndricas difusas, de predomínio central e nos lobos superiores, com impactação mucoide. Tem asma desde a infância, com piora recente apesar de corticoide inalatório. Não fuma, sem infertilidade conhecida, sem sinusite crônica grave. Eosinófilos de 900 células/µL. Saturação de 95%, sem baqueteamento digital. Qual é o conjunto mínimo de investigação etiológica mais adequado?",
   "alts": [
-   "Não investigar qualquer causa, pois as bronquiectasias nunca têm etiologia identificável no paciente adulto agora.",
-   "Investigar imunodeficiência, fibrose cística e causas pós-infecciosas, colhendo sempre cultura de escarro dirigida.",
-   "Realizar apenas espirometria como investigação etiológica completa das bronquiectasias identificadas no exame.",
-   "Indicar biópsia pulmonar cirúrgica de rotina como investigação inicial de todas as bronquiectasias no adulto agora.",
-   "Solicitar apenas radiografia simples de tórax como investigação etiológica das bronquiectasias diagnosticadas."
+   "Cultura de escarro para bactérias comuns apenas",
+   "Biópsia pulmonar cirúrgica por videotoracoscopia",
+   "Teste do suor e genotipagem como únicos exames",
+   "Broncoscopia com biópsia transbrônquica e lavado",
+   "Hemograma, imunoglobulinas, IgE para Aspergillus e culturas"
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ERS guidelines for the management of adult bronchiectasis, 2017 com revisão 2023; BTS guideline, 2019",
-  "coment": "Identificar a causa das bronquiectasias muda o tratamento em parte relevante dos casos. A investigação mínima inclui dosagem de imunoglobulinas, pesquisa de aspergilose broncopulmonar alérgica com IgE e IgE específica, teste do suor e pesquisa genética para fibrose cística quando o contexto sugere, avaliação de refluxo e aspiração, e busca de causa pós-infecciosa. A cultura de escarro identifica colonização, sobretudo por Pseudomonas, que muda o prognóstico.",
+  "base": "ERS Guidelines for the management of adult bronchiectasis, 2017; ISHAM-ABPA Working Group Guidelines, 2024",
+  "coment": "A ERS (2017) recomenda para todo adulto com bronquiectasias um conjunto mínimo: hemograma com diferencial, imunoglobulinas séricas (IgG, IgA, IgM), pesquisa de aspergilose broncopulmonar alérgica (IgE total e IgE específica ou teste cutâneo para Aspergillus) e cultura de escarro para bactérias e micobactérias. Aqui, asma com piora, bronquiectasias centrais, impactação mucoide e eosinofilia apontam fortemente para aspergilose broncopulmonar alérgica, tratada com corticoide oral e, em casos selecionados, itraconazol.",
   "porAlt": [
-   "Muitos casos têm causa identificável, e o achado muda o tratamento e o prognóstico do paciente.",
-   "Correta: investigar imunodeficiência, fibrose cística e causas pós-infecciosas, com cultura de escarro dirigida.",
-   "A espirometria avalia a função, mas não identifica a etiologia das bronquiectasias diagnosticadas.",
-   "A biópsia cirúrgica é invasiva e não é investigação inicial da etiologia das bronquiectasias.",
-   "A radiografia é pouco sensível e não substitui a investigação etiológica sistemática indicada."
+   "Cultura isolada deixa de investigar causas tratáveis.",
+   "Biópsia não é necessária na investigação etiológica.",
+   "Fibrose cística é investigada em casos selecionados, não como exame único.",
+   "Biópsia transbrônquica não investiga a etiologia das bronquiectasias.",
+   "Conjunto mínimo da ERS: hemograma, imunoglobulinas, IgE total e específica para Aspergillus e culturas, com forte suspeita de aspergilose."
   ]
  },
  {
@@ -21552,27 +21552,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com pneumonia e derrame pleural pequeno, sem sinais de complicação, em boa resposta ao antibiótico. Qual é a conduta?",
+  "q": "Mulher de 54 anos internada por pneumonia do lobo inferior direito recebe ceftriaxona e azitromicina há 48 horas, com queda da febre e da frequência respiratória. A radiografia em decúbito lateral mostra derrame pleural livre de 8 mm; à ultrassonografia, não loculado e anecoico. Leucócitos caindo de 18 mil para 12 mil. Proteína C reativa em queda. Saturação de 95% em ar ambiente. Sem dor pleurítica importante. Qual é a conduta mais adequada?",
   "alts": [
-   "Realizar drenagem torácica imediata em todos os pacientes com derrame pleural associado a pneumonia neste caso.",
-   "Suspender o antibiótico e apenas observar clinicamente a evolução do derrame pleural identificado no exame agora.",
-   "Manter o antibiótico com acompanhamento clínico e radiológico, reservando sempre a punção a sinais de complicação.",
-   "Indicar toracotomia com decorticação em todos os casos de derrame pleural parapneumônico não complicado agora.",
-   "Prescrever corticoide sistêmico em dose alta como tratamento definitivo do derrame pleural parapneumônico agora."
+   "Toracocentese diagnóstica guiada por ultrassom",
+   "Dreno torácico de pequeno calibre",
+   "Manter o antibiótico e acompanhar",
+   "Alteplase e dornase alfa intrapleurais",
+   "Videotoracoscopia precoce com decorticação"
   ],
   "gab": 2,
   "tema": "pneumo",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "BTS Pleural Disease Guideline, 2023; ATS/IDSA Guidelines for Community-Acquired Pneumonia, revisão 2023",
-  "coment": "O derrame parapneumônico simples (pequeno, de fluxo livre, com pH e glicose normais e sem crescimento bacteriano) resolve com o tratamento da pneumonia, sem necessidade de drenagem. A punção diagnóstica é indicada em derrames maiores, loculados, com espessura significativa ou diante de febre persistente e piora clínica. Sinais de complicação são pH abaixo de 7,20, glicose reduzida, cultura positiva, loculações e aspecto purulento.",
+  "nivel": "r1",
+  "base": "ACCP Consensus Statement: Medical and surgical treatment of parapneumonic effusions, 2000; BTS Guideline for Pleural Disease, 2023",
+  "coment": "Derrame parapneumônico pequeno e livre (menos de 10 mm na radiografia em decúbito lateral) em paciente com boa resposta ao antibiótico tem risco muito baixo de desfecho ruim (categoria 1 do ACCP) e não precisa de toracocentese. Toracocentese guiada por ultrassonografia é indicada em derrames maiores, loculados ou quando a evolução clínica não é boa. Derrame com pH abaixo de 7,2, pus, bacterioscopia ou cultura positivas pede drenagem.",
   "porAlt": [
-   "A drenagem universal expõe a complicações desnecessárias em derrames simples e pequenos.",
-   "Suspender o antibiótico com pneumonia em tratamento provoca recidiva e piora do quadro.",
-   "Correta: manter o antibiótico com acompanhamento, reservando a punção a sinais de complicação.",
-   "A decorticação é indicada em empiema organizado, e não em derrame simples não complicado.",
-   "O corticoide não trata o derrame parapneumônico e pode mascarar a evolução da infecção."
+   "Derrame livre menor que 10 mm com boa resposta não precisa de punção.",
+   "Sem sinais de complicação, dreno não é indicado.",
+   "Derrame pequeno e livre com boa resposta clínica: manter o antibiótico e acompanhar.",
+   "Fibrinolítico é para empiema loculado.",
+   "Cirurgia é para empiema organizado ou falha da drenagem."
   ]
  },
  {
@@ -21792,27 +21792,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com exacerbação de doença pulmonar obstrutiva crônica sem sinais de infecção bacteriana. Qual é a conduta?",
+  "q": "Homem de 71 anos com DPOC tem piora da dispneia e aumento do volume do escarro há 3 dias, com escarro claro, sem mudança de cor. Temperatura 36,8 °C, frequência respiratória 22 irpm, saturação 91% em ar ambiente, sem sinais de pneumonia na radiografia. Gasometria com pH 7,39 e PaCO₂ de 44 mmHg. Proteína C reativa de 8 mg/L. Tolera via oral e tem boa rede de apoio. Qual é o tratamento mais adequado?",
   "alts": [
-   "Antibiótico de amplo espectro para todos os pacientes com exacerbação, independentemente de qualquer critério clínico agora.",
-   "Broncodilatador de curta duração e corticoide sistêmico por período curto, reservando sempre o antibiótico a critérios definidos.",
-   "Corticoide sistêmico contínuo por seis meses como tratamento padrão da exacerbação da doença pulmonar obstrutiva neste caso.",
-   "Apenas oxigênio em alto fluxo com alvo de saturação acima de noventa e oito por cento em todos os casos para este paciente.",
-   "Apenas antitussígeno contínuo como tratamento da exacerbação da doença pulmonar obstrutiva crônica descrita nesse contexto."
+   "Amoxicilina-clavulanato por 10 dias",
+   "Prednisona 40 mg por 14 dias e salbutamol",
+   "Ventilação não invasiva domiciliar noturna",
+   "Broncodilatador de curta ação e prednisona por 5 dias",
+   "Levofloxacino e metilprednisolona endovenosa"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "pneumo",
-  "cenario": "emg",
+  "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "GOLD Report, 2025",
-  "coment": "O tratamento da exacerbação combina broncodilatador de curta duração em dose otimizada e corticoide sistêmico por cinco dias, que acelera a recuperação e reduz recaída. O antibiótico é indicado quando há aumento da purulência do escarro associado a aumento do volume ou da dispneia, ou quando há necessidade de suporte ventilatório. O alvo de saturação é de 88 a 92 por cento, pois a hiperóxia agrava a hipercapnia nesses pacientes.",
+  "base": "GOLD Report, 2025; Leuppi et al., REDUCE, JAMA, 2013",
+  "coment": "Exacerbação de DPOC sem escarro purulento, sem necessidade de ventilação e com proteína C reativa baixa não se beneficia de antibiótico. Pelo GOLD, trata-se com broncodilatador de curta ação (beta-agonista com ou sem antimuscarínico) e prednisona 40 mg por 5 dias, que no REDUCE foi não inferior a 14 dias com menos exposição ao corticoide. Antibiótico é indicado com aumento da dispneia, do volume e da purulência do escarro, com purulência e mais um sintoma, ou em ventilação.",
   "porAlt": [
-   "O antibiótico universal em exacerbação sem purulência seleciona resistência sem benefício claro.",
-   "Correta: broncodilatador de curta duração e corticoide por período curto, com antibiótico por critérios definidos.",
-   "O corticoide por seis meses acumula toxicidade sem ganho adicional sobre o curso de cinco dias.",
-   "O alvo elevado de saturação agrava a hipercapnia nesses pacientes e piora o desfecho clínico.",
-   "O antitussígeno prejudica a depuração de secreções e não trata o broncoespasmo da exacerbação."
+   "Sem purulência do escarro, antibiótico não tem benefício.",
+   "Cinco dias de corticoide equivalem a 14 com menos efeitos adversos.",
+   "Não há acidose respiratória que indique ventilação.",
+   "Exacerbação sem purulência e com proteína C reativa baixa: broncodilatador de curta ação e prednisona 40 mg por 5 dias.",
+   "Não há indicação de antibiótico nem de corticoide endovenoso."
   ]
  },
  {
@@ -22032,27 +22032,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com asma e rinite alérgica persistente mal controlada. Qual é a implicação no manejo?",
+  "q": "Mulher de 26 anos com asma alérgica usa budesonida-formoterol 160/4,5 µg duas vezes ao dia e conforme sintomas, com boa técnica e adesão. Mantém sintomas diurnos 3 vezes por semana e despertares noturnos. Tem obstrução nasal, espirros e rinorreia diários há 2 anos, sem tratamento. Teste cutâneo positivo para ácaros. VEF₁ de 81% do previsto. Não fuma, sem refluxo sintomático. Qual é a medida mais adequada antes de aumentar a etapa da asma?",
   "alts": [
-   "Tratar a rinite melhora o controle da asma, exigindo sempre abordagem conjunta das duas vias aéreas.",
-   "Tratar a rinite não interfere de forma alguma no controle da asma do paciente com as duas condições.",
-   "Suspender o tratamento da asma e tratar apenas a rinite alérgica persistente do paciente descrito.",
-   "Tratar a rinite apenas com antibiótico contínuo por seis meses como estratégia de controle da asma.",
-   "Suspender qualquer tratamento até que uma das duas condições se resolva espontaneamente no paciente."
+   "Omalizumabe como próxima medida",
+   "Montelucaste isolado no lugar da budesonida-formoterol",
+   "Corticoide oral por 10 dias",
+   "Anti-histamínico de primeira geração à noite",
+   "Corticoide intranasal para a rinite"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "GINA, 2025; ARIA guidelines on allergic rhinitis and its impact on asthma, revisão 2023",
-  "coment": "O conceito de via aérea única reconhece que rinite e asma compartilham mecanismo inflamatório e se influenciam mutuamente: a rinite não tratada é uma das causas mais frequentes de asma mal controlada, junto com má adesão, técnica inalatória incorreta, refluxo, obesidade e exposição a alérgenos. O tratamento da rinite com corticoide nasal e controle ambiental melhora sintomas de asma e reduz exacerbações, e a abordagem deve ser conjunta.",
+  "base": "Global Initiative for Asthma (GINA), Global Strategy for Asthma Management and Prevention, 2025; ARIA Guidelines, 2019",
+  "coment": "Rinite alérgica é comorbidade frequente e fator de mau controle da asma, e o GINA recomenda revisar comorbidades antes de aumentar a etapa. Corticoide intranasal controla a rinite e melhora sintomas da asma. Em pacientes sensibilizados a ácaros com rinite e asma e VEF₁ acima de 70%, a imunoterapia sublingual com ácaros pode ser acrescentada. Biológico fica para asma grave após otimizar tratamento e comorbidades.",
   "porAlt": [
-   "Correta: tratar a rinite melhora o controle da asma, exigindo abordagem conjunta das duas vias aéreas.",
-   "As duas condições compartilham mecanismo inflamatório e se influenciam mutuamente no paciente.",
-   "Suspender o tratamento da asma expõe o paciente a exacerbações graves e potencialmente fatais.",
-   "O antibiótico contínuo não trata rinite alérgica, que é doença inflamatória e não infecciosa.",
-   "Nenhuma das duas condições se resolve espontaneamente, e ambas exigem tratamento adequado."
+   "Biológico é para asma grave após otimizar tratamento e comorbidades.",
+   "Montelucaste isolado é menos eficaz que o esquema atual.",
+   "Corticoide oral não trata a comorbidade que perpetua o mau controle.",
+   "Anti-histamínico de primeira geração causa sedação e controla pouco a obstrução.",
+   "Rinite não tratada piora a asma: corticoide intranasal antes de aumentar a etapa."
   ]
  },
  {
