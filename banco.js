@@ -6336,51 +6336,51 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 62 anos, diabético, é internado com febre e dor intensa em perna direita, desproporcional aos achados. A pele mostra eritema de limites imprecisos, bolhas hemorrágicas e áreas acinzentadas, com crepitação à palpação. Está taquicárdico e hipotenso. Qual é a conduta imediata?",
+  "q": "Homem de 62 anos com diabetes tem há 24 horas dor intensa em perna direita, desproporcional ao eritema discreto, com edema tenso, bolhas violáceas e crepitação ao toque. Febre de 39 °C, pressão de 88/52 mmHg após 2 litros de cristaloide, lactato de 4,5 mmol/L, creatinina de 2,1 mg/dL, sódio de 128 mEq/L, glicemia de 420 mg/dL. Sem trauma importante. Pesa 90 kg e não tem alergias. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar cefalexina por via oral e reavaliar a lesão em quarenta e oito horas de acompanhamento.",
-   "Solicitar ressonância magnética do membro antes de qualquer decisão sobre abordagem cirúrgica.",
-   "Prescrever corticoide sistêmico para reduzir o edema e a inflamação local antes de outra medida.",
-   "Acionar a cirurgia para exploração e desbridamento, junto de antimicrobiano de amplo espectro.",
-   "Elevar o membro e aplicar compressas frias, reavaliando a evolução ao longo do próximo plantão."
+   "Ressonância antes de acionar a cirurgia",
+   "Cefalexina oral e elevação do membro",
+   "Oxigenoterapia hiperbárica como primeira medida",
+   "Desbridamento urgente e antibiótico amplo",
+   "Punção aspirativa e aguardar cultura"
   ],
   "gab": 3,
   "tema": "derma",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "IDSA 2014, Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections",
-  "coment": "Dor desproporcional aos achados de pele, bolhas hemorrágicas, áreas acinzentadas de necrose, crepitação e sinais sistêmicos configuram fasciíte necrosante, emergência cirúrgica. O diagnóstico é clínico e a exploração cirúrgica é ao mesmo tempo diagnóstica e terapêutica: nenhum exame de imagem deve atrasá-la em paciente com quadro compatível e instabilidade. O antimicrobiano de amplo espectro cobre gram-positivos, gram-negativos e anaeróbios, com clindamicina pelo efeito antitoxina, mas é adjuvante, o que muda a mortalidade é o desbridamento precoce.",
+  "base": "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014",
+  "coment": "Dor desproporcional, edema tenso, bolhas violáceas, crepitação e choque sugerem fasciíte necrosante, emergência cirúrgica: a mortalidade aumenta a cada hora de atraso do desbridamento. A IDSA (2014) recomenda exploração e desbridamento cirúrgico urgente, repetido a cada 24 a 36 horas, com antibiótico empírico de amplo espectro: vancomicina (ou linezolida), piperacilina-tazobactam (ou carbapenêmico) e clindamicina, que inibe a produção de toxinas. Imagem não deve atrasar a cirurgia quando a suspeita clínica é alta. Oxigenoterapia hiperbárica é adjuvante, sem substituir a cirurgia.",
   "porAlt": [
-   "Antibiótico oral para celulite não trata infecção necrosante e desperdiça as horas em que o desbridamento ainda mudaria o desfecho.",
-   "A ressonância pode auxiliar em casos duvidosos e estáveis, mas aqui atrasaria a cirurgia em paciente já com sinais de choque.",
-   "Corticoide não tem papel no tratamento e a imunossupressão adicional pode favorecer a progressão da infecção nos tecidos.",
-   "Correta: fasciíte necrosante é emergência cirúrgica; a exploração precoce com antimicrobiano de amplo espectro é o que reduz mortalidade.",
-   "Medidas locais são conduta de celulite não complicada e deixariam progredir uma necrose que avança em horas pelo plano fascial."
+   "Com suspeita alta, imagem atrasa a cirurgia.",
+   "Esquema oral é inadequado para infecção necrosante com choque.",
+   "Oxigenoterapia hiperbárica não substitui a cirurgia.",
+   "Fasciíte necrosante com choque: desbridamento urgente e vancomicina, piperacilina-tazobactam e clindamicina.",
+   "Esperar cultura aumenta a mortalidade."
   ]
  },
  {
-  "q": "Mulher de 41 anos com lúpus é internada por atividade de doença e recebe prednisona em dose alta. No quinto dia surgem lesões cutâneas, e o exame mostra descolamento epidérmico ao atrito lateral, com acometimento de mucosa oral e ocular, após ter iniciado sulfametoxazol-trimetoprima há dez dias. Qual é a conduta prioritária?",
+  "q": "Mulher de 41 anos com lúpus iniciou sulfametoxazol-trimetoprima profilático há 12 dias. Surgem febre, odinofagia, conjuntivite e máculas purpúricas atípicas em alvo no tronco que evoluem com bolhas flácidas e descolamento de 8% da superfície corporal, com sinal de Nikolsky positivo, e erosões em lábios e mucosa genital. Sem outros fármacos novos. Hemodinamicamente estável. Pesa 60 kg, está lúcida e sem dispneia. Hemoglobina de 11 g/dL e creatinina normal. Qual é a conduta mais adequada?",
   "alts": [
-   "Suspender de imediato todo fármaco suspeito e transferir para unidade de cuidado especializado.",
-   "Manter o antimicrobiano e apenas acrescentar anti-histamínico para o controle sintomático das lesões.",
-   "Iniciar imunoglobulina venosa como primeira e única medida, sem alterar o esquema em uso agora.",
-   "Aplicar corticoide tópico potente nas lesões e reavaliar a evolução na visita do dia seguinte.",
-   "Aumentar a dose da prednisona e manter todos os fármacos, atribuindo o quadro à atividade do lúpus."
+   "Suspender e transferir para UTI de queimados",
+   "Manter o fármaco e iniciar anti-histamínico",
+   "Trocar por dapsona e observar em enfermaria comum",
+   "Pulsoterapia e manter a profilaxia",
+   "Alta com corticoide tópico potente"
   ],
   "gab": 0,
   "tema": "derma",
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Diretrizes de manejo da necrólise epidérmica tóxica, British Association of Dermatologists, 2016",
-  "coment": "O sinal de Nikolsky com acometimento de duas ou mais mucosas, surgindo entre uma e três semanas após início de fármaco de alto risco (sulfonamidas, alopurinol, anticonvulsivantes, nevirapina, oxicams), é síndrome de Stevens-Johnson ou necrólise epidérmica tóxica. A medida isolada com maior impacto na mortalidade é a suspensão imediata do fármaco causador, seguida de cuidado em unidade de queimados ou terapia intensiva, com suporte hidroeletrolítico, controle de dor, cuidado ocular precoce e vigilância de infecção. Atribuir o quadro à doença de base e manter a droga é o erro mais custoso.",
+  "base": "British Association of Dermatologists guidelines for the management of Stevens-Johnson syndrome/toxic epidermal necrolysis in adults, 2016",
+  "coment": "Síndrome de Stevens-Johnson (descolamento abaixo de 10%) por sulfonamida, fármaco de alto risco, com início típico entre 4 e 28 dias. A intervenção mais importante é suspender imediatamente o fármaco suspeito (quanto mais cedo, menor a mortalidade). O tratamento é de suporte em unidade de queimados ou UTI: controle térmico, hidratação, cuidados de pele e mucosas, avaliação oftalmológica urgente, analgesia e prevenção de infecção. Ciclosporina ou etanercepte podem ser considerados. O algoritmo ALDEN ajuda a identificar o agente. Dapsona também é sulfona e pode reagir.",
   "porAlt": [
-   "Correta: suspender o fármaco suspeito de imediato e transferir para cuidado especializado é o que mais impacta a mortalidade.",
-   "Manter o fármaco causador perpetua a agressão epidérmica, e anti-histamínico não tem qualquer efeito sobre a necrólise em curso.",
-   "A imunoglobulina é discutida como adjuvante, mas jamais substitui a suspensão do fármaco e o suporte em unidade especializada.",
-   "Corticoide tópico é inócuo diante de descolamento epidérmico extenso, e esperar até o dia seguinte custa área de pele acometida.",
-   "Atribuir ao lúpus e manter todas as drogas é o erro clássico: a cronologia e o sinal de Nikolsky apontam para reação ao fármaco."
+   "Stevens-Johnson por sulfonamida: suspender e transferir para unidade de queimados ou UTI.",
+   "Manter o fármaco agrava a necrólise.",
+   "Dapsona pode ter reação cruzada, e enfermaria comum não oferece o suporte necessário.",
+   "Manter o agente causal é o principal erro.",
+   "Descolamento com mucosas acometidas exige internação especializada."
   ]
  },
  {
@@ -11808,243 +11808,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 62 anos com lesão pigmentada em dorso, assimétrica, bordas irregulares, cores variadas e 9 mm de diâmetro. Qual é a conduta?",
+  "q": "Homem de 62 anos, fototipo II, tem lesão pigmentada no dorso de 9 mm, assimétrica, com bordas irregulares, 3 cores e aumento notado pela esposa nos últimos 4 meses. Dermatoscopia com rede atípica e véu azul-esbranquiçado. Sem linfonodos palpáveis. Sem história de melanoma. Pesa 80 kg. Não tem imunossupressão e usa apenas losartana. Mora a 20 minutos do hospital. Não tem outras lesões suspeitas no exame completo da pele. Qual é a conduta mais adequada?",
   "alts": [
-   "Biópsia incisional superficial por raspagem, técnica preferida para lesões pigmentadas suspeitas.",
-   "Crioterapia com nitrogênio líquido, tratamento de escolha para lesão pigmentada com esse aspecto.",
-   "Observação clínica com fotografia e reavaliação apenas após doze meses de acompanhamento.",
-   "Biópsia excisional da lesão com margem estreita, sempre preservando o estadiamento posterior.",
-   "Eletrocoagulação da lesão em consultório, sem qualquer envio de material para exame histológico."
+   "Shaving superficial da lesão",
+   "Ampliação com margem de 2 cm já",
+   "Crioterapia com nitrogênio líquido",
+   "Nova dermatoscopia em 6 meses",
+   "Biópsia excisional, margem de 1 a 3 mm"
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "derma",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "NCCN Melanoma: Cutaneous, 2024; Sociedade Brasileira de Dermatologia. Consenso de melanoma, 2023",
-  "coment": "Lesão pigmentada com assimetria, bordas irregulares, cores variadas e diâmetro acima de seis milímetros é suspeita de melanoma. O procedimento indicado é biópsia excisional com margem de um a três milímetros, incluindo toda a espessura até a gordura subcutânea, porque a espessura de Breslow determina prognóstico e margens definitivas. Raspagem, crioterapia e eletrocoagulação destroem a lesão ou truncam a profundidade e inviabilizam o estadiamento.",
+  "base": "NCCN Guidelines: Cutaneous Melanoma, 2025; Sociedade Brasileira de Dermatologia, Consenso de Melanoma Cutâneo, 2016",
+  "coment": "Lesão com critérios ABCDE e achados dermatoscópicos de melanoma deve ser removida por biópsia excisional com margem clínica de 1 a 3 mm e parte da gordura subcutânea, permitindo medir a espessura de Breslow, que define estadiamento, margem definitiva e indicação de linfonodo sentinela. Shaving superficial pode transeccionar a lesão e impedir a medida. Ampliação larga antes do diagnóstico altera a drenagem linfática e prejudica o sentinela. Crioterapia destrói o tecido sem diagnóstico.",
   "porAlt": [
-   "A raspagem pode truncar a base da lesão e impedir a medida correta da espessura de Breslow.",
-   "A crioterapia destrói a lesão sem histologia e impede qualquer avaliação diagnóstica posterior.",
-   "Observar por doze meses permite progressão em profundidade e piora expressiva do prognóstico.",
-   "Correta: biópsia excisional com margem estreita preserva a espessura, que define o estadiamento.",
-   "A eletrocoagulação sem histologia elimina a possibilidade de diagnóstico e de estadiamento."
+   "Shaving superficial pode impedir a medida da espessura.",
+   "Ampliação antes do diagnóstico prejudica o linfonodo sentinela.",
+   "Crioterapia destrói a lesão sem diagnóstico.",
+   "Esperar 6 meses atrasa o diagnóstico de lesão suspeita.",
+   "Lesão suspeita de melanoma: biópsia excisional com margem de 1 a 3 mm."
   ]
  },
  {
-  "q": "Paciente inicia alopurinol e, três semanas depois, apresenta febre, exantema difuso, eosinofilia e elevação de transaminases. Qual é o diagnóstico?",
+  "q": "Homem de 58 anos iniciou alopurinol 300 mg há 4 semanas. Tem febre de 39 °C, exantema maculopapular em mais de 60% do corpo, edema facial, linfonodos cervicais aumentados, eosinófilos de 2.400/mm³, linfócitos atípicos, ALT de 420 U/L e creatinina de 2,0 mg/dL (basal 0,9). Sem bolhas ou descolamento de pele e sem lesões em mucosas. RegiSCAR de 7. Pesa 76 kg e usa losartana. Não tem hepatite viral. Qual é a conduta mais adequada?",
   "alts": [
-   "Síndrome DRESS, que exige sempre suspensão imediata do fármaco e corticoide sistêmico agora.",
-   "Urticária aguda simples, quadro que se resolve com anti-histamínico e manutenção da medicação.",
-   "Dermatite de contato alérgica, condição que cursa com eosinofilia e hepatite após uso oral.",
-   "Psoríase em gotas desencadeada pelo fármaco, com febre e elevação das enzimas hepáticas.",
-   "Pitiríase rósea de Gibert, quadro autolimitado que cursa com eosinofilia e hepatite associada."
+   "Manter alopurinol e antialérgico",
+   "Trocar por febuxostate e observar",
+   "Suspender e iniciar corticoide sistêmico",
+   "Apenas corticoide tópico",
+   "Antibiótico de amplo espectro isolado"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Kardaun et al., The RegiSCAR scoring system for DRESS, British Journal of Dermatology, 2013; Shiohara e Mizukawa, DRESS: an update in 2019, Allergology International, 2019",
+  "coment": "Reação a fármaco com eosinofilia e sintomas sistêmicos (DRESS): exantema extenso, febre, edema facial, linfonodomegalia, eosinofilia, linfócitos atípicos e acometimento de órgãos, 2 a 8 semanas após o início; RegiSCAR acima de 5 é caso definido. O alopurinol é causa frequente, com risco maior em portadores de HLA-B*58:01 e na doença renal. Conduta: suspender o fármaco e, com acometimento hepático ou renal significativo, corticoide sistêmico (prednisona 0,5 a 1 mg/kg/dia com retirada lenta em semanas a meses, pelo risco de recaída). Febuxostate pode ter reação cruzada.",
+  "porAlt": [
+   "Manter o fármaco agrava a reação com lesão de órgãos.",
+   "Febuxostate pode ter reação cruzada.",
+   "DRESS com lesão hepática e renal: suspender o alopurinol e iniciar corticoide sistêmico.",
+   "Tópico não trata acometimento sistêmico.",
+   "Não há infecção; antibiótico isolado não trata DRESS."
+  ]
+ },
+ {
+  "q": "Homem de 38 anos tem psoríase em placas há 10 anos, com PASI de 16 e 18% da superfície corporal, apesar de clobetasol e calcipotriol por 6 meses com boa adesão. Tem dor e edema em interfalângicas distais e dactilite há 3 meses. DLQI de 15. Não bebe, transaminases normais, hepatites e HIV negativos, IGRA negativo. Não planeja ter filhos no próximo ano. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Tratamento sistêmico, como metotrexato ou biológico",
+   "Manter apenas o tratamento tópico",
+   "Prednisona oral contínua",
+   "Hidroxicloroquina 400 mg/dia",
+   "Fototerapia isolada, sem abordar a artrite"
   ],
   "gab": 0,
   "tema": "derma",
-  "cenario": "enf",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "RegiSCAR criteria; British Association of Dermatologists guidelines for severe cutaneous adverse reactions, 2024",
-  "coment": "A síndrome de hipersensibilidade a fármacos com eosinofilia e sintomas sistêmicos, conhecida como DRESS, tem latência longa, de duas a oito semanas, o que a distingue das reações imediatas. Cursa com exantema extenso, febre, edema facial, linfonodomegalia, eosinofilia e acometimento visceral, sobretudo hepático. Os fármacos clássicos são alopurinol, anticonvulsivantes aromáticos, sulfas e vancomicina. O tratamento é suspender o agente e corticoide sistêmico, com desmame lento.",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AAD-NPF Joint Guidelines of care for the management and treatment of psoriasis with systemic therapies, 2020; GRAPPA treatment recommendations for psoriatic arthritis, 2021",
+  "coment": "Psoríase moderada a grave (PASI acima de 10, superfície acima de 10%, DLQI acima de 10) refratária ao tópico e com artrite psoriásica indica tratamento sistêmico que trate pele e articulações. Metotrexato é opção convencional, e biológicos (anti-TNF, anti-IL-17, anti-IL-23) são indicados em casos graves, com dactilite ou falha, conforme diretrizes da AAD/NPF (2019) e do GRAPPA. Corticoide sistêmico é evitado, pois a retirada pode precipitar psoríase pustulosa ou eritrodérmica. Hidroxicloroquina pode piorar a psoríase. Fototerapia não trata a artrite.",
   "porAlt": [
-   "Correta: latência de semanas com exantema, febre, eosinofilia e hepatite caracteriza a síndrome DRESS.",
-   "A urticária tem início em minutos a horas e não cursa com hepatite nem com eosinofilia marcada.",
-   "A dermatite de contato é localizada na área exposta e não produz acometimento visceral sistêmico.",
-   "A psoríase em gotas não cursa com eosinofilia nem com hepatite associada ao quadro cutâneo.",
-   "A pitiríase rósea é autolimitada e não cursa com febre alta, eosinofilia ou acometimento hepático."
+   "Psoríase moderada a grave com artrite: metotrexato ou biológico.",
+   "Doença moderada a grave com artrite exige tratamento sistêmico.",
+   "Corticoide sistêmico pode precipitar psoríase pustulosa na retirada.",
+   "Hidroxicloroquina pode piorar a psoríase.",
+   "Fototerapia não trata a artrite psoriásica."
   ]
  },
  {
-  "q": "Mulher de 30 anos com placas eritematosas bem delimitadas com escamas prateadas em cotovelos e joelhos, acometendo menos de 5% da superfície corporal. Qual é o tratamento inicial?",
+  "q": "Mulher de 55 anos com necrólise epidérmica tóxica por lamotrigina está na unidade de queimados. Tem descolamento de 35% da superfície corporal, frequência cardíaca de 128 bpm, ureia de 70 mg/dL (acima de 28 mg/dL de nitrogênio ureico), glicemia de 290 mg/dL, bicarbonato de 18 mEq/L. Sem câncer. Pesa 64 kg e iniciou a lamotrigina há 3 semanas. Tem 55 anos, idade que também entra no escore. Pelo SCORTEN, qual é a pontuação e a mortalidade estimada?",
   "alts": [
-   "Metotrexato sistêmico em dose semanal como primeira linha para essa extensão de doença cutânea.",
-   "Imunobiológico anti-interleucina imediatamente, tratamento inicial recomendado para essa apresentação.",
-   "Corticoide sistêmico oral em dose alta e prolongada, tratamento de escolha para a psoríase em placas.",
-   "Antifúngico tópico por oito semanas, tratamento indicado para as lesões descamativas descritas.",
-   "Corticoide tópico potente associado a análogo da vitamina D, sempre com hidratação regular da pele."
+   "SCORTEN de 3, mortalidade de cerca de 35%",
+   "SCORTEN de 5, mortalidade acima de 90%",
+   "SCORTEN de 2, mortalidade de cerca de 12%",
+   "SCORTEN de 4, mortalidade de cerca de 58%",
+   "SCORTEN de 6, mortalidade acima de 90%"
+  ],
+  "gab": 4,
+  "tema": "derma",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Bastuji-Garin et al., SCORTEN: a severity-of-illness score for toxic epidermal necrolysis, Journal of Investigative Dermatology, 2000",
+  "coment": "O SCORTEN atribui 1 ponto para cada: idade de 40 anos ou mais, câncer, frequência cardíaca de 120 bpm ou mais, descolamento de 10% ou mais no dia 1, nitrogênio ureico acima de 28 mg/dL (ureia acima de cerca de 60 mg/dL), glicose acima de 252 mg/dL e bicarbonato abaixo de 20 mEq/L. Aqui: idade (1), frequência (1), descolamento (1), ureia (1), glicose (1) e bicarbonato (1) = 6, e a mortalidade estimada com 5 ou mais é acima de 90%. Mortalidade estimada: 0 a 1, cerca de 3%; 2, 12%; 3, 35%; 4, 58%; 5 ou mais, acima de 90%.",
+  "porAlt": [
+   "O cálculo está incompleto; há 6 fatores presentes.",
+   "O cálculo está errado: são 6 fatores, embora a faixa de mortalidade de 5 ou mais coincida.",
+   "O cálculo subestima o risco.",
+   "O cálculo está errado; há 6 fatores.",
+   "SCORTEN de 6 (5 ou mais): mortalidade estimada acima de 90%."
+  ]
+ },
+ {
+  "q": "Homem de 68 anos, agricultor, tem lesão perolada de 9 mm com telangiectasias e ulceração central na asa nasal esquerda, de crescimento lento há 2 anos. Biópsia incisional: carcinoma basocelular nodular com áreas micronodulares. Sem linfonodos. Imunocompetente. Pesa 72 kg e usa AAS. Mora em área rural e expõe-se ao sol sem proteção. Não tem outras lesões suspeitas. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Imiquimode tópico 5%",
+   "Curetagem e eletrocoagulação",
+   "Crioterapia com nitrogênio",
+   "Cirurgia micrográfica de Mohs",
+   "Observação por ser tumor de crescimento lento"
+  ],
+  "gab": 3,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "NCCN Guidelines: Basal Cell Skin Cancer, 2025; AAD Guidelines of care for the management of basal cell carcinoma, 2018",
+  "coment": "Carcinoma basocelular em zona H da face (nariz, pálpebras, lábios, orelhas), com subtipo histológico agressivo (micronodular, infiltrativo, morfeiforme) ou recidivado é de alto risco para recidiva local. A cirurgia micrográfica de Mohs é o tratamento de escolha nesses casos, com maior taxa de cura e preservação de tecido em área funcional e estética (NCCN, AAD). Imiquimode, curetagem, crioterapia e terapia fotodinâmica ficam para lesões superficiais e de baixo risco fora de áreas críticas. Mesmo de crescimento lento, destrói estruturas locais.",
+  "porAlt": [
+   "Imiquimode é para basocelular superficial de baixo risco.",
+   "Curetagem não é indicada em zona H e subtipo agressivo.",
+   "Crioterapia tem alta recidiva em lesão de alto risco.",
+   "Basocelular de alto risco em zona H com subtipo micronodular: cirurgia micrográfica de Mohs.",
+   "Observar permite destruição local progressiva."
+  ]
+ },
+ {
+  "q": "Homem de 54 anos com diabetes tem placa eritematosa, quente e dolorosa em perna esquerda há 2 dias, com bordas mal definidas, sem abscesso à ultrassonografia, sem porta de entrada purulenta. Temperatura de 38,1 °C, pressão de 132/80 mmHg, frequência de 92 bpm, glicemia de 210 mg/dL. Sem uso recente de antibiótico, sem MRSA prévio, sem crepitação ou dor desproporcional. Tolera via oral. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Vancomicina endovenosa 15 mg/kg",
+   "Sulfametoxazol-trimetoprima isolado",
+   "Cefalexina oral por 5 a 7 dias",
+   "Ciprofloxacino oral",
+   "Drenagem cirúrgica e antibiótico"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014",
+  "coment": "Celulite não purulenta sem sinais de gravidade é causada principalmente por estreptococos beta-hemolíticos. A IDSA (2014) recomenda antibiótico ativo contra estreptococos, como cefalexina, amoxicilina ou penicilina, por 5 dias, estendendo se não houver melhora; elevação do membro e tratamento de fatores predisponentes (intertrigo, edema). Cobertura para MRSA é indicada com trauma penetrante, infecção por MRSA prévia, uso de drogas injetáveis, purulência ou SIRS grave. Sulfametoxazol-trimetoprima isolado cobre mal estreptococos. Sem abscesso, não há o que drenar.",
+  "porAlt": [
+   "Vancomicina endovenosa é desnecessária sem gravidade ou risco de MRSA.",
+   "Sulfametoxazol-trimetoprima isolado cobre mal estreptococos.",
+   "Celulite não purulenta sem gravidade: cefalexina oral por 5 a 7 dias.",
+   "Ciprofloxacino tem cobertura ruim para estreptococos.",
+   "Sem abscesso, não há indicação de drenagem."
+  ]
+ },
+ {
+  "q": "Mulher de 25 anos com dermatite atópica desde a infância tem eczema em pálpebras e face há 2 meses, com prurido e liquenificação leve, além de placas em fossas antecubitais controladas com betametasona. Usa hidratante irregularmente. Sem infecção secundária. Pede algo para o rosto que possa usar por mais tempo. Pesa 58 kg e não está grávida. Trabalha em escritório com ar-condicionado. Não tem asma ativa. Qual é o tratamento mais adequado para a face?",
+  "alts": [
+   "Tacrolimo tópico e emoliente regular",
+   "Clobetasol na face por 3 meses",
+   "Prednisona oral por 30 dias",
+   "Antibiótico tópico contínuo",
+   "Anti-histamínico sedativo isolado"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "AAD Guidelines of care for the management of atopic dermatitis in adults with topical therapies, 2023",
+  "coment": "Na dermatite atópica, emolientes de uso diário são a base. Na face e pálpebras, pele fina com maior risco de atrofia, telangiectasia, glaucoma e catarata com corticoide potente prolongado, a AAD (2023) recomenda inibidores tópicos de calcineurina (tacrolimo 0,03% a 0,1% ou pimecrolimo), que podem ser usados por períodos longos e de forma proativa. Corticoide tópico de baixa potência pode ser usado por curto período. Corticoide sistêmico causa rebote e não é recomendado. Anti-histamínico não trata a inflamação.",
+  "porAlt": [
+   "Dermatite atópica em face e pálpebras: tacrolimo tópico com emoliente regular.",
+   "Corticoide superpotente prolongado na face causa atrofia e dano ocular.",
+   "Corticoide sistêmico causa rebote e não é recomendado.",
+   "Antibiótico contínuo sem infecção gera resistência.",
+   "Anti-histamínico não trata a inflamação do eczema."
+  ]
+ },
+ {
+  "q": "Homem de 70 anos, imunocompetente, tem há 36 horas dor em queimação e vesículas agrupadas sobre base eritematosa em faixa no hemitórax direito, respeitando a linha média. Sem lesões na face, ponta do nariz ou olho. Clearance de 62 mL/min. Dor 7 em 10. Nunca foi vacinado contra herpes-zóster. Pesa 74 kg e tem hipertensão controlada. Mora com a esposa, que teve catapora na infância. Qual é a conduta mais adequada?",
+  "alts": [
+   "Apenas analgesia, por ser autolimitado",
+   "Aciclovir creme 5 vezes ao dia",
+   "Prednisona 40 mg isolada por 7 dias",
+   "Vacina recombinante agora como tratamento",
+   "Valaciclovir por 7 dias e analgesia"
   ],
   "gab": 4,
   "tema": "derma",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "AAD/NPF guidelines for the management of psoriasis with topical therapy, revisão 2023; Sociedade Brasileira de Dermatologia, 2022",
-  "coment": "Psoríase leve, com menos de dez por cento da superfície corporal e sem acometimento de áreas especiais, é tratada topicamente: corticoide de média a alta potência combinado a análogo da vitamina D, como calcipotriol, além de hidratação e ceratolítico quando há escama espessa. Sistêmicos e biológicos entram na doença moderada a grave ou refratária. O corticoide sistêmico é evitado por precipitar psoríase pustulosa ou eritrodérmica na retirada.",
+  "base": "Cohen, Herpes Zoster, NEJM, 2013; Dworkin et al., Recommendations for the management of herpes zoster, Clinical Infectious Diseases, 2007",
+  "coment": "Herpes-zóster em pessoa de 50 anos ou mais iniciado há menos de 72 horas deve receber antiviral oral: valaciclovir 1 g a cada 8 horas ou fanciclovir por 7 dias (ou aciclovir 800 mg 5 vezes ao dia), que acelera cicatrização e reduz dor aguda; ajusta-se dose se clearance abaixo de 50. Analgesia adequada é essencial. Antiviral tópico não é eficaz. Corticoide isolado não é recomendado. A vacina recombinante previne zóster e neuralgia pós-herpética, mas é aplicada após a resolução do episódio, não como tratamento.",
   "porAlt": [
-   "O metotrexato se reserva à doença moderada a grave ou com acometimento articular associado.",
-   "O imunobiológico entra após falha de tratamentos convencionais na doença moderada a grave.",
-   "O corticoide sistêmico pode precipitar psoríase pustulosa ou eritrodérmica na sua retirada.",
-   "O antifúngico não trata psoríase, que é doença inflamatória imunomediada e não infecciosa.",
-   "Correta: corticoide tópico potente com análogo da vitamina D e hidratação é a primeira linha na doença leve."
+   "Acima de 50 anos em até 72 horas, antiviral reduz dor e duração.",
+   "Antiviral tópico não é eficaz no zóster.",
+   "Corticoide isolado não trata a infecção.",
+   "Vacina é prevenção, aplicada após o episódio.",
+   "Zóster em 70 anos com menos de 72 horas: valaciclovir por 7 dias e analgesia."
   ]
  },
  {
-  "q": "Paciente com lesão bolhosa extensa, descolamento de mais de 30% da superfície corporal, sinal de Nikolsky positivo e acometimento de mucosas, após uso de sulfa. Qual é a conduta?",
+  "q": "Homem de 40 anos, morador do Maranhão, tem 8 máculas hipocrômicas com bordas mal definidas e hipoestesia térmica em tronco e membros há 1 ano, além de espessamento doloroso do nervo ulnar direito e fibular esquerdo. Força preservada. Baciloscopia de raspado intradérmico positiva (índice baciloscópico de 2). Sem reação hansênica ativa. Pesa 72 kg, não usa outros fármacos. G6PD normal. Pelo Ministério da Saúde, qual é a classificação e o tratamento?",
   "alts": [
-   "Manter a sulfa e prescrever anti-histamínico oral, conduta suficiente para o controle desse quadro.",
-   "Iniciar antibiótico profilático sistêmico de rotina em todos os pacientes com esse quadro cutâneo.",
-   "Suspender o fármaco e encaminhar sempre para unidade de queimados ou terapia intensiva especializada.",
-   "Aplicar corticoide tópico de alta potência em toda a superfície acometida como medida principal.",
-   "Realizar banhos com permanganato de potássio diariamente como principal medida terapêutica do caso."
+   "Paucibacilar; PQT-U por 6 doses",
+   "Multibacilar; rifampicina isolada por 6 meses",
+   "Multibacilar; PQT-U por 12 doses",
+   "Paucibacilar; dapsona isolada por 12 meses",
+   "Multibacilar; prednisona isolada"
   ],
   "gab": 2,
-  "tema": "derma",
-  "cenario": "uti",
-  "comp": "urg",
-  "nivel": "r3",
-  "base": "British Association of Dermatologists guidelines for the management of Stevens-Johnson syndrome and toxic epidermal necrolysis, 2024",
-  "coment": "Descolamento acima de trinta por cento da superfície corporal caracteriza necrólise epidérmica tóxica, com mortalidade elevada estimada pelo escore SCORTEN. A medida isolada mais eficaz é suspender o fármaco causador o mais precocemente possível. O cuidado é de grande queimado: unidade especializada, controle de temperatura, reposição volêmica, analgesia, cuidado ocular precoce e manejo não aderente das feridas. Antibiótico profilático de rotina não é recomendado.",
-  "porAlt": [
-   "Manter o fármaco causador é o principal determinante de pior desfecho e maior mortalidade.",
-   "A profilaxia antibiótica de rotina não é recomendada e seleciona germes resistentes na pele lesada.",
-   "Correta: suspender o fármaco e transferir para unidade especializada no cuidado de grande queimado.",
-   "O corticoide tópico não altera o curso da necrólise epidérmica e não substitui o cuidado intensivo.",
-   "O permanganato resseca e irrita a pele lesada, sendo inadequado ao cuidado dessa ferida extensa."
-  ]
- },
- {
-  "q": "Homem de 55 anos, agricultor, com lesão perolada de bordas elevadas e telangiectasias em asa nasal, de crescimento lento há dois anos. Qual é o diagnóstico mais provável?",
-  "alts": [
-   "Melanoma nodular amelanótico, tumor de crescimento lento com bordas peroladas e telangiectasias.",
-   "Ceratose seborreica, lesão que se apresenta com bordas peroladas e vasos telangiectásicos visíveis.",
-   "Carcinoma basocelular, que exige sempre confirmação histológica antes do tratamento definitivo.",
-   "Granuloma piogênico, lesão de crescimento lento com aspecto perolado e bordas elevadas na face.",
-   "Dermatofibroma facial, lesão perolada com telangiectasias de crescimento arrastado em área exposta."
-  ],
-  "gab": 2,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "NCCN Basal Cell Skin Cancer, 2024; Sociedade Brasileira de Dermatologia. Câncer da pele não melanoma, 2023",
-  "coment": "O carcinoma basocelular é o câncer de pele mais frequente, típico de áreas fotoexpostas em pessoas com exposição solar crônica. A apresentação clássica é pápula perolada com telangiectasias e bordas elevadas, de crescimento lento, que pode ulcerar no centro. É localmente invasivo e raramente metastatiza, mas em área de risco como a asa nasal a destruição local é importante. Confirma-se por biópsia e trata-se por excisão, com cirurgia micrográfica nas áreas de risco.",
-  "porAlt": [
-   "O melanoma amelanótico tem crescimento rápido e não apresenta o aspecto perolado característico.",
-   "A ceratose seborreica é lesão marrom com aspecto untuoso e superfície verrucosa, sem telangiectasias.",
-   "Correta: pápula perolada com telangiectasias em área fotoexposta caracteriza carcinoma basocelular.",
-   "O granuloma piogênico é lesão vascular de crescimento rápido, friável e que sangra com facilidade.",
-   "O dermatofibroma é nódulo firme, geralmente em membros, com sinal da covinha à compressão lateral."
-  ]
- },
- {
-  "q": "Paciente com diabetes apresenta placa eritematosa quente e dolorosa em perna, com bordas mal definidas, febre e leucocitose. Qual é o tratamento inicial?",
-  "alts": [
-   "Corticoide sistêmico em dose alta, tratamento de escolha para a inflamação cutânea descrita no caso.",
-   "Antifúngico oral por quatro semanas, tratamento indicado para a placa eritematosa quente e dolorosa.",
-   "Antibiótico com cobertura para estreptococo e estafilococo, sempre com marcação da borda da lesão.",
-   "Apenas compressa fria e elevação do membro, medidas suficientes para resolver o quadro descrito.",
-   "Desbridamento cirúrgico amplo imediato de rotina em todos os casos com esse aspecto clínico local."
-  ],
-  "gab": 2,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, revisão 2023",
-  "coment": "Celulite é infecção da derme profunda e do tecido subcutâneo, com bordas mal definidas, causada principalmente por estreptococo beta-hemolítico e, em menor grau, por Staphylococcus aureus. O tratamento empírico cobre esses agentes com cefalexina ou cefazolina, ampliando para cobertura de resistentes quando há abscesso ou fatores de risco. Marcar a borda permite avaliar a resposta. Dor desproporcional, crepitação, bolhas e toxemia sugerem fasciíte necrosante.",
-  "porAlt": [
-   "O corticoide não trata a infecção e pode mascarar a progressão de um quadro potencialmente grave.",
-   "O antifúngico não cobre os agentes bacterianos responsáveis pela celulite descrita neste caso.",
-   "Correta: antibiótico cobrindo estreptococo e estafilococo, com marcação da borda para avaliar resposta.",
-   "Medidas locais são adjuvantes e não substituem a antibioticoterapia na infecção com repercussão.",
-   "O desbridamento se reserva à suspeita de fasciíte necrosante, com sinais que não estão descritos."
-  ]
- },
- {
-  "q": "Mulher de 25 anos com placas eritematosas pruriginosas em fossas antecubitais e poplíteas desde a infância, com pele seca difusa. Qual é a base do tratamento?",
-  "alts": [
-   "Antibiótico oral contínuo por seis meses, base do tratamento dessa condição inflamatória crônica.",
-   "Emoliente em uso contínuo associado sempre a corticoide tópico nos períodos de exacerbação.",
-   "Corticoide sistêmico contínuo em dose baixa, tratamento de manutenção recomendado nesses casos.",
-   "Banhos quentes e prolongados diários, medida que restaura a barreira cutânea e reduz o prurido.",
-   "Anti-histamínico isolado em dose alta, tratamento suficiente para o controle das lesões descritas."
-  ],
-  "gab": 1,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "AAD guidelines of care for the management of atopic dermatitis, atualização 2023; ETFAD/EADV consensus, 2022",
-  "coment": "A dermatite atópica tem defeito de barreira cutânea como elemento central, e por isso o emoliente em uso contínuo é a base do tratamento, reduzindo exacerbações e a necessidade de corticoide. Nas crises usa-se corticoide tópico de potência adequada à região ou inibidor de calcineurina em face e dobras. Banhos devem ser mornos e breves. Anti-histamínico tem papel limitado, ajudando sobretudo no sono. Casos graves recebem dupilumabe ou inibidores de JAK.",
-  "porAlt": [
-   "O antibiótico oral contínuo não é base do tratamento e se reserva a infecção secundária evidente.",
-   "Correta: emoliente contínuo restaurando a barreira, com corticoide tópico apenas nas exacerbações.",
-   "O corticoide sistêmico contínuo traz toxicidade importante e não é manutenção nessa doença.",
-   "Banhos quentes e prolongados removem lipídios da pele e agravam a xerose e o prurido.",
-   "O anti-histamínico isolado não controla a inflamação cutânea que produz as lesões descritas."
-  ]
- },
- {
-  "q": "Paciente com lesões vesiculosas dolorosas agrupadas em faixa unilateral em dermátomo torácico, iniciadas há dois dias. Qual é a conduta?",
-  "alts": [
-   "Prescrever apenas anti-inflamatório tópico, medida suficiente para o controle completo do quadro.",
-   "Iniciar antibiótico sistêmico de amplo espectro, tratamento de escolha para as vesículas descritas.",
-   "Iniciar antiviral por via oral e analgesia, sempre dentro das primeiras setenta e duas horas.",
-   "Aguardar a crostificação espontânea das lesões antes de qualquer intervenção medicamentosa oral.",
-   "Aplicar corticoide tópico de alta potência sobre as vesículas como principal medida terapêutica."
-  ],
-  "gab": 2,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "CDC: Shingles clinical guidance, revisão 2024; IDSA/AAD recomendações sobre herpes-zóster, 2022",
-  "coment": "O herpes-zóster é reativação do vírus varicela-zóster em um dermátomo. O antiviral (aciclovir, valaciclovir ou fanciclovir) deve começar preferencialmente nas primeiras setenta e duas horas do início das lesões, reduzindo duração e, em parte, a neuralgia pós-herpética. Analgesia adequada é essencial, e casos com dor intensa podem exigir gabapentinoide. Acometimento oftálmico, disseminação ou imunossupressão exigem avaliação especializada e tratamento endovenoso.",
-  "porAlt": [
-   "Medidas tópicas isoladas não reduzem a duração do quadro nem o risco de neuralgia pós-herpética.",
-   "O antibiótico não tem ação sobre o vírus e só entra se houver infecção bacteriana secundária.",
-   "Correta: antiviral oral iniciado nas primeiras setenta e duas horas, associado a analgesia adequada.",
-   "Aguardar a crostificação perde a janela em que o antiviral modifica a evolução do quadro.",
-   "O corticoide tópico não trata a infecção viral e pode favorecer complicação local nas lesões."
-  ]
- },
- {
-  "q": "Homem de 40 anos com máculas hipocrômicas com hipoestesia e espessamento de nervo ulnar. Qual é a conduta?",
-  "alts": [
-   "Notificar e iniciar poliquimioterapia específica, sempre com avaliação de contatos domiciliares.",
-   "Prescrever apenas corticoide tópico nas lesões e reavaliar clinicamente após seis meses de uso.",
-   "Iniciar antifúngico sistêmico por três meses, tratamento indicado para as máculas hipocrômicas.",
-   "Solicitar apenas biópsia de pele e adiar qualquer tratamento até o resultado histológico definitivo.",
-   "Prescrever imunossupressor sistêmico, tratamento de escolha para a neuropatia periférica descrita."
-  ],
-  "gab": 0,
   "tema": "derma",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase, 2022; OMS Guidelines, 2018",
-  "coment": "Mácula hipocrômica com alteração de sensibilidade e espessamento de nervo periférico é diagnóstico clínico de hanseníase, que dispensa exame complementar para iniciar o tratamento. A doença é de notificação compulsória. A poliquimioterapia atual é o esquema único com rifampicina, dapsona e clofazimina, por seis meses nos paucibacilares e doze nos multibacilares. Todos os contatos domiciliares são examinados e recebem quimioprofilaxia com rifampicina em dose única quando elegíveis.",
+  "base": "Ministério da Saúde, PCDT Hanseníase, 2022; Nota Técnica nº 16/2021 (PQT-U)",
+  "coment": "Pela classificação operacional do Ministério da Saúde, hanseníase paucibacilar tem até 5 lesões de pele e baciloscopia negativa; multibacilar tem mais de 5 lesões, ou baciloscopia positiva, ou mais de 1 nervo acometido. Desde 2021, o Brasil usa a poliquimioterapia única (PQT-U: rifampicina, dapsona e clofazimina) para todos: 6 doses mensais supervisionadas no paucibacilar e 12 no multibacilar. Notifica-se, avalia-se o grau de incapacidade e examinam-se os contatos, com BCG conforme indicação. Corticoide é para reações hansênicas ou neurite.",
   "porAlt": [
-   "Correta: diagnóstico clínico, notificação, poliquimioterapia e avaliação de contatos domiciliares.",
-   "O corticoide tópico não trata a infecção e o atraso permite dano neural progressivo e incapacidade.",
-   "O antifúngico não trata hanseníase, e a hipoestesia não ocorre nas micoses superficiais da pele.",
-   "O diagnóstico é clínico e a biópsia não deve atrasar o início da poliquimioterapia específica.",
-   "O imunossupressor não trata a infecção; corticoide sistêmico se usa nas reações hansênicas."
+   "Mais de 5 lesões e baciloscopia positiva definem multibacilar.",
+   "Monoterapia favorece resistência.",
+   "Hanseníase multibacilar: PQT-U (rifampicina, dapsona e clofazimina) por 12 doses supervisionadas.",
+   "Mais de 5 lesões e baciloscopia positiva não são paucibacilares, e monoterapia é inadequada.",
+   "Corticoide é para reação hansênica, não trata a infecção."
   ]
  },
  {
-  "q": "Paciente em uso de anti-hipertensivo apresenta lesões urticariformes com angioedema de lábios e língua, sem broncoespasmo. Qual é a conduta?",
+  "q": "Mulher de 58 anos, negra, em enalapril 20 mg/dia há 3 anos para hipertensão, chega com edema de lábios e língua há 3 horas, sem urticária, prurido, sibilos ou hipotensão. Voz levemente abafada, sem estridor, saturação de 97%. Recebeu adrenalina intramuscular, hidrocortisona e difenidramina na triagem, sem melhora após 40 minutos. Sem exposição a alimentos ou picadas. Pesa 70 kg e não tem história pessoal ou familiar de angioedema. Não usa AINE. Qual é a conduta mais adequada?",
   "alts": [
-   "Suspender o fármaco suspeito e garantir sempre a via aérea, considerando adrenalina se houver progressão.",
-   "Manter o fármaco e prescrever anti-histamínico oral, conduta suficiente para o angioedema descrito agora.",
-   "Prescrever apenas corticoide oral em dose baixa e liberar o paciente para acompanhamento ambulatorial já.",
-   "Realizar traqueostomia imediata em todos os casos de angioedema de lábios e língua sem broncoespasmo.",
-   "Iniciar imunoterapia específica com alérgeno na sala de emergência como primeira medida terapêutica."
+   "Suspender IECA, vigiar via aérea, icatibanto",
+   "Manter enalapril e repetir anti-histamínico",
+   "Alta após melhora parcial com corticoide oral",
+   "Trocar enalapril por lisinopril",
+   "Aumentar a dose de corticoide e observar em casa"
   ],
   "gab": 0,
   "tema": "derma",
   "cenario": "emg",
   "comp": "urg",
-  "nivel": "r2",
-  "base": "EAACI guideline on angioedema, 2022; WAO anaphylaxis guidance, atualização 2024",
-  "coment": "Angioedema de lábios e língua ameaça a via aérea e exige vigilância contínua, preparo para via aérea difícil e suspensão imediata do fármaco suspeito. Inibidores da enzima conversora são causa clássica, com angioedema mediado por bradicinina que pode surgir após meses ou anos de uso e responde mal a anti-histamínico e corticoide. Se houver progressão rápida ou sinais sistêmicos, administra-se adrenalina intramuscular, que não deve ser retardada.",
+  "nivel": "tit",
+  "base": "Bernstein et al., Angiotensin-converting enzyme inhibitor-induced angioedema, Annals of Allergy, Asthma & Immunology, 2017; AAAAI/ACAAI Practice Parameter, 2021",
+  "coment": "Angioedema por IECA é mediado por bradicinina, não por histamina: não há urticária ou prurido, a resposta a adrenalina, corticoide e anti-histamínico é pobre, e pode ocorrer anos após o início. É mais frequente em pessoas negras. Conduta: suspender definitivamente os IECA (todos da classe), observar e proteger a via aérea (preparar intubação por fibroscopia ou via cirúrgica se piorar), e considerar icatibanto, inibidor de C1-esterase ou plasma fresco, com evidência limitada. Bloqueador do receptor de angiotensina pode ser usado depois com cautela.",
   "porAlt": [
-   "Correta: suspender o fármaco, vigiar e garantir a via aérea, com adrenalina se houver progressão.",
-   "Manter o fármaco causador perpetua o quadro e arrisca obstrução progressiva da via aérea.",
-   "Corticoide isolado com alta precoce não protege contra a progressão do edema de via aérea.",
-   "A traqueostomia é medida de resgate na falha da via aérea, e não conduta inicial universal.",
-   "A imunoterapia é tratamento ambulatorial de longo prazo e não tem papel na emergência."
+   "Angioedema por IECA: suspender a classe, vigiar a via aérea e considerar icatibanto.",
+   "Manter o IECA mantém o risco de angioedema grave.",
+   "Angioedema de língua pode progredir; exige observação.",
+   "Todos os IECA causam o mesmo mecanismo.",
+   "Corticoide não trata angioedema mediado por bradicinina."
   ]
  },
  {
@@ -15168,123 +15168,123 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente diabético com úlcera plantar de bordas calosas, indolor, sobre proeminência óssea. Qual é a conduta?",
+  "q": "Homem de 60 anos com diabetes há 20 anos tem úlcera plantar de 2 cm sob a cabeça do segundo metatarso há 3 meses, com bordas calosas, leito granuloso, indolor, sem secreção, eritema ou odor. Perda de sensibilidade ao monofilamento. Pulsos pediosos presentes, índice tornozelo-braquial de 1,0. Sondagem óssea negativa, radiografia normal. Usa sandália aberta. Hemoglobina glicada de 8,2%. Trabalha em pé como porteiro e mora sozinho. Qual é a conduta mais adequada?",
   "alts": [
-   "Apenas curativo oclusivo diário sem qualquer alívio da pressão local sobre a área ulcerada do pé.",
-   "Desbridamento, alívio de pressão e avaliação vascular, investigando sempre a presença de osteomielite.",
-   "Antibiótico sistêmico prolongado isolado como tratamento definitivo da úlcera plantar descrita agora.",
-   "Amputação imediata do membro em todos os casos de úlcera plantar em paciente com diabetes neste caso.",
-   "Manter deambulação habitual sem qualquer dispositivo de descarga sobre a região plantar acometida."
-  ],
-  "gab": 1,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "IWGDF Guidelines on the prevention and management of diabetes-related foot disease, 2023",
-  "coment": "A úlcera neuropática plantar exige três pilares: desbridamento do tecido desvitalizado e do calo circundante, alívio de pressão com dispositivo de descarga, sendo o gesso de contato total o padrão-ouro, e avaliação vascular para identificar isquemia associada. Investiga-se osteomielite quando a úlcera é profunda, sonda o osso ou não cicatriza. Antibiótico é indicado apenas quando há infecção clínica, e não em toda úlcera.",
-  "porAlt": [
-   "O curativo sem alívio de pressão não cicatriza a úlcera, pois a carga mecânica mantém a lesão.",
-   "Correta: desbridamento, alívio de pressão e avaliação vascular, com investigação de osteomielite.",
-   "O antibiótico isolado sem desbridamento e descarga não resolve a úlcera neuropática plantar.",
-   "A amputação é medida de exceção, e a maioria das úlceras cicatriza com tratamento adequado.",
-   "Manter a deambulação sem descarga perpetua a pressão que impede a cicatrização da lesão."
-  ]
- },
- {
-  "q": "Paciente com nevo melanocítico que apresenta mudança recente de cor, aumento de tamanho e sangramento. Qual é a conduta?",
-  "alts": [
-   "Encaminhar para avaliação dermatológica e biópsia excisional, pois a mudança recente é sempre sinal de alarme.",
-   "Observar por doze meses antes de qualquer avaliação, pois nevos mudam ao longo da vida do paciente agora.",
-   "Realizar crioterapia da lesão em consultório sem qualquer envio de material para exame histológico agora.",
-   "Prescrever corticoide tópico de alta potência sobre a lesão como tratamento inicial dessa alteração agora.",
-   "Realizar apenas fotografia da lesão e reavaliar somente após dois anos de acompanhamento clínico neste caso."
-  ],
-  "gab": 0,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "NCCN Melanoma: Cutaneous, 2024; Sociedade Brasileira de Dermatologia (campanha de detecção precoce, 2023",
-  "coment": "A evolução) mudança de tamanho, cor, forma ou surgimento de sintomas como prurido e sangramento. É o critério mais importante do sistema ABCDE e, isoladamente, justifica a investigação de melanoma. A conduta é avaliação especializada com dermatoscopia e biópsia excisional com margem estreita, que preserva a espessura para estadiamento. Métodos destrutivos como crioterapia impedem o diagnóstico histológico e são inaceitáveis diante de suspeita.",
-  "porAlt": [
-   "Correta: avaliação especializada e biópsia excisional, pois a mudança recente é sinal de alarme.",
-   "Observar por doze meses permite progressão em profundidade e piora expressiva do prognóstico.",
-   "A crioterapia destrói a lesão sem histologia e inviabiliza o diagnóstico e o estadiamento corretos.",
-   "O corticoide tópico não trata lesão pigmentada suspeita e apenas retarda o diagnóstico correto.",
-   "A fotografia é útil no seguimento de lesões estáveis, e não diante de mudança já documentada."
-  ]
- },
- {
-  "q": "Paciente com eritema migratório após picada de carrapato em região endêmica, sem outros sintomas. Qual é a conduta?",
-  "alts": [
-   "Aguardar a soroconversão antes de iniciar qualquer antibiótico no paciente com a lesão descrita agora.",
-   "Prescrever apenas corticoide tópico sobre a lesão como tratamento definitivo do eritema descrito agora.",
-   "Iniciar antifúngico oral por quatro semanas, tratamento indicado para a lesão anular pós-picada agora.",
-   "Observar sem tratamento até o surgimento de manifestações articulares ou neurológicas evidentes agora.",
-   "Iniciar doxiciclina por via oral, sempre sem aguardar a confirmação sorológica do diagnóstico suspeitado."
+   "Antibiótico oral por 14 dias",
+   "Colagenase e manter a sandália aberta",
+   "Amputação do segundo pododáctilo",
+   "Revascularização do membro",
+   "Desbridamento e bota gessada de contato total"
   ],
   "gab": 4,
   "tema": "derma",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA/AAN/ACR Clinical Practice Guidelines for Lyme Disease, 2020 com revisão 2023",
-  "coment": "O eritema migratório é lesão patognomônica da fase precoce localizada da doença de Lyme e o diagnóstico é clínico em área endêmica, pois a sorologia costuma ser negativa nas primeiras semanas. O tratamento é doxiciclina por via oral por dez a catorze dias, com amoxicilina ou cefuroxima como alternativas em gestantes e crianças. Tratar precocemente previne as manifestações tardias articulares, neurológicas e cardíacas da doença.",
+  "base": "IWGDF Guidelines on offloading foot ulcers in persons with diabetes, 2023",
+  "coment": "Úlcera neuropática plantar sem infecção e com perfusão adequada tem como pilares o alívio de pressão (offloading) e o desbridamento. A IWGDF (2023) recomenda como primeira escolha o dispositivo de descarga não removível até o joelho, como a bota gessada de contato total, e desbridamento do calo e tecido desvitalizado. Sem sinais de infecção, antibiótico não é indicado. Controle glicêmico e educação sobre calçados completam. Perfusão preservada dispensa revascularização.",
   "porAlt": [
-   "A sorologia é frequentemente negativa nas primeiras semanas e não deve atrasar o tratamento.",
-   "O corticoide tópico não trata a infecção bacteriana responsável pela lesão cutânea descrita.",
-   "O antifúngico não tem ação sobre a espiroqueta causadora da doença transmitida pelo carrapato.",
-   "Aguardar manifestações tardias permite acometimento articular, neurológico e cardíaco evitável.",
-   "Correta: doxiciclina oral iniciada pelo quadro clínico, sem aguardar a confirmação sorológica."
+   "Sem sinais de infecção, antibiótico não é indicado.",
+   "Sem descarga da pressão, a úlcera não cicatriza.",
+   "Não há osteomielite ou necrose que justifique amputação.",
+   "Perfusão preservada dispensa revascularização.",
+   "Úlcera neuropática sem infecção: desbridamento e alívio de pressão com bota gessada de contato total."
   ]
  },
  {
-  "q": "Paciente com lesões vesicobolhosas tensas em tronco e membros, prurido intenso, em idoso, com sinal de Nikolsky negativo. Qual é o diagnóstico mais provável?",
+  "q": "Homem de 64 anos tem faixa pigmentada acastanhada longitudinal na unha do hálux direito há 1 ano, que se alargou de 2 para 5 mm, com bordas irregulares, cores variadas e pigmento estendendo-se para a dobra ungueal proximal. Nega trauma. Não tem micose confirmada. Sem linfonodos inguinais palpáveis. Pesa 78 kg e trabalha como pedreiro. Não tem melanoma na família. A lesão não sangra. Qual é a conduta mais adequada?",
   "alts": [
-   "Pênfigo vulgar clássico, que cursa com bolhas tensas e sinal de Nikolsky negativo em pacientes idosos.",
-   "Dermatite herpetiforme, condição definida por bolhas tensas em tronco com Nikolsky negativo no idoso.",
-   "Impetigo bolhoso do adulto, já quadro caracterizado por bolhas tensas pruriginosas difusas em idosos.",
-   "Penfigoide bolhoso, que cursa sempre com bolhas tensas e clivagem subepidérmica ao exame histológico.",
-   "Eritema multiforme maior, já definido por bolhas tensas difusas com sinal de Nikolsky sempre negativo."
+   "Antifúngico oral por 3 meses",
+   "Observar por mais 1 ano",
+   "Retirar a unha e descartar sem exame",
+   "Biópsia da matriz ungueal",
+   "Laser para clarear o pigmento"
   ],
   "gab": 3,
   "tema": "derma",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r3",
-  "base": "European Academy of Dermatology and Venereology guidelines on bullous pemphigoid, 2022; British Association of Dermatologists, 2023",
-  "coment": "O penfigoide bolhoso é a doença bolhosa autoimune mais frequente, típica de idosos, com bolhas tensas sobre base eritematosa ou pele normal, prurido intenso e sinal de Nikolsky negativo, porque a clivagem é subepidérmica. O pênfigo vulgar, ao contrário, tem clivagem intraepidérmica, bolhas flácidas, Nikolsky positivo e acometimento mucoso frequente. A confirmação usa imunofluorescência direta, e o tratamento é corticoide tópico potente ou sistêmico.",
+  "nivel": "r2",
+  "base": "Levit et al., The ABC rule for clinical detection of subungual melanoma, Journal of the American Academy of Dermatology, 2000; NCCN Guidelines: Cutaneous Melanoma, 2025",
+  "coment": "Melanoníquia longitudinal em adulto que se alarga, com bordas irregulares, múltiplas cores e pigmentação da dobra ungueal (sinal de Hutchinson), sugere melanoma subungueal, forma do melanoma acral lentiginoso. O regime ABCDEF ajuda: idade, banda acima de 3 mm e irregular, mudança, dedo (hálux, polegar), extensão (Hutchinson) e história familiar. A conduta é biópsia da matriz ungueal, origem do pigmento, por profissional experiente. Tratamento empírico e observação atrasam o diagnóstico, que frequentemente é tardio nessa localização.",
   "porAlt": [
-   "O pênfigo vulgar cursa com bolhas flácidas, Nikolsky positivo e acometimento mucoso frequente.",
-   "A dermatite herpetiforme cursa com vesículas agrupadas em superfícies extensoras e doença celíaca.",
-   "O impetigo bolhoso é infeccioso, localizado, e não produz o quadro difuso e crônico descrito.",
-   "Correta: bolhas tensas com Nikolsky negativo no idoso caracterizam o penfigoide bolhoso subepidérmico.",
-   "O eritema multiforme cursa com lesões em alvo e está associado a infecções ou fármacos."
+   "Pigmento com sinal de Hutchinson não é micose.",
+   "Esperar 1 ano atrasa o diagnóstico de melanoma.",
+   "Retirar a unha sem histologia perde o diagnóstico.",
+   "Melanoníquia suspeita com sinal de Hutchinson: biópsia da matriz ungueal.",
+   "Laser destrói o pigmento e impede o diagnóstico."
   ]
  },
  {
-  "q": "Paciente com hiperceratose e escurecimento aveludado em axilas e pescoço, com obesidade e resistência insulínica. Qual é a conduta?",
+  "q": "Mulher de 35 anos, cuidadora de gatos resgatados no Rio de Janeiro, foi arranhada há 4 semanas no dorso da mão. Surgiu nódulo ulcerado no local e, depois, nódulos em cadeia subindo pelo antebraço ao longo do trajeto linfático, pouco dolorosos. Sem febre ou acometimento pulmonar. Hemograma normal, não gestante, sem uso de fármacos. Cultura de secreção em andamento. Pesa 62 kg, sem doença hepática ou uso de fármacos com interação. Dois gatos da casa têm feridas no focinho. Qual é o tratamento mais adequado?",
   "alts": [
-   "Prescrever apenas corticoide tópico potente nas lesões como tratamento definitivo do quadro cutâneo agora.",
-   "Iniciar antibiótico sistêmico prolongado, tratamento indicado para o escurecimento cutâneo descrito agora.",
-   "Investigar e tratar a resistência insulínica, avaliando sempre a possibilidade de neoplasia oculta associada.",
-   "Indicar exérese cirúrgica das áreas acometidas como tratamento de escolha para as lesões descritas agora.",
-   "Prescrever antifúngico oral por três meses, tratamento indicado para a hiperpigmentação aveludada agora."
+   "Itraconazol oral por meses",
+   "Cefalexina por 10 dias",
+   "Anfotericina B endovenosa",
+   "Doxiciclina por 14 dias",
+   "Excisão cirúrgica dos nódulos"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, Guia de Vigilância em Saúde: esporotricose humana, 2024; Orofino-Costa et al., Sporotrichosis: an update, Anais Brasileiros de Dermatologia, 2017",
+  "coment": "Lesão ulcerada no local da arranhadura com nódulos ascendentes pelo trajeto linfático (padrão esporotricoide), após contato com gatos, é esporotricose linfocutânea, hiperendêmica no Rio de Janeiro por Sporothrix brasiliensis. O tratamento de escolha é itraconazol oral 100 a 200 mg/dia, mantido até 2 a 4 semanas após a cura clínica (em geral 3 a 6 meses). Terbinafina é alternativa, e iodeto de potássio é opção em alguns casos. Anfotericina é para formas disseminadas ou graves. Deve-se orientar o manejo e o tratamento dos gatos.",
+  "porAlt": [
+   "Esporotricose linfocutânea por transmissão felina: itraconazol até semanas após a cura clínica.",
+   "Não é infecção bacteriana; cefalexina não trata fungo.",
+   "Anfotericina é para formas disseminadas.",
+   "Doxiciclina não trata esporotricose.",
+   "Cirurgia não é tratamento de esporotricose."
+  ]
+ },
+ {
+  "q": "Mulher de 81 anos tem prurido intenso há 2 meses e bolhas tensas sobre pele eritematosa em abdome, coxas e axilas, com sinal de Nikolsky negativo e sem lesões em mucosas. Acometimento de cerca de 30% da superfície. Biópsia com clivagem subepidérmica e eosinófilos; imunofluorescência direta com IgG e C3 lineares na zona da membrana basal. Diabetes e osteoporose. Clearance de 55 mL/min. Pesa 60 kg e mora com a filha, que pode aplicar o creme. Qual é o tratamento inicial mais adequado?",
+  "alts": [
+   "Prednisona 1 mg/kg/dia por 6 meses",
+   "Aciclovir oral por 7 dias",
+   "Clobetasol tópico no corpo todo",
+   "Antibiótico sistêmico isolado",
+   "Rituximabe como primeira linha"
   ],
   "gab": 2,
   "tema": "derma",
   "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "AAD clinical guidance on acanthosis nigricans, revisão 2023; Endocrine Society. Obesity and insulin resistance, 2023",
-  "coment": "A acantose nigricans é marcador cutâneo de resistência insulínica, associada a obesidade, diabetes tipo 2, síndrome dos ovários policísticos e a alguns fármacos. O tratamento é o da condição de base: perda de peso, atividade física e controle metabólico melhoram as lesões. Início abrupto, extenso, em paciente magro e com acometimento de mucosas e palmas levanta suspeita de acantose nigricans maligna, associada a adenocarcinoma, sobretudo gástrico.",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Joly et al., A comparison of oral and topical corticosteroids in patients with bullous pemphigoid, NEJM, 2002; EADV Guidelines on bullous pemphigoid, 2022",
+  "coment": "Penfigoide bolhoso: idoso, prurido, bolhas tensas, Nikolsky negativo, clivagem subepidérmica e IgG/C3 lineares na membrana basal. Mesmo na doença extensa, o clobetasol tópico em todo o corpo (40 g/dia, reduzindo gradualmente) foi tão eficaz quanto a prednisona oral e com menor mortalidade e efeitos adversos (Joly, NEJM, 2002), sendo recomendado pela EADV (2022). Isso é especialmente relevante em idosa com diabetes e osteoporose. Doxiciclina, metotrexato e dupilumabe são poupadores. Rituximabe é para casos refratários.",
   "porAlt": [
-   "O corticoide tópico não trata a causa metabólica e não resolve a hiperpigmentação aveludada.",
-   "Não há infecção bacteriana envolvida no mecanismo da acantose nigricans descrita neste caso.",
-   "Correta: investigar e tratar a resistência insulínica, atento à forma associada a neoplasia oculta.",
-   "A exérese cirúrgica é desproporcional e não impede a recorrência enquanto a causa persistir.",
-   "O antifúngico não tem papel, pois a lesão não decorre de infecção fúngica da pele acometida."
+   "Corticoide oral em dose alta aumenta mortalidade e efeitos adversos em idosos.",
+   "Não é infecção viral.",
+   "Penfigoide bolhoso extenso em idosa: clobetasol tópico em todo o corpo.",
+   "Não há infecção bacteriana para tratar.",
+   "Rituximabe é para casos refratários."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos, magro (índice de massa corporal de 21 kg/m²), sem diabetes, tem há 3 meses escurecimento aveludado e espessado em axilas, pescoço e dorso das mãos, com lesões na mucosa oral e palmas espessadas e rugosas. Perdeu 9 kg, tem saciedade precoce e epigastralgia. Hemoglobina de 10,1 g/dL, ferritina baixa. Glicemia e insulina normais. Não fuma e bebe socialmente. Não usa medicamentos. Qual é a conduta mais adequada?",
+  "alts": [
+   "Metformina e dieta para resistência insulínica",
+   "Tratamento tópico com retinoide isolado",
+   "Dermatoscopia e observação clínica",
+   "Levotiroxina empírica",
+   "Investigar neoplasia com endoscopia"
+  ],
+  "gab": 4,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Wick e Patterson, Cancer-associated skin disorders, JAAD, 2019; Schwartz, Acanthosis nigricans, JAAD, 1994",
+  "coment": "Acantose nigricans comum associa-se a obesidade e resistência insulínica. Início súbito e extenso em idoso magro, sem resistência insulínica, com acometimento de mucosas e palmas (paquidermatoglifia, 'palma em tripa') e sintomas constitucionais sugere acantose nigricans maligna, síndrome paraneoplásica ligada principalmente a adenocarcinoma gástrico. Com perda de peso, saciedade precoce, epigastralgia e ferropenia, a investigação começa por endoscopia digestiva alta, seguida de estadiamento. As lesões podem regredir com o tratamento do tumor.",
+  "porAlt": [
+   "Não há resistência insulínica; o padrão é paraneoplásico.",
+   "Tratamento tópico não aborda a causa.",
+   "Observação atrasa o diagnóstico da neoplasia.",
+   "Não há hipotireoidismo.",
+   "Acantose nigricans maligna com sintomas digestivos: investigar neoplasia, começando por endoscopia digestiva alta."
   ]
  },
  {
@@ -21144,75 +21144,75 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com vasculite cutânea de pequenos vasos com púrpura palpável em membros inferiores. Qual é a conduta inicial?",
+  "q": "Mulher de 42 anos tem púrpura palpável em pernas há 5 dias, algumas lesões com 24 horas de evolução, artralgia de tornozelos e dor abdominal leve. Iniciou amoxicilina há 10 dias por sinusite. Pressão de 128/80 mmHg. Sem hemoptise ou déficit neurológico. Hemograma com plaquetas normais. Pesa 64 kg e não tem doenças prévias. Urina escura notada ontem. Qual é a investigação inicial mais adequada?",
   "alts": [
-   "Prescrever apenas corticoide tópico sobre as lesões como tratamento definitivo da vasculite cutânea descrita agora.",
-   "Iniciar antibiótico de amplo espectro empírico como tratamento de escolha da púrpura palpável identificada agora.",
-   "Não realizar qualquer investigação, pois a vasculite cutânea nunca se associa a acometimento sistêmico neste caso.",
-   "Investigar causa secundária e acometimento sistêmico, avaliando sempre função renal e sedimento urinário do paciente.",
-   "Iniciar imunossupressão intensa em todos os casos antes de qualquer investigação da causa subjacente neste caso."
+   "Apenas suspender o antibiótico e observar",
+   "Arteriografia abdominal seletiva",
+   "Biópsia renal imediata",
+   "Biópsia recente com imunofluorescência e urina",
+   "Tomografia de corpo inteiro"
   ],
   "gab": 3,
   "tema": "derma",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "EULAR recommendations for management of vasculitis, 2022; British Association of Dermatologists guideline on cutaneous vasculitis, revisão 2023",
-  "coment": "A púrpura palpável indica vasculite leucocitoclástica de pequenos vasos, que pode ser limitada à pele ou manifestação cutânea de doença sistêmica. A investigação busca causas (infecções, fármacos, doenças autoimunes, crioglobulinemia, neoplasia) e avalia acometimento sistêmico, sobretudo renal, com creatinina e sedimento urinário procurando hematúria dismórfica e proteinúria. O tratamento vai de suporte e retirada do agente causal a imunossupressão nos casos sistêmicos.",
+  "base": "Chapel Hill Consensus Conference Nomenclature of Vasculitides, 2012; EULAR/PRINTO/PRES e SHARE: IgA vasculitis recommendations, 2019",
+  "coment": "Púrpura palpável sugere vasculite de pequenos vasos. A investigação inicial busca confirmar, classificar e procurar acometimento sistêmico: biópsia de lesão recente (menos de 24 a 48 horas) para histologia e imunofluorescência direta (depósitos de IgA sugerem vasculite por IgA, com risco renal maior em adultos), urina tipo 1 com sedimento, creatinina, hemograma e, conforme o quadro, complemento, ANCA, crioglobulinas, hepatites B e C e HIV. Dor abdominal e artralgia reforçam a hipótese de vasculite por IgA. Suspende-se o fármaco suspeito.",
   "porAlt": [
-   "O corticoide tópico não trata a causa nem avalia o acometimento sistêmico potencialmente grave.",
-   "O antibiótico empírico não trata a vasculite, embora infecção possa ser o gatilho a investigar.",
-   "A vasculite cutânea pode ser a manifestação inicial de doença sistêmica com risco renal e pulmonar.",
-   "Correta: investigar causa secundária e acometimento sistêmico, com atenção à função renal e ao sedimento.",
-   "A imunossupressão intensa sem investigar pode ser desnecessária e mascarar a causa subjacente."
+   "Sem investigar, pode-se perder acometimento renal.",
+   "Arteriografia é para vasculite de vasos médios, como poliarterite nodosa.",
+   "Biópsia renal depende de alterações urinárias ou renais.",
+   "Púrpura palpável: biópsia de lesão recente com imunofluorescência e avaliação renal com urina e creatinina.",
+   "Tomografia de corpo inteiro não é passo inicial."
   ]
  },
  {
-  "q": "Paciente com úlcera crônica em maléolo medial, com edema, hiperpigmentação e dermatite de estase. Qual é o tratamento?",
+  "q": "Mulher de 66 anos tem úlcera de 4 cm no maléolo medial esquerdo há 5 meses, rasa, com leito granuloso e exsudato moderado, sobre pele com hiperpigmentação, lipodermatosclerose e edema que piora ao fim do dia. Varizes calibrosas. Pulsos pediosos palpáveis, índice tornozelo-braquial de 0,95. Sem sinais de infecção. Diabetes controlado. Pesa 82 kg e trabalha em pé. Não tem trombose venosa prévia conhecida. Qual é o tratamento mais adequado?",
   "alts": [
-   "Aplicar apenas antibiótico tópico diário sem qualquer terapia compressiva na úlcera venosa crônica descrita.",
-   "Indicar amputação do membro em todos os pacientes com úlcera venosa crônica em maléolo medial neste caso.",
-   "Prescrever apenas repouso absoluto prolongado no leito como tratamento definitivo da úlcera venosa crônica.",
-   "Terapia compressiva com cuidados da ferida, avaliando sempre o índice tornozelo-braquial antes de comprimir.",
-   "Aplicar compressão máxima imediata sem qualquer avaliação prévia da perfusão arterial do membro acometido."
+   "Compressão de 30 a 40 mmHg e curativo",
+   "Antibiótico oral por 14 dias e curativo seco",
+   "Repouso absoluto no leito por 4 semanas",
+   "Revascularização arterial",
+   "Amputação abaixo do joelho"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "derma",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "SVS/AVF Clinical Practice Guidelines on venous leg ulcers, revisão 2023; NICE guidance on leg ulcer management, 2023",
-  "coment": "A úlcera venosa localiza-se tipicamente na região do maléolo medial, com bordas irregulares, exsudato e sinais de insuficiência venosa crônica como edema, hiperpigmentação e lipodermatoesclerose. O tratamento central é a terapia compressiva, que acelera a cicatrização e reduz recorrência, associada a cuidados da ferida e elevação do membro. Antes de comprimir é obrigatório avaliar o índice tornozelo-braquial, pois doença arterial contraindica a compressão.",
+  "base": "ESVS Clinical Practice Guidelines on the Management of Chronic Venous Disease of the Lower Limbs, 2022; Gohel et al., EVRA, NEJM, 2018",
+  "coment": "Úlcera venosa (localização maleolar medial, hiperpigmentação, lipodermatosclerose, edema e varizes) tem como pilar a terapia compressiva, com 30 a 40 mmHg no tornozelo (bandagens multicamadas ou meias), após excluir doença arterial significativa: índice tornozelo-braquial de 0,8 ou mais permite compressão plena. Curativo adequado ao exsudato, elevação periódica e exercícios da panturrilha complementam. A SVS/AVF (2014) e a ESVS (2022) recomendam avaliar ablação do refluxo venoso superficial precocemente, o que acelera a cicatrização e reduz recidiva (EVRA). Sem infecção, antibiótico não é indicado.",
   "porAlt": [
-   "O antibiótico tópico não trata a hipertensão venosa que mantém a úlcera aberta e recidivante.",
-   "A amputação não é conduta na úlcera venosa, que cicatriza com compressão adequada e cuidados.",
-   "O repouso prolongado agrava o descondicionamento e não substitui a terapia compressiva.",
-   "Correta: terapia compressiva com cuidados da ferida, após avaliar o índice tornozelo-braquial.",
-   "Comprimir sem avaliar a perfusão arterial pode causar isquemia e necrose no membro acometido."
+   "Úlcera venosa com índice tornozelo-braquial de 0,95: compressão de 30 a 40 mmHg e curativo.",
+   "Sem infecção, antibiótico não ajuda.",
+   "Repouso absoluto não é recomendado; elevação periódica e exercícios ajudam.",
+   "Não há doença arterial significativa.",
+   "Não há indicação de amputação."
   ]
  },
  {
-  "q": "Paciente internado em estado grave apresenta lesões cutâneas purpúricas em placas com necrose central e uso recente de anticoagulante. Qual é a suspeita?",
+  "q": "Mulher de 48 anos iniciou varfarina 10 mg/dia há 4 dias por trombose venosa profunda, sem heparina associada. Surgem placas dolorosas, eritematosas, que evoluem para púrpura e bolhas hemorrágicas com necrose central em mamas e coxas. INR de 2,4. Plaquetas de 230 mil/mm³, sem uso de heparina prévia. Pesa 70 kg e tem clearance de 90 mL/min. Não tem câncer ativo. A mãe teve trombose aos 40 anos. Qual é a hipótese e a conduta mais adequada?",
   "alts": [
-   "Dermatite de contato alérgica, condição definida por placas purpúricas com necrose central em paciente grave.",
-   "Necrose cutânea associada a anticoagulante, exigindo sempre suspensão do fármaco e avaliação de coagulopatia.",
-   "Psoríase em placas descompensada, quadro caracterizado por lesões purpúricas necróticas após anticoagulação.",
-   "Pitiríase versicolor extensa, condição definida por placas purpúricas necróticas em paciente internado grave.",
-   "Acne fulminante do adulto, quadro caracterizado por placas purpúricas com necrose central após anticoagulante."
+   "Trombocitopenia induzida por heparina; argatrobana",
+   "Calcifilaxia; tiossulfato de sódio",
+   "Necrose por varfarina; suspender e repor proteína C",
+   "Vasculite por IgA; prednisona",
+   "Celulite; cefalexina e manter varfarina"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "derma",
-  "cenario": "uti",
+  "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "British Association of Dermatologists guidance on cutaneous necrosis, revisão 2023; ISTH guidance on warfarin-induced skin necrosis, 2023",
-  "coment": "A necrose cutânea induzida por varfarina ocorre nos primeiros dias de uso, por queda rápida da proteína C antes dos fatores procoagulantes, com trombose de vênulas dérmicas e placas purpúricas dolorosas que evoluem para necrose, tipicamente em áreas ricas em tecido adiposo. A heparina também causa necrose cutânea, associada à trombocitopenia induzida por heparina. A conduta é suspender o fármaco, investigar coagulopatia e oferecer anticoagulação alternativa.",
+  "base": "Nazarian et al., Warfarin-induced skin necrosis, JAAD, 2009; ACCP Antithrombotic Therapy for VTE Disease, 2012",
+  "coment": "Necrose cutânea induzida por varfarina ocorre nos primeiros 3 a 5 dias, em áreas ricas em gordura (mamas, coxas, nádegas), por queda rápida da proteína C (meia-vida curta) antes dos fatores II e X, criando estado pró-trombótico transitório, especialmente com dose de ataque alta, sem heparina e em deficiência de proteína C. Conduta: suspender a varfarina, dar vitamina K, anticoagular com heparina e repor proteína C (concentrado ou plasma fresco). Previne-se com sobreposição de heparina por pelo menos 5 dias e doses iniciais sem ataque alto. Investiga-se deficiência de proteína C.",
   "porAlt": [
-   "A dermatite de contato é eritematosa e pruriginosa, localizada na área exposta, sem necrose extensa.",
-   "Correta: necrose cutânea associada a anticoagulante, com suspensão do fármaco e avaliação de coagulopatia.",
-   "A psoríase cursa com placas eritematodescamativas e não produz necrose cutânea purpúrica.",
-   "A pitiríase versicolor é infecção fúngica superficial com máculas hipocrômicas, sem necrose.",
-   "A acne fulminante cursa com lesões inflamatórias em face e tronco, sem relação com anticoagulante."
+   "Não houve exposição à heparina e as plaquetas são normais.",
+   "Calcifilaxia ocorre em doença renal crônica avançada.",
+   "Necrose por varfarina nos primeiros dias: suspender, vitamina K, heparina e reposição de proteína C.",
+   "Lesões necróticas em áreas gordurosas no início da varfarina não sugerem vasculite por IgA.",
+   "Não é infecção, e manter varfarina agrava a necrose."
   ]
  },
  {
