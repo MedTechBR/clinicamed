@@ -290,11 +290,11 @@ window.BANCO=[
  {
   "q": "Homem de 29 anos com diabetes tipo 1 há doze anos, em esquema basal-bolus com múltiplas aplicações, tem índice de massa corporal de 34 kg/m² e hemoglobina glicada de 7,9%. Pergunta sobre tratamento farmacológico para a obesidade. Não tem hipoglicemias graves, a pressão é de 132/84 mmHg e já tentou dieta com nutricionista e atividade física regular por 1 ano, perdendo apenas 2 kg. Não tem história de pancreatite ou de carcinoma medular de tireoide na família. Segundo a versão de 2026 das recomendações da Associação Americana de Diabetes, qual é a orientação?",
   "alts": [
-   "Classe contraindicada no diabetes tipo 1",
-   "Apenas dieta e exercício",
+   "Classe contraindicada no tipo 1",
+   "Dieta e exercício, sem fármaco",
    "Agonista de GLP-1 como opção adjuvante",
-   "Sempre a dose máxima de bula",
-   "Somente cirurgia bariátrica"
+   "Dose máxima de bula desde o início",
+   "Cirurgia bariátrica como via única"
   ],
   "gab": 2,
   "tema": "endocrino",
@@ -362,11 +362,11 @@ window.BANCO=[
  {
   "q": "Mulher de 57 anos com diabetes tipo 2 e doença renal crônica mantém relação albumina-creatinina de 450 mg/g apesar de dose máxima de losartana e de empagliflozina há oito meses. A filtração glomerular é de 42 mL/min/1,73 m², o potássio é de 4,4 mEq/L e a pressão está controlada. Qual é a conduta com melhor respaldo para reduzir a albuminúria residual?",
   "alts": [
-   "Acrescentar antagonista mineralocorticoide não esteroidal, com controle seriado do potássio sérico.",
-   "Substituir a empagliflozina por pioglitazona, que reduz a albuminúria de forma mais consistente aqui.",
-   "Elevar a losartana acima da dose máxima de bula, buscando bloqueio ainda maior do sistema renal.",
-   "Iniciar espironolactona em dose plena, opção preferida pela menor chance de hipercalemia da classe.",
-   "Aceitar a albuminúria residual, já que nenhuma droga adicional altera o desfecho renal nesse ponto."
+   "Acrescentar finerenona, com controle do potássio",
+   "Trocar empagliflozina por pioglitazona",
+   "Losartana acima da dose máxima de bula",
+   "Espironolactona em dose plena",
+   "Aceitar a albuminúria residual"
   ],
   "gab": 0,
   "tema": "nefro",
@@ -410,11 +410,11 @@ window.BANCO=[
  {
   "q": "Mulher de 66 anos chega à emergência 2 horas após início de hemiparesia direita e afasia. A tomografia de crânio não mostra hemorragia nem sinais precoces extensos, a glicemia é de 118 mg/dL e a pressão arterial é de 168/92 mmHg. O serviço dispõe de alteplase e de tenecteplase. Segundo a diretriz vigente de AVC isquêmico agudo, qual conduta é correta?",
   "alts": [
-   "Usar somente alteplase, porque a tenecteplase só é liberada em protocolos experimentais de pesquisa.",
-   "Adiar a trombólise até a angiotomografia, exame obrigatório antes de qualquer decisão de trombolisar.",
-   "Usar tenecteplase 0,25 mg/kg: ela substitui a alteplase em qualquer caso elegível até 4,5 horas.",
-   "Reduzir a pressão arterial abaixo de 120/80 mmHg antes de iniciar o trombolítico endovenoso agora.",
-   "Aguardar a ressonância magnética com difusão para confirmar a área isquêmica antes de trombolisar."
+   "Só alteplase: tenecteplase é experimental",
+   "Adiar até a angiotomografia",
+   "Tenecteplase 0,25 mg/kg em dose única",
+   "Baixar a pressão abaixo de 120/80 antes",
+   "Aguardar ressonância com difusão"
   ],
   "gab": 2,
   "tema": "neuro",
@@ -482,11 +482,11 @@ window.BANCO=[
  {
   "q": "Homem de 44 anos, sem comorbidades, é atendido no ambulatório com tosse produtiva, febre e radiografia mostrando consolidação em base direita. Recebe alta com antibiótico oral. No terceiro dia retorna afebril, com frequência cardíaca de 78 bpm, frequência respiratória de 18 irpm, saturação de 97% em ar ambiente, pressão de 124/78 mmHg e orientado. Qual é a conduta quanto à duração do tratamento?",
   "alts": [
-   "Manter o antibiótico por dez dias no total, duração clássica que reduz a chance de recidiva.",
-   "Suspender o antibiótico ao completar o terceiro dia, pois ele já alcançou estabilidade clínica.",
-   "Manter o antibiótico até que a radiografia de tórax mostre resolução completa da consolidação.",
-   "Trocar por um macrolídeo e completar mais sete dias, ampliando a cobertura para germe atípico.",
-   "Prolongar o esquema por catorze dias porque a consolidação lobar indica doença pneumocócica."
+   "Manter até completar 10 dias",
+   "Suspender ao completar o terceiro dia",
+   "Manter até a radiografia normalizar",
+   "Trocar por macrolídeo por mais 7 dias",
+   "Prolongar para 14 dias"
   ],
   "gab": 1,
   "tema": "infecto",
@@ -744,13 +744,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 44 anos, assintomática, sem história familiar de câncer de mama e sem fatores de risco identificados, pergunta na consulta se pode fazer mamografia pelo SUS. Considerando as diretrizes brasileiras vigentes, qual é a resposta correta?",
+  "q": "Mulher de 44 anos, assintomática, sem história familiar de câncer de mama e sem fatores de risco identificados, pergunta na consulta se pode fazer mamografia pelo SUS. Tem índice de massa corporal de 26 kg/m², menarca aos 12 anos, 2 filhos amamentados e nunca usou terapia hormonal. O exame clínico das mamas é normal, e a mãe e as irmãs não tiveram câncer de mama ou ovário. Considerando as diretrizes brasileiras vigentes, qual é a resposta correta?",
   "alts": [
-   "Pode fazer o exame, decidindo com o profissional de saúde depois de discutir riscos e benefícios.",
-   "Não pode fazer, porque o rastreamento no país só começa a partir dos cinquenta anos de idade.",
-   "Deve fazer obrigatoriamente todo ano, sem qualquer discussão prévia sobre danos do rastreamento.",
-   "Só poderá fazer o exame caso apresente um nódulo palpável ao exame clínico feito na consulta.",
-   "Deve ser encaminhada para ressonância de mamas, exame que substituiu a mamografia no rastreio."
+   "Sim, por decisão compartilhada",
+   "Não: o rastreio começa aos 50 anos",
+   "Deve fazer todo ano, sem discutir danos",
+   "Só se houver nódulo palpável",
+   "Ressonância no lugar da mamografia"
   ],
   "gab": 0,
   "tema": "onco",
@@ -768,13 +768,13 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 57 anos, assintomático, sem história familiar de neoplasia, chega ao ambulatório dizendo que viu uma campanha e quer 'fazer o exame da próstata'. Considerando o posicionamento do Ministério da Saúde e do INCA, qual é a conduta apropriada?",
+  "q": "Homem de 57 anos, assintomático, sem história familiar de neoplasia, chega ao ambulatório dizendo que viu uma campanha e quer 'fazer o exame da próstata'. Não tem sintomas urinários, hematúria ou dor óssea, o exame físico é normal e ele nunca dosou PSA. É hipertenso controlado, não fuma e não tem ascendência africana conhecida nem parentes de primeiro grau com câncer de próstata. Considerando o posicionamento do Ministério da Saúde e do INCA, qual é a conduta apropriada?",
   "alts": [
-   "Solicitar de imediato PSA e toque retal, exames que compõem o rastreamento populacional oficial.",
-   "Discutir riscos e benefícios e decidir com ele, já que não há rastreamento populacional recomendado.",
-   "Recusar qualquer investigação, pois o rastreamento é formalmente proibido em homens assintomáticos.",
-   "Solicitar ressonância multiparamétrica de próstata como primeiro exame de rastreio nessa faixa etária.",
-   "Encaminhar direto ao urologista para biópsia prostática, independentemente de cada exame prévio."
+   "PSA e toque retal como rastreio oficial",
+   "Decisão compartilhada, sem rastreio populacional",
+   "Recusar: o exame é proibido",
+   "Ressonância multiparamétrica como rastreio",
+   "Encaminhar direto para biópsia"
   ],
   "gab": 1,
   "tema": "onco",
@@ -5906,11 +5906,11 @@ window.BANCO=[
  {
   "q": "Homem de 39 anos internado por perda de peso e candidíase oral recebe diagnóstico de HIV: CD4 de 90 células/mm³, carga viral de 250 mil cópias/mL. Sem cefaleia, tosse ou febre; radiografia de tórax normal. HBsAg negativo, clearance de 95 mL/min. Não há sinais de meningite ou tuberculose ativa. Pesa 60 kg. Não tem sintomas visuais nem alterações neurológicas. Mora com a irmã. Pelo PCDT do Ministério da Saúde, qual é o conjunto de condutas mais adequado?",
   "alts": [
-   "Aguardar CD4 subir para iniciar antirretroviral",
-   "Iniciar antirretroviral só após 8 semanas de fluconazol",
-   "Profilaxia para complexo Mycobacterium avium e adiar antirretroviral",
-   "Apenas sulfametoxazol-trimetoprima e reavaliar em 3 meses",
-   "Antirretroviral rápido, SMX-TMP e antígeno criptocócico"
+   "Esperar o CD4 subir para iniciar TARV",
+   "TARV só após 8 semanas de fluconazol",
+   "Profilaxia para MAC e adiar a TARV",
+   "SMX-TMP isolado e reavaliar em 3 meses",
+   "TARV rápida, SMX-TMP e antígeno criptocócico"
   ],
   "gab": 4,
   "tema": "infecto",
@@ -10754,11 +10754,11 @@ window.BANCO=[
  {
   "q": "Homem de 29 anos, empregado com carteira assinada em uma construtora, é atendido na unidade básica com fratura de rádio distal após queda de andaime no trabalho, há 2 horas. Após imobilização e encaminhamento ao ortopedista, o afastamento previsto é de 45 dias. O empregador informou que não vai emitir comunicação do acidente. O paciente pergunta se o médico pode fazer algo. Qual é a conduta correta além do atendimento?",
   "alts": [
-   "Nada, pois a comunicação é exclusiva da empresa",
-   "Atestado de 15 dias apenas",
+   "Nada: a CAT cabe só à empresa",
+   "Atestado de 15 dias e alta",
    "Registrar como acidente doméstico",
-   "O médico pode emitir a CAT",
-   "Encaminhar à polícia para boletim de ocorrência"
+   "O próprio médico emite a CAT",
+   "Encaminhar à delegacia para boletim"
   ],
   "gab": 3,
   "tema": "sus",
@@ -15122,11 +15122,11 @@ window.BANCO=[
  {
   "q": "Homem de 59 anos recebeu há 2 semanas o diagnóstico de adenocarcinoma de pulmão estádio IV, com metástases ósseas, ECOG 1, e vai iniciar quimioimunoterapia. Tem dor óssea moderada, ansiedade e insônia. Pergunta ao residente se 'cuidados paliativos' significam que desistiram do tratamento e se deve procurá-los só quando a quimioterapia parar. Mora com a esposa e 2 filhos adolescentes. Pesa 72 kg. Qual é a orientação mais adequada?",
   "alts": [
-   "Somente quando não houver mais tratamento oncológico",
-   "Somente nas últimas semanas de vida",
-   "Somente se a dor ficar refratária a opioides",
-   "Apenas se ele desistir da quimioterapia",
-   "Desde já, integrados ao tratamento oncológico"
+   "Quando o tratamento oncológico acabar",
+   "Nas últimas semanas de vida",
+   "Se a dor ficar refratária a opioides",
+   "Se ele desistir da quimioterapia",
+   "Desde já, junto do tratamento oncológico"
   ],
   "gab": 4,
   "tema": "onco",
@@ -16611,10 +16611,10 @@ window.BANCO=[
   "q": "Homem de 47 anos, lavrador, chega duas horas após ferimento profundo e sujo de terra em planta do pé, com fragmento de madeira retirado no local. A ferida tem bordas irregulares e tecido desvitalizado. Ele não sabe informar o esquema vacinal e não tem caderneta. Está afebril, com pressão de 128/76 mmHg e sem sinais de infecção. Não há comprometimento neurovascular. Qual é a conduta profilática para o tétano?",
   "alts": [
    "Vacina dupla adulto e imunoglobulina antitetânica",
-   "Apenas a vacina dupla adulto",
-   "Apenas imunoglobulina antitetânica",
-   "Antibiótico profilático, sem vacina nem soro",
-   "Nenhuma profilaxia, por estar assintomático"
+   "Vacina dupla adulto isolada",
+   "Imunoglobulina antitetânica isolada",
+   "Antibiótico profilático, sem vacina ou soro",
+   "Observar até surgirem sintomas"
   ],
   "gab": 0,
   "tema": "infecto",
@@ -18602,11 +18602,11 @@ window.BANCO=[
  {
   "q": "Mulher de 36 anos será submetida a esplenectomia eletiva por esferocitose hereditária, programada para daqui a quatro semanas. Está assintomática, com hemoglobina de 10,2 g/dL, sem uso de imunossupressor e com caderneta vacinal em dia para a idade, exceto por vacinas específicas para asplenia. A cirurgia é eletiva e há tempo hábil para preparo. Pesa 64 kg, não tem alergia a vacinas e mora com o marido e 2 filhos em idade escolar. Qual é a conduta preventiva?",
   "alts": [
-   "Vacinar contra pneumococo, meningococo e Haemophilus antes da cirurgia",
-   "Vacinar apenas depois da cirurgia, quando houver cicatrização",
-   "Antibiótico profilático contínuo, dispensando vacinas",
-   "Apenas vacina pneumocócica, por ser o agente mais comum",
-   "Nenhuma medida, por ser cirurgia eletiva em jovem"
+   "Vacinas pneumocócica, meningocócica e Haemophilus antes",
+   "Vacinar só após a cicatrização",
+   "Antibiótico contínuo no lugar das vacinas",
+   "Só a vacina pneumocócica, a mais importante",
+   "Dispensar medidas por ser eletiva"
   ],
   "gab": 0,
   "tema": "infecto",
@@ -19394,11 +19394,11 @@ window.BANCO=[
  {
   "q": "Homem de 36 anos teve trombose venosa profunda proximal de veia femoral sem fator provocador (sem cirurgia, imobilização, viagem longa ou câncer). O pai teve embolia pulmonar aos 50 anos. Está no segundo mês de rivaroxabana, sem sangramento, e o plano da equipe é anticoagulação estendida por tempo indefinido pelo evento não provocado. Pede exames de trombofilia 'para saber o que tem'. Pesa 88 kg, não fuma e tem clearance de 105 mL/min. Não tem abortos ou tromboses arteriais na família. Qual é a conduta mais adequada?",
   "alts": [
-   "Painel completo de trombofilia agora, em uso de rivaroxabana",
-   "Pesquisar e suspender o anticoagulante se o painel vier normal",
-   "Suspender a rivaroxabana por 2 semanas para colher o painel",
-   "Não pesquisar, pois o resultado não mudaria a conduta",
-   "Pesquisar apenas fator V de Leiden e dosar dímero-D"
+   "Painel completo agora, em uso de rivaroxabana",
+   "Pesquisar e suspender a anticoagulação se normal",
+   "Suspender a rivaroxabana por 2 semanas e colher",
+   "Não pesquisar: o resultado não muda a conduta",
+   "Pesquisar só fator V de Leiden e dímero-D"
   ],
   "gab": 3,
   "tema": "hemato",
