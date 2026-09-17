@@ -720,27 +720,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Uma equipe de Saúde da Família acompanha um território com alta prevalência de hipertensão e diabetes, com muitas internações por complicações evitáveis. A coordenação propõe reorganizar o cuidado. Qual estratégia corresponde ao modelo de atenção às condições crônicas preconizado no SUS?",
+  "q": "Uma equipe de Saúde da Família, com território de 3.200 pessoas, acompanha 410 hipertensos e 160 diabéticos. No último ano houve 38 internações por complicações de hipertensão e diabetes, e 60% desses pacientes só procuram a unidade quando estão descompensados. A médica da equipe, de 34 anos, propõe reorganizar o cuidado a essas condições junto com o enfermeiro e os agentes comunitários. Qual estratégia está de acordo com o modelo de atenção às condições crônicas?",
   "alts": [
-   "Estratificar o risco da população e organizar o cuidado continuado com plano por usuário.",
-   "Ampliar o número de consultas de pronto atendimento, absorvendo a demanda espontânea gerada.",
-   "Encaminhar todos os hipertensos e diabéticos ao especialista focal para seguimento definitivo.",
-   "Concentrar os recursos na compra de medicamentos, única medida com impacto real sobre o dano.",
-   "Priorizar campanhas pontuais de aferição de pressão, repetidas duas vezes ao longo de cada ano."
+   "Ampliar a demanda espontânea e reduzir consultas agendadas",
+   "Estratificar o risco e planejar o cuidado",
+   "Encaminhar os diabéticos ao endocrinologista",
+   "Campanhas anuais de aferição de pressão",
+   "Consultas médicas mensais iguais para cada paciente"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Portaria GM/MS nº 2.436/2017 (PNAB) e modelo de atenção às condições crônicas do Ministério da Saúde, 2014",
-  "coment": "O modelo de atenção às condições crônicas parte de uma constatação: a condição crônica não se resolve pela lógica do atendimento por queixa aguda. A proposta é conhecer a população adscrita, estratificar risco, definir plano de cuidado individual com metas pactuadas, apoiar o autocuidado e reservar o especialista para o apoio matricial e os casos de maior complexidade. Ampliar pronto atendimento trata a descompensação depois que ela ocorre e não reduz internação evitável. Campanhas pontuais de aferição captam casos, mas sem continuidade do cuidado não mudam desfecho.",
+  "base": "Mendes, O cuidado das condições crônicas na atenção primária à saúde, OPAS/CONASS, 2012; Ministério da Saúde, Cadernos de Atenção Básica n. 35, 2014",
+  "coment": "O modelo de atenção às condições crônicas adotado pelo Ministério da Saúde, baseado no Chronic Care Model e na pirâmide de risco, propõe estratificar a população pelo risco: autocuidado apoiado para a maioria de baixo risco, cuidado profissional mais intensivo para os de risco moderado e alto e gestão de caso para os muito complexos. Esse cuidado proativo e continuado reduz internações por condições sensíveis à atenção primária.",
   "porAlt": [
-   "Correta: estratificação de risco da população adscrita e plano de cuidado continuado por usuário são o núcleo do modelo.",
-   "Ampliar pronto atendimento absorve a descompensação já instalada e não atua sobre a causa das internações evitáveis.",
-   "Encaminhar todos ao especialista desorganiza a rede e retira da atenção primária a coordenação do cuidado que lhe cabe.",
-   "Medicamento é peça necessária mas insuficiente: sem vínculo, plano de cuidado e apoio ao autocuidado a adesão não se sustenta.",
-   "Campanhas pontuais até identificam casos, mas sem continuidade do cuidado não alteram o desfecho da condição crônica."
+   "Atender só a demanda espontânea mantém o cuidado reativo às agudizações.",
+   "Estratificar a população por risco e organizar o cuidado continuado, com autocuidado apoiado e mais atenção aos de maior risco.",
+   "A maioria dos diabéticos é manejada na atenção primária; encaminhar sobrecarrega a especialidade.",
+   "Ações pontuais não substituem o cuidado continuado.",
+   "Concentração igual de consultas desperdiça recursos nos de baixo risco e subtrata os de alto risco."
   ]
  },
  {
@@ -5112,27 +5112,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 35 anos internado em terapia intensiva por traumatismo cranioencefálico grave apresenta, ao exame, ausência de reflexos de tronco e teste de apneia positivo. A família pergunta sobre o processo de determinação de morte encefálica no Brasil. Qual afirmação está correta?",
+  "q": "Homem de 35 anos está na terapia intensiva há 30 horas por traumatismo cranioencefálico grave, com causa do coma estabelecida pela tomografia. Está em Glasgow 3, sem sedação há 36 horas, com pupilas fixas e ausência de reflexos de tronco. Pressão arterial 118/72 mmHg com noradrenalina, saturação 97%, sódio 148 mEq/L, glicemia 130 mg/dL. Temperatura esofágica de 34,6 °C. O plantonista quer iniciar o protocolo de morte encefálica. Qual é a conduta?",
   "alts": [
-   "Um único exame clínico realizado pelo médico assistente basta para determinar a morte encefálica.",
-   "O exame complementar é dispensável sempre que o exame clínico for considerado inequívoco aqui.",
-   "A determinação depende da autorização prévia da família para que possa ser formalmente iniciada.",
-   "O intervalo mínimo entre os dois exames clínicos é sempre de vinte e quatro horas no adulto.",
-   "São exigidos dois exames clínicos por médicos diferentes e um exame complementar confirmatório."
+   "Iniciar o primeiro exame clínico agora",
+   "Dispensar o exame complementar pela causa conhecida",
+   "Aquecer acima de 35 °C antes de iniciar",
+   "Aguardar 7 dias de observação",
+   "Fazer só o teste de apneia"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "sus",
   "cenario": "uti",
-  "comp": "prev",
+  "comp": "dx",
   "nivel": "r2",
-  "base": "Resolução CFM nº 2.173/2017. Critérios de determinação de morte encefálica; Lei nº 9.434/1997",
-  "coment": "A resolução do Conselho Federal de Medicina exige, para determinar morte encefálica, a presença dos pré-requisitos clínicos, dois exames clínicos realizados por médicos diferentes e capacitados, sendo um deles especialista em área definida pela norma, um teste de apneia e um exame complementar que demonstre ausência de atividade encefálica, de perfusão ou de metabolismo. O intervalo entre os exames clínicos varia conforme a faixa etária, sendo de uma hora acima de dois anos. A determinação é ato médico e não depende de autorização familiar, embora a comunicação à família seja obrigatória.",
+  "base": "Conselho Federal de Medicina, Resolução n. 2.173, de 23 de novembro de 2017",
+  "coment": "Pela Resolução CFM 2.173/2017, o protocolo de morte encefálica exige pré-requisitos: lesão encefálica de causa conhecida e irreversível, ausência de fatores confundidores, tratamento e observação hospitalar por pelo menos 6 horas (24 horas na encefalopatia hipóxico-isquêmica), temperatura corporal acima de 35 °C, saturação acima de 94% e pressão sistólica de 100 mmHg ou mais, ou média de 65 mmHg ou mais, em adultos. Cumpridos, fazem-se dois exames clínicos por médicos diferentes, com intervalo mínimo de 1 hora em adultos, um teste de apneia e um exame complementar. A família deve ser informada desde o início.",
   "porAlt": [
-   "Um único exame clínico não satisfaz a norma vigente para a determinação de morte encefálica.",
-   "O exame complementar é obrigatório no Brasil, mesmo diante de exame clínico considerado inequívoco.",
-   "A determinação é ato médico, e a família é comunicada, mas não autoriza o próprio diagnóstico.",
-   "O intervalo depende da faixa etária e é de uma hora nos pacientes acima de dois anos de idade.",
-   "Correta: dois exames clínicos por médicos diferentes, teste de apneia e um exame complementar."
+   "Temperatura corporal abaixo de 35 °C impede o início do protocolo.",
+   "A resolução exige exame complementar em qualquer caso.",
+   "Pré-requisitos incluem temperatura acima de 35 °C, saturação acima de 94% e pressão sistólica de 100 mmHg ou mais.",
+   "No trauma bastam 6 horas de observação; 24 horas são exigidas na lesão hipóxico-isquêmica.",
+   "São necessários dois exames clínicos, um teste de apneia e um exame complementar."
   ]
  },
  {
@@ -5664,27 +5664,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 68 anos em terapia intensiva por choque séptico com disfunção de múltiplos órgãos, sem resposta a três dias de tratamento otimizado, tem prognóstico reservado. A família pergunta sobre limitar intervenções. Qual é a conduta ética adequada?",
+  "q": "Mulher de 81 anos, com demência avançada e dependência total, está na terapia intensiva há 9 dias por choque séptico com disfunção de 4 órgãos, em ventilação mecânica, hemodiálise e noradrenalina em dose crescente, sem resposta ao tratamento otimizado. SOFA de 16. Não há diretiva antecipada de vontade. Os três filhos relatam que ela dizia não querer 'viver ligada a aparelhos'. A equipe já discutiu o caso e concorda que não há perspectiva de recuperação. Qual é a conduta mais adequada?",
   "alts": [
-   "Manter todas as intervenções disponíveis independentemente do prognóstico e da vontade manifestada.",
-   "Suspender imediatamente todos os cuidados, inclusive analgesia e sedação, após a decisão da família.",
-   "Conduzir reunião familiar, esclarecer prognóstico e definir metas de cuidado com registro em prontuário.",
-   "Delegar integralmente a decisão à família, sem oferecer qualquer recomendação médica sobre as intervenções.",
-   "Registrar apenas verbalmente a decisão tomada, sem necessidade de documentação formal em prontuário."
+   "Reunião familiar e plano de limitação terapêutica registrado",
+   "Manter todas as medidas até a parada cardíaca",
+   "Desligar o ventilador sem conversar com a família",
+   "Pedir autorização judicial para limitar o suporte",
+   "Transferir para outra UTI para segunda opinião obrigatória"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "sus",
   "cenario": "uti",
-  "comp": "prev",
+  "comp": "tto",
   "nivel": "r2",
-  "base": "Resolução CFM nº 1.805/2006 e Código de Ética Médica (Resolução CFM nº 2.217/2018); ANCP, Manual de Cuidados Paliativos, 2021",
-  "coment": "Diante de doença grave e irreversível, é eticamente permitido limitar ou suspender procedimentos que prolonguem a vida sem trazer benefício, respeitando a vontade do paciente ou de seu representante. A conduta correta é a reunião familiar estruturada, com esclarecimento do prognóstico, escuta de valores e preferências, recomendação médica explícita e registro em prontuário. Medidas de conforto (analgesia, sedação, higiene e presença) nunca são suspensas, e ortotanásia não se confunde com eutanásia.",
+  "base": "Conselho Federal de Medicina, Resolução n. 1.805, 2006; Código de Ética Médica, Resolução CFM n. 2.217, 2018",
+  "coment": "A ortotanásia, limitação ou suspensão de tratamentos que apenas prolongam o processo de morrer em doença grave e incurável, é ética e legal no Brasil (Resolução CFM 1.805/2006 e Código de Ética Médica, artigo 41). A decisão considera a vontade do paciente, expressa antes ou relatada pelos representantes, é construída em reunião com a família, registrada em prontuário e acompanhada de cuidados paliativos plenos. Distanásia e eutanásia são vedadas.",
   "porAlt": [
-   "Manter intervenções sem benefício contra a vontade manifestada configura obstinação terapêutica.",
-   "Medidas de conforto como analgesia e sedação jamais são suspensas na limitação de suporte avançado.",
-   "Correta: reunião familiar com esclarecimento, definição compartilhada de metas e registro em prontuário.",
-   "Transferir integralmente a decisão à família sem recomendação médica aumenta a sobrecarga moral dela.",
-   "O registro formal em prontuário é obrigatório e protege o paciente, a família e a equipe assistente."
+   "Doença grave e irreversível: limitar ou suspender tratamentos que prolongam o morrer, respeitando a vontade relatada, com cuidados paliativos e registro.",
+   "Manter tudo contraria a vontade relatada e prolonga sofrimento (distanásia).",
+   "A decisão é compartilhada com a família e registrada, não unilateral.",
+   "Não há exigência legal de autorização judicial para ortotanásia.",
+   "Segunda opinião é direito, não obrigação."
   ]
  },
  {
@@ -7632,27 +7632,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Um paciente de 58 anos com diabetes descompensado é atendido na unidade básica e precisa de consulta com endocrinologista, que só existe no município-sede da região. O médico da equipe não sabe como encaminhar. Qual instrumento organiza esse fluxo no SUS?",
+  "q": "Homem de 58 anos com diabetes descompensado é atendido na unidade básica de um município de 9.000 habitantes e precisa de consulta com endocrinologista e de exames que só existem no município-sede, a 80 km. A unidade básica não tem acesso a sistema de regulação próprio. A secretaria municipal discute com a Comissão Intergestores Regional como organizar essas referências. Pelo Decreto 7.508/2011, uma Região de Saúde deve conter, no mínimo, quais ações e serviços?",
   "alts": [
-   "A livre escolha do usuário, que pode se apresentar diretamente em qualquer serviço do país.",
-   "O poder discricionário do médico assistente, que define sozinho para onde encaminhar o caso.",
-   "A ordem de chegada em fila única nacional, gerida diretamente pelo Ministério da Saúde hoje.",
-   "O plano municipal de saúde isolado, que independe de cada pactuação com outros municípios.",
-   "O contrato organizativo da ação pública e a pactuação regional das referências entre gestores."
+   "Apenas atenção primária e vigilância sanitária",
+   "Hospital de alta complexidade e transplantes",
+   "Atenção primária, urgência e hospital de ensino",
+   "Primária, urgência, psicossocial, especializada, hospitalar e vigilância",
+   "Só os serviços que o município mantém sozinho"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "sus",
   "cenario": "amb",
-  "comp": "prev",
+  "comp": "dx",
   "nivel": "r2",
-  "base": "Decreto nº 7.508/2011 e Lei nº 8.080/1990. Região de saúde, mapa da saúde e COAP",
-  "coment": "O Decreto nº 7.508/2011 organizou a regionalização: a região de saúde reúne municípios limítrofes, com serviços mínimos definidos, e as referências para os pontos de maior densidade tecnológica são pactuadas entre os gestores nas comissões intergestores, formalizando-se no contrato organizativo da ação pública da saúde. O usuário entra pelas portas de entrada definidas (atenção primária, urgência, atenção psicossocial e serviços especiais de acesso aberto) e o percurso subsequente segue a pactuação, não a escolha individual do profissional nem a livre apresentação em qualquer serviço.",
+  "base": "Decreto n. 7.508, de 28 de junho de 2011; Lei n. 8.080, de 19 de setembro de 1990",
+  "coment": "O Decreto 7.508/2011, que regulamenta a Lei 8.080/1990, define a Região de Saúde como espaço geográfico contínuo de municípios limítrofes que deve conter, no mínimo, ações e serviços de atenção primária, urgência e emergência, atenção psicossocial, atenção ambulatorial especializada e hospitalar, e vigilância em saúde. A pactuação entre gestores ocorre na Comissão Intergestores Regional, e as referências são organizadas em redes de atenção, com a atenção primária como porta de entrada ordenadora.",
   "porAlt": [
-   "A universalidade garante acesso, mas o percurso segue as portas de entrada e a pactuação regional definidas em norma.",
-   "O encaminhamento segue fluxo pactuado; não é decisão isolada do profissional, que atua dentro da rede organizada.",
-   "Não existe fila única nacional gerida pelo Ministério: a regulação é pactuada em âmbito regional e estadual.",
-   "O plano municipal existe, mas é justamente a pactuação intermunicipal que viabiliza o acesso ao que falta no município.",
-   "Correta: as referências regionais são pactuadas entre gestores e formalizadas no contrato organizativo da ação pública."
+   "A região precisa de mais do que atenção primária e vigilância.",
+   "Alta complexidade e transplantes não são exigência mínima de cada região.",
+   "Hospital de ensino não é requisito.",
+   "O decreto exige atenção primária, urgência e emergência, atenção psicossocial, atenção especializada e hospitalar, e vigilância em saúde.",
+   "A região existe justamente para garantir o que o município isolado não oferece."
   ]
  },
  {
@@ -7704,27 +7704,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Durante o plantão, um paciente de 47 anos recusa internação apesar de indicação clínica clara, dizendo que precisa trabalhar. Está lúcido, orientado e compreende os riscos que lhe foram explicados. Qual é a conduta correta do médico?",
+  "q": "Homem de 47 anos, pedreiro, tem celulite extensa na perna esquerda com febre de 38,2 °C, sem sinais de sepse (pressão arterial 128/80 mmHg, lactato 1,4 mmol/L), e tem indicação de antibiótico endovenoso com internação. Está lúcido, orientado e repete com as próprias palavras os riscos explicados, mas recusa internar porque precisa trabalhar para sustentar a família. Não há iminente risco de morte. Mora a 3 km do hospital e tem telefone. Qual é a conduta?",
   "alts": [
-   "Internar compulsoriamente com apoio da segurança, pois a indicação clínica prevalece sobre a vontade.",
-   "Registrar a recusa esclarecida em prontuário, oferecendo alternativas e mantendo a porta aberta.",
-   "Chamar a polícia para levar o paciente à internação, procedimento previsto na recusa de tratamento.",
-   "Encerrar o atendimento e negar qualquer assistência futura, já que ele recusou a conduta indicada.",
-   "Solicitar autorização de um familiar para internar, o que supre a recusa manifestada pelo paciente."
+   "Internar contra a vontade pelo risco de complicação",
+   "Chamar a polícia para garantir a internação",
+   "Dar alta sem prescrição, pois recusou o tratamento",
+   "Exigir assinatura de termo e encerrar o atendimento",
+   "Respeitar a recusa, registrar e oferecer alternativa oral"
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "sus",
   "cenario": "emg",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018. Autonomia do paciente e registro da recusa",
-  "coment": "Paciente adulto, lúcido e capaz tem direito de recusar internação, mesmo com indicação clínica. O papel do médico é assegurar que a decisão seja informada (explicar o quadro, os riscos concretos da recusa e as alternativas possíveis), registrar tudo em prontuário de forma detalhada e oferecer plano alternativo com orientação de retorno. A internação involuntária tem hipóteses específicas e restritas, e não se aplica ao paciente capaz que discorda. Familiar não supre a vontade de adulto capaz, e negar assistência futura configura abandono.",
+  "nivel": "r2",
+  "base": "Código de Ética Médica, Resolução CFM n. 2.217, 2018; Conselho Federal de Medicina, Resolução n. 2.232, 2019",
+  "coment": "O Código de Ética Médica (artigos 22, 24 e 31) veda ao médico desrespeitar o direito do paciente de decidir livremente sobre práticas diagnósticas e terapêuticas, salvo em iminente risco de morte. Diante da recusa de adulto capaz e bem informado, a conduta é registrar o esclarecimento e a decisão, oferecer a melhor alternativa possível (aqui, antibiótico oral com reavaliação precoce) e manter a porta aberta para retorno. A Resolução CFM 2.232/2019 regula a recusa terapêutica.",
   "porAlt": [
-   "A indicação clínica não autoriza internar à força paciente capaz; isso configuraria constrangimento ilegal.",
-   "Correta: registrar a recusa esclarecida, oferecer alternativas e manter a porta aberta é o que a ética e a boa prática exigem.",
-   "O acionamento policial não é procedimento para recusa de tratamento por paciente adulto lúcido e capaz.",
-   "Negar assistência futura por discordância configura abandono e é vedado pelo Código de Ética Médica.",
-   "A autorização de familiar não substitui a vontade de adulto capaz, que decide sobre o próprio corpo."
+   "Internar adulto capaz contra a vontade, sem risco iminente de morte, fere a autonomia.",
+   "Não há base legal para coerção nesse caso.",
+   "Recusar a internação não retira o direito ao melhor tratamento possível fora dela.",
+   "Termo de recusa não substitui o cuidado nem encerra a responsabilidade médica.",
+   "Adulto capaz e esclarecido, sem risco iminente de morte: respeitar, registrar, prescrever antibiótico oral e garantir retorno."
   ]
  },
  {
@@ -8664,27 +8664,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Um residente pergunta ao preceptor qual a diferença entre ortotanásia e eutanásia, diante de um paciente terminal em que se discute suspender a ventilação mecânica mantendo conforto. Qual é a resposta correta?",
+  "q": "Homem de 67 anos com câncer de pulmão metastático, em cuidados paliativos exclusivos e com expectativa de vida de dias, tem dispneia intensa e agitação refratárias a morfina em doses crescentes, benzodiazepínico, oxigênio e ventilador portátil. Em momento de lucidez, junto com a esposa, pediu para não sofrer no fim. A equipe discute sedação, e um residente pergunta se isso seria eutanásia. A família está presente e em acordo. Qual é a resposta correta?",
   "alts": [
-   "Ortotanásia é não prolongar artificialmente o morrer e é lícita; eutanásia é provocar a morte e é ilegal.",
-   "São sinônimos na prática médica atual e ambas permanecem vedadas pela legislação brasileira vigente.",
-   "Ortotanásia é a antecipação da morte a pedido do paciente, prevista em resolução do conselho federal.",
-   "Eutanásia é a suspensão de suporte artificial, permitida quando há consentimento expresso da família.",
-   "Ambas são permitidas desde que registradas em prontuário e assinadas por dois médicos assistentes do caso."
+   "É eutanásia, vedada pelo Código de Ética Médica",
+   "Sedação paliativa proporcional a sintoma refratário é lícita",
+   "É permitida só com autorização judicial",
+   "É distanásia, por prolongar o processo de morrer",
+   "É lícita apenas com dose que abrevie a vida"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Resolução CFM nº 1.805/2006 (ortotanásia) e Código de Ética Médica, Resolução CFM nº 2.217/2018",
-  "coment": "Ortotanásia é permitir que a morte ocorra no seu tempo, sem prolongar artificialmente o processo de morrer: suspender ou não iniciar tratamento fútil, mantendo todo o cuidado de conforto. É lícita e amparada por resolução do Conselho Federal de Medicina. Eutanásia é o ato de provocar a morte para aliviar sofrimento, e é ilegal no Brasil. Distanásia é o oposto da ortotanásia, prolongar o morrer com tratamentos que apenas adiam a morte e aumentam o sofrimento, e deve ser evitada. A sedação paliativa, que reduz a consciência de forma proporcional para aliviar sintoma refratário, é lícita porque a intenção é aliviar, não abreviar.",
+  "base": "Academia Nacional de Cuidados Paliativos, Manual de Cuidados Paliativos, 2ª edição, 2012; European Association for Palliative Care framework for the use of sedation in palliative care, 2009",
+  "coment": "Sedação paliativa é a redução intencional do nível de consciência, com fármacos titulados até o alívio de sintoma refratário (dispneia, delirium, dor) em paciente com doença avançada e morte próxima, com consentimento do paciente ou representante. Difere da eutanásia pela intenção (aliviar, não matar), pela dose proporcional e pelo desfecho: estudos não mostram abreviação da sobrevida. Eutanásia é crime no Brasil; ortotanásia e sedação paliativa são práticas éticas.",
   "porAlt": [
-   "Correta: ortotanásia é não prolongar artificialmente o morrer, sendo lícita; eutanásia é provocar a morte, e é ilegal.",
-   "Não são sinônimos, e a ortotanásia é expressamente amparada por resolução do Conselho Federal de Medicina.",
-   "Antecipar a morte a pedido do paciente corresponde a suicídio assistido ou eutanásia, e não à ortotanásia.",
-   "Suspender suporte artificial fútil mantendo conforto é ortotanásia, e não eutanásia, ainda que haja consentimento.",
-   "A eutanásia permanece ilegal no país independentemente de registro em prontuário ou de número de assinaturas."
+   "A intenção da sedação paliativa é aliviar sintoma refratário, não causar a morte.",
+   "Sedação titulada ao alívio de sintoma refratário em fim de vida, com consentimento, é prática ética distinta da eutanásia.",
+   "Não há exigência de autorização judicial.",
+   "Distanásia é prolongar o morrer com tratamentos fúteis, o oposto disso.",
+   "Dose com intenção de abreviar a vida seria eutanásia."
   ]
  },
  {
@@ -10608,243 +10608,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Uma equipe de saúde da família identifica surto de diarreia em um bairro. Qual é a conduta inicial de vigilância que compete a essa equipe?",
+  "q": "Enfermeira de 42 anos da equipe de Saúde da Família percebe que, em 36 horas, 18 moradores de um bairro, de 4 a 70 anos, procuraram a unidade com diarreia aguda e vômitos, todos após uma festa comunitária no sábado. Nenhum tem sinais de choque, e 2 idosos estão desidratados. A médica da equipe pergunta qual é a conduta de vigilância que cabe à unidade além de tratar os doentes. Qual é a resposta correta?",
   "alts": [
-   "Tratar apenas os casos individualmente, sem qualquer comunicação à vigilância epidemiológica.",
-   "Notificar sempre o caso e investigar a fonte comum, articulando com a vigilância municipal.",
-   "Aguardar dez casos confirmados por laboratório antes de qualquer notificação às autoridades.",
-   "Encaminhar todos os pacientes ao hospital terciário, encerrando ali a atuação da equipe local.",
-   "Solicitar coprocultura de toda a população do bairro antes de notificar o evento à vigilância."
+   "Tratar os casos e notificar só se houver óbito",
+   "Aguardar coprocultura positiva para notificar",
+   "Notificar o surto de imediato e colher amostras",
+   "Notificar apenas os 2 idosos desidratados",
+   "Orientar isolamento domiciliar sem comunicar a vigilância"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, 2024; Lei nº 8.080/1990",
-  "coment": "A vigilância epidemiológica é atribuição de todos os níveis do sistema, e a atenção primária é a porta que detecta o evento. Diante de surto, a equipe notifica de imediato, surto é evento de notificação compulsória imediata, e inicia investigação de fonte comum, com busca ativa de casos, coleta de amostras conforme orientação e medidas de controle, como orientação sobre água e alimentos. Não se espera confirmação laboratorial para notificar.",
+  "base": "Ministério da Saúde, Portaria de Consolidação n. 4, 2017, e atualizações; Manual Integrado de Vigilância, Prevenção e Controle de Doenças Transmitidas por Alimentos, 2010",
+  "coment": "Pela lista nacional de notificação compulsória (Portaria de Consolidação n. 4/2017 e atualizações), surtos, incluindo os de doenças transmitidas por alimentos, são de notificação imediata, em até 24 horas, à vigilância municipal, sem esperar confirmação laboratorial. Cabe à equipe notificar, colher amostras clínicas, identificar os expostos, preservar restos de alimentos quando possível e apoiar a investigação da fonte comum, além de tratar os doentes.",
   "porAlt": [
-   "Tratar sem notificar impede a resposta coletiva e permite que a fonte permaneça ativa no território.",
-   "Correta: notificar de imediato e investigar a fonte comum, articulando com a vigilância municipal.",
-   "A notificação de surto é imediata e não depende de número mínimo de casos confirmados.",
-   "Encaminhar todos ao terciário sobrecarrega a rede e não interrompe a transmissão no território.",
-   "Rastrear toda a população antes de notificar atrasa a resposta e é operacionalmente inviável."
+   "Surto é de notificação imediata, independentemente de óbito.",
+   "A notificação de surto não depende de confirmação laboratorial.",
+   "Surto de doença transmitida por alimento: notificação imediata, coleta de amostras e investigação da fonte comum.",
+   "O surto é notificado como evento coletivo.",
+   "A vigilância precisa ser acionada para investigar e interromper a transmissão."
   ]
  },
  {
-  "q": "Um gestor municipal quer organizar o cuidado de pessoas com hipertensão e diabetes na atenção primária. Qual estratégia corresponde às diretrizes da política nacional?",
+  "q": "Secretário municipal de saúde de 51 anos planeja expandir a Estratégia Saúde da Família em um município de 42.000 habitantes, com áreas de alta vulnerabilidade social e 6 equipes atuais. Ele pergunta à coordenadora da atenção primária qual é, pela Política Nacional de Atenção Básica de 2017, a população recomendada por equipe de Saúde da Família, para calcular quantas equipes serão necessárias. A cobertura atual é de cerca de 50%. Qual é a resposta correta?",
   "alts": [
-   "Adscrever sempre a população, estratificar risco e definir plano de cuidado com equipe multiprofissional.",
-   "Ampliar apenas o número de consultas médicas, sem qualquer participação da equipe multiprofissional.",
-   "Encaminhar todos os pacientes crônicos ao especialista focal, esvaziando a atenção primária local agora.",
-   "Concentrar a assistência nas unidades de pronto atendimento, que absorvem melhor a demanda espontânea.",
-   "Restringir o cuidado à dispensação de medicamentos, dispensando consultas e acompanhamento longitudinal."
+   "De 2.000 a 3.500 pessoas por equipe",
+   "Até 1.000 pessoas por equipe",
+   "De 4.000 a 6.000 pessoas por equipe",
+   "Até 12.000 pessoas por equipe",
+   "Não há parâmetro populacional na política"
   ],
   "gab": 0,
   "tema": "sus",
   "cenario": "amb",
-  "comp": "prev",
+  "comp": "dx",
   "nivel": "r2",
-  "base": "Portaria GM/MS nº 2.436/2017, Política Nacional de Atenção Básica",
-  "coment": "A Política Nacional de Atenção Básica estrutura o cuidado sobre território definido e população adscrita, com equipe multiprofissional, longitudinalidade, coordenação do cuidado e responsabilidade sanitária. Para condições crônicas, isso se traduz em conhecer a população, estratificar risco, construir plano de cuidado individual com metas pactuadas, apoiar autocuidado e reservar o especialista para apoio matricial e casos complexos.",
+  "base": "Ministério da Saúde, Portaria n. 2.436, de 21 de setembro de 2017 (Política Nacional de Atenção Básica)",
+  "coment": "A Política Nacional de Atenção Básica (Portaria n. 2.436/2017) recomenda população adscrita de 2.000 a 3.500 pessoas por equipe de Saúde da Família, admitindo número menor conforme vulnerabilidade, riscos e dinâmica do território. A equipe mínima tem médico, enfermeiro, auxiliar ou técnico de enfermagem e agentes comunitários de saúde. Os atributos da atenção primária (primeiro contato, longitudinalidade, integralidade e coordenação) dependem de população adscrita compatível.",
   "porAlt": [
-   "Correta: população adscrita, estratificação de risco e plano de cuidado multiprofissional são o núcleo da política.",
-   "Ampliar só consultas médicas ignora o trabalho em equipe, que é estruturante na atenção básica.",
-   "Encaminhar todos ao especialista desorganiza a rede e retira da primária a coordenação do cuidado.",
-   "O pronto atendimento trata a descompensação e não substitui o cuidado longitudinal da condição crônica.",
-   "Dispensar medicamento sem acompanhamento não produz controle e desperdiça o recurso investido."
+   "A PNAB 2017 recomenda de 2.000 a 3.500 pessoas por equipe, com número menor em territórios vulneráveis.",
+   "Esse número está abaixo do parâmetro da política.",
+   "Esse número excede o recomendado.",
+   "Esse número inviabiliza vínculo e longitudinalidade.",
+   "A política define parâmetro populacional por equipe."
   ]
  },
  {
-  "q": "Um paciente relata que foi atendido em um serviço e recebeu diagnóstico sem que lhe explicassem os riscos do procedimento proposto, tendo assinado um documento que não leu. Que princípio ético foi violado?",
+  "q": "Mulher de 62 anos procura a ouvidoria do hospital. Relata que fez colonoscopia com polipectomia e teve perfuração intestinal, que exigiu cirurgia. Diz que ninguém lhe explicou os riscos antes do exame e que assinou um formulário na recepção, sem ler, minutos antes da sedação. No prontuário não há registro de conversa sobre riscos, benefícios e alternativas. O médico que fez o exame diz que o termo assinado é suficiente. Qual preceito ético foi desrespeitado?",
   "alts": [
-   "A justiça distributiva, princípio que rege a alocação equitativa de recursos escassos em saúde.",
-   "A autonomia, exercida sempre pelo consentimento livre e esclarecido antes do procedimento.",
-   "A não maleficência, que se refere exclusivamente ao dever de não causar dano intencional.",
-   "A beneficência, princípio segundo o qual o médico deve sempre decidir sozinho pelo paciente.",
-   "O sigilo profissional, que impede o compartilhamento de informações clínicas sem autorização."
+   "Sigilo profissional",
+   "Publicidade médica",
+   "Relação com colegas",
+   "Consentimento livre e esclarecido",
+   "Direito a segunda opinião"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; princípios da bioética",
-  "coment": "O consentimento livre e esclarecido é a expressão prática do princípio da autonomia: o paciente precisa compreender o procedimento, os riscos, os benefícios e as alternativas, incluindo a de não tratar, antes de decidir. Assinatura sem compreensão não configura consentimento válido. Os quatro princípios da bioética são autonomia, beneficência, não maleficência e justiça, e o sigilo é dever ético distinto, ligado à privacidade.",
+  "base": "Código de Ética Médica, Resolução CFM n. 2.217, 2018; Recomendação CFM n. 1, 2016, sobre consentimento livre e esclarecido",
+  "coment": "O Código de Ética Médica veda deixar de obter consentimento do paciente ou de seu representante após esclarecê-lo sobre o procedimento, salvo em risco iminente de morte (artigo 22), e deixar de informar diagnóstico, prognóstico, riscos e objetivos do tratamento (artigo 34). Consentimento é um processo de comunicação, com linguagem acessível, tempo para decidir e registro; o termo assinado apenas documenta esse processo e não o substitui.",
   "porAlt": [
-   "A justiça distributiva trata da alocação equitativa de recursos, e não do processo de consentimento.",
-   "Correta: o consentimento livre e esclarecido expressa a autonomia, violada quando não há compreensão real.",
-   "A não maleficência trata de evitar dano, e não do direito de decidir sobre o próprio tratamento.",
-   "A beneficência é agir no melhor interesse do paciente, o que não autoriza decidir sozinho por ele.",
-   "O sigilo protege a informação do paciente e não se refere ao processo de consentimento informado."
+   "Não houve revelação indevida de informação.",
+   "Não se trata de publicidade.",
+   "Não se trata de conduta entre médicos.",
+   "Assinar um formulário sem explicação não é consentimento: é preciso compreender riscos, benefícios e alternativas, com registro.",
+   "Não houve negativa de segunda opinião."
   ]
  },
  {
-  "q": "Uma equipe recebe paciente em situação de rua, sem documentos e sem cartão do sistema. Qual é a conduta correta?",
+  "q": "Homem de 44 anos em situação de rua chega à unidade básica com tosse produtiva há 5 semanas, febre vespertina e perda de 8 kg. Não tem documentos, comprovante de endereço nem cartão do SUS. A recepcionista diz que ele só pode ser atendido na unidade de referência de um endereço e com documento. Há uma equipe de Consultório na Rua no município. Está sem febre agora e aceita ser atendido. Qual é a conduta correta?",
   "alts": [
-   "Atender sempre, pois a universalidade garante acesso independentemente de documento ou cadastro.",
-   "Encaminhar para regularizar documentação antes de qualquer atendimento clínico ser realizado.",
-   "Atender apenas em caso de risco iminente de morte, negando atendimento nas demais situações.",
-   "Cobrar o atendimento particular, já que o paciente não apresenta comprovação de vínculo com o sistema.",
-   "Encaminhar diretamente para serviço filantrópico, pois a rede pública não cobre esse perfil de usuário."
-  ],
-  "gab": 0,
-  "tema": "sus",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Lei nº 8.080/1990, artigos 2º e 7º, universalidade e integralidade; Política Nacional para População em Situação de Rua",
-  "coment": "A universalidade é princípio constitucional e legal do sistema: a saúde é direito de todos e dever do Estado, sem exigência de documento, cadastro ou comprovação de residência como condição de acesso. Para população em situação de rua há política específica, com equipes de consultório na rua e articulação intersetorial. Negar atendimento por ausência de documento configura violação de direito e infração ética.",
-  "porAlt": [
-   "Correta: a universalidade garante o acesso independentemente de documentação ou de cadastro prévio.",
-   "Condicionar atendimento à documentação nega um direito constitucional e configura infração ética.",
-   "Restringir a risco de morte iminente contraria a integralidade e a universalidade do sistema.",
-   "Cobrar atendimento em serviço público viola a gratuidade garantida pela legislação vigente.",
-   "A rede pública tem política específica para essa população, com equipes de consultório na rua."
-  ]
- },
- {
-  "q": "Durante um plantão, um médico é procurado por familiar que pede informações clínicas sobre paciente adulto, lúcido, que não autorizou o compartilhamento. Qual é a conduta correta?",
-  "alts": [
-   "Manter sempre o sigilo, informando apenas com autorização expressa do próprio paciente agora.",
-   "Informar livremente, pois o vínculo familiar dispensa qualquer autorização do paciente adulto.",
-   "Informar apenas o diagnóstico principal, sem detalhes, o que não configura quebra de sigilo.",
-   "Registrar em prontuário e informar tudo, já que o registro documental autoriza o compartilhamento.",
-   "Informar somente se o familiar for cônjuge, único caso em que o sigilo pode ser dispensado."
-  ],
-  "gab": 0,
-  "tema": "sus",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, capítulo IX. Sigilo profissional",
-  "coment": "O sigilo profissional é dever do médico e direito do paciente, e só é rompido por justa causa, dever legal ou autorização expressa do próprio paciente. Vínculo familiar não autoriza acesso: o paciente adulto e capaz decide quem recebe suas informações. Informar apenas parte também configura quebra. As exceções legais incluem notificação compulsória de doenças e situações previstas em lei, sempre restritas ao mínimo necessário.",
-  "porAlt": [
-   "Correta: o sigilo só se rompe por justa causa, dever legal ou autorização expressa do paciente.",
-   "Vínculo familiar não autoriza acesso à informação de paciente adulto, lúcido e capaz.",
-   "Informar parcialmente também é quebra de sigilo, mesmo que apenas o diagnóstico seja revelado.",
-   "Registrar em prontuário é dever, mas não autoriza compartilhar a informação com terceiros.",
-   "Nem o cônjuge tem direito automático à informação sem autorização do próprio paciente."
-  ]
- },
- {
-  "q": "Um serviço de urgência precisa organizar o atendimento diante de grande demanda simultânea. Qual é o instrumento que ordena o atendimento por gravidade?",
-  "alts": [
-   "A classificação de risco, que ordena sempre o atendimento pela gravidade e não pela ordem de chegada.",
-   "A ordem estrita de chegada, critério mais justo e recomendado pelas políticas nacionais de urgência.",
-   "A ordem alfabética dos usuários cadastrados, que evita qualquer viés na priorização do atendimento.",
-   "A escolha do próprio paciente sobre a urgência do seu caso, que define a prioridade do atendimento.",
-   "O critério de idade isolado, priorizando sempre os mais idosos independentemente da gravidade agora."
-  ],
-  "gab": 0,
-  "tema": "sus",
-  "cenario": "emg",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Ministério da Saúde. Acolhimento com Classificação de Risco, 2009; Portaria GM/MS nº 1.600/2011 (Rede de Atenção às Urgências)",
-  "coment": "O acolhimento com classificação de risco é diretriz da Política Nacional de Humanização e da rede de urgência: todo usuário é acolhido e avaliado quanto à gravidade, e o atendimento é ordenado por prioridade clínica, não por ordem de chegada. Protocolos estruturados atribuem cores ou níveis conforme risco. A ordem de chegada permanece apenas para desempatar dentro de uma mesma categoria de risco.",
-  "porAlt": [
-   "Correta: a classificação de risco ordena o atendimento por gravidade, e não pela ordem de chegada.",
-   "A ordem de chegada faz o paciente grave esperar atrás de casos leves, com desfechos evitáveis.",
-   "Ordem alfabética não guarda relação alguma com gravidade clínica nem com necessidade de cuidado.",
-   "A percepção do próprio paciente é importante no acolhimento, mas não substitui a avaliação técnica.",
-   "A idade é um dos elementos da avaliação, mas isolada não ordena o atendimento por gravidade."
-  ]
- },
- {
-  "q": "Um médico atende paciente que sofreu acidente de trabalho com afastamento previsto de dez dias. Qual é a conduta obrigatória além do atendimento clínico?",
-  "alts": [
-   "Emitir sempre a comunicação de acidente de trabalho e notificar conforme a vigilância exige.",
-   "Apenas prescrever o afastamento, sem qualquer comunicação a órgãos de vigilância ou previdência.",
-   "Encaminhar o paciente ao setor jurídico da empresa antes de qualquer registro do atendimento.",
-   "Aguardar que o empregador solicite documentação antes de emitir qualquer comunicação oficial.",
-   "Registrar somente em prontuário, sem qualquer documento externo relacionado ao acidente ocorrido."
-  ],
-  "gab": 0,
-  "tema": "sus",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "Ministério da Saúde, Guia de Vigilância em Saúde, 2024, e legislação previdenciária sobre acidente de trabalho",
-  "coment": "Acidente de trabalho grave ou com afastamento tem dois deveres associados: a comunicação de acidente de trabalho, documento previdenciário que garante direitos ao trabalhador, e a notificação em vigilância epidemiológica, já que agravos relacionados ao trabalho integram a lista de notificação. O médico assistente pode emitir a comunicação, e a omissão prejudica direitos do trabalhador e apaga o dado epidemiológico que orienta a prevenção.",
-  "porAlt": [
-   "Correta: emitir a comunicação de acidente de trabalho e notificar à vigilância são deveres associados.",
-   "Apenas afastar sem comunicar priva o trabalhador de direitos previdenciários que dependem do documento.",
-   "Encaminhar ao setor jurídico da empresa não substitui o dever do médico assistente de comunicar.",
-   "Aguardar a empresa solicitar inverte a responsabilidade e atrasa o reconhecimento do agravo.",
-   "O registro em prontuário é necessário mas não substitui a comunicação e a notificação obrigatórias."
-  ]
- },
- {
-  "q": "Um gestor deseja avaliar o desempenho da atenção primária no controle de condições sensíveis. Qual indicador é apropriado?",
-  "alts": [
-   "Número absoluto de consultas médicas realizadas, indicador que mede diretamente a qualidade do cuidado.",
-   "Internações por condições sensíveis à atenção primária, que refletem sempre a efetividade do cuidado.",
-   "Quantidade de exames laboratoriais solicitados, já cujo aumento indica melhor desempenho assistencial.",
-   "Total de encaminhamentos ao especialista, cujo crescimento demonstra melhor coordenação do cuidado.",
-   "Número de medicamentos dispensados por mês, indicador direto do controle das condições crônicas."
+   "Providenciar documentos antes de atender",
+   "Atender e investigar tuberculose já",
+   "Orientar procura ao pronto-socorro",
+   "Atender só com cartão do SUS em 7 dias",
+   "Registrar endereço falso para permitir a consulta"
   ],
   "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
-  "nivel": "r3",
-  "base": "Ministério da Saúde, lista brasileira de internações por condições sensíveis à atenção primária, Portaria nº 221/2008",
-  "coment": "As internações por condições sensíveis à atenção primária compõem indicador consagrado de efetividade do primeiro nível de atenção: são internações que poderiam ser evitadas por acesso oportuno e cuidado adequado, como as por asma, insuficiência cardíaca, diabetes descompensado, infecção urinária e pneumonia. Sua redução sugere melhor desempenho da rede básica. Volume de consultas, exames, encaminhamentos e medicamentos mede atividade, não resultado.",
+  "nivel": "r1",
+  "base": "Lei n. 8.080, 1990; Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019",
+  "coment": "A universalidade do SUS (Lei 8.080/1990) garante atendimento independentemente de documento, endereço ou cartão, e a população em situação de rua pode ser cadastrada sem comprovante de residência. Tosse por 3 semanas ou mais define sintomático respiratório; nessa população, o rastreio vale com qualquer duração de tosse, e teste rápido molecular e baciloscopia devem ser colhidos já. As equipes de Consultório na Rua fazem cuidado itinerante e ajudam na adesão ao tratamento.",
   "porAlt": [
-   "O número de consultas mede produção e volume de atividade, sem informar sobre resultado alcançado.",
-   "Correta: internações por condições sensíveis à atenção primária medem efetividade do cuidado no primeiro nível.",
-   "Mais exames podem indicar excesso de solicitação, e não melhor qualidade do cuidado prestado.",
-   "Mais encaminhamentos podem indicar menor resolutividade da atenção primária, e não mais coordenação.",
-   "Volume de medicamentos dispensados não informa sobre adesão nem sobre controle da condição crônica."
+   "Documento não é condição para atendimento no SUS.",
+   "Universalidade: atender sem exigir documento, investigar tuberculose e vincular ao Consultório na Rua.",
+   "O caso é de atenção primária e de vigilância, não de pronto-socorro.",
+   "Condicionar o atendimento ao cartão fere a universalidade.",
+   "Registro falso é infração; o cadastro pode ser feito sem endereço fixo."
   ]
  },
  {
-  "q": "Uma paciente de 16 anos procura a unidade sozinha solicitando contracepção. Qual é a conduta correta do ponto de vista ético e legal?",
+  "q": "Homem de 32 anos recebe diagnóstico de infecção pelo HIV na unidade básica. É casado, tem relações sem preservativo com a esposa, também atendida pela mesma equipe, e diz que não vai contar a ela nem usar preservativo. Em três consultas ao longo de 6 semanas, a equipe ofereceu apoio psicológico, testagem da parceira, PrEP e ajuda para a revelação, sem mudança. O paciente mantém as consultas regularmente. Qual é a conduta ética?",
   "alts": [
-   "Atender sempre e prescrever, respeitando o sigilo e a capacidade de discernimento da adolescente.",
-   "Exigir a presença dos pais como condição obrigatória para qualquer atendimento e prescrição agora.",
-   "Recusar o atendimento e encaminhar ao conselho tutelar, por se tratar de paciente menor de idade.",
-   "Atender mas comunicar obrigatoriamente os pais sobre a prescrição contraceptiva realizada hoje.",
-   "Prescrever apenas método de barreira, único autorizado para adolescentes sem acompanhante presente."
+   "Manter o sigilo em qualquer situação",
+   "Informar a esposa sem antes tentar convencê-lo",
+   "Comunicar a parceira por justa causa, avisando-o",
+   "Notificar a polícia pela exposição",
+   "Recusar-se a continuar o acompanhamento dele"
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Código de Ética Médica, Resolução CFM n. 2.217, 2018, artigo 73; Ministério da Saúde, PCDT para Manejo da Infecção pelo HIV em Adultos, 2024",
+  "coment": "O Código de Ética Médica (artigo 73) veda revelar fato conhecido no exercício da profissão, salvo por motivo justo, dever legal ou consentimento escrito do paciente. Pareceres do CFM admitem que, diante de risco real a terceiro identificado, como a parceria sexual exposta ao HIV, e de recusa persistente após aconselhamento, a comunicação à pessoa exposta configura justa causa, feita com o mínimo de informação necessária, após avisar o paciente e com registro em prontuário. A notificação à vigilância é obrigatória e sigilosa.",
+  "porAlt": [
+   "O sigilo pode ser quebrado por justa causa quando há risco concreto a terceiro identificado.",
+   "A comunicação só se justifica após tentativas reais de obter a revelação pelo próprio paciente.",
+   "Risco grave à parceira e recusa persistente após aconselhamento: comunicar por justa causa, avisando o paciente e registrando.",
+   "A notificação do HIV é à vigilância, não à autoridade policial.",
+   "Abandonar o acompanhamento fere o dever de assistência."
+  ]
+ },
+ {
+  "q": "Homem de 56 anos chega a uma unidade de pronto atendimento com dor torácica em aperto iniciada há 40 minutos, sudorese e dor de intensidade 7/10. Pressão arterial 150/92 mmHg, frequência 96 bpm, saturação 96%. Há 32 pessoas aguardando atendimento. A enfermeira aplica o Protocolo de Manchester na classificação de risco. Não tem história de doença coronária conhecida. Qual é a cor esperada e o tempo-alvo para o primeiro atendimento médico?",
+  "alts": [
+   "Laranja, em até 10 minutos",
+   "Amarelo, em até 60 minutos",
+   "Verde, em até 120 minutos",
+   "Vermelho, só se houver parada cardíaca",
+   "Azul, por ordem de chegada"
   ],
   "gab": 0,
   "tema": "sus",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "Resolução CFM nº 2.217/2018 e Estatuto da Criança e do Adolescente. Atendimento e sigilo do adolescente",
-  "coment": "O adolescente tem direito ao atendimento e ao sigilo, e a presença dos pais não é condição para o atendimento quando ele tem capacidade de discernimento sobre o próprio cuidado. O sigilo é rompido apenas diante de risco à vida ou à saúde, ou em situações de violência, com comunicação feita da forma menos danosa possível. Negar contracepção a adolescente que a procura aumenta gestação não planejada e infecções sexualmente transmissíveis.",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Grupo Brasileiro de Classificação de Risco, Protocolo de Manchester, 2ª edição; Ministério da Saúde, Acolhimento e classificação de risco nos serviços de urgência, 2009",
+  "coment": "O Protocolo de Manchester classifica o risco em cinco cores com tempos-alvo: vermelho (emergência, imediato), laranja (muito urgente, 10 minutos), amarelo (urgente, 60 minutos), verde (pouco urgente, 120 minutos) e azul (não urgente, 240 minutos). Dor precordial é discriminador de laranja. A classificação de risco, prevista na Política Nacional de Humanização e na Rede de Urgência e Emergência, ordena o atendimento pela gravidade, e não pela ordem de chegada; a suspeita de síndrome coronariana exige eletrocardiograma em até 10 minutos.",
   "porAlt": [
-   "Correta: o adolescente com discernimento tem direito ao atendimento e ao sigilo, incluindo contracepção.",
-   "Exigir a presença dos pais como condição afasta o adolescente do serviço e nega um direito reconhecido.",
-   "Encaminhar ao conselho tutelar por procurar contracepção não tem respaldo legal nem ético.",
-   "Comunicar os pais sem necessidade quebra o sigilo e rompe o vínculo com o serviço de saúde.",
-   "Não há restrição do método pela idade; a escolha considera perfil clínico e preferência informada."
+   "Dor torácica sugestiva de síndrome coronariana é discriminador de laranja: atendimento em até 10 minutos e eletrocardiograma imediato.",
+   "Amarelo subestima a gravidade da dor torácica típica.",
+   "Verde é pouco urgente.",
+   "Vermelho é emergência com risco imediato, como via aérea comprometida ou choque, não apenas parada.",
+   "Azul é não urgente."
   ]
  },
  {
-  "q": "Uma equipe percebe que muitos pacientes com tuberculose abandonam o tratamento. Qual estratégia tem melhor evidência para reduzir o abandono?",
+  "q": "Homem de 29 anos, empregado com carteira assinada em uma construtora, é atendido na unidade básica com fratura de rádio distal após queda de andaime no trabalho, há 2 horas. Após imobilização e encaminhamento ao ortopedista, o afastamento previsto é de 45 dias. O empregador informou que não vai emitir comunicação do acidente. O paciente pergunta se o médico pode fazer algo. Qual é a conduta correta além do atendimento?",
   "alts": [
-   "Aumentar a dose dos medicamentos, já reduzindo o tempo de tratamento e o risco de abandono.",
-   "Entregar toda a medicação de uma vez e reavaliar apenas ao fim dos seis meses de esquema.",
-   "Encaminhar todos os casos ao serviço terciário, retirando o acompanhamento da atenção primária.",
-   "Tratamento diretamente observado, sempre associado a apoio social e vínculo com a equipe.",
-   "Substituir o esquema padrão por antibiótico de amplo espectro, mais simples e melhor tolerado."
+   "Nada, pois a comunicação é exclusiva da empresa",
+   "Atestado de 15 dias apenas",
+   "Registrar como acidente doméstico",
+   "O médico pode emitir a CAT",
+   "Encaminhar à polícia para boletim de ocorrência"
   ],
   "gab": 3,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019",
-  "coment": "O tratamento diretamente observado é a estratégia central para reduzir abandono e evitar resistência: um profissional ou pessoa treinada observa a tomada da medicação, criando vínculo e permitindo detectar precocemente efeitos adversos e dificuldades sociais. Associa-se a apoio social (transporte, alimentação, acolhimento) porque o abandono tem determinantes sociais fortes. Entregar a medicação sem acompanhamento é o oposto do recomendado.",
+  "base": "Lei n. 8.213, de 24 de julho de 1991, artigo 22; Ministério da Saúde, Portaria de Consolidação n. 4, 2017",
+  "coment": "Todo acidente de trabalho de empregado regido pela CLT deve ser comunicado à Previdência Social pela Comunicação de Acidente de Trabalho (CAT), pela empresa, até o primeiro dia útil seguinte. Na falta de emissão, a Lei 8.213/1991 (artigo 22) permite que o próprio acidentado, seus dependentes, o sindicato, o médico que o assistiu ou qualquer autoridade pública emitam a CAT, sem prazo. Acidentes de trabalho graves, fatais ou com crianças e adolescentes também são de notificação compulsória no SINAN.",
   "porAlt": [
-   "Aumentar dose não reduz o tempo do esquema padronizado e aumenta a toxicidade do tratamento.",
-   "Entregar tudo de uma vez sem acompanhamento é justamente o padrão associado a mais abandono.",
-   "Centralizar no terciário afasta o paciente do território e dificulta o acompanhamento diário.",
-   "Correta: o tratamento diretamente observado, com apoio social e vínculo, é a estratégia de melhor evidência.",
-   "O esquema da tuberculose é padronizado e não pode ser substituído por antibiótico de amplo espectro."
+   "Na omissão do empregador, a CAT pode ser emitida pelo trabalhador, dependentes, sindicato, médico ou autoridade pública.",
+   "O atestado deve refletir o afastamento necessário e não substitui a CAT.",
+   "Registrar causa falsa é infração ética e prejudica os direitos do trabalhador.",
+   "Acidente de trabalho sem CAT emitida pela empresa: o médico que atendeu pode emiti-la.",
+   "Não há indicação de boletim de ocorrência."
+  ]
+ },
+ {
+  "q": "Gestora de 45 anos da atenção primária de um município com 120.000 habitantes compara dois distritos com cobertura semelhante de Saúde da Família. No distrito A houve 1.450 internações por insuficiência cardíaca, diabetes descompensado, asma e gastroenterites em adultos no último ano; no B, 620, com populações parecidas. Ela quer um indicador que reflita a efetividade da atenção primária. Qual é o mais adequado?",
+  "alts": [
+   "Número de consultas médicas por habitante",
+   "Internações por condições sensíveis",
+   "Taxa de ocupação dos leitos hospitalares",
+   "Número de exames de imagem solicitados",
+   "Mortalidade por neoplasias na população"
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "Ministério da Saúde, Portaria SAS/MS n. 221, de 17 de abril de 2008",
+  "coment": "As internações por condições sensíveis à atenção primária são hospitalizações que poderiam ser evitadas com cuidado primário oportuno e efetivo, como complicações de hipertensão, diabetes, asma, gastroenterites e pneumonias bacterianas. A lista brasileira foi publicada na Portaria SAS/MS n. 221/2008. Taxas elevadas, ajustadas pela população, sugerem problemas de acesso, qualidade ou coordenação do cuidado, e o indicador é usado para avaliar e comparar serviços de atenção primária.",
+  "porAlt": [
+   "Volume de consultas mede produção, não efetividade.",
+   "Internações por condições sensíveis caem quando a atenção primária é resolutiva; taxas maiores sugerem falhas de acesso ou qualidade.",
+   "Ocupação hospitalar depende de muitos fatores além da atenção primária.",
+   "Solicitação de exames não mede resultado em saúde.",
+   "Mortalidade por câncer reflete muitos fatores e demora a responder."
+  ]
+ },
+ {
+  "q": "Adolescente de 16 anos procura a unidade básica sozinha pedindo método contraceptivo. Tem vida sexual consentida com o namorado de 17 anos e pede que a mãe não seja informada. Demonstra compreender as informações e as consequências. Não há sinais de violência ou exploração. Exame físico normal, pressão arterial 110/70 mmHg, sem enxaqueca com aura nem outras contraindicações. Não tem problemas de saúde e não usa medicamentos. Qual é a conduta ética e legal?",
+  "alts": [
+   "Exigir a presença de um responsável para prescrever",
+   "Comunicar a mãe, pois é menor de idade",
+   "Notificar o Conselho Tutelar pela atividade sexual",
+   "Recusar o método e orientar abstinência",
+   "Atender, orientar e prescrever, preservando o sigilo"
+  ],
+  "gab": 4,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Código de Ética Médica, Resolução CFM n. 2.217, 2018, artigo 74; Lei n. 8.069/1990 (ECA); Ministério da Saúde, Marco legal: saúde, um direito de adolescentes, 2007",
+  "coment": "O Estatuto da Criança e do Adolescente e as orientações do Ministério da Saúde garantem ao adolescente atendimento com privacidade e sigilo, inclusive sem responsável presente. O Código de Ética Médica (artigo 74) veda revelar segredo de paciente menor de idade, inclusive aos pais, quando ele tem capacidade de discernimento, salvo se a não revelação puder causar dano. Prescrever contracepção a adolescente de 16 anos com vida sexual consentida é conduta correta, com orientação sobre preservativo. Relação sexual com menor de 14 anos, por outro lado, configura estupro de vulnerável.",
+  "porAlt": [
+   "Adolescente com capacidade de discernimento tem direito a atendimento sem acompanhante.",
+   "O Código de Ética Médica veda revelar segredo de menor capaz de avaliar seu problema, salvo risco de dano.",
+   "Atividade sexual consentida aos 16 anos, sem violência, não exige comunicação ao Conselho Tutelar.",
+   "Negar contracepção aumenta o risco de gravidez e fere o direito à saúde sexual.",
+   "Adolescente com discernimento: atendimento com sigilo, orientação sobre dupla proteção e prescrição do método."
+  ]
+ },
+ {
+  "q": "Uma unidade básica acompanha 24 pacientes com tuberculose pulmonar. No último ano, a taxa de abandono foi de 18%, muito acima da meta de 5%. Os abandonos concentram-se em homens de 20 a 45 anos, com uso abusivo de álcool, que trabalham longe da unidade em horário comercial. A enfermeira de 38 anos, responsável pelo programa, propõe mudanças. A unidade tem 4 agentes comunitários de saúde. Qual estratégia tem melhor evidência para reduzir o abandono?",
+  "alts": [
+   "Entregar a medicação de 6 meses na primeira consulta",
+   "Ameaçar notificação policial em caso de abandono",
+   "Tratamento diretamente observado com horários flexíveis",
+   "Consultas médicas mensais sem outro acompanhamento",
+   "Internação compulsória até o fim do esquema"
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição, 2019",
+  "coment": "O Ministério da Saúde recomenda tratamento diretamente observado para os casos de tuberculose, com pelo menos 3 observações semanais na fase intensiva e 2 na de manutenção, flexível quanto ao local (unidade, domicílio, trabalho) e ao supervisor. Somado a incentivos, apoio social, abordagem do uso de álcool e vínculo com a equipe, reduz abandono e resistência. A meta é cura acima de 85% e abandono abaixo de 5%.",
+  "porAlt": [
+   "Entregar todo o tratamento sem acompanhamento aumenta abandono e resistência.",
+   "Coerção piora o vínculo e não tem base legal.",
+   "Tratamento diretamente observado adaptado à rotina do paciente, com incentivos e vínculo, reduz abandono.",
+   "Consulta mensal isolada não enfrenta as barreiras identificadas.",
+   "Internação compulsória não é estratégia de adesão."
   ]
  },
  {
@@ -14208,243 +14208,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Um paciente com tuberculose pulmonar bacilífera se recusa a usar máscara na sala de espera. Qual é a conduta ética e sanitária?",
+  "q": "Homem de 39 anos com tuberculose pulmonar bacilífera (baciloscopia 3+), diagnosticada há 3 dias, retorna à unidade básica e se recusa a usar máscara cirúrgica na sala de espera lotada, dizendo que se sente discriminado. Tosse bastante. A recepcionista quer chamar a segurança para retirá-lo. A unidade tem uma sala arejada com janelas amplas, disponível no momento. Ele iniciou o esquema básico e está tomando os comprimidos. Qual é a conduta ética e sanitária mais adequada?",
   "alts": [
-   "Negar o atendimento até que o paciente concorde integralmente com todas as medidas de proteção exigidas.",
-   "Explicar o risco e negociar medidas de proteção, mantendo sempre o atendimento em ambiente adequado.",
-   "Acionar a polícia para a contenção física imediata do paciente que recusa o uso da máscara cirúrgica.",
-   "Atender normalmente na sala de espera comum, sem qualquer medida adicional de controle da transmissão.",
-   "Internar compulsoriamente todos os pacientes bacilíferos que recusarem o uso de máscara no serviço."
+   "Retirá-lo da unidade e remarcar após 15 dias",
+   "Acolher, explicar e atendê-lo em sala ventilada",
+   "Atendê-lo na sala de espera sem máscara",
+   "Notificar a polícia por risco à saúde pública",
+   "Suspender o tratamento até que aceite a máscara"
   ],
   "gab": 1,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019 com atualização 2023",
-  "coment": "O controle da transmissão da tuberculose combina medidas administrativas, ambientais e de proteção individual: identificar precocemente o sintomático respiratório, priorizar seu atendimento, oferecer máscara cirúrgica ao paciente e mantê-lo em ambiente ventilado e separado. A recusa é abordada com informação e negociação, sem negar assistência, que é direito garantido. Internação compulsória é medida excepcional e nunca a resposta inicial à recusa.",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição, 2019",
+  "coment": "O controle de infecção da tuberculose na atenção primária combina medidas administrativas (identificar e atender rapidamente o bacilífero, reduzir o tempo de espera), ambientais (ambientes ventilados) e de proteção individual (máscara cirúrgica para o paciente e respirador N95 para profissionais em situações de risco). A recusa deve ser abordada com acolhimento e informação, sem estigmatizar e preservando o atendimento. Com 2 a 3 semanas de tratamento eficaz, a transmissibilidade cai de forma importante.",
   "porAlt": [
-   "Negar atendimento viola o direito à saúde e afasta do serviço quem precisa de tratamento supervisionado.",
-   "Correta: informar, negociar proteção e manter o atendimento em ambiente ventilado e adequado.",
-   "A contenção policial não é medida sanitária e destrói o vínculo necessário ao tratamento longo.",
-   "Atender sem medidas expõe outros usuários e trabalhadores a um risco de transmissão evitável.",
-   "A internação compulsória é excepcional, com critérios estritos, e não é resposta inicial à recusa."
+   "Afastá-lo interrompe o cuidado de doença transmissível e fere o direito ao atendimento.",
+   "Explicar sem julgamento, oferecer a máscara e reduzir a exposição de terceiros atendendo em ambiente ventilado.",
+   "Mantê-lo na sala de espera lotada expõe outros pacientes.",
+   "Não há indicação de acionar a polícia.",
+   "Suspender o tratamento aumenta transmissão e resistência."
   ]
  },
  {
-  "q": "Uma equipe precisa organizar a vacinação de adultos na unidade. Qual conjunto compõe o calendário do adulto no Brasil?",
+  "q": "Mulher de 35 anos, auxiliar administrativa, sem comorbidades e sem gestação, comparece à unidade básica sem nenhum registro vacinal e não se lembra de ter sido vacinada. Não tem alergias. Mora em município com recomendação de vacina contra febre amarela. Não tem história de hepatite, e não há sorologias disponíveis. Não é profissional de saúde. Trabalha em escritório e não viajou recentemente. Qual esquema do calendário nacional do adulto deve ser iniciado?",
   "alts": [
-   "Apenas a vacina contra influenza anual, única recomendada para adultos sem comorbidades no país agora.",
-   "Somente vacinas para viajantes internacionais, já sem qualquer esquema de rotina previsto para adultos agora.",
-   "Dupla adulto, hepatite B, febre amarela e tríplice viral conforme sempre a situação vacinal de cada pessoa.",
-   "Apenas a vacina antitetânica em caso de ferimento, sem qualquer esquema regular de reforço programado.",
-   "Somente vacinas para gestantes, pois os demais adultos não têm calendário vacinal definido no Brasil agora."
+   "dT, hepatite B, tríplice viral e febre amarela",
+   "Apenas dT, com reforço a cada 10 anos",
+   "Pneumocócica 23 e herpes-zóster",
+   "HPV e meningocócica ACWY",
+   "Influenza e tríplice viral apenas"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde, Calendário Nacional de Vacinação, 2025",
-  "coment": "O calendário do adulto inclui dupla adulto com reforço a cada dez anos, hepatite B em três doses para quem não tem esquema completo, febre amarela em dose única conforme área de risco e tríplice viral conforme idade e situação vacinal. Acrescentam-se influenza anual para grupos prioritários, pneumocócica e vacinas para gestantes. A avaliação da caderneta é oportunidade em toda consulta, aproveitando o contato com o serviço.",
+  "base": "Ministério da Saúde, Calendário Nacional de Vacinação do Adulto, 2024",
+  "coment": "O calendário nacional de vacinação do adulto (20 a 59 anos) inclui difteria e tétano (dT), 3 doses sem comprovação e reforço a cada 10 anos (dTpa na gestação); hepatite B, 3 doses; tríplice viral, 2 doses até 29 anos e 1 dose entre 30 e 59 anos; febre amarela, dose única; e COVID-19 conforme orientação vigente. Influenza é oferecida a grupos prioritários. Pessoas sem comprovante devem ser consideradas não vacinadas.",
   "porAlt": [
-   "A influenza é importante em grupos prioritários, mas não é a única vacina prevista para adultos.",
-   "Há calendário de rotina para adultos, e não apenas recomendações para viagens internacionais.",
-   "Correta: dupla adulto, hepatite B, febre amarela e tríplice viral conforme a situação vacinal.",
-   "A profilaxia do tétano em ferimento não substitui o esquema regular com reforços programados.",
-   "O calendário do adulto abrange toda a população, e não apenas as mulheres gestantes."
+   "Adulto sem comprovação vacinal: dT em 3 doses, hepatite B em 3 doses, tríplice viral em 1 dose (30 a 59 anos) e febre amarela.",
+   "Faltam hepatite B, tríplice viral e febre amarela.",
+   "Pneumocócica 23 e zóster não são rotina do calendário público nessa idade sem comorbidade.",
+   "HPV e meningocócica não fazem parte do calendário público do adulto dessa idade.",
+   "Faltam dT, hepatite B e febre amarela."
   ]
  },
  {
-  "q": "Uma paciente traz relato de violência doméstica recente. Qual é a conduta obrigatória do serviço?",
+  "q": "Mulher de 28 anos procura a unidade básica com equimoses em braços e pescoço e relata que foi agredida pelo companheiro na noite anterior, pela terceira vez em 6 meses. Tem dois filhos de 3 e 5 anos. Diz ter medo de denunciar e não quer ir à delegacia agora. Está orientada, sem lesões graves nem risco de vida imediato. As crianças estavam presentes durante a agressão. Qual é a conduta obrigatória do serviço, além do cuidado clínico?",
   "alts": [
-   "Notificar apenas se a paciente registrar boletim de ocorrência policial antes do atendimento no serviço.",
-   "Encaminhar exclusivamente para a delegacia sem qualquer atendimento clínico ou notificação do caso.",
-   "Registrar apenas em prontuário, sem qualquer notificação à vigilância epidemiológica do município agora.",
-   "Aguardar que a paciente solicite a notificação por escrito antes de qualquer comunicação oficial do caso.",
-   "Acolher, notificar compulsoriamente e articular sempre a rede de proteção com o consentimento da pessoa."
+   "Não registrar nada para protegê-la do agressor",
+   "Levá-la à delegacia mesmo contra a vontade",
+   "Chamar o companheiro para mediar o conflito",
+   "Notificar no SINAN e acionar a rede de proteção",
+   "Aguardar nova agressão para notificar"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Lei nº 10.778/2003; Ministério da Saúde, Guia de Vigilância em Saúde, 2024, capítulo de violência interpessoal",
-  "coment": "A notificação de violência interpessoal e autoprovocada é compulsória para todos os serviços de saúde, públicos e privados, e independe de boletim de ocorrência. Ela é instrumento epidemiológico e de proteção, não denúncia policial: a comunicação à autoridade policial é obrigatória apenas em situações específicas, como violência contra criança, adolescente, idoso e pessoa com deficiência. O acolhimento inclui avaliação de risco e articulação com a rede.",
+  "base": "Lei n. 10.778, de 2003, alterada pela Lei n. 13.931, de 2019; Ministério da Saúde, Portaria de Consolidação n. 4, 2017; Lei n. 11.340, de 2006",
+  "coment": "Violência doméstica, sexual e outras violências interpessoais são de notificação compulsória no SINAN (Lei 10.778/2003 e Portaria de Consolidação n. 4/2017), mesmo que a mulher não queira denunciar; notificar é registrar para vigilância e proteção. O serviço acolhe, registra, avalia o risco (incluindo o dos filhos), orienta sobre direitos e medidas protetivas da Lei Maria da Penha e articula a rede de proteção. A Lei 13.931/2019 acrescentou a comunicação à autoridade policial em até 24 horas, o que deve ser explicado à mulher.",
   "porAlt": [
-   "A notificação independe de boletim de ocorrência e é dever do serviço de saúde que atende.",
-   "Encaminhar sem atender nega assistência e desconsidera as necessidades clínicas da paciente.",
-   "O registro em prontuário não substitui a notificação compulsória prevista na legislação vigente.",
-   "A notificação é obrigatória e não depende de solicitação por escrito da pessoa atendida.",
-   "Correta: acolher, notificar compulsoriamente e articular a rede de proteção junto com a pessoa."
+   "O registro em prontuário e a notificação são obrigatórios.",
+   "A ida à delegacia depende da decisão da mulher; o serviço orienta e apoia.",
+   "Mediação com o agressor aumenta o risco e não é recomendada.",
+   "Violência doméstica é de notificação compulsória, com acolhimento, avaliação de risco, plano de segurança e rede de proteção.",
+   "A notificação ocorre na suspeita ou confirmação, sem esperar nova agressão."
   ]
  },
  {
-  "q": "Um gestor quer avaliar a qualidade de um teste diagnóstico novo em relação a um padrão-ouro. Qual medida indica a proporção de doentes corretamente identificados?",
+  "q": "Pesquisadora de 40 anos avalia um novo teste rápido para dengue em 500 pacientes com febre, usando RT-PCR como padrão-ouro. Dos 200 com RT-PCR positivo, 180 tiveram teste rápido positivo. Dos 300 com RT-PCR negativo, 255 tiveram teste rápido negativo. O gestor municipal quer saber que proporção dos doentes o teste identifica corretamente, para decidir a compra. O teste custa um terço do valor do RT-PCR e sai em 20 minutos. Qual é o valor?",
   "alts": [
-   "Especificidade, que expressa a proporção de doentes identificados corretamente pelo teste em estudo.",
-   "Valor preditivo positivo, medida que independe da prevalência da doença na população avaliada agora.",
-   "Sensibilidade, que expressa sempre a proporção de doentes com resultado positivo no teste avaliado.",
-   "Prevalência, medida que expressa a capacidade do teste de identificar corretamente os doentes agora.",
-   "Incidência acumulada, medida que expressa o desempenho do teste entre os indivíduos com a doença."
+   "Especificidade de 85%",
+   "Valor preditivo positivo de 80%",
+   "Sensibilidade de 90%",
+   "Valor preditivo negativo de 93%",
+   "Acurácia de 87%"
   ],
   "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde. Diretrizes metodológicas de avaliação de tecnologias em saúde, 2022; epidemiologia clínica clássica",
-  "coment": "Sensibilidade é a proporção de doentes com teste positivo e responde à pergunta sobre quantos doentes o teste encontra; especificidade é a proporção de não doentes com teste negativo. Ambas são propriedades relativamente estáveis do teste. Já os valores preditivos dependem fortemente da prevalência: o mesmo teste tem valor preditivo positivo alto em população de alto risco e baixo em rastreamento populacional de doença rara.",
+  "base": "Fletcher, Fletcher e Fletcher, Epidemiologia Clínica: elementos essenciais, 5ª edição, 2014",
+  "coment": "Sensibilidade é a proporção de doentes com teste positivo: 180/200 = 90%. Especificidade é a proporção de não doentes com teste negativo: 255/300 = 85%. Valor preditivo positivo é a proporção de positivos que têm a doença: 180/(180 + 45) = 80%; valor preditivo negativo, 255/(255 + 20) = 93%. Sensibilidade e especificidade são propriedades do teste; valores preditivos dependem da prevalência na população testada.",
   "porAlt": [
-   "Especificidade se refere aos não doentes corretamente identificados como negativos pelo teste.",
-   "O valor preditivo positivo depende fortemente da prevalência da doença na população estudada.",
-   "Correta: sensibilidade é a proporção de doentes corretamente identificados como positivos pelo teste.",
-   "Prevalência é a proporção de doentes na população, e não uma medida de desempenho do teste.",
-   "Incidência mede casos novos em um período e não avalia o desempenho de um teste diagnóstico."
+   "Especificidade (255/300) é a proporção de não doentes com teste negativo.",
+   "Valor preditivo positivo (180/225) é a chance de doença com teste positivo.",
+   "Sensibilidade = verdadeiros positivos/doentes = 180/200 = 90%.",
+   "Valor preditivo negativo (255/275) é a chance de não ter a doença com teste negativo.",
+   "Acurácia (435/500) mistura doentes e não doentes."
   ]
  },
  {
-  "q": "Um médico é convidado a receber vantagem de uma indústria farmacêutica para prescrever determinado medicamento. Qual é a conduta correta?",
+  "q": "Médico de 45 anos, endocrinologista em cidade de 200.000 habitantes, recebe de um representante de laboratório a proposta de viagem com acompanhante para congresso internacional, com hospedagem paga, em troca de priorizar a prescrição de um novo análogo de insulina da empresa. Há alternativas de eficácia semelhante e menor custo disponíveis no SUS. Ele atende 30 pacientes com diabetes tipo 1 por semana. Qual é a conduta ética correta?",
   "alts": [
-   "Aceitar desde que o medicamento tenha registro sanitário válido e comprovada eficácia terapêutica.",
-   "Aceitar e informar apenas ao paciente, o que torna a conduta eticamente aceitável na relação clínica.",
-   "Recusar a oferta, pois vincular prescrição a vantagem fere sempre a autonomia técnica do médico.",
-   "Aceitar se o valor recebido for destinado integralmente a atividades de educação médica continuada.",
-   "Aceitar desde que outros profissionais do mesmo serviço também recebam a mesma oferta comercial."
+   "Aceitar, pois congresso é atualização científica",
+   "Aceitar e declarar o conflito aos pacientes",
+   "Aceitar só a viagem, sem acompanhante",
+   "Aceitar e prescrever quando achar adequado",
+   "Recusar a vantagem vinculada à prescrição"
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; Resolução CFM sobre relação com a indústria",
-  "coment": "O Código de Ética Médica veda receber vantagem por prescrever ou indicar produtos, bem como vincular a prescrição a qualquer benefício. A independência técnica é condição da confiança na relação médica: o que orienta a conduta é o melhor interesse do paciente e a melhor evidência disponível. Relações com a indústria são permitidas com transparência e regras claras, mas jamais atreladas ao ato de prescrever determinado produto.",
+  "base": "Código de Ética Médica, Resolução CFM n. 2.217, 2018, artigos 68 e 69",
+  "coment": "O Código de Ética Médica veda ao médico exercer a profissão com interação ou dependência de indústria farmacêutica, óptica ou de equipamentos que vise vantagem pela prescrição (artigo 68) e obter vantagem pelo encaminhamento ou prescrição (artigo 69). Patrocínio de atividades científicas sem contrapartida de prescrição é admitido, com transparência sobre conflitos de interesse.",
   "porAlt": [
-   "O registro sanitário do produto não legitima a vantagem recebida em troca da prescrição.",
-   "Informar o paciente não corrige o conflito de interesse que já contamina a decisão terapêutica.",
-   "Correta: recusar, pois vincular prescrição a vantagem compromete a independência técnica do médico.",
-   "A destinação do valor a educação não descaracteriza a vantagem vinculada ao ato de prescrever.",
-   "A prática coletiva de uma conduta antiética não a torna aceitável do ponto de vista ético."
+   "O vínculo explícito com a prescrição caracteriza infração, mesmo sob pretexto científico.",
+   "Declarar o conflito não torna lícita a vantagem condicionada à prescrição.",
+   "A infração está no condicionamento à prescrição, com ou sem acompanhante.",
+   "Aceitar vantagem em troca de prescrição fere a independência profissional.",
+   "O Código de Ética Médica veda obter vantagem pela prescrição (artigos 68 e 69)."
   ]
  },
  {
-  "q": "Uma unidade quer reduzir a mortalidade infantil no território. Qual conjunto de ações tem maior impacto?",
+  "q": "Gestora de 49 anos de um município de 80.000 habitantes analisa 36 óbitos de menores de 1 ano no último ano, para 1.200 nascidos vivos. Desses, 25 ocorreram antes de 28 dias de vida, principalmente por prematuridade, asfixia perinatal e infecções neonatais, e 6 dos óbitos neonatais foram de filhos de mães com menos de 4 consultas de pré-natal. Qual é a taxa de mortalidade infantil e o conjunto de ações de maior impacto?",
   "alts": [
-   "Ampliar apenas leitos de terapia intensiva neonatal, já medida isolada de maior impacto no indicador.",
-   "Aumentar o número de exames de imagem ofertados no território como principal estratégia de redução.",
-   "Pré-natal adequado, incentivo ao aleitamento e vacinação, com busca ativa sempre das faltosas agora.",
-   "Ampliar apenas o horário de funcionamento das farmácias como medida central para reduzir o indicador.",
-   "Concentrar todos os partos em hospitais terciários distantes do território adscrito pela equipe local."
+   "30 por mil; saneamento e terapia de reidratação oral",
+   "3 por mil; vacinação e aleitamento",
+   "30 por mil; qualificar pré-natal, parto e neonatal",
+   "36 por mil; tratar pneumonias no lactente",
+   "25 por mil; puericultura após 1 mês"
   ],
   "gab": 2,
   "tema": "sus",
   "cenario": "amb",
-  "comp": "prev",
+  "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde: Rede Cegonha/Rede Alyne, 2024; UNICEF/OMS recomendações sobre mortalidade infantil",
-  "coment": "A mortalidade infantil responde principalmente a ações de atenção primária: pré-natal com número adequado de consultas e exames, identificação de gestação de risco, parto seguro, incentivo ao aleitamento materno exclusivo até seis meses, vacinação em dia, acompanhamento do crescimento e busca ativa de faltosos. Leitos de terapia intensiva são necessários, mas atuam sobre o desfecho já instalado e têm menor impacto populacional do que a prevenção.",
+  "base": "Ministério da Saúde, Manual de vigilância do óbito infantil e fetal, 2ª edição, 2009; RIPSA, Indicadores básicos para a saúde no Brasil, 2ª edição, 2008",
+  "coment": "Taxa de mortalidade infantil = óbitos de menores de 1 ano / nascidos vivos × 1.000 = 36/1.200 × 1.000 = 30 por mil. O componente neonatal (0 a 27 dias) responde por 25 dos 36 óbitos, cerca de 70%, como no Brasil, onde predominam prematuridade, asfixia e infecções. As ações de maior impacto são qualificar o pré-natal (captação precoce, número adequado de consultas, rastreio de sífilis e infecções), a assistência ao parto e o cuidado neonatal. Saneamento, reidratação oral, vacinação e aleitamento atuam mais no componente pós-neonatal.",
   "porAlt": [
-   "Leitos intensivos são necessários, mas atuam depois do agravo e têm menor impacto populacional.",
-   "O aumento de exames de imagem não guarda relação direta com a redução da mortalidade infantil.",
-   "Correta: pré-natal adequado, aleitamento, vacinação e busca ativa dos faltosos no território.",
-   "O horário das farmácias não é determinante relevante do indicador de mortalidade infantil.",
-   "Distanciar o parto do território dificulta o acesso e a continuidade do cuidado da gestante."
+   "A taxa está certa, mas o componente neonatal predomina; saneamento e reidratação atuam no pós-neonatal.",
+   "O cálculo está errado: 36/1.200 × 1.000 = 30.",
+   "Mortalidade infantil de 30 por mil, com predomínio neonatal: qualificar pré-natal, parto e cuidado ao recém-nascido.",
+   "O denominador são nascidos vivos, e as causas são neonatais.",
+   "25 é o número de óbitos neonatais, não a taxa infantil."
   ]
  },
  {
-  "q": "Um paciente terminal, lúcido, recusa a instalação de sonda para alimentação. Qual é a conduta correta?",
+  "q": "Homem de 76 anos com esclerose lateral amiotrófica avançada, disfagia grave e perda de 12 kg em 4 meses, lúcido e com capacidade de decisão avaliada, recusa gastrostomia e sonda nasoenteral após conversa detalhada sobre riscos e benefícios. Diz que prefere comer pequenas quantidades por prazer, mesmo com risco de aspiração. A família pede que a equipe coloque a sonda assim mesmo. Não há sinais de depressão ou delirium na avaliação psiquiátrica. Qual é a conduta?",
   "alts": [
-   "Instalar a sonda mesmo contra a vontade do paciente, pois a nutrição é sempre um dever do médico.",
-   "Solicitar autorização judicial para instalar a sonda em todos os casos de recusa de suporte nutricional.",
-   "Transferir a decisão integralmente aos familiares, desconsiderando a manifestação do próprio paciente.",
-   "Suspender todo o cuidado ao paciente que recusa a sonda, já incluindo analgesia e medidas de conforto.",
-   "Respeitar a recusa e registrar a decisão, oferecendo sempre conforto e cuidados paliativos adequados."
+   "Respeitar a recusa, registrar e manter conforto",
+   "Passar sonda nasoenteral sob sedação",
+   "Pedir autorização judicial para a gastrostomia",
+   "Seguir a decisão da família, mais protetora",
+   "Suspender a alimentação oral pelo risco de aspiração"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "sus",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Resolução CFM nº 1.995/2012 sobre diretivas antecipadas; Código de Ética Médica, 2018; ANCP, Manual de Cuidados Paliativos, 2021",
-  "coment": "O paciente lúcido e capaz tem direito de recusar tratamento, inclusive suporte nutricional artificial, e essa recusa deve ser respeitada e registrada, com esclarecimento sobre consequências e alternativas. Recusar um tratamento específico não significa recusar cuidado: analgesia, controle de sintomas, higiene e apoio continuam obrigatórios. Impor tratamento contra a vontade de paciente capaz configura constrangimento ilegal e infração ética.",
+  "base": "Código de Ética Médica, Resolução CFM n. 2.217, 2018; Conselho Federal de Medicina, Resolução n. 2.232, 2019",
+  "coment": "O Código de Ética Médica (artigos 24 e 31) assegura ao paciente capaz decidir sobre seu tratamento, e a Resolução CFM 2.232/2019 regula a recusa terapêutica. Em doença neurodegenerativa avançada, nutrição artificial é tratamento e pode ser recusada. A equipe registra o processo, apoia a família e oferece alimentação de conforto, com adaptações de consistência e posição, fonoaudiologia e cuidados paliativos.",
   "porAlt": [
-   "Impor tratamento a paciente capaz que recusa configura constrangimento e infração ética grave.",
-   "A autorização judicial não é o caminho diante da recusa de paciente lúcido, capaz e informado.",
-   "A decisão é do paciente capaz, e transferi-la à família desrespeita sua autonomia pessoal.",
-   "Recusar um tratamento não implica abandono: os cuidados de conforto permanecem obrigatórios.",
-   "Correta: respeitar e registrar a recusa, mantendo conforto, analgesia e cuidados paliativos plenos."
+   "Adulto capaz e esclarecido em doença avançada: respeitar a recusa, registrar e oferecer alimentação de conforto e cuidados paliativos.",
+   "Procedimento forçado em paciente capaz fere a autonomia.",
+   "Não há base para judicializar a recusa de adulto capaz em fim de vida.",
+   "A decisão de paciente capaz prevalece sobre a da família.",
+   "Suspender a alimentação oral contraria a preferência e o conforto do paciente."
   ]
  },
  {
-  "q": "Uma equipe identifica que muitos hipertensos do território não comparecem às consultas. Qual estratégia é mais adequada?",
+  "q": "Uma unidade de Saúde da Família com 3.400 pessoas tem 40% de faltas nas consultas de hipertensos agendadas com 45 dias de antecedência, enquanto a demanda espontânea lota o acolhimento pela manhã. A médica, de 31 anos, e a enfermeira querem mudar a organização da agenda. Pesquisa com usuários mostra que muitos esquecem a data ou não conseguem faltar ao trabalho. A unidade funciona das 7 às 19 horas. Qual estratégia é mais adequada?",
   "alts": [
-   "Excluir do cadastro da equipe todos os pacientes que faltarem a duas consultas agendadas consecutivas agora já.",
-   "Busca ativa com visita domiciliar e reorganização do acesso, investigando sempre as barreiras de cada pessoa.",
-   "Encaminhar ao especialista todos os faltosos, transferindo o acompanhamento para o nível secundário agora.",
-   "Aguardar que os pacientes procurem espontaneamente o serviço quando apresentarem alguma complicação agora.",
-   "Prescrever medicação por telefone sem qualquer avaliação clínica ou reorganização do acesso ao serviço agora."
+   "Agendar consultas com 90 dias de antecedência",
+   "Bloquear a agenda dos faltosos por 6 meses",
+   "Atender apenas a demanda espontânea",
+   "Acesso avançado, com mais vagas no mesmo dia",
+   "Aumentar as vagas agendadas no mesmo formato"
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Murray e Berwick, Advanced access: reducing waiting and delays in primary care, JAMA, 2003; Ministério da Saúde, Acolhimento à demanda espontânea, Cadernos de Atenção Básica n. 28, 2013",
+  "coment": "O acesso avançado organiza a maior parte das vagas para o mesmo dia ou dias próximos, eliminando a fila acumulada e reduzindo faltas, que aumentam com o tempo de espera. Combinado a lembretes, horários estendidos, busca ativa dos faltosos e planejamento do cuidado das condições crônicas, melhora o acesso sem abandonar o seguimento programado. É estratégia recomendada para qualificar o acesso na atenção primária.",
+  "porAlt": [
+   "Aumentar o intervalo agrava as faltas.",
+   "Punição fere o acesso e afasta quem mais precisa.",
+   "Abandonar o cuidado programado prejudica o seguimento das condições crônicas.",
+   "Acesso avançado reduz o tempo até a consulta e diminui faltas, com lembretes e horários estendidos.",
+   "Mais vagas com o mesmo intervalo mantêm o problema."
+  ]
+ },
+ {
+  "q": "Ensaio clínico randomizado com 4.000 pacientes de 55 a 75 anos comparou um novo anti-hipertensivo com placebo durante 3 anos. O desfecho primário (AVC, infarto ou morte cardiovascular) ocorreu em 8% no grupo placebo e em 6% no grupo tratado, com risco relativo de 0,75 e intervalo de confiança de 95% de 0,60 a 0,94. A perda de seguimento foi de 2%. Os eventos adversos graves foram semelhantes nos dois grupos. Qual interpretação está correta?",
+  "alts": [
+   "Redução absoluta de 25%, sem significância",
+   "Redução relativa de 25%, significativa, NNT de 50",
+   "Redução relativa de 2% e NNT de 25",
+   "Sem significância, pois o intervalo inclui 0,94",
+   "Aumento de 25% no risco com o tratamento"
   ],
   "gab": 1,
   "tema": "sus",
   "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Portaria GM/MS nº 2.436/2017, Política Nacional de Atenção Básica; Ministério da Saúde, linha de cuidado da hipertensão, 2021",
-  "coment": "A responsabilidade sanitária sobre a população adscrita implica buscar quem não comparece, e não apenas atender quem chega. A busca ativa com agentes comunitários e visita domiciliar identifica barreiras concretas: horário incompatível com o trabalho, dificuldade de transporte, efeitos adversos, falta de compreensão do tratamento e problemas sociais. A resposta combina reorganizar o acesso, apoiar o autocuidado e articular a rede intersetorial.",
-  "porAlt": [
-   "Excluir faltosos do cadastro contraria a responsabilidade sanitária sobre a população adscrita.",
-   "Correta: busca ativa com visita domiciliar e reorganização do acesso conforme as barreiras encontradas.",
-   "Encaminhar todos ao especialista não resolve as barreiras de acesso e desorganiza a rede de cuidado.",
-   "Esperar a complicação transforma a equipe em serviço de emergência e desperdiça a prevenção possível.",
-   "Prescrever sem avaliação clínica adequada é conduta insegura e não enfrenta o problema do acesso."
-  ]
- },
- {
-  "q": "Um estudo compara dois tratamentos e encontra risco relativo de 0,75 com intervalo de confiança de 95% entre 0,60 e 0,94. Qual é a interpretação?",
-  "alts": [
-   "Ausência de diferença entre os tratamentos, pois o intervalo de confiança inclui o valor de nulidade agora.",
-   "Aumento do risco no grupo intervenção, já que o risco relativo apresentado é inferior à unidade agora.",
-   "Redução estatisticamente significativa do desfecho, pois o intervalo não inclui sempre o valor de nulidade.",
-   "Resultado inconclusivo, pois o intervalo de confiança apresentado é considerado excessivamente estreito.",
-   "Impossibilidade de interpretação sem conhecer o valor exato do p do teste estatístico aplicado neste caso."
-  ],
-  "gab": 2,
-  "tema": "sus",
-  "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde. Diretrizes metodológicas: elaboração de revisão sistemática e metanálise, 2022; GRADE Working Group",
-  "coment": "Risco relativo abaixo de um indica redução do desfecho no grupo intervenção. O intervalo de confiança de 95% entre 0,60 e 0,94 não inclui o valor 1, que é a nulidade para medidas de razão, e portanto o resultado é estatisticamente significativo. Além da significância, a interpretação clínica considera a magnitude do efeito, o número necessário para tratar, a precisão do intervalo e a relevância do desfecho medido.",
+  "base": "Guyatt et al., Users' Guides to the Medical Literature, 3ª edição, 2015",
+  "coment": "Risco relativo de 0,75 significa redução relativa de risco de 1 − 0,75 = 25%. Como o intervalo de confiança de 95% (0,60 a 0,94) não inclui 1, o efeito é estatisticamente significativo. A redução absoluta é de 8% − 6% = 2 pontos percentuais, e o número necessário para tratar é 1/0,02 = 50 pacientes por 3 anos para evitar um evento. A redução relativa impressiona mais que a absoluta, e decisões clínicas devem considerar ambas.",
   "porAlt": [
-   "O intervalo apresentado não contém o valor 1, de modo que não indica ausência de diferença.",
-   "Risco relativo menor que um indica redução, e não aumento do risco no grupo intervenção.",
-   "Correta: o intervalo não inclui o valor de nulidade, indicando redução estatisticamente significativa.",
-   "O intervalo é razoavelmente estreito e permite conclusão sobre a direção e a magnitude do efeito.",
-   "O intervalo de confiança já permite a interpretação, sem depender do valor exato do p."
+   "25% é a redução relativa, e o intervalo não cruza 1: é significativo.",
+   "RR 0,75: redução relativa de 25%, intervalo sem 1, redução absoluta de 2 pontos e NNT de 50 em 3 anos.",
+   "2% é a redução absoluta, e o NNT é 50.",
+   "A significância depende de o intervalo incluir 1.",
+   "Risco relativo abaixo de 1 indica redução de risco."
   ]
  },
  {
-  "q": "Um paciente solicita cópia integral do seu prontuário médico. Qual é a conduta correta?",
+  "q": "Mulher de 53 anos, que fez colecistectomia há 8 meses, solicita por escrito, na recepção do hospital, cópia integral de seu prontuário para buscar segunda opinião com outro cirurgião. O diretor técnico exige que ela apresente ordem judicial e justifique o motivo. Ela está lúcida, é a própria titular e apresentou documento de identidade. O pedido foi feito há 5 dias úteis. Qual é a conduta correta?",
   "alts": [
-   "Negar o acesso, já que o prontuário é documento de propriedade exclusiva do médico assistente.",
-   "Fornecer apenas um resumo elaborado pelo médico, negando o acesso ao conteúdo integral do documento.",
-   "Fornecer a cópia, pois o prontuário pertence ao paciente e sempre fica sob a guarda do serviço.",
-   "Exigir autorização judicial em todos os casos antes de qualquer entrega de cópia ao próprio paciente.",
-   "Fornecer somente ao familiar acompanhante, e nunca diretamente ao próprio paciente que solicitou."
+   "Exigir ordem judicial para liberar a cópia",
+   "Entregar apenas o resumo de alta",
+   "Fornecer a cópia solicitada pela paciente",
+   "Entregar o original sem guardar cópia",
+   "Liberar somente ao médico da segunda opinião"
   ],
   "gab": 2,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; Resolução CFM nº 1.638/2002; Lei Geral de Proteção de Dados",
-  "coment": "O prontuário pertence ao paciente, ficando sob a guarda da instituição ou do médico, que responde por sua conservação e sigilo. O paciente tem direito de acesso ao conteúdo integral e a cópia, sem necessidade de justificar o pedido ou obter autorização judicial. Negar acesso configura infração ética. A entrega a terceiros exige autorização expressa do paciente, salvo as exceções legais previstas na legislação vigente.",
+  "base": "Código de Ética Médica, Resolução CFM n. 2.217, 2018, artigo 88; Resolução CFM n. 1.638, 2002",
+  "coment": "As informações do prontuário pertencem ao paciente, e a guarda é responsabilidade da instituição ou do médico. O Código de Ética Médica (artigo 88) veda negar ao paciente acesso ao seu prontuário, deixar de fornecer cópias quando solicitadas e deixar de dar as explicações necessárias à sua compreensão, salvo quando isso ocasionar riscos ao próprio paciente ou a terceiros. Não é necessária ordem judicial nem justificativa.",
   "porAlt": [
-   "O prontuário não é propriedade do médico, que apenas responde pela guarda e pelo sigilo dele.",
-   "O resumo não substitui o direito de acesso ao conteúdo integral do documento pelo paciente.",
-   "Correta: o prontuário pertence ao paciente, que tem direito à cópia integral do seu conteúdo.",
-   "Não é necessária autorização judicial para o próprio paciente acessar o seu prontuário médico.",
-   "O direito de acesso é do paciente, e a entrega a terceiros exige sua autorização expressa."
+   "O paciente tem direito de acesso ao próprio prontuário sem ordem judicial.",
+   "O pedido é de cópia integral; resumo não atende ao direito de acesso.",
+   "O Código de Ética Médica garante ao paciente acesso e cópia do prontuário; o original fica sob guarda da instituição.",
+   "O original fica sob guarda do serviço.",
+   "O direito é da paciente, que pode receber a cópia diretamente."
   ]
  },
  {
@@ -17688,243 +17688,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Um médico recebe pedido de atestado retroativo de um paciente que não foi atendido na data solicitada. Qual é a conduta?",
+  "q": "Homem de 30 anos procura a unidade básica numa quarta-feira e pede atestado médico para a segunda-feira anterior, dia em que faltou ao trabalho por mal-estar, sem ter procurado nenhum serviço de saúde. Hoje está assintomático, com exame físico normal. Diz que pode perder o emprego e insiste. O médico, de 29 anos, está no primeiro mês de trabalho na unidade. Não há atestados anteriores no prontuário. Qual é a conduta ética?",
   "alts": [
-   "Recusar o atestado retroativo, pois atestar fato não presenciado configura sempre infração ética grave.",
-   "Emitir o atestado com a data solicitada, desde que o paciente já afirme ter adoecido naquele dia mesmo.",
-   "Emitir o atestado e registrar em prontuário a ressalva de que o paciente não foi avaliado naquela data.",
-   "Emitir o atestado apenas se o paciente apresentar declaração escrita de um familiar confirmando a doença.",
-   "Emitir o atestado se o período solicitado for inferior a três dias, situação em que não há qualquer restrição."
-  ],
-  "gab": 0,
-  "tema": "sus",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, artigos 80 a 83; Resolução CFM sobre atestados médicos",
-  "coment": "O atestado médico é documento que registra fato constatado pelo próprio médico no exercício profissional. Atestar afastamento em data não avaliada configura atestado falso, vedado pelo Código de Ética Médica e tipificado como crime. O médico pode registrar em documento próprio o relato do paciente, deixando explícito que se trata de informação referida, mas não pode emitir atestado afirmando doença que não constatou.",
-  "porAlt": [
-   "Correta: recusar o atestado retroativo, pois atestar fato não presenciado é infração ética e crime.",
-   "A afirmação do paciente não substitui a constatação médica exigida para a emissão do atestado.",
-   "Registrar ressalva não descaracteriza o atestado falso, que afirma um fato não constatado.",
-   "Declaração de familiar não constitui constatação médica e não legitima a emissão do documento.",
-   "A duração do afastamento não altera a vedação de atestar fato que o médico não presenciou."
-  ]
- },
- {
-  "q": "Uma equipe deseja avaliar se um programa reduziu a mortalidade em uma população ao longo de dez anos. Qual desenho de estudo é o mais adequado?",
-  "alts": [
-   "Estudo transversal isolado, desenho que já permite estabelecer a relação temporal entre os dois fatos.",
-   "Estudo de coorte com acompanhamento longitudinal, que permite sempre estimar incidência e risco relativo.",
-   "Série de casos sem grupo de comparação, desenho adequado para estimar risco relativo na população agora.",
-   "Relato de caso individual, desenho que permite avaliar impacto populacional de um programa de saúde.",
-   "Estudo ecológico isolado, desenho que elimina completamente o risco de falácia ecológica na análise."
+   "Emitir o atestado, pois o relato é plausível",
+   "Recusar e declarar só o comparecimento de hoje",
+   "Emitir atestado de 3 dias a partir de segunda",
+   "Emitir o atestado omitindo o CID",
+   "Encaminhar ao médico do trabalho para emitir"
   ],
   "gab": 1,
   "tema": "sus",
   "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "Ministério da Saúde. Diretrizes metodológicas de avaliação de tecnologias em saúde, 2022; epidemiologia clínica clássica",
-  "coment": "O estudo de coorte acompanha grupos expostos e não expostos ao longo do tempo, permitindo estimar incidência, risco relativo e a relação temporal entre exposição e desfecho, o que o torna adequado para avaliar impacto de programas quando o ensaio randomizado não é factível. O transversal mede exposição e desfecho no mesmo momento e não estabelece temporalidade; o ecológico analisa grupos e está sujeito à falácia ecológica.",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Código de Ética Médica, Resolução CFM n. 2.217, 2018, artigo 80; Resolução CFM n. 1.658, 2002",
+  "coment": "O Código de Ética Médica veda expedir documento médico sem ter praticado ato profissional que o justifique ou que não corresponda à verdade (artigo 80). Atestado retroativo, referente a período em que o paciente não foi examinado, não pode ser emitido; o atestado se baseia no que o médico constatou. É possível fornecer declaração de comparecimento à consulta atual e, se houver doença constatada, atestado a partir da data do exame.",
   "porAlt": [
-   "O estudo transversal mede exposição e desfecho simultaneamente e não estabelece a temporalidade.",
-   "Correta: a coorte com acompanhamento longitudinal estima incidência, risco relativo e temporalidade.",
-   "A série de casos não tem grupo de comparação e por isso não permite estimar risco relativo.",
-   "O relato de caso descreve um indivíduo e não avalia impacto populacional de programa algum.",
-   "O estudo ecológico analisa grupos e está justamente sujeito à falácia ecológica na inferência."
+   "Atestar fato não verificado pessoalmente é infração.",
+   "Não se atesta dia sem atendimento; pode-se declarar o comparecimento à consulta de hoje.",
+   "Contar dias anteriores ao atendimento é atestado retroativo.",
+   "Omitir o CID não torna lícito atestar fato não constatado.",
+   "O médico do trabalho também não pode atestar o que não presenciou."
   ]
  },
  {
-  "q": "Um paciente com transtorno mental grave em crise recusa internação e apresenta risco iminente à própria vida. Qual é a conduta?",
+  "q": "Pesquisadores querem investigar se o uso de fluoroquinolonas aumenta o risco de dissecção de aorta, doença rara, com incidência de cerca de 3 por 100.000 pessoas por ano. Têm acesso a um banco hospitalar com 450 casos de dissecção nos últimos 10 anos, pacientes de 40 a 85 anos, e aos registros de prescrição. O orçamento é limitado, e o resultado é esperado em 1 ano. Qual desenho de estudo é o mais adequado?",
   "alts": [
-   "Aguardar a concordância do paciente mesmo diante de risco iminente à própria vida durante a crise agora.",
-   "Internação compulsória determinada diretamente pelo médico, sem qualquer comunicação a outra instância.",
-   "Liberar o paciente com prescrição e orientar retorno ambulatorial em trinta dias para reavaliação clínica.",
-   "Internação involuntária com comunicação formal ao Ministério Público, garantindo sempre o cuidado em rede.",
-   "Contenção física prolongada no domicílio como alternativa à internação diante da recusa do paciente agora."
+   "Caso-controle",
+   "Ensaio clínico randomizado",
+   "Coorte prospectiva de usuários",
+   "Estudo ecológico",
+   "Série de casos"
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Rothman, Greenland e Lash, Modern Epidemiology, 3ª edição, 2008; Fletcher, Epidemiologia Clínica, 5ª edição, 2014",
+  "coment": "Para desfechos raros, o estudo de caso-controle é o desenho mais eficiente: parte dos casos já ocorridos e compara a frequência da exposição prévia com a de controles sem a doença, estimando a razão de chances, que se aproxima do risco relativo quando a doença é rara. Coortes são melhores para exposições raras e múltiplos desfechos, e ensaios randomizados para intervenções potencialmente benéficas. Vieses de memória e de seleção são limitações do caso-controle.",
+  "porAlt": [
+   "Desfecho raro e exposição registrada: caso-controle compara a exposição entre casos e controles, com custo e tempo menores.",
+   "Randomizar para expor a possível dano é antiético e inviável para evento raro.",
+   "Coorte para desfecho tão raro exigiria milhões de pessoas e muitos anos.",
+   "Estudo ecológico não relaciona exposição e desfecho no nível individual.",
+   "Série de casos não tem grupo de comparação."
+  ]
+ },
+ {
+  "q": "Homem de 27 anos com esquizofrenia, sem medicação há 2 meses, é trazido pela mãe ao pronto-socorro após tentar se jogar da janela do terceiro andar por ordem de vozes. Está agitado, com alucinações auditivas imperativas, sem crítica sobre o quadro, e recusa internação. Glicemia e exames toxicológicos sem alterações. O psiquiatra de plantão indica internação em leito de saúde mental. A mãe concorda com a internação. Qual é o procedimento legal correto?",
+  "alts": [
+   "Liberar, pois é adulto e recusa a internação",
+   "Internar só com ordem judicial prévia",
+   "Internação compulsória pedida pela mãe na delegacia",
+   "Internação involuntária com aviso ao Ministério Público",
+   "Sedar e dar alta após melhora da agitação"
   ],
   "gab": 3,
   "tema": "sus",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Lei nº 10.216/2001, Lei da Reforma Psiquiátrica; Ministério da Saúde, Rede de Atenção Psicossocial",
-  "coment": "A Lei da Reforma Psiquiátrica prevê três modalidades de internação: voluntária, involuntária, a pedido de terceiro e sem consentimento do paciente, e compulsória, determinada pela Justiça. A internação involuntária exige laudo médico circunstanciado e comunicação ao Ministério Público em até setenta e duas horas, tanto na admissão quanto na alta. Ela é indicada quando os recursos extra-hospitalares se mostram insuficientes e há risco.",
+  "base": "Lei n. 10.216, de 6 de abril de 2001; Conselho Federal de Medicina, Resolução n. 2.057, 2013",
+  "coment": "A Lei 10.216/2001 define três modalidades de internação psiquiátrica: voluntária (com consentimento), involuntária (sem consentimento, a pedido de terceiro, com laudo médico circunstanciado) e compulsória (determinada pela Justiça). A involuntária deve ser comunicada ao Ministério Público estadual em até 72 horas pelo responsável técnico do estabelecimento, o mesmo valendo para a alta. É indicada quando os recursos extra-hospitalares são insuficientes e há risco grave, como tentativa de suicídio por alucinações imperativas.",
   "porAlt": [
-   "Aguardar concordância diante de risco iminente de morte omite socorro e viola o dever de cuidado.",
-   "A internação compulsória é determinada pela Justiça; a involuntária exige comunicação ao Ministério Público.",
-   "Liberar paciente com risco iminente à vida é conduta inaceitável e de responsabilidade do médico.",
-   "Correta: internação involuntária com laudo circunstanciado e comunicação formal ao Ministério Público.",
-   "A contenção domiciliar prolongada não é medida terapêutica e configura violação de direitos."
+   "Com risco grave à própria vida e sem crítica, a recusa não é soberana.",
+   "Internação involuntária não exige ordem judicial prévia.",
+   "Internação compulsória é determinada pelo juiz, não requerida à polícia.",
+   "Lei 10.216/2001: internação involuntária com laudo médico, comunicada ao Ministério Público em até 72 horas.",
+   "Alta após sedação ignora o risco de suicídio."
   ]
  },
  {
-  "q": "Um serviço quer reduzir infecções relacionadas à assistência. Qual é a medida isolada de maior impacto?",
+  "q": "O núcleo de segurança do paciente de um hospital de 180 leitos registrou 42 infecções de corrente sanguínea associadas a cateter e 35 infecções por bactérias multirresistentes em 6 meses. Auditoria mostrou adesão à higiene das mãos de 38%, pior antes de tocar o paciente e após tocar superfícies próximas a ele. A diretora, de 52 anos, quer priorizar uma medida. Qual é a de maior impacto e menor custo?",
   "alts": [
-   "Uso rotineiro de antibiótico profilático em todos os pacientes internados na unidade de internação.",
-   "Isolamento de contato para todos os pacientes internados, independentemente do risco microbiológico.",
-   "Troca diária de todos os cateteres venosos centrais como principal estratégia de prevenção de infecção.",
-   "Higiene das mãos nos cinco momentos preconizados, medida sempre de maior impacto e menor custo relativo.",
-   "Uso obrigatório de avental estéril por todos os visitantes em todas as áreas do hospital, sem exceção."
-  ],
-  "gab": 3,
-  "tema": "sus",
-  "cenario": "enf",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "OMS, Diretrizes sobre higienização das mãos na assistência à saúde; ANVISA, Medidas de prevenção de IRAS, revisão 2023",
-  "coment": "A higienização das mãos nos cinco momentos (antes do contato com o paciente, antes de procedimento asséptico, após risco de exposição a fluidos, após contato com o paciente e após contato com áreas próximas) é a medida isolada de maior impacto na prevenção de infecções relacionadas à assistência, com custo baixo. Antibiótico profilático indiscriminado seleciona resistência, e a troca rotineira de cateteres não reduz infecção.",
-  "porAlt": [
-   "O antibiótico profilático indiscriminado seleciona resistência e aumenta infecção por germes difíceis.",
-   "Isolar todos indistintamente consome recursos e reduz o contato assistencial sem benefício claro.",
-   "A troca rotineira e programada de cateteres não reduz infecção e aumenta complicações mecânicas.",
-   "Correta: higienização das mãos nos cinco momentos é a medida isolada de maior impacto e menor custo.",
-   "O avental para visitantes em todas as áreas não é medida com impacto demonstrado sobre infecção."
-  ]
- },
- {
-  "q": "Um paciente com doença terminal registra, com o médico, sua recusa a manobras de reanimação. Como se chama esse instrumento e qual é sua validade?",
-  "alts": [
-   "Documento sem qualquer validade no Brasil, pois a legislação não reconhece manifestação prévia de vontade.",
-   "Instrumento válido apenas se registrado em cartório com firma reconhecida e testemunhas presenciais.",
-   "Diretiva antecipada de vontade, que deve ser sempre registrada em prontuário e respeitada pela equipe.",
-   "Documento que só passa a valer após autorização judicial expressa concedida em processo específico.",
-   "Manifestação que perde validade assim que o paciente deixa de poder se comunicar com a equipe assistente."
+   "Antibiótico profilático em pacientes com cateter",
+   "Troca programada de cateteres a cada 72 horas",
+   "Higiene das mãos nos cinco momentos",
+   "Culturas de vigilância semanais de todos os leitos",
+   "Isolamento de contato de todos os internados"
   ],
   "gab": 2,
   "tema": "sus",
   "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "Resolução CFM nº 1.995/2012: Diretivas antecipadas de vontade; Código de Ética Médica, 2018",
-  "coment": "As diretivas antecipadas de vontade são o conjunto de desejos previamente manifestados pelo paciente sobre cuidados que deseja ou não receber quando estiver incapaz de expressar sua vontade. A resolução do Conselho Federal de Medicina determina que o médico as registre no prontuário e as respeite, prevalecendo sobre o desejo de familiares. Não é exigido registro em cartório, e é justamente na incapacidade de comunicar-se que elas produzem efeito.",
-  "porAlt": [
-   "A manifestação prévia de vontade é reconhecida por resolução do Conselho Federal de Medicina.",
-   "Não é exigido registro em cartório; o registro em prontuário pelo médico é suficiente e válido.",
-   "Correta: diretiva antecipada de vontade, registrada em prontuário e respeitada pela equipe assistente.",
-   "Não é necessária autorização judicial para respeitar a vontade previamente manifestada pelo paciente.",
-   "É exatamente quando o paciente não pode se comunicar que a diretiva produz seus efeitos."
-  ]
- },
- {
-  "q": "Uma equipe de atenção primária identifica gestante em situação de vulnerabilidade que não comparece ao pré-natal. Qual é a conduta?",
-  "alts": [
-   "Excluir a gestante do cadastro da equipe após duas faltas consecutivas às consultas de pré-natal agora.",
-   "Aguardar que ela procure o serviço espontaneamente no momento do trabalho de parto na maternidade agora.",
-   "Notificar a gestante ao conselho tutelar como principal medida diante das faltas ao pré-natal agendado.",
-   "Busca ativa com visita domiciliar e articulação intersetorial, adequando sempre o acesso às condições dela.",
-   "Encaminhar diretamente ao pré-natal de alto risco, retirando o acompanhamento da atenção primária local."
-  ],
-  "gab": 3,
-  "tema": "sus",
-  "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Portaria GM/MS nº 2.436/2017, Política Nacional de Atenção Básica; Ministério da Saúde, Caderneta da Gestante e diretrizes do pré-natal, 2022",
-  "coment": "O pré-natal adequado é um dos determinantes mais fortes de desfechos maternos e neonatais, e a responsabilidade sanitária sobre a população adscrita implica busca ativa das faltosas. A visita domiciliar por agente comunitário identifica barreiras concretas (transporte, trabalho, violência doméstica, uso de substâncias, insegurança alimentar) e a resposta combina flexibilizar o acesso e acionar assistência social, conselho tutelar quando adolescente e demais equipamentos.",
+  "base": "OMS, Guidelines on Hand Hygiene in Health Care, 2009; ANVISA, Protocolo para a prática de higiene das mãos em serviços de saúde, 2013",
+  "coment": "A higiene das mãos é a medida isolada mais eficaz e de menor custo para prevenir infecções relacionadas à assistência e a transmissão de microrganismos multirresistentes. A OMS e a ANVISA definem cinco momentos: antes de tocar o paciente, antes de procedimento limpo ou asséptico, após risco de exposição a fluidos corporais, após tocar o paciente e após tocar superfícies próximas a ele. Preparação alcoólica, monitorização da adesão com retorno às equipes e cultura de segurança sustentam a melhoria.",
   "porAlt": [
-   "Excluir do cadastro contraria a responsabilidade sanitária sobre a população adscrita ao território.",
-   "Esperar o trabalho de parto elimina toda a prevenção que o pré-natal poderia oferecer à gestante.",
-   "A notificação isolada ao conselho tutelar não resolve barreiras de acesso e pode afastar a gestante.",
-   "Correta: busca ativa com visita domiciliar e articulação intersetorial, adequando o acesso às condições.",
-   "O alto risco é para indicações clínicas, e a primária mantém a coordenação do cuidado da gestante."
+   "Antibiótico profilático seleciona resistência e não é recomendado.",
+   "Troca programada de cateter venoso central não reduz infecção e aumenta complicações.",
+   "Higiene das mãos nos cinco momentos é a medida isolada mais eficaz e barata.",
+   "Culturas de vigilância indiscriminadas não substituem as medidas básicas.",
+   "Isolamento universal é inviável e sem benefício demonstrado."
   ]
  },
  {
-  "q": "Um estudo relata número necessário para tratar de 25 para prevenir um evento em cinco anos. Qual é a interpretação?",
+  "q": "Mulher de 70 anos com insuficiência cardíaca avançada, classe funcional IV, fração de ejeção de 15% e três internações em 6 meses, está lúcida em consulta ambulatorial e diz ao cardiologista que não deseja ser intubada nem reanimada se tiver parada cardíaca. Pede que isso fique registrado, sem precisar ir a cartório. Os filhos concordam. Não há sinais de depressão, e ela tem capacidade de decisão preservada. Qual é o instrumento e sua validade?",
   "alts": [
-   "Vinte e cinco por cento dos pacientes tratados terão o desfecho prevenido pela intervenção estudada.",
-   "É preciso tratar vinte e cinco pessoas por cinco anos para evitar sempre um evento a mais no grupo.",
-   "Cada paciente tratado tem vinte e cinco vezes menos risco de apresentar o desfecho no período agora.",
-   "O tratamento reduz o risco relativo em exatamente vinte e cinco por cento no período de cinco anos.",
-   "Vinte e cinco pacientes apresentarão eventos adversos graves com a intervenção durante o estudo."
+   "Não tem valor sem registro em cartório",
+   "Vale apenas com autorização judicial",
+   "Pode ser revogado apenas pelos filhos",
+   "Só vale se assinado por dois médicos",
+   "Diretiva antecipada registrada em prontuário"
+  ],
+  "gab": 4,
+  "tema": "sus",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Conselho Federal de Medicina, Resolução n. 1.995, de 9 de agosto de 2012",
+  "coment": "A Resolução CFM 1.995/2012 define diretivas antecipadas de vontade como o conjunto de desejos manifestados prévia e expressamente pelo paciente sobre cuidados e tratamentos que quer ou não receber quando estiver incapaz de expressar sua vontade. O médico registra no prontuário as diretivas que lhe forem comunicadas, sem exigência de testemunhas ou cartório. Elas prevalecem sobre qualquer outro parecer não médico, inclusive dos familiares, e podem ser revogadas pelo paciente a qualquer momento. A ordem de não reanimar deve ser comunicada à equipe.",
+  "porAlt": [
+   "A resolução não exige cartório; o registro em prontuário é suficiente.",
+   "Não há exigência de autorização judicial.",
+   "Só a própria paciente pode revogar sua diretiva.",
+   "Não há exigência de dois médicos.",
+   "Diretiva antecipada de vontade da paciente capaz, registrada em prontuário, prevalece sobre outros pareceres, inclusive de familiares."
+  ]
+ },
+ {
+  "q": "Adolescente de 17 anos, com 24 semanas de gestação, fez apenas 1 consulta de pré-natal, com testes rápidos de sífilis e HIV não reagentes, e faltou às duas seguintes. A agente comunitária informa que ela mora em área de ocupação, a 5 km da unidade, sem transporte, e trabalha informalmente. Não há sinais de violência. Pressão arterial na única consulta de 110/70 mmHg. Qual é a conduta mais adequada da equipe?",
+  "alts": [
+   "Aguardar que ela procure a unidade por conta própria",
+   "Busca ativa com visita domiciliar e plano de acesso",
+   "Comunicar o Conselho Tutelar pela gravidez",
+   "Pré-natal de alto risco pela idade",
+   "Registrar abandono e encerrar o acompanhamento"
   ],
   "gab": 1,
   "tema": "sus",
   "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "Ministério da Saúde: Diretrizes metodológicas, 2022; GRADE Working Group; epidemiologia clínica clássica",
-  "coment": "O número necessário para tratar é o inverso da redução absoluta de risco e indica quantos pacientes precisam receber a intervenção, pelo tempo do estudo, para evitar um evento. Um valor de 25 em cinco anos significa que tratar vinte e cinco pessoas por esse período evita um desfecho. É a medida mais útil para comunicar benefício ao paciente, porque incorpora o risco basal, ao contrário da redução relativa de risco, que pode exagerar a percepção do efeito.",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde, Atenção ao pré-natal de baixo risco, Cadernos de Atenção Básica n. 32, 2012",
+  "coment": "A atenção primária é responsável sanitária pelas gestantes do território. Diante de faltas, a busca ativa pelo agente comunitário e pela equipe, com visita domiciliar, flexibilização de horários, apoio para transporte e articulação com a assistência social, garante as consultas mínimas, os exames do segundo e terceiro trimestres (incluindo nova testagem para sífilis e HIV) e a vinculação à maternidade. Gravidez na adolescência sem outros fatores não é, por si, de alto risco.",
   "porAlt": [
-   "O número necessário para tratar não é uma porcentagem de pacientes beneficiados individualmente.",
-   "Correta: tratar vinte e cinco pessoas pelo período do estudo evita um evento a mais no grupo.",
-   "O valor não expressa quantas vezes o risco individual é reduzido pela intervenção estudada.",
-   "A redução relativa de risco é medida distinta e não corresponde ao número necessário para tratar.",
-   "Eventos adversos são expressos pelo número necessário para causar dano, medida diferente desta."
+   "Aguardar mantém uma gestante vulnerável sem pré-natal.",
+   "Busca ativa, consulta domiciliar se necessário, ajustes de horário e transporte e articulação intersetorial.",
+   "Gravidez aos 17 anos sem indício de violência não exige comunicação ao Conselho Tutelar.",
+   "Idade de 17 anos, isoladamente, não define alto risco.",
+   "Faltas não encerram a responsabilidade sanitária da equipe."
   ]
  },
  {
-  "q": "Um paciente pergunta se pode ter acesso a medicamento de alto custo não incluído nas listas oficiais. Qual é a orientação correta?",
+  "q": "Ensaio clínico randomizado com 6.000 pessoas de 50 a 70 anos, com risco cardiovascular intermediário, comparou estatina com placebo durante 5 anos. Eventos cardiovasculares maiores ocorreram em 240 de 3.000 participantes no grupo placebo e em 120 de 3.000 no grupo estatina. Mialgia com suspensão do fármaco ocorreu em 1,5% e 1,0%, respectivamente. Qual é o número necessário para tratar para evitar um evento em 5 anos?",
   "alts": [
-   "Afirmar que não existe qualquer via de acesso a medicamento fora das listas oficiais no país neste caso.",
-   "Orientar diretamente a via judicial como primeiro e único caminho possível para obter o medicamento agora.",
-   "Prescrever o medicamento sem qualquer discussão sobre acesso, custo ou alternativas terapêuticas disponíveis.",
-   "Explicar as vias formais de solicitação e avaliar sempre alternativas terapêuticas disponíveis no sistema.",
-   "Afirmar que o paciente deve necessariamente comprar o medicamento com recursos próprios, sem alternativa."
+   "2, pela redução relativa de 50%",
+   "50, pela diferença de 2 pontos percentuais",
+   "200, pela diferença de eventos adversos",
+   "25, pela redução absoluta de 4 pontos",
+   "12,5, pelo risco do grupo placebo"
   ],
   "gab": 3,
   "tema": "sus",
   "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "Lei nº 12.401/2011, incorporação de tecnologias no SUS; Ministério da Saúde, Relação Nacional de Medicamentos Essenciais, 2024",
-  "coment": "O acesso a medicamentos no sistema público segue a Relação Nacional de Medicamentos Essenciais e os protocolos clínicos e diretrizes terapêuticas, com incorporação avaliada pela comissão nacional de incorporação de tecnologias. Diante de pedido por fármaco não incorporado, o médico deve conhecer as vias formais (componente especializado, solicitação administrativa e protocolos), discutir alternativas terapêuticas com evidência e explicar o processo com transparência.",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Guyatt et al., Users' Guides to the Medical Literature, 3ª edição, 2015; Fletcher, Epidemiologia Clínica, 5ª edição, 2014",
+  "coment": "Risco no placebo = 240/3.000 = 8%; no tratamento = 120/3.000 = 4%. Redução absoluta de risco = 4 pontos percentuais; redução relativa = 50%; número necessário para tratar = 1/0,04 = 25 pessoas por 5 anos para evitar um evento. Para o efeito adverso, a diferença absoluta é de 0,5 ponto, e o número necessário para causar dano é 1/0,005 = 200. O número necessário para tratar se refere a um período e deve ser comparado ao número necessário para causar dano.",
   "porAlt": [
-   "Existem vias administrativas e protocolos que permitem acesso a fármacos em situações específicas.",
-   "A via judicial é último recurso, e não o primeiro caminho a ser orientado ao paciente.",
-   "Prescrever sem discutir acesso e alternativas deixa o paciente sem tratamento efetivo na prática.",
-   "Correta: explicar as vias formais de solicitação e avaliar alternativas terapêuticas disponíveis.",
-   "Nem sempre a compra própria é a única alternativa, e há opções terapêuticas disponíveis no sistema."
+   "50% é a redução relativa; o número necessário para tratar se calcula pela absoluta.",
+   "A diferença é de 4 pontos (8% − 4%), não 2.",
+   "200 é o número necessário para causar dano (1/0,005).",
+   "8% − 4% = 4 pontos; número necessário para tratar = 1/0,04 = 25 pessoas por 5 anos.",
+   "1/0,08 não corresponde a nenhuma medida de efeito."
   ]
  },
  {
-  "q": "Um médico se depara com paciente estrangeiro sem documentação brasileira que procura atendimento. Qual é a conduta?",
+  "q": "Mulher de 48 anos com artrite reumatoide ativa, em uso de metotrexato 25 mg/semana e leflunomida, com DAS28 de 5,4 após 6 meses e falha documentada, tem indicação de adalimumabe. Mora em município de 60.000 habitantes. Pergunta ao reumatologista do ambulatório do SUS como conseguir o medicamento, de alto custo, sem precisar entrar na Justiça. Tem os exames de rastreio de tuberculose e hepatites. A prescrição anterior foi feita em outro estado. Qual é a orientação correta?",
   "alts": [
-   "Negar o atendimento até que o paciente apresente documentação brasileira válida no serviço de saúde.",
-   "Atender apenas mediante pagamento particular, já que o estrangeiro não tem direito ao atendimento público.",
-   "Encaminhar imediatamente à autoridade migratória antes de qualquer avaliação clínica do paciente.",
-   "Atender apenas em caso de risco iminente de morte, já negando qualquer outro tipo de atendimento agora.",
-   "Atender normalmente, pois o direito à saúde no Brasil independe sempre da nacionalidade do usuário."
+   "Só por ação judicial contra o município",
+   "Comprar e pedir reembolso ao SUS",
+   "Componente Especializado, segundo o PCDT",
+   "Farmácia Popular com receita simples",
+   "Pedir ao laboratório como doação"
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, Portaria de Consolidação n. 2, 2017 (Componente Especializado da Assistência Farmacêutica); PCDT Artrite Reumatoide, 2021",
+  "coment": "A assistência farmacêutica do SUS se organiza em três componentes: Básico (atenção primária, responsabilidade municipal), Estratégico (programas como tuberculose, HIV e hanseníase) e Especializado (doenças crônicas e raras de maior custo, com protocolos clínicos e diretrizes terapêuticas). Adalimumabe para artrite reumatoide integra o Componente Especializado: o médico preenche o Laudo para Solicitação, Avaliação e Autorização de Medicamentos (LME) com os critérios do PCDT, e a dispensação ocorre pela secretaria estadual.",
+  "porAlt": [
+   "Medicamentos do Componente Especializado são fornecidos administrativamente, sem ação judicial.",
+   "Não existe reembolso por compra particular.",
+   "Imunobiológicos para artrite reumatoide são do Componente Especializado: laudo, exames e critérios do PCDT, com dispensação pela farmácia estadual.",
+   "Farmácia Popular não fornece imunobiológicos.",
+   "Doação por laboratório não é a via do SUS."
+  ]
+ },
+ {
+  "q": "Homem de 31 anos, venezuelano, chegou ao Brasil há 2 semanas, ainda sem CPF nem cartão do SUS, e procura a unidade básica com febre, dor no corpo e manchas vermelhas há 3 dias. Está acompanhado por voluntária de uma ONG de acolhimento de migrantes e fala pouco português. A recepcionista afirma que estrangeiro sem documento só pode ser atendido na emergência hospitalar. Tem passaporte. Qual é a conduta correta?",
+  "alts": [
+   "Encaminhar ao consulado para autorização",
+   "Atender só após emissão do CPF",
+   "Encaminhar ao pronto-socorro do hospital regional",
+   "Cobrar a consulta por não ser brasileiro",
+   "Atender na unidade e fazer o cadastro no SUS"
   ],
   "gab": 4,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
-  "nivel": "r1",
-  "base": "Constituição Federal, artigo 196; Lei nº 8.080/1990; Lei de Migração nº 13.445/2017",
-  "coment": "A Constituição estabelece a saúde como direito de todos e dever do Estado, e a Lei de Migração garante ao migrante, independentemente de situação documental, o direito de acesso a serviços públicos de saúde em igualdade com os nacionais. Não cabe exigir documento como condição de atendimento nem comunicar autoridade migratória. Negar assistência configura violação de direito humano e infração ética do profissional envolvido.",
+  "nivel": "r2",
+  "base": "Lei n. 13.445, de 24 de maio de 2017 (Lei de Migração); Lei n. 8.080, de 1990",
+  "coment": "A Constituição (artigo 196), a Lei 8.080/1990 e a Lei de Migração (Lei 13.445/2017, artigo 4º) garantem ao migrante acesso a serviços públicos de saúde, sem discriminação por nacionalidade ou condição migratória. O cartão do SUS pode ser emitido com passaporte ou outro documento, e sua ausência não impede o atendimento. Febre com exantema exige investigar arboviroses e doenças exantemáticas imunopreveníveis, como sarampo, que são de notificação compulsória.",
   "porAlt": [
-   "Condicionar o atendimento à documentação nega direito garantido e configura infração ética.",
-   "O acesso é universal e gratuito, sem exigência de pagamento por parte do usuário estrangeiro.",
-   "Não cabe ao serviço de saúde comunicar autoridade migratória nem condicionar o cuidado a isso.",
-   "Restringir a risco de morte iminente contraria a integralidade e a universalidade do sistema.",
-   "Correta: atender normalmente, pois o direito à saúde independe da nacionalidade ou da documentação."
+   "Não há exigência de autorização consular para atendimento.",
+   "CPF não é condição para atendimento.",
+   "O quadro é de atenção primária e de vigilância; transferir não se justifica.",
+   "O SUS é gratuito para brasileiros e estrangeiros no território.",
+   "Constituição e Lei de Migração garantem acesso universal: atender, investigar arboviroses e sarampo e cadastrar."
   ]
  },
  {
-  "q": "Uma equipe atende idoso trazido por vizinho com sinais de negligência e lesões inexplicadas. Qual é a conduta?",
+  "q": "Mulher de 84 anos, com demência moderada, é trazida ao pronto-socorro por um vizinho, que a encontrou sozinha em casa, desidratada e com fezes na roupa. Tem lesão por pressão sacral grau 3, equimoses em diferentes estágios nos braços e perda de 7 kg. Mora com um sobrinho que administra a aposentadoria dela e não foi localizado. Glicemia 88 mg/dL, sódio 152 mEq/L. Qual é a conduta, além do tratamento clínico?",
   "alts": [
-   "Acolher, notificar compulsoriamente e comunicar sempre a autoridade competente conforme a legislação.",
-   "Registrar apenas em prontuário e liberar o idoso de volta ao mesmo domicílio, sem qualquer comunicação.",
-   "Aguardar que o próprio idoso solicite formalmente qualquer providência antes de qualquer notificação.",
-   "Encaminhar exclusivamente à delegacia sem qualquer avaliação clínica ou notificação do caso identificado.",
-   "Notificar apenas se houver confissão do agressor durante o atendimento realizado no serviço de saúde."
+   "Dar alta ao sobrinho assim que ele chegar",
+   "Notificar e comunicar a autoridade competente",
+   "Registrar só as lesões, sem comunicação",
+   "Aguardar a família explicar antes de notificar",
+   "Transferir de imediato a uma instituição de longa permanência"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Estatuto da Pessoa Idosa, Lei nº 10.741/2003, artigo 19; Ministério da Saúde, Guia de Vigilância em Saúde, 2024",
-  "coment": "O Estatuto da Pessoa Idosa determina que casos suspeitos ou confirmados de violência contra idoso sejam obrigatoriamente comunicados pelos profissionais de saúde à autoridade sanitária e a uma das instâncias de proteção: autoridade policial, Ministério Público ou conselho do idoso. A notificação é compulsória, independe de confirmação e de autorização, e a avaliação inclui exame clínico completo, registro detalhado das lesões e avaliação do risco de retorno ao domicílio.",
+  "base": "Lei n. 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), artigo 19; Ministério da Saúde, Portaria de Consolidação n. 4, 2017",
+  "coment": "O Estatuto da Pessoa Idosa (Lei 10.741/2003, artigo 19) obriga os serviços de saúde a notificar casos suspeitos ou confirmados de violência contra a pessoa idosa e a comunicá-los a autoridade policial, Ministério Público ou Conselhos da Pessoa Idosa. A violência também é de notificação compulsória no SINAN. Negligência, abandono e violência física e financeira frequentemente coexistem. O serviço social articula a rede de proteção antes da alta.",
   "porAlt": [
-   "Correta: acolher, notificar compulsoriamente e comunicar a autoridade competente conforme a lei.",
-   "Devolver ao mesmo domicílio sem comunicação mantém o idoso exposto ao agressor e ao risco.",
-   "A notificação independe de solicitação da vítima e é dever legal do profissional de saúde.",
-   "Encaminhar sem avaliar nega assistência clínica devida e não cumpre a notificação sanitária.",
-   "A notificação decorre da suspeita e não exige confissão nem comprovação prévia da violência."
+   "Suspeita de violência exige proteção antes da alta ao possível responsável.",
+   "Suspeita de negligência e violência contra pessoa idosa: notificação no SINAN e comunicação à autoridade competente, com serviço social.",
+   "O Estatuto da Pessoa Idosa obriga a comunicação dos casos suspeitos.",
+   "A notificação é feita na suspeita, sem esperar confirmação.",
+   "A decisão sobre moradia vem após avaliação da rede de proteção."
   ]
  },
  {
@@ -21288,243 +21288,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Um serviço deseja implantar um protocolo clínico institucional. Qual é o passo metodológico correto?",
+  "q": "Médica de 38 anos, coordenadora da comissão de protocolos de um hospital de 250 leitos, adapta uma diretriz internacional de sepse. Uma recomendação aparece como condicional, com evidência de baixa certeza, e outra como forte, com evidência de certeza moderada. Um diretor pergunta como o protocolo deve tratar cada uma na prática dos 40 médicos do pronto-socorro. O protocolo será usado para auditoria de prontuários. Qual interpretação está correta?",
   "alts": [
-   "Copiar integralmente um protocolo estrangeiro sem qualquer adaptação à realidade e aos recursos locais.",
-   "Basear o protocolo apenas na opinião do profissional mais experiente do serviço, sem qualquer referência externa.",
-   "Basear o protocolo em diretrizes vigentes e adaptar à realidade local, revisando sempre em prazo definido.",
-   "Elaborar o protocolo e nunca revisá-lo, pois a conduta clínica não se altera com o passar dos anos agora.",
-   "Basear o protocolo apenas no custo dos insumos, sem qualquer consideração sobre eficácia ou segurança."
+   "Forte para a maioria; condicional caso a caso",
+   "Condicional: obrigatória por ser mais recente",
+   "Forte: vale apenas com evidência de alta certeza",
+   "As duas têm o mesmo peso no protocolo",
+   "Baixa certeza deve ser excluída do protocolo"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "sus",
   "cenario": "amb",
-  "comp": "prev",
+  "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde. Diretrizes metodológicas para elaboração de diretrizes clínicas, 2022; GRADE Working Group",
-  "coment": "Um protocolo institucional deve partir de diretrizes vigentes de boa qualidade, avaliadas por instrumentos como o AGREE, e ser adaptado ao contexto local: recursos disponíveis, perfil epidemiológico, fluxos assistenciais e capacidade instalada. É elaborado com participação multiprofissional, aprovado formalmente, difundido com treinamento e, sobretudo, tem prazo definido de revisão, porque a evidência muda e o protocolo desatualizado passa a induzir conduta errada.",
+  "base": "Guyatt et al., GRADE: an emerging consensus on rating quality of evidence and strength of recommendations, BMJ, 2008; Ministério da Saúde, Diretrizes metodológicas: Sistema GRADE, 2014",
+  "coment": "No sistema GRADE, a certeza da evidência (alta, moderada, baixa, muito baixa) e a força da recomendação (forte ou condicional) são avaliadas separadamente. Recomendação forte significa que os benefícios claramente superam os riscos e que quase todos os pacientes informados escolheriam a conduta, podendo virar indicador de qualidade. Recomendação condicional indica que a decisão depende de valores, preferências, recursos e contexto, e deve ser individualizada.",
   "porAlt": [
-   "Copiar sem adaptar ignora recursos, epidemiologia e fluxos locais e gera protocolo inaplicável.",
-   "A opinião isolada, mesmo experiente, não substitui a evidência sistematizada em diretrizes.",
-   "Correta: partir de diretrizes vigentes, adaptar à realidade local e definir prazo de revisão periódica.",
-   "A evidência muda e o protocolo sem revisão passa a induzir conduta desatualizada e insegura.",
-   "Considerar apenas custo, sem eficácia e segurança, produz protocolo que pode causar dano."
+   "Forte: a maioria dos pacientes informados escolheria a conduta; condicional: a escolha varia com valores, contexto e recursos.",
+   "A força não depende da data.",
+   "Recomendação forte pode se basear em certeza moderada.",
+   "Forte e condicional têm implicações diferentes para protocolos e indicadores.",
+   "Recomendações condicionais com baixa certeza podem constar, com decisão compartilhada."
   ]
  },
  {
-  "q": "Um paciente relata dificuldade de acesso a exames de média complexidade no território. Qual é o papel da regulação?",
+  "q": "Mulher de 61 anos, atendida na unidade básica, tem nódulo de mama de 2,5 cm, endurecido, com linfonodo axilar palpável, e mamografia BI-RADS 5. A médica solicita biópsia e consulta com mastologista, cuja fila regulada tem 4 meses de espera e 180 pessoas aguardando. Outra paciente, de 45 anos, aguarda a mesma consulta por nódulo BI-RADS 3 há 2 meses. A unidade usa o sistema de regulação municipal. Qual é o papel da regulação nesse caso?",
   "alts": [
-   "Distribuir as vagas por sorteio aleatório, sem qualquer consideração sobre gravidade ou prioridade clínica agora.",
-   "Organizar filas por critério clínico e garantir sempre transparência e equidade na alocação das vagas disponíveis.",
-   "Atender estritamente por ordem de chegada, sem qualquer classificação de risco ou prioridade clínica definida.",
-   "Priorizar apenas os pacientes que apresentarem solicitação de médico do serviço privado do território neste caso.",
-   "Deixar a definição de prioridade inteiramente a critério individual de cada profissional solicitante, sem regras."
-  ],
-  "gab": 1,
-  "tema": "sus",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "Política Nacional de Regulação do SUS, Portaria GM/MS nº 1.559/2008 com atualizações; Lei nº 8.080/1990",
-  "coment": "A regulação assistencial organiza o acesso a serviços de média e alta complexidade, ordenando a fila por critérios clínicos de risco e prioridade, e não por ordem de chegada ou influência pessoal. Isso operacionaliza os princípios de equidade e integralidade, permitindo que o paciente mais grave seja atendido primeiro, e exige transparência dos critérios, protocolos de regulação explícitos e monitoramento dos tempos de espera por procedimento.",
-  "porAlt": [
-   "O sorteio ignora gravidade clínica e produz desfechos piores em quem precisa com urgência.",
-   "Correta: organizar as filas por critério clínico com transparência e equidade na alocação das vagas.",
-   "A ordem de chegada não distingue gravidade e faz o paciente grave esperar atrás de casos leves.",
-   "Privilegiar solicitação do setor privado fere a equidade e o caráter público do sistema.",
-   "Sem regras explícitas, a alocação fica sujeita a influência pessoal e perde a equidade."
-  ]
- },
- {
-  "q": "Um médico identifica erro em prescrição própria que causou dano leve ao paciente. Qual é a conduta ética?",
-  "alts": [
-   "Ocultar o erro do paciente para preservar a relação de confiança construída durante o acompanhamento clínico.",
-   "Atribuir o erro a outro profissional da equipe para evitar desgaste pessoal com o paciente e a família agora.",
-   "Registrar apenas em prontuário sem qualquer comunicação ao paciente sobre o erro identificado na prescrição.",
-   "Suspender o acompanhamento do paciente e encaminhá-lo a outro serviço sem qualquer explicação do ocorrido.",
-   "Informar o paciente, corrigir o erro e registrar o ocorrido, adotando sempre medidas para evitar recorrência."
-  ],
-  "gab": 4,
-  "tema": "sus",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; OMS, Patient Safety, diretrizes sobre divulgação de incidentes, revisão 2023",
-  "coment": "A comunicação honesta de incidentes é dever ético e prática recomendada de segurança do paciente: informar o que ocorreu, o impacto, as medidas de correção adotadas e o que será feito para evitar recorrência, com registro em prontuário e notificação ao sistema institucional de segurança. Ocultar o erro viola a autonomia e a confiança, e a análise do incidente deve buscar causas sistêmicas, não apenas culpar o indivíduo envolvido.",
-  "porAlt": [
-   "Ocultar o erro viola a autonomia do paciente e destrói a confiança quando descoberto depois.",
-   "Atribuir a culpa a outro profissional é conduta antiética e impede a análise real do incidente.",
-   "O registro sem comunicação não cumpre o dever de informar o paciente sobre o que lhe ocorreu.",
-   "Abandonar o acompanhamento sem explicação configura abandono e agrava a falha ética cometida.",
-   "Correta: informar o paciente, corrigir o erro, registrar e adotar medidas para evitar recorrência."
-  ]
- },
- {
-  "q": "Uma equipe deseja avaliar se um novo fluxo reduziu o tempo de espera. Qual indicador é apropriado?",
-  "alts": [
-   "Número absoluto de atendimentos realizados, indicador que mede diretamente a redução do tempo de espera.",
-   "Satisfação geral dos profissionais da equipe, indicador que expressa o tempo de espera dos pacientes atendidos.",
-   "Quantidade de reuniões realizadas para discutir o novo fluxo implantado no serviço durante o período agora.",
-   "Número de cartazes afixados na unidade informando sobre o novo fluxo de atendimento implantado neste caso.",
-   "Tempo mediano entre solicitação e atendimento, comparado sempre entre períodos com metodologia equivalente."
-  ],
-  "gab": 4,
-  "tema": "sus",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "Ministério da Saúde. Diretrizes metodológicas de avaliação em saúde, 2022; IHI Quality Improvement framework",
-  "coment": "A avaliação de melhoria exige indicador que meça diretamente o desfecho de interesse, colhido da mesma forma antes e depois da intervenção. Para tempo de espera, usa-se o intervalo entre solicitação e atendimento, preferindo a mediana à média por ser menos sensível a valores extremos, e complementando com percentis para descrever a cauda da distribuição. Indicadores de processo e de estrutura complementam, mas não substituem a medida do desfecho.",
-  "porAlt": [
-   "O número de atendimentos mede volume de produção e não informa sobre o tempo de espera.",
-   "A satisfação dos profissionais é indicador indireto e não mede o tempo real de espera do usuário.",
-   "O número de reuniões mede atividade administrativa, sem relação com o desfecho de interesse.",
-   "Cartazes afixados medem difusão da informação e não o tempo de espera efetivamente observado.",
-   "Correta: tempo mediano entre solicitação e atendimento, comparado entre períodos com mesma metodologia."
-  ]
- },
- {
-  "q": "Um paciente adulto capaz recusa transfusão de sangue por convicção religiosa em situação eletiva. Qual é a conduta?",
-  "alts": [
-   "Transfundir contra a vontade do paciente adulto capaz em qualquer situação clínica eletiva do serviço neste caso.",
-   "Respeitar a recusa e buscar alternativas terapêuticas, registrando sempre o esclarecimento e a decisão do paciente.",
-   "Recusar completamente o atendimento ao paciente que não aceita transfusão em procedimento eletivo nesse contexto.",
-   "Solicitar autorização judicial em todos os casos de recusa de transfusão por paciente adulto e capaz neste caso.",
-   "Transferir a decisão integralmente aos familiares, desconsiderando a manifestação do próprio paciente capaz agora."
-  ],
-  "gab": 1,
-  "tema": "sus",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018; Recomendação CFM nº 1/2016 sobre recusa terapêutica",
-  "coment": "O paciente adulto e capaz tem direito de recusar tratamento específico, inclusive transfusão, em situação eletiva, e essa recusa deve ser respeitada e registrada após esclarecimento completo sobre riscos e alternativas. O médico deve buscar estratégias de poupança de sangue: otimização pré-operatória com ferro e agentes estimuladores, técnicas cirúrgicas hemostáticas, ácido tranexâmico e recuperação intraoperatória. Situações de emergência com risco iminente de morte envolvem discussão distinta.",
-  "porAlt": [
-   "Transfundir contra a vontade de paciente capaz em situação eletiva viola sua autonomia pessoal.",
-   "Correta: respeitar a recusa e buscar alternativas terapêuticas, com registro do esclarecimento e da decisão.",
-   "Recusar o atendimento por causa da recusa terapêutica configura abandono e infração ética.",
-   "A autorização judicial não é necessária diante da recusa de paciente adulto, capaz e esclarecido.",
-   "A decisão pertence ao paciente capaz, e transferi-la à família desrespeita sua autonomia."
-  ]
- },
- {
-  "q": "Uma equipe atende comunidade com alta prevalência de verminoses e falta de saneamento. Qual é a abordagem mais efetiva?",
-  "alts": [
-   "Tratamento medicamentoso isolado repetido indefinidamente, sem qualquer ação sobre as condições de saneamento agora.",
-   "Encaminhar todos os casos ao serviço terciário, retirando a atuação da equipe de atenção primária local neste caso.",
-   "Aguardar que a prefeitura resolva o saneamento antes de qualquer tratamento dos casos identificados neste caso já.",
-   "Prescrever apenas suplementação vitamínica como abordagem principal do problema identificado na comunidade agora.",
-   "Tratamento associado a ações intersetoriais de saneamento e educação, atuando sempre sobre os determinantes sociais."
-  ],
-  "gab": 4,
-  "tema": "sus",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Ministério da Saúde (Guia de Vigilância em Saúde, 2024; OMS) Guideline on control of soil-transmitted helminth infections, 2023",
-  "coment": "As geo-helmintíases são doenças ligadas a determinantes sociais: sem saneamento, água tratada e educação em saúde, a reinfestação após o tratamento é rápida e o ciclo se mantém. A abordagem efetiva combina tratamento, individual ou em massa conforme a prevalência, com ações intersetoriais de saneamento, acesso à água, destino de dejetos, higiene e educação. A atenção primária tem papel central por conhecer o território e articular os setores.",
-  "porAlt": [
-   "O tratamento isolado é seguido de reinfestação rápida enquanto o ambiente permanece contaminado.",
-   "Encaminhar ao terciário desorganiza a rede e não atua sobre a causa no território adscrito.",
-   "Adiar o tratamento até a resolução do saneamento deixa a população doente por tempo indeterminado.",
-   "A suplementação vitamínica não trata a parasitose nem interrompe o ciclo de transmissão.",
-   "Correta: tratamento associado a ações intersetoriais de saneamento e educação sobre os determinantes."
-  ]
- },
- {
-  "q": "Um paciente pergunta sobre participar de um ensaio clínico. Qual é a orientação ética correta?",
-  "alts": [
-   "Afirmar que a participação é obrigatória para continuar recebendo atendimento no serviço de saúde atual agora.",
-   "Omitir os riscos do estudo para não desestimular a participação do paciente na pesquisa proposta neste caso.",
-   "Garantir ao paciente que ele necessariamente receberá o tratamento experimental, e não o comparador do estudo.",
-   "Decidir pelo paciente sobre a participação, sem qualquer necessidade de consentimento livre e esclarecido.",
-   "Explicar objetivos, riscos e o direito de recusar ou desistir, garantindo sempre que a decisão seja voluntária."
-  ],
-  "gab": 4,
-  "tema": "sus",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "Resolução CNS nº 466/2012 e nº 510/2016; Declaração de Helsinque, revisão 2024; Código de Ética Médica, 2018",
-  "coment": "A participação em pesquisa exige consentimento livre e esclarecido: informação clara sobre objetivos, procedimentos, riscos, benefícios possíveis, alternativas de tratamento fora do estudo, sigilo dos dados e, principalmente, o direito de recusar ou de desistir a qualquer momento sem qualquer prejuízo ao cuidado recebido. O paciente deve compreender a aleatorização e a possibilidade de receber o comparador, e não deve haver coerção nem promessa de benefício.",
-  "porAlt": [
-   "Condicionar o atendimento à participação é coerção e viola frontalmente a ética em pesquisa.",
-   "Omitir riscos invalida o consentimento e configura infração ética grave do pesquisador.",
-   "Em estudo randomizado não se pode garantir qual braço o participante receberá durante a pesquisa.",
-   "A participação exige consentimento do próprio paciente, que jamais é dispensável nesse contexto.",
-   "Correta: explicar objetivos, riscos e o direito de recusar ou desistir, garantindo decisão voluntária."
-  ]
- },
- {
-  "q": "Uma unidade de saúde registra aumento de casos de sífilis em gestantes no território. Qual é a resposta adequada?",
-  "alts": [
-   "Aguardar orientação estadual antes de qualquer ação local diante do aumento de casos identificado no território.",
-   "Encaminhar todos os casos ao serviço terciário sem qualquer ação de testagem ou tratamento na primária.",
-   "Reduzir a testagem para diminuir o número de casos registrados nas estatísticas do território adscrito.",
-   "Ampliar testagem e tratamento com busca de parcerias, investigando sempre as falhas no fluxo do pré-natal.",
-   "Tratar apenas as gestantes e nunca as parcerias sexuais, que não influenciam a transmissão da doença."
+   "Manter a ordem de chegada para garantir justiça",
+   "Encaminhar a paciente por conta própria ao hospital",
+   "Pedir que a família busque atendimento particular",
+   "Priorizar pelo risco clínico com critérios públicos",
+   "Excluir da fila quem tem BI-RADS 3"
   ],
   "gab": 3,
   "tema": "sus",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde. PCDT para Atenção Integral às Pessoas com IST, 2022; Guia de Vigilância em Saúde, 2024",
-  "coment": "O aumento de sífilis em gestantes indica falha no fluxo do pré-natal, e a resposta combina ampliar testagem, no primeiro e no terceiro trimestre e no parto, garantir tratamento imediato com penicilina benzatina na própria unidade, tratar as parcerias sexuais, que é o ponto mais frequentemente falho e causa de reinfecção, e investigar barreiras como falta de insumo, medo de reação alérgica e captação tardia. A sífilis congênita é evento sentinela evitável.",
+  "base": "Ministério da Saúde, Portaria GM/MS n. 1.559, de 2008 (Política Nacional de Regulação); Lei n. 13.896, de 2019",
+  "coment": "A Política Nacional de Regulação (Portaria GM/MS n. 1.559/2008) organiza o acesso com base em protocolos clínicos e classificação de risco, garantindo equidade: quem tem maior risco é atendido antes. Suspeita de câncer, como mamografia BI-RADS 5, tem prioridade, e a Lei 13.896/2019 garante a realização dos exames diagnósticos em até 30 dias quando há suspeita de neoplasia. A atenção primária solicita com informação clínica suficiente e acompanha a fila.",
   "porAlt": [
-   "Aguardar orientação estadual atrasa uma resposta que é competência e capacidade da própria equipe.",
-   "Encaminhar ao terciário retira da primária uma ação simples, resolutiva e de sua competência.",
-   "Reduzir a testagem esconde o problema e aumenta os casos de sífilis congênita no território.",
-   "Correta: ampliar testagem e tratamento com busca de parcerias e investigação das falhas do pré-natal.",
-   "Não tratar as parcerias mantém a reinfecção da gestante e perpetua a transmissão no território."
+   "Ordem de chegada ignora a gravidade e fere a equidade.",
+   "Encaminhar fora do fluxo desorganiza a rede e não garante vaga.",
+   "Transferir o custo à família fere a universalidade.",
+   "Regulação classifica os pedidos por prioridade clínica com critérios e protocolos públicos: BI-RADS 5 tem prioridade alta.",
+   "BI-RADS 3 segue com prioridade menor, sem exclusão."
   ]
  },
  {
-  "q": "Um médico é solicitado a preencher declaração de óbito de paciente que acompanhava, com causa natural conhecida. Qual é a conduta?",
+  "q": "Médico de 34 anos percebe, ao revisar o prontuário no dia seguinte, que prescreveu enoxaparina 80 mg de 12/12 horas a um homem de 78 anos, 60 kg, com creatinina de 2,3 mg/dL, quando a intenção era dose profilática. O paciente teve hematoma na parede abdominal, sem instabilidade, e a hemoglobina caiu 1,2 g/dL. A prescrição já foi corrigida. O paciente está lúcido e pergunta o que aconteceu. Qual é a conduta ética?",
   "alts": [
-   "Registrar apenas parada cardiorrespiratória como causa básica do óbito em todos os casos de morte natural neste caso.",
-   "Recusar o preenchimento em todos os casos, encaminhando o corpo ao instituto médico legal como rotina nesse contexto.",
-   "Preencher a declaração deixando em branco todos os campos referentes às causas do óbito do paciente nesse contexto.",
-   "Registrar apenas a causa que a família preferir constar no documento, independentemente da evolução clínica agora.",
-   "Preencher a declaração informando a cadeia causal completa, evitando sempre registrar apenas parada cardíaca como causa."
-  ],
-  "gab": 4,
-  "tema": "sus",
-  "cenario": "enf",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Ministério da Saúde. Manual de Instruções para o Preenchimento da Declaração de Óbito, revisão 2022; Resolução CFM sobre declaração de óbito",
-  "coment": "A declaração de óbito é documento médico e fonte primária das estatísticas de mortalidade que orientam políticas de saúde. Em morte natural com assistência médica, o médico assistente preenche o documento registrando a cadeia causal: causa imediata, causas intermediárias e, na última linha, a causa básica, que é a doença que iniciou a sequência. Registrar apenas parada cardiorrespiratória é erro grave, pois é o modo de morrer e não informa a causa.",
-  "porAlt": [
-   "Parada cardiorrespiratória é o modo de morrer e não informa a causa básica que iniciou a sequência.",
-   "A recusa é indevida em morte natural com assistência médica, que não é caso de necropsia legal.",
-   "Deixar as causas em branco inviabiliza o registro e as estatísticas de mortalidade do país.",
-   "O documento registra a verdade clínica, e não a preferência da família sobre o que constar.",
-   "Correta: preencher informando a cadeia causal completa, sem registrar parada cardíaca como causa básica."
-  ]
- },
- {
-  "q": "Uma equipe atende paciente com transtorno por uso de substâncias que deseja tratamento. Qual é a abordagem adequada?",
-  "alts": [
-   "Condicionar qualquer atendimento à abstinência completa prévia do paciente antes de iniciar o acompanhamento agora.",
-   "Encaminhar exclusivamente para internação prolongada compulsória em todos os casos de uso de substâncias agora.",
-   "Acolher sem julgamento e articular a rede de atenção psicossocial, adotando sempre estratégias de redução de danos.",
-   "Negar o atendimento clínico até que o paciente comprove ter interrompido totalmente o uso da substância agora.",
-   "Prescrever apenas benzodiazepínico contínuo como tratamento definitivo do transtorno por uso de substâncias agora."
+   "Corrigir e não comentar para evitar processo",
+   "Registrar como reação adversa inesperada",
+   "Informar o paciente, registrar e notificar",
+   "Atribuir o erro à farmácia que dispensou",
+   "Pedir à enfermagem que registre no lugar dele"
   ],
   "gab": 2,
   "tema": "sus",
   "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Código de Ética Médica, Resolução CFM n. 2.217, 2018; ANVISA, RDC n. 36, de 25 de julho de 2013",
+  "coment": "O Código de Ética Médica veda deixar de assumir responsabilidade sobre procedimento que indicou ou de que participou e deixar de informar o paciente sobre sua condição (artigo 34). A cultura de segurança recomenda a divulgação aberta de incidentes com dano, com pedido de desculpas, explicação do ocorrido e das medidas adotadas. A RDC 36/2013 da ANVISA exige que os núcleos de segurança do paciente notifiquem eventos adversos e analisem as causas para evitar recorrência.",
+  "porAlt": [
+   "Omitir o erro fere o dever de informar e impede o aprendizado institucional.",
+   "Registrar como reação inesperada é informação falsa.",
+   "Comunicar o incidente ao paciente, documentar, notificar ao núcleo de segurança e acompanhar o dano.",
+   "Transferir a responsabilidade é antiético; a análise do sistema cabe ao núcleo de segurança.",
+   "O registro é responsabilidade de quem prescreveu."
+  ]
+ },
+ {
+  "q": "Um teste de rastreio para hepatite C tem sensibilidade de 98% e especificidade de 98%. Em um centro de tratamento de dependência química, com prevalência de 20%, o valor preditivo positivo foi de 92%. O mesmo teste será usado em uma campanha com 10.000 doadores de sangue de 18 a 60 anos, população com prevalência de 0,5%. O gestor pretende informar o resultado positivo diretamente aos doadores. Qual será, aproximadamente, o valor preditivo positivo nessa população?",
+  "alts": [
+   "92%, pois o teste é o mesmo",
+   "Cerca de 20%",
+   "98%, como a sensibilidade",
+   "Cerca de 50%",
+   "Mais de 99%"
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Fletcher, Fletcher e Fletcher, Epidemiologia Clínica: elementos essenciais, 5ª edição, 2014",
+  "coment": "O valor preditivo positivo depende da prevalência. Com 10.000 pessoas e prevalência de 0,5%, há 50 infectados, e a sensibilidade de 98% dá 49 verdadeiros positivos. Entre 9.950 não infectados, 2% de falsos positivos são 199. Valor preditivo positivo = 49/(49 + 199) ≈ 20%: 4 em cada 5 positivos são falsos. Por isso, em rastreio de populações de baixa prevalência, o resultado positivo precisa de teste confirmatório (aqui, RNA do HCV).",
+  "porAlt": [
+   "O valor preditivo depende da prevalência, não só do teste.",
+   "50 infectados dão 49 verdadeiros positivos; 9.950 não infectados dão 199 falsos positivos: 49/248 ≈ 20%.",
+   "Sensibilidade é propriedade do teste, não valor preditivo.",
+   "O cálculo com 0,5% de prevalência dá cerca de 20%.",
+   "Baixa prevalência reduz o valor preditivo positivo."
+  ]
+ },
+ {
+  "q": "Mulher de 44 anos, testemunha de Jeová, lúcida e capaz, tem mioma uterino volumoso com anemia ferropriva (hemoglobina 7,8 g/dL) e indicação de histerectomia eletiva. Após explicação detalhada, recusa por escrito transfusão de sangue e hemocomponentes, mesmo em caso de risco. Aceita ferro endovenoso, eritropoetina e recuperação intraoperatória de sangue. Não há sangramento ativo nem urgência. Ela tem 2 filhos e deseja operar em 3 meses. Qual é a conduta?",
+  "alts": [
+   "Operar e transfundir se necessário, sem avisar",
+   "Pedir ordem judicial para transfundir",
+   "Recusar-se a operar e dar alta",
+   "Respeitar a recusa e otimizar a hemoglobina",
+   "Transfundir antes da cirurgia contra a vontade"
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Conselho Federal de Medicina, Resolução n. 2.232, de 2019",
+  "coment": "A Resolução CFM 2.232/2019 garante ao paciente maior de idade, capaz e esclarecido o direito de recusa terapêutica, que deve ser respeitada e registrada. Em situação eletiva, o médico pode alegar objeção de consciência e encaminhar a outro profissional, assegurando a continuidade. Em urgência com iminente perigo de morte, a resolução determina que o médico adote as medidas necessárias, independentemente da recusa. O gerenciamento de sangue do paciente inclui ferro endovenoso, eritropoetina, técnicas hemostáticas e recuperação intraoperatória.",
+  "porAlt": [
+   "Transfundir sem consentimento em situação eletiva fere a autonomia.",
+   "Em adulto capaz e situação eletiva, não há base para ordem judicial.",
+   "O médico pode alegar objeção de consciência, mas deve garantir a continuidade do cuidado.",
+   "Situação eletiva e paciente capaz: respeitar a recusa, registrar, otimizar a hemoglobina e planejar a conservação de sangue.",
+   "Transfusão forçada em situação eletiva é vedada."
+  ]
+ },
+ {
+  "q": "Uma equipe de Saúde da Família atende comunidade ribeirinha de 1.800 pessoas sem rede de esgoto e com água de poço raso. Em 6 meses, 42% das crianças de 2 a 10 anos tiveram parasitológico positivo para Ascaris e ancilostomídeos, e 15% delas têm anemia. A médica, de 30 anos, trata os casos, mas as reinfecções são frequentes. A escola local tem 320 alunos. Qual abordagem é mais efetiva?",
+  "alts": [
+   "Parasitológico mensal de toda a comunidade",
+   "Albendazol só nas crianças sintomáticas",
+   "Internar as crianças com anemia",
+   "Proibir o uso da água dos poços",
+   "Tratamento associado a saneamento e educação"
+  ],
+  "gab": 4,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "OMS, Guideline: preventive chemotherapy to control soil-transmitted helminth infections in at-risk population groups, 2017",
+  "coment": "Geo-helmintíases são determinadas pelas condições de saneamento e água. A OMS recomenda tratamento preventivo periódico com albendazol ou mebendazol quando a prevalência em escolares é de 20% ou mais, mas o controle duradouro depende de saneamento básico, água segura, higiene e educação em saúde, com articulação intersetorial. Anemia ferropriva associada deve ser tratada. É exemplo de ação sobre determinantes sociais da saúde prevista na Lei 8.080/1990.",
+  "porAlt": [
+   "Exames repetidos não interrompem a transmissão.",
+   "Tratar só sintomáticos mantém o reservatório e as reinfecções.",
+   "Internação não é necessária e não resolve a causa.",
+   "Proibir sem alternativa segura de água não é viável.",
+   "Tratamento, inclusive em massa na escola, com saneamento, água segura e educação em saúde."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos com insuficiência cardíaca, acompanhado no ambulatório de um hospital universitário, é convidado a participar de um ensaio clínico de fase 3 com um novo fármaco contra placebo, com duração de 2 anos. Tem ensino fundamental incompleto. Pergunta ao residente, de 27 anos, se será prejudicado no atendimento caso recuse ou desista no meio do estudo. O termo de consentimento tem 14 páginas. Qual é a orientação correta?",
+  "alts": [
+   "Pode recusar ou sair sem prejuízo ao atendimento",
+   "Após assinar o termo, não pode mais desistir",
+   "Recusar implica perder a vaga no ambulatório",
+   "Deve aceitar por ser paciente de hospital-escola",
+   "Só pode desistir com autorização do patrocinador"
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Conselho Nacional de Saúde, Resolução n. 466, de 12 de dezembro de 2012; Código de Ética Médica, Resolução CFM n. 2.217, 2018",
+  "coment": "A Resolução CNS 466/2012 exige participação livre e esclarecida, com Termo de Consentimento em linguagem acessível, informação sobre objetivos, métodos, riscos, benefícios, uso de placebo, ressarcimento e indenização, e garantia de recusar ou retirar o consentimento em qualquer fase, sem penalização nem prejuízo à assistência. O protocolo deve ter aprovação do sistema CEP/CONEP. O Código de Ética Médica reforça essas obrigações na pesquisa com seres humanos.",
+  "porAlt": [
+   "Participação voluntária, com direito de recusar ou retirar-se a qualquer momento, sem penalidade.",
+   "O participante pode retirar o consentimento em qualquer fase.",
+   "A recusa não pode gerar prejuízo no cuidado.",
+   "Ser atendido em hospital-escola não obriga a participar de pesquisa.",
+   "A desistência não depende de autorização."
+  ]
+ },
+ {
+  "q": "Gestante de 23 anos, com 16 semanas, tem teste rápido para sífilis reagente e VDRL de 1:16 no pré-natal. Não sabe quando se infectou, não tem lesões e não há registro de tratamento prévio. Não é alérgica a penicilina. O parceiro não compareceu à consulta. A unidade registrou aumento de 60% nos casos de sífilis em gestantes no último ano. Qual é o tratamento e a conduta com o parceiro?",
+  "alts": [
+   "Penicilina benzatina em dose única e tratar o parceiro se positivo",
+   "Ceftriaxona endovenosa por 10 dias",
+   "Benzatina 7,2 milhões em 3 semanas e convocar o parceiro",
+   "Aguardar o teste treponêmico do parto",
+   "Azitromicina 2 g em dose única"
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais, 2022",
+  "coment": "Na gestante, teste rápido reagente indica tratamento imediato, sem esperar o não treponêmico. Sífilis latente tardia ou de duração ignorada é tratada com benzilpenicilina benzatina 2,4 milhões UI por semana, por 3 semanas (7,2 milhões UI no total); só a penicilina trata o feto. A parceria sexual é convocada, testada e tratada presuntivamente com ao menos uma dose, mesmo com teste negativo. O VDRL é repetido mensalmente até o parto. Sífilis em gestante é de notificação compulsória.",
+  "porAlt": [
+   "Sífilis latente de duração ignorada exige 3 doses, e o parceiro é tratado presuntivamente.",
+   "Ceftriaxona não é a escolha na gestante sem alergia.",
+   "Latente de duração ignorada na gestação: benzatina 2,4 milhões UI semanais por 3 semanas, VDRL mensal e tratamento da parceria.",
+   "Adiar o tratamento expõe o feto à sífilis congênita.",
+   "Azitromicina não trata sífilis na gestação."
+  ]
+ },
+ {
+  "q": "Mulher de 89 anos, internada há 12 dias após queda da própria altura em casa, com fratura de colo de fêmur operada, evoluiu com pneumonia hospitalar e morreu hoje por choque séptico. O médico assistente, que a acompanhou durante toda a internação, prepara a declaração de óbito e pretende registrar choque séptico por pneumonia. A família pede que o corpo seja liberado logo. Qual é a conduta correta?",
+  "alts": [
+   "Emitir a declaração com causa natural por pneumonia",
+   "Encaminhar ao IML pela causa externa",
+   "Registrar apenas parada cardiorrespiratória",
+   "Deixar a causa como indeterminada",
+   "Emitir a declaração citando só a fratura"
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "enf",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Conselho Federal de Medicina, Resolução n. 1.779, 2005; Ministério da Saúde, Declaração de Óbito: manual de instruções para preenchimento, 2022",
+  "coment": "Na declaração de óbito registra-se a sequência causal que terminou na morte, começando pela causa básica. Quando a causa básica é externa (acidente, violência, suicídio), mesmo com morte tardia por complicações, como sepse após fratura de fêmur por queda, o óbito deve ser encaminhado ao Instituto Médico Legal, e a declaração é emitida pelo médico legista (Resolução CFM 1.779/2005). Em morte natural com assistência, o médico assistente emite a declaração; sem assistência, o Serviço de Verificação de Óbito.",
+  "porAlt": [
+   "A cadeia causal começa na queda, causa externa, o que exige necropsia médico-legal.",
+   "Morte decorrente, mesmo tardiamente, de queda com fratura é por causa externa: a declaração é emitida pelo IML.",
+   "Parada cardiorrespiratória é modo de morrer, não causa.",
+   "A causa é conhecida e não deve ficar indeterminada.",
+   "A cadeia deve ser completa, e a emissão cabe ao IML."
+  ]
+ },
+ {
+  "q": "Homem de 36 anos procura a unidade básica dizendo que quer parar de usar crack, que usa diariamente há 4 anos. Perdeu o emprego, dorme em casa de parentes e já tentou parar sozinho duas vezes. Não tem ideação suicida, sintomas psicóticos ou sinais de intoxicação agora. Pressão arterial 138/86 mmHg, emagrecido. Há um CAPS AD a 3 km da unidade. Mora com a mãe, que quer interná-lo à força. Qual é a abordagem mais adequada?",
+  "alts": [
+   "Exigir abstinência total antes de iniciar o acompanhamento",
+   "Internação compulsória em comunidade terapêutica",
+   "Benzodiazepínico em dose alta para a fissura",
+   "Acolher e construir plano com o CAPS AD",
+   "Encaminhar ao pronto-socorro psiquiátrico"
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde. Política Nacional sobre Drogas e Rede de Atenção Psicossocial; PCDT sobre uso de substâncias, 2022",
-  "coment": "A abordagem do transtorno por uso de substâncias parte do acolhimento sem julgamento e do vínculo, com articulação da rede de atenção psicossocial, incluindo centros de atenção psicossocial de álcool e drogas. A redução de danos é diretriz da política brasileira: reconhece que nem todo paciente está pronto para a abstinência e busca reduzir riscos enquanto o uso persiste. Exigir abstinência prévia afasta justamente quem mais precisa do cuidado.",
+  "base": "Ministério da Saúde, Portaria GM/MS n. 3.088, de 23 de dezembro de 2011 (Rede de Atenção Psicossocial)",
+  "coment": "A Rede de Atenção Psicossocial (Portaria GM/MS n. 3.088/2011) organiza o cuidado de pessoas com uso de álcool e outras drogas a partir da atenção primária e dos CAPS AD, com projeto terapêutico singular, abordagem motivacional, apoio social e redução de danos, sem exigir abstinência como condição de entrada. Internação é reservada a situações de risco, como intoxicação grave, abstinência complicada ou risco de suicídio, de preferência em leitos de hospital geral.",
   "porAlt": [
-   "Exigir abstinência prévia afasta o paciente do serviço e contraria a política vigente de cuidado.",
-   "A internação compulsória é excepcional e não é a abordagem para quem busca tratamento voluntariamente.",
-   "Correta: acolher sem julgamento, articular a rede psicossocial e adotar estratégias de redução de danos.",
-   "Negar atendimento a quem usa substâncias é discriminatório e configura infração ética grave.",
-   "O benzodiazepínico contínuo gera dependência adicional e não trata o transtorno de base."
+   "Exigir abstinência como condição afasta o usuário do cuidado.",
+   "Não há indicação de internação contra a vontade; ele busca tratamento.",
+   "Não há tratamento farmacológico aprovado para a fissura de crack, e benzodiazepínico em dose alta traz riscos.",
+   "Acolhimento sem julgamento, projeto terapêutico singular com o CAPS AD, abordagem motivacional e redução de danos.",
+   "Sem intoxicação, risco ou psicose, não há indicação de pronto-socorro."
   ]
  },
  {
@@ -21624,27 +21624,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com queixa de fadiga crônica e exames iniciais normais. Qual é a conduta?",
+  "q": "Mulher de 42 anos tem cansaço há 5 meses, sono não reparador e dificuldade de concentração. Hemograma, TSH, glicemia, ferritina, vitamina B12, função renal e hepática, proteína C reativa e sorologia para HIV normais. Relata separação recente, choro fácil e perda de interesse nas atividades. Ronca pouco, índice de massa corporal de 23 kg/m², sem medicamentos novos. PHQ-9 de 15, sem ideação suicida. Qual é a conduta mais adequada?",
   "alts": [
-   "Aprofundar a anamnese e investigar sono, humor e fármacos, evitando sempre a solicitação indiscriminada de exames.",
-   "Solicitar bateria ampla de exames laboratoriais e de imagem repetidamente até encontrar alguma alteração agora.",
-   "Prescrever apenas complexo vitamínico contínuo sem qualquer investigação adicional da causa da fadiga crônica.",
-   "Afirmar que a fadiga é imaginária e encerrar o acompanhamento sem qualquer investigação ou seguimento neste caso.",
-   "Iniciar corticoide sistêmico contínuo em dose alta como tratamento empírico da fadiga crônica descrita agora."
+   "Tratar o episódio depressivo e acompanhar",
+   "Ressonância de crânio e eletroneuromiografia",
+   "Sorologias amplas para vírus e autoimunidade",
+   "Polissonografia antes de qualquer tratamento",
+   "Suplementar vitamina D e zinco empiricamente"
   ],
   "gab": 0,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "NICE guideline NG206: Myalgic encephalomyelitis/chronic fatigue syndrome, 2021; ACP guidance on fatigue evaluation, revisão 2023",
-  "coment": "A fadiga crônica com exames iniciais normais pede aprofundamento clínico, e não ampliação indiscriminada de exames, que produz achados incidentais e ansiedade. Investigam-se qualidade e distúrbios do sono, depressão e ansiedade, uso de fármacos e substâncias, apneia obstrutiva, condições de trabalho e sobrecarga, dor crônica e descondicionamento. A validação da queixa é essencial: a fadiga é real e incapacitante, mesmo quando não há alteração laboratorial.",
+  "base": "NICE guideline NG222: Depression in adults: treatment and management, 2022; Kroenke et al., The PHQ-9, Journal of General Internal Medicine, 2001",
+  "coment": "Fadiga crônica com exames básicos normais deve ser investigada pela anamnese: depressão, ansiedade, distúrbios do sono, fármacos e sobrecarga. Humor deprimido, anedonia e PHQ-9 de 15 indicam episódio depressivo moderado a grave. Pedir exames indiscriminados a partir daí aumenta falsos positivos e medicaliza o sofrimento. A conduta é tratar a depressão com psicoterapia e antidepressivo, reavaliar o risco de suicídio e acompanhar.",
   "porAlt": [
-   "Correta: aprofundar a anamnese e investigar sono, humor e fármacos, sem solicitar exames indiscriminadamente.",
-   "Repetir baterias amplas produz achados incidentais, ansiedade e cascatas diagnósticas desnecessárias.",
-   "O complexo vitamínico sem deficiência documentada não trata a causa e adia a investigação real.",
-   "Negar a validade da queixa rompe o vínculo e deixa o paciente sem qualquer cuidado adequado.",
-   "O corticoide empírico não trata fadiga crônica e traz toxicidade significativa sem benefício."
+   "Humor deprimido, anedonia e PHQ-9 de 15 com exames normais: episódio depressivo; tratar e reavaliar.",
+   "Não há sinais neurológicos que justifiquem esses exames.",
+   "Painéis amplos sem suspeita clínica geram achados falsos e ansiedade.",
+   "Sem ronco relevante, sobrepeso ou sonolência, apneia é improvável.",
+   "Suplementação empírica não trata a causa provável."
   ]
  },
  {
