@@ -19604,7 +19604,7 @@ window.BANCO=[
    "TRALI costuma ter hipotensão e febre, sem sinais de sobrecarga.",
    "Não há urticária, sibilos ou hipotensão.",
    "Não há hemólise ou hipotensão, e hidratar pioraria.",
-   "Não há febre."
+   "Não há febre nem calafrios, e o quadro é de sobrecarga."
   ]
  },
  {
