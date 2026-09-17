@@ -5760,27 +5760,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 45 anos internada na enfermaria por lúpus eritematoso sistêmico em atividade, iniciando pulsoterapia com metilprednisolona e ciclofosfamida por nefrite. Qual é a medida profilática mais importante nesse contexto?",
+  "q": "Mulher de 45 anos com nefrite lúpica classe IV está internada iniciando pulsoterapia com metilprednisolona 500 mg por 3 dias, seguida de prednisona 1 mg/kg/dia, e ciclofosfamida endovenosa pelo esquema Euro-Lupus. Linfócitos de 700/mm³. Clearance de 62 mL/min, potássio de 4,6 mEq/L, sem alergia a sulfa, sem deficiência de G6PD. Não tem infecção ativa, e o IGRA foi negativo. Pesa 60 kg. Não tem diabetes ou hepatopatia. Qual medida preventiva é a mais adequada?",
   "alts": [
-   "Prescrever antibiótico de amplo espectro contínuo durante todo o período de imunossupressão dela.",
-   "Suspender a hidroxicloroquina durante a imunossupressão para reduzir a carga de fármacos prescritos.",
-   "Aplicar vacina de vírus vivo atenuado antes da alta para ampliar a proteção durante o tratamento.",
-   "Iniciar antifúngico profilático sistêmico para todos os pacientes que recebem pulsoterapia venosa.",
-   "Iniciar profilaxia para Pneumocystis com sulfametoxazol-trimetoprima e reforçar rastreio de infecções."
+   "Fluconazol profilático diário",
+   "Aciclovir em dose de tratamento",
+   "Isoniazida por 9 meses",
+   "Sulfametoxazol-trimetoprima em dose profilática",
+   "Azitromicina 1.200 mg semanal"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "reumato",
   "cenario": "enf",
   "comp": "prev",
   "nivel": "r3",
-  "base": "EULAR recommendations for the management of systemic lupus erythematosus, 2023; ACR Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases, 2022",
-  "coment": "Pacientes em imunossupressão intensa, especialmente com corticoide em dose alta associado a ciclofosfamida ou rituximabe, têm indicação de profilaxia para pneumocistose com sulfametoxazol-trimetoprima. Completam o cuidado o rastreio de tuberculose latente, hepatites B e C e HIV, a atualização vacinal com imunizantes não vivos e a manutenção da hidroxicloroquina, que reduz atividade, dano acumulado e mortalidade e deve ser mantida durante toda a imunossupressão.",
+  "base": "EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases, 2022",
+  "coment": "Pacientes com doença reumática em corticoide de 20 mg/dia ou mais de prednisona por 4 semanas ou mais, sobretudo associado a outro imunossupressor como ciclofosfamida, e com linfopenia, têm risco de pneumocistose grave. A profilaxia de escolha é sulfametoxazol-trimetoprima (1 comprimido de 400/80 mg ao dia ou de 800/160 mg 3 vezes por semana), com monitorização de hemograma, potássio e função renal. No lúpus há mais reações a sulfa, e alternativas são atovaquona ou dapsona (após G6PD). IGRA negativo dispensa isoniazida.",
   "porAlt": [
-   "Antibiótico de amplo espectro contínuo não é profilaxia e seleciona germes resistentes sem benefício.",
-   "A hidroxicloroquina deve ser mantida: reduz atividade da doença, dano acumulado e mortalidade.",
-   "Vacina de vírus vivo atenuado é contraindicada durante imunossupressão de alta intensidade.",
-   "O antifúngico profilático sistêmico não é recomendado de rotina em pulsoterapia por lúpus ativo.",
-   "Correta: profilaxia para pneumocistose com sulfametoxazol-trimetoprima, com rastreio de infecções latentes."
+   "Profilaxia antifúngica para Candida não é indicada de rotina.",
+   "Aciclovir em dose de tratamento não é profilaxia indicada aqui.",
+   "IGRA negativo não indica tratamento de tuberculose latente.",
+   "Corticoide em dose alta com ciclofosfamida e linfopenia: profilaxia para Pneumocystis com sulfametoxazol-trimetoprima.",
+   "Azitromicina é profilaxia de micobactérias atípicas no HIV avançado."
   ]
  },
  {
@@ -6192,75 +6192,75 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 52 anos, obeso e hipertenso, está no terceiro dia de crise de gota confirmada em primeiro pododáctilo, com boa resposta à anti-inflamatória. O ácido úrico é de 9,2 mg/dL e ele já teve três crises no último ano. Nunca usou terapia hipouricemiante. Qual é a conduta correta agora?",
+  "q": "Homem de 52 anos, obeso e hipertenso, tem a terceira crise de gota em 1 ano, confirmada por cristais, no primeiro pododáctilo. Está no terceiro dia de colchicina e naproxeno, com boa melhora. Ácido úrico de 8,9 mg/dL. Clearance de 78 mL/min. Usa hidroclorotiazida 25 mg. Sem tofos ou litíase. Descendência europeia, sem HLA-B*58:01 conhecido. Pesa 104 kg e bebe cerveja nos fins de semana. Qual é a conduta mais adequada sobre o tratamento hipouricemiante?",
   "alts": [
-   "Aguardar a resolução completa da crise por trinta dias antes de iniciar qualquer hipouricemiante.",
-   "Iniciar apenas dieta com restrição de purinas, que sozinha alcança o alvo de urato na maioria.",
-   "Prescrever colchicina em uso contínuo isolado, sem associar qualquer droga que reduza o urato.",
-   "Iniciar alopurinol já, sempre com profilaxia anti-inflamatória e alvo de urato abaixo de 6 mg/dL.",
-   "Indicar o febuxostate como primeira escolha em todos os pacientes com indicação de tratamento."
+   "Iniciar alopurinol 100 mg já, com profilaxia",
+   "Esperar 4 semanas após a crise para iniciar",
+   "Iniciar alopurinol 300 mg sem profilaxia",
+   "Febuxostate 80 mg como primeira escolha",
+   "Apenas dieta e reavaliar em 6 meses"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r3",
-  "base": "American College of Rheumatology 2020. Guideline for the Management of Gout",
-  "coment": "A diretriz de 2020 recomenda fortemente a terapia hipouricemiante para quem tem duas ou mais crises por ano, tofos ou dano radiográfico, este paciente teve três. O alopurinol é a primeira linha, inclusive em doença renal crônica, iniciado em dose baixa e titulado até o alvo de urato sérico abaixo de 6 mg/dL, com profilaxia anti-inflamatória por três a seis meses para evitar as crises de mobilização. Outra mudança relevante: não é preciso esperar a crise passar para começar, desde que o paciente esteja em tratamento anti-inflamatório adequado. O febuxostate é segunda linha, com alerta cardiovascular.",
+  "nivel": "r2",
+  "base": "ACR Guideline for the Management of Gout, 2020",
+  "coment": "Duas ou mais crises por ano indicam tratamento hipouricemiante. O ACR (2020) sugere que ele pode ser iniciado durante a crise, sem esperar a resolução, com alopurinol como primeira escolha em dose inicial baixa (até 100 mg/dia, menos na doença renal avançada), titulado a cada 2 a 5 semanas até urato abaixo de 6 mg/dL, e profilaxia anti-inflamatória (colchicina, AINE ou corticoide em dose baixa) por 3 a 6 meses. Trocar hidroclorotiazida por losartana ajuda, pois ela é uricosúrica. Febuxostate não é primeira linha, pelo sinal cardiovascular do CARES.",
   "porAlt": [
-   "A recomendação atual permite iniciar durante a crise, desde que sob tratamento anti-inflamatório, esperar só adia a prevenção.",
-   "A dieta isolada reduz pouco o urato sérico e raramente alcança o alvo em quem já tem crises recorrentes documentadas.",
-   "A colchicina isolada previne crises, mas não reduz o urato nem dissolve os depósitos que causam a doença.",
-   "Correta: com três crises no ano há indicação forte de hipouricemiante, começando alopurinol com profilaxia e alvo abaixo de 6 mg/dL.",
-   "O febuxostate é alternativa de segunda linha e carrega alerta de mortalidade cardiovascular em pacientes de risco."
+   "Indicação de hipouricemiante: alopurinol 100 mg já, titulado até urato abaixo de 6, com profilaxia anti-inflamatória.",
+   "O ACR permite iniciar durante a crise, desde que haja profilaxia.",
+   "Dose inicial alta sem profilaxia aumenta crises e reações.",
+   "Febuxostate não é primeira linha, pelo sinal de mortalidade cardiovascular.",
+   "Três crises ao ano indicam tratamento farmacológico."
   ]
  },
  {
-  "q": "Mulher de 29 anos apresenta artralgia inflamatória, rash malar, fotossensibilidade e proteinúria de 1,2 g em 24 horas. O FAN é positivo em 1:640, padrão nuclear homogêneo. A equipe discute o tratamento de base após confirmar o diagnóstico de lúpus eritematoso sistêmico. Qual medida deve ser oferecida a essa paciente?",
+  "q": "Mulher de 29 anos tem artralgia inflamatória de mãos, rash malar e fotossensibilidade há 3 meses. FAN 1:640 padrão homogêneo, anti-DNA positivo, C3 e C4 baixos. Creatinina de 0,7 mg/dL. Urina com 15 hemácias por campo, dismórficas, e cilindros hemáticos. Relação proteína/creatinina urinária de 1,2 g/g. Pressão 138/88 mmHg. Não usa anti-inflamatório. Pesa 58 kg, sem hematúria macroscópica, e as plaquetas e o coagulograma são normais. Qual é a conduta diagnóstica mais adequada?",
   "alts": [
-   "Corticoide em dose alta de forma contínua e indefinida, base do tratamento de manutenção do lúpus.",
-   "Apenas anti-inflamatórios não esteroidais, reservando imunossupressor para quadros bem mais graves.",
-   "Hidroxicloroquina, recomendada para todos os pacientes com lúpus, salvo contraindicação formal.",
-   "Metotrexato isolado como droga de escolha em qualquer manifestação renal do lúpus eritematoso.",
-   "Rituximabe em primeira linha para todos os casos com envolvimento renal detectado no diagnóstico."
+   "Repetir a proteinúria em 6 meses",
+   "Iniciar ciclofosfamida sem biópsia",
+   "Biópsia renal percutânea",
+   "Ultrassonografia renal com Doppler",
+   "Aguardar queda do clearance para biopsiar"
   ],
   "gab": 2,
   "tema": "reumato",
   "cenario": "amb",
-  "comp": "tto",
+  "comp": "dx",
   "nivel": "tit",
-  "base": "EULAR 2023. Recommendations for the management of systemic lupus erythematosus; critérios EULAR/ACR 2019",
-  "coment": "A hidroxicloroquina é recomendada para todos os pacientes com lúpus, salvo contraindicação: reduz atividade de doença, previne surtos, protege contra dano orgânico e trombose e melhora sobrevida, com necessidade de rastreamento oftalmológico periódico pelo risco de retinopatia. O corticoide deve ser usado na menor dose possível e desmamado, porque grande parte do dano acumulado no lúpus vem dele. O envolvimento renal com proteinúria acima de 0,5 g em 24 horas exige biópsia para definir a classe da nefrite, que é o que orienta a escolha do imunossupressor. Micofenolato ou ciclofosfamida, a depender do caso.",
+  "base": "KDIGO Clinical Practice Guideline for the Management of Lupus Nephritis, 2024; EULAR/ERA-EDTA recommendations for lupus nephritis, 2019",
+  "coment": "No lúpus, proteinúria persistente de 0,5 g/dia ou mais, especialmente com hematúria dismórfica ou cilindros, indica biópsia renal (EULAR/ERA-EDTA 2019, KDIGO 2024). A classificação da ISN/RPS (classes III e IV proliferativas, V membranosa) e os índices de atividade e cronicidade definem a indução. Função renal normal não afasta nefrite grave, e esperar perda de clearance piora o prognóstico. Hidroxicloroquina é indicada a todos os pacientes, e o bloqueio do sistema renina-angiotensina reduz proteinúria.",
   "porAlt": [
-   "Corticoide em dose alta e contínua é a principal fonte de dano acumulado no lúpus; a meta é a menor dose com desmame.",
-   "Anti-inflamatório isolado não controla atividade sistêmica e ainda arrisca a função renal já comprometida pela proteinúria.",
-   "Correta: hidroxicloroquina é indicada a todos os pacientes com lúpus, salvo contraindicação, com controle oftalmológico periódico.",
-   "Metotrexato ajuda em manifestação articular e cutânea, mas não é a droga de escolha para o acometimento renal do lúpus.",
-   "Rituximabe é opção de resgate em doença refratária, e não terapia inicial universal para todo envolvimento renal."
+   "Esperar 6 meses com sedimento ativo atrasa o tratamento.",
+   "A classe histológica define o tratamento, e há alternativas à ciclofosfamida.",
+   "Proteinúria de 0,5 g ou mais com sedimento ativo no lúpus: biópsia renal para classificar e guiar a indução.",
+   "Ultrassonografia não classifica a nefrite.",
+   "Função renal normal não afasta nefrite proliferativa."
   ]
  },
  {
-  "q": "Mulher de 46 anos tem poliartrite simétrica de pequenas articulações das mãos há cinco meses, com rigidez matinal de duas horas, fator reumatoide e anti-CCP positivos e erosões incipientes em radiografia. Foi confirmado o diagnóstico de artrite reumatoide. Qual é a conduta inicial recomendada?",
+  "q": "Mulher de 46 anos tem poliartrite simétrica de metacarpofalângicas, interfalângicas proximais e punhos há 5 meses, rigidez matinal de 2 horas, 8 articulações edemaciadas, fator reumatoide e anti-CCP em título alto, PCR de 28 mg/L. Radiografia com erosão em quinto metatarsal. ALT normal, clearance de 95 mL/min, não bebe, não planeja gestar e usa contracepção. Hepatites B e C negativas. Trabalha como costureira e tem dificuldade para segurar a tesoura. Qual é o tratamento inicial mais adequado?",
   "alts": [
-   "Iniciar imunobiológico anti-TNF de imediato, dispensando as drogas sintéticas convencionais.",
-   "Prescrever anti-inflamatório e reavaliar em seis meses antes de decidir a terapia de base dela.",
-   "Iniciar corticoide isolado em dose baixa por tempo indeterminado, sem droga modificadora dela.",
-   "Aguardar novas erosões radiográficas antes de introduzir droga modificadora do curso da doença.",
-   "Iniciar metotrexato como droga modificadora de primeira escolha, com corticoide em ponte breve."
+   "AINE contínuo e reavaliar em 6 meses",
+   "Adalimumabe como primeira droga",
+   "Hidroxicloroquina 400 mg isolada",
+   "Prednisona 20 mg/dia contínua isolada",
+   "Metotrexato, ácido fólico e ponte de corticoide"
   ],
   "gab": 4,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American College of Rheumatology 2021. Guideline for the Treatment of Rheumatoid Arthritis",
-  "coment": "O metotrexato é a droga modificadora de primeira escolha na artrite reumatoide, inclusive na doença moderada a grave, por eficácia, custo e experiência acumulada. O corticoide pode ser usado como ponte, na menor dose e pelo menor tempo, enquanto a droga modificadora atinge o efeito pleno em oito a doze semanas. O conceito que orienta tudo é a janela de oportunidade: iniciar nos primeiros meses muda a história natural da doença e previne dano estrutural. Esperar novas erosões para tratar é exatamente o erro que a estratégia de tratamento por meta veio corrigir.",
+  "base": "EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological DMARDs, 2022 update",
+  "coment": "Artrite reumatoide ativa com fatores de mau prognóstico (anti-CCP e fator reumatoide altos, erosão precoce, muitas articulações) deve ser tratada logo com metotrexato como âncora, iniciando em 15 mg/semana e escalonando até 20 a 25 mg/semana, com ácido fólico. A EULAR (2022) recomenda corticoide em dose baixa como ponte, reduzido e suspenso o mais rápido possível, em até 3 meses. Imunobiológico entra se o alvo não for atingido com metotrexato e houver fatores de mau prognóstico. Hidroxicloroquina isolada é insuficiente nesse perfil.",
   "porAlt": [
-   "O anti-TNF entra após falha ou intolerância ao metotrexato; usá-lo de saída eleva custo e risco sem ganho demonstrado.",
-   "Anti-inflamatório apenas alivia sintoma e não impede erosão; adiar seis meses desperdiça a janela de oportunidade.",
-   "Corticoide isolado por tempo indeterminado não controla a progressão estrutural e acumula dano ósseo e metabólico.",
-   "Esperar novas erosões para tratar inverte a lógica atual, que é tratar cedo e por meta para evitar o dano.",
-   "Correta: metotrexato é a primeira escolha, com corticoide apenas como ponte breve até a droga modificadora agir."
+   "AINE não modifica a doença e atrasa o controle.",
+   "Imunobiológico vem após falha do metotrexato.",
+   "Hidroxicloroquina isolada é insuficiente para doença erosiva ativa.",
+   "Corticoide contínuo isolado não é tratamento de base.",
+   "Artrite reumatoide com mau prognóstico: metotrexato com ácido fólico e ponte curta de corticoide."
   ]
  },
  {
@@ -7560,27 +7560,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 34 anos com lúpus em uso de hidroxicloroquina e prednisona apresenta febre, dor lombar e disúria. Está com pressão de 96/58 mmHg, frequência de 118 bpm e leucócitos de 2.100/mm³. Qual é a preocupação principal e a conduta?",
+  "q": "Mulher de 34 anos com lúpus usa hidroxicloroquina, micofenolato e prednisona 15 mg/dia há 10 meses. Chega com febre de 39 °C, dor lombar e disúria. Pressão de 78/44 mmHg após 2 litros de cristaloide, frequência de 124 bpm, lactato de 4,8 mmol/L. Urina com piúria e nitrito positivo. Sem rash ou artrite novos. Complemento normal. Pesa 60 kg e a última dose de prednisona foi pela manhã. Qual é a conduta mais adequada?",
   "alts": [
-   "Atividade de lúpus isolada, tratada apenas com aumento imediato da dose de corticoide sistêmico.",
-   "Reação adversa à hidroxicloroquina, cuja suspensão resolve o quadro sem qualquer medida a mais.",
-   "Fibromialgia associada, que explica a dor e dispensa investigação infecciosa nesse contexto clínico.",
-   "Leucopenia benigna da doença, achado que afasta infecção bacteriana em paciente com lúpus ativo.",
-   "Sepse em paciente imunossuprimida, com antimicrobiano precoce e avaliação de insuficiência adrenal."
+   "Antibiótico, noradrenalina e hidrocortisona",
+   "Pulsoterapia com metilprednisolona pela atividade lúpica",
+   "Suspender a prednisona e iniciar antibiótico",
+   "Aumentar a dose do micofenolato",
+   "Imunoglobulina endovenosa isolada"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "EULAR 2023. Recommendations for the management of systemic lupus erythematosus; Harrison's, 22ª edição, 2025",
-  "coment": "Infecção é uma das principais causas de morte no lúpus, e o corticoide mascara sinais inflamatórios. Febre com foco urinário, hipotensão e taquicardia em paciente imunossuprimida deve ser tratada como sepse até prova em contrário: culturas e antimicrobiano precoce, com ressuscitação volêmica. A leucopenia pode ser da própria doença, mas não afasta infecção, ao contrário, agrava o risco. Também é preciso considerar insuficiência adrenal em quem usa corticoide crônico e enfrenta estresse agudo. Atribuir tudo à atividade de lúpus e apenas subir o corticoide é o erro que mata nesse cenário.",
+  "base": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock, 2021",
+  "coment": "Choque séptico de foco urinário em paciente imunossuprimida: antibiótico em até 1 hora após culturas, noradrenalina para PAM de 65 mmHg ou mais e controle de foco. Uso crônico de prednisona de 5 mg ou mais por mais de 3 semanas causa supressão do eixo; com choque, a Surviving Sepsis (2021) sugere hidrocortisona 200 mg/dia (50 mg a cada 6 horas), que também cobre a insuficiência adrenal relativa. Suspender o corticoide pode precipitar crise adrenal. Micofenolato é suspenso temporariamente na infecção grave. Complemento normal e ausência de sinais de atividade falam contra lúpus.",
   "porAlt": [
-   "Subir corticoide sem cobrir infecção em paciente hipotensa pode ser fatal; atividade de lúpus é diagnóstico de exclusão aqui.",
-   "A hidroxicloroquina não causa esse quadro agudo e suspendê-la não trataria a hipotensão nem o foco urinário.",
-   "Fibromialgia não causa febre nem hipotensão, e usá-la como explicação atrasaria o tratamento de uma sepse.",
-   "A leucopenia do lúpus não protege contra infecção; ela aumenta o risco e torna o quadro mais perigoso.",
-   "Correta: febre com hipotensão em imunossuprimida é sepse até prova em contrário, com antimicrobiano precoce e atenção à adrenal."
+   "Choque séptico em usuária crônica de corticoide: antibiótico, noradrenalina e hidrocortisona em dose de estresse.",
+   "Não há sinais de atividade lúpica; pulsoterapia agravaria a sepse.",
+   "Suspender o corticoide pode precipitar crise adrenal.",
+   "Aumentar imunossupressão na sepse é danoso.",
+   "Imunoglobulina não é tratamento do choque séptico."
   ]
  },
  {
@@ -7608,27 +7608,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 66 anos em uso crônico de prednisona por polimialgia reumática tem densitometria com escore T de -2,8 em coluna lombar, sem fratura prévia. Qual é a conduta correta?",
+  "q": "Mulher de 66 anos usa prednisona 10 mg/dia há 5 meses por polimialgia reumática, sem previsão de suspensão nos próximos meses. Densitometria com escore T de −2,8 na coluna lombar e −2,2 no colo femoral, sem fratura prévia. Vitamina D de 32 ng/mL, cálcio e creatinina normais, clearance de 68 mL/min. Sem refluxo, disfagia ou doença esofágica. Pesa 62 kg, não fuma e nunca teve quedas. Qual é a conduta mais adequada?",
   "alts": [
-   "Apenas suplementar cálcio e vitamina D, medida suficiente para reverter a perda óssea nesse caso.",
-   "Repetir a densitometria em cinco anos, adiando qualquer tratamento enquanto não houver fratura.",
-   "Suspender o corticoide de forma abrupta, única medida capaz de recuperar a densidade mineral óssea.",
-   "Iniciar bisfosfonato com cálcio e vitamina D, pela osteoporose induzida por corticoide já instalada.",
-   "Iniciar reposição hormonal estrogênica, primeira escolha para osteoporose induzida por corticoide."
+   "Apenas cálcio e vitamina D",
+   "Teriparatida como primeira escolha",
+   "Aguardar o fim do corticoide para decidir",
+   "Alendronato com cálcio e vitamina D",
+   "Calcitonina nasal diária"
   ],
   "gab": 3,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "American College of Rheumatology, 2022. Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis",
-  "coment": "O corticoide crônico é a causa mais comum de osteoporose secundária, e a perda óssea é mais rápida nos primeiros meses de uso. Com escore T de -2,8 em paciente sob corticoide, há indicação de tratamento farmacológico com bisfosfonato, associado a cálcio e vitamina D, que sozinhos não bastam. Também se recomenda usar a menor dose de corticoide pelo menor tempo possível, avaliar risco de queda e estimular exercício com carga. A suspensão abrupta do corticoide em uso crônico arrisca insuficiência adrenal e reativação da doença de base.",
+  "base": "ACR Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis, 2022",
+  "coment": "Osteoporose induzida por glicocorticoide: com prednisona de 2,5 mg/dia ou mais por mais de 3 meses, a ACR (2022) recomenda avaliar risco e, em adultos de 40 anos ou mais com escore T de −2,5 ou menos (risco alto), tratar com bisfosfonato oral como primeira linha, junto de cálcio e vitamina D. Anabólico (teriparatida) é preferido no risco muito alto (fraturas por fragilidade, escore T muito baixo ou dose alta de corticoide). A perda óssea é maior nos primeiros meses de corticoide, e esperar a suspensão atrasa a proteção.",
   "porAlt": [
-   "Cálcio e vitamina D são adjuvantes necessários, mas não revertem a perda óssea induzida pelo corticoide sozinhos.",
-   "Esperar a fratura para tratar inverte a lógica da prevenção, justamente quando o risco já está documentado.",
-   "A retirada abrupta do corticoide arrisca insuficiência adrenal e reativação da polimialgia que motivou o uso.",
-   "Correta: escore T de -2,8 em uso de corticoide indica bisfosfonato associado a cálcio e vitamina D.",
-   "A reposição estrogênica não é primeira escolha para essa indicação e traz riscos próprios nessa faixa etária."
+   "Cálcio e vitamina D isolados são insuficientes com escore T de −2,8.",
+   "Teriparatida é preferida no risco muito alto.",
+   "A perda óssea é maior nos primeiros meses; esperar é prejudicial.",
+   "Osteoporose com corticoide crônico: bisfosfonato oral com cálcio e vitamina D.",
+   "Calcitonina tem eficácia fraca e não é recomendada."
   ]
  },
  {
@@ -11088,243 +11088,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 42 anos com poliartrite simétrica de mãos há quatro meses, rigidez matinal de duas horas, fator reumatoide e anti-CCP positivos. Qual é a conduta?",
+  "q": "Mulher de 42 anos com artrite reumatoide soropositiva e erosiva usa metotrexato 25 mg/semana subcutâneo, com ácido fólico e boa adesão, há 4 meses. A prednisona foi retirada. Mantém 7 articulações edemaciadas, PCR de 22 mg/L e DAS28-PCR de 5,1. Sem hepatotoxicidade. IGRA negativo, hepatites B e C negativas. Sem insuficiência cardíaca, câncer ou tromboembolismo. Fuma 10 cigarros por dia, sem doença cardiovascular. Pesa 64 kg e tem 2 filhos, sem plano de nova gestação. Qual é a conduta mais adequada?",
   "alts": [
-   "Prescrever apenas anti-inflamatório não hormonal contínuo e reavaliar somente após doze meses.",
-   "Iniciar corticoide isolado em dose baixa por tempo indefinido, já sem qualquer droga modificadora.",
-   "Iniciar metotrexato precocemente, sempre com alvo de remissão e reavaliação a cada três meses.",
-   "Aguardar surgimento de erosões radiográficas antes de iniciar droga modificadora de doença.",
-   "Indicar imunobiológico como primeira linha em todos os pacientes com anticorpo anti-CCP positivo."
+   "Manter metotrexato e reavaliar em 6 meses",
+   "Trocar para leflunomida isolada",
+   "Acrescentar imunobiológico ou inibidor de JAK",
+   "Reintroduzir prednisona 10 mg contínua",
+   "Aumentar metotrexato para 40 mg/semana"
   ],
   "gab": 2,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "EULAR recommendations for the management of rheumatoid arthritis, 2022; ACR guideline, 2021",
-  "coment": "Artrite reumatoide diagnosticada deve receber droga modificadora de doença o mais cedo possível, dentro da janela de oportunidade em que o controle muda a história natural. O metotrexato é a âncora do tratamento, salvo contraindicação, associado a corticoide em ponte por curto período. A estratégia é de tratamento por alvo: reavaliar a cada um a três meses e escalonar até remissão ou baixa atividade. Esperar erosão é esperar dano estrutural já instalado.",
+  "nivel": "r3",
+  "base": "EULAR recommendations for the management of rheumatoid arthritis, 2022 update; Ytterberg et al., ORAL Surveillance, NEJM, 2022",
+  "coment": "A estratégia treat-to-target exige melhora em 3 meses e alvo (remissão ou baixa atividade) em 6 meses. Se o alvo não é atingido com o primeiro DMARD sintético e há fatores de mau prognóstico (autoanticorpos em título alto, erosões, atividade alta), a EULAR (2022) recomenda acrescentar DMARD biológico (anti-TNF, abatacepte, anti-IL-6, rituximabe) ou inibidor de JAK, este após avaliar risco cardiovascular, de câncer e de trombose (ORAL Surveillance). Metotrexato acima de 25 mg/semana não traz ganho e aumenta toxicidade.",
   "porAlt": [
-   "O anti-inflamatório alivia sintomas mas não impede a progressão erosiva nem a incapacidade.",
-   "O corticoide isolado prolongado traz toxicidade e não substitui a droga modificadora de doença.",
-   "Correta: metotrexato precoce com estratégia de tratamento por alvo e reavaliação sistemática.",
-   "Esperar erosões significa aceitar dano estrutural irreversível antes de tratar adequadamente.",
-   "O imunobiológico entra após falha do metotrexato, e não como primeira linha universal."
+   "Atividade alta após 4 meses de dose otimizada exige escalonar.",
+   "Trocar para outro sintético é opção sem fatores de mau prognóstico.",
+   "Falha do metotrexato com mau prognóstico: acrescentar biológico ou inibidor de JAK.",
+   "Corticoide contínuo não é estratégia de manutenção.",
+   "Doses acima de 25 mg/semana não aumentam eficácia."
   ]
  },
  {
-  "q": "Homem de 30 anos com lombalgia inflamatória há um ano, melhora com exercício, rigidez matinal prolongada e HLA-B27 positivo. Qual é o tratamento inicial?",
+  "q": "Homem de 30 anos com espondiloartrite axial (sacroiliíte na ressonância, HLA-B27 positivo) mantém lombalgia inflamatória e rigidez matinal de 1 hora após 4 semanas de naproxeno 500 mg duas vezes ao dia seguidas de 4 semanas de etoricoxibe 90 mg/dia. ASDAS-PCR de 3,2. Fisioterapia regular. Sem artrite periférica, uveíte ou doença inflamatória intestinal. IGRA negativo. Pesa 78 kg e trabalha como motorista. PCR de 18 mg/L, sem psoríase. Qual é a conduta mais adequada?",
   "alts": [
-   "Metotrexato em dose alta, já droga de escolha para o acometimento axial dessa espondiloartrite.",
-   "Corticoide sistêmico contínuo em dose alta, tratamento de primeira linha da doença axial agora.",
-   "Anti-inflamatório não hormonal em dose plena associado sempre a programa regular de exercícios.",
-   "Repouso absoluto no leito por quatro semanas, medida que reduz a inflamação axial e a dor agora.",
-   "Imunobiológico anti-TNF imediatamente, antes de qualquer tentativa com anti-inflamatório oral."
+   "Sulfassalazina para o acometimento axial",
+   "Prednisona 20 mg/dia contínua",
+   "Terceiro AINE por mais 3 meses",
+   "Metotrexato semanal",
+   "Iniciar anti-TNF ou inibidor de IL-17"
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ASAS-EULAR recommendations for the management of axial spondyloarthritis, 2022",
-  "coment": "Na espondiloartrite axial, o tratamento de primeira linha combina anti-inflamatório não hormonal em dose plena com exercício regular e fisioterapia. O exercício é parte do tratamento, não adjuvante. Se houver falha de pelo menos dois anti-inflamatórios em quatro semanas cada, indica-se biológico anti-TNF ou anti-IL-17. Drogas modificadoras sintéticas como metotrexato e sulfassalazina não funcionam na doença axial, servindo apenas ao acometimento periférico.",
+  "base": "ASAS-EULAR recommendations for the management of axial spondyloarthritis, 2022 update",
+  "coment": "Na espondiloartrite axial, AINE em dose plena é a primeira linha. Falha de pelo menos 2 AINEs por 4 semanas no total, com ASDAS de 2,1 ou mais, indica DMARD biológico (anti-TNF ou inibidor de IL-17) ou inibidor de JAK (ASAS-EULAR 2022). DMARDs sintéticos (sulfassalazina, metotrexato) não funcionam no esqueleto axial e ficam para artrite periférica. Corticoide sistêmico prolongado não é recomendado. Com uveíte ou doença intestinal associada, prefere-se anticorpo monoclonal anti-TNF.",
   "porAlt": [
-   "O metotrexato não tem eficácia no acometimento axial, servindo apenas à artrite periférica.",
-   "O corticoide sistêmico contínuo tem eficácia limitada no eixo e traz toxicidade importante.",
-   "Correta: anti-inflamatório em dose plena com exercício regular é a primeira linha da doença axial.",
-   "O repouso prolongado piora rigidez e perda funcional, ao contrário do exercício regular.",
-   "O biológico entra após falha de pelo menos dois anti-inflamatórios usados em dose plena."
+   "Sulfassalazina não é eficaz na doença axial.",
+   "Corticoide sistêmico prolongado não é recomendado.",
+   "Após 2 AINEs, insistir em um terceiro atrasa o tratamento eficaz.",
+   "Metotrexato não é eficaz na doença axial.",
+   "Falha de 2 AINEs com ASDAS de 3,2: anti-TNF ou inibidor de IL-17."
   ]
  },
  {
-  "q": "Mulher de 26 anos com artrite, rash malar, proteinúria de 1,8 g/24h, FAN 1:640 e anti-DNA nativo positivo. Qual é a conduta?",
+  "q": "Mulher de 26 anos com lúpus fez biópsia renal: nefrite lúpica classe IV (ISN/RPS) com índice de atividade de 9 e de cronicidade de 2. Relação proteína/creatinina de 2,4 g/g, creatinina de 1,1 mg/dL, C3 baixo. Já usa hidroxicloroquina 5 mg/kg/dia e losartana. Quer engravidar no futuro, mas não nos próximos 2 anos, e usa DIU. Plaquetas e leucócitos normais. Qual é o tratamento de indução mais adequado?",
   "alts": [
-   "Iniciar apenas anti-inflamatório e reavaliar a proteinúria em seis meses, sem outra intervenção.",
-   "Prescrever corticoide em dose baixa isolado, já suficiente para controlar o acometimento renal.",
-   "Biópsia renal para classificar a nefrite e sempre iniciar hidroxicloroquina em todos os casos.",
-   "Indicar diálise precoce, conduta padrão diante de proteinúria nessa faixa em paciente jovem.",
-   "Solicitar apenas ultrassonografia renal, exame que define a classe histológica da nefrite lúpica."
+   "Micofenolato e corticoide, com ou sem belimumabe",
+   "Hidroxicloroquina isolada em dose maior",
+   "Ciclofosfamida em dose alta mensal por 2 anos",
+   "Azatioprina isolada 2 mg/kg",
+   "Tacrolimo isolado sem corticoide"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "amb",
-  "comp": "dx",
+  "comp": "tto",
   "nivel": "r3",
-  "base": "EULAR/ERA-EDTA recommendations for lupus nephritis, 2024; EULAR SLE recommendations, 2023",
-  "coment": "Proteinúria acima de meio grama por dia em paciente com lúpus indica biópsia renal, que define a classe histológica e determina o tratamento: classes proliferativas III e IV exigem indução com micofenolato ou ciclofosfamida associada a corticoide, enquanto a classe V membranosa tem abordagem distinta. A hidroxicloroquina é recomendada para todos os pacientes com lúpus, salvo contraindicação, por reduzir atividade, dano acumulado e mortalidade.",
+  "base": "KDIGO Clinical Practice Guideline for the Management of Lupus Nephritis, 2024; Furie et al., BLISS-LN, NEJM, 2020",
+  "coment": "Nefrite lúpica classe III ou IV ativa exige indução com corticoide (pulso de metilprednisolona seguido de prednisona em redução rápida) mais micofenolato ou ciclofosfamida em dose baixa (Euro-Lupus). O KDIGO (2024) considera terapia tripla desde o início: micofenolato com belimumabe (BLISS-LN) ou com inibidor de calcineurina (voclosporina, AURORA). Em quem deseja preservar fertilidade, micofenolato é preferível à ciclofosfamida. Micofenolato é teratogênico, e a contracepção eficaz já está garantida.",
   "porAlt": [
-   "Anti-inflamatório isolado não trata nefrite e o atraso permite perda irreversível de função renal.",
-   "O corticoide em dose baixa isolado é insuficiente para induzir remissão de nefrite proliferativa.",
-   "Correta: biópsia renal define a classe e orienta a indução; a hidroxicloroquina é para todos.",
-   "A diálise não é conduta inicial: a proteinúria descrita pede diagnóstico histológico e imunossupressão.",
-   "A ultrassonografia avalia tamanho e obstrução, mas não determina a classe histológica da nefrite."
+   "Classe IV ativa: micofenolato com corticoide, podendo associar belimumabe.",
+   "Hidroxicloroquina sozinha não induz remissão de nefrite classe IV.",
+   "Ciclofosfamida em dose alta prolongada ameaça a fertilidade e é tóxica.",
+   "Azatioprina é para manutenção ou gestação, não indução.",
+   "Inibidor de calcineurina isolado sem corticoide não é esquema de indução."
   ]
  },
  {
-  "q": "Homem de 55 anos com monoartrite aguda de primeiro metatarsofalangeano, intensa, com eritema local. Ácido úrico sérico de 5,8 mg/dL. Qual é a conduta?",
+  "q": "Homem de 55 anos acorda com dor intensa, calor, edema e eritema no primeiro metatarsofalangeano direito, iniciados em 6 horas, após churrasco com cerveja. Temperatura de 37,8 °C. Ácido úrico sérico de 5,8 mg/dL. Não usa anticoagulante, sem prótese ou lesão cutânea. Leucócitos de 11 mil/mm³. Primeiro episódio. Clearance de 88 mL/min. Pressão de 142/88 mmHg, sem outras articulações acometidas. Mora sozinho e trabalha como garçom. Qual é a conduta diagnóstica mais adequada?",
   "alts": [
-   "Descartar gota pela uricemia normal e investigar apenas causas infecciosas para essa monoartrite já.",
-   "Iniciar alopurinol em dose alta durante a crise para reduzir rapidamente a inflamação articular.",
-   "Tratar a crise e não excluir gota, pois a uricemia fica normal em um terço dos ataques agudos.",
-   "Prescrever apenas repouso e compressa fria, sem qualquer anti-inflamatório ou colchicina oral.",
-   "Solicitar radiografia da articulação, exame que confirma o diagnóstico de gota na crise aguda."
+   "Descartar gota pelo ácido úrico normal",
+   "Radiografia e iniciar alopurinol",
+   "Artrocentese com pesquisa de cristais e cultura",
+   "Ressonância de pé antes de qualquer conduta",
+   "Antibiótico empírico sem punção"
   ],
   "gab": 2,
   "tema": "reumato",
   "cenario": "emg",
-  "comp": "urg",
+  "comp": "dx",
   "nivel": "r1",
-  "base": "ACR guideline for the management of gout, 2020; EULAR recommendations, 2016 com atualização 2020",
-  "coment": "Durante a crise de gota a uricemia pode ser normal ou baixa em até um terço dos casos, de modo que valor normal não exclui o diagnóstico: a dosagem é repetida após duas semanas do episódio. O tratamento da crise usa anti-inflamatório não hormonal, colchicina ou corticoide, com escolha guiada por comorbidades. Alopurinol não é iniciado nem suspenso pela crise em quem já usa; quando iniciado, associa-se profilaxia com colchicina por meses.",
+  "base": "ACR/EULAR Gout Classification Criteria, 2015; ACR Guideline for the Management of Gout, 2020",
+  "coment": "O ácido úrico sérico cai durante a crise de gota em cerca de 30% a 40% dos casos e não exclui o diagnóstico. O padrão ouro é a artrocentese com cristais de monourato de sódio em agulha, com birrefringência negativa na luz polarizada, e o líquido deve ir para Gram e cultura, pois artrite séptica pode coexistir e a febre baixa não diferencia. Alopurinol não é iniciado no primeiro episódio sem indicação. Radiografia no início costuma ser normal.",
   "porAlt": [
-   "Uricemia normal durante o ataque é achado frequente e não permite descartar o diagnóstico de gota.",
-   "Iniciar alopurinol durante a crise pode prolongá-la; a redução abrupta mobiliza cristais articulares.",
-   "Correta: uricemia normal na crise não exclui gota; tratar o ataque e dosar o ácido úrico depois.",
-   "Repouso e frio ajudam, mas o controle da crise exige anti-inflamatório, colchicina ou corticoide.",
-   "A radiografia costuma ser normal no primeiro ataque e não confirma o diagnóstico nessa fase."
+   "O urato cai na crise e não exclui gota.",
+   "Primeira crise sem tofos ou nefrolitíase não indica alopurinol, e a radiografia precoce é normal.",
+   "Monoartrite aguda: artrocentese com pesquisa de cristais, Gram e cultura.",
+   "Ressonância não substitui a análise do líquido.",
+   "Antibiótico sem punção impede o diagnóstico."
   ]
  },
  {
-  "q": "Mulher de 70 anos com cefaleia temporal nova, claudicação de mandíbula, VHS de 96 mm/h e amaurose transitória. Qual é a conduta imediata?",
+  "q": "Mulher de 72 anos tem cefaleia temporal nova há 3 semanas, claudicação de mandíbula ao mastigar e 2 episódios de amaurose transitória no olho direito hoje. Artéria temporal espessada e dolorosa. VHS de 96 mm/h, PCR de 64 mg/L. Glicemia de 110 mg/dL. Sem déficit visual persistente no momento. A biópsia e a ultrassonografia das temporais só estão disponíveis em 5 dias. Qual é a conduta imediata mais adequada?",
   "alts": [
-   "Aguardar o resultado da biópsia da artéria temporal antes de iniciar qualquer corticoterapia.",
-   "Prescrever apenas analgésico comum e reavaliar em duas semanas com nova dosagem de provas inflamatórias.",
-   "Corticoide em dose alta imediatamente, sempre antes da realização da biópsia de artéria temporal.",
-   "Iniciar antiagregante isolado, já medida suficiente para prevenir a perda visual definitiva no quadro.",
-   "Solicitar ressonância de crânio e adiar o tratamento até a exclusão de causa estrutural intracraniana."
+   "Aguardar a biópsia para iniciar corticoide",
+   "Prednisona 10 mg/dia oral",
+   "AAS 100 mg isolado",
+   "Pulso de metilprednisolona já",
+   "Metotrexato como primeira droga"
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "reumato",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ACR/VF guideline for the management of giant cell arteritis, 2021; EULAR recommendations, 2018",
-  "coment": "Arterite de células gigantes com sintoma visual é emergência: o corticoide em dose alta é iniciado imediatamente, geralmente com pulso endovenoso quando há amaurose, porque a perda visual pode se tornar permanente em horas e frequentemente é bilateral se não tratada. A biópsia de artéria temporal permanece útil e continua positiva por cerca de duas semanas após o início do corticoide, de modo que o tratamento nunca é adiado à espera do exame.",
+  "base": "EULAR recommendations for the management of large vessel vasculitis, 2022 update (publicado 2023); ACR/Vasculitis Foundation Guideline for GCA, 2021",
+  "coment": "Suspeita de arterite de células gigantes com sintomas visuais é emergência: a perda visual permanente pode ocorrer em horas e costuma ser irreversível. A EULAR (2023) recomenda iniciar corticoide imediatamente, antes da confirmação; com perda visual ou amaurose, pode-se usar metilprednisolona endovenosa (250 a 1.000 mg/dia por 3 dias), seguida de prednisona 40 a 60 mg/dia. Ultrassonografia ou biópsia devem ser feitas o quanto antes, idealmente em até 1 a 2 semanas, período em que ainda mostram alterações. Tocilizumabe poupa corticoide.",
   "porAlt": [
-   "Adiar o corticoide pela biópsia arrisca perda visual permanente, que pode ocorrer em poucas horas.",
-   "Analgésico comum não trata a vasculite e a demora de duas semanas permite a instalação da cegueira.",
-   "Correta: corticoide em dose alta imediato, sem esperar a biópsia, pela ameaça de cegueira irreversível.",
-   "O antiagregante é adjuvante em alguns casos, mas não substitui a corticoterapia em dose alta.",
-   "A imagem pode ser complementar, mas não deve atrasar o tratamento diante de sintoma visual."
+   "Esperar a biópsia arrisca cegueira irreversível.",
+   "Dose baixa não protege a visão.",
+   "AAS isolado não trata a vasculite.",
+   "Arterite de células gigantes com amaurose: pulso de metilprednisolona já, sem esperar a biópsia.",
+   "Metotrexato é poupador de corticoide, não tratamento inicial."
   ]
  },
  {
-  "q": "Paciente de 62 anos com dor e rigidez em cinturas escapular e pélvica há dois meses, VHS elevada, sem fraqueza muscular objetiva e com CPK normal. Qual é o diagnóstico mais provável?",
+  "q": "Mulher de 68 anos tem dor e rigidez matinal de 90 minutos em ombros e quadris há 2 meses, com dificuldade para pentear o cabelo. VHS de 58 mm/h, PCR de 32 mg/L, CPK e TSH normais, fator reumatoide e anti-CCP negativos. Força muscular preservada ao exame. Sem cefaleia, claudicação de mandíbula ou sintomas visuais. Sem sinovite periférica. Diabetes tipo 2 controlado. Pesa 70 kg e mora com o marido. Qual é o tratamento inicial mais adequado?",
   "alts": [
-   "Polimiosite, doença que cursa com fraqueza proximal objetiva e elevação importante da CPK.",
-   "Fibromialgia, condição que cursa com provas inflamatórias elevadas e rigidez matinal prolongada.",
-   "Miopatia por estatina, que cursa com CPK normal e resposta rápida ao corticoide em dose baixa.",
-   "Artrite reumatoide de início tardio, que cursa sempre com dor limitada às cinturas, sem sinovite.",
-   "Polimialgia reumática, que responde sempre de forma rápida a corticoide em dose baixa oral."
+   "Prednisona 60 mg/dia",
+   "AINE isolado por 6 meses",
+   "Metotrexato isolado",
+   "Tocilizumabe como primeira linha",
+   "Prednisona de 12,5 a 25 mg/dia"
   ],
   "gab": 4,
   "tema": "reumato",
   "cenario": "amb",
-  "comp": "dx",
+  "comp": "tto",
   "nivel": "r2",
-  "base": "EULAR/ACR recommendations for the management of polymyalgia rheumatica, 2015; revisão ACR 2023",
-  "coment": "Polimialgia reumática afeta pessoas acima de cinquenta anos com dor e rigidez de cinturas, provas inflamatórias elevadas, ausência de fraqueza objetiva e CPK normal. A queixa é de dor limitando o movimento, não de perda de força. A resposta a prednisona em dose baixa, tipicamente de doze a vinte e cinco miligramas ao dia, é rápida e dramática, e a ausência dessa resposta obriga a reconsiderar o diagnóstico. É obrigatório procurar arterite de células gigantes associada.",
+  "base": "EULAR/ACR Recommendations for the Management of Polymyalgia Rheumatica, 2015",
+  "coment": "Polimialgia reumática sem sinais de arterite de células gigantes é tratada com prednisona em dose inicial de 12,5 a 25 mg/dia (EULAR/ACR 2015), com melhora marcada em poucos dias; ausência de resposta questiona o diagnóstico. Reduz-se para 10 mg/dia em 4 a 8 semanas e depois 1 mg a cada 4 semanas. Doses altas (acima de 30 mg) são desnecessárias e aumentam efeitos adversos, especialmente no diabetes. Metotrexato é considerado com risco de recaída ou efeitos adversos do corticoide.",
   "porAlt": [
-   "A polimiosite cursa com fraqueza proximal objetiva e CPK elevada, ausentes neste quadro clínico.",
-   "A fibromialgia cursa com provas inflamatórias normais, o que não corresponde à VHS elevada aqui.",
-   "A miopatia por estatina cursa com CPK elevada e melhora com a suspensão da droga, não com corticoide.",
-   "A artrite reumatoide de início tardio cursa com sinovite periférica, que não está descrita neste caso.",
-   "Correta: dor de cinturas com provas inflamatórias altas e CPK normal, com resposta rápida a corticoide."
+   "Dose alta é para arterite de células gigantes, não polimialgia isolada.",
+   "AINE isolado é insuficiente na maioria.",
+   "Metotrexato é associado, não substitui o corticoide inicial.",
+   "Tocilizumabe é reservado para casos refratários ou dependentes de corticoide.",
+   "Polimialgia reumática: prednisona de 12,5 a 25 mg/dia, com redução gradual."
   ]
  },
  {
-  "q": "Mulher de 38 anos com fenômeno de Raynaud, esclerodactilia e dispneia progressiva. Qual exame deve ser solicitado para rastreio da complicação de maior mortalidade?",
+  "q": "Mulher de 38 anos recebeu diagnóstico de esclerose sistêmica cutânea difusa há 6 meses: Raynaud, esclerodactilia, espessamento cutâneo proximal e anti-topoisomerase I (anti-Scl-70) positivo. Tem tosse seca e dispneia leve aos esforços. Ausculta com estertores finos bibasais. Saturação de 95% em repouso. Ecocardiograma sem hipertensão pulmonar. Tem refluxo leve controlado com omeprazol. Pesa 56 kg e não fuma. Qual é a avaliação mais adequada para a principal causa de morte nesse perfil?",
   "alts": [
-   "Radiografia simples de tórax isolada, exame suficiente para rastrear a complicação de maior gravidade.",
-   "Ecocardiograma com estimativa de pressão pulmonar e sempre tomografia de tórax de alta resolução.",
-   "Espirometria isolada sem difusão, exame que detecta precocemente o acometimento pulmonar difuso.",
-   "Cintilografia de perfusão miocárdica, exame indicado para rastrear a principal causa de óbito.",
-   "Endoscopia digestiva alta, exame que rastreia a complicação de maior mortalidade nessa doença."
+   "Tomografia de alta resolução e prova de função",
+   "Radiografia de tórax anual isolada",
+   "Cateterismo cardíaco direito",
+   "Endoscopia digestiva alta",
+   "Capilaroscopia periungueal"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "EULAR recommendations for the treatment of systemic sclerosis, atualização 2024; ACR/CHEST ILD guideline, 2023",
-  "coment": "Na esclerose sistêmica, o pulmão responde pela maior parte da mortalidade, por doença intersticial e por hipertensão arterial pulmonar. O rastreio combina tomografia de alta resolução, prova de função pulmonar com difusão de monóxido de carbono e ecocardiograma anual com estimativa de pressão sistólica de artéria pulmonar; suspeita ecocardiográfica é confirmada por cateterismo direito. Queda isolada da difusão pode ser o primeiro sinal de hipertensão pulmonar.",
+  "base": "ACR/CHEST Guideline for the Screening and Monitoring of Interstitial Lung Disease in People with Systemic Autoimmune Rheumatic Diseases, 2023",
+  "coment": "A doença pulmonar intersticial é a principal causa de morte na esclerose sistêmica, e o risco é maior na forma difusa com anti-topoisomerase I. As recomendações de 2023 (ACR/CHEST para doença intersticial em doenças reumáticas) indicam tomografia de alta resolução e provas de função pulmonar com difusão em todos os pacientes com risco, ao diagnóstico, repetidas periodicamente. Radiografia é pouco sensível. Hipertensão pulmonar é rastreada anualmente com ecocardiograma, difusão e NT-proBNP, e cateterismo confirma quando há suspeita.",
   "porAlt": [
-   "A radiografia simples é pouco sensível e perde doença intersticial em fase inicial e tratável.",
-   "Correta: ecocardiograma com estimativa de pressão pulmonar e tomografia de alta resolução do tórax.",
-   "A espirometria sem difusão perde justamente o parâmetro mais sensível ao acometimento vascular.",
-   "A cintilografia miocárdica não rastreia doença intersticial nem hipertensão arterial pulmonar.",
-   "A endoscopia avalia o esôfago, acometido com frequência, mas não a principal causa de óbito."
+   "Esclerose sistêmica difusa com anti-Scl-70 e estertores: tomografia de alta resolução com espirometria e difusão.",
+   "Radiografia é pouco sensível para doença intersticial inicial.",
+   "Cateterismo é para confirmar hipertensão pulmonar suspeita.",
+   "Endoscopia avalia o esôfago, não a principal causa de morte.",
+   "Capilaroscopia apoia o diagnóstico, mas não rastreia doença pulmonar."
   ]
  },
  {
-  "q": "Homem de 45 anos com artrite de joelho, uretrite e conjuntivite há três semanas após quadro diarreico. Qual é o diagnóstico mais provável?",
+  "q": "Homem de 28 anos tem artrite de joelho esquerdo e tornozelo direito, conjuntivite bilateral e disúria com secreção uretral mucoide há 10 dias. Relação sexual desprotegida há 5 semanas. Sem diarreia. PCR de urina positiva para Chlamydia trachomatis, gonococo negativo. Líquido sinovial inflamatório, cultura e cristais negativos. HIV e sífilis negativos. Pesa 74 kg e não tem alergias. Qual é a conduta mais adequada?",
   "alts": [
-   "Artrite séptica de joelho, que cursa com uretrite e conjuntivite associadas ao quadro articular.",
-   "Gota poliarticular aguda, que se manifesta com uretrite e conjuntivite após episódio diarreico.",
-   "Osteoartrite de joelho descompensada, já que cursa com conjuntivite e uretrite concomitantes.",
-   "Febre reumática do adulto, que cursa com uretrite e conjuntivite após episódio de diarreia aguda.",
-   "Artrite reativa, que responde sempre a anti-inflamatório e tem curso autolimitado e breve."
-  ],
-  "gab": 4,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "ACR/EULAR, abordagem das espondiloartrites, revisão 2022; Manual MSD revisão 2024",
-  "coment": "A tríade de artrite, uretrite e conjuntivite após infecção entérica ou geniturinária caracteriza artrite reativa, espondiloartrite associada ao HLA-B27. Os agentes clássicos são Chlamydia, Salmonella, Shigella, Yersinia e Campylobacter. O tratamento é sintomático com anti-inflamatório não hormonal; antibiótico só se houver infecção ativa documentada, sobretudo clamídia. A maioria resolve em três a doze meses, e casos persistentes recebem sulfassalazina.",
-  "porAlt": [
-   "A artrite séptica é monoarticular com febre e derrame purulento, sem uretrite e conjuntivite.",
-   "A gota não cursa com uretrite nem conjuntivite e não guarda relação com quadro diarreico prévio.",
-   "A osteoartrite é degenerativa e não produz manifestações oculares nem geniturinárias associadas.",
-   "A febre reumática cursa com faringite estreptocócica prévia e cardite, não com essa tríade.",
-   "Correta: artrite, uretrite e conjuntivite após infecção entérica configuram artrite reativa."
-  ]
- },
- {
-  "q": "Paciente com lúpus em uso de hidroxicloroquina há oito anos. Qual rastreio de toxicidade é obrigatório?",
-  "alts": [
-   "Ecocardiograma semestral, exame que rastreia a toxicidade mais frequente dessa medicação crônica.",
-   "Densitometria óssea anual, exame que detecta o principal efeito adverso do uso prolongado da droga.",
-   "Avaliação oftalmológica anual com campimetria e tomografia de coerência óptica, sempre programada.",
-   "Colonoscopia a cada dois anos, rastreio indicado pelo risco digestivo do uso crônico do fármaco.",
-   "Espirometria anual com difusão, exame indicado para detectar a toxicidade pulmonar da droga agora."
-  ],
-  "gab": 2,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "American Academy of Ophthalmology. Recommendations on Screening for Chloroquine and Hydroxychloroquine Retinopathy, revisão 2024",
-  "coment": "A retinopatia é a toxicidade que define o seguimento da hidroxicloroquina. Recomenda-se avaliação basal no primeiro ano e rastreio anual a partir do quinto ano de uso, ou mais cedo se houver fatores de risco como dose acima de cinco miligramas por quilo de peso real, doença renal crônica, uso de tamoxifeno ou retinopatia prévia. Os exames de escolha são campo visual automatizado e tomografia de coerência óptica de domínio espectral.",
-  "porAlt": [
-   "A cardiomiopatia é complicação rara e não define o rastreio de rotina desta medicação.",
-   "A hidroxicloroquina não causa perda óssea; a densitometria se justifica pelo corticoide associado.",
-   "Correta: rastreio oftalmológico anual com campimetria e tomografia de coerência óptica após cinco anos.",
-   "Não há indicação de rastreio colonoscópico relacionado ao uso crônico da hidroxicloroquina.",
-   "A toxicidade pulmonar não é efeito característico da droga e não motiva espirometria anual."
-  ]
- },
- {
-  "q": "Mulher de 33 anos com xerostomia e xeroftalmia há um ano, com anti-Ro positivo. Qual é a complicação que deve ser sistematicamente rastreada ao longo do seguimento?",
-  "alts": [
-   "Cirrose hepática por acometimento direto do parênquima, complicação mais temida dessa doença.",
-   "Estenose mitral reumática, complicação tardia que exige ecocardiograma anual nesses pacientes.",
-   "Retinopatia proliferativa, complicação ocular específica associada à positividade do anticorpo.",
-   "Linfoma de células B, complicação que exige sempre atenção a aumento persistente de parótida.",
-   "Insuficiência adrenal primária, complicação endócrina rastreada anualmente por cortisol basal."
+   "Antibiótico por 3 meses para curar a artrite",
+   "Pulsoterapia com metilprednisolona",
+   "Anti-TNF como primeira linha",
+   "AINE e doxiciclina, tratando também a parceria",
+   "Ceftriaxona com azitromicina e drenagem cirúrgica"
   ],
   "gab": 3,
   "tema": "reumato",
   "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r3",
-  "base": "EULAR recommendations for the management of Sjögren's syndrome, 2020; ACR/EULAR classification criteria, 2016",
-  "coment": "A síndrome de Sjögren tem risco de linfoma não Hodgkin de células B, sobretudo do tipo MALT de parótida, várias vezes maior que o da população geral. Os sinais de alerta são aumento persistente de parótida, linfonodomegalia, púrpura, crioglobulinemia, consumo de complemento com queda de C4, gamopatia monoclonal e linfopenia. Esses achados exigem investigação com imagem e biópsia, e o acompanhamento inclui procurá-los ativamente a cada consulta.",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Ministério da Saúde, PCDT para Atenção Integral às Pessoas com IST, 2022; Carter e Hudson, Reactive arthritis, Rheumatic Disease Clinics of North America, 2009",
+  "coment": "Artrite reativa após uretrite por Chlamydia: oligoartrite assimétrica de membros inferiores, conjuntivite e uretrite. A infecção genital ativa deve ser tratada (doxiciclina 100 mg duas vezes ao dia por 7 dias, ou azitromicina), incluindo a parceria sexual, para evitar transmissão e recorrência. A artrite é tratada com AINE, com corticoide intra-articular se necessário; antibiótico prolongado não mostrou benefício consistente na artrite. Sulfassalazina fica para formas crônicas.",
   "porAlt": [
-   "O acometimento hepático existe na forma de colangite biliar associada, mas não é a principal preocupação.",
-   "Não há relação estabelecida entre a síndrome de Sjögren e valvopatia reumática do coração.",
-   "A retinopatia proliferativa não faz parte do espectro; o olho sofre por ceratoconjuntivite seca.",
-   "Correta: linfoma de células B, com aumento persistente de parótida e queda de C4 como alertas.",
-   "A insuficiência adrenal não integra as complicações características desta doença autoimune."
+   "Antibiótico prolongado não tem benefício consistente na artrite reativa.",
+   "Corticoide em pulso não é indicado.",
+   "Anti-TNF fica para doença crônica refratária.",
+   "Artrite reativa pós-Chlamydia: AINE para a artrite e doxiciclina para a infecção, com parceria tratada.",
+   "Não há artrite séptica que exija drenagem."
+  ]
+ },
+ {
+  "q": "Mulher de 44 anos com lúpus usa hidroxicloroquina 400 mg/dia há 8 anos. Pesa 52 kg. Clearance de 55 mL/min. Não usa tamoxifeno. Fez exame oftalmológico de base normal ao iniciar e nenhum desde então. Está assintomática, sem queixa visual, com doença controlada. Tem visão corrigida normal e usa também prednisona 5 mg/dia e losartana. Pressão controlada e sem diabetes. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter a dose e examinar se houver queixa",
+   "Suspender a hidroxicloroquina definitivamente",
+   "Reduzir para 5 mg/kg e fazer OCT e campimetria",
+   "Trocar por difosfato de cloroquina",
+   "Fundoscopia simples a cada 5 anos"
+  ],
+  "gab": 2,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "American Academy of Ophthalmology Recommendations on Screening for Chloroquine and Hydroxychloroquine Retinopathy, 2016; EULAR recommendations for the management of SLE, 2023",
+  "coment": "A retinopatia por hidroxicloroquina depende da dose por peso real e do tempo de uso: dose acima de 5 mg/kg/dia aumenta muito o risco. Aqui, 400/52 ≈ 7,7 mg/kg; a dose deve cair para no máximo 5 mg/kg (cerca de 250 mg/dia, por exemplo alternando 200 e 300 mg). A Academia Americana de Oftalmologia (2016) recomenda exame de base e rastreio anual após 5 anos (antes, se houver doença renal ou tamoxifeno), com tomografia de coerência óptica de domínio espectral e campo visual automatizado. A lesão é assintomática no início e irreversível.",
+  "porAlt": [
+   "A retinopatia é assintomática no início e irreversível.",
+   "A hidroxicloroquina reduz atividade e mortalidade no lúpus; ajusta-se a dose.",
+   "Dose de 7,7 mg/kg após 8 anos: reduzir para no máximo 5 mg/kg e rastrear com tomografia de coerência óptica e campo visual.",
+   "Cloroquina tem maior toxicidade retiniana.",
+   "Fundoscopia não detecta lesão inicial."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos com síndrome de Sjögren primária há 8 anos (anti-Ro positivo, xeroftalmia e xerostomia) nota aumento persistente e indolor da parótida esquerda há 4 meses. Tem púrpura palpável recorrente em pernas. C4 baixo, crioglobulinas positivas e pico monoclonal IgM kappa pequeno na eletroforese. Sem febre ou perda de peso. Ultrassonografia com massa heterogênea na parótida. Hemograma normal. Pesa 64 kg e usa apenas colírio lubrificante. Qual é a conduta mais adequada?",
+  "alts": [
+   "Pilocarpina e lágrimas artificiais",
+   "Sialografia e observar",
+   "Biópsia da parótida para excluir linfoma",
+   "Prednisona 1 mg/kg por 6 meses",
+   "Hidroxicloroquina e reavaliar em 1 ano"
+  ],
+  "gab": 2,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "EULAR recommendations for the management of Sjögren's syndrome with topical and systemic therapies, 2019; Nocturne e Mariette, B cells in the pathogenesis of primary Sjögren syndrome, Nature Reviews Rheumatology, 2018",
+  "coment": "Pacientes com Sjögren têm risco de linfoma não Hodgkin B, principalmente MALT de glândula salivar, 10 a 40 vezes maior que a população. Preditores: aumento persistente de parótida, púrpura, crioglobulinemia, C4 baixo, gamopatia monoclonal, linfopenia e escore alto de ESSDAI. Com aumento parotídeo persistente e massa, faz-se biópsia (idealmente guiada, de glândula parótida) para confirmar ou excluir linfoma. Tratamento sintomático da secura não resolve a lesão, e corticoide pode mascarar o diagnóstico.",
+  "porAlt": [
+   "Tratar só a secura ignora os sinais de linfoma.",
+   "Observar diante de preditores fortes atrasa o diagnóstico.",
+   "Aumento parotídeo persistente com púrpura, C4 baixo e crioglobulinas: biópsia para excluir linfoma MALT.",
+   "Corticoide pode mascarar linfoma e não é o próximo passo.",
+   "Hidroxicloroquina não investiga a massa parotídea."
   ]
  },
  {
@@ -14688,243 +14688,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 55 anos com dor mecânica em joelhos, rigidez matinal de 15 minutos e crepitação. Qual é o tratamento inicial?",
+  "q": "Homem de 58 anos, índice de massa corporal de 32 kg/m², tem dor mecânica em ambos os joelhos há 2 anos, pior ao subir escadas, rigidez matinal de 10 minutos e crepitação. Radiografia com redução medial do espaço articular e osteófitos. Sem derrame, sem sinais inflamatórios. PCR normal. Sedentário. Usa paracetamol esporadicamente. Pergunta sobre glucosamina e injeção de ácido hialurônico que viu em propaganda. Qual é o tratamento com melhor evidência?",
   "alts": [
-   "Corticoide sistêmico contínuo em dose baixa como tratamento de manutenção da doença articular descrita.",
-   "Metotrexato semanal em dose plena, tratamento modificador de escolha para essa doença degenerativa.",
-   "Exercício de fortalecimento com controle de peso e analgesia, sempre associados a educação do paciente.",
-   "Repouso articular prolongado com restrição da marcha como principal medida terapêutica indicada agora.",
-   "Artroplastia total imediata em todos os pacientes com crepitação e dor mecânica em joelhos neste caso."
+   "Glucosamina com condroitina contínua",
+   "Ácido hialurônico intra-articular trimestral",
+   "Artroscopia com desbridamento",
+   "Opioide fraco de uso contínuo",
+   "Exercício e perda de peso"
+  ],
+  "gab": 4,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACR/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, 2019; OARSI Guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis, 2019",
+  "coment": "O ACR (2019) e a OARSI (2019) recomendam fortemente exercício (fortalecimento, aeróbico, tai chi) e perda de peso na osteoartrite de joelho em pessoas com sobrepeso: perda de 5% a 10% do peso já reduz dor e melhora função. AINE tópico e oral e corticoide intra-articular são adjuvantes. Glucosamina, condroitina e ácido hialurônico intra-articular não têm benefício clinicamente relevante. Artroscopia com desbridamento não é superior a placebo na osteoartrite.",
+  "porAlt": [
+   "Glucosamina e condroitina não mostram benefício relevante.",
+   "Ácido hialurônico tem efeito semelhante ao placebo.",
+   "Artroscopia com desbridamento não supera placebo na osteoartrite.",
+   "Opioide de uso contínuo tem mais dano que benefício.",
+   "Osteoartrite de joelho com obesidade: exercício supervisionado e perda de peso."
+  ]
+ },
+ {
+  "q": "Mulher de 50 anos com artrite reumatoide sem resposta a metotrexato vai iniciar adalimumabe. IGRA positivo, radiografia de tórax normal, sem tosse, febre ou perda de peso. HBsAg negativo, anti-HBc total positivo, anti-HBs de 150 UI/L, HBV-DNA indetectável. Hepatite C negativa. Transaminases normais. Pesa 68 kg, não bebe e não tem contato domiciliar com tuberculose. Mora com o marido e trabalha em escritório. Qual é a conduta mais adequada antes e durante o imunobiológico?",
+  "alts": [
+   "Tratar tuberculose latente antes e monitorar HBV-DNA",
+   "Iniciar adalimumabe e observar sem profilaxias",
+   "Esquema completo para tuberculose ativa",
+   "Contraindicar adalimumabe pelo anti-HBc",
+   "Tenofovir por 5 anos e adiar o biológico"
+  ],
+  "gab": 0,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in AIIRD, 2022; Ministério da Saúde, Protocolo de Vigilância da Infecção Latente pelo Mycobacterium tuberculosis, 2022",
+  "coment": "Antes de anti-TNF, rastreiam-se tuberculose latente e hepatites. IGRA positivo, sem doença ativa, indica tratar infecção latente (isoniazida por 6 a 9 meses, rifapentina com isoniazida ou rifampicina por 4 meses), iniciando o biológico após pelo menos 1 mês, conforme o Ministério da Saúde. HBsAg negativo com anti-HBc positivo é infecção passada: com anti-TNF, o risco de reativação é baixo a moderado, e a EULAR (2022) aceita monitorizar HBV-DNA e ALT a cada 1 a 3 meses, com antiviral se houver reativação; profilaxia é preferida com rituximabe.",
+  "porAlt": [
+   "IGRA positivo e anti-HBc isolado: tratar tuberculose latente antes e monitorar HBV-DNA durante o anti-TNF.",
+   "IGRA positivo exige tratamento de tuberculose latente antes do anti-TNF.",
+   "Não há doença ativa que justifique esquema completo.",
+   "Anti-HBc isolado não contraindica anti-TNF.",
+   "Profilaxia antiviral prolongada é mais indicada com rituximabe."
+  ]
+ },
+ {
+  "q": "Mulher de 44 anos tem dor difusa há 8 meses em ambos os lados do corpo, acima e abaixo da cintura e axial, com fadiga, sono não reparador e dificuldade de concentração. Índice de dor generalizada de 11 e escala de gravidade de sintomas de 8. Exame sem sinovite ou fraqueza. Hemograma, VHS, PCR, CPK, TSH e vitamina D normais. Sem apneia do sono. PHQ-9 de 8. Pesa 70 kg e trabalha como professora. Qual é a conduta mais adequada?",
+  "alts": [
+   "Pesquisa ampla de autoanticorpos",
+   "Tramadol de uso contínuo",
+   "Prednisona 10 mg/dia por 3 meses",
+   "Educação e exercício aeróbico gradual",
+   "Repouso até melhora da fadiga"
+  ],
+  "gab": 3,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACR 2016 Revisions to the 2010/2011 Fibromyalgia Diagnostic Criteria; EULAR revised recommendations for the management of fibromyalgia, 2017",
+  "coment": "Pelos critérios do ACR (2016), fibromialgia é definida por índice de dor generalizada de 7 ou mais com escala de gravidade de 5 ou mais (ou 4 a 6 com escala de 9 ou mais), dor generalizada em pelo menos 4 de 5 regiões por 3 meses ou mais, e não exclui outros diagnósticos. A EULAR (2017) recomenda educação e exercício aeróbico e de fortalecimento como primeira linha (a única recomendação forte), com terapia cognitivo-comportamental e, se necessário, amitriptilina em dose baixa, duloxetina ou pregabalina. Opioides e corticoides não são recomendados.",
+  "porAlt": [
+   "Painéis amplos de autoanticorpos sem sinais clínicos geram falso-positivos.",
+   "Opioides não são recomendados na fibromialgia.",
+   "Corticoide não tem benefício.",
+   "Fibromialgia pelos critérios de 2016: educação e exercício aeróbico gradual.",
+   "Repouso piora a dor e o condicionamento."
+  ]
+ },
+ {
+  "q": "Mulher de 31 anos com lúpus e nefrite classe IV tratada está em remissão renal completa há 10 meses, com micofenolato 2 g/dia, hidroxicloroquina 200 mg duas vezes ao dia e prednisona 5 mg. Anti-Ro negativo, anticorpos antifosfolípides negativos. Pressão de 118/74 mmHg, proteinúria de 0,15 g/g, creatinina normal. Quer engravidar nos próximos meses. Pesa 60 kg e o marido tem 33 anos, sem problemas de saúde. Não fuma e não tem diabetes. Qual é a orientação mais adequada?",
+  "alts": [
+   "Suspender todas as medicações antes de tentar",
+   "Manter micofenolato durante a gestação",
+   "Trocar micofenolato por azatioprina e manter hidroxicloroquina",
+   "Contraindicar gestação pela nefrite prévia",
+   "Trocar hidroxicloroquina por metotrexato"
+  ],
+  "gab": 2,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "ACR Guideline for the Management of Reproductive Health in Rheumatic and Musculoskeletal Diseases, 2020",
+  "coment": "Gestação no lúpus deve ser planejada com doença inativa por pelo menos 6 meses. O ACR (2020) recomenda suspender micofenolato (teratogênico) pelo menos 6 semanas antes da concepção, trocando por azatioprina, que é compatível, e observar estabilidade por alguns meses; manter hidroxicloroquina, que reduz exacerbações e desfechos adversos; e iniciar AAS em dose baixa a partir de 12 semanas pela prevenção de pré-eclâmpsia, especialmente com nefrite prévia. Metotrexato também é teratogênico.",
+  "porAlt": [
+   "Suspender tudo aumenta o risco de exacerbação na gestação.",
+   "Micofenolato é teratogênico.",
+   "Planejamento com remissão: trocar micofenolato por azatioprina antes da concepção e manter hidroxicloroquina.",
+   "Com remissão sustentada, a gestação pode ser planejada.",
+   "Metotrexato é teratogênico e hidroxicloroquina deve ser mantida."
+  ]
+ },
+ {
+  "q": "Homem de 28 anos com espondiloartrite axial HLA-B27 positiva, em uso de secuquinumabe há 1 ano com boa resposta axial, teve 3 episódios de uveíte anterior aguda nos últimos 8 meses, tratados com colírio de corticoide e cicloplégico pelo oftalmologista. Sem doença inflamatória intestinal ou psoríase. IGRA negativo. Pesa 80 kg, trabalha como engenheiro e não fuma. BASDAI de 2,1 e PCR normal. Qual é o ajuste terapêutico mais adequado?",
+  "alts": [
+   "Trocar para anticorpo monoclonal anti-TNF",
+   "Manter secuquinumabe e colírio a cada crise",
+   "Trocar para etanercepte",
+   "Prednisona oral contínua",
+   "Acrescentar metotrexato ao secuquinumabe"
+  ],
+  "gab": 0,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ASAS-EULAR recommendations for the management of axial spondyloarthritis, 2022 update",
+  "coment": "Uveíte anterior recorrente em espondiloartrite favorece anticorpos monoclonais anti-TNF (adalimumabe, infliximabe, certolizumabe, golimumabe), que reduzem recorrências (ASAS-EULAR 2022). Etanercepte, receptor solúvel, e inibidores de IL-17 têm eficácia menor ou incerta na uveíte, e o etanercepte associa-se a casos novos. Cada crise continua exigindo avaliação oftalmológica urgente. Corticoide oral contínuo não é estratégia de manutenção.",
+  "porAlt": [
+   "Uveíte recorrente na espondiloartrite: trocar para anticorpo monoclonal anti-TNF.",
+   "Três crises em 8 meses pedem mudança do tratamento sistêmico.",
+   "Etanercepte é pouco eficaz na prevenção de uveíte.",
+   "Corticoide oral contínuo traz toxicidade sem ser estratégia de manutenção.",
+   "Metotrexato não tem papel na doença axial e protege pouco contra uveíte."
+  ]
+ },
+ {
+  "q": "Homem de 62 anos com vasculite usa prednisona 12,5 mg/dia há 7 meses, com previsão de pelo menos mais 6 meses. Densitometria com escore T de −2,1 no colo femoral. FRAX calculado sem ajuste: 18% para fratura osteoporótica maior e 2,4% para quadril. Vitamina D e cálcio normais, clearance de 70 mL/min, sem fratura prévia. Pesa 76 kg, não fuma e não bebe. Nunca usou bisfosfonato. Pela ACR 2022, qual é a interpretação do risco e a conduta?",
+  "alts": [
+   "Risco baixo; apenas cálcio e vitamina D",
+   "Risco muito alto; teriparatida",
+   "Risco moderado; repetir densitometria em 5 anos",
+   "Risco baixo; suspender o corticoide abruptamente",
+   "Risco alto após ajuste; bisfosfonato oral"
+  ],
+  "gab": 4,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "ACR Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis, 2022",
+  "coment": "Na osteoporose induzida por glicocorticoide, a ACR (2022) manda ajustar o FRAX para dose de prednisona acima de 7,5 mg/dia: multiplicar fratura maior por 1,15 e quadril por 1,2. Aqui, 18 × 1,15 = 20,7% e 2,4 × 1,2 = 2,9%, ambos no limiar de risco alto (maior de 20% ou mais, ou quadril acima de 3%, ou escore T de −2,5 ou menos). Risco alto indica tratamento, com bisfosfonato oral como primeira escolha. Risco muito alto (fratura prévia, escore T de −3,5 ou menos, prednisona de 30 mg/dia ou mais) favorece anabólico.",
+  "porAlt": [
+   "Sem ajuste pela dose de corticoide, o risco é subestimado.",
+   "Não há critérios de risco muito alto.",
+   "Com risco alto, repetir exame em 5 anos atrasa a proteção.",
+   "Suspensão abrupta arrisca insuficiência adrenal e recaída.",
+   "FRAX ajustado 18 × 1,15 = 20,7%: risco alto; bisfosfonato oral."
+  ]
+ },
+ {
+  "q": "Homem de 64 anos com diabetes tem dor, calor e derrame no joelho direito há 2 dias, com febre de 38,7 °C. Artrocentese: líquido turvo, 72 mil leucócitos/mm³ com 92% de neutrófilos, Gram com cocos gram-positivos em cachos, sem cristais. Sem prótese articular. Não usou antibiótico recente, sem internações ou hemodiálise. Clearance de 80 mL/min. Pressão de 118/72 mmHg, lactato de 1,6 mmol/L e glicemia de 240 mg/dL. Qual é a conduta mais adequada?",
+  "alts": [
+   "AINE e repetir a punção em 48 horas",
+   "Hemoculturas, drenagem articular e oxacilina ou cefazolina endovenosa",
+   "Corticoide intra-articular e AINE oral",
+   "Antibiótico oral ambulatorial por 7 dias",
+   "Imobilização gessada por 3 semanas"
+  ],
+  "gab": 1,
+  "tema": "reumato",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "BSR/BHPR Guideline for management of the hot swollen joint in adults, 2006 (revisão 2023); Earwood et al., Septic Arthritis: Diagnosis and Treatment, American Family Physician, 2021",
+  "coment": "Artrite séptica é emergência: destrói a cartilagem em dias. Colhem-se hemoculturas, e o líquido (acima de 50 mil leucócitos, predomínio neutrofílico, Gram com cocos em cachos) sugere Staphylococcus aureus. Iniciam-se drenagem articular (artrocenteses repetidas, artroscopia ou cirurgia aberta) e antibiótico endovenoso: com baixo risco de MRSA, oxacilina ou cefazolina; com fatores de risco para MRSA, vancomicina. Duração total de cerca de 4 a 6 semanas, com transição oral conforme evolução. Corticoide intra-articular e imobilização prolongada são contraindicados.",
+  "porAlt": [
+   "Artrite séptica exige antibiótico e drenagem imediatos.",
+   "Artrite séptica por cocos em cachos sem risco de MRSA: hemoculturas, drenagem e oxacilina ou cefazolina.",
+   "Corticoide intra-articular piora a infecção.",
+   "Via oral ambulatorial curta é inadequada no início.",
+   "Imobilização prolongada causa rigidez; mobiliza-se precocemente."
+  ]
+ },
+ {
+  "q": "Mulher de 50 anos com esclerose sistêmica cutânea difusa há 1 ano, anti-RNA polimerase III positivo, usava prednisona 20 mg/dia por miosite associada. Chega com cefaleia, pressão de 196/112 mmHg, creatinina de 2,6 mg/dL (era 0,8 há 2 meses), plaquetas de 98 mil, esquizócitos e proteinúria leve. Sem uso de AINE ou contraste. Pesa 58 kg, sem sinais de edema pulmonar ou encefalopatia. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Pulsoterapia com metilprednisolona",
+   "Nifedipino isolado, evitando IECA pela creatinina",
+   "Plasmaférese como primeira linha",
+   "Captopril titulado em dose plena",
+   "Hidralazina com furosemida"
+  ],
+  "gab": 3,
+  "tema": "reumato",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "EULAR recommendations for the treatment of systemic sclerosis, 2023 update; Steen et al., Outcome of renal crisis in systemic sclerosis, Annals of Internal Medicine, 2000",
+  "coment": "Crise renal esclerodérmica: hipertensão acelerada, lesão renal aguda e microangiopatia, com risco maior na forma difusa precoce, anti-RNA polimerase III e uso de prednisona acima de 15 mg/dia. O tratamento é IECA de ação curta (captopril), titulado rapidamente até controlar a pressão, mantido mesmo com piora da creatinina ou necessidade de diálise, pois a recuperação renal pode ocorrer em até 2 anos. Bloqueador de cálcio pode ser somado depois. Corticoide em dose alta é fator desencadeante.",
+  "porAlt": [
+   "Corticoide em dose alta desencadeia e piora a crise renal.",
+   "IECA é o tratamento de escolha e não deve ser evitado pela creatinina.",
+   "Plasmaférese não é tratamento de primeira linha.",
+   "Crise renal esclerodérmica: captopril titulado em dose plena, mantido mesmo com piora da creatinina.",
+   "Sem IECA, a mortalidade da crise é muito maior."
+  ]
+ },
+ {
+  "q": "Homem de 48 anos tem febre, perda de 7 kg, mialgia, livedo reticular e mononeurite múltipla (pé caído à direita e mão em garra à esquerda) há 2 meses. Hipertensão nova de 170/100 mmHg, creatinina de 1,6 mg/dL, sem glomerulonefrite no sedimento. ANCA negativo, crioglobulinas negativas. HBsAg positivo, HBeAg positivo, HBV-DNA de 10⁷ UI/mL. Angiografia com microaneurismas renais. Pesa 70 kg e nega uso de drogas injetáveis. Transaminases levemente elevadas. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Antiviral, corticoide curto e plasmaférese",
+   "Ciclofosfamida e prednisona por 2 anos",
+   "Rituximabe isolado em 4 doses",
+   "Apenas antiviral, sem outra medida",
+   "Micofenolato de manutenção prolongada"
+  ],
+  "gab": 0,
+  "tema": "reumato",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ACR/Vasculitis Foundation Guideline for the Management of Polyarteritis Nodosa, 2021; Guillevin et al., Hepatitis B virus-associated polyarteritis nodosa, Medicine, 2005",
+  "coment": "Poliarterite nodosa associada ao vírus da hepatite B (mononeurite múltipla, hipertensão por microaneurismas renais, ANCA negativo) é causada por imunocomplexos virais. O tratamento combina antiviral potente (entecavir ou tenofovir), corticoide por curto período para controlar a inflamação e plasmaférese para remover imunocomplexos. Imunossupressão prolongada, como ciclofosfamida, favorece replicação viral e piora a hepatite. Antiviral isolado demora demais para controlar neuropatia e hipertensão graves.",
+  "porAlt": [
+   "Poliarterite nodosa por hepatite B: antiviral, corticoide curto e plasmaférese.",
+   "Imunossupressão prolongada aumenta a replicação viral.",
+   "Rituximabe isolado reativa o vírus e não trata a causa.",
+   "Antiviral isolado é lento para doença sistêmica grave.",
+   "Imunossupressão prolongada sem antiviral é danosa."
+  ]
+ },
+ {
+  "q": "Mulher de 38 anos teve AVC isquêmico há 4 meses sem outra causa, com anticoagulante lúpico, anticardiolipina IgG e anti-beta-2 glicoproteína I IgG positivos em título alto, confirmados após 12 semanas. Usa rivaroxabana 20 mg desde a alta. Sem lúpus, sem sangramento, função renal normal, sem desejo de gestar e com DIU. Pesa 62 kg e não tem hepatopatia. A adesão ao tratamento é boa. Qual é a conduta anticoagulante mais adequada?",
+  "alts": [
+   "Manter rivaroxabana indefinidamente",
+   "Trocar para AAS isolado",
+   "Varfarina com INR entre 2 e 3",
+   "Suspender após 6 meses",
+   "Trocar para apixabana"
   ],
   "gab": 2,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "ACR/AF Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, 2019 com revisão 2023; OARSI guidelines, 2019",
-  "coment": "O tratamento da osteoartrite de joelho tem como pilares o exercício, fortalecimento de quadríceps e condicionamento aeróbico, a perda de peso quando há sobrepeso e a educação sobre a doença, todos com recomendação forte. Analgesia inclui anti-inflamatório tópico, paracetamol e anti-inflamatório oral pelo menor tempo possível. Infiltração de corticoide alivia por curtos períodos. Artroplastia se reserva à doença avançada refratária com prejuízo funcional.",
-  "porAlt": [
-   "O corticoide sistêmico contínuo não é indicado e traz toxicidade sem benefício estrutural algum.",
-   "O metotrexato trata artrite inflamatória autoimune, e não a doença degenerativa aqui descrita.",
-   "Correta: exercício de fortalecimento, controle de peso, analgesia e educação são os pilares do tratamento.",
-   "O repouso prolongado atrofia o quadríceps e piora a dor e a função articular do paciente.",
-   "A artroplastia se reserva à doença avançada refratária ao tratamento clínico bem conduzido."
-  ]
- },
- {
-  "q": "Paciente com artrite reumatoide em uso de metotrexato precisa iniciar imunobiológico. Qual rastreio é obrigatório antes?",
-  "alts": [
-   "Rastreio de tuberculose latente e de hepatites virais, sempre antes da primeira dose do imunobiológico.",
-   "Apenas hemograma completo, exame suficiente para liberar o início da terapia com agente imunobiológico.",
-   "Somente radiografia de mãos, exame necessário para autorizar o início do tratamento imunobiológico.",
-   "Apenas densitometria óssea, exame obrigatório antes de iniciar qualquer terapia com imunobiológico.",
-   "Nenhum rastreio é necessário, pois os imunobiológicos não aumentam o risco de infecção latente agora."
-  ],
-  "gab": 0,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "Sociedade Brasileira de Reumatologia: Consenso sobre terapia biológica, 2022; EULAR recommendations, 2022",
-  "coment": "Antes de iniciar imunobiológico, sobretudo anti-TNF, é obrigatório rastrear tuberculose latente com prova tuberculínica ou ensaio de liberação de interferon gama e radiografia de tórax, tratando a infecção latente antes de iniciar. Rastreiam-se também hepatites B e C, pelo risco de reativação viral, e HIV, além de atualizar o calendário vacinal, aplicando vacinas de vírus vivo com antecedência, pois ficam contraindicadas depois.",
-  "porAlt": [
-   "Correta: rastreio de tuberculose latente e de hepatites virais antes da primeira dose do imunobiológico.",
-   "O hemograma é parte da avaliação, mas não detecta tuberculose latente nem hepatite viral crônica.",
-   "A radiografia de mãos avalia dano articular e não tem relação com a segurança do imunobiológico.",
-   "A densitometria avalia massa óssea e não integra o rastreio de segurança antes do imunobiológico.",
-   "Os imunobiológicos aumentam de forma expressiva o risco de reativação de tuberculose latente."
-  ]
- },
- {
-  "q": "Paciente com dor difusa há mais de três meses, fadiga, sono não reparador e exame físico e laboratorial normais. Qual é a conduta?",
-  "alts": [
-   "Corticoide sistêmico em dose alta, tratamento com melhor evidência para o quadro doloroso descrito.",
-   "Opioide potente de uso contínuo diário como tratamento de escolha para essa condição dolorosa crônica.",
-   "Solicitar bateria ampla de exames repetidos a cada mês até encontrar alguma alteração laboratorial.",
-   "Exercício aeróbico gradual e educação, associados sempre a abordagem do sono e da saúde mental.",
-   "Repouso prolongado com afastamento total de qualquer atividade física durante seis meses seguidos."
-  ],
-  "gab": 3,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "EULAR revised recommendations for the management of fibromyalgia, 2017 com revisão 2023; ACR diagnostic criteria, 2016",
-  "coment": "A fibromialgia é diagnóstico clínico, com dor difusa, fadiga, sono não reparador e sintomas cognitivos, sem alterações laboratoriais ou de imagem específicas. A intervenção com melhor evidência e recomendação mais forte é o exercício, sobretudo aeróbico e de fortalecimento, iniciado de forma gradual. Associam-se educação, terapia cognitivo-comportamental e higiene do sono. Fármacos como amitriptilina, duloxetina e pregabalina são adjuvantes; opioides são desaconselhados.",
-  "porAlt": [
-   "O corticoide não tem eficácia na fibromialgia e adiciona toxicidade sem qualquer benefício clínico.",
-   "Os opioides são desaconselhados, com risco de hiperalgesia, dependência e piora funcional a longo prazo.",
-   "Repetir exames indefinidamente reforça a busca por doença e piora o sofrimento e a ansiedade.",
-   "Correta: exercício aeróbico gradual com educação, abordagem do sono e da saúde mental do paciente.",
-   "O repouso prolongado agrava o descondicionamento e intensifica a dor e a fadiga do paciente."
-  ]
- },
- {
-  "q": "Paciente com lúpus em remissão pergunta sobre gestação. Qual é a orientação correta?",
-  "alts": [
-   "Contraindicar a gestação de forma definitiva em todas as pacientes com diagnóstico de lúpus eritematoso.",
-   "Planejar a gestação após seis meses de remissão, mantendo sempre hidroxicloroquina e ajustando fármacos.",
-   "Engravidar imediatamente, independentemente da atividade da doença ou dos fármacos em uso pela paciente.",
-   "Suspender a hidroxicloroquina antes de engravidar, pois o fármaco é contraindicado durante a gestação.",
-   "Manter micofenolato durante toda a gestação, pois é o imunossupressor mais seguro nesse período agora."
-  ],
-  "gab": 1,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "prev",
   "nivel": "r3",
-  "base": "EULAR recommendations for women's health and family planning in rheumatic diseases, 2017 com revisão 2023; ACR Reproductive Health Guideline, 2020",
-  "coment": "A gestação no lúpus deve ser planejada, idealmente após seis meses de doença inativa, o que reduz de forma expressiva os desfechos adversos maternos e fetais. A hidroxicloroquina é mantida durante toda a gestação por reduzir atividade da doença e o risco de bloqueio cardíaco congênito em portadoras de anti-Ro. Micofenolato, ciclofosfamida e metotrexato são teratogênicos e substituídos por azatioprina ou tacrolimo antes da concepção.",
+  "base": "EULAR recommendations for the management of antiphospholipid syndrome in adults, 2019; Pengo et al., TRAPS, Blood, 2018",
+  "coment": "Síndrome antifosfolípide triplo positiva com trombose arterial é o perfil de maior risco. No TRAPS, rivaroxabana aumentou eventos trombóticos arteriais em comparação com varfarina, e resultados semelhantes ocorreram com apixabana (ASTRO-APS). A EULAR (2019) contraindica anticoagulantes orais diretos em triplo positivos e em trombose arterial. Recomenda-se varfarina por tempo indefinido, com INR de 2 a 3 ou, conforme risco, 2 a 3 com AAS em dose baixa. AAS isolado não é suficiente após AVC na síndrome antifosfolípide.",
   "porAlt": [
-   "A gestação é possível e segura quando planejada em período de doença inativa e com fármacos adequados.",
-   "Correta: planejar após seis meses de remissão, mantendo hidroxicloroquina e ajustando os imunossupressores.",
-   "Engravidar em atividade da doença aumenta perda fetal, prematuridade e agravamento do quadro materno.",
-   "A hidroxicloroquina é mantida na gestação, com benefício comprovado para a mãe e para o feto.",
-   "O micofenolato é teratogênico e deve ser substituído antes da concepção por alternativa segura."
-  ]
- },
- {
-  "q": "Homem de 28 anos com uveíte anterior recorrente, lombalgia inflamatória e HLA-B27 positivo. Qual é a conduta quanto ao acometimento ocular?",
-  "alts": [
-   "Tratar apenas com colírio lubrificante domiciliar, medida suficiente para todos os episódios de uveíte agora.",
-   "Aguardar a resolução espontânea da uveíte sem qualquer tratamento ou avaliação oftalmológica dirigida agora.",
-   "Iniciar antibiótico tópico prolongado como tratamento de escolha para a uveíte anterior recorrente neste caso.",
-   "Encaminhamento oftalmológico urgente a cada episódio, com tratamento sempre tópico e sistêmico conforme o caso.",
-   "Indicar cirurgia ocular imediata em todos os episódios de uveíte anterior associada à espondiloartrite agora."
-  ],
-  "gab": 3,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "ASAS-EULAR recommendations for axial spondyloarthritis, 2022; American Academy of Ophthalmology, Uveitis Preferred Practice Pattern, 2023",
-  "coment": "A uveíte anterior aguda é a manifestação extra-articular mais frequente das espondiloartrites associadas ao HLA-B27, tipicamente unilateral, dolorosa, com fotofobia e hiperemia perilímbica. Exige avaliação oftalmológica urgente e tratamento com corticoide tópico e midriático para evitar sinéquias, com risco de perda visual se negligenciada. Recorrências frequentes favorecem a escolha de anti-TNF monoclonal, que reduz novos episódios oculares.",
-  "porAlt": [
-   "O lubrificante não trata a inflamação intraocular e a demora pode causar sinéquias e perda visual.",
-   "Aguardar sem tratar arrisca complicações estruturais permanentes do olho acometido pela uveíte.",
-   "O antibiótico tópico não trata a uveíte, que é inflamação imunomediada e não infecção bacteriana.",
-   "Correta: avaliação oftalmológica urgente a cada episódio, com tratamento tópico e sistêmico conforme o caso.",
-   "A cirurgia se reserva a complicações estruturais, e não ao tratamento do episódio inflamatório agudo."
-  ]
- },
- {
-  "q": "Paciente em uso crônico de corticoide em dose equivalente a 10 mg de prednisona há mais de três meses. Qual é a conduta preventiva obrigatória?",
-  "alts": [
-   "Apenas orientar dieta rica em cálcio, medida isolada suficiente para prevenir a perda óssea induzida.",
-   "Prescrever apenas exercício físico regular, sem qualquer avaliação de risco ou intervenção farmacológica.",
-   "Suspender abruptamente o corticoide para evitar a perda óssea associada ao uso prolongado do fármaco.",
-   "Iniciar reposição hormonal com testosterona em todos os pacientes em uso crônico de corticoide oral.",
-   "Avaliar risco de fratura e repor cálcio e vitamina D, considerando sempre bisfosfonato conforme o risco."
-  ],
-  "gab": 4,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "ACR Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis, 2022; SBEM/ABRASSO, 2022",
-  "coment": "A osteoporose induzida por corticoide começa cedo, com maior perda nos primeiros meses, e o risco de fratura aumenta mesmo com densidade mineral óssea ainda preservada. Todo paciente com previsão de uso por três meses ou mais em dose equivalente a 2,5 mg de prednisona deve receber cálcio e vitamina D adequados, ter o risco estimado por ferramenta como o FRAX ajustado e receber bisfosfonato quando o risco é moderado ou alto.",
-  "porAlt": [
-   "A dieta isolada é insuficiente para prevenir a perda óssea acelerada induzida pelo corticoide.",
-   "O exercício é adjuvante importante, mas não substitui a avaliação de risco e a terapia indicada.",
-   "A suspensão abrupta pode precipitar insuficiência adrenal e recidiva da doença de base tratada.",
-   "A testosterona não é intervenção padrão para prevenção de osteoporose induzida por corticoide.",
-   "Correta: estimar o risco de fratura, repor cálcio e vitamina D e indicar bisfosfonato conforme o risco."
-  ]
- },
- {
-  "q": "Paciente com artrite aguda de joelho, febre e líquido sinovial com 60.000 leucócitos/mm³ com predomínio de neutrófilos. Qual é a conduta?",
-  "alts": [
-   "Infiltração intra-articular de corticoide como primeira medida antes de qualquer coleta de material.",
-   "Prescrever apenas anti-inflamatório oral e reavaliar clinicamente em uma semana de acompanhamento.",
-   "Iniciar colchicina em dose plena, já tratamento de escolha para a monoartrite febril aqui descrita.",
-   "Imobilizar o joelho por quatro semanas sem qualquer drenagem ou antibioticoterapia sistêmica.",
-   "Drenagem articular e antibiótico endovenoso empírico, iniciados sempre após a coleta de culturas."
-  ],
-  "gab": 4,
-  "tema": "reumato",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "EULAR/BSR recommendations on septic arthritis, revisão 2023; IDSA guidance on bone and joint infections, 2023",
-  "coment": "Contagem de leucócitos no líquido sinovial acima de 50.000 por milímetro cúbico com predomínio de neutrófilos e febre indica artrite séptica até prova em contrário. O tratamento combina drenagem articular, por artrocentese repetida ou artroscopia, e antibiótico endovenoso empírico cobrindo Staphylococcus aureus, iniciado logo após a coleta de hemoculturas e do líquido sinovial. O atraso leva a destruição da cartilagem em poucos dias.",
-  "porAlt": [
-   "O corticoide intra-articular em artrite séptica agrava a infecção e é formalmente contraindicado.",
-   "Anti-inflamatório isolado por uma semana permite destruição irreversível da cartilagem articular.",
-   "A colchicina trata gota, e a contagem descrita com febre aponta infecção como principal hipótese.",
-   "A imobilização isolada não trata a infecção e a destruição articular progride sem antibiótico.",
-   "Correta: drenagem articular com antibiótico endovenoso empírico iniciado após a coleta de culturas."
-  ]
- },
- {
-  "q": "Mulher de 50 anos com espessamento cutâneo distal, Raynaud e crise renal com hipertensão grave e lesão renal aguda. Qual é o tratamento?",
-  "alts": [
-   "Inibidor da enzima conversora de angiotensina em dose plena, iniciado sempre o mais precocemente possível.",
-   "Corticoide sistêmico em dose alta, tratamento de escolha para a crise renal da esclerose sistêmica agora.",
-   "Bloqueador de canal de cálcio isolado como tratamento definitivo da crise renal descrita no caso agora.",
-   "Diurético de alça em dose alta como principal medida terapêutica da crise renal da esclerodermia agora.",
-   "Diálise imediata em todos os casos antes de qualquer tratamento anti-hipertensivo ser instituído agora."
-  ],
-  "gab": 0,
-  "tema": "reumato",
-  "cenario": "uti",
-  "comp": "urg",
-  "nivel": "r3",
-  "base": "EULAR recommendations for the treatment of systemic sclerosis, atualização 2024; Scleroderma Clinical Trials Consortium, 2023",
-  "coment": "A crise renal esclerodérmica cursa com hipertensão de instalação abrupta, lesão renal aguda e por vezes anemia hemolítica microangiopática. O tratamento é inibidor da enzima conversora de angiotensina, preferencialmente captopril, titulado rapidamente até o controle pressórico, mesmo diante de elevação da creatinina, pois seu uso transformou o prognóstico da complicação. Corticoide em dose alta é fator de risco reconhecido e deve ser evitado na doença.",
-  "porAlt": [
-   "Correta: inibidor da enzima conversora iniciado precocemente e titulado, mesmo com creatinina subindo.",
-   "O corticoide em dose alta é fator de risco para a crise renal e deve ser evitado nesses pacientes.",
-   "O bloqueador de canal de cálcio trata o Raynaud, mas não é o tratamento da crise renal descrita.",
-   "O diurético não trata o mecanismo da crise renal e pode agravar a hipoperfusão do rim acometido.",
-   "A diálise pode ser necessária, mas nunca precede o tratamento com inibidor da enzima conversora."
-  ]
- },
- {
-  "q": "Paciente com poliartrite, febre, lesões cutâneas purpúricas palpáveis e mononeurite múltipla. Qual é a suspeita diagnóstica?",
-  "alts": [
-   "Osteoartrite generalizada, condição que cursa com púrpura palpável, febre e mononeurite múltipla.",
-   "Fibromialgia grave, quadro definido por lesões purpúricas palpáveis com acometimento de nervo periférico.",
-   "Gota poliarticular, condição caracterizada por púrpura palpável e mononeurite múltipla associada.",
-   "Vasculite sistêmica, que exige sempre confirmação histológica ou sorológica antes da imunossupressão.",
-   "Osteoporose avançada, quadro que cursa com poliartrite febril e lesões purpúricas palpáveis na pele."
-  ],
-  "gab": 3,
-  "tema": "reumato",
-  "cenario": "enf",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "EULAR/ACR classification criteria for ANCA-associated vasculitis, 2022; EULAR recommendations for management of vasculitis, 2022",
-  "coment": "Púrpura palpável, mononeurite múltipla, febre e poliartrite formam um quadro clássico de vasculite sistêmica, que exige investigação rápida com ANCA, complemento, crioglobulinas, sorologias virais e biópsia de pele, nervo ou rim conforme o órgão acometido. A confirmação orienta a imunossupressão, geralmente com corticoide associado a rituximabe ou ciclofosfamida na indução, dada a gravidade e o risco de dano irreversível de órgão.",
-  "porAlt": [
-   "A osteoartrite é degenerativa e não cursa com febre, púrpura palpável ou neuropatia periférica.",
-   "A fibromialgia não produz lesões cutâneas vasculíticas nem acometimento de nervo periférico.",
-   "A gota causa artrite por cristais e não produz púrpura palpável nem mononeurite múltipla.",
-   "Correta: vasculite sistêmica, com confirmação histológica ou sorológica antes da imunossupressão.",
-   "A osteoporose é assintomática até a fratura e não cursa com febre, púrpura ou poliartrite."
-  ]
- },
- {
-  "q": "Paciente com síndrome antifosfolípide e trombose venosa prévia pergunta sobre anticoagulação. Qual é a conduta?",
-  "alts": [
-   "Anticoagulação com varfarina por tempo indeterminado, com alvo de INR mantido sempre entre 2 e 3.",
-   "Anticoagulante oral direto como primeira escolha em todos os pacientes com síndrome antifosfolípide.",
-   "Antiagregação isolada com ácido acetilsalicílico como tratamento definitivo após trombose venosa prévia.",
-   "Anticoagulação por apenas três meses, com suspensão programada após a resolução do evento agudo.",
-   "Nenhuma anticoagulação enquanto o paciente permanecer assintomático e sem novos eventos trombóticos."
-  ],
-  "gab": 0,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "EULAR recommendations for the management of antiphospholipid syndrome in adults, 2019 com revisão 2023; ISTH guidance, 2023",
-  "coment": "Na síndrome antifosfolípide com trombose venosa, a anticoagulação é indefinida, com antagonista da vitamina K e alvo de INR entre 2 e 3. Os anticoagulantes orais diretos mostraram-se inferiores em ensaios clínicos, sobretudo em pacientes triplo-positivos e com trombose arterial, nos quais são desaconselhados. Antiagregante isolado não previne recorrência após trombose estabelecida. Suspender a anticoagulação associa-se a taxa elevada de recorrência.",
-  "porAlt": [
-   "Correta: varfarina por tempo indeterminado com alvo de INR entre 2 e 3 após trombose venosa.",
-   "Os anticoagulantes diretos foram inferiores em ensaios e são desaconselhados nesses pacientes.",
-   "O antiagregante isolado não previne recorrência após um evento trombótico já estabelecido.",
-   "Suspender após três meses associa-se a taxa alta de recorrência nessa condição autoimune.",
-   "A ausência de sintomas não reduz o risco: a recorrência é o desfecho que se busca prevenir."
+   "Anticoagulante direto aumentou eventos arteriais em triplo positivos.",
+   "AAS isolado é insuficiente após trombose arterial.",
+   "Triplo positivo com AVC: trocar para varfarina com INR de 2 a 3, por tempo indefinido.",
+   "Síndrome antifosfolípide com trombose exige anticoagulação indefinida.",
+   "Apixabana também é contraindicada nesse perfil."
   ]
  },
  {
@@ -19608,243 +19608,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente com artrite reumatoide em remissão sustentada há doze meses com metotrexato. Qual é a conduta?",
+  "q": "Mulher de 55 anos com artrite reumatoide soropositiva usa metotrexato 20 mg/semana e etanercepte 50 mg/semana há 3 anos. Está em remissão sustentada há 18 meses (DAS28-PCR de 2,0), sem corticoide, sem progressão radiográfica. Ultrassonografia sem sinovite ativa. Tem herpes-zóster de repetição e deseja reduzir medicação. Pesa 66 kg e não tem doença pulmonar. Hemograma e função hepática normais. Qual é a conduta mais adequada?",
   "alts": [
-   "Suspender abruptamente todo o tratamento assim que a remissão for documentada em uma única consulta.",
-   "Aumentar a dose do metotrexato apesar da remissão sustentada documentada ao longo dos doze meses agora.",
-   "Substituir o metotrexato por corticoide sistêmico contínuo como estratégia de manutenção da remissão.",
-   "Manter indefinidamente a mesma dose sem qualquer avaliação de redução mesmo com remissão sustentada.",
-   "Considerar redução gradual da dose com monitorização, evitando sempre a suspensão abrupta do tratamento."
+   "Suspender ambos os fármacos de uma vez",
+   "Suspender o metotrexato e manter o etanercepte",
+   "Manter tudo sem alteração indefinidamente",
+   "Trocar etanercepte por inibidor de JAK",
+   "Espaçar o etanercepte, mantendo metotrexato"
   ],
   "gab": 4,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "EULAR recommendations for the management of rheumatoid arthritis, 2022; ACR guideline, 2021",
-  "coment": "Em remissão sustentada por pelo menos seis a doze meses, as diretrizes permitem considerar a redução gradual da terapia, começando pelo corticoide, depois pelo biológico e por último pela droga modificadora sintética, sempre com monitorização estreita da atividade. A suspensão completa associa-se a taxa elevada de recidiva, e por isso a redução é preferida à retirada, com retorno rápido à dose plena diante de qualquer sinal de reativação.",
+  "base": "EULAR recommendations for the management of rheumatoid arthritis, 2022 update",
+  "coment": "A EULAR (2022) recomenda que, em remissão persistente após suspensão do corticoide, se considere reduzir o DMARD biológico ou sintético-alvo, especialmente se combinado a DMARD convencional, espaçando doses ou reduzindo-as. Suspender todos os fármacos aumenta muito a recaída. Após redução bem-sucedida do biológico, pode-se tentar reduzir o convencional. Inibidor de JAK aumenta o risco de herpes-zóster. A redução exige monitorização, com retorno à dose anterior se houver recaída.",
   "porAlt": [
-   "A suspensão abrupta associa-se a alta taxa de recidiva e a nova progressão do dano articular.",
-   "Aumentar a dose em remissão sustentada adiciona toxicidade sem qualquer benefício adicional.",
-   "O corticoide contínuo não substitui a droga modificadora e traz toxicidade acumulada relevante.",
-   "Nunca avaliar a redução mantém exposição desnecessária em paciente com remissão sustentada.",
-   "Correta: reduzir gradualmente com monitorização, evitando a suspensão abrupta do tratamento."
+   "Suspender tudo de uma vez aumenta a recaída.",
+   "Tira-se primeiro o biológico, mantendo o convencional como âncora.",
+   "A redução em remissão é considerada, especialmente com efeitos adversos.",
+   "Inibidor de JAK aumenta herpes-zóster.",
+   "Remissão sustentada: espaçar ou reduzir o biológico gradualmente, mantendo o metotrexato."
   ]
  },
  {
-  "q": "Paciente com gota e crises recorrentes apresenta ácido úrico de 9,5 mg/dL fora da crise. Qual é a conduta?",
+  "q": "Homem de 60 anos com gota tofácea usa alopurinol 300 mg/dia há 6 meses, com boa adesão, e colchicina 0,5 mg/dia. Ainda tem 2 crises no semestre e tofos em cotovelos. Ácido úrico de 7,6 mg/dL. Clearance de 45 mL/min. Sem reação cutânea ao alopurinol, transaminases normais. Pesa 88 kg, tem hipertensão controlada com losartana e não bebe. Não tem litíase renal. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar hipouricemiante com meta de urato definida, associando sempre profilaxia de crise nos primeiros meses.",
-   "Iniciar hipouricemiante sem qualquer profilaxia, pois a redução do urato nunca desencadeia novas crises agora.",
-   "Prescrever apenas anti-inflamatório nas crises, sem qualquer tratamento hipouricemiante de manutenção agora.",
-   "Suspender o hipouricemiante sempre que ocorrer uma nova crise de gota durante o tratamento de manutenção.",
-   "Prescrever apenas dieta com restrição total de purinas como tratamento definitivo da gota recorrente agora."
+   "Manter a dose, pois o clearance limita",
+   "Suspender o alopurinol e usar só colchicina",
+   "Trocar para febuxostate 120 mg",
+   "Titular alopurinol até urato abaixo de 5",
+   "Pegloticase como segunda linha imediata"
+  ],
+  "gab": 3,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACR Guideline for the Management of Gout, 2020; EULAR updated recommendations for the management of gout, 2016",
+  "coment": "O ACR (2020) recomenda estratégia treat-to-target: urato abaixo de 6 mg/dL em todos e abaixo de 5 mg/dL na gota tofácea, até resolução dos tofos. O alopurinol pode ser titulado acima de 300 mg/dia mesmo na doença renal crônica, com aumentos graduais e monitorização, pois a dose limitada pelo clearance deixava muitos pacientes fora do alvo. Profilaxia anti-inflamatória continua enquanto houver crises. Febuxostate é segunda linha, e pegloticase fica para gota refratária a doses máximas toleradas.",
+  "porAlt": [
+   "A dose pode ser aumentada com cautela na doença renal crônica.",
+   "Colchicina isolada não reduz o urato nem os tofos.",
+   "Febuxostate é segunda linha e tem sinal cardiovascular.",
+   "Gota tofácea fora do alvo: titular o alopurinol até urato abaixo de 5.",
+   "Pegloticase é para falha após dose otimizada."
+  ]
+ },
+ {
+  "q": "Mulher de 36 anos com lúpus cutâneo e articular, em hidroxicloroquina, tem anticoagulante lúpico e anti-beta-2 glicoproteína I positivos em 2 dosagens com 12 semanas de intervalo. Nunca teve trombose ou complicação obstétrica. Não fuma, pressão e lipídios normais, sem plano de gestação e usa DIU de cobre. Plaquetas normais. Pesa 58 kg, sem livedo ou plaquetopenia. Complemento normal. Qual é a conduta preventiva mais adequada?",
+  "alts": [
+   "Varfarina com INR de 2 a 3",
+   "AAS em dose baixa",
+   "Rivaroxabana profilática contínua",
+   "Nenhuma medida adicional",
+   "Enoxaparina profilática contínua"
+  ],
+  "gab": 1,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "EULAR recommendations for the management of antiphospholipid syndrome in adults, 2019",
+  "coment": "Portadores assintomáticos de anticorpos antifosfolípides com perfil de alto risco (anticoagulante lúpico positivo, dupla ou tripla positividade ou títulos altos persistentes) devem receber AAS em dose baixa como profilaxia primária, pela EULAR (2019), especialmente no lúpus. A hidroxicloroquina, já em uso, também reduz trombose. Anticoagulação sem trombose prévia não é indicada, pelo risco de sangramento. Controle de fatores de risco e contracepção sem estrogênio completam a prevenção.",
+  "porAlt": [
+   "Sem trombose prévia, anticoagulação plena não é indicada.",
+   "Perfil antifosfolípide de alto risco sem trombose: AAS em dose baixa.",
+   "Anticoagulante direto não é indicado em profilaxia primária.",
+   "Perfil de alto risco justifica profilaxia com AAS.",
+   "Heparina contínua sem trombose não é indicada fora da gestação."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos tem fraqueza proximal progressiva há 3 meses, heliótropo, pápulas de Gottron e disfagia leve. CPK de 2.800 U/L, anticorpo anti-TIF1-gama positivo. Ressonância de coxas com edema muscular e biópsia com infiltrado perifascicular. Perdeu 6 kg. Mamografia e colonoscopia em dia e normais há 1 ano. Nunca fumou. Pesa 60 kg. Iniciará prednisona. Não tem sintomas respiratórios, e a tomografia de tórax nunca foi feita. Qual é a conduta mais adequada quanto ao rastreio de câncer?",
+  "alts": [
+   "Rastreio ampliado com tomografia",
+   "Apenas manter rastreio habitual por idade",
+   "Marcadores tumorais séricos isolados",
+   "Rastreio só se não responder ao corticoide",
+   "Laparotomia exploradora diagnóstica"
+  ],
+  "gab": 0,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "International Guideline for Idiopathic Inflammatory Myopathy-Associated Cancer Screening (IMACS), Nature Reviews Rheumatology, 2023",
+  "coment": "Dermatomiosite do adulto associa-se a câncer, principalmente nos 3 anos ao redor do diagnóstico, e o anti-TIF1-gama eleva muito o risco. A diretriz internacional IMACS (2023) classifica como alto risco a dermatomiosite com anti-TIF1-gama ou anti-NXP2 e recomenda rastreio ampliado: exames básicos (hemograma, função hepática, eletroforese, urina, rastreios por idade), tomografia de pescoço, tórax, abdome e pelve, avaliação ginecológica com ultrassonografia transvaginal e CA-125 em mulheres, considerando PET-CT. Perda de peso e disfagia reforçam. Marcadores isolados não bastam.",
+  "porAlt": [
+   "Dermatomiosite anti-TIF1-gama: rastreio ampliado com tomografia de pescoço, tórax, abdome e pelve e avaliação ginecológica.",
+   "Anti-TIF1-gama indica risco alto, que exige rastreio ampliado.",
+   "Marcadores tumorais isolados têm baixa sensibilidade.",
+   "Rastrear só após falha atrasa o diagnóstico do câncer.",
+   "Procedimento invasivo sem achado não é indicado."
+  ]
+ },
+ {
+  "q": "Mulher de 68 anos usa alendronato 70 mg/semana há 5 anos, com boa adesão, sem fratura antes ou durante o tratamento. Densitometria atual: escore T de −2,0 no colo femoral e −2,3 na coluna. FRAX de 14% para fratura maior e 2,1% para quadril. Não usa corticoide e não teve quedas. Vitamina D e cálcio normais. Pesa 60 kg e caminha 30 minutos por dia. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter alendronato por mais 5 anos",
+   "Trocar para teriparatida",
+   "Suspender e não reavaliar",
+   "Associar denosumabe ao alendronato",
+   "Pausa com reavaliação em 2 a 3 anos"
+  ],
+  "gab": 4,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "Adler et al., Managing Osteoporosis in Patients on Long-Term Bisphosphonate Treatment: Report of a Task Force of the ASBMR, 2016",
+  "coment": "A ASBMR (2016) sugere, após 5 anos de bisfosfonato oral, reavaliar o risco: sem fraturas, com escore T no colo femoral acima de −2,5 e risco não alto, é razoável uma pausa de 2 a 3 anos, pois o bisfosfonato permanece no osso e o risco de fratura atípica de fêmur e osteonecrose de mandíbula aumenta com o tempo. Na pausa, reavalia-se densitometria e risco a cada 2 a 3 anos, ou antes se houver fratura. Manter por 10 anos fica para risco alto (FLEX). Denosumabe não é associado a bisfosfonato e não deve ser suspenso sem transição.",
+  "porAlt": [
+   "Sem risco alto, prolongar aumenta efeitos raros sem ganho claro.",
+   "Anabólico é para risco muito alto.",
+   "A pausa exige reavaliação periódica.",
+   "Não se associam antirreabsortivos.",
+   "Cinco anos de alendronato com risco moderado e escore T acima de −2,5: pausa com reavaliação em 2 a 3 anos."
+  ]
+ },
+ {
+  "q": "Mulher de 24 anos tem claudicação do braço esquerdo ao pentear o cabelo, tontura e febre baixa há 4 meses. Pressão de 138/82 mmHg no braço direito e 96/60 mmHg no esquerdo, pulso radial esquerdo reduzido e sopro em subclávia esquerda. VHS de 62 mm/h e PCR de 38 mg/L. Sem cefaleia temporal ou sintomas visuais. IGRA negativo. Pesa 56 kg, sem gestação, e usa anticoncepcional oral. Qual é a conduta mais adequada?",
+  "alts": [
+   "Angioplastia imediata da subclávia",
+   "Biópsia de artéria temporal superficial",
+   "Imagem vascular e corticoide com poupador",
+   "AAS 100 mg isolado e observação",
+   "Anti-TNF isolado sem corticoide"
+  ],
+  "gab": 2,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ACR/Vasculitis Foundation Guideline for the Management of Giant Cell Arteritis and Takayasu Arteritis, 2021",
+  "coment": "Mulher jovem com claudicação de membro superior, diferença de pressão acima de 10 mmHg entre os braços e sopro sugere arterite de Takayasu. A confirmação é por imagem da aorta e ramos (angiotomografia ou angiorressonância, podendo usar PET-CT). O ACR (2021) recomenda na doença ativa corticoide em dose alta com agente poupador não glicocorticoide (metotrexato, azatioprina, micofenolato, anti-TNF ou tocilizumabe). Revascularização é evitada durante a atividade inflamatória, salvo isquemia crítica. Biópsia temporal é da arterite de células gigantes.",
+  "porAlt": [
+   "Procedimento em fase inflamatória tem alta reestenose.",
+   "Biópsia temporal é para arterite de células gigantes.",
+   "Suspeita de Takayasu ativa: imagem vascular e corticoide com agente poupador.",
+   "AAS isolado não controla a inflamação.",
+   "Anti-TNF é poupador, somado ao corticoide inicial."
+  ]
+ },
+ {
+  "q": "Homem de 48 anos, pintor, tem dor no ombro direito há 5 semanas, pior ao elevar o braço acima da cabeça e à noite ao deitar sobre o lado. Arco doloroso entre 60 e 120 graus, testes de Neer e Hawkins positivos, força de rotação externa preservada, sem queda do braço. Sem trauma, febre, perda de peso ou dor cervical. Pesa 80 kg. Qual é a conduta inicial mais adequada?",
+  "alts": [
+   "Ressonância antes de qualquer tratamento",
+   "Cirurgia de descompressão subacromial",
+   "Imobilização em tipoia por 4 semanas",
+   "Fisioterapia com exercícios e analgesia",
+   "Infiltração repetida mensal por 6 meses"
+  ],
+  "gab": 3,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Beard et al., CSAW, Lancet, 2018; BESS/BOA Patient Care Pathway: Subacromial Shoulder Pain, 2021",
+  "coment": "Dor subacromial (tendinopatia do manguito rotador) sem trauma, sem fraqueza importante e sem sinais de alerta é tratada com exercícios terapêuticos progressivos, ajuste de atividade e analgesia (AINE ou paracetamol), podendo usar infiltração subacromial de corticoide para alívio em curto prazo. Imagem é indicada se não houver melhora após 6 a 12 semanas, se houver trauma com fraqueza (suspeita de ruptura) ou sinais de alerta. Descompressão subacromial não superou placebo (CSAW, Lancet 2018). Imobilização favorece capsulite adesiva.",
+  "porAlt": [
+   "Sem sinais de alerta ou fraqueza, imagem inicial não muda a conduta.",
+   "Descompressão subacromial não superou cirurgia placebo.",
+   "Imobilização favorece rigidez e capsulite.",
+   "Dor subacromial sem sinais de alerta: exercícios dirigidos e analgesia.",
+   "Infiltrações repetidas lesam o tendão."
+  ]
+ },
+ {
+  "q": "Mulher de 45 anos com esclerose sistêmica cutânea limitada tem fenômeno de Raynaud grave e 2 úlceras digitais ativas em polpas de dedos, apesar de nifedipino de liberação lenta 60 mg/dia há 3 meses. Pressão de 108/68 mmHg. Não fuma. Sem sinais de infecção nas úlceras. Sem hipertensão pulmonar. Não usa nitrato. Pesa 58 kg e tem refluxo leve. Usa omeprazol e AAS 100 mg. Qual é a conduta mais adequada?",
+  "alts": [
+   "Acrescentar sildenafila",
+   "Aumentar para nifedipino 120 mg",
+   "Betabloqueador",
+   "Simpatectomia digital imediata",
+   "Prednisona 40 mg/dia"
   ],
   "gab": 0,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "ACR Guideline for the Management of Gout, 2020; EULAR recommendations, revisão 2020",
-  "coment": "Crises recorrentes, tofos, artropatia gotosa ou nefrolitíase por urato indicam tratamento hipouricemiante contínuo, sendo o alopurinol a primeira linha, titulado até atingir urato abaixo de 6 mg/dL, ou abaixo de 5 mg/dL na doença tofosa. A redução do urato mobiliza cristais e pode desencadear crises, por isso associa-se profilaxia com colchicina por três a seis meses. O hipouricemiante não deve ser suspenso durante uma crise em quem já o usa.",
+  "nivel": "r3",
+  "base": "EULAR recommendations for the treatment of systemic sclerosis, 2023 update",
+  "coment": "Para úlceras digitais na esclerose sistêmica, a EULAR (2023) recomenda bloqueador de canal de cálcio di-hidropiridínico, inibidores de fosfodiesterase 5 (sildenafila, tadalafila) e iloprosta endovenosa; a bosentana reduz novas úlceras. Com úlceras ativas apesar de nifedipino em dose adequada e pressão já baixa, soma-se inibidor de fosfodiesterase 5, que melhora cicatrização. Betabloqueador piora o vasoespasmo. Corticoide não trata a vasculopatia. Cirurgia fica para refratariedade. Cuidado local e controle de dor completam.",
   "porAlt": [
-   "Correta: hipouricemiante com meta de urato definida e profilaxia com colchicina nos primeiros meses.",
-   "A redução do urato mobiliza cristais e desencadeia crises, o que justifica a profilaxia inicial.",
-   "Tratar apenas as crises não impede a deposição progressiva de cristais e o dano articular.",
-   "Suspender o hipouricemiante durante a crise prolonga o episódio e desorganiza o tratamento.",
-   "A dieta isolada reduz pouco o urato e é insuficiente diante desse nível e dessa frequência de crises."
+   "Úlceras digitais apesar de bloqueador de cálcio: acrescentar inibidor de fosfodiesterase 5.",
+   "A dose já é alta, e a pressão de 108/68 limita aumento.",
+   "Betabloqueador piora o vasoespasmo.",
+   "Simpatectomia é para refratariedade.",
+   "Corticoide não trata a vasculopatia e aumenta o risco de crise renal."
   ]
  },
  {
-  "q": "Paciente com lúpus e anticorpo antifosfolípide positivo, sem trombose prévia, deseja saber sobre prevenção. Qual é a conduta?",
+  "q": "Menina de 14 anos teve febre reumática com cardite há 2 anos. Hoje tem insuficiência mitral moderada persistente ao ecocardiograma, sem sintomas. Usa penicilina benzatina a cada 21 dias, com boa adesão. Não teve novos surtos. A mãe pergunta até quando a profilaxia será necessária. Sem alergia a penicilina. Pesa 48 kg e está bem na escola. Frequência cardíaca de 80 bpm e sopro sistólico mitral 3/6. Qual é a orientação mais adequada?",
   "alts": [
-   "Anticoagulação plena para todos os pacientes com anticorpo antifosfolípide positivo, mesmo sem trombose prévia.",
-   "Nenhuma medida preventiva, pois o anticorpo positivo sem trombose não confere qualquer risco adicional neste caso.",
-   "Corticoide sistêmico contínuo em dose alta como estratégia de profilaxia primária de trombose nesses pacientes.",
-   "Hidroxicloroquina e controle de fatores de risco, considerando sempre antiagregante conforme o perfil de anticorpos.",
-   "Suspender a hidroxicloroquina em todos os pacientes com anticorpo antifosfolípide positivo e lúpus associado agora."
+   "Até completar 18 anos de idade",
+   "Até 25 anos ou 10 após o surto",
+   "Por 5 anos após o último surto",
+   "Até 40 anos ou 10 após o surto",
+   "Só durante faringites estreptocócicas"
   ],
   "gab": 3,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "prev",
-  "nivel": "r3",
-  "base": "EULAR recommendations for the management of antiphospholipid syndrome in adults, 2019 com revisão 2023",
-  "coment": "Na profilaxia primária de portadores de anticorpo antifosfolípide sem trombose, recomenda-se hidroxicloroquina em pacientes com lúpus, pelo efeito antitrombótico e imunomodulador, controle rigoroso de fatores de risco cardiovascular e consideração de ácido acetilsalicílico em dose baixa, sobretudo no perfil de alto risco com tripla positividade. Anticoagulação plena não é indicada sem evento trombótico, pelo risco hemorrágico desproporcional ao benefício.",
+  "nivel": "r2",
+  "base": "Sociedade Brasileira de Cardiologia, Diretrizes Brasileiras para o Diagnóstico, Tratamento e Prevenção da Febre Reumática, 2009; AHA Scientific Statement: Prevention of Rheumatic Fever, 2009",
+  "coment": "A profilaxia secundária depende da gravidade: febre reumática sem cardite, por 5 anos ou até 21 anos (o mais longo); com cardite sem lesão valvar residual, 10 anos ou até 21 anos; com cardite e lesão valvar residual moderada a grave, 10 anos ou até 40 anos (o mais longo), podendo ser por toda a vida (AHA 2009, diretriz brasileira de febre reumática). Aqui, insuficiência mitral moderada persistente pede o esquema mais longo. Penicilina benzatina a cada 21 dias é preferida no Brasil.",
   "porAlt": [
-   "A anticoagulação plena sem evento trombótico expõe a hemorragia sem benefício proporcional.",
-   "O anticorpo positivo confere risco trombótico aumentado e justifica medidas preventivas dirigidas.",
-   "O corticoide não é estratégia de profilaxia primária de trombose e traz toxicidade relevante.",
-   "Correta: hidroxicloroquina e controle de fatores de risco, com antiagregante conforme o perfil sorológico.",
-   "A hidroxicloroquina é justamente recomendada nesses pacientes pelo efeito protetor demonstrado."
+   "Com lesão valvar residual, 18 anos é curto demais.",
+   "Esse prazo não é o recomendado com lesão residual moderada.",
+   "Cinco anos é para febre reumática sem cardite.",
+   "Cardite com lesão valvar residual moderada: até 40 anos ou 10 anos após o último surto, o que for mais longo.",
+   "Profilaxia secundária é contínua, não intermitente."
   ]
  },
  {
-  "q": "Paciente com miopatia inflamatória apresenta fraqueza proximal, CPK elevada e lesões cutâneas em pálpebras e articulações das mãos. Qual é a conduta adicional obrigatória?",
+  "q": "Homem de 64 anos parou atorvastatina 80 mg há 10 semanas por fraqueza proximal e CPK de 4.200 U/L. Continua com dificuldade para levantar da cadeira e subir escadas, e a CPK está em 5.100 U/L. TSH normal, sem uso de fibrato, colchicina ou álcool. Ressonância de coxas com edema muscular difuso. Sem rash. Clearance de 82 mL/min. Pesa 82 kg. Tem diabetes controlado com metformina e usa ezetimiba desde a suspensão da estatina. Qual é a próxima etapa mais adequada?",
   "alts": [
-   "Não realizar qualquer rastreio oncológico, pois a dermatomiosite não guarda relação com neoplasia no adulto.",
-   "Solicitar apenas radiografia de mãos como avaliação adicional obrigatória no paciente com dermatomiosite.",
-   "Rastrear neoplasia oculta, pois a dermatomiosite do adulto associa-se sempre a risco aumentado de câncer.",
-   "Indicar biópsia muscular repetida a cada três meses como única avaliação adicional necessária no seguimento.",
-   "Solicitar apenas densitometria óssea como avaliação adicional obrigatória em pacientes com dermatomiosite."
-  ],
-  "gab": 2,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r3",
-  "base": "EULAR/ACR classification criteria for idiopathic inflammatory myopathies; British Society for Rheumatology guideline on myositis, revisão 2023",
-  "coment": "O heliótropo palpebral e as pápulas de Gottron sobre as articulações das mãos caracterizam dermatomiosite. No adulto, sobretudo acima de quarenta anos, a doença associa-se a risco aumentado de neoplasia (ovário, pulmão, mama, cólon, estômago e nasofaringe), com maior incidência nos três anos ao redor do diagnóstico. O rastreio dirigido por idade, sexo e fatores de risco é obrigatório e repetido durante o seguimento inicial.",
-  "porAlt": [
-   "A associação com neoplasia está bem estabelecida e torna o rastreio obrigatório nesse contexto.",
-   "A radiografia de mãos não é a avaliação adicional prioritária diante do risco oncológico associado.",
-   "Correta: rastrear neoplasia oculta, pela associação estabelecida entre dermatomiosite do adulto e câncer.",
-   "A biópsia repetida trimestralmente não é conduta de seguimento nem substitui o rastreio oncológico.",
-   "A densitometria interessa pelo uso de corticoide, mas não é a avaliação adicional prioritária aqui."
-  ]
- },
- {
-  "q": "Paciente com osteoporose em uso de bisfosfonato há cinco anos, sem fratura no período e com risco moderado. Qual é a conduta?",
-  "alts": [
-   "Considerar pausa terapêutica com reavaliação periódica do risco, mantendo sempre cálcio e vitamina D adequados.",
-   "Manter o bisfosfonato indefinidamente sem qualquer reavaliação do risco de fratura ao longo dos anos agora.",
-   "Suspender definitivamente todo o tratamento, incluindo cálcio e vitamina D, após cinco anos de bisfosfonato.",
-   "Aumentar a dose do bisfosfonato para o dobro após cinco anos de tratamento em todos os pacientes neste caso.",
-   "Substituir o bisfosfonato por corticoide sistêmico contínuo como estratégia de manutenção da massa óssea agora."
-  ],
-  "gab": 0,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r3",
-  "base": "Endocrine Society guideline on pharmacological management of osteoporosis, revisão 2023; ASBMR task force report on long-term bisphosphonate use",
-  "coment": "Após cinco anos de bisfosfonato oral, ou três anos do endovenoso, reavalia-se o risco: pacientes de risco moderado sem fratura no período podem entrar em pausa terapêutica, aproveitando o efeito residual do fármaco no osso, com reavaliação a cada dois a três anos. Pacientes de alto risco mantêm o tratamento. A pausa reduz o risco de osteonecrose de mandíbula e de fratura atípica de fêmur, e cálcio e vitamina D são mantidos durante todo o período.",
-  "porAlt": [
-   "Correta: considerar pausa terapêutica com reavaliação periódica, mantendo cálcio e vitamina D.",
-   "Manter indefinidamente sem reavaliar aumenta o risco de fratura atípica e osteonecrose de mandíbula.",
-   "Cálcio e vitamina D são mantidos mesmo durante a pausa do bisfosfonato no paciente com osteoporose.",
-   "Dobrar a dose não tem respaldo e amplia a toxicidade sem ganho antifratura demonstrado.",
-   "O corticoide causa perda óssea e é fator de risco para osteoporose, não seu tratamento."
-  ]
- },
- {
-  "q": "Paciente com suspeita de arterite de Takayasu, mulher jovem com claudicação de membros superiores e assimetria de pulsos. Qual é a conduta?",
-  "alts": [
-   "Prescrever apenas antiagregante plaquetário isolado como tratamento definitivo da vasculite de grandes vasos agora.",
-   "Indicar revascularização cirúrgica imediata em todos os casos antes de qualquer controle da atividade inflamatória.",
-   "Prescrever apenas anti-inflamatório não hormonal como tratamento de escolha da arterite de grandes vasos agora.",
-   "Aguardar a resolução espontânea da vasculite sem qualquer imunossupressão no paciente jovem descrito neste caso.",
-   "Confirmar com angiografia por imagem e iniciar corticoide, associando sempre imunossupressor poupador de esteroide."
+   "Reintroduzir estatina em dose menor",
+   "Coenzima Q10 e aguardar mais 6 meses",
+   "Diagnóstico de miopatia tóxica e observar",
+   "Trocar para rosuvastatina",
+   "Pesquisar anticorpo anti-HMGCR"
   ],
   "gab": 4,
   "tema": "reumato",
   "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "EULAR recommendations for the management of large vessel vasculitis, 2018 com revisão 2023; ACR/VF guideline on Takayasu arteritis, 2021",
-  "coment": "A arterite de Takayasu acomete aorta e seus ramos principais em mulheres jovens, cursando com claudicação de membros, assimetria de pulsos e pressão, sopros vasculares e hipertensão renovascular. O diagnóstico usa angiotomografia, angiorressonância ou tomografia por emissão de pósitrons. O tratamento é corticoide associado a imunossupressor poupador, metotrexato, azatioprina ou tocilizumabe. A revascularização é feita preferencialmente com a doença em remissão.",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Allenbach et al., 224th ENMC International Workshop: Immune-mediated necrotizing myopathies, Neuromuscular Disorders, 2018; ACC Statin Intolerance Expert Consensus, 2022",
+  "coment": "Miopatia tóxica por estatina melhora semanas após a suspensão. Fraqueza e CPK que persistem ou pioram após parar a estatina sugerem miopatia necrosante imunomediada com anticorpo anti-HMGCR, doença autoimune que exige confirmação (anticorpo, ressonância e biópsia com necrose e pouca inflamação) e imunossupressão (corticoide, metotrexato, imunoglobulina). Reintroduzir estatina é contraindicado. Coenzima Q10 não trata essa doença.",
   "porAlt": [
-   "O antiagregante é adjuvante e não controla a inflamação da parede arterial nessa vasculite.",
-   "A revascularização com doença ativa tem alta taxa de reestenose e é feita preferencialmente em remissão.",
-   "O anti-inflamatório não hormonal não controla vasculite de grandes vasos nem previne estenoses.",
-   "A vasculite não se resolve espontaneamente e progride para estenoses e oclusões irreversíveis.",
-   "Correta: confirmar por imagem vascular e iniciar corticoide com imunossupressor poupador de esteroide."
-  ]
- },
- {
-  "q": "Paciente com dor no ombro que piora à elevação do braço, com teste de impacto positivo, sem trauma. Qual é a conduta inicial?",
-  "alts": [
-   "Analgesia com fisioterapia dirigida, reservando sempre a imagem avançada aos casos refratários ao tratamento.",
-   "Solicitar ressonância magnética de ombro imediatamente em todos os pacientes com dor ao elevar o braço agora.",
-   "Indicar cirurgia artroscópica imediata em todos os pacientes com teste de impacto positivo no ombro agora.",
-   "Prescrever imobilização completa do ombro por seis semanas como tratamento inicial da dor descrita agora.",
-   "Prescrever corticoide sistêmico contínuo em dose alta como tratamento inicial da síndrome do impacto agora."
-  ],
-  "gab": 0,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "AAOS Clinical Practice Guideline on management of rotator cuff injuries, revisão 2023; BMJ Best Practice on shoulder impingement, 2024",
-  "coment": "A dor subacromial, ou síndrome do impacto, é a causa mais frequente de dor no ombro e o tratamento inicial é conservador: analgesia com anti-inflamatório por período curto e, sobretudo, fisioterapia com exercícios de fortalecimento do manguito rotador e dos estabilizadores da escápula, que é a intervenção com melhor evidência. Imobilização prolongada favorece capsulite adesiva. Imagem avançada e cirurgia se reservam a falha do tratamento conservador bem conduzido.",
-  "porAlt": [
-   "Correta: analgesia com fisioterapia dirigida, reservando imagem avançada aos casos refratários.",
-   "A ressonância imediata revela achados degenerativos frequentes e leva a intervenções desnecessárias.",
-   "A cirurgia se reserva à falha do tratamento conservador bem conduzido por período adequado.",
-   "A imobilização prolongada favorece capsulite adesiva e piora a função do ombro acometido.",
-   "O corticoide sistêmico contínuo não é tratamento da dor subacromial e traz toxicidade evitável."
-  ]
- },
- {
-  "q": "Paciente com esclerose sistêmica apresenta Raynaud grave com úlceras digitais. Qual é a conduta?",
-  "alts": [
-   "Prescrever apenas analgésico comum e observar a evolução das úlceras digitais sem qualquer tratamento vasodilatador.",
-   "Iniciar betabloqueador em dose plena para o controle do fenômeno de Raynaud grave descrito no paciente agora.",
-   "Indicar amputação digital imediata em todos os pacientes com úlceras digitais na esclerose sistêmica agora.",
-   "Orientar exposição ao frio de forma progressiva como estratégia para induzir tolerância vascular no paciente.",
-   "Bloqueador de canal de cálcio e cuidados locais, considerando sempre inibidor de fosfodiesterase ou bosentana."
-  ],
-  "gab": 4,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "EULAR recommendations for the treatment of systemic sclerosis, atualização 2024",
-  "coment": "No fenômeno de Raynaud da esclerose sistêmica, a primeira linha farmacológica é o bloqueador de canal de cálcio di-hidropiridínico, como nifedipino. Diante de úlceras digitais, associam-se inibidores de fosfodiesterase tipo 5, como sildenafila, e prostanoides endovenosos nas formas graves; a bosentana reduz o surgimento de novas úlceras. Medidas gerais incluem proteção contra o frio, cessação do tabagismo e cuidados locais com a ferida.",
-  "porAlt": [
-   "Observar sem vasodilatador permite progressão para necrose digital e perda de tecido.",
-   "O betabloqueador causa vasoconstrição periférica e agrava diretamente o fenômeno de Raynaud.",
-   "A amputação é medida de exceção diante de necrose estabelecida e infecção não controlada.",
-   "A exposição ao frio desencadeia o vasoespasmo e agrava as úlceras digitais do paciente.",
-   "Correta: bloqueador de canal de cálcio com cuidados locais, associando inibidor de fosfodiesterase ou bosentana."
-  ]
- },
- {
-  "q": "Paciente com suspeita de febre reumática apresenta poliartrite migratória, cardite e evidência de infecção estreptocócica prévia. Qual é a conduta?",
-  "alts": [
-   "Tratar a infecção e iniciar profilaxia secundária prolongada, avaliando sempre o acometimento cardíaco associado.",
-   "Tratar apenas a artrite com anti-inflamatório, sem qualquer profilaxia secundária após o episódio agudo agora.",
-   "Prescrever apenas antibiótico por dez dias e alta definitiva sem qualquer seguimento cardiológico programado.",
-   "Indicar cirurgia valvar imediata em todos os pacientes com febre reumática e qualquer grau de cardite agora.",
-   "Prescrever apenas corticoide sistêmico isolado, sem qualquer antibiótico ou profilaxia secundária associada."
-  ],
-  "gab": 0,
-  "tema": "reumato",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "Diretriz Brasileira de Valvopatias: SBC, revisão 2023; AHA scientific statement on acute rheumatic fever, revisão 2023; critérios de Jones atualizados",
-  "coment": "A febre reumática é diagnosticada pelos critérios de Jones atualizados, que consideram a incidência populacional. O tratamento inclui erradicação do estreptococo com penicilina benzatina, anti-inflamatório para a artrite, corticoide na cardite grave e, sobretudo, profilaxia secundária prolongada com penicilina benzatina a cada três a quatro semanas, cuja duração depende da presença e da gravidade do acometimento cardíaco, podendo chegar a toda a vida.",
-  "porAlt": [
-   "Correta: erradicar a infecção e iniciar profilaxia secundária prolongada, conforme o acometimento cardíaco.",
-   "Tratar só a artrite deixa o paciente exposto a novos surtos e a dano valvar cumulativo e progressivo.",
-   "O antibiótico do episódio agudo não substitui a profilaxia secundária nem o seguimento cardiológico.",
-   "A cirurgia valvar se reserva a lesões graves com repercussão, e não a todo grau de cardite.",
-   "O corticoide isolado não erradica o estreptococo nem previne novos surtos da doença."
-  ]
- },
- {
-  "q": "Paciente com dor articular difusa após início de estatina, com CPK elevada dez vezes. Qual é a conduta?",
-  "alts": [
-   "Suspender a estatina e monitorar a CPK, investigando sempre miopatia autoimune se não houver melhora.",
-   "Manter a estatina na mesma dose e apenas prescrever analgésico para o controle da dor muscular referida.",
-   "Aumentar a dose da estatina para acelerar o efeito hipolipemiante apesar da elevação importante da CPK.",
-   "Iniciar corticoide sistêmico em dose alta imediatamente sem qualquer suspensão da estatina em uso.",
-   "Substituir a estatina por fibrato em dose plena imediatamente, sem qualquer monitorização da CPK sérica."
-  ],
-  "gab": 0,
-  "tema": "reumato",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "EAS Consensus Panel statement on statin-associated muscle symptoms, revisão 2023; ACC/AHA Guideline on blood cholesterol, revisão 2023",
-  "coment": "Elevação de CPK acima de dez vezes o limite superior com sintomas musculares indica suspender a estatina e monitorar a CPK até a normalização, com atenção a rabdomiólise e função renal. Após a normalização, pode-se tentar reintrodução com outra estatina em dose menor ou em dias alternados. Se a CPK não normaliza após a suspensão, investiga-se miopatia necrosante autoimune com anticorpo anti-HMGCR, que exige imunossupressão.",
-  "porAlt": [
-   "Correta: suspender a estatina e monitorar a CPK, investigando miopatia autoimune se não houver melhora.",
-   "Manter a estatina com CPK muito elevada arrisca rabdomiólise e lesão renal aguda no paciente.",
-   "Aumentar a dose amplia diretamente a toxicidade muscular já evidenciada pela elevação da CPK.",
-   "O corticoide não é conduta inicial e mascara a evolução antes mesmo de suspender o agente causal.",
-   "O fibrato pode agravar a miotoxicidade, sobretudo em associação, e não dispensa a monitorização."
+   "Reintroduzir estatina agrava a miopatia imunomediada.",
+   "Coenzima Q10 não trata miopatia necrosante imunomediada.",
+   "Miopatia tóxica melhora após suspensão, o que não ocorreu.",
+   "Outra estatina é contraindicada.",
+   "Fraqueza e CPK alta persistentes após suspender a estatina: pesquisar anti-HMGCR."
   ]
  },
  {
