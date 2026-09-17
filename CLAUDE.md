@@ -317,7 +317,30 @@ eletrolitos, hemorragia-digestiva, dengue, avc, drc, diabetes-tipo2.
 Abordagens sindrômicas a criar: dispneia aguda, síncope, cefaleia aguda, febre no imunossuprimido,
 icterícia, edema, rebaixamento do sensório, dor abdominal aguda no clínico.
 
-## Identidade visual — "cara de manual" (10/09/2026, cm-v75)
+## Identidade visual — "prova impressa" (16/09/2026, cm-v76)
+
+Terceira reprovação ("ainda muita cara de IA, fonte e tamanho, layout geral"). O que ainda denunciava
+depois da cm-v75 não era a fonte em si: era a **montagem de painel gerado** (tudo em cartão branco sobre
+fundo cinza, quatro caixas de número, etiquetas coloridas, ícone em todo botão, logotipo em quadradinho,
+cabeçalho em duas linhas) e **21 tamanhos de letra**, a maioria entre 10,5 e 13,5 px.
+
+Regra atual (valem também as de 10/09 abaixo, exceto onde esta contradiz):
+- **Sem cartões.** `.cx` é bloco transparente; blocos seguidos se separam por fio (`.cx+.cx`). Fundo
+  branco único (`#171717` no escuro).
+- **Quatro tamanhos:** 14 rótulo/meta · 16 interface · 18–19 conteúdo · 22+ título. Nada abaixo de 14
+  exceto o rótulo da barra inferior do celular (12).
+- **Conteúdo clínico em serifa do sistema** (`--serif`: Iowan Old Style/Charter/Georgia/Noto Serif):
+  enunciado, alternativas, comentário, texto das leituras e seus títulos. Interface, tabelas, legendas,
+  sumário e rótulos em `--sans`. Nenhuma fonte baixada.
+- Alternativas como prova impressa: letra + texto, fio entre elas, acerto/erro por faixa de 3px à esquerda.
+- Números (`.grade2/.kpi`) numa régua em linha com divisórias, não em caixas. `.pilula` é texto em linha
+  separado por "·"; cor só em acerto/erro.
+- Cabeçalho em uma linha: marca em texto (sem ícone), abas de texto com sublinhado, ferramentas à direita.
+  Ícone só na barra inferior do celular e nos botões de ferramenta (busca, tema, fechar).
+- Leituras: callouts só com fio colorido à esquerda (sem fundo); questão-âncora cinza, não roxa.
+- Títulos de seção sem "personalidade": "Resumo", "Por área", "Conta", "Dados".
+
+## Identidade visual — "cara de manual" (10/09/2026, cm-v75, parcialmente superada em 16/09)
 
 Matheus, duas vezes: "layout com muita cara de IA — fonte, escrita etc". O diagnóstico foi medido, não
 achado: Figtree + Newsreader (o par de fonte que toda página gerada usa), versalete rastreado no kicker

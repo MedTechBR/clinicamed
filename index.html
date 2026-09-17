@@ -27,61 +27,62 @@ document.documentElement.classList.add("travado");})();
    sem versalete, sem pílula. O teal aparece só no que é clicável. Cara de ferramenta, não de página gerada.
    Os --mt-* vêm de /_mttokens.css; os nomes curtos abaixo são o contrato local.
    ============================================================ */
+/* 16/09: sem cartões. Página branca, seções separadas por linha, quatro tamanhos de letra
+   (14 rótulo · 16 interface · 18 conteúdo · 22 título), conteúdo clínico em serifa do sistema
+   como prova impressa, interface em sans do sistema. Nenhuma fonte baixada. */
 :root{
-  --papel:var(--mt-bg,#FAFAF8); --sup:#FFFFFF; --sup2:var(--mt-surface-2,#F1F1EC);
-  --ink:var(--mt-text,#23272E); --ink2:var(--mt-text-dim,#5E646B); --linha:var(--mt-line,#E8E8E2); --linhaF:var(--mt-line-strong,#DDDDD5);
-  --brand:#0B6A72; --brandInk:#0B6A72; --brandSup:#E3F1F1; --brandTxt:#FFFFFF;
-  --ok:#1D7A46; --okSup:#E6F3EB; --err:#C6453D; --errSup:#FBEAE8;
-  --avi:#A3730A; --aviSup:#FBF1DC;
-  --r:6px; --sombra:none;
+  --papel:#FFFFFF; --sup:#FFFFFF; --sup2:#F3F3F0;
+  --ink:#1C1C1C; --ink2:#5C5C58; --linha:#E3E3DF; --linhaF:#B9B9B4;
+  --brand:#0B6A72; --brandInk:#0B6A72; --brandSup:#E7F0F0; --brandTxt:#FFFFFF;
+  --ok:#1D6B3F; --okSup:#EAF4ED; --err:#B3372F; --errSup:#FBECEA;
+  --avi:#8A5F00; --aviSup:#FBF3DF;
+  --r:4px; --sombra:none;
   --nav:0px;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --serif:"Iowan Old Style","Charter","Bitstream Charter",Georgia,"Noto Serif",serif;
 }
 @media (prefers-color-scheme:dark){:root:not([data-tema="claro"]){
-  --papel:#121417; --sup:#1B1E23; --sup2:#23272E;
-  --ink:#E9EBEE; --ink2:#A3A9B2; --linha:#2B3037; --linhaF:#363C44;
-  --brand:#4FB8BD; --brandInk:#4FB8BD; --brandSup:#14292B; --brandTxt:#0E1414;
-  --ok:#5FCB8E; --okSup:#14291D; --err:#F0837A; --errSup:#301A18;
-  --avi:#E0AE5A; --aviSup:#2C2418;
-  --sombra:none;
+  --papel:#171717; --sup:#171717; --sup2:#232323;
+  --ink:#E7E5E0; --ink2:#A6A49E; --linha:#2E2E2D; --linhaF:#4E4E4B;
+  --brand:#5CB6BB; --brandInk:#5CB6BB; --brandSup:#152A2B; --brandTxt:#0E1414;
+  --ok:#62C08B; --okSup:#15271C; --err:#EE8178; --errSup:#2E1917;
+  --avi:#DDAA55; --aviSup:#2B2317;
 }}
 :root[data-tema="escuro"]{
-  --papel:#121417; --sup:#1B1E23; --sup2:#23272E;
-  --ink:#E9EBEE; --ink2:#A3A9B2; --linha:#2B3037; --linhaF:#363C44;
-  --brand:#4FB8BD; --brandInk:#4FB8BD; --brandSup:#14292B; --brandTxt:#0E1414;
-  --ok:#5FCB8E; --okSup:#14291D; --err:#F0837A; --errSup:#301A18;
-  --avi:#E0AE5A; --aviSup:#2C2418;
-  --sombra:none;
+  --papel:#171717; --sup:#171717; --sup2:#232323;
+  --ink:#E7E5E0; --ink2:#A6A49E; --linha:#2E2E2D; --linhaF:#4E4E4B;
+  --brand:#5CB6BB; --brandInk:#5CB6BB; --brandSup:#152A2B; --brandTxt:#0E1414;
+  --ok:#62C08B; --okSup:#15271C; --err:#EE8178; --errSup:#2E1917;
+  --avi:#DDAA55; --aviSup:#2B2317;
 }
 :root[data-tema="escuro"]{color-scheme:dark}
 @media (prefers-color-scheme:dark){:root:not([data-tema="claro"]){color-scheme:dark}}
 *{box-sizing:border-box}
 html{-webkit-tap-highlight-color:transparent}
-body{margin:0;background:var(--papel);color:var(--ink);
-  font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+body{margin:0;background:var(--papel);color:var(--ink);font:16px/1.5 var(--sans);
   -webkit-text-size-adjust:100%;padding-bottom:calc(64px + var(--nav))}
-h1,h2,h3,h4{font-weight:600;line-height:1.25}
-h2{font-size:20px}h3{font-size:17px}
+h1,h2,h3,h4{font-weight:700;line-height:1.25}
+h2{font-size:22px}h3{font-size:18px}
 button,input,select,textarea{font:inherit;color:inherit}
 a{color:var(--brandInk)}
 .ti{font-size:1.15em;line-height:1;vertical-align:-.12em}
 .num{font-variant-numeric:tabular-nums}
 
-/* cabeçalho: branco, linha fina, sem ornamento */
-header{position:sticky;top:0;z-index:30;background:var(--sup);border-bottom:1px solid var(--linha);
+/* cabeçalho: uma linha só (marca, abas, ferramentas), fio embaixo */
+header{position:sticky;top:0;z-index:30;background:var(--papel);border-bottom:1px solid var(--linhaF);
   padding-top:env(safe-area-inset-top)}
-.topo{max-width:1040px;margin:0 auto;padding:9px 14px;display:flex;align-items:center;gap:10px}
-.marca{font-weight:600;font-size:17px;display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none}
-.marca .tile{width:30px;height:30px;border-radius:7px;background:var(--brand);display:grid;place-items:center;flex:0 0 auto}
-.marca .tile svg{display:block}
-.contador{margin-left:auto;display:flex;align-items:center;gap:6px}
-.btIco{width:38px;height:38px;border-radius:6px;border:1px solid var(--linha);background:var(--sup);color:var(--ink2);
-  display:grid;place-items:center;cursor:pointer;font-size:19px;padding:0}
-.btIco:hover{background:var(--sup2);color:var(--ink)}
-nav.abas{max-width:1040px;margin:0 auto;padding:0 10px;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.topo{max-width:1040px;margin:0 auto;padding:0 16px;display:flex;align-items:stretch;gap:26px;min-height:52px}
+.marca{font-weight:700;font-size:18px;display:flex;align-items:center;color:var(--ink);text-decoration:none}
+.contador{margin-left:auto;display:flex;align-items:center;gap:4px}
+.btIco{width:36px;height:36px;border-radius:4px;border:0;background:transparent;color:var(--ink);
+  display:grid;place-items:center;cursor:pointer;font-size:20px;padding:0}
+.btIco:hover{background:var(--sup2)}
+.btConta{display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 8px;background:transparent;border:0;border-radius:4px;cursor:pointer;font-size:15px;color:var(--ink)}
+.btConta:hover{background:var(--sup2)}
+nav.abas{display:flex;gap:22px;overflow-x:auto;scrollbar-width:none}
 nav.abas::-webkit-scrollbar{display:none}
-/* computador: abas de texto com sublinhado, sem ícone nem pílula */
-nav.abas button{white-space:nowrap;background:transparent;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;color:var(--ink2);display:inline-flex;align-items:center;gap:7px;
-  padding:7px 10px 9px;cursor:pointer;font-weight:500;min-height:38px;font-size:14px}
+nav.abas button{white-space:nowrap;background:transparent;border:0;border-bottom:3px solid transparent;border-top:3px solid transparent;color:var(--ink2);display:inline-flex;align-items:center;gap:7px;
+  padding:0;cursor:pointer;font-weight:400;font-size:16px}
 nav.abas button .ti{display:none}
 nav.abas button:hover{color:var(--ink)}
 nav.abas button[aria-selected="true"]{border-bottom-color:var(--ink);color:var(--ink);font-weight:600}
@@ -89,75 +90,86 @@ nav.abas button[aria-selected="true"]{border-bottom-color:var(--ink);color:var(-
 nav.abas button[hidden]{display:none!important}
 @media(min-width:641px){nav.abas button[data-aba="mais"]{display:none!important}}
 
-main{max-width:1040px;margin:0 auto;padding:16px 14px 40px}
+main{max-width:1040px;margin:0 auto;padding:24px 16px 48px}
 section[hidden]{display:none!important}
-.cx{background:var(--sup);border:1px solid var(--linha);border-radius:var(--r);padding:16px;box-shadow:var(--sombra);margin-bottom:12px}
+/* .cx não é mais caixa: é um bloco. Blocos seguidos se separam por um fio. */
+.cx{background:transparent;border:0;border-radius:0;padding:0;box-shadow:none;margin:0 0 30px}
+.cx+.cx{border-top:1px solid var(--linha);padding-top:24px}
 .linha{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-.bt{background:var(--brand);color:var(--brandTxt);border:1px solid transparent;border-radius:6px;padding:10px 16px;font-weight:600;cursor:pointer;min-height:42px;
+.bt{background:var(--brand);color:var(--brandTxt);border:1px solid var(--brand);border-radius:4px;padding:7px 16px;font-weight:600;cursor:pointer;min-height:40px;font-size:15px;
   display:inline-flex;align-items:center;gap:7px;justify-content:center;text-decoration:none}
-.bt:hover{filter:brightness(.96)}
-.bt.sec{background:var(--sup);color:var(--ink);border-color:var(--linhaF)}
+.bt:hover{filter:brightness(.94)}
+.bt.sec{background:transparent;color:var(--ink);border-color:var(--linhaF);font-weight:400}
 .bt.sec:hover{background:var(--sup2);filter:none}
-.bt.mini{padding:6px 11px;min-height:34px;font-size:13px}
-.bt:disabled{opacity:.5;cursor:default}
-select,input[type=text],input[type=number],input[type=search],input[type=email],input:not([type]),textarea{background:var(--sup);border:1px solid var(--linhaF);border-radius:6px;padding:9px 11px;min-height:42px;max-width:100%;color:var(--ink)}
-select:focus,input:focus,textarea:focus{outline:none;border-color:var(--brand);box-shadow:0 0 0 3px rgba(11,106,114,.18)}
+.bt.mini{padding:4px 11px;min-height:34px;font-size:14px}
+.bt:disabled{opacity:.45;cursor:default}
+.bt .ti{display:none}
+select,input[type=text],input[type=number],input[type=search],input[type=email],input:not([type]),textarea{background:var(--papel);border:1px solid var(--linhaF);border-radius:4px;padding:7px 10px;min-height:40px;max-width:100%;color:var(--ink);font-size:15px}
+select:focus,input:focus,textarea:focus{outline:2px solid var(--brand);outline-offset:-1px}
 textarea{min-height:120px;line-height:1.5}
-label.cmp{display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--ink2);font-weight:500}
-.pilula{display:inline-flex;align-items:center;gap:4px;background:var(--sup2);border:1px solid transparent;border-radius:4px;padding:2px 7px;font-size:12px;color:var(--ink2);font-weight:500}
-.pilula.b{background:var(--brandSup);color:var(--brandInk)}
-.pilula.ok{background:var(--okSup);color:var(--ok)}
-.pilula.er{background:var(--errSup);color:var(--err)}
-.enun{font-size:16.5px;line-height:1.6;margin:12px 0 14px}
-/* borda leve e mais respiro: a moldura forte disputava atenção com o caso clínico */
-.alt{display:flex;gap:11px;width:100%;text-align:left;background:var(--sup);border:1px solid var(--linha);
-  border-radius:6px;padding:13px 14px;margin-bottom:8px;cursor:pointer;align-items:flex-start;min-height:44px}
-.alt:hover{border-color:var(--brand)}
-.alt .let{font-weight:700;color:var(--ink2);min-width:18px}
-.alt.certa{background:var(--okSup);border-color:var(--ok)}
-.alt.errada{background:var(--errSup);border-color:var(--err)}
+label.cmp{display:flex;flex-direction:column;gap:4px;font-size:14px;color:var(--ink2);font-weight:400}
+/* "pílula" virou texto: rótulos em linha separados por ponto; cor só em acerto/erro */
+.pilula{display:inline;background:none;border:0;border-radius:0;padding:0;font-size:14px;color:var(--ink2);font-weight:400}
+.pilula.b{color:var(--ink);font-weight:600}
+.pilula.ok{color:var(--ok);font-weight:600}
+.pilula.er{color:var(--err);font-weight:600}
+.linha>.pilula+.pilula:before{content:"·";margin-right:6px;color:var(--ink2);font-weight:400}
+.enun{font:19px/1.6 var(--serif);margin:14px 0 20px}
+/* alternativas como na prova impressa: letra, texto, fio entre elas */
+#alts{border-bottom:1px solid var(--linha)}
+.alt{display:flex;gap:14px;width:100%;text-align:left;background:transparent;border:0;border-top:1px solid var(--linha);
+  border-radius:0;padding:12px 8px;margin:0;cursor:pointer;align-items:baseline;min-height:44px;font:17px/1.5 var(--serif);color:var(--ink)}
+.alt:hover{background:var(--sup2)}
+.alt .let{font:600 15px/1 var(--sans);color:var(--ink2);min-width:20px}
+.alt.certa{background:var(--okSup);box-shadow:inset 3px 0 var(--ok)}
+.alt.errada{background:var(--errSup);box-shadow:inset 3px 0 var(--err)}
 .alt[disabled]{cursor:default}
-.coment{background:var(--sup2);border-left:3px solid var(--brand);padding:13px;margin-top:12px;font-size:14.5px}
-.coment .base{font-size:12.5px;color:var(--ink2);margin-top:9px;padding-top:9px;border-top:1px solid var(--linha)}
-.expl{font-size:13.5px;color:var(--ink2);margin:6px 0 0 29px}
-.grade2{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
-.kpi{background:var(--sup2);border-radius:6px;padding:13px}
-.kpi b{display:block;font-size:26px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
-.kpi span{font-size:12px;color:var(--ink2)}
-.barra{height:6px;background:var(--sup2);border-radius:2px;overflow:hidden;margin-top:6px}
-.barra i{display:block;height:100%;background:var(--brand)}
+.alt[disabled]:hover{background:transparent}
+.alt.certa[disabled]:hover{background:var(--okSup)}.alt.errada[disabled]:hover{background:var(--errSup)}
+.coment{border-left:3px solid var(--linhaF);padding:2px 0 2px 16px;margin-top:22px;font:17px/1.6 var(--serif)}
+.coment .base{font:14px/1.5 var(--sans);color:var(--ink2);margin-top:10px}
+.coment .linha{font-family:var(--sans)}
+.expl{font:15px/1.5 var(--serif);color:var(--ink2);margin:0 0 10px 42px}
+/* números: uma régua em linha, não quatro caixas */
+.grade2{display:flex;flex-wrap:wrap;border-top:1px solid var(--linha);border-bottom:1px solid var(--linha)}
+.kpi{padding:10px 22px 10px 0;margin-right:22px;border-right:1px solid var(--linha)}
+.kpi:last-child{border-right:0;margin-right:0}
+.kpi b{display:block;font-size:22px;font-weight:600;line-height:1.2;font-variant-numeric:tabular-nums}
+.kpi span{font-size:14px;color:var(--ink2)}
+.barra{height:4px;background:var(--sup2);border-radius:0;overflow:hidden;margin-top:6px}
+.barra i{display:block;height:100%;background:var(--ink2)}
 .rolagem{overflow-x:auto;-webkit-overflow-scrolling:touch}
-table{border-collapse:collapse;width:100%;font-size:14px}
-th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--linha)}
-th{font-size:12px;color:var(--ink2);text-transform:none;font-weight:600}
+table{border-collapse:collapse;width:100%;font-size:15px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:8px 10px 8px 0;border-bottom:1px solid var(--linha)}
+th{font-size:14px;color:var(--ink);text-transform:none;font-weight:600;border-bottom:1px solid var(--ink)}
 .faixas{position:fixed;left:0;right:0;bottom:calc(var(--nav) + 0px);z-index:60;padding:10px;display:flex;flex-direction:column;gap:8px;pointer-events:none}
 .faixa{pointer-events:auto;max-width:640px;margin:0 auto;width:100%;display:flex;gap:10px;align-items:center;
-  border-radius:6px;padding:11px 13px;font-size:14px;box-shadow:0 4px 16px rgba(0,0,0,.18);background:var(--sup)}
+  border-radius:4px;padding:11px 13px;font-size:15px;box-shadow:0 2px 10px rgba(0,0,0,.12);background:var(--papel)}
 .faixa span{flex:1}
 .faixa button{background:transparent;border:0;cursor:pointer;font-size:16px;padding:4px 8px;min-height:36px;color:inherit}
 .faixa.ok{color:var(--ok);border:1px solid var(--ok)}
 .faixa.erro{color:var(--err);border:1px solid var(--err)}
 .faixa.avi{color:var(--avi);border:1px solid var(--avi)}
-.vazio{color:var(--ink2);font-size:14px;padding:22px 0;text-align:center}
-.crono{font-size:30px;font-weight:700;font-variant-numeric:tabular-nums}
-details{border:1px solid var(--linha);border-radius:6px;padding:11px 13px;margin-bottom:8px;background:var(--sup)}
+.vazio{color:var(--ink2);font-size:16px;padding:22px 0}
+.crono{font-size:28px;font-weight:600;font-variant-numeric:tabular-nums}
+details{border:0;border-top:1px solid var(--linha);border-radius:0;padding:10px 0;margin:0;background:transparent}
 summary{cursor:pointer;font-weight:600}
 .quadro{width:100%;border:0;background:transparent}
 body.lendo{padding-bottom:0}
 body.lendo main{padding-bottom:0}
 hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
-.mini{font-size:12.5px;color:var(--ink2)}
+.mini{font-size:14px;color:var(--ink2)}
 /* modal */
 .fundo{position:fixed;inset:0;background:rgba(20,22,26,.5);z-index:80;display:flex;align-items:flex-start;
   justify-content:center;padding:18px;overflow-y:auto}
-.modal{background:var(--sup);border:1px solid var(--linha);border-radius:8px;max-width:620px;width:100%;
-  padding:18px;box-shadow:0 12px 40px rgba(0,0,0,.25);margin:auto}
+.modal{background:var(--papel);border:1px solid var(--linhaF);border-radius:4px;max-width:620px;width:100%;
+  padding:20px;box-shadow:0 8px 30px rgba(0,0,0,.2);margin:auto}
 .modal h3{margin:0 0 4px}
 .modal label.cmp{margin-top:12px}
 .modal textarea{width:100%}
 .opcs{display:flex;flex-direction:column;gap:6px;margin-top:6px}
-.opcs label{display:flex;gap:9px;align-items:flex-start;background:var(--sup2);border:1px solid var(--linha);
-  border-radius:6px;padding:10px;cursor:pointer;font-size:14px}
+.opcs label{display:flex;gap:9px;align-items:flex-start;background:transparent;border:0;border-top:1px solid var(--linha);
+  border-radius:0;padding:10px 0;cursor:pointer;font-size:15px}
 .opcs input{margin-top:2px}
 .bt.mini{color:var(--brandTxt)}
 .bt.sec.mini{color:var(--ink)}
@@ -166,27 +178,27 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 .busca{max-width:680px}
 .busca .campo{display:flex;gap:8px;align-items:center}
 .busca .campo input{flex:1;font-size:16px}
-.hit{display:block;width:100%;text-align:left;background:var(--sup);border:1px solid var(--linha);border-radius:6px;padding:10px 12px;margin-top:8px;cursor:pointer}
-.hit:hover{border-color:var(--brand);background:var(--brandSup)}
-.hit small{display:block;color:var(--ink2);font-size:12px;margin-top:2px}
+.hit{display:block;width:100%;text-align:left;background:transparent;border:0;border-top:1px solid var(--linha);border-radius:0;padding:10px 4px;margin:0;cursor:pointer;font-size:16px}
+.hit:hover{background:var(--sup2)}
+.hit small{display:block;color:var(--ink2);font-size:14px;margin-top:2px}
 .hit mark{background:var(--aviSup);color:inherit;border-radius:3px;padding:0 2px}
-.grupoB{font-size:12px;color:var(--ink2);font-weight:600;margin:14px 0 2px;text-transform:none}
+.grupoB{font-size:14px;color:var(--ink);font-weight:600;margin:18px 0 4px;text-transform:none}
 
 /* convite de instalação e barra do download offline */
-.convite{display:flex;gap:12px;align-items:center;background:var(--brandSup);border-radius:6px;padding:12px 14px;margin-bottom:12px}
-.convite .ti{font-size:26px;color:var(--brandInk);flex:0 0 auto}
+.convite{display:flex;gap:12px;align-items:center;background:transparent;border-bottom:1px solid var(--linha);border-radius:0;padding:4px 0 14px;margin-bottom:16px}
+.convite .ti{display:none}
 .convite div{flex:1;min-width:0}
-.convite b{display:block;font-size:14.5px}
-.convite span{font-size:12.5px;color:var(--ink2)}
+.convite b{display:block;font-size:16px}
+.convite span{font-size:14px;color:var(--ink2)}
 .convite button{flex:0 0 auto}
 @media(max-width:520px){.convite{flex-wrap:wrap}.convite button{width:100%}}
-.progOff{height:6px;background:var(--sup2);border-radius:2px;overflow:hidden;margin:10px 0 6px}
+.progOff{height:4px;background:var(--sup2);border-radius:0;overflow:hidden;margin:10px 0 6px}
 .progOff i{display:block;height:100%;background:var(--brand);transition:width .2s}
 
 /* ---------- questões: dois filtros à vista, o resto recolhido ---------- */
 /* o <details> do app é um cartão com borda; aqui ele é só um disclosure de filtro */
 .maisF{width:100%;margin-top:2px;border:0;background:transparent;padding:0;box-shadow:none}
-.maisF>summary{cursor:pointer;list-style:none;font-size:13px;color:var(--ink2);padding:6px 0;
+.maisF>summary{cursor:pointer;list-style:none;font-size:15px;color:var(--ink2);padding:6px 0;
   display:flex;align-items:center;gap:7px}
 .maisF>summary::-webkit-details-marker{display:none}
 .maisF>summary:before{content:"+";font-size:14px;color:var(--ink2);width:12px;text-align:center}
@@ -200,14 +212,14 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 .leituraCol{min-width:0;display:flex;flex-direction:column}
 .barraL{display:flex;align-items:center;gap:8px;padding:0 2px 9px;margin-bottom:2px;
   border-bottom:1px solid var(--linha)}
-.barraL .tituloL{font-size:13px;color:var(--ink2);margin-right:auto;overflow:hidden;
+.barraL .tituloL{font-size:15px;color:var(--ink2);margin-right:auto;overflow:hidden;
   text-overflow:ellipsis;white-space:nowrap}
 @media(min-width:900px){
   body.lendo #sec-leituras{grid-template-columns:248px minmax(0,1fr)}
-  .sumarioL{display:block;position:sticky;top:104px;max-height:calc(100vh - 130px);overflow:auto;
+  .sumarioL{display:block;position:sticky;top:76px;max-height:calc(100vh - 130px);overflow:auto;
     padding:0 10px 0 4px;border-right:1px solid var(--linha)}
-  .sumarioL b{display:block;font-size:13.5px;margin-bottom:9px}
-  .sumarioL ol{margin:0;padding:0;list-style:none;font-size:13.5px;line-height:1.4}
+  .sumarioL b{display:block;font-size:14px;margin-bottom:9px}
+  .sumarioL ol{margin:0;padding:0;list-style:none;font-size:14px;line-height:1.4}
   .sumarioL li{margin:0 0 7px}
   .sumarioL a{color:var(--ink2);text-decoration:none}
   .sumarioL a:hover{color:var(--brandInk)}
@@ -218,36 +230,39 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
    importância de tudo. Agora se separa do conteúdo por uma linha, não por uma borda fechada. */
 #sec-leituras>.filtroL,#sec-questoes>.cx:first-child,#sec-pratica>.cx:first-child{
   background:transparent;border:0;box-shadow:none;border-bottom:1px solid var(--linha);
-  border-radius:0;padding:2px 0 14px;margin-bottom:6px}
+  border-radius:0;padding:0 0 14px;margin-bottom:6px}
 @media(min-width:900px){
   #sec-leituras>.filtroL,#sec-questoes>.cx:first-child,#sec-pratica>.cx:first-child{
-    border-bottom:0;border-right:1px solid var(--linha);padding:2px 16px 2px 0}
+    border-bottom:0;border-right:1px solid var(--linha);padding:0 20px 0 0;margin:0}
 }
 
 /* ---------- catálogo de leituras: lista, não grade de caixas ---------- */
-.listaL .itemL{padding:15px 2px 16px;border-top:1px solid var(--linha);cursor:pointer;background:transparent}
+.listaL .itemL{padding:14px 4px 15px;border-top:1px solid var(--linha);cursor:pointer;background:transparent}
 .listaL .itemL:first-child{border-top:0}
-.listaL .itemL:hover,.listaL .itemL:focus-visible{background:var(--sup);outline:0}
-.listaL .itemL h3{margin:0 0 5px;font-size:16.5px;line-height:1.32}
+.listaL .itemL:hover,.listaL .itemL:focus-visible{background:var(--sup2);outline:0}
+.listaL .itemL h3{margin:0 0 4px;font-size:18px;line-height:1.3}
 /* duas linhas, e só: o resumo inteiro vive no dek da leitura */
-.resumoL{margin:0;color:var(--ink2);font-size:13.5px;line-height:1.48;
+.resumoL{margin:0;color:var(--ink2);font-size:15px;line-height:1.45;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.metaL{display:flex;flex-wrap:wrap;gap:0 14px;margin-top:8px;font-size:11.5px;color:var(--ink2)}
+.metaL{display:flex;flex-wrap:wrap;gap:0 14px;margin-top:6px;font-size:14px;color:var(--ink2)}
 .metaL span{position:relative}
 .metaL span+span:before{content:"";position:absolute;left:-8px;top:50%;width:2px;height:2px;
   border-radius:50%;background:currentColor;opacity:.55}
 .metaL .lido{color:var(--ok);font-weight:600}
 
 /* progresso de leitura no cartão */
-.progL{height:4px;background:var(--sup2);border-radius:2px;overflow:hidden;margin-top:10px}
+.progL{height:3px;background:var(--sup2);border-radius:0;overflow:hidden;margin-top:10px}
 .progL i{display:block;height:100%;background:var(--brand)}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
 /* ---------- computador: duas colunas onde há filtro + conteúdo ---------- */
 @media(min-width:900px){
-  #sec-questoes,#sec-leituras,#sec-pratica{display:grid;grid-template-columns:272px minmax(0,1fr);gap:18px;align-items:start}
-  #sec-questoes>.cx:first-child,#sec-leituras>.filtroL,#sec-pratica>.cx:first-child{position:sticky;top:104px}
+  #sec-questoes,#sec-leituras,#sec-pratica{display:grid;grid-template-columns:250px minmax(0,1fr);gap:32px;align-items:start}
+  #sec-questoes>.cx:first-child,#sec-leituras>.filtroL,#sec-pratica>.cx:first-child{position:sticky;top:76px}
+  /* coluna de conteúdo: blocos seguidos da coluna direita não herdam o fio do filtro */
+  #sec-questoes>.cx:first-child+.cx,#sec-pratica>.cx:first-child+.cx,#sec-leituras>.filtroL+.cx{border-top:0;padding-top:0}
+  #sec-questoes>.cx:not(:first-child),#sec-pratica>*:not(:first-child),#sec-leituras>*:not(.filtroL){max-width:720px}
   #sec-questoes>.cx:first-child .linha,#sec-pratica>.cx:first-child .linha{flex-direction:column;align-items:stretch}
   #sec-questoes>.cx:first-child label.cmp,#sec-pratica>.cx:first-child label.cmp{width:100%}
   #sec-questoes>.cx:first-child select,#sec-pratica>.cx:first-child select{width:100%}
@@ -255,16 +270,17 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
   #sec-leituras>.filtroL .linha{flex-direction:column;align-items:stretch}
   #sec-leituras>.filtroL label.cmp{width:100%;min-width:0!important}
   #sec-leituras .listaL{min-width:0}
-  #sec-pratica>.cx:first-child .grade2{grid-template-columns:1fr}
+  #sec-pratica>.cx:first-child .grade2{display:block}
+  #sec-pratica>.cx:first-child .kpi{border-right:0;margin:0;padding:8px 0;border-bottom:1px solid var(--linha)}
+  #sec-pratica>.cx:first-child .kpi:last-child{border-bottom:0}
   #sec-pratica .listaP{min-width:0}
-  .grade2{grid-template-columns:repeat(4,1fr)}
-  .enun{font-size:17.5px}
   .fToggle{display:none}
 }
 /* cabeçalho de filtro recolhível: no computador fica sempre aberto (regra acima esconde o botão) */
-.fToggle{width:100%;display:flex;align-items:center;gap:8px;background:transparent;border:0;padding:4px 0;color:var(--ink);font-weight:600;font-size:14px;cursor:pointer;text-align:left}
+.fToggle{width:100%;display:flex;align-items:center;gap:8px;background:transparent;border:0;padding:4px 0;color:var(--ink);font-weight:600;font-size:16px;cursor:pointer;text-align:left}
 .fToggle .ti{font-size:18px;color:var(--ink2)}
-.fToggle .resumo{color:var(--ink2);font-weight:500;margin-left:auto;font-size:13px}
+.fToggle .ti-adjustments-horizontal{display:none}
+.fToggle .resumo{color:var(--ink2);font-weight:400;margin-left:auto;font-size:15px}
 .fToggle .seta{transition:transform .15s}
 .filtros.aberto .fToggle .seta{transform:rotate(180deg)}
 
@@ -272,29 +288,24 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 @media(max-width:640px){
   :root{--nav:calc(58px + env(safe-area-inset-bottom))}
   body{font-size:16px}
-  .topo{padding:6px 12px 6px 14px;gap:8px}
-  .marca{font-size:17px}
-  .marca .tile{width:28px;height:28px;border-radius:6px}
-  .btIco{width:34px;height:34px;border:0;background:transparent;font-size:21px}
+  .topo{padding:0 8px 0 16px;gap:8px;min-height:48px}
+  .marca{font-size:18px}
+  .btIco{width:36px;height:36px;font-size:21px}
   #btTema{display:none}
-  .btConta{height:34px;padding:0 6px;background:transparent;border:0}
+  .btConta{height:36px;padding:0 6px}
   .btConta.logado{background:transparent;color:var(--brandInk)}
-  main{padding:10px 16px calc(24px + var(--nav))}
-  /* sem caixa para tudo: seções são blocos separados por espaço, não por borda */
-  .cx{background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;margin:0 0 22px}
-  .cx+.cx{padding-top:18px;border-top:1px solid var(--linha)}
-  h2{font-size:22px}
+  main{padding:14px 16px calc(24px + var(--nav))}
+  .cx{margin:0 0 24px}
+  .cx+.cx{padding-top:20px}
   /* barra inferior com 5 lugares: 4 abas principais + Mais */
   nav.abas{position:fixed;left:0;right:0;bottom:0;z-index:55;margin:0;padding:4px 2px calc(4px + env(safe-area-inset-bottom));
-    background:rgba(255,255,255,.96);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-top:1px solid var(--linha);
+    background:var(--papel);border-top:1px solid var(--linhaF);
     display:grid;grid-template-columns:repeat(5,1fr);gap:0;overflow:visible}
-  :root[data-tema="escuro"] nav.abas{background:rgba(27,30,35,.96)}
-  @media (prefers-color-scheme:dark){:root:not([data-tema="claro"]) nav.abas{background:rgba(27,30,35,.96)}}
-  nav.abas button{display:none;flex-direction:column;gap:2px;padding:4px 2px;min-height:50px;font-size:10.5px;border:0;margin:0;justify-content:center;font-weight:500}
+  nav.abas button{display:none;flex-direction:column;gap:2px;padding:4px 2px;min-height:50px;font-size:12px;border:0;margin:0;justify-content:center;font-weight:400;color:var(--ink2)}
   nav.abas button[data-prim],nav.abas button[data-aba="mais"]{display:inline-flex}
   nav.abas button[hidden]{display:none!important}
   nav.abas button .ti{display:block;font-size:22px}
-  nav.abas button[aria-selected="true"]{background:transparent;color:var(--brandInk);font-weight:600}
+  nav.abas button[aria-selected="true"]{background:transparent;color:var(--ink);font-weight:600}
   body.lendo nav.abas{display:none}
   /* barra da leitura: o título truncado não cabe ao lado de três botões */
   .barraL .tituloL{display:none}
@@ -307,21 +318,18 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
   .linha label.cmp{flex:1 1 calc(50% - 5px);min-width:0}
   .linha label.cmp select,.linha label.cmp input{width:100%}
   /* questão: página inteira, alternativas em linhas */
-  .enun{font-size:18px;line-height:1.5;margin:10px 0 14px}
-  .alt{border:0;border-bottom:1px solid var(--linha);border-radius:0;padding:14px 0;margin:0;gap:14px;background:transparent}
-  .alt:last-child{border-bottom:0}
-  .alt.certa,.alt.errada{border-radius:6px;padding:14px 12px;border-bottom:0}
-  .alt .let{min-width:22px}
+  .enun{font-size:18px;margin:10px 0 16px}
+  .alt{padding:13px 4px;gap:12px}
   .expl{margin-left:36px}
   #qCartao .linha:last-child .bt{flex:1 1 40%}
   #qCartao .linha:last-child .mini{flex-basis:100%;text-align:center;margin:6px 0 0}
-  /* painel: indicadores dois a dois */
-  .grade2{grid-template-columns:1fr 1fr;gap:10px}
-  .kpi{padding:11px 12px}
-  .kpi b{font-size:22px}
+  /* números: dois por linha */
+  .grade2{display:grid;grid-template-columns:1fr 1fr;border-bottom:0}
+  .kpi{margin:0;padding:10px 0;border-right:0;border-bottom:1px solid var(--linha)}
+  .kpi:last-child{border-bottom:1px solid var(--linha)}
   /* leituras: linhas, não cartões */
-  .listaL .itemL h3{font-size:16px}
-  .listaL h3.grupo{margin:22px 0 4px;font-size:15px}
+  .listaL .itemL h3{font-size:18px}
+  .listaL h3.grupo{margin:22px 0 4px;font-size:16px}
   .listaL h3.grupo .mini{display:none}
   /* cartões: o cartão é a tela */
   #sec-cartoes .heroCard{min-height:calc(100vh - 150px - var(--nav));display:flex;flex-direction:column}
@@ -335,26 +343,22 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
   /* faixas acima da barra */
   .faixas{bottom:calc(var(--nav) + 4px)}
   .fundo{padding:10px;align-items:flex-end}
-  .modal{border-radius:10px 10px 0 0;max-height:88vh;overflow:auto}
+  .modal{border-radius:6px 6px 0 0;max-height:88vh;overflow:auto}
 }
 /* folha "Mais" da barra inferior */
 .folha{position:fixed;inset:0;z-index:70;background:rgba(20,22,26,.35);display:flex;align-items:flex-end}
-.folha .cartao{background:var(--sup);width:100%;border-radius:10px 10px 0 0;padding:10px 12px calc(14px + env(safe-area-inset-bottom));box-shadow:0 -8px 30px rgba(0,0,0,.18)}
+.folha .cartao{background:var(--papel);width:100%;border-radius:6px 6px 0 0;padding:10px 12px calc(14px + env(safe-area-inset-bottom));box-shadow:0 -8px 30px rgba(0,0,0,.18)}
 .folha .puxador{width:38px;height:4px;border-radius:4px;background:var(--linhaF);margin:2px auto 10px}
 .folha button.item{display:flex;align-items:center;gap:14px;width:100%;background:transparent;border:0;padding:13px 8px;font-size:16px;color:var(--ink);cursor:pointer;border-radius:6px;text-align:left}
-.folha button.item .ti{font-size:22px;color:var(--brandInk)}
+.folha button.item .ti{font-size:22px;color:var(--ink2)}
 .folha button.item:hover{background:var(--sup2)}
-.folha button.item[aria-selected="true"]{background:var(--brandSup)}
+.folha button.item[aria-selected="true"]{background:var(--sup2);font-weight:600}
 </style>
 
 <header>
  <div class="topo">
-  <a class="marca" href="./">
-   <span class="tile"><svg width="22" height="14" viewBox="0 0 52 24" fill="none" aria-hidden="true">
-    <path d="M1 16h9l3-9 4 15 4-20 4 14 3-6h5l3 6h11" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-   </svg></span>
-   ClínicaMed
-  </a>
+  <a class="marca" href="./">ClínicaMed</a>
+  <nav class="abas" id="abas" role="tablist"></nav>
   <div class="contador">
    <button class="btIco" id="btBusca" title="Buscar em tudo (/)" aria-label="Buscar"><i class="ti ti-search" aria-hidden="true"></i></button>
    <button class="btConta" id="btConta" hidden><i class="ti ti-user-circle" aria-hidden="true"></i><span>Entrar</span></button>
@@ -362,7 +366,6 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
    <button class="btIco" id="btLinha" title="MedTech Provas: outras plataformas de estudo" aria-label="MedTech Provas" hidden><i class="ti ti-grid-dots" aria-hidden="true"></i></button>
   </div>
  </div>
- <nav class="abas" id="abas" role="tablist"></nav>
 </header>
 
 <main>
@@ -396,15 +399,15 @@ hr{border:0;border-top:1px solid var(--linha);margin:14px 0}
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed",linha:"provas"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=75"></script>
-<script src="provas.js?v=75"></script>
-<script src="banco.js?v=75"></script>
-<script src="flash.js?v=75"></script>
-<script src="pratica.js?v=75"></script>
-<script src="leituras.js?v=75"></script>
-<script src="indice-leituras.js?v=75"></script>
-<script src="nuvem.js?v=75"></script>
-<script src="turma.js?v=75"></script>
+<script src="taxonomia.js?v=76"></script>
+<script src="provas.js?v=76"></script>
+<script src="banco.js?v=76"></script>
+<script src="flash.js?v=76"></script>
+<script src="pratica.js?v=76"></script>
+<script src="leituras.js?v=76"></script>
+<script src="indice-leituras.js?v=76"></script>
+<script src="nuvem.js?v=76"></script>
+<script src="turma.js?v=76"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -937,7 +940,7 @@ function pintaQuestoes(){
        <option value="autoral"${f.proc==="autoral"?" selected":""}>só autorais (${BANCO.length-NREAIS})</option>
      </select></label>
     </details>
-    <button class="bt sec mini" id="btEmb"><i class="ti ti-arrows-shuffle"></i> Embaralhar</button>
+    <button class="bt sec mini" id="btEmb">Embaralhar</button>
     <div class="mini" style="flex-basis:100%">${l.length} ${l.length===1?"questão":"questões"} no filtro${l.length?`. Você está na ${i+1}ª`:""}</div>`)
   +`<div id="qCartao"></div>`;
   $("#fArea").onchange=e=>mudaFiltro("area",e.target.value);
@@ -957,7 +960,7 @@ function pintaCartaoQuestao(q,l,i){
   alvo.innerHTML=`
   <div class="cx">
    <div class="linha" style="gap:6px">
-    <button class="bt ${ST.fav[q._ch]?"":"sec "}mini" id="btFav" style="margin-left:auto"><i class="ti ti-star"></i> ${ST.fav[q._ch]?"marcada":"marcar"}</button>
+    <button class="bt ${ST.fav[q._ch]?"":"sec "}mini" id="btFav" style="margin-left:auto">${ST.fav[q._ch]?"marcada":"marcar"}</button>
    </div>
    <p class="enun">${esc(q.q)}</p>
    <div id="alts" style="margin-top:16px">${q.alts.map((a,j)=>
@@ -965,8 +968,8 @@ function pintaCartaoQuestao(q,l,i){
    <div id="fb"></div>
    <hr>
    <div class="linha">
-    <button class="bt sec" id="btAnt" ${i<=0?"disabled":""}><i class="ti ti-arrow-left"></i> anterior</button>
-    <button class="bt" id="btProx" ${i>=l.length-1?"disabled":""}>próxima <i class="ti ti-arrow-right"></i></button>
+    <button class="bt sec" id="btAnt" ${i<=0?"disabled":""}>anterior</button>
+    <button class="bt" id="btProx" ${i>=l.length-1?"disabled":""}>próxima</button>
     <span class="mini" style="margin-left:auto">${i+1} de ${l.length}${ja?` · última vez: ${ja.ok?"acertou":"errou"}`:""}</span>
    </div>
   </div>`;
@@ -1075,9 +1078,9 @@ function pintaSimEmCurso(s){
      `<button class="alt${s.res[q._ch]===j?" certa":""}" data-j="${j}"><span class="let">${LETRAS[j]}</span><span>${esc(a)}</span></button>`).join("")}</div>
    <hr>
    <div class="linha">
-    <button class="bt sec" id="sAnt" ${s.i<=0?"disabled":""}><i class="ti ti-arrow-left"></i> anterior</button>
+    <button class="bt sec" id="sAnt" ${s.i<=0?"disabled":""}>anterior</button>
     <button class="bt sec" id="sPular">pular</button>
-    <button class="bt" id="sProx" ${s.i>=s.qs.length-1?"disabled":""}>próxima <i class="ti ti-arrow-right"></i></button>
+    <button class="bt" id="sProx" ${s.i>=s.qs.length-1?"disabled":""}>próxima</button>
    </div>
   </div>`;
   const tick=()=>{const r=rest();
@@ -1288,7 +1291,7 @@ function pintaLeituras(){
      ${sumario}
      <div class="leituraCol">
       <div class="barraL">
-       <button class="bt sec mini" id="fecharL"><i class="ti ti-arrow-left"></i> voltar</button>
+       <button class="bt sec mini" id="fecharL">voltar</button>
        <span class="tituloL">${esc(it?it.t:"")}</span>
        <button class="bt sec mini" id="discordoL">Discordo</button>
        <button class="bt sec mini" id="marcaL">${ST.lidas[aberta]?'<i class="ti ti-check"></i> lida':'marcar como lida'}</button>
@@ -1514,7 +1517,7 @@ function pintaPainel(){
     const k=q.cenario+"|"+q.comp,m=matriz[k]||(matriz[k]={n:0,ok:0});m.n++;if(h[h.length-1].ok)m.ok++});
   $("#sec-painel").innerHTML=`
   <div class="cx">
-   <h2 style="margin:0 0 10px">Onde você está</h2>
+   <h2 style="margin:0 0 12px">Resumo</h2>
    <div class="grade2">
     <div class="kpi"><b>${respondidas}/${BANCO.length}</b><span>questões vistas</span></div>
     <div class="kpi"><b>${pct(acertos,tent)}%</b><span>acerto geral (${tent} tentativas)</span></div>
@@ -1523,8 +1526,8 @@ function pintaPainel(){
    </div>
   </div>
   <div class="cx">
-   <h3 style="margin:0 0 4px">Prioridade de estudo</h3>
-   <p class="mini">Ordena pelo peso da área na prova × o que você erra × o que ainda não viu. Comece de cima.</p>
+   <h3 style="margin:0 0 4px">Por área</h3>
+   <p class="mini">Ordenado por peso na prova, taxa de erro e questões ainda não vistas.</p>
    <div class="rolagem" style="margin-top:10px"><table>
     <tr><th>Área</th><th>Peso</th><th>Vistas</th><th>Acerto</th><th>Cobertura</th></tr>
     ${ea.map(a=>`<tr>
@@ -1552,7 +1555,7 @@ function pintaPainel(){
        <div class="base">Âncora: ${esc(q.base)}</div></div></details>`}).join("")}
    <button class="bt mini" id="btTreinarErros" style="margin-top:8px">Treinar só os erros</button></div>`:""}
   <div class="cx">
-   <h3 style="margin:0 0 8px">Progresso das outras frentes</h3>
+   <h3 style="margin:0 0 12px">Estações, leituras, cartões e simulados</h3>
    <div class="grade2">
     <div class="kpi"><b>${Object.keys(ST.treino).length}/${PRATICA.length}</b><span>estações treinadas</span></div>
     <div class="kpi"><b>${Object.keys(ST.lidas).length}/${LEITURAS.filter(l=>l.f).length||0}</b><span>leituras concluídas</span></div>
@@ -1615,7 +1618,7 @@ function contaMarkup(){
 async function pintaAjustes(){
   $("#sec-ajustes").innerHTML=`
   <div class="cx">
-   <h3 style="margin:0 0 8px">As provas, para referência</h3>
+   <h3 style="margin:0 0 8px">Provas</h3>
    <p class="mini">O app não pede que você escolha um objetivo: o banco é o mesmo e cobre as 18 áreas do conteúdo programático. O que muda por prova é só o formato do simulado, escolhido na hora de começar.</p>
    ${PROVAS.filter(p=>p.data).map(p=>{const d=diasPara(p.data);
      return `<div style="margin-top:12px"><b>${esc(p.nome)}</b> <span class="pilula">${esc(p.org)}</span>
@@ -1631,16 +1634,16 @@ async function pintaAjustes(){
    </div>
   </div>
   <div class="cx">
-   <h3 style="margin:0 0 8px">Sua conta MedTech</h3>
+   <h3 style="margin:0 0 8px">Conta</h3>
    ${contaMarkup()}
   </div>
   <div class="cx">
-   <h3 style="margin:0 0 8px">Estudar sem internet</h3>
+   <h3 style="margin:0 0 8px">Uso sem internet</h3>
    <p class="mini">O app abre sem rede depois do primeiro acesso, e guarda sozinho toda leitura que você abrir. Para levar a <b>biblioteca inteira</b> para o plantão (todas as leituras e as figuras), baixe de uma vez, de preferência no wi-fi: são cerca de 2,6 MB.</p>
    <div id="cxOff" style="margin-top:10px"><p class="mini">verificando…</p></div>
   </div>
   <div class="cx">
-   <h3 style="margin:0 0 8px">Seus dados</h3>
+   <h3 style="margin:0 0 8px">Dados</h3>
    <p class="mini">O estudo é gravado neste aparelho (localStorage espelhado em IndexedDB) e sincronizado com a sua conta, então o mesmo progresso aparece no celular e no computador. Depois do primeiro acesso, o app abre e funciona sem internet. O que você fizer offline sobe na próxima vez que houver rede. O backup exportado continua valendo a pena: é o único que fica fora do navegador e da nuvem.</p>
    <div class="linha" style="margin-top:10px">
     <button class="bt" id="btExp">Exportar backup</button>
