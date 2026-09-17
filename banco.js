@@ -3906,75 +3906,75 @@ window.BANCO=[
   }
  },
  {
-  "q": "Mulher de 81 anos, com insônia crônica, chega ao ambulatório em uso de clonazepam há oito anos, prescrito por outro serviço. Teve duas quedas no último ano, sem fratura, e refere sonolência diurna. Mora sozinha e é independente para atividades básicas. Qual é a conduta mais apropriada?",
+  "q": "Mulher de 81 anos com insônia crônica usa clonazepam 2 mg à noite há 8 anos, prescrito por outro serviço. Teve 2 quedas no último ano, sem fratura, e refere sonolência pela manhã. Mora sozinha, independente para atividades básicas, MoCA de 25. Não tem transtorno de ansiedade ativo, epilepsia ou uso de álcool. Aceita reduzir o remédio desde que não fique sem dormir. Qual é o plano de desprescrição mais adequado?",
   "alts": [
-   "Manter a dose atual e acrescentar zolpidem à noite, para melhorar a qualidade do sono dela.",
-   "Substituir por um benzodiazepínico de meia-vida mais longa, que costuma provocar menos queda.",
-   "Planejar a retirada gradual do benzodiazepínico, associando medidas de higiene do sono.",
-   "Suspender o clonazepam de forma abrupta hoje, já que a droga é inadequada para essa idade.",
-   "Acrescentar um anti-histamínico de primeira geração à noite, opção mais segura para idosos."
+   "Suspender o clonazepam hoje e prescrever zolpidem",
+   "Trocar por amitriptilina 25 mg à noite",
+   "Manter a dose pela dependência estabelecida",
+   "Reduzir 25% a cada 2 semanas, com terapia para insônia",
+   "Reduzir 50% por semana até suspender em 2 semanas"
+  ],
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Pottie et al., Deprescribing benzodiazepine receptor agonists: evidence-based clinical practice guideline, Canadian Family Physician, 2018; AGS Beers Criteria, 2023",
+  "coment": "Benzodiazepínicos em idosos aumentam quedas, fraturas, delirium e acidentes (Beers 2023). A diretriz canadense de desprescrição sugere reduzir cerca de 25% a cada 2 semanas e, perto do fim, 12,5% a cada 2 semanas, com pausas se surgirem sintomas de abstinência, e associar terapia cognitivo-comportamental para insônia, que aumenta o sucesso. Suspensão abrupta após uso prolongado pode causar abstinência e convulsão. Zolpidem e antidepressivo tricíclico trazem riscos semelhantes ou maiores.",
+  "porAlt": [
+   "Suspensão abrupta arrisca abstinência, e zolpidem também aumenta quedas.",
+   "Amitriptilina é fortemente anticolinérgica e inapropriada em idosos.",
+   "O tempo de uso não impede a desprescrição, que é bem-sucedida na maioria.",
+   "Retirada gradual de cerca de 25% a cada 2 semanas, com terapia cognitivo-comportamental para insônia.",
+   "Redução tão rápida após 8 anos de uso favorece abstinência."
+  ]
+ },
+ {
+  "q": "Homem de 84 anos, no terceiro dia de internação por pneumonia, desenvolveu delirium hiperativo. Já foram corrigidas hiponatremia e retenção urinária, a dor está controlada, os óculos e o aparelho auditivo estão com ele e a família permanece junto. Na madrugada, tenta arrancar o acesso e golpear a equipe, sem aceitar reorientação verbal. Não tem doença de Parkinson ou demência com corpos de Lewy. QTc de 440 ms. Qual é a conduta mais adequada?",
+  "alts": [
+   "Contenção mecânica prolongada até o amanhecer",
+   "Lorazepam endovenoso em dose plena",
+   "Prometazina 50 mg intramuscular",
+   "Quetiapina 100 mg por 3 meses",
+   "Haloperidol 0,5 mg, pelo menor tempo"
+  ],
+  "gab": 4,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "NICE Guideline CG103: Delirium: prevention, diagnosis and management in hospital and long-term care, 2023; AGS Beers Criteria, 2023",
+  "coment": "Medidas não farmacológicas e correção das causas são a base do tratamento do delirium. O NICE admite antipsicótico apenas quando o paciente está muito angustiado ou oferece risco a si ou a outros e a abordagem não farmacológica falhou: haloperidol na menor dose eficaz (por exemplo, 0,5 mg), pelo menor tempo possível (em geral até 1 semana), com monitorização de QTc e sinais extrapiramidais. Benzodiazepínico piora e prolonga o delirium, exceto na abstinência alcoólica ou de benzodiazepínicos. Contenção aumenta agitação e lesões.",
+  "porAlt": [
+   "Contenção prolongada aumenta agitação, lesões e duração do delirium.",
+   "Benzodiazepínico piora o delirium fora de abstinência.",
+   "Prometazina é anticolinérgica e piora a confusão.",
+   "Não se mantém antipsicótico por meses após o episódio.",
+   "Risco para si e outros apesar de medidas não farmacológicas: haloperidol em dose baixa, pelo menor tempo."
+  ]
+ },
+ {
+  "q": "Mulher de 78 anos com adenocarcinoma de cólon estádio III, operada há 4 semanas, é avaliada para quimioterapia adjuvante. Performance status ECOG 1 no relato da oncologia. Na consulta, refere ter parado de fazer compras sozinha, perdeu 6% do peso em 3 meses, tem 2 quedas recentes, usa 10 medicamentos e mora só. O escore de rastreio G8 foi 11. Qual é a conduta mais adequada antes de definir o esquema?",
+  "alts": [
+   "Iniciar o esquema padrão, pois ECOG 1 basta",
+   "Contraindicar a quimioterapia pela idade",
+   "Avaliação geriátrica ampla para orientar o tratamento",
+   "Reduzir a dose em 50% sem nova avaliação",
+   "Encaminhar diretamente para cuidados de fim de vida"
   ],
   "gab": 2,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "AGS Beers Criteria 2023, medicamentos potencialmente inapropriados em idosos",
-  "coment": "Os critérios de Beers listam os benzodiazepínicos entre os medicamentos potencialmente inapropriados em idosos, por aumentarem comprometimento cognitivo, delirium, quedas e fraturas, e esta paciente já apresenta o desfecho que se queria evitar. A conduta correta é a desprescrição planejada, com redução gradual, tipicamente de 10% a 25% da dose a cada duas a quatro semanas, associada a terapia cognitivo-comportamental para insônia, que é a intervenção de primeira linha. A retirada abrupta após anos de uso pode provocar abstinência com ansiedade de rebote e convulsão. Zolpidem e anti-histamínicos de primeira geração constam da mesma lista e não são alternativas seguras.",
+  "nivel": "r3",
+  "base": "ASCO Guideline: Practical Assessment and Management of Vulnerabilities in Older Patients Receiving Chemotherapy, 2018 (atualização 2023); Mohile et al., GAP70+, Lancet, 2021",
+  "coment": "Performance status subestima vulnerabilidades em idosos. A ASCO (2018, atualizada em 2023) recomenda avaliação geriátrica para pessoas de 65 anos ou mais que vão receber quimioterapia, cobrindo função, quedas, comorbidades, cognição, depressão, nutrição, suporte social e polifarmácia. G8 de 14 ou menos indica vulnerabilidade. A avaliação prediz toxicidade grave e, em ensaios (GAP70+, GAIN), intervenções guiadas por ela reduziram toxicidade sem piorar sobrevida. Idade isolada não contraindica tratamento.",
   "porAlt": [
-   "O zolpidem consta da mesma lista de medicamentos inapropriados e associa-se a queda e fratura, somando risco em vez de resolver.",
-   "Meia-vida longa é justamente o que piora o acúmulo e a sonolência residual no idoso, com mais queda, e não menos.",
-   "Correta: desprescrição gradual com medidas não farmacológicas é a conduta indicada diante de quedas e sonolência em uso crônico.",
-   "A retirada abrupta após oito anos de uso arrisca abstinência, com ansiedade de rebote, insônia grave e até convulsão.",
-   "Anti-histamínicos de primeira geração são fortemente anticolinérgicos e constam da lista de inapropriados por delirium e retenção."
-  ]
- },
- {
-  "q": "Homem de 84 anos, internado há três dias por pneumonia, apresenta início agudo de desorientação, com flutuação ao longo do dia, desatenção e inversão do ciclo sono-vigília. Não há déficit focal novo e a tomografia de crânio é normal. Qual é a abordagem inicial correta?",
-  "alts": [
-   "Iniciar haloperidol de horário para todos os dias da internação, prevenindo novos episódios.",
-   "Buscar e corrigir todas as causas, com medidas ambientais e de reorientação como primeira linha.",
-   "Prescrever benzodiazepínico à noite, que seria a droga de escolha no manejo inicial do quadro.",
-   "Solicitar ressonância de crânio com contraste antes de qualquer intervenção terapêutica dele.",
-   "Instituir contenção mecânica no leito de rotina, garantindo a segurança do paciente à noite."
-  ],
-  "gab": 1,
-  "tema": "geriatria",
-  "cenario": "enf",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "AGS Beers Criteria 2023 e diretrizes de delirium do American Geriatrics Society, 2015 (reafirmadas)",
-  "coment": "O quadro é delirium: início agudo, curso flutuante, desatenção e alteração do nível de consciência. O tratamento é a correção da causa (infecção, dor, retenção urinária, constipação, distúrbio hidroeletrolítico, droga nova) somada a medidas não farmacológicas: reorientação, mobilização precoce, óculos e aparelho auditivo disponíveis, higiene do sono, presença de familiar. Antipsicótico é reservado para agitação que ameaça a segurança, na menor dose e pelo menor tempo, nunca de horário profilático. Benzodiazepínico piora o delirium, exceto na abstinência alcoólica. Contenção mecânica de rotina agrava agitação e aumenta lesão.",
-  "porAlt": [
-   "Antipsicótico de horário como profilaxia não reduz delirium e acrescenta risco cardiovascular e extrapiramidal ao idoso.",
-   "Correta: a base do tratamento é corrigir a causa e aplicar medidas não farmacológicas de reorientação e higiene do sono.",
-   "Benzodiazepínico agrava o delirium na imensa maioria dos casos; a exceção é o delirium por abstinência alcoólica.",
-   "A tomografia já é normal e não há déficit focal: pedir ressonância antes de tratar atrasa a correção da causa real.",
-   "A contenção mecânica de rotina aumenta agitação, lesão de pele e tempo de delirium, além de ferir a dignidade do paciente."
-  ]
- },
- {
-  "q": "Durante a consulta de um homem de 79 anos com hipertensão, diabetes e artrose, o residente aplica um instrumento que avalia funcionalidade, cognição, humor, mobilidade, nutrição, suporte social e medicamentos em uso, para então definir o plano de cuidado. Que abordagem é essa e qual sua principal utilidade?",
-  "alts": [
-   "Anamnese dirigida por aparelhos, que substitui com vantagem a avaliação funcional do idoso.",
-   "Triagem de fragilidade isolada, cujo único objetivo é decidir sobre internação de longa duração.",
-   "Escala prognóstica de mortalidade, usada apenas para definir quem recebe cuidados paliativos.",
-   "Avaliação geriátrica ampla, que identifica problemas não detectados na consulta convencional.",
-   "Rastreamento oncológico ampliado, que orienta quais exames de imagem devem ser solicitados."
-  ],
-  "gab": 3,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Diretrizes de avaliação geriátrica ampla, Ministério da Saúde, Caderno de Atenção Básica nº 19, e AGS 2023",
-  "coment": "A avaliação geriátrica ampla é multidimensional: examina funcionalidade nas atividades básicas e instrumentais, cognição, humor, mobilidade e risco de queda, nutrição, continência, visão e audição, suporte social e medicamentos em uso. Seu valor está em revelar o que a consulta orientada por queixa não alcança (declínio cognitivo inicial, depressão, sarcopenia, polifarmácia, isolamento), condições que mudam o plano terapêutico e predizem desfecho melhor que o diagnóstico isolado. É ferramenta de planejamento do cuidado, não escala prognóstica nem critério para institucionalização.",
-  "porAlt": [
-   "A anamnese por aparelhos não capta funcionalidade, cognição, humor nem suporte social, que são os eixos que mudam o plano.",
-   "A avaliação vai muito além de triar fragilidade e não tem como finalidade decidir internação de longa permanência.",
-   "Não se trata de escala prognóstica: o objetivo é planejar o cuidado, e não selecionar quem recebe cuidados paliativos.",
-   "Correta: é a avaliação geriátrica ampla, cuja força está em detectar problemas que a consulta orientada por queixa não revela.",
-   "Rastreamento oncológico é apenas um item possível do plano, e não o objetivo de uma avaliação multidimensional."
+   "ECOG subestima vulnerabilidades como quedas, perda de peso e polifarmácia.",
+   "Idade isolada não contraindica quimioterapia.",
+   "Idosa com G8 alterado antes de quimioterapia: avaliação geriátrica ampla para prever toxicidade e adaptar o plano.",
+   "Reduzir dose sem avaliar vulnerabilidades é arbitrário.",
+   "Câncer estádio III operado tem intenção curativa."
   ]
  },
  {
@@ -5328,27 +5328,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 80 anos internada na enfermaria por fratura de fêmur aguarda cirurgia e apresenta, no segundo dia, desorientação flutuante, sonolência e desatenção, sem febre e sem déficit focal. Qual é a conduta inicial mais adequada?",
+  "q": "Mulher de 80 anos, no segundo dia de pós-operatório de fratura de fêmur, está quieta e sonolenta, segundo a enfermagem, mas acorda com estímulo verbal. Não sabe a idade nem o ano e erra os meses do ano de trás para frente logo no início. A filha diz que ontem ela conversava normalmente. No 4AT: alerta alterado (4), AMT4 com 2 erros (2), meses do ano (1) e mudança aguda (4). Sem febre ou déficit focal. Qual é a interpretação e a conduta?",
   "alts": [
-   "Iniciar haloperidol em dose fixa para prevenir a progressão do quadro confusional identificado.",
-   "Prescrever benzodiazepínico à noite para regularizar o ciclo de sono e vigília dessa paciente.",
-   "Procurar causas reversíveis e aplicar medidas não farmacológicas antes de qualquer psicofármaco.",
-   "Instituir contenção física preventiva para evitar que ela retire dispositivos durante a noite.",
-   "Solicitar tomografia de crânio de rotina como primeiro exame antes de qualquer outra avaliação."
+   "4AT de 11; delirium hipoativo, buscar causas",
+   "4AT de 7; depressão pós-operatória provável",
+   "4AT de 11; provável demência não diagnosticada",
+   "4AT de 3; sedação residual, apenas observar",
+   "4AT de 11; iniciar haloperidol de horário"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
-  "base": "NICE guideline. Delirium: prevention, diagnosis and management in hospital and long-term care, atualização de 2023; American Geriatrics Society, guideline for postoperative delirium",
-  "coment": "O quadro é de delirium, e a conduta inicial é buscar causas reversíveis (dor, retenção urinária, fecaloma, desidratação, distúrbio eletrolítico, hipóxia, infecção, abstinência e fármacos) e aplicar medidas não farmacológicas, que são as únicas com evidência de prevenção e redução de duração: reorientação, presença de acompanhante, óculos e aparelho auditivo, sono preservado, hidratação e mobilização precoce. Antipsicótico não previne delirium e fica reservado à agitação com risco de dano; benzodiazepínico agrava, exceto na abstinência alcoólica.",
+  "base": "NICE Guideline CG103: Delirium, 2023; Tieges et al., Diagnostic accuracy of the 4AT for delirium detection, Age and Ageing, 2021",
+  "coment": "O 4AT soma alerta (0 ou 4), AMT4 (0, 1 ou 2), meses de trás para frente (0, 1 ou 2) e mudança aguda ou curso flutuante (0 ou 4); 4 ou mais sugere delirium. Aqui: 4 + 2 + 1 + 4 = 11. A forma hipoativa é a mais comum no idoso e a mais subdiagnosticada, confundida com depressão ou cansaço, e tem pior prognóstico. A conduta é procurar causas (dor, opioides, anticolinérgicos, retenção urinária, constipação, infecção, distúrbios eletrolíticos, hipoxemia, anemia), com medidas não farmacológicas; antipsicótico não trata delirium hipoativo.",
   "porAlt": [
-   "Antipsicótico não previne delirium nem encurta sua duração e traz risco em pacientes idosos.",
-   "Benzodiazepínico agrava o delirium, exceto quando a causa é abstinência de álcool ou do próprio fármaco.",
-   "Correta: investigar causas reversíveis e aplicar medidas não farmacológicas como primeira linha.",
-   "A contenção física aumenta agitação, lesão e duração do delirium e é medida de último recurso.",
-   "A neuroimagem se reserva a déficit focal, trauma craniano ou ausência de causa após avaliação."
+   "4 + 2 + 1 + 4 = 11; início agudo com alteração da atenção é delirium.",
+   "O cálculo está errado, e a mudança aguda de atenção e consciência indica delirium, não depressão.",
+   "Demência não tem início agudo em 1 dia.",
+   "O cálculo está errado; 4 ou mais já sugere delirium.",
+   "Antipsicótico não trata delirium hipoativo e tem efeitos adversos."
   ]
  },
  {
@@ -5880,27 +5880,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Mulher de 76 anos internada na enfermaria por fratura vertebral por fragilidade apresenta densitometria com escore T de menos 3,1 no colo femoral, cálcio e função renal normais e vitamina D de 18 ng/mL. Qual é a conduta?",
+  "q": "Mulher de 76 anos está internada por fratura vertebral de L1 após carregar uma sacola, a segunda fratura vertebral em 14 meses. Densitometria: escore T de −3,1 no colo femoral e −3,4 na coluna lombar. Cálcio de 9,3 mg/dL, creatinina de 0,9 mg/dL, vitamina D de 18 ng/mL, sem hiperparatireoidismo. Não teve infarto ou AVC. Nunca tratou osteoporose. Tem 1,55 m, pesa 52 kg e a mãe fraturou o quadril aos 80 anos. Qual é o tratamento farmacológico mais adequado?",
   "alts": [
-   "Iniciar bisfosfonato imediatamente sem corrigir a vitamina D, para não retardar o tratamento dela.",
-   "Repor vitamina D e cálcio e iniciar bisfosfonato, associando prevenção de quedas e reabilitação.",
-   "Prescrever apenas cálcio e vitamina D, sem antirreabsortivo, por se tratar de paciente muito idosa.",
-   "Solicitar nova densitometria em dois anos antes de qualquer decisão sobre iniciar o tratamento.",
-   "Indicar apenas reabilitação motora, uma vez que a fratura já ocorreu e o tratamento seria tardio."
+   "Apenas cálcio e vitamina D por 1 ano",
+   "Alendronato 70 mg semanal isolado",
+   "Vitamina D, depois anabólico e antirreabsortivo",
+   "Terapia hormonal estrogênica oral",
+   "Raloxifeno 60 mg diário"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline: Osteoporosis in Postmenopausal Women, 2019; Sociedade Brasileira de Endocrinologia, diretrizes de osteoporose",
-  "coment": "Fratura por fragilidade define osteoporose estabelecida e indica tratamento antirreabsortivo independentemente do valor da densitometria. Antes de iniciar bisfosfonato, corrige-se a deficiência de vitamina D e garante-se aporte adequado de cálcio, sob risco de hipocalcemia sintomática. O plano inclui ainda prevenção de quedas, revisão de fármacos sedativos e hipotensores, reabilitação, avaliação de causas secundárias de osteoporose e saúde bucal antes de terapias específicas.",
+  "nivel": "r3",
+  "base": "AACE/ACE Clinical Practice Guidelines for Postmenopausal Osteoporosis, 2020; Endocrine Society Guideline Update: Pharmacological Management of Osteoporosis in Postmenopausal Women, 2020",
+  "coment": "Fratura recente e múltiplas fraturas vertebrais com escore T abaixo de −2,5 caracterizam risco muito alto de fratura. A AACE (2020) e a Endocrine Society (2020) recomendam iniciar com anabólico (teriparatida, abaloparatida ou romosozumabe, este contraindicado com infarto ou AVC no último ano) e depois manter antirreabsortivo, pois o ganho se perde sem ele. Em ensaios como VERO e ARCH, anabólico reduziu mais fraturas que o bisfosfonato oral. Antes, corrige-se a vitamina D; somam-se prevenção de quedas e reabilitação.",
   "porAlt": [
-   "Iniciar antirreabsortivo com vitamina D deficiente expõe a paciente à hipocalcemia sintomática.",
-   "Correta: repor vitamina D e cálcio, iniciar bisfosfonato e associar prevenção de quedas e reabilitação.",
-   "Cálcio e vitamina D isolados não reduzem de forma suficiente o risco de nova fratura por fragilidade.",
-   "Adiar o tratamento por dois anos deixa a paciente exposta ao risco elevado de nova fratura precoce.",
-   "A fratura prévia é justamente o fator que mais indica tratamento farmacológico para prevenção secundária."
+   "Cálcio e vitamina D isolados não reduzem fraturas em risco muito alto.",
+   "Bisfosfonato é opção, mas anabólico é superior no risco muito alto.",
+   "Risco muito alto com fraturas vertebrais recentes: corrigir vitamina D, anabólico e depois antirreabsortivo.",
+   "Terapia hormonal aos 76 anos tem risco que supera o benefício.",
+   "Raloxifeno não reduz fratura de quadril."
   ]
  },
  {
@@ -7656,51 +7656,51 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 82 anos, com demência avançada e acamado, é internado pela quarta vez no ano por broncoaspiração. A família pergunta sobre traqueostomia e nutrição por sonda para prolongar a vida. Qual abordagem é a mais apropriada?",
+  "q": "Homem de 82 anos com Alzheimer avançado (FAST 7c), acamado, sem comunicação verbal, é internado pela quarta vez no ano por pneumonia aspirativa. Perdeu 10% do peso em 6 meses. A videofluoroscopia mostra aspiração de líquidos finos. A família pergunta se a gastrostomia evitará novas pneumonias e prolongará a vida. Não há diretiva antecipada. Recebe dieta pastosa, com ingestão de metade das refeições, e tem lesão por pressão sacral estágio 2. Pelas evidências disponíveis, qual é a orientação mais adequada?",
   "alts": [
-   "Indicar traqueostomia e gastrostomia de imediato, medidas que já prolongam comprovadamente a vida.",
-   "Decidir sozinho pela limitação terapêutica e apenas comunicar a decisão já tomada para a família.",
-   "Conduzir reunião de definição de objetivos de cuidado, discutindo prognóstico e valores do paciente.",
-   "Transferir a decisão inteiramente à família, sem oferecer qualquer recomendação médica sobre o caso.",
-   "Adiar a discussão para o momento em que houver parada cardiorrespiratória durante a internação."
+   "Alimentação assistida pela boca, em plano de conforto",
+   "Gastrostomia, que evita novas pneumonias",
+   "Sonda nasoenteral definitiva, que prolonga a sobrevida",
+   "Jejum completo e hidratação endovenosa contínua",
+   "Gastrostomia, que evita lesões por pressão"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "tit",
-  "base": "American Geriatrics Society, 2014, posicionamento sobre alimentação por sonda na demência avançada; Beers 2023",
-  "coment": "Na demência avançada, a nutrição por sonda não reduz aspiração, não melhora cicatrização de úlceras, não prolonga a vida e associa-se a maior uso de contenção. A conduta correta não é decidir sozinho nem transferir a decisão crua à família: é conduzir uma reunião de definição de objetivos de cuidado, na qual se explica o prognóstico, se investiga o que o paciente valorizava, e se faz uma recomendação médica fundamentada. Adiar a conversa para o momento da parada transforma uma decisão ponderada em decisão feita sob pânico, no pior contexto possível.",
+  "base": "American Geriatrics Society Feeding Tubes in Advanced Dementia Position Statement, 2014; Mitchell, Advanced Dementia, NEJM, 2015",
+  "coment": "Na demência avançada, a alimentação por sonda não prolonga a sobrevida, não previne pneumonia aspirativa (secreções orais e refluxo continuam sendo aspirados), não melhora o estado funcional nem cicatriza lesões por pressão, e está associada a agitação, contenção e uso de serviços de urgência. A AGS (2014) recomenda alimentação cuidadosa assistida pela boca, com consistência adaptada, como a abordagem centrada no conforto e no prazer. A decisão é compartilhada, com base nos valores do paciente.",
   "porAlt": [
-   "A sonda de alimentação na demência avançada não reduz aspiração nem prolonga a vida, e a traqueostomia não muda isso.",
-   "Decidir sozinho e apenas comunicar retira a família do processo e fere o cuidado centrado na pessoa e na sua história.",
-   "Correta: a reunião de objetivos de cuidado permite alinhar prognóstico, valores do paciente e recomendação médica.",
-   "Entregar a decisão sem recomendação sobrecarrega a família com culpa e abandona o papel técnico do médico.",
-   "Adiar para o momento da parada obriga a decidir sob pânico, quando a deliberação cuidadosa não é mais possível."
+   "Demência avançada com disfagia: alimentação assistida pela boca com consistência ajustada, dentro de um plano de conforto.",
+   "Gastrostomia não previne aspiração na demência avançada.",
+   "Sonda não prolonga a sobrevida nesse contexto.",
+   "Jejum e hidratação endovenosa contínua não trazem conforto nem benefício.",
+   "Sonda não previne nem cicatriza lesões por pressão."
   ]
  },
  {
-  "q": "Mulher de 79 anos usa nove medicamentos, entre eles amitriptilina para insônia, diazepam para ansiedade e um anti-inflamatório contínuo para dor no joelho. Teve uma queda com fratura de punho. Qual é a abordagem correta?",
+  "q": "Mulher de 79 anos usa 9 medicamentos, entre eles amitriptilina 25 mg para insônia, diazepam 10 mg à noite há anos, naproxeno contínuo para artrose de joelho, omeprazol, losartana, anlodipino, metformina, atorvastatina e AAS em prevenção primária. Teve queda com fratura de punho. Pressão 118/70 mmHg sentada e 102/62 mmHg em pé. Clearance de 48 mL/min. Mora com o marido e é independente para atividades básicas. Qual é a sequência de desprescrição mais adequada?",
   "alts": [
-   "Manter todos os medicamentos e acrescentar cálcio, evitando mexer em prescrição de outros colegas.",
-   "Substituir a amitriptilina por outro antidepressivo tricíclico, mantendo o benzodiazepínico atual.",
-   "Suspender todos os nove fármacos de uma só vez, para simplificar rapidamente o esquema da paciente.",
-   "Desprescrever de forma estruturada, retirando todos os fármacos de maior risco de queda e dano.",
-   "Acrescentar um antipsicótico à noite, medida indicada para reduzir o risco de novas quedas noturnas."
+   "Suspender todos os 9 fármacos no mesmo dia",
+   "Manter os fármacos e prescrever vitamina D",
+   "Trocar diazepam por alprazolam e manter os demais",
+   "Suspender apenas a atorvastatina e o omeprazol",
+   "Priorizar os de maior risco, um por vez"
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "AGS Beers Criteria 2023, medicamentos potencialmente inapropriados e risco de queda no idoso",
-  "coment": "Amitriptilina, benzodiazepínico e anti-inflamatório contínuo constam entre os medicamentos potencialmente inapropriados no idoso, e os três aumentam risco de queda, o desfecho que já ocorreu. A desprescrição deve ser estruturada: listar todos os fármacos, identificar os de maior risco e menor benefício, retirar um de cada vez com plano de redução gradual quando houver risco de abstinência, e acompanhar. Retirar tudo de uma vez arrisca abstinência e descompensação. Trocar por outro tricíclico não resolve, porque a classe inteira é anticolinérgica e sedativa.",
+  "base": "AGS Beers Criteria, 2023; STOPP/START version 3, European Geriatric Medicine, 2023",
+  "coment": "A desprescrição estruturada prioriza os fármacos de maior dano e menor benefício: amitriptilina (anticolinérgica, sedativa, hipotensão ortostática), diazepam (meia-vida longa, quedas), naproxeno contínuo (sangramento, lesão renal, piora pressórica) e AAS em prevenção primária aos 79 anos (sangramento sem benefício líquido). Retira-se um por vez para atribuir efeitos, com redução gradual de benzodiazepínico e tricíclico e alternativas não farmacológicas ou mais seguras (terapia cognitivo-comportamental para insônia, analgésico tópico, exercício).",
   "porAlt": [
-   "Manter tudo e apenas somar cálcio ignora a causa da queda e acrescenta mais um item à polifarmácia existente.",
-   "Trocar por outro tricíclico mantém o efeito anticolinérgico e sedativo que contribuiu para a queda da paciente.",
-   "Suspender nove fármacos de uma vez arrisca abstinência e descompensação das condições que motivaram cada um.",
-   "Correta: desprescrição estruturada, priorizando os fármacos de maior risco de queda, é a resposta à fratura já ocorrida.",
-   "Antipsicótico à noite aumenta queda, sedação e mortalidade no idoso, sendo o oposto do que o caso pede."
+   "Suspender tudo de uma vez causa abstinência e rebotes sem saber o que foi responsável.",
+   "Manter os fármacos de risco deixa o risco de queda.",
+   "Alprazolam continua sendo benzodiazepínico inapropriado.",
+   "Estatina não é a maior causa de dano nessa prescrição.",
+   "Priorizar amitriptilina, diazepam, naproxeno e AAS, retirando um por vez e gradualmente os que exigem."
   ]
  },
  {
@@ -8544,123 +8544,123 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 76 anos com insuficiência cardíaca classe funcional IV, três internações no último ano e dependência para atividades básicas é acompanhado no ambulatório. O médico se pergunta se deve acionar cuidados paliativos. Qual instrumento orienta essa decisão?",
+  "q": "Homem de 76 anos com insuficiência cardíaca de fração reduzida (18%), classe funcional IV apesar de terapia otimizada, teve 3 internações por descompensação no último ano. Tem clearance de 28 mL/min, perdeu 7 kg em 6 meses e precisa de ajuda para banho e vestir-se. Não é candidato a transplante ou dispositivo de assistência ventricular. O médico não se surpreenderia se ele morresse em 12 meses. Qual instrumento e conduta são mais adequados?",
   "alts": [
-   "A pergunta surpresa, questionando se causaria surpresa a morte deste paciente nos próximos doze meses.",
-   "O escore de Glasgow, que estabelece qual é o momento adequado para iniciar a abordagem paliativa.",
-   "A dosagem seriada de peptídeo natriurético, único marcador validado para indicar cuidado paliativo.",
-   "A idade acima de setenta e cinco anos, critério suficiente e isolado para indicar acompanhamento paliativo.",
-   "A ausência de tratamento modificador disponível, condição obrigatória para acionar a equipe paliativa."
+   "Aguardar sintomas refratários de fim de vida",
+   "SPICT-BR positivo; abordagem paliativa integrada",
+   "NYHA isolada; encaminhar para transplante",
+   "Escore de Charlson; alta ambulatorial",
+   "PPS de 90%; manter apenas seguimento habitual"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Instrumentos de identificação em cuidados paliativos e Resolução CFM nº 1.805/2006",
-  "coment": "A pergunta surpresa, eu ficaria surpreso se este paciente morresse nos próximos doze meses?, é o instrumento de triagem mais difundido para identificar quem se beneficia de abordagem paliativa. Resposta negativa indica avaliação, e isso não significa suspender tratamento modificador algum: cuidado paliativo é cuidado ativo que corre em paralelo. Somam-se indicadores gerais, como declínio funcional progressivo, perda de peso, internações repetidas e dependência, e indicadores específicos por doença. Esperar que não haja mais tratamento disponível é justamente o erro que atrasa o cuidado.",
+  "base": "Supportive and Palliative Care Indicators Tool (SPICT-BR), validação brasileira, 2019; ESC Guidelines for heart failure, 2021 (atualização 2023)",
+  "coment": "O SPICT (versão brasileira validada) combina indicadores gerais (internações não planejadas, dependência, perda de peso, sintomas persistentes) com indicadores específicos (na insuficiência cardíaca, classe III ou IV com dispneia ou dor em repouso), além da pergunta surpresa. Positivo, orienta revisar tratamento, planejar cuidados antecipados, controlar sintomas e discutir preferências, junto com o tratamento cardiológico. Cuidados paliativos não esperam a fase final nem excluem terapia modificadora da doença.",
   "porAlt": [
-   "Correta: a pergunta surpresa é o instrumento de triagem, e resposta negativa indica avaliação paliativa desde já.",
-   "A escala de coma de Glasgow mede nível de consciência e não tem qualquer papel na indicação de cuidados paliativos.",
-   "Não existe biomarcador isolado que defina indicação de cuidado paliativo; a decisão é clínica e multidimensional.",
-   "A idade isolada não indica cuidado paliativo: o que indica é a trajetória da doença e o sofrimento associado.",
-   "Cuidado paliativo corre em paralelo ao tratamento modificador e não exige que ele tenha se esgotado."
+   "Cuidados paliativos devem começar antes da fase final.",
+   "Indicadores gerais e específicos positivos no SPICT-BR: abordagem paliativa integrada ao cuidado cardiológico.",
+   "Ele não é candidato a transplante, e NYHA isolada não identifica necessidade paliativa.",
+   "Charlson estima mortalidade, não orienta cuidados paliativos.",
+   "Dependência para atividades básicas não é compatível com PPS de 90%."
   ]
  },
  {
-  "q": "Paciente com câncer metastático em uso de morfina de liberação prolongada 60 mg a cada doze horas apresenta dor bem controlada, mas evolui com mioclonias e sonolência excessiva. A função renal piorou nas últimas semanas. Qual é a conduta apropriada?",
+  "q": "Mulher de 68 anos com câncer de pulmão metastático usa morfina oral de liberação prolongada 60 mg a cada 12 horas, com dor bem controlada. Nas últimas 2 semanas, com creatinina subindo de 1,0 para 2,3 mg/dL (clearance de 22 mL/min), surgiram mioclonias, sonolência e alucinações visuais. Sem hipercalcemia, infecção ou metástases cerebrais novas. Não há disfagia. Pesa 58 kg e usa morfina de resgate 1 a 2 vezes por dia. Qual é a troca de opioide mais adequada?",
   "alts": [
-   "Aumentar a dose de morfina, pois a sonolência indica que a dor não está adequadamente controlada.",
-   "Suspender todo opioide de forma abrupta e reavaliar a dor do paciente ao longo das próximas horas.",
-   "Rotacionar para outro opioide, reduzindo em vinte e cinco a cinquenta por cento a dose equianalgésica.",
-   "Associar benzodiazepínico em dose alta para controlar as mioclonias sem alterar o esquema opioide.",
-   "Manter a morfina e apenas acrescentar naloxona em dose baixa para reverter a sonolência excessiva."
+   "Aumentar a morfina para 90 mg a cada 12 horas",
+   "Codeína 60 mg a cada 4 horas",
+   "Tramadol 100 mg a cada 6 horas",
+   "Fentanil transdérmico 25 µg/h, com resgate",
+   "Fentanil transdérmico 100 µg/h"
+  ],
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "NCCN Clinical Practice Guidelines: Adult Cancer Pain, 2025; ESMO Clinical Practice Guidelines: Management of cancer pain in adult patients, 2018",
+  "coment": "Neurotoxicidade por opioide (mioclonias, sonolência, alucinações) com piora renal decorre do acúmulo de metabólitos da morfina (morfina-3 e 6-glicuronídeos). A conduta é hidratar, tratar a causa e rotacionar para opioide sem metabólitos ativos renais relevantes, como fentanil, metadona ou buprenorfina. Morfina oral de 120 mg/dia corresponde, pela tabela conservadora do fabricante, a fentanil 25 µg/h (faixa de 60 a 134 mg/dia), o que já incorpora a redução de 25 a 50% pela tolerância cruzada incompleta. Codeína e tramadol também dependem do rim.",
+  "porAlt": [
+   "Aumentar a morfina piora a neurotoxicidade.",
+   "Codeína é metabolizada em morfina e acumula na insuficiência renal.",
+   "Tramadol acumula no rim e reduz o limiar convulsivo.",
+   "Neurotoxicidade por morfina com insuficiência renal: rotacionar para fentanil transdérmico 25 µg/h, com resgate.",
+   "Dose muito acima da equivalência, com risco de depressão respiratória."
+  ]
+ },
+ {
+  "q": "Mulher de 81 anos com DPOC muito grave (VEF₁ de 24%) em terapia tripla otimizada, reabilitação concluída e oxigênio domiciliar, tem dispneia intensa em repouso, mMRC 4, que a impede de conversar. Saturação de 93% com 2 L/min. Sem broncoespasmo, congestão, anemia ou infecção. Clearance de 55 mL/min. Não usa opioide. Deseja ficar em casa e priorizar conforto. Qual é a conduta farmacológica mais adequada para o sintoma?",
+  "alts": [
+   "Morfina oral em dose baixa titulada",
+   "Aumentar o oxigênio para saturação de 98%",
+   "Diazepam 10 mg de horário",
+   "Prednisona 40 mg contínua",
+   "Morfina 10 mg endovenosa de horário"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ASCO Guideline: Management of Dyspnea in Advanced Cancer, 2021; ATS Official Clinical Policy Statement: Palliative Management of Dyspnea Crisis, 2013",
+  "coment": "Dispneia refratária em doença avançada responde a opioide sistêmico em dose baixa: a ASCO (2021) e a ATS recomendam morfina oral de liberação imediata, por exemplo 2,5 a 5 mg a cada 4 horas conforme necessidade (ou 10 mg/dia de liberação prolongada), titulada, com laxante e reavaliação. Em doses baixas não há depressão respiratória clinicamente relevante. Ventilador direcionado à face ajuda. Oxigênio acima do necessário não alivia dispneia sem hipoxemia, e benzodiazepínico isolado não é primeira linha.",
+  "porAlt": [
+   "Dispneia refratária em doença avançada: morfina oral em dose baixa titulada, com laxante.",
+   "Saturação alta não alivia dispneia e pode reter CO₂.",
+   "Benzodiazepínico não é primeira linha e aumenta sedação e quedas.",
+   "Corticoide contínuo não trata dispneia refratária e causa efeitos adversos.",
+   "Dose e via desproporcionais para quem nunca usou opioide."
+  ]
+ },
+ {
+  "q": "Mulher de 84 anos com Alzheimer avançado, internada por pneumonia aspirativa, piora com saturação de 84% em máscara. Há 3 anos, ainda com capacidade, registrou em prontuário diretiva antecipada recusando intubação e ressuscitação. A filha que mora com ela concorda com a diretiva, mas o filho que chegou de outro estado exige que tudo seja feito. Não há procurador nomeado. Está sonolenta, com frequência respiratória de 32 irpm e uso de musculatura acessória. Qual é a conduta mais adequada?",
+  "alts": [
+   "Intubar, pois a família discorda",
+   "Aguardar consenso familiar antes de decidir",
+   "Respeitar a diretiva e acolher os filhos",
+   "Acionar a justiça antes de qualquer decisão",
+   "Intubar e extubar depois da reunião familiar"
   ],
   "gab": 2,
   "tema": "geriatria",
-  "cenario": "amb",
+  "cenario": "enf",
   "comp": "tto",
   "nivel": "tit",
-  "base": "WHO Guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults, 2018; Harrison's, 22ª edição, 2025",
-  "coment": "Mioclonias e sonolência excessiva com dor controlada indicam neurotoxicidade por opioide, agravada aqui pela piora da função renal, que faz acumular metabólitos ativos da morfina. A conduta é a rotação de opioide: converte-se pela tabela de equianalgesia e reduz-se de vinte e cinco a cinquenta por cento a dose calculada, por tolerância cruzada incompleta, escolhendo agente com metabolismo mais seguro na insuficiência renal, como fentanil ou metadona. Esta com cautela, pela meia-vida longa. Hidratação e revisão de outros fármacos sedativos completam a conduta. Suspender abruptamente causa dor e abstinência.",
+  "base": "Resolução CFM nº 1.995/2012 (diretivas antecipadas de vontade); Resolução CFM nº 1.805/2006",
+  "coment": "A Resolução CFM nº 1.995/2012 reconhece as diretivas antecipadas de vontade: registradas pelo médico no prontuário, prevalecem sobre qualquer outro parecer não médico, inclusive o desejo dos familiares. O médico mantém as medidas de conforto (controle de dispneia com opioide, oxigênio se confortar, cuidado com secreções) e acolhe a família, explicando a vontade da paciente. Ortotanásia é amparada pela Resolução CFM nº 1.805/2006. Ação judicial não é necessária para cumprir diretiva válida.",
   "porAlt": [
-   "Aumentar a dose agrava a neurotoxicidade em paciente cuja dor já está controlada e que acumula metabólitos.",
-   "Suspender abruptamente provoca dor intensa e síndrome de abstinência, sem resolver a causa do problema.",
-   "Correta: o quadro é neurotoxicidade por acúmulo de metabólitos; roda-se o opioide reduzindo a dose calculada em 25% a 50%.",
-   "Benzodiazepínico soma sedação e não trata a causa, que é o acúmulo do opioide na insuficiência renal.",
-   "A naloxona reverteria a analgesia e precipitaria abstinência, sendo reservada à depressão respiratória grave."
+   "A discordância familiar não anula a diretiva antecipada.",
+   "Não se suspendem medidas de conforto à espera de consenso.",
+   "Diretiva antecipada registrada prevalece sobre a vontade dos familiares: cumprir, controlar sintomas e acolher a família.",
+   "Diretiva válida não exige autorização judicial.",
+   "Intubar contraria a vontade expressa da paciente."
   ]
  },
  {
-  "q": "Mulher de 81 anos com doença pulmonar avançada refere dispneia intensa em repouso. A saturação está em 95% em ar ambiente e não há broncoespasmo, congestão nem infecção. Qual é a conduta com melhor evidência para o sintoma?",
+  "q": "Homem de 79 anos com câncer de pâncreas metastático, com prognóstico estimado em horas a dias, está inconsciente, sem sinais de desconforto, frequência respiratória de 18 irpm, sem febre. Há 6 horas apresenta respiração ruidosa pelo acúmulo de secreção na orofaringe, que angustia a esposa. Recebe 1.500 mL/dia de soro por hipodermóclise. Sem edema pulmonar ao exame. A esposa pergunta se ele está sufocando. Qual é a conduta mais adequada?",
   "alts": [
-   "Oxigênio suplementar em alto fluxo, medida mais eficaz mesmo quando a saturação está preservada.",
-   "Opioide em dose baixa, tratamento de escolha para a sensação de dispneia refratária nesse contexto.",
-   "Broncodilatador inalatório em série contínua, independentemente da ausência de broncoespasmo agora.",
-   "Corticoide sistêmico em dose alta, que alivia a dispneia refratária em pacientes sem doença inflamatória.",
-   "Benzodiazepínico isolado em dose plena, primeira escolha para dispneia em doença pulmonar avançada."
-  ],
-  "gab": 1,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025, manejo da dispneia refratária em doença avançada",
-  "coment": "O opioide em dose baixa é o tratamento de escolha da dispneia refratária: reduz a percepção de falta de ar por ação central, sem depressão respiratória clinicamente relevante nas doses usadas. O oxigênio só alivia quando há hipoxemia. Nesta paciente, com saturação de 95%, não há benefício. Uma medida não farmacológica com efeito real é o ar corrente no rosto, com ventilador. O benzodiazepínico entra como adjuvante quando há componente ansioso importante, mas não é primeira escolha isolada. Broncodilatador e corticoide tratam mecanismos específicos, ausentes no caso.",
-  "porAlt": [
-   "O oxigênio alivia dispneia apenas quando há hipoxemia; com saturação de 95% não traz benefício demonstrado.",
-   "Correta: o opioide em dose baixa é o tratamento de escolha da dispneia refratária, mesmo sem hipoxemia.",
-   "Sem broncoespasmo, o broncodilatador não atua sobre o mecanismo da dispneia desta paciente em repouso.",
-   "O corticoide tem papel quando há inflamação ou obstrução, e não como tratamento da dispneia refratária.",
-   "O benzodiazepínico é adjuvante do componente ansioso e não substitui o opioide como primeira escolha."
-  ]
- },
- {
-  "q": "Durante reunião familiar, os filhos de uma paciente com demência avançada e pneumonia aspirativa de repetição perguntam ao médico se devem autorizar intubação caso ela piore. Qual é a postura correta do profissional?",
-  "alts": [
-   "Transferir integralmente a decisão à família, apresentando apenas as opções sem qualquer recomendação.",
-   "Ouvir os valores da família e então fazer uma recomendação médica fundamentada sobre o plano de cuidado.",
-   "Decidir sozinho pela limitação e comunicar a decisão já tomada, sem envolver a família na conversa.",
-   "Perguntar diretamente se a família quer que se faça tudo, deixando a escolha ao encargo dos filhos.",
-   "Adiar a conversa para o momento em que houver deterioração clínica aguda dentro da internação atual."
+   "Aspiração traqueal profunda de horário",
+   "Decúbito lateral, menos hidratação e explicação",
+   "Furosemida 40 mg endovenosa de horário",
+   "Antibiótico de amplo espectro e fisioterapia",
+   "Aumentar a hidratação para fluidificar a secreção"
   ],
   "gab": 1,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "tit",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, e Resolução CFM nº 1.805/2006 sobre ortotanásia",
-  "coment": "A reunião de definição de objetivos de cuidado tem uma sequência: investigar o que a família compreende, explorar valores e o que o paciente consideraria aceitável, e então oferecer uma recomendação médica fundamentada. Transferir a decisão crua, perguntar se a família quer que se faça tudo, é injusto, ininteligível e produz culpa e decisões piores. Decidir sozinho e apenas comunicar retira a família do processo. Adiar para o momento da deterioração transforma uma deliberação cuidadosa em decisão sob pânico. Recomendar não é impor: a família permanece com a palavra final.",
+  "nivel": "r2",
+  "base": "NICE Guideline NG31: Care of dying adults in the last days of life, 2015 (atualização 2017); Cochrane Review: Interventions for noisy breathing in patients near to death, 2022",
+  "coment": "Respiração ruidosa terminal decorre de secreções na orofaringe que o paciente inconsciente não elimina, e em geral não causa desconforto a ele. O manejo é explicar à família, reposicionar em decúbito lateral, reduzir ou suspender hidratação artificial e evitar aspiração profunda, que é invasiva. Anticolinérgico (butilbrometo de escopolamina subcutâneo) pode ser usado, idealmente cedo, embora as evidências de benefício sejam limitadas (revisão Cochrane).",
   "porAlt": [
-   "Apresentar opções sem recomendação sobrecarrega a família com uma responsabilidade técnica que é do médico.",
-   "Correta: ouvir valores e então recomendar de forma fundamentada é o que a boa prática e a ética exigem nessa conversa.",
-   "Decidir sozinho e comunicar retira a família do processo e ignora os valores do próprio paciente.",
-   "Perguntar se querem que se faça tudo é a formulação que mais gera culpa e que menos informa a decisão.",
-   "Adiar para a deterioração aguda impede a deliberação cuidadosa e leva a decisões tomadas sob pânico."
-  ]
- },
- {
-  "q": "Paciente em fase final de vida, com prognóstico de dias, apresenta secreção respiratória ruidosa que angustia a família. Está sonolento, sem sinais de desconforto. Qual é a conduta adequada?",
-  "alts": [
-   "Aspirar a via aérea de forma vigorosa e repetida, medida mais eficaz para eliminar a secreção residual.",
-   "Aumentar a hidratação endovenosa, corrigindo a desidratação que provoca o espessamento da secreção.",
-   "Iniciar antimicrobiano de amplo espectro, presumindo pneumonia como causa da secreção observada.",
-   "Intubar o paciente para proteção de via aérea, evitando a broncoaspiração da secreção acumulada.",
-   "Reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar o fenômeno à família."
-  ],
-  "gab": 4,
-  "tema": "geriatria",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "Manejo de sintomas nos últimos dias de vida. Bibliografia de cuidados paliativos e Resolução CFM nº 1.805/2006",
-  "coment": "A secreção respiratória terminal resulta do acúmulo de secreções em paciente que perdeu o reflexo de deglutição, e incomoda muito mais quem ouve do que o próprio paciente, que está sonolento e sem desconforto. A conduta combina reposicionamento, redução ou suspensão da hidratação artificial, que aumenta a secreção, anticolinérgico e, sobretudo, explicação à família. A aspiração vigorosa é desconfortável e estimula mais secreção. Hidratar mais piora o quadro. Antimicrobiano e intubação são intervenções desproporcionais que prolongam o processo de morrer sem benefício.",
-  "porAlt": [
-   "A aspiração vigorosa causa desconforto e estimula ainda mais a produção de secreção nesse contexto.",
-   "Aumentar a hidratação piora a secreção respiratória e o edema, sem qualquer benefício ao paciente.",
-   "Presumir pneumonia e iniciar antimicrobiano é intervenção desproporcional diante do prognóstico de dias.",
-   "A intubação prolonga o processo de morrer sem benefício e configura obstinação terapêutica.",
-   "Correta: reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar à família é a conduta indicada."
+   "Aspiração profunda é desconfortável e estimula mais secreção.",
+   "Respiração ruidosa terminal: decúbito lateral, menos hidratação, explicação à família e anticolinérgico se necessário.",
+   "Sem congestão pulmonar, diurético não é indicado.",
+   "Antibiótico não traz conforto na fase final e não trata o fenômeno.",
+   "Mais hidratação aumenta as secreções."
   ]
  },
  {
@@ -11328,243 +11328,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Homem de 82 anos internado por pneumonia apresenta desatenção flutuante, desorganização do pensamento e alteração do nível de consciência iniciadas há um dia. Qual é a conduta inicial?",
+  "q": "Homem de 78 anos com demência com corpos de Lewy (flutuações, alucinações visuais bem formadas e parkinsonismo) é internado por infecção urinária e evolui com delirium agitado. Recebe ceftriaxona, está hidratado, sem retenção urinária ou constipação, com dor controlada. Medidas não farmacológicas não bastaram e ele tenta sair do leito à noite, com risco de queda. Usa rivastigmina transdérmica. QTc de 450 ms. Qual é a conduta farmacológica mais adequada?",
   "alts": [
-   "Buscar sempre causas do delirium e aplicar medidas não farmacológicas antes de qualquer sedativo.",
-   "Iniciar haloperidol em dose alta imediatamente, já medida de primeira linha para todo caso de delirium.",
-   "Prescrever benzodiazepínico de meia-vida longa para restaurar o ciclo de sono do paciente idoso.",
-   "Contenção física precoce, medida que reduz o tempo de delirium e previne complicações no idoso.",
-   "Solicitar tomografia de crânio em todos os casos antes de qualquer investigação de causa clínica."
-  ],
-  "gab": 0,
-  "tema": "geriatria",
-  "cenario": "enf",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "NICE guideline CG103: Delirium, atualização 2023; American Geriatrics Society, revisão 2023",
-  "coment": "Delirium é disfunção cerebral aguda com causa quase sempre identificável: infecção, dor, retenção urinária, constipação, distúrbio hidroeletrolítico, hipoxemia, abstinência e fármacos, sobretudo anticolinérgicos, benzodiazepínicos e opioides. A abordagem começa por tratar a causa e aplicar medidas não farmacológicas: reorientação, presença de familiar, mobilização precoce, óculos e aparelho auditivo, higiene do sono e retirada de cateteres. Antipsicótico se reserva a agitação com risco.",
-  "porAlt": [
-   "Correta: identificar e tratar a causa, com medidas não farmacológicas antes de qualquer sedativo.",
-   "O antipsicótico não é primeira linha e se limita a agitação com risco ao paciente ou a terceiros.",
-   "O benzodiazepínico precipita e prolonga delirium, exceto na abstinência alcoólica documentada.",
-   "A contenção física aumenta agitação, lesão e tempo de delirium, sendo medida de último recurso.",
-   "A tomografia se reserva a trauma, sinal focal ou ausência de causa clínica após avaliação."
-  ]
- },
- {
-  "q": "Mulher de 78 anos com duas quedas nos últimos seis meses. Qual é a avaliação inicial mais adequada?",
-  "alts": [
-   "Solicitar apenas tomografia de crânio e liberar o acompanhamento clínico se o exame for normal agora.",
-   "Prescrever restrição de deambulação e uso de cadeira de rodas para prevenir novas quedas em casa.",
-   "Avaliação multifatorial com revisão de medicamentos e teste sempre padronizado de marcha e equilíbrio.",
-   "Iniciar apenas suplementação de cálcio, medida isolada capaz de reduzir a recorrência das quedas.",
-   "Solicitar apenas densitometria óssea, exame que identifica a causa das quedas nessa faixa etária."
-  ],
-  "gab": 2,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "World Falls Guidelines, 2022; USPSTF recommendation on falls prevention, 2024",
-  "coment": "Duas ou mais quedas no ano, ou uma queda com lesão, indicam avaliação multifatorial: revisão de medicamentos que aumentam risco, avaliação de marcha e equilíbrio com testes padronizados, força muscular, visão, hipotensão postural, cognição, calçado, ambiente domiciliar e vitamina D. A intervenção com melhor evidência é exercício estruturado com componente de equilíbrio e força. Restringir a marcha piora sarcopenia e aumenta o risco de novas quedas.",
-  "porAlt": [
-   "A tomografia normal não afasta as causas tratáveis de queda nem substitui a avaliação funcional.",
-   "Restringir a deambulação acelera sarcopenia e descondicionamento, aumentando o risco de quedas.",
-   "Correta: avaliação multifatorial com revisão de medicamentos e testes de marcha e equilíbrio.",
-   "O cálcio isolado não reduz quedas; a intervenção com melhor evidência é o exercício estruturado.",
-   "A densitometria estima risco de fratura, mas não identifica a causa das quedas do paciente."
-  ]
- },
- {
-  "q": "Paciente de 85 anos em uso de nove medicamentos, com sonolência e tontura. Qual instrumento orienta a revisão da prescrição?",
-  "alts": [
-   "Escala de coma de Glasgow seriada, já instrumento que orienta a retirada de medicamentos inadequados.",
-   "Índice tornozelo-braquial, medida que define quais fármacos devem ser suspensos nesse paciente.",
-   "Escore de Framingham, ferramenta desenhada para orientar a desprescrição no paciente idoso frágil.",
-   "Escala de Braden aplicada semanalmente, instrumento que orienta a revisão da lista de medicamentos.",
-   "Critérios de Beers e STOPP/START, aplicados sempre com desprescrição gradual e monitorada agora."
+   "Haloperidol 2 mg intramuscular",
+   "Risperidona 2 mg duas vezes ao dia",
+   "Suspender a rivastigmina",
+   "Diazepam 10 mg endovenoso",
+   "Quetiapina em dose baixa, por curto período"
   ],
   "gab": 4,
   "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "AGS Beers Criteria, atualização 2023; STOPP/START version 3, 2023",
-  "coment": "Polifarmácia com sintomas sugestivos de efeito adverso pede revisão sistemática. Os critérios de Beers listam medicamentos potencialmente inapropriados no idoso (benzodiazepínicos, anticolinérgicos, anti-inflamatórios, sulfonilureias de longa ação) e o STOPP/START acrescenta o outro lado, os medicamentos indicados que faltam. A desprescrição é gradual, um fármaco por vez, com pactuação e monitoramento de sintomas de retirada e de retorno da condição tratada.",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "NICE Guideline NG97: Dementia, 2018 (atualização 2023); McKeith et al., Diagnosis and management of dementia with Lewy bodies, Neurology, 2017",
+  "coment": "Pacientes com demência com corpos de Lewy ou doença de Parkinson têm sensibilidade grave a antipsicóticos bloqueadores dopaminérgicos: haloperidol e risperidona podem causar rigidez intensa, piora motora, síndrome neuroléptica maligna e morte. O NICE contraindica haloperidol nesses pacientes. Se um antipsicótico for inevitável, usa-se quetiapina (ou clozapina) em dose muito baixa e por curto período. Inibidor de colinesterase deve ser mantido, pois a suspensão pode piorar alucinações e cognição.",
   "porAlt": [
-   "A escala de Glasgow avalia nível de consciência e não tem relação com revisão de prescrição.",
-   "O índice tornozelo-braquial avalia doença arterial periférica, sem relação com a polifarmácia.",
-   "O escore de Framingham estima risco cardiovascular e não orienta retirada de medicamentos.",
-   "A escala de Braden estima risco de lesão por pressão, sem relação com revisão farmacológica.",
-   "Correta: Beers e STOPP/START orientam a identificação de fármacos inapropriados e a desprescrição."
+   "Haloperidol pode causar reação de sensibilidade grave na demência com corpos de Lewy.",
+   "Risperidona também bloqueia dopamina e piora o parkinsonismo.",
+   "Suspender a rivastigmina pode piorar alucinações e cognição.",
+   "Benzodiazepínico piora o delirium.",
+   "Demência com corpos de Lewy: se antipsicótico for inevitável, quetiapina em dose baixa por curto período."
   ]
  },
  {
-  "q": "Homem de 80 anos com perda de peso não intencional, fraqueza, lentidão da marcha, baixa atividade física e exaustão. Qual é a interpretação correta?",
+  "q": "Mulher de 78 anos teve 2 quedas nos últimos 6 meses, uma com escoriação no braço. Faz o teste Timed Up and Go em 16 segundos, com marcha lenta e alargada. Pressão arterial de 134/80 mmHg sentada e 128/76 mmHg em pé. Usa losartana e sinvastatina, sem psicotrópicos. Acuidade visual corrigida adequada, sem neuropatia periférica. Vitamina D de 34 ng/mL. Mora em casa térrea com tapetes. Qual intervenção tem maior evidência para reduzir novas quedas?",
   "alts": [
-   "Depressão maior isolada, diagnóstico que explica integralmente os cinco componentes descritos aqui.",
-   "Envelhecimento fisiológico normal, sem qualquer indicação de intervenção clínica ou nutricional agora.",
-   "Fragilidade pelo fenótipo de Fried, que indica sempre intervenção com exercício e suporte nutricional.",
-   "Demência em fase inicial, condição definida pelos cinco critérios descritos no enunciado do caso.",
-   "Insuficiência cardíaca descompensada, diagnóstico definido por esse conjunto de cinco achados agora."
+   "Vitamina D 50.000 UI mensal",
+   "Uso de protetor de quadril isolado",
+   "Restrição de sair de casa sozinha",
+   "Exercícios de equilíbrio e força",
+   "Suplemento proteico diário isolado"
   ],
-  "gab": 2,
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "World Guidelines for Falls Prevention and Management for Older Adults, Age and Ageing, 2022; Sherrington et al., Cochrane Review: Exercise for preventing falls in older people living in the community, 2019",
+  "coment": "Para idosos na comunidade com risco alto de queda, a diretriz mundial de quedas (2022) recomenda avaliação multifatorial e intervenção, e o exercício com treino de equilíbrio e força, progressivo, por pelo menos 3 horas por semana, é a medida com maior evidência de redução de quedas (Cochrane: cerca de 24%). Vitamina D só reduz quedas em quem tem deficiência, e doses altas intermitentes chegaram a aumentar quedas. A revisão do ambiente complementa. Restringir mobilidade acelera o descondicionamento.",
+  "porAlt": [
+   "Vitamina D sem deficiência não reduz quedas, e bolus mensal alto pode aumentá-las.",
+   "Protetor de quadril não previne a queda.",
+   "Restringir a mobilidade piora a força e o equilíbrio.",
+   "Exercício de equilíbrio e força, progressivo, é a intervenção com maior redução de quedas.",
+   "Proteína isolada não reduz quedas."
+  ]
+ },
+ {
+  "q": "Mulher de 83 anos começou anlodipino 10 mg há 4 meses para hipertensão. Dois meses depois surgiu edema bimaleolar e foi prescrita furosemida 40 mg. Agora tem incontinência urinária de urgência nova, tonturas ao levantar e sódio de 132 mEq/L. Pressão 112/64 mmHg sentada e 96/58 mmHg em pé. Creatinina subiu de 0,9 para 1,3 mg/dL. Sem insuficiência cardíaca ao ecocardiograma e sem hipoalbuminemia. Qual é a interpretação e a conduta mais adequada?",
+  "alts": [
+   "Insuficiência cardíaca oculta; aumentar a furosemida",
+   "Cascata de prescrição; rever anlodipino e furosemida",
+   "Bexiga hiperativa; iniciar oxibutinina",
+   "Hiponatremia por SIADH; restrição hídrica",
+   "Doença renal crônica; iniciar espironolactona"
+  ],
+  "gab": 1,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Fried frailty phenotype; ICFSR international clinical practice guidelines for identification and management of frailty, 2019; revisão 2023",
-  "coment": "O fenótipo de fragilidade de Fried tem cinco componentes: perda de peso não intencional, exaustão autorrelatada, fraqueza medida pela força de preensão, lentidão da marcha e baixo nível de atividade física. Três ou mais definem fragilidade, e um ou dois definem pré-fragilidade. A intervenção com melhor evidência é exercício resistido progressivo associado a aporte proteico adequado, além de revisão de medicamentos e busca de causas reversíveis.",
+  "base": "STOPP/START version 3, European Geriatric Medicine, 2023; McCarthy et al., Prescribing cascades, BMJ, 2022",
+  "coment": "Cascata de prescrição ocorre quando um efeito adverso é interpretado como nova doença e tratado com outro fármaco. O edema maleolar do anlodipino é dose-dependente, por vasodilatação arteriolar, e não responde bem a diurético. A furosemida gerou urgência urinária, hipotensão ortostática, hiponatremia e piora renal. A conduta é reduzir ou trocar o bloqueador de cálcio e suspender o diurético; a oxibutinina seria mais um degrau da cascata, com carga anticolinérgica. Critérios como STOPP/START ajudam a detectar esse padrão.",
   "porAlt": [
-   "A depressão pode coexistir e deve ser rastreada, mas não define os cinco componentes descritos.",
-   "Fragilidade não é envelhecimento normal: é síndrome com prognóstico próprio e tratamento definido.",
-   "Correta: o conjunto descreve o fenótipo de fragilidade, que indica exercício e suporte nutricional.",
-   "A demência é definida por declínio cognitivo com perda funcional, e não pelos critérios descritos.",
-   "A insuficiência cardíaca exige achados cardiovasculares que não estão descritos neste enunciado."
+   "O ecocardiograma não mostra insuficiência cardíaca, e mais diurético agrava os efeitos.",
+   "Edema por anlodipino tratado com furosemida: cascata de prescrição; reduzir o anlodipino e suspender o diurético.",
+   "Oxibutinina acrescentaria mais um fármaco anticolinérgico à cascata.",
+   "A hiponatremia se explica pelo diurético.",
+   "A piora renal é funcional, pela depleção de volume."
   ]
  },
  {
-  "q": "Mulher de 76 anos com incontinência urinária de urgência, sem infecção e sem resíduo pós-miccional elevado. Qual é o tratamento inicial?",
+  "q": "Homem de 80 anos perdeu 5 kg sem intenção em 1 ano, refere cansaço na maior parte dos dias, caminha a 0,6 m/s e tem força de preensão abaixo do ponto de corte para sexo e índice de massa corporal. Sai de casa pouco. Independente para atividades básicas, sem depressão (GDS-15 de 3), MEEM de 27 com 8 anos de escolaridade. TSH, hemograma, albumina e função renal normais. Qual é a classificação e a intervenção mais adequada?",
   "alts": [
-   "Terapia comportamental com treinamento vesical e exercícios sempre orientados de assoalho pélvico.",
-   "Iniciar oxibutinina em dose alta como primeira linha, por sua eficácia no idoso com incontinência.",
-   "Indicar sondagem vesical de demora para conforto e controle definitivo dos episódios de perda.",
-   "Encaminhar para cirurgia de sling suburetral, tratamento de escolha da incontinência de urgência.",
-   "Restringir a ingestão hídrica a meio litro por dia, medida inicial recomendada para essa condição."
+   "Fragilidade (Fried); exercício e proteína",
+   "Pré-fragilidade; apenas observar por 1 ano",
+   "Sarcopenia grave; iniciar testosterona",
+   "Depressão mascarada; iniciar sertralina",
+   "Fragilidade; megestrol para apetite"
   ],
   "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "International Conference of Frailty and Sarcopenia Research (ICFSR) Clinical Practice Guidelines on Frailty, 2019; AGS Beers Criteria, 2023",
+  "coment": "O fenótipo de Fried tem 5 critérios: perda de peso não intencional, exaustão, baixa atividade física, lentidão da marcha e fraqueza. Três ou mais definem fragilidade, 1 ou 2 pré-fragilidade; ele tem os 5. As diretrizes da ICFSR (2019) recomendam exercício multicomponente com resistência progressiva, suplementação proteica ou calórica quando há perda de peso ou desnutrição, e revisão da polifarmácia. Megestrol é inapropriado (Beers), e testosterona não é recomendada para fragilidade.",
+  "porAlt": [
+   "Cinco de 5 critérios de Fried: fragilidade; exercício multicomponente com resistência e suporte proteico.",
+   "Cinco critérios de Fried definem fragilidade, não pré-fragilidade.",
+   "Testosterona não é recomendada para fragilidade.",
+   "GDS-15 de 3 não sugere depressão.",
+   "Megestrol aumenta trombose e mortalidade em idosos."
+  ]
+ },
+ {
+  "q": "Mulher de 76 anos tem incontinência urinária de urgência há 1 ano, com 10 micções diárias e 2 noturnas. Urina tipo 1 sem infecção, resíduo pós-miccional de 40 mL. Fez 12 semanas de treinamento vesical, exercícios de assoalho pélvico e redução de cafeína, com melhora pequena. MoCA de 22, usa donepezila 10 mg. Pressão 128/76 mmHg, sem arritmia. Não tem glaucoma de ângulo fechado, e a creatinina é 0,9 mg/dL. Qual é o tratamento farmacológico mais adequado?",
+  "alts": [
+   "Oxibutinina 5 mg três vezes ao dia",
+   "Amitriptilina 25 mg à noite",
+   "Mirabegrona 25 mg ao dia",
+   "Tansulosina 0,4 mg ao dia",
+   "Desmopressina 0,2 mg à noite"
+  ],
+  "gab": 2,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "EAU Guidelines on Urinary Incontinence, 2024; AUA/SUFU guideline on overactive bladder, 2024",
-  "coment": "A incontinência de urgência é tratada inicialmente com medidas comportamentais: treinamento vesical com micções programadas, exercícios de assoalho pélvico, controle de cafeína e álcool, ajuste de diuréticos e tratamento de constipação. Se houver falha, prefere-se mirabegrona no idoso, porque antimuscarínicos como a oxibutinina têm carga anticolinérgica associada a confusão, retenção e declínio cognitivo. Sling trata incontinência de esforço, não de urgência.",
+  "base": "AUA/SUFU Guideline on the Diagnosis and Treatment of Idiopathic Overactive Bladder, 2024; AGS Beers Criteria, 2023",
+  "coment": "Após falha do tratamento comportamental na incontinência de urgência, o próximo passo é farmacológico. Antimuscarínicos como oxibutinina são fortemente anticolinérgicos, estão associados a declínio cognitivo e a risco de demência e antagonizam a donepezila (Beers 2023). A AUA/SUFU (2024) orienta discutir esse risco e preferir agonista beta-3 (mirabegrona ou vibegrona) em idosos, sobretudo com comprometimento cognitivo. Monitoriza-se a pressão com mirabegrona. Desmopressina tem alto risco de hiponatremia em idosos.",
   "porAlt": [
-   "Correta: terapia comportamental com treinamento vesical e exercícios de assoalho pélvico é a primeira linha.",
-   "A oxibutinina tem alta carga anticolinérgica e é evitada no idoso pelo risco cognitivo e de retenção.",
-   "A sonda de demora aumenta infecção e não é medida de conforto para incontinência sem retenção.",
-   "O sling suburetral trata incontinência de esforço, e não a incontinência de urgência descrita.",
-   "A restrição hídrica extrema causa desidratação e concentra a urina, agravando a urgência miccional."
+   "Oxibutinina é anticolinérgica, piora a cognição e antagoniza a donepezila.",
+   "Amitriptilina é anticolinérgica e inapropriada em idosos.",
+   "Urgência refratária ao tratamento comportamental em idosa com déficit cognitivo: agonista beta-3, como mirabegrona.",
+   "Tansulosina não trata bexiga hiperativa em mulheres.",
+   "Desmopressina causa hiponatremia grave em idosos."
   ]
  },
  {
-  "q": "Paciente de 79 anos com queixa de esquecimento progressivo há dois anos, com prejuízo para gerenciar as próprias finanças e medicações. Qual é a conduta inicial?",
+  "q": "Mulher de 79 anos, com 4 anos de escolaridade, é trazida pela filha por esquecimento progressivo há 2 anos. Passou a esquecer contas vencidas e errar a dose dos remédios, e a filha assumiu as finanças e a medicação. Continua tomando banho, vestindo-se e alimentando-se sozinha. MEEM de 19. GDS-15 de 2. B12, TSH, função renal, cálcio, glicemia e sorologia para sífilis normais. Ressonância com atrofia hipocampal bilateral. Qual é o diagnóstico mais provável?",
   "alts": [
-   "Iniciar inibidor de colinesterase imediatamente, sem qualquer investigação complementar prévia.",
-   "Atribuir o quadro ao envelhecimento normal e reavaliar somente após cinco anos de seguimento.",
-   "Avaliar cognição e funcionalidade, sempre excluindo causas reversíveis com exames laboratoriais.",
-   "Solicitar apenas tomografia de crânio, exame que estabelece isoladamente o diagnóstico etiológico.",
-   "Prescrever antipsicótico em dose baixa, medida inicial recomendada para o declínio cognitivo descrito."
+   "Comprometimento cognitivo leve amnéstico",
+   "Pseudodemência por depressão",
+   "Demência vascular pela escolaridade baixa",
+   "Demência leve, provável Alzheimer",
+   "Envelhecimento cognitivo normal"
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "NICE guideline NG97: Dementia, atualização 2023; Academia Brasileira de Neurologia, 2022",
-  "coment": "Declínio cognitivo com perda de funcionalidade caracteriza demência e exige avaliação estruturada: testes cognitivos e de funcionalidade, história com informante, exame neurológico e busca de causas reversíveis com hemograma, função renal e hepática, cálcio, TSH, vitamina B12, sorologias e neuroimagem estrutural. Só após caracterizar o quadro se define a etiologia e o tratamento, que inclui inibidor de colinesterase quando a doença de Alzheimer é provável.",
+  "base": "Academia Brasileira de Neurologia, Diagnóstico de doença de Alzheimer no Brasil, Dementia & Neuropsychologia, 2022; NIA-AA Revised Criteria for Alzheimer's Disease, 2024",
+  "coment": "O que separa comprometimento cognitivo leve de demência é a funcionalidade: perda de independência nas atividades instrumentais (finanças, medicações) por causa cognitiva define demência, mesmo com atividades básicas preservadas (estágio leve). Com 4 anos de escolaridade, o ponto de corte brasileiro do MEEM gira em torno de 24 a 25, e 19 é alterado. Declínio insidioso de memória, atrofia hipocampal e exames para causas reversíveis normais apontam doença de Alzheimer. Não há depressão pelo GDS.",
   "porAlt": [
-   "Tratar sem investigar arrisca perder causa reversível, como hipotireoidismo ou deficiência de B12.",
-   "O declínio com perda funcional não é envelhecimento normal e não deve ser apenas observado.",
-   "Correta: avaliar cognição e funcionalidade e excluir causas reversíveis antes de definir a etiologia.",
-   "A neuroimagem complementa a avaliação, mas isolada não estabelece o diagnóstico etiológico.",
-   "O antipsicótico não trata declínio cognitivo e aumenta mortalidade em pacientes com demência."
+   "Comprometimento cognitivo leve preserva as atividades instrumentais.",
+   "GDS-15 de 2 não sugere depressão.",
+   "Escolaridade baixa não define etiologia vascular; não há lesões vasculares.",
+   "Perda das atividades instrumentais por declínio cognitivo insidioso, com atrofia hipocampal: demência leve provavelmente por Alzheimer.",
+   "Perda funcional e MEEM alterado não são envelhecimento normal."
   ]
  },
  {
-  "q": "Homem de 84 anos, acamado, com lesão em região sacral de espessura parcial e leito rosado. Qual é a medida mais eficaz para evitar progressão?",
+  "q": "Homem de 84 anos, acamado após AVC, tem lesão sacral de 3 × 2 cm com perda parcial da espessura da pele, leito rosado e úmido, sem esfacelo, tecido necrótico ou exposição de tecido subcutâneo. Sem sinais de infecção ao redor. Escala de Braden de 11. Albumina de 3,1 g/dL, ingestão de metade das refeições. Recebe mudança de decúbito a cada 4 horas em colchão comum. Qual é o conjunto de medidas mais adequado?",
   "alts": [
-   "Aplicar calor local seco intermitente, medida que acelera a cicatrização de lesões por pressão.",
-   "Reposicionamento programado com superfície de redistribuição e sempre otimização do aporte proteico.",
-   "Manter a lesão exposta ao ar e sem cobertura, conduta que favorece a epitelização mais rápida agora.",
-   "Iniciar antibiótico sistêmico de amplo espectro em todos os casos de lesão por pressão superficial.",
-   "Realizar desbridamento cirúrgico amplo imediato, conduta indicada para lesão de espessura parcial."
+   "Desbridamento cirúrgico e antibiótico sistêmico",
+   "Estágio 2; curativo úmido, alívio de pressão, nutrição",
+   "Estágio 3; gaze seca e secador de cabelo",
+   "Estágio 1; massagem vigorosa sobre a área",
+   "Estágio 4; enxerto cutâneo precoce"
   ],
   "gab": 1,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "prev",
   "nivel": "r1",
-  "base": "EPUAP/NPIAP/PPPIA, Prevention and Treatment of Pressure Ulcers, 3ª edição, 2019, com revisão 2023",
-  "coment": "Lesão por pressão estágio dois, de espessura parcial, é prevenida e tratada por alívio da pressão: reposicionamento programado, superfície de redistribuição, proteção da pele com hidratação e barreira, manejo da umidade e aporte nutricional adequado, com atenção especial à ingestão de proteína e calorias. A cobertura mantém o meio úmido e protege. Antibiótico sistêmico só se houver infecção clínica, e desbridamento se houver tecido desvitalizado.",
+  "base": "NPIAP/EPUAP/PPPIA International Guideline: Prevention and Treatment of Pressure Ulcers/Injuries, 2019",
+  "coment": "Perda parcial da espessura com leito rosado e úmido, sem esfacelo ou tecido subcutâneo exposto, é lesão por pressão estágio 2 (NPIAP). O tratamento inclui curativo que mantenha o meio úmido (hidrocoloide, espuma ou filme), redistribuição de pressão com superfície de suporte e reposicionamento programado, proteção contra umidade e fricção, e avaliação nutricional com aporte proteico e calórico adequado. Braden de 12 ou menos indica risco alto. Massagem sobre proeminências e secagem do leito prejudicam a cicatrização.",
   "porAlt": [
-   "O calor local não acelera cicatrização e pode aumentar a demanda metabólica do tecido lesado.",
-   "Correta: alívio da pressão com reposicionamento, superfície adequada e aporte nutricional otimizado.",
-   "A exposição ao ar resseca o leito da ferida; o meio úmido controlado favorece a epitelização.",
-   "Antibiótico sistêmico sem sinais de infecção seleciona resistência e não acelera a cicatrização.",
-   "O desbridamento é indicado quando há tecido desvitalizado, ausente na lesão de espessura parcial."
+   "Lesão estágio 2 limpa não precisa de desbridamento nem antibiótico.",
+   "Estágio 2: curativo que mantém umidade, superfície de redistribuição de pressão, reposicionamento e nutrição.",
+   "Não há exposição de tecido subcutâneo, e secar o leito atrasa a cicatrização.",
+   "Há perda de pele, e massagem piora o dano.",
+   "Não há exposição de osso, tendão ou músculo."
   ]
  },
  {
-  "q": "Mulher de 74 anos com hipertensão, sem outras comorbidades, funcionalmente independente. Qual é o alvo pressórico recomendado?",
+  "q": "Mulher de 74 anos, hipertensa, independente, caminha 40 minutos por dia, MoCA de 28, sem quedas, diabetes ou doença renal. Usa losartana 50 mg e tem pressão média de 146/82 mmHg na monitorização residencial de 7 dias, sem hipotensão ortostática. Risco cardiovascular em 10 anos de 14% pelo PREVENT. Tolera bem a medicação e prefere reduzir o risco de AVC. Clearance de 72 mL/min e potássio de 4,4 mEq/L. Qual é o alvo pressórico mais adequado?",
   "alts": [
-   "Alvo abaixo de 160 por 100 mmHg, por não haver benefício em reduzir mais nessa faixa etária agora.",
-   "Alvo abaixo de 130 por 80 mmHg, buscado sempre com titulação gradual e atenção à hipotensão postural.",
-   "Alvo abaixo de 110 por 60 mmHg, com titulação rápida para reduzir o risco cardiovascular residual.",
-   "Nenhum alvo específico, pois a pressão não deve ser tratada em pacientes acima dos setenta anos.",
-   "Alvo definido apenas pela pressão de pulso isolada, sem considerar valores sistólico e diastólico."
+   "Abaixo de 130/80 mmHg, se tolerado",
+   "Abaixo de 150/90 mmHg, pela idade",
+   "Abaixo de 160/90 mmHg",
+   "Abaixo de 110/70 mmHg",
+   "Não tratar a hipertensão após 70 anos"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Hipertensão Arterial: SBC, 2025; ESC guidelines for hypertension, 2024",
-  "coment": "O idoso funcionalmente independente se beneficia do mesmo alvo dos demais adultos, abaixo de 130 por 80 mmHg, com base em ensaios que mostraram redução de eventos e de mortalidade com controle mais estrito. O que muda é a forma: titulação gradual, medida de pressão em pé para detectar hipotensão postural, atenção a quedas, função renal e eletrólitos. No idoso frágil ou com expectativa de vida limitada o alvo é individualizado, com metas menos rígidas.",
+  "base": "AHA/ACC Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults, 2025; SPRINT Research Group, NEJM, 2015",
+  "coment": "Em idosos independentes que vivem na comunidade, a redução intensiva da pressão reduziu eventos cardiovasculares e mortalidade (SPRINT, subgrupo de 75 anos ou mais; STEP, em chineses de 60 a 80 anos). A diretriz AHA/ACC de 2025 recomenda alvo abaixo de 130/80 mmHg também para idosos na comunidade, com atenção a hipotensão ortostática, quedas e função renal. Em idosos frágeis, institucionalizados ou com expectativa de vida limitada, o alvo é individualizado.",
   "porAlt": [
-   "Alvo de 160 por 100 mmHg deixa risco cardiovascular evitável sem tratamento adequado.",
-   "Correta: alvo abaixo de 130 por 80 mmHg com titulação gradual e vigilância de hipotensão postural.",
-   "Alvo de 110 por 60 mmHg aumenta hipotensão, quedas e piora da perfusão em órgãos-alvo.",
-   "A hipertensão tratada no idoso reduz acidente vascular cerebral, insuficiência cardíaca e óbito.",
-   "A pressão de pulso é marcador de rigidez arterial, mas não substitui as metas sistólica e diastólica."
+   "Idosa independente e sem fragilidade: alvo abaixo de 130/80 mmHg, se tolerado.",
+   "Alvo abaixo de 150/90 é antigo e deixa risco evitável na idosa independente.",
+   "Alvo frouxo demais para quem é independente e de risco elevado.",
+   "Alvo excessivamente baixo, com risco de hipotensão.",
+   "Tratar hipertensão em idosos reduz AVC e mortalidade."
   ]
  },
  {
-  "q": "Paciente de 88 anos com múltiplas comorbidades e expectativa de vida estimada em menos de dois anos. Qual é a conduta quanto ao rastreio de câncer colorretal?",
+  "q": "Homem de 88 anos com insuficiência cardíaca de fração reduzida classe III, doença renal crônica estágio 4 e DPOC com oxigênio domiciliar teve 2 internações nos últimos 6 meses. Precisa de ajuda para banho. Nunca fez colonoscopia. Não tem sangramento, anemia ou alteração do hábito intestinal. A filha leu que o rastreio de câncer colorretal salva vidas e pede colonoscopia. Tem clearance de 22 mL/min e usa furosemida em dose alta. Qual é a orientação mais adequada?",
   "alts": [
-   "Manter colonoscopia a cada cinco anos independentemente da expectativa de vida do paciente idoso já.",
-   "Substituir a colonoscopia por tomografia anual de abdome como rastreio nessa faixa de idade já.",
-   "Realizar colonoscopia anual, estratégia recomendada para compensar a idade avançada do paciente.",
-   "Manter o rastreio até os cem anos de idade em todos os pacientes, independentemente do prognóstico.",
-   "Suspender o rastreio, pois o benefício aparece sempre depois de dez anos de seguimento estimado."
+   "Colonoscopia, por ausência de rastreio prévio",
+   "Pesquisa de sangue oculto anual",
+   "Não rastrear, pelo benefício tardio",
+   "Colonografia por tomografia a cada 5 anos",
+   "Colonoscopia a cada 5 anos"
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "USPSTF Recommendation Statement: Screening for Colorectal Cancer, 2021",
+  "coment": "O USPSTF (2021) recomenda rastreio de 45 a 75 anos, decisão individualizada de 76 a 85 (considerando rastreio prévio e saúde) e não rastrear acima de 85 anos. O benefício de mortalidade aparece cerca de 10 anos depois, enquanto preparo, sedação e perfuração são mais arriscados em idosos com comorbidades graves. Com expectativa de vida claramente menor que 10 anos, rastrear expõe a dano sem benefício. Sintomas como sangramento ou anemia justificariam investigação diagnóstica, que é outra situação.",
+  "porAlt": [
+   "Acima de 85 anos e com expectativa de vida curta, o rastreio não traz benefício, mesmo sem rastreio prévio.",
+   "Qualquer método de rastreio segue a mesma lógica de benefício tardio.",
+   "Idade acima de 85 anos e comorbidades graves: não rastrear, pelo benefício só após cerca de 10 anos.",
+   "Colonografia também é rastreio e leva à colonoscopia se positiva.",
+   "Intervalos de rastreio não se aplicam sem indicação."
+  ]
+ },
+ {
+  "q": "Homem de 81 anos tem tonturas ao levantar e 1 quase-síncope. Pressão arterial deitado de 148/84 mmHg e, após 3 minutos em pé, 118/70 mmHg, com frequência passando de 72 para 90 bpm. Usa tansulosina 0,4 mg há 3 meses para hiperplasia prostática, trazodona 100 mg à noite, hidroclorotiazida 25 mg e losartana 50 mg. Sódio e hemoglobina normais, sem neuropatia ou doença de Parkinson. Qual é a primeira medida mais adequada?",
+  "alts": [
+   "Iniciar fludrocortisona 0,1 mg",
+   "Iniciar midodrina 2,5 mg três vezes ao dia",
+   "Suspender toda a medicação anti-hipertensiva",
+   "Solicitar tilt test antes de mudar a prescrição",
+   "Rever e reduzir os fármacos hipotensores"
   ],
   "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r3",
-  "base": "USPSTF colorectal cancer screening, 2021; ACS guideline, atualização 2024",
-  "coment": "O rastreio de câncer colorretal produz benefício com defasagem de aproximadamente dez anos entre o exame e a redução de mortalidade, enquanto o dano (preparo, sedação, perfuração, achados incidentais) é imediato. Em expectativa de vida inferior a esse intervalo, o rastreio causa mais dano que benefício. As diretrizes recomendam individualizar entre setenta e seis e oitenta e cinco anos e não rastrear acima disso, considerando expectativa e preferência.",
-  "porAlt": [
-   "Manter o rastreio sem considerar prognóstico expõe a dano imediato sem benefício alcançável.",
-   "A tomografia de abdome não é método de rastreio de câncer colorretal em nenhuma diretriz atual.",
-   "A colonoscopia anual não é intervalo de rastreio e multiplica os riscos do procedimento.",
-   "Não há recomendação de rastrear até os cem anos; acima de oitenta e cinco não se rastreia.",
-   "Correta: suspender o rastreio, pois o benefício só aparece após cerca de dez anos de seguimento."
-  ]
- },
- {
-  "q": "Homem de 81 anos com hipotensão postural sintomática. Qual é a primeira medida?",
-  "alts": [
-   "Iniciar fludrocortisona imediatamente em todos os casos, já antes de revisar a lista de medicamentos.",
-   "Restringir sal e água na dieta, medida inicial recomendada para o controle da hipotensão postural.",
-   "Prescrever repouso no leito por duas semanas, conduta que corrige a instabilidade hemodinâmica.",
-   "Revisar e reduzir fármacos hipotensores, sempre associando medidas não farmacológicas de suporte.",
-   "Iniciar betabloqueador em dose baixa, medida que já reduz a queda pressórica na posição em pé."
-  ],
-  "gab": 3,
-  "tema": "geriatria",
-  "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Autonomic Society/AAN consensus on orthostatic hypotension, revisão 2023; AGS Beers Criteria, 2023",
-  "coment": "A hipotensão postural no idoso é frequentemente iatrogênica: anti-hipertensivos, alfabloqueadores, nitratos, antidepressivos tricíclicos, antipsicóticos e diuréticos. A primeira medida é revisar e reduzir esses fármacos. Seguem-se medidas não farmacológicas: levantar em etapas, hidratação adequada, aumento da ingestão de sal quando não contraindicado, meia de compressão, elevação da cabeceira e manobras de contrapressão. Fludrocortisona e midodrina ficam para refratários.",
+  "base": "ESC Guidelines for the diagnosis and management of syncope, 2018; Consensus statement on the definition of orthostatic hypotension, Clinical Autonomic Research, 2011",
+  "coment": "Queda sistólica de 20 mmHg ou mais em 3 minutos em pé define hipotensão ortostática; o aumento de frequência cardíaca de 18 bpm sugere causa não neurogênica (razão Δ FC/Δ PAS acima de 0,5). A causa mais comum no idoso são medicamentos: alfabloqueador, trazodona e tiazídico. O primeiro passo é reduzir ou trocar os fármacos responsáveis, mantendo controle da hipertensão supina, com medidas como levantar em etapas, hidratação e meias compressivas. Fludrocortisona e midodrina ficam para hipotensão neurogênica ou refratária.",
   "porAlt": [
-   "A fludrocortisona é reservada a casos refratários, após revisão de medicamentos e medidas gerais.",
-   "Restringir sal e água agrava a hipotensão; o recomendado é aumentar a ingestão, se possível.",
-   "O repouso prolongado piora o descondicionamento e agrava a intolerância à posição ortostática.",
-   "Correta: revisar e reduzir os fármacos hipotensores, associando medidas não farmacológicas de suporte.",
-   "O betabloqueador não corrige hipotensão postural e pode reduzir ainda mais o débito cardíaco."
+   "Fludrocortisona piora a hipertensão supina e vem depois de rever fármacos.",
+   "Midodrina é para casos neurogênicos ou refratários.",
+   "Suspender tudo deixa a hipertensão supina sem controle.",
+   "O diagnóstico já foi feito à beira do leito.",
+   "Hipotensão ortostática induzida por fármacos: rever e reduzir tansulosina, trazodona e tiazídico."
   ]
  },
  {
@@ -15528,243 +15528,243 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente de 80 anos com múltiplas comorbidades pergunta sobre alvo de hemoglobina glicada no diabetes. Qual é a orientação?",
+  "q": "Mulher de 80 anos com diabetes tipo 2 há 20 anos, insuficiência cardíaca, doença renal crônica com clearance de 38 mL/min, comprometimento cognitivo leve e dependência para compras e medicamentos. Usa metformina 500 mg duas vezes ao dia e glibenclamida 10 mg. Hemoglobina glicada de 6,6%. Teve 2 episódios de glicemia de 52 mg/dL no mês e uma queda. Pesa 54 kg e mora com a filha, que administra os remédios. Qual é a conduta mais adequada?",
   "alts": [
-   "Alvo único abaixo de 6,5% para todos os idosos, independentemente de comorbidades e do prognóstico agora.",
-   "Alvo abaixo de 5,5% em todos os idosos para reduzir ao máximo as complicações microvasculares tardias.",
-   "Nenhum alvo, pois o controle glicêmico não traz qualquer benefício em pacientes acima de setenta anos.",
-   "Alvo individualizado e menos rigoroso, priorizando sempre evitar hipoglicemia e preservar a funcionalidade.",
-   "Alvo definido apenas pela glicemia de jejum isolada, sem qualquer consideração da hemoglobina glicada."
+   "Manter o esquema, pois a glicada está no alvo",
+   "Alvo abaixo de 8,0% e suspender a glibenclamida",
+   "Alvo abaixo de 6,5% e acrescentar insulina basal",
+   "Alvo abaixo de 7,0% e aumentar a metformina",
+   "Suspender todo o tratamento do diabetes"
+  ],
+  "gab": 1,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ADA Standards of Care in Diabetes, Older Adults, 2025; AGS Beers Criteria, 2023",
+  "coment": "A ADA (2025) classifica como saúde complexa ou intermediária o idoso com múltiplas doenças crônicas, dependência em 2 ou mais atividades instrumentais ou comprometimento cognitivo leve a moderado, com alvo de hemoglobina glicada abaixo de 8,0%. Hipoglicemia é o principal dano: glibenclamida tem metabólitos ativos de eliminação renal, está no Beers e deve ser suspensa. Deve-se desintensificar quando a glicada está abaixo do alvo individualizado com risco de hipoglicemia. Metformina é mantida com ajuste para o clearance.",
+  "porAlt": [
+   "Glicada baixa com hipoglicemias e queda indica tratamento excessivo.",
+   "Saúde intermediária com hipoglicemias: alvo abaixo de 8,0% e suspender a glibenclamida.",
+   "Alvo rígido e insulina aumentam a hipoglicemia.",
+   "Alvo inadequado, e aumentar a metformina com clearance de 38 não é recomendado.",
+   "Suspender tudo arrisca hiperglicemia sintomática."
+  ]
+ },
+ {
+  "q": "Mulher de 86 anos com Alzheimer avançado, sem comunicação verbal, acamada, passou a gemer e franzir a testa durante a troca de fraldas, com respiração ruidosa e agitação, e recusa parte das refeições há 1 semana. A cuidadora a acha apenas mais irritada. Tem artrose de joelhos e quadris. Sem febre, sem retenção urinária ou fecaloma, urina tipo 1 normal. Escore PAINAD de 7. Clearance de 45 mL/min. Qual é a conduta mais adequada?",
+  "alts": [
+   "Risperidona 0,5 mg para agitação",
+   "Aguardar ela conseguir relatar dor",
+   "Naproxeno 500 mg duas vezes ao dia",
+   "Paracetamol regular e reavaliação com PAINAD",
+   "Clonazepam em gotas à noite"
   ],
   "gab": 3,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025, capítulo de idosos; SBD Diretriz 2024",
-  "coment": "No idoso, o alvo glicêmico é individualizado pelo estado de saúde: idosos saudáveis com boa expectativa de vida podem visar hemoglobina glicada abaixo de 7 a 7,5 por cento, enquanto os com múltiplas comorbidades ou fragilidade têm alvos entre 8 e 8,5 por cento. A prioridade é evitar hipoglicemia, que causa quedas, fraturas, arritmias e declínio cognitivo, e o controle excessivamente rígido não traz benefício quando a expectativa de vida é limitada.",
+  "base": "American Geriatrics Society Panel: Pharmacological Management of Persistent Pain in Older Persons, 2009; Warden et al., PAINAD, JAMDA, 2003",
+  "coment": "Pacientes com demência avançada têm dor subdiagnosticada e expressa como agitação, gemência, expressão facial e recusa alimentar. A escala PAINAD (0 a 10) avalia respiração, vocalização, expressão facial, linguagem corporal e consolabilidade; 7 ou mais indica dor intensa. A conduta é tratar a dor de forma escalonada e regular, começando por paracetamol de horário, e reavaliar com a escala; antipsicótico para agitação que é dor aumenta mortalidade e não trata a causa. AINE sistêmico tem alto risco renal, gástrico e cardiovascular.",
   "porAlt": [
-   "O alvo único e rígido para todos os idosos ignora comorbidades, fragilidade e expectativa de vida.",
-   "Alvo abaixo de 5,5 por cento multiplica o risco de hipoglicemia grave sem benefício correspondente.",
-   "O controle glicêmico traz benefício também no idoso, com alvos ajustados ao contexto individual.",
-   "Correta: alvo individualizado e menos rigoroso, priorizando evitar hipoglicemia e manter funcionalidade.",
-   "A glicemia de jejum isolada não reflete o controle global nem o risco de hipoglicemia noturna."
+   "Agitação por dor não se trata com antipsicótico, que aumenta mortalidade na demência.",
+   "Ela não conseguirá relatar dor; usa-se escala observacional.",
+   "AINE contínuo com clearance reduzido traz risco renal e gástrico.",
+   "PAINAD de 7 na demência avançada: analgesia regular com paracetamol e reavaliação pela escala.",
+   "Benzodiazepínico não trata dor e aumenta quedas e delirium."
   ]
  },
  {
-  "q": "Paciente de 84 anos com demência avançada, disfagia e perda de peso. A família pergunta sobre sonda de gastrostomia. Qual é a orientação baseada em evidência?",
+  "q": "Mulher de 84 anos com fibrilação atrial não valvar, CHA₂DS₂-VASc de 5, vai iniciar apixabana. Pesa 58 kg, creatinina de 1,1 mg/dL (clearance de 38 mL/min pelo CKD-EPI 2021). Hemoglobina de 12,4 g/dL, plaquetas normais, sem sangramento prévio. Não usa inibidores potentes do CYP3A4 ou da glicoproteína P. Usa omeprazol e losartana. HAS-BLED de 2. Mora com a filha, que organiza os remédios em caixa semanal. Qual é a dose mais adequada de apixabana?",
   "alts": [
-   "A sonda prolonga a sobrevida e previne broncoaspiração em todos os pacientes com demência avançada agora.",
-   "A sonda é obrigatória em todo paciente com demência avançada que apresente qualquer grau de disfagia agora.",
-   "A sonda não melhora sobrevida nem previne aspiração, priorizando sempre alimentação cuidadosa por via oral.",
-   "A sonda elimina completamente o risco de pneumonia e dispensa qualquer cuidado com a higiene oral agora já.",
-   "A sonda melhora a qualidade de vida e reduz lesões por pressão em pacientes com demência avançada agora."
+   "5 mg duas vezes ao dia",
+   "2,5 mg uma vez ao dia",
+   "10 mg duas vezes ao dia por 7 dias, depois 5 mg",
+   "2,5 mg duas vezes ao dia",
+   "Contraindicada pelo clearance abaixo de 50"
+  ],
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESC Guidelines for the management of atrial fibrillation, 2024; bula de apixabana (Eliquis), ANVISA",
+  "coment": "Na fibrilação atrial, a apixabana é reduzida para 2,5 mg duas vezes ao dia quando há pelo menos 2 de 3 critérios: idade de 80 anos ou mais, peso de 60 kg ou menos, creatinina de 1,5 mg/dL ou mais. Ela tem idade e peso, portanto 2 critérios. O clearance isolado não define a redução da apixabana, ao contrário da rivaroxabana e da dabigatrana. Subdosagem fora dos critérios é comum em idosos e aumenta AVC sem reduzir sangramento significativamente. O esquema de 10 mg é da fase inicial do tromboembolismo venoso.",
+  "porAlt": [
+   "Com 2 critérios (idade e peso), a dose deve ser reduzida.",
+   "Dose única diária não é esquema aprovado e deixa proteção insuficiente.",
+   "Esse esquema é do tromboembolismo venoso, não da fibrilação atrial.",
+   "Dois de 3 critérios (80 anos ou mais e 60 kg ou menos): apixabana 2,5 mg duas vezes ao dia.",
+   "Clearance de 38 mL/min não contraindica a apixabana."
+  ]
+ },
+ {
+  "q": "Mulher de 79 anos, independente, caminha 5 km por dia, sem comorbidades além de hipotireoidismo tratado. Nunca fez rastreio de câncer colorretal. Não tem sangramento, anemia, perda de peso ou história familiar. Pelo índice de Lee, a expectativa de vida estimada supera 10 anos. Quer saber se ainda vale a pena rastrear e tem medo do preparo da colonoscopia. Não tem doença cardíaca, pulmonar ou renal, e o sangue oculto nunca foi pesquisado. Qual é a orientação mais adequada?",
+  "alts": [
+   "Decisão compartilhada, com provável benefício",
+   "Não rastrear, pois tem mais de 75 anos",
+   "Colonoscopia anual até os 90 anos",
+   "Apenas antígeno carcinoembrionário anual",
+   "Rastreio só se surgirem sintomas"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "USPSTF Recommendation Statement: Screening for Colorectal Cancer, 2021",
+  "coment": "De 76 a 85 anos, o USPSTF (2021) recomenda decisão individualizada, e quem nunca foi rastreado e tem boa saúde e expectativa de vida longa é quem mais provavelmente se beneficia. Colonoscopia é uma opção; teste imunoquímico fecal (FIT) anual evita preparo e sedação e é alternativa razoável para quem teme o procedimento. CEA não é teste de rastreio. Sintomas indicam investigação diagnóstica, não rastreio.",
+  "porAlt": [
+   "76 a 85 anos, saudável e sem rastreio prévio: decisão compartilhada, com benefício provável, podendo usar FIT.",
+   "A idade isolada acima de 75 anos não exclui benefício em quem nunca rastreou.",
+   "Não há indicação de colonoscopia anual.",
+   "CEA não é teste de rastreio.",
+   "Rastreio é justamente para assintomáticos."
+  ]
+ },
+ {
+  "q": "Homem de 82 anos, independente e que caminhava sozinho, foi internado por celulite de perna. Ficou 5 dias no leito com sonda vesical de demora por conveniência da equipe, sem indicação clínica de repouso. Na alta, precisa de ajuda para levantar e andar, e o Barthel caiu de 95 para 60. Não houve AVC, delirium ou nova doença neurológica. Qual é o diagnóstico da perda funcional e a medida que a teria prevenido?",
+  "alts": [
+   "Sarcopenia primária; suplemento de leucina",
+   "Doença de Parkinson incipiente; levodopa",
+   "Mielopatia cervical; ressonância",
+   "Síndrome de fragilidade; megestrol",
+   "Incapacidade associada à hospitalização; mobilizar cedo"
+  ],
+  "gab": 4,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Covinsky et al., Hospitalization-associated disability, JAMA, 2011; Martínez-Velilla et al., Effect of exercise intervention on functional decline in very elderly patients during acute hospitalization, JAMA Internal Medicine, 2019",
+  "coment": "Incapacidade associada à hospitalização atinge cerca de 30% dos idosos internados, que perdem capacidade para atividades básicas que tinham antes da doença aguda. Repouso no leito e restrições como sonda vesical sem indicação aceleram a perda de força e massa muscular, que no idoso pode chegar a vários por cento por dia. Programas de mobilização precoce e exercício durante a internação (como no estudo de Martínez-Velilla, JAMA Intern Med, 2019) revertem o declínio funcional. Sonda vesical sem indicação também aumenta infecção e delirium.",
+  "porAlt": [
+   "Perda aguda em 5 dias de imobilidade não é sarcopenia primária.",
+   "Não há sinais de parkinsonismo.",
+   "Não há sinais de mielopatia.",
+   "Megestrol é inapropriado e não recupera função.",
+   "Declínio funcional após internação com imobilidade desnecessária: incapacidade associada à hospitalização, prevenível com mobilização precoce."
+  ]
+ },
+ {
+  "q": "Mulher de 82 anos com câncer de mama metastático usa morfina de liberação prolongada 30 mg a cada 12 horas, com dor controlada. Há 8 dias sem evacuar, apesar de polietilenoglicol 17 g duas vezes ao dia e sene há 2 semanas. Toque retal com ampola vazia, sem fecaloma. Abdome distendido, com ruídos presentes, sem vômitos. Radiografia sem sinais de obstrução mecânica. Sem cirurgia abdominal recente. Qual é a conduta mais adequada?",
+  "alts": [
+   "Suspender a morfina",
+   "Fibra dietética em dose alta",
+   "Metilnaltrexona subcutânea",
+   "Enema de fosfato diário",
+   "Naloxona endovenosa em bolus"
   ],
   "gab": 2,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r3",
-  "base": "AGS Feeding Tubes in Advanced Dementia position statement, revisão 2023; Choosing Wisely; ANCP. Manual de Cuidados Paliativos, 2021",
-  "coment": "Em demência avançada, revisões sistemáticas não demonstraram que a alimentação por sonda prolongue a sobrevida, previna aspiração, melhore lesões por pressão ou aumente conforto. A alternativa recomendada é a alimentação assistida cuidadosa por via oral, com consistência adequada, posicionamento correto, higiene oral rigorosa e respeito ao ritmo e à vontade do paciente. A decisão é compartilhada com a família, esclarecendo o que se pode e o que não se pode esperar.",
+  "nivel": "tit",
+  "base": "MASCC Recommendations on the management of constipation in patients with advanced cancer, 2020; ESMO Clinical Practice Guidelines: Diagnosis, assessment and management of constipation in advanced cancer, 2018",
+  "coment": "Constipação induzida por opioide refratária a laxantes osmóticos e estimulantes, sem obstrução mecânica, é indicação de antagonista opioide de ação periférica (PAMORA): metilnaltrexona subcutânea ou naloxegol oral. Eles não atravessam a barreira hematoencefálica e preservam a analgesia. Contraindicação: obstrução intestinal mecânica. Fibra piora a distensão em paciente pouco móvel e com baixa ingestão, e naloxona endovenosa reverte a analgesia e pode precipitar abstinência.",
   "porAlt": [
-   "As revisões sistemáticas não demonstraram ganho de sobrevida nem prevenção de broncoaspiração.",
-   "Não há obrigatoriedade; a indicação é individualizada e frequentemente contraindicada nesse contexto.",
-   "Correta: a sonda não melhora sobrevida nem previne aspiração; prioriza-se alimentação oral cuidadosa.",
-   "A aspiração de secreção oral continua ocorrendo, e a higiene oral segue sendo essencial.",
-   "Não há evidência de melhora de qualidade de vida nem de redução de lesões por pressão com a sonda."
+   "Suspender o opioide descontrola a dor.",
+   "Fibra piora distensão em paciente pouco móvel.",
+   "Constipação por opioide refratária a laxantes, sem obstrução: metilnaltrexona subcutânea.",
+   "Enema de fosfato diário causa distúrbios eletrolíticos graves em idosos.",
+   "Naloxona endovenosa reverte a analgesia e causa abstinência."
   ]
  },
  {
-  "q": "Idoso de 76 anos em uso de cinco medicamentos apresenta hipotensão postural e sonolência. Qual é o passo inicial da desprescrição?",
+  "q": "Homem de 78 anos tem dificuldade progressiva para acompanhar conversas em grupo há 3 anos, liga a televisão em volume alto e deixou de frequentar a igreja. A esposa nota que ele parece esquecido e irritado. Otoscopia sem cerume. MoCA de 24, aplicado com dificuldade de entender as instruções. Audiometria: perda neurossensorial bilateral simétrica de 50 dB nas frequências agudas. Não tem zumbido, vertigem ou otorreia, e a perda não foi súbita. Qual é a conduta mais adequada?",
   "alts": [
-   "Suspender todos os medicamentos simultaneamente na mesma consulta para acelerar a melhora dos sintomas já.",
-   "Identificar o fármaco de maior risco e reduzir um de cada vez, monitorando sempre os sintomas do paciente.",
-   "Manter todos os fármacos e acrescentar um novo para tratar cada sintoma relatado pelo paciente idoso.",
-   "Reduzir apenas metade da dose de todos os medicamentos ao mesmo tempo, sem qualquer priorização agora.",
-   "Encaminhar ao especialista sem qualquer revisão da prescrição feita durante o atendimento atual agora."
-  ],
-  "gab": 1,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "AGS Beers Criteria, 2023; Deprescribing.org, evidence-based deprescribing guidelines, revisão 2023",
-  "coment": "A desprescrição é processo estruturado: listar todos os medicamentos incluindo os de venda livre, identificar os potencialmente inapropriados e sem indicação atual, priorizar aquele com maior risco e menor benefício, reduzir um fármaco por vez de forma gradual e monitorar sintomas de retirada e retorno da condição tratada. Suspender tudo de uma vez impede identificar qual fármaco causava o sintoma e pode precipitar abstinência ou descompensação.",
-  "porAlt": [
-   "Suspender tudo simultaneamente impede identificar o responsável e pode precipitar descompensações.",
-   "Correta: identificar o fármaco de maior risco e reduzir um de cada vez, monitorando os sintomas.",
-   "Acrescentar fármacos para tratar efeitos adversos gera a cascata de prescrição, que é o erro a evitar.",
-   "Reduzir tudo pela metade sem priorizar pode subtratar condições que exigem dose plena.",
-   "O encaminhamento não substitui a revisão da prescrição, que compete ao médico assistente."
-  ]
- },
- {
-  "q": "Paciente de 79 anos, independente, com expectativa de vida acima de dez anos, pergunta sobre rastreio de câncer de mama. Qual é a orientação?",
-  "alts": [
-   "Suspender o rastreio automaticamente aos setenta anos em todas as mulheres, sem qualquer individualização.",
-   "Manter mamografia anual até os cem anos em todas as mulheres, independentemente do estado funcional agora.",
-   "Decisão compartilhada considerando expectativa de vida, preferências e sempre o risco individual da paciente.",
-   "Substituir a mamografia por ultrassonografia anual como método de rastreio nessa faixa etária avançada agora.",
-   "Indicar ressonância magnética anual de mamas como método de rastreio para todas as mulheres idosas agora."
-  ],
-  "gab": 2,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r3",
-  "base": "USPSTF breast cancer screening recommendation, 2024; AGS/ACS guidance on cancer screening in older adults, revisão 2023",
-  "coment": "Acima da faixa etária com evidência direta de benefício, o rastreio de câncer de mama passa a ser decisão individualizada, guiada pela expectativa de vida, o benefício do rastreio leva cerca de dez anos para se materializar, pelo estado funcional, pelas comorbidades e pela preferência da paciente. Suspender automaticamente por idade cronológica é tão inadequado quanto rastrear indefinidamente sem considerar o prognóstico individual.",
-  "porAlt": [
-   "Suspender por idade cronológica isolada ignora a expectativa de vida e o estado funcional real.",
-   "Rastrear indefinidamente expõe a dano imediato quando o benefício não é mais alcançável.",
-   "Correta: decisão compartilhada considerando expectativa de vida, preferências e risco individual.",
-   "A ultrassonografia é complementar e não substitui a mamografia como método de rastreio.",
-   "A ressonância é reservada ao alto risco e não é método de rastreio populacional em idosas."
-  ]
- },
- {
-  "q": "Idoso hospitalizado permanece acamado por três dias sem indicação clínica de repouso. Qual é a principal consequência a prevenir?",
-  "alts": [
-   "Declínio funcional hospitalar, prevenido sempre com mobilização precoce e programa de deambulação assistida.",
-   "Ganho de massa muscular por repouso prolongado, efeito esperado da imobilidade durante a internação agora.",
-   "Melhora da densidade mineral óssea, benefício associado ao repouso no leito durante a internação agora.",
-   "Redução do risco de delirium, efeito protetor do repouso prolongado em pacientes idosos internados agora.",
-   "Aumento da capacidade aeróbica, consequência favorável do repouso no leito em pacientes idosos neste caso."
-  ],
-  "gab": 0,
-  "tema": "geriatria",
-  "cenario": "enf",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "AGS/Hospital Elder Life Program recommendations, revisão 2023; JAMA Internal Medicine review on hospital-associated disability, 2023",
-  "coment": "O declínio funcional associado à hospitalização atinge cerca de um terço dos idosos internados e frequentemente não é recuperado após a alta, levando a dependência e institucionalização. A imobilidade acelera sarcopenia, reduz capacidade aeróbica, favorece delirium, trombose, constipação e lesão por pressão. A prevenção é mobilização precoce, deambulação assistida, retirada de cateteres desnecessários, orientação temporal e estímulo ao autocuidado.",
-  "porAlt": [
-   "Correta: declínio funcional hospitalar, prevenido por mobilização precoce e deambulação assistida.",
-   "O repouso prolongado causa perda muscular acelerada, e não ganho de massa no paciente idoso.",
-   "A imobilidade acelera a perda óssea, em vez de melhorar a densidade mineral do esqueleto.",
-   "A imobilidade é fator de risco para delirium, e não medida protetora contra o quadro confusional.",
-   "O repouso reduz a capacidade aeróbica de forma rápida e expressiva em pacientes idosos."
-  ]
- },
- {
-  "q": "Paciente de 82 anos com constipação crônica em uso de opioide e ferro. Qual é a conduta inicial?",
-  "alts": [
-   "Prescrever apenas fibra em alta dose sem qualquer revisão dos medicamentos em uso pelo paciente agora.",
-   "Revisar medicamentos e prescrever laxante osmótico, orientando sempre hidratação e mobilização adequadas.",
-   "Indicar colonoscopia de urgência a todos os idosos com constipação crônica, sem qualquer outra medida.",
-   "Prescrever enema diário indefinido como principal estratégia de tratamento da constipação crônica agora.",
-   "Suspender abruptamente todos os medicamentos em uso, sem qualquer avaliação individual de cada um agora."
+   "Iniciar donepezila pelo MoCA",
+   "Adaptação de aparelho auditivo e reavaliar cognição",
+   "Ressonância de ouvido interno com urgência",
+   "Corticoide oral por 10 dias",
+   "Orientar que a perda é da idade e não tem tratamento"
   ],
   "gab": 1,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "AGA/ACG Clinical Practice Guideline on chronic idiopathic constipation, 2023; AGS Beers Criteria, 2023",
-  "coment": "No idoso, a constipação frequentemente tem causa medicamentosa: opioides, ferro, anticolinérgicos, bloqueadores de canal de cálcio e antidepressivos tricíclicos. O primeiro passo é revisar a prescrição, seguido de laxante osmótico como polietilenoglicol, hidratação e mobilização. Fibra em alta dose sem hidratação adequada pode agravar o quadro em pacientes com baixa mobilidade. Sinais de alarme como sangramento e perda de peso indicam colonoscopia.",
+  "base": "Livingston et al., Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission; Lin et al., ACHIEVE, Lancet, 2023",
+  "coment": "Perda auditiva é o maior fator de risco modificável para demência segundo a Comissão Lancet (2024), e prejudica a aplicação de testes cognitivos. Presbiacusia bilateral simétrica tem indicação de aparelho auditivo. No ACHIEVE (Lancet, 2023), a intervenção auditiva reduziu o declínio cognitivo em 3 anos nos idosos com maior risco. A cognição deve ser reavaliada com audição corrigida. Assimetria ou perda súbita pediriam ressonância e corticoide.",
   "porAlt": [
-   "Fibra em alta dose sem hidratação pode agravar a constipação no idoso com baixa mobilidade.",
-   "Correta: revisar os medicamentos, prescrever laxante osmótico e orientar hidratação e mobilização.",
-   "A colonoscopia se indica por sinais de alarme, e não para todo idoso com constipação crônica.",
-   "O enema diário indefinido não é estratégia de manejo e pode causar dependência e lesão local.",
-   "Suspender tudo abruptamente pode descompensar condições que exigem tratamento contínuo."
+   "A perda auditiva prejudica o teste; primeiro corrigir a audição.",
+   "Presbiacusia com isolamento social e teste cognitivo prejudicado: aparelho auditivo e reavaliar a cognição.",
+   "Perda simétrica e progressiva não sugere lesão retrococlear.",
+   "Corticoide é para perda neurossensorial súbita.",
+   "Aparelho auditivo trata a perda e pode reduzir o declínio cognitivo."
   ]
  },
  {
-  "q": "Paciente de 78 anos apresenta perda auditiva progressiva bilateral e isolamento social. Qual é a conduta?",
+  "q": "Homem de 85 anos, independente, teve síncope ao subir escadas e angina aos esforços. Sopro sistólico ejetivo rude em foco aórtico, com B2 hipofonética. Ecocardiograma: velocidade de pico de 4,6 m/s, gradiente médio de 52 mmHg, área valvar de 0,7 cm² e fração de ejeção de 58%. STS de 4,5%. Sem demência, fragilidade leve, anatomia iliofemoral favorável na angiotomografia. Creatinina de 1,1 mg/dL, sem doença coronariana grave no cateterismo. Qual é a conduta mais adequada?",
   "alts": [
-   "Aguardar até que a perda auditiva se torne completa antes de qualquer avaliação ou intervenção indicada agora.",
-   "Prescrever apenas lavagem auricular periódica como tratamento definitivo da perda auditiva progressiva agora.",
-   "Indicar implante coclear imediato em todos os pacientes idosos com perda auditiva progressiva bilateral agora já.",
-   "Orientar apenas que familiares falem mais alto, sem qualquer avaliação audiológica ou intervenção neste caso.",
-   "Avaliação audiológica e indicação de aparelho auditivo, prevenindo sempre o isolamento e o declínio cognitivo."
+   "Tratamento clínico com betabloqueador",
+   "Valvoplastia aórtica por balão definitiva",
+   "Vasodilatador para reduzir pós-carga",
+   "Implante transcateter de valva aórtica",
+   "Seguimento com ecocardiograma em 6 meses"
+  ],
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease, 2020; ESC/EACTS Guidelines for valvular heart disease, 2025",
+  "coment": "Estenose aórtica grave (velocidade de 4 m/s ou mais, gradiente médio de 40 mmHg ou mais, área de 1,0 cm² ou menos) sintomática tem indicação de troca valvar, com mortalidade alta sem intervenção após o início dos sintomas. A diretriz ACC/AHA (2020) favorece o implante transcateter acima de 80 anos, com anatomia transfemoral favorável, após decisão com a equipe do coração. Valvoplastia por balão é ponte ou paliativa, e vasodilatador pode precipitar hipotensão grave.",
+  "porAlt": [
+   "Tratamento clínico não muda a sobrevida da estenose grave sintomática.",
+   "Valvoplastia por balão tem reestenose precoce e serve de ponte.",
+   "Vasodilatador pode causar hipotensão grave na estenose aórtica.",
+   "Estenose aórtica grave sintomática aos 85 anos com acesso femoral favorável: implante transcateter.",
+   "Síncope e angina com estenose grave exigem intervenção, não seguimento."
+  ]
+ },
+ {
+  "q": "Mulher de 88 anos com fibrilação atrial permanente, CHA₂DS₂-VASc de 6 e AVC isquêmico prévio há 2 anos, sem sequelas importantes. Teve 2 quedas no último ano, sem traumatismo craniano, por fraqueza e tapetes. Usa AAS por receio do filho de sangramento. Hemoglobina de 12,8 g/dL, clearance de 52 mL/min, pesa 64 kg. HAS-BLED de 3. Mora com o filho, anda com bengala e tem boa adesão. Qual é a conduta mais adequada?",
+  "alts": [
+   "Anticoagulante direto e prevenção de quedas",
+   "Manter AAS, pelo risco de queda",
+   "Não anticoagular pelo HAS-BLED de 3",
+   "AAS associado a clopidogrel",
+   "Varfarina com INR alvo 1,5"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "ESC Guidelines for the management of atrial fibrillation, 2024; Man-Son-Hing et al., Choosing antithrombotic therapy for elderly patients with atrial fibrillation who are at risk for falls, Archives of Internal Medicine, 1999",
+  "coment": "Risco de queda isolado não contraindica anticoagulação: modelagem clássica estimou que seriam necessárias cerca de 295 quedas por ano para o risco de hematoma subdural superar o benefício na prevenção de AVC. AAS não é eficaz para prevenir AVC na fibrilação atrial e sangra de forma semelhante. HAS-BLED alto serve para corrigir fatores modificáveis (como suspender o AAS), não para negar anticoagulação. Anticoagulante oral direto tem menos hemorragia intracraniana que varfarina. Dupla antiagregação sangra tanto quanto e protege menos.",
+  "porAlt": [
+   "Alto risco de AVC com quedas: anticoagulante oral direto, suspendendo o AAS, e plano de prevenção de quedas.",
+   "AAS não previne AVC na fibrilação atrial e também sangra.",
+   "HAS-BLED orienta corrigir fatores de risco, não contraindica.",
+   "Dupla antiagregação protege menos e sangra de forma semelhante.",
+   "INR abaixo de 2 perde eficácia sem reduzir sangramento significativamente."
+  ]
+ },
+ {
+  "q": "Mulher de 90 anos internada por pneumonia está no quarto dia de amoxicilina-clavulanato, afebril, com delirium hipoativo. Aceita menos de 1 copo de água por dia e recusa comida. Sódio de 149 mEq/L, ureia de 92 mg/dL e creatinina de 1,6 mg/dL (basal 1,0). Acesso venoso periférico perdido 3 vezes, veias difíceis. Sem disfagia prévia documentada. Plano de cuidado prevê tratamento pleno. Pressão arterial de 108/62 mmHg, sem sinais de choque. Qual é a conduta mais adequada?",
+  "alts": [
+   "Sonda nasoenteral e dieta plena",
+   "Haloperidol para melhorar a aceitação",
+   "Acesso venoso central para hidratação",
+   "Aguardar a melhora espontânea da aceitação",
+   "Hipodermóclise e investigar causas"
   ],
   "gab": 4,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "Lancet Commission on dementia prevention, intervention and care, 2024; AAO-HNS clinical practice guideline on hearing loss, revisão 2023",
-  "coment": "A perda auditiva não tratada na meia-idade e na velhice é um dos principais fatores de risco modificáveis para demência, além de causar isolamento social, depressão e piora funcional. A conduta é avaliação audiológica e adaptação de aparelho de amplificação sonora individual, que melhora comunicação, participação social e possivelmente desfechos cognitivos. Implante coclear se reserva a perda severa a profunda com benefício insuficiente do aparelho.",
-  "porAlt": [
-   "Aguardar a perda completa desperdiça anos de comunicação e agrava isolamento e risco cognitivo.",
-   "A lavagem auricular trata cerume e não corrige a perda auditiva neurossensorial progressiva.",
-   "O implante coclear se reserva à perda severa a profunda com benefício insuficiente do aparelho.",
-   "Falar mais alto não substitui a amplificação adequada nem resolve a distorção da percepção sonora.",
-   "Correta: avaliação audiológica e adaptação de aparelho auditivo, prevenindo isolamento e declínio."
-  ]
- },
- {
-  "q": "Idoso de 85 anos apresenta síncope durante esforço, com sopro sistólico rude em foco aórtico. Qual é a conduta?",
-  "alts": [
-   "Atribuir a síncope à idade avançada e liberar sem qualquer investigação cardiológica complementar.",
-   "Prescrever apenas hidratação abundante e meias elásticas como tratamento definitivo do quadro descrito.",
-   "Iniciar vasodilatador em dose plena como primeira medida diante do sopro sistólico rude descrito.",
-   "Investigar valvopatia com ecocardiograma e encaminhar sempre para avaliação de substituição valvar.",
-   "Solicitar apenas eletroencefalograma, exame que estabelece o diagnóstico da síncope de esforço descrita."
-  ],
-  "gab": 3,
-  "tema": "geriatria",
-  "cenario": "emg",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "ESC Guidelines for the management of valvular heart disease, 2021; Diretriz Brasileira de Valvopatias, SBC, revisão 2023",
-  "coment": "Síncope aos esforços com sopro sistólico rude em foco aórtico irradiado para carótidas é altamente sugestiva de estenose aórtica grave, condição em que a síncope é um dos três sintomas cardinais e indica prognóstico reservado sem intervenção. A investigação é ecocardiograma, e a presença de sintomas em estenose grave indica substituição valvar, cirúrgica ou por implante transcateter, opção que ampliou o tratamento de pacientes muito idosos.",
-  "porAlt": [
-   "Atribuir à idade uma síncope de esforço com sopro é erro que pode custar a vida do paciente.",
-   "Hidratação e meias tratam síncope neuromediada, e não a obstrução valvar fixa suspeitada aqui.",
-   "O vasodilatador em obstrução fixa pode precipitar hipotensão grave e síncope adicional.",
-   "Correta: investigar com ecocardiograma e encaminhar para avaliação de substituição valvar.",
-   "O eletroencefalograma investiga epilepsia e não avalia a causa cardíaca suspeitada neste caso."
-  ]
- },
- {
-  "q": "Paciente de 88 anos com fibrilação atrial e alto risco de queda pergunta se pode anticoagular. Qual é a orientação?",
-  "alts": [
-   "O risco de queda contraindica de forma absoluta a anticoagulação em todos os pacientes muito idosos.",
-   "A idade acima de oitenta anos por si só contraindica qualquer anticoagulação oral no paciente idoso.",
-   "O antiagregante substitui a anticoagulação com segurança e eficácia equivalentes nesse perfil clínico.",
-   "O risco de queda raramente contraindica anticoagulação, pois o benefício supera sempre o risco estimado.",
-   "A anticoagulação deve ser suspensa após qualquer queda, mesmo sem trauma craniano ou sangramento agora."
-  ],
-  "gab": 3,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r3",
-  "base": "ESC Atrial Fibrillation Guidelines, 2024; AGS Beers Criteria, 2023; Diretriz Brasileira de Fibrilação Atrial, SBC, 2024",
-  "coment": "Análises clássicas estimam que seria necessário um número muito elevado de quedas por ano para que o risco de hemorragia intracraniana superasse o benefício da anticoagulação na prevenção de acidente vascular cerebral. Assim, o risco de queda isolado não contraindica anticoagular: a conduta é anticoagular e trabalhar a prevenção de quedas com avaliação multifatorial, revisão de medicamentos, exercício e adequação do ambiente domiciliar.",
-  "porAlt": [
-   "O risco de queda não é contraindicação absoluta, sendo abordado com prevenção multifatorial.",
-   "A idade avançada aumenta o risco embólico e reforça, e não afasta, o benefício da anticoagulação.",
-   "O antiagregante é claramente inferior à anticoagulação na prevenção de embolia nessa arritmia.",
-   "Correta: o risco de queda raramente contraindica anticoagular, e o benefício em geral supera o risco.",
-   "Suspender após queda sem trauma nem sangramento retira proteção contra evento embólico grave."
-  ]
- },
- {
-  "q": "Paciente de 90 anos com pneumonia e delirium hipoativo apresenta recusa alimentar. Qual é a conduta inicial?",
-  "alts": [
-   "Instalar sonda nasoenteral imediatamente em todos os casos de recusa alimentar durante a internação.",
-   "Prescrever antipsicótico em dose alta para estimular o apetite e reverter a recusa alimentar do paciente.",
-   "Tratar a causa do delirium e oferecer alimentação assistida, avaliando sempre deglutição e conforto.",
-   "Suspender toda hidratação e alimentação até a resolução completa do quadro infeccioso do paciente.",
-   "Prescrever apenas nutrição parenteral total como primeira medida diante da recusa alimentar descrita."
-  ],
-  "gab": 2,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "NICE guideline CG103: Delirium, revisão 2023; ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022",
-  "coment": "A recusa alimentar no idoso com delirium costuma ser manifestação do próprio quadro confusional e da doença de base. A conduta é tratar a causa, aqui a pneumonia, corrigir fatores contribuintes, aplicar medidas não farmacológicas e oferecer alimentação assistida com avaliação de deglutição, ajustando consistência e posicionamento. A via alternativa de nutrição é considerada individualmente, após avaliar prognóstico, objetivos de cuidado e preferências.",
+  "base": "NICE Guideline CG103: Delirium, 2023; Caccialanza et al., Subcutaneous infusion of fluids for hydration or nutrition: a review, JPEN, 2018",
+  "coment": "Desidratação hipernatrêmica e lesão renal pré-renal perpetuam o delirium hipoativo. Em idosos com veias difíceis e desidratação leve a moderada, a hipodermóclise (infusão subcutânea de soro, por exemplo 1 a 1,5 L/dia) é segura, eficaz e evita punções repetidas e cateter central. Simultaneamente, buscam-se as causas do delirium e avalia-se deglutição antes de oferecer via oral. Antipsicótico não trata delirium hipoativo. Sonda nasoenteral na fase aguda aumenta agitação, contenção e aspiração.",
   "porAlt": [
-   "A sonda imediata em toda recusa ignora que o quadro costuma reverter com o tratamento da causa.",
-   "O antipsicótico não estimula apetite e aumenta mortalidade quando usado de rotina no idoso.",
-   "Correta: tratar a causa do delirium e oferecer alimentação assistida com avaliação de deglutição.",
-   "Suspender hidratação e alimentação não é conduta terapêutica e agrava o quadro do paciente.",
-   "A nutrição parenteral tem indicações restritas e não é a primeira medida diante desse quadro."
+   "Sonda nasoenteral na fase aguda do delirium aumenta agitação e aspiração.",
+   "Antipsicótico não trata delirium hipoativo.",
+   "Cateter central expõe a riscos desnecessários quando há via subcutânea.",
+   "Esperar agrava a desidratação e o delirium.",
+   "Desidratação com veias difíceis: hipodermóclise, buscando as causas do delirium."
   ]
  },
  {
@@ -20808,123 +20808,123 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente idoso com sarcopenia e perda de massa muscular progressiva. Qual é a intervenção com melhor evidência?",
+  "q": "Mulher de 81 anos refere dificuldade para levantar da cadeira e abrir potes. SARC-F de 6. Força de preensão de 14 kg. Teste de levantar da cadeira 5 vezes em 17 segundos. Velocidade de marcha de 0,7 m/s. Índice de massa corporal de 24 kg/m². DXA com massa muscular apendicular de 5,1 kg (índice abaixo do corte para mulheres). Sem doença neurológica, hipotireoidismo ou uso de corticoide. Pelo EWGSOP2, qual é a classificação?",
   "alts": [
-   "Repouso prolongado com dieta hipocalórica como estratégia principal de manejo da sarcopenia no idoso neste caso.",
-   "Suplementação isolada de vitamina C em dose alta como intervenção de escolha para a sarcopenia descrita agora.",
-   "Uso de anabolizante hormonal contínuo como primeira linha de tratamento da sarcopenia em pacientes idosos agora.",
-   "Restrição proteica rigorosa da dieta para reduzir a sobrecarga renal do paciente idoso com sarcopenia agora.",
-   "Exercício resistido progressivo com aporte proteico adequado, mantendo sempre acompanhamento nutricional regular."
-  ],
-  "gab": 4,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "EWGSOP2 consensus on sarcopenia, 2019 com revisão 2023; ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022",
-  "coment": "A sarcopenia é definida por baixa força muscular associada a baixa quantidade ou qualidade de músculo, com desempenho físico reduzido indicando gravidade. A intervenção com melhor evidência é o exercício resistido progressivo, associado a aporte proteico adequado, tipicamente de 1,0 a 1,2 gramas por quilo ao dia no idoso saudável e mais em situações de doença. Avalia-se também vitamina D, causas secundárias e revisão de medicamentos que contribuem.",
-  "porAlt": [
-   "Repouso e restrição calórica aceleram a perda de massa muscular no paciente idoso sarcopênico.",
-   "A vitamina C isolada não tem evidência de benefício no tratamento da sarcopenia do idoso.",
-   "Anabolizantes não são primeira linha e trazem efeitos adversos relevantes nessa população.",
-   "A restrição proteica agrava a sarcopenia; o idoso necessita de aporte proteico maior, não menor.",
-   "Correta: exercício resistido progressivo com aporte proteico adequado e acompanhamento nutricional."
-  ]
- },
- {
-  "q": "Paciente idoso com múltiplas comorbidades apresenta prescrição com potencial interação medicamentosa grave. Qual é a conduta?",
-  "alts": [
-   "Manter a prescrição inalterada e apenas orientar o paciente a observar o surgimento de efeitos adversos agora.",
-   "Acrescentar um novo fármaco para tratar cada efeito adverso que surgir da interação identificada nesse contexto.",
-   "Suspender todos os medicamentos simultaneamente, sem qualquer avaliação individual de cada indicação neste caso.",
-   "Encaminhar ao especialista sem qualquer revisão da prescrição durante o atendimento realizado hoje neste caso.",
-   "Revisar a prescrição e ajustar ou substituir os fármacos envolvidos, priorizando sempre segurança e benefício real."
-  ],
-  "gab": 4,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "AGS Beers Criteria, 2023; STOPP/START version 3, 2023",
-  "coment": "A revisão de prescrição no idoso com polifarmácia identifica interações, duplicidades, fármacos sem indicação atual e cascatas de prescrição. A conduta é ajustar doses, substituir por alternativas mais seguras ou suspender de forma gradual o que não traz benefício, sempre pactuando com o paciente e reavaliando. Acrescentar fármaco para tratar efeito adverso de outro é a cascata de prescrição, um dos erros mais comuns e evitáveis na geriatria.",
-  "porAlt": [
-   "Manter a prescrição com interação grave conhecida expõe o paciente a dano previsível e evitável.",
-   "Acrescentar fármacos para tratar efeitos adversos configura a cascata de prescrição a ser evitada.",
-   "Suspender tudo simultaneamente impede identificar responsabilidades e pode descompensar condições.",
-   "O encaminhamento não substitui a revisão da prescrição, que compete ao médico assistente.",
-   "Correta: revisar a prescrição e ajustar ou substituir os fármacos, priorizando segurança e benefício real."
-  ]
- },
- {
-  "q": "Paciente idoso com dor crônica não oncológica pergunta sobre opioide de uso contínuo. Qual é a orientação?",
-  "alts": [
-   "Iniciar opioide potente de uso contínuo como primeira linha para toda dor crônica não oncológica no idoso neste caso.",
-   "Não oferecer qualquer tratamento para a dor crônica no idoso, dada a ausência de opções seguras disponíveis agora.",
-   "Prescrever anti-inflamatório não hormonal contínuo em dose alta como primeira escolha no paciente idoso neste caso.",
-   "Prescrever benzodiazepínico contínuo como tratamento de escolha da dor crônica não oncológica no idoso neste caso.",
-   "Priorizar medidas não farmacológicas e analgésicos mais seguros, reservando sempre o opioide a situações selecionadas."
-  ],
-  "gab": 4,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "CDC Clinical Practice Guideline for Prescribing Opioids for Pain, 2022; AGS Beers Criteria, 2023",
-  "coment": "Na dor crônica não oncológica, as diretrizes priorizam tratamento não farmacológico (exercício, fisioterapia, terapia cognitivo-comportamental) e fármacos não opioides, com opioide reservado a casos selecionados em que o benefício supera os riscos, na menor dose e pelo menor tempo, com metas funcionais definidas. No idoso, anti-inflamatórios contínuos trazem risco digestivo, renal e cardiovascular, e benzodiazepínicos combinados a opioides aumentam a mortalidade.",
-  "porAlt": [
-   "O opioide não é primeira linha na dor crônica não oncológica e traz riscos relevantes no idoso.",
-   "Existem opções seguras e eficazes, e não tratar a dor crônica prejudica função e qualidade de vida.",
-   "Anti-inflamatórios contínuos no idoso trazem risco digestivo, renal e cardiovascular importante.",
-   "O benzodiazepínico não é analgésico e sua associação a opioides aumenta a mortalidade.",
-   "Correta: priorizar medidas não farmacológicas e analgésicos mais seguros, com opioide em casos selecionados."
-  ]
- },
- {
-  "q": "Paciente idoso institucionalizado apresenta perda de peso não intencional de 8% em seis meses. Qual é a conduta?",
-  "alts": [
-   "Atribuir a perda de peso exclusivamente ao envelhecimento e não realizar qualquer investigação adicional.",
-   "Iniciar imediatamente nutrição parenteral total em todos os idosos com perda de peso não intencional agora.",
-   "Prescrever apenas estimulante de apetite sem qualquer investigação das causas da perda ponderal observada.",
-   "Indicar sonda nasoenteral imediatamente em todos os casos de perda de peso não intencional no idoso agora.",
-   "Investigar causas clínicas, medicamentosas e sociais, avaliando sempre deglutição, humor e acesso ao alimento."
-  ],
-  "gab": 4,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022; AGS guidance on unintentional weight loss, revisão 2023",
-  "coment": "Perda de peso não intencional acima de cinco por cento em seis meses é sinal de alarme e exige investigação sistemática: neoplasia, infecção crônica, doença tireoidiana, depressão, demência, disfagia, dor, saúde bucal precária, fármacos que reduzem apetite ou alteram o paladar, e fatores sociais como insegurança alimentar e isolamento. A abordagem é multidimensional, e intervenções nutricionais invasivas só entram após identificar e tratar as causas reversíveis.",
-  "porAlt": [
-   "A perda de peso não é parte do envelhecimento normal e sempre exige investigação sistemática.",
-   "A nutrição parenteral tem indicações restritas e não é a resposta inicial à perda ponderal.",
-   "O estimulante de apetite sem investigar mascara a causa e não corrige o problema de base.",
-   "A sonda não é conduta inicial e não substitui a investigação das causas reversíveis da perda.",
-   "Correta: investigar causas clínicas, medicamentosas e sociais, avaliando deglutição, humor e acesso ao alimento."
-  ]
- },
- {
-  "q": "Paciente idoso com doença avançada e prognóstico limitado tem múltiplos medicamentos preventivos de longo prazo. Qual é a conduta?",
-  "alts": [
-   "Manter todos os medicamentos preventivos indefinidamente, independentemente do prognóstico do paciente idoso agora.",
-   "Suspender abruptamente todos os medicamentos, incluindo os que controlam sintomas do paciente com doença avançada.",
-   "Desprescrever preventivos cujo benefício excede a expectativa de vida, mantendo sempre o foco em sintomas e conforto.",
-   "Acrescentar novos medicamentos preventivos para reduzir o risco cardiovascular de longo prazo do paciente agora já.",
-   "Manter apenas os medicamentos preventivos e suspender os que controlam sintomas para reduzir a polifarmácia agora."
+   "Sarcopenia provável, sem confirmação",
+   "Sarcopenia confirmada",
+   "Sarcopenia grave",
+   "Fragilidade isolada, sem sarcopenia",
+   "Força normal, sem sarcopenia"
   ],
   "gab": 2,
   "tema": "geriatria",
   "cenario": "amb",
-  "comp": "prev",
+  "comp": "dx",
   "nivel": "r3",
-  "base": "AGS Beers Criteria, 2023; Deprescribing.org guidelines, revisão 2023; ANCP. Manual de Cuidados Paliativos, 2021",
-  "coment": "Medicamentos preventivos têm tempo até o benefício: estatina em prevenção primária, bisfosfonato e controle glicêmico rígido levam anos para produzir ganho. Quando a expectativa de vida é menor que esse intervalo, o paciente carrega os efeitos adversos e o custo sem alcançar o benefício, e a desprescrição é apropriada. Já os fármacos que controlam sintomas (analgésicos, antieméticos, broncodilatadores) devem ser mantidos ou otimizados.",
+  "base": "Cruz-Jentoft et al., Sarcopenia: revised European consensus on definition and diagnosis (EWGSOP2), Age and Ageing, 2019",
+  "coment": "O EWGSOP2 (2019) define sarcopenia provável pela força baixa (preensão abaixo de 16 kg em mulheres ou levantar da cadeira 5 vezes em mais de 15 segundos), confirmada pela massa muscular baixa (DXA ou bioimpedância) e grave quando há também desempenho físico baixo (velocidade de marcha de 0,8 m/s ou menos, entre outros). Ela preenche os 3. O tratamento é treino de resistência progressivo com aporte proteico adequado (1,0 a 1,2 g/kg/dia), sem fármaco aprovado.",
   "porAlt": [
-   "Manter todos os preventivos entrega efeitos adversos sem alcançar o benefício, que é tardio.",
-   "Suspender tudo abruptamente inclui fármacos de sintomas e provoca sofrimento evitável.",
-   "Correta: desprescrever preventivos cujo benefício excede a expectativa, focando em sintomas e conforto.",
-   "Acrescentar preventivos com prognóstico limitado amplia a polifarmácia sem qualquer ganho.",
-   "Inverter as prioridades retira justamente o que traz alívio e mantém o que não trará benefício."
+   "A massa muscular baixa já confirma o diagnóstico.",
+   "Confirmada, mas o desempenho físico baixo a torna grave.",
+   "Força baixa, massa baixa e marcha de 0,7 m/s: sarcopenia grave pelo EWGSOP2.",
+   "Sarcopenia e fragilidade podem coexistir; aqui os critérios de sarcopenia estão presentes.",
+   "Preensão de 14 kg está abaixo do corte de 16 kg para mulheres."
+  ]
+ },
+ {
+  "q": "Homem de 79 anos com insuficiência cardíaca de fração reduzida usa enalapril 10 mg duas vezes ao dia, espironolactona 25 mg e carvedilol. Potássio de 5,0 mEq/L e clearance de 42 mL/min. Tem cistite não complicada (disúria, polaciúria, sem febre ou dor lombar), e a urocultura anterior mostrou Escherichia coli sensível a sulfametoxazol-trimetoprima, nitrofurantoína e fosfomicina. Pesa 70 kg e não tem alergias conhecidas. Qual é o antibiótico mais adequado?",
+  "alts": [
+   "Sulfametoxazol-trimetoprima por 3 dias",
+   "Ciprofloxacino por 7 dias",
+   "Sulfametoxazol-trimetoprima em dose dobrada",
+   "Fosfomicina 3 g dose única",
+   "Amoxicilina por 7 dias"
+  ],
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AGS Beers Criteria, 2023 (interações fármaco-fármaco); IDSA Guideline for Acute Uncomplicated Cystitis and Pyelonephritis in Women, 2011",
+  "coment": "Trimetoprima bloqueia o canal epitelial de sódio no néfron distal, como a amilorida, e reduz a excreção de potássio. Somado a IECA e espironolactona, com clearance reduzido e potássio já de 5,0, causa hipercalemia grave e aumento de morte súbita (Beers 2023 lista essa interação). Fosfomicina em dose única é segura aqui. Nitrofurantoína é aceitável acima de 30 mL/min pelo Beers 2023, mas fosfomicina evita a questão. Fluoroquinolona tem efeitos adversos graves em idosos e deve ser poupada na cistite.",
+  "porAlt": [
+   "Trimetoprima com IECA e espironolactona causa hipercalemia grave.",
+   "Fluoroquinolona deve ser poupada na cistite pelos efeitos adversos graves.",
+   "Dose maior de trimetoprima agrava ainda mais a hipercalemia.",
+   "Cistite em idoso com IECA, espironolactona e potássio limítrofe: fosfomicina dose única, evitando trimetoprima.",
+   "Amoxicilina tem alta resistência em Escherichia coli."
+  ]
+ },
+ {
+  "q": "Mulher de 80 anos tem dor crônica no joelho direito por osteoartrite, que limita suas caminhadas. Usou paracetamol 3 g/dia com pouco alívio. Tem hipertensão controlada, clearance de 48 mL/min e história de hemorragia digestiva há 5 anos. Pede tramadol, que uma vizinha usa. Sem derrame articular importante. Índice de massa corporal de 29 kg/m². Não tem dispepsia atual e mora sozinha, independente. Qual é o tratamento farmacológico mais adequado para o próximo passo?",
+  "alts": [
+   "Diclofenaco tópico no joelho",
+   "Tramadol 50 mg a cada 6 horas contínuo",
+   "Naproxeno oral 500 mg duas vezes ao dia",
+   "Oxicodona de liberação prolongada",
+   "Prednisona 10 mg/dia"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACR/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, 2019; CDC Clinical Practice Guideline for Prescribing Opioids for Pain, 2022",
+  "coment": "O ACR (2019) recomenda fortemente AINE tópico na osteoartrite de joelho, que é preferível ao oral em idosos pela absorção sistêmica baixa e menor risco gastrointestinal, renal e cardiovascular. Com história de hemorragia digestiva e clearance reduzido, AINE oral é inapropriado. O ACR recomenda contra opioides de longo prazo; tramadol aumenta quedas, delirium, hiponatremia e hipoglicemia em idosos. Exercício, perda de peso e infiltração com corticoide complementam.",
+  "porAlt": [
+   "Osteoartrite de joelho em idosa de risco: diclofenaco tópico, somado a exercício e perda de peso.",
+   "Opioide contínuo tem mais dano que benefício na osteoartrite.",
+   "AINE oral com hemorragia digestiva prévia e clearance reduzido é inapropriado.",
+   "Opioide forte de uso contínuo não é indicado na osteoartrite.",
+   "Corticoide oral não é recomendado na osteoartrite."
+  ]
+ },
+ {
+  "q": "Mulher de 85 anos, moradora de instituição de longa permanência, perdeu 8% do peso em 6 meses. Tem demência moderada, próteses dentárias mal adaptadas, come sozinha no quarto e deixa metade do prato. Iniciou donepezila há 5 meses. GDS-15 aplicada pela cuidadora sugere sintomas depressivos. TSH, glicemia, hemograma e função renal normais. Sem disfagia à avaliação fonoaudiológica. Pesa 46 kg e tem albumina de 3,4 g/dL. Qual é a conduta mais adequada?",
+  "alts": [
+   "Megestrol 400 mg/dia para apetite",
+   "Gastrostomia para nutrição plena",
+   "Dronabinol para estimular o apetite",
+   "Tomografia de corpo inteiro para neoplasia oculta",
+   "Corrigir prótese, assistir refeições, rever donepezila"
+  ],
+  "gab": 4,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESPEN Guideline on clinical nutrition and hydration in geriatrics, 2022; AGS Beers Criteria, 2023",
+  "coment": "Perda de peso não intencional em idosos institucionalizados costuma ser multifatorial: saúde bucal, comer sozinho, falta de assistência, depressão e medicamentos (inibidores de colinesterase causam anorexia e perda de peso). A conduta é corrigir os fatores tratáveis: ajuste de próteses, refeições assistidas em grupo, suplementos orais, revisão da donepezila e tratamento da depressão (mirtazapina pode ajudar apetite e sono). Megestrol e dronabinol têm efeitos adversos importantes e estão no Beers. Investigação ampla de neoplasia sem sinais direcionadores tem baixo rendimento.",
+  "porAlt": [
+   "Megestrol aumenta trombose e mortalidade, e o ganho é sobretudo de gordura e líquido.",
+   "Gastrostomia não é indicada na demência sem esgotar causas tratáveis.",
+   "Dronabinol causa sedação e confusão em idosos.",
+   "Rastreio amplo sem sinais direcionadores tem baixo rendimento.",
+   "Perda de peso multifatorial: ajustar prótese, refeições assistidas, rever donepezila e tratar depressão."
+  ]
+ },
+ {
+  "q": "Homem de 84 anos com câncer de pulmão metastático em progressão, sem mais tratamento oncológico, expectativa de vida estimada em 3 meses, PPS de 40%. Usa atorvastatina 40 mg (prevenção primária), alendronato, AAS 100 mg sem doença cardiovascular, vitamina D e omeprazol. Tem disfagia leve para comprimidos grandes e quer tomar menos remédios. Sem dispepsia. Mora com a esposa e está lúcido, capaz de decidir. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter todos os preventivos",
+   "Trocar a atorvastatina por rosuvastatina",
+   "Suspender estatina, alendronato e AAS",
+   "Suspender o omeprazol e manter o restante",
+   "Aumentar a estatina para dose alta"
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Kutner et al., Safety and benefit of discontinuing statin therapy in the setting of advanced, life-limiting illness, JAMA Internal Medicine, 2015; STOPPFrail version 2, 2021",
+  "coment": "Com prognóstico de meses, fármacos cujo benefício leva anos (estatina em prevenção primária, bisfosfonato, AAS em prevenção primária) deixam de trazer ganho e aumentam carga de comprimidos e efeitos adversos. No ensaio de Kutner (JAMA Intern Med, 2015), suspender estatina em pacientes com expectativa de vida limitada foi seguro e melhorou a qualidade de vida. Alendronato tem risco de lesão esofágica com disfagia. O foco passa a ser controle de sintomas. Omeprazol sem indicação também pode ser retirado.",
+  "porAlt": [
+   "Preventivos de benefício tardio não ajudam com prognóstico de meses.",
+   "Trocar a estatina mantém tratamento sem benefício.",
+   "Prognóstico de meses: suspender estatina, alendronato e AAS de prevenção primária.",
+   "Mantém os fármacos de maior carga e menor benefício.",
+   "Intensificar estatina não tem sentido nesse prognóstico."
   ]
  },
  {
@@ -21648,27 +21648,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente idoso hospitalizado apresenta constipação, retenção urinária e confusão após início de novo fármaco. Qual é a hipótese?",
+  "q": "Homem de 83 anos com hiperplasia prostática, internado por fratura de úmero, recebeu oxibutinina 5 mg três vezes ao dia há 3 dias por urgência miccional e prometazina à noite para dormir. Agora tem confusão flutuante, boca seca, pele quente, pupilas dilatadas, constipação e retenção urinária de 900 mL. Temperatura de 37,6 °C, frequência cardíaca de 108 bpm. Sem sinais de infecção. Qual é a hipótese e a conduta mais adequada?",
   "alts": [
-   "Efeito anticolinérgico do novo fármaco, exigindo sempre revisão da prescrição e suspensão do agente responsável.",
-   "Progressão natural da demência, hipótese mais provável diante do surgimento agudo desses sintomas no idoso.",
-   "Infecção urinária isolada, causa exclusiva da constipação e da retenção urinária surgidas após o novo fármaco.",
-   "Desidratação leve isolada, causa habitual de confusão com retenção urinária após introdução de novo medicamento.",
-   "Envelhecimento fisiológico normal, que explica integralmente o conjunto de sintomas surgidos de forma aguda."
+   "Síndrome anticolinérgica; suspender e sondar",
+   "Sepse urinária; antibiótico de amplo espectro",
+   "Síndrome serotoninérgica; ciproeptadina",
+   "Síndrome neuroléptica maligna; dantroleno",
+   "Demência de início agudo; donepezila"
   ],
   "gab": 0,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "AGS Beers Criteria, 2023; anticholinergic burden scales; NICE guideline CG103, Delirium, revisão 2023",
-  "coment": "A tríade de constipação, retenção urinária e confusão após introdução de fármaco aponta carga anticolinérgica, efeito de antidepressivos tricíclicos, anti-histamínicos de primeira geração, antipsicóticos, antiespasmódicos, antimuscarínicos urinários e relaxantes musculares. No idoso, esses fármacos causam delirium, quedas, boca seca, visão turva e declínio cognitivo, e constam dos critérios de Beers. A conduta é revisar a prescrição e suspender ou substituir o agente responsável.",
+  "base": "AGS Beers Criteria, 2023; NICE Guideline CG103: Delirium, 2023",
+  "coment": "Delirium, boca e pele secas e quentes, midríase, taquicardia, retenção urinária e constipação após oxibutinina e prometazina configuram síndrome anticolinérgica, agravada pela hiperplasia prostática. A carga anticolinérgica cumulativa (escalas como ACB) é o que importa: ambos estão no Beers. A conduta é suspender os fármacos, esvaziar a bexiga, tratar a constipação e aplicar medidas para delirium. Fisostigmina fica para casos graves selecionados, com monitorização. Síndrome serotoninérgica e neuroléptica maligna cursam com sudorese, rigidez ou clônus.",
   "porAlt": [
-   "Correta: efeito anticolinérgico do novo fármaco, exigindo revisão da prescrição e suspensão do agente.",
-   "A demência progride ao longo de meses a anos, e não com início agudo após introdução de fármaco.",
-   "A infecção urinária deve ser afastada, mas não explica a relação temporal com o novo fármaco.",
-   "A desidratação pode contribuir, mas a relação temporal aponta diretamente o fármaco introduzido.",
-   "O envelhecimento normal não produz retenção urinária e confusão de instalação aguda."
+   "Delirium, pele seca, midríase, retenção e constipação após 2 anticolinérgicos: suspender e sondar.",
+   "Sem foco infeccioso, os achados se explicam pelos fármacos.",
+   "Síndrome serotoninérgica tem sudorese, clônus e hiper-reflexia.",
+   "Não há exposição a antipsicótico nem rigidez.",
+   "Demência não tem início agudo em 3 dias."
   ]
  },
  {
@@ -21888,27 +21888,27 @@ window.BANCO=[
   ]
  },
  {
-  "q": "Paciente idoso com quedas recorrentes em uso de quatro fármacos com risco de queda. Qual é a conduta prioritária?",
+  "q": "Mulher de 80 anos teve 3 quedas em 4 meses, uma com fratura de costela. Usa zolpidem 10 mg à noite, doxazosina 4 mg (introduzida para hipertensão), paroxetina 20 mg para ansiedade e metoprolol. Pressão 132/78 mmHg sentada e 108/66 mmHg em pé. Frequência de 62 bpm. Visão corrigida, sem neuropatia. Clearance de 58 mL/min. Mora sozinha, anda sem apoio e quer manter a independência. Qual é a conduta prioritária em relação aos medicamentos?",
   "alts": [
-   "Manter todos os fármacos e apenas orientar o paciente a caminhar menos dentro do próprio domicílio agora.",
-   "Prescrever cadeira de rodas para todos os pacientes idosos com quedas recorrentes e polifarmácia associada.",
-   "Desprescrever de forma gradual os fármacos de maior risco, associando sempre exercício de força e equilíbrio.",
-   "Acrescentar novo fármaco para tratar cada sintoma que surgir durante a investigação das quedas recorrentes.",
-   "Suspender todos os medicamentos simultaneamente na mesma consulta sem qualquer priorização individual agora."
+   "Manter os fármacos e iniciar vitamina D",
+   "Retirar gradualmente os que causam queda",
+   "Trocar zolpidem por clonazepam 2 mg",
+   "Suspender apenas o metoprolol",
+   "Trocar paroxetina por amitriptilina"
   ],
-  "gab": 2,
+  "gab": 1,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "World Falls Guidelines, 2022; AGS Beers Criteria, 2023",
-  "coment": "Fármacos que aumentam o risco de queda (benzodiazepínicos, antipsicóticos, antidepressivos, anti-hipertensivos com hipotensão postural, hipoglicemiantes com risco de hipoglicemia, opioides e anticolinérgicos) são alvo prioritário na prevenção. A desprescrição é gradual e priorizada, um fármaco por vez, associada à intervenção com melhor evidência: exercício estruturado com componentes de força e equilíbrio, além de adequação do ambiente, visão e calçado.",
+  "base": "World Guidelines for Falls Prevention and Management for Older Adults, Age and Ageing, 2022; STOPPFall, European Geriatric Medicine, 2021",
+  "coment": "Fármacos que aumentam o risco de queda (FRIDs) são o fator de risco mais modificável em quedas recorrentes. A diretriz mundial de quedas (2022) recomenda revisão estruturada (STOPPFall) e retirada ou redução. Aqui: doxazosina (alfabloqueador, causa a hipotensão ortostática e não é anti-hipertensivo preferido em idosos), zolpidem (hipnótico Z, quedas e fraturas, retirada gradual) e paroxetina (anticolinérgica, troca por antidepressivo mais seguro ou psicoterapia). Clonazepam e amitriptilina aumentam ainda mais o risco.",
   "porAlt": [
-   "Manter os fármacos e restringir a marcha agrava a sarcopenia e aumenta o risco de novas quedas.",
-   "A cadeira de rodas acelera o descondicionamento e retira a mobilidade ainda preservada do idoso.",
-   "Correta: desprescrever gradualmente os fármacos de maior risco, com exercício de força e equilíbrio.",
-   "Acrescentar fármacos configura cascata de prescrição e amplia o risco de queda do paciente.",
-   "Suspender tudo de uma vez impede identificar responsabilidades e pode precipitar descompensações."
+   "Vitamina D não compensa fármacos que causam quedas.",
+   "Quedas recorrentes com FRIDs: retirar gradualmente doxazosina, zolpidem e paroxetina, começando pela doxazosina.",
+   "Clonazepam também aumenta quedas e tem meia-vida longa.",
+   "Metoprolol não é a principal causa da ortostase.",
+   "Amitriptilina é mais anticolinérgica e piora o risco de queda."
   ]
  },
  {
