@@ -59,6 +59,23 @@
     if(location.hash){var el=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(el)el.scrollIntoView()}
   });
 
+  /* Tabelas de várias colunas mantêm uma largura de leitura útil no celular. */
+  function preparaTabelas(){
+    document.querySelectorAll("table").forEach(function(t){
+      var larga=Array.from(t.rows).some(function(r){return r.cells.length>=3});
+      if(!larga)return;
+      t.classList.add("tabelaLarga");
+      var caixa=t.parentElement;
+      if(!caixa.classList.contains("rolagem")){
+        caixa=document.createElement("div");caixa.className="rolagem";
+        t.parentNode.insertBefore(caixa,t);caixa.appendChild(t);
+      }
+      caixa.tabIndex=0;caixa.setAttribute("role","region");
+      caixa.setAttribute("aria-label","Tabela com rolagem horizontal");
+    });
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",preparaTabelas);else preparaTabelas();
+
   /* ---- mermaid ---- */
   var carregando=false, pronto=false;
   function escuro(){return document.documentElement.getAttribute("data-tema")==="escuro"||

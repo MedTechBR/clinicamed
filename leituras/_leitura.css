@@ -45,23 +45,23 @@ html.embutida .toc{display:none}
 .chave{border-color:var(--ok)}
 .armadilha{border-color:var(--err)}
 .nota{border-color:var(--linhaF)}
-.cx b{display:block;margin-bottom:4px}
+.cx > b:first-child{display:block;margin-bottom:4px}
 .cx p:last-child{margin-bottom:0}
 /* questão-âncora: mini-caso no fim da seção */
 .ancora{border-left:3px solid var(--ink2);padding:10px 16px;margin:16px 0;font-size:17px}
-.ancora b{display:block;color:var(--ink2);font:600 14px var(--sans);margin-bottom:4px}
+.ancora > b:first-child{display:block;color:var(--ink2);font:600 14px var(--sans);margin-bottom:4px}
 .ancora details{border:0;background:transparent;padding:0;margin:6px 0 0}
 .ancora summary{color:var(--brandInk);font:15px var(--sans)}
 /* abordagem sindrômica: perguntar / examinar / pedir */
 .sind{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:14px 0}
-.sind div{background:transparent;border:0;border-top:2px solid var(--ink);border-radius:0;padding:8px 0;font-size:16px}
-.sind div b{display:block;font:600 14px var(--sans);margin-bottom:6px}
+.sind > div{background:transparent;border:0;border-top:2px solid var(--ink);border-radius:0;padding:8px 0;font-size:16px}
+.sind > div > b:first-child{display:block;font:600 14px var(--sans);margin-bottom:6px}
 .sind ul{margin:0;padding-left:18px}
 .sind li{margin:3px 0}
 /* comparação lado a lado */
 .compara{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:14px 0}
-.compara div{background:transparent;border-top:2px solid var(--ink);border-radius:0;padding:8px 0;font-size:16px}
-.compara div b:first-child{display:block;margin-bottom:6px;font-size:15px}
+.compara > div{background:transparent;border-top:2px solid var(--ink);border-radius:0;padding:8px 0;font-size:16px}
+.compara > div > b:first-child{display:block;margin-bottom:6px;font-size:15px}
 /* tabelas */
 table{border-collapse:collapse;width:100%;font:15px/1.45 var(--sans);margin:14px 0}
 th,td{text-align:left;padding:8px 10px 8px 0;border-bottom:1px solid var(--linha);vertical-align:top}
@@ -96,7 +96,7 @@ html[data-tema="escuro"] .vaiQuestoes{color:#0E1414}
 .passos li{counter-increment:p;position:relative;padding:0 0 0 30px;margin:10px 0}
 .passos li::before{content:counter(p) ".";position:absolute;left:0;top:0;font-weight:700;color:var(--ink)}
 .dose{background:transparent;border:0;border-left:3px solid var(--ink2);border-radius:0;padding:4px 16px;margin:14px 0;font-size:17px}
-.dose b{display:block;margin-bottom:6px}
+.dose > b:first-child{display:block;margin-bottom:6px}
 .dose ul{margin:0;padding-left:18px}
 /* fluxograma (mermaid) e figura */
 .fluxo{background:transparent;border:0;border-top:1px solid var(--linha);border-radius:0;padding:16px 0 6px;margin:26px 0;overflow-x:auto}
@@ -130,3 +130,11 @@ html[data-tema="escuro"] .fig img{outline:1px solid var(--linhaF);outline-offset
 /* âncora copiável no h2 */
 h2 .lnk{opacity:0;margin-left:6px;font-size:14px;color:var(--ink2);text-decoration:none;cursor:pointer}
 h2:hover .lnk{opacity:.8}
+
+/* Evita comprimir doses e comparações em colunas de poucas letras. */
+.rolagem{max-width:100%}
+.rolagem:focus-visible{outline:2px solid var(--brand);outline-offset:3px}
+@media(max-width:600px){
+ .tabelaLarga{min-width:560px}
+ .rolagem:has(.tabelaLarga)::before{content:"Deslize para ver todas as colunas →";display:block;font:12px/1.5 var(--sans);color:var(--ink2);padding:6px 0}
+}

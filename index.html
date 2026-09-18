@@ -486,14 +486,14 @@ details{border-top:1px solid var(--linha)}
 .alt.errada,.alt.errada[disabled]:hover{background:var(--errSup);border-color:var(--err);box-shadow:none}
 .alt.certa .let,.alt.certa[disabled]:hover .let{background:var(--ok);color:#fff}
 .alt.errada .let,.alt.errada[disabled]:hover .let{background:var(--err);color:#fff}
-.alt[disabled]:not(.certa):not(.errada){opacity:.72}
+.alt[disabled]:not(.certa):not(.errada){opacity:1}
 .expl{font:14px/1.55 var(--sans);margin:-4px 0 4px 58px;color:var(--ink2)}
 .coment{border:0;background:var(--sup2);border-radius:14px;padding:18px 20px;margin-top:20px;font:15.5px/1.65 var(--sans)}
 .coment>b:first-child{display:block;font-size:16px;margin-bottom:6px}
 .coment.ok>b:first-child{color:var(--ok)}.coment.er>b:first-child{color:var(--err)}
 .coment .base{font-size:13px}
 .qPe{display:flex;align-items:center;gap:10px;margin-top:22px;padding-top:18px;border-top:1px solid var(--linha)}
-.qPe .atalhos{margin-left:auto;font-size:12.5px;color:var(--ink3);display:flex;gap:6px;align-items:center}
+.qPe .atalhos{margin-left:auto;font-size:12.5px;color:var(--ink2);display:flex;gap:6px;align-items:center}
 
 /* ---------- filtros ---------- */
 .maisF>summary{font-size:13.5px;font-weight:600}
@@ -660,6 +660,101 @@ details{border-top:1px solid var(--linha)}
   .listaL{padding:2px 4px}
   #sec-questoes>.cx:first-child,#sec-leituras>.filtroL,#sec-pratica>.cx:first-child{background:var(--sup);border:1px solid var(--linha);border-radius:14px;padding:12px 14px;margin-bottom:14px}
 }
+
+:root[data-tema="escuro"] .marca .logo{color:var(--brandInk)}
+@media(prefers-color-scheme:dark){:root:not([data-tema="claro"]) .marca .logo{color:var(--brandInk)}}
+/* Direção de produto: foco de estudo, hierarquia e superfícies contidas. */
+:root{--lado:224px;--r:8px;--rG:12px;--sombra:none;--sombraM:0 8px 28px #102a3110}
+body{line-height:1.6}
+.cx{border-radius:12px;box-shadow:none}
+.pgTitulo{margin-bottom:30px}.pgTitulo h1{font-size:32px;letter-spacing:-.04em}.pgTitulo p{max-width:65ch}
+.bt,.bt.mini,select,input[type=search],input[type=number]{border-radius:8px;box-shadow:none}
+.marca .logo{background:transparent;color:var(--brandInk);border:1px solid var(--linhaF);border-radius:8px}
+#sec-questoes{display:block;max-width:880px;margin:0 auto}
+#sec-questoes>.cx:first-child{position:static;border:1px solid var(--linha);border-radius:10px;padding:14px 18px;margin:0 0 20px;background:var(--sup);box-shadow:none}
+#sec-questoes .fToggle{display:flex;width:100%;align-items:center;text-align:left;gap:10px}
+#sec-questoes .fCorpo{display:none;margin-top:18px;flex-direction:row;align-items:flex-end;gap:14px}
+#sec-questoes .aberto .fCorpo{display:flex}
+#sec-questoes .fCorpo>label{flex:1;min-width:180px;width:auto}
+#sec-questoes #qCartao{max-width:none}#sec-questoes #qCartao .cx{padding:30px 36px}
+.qTopo{border-bottom:1px solid var(--linha);padding-bottom:18px;margin-bottom:24px}.qProg{height:3px}
+.enun{font-size:18px;line-height:1.8;margin-bottom:28px}
+.alt{border-radius:8px;padding:16px;align-items:center}.alt .let{border-radius:6px;width:28px;height:28px;min-width:28px}
+.alt:hover{box-shadow:none;background:var(--brandSup)}
+.listaL{padding:0 26px;border-radius:12px}.listaL .itemL{border-radius:0;padding:24px 0}.listaL .itemL:hover{background:transparent}
+.listaL .itemL h3{font-size:20px;letter-spacing:-.025em;display:flex;gap:16px;justify-content:space-between}.itemL h3 .ti{color:var(--ink3);font-size:20px;flex-shrink:0}
+.listaL .itemL:focus-visible{outline:2px solid var(--brand);outline-offset:4px}
+.listaL .itemL:hover h3{color:var(--brandInk)}.listaL h3.grupo{padding:24px 0 8px;font-size:14px}.resumoL{font-size:15px;line-height:1.65}.metaL{font-size:13px}
+@media(min-width:900px){
+ .topo{padding:26px 16px 18px}.marca{padding-bottom:30px}nav.abas button{min-height:44px;border-radius:7px;font-size:14px}
+ nav.abas button[aria-selected=true]{box-shadow:inset 3px 0 var(--brand)}
+ main{max-width:1250px;padding:42px 48px 64px}
+ #sec-leituras{grid-template-columns:220px minmax(0,1fr);gap:32px}
+ #sec-leituras>.filtroL .fToggle{display:none}
+ #sec-leituras>.filtroL{background:transparent;border:0;border-radius:0;padding:0;box-shadow:none}
+}
+@media(min-width:900px) and (max-width:1180px){:root{--lado:76px}main{padding:30px}.ini .c7{grid-column:span 7}.ini .c5{grid-column:span 5}}
+@media(max-width:899px){.sessaoPrincipal h2{max-width:22ch}.ini .atividadeInicio{padding:0}.atividadeInicio .semana{height:110px;margin-top:12px}}
+@media(max-width:640px){
+ main{padding:24px 16px calc(28px + var(--nav))}.pgTitulo h1{font-size:28px}.pgTitulo{margin-bottom:24px}
+ .ini{gap:22px}.ini .sessaoPrincipal{padding:24px}.sessaoPrincipal h2{font-size:29px}.sessaoRotulo{font-size:12px}
+ .resumoInicio{gap:12px;display:grid;grid-template-columns:repeat(3,1fr);font-size:12px}.resumoInicio b{display:block;font-size:22px}
+ .acoes{gap:20px 0}.acao{padding:0 16px}.acao:nth-child(odd){padding-left:0}.acao:nth-child(even){border:0}
+ #sec-questoes #qCartao .cx{padding:20px 16px}.enun{font-size:17px;line-height:1.7}.alt{padding:13px 11px;font-size:15.5px}
+ .listaL{padding:0 18px}.listaL .itemL h3{font-size:19px}.metaCompacta{gap:10px}.sessaoPrincipal .bt{width:100%}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/inter-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/inter-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/inter-600.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/inter-700.ttf) format('truetype');
+}
+
+/* Referências: Inter e controles do MedTech; densidade e painéis do InternaMed. */
+:root{--sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--serif:var(--sans);--papel:#f5f5f9;--sup:#fff;--sup2:#f0f2f6;--ink:#172033;--ink2:#59677b;--linha:#e2e8f0;--linhaF:#cbd5e1;--lado:224px;--rG:10px;--brand:#1e40af;--brandInk:#1e40af;--brandSup:#eff6ff;--brandTxt:#fff}
+:root[data-tema="escuro"]{--papel:#0c1017;--sup:#151b26;--sup2:#1d2634;--ink:#e7eef7;--ink2:#9aa9bd;--linha:#293344;--linhaF:#3b485c;--brand:#89adff;--brandInk:#a9c3ff;--brandSup:#203253;--brandTxt:#101827}
+@media(prefers-color-scheme:dark){:root:not([data-tema="claro"]){--papel:#0c1017;--sup:#151b26;--sup2:#1d2634;--ink:#e7eef7;--ink2:#9aa9bd;--linha:#293344;--linhaF:#3b485c;--brand:#89adff;--brandInk:#a9c3ff;--brandSup:#203253;--brandTxt:#101827}}
+body{font-size:14px;line-height:1.55;letter-spacing:0}h1,h2,h3{letter-spacing:-.02em;font-weight:600}
+.pgTitulo{margin-bottom:24px;padding:0;border:0}.pgTitulo h1{font-size:24px;font-weight:600;letter-spacing:-.4px}.pgTitulo p{font-size:13px;margin-top:5px}.pgTitulo p:empty{display:none}
+.bt{font-size:13px;font-weight:500;min-height:40px;border-radius:8px;padding:9px 15px}.bt.sec{font-weight:500}.cx{border-radius:10px;padding:20px;box-shadow:0 1px 2px #0f172a06}
+.mesaEstudo{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:20px;align-items:start}.estudoConteudo{min-width:0}
+.sessaoTexto,.estudoBiblioteca,.estudoMargem{background:var(--sup);border:1px solid var(--linha);border-radius:10px;padding:20px;box-shadow:0 1px 2px #0f172a06}
+.sessaoTexto{margin-bottom:20px}.indiceSecao{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}.indiceSecao h2,.estudoMargem h2{font-size:14px;font-weight:600;margin:0}.indiceSecao>span{font-size:12px;color:var(--ink2)}
+.sessaoTexto h3{font-size:20px;font-weight:600;line-height:1.4;margin:0 0 12px}.trechoQuestao{font-size:14px;line-height:1.75;margin:0 0 18px;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.sessaoDescricao{color:var(--ink2);margin:0 0 18px}
+.estudoAbrir{gap:18px}.textoAcao{background:none;border:0;padding:8px 0;color:var(--brandInk);font-size:12px;font-weight:500;cursor:pointer}.textoAcao:hover{text-decoration:underline}
+.leituraLinha{width:100%;display:block;position:relative;border:0;border-top:1px solid var(--linha);text-align:left;background:transparent;padding:16px 25px 16px 0;cursor:pointer;color:var(--ink)}.leituraLinha:hover{background:var(--sup2)}.leituraLinha:last-child{padding-bottom:2px}.leituraDados{display:block;font-size:11px;color:var(--ink2);margin-bottom:5px}.leituraNome{display:block;font-size:15px;font-weight:600;line-height:1.4}.leituraResumo{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:12px;line-height:1.65;color:var(--ink2);margin-top:5px}.leituraSeta{position:absolute;right:0;top:40%;color:var(--ink2)}
+.estudoMargem h2{margin-bottom:12px}.linhaFerramenta{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;border:0;border-bottom:1px solid var(--linha);padding:14px 0;background:none;font-size:13px;text-align:left;cursor:pointer}.linhaFerramenta span:last-child{color:var(--ink2)}.linhaFerramenta:hover{color:var(--brandInk)}.estudoProgresso{border:0;margin-top:20px;font-size:12px}.estudoProgresso summary{color:var(--ink2);cursor:pointer}.estudoProgresso p{font-size:13px}
+.listaL{padding:4px 20px;border:1px solid var(--linha);background:var(--sup);border-radius:10px}.listaL .itemL{padding:18px 0}.listaL .itemL h3{font-size:17px;font-weight:600}.resumoL{font-size:13px}.metaL{font-size:12px}
+#sec-questoes #qCartao .cx{padding:24px;border:1px solid var(--linha);border-radius:10px;background:var(--sup)}.enun{font-size:16px;line-height:1.8}.alt{font-size:14px;padding:13px 14px}.alt .let{font-size:12px;flex:0 0 28px}.alt>span:not(.let){min-width:0;flex:1}.qNum{font-size:12px}.qNum b{font-size:13px}
+@media(min-width:900px){header{background:#0b2149;border:0}.topo{padding:22px 12px 16px}.marca{font-size:19px;color:#fff;padding:0 10px 26px}.marca .logo{display:grid;background:#1e40af;border:0;color:#fff!important;width:30px;height:30px}.navGrupo{color:#8ba6ca;font-size:11px;letter-spacing:0;padding:16px 10px 8px}nav.abas button{font-size:13px;min-height:40px;border-radius:7px;padding:9px 10px;gap:10px;color:#bfdbfe;font-weight:400}nav.abas button .ti{font-size:18px}nav.abas button:hover{background:#16336b;color:#fff}nav.abas button[aria-selected=true]{background:#1e40af;box-shadow:none;color:#fff;font-weight:500}.contador{border-color:#294269}.contador .btIco,.contador .btConta{font-size:13px;color:#bfdbfe}.contador .btIco:hover,.contador .btConta:hover{background:#16336b;color:white}main{max-width:1230px;padding:30px 32px 60px}.contador kbd{background:#16336b;border-color:#476081;color:#bfdbfe}}
+@media(min-width:900px) and (max-width:1180px){:root{--lado:76px}.marca{padding:0 0 26px}.mesaEstudo{grid-template-columns:minmax(0,1fr) 220px}nav.abas button{padding:9px 0}}
+@media(max-width:899px){.mesaEstudo{grid-template-columns:1fr}.estudoMargem{margin-top:0}}
+@media(max-width:640px){main{padding:20px 14px calc(28px + var(--nav))}.pgTitulo h1{font-size:22px}.sessaoTexto,.estudoBiblioteca,.estudoMargem{padding:17px}.mesaEstudo{gap:16px}.sessaoTexto{margin-bottom:16px}.sessaoTexto h3{font-size:18px}.trechoQuestao{font-size:14px}.indiceSecao{gap:8px}.indiceSecao>span{font-size:11px}#sec-questoes #qCartao .cx{padding:18px 15px}.enun{font-size:16px}.alt{font-size:14px}.listaL{padding:4px 16px}.marca{font-family:var(--sans)}}
 </style>
 
 <header>
@@ -708,15 +803,15 @@ details{border-top:1px solid var(--linha)}
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed",linha:"provas"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=93"></script>
-<script src="provas.js?v=93"></script>
-<script src="banco.js?v=93"></script>
-<script src="flash.js?v=93"></script>
-<script src="pratica.js?v=93"></script>
-<script src="leituras.js?v=93"></script>
-<script src="indice-leituras.js?v=93"></script>
-<script src="nuvem.js?v=93"></script>
-<script src="turma.js?v=93"></script>
+<script src="taxonomia.js?v=95"></script>
+<script src="provas.js?v=95"></script>
+<script src="banco.js?v=95"></script>
+<script src="flash.js?v=95"></script>
+<script src="pratica.js?v=95"></script>
+<script src="leituras.js?v=95"></script>
+<script src="indice-leituras.js?v=95"></script>
+<script src="nuvem.js?v=95"></script>
+<script src="turma.js?v=95"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -926,7 +1021,7 @@ function abreMais(){
 function filtroBox(k,resumo,corpo,extra){
   const ab=!!(ST.cfg.fAb||{})[k];
   return `<div class="cx filtros${ab?" aberto":""}" data-fk="${k}">
-    <button class="fToggle" type="button"><i class="ti ti-adjustments-horizontal"></i>Filtros<span class="resumo">${resumo}</span><i class="ti ti-chevron-down seta"></i></button>
+    <button class="fToggle" type="button" aria-expanded="${ab}"><i class="ti ti-adjustments-horizontal"></i>Filtros<span class="resumo">${resumo}</span><i class="ti ti-chevron-down seta"></i></button>
     <div class="linha fCorpo">${corpo}</div>${extra||""}</div>`;
 }
 document.addEventListener("click",e=>{
@@ -934,11 +1029,12 @@ document.addEventListener("click",e=>{
   const box=b.parentElement,k=box.dataset.fk;
   ST.cfg.fAb=ST.cfg.fAb||{}; ST.cfg.fAb[k]=!ST.cfg.fAb[k]; salva("cfg",ST.cfg);
   box.classList.toggle("aberto",ST.cfg.fAb[k]);
+  b.setAttribute("aria-expanded",String(ST.cfg.fAb[k]));
 });
 function montaAbas(){
   const GRUPO={inicio:"Estudo",painel:"Acompanhamento"};
   $("#abas").innerHTML=ABAS.map(([id,n,ic])=>(GRUPO[id]?`<div class="navGrupo">${GRUPO[id]}</div>`:"")+
-    `<button role="tab" data-aba="${id}" aria-selected="false"${ABAS_RESTRITAS.includes(id)?" hidden":""}${ABAS_PRIM.includes(id)?" data-prim":""}><i class="ti ti-${ic}" aria-hidden="true"></i><span>${n}</span></button>`).join("")
+    `<button role="tab" aria-label="${esc(n)}" title="${esc(n)}" data-aba="${id}" aria-selected="false"${ABAS_RESTRITAS.includes(id)?" hidden":""}${ABAS_PRIM.includes(id)?" data-prim":""}><i class="ti ti-${ic}" aria-hidden="true"></i><span>${n}</span></button>`).join("")
     +`<button data-aba="mais" aria-selected="false" hidden><i class="ti ti-dots" aria-hidden="true"></i><span>Mais</span></button>`;
   const mais=$('#abas [data-aba="mais"]');
   mais.hidden=!matchMedia("(max-width:640px)").matches;
@@ -948,8 +1044,7 @@ function montaAbas(){
   $$("#abas button").forEach(b=>{if(b.dataset.aba!=="mais")b.onclick=()=>irAba(b.dataset.aba)});
 }
 const TITULOS={
-  inicio:()=>{const h=new Date().getHours();return [h<12?"Bom dia":h<18?"Boa tarde":"Boa noite",
-    new Date().toLocaleDateString("pt-BR",{weekday:"long",day:"numeric",month:"long"}).replace(/^./,c=>c.toUpperCase())]},
+  inicio:()=>["Estudo",""],
   questoes:()=>["Questões",`${BANCO.length} questões no formato das provas de título e R+, com comentário por alternativa.`],
   simulado:()=>["Simulado","Prova cronometrada no peso do edital, corrigida no fim."],
   pratica:()=>["Prática","Estações da segunda fase com espelho de correção."],
@@ -1713,7 +1808,7 @@ function pintaLeituras(){
   <div class="cx filtros filtroL${ab?" aberto":""}" data-fk="l">
    <h2 style="margin:0 0 10px">Leituras</h2>
    <input id="lBusca" type="search" placeholder="Buscar tema, diretriz, palavra do resumo…" value="${esc(fl.busca||"")}" style="width:100%">
-   <button class="fToggle" type="button" style="margin-top:8px"><i class="ti ti-adjustments-horizontal"></i>Filtros<span class="resumo">${fl.area?esc(NOME[fl.area]):"todas as áreas"}${fl.so?" · "+(fl.so==="lidas"?"lidas":"não lidas"):""}</span><i class="ti ti-chevron-down seta"></i></button>
+   <button class="fToggle" type="button" aria-expanded="${ab}" style="margin-top:8px"><i class="ti ti-adjustments-horizontal"></i>Filtros<span class="resumo">${fl.area?esc(NOME[fl.area]):"todas as áreas"}${fl.so?" · "+(fl.so==="lidas"?"lidas":"não lidas"):""}</span><i class="ti ti-chevron-down seta"></i></button>
    <div class="linha fCorpo">
     <label class="cmp">Área<select id="lArea">
       <option value="">todas as áreas</option>
@@ -1763,7 +1858,7 @@ function cartaoLeitura(l){
   const estado=ST.lidas[l.f]?'<span class="lido"><i class="ti ti-check"></i>lida</span>'
               :pg>0?`<span class="lido">${pg}% lido</span>`:"";
   return `<article class="itemL" data-ler="${esc(l.f)}" tabindex="0" role="button">
-    <h3>${esc(l.t)}</h3>
+    <h3>${esc(l.t)}<i class="ti ti-arrow-up-right" aria-hidden="true"></i></h3>
     <p class="resumoL">${esc(l.s)}</p>
     <div class="metaL"><span>${esc(NOME[l.area]||l.area||"")}</span><span>${esc(l.tipo||"")}</span><span>${l.min} min</span>${estado}</div>
     ${pg>0&&!ST.lidas[l.f]?`<div class="progL"><i style="width:${pg}%"></i></div>`:""}
@@ -1876,83 +1971,43 @@ function diasSeguidos(){
   return n;
 }
 function pintaInicio(){
-  const meta=Math.max(5,+(ST.cfg.meta||20)), hoje=ST.atividade[dataISO()]||0, feito=Math.min(1,hoje/meta);
-  const seq=diasSeguidos();
-  let acertos=0,tent=0;Object.values(ST.resp).forEach(r=>r.hist.forEach(h=>{tent++;if(h.ok)acertos++}));
-  const vistas=Object.keys(ST.resp).length;
-  const R=56,C=2*Math.PI*R;
-  const dias=[...Array(14)].map((_,k)=>{const d=new Date();d.setDate(d.getDate()-13+k);const iso=dataISO(d);
-    return {iso,n:ST.atividade[iso]||0,l:"DSTQQSS"[d.getDay()],hoje:k===13}});
-  const maxD=Math.max(meta,...dias.map(x=>x.n));
-  const devs=devidos().length;
-  const emCurso=Object.keys(ST.prog).filter(f=>!ST.lidas[f]&&ST.prog[f]>0&&ST.prog[f]<95)
-    .map(f=>({f,l:LEITURAS.find(x=>x.f===f)})).filter(x=>x.l).sort((a,b)=>ST.prog[b.f]-ST.prog[a.f])[0];
-  const ea=estatArea(), foco=ea.slice(0,5);
+  const meta=Math.max(5,+(ST.cfg.meta||20)), hoje=ST.atividade[dataISO()]||0;
   const fq=(ST.pos&&ST.pos.fq)||{}, qAtual=ST.pos&&ST.pos.chq?QIDX.get(ST.pos.chq):null;
-  const nLidas=Object.keys(ST.lidas).length, nLeit=LEITURAS.filter(l=>l.f).length;
+  const pendentes=LEITURAS.filter(l=>l.f&&!ST.lidas[l.f]&&ST.prog[l.f]>0&&ST.prog[l.f]<95)
+    .sort((a,b)=>ST.prog[b.f]-ST.prog[a.f]).slice(0,3);
+  const leituras=pendentes.length?pendentes:LEITURAS.filter(l=>l.f).slice(0,3);
   $("#sec-inicio").innerHTML=`
-  <div class="ini">
-   <div class="cx c7">
-    <div class="meta">
-     <div class="anel"><svg width="132" height="132" viewBox="0 0 132 132">
-       <circle cx="66" cy="66" r="${R}" fill="none" stroke="var(--sup3)" stroke-width="11"/>
-       <circle cx="66" cy="66" r="${R}" fill="none" stroke="var(--brand)" stroke-width="11" stroke-linecap="round"
-        stroke-dasharray="${(C*feito).toFixed(1)} ${C.toFixed(1)}"${feito?"":' opacity="0"'}/></svg>
-      <div class="val"><b class="num">${hoje}</b><span>de ${meta} hoje</span></div></div>
-     <div class="metaTxt">
-      <h2>${hoje>=meta?"Meta do dia cumprida":hoje?`Faltam ${meta-hoje} questões`:"Comece a meta de hoje"}</h2>
-      <p>${hoje>=meta?"Aproveite para revisar os erros ou uma leitura.":"Questões respondidas em qualquer modo contam para a meta."}</p>
-      <div class="statsL">
-       <div><b class="num"><i class="ti ti-flame fogo"></i> ${seq}</b><span>${seq===1?"dia seguido":"dias seguidos"}</span></div>
-       <div><b class="num">${pct(acertos,tent)}%</b><span>acerto geral</span></div>
-       <div><b class="num">${vistas}</b><span>de ${BANCO.length} vistas</span></div>
-      </div>
-     </div>
-    </div>
+  <div class="mesaEstudo">
+   <div class="estudoConteudo">
+    <section class="sessaoTexto" aria-labelledby="sessaoTitulo">
+     <div class="indiceSecao"><h2 id="sessaoTitulo">Questões</h2><span>${qAtual?"Sessão em andamento":BANCO.length+" questões comentadas"}</span></div>
+     <h3>${esc(qAtual?(NOME[qAtual.tema]||"Clínica médica"):(NOME[fq.area]||"Todas as especialidades"))}</h3>
+     ${qAtual?`<p class="trechoQuestao">${esc(qAtual.q)}</p>`:`<p class="sessaoDescricao">Selecione uma especialidade ou abra o banco completo.</p>`}
+     <button class="bt estudoAbrir" data-ir="questoes">${qAtual?"Retomar questão":"Abrir questões"}<span aria-hidden="true"> →</span></button>
+    </section>
+    <section class="estudoBiblioteca" aria-labelledby="estudoLeituras">
+     <div class="indiceSecao"><h2 id="estudoLeituras">${pendentes.length?"Leituras em andamento":"Da biblioteca"}</h2><button class="textoAcao" data-ir="biblioteca">Ver todas <span aria-hidden="true">↗</span></button></div>
+     ${leituras.map(l=>`<button class="leituraLinha" data-ir="leitura" data-f="${esc(l.f)}"><span class="leituraDados">${esc(NOME[l.area]||l.area)} · ${l.min} min${ST.prog[l.f]?` · ${ST.prog[l.f]}% lido`:""}</span><span class="leituraNome">${esc(l.t)}</span><span class="leituraResumo">${esc(l.s)}</span><span class="leituraSeta" aria-hidden="true">↗</span></button>`).join("")}
+    </section>
    </div>
-   <div class="cx c5">
-    <div class="cxTit"><h3>Últimas duas semanas</h3><span class="mini">${dias.reduce((a,x)=>a+x.n,0)} questões</span></div>
-    <div class="semana">${dias.map(x=>`<div title="${x.iso}: ${x.n}"><i class="${x.hoje?"hoje":x.n>=meta?"cheio":""}" style="height:${Math.max(4,Math.round(x.n/maxD*84))}px${x.n&&!x.hoje&&x.n<meta?";background:color-mix(in srgb,var(--brand) 45%,var(--sup3))":""}"></i><span>${x.l}</span></div>`).join("")}</div>
-   </div>
-   <div class="c12 acoes">
-    <button class="acao" data-ir="questoes"><span class="ic" style="background:var(--brandSup);color:var(--brandInk)"><i class="ti ti-player-play"></i></span>
-     <span><b>Continuar questões</b><small>${fq.area?esc(NOME[fq.area]||""):"todas as áreas"}${fq.modo&&fq.modo!=="todas"?" · "+({novas:"não respondidas",erros:"meus erros",fav:"marcadas"}[fq.modo]||""):""}</small></span>
-     <span class="n num">${BANCO.length-vistas}<span class="mini" style="font-weight:500"> novas</span></span></button>
-    <button class="acao" data-ir="erros"><span class="ic" style="background:var(--errSup);color:var(--err)"><i class="ti ti-refresh-alert"></i></span>
-     <span><b>Revisar erros</b><small>até acertar duas vezes seguidas</small></span>
-     <span class="n num">${ST.erros.length}</span></button>
-    <button class="acao" data-ir="cartoes"><span class="ic" style="background:var(--aviSup);color:var(--avi)"><i class="ti ti-cards"></i></span>
-     <span><b>Cartões de hoje</b><small>revisão espaçada</small></span>
-     <span class="n num">${devs}</span></button>
-    <button class="acao" data-ir="leitura"${emCurso?` data-f="${esc(emCurso.f)}"`:""}><span class="ic" style="background:color-mix(in srgb,#7C3AED 14%,var(--sup));color:#7C3AED"><i class="ti ti-book-2"></i></span>
-     <span><b>${emCurso?"Continuar leitura":"Leituras"}</b><small>${emCurso?esc(emCurso.l.t):`${nLidas} de ${nLeit} concluídas`}</small></span>
-     <span class="n num">${emCurso?ST.prog[emCurso.f]+"%":nLidas}</span></button>
-   </div>
-   <div class="cx c7">
-    <div class="cxTit"><h3>Onde focar</h3><button class="link" data-ir="painel">Ver desempenho</button></div>
-    <div class="foco">${foco.map(a=>`<div class="item">
-      <span class="pt" style="background:${corArea(a.t.id)}"></span>
-      <span class="nome">${esc(a.t.nome)}<small>peso ${a.t.peso} · ${a.n} de ${a.total} vistas</small></span>
-      <div class="barra"><i style="width:${Math.max(2,Math.round(a.cob*100))}%;background:${corArea(a.t.id)}"></i></div>
-      <span class="taxa" style="color:${a.taxa===null?"var(--ink3)":a.taxa>=.7?"var(--ok)":"var(--err)"}">${a.taxa===null?"—":Math.round(a.taxa*100)+"%"}</span>
-     </div>`).join("")}</div>
-   </div>
-   <div class="cx c5" style="display:flex;flex-direction:column;gap:14px">
-    <div class="cxTit" style="margin:0"><h3>Metas e prova</h3></div>
-    <label class="cmp">Meta diária de questões
-     <select id="iMeta">${[10,20,30,40,60,80].map(v=>`<option value="${v}"${v===meta?" selected":""}>${v} por dia</option>`).join("")}</select></label>
-    <div class="cta cx" style="margin:0;padding:16px;box-shadow:none">
-     <span class="ic"><i class="ti ti-stopwatch"></i></span>
-     <div><h3>Simulado</h3><p>${ST.sim.length?`${ST.sim.length} feito${ST.sim.length>1?"s":""} · último ${ST.sim[ST.sim.length-1].acertos}/${ST.sim[ST.sim.length-1].n}`:"Prova cronometrada no peso do edital"}</p></div>
-     <button class="bt mini" data-ir="simulado">Começar</button>
-    </div>
-   </div>
+   <aside class="estudoMargem" aria-label="Ferramentas de estudo">
+    <h2>Praticar</h2>
+    <button class="linhaFerramenta" data-ir="erros"><span>Revisar erros</span><span>${ST.erros.length}</span></button>
+    <button class="linhaFerramenta" data-ir="cartoes"><span>Cartões para hoje</span><span>${devidos().length}</span></button>
+    <button class="linhaFerramenta" data-ir="simulado"><span>Simulado</span><span aria-hidden="true">↗</span></button>
+    <button class="linhaFerramenta" data-ir="pratica"><span>Estações práticas</span><span aria-hidden="true">↗</span></button>
+    <details class="estudoProgresso"><summary>Meta e acompanhamento</summary><p>${hoje} de ${meta} questões hoje.</p>
+     <label class="cmp">Meta diária<select id="iMeta">${[...new Set([10,20,30,40,60,80,meta])].sort((a,b)=>a-b).map(v=>`<option value="${v}"${v===meta?" selected":""}>${v} questões</option>`).join("")}</select></label>
+     <button class="textoAcao" data-ir="painel">Ver desempenho →</button>
+    </details>
+   </aside>
   </div>`;
-  $("#iMeta").onchange=e=>{ST.cfg.meta=+e.target.value;salva("cfg",ST.cfg);pintaInicio()};
+  $("#iMeta").onchange=e=>{ST.cfg.meta=+e.target.value;salva("cfg",ST.cfg);$(".estudoProgresso p").textContent=hoje+" de "+ST.cfg.meta+" questões hoje."};
   $$("#sec-inicio [data-ir]").forEach(b=>b.onclick=()=>{
     const v=b.dataset.ir;
     if(v==="erros"){ST.pos.fq={...filtroAtual(),modo:"erros"};ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);irAba("questoes")}
-    else if(v==="leitura"){if(b.dataset.f){ST.cfg.lendo=b.dataset.f;salva("cfg",ST.cfg)}irAba("leituras")}
+    else if(v==="leitura"){ST.cfg.lendo=b.dataset.f;salva("cfg",ST.cfg);irAba("leituras")}
+    else if(v==="biblioteca"){ST.cfg.lendo=null;ST.cfg.fl={area:"",busca:"",so:""};salva("cfg",ST.cfg);irAba("leituras")}
     else irAba(v);
   });
 }
