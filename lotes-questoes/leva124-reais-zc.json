@@ -1,0 +1,1163 @@
+[
+ {
+  "q": "Mulher, 68 anos de idade, é hospitalizada para colocação de prótese total do joelho esquerdo. Tem síndrome demencial leve há um ano. Um dia após a cirurgia, desenvolveu confusão mental, desorientação têmporo-espacial, irritabilidade, e afirma que a enfermeira está tentando envenená-la. Ao exame clínico, apresentou sinais vitais normais, desatenção, ferida operatória com aspecto normal. O tratamento inicial mais adequado é:",
+  "alts": [
+   "Benzodiazepínico.",
+   "Contenção mecânica.",
+   "Neuroléptico.",
+   "Anticolinesterásico."
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "NICE Guideline CG103 Delirium: prevention, diagnosis and management (atualização 2023)",
+  "coment": "Delirium pós-operatório hiperativo (início agudo, desatenção, desorientação e ideação persecutória) em idosa com demência, principal fator predisponente. Afastadas causas orgânicas (sinais vitais normais, ferida limpa) e aplicadas as medidas não farmacológicas, quando há sofrimento intenso, sintomas psicóticos ou risco para si e para a equipe, a NICE (2023) admite antipsicótico em dose baixa e por curto período, como haloperidol 0,5 a 1 mg. Benzodiazepínico piora o delirium e a contenção mecânica prolonga o quadro.",
+  "porAlt": [
+   "Benzodiazepínico agrava e prolonga o delirium no idoso; só tem lugar na abstinência alcoólica ou de sedativos.",
+   "Contenção mecânica aumenta agitação, lesões e duração do delirium; é último recurso, não tratamento.",
+   "Correta: antipsicótico em dose baixa e por curto prazo controla a agitação e os sintomas psicóticos que geram sofrimento ou risco.",
+   "Anticolinesterásico não trata nem previne delirium e não tem papel no quadro agudo."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Mulher, 86 anos de idade, totalmente funcional, faz acompanhamento por hipertensão arterial sistêmica, ansiedade generalizada, lombalgia crônica, bexiga hiperativa e vertigem. Em consulta recente, suas medicações foram reavaliadas e a prescrição atual consiste de clonazepam 2 mg, amitriptilina 25 mg, oxibutinina 5 mg, codeína 30 mg, ramipril 5 mg e meclizina 25 mg. Há dois dias, está com dificuldade para realizar as atividades habituais, sonolenta durante o dia e apresentou dois episódios de queda. A classe do medicamento com MENOR probabilidade de explicar o quadro dos últimos dois dias é:",
+  "alts": [
+   "Anticolinérgico.",
+   "Benzodiazepínico.",
+   "Antimuscarínico.",
+   "Anti-histamínico."
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "American Geriatrics Society Beers Criteria, 2023",
+  "coment": "Sonolência, queda funcional e duas quedas em 48 horas numa idosa de 86 anos apontam efeito sedativo de medicamentos potencialmente inapropriados (Beers 2023). Clonazepam 2 mg (benzodiazepínico de meia-vida longa), amitriptilina (tricíclico com forte carga anticolinérgica) e meclizina (anti-histamínico de primeira geração, sedativo e depressor vestibular) causam sedação, lentificação e quedas. A oxibutinina, antimuscarínico vesical, também é inapropriada, mas seus efeitos predominantes são periféricos e cognitivos, com menor poder sedativo, e não consta na lista de Beers de fármacos a evitar após quedas.",
+  "porAlt": [
+   "Amitriptilina, tricíclico de forte ação anticolinérgica, é sedativa e consta na lista de Beers como causa de quedas.",
+   "Clonazepam 2 mg tem meia-vida longa, acumula no idoso e é causa clássica de sonolência e quedas.",
+   "Correta: a oxibutinina causa sobretudo efeitos periféricos e cognitivos, com menor sedação, sendo a classe menos provável aqui.",
+   "Meclizina, anti-histamínico de primeira geração, causa sedação e desequilíbrio, explicando sonolência e quedas."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Homem, 30 anos de idade, conta que apresenta anasarca há dois meses. Há uma semana, dispneia e dor torácica esquerda. Nega febre. Ao exame clínico, apresentou PA de 140x90 mmHg, Pulmões: murmúrios vesiculares diminuídos em metade inferior de hemitórax esquerdo, com egofonia; abdome: macicez móvel +, sem visceromegalias. Edema ++/4+ de membros inferiores. Os achados que mais provavelmente indicam que o derrame pleural seja um exsudato são:",
+  "alts": [
+   "Ser à esquerda e ter anasarca.",
+   "Ter anasarca e ser homem jovem.",
+   "Ter dor torácica e ser à esquerda.",
+   "Ter dor torácica e dispneia."
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "BTS Guideline for pleural disease, 2023",
+  "coment": "Anasarca em homem jovem sugere síndrome nefrótica, cujo derrame típico é transudato bilateral por hipoalbuminemia. O que foge do padrão aponta outra causa: derrame unilateral à esquerda e dor torácica pleurítica sugerem exsudato. Na síndrome nefrótica, a hipercoagulabilidade (perda urinária de antitrombina) torna o tromboembolismo pulmonar a principal suspeita, ao lado de infecção. A confirmação vem dos critérios de Light na toracocentese (BTS 2023).",
+  "porAlt": [
+   "Anasarca favorece transudato por hipoalbuminemia; o lado esquerdo isolado não basta para indicar exsudato.",
+   "Anasarca e idade jovem nada dizem sobre exsudato; o edema generalizado sugere transudato nefrótico.",
+   "Correta: dor pleurítica e derrame unilateral fogem do padrão do transudato nefrótico e sugerem TEP ou infecção.",
+   "Dispneia ocorre em qualquer derrame volumoso e não diferencia transudato de exsudato."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Homem, 32 anos de idade, privado de liberdade, admitido com queixa de dispneia, febre, sudorese e tosse produtiva há cerca de sete dias. Radiografia de tórax: consolidação em base direita, associada a derrame pleural moderado, ipsilateral. A despeito de 72 horas de terapia antimicrobiana com ceftriaxona e metronidazol, persistiu febril, com queda do estado geral. Realizada toracocentese diagnóstica com seguintes resultados: celularidade 11.031/mm³ (neutrófilos: 58%; macrófagos: 29%, linfócitos: 13%), DHL 1456 U/L; proteína total 3,0 g/dL; glicose 23 mg/dL; ADA 81 U/L; pH 7,13. Faz parte do tratamento deste paciente:",
+  "alts": [
+   "Iniciar esquema RIPE e suspender a antibioticoterapia.",
+   "Manter antibioticoterapia e realizar drenagem pleural fechada.",
+   "Modificar ceftriaxona por piperacilina-tazobactam e drenagem pleural fechada.",
+   "Modificar ceftriaxona por levofloxacina e manter metronidazol."
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "BTS Guideline for pleural disease, 2023",
+  "coment": "Derrame parapneumônico com pH 7,13 (menor que 7,2), glicose 23 mg/dL e DHL 1.456 U/L é derrame complicado, que exige drenagem torácica (BTS 2023). A falha após 72 horas decorre da coleção não drenada, não do espectro: ceftriaxona com metronidazol cobre os agentes comunitários e os anaeróbios. O ADA de 81 U/L confunde, pois o ADA também sobe no empiema; na tuberculose pleural o líquido é linfocítico, e aqui predominam neutrófilos (58%).",
+  "porAlt": [
+   "Líquido neutrofílico com pH e glicose muito baixos indica empiema bacteriano; ADA alto também ocorre no empiema.",
+   "Correta: derrame complicado (pH menor que 7,2, glicose baixa) exige drenagem, mantendo o antibiótico adequado.",
+   "A drenagem está certa, mas ampliar para piperacilina-tazobactam é desnecessário em infecção comunitária sem risco de Pseudomonas.",
+   "Trocar por levofloxacino não resolve a coleção infectada; sem drenagem a febre persiste."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Mulher, 93 anos de idade, mora sozinha, apresenta queixa de tontura do tipo desequilíbrio com início há dois anos e piora progressiva. Teve uma queda da própria altura nos últimos seis meses, apresenta dificuldade para subir escadas e não consegue carregar as compras do mercado. É sedentária e realiza duas refeições por dia. Tem evitado comer carne e perdeu 5 kg no último ano. Exame clínico geral sem alterações. IMC de 22 kg/m². Força de preensão palmar: 15 kgF (VR 21-23 kgF). O tipo de exercício com maior probabilidade de auxiliar na recuperação funcional é:",
+  "alts": [
+   "Aeróbio.",
+   "Resistido.",
+   "Equilíbrio.",
+   "Alongamento."
+  ],
+  "gab": 1,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "International Clinical Practice Guidelines for Sarcopenia (ICFSR), 2018",
+  "coment": "Nonagenária com perda de peso, baixa ingestão proteica, dificuldade para subir escadas e carregar peso e força de preensão de 15 kgf (abaixo do corte) configura sarcopenia provável (EWGSOP2 2019) e fragilidade. As diretrizes do ICFSR (2018) recomendam como tratamento de primeira linha o exercício resistido progressivo, o único com evidência consistente de ganho de força, massa e função, associado a suplementação proteica. Treino de equilíbrio e aeróbio complementam, mas não recuperam a força.",
+  "porAlt": [
+   "Exercício aeróbio melhora a capacidade cardiorrespiratória, mas tem pouco efeito sobre massa e força muscular.",
+   "Correta: treino resistido progressivo é a intervenção de primeira linha na sarcopenia, recuperando força e função.",
+   "Treino de equilíbrio reduz quedas e compõe programas multicomponentes, mas não trata a perda de força.",
+   "Alongamento isolado não tem efeito demonstrado sobre força, massa muscular ou funcionalidade."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Homem, 20 anos de idade, hemofílico A grave, em uso de fator VIII sob demanda, é admitido após queda de bicicleta há três horas. Apresenta ferimento corto-contuso na região frontal direita. Nega perda de consciência, náuseas ou vômitos. Apresenta aumento de volume e dor no braço direito, com limitação da mobilidade e alteração da sensibilidade distal. O paciente trouxe algumas doses de emergência de concentrado de Fator VIII que tinha em casa. A conduta inicial mais adequada é:",
+  "alts": [
+   "Sutura do ferimento corto-contuso.",
+   "Reposição de 100% de fator VIII.",
+   "Dosagem de tempo de tromboplastina parcial ativada.",
+   "Tomografia computadorizada de crânio."
+  ],
+  "gab": 1,
+  "tema": "hemato",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "WFH Guidelines for the Management of Hemophilia, 3rd edition, 2020",
+  "coment": "No hemofílico grave com trauma, a reposição do fator deficiente precede qualquer exame ou procedimento (WFH 2020). Há dois sangramentos potencialmente graves: trauma craniano (a hemorragia intracraniana pode ser tardia, mesmo sem perda de consciência) e hematoma no braço com alteração sensitiva distal, sinal de compressão neurovascular. Ambos exigem elevar o fator VIII a 80 a 100% imediatamente; só depois vêm tomografia, sutura e avaliação ortopédica. O TTPA não muda a conduta.",
+  "porAlt": [
+   "Suturar antes de corrigir o fator expõe a sangramento; o ferimento superficial não é a prioridade.",
+   "Correta: trauma craniano e hematoma com compressão neurovascular exigem fator VIII a 100% antes de qualquer outra medida.",
+   "O TTPA será prolongado por definição na hemofilia A grave e não altera a conduta imediata.",
+   "A tomografia de crânio é indicada, mas só depois da reposição do fator, que não deve ser adiada."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Mulher, 24 anos de idade, previamente hígida, está internada na UTI há três semanas devido a choque séptico por broncopneumonia. Evoluiu com equimoses em membros superiores, sangramento em cavidade oral e em aspiração de cânula de intubação orotraqueal. Estava em uso de: pantoprazol há três semanas; morfina intermitente há uma semana; heparina não-fracionada há três semanas; vancomicina por uma semana. • Hemograma: Hb: 11 g/dL Leucócitos: 10.500/mm³ Plaquetas: 12.000/mm³ Reticulócitos: 50.000/mm³ O medicamento mais provavelmente associado ao quadro é:",
+  "alts": [
+   "Pantoprazol.",
+   "Morfina.",
+   "Vancomicina.",
+   "Heparina não-fracionada."
+  ],
+  "gab": 2,
+  "tema": "hemato",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ASH guidelines for management of venous thromboembolism: heparin-induced thrombocytopenia, 2018",
+  "coment": "Plaquetopenia grave (12.000/mm³) com sangramento mucoso favorece trombocitopenia imune induzida por fármaco. A HIT raramente derruba as plaquetas abaixo de 20.000/mm³, surge entre o 5º e o 10º dia de heparina e provoca trombose, não sangramento (ASH 2018); aqui a heparina já estava em uso havia três semanas. A vancomicina, iniciada há uma semana, causa trombocitopenia por anticorpo dependente do fármaco, com nadir profundo e sangramento, que regride com a suspensão. Hb preservada e reticulócitos adequados afastam microangiopatia.",
+  "porAlt": [
+   "Pantoprazol raramente causa plaquetopenia, e o uso há três semanas sem queda prévia torna a relação improvável.",
+   "Morfina não é causa reconhecida de trombocitopenia imune grave.",
+   "Correta: vancomicina causa plaquetopenia imune profunda com sangramento cerca de uma semana após o início.",
+   "HIT causa queda moderada, raramente abaixo de 20.000/mm³, entre o 5º e o 10º dia, com trombose e não sangramento."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Mulher, 77 anos de idade, ex-tabagista de 15 anos-maço; parou de fumar há 10 anos. É admitida com queixa de dispneia progressiva ao longo dos últimos três anos. Tem antecedente de hipotireoidismo controlado e osteoporose com fraturas de compressão em coluna torácica e lombar. Realizou espirometria apresentada na tabela a seguir: Resultado Previsto % do Previsto CVF 1,9 L 2,9 L 66% VEF1 1,6 L 2,2 L 73% VEF1/CVF 0,84 0,75 112% A hipótese diagnóstica mais provável é:",
+  "alts": [
+   "Senescência.",
+   "Cifoescoliose.",
+   "Bronquiectasia.",
+   "Doença pulmonar obstrutiva crônica."
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ATS/ERS technical standard on interpretive strategies for routine lung function tests, 2022",
+  "coment": "A relação VEF1/CVF de 0,84 (112% do previsto) exclui obstrução, o que afasta DPOC e bronquiectasia com padrão obstrutivo. CVF reduzida (66%) com VEF1 proporcionalmente reduzido sugere restrição, a ser confirmada pela capacidade pulmonar total (ATS/ERS 2022). Numa idosa com múltiplas fraturas vertebrais osteoporóticas torácicas, a cifose acentuada limita a expansão da caixa torácica e é a causa mais provável de distúrbio restritivo extraparenquimatoso. O envelhecimento isolado reduz a relação VEF1/CVF e não produz CVF de 66%.",
+  "porAlt": [
+   "A senescência reduz discretamente os volumes e a relação VEF1/CVF, mas não explica CVF de 66% com dispneia progressiva.",
+   "Correta: fraturas vertebrais osteoporóticas geram cifose que restringe a caixa torácica, com padrão restritivo.",
+   "Bronquiectasia costuma dar padrão obstrutivo, com VEF1/CVF reduzida, o que não ocorre aqui.",
+   "DPOC exige VEF1/CVF pós-broncodilatador abaixo de 0,70; aqui a relação é 0,84."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Mulher, 26 anos de idade, com antecedente de enxaqueca, apresenta queixa de cefaleia de forte intensidade. Paciente relata que apresenta cefaleia de moderada intensidade três vezes por semana, que responde ao uso de triptanos e dipirona. Desta vez, ela apresenta cefaleia contínua há quatro dias, associada a náuseas e fotofobia, sem vômitos. Já fez uso de sumatriptano, dipirona e ibuprofeno, sem alívio da dor. Nega uso contínuo de medicações analgésicas. Exames clínico e neurológico normais. A conduta mais adequada é:",
+  "alts": [
+   "Dexametasona IV e tramadol IV.",
+   "Clorpromazina IV e dexametasona IV.",
+   "Clorpromazina IV e cetoprofeno IV.",
+   "Cetoprofeno IV e galcanezumabe SC."
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "American Headache Society evidence assessment of parenteral pharmacotherapies for acute migraine in the emergency department, 2016",
+  "coment": "Crise de enxaqueca com mais de 72 horas define estado de mal migranoso. Após falha de triptano e anti-inflamatório, a AHS (2016) recomenda antagonista dopaminérgico parenteral (clorpromazina, metoclopramida ou proclorperazina), eficaz também contra a náusea, e dexametasona para reduzir a recorrência nas 72 horas seguintes. Opioides como o tramadol devem ser evitados: são menos eficazes e favorecem cefaleia por uso excessivo e retorno ao pronto-socorro. Galcanezumabe é preventivo, não abortivo.",
+  "porAlt": [
+   "Tramadol deve ser evitado na migrânea: pouca eficácia, recorrência e risco de cefaleia por uso excessivo de analgésico.",
+   "Correta: clorpromazina aborta a crise e trata a náusea, e a dexametasona reduz a recorrência no estado de mal migranoso.",
+   "Cetoprofeno é opção, mas a paciente já falhou com ibuprofeno e falta o corticoide contra recorrência do estado de mal.",
+   "Galcanezumabe é anticorpo anti-CGRP preventivo e não tem papel no tratamento da crise."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Homem, 59 anos de idade, com carcinoma espinocelular de orofaringe metastático para pulmão e linfonodos, encontra-se em tratamento sistêmico de primeira linha com agente anti-PD-1 há três meses. Refere astenia importante e pré-síncopes ocasionais, além de náuseas e vômitos, há uma semana. Nega diarreia. Ao exame clínico, apresentou FC de 109 bpm, SpO2 de 96%, PA de 90x60 mmHg, FR de 20 ipm, Temp. de 37,2 °C. Sem outras alterações. O conjunto de exames com maior probabilidade de esclarecer o diagnóstico é:",
+  "alts": [
+   "ACTH, cortisol e ressonância magnética de adrenais.",
+   "ACTH, cortisol, TSH, T4L, LH, FSH, testosterona e ressonância magnética de hipófise.",
+   "Cálcio iônico, PTH, PTHrp e cintilografia óssea.",
+   "Cálcio iônico, hemograma, hemoculturas e tomografia de tórax."
+  ],
+  "gab": 1,
+  "tema": "onco",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ESMO Clinical Practice Guideline: management of toxicities from immunotherapy, 2022",
+  "coment": "Astenia, náuseas, vômitos, hipotensão e taquicardia em uso de anti-PD-1 sugerem insuficiência adrenal por toxicidade imunomediada. A causa pode ser hipofisite (central) ou adrenalite (primária), e a distinção exige avaliar todos os eixos: ACTH e cortisol definem a insuficiência adrenal e seu nível; TSH, T4 livre, gonadotrofinas e testosterona revelam outros déficits hipofisários; e a ressonância de sela avalia hipofisite (ESMO 2022). Com instabilidade, colhe-se o cortisol e inicia-se hidrocortisona sem esperar o resultado.",
+  "porAlt": [
+   "Avalia só a adrenal: não identifica hipofisite nem os outros déficits hipofisários que a imunoterapia provoca.",
+   "Correta: o painel hipofisário completo com RM de sela distingue insuficiência adrenal primária de hipofisite.",
+   "Hipercalcemia daria náuseas, mas PTHrp e cintilografia não esclarecem a endocrinopatia imunomediada suspeita.",
+   "Sem febre ou foco, sepse e progressão pulmonar são menos prováveis que a endocrinopatia imunomediada."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Homem, 48 anos de idade, com história de etilismo e diarreia crônica, tem apresentado crises de cólica renal por cálculo nos últimos anos. Observada disfunção renal progressiva nos últimos 18 meses. • Exames laboratoriais: Cr: 2,5 mg/dL Urina tipo I: leucócitos 20/campo, hemácias 3/campo, proteína 0,5 g/L O exame com maior probabilidade de estar alterado é:",
+  "alts": [
+   "Ácido úrico sérico.",
+   "Cálcio total sérico.",
+   "Citrato em urina de 24 horas.",
+   "Oxalato em urina de 24 horas."
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "EAU Guidelines on Urolithiasis, 2025",
+  "coment": "Etilismo com diarreia crônica sugere má absorção de gordura (pancreatite crônica). Os ácidos graxos não absorvidos ligam o cálcio intestinal e deixam o oxalato livre para absorção no cólon: é a hiperoxalúria entérica. Ela causa litíase de oxalato de cálcio de repetição e nefropatia por deposição de cristais, que explica a perda de função progressiva com sedimento pouco ativo. A hipocitratúria também ocorre na diarreia, mas é o oxalato urinário elevado que liga cálculo e doença renal (EAU 2025).",
+  "porAlt": [
+   "Ácido úrico sérico não é o marcador da diarreia crônica; ela favorece cálculo úrico por urina ácida, não por hiperuricemia.",
+   "A má absorção tende a reduzir, não elevar, o cálcio sérico, e hipercalcemia não é o mecanismo aqui.",
+   "Hipocitratúria pode ocorrer na diarreia, mas é a hiperoxalúria que explica cálculos repetidos e nefropatia por cristais.",
+   "Correta: a má absorção de gordura libera oxalato no cólon, causando hiperoxalúria entérica, cálculos e nefropatia."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Homem, 35 anos de idade, comparece no pronto atendimento com dor muito intensa no dorso do pé direito, com eritema sobre a região do tarso. Está com dificuldade para pisar e refere que até o contato do lençol da cama piora a dor. Dormiu sem dor na noite anterior. Nega trauma local, picada de insetos ou febre. Refere episódio parecido há 3 anos. Nega outras doenças. Faz uso de alopurinol 300 mg ao dia. O tratamento mais adequado neste momento é:",
+  "alts": [
+   "Betametasona intra-articular + manter alopurinol.",
+   "Betametasona intra-articular + suspender alopurinol.",
+   "Cetoprofeno intravenoso + suspender alopurinol.",
+   "Cetoprofeno intravenoso + manter alopurinol."
+  ],
+  "gab": 3,
+  "tema": "reumato",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACR Guideline for the Management of Gout, 2020",
+  "coment": "Monoartrite aguda do tarso, com dor máxima em horas e hiperestesia ao lençol, em paciente com episódio prévio e em uso de alopurinol, é crise gotosa. O ACR 2020 recomenda não suspender a terapia hipouricemiante durante a crise, pois a oscilação da uricemia prolonga e precipita novos ataques. A crise é tratada com colchicina, AINE ou corticoide; o AINE parenteral é adequado sem contraindicação. A infiltração é preferida em articulação grande e acessível, o que não é o caso do tarso.",
+  "porAlt": [
+   "Manter alopurinol está certo, mas a infiltração do tarso é tecnicamente difícil; o AINE sistêmico é mais apropriado.",
+   "Suspender alopurinol na crise é erro: a variação da uricemia prolonga a crise e favorece recorrências.",
+   "Cetoprofeno é adequado, mas suspender o alopurinol contraria a recomendação do ACR 2020.",
+   "Correta: trata-se a crise com AINE e mantém-se o alopurinol, sem interromper a terapia hipouricemiante."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Mulher, 62 anos de idade, hipertensa, em uso regular de medicações, atualmente em quimioterapia para neoplasia de mama, comparece com queixa de dispneia aos esforços, progressiva, associada à tosse seca. Ao exame clínico, apresentou ausculta cardíaca sem alterações e murmúrio vesicular abolido em base direita, associado à macicez à percussão. Ultrassonografia de tórax: derrame pleural livre, com presença de múltiplos focos hiperecoicos. Em relação ao caso apresentado, a conduta inicial mais adequada é:",
+  "alts": [
+   "Pleurodese por videotoracoscopia.",
+   "Drenagem pleural de longa permanência.",
+   "Toracocentese diagnóstica e de alívio.",
+   "Toracocentese diagnóstica e antibioticoterapia."
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "BTS Guideline for pleural disease, 2023",
+  "coment": "Dispneia progressiva e derrame pleural em paciente com câncer de mama em quimioterapia sugerem derrame pleural maligno. Os focos hiperecoicos difusos (padrão ecogênico) indicam exsudato, sem caracterizar empiema na ausência de febre. A BTS 2023 recomenda iniciar com toracocentese diagnóstica (citologia e bioquímica) e de alívio, avaliando a melhora da dispneia e a reexpansão pulmonar. Só depois, confirmada a malignidade e a recidiva, escolhe-se entre pleurodese e cateter pleural de longa permanência.",
+  "porAlt": [
+   "Pleurodese exige diagnóstico confirmado, recidiva e pulmão que reexpande; não é o passo inicial.",
+   "Cateter de longa permanência serve ao derrame maligno recidivante confirmado, não à abordagem inicial.",
+   "Correta: toracocentese diagnóstica e de alívio confirma a natureza do derrame e testa a resposta sintomática e a reexpansão.",
+   "Sem febre ou quadro infeccioso não há base para antibiótico; o aspecto ecogênico sugere exsudato, não empiema."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Homem, 72 anos de idade, ex-tabagista, com diagnóstico de Doença Pulmonar Obstrutiva Crônica (DPOC) associada à cardiopatia isquêmica. Faz uso de AAS, metoprolol, rosuvastatina e formoterol. Refere dispneia aos esforços moderados, além de uma exacerbação necessitando administração de antibiótico e corticoide sistêmico no último ano. Espirometria: VEF1/CVF 0,4; VEF1 pré-broncodilatador 0,92 L (32% do previsto); VEF1 pós broncodilatador 0,99 L (37% do previsto); CVF pré e pós broncodilatador 2,49 L (76% do previsto). Eosinófilos 340/mm³. Além de associar tiotrópio, a conduta mais adequada é:",
+  "alts": [
+   "Introduzir fluticasona.",
+   "Introduzir fluticasona e suspender metoprolol.",
+   "Suspender metoprolol.",
+   "Não realizar mudanças adicionais."
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "GOLD Report, 2026",
+  "coment": "DPOC grave (VEF1 37% pós-broncodilatador) em monoterapia com LABA, com dispneia e exacerbação tratada com corticoide e antibiótico. No seguimento, o GOLD 2026 orienta escalar para LABA+LAMA e, com eosinófilos de 300/mm³ ou mais, para terapia tripla LABA+LAMA+CI, que reduz exacerbações e mortalidade. Com 340 eosinófilos, associam-se tiotrópio e corticoide inalatório. O betabloqueador cardiosseletivo (metoprolol) deve ser mantido na cardiopatia isquêmica, pois não piora a função pulmonar nem as exacerbações.",
+  "porAlt": [
+   "Correta: com exacerbação e eosinófilos de 300/mm³ ou mais, a terapia tripla (LABA+LAMA+CI) é a escalada indicada.",
+   "Fluticasona está indicada, mas suspender metoprolol é erro: betabloqueador cardiosseletivo é seguro e benéfico na coronariopatia.",
+   "Suspender metoprolol priva o coronariopata de benefício sem ganho respiratório comprovado.",
+   "Com exacerbação e eosinófilos de 340/mm³, só associar LAMA subtrata; o corticoide inalatório reduz novas exacerbações."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Homem, 69 anos de idade, diabético e hipertenso há mais de 15 anos, e com antecedente de revascularização miocárdica há cinco anos. Após internação na UTI por pneumonia comunitária grave com síndrome do desconforto respiratório, evoluiu com injúria renal aguda e necessidade de diálise por método lento contínuo. No 20º dia de internação, está extubado, sem vasopressores, com melhora do delirium, mas ainda anúrico e necessitando suporte renal artificial. A conduta mais adequada neste momento é:",
+  "alts": [
+   "Realizar biópsia renal.",
+   "Transicionar para hemodiálise intermitente.",
+   "Passar cateter de diálise de longa permanência.",
+   "Administrar furosemida em dose alta."
+  ],
+  "gab": 1,
+  "tema": "nefro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012",
+  "coment": "A terapia renal contínua é preferida na instabilidade hemodinâmica. Com o paciente extubado, sem vasopressor e melhorando, persistindo apenas a dependência dialítica, a conduta é transicionar para hemodiálise intermitente, que libera o paciente para mobilização e reabilitação (KDIGO 2012). Anúria prolongada após choque e SDRA é compatível com necrose tubular aguda grave, que pode recuperar em semanas; não há indicação de biópsia. Diurético em dose alta não trata nem acelera a recuperação da lesão renal.",
+  "porAlt": [
+   "Biópsia não é indicada: o contexto de choque e SDRA explica necrose tubular aguda, sem suspeita de glomerulopatia.",
+   "Correta: estável e sem vasopressor, o paciente pode migrar da terapia contínua para hemodiálise intermitente.",
+   "Cateter de longa permanência só se justifica quando a dependência dialítica se prolonga; a prioridade agora é a modalidade.",
+   "Furosemida em dose alta não recupera a função renal nem abrevia a diálise, e é ototóxica."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Logo após a intubação de uma paciente com crise asmática grave, você ajustou o ventilador com os seguintes parâmetros: modo controlado a volume; Vc 480 mL (8 mL/kg); FR 14 ipm; PEEP 3 cmH2O; FiO2 40%; fluxo 40 L/min (onda quadrada). A intubação foi realizada com cetamina e rocurônio. O ventilador mecânico apresenta alarmes de alta criticidade: pressão de pico 45 cmH2O; volume-minuto 2 L/min. Assinale a alternativa que apresenta a conduta mais adequada.",
+  "alts": [
+   "Trocar tubo orotraqueal.",
+   "Ventilar com bolsa-valva-máscara.",
+   "Liberar alarme de pressão de pico.",
+   "Realizar aspiração da cânula orotraqueal."
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "Recomendações Brasileiras de Ventilação Mecânica (AMIB/SBPT), 2013",
+  "coment": "Na asma grave intubada, a alta resistência das vias aéreas eleva a pressão de pico, sobretudo com fluxo quadrado, sem que isso signifique lesão alveolar: os parâmetros de segurança são a pressão de platô (menor que 30 cmH2O) e a auto-PEEP. Quando o pico atinge o limite do alarme, o ventilador interrompe a inspiração e o volume entregue cai, o que explica volume-minuto de 2 L/min contra 6,7 L/min programados. A conduta é elevar o limite do alarme (até cerca de 50 cmH2O) e checar platô e auto-PEEP (AMIB/SBPT 2013).",
+  "porAlt": [
+   "Trocar o tubo só se houver obstrução ou mau posicionamento comprovados; o pico alto aqui é esperado pela broncoconstrição.",
+   "Ventilar com bolsa-valva-máscara no asmático aumenta hiperinsuflação e auto-PEEP, sem resolver a causa.",
+   "Correta: o alarme de pico interrompe a inspiração e corta o volume; liberá-lo e monitorar o platô restaura a ventilação.",
+   "Aspirar a cânula cabe se houver secreção; sem indício de obstrução, não explica o volume-minuto baixo."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Homem, 52 anos de idade, com diagnóstico de adenocarcinoma de cólon metastático para fígado e peritônio, em tratamento com 5-fluorouracil e irinotecano. Tomografia recente apresentou progressão da doença. Procurou pronto atendimento com sialorreia, vômitos e diarreia. Ao exame clínico, apresentou PA de 100x60 mmHg, SpO2 de 95%, FC de 51 bpm, ictérico 2+/4+, miose bilateral, ausculta pulmonar com roncos difusos. Assinale a alternativa que apresenta o tratamento mais adequado.",
+  "alts": [
+   "Atropina.",
+   "Propantelina.",
+   "Piridostigmina.",
+   "Ondasentrona."
+  ],
+  "gab": 0,
+  "tema": "onco",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESMO Clinical Practice Guideline for metastatic colorectal cancer, 2023 (e bula do irinotecano)",
+  "coment": "Sialorreia, vômitos, diarreia, bradicardia, miose e broncorreia em uso de irinotecano configuram a síndrome colinérgica aguda do fármaco, que inibe a acetilcolinesterase. A icterícia agrava o risco de toxicidade, pois a hiperbilirrubinemia reduz a eliminação do metabólito ativo SN-38. O tratamento é atropina, antagonista muscarínico que reverte bradicardia, hipersecreção e diarreia precoce, usada também como profilaxia nos ciclos seguintes (bula e ESMO 2023). Piridostigmina é anticolinesterásico e pioraria o quadro.",
+  "porAlt": [
+   "Correta: atropina reverte a síndrome colinérgica do irinotecano (bradicardia, miose, sialorreia e broncorreia).",
+   "Propantelina é antimuscarínico oral de ação periférica, inadequado para o quadro agudo com bradicardia e broncorreia.",
+   "Piridostigmina inibe a acetilcolinesterase e agravaria os sinais colinérgicos.",
+   "Ondansetrona trata náusea, mas não reverte bradicardia, miose e hipersecreção colinérgica."
+  ],
+  "fonte": {
+   "banca": "USP especialidades clínicas (FUVEST)",
+   "ano": 2025,
+   "prova": "2025"
+  }
+ },
+ {
+  "q": "Homem, 18 anos de idade, sem comorbidades, comparece no pronto-socorro com queixa de epigastralgia e vômitos que melhoraram com metoclopramida e omeprazol. Evoluiu com dificuldade para fechar a boca e rigidez no pescoço, iniciadas há seis horas. Ao exame neurológico: distonia oromandibular, com abertura involuntária da mandíbula, além de distonia cervical, caracterizada por retrocolo e laterocolo. Considerando o caso apresentado, assinale a alternativa que apresenta o tratamento mais adequado.",
+  "alts": [
+   "Levetiracetam.",
+   "Fenitoína.",
+   "Biperideno.",
+   "Haloperidol."
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "EMA, revisão de segurança da metoclopramida (restrição de dose e duração), 2013",
+  "coment": "Distonia aguda (abertura mandibular involuntária, retrocolo e laterocolo) horas após metoclopramida, antagonista dopaminérgico D2, é reação extrapiramidal aguda, mais comum em homens jovens. O tratamento é anticolinérgico parenteral (biperideno 2 a 5 mg IM ou IV) ou anti-histamínico (difenidramina), com resposta em minutos, mantendo via oral por alguns dias. A EMA (2013) restringiu a metoclopramida a doses baixas e uso curto justamente pelo risco neurológico. Haloperidol, outro antagonista D2, pioraria o quadro.",
+  "porAlt": [
+   "Levetiracetam é anticonvulsivante; o quadro é distonia medicamentosa, não crise epiléptica.",
+   "Fenitoína não trata distonia aguda, que não é fenômeno epiléptico.",
+   "Correta: o anticolinérgico biperideno reverte em minutos a distonia aguda induzida por antagonista dopaminérgico.",
+   "Haloperidol bloqueia receptores D2 como a metoclopramida e agravaria a distonia."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 30 anos de idade, relata tosse e febre. Ao exame clínico, encontra-se confuso, com FR de 30 irpm e SpO2 de 85%, em ar ambiente. Iniciada máscara não reinalante em flush rate e paciente manteve esforço respiratório com SpO2 de 87%, com FR de 35 irpm, FC de 120 bpm e PA de 100×60 mmHg. A radiografia de tórax é apresentada na imagem a seguir: Em relação ao caso descrito, a conduta mais adequada na intubação orotraqueal deste paciente é:",
+  "alts": [
+   "Intubação com paciente acordado.",
+   "Realizar resgate com máscara laríngea.",
+   "Pré-oxigenação com ventilação não invasiva.",
+   "Pré oxigenação e intubação com ventilação apneica com cateter nasal de alto fluxo."
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Difficult Airway Society guidelines for tracheal intubation in critically ill adults, 2018 (e ensaio PREOXI, NEJM 2024)",
+  "coment": "Pneumonia com insuficiência respiratória hipoxêmica grave (SpO2 de 87% com máscara não reinalante, taquipneia, confusão) e alto risco de dessaturação durante a intubação. A pré-oxigenação com ventilação não invasiva (FiO2 de 100% e PEEP) recruta alvéolos e amplia a reserva de oxigênio melhor que a máscara convencional; o ensaio PREOXI (2024) mostrou menos hipoxemia grave na intubação, e a DAS (2018) recomenda VNI no hipoxêmico grave. A resposta não depende da radiografia.",
+  "porAlt": [
+   "Intubação acordado é para via aérea anatomicamente difícil prevista; aqui o problema é fisiológico, a hipoxemia.",
+   "Máscara laríngea é resgate após falha de intubação, não estratégia inicial planejada.",
+   "Correta: a VNI com FiO2 alta e PEEP otimiza a pré-oxigenação no hipoxêmico grave e reduz a dessaturação.",
+   "Cateter nasal de alto fluxo ajuda na oxigenação apneica, mas com shunt grave a VNI pré-oxigena melhor e é preferida."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 61 anos de idade, com sobrepeso, trabalhador braçal, com queixas de dor em mãos, ombros e joelho esquerdo há 5 anos. Relata piora progressiva, principalmente ao final do dia, e rigidez matinal com duração de 30 minutos. Nega sintomas sistêmicos. Ao exame clínico, apresenta aumento de volume nas interfalangeanas proximais e distais, com nódulos palpáveis, além de crepitação nos ombros e nos joelhos. Há redução da mobilidade do joelho esquerdo. A radiografia do joelho esquerdo é apresentada na imagem a seguir: A abordagem inicial mais adequada em relação ao joelho esquerdo é:",
+  "alts": [
+   "Medidas não farmacológicas.",
+   "Indicação de artroplastia.",
+   "Infiltração intra-articular com glicorticoide.",
+   "Glicocorticoide oral sistêmico."
+  ],
+  "gab": 0,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACR/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, 2019",
+  "coment": "Dor mecânica com piora ao fim do dia, rigidez matinal de 30 minutos, nódulos em interfalangeanas proximais e distais (Bouchard e Heberden) e crepitação em homem de 61 anos com sobrepeso e trabalho braçal: osteoartrite. Mesmo com dano radiográfico, a abordagem inicial é não farmacológica (ACR 2019): exercício com fortalecimento de quadríceps, perda de peso, educação, órteses e bengala, com analgésicos conforme a dor. Infiltração serve a crises, e artroplastia à falha do tratamento clínico com limitação importante.",
+  "porAlt": [
+   "Correta: exercício, perda de peso e educação são a base inicial do tratamento da osteoartrite de joelho.",
+   "Artroplastia é reservada à falha do tratamento clínico otimizado com dor e limitação graves.",
+   "Infiltração com corticoide alivia crises com derrame, mas não é a abordagem inicial.",
+   "Corticoide sistêmico não tem indicação na osteoartrite, que não é doença inflamatória sistêmica."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Paciente, 50 anos de idade, sem comorbidades relevantes, apresenta dor torácica pleurítica e dispneia súbita. Pela avaliação clínica (escore de Wells), a probabilidade pré-teste de Tromboembolismo Pulmonar (TEP) é estimada em 20%. Foi solicitado um dímero-D, cujo desempenho em meta-análises é: sensibilidade de 95% e especificidade de 40%. O resultado foi negativo. Observe o gráfico a seguir: Em relação às informações apresentadas, a probabilidade pós-teste aproximada de TEP nesse paciente é:",
+  "alts": [
+   "2%.",
+   "5%.",
+   "7%.",
+   "10%."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Diretriz AHA/ACC de tromboembolismo pulmonar agudo, 2026 (e nomograma de Fagan, 1975)",
+  "coment": "A razão de verossimilhança negativa do dímero-D é (1 menos sensibilidade) dividido pela especificidade: 0,05/0,40 = 0,125. A chance pré-teste de 20% é 0,2/0,8 = 0,25; a chance pós-teste é 0,25 x 0,125 = 0,031, que corresponde a probabilidade de cerca de 3%. No nomograma de Fagan a leitura fica entre 2 e 3%, e 2% é a alternativa mais próxima. Probabilidade residual tão baixa permite afastar TEP sem exame de imagem quando a probabilidade clínica não é alta (AHA/ACC 2026).",
+  "porAlt": [
+   "Correta: a razão de verossimilhança negativa de 0,125 sobre a chance pré-teste de 0,25 dá cerca de 3%, aproximado para 2%.",
+   "5% superestima o resultado; o cálculo pela razão de verossimilhança negativa dá cerca de 3%.",
+   "7% corresponderia a um teste com sensibilidade bem menor; o valor calculado é cerca de 3%.",
+   "10% ignora o efeito do teste negativo, que reduz a probabilidade de 20% para cerca de 3%."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 62 anos de idade, tabagista de 60 anos-maço, procura o pronto atendimento com edema de face, de membros superiores, pletora facial, sudorese e circulação colateral no tórax. Ao exame clínico, apresenta-se consciente e orientado, com FC de 94 bpm, PA de 140×90 mmHg, FR de 21 irpm e SpO2 de 95% em ar ambiente. A tomografia de tórax é mostrada nas imagens a seguir: Em relação ao caso apresentado, a próxima conduta mais adequada é:",
+  "alts": [
+   "PET-CT.",
+   "Radioterapia.",
+   "Biópsia transtorácica.",
+   "Corticoterapia em altas doses."
+  ],
+  "gab": 2,
+  "tema": "onco",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACCP Diagnosis and Management of Lung Cancer, 3rd edition, 2013",
+  "coment": "Tabagista pesado com síndrome da veia cava superior (edema de face e membros superiores, pletora, circulação colateral), porém estável, sem estridor, edema laríngeo ou rebaixamento de consciência. Nessa situação a prioridade é o diagnóstico histológico antes de qualquer tratamento, pois a conduta muda conforme o tumor (carcinoma de pequenas células e linfoma respondem à quimioterapia) e corticoide ou radioterapia empíricos podem inviabilizar o diagnóstico, sobretudo de linfoma (ACCP 2013). A via da biópsia segue a lesão mais acessível na tomografia.",
+  "porAlt": [
+   "PET-CT estadia, mas não fornece o tipo histológico, que é a informação que define o tratamento.",
+   "Radioterapia empírica fica para ameaça à via aérea; sem histologia pode comprometer o diagnóstico.",
+   "Correta: com o paciente estável, obtém-se primeiro a histologia pela via mais acessível na tomografia.",
+   "Corticoide em altas doses pode mascarar linfoma e não trata obstrução por carcinoma; não precede a biópsia."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 77 anos de idade, bancário aposentado, sedentário, hipertenso, diabético e tabagista, apresenta perda de iniciativa e diminuição da interação social. Ele nega tristeza ou falta de prazer nas atividades. A esposa relata lapsos de memória com piora no último ano. Tem dificuldades para controlar as suas finanças, precisando de ajuda ocasionalmente, mas é independente em suas atividades diárias. Testes cognitivos com alterações significativas nos domínios de atenção e de memória. Exames laboratoriais e de neuroimagem sem alterações. A conduta terapêutica mais adequada é:",
+  "alts": [
+   "Donepezila.",
+   "Memantina.",
+   "Reabilitação cognitiva.",
+   "Estimulação magnética transcraniana."
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AAN Practice Guideline Update: Mild Cognitive Impairment, 2018",
+  "coment": "Queixa cognitiva corroborada pela esposa, déficits objetivos de atenção e memória e independência funcional, com apenas ajuda ocasional nas finanças: comprometimento cognitivo leve. A diretriz da AAN (2018) não recomenda inibidores da colinesterase nem memantina no CCL, por ausência de benefício sustentado e por efeitos adversos, e recomenda exercício regular e treino ou reabilitação cognitiva, além do controle dos fatores de risco vasculares (hipertensão, diabetes, tabagismo). Estimulação magnética transcraniana não tem indicação.",
+  "porAlt": [
+   "Donepezila não é recomendada no CCL: não retarda a progressão para demência e causa efeitos adversos.",
+   "Memantina é aprovada para demência de Alzheimer moderada a grave, não para comprometimento cognitivo leve.",
+   "Correta: reabilitação cognitiva, com exercício e controle vascular, é a conduta recomendada no CCL.",
+   "Estimulação magnética transcraniana não tem evidência para o tratamento do comprometimento cognitivo leve."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 42 anos de idade, asmático, está em tratamento com beclometasona 500 µg, inalatória, 12/12 horas e salbutamol 100 µg de resgate. Apresentou melhora inicial dos sintomas, porém necessita de resgate quatro vezes por semana. Nos últimos três meses, teve uma crise em que necessitou de corticoterapia oral. Assinale a alternativa que apresenta a conduta mais apropriada.",
+  "alts": [
+   "Manter corticoide inalatório e resgate com β2-agonista de curta duração e associar antileucotrieno",
+   "Associar broncodilatador anticolinérgico ao corticoide inalatório e manter β2-agonista de curta duração.",
+   "Aumentar dose do corticoide inalatório e manter resgate com β2-agonista de curta duração.",
+   "Substituir terapia por β2-agonista de longa duração associado a corticoide inalatório para manutenção e resgate."
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Global Initiative for Asthma (GINA), Global Strategy for Asthma Management and Prevention, 2026",
+  "coment": "Asma não controlada (resgate quatro vezes por semana) com exacerbação tratada com corticoide oral nos últimos três meses, apesar de beclometasona 1.000 µg/dia (dose média) e SABA de resgate. Antes de qualquer ajuste, checam-se adesão e técnica inalatória. A GINA 2026 prioriza a Trilha 1: substituir o esquema por ICS-formoterol como manutenção e resgate (MART), que reduz exacerbações graves em comparação a aumentar o corticoide ou associar outra droga mantendo o SABA. Antileucotrieno e LAMA são opções inferiores nessa etapa.",
+  "porAlt": [
+   "Antileucotrieno é menos eficaz que o LABA associado e mantém o SABA isolado como resgate.",
+   "LAMA entra como adicional nas etapas 4 e 5, após ICS-LABA, e não substitui a otimização com MART.",
+   "Aumentar só o corticoide inalatório mantendo SABA reduz menos exacerbações que a estratégia MART.",
+   "Correta: ICS-formoterol como manutenção e resgate (MART) é a escolha preferencial da GINA para asma não controlada."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Mulher, 61 anos de idade, em avaliação pré-operatória de cirurgia bariátrica com bypass gástrico. Tem antecedente de asma e obesidade. Está em uso de formoterol-budesonida 6/200 µg 12/12 horas e salbutamol, se necessário. Relata que consegue subir dois lances de escada. Nega angina e palpitações. Relata que acorda à noite, pelo menos uma vez na semana, com necessidade de salbutamol de resgate. A última exacerbação de asma ocorreu há 1 ano. Queixa-se, também, de roncos noturnos e sonolência diurna. Nega episódios de apneia. Ao exame clínico, apresenta sinais vitais normais e IMC 42,5 kg/m². Os exames laboratoriais e eletrocardiograma estão normais. A conduta mais adequada no manejo de asma no perioperatório é:",
+  "alts": [
+   "Prosseguir com a cirurgia, iniciar prednisona 2-3 dias antes e manter por 3 dias após.",
+   "Fazer step-up do tratamento com terapia MART e prosseguir com a cirurgia.",
+   "Fazer step-up do tratamento com terapia MART e reavaliar em 30 dias.",
+   "Postergar a cirurgia até realização de prova de função pulmonar e polissonografia."
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Global Initiative for Asthma (GINA), Global Strategy for Asthma Management and Prevention, 2026 (manejo perioperatório)",
+  "coment": "Despertar noturno semanal com uso de resgate indica asma não controlada em candidata a cirurgia eletiva. A GINA 2026 recomenda obter bom controle antes de procedimento eletivo, pois asma descontrolada eleva o risco de broncoespasmo e complicações respiratórias perioperatórias. Como já usa budesonida-formoterol fixo com SABA de resgate, o step-up adequado é migrar para MART e reavaliar em cerca de um mês antes de liberar a cirurgia. Roncos e sonolência pedem investigar apneia do sono, parte da avaliação bariátrica, mas isso não trata a asma.",
+  "porAlt": [
+   "Corticoide sistêmico perioperatório não substitui o controle da asma e não se justifica como rotina aqui.",
+   "Operar com asma não controlada eleva o risco de broncoespasmo; o step-up exige reavaliação antes da cirurgia.",
+   "Correta: migrar para MART e reavaliar em cerca de 30 dias busca o controle da asma antes da cirurgia eletiva.",
+   "Espirometria e polissonografia compõem a avaliação, mas não tratam a asma, que precisa de step-up já."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Mulher, 24 anos de idade, com lúpus eritematoso sistêmico, refere urina espumosa e edema de membros inferiores há duas semanas. Comparece ao pronto-socorro com queixa de perda visual bilateral e cefaleia holocraniana há duas horas. Ao exame clínico, apresenta PA de 200×140 mmHg, FC de 104 bpm, rítmica, SpO2 de 98%, em ar ambiente. Sonolenta, sem sinais neurológicos localizatórios. • Exames laboratoriais: Ur: 120 mg/dL Cr: 4 mg/dL • Urina tipo 1: 25.000 hemácias/mL (com dismorfismo) Proteinúria (>1 g/L) Foi realizada tomografia de crânio sem alterações. A ressonância magnética de crânio é apresentada na imagem a seguir: A conduta terapêutica inicial desta paciente deve ser:",
+  "alts": [
+   "Plasmaferese.",
+   "Nitroprussiato de sódio.",
+   "Hemodiálise.",
+   "Pulsoterapia com metilprednisolona."
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Diretriz Brasileira de Hipertensão Arterial, 2025 (emergência hipertensiva)",
+  "coment": "Perda visual bilateral, cefaleia e sonolência com PA de 200x140 mmHg em lúpus com nefrite ativa sugerem encefalopatia hipertensiva com síndrome de encefalopatia posterior reversível (PRES), típica do LES com lesão renal. É emergência hipertensiva com lesão de órgão-alvo: a primeira medida é reduzir a PA com anti-hipertensivo intravenoso titulável, como o nitroprussiato, em até 25% na primeira hora (Diretriz Brasileira de HA 2025). A nefrite lúpica exigirá imunossupressão, mas a prioridade imediata é a pressão.",
+  "porAlt": [
+   "Plasmaférese é para microangiopatia trombótica ou síndrome antifosfolípide catastrófica, sem indício aqui.",
+   "Correta: na emergência hipertensiva com PRES, a redução controlada da PA com droga IV titulável é a primeira medida.",
+   "Hemodiálise exige indicação urgente (hipercalemia, congestão refratária, uremia grave), não demonstrada.",
+   "Pulsoterapia tratará a nefrite, mas não é a medida inicial diante da emergência hipertensiva com encefalopatia."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Mulher, 38 anos de idade, portadora de valvopatia reumática com antecedente de valvoplastia mitral por cateter balão há 3 anos, internou por quadro de queda do estado geral, dispneia e febre. Propedêutica de insuficiência aórtica importante e pouca congestão pulmonar. Hemoculturas identificam Streptococcus viridans, com sensibilidade a penicilina (CIM < 0,12 µg/mL) e β-lactâmicos. Ecocardiograma: insuficiência aórtica importante, com imagens filamentares aderidas à face ventricular da cúspide não coronariana da valva aórtica. No 9º dia de tratamento com ceftriaxona, a paciente apresenta piora súbita da dispneia com congestão pulmonar importante. PA de 150×40 mmHg, FC de 40 bpm. Em relação ao caso apresentado, qual a mais provável complicação, como confirmá-la e qual a conduta terapêutica?",
+  "alts": [
+   "Infarto do miocárdio por embolização da vegetação para coronária. Após eletrocardiograma, está indicado cateterismo cardíaco de emergência e angioplastia coronária.",
+   "Perfuração valvar com piora aguda da insuficiência cardíaca. Confirmar com novo ecocardiograma transtorácico e encaminhar para cirurgia.",
+   "Bloqueio atrioventricular por extensão paravalvar da endocardite. Após eletrocardiograma, está indicado ecocardiograma transeofágico. A conduta é cirurgia de urgência.",
+   "Piora da endocardite por resistência antimicrobiana, o ideal é transicionar o antibiótico para penicilina e gentamicina, além de planejar tratamento cirúrgico."
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "ESC Guidelines for the management of endocarditis, 2023",
+  "coment": "Endocardite aórtica com bradicardia súbita (FC 40 bpm) sugere bloqueio atrioventricular por extensão perivalvar da infecção: abscesso da raiz aórtica atingindo o sistema de condução, vizinho à cúspide não coronariana. O ECG confirma o bloqueio, e o ecocardiograma transesofágico, bem mais sensível que o transtorácico, identifica abscesso ou fístula. A ESC 2023 indica cirurgia de urgência na infecção localmente não controlada, e a insuficiência aórtica grave com congestão reforça a indicação.",
+  "porAlt": [
+   "Embolia coronariana causaria dor e alterações isquêmicas; bradicardia com BAV aponta extensão perivalvar.",
+   "Perfuração piora a insuficiência aórtica, mas não explica o BAV, e o transtorácico é pouco sensível para complicações.",
+   "Correta: BAV novo indica abscesso perivalvar; confirma-se com ECG e ETE, e a conduta é cirurgia de urgência.",
+   "O estreptococo é sensível à penicilina; a piora não é resistência, e trocar o antibiótico não resolve o abscesso."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Mulher, 18 anos de idade, com rinite alérgica e sinusites de repetição desde a infância. Há um ano, diarreia com restos alimentares e perda ponderal, com piora após ingestão de massas e pão. • Exames laboratoriais: Hb: 12,5 g/dL Eosinófilos: 200/mm³ IgG: 1.200 mg/dL (ref.: 700 a 1.600 mg/dL) IgA: < 5 mg/dL (ref.:70 a 400 mg/dL) IgM: 325 mg/dL (ref.:40 a 230 mg/dL) IgE: 545 UI/mL (ref.: < 100 UI/mL) Parasitológicos de fezes (3): negativos Em relação ao caso apresentado, o teste mais indicado para o início da investigação é:",
+  "alts": [
+   "Genotipagem para HLA DQ2 e DQ8.",
+   "Biópsia de 2ª porção do duodeno.",
+   "Anticorpo IgE específico para glúten.",
+   "Anticorpo IgG antigliadina deaminada."
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Celiac Disease, 2023",
+  "coment": "Diarreia com perda de peso e piora após trigo sugere doença celíaca, e a IgA indetectável (menor que 5 mg/dL) confirma deficiência seletiva de IgA, mais frequente em celíacos. Nesse contexto a antitransglutaminase IgA dá falso-negativo, e o ACG 2023 recomenda iniciar com testes baseados em IgG: antipeptídeo de gliadina deamidada IgG ou antitransglutaminase IgG. A positividade leva à biópsia duodenal com múltiplos fragmentos, sem retirar o glúten antes. O HLA só tem valor preditivo negativo.",
+  "porAlt": [
+   "HLA-DQ2/DQ8 é muito comum na população; serve para excluir, não para iniciar a investigação.",
+   "A biópsia confirma, mas vem após a sorologia; iniciar por ela não é a estratégia recomendada.",
+   "IgE específica investiga alergia ao trigo, mecanismo diferente da doença celíaca.",
+   "Correta: com deficiência de IgA, a sorologia inicial deve ser baseada em IgG, como a antigliadina deamidada IgG."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Mulher, 38 anos de idade, com dor abdominal, metrorragia e perda ponderal há cerca de três meses. Durante a investigação, realizou ressonância de pelve com uma lesão expansiva no ovário direito. Coleta de antígeno CA 125 de 221,9 U/mL (ref.: < 35 U/mL) e antígeno carcinoembrionário CEA de 99,3 ng/mL (ref.: < 5 ng/mL). Submetida à videolaparoscopia diagnóstica com lesão oncológica em anexo direito e carcinomatose peritoneal, sem a possibilidade de ressecção total. Realizadas biópsias com o achado de adenocarcinoma com estudo imuno-histoquímico a seguir: CK7: negativo CK20: positivo CDX2: positivo GATA3: negativo ER (receptor de estrogênio): negativo PR (receptor de progesterona): negativo HER2: negativo PAX8: negativo WT1: negativo Neste caso, o exame com maior probabilidade de confirmar o sítio primário é:",
+  "alts": [
+   "Mamografia.",
+   "Colonoscopia.",
+   "Endoscopia digestiva alta.",
+   "Não é necessário nenhum exame adicional."
+  ],
+  "gab": 1,
+  "tema": "onco",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ESMO Clinical Practice Guideline: Cancer of unknown primary site, 2023",
+  "coment": "Massa ovariana com carcinomatose e CEA muito elevado, mas perfil imuno-histoquímico CK7 negativo, CK20 positivo e CDX2 positivo, padrão típico de adenocarcinoma colorretal. O painel afasta primário de ovário (seroso é CK7, PAX8 e WT1 positivos) e de mama (GATA3 e receptores hormonais). Metástase ovariana de tumor intestinal é frequente e simula neoplasia primária de ovário; a colonoscopia localiza o primário e define o tratamento (ESMO 2023).",
+  "porAlt": [
+   "Mamografia seria indicada se GATA3 ou receptores hormonais fossem positivos, o que não ocorre.",
+   "Correta: o perfil CK7 negativo com CK20 e CDX2 positivos aponta primário colorretal, confirmado pela colonoscopia.",
+   "Adenocarcinoma gástrico costuma ser CK7 positivo; o perfil CK7 negativo com CDX2 positivo favorece o cólon.",
+   "O painel sugere primário colorretal, que precisa ser localizado para definir tratamento e prognóstico."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Mulher, 44 anos de idade, apresenta febre persistente, poliartrite simétrica, dispneia, fenômeno de Raynaud, fraqueza muscular progressiva dos 4 membros e dificuldade para deglutir há 3 semanas. Tem dislipidemia e faz uso de atorvastatina. Laboratorialmente, apresenta creatinofosfoquinase sérica de 9.500 U/L e biópsia muscular com várias fibras musculares necróticas, além de infiltração inflamatória linfomononuclear. O exame físico das mãos da paciente é apresentado na imagem a seguir: Assinale a alternativa que apresenta o diagnóstico mais provável.",
+  "alts": [
+   "Artrite reumatoide com polimiosite.",
+   "Síndrome antissintetase.",
+   "Esclerose sistêmica com miosite.",
+   "Miopatia necrosante imunomediada."
+  ],
+  "gab": 1,
+  "tema": "reumato",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies, 2017",
+  "coment": "Miosite (CK de 9.500 U/L, fraqueza dos quatro membros, disfagia) com febre, poliartrite, Raynaud e dispneia por doença pulmonar intersticial compõe a síndrome antissintetase, cujo achado clássico nas mãos é a mão de mecânico (hiperceratose fissurada nas bordas dos dedos). O anticorpo mais comum é o anti-Jo-1. A biópsia com necrose e infiltrado inflamatório é compatível. Na miopatia necrosante imunomediada por estatina (anti-HMGCR) há necrose com pouca inflamação, sem artrite, Raynaud ou pneumopatia.",
+  "porAlt": [
+   "Na artrite reumatoide com miosite, febre, Raynaud, pneumopatia e mãos de mecânico não compõem o quadro típico.",
+   "Correta: miosite, artrite, Raynaud, pneumopatia e febre formam a síndrome antissintetase.",
+   "Esclerose sistêmica teria espessamento cutâneo e esclerodactilia; miosite grave com artrite favorece antissintetase.",
+   "A miopatia necrosante por estatina tem pouca inflamação e não causa artrite, Raynaud ou pneumopatia."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 76 anos de idade, em avaliação pré-operatória de ressecção transuretral de próstata por adenocarcinoma. Possui antecedente de estenose aórtica, tendo sido submetido à troca valvar com implante de valva metálica há 6 anos. Está em uso de enalapril e varfarina. Ao exame clínico, apresenta estalido de abertura em foco aórtico. Exames complementares e INR dentro da faixa terapêutica. A conduta mais adequada no manejo da anticoagulação é:",
+  "alts": [
+   "Suspender a varfarina 3 dias antes da cirurgia e iniciar enoxaparina.",
+   "Suspender a varfarina 5 dias antes da cirurgia e iniciar enoxaparina quando INR < 2.",
+   "Suspender a varfarina 7 dias antes da cirurgia e iniciar enoxaparina quando INR < 1,5.",
+   "Manter a varfarina e realizar a cirurgia com INR dentro da faixa terapêutica."
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Diretriz de Avaliação Cardiovascular Perioperatória da SBC, 2024 (e ACC/AHA Guideline for Valvular Heart Disease, 2020)",
+  "coment": "RTU de próstata tem alto risco de sangramento e exige suspender a varfarina cerca de 5 dias antes, até o INR ficar próximo do normal. Na prótese mecânica aórtica de duplo folheto sem outros fatores de risco a ponte é dispensável; aqui, porém, há idade acima de 75 anos, hipertensão e neoplasia ativa, que elevam o risco tromboembólico e justificam ponte com heparina de baixo peso molecular, iniciada quando o INR sai da faixa terapêutica (menor que 2) e suspensa 24 horas antes da cirurgia (SBC 2024). Manter a varfarina é inaceitável nessa cirurgia.",
+  "porAlt": [
+   "Três dias não bastam para normalizar o INR, e a enoxaparina se sobreporia à varfarina ainda ativa.",
+   "Correta: suspender a varfarina 5 dias antes e iniciar enoxaparina quando o INR cai abaixo de 2 faz a ponte adequada.",
+   "Sete dias é mais que o necessário, e esperar INR menor que 1,5 deixa a prótese sem proteção por tempo excessivo.",
+   "RTU de próstata é procedimento de alto risco hemorrágico e não pode ser feita com INR terapêutico."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 96 anos de idade, viúvo há quatro anos, mora sozinho, dirige seu veículo regularmente e realiza suas atividades diárias sem ajuda. Durante consulta de rotina, os filhos expressam preocupação com sua segurança, sugerindo que ele não more mais sozinho e que pare de dirigir. A conduta mais adequada é:",
+  "alts": [
+   "Primeiro orientar parar de dirigir e, depois, morar com os filhos.",
+   "Primeiro orientar morar com os filhos e, depois, parar de dirigir.",
+   "Avaliar as habilidades cognitivas, físicas e funcionais.",
+   "Manter as atividades do paciente e tranquilizar os filhos."
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "AGS/NHTSA Clinician's Guide to Assessing and Counseling Older Drivers, 4th edition, 2019",
+  "coment": "Idade avançada isolada não define incapacidade para dirigir nem para morar sozinho. Um homem de 96 anos independente nas atividades diárias precisa de avaliação objetiva das habilidades cognitivas (atenção, função executiva, visuoespacial), físicas (visão, força, mobilidade, tempo de reação) e funcionais antes de qualquer restrição, como orienta o guia da AGS (2019). Decisões baseadas só na idade ferem a autonomia; tranquilizar sem avaliar ignora riscos reais.",
+  "porAlt": [
+   "Restringir a direção sem avaliação objetiva fere a autonomia; a idade isolada não justifica a proibição.",
+   "Mudar a moradia sem avaliar a funcionalidade desrespeita a autonomia de um idoso independente.",
+   "Correta: a avaliação cognitiva, física e funcional define objetivamente a segurança para dirigir e morar sozinho.",
+   "Tranquilizar sem avaliar ignora riscos possíveis na idade avançada, como déficit visual ou cognitivo incipiente."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 86 anos de idade, diabético, com obesidade sarcopênica, nefropatia diabética (estágio IV) e varizes de membros inferiores, comparece à consulta de rotina com edema em membros inferiores, dificuldade de levantar-se da cadeira e histórico de duas quedas nos últimos quatro meses. A intervenção mais adequada para reduzir o risco de quedas é",
+  "alts": [
+   "tratar a sarcopenia com testosterona.",
+   "diminuir o edema com hidroclorotiazida.",
+   "diminuir o peso com dapagliflozina.",
+   "melhorar o equilíbrio com exercícios multicomponentes."
+  ],
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "World Guidelines for Falls Prevention and Management for Older Adults, 2022",
+  "coment": "Idoso com duas quedas em quatro meses e dificuldade para levantar-se da cadeira tem alto risco de novas quedas. As diretrizes mundiais de prevenção de quedas (2022) recomendam exercício multicomponente com ênfase em equilíbrio e fortalecimento, progressivo e ao menos três vezes por semana, a intervenção de maior evidência. Testosterona não reduz quedas; tiazídico causa hipotensão, distúrbio eletrolítico e urgência urinária e perde eficácia na DRC estágio 4; dapagliflozina não é tratamento de obesidade no idoso sarcopênico.",
+  "porAlt": [
+   "Testosterona não tem evidência de reduzir quedas e traz riscos cardiovasculares e prostáticos.",
+   "Tiazídico aumenta o risco de quedas por hipotensão, hiponatremia e urgência urinária, e perde eficácia na DRC 4.",
+   "Perder peso com dapagliflozina no idoso sarcopênico agrava a perda muscular e pode causar hipovolemia.",
+   "Correta: exercício multicomponente com equilíbrio e força é a intervenção de maior evidência contra quedas."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 79 anos de idade, viúvo há seis meses, mora sozinho, relata dificuldade para manter o sono há três semanas. Costuma dormir facilmente após o jantar, por volta das 20h, mas desperta às 2h da manhã e não consegue voltar a dormir. Refere cansaço ao longo do dia, mas nega sonolência excessiva. A conduta mais adequada é:",
+  "alts": [
+   "Mirtazapina 15 mg.",
+   "Trazodona 50 mg.",
+   "Higiene do sono.",
+   "Polissonografia."
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "European Insomnia Guideline, 2023",
+  "coment": "Idoso com dificuldade de manutenção do sono há três semanas, após o luto: dorme às 20h e acorda às 2h, somando cerca de 6 horas, padrão de avanço de fase comum no envelhecimento e agravado pelo hábito de deitar cedo. Sem sonolência excessiva, não há indicação de polissonografia. A primeira conduta é não farmacológica: higiene do sono e ajuste de horários, dentro da terapia cognitivo-comportamental para insônia, primeira linha pela Diretriz Europeia de Insônia (2023). Hipnóticos e antidepressivos sedativos aumentam quedas no idoso.",
+  "porAlt": [
+   "Mirtazapina causa sedação diurna, ganho de peso e quedas, sem indicação antes das medidas comportamentais.",
+   "Trazodona tem evidência fraca na insônia e causa hipotensão ortostática e quedas no idoso.",
+   "Correta: higiene do sono e ajuste de horários são a primeira conduta na insônia de manutenção do idoso.",
+   "Polissonografia não é necessária na insônia sem suspeita de apneia ou outro distúrbio do sono."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 32 anos de idade, com dermatite atópica moderada associada à rinossinusite crônica com pólipos nasais e obstrução nasal grave. Apesar do tratamento com metotrexato, introduzido há seis meses, permanece com baixa resposta terapêutica. Exames complementares: IgE sérica total: 3.500 UI/mL (ref.: < 100 UI/mL); eosinófilos no sangue periférico: 1.200/mm³ Neste momento, o tratamento mais adequado é:",
+  "alts": [
+   "Dupilumabe.",
+   "Ciclosporina.",
+   "Omalizumabe.",
+   "Rituximabe."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "EuroGuiDerm Guideline on atopic eczema, 2022 (e EPOS 2020)",
+  "coment": "Dermatite atópica moderada refratária a metotrexato associada a rinossinusite crônica com pólipos nasais grave, com IgE e eosinófilos elevados: doença de inflamação tipo 2. O dupilumabe, anticorpo contra o receptor alfa da IL-4 que bloqueia IL-4 e IL-13, é aprovado e eficaz nas duas condições (EuroGuiDerm 2022; EPOS 2020), tratando ambas com uma só droga. Omalizumabe não é indicado na dermatite atópica e a IgE de 3.500 UI/mL excede sua faixa de dosagem; ciclosporina não trata os pólipos.",
+  "porAlt": [
+   "Correta: o dupilumabe bloqueia a via IL-4/IL-13 e trata tanto a dermatite atópica quanto a polipose nasal.",
+   "Ciclosporina controla a dermatite, mas não trata a polipose nasal e tem toxicidade renal cumulativa.",
+   "Omalizumabe não tem indicação na dermatite atópica, e a IgE de 3.500 UI/mL excede a faixa de dosagem.",
+   "Rituximabe, anti-CD20, não tem papel em doenças de inflamação tipo 2 como estas."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 17 anos de idade, com tosse produtiva há dois meses, perda ponderal, sudorese e febre noturna, foi internado para investigação. Além de manter isolamento, a orientação mais adequada quanto às precauções é: Respiratória Contato Quarto privativo Máscara",
+  "alts": [
+   "Aerossol Sim Não N95",
+   "Aerossol Não Sim N95",
+   "Gotícula Não Não Cirúrgica",
+   "Gotícula Sim Sim Cirúrgica"
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Manual de Recomendações para o Controle da Tuberculose no Brasil, Ministério da Saúde, 2019",
+  "coment": "Tosse produtiva há dois meses, perda de peso, sudorese e febre noturna: tuberculose pulmonar presumida até prova em contrário. A transmissão ocorre por aerossóis (núcleos de Wells) que permanecem suspensos, e o Manual do MS (2019) exige precaução para aerossóis: quarto privativo, idealmente com pressão negativa e porta fechada, e máscara N95/PFF2 para os profissionais. Precaução de contato não é necessária, pois não há transmissão por superfícies. O paciente usa máscara cirúrgica fora do quarto.",
+  "porAlt": [
+   "Inverte o essencial: indica precaução de contato, desnecessária na tuberculose, e dispensa o quarto privativo.",
+   "Correta: aerossol, sem precaução de contato, com quarto privativo e máscara N95 para quem entra.",
+   "Tuberculose se transmite por aerossol, não por gotículas, e a máscara cirúrgica não protege o profissional.",
+   "Gotícula e máscara cirúrgica não bastam para tuberculose, e a precaução de contato é desnecessária."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Mulher, 21 anos de idade, com sintomas constitucionais, cervicalgia e episódios de síncope, principalmente ao se levantar. Ao exame clínico, apresenta PA indetectável em membro superior esquerdo e 150×100 mmHg no membro superior direito. A angiotomografia realizada pode ser observada na imagem a seguir: Em relação ao caso descrito, assinale a alternativa que apresenta a hipótese diagnóstica mais provável.",
+  "alts": [
+   "Sífilis terciária.",
+   "Displasia fibromuscular.",
+   "Vasculite primária de grandes vasos.",
+   "Aterosclerose precoce familiar."
+  ],
+  "gab": 2,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACR/EULAR classification criteria for Takayasu arteritis, 2022 (e EULAR recommendations for large vessel vasculitis, 2018)",
+  "coment": "Mulher jovem com sintomas constitucionais, cervicalgia (carotidínia), síncope ortostática e assimetria grave de pressão entre os braços, com PA indetectável à esquerda: arterite de Takayasu, vasculite primária de grandes vasos que acomete aorta e ramos, sobretudo a subclávia. Os critérios ACR/EULAR 2022 exigem idade até 60 anos e vasculite em exame de imagem, pontuando sexo feminino, discrepância de pressão e acometimento de subclávia. A angiotomografia mostra espessamento parietal e estenoses.",
+  "porAlt": [
+   "Sífilis terciária acomete a aorta ascendente com aneurisma, em idade mais avançada, não estenose de subclávia na jovem.",
+   "Displasia fibromuscular acomete artérias renais e carótidas, sem sintomas constitucionais ou inflamação.",
+   "Correta: jovem com sintomas sistêmicos e ausência de pulso em membro superior caracteriza arterite de Takayasu.",
+   "Aterosclerose precoce não explica sintomas constitucionais nem ocorre assim sem fatores de risco aos 21 anos."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Mulher, 70 anos de idade, com dor lombar há mais de 2 anos. Relata piora há 4 meses, com surgimento de dor em aperto e formigamento em nádegas e região posterior de ambas as pernas após caminhar cerca de dois quarteirões, que melhoram com repouso. Ao exame clínico, apresenta piora de dor lombar com a extensão da coluna, sem outras alterações. Neste momento, o tratamento mais adequado para esta paciente deve incluir:",
+  "alts": [
+   "Exercícios físicos e analgesia.",
+   "Repouso e anti-inflamatórios.",
+   "Infiltração de canal medular.",
+   "Intervenção cirúrgica."
+  ],
+  "gab": 0,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACP Clinical Practice Guideline for low back pain, 2017 (e NASS guideline for degenerative lumbar spinal stenosis, 2011)",
+  "coment": "Dor lombar crônica com claudicação neurogênica (dor e parestesia em nádegas e pernas ao caminhar, com alívio no repouso) e piora à extensão da coluna em idosa sugerem estenose do canal lombar. Sem déficit neurológico nem síndrome da cauda equina, o tratamento inicial é conservador: exercícios (fisioterapia, condicionamento com flexão) e analgesia (ACP 2017; NASS 2011). Repouso prolongado piora o desfecho. Infiltração e cirurgia ficam para falha do tratamento clínico ou déficit progressivo.",
+  "porAlt": [
+   "Correta: exercício e analgesia são o tratamento inicial da estenose lombar sem déficit neurológico.",
+   "Repouso piora dor e funcionalidade, e anti-inflamatório prolongado é arriscado na idosa.",
+   "Infiltração epidural tem benefício modesto e curto, reservada à falha do tratamento conservador.",
+   "Cirurgia fica para déficit progressivo, cauda equina ou falha do tratamento clínico adequado."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Mulher, 68 anos de idade, com adenocarcinoma de cólon com metástases peritoneais difusas, tomografia com múltiplos pontos de obstrução, apresenta vômitos incoercíveis, distensão abdominal e dor abdominal intensa. Paciente ECOG 3, emagrecida, com ascite moderada. Assinale a alternativa que indica a conduta mais apropriada:",
+  "alts": [
+   "Octreotide.",
+   "Nutrição parenteral total.",
+   "Cirurgia de derivação.",
+   "Quimioterapia paliativa."
+  ],
+  "gab": 0,
+  "tema": "onco",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "MASCC recommendations for the management of malignant bowel obstruction, 2021",
+  "coment": "Obstrução intestinal maligna em múltiplos níveis por carcinomatose, com ECOG 3 e ascite: cenário inoperável, em que a cirurgia de derivação tem alta morbimortalidade e baixa chance de sucesso. O manejo é paliativo e farmacológico (MASCC 2021): opioide, antiemético, corticoide e antissecretor. O octreotide, análogo da somatostatina, reduz secreções gastrointestinais, vômitos e distensão, podendo associar-se a descompressão por sonda ou gastrostomia. Nutrição parenteral e quimioterapia não beneficiam com ECOG 3.",
+  "porAlt": [
+   "Correta: octreotide reduz secreções e vômitos na obstrução maligna inoperável, pilar do manejo paliativo.",
+   "Nutrição parenteral não melhora sobrevida nem qualidade de vida com ECOG 3 e expectativa curta.",
+   "Obstrução em múltiplos pontos com carcinomatose, ascite e ECOG 3 contraindica cirurgia de derivação.",
+   "Quimioterapia paliativa não é indicada com ECOG 3 e não resolve a obstrução aguda."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Mulher, 73 anos de idade, sem comorbidades, é conduzida para consulta pelo esposo, que relata episódios noturnos de movimentos abruptos como socos e chutes, além de gritar como se estivesse “brigando com alguém” durante o sono há um ano. Pela manhã, não se lembra do ocorrido. Ao exame neurológico, apresenta discreta bradicinesia e rigidez assimétrica, predominando em hemicorpo esquerdo. Assinale a alternativa que apresenta a medicação mais adequada para o caso descrito.",
+  "alts": [
+   "Melatonina.",
+   "Trazodona.",
+   "Mirtazapina.",
+   "Amitriptilina."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AASM Clinical Practice Guideline for the treatment of REM sleep behavior disorder, 2023",
+  "coment": "Encenação de sonhos com socos, chutes e gritos, sem lembrança pela manhã, é transtorno comportamental do sono REM; associado a bradicinesia e rigidez assimétricas, sugere sinucleinopatia (doença de Parkinson incipiente). A AASM (2023) recomenda melatonina ou clonazepam; no idoso com parkinsonismo, a melatonina é preferida por não causar sedação, quedas ou piora cognitiva. Antidepressivos (mirtazapina, tricíclicos, ISRS) podem induzir ou agravar o transtorno. Medidas de segurança do quarto completam.",
+  "porAlt": [
+   "Correta: melatonina é eficaz e segura no transtorno comportamental do sono REM, preferida no idoso.",
+   "Trazodona não trata o transtorno comportamental do sono REM e pode causar hipotensão e quedas.",
+   "Mirtazapina, como outros antidepressivos, pode induzir ou agravar o transtorno comportamental do sono REM.",
+   "Amitriptilina pode desencadear o transtorno comportamental do sono REM e é anticolinérgica no idoso."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 28 anos de idade, com diagnóstico confirmado de esofagite eosinofílica, apresenta-se assintomático após 14 meses de tratamento com Inibidor de Bomba de Prótons (IBP) em dose alta. Nova endoscopia com biópsias mostra persistência de infiltrado com 50 eosinófilos por campo de grande aumento. Não há estenoses visíveis, nem complicações endoscópicas. Em relação ao caso descrito, assinale a alternativa que apresenta a próxima conduta mais adequada.",
+  "alts": [
+   "Manter o IBP em dose alta.",
+   "Iniciar corticosteroide tópico.",
+   "Associar dieta de exclusão.",
+   "Suspender o tratamento."
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Eosinophilic Esophagitis, 2025",
+  "coment": "Esofagite eosinofílica com 50 eosinófilos por campo após 14 meses de IBP em dose alta é não resposta histológica, mesmo sem sintomas. O ACG 2025 alerta que sintomas não refletem a atividade inflamatória e que a doença ativa leva a remodelamento e estenose; o alvo é a remissão histológica (menos de 15 eosinófilos por campo). Diante da falha do IBP, troca-se para corticoide tópico deglutido (budesonida ou fluticasona) ou dieta de eliminação; o dupilumabe é opção para não respondedores.",
+  "porAlt": [
+   "Manter o IBP perpetua a inflamação ativa, com risco de remodelamento e estenose.",
+   "Correta: com falha histológica do IBP, o corticoide tópico deglutido é o próximo passo recomendado.",
+   "Dieta de eliminação é alternativa isolada, mas associá-la a um IBP ineficaz não é o passo padrão.",
+   "Suspender o tratamento com doença histologicamente ativa expõe a estenose e impactação alimentar."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 50 anos de idade, com febre e manchas pelo corpo há 5 dias. Possui hipertensão arterial, em uso de losartana, e gota com tratamento iniciado há 30 dias. Exame clínico: temperatura axilar de 39 °C, exantema maculopapular difuso, adenomegalias dolorosas, cervicais e axilares de 2 cm; espaço de Traube ocupado. • Exames laboratoriais: Hb: 11 g/dL Leucócitos: 10.000/mm³ Neutrófilos: 50% Eosinófilos: 20% Linfócitos atípicos: 8% Plaquetas: 160.000/mm³ TGO/AST: 140 U/L TGP/ALT: 178 U/L Em relação ao caso apresentado, o diagnóstico mais provável é:",
+  "alts": [
+   "Síndrome DRESS.",
+   "Síndrome de Stevens-Johnson.",
+   "Mononucleose infecciosa.",
+   "Linfoproliferação."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Critérios RegiSCAR para DRESS (Kardaun et al., 2013) e ACR Guideline for the Management of Gout, 2020",
+  "coment": "Febre, exantema maculopapular difuso, linfonodomegalia, esplenomegalia (espaço de Traube ocupado), eosinofilia de 20%, linfócitos atípicos e hepatite, cerca de quatro semanas após iniciar o tratamento da gota, provavelmente alopurinol: síndrome DRESS, com pontuação alta nos critérios RegiSCAR. A latência de 2 a 8 semanas é típica. O alopurinol é a principal causa, com risco ligado ao HLA-B*58:01 e à dose inicial alta, por isso o ACR 2020 recomenda iniciar com dose baixa. Conduta: suspender o fármaco e usar corticoide sistêmico.",
+  "porAlt": [
+   "Correta: febre, exantema, linfonodomegalia, eosinofilia, atipia linfocitária e hepatite semanas após alopurinol definem DRESS.",
+   "Stevens-Johnson cursa com lesões em alvo atípicas, descolamento epidérmico e mucosite, sem esse perfil de eosinofilia e hepatite.",
+   "Mononucleose não explicaria a eosinofilia de 20% nem a relação temporal com o novo medicamento.",
+   "Linfoproliferação é menos provável diante do quadro agudo com eosinofilia após introdução de fármaco."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ },
+ {
+  "q": "Homem, 71 anos de idade, portador de bioprótese aórtica, está internado por endocardite. Exames laboratoriais: Leucócitos: 9 800/µL (8 % bastonetes) Hb: 11,2 g/dL Plaquetas: 180 000/mm³ PCR: 78 mg/L Cr: 1,4 mg/dL Foram realizados três pares de hemoculturas positivas para Enterococcus faecalis, sensível à ampicilina com Concentração Inibitória Mínima (CIM) de 1 mg/L e com resistência de alto nível a gentamicina. Ecocardiograma transesofágico revela vegetação de 8 mm em cúspide não coronariana da bioprótese e discreto aumento do gradiente transvalvar. Em relação ao caso descrito, assinale a alternativa que apresenta o tratamento mais adequado.",
+  "alts": [
+   "Ampicilina 2 g EV a cada 4 h + ceftriaxona 2 g EV a cada 12 h, ≥ 6 semanas.",
+   "Ampicilina 2 g EV a cada 4 h + gentamicina 1 mg/kg EV a cada 8 h, 6 semanas.",
+   "Daptomicina 10 mg/kg EV 1×/dia em monoterapia, 8 semanas.",
+   "Linezolida 600 mg EV a cada 12 h, ≥ 6 semanas."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESC Guidelines for the management of endocarditis, 2023",
+  "coment": "Endocardite de prótese por Enterococcus faecalis sensível à ampicilina, com resistência de alto nível à gentamicina: o aminoglicosídeo perde o sinergismo e só somaria nefrotoxicidade (creatinina já de 1,4). A ESC 2023 recomenda ampicilina 2 g IV a cada 4 horas com ceftriaxona 2 g IV a cada 12 horas, sinergismo por saturação de PBPs, por 6 semanas na endocardite de prótese. Daptomicina e linezolida são alternativas para cepas resistentes ou alergia, não primeira escolha.",
+  "porAlt": [
+   "Correta: ampicilina com ceftriaxona por pelo menos 6 semanas é o esquema de escolha para E. faecalis com HLAR à gentamicina.",
+   "Com resistência de alto nível, a gentamicina não tem sinergismo e só acrescenta nefrotoxicidade.",
+   "Daptomicina em monoterapia é alternativa para cepas resistentes à ampicilina, não primeira escolha.",
+   "Linezolida é bacteriostática, reservada a resistência ou intolerância, com toxicidade medular no uso prolongado."
+  ],
+  "fonte": {
+   "banca": "USP ano adicional (FUVEST)",
+   "ano": 2026,
+   "prova": "2026"
+  }
+ }
+]

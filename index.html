@@ -803,15 +803,15 @@ body{font-size:14px;line-height:1.55;letter-spacing:0}h1,h2,h3{letter-spacing:-.
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed",linha:"provas"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=95"></script>
-<script src="provas.js?v=95"></script>
-<script src="banco.js?v=95"></script>
-<script src="flash.js?v=95"></script>
-<script src="pratica.js?v=95"></script>
-<script src="leituras.js?v=95"></script>
-<script src="indice-leituras.js?v=95"></script>
-<script src="nuvem.js?v=95"></script>
-<script src="turma.js?v=95"></script>
+<script src="taxonomia.js?v=96"></script>
+<script src="provas.js?v=96"></script>
+<script src="banco.js?v=96"></script>
+<script src="flash.js?v=96"></script>
+<script src="pratica.js?v=96"></script>
+<script src="leituras.js?v=96"></script>
+<script src="indice-leituras.js?v=96"></script>
+<script src="nuvem.js?v=96"></script>
+<script src="turma.js?v=96"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -1329,6 +1329,8 @@ function abreContestacao(ctx){
 
 /* ================= aba QUESTÕES ================= */
 const NREAIS=BANCO.filter(q=>q.fonte).length;
+/* bancas com contagem, para o filtro de procedência (a mais numerosa primeiro) */
+const BANCAS=Object.entries(BANCO.reduce((m,q)=>{if(q.fonte)m[q.fonte.banca]=(m[q.fonte.banca]||0)+1;return m},{})).sort((a,b)=>b[1]-a[1]);
 function filtroAtual(){const f=ST.pos.fq||{};return {area:f.area||"",cen:f.cen||"",comp:f.comp||"",niv:f.niv||"",modo:f.modo||"todas",proc:f.proc||""}}
 function aplicaFiltro(){
   const f=filtroAtual();
@@ -1339,6 +1341,7 @@ function aplicaFiltro(){
   /* procedência: `fonte` só existe na questão copiada de prova real (banca+ano) */
   if(f.proc==="real")l=l.filter(q=>q.fonte);
   if(f.proc==="autoral")l=l.filter(q=>!q.fonte);
+  if(f.proc.startsWith("b:"))l=l.filter(q=>q.fonte&&q.fonte.banca===f.proc.slice(2));
   return l;
 }
 const assinaturaFiltro=()=>JSON.stringify(filtroAtual());
@@ -1387,6 +1390,7 @@ function pintaQuestoes(){
        <option value=""${f.proc?"":" selected"}>todas (${BANCO.length})</option>
        <option value="real"${f.proc==="real"?" selected":""}>só de prova real (${NREAIS})</option>
        <option value="autoral"${f.proc==="autoral"?" selected":""}>só autorais (${BANCO.length-NREAIS})</option>
+       ${BANCAS.map(([b,n])=>`<option value="b:${esc(b)}"${f.proc==="b:"+b?" selected":""}>${esc(b)} (${n})</option>`).join("")}
      </select></label>
     </details>
     <button class="bt sec mini" id="btEmb">Embaralhar</button>
@@ -1448,7 +1452,7 @@ function responde(q,j,l,i){
      <span class="pilula b">${esc(NOME[q.tema]||q.tema)}</span>
      <span class="pilula">${esc(NCEN[q.cenario]||"")}</span>
      <span class="pilula">${esc(NCOMP[q.comp]||"")}</span>
-     ${q.fonte?`<span class="pilula">${esc(q.fonte.banca)} ${esc(String(q.fonte.ano))}</span>`:""}
+     ${q.fonte?`<span class="pilula">${esc(q.fonte.prova?q.fonte.banca.replace(/\s*\(.*$/,"")+" "+q.fonte.prova.replace(/^Revalida /,""):q.fonte.banca+" "+q.fonte.ano)}</span>`:""}
     </div>
    </div>
    <div class="linha" style="margin-top:10px">

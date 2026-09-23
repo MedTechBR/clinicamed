@@ -1,0 +1,839 @@
+[
+ {
+  "q": "Após dois dias de árduos treinamentos militares sob sol intenso, um recruta com 18 anos queixa-se de mal-estar, fraqueza generalizada, relatando urina avermelhada e em pequeno volume. Levado a uma unidade de emergência, apresenta-se, no momento da consulta, em regular estado geral, levemente taquipneico e hemodinamicamente estável, com ausculta cardíaca e pulmonar normais e sem edemas. Exames complementares revelam: creatinina: 4,2 mg/dL (valor de referência [VR]: 0,7-1,2 mg/dL); ureia: 189 mg/dL (VR: 20-40 mg/dL); potássio: 6,2 mEq/L (VR: 3,5-5,5 mEq/L) e acidose metabólica moderada (gasometria arterial com bicarbonato: 14 mmol/L - VR: 24 +/- 2 mmol/L), além de um teste de fita apresentar resultado falso-positivo para hemoglobinúria. Feito eletrocardiograma, o resultado mostra a presença de \"ondas T em tenda\", e o paciente recebe administração de gluconato de cálcio intravenoso (IV). Além disso, diante da hipótese principal, cuja etiologia provável parece ser rabdomiólise, o paciente é inicialmente tratado por via IV com reposição hídrica, oferta de bicarbonato de sódio 8,4% e glicoinsulinoterapia, além de nebulização regular com beta-2 agonista. Algumas horas depois, o paciente mantém-se estável, sem sinais de uremia ou congestão pulmonar. Seus exames de então revelam: creatinina: 3,9 mg/dL; ureia: 165 mg/dL: potássio: 6,1 mEq/L; e bicarbonato: 20 mmol/L. Nesse momento, o médico opta pela instituição de terapia de substituição renal (TSR). Considerando-se o caso descrito, é correto afirmar que a indicação de TSR foi baseada na presença de",
+  "alts": [
+   "hipercalemia refratária.",
+   "elevação refratária da ureia.",
+   "acidose metabólica refratária.",
+   "elevação refratária da creatinina."
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012; UK Kidney Association Clinical Practice Guideline: Treatment of Acute Hyperkalaemia in Adults, 2023",
+  "coment": "Na lesão renal aguda, a terapia renal substitutiva de urgência é indicada por complicações refratárias ao tratamento clínico, e não por valores isolados de ureia ou creatinina. Aqui o potássio permaneceu em 6,1 mEq/L mesmo após gluconato de cálcio, glicoinsulinoterapia, beta-2 agonista e bicarbonato, com ECG já alterado: é hipercalemia refratária, indicação clássica de diálise. A acidose respondeu (bicarbonato de 14 para 20 mmol/L) e não havia uremia sintomática nem congestão.",
+  "porAlt": [
+   "Correta: o potássio seguiu acima de 6 mEq/L apesar de todas as medidas de redistribuição, com alteração eletrocardiográfica, o que exige diálise.",
+   "A ureia caiu de 189 para 165 mg/dL e não havia sinais de uremia (encefalopatia, pericardite, sangramento), logo não indica diálise.",
+   "A acidose respondeu ao bicarbonato, com o HCO3 subindo de 14 para 20 mmol/L, portanto não é refratária.",
+   "Creatinina isolada não é critério de diálise, e ainda estava em queda (de 4,2 para 3,9 mg/dL)."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente com 26 anos de idade procura a unidade de saúde da família com quadro de febre de 39 °C há 3 dias, associada a cefaleia, intensa mialgia, náuseas e vômitos. Relata que não havia procurado atendimento antes, pois suspeitava de que fosse um quadro gripal, ou alguma intoxicação alimentar, porém, no dia da consulta, apareceu um exantema, principalmente em membros inferiores. Ao exame físico, a paciente encontra-se em regular estado geral, com temperatura de 38,5 °C, anictérica, acianótica, sem alterações às auscultas cardíaca e pulmonar, abdome sem alteração, apresentando exantema maculopapular no dorso, no abdome e mais intenso nos membros inferiores, acometendo a planta dos pés, em que se notam edema (+1/+4), além da presença de picadas em região de tornozelos e panturrilhas. Durante a investigação epidemiológica, a paciente afirma ter ido realizar trilha com o namorado na semana anterior em uma região de cachoeiras, onde acamparam. Considerando-se a principal suspeita diagnóstica, além de notificar o caso, por ser suspeita de doença de notificação compulsória, o médico deverá solicitar, em relação à paciente, reação de imunofluorescência indireta (Rifi)",
+  "alts": [
+   "imediatamente e repetir exame entre 14 e 21 dias; iniciar tratamento com doxiciclina imediatamente; orientar o namorado a observar aparecimento de sintomas.",
+   "imediatamente e repetir exame entre 14 e 21 dias; iniciar tratamento com ceftriaxona imediatamente; iniciar tratamento profilático com ceftriaxona para o namorado.",
+   "imediatamente, sem necessidade de repetição do exame; iniciar tratamento com doxiciclina após confirmação do resultado; iniciar tratamento profilático com doxiciclina para o namorado.",
+   "a partir do sétimo dia do início dos sintomas e repetir exame entre 14 e 21 dias; iniciar tratamento com ceftriaxona imediatamente; orientar namorado a observar aparecimento de sintomas."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Ministério da Saúde, Guia de Vigilância em Saúde, 6ª ed., volume 3, 2023 (Febre maculosa brasileira)",
+  "coment": "Febre alta, cefaleia, mialgia e exantema maculopapular que atinge a região plantar, após trilha em área de mata com picadas, é febre maculosa até prova em contrário. A doxiciclina deve começar já na suspeita, sem aguardar exame, porque o atraso além do 5º dia eleva muito a letalidade. A confirmação é sorológica por RIFI pareada: primeira amostra no atendimento e segunda 14 a 21 dias depois, buscando soroconversão ou aumento de 4 vezes no título. Contactantes não recebem profilaxia, apenas vigilância de sintomas.",
+  "porAlt": [
+   "Correta: sorologia pareada (coleta inicial e 14 a 21 dias depois), doxiciclina empírica imediata e apenas observação do contactante.",
+   "Ceftriaxona não tem ação sobre Rickettsia, e não há quimioprofilaxia indicada para contactante assintomático.",
+   "Uma única sorologia não confirma o caso, e esperar o resultado para tratar aumenta a letalidade; profilaxia do namorado não é recomendada.",
+   "A primeira amostra deve ser colhida já no atendimento, e ceftriaxona é ineficaz contra riquétsias."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um homem com 38 anos foi encaminhado ao ambulatório de referência em infectologia do seu município devido a episódios de cefaleia, confusão mental e febre (até 38,5 °C) ocorridos há cerca de uma semana, tendo havido perda de peso no último mês (peso habitual = 70 kg). Ele relata que, no dia anterior, iniciou com rebaixamento do nível de consciência, encontrando-se letárgico no momento da consulta. Nega tosse ou diarreia. Os familiares contam que o paciente é tabagista e que faz consumo excessivo de bebida alcoólica. Os exames iniciais mostraram leucócitos: 3.200/mm³, com 69% de neutrófilos, 21% de linfócitos e 10% de eosinófilos; anemia hipocrômica, microcítica, com anisocitose; plaquetas normais; velocidade de hemossedimentação: 120 mm na 1ª hora; ureia, creatinina, TGO/AST, TGP/ALT, eletrólitos normais. Foi realizada a análise do líquido cefalorraquidiano (LCR), que mostrou 200 leucócitos/mm³, com 78% de linfócitos, níveis elevados de proteína, baixos níveis de glicose e tinta nanquim negativa. Considerando-se o quadro descrito, a hipótese diagnóstica pertinente ao caso é de",
+  "alts": [
+   "meningite tuberculosa.",
+   "meningite bacteriana.",
+   "neurocriptococose.",
+   "meningite viral."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª ed. atualizada, 2019",
+  "coment": "Quadro subagudo de cefaleia, febre, confusão e perda de peso em etilista e tabagista, com liquor de pleocitose linfocítica (200 células, 78% linfócitos), proteína alta e glicose baixa, aponta para meningite tuberculosa. Linfocitose com hipoglicorraquia é típica de tuberculose e de fungos; a tinta nanquim negativa torna a criptococose menos provável, embora não a exclua. Pede-se teste rápido molecular no liquor e sorologia para HIV, e o tratamento empírico com esquema básico mais corticoide não deve esperar a confirmação.",
+  "porAlt": [
+   "Correta: evolução subaguda e liquor linfocítico, hiperproteico e com hipoglicorraquia em paciente etilista.",
+   "Meningite bacteriana é aguda e tem liquor com predomínio de neutrófilos, geralmente com milhares de células.",
+   "A criptococose também dá liquor linfocítico, mas a tinta nanquim negativa e a ausência de imunossupressão conhecida a tornam menos provável.",
+   "Meningite viral cursa com glicose normal no liquor e evolução autolimitada, sem perda de peso."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um paciente com 65 anos foi admitido em unidade de terapia intensiva por sepse de origem pulmonar. Evolui com insuficiência respiratória e hipotensão refratária à expansão volumétrica, com necessidade de entubação orotraqueal e de drogas vasoativas. Foi indicada a obtenção de acesso venoso central em veia subclávia. Após a inserção do cateter, o paciente apresentou hipoxemia inexplicável e colapso cardiocirculatório. A suspeita é de embolia aérea. Nesse caso, a conduta mais adequada é a aspiração do ar",
+  "alts": [
+   "por procedimento endovascular de urgência, sob radioscopia.",
+   "por toracotomia lateral direita e punção cardíaca sob visão direta.",
+   "pelo mesmo cateter, na posição de Trendelenburg em decúbito lateral esquerdo.",
+   "por meio da passagem imediata de outro cateter em veia subclávia contralateral."
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "American Society of Anesthesiologists Practice Guidelines for Central Venous Access, 2020; revisão de Mirski et al. sobre embolia aérea, Anesthesiology, 2007",
+  "coment": "Hipoxemia súbita e colapso logo após punção subclávia sugerem embolia aérea venosa. A conduta imediata é ocluir a via de entrada, oferecer oxigênio a 100% e colocar o paciente em decúbito lateral esquerdo com Trendelenburg (manobra de Durant), que aprisiona o ar no ápice do ventrículo direito, longe da via de saída pulmonar. Se a ponta do cateter está no átrio direito, tenta-se aspirar o ar pelo próprio cateter. Procedimentos invasivos adicionais atrasam o tratamento.",
+  "porAlt": [
+   "Não há papel para intervenção endovascular de urgência; o tratamento é posicional com aspiração pelo cateter já inserido.",
+   "Toracotomia com punção cardíaca é medida extrema de reanimação, não a conduta inicial.",
+   "Correta: manobra de Durant associada à aspiração pelo cateter recém-inserido, além de oxigênio a 100%.",
+   "Nova punção contralateral atrasa o tratamento e expõe a novo pneumotórax, sem retirar o ar embolizado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente com 40 anos comparece à consulta médica no posto de saúde contando que, em razão de suas várias queixas de insônia e dificuldades para dormir, já havia sido orientada sobre higiene do sono, tendo obtido melhora parcial, e que, há um mês e meio, havia se consultado com a enfermeira dessa unidade, que iniciou um tratamento semanal de aplicação de auriculoterapia. Refere ainda que começou, há 3 semanas, a tomar tintura de mulungu, uma planta de que dispõe em sua casa e de que sua família sempre se utiliza, de geração em geração, para ansiedade e insônia. No momento, a paciente relata ter obtido uma resposta muito boa a esse tratamento, mas afirma que a consulta se deve à preocupação com 1 episódio de insônia que teve há 1 semana. Nesse caso, assinale a opção que apresenta a conduta médica adequada.",
+  "alts": [
+   "Orientar a suspensão da tintura de mulungu, devido ao risco de intoxicação por uma planta sem evidência científica robusta.",
+   "Prescrever zolpidem 10 mg para o controle da insônia e encaminhar a paciente para o psiquiatra, se não houver melhora.",
+   "Manter o uso da tintura de mulungu e o tratamento da auriculoterapia, e pedir à paciente que retorne se houver piora ou novos sintomas.",
+   "Orientar a enfermeira informando que a prática de auriculoterapia e de acupuntura devem ser realizadas exclusivamente em centros especializados."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Política Nacional de Práticas Integrativas e Complementares no SUS (PNPIC), Portaria GM/MS nº 971/2006, ampliada pelas Portarias nº 849/2017 e nº 702/2018",
+  "coment": "A paciente respondeu bem à higiene do sono, à auriculoterapia (prática integrativa ofertada no SUS e realizável na atenção primária) e a um fitoterápico de uso tradicional, e relata apenas um episódio isolado de insônia. Não há indicação de hipnótico, que traz risco de dependência, tolerância e quedas. A PNPIC reconhece e incentiva essas práticas na APS, respeitando o saber popular. A conduta é manter o que funciona e reavaliar se houver piora ou novos sintomas.",
+  "porAlt": [
+   "Não há sinal de toxicidade e a resposta foi boa; suspender um recurso eficaz e culturalmente aceito não se justifica.",
+   "Um episódio isolado de insônia não justifica hipnótico Z, que tem risco de dependência, comportamentos complexos do sono e quedas.",
+   "Correta: tratamento com boa resposta deve ser mantido, com retorno se houver piora ou novos sintomas.",
+   "A auriculoterapia é ofertada na atenção primária pela PNPIC, inclusive por enfermeiros capacitados, e não só em centros especializados."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma mulher com 35 anos iniciou quadro de tremores, irritabilidade, aumento de apetite com perda de peso de 8 kg em 2 meses. Notou que houve aumento da região cervical e que os olhos ficaram mais evidentes. No mesmo período, relata palpitações e aumento do número de evacuações diárias. No exame físico, apresenta fácies basedowniana, pele aveludada e com sudorese profusa, frequência cardíaca de 120 batimentos por minuto, tremores de extremidades, pressão arterial de 140 × 70 mmHg e tireoide aumentada cerca de 3 vezes o tamanho normal, com superfície lisa e presença de frêmito. Nos exames complementares, observou-se T4 livre: 5,6 ng/dL (valor de referência [VR]: 0,9-1,8), TSH < 0,01 mU/L (VR: 0,4 - 4,5). Diante do diagnóstico de hipertiroidismo, qual seria a melhor terapêutica para esse caso?",
+  "alts": [
+   "Levotiroxina 75 mg ao dia e Atenolol 25 mg de 12/12 horas.",
+   "Metimazol (tiamazol) 30 mg ao dia e Propanolol 40 mg de 12/12 horas.",
+   "Atenolol 25 mg de 12/12 horas e Radioiodoterapia com I131.",
+   "Propanolol 40 mg de 12/12 horas e Radioiodoterapia com I131."
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "European Thyroid Association Guideline for the management of Graves' hyperthyroidism, 2022; ATA Guidelines for the Diagnosis and Management of Hyperthyroidism, 2016",
+  "coment": "Doença de Graves (bócio difuso com frêmito, oftalmopatia, T4 livre de 5,6 ng/dL e TSH suprimido) em tireotoxicose franca. A conduta inicial é tionamida: metimazol em dose proporcional à gravidade (20 a 40 mg/dia quando o T4 livre está 2 a 3 vezes acima do limite), associado a betabloqueador não seletivo para os sintomas adrenérgicos. Radioiodo não é a primeira escolha aqui, pois há orbitopatia, que pode piorar, e o paciente deve ser compensado antes. Levotiroxina é contraindicada.",
+  "porAlt": [
+   "Levotiroxina agrava a tireotoxicose, e a dose de 75 mg é absurda, pois o hormônio é prescrito em microgramas.",
+   "Correta: metimazol em dose de ataque para T4 livre muito elevado, com propranolol para os sintomas adrenérgicos.",
+   "Radioiodo sem controle prévio com tionamida pode agravar a tireotoxicose, e a oftalmopatia presente tende a piorar.",
+   "Com orbitopatia e T4 livre muito alto, a primeira escolha é metimazol, não radioiodo, independentemente do betabloqueador."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente com 57 anos, assintomática, foi submetida a exames complementares iniciais de check-up que revelaram a presença de hipercalcemia leve a moderada (11,5 mg/dL – valor de referência [VR]: 8,0-10,5 mg/dL), sendo referenciada para ambulatório de endocrinologia de um hospital terciário. Ao ser atendida nesse serviço, foi solicitada a dosagem de PTH (paratormônio), cujo resultado revelou-se aumentado (189 pg/mL - VR: 10-65 pg/mL). Considerada a hipótese diagnóstica principal, foram realizados outros exames complementares que revelaram os seguintes achados: ultrassonografia abdominal com cálculos em cálices renais e aspecto de nefrocalcinose bilateral, além da presença de colelitíase em vesícula biliar; densitometria óssea com escore-T menor que - 2,5 em coluna lombar e colo femural; calciúria de 600 mg em 24 horas. Com vistas a possível ressecção cirúrgica minimamente invasiva de lesão adenomatosa, é feito um 99mTc-sestamibi, exame de SPECT com que revela hipercaptação nodular de cerca de 2,5 cm na base do pescoço, à direita. Considerando-se esse contexto, que dado é indicativo de intervenção cirúrgica, mesmo estando a paciente assintomática?",
+  "alts": [
+   "O desenvolvimento de colelitíase.",
+   "A idade superior a 50 anos da paciente.",
+   "O tamanho do nódulo cervical ao exame SPECT.",
+   "O escore T menor que -2,5 na densitometria óssea."
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Fifth International Workshop on the Evaluation and Management of Primary Hyperparathyroidism, 2022",
+  "coment": "No hiperparatireoidismo primário assintomático, o 5º Workshop Internacional (2022) indica paratireoidectomia quando há: cálcio sérico mais de 1 mg/dL acima do limite superior, T-score igual ou menor que -2,5 em qualquer sítio ou fratura vertebral, clearance abaixo de 60 mL/min, hipercalciúria (acima de 250 mg/24h em mulheres), nefrolitíase ou nefrocalcinose, ou idade inferior a 50 anos. A paciente soma vários critérios, e entre as opções apenas o T-score menor que -2,5 consta da lista.",
+  "porAlt": [
+   "Colelitíase não tem relação causal com o hiperparatireoidismo e não é critério cirúrgico.",
+   "O critério é idade abaixo de 50 anos, pelo maior tempo de exposição à doença, e não acima.",
+   "O tamanho do adenoma na cintilografia orienta a técnica cirúrgica, mas não define a indicação.",
+   "Correta: osteoporose densitométrica (T-score igual ou menor que -2,5) é critério formal de cirurgia no paciente assintomático."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "A febre amarela apresentou, no Brasil, dois picos epidêmicos em 2016/2017 e em 2017/2018, afetando estados das regiões Sudeste, Centro-Oeste e Nordeste. Antes disso, ainda em 2014, a doença, que era restrita à região amazônica, vinha reemergindo na região extraamazônica, com casos na região Sudeste, Sul e Centro-Oeste. O aumento dos casos da doença está relacionado com a expansão da fronteira agrícola, que provoca o desmatamento, a redução das áreas de floresta e o aumento da urbanização, o que contribui ainda mais para a degradação desses ambientes e produz risco de desastres ambientais. Diante desse cenário, um médico de família e comunidade de um município próximo a áreas de desmatamento, visando a prevenção contra possível enfrentamento da febre amarela em seu território, deve",
+  "alts": [
+   "notificar, semanalmente, todo caso que preencha os critérios de suspeita de febre amarela.",
+   "orientar a antecipação da vacinação contra febre amarela para crianças a partir dos 6 meses.",
+   "reforçar, junto à população adstrita, a importância da vacinação contra a febre amarela a cada 10 anos.",
+   "recomendar o isolamento dos casos suspeitos no período de viremia se o território apresentar infestação por Aedes aegypti."
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, Guia de Vigilância em Saúde, 6ª ed., 2023 (capítulo Febre amarela)",
+  "coment": "Em áreas infestadas por Aedes aegypti, o doente de febre amarela em viremia (até cerca de 5 dias do início dos sintomas) pode infectar o mosquito e reintroduzir o ciclo urbano. Por isso o Guia de Vigilância recomenda proteger o caso suspeito de picadas nesse período (mosquiteiro, telas, repelente), o isolamento vetorial. A notificação é imediata, em até 24 horas. A vacina é dose única para quem a recebe após os 5 anos, sem reforço decenal, e a antecipação para 6 meses fica restrita a surtos, por orientação da vigilância.",
+  "porAlt": [
+   "Febre amarela é de notificação imediata, em até 24 horas, e não semanal.",
+   "Vacinar a partir dos 6 meses é medida excepcional de surto, definida pela vigilância; a rotina é aos 9 meses.",
+   "Desde 2017 o Brasil adota dose única para quem é vacinado após os 5 anos, sem reforço a cada 10 anos.",
+   "Correta: evitar que o caso em viremia seja picado pelo Aedes aegypti impede a reurbanização da doença."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente com 35 anos faz tratamento em um ambulatório de referência em reumatologia devido a esclerose sistêmica, forma difusa. Faz uso regular de medicações como prednisona e metotrexato. Há 3 meses, ela apresenta dor torácica em queimação, retroesternal, associada à sensação de regurgitação, disfagia e episódios de tosse seca principalmente ao deitar. O diagnóstico e a conduta para esse caso são, respectivamente,",
+  "alts": [
+   "pleurite; radiografia de tórax.",
+   "angina instável; cateterismo coronariano.",
+   "dismotilidade esofágica; manometria esofágica.",
+   "doença intersticial pulmonar; tomografia computadorizada de tórax."
+  ],
+  "gab": 2,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Chicago Classification of esophageal motility disorders, version 4.0, 2021; EULAR recommendations for the treatment of systemic sclerosis, 2023 update",
+  "coment": "Na esclerose sistêmica o esôfago é o órgão interno mais acometido: fibrose e atrofia da musculatura lisa dos dois terços distais reduzem o peristaltismo e o tônus do esfíncter inferior, causando pirose, regurgitação, disfagia e tosse noturna por refluxo e microaspiração. A manometria confirma a hipomotilidade (peristalse ausente ou ineficaz com esfíncter hipotônico). A endoscopia complementa para esofagite e Barrett, e o tratamento inclui IBP em dose plena e procinético.",
+  "porAlt": [
+   "Pleurite causa dor ventilatório-dependente, sem regurgitação nem disfagia.",
+   "Queimação associada a regurgitação, decúbito e disfagia é esofágica e não anginosa; cateterismo não se justifica.",
+   "Correta: hipomotilidade esofágica da esclerodermia, documentada por manometria.",
+   "A doença intersticial causa tosse e dispneia progressiva, mas não explica pirose, regurgitação ou disfagia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "O gestor de um município de pequeno porte pretende organizar os serviços de atenção primária à saúde (APS), a partir de meados de 2023, fazendo a transição do modelo tradicional, vigente no município (integralmente composto por especialistas focais lotados em unidades básicas de saúde), para a estratégia de saúde da família: equipes de saúde da família (ESF), agentes comunitários de saúde (ACS), núcleos ampliados de saúde da família (NASF), etc. Para isso, ele pretende utilizar os dados do censo demográfico do IBGE de 2022. De acordo com o censo demográfico de 2010, o município possuía 12.366 habitantes. A partir dos parâmetros avaliados em ambos os censos e conforme as recomendações da Política Nacional de Atenção Básica (2017), quais são as ações corretas a serem indicadas para a reestruturação da APS pretendida no município?",
+  "alts": [
+   "Definição do número de ACS por ESF com base em critérios demográficos e socioeconômicos fornecidos pelo censo e em dados epidemiológicos do município.",
+   "Implantação de, pelo menos, 1 NASF, considerando-se o número de ESF previsto e da população encontrada pelo censo, para prover assistência especializada focal à população.",
+   "Definição da modalidade das equipes de saúde bucal que irão compor as ESF, considerando-se os dados sobre condições de saúde bucal coletados e consolidados pelo censo.",
+   "Implantação de, pelo menos, 3 ESF para atender a toda a população do município, considerando-se que o crescimento populacional encontrado tenha sido menor que 10% desde 2010."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Política Nacional de Atenção Básica, Portaria GM/MS nº 2.436/2017; Portaria GM/MS nº 635/2023 (equipes eMulti)",
+  "coment": "A PNAB 2017 determina que o número de ACS por equipe seja definido pelo gestor com base em critérios demográficos, epidemiológicos e socioeconômicos, com cobertura de 100% da população em áreas de risco e vulnerabilidade. Cada eSF cobre de 2.000 a 3.500 pessoas; com cerca de 12.400 habitantes, seriam necessárias ao menos 4 equipes. O NASF, hoje substituído pelas eMulti (Portaria nº 635/2023), faz apoio matricial e não atendimento especializado focal, e o censo do IBGE não coleta dados de saúde bucal.",
+  "porAlt": [
+   "Correta: a PNAB atribui ao gestor definir o número de ACS por equipe segundo critérios demográficos, socioeconômicos e epidemiológicos.",
+   "O NASF (atualmente eMulti) atua em apoio matricial às equipes, e não como assistência especializada focal.",
+   "O censo demográfico do IBGE não coleta dados sobre condições de saúde bucal.",
+   "Com cada equipe cobrindo 2.000 a 3.500 pessoas, uma população de mais de 12.000 habitantes exige pelo menos 4 eSF."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma mulher com 40 anos é encaminhada da unidade básica de saúde para o ambulatório de referência em neurologia devido a cefaleia. Relata que apresenta episódios de cefaleia hemicraniana, acompanhada de náuseas e escotomas visuais, desde a adolescência, e que, aos 30 anos, fez tratamento com propranolol por 1 ano, o que reduziu significativamente o número de crises de cefaleia, que passaram a ocorrer 1 a 2 vezes no mês. Acrescenta que, no entanto, há 3 meses, a frequência dos episódios aumentou; tornaram-se diários, com despertares noturnos devido a dor, aumento da intensidade e, no momento, descreve a cefaleia como holocraniana. Nessa situação, a conduta adequada para o caso deve ser",
+  "alts": [
+   "realizar punção lombar.",
+   "reiniciar o uso de propranolol.",
+   "solicitar ressonância magnética de encéfalo.",
+   "iniciar tratamento com amitriptilina ou outro tricíclico."
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "International Classification of Headache Disorders, 3rd edition (ICHD-3), 2018; SNOOP4 red flags (Do et al., Neurology, 2019)",
+  "coment": "Mudança do padrão de uma cefaleia primária conhecida é sinal de alarme do SNOOP4 (pattern change): crises que passam de mensais a diárias, holocranianas, com despertar noturno e intensidade crescente em 3 meses. Antes de rotular como migrânea crônica ou cefaleia por uso excessivo de analgésico, é obrigatório excluir causa secundária com neuroimagem, e a ressonância magnética é o exame de escolha no cenário ambulatorial não emergencial. Só depois se discute a profilaxia.",
+  "porAlt": [
+   "Punção lombar não é o primeiro exame e, sem imagem prévia, pode ser perigosa se houver lesão com efeito de massa.",
+   "Reiniciar profilaxia sem investigar ignora os sinais de alarme de cefaleia secundária.",
+   "Correta: mudança de padrão com piora progressiva e despertar noturno exige neuroimagem, preferencialmente ressonância.",
+   "Tricíclico é profilaxia de cefaleia primária, aceitável apenas depois de excluída causa secundária."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um médico de família e comunidade atende, pela primeira vez, um paciente com queixa de dispneia a moderados esforços, tosse persistente, que piora pela manhã, e episódios de sibilância. O paciente traz resultados de exames solicitados por outro serviço e, entre eles, encontram-se uma espirometria e uma tomografia computadorizada (TC) de tórax, que diz terem sido solicitadas para investigar enfisema pulmonar, pois é fumante. Ao avaliar a TC, o médico fica em dúvida com relação a uma imagem, que poderia sugerir um câncer de pulmão e decide discutir o caso com outros profissionais no grupo de aplicativo de troca de mensagens. A respeito dos aspectos da ética médica relativos ao uso de grupo de aplicativo de troca de mensagens, é correto afirmar que",
+  "alts": [
+   "permite-se o uso de grupo recreativo de aplicativo de troca de mensagens, formado apenas por médicos registrados nos Conselhos de Medicina, desde que seja feita a ressalva de que os dados compartilhados sejam mantidos em sigilo.",
+   "é permitido o uso de aplicativo de troca de mensagens, exclusivo para discussão de casos, formado apenas por médicos registrados nos Conselhos de Medicina, desde que haja expressa autorização do paciente para compartilhamento de suas informações.",
+   "é permitido o uso de grupo de aplicativo de troca de mensagens, exclusivo para discussão de casos clínicos, formado apenas por médicos registrados nos Conselhos de Medicina, desde que se mantenha o caráter confidencial das informações compartilhadas.",
+   "não é permitido o uso de grupo de aplicativo de troca de mensagens para discussão de casos clínicos, mesmo com a manutenção de sigilo e confidencialidade dos dados pessoais dos pacientes e com expressa autorização do paciente para compartilhamento de suas informações."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Parecer CFM nº 14/2017; Código de Ética Médica, Resolução CFM nº 2.217/2018",
+  "coment": "O Parecer CFM nº 14/2017 permite o uso de aplicativos de mensagens para discussão de casos entre médicos, em grupos fechados e de caráter técnico, desde que as informações mantenham absoluto caráter confidencial e não extrapolem o grupo. Grupos recreativos, ainda que só de médicos, não servem a esse fim. O sigilo profissional do Código de Ética Médica e a LGPD exigem minimizar dados identificáveis. A discussão técnica entre colegas em benefício do paciente, com sigilo preservado, não depende de autorização expressa.",
+  "porAlt": [
+   "Grupos recreativos são vedados para circulação de dados de pacientes, mesmo que compostos apenas por médicos.",
+   "O parecer do CFM não condiciona a discussão técnica sigilosa entre médicos a autorização expressa do paciente.",
+   "Correta: grupo exclusivo para discussão de casos, formado só por médicos, com confidencialidade preservada.",
+   "O CFM permite essa discussão entre médicos, desde que em grupo técnico e com sigilo mantido."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um homem com 22 anos, pesando 75 kg, sofreu múltiplas fraturas e contusão pulmonar em acidente automobilístico, evoluindo com SARA (Síndrome da Angústia Respiratória do Adulto), estando em ventilação mecânica há 7 dias. Apresenta escala de coma de Glasgow < 8. À ausculta pulmonar, observa-se murmúrio vesicular presente, diminuído em bases, associado a estertores finos em bases. A radiografia de tórax mostra imagens sugestivas de consolidações difusas em pulmão direito e esquerdo, típicas de SARA, com infiltrado intersticial difuso. A tomografia de crânio demonstra imagem compatível com hematoma subdural à direita. O paciente apresenta, ainda, pH: 7,35 (valor de referência [VR]: 7,35-7,45); pressão parcial de CO2: 45 mmHg (VR: 35-45 mmHg); pressão parcial de O2: 85 mmHg (VR: 80 a 100 mmHg); bicarbonato: 24 mmol (VR: 22 a 26 mmol). Nesse caso, de acordo com a Associação de Medicina Intensiva Brasileira (AMIB) – Diretrizes Brasileiras de Ventilação Mecânica, recomenda-se",
+  "alts": [
+   "realizar traqueostomia após 14 dias de entubação orotraqueal.",
+   "realizar traqueostomia precoce até 7 dias de entubação orotraqueal.",
+   "realizar cricotireoidostomia de demora até 7 dias de entubação orotraqueal.",
+   "extubar e iniciar ventilação não invasiva após 14 dias de entubação orotraqueal."
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Diretrizes Brasileiras de Ventilação Mecânica AMIB/SBPT, 2013; Orientações Práticas de Ventilação Mecânica AMIB/SBPT, 2024",
+  "coment": "Paciente com TCE grave (Glasgow menor que 8) e SARA, em ventilação mecânica há 7 dias e com ventilação prolongada prevista. As diretrizes AMIB/SBPT sugerem traqueostomia precoce, até o 7º dia, no trauma grave, em especial TCE com Glasgow menor que 8 e trauma raquimedular, pois reduz dias de ventilação e de sedação. Em pacientes clínicos, ao contrário, recomenda-se aguardar cerca de 14 dias, já que antecipar não reduz mortalidade (estudo TracMan). Cricotireoidostomia é via de resgate, não de permanência.",
+  "porAlt": [
+   "Aguardar 14 dias é a orientação para pacientes clínicos; no TCE grave a diretriz sugere traqueostomia precoce.",
+   "Correta: TCE com Glasgow menor que 8 e ventilação prolongada prevista indica traqueostomia até o 7º dia.",
+   "Cricotireoidostomia é via aérea cirúrgica de resgate, que deve ser convertida e não mantida como via de demora.",
+   "Com Glasgow menor que 8 não há proteção de via aérea para extubar, e VNI é contraindicada no rebaixamento de consciência."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma mulher de 60 anos, hipertensa, em uso irregular de medicamentos, é levada pelo filho ao pronto-socorro com história de ter começado a sentir, há 8 horas, cefaleia holocraniana intensa, apresentando náuseas e vômitos. Ela passou a ter confusão mental e, na última hora, está mais sonolenta. Ao exame físico, apresenta pressão arterial de 220 × 140 mmHg em ambos os membros superiores; está sonolenta, mas é responsiva ao chamado verbal. Percebe-se, também, que está desorientada no tempo e no espaço. Além disso, suas pupilas estão isocóricas e fotorreativas e ela não apresenta déficit motor ou sensitivo. Diante da hipótese diagnóstica mais provável, a conduta adequada é realizar uma",
+  "alts": [
+   "punção liquórica e prescrever betabloqueadores.",
+   "tomografia de crânio e infundir nitroprussiato de sódio.",
+   "tomografia de crânio imediata e administrar furosemida endovenosa.",
+   "ressonância magnética de crânio imediata e administrar ácido acetilsalicílico."
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Diretriz Brasileira de Hipertensão Arterial, 2025; ESC Guidelines for the management of elevated blood pressure and hypertension, 2024",
+  "coment": "PA de 220 x 140 mmHg com cefaleia, vômitos, confusão e sonolência progressiva, sem déficit focal, configura emergência hipertensiva com encefalopatia. A tomografia de crânio é necessária para excluir AVC antes de definir as metas pressóricas. O tratamento é anti-hipertensivo intravenoso titulável, em ambiente monitorizado, reduzindo a PA média em até 20 a 25% na primeira hora. No Brasil, o nitroprussiato de sódio é o fármaco disponível mais usado. Punção lombar, furosemida e AAS não fazem parte do manejo.",
+  "porAlt": [
+   "Punção lombar não é indicada, e betabloqueador sem titulação IV não permite redução controlada da PA.",
+   "Correta: TC para excluir AVC e nitroprussiato IV titulado para reduzir a PA média em até 25% na primeira hora.",
+   "Furosemida não trata a vasoconstrição da emergência hipertensiva e pode agravar a depleção de volume desses pacientes.",
+   "AAS é contraindicado antes de excluir hemorragia, e a ressonância atrasa o atendimento sem vantagem na fase aguda."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma mulher de 49 anos comparece à unidade básica de saúde para consulta de rotina. Ela relata ao médico que ficou muito preocupada depois de ler uma matéria na internet sobre os riscos da osteoporose após a menopausa. Sua última menstruação ocorreu há 15 meses. A paciente afirma não praticar atividade física regularmente, mas relata alimentação balanceada e sem restrições. Ela nega doenças crônicas, uso de medicações contínuas, etilismo ou tabagismo. Na história familiar, relata que sua mãe, de 67 anos de idade, possui diagnóstico de hipertensão arterial e de hipotireoidismo. Ao exame, a paciente apresenta pressão arterial de 126 × 78 mmHg, índice de massa corporal 27 kg/m². Sua tireoide é normal à palpação. Os exames das mamas, do aparelho cardiovascular e do abdome apresentam-se dentro dos limites da normalidade. Nesse caso, para prevenção primária da osteoporose, o médico deve",
+  "alts": [
+   "suplementar com carbonato de cálcio e com vitamina D, além de iniciar rastreio com a densitometria óssea aos 55 anos de idade.",
+   "manter uma dieta rica em cálcio e em vitamina D, com exposição solar adequada e exercícios físicos regulares para fortalecimento muscular e ósseo.",
+   "realizar densitometria óssea e, caso seja confirmada osteopenia, suplementar com carbonato de cálcio e com vitamina D e usar alendronato de sódio ou raloxifeno.",
+   "realizar dosagem sérica do hormônio folículo estimulante e do estradiol e, caso seja confirmada a menopausa, fazer uso da terapia hormonal com estrógenos conjugados."
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "USPSTF Recommendation Statement: Screening for Osteoporosis to Prevent Fractures, 2025; Bone Health and Osteoporosis Foundation Clinician's Guide, 2022",
+  "coment": "Mulher de 49 anos em pós-menopausa recente, sem fatores de risco clínicos para fratura (não fuma, não bebe, sem corticoide, IMC 27). A prevenção primária é não farmacológica: ingestão adequada de cálcio (cerca de 1.000 a 1.200 mg/dia) e vitamina D pela dieta, exposição solar e exercício com carga e fortalecimento muscular. A densitometria é indicada aos 65 anos, ou antes se houver risco aumentado. Suplemento sem deficiência, droga para osteopenia e dosagem de FSH não são recomendados.",
+  "porAlt": [
+   "Suplemento de rotina não é necessário com dieta adequada, e sem fatores de risco o rastreio densitométrico é aos 65 anos.",
+   "Correta: cálcio e vitamina D pela dieta, sol e atividade física são a prevenção primária indicada.",
+   "Densitometria aos 49 anos sem fatores de risco não está indicada, e osteopenia isolada não justifica alendronato ou raloxifeno.",
+   "Amenorreia de 15 meses aos 49 anos já define menopausa clinicamente, e terapia hormonal não é indicada só para prevenir osteoporose."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Em um território com população em situação de vulnerabilidade, uma unidade básica de saúde possui duas equipes que atendem 9 000 pessoas cadastradas. Estima-se que as demandas por atendimento médico se tornarão ainda maiores, já que a população local está em rápida expansão, pois há ocupações em áreas próximas a um córrego que corta a extremidade do território de abrangência. Devido à sobrecarga dessas duas equipes e do potencial crescimento populacional, o gestor, portanto, decide implantar uma nova equipe de saúde da família. Nesse contexto, qual é a melhor estratégia para a nova equipe de saúde da família organizar o processo de territorialização?",
+  "alts": [
+   "Dividir o território a partir da escala de risco familiar, a fim de distribuir as famílias vulneráveis de forma igualitária entre os agentes comunitários, evitando, assim, a sobrecarga de trabalho desses profissionais.",
+   "Dividir o território em micro áreas, mesmo que de forma assimétrica geograficamente, garantindo maior semelhança das necessidades dos grupos nele contidos, a fim de facilitar o direcionamento das ações sociais e sanitárias.",
+   "Utilizar mapas esquemáticos ou mapas-base impressos para a representação do território de abrangência e para a divisão do território em micro áreas, pois eles permitem melhor análise dos dados em relação ao geoprocessamento.",
+   "Utilizar dados primários para a divisão do território em micro áreas, como bancos de dados do DATASUS e do IBGE, pois eles oferecem informações em níveis de desagregação suficientes para ajudar a estabelecer o diagnóstico situacional local."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Política Nacional de Atenção Básica, Portaria GM/MS nº 2.436/2017",
+  "coment": "Na territorialização da ESF, as microáreas são delimitadas pela homogeneidade de condições de vida e de risco, e não pelo tamanho geográfico ou por divisão igualitária de famílias. Por isso podem ser assimétricas, e cada ACS acompanha uma microárea com perfil próprio, o que facilita dirigir as ações. A PNAB 2017 prevê que o número de pessoas por ACS se ajuste ao risco e à vulnerabilidade. DATASUS e IBGE são fontes secundárias, pouco desagregadas para a microárea, e o geoprocessamento supera mapas impressos.",
+  "porAlt": [
+   "Distribuir igualmente as famílias vulneráveis entre os ACS ignora a lógica de homogeneidade de risco que define a microárea.",
+   "Correta: microáreas são delimitadas por semelhança de necessidades, ainda que geograficamente assimétricas.",
+   "Mapas impressos servem de base, mas não permitem análise melhor que o geoprocessamento.",
+   "DATASUS e IBGE são dados secundários e pouco desagregados; o diagnóstico da microárea exige dados primários do cadastro e das visitas."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um homem de 20 anos, previamente hígido e sem uso crônico de medicação, procura um médico da unidade básica de saúde relatando que, há 2 dias, iniciou o uso de nimesulida para alívio de dor causada por uma entorse de tornozelo. No entanto, há 24 horas, afirma ter começado a apresentar prurido e pápulas vermelhas de tamanhos variados, distribuídas de forma irregular em tronco e em membros superiores. O paciente nega dispneia, palpitações ou alterações gastrointestinais. Além de suspender o uso da nimesulida, a conduta do médico da atenção primária deve ser",
+  "alts": [
+   "iniciar medicamento anti-histamínico e hidratação da pele.",
+   "fazer uma dose de epinefrina subcutânea e iniciar antihistamínico oral.",
+   "encaminhar o paciente para observação em pronto-socorro devido ao risco de insuficiência respiratória aguda.",
+   "administrar corticoide tópico e oral e, caso persistam os sintomas por mais de 24 horas, iniciar corticoide endovenoso."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "International EAACI/GA²LEN/EuroGuiDerm/APAAACI guideline for the definition, classification, diagnosis and management of urticaria, 2025 update",
+  "coment": "Urticária aguda (pápulas eritematosas pruriginosas, fugazes, de tamanhos variados) desencadeada por AINE, sem angioedema de vias aéreas, dispneia, hipotensão ou sintomas gastrointestinais, portanto sem critério de anafilaxia. A conduta é suspender o desencadeante e prescrever anti-histamínico H1 de segunda geração, com cuidados de pele. Corticoide oral por poucos dias fica para casos intensos, e epinefrina só se houver anafilaxia. O paciente deve ser orientado a evitar AINEs inibidores de COX-1 no futuro.",
+  "porAlt": [
+   "Correta: suspensão do AINE e anti-histamínico H1, pois é urticária aguda sem sinais de anafilaxia.",
+   "Epinefrina é reservada à anafilaxia, e o paciente não tem acometimento respiratório, cardiovascular ou gastrointestinal.",
+   "Sem angioedema, dispneia ou instabilidade, não há risco iminente que justifique observação em pronto-socorro.",
+   "Corticoide tópico não trata urticária, e escalar para corticoide endovenoso não é indicado em urticária aguda sem anafilaxia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um adolescente de 18 anos encontra-se internado após cirurgia bariátrica (derivação gástrica em Y-de-Roux) realizada há 3 meses. Ele refere que, ocasionalmente, apresenta náuseas, diarreia, dor abdominal, sudorese, sensação de desmaio iminente e fraqueza cerca de 2 a 3 horas após a ingestão de carboidratos simples, os quais consome com frequência. Seu exame físico apresenta-se sem alterações no momento. Exames de bioquímica, de imagem e endoscopia digestiva alta também apresentam-se sem alterações. Diante desse quadro, qual é a hipótese diagnóstica mais provável?",
+  "alts": [
+   "Fístula gastro-gástrica.",
+   "Síndrome de dumping.",
+   "Peritonite bacteriana secundária.",
+   "Deficiência de ferro e de vitaminas do complexo B."
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Scarpellini et al., International consensus on the diagnosis and management of dumping syndrome, Nature Reviews Endocrinology, 2020",
+  "coment": "Sintomas 2 a 3 horas após carboidratos simples, com sudorese, fraqueza e pré-síncope, em paciente com bypass gástrico em Y de Roux, caracterizam síndrome de dumping na forma tardia: a chegada rápida de glicose ao intestino provoca pico de insulina e hipoglicemia reativa. O dumping precoce ocorre em 10 a 30 minutos, por desvio de líquido para a luz intestinal. O tratamento é dietético (refeições fracionadas, sem açúcares simples, líquidos separados dos sólidos), com acarbose ou octreotida nos refratários.",
+  "porAlt": [
+   "Fístula gastrogástrica causa reganho de peso, úlcera marginal e dor, e não sintomas desencadeados por carboidratos simples.",
+   "Correta: sintomas vasomotores e gastrointestinais após açúcares simples no pós-bypass definem dumping, aqui tardio.",
+   "Peritonite secundária cursa com febre, dor contínua e sinais peritoneais, ausentes em paciente com exame normal.",
+   "Carências de ferro e vitaminas do complexo B causam anemia e neuropatia, não sintomas ligados às refeições."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um médico é chamado para avaliar um homem internado por pancreatite aguda biliar. Ao chegar ao posto de enfermagem, a técnica narra que o paciente começou a se queixar de “uma cãibra” na mão, enquanto ela estava começando a desinflar o manguito do esfignomanômetro. O paciente queixa-se de parestesias periorais e nas extremidades. Ao exame, o paciente está angustiado e sudorético, com os sinais vitais inalterados e com glicemia capilar de 138 mg/dL. O médico, então, pede um manguito, infla a bolsa durante 3 minutos acima da pressão sistólica e observa a mão contraturada. Depois, percute o nervo facial e observa contração dos músculos perilabiais ipsilateralmente. Diante disso, ele solicita um eletrocardiograma e constata que o intervalo QTc está aumentado. Considerando o caso clínico apresentado, assinale a opção que descreve a hipótese clínica correta para explicar o cenário e as alterações descritos.",
+  "alts": [
+   "Hipocalemia.",
+   "Hiperglicemia.",
+   "Hipocalcemia.",
+   "Hipercalcemia."
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Society for Endocrinology Endocrine Emergency Guidance: Emergency management of acute hypocalcaemia in adult patients, 2016",
+  "coment": "Espasmo carpal ao insuflar o manguito (sinal de Trousseau), contração perilabial à percussão do nervo facial (sinal de Chvostek), parestesias periorais e QTc prolongado são sinais clássicos de hipocalcemia. Na pancreatite aguda o cálcio cai por saponificação da gordura peripancreática e hipoalbuminemia, e a hipocalcemia é marcador de gravidade. Dosam-se cálcio iônico, magnésio e albumina; com sintomas, repõe-se gluconato de cálcio IV (10 a 20 mL a 10% em 10 minutos) e depois infusão contínua, corrigindo o magnésio.",
+  "porAlt": [
+   "Hipocalemia causa fraqueza, câimbras e ondas U, mas não produz os sinais de Trousseau e Chvostek.",
+   "A glicemia de 138 mg/dL não explica tetania nem QT prolongado.",
+   "Correta: Trousseau, Chvostek, parestesias periorais e QT longo na pancreatite indicam hipocalcemia.",
+   "Hipercalcemia encurta o QT e causa fraqueza, constipação e confusão, não tetania."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um paciente de 87 anos, portador de hipertensão arterial sistêmica e de fibrilação atrial, comparece à unidade de emergência de um hospital terciário sentindo dor abdominal incapacitante e apresentando distensão abdominal há 1 dia. Ele relata que, por motivos de esquecimento, não toma seus medicamentos há, aproximadamente, 1 semana. Ao exame físico, apresenta regular estado geral, facies de dor, palidez, sudorese, desidratado. Abdome plano, levemente distendido, com dor difusa à palpação profunda e sem sinais de irritação peritoneal. Restante do exame sem alterações. Com relação a esse caso, assinale a opção que apresenta o método complementar mais sensível e específico para realizar o diagnóstico desse paciente.",
+  "alts": [
+   "Radiografia simples do abdome.",
+   "Dosagem sérica da desidrogenase lática.",
+   "Angiotomografia computadorizada de abdome com contraste.",
+   "Ultrassonografia com Doppler colorido das artérias viscerais."
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Bala et al., Acute mesenteric ischemia: updated guidelines of the World Society of Emergency Surgery, 2022",
+  "coment": "Idoso com fibrilação atrial sem anticoagulação (parou os remédios há uma semana) e dor abdominal intensa, desproporcional ao exame, sem irritação peritoneal: isquemia mesentérica aguda embólica até prova em contrário. O exame de escolha é a angiotomografia de abdome com contraste, em fases arterial e venosa, com sensibilidade e especificidade acima de 90%, feita sem demora mesmo com função renal alterada. Lactato e LDH são inespecíficos, a radiografia só mostra sinais tardios e o Doppler é limitado por gases.",
+  "porAlt": [
+   "A radiografia simples é normal no início e só mostra sinais tardios, como pneumatose e gás portal.",
+   "LDH elevada é inespecífica e não tem acurácia para confirmar isquemia mesentérica.",
+   "Correta: a angiotomografia é o método mais sensível e específico e deve ser feita imediatamente na suspeita.",
+   "O Doppler é limitado por gases e distensão e tem papel sobretudo na isquemia crônica dos óstios proximais."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma mulher de 28 anos é avaliada em unidade básica de saúde com queixa de diarreia crônica. A paciente refere estar preocupada, pois sua mãe e irmã têm doença de Crohn. Ela relata que a diarreia tem 2 anos de evolução, sendo, às vezes, intercalada por períodos de constipação intestinal. Afirma, também, que nunca foi despertada do sono em função da diarreia e que há dor abdominal recorrente que sempre alivia com a evacuação. Refere que não notou emagrecimento ao longo desse período e afirma, ainda, que as fezes não flutuam no vaso sanitário nem contêm muco, pus ou sangue. Ao exame físico, a paciente revela-se eutrófica (índice de massa corporal de 25 kg/m²), normocorada, acianótica, sem edemas e com sinais vitais normais. O resultado de sua colonoscopia está normal e ela ainda aguarda o resultado do exame histopatológico. Acerca do caso relatado, a principal hipótese diagnóstica é",
+  "alts": [
+   "doença de Crohn.",
+   "síndrome disabsortiva.",
+   "síndrome do intestino irritável.",
+   "retocolite ulcerativa idiopática."
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Critérios de Roma V para distúrbios da interação intestino-cérebro, 2026; ACG Clinical Guideline: Management of Irritable Bowel Syndrome, 2021",
+  "coment": "Dor abdominal recorrente que alivia com a evacuação, alternância entre diarreia e constipação, curso de 2 anos, sem sinais de alarme (sem despertar noturno, perda de peso, sangue ou esteatorreia) e colonoscopia normal: quadro típico de síndrome do intestino irritável, forma mista, pelos critérios de Roma. A história familiar de doença de Crohn é sinal de alerta e justificou a colonoscopia, que veio normal. Com diarreia, recomenda-se também sorologia para doença celíaca e calprotectina fecal.",
+  "porAlt": [
+   "Crohn costuma dar diarreia com sintomas noturnos, perda de peso e alterações na colonoscopia, ausentes aqui.",
+   "Síndrome disabsortiva cursa com esteatorreia (fezes que flutuam), perda de peso e carências, que a paciente nega.",
+   "Correta: dor que alivia com a evacuação, hábito alternante e ausência de sinais de alarme com colonoscopia normal.",
+   "Retocolite causa diarreia com sangue e muco e colonoscopia alterada desde o reto."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um homem de 49 anos procura atendimento com queixa de dor epigástrica e retroesternal em queimação, diária, nos últimos 5 meses. Relata que esses sintomas parecem agravar-se quando se deita e após terminar as refeições. Ele nega disfagia ou perda de peso. Refere tosse e rouquidão pela manhã nos últimos meses. O paciente fez uso, por conta própria, de um medicamento inibidor da bomba de prótons por 1 mês, com melhora parcial dos sintomas. Ele refere ingesta ocasional de bebidas alcóolicas, mas não fuma. Ao exame físico, observa-se obesidade grau 2 e não são identificadas anormalidades cardiopulmonares ou abdominais. Considerando esse caso clínico, assinale a opção que apresenta o exame mais adequado para confirmação diagnóstica",
+  "alts": [
+   "pHmetria esofágica prolongada.",
+   "Endoscopia digestiva alta.",
+   "Esofagografia baritada.",
+   "Manometria esofágica."
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022; Lyon Consensus 2.0, 2023",
+  "coment": "Pirose e regurgitação com sintomas extraesofágicos (tosse, rouquidão) e resposta apenas parcial ao IBP indicam investigação. A endoscopia digestiva alta é o primeiro exame: documenta esofagite (LA C ou D confirma DRGE), Barrett e diagnósticos diferenciais, de preferência após 2 a 4 semanas sem IBP. A pHmetria ou impedâncio-pHmetria prolongada fica para quando a endoscopia é normal ou inconclusiva, ou antes de cirurgia. Manometria não diagnostica refluxo, e o esofagograma tem baixa acurácia.",
+  "porAlt": [
+   "A pHmetria prolongada é indicada quando a endoscopia é normal ou inconclusiva, e não como primeiro exame.",
+   "Correta: com resposta parcial ao IBP e sintomas extraesofágicos, a endoscopia é o exame inicial para confirmar e estadiar a DRGE.",
+   "O esofagograma tem baixa sensibilidade e especificidade para refluxo e não avalia a mucosa.",
+   "A manometria avalia motilidade e posiciona o cateter da pHmetria, mas não confirma DRGE."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "O prefeito de um município brasileiro deseja implantar as Práticas Integrativas e Complementares (PICS) em sua cidade, para que os cidadãos tenham acesso a sessões de auriculoterapia, musicoterapia, entre outras PICS. Sobre as orientações expressas no referido programa do Sistema Único de Saúde (SUS), é correto afirmar que",
+  "alts": [
+   "a acupuntura deve ser ofertada pela atenção especializada, com a acesso regulado para pacientes atendidos pela atenção primária.",
+   "as PICS são recomendadas pela Organização Mundial da Saúde (OMS), que regula quais destas práticas podem ser implementadas.",
+   "as ações das PICS devem ter caráter multiprofissional, com a adoção de práticas que se adequem ao nível de atenção no qual estejam implementadas.",
+   "a auriculoterapia deve ser inserida em todos os níveis de atenção em saúde, com ênfase na atenção terciária, pois nesta, apresenta melhores resultados."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Política Nacional de Práticas Integrativas e Complementares no SUS (PNPIC), Portaria GM/MS nº 971/2006, ampliada pelas Portarias nº 849/2017 e nº 702/2018",
+  "coment": "A PNPIC orienta que as práticas integrativas tenham caráter multiprofissional e sejam ofertadas em todos os níveis de atenção, com prioridade para a atenção primária, adequando cada prática ao ponto da rede em que é implantada. A acupuntura, por exemplo, pode ser ofertada na APS por profissionais habilitados. A OMS recomenda a integração das medicinas tradicionais aos sistemas de saúde, mas quem define as práticas ofertadas no SUS é o Ministério da Saúde, que ampliou a lista para 29 práticas em 2017 e 2018.",
+  "porAlt": [
+   "A acupuntura pode ser ofertada na atenção primária, sem necessidade de regulação para a atenção especializada.",
+   "A OMS incentiva as práticas tradicionais, mas não regula quais o SUS implanta; essa definição é do Ministério da Saúde.",
+   "Correta: as PICS têm caráter multiprofissional e devem se adequar ao nível de atenção em que são implantadas.",
+   "A PNPIC prioriza a atenção primária, e não há evidência de melhores resultados da auriculoterapia na atenção terciária."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma mulher de 35 anos é encaminhada ao ambulatório de referência de um hospital de atenção secundária, em função de queixas de nervosismo, insônia e tremores. A paciente nega dor na região cervical, assim como linfonodomegalias palpáveis. Nega, também, quadros infecciosos recentes. Ao exame físico, a paciente exibe fácies basedoweana típica, extremidades quentes e úmidas, taquicardia (120 batimentos por minuto) e hipertensão arterial sistólica isolada (164 × 78 mmHg). No exame da tireoide, nota-se pequeno aumento de tamanho, não nodular e sem sopro local à ausculta. Diante desse quadro, visando confirmar a hipótese diagnóstica, a conduta do médico deve ser a solicitação do exame de",
+  "alts": [
+   "captação de iodo radioativo.",
+   "ultrassonografia de tiroide.",
+   "punção aspirativa por agulha fina (PAAF).",
+   "pesquisa de anticorpos do tipo TRAB."
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "European Thyroid Association Guideline for the management of Graves' hyperthyroidism, 2022; ATA Guidelines for the Diagnosis and Management of Hyperthyroidism, 2016",
+  "coment": "Mulher jovem com tireotoxicose clínica, bócio difuso pequeno e fácies basedowiana, sem dor cervical ou infecção recente, o que afasta tireoidite subaguda. A confirmação etiológica da doença de Graves é feita pela dosagem do anticorpo antirreceptor de TSH (TRAb), com sensibilidade e especificidade acima de 95%, exame inicial recomendado pela ETA. A cintilografia com captação fica para quando o TRAb é negativo ou há nódulos. Ultrassonografia e PAAF não definem a causa do hipertireoidismo difuso.",
+  "porAlt": [
+   "A captação é alternativa quando o TRAb é negativo ou indisponível, e não o primeiro exame recomendado.",
+   "A ultrassonografia pode mostrar hipervascularização, mas não confirma a etiologia autoimune.",
+   "PAAF avalia nódulos suspeitos e não tem papel no bócio difuso sem nódulo.",
+   "Correta: TRAb positivo confirma doença de Graves com alta acurácia e baixo custo."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma mulher de 45 anos procura o pronto-socorro com queixa de dor abdominal há 3 dias em região epigástrica e hipocôndrio direito, de intensidade crescente, associada a náusea e vômitos. Refere sudorese e calafrios, porém não aferiu temperatura corporal. Além disso, apresenta urina de coloração escurecida. A paciente nega episódios anteriores e não possui antecedentes pessoais relevantes. Ao exame físico, apresenta regular estado geral, corada e hidratada; ictérica 2+/4+; frequência cardíaca de 108 batimentos por minuto; pressão arterial de 110 × 70 mmHg; saturação de oxigênio de 97% em ar ambiente; frequência respiratória de 23 incursões respiratórias por minuto; e temperatura axilar de 38,5 °C; abdome doloroso à palpação em região epigástrica e em hipocôndrio direito. Os exames laboratoriais apresentaram o seguinte resultado: Leucócitos 16 150 mm³ (valor de referência: 4 500 a 11 000 mm³); Transaminase glutâmico oxalacética (TGO) 81 U/L (0 a 35 U/L); Transaminase glutâmico pirúvica (TGP) 79 U/L (0 a 35 U/L); Fosfatase alcalina 850 U/L (30 a 120 U/L); Gama glutamil transferase (GGT) 790 U/L (1 a 94 U/L); Bilirrubinas totais 6,90 mg/dL (0,3 a 1,0 mg/dL); Bilirrubinas diretas 6,50 mg/dL (0,1 a 0,3 mg/dL); Amilase 45 U/L (20 a 160 U/L); Proteína C Reativa (PCR) 220 mg/dL (< 8 mg/dL). Ultrassonografia de abdome: vesícula biliar de paredes finas, com múltiplos pequenos cálculos em seu interior, e moderada dilatação de vias biliares, sem evidência de fator obstrutivo ao método; fígado e pâncreas estavam sem alterações. Acerca do quadro dessa paciente, qual é a principal hipótese diagnóstica e a conduta imediata adequada?",
+  "alts": [
+   "Colangite aguda; realizar antibioticoterapia.",
+   "Colecistite aguda; realizar papilotomia endoscópica.",
+   "Colangite aguda; realizar colecistostomia percutânea.",
+   "Colecistite aguda; realizar colecistectomia com exploração de via biliar."
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Tokyo Guidelines 2018 (TG18) for the management of acute cholangitis and cholecystitis, 2018",
+  "coment": "Febre, icterícia e dor em hipocôndrio direito (tríade de Charcot), com leucocitose, PCR alta, padrão colestático (FA 850, GGT 790, bilirrubina direta 6,5 mg/dL) e via biliar dilatada em paciente com colelitíase: colangite aguda, provavelmente por coledocolitíase que o ultrassom não visualizou. Pelos critérios de Tóquio 2018, a medida imediata é hidratação e antibiótico de amplo espectro, seguidos de drenagem biliar, de preferência por CPRE; o grau II (leucócitos acima de 12.000, bilirrubina acima de 5) pede drenagem precoce.",
+  "porAlt": [
+   "Correta: colangite aguda (tríade de Charcot, colestase e via biliar dilatada), cuja medida imediata é o antibiótico, seguido de drenagem.",
+   "Vesícula de paredes finas e quadro colestático com icterícia falam contra colecistite; papilotomia trata a via biliar principal.",
+   "A drenagem na colangite é da via biliar principal, por CPRE; colecistostomia drena apenas a vesícula.",
+   "Não se trata de colecistite, e cirurgia com exploração de via biliar não é a conduta imediata em paciente séptica."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Durante uma visita domiciliar a um casal de idosos, o médico de família e comunidade aplica o Mini Exame do Estado Mental (MEEM) ao paciente de 82 anos de idade, que é advogado aposentado. Ele é hipertenso, em uso de enalapril 20 mg de 12 em 12 horas, e não possui outras comorbidades. A pontuação obtida pelo paciente no teste foi 25. A esposa, de 78 anos de idade, revela ao médico que tem se sentido bastante sobrecarregada com a manutenção da casa e com o cuidado com o marido, pois, há cerca de 6 meses, ele tem demonstrado dificuldades progressivas para realizar o pagamento de suas contas, para fazer compras e para utilizar o celular — práticas, até então, cotidianas. Apesar disso, ele mantém sua independência para o autocuidado, mantendo a higiene e a aparência preservadas, e demonstra motivação para realizar tarefas sugeridas. A partir do contexto apresentado, o médico de família e comunidade deverá",
+  "alts": [
+   "reconhecer que o idoso apresenta manifestações demenciais avançadas e referenciar ao geriatra e ao serviço neuropsicológico.",
+   "avaliar a presença de sobrecarga da esposa através de instrumento de avaliação de nível de estresse em entrevista sem a presença do idoso.",
+   "avaliar a autonomia e funcionalidade do idoso, através do instrumento de avaliação de Snellen, e sugerir as adaptações necessárias para o domicílio.",
+   "aplicar o Index de Independência nas Atividades Básicas de Vida Diária e avaliar o desempenho funcional do idoso em termos de atividades instrumentais."
+  ],
+  "gab": 1,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, Guia de Cuidados para a Pessoa Idosa, 2023; Escala de Sobrecarga do Cuidador de Zarit (validação brasileira por Scazufca, 2002)",
+  "coment": "O perfil funcional do idoso já está delineado pela história: perdeu atividades instrumentais (contas, compras, celular) com autocuidado preservado, e o MEEM de 25 em advogado de alta escolaridade é baixo, sugerindo síndrome demencial leve a investigar. O dado novo e ainda não abordado é a sobrecarga da esposa, também idosa e cuidadora principal. Avaliá-la com instrumento validado, como a escala de Zarit, em entrevista reservada, identifica risco de adoecimento da cuidadora e de negligência, e orienta o apoio da rede.",
+  "porAlt": [
+   "O idoso mantém o autocuidado e perdeu só atividades instrumentais, o que indica quadro leve, não demência avançada.",
+   "Correta: a sobrecarga da cuidadora idosa deve ser avaliada com instrumento próprio, em entrevista sem a presença do paciente.",
+   "A tabela de Snellen mede acuidade visual e não avalia autonomia nem funcionalidade.",
+   "A história já caracteriza perda de atividades instrumentais com as básicas preservadas; o problema não abordado é a cuidadora."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "O caso de um homem de 72 anos é avaliado em reunião de equipe na unidade básica de saúde após uma visita domiciliar realizada pelo agente comunitário de saúde (ACS). A esposa, de 68 anos, ao perceber uma piora do quadro de incontinência urinária, associada à perda ponderal expressiva em 08 meses, levou o idoso ao urologista, do qual havia abandonado o seguimento do acompanhamento prévio da hiperplasia benigna prostática (HPB). A visita foi solicitada porque ao receber o diagnóstico de neoplasia de próstata avançado sem possibilidade de cura, a esposa percebeu o desinteresse do idoso em realizar tarefas cotidianas e para tomar banho, se levantar da cama e se vestir, além da falta de apoio, em relação aos cuidados com o pai, da filha do casal, uma mulher de 33 anos que dá muito trabalho, segundo a mãe. O ecomapa exibido a seguir foi construído pelos membros da equipe, considerando outras informações colhidas pelo ACS durante à visita domiciliar. Figura — Genograma elaborado pela equipe de Saúde da Família. Figura — Ecomapa elaborado pela equipe de Saúde da Família. Legenda: NASF – Núcleo Ampliado de Saúde da Família; Amb. – Ambulatório; USF – Unidade de Saúde da Família. A partir das informações apresentadas no texto e no ecomapa, a equipe de saúde da família deverá",
+  "alts": [
+   "desenvolver um projeto terapêutico singular definitivo para a esposa se orientar e seguir, pois o idoso se encontra sem perspectiva de cura.",
+   "sugerir a internação compulsória para tratamento da filha do casal, diminuindo a quantidade de problemas que a esposa do idoso precisará gerenciar nesta fase.",
+   "reconhecer a dinâmica de funcionamento familiar, detectando disfuncionalidades e planejar intervenções precoces na busca do reequilíbrio dessa estrutura de relações.",
+   "sugerir a internação do idoso em um serviço de cuidados paliativos para possibilitar que uma equipe de paliativismo preparada possa gerenciar o cuidado prestado."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Política Nacional de Cuidados Paliativos, Portaria GM/MS nº 3.681/2024; Política Nacional de Atenção Básica, Portaria GM/MS nº 2.436/2017",
+  "coment": "Genograma e ecomapa são ferramentas de abordagem familiar da medicina de família: mostram a estrutura, os vínculos e as relações da família com a rede de apoio. Diante de doença grave sem possibilidade de cura, perda funcional do idoso, sobrecarga da esposa e conflito com a filha, a equipe deve usá-los para reconhecer a dinâmica familiar, identificar disfunções e planejar intervenções precoces, construindo um projeto terapêutico singular compartilhado e revisável. Cuidados paliativos podem ser ofertados na APS e no domicílio.",
+  "porAlt": [
+   "O projeto terapêutico singular é construído com a família e revisado ao longo do tempo, nunca definitivo nem imposto à esposa.",
+   "Internação compulsória exige risco grave e indicação médica específica, e não serve para aliviar a sobrecarga familiar.",
+   "Correta: genograma e ecomapa servem para reconhecer a dinâmica familiar, detectar disfunções e planejar intervenções precoces.",
+   "Cuidados paliativos podem ser prestados no domicílio com apoio da APS, sem necessidade de internação."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um homem branco de 56 anos, sexualmente ativo, portador de síndrome metabólica, retorna ao ambulatório de referência 2 semanas após ter sido diagnosticado com artrite gotosa aguda em joelho direito, através de artrocentese com análise do líquido sinovial. Após o diagnóstico, o paciente manteve o uso de colchicina e interrompeu o tratamento com alopurinol. Segundo relato, apresentou melhora nos seus sintomas com o uso do anti-inflamatório não esteroidal prescrito. Ao exame físico, a articulação do joelho direito revela-se novamente bastante inflamada, com intenso rubor, calor e edema, além de impotência funcional. Realiza nova artrocentese, cujos resultados iniciais revelam 120 000 leucócitos/mm³, com 95% de polimorfonucleares. Considerando a situação desse paciente, a melhor explicação para o quadro articular atual é",
+  "alts": [
+   "artrite séptica bacteriana.",
+   "desenvolvimento de pseudogota local.",
+   "re-exacerbação da artrite gotosa aguda.",
+   "artrite secundária a infecção sexualmente transmissível."
+  ],
+  "gab": 0,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACR Guideline for the Management of Gout, 2020; Margaretten et al., Does this adult patient have septic arthritis? JAMA, 2007",
+  "coment": "Joelho com nova inflamação intensa em paciente já tratado de gota, com líquido sinovial de 120.000 leucócitos/mm³ e 95% de polimorfonucleares. Acima de 50.000 células, e sobretudo acima de 100.000, a artrite séptica deve ser presumida até a cultura ser negativa, mesmo em gotoso, pois cristais e infecção podem coexistir, e a artrocentese recente é porta de entrada possível. A conduta é Gram, cultura e hemoculturas, antibiótico empírico e drenagem articular. Gota e pseudogota raramente passam de 100.000 células.",
+  "porAlt": [
+   "Correta: 120.000 leucócitos com 95% de neutrófilos após artrocentese recente obriga presumir artrite séptica.",
+   "Pseudogota raramente eleva a celularidade acima de 100.000, e a hipótese não explica a recaída após gota comprovada.",
+   "A crise gotosa pode ser intensa, mas celularidade acima de 100.000 exige excluir infecção antes de atribuí-la à gota.",
+   "Artrite gonocócica predomina em jovens e costuma ter tenossinovite e lesões de pele, sem relação com a punção recente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um homem de 30 anos é atendido em unidade básica de saúde com queixa de alteração no padrão do sono, alternando noites de insônia com noites de sono inquieto há 7 meses. Sente-se preocupado, com medo excessivo de adoecer ou de algo desagradável ocorrer. Seus amigos o consideram inquieto, tenso, irritado e com dificuldade de se concentrar. Ele relata que mantém suas atividades profissionais normalmente. Diante desse quadro, qual é o diagnóstico mais provável?",
+  "alts": [
+   "Depressão maior.",
+   "Transtorno bipolar do humor.",
+   "Transtorno de ansiedade generalizada.",
+   "Transtorno do deficit da atenção em adulto."
+  ],
+  "gab": 2,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "DSM-5-TR, American Psychiatric Association, 2022; NICE CG113 Generalised anxiety disorder and panic disorder in adults, 2011 (atualizada em 2020)",
+  "coment": "Preocupação excessiva e difícil de controlar (medo de adoecer ou de que algo ruim aconteça) por mais de 6 meses, com inquietação, tensão, irritabilidade, dificuldade de concentração e alteração do sono: preenche os critérios do DSM-5-TR para transtorno de ansiedade generalizada, que exige ao menos 3 de 6 sintomas associados. Manter as atividades não exclui o diagnóstico quando há sofrimento significativo. O tratamento de primeira linha é terapia cognitivo-comportamental e ISRS ou IRSN.",
+  "porAlt": [
+   "Não há humor deprimido nem anedonia; o núcleo do quadro é a preocupação excessiva, não a tristeza.",
+   "Não há episódios de mania ou hipomania, necessários para o diagnóstico de transtorno bipolar.",
+   "Correta: preocupação excessiva por mais de 6 meses com tensão, inquietação, irritabilidade e insônia define TAG.",
+   "TDAH do adulto exige sintomas desde a infância, e aqui a desatenção é secundária a ansiedade de início recente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Após assumir a gestão da saúde municipal, um médico encontra a seguinte situação de saúde: uma população de 30 mil habitantes, com faixa etária predominante de 20 a 50 anos, com predomínio de doenças crônicas não transmissíveis e de causas externas, principalmente por acidentes. O município possui cobertura de atenção primária de 70%, com sete equipes de saúde da família em áreas de maior vulnerabilidade e nas áreas menos vulneráveis, uma unidade básica de saúde tradicional. A partir desses dados, o médico reúne a equipe de planejamento para construir o plano municipal dos próximos 4 anos. Com base nessas informações, qual deve ser a ação prioritária contemplada no plano?",
+  "alts": [
+   "Ampliação da cobertura da atenção primária com maior integração com atenção secundária de forma a melhorar os indicadores das doenças crônicas e a ampliar a resolubilidade do Sistema Único de Saúde.",
+   "Manutenção da cobertura de saúde da família, priorizando a criação de um serviço de urgência e de emergência em área mais vulnerável, considerando as necessidades de saúde.",
+   "Aumento dos serviços de saúde de atenção primária tradicional pela necessidade de ampliar o acesso dos usuários ao sistema de saúde sem estratégia de saúde da família.",
+   "Aquisição de novas ambulâncias para facilitar as remoções de pacientes para os municípios vizinhos e os fluxos dos usuários nas urgências, ampliando o acesso à saúde."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Política Nacional de Atenção Básica, Portaria GM/MS nº 2.436/2017; Portaria de Consolidação GM/MS nº 3/2017 (Redes de Atenção à Saúde)",
+  "coment": "Município de 30 mil habitantes, com cobertura de APS de 70% e predomínio de doenças crônicas não transmissíveis: a prioridade do plano municipal é ampliar a Estratégia Saúde da Família, porta de entrada e coordenadora do cuidado, integrada à atenção especializada na rede de atenção à saúde. A APS resolve a maior parte das demandas e é o nível que controla hipertensão, diabetes e outras DCNT. Criar serviço de urgência, comprar ambulâncias ou expandir UBS tradicional não enfrenta o perfil epidemiológico descrito.",
+  "porAlt": [
+   "Correta: ampliar a cobertura da ESF integrada à atenção secundária responde ao predomínio de doenças crônicas.",
+   "Manter a cobertura em 70% e priorizar urgência não enfrenta as doenças crônicas, principal problema do município.",
+   "A PNAB prioriza a Estratégia Saúde da Família como modelo de expansão, e não a atenção básica tradicional.",
+   "Ambulâncias para remoção não fortalecem a rede local nem melhoram o controle das doenças crônicas."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma mulher de 19 anos vai a uma consulta devido a edema de membros inferiores. Ela relata que teve gestação sem intercorrências, embora tenha feito apenas duas consultas de pré-natal. Contudo, 1 mês após o parto, procurou atendimento médico devido à persistência e piora progressiva do edema de membros inferiores, que, inicialmente, atribuiu à gravidez. Ao exame físico, apresenta edema depressível de membros inferiores e pressão arterial de 130 × 80 mmHg. Os exames laboratoriais apresentam urina de rotina com proteína positiva (4+/4+); proteinúria de 24h de 4g (valor de referência [VR]: < 150 mg/24h); colesterol total de 300 mg/dL (VR: < 200 mg/dL); colesterol HDL de 20 mg/dL (VR: > 35 mg/dL); triglicerídeos de 280 mg/dL (VR: < 150 mg/dL); glicemia de jejum de 201 mg/dL (VR: < 100 mg/dL); albumina de 1,8 g/dL (VR: 3,5 a 5,2 g/dL); pesquisa de autoanticorpos FAN positiva com padrão nuclear homogêneo e título de 1:640. O diagnóstico sindrômico e o diagnóstico etiológico mais prováveis são, respectivamente,",
+  "alts": [
+   "síndrome nefrótica; diabetes mellitus.",
+   "síndrome nefrítica; síndrome de Sjögren.",
+   "síndrome nefrítica; trombose de veia renal.",
+   "síndrome nefrótica; lúpus eritematoso sistêmico."
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis, 2024; EULAR/ACR Classification Criteria for Systemic Lupus Erythematosus, 2019",
+  "coment": "Proteinúria de 4 g/24h, albumina de 1,8 g/dL, edema e dislipidemia definem síndrome nefrótica (proteinúria acima de 3,5 g/dia com hipoalbuminemia). Mulher jovem, no puerpério, com FAN 1:640 de padrão homogêneo sugere lúpus eritematoso sistêmico, e a nefrite lúpica (classe V membranosa, ou III/IV com componente nefrótico) é a causa provável, a ser definida por biópsia renal. A hiperglicemia não explica o quadro, pois nefropatia diabética leva anos para surgir. O puerpério é período de exacerbação do lúpus.",
+  "porAlt": [
+   "A síndrome é nefrótica, mas nefropatia diabética leva anos para se instalar e não explica FAN 1:640.",
+   "Não há hematúria, hipertensão ou perda de função que caracterizem síndrome nefrítica, e Sjögren raramente causa proteinúria maciça.",
+   "O quadro é nefrótico, e a trombose de veia renal é complicação da síndrome nefrótica, não sua causa aqui.",
+   "Correta: proteinúria maciça com hipoalbuminemia em mulher jovem com FAN 1:640 sugere nefrite lúpica."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ }
+]

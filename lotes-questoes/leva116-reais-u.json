@@ -1,0 +1,650 @@
+[
+ {
+  "q": "Um homem de 59 anos comparece à unidade básica de saúde com queixas de dispneia aos esforços físicos e de tosse seca, os quais se desenvolveram gradualmente ao longo dos últimos anos. Ele relata sono e apetite normais, no entanto refere febre e perda de mais de 5% do peso corporal nos últimos 2 meses. Menciona que é divorciado e que está tendo dificuldades para encontrar emprego desde que o local onde trabalhava encerrou suas atividades. Paciente apresenta tomografia computadorizada de tórax com espessamento da pleura visceral e parietal, derrame pleural e formação de placas pleurais. Considerando o contexto clínico-epidemiológico desse caso, é correto afirmar que o paciente trabalhava na",
+  "alts": [
+   "agricultura (com agrotóxico).",
+   "construção civil (com amianto).",
+   "fabricação de solventes químicos (com benzeno).",
+   "extração do carvão (com poeira do carvão mineral)."
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ATS Official Statement: Diagnosis and Initial Management of Nonmalignant Diseases Related to Asbestos, 2004; Helsinki Criteria update, 2014",
+  "coment": "Placas pleurais, espessamento pleural difuso e derrame pleural benigno formam o padrão típico de exposição ao amianto, e as placas são o marcador mais específico dessa exposição. No Brasil, a principal fonte ocupacional histórica é a construção civil, pelo fibrocimento (telhas e caixas d'água). Febre, perda de peso e derrame em quem tem placas obrigam a investigar mesotelioma, também ligado ao amianto. Latência longa, de 20 a 40 anos, explica o quadro gradual. Sílica, carvão e benzeno produzem outros padrões.",
+  "porAlt": [
+   "Agrotóxicos causam intoxicação aguda e crônica, não placas pleurais nem espessamento pleural.",
+   "Correta: placas pleurais com espessamento e derrame são o marcador de exposição ao amianto, comum na construção civil.",
+   "Benzeno é mielotóxico (aplasia, leucemia) e não produz doença pleural.",
+   "Poeira de carvão causa pneumoconiose do mineiro com nódulos parenquimatosos, não placas pleurais."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Na abordagem imediata ao paciente com cetoacidose diabética na unidade de pronto-atendimento, o médico deve",
+  "alts": [
+   "solicitar dosagem de sódio, potássio, glicemia, hemoglobina glicada, cetonemia/cetonúria, gasometria e função renal.",
+   "rever as medicações em uso (orais e insulinas) e indicar a utilização de insulina NPH e/ou regular, conforme glicemia capilar.",
+   "iniciar hidratação venosa com 1 L de soro fisiológico 0,9% na primeira hora, atentando-se para as condições cardíacas do paciente.",
+   "promover a remoção do usuário para o hospital de referência após 24 horas, caso o paciente apresente convulsões ou caso não apresente diurese."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Hyperglycemic Crises in Adults With Diabetes: A Consensus Report (ADA/EASD/JBDS/AACE/DTS), 2024; ADA Standards of Care in Diabetes, 2026",
+  "coment": "A primeira medida na cetoacidose diabética é repor volume: o déficit hídrico médio é de 6 a 9 L, e o consenso de crises hiperglicêmicas de 2024 recomenda 1 a 1,5 L de cristaloide isotônico na primeira hora (15 a 20 mL/kg), com cautela em cardiopatas e renais crônicos. A insulina regular endovenosa em infusão contínua só começa após confirmar potássio de pelo menos 3,5 mEq/L. Hidratar também reduz a glicemia e melhora a perfusão renal. Hemoglobina glicada não muda a conduta imediata, e insulina NPH ou em escala subcutânea não trata a acidose.",
+  "porAlt": [
+   "A lista mistura exames necessários com hemoglobina glicada, que não altera a abordagem imediata da crise.",
+   "NPH e escala de regular por glicemia capilar não corrigem a cetose; a CAD exige insulina regular endovenosa contínua.",
+   "Correta: 1 L de soro fisiológico na primeira hora é a medida inicial, com atenção à função cardíaca.",
+   "A transferência é imediata após estabilização inicial, não 24 horas depois nem condicionada a convulsão ou anúria."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um paciente de 22 anos com retardo mental moderado é trazido à unidade de pronto-atendimento por quadro de náuseas, vômitos, incontinência fecal e urinária, fasciculações musculares e sialorreia. O acompanhante, que é o avô do paciente e agricultor, refere não saber o que possa ter ocorrido com o neto, o qual estava em visita a sua propriedade rural pela segunda vez. Ele não soube afirmar se o paciente ingeriu algum dos medicamentos que o avô faz uso ou outras substâncias. Ao exame, o paciente encontra-se em regular estado geral, com pupilas mióticas, lacrimejamento excessivo e sialorreia. Apresenta frequência cardíaca de 49 batimentos por minuto; glicemia capilar de 80 mg/dL; e pressão arterial de 100 × 60 mmHg. Além disso, possui ritmo cardíaco regular em dois tempos com bulhas normofonéticas e sem sopros. Com base nessas informações, a principal hipótese diagnóstica e o tratamento imediato devem ser, respectivamente,",
+  "alts": [
+   "intoxicação por diltiazem; administrar fisiostigmina.",
+   "intoxicação por varfarina; administrar plasma fresco.",
+   "intoxicação por salbutamol; administrar fentolamina.",
+   "intoxicação por organofosforados; administrar atropina."
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Ministério da Saúde/Conitec. Diretrizes Brasileiras para Diagnóstico e Tratamento das Intoxicações por Agrotóxicos, Capítulo 1, 2018",
+  "coment": "Miose, lacrimejamento, sialorreia, incontinência urinária e fecal, vômitos e bradicardia compõem a síndrome muscarínica, e as fasciculações indicam efeito nicotínico: juntas, sugerem inibição da acetilcolinesterase por organofosforado ou carbamato, compatível com a exposição na propriedade rural. O tratamento imediato é atropina em doses repetidas e crescentes até secar as secreções brônquicas (atropinização), com descontaminação e suporte ventilatório. A pralidoxima pode ser associada nos organofosforados. Fisostigmina agravaria o quadro colinérgico.",
+  "porAlt": [
+   "Diltiazem causa bradicardia e hipotensão sem sialorreia, miose ou fasciculações, e fisostigmina pioraria uma crise colinérgica.",
+   "Varfarina causa sangramento, não síndrome colinérgica; plasma não trata os sintomas descritos.",
+   "Salbutamol provoca taquicardia, tremor e hipocalemia, o oposto do quadro apresentado.",
+   "Correta: síndrome muscarínica com fasciculações em ambiente rural indica organofosforado, tratado com atropina."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma mulher de 59 anos é atendida em unidade de pronto-atendimento, queixando-se de dor lombar contínua, de forte intensidade, de caráter progressivo e com piora no último mês. Realizou tratamento prévio com analgésico e com antiinflamatório, porém os sintomas persistiram. Ela refere história prévia de tratamento para câncer de mama há 3 anos. No momento, está sem queixas acerca da mama. O exame físico mostra hiperalgesia aos estímulos em coluna lombar. Radiografia da coluna lombar: lesões líticas. Com base no caso clínico apresentado, a principal hipótese diagnóstica é",
+  "alts": [
+   "metástase.",
+   "tuberculose.",
+   "hérnia discal.",
+   "fratura vertebral."
+  ],
+  "gab": 0,
+  "tema": "onco",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACR Appropriateness Criteria Low Back Pain, 2021; NCCN Guidelines Breast Cancer, 2026",
+  "coment": "Dor lombar contínua, progressiva, refratária a analgésicos e anti-inflamatórios em mulher com antecedente de câncer de mama é sinal de alerta maior para metástase óssea. O câncer de mama está entre os que mais metastatizam para o esqueleto axial, e o antecedente oncológico é o fator de maior valor preditivo para neoplasia como causa de lombalgia. Lesões líticas na radiografia confirmam a suspeita. O próximo passo é ressonância da coluna e estadiamento, com atenção à compressão medular.",
+  "porAlt": [
+   "Correta: antecedente de câncer de mama, dor progressiva e lesões líticas apontam metástase óssea.",
+   "Tuberculose vertebral é possível em lesões líticas, mas o antecedente de câncer de mama torna a metástase muito mais provável.",
+   "Hérnia discal não produz lesões líticas e costuma causar dor radicular mecânica.",
+   "Fratura vertebral pode ocorrer sobre a metástase, mas não explica as lesões líticas como diagnóstico principal."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um homem de 65 anos, trabalhador rural, procura atendimento em uma unidade de atenção primária à saúde por queixa de dor na região lombar esquerda iniciada há 1 mês. A dor vem piorando progressivamente e, nos últimos dias, tem impossibilitado o sono reparador do paciente. Sua esposa se queixa de que as calças do marido estão com cheiro de urina ultimamente. Ao exame, o paciente está lúcido, colaborativo e as mucosas estão úmidas e hipocoradas. Há retificação da coluna lombar, espasmo muscular localizado e dor à palpação delicada das apófises vertebrais de L2 e L3. As manobras de elevação do membro inferior esquerdo estendido (Lasègue) e do membro inferior direito estendido (Lasègue cruzado) não reproduzem a dor. Como o paciente se queixa de dor com o decúbito ventral, o sinal de Lasègue invertido (Wasserman) foi pesquisado em pé. A extensão das coxas com o paciente em ortostatismo também não provocaram dor. Em relação a essa situação, assinale a opção que apresenta, respectivamente, o diagnóstico clínico correto e a conduta médica apropriada.",
+  "alts": [
+   "Dor lombar musculoesquelética; prescrever anti-inflamatórios.",
+   "Dor lombar por radiculopatia; encaminhar paciente para o neurocirurgião.",
+   "Dor lombar com comprometimento neurológico; solicitar exame de imagem.",
+   "Dor lombar postural relacionada à profissão; recomendar repouso e solicitar fisioterapia."
+  ],
+  "gab": 2,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACR Appropriateness Criteria Low Back Pain, 2021",
+  "coment": "O paciente soma vários sinais de alerta: idade acima de 50 anos, dor progressiva que piora à noite e impede o sono, dor à percussão das apófises de L2 e L3, palidez sugestiva de anemia e perda urinária involuntária (roupas com cheiro de urina), que indica disfunção esfincteriana. Com manobras radiculares negativas, não se trata de hérnia discal comprimindo raiz, e sim de lombalgia com possível comprometimento neurológico por neoplasia, infecção ou fratura. Sinais de alerta e disfunção esfincteriana indicam imagem, de preferência ressonância, sem demora.",
+  "porAlt": [
+   "Tratar como dor musculoesquelética ignora dor noturna, anemia, idade e perda urinária, que são sinais de alerta.",
+   "Lasègue e Lasègue cruzado negativos afastam radiculopatia compressiva, e o encaminhamento sem imagem não investiga a causa.",
+   "Correta: sinais de alerta com disfunção esfincteriana exigem exame de imagem para investigar comprometimento neurológico.",
+   "Repouso não é recomendado e a dor não tem padrão postural; a hipótese deixa passar causa grave."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um médico de família atende, em uma unidade básica de saúde, um homem de 66 anos, serralheiro, casado, que apresenta queixas de cefaleia e de dores no corpo, com febre de 38 °C e com edema em mãos e em pés há 2 dias. O paciente refere ter notado manchas vermelhas na pele, que começaram a apresentar prurido, no dia do atendimento. Após a anamnese e o exame físico, o médico estabelece a hipótese diagnóstica de febre de Chikungunya. Diante dessa situação, o médico e a equipe de saúde devem realizar",
+  "alts": [
+   "notificação após confirmação sorológica; encaminhamento para internação em hospital de referência; campanha de combate ao mosquito Aedes aegypti no bairro por meio de folhetos explicativos; e aplicação de inseticidas pela prefeitura.",
+   "prescrição de corticosteroides via oral; solicitação de exames para confirmação diagnóstica; busca ativa de casos suspeitos no bairro; campanhas informativas sobre a doença; e notificação do caso quando houver confirmação laboratorial.",
+   "tratamento com analgésicos, repouso e aumento da ingestão hídrica; notificação de caso suspeito; exames confirmatórios; busca ativa de casos suspeitos no bairro; promoção de ações de controle do mosquito Aedes aegypti.",
+   "solicitação de testes diagnósticos; e encaminhamento para atendimento especializado em centro de referência em doenças infecciosas se o teste confirmar alguma doença, sendo que a notificação será feita no centro de referência."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Ministério da Saúde. Chikungunya: manejo clínico, 2ª edição, 2024",
+  "coment": "Na fase aguda da chikungunya o tratamento é de suporte: repouso, hidratação oral e analgesia com paracetamol e dipirona, evitando anti-inflamatórios até afastar dengue. Corticoide não é indicado na fase aguda, só na subaguda ou crônica. A notificação é feita já na suspeita, sem esperar confirmação, e a vigilância desencadeia busca ativa de casos e controle do Aedes aegypti no território. A confirmação laboratorial (RT-PCR até o 5º dia ou sorologia IgM depois) orienta a vigilância. Idade acima de 65 anos pede reavaliação próxima, não internação automática.",
+  "porAlt": [
+   "A notificação é na suspeita, e não há indicação de internar um caso sem sinais de gravidade.",
+   "Corticoide é contraindicado na fase aguda, e a notificação não deve esperar confirmação laboratorial.",
+   "Correta: suporte clínico, notificação na suspeita, confirmação laboratorial, busca ativa e controle vetorial.",
+   "A notificação cabe a quem atende o caso suspeito, e o manejo é na atenção primária, sem encaminhamento automático."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um paciente de 17 anos, previamente hígido, relata cefaleia, dor de garganta e febre há 8 dias. Ao exame físico, apresenta linfonodos cervicais com características fibroelásticas, que são indolores; o maior possui 1,5 cm de diâmetro. Seu exame abdominal está sem alterações. O hemograma revela leucocitose (15 500 células/mm³) e linfocitose com presença de linfócitos atípicos. Diante desse quadro, a conduta diagnóstica inicial adequada é a realização de",
+  "alts": [
+   "sorologia para Epstein-Barr.",
+   "biópsia excisional do linfonodo.",
+   "punção aspirativa da medula óssea.",
+   "tomografia computadorizada do pescoço."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "AAFP. Infectious Mononucleosis: Rapid Evidence Review, 2023",
+  "coment": "Adolescente com febre, faringite e linfadenopatia cervical, com linfocitose e linfócitos atípicos no hemograma, tem quadro clássico de mononucleose infecciosa pelo Epstein-Barr. O passo inicial é confirmar com sorologia: teste de anticorpos heterófilos ou, se negativo ou precoce, anticorpos específicos (anti-VCA IgM). Linfonodos fibroelásticos, indolores e menores que 2 cm, em contexto infeccioso agudo, não justificam biópsia, mielograma ou tomografia. Invasão diagnóstica fica reservada a linfonodo persistente, endurecido ou com sintomas B sem explicação.",
+  "porAlt": [
+   "Correta: febre, faringite, adenomegalia e linfócitos atípicos indicam mononucleose, confirmada por sorologia para EBV.",
+   "Biópsia é para linfonodo persistente, endurecido ou suspeito, não para adenomegalia reacional de quadro agudo.",
+   "Mielograma não se justifica com hemograma sem citopenias nem blastos.",
+   "Tomografia não confirma a etiologia e não está indicada em adenomegalia reacional sem complicação."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um paciente de 42 anos, em situação de rua há 2 anos, é atendido por um médico da equipe do Consultório na Rua. Ao ser questionado sobre sintomas respiratórios, refere tosse pouco produtiva há 2 semanas. Ele nega febre, queda do estado geral e dispneia, porém vem emagrecendo há 4 meses, o que atribui à dificuldade de conseguir dinheiro para se alimentar. Teste rápido para sífilis e para HIV no último mês negativos. Faz uso regular de enalapril 20 mg de 12 em 12 horas para tratamento de hipertensão arterial e consome 2 doses de destilados por dia, quando tem dinheiro. Ele também nega tabagismo e uso de outras substâncias psicoativas. Ao exame físico, apresenta murmúrio vesicular presente bilateralmente, diminuído em terço superior de hemitórax esquerdo e restante do exame físico inalterado. Diante das informações obtidas, o médico do Consultório na Rua deve considerar o diagnóstico e tratamento de tuberculose",
+  "alts": [
+   "com resistência à rifampicina e iniciar esquema básico, dispensando o Tratamento Diretamente Observado (TDO), considerando a dificuldade de acesso do paciente aos serviços de saúde",
+   "com resistência à rifampicina e aguardar o resultado da cultura de escarro e encaminhar para a referência terciária, que deverá se responsabilizar pelo Tratamento Diretamente Observado (TDO).",
+   "sem resistência à rifampicina e iniciar esquema básico, que poderá ser diretamente observado por pessoas que possuem vínculo com o paciente e com os serviços de saúde, desde que supervisionadas semanalmente pelo profissional de saúde responsável.",
+   "sem resistência à rifampicina e aguardar o resultado da cultura de escarro e encaminhar o paciente para a referência terciária para tratamento com esquema básico, devido à impossibilidade de realizar tratamento diretamente observado para a pessoa em situação de rua."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição, 2019",
+  "coment": "Tosse por 2 semanas, emagrecimento e murmúrio reduzido em ápice esquerdo, em pessoa em situação de rua, configuram suspeita de tuberculose pulmonar. Sem tratamento prévio, não há motivo para supor resistência, e o caso é conduzido pela própria equipe do Consultório na Rua com esquema básico (RHZE por 2 meses e RH por 4 meses), após coleta de escarro para teste rápido e cultura. O tratamento diretamente observado é prioritário nessa população e, quando o profissional não pode observar todas as doses, pode ser feito por pessoa com vínculo, supervisionada semanalmente pela equipe.",
+  "porAlt": [
+   "Nada sugere resistência à rifampicina, e dispensar o TDO é o oposto do recomendado para população em situação de rua.",
+   "Não há indicação de supor resistência nem de transferir o caso para referência terciária.",
+   "Correta: TB sensível com esquema básico e TDO que pode ser feito por pessoa com vínculo, sob supervisão semanal.",
+   "O caso é tratado na atenção primária, e a situação de rua não impede o TDO, que é justamente prioritário."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um homem de 50 anos vai ao ambulatório relatando 3 dias de febre e icterícia. Ele mora em área urbana com falta de saneamento básico e nega viagens recentes. Além de febre e de icterícia, apresenta náuseas, eritema conjuntival bilateral e dor muscular, especialmente em panturrilhas. Os exames iniciais indicam leucocitose com neutrofilia e apresentam os seguintes resultados: potássio de 3 mEq/L (valor de referência [VR]: 3,5 a 5,1 mEq/L); creatinina de 1,8 mg/dL (VR: 0,6 a 1,2 mg/dL); bilirrubina total de 24 mg/dL (VR: 0,2 a 1,2 mg/dL); bilirrubina direta de 19 mg/dL (VR: até 1 mg/dL); transaminase glutâmico oxalacética (TGO) de 98 U/L (VR: 5 a 40 U/L); e transaminase glutâmico pirúvica (TGP) de 102 U/L (VR: 7 a 56 U/L). A partir dessas informações, é correto afirmar que a hipótese pertinente para o caso apresentado e a investigação complementar são, respectivamente,",
+  "alts": [
+   "dengue; sorologia IgM para dengue.",
+   "hepatite por vírus B; Anti-HBc e HBsAg.",
+   "leptospirose; teste de microaglutinação.",
+   "febre amarela; sorologia IgM para febre amarela."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde. Leptospirose: diagnóstico e manejo clínico, 2014; Guia de Vigilância em Saúde, 6ª edição, 2023",
+  "coment": "Febre, mialgia em panturrilhas e sufusão conjuntival em morador de área sem saneamento sugerem leptospirose. A forma ictero-hemorrágica (síndrome de Weil) combina icterícia rubínica com bilirrubina direta muito alta e transaminases só discretamente elevadas (abaixo de 200 U/L), lesão renal aguda e hipocalemia, marca da nefropatia da leptospirose por perda tubular de potássio. A microaglutinação é o exame de referência; ELISA IgM é o teste de triagem. Em hepatites virais as transaminases passam de 1.000 U/L.",
+  "porAlt": [
+   "Dengue não causa icterícia intensa com hiperbilirrubinemia direta de 19 mg/dL nem hipocalemia com lesão renal.",
+   "Hepatite B aguda cursa com transaminases muito elevadas, não com valores próximos de 100 U/L.",
+   "Correta: mialgia em panturrilhas, sufusão conjuntival, icterícia, lesão renal e hipocalemia indicam leptospirose, confirmada por microaglutinação.",
+   "Febre amarela grave eleva muito as transaminases (TGO acima de TGP, frequentemente mais de 1.000 U/L) e o paciente não tem exposição silvestre."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um homem de 68 anos retorna do ambulatório de referência devido a dores em coluna torácica e em lombar, de intensidade progressivamente maior nos últimos 3 meses. Os exames realizados apresentaram os seguintes resultados: Exame Resultado Valor de Referência Hemoglobina 7,5 g/dL 13 a 15 g/dL Hematócrito 23% 36 a 47% 8 000 mm³ 4 500 a 11 000 mm³ Leucócitos totais Proteínas totais 9,4 g/dL 6,5 a 8,1 g/dL Albumina 2,2 g/dL 3,5 a 5,2 g/dL Cálcio sérico 12,3 mg/dL 8,8 a 10,4 mg/dL Creatinina 1,4 mg/dL 0,6 a 1,2 mg/dL Imunoeletroforese de proteínas – banda monoclonal de imunoglobulina (Ig): IgA 5 200 mg/dL 40 a 350 mg/dL IgG 180 mg/dL 700 a 1 600 mg/dL IgM 100 mg/dL 50 a 300 mg/dL A radiografia de coluna vertebral mostrou lesões osteolíticas e fraturas vertebrais em T11, T12, L1 e L2. Nas últimas 2 semanas, o paciente apresenta-se excessivamente sonolento. Considerando essas informações, a hipótese diagnóstica e o exame mais adequado para confirmá-la são, respectivamente,",
+  "alts": [
+   "anemia falciforme; eletroforese de hemoglobina.",
+   "linfoma; biópsia de linfonodos abdominais.",
+   "hiperparatireoidismo; paratormônio (PTH).",
+   "mieloma múltiplo; mielograma."
+  ],
+  "gab": 3,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "IMWG updated criteria for the diagnosis of multiple myeloma, 2014",
+  "coment": "Idoso com dor óssea, lesões osteolíticas com fraturas vertebrais, anemia, hipercalcemia, disfunção renal e hiperproteinemia com albumina baixa tem os eventos definidores do mieloma (critérios CRAB). A banda monoclonal IgA com supressão das demais imunoglobulinas confirma a gamopatia, e a sonolência pode refletir hipercalcemia ou hiperviscosidade, mais frequente no mieloma IgA. Pelo IMWG 2014, o diagnóstico exige plasmócitos clonais de pelo menos 10% na medula óssea, por isso o exame confirmatório é o mielograma, idealmente com biópsia.",
+  "porAlt": [
+   "Anemia falciforme não explica pico monoclonal, lesões líticas e hipercalcemia em idoso.",
+   "Linfoma não produz banda monoclonal IgA com lesões osteolíticas e hipercalcemia como quadro dominante.",
+   "Hiperparatireoidismo causa hipercalcemia, mas não gamopatia monoclonal nem anemia intensa.",
+   "Correta: CRAB com componente monoclonal IgA indica mieloma múltiplo, confirmado pela plasmocitose clonal medular."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma paciente de 57 anos, fumante e obesa, procura atendimento médico por possuir úlcera de membro inferior. Queixa-se do aparecimento de ferida no tornozelo esquerdo nos últimos 2 meses, que vem aumentando de tamanho progressivamente, acompanhada por dor de forte intensidade e refratária ao uso de analgésicos. Ela relata que, em seu trabalho, caminha grandes percursos no dia e que, há 1 ano, vem apresentado dor no membro inferior esquerdo durante a deambulação, claudicação, obrigando-a a sentar por alguns minutos para melhorar. Por orientação de um parente, tem procurado repousar com os membros inferiores elevados ao chegar em casa, entretanto não tem obtido bons resultados com essa manobra, referindo, inclusive, piora da dor. Ao exame do membro inferior esquerdo, nota-se úlcera profunda na região do maléolo medial, com bordas bem definidas, pálida, com áreas necróticas e sem tecidos de granulação. A região em torno da úlcera apresenta coloração eritematovinhosa. Nesse caso, a etiologia mais provável da úlcera é",
+  "alts": [
+   "linfedema crônico.",
+   "úlcera neuropática.",
+   "insuficiência arterial crônica.",
+   "insuficiência venosa crônica."
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "AHA/ACC/Multisociety Guideline for the Management of Lower Extremity Peripheral Artery Disease, 2024",
+  "coment": "Tabagista com claudicação intermitente há 1 ano que evolui com úlcera muito dolorosa, profunda, de bordas bem definidas, pálida, com necrose e sem tecido de granulação tem isquemia crônica ameaçadora do membro. A piora da dor com a elevação da perna é típica da insuficiência arterial, pois reduz ainda mais a pressão de perfusão, e o eritema vinhoso ao redor corresponde ao rubor de declive. O passo seguinte é medir o índice tornozelo-braquial e encaminhar para revascularização. Na úlcera venosa, a elevação alivia e o leito costuma ser raso e granuloso.",
+  "porAlt": [
+   "Linfedema causa edema duro e crônico, raramente ulcera e não produz claudicação.",
+   "Úlcera neuropática é indolor, surge em pontos de pressão plantar e ocorre em quem perdeu sensibilidade.",
+   "Correta: claudicação, dor que piora com a elevação e úlcera pálida e necrótica indicam insuficiência arterial.",
+   "Na insuficiência venosa a elevação alivia a dor e a úlcera é rasa, exsudativa e com granulação."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um homem de 52 anos é atendido em uma unidade básica de saúde de uma área periférica de um município de médio porte. Há 4 dias, vem apresentando quadro de febre, calafrios, dores musculares e náuseas. No dia anterior à consulta, apresentou melhora dos sintomas, porém, há 12 horas, refere recrudescimento da febre, que chegou a 39,5 °C, acompanhada por náuseas, vômitos, diarreia, icterícia e por dois episódios de epistaxe. A esposa refere que ele tem o hábito de alimentar macacos em uma mata perto da residência e que, nas últimas semanas, alguns haviam aparecido mortos. A vigilância epidemiológica havia divulgado informe de ocorrência de epizootia em primatas não humanos na região. O médico, diante disso, solicita a internação do paciente para investigação por suspeita de febre amarela. Com base nessas informações, é correto afirmar que, para conduzir a investigação epidemiológica de maneira adequada, deve-se realizar a notificação imediata de caso",
+  "alts": [
+   "confirmado de febre amarela silvestre por vínculo epidemiológico, já que o paciente apresenta sinais e sintomas sugestivos em área com epizootia em primatas não humanos.",
+   "suspeito de febre amarela silvestre e pesquisar anticorpos IgM pela técnica de ELISA a partir do 7.º dia do início dos sintomas, se o paciente não for vacinado contra a doença.",
+   "confirmado de febre amarela urbana e pesquisar anticorpos IgG pela técnica de ELISA a partir do 7.º dia do início dos sintomas, se o paciente não for vacinado contra a doença.",
+   "suspeito de febre amarela silvestre e pesquisar anticorpos IgM pela técnica ELISA a partir do 10.º dia do início dos sintomas, independentemente de o paciente possuir vacinação prévia contra a doença."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, 6ª edição, 2023 (capítulo Febre Amarela)",
+  "coment": "Quadro bifásico com remissão breve e retorno com icterícia, vômitos e sangramento, em quem convive com área de epizootia em primatas, é caso suspeito de febre amarela silvestre, de notificação imediata (até 24 horas). O caso só é confirmado por laboratório: RT-PCR nos primeiros 5 dias e sorologia IgM por ELISA a partir do 6º dia de sintomas, de modo que a coleta no 7º dia está na janela. A vacina também induz IgM, por isso a sorologia só é interpretável em quem não foi vacinado recentemente. Não há febre amarela urbana no Brasil desde 1942.",
+  "porAlt": [
+   "Epizootia reforça a suspeita, mas o caso vivo precisa de confirmação laboratorial; vínculo epidemiológico não basta.",
+   "Correta: caso suspeito de febre amarela silvestre, com IgM por ELISA na janela adequada em paciente não vacinado.",
+   "Não há transmissão urbana documentada no país, e IgG não diagnostica infecção aguda.",
+   "A IgM já é detectável antes do 10º dia, e a vacinação prévia interfere na interpretação da sorologia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um homem de 43 anos procura a unidade de pronto atendimento por aumento do volume abdominal há 4 semanas, associado a edema de membros inferiores. Ele nega ingestão de bebida alcoólica. Não possui alteração do hábito intestinal ou sintomas dispépticos. Relata que, quando tinha 22 anos, sofreu um atropelamento com fratura de tíbia e recebeu 2 unidades de concentrado de hemácias, quando foi diagnosticado com hepatite por vírus C. Não possui histórico médico familiar relevante. Ao exame físico, apresenta sinais vitais normais, mucosas hipocoradas +/4+ e icterícia +/4+. Os exames do aparelho cardiovascular e respiratório estão normais. O abdome apresenta-se globoso, com ruídos hidroaéreos presentes, indolor à palpação e com sinal de Piparote e macicez móvel positivos. Presença de edema em membros inferiores; pulsos arteriais presentes bilateralmente. Uma paracentese de alívio foi realizada com a drenagem de 2 litros de liquido ascítico de aspecto amarelo citrino. A contagem de células veio com 450 leucócitos por mm³, sendo 320 polimorfonucleares. Não houve acidente de punção e o diferencial entre a albumina sérica e ascítica teve resultado de 1,3. Considerando o caso clínico apresentado, a conduta terapêutica mais adequada para tratamento dessa complicação é prescrever",
+  "alts": [
+   "ceftriaxona.",
+   "gentamicina.",
+   "levofloxacino.",
+   "penicilina cristalina."
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "AASLD Practice Guidance on Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome, 2021; EASL Clinical Practice Guidelines for decompensated cirrhosis, 2018",
+  "coment": "Cirrótico por hepatite C com ascite de gradiente albumina soro-ascite de 1,3 (acima de 1,1, hipertensão portal) e 320 polimorfonucleares por mm³ no líquido tem peritonite bacteriana espontânea, cujo critério é contagem de pelo menos 250 PMN/mm³. O tratamento empírico de escolha é cefalosporina de terceira geração, como ceftriaxona ou cefotaxima, pois cobre as enterobactérias e os estreptococos que causam a maioria dos casos. Deve-se associar albumina (1,5 g/kg no 1º dia e 1 g/kg no 3º) para prevenir síndrome hepatorrenal.",
+  "porAlt": [
+   "Correta: PMN acima de 250/mm³ em ascite por hipertensão portal é PBE, tratada com cefalosporina de terceira geração.",
+   "Aminoglicosídeos são nefrotóxicos e devem ser evitados no cirrótico, que já tem alto risco de lesão renal.",
+   "Quinolona oral é reservada a casos selecionados sem uso prévio de profilaxia e não é a escolha empírica padrão.",
+   "Penicilina cristalina não cobre as enterobactérias gram-negativas, principais agentes da PBE."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma equipe de saúde da família tem enfrentado muitas reclamações de seus usuários — os quais são residentes de uma comunidade que fica em uma região periférica de um município de médio porte — pela dificuldade para realizar agendamento de consultas médicas e odontológicas, para colher os exames solicitados pelo médico e para conseguir os medicamentos prescritos. Isso ocorre pelas seguintes razões: a população adstrita à equipe tem mais de 4 000 pessoas cadastradas; há uma redução do número de profissionais; e há falta de medicamentos na farmácia. Em reunião de equipe, os profissionais de saúde discutem a melhor maneira de resolver essas questões. A melhor estratégia para a resolver esses problemas, com a participação da comunidade, é por meio do",
+  "alts": [
+   "Conselho Local de Saúde — órgão consultivo — aproximando, assim, a comunidade da unidade de saúde, e compartilhando informações sobre o funcionamento da equipe para a resolução de problemas, como o fluxo de agendamento e de coleta de exames na unidade de saúde.",
+   "Conselho Municipal de Saúde — órgão consultivo e permanente — com usuários, gestores e trabalhadores da saúde, a fim de avaliar a situação de saúde local, de planejar ações de organização da agenda da unidade de saúde e de fiscalizar a gestão da assistência farmacêutica.",
+   "Conselho Gestor de Saúde — órgão deliberativo e permanente — com profissionais de saúde e com gestores, os quais analisarão a situação da unidade de saúde e proporão alternativas de solução para a falta de profissionais, as quais serão apresentadas à comunidade.",
+   "Núcleo de Saúde Coletiva — órgão consultivo — a fim de ampliar as ações coletivas de forma organizada e permanente, com impacto local de suas ações, tais como a organização da demanda por meio da implantação de uma nova equipe de saúde da família após a divisão do território de abrangência."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Lei nº 8.142, 1990; Resolução CNS nº 453, 2012",
+  "coment": "A Lei 8.142/1990 institui a participação da comunidade no SUS por meio das conferências e dos conselhos de saúde, que nas esferas nacional, estadual e municipal são permanentes e deliberativos, com paridade de usuários. Os conselhos locais, ligados a uma unidade de saúde, aproximam a comunidade da equipe e discutem problemas do território, como o fluxo de agendamento e coleta de exames. Para problemas específicos de uma equipe, é o espaço de participação mais próximo e adequado, sem prejuízo de levar ao Conselho Municipal questões de gestão.",
+  "porAlt": [
+   "Correta: o conselho local aproxima comunidade e equipe para discutir e resolver problemas do funcionamento da unidade.",
+   "O Conselho Municipal é deliberativo, não consultivo, e trata da política municipal, não da agenda de uma unidade.",
+   "Conselho sem usuários fere a participação da comunidade e a paridade exigida pela legislação.",
+   "Núcleo de Saúde Coletiva não é instância de participação social prevista na legislação do SUS."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma mulher de 21 anos, portadora de diabetes mellitus tipo 1 há 8 anos, em tratamento com insulina NPH e esquema com insulina regular, é submetida, anualmente, a testes para avaliação de complicações microvasculares da doença de base. Neste ano, pela primeira vez, foi documentada alteração laboratorial que indica a presença de nefropatia em fase inicial. O teste foi repetido após 3 meses, confirmando que a alteração é persistente. Assinale a opção que apresenta o resultado do exame laboratorial que permitiu a elaboração de tal hipótese.",
+  "alts": [
+   "Proteinúria no exame simples de urina (tipo 1).",
+   "Creatinina sérica acima do limite superior da normalidade.",
+   "Taxa de filtração glomerular estimada eletronicamente inferior a 45 mL/min/1,73 m2.",
+   "Microalbuminúria com excreção de albumina superior a 30 mg por grama de creatinina."
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "ADA Standards of Care in Diabetes, 2026; KDIGO Clinical Practice Guideline for Diabetes Management in CKD, 2022",
+  "coment": "No diabetes tipo 1, o rastreio de doença renal começa 5 anos após o diagnóstico e é anual, com relação albumina/creatinina em amostra isolada e TFG estimada. A alteração mais precoce é a albuminúria moderadamente aumentada (antes chamada microalbuminúria), de 30 a 300 mg/g, que precisa ser confirmada em 2 de 3 amostras num intervalo de 3 a 6 meses, pela variabilidade do exame. Proteinúria no EAS, creatinina elevada e TFG abaixo de 45 mL/min/1,73 m² já indicam doença estabelecida, não fase inicial.",
+  "porAlt": [
+   "Proteinúria detectável na fita só aparece com albuminúria acima de cerca de 300 mg/g, fase mais avançada.",
+   "Creatinina acima do normal indica perda de filtração já importante, não nefropatia inicial.",
+   "TFG abaixo de 45 mL/min/1,73 m² corresponde a DRC estágio G3b, longe da fase inicial.",
+   "Correta: albuminúria acima de 30 mg/g persistente é o marcador mais precoce da doença renal do diabetes."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma mulher de 28 anos encontra-se internada em hospital de atenção secundária com quadro sugestivo de pielonefrite aguda, secundária à nefrolitíase impactada no ureter direito, confirmada por tomografia de abdome. A despeito da analgesia potente e do uso de bloqueador alfa1-adrenérgico, a paciente evoluiu muito sintomática, surgindo febre e calafrios no segundo dia de internação. Seus níveis pressóricos estão em torno de 70 mmHg de pressão arterial média (PAM), mas ela encontra-se febril e taquipneica. Há evidências de disfunção renal e respiratória no escore SOFA (Sepsis-related Organ Failure Assessment). Diante do quadro clínico apresentado, a medida terapêutica imediata é",
+  "alts": [
+   "expansão volêmica generosa intravenosa.",
+   "abordagem urológica para descompressão da obstrução ureteral.",
+   "introdução de amina vasopressora com a meta de elevação da PAM.",
+   "antibioticoterapia voltada basicamente à cobertura contra Gram-positivos multirresistentes."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock, 2026; EAU Guidelines on Urolithiasis, 2025",
+  "coment": "Pielonefrite com cálculo impactado no ureter e disfunção orgânica pelo SOFA é sepse de foco urinário obstrutivo. Nessa situação, antibiótico sozinho não resolve: a urina infectada sob pressão mantém a bacteremia, e o controle do foco é urgente, por cateter duplo J ou nefrostomia percutânea, idealmente nas primeiras horas. A Surviving Sepsis recomenda identificar e controlar rapidamente o foco passível de intervenção. Com PAM de 70 mmHg, a paciente ainda não preenche critério para vasopressor, e a cobertura empírica deve mirar gram-negativos.",
+  "porAlt": [
+   "Volume é indicado se houver hipoperfusão, mas não corrige a causa; sem desobstrução a sepse persiste.",
+   "Correta: sepse por obstrução ureteral exige descompressão urgente da via urinária como controle do foco.",
+   "Com PAM de 70 mmHg não há indicação imediata de vasopressor, cujo alvo é PAM de 65 mmHg.",
+   "Pielonefrite obstrutiva é causada sobretudo por gram-negativos, e o foco é que precisa ser controlado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Um policial leva ao pronto-socorro um homem em situação de rua, com idade aproximada de 55 anos, que está com febre (temperatura axilar de 38,8 °C) e com tosse com expectoração pútrida abundante, iniciadas há várias semanas. O paciente é etilista, usuário de crack e não sabe informar sobre a existência de doenças prévias. Foi realizada uma radiografia de tórax, a qual pode ser vista a seguir. Com base nesse quadro clínico, assinale a opção que indica, respectivamente, o diagnóstico mais provável e a conduta inicial mais apropriada.",
+  "alts": [
+   "Tromboembolismo pulmonar; iniciar anticoagulação.",
+   "Abscesso pulmonar; iniciar antibioticoterapia empírica.",
+   "Neoplasia pulmonar primária; aguardar broncoscopia e biópsia.",
+   "Tuberculose pulmonar; aguardar resultado de cultura de M. tuberculosis."
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ATS/IDSA Diagnosis and Treatment of Adults with Community-acquired Pneumonia, 2019",
+  "coment": "Etilismo e uso de crack predispõem a rebaixamento de consciência e aspiração de flora oral, e a expectoração pútrida abundante após semanas de febre é característica da infecção por anaeróbios com necrose pulmonar, isto é, abscesso. O tratamento inicial é antibiótico empírico com cobertura anaeróbica, como amoxicilina-clavulanato ou clindamicina, por várias semanas; a ATS/IDSA 2019 reserva a cobertura anaeróbica justamente para suspeita de abscesso ou empiema. Na população de rua a tuberculose deve ser investigada em paralelo com escarro, mas sem adiar o antibiótico.",
+  "porAlt": [
+   "TEP não causa expectoração pútrida abundante nem febre prolongada por semanas.",
+   "Correta: aspiração em etilista com escarro pútrido indica abscesso pulmonar, tratado com antibiótico empírico com cobertura anaeróbica.",
+   "Neoplasia pode cavitar, mas escarro pútrido com febre pede tratamento da infecção, não espera passiva por biópsia.",
+   "Tuberculose deve ser investigada, mas escarro pútrido sugere anaeróbios e aguardar cultura por semanas retarda o tratamento."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma paciente de 28 anos procura unidade básica de saúde solicitando encaminhamento a um serviço de cirurgia bariátrica. Ela relata que desistiu de tratamentos conservadores após tentar emagrecer, sem sucesso, por mais de 10 meses, utilizando métodos farmacológicos e restrição calórica. Também relata que sua vizinha foi submetida à cirurgia bariátrica com menos peso que ela e que perdeu 30 kg em 6 meses, com grande ganho de qualidade de vida. A paciente tem 1,62 m de altura e peso de 112 kg. É portadora de hipertensão arterial sistêmica, a qual é controlada com losartana 100 mg/dia, e diabetes melittus tipo 2, com uso de dapagliflozina 10 mg/dia e de metformina 1 g/dia. Além disso, faz uso de rosuvastatina 20 mg/dia para tratamento de dispilidemia e apresenta amenorreia. Ela também é tabagista e sedentária e revela que sofre de depressão. Diante dessa demanda da paciente, assinale a opção que apresenta a conduta médica adequada.",
+  "alts": [
+   "Orientar a paciente sobre a necessidade de acompanhamento multidisciplinar e encorajá-la a continuar com a abordagem conservadora, pois a indicação da cirurgia acontece após tentar emagrecer, sob supervisão médica, por 5 meses em um período de 2 anos.",
+   "Encaminhar a paciente ao serviço cirúrgico, o qual lhe esclarecerá sobre a necessidade de mudanças nos hábitos de vida e, considerando o impacto permanente da cirurgia, serão apresentadas e discutidas as técnicas cirúrgicas tanto com a paciente quanto com a família.",
+   "Informar à paciente sobre os critérios de indicação de cirurgia bariátrica, como IMC > 40 Kg/m² e presença de comorbidades, e encaminhá-la à equipe multidisciplinar para traçar plano de cuidados individualizado e estratégia conservadora com acompanhamento semanal.",
+   "Esclarecer à paciente que as comorbidades são fatores de contraindicação à cirurgia e encaminhá-la à equipe multidisciplinar para estabilização e adequação de medicações, além de elaboração de um plano individual de cuidados que inclua antidepressivo na abordagem farmacológica."
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Conselho Federal de Medicina. Resolução CFM nº 2.429, 2025; ASMBS/IFSO Indications for Metabolic and Bariatric Surgery, 2022",
+  "coment": "Com 112 kg e 1,62 m, a paciente tem IMC de 42,7 kg/m², obesidade grau III, que por si só indica cirurgia bariátrica, e ainda soma hipertensão, diabetes tipo 2 e dislipidemia. A Resolução CFM 2.429/2025 retirou a exigência de 2 anos de tratamento clínico: a falha terapêutica é definida pela avaliação multidisciplinar, sem prazo fixo. Cabe à atenção primária encaminhar ao serviço especializado, que avalia depressão e tabagismo (a cessação é exigida antes da cirurgia) e discute as técnicas. Comorbidades reforçam, e não contraindicam, a indicação.",
+  "porAlt": [
+   "Não existe critério de 5 meses em 2 anos, e as regras atuais não exigem tempo mínimo de tratamento clínico.",
+   "Correta: IMC acima de 40 com comorbidades indica encaminhamento ao serviço especializado para avaliação multidisciplinar e cirúrgica.",
+   "IMC de pelo menos 40 já indica cirurgia com ou sem comorbidades, e insistir em tratamento conservador semanal atrasa a indicação.",
+   "Comorbidades metabólicas são justamente fatores que reforçam a indicação, não contraindicações."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "Uma mulher de 28 anos de idade, profissional do sexo, vai a uma consulta com o médico de família e comunidade buscando orientações para prevenção de infecções sexualmente transmissíveis (IST). Ela refere manter atividade sexual com preservativo sempre que possível. Sua última relação sem uso de preservativo foi há 1 semana. Ela não apresenta alterações ao exame físico nem alergia medicamentosa e realizou testes rápidos para IST há 5 meses, todos não reagentes. Foi solicitado teste rápido (TR) para sífilis, com resultado reagente, e para HIV, com resultado não reagente. Diante desse caso, o médico deve",
+  "alts": [
+   "solicitar VDRL trimestralmente para controle de cura; tratar a parceria; solicitar função hepática; repetir o TR para HIV em 30 dias e anualmente para sífilis; oferecer sorologias para outras IST; notificar; realizar o aconselhamento pósteste e iniciar penicilina benzatina 2,4 milhões de UI a cada semana, por 3 semanas.",
+   "repetir o TR de sífilis mensalmente para controle de cura; tratar a parceria; solicitar função hepática, sorologias para outras IST; repetir TR para HIV em 30 dias; notificar e iniciar penicilina benzatina 2,4 milhões de UI a cada semana, por 3 semanas.",
+   "solicitar VDRL para confirmação, e trimestralmente para controle de cura; repetir o TR para HIV em 30 dias; oferecer sorologias para outras IST; aconselhamento pós-teste; notificar e iniciar penicilina benzatina 2,4 milhões em dose única.",
+   "repetir o TR para confirmar sífilis; oferecer sorologias para outras IST; repetir o TR para HIV em 30 dias; aconselhamento pós-teste, notificar e iniciar benzatina 2,4 milhões dose única associada à doxiciclina 100mg de 12/12h por 15 dias."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Ministério da Saúde. PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022",
+  "coment": "Teste treponêmico reagente em quem tinha teste não reagente há 5 meses indica sífilis adquirida há menos de 1 ano, portanto sífilis recente, tratada com penicilina benzatina 2,4 milhões UI em dose única. Pelo PCDT de IST, o teste rápido reagente deve ser complementado por teste não treponêmico (VDRL), que confirma e serve de base para o seguimento trimestral no primeiro ano. A exposição de 1 semana está na janela do HIV, por isso o teste é repetido em 30 dias. Sífilis adquirida é de notificação compulsória, e a parceria deve ser testada e tratada.",
+  "porAlt": [
+   "Três doses semanais são para sífilis tardia ou de duração ignorada, e aqui a infecção é sabidamente recente.",
+   "Teste treponêmico permanece reagente após a cura e não serve para controle; o esquema de 3 doses também está errado.",
+   "Correta: VDRL para confirmar e seguir trimestralmente, HIV repetido em 30 dias, notificação e benzatina em dose única.",
+   "Repetir teste treponêmico não confirma atividade, e não se associa doxiciclina à penicilina."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.2"
+  }
+ },
+ {
+  "q": "A médica de uma penitenciária avalia homem de 26 anos, com 98 kg, que relata compartilhar a cela com 12 pessoas (a qual comportaria no máximo 5). O paciente queixa-se de prurido cutâneo há 2 dias com piora no período noturno. Ao exame físico, a médica identifica pápulas eritematosas com escoriações em região de prega em braços e em região posterior de joelhos. Com relação a essa situação, assinale a alternativa que apresenta, respectivamente, a orientação médica e a prescrição medicamentosa adequadas.",
+  "alts": [
+   "Restrição de visitas aos detentos e isolamento dos casos nas celas, sem permissão de saída; uso de ivermectina 6 mg, 01 comprimido via oral, repetindo em 15 dias, para todos da cela.",
+   "Isolamento dos casos na enfermaria da unidade e lavagem frequente das roupas de cama, de banho e de vestuário com água quente (pelo menos a 30 °C); uso de sprays inseticidas e fumigantes.",
+   "Realização de palestras educativas para os detentos sobre medidas preventivas e aumento do tempo de banho de sol; uso de fluconazol 150 mg por semana durante 1 mês, para todos da cela.",
+   "Incremento da frequência de limpeza geral da unidade e higienização adequada das roupas de uso pessoal, de cama e de banho; uso de ivermectina 6 mg, dose conforme o peso, repetindo em 15 dias, para todos da cela."
+  ],
+  "gab": 3,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "CDC Sexually Transmitted Infections Treatment Guidelines (Scabies), 2021",
+  "coment": "Prurido com piora noturna, pápulas escoriadas em dobras e aglomeração em cela caracterizam escabiose em ambiente institucional. O controle exige tratar ao mesmo tempo o caso e todos os contactantes, mesmo assintomáticos, com ivermectina oral 200 mcg/kg (para 98 kg, cerca de 3 comprimidos de 6 mg), repetida após 7 a 14 dias porque o fármaco não mata os ovos. Roupas de cama, banho e uso pessoal devem ser lavadas em água quente ou isoladas em saco fechado por 72 horas. Isolamento rigoroso e inseticidas ambientais não são necessários.",
+  "porAlt": [
+   "Restringir visitas e confinar os casos não é necessário, e a dose de ivermectina deve ser ajustada ao peso.",
+   "Lavar a 30 °C não mata o ácaro, e sprays e fumigantes não têm papel no controle da escabiose.",
+   "Fluconazol é antifúngico e não age sobre o Sarcoptes scabiei.",
+   "Correta: higienização de roupas e ambiente com ivermectina por peso, repetida, para todos os contactantes da cela."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 38 anos, com deficiência congênita de IgA, é atendida em ambulatório de clínica médica devido a insucesso terapêutico no tratamento de infecção por Helicobacter pylori. Apresentava diagnóstico de úlcera duodenal, tendo sido prescrito omeprazol, amoxicilina e claritromicina. Apesar da melhora clínica, observou-se persistência da infecção em teste respiratório com C13. Atribuiu-se o insucesso terapêutico ao uso recorrente de macrolídeos e fluoroquinolonas. Nesse caso, deve-se prescrever",
+  "alts": [
+   "pantoprazol, amoxicilina e levofloxacino por 7 dias.",
+   "omeprazol, claritromicina e levofloxacino por 14 dias.",
+   "omeprazol, subcitrato de bismuto coloidal, doxiciclina e metronidazol por 14 dias.",
+   "pantoprazol, subcitrato de bismuto coloidal, furazolidona e levofloxacino por 10 dias."
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "V Consenso Brasileiro sobre Helicobacter pylori (NBEHPM/FBG), 2026; Maastricht VI/Florence Consensus Report, 2022",
+  "coment": "Após falha da terapia tripla com claritromicina, o retratamento não deve repetir o antibiótico usado, e o uso prévio de macrolídeos e fluoroquinolonas prediz resistência a claritromicina e levofloxacino. A opção é a terapia quádrupla com bismuto: inibidor de bomba de prótons, bismuto, tetraciclina e metronidazol por 14 dias, esquema pouco afetado pela resistência. No Brasil, pela falta de tetraciclina, a doxiciclina tem sido usada como substituta, embora com menos evidência. A deficiência de IgA não altera a escolha do esquema.",
+  "porAlt": [
+   "Levofloxacino é inadequado após uso recorrente de fluoroquinolonas, e 7 dias é tempo insuficiente.",
+   "Repetir claritromicina após falha e com uso prévio de macrolídeos tem alta chance de nova falha.",
+   "Correta: quádrupla com bismuto, tetraciclina (aqui doxiciclina) e metronidazol por 14 dias evita as classes com resistência provável.",
+   "Levofloxacino deve ser evitado pela exposição prévia a fluoroquinolonas, e furazolidona tem toxicidade e pouca disponibilidade."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 45 anos vai à unidade básica de saúde (UBS) reportando dificuldade para reduzir o consumo de cigarros. Refere fumar 20 cigarros por dia desde os 20 anos e que já tentou interromper o uso várias vezes. Relata, ainda, irritação e ansiedade quando reduz o consumo de tabaco. Diante desse caso, o plano terapêutico adequado para essa paciente consiste em",
+  "alts": [
+   "reposição de nicotina com redução gradual da dose.",
+   "terapia comportamental associada à reposição de nicotina.",
+   "terapia comportamental e cessação imediata do tabagismo.",
+   "prescrição de benzodiazepínico e redução gradual do número de cigarros diários."
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Ministério da Saúde/Conitec. Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020",
+  "coment": "Fumar 20 cigarros por dia há 25 anos, com tentativas frustradas e irritação e ansiedade ao reduzir, indica dependência de nicotina com síndrome de abstinência. O PCDT do Tabagismo recomenda abordagem cognitivo-comportamental como base do tratamento, associada a farmacoterapia quando há dependência significativa: terapia de reposição de nicotina (adesivo, de preferência associado a goma ou pastilha) ou bupropiona. A combinação aconselhamento mais medicação dobra ou triplica as taxas de cessação em relação a qualquer uma isolada.",
+  "porAlt": [
+   "Reposição de nicotina sem abordagem comportamental tem eficácia menor que a associação das duas.",
+   "Correta: terapia comportamental associada à reposição de nicotina é o tratamento de primeira linha para dependência com abstinência.",
+   "Parar de forma abrupta sem farmacoterapia ignora a abstinência que já levou a tentativas frustradas.",
+   "Benzodiazepínicos não tratam a dependência de nicotina e trazem risco de dependência própria."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 44 anos é levado à sala de emergência do pronto-socorro apresentando agitação intensa, confusão mental, tremores generalizados e sudorese profusa. Ao exame físico verifica-se frequência cardíaca de 110 bpm e pressão arterial (PA) de 150 x 110 mmHg. O paciente é etilista crônico, sem antecedentes patológicos e seus familiares relatam que ele interrompeu o consumo de álcool há 48 horas. Com base nessas informações, assinale a alternativa que apresenta, respectivamente, o diagnóstico correto e a conduta inicial para esse paciente.",
+  "alts": [
+   "Delirium tremens; administração de antipsicóticos, como haloperidol.",
+   "Delirium tremens; administração intravenosa de benzodiazepínicos, como diazepam.",
+   "Encefalopatia hipertensiva; restrição de líquidos e monitoramento estrito da função renal.",
+   "Encefalopatia hipertensiva; administração de nitroprussiato de sódio para redução da PA média entre 20 e 25% nas primeiras 2 horas."
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management, 2020",
+  "coment": "Etilista crônico com agitação, confusão mental, tremores, sudorese, taquicardia e hipertensão 48 horas após parar de beber tem delirium tremens, a forma mais grave da abstinência alcoólica, que costuma surgir entre 48 e 96 horas. O tratamento de escolha são benzodiazepínicos endovenosos em doses repetidas até sedação leve, como diazepam, por agirem no receptor GABA-A que o álcool deixou dessensibilizado. Tiamina deve ser dada antes da glicose. A hipertensão é autonômica e cede com o controle da abstinência.",
+  "porAlt": [
+   "Antipsicótico isolado reduz o limiar convulsivo e não trata a abstinência; é só adjuvante após benzodiazepínico.",
+   "Correta: delirium tremens se trata com benzodiazepínico endovenoso, como diazepam, em doses tituladas.",
+   "O quadro tem relação temporal clara com a suspensão do álcool, e restrição hídrica não trata a encefalopatia.",
+   "A elevação pressórica é hiperatividade autonômica da abstinência, não emergência hipertensiva que exija nitroprussiato."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Um casal consulta com o médico de família e comunidade devido à preocupação da esposa com marido, que tem demonstrado compulsividade relacionada ao consumo de pornografia. Isso tem gerado discussões constantes entre eles, pois o homem é motorista por aplicativo e está deixando de trabalhar devido a este padrão de comportamento — o que tem impactado na situação financeira da família, que já é difícil. Ele relata que a prática começou como distração e alívio do estresse, mas admite que tem dificuldades para controlar esses comportamentos e reconhece as consequências que isso tem gerado para seu contexto familiar. Durante a consulta, o médico identifica sinais de baixa autoestima e de ansiedade nesse paciente. Diante desse relato, qual é o grau de motivação do paciente para a mudança de comportamento?",
+  "alts": [
+   "Ação, visto que já planeja e cria condições para que uma mudança comportamental ocorra.",
+   "Contemplação, visto que admite o problema e é ambivalente em relação ao seu comportamento.",
+   "Pré-contemplação, visto que reconhece o impacto do vício em seu relacionamento e em sua família.",
+   "Preparação, visto que sua percepção sobre os efeitos do vício ainda é limitada, sem possibilidade de mudança."
+  ],
+  "gab": 1,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Prochaska e DiClemente, modelo transteórico de mudança, 1983; Ministério da Saúde, Caderno de Atenção Básica nº 35, 2014",
+  "coment": "No modelo transteórico, o estágio de contemplação é aquele em que a pessoa reconhece que tem um problema e considera mudar, mas permanece ambivalente e ainda não se comprometeu com uma ação. O paciente admite a dificuldade de controlar o comportamento e reconhece as consequências familiares e financeiras, mas não relata plano nem passos concretos. Na pré-contemplação não há reconhecimento do problema; na preparação há intenção de agir em breve com pequenos passos; na ação a mudança já está em curso. A entrevista motivacional atua sobre essa ambivalência.",
+  "porAlt": [
+   "Na ação a mudança já está sendo executada, e o paciente não relata nenhuma medida concreta.",
+   "Correta: reconhece o problema e suas consequências, mas ainda é ambivalente e não se comprometeu com a mudança.",
+   "Pré-contemplação é justamente não reconhecer o problema, e o paciente o reconhece.",
+   "Preparação envolve intenção de agir em breve, e não percepção limitada do problema como diz a alternativa."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ }
+]

@@ -558,6 +558,22 @@ não build.
 
 ## Questões de prova real: o que se copia e o que se escreve
 
+**23/09/2026: +497 questões reais (banco 961 → 1.458; 708 reais).** Fontes e URLs em `docs/PROVAS_REAIS.md`:
+Revalida 2021, 2023.1, 2023.2, 2025.1, 2025.2 e 2026.1; ENARE pré-requisito em Clínica Médica 2024/25 e
+2025/26 (todas as provas de pré-requisito clínico da FGV são a MESMA prova de 80 questões); USP
+especialidades clínicas 2025 e ano adicional em clínica médica 2026. Pipeline: `docs/colunas_pdf.py`
+(texto por coluna) → `docs/extrai_prova.py` (verbatim) → 12 agentes com `docs/BRIEF_REAIS.md` (triagem +
+campos editoriais) → `docs/confere_reais.py` (texto, gabarito e fonte idênticos ao caderno; toda
+restauração de número foi conferida no PDF). Das 869 candidatas, 372 saíram: GO, pediatria, cirurgia,
+figura, texto truncado, dupla resposta e ~15 com gabarito contrário à diretriz vigente (relatórios em
+`provas-reais/relatorios/`, fora do git). `fonte` agora tem `prova` (edição: "Revalida 2023.1",
+"2025/2026"...), e o filtro Procedência lista cada banca. ENARE 2023/24 (AOCP) ficou fora: o caderno só
+saiu na área logada do candidato.
+
+**monta_banco.py × aplica_lote.py (23/09):** as reescritas de set/2026 tinham ido só para o `banco.js`, e o
+montador (que gera o banco A PARTIR das levas) reverteria 946 questões. Levas sincronizadas e o
+`aplica_lote.py` passou a gravar também nas levas. Nunca editar o `banco.js` sem refletir nas levas.
+
 O banco é misto: 700 autorais + 211 copiadas de provas oficiais públicas
 (ENARE 2024/EBSERH-FGV, Revalida 2022 e 2024/INEP-MEC, USP 2026/FUVEST). A fonte
 delas é `MedTech/site/flashmed-provas.js` — **espelho, nunca commitar de lá**.

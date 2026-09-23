@@ -1,0 +1,1396 @@
+[
+ {
+  "q": "Médica de uma Unidade Básica de Saúde atende um homem de 63 anos, 70 kg, IMC 25 kg/m², sedentário, motorista aposentado por invalidez após ter a visão comprometida por diabetes e hipertensão, diagnosticados há mais de 20 anos. O paciente faz uso de metformina e dapaglifozina em doses otimizadas. Faz autoaplicação de insulina NPH 56 UI ao acordar e 34 UI antes de dormir. Ao exame físico, são observados nódulos endurecidos ao redor da cicatriz umbilical, edema discreto em membros inferiores, sem outros achados. Exames laboratoriais recentes demonstram hemoglobina glicada de 8,2% (VR: 4,7 a 5,7%) e função renal preservada. O monitoramento da glicemia capilar apresenta valores em jejum entre 140 mg/dL a 160 mg/dL e pós-prandiais entre 180 mg/dL a 240 mg/dL, sem episódios de hipoglicemia. Qual é o plano terapêutico condizente com o papel dessa médica no trabalho em equipe multiprofissional?",
+  "alts": [
+   "Aumentar a dose de insulina e encaminhar para um serviço de endocrinologia para que o médico especialista revise a medicação.",
+   "Manter a dose de insulina e encaminhar para consulta de enfermagem, a fim de investigar falhas relacionadas à aplicação e armazenamento da medicação.",
+   "Substituir a insulina NPH pela insulina regular e encaminhar para avaliação com psicólogo, visando motivá-lo a aderir à medicação e dieta.",
+   "Associar sulfonilureia às medicações em uso e encaminhar para avaliação com educador físico, único pilar de tratamento ainda não abordado."
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ADA Standards of Care in Diabetes, 2026; Cadernos de Atenção Básica nº 36 (Diabetes mellitus), Ministério da Saúde, 2013",
+  "coment": "Nódulos endurecidos periumbilicais em quem autoaplica insulina sugerem lipo-hipertrofia por falta de rodízio dos locais de aplicação, que torna a absorção reduzida e errática. Antes de escalar dose (já são 90 UI/dia, cerca de 1,3 UI/kg), a equipe deve revisar técnica, rodízio, armazenamento e adesão. Na APS, a consulta de enfermagem é o espaço para essa educação, e a médica mantém a coordenação do cuidado sem transferir o caso ao especialista. O ADA 2026 recomenda examinar os locais de injeção antes de ajustar a insulina.",
+  "porAlt": [
+   "Aumentar a insulina sem corrigir a lipo-hipertrofia expõe a hipoglicemia quando a técnica for corrigida, e o caso é manejável na APS sem encaminhamento.",
+   "Correta: a lipo-hipertrofia indica falha de técnica e de rodízio, e a enfermagem da APS revisa aplicação e armazenamento antes de qualquer ajuste de dose.",
+   "Insulina regular é de ação curta e não substitui a basal NPH; além disso, o problema identificado é técnico, não motivacional.",
+   "Sulfonilureia soma risco de hipoglicemia a quem já usa insulina em dose alta, e a atividade física não é o único pilar pendente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 45 anos, é atendida em Unidade de Pronto Atendimento após ingestão acidental de soda cáustica ocorrida há cerca de 1 hora. Apresenta dor retroesternal intensa, disfagia e sialorreia, sem sinais de comprometimento respiratório. Após a estabilização clínica, qual deve ser a conduta imediata no manejo dessa paciente?",
+  "alts": [
+   "Passar sonda nasogástrica para lavagem com soro fisiológico.",
+   "Realizar neutralização química do agente com substância ácida diluída.",
+   "Iniciar corticoterapia sistêmica e antibioticoterapia profilática.",
+   "Manter jejum e programar endoscopia digestiva alta entre 6 e 24 horas."
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Chirica M et al., Caustic ingestion, Lancet, 2017; WSES survey of expert opinion on caustic ingestion management, 2015",
+  "coment": "Na ingestão de cáustico, após garantir via aérea e estabilidade, o paciente fica em jejum e a endoscopia digestiva alta é feita precocemente, idealmente entre 12 e 24 horas (aceita-se a partir de 6 horas), para graduar a lesão pela classificação de Zargar e definir dieta, internação e risco de estenose. Depois de 48 a 72 horas a parede fica mais friável e o risco de perfuração aumenta. Lavagem, sonda às cegas e indução de vômito são proscritos por reexpor a mucosa, e a neutralização gera reação exotérmica. Corticoide não previne estenose e antibiótico só entra se houver perfuração ou infecção.",
+  "porAlt": [
+   "Sonda nasogástrica às cegas e lavagem reexpõem o esôfago ao cáustico e podem perfurar a parede lesada.",
+   "Neutralizar álcali com ácido gera reação exotérmica e agrava a lesão tecidual, por isso é contraindicado.",
+   "Corticoide não reduz estenose na ingestão cáustica e antibiótico profilático não tem indicação sem perfuração ou infecção.",
+   "Correta: jejum e endoscopia precoce (idealmente em 12 a 24 horas, antes de 48 horas) graduam a lesão e orientam a conduta."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 23 anos, vida sexual ativa, sem parceiro fixo, procura atendimento ginecológico com queixa de linfoadenomegalia inguinal dolorosa, com linfonodo à esquerda com supuração e fistulização por orifícios múltiplos. Relata que no início era uma pápula que evoluiu para uma ferida alguns dias antes de apresentar aumento do linfonodo e da dor na região inguinal. Considerando a situação clínica descrita, qual é o provável agente etiológico?",
+  "alts": [
+   "Chlamydia trachomatis.",
+   "Haemophilus ducrey.",
+   "Klebsiella granulomatis.",
+   "Treponema pallidum."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, Ministério da Saúde, 2022",
+  "coment": "Pápula ou úlcera genital fugaz seguida, dias a semanas depois, de linfadenopatia inguinal dolorosa e unilateral que flutua e fistuliza por múltiplos orifícios (em \"bico de regador\") define o linfogranuloma venéreo, causado pelos sorovares L1 a L3 da Chlamydia trachomatis. O PCDT IST 2022 trata com doxiciclina 100 mg de 12/12 horas por 21 dias, com aspiração do bubão se necessário, nunca drenagem aberta. O cancroide também forma bubão, mas a úlcera é dolorosa, múltipla e persistente, e a fistulização costuma ser por orifício único.",
+  "porAlt": [
+   "Correta: Chlamydia trachomatis sorovares L1 a L3 causa o linfogranuloma venéreo, com lesão primária fugaz e bubão que fistuliza por múltiplos orifícios.",
+   "Haemophilus ducreyi causa cancroide, com úlceras dolorosas persistentes e bubão que drena classicamente por orifício único.",
+   "Klebsiella granulomatis causa donovanose, úlcera indolor de fundo vermelho vivo e evolução lenta, sem linfadenite supurativa verdadeira.",
+   "O Treponema pallidum causa cancro duro indolor com adenopatia inguinal também indolor e que não supura."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Uma técnica de enfermagem de uma Unidade Básica de Saúde (UBS), após coletar o sangue de um usuário, sofre um acidente perfurocortante com agulha previamente utilizada na coleta. Ela não se preocupou a princípio, pois tratava-se de exames de rotina e o paciente estava aparentemente saudável. Depois de 4 dias do ocorrido, por orientação de uma colega do trabalho, resolveu procurar a própria UBS para saber o que deveria ser feito. De acordo com os protocolos de vigilância em saúde do trabalhador sobre a Profilaxia Pós-Exposição (PEP) no caso específico do HIV, qual é a conduta adequada?",
+  "alts": [
+   "Fazer o teste rápido para HIV no profissional. Se o resultado for negativo, iniciar PEP. Não é necessário testar o usuário.",
+   "Fazer o teste rápido para HIV no profissional e no usuário. Se o usuário testar positivo, indicar PEP para o profissional.",
+   "Realizar acompanhamento sorológico de HIV para o profissional. Sem indicação de PEP para a exposição atual.",
+   "Indicar PEP para o profissional sem realizar teste rápido para HIV, devido ao tempo decorrido desde a exposição."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "PCDT para Profilaxia Pós-Exposição (PEP) de risco à infecção pelo HIV, IST e hepatites virais, Ministério da Saúde, 2024",
+  "coment": "A PEP para HIV só é indicada até 72 horas após a exposição, idealmente nas primeiras 2 horas; depois desse prazo não há benefício demonstrado e ela não deve ser oferecida. Com 4 dias decorridos, a conduta é notificar o acidente de trabalho (SINAN e CAT), testar a profissional para ter a sorologia basal e acompanhá-la com testagem para HIV em 30 e 90 dias, além de avaliar hepatites B e C e a situação vacinal. Testar a pessoa-fonte segue útil para orientar o seguimento, mas não muda a indicação de PEP fora da janela.",
+  "porAlt": [
+   "Fora da janela de 72 horas a PEP não é indicada, independentemente do teste negativo da profissional.",
+   "Mesmo com fonte positiva, a PEP iniciada após 72 horas não tem benefício e não é recomendada pelo PCDT.",
+   "Correta: passadas 72 horas não há indicação de PEP, e a profissional faz testagem basal e seguimento sorológico para HIV.",
+   "O tempo decorrido contraindica a PEP em vez de indicá-la, e a testagem basal da profissional é sempre necessária."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 32 anos, foi internada em enfermaria de cirurgia para realização de toracotomia eletiva. No 3º dia pós-operatório, foi encontrada com alteração do nível de consciência e diversas cartelas de morfina vazias em sua bolsa. Além do rebaixamento do nível de consciência (escala de coma de Glasgow 8), a paciente apresentava pele fria e pegajosa; miose bilateral puntiforme; PA 100 x 60 mmHg; FC 56 bpm; FR 8 irpm; SatO2 86% em ar ambiente e temperatura axilar 36 °C. Qual medicação é indicada para reversão do quadro?",
+  "alts": [
+   "Atropina.",
+   "Dopamina.",
+   "Flumazenil.",
+   "Naloxona."
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "AHA Guidelines for CPR and Emergency Cardiovascular Care, 2025 (emergências associadas a opioides)",
+  "coment": "Rebaixamento de consciência, miose puntiforme, bradipneia (FR 8), hipoxemia e bradicardia em quem teve acesso a morfina compõem a síndrome opioide. O antídoto é a naloxona, antagonista competitivo do receptor mu, 0,04 a 0,4 mg IV titulados até ventilação adequada (ou 2 a 4 mg intranasal), com ventilação por bolsa-valva-máscara enquanto age. A meia-vida da naloxona é menor que a de vários opioides, então há risco de renarcotização e podem ser necessárias doses repetidas ou infusão. A AHA 2025 prioriza ventilação e naloxona na parada respiratória com pulso.",
+  "porAlt": [
+   "Atropina trata bradicardia sintomática e intoxicação colinérgica, mas não reverte a depressão respiratória opioide.",
+   "Dopamina é vasopressor e não antagoniza o opioide; a hipotensão aqui é leve e secundária à intoxicação.",
+   "Flumazenil reverte benzodiazepínicos, não opioides, e pode precipitar convulsão em usuários crônicos.",
+   "Correta: naloxona antagoniza o receptor mu e reverte a depressão respiratória e de consciência da intoxicação por morfina."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Homem, 26 anos, é trazido ao Pronto Socorro devido a episódio de convulsão há cerca de 30 minutos. Familiares negam episódios prévios semelhantes, relatam que se trata de um paciente com HIV e trazem exame de contagem de linfócitos CD4 realizado há 1 mês: 40 células/µL (VR: 500 a 1500 células/µL). Na última consulta, foi identificada uma massa pulmonar que seria atribuível a um fungo (familiares não souberam especificar qual) e que seria realizada uma investigação. Qual exame complementar deve ser priorizado nesse cenário?",
+  "alts": [
+   "Punção lombar.",
+   "Tomografia de crânio.",
+   "Tomografia de tórax.",
+   "Biopsia pulmonar."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "PCDT para Manejo da Infecção pelo HIV em Adultos, Ministério da Saúde, 2024",
+  "coment": "Crise convulsiva nova em pessoa com HIV e CD4 abaixo de 100 células/µL sugere lesão expansiva do sistema nervoso central (neurotoxoplasmose, linfoma primário, criptococoma ou outro abscesso fúngico) ou meningite. A tomografia de crânio vem antes da punção lombar porque lesão com efeito de massa contraindica a punção pelo risco de herniação, e o padrão de imagem orienta o tratamento empírico. Afastado efeito de massa, a punção lombar com pressão de abertura e antígeno criptocócico completa a investigação. A massa pulmonar pode esperar, pois não explica a urgência neurológica.",
+  "porAlt": [
+   "Punção lombar antes da imagem é arriscada em imunossuprimido com crise convulsiva, pela possibilidade de lesão com efeito de massa.",
+   "Correta: a tomografia de crânio afasta lesão expansiva antes da punção lombar e orienta o tratamento empírico no HIV avançado.",
+   "A tomografia de tórax investiga a massa pulmonar, mas não responde à emergência neurológica atual.",
+   "Biópsia pulmonar é invasiva e eletiva diante de um quadro neurológico agudo que exige imagem do crânio primeiro."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 73 anos, comparece à Unidade Básica de Saúde, acompanhada da filha, para consulta de rotina. Relata tratar hipertensão arterial sistêmica, diabetes mellitus tipo 2 e hipotireoidismo, estando em uso regular de anlodipino, enalapril, hidroclorotiazida, gliclazida, metformina e levotiroxina. Teve queda da própria altura, com fratura de fêmur direito, relatando internação para correção cirúrgica há 1 ano. Quanto à atividade de vida diária, diz conseguir tomar banho sozinha, porém se queixa de não conseguir realizar a limpeza da casa desde a cirurgia ortopédica. A filha informa que a mãe tem apresentado episódios de esquecimento há 2 meses. Ao exame: lúcida; deambula com auxílio de bengala; IMC 26 kg/m²; PA 160 x 90 mmHg; FC 88 bpm e FR 19 irpm. Considerando o índice de vulnerabilidade clínico-funcional (IVCF-20) para avaliação multidimensional da pessoa idosa, quais são os itens de pontuação para a estratificação do risco de declínio funcional dessa paciente?",
+  "alts": [
+   "Polifarmácia, esquecimento e não conseguir limpar a casa.",
+   "Idade, hipertensão mal controlada e usar bengala.",
+   "Fratura de fêmur, internação e portar doenças crônicas.",
+   "Cirurgia ortopédica, IMC e apresentar histórico de queda."
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Moraes EN et al., Índice de Vulnerabilidade Clínico-Funcional-20 (IVCF-20), Revista de Saúde Pública, 2016",
+  "coment": "O IVCF-20 pontua 20 itens em 8 dimensões. Nessa paciente pontuam: polifarmácia (5 ou mais medicamentos, ela usa 6), cognição (esquecimento percebido pela familiar) e AVD instrumental (deixou de fazer pequenos trabalhos domésticos por causa da saúde). Não pontuam: idade (73 anos, o item começa aos 75), quedas (o item exige duas ou mais no último ano), internação (só conta nos últimos 6 meses), IMC (só abaixo de 22 kg/m²), nem hipertensão mal controlada ou uso de bengala, que não são itens da escala.",
+  "porAlt": [
+   "Correta: polifarmácia (6 fármacos), esquecimento notado pela filha e deixar de fazer trabalhos domésticos são itens pontuados do IVCF-20.",
+   "A idade só pontua a partir de 75 anos, e hipertensão mal controlada e uso de bengala não são itens da escala.",
+   "A internação só pontua se ocorreu nos últimos 6 meses, e ter doenças crônicas só conta com 5 ou mais diagnósticos.",
+   "IMC só pontua abaixo de 22 kg/m² e a queda só conta quando há duas ou mais no último ano; cirurgia prévia não é item."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Em reunião semanal de discussão de casos e planejamento de uma equipe na Unidade Básica de Saúde, a Agente Comunitária de Saúde (ACS) coloca em discussão o caso de uma paciente idosa, 76 anos, hipertensa, diabética, que lhe preocupa por apresentar mudança de comportamento e aparente confusão mental, com fala repetitiva. A paciente tem faltado às consultas agendadas e, na última visita domiciliar, a ACS observou que a casa estava desorganizada, com falta de alimentos e medicamentos vencidos. Vizinhos informaram que, na véspera, a paciente havia saído procurando o marido, falecido há 5 anos. Os níveis glicêmicos e pressóricos estavam descompensados na última consulta médica, realizada há 3 meses. Considerando os princípios do trabalho interdisciplinar na Atenção Primária à Saúde, a equipe deve",
+  "alts": [
+   "agendar consulta médica prioritária para avaliação clínica da paciente, solicitando à ACS realizar busca ativa e compartilhar previamente com o médico as informações sobre contexto domiciliar para subsidiar a consulta.",
+   "priorizar visita domiciliar com médico e ACS para avaliação da paciente em seu contexto, considerando os aspectos clínicos e territoriais observados durante a visita na elaboração do plano de cuidados.",
+   "definir que a ACS intensifique visitas para orientações sobre medicamentos e organização do ambiente, enquanto o médico avalia necessidade de ajustes terapêuticos no retorno agendado em 30 dias.",
+   "acordar que o médico realize visita domiciliar para avaliação clínica e definição terapêutica, cabendo à ACS acompanhar a adesão medicamentosa e monitorar parâmetros pressóricos nos intervalos das consultas médicas."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Política Nacional de Atenção Básica, Portaria nº 2.436, Ministério da Saúde, 2017",
+  "coment": "A PNAB 2017 coloca a visita domiciliar e o planejamento conjunto entre as atribuições comuns da equipe, com o ACS como elo entre território e serviço. Uma idosa com provável síndrome demencial (desorientação, fala repetitiva), autocuidado precário, medicamentos vencidos, faltas às consultas e descompensação clínica dificilmente chegará à unidade, e o contexto domiciliar faz parte do diagnóstico. A visita conjunta de médico e ACS permite avaliação clínica, cognitiva e social no território e um plano de cuidados construído em equipe.",
+  "porAlt": [
+   "Esperar a paciente na unidade ignora que ela vem faltando e perde a avaliação do contexto domiciliar pelo médico.",
+   "Correta: a visita domiciliar conjunta avalia a paciente em seu contexto e integra achados clínicos e territoriais no plano de cuidados.",
+   "Adiar a avaliação médica por 30 dias diante de confusão mental e descompensação atrasa o diagnóstico e mantém o risco.",
+   "Separa rigidamente as funções do médico e do ACS, contrariando a construção conjunta do plano que o trabalho interdisciplinar exige."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Puérpera, 21 anos, é acolhida Unidade Básica de Saúde, após o nascimento da filha, há dez dias. Relata que pensa em entregar a filha para a avó cuidar, uma vez que se sente “sugada” pela recém-nascida, e sente momentos de tristeza ao longo do dia, quando se questiona se deveria ter engravidado ou não, desejando interromper a amamentação, voltar a trabalhar e, principalmente, não estar com a filha. Sente-se muito culpada por pensar dessa maneira e envergonhada por não conseguir ser uma “boa mãe”. Queixa-se também do sono, pois as noites maldormidas a deixam mais irritada. Está ainda mais preocupada, pois nunca se sentiu assim. Qual é a conduta mais adequada para esse caso?",
+  "alts": [
+   "Encaminhar para apoio psicossocial.",
+   "Prescrever o uso de fluoxetina.",
+   "Encaminhar para tratamento no CAPS.",
+   "Prescrever o uso de clonazepam."
+  ],
+  "gab": 0,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "NICE guideline CG192, Antenatal and postnatal mental health, 2014 (atualizada em 2020)",
+  "coment": "Tristeza, irritabilidade, culpa e ambivalência em relação ao bebê surgindo nos primeiros dias pós-parto, sem ideação suicida, psicose ou prejuízo grave, são compatíveis com disforia puerperal (baby blues), que acomete até 80% das puérperas e regride em cerca de 2 semanas. A conduta é acolhimento, apoio psicossocial, mobilização da rede familiar, proteção do sono e reavaliação. Se os sintomas passarem de 2 semanas ou se intensificarem, investiga-se depressão pós-parto (rastreio com EPDS). Antidepressivo, benzodiazepínico e CAPS ficam para quadros moderados a graves.",
+  "porAlt": [
+   "Correta: o quadro é compatível com disforia puerperal autolimitada, e o manejo é suporte psicossocial com reavaliação.",
+   "Fluoxetina fica para depressão pós-parto estabelecida, com sintomas por mais de 2 semanas e prejuízo funcional.",
+   "O CAPS atende transtornos mentais graves e persistentes, o que não é o caso de um quadro leve de 10 dias.",
+   "Benzodiazepínico não trata o quadro, causa sedação e dependência e é inadequado para quem cuida do recém-nascido."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Homem, 58 anos, hipertenso e tabagista, é admitido na Unidade de Pronto Atendimento com dor precordial em aperto, de início há 2 horas, irradiada para o membro superior esquerdo e para mandíbula, associada a náuseas e sudorese profusa. Ao exame físico: PA 150 x 90 mmHg, FC 88 bpm, FR 20 irpm, SatO2 93% em ar ambiente. Ausculta cardíaca e pulmonar sem alterações. O eletrocardiograma de 12 derivações, realizado em 8 minutos, revela inversão simétrica de onda T em V1 a V4, sem infra ou supradesnivelamento do segmento ST. Considerando o quadro clínico, qual é a conduta imediata adequada?",
+  "alts": [
+   "Administrar morfina (2 a 4 mg) por via intramuscular e iniciar propranolol (20 mg) por via oral.",
+   "Administrar ácido acetilsalicílico (200 mg) e clopidogrel (300 mg), via oral, após descartar contraindicações.",
+   "Solicitar marcadores de necrose miocárdica e aguardar o resultado para decidir sobre a antiagregação plaquetária.",
+   "Iniciar oxigenoterapia sob cateter nasal (3 L/min) e administrar nitroglicerina sublingual."
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Acute Coronary Syndromes, 2025; Diretriz da SBC sobre Angina Instável e IAM sem Supradesnível de ST, 2021",
+  "coment": "Dor típica com inversão simétrica de T em V1 a V4 sem supra de ST configura síndrome coronariana aguda sem supradesnivelamento, e esse padrão de T sugere lesão proximal da descendente anterior. A medida imediata é antiagregação: AAS (162 a 325 mg, no Brasil 200 a 300 mg) mastigado e inibidor de P2Y12, como clopidogrel 300 mg, na UPA sem hemodinâmica, sem esperar troponina, enquanto se estratifica e transfere para estratégia invasiva. Oxigênio só se SatO2 abaixo de 90%, e nitrato é sintomático.",
+  "porAlt": [
+   "Morfina não se faz por via IM na SCA e betabloqueador não é a medida inicial; nenhum dos dois substitui a antiagregação.",
+   "Correta: AAS e clopidogrel em dose de ataque, afastadas contraindicações, são a conduta imediata na SCA sem supra de ST.",
+   "A antiagregação não espera a troponina: a SCA é diagnóstico clínico e eletrocardiográfico, e o atraso piora o desfecho.",
+   "Com SatO2 de 93% o oxigênio não está indicado (só abaixo de 90%), e o nitrato alivia a dor sem mudar o prognóstico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 51 anos, comparece à consulta ginecológica na Unidade Básica de Saúde para apresentar mamografia realizada há 1 mês. Não apresenta queixas relacionadas à mama e não possui alterações no exame físico. Nega comorbidades e histórico familiar de doenças mamárias ou oncológicas. Mamografia bilateral. Mama esquerda: parênquima fibroglandular denso. Presença de calcificações pleomórficas finas, com distribuição segmentar, no quadrante ínferomedial. Mama direita: parênquima fibroglandular denso. Ausência de achados significativos. Mamografia BI-RADS 4C. Considerando os achados mamográficos, qual é a conduta recomendada?",
+  "alts": [
+   "Solicitar avaliação complementar com ressonância magnética.",
+   "Manter seguimento conforme a rotina habitual de rastreamento.",
+   "Repetir a mamografia bilateral em 6 meses para controle evolutivo.",
+   "Encaminhar a paciente para serviço especializado em mastologia."
+  ],
+  "gab": 3,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACR BI-RADS Atlas, 5ª edição, 2013; Diretrizes para a Detecção Precoce do Câncer de Mama no Brasil, INCA, 2015",
+  "coment": "BI-RADS 4 é achado suspeito, e a subcategoria 4C indica suspeita moderada a alta (mais de 50% e menos de 95% de probabilidade de malignidade). Aqui corresponde a calcificações pleomórficas finas de distribuição segmentar, padrão típico de carcinoma ductal in situ. Todo BI-RADS 4 ou 5 exige confirmação histológica, em geral biópsia percutânea guiada por estereotaxia para microcalcificações, e na APS a conduta é encaminhar com prioridade ao serviço especializado. Controle em 6 meses é para BI-RADS 3, e ressonância não substitui a biópsia.",
+  "porAlt": [
+   "Ressonância não substitui a biópsia de lesão BI-RADS 4C e não é a etapa seguinte para microcalcificações suspeitas.",
+   "Rastreamento de rotina vale para BI-RADS 1 e 2; um achado 4C exige investigação histológica.",
+   "Controle em 6 meses é a conduta do BI-RADS 3 (provavelmente benigno), não de lesão com mais de 50% de risco de malignidade.",
+   "Correta: BI-RADS 4C exige biópsia, e a APS encaminha com prioridade ao serviço de mastologia para a confirmação histológica."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Médica da Atenção Primária à Saúde (APS) acompanha uma adolescente de 16 anos com queixas persistentes de insônia, irritabilidade, isolamento social e queda do rendimento escolar. Após avaliação clínica presencial, a profissional realiza uma atividade síncrona, por meio de plataforma institucional, com um médico psiquiatra vinculado a um serviço localizado em outro estado, sem integração formal à rede assistencial da paciente, para discussão técnico-assistencial do caso e apoio à decisão clínica. A atividade ocorre exclusivamente entre os profissionais da saúde, sem a participação da adolescente ou de seus responsáveis na videoconferência. Considerando esse relato, qual é a interpretação e a explicação para a atividade realizada?",
+  "alts": [
+   "Telediagnóstico, pois a análise do caso por especialista permite definição diagnóstica sem necessidade de avaliação presencial adicional.",
+   "Teleconsulta em saúde mental, uma vez que envolve discussão clínica especializada, sendo facultativa a participação da paciente na atividade síncrona.",
+   "Teleconsultoria entre profissionais, utilizada como apoio à decisão clínica, mantendo-se a responsabilidade assistencial com a médica da APS.",
+   "Teleinterconsulta, na qual o especialista passa a compartilhar a responsabilidade clínica pelo caso acompanhado na APS."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Portaria GM/MS nº 2.546 (Programa Nacional Telessaúde Brasil Redes), 2011; Resolução CFM nº 2.314, 2022; Lei nº 14.510, 2022",
+  "coment": "No Programa Telessaúde Brasil Redes, teleconsultoria é a consulta registrada entre profissionais de saúde, síncrona ou assíncrona, para esclarecer dúvidas clínicas e apoiar a decisão, sem a participação do paciente. O especialista dá apoio, mas a responsabilidade pelo cuidado continua com quem assiste o paciente; a Resolução CFM 2.314/2022 reforça que cada médico consultado responde apenas pelos próprios atos. Não houve teleconsulta (paciente ausente), nem telediagnóstico (laudo de exame à distância), nem compartilhamento formal da responsabilidade clínica.",
+  "porAlt": [
+   "Telediagnóstico é a emissão de laudo de exame à distância, e a discussão de caso não dispensa a avaliação presencial.",
+   "Teleconsulta pressupõe o paciente em atendimento com o médico, o que não ocorreu nessa discussão só entre profissionais.",
+   "Correta: é teleconsultoria de apoio à decisão entre profissionais, e a médica da APS mantém a responsabilidade assistencial.",
+   "O especialista consultado responde só pelos próprios atos e não passa a compartilhar a responsabilidade clínica do caso."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher trans, 32 anos, comparece à Unidade Básica de Saúde (UBS) relatando quadro de cefaleia intensa, náuseas e fotofobia há 2 dias, compatível com crise de enxaqueca. Prontuário eletrônico registra nome social Júlia, conforme solicitado pela paciente em atendimentos anteriores. Após avaliação clínica, o médico prescreve sintomáticos e fornece atestado médico de 2 dias, utilizando o nome social no documento. Três dias depois, Júlia retorna à UBS visivelmente angustiada, relatando que o setor de recursos humanos de sua empresa recusou o atestado, alegando “divergência entre o nome do documento e o registro de admissão” e exigindo novo atestado com seu nome de registro civil. Júlia relata que ainda não retificou seu nome nos documentos oficiais. Solicita ao médico que emita novo atestado com nome de registro para evitar problemas trabalhistas. Considerando os princípios éticos e a legislação vigente sobre direitos da população trans no Brasil, qual conduta do médico é a mais adequada nessa situação?",
+  "alts": [
+   "Orientar a paciente sobre seus direitos, substituir o nome social pelo nome de registro civil e encaminhar a paciente ao serviço social da empresa.",
+   "Redigir novo atestado mantendo nome social e incluir o CID da condição atendida para dar maior legitimidade ao documento junto à empresa.",
+   "Manter o atestado com o nome social e anexar laudo, informando à empresa tratar-se de pessoa trans e citando a legislação atual referente ao uso do nome social.",
+   "Emitir novo atestado com o nome de registro civil, mantendo o nome social em campo específico, garantindo a identificação da paciente pela empresa."
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Decreto nº 8.727, 2016; Portaria MS nº 1.820 (Carta dos Direitos dos Usuários da Saúde), 2009; Código de Ética Médica, Resolução CFM nº 2.217, 2018",
+  "coment": "O nome social deve ser respeitado em todo atendimento no SUS (Portaria 1.820/2009) e, pelo Decreto 8.727/2016, documentos trazem o nome social acompanhado do nome civil quando este for necessário para fins administrativos ou legais. Como o atestado tem efeito trabalhista, a empresa identifica a funcionária pelo registro civil ainda não retificado e a própria paciente pede, o médico emite novo atestado com o nome civil e mantém o nome social em campo próprio, preservando identidade e direito. Revelar a identidade de gênero à empresa ou incluir CID sem necessidade viola o sigilo.",
+  "porAlt": [
+   "Substituir o nome social apaga a identidade de gênero da paciente, quando é possível manter os dois nomes no documento.",
+   "O CID só entra no atestado a pedido ou com autorização expressa da paciente, e não resolve a divergência de nome.",
+   "Informar à empresa que a paciente é pessoa trans expõe dado sensível sem necessidade e fere o sigilo médico.",
+   "Correta: nome civil para efeito legal com o nome social em campo específico atende à paciente, à legislação e ao sigilo."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Homem, 64 anos, professor universitário aposentado, com histórico de hipertensão arterial sistêmica malcontrolada há anos e ex-tabagista, é levado por sua filha à Unidade Básica de Saúde, devido a queixas de declínio cognitivo, com início há cerca de 2 anos. Segundo o relato, o quadro teve início súbito durante episódio de pico hipertensivo, quando o paciente começou a apresentar dificuldades para planejar e executar atividades habituais, como organizar contas e seguir o uso correto de suas medicações (losartana e anlodipino). Desde então, ocorreu piora cognitiva em degraus, com períodos de estabilidade intercalados com novas perdas de desempenho. A filha destaca também episódios de instabilidade postural e quedas frequentes no mesmo período. O paciente apresenta déficit de memória recente, com razoável preservação de linguagem e orientação temporal. Não há histórico familiar de demência. Ao exame físico, PA 170 x 95 mmHg, reflexos patelares exaltados bilateralmente, além de marcha com base alargada e insegura. O miniexame do estado mental é de 22/30, com destaque para prejuízo em funções executivas e atenção. A principal hipótese diagnóstica para esse caso é de demência",
+  "alts": [
+   "vascular.",
+   "frontotemporal.",
+   "de corpúsculos de Lewy.",
+   "na doença de Alzheimer."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Recomendações do Departamento Científico de Neurologia Cognitiva e do Envelhecimento da Academia Brasileira de Neurologia, 2022; critérios VASCOG, 2014",
+  "coment": "Início abrupto ligado a evento vascular, piora em degraus com platôs, disfunção executiva e de atenção mais marcante que a de memória, sinais piramidais (hiper-reflexia) e marcha alargada com quedas precoces em hipertenso mal controlado e ex-tabagista configuram demência vascular, por múltiplos infartos ou doença de pequenos vasos. A ressonância confirma a carga vascular. Alzheimer começa insidioso pela memória episódica, frontotemporal por comportamento ou linguagem, e Lewy por flutuação, alucinações visuais e parkinsonismo. Controle pressórico é a medida central para evitar novos degraus.",
+  "porAlt": [
+   "Correta: início súbito ligado a pico hipertensivo, piora em degraus, disfunção executiva e sinais focais definem demência vascular.",
+   "Frontotemporal começa com alteração de comportamento ou de linguagem, sem piora em degraus nem sinais piramidais.",
+   "Corpúsculos de Lewy se apresentam com flutuação cognitiva, alucinações visuais e parkinsonismo, ausentes no caso.",
+   "Alzheimer tem início insidioso e progressão contínua, com a memória episódica afetada primeiro, não início súbito em degraus."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Homem preto, 68 anos, com hipertensão arterial sistêmica, doença renal crônica estágio clínico 3a com creatinina basal de 1,4 mg/dL é levado ao Pronto Atendimento com náusea, tontura e mal-estar geral. Faz uso regular de anlodipino 10 mg/dia, furosemida 80 mg/dia e enalapril 20 mg/dia. Ao exame físico, apresenta PA 90 × 60 mmHg, FC 96 bpm, FR 20 irpm, SatO2 95% em ar ambiente, tempo de enchimento capilar de 4 segundos, sem outras alterações. Os exames da admissão estão no quadro abaixo: Exame Resultado Valor de referência Creatinina sérica 1,9 mg/dL 0,7 a 1,2 mg/dL Ureia 124 mg/dL 10 a 50 mg/dL Potássio sérico 5,7 mEq/L 3,5 a 5,5 mEq/L Sódio sérico 145 mEq/L 135 a 145 mEq/L pH (gasometria venosa) 7,35 7,35 a 7,45 Bicarbonato 20 mEq/L 22 a 26 mEq/L (gasometria venosa) pCO2 (gasometria venosa) 38 mmHg 35 a 45 mmHg Eletrocardiograma Sem alterações Com base nos dados do quadro, que condutas devem ser tomadas nesse momento?",
+  "alts": [
+   "Suspender anlodipino e enalapril, prescrever furosemida endovenosa e indicar diálise.",
+   "Suspender anlodipino, manter enalapril e furosemida, prescrever hidratação endovenosa e gluconato de cálcio.",
+   "Suspender enalapril e anlodipino, manter furosemida, orientar restrição hídrica e indicar diálise.",
+   "Suspender enalapril, furosemida e anlodipino, prescrever hidratação endovenosa e reavaliação clínica."
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012; KDIGO Clinical Practice Guideline for the Evaluation and Management of CKD, 2024",
+  "coment": "Hipotensão (90 x 60 mmHg), enchimento capilar de 4 segundos e creatinina subindo de 1,4 para 1,9 mg/dL com ureia desproporcionalmente alta indicam lesão renal aguda pré-renal por hipovolemia sobre doença renal crônica, precipitada por furosemida, IECA e anlodipino. A conduta é suspender diurético, IECA e anti-hipertensivo, repor volume com cristaloide e reavaliar diurese, função renal e potássio. Potássio de 5,7 mEq/L com ECG normal não exige cálcio, e não há indicação de diálise (sem acidose grave, hipervolemia refratária, uremia sintomática ou hipercalemia refratária).",
+  "porAlt": [
+   "Furosemida agrava a hipovolemia que causou a lesão, e não há critério de urgência dialítica.",
+   "Manter IECA e diurético perpetua a lesão pré-renal, e gluconato de cálcio só se indica com alteração eletrocardiográfica.",
+   "Restrição hídrica e diurético pioram o paciente hipovolêmico, e a diálise não está indicada.",
+   "Correta: suspender os fármacos que reduzem a perfusão renal e hidratar corrige a lesão pré-renal, com reavaliação seriada."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Durante uma visita domiciliar, uma equipe interprofissional avalia um paciente de 78 anos que esteve internado devido a episódio de acidente vascular encefálico isquêmico e recebeu alta hospitalar há 1 semana. O paciente está acamado e apresenta perda de peso e ingestão alimentar irregular. Na região sacral, há descoloração e eritema na pele íntegra, o qual permanece por mais de 15 minutos após o alívio da pressão no local. A filha, cuidadora principal, está muito aflita e relata que no hospital não recebeu orientação de cuidado. Qual orientação a equipe deve priorizar para prevenir a progressão da lesão?",
+  "alts": [
+   "Utilizar dispositivos do tipo argola ou roteiro com preenchimento hídrico.",
+   "Manter o paciente em decúbito dorsal permanente com a cabeceira elevada.",
+   "Estabelecer um rodízio de decúbito que não exceda o intervalo de 2 horas.",
+   "Realizar massagem circular sobre a região do eritema com soluções de ácidos graxos essenciais."
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "International Pressure Injury Guideline (EPUAP/NPIAP/PPPIA), 4ª edição, 2025",
+  "coment": "Eritema que não embranquece e persiste após o alívio da pressão, em pele íntegra, é lesão por pressão estágio 1. Em idoso acamado pós-AVC e desnutrido, a prioridade é aliviar a pressão com mudança de decúbito programada, classicamente a cada 2 horas e ajustada ao risco e à superfície de apoio, com lateralização a 30 graus, cabeceira até 30 graus, colchão redistribuidor e suporte nutricional. A diretriz internacional contraindica massagem sobre proeminências ósseas e áreas avermelhadas, que lesa tecido já isquêmico, e dispositivos em anel, que concentram pressão na borda.",
+  "porAlt": [
+   "Dispositivos em argola concentram pressão na periferia e prejudicam a circulação local, sendo contraindicados.",
+   "Decúbito dorsal permanente mantém a pressão sobre o sacro, e cabeceira elevada aumenta o cisalhamento.",
+   "Correta: o reposicionamento regular, no máximo a cada 2 horas, alivia a pressão e impede a progressão da lesão estágio 1.",
+   "Massagem sobre área de eritema lesa o tecido já isquêmico e é contraindicada, mesmo com ácidos graxos essenciais."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Uma equipe de Saúde da Família é responsável por área de assentamento irregular. A maioria dos moradores exerce atividade informal como catadores de recicláveis. As moradias não possuem abastecimento individual de água, sendo o fornecimento realizado por torneiras coletivas, o que leva ao armazenamento domiciliar em recipientes improvisados. Nas últimas semanas, observou-se aumento do número de casos de dengue nessa área, associado à presença de recipientes com água parada, descarte inadequado de resíduos e circulação de informações incorretas sobre formas de prevenção da doença. Diante desse cenário, qual seria a ação com maior impacto para controlar a ocorrência dessa doença?",
+  "alts": [
+   "Manejo ambiental dos criadouros com participação comunitária e intersetorial.",
+   "Encaminhamento clínico dos casos suspeitos para serviços de referência.",
+   "Uso ambiental de inseticidas químicos para redução sustentada do vetor.",
+   "Atuação da vigilância epidemiológica com foco nos domicílios de casos notificados."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Diretrizes Nacionais para a Prevenção e Controle de Epidemias de Dengue, Ministério da Saúde, 2009",
+  "coment": "Com água armazenada em recipientes improvisados, resíduos mal descartados e desinformação, o determinante principal é a oferta de criadouros do Aedes aegypti. As Diretrizes Nacionais de controle da dengue priorizam o manejo ambiental (eliminação e proteção de criadouros, destinação de resíduos) com mobilização comunitária e ação intersetorial (saneamento, abastecimento de água, limpeza urbana), porque atuam na causa e têm efeito sustentado. Inseticida em ultrabaixo volume é reservado ao bloqueio de transmissão, tem efeito transitório e seleciona resistência.",
+  "porAlt": [
+   "Correta: eliminar criadouros com a comunidade e com setores como saneamento e limpeza urbana ataca a causa e tem efeito sustentado.",
+   "Encaminhar casos trata o doente, mas não reduz a transmissão nem os criadouros do território.",
+   "Inseticida tem efeito transitório, seleciona resistência e é reservado ao bloqueio de transmissão, não à redução sustentada.",
+   "Agir só nos domicílios notificados ignora os criadouros coletivos do território e atua depois da transmissão."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher tabagista, 38 anos, procura Unidade Básica de Saúde após recente falecimento do pai por adenocarcinoma de pulmão. Afirma que gostaria de ajuda para parar de fumar, pois falhou nas 5 vezes em que havia tentado por conta própria nos últimos anos. Relata tabagismo de 20 cigarros por dia desde os 18 anos de idade e que, nas tentativas de cessação, fez uso de “chicletes de nicotina”, sem orientação médica. Nega uso de álcool, outras substâncias psicoativas ou medicamentos. Não apresenta queixas depressivas, ansiosas ou psicóticas. Além de encaminhar para o grupo de cessação de tabagismo, qual é o medicamento indicado como primeira linha de tratamento, segundo protocolos do Ministério da Saúde?",
+  "alts": [
+   "Fluoxetina.",
+   "Dissulfiram.",
+   "Bupropiona.",
+   "Diazepam."
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "PCDT do Tabagismo, Ministério da Saúde (Portaria Conjunta nº 10), 2020",
+  "coment": "O PCDT do Tabagismo tem como base a abordagem cognitivo-comportamental, em grupo ou individual, associada a farmacoterapia nos fumantes com maior dependência. Os fármacos de primeira linha no SUS são a terapia de reposição de nicotina (adesivo, goma e pastilha) e a bupropiona, iniciada 1 a 2 semanas antes da data de parada, 150 mg ao dia por 3 dias e depois 150 mg de 12/12 horas. Com 20 cigarros por dia e falhas prévias com goma sem orientação, a bupropiona é a escolha entre as alternativas. Contraindicações a lembrar: epilepsia, transtorno alimentar e uso de IMAO.",
+  "porAlt": [
+   "Fluoxetina não aumenta as taxas de cessação do tabagismo e não consta no protocolo como tratamento.",
+   "Dissulfiram é usado na dependência de álcool, sem papel no tabagismo.",
+   "Correta: bupropiona é, com a reposição de nicotina, a farmacoterapia de primeira linha do protocolo do Ministério da Saúde.",
+   "Diazepam não trata a dependência de nicotina e acrescenta risco de dependência de benzodiazepínico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Ao chegar para uma visita domiciliar a uma mulher de 78 anos, em acompanhamento por doença de Alzheimer, o Médico de Família e Comunidade é abordado de forma reservada, ainda na porta da casa, pela filha e principal cuidadora da paciente. A filha solicita um relatório que ateste a incapacidade da idosa de gerir a própria vida e seus bens, mas pede que o médico não comente sobre o documento com a paciente, afirmando que a mãe sofreria muito com a realidade da perda de autonomia. Durante a conversa, o médico identifica que a solicitação decorre do bloqueio do cartão de benefício e da suspensão da renovação de empréstimos consignados pelo banco, que passou a exigir prova de vida presencial ou a apresentação de termo de curatela ou laudo de interdição. A filha argumenta que a locomoção é penosa e que o ambiente bancário, tumultuado e com espera prolongada, gera enorme desgaste e agitação na idosa, razão pela qual prefere resolver a situação sem expor a paciente a deslocamentos desnecessários. Considerando os preceitos do Código de Ética Médica, esse profissional deve",
+  "alts": [
+   "negar a emissão de qualquer documento relacionado à situação e orientar a família a resolver diretamente o impasse com a instituição bancária, por se tratar de uma demanda de natureza administrativa.",
+   "emitir um relatório médico descrevendo o diagnóstico de Alzheimer, sem detalhar formalmente a capacidade civil da paciente, permitindo que a família utilize o documento para solucionar a situação bancária.",
+   "atender à solicitação da filha, emitindo um relatório que declare a incapacidade da paciente para gerir seus bens e mantendo a finalidade do documento em sigilo, com o objetivo de evitar sofrimento emocional à idosa.",
+   "avaliar clinicamente a paciente quanto à sua capacidade de decisão, dialogar com ela de forma compatível com seu nível cognitivo, registrar a avaliação em prontuário e orientar a família sobre os encaminhamentos legais adequados."
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Código de Ética Médica, Resolução CFM nº 2.217, 2018; Estatuto da Pessoa com Deficiência, Lei nº 13.146, 2015",
+  "coment": "O Código de Ética Médica veda atestar o que não foi verificado e deixar de informar o paciente sobre sua situação, e garante a autonomia no limite da capacidade de decisão. Diagnóstico de Alzheimer não equivale a incapacidade civil: a capacidade é avaliada para cada decisão, e a restrição só ocorre por curatela judicial, que após o Estatuto da Pessoa com Deficiência atinge apenas atos patrimoniais e negociais. O médico avalia a paciente, conversa com ela em linguagem adequada, registra em prontuário e orienta a família sobre curatela ou tomada de decisão apoiada.",
+  "porAlt": [
+   "Negar qualquer documento é omissão; o médico pode avaliar e emitir relatório fiel, e deve orientar a família.",
+   "Relatório feito para contornar a exigência do banco, sem avaliar a capacidade e sem ciência da paciente, desvia o processo legal.",
+   "Declarar incapacidade sem avaliação e às escondidas da paciente fere a autonomia dela e o dever de atestar só o que se verificou.",
+   "Correta: avaliar a capacidade, dialogar com a paciente, registrar e orientar sobre curatela respeita autonomia e legalidade."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Adolescente, 15 anos, é levado a atendimento devido a episódios repetidos de lesões dolorosas em áreas de atrito, nos últimos 6 meses, especialmente coxas e nádegas. Refere que as lesões começam como nódulos endurecidos, muito dolorosos, que evoluem para áreas avermelhadas e quentes, com saída de secreção purulenta após alguns dias. Relata 5 episódios semelhantes neste período, alguns necessitando de drenagem. No episódio atual, relata febre (37,8 a 38,2 °C) há 2 dias, mal-estar e aumento progressivo da dor. Ao exame físico, apresenta uma lesão nodular eritematosa de 3 cm, quente, extremamente dolorosa à palpação, com ponto de flutuação evidente na região posterior da coxa. Há cicatrizes residuais de episódios anteriores. Pele adjacente quente e infiltrada. Qual o diagnóstico para esse adolescente?",
+  "alts": [
+   "Celulite de repetição.",
+   "Impetigo recorrente.",
+   "Furunculose de repetição.",
+   "Foliculite recorrente."
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections, 2014",
+  "coment": "Nódulos dolorosos centrados no folículo que evoluem para abscesso com flutuação e drenagem purulenta são furúnculos, infecção profunda do folículo pelo Staphylococcus aureus, e a recorrência (5 episódios em 6 meses) define furunculose de repetição, associada a colonização nasal ou cutânea. A IDSA 2014 orienta drenar a lesão flutuante, dar antibiótico quando há febre ou sinais sistêmicos (como aqui), colher cultura e descolonizar nas recidivas. Hidradenite supurativa é o principal diferencial quando predominam axilas, virilhas e trajetos fistulosos.",
+  "porAlt": [
+   "Celulite é infecção difusa da derme e do subcutâneo, sem nódulo com flutuação nem drenagem purulenta.",
+   "Impetigo é infecção superficial com vesículas, pústulas e crostas melicéricas, sem nódulos profundos.",
+   "Correta: nódulos foliculares profundos que abscedam e drenam, repetidos em 6 meses, caracterizam furunculose de repetição.",
+   "Foliculite é inflamação superficial do óstio folicular, com pápulas e pústulas pequenas, sem abscesso de 3 cm."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "O aquecimento global tem modificado a distribuição geográfica de vetores e a dinâmica de transmissão de doenças infecciosas. No Brasil, tem sido registrado um aumento de transmissão autóctone de dengue e Chikungunya em áreas de maior altitude e clima mais ameno no Sul do país. Diante deste cenário, qual alternativa melhor explica a influência do aumento da temperatura na competência vetorial do Aedes aegypti?",
+  "alts": [
+   "O período de incubação extrínseco do vírus no mosquito é encurtado, tornando-se vetor infectante em tempo menor.",
+   "Mutação genética é induzida no vírus, permitindo a transmissão por mosquitos de outras espécies, mais abundantes em clima frio.",
+   "O ciclo de vida do mosquito é acelerado, preservando a sua capacidade de replicação viral no vetor.",
+   "A sazonalidade das chuvas é modificada e provoca redução da densidade do vetor, preservando a sua competência para transmissão viral."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "IPCC Sixth Assessment Report, Working Group II (Health, Wellbeing and the Changing Structure of Communities), 2022; Mordecai EA et al., Thermal biology of mosquito-borne disease, Ecology Letters, 2019",
+  "coment": "A competência vetorial depende do período de incubação extrínseco, tempo entre o mosquito ingerir sangue virêmico e o vírus chegar às glândulas salivares. Temperaturas mais altas aceleram a replicação viral no vetor e encurtam esse período (de cerca de 10 a 12 dias em clima ameno para 7 dias ou menos acima de 30 °C), de modo que mais fêmeas se tornam infectantes dentro de sua vida curta. Somado ao desenvolvimento larval mais rápido e à maior frequência de repasto, isso explica a expansão da dengue e da chikungunya para áreas mais frias e altas do Sul.",
+  "porAlt": [
+   "Correta: o calor encurta o período de incubação extrínseco, e o mosquito se torna infectante mais cedo dentro de sua vida curta.",
+   "O calor não induz mutação dirigida no vírus, e a expansão se deve ao próprio Aedes aegypti chegando a novas áreas, não a outras espécies.",
+   "Acelerar o ciclo do mosquito aumenta, e não apenas preserva, a transmissão; a alternativa não explica o ganho de competência vetorial.",
+   "Calor e chuva tendem a aumentar, não reduzir, a densidade do vetor, e a alternativa não relaciona temperatura à competência."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "João, 68 anos, apresenta insuficiência cardíaca com fração de ejeção reduzida, diabetes mellitus tipo 2 e doença renal crônica estágio 3a. Após o último internamento, por piora da insuficiência cardíaca, recebeu alta hospitalar com ajustes terapêuticos e orientação para monitoramento clínico frequente nas primeiras semanas após a alta. A equipe hospitalar realizou contato com a Atenção Primária à Saúde (APS) do território comunicando a alta, mas não o encaminhou para seguimento ambulatorial especializado. Que estratégia deve ser priorizada pela equipe da APS para garantir a continuidade, a segurança do cuidado e a articulação efetiva da rede?",
+  "alts": [
+   "Organizar o seguimento do paciente com base na revisão do plano terapêutico definido no âmbito hospitalar, estruturando o acompanhamento clínico na APS com articulação dos diferentes pontos da rede, conforme evolução e complexidade do cuidado.",
+   "Solicitar, via regulação, consulta prioritária em ambulatório especializado para reavaliação do plano terapêutico definido no âmbito hospitalar, mantendo a APS como ponto de apoio para execução e monitoramento das condutas definidas pelos serviços especializados.",
+   "Planejar o seguimento do caso a partir do ambulatório de especialidades, para reavaliação, estratificação de risco e definição do plano terapêutico, cabendo à APS o acompanhamento longitudinal depois de atingida a estabilização clínica.",
+   "Realizar visita domiciliar inicial imediata, orientando o paciente quanto à necessidade de seguimento especializado em função da complexidade clínica e do risco cardiovascular, e programar retorno à APS após estabilização clínica."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Portaria GM/MS nº 4.279 (Redes de Atenção à Saúde), 2010; Política Nacional de Atenção Básica, Portaria nº 2.436, 2017",
+  "coment": "Nas Redes de Atenção à Saúde (Portaria 4.279/2010), a APS é ordenadora da rede e coordenadora do cuidado. Na transição pós-alta de paciente com IC de fração reduzida, diabetes e DRC, as primeiras semanas concentram o maior risco de reinternação, e as diretrizes de IC recomendam reavaliação precoce (em 1 a 2 semanas) com checagem de volemia, peso, função renal, potássio e titulação dos fármacos. Cabe à APS revisar o plano hospitalar, organizar esse acompanhamento e acionar os demais pontos da rede conforme a complexidade, sem esperar o especialista para começar.",
+  "porAlt": [
+   "Correta: a APS assume a coordenação, revisa o plano hospitalar e articula a rede conforme a evolução, garantindo seguimento precoce.",
+   "Tornar a APS mera executora das condutas do especialista inverte seu papel de coordenadora do cuidado e atrasa o seguimento.",
+   "Esperar a estabilização para a APS entrar deixa descoberto o período pós-alta de maior risco de reinternação.",
+   "A visita é útil, mas adiar o acompanhamento pela APS até a estabilização e delegar tudo ao especialista fragmenta o cuidado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 55 anos, funcionária de segurança, é levada à Unidade Básica de Saúde por sua Agente Comunitária de Saúde (ACS) devido a delírio persecutório. Segundo relatos da ACS, a paciente chegou a proferir uma clara ameaça de morte à vizinha, a quem atribuíra a realização de trabalhos espirituais contra ela. Enquanto aguardava ser chamada na recepção, a paciente começou a ficar progressivamente agitada, falando sozinha, e tentou agredir outros usuários com um cabo de vassoura. Após tentativa de abordagem verbal e posterior restrição de espaço realizada pela equipe de enfermagem, ela ficou ainda mais agitada e passou a tentar agredir todos que se aproximavam. A sequência de procedimentos adequados para esse caso é",
+  "alts": [
+   "administração de haloperidol intramuscular, seguida de nova intervenção verbal.",
+   "administração de diazepam intramuscular, seguida de observação em consultório.",
+   "contenção mecânica, seguida de administração de haloperidol intramuscular.",
+   "contenção mecânica, seguida de observação em consultório."
+  ],
+  "gab": 2,
+  "tema": "psiq",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Baldaçara L et al., Diretrizes brasileiras para o manejo da agitação psicomotora (ABP), 2019; Resolução CFM nº 2.057, 2013",
+  "coment": "A abordagem da agitação segue uma escalada: ambiente seguro e desescalada verbal, depois oferta de medicação oral e, se há risco iminente de violência e falha das medidas anteriores, contenção física seguida de tranquilização rápida por via intramuscular. Aqui a desescalada e a restrição de espaço falharam e a paciente tenta agredir todos, então a contenção mecânica, feita por equipe treinada e registrada em prontuário (Resolução CFM 2.057/2013), permite aplicar com segurança haloperidol IM (5 mg, podendo associar prometazina ou midazolam). Contenção nunca é usada isolada nem como punição.",
+  "porAlt": [
+   "Não é possível aplicar injeção IM com segurança em quem tenta agredir todos sem contê-la antes, e a abordagem verbal já falhou.",
+   "Diazepam IM tem absorção errática e não é a escolha na agitação psicótica, e observar sem contenção expõe todos ao risco.",
+   "Correta: falhada a desescalada, a contenção mecânica permite a tranquilização rápida com haloperidol IM de forma segura.",
+   "Contenção mecânica sem tranquilização prolonga a agitação e o risco de lesões; ela deve ser seguida de medicação."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 82 anos, em acompanhamento pela equipe de Saúde da Família devido à doença coronariana crônica, insuficiência cardíaca com fração de ejeção do ventrículo esquerdo de 53% e doença renal crônica (clearance de creatinina 42 mL/min, VR: 60 a 100 mL/min), em uso de losartana, metoprolol, espironolactona, AAS e rosuvastatina. Durante a consulta médica de acompanhamento, a paciente relata alguns episódios de tontura ao levantar e fadiga nos últimos dias. Além da monitorização da PA, qual estratégia deve ser adotada no plano terapêutico?",
+  "alts": [
+   "Manter as medicações da terapia com ajuste posológico.",
+   "Adicionar digoxina ao esquema terapêutico.",
+   "Substituir losartana por sacubitril-valsartana.",
+   "Suspender o uso do betabloqueador."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESC Guidelines for heart failure, 2026; AGS Beers Criteria, 2023",
+  "coment": "FEVE de 53% corresponde a IC com fração preservada (50% ou mais), em que losartana, espironolactona e metoprolol se mantêm pelas comorbidades (coronariopatia, hipertensão) e pelo benefício em internações. Tontura ao levantar e fadiga em octogenária com DRC sugerem hipotensão ortostática ou bradicardia por excesso de dose, e a conduta é medir PA deitada e em pé, FC, potássio e função renal e ajustar as doses, sem suspender de forma abrupta o betabloqueador, necessário pela coronariopatia. Digoxina e sacubitril-valsartana somariam hipotensão ou toxicidade sem indicação.",
+  "porAlt": [
+   "Correta: manter a terapia com ajuste de doses corrige a hipotensão postural sem perder o benefício de cada fármaco.",
+   "Digoxina não trata tontura postural e tem risco de toxicidade aumentado em idosa com clearance de 42 mL/min.",
+   "Sacubitril-valsartana tem efeito hipotensor maior, agravaria a tontura e não tem indicação estabelecida com FEVE de 53%.",
+   "Suspender o betabloqueador de forma abrupta em coronariopata pode precipitar isquemia e taquicardia de rebote."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Homem, 26 anos, é avaliado em ambulatório de especialidades após encaminhamento da Atenção Primária à Saúde por 4 episódios de icterícia leve nos últimos 2 anos. Os episódios são autolimitados e exacerbam-se sob estresse físico, jejum prolongado ou privação de sono. O paciente nega perda ponderal, dor abdominal, colúria, acolia fecal, comorbidades, etilismo ou uso de medicamentos. Ao exame físico, apresenta-se em bom estado geral, com discreta icterícia de escleras, sem visceromegalias. Restante do exame físico normal. Durante investigação ambulatorial, foram solicitados exames laboratoriais, cujos resultados foram semelhantes aos exames realizados durante os episódios anteriores de icterícia: Exame Resultado Valores de referência Bilirrubina total 3,2 mg/dL 0,3 a 1,2 mg/dL Bilirrubina indireta 2,8 mg/dL até 0,8 mg/dL Bilirrubina direta 0,3 mg/dL até 0,3 mg/dL AST (TGO) 22 U/L até 35 U/L ALT (TGP) 25 U/L até 35 U/L Fosfatase alcalina 82 U/L 30 a 120 U/L GGT 28 U/L 1 a 94 U/L Hemoglobina 14,5 g/dL 13,5 a 17,5 g/dL Reticulócitos 1,1% 0,5 a 2,0% LDH 178 U/L 100 a 190 U/L Haptoglobina 110 mg/dL 30 a 200 mg/dL Com base no quadro clínico e laboratorial e uso adequado de recursos em saúde, o médico deve",
+  "alts": [
+   "solicitar teste genético para mutação do gene UGT1A1 para confirmar o diagnóstico.",
+   "realizar teste terapêutico com fenobarbital, visando redução sustentada da bilirrubinemia.",
+   "reconhecer distúrbio benigno da conjugação hepática da bilirrubina e orientar o paciente.",
+   "solicitar ultrassonografia abdominal para avaliação estrutural do fígado e das vias biliares."
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Evaluation of Abnormal Liver Chemistries, 2017",
+  "coment": "Hiperbilirrubinemia indireta leve (BT 3,2 com BI 2,8 mg/dL), recorrente, desencadeada por jejum, estresse e privação de sono, com aminotransferases, fosfatase alcalina e GGT normais e sem hemólise (hemoglobina, reticulócitos, LDH e haptoglobina normais) define síndrome de Gilbert, redução da atividade da UGT1A1 presente em 5% a 10% da população. O ACG 2017 considera o diagnóstico clínico e laboratorial, sem teste genético nem imagem. A conduta é tranquilizar e orientar que não há lesão hepática nem necessidade de tratamento.",
+  "porAlt": [
+   "O teste genético é desnecessário quando o quadro clínico e laboratorial é típico, e não muda a conduta.",
+   "Fenobarbital reduz a bilirrubina, mas não há indicação de tratar uma condição benigna e assintomática.",
+   "Correta: é síndrome de Gilbert, distúrbio benigno da conjugação da bilirrubina, e basta orientar o paciente.",
+   "Com bilirrubina direta, enzimas canaliculares e aminotransferases normais, não há suspeita estrutural que justifique ultrassonografia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Um paciente de 45 anos encontra-se no 3º dia de pós-operatório de enterectomia extensa e jejunostomia por isquemia mesentérica em Unidade de Terapia Intensiva. Está em uso de ventilação mecânica e de drogas vasoativas. Qual a via alimentar mais adequada nesse caso?",
+  "alts": [
+   "Jejunostomia.",
+   "Tubo nasogástrico.",
+   "Acesso venoso central.",
+   "Sonda nasoentérica."
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESPEN guideline on clinical nutrition in the intensive care unit, 2023; ASPEN guidelines for nutrition support in the adult critically ill patient, 2022",
+  "coment": "Após enterectomia extensa com jejunostomia terminal, o intestino remanescente é curto e a dieta por via digestiva sairia pelo estoma sem absorção, quadro de falência intestinal. Somam-se choque em uso de vasopressor e ventilação mecânica, situação em que a ESPEN adia a nutrição enteral enquanto o choque não está controlado. Com a via enteral contraindicada, a ESPEN recomenda iniciar nutrição parenteral progressiva entre o 3º e o 7º dia, por acesso venoso central por causa da osmolaridade elevada da solução. A enteral mínima volta com a adaptação intestinal.",
+  "porAlt": [
+   "A jejunostomia após enterectomia extensa é estoma de saída, não via de alimentação, e o uso de vasopressor adia a enteral.",
+   "Dieta por tubo nasogástrico chegaria a um intestino curto com estoma proximal, sem condição de absorção, em paciente chocado.",
+   "Correta: com falência intestinal e choque, a nutrição parenteral por acesso venoso central é a via adequada.",
+   "Sonda nasoentérica mantém a via enteral, contraindicada pela ressecção extensa e pelo choque em uso de vasopressor."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Uma Unidade de Saúde da Família em área de elevada incidência de dengue recebe João, 33 anos, sem comorbidades, apresentando febre há 2 dias, dor retroorbitária, mialgia intensa e inapetência. Ao exame inicial: PA 118 x 76 mmHg; FC 92 bpm; tempo de enchimento capilar < 2 segundos; boa hidratação; ausência de dor abdominal e de sinais de sangramento. Hematócrito 42%; plaquetas 155.000/mm³. Foi liberado com analgésicos e hidratação oral. O paciente retorna após 2 dias relatando piora do estado geral, com vômitos persistentes, sensação de desmaio e dor abdominal contínua no quadrante superior direito, e diurese diminuída. Ao exame físico: PA 104 x 70 mmHg; FC 108 bpm; tempo de enchimento capilar 3 segundos; extremidades discretamente frias; dor à palpação do hipocôndrio direito; sinais de desidratação. Novo hemograma: hematócrito 46%; plaquetas 82.000/mm³. Considerando a propedêutica da dengue e a estratificação de risco por grupos, qual deve ser a conduta imediata?",
+  "alts": [
+   "Iniciar hidratação venosa, com acesso venoso calibroso, monitorar hemodinâmica e encaminhar para internação hospitalar.",
+   "Orientar hidratação oral rigorosa e prescrever analgesia potente e retorno em 24 horas para novo hemograma.",
+   "Solicitar novos testes para confirmação de dengue e hidratação venosa na unidade, com observação por 6 horas e possível retorno ao domicílio.",
+   "Solicitar ultrassom abdominal para investigar a dor no hipocôndrio direito e iniciar hidratação oral."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Dengue: diagnóstico e manejo clínico, adulto e criança, Ministério da Saúde, 6ª edição, 2024",
+  "coment": "No retorno, já na fase crítica, o paciente tem sinais de alarme: vômitos persistentes, dor abdominal contínua, lipotimia, oligúria, hemoconcentração (hematócrito de 42% para 46%) e queda das plaquetas. Isso o coloca no mínimo no grupo C do Ministério da Saúde, e enchimento capilar de 3 segundos com extremidades frias e taquicardia já sugere choque compensado (grupo D). A conduta é hidratação venosa imediata (10 mL/kg na 1ª hora no grupo C, 20 mL/kg em 20 minutos no grupo D), acesso calibroso, monitoração e internação. Exame confirmatório não pode atrasar o tratamento.",
+  "porAlt": [
+   "Correta: sinais de alarme e hemoconcentração exigem hidratação venosa imediata, monitoração e internação (grupos C ou D).",
+   "Hidratação oral e retorno em 24 horas é conduta do grupo A; com sinais de alarme o paciente precisa de volume venoso e internação.",
+   "Testes confirmatórios não mudam a conduta, e paciente com sinais de alarme deve ser internado, não liberado após observação.",
+   "A dor no hipocôndrio direito é sinal de alarme por extravasamento plasmático, não pede investigação antes de tratar, e hidratação oral é insuficiente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 68 anos, procurou a Unidade de Pronto Atendimento com quadro de dor súbita, calor e edema importante em joelho direito, iniciado há 24 horas, que a impede de deambular. Faz acompanhamento regular por diabetes mellitus tipo 2 e osteoartrite de joelhos, em uso de metformina e gliclazida. Ao exame físico, apresenta bom estado geral, lúcida e orientada; PA 135 x 85 mmHg; FC 98 bpm; FR 18 irpm e temperatura axilar 37,9 °C. O joelho direito apresenta-se com volumoso derrame articular, eritema e dor à mobilização passiva e ativa. Exames laboratoriais: Exame Resultado Valor de referência Hemoglobina 12,2 g/dL 11,5 a 13,5 g/dL Leucócitos 13.400/mm³ 5.000 a 15.000/mm³ Creatinina 1,1 mg/dL 0,5 a 0,9 mg/dL Proteína C Reativa 8,5 mg/L < 5mg/L Nessa situação, qual conduta deve ser adotada?",
+  "alts": [
+   "Iniciar antibioticoterapia empírica após a coleta de hemoculturas.",
+   "Pesquisar cristais, Gram, cultura e contagem celular no líquido sinovial.",
+   "Solicitar ressonância magnética de joelho.",
+   "Prescrever anti-inflamatório não esteroidal."
+  ],
+  "gab": 1,
+  "tema": "reumato",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "BSR/BHPR guidelines for management of the hot swollen joint in adults, 2006; EULAR recommendations for the management of gout, 2016",
+  "coment": "Monoartrite aguda com derrame, calor, eritema e febre baixa em diabética idosa tem como principais hipóteses artrite séptica e artrite por cristais (gota ou pseudogota, comum no joelho de idosos com osteoartrite). A artrocentese diagnóstica é obrigatória antes do antibiótico: contagem de leucócitos (acima de 50.000/mm³ sugere infecção), Gram, cultura e pesquisa de cristais à luz polarizada. Se o líquido for purulento ou o Gram positivo, o antibiótico empírico começa logo após a coleta, junto com hemoculturas. Antibiótico antes da punção reduz a positividade da cultura.",
+  "porAlt": [
+   "Antibiótico antes da artrocentese negativa a cultura sinovial e pode tratar às cegas uma artrite por cristais.",
+   "Correta: a análise do líquido sinovial (células, Gram, cultura e cristais) separa artrite séptica de artrite por cristais.",
+   "Ressonância não diferencia infecção de cristais nem substitui a análise do líquido, e atrasa o diagnóstico.",
+   "AINE sem diagnóstico pode mascarar artrite séptica e é arriscado em diabética com creatinina elevada."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Um paciente foi internado na enfermaria de clínica médica por estado de sonolência após episódios frequentes e abundantes de diarreia e vômitos por 3 dias. A pressão arterial estava reduzida e os pulsos, finos. Quando despertava, referia sede. Suas mucosas encontravam-se secas. O exame laboratorial revelou sódio de 121 mEq/L. Diante do quadro de hiponatremia, procedeu-se a dosagem de sódio urinário e a terapia. O sódio urinário mais provável e a terapia mais recomendada no momento são, respectivamente:",
+  "alts": [
+   "sódio urinário de 10 mEq/L e infusão de 100 ml a 300 ml de solução salina 3% com reavaliação laboratorial em 4 horas;",
+   "sódio urinário de 30 mEq/L e infusão de solução salina 0,9% 3000 ml em 24h;",
+   "sódio urinário de 15 mEq/L e infusão de soro fisiológico 0,9% conforme melhora clínica;",
+   "sódio urinário de 20 mEq/L e administração de cápsula de sal 4 vezes ao dia por via enteral e posteriormente por via oral;",
+   "sódio urinário de 20 mEq/L e administração de 700 ml de salina hipertônica a 3% em 24 horas conforme cálculo do déficit de sódio."
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "European Clinical Practice Guideline on diagnosis and treatment of hyponatraemia (ESE/ESICM/ERBP), 2014; Verbalis JG et al., Diagnosis, evaluation, and treatment of hyponatremia: expert panel recommendations, 2013",
+  "coment": "Vômitos e diarreia com hipotensão, pulsos finos, sede e mucosas secas definem hiponatremia hipovolêmica por perda extrarrenal, em que o rim retém sódio e o sódio urinário fica baixo (menor que 20 a 30 mEq/L, tipicamente em torno de 10). Com sonolência, a hiponatremia é sintomática grave, e as diretrizes europeia e americana indicam bolus de salina 3% (100 a 150 mL, repetível até 3 vezes) com sódio seriado, buscando subir 4 a 6 mEq/L sem passar de 8 a 10 mEq/L em 24 horas. Depois, a volemia é restaurada com cristaloide isotônico, vigiando a correção excessiva.",
+  "porAlt": [
+   "Correta: sódio urinário baixo confirma perda extrarrenal, e a sonolência pede bolus de salina 3% com reavaliação seriada do sódio.",
+   "Sódio urinário de 30 mEq/L sugeriria perda renal, e 3 litros de salina isotônica sem controle arriscam correção rápida demais.",
+   "Salina isotônica isolada eleva o sódio devagar e não trata a hiponatremia com sintoma neurológico grave como a sonolência.",
+   "Cápsulas de sal servem à SIADH crônica, não a paciente hipovolêmico, sonolento e com vômitos.",
+   "Calcular o déficit e infundir 700 mL de salina 3% em 24 horas ignora o limite de correção e expõe à desmielinização osmótica."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Uma mulher de 30 anos internou-se com perda ponderal de 20 kg (peso atual: 56 kg; peso usual: 76 kg), candidíase, diarreia crônica, baixo índice de Karnofsky, anemia e contagem de linfócitos totais iguais a 800 cél/dl. O diagnóstico de tuberculose pulmonar cavitária, concomitante a padrão miliar, levou a residente de clínica médica a investigar a infecção pelo HIV. O diagnóstico firmado de infecção pelo HIV, no dia seguinte, foi seguido de orientação e condução clínica. Considerando R – rifampicina, H – isoniazida, Z – pirazinamina, E – etambutol, a terapia recomendada para a coinfecção HIV - tuberculose, segundo o último PCDT HIV 2024, é:",
+  "alts": [
+   "iniciar terapia antirretroviral após 8 semanas do início do esquema para tuberculose com 4 comprimidos de RHZE (150/75/400/275);",
+   "aguardar contagem de linfócitos CD4 para iniciar a terapia antirretroviral e o esquema para tuberculose com 4 comprimidos de RHZE (150/75/400/275);",
+   "iniciar a terapia antirretroviral enquanto se investiga se há disseminação da micobactéria tuberculose, pois esse achado mudaria o tempo de tratamento para tuberculose;",
+   "iniciar prontamente o esquema com 4 comprimidos de RHZE (150/75/400/275) e em até uma semana iniciar tratamento antirretroviral, independente da contagem de linfócitos CD4;",
+   "iniciar prontamente o esquema com 3 comprimidos de RHZE (150/75/400/275) e, caso a contagem de linfócitos CD4 esteja menor que 50 células/mm³, prosseguir com a terapia antirretroviral em torno da 6ª semana."
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "PCDT para Manejo da Infecção pelo HIV em Adultos, Módulo 1, Ministério da Saúde, 2024; Manual de Recomendações para o Controle da Tuberculose no Brasil, Ministério da Saúde, 2019",
+  "coment": "Na coinfecção TB-HIV, o tratamento da tuberculose começa de imediato, e o PCDT HIV 2024 recomenda iniciar a TARV em até 7 dias, independentemente do CD4, porque o início precoce reduz a mortalidade, sobretudo com CD4 igual ou menor que 50 células/mm³; o receio de síndrome de reconstituição imune não justifica adiar. A exceção é a meningite tuberculosa (início entre 4 e 6 semanas). O RHZE (150/75/400/275 mg) é dosado pelo peso: de 51 a 70 kg são 4 comprimidos, então 56 kg recebem 4. A forma miliar sem acometimento do SNC usa o esquema básico de 6 meses.",
+  "porAlt": [
+   "Adiar a TARV para 8 semanas é conduta abandonada; o PCDT 2024 indica início em até 7 dias.",
+   "Esperar o CD4 atrasa os dois tratamentos, e a TARV é indicada precocemente em qualquer contagem.",
+   "O tratamento da TB não pode esperar a investigação de disseminação, e a TARV não deve preceder o esquema antituberculose.",
+   "Correta: RHZE imediato em 4 comprimidos (51 a 70 kg) e TARV em até 7 dias, sem depender do CD4, segundo o PCDT HIV 2024.",
+   "Com 56 kg a dose é de 4 comprimidos, e a TARV não espera a 6ª semana, mesmo com CD4 abaixo de 50."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Um paciente de 55 anos, portador de doença de Crohn há mais de 10 anos em remissão com adalimumabe (anti-TNFalfa), foi internado na enfermaria de clínica médica para investigar síndrome consumptiva. O grupo de residentes notou linfadenomegalias cervicais sem sinais inflamatórios, presença de hepatoesplenomegalia e estertores crepitantes em ambos os hemitórax. Foi feito diagnóstico de tuberculose a partir de teste rápido molecular do lavado broncoalveolar, cujo material foi positivo para micobactéria tuberculosa (sensível à rifampicina). Mesmo durante o tratamento padrão com rifampicina, isoniazida, pirazinamida e etambutol, o paciente apresentava febre vespertina frequente de aproximadamente 38 graus. Logo no diagnóstico, fora suspenso o adalimumabe. A despeito de a investigação para outros agentes infecciosos ter sido negativa e de não haver resistência da micobactéria, a febre ficou mais frequente e houve piora clínica com derrame pleural e hipoxemia, além de piora laboratorial com aumento de aminotransferases (em torno de 3 vezes o limite superior da normalidade) após 1 mês do início do tratamento contra micobactéria. O manuseio adequado do quadro é:",
+  "alts": [
+   "manter o esquema para tuberculose e iniciar corticoide;",
+   "suspender o esquema da tuberculose e realizar biópsia de linfonodo;",
+   "iniciar tratamento para linfoma, pois se trata de uma complicação do adalimumabe;",
+   "trocar esquema contra tuberculose para amicacina, ofloxacina e etambutol;",
+   "suspender a terapia para tuberculose e reintroduzi-la gradualmente após 2 semanas de normalização das amitransferases, iniciando com a rifampicina e etambutol. "
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Manual de Recomendações para o Controle da Tuberculose no Brasil, Ministério da Saúde, 2019; ATS/CDC/ERS/IDSA Clinical Practice Guidelines: Treatment of Drug-Susceptible Tuberculosis, 2016",
+  "coment": "Piora clínica e radiológica (febre, derrame pleural, hipoxemia) em TB sensível, sob tratamento correto e sem outra infecção, após suspensão do anti-TNF, é reação paradoxal: a imunidade antes bloqueada pelo adalimumabe se recompõe e amplifica a inflamação contra antígenos micobacterianos, fenômeno análogo à reconstituição imune no HIV. Mantém-se o RHZE e, nas formas graves, associa-se corticoide (prednisona em torno de 1 mg/kg com retirada gradual). Aminotransferases em 3 vezes o limite sem sintomas hepáticos não exigem suspensão, cujo corte é acima de 5 vezes sem sintomas ou acima de 3 vezes com sintomas.",
+  "porAlt": [
+   "Correta: é reação paradoxal após retirada do anti-TNF, tratada mantendo o esquema e associando corticoide.",
+   "Suspender o esquema é desnecessário, pois a TB é sensível e confirmada, e a piora é inflamatória, não falha.",
+   "Linfoma não explica a TB comprovada, e a piora sob tratamento é típica de reação paradoxal após retirada do anti-TNF.",
+   "Esquema alternativo é para hepatotoxicidade grave ou resistência, e aqui a micobactéria é sensível e a elevação é leve.",
+   "Aminotransferases em cerca de 3 vezes o limite, sem icterícia ou sintomas hepáticos, não obrigam suspender e reintroduzir o esquema."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Um homem de meia-idade retornou ao ambulatório de clínica médica em cadeira de rodas, trazido pela esposa, relatando estar a maior parte do tempo acamado. O início das dores lombares foi há 4 meses. A dor situa-se principalmente na transição toracolombar, permanece durante a noite e já está refratária a uso de opioides fracos. A constipação piorou (última evacuação há 5 dias) e o paciente não urina com tanta frequência. Quando sente vontade de urinar, não consegue segurar completamente. A esposa relata que o marido perdeu pelo menos uns 8 kg nos 4 meses desde o início do quadro, havendo febre vespertina ocasional não aferida. A esposa também atualiza o quadro dizendo que a dor parece já estar presente há mais tempo (uns 6 meses). Há aproximadamente 1 mês, ele havia sentido uma fraqueza mais proeminente nas pernas, que o levou a cair sentado. Desde então, não conseguiu se levantar. Exame físico: paraplegia espástica e hiperreflexia de membros inferiores, com redução de sensibilidade para tato, temperatura e pressão e dor com nível sensitivo na altura dos mamilos. Havia redução da sensibilidade profunda caracterizada por perda completa da propriocepção e sensibilidade vibratória. O restante do exame físico revela paciente hipocorado, um pouco desidratado, com distensão abdominal e redução dos ruídos intestinais. Massa palpável em hipogástrio, indolor, sugerindo bexigoma. Nos exames solicitados, revelaram-se anemia normocítica, normocrômica, VHS 88 mmHg, PCR: 95 (N: até 10 mg/L), creatinina: 1,6 mg/dl; outros exames estavam normais, incluindo hepatograma, Na, K, Ureia, PSA. Na radiografia de coluna lombar, não se evidenciou fratura, mas havia alterações degenerativas comuns para a idade em região sacroilíaca e acetabular. O radiologista sugeriu redução da densidade óssea, mas não havia lesões líticas ou blásticas. Havia achados de fecalitos em região retossigmoideana e provável bexigoma pela análise da radiografia. O médico decidiu interná-lo imediatamente para investigação e tratamento. Em relação a esse caso, é correto afirmar que:",
+  "alts": [
+   "a principal hipótese é de mielite transversa, e os exames complementares mais importantes a serem realizados nesse caso são ressonância de coluna lombar e punção lombar;",
+   "dado que a probabilidade de osteomielite e abscesso epidural é baixa, como é possível concluir pela radiografia de coluna, pode-se iniciar corticoide 1 mg/kg para síndrome de compressão medular;",
+   "como a fosfatase alcalina, gama glutamiltransferase (GGT) e transaminases estão normais, não é necessário investigar os níveis séricos de cálcio e fósforo;",
+   "as alterações degenerativas e provável osteopenia na radiografia de coluna lombar, somadas ao quadro de claudicação neurogênica, sugerem fratura osteoporótica compressiva. Nesse caso, o médico deve optar pela realização de tomografia de coluna lombar para visualização da fratura e rápido encaminhamento ao serviço de neurocirurgia ou ortopedia;",
+   "o paciente possui vários sinais de alarme: febre, perda ponderal inexplicada, dor noturna e refratária e manifestações neurológicas graves. Essas últimas motivam a realização de ressonância de coluna torácica e lombar de urgência para investigação de síndrome de compressão medular."
+  ],
+  "gab": 4,
+  "tema": "neuro",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "NICE guideline NG234, Spinal metastases and metastatic spinal cord compression, 2023",
+  "coment": "Dor lombar há meses com sinais de alarme (dor noturna e refratária, perda de 8 kg, febre, VHS e PCR elevados, anemia) e síndrome medular (paraplegia espástica, hiper-reflexia, nível sensitivo em T4, retenção urinária e constipação) é compressão medular até prova em contrário, por neoplasia (metástase, mieloma) ou infecção (Pott, abscesso epidural). A ressonância de toda a coluna é o exame de urgência, em até 24 horas pelo NICE, e define descompressão, radioterapia ou antimicrobiano. Radiografia normal não exclui infecção nem metástase, pois a lise só aparece com grande perda óssea.",
+  "porAlt": [
+   "Mielite transversa se instala em horas a dias, não com dor progressiva por meses, febre e VHS alto; e punção antes da imagem é arriscada.",
+   "Radiografia não exclui osteomielite nem abscesso epidural, e corticoide sem diagnóstico pode mascarar infecção ou linfoma.",
+   "Hipercalcemia é comum em neoplasia óssea e mieloma e deve ser dosada independentemente das enzimas hepáticas.",
+   "O quadro não é claudicação neurogênica e sim síndrome medular com sinais sistêmicos, e a tomografia lombar não avalia a medula.",
+   "Correta: sinais de alarme com déficit neurológico grave exigem ressonância de urgência da coluna para investigar compressão medular."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Ao atender uma paciente pós-menopausa com câncer de mama já em estado de disseminação para fígado e osso, a médica residente teve acesso aos exames laboratoriais: hemoglobina: 8,0 mg/dl; hematócrito: 24 mg/dl; ferritina: 200 mg/dl; albumina: 3,5 mg/dl (normal: 3 a 5); globulina: 6,0 mg/dl (normal: 2 a 4 mg/dl); creatinina: 2,0 mg/dl; cálcio: 14,5 mg/dl (normal: 8 a 10 mg/dl); fósforo: 3,5 mg/dl; 25 OH vitamina D: 25 mg/dl (normal: 30 a 50); PTH: 20 pg/ml (normal: 30 a 65); e PCR: 115 mg/L (normal: até 10 mg/L). A queixa da paciente era dor, mas pela confusão mental optou-se por olhar os exames antes de completar a anamnese. Sobre a investigação do quadro da paciente, é correto afirmar que:",
+  "alts": [
+   "nas hipercalcemias moderadas a graves, não precisamos confirmar ou corrigir pela albumina, pois o valor é muito alto para haver um erro analítico;",
+   "o nível de cálcio sérico não tem correspondência com os sintomas e a velocidade de instalação;",
+   "a equipe médica pensou em hipercalcemia não mediada pelo PTH e solicitou, corretamente, peptídeo relacionado ao PTH (PTHrp) e 1,25 dihidroxivitamina D;",
+   "a paciente, pós-menopausa, ambulatorial, com hipercalcemia moderada a grave, deve ter hiperparatireoidismo primário;",
+   "como a maioria dos casos de hipercalcemia estão relacionados a hiperparatireoidismo e malignidade, não há necessidade de revisão da anamnese em busca de medicações, suplementos e produtos herbários."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Endocrine Society Clinical Practice Guideline: Treatment of Hypercalcemia of Malignancy in Adults, 2022",
+  "coment": "Cálcio de 14,5 mg/dL com PTH suprimido (20 pg/mL) indica hipercalcemia não mediada pelo PTH. Em câncer de mama com metástases ósseas e hepáticas, os mecanismos possíveis são o PTHrp (hipercalcemia humoral da malignidade), a osteólise local e, mais raramente, a produção de calcitriol, por isso dosar PTHrp e 1,25-di-hidroxivitamina D é a investigação correta. A intensidade dos sintomas acompanha o nível e a velocidade de instalação, a albumina deve ser considerada (ou medido o cálcio iônico) e medicamentos e suplementos (tiazídico, lítio, vitamina D, cálcio) sempre são revisados.",
+  "porAlt": [
+   "Em qualquer faixa o cálcio deve ser interpretado com a albumina (ou medido o cálcio iônico), inclusive pela interferência de paraproteínas.",
+   "Os sintomas dependem do nível de cálcio e da velocidade de instalação, sendo piores em elevações rápidas.",
+   "Correta: PTH suprimido indica hipercalcemia independente do PTH, e PTHrp e calcitriol são os exames seguintes.",
+   "PTH suprimido afasta hiperparatireoidismo primário, e hipercalcemia grave em câncer metastático sugere causa maligna.",
+   "A revisão de medicações, suplementos e fitoterápicos é obrigatória em toda hipercalcemia, mesmo com causa aparente."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Um paciente sem doença hepática prévia, e em tratamento para tuberculose pulmonar com rifampicina, isoniazida, pirazinamida e etambutol, inicia quadro de sintomas dispépticos e elevação de transaminases (TGO e TGP). A conduta acertada em relação a esse caso clínico é:",
+  "alts": [
+   "suspender imediatamente todas as medicações e reintroduzi-las quando as transaminases estiverem normalizadas;",
+   "manter as medicações para tuberculose tolerando até 5 vezes o limite superior da normalidade;",
+   "trocar imediatamente para capreomicina, etambutol e levofloxacina (esquema para hepatotoxicidade) e prolongar a terapia por 12 meses;",
+   "suspender imediatamente todas as medicações quando as transaminases ultrapassarem 3 vezes o limite superior da normalidade e monitorar a função hepática a cada 3 a 7 dias até a normalização;",
+   "suspender apenas a isoniazida e a pirazinamida, pois deve-se iniciar a recontagem a partir da rifampicina e etambutol, e monitorar a função hepática a cada 3 a 7 dias para reintrodução ordenada dos outros dois medicamentos. "
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Manual de Recomendações para o Controle da Tuberculose no Brasil, Ministério da Saúde, 2019",
+  "coment": "O Manual de TB do Ministério da Saúde manda suspender todo o esquema quando as aminotransferases passam de 3 vezes o limite superior com sintomas (dispepsia, náuseas, vômitos, icterícia) ou de 5 vezes sem sintomas, ou diante de icterícia. Como o paciente tem sintomas dispépticos, o corte relevante é 3 vezes. Após a suspensão, monitora-se a função hepática a cada 3 a 7 dias; com a normalização, reintroduz-se um fármaco por vez (rifampicina com etambutol, depois isoniazida, depois pirazinamida), e o esquema alternativo só entra se a reintrodução falhar ou a hepatotoxicidade for grave.",
+  "porAlt": [
+   "Nem toda elevação de aminotransferases obriga suspensão; o corte é 3 vezes com sintomas ou 5 vezes sem sintomas.",
+   "Com sintomas dispépticos o limite para manter o esquema é 3 vezes, não 5 vezes o limite superior.",
+   "O esquema alternativo não é a primeira medida; tenta-se antes a reintrodução sequencial após a normalização.",
+   "Correta: com sintomas, aminotransferases acima de 3 vezes o limite exigem suspender tudo e monitorar a cada 3 a 7 dias.",
+   "Na hepatotoxicidade que exige suspensão retiram-se todos os fármacos, inclusive a rifampicina, que também é hepatotóxica."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Em uma investigação de quadro de osteomielite, surgiram dúvidas no caso concreto. O paciente de 68 anos era paraplégico e já apresentava uma lesão por pressão crônica em região sacral. No entanto, relatou saída de secreção nos últimos meses e aprofundamento da úlcera, com exposição óssea. O local no entorno da úlcera não demonstrava sinais flogísticos ou necrose. Não havia febre ou sinais sistêmicos de gravidade, e exames laboratoriais também não tinham alterações significativas como leucocitose e marcadores inflamatórios em elevação. Diante da estabilidade do quadro, foram feitas algumas considerações. É correto afirmar que:",
+  "alts": [
+   "o diagnóstico pode ser sugerido pela ressonância nuclear magnética da região sacral, mas pode considerar também a biópsia óssea aberta para confirmar o diagnóstico de osteomielite;",
+   "está indicada a realização de ressonância nuclear magnética ou cintilografia, bem como coleta da secreção para análise de Gram e cultura guiando a terapia antibiótica empírica até os resultados;",
+   "está indicado o início de terapia antimicrobiana com cobertura para germes aeróbios e anaeróbios por 2 semanas, pela via parenteral; caso se confirme lesão cortical óssea com edema, deve-se prolongar a terapia por 6 semanas;",
+   "o início do antibiótico não atrapalha a cultura de material ósseo retirado por agulha grossa da ferida, desde que tenha sido suspenso 24 horas antes do procedimento;",
+   "apesar de medidas de fisioterapia, nutrição e cuidados para com a cicatrização da ferida, somente a descolonização de tecidos moles e pele com antibióticos locais e sistêmicos pode ajudar o paciente do quadro descrito."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "NPIAP/EPUAP/PPPIA Prevention and Treatment of Pressure Ulcers/Injuries: Clinical Practice Guideline, 2019",
+  "coment": "Osso exposto no leito de lesão por pressão sacral crônica sugere osteomielite, mas em paciente estável, sem sinais sistêmicos nem celulite, não há urgência em iniciar antibiótico empírico. A ressonância tem boa sensibilidade e baixa especificidade, porque edema e remodelamento por pressão imitam infecção. O padrão-ouro é a biópsia óssea (aberta ou percutânea) com histologia e cultura, colhida idealmente sem antibiótico prévio (suspenso por cerca de 2 semanas quando possível). Swab da secreção reflete colonização e não guia o tratamento. O manejo inclui desbridamento, alívio de pressão e nutrição.",
+  "porAlt": [
+   "Correta: a ressonância sugere o diagnóstico, e a biópsia óssea com histologia e cultura confirma a osteomielite.",
+   "Cultura de secreção superficial reflete colonização, e antibiótico empírico em paciente estável prejudica a biópsia óssea.",
+   "Não se inicia antibiótico sem confirmação em paciente estável, e a osteomielite confirmada é tratada em geral por 6 semanas.",
+   "Antibiótico recente reduz a positividade da cultura óssea, e 24 horas de suspensão são insuficientes (o ideal é cerca de 2 semanas).",
+   "Descolonização com antibióticos não trata a lesão, e alívio de pressão, nutrição e cuidado da ferida são pilares do tratamento."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Na investigação de ascite, a paracentese diagnóstica foi realizada. O gradiente soro ascite de albumina foi calculado com valor de 1,5 g/dl. No entanto, o paciente apresentou proteína do líquido ascítico em valores baixos (1,8 g/dl), ou seja, menores que 2,5 g/dl. Uma causa para essa ascite é:",
+  "alts": [
+   "cirrose hepática;",
+   "insuficiência cardíaca congestiva;",
+   "pancreatite aguda;",
+   "síndrome nefrótica;",
+   "trombose de veia porta."
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "AASLD Practice Guidance: Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome, 2021",
+  "coment": "Gradiente soro-ascite de albumina igual ou maior que 1,1 g/dL indica hipertensão portal, e a proteína total do líquido localiza o problema: abaixo de 2,5 g/dL aponta cirrose (sinusoides capilarizados retêm proteína), e acima de 2,5 g/dL aponta ascite cardíaca, Budd-Chiari precoce ou obstrução sinusoidal, com sinusoides permeáveis. Pancreatite e síndrome nefrótica têm GASA menor que 1,1. Trombose de veia porta é pré-sinusoidal e raramente causa ascite sem cirrose associada. Proteína baixa também sinaliza maior risco de peritonite bacteriana espontânea.",
+  "porAlt": [
+   "Correta: GASA de 1,5 g/dL com proteína de 1,8 g/dL é o padrão clássico da ascite por cirrose.",
+   "Insuficiência cardíaca dá GASA alto com proteína do líquido acima de 2,5 g/dL, pelos sinusoides preservados.",
+   "Ascite pancreática tem GASA menor que 1,1 g/dL, proteína alta e amilase elevada no líquido.",
+   "Síndrome nefrótica gera ascite por hipoalbuminemia, com GASA menor que 1,1 g/dL.",
+   "Trombose de veia porta é pré-sinusoidal e raramente causa ascite isolada, sem o padrão típico da cirrose."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Pacientes com síndrome nefrótica apresentam edema, proteinúria acima de 3,5 g em 24 horas e predisposição a trombose. A forma membranosa, presente em aproximadamente 30% das formas idiopáticas em adultos, pode ser diagnosticada por positividade de um anticorpo. O anticorpo associado à forma membranosa idiopática de síndrome nefrótica em adultos é:",
+  "alts": [
+   "anticorpo contra a fosfolipase A2 do tipo M;",
+   "anticorpo anticitosol fígado e rim;",
+   "anticorpo antimúsculo liso;",
+   "fator antinuclear;",
+   "anti-Jo-1."
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases, 2021",
+  "coment": "Na nefropatia membranosa primária, cerca de 70% a 80% dos pacientes têm anticorpo contra o receptor da fosfolipase A2 tipo M (anti-PLA2R), antígeno do podócito; a alternativa correta cita a enzima, mas o alvo é o receptor. O KDIGO 2021 aceita anti-PLA2R positivo em síndrome nefrótica típica com função renal preservada como diagnóstico sem biópsia, e o título orienta resposta e prognóstico. Outros antígenos (THSD7A, NELL-1) e causas secundárias (lúpus, hepatite B, neoplasia, drogas) devem ser pesquisados. FAN positivo sugere classe V lúpica, forma secundária.",
+  "porAlt": [
+   "Correta: o anti-PLA2R, contra o receptor da fosfolipase A2 tipo M, é o marcador da membranosa primária.",
+   "Anticorpos anti-LKM1 e anti-LC1 (antimicrossoma e anticitosol) marcam hepatite autoimune tipo 2, não glomerulopatia.",
+   "Antimúsculo liso é marcador de hepatite autoimune tipo 1.",
+   "FAN positivo sugere nefrite lúpica classe V, forma secundária, não a membranosa idiopática.",
+   "Anti-Jo-1 é marcador da síndrome antissintetase nas miopatias inflamatórias."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Uma paciente de 70 anos foi internada por sintomas de astenia, hiporexia, náuseas e redução do débito urinário. Estava lúcida, mas um pouco lentificada. O exame clínico demonstrou flapping e hiperreflexia difusa. Estava estável hemodinamicamente, com membros aquecidos, porém com cianose bilateral na planta dos pés. O exame laboratorial revelava disfunção renal aguda com leucocitose sem desvio à esquerda. Eosinófilos: 990 células/mm³. A urina apresentava coloração avermelhada, sugerindo hematúria franca justificada pelo uso de anticoagulante profilático devido a alto risco trombótico. A paciente era portadora de câncer de estômago em atividade, ficando acamada a maior parte do tempo, com investigação para carcinomatose peritoneal. Sobre o quadro descrito, é correto afirmar que:",
+  "alts": [
+   "o diagnóstico pode ser sugerido com fissuras preenchidas por colesterol em arteríolas da biópsia de pele;",
+   "biópsia renal deve ser feita mesmo sem proteinúria significativa, preferencialmente antes da introdução de terapia substitutiva renal;",
+   "eosinofilia com tumor pode sugerir doença metastática avançada, motivando a pesquisa de trombose de veia renal bilateral (principal hipótese);",
+   "a nefrite intersticial aguda pelo uso do anticoagulante pode ser diagnosticada com a presença de hematúria, proteinúria franca (acima de 1 g/dia) e eosinofilúria;",
+   "o uso do corticoide é indicado por mitigar os sintomas e dar tempo para a investigação do quadro atual e da carcinomatose peritoneal."
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Scolari F, Ravani P, Atheroembolic renal disease, Lancet, 2010",
+  "coment": "Lesão renal aguda com eosinofilia, cianose em pés com membros aquecidos (síndrome do dedo azul) e anticoagulação em curso sugere doença ateroembólica por cristais de colesterol, cujos gatilhos são cateterismo, cirurgia vascular e anticoagulação ou trombólise. Pode haver hipocomplementemia e eosinofilúria. A biópsia de pele da área afetada (ou do rim) mostra fendas biconvexas deixadas pelos cristais de colesterol dentro de arteríolas, achado patognomônico e menos invasivo. Não há tratamento específico: suspende-se o anticoagulante se possível, controla-se a pressão e usa-se estatina.",
+  "porAlt": [
+   "Correta: fendas de cristais de colesterol em arteríolas na biópsia de pele confirmam a ateroembolia.",
+   "Biópsia renal é dispensável quando a pele já confirma, e sem proteinúria significativa não há indicação de rotina.",
+   "Trombose de veia renal bilateral não causa eosinofilia nem lesões isquêmicas em pés com pulsos preservados.",
+   "Anticoagulante não é causa clássica de nefrite intersticial, e nesta a proteinúria costuma ficar abaixo de 1 g/dia.",
+   "Corticoide não tem benefício comprovado na ateroembolia e acrescenta risco em paciente com câncer ativo."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Uma paciente de 58 anos foi internada por confusão mental e dor em ombro direito. É portadora de neoplasia de mama em estágio avançado com metástases ósseas. Havia relato, pela anamnese dirigida, de constipação e distensão abdominal. O marido confirmou que, nos últimos dias, ela já não conseguia levantar-se e tomar adequadamente seus medicamentos. Durante a internação confirmou-se a fratura patológica de cabeça do úmero e hipercalcemia da malignidade (PTH suprimido). Houve redução dos níveis séricos de cálcio (Ca: 15 mg/dl para 12 mg/dl em 2 dias), e a creatinina sérica, que na entrada era de 3,8 mg/dl, caiu para 2,0 mg/dl em 48 horas. Os medicamentos reintroduzidos com a melhora clínica da paciente após 3 dias de hidratação e pamidronato foram: metadona, amitriptilina, duloxetina e gabapentina – os últimos por dor radicular. Infelizmente, os sintomas de distensão abdominal, náuseas, vômitos e constipação se evidenciaram, levando à realização de exame tomográfico do abdômen e pelve. Observou-se distensão de ceco (9,0 cm em maior diâmetro), cólon ascendente, transverso e cólon descendente com presença de fecaloma em sigmoide. Diante da principal hipótese diagnóstica, a melhor conduta imediata é:",
+  "alts": [
+   "fazer extração manual do fecaloma associada a administração de clister em gravidade com lactulona e óleo mineral por via oral;",
+   "chamar a cirurgia geral para avaliação pelo risco de rotura de cólon e ceco;",
+   "realizar colonoscopia de urgência para retirada de fecaloma e descompressão gasosa;",
+   "prescrever eritromicina, ondansetrona, lactulona, óleo mineral e passar sonda nasogástrica em sifonagem;",
+   "suspender dieta, antidepressivos e opioides; continuar correção de cálcio sérico e avaliar administração de neostigmina. "
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ASGE Guideline on the role of endoscopy in the management of acute colonic pseudo-obstruction and colonic volvulus, 2020",
+  "coment": "Distensão de todo o cólon com ceco de 9 cm em paciente acamada, com hipercalcemia e uso de opioide, tricíclico e duloxetina, configura pseudo-obstrução colônica aguda (síndrome de Ogilvie). O tratamento inicial é conservador por 24 a 48 horas com ceco abaixo de 12 cm: dieta zero, sonda se vômitos, correção de cálcio, potássio e magnésio e suspensão de opioides e anticolinérgicos, com remoção do fecaloma por via retal. Sem melhora, neostigmina IV com monitorização cardíaca, excluída obstrução mecânica. Colonoscopia descompressiva e cirurgia ficam para falha ou ceco acima de 12 cm.",
+  "porAlt": [
+   "Remover o fecaloma pode ser necessário, mas laxativos orais em paciente com vômitos e cólon distendido pioram a distensão.",
+   "Com ceco de 9 cm e sem sinais de isquemia ou perfuração, o manejo inicial é clínico, sem indicação cirúrgica imediata.",
+   "Colonoscopia descompressiva é reservada à falha do tratamento clínico e da neostigmina ou a ceco acima de 12 cm.",
+   "Eritromicina atua no trato superior, lactulona e óleo mineral pioram a distensão, e faltou suspender os fármacos causadores.",
+   "Correta: dieta zero, retirada de opioides e antidepressivos, correção do cálcio e neostigmina se necessário tratam a síndrome de Ogilvie."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Em segunda quimioterapia para linfoma não Hodgkin (15 dias após a 1ª quimioterapia), uma paciente jovem apresentou cefaleia, rinite, tosse e febre oito horas após a infusão do medicamento, já no domicílio. Foi internada devido ao risco de infecção secundária à imunossupressão. Seu esquema era o R-CHOP, a saber: rituximabe, ciclofosfamida, doxorrobucina, vincristina e prednisona. Apesar de coleta de hemocultura, início de antibiótico empírico e oseltamivir, não houve qualquer outro sintoma na sequência de sua internação em 24 horas. Exames laboratoriais e de imagem foram normais. O trabalho de investigação levou à possibilidade mais confiável nesse caso por:",
+  "alts": [
+   "infusão rápida de rituximabe (450 mg/hora) sem a administração de paracetamol e anti-histamínico 30 minutos antes da medicação;",
+   "síndrome de hiperestimulação ovariana por possível tentativa de evitar insuficiência ovariana pela ciclofosfamida;",
+   "pneumocistose, cujo tratamento não fora contemplado no esquema da enfermaria e não realizada profilaxia com bactrim;",
+   "reação de hipersensibilidade aguda à vincristina;",
+   "sepse por bacilo Gram negativo em nadir de quimioterapia."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Roselló S et al., Management of infusion reactions to systemic anticancer therapy: ESMO Clinical Practice Guidelines, 2017",
+  "coment": "Febre, cefaleia, rinite e tosse nas horas seguintes à infusão, sem outro achado clínico, laboratorial ou de imagem e com resolução em 24 horas, compõem reação infusional (liberação de citocinas) ao rituximabe, anticorpo anti-CD20 responsável pela maioria dessas reações no R-CHOP. A bula e a ESMO 2017 exigem pré-medicação com paracetamol e anti-histamínico (e corticoide) cerca de 30 minutos antes e infusão escalonada até no máximo 400 mg/h; a infusão rápida em 90 minutos só é permitida a partir do 2º ciclo, com pré-medicação. As reações podem surgir em até 24 horas.",
+  "porAlt": [
+   "Correta: infusão acima da velocidade máxima e sem pré-medicação explica a reação infusional ao rituximabe.",
+   "Hiperestimulação ovariana depende de estímulo hormonal de reprodução assistida e não causa febre, rinite e tosse autolimitadas.",
+   "Pneumocistose tem curso subagudo com hipoxemia e alterações de imagem, e os exames foram normais.",
+   "Vincristina causa neuropatia e constipação e raramente hipersensibilidade aguda; o rituximabe é o agente típico das reações infusionais.",
+   "Com exames normais não há neutropenia nem sepse, e sepse por Gram negativo não se resolveria sem achados em 24 horas."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Uma paciente de 54 anos foi internada por tosse, desconforto respiratório e aumento do volume abdominal. Está em acompanhamento conjunto com a equipe de cuidados paliativos realizando paracentese de alívio devido à ascite. É portadora de câncer de ovário com metástases para peritônio. Após a realização de tomografia de tórax e abdômen com contraste para avaliar trombose de veias abdominais, observou-se trombo em tronco da artéria pulmonar esquerda de aspecto recente. A equipe médica não teve dúvida quanto à melhor condução do caso, após a análise do exame laboratorial: anemia: Hb 8,5 g/dl, leucócitos e coagulograma normais, plaquetas: 85 mil e função renal normal. A paciente estava estável e era eutrófica, não havendo histórico de sangramento recente. Prontamente, a equipe realizou:",
+  "alts": [
+   "aplicação de heparina de baixo peso molecular (enoxaparina) 1 mg/kg de 12/12h por 5 dias e, posteriormente, início de warfarina;",
+   "parecer à cirurgia vascular para colocação de filtro de veia cava;",
+   "início de apixabana 10 mg (2 vezes ao dia) durante 7 dias seguido de 5 mg (2 vezes ao dia) enquanto atividade de neoplasia ou até aumento do risco de sangramento;",
+   "dabigatrana 150 mg (2 vezes ao dia) indefinidamente devido à neoplasia metastática em atividade;",
+   "enoxaparina 1 mg/kg de peso (1 vez ao dia) corrigido pela plaquetopenia por dias. O tratamento seguirá ambulatorialmente com rivaroxabana 20 mg por dia nas três primeiras semanas; posteriormente, rivaroxaban 15 mg (1 vez ao dia) por pelo menos 6 meses ou até cessar fator provocador da trombose."
+  ],
+  "gab": 2,
+  "tema": "hemato",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ASCO Guideline Update: Venous Thromboembolism Prophylaxis and Treatment in Patients With Cancer, 2023; ASH guidelines for management of venous thromboembolism in patients with cancer, 2021",
+  "coment": "TEP agudo em paciente estável com câncer de ovário metastático é trombose associada ao câncer. ASCO 2023 e ASH 2021 preferem anticoagulante oral direto (apixabana, rivaroxabana, edoxabana) ou HBPM isolada à varfarina; no estudo Caravaggio a apixabana não aumentou o sangramento maior em relação à dalteparina e dispensa heparina inicial: 10 mg de 12/12 horas por 7 dias e depois 5 mg de 12/12 horas. Plaquetas de 85.000/mm³ permitem dose plena (ajuste só abaixo de 50.000/mm³). A duração é de pelo menos 6 meses e enquanto o câncer estiver ativo.",
+  "porAlt": [
+   "No câncer, HBPM isolada ou anticoagulante direto são preferidos, e a transição para varfarina é inferior e instável.",
+   "Filtro de veia cava é reservado a contraindicação absoluta à anticoagulação, ausente em paciente estável com plaquetas de 85.000/mm³.",
+   "Correta: apixabana em dose de ataque por 7 dias e depois 5 mg de 12/12 horas, mantida enquanto o câncer estiver ativo.",
+   "A dabigatrana exige ao menos 5 dias de heparina parenteral antes e não tem estudo dedicado à trombose associada ao câncer.",
+   "O esquema da rivaroxabana é 15 mg de 12/12 horas por 3 semanas e depois 20 mg ao dia, e no câncer ativo a duração é indefinida."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Uma jovem de 24 anos apresentou odinofagia associada a fadiga e uma cervicalgia mais pronunciada à esquerda, identificando ser um caroço de aproximadamente 1 cm. O quadro progrediu durante os três dias com piora dos sintomas, além de febrícula – de até 37,8 °C – constante. A seguir, ocorreu dor em hipocôndrio direito. No quinto dia de sintomas, foram prescritos amoxicilina e anti-inflamatório não esteroidal devido a hiperemia de orofaringe com placas brancacentas – a paciente teve diagnóstico de amigdalite bacteriana, apresentando náuseas e anorexia. Com aproximadamente 1 semana de sintomas e 3 dias do uso do antibiótico, a jovem decidiu procurar novo atendimento médico, que revelou: sinais vitais estáveis, porém com taquicardia (FC 110 bpm), eutrófica, sem evidência de emagrecimento, eupneica. Rash eritematoso maculopaular difuso estava visível em tronco, abdômen e porção próxima de membros superiores e inferiores. Havia presença de edema periorbitário bilateral. Linfonodos posteriores aos músculos esternocleidomastoideos estavam aumentados e pouco dolorosos (1,5 e 1,2 cm), fibroelásticos, móveis. Havia também micropoliadenopatia em outras cadeias cervicais superficiais. Orofaringe apresentava hipertrofia amigdaliana, petéquias em palato e exsudato membranoso. Ao exame ginecológico com ectopia em colo uterino, foi detectado corrimento fisiológico, sem presença de outras alterações como úlceras. O abdômen era doloroso em andar superior à palpação profunda com hepatimetria de 14 cm e borda romba e dolorosa e espaço de Traube ocupado. Sobre as hipóteses diagnósticas e complementação da investigação, é correto afirmar que:",
+  "alts": [
+   "resultado negativo para vírus Epstein-Barr elimina a necessidade de repetição do exame, pois se trata de teste muito sensível e específico. Deve-se prosseguir na investigação de outros quadros com a biópsia excisional de linfonodo cervical;",
+   "anticorpos IgG para antígeno antiviral do capsídeo (VCA) e antígeno nuclear de Epstein-Barr (EBNA) estão presentes por toda a vida em pacientes com exposição prévia ao vírus Epstein-Barr (EBV) e não são marcadores de um processo ativo sugerindo verdadeira infecção;",
+   "a síndrome descrita pode ser decorrente de processos neoplásicos, infecciosos ou autoimunes. A investigação deve começar pela punção aspirativa do linfonodo maior e sorologias para os seguintes vírus: Epstein-Barr, citomegalovírus, herpes vírus, sífilis e HIV;",
+   "a presença de linfocitose com linfócitos atípicos associada a hipogamaglobilinemia reforça os diagnósticos de lúpus eritematoso sistêmico ou linfomas;",
+   "amigdalite resistente a antibiótico associada a petéquias em palato pode sugerir a doença de Lemierre causada pelo Fusobacterium necrophorum, motivando a troca do esquema antibiótico para ceftriaxona no caso clínico descrito. "
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Womack J, Jimenez M, Common questions about infectious mononucleosis, American Family Physician, 2015",
+  "coment": "Jovem com faringite exsudativa, petéquias no palato, adenomegalia cervical posterior, edema periorbitário (sinal de Hoagland), hepatoesplenomegalia e exantema maculopapular após amoxicilina tem mononucleose infecciosa pelo EBV. Na sorologia, a infecção aguda é marcada por IgM anti-VCA e ausência de anti-EBNA, que só surge 6 a 12 semanas depois; IgG anti-VCA e anti-EBNA persistem por toda a vida e indicam apenas exposição prévia. O teste heterófilo pode ser negativo na primeira semana e deve ser repetido. Linfocitose com atípicos é típica da mononucleose, e a biópsia fica para evolução atípica.",
+  "porAlt": [
+   "Testes para EBV podem ser falso-negativos no início, sobretudo o heterófilo, e repetir é preferível a partir para biópsia excisional.",
+   "Correta: IgG anti-VCA e anti-EBNA persistem por toda a vida e indicam infecção passada, não doença ativa.",
+   "Com quadro típico de mononucleose, começar por punção de linfonodo é desnecessário; a sorologia dirigida vem antes.",
+   "Linfocitose com atípicos é marca da mononucleose, e hipogamaglobulinemia não reforça lúpus, que cursa com hipergamaglobulinemia.",
+   "Petéquias no palato e exantema pós-amoxicilina apontam para mononucleose, e Lemierre se apresenta com trombose jugular séptica e êmbolos pulmonares."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Uma mulher de 39 anos foi internada na clínica médica, a pedido da dermatologia, apresentando lesões ulceradas e infectadas em glúteos e região interna das coxas. Há 10 anos, a paciente, previamente hígida, infundira substância oleosa de uso veterinário em glúteos e coxas. Segundo relato, com o passar dos anos, diversas infecções foram acontecendo, motivando internações e uso de antibióticos sistêmicos. Na primeira internação, meses após a infusão do óleo, foi submetida a debridamento do material da coxa, mas isso não evitou a reação com surgimentos de úlceras infectadas e fístulas. Ainda segundo a descrição da paciente, a pele apresentava escurecimento e endurecimento estendendo-se além dos locais de infiltração. Três anos antes da internação, foi feito diagnóstico de doença reumatológica devido a fator reumatoide positivo e artrite de mãos, punhos, tornozelos e pés – artrite reumatoide (sic) – iniciando uso de corticoide oral. Na ocasião descrevem síndrome de fadiga crônica, poliartralgias com rigidez matinal, mialgia, transtornos do sono, depressão, ressecamento de mucosas, febre e linfonodomegalia inguinal. Na investigação hospitalar atual, além de bom estado geral e aparência lenhosa da pele ao redor das úlceras, confirma-se fator reumatoide em altos títulos, velocidade de hemossedimentação de 60 mm, proteína C reativa 43 mg/L (normal: até 10 mg/L), leucocitose com desvio à esquerda e anemia normocítica e normocrômica (Hb 10,2 g/dl). Sobre a investigação e propedêutica do caso descrito, é correto afirmar que:",
+  "alts": [
+   "a tomografia sugerindo extensão de material oleoso infundido há 10 anos em pele e subcutâneo e linfonodos aumentados em cadeias inguinais e ilíacas com conteúdo hipodenso sugerindo óleo reforça o diagnóstico de síndrome de autoimunidade e inflamação por adjuvantes;",
+   "o uso de antibióticos de amplo espectro com meropeném e vancomicina, por 14 dias, é necessário, pois trata-se de celulite em paciente imunossuprimida;",
+   "a paciente tem síndrome de sobreposição de artrite reumatoide e síndrome de Sjögren, devendo realizar pesquisa de autoanticorpos como FAN, anti-SSa, anti-SSb, bem como, iniciar corticoide sistêmico 1 mg/kg em conjunto com tratamento antimicrobiano das lesões ulceradas;",
+   "a história de fístulas, aspecto endurecido e hipercromia da pele necessita de investigação com biópsia da pele e do tecido subcutâneo. O diagnóstico de microbactéria – pela exposição cirúrgica anos antes – seria confirmado pela descrição de inflamação granulomatosa crônica com histiócitos espumosos na biópsia;",
+   "a tetraciclina com corticoide oral por 14 dias prescinde do uso em longo prazo da colchicina ou outro imunossupressor."
+  ],
+  "gab": 0,
+  "tema": "reumato",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Shoenfeld Y, Agmon-Levin N, ASIA: autoimmune/inflammatory syndrome induced by adjuvants, Journal of Autoimmunity, 2011",
+  "coment": "Injeção de óleo mineral veterinário com fim estético provoca reação de corpo estranho crônica (oleoma ou lipogranuloma esclerosante), com endurecimento lenhoso, hiperpigmentação, úlceras e fístulas que se estendem além do local, migração do material para linfonodos regionais e infecções de repetição. Somar a isso artrite, fator reumatoide, fadiga, mialgia, xerostomia e febre após exposição a um adjuvante preenche os critérios de Shoenfeld para síndrome autoimune/inflamatória induzida por adjuvantes (ASIA), entidade ainda debatida. A tomografia com óleo disseminado e em linfonodos documenta a exposição e sustenta a hipótese.",
+  "porAlt": [
+   "Correta: óleo disseminado no subcutâneo e em linfonodos regionais documenta o adjuvante e reforça a hipótese de ASIA.",
+   "A paciente está em bom estado geral, e úlceras crônicas por corpo estranho não justificam meropeném e vancomicina de rotina.",
+   "Rotular sobreposição de doenças sem considerar o adjuvante erra o diagnóstico, e corticoide em 1 mg/kg com úlceras infectadas é arriscado.",
+   "Histiócitos espumosos e vacúolos lipídicos caracterizam o lipogranuloma por óleo, não infecção micobacteriana.",
+   "Não há tratamento curto padronizado; a doença é crônica e envolve retirada do material quando possível e imunomodulação."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "O residente de clínica médica foi chamado para responder um pedido de parecer da equipe cirúrgica referente a uma senhora de 70 anos com novo episódio de diarreia há 7 dias. Ela foi internada com diverticulite aguda complicada por abscesso, o qual não respondeu ao primeiro ciclo de antibiótico (ciprofloxacina e metronidazol) e ao segundo ciclo (piperacilina com tazobactam), ambos por 14 dias. Apresentou nova infecção peritoneal com deiscência da anastomose primária, sendo necessária abordagem cirúrgica para drenagem do abscesso. A paciente apresentou o segundo episódio de diarreia na internação (60 dias) intervalado com 7 dias de constipação. A idosa se queixou de cólicas, distensão abdominal e tenesmo há pelo menos 2 semanas. Estava febril (38,0 °C), mas estável hemodinamicamente. As morbidades eram apenas uma doença renal crônica (Cr 1,5 mg/dl). Os episódios eram frequentes (em torno de 5 por dia) e mais aquosos. A calprotectina fecal era de 1500 mg/kg, mas os exames parasitológicos de fezes, colhidos dessa vez e no outro episódio, foram negativos. O residente pensou na possibilidade de infecção por Clostridioides difficile. Para confirmação do quadro em ambiente hospitalar e proposição de um tratamento ideal, o residente deve:",
+  "alts": [
+   "iniciar um novo tratamento com metronidazol oral 500 mg de 8/8h por 14 dias, enquanto se aguarda o resultado da pesquisa nas fezes de toxinas A e B para clostridioides;",
+   "iniciar o tratamento com fidaxomicina 200 mg duas vezes ao dia por 10 dias sem a necessidade de coleta de exames para diagnóstico, uma vez que as fezes são líquidas e reduzem o valor preditivo positivo dos testes;",
+   "prescrever probióticos, rifaximina por 14 dias para Clostridium; não há necessidade de colocar a paciente em precaução de contato;",
+   "realizar teste de antígeno glutamato desidrogenase (GDH) em conjunto com a pesquisa das toxinas A e B para Clostridium, ambos nas fezes. Devido à gravidade e fatores de risco, pode ser iniciado tratamento com vancomicina oral;",
+   "pesquisar no sangue, conforme disponibilidade, o teste de antígeno glutamato desidrogenase (GDH) ou o teste de amplificação de ácido nuclêico (PCR), associado a pesquisa nas fezes das toxinas A e B de Clostridium. Devido ao quadro moderado a grave, realizar o tratamento com vancomicina oral 125 mg, 4 vezes por dia, por 10 dias. "
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "IDSA/SHEA Clinical Practice Guideline: 2021 Focused Update on Management of Clostridioides difficile Infection in Adults, 2021",
+  "coment": "Diarreia aquosa (3 ou mais evacuações em 24 horas) em idosa com múltiplos ciclos de antibiótico e internação prolongada exige pesquisa de Clostridioides difficile nas fezes, e a IDSA/SHEA recomenda estratégia em etapas: teste sensível (GDH ou PCR) combinado com toxinas A e B, para separar infecção de colonização. Febre e creatinina de 1,5 mg/dL sugerem forma grave e justificam tratar enquanto se aguarda o resultado. A fidaxomicina é preferida pela menor recorrência, e a vancomicina oral 125 mg de 6/6 horas por 10 dias é alternativa aceitável. Metronidazol saiu da primeira linha, e precaução de contato é obrigatória.",
+  "porAlt": [
+   "Metronidazol deixou de ser primeira linha para C. difficile no adulto, com eficácia inferior à vancomicina e à fidaxomicina.",
+   "O diagnóstico exige teste laboratorial, e é justamente a fezes não formada que dá valor preditivo ao exame.",
+   "Probióticos e rifaximina não tratam o episódio, e C. difficile exige precaução de contato.",
+   "Correta: GDH com toxinas A e B nas fezes confirma a infecção, e a gravidade permite iniciar vancomicina oral.",
+   "GDH, PCR e toxinas são pesquisados nas fezes, não no sangue."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Após internação prolongada por sepse, um rapaz da enfermaria de clínica médica, tratado para tumor de células germinativas, persistia em neutropenia grave e prolongada. Já havia feito amoxicilina com clavulanato e estava atualmente com piperacilina com tazobactam. Seu quadro iniciou-se com febre, dor torácica tipo pleurítica, dispneia e tosse com hemoptoico. Ele estava piorando clinicamente ao longo dos últimos 3 dias, agravando com hipoxemia. Prontamente, foi realizada tomografia de tórax, com os seguintes achados: múltiplos nódulos, alguns com cavitação, consolidação irregular em segmento do lobo inferior esquerdo e infiltrados peribrônquicos com padrões de árvore em brotamento predominantemente em lobo inferior direito. A equipe de clínica médica levantou a possibilidade de aspergilose pulmonar invasiva. Diante dessa possibilidade, e considerando o agravo do paciente descrito, é correto afirmar que:",
+  "alts": [
+   "o exame de imunoensaio da galactomanana tem ótimo valor preditivo positivo e negativo nesse caso;",
+   "no caso descrito, a melhor opção para o diagnóstico é a realização de broncoscopia com biópsia pulmonar;",
+   "o fungo Aspergillus tem crescimento lento, e a cultura tem sensibilidade alta para os quadros agudos e invasivos;",
+   "uma possibilidade é analisar os níveis séricos de galactomanana dos últimos meses nesse paciente neutropênico, pois isso ajuda na decisão quanto à terapia empírica;",
+   "em exame direto para pesquisa de aspergilose e outros fungos, utilizam-se corantes à base de prata. Sua positividade para Aspergillus não autorizaria a terapia, devendo-se aguardar a cultura ou a galactomanana no caso descrito acima."
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "IDSA Practice Guidelines for the Diagnosis and Management of Aspergillosis, 2016; EORTC/MSGERC consensus definitions of invasive fungal disease, 2020",
+  "coment": "Em neutropênico grave e prolongado com febre persistente apesar de antibiótico de amplo espectro, nódulos pulmonares, alguns cavitados, tornam provável a aspergilose invasiva. A galactomanana sérica seriada (rastreio 2 vezes por semana no alto risco) tem melhor desempenho que uma dosagem isolada, e a tendência dos valores ajuda a decidir a terapia antifúngica precoce (voriconazol). Uma dosagem isolada tem sensibilidade limitada, sobretudo sob antifúngico com ação contra fungos filamentosos. O lavado broncoalveolar com galactomanana é preferível à biópsia pulmonar, arriscada no neutropênico, e hifas septadas no exame direto já autorizam tratar.",
+  "porAlt": [
+   "Galactomanana sérica isolada tem sensibilidade moderada e sofre interferências, sem garantir ótimos valores preditivos.",
+   "Biópsia pulmonar é arriscada em neutropênico grave; o lavado broncoalveolar com galactomanana e cultura é o exame preferido.",
+   "A cultura para Aspergillus tem baixa sensibilidade nas formas invasivas, o que reforça a necessidade de outros testes.",
+   "Correta: a galactomanana sérica seriada do paciente neutropênico orienta a decisão de iniciar antifúngico.",
+   "Hifas septadas ao exame direto em paciente de alto risco já justificam iniciar antifúngico sem aguardar cultura."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Um paciente idoso atendido em consulta ambulatorial com perda ponderal significativa não intencional poderia ser classificado com síndrome consumptiva na dependência de outros sinais e sintomas. As principais possibilidades para síndrome consumptiva em idosos ambulatoriais são:",
+  "alts": [
+   "doença do refluxo gastroesofagiano, úlcera péptica e tumores do estômago;",
+   "transtorno depressivo, alterações benignas do trato digestivo e doenças malignas;",
+   "tuberculose pulmonar, insuficiência cardíaca e doença pulmonar obstrutiva crônica;",
+   "anorexia nervosa, doenças degenerativas neurológicas e medicamentos;",
+   "doença de Parkinson, doença de Alzheimer e efeitos medicamentosos adversos."
+  ],
+  "gab": 1,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Gaddey HL, Holder KK, Unintentional Weight Loss in Older Adults, American Family Physician, 2021",
+  "coment": "Perda de peso não intencional relevante no idoso é de 5% ou mais em 6 a 12 meses. Em pacientes ambulatoriais, as causas mais frequentes, em proporções semelhantes, são neoplasias malignas, doenças benignas do trato digestivo (úlcera, disfagia, má absorção, problemas dentários) e transtornos psiquiátricos, sobretudo depressão, principal causa tratável no idoso. Medicamentos, demência, doenças endócrinas e isolamento social completam a lista. Em cerca de um quarto dos casos nenhuma causa é encontrada, e a investigação guiada por anamnese e exame físico rende mais que a busca cega.",
+  "porAlt": [
+   "Doença do refluxo raramente causa perda de peso, e a lista omite depressão e neoplasias fora do estômago.",
+   "Correta: depressão, doenças digestivas benignas e neoplasias são as causas mais frequentes em idosos ambulatoriais.",
+   "Tuberculose, insuficiência cardíaca e DPOC causam caquexia, mas não são as causas mais frequentes em idosos ambulatoriais.",
+   "Anorexia nervosa é rara no idoso, e a lista omite as causas mais frequentes: câncer, doença digestiva benigna e depressão.",
+   "Parkinson, Alzheimer e fármacos contribuem, mas não superam câncer, doença digestiva benigna e depressão em frequência."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "O professor de semiologia pediu ao residente de clínica médica para ajudar o aluno de medicina. Estavam diante de um paciente de 25 anos com síndrome consumptiva associada a síndrome respiratória de início há 1 mês. O quadro completo abarcava perda ponderal de 5% do peso usual em um mês, tosse incialmente seca e depois com secreção mucoide, dispneia aos médios esforços e febre vespertina ao final do dia. O residente descreveu o exame físico do tórax para o aluno: tórax sem massas, cicatrizes ou retrações à inspeção estática. Na inspeção dinâmica, a frequência respiratória foi de 32 incursões por minuto, com uso de musculatura acessória como intercostais e esternocleidomastóideo. Respiração de predomínio abdominal sem retração intercostal em setor toracolombar à direita. À palpação foi percebida redução da expansibilidade anteroposterior e laterolateral, sobretudo à direita. Percussão com macicez em base de hemitórax direito, terço médio e região axilar do mesmo lado. Restante com som claro atimpânico. Não foi realizado frêmito toracovocal por inexperiência na manobra. A ausculta estava reduzida em terço médio do hemitórax direito e abolida em base e região axilar direita. Murmúrios audíveis com sons traqueais e sons brônquicos sem alterações e murmúrios em vias aéreas distais normais em hemitórax esquerdo. Diante da descrição, o professor pediu para que voltassem ao leito a fim de levantar a síndrome clínica do paciente. O restante da descrição completa e suas possibilidades, retornadas pelo residente e pelo aluno, são:",
+  "alts": [
+   "pectoriloquia fônica e egofonia em limites do terço superior com o terço médio do hemitórax direito, associada a ressonância vocal reduzida em axila superior e abolida em base de hemitórax direito, configurando síndrome de derrame pleural à direita;",
+   "pectoriloquia fônica e afônica com ressonância vocal aumentada em base e terço médio do hemitórax direito associada a estertoração crepitante na base direita, configurando síndrome de atelectasia de lobo inferior direito;",
+   "sopro tubário com ressonância vocal aumentada em terço médio do hemitórax direito associado a murmúrio vesicular abolido na base do mesmo lado configurando síndrome de consolidação de lobo médio e inferior;",
+   "estertores bolhosos e subcrepitantes em terço médio do hemitórax direito e estertores crepitantes em base de hemitórax direito, conjugados a murmúrios respectivamente reduzidos e abolidos, no hemitórax direito configuram síndrome de derrame pleural à direita;",
+   "sinal de Pitres em terço médio de hemitórax direito associado a ressonância vocal aumentada na mesma altura estabelece a síndrome de pneumotórax à direita. "
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Porto CC, Semiologia Médica, 8ª edição, 2019",
+  "coment": "Macicez na base e na axila direitas, redução da expansibilidade e murmúrio vesicular abolido na base e reduzido acima configuram síndrome de derrame pleural. Frêmito e ressonância vocal ficam abolidos sobre o líquido, que afasta o pulmão da parede; no limite superior do derrame, o pulmão comprimido transmite melhor os sons, surgindo egofonia (voz anasalada, caprina) e pectorilóquia. Na consolidação ocorre o oposto, com frêmito e ressonância aumentados, sopro tubário e estertores. Com febre vespertina e emagrecimento em jovem, o derrame sugere tuberculose pleural.",
+  "porAlt": [
+   "Correta: egofonia no limite superior e ressonância vocal reduzida a abolida sobre o líquido definem derrame pleural.",
+   "Atelectasia reduz ou abole a ressonância vocal e não produz crepitações com ressonância aumentada na base.",
+   "Consolidação cursa com ressonância aumentada e sopro tubário, e não explica a macicez com murmúrio abolido e sem transmissão na base.",
+   "Estertores bolhosos e crepitantes indicam líquido no alvéolo ou no brônquio, não no espaço pleural.",
+   "Pneumotórax dá hipertimpanismo e ressonância vocal reduzida, não macicez com murmúrio abolido na base."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Um paciente de 35 anos, em estado de imunossupressão grave por não adesão medicamentosa contra o HIV (CD4: 85 células), apresentou quadro de diarreia crônica, síndrome consumptiva e odinofagia. Em avaliação endoscópica, havia a presença de exulcerações e ulcerações longitudinais em esôfago e reto, sugerindo invasão por citomegalovírus (CMV). O paciente estava com pancitopenia em investigação e com neutrófilos totais em 600 células/mm³. A maneira custo-efetiva de tentar o diagnóstico e iniciar o tratamento é:",
+  "alts": [
+   "dosagem de sorologias para CMV IgM e IgG, considerando a positividade ao menos da IgM;",
+   "cultura viral convencional pareando os espécimes e unidades no sangue e nas fezes;",
+   "antigenemia (pp65) em sangue total negativa, que excluiria a citomegalovirose;",
+   "PCR qualitativo negativo no plasma, que excluiria doença invasiva por CMV;",
+   "histopatologia com corpos de inclusão intranucleares basofílicos, que sugere doença ativa por CMV."
+  ],
+  "gab": 4,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV (NIH/CDC/HIVMA-IDSA), 2024; PCDT para Manejo da Infecção pelo HIV em Adultos, Módulo 2, Ministério da Saúde, 2024",
+  "coment": "A doença gastrointestinal por CMV (esofagite com úlceras longitudinais, colite, proctite) ocorre com CD4 abaixo de 50 a 100 células/mm³, e o diagnóstico é histológico: biópsia das bordas das úlceras com células contendo inclusões intranucleares (em olho de coruja), confirmadas por imuno-histoquímica. Sorologia não serve porque a maioria dos adultos é IgG positiva, e PCR ou antigenemia no sangue indicam replicação, mas não confirmam nem excluem doença de órgão. Confirmado o diagnóstico, trata-se com ganciclovir IV ou valganciclovir, e a neutropenia pede vigilância hematológica ou foscarnete.",
+  "porAlt": [
+   "A maioria dos adultos tem IgG para CMV, e a IgM é pouco sensível e específica na reativação, sem confirmar doença de órgão.",
+   "Cultura viral é lenta, e isolar CMV em sangue ou fezes não prova doença invasiva do tubo digestivo.",
+   "Antigenemia negativa não exclui doença gastrointestinal, que pode ocorrer sem viremia detectável.",
+   "PCR negativo no plasma não exclui doença invasiva de órgão por CMV, sobretudo gastrointestinal.",
+   "Correta: inclusões intranucleares na histologia da biópsia confirmam doença invasiva por CMV e autorizam o tratamento."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Um paciente foi internado para investigação de quadro diarreico e dispéptico há 2 semanas. Teve que interromper o tratamento para mieloma múltiplo iniciado há 5 meses com bortezomibe, ciclofosfamida e dexametasona. Mantinha uso regular de corticoide, metadona e bisfosfonatos devido a lesões líticas difusas e dores ósseas. Fazia profilaxia com cotrimoxazol (sulfametoxazol e trimetoprima) e aciclovir conforme recomendação do hematologista. Durante a internação, foram evidenciadas lesões urticariformes e estrias elevadas, rosadas, pruriginosas e evanescentes ao longo da parte inferior do tronco, coxas e nádegas. Um dado interessante é que essas lesões desbotavam ao longo de 2 ou 3 dias, desaparecendo. No entanto, o paciente começou a apresentar dispneia, broncoespasmo, dor torácica e febre, sendo confirmado infiltrado difuso e bilateral sugestivo de consolidação pulmonar e atenuação em vidro fosco em tomografia de tórax. Os sintomas diarreicos recrudesceram, apresentando sangramento vivo nas fezes com tenesmo e irritação retal. O laboratório demonstrava leucócitos normais com predomínio de neutrófilos e desvio à esquerda. Eosinófilos: 895/mm³, hiponatremia, PCR: 5 vezes o valor de base do paciente. Diante do quadro, o planejamento mais acertado em relação à hipótese diagnóstica e gravidade é:",
+  "alts": [
+   "colher hemoculturas e iniciar cefepima parenteral;",
+   "colocar em dose terapêutica o cotrimoxazol pela possibilidade de pneumocistose disseminada;",
+   "colher culturas e iniciar tratamento para pneumonia comunitária grave com levofloxacina ou piperacilina e tazobactam;",
+   "pesquisar parasitoses intestinais e iniciar nitazoxanida oral por 10 a 14 dias, devido à possibilidade de criptosporídios e microsporídios associando albendazol oral por 5 dias para cobertura contra giardíase e amebíase;",
+   "colher hemocultura para germes aeróbios e anaeróbios, colher sorologia para Strongyloides e iniciar, concomitantemente, antibiótico para cobertura de bactérias Gram negativas, sobretudo entéricas, associado a ivermectina oral por 2 semanas."
+  ],
+  "gab": 4,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Mejia R, Nutman TB, Screening, prevention, and treatment for hyperinfection syndrome and disseminated infections caused by Strongyloides stercoralis, Current Opinion in Infectious Diseases, 2012",
+  "coment": "Corticoide contínuo em paciente com mieloma, diarreia, lesões urticariformes lineares e migratórias no tronco inferior, nádegas e coxas que somem em horas a dias (larva currens), eosinofilia, broncoespasmo com infiltrado pulmonar e hematoquezia configuram síndrome de hiperinfecção por Strongyloides stercoralis. As larvas atravessam a parede intestinal carregando bactérias entéricas, com risco de bacteremia e meningite por Gram negativos. O tratamento é ivermectina 200 µg/kg ao dia até 2 semanas de pesquisa de larvas negativa, redução do corticoide quando possível e antibiótico para Gram negativos entéricos após hemoculturas e sorologia.",
+  "porAlt": [
+   "Cefepima cobre Gram negativos, mas sem ivermectina deixa a hiperinfecção por Strongyloides sem tratamento.",
+   "Pneumocistose não explica eosinofilia, larva currens e hematoquezia, e o paciente já faz profilaxia com cotrimoxazol.",
+   "Tratar como pneumonia comunitária ignora a hiperinfecção por Strongyloides, que exige ivermectina.",
+   "Nitazoxanida e albendazol em curso curto não tratam a hiperinfecção, que exige ivermectina diária prolongada.",
+   "Correta: hemoculturas, sorologia, antibiótico para Gram negativos entéricos e ivermectina prolongada tratam a hiperinfecção."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ },
+ {
+  "q": "Uma paciente de 31 anos foi internada pela terceira vez em hospital de grande porte. Nas duas internações anteriores, suas queixas relacionavam-se a sangramento. Na primeira, aos 20 anos, a internação foi motivada por menorragia e metrorragia. Na época, não foi necessário procedimento, e a investigação não resultou em nenhum diagnóstico. Não havia anemia, plaquetopenia, tampouco distúrbio da coagulação pelo coagulograma. Na segunda internação, aos 25 anos, o sangramento ocorreu após procedimento dentário, com recorrência durante o 2º dia até o 5º dia de extração dentária. Recentemente, retirou o anticoncepcional na tentativa de engravidar, após 11 anos de uso, mas também apresentou um trauma em membro inferior com equimoses pela coxa e perna direita, motivando o uso de anti-inflamatório não esteroidal. Internou-se dessa vez com síndrome anêmica e epigastralgia. A paciente estava pálida, hipocorada, com frequência cardíaca de 110 bpm e pressão arterial em 100 x 50 mmHg. Estava lúcida, orientada, eutrófica e não possuía qualquer sinal de gravidade ou infecção. Não usava qualquer medicação regular e não relatou doença prévia. Seus exames demonstraram piora gradual da anemia entre os 25 anos (hemoglobina 11 g/dl) e o momento atual (8 g/dl). Durante a internação, houve melena, e a investigação de anemia demonstrou morfologia microcítica e hipocrômica, com reticulócitos corrigidos de 1,5%, ferritina 15 ng/ml, índice de saturação de transferrina 12% e TIBC (capacidade total de ligação do ferro) de 400 mcg/dl. O médico responsável prosseguiu a investigação de anemia com endoscopia digestiva alta, que revelou pangastrite aguda grave e algumas angiodisplasias sem sinais de sangramento recente. Ele logo pensou em uma hipótese diagnóstica ao ver plaquetas em 140 mil e coagulograma normal. A condução mais apropriada no momento é:",
+  "alts": [
+   "transfusão de crioprecipitado e dosagem do fator VIII;",
+   "transfusão de plaquetas e avaliação do tempo de sangramento;",
+   "realização de colonoscopia e dois concentrados de hemácias para estabilização clínica;",
+   "sorologias para arboviroses, anti-HIV e pesquisa de FAN e ANCA, enquanto se programa fotocoagulação das angiodisplasias;",
+   "pesquisa do antígeno de von Willebrand, dosagem da atividade do fator de von Willebrand dependente de plaquetas e dosagem da atividade do fator VIII."
+  ],
+  "gab": 4,
+  "tema": "hemato",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ASH ISTH NHF WFH 2021 guidelines on the diagnosis of von Willebrand disease, 2021",
+  "coment": "Sangramento mucocutâneo recorrente (menorragia, sangramento pós-extração dentária, equimoses fáceis, sangramento digestivo sobre angiodisplasias) com plaquetas e coagulograma normais sugere doença de von Willebrand, o distúrbio hemorrágico hereditário mais comum; o anticoncepcional mascarou a menorragia por anos. A diretriz ASH/ISTH/NHF/WFH 2021 recomenda o painel inicial: antígeno do FVW (VWF:Ag), atividade dependente de plaquetas (VWF:GPIbM ou cofator de ristocetina) e atividade do fator VIII, com a razão atividade/antígeno para identificar o tipo 2. TTPa normal não exclui a doença.",
+  "porAlt": [
+   "Crioprecipitado não se indica sem diagnóstico nem sangramento grave ativo, e dosar só o fator VIII é insuficiente.",
+   "Plaquetas de 140.000/mm³ não justificam transfusão, e o tempo de sangramento é pouco sensível e pouco reprodutível.",
+   "Colonoscopia não é prioridade quando a fonte já foi vista na endoscopia, e o foco agora é a diátese hemorrágica.",
+   "Sorologias e autoanticorpos não explicam sangramento mucocutâneo desde a juventude com coagulograma normal.",
+   "Correta: antígeno do FVW, atividade dependente de plaquetas e fator VIII formam o painel inicial para doença de von Willebrand."
+  ],
+  "fonte": {
+   "banca": "ENARE pré-requisito (EBSERH/FGV)",
+   "ano": 2024,
+   "prova": "2024/2025"
+  }
+ }
+]

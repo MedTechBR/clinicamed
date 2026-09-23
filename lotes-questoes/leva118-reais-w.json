@@ -1,0 +1,1001 @@
+[
+ {
+  "q": "Diante de um novo teste diagnóstico para hanseníase, que está sendo aplicado em uma unidade básica de saúde (UBS), o médico julga pertinente iniciar uma capacitação com sua equipe sobre a validade de testes diagnósticos, medidas de sensibilidade, especificidade e valores preditivos. Então, ele apresenta os seguintes dados a sua equipe: dentre 100 pessoas acometidas por hanseníase, 98 são verdadeiros positivos; e, dentre 100 pessoas não acometidas por hanseníase, 90 são verdadeiros negativos. A partir desses dados, é correto afirmar que o valor de sensibilidade do teste é",
+  "alts": [
+   "90%.",
+   "90,7%.",
+   "97,8%.",
+   "98%."
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Epidemiologia clínica, sensibilidade e especificidade de testes diagnósticos (Fletcher, Clinical Epidemiology: The Essentials, 6ª edição, 2020)",
+  "coment": "Sensibilidade é a proporção de doentes que o teste identifica como positivos: verdadeiros positivos divididos pelo total de doentes (VP + FN). Entre 100 pessoas com hanseníase, 98 foram verdadeiros positivos, logo a sensibilidade é 98/100 = 98%. O dado dos não doentes (90 verdadeiros negativos em 100) serve para a especificidade, que é 90%. Os valores preditivos dependem da prevalência e combinam as duas colunas da tabela 2x2: o VPP aqui seria 98/108, cerca de 90,7%.",
+  "porAlt": [
+   "90% é a especificidade (90 verdadeiros negativos entre 100 não doentes), não a sensibilidade.",
+   "90,7% corresponde ao valor preditivo positivo (98 verdadeiros positivos entre 108 testes positivos), que depende da prevalência.",
+   "97,8% é o valor preditivo negativo (90 verdadeiros negativos entre 92 testes negativos), não a sensibilidade.",
+   "Correta: sensibilidade = VP/(VP + FN) = 98/100 = 98%."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 58 anos, com diagnóstico de hipertensão arterial sistêmica (HAS) e em tratamento irregular, é encaminhada ao ambulatório de clínica médica de atenção secundária. Queixa-se de fadiga e dispneia aos esforços, com piora progressiva. Ao exame físico, é observado ritmo cardíaco regular em 4 tempos (B3 + B4), sem sopros no precórdio, mas com crépitos em bases pulmonares; pressão arterial: 148 x 90 mmHg. Ecocardiograma transtorácico evidencia hipertrofia ventricular esquerda concêntrica, associada com fração de ejeção de 38% (por Simpson). Exames laboratoriais normais, salvo pela elevação sérica de peptídeo natriurético tipo B (BNP). Para melhorar o controle da HAS e o prognóstico da paciente, o tratamento com inibidor da enzima conversora de angiotensina foi mantido, e o especialista optou por associar determinado fármaco, devido ao impacto positivo no prognóstico de sobrevida dessa paciente. O fármaco introduzido no tratamento da paciente foi",
+  "alts": [
+   "espironolactona.",
+   "clortalidona.",
+   "hidralazina.",
+   "clonidina."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ESC Guidelines for the management of heart failure, 2026; Diretriz Brasileira de Hipertensão Arterial: SBC/SBH/SBN, 2025",
+  "coment": "A paciente tem insuficiência cardíaca com fração de ejeção reduzida (38%) de etiologia hipertensiva, com B3, congestão pulmonar e BNP elevado. Os fármacos que reduzem mortalidade nesse cenário são os quatro pilares: IECA/BRA ou sacubitril-valsartana, betabloqueador (carvedilol, bisoprolol ou succinato de metoprolol), antagonista mineralocorticoide e inibidor de SGLT2. Das opções, apenas a espironolactona tem benefício de sobrevida comprovado (RALES), além de ajudar no controle pressórico. Monitorar potássio e função renal.",
+  "porAlt": [
+   "Correta: a espironolactona é antagonista mineralocorticoide, um dos pilares com redução de mortalidade na IC com fração de ejeção reduzida.",
+   "A clortalidona controla a pressão, mas não tem benefício de sobrevida na IC com fração reduzida.",
+   "Hidralazina isolada não reduz mortalidade; o benefício existe apenas associada ao nitrato, sobretudo em negros ou intolerantes a IECA/BRA.",
+   "A clonidina não melhora prognóstico na IC e pode piorar desfechos por inibição simpática central."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 28 anos, estudante universitário, residente em zona urbana, comparece à Unidade Básica de Saúde (UBS) referindo aparecimento de lesão cutânea em região dorsal da mão, cerca de 1 mês após ter sofrido arranhadura de gato de rua. A lesão apresenta úlceras com presença de crostas além de nodulações próximas. Foi submetido à biópsia da lesão cutânea e cultura de material. Observou-se dermatite granulomatosa difusa, presença de corpos asteroides e material eosinofílico ao redor de células características. Qual é a principal hipótese diagnóstica e o respectivo tratamento para esse caso?",
+  "alts": [
+   "Furunculose; cefalexina por 7 dias.",
+   "Herpes-zoster; aciclovir por 10 dias.",
+   "Esporotricose; itraconazol por 120 dias.",
+   "Paracoccidioidomicose; anfotericina B por 30 dias."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde. Nota Técnica nº 20/2025-CGTM/DATHI/SVSA/MS e Portaria GM/MS nº 6.734/2025 (esporotricose humana); IDSA Clinical Practice Guidelines for the Management of Sporotrichosis, 2007",
+  "coment": "Lesão ulcerocrostosa no local de arranhadura de gato com nódulos ascendentes ao longo do trajeto linfático é a forma linfocutânea da esporotricose, zoonose por Sporothrix brasiliensis transmitida por gatos. A histologia com granuloma e corpos asteroides (fenômeno de Splendore-Hoeppli) reforça o diagnóstico, confirmado pela cultura. O tratamento de escolha é itraconazol 100 a 200 mg/dia, mantido até 2 a 4 semanas após a cura clínica, em geral 3 a 6 meses. Desde 2025 a esporotricose humana é de notificação compulsória semanal.",
+  "porAlt": [
+   "Furunculose é infecção aguda estafilocócica do folículo, sem granuloma com corpos asteroides nem progressão linfática nodular.",
+   "Herpes-zóster causa vesículas agrupadas em dermátomo com dor, não úlcera crostosa pós-arranhadura com granuloma.",
+   "Correta: arranhadura de gato, lesão linfocutânea e corpos asteroides indicam esporotricose, tratada com itraconazol por meses.",
+   "Paracoccidioidomicose acomete pulmão e mucosa oral por inalação, sem relação com arranhadura de gato; anfotericina fica para formas graves."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Observe o encaminhamento realizado por um médico de família. “À cardiologia, Encaminho o Sr. J. L. S., de 56 anos, com diagnóstico de cardiopatia isquêmica, que sofreu um infarto agudo do miocárdio há 3 meses. Tem orientação para o uso de antiagregantes plaquetários, mas tem história de úlcera péptica e teve reação alérgica ao clopidogrel e à ticlopidina. Desta forma, solicito orientação quanto à conduta preventiva.” Ao ser assistido pelo cardiologista, o paciente será atendido em qual nível de atenção e receberá que tipo de prevenção, respectivamente?",
+  "alts": [
+   "Primário; secundário.",
+   "Secundário; secundário.",
+   "Terciário; terciário.",
+   "Quaternário; terciário."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Leavell e Clark, níveis de prevenção (1976); Política Nacional de Atenção Básica, Portaria GM/MS nº 2.436/2017",
+  "coment": "O ambulatório de cardiologia, para onde o médico de família referencia, é atenção especializada, ou seja, nível secundário. Quanto à prevenção, o paciente já teve infarto e o objetivo agora é evitar novo evento com antiagregação e controle de fatores de risco, o que na linguagem clínica e na prova é chamado de prevenção secundária cardiovascular. A prevenção terciária se refere à reabilitação e à redução de sequelas, e a quaternária à proteção contra intervenções excessivas, que não é o foco do encaminhamento.",
+  "porAlt": [
+   "O cardiologista não está na atenção primária; quem atua no nível primário é o médico de família que encaminhou.",
+   "Correta: ambulatório especializado é atenção secundária, e evitar novo infarto após o primeiro é prevenção secundária cardiovascular.",
+   "Atenção terciária corresponde a serviços hospitalares de alta complexidade, não a consulta ambulatorial de especialista.",
+   "Quaternário não é nível de atenção à saúde; prevenção quaternária é evitar iatrogenia, e o problema aqui é prevenir recorrência."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 20 anos procura atendimento médico no ambulatório de clínica médica de referência devido a quadro iniciado há 3 meses, com dor e edema articular acometendo articulações das mãos (interfalangeanas proximais, metacarpofalangeanas e punhos), assim como cotovelos, joelhos e tornozelos. Relata rigidez matinal que persiste por mais de 2 horas. O exame físico confirma dor e edema nas articulações descritas, além de mucosas hipocoradas (++/4+), sem outras alterações. A hipótese diagnóstica a ser considerada, o achado laboratorial esperado e a primeira linha de tratamento indicada são, respectivamente,",
+  "alts": [
+   "esclerose sistêmica; níveis elevados de creatina quinase; prednisona.",
+   "artrite reumatoide; pesquisa de fator reumatoide (FR) positivo; metotrexato.",
+   "lúpus eritematoso sistêmico; FAN com padrão nuclear pontilhado fino denso; cloroquina.",
+   "doença mista do tecido conjuntivo; FAN com padrão nuclear pontilhado fino; azatioprina."
+  ],
+  "gab": 1,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACR/EULAR classification criteria for rheumatoid arthritis, 2010; ACR Guideline for the Treatment of Rheumatoid Arthritis, 2021; EULAR recommendations for the management of rheumatoid arthritis, atualização de 2022",
+  "coment": "Poliartrite simétrica há 3 meses envolvendo interfalangeanas proximais, metacarpofalangeanas e punhos, com rigidez matinal acima de 1 hora e anemia de doença crônica, é o quadro clássico da artrite reumatoide. O fator reumatoide é positivo em cerca de 70 a 80% dos casos e o anti-CCP é o marcador mais específico. O metotrexato é o DMARD sintético de primeira linha, iniciado logo ao diagnóstico, com corticoide em dose baixa apenas como ponte. Não há fenômeno de Raynaud, fotossensibilidade ou outros sinais sistêmicos que sugiram colagenose.",
+  "porAlt": [
+   "Esclerose sistêmica cursa com Raynaud e espessamento cutâneo; CK elevada sugere miopatia inflamatória, e prednisona isolada não é tratamento de primeira linha.",
+   "Correta: poliartrite simétrica de pequenas articulações com rigidez prolongada indica artrite reumatoide, com FR positivo esperado e metotrexato como primeira linha.",
+   "O lúpus é possível em mulher jovem, mas o pontilhado fino denso é típico do anti-DFS70 e associado a ausência de doença autoimune sistêmica.",
+   "Doença mista do tecido conjuntivo exige anti-U1-RNP e cursa com Raynaud e mãos edemaciadas, e azatioprina não é primeira linha articular."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 52 anos, branco, solteiro, comparece à consulta agendada na Unidade Básica de Saúde (UBS) desejando realizar revisão clínica e exames laboratoriais. Desde os 35 anos não faz acompanhamento de saúde. Relata história familiar de diabetes e hipertensão, e a mãe faleceu com câncer de pulmão. Sem história familiar de câncer de próstata. Fuma cerca de 2 maços por dia há 21 anos. Exame físico: pressão arterial de 120 x 80 mmHg, índice de massa corporal de 23 kg/m², sem outras alterações. Considerando as recomendações de rastreamento para esse paciente, o médico de família e comunidade deve",
+  "alts": [
+   "solicitar exames de colesterol total e frações, hemograma, glicemia de jejum, creatinina, PSA, radiografia de tórax, colonoscopia, realizar toque retal; orientar sobre a prática de atividade física regular.",
+   "solicitar exames de colesterol total, glicemia de jejum, pesquisa de sangue oculto nas fezes, PSA, ofertar anti-HIV e HBsAg, realizar toque retal; orientar sobre participação no grupo na UBS para abandono do tabagismo.",
+   "abordar mudanças no estilo de vida e cessação do tabagismo; acompanhar, em consultas longitudinais, as futuras possibilidades de exames complementares, quando o paciente atingir faixa etária para investigações adicionais.",
+   "solicitar exames de colesterol total, HDL e triglicerídeos, glicemia de jejum, pesquisa de sangue oculto nas fezes, ofertar testes rápidos para HIV, sífilis e hepatites B e C; realizar abordagem sobre possibilidade de cessação do tabagismo."
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde. Cadernos de Atenção Primária nº 29, Rastreamento, 2010; PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; INCA, Detecção precoce do câncer, 2021",
+  "coment": "Para homem de 52 anos na APS, o MS recomenda rastreamento de dislipidemia (perfil lipídico), de diabetes, de câncer colorretal a partir dos 50 anos com pesquisa de sangue oculto nas fezes, oferta de testagem para HIV, sífilis e hepatites B e C, e abordagem da cessação do tabagismo, que é a intervenção de maior impacto para ele. O MS não recomenda rastreamento populacional de câncer de próstata com PSA ou toque retal, nem radiografia de tórax para câncer de pulmão. Com 42 maços-ano, sociedades internacionais indicariam tomografia de baixa dose, que não consta das alternativas nem está incorporada ao SUS.",
+  "porAlt": [
+   "Inclui PSA e toque retal, não recomendados pelo MS para rastreamento, e radiografia de tórax, que não serve como rastreamento de câncer de pulmão.",
+   "Mantém o PSA e o toque retal, que o MS desaconselha em homem assintomático sem risco familiar, e omite as frações do colesterol.",
+   "Adiar os exames perde o rastreamento indicado já aos 52 anos: dislipidemia, diabetes, câncer colorretal e infecções sexualmente transmissíveis.",
+   "Correta: perfil lipídico, glicemia, sangue oculto nas fezes, testes rápidos para HIV, sífilis e hepatites e abordagem do tabagismo compõem o rastreamento indicado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 32 anos, parda, ensino fundamental incompleto, trabalhadora rural, diarista no plantio de morango, procura Unidade Básica de Saúde (UBS) com queixas de tonturas, dores de cabeça, cansaço, náuseas e falta de ar. Ela referiu que desde os 20 anos sofre com dores de cabeça frequentes, mas há 2 semanas, após uma pulverização de agrotóxicos, começou a apresentar os sintomas descritos. Disse ainda que sua colega de trabalho apresentava queixas similares. Ao ouvir esses relatos, a médica da UBS suspeita de intoxicação aguda por agrotóxicos. Nessa situação, qual é a conduta adequada a ser adotada na assistência?",
+  "alts": [
+   "Encaminhar como caso suspeito ao centro de referência em saúde do trabalhador estadual e formalizar denúncia ao Ministério Público do Trabalho.",
+   "Estabelecer nexo causal entre os sintomas e os resultados de exames complementares, para confirmar diagnóstico de intoxicação por agrotóxicos, e notificar a Vigilância em Saúde municipal.",
+   "Tratar os sintomas, solicitar exames complementares, notificar o caso no Sistema de Notificação de Agravos e Doenças (Sinan), conceder atestado médico e solicitar matriciamento à Vigilância em Saúde do Trabalhador.",
+   "Informar não ser responsável pelo preenchimento da comunicação de acidente de trabalho (CAT), por ser atribuição exclusiva da medicina do trabalho, no centro municipal de referência em saúde do trabalhador."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Ministério da Saúde. Diretrizes Brasileiras para o Diagnóstico e Tratamento de Intoxicações por Agrotóxicos, 2018; Política Nacional de Saúde do Trabalhador e da Trabalhadora, Portaria GM/MS nº 1.823/2012",
+  "coment": "Diante de suspeita de intoxicação por agrotóxico relacionada ao trabalho, o médico da APS deve tratar os sintomas, investigar com exames (como colinesterases, quando indicado), afastar a trabalhadora da exposição com atestado e notificar o caso no Sinan, pois intoxicação exógena é agravo de notificação compulsória e a notificação é feita na suspeita, sem esperar confirmação. O apoio matricial da Vigilância em Saúde do Trabalhador (Cerest) ajuda a estabelecer o nexo e a investigar o ambiente de trabalho, já que há colega com sintomas semelhantes.",
+  "porAlt": [
+   "O caso não precisa ser encaminhado para ser acompanhado; a APS trata, notifica e aciona o Cerest como apoio, sem denúncia como primeiro passo.",
+   "A notificação é feita na suspeita, não depois de confirmar nexo causal por exames.",
+   "Correta: tratar, investigar, notificar no Sinan, afastar com atestado e pedir matriciamento à Vigilância em Saúde do Trabalhador.",
+   "Qualquer médico pode emitir a CAT, e a APS não pode se eximir do cuidado nem da notificação do agravo relacionado ao trabalho."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 50 anos, queixando-se de astenia e constipação com fezes em fita. Há 15 dias, apresenta edema de membros inferiores até a raiz da região crural, bilateralmente, com pouca melhora à elevação dos membros. Ele perdeu 10 kg em 6 meses. Nega hipertensão arterial e diabetes mellitus e não faz uso de medicamento. Os exames do paciente apresentaram os seguintes resultados: Exame Resultado Valor de referência Pressão arterial 130 x 80 mmHg --Peso 70 kg --Hematócrito 35% 48 a 69% Glicemia 88 mg/dL 60 a 100 mg/dL Albumina sérica 1,8 g/dL 3,8 a 4,8 g/dL Creatinina 1,2 mg/dL 0,7 a 1,3 mg/dL Triglicerídeos 200 mg/dL < 150 mg/dL Proteína urinária 3,6 g/24 horas < 100 mg/24 horas de 24 horas proteínas +++ Sedimentos --hemácias + (5 por campo) Dentre esses achados laboratoriais, quais são necessários para a definição da síndrome renal do paciente?",
+  "alts": [
+   "Proteína urinária de 24 horas = 3,6 g e albumina sérica = 1,8 g/dL.",
+   "Proteína urinária de 24 horas = 3,6 g e triglicerídeos = 200 mg/dL.",
+   "Hematúria e triglicerídeos = 200 mg/dL.",
+   "Hematúria e albumina sérica = 1,8 g/dL."
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases",
+  "coment": "A síndrome nefrótica é definida por proteinúria acima de 3,5 g/24 horas (ou relação proteína/creatinina acima de 3 a 3,5 g/g) e hipoalbuminemia, habitualmente abaixo de 3 g/dL, acompanhadas de edema. Dislipidemia e lipidúria são achados frequentes, mas não obrigatórios, e hematúria discreta pode ocorrer sem mudar a classificação. Neste homem de 50 anos com emagrecimento e alteração do hábito intestinal, o raciocínio seguinte é nefropatia membranosa secundária a neoplasia, o que obriga a investigar câncer colorretal.",
+  "porAlt": [
+   "Correta: proteinúria de 3,6 g/24 horas e albumina de 1,8 g/dL são os dois critérios que definem a síndrome nefrótica.",
+   "A hipertrigliceridemia é achado acompanhante comum, mas não é critério; falta a hipoalbuminemia.",
+   "Hematúria discreta e dislipidemia não definem síndrome alguma; hematúria orientaria para síndrome nefrítica.",
+   "A hematúria não é critério de síndrome nefrótica, e sem a proteinúria nefrótica o diagnóstico não se sustenta."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher travesti de 28 anos, profissional do sexo, comparece à Unidade Básica de Saúde (UBS) em demanda espontânea. Relata relações sexuais frequentes com diferentes parceiros, com uso inconsistente de preservativos, principalmente durante relações anais receptivas. Há 2 dias teve uma relação sexual desprotegida com um cliente que se recusou a usar camisinha. Nunca utilizou medicamento para profilaxia pré-exposição (PrEP) ou pós-exposição (PEP) à infecção pelo HIV. Considerando que a paciente está assintomática no momento, qual a melhor estratégia de prevenção?",
+  "alts": [
+   "Prescrever PrEP após resultado não reagente para HIV; indicar PEP após tratamento inicial e orientar rastreamento de ISTs a cada 3 meses.",
+   "Oferecer teste rápido para HIV e sífilis; prescrever PrEP de início imediato; orientar sobre as vacinas disponíveis no SUS para seu grupo populacional.",
+   "Realizar testagem rápida para HIV e sífilis; prescrever PEP mediante resultado não reagente para HIV e programar início da PrEP após término da PEP.",
+   "Prescrever PEP e PrEP de forma concomitante; solicitar sorologias para ISTs; agendar retorno para analisar os resultados e revisar adesão ao tratamento."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde. PCDT para Profilaxia Pós-Exposição (PEP) de Risco à Infecção pelo HIV, IST e Hepatites Virais, 2021; PCDT para Profilaxia Pré-Exposição (PrEP) Oral à Infecção pelo HIV, 2025",
+  "coment": "Houve exposição sexual de risco há 2 dias, dentro da janela de 72 horas, então a prioridade é a PEP. Antes de iniciá-la, faz-se teste rápido para HIV (e sífilis e hepatites): se não reagente, prescreve-se PEP por 28 dias. Como ela tem exposição recorrente e pertence a população-chave, tem indicação de PrEP, e o PCDT orienta a transição direta da PEP para a PrEP ao fim dos 28 dias, após novo teste de HIV não reagente, sem intervalo desprotegido. Iniciar PrEP isolada agora seria insuficiente para a exposição recente.",
+  "porAlt": [
+   "Inverte a ordem: a exposição de 2 dias exige PEP imediata, e a PrEP vem depois, na transição.",
+   "PrEP isolada não protege de exposição já ocorrida há 2 dias; nesse cenário a indicação é PEP.",
+   "Correta: testar, iniciar PEP se não reagente e fazer a transição para a PrEP ao término dos 28 dias da PEP.",
+   "PEP e PrEP não são prescritas juntas, e iniciar profilaxia sem teste rápido de HIV arrisca monoterapia inadequada em pessoa já infectada."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 21 anos comparece à consulta médica em Unidade Básica de Saúde (UBS) para avaliação de amenorreia há 4 meses, sendo descartada gravidez. Paciente relata que há 10 meses iniciou dieta para perder peso, tendo emagrecido nesse período aproximadamente 30 kg. Há 2 dias relata desmaio durante prática de exercício físico e, por isso, realizou eletrocardiograma (ECG) que indicou alterações no segmento ST e na onda T. Paciente nega histórico de diagnóstico de transtorno mental, mora sozinha e sua família é de outra cidade. Afirma manter o padrão alimentar, pois ainda quer perder peso. Ao exame físico, apresenta palidez de mucosa e turgor cutâneo diminuído. Altura = 1,63 m; peso = 39 kg (IMC = 14,7 kg/m²); pressão arterial = 80 x 60 mmHg; frequência cardíaca = 55 bpm e frequência respiratória = 15 irpm. Qual é a conduta adequada nesse momento?",
+  "alts": [
+   "Solicitar internação em enfermaria de clínica médica.",
+   "Encaminhar para internação em enfermaria de saúde mental.",
+   "Continuar a investigação para causas da amenorreia na UBS.",
+   "Acompanhar em ambulatório do Centro de Atenção Psicossocial (CAPs)."
+  ],
+  "gab": 0,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "American Psychiatric Association. Practice Guideline for the Treatment of Patients With Eating Disorders, 2023",
+  "coment": "A paciente tem provável anorexia nervosa com desnutrição grave (IMC 14,7 kg/m²) e sinais de instabilidade clínica: síncope, bradicardia, hipotensão (80 x 60 mmHg), desidratação e alterações de ST e T no ECG. Esses são critérios de internação clínica imediata, pois o risco de arritmia, distúrbio eletrolítico e síndrome de realimentação é alto. A enfermaria de clínica médica permite monitorização, correção de eletrólitos e realimentação cautelosa, com apoio da psiquiatria. O tratamento psiquiátrico ambulatorial vem depois da estabilização.",
+  "porAlt": [
+   "Correta: síncope, bradicardia, hipotensão, alteração no ECG e IMC abaixo de 15 exigem internação clínica para estabilização e realimentação monitorizada.",
+   "A enfermaria psiquiátrica não tem estrutura para monitorizar instabilidade hemodinâmica, arritmia e síndrome de realimentação.",
+   "Continuar investigação ambulatorial ignora sinais de risco de morte súbita; a amenorreia é consequência da desnutrição.",
+   "O CAPS é adequado para seguimento após estabilização, não para paciente com instabilidade cardiovascular."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 65 anos iniciou quadro de lentidão dos movimentos há 6 meses, com dificuldade para amarrar sapatos, abotoar roupas e digitar. Ao caminhar, apresentava passos mais curtos e sensação de instabilidade, com 1 episódio de queda. Concomitantemente apresentou tremores nas mãos, de repouso, associados à rigidez e alteração do padrão do sono. Nega alterações de memória e cognição. Ao exame físico apresentava fácies em máscara, marcha em pequenos passos, frequência cardíaca de 88 bpm com ausculta sem alterações, pressão arterial de 130 x 80 mmHg, tremores assimétricos na manobra dos braços estendidos, hipertonia em roda dentada. A ressonância nuclear magnética realizada há 2 semanas constatou atrofia cerebral compatível com a idade. O tratamento medicamentoso inicial recomendado para o caso clínico será",
+  "alts": [
+   "levodopa e carbidopa.",
+   "donepezila e memantina.",
+   "propranalol e amantadina.",
+   "atorvastatina e baclofeno."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "MDS Clinical Diagnostic Criteria for Parkinson's Disease, 2015; AAN practice guideline: Dopaminergic therapy for motor symptoms in early Parkinson disease, 2021",
+  "coment": "Bradicinesia com tremor de repouso assimétrico, rigidez em roda denteada, marcha em pequenos passos, fácies em máscara e distúrbio do sono preenchem os critérios clínicos de doença de Parkinson, e a RM sem lesões estruturais afasta causas secundárias. Com prejuízo funcional já instalado (quedas, dificuldade para abotoar e digitar) e 65 anos, a levodopa associada a inibidor da dopa-descarboxilase (carbidopa ou benserazida) é a primeira escolha, por ser a mais eficaz nos sintomas motores e ter menos efeitos neuropsiquiátricos que os agonistas dopaminérgicos em idosos.",
+  "porAlt": [
+   "Correta: levodopa com carbidopa é o tratamento inicial mais eficaz na doença de Parkinson com prejuízo funcional.",
+   "Donepezila e memantina tratam demência, e a paciente nega alteração cognitiva.",
+   "Propranolol é usado no tremor essencial, que é postural e de ação; a amantadina tem papel secundário e não trata a bradicinesia.",
+   "Atorvastatina e baclofeno não têm papel no parkinsonismo; o baclofeno trata espasticidade, não rigidez extrapiramidal."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 34 anos se dirige à Unidade Básica de Saúde (UBS) com febre (38,5 °C), dores de moderada intensidade e manchas no corpo há 3 dias. No dia da consulta, iniciou com dores abdominais e vômitos incontroláveis. Exame físico: prostrado, mucosas coradas, extremidades bem perfundidas. Pressão arterial de 120 x 80 mmHg; frequência respiratória de 16 irpm; frequência cardíaca de 80 bpm. Leve dor à palpação abdominal, sem outras alterações. Qual a hipótese diagnóstica e o manejo, respectivamente?",
+  "alts": [
+   "Dengue grupo B. Prescrever hidratação oral, analgésico e antiemético; solicitar hemograma, plaquetas e antígeno NS1; realizar acompanhamento domiciliar após exames.",
+   "Dengue grupo C. Prescrever hidratação oral, analgésico e antiemético; solicitar hemograma, plaquetas e anticorpo IgM; realizar acompanhamento ambulatorial após exames.",
+   "Dengue grupo C. Prescrever hidratação parenteral, analgésico e antiemético; solicitar hemograma, plaquetas e antígeno NS1; manter em leito de observação até estabilização.",
+   "Dengue grupo B. Prescrever hidratação parenteral, analgésico e antiemético; solicitar hemograma, plaquetas, antígeno NS1 e anticorpo IgM; manter em leito de observação até estabilização."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Ministério da Saúde. Dengue: diagnóstico e manejo clínico, adulto e criança, 6ª edição, 2024",
+  "coment": "Febre há 3 dias com mialgia e exantema em área endêmica é caso suspeito de dengue. Dor abdominal e vômitos persistentes são sinais de alarme, e na ausência de choque (PA 120 x 80 mmHg, extremidades perfundidas) o paciente é do grupo C. A conduta é reposição volêmica venosa imediata (10 mL/kg de soro fisiológico na primeira hora, com reavaliação), analgesia com dipirona ou paracetamol, antiemético, exames obrigatórios (hemograma com hematócrito e plaquetas, albumina, transaminases) e NS1 até o 5º dia, com permanência em leito de observação ou internação até estabilizar.",
+  "porAlt": [
+   "Vômitos persistentes e dor abdominal são sinais de alarme e retiram o paciente do grupo B, que é tratado com hidratação oral.",
+   "A classificação está certa, mas o grupo C exige hidratação venosa e observação, não hidratação oral com acompanhamento ambulatorial; IgM também não é útil no 3º dia.",
+   "Correta: sinais de alarme sem choque definem o grupo C, com hidratação parenteral, sintomáticos, exames, NS1 e observação até estabilização.",
+   "O grupo B não tem sinais de alarme; com dor abdominal e vômitos incoercíveis a classificação correta é grupo C."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 48 anos, auxiliar de pedreiro, procura Unidade Básica de Saúde (UBS) com queixa de dor lombar iniciada há 3 semanas, de instalação insidiosa, sem irradiação. Relata que a dor piora ao final do dia e melhora parcialmente com repouso e uso de paracetamol. Nega perda de peso, febre, traumas, incontinência ou fraqueza nos membros inferiores. Ao exame físico, apresenta dor à palpação paravertebral em região lombar, sem alterações neurológicas. Com base na história clínica e no exame físico, qual o próximo passo na condução desse caso?",
+  "alts": [
+   "Solicitar ressonância magnética da coluna lombar e encaminhar para a ortopedia.",
+   "Solicitar radiografia lombar, prescrever corticoide oral e agendar o retorno após 10 dias.",
+   "Orientar repouso, fornecer atestado de 7 dias e otimizar a analgesia com antidepressivo tricíclico.",
+   "Explicar a natureza benigna, orientar analgesia e atividade física leve, com reavaliação em 4 a 6 semanas."
+  ],
+  "gab": 3,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "American College of Physicians. Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain, 2017; NICE guideline NG59, Low back pain and sciatica in over 16s, 2016 (atualizada 2020)",
+  "coment": "Lombalgia há 3 semanas, mecânica, sem irradiação e sem sinais de alerta (febre, perda de peso, trauma, déficit neurológico, incontinência, idade acima de 50 anos com história de câncer) é lombalgia aguda inespecífica. A maioria melhora espontaneamente em 4 a 6 semanas. A conduta é explicar a natureza benigna, manter atividade física leve, evitar repouso no leito e usar analgesia simples. Exames de imagem só se indicam com sinais de alerta ou persistência além de 6 semanas, pois não mudam a conduta e favorecem a medicalização.",
+  "porAlt": [
+   "Ressonância e encaminhamento ao especialista não se indicam em lombalgia aguda sem sinais de alerta.",
+   "Radiografia não muda a conduta na lombalgia aguda inespecífica, e corticoide oral não tem benefício comprovado.",
+   "Repouso prolongado atrasa a recuperação, e o tricíclico não é analgesia de primeira linha na lombalgia aguda.",
+   "Correta: sem sinais de alerta, orienta-se natureza benigna, analgesia, atividade leve e reavaliação em 4 a 6 semanas."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "“Internações sem consentimento aumentam na Cracolândia, em meio a denúncias de agressões”. ZYLBERKAN, M.; KRUSE, T. Folha de S. Paulo, 3 jul. 2024. Notícias como esta têm se tornado frequentes em jornais brasileiros nos últimos anos. Alguns municípios têm criado leis locais próprias para as internações involuntárias que muitas vezes contradizem as leis federais sobre o tema. Sobre a internação involuntária no Brasil, é correto afirmar que",
+  "alts": [
+   "a internação involuntária é determinada, de acordo com a legislação, pela Justiça.",
+   "é autorizada por médico devidamente registrado no Conselho Regional de Medicina.",
+   "no prazo de 15 dias, a internação deve ser comunicada ao Ministério Público Federal.",
+   "o término da internação involuntária ocorrerá por solicitação do Ministério Público Municipal."
+  ],
+  "gab": 1,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Lei nº 10.216/2001 (proteção dos direitos das pessoas com transtornos mentais), arts. 6º a 8º; Lei nº 13.840/2019 (internação de dependentes químicos)",
+  "coment": "A Lei 10.216/2001 distingue três modalidades de internação psiquiátrica: voluntária (com consentimento), involuntária (sem consentimento, a pedido de terceiro) e compulsória (determinada pela Justiça). A internação involuntária só pode ser autorizada por médico registrado no CRM do estado onde fica o estabelecimento e deve ser comunicada ao Ministério Público Estadual em até 72 horas, tanto na entrada quanto na alta. Seu término ocorre por solicitação da família ou do responsável legal ou por decisão do médico responsável. A Lei 13.840/2019 manteve a decisão médica para dependentes químicos.",
+  "porAlt": [
+   "A internação determinada pela Justiça é a compulsória; a involuntária é decisão médica a pedido de terceiro.",
+   "Correta: a internação involuntária é autorizada por médico registrado no CRM do estado do estabelecimento.",
+   "A comunicação é ao Ministério Público Estadual e em até 72 horas, não ao Federal em 15 dias.",
+   "O término se dá a pedido da família ou responsável legal ou por decisão do especialista responsável, não do Ministério Público."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 68 anos, em tratamento crônico irregular de hipertensão arterial sistêmica, diabetes mellitus e fibrilação atrial, é admitido em Unidade de Pronto Atendimento (UPA) com quadro de rebaixamento do nível de consciência e déficit neurológico do lado esquerdo, de predomínio braquiofacial. Segundo o acompanhante, o paciente tinha ido se deitar havia 90 minutos, sem qualquer sintoma antes de ser encontrado com o transtorno observado. Foi levado ao hospital, onde deu entrada 30 minutos após constatado o déficit focal. Ao exame físico, paciente com 9 pontos na escala de coma de Glasgow modificada, exibindo hemiparesia acentuada à esquerda, pressão arterial de 170 x 100 mmHg em ambos os membros superiores, com ritmo cardíaco irregular, frequência cardíaca média de 96 bpm. Não há outras alterações expressivas ao exame físico. Glicemia capilar de 285 mg/dL; demais exames laboratoriais não revelam anormalidades. A tomografia computadorizada de crânio sem contraste revela área de atenuação de densidade em cerca de 40% do território da artéria cerebral média direita, cujo laudo é obtido cerca de 3 horas após o último momento em que o paciente foi visto sem déficits. O médico da unidade explica ao acompanhante que, apesar dos potenciais benefícios da terapia trombolítica em pacientes com acidente vascular encefálico isquêmico, o paciente apresenta contraindicação em função de",
+  "alts": [
+   "apresentar extensão de isquemia superior a 1/3 do território da artéria cerebral média acometida.",
+   "haver decorrido período de tempo superior ao limite máximo tolerável desde o início do déficit.",
+   "evoluir com glicemia acima de 200 mg/dL com intervalo maior que 2 horas pós-prandial.",
+   "ter níveis pressóricos superiores aos permitidos para o uso do fármaco."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AHA/ASA 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke",
+  "coment": "O último momento em que o paciente foi visto sem déficit foi ao deitar, cerca de 2 horas antes da chegada e 3 horas antes do laudo, portanto dentro da janela de 4,5 horas para trombólise. A PA de 170 x 100 mmHg está abaixo do limite de 185 x 110 mmHg, e a glicemia de 285 mg/dL não contraindica (exige-se apenas excluir hipoglicemia e corrigir a hiperglicemia). O que contraindica é a tomografia com hipodensidade franca em área extensa, acima de um terço do território da artéria cerebral média, que indica infarto estabelecido e alto risco de transformação hemorrágica.",
+  "porAlt": [
+   "Correta: hipodensidade franca acima de um terço do território da artéria cerebral média contraindica a trombólise intravenosa.",
+   "O paciente foi visto bem há cerca de 3 horas no momento do laudo, ainda dentro da janela de 4,5 horas.",
+   "Hiperglicemia não contraindica trombólise; só glicemia abaixo de 50 mg/dL exige correção antes, e não existe critério pós-prandial.",
+   "A PA de 170 x 100 mmHg está abaixo do limite de 185 x 110 mmHg exigido para trombólise."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 72 anos foi atendida em hospital de médio porte. Relatava emagrecimento e dor abdominal com irradiação para região dorsal há 3 meses; há 1 mês a urina ficou mais escura, começou a apresentar prurido cutâneo intenso e icterícia em escleras. Ao exame físico, encontrava-se ictérica +++/4+, emagrecida; exame do abdome com fígado palpável abaixo da borda costal direita, assim como uma massa bem definida, de consistência cística, não dolorosa em hipocôndrio direito. Nesse caso, o mais adequado é solicitar",
+  "alts": [
+   "ultrassonografia para avaliar colecistite crônica calculosa.",
+   "tomografia computadorizada para avaliar vias biliares e pâncreas.",
+   "colangiopancreatografia por ressonância para avaliar coledocolitíase.",
+   "biópsia percutânea com agulha da massa palpada para avaliar neoplasia."
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "NCCN Guidelines for Pancreatic Adenocarcinoma, 2025; ACG Clinical Guideline: Evaluation of Abnormal Liver Chemistries, 2017",
+  "coment": "Idosa com emagrecimento, dor epigástrica irradiada para o dorso, icterícia progressiva com colúria e prurido e vesícula palpável e indolor (sinal de Courvoisier-Terrier) sugere obstrução biliar maligna distal, sobretudo adenocarcinoma da cabeça do pâncreas. O exame inicial de escolha é a tomografia de abdome com contraste em protocolo pancreático, que define o nível da obstrução, a lesão, o envolvimento vascular e metástases, orientando ressecabilidade e biópsia (preferencialmente por ecoendoscopia).",
+  "porAlt": [
+   "A massa palpável indolor com icterícia sugere obstrução maligna, não colecistite crônica calculosa, e o ultrassom não estadia a doença.",
+   "Correta: tomografia com contraste avalia vias biliares, pâncreas, invasão vascular e metástases na suspeita de tumor periampular.",
+   "Coledocolitíase costuma causar icterícia flutuante com dor em cólica e vesícula escleroatrófica, não vesícula distendida indolor com emagrecimento.",
+   "A massa palpável é a vesícula distendida; biópsia percutânea dela seria inadequada, e a amostragem do tumor pancreático se faz por ecoendoscopia após estadiamento."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 48 anos busca atendimento na Unidade Básica de Saúde (UBS) para reiniciar tratamento para tuberculose. Paciente refere que iniciou o tratamento poliquimioterápico há 6 meses, quando foi diagnosticado com tuberculose; porém, há 2 meses, interrompeu o acompanhamento na sua unidade de origem devido ao uso de substâncias psicoativas. Ele se mudou para o território da unidade há 15 dias e foi visitado pelo agente comunitário, que o orientou a procurar atendimento médico para avaliação e retomada do tratamento. Foram solicitados, inicialmente, o teste rápido molecular para tuberculose (TRM-TB), baciloscopia de escarro e radiografia de tórax. Qual alternativa apresenta a conduta adequada para esse caso?",
+  "alts": [
+   "Se o TRM-TB for positivo, sem resistência à rifampicina, e a baciloscopia for negativa, reiniciar o esquema básico.",
+   "Se o TRM-TB for negativo e a baciloscopia for positiva, reiniciar o esquema básico, desde que a resistência à rifampicina seja positiva.",
+   "Se o TRM-TB for negativo e a baciloscopia for positiva, solicitar cultura de escarro com teste de sensibilidade e reiniciar o esquema básico enquanto se aguarda a cultura.",
+   "Se o TRM-TB for positivo, com resistência à rifampicina, e a baciloscopia for positiva, solicitar cultura de escarro com teste de sensibilidade e reiniciar o esquema básico enquanto se aguarda a cultura."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2019; Ofício-Circular nº 7/2019-CGDR/DCCI/SVS/MS (TRM-TB e cultura em retratamento)",
+  "coment": "No retorno após abandono, o TRM-TB serve para triagem de resistência à rifampicina, mas não confirma doença ativa, pois detecta DNA e pode ser positivo com bacilos mortos. O diagnóstico em retratamento se apoia na baciloscopia e na cultura, e cultura com identificação e teste de sensibilidade deve sempre ser solicitada. Com baciloscopia positiva há bacilos em atividade; se o TRM-TB for negativo, é preciso considerar micobactéria não tuberculosa, mas reinicia-se o esquema básico enquanto se aguardam a cultura com identificação de espécie e o TS.",
+  "porAlt": [
+   "Em retratamento, TRM-TB positivo com baciloscopia negativa não confirma TB ativa, pois pode detectar bacilos mortos; é preciso aguardar a cultura.",
+   "Resistência à rifampicina contraindica o esquema básico, e o TRM-TB negativo nem avalia resistência.",
+   "Correta: baciloscopia positiva confirma bacilos ativos; solicita-se cultura com identificação e TS e reinicia-se o esquema básico enquanto se aguarda.",
+   "Com resistência à rifampicina, o paciente deve ser encaminhado à referência terciária para esquema especial, e não reiniciar o esquema básico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Uma instituição de saúde está pesquisando um novo teste de triagem para hanseníase, com sensibilidade de 92% e especificidade de 65%, aplicado em uma população com baixa prevalência da doença. Nesse contexto, é correto afirmar que",
+  "alts": [
+   "quase todos os testes positivos indicarão verdadeiros casos de hanseníase, diante da elevada sensibilidade do teste.",
+   "o número de falsos-positivos será elevado, devido à baixa especificidade do teste e à baixa prevalência da doença.",
+   "o número de falsos-negativos será elevado, reduzindo a capacidade do teste em detectar casos reais.",
+   "a elevada sensibilidade do teste o torna ideal para a confirmação do diagnóstico de hanseníase."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Epidemiologia clínica, valores preditivos e prevalência (Fletcher, Clinical Epidemiology: The Essentials, 6ª edição, 2020)",
+  "coment": "Especificidade de 65% significa que 35% dos não doentes terão resultado positivo. Em população de baixa prevalência, a grande maioria dos testados não tem a doença, então o número absoluto de falsos-positivos supera o de verdadeiros positivos e o valor preditivo positivo fica baixo. A sensibilidade alta (92%) garante poucos falsos-negativos e alto valor preditivo negativo, o que torna o teste útil para triagem e para afastar a doença, não para confirmá-la. Positivos precisam de teste confirmatório mais específico.",
+  "porAlt": [
+   "Com baixa prevalência e especificidade de 65%, a maior parte dos positivos será falso-positivo; o VPP depende da especificidade e da prevalência, não da sensibilidade.",
+   "Correta: especificidade baixa em população de baixa prevalência gera muitos falsos-positivos e VPP baixo.",
+   "Sensibilidade de 92% produz poucos falsos-negativos, o que preserva a capacidade de detectar casos reais.",
+   "Teste confirmatório precisa de alta especificidade; a alta sensibilidade serve para triar e descartar a doença."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 52 anos chega ao acolhimento de Unidade Básica de Saúde (UBS), muito chorosa, e relata: “Estou com dificuldade para dormir, não tenho comido direito, desde o ocorrido... é o meu filho, sabe... ele morreu há 3 dias... e a dor no meu coração está muito forte, quase insuportável”. A paciente chora copiosamente e diz que sonha com uma pessoa gritando o nome de seu filho, relembrando o momento em que o tinha encontrado na rua, vítima de atropelamento. Após o primeiro acolhimento, ela fica um pouco mais calma, relatando que não pensa em se matar, que nunca tinha sido atendida por psiquiatra ou tomado medicamentos antes, mas que nesse momento precisa de muita ajuda. Diante do caso, qual a conduta adequada?",
+  "alts": [
+   "Prescrever inibidor de recaptação de serotonina para alívio dos sintomas depressivos e ansiosos.",
+   "Encaminhar ao Centro de Atenção Psicossocial (CAPs) para seguimento intensivo com médico psiquiatra.",
+   "Encaminhar para psicologia na atenção secundária para ofertar terapia psicanalítica breve.",
+   "Acompanhar longitudinalmente para observação e ofertar apoio pela equipe da UBS."
+  ],
+  "gab": 3,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "DSM-5-TR (APA, 2022), luto e transtorno de luto prolongado; OMS, mhGAP Intervention Guide, versão 2.0, 2016",
+  "coment": "A perda do filho há 3 dias, com choro, insônia, inapetência, dor intensa e lembranças intrusivas, é reação de luto agudo esperada, sem risco de suicídio, sem psicose e com resposta ao acolhimento. O manejo recomendado é acolher, validar a dor, oferecer apoio psicossocial e acompanhamento longitudinal pela equipe da APS, com reavaliação de sinais de complicação (ideação suicida, sintomas incapacitantes persistentes, transtorno de estresse pós-traumático). Não se prescreve antidepressivo para luto normal, e o transtorno de luto prolongado só é considerado após 12 meses em adultos.",
+  "porAlt": [
+   "Antidepressivo não trata o luto normal, e no terceiro dia não há critério para episódio depressivo.",
+   "O CAPS atende transtornos mentais graves e persistentes; luto agudo sem risco é cuidado da APS.",
+   "Encaminhar à psicologia especializada medicaliza uma reação esperada que a APS pode acompanhar.",
+   "Correta: luto agudo sem risco pede acolhimento e acompanhamento longitudinal pela equipe da UBS, com vigilância de complicações."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 86 anos é levada pela filha à consulta no ambulatório de clínica médica, com queixa de quedas frequentes. A paciente tem diagnóstico prévio de hipertensão arterial sistêmica, diabetes mellitus tipo 2, dislipidemia, depressão, déficit cognitivo leve e constipação intestinal. Está em uso de losartana, hidroclorotiazida, atenolol, metformina, gliclazida, rosuvastatina, escitalopram, donepezila e lactulose. Segundo a filha da paciente, as quedas ocorrem em diversos horários do dia, mais frequentemente na madrugada, ao se levantar para ir ao banheiro. Ao exame físico, a idosa apresenta leve bradipsiquismo e sinais de sarcopenia; pressão arterial do membro superior direito de 138 x 92 mmHg, quando deitada, e 110 x 70 mmHg, quando sentada. O plano terapêutico apropriado ao contexto desse caso deve incluir",
+  "alts": [
+   "sugerir avaliação oftalmológica para investigação de catarata.",
+   "encaminhar ao neurologista para investigar a presença de disautonomia.",
+   "rever a polifarmácia para reduzir fármacos indutores de hipotensão arterial.",
+   "adicionar fármaco capaz de elevar os níveis tensionais, como a fludrocortisona."
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "American Geriatrics Society Beers Criteria, 2023; World Guidelines for Falls Prevention and Management for Older Adults, 2022",
+  "coment": "A idosa tem hipotensão ortostática documentada (queda de 28 mmHg na sistólica e 22 mmHg na diastólica ao sentar) e quedas ao levantar de madrugada, em contexto de polifarmácia com vários fármacos hipotensores ou que aumentam o risco de queda: losartana, hidroclorotiazida, atenolol (somado à bradicardia da donepezila), escitalopram e gliclazida, que também causa hipoglicemia. O primeiro passo é revisar e desprescrever, reduzindo anti-hipertensivos e sulfonilureia, com metas mais flexíveis para uma paciente de 86 anos com sarcopenia. Avaliação multifatorial de quedas complementa a conduta.",
+  "porAlt": [
+   "Avaliação visual faz parte da avaliação de quedas, mas não explica a queda ortostática documentada nem corrige a causa principal.",
+   "A hipotensão ortostática tem causa medicamentosa evidente; encaminhar ao neurologista atrasa a medida que resolve.",
+   "Correta: a queda ortostática da PA em idosa com polifarmácia pede revisão dos fármacos hipotensores e desprescrição.",
+   "Adicionar fludrocortisona soma mais um fármaco, com risco de hipertensão supina e hipocalemia, sem tratar a causa iatrogênica."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 58 anos deu entrada no pronto-socorro com dor epigástrica irradiada para as costas, iniciada há 2 horas, progressiva, pós-prandial, acompanhada de náuseas, vômitos e sudorese. Relata episódios semelhantes no último ano, que melhoraram com uso de analgésico. Tabagista ativo, alcoolista de 8 doses de destilado por dia há 33 anos, nega comorbidades. Exame físico: corado, acianótico, anictérico, sudoreico, fácies de dor, agitado. Índice de massa corporal de 23 kg/m²; pressão arterial de 150 x 90 mmHg; frequência cardíaca de 74 bpm; frequência respiratória de 18 irpm; temperatura axilar de 37 °C. Abdome globoso, distendido, timpânico, peristalse presente, doloroso à palpação do epigástrio e hipocôndrio esquerdo. Os exames laboratoriais apresentam os seguintes resultados: Exame Resultado Valor de referência Hematócrito 46% 36 a 46% Hemoglobina 15,0 g/dL 12,0 a 15,0 g/dL Leucócitos 12.000/mm³ 4.000 a 10.000/mm³ Glicose 120 mg/dL 70 a 99 mg/dL Bilirrubina total 1,2 mg/dL 0,3 a 1,3 mg/dL Ureia 38 mg/dL 15 a 40 mg/dL Cálcio 8,9 mg/dL 8,7 a 10,2 mg/dL Amilase 35 U/L 20 a 96 U/L Lipase 12 U/L 3 a 43 U/L Fosfatase alcalina 81 U/L 33 a 96 U/L LDH 127 U/L 100 a 190 U/L TGO 36 U/L 5 a 40 U/L Qual é o provável diagnóstico?",
+  "alts": [
+   "Colangite aguda.",
+   "Colecistite aguda.",
+   "Doença ulcerosa péptica.",
+   "Pancreatite crônica."
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Chronic Pancreatitis, 2020; American Pancreatic Association Practice Guidelines in Chronic Pancreatitis, 2014",
+  "coment": "Etilismo pesado há mais de 30 anos, tabagismo, dor epigástrica em faixa irradiada para o dorso, pós-prandial e com episódios recorrentes no último ano sugerem pancreatite crônica. Amilase e lipase normais não afastam o diagnóstico, pois o parênquima fibrosado produz pouca enzima, ao contrário da pancreatite aguda, em que se espera elevação acima de 3 vezes o limite. Bilirrubina e fosfatase alcalina normais afastam colangite, e a ausência de febre e de sinais biliares torna colecistite improvável. A confirmação se faz com tomografia (calcificações, dilatação ductal) ou colangiorressonância.",
+  "porAlt": [
+   "Colangite exige febre, icterícia e colestase, e o paciente tem bilirrubina e fosfatase alcalina normais.",
+   "Colecistite cursa com dor em hipocôndrio direito, febre e sinal de Murphy, não com dor em faixa irradiada para o dorso em etilista.",
+   "A úlcera péptica é diagnóstico diferencial, mas o padrão em faixa para o dorso, pós-prandial e recorrente em etilista crônico favorece a doença pancreática.",
+   "Correta: etilismo crônico, dor recorrente em faixa irradiada para o dorso e enzimas normais apontam pancreatite crônica."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 21 anos, portador de diabetes mellitus tipo 1, diagnosticado há 5 anos, foi levado à Unidade de Pronto Atendimento (UPA) devido à dor abdominal, náuseas e vômitos. Familiares informam que está sem utilizar insulina há 3 dias por dificuldades financeiras. No exame físico, encontra-se torporoso, desidratado, com hálito cetótico e dor abdominal à palpação profunda de forma generalizada. Ao exame, frequência cardíaca de 112 bpm; frequência respiratória de 38 irpm; pressão arterial de 110 x 70 mmHg. Os exames laboratoriais na admissão indicam: Exame Resultado Valor de referência Glicemia 472 mg/dL 60 a 100 mg/dL Gasometria arterial pH de 7,2 7,35 a 7,45 Bicarbonato 10 mEq/L 22 a 26 mEq/L Creatinina 1,6 mg/dL 0,7 a 1,3 mg/dL Potássio sérico 3,0 mEq/L 3,5 a 5,5 mEq/L O diagnóstico e a conduta inicial indicada para esse paciente são, respectivamente,",
+  "alts": [
+   "pancreatite aguda; iniciar dieta oral zero.",
+   "estado hiperosmolar hiperglicêmico; iniciar insulinoterapia.",
+   "cetoacidose diabética; prescrever solução fisiológica a 0,9 por cento.",
+   "insuficiência renal aguda; prescrever bicarbonato de sódio."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "ADA/EASD/JBDS/AACE/DTS. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report, 2024; ADA Standards of Care in Diabetes, 2026",
+  "coment": "Jovem com DM1 sem insulina há 3 dias, glicemia de 472 mg/dL, pH 7,2, bicarbonato 10 mEq/L, hálito cetótico e respiração de Kussmaul tem cetoacidose diabética moderada. O primeiro passo é a reposição volêmica com solução cristalina (soro fisiológico 0,9% ou solução balanceada, 500 a 1.000 mL/h nas primeiras horas). Como o potássio é 3,0 mEq/L, a insulina deve ser adiada até o potássio chegar a pelo menos 3,5 mEq/L, repondo-o antes, pela piora da hipocalemia com a entrada de potássio na célula. A dor abdominal é comum na cetoacidose e costuma regredir com o tratamento.",
+  "porAlt": [
+   "A dor abdominal e os vômitos fazem parte da cetoacidose; glicemia alta, acidose e cetose não se explicam por pancreatite.",
+   "O estado hiperosmolar cursa com glicemia acima de 600 mg/dL e sem acidose significativa; e com potássio de 3,0 mEq/L a insulina deve ser adiada.",
+   "Correta: cetoacidose diabética, com reposição volêmica por soro fisiológico como primeira medida.",
+   "A creatinina elevada reflete desidratação; bicarbonato só se considera com pH abaixo de 7,0."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Paciente de 27 anos, em regime fechado em penitenciária, queixa-se de tosse há 2 semanas. Considerando a situação na qual se encontra esse paciente, o médico de família e comunidade deve",
+  "alts": [
+   "encaminhar para internação clínica, objetivando rapidez no diagnóstico e garantia da segurança.",
+   "solicitar radiografia de tórax, pesquisa laboratorial de Mycobacterium tuberculosis e garantir o tratamento em caso de positividade.",
+   "solicitar internação social, a fim de garantir tratamento supervisionado, observado diretamente por 6 meses, caso seja confirmada a tuberculose.",
+   "aguardar evolução, com uso de sintomáticos; caso a tosse persista por mais de 3 semanas, proceder à investigação diagnóstica de tuberculose."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2019; Nota Informativa Conjunta nº 1/2022, vigilância da tuberculose na saúde prisional",
+  "coment": "A população privada de liberdade tem incidência de tuberculose muito maior que a geral, e por isso é considerada sintomática respiratória qualquer pessoa com tosse, independentemente da duração. Com 2 semanas de tosse, o paciente deve ser investigado de imediato com radiografia de tórax e exame de escarro (baciloscopia ou TRM-TB), sempre associados a cultura com teste de sensibilidade nessa população, pela maior frequência de resistência. Confirmado o caso, o tratamento é feito na unidade prisional, com tratamento diretamente observado, sem necessidade de internação.",
+  "porAlt": [
+   "Tuberculose sem gravidade é tratada ambulatorialmente; internação clínica não é necessária para diagnóstico nem por questão de segurança.",
+   "Correta: na população privada de liberdade tosse de qualquer duração pede radiografia, pesquisa de M. tuberculosis e garantia de tratamento.",
+   "Internação social não é indicada; o tratamento diretamente observado é feito na própria unidade prisional.",
+   "O critério de 3 semanas vale para a população geral; em pessoas privadas de liberdade investiga-se a tosse de qualquer duração."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 32 anos apresenta quadro de dor lombar crônica de início insidioso, com duração aproximada de 6 meses, que piora pela manhã e melhora com o movimento. Refere rigidez matinal, principalmente nas regiões lombar e sacroilíaca, com duração de mais de 30 minutos, com dor nas articulações sacroilíacas e sensação de fadiga durante as últimas semanas. Não há histórico de trauma. A história familiar é positiva para doenças reumatológicas, mas o paciente desconhece diagnósticos específicos. O painel de autoanticorpos apresenta: Positivo Anticorpo antinuclear (ANA) Título 1:80 Padrão homogêneo/difuso Anticorpo anti-DNA Negativo dupla hélice Antígeno leucocitário Positivo humano B27 (HLA-B27) Fator reumatoide Negativo Anticorpo anti-CCP Negativo Anticorpo anti-Ro Negativo Anticorpo anti-La Negativo Com base no caso clínico e nos exames laboratoriais apresentados, qual é o diagnóstico mais provável?",
+  "alts": [
+   "Artrite reativa.",
+   "Artrite psoriática.",
+   "Espondilite anquilosante.",
+   "Lúpus eritematoso sistêmico."
+  ],
+  "gab": 2,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ASAS classification criteria for axial spondyloarthritis, 2009; ASAS-EULAR recommendations for the management of axial spondyloarthritis, 2022",
+  "coment": "Homem jovem com lombalgia há mais de 3 meses, início insidioso, piora pela manhã e melhora com o movimento, rigidez matinal prolongada e dor sacroilíaca tem dor lombar inflamatória. Com HLA-B27 positivo e história familiar, o diagnóstico mais provável é espondiloartrite axial (espondilite anquilosante). FR e anti-CCP negativos afastam artrite reumatoide, e FAN em título baixo (1:80) com anti-DNA negativo é achado inespecífico. A confirmação vem da imagem das sacroilíacas (radiografia ou ressonância), e AINE mais exercício são a primeira linha.",
+  "porAlt": [
+   "Artrite reativa surge após infecção intestinal ou urogenital, costuma ser oligoartrite de membros inferiores, e não há história de infecção.",
+   "Artrite psoriática exige psoríase pessoal ou familiar documentada, dactilite ou alteração ungueal, ausentes no caso.",
+   "Correta: dor lombar inflamatória crônica em homem jovem com sacroileíte clínica e HLA-B27 positivo indica espondilite anquilosante.",
+   "Lúpus não causa dor lombar inflamatória, e FAN 1:80 com anti-DNA negativo é achado inespecífico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Paciente masculino, 36 anos, é tabagista e trabalha como ascensorista. Procura atendimento no ambulatório queixando-se de tosse seca, persistente por mais de 3 semanas, acompanhada de febre vespertina, dificuldade respiratória durante esforços e dor infraescapular à esquerda. Exame físico: bom estado geral, orientado, emagrecido, descorado, hidratado, afebril. Ausculta cardíaca sem alterações; ausculta pulmonar com murmúrios vesiculares diminuídos e percussão maciça em base do tórax à esquerda. Com base no diagnóstico provável, quais são, respectivamente, o exame complementar e a conduta adequada ao caso?",
+  "alts": [
+   "Ressonância magnética; programação cirúrgica.",
+   "Tomografia de tórax; lobectomia segmentar.",
+   "Tomografia de tórax; drenagem de tórax.",
+   "Ultrassonografia; toracocentese."
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "BTS Guideline for Pleural Disease, 2023; Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2019",
+  "coment": "Tosse por mais de 3 semanas, febre vespertina, emagrecimento, dor pleurítica e, ao exame, murmúrio diminuído com macicez na base esquerda indicam derrame pleural, com tuberculose pleural como hipótese principal em adulto jovem. A ultrassonografia de tórax confirma e quantifica o derrame e guia a toracocentese diagnóstica, com análise bioquímica (critérios de Light, ADA), citologia e pesquisa microbiológica. ADA elevada em exsudato linfocítico sustenta o diagnóstico de tuberculose pleural, e a biópsia pleural fica para casos indefinidos.",
+  "porAlt": [
+   "Ressonância não é exame inicial do derrame pleural, e não há indicação cirúrgica antes do diagnóstico.",
+   "Lobectomia não trata derrame pleural nem se indica sem diagnóstico de neoplasia pulmonar.",
+   "Drenagem torácica é reservada a empiema ou derrame complicado; primeiro se faz a toracocentese diagnóstica.",
+   "Correta: ultrassonografia confirma o derrame e guia a toracocentese diagnóstica, passo decisivo para definir a etiologia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 55 anos, com diagnóstico de diabetes mellitus, foi em consulta de rotina em Unidade Básica de Saúde (UBS) levando exames laboratoriais solicitados pelo médico na consulta anterior. Faz uso de metformina 850 mg, 3 vezes ao dia, e glicazida 30 mg, 1 vez ao dia, há mais de 6 meses. Os exames laboratoriais atuais apresentam hemoglobina glicada de 9,5% e creatinina sérica de 0,8 mg/dL. Qual das condutas é a mais adequada para o seguimento desse caso?",
+  "alts": [
+   "Suspender os medicamentos orais, iniciar insulina NPH 10 UI subcutânea pela manhã e 20 UI à noite. Monitorar a glicemia pré-prandial, e, quando estiver controlada, medir a glicemia pós-prandial para avaliação da introdução da insulina regular.",
+   "Aumentar a glicazida para 60 mg ao dia, aumentar a metformina para 1 g, 3 vezes ao dia, repetir exames em 1 mês. Iniciar insulina se estiverem alterados; pactuar com o paciente a possibilidade de insulinização no retorno.",
+   "Manter a dose de metformina e glicazida, iniciar insulina NPH 10 UI subcutânea à noite, associada à monitorização glicêmica de jejum. Ajustar 2 a 3 UI a cada 2 a 3 dias, até atingir a meta da glicemia de jejum.",
+   "Trocar a glicazida por glibenclamida 20 mg por dia, aumentar a metformina para 1 g, 3 vezes ao dia, solicitar novos exames em 1 mês. Pactuar com o paciente a possibilidade de insulinização no retorno."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "American Diabetes Association. Standards of Care in Diabetes, 2026; Diretriz da Sociedade Brasileira de Diabetes, 2024",
+  "coment": "Paciente com DM2 e HbA1c de 9,5% apesar de metformina em dose plena e sulfonilureia, com função renal normal, tem falha da terapia oral e precisa de intensificação. Entre as opções, a correta é manter os orais e iniciar insulina basal (NPH) ao deitar, 10 UI ou 0,1 a 0,2 UI/kg, titulando 2 a 3 UI a cada 2 a 3 dias conforme a glicemia de jejum até a meta. A insulina basal noturna controla a glicemia de jejum com menor risco de hipoglicemia. Pelas diretrizes atuais, agonista de GLP-1 ou iSGLT2 também seriam opções, mas não estão entre as alternativas.",
+  "porAlt": [
+   "Suspender os orais e iniciar esquema de 30 UI divididas é desnecessariamente agressivo e aumenta hipoglicemia e ganho de peso.",
+   "Metformina 3 g/dia excede a dose máxima, e esperar mais 1 mês com HbA1c de 9,5% atrasa a intensificação necessária.",
+   "Correta: manter os orais e associar NPH ao deitar com titulação pela glicemia de jejum é a forma recomendada de iniciar insulina.",
+   "Glibenclamida 20 mg tem maior risco de hipoglicemia que a gliclazida, e a troca não resolve a falha da terapia oral."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Paciente de 58 anos procura atendimento em Unidade de Pronto Atendimento (UPA) devido a quadro de dor torácica à direita, associada a leve desconforto respiratório e “febre baixa” não aferida, com cerca de 3 dias de evolução. Nega tosse ou expectoração. Paciente previamente hígido, com história de tabagismo de longa data (20 maços/ano). Ao exame físico, a região médio-basal do hemitórax direito apresenta expansibilidade reduzida, frêmito toracovocal reduzido, percussão com presença de macicez, ressonância pulmonar reduzida e ausência de ruídos adventícios. Com base no exame físico, a principal hipótese diagnóstica é",
+  "alts": [
+   "pneumotórax espontâneo.",
+   "derrame pleural unilateral.",
+   "atelectasia por obstrução lobar.",
+   "pneumonia com consolidação lobar."
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "BTS Guideline for Pleural Disease, 2023",
+  "coment": "O exame físico que combina expansibilidade reduzida, frêmito toracovocal diminuído, macicez à percussão e murmúrio vesicular reduzido sem ruídos adventícios é típico de derrame pleural: o líquido afasta o pulmão da parede e amortece a transmissão das vibrações. Na consolidação, o frêmito está aumentado e há estertores ou sopro tubário; no pneumotórax, a percussão é hipertimpânica. A atelectasia também reduz o frêmito, mas desvia o mediastino para o mesmo lado. Dor pleurítica e febre baixa sugerem derrame parapneumônico ou neoplásico em tabagista, e o próximo passo é ultrassonografia com toracocentese.",
+  "porAlt": [
+   "O pneumotórax cursa com hipertimpanismo à percussão, não com macicez.",
+   "Correta: macicez com frêmito e murmúrio reduzidos, sem ruídos adventícios, é o padrão semiológico do derrame pleural.",
+   "A atelectasia obstrutiva também reduz o frêmito, mas cursa com retração e desvio ipsilateral, e o quadro febril com dor pleurítica favorece derrame.",
+   "Na consolidação lobar o frêmito toracovocal está aumentado e há estertores crepitantes ou sopro tubário."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Uma equipe de saúde indígena busca promover o uso adequado e racional de medicamentos. Ao retornar em uma comunidade com grande mobilidade, foi recebida com muita insatisfação. As lideranças indígenas solicitaram a substituição do médico da equipe, porque na visita anterior ele havia se recusado a fornecer antibióticos e anti-inflamatórios solicitados pelos pacientes. Nesse contexto, a conduta adequada é",
+  "alts": [
+   "priorizar a relação médico-paciente, atender às demandas dos pacientes e fornecer os medicamentos solicitados.",
+   "identificar nos prontuários e em outros levantamentos os principais problemas de saúde na região e discutir com os conselheiros locais as condutas científicas e socioculturais mais indicadas.",
+   "reunir-se com o representante daquela comunidade no Conselho Distrital de Saúde Indígena e informar que a equipe deixará de prestar atendimento até a substituição do profissional.",
+   "reconhecer que, dadas às características da comunidade e às reclamações apresentadas, o médico deverá prescrever os medicamentos solicitados nas próximas visitas."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas, Portaria MS nº 254/2002; Política Nacional de Assistência Farmacêutica, Resolução CNS nº 338/2004",
+  "coment": "A Política Nacional de Atenção à Saúde dos Povos Indígenas prevê atenção diferenciada, com respeito às práticas culturais e participação do controle social indígena (conselhos locais e distritais). O uso racional de medicamentos não pode ser abandonado para agradar a demanda, pois antibiótico e anti-inflamatório sem indicação trazem resistência bacteriana e eventos adversos. A saída é conhecer o perfil epidemiológico da comunidade pelos registros e dialogar com os conselheiros locais, construindo condutas que conciliem evidência científica e contexto sociocultural.",
+  "porAlt": [
+   "Fornecer medicamentos sem indicação fere o uso racional e expõe a comunidade a resistência antimicrobiana e efeitos adversos.",
+   "Correta: levantar os problemas de saúde locais e pactuar condutas com os conselheiros une diagnóstico epidemiológico, evidência e respeito cultural.",
+   "Suspender o atendimento como forma de pressão rompe o vínculo e o dever de assistência à comunidade.",
+   "Ceder às reclamações e prescrever sem indicação é prática inadequada, que não resolve o problema de saúde nem o conflito."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 26 anos, primípara, se dirige à Unidade Básica de Saúde (UBS) para a consulta pós-parto de 8 semanas. Marido relata que, nas últimas 6 semanas, ela está chorosa na maior parte do tempo e sem vontade de fazer as atividades rotineiras. Mesmo com suporte familiar, não consegue dormir, além de se queixar de pouca energia, redução de apetite e dificuldade em cuidar do bebê. Nega pensamentos de morte, desejo de fazer mal ao bebê ou sintomas psicóticos. Exames laboratoriais normais. Nesse momento, a conduta adequada é",
+  "alts": [
+   "indicar internação em enfermaria de saúde mental.",
+   "tranquilizar a paciente, pois o quadro é autolimitado.",
+   "iniciar antidepressivo e programar acompanhamento.",
+   "encaminhar para uma Unidade de Pronto Atendimento (UPA)."
+  ],
+  "gab": 2,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACOG Clinical Practice Guideline nº 5: Treatment and Management of Mental Health Conditions During Pregnancy and Postpartum, 2023; NICE CG192, Antenatal and postnatal mental health, 2014 (atualizada 2020)",
+  "coment": "Humor deprimido e anedonia há 6 semanas, com insônia, baixa energia, hiporexia e prejuízo no cuidado do bebê, iniciados no pós-parto, configuram episódio depressivo com início no periparto, e não disforia puerperal (baby blues), que é leve e regride em até 2 semanas. Sem ideação suicida, sem psicose e sem intenção de ferir o bebê, o tratamento é ambulatorial: antidepressivo (sertralina é a opção preferida na amamentação) associado a psicoterapia e acompanhamento próximo, com reavaliação de risco a cada consulta.",
+  "porAlt": [
+   "Internação se reserva a risco de suicídio, de agressão ao bebê ou psicose puerperal, ausentes no caso.",
+   "O quadro dura 6 semanas e compromete o funcionamento; não é baby blues autolimitado, e sim depressão pós-parto.",
+   "Correta: depressão pós-parto moderada sem sinais de risco se trata com antidepressivo e acompanhamento ambulatorial.",
+   "Não há urgência psiquiátrica que justifique encaminhar para UPA; o cuidado cabe à APS com apoio da saúde mental."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 30 anos, sem doenças prévias, dá entrada em Unidade de Pronto Atendimento (UPA). Relata que há 2 horas, após ingestão de bebida alcoólica e energéticos, teve palpitações. Ao exame, está consciente, orientada e com hálito etílico. Apresenta-se com pressão arterial de 100 x 70 mmHg e frequência cardíaca de 150 bpm, frequência respiratória de 14 irpm e saturação de O2 de 94% ao ar ambiente. À ausculta cardíaca, apresenta-se taquicárdica, com ritmo irregular. Exames dos aparelhos respiratório e neurológico inalterados. Na unidade de emergência, foi realizado o eletrocardiograma que apresenta o ritmo na derivação D2. Quais são, respectivamente, o diagnóstico e o tratamento de primeira escolha para essa paciente?",
+  "alts": [
+   "Fibrilação atrial de alta resposta ventricular; iniciar betabloqueador endovenoso.",
+   "Taquicardia ventricular sustentada; realizar cardioversão elétrica imediata.",
+   "Taquicardia paroxística supraventricular; iniciar adenosina endovenosa.",
+   "Taquicardia sinusal; manter apenas observação clínica."
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "ESC Guidelines for the management of atrial fibrillation (AF-CARE), 2024",
+  "coment": "O traçado não está reproduzido, mas o próprio enunciado resolve: taquicardia de 150 bpm com ritmo irregular à ausculta após consumo agudo de álcool (holiday heart) é fibrilação atrial de alta resposta ventricular. A paciente está consciente, sem hipotensão grave, dor torácica ou congestão, logo hemodinamicamente estável, e não há indicação de cardioversão elétrica imediata. A conduta inicial é o controle de frequência com betabloqueador intravenoso (metoprolol ou esmolol), além de avaliar anticoagulação pelo CHA2DS2-VA e considerar cardioversão se a FA tiver menos de 24 a 48 horas.",
+  "porAlt": [
+   "Correta: FA de alta resposta em paciente estável se controla inicialmente com betabloqueador intravenoso.",
+   "Taquicardia ventricular tem ritmo regular, e a cardioversão imediata só se indica com instabilidade hemodinâmica.",
+   "TPSV é taquicardia regular; adenosina não reverte FA e pode causar broncoespasmo e pausas.",
+   "Taquicardia sinusal é regular, e frequência de 150 bpm com ritmo irregular não é resposta fisiológica."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem negro de 22 anos, cisgênero, comparece à Unidade Básica de Saúde (UBS). Relata dificuldades para dormir desde o dia em que começou a namorar seu atual companheiro, há 4 meses. Fala sobre o aumento do número de óbitos por homofobia na cidade. Queixa-se de dor de cabeça frequente, geralmente do lado direito, de intensidade entre 5/10 e 7/10, que dura algumas horas, às vezes até o outro dia, e melhora após o sono. Os episódios ocorrem 2 vezes por mês, associados à vontade de vomitar e incômodo com barulho. Não há melhora com uso de ibuprofeno, nem paracetamol. Diz que não se alimenta bem, come muita fritura e bebe 3 xícaras de café por dia, além de não praticar atividade física. Exame físico: índice de massa corporal de 35 kg/m². Qual é a conduta adequada para o caso?",
+  "alts": [
+   "Prescrever sumatriptano 25 mg, a ser tomado no início da crise, e orientar mudança de estilo de vida.",
+   "Prescrever amitriptilina 25 mg à noite, solicitar ressonância magnética do crânio e encaminhar para avaliação do neurologista.",
+   "Prescrever codeína, solicitar ressonância magnética do crânio e uso de máscara com oxigênio 100%, por 20 minutos, durante as crises.",
+   "Prescrever ibuprofeno 600 mg, de 8 em 8 horas, quando tiver cefaleia, e uso de máscara com oxigênio 100%, por 20 minutos, durante as crises."
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "International Classification of Headache Disorders, 3ª edição (ICHD-3), 2018; American Headache Society Consensus Statement: update on integrating new migraine treatments into clinical practice, 2021",
+  "coment": "Cefaleia unilateral, de intensidade moderada, com duração de horas, náusea e fonofobia, que melhora com o sono, preenche os critérios de migrânea sem aura. Com crises moderadas a intensas que não respondem a analgésico simples e AINE, o próximo passo no tratamento agudo é o triptano, tomado no início da dor. Com 2 crises por mês não há indicação de profilaxia (que se considera a partir de 4 dias de cefaleia por mês ou crises incapacitantes). Obesidade, sedentarismo, estresse por homofobia, sono ruim e excesso de cafeína são fatores de cronificação que devem ser abordados.",
+  "porAlt": [
+   "Correta: migrânea sem aura refratária a AINE e paracetamol se trata com triptano na crise, junto de mudança de estilo de vida.",
+   "Com 2 crises por mês não há indicação de profilaxia, e sem sinais de alarme não se pede ressonância nem encaminhamento.",
+   "Opioide deve ser evitado na migrânea, e oxigênio a 100% é tratamento da cefaleia em salvas, não da migrânea.",
+   "O paciente já não respondeu ao ibuprofeno, e oxigênio a 100% trata cefaleia em salvas, que dura de 15 a 180 minutos."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Durante reunião de equipe de uma Unidade Básica de Saúde (UBS), a enfermeira relata o aumento de casos de sífilis em gestantes e a alta proporção de pessoas com hipertensão sem consulta de acompanhamento nos últimos 6 meses, conforme a análise inicial dos dados extraídos do Sistema de Atenção Básica (Sisab), Sistema eletrônico do SUS (e-SUS) e Sistema de Informação de Agravos de Notificação (Sinan). Qual a estratégia mais indicada para qualificar a translação dos dados da sala de situação em ações de cuidado coletivo?",
+  "alts": [
+   "Realizar reuniões técnicas entre os profissionais de saúde da UBS e a gestão municipal de saúde, mantendo, nesse primeiro momento, os dados restritos à equipe, para evitar interpretações incorretas pela comunidade.",
+   "Produzir boletins técnicos trimestrais com linguagem epidemiológica adequada e publicá-los no mural da unidade, de forma a atender às diretrizes de transparência da informação.",
+   "Apresentar os dados da sala de situação em reuniões do conselho local de saúde, dialogando com lideranças comunitárias, com o objetivo de mobilizar ações compartilhadas de promoção e prevenção.",
+   "Encaminhar os dados consolidados da sala de situação para o Conselho Municipal de Saúde e aguardar orientações da instância deliberativa sobre quais medidas devem ser implementadas na unidade."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Lei nº 8.142/1990 (participação da comunidade no SUS); Política Nacional de Atenção Básica, Portaria GM/MS nº 2.436/2017; Política Nacional de Educação Popular em Saúde, 2013",
+  "coment": "A sala de situação serve para transformar dados em decisão e ação. A PNAB e a Lei 8.142/1990 valorizam a participação da comunidade e o controle social, e o conselho local de saúde é o espaço em que a equipe apresenta os indicadores (sífilis em gestantes, hipertensos sem acompanhamento), dialoga com lideranças e planeja com a população ações de busca ativa, promoção e prevenção. Restringir os dados, publicá-los em linguagem técnica ou apenas repassá-los e esperar orientações não gera ação compartilhada no território.",
+  "porAlt": [
+   "Restringir os dados à equipe e à gestão contraria a transparência e exclui a comunidade da construção das ações.",
+   "Boletim em linguagem técnica afixado no mural informa pouco e não mobiliza a população para ações conjuntas.",
+   "Correta: discutir os dados no conselho local com lideranças comunitárias mobiliza ações compartilhadas de promoção e prevenção.",
+   "A equipe não precisa aguardar o Conselho Municipal para agir; o planejamento local é atribuição da própria equipe com a comunidade."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 58 anos procura Unidade Básica de Saúde (UBS) para renovar receita de diazepam 10 mg. Refere que faz uso da medicação há 25 anos e que não consegue adormecer sem ele. Inclusive, queixa-se de que a medicação vem perdendo eficácia e que sua memória está muito ruim. Nesse caso, a conduta mais adequada é",
+  "alts": [
+   "renovar a receita, orientar o uso moderado do diazepam e associar melatonina.",
+   "reduzir gradualmente o diazepam e introduzir medicação não benzodiazepínica.",
+   "suspender o uso do diazepam, não renovar a receita e orientar higiene do sono.",
+   "ajustar a dosagem do diazepam para 15 mg e avaliar melhora do sono para novos ajustes."
+  ],
+  "gab": 1,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Joint Clinical Practice Guideline on Benzodiazepine Tapering (ASAM e sociedades parceiras), 2025; American Geriatrics Society Beers Criteria, 2023",
+  "coment": "Uso de diazepam há 25 anos com tolerância (perda de eficácia) e queixa de memória caracteriza dependência de benzodiazepínico com efeito adverso cognitivo. A conduta é pactuar a desprescrição com redução gradual da dose, em geral 5 a 10% a cada 2 a 4 semanas, ajustada à tolerância, para evitar síndrome de abstinência (ansiedade rebote, insônia, convulsões). A insônia deve ser tratada com terapia cognitivo-comportamental para insônia e, se necessário, fármaco não benzodiazepínico. Renovar, aumentar a dose ou suspender abruptamente são condutas inadequadas.",
+  "porAlt": [
+   "Renovar perpetua a dependência e o prejuízo cognitivo; melatonina não substitui a desprescrição planejada.",
+   "Correta: retirada gradual do benzodiazepínico com alternativa não benzodiazepínica trata a dependência sem provocar abstinência grave.",
+   "Suspensão abrupta após 25 anos de uso pode causar abstinência grave, inclusive convulsões.",
+   "Aumentar a dose reforça a tolerância e piora a memória e o risco de quedas."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 32 anos, previamente hígida, apresenta quadro de disúria, polaciúria, urgência miccional e dor lombar esquerda há 3 dias, sem outras queixas genito-urinárias. Vem tomando analgésicos e anti-inflamatórios não esteroides, porém sem melhora. No 4º dia, evoluiu com febre, calafrios, náuseas e vômitos, piora da lombalgia esquerda e astenia intensa. Foi levada ao pronto-socorro pelo seu esposo. Ao exame, temperatura axilar de 38,3 °C; frequência cardíaca de 110 bpm; frequência respiratória de 32 irpm; pressão arterial de 70 x 40 mmHg; saturação de O2 de 96% em ar ambiente. Consciente e orientada, corada, desidratada (+/4+), acianótica, anictérica. Ausculta cardíaca e pulmonar sem alterações. Abdome doloroso em flanco esquerdo e hipogástrio. Sinal de Giordano positivo à esquerda. Extremidades sem alterações. Realizou exame de imagem que descartou a presença de cálculos urinários. Com base no diagnóstico mais provável, qual é a conduta adequada?",
+  "alts": [
+   "Controle da dor e da febre e encaminhamento ao ambulatório de urologia para investigação e conduta específica.",
+   "Expansão volêmica com cristaloides, solicitação de culturas de sangue e urina e início precoce de antibioticoterapia.",
+   "Tratamento empírico de gonorreia, solicitação de sorologias para HIV, sífilis e hepatites virais e notificação do caso.",
+   "Alta hospitalar com prescrição de hidratação e antibioticoterapia empírica via oral e acompanhamento ambulatorial."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock, 2026; IDSA 2025 Guideline on Management and Treatment of Complicated Urinary Tract Infections",
+  "coment": "Cistite que evoluiu com febre, calafrios, dor lombar e Giordano positivo é pielonefrite aguda, e a paciente tem hipotensão (70 x 40 mmHg), taquicardia e taquipneia, portanto sepse com hipoperfusão, provável choque séptico de foco urinário. A conduta é ressuscitação volêmica imediata com cristaloide, coleta de hemoculturas e urocultura sem atrasar o antibiótico, e antibioticoterapia intravenosa de amplo espectro na primeira hora, com vasopressor se a PAM seguir abaixo de 65 mmHg. A imagem já afastou obstrução, que exigiria desobstrução urgente.",
+  "porAlt": [
+   "Paciente hipotensa e taquicárdica tem sepse grave; tratar só sintomas e encaminhar ao ambulatório é conduta de risco de morte.",
+   "Correta: expansão volêmica, culturas e antibiótico precoce são a base do manejo da sepse de foco urinário.",
+   "O quadro é pielonefrite com sepse, não uretrite ou cervicite; tratar gonorreia não aborda o foco nem a instabilidade.",
+   "Paciente hipotensa não pode receber alta; exige internação e antibiótico intravenoso."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Uma médica recém-contratada por uma operadora de plano de saúde assume uma equipe multiprofissional. A operadora implementou um programa de reorganização da linha de cuidado com enfoque no modelo de atenção primária à saúde (APS). Após três meses, a médica observa que muitos pacientes resistem ao novo fluxo de cuidados e solicitam consultas diretas com especialistas, exames de imagem de alta complexidade e procedimentos. O sistema de regulação interna da operadora determina que todos os encaminhamentos sejam realizados pela equipe da APS, exceto em casos de urgência. Com base na regulamentação da saúde suplementar, qual deve ser o papel dessa médica?",
+  "alts": [
+   "Restringir o acesso a especialidades e exames de alto custo, visto a resolutividade alta na APS.",
+   "Atuar como gestora do cuidado, utilizando critérios clínicos e diretrizes baseadas em evidências para encaminhamento.",
+   "Flexibilizar os fluxos assistenciais, autorizando diretamente os encaminhamentos solicitados para garantir a autonomia do paciente.",
+   "Delegar à equipe de regulação da operadora a responsabilidade pelos encaminhamentos e priorizar a escuta e o acolhimento dos usuários."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "ANS. Resolução Normativa nº 506/2022, Programa de Certificação de Boas Práticas em Atenção à Saúde (Atenção Primária); Starfield, Atenção Primária: equilíbrio entre necessidades de saúde, serviços e tecnologia, 2002",
+  "coment": "No modelo de APS da saúde suplementar, regulado pelo Programa de Certificação de Boas Práticas da ANS (RN 506/2022), a equipe de atenção primária é porta de entrada e coordenadora do cuidado, com acesso, longitudinalidade, integralidade e coordenação como atributos centrais. O papel da médica é atuar como gestora do cuidado: resolver o que cabe à APS e encaminhar ao especialista ou a exames de alta complexidade segundo critérios clínicos e diretrizes baseadas em evidência. Isso evita tanto a restrição indevida de acesso quanto o uso excessivo de recursos.",
+  "porAlt": [
+   "Restringir acesso por custo contraria a integralidade; o encaminhamento deve seguir critério clínico, não barreira econômica.",
+   "Correta: a médica da APS coordena o cuidado e encaminha com base em critérios clínicos e diretrizes baseadas em evidência.",
+   "Autorizar tudo o que é pedido esvazia a coordenação do cuidado e leva a uso excessivo e fragmentado de recursos.",
+   "Delegar os encaminhamentos à regulação administrativa retira da APS justamente sua função de coordenar o cuidado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 22 anos, com histórico de transtorno de ansiedade, sem tratamento medicamentoso, se dirige à Unidade de Pronto Atendimento (UPA) com queixa de dor epigástrica, palpitação, falta de ar e sensação de morte iminente. Exame físico: frequência cardíaca de 96 bpm, frequência respiratória de 24 irpm, pressão arterial de 120 x 80 mmHg, bulhas cardíacas e ausculta torácica sem anormalidades, ausência de tiragem intercostal, abdome sem alterações. Após exames complementares, foi descartada doença cardiovascular ou respiratória aguda, porém o paciente apresentou novo episódio semelhante. Quais fármacos podem ser prescritos na crise e a longo prazo, respectivamente?",
+  "alts": [
+   "Benzodiazepínico; inibidor de recaptação de serotonina.",
+   "Anti-histamínico; inibidor da monoaminoxidase.",
+   "Antipsicótico atípico; antidepressivo tricíclico.",
+   "Vasodilatador; antipsicótico típico."
+  ],
+  "gab": 0,
+  "tema": "psiq",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "NICE CG113, Generalised anxiety disorder and panic disorder in adults, 2011 (atualizada 2020); APA Practice Guideline for the Treatment of Patients With Panic Disorder, 2009",
+  "coment": "Episódios súbitos de palpitação, dispneia, dor epigástrica e sensação de morte iminente, recorrentes e com exclusão de causa cardiovascular e respiratória, caracterizam ataques de pânico, sugerindo transtorno de pânico. Na crise, um benzodiazepínico de uso pontual e por curto prazo (por exemplo, alprazolam ou clonazepam) alivia os sintomas. O tratamento de manutenção de primeira linha é um inibidor seletivo da recaptação de serotonina, iniciado em dose baixa, associado à terapia cognitivo-comportamental. O benzodiazepínico não deve ser mantido a longo prazo pelo risco de dependência.",
+  "porAlt": [
+   "Correta: benzodiazepínico pontual na crise e ISRS como tratamento de longo prazo, com psicoterapia.",
+   "Anti-histamínico não aborta a crise de pânico, e IMAO não é primeira linha pelo perfil de interações e restrição dietética.",
+   "Antipsicótico não é indicado no pânico, e tricíclico é segunda linha pela pior tolerabilidade.",
+   "Vasodilatador não tem papel no pânico, e antipsicótico típico não trata transtorno de ansiedade."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 62 anos, com colelitíase sintomática, é admitida em hospital de atenção secundária com quadro de dor abdominal em hipocôndrio direito, febre com calafrios e icterícia. Ao exame físico, além da icterícia, a paciente encontra-se com o sensório rebaixado e pressão arterial de 72 x 44 mmHg. O exame de ultrassonografia revelou a presença de dilatação de via biliar por cálculo impactado no colédoco. Foram coletadas hemoculturas e dosagem sérica de lactato, iniciada antibioticoterapia intravenosa de amplo espectro e foi prescrito resgate volêmico com cristaloide, sendo programada a realização de colangiopancreatografia retrógrada endoscópica (CPRE) terapêutica. Após cerca de 30 minutos, a paciente mantém pressão arterial média inferior a 65 mmHg. Nesse momento, a conduta prioritária é",
+  "alts": [
+   "encaminhar imediatamente à CPRE.",
+   "associar coloide à hidratação intravenosa.",
+   "iniciar infusão intravenosa de noradrenalina.",
+   "prescrever hidrocortisona em infusão intermitente."
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock, 2026; Tokyo Guidelines 2018 (TG18) para colangite aguda",
+  "coment": "Febre, icterícia e dor em hipocôndrio direito (tríade de Charcot) com confusão e hipotensão (pêntade de Reynolds) indicam colangite aguda grave, grau III de Tóquio, com choque séptico. Culturas, lactato, antibiótico e cristaloide já foram feitos. Como a PAM permanece abaixo de 65 mmHg após a reposição inicial, a prioridade é iniciar noradrenalina, o vasopressor de primeira escolha, que pode começar por acesso periférico sem aguardar cateter central. A drenagem biliar por CPRE é urgente, mas deve ser feita com o paciente minimamente estabilizado.",
+  "porAlt": [
+   "A drenagem biliar é necessária, mas levar à CPRE paciente com PAM abaixo de 65 mmHg sem vasopressor aumenta o risco do procedimento.",
+   "Coloide não é recomendado como reposição inicial, e insistir em volume sem vasopressor prolonga a hipotensão.",
+   "Correta: hipotensão persistente após volume em choque séptico exige noradrenalina para PAM de pelo menos 65 mmHg.",
+   "Hidrocortisona se reserva ao choque que exige vasopressor em doses crescentes, e não substitui a noradrenalina como primeiro passo."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ }
+]

@@ -1,0 +1,731 @@
+[
+ {
+  "q": "A equipe de uma Unidade Básica de Saúde (UBS) está preocupada com o aumento de casos de hipertensão arterial entre adultos jovens na comunidade. Então, decide realizar um estudo observacional para investigar se o sedentarismo está associado ao aumento do risco de hipertensão nessa população. O estudo dividiu os participantes em dois grupos, sedentários e não sedentários, e acompanhou esses dois grupos por 12 meses para observar o surgimento de novos casos de hipertensão. Ao final do estudo, é identificado o risco relativo (RR) de 0,6. Nesse estudo, o valor do RR permite inferir que",
+  "alts": [
+   "o sedentarismo pode ser um fator protetor para o desenvolvimento da hipertensão.",
+   "a prevalência da doença pode ser avaliada, sem possibilidades de associação dos fatores.",
+   "os sedentários têm maior risco de desenvolver hipertensão em comparação com os não sedentários.",
+   "o desenho do estudo em questão não permite o uso do RR para avaliar associação entre as variáveis."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Celentano DD, Szklo M. Gordis Epidemiology, 6ª ed., 2019; Rouquayrol MZ, Silva MGC. Epidemiologia & Saúde, 8ª ed., 2018",
+  "coment": "Em uma coorte, o risco relativo é a incidência nos expostos dividida pela incidência nos não expostos. Aqui a exposição é o sedentarismo: RR de 0,6 significa que os sedentários tiveram 60% da incidência de hipertensão observada nos não sedentários, ou seja, 40% menos risco. Pela leitura direta do número, RR menor que 1 indica associação protetora. O resultado contraria a plausibilidade biológica e deve levantar suspeita de viés, confundimento ou acaso (checar o intervalo de confiança), mas a inferência que o valor permite é a de fator protetor.",
+  "porAlt": [
+   "Correta: RR abaixo de 1 em coorte indica que a exposição se associou a menor incidência, isto é, efeito protetor.",
+   "Coorte mede incidência (casos novos) e permite medir associação; prevalência é medida de estudos transversais.",
+   "Maior risco nos sedentários exigiria RR acima de 1; o valor 0,6 aponta o sentido oposto.",
+   "O RR é justamente a medida de associação típica da coorte, que acompanha expostos e não expostos no tempo."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 43 anos, dependente de álcool há 23 anos (20 doses de aguardente/dia), teve queda da própria altura com fratura fechada de tíbia, sem traumatismo cranioencefálico. Levado ao pronto-socorro, constata-se, além da fratura, nível de consciência e atenção flutuantes, desorientação temporoespacial parcial. Glicemia capilar de 45 mg/dL. Prescreve-se imediatamente reposição de glicose e hidratação. Paciente evolui com melhora inicial do estado mental e piora nas horas seguintes, passando a apresentar confusão mental, rebaixamento do nível de consciência, alterações oculares e ataxia. Encontra-se, então, hidratado, com glicemia capilar de 90 mg/dL e eletrólitos dentro da faixa de normalidade. Para tratar o quadro atual desse paciente, a seguinte conduta medicamentosa deve ser realizada imediatamente:",
+  "alts": [
+   "biperideno, solução injetável 5 mg/mL, 1 ampola intravenosa lentamente.",
+   "diazepam, solução injetável 10 mg/mL, 1 ampola intravenosa lentamente.",
+   "haloperidol, solução injetável 5 mg/mL, 1 ampola intramuscular em região glútea.",
+   "tiamina, solução injetável 100 mg/mL, 5 ampolas diluídas em soro fisiológico durante 30 minutos."
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy (Galvin et al.), 2010",
+  "coment": "Etilista crônico que recebeu glicose sem tiamina e, horas depois, desenvolve confusão, alterações oculares (nistagmo, oftalmoparesia) e ataxia tem a tríade da encefalopatia de Wernicke, precipitada pelo consumo de tiamina no metabolismo da glicose. O diagnóstico é clínico e o tratamento não espera exames: tiamina parenteral em dose alta, de 200 a 500 mg IV três vezes ao dia por alguns dias (500 mg em 30 minutos é o esquema consagrado), seguida de reposição oral. A regra prática é dar tiamina antes ou junto com a glicose em todo etilista ou desnutrido.",
+  "porAlt": [
+   "Biperideno trata reações extrapiramidais agudas por antipsicóticos, não deficiência de tiamina.",
+   "Diazepam trata abstinência alcoólica e convulsões, mas não corrige a causa deste quadro neurológico.",
+   "Haloperidol pode sedar a confusão, mas mascara o quadro e deixa progredir a lesão por falta de tiamina.",
+   "Correta: tiamina parenteral em dose alta trata a encefalopatia de Wernicke precipitada pela glicose."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 50 anos apresentou-se ao serviço de emergência após episódio de hematêmese. Relata história de 3 meses de dor epigástrica e diarreia fétida, amarelada, pastosa, com algumas gotas de gordura, e perda de peso significativa. Histórico de ingestão de 500 mL de bebida alcoólica destilada, por dia, durante 15 anos. Exame físico: paciente emagrecido, índice de massa corporal de 17 kg/m²; temperatura axilar de 36,5 °C; mucosas hipocoradas ++/4+; hidratadas; ictéricas +/4+; aparelho respiratório sem alterações; aparelho cardiovascular com bulhas rítmicas e hiperfonéticas; frequência cardíaca de 87 bpm; pressão arterial de 120 x 80 mmHg; abdome pouco distendido, com sensibilidade à palpação epigástrica e ruídos hidroaéreos normais. Os resultados dos testes laboratoriais, incluindo lipase sérica e testes de função hepática, estavam dentro dos limites normais. A tomografia computadorizada do abdome mostrou extensa calcificação do pâncreas, sem evidência de edema pancreático ou presença de líquido peripancreático. A endoscopia digestiva alta revelou enantema em antro. De acordo com o quadro clínico, o exame físico e os exames complementares, qual é a conduta mais adequada?",
+  "alts": [
+   "Internação, jejum, hidratação venosa e analgésicos.",
+   "Analgesia, estadiamento e avaliação para possível indicação cirúrgica.",
+   "Internação, analgesia e colangiopancreatografia retrógrada endoscópica.",
+   "Interrupção da ingestão de álcool e prescrição de analgésico e pancreatina."
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Chronic Pancreatitis, 2020; HaPanEU/UEG evidence-based guidelines for chronic pancreatitis, 2017",
+  "coment": "Etilismo pesado de longa data, dor epigástrica crônica, esteatorreia, emagrecimento e calcificações pancreáticas na tomografia fecham o diagnóstico de pancreatite crônica com insuficiência exócrina. Lipase normal é esperada, pois o parênquima está destruído. O tratamento se apoia em abstinência de álcool e tabaco, analgesia escalonada e reposição de enzimas pancreáticas junto às refeições, que corrige a esteatorreia e a desnutrição. Não há sinais de pancreatite aguda, obstrução ductal ou massa que indiquem jejum, CPRE ou cirurgia.",
+  "porAlt": [
+   "Jejum e hidratação venosa são condutas de pancreatite aguda; não há edema, líquido peripancreático nem lipase elevada.",
+   "Não há massa a estadiar, e a cirurgia fica reservada para dor refratária ou complicações estruturais.",
+   "CPRE se indica para obstrução ductal ou biliar demonstrada, ausente neste caso.",
+   "Correta: abstinência alcoólica, analgesia e enzimas pancreáticas tratam a dor e a insuficiência exócrina da pancreatite crônica."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Paciente de 58 anos, trabalhador rural, encaminhado ao ambulatório de dermatologia com queixa de sangramento frequente em lesão pruriginosa em região plantar direita há 30 dias. Ao exame clínico, nota-se na região mencionada uma lesão com bordas irregulares, hipercrômica (em tons de preto, castanho, cinza), medindo 12 mm em seu maior diâmetro. Considerando as características dessa lesão, qual é a principal hipótese diagnóstica?",
+  "alts": [
+   "Carcinoma espinocelular.",
+   "Carcinoma basocelular.",
+   "Queratose actínica.",
+   "Melanoma."
+  ],
+  "gab": 3,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "European consensus-based interdisciplinary guideline for melanoma, Part 1: Diagnostics (EADO/EDF/EORTC), update 2024",
+  "coment": "A lesão pigmentada plantar em adulto preenche vários critérios do ABCDE: bordas irregulares, múltiplas cores (preto, castanho, cinza), diâmetro de 12 mm e evolução com sangramento e prurido. Na região plantar, o subtipo típico é o melanoma lentiginoso acral, o mais frequente em pessoas de pele negra e parda e muitas vezes diagnosticado tarde. A conduta é dermatoscopia e biópsia, preferencialmente excisional, para confirmação histológica e medida da espessura de Breslow, que orienta o estadiamento e a ampliação de margens.",
+  "porAlt": [
+   "Carcinoma espinocelular costuma ser lesão queratótica ou ulcerada em área fotoexposta, sem a policromia descrita.",
+   "Carcinoma basocelular é raro na planta e se apresenta como pápula perolada com telangiectasias, não como lesão multicolorida.",
+   "Queratose actínica é lesão áspera e descamativa em pele fotoexposta, sem pigmentação irregular nem sangramento.",
+   "Correta: lesão pigmentada plantar com bordas irregulares, várias cores, mais de 6 mm e sangramento sugere melanoma acral."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher de 82 anos, com diagnóstico de câncer de pâncreas, foi levada pela filha para atendimento. Após avaliação clínica e realização de exames, o médico informa que o caso está fora de possibilidade terapêutica. A filha insiste na realização de um tratamento novo com um medicamento importado que ela viu na internet, enquanto a paciente, lúcida e capaz, discorda da utilização de intervenções experimentais. O médico, ao concordar com a decisão da paciente, está resguardado pelo princípio bioético da",
+  "alts": [
+   "autonomia.",
+   "beneficência.",
+   "não maleficência.",
+   "justiça distributiva."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Conselho Federal de Medicina. Código de Ética Médica, Resolução CFM nº 2.217/2018 (arts. 31 e 41); Beauchamp e Childress, Principles of Biomedical Ethics, 8ª ed., 2019",
+  "coment": "A paciente é lúcida e capaz e recusa um tratamento experimental. Respeitar essa decisão expressa o princípio da autonomia: a pessoa capaz decide sobre intervenções no próprio corpo, e a vontade de familiares não se sobrepõe à dela. O Código de Ética Médica veda desrespeitar o direito do paciente de decidir livremente sobre práticas diagnósticas e terapêuticas (art. 31) e, em doença incurável e terminal, orienta oferecer cuidados paliativos sem ações inúteis ou obstinadas, considerando a vontade expressa do paciente (art. 41, parágrafo único).",
+  "porAlt": [
+   "Correta: a decisão livre e informada da paciente capaz prevalece sobre o desejo da filha.",
+   "Beneficência orienta agir em favor do bem do paciente, mas o que resguarda o médico aqui é o respeito à escolha dela.",
+   "Não maleficência também se aplica (evitar tratamento fútil), porém o fundamento central é a vontade da paciente capaz.",
+   "Justiça distributiva trata da alocação equitativa de recursos, não da decisão individual sobre o tratamento."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Em Unidade de Pronto Atendimento (UPA), mulher de 30 anos, negra, casada, refere vários episódios de dores nas pernas no último ano, às vezes com edema local, e dores torácicas, associadas à febre, coriza e tosse, apresentando melhora com paracetamol há 1 semana. Relata fortes dores em membros inferiores, intensidade 8/10, sem irradiação, e dor na região lombar, fadiga, indisposição e edema doloroso em tornozelo sem melhora, com utilização de analgésicos há 1 dia. Pai faleceu aos 40 anos devido a acidente vascular encefálico. Exame físico: eupneica; afebril; mucosas descoradas (++/4+); icterícia (+/4+). Sem alterações nos sinais vitais. Ausculta cardíaca com sopro sistólico (++/4+). Abdome plano, sem visceromegalias. Edema unilateral sem empastamento em tornozelo esquerdo (++/4+), associado à úlcera maleolar de 2 cm, com secreção purulenta e hiperemia nas bordas. Os exames laboratoriais apresentam os seguintes resultados: Exame Resultado Valor de referência Hematócrito 24% 36 a 47% Hemoglobina 8,2 g/dL 12,5 a 16,0 g/dL Reticulócitos 135.000/mm³ 20.000 a 100.000/mm³ Leucócitos 11.000/mm³ 4.000 a 11.000/mm³ Plaquetas 420.000/mm³ 150.000 a 450.000/mm³ Glicemia 80 mg/dL 70 a 99 mg/dL de jejum Colesterol total 151 mg/dL Abaixo de 200 mg/dL HDL-C 53 mg/dL Acima de 50 mg/dL Triglicerídeos 134 mg/dL Abaixo de 150 mg/dL Esfregaço Apresenta drepanócitos ----- ECG Sem alterações ----- Qual achado no exame complementar confirma a principal hipótese diagnóstica para o caso?",
+  "alts": [
+   "Presença de hemoglobina S na eletroforese de hemoglobina.",
+   "Identificação de hemácias falciformes na análise de gota espessa.",
+   "Predomínio de gamaglobulina na eletroforese de proteínas plasmáticas.",
+   "Observação de glóbulos vermelhos destruídos no esfregaço sanguíneo."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde. PCDT da Doença Falciforme, Portaria Conjunta SAES/SECTICS nº 16/2024",
+  "coment": "Mulher negra com crises dolorosas recorrentes, anemia hemolítica (reticulocitose, icterícia), úlcera maleolar e drepanócitos no esfregaço tem doença falciforme como principal hipótese. O esfregaço levanta a suspeita, mas a confirmação exige identificar a hemoglobina S por eletroforese de hemoglobina ou HPLC (cromatografia líquida de alta eficiência), que também define o genótipo (SS, SC, S-beta-talassemia). O quadro atual sugere crise vaso-oclusiva com úlcera de perna infectada.",
+  "porAlt": [
+   "Correta: a eletroforese (ou HPLC) demonstra a hemoglobina S e define o genótipo, confirmando a doença falciforme.",
+   "Gota espessa é exame para pesquisa de plasmódio na malária, não para confirmar hemoglobinopatia.",
+   "Pico de gamaglobulina na eletroforese de proteínas investiga gamopatias e inflamação crônica, não anemia falciforme.",
+   "Hemácias fragmentadas sugerem hemólise microangiopática e não confirmam hemoglobinopatia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Homem de 60 anos é encaminhado ao ambulatório da atenção secundária devido à queimação em região epigástrica há 6 meses. Já realizou 2 ciclos de 30 dias de inibidor de bomba de próton, com melhora parcial e temporária da queixa. Apresenta perda de peso involuntária aproximada de 20% nos últimos 6 meses. Nega vômitos ou hematêmese. Exame físico sem alterações relevantes. Quais são, respectivamente, a principal hipótese diagnóstica e a conduta adequada para o caso?",
+  "alts": [
+   "Dispepsia funcional; amitriptilina.",
+   "Colelitíase; ultrassonografia de abdome.",
+   "Câncer gástrico; endoscopia digestiva alta.",
+   "Doença do refluxo gastroesofágico; pHmetria."
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACG and CAG Clinical Guideline: Management of Dyspepsia, 2017",
+  "coment": "Dispepsia em homem de 60 anos com perda de peso involuntária de 20% e resposta só parcial ao IBP é dispepsia com sinal de alarme. Idade de 60 anos ou mais já indica endoscopia digestiva alta pela diretriz ACG/CAG, e o emagrecimento importante reforça a suspeita de neoplasia gástrica. A endoscopia com biópsias e pesquisa de Helicobacter pylori é o exame inicial; tratar empiricamente ou rotular como funcional sem endoscopia atrasa o diagnóstico de câncer.",
+  "porAlt": [
+   "Dispepsia funcional é diagnóstico de exclusão e não se aplica sem endoscopia em paciente com perda de peso importante.",
+   "Colelitíase causa cólica biliar episódica em hipocôndrio direito, não queimação epigástrica contínua com emagrecimento.",
+   "Correta: idade de 60 anos e perda de peso são sinais de alarme que exigem endoscopia para afastar câncer gástrico.",
+   "pHmetria não é exame inicial e ignoraria os sinais de alarme que apontam para neoplasia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.2"
+  }
+ },
+ {
+  "q": "Mulher, 53 anos, relata episódios de cefaleia desde os 24 anos. Nos últimos dois anos, tem apresentado de 2 a 3 episódios mensais, com um máximo de 10 dias de dor por mês. Geralmente a dor de cabeça é precedida por sintomas visuais, como pontos cintilantes que duram aproximadamente 30 minutos. A dor costuma durar de 8 a 24 horas, é pulsátil, unilateral, de intensidade moderada a forte, acompanhada de fotofobia, fonofobia e náuseas. Em algumas ocasiões, houve episódios de vômito. A paciente está preocupada com o uso frequente de analgésicos e anti-inflamatórios. Queixa-se ainda de insônia frequente. Relata asma na infância e atualmente crises eventuais de broncoespasmo. Nega tabagismo, etilismo, doenças crônicas como diabetes e hipertensão arterial, bem como uso contínuo de medicamentos. A conduta farmacológica de uso contínuo, diário e mais indicada como profilaxia para os episódios de cefaleia desta paciente é",
+  "alts": [
+   "ibuprofeno 400 mg.",
+   "propanolol 40 mg.",
+   "sumatriptano 50 mg.",
+   "amitriptilina 25 mg."
+  ],
+  "gab": 3,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Consenso da Sociedade Brasileira de Cefaleia sobre o tratamento profilático da migrânea, 2022; American Headache Society Consensus Statement, 2021",
+  "coment": "Migrânea com aura, com 2 a 3 crises por mês e até 10 dias de dor, impacto funcional e uso frequente de analgésicos (risco de cefaleia por uso excessivo de medicação) justifica profilaxia diária. A escolha considera comorbidades: a asma com broncoespasmo atual contraindica betabloqueador não seletivo como o propranolol, e a insônia favorece a amitriptilina, que tem eficácia estabelecida na profilaxia da migrânea e efeito sedativo útil em dose baixa à noite. Triptanos e AINE são tratamento de crise, não profilaxia.",
+  "porAlt": [
+   "Ibuprofeno é tratamento sintomático da crise; uso diário favorece cefaleia por uso excessivo de medicação.",
+   "Propranolol é profilático eficaz, mas é contraindicado na asma com broncoespasmo por ser betabloqueador não seletivo.",
+   "Sumatriptano aborta crises e não deve ser usado de forma contínua como profilaxia.",
+   "Correta: amitriptilina previne migrânea e ainda ajuda na insônia, sem o risco broncoespástico do propranolol."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher de 88 anos é trazida à Unidade de Pronto Atendimento (UPA) pelo SAMU, com queixa de dor intensa em quadril direito após queda da própria altura. Possui antecedentes de hipertensão arterial sistêmica e diabetes mellitus, em acompanhamento regular. Nega outras comorbidades ou uso prévio de psicotrópicos. É diagnosticada com fratura de colo de fêmur e aguarda transferência hospitalar. Apresenta dor significativa no quadril, exacerbada à mobilização passiva, a despeito da administração de dipirona endovenosa. Após 6 horas na UPA, evolui com desatenção, agitação psicomotora alternada com apatia e discurso desconexo, com tomografia de crânio normal. Exame físico: PA 138 x 76 mmHg; FC 102 bpm; FR 22 irpm; Temperatura 36,5 °C; SpO2 94% em ar ambiente; glicemia capilar 120 mg/dL. Pupilas isocóricas e fotorreagentes; ausculta cardiopulmonar sem alterações; abdome indolor e sem visceromegalias; ausência de déficits neurológicos focais. Considerando o quadro clínico apresentado, o(s) principal(is) fator(es) precipitante(s) é(são)",
+  "alts": [
+   "hipoxemia.",
+   "comorbidades prévias.",
+   "dor não controlada.",
+   "hipoglicemia."
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "NICE guideline CG103: Delirium, prevention, diagnosis and management in hospital and long-term care, atualização 2023",
+  "coment": "Idosa com fratura de colo de fêmur que evolui em horas com desatenção, flutuação entre agitação e apatia e discurso desorganizado tem delirium de subtipo misto. A busca do precipitante mostra glicemia, temperatura e tomografia normais, SpO2 de 94% sem hipoxemia relevante e dor intensa persistente apesar da dipirona. Dor não controlada é precipitante clássico de delirium na fratura de quadril, e analgesia adequada (bloqueio de nervo femoral ou da fáscia ilíaca, opioide em dose baixa) reduz sua incidência. As comorbidades são fatores predisponentes, não precipitantes.",
+  "porAlt": [
+   "SpO2 de 94% em ar ambiente não configura hipoxemia capaz de precipitar o quadro.",
+   "Hipertensão e diabetes em acompanhamento são fatores de vulnerabilidade de base, não o gatilho agudo.",
+   "Correta: dor intensa refratária à dipirona após fratura de quadril é precipitante clássico de delirium.",
+   "A glicemia capilar é de 120 mg/dL, o que afasta hipoglicemia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Um trabalhador da construção civil, 38 anos, caiu de um andaime de aproximadamente 4 metros de altura. Os colegas de trabalho o levaram imediatamente para a Unidade de Pronto Atendimento mais próxima. Na chegada, o paciente apresentava rebaixamento do nível de consciência, sangramento no couro cabeludo e sinais sugestivos de traumatismo cranioencefálico grave. Durante as manobras iniciais de estabilização, ele evoluiu para parada cardiorrespiratória, sem resposta às manobras de reanimação, vindo a óbito na própria unidade. Qual deve ser a conduta do médico responsável pelo atendimento?",
+  "alts": [
+   "Preencher a declaração de óbito, formalizar imediatamente a comunicação de acidente de trabalho, sem a necessidade de notificar o acidente de trabalho, já que os dados estarão registrados na declaração de óbito.",
+   "Encaminhar o corpo para a emissão da declaração de óbito pelo IML, que também realizará a notificação do acidente de trabalho ao Sinan e registrará a comunicação de acidente de trabalho.",
+   "Preencher a declaração de óbito, realizar a notificação compulsória de acidente de trabalho ao Sinan, a qual já servirá como comunicação de acidente de trabalho, visto que os dados são os mesmos nos dois documentos.",
+   "Encaminhar o corpo ao IML para a emissão da declaração de óbito, notificar o acidente de trabalho ao Sinan e orientar a empresa a registrar imediatamente a comunicação de acidente de trabalho."
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "emg",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Resolução CFM nº 1.779/2005 (Declaração de Óbito); Lei nº 8.213/1991, art. 22 (CAT); Portaria de Consolidação GM/MS nº 4/2017, Lista Nacional de Notificação Compulsória",
+  "coment": "Morte por queda de andaime é morte por causa externa, e a declaração de óbito deve ser emitida pelo legista do IML, mesmo que o paciente tenha recebido atendimento antes de morrer. Acidente de trabalho grave ou fatal é agravo de notificação compulsória no Sinan, a cargo do serviço de saúde que atendeu. A Comunicação de Acidente de Trabalho (CAT) é documento previdenciário distinto, de emissão obrigatória pela empresa (Lei 8.213/1991, art. 22); na omissão dela, podem emiti-la o trabalhador, dependentes, sindicato, médico ou autoridade pública. Notificação e CAT não se substituem.",
+  "porAlt": [
+   "Em morte violenta o médico assistente não emite a declaração de óbito, e a notificação ao Sinan não é dispensada pela DO.",
+   "O IML emite a declaração de óbito, mas a notificação ao Sinan cabe ao serviço que atendeu e a CAT é obrigação da empresa.",
+   "O médico da UPA não preenche a DO em morte violenta, e a notificação ao Sinan não substitui a CAT previdenciária.",
+   "Correta: DO pelo IML, notificação do acidente de trabalho fatal ao Sinan e orientação para a empresa emitir a CAT."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher de 38 anos, com diagnósticos de hipertensão arterial sistêmica, diabetes mellitus e transtorno afetivo bipolar, comparece à consulta médica com discurso desconexo, tremor grosseiro em extremidades e marcha atáxica, iniciada há alguns dias. Faz uso regular de captopril, metformina, carbonato de lítio e recentemente foi introduzida hidroclorotiazida devido a descontrole pressórico. Ao exame clínico, apresenta-se normocorada; desidratada (1+/4+); anictérica; afebril; PA 140 x 90 mmHg; FC 98 bpm e glicemia capilar 95 mg/dL. Nesse contexto, qual é a medida terapêutica mais indicada para o quadro atual?",
+  "alts": [
+   "Administrar carvão ativado.",
+   "Suspender metformina.",
+   "Administrar levodopa+carbidopa.",
+   "Suspender carbonato de lítio."
+  ],
+  "gab": 3,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "EXTRIP Workgroup. Extracorporeal Treatment for Lithium Poisoning: recommendations, 2015; CANMAT/ISBD Guidelines for the management of patients with bipolar disorder, 2018",
+  "coment": "Paciente em uso de lítio que recebe hidroclorotiazida e passa a ter tremor grosseiro, ataxia e confusão tem intoxicação por lítio. Tiazídicos reduzem a excreção renal de lítio e elevam a litemia em 25% a 40%, efeito somado ao IECA (captopril) e à desidratação. A primeira medida é suspender o lítio (e o tiazídico), dosar litemia e função renal e hidratar com soro fisiológico. Hemodiálise se indica com disfunção renal e litemia acima de 4,0 mEq/L, ou com rebaixamento de consciência, convulsão ou arritmia. Carvão ativado não adsorve lítio.",
+  "porAlt": [
+   "Carvão ativado não adsorve lítio e não se aplica à intoxicação crônica por acúmulo.",
+   "A metformina não explica tremor grosseiro, ataxia e confusão, e a glicemia está normal.",
+   "Levodopa trata parkinsonismo; o tremor e a ataxia aqui são sinais de neurotoxicidade pelo lítio.",
+   "Correta: suspender o lítio, cujo nível subiu pela interação com hidroclorotiazida e captopril, é a medida prioritária."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 58 anos, residente em área urbana com acúmulo de água parada e presença frequente de insetos, procura Unidade de Pronto Atendimento por dor articular intensa e persistente. Há 18 dias apresentou episódio de febre (38,8 °C), com duração de 3 dias, associado à mialgia importante. Após a resolução da febre, evoluiu com dor, edema e limitação funcional em punhos e tornozelos bilateralmente. Nega sintomas respiratórios, gastrointestinais, oculares, manifestações hemorrágicas ou exantema cutâneo. Fez uso inicial de analgésicos comuns e iniciou anti-inflamatório não esteroidal há 5 dias, com melhora parcial da dor. Exame físico normal, exceto edema em punhos e tornozelos bilateralmente, associado à dor na palpação e limitação da mobilidade. Exames laboratoriais sem alterações, exceto proteína C reativa discretamente elevada. Considerando o quadro clínico, o exame adequado para confirmação do diagnóstico neste momento é detecção de",
+  "alts": [
+   "antígeno NS1 para dengue.",
+   "RNA viral por RT-PCR do Zika vírus.",
+   "anticorpos IgM por sorologia para Chikungunya.",
+   "antígeno viral por ELISA para febre amarela."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde. Chikungunya: manejo clínico, 2ª ed., 2024",
+  "coment": "Febre alta de início súbito com mialgia, seguida de poliartrite simétrica e incapacitante em punhos e tornozelos em área com Aedes, sugere chikungunya, agora na fase subaguda (de 15 a 90 dias). O exame depende do tempo de doença: RT-PCR e isolamento viral servem nos primeiros dias, durante a viremia; a partir do 6º dia a sorologia IgM (ELISA) é o método de escolha. No 18º dia, IgM anti-CHIKV confirma o diagnóstico. O NS1 da dengue também só é útil na fase febril inicial.",
+  "porAlt": [
+   "NS1 detecta dengue nos primeiros dias de febre; no 18º dia já não é útil, e o quadro articular aponta chikungunya.",
+   "Zika causa exantema pruriginoso e conjuntivite com artralgia leve, e o RT-PCR não é útil após a viremia.",
+   "Correta: após o 6º dia de doença, IgM por sorologia é o exame de escolha para confirmar chikungunya.",
+   "Febre amarela cursa com icterícia, hemorragia e lesão hepática, sem poliartrite persistente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher de 78 anos comparece à Unidade Básica de Saúde, acompanhada pelo filho, apresentando queixa de sonolência diurna, tonturas e instabilidade postural. É portadora de hipertensão arterial, diabetes mellitus tipo 2, doença renal crônica estágio 3a e insônia de longa data. Faz uso de losartana, hidroclorotiazida, metformina, amitriptilina, zolpidem e omeprazol. Não há alterações clínicas ou laboratoriais que evidenciem, no momento, descompensação das patologias de base. Considerando a elaboração de um plano terapêutico individual, qual é a adaptação apropriada no tratamento e a justificativa?",
+  "alts": [
+   "Reduzir a dose de amitriptilina e substituir o zolpidem por outro sedativo hipnótico de curta duração, visando controle da insônia e melhora da sonolência diurna.",
+   "Manter a prescrição atual e orientar medidas não farmacológicas de controle do sono, visto que não há sinais de descompensação clínica ou laboratorial das doenças de base.",
+   "Suspender o uso de hidroclorotiazida e de losartana, pois o risco de hipotensão ortostática em idosos é maior que o benefício anti-hipertensivo.",
+   "Suspender progressivamente o zolpidem e a amitriptilina, pois são potencialmente inapropriados em idosos com tontura e instabilidade postural."
+  ],
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "American Geriatrics Society Beers Criteria, 2023",
+  "coment": "Idosa de 78 anos com sonolência diurna, tontura e instabilidade postural, em uso de amitriptilina e zolpidem, apresenta efeito adverso previsível de dois fármacos dos Critérios de Beers: antidepressivos tricíclicos (anticolinérgicos, sedativos, causam hipotensão ortostática) e hipnóticos Z (aumentam quedas, fraturas e delirium). A desprescrição deve ser gradual, para evitar rebote de insônia e sintomas de retirada, com terapia cognitivo-comportamental para insônia. Trocar por outro hipnótico mantém o risco.",
+  "porAlt": [
+   "Trocar zolpidem por outro hipnótico mantém o risco de quedas e sedação, e a amitriptilina continua inapropriada.",
+   "Os sintomas são efeitos adversos de medicamentos, e manter a prescrição ignora o risco de quedas.",
+   "Não há hipotensão demonstrada nem descontrole pressórico que justifique suspender os anti-hipertensivos.",
+   "Correta: amitriptilina e zolpidem estão nos Critérios de Beers e devem ser retirados de forma gradual."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher de 32 anos, residente em município de pequeno porte a 130 km da capital, portadora de doença oncológica rara, necessita realizar quimioterapia e radioterapia indisponíveis em sua cidade, sendo encaminhada para a capital por meio de Tratamento Fora do Domicílio (TFD). O tratamento será ambulatorial, em 6 ciclos, com permanência de 5 dias a cada 21 dias. Embora esteja clinicamente estável, há indicação médica de acompanhante em razão da debilidade física esperada e por se tratar do primeiro deslocamento para TFD. A gestora municipal autorizou o tratamento com transporte e ajuda de custo para a paciente, mas negou o custeio do acompanhante, sob o argumento de que a paciente é adulta e não possui laudo pericial de incapacidade de locomoção. Com base na legislação brasileira, qual é a interpretação correta para a ação da gestora?",
+  "alts": [
+   "Agiu dentro de sua autonomia, pois o custeio de acompanhante não é obrigatório, salvo em caso de menoridade, idade avançada ou incapacidade física comprovada por perícia.",
+   "A análise foi adequada quanto ao transporte do acompanhante, visto que a ajuda de custo para alimentação e pernoite dependeria de comprovação da necessidade econômica.",
+   "A negativa ao acompanhante não se sustenta, uma vez que a indicação médica registrada no laudo de TFD é suficiente para justificar o custeio.",
+   "A controvérsia não está na solicitação de acompanhante, mas no próprio TFD, pois o deslocamento intermunicipal inferior a 200 km não caracterizaria situação passível de encaminhamento."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Ministério da Saúde. Portaria SAS/MS nº 55, de 24 de fevereiro de 1999 (Tratamento Fora de Domicílio no SUS)",
+  "coment": "O Tratamento Fora de Domicílio, regulado pela Portaria SAS/MS nº 55/1999, garante transporte e ajuda de custo para alimentação e pernoite ao paciente do SUS quando o tratamento não está disponível no município e a distância supera 50 km. A mesma portaria permite o custeio do acompanhante quando houver indicação médica que justifique por que o paciente não pode se deslocar sozinho. Não se exige perícia, menoridade ou idade avançada: o laudo médico do TFD basta. Por isso a negativa da gestora não se sustenta.",
+  "porAlt": [
+   "A portaria do TFD não exige perícia nem limita o acompanhante a menores e idosos; basta a indicação médica justificada.",
+   "A ajuda de custo do TFD não depende de comprovação de necessidade econômica, e o erro está na negativa do acompanhante.",
+   "Correta: a indicação médica registrada no laudo do TFD é suficiente para o custeio do acompanhante.",
+   "O TFD se aplica a deslocamentos acima de 50 km; 130 km caracteriza a situação."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher de 42 anos buscou Unidade Básica de Saúde com queixas de humor deprimido, anedonia, fadiga intensa, dificuldade de concentração e ganho de peso, associados a ressecamento da pele, constipação intestinal e irregularidade menstrual, por 2 meses. Foi diagnosticada com transtorno depressivo maior e começou tratamento com antidepressivo adequado, porém sem resposta clínica significativa após 12 semanas. Em consulta de retorno, relata manutenção dos sintomas, nega uso de outros medicamentos ou de drogas. Apresenta, ao exame, PA 110 x 80 mmHg; FC 64 bpm; FR 16 irpm; temperatura axilar de 37 °C e glicemia capilar de 98 mg/dL. Nesse contexto, quais exames laboratoriais devem ser solicitados para o principal diagnóstico diferencial do caso?",
+  "alts": [
+   "Fator Antinuclear, antiproteína P ribossomal e anti-Smith.",
+   "Hormônio estimulante da tireoide e tiroxina livre.",
+   "Cortisol salivar noturno e hormônio adrenocorticotrófico plasmático.",
+   "Pesquisa de anticorpo antitreponêmico."
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ATA Guidelines for the Treatment of Hypothyroidism, 2014; NICE guideline NG145 Thyroid disease: assessment and management, 2019",
+  "coment": "Depressão refratária a 12 semanas de antidepressivo, com ganho de peso, pele seca, constipação, irregularidade menstrual e frequência cardíaca de 64 bpm, sugere hipotireoidismo, principal diagnóstico diferencial orgânico de sintomas depressivos na mulher de meia-idade. A avaliação inicial é TSH com T4 livre: TSH elevado com T4 livre baixo confirma hipotireoidismo primário, cuja causa mais comum é a tireoidite de Hashimoto. A reposição de levotiroxina costuma melhorar os sintomas de humor.",
+  "porAlt": [
+   "FAN, anti-P ribossomal e anti-Sm investigam lúpus, que traria artrite, citopenias ou lesões cutâneas, ausentes aqui.",
+   "Correta: TSH e T4 livre confirmam o hipotireoidismo sugerido por pele seca, constipação, ganho de peso e humor deprimido.",
+   "Cortisol salivar noturno investiga síndrome de Cushing, que traria hipertensão, estrias violáceas e fraqueza proximal.",
+   "Sorologia treponêmica não tem pista clínica ou epidemiológica neste quadro."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Em uma Unidade Básica de Saúde, o médico de família e comunidade atende, na mesma semana, 4 crianças entre 7 e 9 anos com quadro de febre baixa, fadiga, náuseas e icterícia há 4 dias. Exames laboratoriais evidenciam anticorpo IgM anti-HAV. A equipe de saúde identifica que todas frequentam a mesma escola, em cuja rua houve um transbordamento de esgoto na semana anterior ao início dos sintomas. Considerando as diretrizes de vigilância em saúde para o controle de doenças transmissíveis e a organização da rede de atenção, qual deve ser o plano de intervenção?",
+  "alts": [
+   "Determinar o isolamento hospitalar dos casos para interromper a cadeia de transmissão fecal-oral na comunidade.",
+   "Notificar o surto imediatamente e realizar a busca ativa de sintomáticos na escola e nos domicílios.",
+   "Prescrever imunoglobulina humana para contatos da escola e domicílio.",
+   "Suspender as atividades escolares por 45 dias para aguardar o término do período de incubação viral."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed., 2023",
+  "coment": "Quatro casos de hepatite A confirmados por IgM anti-HAV, ligados à mesma escola e a uma exposição comum (transbordamento de esgoto), configuram surto, que é de notificação imediata à vigilância epidemiológica. A resposta envolve investigação do surto, busca ativa de casos entre alunos, funcionários e contatos domiciliares, orientação de higiene e saneamento e avaliação da vacinação de suscetíveis. Os casos são afastados das atividades escolares no período de transmissibilidade, sem necessidade de internação nem de fechamento prolongado da escola.",
+  "porAlt": [
+   "Hepatite A na criança costuma ser benigna; internação para isolamento não é indicada, e o controle se faz com higiene e afastamento temporário.",
+   "Correta: surto é de notificação imediata, e a busca ativa na escola e nos domicílios identifica novos casos e contatos.",
+   "Imunoglobulina não é a medida de rotina para contatos no SUS, e sem notificação e investigação o surto não é controlado.",
+   "Suspender as aulas por 45 dias é desproporcional; basta afastar os casos no período de transmissibilidade e reforçar a higiene."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 50 anos, é trazida à Unidade Básica de Saúde (UBS) em área rural, distante 100 km da sede do município, relatando que há 5 dias iniciou com quadro de disúria, hematúria macroscópica, polaciúria e febre não aferida. Relata também calafrios, náuseas, vômitos, mialgia e dor lombar. Nega outras comorbidades ou alergias. Apresenta exame de urina realizado na véspera, com nitrito positivo, bactérias incontáveis e piúria. Ao exame físico, apresenta-se em estado geral regular; febril (39,3 °C); FR 22 irpm; PA 89 x 52 mmHg; FC 104 bpm. Oximetria indica SpO2 96%. Sinal de Giordano positivo à esquerda. Sem outras alterações ao exame físico. Considerando que essa UBS conta com disponibilidade ideal dos medicamentos para o manejo inicial do caso, qual é a conduta adequada para essa paciente?",
+  "alts": [
+   "Ceftriaxona em dose de ataque por via intravenosa imediatamente na UBS, além de proceder à ressuscitação volêmica, ministrar antipirético e encaminhar a paciente para o hospital de referência.",
+   "Nitrofurantoína + antipirético por via oral imediatamente na UBS, enquanto aguarda encaminhamento para o hospital de referência, onde deverá ser realizada hemocultura e ressuscitação volêmica.",
+   "Ceftriaxona por via intravenosa imediatamente na UBS, durante as 24 horas por 5 dias, além de prescrever hidratação oral vigorosa, antipirético e seguir com acompanhamento ambulatorial diário na Atenção Primária à Saúde até o final do tratamento.",
+   "Sulfametoxazol + trimetoprima por via oral, de 12 em 12 horas por 10 dias, e antipirético, além de proceder imediatamente à ressuscitação volêmica na UBS e seguir com acompanhamento ambulatorial diário na Atenção Primária à Saúde até o final do tratamento."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock, 2026; IDSA Guideline on Management and Treatment of Complicated Urinary Tract Infections, 2025",
+  "coment": "Pielonefrite aguda (febre, calafrios, dor lombar, Giordano positivo, nitrito e piúria) com hipotensão de 89 x 52 mmHg, taquicardia e taquipneia caracteriza sepse de foco urinário com hipoperfusão. Em UBS distante do hospital, a primeira hora decide: antibiótico intravenoso de amplo espectro (ceftriaxona) imediatamente, reposição volêmica com cristaloide (30 mL/kg na hipotensão) e transferência para o hospital de referência, onde se coletam culturas e lactato e se afasta obstrução urinária. Não se atrasa o antibiótico à espera de hemoculturas indisponíveis.",
+  "porAlt": [
+   "Correta: antibiótico intravenoso imediato, reposição volêmica e transferência são as medidas da primeira hora na sepse urinária.",
+   "Nitrofurantoína não atinge nível adequado no parênquima renal e não serve para pielonefrite, muito menos com sepse.",
+   "Paciente hipotensa não pode seguir em tratamento ambulatorial; precisa de internação e monitorização.",
+   "Antibiótico oral e acompanhamento ambulatorial são inadequados para pielonefrite com hipotensão."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Homem de 57 anos faz uso de amitriptilina 100 mg/dia, há mais de 10 anos, para melhora do sono e diminuição da sensação de ansiedade. Sem histórico de comorbidades ou uso de outra medicação. Busca consulta médica em Unidade Básica de Saúde para avaliar riscos do uso prolongado da medicação. Quais exames complementares são indicados para o acompanhamento do uso de amitriptilina nesse paciente?",
+  "alts": [
+   "Creatinina, transminases hepáticas, potássio sérico e eletrocardiograma.",
+   "Creatinina, lipidograma e TSH séricos e ultrassonografia de abdome.",
+   "Transminases hepáticas, potássio sérico, ultrassonografia de abdome e radiografia de tórax.",
+   "Sódio, potássio, lipidograma e TSH séricos, eletrocardiograma e radiografia de tórax."
+  ],
+  "gab": 0,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Taylor DM, Barnes TRE, Young AH. The Maudsley Prescribing Guidelines in Psychiatry, 14ª ed., 2021",
+  "coment": "Amitriptilina 100 mg/dia por mais de 10 anos exige monitorar os riscos próprios dos tricíclicos. O principal é cardíaco: o bloqueio de canais de sódio (efeito quinidina-símile) prolonga PR, QRS e QT, e por isso o eletrocardiograma é indispensável, sobretudo após os 50 anos. A metabolização é hepática e há relatos de hepatotoxicidade, o que justifica transaminases; potássio e creatinina completam a avaliação, pois a hipocalemia potencializa arritmias. Vale também rediscutir a indicação, já que tricíclico não é primeira escolha para insônia ou ansiedade.",
+  "porAlt": [
+   "Correta: ECG, potássio, transaminases e creatinina cobrem os riscos cardíacos, eletrolíticos e hepáticos do tricíclico.",
+   "Lipidograma, TSH e ultrassonografia de abdome não monitoram efeitos adversos da amitriptilina, e falta o ECG.",
+   "Ultrassonografia de abdome e radiografia de tórax não têm papel no seguimento, e falta o ECG.",
+   "Radiografia de tórax, lipidograma e TSH não se relacionam aos riscos do fármaco, apesar do ECG presente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Homem, 52 anos, portador de cirrose hepática alcoólica, é admitido em Unidade de Emergência de um hospital secundário após apresentar rebaixamento do nível de consciência, iniciado há 24 horas. Chega confuso, desorientado, Glasgow 13, flapping positivo. Acompanhante refere aumento do volume abdominal nas últimas semanas. Ao exame físico, apresenta ascite volumosa, sem sinais de irritação peritoneal. Exames (admissão): Exame Resultado Valores de Referência INR 2,1 0,8 a 1,2 Plaquetas 62.000/mm³ 150.000 a 350.000/mm³ Creatinina 1,1 mg/dL 0,7 a 1,2 mg/dL Sódio 134 mEq/L 135 a 145 mEq/L Em relação à ascite, a conduta mais adequada é realizar",
+  "alts": [
+   "paracentese, sem necessidade de correção prévia do INR ou das plaquetas.",
+   "prescrição de espironolactona para controle de ascite e ceftriaxona para peritonite bacteriana espontânea.",
+   "paracentese após infusão de plasma fresco e plaquetas, devido ao risco de sangramento.",
+   "tomografia de abdome antes de considerar qualquer procedimento invasivo."
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "AASLD Practice Guidance: Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome, 2021; EASL Clinical Practice Guidelines for decompensated cirrhosis, 2018",
+  "coment": "Cirrótico admitido com encefalopatia hepática e ascite volumosa precisa de paracentese diagnóstica para afastar peritonite bacteriana espontânea, precipitante frequente de encefalopatia (polimorfonucleares a partir de 250/mm³ fecham o diagnóstico). INR alargado e plaquetopenia refletem a hepatopatia, mas não predizem sangramento no procedimento: AASLD e EASL não recomendam transfundir plasma ou plaquetas de rotina antes da paracentese, cujo risco de sangramento grave é muito baixo. Só se adia em coagulação intravascular disseminada ou fibrinólise clinicamente evidente.",
+  "porAlt": [
+   "Correta: a paracentese pode ser feita sem corrigir INR ou plaquetas e é necessária para afastar PBE.",
+   "Ceftriaxona empírica sem paracentese deixa de confirmar a PBE, e diurético não é a prioridade na admissão.",
+   "Transfundir plasma e plaquetas não reduz o sangramento, que é raro, e expõe a riscos transfusionais e de sobrecarga.",
+   "Tomografia não é necessária antes da paracentese e só atrasa o diagnóstico de PBE."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Em um território coberto por uma equipe de Saúde da Família, há uma fábrica de cimento perto das moradias. A equipe identifica aumento de atendimentos por sintomas respiratórios em trabalhadores e outros moradores locais, além de relatos de poeira de cimento dentro das casas. Diante dessa situação, o médico, junto à equipe, propõe elaborar um projeto de intervenção com foco em ações de prevenção aos agravos identificados. Nesse contexto, qual é a proposta de intervenção adequada?",
+  "alts": [
+   "Notificar o Sinan após estabelecer nexo causal para confirmar diagnóstico de origem ocupacional.",
+   "Manter o atendimento clínico dos casos, solicitar à empresa que distribua máscaras aos moradores e evitar articulações externas para não gerar conflitos.",
+   "Acionar os setores da Vigilância em Saúde e apoiar as intervenções pactuadas.",
+   "Estimular o mapeamento das atividades produtivas locais e realizar exames admissionais e periódicos nos trabalhadores do território."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Política Nacional de Vigilância em Saúde, Resolução CNS nº 588/2018; Política Nacional de Saúde do Trabalhador e da Trabalhadora, Portaria GM/MS nº 1.823/2012",
+  "coment": "Aumento de sintomas respiratórios em trabalhadores e moradores ligado à poeira de uma fábrica é problema de saúde ambiental e do trabalhador que ultrapassa a capacidade isolada da equipe. A Política Nacional de Vigilância em Saúde integra as vigilâncias epidemiológica, sanitária, ambiental e de saúde do trabalhador (com o CEREST), e a Política Nacional de Saúde do Trabalhador atribui à atenção primária identificar riscos no território e articular essas vigilâncias. A equipe aciona esses setores e apoia as intervenções pactuadas, sem deixar de notificar e acompanhar os casos.",
+  "porAlt": [
+   "A notificação de agravo relacionado ao trabalho não exige nexo causal confirmado; a suspeita já justifica notificar.",
+   "Evitar articulação externa contraria a lógica da vigilância em saúde, e distribuir máscaras não controla a fonte da poeira.",
+   "Correta: acionar as vigilâncias ambiental, sanitária e de saúde do trabalhador e apoiar as ações pactuadas é o papel da equipe.",
+   "Exames admissionais e periódicos são obrigação do empregador, não ação de prevenção da equipe de atenção primária."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Uma equipe de Saúde da Família está investigando o aumento de consultas por dores lombares entre trabalhadores de um polo têxtil localizado em seu território. A gestão municipal solicita que a equipe identifique se há associação entre o tipo de atividade laboral e a ocorrência de dor lombar ao longo dos anos, para subsidiar ações intersetoriais de prevenção com a Secretaria de Trabalho e Assistência Social. Nesse cenário, o tipo de estudo epidemiológico mais adequado para identificar a associação entre exposição ocupacional e dor lombar é",
+  "alts": [
+   "estudo ecológico.",
+   "estudo transversal.",
+   "estudo de coorte.",
+   "ensaio clínico."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Celentano DD, Szklo M. Gordis Epidemiology, 6ª ed., 2019",
+  "coment": "Para saber se uma exposição ocupacional se associa à ocorrência de dor lombar ao longo dos anos, é preciso partir de pessoas sem o desfecho, classificá-las pela exposição (tipo de atividade laboral) e acompanhá-las no tempo, medindo a incidência em cada grupo. Esse é o estudo de coorte, que estabelece a sequência temporal entre exposição e desfecho e permite calcular o risco relativo. O transversal mede exposição e desfecho no mesmo momento, o ecológico analisa agregados populacionais e o ensaio clínico exigiria alocar a exposição, o que é inviável e antiético.",
+  "porAlt": [
+   "Estudo ecológico usa dados agregados de grupos e não permite inferir associação no nível individual (falácia ecológica).",
+   "O transversal mede exposição e desfecho no mesmo momento, sem estabelecer temporalidade nem incidência.",
+   "Correta: a coorte acompanha expostos e não expostos no tempo e mede a incidência de dor lombar em cada grupo.",
+   "Ensaio clínico exige que o pesquisador aloque a exposição, o que é inviável e antiético para atividade laboral."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Um homem de 24 anos procura a Unidade Básica de Saúde com febre diária, fadiga intensa e odinofagia há 10 dias. Relata atividade sexual de alto risco sem preservativos nas últimas semanas. O exame físico revela faringite não exsudativa e linfonodos cervicais discretamente aumentados. Realizou teste rápido para HIV, com resultado negativo. Considerando o caso descrito e o resultado negativo do teste rápido, o seguimento propedêutico para esse paciente deve ser",
+  "alts": [
+   "repetir o teste rápido para HIV em 7 dias.",
+   "solicitar a carga viral para HIV pelo método PCR.",
+   "solicitar sorologia para o HIV com método ELISA.",
+   "dispensar novos exames."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde. Manual Técnico para o Diagnóstico da Infecção pelo HIV em Adultos e Crianças, 4ª ed., 2018; PCDT para Manejo da Infecção pelo HIV em Adultos, 2024",
+  "coment": "Febre, fadiga, faringite e linfadenopatia poucas semanas após exposição sexual de risco sugerem síndrome retroviral aguda. Nessa fase os anticorpos podem ainda não ser detectáveis (janela imunológica), e o teste rápido negativo não exclui a infecção. O RNA do HIV se torna detectável por volta de 10 dias após a infecção, antes dos anticorpos, e a carga viral é o exame indicado na suspeita de infecção aguda. Se detectável, o diagnóstico é confirmado com nova amostra e sorologia de seguimento; se negativa, é hora de discutir PrEP.",
+  "porAlt": [
+   "Repetir o teste rápido em 7 dias pode cair ainda na janela imunológica e atrasa o diagnóstico da infecção aguda.",
+   "Correta: a carga viral detecta o RNA do HIV antes dos anticorpos e é o exame para a suspeita de infecção aguda.",
+   "O ELISA também depende de anticorpos (mesmo o de quarta geração tem janela) e não é o melhor exame nesta suspeita.",
+   "Dispensar exames ignora a janela imunológica diante de quadro típico de síndrome retroviral aguda."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Homem, 64 anos, aposentado, portador de diabetes mellitus, diagnosticada há 6 anos, e hipertensão arterial, diagnosticada recentemente. Faz uso de metformina 850 mg 3 vezes ao dia e losartana 50 mg/dia em dose única. É tabagista (30 maços/ano). Nega etilismo ou outras comorbidades. Pratica caminhadas de 30 minutos 3 vezes na semana. Traz os seguintes exames para avaliação: Exame Resultado Valor de Referência Hemoglobina glicada 7,9 % 4,7 a 5,7 % Colesterol total 239 mg/dL 150 a 200 mg/dL Colesterol HDL 29 mg/dL > 40 mg/dL Triglicerídeos 235 mg/dL < 150 mg/dL Creatinina 1,2 mg/dL 0,7 a 1,2 mg/dL Albuminúria 55 mg/24h <30 mg/24h PA 142 x 85 mmHg - Para otimizar o tratamento medicamentoso deste paciente, que conjunto de medidas é mais adequado?",
+  "alts": [
+   "Acrescentar glicazida 30 mg/dia, hidroclorotiazida 50 mg/dia e atorvastatina 10 mg/dia ao esquema atual.",
+   "Acrescentar insulina 10 U à noite; aumentar losartana para 100 mg/dia e iniciar ciprofibrato 100 mg/dia.",
+   "Acrescentar dapaglifozina 10 mg/dia; aumentar losartana para 100 mg/dia e iniciar atorvastatina 40 mg/dia.",
+   "Acrescentar glibenclamida 5 mg/dia; hidroclorotiazida 25 mg e sinvastatina 20 mg/dia ao esquema atual."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ADA Standards of Care in Diabetes, 2026; KDIGO Clinical Practice Guideline for Diabetes Management in Chronic Kidney Disease, 2022",
+  "coment": "Diabético tipo 2 fora do alvo (HbA1c 7,9%), hipertenso, tabagista, com HDL baixo e albuminúria moderadamente aumentada (55 mg/24 h) tem doença renal do diabetes e alto risco cardiovascular. ADA e KDIGO recomendam iSGLT2, com benefício renal e cardiovascular comprovado independentemente da HbA1c, junto à dose máxima tolerada de BRA (losartana 100 mg) para reduzir albuminúria e pressão. O LDL estimado de cerca de 163 mg/dL pede estatina de moderada a alta intensidade, como atorvastatina 40 mg. Sulfonilureia, tiazídico em dose alta e fibrato não trazem essa proteção.",
+  "porAlt": [
+   "Gliclazida não protege rim nem coração, hidroclorotiazida 50 mg é dose excessiva e atorvastatina 10 mg é de baixa intensidade.",
+   "Insulina não é o próximo passo com HbA1c de 7,9%, e fibrato não substitui a estatina na prevenção cardiovascular.",
+   "Correta: iSGLT2, BRA em dose máxima e estatina de moderada a alta intensidade tratam glicemia, albuminúria e risco cardiovascular.",
+   "Glibenclamida causa hipoglicemia e não protege órgãos-alvo, e sinvastatina 20 mg é insuficiente para o risco do paciente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 42 anos, é levada por familiares à Unidade de Pronto Atendimento com quadro de febre, agitação e confusão mental iniciadas no dia anterior. Relatam que, nas últimas semanas, ela vinha perdendo peso, queixando-se de dor no pescoço, suando excessivamente e dizendo que seu “coração disparava” mesmo em repouso, mas não procurou atendimento médico. Referiram ainda que a paciente faz uso regular de bebidas alcoólicas, sem conseguirem precisar a quantidade. Ao exame físico, observa-se temperatura axilar de 38,4 °C, FC 156 bpm, FR 28 irpm e PA 128 x 76 mmHg. À inspeção, apresenta abaulamento na região cervical anterior; ausculta pulmonar normal; ausculta cardíaca com ritmo regular taquicárdico em dois tempos; desorientação e tremor fino de extremidades. Considerando a principal hipótese diagnóstica, a conduta inicial prioritária é",
+  "alts": [
+   "betabloqueador.",
+   "benzodiazepínico.",
+   "adenosina.",
+   "antibioticoterapia."
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "ATA Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis, 2016",
+  "coment": "Emagrecimento, sudorese, palpitações e bócio, evoluindo com febre, frequência de 156 bpm, agitação e confusão, configuram tempestade tireoidiana (escore de Burch-Wartofsky muito elevado). O tratamento é multimodal e simultâneo, mas a prioridade inicial é o bloqueio beta-adrenérgico (propranolol, que também reduz a conversão de T4 em T3, ou esmolol), que controla a taquicardia e o hipermetabolismo. Associam-se tionamida (de preferência propiltiouracil), iodo ao menos 1 hora após a tionamida, hidrocortisona, resfriamento e busca do fator precipitante.",
+  "porAlt": [
+   "Correta: o betabloqueador controla a taquicardia e os efeitos adrenérgicos e é a medida inicial prioritária na tempestade tireoidiana.",
+   "Benzodiazepínico trataria abstinência alcoólica, mas bócio, perda de peso e taquicardia extrema apontam para tireotoxicose.",
+   "Adenosina trata taquicardia supraventricular por reentrada; a taquicardia sinusal da tireotoxicose não responde a ela.",
+   "Não há foco infeccioso definido; a febre faz parte da crise tireotóxica, e antibiótico não trata a causa."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 39 anos, assintomática, comparece à Unidade Básica de Saúde para consulta de rotina. O histórico da paciente registra dois exames citopatológicos anteriores consecutivos, realizados há 3 e 4 anos, respectivamente, com resultados normais. Ela questiona sobre a necessidade de realizar o exame preventivo (papanicolau). Considerando o novo protocolo de rastreamento de câncer de colo uterino do Ministério da Saúde, qual é a indicação adequada para essa paciente?",
+  "alts": [
+   "Realizar a coleta de material vaginal para pesquisa de DNA-HPV e, caso o resultado seja negativo, orientar o retorno para novo rastreamento em 5 anos.",
+   "Manter o rastreamento com citologia oncótica convencional a cada 3 anos, reservando o teste molecular de DNA-HPV para casos de ASC-US recorrente.",
+   "Solicitar a citologia em conjunto com a pesquisa de DNA-HPV e, se houver discordância entre os métodos, encaminhar para colposcopia.",
+   "Autocoleta de material vaginal para pesquisa de DNAHPV e, caso o resultado seja negativo, dispensar a paciente de novos exames de rastreamento."
+  ],
+  "gab": 0,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde/INCA. Diretrizes Brasileiras para o Rastreamento do Câncer do Colo do Útero, Parte I: rastreamento organizado com teste molecular para detecção de DNA-HPV oncogênico, 2025",
+  "coment": "As novas diretrizes brasileiras substituem a citologia pelo teste molecular de DNA-HPV oncogênico como método primário de rastreamento, dos 25 aos 64 anos. Resultado negativo permite repetir o exame em 5 anos, porque o alto valor preditivo negativo do teste torna seguro ampliar o intervalo. Resultados positivos são triados pelo genótipo: HPV 16 ou 18 segue para colposcopia, e os demais tipos para citologia na mesma amostra. Mulheres com citologias prévias normais migram para o novo método na próxima coleta.",
+  "porAlt": [
+   "Correta: DNA-HPV negativo permite retornar ao rastreamento em 5 anos, conforme as novas diretrizes do Ministério da Saúde.",
+   "A citologia trienal deixou de ser o método primário; o DNA-HPV passou a ser o teste de rastreamento, não reserva para ASC-US.",
+   "O co-teste não é a estratégia adotada no SUS; a citologia entra apenas como triagem do DNA-HPV positivo.",
+   "Mesmo com DNA-HPV negativo aos 39 anos, o rastreamento continua a cada 5 anos até os 64 anos."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 67 anos, foi levada ao Pronto Socorro com falta de ar que iniciou há 3 horas, associada à dor torácica no hemitórax direito que piorava à inspiração profunda. Faz acompanhamento por hipertensão arterial e câncer de mama, em uso de hidroclorotiazida. Foi iniciada expansão volêmica e noradrenalina na Sala Vermelha por hipotensão e sonolência, e agora encontra-se vígil e orientada, PA 116 x 64 mmHg; FC 126 bpm; FR 20 irpm; SpO2 93% sob máscara não reinalante a 15 L/min. Tempo de enchimento capilar 4s. Exames complementares: eletrocardiograma taquicardia sinusal; troponina T ultrassensível 28 ng/L (VR < 14ng/L); creatinina sérica 2,1 mg/dL (VR: 0,5 a 0,9 mg/dL). Angiotomografia de tórax mostrou falha de enchimento em tronco de artéria pulmonar direita. Considerando o caso descrito, a conduta imediata adequada é prescrever",
+  "alts": [
+   "ácido acetilsalicílico e clopidogrel via oral.",
+   "enoxaparina subcutânea.",
+   "heparina não fracionada em bomba de infusão contínua.",
+   "alteplase em via venosa periférica."
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AHA/ACC Guideline for the Management of Acute Pulmonary Embolism, 2026",
+  "coment": "Dispneia súbita e dor pleurítica em paciente com câncer, com hipotensão que exigiu noradrenalina, falha de enchimento em artéria pulmonar principal, troponina elevada e sinais de hipoperfusão (enchimento capilar de 4 s, lesão renal aguda) caracterizam TEP de alto risco. A necessidade de vasopressor mantém essa classificação mesmo com a PA agora normal. Sem contraindicação absoluta descrita, a conduta é reperfusão imediata com trombólise sistêmica (alteplase 100 mg IV em 2 horas), seguida de heparina não fracionada. Terapia por cateter ou embolectomia ficam para contraindicação ou falha da trombólise.",
+  "porAlt": [
+   "Antiagregantes plaquetários não tratam tromboembolismo venoso e não têm papel no TEP.",
+   "Enoxaparina isolada é tratamento do TEP sem instabilidade e não é adequada com a lesão renal aguda deste caso.",
+   "Heparina não fracionada é o anticoagulante do TEP de alto risco, mas isolada não reverte o choque; deve acompanhar a reperfusão.",
+   "Correta: TEP com choque que exigiu noradrenalina é de alto risco e indica trombólise sistêmica com alteplase."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ },
+ {
+  "q": "Mulher, 36 anos, casada, nulípara, comparece à consulta em Unidade Básica de Saúde para iniciar uso de método contraceptivo. Apresenta hipertensão arterial sistêmica e lúpus eritematoso sistêmico com anticorpo antifosfolípide positivo. Relata ciclos menstruais regulares e última menstruação há 1 semana. Ao exame: IMC 32 kg/m²; PA 170 x 100 mmHg; FC 88 bpm; FR 20 irpm e erupção em “asa de borboleta” em região malar. Diante desse caso clínico, além do uso de preservativos, qual é o método contraceptivo mais indicado?",
+  "alts": [
+   "Anel vaginal.",
+   "Injetável combinado.",
+   "Implante de progesterona.",
+   "Dispositivo intrauterino de cobre."
+  ],
+  "gab": 3,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "CDC U.S. Medical Eligibility Criteria for Contraceptive Use, 2024; ACR Guideline for the Management of Reproductive Health in Rheumatic and Musculoskeletal Diseases, 2020",
+  "coment": "Lúpus com anticorpo antifosfolípide positivo e hipertensão grave (170 x 100 mmHg) contraindicam estrogênio: métodos combinados (pílula, anel, adesivo, injetável mensal) são categoria 4 nos critérios de elegibilidade, pelo risco de trombose arterial e venosa. A diretriz do ACR para saúde reprodutiva em doenças reumáticas recomenda, com antifosfolípide positivo, DIU de cobre ou de levonorgestrel. Pelos critérios do CDC, métodos só de progestagênio, como o implante, são categoria 3 no lúpus com antifosfolípide, enquanto o DIU de cobre é categoria 1.",
+  "porAlt": [
+   "O anel vaginal contém estrogênio e é categoria 4 com anticorpo antifosfolípide e hipertensão grave.",
+   "O injetável mensal é combinado, com estrogênio, e está contraindicado pelo risco trombótico.",
+   "O implante evita estrogênio, mas é categoria 3 no lúpus com antifosfolípide pelo CDC, abaixo do DIU de cobre.",
+   "Correta: o DIU de cobre é categoria 1 no lúpus com antifosfolípide e não aumenta o risco trombótico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2026,
+   "prova": "Revalida 2026.1"
+  }
+ }
+]

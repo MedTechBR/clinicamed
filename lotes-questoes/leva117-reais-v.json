@@ -1,0 +1,920 @@
+[
+ {
+  "q": "Os povos ciganos/Romani que vivem no Brasil possuem um estilo de vida não homogêneo, com uma cultura muitas vezes divergente. Portanto, é essencial que gestores e profissionais da saúde se aproximem dessa população e conheçam suas questões específicas. Nesse contexto, ao se fazer o planejamento de ações de saúde para essa população, é importante considerar que",
+  "alts": [
+   "as questões de saúde são conduzidas por homens na maioria das comunidades ciganas/Romani, motivo pelo qual as mulheres não devem ir ao hospital sozinhas.",
+   "a depressão e o suicídio são problemas de saúde nas comunidades ciganas/Romani, com maior incidência em mulheres, sendo motivados pelo racismo e por outras formas de violência.",
+   "as mulheres são as lideranças mais respeitadas por toda a comunidade cigana/Romani; por isso, para criar um vínculo de confiança com a comunidade, os agentes públicos de saúde devem iniciar a interlocução com elas.",
+   "os povos ciganos/Romani optam, em sua grande maioria, por se manterem nômades, buscando formas alternativas de garantir saúde e educação, apesar de atualmente algumas famílias ciganas/Romani preferirem residências fixas."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde, Política Nacional de Atenção Integral à Saúde do Povo Cigano/Romani (Portaria GM/MS nº 4.384/2018)",
+  "coment": "A Política Nacional de Atenção Integral à Saúde do Povo Cigano/Romani (2018) reconhece que depressão e suicídio merecem atenção especial nessas comunidades, com maior prevalência entre as mulheres, e relaciona esse sofrimento ao histórico de perseguição, ao preconceito, ao racismo e a outras formas de violência. O planejamento em saúde deve partir da heterogeneidade desses povos, sem generalizações sobre nomadismo, liderança ou papéis de gênero, e incluir saúde mental e enfrentamento da discriminação como eixos do cuidado.",
+  "porAlt": [
+   "Generaliza um papel de gênero a comunidades heterogêneas e cria restrição de acesso que contraria o princípio da equidade.",
+   "Correta: a política reconhece depressão e suicídio como problemas relevantes, mais frequentes em mulheres, ligados a racismo e violência.",
+   "Não há regra universal de liderança feminina; a aproximação deve respeitar a organização própria de cada grupo, sem pressupostos.",
+   "A maior parte dos ciganos no Brasil vive hoje de forma sedentária ou seminômade; o nomadismo não é a regra predominante."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 67 anos, com histórico de doença pulmonar obstrutiva crônica há 10 anos e tabagismo há 50 anos, é levado a unidade de pronto atendimento com desconforto respiratório, tosse e confusão mental há 2 horas. Familiar relata que, nos últimos 5 dias, houve piora progressiva da dispneia e aumento do volume de expectoração, além de mudança no aspecto dessa secreção, que passou de amarelo claro para verde escuro. Ao exame físico, encontra-se torporoso, com extremidades cianóticas e com sibilos e estertores difusos em todos os campos pulmonares. Considerando a situação apresentada, a condução clínica desse paciente deve incluir, obrigatoriamente corticoterapia",
+  "alts": [
+   "sistêmica e acompanhamento ambulatorial.",
+   "inalatória e acompanhamento ambulatorial.",
+   "inalatória e internação hospitalar.",
+   "sistêmica e internação hospitalar."
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "GOLD Report (Global Initiative for Chronic Obstructive Lung Disease), 2026",
+  "coment": "Piora da dispneia, aumento do volume e purulência do escarro (três critérios de Anthonisen) com confusão mental, torpor e cianose definem exacerbação grave de DPOC, com provável hipoxemia e hipercapnia. Há indicação de internação, e a alteração do sensório aponta até para UTI e ventilação não invasiva. O GOLD 2026 recomenda corticoide sistêmico (prednisona 40 mg/dia por 5 dias ou equivalente), que acelera a recuperação e reduz falha terapêutica, além de broncodilatador de curta ação e antibiótico pelo escarro purulento. Corticoide inalatório não trata a exacerbação.",
+  "porAlt": [
+   "O corticoide sistêmico está certo, mas rebaixamento do nível de consciência e cianose impedem o manejo ambulatorial.",
+   "Corticoide inalatório não substitui o sistêmico na exacerbação, e o paciente tem critérios de gravidade para internar.",
+   "A internação é necessária, porém o corticoide indicado na exacerbação é o sistêmico, não o inalatório.",
+   "Correta: exacerbação grave com alteração do sensório exige internação e corticoide sistêmico, conforme o GOLD 2026."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Enchentes, secas, ondas de calor, tempestades tropicais, incêndios florestais e aumento do nível do mar estão diretamente relacionados à escalada dos determinantes sociais da saúde. Esses fatores podem levar ao aumento de doenças cardiovasculares, entre outras. Considerando a interferência desses fatores, assinale a alternativa correta com relação às ações de promoção da saúde.",
+  "alts": [
+   "A exposição à poluição do ar pode acarretar no aumento do risco para hipertensão, diabetes e dermatite atópica, portanto, indica-se fechar as janelas da residência nos horários de maior fluxo de carros a fim de reduzir a exposição aos poluentes.",
+   "As plantações de milho para a produção de biocombustível configuram uma importante tendência no país uma vez que aumentam a oferta de empregos na economia verde e melhoram as condições de vida de pequenos e médios produtores rurais.",
+   "A elevação da pressão arterial é um efeito comum das ondas de calor, por isso, é indicado aumentar as doses dos anti-hipertensivos, reforçar a hidratação e procurar fontes de sombra e refrigeração.",
+   "As atividades de educação em saúde acerca do estresse climático são desaconselháveis nas escolas, devido ao risco de sofrimento emocional nas crianças e nos adolescentes."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "OMS, WHO global air quality guidelines, 2021; Lancet Countdown on health and climate change, relatório 2024",
+  "coment": "A poluição atmosférica, sobretudo o material particulado fino (PM2,5), eleva o risco de hipertensão, eventos cardiovasculares, diabetes tipo 2 e doenças alérgicas como a dermatite atópica, segundo as diretrizes de qualidade do ar da OMS (2021). Reduzir a exposição individual, como fechar janelas nos horários de pico de tráfego, é ação de promoção e proteção coerente com esse risco. Ondas de calor, ao contrário, provocam vasodilatação, desidratação e tendência à hipotensão, exigindo revisão, muitas vezes redução, de anti-hipertensivos e diuréticos.",
+  "porAlt": [
+   "Correta: a poluição do ar aumenta o risco de hipertensão, diabetes e dermatite atópica, e reduzir a exposição nos picos de tráfego protege a saúde.",
+   "Monocultura para biocombustível associa-se a desmatamento, uso intensivo de agrotóxicos e concentração fundiária, não a ganho de saúde.",
+   "O calor causa vasodilatação e perda de volume, com tendência à hipotensão; aumentar anti-hipertensivos eleva risco de queda e lesão renal.",
+   "Educação em saúde sobre clima nas escolas é recomendada, adaptada à idade, e fortalece a capacidade de adaptação da comunidade."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 40 anos procura a unidade básica de saúde (UBS) relatando que está com tosse produtiva há 3 meses, associada a febre vespertina e perda de peso. Nega histórico de tuberculose. Na UBS, é realizado o teste rápido molecular (TRM) para tuberculose no escarro, com resultado positivo e resistência à rifampicina. Diante disso, esse paciente é encaminhado para o ambulatório de referência em tuberculose do município. Nessa situação, a conduta médica, baseada no resultado do TRM, é",
+  "alts": [
+   "inadequada, devendo ser solicitada a baciloscopia no escarro; o encaminhamento do paciente deve ser cancelado enquanto aguarda o resultado da baciloscopia.",
+   "adequada, sendo desnecessário aguardar a baciloscopia no escarro; o encaminhamento do paciente deve ser cancelado e deve ser iniciado o esquema básico imediatamente.",
+   "adequada, sendo desnecessário aguardar a baciloscopia no escarro; o encaminhamento do paciente deve ser mantido e deve ser feito novo TRM, além de cultura e teste de sensibilidade.",
+   "inadequada, devendo ser solicitada a baciloscopia no escarro; o encaminhamento do paciente deve ser mantido, devido à necessidade de confirmação diagnóstica por centro especializado."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª ed. atualizada, 2019",
+  "coment": "O teste rápido molecular (TRM-TB) é o exame de escolha para diagnosticar tuberculose pulmonar em casos novos e, se positivo, confirma a doença sem baciloscopia. Quando detecta resistência à rifampicina, o Manual do MS (2019) orienta repetir o TRM em nova amostra para confirmar a resistência, solicitar cultura com teste de sensibilidade e encaminhar o paciente à referência para tuberculose drogarresistente, que define o esquema especial. Iniciar esquema básico (RHZE) diante de resistência à rifampicina leva a falência e amplificação da resistência.",
+  "porAlt": [
+   "O TRM positivo já confirma o diagnóstico; baciloscopia não é pré-requisito, e cancelar o encaminhamento atrasa o manejo da resistência.",
+   "O esquema básico contém rifampicina, à qual o bacilo é resistente; iniciá-lo levaria a falência e amplificação de resistência.",
+   "Correta: com resistência à rifampicina no TRM, repete-se o TRM, pede-se cultura com teste de sensibilidade e mantém-se o encaminhamento.",
+   "O TRM dispensa baciloscopia confirmatória; o encaminhamento se justifica pela resistência, não por falta de diagnóstico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Paciente do sexo feminino, 33 anos, previamente saudável, após ter sido submetida a abdominoplastia em clínica privada, evoluiu com instabilidade hemodinâmica no pós-operatório imediato antes da alta. O cirurgião plástico que a operou pediu à família da paciente que a levasse para a unidade de pronto atendimento, onde chegou sem vida. À luz do Código de Ética Médica, deve-se considerar que o cirurgião plástico da situação descrita foi",
+  "alts": [
+   "imprudente ao operar a paciente em clínica privada.",
+   "imperito ao realizar o procedimento de abdominoplastia.",
+   "negligente quanto à estabilização pré-transporte da paciente.",
+   "diligente ao solicitar aos familiares a rápida transferência da paciente."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Código de Ética Médica (Resolução CFM nº 2.217/2018), art. 1º; Resolução CFM nº 1.672/2003 (transporte inter-hospitalar)",
+  "coment": "O art. 1º do Código de Ética Médica veda causar dano ao paciente por imperícia, imprudência ou negligência. Negligência é a omissão de um cuidado devido: diante de instabilidade hemodinâmica no pós-operatório imediato, cabia ao cirurgião estabilizar a paciente e garantir transferência em ambulância com suporte avançado e contato prévio com o serviço de destino, como exige a Resolução CFM 1.672/2003. Entregar à família o transporte de paciente instável é omissão. Operar em clínica privada não é imprudência, e não há dado de falha técnica que configure imperícia.",
+  "porAlt": [
+   "Operar em clínica privada é lícito; imprudência seria agir com precipitação ou risco desnecessário, o que o enunciado não descreve.",
+   "Não há descrição de erro técnico no procedimento; imperícia pressupõe despreparo técnico, não demonstrado.",
+   "Correta: deixar de estabilizar e de garantir transporte adequado a paciente instável é omissão de cuidado, isto é, negligência.",
+   "Mandar paciente instável com a família, sem suporte, é o oposto de diligência e descumpre as normas de transporte inter-hospitalar."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Um médico de família e comunidade, atuante numa equipe fluvial, atende a uma população ribeirinha e a uma população indígena, ambas na região amazônica. Ele reconhece que essas duas populações vivem em regiões remotas. No entanto, é notável que elas apresentam diferenças culturais e de modos de vida. A partir dessas informações, assinale a alternativa que apresenta a estratégia adequada a ser adotada pelo médico e por sua equipe no cuidado à saúde das populações mencionadas.",
+  "alts": [
+   "Utilização de profissionais de saúde nativos ou locais sem a necessidade de capacitação específica focada no paradigma biomédico, uma vez que eles já conhecem profundamente a cultura, as tradições e os hábitos dessas populações.",
+   "Atendimento à população ribeirinha centrado em soluções biomédicas e tecnológicas, utilizando conhecimentos da medicina ocidental, enquanto o atendimento à população indígena deve ser pautado por suas próprias práticas de cuidado e cura.",
+   "Incentivo e valorização das práticas de cuidado tradicionais, promoção do uso racional de medicamentos básicos pela população indígena e estímulo à participação local e à integração do saber acadêmico e do senso comum da comunidade ribeirinha.",
+   "Organização dos atendimentos das populações de forma padronizada, a partir da identificação das prioridades em saúde, considerando que as comunidades compartilham realidades geográficas e desafios semelhantes em relação ao acesso a cuidados médicos."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde, Política Nacional de Atenção à Saúde dos Povos Indígenas (PNASPI), 2002; Política Nacional de Atenção Básica (Portaria nº 2.436/2017)",
+  "coment": "A Política Nacional de Atenção à Saúde dos Povos Indígenas propõe atenção diferenciada, que respeita e articula as práticas tradicionais de cuidado com a medicina ocidental, incluindo o uso racional de medicamentos. A PNAB (2017), que prevê equipes ribeirinhas e fluviais, orienta cuidado adaptado ao território e com participação da comunidade. Mesmo com geografia semelhante, as duas populações têm culturas distintas: padronizar o atendimento ou reservar a biomedicina a uma delas fere a integralidade e a equidade.",
+  "porAlt": [
+   "Agentes locais precisam de qualificação técnica; conhecer a cultura não substitui formação para o cuidado em saúde.",
+   "Separar os modelos nega à população indígena o acesso à biomedicina e aos ribeirinhos a valorização de seus saberes.",
+   "Correta: valorizar práticas tradicionais, usar medicamentos de forma racional e integrar saberes com participação local é o modelo de atenção diferenciada.",
+   "Padronizar ignora as diferenças culturais explícitas no enunciado e contraria o princípio da equidade."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 45 anos foi levada para consulta na casa de saúde indígena da capital do estado, com febre (até 39°C), tosse, dor de garganta, cefaleia, mialgia e artralgia iniciados há cerca de 36 horas. Outros 5 pacientes da mesma comunidade indígena apresentaram quadro semelhante no mesmo período. No dia da consulta, a paciente começou a se queixar de leve falta de ar. Ao exame físico apresentava parâmetros dentro da normalidade, exceto pela febre (39 °C) e por estertores crepitantes na base pulmonar direita. Frequência respiratória de 22 irpm e pressão arterial é de 120 x 80 mmHg. Considerando o caso apresentado, assinale a alternativa que indica, respectivamente, a hipótese diagnóstica e a conduta mais adequada.",
+  "alts": [
+   "Pneumonia viral; prescrever o uso de oseltamivir.",
+   "Tuberculose; solicitar pesquisa de BAAR no escarro.",
+   "Pneumonia bacteriana; indicar o uso de ceftriaxona e amoxicilina.",
+   "Resfriado comum; recomendar o uso de medicações sintomáticas."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, Guia de Manejo e Tratamento de Influenza, 2023",
+  "coment": "Febre alta súbita com tosse, odinofagia, cefaleia e mialgia, em surto com outros cinco casos na mesma comunidade, define síndrome gripal por influenza, agora com crepitações e dispneia leve sugerindo pneumonia viral. O Guia de Manejo e Tratamento de Influenza do MS (2023) inclui povos indígenas entre os grupos com risco de complicações e indica oseltamivir para esses pacientes, independentemente de vacinação ou de confirmação laboratorial, idealmente nas primeiras 48 horas. O quadro de 36 horas em surto afasta tuberculose e o comprometimento pulmonar afasta resfriado comum.",
+  "porAlt": [
+   "Correta: síndrome gripal em surto, com acometimento pulmonar, em indígena (grupo de risco) indica oseltamivir precoce.",
+   "Tuberculose tem evolução arrastada de semanas, não quadro agudo de 36 horas em surto com vários casos simultâneos.",
+   "O quadro agudo em surto é típico de influenza, e associar ceftriaxona e amoxicilina é redundante e não trata o vírus.",
+   "Febre de 39 °C, mialgia intensa e crepitações pulmonares vão além de resfriado comum, e o grupo de risco exige antiviral."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 24 anos, previamente saudável, portadora de rim único, sofreu um acidente motociclístico há 7 dias. Foi levada a um hospital, onde foi submetida a craniectomia descompressiva e drenagem de hematoma subdural agudo. No entanto, há 1 dia, evoluiu com coma aperceptivo e ausência de reflexos de tronco encefálico. Diante disso, foi realizado o protocolo de morte encefálica, com confirmação diagnóstica. Testes laboratoriais mostraram função renal preservada, anti-HBs positivo e HBsAg negativo. Embora a paciente seja doadora de órgãos e tecidos, seu esposo se posiciona contra a doação, afirmando que isso interferirá em suas crenças. Com base na legislação pertinente, assinale a alternativa correta quanto à doação de órgãos nessa situação.",
+  "alts": [
+   "A condição renal da paciente, embora seja saudável, contraindica a doação de órgãos.",
+   "A doação de órgãos da paciente requer o consentimento e a autorização de seu esposo.",
+   "O poder público poderá intervir a favor do cumprimento do desejo de doação da paciente.",
+   "Os resultados dos exames laboratoriais citados impossibilitam a doação de órgãos da paciente."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Lei nº 9.434/1997, com redação da Lei nº 10.211/2001; Decreto nº 9.175/2017",
+  "coment": "No Brasil, a retirada de órgãos e tecidos de doador falecido depende da autorização do cônjuge ou de parente maior de idade (Lei 9.434/1997, com redação da Lei 10.211/2001, e Decreto 9.175/2017). A vontade manifestada em vida não tem força legal própria: se o cônjuge recusa, a doação não ocorre, cabendo à equipe acolher e informar a família. Rim único com função preservada não impede a doação, e anti-HBs positivo com HBsAg negativo indica imunidade vacinal ou infecção resolvida, sem contraindicação.",
+  "porAlt": [
+   "Rim único com função preservada não contraindica a doação; o próprio rim e outros órgãos podem ser aproveitados.",
+   "Correta: pela legislação vigente, a doação de doador falecido exige autorização do cônjuge ou de parente maior de idade.",
+   "O poder público não pode impor a doação; o Brasil abandonou o consentimento presumido em 2001.",
+   "Anti-HBs positivo com HBsAg negativo indica imunidade contra hepatite B e não impede a doação."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 45 anos, trabalhador da construção civil, comparece a uma unidade básica de saúde (UBS) devido à dor lombar iniciada há um mês, com piora progressiva, irradiada para o membro inferior direito, com maior intensidade ao final do expediente de trabalho, especialmente após carregar materiais pesados. Nega histórico de trauma, febre, perda de peso ou outros sintomas sistêmicos. Ao exame físico, há dor à palpação de musculatura paravertebral bilateral na região lombar, sem alterações neurológicas. Não há restrição de movimentos e a flexão está preservada. O exame de força e sensibilidade nos membros inferiores está normal, e os reflexos patelar e aquileu estão preservados. Lasègue negativo bilateralmente. Quais são as condutas adequadas a serem adotadas nesse caso?",
+  "alts": [
+   "Solicitar ressonância magnética da coluna lombar, devido à irradiação da dor para membro inferior; prescrever antiinflamatório não esteroide associado a paracetamol.",
+   "Solicitar radiografia de coluna lombar, devido à duração e à irradiação da dor; prescrever corticoide sistêmico associado a paracetamol; encaminhar o paciente à fisioterapia.",
+   "Não solicitar exames complementares, devido à duração da dor e reflexos preservados; prescrever corticoide sistêmico associado a relaxante muscular; orientar repouso por 5 dias.",
+   "Não solicitar exames complementares, devido à ausência de sinais de alerta; orientar a prática de exercício físico; prescrever anti-inflamatório não esteroide associado a relaxante muscular."
+  ],
+  "gab": 3,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "American College of Physicians, Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain, 2017; NICE NG59, 2016 (atualizada em 2020)",
+  "coment": "Lombalgia mecânica de um mês, ligada ao esforço, sem sinais de alerta (trauma, febre, perda de peso, déficit neurológico, história de câncer) e com exame neurológico normal e Lasègue negativo, não exige exame de imagem: radiografia ou ressonância não mudam a conduta e induzem intervenções desnecessárias. O ACP (2017) recomenda manter atividade e exercício, calor superficial e, se preciso, AINE ou relaxante muscular por curto período. Repouso no leito atrasa a recuperação, e corticoide sistêmico não tem benefício na lombalgia sem radiculopatia.",
+  "porAlt": [
+   "Irradiação sem déficit neurológico e sem sinais de alerta não indica ressonância, que só se justifica se mudar a conduta.",
+   "Radiografia não está indicada sem sinais de alerta, e corticoide sistêmico não tem benefício na lombalgia mecânica.",
+   "Acerta ao dispensar exames, mas repouso por 5 dias atrasa a recuperação e corticoide sistêmico não é recomendado.",
+   "Correta: sem sinais de alerta não se pede imagem; orienta-se atividade física e, se necessário, AINE e relaxante muscular por curto período."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 22 anos comparece à unidade básica de saúde (UBS) com queixa de úlcera na região genital associada a \"íngua na virilha\". Ele afirma que, há cerca de 10 dias, observou lesão papular, única, indolor, localizada na glande. Em pouco tempo, essa lesão evoluiu para ulceração local. Ao exame físico, o paciente apresenta, na glande, úlcera única de fundo limpo e bordas elevadas, endurecidas e linfonodos inguinais palpáveis bilateralmente, não supurativos, móveis e indolores. Ao ser questionado, ele confirma ter tido relação sexual desprotegida cerca de 3 semanas antes do início dos primeiros sinais. Nesse caso, qual é o exame complementar indicado para o diagnóstico do paciente?",
+  "alts": [
+   "VDRL sérico (Venereal Disease Research Laboratory).",
+   "Cultura de secreção uretral l em meio de Thayer-Martin.",
+   "Aspirado linfonodal com pesquisa de Haemophilus ducreyi.",
+   "Pesquisa de corpúsculos de Donovan em esfregaço da lesão."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Ministério da Saúde, PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022",
+  "coment": "Úlcera genital única, indolor, de fundo limpo e bordas endurecidas, surgida cerca de três semanas após exposição, com linfonodos inguinais bilaterais móveis, indolores e não supurativos, é o cancro duro da sífilis primária. O PCDT de IST (2022) orienta teste treponêmico (rápido) associado a teste não treponêmico, como o VDRL, que também acompanha a resposta ao tratamento, lembrando que o VDRL pode ser não reagente nas primeiras semanas do cancro. Entre as opções, é o único exame voltado à sífilis. Cancro mole dá úlceras dolorosas e bubão supurativo.",
+  "porAlt": [
+   "Correta: o quadro é de sífilis primária, e o VDRL, teste não treponêmico, é o exame da lista voltado ao diagnóstico e ao seguimento.",
+   "Thayer-Martin isola gonococo em uretrite com secreção purulenta, quadro ausente neste paciente.",
+   "H. ducreyi causa cancro mole, com úlceras dolorosas, fundo sujo e bubão supurativo, diferente do descrito.",
+   "Corpúsculos de Donovan indicam donovanose, úlcera granulomatosa vegetante e sangrante, sem as bordas endurecidas do cancro duro."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Um médico recém-contratado para atuar como gerente de uma unidade básica de saúde (UBS) em uma cidade com 35.000 habitantes agendou uma reunião com a equipe para tratar de visitas domiciliares. Seu objetivo é propor uma investigação com enfoque em doenças crônicas não transmissíveis, na população residente com 18 anos ou mais de idade. O médico visa melhorar, em um curto período de tempo, o planejamento de cuidados de saúde dessa população. O desenho de pesquisa mais adequado para esse levantamento denomina-se",
+  "alts": [
+   "estudo transversal.",
+   "estudo experimental.",
+   "análise de caso-controle.",
+   "análise de coorte prospectivo."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Fletcher GS, Clinical Epidemiology: The Essentials, 6ª ed., 2020",
+  "coment": "Para conhecer rapidamente a prevalência de doenças crônicas não transmissíveis e de seus fatores de risco na população adulta, com o fim de planejar ações, o desenho adequado é o estudo transversal (inquérito de prevalência): mede exposição e desfecho num mesmo momento, é rápido e barato, como a Vigitel e a Pesquisa Nacional de Saúde. Coortes medem incidência e exigem seguimento longo; caso-controle parte de doentes já identificados para investigar causas; estudos experimentais testam intervenções. Nenhum atende ao planejamento em curto prazo.",
+  "porAlt": [
+   "Correta: o estudo transversal mede prevalência em um único momento, com rapidez, e é ideal para diagnóstico situacional e planejamento.",
+   "Estudo experimental testa intervenção alocada pelo pesquisador, o que não é o objetivo de um levantamento populacional.",
+   "Caso-controle compara doentes e não doentes para investigar exposições passadas, sem estimar prevalência na população.",
+   "Coorte prospectiva exige seguimento prolongado para medir incidência, incompatível com o curto prazo pretendido."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 25 anos vai à consulta na unidade básica de saúde (UBS) com dor articular há 4 meses, edema e vermelhidão nas articulações metacarpo falangeanas e interfalangeanas proximais de ambas as mãos e também em punhos e joelhos. Refere rigidez matinal de 2 horas, mal-estar generalizado e sensação de febre. Nega lesões cutâneas ou alopecia. Fez uso de ibuprofeno, com alívio parcial das dores. Exame físico: à palpação das articulações acometidas presença de dor, espessamento sinovial, sem deformidades. Os exames indicam velocidade de hemossedimentação de 35 mm/hora (valor de referência [VR]: < 20 mm/hora); proteína C reativa de 12 mg/dL (VR: < 6 mg/dL); e fator reumatoide negativo (referência: negativo). Considerando o caso apresentado, assinale a alternativa que indica, respectivamente, o diagnóstico e o tratamento medicamentoso adequados.",
+  "alts": [
+   "Osteoartrite; uso de paracetamol.",
+   "Artrite reumatoide; uso de metotrexato.",
+   "Esclerose sistêmica; uso de prednisona.",
+   "Lúpus eritematoso sistêmico; uso de cloroquina."
+  ],
+  "gab": 1,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACR/EULAR Rheumatoid Arthritis Classification Criteria, 2010; EULAR recommendations for the management of rheumatoid arthritis, 2025 update",
+  "coment": "Poliartrite simétrica de pequenas articulações das mãos (MCF e IFP), punhos e joelhos, com sinovite, rigidez matinal de 2 horas, duração acima de 6 semanas e VHS e PCR elevados soma 7 pontos nos critérios ACR/EULAR 2010 (6 ou mais classificam), mesmo com fator reumatoide negativo; vale dosar anti-CCP. A EULAR (atualização 2025) recomenda iniciar DMARD sintético convencional logo ao diagnóstico, com metotrexato como âncora, mirando a remissão. Osteoartrite não causa sinovite com provas inflamatórias altas, e LES ou esclerose sistêmica exigiriam achados cutâneos ou sistêmicos ausentes.",
+  "porAlt": [
+   "Osteoartrite causa dor mecânica com rigidez breve, sem sinovite inflamatória nem elevação de VHS e PCR.",
+   "Correta: poliartrite simétrica de mãos com rigidez prolongada e provas inflamatórias altas é artrite reumatoide, tratada de início com metotrexato.",
+   "Esclerose sistêmica cursa com espessamento cutâneo e Raynaud, ausentes, e prednisona isolada não é tratamento de base.",
+   "Não há lesões cutâneas, serosite ou alterações hematológicas que sustentem LES; artrite isolada não basta."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 65 anos procura atendimento médico na unidade de atenção primária. Relata que teve a menopausa aos 50 anos, com diagnóstico de osteoporose, confirmado por exame de densitometria óssea (T-score de -2,5). A paciente não apresenta histórico de fraturas, é obesa, sedentária e faz uso crônico de corticoides orais. Diante do caso, a conduta adequada é",
+  "alts": [
+   "reposição hormonal com estrógenos orais, restrição de atividade física de alto impacto, com nova avaliação após 1 ano.",
+   "calcitonina nasal, recomendando exercícios leves, além de sugerir aumento de ingestão de alimentos ricos em cálcio e em vitamina D.",
+   "vitamina D isolada associada ao aumento da ingestão de proteínas, recomendando atividades físicas de baixo impacto, com reavaliação após 1 ano.",
+   "bisfosfonato oral, recomendando a prática regular de exercícios físicos (por 30 a 40 minutos, 3 vezes por semana) e a suplementação de cálcio e de vitamina D."
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACR Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis, 2022; Endocrine Society, Pharmacological Management of Osteoporosis in Postmenopausal Women, 2020",
+  "coment": "Mulher na pós-menopausa com T-score de -2,5 tem osteoporose densitométrica, e o uso crônico de corticoide oral eleva o risco de fratura independentemente da densidade óssea. As diretrizes do ACR para osteoporose induzida por glicocorticoide (2022) e da Endocrine Society (2020) indicam bisfosfonato oral (alendronato ou risedronato) como primeira linha, com cálcio e vitamina D adequados e exercício regular, que melhora força e equilíbrio e reduz quedas. Terapia hormonal não é primeira opção aos 65 anos, calcitonina tem eficácia fraca e vitamina D isolada não trata osteoporose.",
+  "porAlt": [
+   "Terapia hormonal aos 65 anos, 15 anos após a menopausa, tem risco cardiovascular e tromboembólico que supera o benefício ósseo.",
+   "Calcitonina tem efeito antifratura fraco, restrito a vértebras, e associação com neoplasias; não é primeira linha.",
+   "Vitamina D e proteína são adjuvantes; sem antirreabsortivo, a osteoporose com corticoide crônico fica sem tratamento.",
+   "Correta: bisfosfonato oral é a primeira linha, associado a cálcio, vitamina D e exercício regular."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 42 anos, pescador que mora próximo a um lago, é atendido em uma unidade básica de saúde (UBS) no norte de Minas Gerais. Ele relata dor abdominal intermitente, cansaço, febre baixa, hiporexia, episódios de diarreia há cerca de um mês e áreas de prurido em membros inferiores. No exame físico, apresenta hepatoesplenomegalia e distensão abdominal. Nos membros inferiores há lesões sugestivas de estrófulos. O hemograma mostra eosinofilia. Aguarda resultado de exame parasitológico de fezes pelo método Kato-Katz. Nesse caso, qual deverá ser a conduta de acordo com o resultado do exame?",
+  "alts": [
+   "Se o resultado for positivo, tratar o paciente com metronidazol e notificar ao SINAN.",
+   "Se o resultado for positivo, solicitar ensaio imunoenzimático (ELISA) para detecção de anticorpos IgG e confirmação da atividade da doença.",
+   "Se o resultado for positivo, tratar o paciente com praziquantel e notificar no sistema de informação do programa específico da doença.",
+   "Se o resultado for negativo, solicitar método de sedimentação espontânea de fezes (Hoffman) para descartar a principal hipótese diagnóstica."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, Vigilância da Esquistossomose mansoni: diretrizes técnicas, 4ª ed., 2014; Guia de Vigilância em Saúde, 6ª ed., 2023",
+  "coment": "Pescador com contato com água de lago em área endêmica (norte de Minas Gerais), prurido cutâneo após exposição (dermatite cercariana), febre, diarreia, hepatoesplenomegalia e eosinofilia sugerem esquistossomose mansônica. O Kato-Katz é o método padrão para detectar e quantificar ovos de Schistosoma mansoni nas fezes; se positivo, confirma infecção ativa, e o tratamento é praziquantel em dose única (50 mg/kg no adulto). Em área endêmica, o caso é registrado no Sistema de Informação do Programa de Controle da Esquistossomose (SISPCE); fora dela, notifica-se no Sinan.",
+  "porAlt": [
+   "Metronidazol trata protozoários e anaeróbios, sem ação sobre Schistosoma, e em área endêmica o registro é no SISPCE.",
+   "Kato-Katz positivo já demonstra ovos e infecção ativa; sorologia IgG persiste após a cura e não confirma atividade.",
+   "Correta: Kato-Katz positivo confirma esquistossomose, tratada com praziquantel e registrada no sistema do programa de controle.",
+   "A sedimentação espontânea é menos sensível que o Kato-Katz para ovos de S. mansoni; com suspeita alta, repetem-se amostras de Kato-Katz."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 25 anos vai à unidade de pronto atendimento (UPA) apresentando quadro de febre alta há 3 dias, associado a náuseas, mialgia, artralgia e leve dor em quadrantes superiores do abdome. Ao exame físico, o paciente encontra-se alerta, consciente e orientado; pressão arterial de 100 x 70 mmHg; frequência cardíaca de 110 bpm; e frequência respiratória de 18 irpm; pulsos cheios e extremidades quentes; fígado palpável a 3 centímetros do rebordo costal direito, levemente doloroso à palpação. Os exames laboratoriais iniciais do paciente revelam os seguintes resultados: Exame Resultado Valor de referência (VR) Leucócitos 3.500 4.000 a 10.000/mm³ células/mm³ totais Hematócrito 46% 39,9 a 52,1% 130.000/mm³ 150.000 a 450.000/mm³ Plaquetas Teste rápido de antígeno Positivo - NS1 Nesse caso, a conduta inicial mais adequada envolve",
+  "alts": [
+   "alta para acompanhamento ambulatorial diário e hidratação oral abundante e analgesia.",
+   "hidratação oral abundante e sintomáticos, alta e orientação de retorno no primeiro dia após a cessação da febre.",
+   "hidratação venosa e internação hospitalar em enfermaria para monitorização clínica e laboratorial.",
+   "internação em unidade de terapia intensiva (UTI) imediatamente para hidratação vigorosa e monitoramento contínuo."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Ministério da Saúde, Dengue: diagnóstico e manejo clínico, adulto e criança, 6ª ed., 2024",
+  "coment": "Febre há 3 dias com NS1 positivo confirma dengue. O dado decisivo é a hepatomegalia dolorosa a 3 cm do rebordo costal: fígado palpável a mais de 2 cm é sinal de alarme no manual do MS (2024), o que coloca o paciente no grupo C, mesmo sem choque (PA 100 x 70 mmHg, pulsos cheios, extremidades quentes). A conduta é hidratação venosa imediata (10 mL/kg de cristaloide na primeira hora, com reavaliação), internação em leito de enfermaria até estabilização, por no mínimo 48 horas, e hematócrito seriado. UTI fica para o grupo D, com choque ou disfunção grave.",
+  "porAlt": [
+   "Hepatomegalia acima de 2 cm é sinal de alarme e impede a alta; o paciente precisa de hidratação venosa e observação hospitalar.",
+   "Hidratação oral com retorno após a febre é conduta do grupo A, inadequada para quem já tem sinal de alarme.",
+   "Correta: com sinal de alarme (hepatomegalia maior que 2 cm), o paciente é grupo C e recebe hidratação venosa em internação de enfermaria.",
+   "UTI é reservada ao grupo D, com choque, sangramento grave ou disfunção orgânica, ausentes neste paciente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 47 anos apresenta dor abdominal no quadrante superior direito iniciada há 3 dias, associada a náuseas e vômitos. Ela relata que a dor, inicialmente intermitente, tornou-se constante e irradia para o dorso. O exame físico mostra icterícia leve, dor à palpação do quadrante superior direito e sinal de Murphy ausente. Os exames laboratoriais revelam elevação de bilirrubinas (sendo a direta predominante), aumento de fosfatase alcalina e gama-GT, amilase e lipase normais. A ultrassonografia abdominal evidencia múltiplos cálculos na vesícula biliar e dilatação das vias biliares. A colangiorressonância evidencia cálculo no ducto biliar comum (diâmetro de 9 mm), associado a dilatação do colédoco e das vias biliares intra-hepáticas. Nesse caso, a conduta médica adequada é",
+  "alts": [
+   "prescrever antibióticos e acompanhar a paciente clinicamente até a resolução dos sintomas.",
+   "solicitar tomografia computadorizada, antes de qualquer intervenção, para avaliar o estado da via biliar.",
+   "realizar colecistectomia laparoscópica imediatamente, sem necessidade de outros exames ou intervenções.",
+   "indicar colangiopancreatografia retrógrada endoscópica (CPRE) para remoção dos cálculos na via biliar principal."
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis, 2019",
+  "coment": "Dor em hipocôndrio direito com icterícia colestática (predomínio de bilirrubina direta, fosfatase alcalina e GGT elevadas), colelitíase e via biliar dilatada, com cálculo no colédoco confirmado pela colangiorressonância, define coledocolitíase. Pela diretriz da ASGE (2019), cálculo demonstrado em imagem indica CPRE com papilotomia e extração, seguida de colecistectomia laparoscópica, de preferência na mesma internação, para evitar recorrência. Antibiótico isolado não remove o cálculo, tomografia acrescenta pouco após a colangiorressonância e colecistectomia isolada deixa o cálculo no colédoco.",
+  "porAlt": [
+   "Antibiótico não desobstrui a via biliar, e o cálculo no colédoco mantém o risco de colangite e pancreatite.",
+   "A colangiorressonância já mostrou o cálculo e a dilatação; tomografia é menos sensível e só atrasa o tratamento.",
+   "Colecistectomia isolada não trata o cálculo no colédoco; a via biliar precisa ser desobstruída antes ou durante a cirurgia.",
+   "Correta: coledocolitíase confirmada por imagem é tratada com CPRE para extração dos cálculos, seguida de colecistectomia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 61 anos procura uma unidade básica de saúde (UBS) de uma cidade grande desejando receber um pedido para colonoscopia, pois ouviu que é um exame preventivo necessário após os 50 anos de idade para detecção de câncer do intestino. Questionado pela médica da UBS, o paciente relata que não apresenta sintomas gastrointestinais, anemia, perda de peso ou histórico familiar de câncer de intestino. Considerando-se que neste município existe ampla disponibilidade de recursos diagnósticos, e levando em conta as políticas públicas do Ministério da Saúde para rastreamento, que conduta inicial a médica deverá adotar nesse caso?",
+  "alts": [
+   "Fornecer o pedido de colonoscopia para diagnóstico precoce ao paciente, para que ele busque realizar o exame no SUS por meio de ação judicial.",
+   "Solicitar colonoscopia para diagnóstico precoce e informar o paciente da possível demora para sua realização, visto que não há suspeita de câncer.",
+   "Solicitar exame de sangue oculto nas fezes, informando o paciente de que se trata de um exame indicado pelo SUS para rastreio de câncer do intestino.",
+   "Esclarecer que o SUS não prevê a realização de colonoscopia para rastreio de câncer de intestino e orientar o paciente a realizar o exame no setor privado."
+  ],
+  "gab": 2,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde, incorporação do teste imunoquímico fecal (FIT) ao rastreamento bienal do câncer colorretal no SUS, 50 a 75 anos, 2026; INCA, Detecção precoce do câncer, 2021",
+  "coment": "Homem de 61 anos, assintomático e sem história familiar, tem risco médio para câncer colorretal. A política do Ministério da Saúde prevê rastreamento com pesquisa de sangue oculto nas fezes, e em agosto de 2026 o SUS incorporou o teste imunoquímico fecal (FIT) a cada dois anos para assintomáticos de 50 a 75 anos. A colonoscopia fica reservada à investigação de teste positivo, de sintomas ou de risco aumentado. Pedir colonoscopia como exame inicial em risco médio sobrecarrega a fila e expõe a riscos do procedimento, e judicializar não é conduta médica.",
+  "porAlt": [
+   "Incentivar ação judicial para exame fora da política de rastreamento é inadequado e não é o primeiro passo em risco médio.",
+   "Em assintomático de risco médio, o SUS não usa colonoscopia como exame inicial; ela investiga o teste de sangue oculto positivo.",
+   "Correta: a pesquisa de sangue oculto nas fezes, hoje o FIT bienal de 50 a 75 anos, é o rastreamento previsto no SUS.",
+   "O SUS realiza colonoscopia para investigar teste positivo; não cabe remeter o paciente ao setor privado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 50 anos, agricultor, procura atendimento médico na unidade básica de saúde (UBS) após mordedura de boi em antebraço esquerdo. A ferida é superficial, está limpa e apresenta sangramento local leve. O paciente relata que o animal não possui manifestações aparentes de raiva. Ele também afirma que o boi é de propriedade conhecida e pode ser mantido sob observação. Quando questionado, o paciente revela não ter histórico de vacinação prévia contra raiva. Considerando a profilaxia da raiva humana, deve-se limpar a ferida e",
+  "alts": [
+   "observar o animal por 10 dias antes de decidir por qualquer intervenção adicional.",
+   "dispensar observação do animal e liberar o paciente sem vacina antirrábica.",
+   "iniciar imediatamente o esquema completo de vacinação antirrábica.",
+   "administrar imediatamente soro antirrábico."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde, Nota Técnica nº 8/2022-CGZV/DEIDT/SVS/MS (Protocolo de Profilaxia Pré, Pós e Reexposição da Raiva Humana no Brasil), 2022",
+  "coment": "Bovinos, equinos, caprinos, suínos e ovinos são animais de produção e de risco para raiva, e a observação por 10 dias só vale para cães e gatos, cujo período de excreção viral antes dos sintomas é conhecido. Pelo protocolo do Ministério da Saúde (Nota Técnica 8/2022), mordedura superficial em antebraço é acidente leve; com animal de produção, indica-se lavar a ferida com água e sabão e vacinar em 4 doses (dias 0, 3, 7 e 14), sem soro. Soro ou imunoglobulina antirrábica ficam para acidentes graves, como lesões profundas, múltiplas ou em mãos, face e cabeça.",
+  "porAlt": [
+   "A observação de 10 dias vale apenas para cães e gatos; para boi, a profilaxia não depende da observação do animal.",
+   "Mordedura por animal de produção é exposição de risco e exige profilaxia; liberar sem vacina expõe o paciente à raiva.",
+   "Correta: acidente leve com animal de produção indica limpeza da ferida e vacina antirrábica em 4 doses, sem soro.",
+   "Soro antirrábico é reservado a acidentes graves; ferimento superficial em antebraço é acidente leve."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher procura orientação na atenção primária preocupada com risco de câncer de mama. Pede orientação sobre quando deve iniciar rastreamento por mamografia. Relata que sua mãe teve câncer de mama aos 45 anos. Está assintomática e suas mamas não apresentam anormalidades ao exame. Nesse caso, considerando-se o uso racional de exames complementares e a segurança da paciente, qual é a conduta mais adequada?",
+  "alts": [
+   "Manter realização de exame clínico das mamas anualmente, sem a necessidade de exames complementares, e iniciar avaliação por mamografia após os 40 anos.",
+   "Iniciar rastreamento com mamografia a partir dos 40 anos, realizado a cada 2 anos, conforme recomendação para a população geral, devido à ausência de sintomas.",
+   "Manter acompanhamento clínico regular anual e iniciar mamografia após os 50 anos, uma vez que a paciente está assintomática e sem sinais clínicos de câncer.",
+   "Iniciar rastreamento com mamografia a partir dos 35 anos, uma vez que o histórico de câncer de mama em parente de primeiro grau antes dos 50 anos justifica o início precoce do rastreamento."
+  ],
+  "gab": 3,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "INCA/MS, Controle do Câncer de Mama: Documento de Consenso, 2004; CBR/SBM/Febrasgo, recomendações para rastreamento do câncer de mama, 2023; Nota Técnica nº 626/2025-CGCAN/DECAN/SAES/MS",
+  "coment": "Mulher com parente de primeiro grau (mãe, irmã ou filha) com câncer de mama antes dos 50 anos tem risco elevado. O Documento de Consenso do INCA/MS recomenda para esse grupo exame clínico e mamografia anuais a partir dos 35 anos, e CBR, SBM e Febrasgo (2023) sugerem começar cerca de 10 anos antes da idade do caso mais jovem, o que também dá 35 anos. A Nota Técnica 626/2025, que abriu a mamografia a partir dos 40 anos por decisão compartilhada, trata das mulheres de risco habitual. Esperar os 40 ou 50 anos subestima o risco familiar.",
+  "porAlt": [
+   "Exame clínico isolado não rastreia de forma eficaz, e 40 anos seria início tardio para quem tem mãe com câncer aos 45.",
+   "A recomendação dos 40 anos por demanda vale para risco habitual; parente de primeiro grau acometido antes dos 50 antecipa o início.",
+   "Iniciar aos 50 anos é a regra do rastreamento organizado de risco habitual, inadequada para mulher de risco elevado.",
+   "Correta: mãe com câncer de mama antes dos 50 anos define risco elevado, com mamografia a partir dos 35 anos."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 48 anos é encaminhado a um hospital para investigação de febre persistente. Na história patológica pregressa, o paciente apresenta diagnóstico de retocolite ulcerativa. À fundoscopia direita, é identificada lesão arredondada com borda eritematosa e centro pálido, medindo cerca de 8 mm de diâmetro. Durante o exame físico, além de palidez cutaneomucosa leve e sopro cardíaco sistólico de baixa intensidade, são constatadas hemorragias subungueais em alguns quirodáctilos. Com base nesses achados clínicos, a hipótese diagnóstica mais provável é de",
+  "alts": [
+   "endocardite infecciosa.",
+   "leucemia mieloide aguda.",
+   "vasculite leucocitoclástica.",
+   "lúpus eritematoso sistêmico."
+  ],
+  "gab": 0,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Duke-ISCVID Infective Endocarditis Criteria, 2023; ESC Guidelines for the management of endocarditis, 2023",
+  "coment": "Febre persistente com sopro cardíaco, hemorragias subungueais em estilha e lesão retiniana hemorrágica de centro pálido (mancha de Roth) formam o quadro clássico de endocardite infecciosa, somando critérios menores de Duke-ISCVID (2023): febre e fenômenos vasculares e imunológicos. A anemia leve é comum na forma subaguda. A conduta é colher ao menos três pares de hemoculturas antes do antibiótico e fazer ecocardiograma, conforme a ESC (2023). Leucemia, vasculite leucocitoclástica e LES não explicam a associação de sopro, estilhas e manchas de Roth.",
+  "porAlt": [
+   "Correta: febre, sopro, hemorragias em estilha e mancha de Roth formam o quadro clássico de endocardite infecciosa.",
+   "Leucemia pode dar hemorragia retiniana e palidez, mas não explica sopro com hemorragias subungueais em estilha.",
+   "Vasculite leucocitoclástica manifesta-se por púrpura palpável em membros inferiores, não por sopro e manchas de Roth.",
+   "LES pode ter endocardite de Libman-Sacks, mas febre persistente com estilhas e Roth aponta para endocardite infecciosa."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 41 anos, após queda de altura de 5 metros, foi levado a um hospital terciário com traumatismo cranioencefálico grave. O paciente foi submetido à neurocirurgia para drenagem de hematoma extradural e evoluiu com internação em unidade de terapia intensiva (UTI), onde permaneceu por 60 dias. Após esse período, ele faleceu por complicações associadas a sepse. Nessa situação, qual deve ser a conduta da equipe da UTI em relação à emissão do atestado de óbito?",
+  "alts": [
+   "Fornecer o atestado de óbito, o que é responsabilidade da equipe médica que coordena e chefia a UTI.",
+   "Encaminhar o corpo ao Instituto Médico Legal (IML), que tem a responsabilidade de emitir o atestado de óbito.",
+   "Encaminhar o corpo para o Serviço de Verificação de Óbito (SVO), que deverá realizar a necrópsia e a emissão do atestado.",
+   "Fornecer o atestado de óbito, o que é responsabilidade da equipe médica que estava de plantão na UTI no momento do óbito."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Resolução CFM nº 1.779/2005; CFM/MS, A Declaração de Óbito: documento necessário e importante, 3ª ed., 2009",
+  "coment": "A Resolução CFM 1.779/2005 determina que, nas mortes por causas externas (acidentes, violência, quedas), a declaração de óbito seja emitida pelo médico legista do IML, qualquer que seja o tempo entre o evento e a morte. A sepse após 60 dias de UTI é complicação do traumatismo cranioencefálico causado pela queda, de modo que a causa básica continua sendo externa. O SVO atende mortes naturais sem causa definida, e a equipe da UTI só emitiria a declaração em morte natural.",
+  "porAlt": [
+   "Óbito por causa externa, mesmo tardio, exige necropsia médico-legal; a equipe da UTI não deve emitir a declaração.",
+   "Correta: a causa básica é externa (queda com TCE), e a declaração de óbito cabe ao IML, independentemente do tempo de internação.",
+   "O SVO é destinado a mortes naturais sem causa esclarecida, não a óbitos decorrentes de trauma.",
+   "O plantonista só emite a declaração em morte natural; aqui a causa básica é externa."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 57 anos com diagnóstico de diabetes mellitus há 10 anos e uso regular de metformina 2 g/dia e gliclazida 60 mg/dia comparece à unidade básica de saúde (UBS). Durante a consulta, a pressão arterial média, aferida em 3 medições consecutivas com intervalos de 1 minuto, é de 154 x 94 mmHg. Ao revisar o prontuário, o médico observa que, nas últimas 3 consultas, os níveis pressóricos registrados também estavam acima de 140 x 90 mmHg. Além disso, o médico verifica exame prévio de albuminúria de 50 mg/g de creatinina (valor de referência: < 30 mg/g de creatinina). De acordo com a Diretriz Brasileira de Hipertensão e com base nesse quadro clínico e laboratorial, a conduta terapêutica inicial mais adequada para o tratamento da hipertensão consiste na prescrição de",
+  "alts": [
+   "betabloqueador.",
+   "diurético.",
+   "inibidor da enzima de conversão.",
+   "bloqueador de canal de cálcio."
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Diretriz Brasileira de Hipertensão Arterial, 2025; KDIGO Clinical Practice Guideline for Diabetes Management in CKD, 2022",
+  "coment": "PA persistentemente acima de 140 x 90 mmHg em várias consultas confirma hipertensão em diabética, e albuminúria de 50 mg/g (30 a 300 mg/g, categoria A2) indica lesão renal. A Diretriz Brasileira de Hipertensão (2025) recomenda, nesse cenário, bloqueio do sistema renina-angiotensina com IECA ou BRA como base do tratamento, por reduzir a albuminúria e retardar a doença renal diabética, com meta abaixo de 130 x 80 mmHg. Com PA de 154 x 94 mmHg, a associação precoce com bloqueador de canal de cálcio ou tiazídico é frequente. Betabloqueador não é primeira linha sem indicação específica.",
+  "porAlt": [
+   "Betabloqueador não é primeira linha sem indicação específica, como coronariopatia ou insuficiência cardíaca, e não reduz albuminúria.",
+   "Diurético tiazídico é boa associação, mas não protege o rim na albuminúria como o bloqueio do sistema renina-angiotensina.",
+   "Correta: hipertensão com diabetes e albuminúria indica IECA (ou BRA) como base do tratamento, pela nefroproteção.",
+   "Bloqueador de canal de cálcio é associação útil, mas isoladamente não reduz a albuminúria como o IECA."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 67 anos chega a uma unidade básica de saúde (UBS) acompanhada pelo filho. Ele relata que a mãe, há cerca de 30 minutos, passou a apresentar intensa dor de cabeça e dificuldade para falar. A paciente é hipertensa, faz uso de anti-hipertensivos, estatina e antiagregante plaquetário em dose profilática. Há 6 anos, sofreu um acidente vascular cerebral (AVC) sem sequelas. Durante o exame físico, pontuou 14 na Escala de Coma de Glasgow e apresentou seguintes sinais vitais: Exame Resultado Pressão arterial (PA) 150 x 95 mmHg Frequência cardíaca (FC) 90 bpm Frequência respiratória (FR) 20 irpm Saturação de oxigênio 95% Nessa situação, qual é a conduta adequada a ser adotada pelo médico da UBS?",
+  "alts": [
+   "Estabilizar a paciente na sala de observação da UBS, ofertar anti-hipertensivo via oral para redução da PA e solicitar exames de imagem.",
+   "Acionar o Serviço Móvel de Urgência de imediato para encaminhamento ao serviço de urgência e estabilizar a paciente na UBS até a chegada da ambulância.",
+   "Administrar anti-hipertensivo sublingual e reavaliar a paciente após 30 minutos; caso não haja queda da PA, encaminhá-la para serviço de urgência.",
+   "Medicar a paciente, com o objetivo de reduzir a PA dentro de 24 a 48 horas, e realizar seguimento ambulatorial para avaliar se houve reversão dos sintomas."
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "AHA/ASA Guideline for the Early Management of Patients With Acute Ischemic Stroke, 2026; Portaria GM/MS nº 665/2012 (Linha de Cuidado em AVC)",
+  "coment": "Cefaleia intensa e distúrbio de fala de início súbito há 30 minutos, em hipertensa com AVC prévio, é AVC agudo até prova em contrário, isquêmico ou hemorrágico, o que só a neuroimagem define. Dentro da janela de reperfusão, a prioridade na UBS é acionar o SAMU de imediato e manter a paciente estável (via aérea, glicemia capilar, monitorização) até o transporte ao centro de AVC. A AHA/ASA (2026) não recomenda reduzir a PA antes da imagem salvo valores muito altos: 150 x 95 mmHg não deve ser tratada, e anti-hipertensivo sublingual é contraindicado pelo risco de hipoperfusão.",
+  "porAlt": [
+   "Manter a paciente na UBS atrasa o acesso à imagem e à reperfusão, e reduzir a PA pode ampliar a área isquêmica.",
+   "Correta: suspeita de AVC agudo exige acionar o SAMU de imediato e estabilizar a paciente até o transporte ao centro de referência.",
+   "Anti-hipertensivo sublingual causa queda abrupta da PA e hipoperfusão cerebral, e esperar 30 minutos consome a janela terapêutica.",
+   "Seguimento ambulatorial em AVC agudo perde a janela de reperfusão e ignora a possibilidade de hemorragia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 45 anos com queixa de dor lombar, há 1 ano, é encaminhado da atenção primária para o ambulatório de reumatologia. O paciente é obeso, sedentário. Relata dor ao acordar e dificuldade de movimentação, que melhora após cerca de 2 horas. Utilizou diversos anti-inflamatórios não hormonais e analgésicos comuns, com melhora parcial e transitória. A radiografia de coluna lombar, realizada na unidade básica de saúde (UBS), revela redução de espaço L4-L5 com esclerose subcondral. O exame físico mostra uma redução na amplitude dos movimentos da coluna lombar, com um teste de Schober de 1 cm, e não há sinais de artrite ou de entesite. Considerando o diagnóstico mais provável, quais são as condutas médicas específicas para o caso?",
+  "alts": [
+   "Solicitar o HLA-B37 e prescrever anti-inflamatórios hormonais.",
+   "Solicitar provas de atividades inflamatórias e ressonância magnética de sacroilíacas.",
+   "Orientar sobre ergonomia e prescrever anti-inflamatórios não hormonais sob demanda.",
+   "Orientar redução de peso, realização de sessões de fisioterapia e prescrever analgésicos opioides."
+  ],
+  "gab": 1,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ASAS classification criteria for axial spondyloarthritis, 2009; ASAS-EULAR recommendations for the management of axial spondyloarthritis, 2022 update",
+  "coment": "Lombalgia há 1 ano, iniciada antes dos 45 anos, com rigidez matinal de cerca de 2 horas que melhora ao longo do dia, resposta parcial a AINE e redução da mobilidade lombar (Schober de 1 cm, normal acima de 4 a 5 cm) sugere dor lombar inflamatória por espondiloartrite axial, apesar do achado degenerativo em L4-L5. Pelos critérios ASAS (2009), o passo seguinte é dosar PCR e VHS e pedir ressonância das sacroilíacas, que mostra sacroileíte antes da radiografia, além do HLA-B27. Tratar como lombalgia mecânica deixa sem diagnóstico uma doença com tratamento específico.",
+  "porAlt": [
+   "O marcador associado às espondiloartrites é o HLA-B27, e corticoide sistêmico não tem papel no tratamento da doença axial.",
+   "Correta: dor lombar inflamatória com limitação da mobilidade exige provas inflamatórias e ressonância de sacroilíacas para investigar espondiloartrite.",
+   "Trata como lombalgia mecânica e ignora rigidez matinal de 2 horas e Schober de 1 cm, sinais de doença inflamatória.",
+   "Opioide não é conduta inicial, e não se deve tratar sem esclarecer a suspeita de espondiloartrite axial."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher branca de 47 anos comparece a consulta médica na unidade básica de saúde (UBS) queixando-se da presença de lesão escurecida, assimétrica e de bordas irregulares em antebraço esquerdo. Relata que, nas últimas quatro semanas, a lesão tem aumentado de tamanho e se tornado pruriginosa, com episódio de pequeno sangramento local. Considerando a situação apresentada, a principal hipótese diagnóstica da paciente é",
+  "alts": [
+   "melanoma.",
+   "queratoacantoma.",
+   "carcinoma basocelular.",
+   "carcinoma espinocelular."
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "European consensus-based interdisciplinary guideline for melanoma, Part 1: Diagnostics, update 2024 (EADO/EDF/EORTC)",
+  "coment": "Lesão pigmentada assimétrica, de bordas irregulares e em crescimento recente, com prurido e sangramento, preenche os critérios ABCDE (assimetria, bordas, cor, diâmetro e evolução) e levanta a suspeita principal de melanoma. A diretriz europeia de melanoma (atualização 2024) recomenda dermatoscopia e biópsia excisional com margens estreitas para confirmação histopatológica, que também mede a espessura de Breslow e orienta o estadiamento. Carcinoma basocelular costuma ser perolado com telangiectasias, o espinocelular é queratósico, e o queratoacantoma é nódulo com cratera central.",
+  "porAlt": [
+   "Correta: lesão pigmentada assimétrica, de bordas irregulares, em crescimento e com sangramento preenche os critérios ABCDE de melanoma.",
+   "Queratoacantoma é nódulo cor da pele com cratera central de queratina, não lesão pigmentada de bordas irregulares.",
+   "Carcinoma basocelular típico é pápula perolada com telangiectasias; a variante pigmentada não costuma crescer tão rápido.",
+   "Carcinoma espinocelular é lesão queratósica ou ulcerada, eritematosa, sem o padrão pigmentado descrito."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 42 anos é internado para investigação de episódios recorrentes de dor epigástrica de forte intensidade com irradiação para o dorso, com diversas avaliações em serviços de pronto-atendimento, sem diagnóstico conclusivo. Ultrassonografia abdominal sem sinais de litíase ou de dilatação de vias biliares. Relata uso diário de bebida alcoólica desde os 16 anos. Considerando o caso apresentado, assinale a alternativa que indica, respectivamente, o exame complementar e a conduta terapêutica adequados.",
+  "alts": [
+   "Tomografia computadorizada de abdome; administração de amitriptilina.",
+   "Colangiopancreatografia endoscópica retrógrada; administração de gabapentina.",
+   "Tomografia computadorizada de abdome; administração de ácido ursodesoxicólico.",
+   "Colangiopancreatografia endoscópica retrógrada; administração de enzimas pancreáticas."
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Chronic Pancreatitis, 2020; AGA Clinical Practice Update on Management of Pain in Chronic Pancreatitis, 2022",
+  "coment": "Dor epigástrica recorrente irradiada para o dorso em etilista de longa data, sem litíase biliar, sugere pancreatite crônica alcoólica. A tomografia de abdome é o exame inicial, mostrando calcificações, dilatação ductal e atrofia; a CPRE não é exame diagnóstico, pelo risco de pancreatite, e fica para terapêutica. No controle da dor, além de abstinência de álcool e tabaco e analgesia escalonada, ACG (2020) e AGA (2022) admitem neuromoduladores, como tricíclicos e gabapentinoides, pelo componente neuropático. Enzimas tratam a insuficiência exócrina, não a dor.",
+  "porAlt": [
+   "Correta: a tomografia de abdome é o exame inicial na pancreatite crônica, e a amitriptilina é neuromodulador aceito para a dor.",
+   "CPRE não é exame diagnóstico de pancreatite crônica, pelo risco de complicações, e fica reservada a intervenções terapêuticas.",
+   "A tomografia está correta, mas ácido ursodesoxicólico atua em doenças colestáticas e não trata pancreatite alcoólica.",
+   "CPRE não é exame diagnóstico, e enzimas pancreáticas tratam insuficiência exócrina, sem efeito comprovado sobre a dor."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 55 anos, ao visitar seu pai, de 82 anos, com Doença de Alzheimer, em uma instituição de longa permanência para idosos (ILPI), suspeita de maus-tratos, uma vez que o encontrou restrito ao leito, com fraldas sujas e fácies de dor. Ela já havia presenciado outros idosos residentes passarem por situações semelhantes a essa na mesma instituição. Ao ser questionada, a equipe responsável responde que a restrição de mobilidade no leito foi efetuada porque o paciente se encontrava agitado pela manhã. Quanto à higiene do idoso, a equipe alega falta de profissionais para realizar as trocas de fraldas. Tendo em vista o que dispõe o Estatuto do Idoso, de que maneira a situação descrita pode ser qualificada?",
+  "alts": [
+   "A decisão dos familiares de manter o paciente em uma ILPI configura ato de violência contra o idoso.",
+   "A situação descrita é justificável do ponto de vista institucional por se tratar de paciente agitado e com demência.",
+   "A presença de negligência, caracterizada pela omissão na prestação de cuidados, configura-se como uma forma de violência institucional.",
+   "A situação caracteriza violência patrimonial, pois os recursos financeiros do idoso não estão sendo empregados para garantir os cuidados de que necessita."
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Estatuto da Pessoa Idosa (Lei nº 10.741/2003, com redação da Lei nº 14.423/2022)",
+  "coment": "O Estatuto da Pessoa Idosa (Lei 10.741/2003) determina que nenhum idoso será objeto de negligência, violência ou crueldade e obriga as instituições de longa permanência a garantir higiene, alimentação e cuidados de saúde. Deixar o residente com fraldas sujas, com dor não tratada e contido no leito por agitação, alegando falta de pessoal, é negligência (omissão de cuidados) praticada pela instituição, forma de violência institucional. A suspeita é de notificação compulsória pelos serviços de saúde e deve ser comunicada ao Ministério Público ou ao Conselho do Idoso.",
+  "porAlt": [
+   "Institucionalizar o idoso é opção legítima da família; a violência está na conduta da instituição, não na escolha pela ILPI.",
+   "Falta de pessoal e agitação não justificam contenção prolongada nem abandono da higiene; o Estatuto proíbe a negligência.",
+   "Correta: omissão de higiene e de controle da dor, com contenção inadequada, é negligência institucional, forma de violência.",
+   "Violência patrimonial envolve apropriação ou uso indevido de bens e recursos do idoso, fato não descrito."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 68 anos em quimioterapia paliativa para câncer gástrico avançado é internado devido à queda do estado geral e dispneia. Ao ser atendido, apresenta Saturação de O2 de 86%, sendo prescrita oxigenioterapia. A tomografia computadorizada de tórax evidencia padrão sugestivo de extensa linfangite carcinomatosa bilateral e pequeno derrame pleural à esquerda. Apesar do registro em prontuário da “diretiva antecipada de vontade” de não ser submetido a procedimentos invasivos, um de seus filhos insiste que o paciente seja submetido à ventilação mecânica invasiva. Nesse caso, a conduta adequada diante da piora respiratória do paciente é",
+  "alts": [
+   "realizar a intubação orotraqueal.",
+   "prescrever morfina por via parenteral.",
+   "realizar toracocentese terapêutica à esquerda.",
+   "instituir ventilação não invasiva seguida de intubação orotraqueal."
+  ],
+  "gab": 1,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Resolução CFM nº 1.995/2012 (diretivas antecipadas de vontade); ASCO Guideline, Management of Dyspnea in Advanced Cancer, 2021",
+  "coment": "Paciente com câncer gástrico avançado, linfangite carcinomatosa extensa (causa irreversível de dispneia) e diretiva antecipada registrada recusando procedimentos invasivos. Pela Resolução CFM 1.995/2012, a diretiva do paciente prevalece sobre o desejo dos familiares. O foco passa a ser o conforto: opioide sistêmico, com morfina em dose baixa e titulada, é o tratamento farmacológico de escolha para a dispneia refratária no câncer avançado, segundo a ASCO (2021), junto a oxigênio se hipoxemia, posicionamento e ventilador de ar. Intubar contraria a vontade expressa do paciente.",
+  "porAlt": [
+   "A intubação contraria a diretiva antecipada registrada, que prevalece sobre o pedido do filho, e não reverte a linfangite.",
+   "Correta: respeitando a diretiva, a morfina parenteral é o tratamento de escolha para aliviar a dispneia refratária no câncer avançado.",
+   "Derrame pleural pequeno não explica a dispneia, dominada pela linfangite, e a toracocentese é procedimento invasivo recusado.",
+   "VNI como ponte para intubação desrespeita a diretiva, pois o plano termina em ventilação invasiva recusada pelo paciente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Paciente de 38 anos, morador de uma zona urbana não endêmica e sem história de viagens recentes para regiões de risco, vai à unidade básica de saúde (UBS) apresentando histórico vacinal de febre amarela há 9 anos. Ele relata ao médico que um macaco foi encontrado morto perto de sua casa. Diante desse relato, o médico deve",
+  "alts": [
+   "salientar a ausência de risco de febre amarela, uma vez que o Brasil não é país endêmico.",
+   "informar que é desnecessário realizar reforço para a vacina contra febre amarela nesse caso.",
+   "solicitar e aguardar resultado do anatomopatológico do animal, a fim de confirmar febre amarela.",
+   "indicar o reforço da vacina contra febre amarela, independentemente da ministração da última dose."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Ministério da Saúde, esquema de dose única da vacina febre amarela (adotado em 2017) e Guia de Vigilância em Saúde, 6ª ed., 2023",
+  "coment": "Desde 2017, o Brasil adota dose única da vacina contra febre amarela para quem foi vacinado a partir dos 5 anos de idade, seguindo a OMS, pois uma dose confere proteção duradoura. Reforço só é indicado para quem recebeu a primeira dose antes dos 5 anos. Como o paciente foi vacinado aos 29 anos, não precisa de nova dose, mesmo diante de epizootia. O macaco morto é evento sentinela e deve ser notificado à vigilância, que investiga e vacina os não vacinados da área, mas a orientação ao paciente não depende do exame do animal.",
+  "porAlt": [
+   "O Brasil tem áreas com transmissão de febre amarela, e macaco morto pode sinalizar circulação do vírus perto do domicílio.",
+   "Correta: quem recebeu uma dose a partir dos 5 anos está protegido por toda a vida e não necessita de reforço.",
+   "A investigação da epizootia cabe à vigilância, e a orientação vacinal do paciente não depende desse resultado.",
+   "Reforço é indicado apenas para quem foi vacinado antes dos 5 anos; a dose aos 29 anos já é suficiente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 70 anos, sem comorbidades, é internada devido a quadro de dor, distensão abdominal e vômitos frequentes iniciados há 2 dias. Foi diagnosticada com uma hérnia umbilical encarcerada e submetida a correção cirúrgica e a enterectomia segmentar da porção necrosada. No primeiro dia de pós-operatório, observou-se drenagem de cerca de 2 litros de líquido pela sonda nasogástrica. No segundo dia, o abdome da paciente permaneceu distendido, com ruídos hidroaéreos hipoativos. Notou-se que ela está sem evacuar e com pouca eliminação de flatos. Nessa situação, o quadro clínico do segundo dia de pós-operatório é justificado pela",
+  "alts": [
+   "hipocalemia.",
+   "hipercalemia.",
+   "hipermagnesemia.",
+   "hipomagnesemia."
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Kardalas E et al., Hypokalemia: a clinical update, Endocrine Connections, 2018",
+  "coment": "No pós-operatório de enterectomia, a drenagem de cerca de 2 litros pela sonda nasogástrica causa perda de potássio e de ácido gástrico, e a alcalose metabólica resultante aumenta a caliurese e agrava a hipocalemia. O potássio baixo reduz a excitabilidade da musculatura lisa intestinal e prolonga o íleo paralítico, explicando a distensão, os ruídos hipoativos e a ausência de evacuações e flatos. Repor potássio, e magnésio se baixo, faz parte do manejo do íleo pós-operatório. Hipercalemia e hipermagnesemia não são esperadas com perdas digestivas altas.",
+  "porAlt": [
+   "Correta: perdas pela sonda nasogástrica causam hipocalemia, que reduz a motilidade intestinal e prolonga o íleo pós-operatório.",
+   "Perdas gastrointestinais altas depletam potássio; hipercalemia exigiria lesão renal ou lise celular, não descritas.",
+   "Hipermagnesemia exige insuficiência renal ou sobrecarga exógena, não perdas por sonda nasogástrica.",
+   "Hipomagnesemia pode coexistir e dificultar a correção do potássio, mas a causa principal do íleo é a hipocalemia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Mulher de 60 anos é encaminhada para atendimento especializado por ter apresentado 4 episódios de sangramento vaginal. Ela está lúcida, orientada, sem queixas e com autonomia em sua vida pessoal e social. Apresentou uma ultrassonografia transvaginal com endométrio de 12 mm de espessura e heterogêneo. Foi indicada histeroscopia diagnóstica, mas a paciente recusa-se a fazer porque acha que o sangramento é normal. Nesse caso, o médico deve",
+  "alts": [
+   "dizer à paciente que respeitará sua decisão e evitar discutir com ela o diagnóstico provável.",
+   "informar à paciente que existe a possibilidade de ser câncer e reforçar a necessidade do exame.",
+   "esclarecer para a família a necessidade do exame, mas omitir o diagnóstico provável para a paciente.",
+   "orientar que, caso ela se recuse a fazer o exame, será necessário procurar outro serviço para acompanhamento."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Código de Ética Médica (Resolução CFM nº 2.217/2018), arts. 24, 31 e 34",
+  "coment": "Sangramento pós-menopausa com endométrio de 12 mm e heterogêneo exige investigação pelo risco de câncer de endométrio. O Código de Ética Médica (2018) obriga o médico a informar ao paciente diagnóstico, prognóstico, riscos e objetivos do tratamento (art. 34) e a respeitar sua decisão livre e esclarecida (arts. 24 e 31). Paciente lúcida e autônoma tem direito à informação completa, e a recusa só é válida se for informada. Por isso, o médico deve explicar a possibilidade de câncer e reforçar a importância da histeroscopia, sem coerção.",
+  "porAlt": [
+   "Respeitar a autonomia pressupõe informação; aceitar a recusa sem discutir o risco de câncer torna a decisão desinformada.",
+   "Correta: o médico deve informar a possibilidade de câncer e reforçar a necessidade do exame, garantindo decisão esclarecida.",
+   "Paciente lúcida e autônoma tem direito à informação; comunicar só à família viola o sigilo e o art. 34 do Código de Ética.",
+   "Ameaçar interromper o acompanhamento pela recusa é coercitivo e contraria o dever de cuidado e o respeito à autonomia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Durante uma roda de conversa em uma sala de espera com mães que aguardavam a consulta de seus filhos com um médico de família e comunidade, uma enfermeira da equipe de saúde da família propôs a discussão do tema da hesitação vacinal. Durante o diálogo, uma das participantes afirmou que “a culpa de tudo isso é da Internet”. Considerando essa situação, assinale a alternativa correta, acerca dos argumentos a serem utilizados pela enfermeira nessa conversa com a comunidade.",
+  "alts": [
+   "A Internet veicula dúvidas quanto à real eficácia/eficiência e segurança das vacinas, o que abala a confiança da população nos imunobiológicos; ademais, o algoritmo das redes sociais associa temas antivacinação a outros temas de natureza moral, fazendo exposição seletiva.",
+   "A hesitação vacinal ocorre nos extratos sociais de menor renda, que são contrárias à medicalização da saúde e acreditam que hábitos de vida saudáveis protegem contra doenças e garantem saúde, dispensando a necessidade de vacinação.",
+   "O paradoxo epidemiológico de que algumas doenças imunopreveníveis hoje são raras, associado à complexidade do calendário vacinal, criou a política de redução temporária do uso de algumas vacinas em determinado ano para aumentar o engajamento da população no ano seguinte.",
+   "A circulação de informações falsas (fake news), impulsionada pela internet, causa pouco impacto nas escolhas da população de menor poder aquisitivo, que tende a ter mais confiança na vacinação e menor acesso às redes sociais."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "OMS, Report of the SAGE Working Group on Vaccine Hesitancy, 2014; OMS, Behavioural and social drivers of vaccination: tools and practical guidance, 2022",
+  "coment": "A hesitação vacinal, definida pelo SAGE/OMS (2014) como atraso ou recusa de vacinas apesar de disponíveis, depende de confiança, complacência e conveniência. A internet e as redes sociais amplificam dúvidas sobre eficácia e segurança, e os algoritmos criam bolhas de exposição seletiva que associam o tema antivacina a pautas morais e identitárias, corroendo a confiança nos imunobiológicos. A hesitação não se restringe aos mais pobres, atingindo também estratos de maior renda e escolaridade, e não existe política de suspender vacinas para gerar engajamento.",
+  "porAlt": [
+   "Correta: a internet dissemina dúvidas sobre eficácia e segurança, e os algoritmos expõem seletivamente o usuário a conteúdos antivacina ligados a pautas morais.",
+   "A hesitação ocorre em todos os estratos, inclusive nos de maior renda e escolaridade, e não se limita à população de baixa renda.",
+   "Não existe política de redução temporária de vacinas; o calendário é mantido integralmente para evitar surtos.",
+   "A desinformação alcança todas as classes, e o acesso a redes sociais pelo celular é amplo também entre os de menor renda."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Durante consulta no serviço de hematologia de um hospital terciário, um homem de 72 anos reage com a seguinte argumentação diante da proposta terapêutica do médico: \"Não, doutor, devido a minha crença, eu não posso receber sangue \". Ele está sendo atendido por síndrome mielodisplásica recentemente diagnosticada e, por questões religiosas, se recusa a aderir à proposta terapêutica de hemotransfusões periódicas. Diante desse cenário, o médico deve",
+  "alts": [
+   "adiar a decisão de transfusão até uma situação de maior gravidade, em que tenha maior poder de convencimento.",
+   "respeitar a autonomia do paciente, buscando outras formas de lidar com a anemia, como a administração de eritropoietina.",
+   "insistir na argumentação da necessidade da terapia transfusional, mostrando evidências científicas que comprovam o seu benefício.",
+   "buscar apoio do comitê de ética médica da unidade hospitalar para o convencimento do paciente sobre a necessidade das transfusões."
+  ],
+  "gab": 1,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Resolução CFM nº 2.232/2019 (recusa terapêutica); STF, Temas 952 e 1.069 de repercussão geral, 2024; ESMO Clinical Practice Guidelines, Myelodysplastic syndromes, 2021",
+  "coment": "Paciente adulto, capaz e informado pode recusar transfusão por convicção religiosa. A Resolução CFM 2.232/2019 reconhece a recusa terapêutica do paciente maior e lúcido, e o STF (Temas 952 e 1.069, 2024) confirmou o direito das Testemunhas de Jeová de recusar hemotransfusão e de ter acesso a tratamentos alternativos disponíveis. Na síndrome mielodisplásica de baixo risco com anemia sintomática, agentes estimuladores da eritropoiese são primeira linha, sobretudo com eritropoetina sérica baixa, segundo a ESMO (2021). Adiar, pressionar ou usar o comitê para convencer desrespeita a autonomia.",
+  "porAlt": [
+   "Aguardar agravamento para ter maior poder de convencimento é manipulação e desrespeita a decisão já informada do paciente.",
+   "Correta: respeita-se a recusa do paciente capaz e buscam-se alternativas, como eritropoetina, primeira linha na anemia da mielodisplasia de baixo risco.",
+   "Informar evidências é devido, mas insistir após recusa esclarecida transforma o esclarecimento em pressão indevida.",
+   "O comitê de ética pode apoiar a equipe, mas não deve ser usado para convencer o paciente a abandonar sua decisão."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ },
+ {
+  "q": "Homem de 58 anos procura atendimento devido a queixa de disfagia progressiva para alimentos sólidos iniciada há 6 meses, associada a perda de peso não intencional. Além disso, apresenta episódios frequentes de pirose e regurgitação, há vários anos, sem tratamento adequado. Endoscopia digestiva alta recente revela estenose esofágica no terço distal e sinais de esofagite crônica, com biópsias que não evidenciam malignidade. Nesse caso, a conduta inicial mais apropriada é indicar",
+  "alts": [
+   "esofagectomia subtotal por via videolaparoscópica.",
+   "aplicação de toxina botulínica em esôfago distal via endoscópica.",
+   "cirurgia de fundoplicatura imediata para correção do refluxo gastroesofágico.",
+   "dilatação endoscópica da estenose e prescrever inibidor de bomba de prótons."
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022",
+  "coment": "Disfagia progressiva para sólidos em paciente com pirose e regurgitação crônicas não tratadas, com estenose distal e esofagite à endoscopia e biópsias sem malignidade, caracteriza estenose péptica. A diretriz do ACG (2022) recomenda dilatação endoscópica (balão ou velas) associada a inibidor de bomba de prótons em dose plena contínua, que reduz a recorrência da estenose. Diante da perda de peso, novas biópsias são prudentes se a evolução for atípica. Esofagectomia é para neoplasia, toxina botulínica é opção na acalasia, e fundoplicatura não é conduta inicial.",
+  "porAlt": [
+   "Esofagectomia é reservada a neoplasia ou a estenose refratária complexa, não a estenose péptica com biópsia benigna.",
+   "Toxina botulínica é usada na acalasia, distúrbio motor diferente da estenose péptica por refluxo.",
+   "Fundoplicatura pode ser considerada depois, mas não dilata a estenose instalada nem é a conduta inicial.",
+   "Correta: estenose péptica benigna é tratada com dilatação endoscópica e IBP contínuo, que reduz a recorrência."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2025,
+   "prova": "Revalida 2025.1"
+  }
+ }
+]

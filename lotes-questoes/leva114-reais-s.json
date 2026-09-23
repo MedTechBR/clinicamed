@@ -1,0 +1,812 @@
+[
+ {
+  "q": "Uma mulher de 22 anos de idade foi encaminhada ao serviço de oftalmologia devido à episódio de olho vermelho, o qual o médico oftalmologista diagnosticou uma uveíte anterior aguda. Questionando a paciente, o médico identificou história de aftas orais recorrentes e dolorosas há pelo menos 1 ano para as quais não foi realizada nenhuma investigação, fazendo uso apenas de corticoides tópicos, com alívio fugaz. Relata, ainda, que apresenta dor abdominal e diarreia, mais ou menos, no mesmo período. Refere que as evacuações são frequentes, cerca de 5 a 6 vezes por dia, em pequeno volume e com sangue e muco visíveis em algumas ocasiões. Visando ao esclarecimento diagnóstico, o procedimento a ser adotado e o achado esperado, devem ser",
+  "alts": [
+   "teste de Patergia; pústula visualizável no local de punção após 7 dias.",
+   "parasitológico das fezes pelo MIF (mercúrio, iodo e formol); cistos e trofozoítos.",
+   "pesquisa de autoanticorpos (FAN); positivo com padrão nuclear pontilhado fino denso.",
+   "colonoscopia com biopsia; histopatológico com granuloma não caseoso."
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ECCO-ESGAR Guideline for Diagnostic Assessment in Inflammatory Bowel Disease, 2019; ECCO Guidelines on Therapeutics in Crohn's Disease, 2024",
+  "coment": "Diarreia com sangue e muco há cerca de 1 ano, dor abdominal, aftas orais recorrentes e uveíte anterior compõem o quadro de doença inflamatória intestinal com manifestações extraintestinais. A investigação padrão é a ileocolonoscopia com biópsias seriadas, e o granuloma não caseoso, embora presente em uma minoria das biópsias, é o achado histológico que diferencia a doença de Crohn da retocolite ulcerativa. Behçet entra no diferencial pela combinação de aftas e uveíte, mas o teste de patergia é lido em 24 a 48 horas e não explica a colite.",
+  "porAlt": [
+   "O teste de patergia é lido em 24 a 48 horas, não em 7 dias, e não esclarece uma colite crônica com sangue e muco.",
+   "Parasitoses não explicam uveíte e aftas recorrentes, e um ano de diarreia sanguinolenta exige investigação endoscópica.",
+   "O padrão pontilhado fino denso do FAN é típico de indivíduos sem doença autoimune sistêmica e não contribui para o diagnóstico.",
+   "Correta: ileocolonoscopia com biópsias confirma a doença inflamatória intestinal, e o granuloma não caseoso sustenta doença de Crohn."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Uma mulher de 27 anos de idade, de etnia afrodescendente, retorna ao ambulatório de clínica médica para mostrar os resultados dos exames complementares solicitados na última consulta. A paciente havia sido atendida em função de sintomas constitucionais (febre intermitente, mal-estar, anorexia, desânimo e artralgias) e importante queda de cabelos. Ao exame físico, havia sido observada a presença de sinovite em punhos, cotovelos, joelhos e tornozelos. Além de padrão de alopecia generalizada (eflúvio telógeno). Havia histórico familiar de artrite reumatoide, lupus eritematoso e tireoidite de Hashimoto. A paciente negava tabagismo e etilismo, referindo apenas uso regular de contraceptivo hormonal oral. Os resultados dos exames complementares solicitados à ocasião da 1.a consulta revelaram: hemoglobina = 10,2 g/dL (valor de referência: 12 a 15,5 g/dL); contagem de plaquetas = 102 000/mm³ (valor de referência: 150 000 a 400 000/mm³); leucograma (incluindo diferencial) normal; TSH = 8 UI/ml (valor de referência: 0,5 a 5,0 UI/ml); T4 livre = 1,2 ng/dL (valor de referência: 0,9 a 1,9 ng/dL); FAN = presente em título 1:640 (valor de referência < 1:80), padrão periférico; anti-DNAds: presente em título 1:240 (valor de referência < 1:100); C3: 33 mg/dL (valor de referência: 90 a 180 mg/dl); VDRL + 1:4 (valor de referência: negativo); IgG anticardiolipina: 12 GPL (valor de referência < 10 GPL); ureia: 44 mg/dL (valor de referência: 20 a 40 mg/dL); creatinina = 1,2 mg/dL (valor de referência: 0,7 a 1,1 mg/dL); exame de urina tipo I com hematúria microscópica e proteinúria leve a moderada; SPOT urinário com proteinúria estimada de 560 mg (valor de referência < 151 mg). Diante dos dados apresentados, a melhor explicação diagnóstica para o caso é",
+  "alts": [
+   "lúpus eritematoso sistêmico com síndrome do anticorpo antifosfolipídio.",
+   "lúpus eritematoso sistêmico evoluindo com nefrite lúpica.",
+   "hipotireoidismo associado com síndrome do anticorpo antifosfolipídio.",
+   "glomerulonefrite aguda secundária a sífilis associada com hipotireoidismo."
+  ],
+  "gab": 1,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "EULAR/ACR Classification Criteria for Systemic Lupus Erythematosus, 2019; KDIGO Clinical Practice Guideline for the Management of Lupus Nephritis, 2024",
+  "coment": "Mulher jovem com FAN 1:640, anti-DNA de dupla hélice positivo, C3 baixo, artrite, alopecia, anemia e plaquetopenia preenche com folga os critérios EULAR/ACR 2019 de LES. Hematúria, proteinúria de 560 mg e creatinina em elevação indicam envolvimento renal, e proteinúria acima de 0,5 g/dia no lúpus é indicação de biópsia renal para classificar a nefrite (ISN/RPS) e guiar a imunossupressão, segundo o KDIGO 2024. Anticardiolipina em título baixo e VDRL falso-positivo não fecham síndrome antifosfolípide, que exige trombose ou morbidade obstétrica e anticorpos em título moderado a alto persistentes.",
+  "porAlt": [
+   "Anticardiolipina de 12 GPL é título baixo e não há trombose nem morbidade obstétrica, portanto não há critérios de síndrome antifosfolípide.",
+   "Correta: LES com anti-DNA, consumo de complemento e sedimento urinário ativo com proteinúria acima de 0,5 g indica nefrite lúpica.",
+   "TSH discretamente elevado com T4 livre normal é hipotireoidismo subclínico e não explica sinovite, citopenias e nefropatia.",
+   "O VDRL em título baixo é falso-positivo comum no lúpus, e sífilis com hipotireoidismo não explica anti-DNA positivo e C3 consumido."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um homem, com 58 anos de idade, foi atendido em ambulatório de hospital secundário. Relatava dor e queimação epigástrica que aumentava após a ingestão de alimentos, acompanhada de plenitude pós-prandial. Realizou endoscopia digestiva alta que evidenciou úlcera com 5 mm de diâmetro na parede anterior do antro gástrico, na região pré-pilórica. Com base nos dados apresentados, assinale a alternativa que apresenta a conduta adequada a ser seguida.",
+  "alts": [
+   "Solicitar endoscopia com biópsias seriadas para excluir neoplasia gástrica e pesquisar Helicobacter pylori.",
+   "Indicar tratamento operatório pela localização da úlcera e risco de perfuração.",
+   "Prescrever inibidor de secreção gástrica por 6 a 8 semanas e solicitar endoscopia com pesquisa de Helicobacter pylori, avaliando a cicatrização.",
+   "Prescrever inibidor da secreção gástrica e tratar Helicobacter pylori empiricamente por sua prevalência em ulcerosos, evitando recidiva."
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Maastricht VI/Florence Consensus Report on the management of Helicobacter pylori infection, 2022; ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024",
+  "coment": "Toda úlcera gástrica deve ser biopsiada, porque o aspecto endoscópico não exclui adenocarcinoma, e a pesquisa de Helicobacter pylori é obrigatória em qualquer úlcera péptica, já que a erradicação reduz a recidiva. Como a endoscopia descrita não coletou material, o passo seguinte é repeti-la com biópsias das bordas e do fundo da lesão e teste para H. pylori. Depois vêm o inibidor de bomba por 8 semanas, a erradicação se o teste for positivo e o controle endoscópico da cicatrização, que é a regra na úlcera gástrica.",
+  "porAlt": [
+   "Correta: úlcera gástrica exige biópsias para excluir neoplasia e pesquisa de H. pylori antes de definir o tratamento.",
+   "Úlcera pequena não complicada tem tratamento clínico; cirurgia fica para perfuração, obstrução, sangramento refratário ou malignidade.",
+   "Tratar por 8 semanas sem ter biopsiado a lesão pode mascarar um câncer gástrico ulcerado que cicatriza parcialmente com IBP.",
+   "Erradicação empírica sem teste não é recomendada, e a alternativa omite a biópsia necessária para excluir malignidade."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "No Brasil, a doença diarreica aguda é reconhecida como importante causa de morbimortalidade, mantendo relação direta com as precárias condições de vida e saúde dos indivíduos, em consequência da falta de saneamento básico, de desastres naturais (estiagem, seca e inundação) e da desnutrição crônica, entre outros fatores, de acordo com dados do Ministério da Saúde de 2019. No sentido de melhorar o controle das doenças diarreicas agudas, o Ministério da Saúde orienta, como conduta relacionada à vigilância epidemiológica a ser adotada pela equipe de saúde da Unidade Básica de Saúde, a",
+  "alts": [
+   "monitorização, do tipo sentinela, das doenças diarreicas agudas.",
+   "notificação compulsória semanal dos surtos de doença diarreica aguda apenas em crianças.",
+   "notificação compulsória imediata de caso individual de doença diarreica aguda em criança.",
+   "notificação compulsória dos casos isolados de doença diarreica aguda causada por água e/ou alimento."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Guia de Vigilância em Saúde, Ministério da Saúde, 6ª edição, 2023; Lista Nacional de Notificação Compulsória (Portaria de Consolidação GM/MS nº 4/2017, atualizada em 2024)",
+  "coment": "A vigilância das doenças diarreicas agudas no Brasil é feita pela Monitorização das Doenças Diarreicas Agudas (MDDA), estratégia do tipo sentinela em que unidades de saúde registram semanalmente os casos atendidos, por faixa etária e plano de tratamento, para detectar mudanças no padrão e surtos precocemente. Caso isolado de diarreia aguda não é de notificação compulsória individual, em adulto nem em criança. O que se notifica de forma imediata são os surtos, inclusive os de doença transmitida por água ou alimento, e agravos específicos como a cólera.",
+  "porAlt": [
+   "Correta: a MDDA é a vigilância sentinela das diarreias agudas, com registro semanal agregado nas unidades monitoras.",
+   "Surtos de doença diarreica são notificados em qualquer faixa etária e de forma imediata, não semanal nem restrita a crianças.",
+   "Caso individual de diarreia aguda não é de notificação compulsória, apenas entra na monitorização agregada da MDDA.",
+   "Doença transmitida por água ou alimento é notificada quando há surto (dois ou mais casos com fonte comum), não em caso isolado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Em 2006, foi implantada a Política Nacional de Práticas Integrativas e Complementares (PNPIC) no SUS. De acordo com essa política, é correto afirmar que",
+  "alts": [
+   "o seu campo de atuação envolve sistemas médicos simplificados com a utilização de recursos terapêuticos simples.",
+   "estimula mecanismos naturais de tratamento de algumas doenças e recuperação da saúde com utilização de tecnologias frágeis e nem sempre seguras.",
+   "limita o acesso à tecnologia de ponta e aumenta o número de atendimentos nas unidades, contribuindo para ampliar a resolubilidade do sistema.",
+   "compartilha da visão ampliada do processo saúdedoença e a promoção global do cuidado humano, especialmente do autocuidado."
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Política Nacional de Práticas Integrativas e Complementares no SUS (PNPIC), Portaria GM/MS nº 971, 2006",
+  "coment": "A PNPIC, instituída pela Portaria GM/MS nº 971 de 2006, incorporou ao SUS medicina tradicional chinesa e acupuntura, homeopatia, plantas medicinais e fitoterapia, termalismo e medicina antroposófica, depois ampliadas para 29 práticas. O texto da política define essas abordagens como estímulo aos mecanismos naturais de prevenção de agravos e recuperação da saúde por tecnologias eficazes e seguras, com escuta acolhedora, vínculo terapêutico e integração do ser humano com o meio, e afirma a visão ampliada do processo saúde-doença e a promoção global do cuidado, especialmente do autocuidado.",
+  "porAlt": [
+   "A política trata de sistemas médicos complexos, como medicina tradicional chinesa e homeopatia, e não de sistemas simplificados.",
+   "O texto da PNPIC fala em tecnologias eficazes e seguras, não em tecnologias frágeis ou de segurança duvidosa.",
+   "A PNPIC não limita o acesso a tecnologia de ponta; ela complementa o cuidado e amplia as opções terapêuticas do usuário.",
+   "Correta: a política adota a visão ampliada do processo saúde-doença e a promoção global do cuidado, com ênfase no autocuidado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um paciente com 54 anos, em acompanhamento há 4 meses em função de cardiopatia isquêmica dilatada, foi admitido na unidade de emergência com queixas de súbitas palpitações e dispneia há cerca de 3 horas. O paciente nega dor precordial, informando ser portador, de longa data, de hipertensão arterial sistêmica e diabetes melito, em uso de carvedilol, enalapril, furosemida, espironolactona, dapagliflozina e insulina NPH (dose apenas noturna). Ao exame físico, o paciente se encontra em moderado desconforto respiratório, sudorese presente, pressão arterial de 80 × 62 mmHg, frequência cardíaca de 120 batimentos por minuto, com ritmo cardíaco irregular e com estertoração bolhosa bibasal. É realizado um eletrocardiograma (ECG) que evidencia padrão irregular, com existência de ondas f, sendo caracterizada fibrilação atrial paroxística com elevada resposta ventricular; fora a presença de ondas Q patológicas na parede anterior, não há distúrbios de ST-T no ECG. A médica que o atende opta por realizar um procedimento que exige prévia aplicação de sedação e analgesia ao paciente, passando a explicar-lhe o que será realizado em seguida. Diante da situação apresentada, o procedimento que será realizado no paciente é",
+  "alts": [
+   "cineangiocoronariografia com angioplastia coronária.",
+   "cateterismo cardíaco com estudo eletrofisiológico.",
+   "implante de marca-passo provisório transvenoso.",
+   "aplicação de cardioversão elétrica."
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "ESC Guidelines for the management of atrial fibrillation, 2024; ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation, 2023",
+  "coment": "Fibrilação atrial com resposta ventricular elevada em paciente com cardiopatia dilatada, hipotensão (80 x 62 mmHg), sudorese e congestão pulmonar é FA com instabilidade hemodinâmica. Nessa situação as diretrizes indicam cardioversão elétrica sincronizada imediata, sob sedação e analgesia, sem aguardar anticoagulação prévia ou ecocardiograma transesofágico, porque o risco da instabilidade supera o de embolia; a heparina deve ser iniciada assim que possível. Sem dor torácica nem alteração de ST, não há indicação de coronariografia de urgência.",
+  "porAlt": [
+   "Não há síndrome coronariana aguda: sem dor, sem alteração de ST e com ondas Q antigas, a instabilidade decorre da arritmia.",
+   "Estudo eletrofisiológico e ablação são terapias eletivas de controle de ritmo, nunca a conduta em FA instável na emergência.",
+   "Marca-passo provisório trata bradiarritmias com instabilidade; aqui a frequência é de 120 bpm por taquiarritmia.",
+   "Correta: FA com hipotensão e edema pulmonar exige cardioversão elétrica sincronizada imediata sob sedação e analgesia."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um homem com 62 anos comparece, acompanhado de sua filha, a uma unidade básica de saúde, após terem sido alertados pelos vizinhos sobre a campanha de detecção de câncer de próstata, denominada Novembro azul. O paciente não mantém contato com os irmãos nem com o restante da família, portanto desconhece se há história familiar de câncer. Está completamente assintomático. Relata que seu pai faleceu aos 65 anos de idade e que não sabe a causa da morte. Nesse caso, do ponto de vista da prevenção, a conduta do médico deve ser",
+  "alts": [
+   "orientar o rastreio, indicado para homens de 50 a 70 anos de idade e esclarecer a filha de que será solicitado o PSA (antígeno prostático específico), método com grande sensibilidade e especificidade para diagnóstico de estágio precoce de doença.",
+   "iniciar o rastreio indicado para homens de 50 a 70 anos de idade, como recomendado pelo Ministério da Saúde, que prevê, nessa faixa etária, a realização do toque retal e a ultrassonografia da próstata, após concordância, expressa no consentimento informado.",
+   "avaliar a necessidade de rastreio, indicado para homens de 50 a 70 anos de idade, esclarecendo à filha de que serão solicitados um exame de toque retal, a coleta do PSA e a ultrassonografia da próstata, após concordância, expressa no consentimento informado.",
+   "discutir o rastreio do câncer de próstata com o paciente e sua filha, dado que ele está assintomático e que, nesse caso, há muitos dados que mostram que possíveis danos relacionados a testes diagnósticos e tratamentos excessivos superam respectivos benefícios."
+  ],
+  "gab": 3,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Nota Técnica do Ministério da Saúde/INCA: recomendação pelo não rastreamento populacional do câncer de próstata, 2023",
+  "coment": "O Ministério da Saúde e o INCA não recomendam o rastreamento populacional do câncer de próstata em homens assintomáticos, posição reafirmada na nota técnica de 2023: os estudos mostram aumento de diagnósticos, sobretudo de tumores indolentes, sem redução consistente da mortalidade, com danos relevantes por biópsias, sobrediagnóstico e sobretratamento (incontinência e disfunção erétil). Ao homem que procura o exame, a conduta é discutir riscos e benefícios em decisão compartilhada. Não existe faixa de rastreio de 50 a 70 anos no SUS, e ultrassonografia não é exame de rastreamento.",
+  "porAlt": [
+   "O MS não indica rastreio populacional, e o PSA tem especificidade baixa, gerando muitos falso-positivos e biópsias desnecessárias.",
+   "Não há programa de rastreio de 50 a 70 anos no SUS, e ultrassonografia não tem papel no rastreamento do câncer de próstata.",
+   "Parte de uma faixa de rastreio inexistente no SUS e inclui ultrassonografia, que não é método de rastreamento.",
+   "Correta: sem indicação de rastreio populacional, cabe decisão compartilhada, explicando que os danos podem superar os benefícios."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Sindemia é um conjunto de problemas de saúde intimamente interligados e que aumentam mutuamente, que afetam significativamente o estado geral de saúde de uma população no contexto de persistência de condições sociais adversas. SINGER, M. A dose of drugs, a touch of violence, a case of AIDS: conceptualizing the SAVA syndemic. Free Inquiry in Creative Sociology. Okhlahoma, Estados Unidos, v. 24, n. 2, p. 99-110, 1996. A sindemia não constitui simplesmente um sistema de comorbidade; ao contrário, significa um sistema de transmorbidade. Implica, ademais, entender essa sindemia como determinada socialmente e, por consequência, compreender que ela não será solucionada somente com modelos de intervenção provenientes exclusivamente do campo biomédico. VILAÇA MENDES, E. O lado oculto de uma pandemia: a terceira onda da covid-19 ou o paciente invisível. CONASS. 2020. Acerca da perspectiva sindêmica da Covid-19, assinale a opção correta.",
+  "alts": [
+   "A distribuição das taxas de morbidade e mortalidade da Covid-19 entre os diferentes segmentos sociais reflete as desigualdades estruturais e os determinantes sociais da saúde.",
+   "A suspensão dos atendimentos de pessoas com doenças crônicas foi medida acertada diante da emergência sanitária, dada a necessidade de priorizar o atendimento e o acompanhamento dos casos de Covid-19.",
+   "A interação entre epidemias resulta na redução considerável da taxa de incidência das doenças, assim como da severidade dos casos e das repercussões para as comunidades, prevalecendo uma das epidemias em detrimento das demais.",
+   "A teoria sindêmica da Covid-19 reforça a importância de investimentos em políticas de natureza curativa, sobretudo na estruturação e ampliação de leitos clínicos e de terapia intensiva direcionados aos casos graves, que requerem acompanhamento hospitalar."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Horton R. Offline: COVID-19 is not a pandemic, The Lancet, 2020; Mendes EV. O lado oculto de uma pandemia, CONASS, 2020",
+  "coment": "O conceito de sindemia, de Merrill Singer, descreve epidemias que interagem entre si e com condições sociais adversas, potencializando-se. Aplicado à Covid-19 por Richard Horton em 2020, mostra que a doença viral se somou às doenças crônicas não transmissíveis e se concentrou nos grupos mais pobres, com maior incidência, gravidade e mortalidade. Por isso a distribuição da carga da Covid-19 espelha desigualdades estruturais e determinantes sociais, e a resposta precisa ir além de leitos, alcançando proteção social e continuidade do cuidado crônico.",
+  "porAlt": [
+   "Correta: na leitura sindêmica, morbidade e mortalidade da Covid-19 se distribuíram segundo desigualdades e determinantes sociais.",
+   "Suspender o cuidado dos doentes crônicos agravou a sindemia, gerando descompensações e mortes evitáveis, a chamada terceira onda.",
+   "Na sindemia as epidemias se potencializam, aumentando incidência e gravidade, em vez de uma prevalecer e reduzir as outras.",
+   "A perspectiva sindêmica defende ações sociais e de atenção primária, não apenas investimento curativo em leitos hospitalares."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um paciente com 65 anos faz acompanhamento na unidade básica de saúde devido a doença de Parkinson e evolui com quadro de sonolência diurna excessiva, anosmia, fadiga e apatia. Os familiares referem que o paciente faz uso regular dos seguintes medicamentos: levodopa, dipirona, losartana e ácido acetilsalicílico. Ele é, então, encaminhado para internação hospitalar para investigação diagnóstica do quadro relatado. O exame físico revela presença de rigidez muscular importante com sinal da roda dentada presente e tremores nas extremidades. O paciente apresenta-se muito sonolento, respondendo às solicitações, com perda do olfato, cansaço importante e apatia. Foram realizados exames laboratoriais que se mostraram dentro dos parâmetros da normalidade. Nesse caso, a provável evolução do quadro clínico do paciente está relacionada a",
+  "alts": [
+   "quadro infeccioso com exames laboratoriais dentro dos parâmetros da normalidade.",
+   "distúrbios neurodegenerativos não relacionados à doença de Parkinson.",
+   "manifestação neuropsiquiátrica e não motora da doença de Parkinson.",
+   "parkinsonismo secundário associado a medicamentos."
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "MDS Clinical Diagnostic Criteria for Parkinson's Disease, 2015; MDS Evidence-Based Review of Treatments for Non-Motor Symptoms of Parkinson's Disease, 2019",
+  "coment": "A doença de Parkinson é multissistêmica e seus sintomas não motores são frequentes, muitas vezes anteriores aos motores: hiposmia, distúrbios do sono (sonolência diurna excessiva, transtorno comportamental do sono REM), fadiga, apatia, depressão, constipação e disautonomia. Os critérios da MDS de 2015 incluem a hiposmia como critério de suporte. Com exames normais, sem sinais de infecção e sem fármaco que cause parkinsonismo, o conjunto de sonolência, anosmia, fadiga e apatia se explica pela própria doença. Levodopa e agonistas dopaminérgicos também podem piorar a sonolência.",
+  "porAlt": [
+   "Não há febre, foco ou alteração laboratorial que sustente infecção, e os sintomas são típicos da própria doença.",
+   "Anosmia, sonolência, fadiga e apatia fazem parte do espectro não motor do Parkinson, sem necessidade de outra doença degenerativa.",
+   "Correta: sonolência diurna, anosmia, fadiga e apatia são manifestações não motoras e neuropsiquiátricas da doença de Parkinson.",
+   "Nenhum dos fármacos em uso (levodopa, dipirona, losartana, AAS) bloqueia receptores dopaminérgicos para causar parkinsonismo."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente com 30 anos, branca, procura serviço de emergência devido a sangramento gengival e ao aparecimento de pontos avermelhados nos membros inferiores há 15 dias, com piora progressiva das lesões e fadiga. Nega febre, uso de medicamentos e ingesta de bebidas à base de quinino. Foram solicitados exames que mostraram: Hemograma Resultado Valores de referência Mulheres Homens; Hemácias 4,0 x 10¹²/L 0,5-4,3 x 10¹²/L 0,5-5,0 x 10¹²/L; Hemoglobina 10 g/dL 12,0-16,0 g/dL 13,5-17,5 g/dL; Hematócrito 30% 36-46 (%) 41-53 (%); Leucócitos 5,0 x 10³/L 3,0-7,0 x 10³/L; Plaquetas 10 x 10³/L 150-400 x 10³/L. OBS.: foram observadas macroplaquetas na lâmina do esfregaço de sangue. Coagulograma Resultado Valor de referência; TP (tempo de protrombina) 12 seg 11,7±0,5 seg; Atividade 100% 70 a 120%; RNI (razão Normalizada Internacional) 1,0 1,0; TTPA (tempo de tromboplastina parcial ativada) 20 seg 22 a 40 seg; R (relação = tempo paciente/tempo de controle interno) 1,0 0,8 a 1,3. Outros exames laboratoriais Resultado Valor de referência; Ureia 30 mg/dL 13 a 43 mg/dL; Creatinina 0,8 mg/dL 0,6 a 1,2 mg/dL; DHL (desidrogenase lática) 150 U/dL 125 a 220 U/dL; Bilirrubina total 1,0 mg/dL Até 1,2 mg/dL; Bilirrubina direta 0,3 mg/dL Até 0,3 mg/dL; Bilirrubina indireta 0,6 mg/dL Até 0,6 mg/dL; Teste de Coombs direto Negativo Negativo; Teste de Coombs indireto Negativo Negativo; Atividade da enzima ADAMTS13 >10% ≥10%. Ao exame clínico, notou-se a presença de lesões na pele, com petéquias no dorso do pé e no tornozelo (sola dos pés sem lesões) e hemorragia bolhosa na mucosa bucal. Com base nas informações descritas, a principal hipótese diagnóstica é",
+  "alts": [
+   "síndrome hemolítico-urêmica (SHU).",
+   "púrpura trombocitopênica trombótica.",
+   "trombocitopenia induzida por fármaco.",
+   "púrpura trombocitopênica imunológica grave."
+  ],
+  "gab": 3,
+  "tema": "hemato",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ASH Guidelines for Immune Thrombocytopenia, 2019; Updated International Consensus Report on the Investigation and Management of Primary Immune Thrombocytopenia, 2019",
+  "coment": "Plaquetopenia isolada e grave (10.000/mm³) com macroplaquetas, coagulograma normal, sem hemólise (DHL, bilirrubinas e Coombs normais), função renal preservada e ADAMTS13 acima de 10% indica PTI, que é diagnóstico de exclusão. É considerada grave pelo sangramento mucoso (gengival e bolhas hemorrágicas na boca, a chamada púrpura úmida) com plaquetas muito baixas. O tratamento inicial é corticoide, associando imunoglobulina IV quando há sangramento relevante ou necessidade de resposta rápida. PTT e SHU exigem anemia hemolítica microangiopática.",
+  "porAlt": [
+   "SHU cursa com hemólise microangiopática e lesão renal aguda, ausentes aqui com DHL, bilirrubina e creatinina normais.",
+   "PTT exige hemólise microangiopática e atividade de ADAMTS13 abaixo de 10%, e a paciente tem ADAMTS13 normal.",
+   "A paciente nega uso de medicamentos e de quinino, o que afasta trombocitopenia induzida por fármaco.",
+   "Correta: plaquetopenia isolada grave com macroplaquetas, sem hemólise, coagulograma normal e sangramento mucoso é PTI grave."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma adolescente de 17 anos procura atendimento médico, com queixa de lesões vulvares recorrentes dolorosas e com drenagem de secreção. No exame da genitália externa da paciente, evidenciam-se múltiplos abscessos e cicatrizes profundas nos lábios, acompanhadas de secreção de odor fétido à expressão. Ela também refere nódulos persistentes e doloridos que costumam durar semanas ou meses. A paciente relata o aparecimento ocasional de lesões similares na axila. Para esse caso, o diagnóstico é compatível com",
+  "alts": [
+   "sífilis primária.",
+   "vulvite herpética.",
+   "hidradenite supurativa.",
+   "linfogranuloma venéreo."
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "North American Clinical Management Guidelines for Hidradenitis Suppurativa (United States and Canadian HS Foundations), 2019",
+  "coment": "Nódulos inflamatórios dolorosos e recorrentes, abscessos, fístulas com drenagem fétida e cicatrizes em áreas intertriginosas (vulva, axilas, virilhas, região inframamária e glútea), com evolução de meses, definem a hidradenite supurativa, doença inflamatória crônica do folículo piloso. O diagnóstico é clínico: lesões típicas, em localização típica, com recorrência (duas ou mais vezes em 6 meses). O estadiamento de Hurley orienta o tratamento, que vai de antibióticos tópicos e orais (tetraciclinas, clindamicina com rifampicina) a imunobiológicos e cirurgia.",
+  "porAlt": [
+   "Sífilis primária é o cancro duro, úlcera única, indolor e de base endurecida, sem abscessos recorrentes nem acometimento axilar.",
+   "Herpes genital causa vesículas agrupadas que ulceram e cicatrizam sem deixar fístulas ou cicatrizes profundas, e não acomete axilas.",
+   "Correta: nódulos dolorosos recorrentes, abscessos, fístulas com secreção fétida e cicatrizes em vulva e axila definem hidradenite supurativa.",
+   "Linfogranuloma venéreo causa úlcera fugaz seguida de adenopatia inguinal que fistuliza, sem lesões axilares recorrentes."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um paciente com 32 anos, enfermeiro em hospital de referência em urgência e emergência, queixa-se de eritema, descamação e pápulas na face, principalmente na região malar. Ele relata ter percebido que esse quadro clínico, compatível com eczema de contato na face, manifestou-se após o uso constante de certo tipo de máscara de proteção. Apesar do risco de contágio pelo novo Covid-19 já ter diminuído, os profissionais da área de saúde continuam a usar com frequência seus equipamentos de proteção individual, entre eles, as máscaras N95. Considerando-se a situação descrita, assinale a opção correta.",
+  "alts": [
+   "Os medicamentos tópicos, como pomadas compostas por corticoide e antibiótico, são de prescrição obrigatória na condução clínica desse paciente.",
+   "Os testes epicutâneos constituem ferramenta diagnóstica confirmativa, podendo ser utilizados amplamente na Atenção Primária à Saúde.",
+   "O afastamento, temporário ou permanente, desse trabalhador deve ser avaliado, a partir da confirmação ou suspeita de doença relacionada ao trabalho.",
+   "O diagnóstico de dermatose ocupacional, frequente entre profissionais dessa área, possui prevalência real registrada elevada, existindo baixa prevalência de sub-registros depois das notificações realizadas na Atenção Primária à Saúde."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Lista de Doenças Relacionadas ao Trabalho, Portaria GM/MS nº 1.999, 2023; Portaria GM/MS nº 5.201, 2024 (inclusão das dermatoses ocupacionais na Lista Nacional de Notificação Compulsória)",
+  "coment": "Dermatite de contato na face surgida com o uso contínuo de máscara N95 é dermatose ocupacional, e diante de suspeita ou confirmação de doença relacionada ao trabalho o médico deve avaliar a necessidade de afastamento da exposição, temporário ou definitivo, além de notificar o caso, já que as dermatoses ocupacionais integram a Lista Nacional de Notificação Compulsória desde 2024. O teste de contato é feito por especialista e confirma sensibilização alérgica, não sendo ferramenta de uso amplo na APS. O tratamento é afastar o agente e usar corticoide tópico. Essas doenças são muito subnotificadas.",
+  "porAlt": [
+   "Associação de corticoide com antibiótico não é obrigatória; sem infecção secundária, basta afastar o agente e usar corticoide tópico.",
+   "Teste epicutâneo exige técnica e leitura especializadas e identifica sensibilização alérgica, não sendo ferramenta de uso amplo na APS.",
+   "Correta: diante de suspeita ou confirmação de doença relacionada ao trabalho, deve-se avaliar o afastamento da exposição.",
+   "As dermatoses ocupacionais são sabidamente subnotificadas, e a prevalência registrada fica abaixo da real."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente com 35 anos, que vive com o marido e dois filhos pequenos, procurou uma unidade básica de saúde (UBS) com feridas recentes. Ela relatou que, na noite anterior, havia sido agredida pelo marido, com socos e pontapés, e ameaçada com uma faca. Após receber atendimento para as lesões, e tendo sido abordada pelo médico, a paciente confirmou que a atitude violenta do marido é frequente e que vem ocorrendo há dois anos. Diante desse quadro, a conduta médica adequada é",
+  "alts": [
+   "encaminhar a paciente ao atendimento psiquiátrico e comunicar o caso ao Conselho Tutelar.",
+   "encaminhar a paciente, acompanhada de alguém da equipe da UBS, à Delegacia de Proteção à Mulher e emitir boletim de ocorrência.",
+   "comunicar o fato à rede social de apoio da paciente, vizinhos e familiares, para que a ajudem nos momentos de conflito entre ela e o marido.",
+   "propor abordagem multiprofissional e notificar o caso de violência preenchendo a Ficha de Notificação do Sistema de Informação de Agravos de Notificação (SINAN)."
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Lei nº 10.778/2003, alterada pela Lei nº 13.931/2019 (notificação compulsória da violência contra a mulher); Lista Nacional de Notificação Compulsória, Portaria de Consolidação GM/MS nº 4/2017, atualizada em 2024",
+  "coment": "Violência doméstica, sexual e outras violências interpessoais contra a mulher são de notificação compulsória no SINAN, e a conduta esperada da equipe é acolher, tratar as lesões, avaliar o risco, construir um plano de segurança com abordagem multiprofissional e acionar a rede intersetorial. A notificação é dever do profissional e não equivale a denúncia. Desde a Lei 13.931/2019, os casos com indícios ou confirmação de violência contra a mulher atendidos em serviços de saúde também devem ser comunicados à autoridade policial em 24 horas, mas registrar boletim de ocorrência é decisão da própria mulher adulta.",
+  "porAlt": [
+   "Conselho Tutelar é acionado quando a vítima é criança ou adolescente, e encaminhamento psiquiátrico não é a conduta central.",
+   "O boletim de ocorrência é decisão da mulher adulta; o médico não o emite nem conduz a paciente à delegacia contra sua escolha.",
+   "Expor o caso a vizinhos e familiares sem consentimento viola o sigilo e pode aumentar o risco para a paciente.",
+   "Correta: abordagem multiprofissional com notificação no SINAN é a conduta prevista para violência contra a mulher."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um paciente com 20 anos, previamente hígido, é recebido em pronto atendimento referindo que iniciou, há cinco dias, tosse produtiva acompanhada de astenia e febre diária entre 38 e 39 °C e que evoluiu com dor no hemitórax direito, que piorava com inspiração profunda e dispneia progressiva. Conta que procurou médico há 3 dias, o qual lhe prescreveu analgésicos e anti-inflamatórios, não tendo obtido melhora significativa do quadro. Ao exame físico, o paciente encontra-se em regular estado geral, com expansibilidade da caixa torácica reduzida à direita, frêmito toracovocal reduzido, com submacicez e murmúrio vesicular abolido em base pulmonar à direita. Com base na situação apresentada, a hipótese diagnóstica mais provável é",
+  "alts": [
+   "pneumonia viral complicada com atelectasia.",
+   "neoplasia de pulmão complicada com atelectasia.",
+   "tuberculose pulmonar complicada com pneumotórax.",
+   "pneumonia bacteriana complicada com derrame pleural."
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ATS/IDSA Guideline for the Diagnosis and Treatment of Adults with Community-acquired Pneumonia, 2019; BTS Guideline for Pleural Disease, 2023",
+  "coment": "Jovem hígido com tosse produtiva, febre alta e dor pleurítica há 5 dias tem pneumonia bacteriana adquirida na comunidade. Expansibilidade reduzida, frêmito toracovocal diminuído, submacicez e murmúrio abolido na base compõem a semiologia do derrame pleural, provavelmente parapneumônico. Na atelectasia o frêmito também cai, mas há retração com desvio do mediastino para o lado afetado, quadro pouco esperado em jovem sem obstrução brônquica. O próximo passo é imagem (radiografia ou ultrassonografia) e toracocentese para separar derrame não complicado de complicado ou empiema.",
+  "porAlt": [
+   "Febre alta com tosse produtiva e dor pleurítica sugere etiologia bacteriana, e o exame físico indica derrame, não atelectasia.",
+   "Neoplasia pulmonar é improvável em jovem de 20 anos com quadro febril agudo de 5 dias.",
+   "Pneumotórax cursa com hipertimpanismo à percussão, não com submacicez, e a evolução aguda febril não é típica de tuberculose.",
+   "Correta: febre, tosse produtiva e dor pleurítica com submacicez, frêmito e murmúrio reduzidos na base indicam pneumonia com derrame pleural."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente com 22 anos foi atendida na atenção primária, acompanhada pelos pais, que estão preocupados com sua perda de peso. Eles contam que, desde os 14 anos, ela come muito pouco e que já esteve internada para “ser alimentada”. A paciente também refere ansiedade e palpitações que estão afetando o seu dia a dia. Os pais dizem que não sabem exatamente o quanto a paciente está comendo agora, mas que ela não provoca vômitos ou abusa de medicamentos. Ao exame físico, o índice de massa corporal da paciente é 14,8 kg/m² e sua pressão arterial está normal (100 × 60 mmHg), mas ela apresenta hipotensão postural assintomática (queda de 18 mmHg na diastólica), desidratação e frequência cardíaca de 42 batimentos por minuto. Diante dessa situação, o médico deve",
+  "alts": [
+   "encaminhar a paciente para avaliação em hospital terciário para possível internação hospitalar.",
+   "iniciar com topiramato para melhorar o transtorno alimentar e manter acompanhamento da paciente.",
+   "iniciar com amitriptilina para melhorar o transtorno de ansiedade e manter acompanhamento da paciente.",
+   "encaminhar a paciente para o ambulatório de atenção terciária para avaliação quanto à colocação de sonda nasoentérica."
+  ],
+  "gab": 0,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "APA Practice Guideline for the Treatment of Patients With Eating Disorders, 2023; Royal College of Psychiatrists, Medical Emergencies in Eating Disorders (MEED), 2022",
+  "coment": "Anorexia nervosa de longa evolução com IMC de 14,8 kg/m² (gravidade extrema pelo DSM-5, abaixo de 15), bradicardia de 42 bpm, hipotensão postural e desidratação reúne critérios de instabilidade clínica que indicam internação hospitalar. A diretriz da APA de 2023 cita, em adultos, frequência cardíaca muito baixa, alterações ortostáticas e IMC abaixo de 15 entre as indicações de hospitalização, onde a realimentação deve ser gradual, com controle de fósforo, potássio e magnésio pelo risco de síndrome de realimentação. Não há psicofármaco que trate a anorexia, e sonda só se discute após avaliação hospitalar.",
+  "porAlt": [
+   "Correta: IMC abaixo de 15, bradicardia de 42 bpm e alteração ortostática são critérios de internação na anorexia nervosa.",
+   "Topiramato não tem papel no tratamento da anorexia nervosa e ainda reduz apetite e peso.",
+   "Amitriptilina não trata a anorexia e, com bradicardia e hipotensão, aumenta o risco de arritmia e de queda da pressão.",
+   "A paciente está clinicamente instável e precisa de internação agora, não de avaliação ambulatorial para sonda."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente com 40 anos identificou nódulo em região cervical anterior. Ao exame físico, palpa-se nódulo firme, de cerca de 1 cm, em região cervical anterior e móvel à deglutição. Foram solicitados exames de função tireoidiana, que indicaram normalidade, e ultrassonografia, que mostrou nódulo sólido de 1,3 cm em lobo esquerdo da tireoide. Realizada punção aspirativa com agulha fina, o exame citopatológico mostrou lesão de classificação Bethesda V. Nesse caso, qual é a conduta mais adequada?",
+  "alts": [
+   "Encaminhar para cirurgia da tireoide.",
+   "Repetir punção aspirativa com agulha fina.",
+   "Solicitar cintilografia de tireoide com Iodo 131.",
+   "Realizar ultrassonografia a cada 6 meses para acompanhamento."
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "The Bethesda System for Reporting Thyroid Cytopathology, 3ª edição, 2023; ATA Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer, 2015",
+  "coment": "Bethesda V (suspeito para malignidade) tem risco de malignidade em torno de 74% (faixa de 67 a 83%) na 3ª edição do sistema Bethesda, de 2023, e a conduta recomendada é cirúrgica, lobectomia ou tireoidectomia total conforme tamanho, achados ultrassonográficos e preferência da paciente, podendo-se usar teste molecular para refinar a extensão. Repetir a punção é conduta da categoria I (não diagnóstica) e, em parte, da III. Cintilografia só tem papel quando o TSH está suprimido, para identificar nódulo hiperfuncionante, e seguimento ultrassonográfico é para citologia benigna (Bethesda II).",
+  "porAlt": [
+   "Correta: citologia Bethesda V tem risco de malignidade em torno de 74%, e a conduta é cirúrgica.",
+   "Repetir a punção é conduta para amostra não diagnóstica (Bethesda I) ou, em parte, para atipia de significado indeterminado (III).",
+   "Cintilografia é indicada quando o TSH está suprimido, para identificar nódulo autônomo; com função normal e Bethesda V não acrescenta.",
+   "Seguimento ultrassonográfico é conduta para citologia benigna (Bethesda II), não para lesão suspeita de malignidade."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente de 20 anos, primigesta, idade gestacional de 12 semanas, comparece à consulta de pré-natal apresentando lesões em alto relevo e aveludadas na região genital próxima ao clitóris. Relata aparecimento, há 1 semana, de lesões cutâneas papulosas eritêmato-acastanhadas no abdome e nas regiões palmar e plantar. Ela apresenta VDRL positivo. Diante dessas condições, o diagnóstico e o tratamento devem ser, respectivamente,",
+  "alts": [
+   "sífilis recente primária; iniciar penicilina benzatina 2.400.000 UI (intramuscular) em dose única.",
+   "sífilis recente secundária; iniciar penicilina benzatina 2.400.000 UI (intramuscular) em dose única.",
+   "sífilis latente tardia; iniciar penicilina benzatina 2.400.000 UI (intramuscular) uma vez por semana, por 3 semanas.",
+   "sífilis latente recente; iniciar penicilina benzatina 2.400.000 UI (intramuscular) uma vez por semana, por 3 semanas."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (PCDT IST), Ministério da Saúde, 2022",
+  "coment": "Lesões papulosas eritemato-acastanhadas no tronco, palmas e plantas associadas a lesões genitais elevadas e aveludadas (condiloma plano) e VDRL positivo caracterizam sífilis secundária, estágio da sífilis recente (menos de 1 ano de evolução). O PCDT IST de 2022 indica benzilpenicilina benzatina 2,4 milhões UI IM em dose única para sífilis recente (primária, secundária e latente recente), inclusive na gestante, que segue com VDRL mensal. Três doses semanais ficam para sífilis latente tardia ou de duração ignorada, e a sífilis primária se manifesta como cancro duro.",
+  "porAlt": [
+   "Sífilis primária é o cancro duro, úlcera indolor no local de inoculação, sem exantema palmoplantar.",
+   "Correta: roséola palmoplantar com condiloma plano é sífilis secundária, tratada com benzatina 2,4 milhões UI em dose única.",
+   "Sífilis latente é assintomática, e esta paciente tem lesões cutâneas e mucosas ativas.",
+   "Sífilis latente recente não tem lesões, e seu tratamento também é dose única, não três doses semanais."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um paciente com 42 anos, assintomático, compareceu, pela primeira vez, a uma unidade básica de saúde (UBS), mencionando à médica de família e comunidade que ele havia se mudado recentemente para área de atuação da UBS. Na consulta, ele traz relatório médico do centro de atenção psicossocial (CAPS), informando o diagnóstico de esquizofrenia há 7 anos, sem crise nos últimos 3 anos, e uso de psicofármacos. O paciente relata que não usa outras medicações e que, há 1 mês, fez exames laboratoriais cujos resultados foram: glicemia de jejum: 189 mg/dL; colesterol total: 225 mg/dL; colesterol-HDL: 35 mg/dL; colesterol-LDL: 168 mg/dL. Por fim, queixa-se de ter começado a engordar desde o diagnóstico de esquizofrenia (índice de massa corporal atual: 36,2 kg/m²) e solicita a renovação da receita dos psicofármacos de que faz uso. Nessa situação, qual a conduta adequada para o caso?",
+  "alts": [
+   "Não renovar a receita até a avaliação do paciente pela psiquiatria e iniciar medidas para emagrecimento.",
+   "Renovar a receita até o paciente retomar o seguimento no CAPS, e prescrever sulfonilureia nesse atendimento.",
+   "Renovar a receita, realizar seguimento multiprofissional no núcleo ampliado de saúde da família, e iniciar medidas para controle metabólico.",
+   "Encaminhar o paciente ao CAPS para renovação da receita, solicitar avaliação de nutricionista e do endocrinologista do núcleo ampliado de saúde da família."
+  ],
+  "gab": 2,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ADA Standards of Care in Diabetes, 2026; Política Nacional de Atenção Básica, Portaria GM/MS nº 2.436, 2017; Portaria GM/MS nº 635, 2023 (equipes multiprofissionais eMulti)",
+  "coment": "Paciente com esquizofrenia estável há 3 anos, vinculado a CAPS e recém-chegado ao território, precisa de continuidade do tratamento: suspender ou atrasar os antipsicóticos arrisca recaída, e a APS é coordenadora do cuidado. Obesidade (IMC 36,2), glicemia de jejum de 189 mg/dL e dislipidemia são efeitos metabólicos esperados dos antipsicóticos atípicos, e a conduta é confirmar o diagnóstico de diabetes, iniciar mudança de estilo de vida e tratamento farmacológico adequado, com apoio multiprofissional. O antigo NASF foi substituído pelas equipes eMulti em 2023, com a mesma lógica de apoio matricial.",
+  "porAlt": [
+   "Suspender a receita de paciente estável expõe a risco de recaída psicótica e contraria o papel da APS na continuidade do cuidado.",
+   "Sulfonilureia não é a escolha inicial; com obesidade, metformina e medidas de estilo de vida vêm primeiro, após confirmar o diabetes.",
+   "Correta: renovar os psicofármacos, acionar o apoio multiprofissional e tratar o risco metabólico é a conduta da APS.",
+   "A APS pode e deve renovar a prescrição de paciente estável, e mandar tudo para o CAPS e o especialista fragmenta o cuidado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente com 54 anos apresenta tosse com expectoração e astenia há 5 dias, acompanhada de dispneia aos médios esforços e um pico febril. Ao exame físico, encontra-se consciente, contatuante, descorada (+2/+4), desidratada (+2/+4), com pressão arterial de 90 × 60 mmHg, frequência respiratória de 23 incursões respiratórias por minuto, frequência cardíaca de 120 batimentos por minuto, saturação O2 de 90% em ar ambiente, murmúrio vesicular presente em hemitórax direito e diminuído em hemitórax esquerdo, abolido em base esquerda, sem ruídos adventícios; radiografia de tórax demonstrou derrame pleural à esquerda. Foi realizada toracocentese, seguida de drenagem pleural fechada à esquerda. O líquido, de aspecto turvo, foi encaminhado para análise, sendo confirmado empiema pleural. Acerca do líquido analisado, infere-se que",
+  "alts": [
+   "o pH foi maior que 7,2.",
+   "a dosagem de LDH foi superior a 1.000 UI.",
+   "a dosagem de glicose foi superior a 60 mg/dL.",
+   "a dosagem de proteínas foi inferior a 3 g/100 ml."
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "BTS Guideline for Pleural Disease, 2023; AATS Expert Consensus Guidelines for the Management of Empyema, 2017",
+  "coment": "Empiema é a presença de pus no espaço pleural, fase final do derrame parapneumônico complicado. O líquido é exsudato com intensa atividade inflamatória e bacteriana: pH abaixo de 7,2, glicose abaixo de 60 mg/dL (consumida por neutrófilos e bactérias), LDH muito elevado, frequentemente acima de 1.000 UI/L, e proteína acima de 3 g/dL. A BTS de 2023 usa o pH abaixo de 7,2 como principal indicador de drenagem no derrame parapneumônico, e o pus franco dispensa a bioquímica para indicar dreno torácico.",
+  "porAlt": [
+   "No empiema o pH cai abaixo de 7,2 pelo metabolismo bacteriano e neutrofílico, sendo esse o principal critério de drenagem.",
+   "Correta: LDH acima de 1.000 UI/L reflete a intensa inflamação e a lise celular características do empiema.",
+   "A glicose é consumida por bactérias e neutrófilos e fica abaixo de 60 mg/dL no empiema.",
+   "Empiema é exsudato, com proteína pleural geralmente acima de 3 g/dL."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma mulher com 52 anos comparece à consulta médica na unidade básica de saúde com queixa de dores musculoesqueléticas crônicas, mal localizadas, difusas, acima e abaixo da cintura. Refere que o quadro tem cerca de 4 meses de evolução, tendo surgido aparentemente após episódio de dengue (não grave). A paciente também refere fadiga e quadro depressivo há longa data, além de transtorno da articulação temporomandibular e síndrome do intestino irritável. Relata apetite preservado. Seu exame físico é normal, salvo por dor à compressão e palpação muscular difusa. Digno de nota é que a simples insuflação do esfigmomanômetro leva a dor significativa em ponto localizado cerca de 2 centímetros distais do epicôndilo lateral do membro superior avaliado. Além disso, há dor à compressão digital bilateral nos pontos de inserção dos músculos subocciptais, no ponto médio da borda superior de ambos os músculos trapézios, sobre a borda medial das escápulas, nos quadrantes superiores externos das nádegas, posteriormente às eminências trocantéricas dos fêmures, sobre a 2ª articulação condroesternal direita e sobre as partes moles localizadas superior e medialmente a ambos os joelhos. Não há alterações no hemograma completo, nem na dosagem de proteína C reativa, T4 livre, TSH e velocidade de hemossedimentação. No caso apresentado, qual o diagnóstico dessa paciente?",
+  "alts": [
+   "Fibromialgia",
+   "Hipotireoidismo subclínico.",
+   "Transtorno psicossomático.",
+   "Transtorno depressivo maior."
+  ],
+  "gab": 0,
+  "tema": "reumato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "2016 Revisions to the 2010/2011 ACR Fibromyalgia Diagnostic Criteria, 2016; EULAR Revised Recommendations for the Management of Fibromyalgia, 2017",
+  "coment": "Dor musculoesquelética difusa, acima e abaixo da cintura e bilateral, por mais de 3 meses, com fadiga, depressão, disfunção temporomandibular e intestino irritável, e exames inflamatórios e tireoidianos normais, é fibromialgia. Os critérios atuais (ACR 2010, revisados em 2016) usam o índice de dor generalizada e a escala de gravidade dos sintomas, sem exigir contagem de pontos dolorosos, mas o exame descreve os 18 pontos clássicos do ACR 1990 e a alodinia à insuflação do manguito. Infecções virais como a dengue podem desencadear o quadro. O tratamento prioriza exercício aeróbico e educação.",
+  "porAlt": [
+   "Correta: dor difusa crônica com múltiplos pontos dolorosos, fadiga, comorbidades funcionais e exames normais caracteriza fibromialgia.",
+   "TSH e T4 livre estão normais, o que exclui hipotireoidismo, inclusive subclínico.",
+   "Fibromialgia é síndrome de dor crônica por sensibilização central, com critérios próprios, e não transtorno psicossomático.",
+   "A depressão é comorbidade frequente, mas não explica dor difusa com alodinia e os pontos dolorosos típicos."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma primigesta com 22 anos, dona de casa, comparece à unidade de saúde da família (USF) apresentando os resultados de exames solicitados na primeira consulta de pré-natal, realizada há 3 semanas, ao final do primeiro trimestre de gestação. Permanece sem queixas, refere estar usando regularmente o ácido fólico e o sulfato ferroso prescritos, mas diz estar preocupada com o exame de hepatite B. O médico verifica que a tipagem sanguínea é O+, que os testes rápidos para sífilis, HIV e hepatite C foram não reagentes e que todos os outros exames estão dentro da normalidade, apresentando a gestante, no entanto, AgHBs não reagente, Anti-HBc total não reagente e Anti-HBs reagente. Nesse caso, a interpretação dos últimos exames da paciente e a conduta a ser adotada são, respectivamente,",
+  "alts": [
+   "resultado compatível com hepatite B aguda; solicitar exames bioquímicos e encaminhar a paciente para acompanhamento no pré-natal de alto risco.",
+   "resultado compatível com hepatite B crônica; solicitar exames mais específicos e encaminhar a paciente para acompanhamento no pré-natal de alto risco.",
+   "resultado indicativo de suscetibilidade ao vírus da hepatite B; orientar a paciente a iniciar o esquema vacinal e a continuar o acompanhamento pré-natal na USF.",
+   "resultado indicativo de imunidade ao vírus da hepatite B; esclarecer a paciente de que não há motivo de preocupação e orientá-la a continuar o acompanhamento pré-natal na USF."
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Protocolo Clínico e Diretrizes Terapêuticas de Hepatite B e Coinfecções, Ministério da Saúde, 2023",
+  "coment": "AgHBs não reagente e anti-HBc total não reagente afastam infecção atual ou passada pelo vírus da hepatite B, e anti-HBs reagente isolado é o perfil de imunidade vacinal. A paciente está protegida, não precisa de vacina nem de encaminhamento e segue o pré-natal de risco habitual na USF. Hepatite B aguda teria AgHBs e anti-HBc IgM reagentes, e a crônica, AgHBs persistente por mais de 6 meses com anti-HBc total reagente. Suscetibilidade corresponde a todos os marcadores negativos, situação em que a vacinação é indicada, inclusive na gestação.",
+  "porAlt": [
+   "Hepatite B aguda exige AgHBs e anti-HBc IgM reagentes, ambos ausentes neste perfil.",
+   "Hepatite B crônica cursa com AgHBs reagente por mais de 6 meses e anti-HBc total positivo, o que não é o caso.",
+   "Anti-HBs reagente indica proteção; suscetível seria a gestante com todos os marcadores não reagentes.",
+   "Correta: anti-HBs reagente isolado, com AgHBs e anti-HBc negativos, é imunidade vacinal, sem motivo de preocupação."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente com 24 anos, estudante de medicina, procura atendimento no ambulatório de uma universidade com história de febre não aferida e mal-estar generalizado iniciados há cerca de 48 horas. Conta que hoje começou a apresentar cefaleia intensa, motivo de sua procura por assistência. Informa ter tido varicela e rubéola quando criança. Refere ter sido vacinada na infância e que, quando entrou na faculdade, tomou uma dose de dT e da vacina para hepatite B, mas não completou o esquema. Nega vacinação em campanhas, pois teve rubéola na infância. Ao exame físico, apresenta frequência respiratória de 24 incursões respiratórias por minuto, frequência cardíaca de 100 batimentos por minuto, pressão arterial de 120 × 80 mmHg, temperatura axilar de 38,8 °C; mucosas normocoradas, hipohidratadas (+1/+4), escleróticas anictéricas; aparelho respiratório: murmúrio vesicular universalmente audível, ausência de ruídos adventícios; aparelho cardiovascular: ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros ou atritos; abdome: flácido, peristáltico, sem visceromegalias. No exame neurológico está acordada, lúcida, movimenta os quatro membros, sem déficit focal aparente, com rigidez de nuca (+3/+4), sinal de Kernig e sinal de Brudzinski presentes. Não foram observadas lesões cutâneas ou mucosas. Na fundoscopia ocular: nervos óticos bem visualizados, sem alterações. Com relação à abordagem diagnóstica, assinale a opção correta.",
+  "alts": [
+   "A coleta de líquido cefalorraquidiano deverá ser realizada através de punção suboccipital, pois há contraindicação para realização de punção na região lombar.",
+   "O exame microscópico do líquido cefalorraquidiano, utilizando-se a coloração de Gram, que evidencie bastonetes Gram negativos, confirma o diagnóstico de meningite pneumocócica.",
+   "A punção liquórica com exame da bioquímica do líquido cefalorraquidiano deverá ser realizada, pois permitirá a distinção entre infecção bacteriana e viral, o que orientará a conduta terapêutica.",
+   "A paciente deverá ser submetida a um exame de imagem antes da realização da coleta de líquido cefalorraquidiano para exame diagnóstico, pois há contraindicação para realização de punção lombar."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "WHO Guidelines on Meningitis Diagnosis, Treatment and Care, 2025; ESCMID Guideline: Diagnosis and Treatment of Acute Bacterial Meningitis, 2016",
+  "coment": "Febre, cefaleia intensa e rigidez de nuca com Kernig e Brudzinski em jovem imunocompetente, lúcida, sem déficit focal, sem convulsão e com fundo de olho normal indicam meningite e punção lombar imediata, sem tomografia prévia. A TC antes da punção só é indicada em imunossupressão, doença prévia do SNC, crise convulsiva recente, papiledema, rebaixamento de consciência ou déficit focal. A bioquímica do líquor (glicose baixa, proteína alta e pleocitose neutrofílica na bacteriana), com Gram e cultura, distingue etiologia bacteriana de viral e orienta a antibioticoterapia.",
+  "porAlt": [
+   "Não há contraindicação à punção lombar, e a punção suboccipital é técnica de exceção, com risco maior.",
+   "Pneumococo é diplococo Gram-positivo; bastonete Gram-negativo sugere Haemophilus ou enterobactérias.",
+   "Correta: a punção lombar com bioquímica, citologia, Gram e cultura diferencia meningite bacteriana de viral e guia o tratamento.",
+   "Sem déficit focal, rebaixamento, convulsão, papiledema ou imunossupressão, a TC prévia é dispensável e só atrasaria a punção."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Em reunião de equipe de saúde de uma unidade básica de saúde (UBS) localizada em cidade de médio porte com líderes de organizações sociais defensoras dos direitos da população de lésbicas, gays, bissexuais, travestis e transexuais, queer, intersexo, assexuais (LGBTQIA+), foram levantados alguns problemas, como: dificuldade no acesso das mulheres lésbicas à realização de exame de papanicolau, falta de acesso a tratamento transexualizador para travestis e transexuais, não utilização do nome social dessa população pelos funcionários da UBS, falta de oferta de serviços e/ou ações voltados para a saúde mental dessa população. Diante dos problemas descritos e com base na Política Nacional de Saúde Integral de lésbicas, gays, bissexuais, travestis e transexuais, o médico da equipe de saúde deve, nessa ocasião, esclarecer que",
+  "alts": [
+   "a adoção do uso do nome social das pessoas LGBTQIA+, apesar de indicado pela legislação brasileira, é uma prerrogativa de cada UBS.",
+   "são previstas políticas públicas específicas relativas à saúde mental, álcool e outras drogas, para a população LGBTQIA+ na rede de atenção psicossocial.",
+   "a dificuldade no acesso ao exame papanicolau é equivocada, visto que a cobertura de realização do exame é maior para as mulheres lésbicas e bissexuais do que para os outros grupos mencionados.",
+   "ainda não há legislação que assegure a oferta do processo transexualizador pelo Sistema Único de Saúde (SUS), apesar de essa demanda ser reconhecida como válida e procedente."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Política Nacional de Saúde Integral de Lésbicas, Gays, Bissexuais, Travestis e Transexuais, Portaria GM/MS nº 2.836, 2011; Processo Transexualizador no SUS, Portaria GM/MS nº 2.803, 2013",
+  "coment": "A Política Nacional de Saúde Integral LGBT, instituída pela Portaria GM/MS nº 2.836 de 2011, tem entre seus objetivos a atenção à saúde mental, álcool e outras drogas dessa população na rede de atenção psicossocial, a garantia do uso do nome social e o acesso ao processo transexualizador. O nome social no SUS é direito do usuário, reforçado pelo Decreto 8.727/2016, e não prerrogativa de cada unidade. O processo transexualizador foi instituído em 2008 e redefinido pela Portaria 2.803/2013. Mulheres lésbicas e bissexuais têm cobertura menor de citopatológico, não maior.",
+  "porAlt": [
+   "O uso do nome social é direito assegurado nos serviços do SUS, não uma escolha facultativa de cada UBS.",
+   "Correta: a política prevê ações específicas de saúde mental, álcool e outras drogas para a população LGBT na RAPS.",
+   "A cobertura do citopatológico é menor entre lésbicas e bissexuais, por barreiras de acesso e pela falsa ideia de menor risco.",
+   "O processo transexualizador está normatizado no SUS desde 2008 e foi redefinido pela Portaria GM/MS nº 2.803/2013."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um homem com 78 anos, acamado há meses em função de quadro demencial avançado, chega à unidade de emergência com quadro de rebaixamento do nível de consciência, febre e hipotensão arterial. Segundo familiares, o paciente vem apresentando tosse desde a ocorrência, há 3 dias, de episódio compatível com broncoaspiração durante tentativa de alimentação por via oral. Relatam que, nos últimos 2 dias, ele passou a se mostrar mais apático, não interagindo minimamente com os familiares, nem aceitando alimentação e que, no dia de hoje, surgiu febre e a acompanhante aferiu pressão arterial de 90 × 60 mmHg, uma queda de cerca de 40 mmHg na pressão sistólica em relação ao parâmetro habitual do paciente. Ao exame físico, é confirmada hipotensão arterial sistêmica (88 × 48 mmHg), além de sonolência (escore de coma de Glasgow de 9 pontos), desidratação (+2/+4), descoramento de mucosas (+1/+4), taquicardia (120 batimentos por minuto), taquipneia (26 incursões respiratórias por minuto) e presença de roncos difusos, com estertores crepitantes na base direita. Exames laboratoriais iniciais revelam anemia (hemoglobina de 8,5 g/dL - valor de referência [VR]: 13-17 g/dL), elevação de creatinina (2,3 mg/dL - VR: 0,8-1,2 mg/dL), ureia (102 mg/dL - VR: 20-40 mg/dL) e lactato (5,1 mmol/L - VR: <= 2,0 mmol/L), além de acidose metabólica e hipoxemia. São colhidas hemoculturas. O paciente é monitorizado adequadamente, submetido a oferta suplementar de oxigênio, e inicia-se o tratamento indicado para o quadro clínico que apresenta. Além da antibioticoterapia de amplo espectro adequada, a conduta prioritária a ser adotada para esse paciente ainda nas primeiras horas de abordagem é",
+  "alts": [
+   "iniciar terapia de substituição renal com hemodiálise.",
+   "administrar cristaloides intravenosos para resgate volêmico.",
+   "proceder a hemotransfusão com 2 concentrados de hemácias.",
+   "administrar glicocorticoide devido à possibilidade de insuficiência adrenal."
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock, 2026",
+  "coment": "Idoso com pneumonia aspirativa, hipotensão, taquicardia, rebaixamento, lesão renal aguda e lactato de 5,1 mmol/L tem sepse com hipoperfusão, provável choque séptico. Junto com hemoculturas e antibiótico de amplo espectro na primeira hora, a prioridade é a reposição volêmica com cristaloides: a Surviving Sepsis 2026 mantém ao menos 30 mL/kg nas primeiras 3 horas, com reavaliação frequente, e noradrenalina se a PAM seguir abaixo de 65 mmHg. A lesão renal é pré-renal e tende a melhorar com volume, Hb de 8,5 g/dL não indica transfusão e corticoide fica para o choque dependente de vasopressor.",
+  "porAlt": [
+   "A lesão renal é pré-renal por hipoperfusão, sem indicação dialítica de urgência como hipercalemia, acidose ou congestão refratárias.",
+   "Correta: sepse com hipotensão e lactato de 5,1 exige cristaloide, ao menos 30 mL/kg nas primeiras 3 horas, com reavaliação.",
+   "Hemoglobina de 8,5 g/dL está acima do limiar transfusional de 7 g/dL recomendado na sepse sem sangramento ou isquemia coronariana.",
+   "Corticoide é reservado ao choque séptico que persiste com necessidade de vasopressor, não sendo a prioridade inicial."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "A implementação da Política Nacional de Atenção à Saúde dos Povos Indígenas requer a adoção de um modelo complementar e diferenciado de organização dos serviços voltados para a proteção, promoção e recuperação da saúde que garanta à população indígena o exercício de sua cidadania. Acerca da implementação dessa política de saúde no Brasil, é correto afirmar que o Subsistema de Atenção à Saúde Indígena",
+  "alts": [
+   "criou organizações paralelas ao Sistema Único de Saúde (SUS), como os Distritos Sanitários Especiais Indígenas (DSEI), o que vem gerando competição entre esses sistemas.",
+   "é constituído por Distritos Sanitários Especiais Indígenas (DSEI) que coincidem com os limites territoriais municipais e estaduais, o que assegura o acesso dessa população ao atendimento adequado.",
+   "está subordinado, na sua organização governamental, à Fundação Nacional do Índio (Funai), a quem compete coordenar as políticas voltadas para proteção, promoção e recuperação da saúde dessa população.",
+   "demanda a adoção de medidas que aperfeiçoem seu funcionamento e adéquem sua capacidade para permitir a aplicação dos princípios e diretrizes de descentralização, universalidade, equidade, participação comunitária e controle social."
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas (PNASPI), Portaria GM/MS nº 254, 2002; Lei nº 9.836, 1999 (Lei Arouca)",
+  "coment": "O Subsistema de Atenção à Saúde Indígena (SasiSUS) foi criado pela Lei Arouca (9.836/1999) como parte integrante do SUS, organizado em 34 Distritos Sanitários Especiais Indígenas (DSEI) definidos por critérios étnico-culturais, geográficos e epidemiológicos, não pelos limites de municípios e estados. Desde 2010 é coordenado pela Secretaria Especial de Saúde Indígena (SESAI) do Ministério da Saúde, e não pela Funai. A PNASPI reconhece que o subsistema precisa de aperfeiçoamento para aplicar os princípios de descentralização, universalidade, equidade, participação comunitária e controle social.",
+  "porAlt": [
+   "O subsistema é componente do próprio SUS, articulado à rede de referência, e não uma organização paralela ou concorrente.",
+   "Os DSEI seguem critérios étnico-culturais, geográficos e epidemiológicos e não coincidem com os limites municipais e estaduais.",
+   "A gestão da saúde indígena cabe à SESAI, no Ministério da Saúde, e não à Funai.",
+   "Correta: a política reconhece a necessidade de aperfeiçoar o subsistema para aplicar descentralização, universalidade, equidade e controle social."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma paciente com 25 anos chega para consulta na unidade básica de saúde devido a quadro de disúria e polaciúria há 5 dias, que se agravou, tendo se iniciado hematúria nas últimas 24 horas. Ela relata que é a primeira vez que apresenta os sintomas descritos, que é sexualmente ativa, negando ter quaisquer outras queixas. O exame físico é normal, exceto por dor à palpação profunda em hipogástrio. Nessa situação, a conduta médica adequada para o caso é",
+  "alts": [
+   "solicitar urocultura.",
+   "prescrever empiricamente antibiótico.",
+   "prescrever empiricamente antifúngico.",
+   "solicitar bacterioscopia do conteúdo vaginal."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "EAU Guidelines on Urological Infections, 2025; IDSA/ESCMID International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women, 2011",
+  "coment": "Mulher jovem, não gestante, com disúria, polaciúria, dor suprapúbica e hematúria, sem febre, dor lombar ou corrimento, tem cistite aguda não complicada, e o diagnóstico é clínico. As diretrizes indicam antibiótico empírico sem necessidade de urocultura, reservada para suspeita de pielonefrite, gestantes, recorrência, falha terapêutica ou sintomas atípicos. Opções de primeira linha são nitrofurantoína por 5 dias, fosfomicina 3 g em dose única ou pivmecilinam, conforme a resistência local. A hematúria é comum na cistite e não a torna complicada.",
+  "porAlt": [
+   "Urocultura não é necessária no primeiro episódio de cistite não complicada em mulher jovem, pois o diagnóstico é clínico.",
+   "Correta: cistite aguda não complicada em mulher jovem se trata com antibiótico empírico, sem exame prévio obrigatório.",
+   "Não há quadro de candidíase; disúria com polaciúria e hematúria sem corrimento indicam infecção bacteriana da bexiga.",
+   "Sem corrimento ou queixa vaginal, não há indicação de bacterioscopia do conteúdo vaginal."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Uma idosa com 75 anos, acompanhada de sua filha, busca a unidade básica de saúde queixando-se ao médico de estar tendo alguns esquecimentos. Relata que a família insistiu muito para que buscasse atendimento médico e que a filha quase a obrigou a ir à consulta. Considerando a necessidade de uma primeira abordagem com avaliação multidimensional do caso, o médico se propôs a utilizar o Índice de Vulnerabilidade Clínico-Funcional-20 (IVCF-20). Acerca desse instrumento de avaliação, assinale a opção correta.",
+  "alts": [
+   "Um dos itens avaliados pelo IVCF-20 é a renda familiar dos idosos, que indica a sua situação socioeconômica.",
+   "Independentemente do resultado do IVCF-20, os idosos devem submeter-se, na sequência, à Avaliação Geriátrica Ampla (AGA).",
+   "Entre os questionamentos a serem feitos para o cálculo do IVCF-20, inclui-se o do número de quedas do idoso no ano anterior ao do exame.",
+   "O uso do IVCF-20 permite identificar os idosos frágeis, prescindindo da utilização de ferramenta complementar, seja qual for o seu resultado."
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Índice de Vulnerabilidade Clínico-Funcional-20 (IVCF-20), Moraes EN et al., Revista de Saúde Pública, 2016",
+  "coment": "O IVCF-20 é um questionário de triagem multidimensional com 20 perguntas em 8 dimensões: idade, autopercepção da saúde, atividades de vida diária, cognição, humor, mobilidade (incluindo duas ou mais quedas no último ano), comunicação e comorbidades múltiplas. Classifica o idoso como robusto (0 a 6 pontos), em risco de fragilização (7 a 14) ou frágil (15 ou mais). Não avalia renda, e seu papel é priorizar quem precisa de Avaliação Geriátrica Ampla, indicada aos idosos com escore elevado, não a todos.",
+  "porAlt": [
+   "O IVCF-20 não inclui renda familiar; suas dimensões são clínico-funcionais.",
+   "O IVCF-20 serve justamente para selecionar os idosos que precisam de AGA, indicada aos que pontuam como em risco ou frágeis.",
+   "Correta: a dimensão mobilidade inclui a pergunta sobre duas ou mais quedas no último ano.",
+   "O IVCF-20 é triagem; idosos em risco ou frágeis precisam de avaliação complementar, como a Avaliação Geriátrica Ampla."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um homem com 45 anos, em uso de anti-inflamatório não hormonal há 20 dias devido a tendinite de ombro esquerdo, chega ao pronto-socorro com quadro de melena há 24 horas, de moderado volume, associado a epigastralgia intensa e mal-estar. Nega doenças preexistentes. Ao exame físico, apresenta-se em bom estado geral, consciente, orientado, com mucosas anictéricas, hidratadas e hipocoradas (+1/+4), fácies atípica, tempo de enchimento capilar de 2 segundos, frequência cardíaca de 90 batimentos por minuto, pressão arterial de 120 × 80 mmHg, abdome flácido, com ruídos hidroaéreos aumentados, dor à palpação de epigástrio. Os resultados de seus exames complementares apresentaram: hemácias: 4.500.000; hemoglobina: 13%; hematócrito: 39%; leucócitos: 4.400; plaquetas: 220.000; INR: 1,2 (valor de referência [VR]: 1-1,4); ureia: 45 mg/dl (VR: 16-40), creatina: 1,2 mg/dL (VR: 0,7-1,3); Potássio: 5,4 mEq/L (VR: 3,5-5,5); tipagem sanguínea: A+, endoscopia digestiva alta com erosões agudas de mucosa gástrica em região de antro e bulbo. A conduta inicial mais adequada ao caso seria dieta zero e",
+  "alts": [
+   "transfusão de plaquetas e de plasma fresco congelado.",
+   "transfusão de concentrado de hemácias em até duas horas.",
+   "reposição volêmica com cristaloides e uso de inibidores da bomba protônica (IBP).",
+   "reposição volêmica com cristaloides e transfusão de concentrado de hemácias e plaquetas."
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021; ESGE Guideline on Endoscopic Diagnosis and Management of Nonvariceal Upper Gastrointestinal Hemorrhage, 2021",
+  "coment": "Hemorragia digestiva alta por lesão aguda de mucosa associada a AINE em paciente hemodinamicamente estável (FC 90, PA 120 x 80, enchimento capilar normal) e hemoglobina de 13 g/dL não tem indicação de transfusão. A conduta é suspender o AINE, manter acesso venoso com cristaloide para repor perdas e usar inibidor de bomba de prótons, que acelera a cicatrização das erosões e reduz ressangramento. As diretrizes recomendam transfusão restritiva, com limiar de 7 g/dL (8 g/dL em cardiopatas), e plaquetas ou plasma só com plaquetopenia ou coagulopatia relevantes, ausentes aqui.",
+  "porAlt": [
+   "Plaquetas de 220.000 e INR de 1,2 são normais, sem indicação de plaquetas ou plasma fresco.",
+   "Com hemoglobina de 13 g/dL e estabilidade hemodinâmica, não há indicação de transfusão de hemácias.",
+   "Correta: paciente estável com erosões por AINE se trata com cristaloide, suspensão do AINE e inibidor de bomba de prótons.",
+   "Não há anemia significativa, instabilidade nem plaquetopenia que justifiquem hemácias ou plaquetas."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "A Lei n. 8.142/1990 constitui uma conquista para a democratização dos serviços de saúde. Nesse sentido, os conselhos e as conferências de saúde foram criados como espaços de participação e controle social do Sistema Único de Saúde (SUS). Esses conselhos podem ser instituídos em vários níveis: local, distrital, municipal, regional, estadual e/ou federal. Com relação ao caráter decisório e à composição proporcional dos conselhos de Saúde, é correto afirmar que esses órgãos são",
+  "alts": [
+   "consultivos, compostos por 50% de usuários, 25% de trabalhadores de saúde e 25% de gestores.",
+   "deliberativos, compostos por 50% de usuários, 25% de trabalhadores de saúde e 25% de gestores.",
+   "deliberativos, compostos por 33,3% de usuários, 33,3% de trabalhadores da saúde e 33,3% de gestores.",
+   "consultivos, compostos por 33,3% de usuários, 33,3% de trabalhadores da saúde e 33,3% de gestores."
+  ],
+  "gab": 1,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Lei nº 8.142, 1990; Resolução CNS nº 453, 2012",
+  "coment": "A Lei 8.142/1990 criou as conferências e os conselhos de saúde como instâncias colegiadas de participação da comunidade em cada esfera de governo. Os conselhos têm caráter permanente e deliberativo, atuam na formulação de estratégias e no controle da execução da política de saúde, inclusive nos aspectos econômicos e financeiros. A representação dos usuários é paritária em relação ao conjunto dos demais segmentos, e a Resolução CNS 453/2012 define a composição: 50% de usuários, 25% de trabalhadores de saúde e 25% de gestores e prestadores de serviço.",
+  "porAlt": [
+   "Os conselhos de saúde são deliberativos por força da Lei 8.142/1990, não apenas consultivos.",
+   "Correta: conselhos são permanentes e deliberativos, com 50% de usuários, 25% de trabalhadores e 25% de gestores e prestadores.",
+   "A paridade é entre usuários e o conjunto dos demais segmentos, e os usuários ocupam metade das vagas, não um terço.",
+   "Erra o caráter, que é deliberativo, e a proporção, que garante metade das vagas aos usuários."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ },
+ {
+  "q": "Um homem com 50 anos chega ao pronto-socorro após queda da própria altura e dor em pulso direito. Relata perda ponderal de 25 kg nos últimos dois anos, referindo hiporexia e má alimentação. Relata ingestão de bebidas destiladas diariamente há 10 anos, cerca de 500 a 800 ml/dia, nega tabagismo, doenças preexistentes, uso de medicamentos e de drogas ilícitas. O paciente apresenta-se em estado geral ruim, apático, alerta, orientado em espaço, pouco orientado em tempo; sua marcha é atáxica. Ao exame físico, registram-se índice de massa corporal de 18 kg/m²; frequência cardíaca de 100 batimentos por minuto; frequência respiratória de 16 incursões respiratórias por minuto; pressão arterial de 100 × 60 mmHg. Observam-se diplopia, nistagmo e estrabismo convergente bilateral, punho direito edemaciado, além de amnésia retrógrada e distorção ao relatar histórias passadas. Os resultados de seus exames de sangue apresentam: hemoglobina: 13,1 g/dL (valor de referência [VR]: 13-16); hematócrito: 38% (VR: 38-50); leucócitos: 8.890 /mL (VR: 4.000-10.000); plaquetas: 280.000/mL (VR: 150.000-400.00); sódio: 140 mEq/L (VR: 135-145); potássio: 3,8 mg/dL (VR: 3,5-5,5); cálcio: 8,4 mg/dL (VR: 8,5–10,4); magnésio: 0,9 mg/dL (VR: 1,8-2,7); glicose: 68 mg/dL (VR: 70-99); TGO/AST: 70 U/L (VR: <40); TGP/ALT: 85 U/L (VR: < 40); vitamina B1: 15 mmol/L (VR: 60-120). No resultado da ressonância magnética plano axial T2, observam-se sinais hiperintensos na região do tecto e na substância cinzenta próxima ao aqueduto cerebral. Considerando-se esse quadro clínico e a suspeita diagnóstica da Síndrome de Wernick Korsakoff, quais seriam, respectivamente, o fator etiopatogênico dessa síndrome e a conduta terapêutica adequada para o paciente?",
+  "alts": [
+   "Alcoolismo; hidratação com soro glicofisiológico a 10% + complexo B oral.",
+   "Traumatismo cranioencefálico; internação na unidade de terapia intensiva (UTI).",
+   "Traumatismo cranioencefálico; observação e hidratação com soro glicofisiológico a 10%.",
+   "Alcoolismo; tiamina parenteral intravenosa ou intramuscular (500 mg, 2 a 3 vezes por dia, por 3 dias)."
+  ],
+  "gab": 3,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "EFNS Guidelines for Diagnosis, Therapy and Prevention of Wernicke Encephalopathy, 2010; NICE Guideline CG100, Alcohol-use disorders: diagnosis and management of physical complications, 2010 (atualizada em 2017)",
+  "coment": "Etilista crônico desnutrido com oftalmoparesia (nistagmo, diplopia, estrabismo convergente por paresia do VI nervo), ataxia e confusão, com amnésia e confabulação, tem síndrome de Wernicke-Korsakoff por deficiência de tiamina, e o hipersinal periaquedutal e tectal na RM é típico. O tratamento é tiamina parenteral em dose alta, antes ou junto da glicose, no esquema usual de 500 mg IV três vezes ao dia por 3 dias, seguido de 250 mg/dia, além de corrigir o magnésio (aqui 0,9 mg/dL), cofator da tiamina. Glicose sem tiamina pode precipitar ou piorar a encefalopatia.",
+  "porAlt": [
+   "Soro glicosado sem tiamina parenteral pode precipitar ou agravar a encefalopatia, e a via oral tem absorção ruim no etilista.",
+   "Não há trauma craniano que explique o quadro; a queda foi da própria altura, e a clínica e a RM são típicas de Wernicke.",
+   "Atribui o quadro a trauma e oferece glicose sem tiamina, conduta que pode piorar a encefalopatia.",
+   "Correta: a síndrome decorre de deficiência de tiamina no alcoolismo e se trata com tiamina parenteral em dose alta."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2023,
+   "prova": "Revalida 2023.1"
+  }
+ }
+]

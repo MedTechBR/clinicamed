@@ -1,0 +1,812 @@
+[
+ {
+  "q": "Um homem, de 37 anos de idade, com AIDS/HIV diagnosticada há 3 anos, compareceu à consulta com o médico da UBS próxima de sua casa, trazendo resultados de exames solicitados na consulta anterior. O teste rápido molecular para tuberculose feito no escarro confirmou o diagnóstico de tuberculose pulmonar e sensibilidade à rifampicina. A carga viral para HIV apresentou resultado de 98 000 cópias por mililitro. Nessa situação, o médico deverá",
+  "alts": [
+   "avaliar eventual resistência do HIV aos antirretrovirais em uso para depois desse resultado iniciar o tratamento da tuberculose.",
+   "avaliar eventual resistência do HIV aos antirretrovirais em uso, sem atrasar início do tratamento da tuberculose.",
+   "avaliar eventual resistência aos antirretrovirais não é necessário, pois a carga viral está abaixo de 100 000 cópias.",
+   "avaliar eventual resistência do HIV através da quantificação de linfócitos CD4."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "PCDT para Manejo da Infecção pelo HIV em Adultos, Ministério da Saúde, 2024; Manual de Recomendações para o Controle da Tuberculose no Brasil, Ministério da Saúde, 2019",
+  "coment": "Paciente com HIV há 3 anos, portanto provavelmente em TARV, com carga viral de 98 000 cópias/mL: isso é falha virológica, e o PCDT indica genotipagem (teste de resistência) sempre que a carga viral confirmada estiver acima de 500 cópias/mL. A tuberculose pulmonar confirmada pelo TRM-TB, sensível à rifampicina, deve ser tratada de imediato com RIPE, porque o atraso aumenta mortalidade e transmissão. As duas ações correm em paralelo, e o novo esquema antirretroviral é montado considerando as interações com a rifampicina.",
+  "porAlt": [
+   "Adiar o tratamento da tuberculose até o resultado da genotipagem expõe o paciente imunossuprimido a progressão e óbito, e mantém a transmissão.",
+   "Correta: a falha virológica exige genotipagem, mas o RIPE começa sem esperar, e a TARV é reajustada levando em conta a rifampicina.",
+   "Não existe limiar de 100 000 cópias para pedir genotipagem; o critério é falha virológica com carga viral acima de 500 cópias/mL.",
+   "A contagem de CD4 mede imunossupressão e orienta profilaxias, mas não informa nada sobre mutações de resistência do vírus."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um paciente de 36 anos de idade, masculino, procura a Unidade de Saúde da Família com queixa de dor lombar baixa, há 10 dias, irradiada para face posterior da coxa, de moderada intensidade, mas que tem interferido no seu trabalho. Refere que a dor teve início após ter carregado peso durante a mudança de casa. O paciente relata que já apresentou episódios semelhantes anteriormente e que têm se tornado mais frequentes. Ao exame físico, o médico identifica uma banda muscular tensa em região glútea, com a presença de pontos-gatilho, que, quando pressionados, reproduziam a dor referida pelo paciente. Diante da situação apresentada, é correto afirmar que",
+  "alts": [
+   "o paciente deve ser referenciado ao ortopedista para a avaliação cirúrgica de uma provável hérnia de disco.",
+   "o paciente deve ser referenciado ao acupunturista do NASF para ser avaliado, acompanhado e tratado.",
+   "o médico de família pode, em conjunto com o acupunturista do NASF, elaborar um plano terapêutico para o paciente.",
+   "o médico de família deve prescrever relaxantes musculares, pois o agulhamento seco deve ser realizado pelo acupunturista do NASF."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "PNAB, Portaria nº 2.436, 2017; Portaria GM/MS nº 635 (equipes multiprofissionais, eMulti), 2023",
+  "coment": "A banda muscular tensa com pontos-gatilho que reproduzem a dor referida caracteriza síndrome dolorosa miofascial, sem sinais de radiculopatia ou de alarme, e o manejo cabe à atenção primária. O apoio matricial pressupõe corresponsabilização: o médico de família continua coordenando o cuidado e constrói o projeto terapêutico junto com o profissional de apoio, sem transferir o paciente. O NASF citado na questão foi substituído em 2023 pelas equipes eMulti, que mantêm exatamente essa lógica de cuidado compartilhado.",
+  "porAlt": [
+   "Não há déficit neurológico, sinais de radiculopatia ou alarme; o quadro é miofascial e não justifica avaliação cirúrgica.",
+   "Encaminhar para o apoio assumir o caso fragmenta o cuidado; o apoio matricial não é transferência de responsabilidade.",
+   "Correta: no apoio matricial o médico de família e o profissional de apoio elaboram juntos o projeto terapêutico, mantendo a coordenação na APS.",
+   "Restringe indevidamente o cuidado e separa as condutas, quando o modelo prevê plano conjunto; relaxante muscular não é a única opção do médico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Uma paciente, de 42 anos de idade, com história de asma, vem ao serviço de emergência por “piora da falta de ar”. Ela refere ter feito salbutamol inalatório em casa, sem melhora. Refere, ainda, que estava fazendo tratamento com beclometasona inalatório em casa, mas parou porque estava se sentindo bem. Sua última exacerbação da asma havia sido há 6 meses. Antes de iniciar com a beclometasona, a paciente apresentava “uma a duas crises por semana”. Ao exame, apresenta bom estado geral, consegue completar frases, mas prefere permanecer sentada. Sua frequência respiratória é de 22 irpm. Frequência cardíaca = 102 bpm. Saturação de oxigênio periférica = 95%. Expansibilidade torácica preservada, sem uso de musculatura acessória e presença de sibilos expiratórios na ausculta pulmonar. Diante desse quadro, a paciente deve",
+  "alts": [
+   "ser liberada do serviço de emergência com prescrição de salbutamol inalatório a cada 6 horas e com beclometasona inalatória, reavaliar na unidade básica.",
+   "receber 4 jatos de salbutamol inalatório a cada 20 minutos e 40 mg de prednisona via oral, reavaliar após 1 hora.",
+   "receber 4 jatos de salbutamol inalatório a cada 2 horas e 500 mg de hidrocortisona endovenosa, reavaliar após 24 horas.",
+   "ser liberada do serviço de emergência com prescrição de salbutamol inalatório a cada 4 horas e com prednisona 40 mg oral, reavaliar na unidade básica."
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Global Initiative for Asthma (GINA), 2026",
+  "coment": "A paciente completa frases, prefere ficar sentada, tem FR 22 irpm, FC 102 bpm e SpO2 95%, sem uso de musculatura acessória: exacerbação leve a moderada. A GINA orienta beta-2 agonista de curta ação por espaçador, 4 a 10 jatos a cada 20 minutos na primeira hora, corticoide sistêmico precoce (prednisolona ou prednisona 40 a 50 mg) e reavaliação da resposta em 1 hora. A causa da crise foi a suspensão do corticoide inalatório, que deve ser retomado na alta.",
+  "porAlt": [
+   "Dar alta sem tratar a crise e sem corticoide sistêmico ignora uma exacerbação em curso que não respondeu ao salbutamol domiciliar.",
+   "Correta: salbutamol 4 jatos a cada 20 minutos na primeira hora, prednisona 40 mg e reavaliação em 1 hora é o tratamento inicial da crise leve a moderada.",
+   "Intervalo de 2 horas é insuficiente na fase inicial, 500 mg de hidrocortisona é dose excessiva e reavaliar só em 24 horas é inaceitável.",
+   "A crise precisa ser tratada e reavaliada no serviço antes da alta; liberar sem conhecer a resposta ao tratamento é inseguro."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Paciente de 60 anos de idade, masculino, procura hospital de atenção secundária com história de “olhos amarelados” há cerca de 4 semanas. Refere “desconforto” discreto em epigástrio e hipocôndrio direito. Nega febre. Ao exame físico, paciente emagrecido, ictérico, 4+/4+, eupneico, normocorado. Abdome plano, flácido, depressível, com vesícula biliar palpável, indolor, sinal de Murphy negativo. Com base nessas informações, qual a hipótese diagnóstica para o caso clínico descrito?",
+  "alts": [
+   "Pancreatite aguda.",
+   "Colangite.",
+   "Abscesso hepático.",
+   "Neoplasia de cabeça de pâncreas."
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Pancreatic cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up, 2023",
+  "coment": "Icterícia progressiva e intensa em idoso emagrecido, com vesícula biliar palpável e indolor, é o sinal de Courvoisier-Terrier: indica obstrução maligna lenta da via biliar distal, e a causa mais comum é o adenocarcinoma da cabeça do pâncreas. Na coledocolitíase a vesícula costuma estar escleroatrófica pela inflamação crônica, por isso não distende. A investigação segue com TC de abdome com protocolo pancreático, CA 19-9 e confirmação histológica, em geral por ecoendoscopia.",
+  "porAlt": [
+   "Pancreatite aguda cursa com dor epigástrica intensa em faixa e elevação de amilase e lipase, não com icterícia indolor de semanas.",
+   "Colangite se apresenta com febre, dor e icterícia (tríade de Charcot); o paciente não tem febre nem quadro infeccioso.",
+   "Abscesso hepático causa febre, dor em hipocôndrio direito e toxemia, e não produz vesícula palpável.",
+   "Correta: icterícia obstrutiva progressiva com vesícula palpável e indolor (Courvoisier) aponta neoplasia periampular, sobretudo de cabeça de pâncreas."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Promulgada em 2017, a Política Nacional da Atenção Básica (PNAB) estabelece que a Territorialização e Adstrição da Clientela permitem o planejamento, a programação descentralizada e o desenvolvimento de ações setoriais e intersetoriais com foco em um território específico. A organização da Estratégia da Saúde da Família está baseada no preceito de responsabilidade sanitária sobre a população do território definido. Nesse sentido, é correto afirmar que",
+  "alts": [
+   "a atualização dos dados de condições socioeconômicas das famílias é feita no sistema de informação de agravos de notificação, de forma contínua, e sob responsabilidade dos ACS.",
+   "a delimitação da população adscrita da equipe, processo realizado por todos os membros da equipe, obedece estritamente aos limites geográficos e administrativos dos bairros de grandes cidades.",
+   "o processo de territorialização finaliza com o cadastramento das famílias da área e é uma atribuição dos agentes comunitários.",
+   "a territorialização tem início com a definição do território, área e microárea, seguida pelo cadastramento de famílias, que é uma responsabilidade de toda a equipe."
+  ],
+  "gab": 3,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Política Nacional de Atenção Básica (PNAB), Portaria nº 2.436, 2017",
+  "coment": "A PNAB de 2017 descreve a territorialização como processo que começa pela definição do território, da área e das microáreas e segue com o cadastramento das famílias, atribuição de todos os membros da equipe e não só dos agentes comunitários. É um processo contínuo, atualizado conforme a dinâmica do território, e serve de base para diagnóstico situacional e planejamento. A população adscrita recomendada é de 2 000 a 3 500 pessoas por equipe, ajustada pela vulnerabilidade.",
+  "porAlt": [
+   "Os dados socioeconômicos das famílias são registrados no cadastro do e-SUS APS, e não no SINAN, que é o sistema de agravos de notificação.",
+   "O território da equipe não segue estritamente limites administrativos de bairros; considera dinâmica social, riscos e vulnerabilidades.",
+   "A territorialização não termina no cadastramento, é contínua, e o cadastro não é atribuição exclusiva dos agentes comunitários.",
+   "Correta: começa pela definição de território, área e microárea, seguida do cadastramento das famílias, responsabilidade de toda a equipe."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Uma mulher de 48 anos de idade é trazida por familiares à unidade de emergência de hospital de alta complexidade com quadro de confusão mental, cefaleia e amaurose bilateral. Segundo familiares, a paciente é portadora de hipertensão arterial sistêmica há 2 anos, vindo em investigação diagnóstica por ser classificada como hipertensão arterial resistente. Nas últimas 2 semanas, a paciente passou a não tomar seus fármacos anti-hipertensivos, em razão de acreditar que o tratamento não estava mais funcionando. Na véspera, a paciente começou a se queixar de cefaleia holocraniana, pouco responsiva a fármacos, além de turvação visual. No dia de hoje, a paciente tornou-se um pouco confusa e começou a se queixar de que não estava conseguindo enxergar nada, razão porque foi trazida, às pressas, à unidade de emergência. Ao exame físico, a paciente mostra-se confusa, sonolenta, atendendo com dificuldade a algumas solicitações verbais. Sua pressão arterial (PA) encontra-se em 240 x 160 mmHg em ambos os membros superiores, enquanto a frequência cardíaca é de 96 bpm. Um sopro é auscultado no flanco direito de seu abdome. Iniciado tratamento anti-hipertensivo intravenoso, a paciente é submetida a uma tomografia computadorizada de crânio em que foram detectadas áreas hipodensas em regiões occipitais. A paciente é, então, encaminhada para realização de uma ressonância magnética de encéfalo que, na imagem pesada em T2, revela a presença de hiperintensidade de sinal nos lobos occipitais, sem limites muito bem definidos. Instituído o tratamento indicado, a paciente evolui com regressão completa dos déficits neurológicos previamente descritos. Acerca do tratamento da paciente em questão, pode-se afirmar que",
+  "alts": [
+   "o alvo terapêutico no caso seria a normalização da pressão arterial em, no máximo, 2 horas.",
+   "após compensação clínica, seria fundamental ressecar o tumor adrenal secretor presente à direita.",
+   "nicardipina e labetalol por via intravenosa seriam excelentes escolhas farmacológicas para a redução da PA da paciente.",
+   "em razão da presença de trombose da artéria basilar, deveria ser adicionada anticoagulação plena com heparina de baixo peso molecular."
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Diretriz Brasileira de Hipertensão Arterial, 2025; ESC Guidelines for the management of elevated blood pressure and hypertension, 2024",
+  "coment": "PA de 240 x 160 mmHg com cefaleia, confusão e amaurose cortical, e RM com hiperintensidade em T2 occipital reversível, configura encefalopatia hipertensiva com síndrome de encefalopatia posterior reversível (PRES). O sopro em flanco sugere hipertensão renovascular como causa da hipertensão resistente. O tratamento usa anti-hipertensivo intravenoso titulável, como nicardipina, labetalol ou clevidipina, reduzindo a PA média em no máximo 20 a 25% na primeira hora e normalizando ao longo de 24 a 48 horas.",
+  "porAlt": [
+   "Normalizar a PA em 2 horas causa hipoperfusão cerebral, porque a autorregulação está desviada; a redução deve ser gradual.",
+   "O sopro em flanco sugere estenose de artéria renal, e nada no caso descreve tumor adrenal.",
+   "Correta: nicardipina e labetalol intravenosos são tituláveis e adequados à redução controlada da PA na encefalopatia hipertensiva.",
+   "A imagem mostra edema vasogênico occipital reversível, típico de PRES, e não trombose basilar; anticoagulação não tem indicação."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Paciente masculino, 50 anos, notou aparecimento de nódulo endurecido em fossa supraclavicular esquerda. Foi realizada biópsia que evidenciou linfonodo metastático de adenocarcinoma de provável origem gastrointestinal. Realizou endoscopia digestiva alta que mostrou lesão gástrica compatível com linite plástica. A biópsia teve como resultado histopatológico adenocarcinoma gástrico pouco diferenciado. Os familiares agendaram consulta com o cirurgião, informando ao a ele que o paciente não tem conhecimento dos resultados desses exames. Como o cirurgião deve abordar o paciente e/ou seus familiares?",
+  "alts": [
+   "Manter apenas os familiares informados sobre o diagnóstico, pois, tais informações, além de não mudarem o prognóstico do paciente, podem desencadear quadro depressivo em um momento no qual ele deverá se manter otimista para lidar com sua doença. É conhecido o fato de que pacientes deprimidos têm menor sobrevida relacionada ao câncer.",
+   "Preparar o local e o momento adequados, perguntar ao paciente o que ele sabe e/ou percebe acerca de sua condição atual, perguntar ao paciente se ele deseja saber sobre o diagnóstico ou se prefere que seja comunicado a sua família em um primeiro momento. Caso deseje saber, o médico deve informar e acolher as reações do paciente.",
+   "Informar que, pelo fato de o paciente já possuir metástase à distância, nada pode ser feito do ponto de vista terapêutico. Informar que o paciente tem, baseado em dados estatísticos, cerca de 6 meses de vida. Tal informação é de suma importância para que o paciente possa tomar medidas legais acerca de seu falecimento.",
+   "Dizer inicialmente para o paciente que existem chances reais de cura no intuito de o manter engajado e otimista. Revelar ao paciente sobre seu prognóstico somente quando este vier apresentar sinais e/ou sintomas relacionados ao estágio avançado da doença. Quanto maior o período sem o paciente saber de sua doença, menor será o sofrimento."
+  ],
+  "gab": 1,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Código de Ética Médica, Resolução CFM nº 2.217, 2018; protocolo SPIKES (Baile e colaboradores), 2000",
+  "coment": "O Código de Ética Médica (art. 34) veda deixar de informar ao paciente o diagnóstico, o prognóstico, os riscos e os objetivos do tratamento, salvo quando a comunicação direta possa lhe causar dano, caso em que se informa o representante legal. O pedido da família para esconder o diagnóstico não se sobrepõe à autonomia do paciente. O protocolo SPIKES organiza a conversa: preparar o ambiente, investigar o que o paciente sabe, perguntar quanto ele deseja saber, informar, acolher emoções e combinar a estratégia.",
+  "porAlt": [
+   "Esconder o diagnóstico a pedido da família é a conspiração do silêncio, que viola a autonomia do paciente e o art. 34 do Código de Ética.",
+   "Correta: segue o SPIKES, preparando o ambiente, explorando a percepção e o desejo de saber do paciente e acolhendo suas reações.",
+   "Doença metastática ainda tem tratamento sistêmico e cuidado paliativo, e prognóstico dado como número frio, sem acolhimento, é comunicação inadequada.",
+   "Prometer chance de cura inexistente é mentira ao paciente, fere a confiança e a ética, e retarda decisões sobre cuidados."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Uma paciente, de 66 anos de idade, vem em consulta com médico de família e comunidade de uma equipe de Saúde da Família Fluvial, referindo estar preocupada com o controle de seu diabetes mellitus. Como a equipe ficou um longo período sem visitar a comunidade devido a condições climáticas desfavoráveis, a paciente refere ter associado o uso de algumas plantas medicinais aos medicamentos prescritos em última consulta. Ela informa que a curandeira da comunidade orientou quais chás ela deveria tomar. O médico, então, identifica que essas plantas medicinais não interagem com os medicamentos prescritos, nem pioram o diabetes ou causam risco à saúde; concorda com seu uso, reforçando a prescrição realizada por ele e solicita exames para a avaliação do controle do diabetes. Diante do que foi apresentado, qual atributo da atenção primária é apresentado no caso?",
+  "alts": [
+   "Longitudinalidade.",
+   "Integralidade.",
+   "Competência cultural.",
+   "Orientação para a comunidade."
+  ],
+  "gab": 2,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Starfield B. Atenção primária: equilíbrio entre necessidades de saúde, serviços e tecnologia (UNESCO/Ministério da Saúde), 2002",
+  "coment": "Starfield divide os atributos da atenção primária em essenciais (acesso de primeiro contato, longitudinalidade, integralidade e coordenação) e derivados (orientação familiar, orientação comunitária e competência cultural). Competência cultural é reconhecer as crenças, valores e práticas da população, como o uso de plantas orientado pela curandeira de uma comunidade ribeirinha, e adaptar o cuidado a elas sem abrir mão da segurança. Foi o que o médico fez ao checar interações e acolher o uso dos chás.",
+  "porAlt": [
+   "Longitudinalidade é o vínculo contínuo com a mesma equipe ao longo do tempo; o caso destaca justamente a ausência prolongada da equipe.",
+   "Integralidade é oferecer ou garantir todos os serviços de que a pessoa precisa; não é o atributo ilustrado pela valorização da prática cultural.",
+   "Correta: respeitar e incorporar ao plano de cuidado a prática cultural da comunidade, com segurança, é competência cultural.",
+   "Orientação comunitária é conhecer as necessidades de saúde do coletivo e planejar ações para a comunidade, não uma conduta individual."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Uma mulher de 30 anos de idade vem a consulta com o endocrinologista para acompanhamento de hipotireoidismo. Há 6 meses ela procurou o médico da Unidade Básica de Saúde próxima a sua residência devido à constipação (evacuava a cada 3 dias, com fezes ressecadas e com dor ao evacuar). A paciente era sedentária e apresentava erros alimentares evidentes, com baixa ingesta de água durante o dia e pouco consumo de frutas e verduras. O médico orientou ajustes na alimentação, ingesta hídrica e necessidade de atividade física regular, assim como dosagem de TSH e T4 livre. Após 2 meses a paciente retornou, tendo aderido às recomendações, resultando na solução do quadro de constipação (evacuava diariamente, sem dor, com fezes bem formadas), contudo, os exames laboratoriais demonstraram: TSH = 5,5 mUI/mL (valor de referência: 0,4 a 4,5 mUI/L) e T4 livre = 1,0 (valor de referência: 0,7 a 1,8 ng/dL). O médico repetiu os exames, que indicaram: TSH = 5,3 mUI/L (valor de referência: 0,4 a 4,5 mUI/mL) e T4 livre = 1,1 (valor de referência: 0,7 a 1,8 ng/dL). Diante da persistência dos exames alterados, o médico prescreveu levotiroxina 50 mcg/dia e encaminhou ao especialista. Durante a consulta com o endocrinologista, a paciente está assintomática, com tireoide não palpável e índice de massa corpórea de 22 kg/m², contudo, não havia iniciado a levotiroxina, pois possuía receio de possíveis efeitos adversos. Considerando o que foi apresentado, o endocrinologista deve",
+  "alts": [
+   "insistir com o uso da levotiroxina, pois trata-se de um caso de hipotireoidismo primário.",
+   "insistir com o uso da levotiroxina, pois trata-se de um caso de hipotireoidismo secundário.",
+   "orientar não usar a levotiroxina, pois trata-se de um caso de hipotireoidismo subclínico.",
+   "iniciar a levotiroxina apenas após realizar cintilografia, para confirmação do diagnóstico."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Consenso Brasileiro para Abordagem Clínica e Tratamento do Hipotireoidismo Subclínico em Adultos (SBEM), 2013; ETA Guideline: Management of Subclinical Hypothyroidism, 2013",
+  "coment": "TSH discretamente elevado (5,3 a 5,5 mUI/L) com T4 livre normal em duas dosagens define hipotireoidismo subclínico. Com TSH abaixo de 10 mUI/L, paciente jovem, assintomática, sem bócio e sem gestação, os consensos não indicam levotiroxina: o tratamento não melhora desfechos e a constipação já se resolveu com medidas de estilo de vida. A conduta é repetir TSH e T4 livre periodicamente e dosar anti-TPO, que estima o risco de progressão. Tratar se TSH ≥ 10, gestação ou planejamento de gestação.",
+  "porAlt": [
+   "T4 livre normal descarta hipotireoidismo primário franco; o quadro é subclínico, sem indicação de levotiroxina.",
+   "Hipotireoidismo secundário (central) cursa com T4 livre baixo e TSH baixo ou inapropriadamente normal, o oposto do caso.",
+   "Correta: hipotireoidismo subclínico com TSH abaixo de 10, assintomático e fora da gestação, deve ser acompanhado sem levotiroxina.",
+   "Cintilografia não tem papel no diagnóstico de hipotireoidismo; é usada na investigação de hipertireoidismo e nódulos."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um homem com 58 anos de idade foi atendido em ambulatório de hospital secundário. Relatava sangramento e muco nas fezes, referia também alteração do hábito intestinal, com aumento do número de evacuações há 5 meses. O exame físico geral não apresentava particularidades e o toque retal evidenciou tumoração na parede posterior do reto, aproximadamente 7 cm acima da borda anal. Com base nos dados apresentados, a alternativa correta sobre o exame necessário para definir a conduta a ser seguida é",
+  "alts": [
+   "ultrassonografia endorretal.",
+   "ressonância nuclear magnética endorretal.",
+   "enema baritado com duplo contraste.",
+   "colonoscopia com biópsia."
+  ],
+  "gab": 3,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Localised rectal cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up, 2025",
+  "coment": "Homem de 58 anos com hematoquezia, muco, mudança do hábito intestinal e tumor palpável ao toque retal a 7 cm da borda anal tem câncer de reto até prova em contrário. O primeiro exame é a colonoscopia completa até o ceco com biópsia: confirma o adenocarcinoma e procura lesões sincrônicas no restante do cólon. Só depois vem o estadiamento: RM de pelve para T, N e margem circunferencial, TC de tórax e abdome e CEA, que definem neoadjuvância ou cirurgia.",
+  "porAlt": [
+   "A ultrassonografia endorretal é exame de estadiamento local de lesões precoces e não confirma o diagnóstico histológico.",
+   "A RM de pelve estadia o tumor retal (T, N, margem), mas vem depois da confirmação por biópsia.",
+   "O enema baritado é obsoleto, não permite biópsia e é inferior à colonoscopia para detectar lesões.",
+   "Correta: a colonoscopia com biópsia confirma o adenocarcinoma e avalia lesões sincrônicas, passo que precede qualquer definição de conduta."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um homem de 23 anos de idade, membro de um grupo de usuário de drogas ilícitas injetáveis, comparece à consulta no ambulatório de clínica médica com relato de \"olhos amarelos e urina cor de mate\". Segundo informa, seu quadro clínico iniciou-se há cerca de 12 dias com mal-estar, febre (cerca de 38 °C), coriza e mialgias. Dois dias após, observou disgeusia e anosmia, além de diarreia. Procurou unidade de pronto atendimento, sendo agendada pesquisa para COVID-19, que foi realizada no 5.º dia de evolução da doença, com resultado negativo. Passou a apresentar, também, dor abdominal (especialmente no hipocôndrio direito) e fadiga vespertina. Há 2 dias, observou que suas escleras ficaram amareladas e a sua urina assumiu aspecto sugestivo de colúria. Foi à mesma unidade onde havia sido atendido inicialmente, sendo solicitados exames complementares que são trazidos pelo paciente à consulta atual e que revelam: TGO/AST = 982 UI/L (valor de referência: 20 a 40 UI/L); ALT/TGP: 1 220 UI/L (valor de referência: 20 a 40 UI/L); bilirrubinas totais = 4,2 mg/dL (valor de referência: 0,2 a 0,8 mg/dL), com predomínio da fração direta (3,6 mg/dL - valor de referência: 0,1 a 0,5 mg/dL); hemograma com leucopenia e linfocitose, sem anemia; INR e tempo de tromboplastina parcial ativada normais. Em razão desses resultados, o paciente foi encaminhado ao ambulatório para complementação da investigação diagnóstica, tratamento e acompanhamento. Ao exame físico, o paciente encontra-se em razoável estado geral, estando com as escleras e a mucosa sublingual ictéricas, além de apresentar leve hepatomegalia (13 cm de extensão ao nível da linha hemiclavicular direita) dolorosa, com sinal de Murphy negativo. Acerca do caso desse paciente, pode-se afirmar que o diagnóstico mais provável e a lógica subjacente a tal conclusão são",
+  "alts": [
+   "hepatite viral pelo vírus da hepatite C, por ser a causa mais comum de hepatite viral de apresentação aguda.",
+   "hepatite autoimune do tipo 1, em função do gênero do paciente (sexo masculino) e do nível de transaminases.",
+   "hepatite viral aguda pelo vírus da hepatite B, em razão do paciente ser usuário de drogas ilícitas injetáveis.",
+   "leptospirose íctero-hemorrágica, em razão do leucograma e níveis séricos das aminotransferases."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "PCDT de Hepatite B e Coinfecções, Ministério da Saúde, 2023",
+  "coment": "Hepatite aguda com aminotransferases acima de 1 000 UI/L, icterícia com predomínio de bilirrubina direta, pródromo gripal e INR normal, em usuário de drogas injetáveis, aponta hepatite B aguda. A hepatite C aguda também é de transmissão parenteral, mas é assintomática em cerca de 80% dos casos e raramente se apresenta com icterícia franca. Anosmia e disgeusia são distratores do pródromo. O diagnóstico se confirma com HBsAg e anti-HBc IgM.",
+  "porAlt": [
+   "A hepatite C aguda é majoritariamente assintomática e não é a causa mais comum de hepatite viral aguda sintomática.",
+   "Hepatite autoimune tipo 1 predomina em mulheres, tem curso geralmente insidioso, e o sexo masculino depõe contra, não a favor.",
+   "Correta: via parenteral pelo uso de drogas injetáveis e hepatite aguda ictérica com transaminases muito altas favorecem hepatite B aguda.",
+   "Leptospirose cursa com aminotransferases pouco elevadas, leucocitose com neutrofilia e plaquetopenia, não leucopenia com linfocitose."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Em reunião de equipe da Estratégia de Saúde da Família, o médico expõe sua preocupação com o aumento no número de atendimentos de cuidadores de idosos, em virtude de problemas de saúde decorrentes de estresse físico e emocional. Sugere que seja realizada intervenção de apoio e suporte aos cuidadores e para isso propõe aplicar escala que tem por objetivo “avaliar a sobrecarga dos cuidadores de idosos”. Trata-se da",
+  "alts": [
+   "Escala de Zarit.",
+   "Escala de Barthel.",
+   "Escala de Desempenho de Karnofsky.",
+   "Escala de Avaliação Multidimensional do Idoso."
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Caderno de Atenção Básica nº 19: Envelhecimento e Saúde da Pessoa Idosa, Ministério da Saúde, 2006; Zarit Burden Interview (Zarit, Reever e Bach-Peterson), 1980",
+  "coment": "A Escala de Zarit (Zarit Burden Interview) mede a sobrecarga do cuidador com 22 itens sobre impacto físico, emocional, social e financeiro do cuidado, e está validada no Brasil. É o instrumento recomendado pelo Ministério da Saúde para identificar cuidadores em risco de adoecimento, o problema que o médico observou na equipe. As demais escalas avaliam o próprio idoso ou o paciente oncológico, e não quem cuida.",
+  "porAlt": [
+   "Correta: a Escala de Zarit foi criada para quantificar a sobrecarga do cuidador de idosos.",
+   "O índice de Barthel mede independência nas atividades básicas de vida diária do idoso, não a sobrecarga do cuidador.",
+   "A escala de Karnofsky mede o desempenho funcional do paciente, sobretudo em oncologia, e não o cuidador.",
+   "A avaliação multidimensional é a avaliação global da pessoa idosa, não um instrumento específico de sobrecarga do cuidador."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Paciente 65 anos, masculino, apresentando alteração do hábito intestinal. Como história familiar, apresenta pai falecido de câncer de próstata aos 70 anos, mãe falecida de câncer de colo de útero aos 80 anos, avô paterno e primo por parte de mãe falecidos por câncer de cólon com 60 e 50 anos respectivamente. Realizou colonoscopia que evidenciou lesão estenosante na junção reto-sigmoidiana, 3 pólipos em reto e 5 pólipos em sigmoide. O resultado histopatológico da lesão estenosante foi adenocarcinoma de cólon moderadamente diferenciado. Quanto aos pólipos, todos eram de natureza adenomatosa, sendo 5 tubulares e 2 túbulo-vilosos (ambos no reto). Em qual das situações abaixo, levando em conta a história familiar e o diagnóstico, esse paciente melhor se enquadra?",
+  "alts": [
+   "Câncer colorretal hereditário não polipoide (Síndrome de Lynch).",
+   "Síndrome de Polipose Recessiva.",
+   "Polipose adenomatosa familiar.",
+   "Câncer colorretal esporádico."
+  ],
+  "gab": 3,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Critérios de Amsterdam II, 1999; critérios de Bethesda revisados, 2004; ACG Clinical Guideline: Genetic Testing and Management of Hereditary Gastrointestinal Cancer Syndromes, 2015",
+  "coment": "Os critérios de Amsterdam II exigem ao menos três parentes com câncer do espectro Lynch, um deles parente de primeiro grau dos outros dois, duas gerações seguidas e um diagnóstico antes dos 50 anos. Aqui os parentes com câncer de cólon são de linhagens diferentes (paterna e materna), nenhum de primeiro grau, e nenhum diagnóstico antes dos 50; próstata e colo não são do espectro. Sete adenomas não configuram polipose. O caso é esporádico, embora a pesquisa de deficiência de enzimas de reparo no tumor seja hoje recomendada em todo câncer colorretal.",
+  "porAlt": [
+   "Amsterdam II não é preenchido: afetados em linhagens distintas, sem parente de primeiro grau e sem diagnóstico antes dos 50 anos.",
+   "A polipose associada ao MUTYH, de herança recessiva, costuma cursar com dezenas de adenomas; sete adenomas aos 65 anos não a sugerem.",
+   "A polipose adenomatosa familiar clássica tem mais de 100 adenomas e início precoce; mesmo a forma atenuada tem 10 a 99.",
+   "Correta: sem critérios para Lynch e sem número de pólipos de polipose, o paciente se enquadra melhor como câncer colorretal esporádico."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um homem de 52 anos de idade procura atendimento médico em nível ambulatorial após 7 dias de uma internação hospitalar de 72 horas para correção de uma hérnia inguinal, na qual permaneceu 24 horas com sonda vesical de demora. O paciente encontra-se em bom estado de saúde, queixando-se de leve dor no local da cirurgia e de disúria, iniciada há 3 dias, além de polaciúria. Ao exame, a ferida operatória encontra-se limpa e apresenta dor à palpação profunda do hipogástrio. No mais, o exame físico é completamente normal. Possui comorbidades, pois é diabético e portador de epilepsia em uso de topiramato para essa última condição. O médico assistente solicitou uma urocultura, cujo resultado segue abaixo. Urina Material da amostra Positiva 100 000 UFC Resultado da cultura E. coli Concentração Antibiograma Inibitória Mínima Amicacina Resistente ≥ 32 Ampicilina Resistente ≥ 32 Ampicilina/Sulbactan Resistente ≥ 32 Cefepime Resistente ≥ 64 Ceftazidima Resistente Ceftriaxona Resistente ≥ 64 Cefoxitina Sensível ≤ 2 Cefuroxima Resistente ≥ 64 Ciprofloxacina Resistente ≥ 16 Ertapenem Sensível ≤ 0,5 Gentamicina Resistente ≥ 16 Imipenem Sensível ≤ 0,5 Piperacilina/Tazobactan Resistente ≥ 64 Sulfametoxazol/Trimetoprim Sensível ≤ 0,5 Nesse caso, a conduta do médico deve ser",
+  "alts": [
+   "prescrever um sintomático como a fenazopiridina.",
+   "internar o paciente para administração de cefoxitina.",
+   "internar o paciente para administração de imipenem.",
+   "prescrever, ambulatorialmente, sulfametoxazol/trimetoprim."
+  ],
+  "gab": 3,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "IDSA Guideline on Management and Treatment of Complicated Urinary Tract Infections, 2025",
+  "coment": "Cistite após sondagem vesical, em homem afebril e estável, com E. coli produtora de betalactamase de espectro estendido (resistente a cefalosporinas de terceira e quarta geração e sensível a carbapenêmicos). O antibiograma mostra sensibilidade a sulfametoxazol/trimetoprim, que é oral e permite tratamento ambulatorial. Sem sinais sistêmicos não há motivo para internar nem para usar carbapenêmico, o que só selecionaria resistência. Pela IDSA 2025, infecção restrita à bexiga em homem afebril é tratada por cerca de 7 dias.",
+  "porAlt": [
+   "Fenazopiridina apenas alivia a disúria e não trata uma infecção sintomática com urocultura positiva.",
+   "Cefoxitina é ativa in vitro, mas é parenteral e não há gravidade que justifique internação.",
+   "Carbapenêmico fica reservado para infecção grave por ESBL; usá-lo em cistite com opção oral ativa seleciona resistência.",
+   "Correta: sulfametoxazol/trimetoprim é ativo pelo antibiograma, oral, e o paciente estável pode tratar ambulatorialmente."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um paciente masculino, 76 anos de idade, vem a consulta com clínica médica por apresentar dúvidas quanto à frequência com que deve realizar seu exame de próstata. O paciente diz ter feito o exame de PSA várias vezes ao longo dos últimos anos. Traz exame de 3 e de 4 anos atrás, com PSA = 0,8 ng/mL e 0,78 ng/mL, respectivamente. Nesse caso, o paciente deve ser recomendado a",
+  "alts": [
+   "realizar exame de PSA a cada 5 anos.",
+   "não realizar mais exame de PSA.",
+   "realizar exame de toque retal anual.",
+   "realizar ultrassonografia retal com biopsia."
+  ],
+  "gab": 1,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "USPSTF Recommendation Statement: Screening for Prostate Cancer, 2018",
+  "coment": "A USPSTF recomenda contra o rastreamento com PSA a partir dos 70 anos (grau D), porque o benefício em mortalidade não supera os danos de sobrediagnóstico, biópsias e tratamento de tumores indolentes. O Ministério da Saúde e o INCA não recomendam rastreamento populacional do câncer de próstata em nenhuma idade. Aos 76 anos, com PSA seriado abaixo de 1 ng/mL, o risco de câncer clinicamente relevante é muito baixo, e a orientação é encerrar o rastreamento.",
+  "porAlt": [
+   "Não há intervalo de rastreamento recomendado após os 70 anos; repetir PSA a cada 5 anos mantém um exame sem benefício.",
+   "Correta: aos 76 anos, com PSA persistentemente baixo, o rastreamento deve ser encerrado.",
+   "O toque retal isolado tem baixa sensibilidade e não reduz mortalidade, não sendo recomendado como rastreamento.",
+   "Não há achado que indique biópsia; o PSA é baixo e o procedimento traria apenas risco."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Mulher com 42 anos de idade foi atendida em unidade básica de saúde referindo, há 5 dias, dor na panturrilha direita que se acentuava ao realizar a flexão dorsal do pé. A dor piorou há 2 dias, aparecendo inchaço, palidez cutânea e dificuldade para deambular. Relatou fazer uso de contraceptivo oral e tabagismo desde os 20 anos de idade. O exame físico evidenciou peso de 72 Kg, 149 cm de altura, edema e palidez desde a raiz da coxa, dor à palpação da panturrilha e pulsos pedioso e tibial posterior palpáveis. Com base nos dados apresentados, assinale a alternativa com a orientação sobre a conduta a ser seguida.",
+  "alts": [
+   "Solicitar Eco-Doppler colorido venoso de membro inferior.",
+   "Indicar tratamento imediato em hospital terciário.",
+   "Prescrever repouso, analgésicos e heparina ou enoxaparina por via subcutânea.",
+   "Prescrever repouso, anti-inflamatório não hormonal e ácido acetil salicílico 100 mg ao dia."
+  ],
+  "gab": 0,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ASH Guidelines for Management of Venous Thromboembolism: Diagnosis of Venous Thromboembolism, 2018; CHEST Guideline: Antithrombotic Therapy for VTE Disease, 2021",
+  "coment": "Dor na panturrilha, edema de todo o membro desde a raiz da coxa, contraceptivo oral combinado, tabagismo e obesidade (IMC em torno de 32 kg/m²) dão alta probabilidade pré-teste de trombose venosa profunda pelo escore de Wells. Nessa situação o D-dímero não é útil para excluir, e o exame indicado é a ultrassonografia com Doppler venoso (compressão). Se houver demora para obtê-lo, a anticoagulação empírica pode começar enquanto se aguarda. Pulsos palpáveis afastam isquemia (flegmasia cerúlea).",
+  "porAlt": [
+   "Correta: com alta probabilidade clínica, a TVP deve ser confirmada por Doppler venoso antes de definir o tratamento.",
+   "Sem instabilidade, sinais de TEP ou isquemia, não há motivo para transferência a hospital terciário; a TVP é tratável ambulatorialmente.",
+   "Repouso não é mais recomendado na TVP, e a heparina sem investigação só se admite como ponte enquanto se garante o Doppler.",
+   "Anti-inflamatório e AAS não tratam trombose venosa, aumentam sangramento e o repouso não está indicado."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um paciente masculino, com 62 anos de idade, vem a consulta médica na atenção secundaria ambulatorial, encaminhado por tremor. O paciente conta que há alguns meses teve início com tremor no braço direito e que, agora, parece ter progredido para ambos os braços e ambas as pernas. O paciente diz que o tremor piora quando ele “está nervoso”, mas que parece melhorar quando faz alguma atividade, como cozinhar ou comer. Entretanto, o paciente conta que é difícil para ele levantar-se da posição sentada e começar a andar. Também refere que perde o equilíbrio quando está caminhando e “muda de rota”, e tem dificuldade para parar de caminhar, relatando duas quedas no mês anterior à consulta. Com base no que foi apresentado, o diagnóstico desse paciente é",
+  "alts": [
+   "tremor essencial.",
+   "paralisia supranuclear progressiva.",
+   "doença de Huntington.",
+   "doença de Parkinson."
+  ],
+  "gab": 3,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "MDS Clinical Diagnostic Criteria for Parkinson's Disease, 2015",
+  "coment": "O paciente tem tremor que começou assimétrico no braço direito, piora com ansiedade e melhora com a atividade (tremor de repouso), dificuldade para levantar e iniciar a marcha (bradicinesia), além de festinação e dificuldade para parar, sinais de instabilidade postural. Esse conjunto define parkinsonismo, e o tremor de repouso assimétrico favorece doença de Parkinson. Quedas recorrentes nos primeiros anos são sinal de alerta nos critérios da MDS e obrigam a pensar em PSP, mas a PSP raramente tem tremor de repouso.",
+  "porAlt": [
+   "Tremor essencial é postural e de ação, piora ao executar tarefas e não cursa com bradicinesia nem instabilidade postural.",
+   "A PSP se caracteriza por paralisia do olhar vertical, rigidez axial e quedas para trás, e o tremor de repouso é incomum.",
+   "Huntington se manifesta com coreia, alterações psiquiátricas e cognitivas e história familiar autossômica dominante.",
+   "Correta: tremor de repouso assimétrico, bradicinesia e instabilidade postural com festinação caracterizam doença de Parkinson."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um homem de 57 anos de idade comparece ao ambulatório de clínica médica de hospital de média complexidade para avaliação diagnóstica de quadro de fraqueza, cansaço, adinamia e desequilíbrio nos membros inferiores (MMII). Segundo informa, seu estado geral era bom até 3 meses antes, quando passou a perceber fraqueza e adinamia. Pensou ser decorrente do hipotireoidismo, mas após reavaliação hormonal, sua endocrinologista informou-lhe que a tireoidite de Hashimoto estava bem controlada, não sendo necessário nenhum reajuste da dose de levotiroxina em uso crônico (125 mcg/dia). Como os sintomas persistiram, procurou facultativo que lhe solicitou um hemograma completo, cujo resultado revelou o seguinte padrão: hemoglobina: 7,6 g/dL (valor de referência: 13 a 16,5 g/dL); hematócrito: 26% (valor de referência: 40 a 52%); hemácias: 2,3 x 10⁶/mcl (valor de referência: 4,5 a 6,0 x 10⁶/mcl); volume corpuscular médio: 113 fl (valor de referência: 80 a 100 fl); leucócitos: 2 800/mcl (valor de referência: 6 000 a 10 000/mcl), com contagem diferencial normal; plaquetas: 86 000/mcl (valor de referência: 150 a 400 x 103/mcl). Ao exame físico procedido na consulta, o paciente encontra-se bastante pálido, ictérico (+/4+), normotenso, levemente taquicárdico (104 bpm) e hidratado; exame do aparelho cardiovascular revela apenas sopro sistólico pancardíaco, enquanto o exame do aparelho respiratório e do abdome é normal. Contudo, ao exame neurológico, é observada perda da propriocepção consciente e da sensibilidade vibratória nos MMII, sendo o reflexo cutâneo-plantar em extensão bilateral. Uma hematoscopia realizada durante o exame no ambulatório revela a presença de plurissegmentação dos neutrófilos. A etiologia mais provável da anemia do paciente em apreço é",
+  "alts": [
+   "hipotireoidismo.",
+   "anemia hemolítica autoimune.",
+   "anemia perniciosa.",
+   "deficiência de ácido fólico."
+  ],
+  "gab": 2,
+  "tema": "hemato",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "British Society for Haematology: Guidelines for the diagnosis and treatment of cobalamin and folate disorders, 2014",
+  "coment": "Anemia macrocítica (VCM 113 fL) com pancitopenia, neutrófilos hipersegmentados e icterícia leve por hemólise intramedular indica anemia megaloblástica. A perda de propriocepção e vibração nos membros inferiores com Babinski bilateral é a degeneração combinada subaguda da medula, que ocorre na deficiência de B12 e não na de folato. A tireoidite de Hashimoto reforça a gastrite autoimune (anemia perniciosa). Confirma-se com B12 baixa, ácido metilmalônico elevado e anticorpo antifator intrínseco, e trata-se com B12 parenteral.",
+  "porAlt": [
+   "O hipotireoidismo pode dar macrocitose discreta, mas não pancitopenia, hipersegmentação nem mielopatia, e está controlado.",
+   "Anemia hemolítica autoimune tem reticulocitose, esferócitos e Coombs direto positivo, sem pancitopenia nem lesão medular.",
+   "Correta: anemia megaloblástica com degeneração combinada subaguda, em paciente com autoimunidade tireoidiana, sugere anemia perniciosa.",
+   "Deficiência de folato causa anemia megaloblástica sem mielopatia; tratá-la com folato isolado pode piorar o dano neurológico da falta de B12."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "De acordo com a portaria n. 2.436, de 21 de setembro de 2017, que aprovou a Política Nacional de Atenção Básica, estabelecendo a revisão de diretrizes para a organização da Atenção Básica, no âmbito do Sistema Único de Saúde (SUS), é diretriz do SUS e da Rede de Atenção à Saúde a ser operacionalizada na Atenção Básica",
+  "alts": [
+   "regionalização.",
+   "adaptação.",
+   "integralidade.",
+   "determinação."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Política Nacional de Atenção Básica (PNAB), Portaria nº 2.436, 2017",
+  "coment": "A PNAB de 2017 separa princípios de diretrizes. Os princípios do SUS e da RAS operacionalizados na Atenção Básica são universalidade, equidade e integralidade. As diretrizes são regionalização e hierarquização, territorialização, população adscrita, cuidado centrado na pessoa, resolutividade, longitudinalidade do cuidado, coordenação do cuidado, ordenação da rede e participação da comunidade. Por isso regionalização é a resposta, e integralidade, apesar de parecer, está no grupo dos princípios.",
+  "porAlt": [
+   "Correta: regionalização e hierarquização figuram entre as diretrizes listadas na PNAB de 2017.",
+   "Adaptação não consta entre os princípios nem entre as diretrizes da PNAB.",
+   "Integralidade é classificada pela PNAB de 2017 como princípio, ao lado de universalidade e equidade, e não como diretriz.",
+   "Determinação não é princípio nem diretriz da Atenção Básica na PNAB."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Segundo a Política Nacional da Atenção Básica (2017), como atribuição comum a todos os membros das equipes que atuam na Atenção Primária em Saúde, inclusive ao médico, consta: “Realizar busca ativa de internações e atendimentos de urgência/emergência por causas sensíveis à Atenção Básica, a fim de estabelecer estratégias que ampliem a resolutividade e a longitudinalidade pelas equipes que atuam na Atenção Básica”. Considerando as causas sensíveis e o perfil de mortalidade por causa da população brasileira, aquelas estratégias com maior impacto para a redução dessas causas de morte na população de 50 anos e mais são ações de",
+  "alts": [
+   "controle da hipertensão arterial e do diabetes mellitus.",
+   "educação no trânsito e de denúncia e prevenção de violência.",
+   "orientação aos trabalhadores, visando reduzir acidentes de trabalho e doenças ocupacionais.",
+   "rastreamento de câncer de mama e câncer de próstata."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Política Nacional de Atenção Básica (PNAB), Portaria nº 2.436, 2017; Lista Brasileira de Internações por Condições Sensíveis à Atenção Primária, Portaria SAS/MS nº 221, 2008",
+  "coment": "A partir dos 50 anos as principais causas de morte no Brasil são as doenças do aparelho circulatório (doença isquêmica do coração e doença cerebrovascular) e o diabetes. Hipertensão, diabetes e suas complicações integram a Lista Brasileira de Condições Sensíveis à Atenção Primária, ou seja, são causas de internação e óbito que uma APS resolutiva evita. Diagnóstico precoce, tratamento e controle da hipertensão e do diabetes são, portanto, as ações de maior impacto nessa faixa etária.",
+  "porAlt": [
+   "Correta: controlar hipertensão e diabetes atua sobre as maiores causas de morte acima dos 50 anos, que são sensíveis à APS.",
+   "Causas externas, como trânsito e violência, pesam sobretudo em jovens de 15 a 39 anos, não na população acima de 50.",
+   "Acidentes e doenças ocupacionais têm impacto muito menor na mortalidade acima dos 50 anos do que as doenças cardiovasculares.",
+   "O rastreamento populacional de câncer de próstata não é recomendado pelo Ministério da Saúde e as neoplasias não integram a lista de condições sensíveis."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Uma mulher de 61 anos foi trazida ao pronto-socorro devido à disartria e hemiparesia direita há 3 horas. Ela estava em uma reunião de trabalho quando, subitamente, iniciou com os sinais e sintomas. O serviço móvel de urgência foi acionado e, após a avaliação inicial, fez contato com o pronto-socorro para a receber a paciente. Não há relato de episódios prévios, infarto do miocárdio, cirurgias ou hemorragia recentemente, apenas de hipertensão arterial há 10 anos, em uso de losartana 50 mg, 2 vezes ao dia. O exame físico não apresenta maiores alterações, exceto por redução de força em membro superior e inferior direito. A paciente estava alerta, contudo, parecia ter alguma dificuldade para compreensão dos comandos do médico urgencista. Sua pressão arterial é de 120 x 80 mmHg, frequência cardíaca = 92 bpm, com 18 movimentos respiratórios por minuto. Se a tomografia computadorizada de crânio não mostrar sinais de sangramento, a conduta a ser adotada imediatamente é",
+  "alts": [
+   "encaminhamento para tratamento endovascular.",
+   "admissão em unidade de terapia intensiva para estabilização.",
+   "administração de Alteplase, via endovenosa.",
+   "administração de ácido acetil salicílico e observação em unidade semi-intensiva."
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "AHA/ASA Guideline for the Early Management of Patients With Acute Ischemic Stroke, 2026",
+  "coment": "Déficit focal súbito (hemiparesia direita, disartria e dificuldade de compreensão) há 3 horas, TC sem sangramento, PA 120 x 80 mmHg e sem contraindicações: a paciente está na janela de 4,5 horas para trombólise intravenosa. A alteplase é feita em 0,9 mg/kg (máximo de 90 mg, 10% em bolus e o restante em 60 minutos); a tenecteplase 0,25 mg/kg em bolus é alternativa equivalente nas diretrizes atuais. A suspeita de oclusão de grande vaso pede angiotomografia, mas sem atrasar a trombólise, e a trombectomia se soma a ela.",
+  "porAlt": [
+   "A trombectomia exige confirmar oclusão de grande vaso por angiotomografia e não substitui a trombólise na paciente elegível.",
+   "Internar em UTI sem reperfusão desperdiça a janela terapêutica; a prioridade é o trombolítico.",
+   "Correta: dentro de 4,5 horas, TC sem hemorragia e PA controlada, está indicada a trombólise intravenosa com alteplase.",
+   "AAS é contraindicado nas 24 horas após trombólise e fica para quem não é elegível à reperfusão."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Mulher de 38 anos foi internada na enfermaria de clínica médica de hospital universitário de ampla complexidade, em função de quadro de fibrilação atrial paroxística com alta resposta ventricular, sem instabilidade hemodinâmica, mas associada a queixas recentes de emagrecimento não intencional, irritabilidade e tremores finos de extremidades. Na anamnese dirigida, a paciente confirmava a presença de intolerância ao calor, fadiga, fraqueza, amenorreia e hiperdefecação. Ao exame físico, além da taquiarritmia, foram observados bócio difuso (com sopro à ausculta local), exoftalmia, tremores palpebrais frequentes, mixedema pré-tibial e sobre o hálux direito, hipocratismo digital e pele quente e úmida. Administradas duas doses sequenciais, com intervalos de 5 minutos, de metoprolol intravenoso (5 mg), após redução da frequência cardíaca, ocorreu reversão da arritmia para o ritmo sinusal. Solicitados exames complementares, resultados revelaram TSH < 0,004 mUI/L (valor de referência: 0,5 a 4,5 mUI/L) e T4 livre = 4,2 ng/dL (valor de referência: 0,9 a 2,0 ng/dL). Além de ser mantido o tratamento com beta-bloqueador, considerando o fato de a paciente nunca ter sido previamente tratada de sua doença, a equipe médica optou por instituir terapêutica direcionada à inibição da função da enzima tireoperoxidase, reduzindo a oxidação e organificação do iodo na tireoide, além de promover a redução dos níveis de autoanticorpos circulantes. A intervenção terapêutica instituída nesse sentido foi",
+  "alts": [
+   "radioiodo.",
+   "dexametasona.",
+   "metimazol.",
+   "colestiramina."
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ATA Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis, 2016; ETA Guideline for the Management of Graves' Hyperthyroidism, 2018",
+  "coment": "Bócio difuso com sopro, oftalmopatia, mixedema pré-tibial e acropaquia, TSH suprimido e T4 livre elevado fecham doença de Graves. As tionamidas (metimazol e propiltiouracil) inibem a tireoperoxidase, bloqueando oxidação e organificação do iodo e o acoplamento das iodotirosinas, e têm efeito imunomodulador que reduz o TRAb ao longo do tratamento. O metimazol é a primeira escolha, ficando o propiltiouracil para o primeiro trimestre da gestação e a crise tireotóxica.",
+  "porAlt": [
+   "O radioiodo destrói o tecido tireoidiano por radiação e não inibe a tireoperoxidase; além disso pode piorar a oftalmopatia ativa.",
+   "A dexametasona reduz a conversão periférica de T4 em T3 e é usada na crise tireotóxica, sem ação sobre a tireoperoxidase.",
+   "Correta: o metimazol inibe a tireoperoxidase e reduz os autoanticorpos, sendo a droga de escolha na doença de Graves.",
+   "A colestiramina apenas reduz a circulação êntero-hepática dos hormônios tireoidianos, como adjuvante."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um paciente de 35 anos de idade, vivendo com HIV/AIDS há alguns anos, sem adesão à terapia antirretroviral indicada (TARV), é internado em hospital de média complexidade com quadro de tosse produtiva, febre e dor torácica, associados à imagem radiológica compatível com condensação em base direita, sendo iniciado tratamento com amoxicilina-clavulanato. Revendo os exames de admissão do paciente, o médico que o atende percebe que o infiltrado radiológico evolui com áreas de cavitação, o que o leva a considerar a hipótese diagnóstica de tuberculose pulmonar atípica, decorrente da presença de imunossupressão. Visando a proceder à investigação diagnóstica indicada no caso, a recomendação atual da Organização Mundial de Saúde é que o teste diagnóstico de 1.ª linha para tais pacientes com doença pulmonar ativa, tendo ainda a vantagem de detectar resistência antimicrobiana, seria",
+  "alts": [
+   "pesquisa de bacilo álcool-ácido resistente no escarro.",
+   "realização de ensaio de liberação de gama-interferon no sangue periférico.",
+   "amplificação automatizada de ácido nucleico (ensaio Xpert MTB/RIF) no escarro.",
+   "cultura de escarro (meio de Lowenstein-Jensen)."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "WHO consolidated guidelines on tuberculosis. Module 3: diagnosis, 2024; Manual de Recomendações para o Controle da Tuberculose no Brasil, Ministério da Saúde, 2019",
+  "coment": "A OMS recomenda os testes moleculares rápidos (como Xpert MTB/RIF e Xpert Ultra) como teste inicial para tuberculose pulmonar, no lugar da baciloscopia, porque são mais sensíveis e detectam resistência à rifampicina em cerca de 2 horas. O ganho é maior em pessoas vivendo com HIV, que têm doença frequentemente paucibacilar e baciloscopia pouco sensível. Nesse grupo a cultura com teste de sensibilidade continua indicada como complemento, e o LF-LAM urinário ajuda nos imunossuprimidos graves.",
+  "porAlt": [
+   "A baciloscopia tem baixa sensibilidade, sobretudo em pessoas com HIV, e não detecta resistência.",
+   "O IGRA detecta infecção pelo bacilo, não distingue doença ativa de latente e não informa resistência.",
+   "Correta: o Xpert MTB/RIF é o teste de primeira linha recomendado pela OMS e detecta resistência à rifampicina.",
+   "A cultura é o padrão de referência, mas demora semanas; é complementar ao teste molecular, não o teste inicial."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Numa Unidade Básica de Saúde, localizada em cidade de grande porte, são atendidos, no intervalo de 2 semanas, 3 casos de leptospirose em trabalhadores de limpeza e desentupimento de esgotos. No que se refere à vigilância ambiental, são ações previstas pelo Ministério da Saúde durante a investigação dos casos e após identificação do local provável de infecção",
+  "alts": [
+   "antirratização; desratização; e informação, educação e comunicação em saúde.",
+   "desratização; mutirão de limpeza; controle de comunicantes.",
+   "informação, educação e comunicação em saúde; busca ativa de casos; vacinação de bloqueio.",
+   "drenagem de coleções hídricas; sorologia nos comunicantes; quimioprofilaxia."
+  ],
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "Guia de Vigilância em Saúde, 6ª edição, volume 3, Ministério da Saúde, 2023",
+  "coment": "O Guia de Vigilância em Saúde define três ações de vigilância ambiental após identificar o local provável de infecção por leptospirose: antirratização (medidas que retiram dos roedores acesso a água, alimento e abrigo, como manejo de resíduos e vedação de acessos), desratização (eliminação direta com raticidas e armadilhas) e ações de informação, educação e comunicação em saúde. A leptospirose não se transmite de pessoa a pessoa e não há vacina humana, o que exclui bloqueio vacinal e controle de comunicantes.",
+  "porAlt": [
+   "Correta: antirratização, desratização e informação, educação e comunicação são as ações de vigilância ambiental previstas pelo Ministério da Saúde.",
+   "Controle de comunicantes não se aplica, pois a leptospirose não tem transmissão inter-humana.",
+   "Não há vacina humana contra leptospirose disponível na rede, logo não existe vacinação de bloqueio.",
+   "Sorologia de comunicantes e quimioprofilaxia não são ações de vigilância ambiental preconizadas nessa situação."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um homem de 27 anos de idade, homoafetivo, com atividade sexual ativa e passiva com múltiplos parceiros, ocasionalmente sem uso de preservativo, procura a Unidade Básica de Saúde com quadro arrastado de dor anorretal e tenesmo retal, associado à descarga anal mucopio-sanguinolenta, além de febre, calafrios, cefaleia, mal-estar, mialgias e \"íngua\" à direita. Segundo informa, o quadro iniciou-se há cerca de 7 dias. Nega infecções sexualmente transmissíveis recentes, tendo sua última relação sexual não protegida ocorrida 4 semanas antes. Nega ter observado qualquer lesão ulcerada genital ou anal no período. Suas vacinações estão em dia, mas nunca recebeu vacina contra o HPV. Ao exame físico, o paciente se apresenta em regular estado geral, febril, com presença de adenopatia inguinal supurativa unilateral, à direita, dando saída a secreção purulenta por diversos tratos fistulosos locais; os linfonodos são grandes, localizados acima e abaixo do ligamento inguinal de Poupard, sendo recobertos por pele inflamada, fina e fixa aos planos profundos. Anuscopia revela a saída de secreção piossanguinolenta local, com mucosa hiperemiada, sem úlceras locais, sendo o toque retal muito doloroso. É procedida punção de um linfonodo inguinal flutuante, sendo o material aspirado encaminhado para coloração pelo Gram e pesquisa em campo escuro, que posteriormente não mostraram a presença de bacilos Gram-negativos agrupados em correntes (tipo \"cardume de peixe\"), nem Treponema pallidum. Medicado com sintomáticos, o paciente retorna duas semanas após para saber os resultados, quando se queixa de ter surgido dificuldade para evacuar, exigindo muito esforço. Ao toque retal, é palpado um estreitamento concêntrico a cerca de 5 cm da margem anal. A melhor hipótese diagnóstica para o caso e uma forma através da qual, se disponível, poderia ser feito o diagnóstico definitivo de tal condição são",
+  "alts": [
+   "carcinoma escamoso de ânus; pesquisa de HPV à biópsia por retossigmoidoscopia.",
+   "linfogranuloma venéro; pesquisa por teste de amplificação de ácidos nucleicos no material da lesão inguinal.",
+   "doença de Crohn; colonoscopia com biópsia das lesões e pesquisa de anticorpo anti-Saccharomyces cerevisiae.",
+   "sarcoma de Kaposi anorretal; sorologia no sangue com pesquisa anticorpos anti-HHV8."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST), Ministério da Saúde, 2022",
+  "coment": "Homem que faz sexo com homens, com proctite (dor, tenesmo, secreção mucopiossanguinolenta), sintomas sistêmicos e bubão inguinal unilateral supurado, com múltiplos trajetos fistulosos e linfonodos acima e abaixo do ligamento inguinal (sinal do sulco), evoluindo com estenose retal: linfogranuloma venéreo, por Chlamydia trachomatis sorovares L1 a L3. Gram e campo escuro negativos afastam cancroide e sífilis. O diagnóstico é feito por teste de amplificação de ácidos nucleicos no material, e o tratamento é doxiciclina 100 mg de 12/12 horas por 21 dias.",
+  "porAlt": [
+   "Carcinoma escamoso de ânus não produz, em semanas, bubão inguinal supurado com febre e fístulas múltiplas.",
+   "Correta: proctite com bubão supurado e fistulizado em HSH caracteriza linfogranuloma venéreo, confirmado por NAAT para C. trachomatis.",
+   "Doença de Crohn não causa bubão inguinal supurativo, e o ASCA tem baixa acurácia, não fechando diagnóstico.",
+   "Sarcoma de Kaposi se apresenta como lesões violáceas, e o diagnóstico é histológico, não por sorologia para HHV-8."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um homem, com 20 anos de idade, desempregado, reside em casa de madeira com um cômodo junto com o pai, mãe e 5 irmãos. Ele procurou a Unidade de Saúde da Família, com queixa de tosse, febre e dispneia há mais ou menos 2 meses, inicialmente aos esforços e posteriormente em repouso. Nega tuberculose (TB) anterior. Relata que o pai teve tuberculose, porém abandonou o tratamento 2 vezes. Há 6 meses, foi solicitado investigação dos contatos, considerando o reingresso após abandono do tratamento do pai, porém nenhum dos membros da família compareceu à unidade para avaliação clínica e/ ou realizou os exames. No atendimento de hoje, o paciente realizou teste rápido (IgM/IgG) para COVID-19 com resultado negativo. Aplicando as evidências científicas, preceitos éticos e legais, assinale a afirmativa com a melhor conduta.",
+  "alts": [
+   "Realizar avaliação clínica, coletar e encaminhar 3 amostras de escarro para realizar baciloscopia de escarro, teste molecular rápido para a TB (TMR-TB) e cultura de escarro, solicitar raio-X, realizar o teste rápido para o HIV, orientar o uso de máscara de tecido, agendar nova consulta e investigar os contatos.",
+   "Realizar avaliação clínica, coletar e encaminhar 3 amostras de escarro para realizar baciloscopia de escarro, teste molecular rápido para a TB (TMR-TB) e cultura de escarro, solicitar raio-X, realizar o teste rápido para o HIV, orientar o uso de máscara de cirúrgica, investigar os contatos e encaminhar o paciente para o serviço de referência.",
+   "Realizar avaliação clínica, coletar e encaminhar 2 amostras de escarro para realizar teste molecular rápido para a TB (TMR-TB) e cultura de escarro, solicitar raio-X, realizar teste rápido para o HIV, orientar o uso de máscara cirúrgica, agendar nova consulta e investigar os contatos.",
+   "Realizar avaliação clínica, coletar e encaminhar 2 amostras de escarro para realizar baciloscopia e cultura de escarro, solicitar raio-X, realizar teste rápido para o HIV, orientar o uso de máscara N-95, agendar nova consulta e investigar os contatos."
+  ],
+  "gab": 2,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, Ministério da Saúde, 2019",
+  "coment": "Tosse, febre e dispneia há 2 meses em contato domiciliar de caso com abandono de tratamento: sintomático respiratório com risco de TB resistente. Onde há teste rápido molecular (TRM-TB), ele é o exame de escolha, detecta resistência à rifampicina e dispensa a baciloscopia; a cultura com teste de sensibilidade está indicada em contatos de casos com abandono ou resistência. Completam a conduta radiografia de tórax, teste rápido para HIV, máscara cirúrgica no paciente, investigação dos contatos e retorno na própria unidade.",
+  "porAlt": [
+   "Baciloscopia é redundante quando há TRM-TB, e máscara de tecido não é a indicada para o paciente com suspeita de TB.",
+   "Não há por que encaminhar à referência antes de confirmar TB ou resistência; a investigação é conduzida na APS.",
+   "Correta: TRM-TB e cultura em 2 amostras, radiografia, teste de HIV, máscara cirúrgica, retorno e investigação de contatos.",
+   "A máscara N95 é para o profissional, não para o paciente, e a omissão do TRM-TB perde a detecção rápida de resistência."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Uma paciente de 53 anos de idade comparece ao ambulatório de Clínica Médica onde faz acompanhamento regular de suas doenças crônicas não transmissíveis (DCNTS — hipertensão arterial sistêmica, diabetes mellitus e obesidade). Durante a consulta de seguimento, a paciente manifesta preocupação com um \"caroço\" que detectou há cerca de 1 mês em sua mama esquerda. Ela nega emagrecimento, dor local ou descarga mamilar. Além das medicações que faz uso em razão de suas DCNTs, a paciente vem em uso de terapia de reposição hormonal (TRH) desde que entrou na menopausa, há 12 anos. Ela tem 5 filhos, tendo sua menarca ocorrida de forma tardia (aos 15 anos). A paciente não fuma, nem consome álcool. Ao exame físico dirigido à queixa atual, o médico detecta a presença de lesão nodular de cerca de 2,5 cm, endurecida, não aderida a planos profundos e sem alterações cutâneas adjacentes, localizada no quadrante superior externo da mama esquerda; não são detectadas linfonodomegalias axilares ou supraclaviculares ipsilaterais. Considerando a hipótese diagnóstica principal de neoplasia maligna de mama, seus fatores de risco relacionados e sua rotina de investigação diagnóstica, assinale a alternativa correta.",
+  "alts": [
+   "O histórico de menarca tardia, menopausa precoce e gestações múltiplas são fatores de risco reconhecidos.",
+   "Diferentemente da terapia de contracepção conjugada (estrógeno e progestágeno), a TRH não é fator de risco para a doença.",
+   "Na idade da paciente, a realização de ressonância magnética local não aumenta a especificidade das informações obtidas com a mamografia.",
+   "A chance de a paciente apresentar mutação hereditária no gene BRCA1 é alta, particularmente se seu tumor coexpressar receptores de estrogênio, progestágeno e HER2."
+  ],
+  "gab": 2,
+  "tema": "onco",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Diretrizes para a Detecção Precoce do Câncer de Mama no Brasil, INCA/Ministério da Saúde, 2015",
+  "coment": "Nódulo endurecido de 2,5 cm em mulher de 53 anos é investigado com mamografia diagnóstica e ultrassonografia, seguidas de biópsia percutânea por agulha grossa. A ressonância tem alta sensibilidade, mas especificidade apenas moderada: gera falso-positivos e não acrescenta especificidade à mamografia, ficando para situações selecionadas. Quanto aos fatores de risco, TRH combinada prolongada (12 anos aqui) aumenta o risco, enquanto menarca tardia e multiparidade protegem. Tumores BRCA1 costumam ser triplo-negativos.",
+  "porAlt": [
+   "Menarca tardia e gestações múltiplas são fatores protetores; o risco aumenta com menopausa tardia, não precoce.",
+   "A terapia hormonal combinada na pós-menopausa aumenta o risco de câncer de mama, proporcionalmente à duração do uso.",
+   "Correta: a ressonância tem especificidade moderada e não aumenta a especificidade da mamografia nessa investigação.",
+   "Tumores associados a BRCA1 são tipicamente triplo-negativos, e sem história familiar ou idade jovem a chance de mutação é baixa."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um paciente, em tratamento para infecção por HIV há 5 anos, com boa aderência ao tratamento e carga viral indetectável em exame realizado há 1 mês, procurou a Unidade Básica de Saúde para consulta médica. O médico no atendimento verificou que o paciente trouxe resultado de exame de escarro que mostrou a presença de bacilo álcool ácido resistente (valor de referência: negativo) feito há 10 dias. Foi verificado que a cultura ainda não havia ficado pronta. Frente a esse caso, o médico deveria",
+  "alts": [
+   "suspender o tratamento contra a infecção pelo HIV e iniciar o tratamento de tuberculose.",
+   "manter o tratamento contra a infecção pelo HIV e iniciar o tratamento de tuberculose antes do resultado da cultura.",
+   "suspender o tratamento contra a infecção pelo HIV e iniciar o tratamento de tuberculose apenas após o resultado da cultura.",
+   "suspender o tratamento contra a infecção pelo HIV e iniciar o tratamento de tuberculose de imediato."
+  ],
+  "gab": 1,
+  "tema": "infecto",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "PCDT para Manejo da Infecção pelo HIV em Adultos, Ministério da Saúde, 2024; Manual de Recomendações para o Controle da Tuberculose no Brasil, Ministério da Saúde, 2019",
+  "coment": "Baciloscopia positiva no escarro confirma tuberculose pulmonar para fins de tratamento: o esquema RIPE deve começar de imediato, sem esperar a cultura, que servirá para identificar a espécie e testar sensibilidade. Em pessoa vivendo com HIV em TARV e carga viral indetectável, a TARV é mantida, porque suspendê-la causaria rebote viral e piora imunológica. O ajuste necessário é por interação: a rifampicina reduz o dolutegravir, que passa a 50 mg de 12/12 horas durante o tratamento.",
+  "porAlt": [
+   "Suspender uma TARV eficaz provoca rebote viral e queda de CD4, sem nenhum benefício para o tratamento da tuberculose.",
+   "Correta: mantém-se a TARV, com ajuste das interações, e inicia-se o RIPE sem aguardar a cultura.",
+   "Suspender a TARV é inadequado, e aguardar a cultura atrasa em semanas o tratamento de uma TB bacilífera.",
+   "Iniciar a TB de imediato é certo, mas suspender a TARV com carga viral indetectável é erro."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Um homem de 67 anos de idade, tabagista inveterado (carga tabágica = 82 maços-ano), retorna ao ambulatório de clínica médica para trazer os resultados dos exames complementares que haviam sido solicitados na sua última consulta, quando havia se queixado de dispneia aos esforços e tosse crônica produtiva. Reunindo os dados da anamnese e do exame físico, o médico que o atendera considerou como mais provável o diagnóstico de doença pulmonar obstrutiva crônica (DPOC), solicitando, entre outros exames, a realização de uma espirometria. No resultado desse exame, foram registrados os valores do volume expiratório forçado no 1.º segundo (VEF1), da capacidade vital (CVF), da relação VEF1/CVF, do FEF25-75 (fluxo medioexpiratório forçado entre 25% e 75% da CVF) e a resposta ao estímulo com broncodilatador (REB). Para confirmar tal impressão diagnóstica, o resultado que deve estar indispensavelmente presente em sua espirometria é",
+  "alts": [
+   "FEF25-75 superior a 100% do previsto.",
+   "REB com aumento do VEF1 maior que 200 mL.",
+   "VEF1 inferior a 80% do previsto antes ou após broncodilatador.",
+   "VEF1/CVF inferior a 0,7 mesmo após broncodilatador."
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Global Initiative for Chronic Obstructive Lung Disease (GOLD), 2026",
+  "coment": "O diagnóstico de DPOC exige, em paciente com sintomas respiratórios e exposição (82 maços-ano), obstrução persistente ao fluxo aéreo na espirometria: relação VEF1/CVF menor que 0,70 após broncodilatador. O VEF1 em porcentagem do previsto não faz o diagnóstico, apenas gradua a gravidade (GOLD 1 a 4), e o GOLD 1 tem VEF1 de 80% ou mais. A resposta ao broncodilatador não é necessária e pode ocorrer na própria DPOC.",
+  "porAlt": [
+   "FEF25-75 elevado não confirma DPOC, e quando reduzido é achado inespecífico de pequenas vias aéreas.",
+   "Resposta ao broncodilatador não é critério diagnóstico de DPOC e pode estar presente ou ausente.",
+   "VEF1 abaixo de 80% gradua gravidade e também ocorre em distúrbio restritivo; não define obstrução.",
+   "Correta: VEF1/CVF menor que 0,70 após broncodilatador é o critério indispensável para confirmar DPOC."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ },
+ {
+  "q": "Uma mulher de 38 anos de idade é admitida na enfermaria de cardiologia de hospital de alta complexidade, em função de quadro de dispneia progressiva, ortopneia e dispneia paroxística noturna. Segundo a paciente informa, seus sintomas anteriores iniciaram-se há cerca de 1 ano, tendo progredido ao longo do período. Procurou assistência médica em algumas ocasiões, sendo finalmente internada para realização de exames complementares e definição diagnóstica. Em sua história patológica pregressa, há relato de dois episódios de febre reumática na adolescência, num dos quais foi detectado um \"sopro no coração\". Fez uso de penicilina benzatina de forma mensal, mas irregular, até os 18 anos de idade. Nega outros dados relevantes de anamnese. Ao exame físico, paciente está em bom estado geral, em atitude ortopneica. Não há febre. PA = 120 x 70 mmHg; FC = 87 bpm. Ritmo cardíaco é irregular, em 2 tempos, com 1.ª bulha hiperfonética e presença de sopro diastólico (2+/6+) em ponta, melhor audível em semi-decúbito lateral esquerdo; um ruído protodiastólico curto, de alta frequência, é também auscultado no foco mitral, mas não se observa reforço do ruflar diastólico. Há anicardiosfigmia. Não é detectada turgência jugular a 45°. Estertores crepitantes finos são auscultados em bases. Não há congestão hepática, nem edema de MMII. Exames complementares iniciais (incluindo VHS) revelam-se normais, sendo a pesquisa de ASLO e swab de orofaringe negativos para infecção por Streptococcus pyogenes. Eletrocardiograma revela ritmo de fibrilação atrial, com QT normal. Diante dos dados relatados, a melhor explicação para o quadro da paciente é",
+  "alts": [
+   "insuficiência valvar aórtica.",
+   "estenose mitral reumática.",
+   "cardite reumática aguda.",
+   "endocardite infecciosa de septo interventricular."
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Atualização das Diretrizes Brasileiras de Valvopatias (SBC), 2020; ESC/EACTS Guidelines for the management of valvular heart disease, 2025",
+  "coment": "Mulher jovem com febre reumática prévia, B1 hiperfonética, ruflar diastólico em ponta melhor audível em decúbito lateral esquerdo e estalido de abertura mitral (ruído protodiastólico curto e agudo): estenose mitral reumática. A ausência de reforço pré-sistólico se explica pela fibrilação atrial, que elimina a contração atrial e produz o déficit de pulso descrito no exame. Dispneia e ortopneia refletem congestão pulmonar. VHS normal e ASLO negativo afastam atividade reumática.",
+  "porAlt": [
+   "A insuficiência aórtica gera sopro diastólico aspirativo em foco aórtico, pulsos amplos e pressão divergente, não ruflar com estalido.",
+   "Correta: B1 hiperfonética, estalido de abertura e ruflar em ponta com FA, após febre reumática, caracterizam estenose mitral reumática.",
+   "Cardite aguda exigiria atividade inflamatória (VHS e PCR elevadas, febre), e aqui as provas são normais.",
+   "Não há febre, provas inflamatórias alteradas nem hemoculturas que sustentem endocardite infecciosa."
+  ],
+  "fonte": {
+   "banca": "Revalida (INEP/MEC)",
+   "ano": 2021,
+   "prova": "Revalida 2021"
+  }
+ }
+]
