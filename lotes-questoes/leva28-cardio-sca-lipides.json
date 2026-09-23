@@ -1,98 +1,98 @@
 [
  {
-  "q": "Mulher de 63 anos, diabética, chega com dor torácica em aperto há 4 horas, em repouso. O eletrocardiograma mostra infradesnivelamento de ST de 1,5 mm em V4 a V6 e a troponina ultrassensível está elevada, com curva ascendente. Está estável, sem sinais de insuficiência cardíaca. Qual é a conduta?",
+  "q": "Mulher de 63 anos, diabética e hipertensa, chega com dor torácica em aperto há 4 horas, em repouso, com náusea. Está com pressão de 128/78 mmHg, frequência de 96 bpm e ausculta normal. O eletrocardiograma mostra infradesnivelamento de ST de 2 mm em V4 a V6, DI e aVL. A troponina de alta sensibilidade é de 240 ng/L na chegada e 680 ng/L após 1 hora. O escore GRACE é de 152 pontos. Está sem dor após nitrato e morfina. Qual é a conduta?",
   "alts": [
-   "Liberar após alívio da dor, com reavaliação ambulatorial marcada para dentro de trinta dias.",
-   "Internar sempre com antiagregação, anticoagulação e coronariografia precoce em 24 horas.",
-   "Administrar fibrinolítico imediatamente, indicado sempre que a troponina estiver elevada.",
-   "Solicitar teste ergométrico ainda hoje, antes de qualquer decisão sobre internação da paciente.",
-   "Apenas observar por doze horas sem medicação, repetindo o eletrocardiograma antes da alta."
+   "Coronariografia em até 24 horas",
+   "Coronariografia imediata, em menos de 2 horas",
+   "Fibrinólise imediata",
+   "Estratégia conservadora com teste funcional em 72 horas",
+   "Coronariografia eletiva ambulatorial"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "European Society of Cardiology, 2023 — Guidelines for the management of acute coronary syndromes",
-  "coment": "Trata-se de síndrome coronariana aguda sem supradesnivelamento de ST com troponina elevada, ou seja, infarto sem supra. A conduta é internação com dupla antiagregação conforme a estratégia planejada, anticoagulação parenteral e estratificação invasiva precoce, com coronariografia em até 24 horas nos pacientes de alto risco — critério que a elevação de troponina já preenche. Fibrinolítico é contraindicado na síndrome sem supra de ST: não há benefício e há risco de sangramento. Teste ergométrico é contraindicado em quadro instável com troponina positiva.",
+  "base": "ACC/AHA 2025 e ESC 2023. SCA sem supra: estratificação e tempo da coronariografia",
+  "coment": "É síndrome coronariana aguda sem supradesnivelamento de risco alto: troponina com curva ascendente e GRACE acima de 140. A recomendação é estratégia invasiva precoce, em até 24 horas. A estratégia imediata, em menos de 2 horas, é reservada ao risco muito alto (instabilidade hemodinâmica, arritmia grave, dor refratária ou insuficiência cardíaca aguda), ausente aqui.",
   "porAlt": [
-   "Liberar paciente com troponina em curva ascendente e dor em repouso arrisca infarto extenso e morte súbita.",
-   "Correta: infarto sem supra de ST é de alto risco e exige internação, antitrombóticos e coronariografia em até 24 horas.",
-   "O fibrinolítico não tem indicação na síndrome sem supra de ST, onde acrescenta sangramento sem benefício.",
-   "Teste ergométrico é formalmente contraindicado em síndrome coronariana instável com marcador já elevado.",
-   "Observar sem antitrombótico em quadro de alto risco desperdiça o tratamento que reduz eventos nas primeiras horas."
+   "Correta: risco alto pelo GRACE e pela curva de troponina.",
+   "O risco muito alto exige instabilidade, que ela não apresenta.",
+   "Não há supradesnivelamento: fibrinólise é contraindicada e pode causar dano.",
+   "A conservadora é para risco baixo.",
+   "Adiar para o ambulatório em risco alto aumenta eventos."
   ]
  },
  {
-  "q": "Homem de 55 anos, sem doença cardiovascular estabelecida, tem LDL-colesterol de 168 mg/dL, hipertensão controlada e é tabagista. O risco cardiovascular calculado é alto. Qual é a conduta quanto ao tratamento hipolipemiante?",
+  "q": "Homem de 55 anos, hipertenso controlado com losartana, sem doença cardiovascular estabelecida e não diabético, tem LDL-colesterol de 168 mg/dL em duas dosagens, HDL de 42 mg/dL e triglicérides de 180 mg/dL. É tabagista de 15 cigarros por dia. Pressão de 132/82 mmHg, índice de massa corporal de 28 kg/m². O risco cardiovascular calculado em dez anos é de 18%. Qual é a conduta em relação ao lípide?",
   "alts": [
-   "Apenas orientar dieta por um ano, adiando qualquer estatina enquanto não houver evento clínico.",
-   "Iniciar fibrato como primeira escolha, classe preferida para já reduzir o LDL-colesterol elevado.",
-   "Iniciar estatina de alta potência, com meta de LDL definida pela categoria de risco do paciente.",
-   "Iniciar ezetimiba isolada, que reduz o LDL mais intensamente que qualquer estatina já disponível.",
-   "Prescrever ômega-3 em dose alta como monoterapia, medida suficiente para atingir a meta lipídica."
+   "Estatina de alta potência, meta de LDL abaixo de 70",
+   "Estatina de baixa potência, meta de LDL abaixo de 130",
+   "Apenas dieta e exercício por seis meses",
+   "Ezetimiba isolada como primeira escolha",
+   "Fibrato como primeira escolha para o LDL"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose — SBC, 2017/2019; ESC 2019",
-  "coment": "Em prevenção primária de alto risco, a estatina de alta potência é a base do tratamento, associada a mudanças de estilo de vida e, aqui, à cessação do tabagismo, que é a intervenção isolada de maior impacto neste paciente. As metas de LDL são progressivamente mais baixas conforme a categoria de risco, e a ezetimiba entra como associação quando a meta não é alcançada com estatina em dose otimizada. O fibrato atua sobretudo sobre triglicérides, não sendo a escolha para reduzir LDL, e o ômega-3 não substitui a estatina na prevenção de eventos.",
+  "base": "SBC 2025 e AHA/ACC (dislipidemia: metas por estrato de risco",
+  "coment": "Risco cardiovascular alto em prevenção primária) acima de 20% pelo escore global, ou entre 7,5% e 20% com agravantes como tabagismo e LDL acima de 160 mg/dL. Indica estatina de alta potência, com meta de LDL abaixo de 70 mg/dL e redução de pelo menos 50% do valor basal. A cessação do tabagismo é a outra medida de maior impacto.",
   "porAlt": [
-   "Adiar a estatina por um ano em paciente de alto risco acumula exposição ao LDL, que é causal na aterosclerose.",
-   "O fibrato reduz sobretudo triglicérides e tem efeito modesto sobre o LDL, não sendo a escolha nesse cenário.",
-   "Correta: alto risco cardiovascular indica estatina de alta potência com meta de LDL definida pela categoria de risco.",
-   "A ezetimiba isolada reduz bem menos o LDL que a estatina, e seu papel principal é como terapia associada.",
-   "O ômega-3 não substitui a estatina e não demonstrou reduzir eventos como monoterapia nessa indicação."
+   "Correta: risco alto exige estatina de alta potência e meta abaixo de 70 mg/dL.",
+   "Baixa potência não alcança a redução necessária nesse risco.",
+   "Adiar seis meses com LDL de 168 mg/dL e tabagismo não é prudente.",
+   "A ezetimiba entra associada, não isolada.",
+   "O fibrato trata hipertrigliceridemia, não é primeira escolha para LDL."
   ]
  },
  {
-  "q": "Homem de 70 anos com fibrilação atrial permanente e escore CHA₂DS₂-VA de 5 pontos será submetido a colonoscopia eletiva com possível polipectomia. Usa apixabana. Qual é a conduta quanto à anticoagulação no periprocedimento?",
+  "q": "Homem de 70 anos com fibrilação atrial permanente e escore CHA₂DS₂-VA de 5 pontos usa apixabana 5 mg duas vezes ao dia há três anos. Será submetido a colonoscopia com polipectomia programada em duas semanas, após achado de pólipo em rastreamento. A creatinina é de 1,0 mg/dL, com clearance estimado de 68 mL/min, hemoglobina de 13,8 g/dL e plaquetas de 210 mil. Não teve sangramento prévio, não tem prótese valvar nem evento embólico nos últimos três meses. Qual é a conduta com a anticoagulação?",
   "alts": [
-   "Suspender a apixabana por poucos dias conforme função renal e risco do procedimento, sem ponte.",
-   "Manter a apixabana sem qualquer interrupção, independentemente do risco hemorrágico do exame.",
-   "Suspender e fazer ponte com heparina de baixo peso molecular em todos os já anticoagulados.",
-   "Suspender a apixabana por trinta dias antes do exame, para garantir a normalização da coagulação.",
-   "Trocar por varfarina duas semanas antes do procedimento, o que facilita o controle da coagulação."
+   "Suspender a apixabana 48 horas antes, sem ponte",
+   "Suspender e fazer ponte com heparina de baixo peso",
+   "Manter a apixabana durante o procedimento",
+   "Suspender por sete dias antes do exame",
+   "Trocar por varfarina antes do procedimento"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "European Society of Cardiology, 2024 — manejo periprocedimento de anticoagulante oral direto na fibrilação atrial",
-  "coment": "Os anticoagulantes orais diretos têm meia-vida curta e previsível, o que dispensa a ponte com heparina na imensa maioria dos casos — a ponte aumenta sangramento sem reduzir eventos tromboembólicos, achado consistente em ensaio clínico. A suspensão é breve, tipicamente de um a dois dias antes de procedimento de risco hemorrágico baixo a moderado, ajustada pela função renal e pela droga. Trocar por varfarina antes de um procedimento é conduta oposta à racional: prolonga o tempo de exposição e complica o controle sem qualquer vantagem.",
+  "base": "ESC 2024. Fibrilação atrial: manejo periprocedimento dos anticoagulantes diretos",
+  "coment": "Polipectomia é procedimento de risco hemorrágico alto, o que exige interromper o anticoagulante direto, 48 horas antes com função renal preservada. A ponte com heparina não é feita com anticoagulantes diretos: eles têm início e fim de ação rápidos, e a ponte só aumenta sangramento sem reduzir embolia.",
   "porAlt": [
-   "Correta: suspende-se o anticoagulante direto por poucos dias conforme função renal e risco do exame, sem ponte com heparina.",
-   "Manter sem interrupção em procedimento com possibilidade de polipectomia expõe o paciente a sangramento evitável.",
-   "A ponte com heparina aumenta sangramento sem reduzir tromboembolismo e foi abandonada na maioria dos casos.",
-   "Trinta dias sem anticoagulação em escore de 5 pontos expõe o paciente a risco embólico alto e desnecessário.",
-   "Trocar por varfarina complica o controle, prolonga a interrupção efetiva e não traz vantagem periprocedimento."
+   "Correta: suspensão curta e sem ponte é o padrão com os diretos.",
+   "A ponte aumenta sangramento sem benefício embólico nos diretos.",
+   "Manter em procedimento de alto risco hemorrágico não é seguro.",
+   "Sete dias é intervalo desnecessariamente longo e expõe à embolia.",
+   "Trocar por varfarina complica o manejo sem qualquer ganho."
   ]
  },
  {
-  "q": "Mulher de 38 anos, previamente hígida, chega com dispneia e dor torácica após viagem longa de avião. Está com frequência de 112 bpm, saturação de 93% e pressão de 118/74 mmHg. O eletrocardiograma mostra taquicardia sinusal e a radiografia de tórax é normal. Qual é o próximo passo?",
+  "q": "Mulher de 38 anos, previamente hígida e em uso de contraceptivo oral, chega com dispneia súbita e dor torácica pleurítica após viagem de avião de 11 horas. Está com frequência de 112 bpm, frequência respiratória de 24 irpm, saturação de 92% em ar ambiente e pressão de 118/74 mmHg. Não há edema de membros inferiores nem sinais de trombose. O eletrocardiograma mostra taquicardia sinusal e a radiografia de tórax é normal. Qual é a conduta inicial?",
   "alts": [
-   "Aplicar sempre um escore de probabilidade e, se baixa, usar o dímero D para excluir a embolia.",
-   "Solicitar angiotomografia de tórax para todos os pacientes com dispneia após viagem prolongada.",
-   "Iniciar anticoagulação plena empírica sem qualquer estratificação de probabilidade clínica antes.",
-   "Solicitar apenas ecocardiograma transtorácico, exame que exclui com segurança a embolia pulmonar.",
-   "Liberar com analgesia, já que a radiografia de tórax normal afasta causa cardiopulmonar aguda grave."
+   "Angiotomografia de tórax",
+   "Dosar dímero D e liberar se negativo",
+   "Iniciar anticoagulação empírica e observar",
+   "Cintilografia de ventilação-perfusão",
+   "Ecocardiograma transtorácico"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r1",
-  "base": "European Society of Cardiology, 2019 — Guidelines for the diagnosis and management of acute pulmonary embolism",
-  "coment": "A investigação de embolia pulmonar começa pela probabilidade clínica, com escore de Wells ou de Genebra. Em probabilidade baixa ou intermediária, o dímero D negativo — idealmente com corte ajustado pela idade — exclui a doença com segurança e evita tomografia desnecessária, sua radiação e o contraste. Em probabilidade alta, o dímero D não deve ser usado e parte-se direto para a angiotomografia, com anticoagulação iniciada enquanto se aguarda. Radiografia normal não afasta embolia; ao contrário, é o achado mais comum na doença.",
+  "base": "AHA/ACC 2026 (tromboembolismo pulmonar: probabilidade pré-teste e angiotomografia",
+  "coment": "O escore de Wells é intermediário a alto) taquicardia acima de 100 bpm, imobilização recente e ausência de diagnóstico mais provável. Nessa faixa o dímero D perde valor de exclusão e a angiotomografia é o exame de escolha, com boa disponibilidade e acurácia. A hipoxemia com radiografia normal reforça a suspeita.",
   "porAlt": [
-   "Correta: estratificar a probabilidade primeiro e, se baixa ou intermediária, usar o dímero D para excluir a embolia.",
-   "Tomografia para todos expõe a radiação e contraste sem necessidade em quem poderia ser excluído pelo dímero D.",
-   "Anticoagular sem estratificar expõe ao sangramento pacientes que não têm a doença que se pretende tratar.",
-   "O ecocardiograma pode sugerir sobrecarga do ventrículo direito, mas um exame normal não exclui embolia pulmonar.",
-   "A radiografia normal é o achado mais comum na embolia pulmonar e não serve para afastar o diagnóstico."
+   "Correta: probabilidade não baixa exige imagem confirmatória.",
+   "O dímero D só exclui com probabilidade baixa ou intermediária pelo escore de dois níveis.",
+   "Anticoagular sem confirmar em paciente estável não é a conduta inicial.",
+   "A cintilografia é alternativa quando há contraindicação ao contraste.",
+   "O ecocardiograma não exclui embolia pulmonar."
   ]
  }
 ]

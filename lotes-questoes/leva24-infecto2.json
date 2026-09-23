@@ -1,98 +1,98 @@
 [
  {
-  "q": "Mulher de 24 anos, hígida e não gestante, tem disúria, polaciúria e urgência há dois dias, sem febre, sem dor lombar e sem corrimento vaginal. É o primeiro episódio no ano. Qual é a conduta correta?",
+  "q": "Mulher de 24 anos, hígida, não gestante, tem disúria, polaciúria e urgência há 2 dias, sem febre, dor lombar, corrimento ou prurido vaginal. Primeiro episódio no ano. Usa anticoncepcional oral. Sem alergias. Clearance normal. Fita urinária com nitrito e leucócitos positivos. Sem uso de antibiótico nos últimos 3 meses. Pesa 58 kg e teve relação sexual há 3 dias. Não tem história de pielonefrite. Qual é o tratamento mais adequado?",
   "alts": [
-   "Tratar empiricamente como cistite não complicada, sem necessidade de urocultura antes de iniciar.",
-   "Solicitar urocultura e aguardar o resultado por três dias antes de prescrever qualquer antimicrobiano.",
-   "Prescrever fluoroquinolona por sete dias, esquema preferido para cistite não complicada em mulheres.",
-   "Solicitar tomografia de vias urinárias antes do tratamento, para afastar complicação neste episódio.",
-   "Tratar com antimicrobiano por catorze dias, duração mínima recomendada em cada infecção urinária."
+   "Ciprofloxacino por 7 dias",
+   "Amoxicilina 500 mg por 3 dias",
+   "Ceftriaxona intramuscular e urocultura obrigatória",
+   "Nitrofurantoína 5 dias ou fosfomicina",
+   "Aguardar urocultura para tratar"
   ],
-  "gab": 0,
+  "gab": 3,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Infectious Diseases Society of America, 2011, atualizada; Harrison's Principles of Internal Medicine, 22ª edição, 2025",
-  "coment": "Na cistite não complicada de mulher jovem, hígida e não gestante, o diagnóstico é clínico e o tratamento é empírico, sem necessidade de urocultura prévia. As opções de primeira linha são nitrofurantoína por cinco dias, fosfomicina em dose única e sulfametoxazol-trimetoprima por três dias, onde a resistência local permitir. As fluoroquinolonas são reservadas por seleção de resistência e por eventos adversos, ficando como alternativa. A urocultura é indicada em falha terapêutica, recorrência, gestação, homens, suspeita de pielonefrite ou fatores de complicação.",
+  "base": "IDSA/ESCMID International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women, 2011; EAU Guidelines on Urological Infections, 2024",
+  "coment": "Cistite não complicada em mulher não gestante pode ser tratada empiricamente, sem urocultura obrigatória. A IDSA (2011) e o Ministério da Saúde recomendam como primeira linha nitrofurantoína 100 mg a cada 6 horas (ou a cada 12 horas na formulação de liberação lenta) por 5 dias, ou fosfomicina 3 g em dose única; sulfametoxazol-trimetoprima por 3 dias se a resistência local for abaixo de 20%. Fluoroquinolonas devem ser poupadas pelos efeitos adversos graves e pela resistência. Aminopenicilinas têm alta resistência em Escherichia coli.",
   "porAlt": [
-   "Correta: cistite não complicada em mulher jovem é diagnóstico clínico com tratamento empírico, sem urocultura prévia.",
-   "Aguardar três dias pela urocultura mantém a paciente sintomática sem necessidade e não muda a escolha inicial.",
-   "A fluoroquinolona é alternativa, e não preferência, por seleção de resistência e pelos alertas de segurança da classe.",
-   "A imagem não é indicada no primeiro episódio de cistite não complicada em paciente sem sinais de gravidade.",
-   "Catorze dias é duração de infecção complicada; a cistita simples se resolve com esquemas de um a cinco dias."
+   "Quinolona deve ser poupada na cistite não complicada.",
+   "Amoxicilina tem alta resistência em Escherichia coli.",
+   "Cistite simples não exige terapia parenteral nem cultura.",
+   "Cistite não complicada: nitrofurantoína por 5 dias ou fosfomicina em dose única.",
+   "Esperar a cultura prolonga sintomas sem necessidade."
   ]
  },
  {
-  "q": "Homem de 33 anos chega com febre, cefaleia intensa, rigidez de nuca e rebaixamento leve do sensório iniciados há 12 horas. Não há déficit focal, papiledema, convulsão nem imunossupressão. Qual é a sequência correta de condutas?",
+  "q": "Homem de 33 anos tem febre, cefaleia intensa, rigidez de nuca e fotofobia há 12 horas. Glasgow 14 (confuso), sem déficit focal, convulsão, papiledema ou imunossupressão, sem doença neurológica prévia. Pressão 118/72 mmHg, petéquias ausentes. Plaquetas e coagulograma normais. Hemoculturas colhidas agora. A tomografia só estaria disponível em 3 horas. Pesa 75 kg e não tem alergias. Não viajou e não teve contato com casos de meningite. Qual é a sequência mais adequada?",
   "alts": [
-   "Aguardar tomografia de crânio e o resultado da punção antes de iniciar qualquer antimicrobiano.",
-   "Iniciar o antimicrobiano só depois de confirmada a bactéria na cultura do líquor colhido.",
-   "Realizar punção lombar de imediato e iniciar antimicrobiano somente se o líquido estiver turvo.",
-   "Prescrever aciclovir isolado, cobrindo a causa mais provável de meningite comunitária no adulto.",
-   "Colher hemocultura, iniciar antimicrobiano e corticoide, e então realizar a punção lombar."
+   "Dexametasona e ceftriaxona já, e punção sem tomografia",
+   "Aguardar tomografia para puncionar e iniciar antibiótico",
+   "Antibiótico só após o resultado do liquor",
+   "Aciclovir isolado e punção após tomografia",
+   "Punção lombar e aguardar Gram para decidir antibiótico"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "Infectious Diseases Society of America, 2004, e Harrison's, 22ª edição, 2025 — meningite bacteriana aguda",
-  "coment": "Na suspeita de meningite bacteriana, cada hora de atraso do antimicrobiano piora o prognóstico. Sem indicação de tomografia prévia — que se reserva a imunossupressão, história de doença do sistema nervoso central, convulsão recente, papiledema, déficit focal ou alteração importante do sensório —, a sequência é colher hemoculturas, iniciar antimicrobiano empírico com dexametasona antes ou junto da primeira dose, e então realizar a punção lombar. Quando a tomografia é necessária, o antimicrobiano é iniciado antes dela, jamais depois. A dexametasona reduz sequela auditiva e mortalidade na etiologia pneumocócica.",
+  "base": "ESCMID Guideline: Diagnosis and Treatment of Acute Bacterial Meningitis, 2016; IDSA Practice Guidelines for Bacterial Meningitis, 2004",
+  "coment": "Na suspeita de meningite bacteriana, cada hora de atraso no antibiótico aumenta mortalidade. A ESCMID (2016) indica tomografia antes da punção apenas com déficit focal, convulsão nova, Glasgow abaixo de 10 ou imunossupressão grave; Glasgow 14 sem outros achados não exige. A sequência é colher hemoculturas, dar dexametasona 10 mg a cada 6 horas (antes ou junto da primeira dose) e ceftriaxona 2 g a cada 12 horas (com ampicilina se acima de 50 anos ou imunossuprimido; vancomicina onde houver pneumococo resistente) e puncionar logo, sem que a punção atrase o antibiótico.",
   "porAlt": [
-   "Aguardar imagem e resultado de líquor atrasa horas o antimicrobiano, e esse atraso se traduz em mortalidade.",
-   "Esperar a cultura leva dias e é incompatível com a velocidade de deterioração da meningite bacteriana aguda.",
-   "O aspecto macroscópico do líquor não decide tratamento: a suspeita clínica já obriga a iniciar antimicrobiano.",
-   "Aciclovir cobre encefalite herpética, mas não substitui a cobertura bacteriana na suspeita de meningite aguda.",
-   "Correta: sem indicação de imagem prévia, colhe-se hemocultura, inicia-se antimicrobiano com corticoide e então punciona-se."
+   "Suspeita de meningite sem indicação de imagem: dexametasona e ceftriaxona já, com punção lombar sem tomografia.",
+   "Esperar tomografia desnecessária atrasa o antibiótico.",
+   "Antibiótico não pode esperar o liquor.",
+   "O quadro é de meningite bacteriana, não só encefalite herpética.",
+   "Esperar o Gram atrasa o tratamento."
   ]
  },
  {
-  "q": "Homem de 41 anos recebe diagnóstico de infecção pelo HIV, com carga viral de 180.000 cópias e linfócitos T CD4 de 480 células/mm³. Está assintomático e sem infecção oportunista. Qual é a conduta quanto à terapia antirretroviral?",
+  "q": "Homem de 41 anos, assintomático, recebe diagnóstico de HIV com carga viral de 180 mil cópias/mL e CD4 de 480 células/mm³. HBsAg negativo, anti-HBs negativo, clearance de 102 mL/min, sem tuberculose ou infecção oportunista. Não usa anticonvulsivante ou antiácido com magnésio. Genotipagem pré-tratamento indisponível. Pesa 80 kg e não tem parceria sabidamente positiva. Deseja iniciar logo. Pelo PCDT do Ministério da Saúde de 2024, qual é o esquema inicial mais adequado?",
   "alts": [
-   "Iniciar a terapia antirretroviral em todos, independentemente da contagem de linfócitos T CD4.",
-   "Aguardar que a contagem caia abaixo de 350 células/mm³ antes de iniciar qualquer antirretroviral.",
-   "Iniciar somente se surgir alguma infecção oportunista definidora de síndrome da imunodeficiência.",
-   "Tratar apenas com profilaxia para pneumocistose, adiando a terapia antirretroviral por três meses.",
-   "Repetir a carga viral em seis meses e decidir o início conforme a velocidade de queda dos linfócitos."
+   "Aguardar CD4 abaixo de 350 para iniciar",
+   "Zidovudina, lamivudina e efavirenz",
+   "Lopinavir com ritonavir isolado",
+   "Dolutegravir isolado",
+   "Tenofovir, lamivudina e dolutegravir"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos — Ministério da Saúde, 2024",
-  "coment": "A recomendação vigente é iniciar terapia antirretroviral para todas as pessoas vivendo com HIV, independentemente da contagem de linfócitos T CD4, e o quanto antes — idealmente no mesmo dia do diagnóstico, quando houver condições. O benefício é duplo: reduz morbidade e mortalidade individuais e zera a transmissão sexual quando a carga viral se torna indetectável e assim se mantém. A espera por contagens baixas pertence a protocolos abandonados há mais de uma década, e adiar significa acumular dano imunológico e manter transmissibilidade.",
+  "base": "Ministério da Saúde, PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; INSIGHT START Study Group, NEJM, 2015",
+  "coment": "A terapia antirretroviral é indicada a todas as pessoas vivendo com HIV, independentemente do CD4 (START, TEMPRANO), com benefício individual e prevenção da transmissão (indetectável igual a intransmissível). O PCDT (2024) define como esquema inicial preferencial tenofovir, lamivudina e dolutegravir, que tem alta barreira genética e boa tolerância. Efavirenz e zidovudina não são preferenciais. Monoterapia ou inibidor de protease isolado favorecem resistência. Vacina contra hepatite B deve ser oferecida (anti-HBs negativo).",
   "porAlt": [
-   "Correta: a terapia é indicada para todas as pessoas com HIV, independentemente do CD4, e deve começar o quanto antes.",
-   "O limiar de 350 células pertence a protocolos abandonados; esperar acumula dano imunológico e mantém transmissão.",
-   "Aguardar infecção oportunista significa tratar apenas quando o dano já ocorreu, contrariando toda a evidência atual.",
-   "A profilaxia isolada não controla a replicação viral nem impede a progressão da imunodeficiência do paciente.",
-   "Repetir exames por seis meses adia sem motivo uma terapia cuja indicação já está estabelecida no diagnóstico."
+   "Terapia é indicada para todos, independentemente do CD4.",
+   "Zidovudina e efavirenz não são esquema preferencial.",
+   "Inibidor de protease isolado favorece resistência.",
+   "Monoterapia com dolutegravir não é esquema inicial.",
+   "Início de terapia no Brasil: tenofovir, lamivudina e dolutegravir."
   ]
  },
  {
-  "q": "Mulher de 68 anos, portadora de prótese valvar aórtica, chega com febre há três semanas, perda de peso e sopro novo. Hemoculturas seriadas são positivas para Staphylococcus aureus. Qual é o exame que deve ser priorizado e por quê?",
+  "q": "Mulher de 68 anos com prótese biológica aórtica há 4 anos tem febre há 3 semanas e sopro diastólico novo. Hemoculturas: Staphylococcus aureus sensível à oxacilina em 3 de 3 amostras. Ecocardiograma transesofágico: vegetação de 14 mm na prótese e abscesso perivalvar com fístula. Pressão 112/64 mmHg, sem insuficiência cardíaca descompensada, sem AVC. Recebe oxacilina, gentamicina e rifampicina. Pesa 62 kg, clearance de 58 mL/min. Eletrocardiograma com PR de 240 ms, novo. Qual é a conduta mais adequada?",
   "alts": [
-   "Ecocardiograma transesofágico, pela sensibilidade superior na avaliação de prótese valvar infectada.",
-   "Radiografia de tórax isolada, exame suficiente para o diagnóstico de endocardite infecciosa aguda.",
-   "Tomografia de crânio, indicada como primeiro exame diante de qualquer febre prolongada no idoso.",
-   "Ecocardiograma transtorácico apenas, que tem a mesma acurácia do transesofágico nesse contexto.",
-   "Cintilografia óssea, para localizar o foco infeccioso primário antes do estudo cardíaco dessa idosa."
+   "Manter antibiótico por 6 semanas e repetir ecocardiograma",
+   "Trocar para vancomicina e manter clínico",
+   "Cirurgia de urgência, nos próximos dias",
+   "Cirurgia eletiva após 6 semanas de antibiótico",
+   "Anticoagulação plena e observação"
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "infecto",
   "cenario": "enf",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "European Society of Cardiology, 2023 — Guidelines for the management of endocarditis",
-  "coment": "Em portador de prótese valvar com bacteriemia por Staphylococcus aureus, a suspeita de endocardite é alta e o ecocardiograma transesofágico é o exame de escolha: o transtorácico tem sensibilidade baixa em próteses, pela sombra acústica do material, e um exame negativo não afasta o diagnóstico. O transesofágico avalia melhor vegetações pequenas, abscesso de anel e deiscência. Bacteriemia por Staphylococcus aureus, sobretudo com material protético, exige investigação sistemática de foco endovascular, e a antibioticoterapia é prolongada e guiada pelo agente e pela suscetibilidade.",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC Guidelines for the management of endocarditis, 2023",
+  "coment": "Pela ESC (2023), endocardite com extensão perivalvar (abscesso, pseudoaneurisma, fístula) tem indicação de cirurgia de urgência (em 3 a 5 dias), pois é infecção não controlada. Endocardite de prótese por S. aureus também é fator de alto risco que favorece cirurgia precoce. Antibiótico isolado raramente esteriliza abscesso perivalvar. O esquema para prótese com S. aureus sensível inclui oxacilina e rifampicina por 6 semanas ou mais, com gentamicina nas 2 primeiras semanas. Anticoagulação não previne embolia na endocardite.",
   "porAlt": [
-   "Correta: em prótese valvar o transesofágico é o exame de escolha, pela baixa sensibilidade do transtorácico nesse cenário.",
-   "A radiografia de tórax não diagnostica endocardite e serve apenas para avaliar complicações pulmonares associadas.",
-   "A tomografia de crânio se justifica diante de sinais neurológicos, e não como primeiro exame de febre prolongada.",
-   "O transtorácico tem sensibilidade bem inferior em próteses, e um resultado negativo não afasta a endocardite.",
-   "A cintilografia óssea não é o passo inicial: a bacteriemia com prótese aponta o coração como foco a investigar."
+   "Abscesso perivalvar com fístula raramente se resolve com antibiótico isolado.",
+   "Agente sensível à oxacilina não justifica vancomicina.",
+   "Endocardite de prótese com abscesso e fístula: cirurgia de urgência.",
+   "Esperar 6 semanas com infecção não controlada aumenta mortalidade.",
+   "Anticoagulação não trata nem previne embolia na endocardite."
   ]
  }
 ]

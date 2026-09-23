@@ -1,242 +1,242 @@
 [
  {
-  "q": "Paciente com diabetes tipo 1 pergunta sobre monitorização glicêmica. Qual é a orientação atual?",
+  "q": "Homem de 29 anos com diabetes tipo 1 usa sensor de monitorização contínua de glicose há 3 meses. O relatório dos últimos 14 dias, com 94% de captura de dados, mostra tempo no alvo (70 a 180 mg/dL) de 58%, acima de 180 mg/dL de 34%, acima de 250 mg/dL de 12%, abaixo de 70 mg/dL de 8% e abaixo de 54 mg/dL de 2%. Glicose média de 172 mg/dL e coeficiente de variação de 41%. Usa glargina e asparte. Qual deve ser a prioridade do ajuste?",
   "alts": [
-   "Uma única glicemia capilar por semana é suficiente para o controle do diabetes tipo 1 no adulto agora.",
-   "Apenas hemoglobina glicada anual, sem qualquer monitorização glicêmica diária pelo próprio paciente agora.",
-   "Apenas glicosúria de fita urinária como método de monitorização recomendado no diabetes tipo 1 atual agora.",
-   "Nenhuma monitorização é necessária enquanto o paciente permanecer assintomático durante o tratamento agora.",
-   "Monitorização contínua de glicose ou capilar frequente, com metas sempre individualizadas de tempo no alvo."
+   "Reduzir hipoglicemias antes de tratar hiperglicemias",
+   "Aumentar a basal pelo tempo acima do alvo",
+   "Buscar glicada abaixo de 6,5% antes de tudo",
+   "Manter o esquema, pois o tempo no alvo passa de 50%",
+   "Trocar o sensor por glicemias capilares"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
-  "coment": "No diabetes tipo 1, a monitorização contínua de glicose é hoje recomendada como padrão sempre que disponível, com metas de tempo no alvo acima de setenta por cento e tempo abaixo do alvo inferior a quatro por cento. Quando não disponível, indica-se monitorização capilar frequente, tipicamente antes das refeições, ao deitar, antes e após exercício e diante de sintomas. A hemoglobina glicada complementa, mas não detecta variabilidade nem hipoglicemias.",
+  "base": "International Consensus on Time in Range, Diabetes Care, 2019; ADA Standards of Care in Diabetes, seção 6, 2025",
+  "coment": "O consenso internacional de tempo no alvo (2019), adotado pela ADA, define para a maioria dos adultos com diabetes: tempo entre 70 e 180 mg/dL acima de 70%, abaixo de 70 mg/dL menor que 4%, abaixo de 54 mg/dL menor que 1%, acima de 180 mg/dL menor que 25%, acima de 250 mg/dL menor que 5% e coeficiente de variação de 36% ou menos. A prioridade no ajuste começa pela hipoglicemia, sobretudo abaixo de 54 mg/dL, e pela variabilidade, antes de tratar a hiperglicemia.",
   "porAlt": [
-   "Uma medida semanal não permite ajuste de insulina nem detecção de hipoglicemias no tipo 1.",
-   "A hemoglobina glicada anual isolada não detecta variabilidade glicêmica nem hipoglicemias graves.",
-   "A glicosúria é método obsoleto, insensível e incapaz de detectar hipoglicemia no paciente.",
-   "A ausência de sintomas não exclui hipo ou hiperglicemias relevantes ao longo do dia.",
-   "Correta: monitorização contínua ou capilar frequente, com metas individualizadas de tempo no alvo."
+   "Tempo abaixo de 70 de 8% (meta abaixo de 4%), abaixo de 54 de 2% (meta abaixo de 1%) e variabilidade alta: hipoglicemia é a primeira prioridade.",
+   "Aumentar a basal agravaria hipoglicemias já acima da meta.",
+   "Meta de glicada muito baixa com hipoglicemias frequentes aumenta o risco.",
+   "A meta de tempo no alvo é acima de 70%.",
+   "O sensor é justamente o que mostra o problema."
   ]
  },
  {
-  "q": "Paciente em uso de insulina apresenta hipoglicemias noturnas recorrentes com hiperglicemia matinal. Qual é a conduta inicial?",
+  "q": "Mulher de 62 anos com diabetes tipo 2 usa insulina NPH 24 U antes do café e 20 U antes do jantar, às 19 horas, além de metformina. Relata acordar suada e com pesadelos de madrugada. Glicemias capilares: às 3 horas, entre 48 e 62 mg/dL; às 7 horas, entre 190 e 230 mg/dL; antes do almoço e do jantar, entre 120 e 160 mg/dL. Janta às 19h30 e não faz lanche noturno. Hemoglobina glicada de 7,6%, creatinina normal. Qual é a conduta mais adequada?",
   "alts": [
-   "Aumentar a dose da insulina basal noturna para corrigir a hiperglicemia observada pela manhã no paciente neste caso.",
-   "Revisar o esquema e a dose da insulina basal noturna, avaliando sempre alimentação, exercício e horário de aplicação.",
-   "Suspender completamente toda a insulina do paciente até a resolução espontânea das hipoglicemias noturnas agora.",
-   "Orientar refeição hipercalórica antes de dormir todas as noites como única medida corretiva do quadro neste caso.",
-   "Substituir toda a insulina por antidiabético oral em paciente com diabetes tipo 1 e hipoglicemias noturnas agora."
+   "Aumentar a NPH do jantar pela glicemia matinal",
+   "Acrescentar insulina regular ao deitar",
+   "Suspender a NPH noturna e manter a da manhã",
+   "NPH noturna às 22 horas e com dose menor",
+   "Associar glibenclamida antes do café"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
-  "coment": "Hipoglicemia noturna seguida de hiperglicemia matinal pode refletir excesso de insulina basal noturna, com hiperglicemia de rebote, ou simplesmente o fenômeno do alvorecer, e a distinção exige medidas na madrugada ou monitorização contínua. Aumentar a basal sem esclarecer agrava as hipoglicemias. A revisão inclui dose e horário da basal, tipo de insulina, alimentação noturna, exercício vespertino e técnica de aplicação e rodízio de locais.",
+  "base": "ADA Standards of Care in Diabetes, seção 9, 2025; Diretriz da Sociedade Brasileira de Diabetes, 2024",
+  "coment": "A NPH tem pico entre 4 e 8 horas: aplicada às 19 horas, age mais entre 23 e 3 horas e se esgota ao amanhecer. O resultado típico é hipoglicemia de madrugada e hiperglicemia de jejum, por rebote ou porque a insulina acabou. Aumentar a dose do jantar piora o problema. A ADA sugere levar a NPH noturna para a hora de dormir com dose menor ou trocar por análogo basal de ação prolongada, que causa menos hipoglicemia noturna.",
   "porAlt": [
-   "Aumentar a basal sem esclarecer a causa agrava as hipoglicemias noturnas do paciente.",
-   "Correta: revisar esquema, dose e horário da basal, avaliando alimentação, exercício e técnica.",
-   "Suspender toda a insulina no diabetes tipo 1 leva a cetoacidose em poucas horas.",
-   "A refeição hipercalórica noturna diária não corrige o esquema e piora o controle metabólico.",
-   "O paciente com diabetes tipo 1 depende de insulina e não pode ser tratado com oral isolado."
+   "Aumentar a NPH do jantar pioraria a hipoglicemia de madrugada.",
+   "Insulina rápida ao deitar agravaria a hipoglicemia noturna.",
+   "Suspender a dose noturna deixa a noite sem basal e piora o jejum.",
+   "Aplicar a NPH às 22 horas e com dose menor, ou trocar por análogo basal, desloca o pico e protege a madrugada.",
+   "Sulfonilureia aumenta o risco de hipoglicemia."
   ]
  },
  {
-  "q": "Paciente com diagnóstico recente de diabetes tipo 2 pergunta sobre exames de rastreio de complicações. Qual é a orientação?",
+  "q": "Homem de 52 anos recebe hoje o diagnóstico de diabetes tipo 2, com hemoglobina glicada de 7,8% em duas dosagens. Está assintomático. Pressão arterial 142/88 mmHg, índice de massa corporal de 30 kg/m². Não tem queixas visuais nem nos pés. Creatinina 0,9 mg/dL. Pergunta quais exames precisa fazer para complicações, pois leu que elas só aparecem depois de 10 anos de doença. Qual é a orientação correta?",
   "alts": [
-   "Rastrear complicações apenas após dez anos de diagnóstico do diabetes tipo 2 no paciente adulto nesse contexto.",
-   "Rastrear retinopatia, nefropatia e neuropatia já ao diagnóstico, repetindo sempre conforme o intervalo recomendado.",
-   "Rastrear apenas quando surgirem sintomas de complicação, sem qualquer avaliação sistemática programada neste caso.",
-   "Rastrear apenas complicações cardíacas, dispensando avaliação de retina, rins e nervos periféricos neste caso.",
-   "Não realizar qualquer rastreio, pois o diabetes tipo 2 não cursa com complicações microvasculares nesse contexto."
+   "Rastrear só após 5 anos de doença",
+   "Retina, rim e pés já no diagnóstico",
+   "Eletroneuromiografia anual de rotina",
+   "Apenas fundo de olho a cada ano",
+   "Cintilografia miocárdica de rotina"
   ],
   "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
-  "coment": "No diabetes tipo 2, o rastreio de complicações começa no diagnóstico, porque a hiperglicemia costuma preceder em anos o reconhecimento da doença. Avaliam-se fundo de olho com dilatação ou retinografia, relação albumina-creatinina urinária e taxa de filtração glomerular estimada, exame dos pés com teste de monofilamento e avaliação de risco cardiovascular. No tipo 1, o rastreio microvascular começa cinco anos após o diagnóstico.",
+  "base": "ADA Standards of Care in Diabetes, seções 11 e 12, 2025",
+  "coment": "Como o diabetes tipo 2 pode existir por anos antes do diagnóstico, a ADA recomenda, já no diagnóstico e depois anualmente: exame de retina (fundoscopia com dilatação ou retinografia), relação albumina/creatinina urinária e taxa de filtração glomerular, e exame dos pés com monofilamento de 10 g, sensibilidade vibratória e pulsos. No tipo 1, o primeiro exame de retina é feito em até 5 anos do início, e o rastreio renal a partir de 5 anos de doença. Teste de isquemia em assintomático não é recomendado.",
   "porAlt": [
-   "Aguardar dez anos perde complicações que já podem estar presentes no momento do diagnóstico.",
-   "Correta: rastrear retinopatia, nefropatia e neuropatia já ao diagnóstico, com repetição periódica.",
-   "Esperar sintomas significa diagnosticar complicações em fase avançada e pouco reversível.",
-   "O rastreio microvascular é tão necessário quanto a avaliação de risco cardiovascular do paciente.",
-   "O diabetes tipo 2 cursa com complicações microvasculares frequentes e potencialmente graves."
+   "No tipo 2, o diagnóstico costuma ser tardio, e complicações já podem estar presentes.",
+   "Tipo 2: fundo de olho, albuminúria, filtração glomerular e exame dos pés com monofilamento desde o diagnóstico.",
+   "Eletroneuromiografia não é exame de rastreio; usam-se monofilamento e vibração.",
+   "Rim e pés também precisam ser rastreados desde o início.",
+   "Rastreio de isquemia em assintomático não é recomendado."
   ]
  },
  {
-  "q": "Paciente com síndrome de Cushing suspeitada clinicamente. Qual é o exame de rastreio inicial?",
+  "q": "Mulher de 38 anos tem síndrome de Cushing confirmada por cortisol salivar noturno elevado em duas amostras e cortisol livre urinário 3 vezes o limite superior. ACTH plasmático de 64 pg/mL em duas dosagens. Ressonância de hipófise com contraste dinâmico mostra imagem hipocaptante duvidosa de 4 mm. Tomografia de tórax sem lesões. Potássio 3,9 mEq/L. Não usa corticoide por nenhuma via. Qual é o próximo passo para localizar a fonte de ACTH?",
   "alts": [
-   "Dosagem isolada de cortisol sérico matinal, exame que confirma sozinho o diagnóstico da síndrome de Cushing.",
-   "Ressonância de sela túrcica como exame inicial de rastreio antes de qualquer confirmação bioquímica do quadro.",
-   "Tomografia de adrenais como primeiro exame antes de qualquer avaliação hormonal do eixo do paciente agora.",
-   "Dosagem isolada de hormônio tireoestimulante como exame de rastreio inicial da síndrome de Cushing agora.",
-   "Cortisol salivar noturno, cortisol urinário de 24 horas ou teste de supressão com dexametasona em dose baixa."
-  ],
-  "gab": 4,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Diagnosis of Cushing's Syndrome, revisão 2023",
-  "coment": "O diagnóstico da síndrome de Cushing tem duas etapas: primeiro confirmar o hipercortisolismo, com pelo menos dois testes alterados entre cortisol salivar noturno, cortisol livre urinário de vinte e quatro horas e supressão com um miligrama de dexametasona; depois definir a causa, dosando ACTH e realizando imagem dirigida. Imagem antes da confirmação bioquímica leva a achados incidentais frequentes e a diagnósticos equivocados.",
-  "porAlt": [
-   "O cortisol sérico matinal isolado tem ampla variação e não confirma o hipercortisolismo.",
-   "A imagem antes da confirmação bioquímica leva a achados incidentais e conclusões equivocadas.",
-   "A tomografia de adrenais precede indevidamente a confirmação hormonal e a dosagem de ACTH.",
-   "O hormônio tireoestimulante avalia a tireoide e não tem papel no rastreio da síndrome de Cushing.",
-   "Correta: cortisol salivar noturno, cortisol urinário ou supressão com dexametasona em dose baixa."
-  ]
- },
- {
-  "q": "Paciente com diabetes tipo 2 em uso de insulina apresenta hipoglicemias graves recorrentes. Qual é a conduta?",
-  "alts": [
-   "Aumentar a dose de insulina para melhorar o controle glicêmico apesar das hipoglicemias graves recorrentes.",
-   "Manter exatamente o mesmo esquema e apenas orientar consumo de doces nas crises de hipoglicemia agora já.",
-   "Reduzir metas e simplificar o esquema, revisando sempre função renal, alimentação e uso de outros fármacos.",
-   "Suspender toda a monitorização glicêmica para reduzir a ansiedade do paciente diante das hipoglicemias.",
-   "Associar sulfonilureia em dose plena à insulina como estratégia para reduzir as hipoglicemias recorrentes."
+   "Adrenalectomia bilateral",
+   "Ressecção transesfenoidal da imagem de 4 mm",
+   "Cateterismo dos seios petrosos inferiores",
+   "PET com gálio-68 DOTATATE como primeiro exame",
+   "Tomografia de adrenais"
   ],
   "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
-  "coment": "A hipoglicemia grave recorrente é evento sentinela: obriga a rever metas, que devem ser afrouxadas, e a simplificar o esquema, preferindo análogos com menor risco. Investigam-se causas contribuintes — piora da função renal, redução da ingesta, perda de peso, insuficiência adrenal, gastroparesia, uso de álcool, sulfonilureias associadas — e trabalha-se a percepção de hipoglicemia, que se perde com episódios repetidos e aumenta o risco de novos eventos graves.",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Pituitary Society Consensus on diagnosis and management of Cushing's disease, Lancet Diabetes and Endocrinology, 2021",
+  "coment": "Com hipercortisolismo confirmado e ACTH normal ou alto, a causa é ACTH-dependente: doença de Cushing, em cerca de 80% dos casos, ou secreção ectópica. Com adenoma hipofisário de 10 mm ou mais e testes concordantes, pode-se ir direto à cirurgia; com lesão menor que 6 mm ou duvidosa, o consenso da Pituitary Society (2021) recomenda cateterismo bilateral dos seios petrosos inferiores. Gradiente central/periférico de 2 ou mais basal, ou de 3 ou mais após estímulo, confirma origem hipofisária.",
   "porAlt": [
-   "Aumentar a insulina diante de hipoglicemias graves multiplica o risco de evento fatal.",
-   "Manter o esquema sem mudanças perpetua episódios que já se mostraram graves e recorrentes.",
-   "Correta: reduzir metas e simplificar o esquema, revisando função renal, alimentação e outros fármacos.",
-   "Suspender a monitorização remove justamente a ferramenta que detecta e previne novos episódios.",
-   "A sulfonilureia aumenta o risco de hipoglicemia e agrava exatamente o problema apresentado."
+   "Adrenalectomia bilateral é último recurso, não passo diagnóstico.",
+   "Lesões menores que 6 mm podem ser incidentalomas; operar sem confirmar a origem arrisca cirurgia inútil.",
+   "ACTH-dependente com imagem menor que 6 mm ou duvidosa: cateterismo dos seios petrosos separa origem hipofisária de ectópica.",
+   "Imagem funcional para tumor ectópico entra se o cateterismo indicar fonte não hipofisária.",
+   "ACTH elevado indica causa dependente de ACTH; as adrenais são alvo, não origem."
   ]
  },
  {
-  "q": "Paciente com hipoglicemia em uso de sulfonilureia é atendido no pronto-socorro. Qual é o cuidado essencial?",
+  "q": "Homem de 84 anos com diabetes tipo 2 há 20 anos, doença renal crônica com filtração de 34 mL/min/1,73 m², insuficiência cardíaca e comprometimento cognitivo leve, mora com a filha. Usa glibenclamida 10 mg/dia, insulina NPH 18 U à noite e metformina 1 g/dia. Teve duas quedas com glicemias de 45 e 52 mg/dL no último mês, uma delas com atendimento no pronto-socorro. Hemoglobina glicada de 6,4%. Qual é a conduta?",
   "alts": [
-   "Alta imediata após a normalização da glicemia capilar em todos os pacientes em uso de sulfonilureia.",
-   "Observação prolongada após a correção, pois a hipoglicemia por sulfonilureia recorre sempre por horas.",
-   "Administrar apenas glicose oral e liberar sem qualquer período de observação clínica no serviço agora.",
-   "Administrar insulina para estabilizar o metabolismo do paciente após a correção da hipoglicemia inicial.",
-   "Suspender apenas a metformina e manter a sulfonilureia na mesma dose plena após a alta do paciente."
+   "Manter o esquema e orientar lanches",
+   "Aumentar a NPH noturna e suspender a metformina",
+   "Trocar a glibenclamida por glimepirida",
+   "Acrescentar acarbose para evitar picos",
+   "Suspender glibenclamida e aceitar glicada até 8%"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ADA Standards of Care in Diabetes, seção 13 (Older Adults), 2025; American Geriatrics Society Beers Criteria, 2023",
+  "coment": "Em idosos com múltiplas comorbidades, comprometimento cognitivo ou dependência, a ADA recomenda metas menos rígidas (glicada abaixo de 8,0% ou mesmo 8,5%, conforme a saúde) e desintensificação quando o tratamento causa hipoglicemia. Glibenclamida, de ação longa e excreção renal, é a sulfonilureia de maior risco e deve ser evitada no idoso pelos critérios de Beers. Glicada de 6,4% com hipoglicemias graves indica excesso de tratamento, não bom controle.",
+  "porAlt": [
+   "Manter sulfonilureia de ação longa com filtração reduzida perpetua as hipoglicemias.",
+   "Aumentar insulina com glicada de 6,4% agravaria as hipoglicemias.",
+   "Glimepirida também causa hipoglicemia; a meta e o esquema precisam ser revistos.",
+   "Acarbose não resolve a hipoglicemia e atrapalha tratá-la com sacarose.",
+   "Idoso frágil com hipoglicemia grave: desintensificar, suspender sulfonilureia e aceitar glicada abaixo de 8%."
+  ]
+ },
+ {
+  "q": "Mulher de 76 anos com doença renal crônica (filtração de 28 mL/min/1,73 m²) usa glibenclamida 5 mg/dia, iniciada há 1 semana em outro serviço. É trazida às 6 horas com rebaixamento de consciência e glicemia de 32 mg/dL. Recebeu 50 mL de glicose a 50%, acordou e comeu um lanche. Às 9 horas teve nova glicemia de 44 mg/dL, com sudorese; recebeu mais glicose a 50% e soro glicosado a 10%, mantendo glicemias de 60 a 70 mg/dL. Qual medida é a mais adequada para evitar recorrências?",
+  "alts": [
+   "Glucagon 1 mg intramuscular a cada hora",
+   "Octreotida subcutânea e internação com glicemia seriada",
+   "Alta com lanches a cada 3 horas",
+   "Hidrocortisona 100 mg endovenosa",
+   "Diazóxido como primeira escolha"
   ],
   "gab": 1,
   "tema": "endocrino",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; Ministério da Saúde — manejo das emergências glicêmicas, 2022",
-  "coment": "As sulfonilureias têm meia-vida longa e estimulam a secreção de insulina de forma prolongada, de modo que a hipoglicemia por essa classe recorre com frequência após a correção inicial, exigindo observação prolongada e por vezes infusão contínua de glicose. O risco é maior em idosos, na doença renal crônica, na baixa ingesta e no uso de fármacos que interagem. Após o episódio, a sulfonilureia deve ser suspensa ou substituída por classe mais segura.",
+  "base": "Goldfrank's Toxicologic Emergencies, 11ª edição, 2019",
+  "coment": "Glicose endovenosa estimula nova secreção de insulina pela célula beta exposta à sulfonilureia, e a hipoglicemia volta horas depois, sobretudo com fármaco de meia-vida longa e doença renal. A octreotida (50 a 100 µg subcutânea a cada 6 a 12 horas) inibe essa secreção e reduz a necessidade de glicose e as recorrências. A paciente deve ficar internada com glicemia seriada por pelo menos 24 horas sem hipoglicemia após a última glicose, e a sulfonilureia deve ser suspensa.",
   "porAlt": [
-   "A alta imediata arrisca recorrência da hipoglicemia em domicílio, com desfecho potencialmente fatal.",
-   "Correta: observação prolongada após a correção, pois a hipoglicemia por sulfonilureia recorre.",
-   "Glicose oral sem observação não protege contra a recorrência pela meia-vida longa do fármaco.",
-   "A insulina agrava a hipoglicemia e é exatamente o oposto do necessário nesse paciente.",
-   "Manter a sulfonilureia após hipoglicemia grave expõe o paciente a novo episódio semelhante."
+   "Glucagon estimula mais secreção de insulina e depende de glicogênio; não é a estratégia.",
+   "Hipoglicemia recorrente por sulfonilureia: octreotida inibe a secreção de insulina; internar e monitorar.",
+   "Glibenclamida com filtração reduzida tem efeito prolongado; alta precoce arrisca hipoglicemia fatal.",
+   "Não há insuficiência adrenal a tratar.",
+   "Diazóxido é menos eficaz e tem mais efeitos adversos que a octreotida."
   ]
  },
  {
-  "q": "Paciente com incidentaloma adrenal de 3 cm encontrado em tomografia. Qual é a conduta?",
+  "q": "Homem de 62 anos, hipertenso e com pré-diabetes, fez tomografia por cólica renal que mostrou nódulo adrenal esquerdo de 3,0 cm, homogêneo, com densidade de 6 unidades Hounsfield sem contraste. Não tem sinais clínicos de Cushing. Metanefrinas plasmáticas livres normais; relação aldosterona/renina normal, com potássio de 4,2 mEq/L. Teste de supressão com 1 mg de dexametasona: cortisol matinal de 3,2 µg/dL; ACTH de 8 pg/mL. Qual é a interpretação e a conduta?",
   "alts": [
-   "Indicar adrenalectomia imediata para todos os pacientes com incidentaloma adrenal de qualquer tamanho neste caso já.",
-   "Ignorar completamente o achado, pois nódulos adrenais nunca são funcionantes nem malignos no adulto neste caso.",
-   "Realizar biópsia percutânea do nódulo adrenal como primeiro passo em todos os casos identificados neste caso.",
-   "Avaliar função hormonal e características de imagem, definindo sempre seguimento ou cirurgia conforme o resultado.",
-   "Solicitar apenas repetição da tomografia em cinco anos, sem qualquer avaliação hormonal do paciente neste caso."
+   "Secreção autônoma possível; tratar comorbidades",
+   "Carcinoma adrenal provável; adrenalectomia",
+   "Feocromocitoma; bloqueio alfa e cirurgia",
+   "Cushing franco; adrenalectomia imediata",
+   "Nódulo não funcionante; alta do acompanhamento clínico"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ESE/ENSAT Clinical Practice Guideline on the management of adrenal incidentalomas, atualização 2023",
-  "coment": "Todo incidentaloma adrenal exige duas perguntas: é funcionante e é maligno. A avaliação hormonal inclui teste de supressão com um miligrama de dexametasona, metanefrinas plasmáticas ou urinárias e, se houver hipertensão ou hipocalemia, relação aldosterona-renina. A imagem avalia tamanho, densidade em unidades Hounsfield e washout. Lesões acima de quatro centímetros, com características suspeitas ou funcionantes, indicam cirurgia. Biópsia é excepcional e nunca precede a exclusão de feocromocitoma.",
+  "base": "European Society of Endocrinology Clinical Practice Guidelines on the management of adrenal incidentalomas, 2023",
+  "coment": "Nódulo adrenal homogêneo com densidade de 10 UH ou menos na tomografia sem contraste é adenoma benigno e dispensa nova imagem, pela diretriz da ESE (2023). Todo incidentaloma precisa de teste com 1 mg de dexametasona e metanefrinas, e de aldosterona se houver hipertensão ou hipocalemia. Cortisol pós-dexametasona abaixo de 1,8 µg/dL exclui secreção autônoma; entre 1,8 e 5,0 µg/dL, sem sinais de Cushing, define possível secreção autônoma de cortisol, associada a hipertensão, diabetes e eventos cardiovasculares. A conduta é rastrear e tratar essas comorbidades; adrenalectomia é decidida caso a caso.",
   "porAlt": [
-   "A adrenalectomia universal expõe a cirurgia desnecessária a lesões benignas e não funcionantes.",
-   "Incidentalomas podem ser funcionantes ou malignos e exigem avaliação sistemática obrigatória.",
-   "A biópsia é excepcional e jamais precede a exclusão bioquímica de feocromocitoma, pelo risco de crise.",
-   "Correta: avaliar função hormonal e características de imagem para definir seguimento ou cirurgia.",
-   "Repetir imagem em cinco anos sem avaliação hormonal perde lesões funcionantes tratáveis."
+   "Cortisol entre 1,8 e 5 µg/dL sem sinais de Cushing: possível secreção autônoma; tratar hipertensão, diabetes e osteoporose e decidir cirurgia caso a caso.",
+   "Densidade abaixo de 10 UH em nódulo homogêneo indica adenoma rico em lipídio.",
+   "Metanefrinas normais afastam feocromocitoma.",
+   "Sem fenótipo clínico e com cortisol de 3,2 µg/dL, não é Cushing franco.",
+   "Há produção autônoma de cortisol a considerar; não é caso de alta."
   ]
  },
  {
-  "q": "Paciente com tireotoxicose grave, febre, taquicardia importante e agitação após infecção. Qual é a conduta?",
+  "q": "Mulher de 38 anos com doença de Graves que abandonou o metimazol há 3 meses é trazida com febre de 39,8 °C, agitação, vômitos, diarreia e dispneia após pneumonia. Frequência cardíaca de 164 bpm em fibrilação atrial, pressão arterial 104/60 mmHg, estertores em bases. T4 livre acima de 7,7 ng/dL, TSH suprimido, bilirrubina 2,4 mg/dL. Escore de Burch-Wartofsky de 70. Fração de ejeção estimada de 45% ao ultrassom. Qual é a sequência terapêutica correta?",
   "alts": [
-   "Administrar iodo antes da tionamida para acelerar o bloqueio da síntese hormonal na crise tireotóxica agora.",
-   "Prescrever apenas antitérmico e observar clinicamente por vinte e quatro horas antes de qualquer tratamento.",
-   "Indicar tireoidectomia de urgência em todos os pacientes com crise tireotóxica antes de qualquer medida clínica.",
-   "Administrar levotiroxina em dose alta para estabilizar o eixo tireoidiano do paciente com tireotoxicose grave já.",
-   "Tratar a crise tireotóxica com tionamida, betabloqueador e iodo, mantendo sempre o intervalo correto entre eles."
+   "Iodo oral imediato e propiltiouracil algumas horas depois",
+   "Metimazol isolado e observação na enfermaria",
+   "Tionamida, iodo 1 hora depois, betabloqueador e corticoide",
+   "Iodo radioativo em caráter de urgência",
+   "Tireoidectomia de emergência antes dos fármacos"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "endocrino",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016 com revisão 2023",
-  "coment": "A crise tireotóxica é emergência com mortalidade elevada, desencadeada por infecção, cirurgia, trauma ou suspensão do antitireoidiano. O tratamento combina tionamida, preferencialmente propiltiouracila pelo bloqueio adicional da conversão periférica, betabloqueador para o controle adrenérgico, corticoide e iodo, que deve ser administrado pelo menos uma hora após a tionamida, para não fornecer substrato à síntese hormonal. Trata-se simultaneamente o fator precipitante.",
+  "base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis, 2016; Japan Thyroid Association and Japan Endocrine Society guidelines for thyroid storm, 2016",
+  "coment": "Crise tireotóxica (Burch-Wartofsky de 45 ou mais) é tratada em terapia intensiva com várias frentes: tionamida para bloquear a síntese (propiltiouracil, que também reduz a conversão de T4 em T3, ou metimazol), iodo inorgânico pelo menos 1 hora depois, para não servir de substrato, betabloqueador (propranolol ou esmolol, com cautela na disfunção ventricular e na hipotensão), hidrocortisona e tratamento do precipitante. A mortalidade ainda chega a 10% ou mais.",
   "porAlt": [
-   "Iodo antes da tionamida fornece substrato para síntese hormonal e pode agravar a tireotoxicose.",
-   "Antitérmico isolado com observação permite evolução para arritmia, choque e óbito do paciente.",
-   "A cirurgia é excepcional e exige controle clínico prévio, não sendo conduta inicial na crise.",
-   "A levotiroxina adiciona hormônio ao paciente já tireotóxico e agrava gravemente o quadro.",
-   "Correta: tionamida, betabloqueador e iodo, respeitando o intervalo obrigatório após a tionamida."
+   "Iodo antes da tionamida fornece substrato para mais síntese de hormônio.",
+   "Crise tireotóxica exige terapia intensiva e várias frentes, não tionamida isolada.",
+   "Tionamida para bloquear a síntese, iodo ao menos 1 hora depois, betabloqueador e hidrocortisona.",
+   "Iodo radioativo leva semanas para agir e pode piorar a tireotoxicose no início.",
+   "Cirurgia fica para falha do tratamento clínico, após estabilização."
   ]
  },
  {
-  "q": "Paciente com hipotireoidismo em uso de levotiroxina mantém TSH elevado apesar da dose adequada. Qual é a primeira hipótese?",
+  "q": "Mulher de 55 anos com hipotireoidismo por tireoidite de Hashimoto usa levotiroxina 125 µg/dia (1,8 µg/kg). O TSH era 2,0 mUI/L há 1 ano e hoje está em 14 mUI/L, com T4 livre no limite inferior. Diz não esquecer doses. Toma o comprimido às 7 horas com café com leite, junto com carbonato de cálcio e omeprazol, iniciados há 8 meses por osteopenia e dispepsia. Não houve troca de marca do comprimido. Qual é a conduta inicial?",
   "alts": [
-   "Necessidade imediata de triplicar a dose sem qualquer revisão da forma de administração do medicamento.",
-   "Má absorção ou erro na administração do fármaco, revisando sempre jejum, interações e adesão ao tratamento.",
-   "Diagnóstico incorreto de hipotireoidismo, que deve ser descartado e o tratamento suspenso de imediato.",
-   "Presença de hipertireoidismo mascarado, hipótese mais provável diante do TSH persistentemente elevado.",
-   "Necessidade de associar metimazol ao tratamento para normalizar o hormônio tireoestimulante elevado agora."
+   "Aumentar a levotiroxina para 175 µg/dia",
+   "Pesquisar doença celíaca antes de ajustar a dose",
+   "Trocar para liotironina",
+   "Tomar em jejum, 4 horas longe do cálcio",
+   "Levotiroxina endovenosa semanal"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; SBEM, 2022",
-  "coment": "A causa mais frequente de TSH persistentemente elevado apesar de dose aparentemente adequada é problema de adesão ou de absorção. A levotiroxina exige jejum, com intervalo de trinta a sessenta minutos antes do café, e afastamento de cálcio, ferro, inibidores de bomba de prótons, sais de alumínio e soja. Doenças que reduzem a absorção incluem doença celíaca, gastrite atrófica e infecção por Helicobacter pylori, e devem ser investigadas na falha persistente.",
+  "base": "American Thyroid Association Guidelines for the Treatment of Hypothyroidism, 2014",
+  "coment": "A causa mais comum de TSH elevado com dose adequada de levotiroxina é a forma de tomar: com alimento ou café, ou junto de cálcio, ferro, antiácidos e sequestradores de ácidos biliares. Inibidores de bomba também reduzem a absorção. A ATA recomenda tomar o comprimido com água, 30 a 60 minutos antes do café da manhã (ou ao deitar, 3 horas após o jantar), separado por 4 horas de cálcio e ferro, e repetir o TSH em 6 semanas. Se persistir, investigar má absorção (doença celíaca, gastrite atrófica, H. pylori).",
   "porAlt": [
-   "Triplicar a dose sem revisar a administração arrisca tireotoxicose iatrogênica quando a adesão melhorar.",
-   "Correta: má absorção ou erro de administração, revisando jejum, interações e adesão ao tratamento.",
-   "O TSH elevado confirma o hipotireoidismo, e suspender o tratamento agravaria o quadro do paciente.",
-   "O TSH elevado é incompatível com hipertireoidismo primário, que cursa com TSH suprimido.",
-   "O metimazol trata hipertireoidismo e agravaria ainda mais o hipotireoidismo do paciente."
+   "Aumentar a dose sem corrigir a administração leva a supertratamento quando as interações forem removidas.",
+   "Doença celíaca entra se o TSH não normalizar após corrigir a administração.",
+   "Liotironina não resolve a interação e não é recomendada como monoterapia.",
+   "Café, leite, cálcio e omeprazol reduzem a absorção: tomar com água em jejum e separar o cálcio por 4 horas.",
+   "Via endovenosa é para situações específicas, não para interação medicamentosa."
   ]
  },
  {
-  "q": "Paciente com hiperglicemia detectada durante internação por infecção, sem diagnóstico prévio de diabetes. Qual é a conduta?",
+  "q": "Homem de 58 anos, sem diagnóstico prévio de diabetes, está internado há 2 dias por pneumonia comunitária, estável e alimentando-se bem por via oral. As glicemias capilares variam de 210 a 290 mg/dL, apesar de insulina regular por escala a cada 6 horas. Hemoglobina glicada de 8,9%. Peso de 80 kg, creatinina 1,0 mg/dL. Não usa corticoide. A alta está prevista para 3 dias. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar antidiabético oral em dose plena durante a internação como tratamento de escolha nesse paciente agora.",
-   "Ignorar a hiperglicemia durante a internação, pois ela decorre exclusivamente do estresse da infecção agora.",
-   "Firmar o diagnóstico definitivo de diabetes apenas com a glicemia elevada durante a internação aguda agora.",
-   "Controlar a glicemia com insulina durante a internação e reavaliar sempre o diagnóstico após a alta hospitalar.",
-   "Suspender toda a nutrição do paciente até a normalização espontânea da glicemia durante a internação agora."
+   "Insulina basal com prandial e correção",
+   "Manter só a escala de insulina regular",
+   "Metformina e glibenclamida na internação",
+   "Aguardar a alta para tratar a hiperglicemia",
+   "Insulina endovenosa contínua na enfermaria"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025, capítulo de cuidado hospitalar; Endocrine Society guideline on inpatient hyperglycemia, revisão 2022",
-  "coment": "A hiperglicemia hospitalar associa-se a pior desfecho e deve ser tratada, preferencialmente com insulina em esquema basal-bolus no paciente que se alimenta, evitando o esquema de correção isolado. As metas são de 140 a 180 mg/dL na maioria dos pacientes. O diagnóstico de diabetes não deve ser firmado apenas com glicemia de internação, mas a hemoglobina glicada colhida ajuda a distinguir hiperglicemia de estresse de diabetes prévio não reconhecido.",
+  "base": "ADA Standards of Care in Diabetes, seção 16 (Diabetes Care in the Hospital), 2025; Umpierrez et al., RABBIT 2 Trial, Diabetes Care, 2007",
+  "coment": "Glicada de 6,5% ou mais indica diabetes prévio não diagnosticado, e não apenas hiperglicemia de estresse. No hospital, a ADA recomenda metas de 140 a 180 mg/dL e, para quem se alimenta, esquema com insulina basal, prandial e de correção. A escala de insulina regular isolada foi inferior no estudo RABBIT 2 e não deve ser usada como tratamento único. Na alta, o tratamento é planejado conforme a glicada, com educação e seguimento.",
   "porAlt": [
-   "Antidiabéticos orais são geralmente suspensos na internação aguda por risco e resposta imprevisível.",
-   "A hiperglicemia hospitalar associa-se a pior desfecho e deve ser tratada, não ignorada.",
-   "O diagnóstico não se firma com glicemia de internação aguda, sendo útil a hemoglobina glicada.",
-   "Correta: controlar com insulina durante a internação e reavaliar o diagnóstico após a alta hospitalar.",
-   "Suspender a nutrição agrava o catabolismo e não é estratégia de controle glicêmico hospitalar."
+   "Paciente que come, com hiperglicemia persistente: basal, prandial e correção, cerca de 0,4 a 0,5 U/kg/dia.",
+   "Escala isolada reage à hiperglicemia sem preveni-la e não é recomendada como esquema único.",
+   "Sulfonilureia no hospital causa hipoglicemia, e antidiabéticos orais têm uso limitado na internação.",
+   "Hiperglicemia persistente acima de 180 mg/dL no hospital aumenta infecção e complicações.",
+   "Infusão endovenosa é para paciente crítico ou instável."
   ]
  }
 ]

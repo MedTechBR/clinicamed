@@ -1,242 +1,242 @@
 [
  {
-  "q": "Paciente com insuficiência cardíaca e fibrilação atrial de alta resposta ventricular, estável. Qual é a estratégia inicial?",
+  "q": "Mulher de 77 anos com insuficiência cardíaca de fração de ejeção de 35% e fibrilação atrial permanente comparece a consulta referindo cansaço aos esforços habituais. Está estável, sem congestão, com pressão de 118/72 mmHg e frequência cardíaca irregular em torno de 118 bpm em repouso. Já usa enalapril, espironolactona e dapagliflozina, com anticoagulação plena. O ecocardiograma não mostra valvopatia significativa. Qual é a estratégia inicial de controle?",
   "alts": [
-   "Controle de frequência com betabloqueador e anticoagulação, avaliando sempre estratégia de ritmo em casos selecionados.",
-   "Controle de frequência exclusivamente com bloqueador de canal de cálcio não di-hidropiridínico nesse paciente agora.",
-   "Digoxina isolada como primeira escolha para o controle de frequência em todos os pacientes descritos nesse contexto.",
-   "Cardioversão elétrica imediata em todos os pacientes estáveis com fibrilação atrial e insuficiência cardíaca agora.",
-   "Manter apenas antiagregante plaquetário isolado como estratégia de prevenção de embolia nesse paciente neste caso."
+   "Titular betabloqueador para controle de frequência",
+   "Iniciar amiodarona para controle de ritmo",
+   "Cardioversão elétrica eletiva",
+   "Iniciar diltiazem em dose plena",
+   "Ablação do nó AV com marca-passo"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC Atrial Fibrillation Guidelines, 2024; Diretriz Brasileira de Fibrilação Atrial — SBC, 2024",
-  "coment": "Na fibrilação atrial com insuficiência cardíaca e fração de ejeção reduzida, o controle de frequência usa betabloqueador, que também é pilar do tratamento da insuficiência cardíaca, com digoxina como adjuvante quando o controle é insuficiente. Bloqueadores de canal de cálcio não di-hidropiridínicos são contraindicados na fração de ejeção reduzida pelo efeito inotrópico negativo. A anticoagulação segue o escore de risco, e a ablação melhora desfechos em subgrupos.",
+  "base": "ESC 2024. Fibrilação atrial: controle de frequência na fração de ejeção reduzida",
+  "coment": "Na fibrilação atrial permanente com insuficiência cardíaca de fração reduzida, o betabloqueador é o fármaco de escolha para controle de frequência, reduz a resposta ventricular e é um dos pilares da própria insuficiência cardíaca. Os bloqueadores de canal de cálcio não di-hidropiridínicos são contraindicados por efeito inotrópico negativo.",
   "porAlt": [
-   "Correta: controle de frequência com betabloqueador e anticoagulação, com estratégia de ritmo em casos selecionados.",
-   "Os bloqueadores de canal de cálcio não di-hidropiridínicos são contraindicados na fração de ejeção reduzida.",
-   "A digoxina é adjuvante e não é a primeira escolha isolada para o controle de frequência.",
-   "A cardioversão imediata em paciente estável exige avaliação prévia de anticoagulação e duração.",
-   "O antiagregante isolado é insuficiente para a prevenção de embolia na fibrilação atrial."
+   "Correta: acumula controle de frequência e benefício na insuficiência cardíaca.",
+   "A amiodarona é opção de ritmo, não a estratégia inicial na permanente.",
+   "Cardioversão em fibrilação permanente sintomática por frequência não é o primeiro passo.",
+   "Diltiazem é contraindicado na fração de ejeção reduzida.",
+   "A ablação do nó com marca-passo é recurso de refratariedade."
   ]
  },
  {
-  "q": "Paciente com pneumonia e derrame pleural pequeno, sem sinais de complicação, em boa resposta ao antibiótico. Qual é a conduta?",
+  "q": "Mulher de 54 anos internada por pneumonia do lobo inferior direito recebe ceftriaxona e azitromicina há 48 horas, com queda da febre e da frequência respiratória. A radiografia em decúbito lateral mostra derrame pleural livre de 8 mm; à ultrassonografia, não loculado e anecoico. Leucócitos caindo de 18 mil para 12 mil. Proteína C reativa em queda. Saturação de 95% em ar ambiente. Sem dor pleurítica importante. Qual é a conduta mais adequada?",
   "alts": [
-   "Realizar drenagem torácica imediata em todos os pacientes com derrame pleural associado a pneumonia neste caso.",
-   "Suspender o antibiótico e apenas observar clinicamente a evolução do derrame pleural identificado no exame agora.",
-   "Manter o antibiótico com acompanhamento clínico e radiológico, reservando sempre a punção a sinais de complicação.",
-   "Indicar toracotomia com decorticação em todos os casos de derrame pleural parapneumônico não complicado agora.",
-   "Prescrever corticoide sistêmico em dose alta como tratamento definitivo do derrame pleural parapneumônico agora."
+   "Toracocentese diagnóstica guiada por ultrassom",
+   "Dreno torácico de pequeno calibre",
+   "Manter o antibiótico e acompanhar",
+   "Alteplase e dornase alfa intrapleurais",
+   "Videotoracoscopia precoce com decorticação"
   ],
   "gab": 2,
   "tema": "pneumo",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "BTS Pleural Disease Guideline, 2023; ATS/IDSA Guidelines for Community-Acquired Pneumonia, revisão 2023",
-  "coment": "O derrame parapneumônico simples — pequeno, de fluxo livre, com pH e glicose normais e sem crescimento bacteriano — resolve com o tratamento da pneumonia, sem necessidade de drenagem. A punção diagnóstica é indicada em derrames maiores, loculados, com espessura significativa ou diante de febre persistente e piora clínica. Sinais de complicação são pH abaixo de 7,20, glicose reduzida, cultura positiva, loculações e aspecto purulento.",
+  "nivel": "r1",
+  "base": "ACCP Consensus Statement: Medical and surgical treatment of parapneumonic effusions, 2000; BTS Guideline for Pleural Disease, 2023",
+  "coment": "Derrame parapneumônico pequeno e livre (menos de 10 mm na radiografia em decúbito lateral) em paciente com boa resposta ao antibiótico tem risco muito baixo de desfecho ruim (categoria 1 do ACCP) e não precisa de toracocentese. Toracocentese guiada por ultrassonografia é indicada em derrames maiores, loculados ou quando a evolução clínica não é boa. Derrame com pH abaixo de 7,2, pus, bacterioscopia ou cultura positivas pede drenagem.",
   "porAlt": [
-   "A drenagem universal expõe a complicações desnecessárias em derrames simples e pequenos.",
-   "Suspender o antibiótico com pneumonia em tratamento provoca recidiva e piora do quadro.",
-   "Correta: manter o antibiótico com acompanhamento, reservando a punção a sinais de complicação.",
-   "A decorticação é indicada em empiema organizado, e não em derrame simples não complicado.",
-   "O corticoide não trata o derrame parapneumônico e pode mascarar a evolução da infecção."
+   "Derrame livre menor que 10 mm com boa resposta não precisa de punção.",
+   "Sem sinais de complicação, dreno não é indicado.",
+   "Derrame pequeno e livre com boa resposta clínica: manter o antibiótico e acompanhar.",
+   "Fibrinolítico é para empiema loculado.",
+   "Cirurgia é para empiema organizado ou falha da drenagem."
   ]
  },
  {
-  "q": "Paciente com cetoacidose diabética apresenta potássio sérico de 3,1 mEq/L na admissão. Qual é a conduta?",
+  "q": "Mulher de 26 anos com diabetes tipo 1 foi internada por cetoacidose e recebe insulina regular endovenosa a 3 U/h com soro glicosado. Após 20 horas: pH 7,34, bicarbonato 20 mEq/L, ânion gap 10 mEq/L, beta-hidroxibutirato 0,4 mmol/L, glicemia 168 mg/dL e potássio 4,0 mEq/L. Está alerta, com fome, e aceitou o café da manhã. Antes da internação usava glargina 20 U/dia e lispro nas refeições. Qual é a conduta?",
   "alts": [
-   "Iniciar insulina imediatamente sem qualquer reposição de potássio no paciente com esse valor na admissão.",
-   "Não repor potássio em nenhum momento, pois a cetoacidose cursa com potássio corporal total elevado agora.",
-   "Administrar bicarbonato de sódio como medida prioritária antes de qualquer reposição de potássio no paciente.",
-   "Aguardar a normalização espontânea do potássio antes de iniciar qualquer hidratação endovenosa no paciente.",
-   "Repor potássio antes de iniciar a insulina, mantendo sempre a reposição durante todo o tratamento do paciente."
+   "Desligar a infusão e dar glargina à noite",
+   "Manter a infusão por mais 24 horas",
+   "Desligar a infusão e usar só escala",
+   "Glargina e desligar a bomba 2 horas depois",
+   "Reiniciar bicarbonato até pH de 7,4"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "uti",
-  "comp": "urg",
-  "nivel": "r3",
-  "base": "ADA/EASD consensus report on hyperglycaemic crises in adults, 2024",
-  "coment": "Na cetoacidose diabética o potássio corporal total está sempre depletado, mesmo quando o sérico está normal ou elevado, porque a acidose e a falta de insulina deslocam o íon para fora da célula. A insulina reverte esse deslocamento e pode precipitar hipocalemia grave com arritmia e parada respiratória. Por isso, com potássio abaixo de 3,3 mEq/L a insulina é adiada até a reposição, e acima disso repõe-se potássio junto à infusão de insulina.",
-  "porAlt": [
-   "Iniciar insulina com potássio abaixo de 3,3 pode precipitar arritmia e parada respiratória.",
-   "O potássio corporal total está depletado na cetoacidose, mesmo com sérico normal ou elevado.",
-   "O bicarbonato não é prioritário e pode agravar a hipocalemia ao deslocar potássio para a célula.",
-   "A hidratação é medida inicial obrigatória e não deve aguardar a normalização do potássio.",
-   "Correta: repor potássio antes da insulina e manter a reposição ao longo de todo o tratamento."
-  ]
- },
- {
-  "q": "Paciente com hepatite medicamentosa suspeitada em uso de múltiplos fármacos. Qual é a conduta inicial?",
-  "alts": [
-   "Manter todos os fármacos e apenas repetir os exames hepáticos após três meses de acompanhamento clínico.",
-   "Suspender todos os medicamentos simultaneamente, incluindo os essenciais e sem qualquer substituição indicada.",
-   "Suspender o agente mais provável e monitorar as enzimas, afastando sempre outras causas de lesão hepática.",
-   "Iniciar corticoide sistêmico em dose alta de rotina em todos os casos de hepatite medicamentosa suspeitada.",
-   "Indicar transplante hepático imediato em todos os pacientes com suspeita de hepatite induzida por fármaco."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "EASL Clinical Practice Guidelines on drug-induced liver injury, 2019 com revisão 2023; ACG Clinical Guideline on idiosyncratic DILI, 2021",
-  "coment": "A lesão hepática induzida por fármacos é diagnóstico de exclusão: afastam-se hepatites virais, doença hepática autoimune, doença biliar obstrutiva, isquemia e doença de Wilson, e avalia-se a relação temporal com cada agente, usando escalas de causalidade. A conduta é suspender o agente mais provável e monitorar as enzimas, mantendo os fármacos essenciais sem alternativa quando o risco é aceitável. Sinais de insuficiência hepática indicam avaliação para transplante.",
+  "base": "Hyperglycemic crises in adults with diabetes: a consensus report (ADA, EASD, JBDS, AACE, DTS), Diabetes Care, 2024",
+  "coment": "A cetoacidose está resolvida (pH de 7,3 ou mais, bicarbonato de 18 mEq/L ou mais, beta-hidroxibutirato abaixo de 0,6 mmol/L) e a paciente come. O consenso de 2024 recomenda aplicar insulina basal subcutânea e manter a infusão endovenosa por 1 a 2 horas, porque a insulina endovenosa age por poucos minutos. Quem já usava insulina pode retomar a dose prévia; no diagnóstico recente, estima-se 0,5 a 0,6 U/kg/dia. Aplicar a basal ainda durante a infusão, nas primeiras horas, também é aceito.",
   "porAlt": [
-   "Manter todos os fármacos por três meses arrisca progressão para insuficiência hepática aguda.",
-   "Suspender tudo simultaneamente pode descompensar condições essenciais e impede identificar o agente.",
-   "Correta: suspender o agente mais provável e monitorar as enzimas, afastando outras causas de lesão.",
-   "O corticoide de rotina não é indicado, ficando reservado a formas com componente autoimune.",
-   "O transplante se reserva à insuficiência hepática aguda grave, e não a toda suspeita de hepatite."
+   "A insulina endovenosa dura minutos; desligar sem basal ativa causa rebote de cetoacidose.",
+   "Cetoacidose resolvida e aceitação oral: prolongar a infusão não traz benefício.",
+   "Escala isolada não fornece insulina basal a quem tem diabetes tipo 1.",
+   "Resolvida a cetoacidose: basal subcutânea e infusão mantida por 1 a 2 horas, com prandial nas refeições.",
+   "Não há acidose a corrigir."
   ]
  },
  {
-  "q": "Paciente com queixa de fadiga crônica e exames iniciais normais. Qual é a conduta?",
+  "q": "Homem de 69 anos usou amoxicilina-clavulanato para sinusite e, 3 semanas depois do fim do tratamento, apresenta icterícia, prurido e colúria. Não bebe álcool e não usa outros medicamentos. ALT 180 U/L (limite superior de 40 U/L), fosfatase alcalina 620 U/L (limite superior de 120 U/L), bilirrubina total 7,4 mg/dL, INR 1,1. Sorologias para hepatites A, B, C e E negativas. Ultrassonografia sem dilatação de vias biliares. Como se classifica a lesão e qual é o agente mais provável?",
   "alts": [
-   "Aprofundar a anamnese e investigar sono, humor e fármacos, evitando sempre a solicitação indiscriminada de exames.",
-   "Solicitar bateria ampla de exames laboratoriais e de imagem repetidamente até encontrar alguma alteração agora.",
-   "Prescrever apenas complexo vitamínico contínuo sem qualquer investigação adicional da causa da fadiga crônica.",
-   "Afirmar que a fadiga é imaginária e encerrar o acompanhamento sem qualquer investigação ou seguimento neste caso.",
-   "Iniciar corticoide sistêmico contínuo em dose alta como tratamento empírico da fadiga crônica descrita agora."
+   "Hepatocelular; lesão pelo clavulanato é improvável",
+   "Colestática; amoxicilina-clavulanato é causa típica",
+   "Mista; hepatite autoimune é o diagnóstico provável",
+   "Hepatocelular; a latência afasta o antibiótico",
+   "Colestática; obstrução biliar pela icterícia"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Idiosyncratic Drug-Induced Liver Injury, 2021; EASL Clinical Practice Guidelines: Drug-induced liver injury, 2019",
+  "coment": "O fator R é a razão entre ALT e fosfatase alcalina, cada uma dividida por seu limite superior: (180/40) / (620/120) = 4,5 / 5,2 = 0,9. R de 5 ou mais é hepatocelular, entre 2 e 5 é misto e 2 ou menos é colestático. Amoxicilina-clavulanato é a causa mais comum de lesão hepática por fármaco em vários registros, tipicamente colestática ou mista em homens idosos, e pode começar semanas após o fim do tratamento. A conduta é não reexpor e acompanhar as enzimas; a recuperação pode levar meses.",
+  "porAlt": [
+   "Fator R de 0,9 não é hepatocelular, e o clavulanato é uma das principais causas de lesão hepática por fármaco.",
+   "Fator R abaixo de 2 define padrão colestático, o típico da amoxicilina-clavulanato, inclusive semanas após a suspensão.",
+   "Fator R entre 2 e 5 seria misto; aqui é 0,9.",
+   "Lesão por amoxicilina-clavulanato pode surgir semanas após o fim do tratamento.",
+   "Vias biliares sem dilatação afastam obstrução."
+  ]
+ },
+ {
+  "q": "Mulher de 42 anos tem cansaço há 5 meses, sono não reparador e dificuldade de concentração. Hemograma, TSH, glicemia, ferritina, vitamina B12, função renal e hepática, proteína C reativa e sorologia para HIV normais. Relata separação recente, choro fácil e perda de interesse nas atividades. Ronca pouco, índice de massa corporal de 23 kg/m², sem medicamentos novos. PHQ-9 de 15, sem ideação suicida. Qual é a conduta mais adequada?",
+  "alts": [
+   "Tratar o episódio depressivo e acompanhar",
+   "Ressonância de crânio e eletroneuromiografia",
+   "Sorologias amplas para vírus e autoimunidade",
+   "Polissonografia antes de qualquer tratamento",
+   "Suplementar vitamina D e zinco empiricamente"
   ],
   "gab": 0,
   "tema": "sus",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "NICE guideline NG206 — Myalgic encephalomyelitis/chronic fatigue syndrome, 2021; ACP guidance on fatigue evaluation, revisão 2023",
-  "coment": "A fadiga crônica com exames iniciais normais pede aprofundamento clínico, e não ampliação indiscriminada de exames, que produz achados incidentais e ansiedade. Investigam-se qualidade e distúrbios do sono, depressão e ansiedade, uso de fármacos e substâncias, apneia obstrutiva, condições de trabalho e sobrecarga, dor crônica e descondicionamento. A validação da queixa é essencial: a fadiga é real e incapacitante, mesmo quando não há alteração laboratorial.",
+  "base": "NICE guideline NG222: Depression in adults: treatment and management, 2022; Kroenke et al., The PHQ-9, Journal of General Internal Medicine, 2001",
+  "coment": "Fadiga crônica com exames básicos normais deve ser investigada pela anamnese: depressão, ansiedade, distúrbios do sono, fármacos e sobrecarga. Humor deprimido, anedonia e PHQ-9 de 15 indicam episódio depressivo moderado a grave. Pedir exames indiscriminados a partir daí aumenta falsos positivos e medicaliza o sofrimento. A conduta é tratar a depressão com psicoterapia e antidepressivo, reavaliar o risco de suicídio e acompanhar.",
   "porAlt": [
-   "Correta: aprofundar a anamnese e investigar sono, humor e fármacos, sem solicitar exames indiscriminadamente.",
-   "Repetir baterias amplas produz achados incidentais, ansiedade e cascatas diagnósticas desnecessárias.",
-   "O complexo vitamínico sem deficiência documentada não trata a causa e adia a investigação real.",
-   "Negar a validade da queixa rompe o vínculo e deixa o paciente sem qualquer cuidado adequado.",
-   "O corticoide empírico não trata fadiga crônica e traz toxicidade significativa sem benefício."
+   "Humor deprimido, anedonia e PHQ-9 de 15 com exames normais: episódio depressivo; tratar e reavaliar.",
+   "Não há sinais neurológicos que justifiquem esses exames.",
+   "Painéis amplos sem suspeita clínica geram achados falsos e ansiedade.",
+   "Sem ronco relevante, sobrepeso ou sonolência, apneia é improvável.",
+   "Suplementação empírica não trata a causa provável."
   ]
  },
  {
-  "q": "Paciente idoso hospitalizado apresenta constipação, retenção urinária e confusão após início de novo fármaco. Qual é a hipótese?",
+  "q": "Homem de 83 anos com hiperplasia prostática, internado por fratura de úmero, recebeu oxibutinina 5 mg três vezes ao dia há 3 dias por urgência miccional e prometazina à noite para dormir. Agora tem confusão flutuante, boca seca, pele quente, pupilas dilatadas, constipação e retenção urinária de 900 mL. Temperatura de 37,6 °C, frequência cardíaca de 108 bpm. Sem sinais de infecção. Qual é a hipótese e a conduta mais adequada?",
   "alts": [
-   "Efeito anticolinérgico do novo fármaco, exigindo sempre revisão da prescrição e suspensão do agente responsável.",
-   "Progressão natural da demência, hipótese mais provável diante do surgimento agudo desses sintomas no idoso.",
-   "Infecção urinária isolada, causa exclusiva da constipação e da retenção urinária surgidas após o novo fármaco.",
-   "Desidratação leve isolada, causa habitual de confusão com retenção urinária após introdução de novo medicamento.",
-   "Envelhecimento fisiológico normal, que explica integralmente o conjunto de sintomas surgidos de forma aguda."
+   "Síndrome anticolinérgica; suspender e sondar",
+   "Sepse urinária; antibiótico de amplo espectro",
+   "Síndrome serotoninérgica; ciproeptadina",
+   "Síndrome neuroléptica maligna; dantroleno",
+   "Demência de início agudo; donepezila"
   ],
   "gab": 0,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "AGS Beers Criteria, 2023; anticholinergic burden scales; NICE guideline CG103 — Delirium, revisão 2023",
-  "coment": "A tríade de constipação, retenção urinária e confusão após introdução de fármaco aponta carga anticolinérgica, efeito de antidepressivos tricíclicos, anti-histamínicos de primeira geração, antipsicóticos, antiespasmódicos, antimuscarínicos urinários e relaxantes musculares. No idoso, esses fármacos causam delirium, quedas, boca seca, visão turva e declínio cognitivo, e constam dos critérios de Beers. A conduta é revisar a prescrição e suspender ou substituir o agente responsável.",
+  "base": "AGS Beers Criteria, 2023; NICE Guideline CG103: Delirium, 2023",
+  "coment": "Delirium, boca e pele secas e quentes, midríase, taquicardia, retenção urinária e constipação após oxibutinina e prometazina configuram síndrome anticolinérgica, agravada pela hiperplasia prostática. A carga anticolinérgica cumulativa (escalas como ACB) é o que importa: ambos estão no Beers. A conduta é suspender os fármacos, esvaziar a bexiga, tratar a constipação e aplicar medidas para delirium. Fisostigmina fica para casos graves selecionados, com monitorização. Síndrome serotoninérgica e neuroléptica maligna cursam com sudorese, rigidez ou clônus.",
   "porAlt": [
-   "Correta: efeito anticolinérgico do novo fármaco, exigindo revisão da prescrição e suspensão do agente.",
-   "A demência progride ao longo de meses a anos, e não com início agudo após introdução de fármaco.",
-   "A infecção urinária deve ser afastada, mas não explica a relação temporal com o novo fármaco.",
-   "A desidratação pode contribuir, mas a relação temporal aponta diretamente o fármaco introduzido.",
-   "O envelhecimento normal não produz retenção urinária e confusão de instalação aguda."
+   "Delirium, pele seca, midríase, retenção e constipação após 2 anticolinérgicos: suspender e sondar.",
+   "Sem foco infeccioso, os achados se explicam pelos fármacos.",
+   "Síndrome serotoninérgica tem sudorese, clônus e hiper-reflexia.",
+   "Não há exposição a antipsicótico nem rigidez.",
+   "Demência não tem início agudo em 3 dias."
   ]
  },
  {
-  "q": "Paciente com plaquetopenia isolada detectada em hemograma de rotina, assintomático, sem sangramento. Qual é a primeira conduta?",
+  "q": "Homem de 45 anos, assintomático, faz exames pré-operatórios de hérnia inguinal. Plaquetas de 38 mil/mm³ no contador automático; hemoglobina e leucócitos normais. Sem petéquias, equimoses ou sangramento em extrações dentárias prévias. Exames de 1 ano atrás normais. Não usa fármacos, não bebe. O esfregaço da mesma amostra (tubo com EDTA) mostra grumos plaquetários. Pressão de 124/80 mmHg, sem esplenomegalia ou hepatopatia. Coagulograma normal. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar corticoide sistêmico em dose alta imediatamente em todos os casos de plaquetopenia isolada detectada agora.",
-   "Transfundir plaquetas profilaticamente em todos os pacientes com plaquetopenia isolada e assintomática neste caso.",
-   "Indicar esplenectomia imediata em todos os pacientes com plaquetopenia isolada detectada em exame de rotina agora já.",
-   "Ignorar completamente o resultado, pois plaquetopenia isolada nunca tem relevância clínica no adulto nesse contexto.",
-   "Repetir o hemograma com citrato para excluir pseudotrombocitopenia, revisando sempre o esfregaço de sangue periférico."
+   "Transfusão de plaquetas antes da cirurgia",
+   "Nova contagem em tubo com citrato",
+   "Mielograma com biópsia de medula",
+   "Prednisona e adiar a cirurgia",
+   "Pesquisa de anticorpo antiplaquetário"
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r2",
-  "base": "ASH guidelines for immune thrombocytopenia, 2019; BSH guideline on the investigation of thrombocytopenia, revisão 2023",
-  "coment": "Diante de plaquetopenia isolada e inesperada em paciente assintomático, o primeiro passo é excluir pseudotrombocitopenia, artefato causado por aglutinação plaquetária dependente de EDTA, repetindo a coleta em tubo com citrato e revisando o esfregaço de sangue periférico. O esfregaço também revela esquizócitos, blastos, plaquetas gigantes e outras alterações que mudam completamente a investigação, sendo passo obrigatório antes de qualquer tratamento.",
+  "nivel": "r1",
+  "base": "Lardinois et al., Pseudothrombocytopenia: a review on causes, occurrence and clinical implications, Journal of Clinical Medicine, 2021; ASH Guidelines for Immune Thrombocytopenia, 2019",
+  "coment": "Plaquetopenia isolada em paciente sem sangramento, com grumos no esfregaço, sugere pseudotrombocitopenia dependente de EDTA (cerca de 0,1% da população): anticorpos reagem com as plaquetas em presença do anticoagulante e formam agregados que o contador não reconhece. Confirma-se com contagem em tubo com citrato (multiplicando pelo fator de diluição) ou heparina, ou por esfregaço de sangue capilar. Não há risco de sangramento e nenhum tratamento é necessário. A cirurgia pode seguir.",
   "porAlt": [
-   "Tratar antes de confirmar a contagem expõe a corticoide um paciente que pode ter apenas artefato.",
-   "A transfusão profilática não é indicada em plaquetopenia assintomática e sem sangramento ativo.",
-   "A esplenectomia é opção de segunda linha em casos refratários, jamais conduta inicial diagnóstica.",
-   "A plaquetopenia isolada pode indicar condições relevantes e sempre exige investigação adequada.",
-   "Correta: repetir com citrato para excluir pseudotrombocitopenia e revisar o esfregaço de sangue periférico."
+   "Não há plaquetopenia real, e transfusão seria desnecessária.",
+   "Grumos em amostra com EDTA sem sangramento: repetir a contagem em tubo com citrato.",
+   "Mielograma não é indicado antes de excluir artefato.",
+   "Tratar pseudotrombocitopenia é erro.",
+   "Anticorpo antiplaquetário não tem papel aqui."
   ]
  },
  {
-  "q": "Paciente com dor lombar e febre, com déficit neurológico progressivo e história de uso de drogas injetáveis. Qual é a suspeita?",
+  "q": "Homem de 44 anos, usuário de drogas injetáveis, chega com dor lombar intensa há dez dias e febre diária. Nas últimas 24 horas desenvolveu fraqueza progressiva em membros inferiores, hoje com força grau 3 bilateralmente, e retenção urinária com globo vesical palpável. Está com temperatura de 38,3 °C, pressão de 124/76 mmHg, dor à percussão dos processos espinhosos em L1-L2, proteína C reativa de 140 mg/L e leucócitos de 16.800/mm³. A hemocultura já foi colhida. Qual é a conduta imediata?",
   "alts": [
-   "Lombalgia mecânica inespecífica, hipótese mais provável diante de febre com déficit neurológico progressivo agora.",
-   "Hérnia de disco lombar simples, condição definida por febre e déficit neurológico rapidamente progressivo agora.",
-   "Espondilose degenerativa avançada, quadro caracterizado por febre alta e déficit neurológico de instalação rápida.",
-   "Abscesso epidural espinhal, exigindo sempre ressonância urgente e avaliação neurocirúrgica com antibiótico dirigido.",
-   "Fibromialgia com dor lombar predominante, condição que cursa com febre e déficit neurológico progressivo agora."
+   "Ressonância de urgência e avaliação neurocirúrgica",
+   "Radiografia de coluna lombar e analgesia",
+   "Antibiótico empírico e reavaliar em 48 horas",
+   "Tomografia de coluna lombar sem contraste",
+   "Fisioterapia motora e corticoide oral"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "IDSA guidance on spinal epidural abscess, revisão 2023; NASS clinical guideline on spinal infections, 2023",
-  "coment": "A tríade de dor lombar, febre e déficit neurológico sugere abscesso epidural espinhal, emergência cuja evolução é medida em horas e cujo prognóstico depende do estado neurológico no momento do tratamento. Fatores de risco incluem uso de drogas injetáveis, diabetes, imunossupressão, procedimentos espinhais e bacteremia. A conduta é ressonância urgente de toda a coluna, hemoculturas, antibiótico cobrindo Staphylococcus aureus e avaliação neurocirúrgica para drenagem.",
+  "base": "IDSA 2015 e literatura de abscesso epidural espinhal",
+  "coment": "Dor lombar com febre e déficit neurológico progressivo em usuário de droga injetável é abscesso epidural espinhal até prova em contrário. A ressonância com contraste é o exame de escolha e deve ser feita em caráter de urgência: o déficit progressivo indica compressão medular, e o tempo até a descompressão determina a recuperação neurológica.",
   "porAlt": [
-   "A lombalgia mecânica não cursa com febre nem com déficit neurológico progressivo em horas.",
-   "A hérnia de disco não causa febre e sua evolução não segue o padrão infeccioso descrito.",
-   "A espondilose é degenerativa e crônica, sem febre e sem déficit de instalação rapidamente progressiva.",
-   "Correta: abscesso epidural espinhal, com ressonância urgente, antibiótico dirigido e avaliação neurocirúrgica.",
-   "A fibromialgia não cursa com febre nem produz déficit neurológico objetivo e progressivo."
+   "Correta: imagem de urgência com avaliação cirúrgica imediata.",
+   "A radiografia não mostra abscesso epidural.",
+   "Esperar 48 horas com déficit progressivo pode custar a função medular.",
+   "A tomografia sem contraste tem sensibilidade baixa para o espaço epidural.",
+   "Fisioterapia e corticoide sem diagnóstico retardam a descompressão."
   ]
  },
  {
-  "q": "Paciente com suspeita de intoxicação por paracetamol em dose elevada há 6 horas. Qual é a conduta?",
+  "q": "Homem de 24 anos é trazido pela família seis horas após ingerir cerca de 20 g de paracetamol em tentativa de autoextermínio. Está lúcido e orientado, com náuseas e vômitos, sem dor abdominal importante. A pressão é de 122/76 mmHg, a frequência de 84 bpm e o exame físico é normal. As transaminases, o RNI e a creatinina estão normais. A concentração sérica de paracetamol nesta hora situa-se acima da linha de tratamento do nomograma. Qual é a conduta?",
   "alts": [
-   "Aguardar o surgimento de icterícia e alteração hepática antes de iniciar qualquer antídoto no paciente intoxicado.",
-   "Administrar apenas carvão ativado seis horas após a ingestão como único tratamento da intoxicação descrita.",
-   "Dosar o nível sérico e iniciar N-acetilcisteína conforme o nomograma, sem sempre aguardar sintomas para tratar.",
-   "Administrar flumazenil endovenoso como antídoto específico da intoxicação por paracetamol em dose elevada.",
-   "Aguardar a metabolização espontânea do fármaco sem qualquer intervenção no paciente com ingestão elevada agora."
+   "Iniciar N-acetilcisteína imediatamente",
+   "Aguardar as transaminases de 24 horas",
+   "Carvão ativado isolado, sem antídoto",
+   "Lavagem gástrica com sonda calibrosa",
+   "Hemodiálise de urgência"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AACT/EAPCCT guidance on paracetamol poisoning, revisão 2023; Ministério da Saúde — intoxicações agudas, 2022",
-  "coment": "Na intoxicação por paracetamol, o nível sérico colhido a partir de quatro horas da ingestão é interpretado pelo nomograma de Rumack-Matthew, que define a indicação de N-acetilcisteína. O antídoto é altamente eficaz quando iniciado nas primeiras oito a dez horas e perde eficácia progressivamente depois, de modo que não se aguarda o surgimento de lesão hepática, que aparece após vinte e quatro a setenta e duas horas, quando o dano já está instalado.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017. Paracetamol",
+  "coment": "Com nível acima da linha de tratamento do nomograma de Rumack-Matthew, a N-acetilcisteína é iniciada imediatamente. A eficácia é máxima nas primeiras 8 a 10 horas e cai depois. Esperar a lesão hepática se instalar é justamente o que o antídoto existe para evitar. Exames devem ser monitorados, mas não condicionam o início.",
   "porAlt": [
-   "Aguardar icterícia significa tratar quando a lesão hepática já está instalada e o antídoto perdeu eficácia.",
-   "O carvão ativado tem papel limitado após seis horas e não substitui o antídoto específico indicado.",
-   "Correta: dosar o nível sérico e iniciar N-acetilcisteína conforme o nomograma, sem aguardar sintomas.",
-   "O flumazenil é antídoto de benzodiazepínico e não tem qualquer efeito na intoxicação por paracetamol.",
-   "Aguardar a metabolização permite hepatotoxicidade grave e insuficiência hepática fulminante."
+   "Correta: nível tóxico indica antídoto sem esperar.",
+   "Esperar 24 horas desperdiça a janela de maior eficácia.",
+   "O carvão só é útil nas primeiras horas e não substitui o antídoto.",
+   "A lavagem gástrica saiu da rotina e não substitui o antídoto.",
+   "O paracetamol não é removido de forma útil por diálise nesse cenário."
   ]
  },
  {
-  "q": "Paciente com doença renal crônica avançada pergunta sobre preparo para terapia renal substitutiva. Qual é a conduta?",
+  "q": "Mulher de 88 anos com doença renal crônica G5 (filtração de 11 mL/min/1,73 m²), insuficiência cardíaca, demência moderada e dependência para banho e vestir-se mora com a filha. Não tem sintomas urêmicos; potássio 5,2 mEq/L, bicarbonato 19 mEq/L, hemoglobina 9,8 g/dL. Em conversa estruturada, a filha relata que a mãe sempre disse não querer tratamentos que a prendessem a máquinas. Qual é a conduta mais adequada?",
   "alts": [
-   "Encaminhar precocemente ao nefrologista e discutir modalidades, preparando sempre o acesso vascular com antecedência.",
-   "Aguardar a necessidade urgente de diálise antes de qualquer encaminhamento ou preparo de acesso vascular neste caso.",
-   "Indicar apenas cateter venoso central de urgência como acesso definitivo para todos os pacientes dialíticos agora.",
-   "Não discutir modalidades com o paciente, pois a escolha cabe exclusivamente à equipe assistente do serviço agora.",
-   "Indicar transplante renal imediato sem qualquer avaliação prévia de elegibilidade ou preparo do paciente neste caso."
+   "Fístula arteriovenosa e hemodiálise quando houver sintomas",
+   "Iniciar hemodiálise agora pela filtração abaixo de 15",
+   "Diálise peritoneal automatizada em casa",
+   "Encaminhar para transplante renal",
+   "Cuidado renal conservador com controle de sintomas"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "KDIGO Chronic Kidney Disease Guideline, 2024; KDOQI Clinical Practice Guideline for Vascular Access, 2019 com revisão 2023",
-  "coment": "O encaminhamento precoce ao nefrologista, idealmente com filtração glomerular abaixo de 30 mL/min/1,73 m², reduz mortalidade e internação ao permitir preparo adequado: educação sobre as modalidades — hemodiálise, diálise peritoneal, transplante preemptivo e tratamento conservador —, decisão compartilhada, confecção de fístula arteriovenosa com meses de antecedência, e avaliação de elegibilidade para transplante. Iniciar por cateter associa-se a mais infecção e pior desfecho.",
+  "base": "KDIGO Controversies Conference on Conservative Kidney Management, Kidney International, 2015; KDIGO Clinical Practice Guideline for the Evaluation and Management of CKD, 2024",
+  "coment": "A KDIGO reconhece o cuidado renal conservador como opção legítima para idosos frágeis com múltiplas comorbidades: nessas pessoas, a diálise frequentemente não prolonga a vida de forma significativa e aumenta internações e procedimentos. Cuidado conservador não é abandono: inclui controle de volume, potássio, acidose e anemia, manejo de prurido, náusea e dor, planejamento antecipado e cuidados paliativos. A decisão é compartilhada e respeita os valores da paciente.",
   "porAlt": [
-   "Correta: encaminhamento precoce, discussão das modalidades e preparo antecipado do acesso vascular.",
-   "Aguardar a urgência obriga a iniciar por cateter, com mais infecção e pior desfecho a longo prazo.",
-   "O cateter é acesso temporário; o acesso definitivo preferido é a fístula arteriovenosa madura.",
-   "A escolha da modalidade é decisão compartilhada e depende de preferências e contexto do paciente.",
-   "O transplante exige avaliação de elegibilidade e preparo, não sendo indicado sem essa etapa."
+   "Planejar diálise contraria os valores expressos e pode não aumentar a sobrevida nesse perfil.",
+   "Filtração isolada não indica diálise.",
+   "Diálise peritoneal também é terapia dialítica e exige cuidador treinado.",
+   "Idade, demência e fragilidade contraindicam transplante.",
+   "Idosa frágil, com demência e valores contrários a tratamentos invasivos: cuidado conservador ativo."
   ]
  }
 ]

@@ -1,242 +1,242 @@
 [
  {
-  "q": "Homem de 66 anos internado na enfermaria por insuficiência cardíaca descompensada com fração de ejeção de 28% recebe furosemida intravenosa e apresenta melhora da congestão no terceiro dia. Ainda não usa terapia modificadora de doença. Qual é a conduta antes da alta?",
+  "q": "Homem de 66 anos internado na enfermaria por insuficiência cardíaca descompensada com fração de ejeção de 28% recebeu furosemida intravenosa e está no quarto dia, sem congestão ao exame e com peso estável há 48 horas. Pressão de 108/68 mmHg, frequência de 72 bpm, creatinina de 1,2 mg/dL, potássio de 4,4 mEq/L e sódio de 138 mEq/L. Ainda não usa nenhuma das classes de base. Qual é a conduta antes da alta?",
   "alts": [
-   "Adiar todo o tratamento modificador para o ambulatório, mantendo apenas o diurético após a alta.",
-   "Iniciar os quatro pilares ainda na internação, titulando conforme pressão, potássio e função renal.",
-   "Prescrever apenas digoxina como fármaco de manutenção por melhorar a fração de ejeção dele agora.",
-   "Manter somente o diurético de alça porque ele seria o fármaco que reduz mortalidade nessa doença.",
-   "Iniciar apenas um pilar por consulta ambulatorial, com intervalo mínimo de três meses entre eles."
+   "Iniciar as quatro classes em doses baixas antes da alta",
+   "Iniciar apenas o inibidor da ECA e escalonar ambulatorialmente",
+   "Aguardar 30 dias de estabilidade para iniciar as classes",
+   "Iniciar somente betabloqueador e diurético de manutenção",
+   "Manter só diurético e reavaliar em consulta"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure, 2021 e atualização de 2023; Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda, SBC",
-  "coment": "Na insuficiência cardíaca com fração de ejeção reduzida, os quatro pilares — inibidor do sistema renina-angiotensina, preferencialmente sacubitril-valsartana, betabloqueador, antagonista mineralocorticoide e inibidor de SGLT2 — reduzem mortalidade, e a recomendação atual é iniciá-los precocemente, ainda na internação, após a compensação da congestão, com titulação rápida e reavaliação em uma a duas semanas. O diurético alivia sintomas mas não muda prognóstico, e adiar os pilares para o ambulatório deixa o paciente exposto no período de maior risco de reinternação e óbito.",
+  "base": "ESC 2023 e ensaio STRONG-HF, início e titulação intra-hospitalar",
+  "coment": "A estratégia validada pelo ensaio STRONG-HF é iniciar as quatro classes fundamentais ainda na internação, em doses baixas, e titular rapidamente nas semanas seguintes com consultas próximas. Reduziu morte e reinternação em 180 dias. Este paciente está descongestionado, com pressão, potássio e função renal que permitem o início.",
   "porAlt": [
-   "Adiar o tratamento modificador expõe o paciente ao período de maior risco de reinternação e óbito.",
-   "Correta: iniciar os quatro pilares ainda na internação, com titulação guiada por pressão, potássio e rim.",
-   "A digoxina reduz internação em casos selecionados, mas não substitui os pilares que reduzem mortalidade.",
-   "O diurético de alça alivia congestão, porém não demonstrou redução de mortalidade nessa população.",
-   "Espaçar a introdução por meses atrasa o benefício que aparece nas primeiras semanas de tratamento."
+   "Correta: início intra-hospitalar das quatro classes, com titulação rápida.",
+   "Iniciar só uma classe desperdiça a janela da internação.",
+   "Esperar 30 dias é justamente o que o STRONG-HF mostrou ser pior.",
+   "Duas classes deixam de fora antagonista mineralocorticoide e inibidor do SGLT2.",
+   "Só diurético não altera prognóstico."
   ]
  },
  {
-  "q": "Mulher de 74 anos internada na enfermaria por pneumonia comunitária, no segundo dia de ceftriaxona e azitromicina, apresenta melhora clínica, afebril há vinte e quatro horas, com saturação de 95% em ar ambiente e aceitando dieta oral. Qual é a conduta?",
+  "q": "Mulher de 74 anos está no terceiro dia de internação por pneumonia comunitária de lobo inferior direito, em uso de ceftriaxona e azitromicina endovenosas. Está afebril há 48 horas, com frequência cardíaca de 88 bpm, frequência respiratória de 20 irpm, pressão arterial 128/74 mmHg, saturação de 94% em ar ambiente, lúcida e aceitando bem a dieta oral. Hemoculturas negativas, proteína C reativa em queda. Qual é a conduta mais adequada?",
   "alts": [
-   "Manter a via intravenosa por pelo menos dez dias completos independentemente da melhora dela.",
-   "Ampliar o espectro antimicrobiano para cobrir germes multirresistentes antes de considerar alta.",
-   "Solicitar tomografia de tórax de controle antes de qualquer mudança na via de administração.",
-   "Repetir radiografia de tórax e só liberar a alta quando o infiltrado estiver completamente ausente.",
-   "Transicionar o antibiótico para a via oral e programar alta com o mesmo espectro de cobertura."
+   "Manter antibiótico endovenoso até completar 10 dias",
+   "Trocar para via oral e planejar a alta",
+   "Nova radiografia antes de mudar o tratamento",
+   "Escalonar para piperacilina-tazobactam",
+   "Suspender o antibiótico hoje sem prescrição oral"
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "pneumo",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "ATS/IDSA Clinical Practice Guideline — Community-acquired Pneumonia in Adults, 2019; SBPT, diretrizes brasileiras de pneumonia adquirida na comunidade",
-  "coment": "A transição da via intravenosa para a oral é indicada quando o paciente está clinicamente estável, hemodinamicamente compensado, afebril, com melhora dos sintomas respiratórios e capaz de ingerir e absorver medicação. A duração total mínima é de cinco dias, estendida conforme resposta clínica e presença de complicações. A resolução radiológica é lenta, pode levar semanas e não deve retardar a alta nem prolongar o antibiótico, e imagem de controle imediata não é rotina.",
+  "nivel": "r2",
+  "base": "ATS/IDSA Guideline: Diagnosis and Treatment of Adults with Community-acquired Pneumonia, 2019; ATS Clinical Practice Guideline on duration of antibiotic therapy for CAP, 2025",
+  "coment": "Paciente com pneumonia comunitária que atinge estabilidade clínica (temperatura até 37,8 °C, frequência cardíaca até 100 bpm, frequência respiratória até 24 irpm, sistólica de 90 mmHg ou mais, saturação de 90% ou mais em ar ambiente, estado mental normal e capacidade de ingerir) pode passar para antibiótico oral de espectro equivalente e receber alta, sem esperar o fim do curso endovenoso. A duração total é guiada pela estabilidade clínica, e a radiografia melhora mais lentamente que a clínica e não decide a conduta.",
   "porAlt": [
-   "Prolongar a via intravenosa sem necessidade aumenta tempo de internação e risco de complicação de acesso.",
-   "Ampliar o espectro sem falha terapêutica seleciona resistência e não traz benefício ao paciente.",
-   "A tomografia não é necessária diante de boa resposta clínica ao tratamento instituído.",
-   "O infiltrado resolve em semanas e aguardar a limpeza radiológica prolonga internação sem benefício.",
-   "Correta: transição para a via oral e programação de alta, mantendo cobertura equivalente."
+   "Manter a via endovenosa após estabilidade prolonga a internação sem benefício.",
+   "Estabilidade clínica e via oral funcionante: trocar para antibiótico oral de mesmo espectro e dar alta.",
+   "A radiografia demora semanas para melhorar e não orienta a troca.",
+   "Não há falha terapêutica que justifique escalonar.",
+   "Suspender sem completar o curso mínimo não é recomendado."
   ]
  },
  {
-  "q": "Paciente de 58 anos internado na enfermaria por celulite de membro inferior evolui, no segundo dia, com hiponatremia de 122 mEq/L, assintomática, com osmolalidade urinária elevada e sódio urinário de 50 mEq/L, euvolêmico, em uso de hidroclorotiazida e sertralina. Qual é a conduta inicial?",
+  "q": "Homem de 58 anos, tabagista de 45 maços-ano, internado por celulite de membro inferior, tem sódio de 122 mEq/L no segundo dia, sem sintomas neurológicos. Está euvolêmico, sem edema, com pressão arterial de 132/80 mmHg. Osmolalidade sérica de 254 mOsm/kg, osmolalidade urinária de 620 mOsm/kg, sódio urinário de 98 mEq/L e potássio urinário de 42 mEq/L. TSH e cortisol matinal normais, glicemia normal. Não usa diuréticos. A radiografia de tórax mostra massa hilar direita. Qual é a melhor estratégia para elevar o sódio?",
   "alts": [
-   "Infundir salina hipertônica em bolus até que o sódio sérico ultrapasse cento e trinta e cinco mEq/L.",
-   "Administrar salina isotônica em volume alto, o que costuma agravar a hiponatremia nesse perfil.",
-   "Suspender os fármacos implicados, restringir líquidos e corrigir o sódio de forma lenta e vigiada.",
-   "Prescrever furosemida isolada em dose alta como tratamento definitivo desse distúrbio de sódio.",
-   "Aguardar correção espontânea sem qualquer intervenção, já que o paciente está assintomático agora."
+   "Restrição hídrica de 1 litro por dia isolada",
+   "Salina a 0,9% em infusão contínua",
+   "Ureia oral, com restrição hídrica pouco eficaz",
+   "Salina hipertônica a 3% em bolus",
+   "Furosemida endovenosa sem reposição de sódio"
   ],
   "gab": 2,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "European guideline on diagnosis and treatment of hyponatraemia, 2014; American Geriatrics Society Beers Criteria, 2023",
-  "coment": "O quadro é de hiponatremia euvolêmica com urina inapropriadamente concentrada e sódio urinário elevado, padrão de secreção inapropriada de hormônio antidiurético, aqui favorecida por tiazídico e por inibidor seletivo de recaptação de serotonina. Sendo crônica e assintomática, a conduta é retirar os agentes implicados, restringir líquidos e corrigir devagar, respeitando o limite de 8 a 10 mEq/L em vinte e quatro horas para evitar síndrome de desmielinização osmótica. Salina hipertônica se reserva à hiponatremia sintomática grave.",
+  "nivel": "r3",
+  "base": "European Clinical Practice Guideline on diagnosis and treatment of hyponatraemia, 2014",
+  "coment": "O quadro é de secreção inapropriada de hormônio antidiurético, provavelmente paraneoplásica pela massa hilar, depois de excluir hipotireoidismo, insuficiência adrenal e diuréticos. A diretriz europeia de hiponatremia (2014) usa preditores de falha da restrição hídrica: osmolalidade urinária acima de 500 mOsm/kg e razão entre a soma de sódio e potássio urinários e o sódio sérico acima de 1. Aqui, (98 + 42)/122 = 1,15. A segunda linha recomendada é ureia oral, 15 a 60 g/dia, ou dose baixa de diurético de alça com sal oral.",
   "porAlt": [
-   "A salina hipertônica em bolus se destina à hiponatremia sintomática grave, não ao paciente assintomático.",
-   "Salina isotônica na secreção inapropriada pode agravar a hiponatremia por excreção do sódio ofertado.",
-   "Correta: suspender os fármacos implicados, restringir líquidos e corrigir lentamente com vigilância.",
-   "Furosemida isolada não trata a causa e pode gerar depleção volêmica e novo distúrbio eletrolítico.",
-   "Não intervir mantém o paciente exposto ao risco de queda, confusão e agravamento do distúrbio."
+   "Razão (sódio + potássio urinários)/sódio sérico acima de 1 prediz falha da restrição hídrica.",
+   "Com urina tão concentrada, a salina isotônica é excretada e pode baixar o sódio.",
+   "Osmolalidade urinária acima de 500 e razão eletrolítica acima de 1: a restrição tende a falhar; ureia oral aumenta a excreção de água.",
+   "Salina hipertônica em bolus é para sintomas graves.",
+   "Diurético isolado sem reposição de sal pode causar hipovolemia."
   ]
  },
  {
-  "q": "Homem de 62 anos, cirrótico, internado na enfermaria com ascite volumosa e dor abdominal difusa. A paracentese diagnóstica mostra 480 neutrófilos por milímetro cúbico no líquido ascítico. Qual é a conduta correta?",
+  "q": "Homem de 62 anos com cirrose alcoólica, Child-Pugh C, é internado por aumento do volume abdominal e dor difusa leve. Temperatura 37,6 °C, pressão arterial 104/62 mmHg. Exames: creatinina 1,7 mg/dL (0,9 mg/dL há um mês), bilirrubina total 4,6 mg/dL, sódio 131 mEq/L. Não usa profilaxia antibiótica. A paracentese diagnóstica mostra 480 polimorfonucleares/mm³, proteína total de 0,9 g/dL e bacterioscopia sem bactérias. Qual é a conduta?",
   "alts": [
-   "Iniciar cefalosporina de terceira geração e albumina, que reduz a mortalidade e a lesão renal.",
-   "Aguardar a cultura do líquido ascítico antes de iniciar qualquer tratamento antimicrobiano dele.",
-   "Iniciar apenas albumina intravenosa, reservando o antibiótico para o caso de cultura positiva.",
-   "Indicar laparotomia exploradora de urgência devido à peritonite identificada na paracentese dele.",
-   "Prescrever antibiótico oral por sete dias e liberar a alta hospitalar no mesmo dia do exame."
+   "Ceftriaxona isolada e nova paracentese em 48 horas",
+   "Aguardar a cultura, pois a bacterioscopia foi negativa",
+   "Ceftriaxona e terlipressina iniciadas já na admissão",
+   "Albumina 20 g/dia e manter os diuréticos em uso",
+   "Ceftriaxona com albumina nos dias 1 e 3"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
-  "base": "AASLD Practice Guidance on ascites and spontaneous bacterial peritonitis, 2021; Baveno VII, 2022",
-  "coment": "Contagem de neutrófilos igual ou superior a 250 por milímetro cúbico no líquido ascítico define peritonite bacteriana espontânea, mesmo com cultura negativa, e o tratamento começa imediatamente com cefalosporina de terceira geração. A infusão de albumina, 1,5 g/kg no primeiro dia e 1 g/kg no terceiro, reduz a incidência de síndrome hepatorrenal e a mortalidade. Após o episódio, indica-se profilaxia secundária com quinolona e avaliação para transplante hepático.",
+  "base": "AASLD Practice Guidance: Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome, 2021; EASL Clinical Practice Guidelines for decompensated cirrhosis, 2018",
+  "coment": "O diagnóstico de peritonite bacteriana espontânea exige apenas 250 ou mais polimorfonucleares/mm³ no líquido ascítico. Na infecção adquirida na comunidade, sem profilaxia prévia, cefalosporina de terceira geração é adequada. A albumina no esquema de Sort (1,5 g/kg no dia 1 e 1 g/kg no dia 3) reduz síndrome hepatorrenal e mortalidade, com benefício concentrado em quem tem creatinina acima de 1 mg/dL, ureia acima de 60 mg/dL ou bilirrubina acima de 4 mg/dL. Os diuréticos são suspensos pela lesão renal.",
   "porAlt": [
-   "Correta: cefalosporina de terceira geração associada a albumina, que reduz lesão renal e mortalidade.",
-   "Aguardar cultura atrasa o tratamento de uma infecção com mortalidade elevada e cultura frequentemente negativa.",
-   "Albumina isolada não trata a infecção e o antibiótico não deve depender do resultado da cultura.",
-   "A peritonite bacteriana espontânea é tratada clinicamente, e a laparotomia não está indicada aqui.",
-   "O tratamento é intravenoso e hospitalar, com reavaliação e profilaxia secundária programada depois."
+   "Com creatinina acima de 1 mg/dL e bilirrubina acima de 4 mg/dL, a albumina reduz lesão renal e mortalidade; o antibiótico isolado é insuficiente.",
+   "Mais de 250 polimorfonucleares/mm³ já definem a peritonite; a bacterioscopia costuma ser negativa.",
+   "Terlipressina trata a síndrome hepatorrenal estabelecida, não previne a lesão renal da peritonite.",
+   "Diuréticos devem ser suspensos diante de lesão renal aguda, e a dose de albumina está abaixo da estudada.",
+   "Cefalosporina de terceira geração com albumina 1,5 g/kg no diagnóstico e 1 g/kg no terceiro dia, indicada pela creatinina e bilirrubina elevadas."
   ]
  },
  {
-  "q": "Mulher de 80 anos internada na enfermaria por fratura de fêmur aguarda cirurgia e apresenta, no segundo dia, desorientação flutuante, sonolência e desatenção, sem febre e sem déficit focal. Qual é a conduta inicial mais adequada?",
+  "q": "Mulher de 80 anos, no segundo dia de pós-operatório de fratura de fêmur, está quieta e sonolenta, segundo a enfermagem, mas acorda com estímulo verbal. Não sabe a idade nem o ano e erra os meses do ano de trás para frente logo no início. A filha diz que ontem ela conversava normalmente. No 4AT: alerta alterado (4), AMT4 com 2 erros (2), meses do ano (1) e mudança aguda (4). Sem febre ou déficit focal. Qual é a interpretação e a conduta?",
   "alts": [
-   "Iniciar haloperidol em dose fixa para prevenir a progressão do quadro confusional identificado.",
-   "Prescrever benzodiazepínico à noite para regularizar o ciclo de sono e vigília dessa paciente.",
-   "Procurar causas reversíveis e aplicar medidas não farmacológicas antes de qualquer psicofármaco.",
-   "Instituir contenção física preventiva para evitar que ela retire dispositivos durante a noite.",
-   "Solicitar tomografia de crânio de rotina como primeiro exame antes de qualquer outra avaliação."
+   "4AT de 11; delirium hipoativo, buscar causas",
+   "4AT de 7; depressão pós-operatória provável",
+   "4AT de 11; provável demência não diagnosticada",
+   "4AT de 3; sedação residual, apenas observar",
+   "4AT de 11; iniciar haloperidol de horário"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
-  "base": "NICE guideline — Delirium: prevention, diagnosis and management in hospital and long-term care, atualização de 2023; American Geriatrics Society, guideline for postoperative delirium",
-  "coment": "O quadro é de delirium, e a conduta inicial é buscar causas reversíveis — dor, retenção urinária, fecaloma, desidratação, distúrbio eletrolítico, hipóxia, infecção, abstinência e fármacos — e aplicar medidas não farmacológicas, que são as únicas com evidência de prevenção e redução de duração: reorientação, presença de acompanhante, óculos e aparelho auditivo, sono preservado, hidratação e mobilização precoce. Antipsicótico não previne delirium e fica reservado à agitação com risco de dano; benzodiazepínico agrava, exceto na abstinência alcoólica.",
+  "base": "NICE Guideline CG103: Delirium, 2023; Tieges et al., Diagnostic accuracy of the 4AT for delirium detection, Age and Ageing, 2021",
+  "coment": "O 4AT soma alerta (0 ou 4), AMT4 (0, 1 ou 2), meses de trás para frente (0, 1 ou 2) e mudança aguda ou curso flutuante (0 ou 4); 4 ou mais sugere delirium. Aqui: 4 + 2 + 1 + 4 = 11. A forma hipoativa é a mais comum no idoso e a mais subdiagnosticada, confundida com depressão ou cansaço, e tem pior prognóstico. A conduta é procurar causas (dor, opioides, anticolinérgicos, retenção urinária, constipação, infecção, distúrbios eletrolíticos, hipoxemia, anemia), com medidas não farmacológicas; antipsicótico não trata delirium hipoativo.",
   "porAlt": [
-   "Antipsicótico não previne delirium nem encurta sua duração e traz risco em pacientes idosos.",
-   "Benzodiazepínico agrava o delirium, exceto quando a causa é abstinência de álcool ou do próprio fármaco.",
-   "Correta: investigar causas reversíveis e aplicar medidas não farmacológicas como primeira linha.",
-   "A contenção física aumenta agitação, lesão e duração do delirium e é medida de último recurso.",
-   "A neuroimagem se reserva a déficit focal, trauma craniano ou ausência de causa após avaliação."
+   "4 + 2 + 1 + 4 = 11; início agudo com alteração da atenção é delirium.",
+   "O cálculo está errado, e a mudança aguda de atenção e consciência indica delirium, não depressão.",
+   "Demência não tem início agudo em 1 dia.",
+   "O cálculo está errado; 4 ou mais já sugere delirium.",
+   "Antipsicótico não trata delirium hipoativo e tem efeitos adversos."
   ]
  },
  {
-  "q": "Paciente de 55 anos internado na enfermaria em uso de enoxaparina profilática evolui no sétimo dia com queda das plaquetas de 240.000 para 80.000 por milímetro cúbico e trombose venosa profunda no membro inferior. Qual é a conduta?",
+  "q": "Homem de 55 anos, internado para cirurgia de quadril, usa enoxaparina 40 mg/dia desde o pós-operatório. No sétimo dia, as plaquetas caem de 240 mil para 80 mil/mm³ (queda de 67%), e surge trombose venosa profunda de veia femoral. Não há outra causa aparente: sem sepse, sem novos fármacos, sem sangramento. Creatinina de 1,0 mg/dL, bilirrubinas normais. Pelo escore 4T, qual é a probabilidade clínica e a conduta mais adequada?",
   "alts": [
-   "Suspender toda heparina e iniciar anticoagulante alternativo, sem transfundir plaquetas de rotina.",
-   "Manter a enoxaparina e transfundir plaquetas para permitir a continuidade da anticoagulação dele.",
-   "Trocar a enoxaparina por heparina não fracionada, mantendo a mesma classe farmacológica agora.",
-   "Suspender a anticoagulação por completo e apenas observar, dada a plaquetopenia identificada nele.",
-   "Iniciar corticoide em dose imunossupressora como tratamento principal da queda de plaquetas dele."
+   "4T de 4; manter enoxaparina e dosar anticorpo",
+   "4T de 8; suspender heparina, usar fondaparinux",
+   "4T de 8; trocar para heparina não fracionada",
+   "4T de 6; transfundir plaquetas e iniciar varfarina",
+   "4T de 2; baixa probabilidade, manter heparina"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "hemato",
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ASH Guidelines for Management of Venous Thromboembolism: Heparin-Induced Thrombocytopenia, 2018",
-  "coment": "Queda de mais de 50% das plaquetas entre o quinto e o décimo dia de exposição à heparina, associada a trombose, caracteriza trombocitopenia induzida por heparina, mecanismo imunomediado e paradoxalmente protrombótico. A conduta é suspender toda forma de heparina, incluindo flushes e cateteres impregnados, e iniciar anticoagulante alternativo, como argatroban, fondaparinux ou anticoagulante oral direto conforme a disponibilidade. Transfusão de plaquetas alimenta a trombose e está contraindicada fora do sangramento com risco de vida.",
+  "base": "American Society of Hematology Guidelines for Heparin-Induced Thrombocytopenia, 2018",
+  "coment": "No 4T: queda acima de 50% com nadir de 20 mil ou mais (2), início entre o quinto e o décimo dia (2), trombose nova (2) e nenhuma outra causa (2), total 8, alta probabilidade. Com 4T intermediário ou alto, a ASH (2018) recomenda suspender toda heparina e iniciar anticoagulante não heparínico (argatrobana, fondaparinux, bivalirudina ou anticoagulante oral direto) antes do resultado do anticorpo anti-PF4. Não se transfundem plaquetas sem sangramento, e varfarina só é iniciada com plaquetas acima de 150 mil, pelo risco de gangrena venosa.",
   "porAlt": [
-   "Correta: suspender toda heparina e iniciar anticoagulante alternativo, sem transfundir plaquetas.",
-   "Manter a heparina perpetua o mecanismo imunomediado e a transfusão de plaquetas agrava a trombose.",
-   "A heparina não fracionada pertence à mesma classe e mantém o estímulo imunológico responsável.",
-   "Suspender a anticoagulação em paciente com trombose ativa expõe a extensão e a embolia pulmonar.",
-   "Corticoide não é o tratamento e não substitui a troca imediata do anticoagulante nessa condição."
+   "O cálculo está errado, e manter heparina com suspeita alta agrava a trombose.",
+   "4T de 8: suspender toda heparina e iniciar anticoagulante não heparínico sem esperar o anticorpo.",
+   "Heparina não fracionada também desencadeia a trombocitopenia induzida por heparina.",
+   "O cálculo está errado; transfusão e varfarina precoce aumentam trombose e gangrena.",
+   "O cálculo está errado; a probabilidade é alta."
   ]
  },
  {
-  "q": "Homem de 48 anos internado na enfermaria por pielonefrite aguda com boa resposta ao antibiótico apresenta, no quarto dia, três evacuações líquidas ao dia, sem sangue, com febre baixa e leucocitose. Qual é a conduta inicial mais adequada?",
+  "q": "Homem de 71 anos, internado há 6 dias por pneumonia comunitária em uso de ceftriaxona, passa a ter 7 evacuações líquidas por dia, febre de 38,1 °C e distensão abdominal leve, sem sinais de peritonite. Pressão arterial 124/76 mmHg, ruídos hidroaéreos presentes. Leucócitos 19.800/mm³, creatinina 1,8 mg/dL (0,9 mg/dL na admissão), lactato 1,3 mmol/L. Nas fezes, glutamato desidrogenase e toxina de Clostridioides difficile positivos. A pneumonia já completou o tempo de tratamento. Além de suspender a ceftriaxona, qual é o tratamento?",
   "alts": [
-   "Prescrever loperamida imediatamente para reduzir o número de evacuações e o desconforto do paciente.",
-   "Iniciar vancomicina oral empírica para todo paciente com diarreia durante o uso de antibiótico.",
-   "Suspender o antibiótico da pielonefrite e liberar a alta hospitalar com dieta livre de lactose.",
-   "Solicitar colonoscopia de urgência como primeiro exame para investigar a causa da diarreia dele.",
-   "Pesquisar toxina e antígeno de Clostridioides difficile nas fezes antes de prescrever antidiarreico."
+   "Metronidazol oral 500 mg de 8/8 horas por 10 dias",
+   "Vancomicina oral 125 mg de 6/6 horas por 10 dias",
+   "Vancomicina endovenosa 1 g de 12/12 horas",
+   "Vancomicina oral 500 mg e metronidazol endovenoso",
+   "Loperamida associada à vancomicina oral"
   ],
-  "gab": 4,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ACG Clinical Guideline: Prevention, Diagnosis, and Treatment of Clostridioides difficile Infections, 2021; IDSA/SHEA guideline, 2021",
-  "coment": "Diarreia que surge durante ou após antibioticoterapia em paciente internado deve levantar a suspeita de infecção por Clostridioides difficile, investigada por pesquisa de toxina associada a antígeno ou teste molecular, em amostra de fezes não formadas. O antidiarreico está contraindicado até que o diagnóstico seja afastado, pelo risco de megacólon tóxico. Confirmada a infecção, o tratamento de primeira linha é vancomicina oral ou fidaxomicina, com medidas de precaução de contato e higiene das mãos com água e sabão.",
+  "base": "IDSA/SHEA Focused Update Guidelines on Clostridioides difficile Infection in Adults, 2021; ACG Clinical Guideline: Clostridioides difficile Infections, 2021",
+  "coment": "Leucocitose acima de 15.000/mm³ ou creatinina acima de 1,5 mg/dL classificam a infecção por C. difficile como grave. A atualização da IDSA/SHEA (2021) prefere fidaxomicina e aceita vancomicina oral 125 mg de 6/6 horas por 10 dias; o metronidazol ficou restrito à forma não grave quando as outras opções não estão disponíveis. Vancomicina oral 500 mg com metronidazol endovenoso é o esquema da forma fulminante. Suspender o antibiótico desencadeante faz parte do tratamento.",
   "porAlt": [
-   "Loperamida antes de afastar a infecção aumenta o risco de íleo e de megacólon tóxico.",
-   "O tratamento empírico universal não é recomendado: a investigação precede a terapia dirigida.",
-   "Suspender o antibiótico da infecção urinária tratada e dar alta ignora a suspeita diagnóstica atual.",
-   "A colonoscopia não é o exame inicial e traz risco de perfuração na colite grave estabelecida.",
-   "Correta: investigar Clostridioides difficile antes de qualquer antidiarreico nesse contexto."
+   "Metronidazol não é primeira linha, e muito menos na forma grave definida por leucócitos acima de 15.000/mm³ ou creatinina acima de 1,5 mg/dL.",
+   "Forma grave, não fulminante: vancomicina oral ou fidaxomicina por 10 dias.",
+   "Vancomicina endovenosa não chega à luz do cólon.",
+   "Esquema da forma fulminante, com hipotensão, choque, íleo ou megacólon, ausentes aqui.",
+   "Antiperistáltico na colite por C. difficile aumenta o risco de megacólon tóxico."
   ]
  },
  {
-  "q": "Mulher de 67 anos internada na enfermaria por acidente vascular cerebral isquêmico, no segundo dia, com déficit motor e disartria, ainda sem dieta liberada. Qual é a medida que mais reduz o risco de pneumonia nesse contexto?",
+  "q": "Mulher de 67 anos está no segundo dia de AVC isquêmico de artéria cerebral média esquerda, com hemiparesia direita, disartria e NIHSS de 7. Está alerta e pede água. A filha trouxe um suco e quer oferecê-lo. A avaliação da deglutição ainda não foi feita. Temperatura 36,9 °C, saturação 96% em ar ambiente, ausculta pulmonar limpa. Recebe hidratação venosa. Não tem pneumopatia prévia. Qual é a medida que mais reduz o risco de pneumonia aspirativa?",
   "alts": [
-   "Rastrear disfagia antes de liberar dieta e manter higiene oral rigorosa durante toda a internação.",
-   "Prescrever antibiótico profilático desde a admissão para reduzir a chance de pneumonia aspirativa.",
-   "Indicar sonda nasoenteral para todos os pacientes com acidente vascular cerebral já na admissão.",
-   "Manter jejum absoluto por sete dias até que o déficit neurológico apresente melhora significativa.",
-   "Elevar a cabeceira apenas durante o período noturno, mantendo o decúbito horizontal durante o dia."
+   "Oferecer líquidos espessados à vontade",
+   "Rastreio de disfagia antes de qualquer via oral",
+   "Antibiótico profilático por 5 dias",
+   "Sonda nasoenteral de rotina já hoje",
+   "Cabeceira a zero grau durante toda a dieta oral"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "neuro",
   "cenario": "enf",
   "comp": "prev",
   "nivel": "r1",
-  "base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019; diretrizes da Sociedade Brasileira de Doenças Cerebrovasculares",
-  "coment": "O rastreio de disfagia antes da primeira oferta de dieta é recomendação formal no acidente vascular cerebral agudo e reduz pneumonia aspirativa, complicação associada a maior mortalidade e a pior desfecho funcional. Somam-se higiene oral rigorosa, elevação da cabeceira, avaliação fonoaudiológica e ajuste de consistência. Antibiótico profilático não reduz mortalidade e seleciona resistência, e a sonda não é indicada indiscriminadamente, sendo reservada a quem não pode se alimentar com segurança.",
+  "base": "AHA/ASA Guidelines for the Early Management of Acute Ischemic Stroke, 2019",
+  "coment": "Disfagia afeta até metade dos pacientes com AVC, e a aspiração muitas vezes é silenciosa. A AHA/ASA recomenda rastreio de disfagia antes de oferecer qualquer coisa por via oral, com avaliação fonoaudiológica e, se necessário, videofluoroscopia ou endoscopia da deglutição. Antibiótico profilático não é recomendado. Higiene oral e cabeceira elevada completam a prevenção.",
   "porAlt": [
-   "Correta: rastrear disfagia antes da dieta e manter higiene oral rigorosa durante a internação.",
-   "A profilaxia antibiótica não reduziu mortalidade nos ensaios e favorece a seleção de germes resistentes.",
-   "A sonda não é indicada para todos e sim para quem não consegue se alimentar com segurança.",
-   "Jejum prolongado agrava desnutrição e não previne aspiração de secreção da própria orofaringe.",
-   "A elevação da cabeceira deve ser mantida também durante as refeições e nas horas seguintes a elas."
+   "Espessar sem avaliação não garante segurança; a aspiração silenciosa é comum.",
+   "Rastreio de disfagia à beira do leito antes de água, comida ou medicação oral reduz pneumonia aspirativa.",
+   "Antibiótico profilático não reduziu pneumonia nem melhorou desfecho (STROKE-INF, PASS).",
+   "Sonda não é necessária antes de avaliar; muitos deglutem com segurança.",
+   "Cabeceira elevada, não plana, reduz aspiração."
   ]
  },
  {
-  "q": "Paciente de 70 anos internado na enfermaria por doença pulmonar obstrutiva crônica exacerbada, com pH de 7,28, PaCO2 de 62 mmHg e frequência respiratória de 28, alerta e colaborativo. Qual é a conduta mais adequada?",
+  "q": "Homem de 70 anos com DPOC grave é internado por exacerbação. Após salbutamol e ipratrópio inalatórios, prednisona 40 mg e oxigênio a 2 L/min, a gasometria mostra pH 7,28, PaCO₂ de 62 mmHg, PaO₂ de 58 mmHg e bicarbonato de 30 mEq/L. Frequência respiratória 28 irpm, uso de musculatura acessória, alerta e colaborativo, sem vômitos, com tosse eficaz. Pressão arterial 142/84 mmHg. Recebeu 2 doses de antibiótico e não tem pneumotórax na radiografia. Qual é a conduta ventilatória mais adequada?",
   "alts": [
-   "Proceder à intubação orotraqueal imediata, já que existe acidose respiratória documentada nele.",
-   "Ofertar oxigênio em alto fluxo com máscara não reinalante buscando saturação de cem por cento agora.",
-   "Prescrever apenas broncodilatador e corticoide sistêmico, sem qualquer suporte ventilatório agora.",
-   "Administrar sedativo para reduzir o desconforto respiratório e diminuir o trabalho da respiração.",
-   "Iniciar ventilação não invasiva com dois níveis de pressão e manter tratamento farmacológico pleno."
+   "Oxigênio em alto fluxo para saturação de 98%",
+   "Intubação orotraqueal imediata",
+   "Ventilação não invasiva em dois níveis de pressão",
+   "Cateter nasal de alto fluxo como primeira escolha",
+   "Manter o oxigênio atual e repetir gasometria em 24 horas"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r1",
-  "base": "GOLD — Global Strategy for the Diagnosis, Management and Prevention of COPD, 2026; ERS/ATS guidelines on noninvasive ventilation for acute respiratory failure, 2017",
-  "coment": "Na exacerbação da doença pulmonar obstrutiva crônica com acidose respiratória, definida por pH abaixo de 7,35 com hipercapnia, a ventilação não invasiva com dois níveis de pressão é indicação de primeira linha: reduz intubação, mortalidade e tempo de internação. O paciente está alerta e colaborativo, sem contraindicação. A oxigenoterapia deve ser titulada para saturação entre 88 e 92%, porque a oferta liberal agrava a hipercapnia, e sedativos são evitados fora do ambiente monitorizado.",
+  "base": "ERS/ATS Clinical Practice Guidelines: Noninvasive Ventilation for Acute Respiratory Failure, 2017; GOLD Report, 2025",
+  "coment": "Na exacerbação de DPOC com acidose respiratória (pH de 7,35 ou menos e PaCO₂ acima de 45 mmHg) após tratamento inicial, a ventilação não invasiva em dois níveis de pressão reduz intubação e mortalidade (ERS/ATS 2017, GOLD). Começa-se com pressão inspiratória de cerca de 12 a 15 cmH₂O e expiratória de 4 a 5 cmH₂O, com gasometria em 1 a 2 horas. O oxigênio é titulado para saturação de 88 a 92%. Intubação fica para falha, rebaixamento, instabilidade ou incapacidade de proteger a via aérea.",
   "porAlt": [
-   "A intubação se reserva à falha da ventilação não invasiva, rebaixamento ou instabilidade hemodinâmica.",
-   "Oxigênio em alto fluxo com alvo de saturação máxima agrava a hipercapnia e a acidose respiratória.",
-   "O tratamento farmacológico isolado não corrige a acidose respiratória já instalada nesse paciente.",
-   "Sedativo em paciente hipercápnico fora de ambiente monitorizado agrava a depressão respiratória.",
-   "Correta: ventilação não invasiva com dois níveis de pressão associada ao tratamento farmacológico."
+   "Oxigênio para saturação alta piora a hipercapnia; o alvo é 88 a 92%.",
+   "Paciente alerta e colaborativo tem indicação de ventilação não invasiva antes de intubar.",
+   "Acidose respiratória na exacerbação de DPOC: ventilação não invasiva em dois níveis, que reduz intubação e mortalidade.",
+   "Cateter de alto fluxo não substitui a ventilação não invasiva na acidose hipercápnica.",
+   "Esperar 24 horas com pH de 7,28 arrisca falência respiratória."
   ]
  },
  {
-  "q": "Homem de 52 anos internado na enfermaria por hemorragia digestiva alta por úlcera péptica, após endoscopia com hemostasia bem-sucedida, encontra-se estável. A pesquisa de Helicobacter pylori foi positiva. Qual é a conduta correta na alta?",
+  "q": "Homem de 52 anos teve hemorragia digestiva alta por úlcera duodenal de 12 mm com coágulo aderido, tratada com injeção de adrenalina e clipe. Recebe omeprazol endovenoso 80 mg/dia desde a admissão, há 3 dias. O teste rápido da urease feito em biópsia antral durante a endoscopia foi negativo. Não usa anti-inflamatório nem ácido acetilsalicílico. Hemoglobina estável em 9,8 g/dL; terá alta hoje. Qual é a conduta quanto ao Helicobacter pylori?",
   "alts": [
-   "Manter inibidor de bomba de prótons de forma isolada, sem tratar a infecção diagnosticada nele.",
-   "Repetir a endoscopia em quarenta e oito horas para todos os pacientes com úlcera já tratada.",
-   "Prescrever anti-inflamatório para a dor abdominal residual associado a protetor gástrico oral.",
-   "Encaminhar diretamente para cirurgia eletiva de úlcera devido ao episódio de sangramento dele.",
-   "Tratar a infecção com esquema de erradicação e confirmar a cura por teste posterior programado."
+   "Considerar a úlcera não relacionada à bactéria",
+   "Teste respiratório na alta, mantendo o omeprazol",
+   "Endoscopia de revisão em 48 horas com nova biópsia",
+   "Nova pesquisa depois do curso de omeprazol",
+   "Tríplice empírica com claritromicina já na alta"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r1",
   "base": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024; ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021",
-  "coment": "A erradicação do Helicobacter pylori reduz de forma expressiva a recidiva de úlcera péptica e de novo sangramento, e o tratamento deve ser prescrito sempre que a infecção for identificada nesse contexto. A confirmação da erradicação é recomendada, por teste respiratório da ureia ou antígeno fecal, ao menos quatro semanas após o término do antibiótico e com o inibidor de bomba suspenso por duas semanas. Anti-inflamatórios devem ser evitados, e a endoscopia de controle não é rotina após hemostasia bem-sucedida.",
+  "coment": "Durante hemorragia digestiva alta e sob inibidor de bomba em dose alta, os testes para H. pylori (urease, histologia, teste respiratório) perdem sensibilidade. A diretriz do ACG recomenda repetir a pesquisa quando o teste da fase aguda é negativo, depois de suspender o inibidor por 2 semanas e antibiótico ou bismuto por 4 semanas. Úlcera duodenal sem anti-inflamatório tem H. pylori como causa na grande maioria dos casos, e a erradicação é o que previne o ressangramento.",
   "porAlt": [
-   "Manter apenas inibidor de bomba sem erradicar mantém alto o risco de recidiva da úlcera e do sangramento.",
-   "A endoscopia de controle precoce não é rotina após hemostasia endoscópica bem-sucedida e estável.",
-   "O anti-inflamatório é justamente um dos fatores que causam e perpetuam a doença ulcerosa péptica.",
-   "A cirurgia se reserva à falha do tratamento endoscópico e clínico, o que não ocorreu neste caso.",
-   "Correta: erradicar a infecção e confirmar a cura por teste realizado após o intervalo adequado."
+   "Com sangramento e inibidor de bomba há muitos falsos negativos; úlcera duodenal sem anti-inflamatório é, na maioria, por H. pylori.",
+   "O inibidor de bomba reduz a carga bacteriana e torna o teste respiratório falsamente negativo.",
+   "Endoscopia de revisão programada não é recomendada após hemostasia eficaz.",
+   "Teste negativo durante o sangramento deve ser repetido, com o inibidor suspenso há pelo menos 2 semanas.",
+   "Tratar sem diagnóstico expõe a antibiótico desnecessário e dificulta a escolha de esquema se houver falha."
   ]
  }
 ]

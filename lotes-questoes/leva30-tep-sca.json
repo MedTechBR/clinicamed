@@ -1,19 +1,19 @@
 [
  {
-  "q": "Mulher de 58 anos faz tomografia de tórax para estadiamento de neoplasia e o exame mostra embolia pulmonar segmentar incidental. Ela está assintomática, com sinais vitais normais e boa capacidade funcional. Segundo a diretriz americana vigente de embolia pulmonar, qual é a conduta quanto ao local de tratamento?",
+  "q": "Mulher de 58 anos faz tomografia de tórax para estadiamento de neoplasia e o exame mostra embolia pulmonar segmentar incidental. Ela está assintomática, com sinais vitais normais e boa capacidade funcional. O câncer é um adenocarcinoma de cólon ainda não tratado, o PESI simplificado é de 1 ponto pela neoplasia, a troponina e o BNP são normais e o ecocardiograma não mostra disfunção de ventrículo direito. Tem suporte familiar e acesso ao oncologista na semana seguinte. Segundo a diretriz americana vigente de embolia pulmonar, qual é a conduta quanto ao local de tratamento?",
   "alts": [
-   "Internação obrigatória em enfermaria por sete dias, período mínimo de observação após o diagnóstico.",
-   "Internação em terapia intensiva, indicada em toda embolia pulmonar diagnosticada em paciente oncológico.",
-   "Alta do pronto-socorro com anticoagulação, pois a categoria A dispensa a hospitalização do paciente.",
-   "Observação de doze horas com nova tomografia antes de decidir entre alta hospitalar ou internação.",
-   "Alta sem anticoagulação, uma vez que a embolia incidental assintomática não exige qualquer tratamento."
+   "Internação por 7 dias",
+   "Internação em UTI",
+   "Alta com anticoagulação",
+   "Observação de 12 h e nova tomografia",
+   "Alta sem anticoagulação"
   ],
   "gab": 2,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "tit",
-  "base": "AHA/ACC 2026 — Guideline for acute pulmonary embolism, categoria clínica A",
+  "base": "AHA/ACC 2026. Guideline for acute pulmonary embolism, categoria clínica A",
   "coment": "A diretriz de 2026 substituiu a classificação em maciço, submaciço e não maciço por categorias clínicas de A a E. A categoria A corresponde ao paciente com embolia pulmonar aguda assintomática, e a diretriz afirma que esses pacientes podem receber alta do pronto-socorro com segurança, sem necessidade de hospitalização. A categoria B, de sintomáticos com escore de gravidade clínica baixo, recebe recomendação de alta hospitalar precoce. Já as categorias C, D e E devem ser hospitalizadas. O achado incidental não dispensa anticoagulação: a embolia existe e é tratada.",
   "porAlt": [
    "Internação de sete dias não é exigida em nenhuma categoria e contraria a recomendação para pacientes assintomáticos.",
@@ -24,123 +24,123 @@
   ]
  },
  {
-  "q": "Homem de 63 anos com embolia pulmonar confirmada está com pressão de 122/78 mmHg e frequência de 96 bpm, mas apresenta troponina elevada e relação entre ventrículo direito e esquerdo aumentada na angiotomografia. Como classificar e onde tratar esse paciente?",
+  "q": "Homem de 63 anos com TEP bilateral confirmado chegou com pressão arterial de 84/52 mmHg, que subiu para 108/66 mmHg após 500 mL de cristaloide e se mantém há 1 hora sem vasopressor. Frequência 118 bpm, extremidades frias, enchimento capilar de 4 segundos, lactato de 3,6 mmol/L e diurese baixa. Troponina elevada e razão VD/VE de 1,4. Sem hipoxemia importante. Pela classificação AHA/ACC de 2026, em que categoria ele está?",
   "alts": [
-   "Categoria A, uma vez que a pressão arterial normal caracteriza embolia pulmonar de baixo risco real.",
-   "Categoria C, com indicação de hospitalização para otimizar as estratégias de tratamento adotadas.",
-   "Categoria B, com alta precoce indicada por não haver hipotensão nem necessidade de vasopressor agora.",
-   "Categoria E, definida pela presença de disfunção do ventrículo direito em qualquer nível de pressão.",
-   "Fora das categorias, que se aplicam somente aos pacientes com instabilidade hemodinâmica instalada."
+   "Categoria C3",
+   "Categoria D1",
+   "Categoria D2",
+   "Categoria E1",
+   "Categoria E2"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "AHA/ACC 2026 — categorias clínicas de embolia pulmonar, categoria C",
-  "coment": "A categoria C reúne pacientes sintomáticos com escore de gravidade clínica elevado, incluindo aqueles com biomarcadores elevados e disfunção de ventrículo direito — exatamente o quadro descrito. Esses pacientes devem ser hospitalizados para otimizar o tratamento, mesmo estando normotensos, porque são os que podem deteriorar nas primeiras horas. A categoria D corresponde à falência cardiopulmonar incipiente e a E à falência com hipotensão persistente. Confundir pressão normal com gravidade baixa é o erro clássico da embolia de risco intermediário.",
+  "base": "AHA/ACC Guideline for the Management of Acute Pulmonary Embolism, 2026",
+  "coment": "A AHA/ACC 2026 criou a categoria D para o estado de pré-falência cardiopulmonar, que a classificação antiga jogava no lado estável. D1 é hipotensão transitória ou recorrente, responsiva a volume, sem hipoperfusão; D2 é a mesma hipotensão transitória com marcador de hipoperfusão (lactato elevado, extremidades frias, oligúria), incluindo o choque normotenso. E1 é hipotensão persistente com choque cardiogênico, e E2, choque refratário ou parada. A categoria vem do indicador mais grave e muda ao longo da internação.",
   "porAlt": [
-   "A categoria A é reservada ao paciente assintomático, o que não se aplica a quem tem sintomas e disfunção ventricular.",
-   "Correta: sintomático com biomarcador elevado e disfunção de ventrículo direito é categoria C, com indicação de internação.",
-   "A categoria B pressupõe escore de gravidade clínica baixo, incompatível com troponina elevada e sobrecarga ventricular.",
-   "A categoria E exige falência cardiopulmonar com hipotensão persistente, ausente neste paciente normotenso.",
-   "As categorias cobrem todo o espectro, do assintomático ao choque, e não apenas os pacientes instáveis."
+   "C3 não tem hipotensão; aqui houve hipotensão transitória com hipoperfusão.",
+   "D1 é hipotensão transitória sem sinais de hipoperfusão.",
+   "Hipotensão transitória que respondeu a volume com lactato alto e extremidades frias: D2, pré-falência com hipoperfusão.",
+   "E1 exige hipotensão persistente ou recorrente com choque.",
+   "E2 é choque refratário ou parada cardíaca."
   ]
  },
  {
-  "q": "Paciente com embolia pulmonar e hipotensão persistente apesar de volume e noradrenalina, com lactato em elevação, é discutido pela equipe. Segundo a diretriz vigente, qual é a posição das terapias avançadas nesse cenário?",
+  "q": "Mulher de 58 anos, no quarto dia de pós-operatório de artroplastia de joelho, tem dispneia súbita e síncope. Pressão arterial 76/48 mmHg há 40 minutos, apesar de 1 litro de cristaloide e noradrenalina 0,3 µg/kg/min, lactato 5,2 mmol/L. Ecocardiograma à beira do leito com ventrículo direito muito dilatado e trombo em trânsito no átrio direito. A cirurgia foi feita com raquianestesia, sem sangramento. Qual é a conduta de reperfusão mais adequada?",
   "alts": [
-   "Estão contraindicadas enquanto o paciente usar vasopressor, por risco proibitivo de sangramento.",
-   "Ficam reservadas apenas aos pacientes com contraindicação absoluta à anticoagulação plena convencional.",
-   "Devem ser adiadas por vinte e quatro horas de anticoagulação plena antes de qualquer decisão invasiva.",
-   "São sempre razoáveis nessa categoria: trombólise sistêmica, cateter dirigido e trombectomia mecânica.",
-   "São indicadas somente após confirmação de trombo em átrio direito pelo ecocardiograma transesofágico."
+   "Anticoagulação plena isolada e reavaliar em 24 horas",
+   "Filtro de veia cava imediato e anticoagulação plena",
+   "Reperfusão trombolítica ou mecânica, conforme o risco de sangramento",
+   "Aguardar angiotomografia antes de qualquer reperfusão",
+   "Intubação imediata antes de qualquer outra medida"
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "tit",
-  "base": "AHA/ACC 2026 — terapias avançadas nas categorias E1 e D1-2 da embolia pulmonar aguda",
-  "coment": "A diretriz de 2026 posiciona as terapias avançadas — trombólise sistêmica, trombólise dirigida por cateter, trombectomia mecânica e embolectomia cirúrgica — como razoáveis para pacientes na categoria E1, isto é, falência cardiopulmonar com hipotensão persistente, e como possíveis de considerar nas categorias D1 e D2, de falência cardiopulmonar incipiente. A diretriz também recomenda a existência de equipes de resposta à embolia pulmonar, os chamados PERT, para melhorar a tempestividade do cuidado, já que essa decisão é multidisciplinar e sensível ao tempo.",
+  "base": "AHA/ACC Guideline for the Management of Acute Pulmonary Embolism, 2026; ESC Guidelines for acute pulmonary embolism, 2019",
+  "coment": "Hipotensão persistente com choque caracteriza a categoria E1 da AHA/ACC 2026 (antigo TEP maciço). Com risco de sangramento aceitável, trombólise sistêmica somada à anticoagulação é razoável para reduzir mortalidade e recorrência (2a); alteplase 100 mg em 2 horas é o esquema mais usado. Cirurgia de grande porte há 4 dias é contraindicação relativa, e a equipe de resposta ao TEP pesa trombólise em dose reduzida, trombectomia por cateter ou embolectomia cirúrgica, esta última atraente com trombo em trânsito. A intubação pode precipitar colapso no ventrículo direito falido e deve ser evitada ou feita com extremo cuidado.",
   "porAlt": [
-   "O uso de vasopressor não contraindica terapia avançada; ao contrário, marca a gravidade que a justifica nesse cenário.",
-   "Contraindicação à anticoagulação leva a filtro de veia cava, e não é o que define a indicação de terapia avançada.",
-   "Adiar por vinte e quatro horas em paciente com choque desperdiça a janela em que a reperfusão ainda muda o desfecho.",
-   "Correta: na categoria E1 as terapias avançadas são razoáveis, e a diretriz recomenda acionar a equipe de resposta à embolia.",
-   "Trombo em átrio direito é um achado adicional, mas não é pré-requisito para indicar terapia avançada no choque."
+   "Choque persistente exige reperfusão, não só anticoagulação.",
+   "Filtro não trata o choque.",
+   "Categoria E1: reperfusão imediata, trombolítica ou mecânica, pesando a cirurgia recente e o trombo em trânsito.",
+   "Com ecocardiograma compatível e instabilidade, não se deve esperar a tomografia.",
+   "Intubar antes de reperfundir pode precipitar parada pelo ventrículo direito."
   ]
  },
  {
-  "q": "Homem de 47 anos teve embolia pulmonar não provocada, sem cirurgia, trauma, imobilização ou neoplasia identificados. Completou seis meses de anticoagulação com boa tolerância e sem sangramento. Qual é a conduta quanto à duração do tratamento?",
+  "q": "Homem de 47 anos teve TEP segmentar bilateral não provocado, sem cirurgia, trauma, imobilização, câncer ou trombofilia conhecida. Completou 6 meses de apixabana 5 mg duas vezes ao dia, com boa adesão e sem sangramento. Função renal normal, sem úlcera ou uso de antiagregante. Pesquisa de câncer adequada para a idade negativa. Prefere seguir tratando se for seguro. O índice de massa corporal é 29 kg/m² e ele pratica corrida 3 vezes por semana. Qual é a conduta ao fim da fase inicial?",
   "alts": [
-   "Suspender agora, pois seis meses já encerram o tratamento em qualquer embolia do adulto jovem.",
-   "Suspender e repetir angiotomografia anualmente, estratégia que substitui a manutenção do anticoagulante.",
-   "Trocar por ácido acetilsalicílico em dose baixa por tempo indefinido, com a mesma eficácia preventiva.",
-   "Manter apenas meia dose por mais três meses e então encerrar definitivamente qualquer antitrombótico.",
-   "Estender a anticoagulação além da fase inicial, com reavaliação periódica do risco de sangramento."
+   "Suspender, pois completou 6 meses",
+   "Trocar para varfarina com INR 2 a 3",
+   "Apixabana 2,5 mg duas vezes ao dia estendida",
+   "Ácido acetilsalicílico e suspender o apixabana",
+   "Filtro de veia cava e suspender a anticoagulação"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "AHA/ACC 2026 — anticoagulação na fase estendida após primeira embolia sem fator de risco maior reversível",
-  "coment": "A diretriz recomenda que pacientes com primeira embolia pulmonar sem fator de risco maior reversível, e também aqueles com fator de risco persistente, continuem a anticoagulação além da fase inicial de tratamento, de três a seis meses, entrando na fase estendida. O racional é o risco elevado de recorrência da doença não provocada, que se mantém alto após a suspensão. A decisão é revisada periodicamente, pesando risco de recorrência contra risco hemorrágico, e alguns anticoagulantes diretos permitem dose reduzida nessa fase. O ácido acetilsalicílico é bem menos eficaz que a anticoagulação.",
+  "base": "AHA/ACC Guideline for the Management of Acute Pulmonary Embolism, 2026; Agnelli et al., AMPLIFY-EXT, NEJM, 2013",
+  "coment": "Primeiro TEP sem fator de risco maior reversível tem recorrência de 30 a 40% em 10 anos se a anticoagulação for suspensa. A AHA/ACC 2026 considera benéfica a fase estendida além de 3 a 6 meses (classe 1) e recomenda, nela, meia dose de apixabana (2,5 mg duas vezes ao dia) ou rivaroxabana (10 mg/dia) para reduzir sangramento (classe 1). O risco de sangramento é reavaliado periodicamente. Aspirina é alternativa apenas para quem recusa ou não pode anticoagular.",
   "porAlt": [
-   "Encerrar em seis meses é a conduta da embolia provocada por fator maior reversível, o que não é o caso descrito.",
-   "Repetir imagem não previne recorrência e não substitui a anticoagulação na prevenção secundária do tromboembolismo.",
-   "O antiagregante reduz pouco a recorrência quando comparado ao anticoagulante e não é substituto adequado.",
-   "Não existe esquema de meia dose por três meses como estratégia de encerramento; a fase estendida é contínua e revisada.",
-   "Correta: embolia sem fator de risco maior reversível tem indicação de fase estendida, com reavaliação periódica do risco."
+   "TEP não provocado tem alta recorrência após suspender.",
+   "Varfarina tem mais sangramento e não é superior.",
+   "TEP não provocado ao fim da fase inicial: anticoagulação estendida com meia dose de apixabana, reavaliando o sangramento.",
+   "Aspirina é inferior e fica para quem não pode anticoagular.",
+   "Filtro não substitui anticoagulação."
   ]
  },
  {
-  "q": "Homem de 60 anos com infarto agudo do miocárdio com supradesnivelamento de ST é levado à angioplastia primária e apresenta doença triarterial. Está em choque cardiogênico, em uso de noradrenalina. Segundo a diretriz americana vigente, qual é a estratégia de revascularização?",
+  "q": "Homem de 60 anos, tabagista, com infarto com supradesnivelamento de ST anterior é levado à angioplastia primária 90 minutos após o início da dor, com implante de stent farmacológico em descendente anterior proximal e fluxo TIMI 3 ao final. Evolui estável, com pressão de 126/78 mmHg, frequência de 78 bpm e sem congestão. O ecocardiograma de controle mostra fração de ejeção de 42% com acinesia apical. Não tem indicação de anticoagulação por outro motivo, não teve sangramento e a hemoglobina é de 14,2 g/dL. Qual é o esquema antitrombótico na alta?",
   "alts": [
-   "Revascularizar todas as lesões significativas no mesmo procedimento, estratégia preferida no choque.",
-   "Adiar toda revascularização até a estabilização hemodinâmica completa do paciente em terapia intensiva.",
-   "Revascularizar apenas o vaso culpado em emergência, sem angioplastia das artérias não culpadas agora.",
-   "Encaminhar diretamente à cirurgia de revascularização, que é a escolha padrão diante do choque instalado.",
-   "Tratar apenas clinicamente, uma vez que a angioplastia no choque não altera a mortalidade hospitalar."
+   "Ácido acetilsalicílico com ticagrelor ou prasugrel por 12 meses",
+   "Ácido acetilsalicílico com clopidogrel por 1 mês",
+   "Ácido acetilsalicílico isolado",
+   "Anticoagulante oral direto com ácido acetilsalicílico",
+   "Ticagrelor isolado por 12 meses"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "tit",
-  "base": "ACC/AHA 2025 — Guideline for acute coronary syndromes, revascularização no choque cardiogênico",
-  "coment": "A diretriz de 2025 recomenda revascularização completa no infarto com supradesnivelamento de ST e na síndrome sem supra — mas abre exceção explícita para o choque cardiogênico: nesse cenário, indica-se revascularização de emergência do vaso culpado, e a angioplastia de rotina das artérias não relacionadas ao infarto no mesmo tempo NÃO é recomendada. A diretriz também incorporou o suporte com bomba de fluxo microaxial em pacientes selecionados com choque relacionado ao infarto, como razoável para reduzir morte, com atenção ao maior risco de sangramento, isquemia de membro e insuficiência renal.",
+  "base": "ACC/AHA 2025, SCA: dupla antiagregação após angioplastia primária",
+  "coment": "Após infarto com supradesnivelamento tratado com stent, a dupla antiagregação padrão é ácido acetilsalicílico associado a um inibidor potente do P2Y12, ticagrelor ou prasugrel, por 12 meses, na ausência de risco hemorrágico proibitivo. O clopidogrel fica para quem tem contraindicação aos potentes ou necessita de anticoagulação concomitante.",
   "porAlt": [
-   "A revascularização completa é a regra fora do choque; no choque, tratar os não culpados no mesmo tempo piora desfechos.",
-   "Adiar a revascularização do vaso culpado no choque retira a única intervenção que pode reverter a causa da instabilidade.",
-   "Correta: no choque cardiogênico revasculariza-se o vaso culpado, e a angioplastia de rotina dos não culpados não é recomendada.",
-   "A cirurgia tem indicação em anatomia específica, mas não é a via padrão de emergência no choque por infarto agudo.",
-   "O tratamento apenas clínico no choque por infarto tem mortalidade proibitiva; a reperfusão é o que muda o desfecho."
+   "Correta: inibidor potente do P2Y12 por 12 meses.",
+   "Um mês é insuficiente após infarto, e o clopidogrel é menos potente.",
+   "A antiagregação simples logo após stent expõe a trombose do dispositivo.",
+   "Não há indicação de anticoagulação neste paciente.",
+   "A monoterapia com ticagrelor pode entrar após alguns meses, não na alta."
   ]
  },
  {
-  "q": "Paciente de 68 anos internado por síndrome coronariana aguda sem supradesnivelamento apresenta hemoglobina de 8,1 g/dL por anemia crônica, sem qualquer sangramento ativo. Está com angina aos mínimos esforços. Qual é a conduta transfusional segundo a diretriz vigente?",
+  "q": "Homem de 68 anos internado por síndrome coronariana aguda sem supradesnivelamento, no terceiro dia, apresenta hemoglobina de 8,2 g/dL, queda de 10,4 g/dL na admissão, sem sangramento exteriorizado. Está estável, sem dor torácica, com pressão de 118/72 mmHg e frequência de 84 bpm. A endoscopia não mostrou lesão sangrante ativa. Está em uso de ácido acetilsalicílico, clopidogrel e enoxaparina. Qual é a conduta transfusional?",
   "alts": [
-   "Aplicar alvo restritivo de sete gramas, estratégia que costuma ser usada na hemorragia digestiva.",
-   "Não transfundir em hipótese alguma, já que a anemia crônica é bem tolerada por pacientes coronariopatas.",
-   "Pode ser razoável transfundir mirando hemoglobina em torno de dez, por causa da isquemia miocárdica.",
-   "Transfundir apenas se a hemoglobina cair abaixo de seis, limiar único aceito em qualquer contexto clínico.",
-   "Transfundir plasma fresco congelado antes das hemácias, corrigindo primeiro os fatores de coagulação."
+   "Transfundir com alvo de hemoglobina em torno de 10 g/dL",
+   "Transfundir apenas se a hemoglobina cair abaixo de 7 g/dL",
+   "Não transfundir enquanto estiver assintomático",
+   "Transfundir duas unidades e reavaliar em 24 horas",
+   "Suspender toda antiagregação antes de decidir"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ACC/AHA 2025 — manejo da anemia na síndrome coronariana aguda",
-  "coment": "A diretriz de 2025 afirma que a transfusão de concentrado de hemácias para manter hemoglobina em torno de 10 g/dL pode ser razoável em pacientes com síndrome coronariana aguda e anemia aguda ou crônica que não estejam sangrando ativamente. O alvo é mais alto do que o restritivo de 7 a 8 g/dL usado, por exemplo, na hemorragia digestiva alta, porque o miocárdio isquêmico depende da oferta de oxigênio. Saber que o alvo transfusional muda conforme o contexto — e não é um número universal — é justamente o tipo de distinção que a prova cobra.",
+  "base": "ACC/AHA 2025 e ensaio MINT, transfusão no infarto com anemia",
+  "coment": "O ensaio MINT comparou estratégia restritiva e liberal em pacientes com infarto e anemia: a estratégia liberal, com alvo em torno de 10 g/dL, mostrou tendência de benefício no desfecho de morte ou reinfarto em 30 dias. A diretriz de 2025 passou a considerar razoável a transfusão com alvo mais alto nesse cenário específico, diferente do paciente crítico geral.",
   "porAlt": [
-   "O alvo restritivo se aplica à hemorragia digestiva, onde transfundir demais eleva a pressão portal e o ressangramento.",
-   "Anemia com isquemia miocárdica ativa não é bem tolerada: reduz a oferta de oxigênio ao miocárdio já comprometido.",
-   "Correta: na síndrome coronariana com anemia e sem sangramento ativo, mirar hemoglobina em torno de dez pode ser razoável.",
-   "O limiar de seis gramas não é universal e seria insuficiente diante de angina aos mínimos esforços neste paciente.",
-   "O plasma corrige coagulopatia específica e não trata anemia, que é o problema de oferta de oxigênio deste caso."
+   "Correta: no infarto com anemia, o alvo mais liberal é o razoável.",
+   "O gatilho de 7 g/dL é do paciente crítico sem isquemia.",
+   "Esperar sintoma em miocárdio isquêmico é arriscado.",
+   "Transfundir por número fixo de unidades sem alvo não é estratégia.",
+   "Suspender toda antiagregação após stent recente expõe a trombose."
   ]
  }
 ]

@@ -1,242 +1,242 @@
 [
  {
-  "q": "Paciente com HIV em tratamento apresenta carga viral indetectável há dois anos e pergunta sobre transmissão sexual. Qual é a orientação?",
+  "q": "Homem de 38 anos com HIV em uso regular de dolutegravir com tenofovir e lamivudina há três anos mantém carga viral indetectável nas últimas quatro medidas e CD4 de 720 células/mm³. Tem parceira soronegativa estável e pergunta sobre o risco de transmissão sexual sem preservativo. Nega outras infecções sexualmente transmissíveis e a adesão é confirmada pela farmácia. Qual é a orientação?",
   "alts": [
-   "A transmissão sexual permanece igualmente provável mesmo com carga viral indetectável sustentada por anos neste caso.",
-   "A carga viral indetectável autoriza a suspensão do antirretroviral sem qualquer risco de rebote virológico neste caso.",
-   "A transmissão só é evitada com abstinência sexual completa, mesmo com carga viral indetectável sustentada neste caso.",
-   "A indetectabilidade elimina a necessidade de qualquer acompanhamento clínico ou laboratorial posterior neste caso.",
-   "Carga viral indetectável sustentada torna a transmissão sexual intransmissível, mantendo sempre a adesão ao tratamento."
+   "Carga indetectável significa intransmissível por via sexual",
+   "O risco é reduzido, mas permanece significativo",
+   "A indetecção não altera o risco de transmissão",
+   "Só é seguro se o CD4 estiver acima de 1.000",
+   "É preciso suspender o antirretroviral para avaliar"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; estudos PARTNER e HPTN 052",
-  "coment": "O conceito indetectável igual a intransmissível está estabelecido por grandes estudos: pessoas com HIV em tratamento e carga viral indetectável sustentada por pelo menos seis meses não transmitem o vírus por via sexual. Isso não dispensa a adesão contínua, o acompanhamento com carga viral periódica, nem a prevenção de outras infecções sexualmente transmissíveis, que seguem sendo transmitidas independentemente da carga viral do HIV.",
+  "base": "Ministério da Saúde, 2024 e estudo PARTNER, indetectável igual a intransmissível",
+  "coment": "O conceito de indetectável igual a intransmissível está consolidado pelos estudos PARTNER e Opposites Attract, que não registraram nenhuma transmissão ligada ao parceiro com carga viral suprimida. Mesmo em milhares de relações sem preservativo. A condição é supressão sustentada por pelo menos seis meses com boa adesão. O preservativo segue recomendado para outras infecções.",
   "porAlt": [
-   "Grandes estudos demonstraram ausência de transmissão sexual com carga viral indetectável sustentada.",
-   "Suspender o antirretroviral leva a rebote virológico e retorno do risco de transmissão em semanas.",
-   "A abstinência não é necessária, pois a indetectabilidade sustentada já impede a transmissão sexual.",
-   "O acompanhamento clínico e a carga viral periódica seguem sendo necessários indefinidamente.",
-   "Correta: indetectável sustentado significa intransmissível por via sexual, com adesão mantida."
+   "Correta: supressão sustentada elimina o risco de transmissão sexual.",
+   "Os estudos não encontraram risco residual mensurável.",
+   "A carga viral é justamente o determinante da transmissão.",
+   "O CD4 não é o determinante da transmissibilidade.",
+   "Suspender o antirretroviral é conduta errada e perigosa."
   ]
  },
  {
-  "q": "Paciente com abscesso cutâneo de 4 cm flutuante, sem sinais sistêmicos. Qual é a conduta?",
+  "q": "Homem de 29 anos, hígido, apresenta lesão em face lateral da coxa há cinco dias, com dor local progressiva. Ao exame, há nódulo eritematoso de 4 cm, quente, doloroso e com flutuação central evidente, sem linfangite ou crepitação. Está afebril, com pressão de 124/78 mmHg, frequência de 78 bpm e sem comorbidades. O eritema circunjacente é de 1 cm além da coleção e não há imunossupressão. Qual é a conduta?",
   "alts": [
-   "Apenas antibiótico oral sem qualquer drenagem do abscesso flutuante identificado ao exame físico agora.",
-   "Apenas compressa morna domiciliar por trinta dias como tratamento definitivo do abscesso descrito agora já.",
-   "Antibiótico endovenoso em ambiente hospitalar para todos os pacientes com abscesso cutâneo flutuante.",
-   "Corticoide sistêmico em dose alta como tratamento de escolha para o abscesso cutâneo flutuante descrito.",
-   "Drenagem cirúrgica do abscesso, considerando sempre antibiótico associado conforme o tamanho e o contexto."
+   "Drenagem cirúrgica da coleção",
+   "Antibiótico oral isolado por sete dias",
+   "Compressas mornas e reavaliação em 48 horas",
+   "Antibiótico intravenoso e internação",
+   "Punção aspirativa com agulha fina"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "IDSA Practice Guidelines for Skin and Soft Tissue Infections, revisão 2023",
-  "coment": "O tratamento do abscesso cutâneo é a drenagem, que é a intervenção essencial. Antibiótico sistêmico é acrescentado em abscessos maiores que dois centímetros, múltiplos, com celulite extensa associada, em imunossuprimidos, em áreas de difícil drenagem e diante de sinais sistêmicos, cobrindo Staphylococcus aureus incluindo cepas resistentes conforme a epidemiologia local. Antibiótico sem drenagem falha porque não penetra adequadamente na coleção.",
+  "base": "IDSA 2014 (infecções de pele e partes moles: abscesso cutâneo",
+  "coment": "Abscesso cutâneo flutuante tem como tratamento principal a incisão e drenagem) antibiótico não penetra coleção formada. Em abscesso não complicado, sem sinais sistêmicos, imunossupressão ou celulite extensa, a drenagem isolada é suficiente; o antibiótico se associa quando há esses fatores ou múltiplas lesões.",
   "porAlt": [
-   "O antibiótico isolado penetra mal na coleção e falha sem a drenagem da cavidade abscedada.",
-   "Compressas mornas por trinta dias permitem progressão local e disseminação da infecção.",
-   "O tratamento endovenoso hospitalar é desproporcional para abscesso sem sinais sistêmicos.",
-   "O corticoide não trata a infecção e favorece a disseminação do processo infeccioso local.",
-   "Correta: drenagem do abscesso, com antibiótico associado conforme o tamanho e o contexto clínico."
+   "Correta: a drenagem é o tratamento, e basta no não complicado.",
+   "Antibiótico sem drenar não resolve coleção formada.",
+   "Compressas apenas atrasam o tratamento definitivo.",
+   "Não há critério de gravidade para internação.",
+   "A punção com agulha fina não drena adequadamente."
   ]
  },
  {
-  "q": "Paciente com esquistossomose e hipertensão portal com varizes esofágicas. Qual é a conduta?",
+  "q": "Homem de 42 anos, natural do norte de Minas, tem esquistossomose mansônica na forma hepatoesplênica. Apresenta esplenomegalia de 6 cm do rebordo, sem ascite ou icterícia. A endoscopia mostra varizes esofágicas de médio calibre com sinais vermelhos, sem sangramento prévio. Plaquetas de 84.000/mm³, albumina de 4,0 g/dL, RNI de 1,1 e bilirrubinas normais. Ainda não usou praziquantel. Qual é a conduta?",
   "alts": [
-   "Tratar apenas com antibiótico de amplo espectro, sem qualquer fármaco específico contra o parasito.",
-   "Aguardar a resolução espontânea da infecção sem qualquer tratamento antiparasitário no paciente agora.",
-   "Indicar transplante hepático imediato em todos os pacientes com esquistossomose e varizes esofágicas.",
-   "Tratar a infecção com praziquantel e conduzir sempre a hipertensão portal com profilaxia de sangramento.",
-   "Prescrever apenas dieta hipossódica como tratamento definitivo da hipertensão portal esquistossomótica."
+   "Betabloqueador não seletivo e praziquantel",
+   "Ligadura elástica de urgência",
+   "Esplenectomia com desconexão ázigo-portal",
+   "Transjugular intra-hepatic portosystemic shunt",
+   "Apenas praziquantel, sem profilaxia de sangramento"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de esquistossomose; OMS — Guideline on control and elimination of schistosomiasis, 2022",
-  "coment": "A forma hepatoesplênica da esquistossomose causa fibrose de Symmers e hipertensão portal pré-sinusoidal, com função hepatocelular relativamente preservada, o que a distingue da cirrose. O tratamento antiparasitário com praziquantel é indicado mesmo na forma avançada, para interromper a deposição de ovos, e a hipertensão portal é conduzida com profilaxia de sangramento por betabloqueador ou ligadura elástica, além do tratamento do sangramento agudo.",
+  "base": "Baveno VII, 2022 e Ministério da Saúde, 2014 (esquistossomose e hipertensão portal",
+  "coment": "Varizes de médio calibre com sinais vermelhos, sem sangramento prévio, indicam profilaxia primária) betabloqueador não seletivo, como propranolol ou carvedilol, ou ligadura elástica eletiva. O praziquantel trata a infecção e reduz a progressão da fibrose. Na esquistossomose a função hepatocelular é preservada, o que explica albumina e coagulação normais.",
   "porAlt": [
-   "O antibiótico de amplo espectro não tem ação sobre o parasito responsável pela doença.",
-   "A infecção não se resolve espontaneamente e a deposição de ovos mantém a fibrose progressiva.",
-   "O transplante é excepcional nessa forma, cuja função hepatocelular costuma estar preservada.",
-   "Correta: praziquantel para o parasito e manejo da hipertensão portal com profilaxia de sangramento.",
-   "A dieta hipossódica é adjuvante e não trata a hipertensão portal nem o risco de sangramento."
+   "Correta: profilaxia primária associada ao tratamento etiológico.",
+   "A ligadura de urgência é para sangramento ativo; eletiva é alternativa ao betabloqueador.",
+   "A cirurgia é reservada a refratários ao tratamento clínico e endoscópico.",
+   "O TIPS é para sangramento refratário ou ascite intratável.",
+   "Tratar a infecção sem profilaxia deixa o risco de sangramento descoberto."
   ]
  },
  {
-  "q": "Paciente com suspeita de sepse de foco urinário e cultura mostrando bactéria multirresistente. Qual princípio orienta o ajuste?",
+  "q": "Mulher de 74 anos, institucionalizada e com sonda vesical de demora, é internada com febre de 39 °C, confusão e dor em flanco. Está com pressão de 88/56 mmHg, frequência de 116 bpm e lactato de 3,2 mmol/L. Iniciou piperacilina-tazobactam empírica. No segundo dia a urocultura mostra Klebsiella pneumoniae produtora de carbapenemase, sensível apenas a ceftazidima-avibactam e polimixina B, com resistência ao esquema em uso. Qual é a conduta?",
   "alts": [
-   "Manter o esquema empírico de amplo espectro por tempo indefinido, mesmo após o resultado da cultura.",
-   "Descalonar ou ajustar conforme o antibiograma, mantendo sempre a menor duração eficaz do tratamento.",
-   "Associar sempre quatro antibióticos diferentes em todos os casos de bactéria multirresistente identificada.",
-   "Suspender toda antibioticoterapia assim que houver melhora clínica nas primeiras vinte e quatro horas.",
-   "Escolher o antibiótico apenas pelo custo, sem qualquer consideração sobre o perfil de sensibilidade."
+   "Trocar para ceftazidima-avibactam e remover a sonda",
+   "Manter piperacilina-tazobactam em dose otimizada",
+   "Associar amicacina ao esquema empírico atual",
+   "Trocar para meropeném em infusão prolongada",
+   "Aguardar novo antibiograma antes de mudar"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA Guidance on Antimicrobial-Resistant Gram-Negative Infections, atualização 2024; ANVISA — programas de gerenciamento de antimicrobianos, 2023",
-  "coment": "O gerenciamento de antimicrobianos orienta iniciar cobertura empírica adequada e, com o resultado da cultura, descalonar para o agente de menor espectro eficaz, ajustar dose pela função renal e pelo sítio, e definir a menor duração com evidência. Reduzir espectro e duração diminui resistência, toxicidade, custo e infecção por Clostridioides difficile, sem prejuízo de desfecho quando a fonte está controlada e a resposta clínica é adequada.",
+  "base": "IDSA 2023, tratamento de infecções por bactérias resistentes: enterobactérias produtoras de carbapenemase",
+  "coment": "Com sepse de foco urinário por enterobactéria produtora de carbapenemase, o tratamento deve seguir o antibiograma: ceftazidima-avibactam é preferível à polimixina por melhor eficácia e menor nefrotoxicidade. Tão importante quanto o antimicrobiano é o controle do foco. A sonda de demora colonizada deve ser removida ou trocada.",
   "porAlt": [
-   "Manter amplo espectro indefinidamente seleciona resistência e aumenta toxicidade e custo.",
-   "Correta: descalonar ou ajustar pelo antibiograma, mantendo a menor duração eficaz do tratamento.",
-   "Associar quatro antibióticos amplia toxicidade e interações sem benefício demonstrado.",
-   "Suspender em vinte e quatro horas subtrata a infecção e favorece recidiva com resistência.",
-   "Escolher apenas pelo custo, ignorando a sensibilidade, resulta em falha terapêutica previsível."
+   "Correta: seguir o antibiograma e remover o dispositivo colonizado.",
+   "Manter um fármaco ao qual a cepa é resistente é manter o paciente sem tratamento.",
+   "O aminoglicosídeo isolado não resgata um esquema ineficaz.",
+   "A cepa produz carbapenemase: o meropeném não funciona.",
+   "Esperar novo antibiograma com sepse em curso é adiar o necessário."
   ]
  },
  {
-  "q": "Paciente com mordedura de cão em membro superior, ferimento profundo, em área endêmica de raiva. Qual é a conduta?",
+  "q": "Homem de 45 anos é mordido por cão desconhecido em antebraço direito há duas horas, com ferimento profundo e lacerante. O animal fugiu e não pode ser observado. A região tem circulação comprovada de raiva em morcegos e casos caninos notificados no último ano. O paciente nunca foi vacinado contra raiva. O ferimento foi lavado com água e sabão. Está afebril, com pressão de 126/78 mmHg. Qual é a conduta profilática para raiva?",
   "alts": [
-   "Lavar o ferimento, avaliar profilaxia antirrábica e antitetânica e observar sempre o animal quando possível.",
-   "Suturar imediatamente o ferimento e liberar sem qualquer avaliação de profilaxia antirrábica indicada agora.",
-   "Aplicar apenas antibiótico tópico e liberar sem qualquer avaliação da situação vacinal do paciente agora.",
-   "Indicar soro antirrábico para todos os casos de mordedura, independentemente de qualquer avaliação clínica.",
-   "Aguardar o aparecimento de sintomas neurológicos antes de qualquer profilaxia antirrábica no paciente agora."
+   "Soro antirrábico infiltrado na lesão e esquema vacinal completo",
+   "Apenas esquema vacinal, sem soro",
+   "Observar o animal por dez dias antes de decidir",
+   "Apenas lavagem e antibiótico profilático",
+   "Soro antirrábico isolado, sem vacina"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Nota Técnica sobre profilaxia da raiva humana, 2022; Guia de Vigilância em Saúde, 2024",
-  "coment": "O manejo da mordedura combina lavagem abundante com água e sabão, avaliação de profilaxia antirrábica conforme a gravidade da exposição e a possibilidade de observar o animal por dez dias, profilaxia antitetânica conforme a situação vacinal e consideração de antibiótico, geralmente amoxicilina com clavulanato, em ferimentos profundos, em mãos e face e em imunossuprimidos. O esquema antirrábico varia entre observação, vacina isolada e vacina com soro.",
+  "base": "Ministério da Saúde, 2022, Nota Técnica de profilaxia antirrábica humana",
+  "coment": "Ferimento profundo e lacerante por animal não passível de observação, em área com circulação viral, configura acidente grave: indica-se soro antirrábico com infiltração no fundo e nas paredes da lesão, mais esquema vacinal completo. A observação do animal por dez dias só se aplica quando o cão pode ser observado, o que não é o caso.",
   "porAlt": [
-   "Correta: lavar o ferimento, avaliar profilaxia antirrábica e antitetânica e observar o animal se possível.",
-   "Suturar sem avaliação aumenta infecção e ignora a necessidade de profilaxia antirrábica indicada.",
-   "Antibiótico tópico isolado não previne raiva nem tétano e é insuficiente em ferimento profundo.",
-   "O soro não é indicado em todos os casos: o esquema depende da gravidade e do animal envolvido.",
-   "A raiva é praticamente sempre fatal quando sintomática; a profilaxia deve ser feita antes disso."
+   "Correta: acidente grave com animal não observável exige soro e vacina.",
+   "A vacina isolada não protege no intervalo até a resposta imune.",
+   "Não há animal para observar: ele fugiu.",
+   "A lavagem e o antibiótico não previnem a raiva.",
+   "O soro isolado não confere proteção duradoura."
   ]
  },
  {
-  "q": "Paciente imunossuprimido apresenta febre e infiltrado pulmonar com nódulos e sinal do halo na tomografia. Qual é a suspeita?",
+  "q": "Homem de 52 anos, no vigésimo dia após transplante de medula óssea alogênico, com neutropenia prolongada, apresenta febre persistente há cinco dias apesar de antibiótico de amplo espectro. Refere dor torácica pleurítica e tosse seca. Está com temperatura de 38,6 °C, frequência respiratória de 24 irpm e saturação de 93%. A tomografia de tórax mostra múltiplos nódulos com halo de vidro fosco ao redor e um deles com sinal do crescente aéreo. Qual é a hipótese e a conduta?",
   "alts": [
-   "Pneumonia pneumocócica típica, definida por nódulos com sinal do halo em paciente imunossuprimido febril agora.",
-   "Aspergilose pulmonar invasiva, cuja suspeita exige sempre início precoce de antifúngico e investigação dirigida.",
-   "Tuberculose pulmonar cavitária clássica, caracterizada por nódulos múltiplos com sinal do halo na tomografia.",
-   "Edema pulmonar cardiogênico agudo, definido por nódulos pulmonares com sinal do halo à tomografia de tórax.",
-   "Sarcoidose pulmonar em atividade, quadro definido por febre com nódulos e sinal do halo em imunossuprimido."
+   "Aspergilose invasiva: voriconazol e galactomanana",
+   "Pneumonia bacteriana: ampliar o espectro antibacteriano",
+   "Tuberculose pulmonar: iniciar esquema RIPE",
+   "Pneumocistose: sulfametoxazol-trimetoprima em dose alta",
+   "Embolia pulmonar séptica: anticoagulação plena"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "IDSA Practice Guidelines for the Diagnosis and Management of Aspergillosis, revisão 2023; ECIL guidelines, 2023",
-  "coment": "O sinal do halo — nódulo com halo de vidro fosco ao redor, correspondente a hemorragia perilesional — em paciente neutropênico ou imunossuprimido é altamente sugestivo de aspergilose pulmonar invasiva, sobretudo em fase precoce. A investigação inclui galactomanana sérica e em lavado broncoalveolar, cultura e tomografia seriada. O tratamento com voriconazol ou isavuconazol deve começar precocemente, pois o atraso aumenta muito a mortalidade.",
+  "base": "IDSA 2016. Aspergilose invasiva: diagnóstico e tratamento",
+  "coment": "Nódulos com sinal do halo em neutropênico prolongado com febre refratária a antibacterianos são característicos de aspergilose pulmonar invasiva; o sinal do crescente aéreo aparece mais tarde, na recuperação dos neutrófilos. O tratamento de escolha é voriconazol, e a galactomanana sérica e do lavado broncoalveolar apoia o diagnóstico.",
   "porAlt": [
-   "A pneumonia pneumocócica cursa com consolidação lobar, e não com nódulos e sinal do halo.",
-   "Correta: aspergilose pulmonar invasiva, com antifúngico precoce e investigação dirigida imediata.",
-   "A tuberculose cursa com cavitação e infiltrado apical, sem o sinal do halo característico descrito.",
-   "O edema cardiogênico cursa com congestão difusa e derrame, e não com nódulos e halo.",
-   "A sarcoidose cursa com adenomegalia hilar e nódulos peribroncovasculares, sem esse padrão agudo."
+   "Correta: achados tomográficos típicos em hospedeiro de risco.",
+   "A febre já é refratária ao antibacteriano de amplo espectro.",
+   "A tuberculose não produz sinal do halo nesse contexto.",
+   "A pneumocistose cursa com infiltrado intersticial difuso, não nódulos com halo.",
+   "Não há dado de foco embólico séptico nem trombose."
   ]
  },
  {
-  "q": "Paciente com doença de Chagas crônica e alterações no eletrocardiograma. Qual é a conduta?",
+  "q": "Mulher de 56 anos, natural do sul do Piauí, tem sorologia reagente em dois métodos para doença de Chagas. Está assintomática, sem dispneia ou palpitações. O eletrocardiograma mostra bloqueio de ramo direito associado a bloqueio divisional ântero-superior. O ecocardiograma revela fração de ejeção de 58% sem alteração segmentar, e a radiografia de tórax tem área cardíaca normal. Não há megaesôfago ou megacólon. Qual é a conduta?",
   "alts": [
-   "Não realizar qualquer avaliação cardiológica, pois a doença de Chagas crônica não acomete o coração neste caso.",
-   "Iniciar apenas antibiótico de amplo espectro como tratamento da doença de Chagas crônica diagnosticada neste caso.",
-   "Indicar transplante cardíaco imediato em todos os pacientes com alteração eletrocardiográfica e sorologia positiva.",
-   "Prescrever apenas anti-inflamatório contínuo como tratamento da cardiopatia chagásica crônica identificada agora.",
-   "Avaliar a forma cardíaca com exames complementares e considerar sempre tratamento antiparasitário conforme a idade."
+   "Benznidazol e seguimento cardiológico anual",
+   "Apenas seguimento, sem tratamento etiológico",
+   "Marca-passo definitivo pelo bloqueio bifascicular",
+   "Amiodarona profilática para arritmia ventricular",
+   "Cardiodesfibrilador implantável"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas da Doença de Chagas, 2018 com revisão 2022; Diretriz Brasileira de Cardiopatia Chagásica — SBC, 2023",
-  "coment": "Na doença de Chagas crônica, a avaliação cardiológica inclui eletrocardiograma, ecocardiograma e Holter, buscando bloqueios, extrassístoles, taquicardia ventricular, aneurisma apical e disfunção ventricular, que definem o estadiamento e o prognóstico. O tratamento antiparasitário com benznidazol é recomendado na forma indeterminada e nas formas iniciais, sobretudo abaixo de cinquenta anos, e o manejo da cardiopatia segue as diretrizes de insuficiência cardíaca e arritmias.",
+  "base": "SBC 2023, diretriz de cardiopatia chagásica; Ministério da Saúde, 2018",
+  "coment": "A forma cardíaca indeterminada com alteração eletrocardiográfica e função ventricular preservada corresponde ao estágio A ou B1, em que o tratamento etiológico com benznidazol está indicado, sobretudo abaixo de 50 a 60 anos e sem cardiopatia avançada. O seguimento é anual com eletrocardiograma e ecocardiograma, e o bloqueio bifascicular assintomático não indica marca-passo.",
   "porAlt": [
-   "A cardiopatia chagásica crônica é a manifestação mais importante e determina o prognóstico.",
-   "O antibiótico não tem ação sobre o Trypanosoma cruzi, cujo tratamento é com benznidazol.",
-   "O transplante se reserva a doença avançada refratária, e não a toda alteração eletrocardiográfica.",
-   "O anti-inflamatório não trata a cardiopatia chagásica nem modifica sua evolução natural.",
-   "Correta: avaliar a forma cardíaca com exames complementares e considerar antiparasitário conforme a idade."
+   "Correta: tratamento etiológico indicado com seguimento estruturado.",
+   "Deixar de tratar nessa faixa perde a janela de benefício.",
+   "Bifascicular assintomático não é indicação de marca-passo.",
+   "A amiodarona profilática não reduz mortalidade nesse estágio.",
+   "O desfibrilador exige disfunção ventricular ou arritmia documentada."
   ]
  },
  {
-  "q": "Paciente com febre e petéquias de instalação rápida, com sinais de choque. Qual é a conduta imediata?",
+  "q": "Homem de 19 anos, universitário morador de alojamento, é trazido com febre de 39,5 °C iniciada há oito horas, cefaleia intensa e vômitos. Evoluiu rapidamente com sonolência e surgimento de petéquias em tronco e membros, algumas confluindo em equimoses. Está com pressão de 78/44 mmHg, frequência de 132 bpm, tempo de enchimento capilar de 5 segundos e rigidez de nuca. A glicemia é de 118 mg/dL. Qual é a conduta imediata?",
   "alts": [
-   "Antibiótico endovenoso imediato com suporte, pois a suspeita de meningococcemia exige sempre tratamento sem demora.",
-   "Aguardar a punção lombar e o resultado do líquor antes de qualquer administração de antibiótico ao paciente agora.",
-   "Prescrever apenas antitérmico e observar clinicamente por doze horas antes de qualquer conduta adicional agora.",
-   "Iniciar apenas corticoide sistêmico em dose alta, sem qualquer antibiótico no paciente com petéquias e choque.",
-   "Solicitar hemograma e aguardar o resultado antes de iniciar qualquer antibiótico no paciente com choque agora."
+   "Antibiótico imediato e ressuscitação volêmica",
+   "Punção lombar antes de qualquer antibiótico",
+   "Tomografia de crânio antes do antibiótico",
+   "Corticoide isolado antes do antibiótico",
+   "Isolamento respiratório e observação clínica"
   ],
   "gab": 0,
   "tema": "infecto",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, 2024, capítulo de doença meningocócica; IDSA/ESCMID guidance, revisão 2023",
-  "coment": "Febre com petéquias ou púrpura de instalação rápida e sinais de choque sugere meningococcemia, cuja letalidade é alta e a evolução é medida em horas. O antibiótico endovenoso — ceftriaxona — deve ser administrado imediatamente, sem aguardar punção lombar ou exames, junto de ressuscitação volêmica e suporte hemodinâmico. A doença é de notificação compulsória imediata e exige quimioprofilaxia dos contatos próximos com rifampicina ou ceftriaxona.",
+  "base": "IDSA 2004 e Ministério da Saúde. Doença meningocócica",
+  "coment": "Febre com petéquias de instalação rápida e choque é meningococcemia até prova em contrário, e a mortalidade sobe a cada hora sem antibiótico. A conduta é ceftriaxona imediata com ressuscitação volêmica e vasopressor. Hemoculturas são colhidas se não atrasarem, e a punção lombar fica para depois da estabilização, sobretudo com instabilidade hemodinâmica.",
   "porAlt": [
-   "Correta: antibiótico endovenoso imediato com suporte, pela suspeita de doença meningocócica invasiva.",
-   "Aguardar a punção lombar atrasa em horas um antibiótico que define a sobrevida do paciente.",
-   "Observar por doze horas nesse quadro permite evolução para choque refratário e óbito.",
-   "O corticoide é adjuvante em situações específicas e nunca substitui o antibiótico nessa doença.",
-   "Aguardar o hemograma atrasa o tratamento de uma emergência infecciosa de evolução muito rápida."
+   "Correta: o antibiótico não espera procedimento nenhum.",
+   "A punção em paciente em choque atrasa o tratamento e é arriscada.",
+   "A imagem não deve atrasar o antibiótico.",
+   "A dexametasona se associa ao antibiótico, não o substitui.",
+   "Observar meningococcemia é aceitar mortalidade evitável."
   ]
  },
  {
-  "q": "Paciente será submetido a esplenectomia eletiva. Qual é a conduta preventiva?",
+  "q": "Mulher de 36 anos será submetida a esplenectomia eletiva por esferocitose hereditária, programada para daqui a quatro semanas. Está assintomática, com hemoglobina de 10,2 g/dL, sem uso de imunossupressor e com caderneta vacinal em dia para a idade, exceto por vacinas específicas para asplenia. A cirurgia é eletiva e há tempo hábil para preparo. Pesa 64 kg, não tem alergia a vacinas e mora com o marido e 2 filhos em idade escolar. Qual é a conduta preventiva?",
   "alts": [
-   "Não realizar qualquer vacinação, pois a esplenectomia não aumenta o risco de infecção grave no paciente agora.",
-   "Vacinar apenas após um ano da cirurgia, pois a vacinação prévia não confere qualquer proteção adicional agora.",
-   "Prescrever apenas antibiótico profilático contínuo, dispensando qualquer imunização antes do procedimento.",
-   "Vacinar apenas contra influenza, única vacina indicada para pacientes submetidos a esplenectomia eletiva.",
-   "Vacinar contra germes encapsulados antes da cirurgia, orientando sempre conduta diante de febre no seguimento."
+   "Vacinas pneumocócica, meningocócica e Haemophilus antes",
+   "Vacinar só após a cicatrização",
+   "Antibiótico contínuo no lugar das vacinas",
+   "Só a vacina pneumocócica, a mais importante",
+   "Dispensar medidas por ser eletiva"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual dos Centros de Referência para Imunobiológicos Especiais, 2023; IDSA guidance on asplenia, revisão 2023",
-  "coment": "O paciente asplênico tem risco elevado de sepse fulminante por germes encapsulados, sobretudo pneumococo, meningococo e Haemophilus influenzae tipo b. Na esplenectomia eletiva, as vacinas devem ser aplicadas pelo menos duas semanas antes do procedimento, com reforços conforme o calendário do centro de imunobiológicos especiais. Orienta-se ainda vacinação anual contra influenza, conduta imediata diante de febre e, em grupos selecionados, antibiótico profilático.",
+  "base": "Ministério da Saúde, 2023. Manual dos CRIE: imunização em asplenia",
+  "coment": "O asplênico tem risco elevado de sepse fulminante por germes encapsulados. Em esplenectomia eletiva as vacinas contra pneumococo, meningococo e Haemophilus influenzae tipo b devem ser aplicadas idealmente pelo menos duas semanas antes do procedimento, quando a resposta imune é melhor. Somam-se influenza anual, orientação de febre como urgência e antibiótico de emergência em domicílio.",
   "porAlt": [
-   "A asplenia aumenta muito o risco de sepse fulminante por bactérias encapsuladas no paciente.",
-   "Adiar a vacinação por um ano deixa o paciente desprotegido no período de maior vulnerabilidade.",
-   "O antibiótico profilático é complementar em grupos selecionados e não substitui a imunização.",
-   "Além da influenza, são indicadas vacinas contra pneumococo, meningococo e Haemophilus tipo b.",
-   "Correta: vacinar contra germes encapsulados antes da cirurgia e orientar conduta diante de febre."
+   "Correta: os três agentes encapsulados, antes da cirurgia.",
+   "Vacinar depois produz resposta imune inferior.",
+   "O antibiótico é complementar, não substitui as vacinas.",
+   "Meningococo e Haemophilus também causam sepse no asplênico.",
+   "Justamente o esplenectomizado precisa de preparo."
   ]
  },
  {
-  "q": "Paciente com diarreia aguda aquosa sem febre e sem sangue, há dois dias, sem sinais de desidratação grave. Qual é a conduta?",
+  "q": "Homem de 27 anos, sem comorbidades, apresenta diarreia aquosa há dois dias, com cerca de cinco evacuações por dia, sem sangue, muco ou febre. Refere cólicas leves e náuseas. Está com pressão de 122/76 mmHg, frequência de 82 bpm, mucosas úmidas, turgor preservado e diurese normal. Não viajou recentemente, não usou antibiótico e não há relato de surto. O abdome é flácido, doloroso à palpação profunda difusa. Qual é a conduta?",
   "alts": [
-   "Antibiótico de amplo espectro para todos os pacientes com diarreia aguda atendidos no serviço de saúde.",
-   "Solicitar coprocultura de rotina em todos os casos de diarreia aguda aquosa sem febre e sem sangue agora já.",
-   "Hidratação oral e orientação alimentar, reservando sempre o antibiótico a situações específicas e definidas.",
-   "Prescrever antiparasitário empírico em todos os casos de diarreia aguda com duração de dois dias agora.",
-   "Indicar internação hospitalar para hidratação endovenosa em todos os casos de diarreia aguda aquosa agora."
+   "Hidratação oral e sintomáticos",
+   "Ciprofloxacino oral por cinco dias",
+   "Coprocultura antes de qualquer conduta",
+   "Internação para hidratação intravenosa",
+   "Loperamida em dose alta como medida isolada"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea, revisão 2023; Ministério da Saúde — manejo da diarreia aguda, 2022",
-  "coment": "A diarreia aguda aquosa sem febre e sem sangue é geralmente viral e autolimitada, e o tratamento é hidratação oral com solução de reidratação, manutenção da alimentação e orientação sobre sinais de alarme. Antibiótico se reserva a disenteria com febre alta, suspeita de cólera, diarreia do viajante moderada a grave, imunossupressão e sepse. Coprocultura é indicada em disenteria, febre, imunossupressão, quadro prolongado ou surto sob investigação.",
+  "base": "IDSA 2017. Diarreia infecciosa: diagnóstico e tratamento",
+  "coment": "Diarreia aguda aquosa, sem febre, sem sangue e sem sinais de desidratação, em imunocompetente, é autolimitada e o tratamento é reidratação oral com sintomáticos. Antibiótico não encurta o quadro viral, seleciona resistência e, na suspeita de Escherichia coli produtora de toxina Shiga, aumenta o risco de síndrome hemolítico-urêmica. Coprocultura fica para disenteria, febre alta, imunossupressão ou quadro prolongado.",
   "porAlt": [
-   "O antibiótico universal é desnecessário, seleciona resistência e pode prolongar o estado de portador.",
-   "A coprocultura de rotina tem baixo rendimento na diarreia aquosa autolimitada sem sinais de alarme.",
-   "Correta: hidratação oral e orientação alimentar, com antibiótico restrito a situações específicas.",
-   "O antiparasitário empírico não é indicado em diarreia aguda de dois dias sem fatores de risco.",
-   "A internação se reserva à desidratação grave ou à intolerância à hidratação por via oral."
+   "Correta: quadro autolimitado tratado com reidratação.",
+   "O antibiótico não está indicado na diarreia aquosa sem sinais de gravidade.",
+   "A coprocultura não muda a conduta nesse quadro.",
+   "Não há desidratação que justifique internação.",
+   "A loperamida isolada não é a base do tratamento e se evita em disenteria."
   ]
  }
 ]

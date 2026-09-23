@@ -12,8 +12,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Epidemiologia clínica — valor preditivo positivo e teorema de Bayes; Ministério da Saúde, diretrizes de vigilância da hanseníase, 2022",
-  "coment": "Sensibilidade e especificidade são propriedades do teste; o valor preditivo positivo depende também da prevalência. Com sensibilidade de 80% e especificidade de 80% numa população com prevalência de 10%, em mil pessoas haveria 100 doentes, dos quais 80 testariam positivo, e 900 sem a doença, dos quais 180 seriam falso-positivos. Entre os 260 positivos, 80 têm a doença — cerca de 31%. É o ponto central da testagem: em doença de baixa prevalência, mesmo um teste razoável produz maioria de falso-positivos, e por isso não se rastreia população de baixo risco.",
+  "base": "Epidemiologia clínica. Valor preditivo positivo e teorema de Bayes; Ministério da Saúde, diretrizes de vigilância da hanseníase, 2022",
+  "coment": "Sensibilidade e especificidade são propriedades do teste; o valor preditivo positivo depende também da prevalência. Com sensibilidade de 80% e especificidade de 80% numa população com prevalência de 10%, em mil pessoas haveria 100 doentes, dos quais 80 testariam positivo, e 900 sem a doença, dos quais 180 seriam falso-positivos. Entre os 260 positivos, 80 têm a doença, cerca de 31%. É o ponto central da testagem: em doença de baixa prevalência, mesmo um teste razoável produz maioria de falso-positivos, e por isso não se rastreia população de baixo risco.",
   "porAlt": [
    "Correta: aproximadamente 31%, calculado a partir de 80 verdadeiro-positivos entre 260 positivos totais.",
    "O valor de 97% corresponderia ao valor preditivo negativo neste cenário.",
@@ -38,8 +38,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2024",
-  "coment": "Tosse por duas semanas ou mais com febre, sudorese noturna e emagrecimento em pessoa em situação de rua define sintomático respiratório em população de altíssimo risco. A investigação recomendada é o teste rápido molecular ou baciloscopia com cultura e teste de sensibilidade — importante nesse grupo pelo risco de resistência —, somada à testagem para HIV, hepatites virais e sífilis, porque a coinfecção muda o tratamento e o prognóstico. Radiografia complementa, mas não substitui a investigação bacteriológica, e o tratamento é feito na própria atenção primária, preferencialmente supervisionado.",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2024",
+  "coment": "Tosse por duas semanas ou mais com febre, sudorese noturna e emagrecimento em pessoa em situação de rua define sintomático respiratório em população de altíssimo risco. A investigação recomendada é o teste rápido molecular ou baciloscopia com cultura e teste de sensibilidade, importante nesse grupo pelo risco de resistência, somada à testagem para HIV, hepatites virais e sífilis, porque a coinfecção muda o tratamento e o prognóstico. Radiografia complementa, mas não substitui a investigação bacteriológica, e o tratamento é feito na própria atenção primária, preferencialmente supervisionado.",
   "porAlt": [
    "Correta: investigação bacteriológica com cultura e teste de sensibilidade somada à testagem para HIV, hepatites e sífilis.",
    "Iniciar tratamento apenas pela radiografia dispensa a confirmação bacteriológica e o teste de sensibilidade.",
@@ -65,7 +65,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "ACG Clinical Guideline: Ulcerative Colitis in Adults, 2019; ECCO-ESGAR guidelines on diagnostics in inflammatory bowel disease, 2019",
-  "coment": "Diarreia sanguinolenta com tenesmo, cólicas e artralgia migratória por três meses, sem resposta a antibiótico, aponta para doença inflamatória intestinal, e a investigação que fecha o diagnóstico é a colonoscopia com biópsias da mucosa — que define extensão, padrão de acometimento e histologia, separando retocolite de doença de Crohn. As causas infecciosas devem ser afastadas em paralelo com coproculturas e pesquisa de parasitas, mas nenhuma delas explica três meses de evolução com manifestação articular associada.",
+  "coment": "Diarreia sanguinolenta com tenesmo, cólicas e artralgia migratória por três meses, sem resposta a antibiótico, aponta para doença inflamatória intestinal, e a investigação que fecha o diagnóstico é a colonoscopia com biópsias da mucosa. Que define extensão, padrão de acometimento e histologia, separando retocolite de doença de Crohn. As causas infecciosas devem ser afastadas em paralelo com coproculturas e pesquisa de parasitas, mas nenhuma delas explica três meses de evolução com manifestação articular associada.",
   "porAlt": [
    "Correta: colonoscopia com biópsias da mucosa, exame que estabelece o diagnóstico.",
    "A investigação de coccídios se justifica em imunossupressão com diarreia crônica aquosa, não com sangue e tenesmo.",
@@ -90,8 +90,8 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, tungíase e dermatoses parasitárias, 2024; consensos de dermatologia tropical",
-  "coment": "Lesões papulosas amareladas com ponto enegrecido central nos pés, pruriginosas e dolorosas, em quem trabalha com criação de porcos e circula descalço em solo contaminado, caracterizam tungíase, causada pela pulga Tunga penetrans. O tratamento é a remoção do parasita em condições assépticas, com antiparasitário sistêmico — tiabendazol ou ivermectina — nas infestações múltiplas, além de atualizar a profilaxia antitetânica, tratar os animais e o solo, e orientar o uso de calçado fechado, que é o que evita a reinfestação.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, tungíase e dermatoses parasitárias, 2024; consensos de dermatologia tropical",
+  "coment": "Lesões papulosas amareladas com ponto enegrecido central nos pés, pruriginosas e dolorosas, em quem trabalha com criação de porcos e circula descalço em solo contaminado, caracterizam tungíase, causada pela pulga Tunga penetrans. O tratamento é a remoção do parasita em condições assépticas, com antiparasitário sistêmico, tiabendazol ou ivermectina, nas infestações múltiplas, além de atualizar a profilaxia antitetânica, tratar os animais e o solo, e orientar o uso de calçado fechado, que é o que evita a reinfestação.",
   "porAlt": [
    "A resolução espontânea não é conduta: as lesões múltiplas causam dor, infecção secundária e risco de tétano.",
    "Antibiótico e pomada antialérgica não removem o parasita nem interrompem o ciclo.",
@@ -116,8 +116,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2024; Política Nacional para a População em Situação de Rua",
-  "coment": "Tosse há oito dias em pessoa em situação de rua deve ser investigada para tuberculose mesmo antes das clássicas três semanas: nessa população o risco relativo é dezenas de vezes maior que o da população geral, e a oportunidade de contato com o serviço costuma ser única. A prioridade, portanto, é o exame de escarro — teste rápido molecular ou baciloscopia com cultura —, aproveitando o atendimento para oferecer também testagem para HIV, hepatites e sífilis. A cefaleia, sem alteração no exame neurológico, não muda essa prioridade.",
+  "base": "Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil, 2024; Política Nacional para a População em Situação de Rua",
+  "coment": "Tosse há oito dias em pessoa em situação de rua deve ser investigada para tuberculose mesmo antes das clássicas três semanas: nessa população o risco relativo é dezenas de vezes maior que o da população geral, e a oportunidade de contato com o serviço costuma ser única. A prioridade, portanto, é o exame de escarro, teste rápido molecular ou baciloscopia com cultura, aproveitando o atendimento para oferecer também testagem para HIV, hepatites e sífilis. A cefaleia, sem alteração no exame neurológico, não muda essa prioridade.",
   "porAlt": [
    "Tomografia de tórax não é o exame de triagem para tuberculose pulmonar.",
    "A dosagem de tiamina não é prioritária diante de exame neurológico normal.",
@@ -142,10 +142,10 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Guia de Tratamento da Malária no Brasil, 2023; Guia de Vigilância em Saúde",
-  "coment": "Febre com calafrios e sudorese que se organiza em paroxismos a cada 48 horas, em pessoa procedente da Amazônia há 30 dias, com esplenomegalia, é malária até prova em contrário — o padrão terçã sugere Plasmodium vivax ou falciparum. O diagnóstico é imediato, por gota espessa ou teste rápido, com resultado no mesmo atendimento, e o tratamento é gratuito e padronizado. Fora da área endêmica, o risco é justamente o atraso diagnóstico: malária por falciparum evolui para forma grave em horas, e todo caso é de notificação imediata.",
+  "base": "Ministério da Saúde. Guia de Tratamento da Malária no Brasil, 2023; Guia de Vigilância em Saúde",
+  "coment": "Febre com calafrios e sudorese que se organiza em paroxismos a cada 48 horas, em pessoa procedente da Amazônia há 30 dias, com esplenomegalia, é malária até prova em contrário. O padrão terçã sugere Plasmodium vivax ou falciparum. O diagnóstico é imediato, por gota espessa ou teste rápido, com resultado no mesmo atendimento, e o tratamento é gratuito e padronizado. Fora da área endêmica, o risco é justamente o atraso diagnóstico: malária por falciparum evolui para forma grave em horas, e todo caso é de notificação imediata.",
   "porAlt": [
-   "Correta: malária — investigação por hematoscopia e tratamento antimalárico com suporte.",
+   "Correta: malária. Investigação por hematoscopia e tratamento antimalárico com suporte.",
    "A chikungunya não cursa com paroxismos febris a cada 48 horas por um mês.",
    "A febre amarela tem curso bifásico de dias, não paroxismos por semanas, e não se trata com vitamina A.",
    "A doença de Chagas aguda não produz esse padrão febril periódico, e a pesquisa a fresco tem janela nas primeiras semanas."
@@ -168,7 +168,7 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "CDC — Epstein-Barr Virus and Infectious Mononucleosis, 2024; Ministério da Saúde, Guia de Vigilância em Saúde, 2024 (síndromes febris com linfadenopatia)",
+  "base": "CDC. Epstein-Barr Virus and Infectious Mononucleosis, 2024; Ministério da Saúde, Guia de Vigilância em Saúde, 2024 (síndromes febris com linfadenopatia)",
   "coment": "Faringite exsudativa com linfadenomegalia cervical posterior, febre, astenia importante, petéquias em palato e exantema em adolescente é o quadro clássico da mononucleose infecciosa por vírus Epstein-Barr. O hemograma mostra linfocitose com linfócitos atípicos, e a confirmação se faz por anticorpos heterófilos ou sorologia específica. Dois pontos práticos: prescrever amoxicilina provoca exantema em grande parte dos casos, e o paciente deve evitar esportes de contato por semanas pelo risco de ruptura esplênica.",
   "porAlt": [
    "A criptococose acomete imunossuprimidos, com meningite subaguda.",
@@ -194,11 +194,11 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Dengue: diagnóstico e manejo clínico, 2024; OPAS, diretrizes para arboviroses nas Américas",
-  "coment": "Febre alta de início abrupto com cefaleia, mialgia, dor retro-orbitária sem conjuntivite e exantema, em residente de área urbana do Sudeste, corresponde ao quadro de dengue, a arbovirose de maior incidência no país — e a hipótese epidemiológica se apoia tanto na clínica quanto na prevalência local. O detalhe que merece atenção é o momento: a febre cessou há quatro dias, e é justamente na defervescência que se instala o período crítico, motivo pelo qual o paciente precisa de reavaliação e orientação sobre sinais de alarme.",
+  "base": "Ministério da Saúde. Dengue: diagnóstico e manejo clínico, 2024; OPAS, diretrizes para arboviroses nas Américas",
+  "coment": "Febre alta de início abrupto com cefaleia, mialgia, dor retro-orbitária sem conjuntivite e exantema, em residente de área urbana do Sudeste, corresponde ao quadro de dengue, a arbovirose de maior incidência no país, e a hipótese epidemiológica se apoia tanto na clínica quanto na prevalência local. O detalhe que merece atenção é o momento: a febre cessou há quatro dias, e é justamente na defervescência que se instala o período crítico, motivo pelo qual o paciente precisa de reavaliação e orientação sobre sinais de alarme.",
   "porAlt": [
    "O Zika cursa com exantema pruriginoso proeminente, conjuntivite não purulenta e febre baixa ou ausente.",
-   "Correta: dengue — febre alta abrupta, dor retro-orbitária e exantema, com maior prevalência local.",
+   "Correta: dengue. Febre alta abrupta, dor retro-orbitária e exantema, com maior prevalência local.",
    "A chikungunya tem a poliartralgia intensa e incapacitante como marca, não artralgia leve.",
    "A febre amarela exige exposição em área de mata e evolui com icterícia e disfunção hepática."
   ],
@@ -221,7 +221,7 @@
   "comp": "prev",
   "nivel": "r3",
   "base": "Baveno VII, 2022; AASLD Practice Guidance on portal hypertensive bleeding; Ministério da Saúde, PCDT de esquistossomose",
-  "coment": "Na esquistossomose hepatoesplênica, a hipertensão portal é pré-sinusoidal e a função hepatocelular costuma ser relativamente preservada, mas o risco de hemorragia por varizes é alto. Com plaquetopenia e esplenomegalia indicando hipertensão portal clinicamente significativa, a conduta preventiva é o betabloqueador não seletivo — hoje o carvedilol é preferido, por reduzir mais o gradiente de pressão venosa hepática. O edema discreto não caracteriza ascite volumosa nem indica paracentese, e a albumina se reserva a paracentese de grande volume, peritonite espontânea e síndrome hepatorrenal.",
+  "coment": "Na esquistossomose hepatoesplênica, a hipertensão portal é pré-sinusoidal e a função hepatocelular costuma ser relativamente preservada, mas o risco de hemorragia por varizes é alto. Com plaquetopenia e esplenomegalia indicando hipertensão portal clinicamente significativa, a conduta preventiva é o betabloqueador não seletivo. Hoje o carvedilol é preferido, por reduzir mais o gradiente de pressão venosa hepática. O edema discreto não caracteriza ascite volumosa nem indica paracentese, e a albumina se reserva a paracentese de grande volume, peritonite espontânea e síndrome hepatorrenal.",
   "porAlt": [
    "Albumina não é conduta ambulatorial em edema discreto sem paracentese de grande volume.",
    "Correta: carvedilol, betabloqueador de escolha para profilaxia de sangramento na hipertensão portal.",
@@ -246,7 +246,7 @@
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis, 2020",
+  "base": "American Society of Colon and Rectal Surgeons, Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis, 2020",
   "coment": "Diverticulite aguda com abscesso pericólico pequeno, de até 3 a 4 cm, sem peritonite e em paciente estável, é tratada com antibioticoterapia isolada, tipicamente por via intravenosa com internação, reservando a drenagem percutânea para abscessos maiores ou para falha do tratamento clínico. Cirurgia de urgência se restringe à peritonite difusa, à perfuração livre e à ausência de resposta. Após a resolução, indica-se colonoscopia de intervalo em seis a oito semanas para excluir neoplasia, e a ressecção eletiva é decidida caso a caso.",
   "porAlt": [
    "Correta: antibioticoterapia isolada, adequada para abscesso pequeno em paciente estável.",

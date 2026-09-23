@@ -38,12 +38,12 @@
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Brain Trauma Foundation — Guidelines for the Management of Severe Traumatic Brain Injury, 4ª edição, 2016; ATLS, 10ª edição, 2018",
+  "base": "Brain Trauma Foundation. Guidelines for the Management of Severe Traumatic Brain Injury, 4ª edição, 2016; ATLS, 10ª edição, 2018",
   "coment": "Hipertensão arterial, bradicardia e alteração do padrão respiratório compõem a tríade de Cushing, resposta fisiológica à hipertensão intracraniana grave com iminência de herniação. É o achado que mais diretamente indica a necessidade de medidas imediatas: cabeceira elevada, controle de PaCO₂, sedação e analgesia, terapia hiperosmolar com salina hipertônica ou manitol, e tomografia com avaliação neurocirúrgica urgente. Escala de coma baixa, midríase e ausência de reflexos indicam gravidade, mas é a tríade que sinaliza a fisiopatologia em curso.",
   "porAlt": [
    "Escala de coma 3 indica gravidade, mas não caracteriza por si a hipertensão intracraniana.",
    "A midríase sugere herniação, porém isolada é menos específica que o conjunto hemodinâmico e respiratório.",
-   "Correta: presença da tríade de Cushing — hipertensão, bradicardia e respiração irregular.",
+   "Correta: presença da tríade de Cushing, hipertensão, bradicardia e respiração irregular.",
    "A ausência de reflexo córneo-palpebral indica disfunção de tronco, mas não é o marcador da hipertensão intracraniana."
   ],
   "fonte": {
@@ -64,8 +64,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "ATS/ERS Official Statement — Diagnosis and Initial Management of Nonmalignant Diseases Related to Asbestos, 2004 e atualizações; Ministério da Saúde, protocolo de asbestose relacionada ao trabalho",
-  "coment": "Dispneia progressiva com tosse seca em trabalhador da construção civil por 25 anos, com opacidades reticulares e placas pleurais calcificadas bilaterais, é asbestose. As placas pleurais são o marcador de exposição ao asbesto — indicam contato, não necessariamente doença —, e a fibrose de predomínio basal define a pneumoconiose. Não há tratamento específico: a conduta é afastar a exposição, notificar como doença relacionada ao trabalho, oferecer reabilitação, vacinação e cessação de tabagismo, e vigiar o risco aumentado de câncer de pulmão e de mesotelioma.",
+  "base": "ATS/ERS Official Statement. Diagnosis and Initial Management of Nonmalignant Diseases Related to Asbestos, 2004 e atualizações; Ministério da Saúde, protocolo de asbestose relacionada ao trabalho",
+  "coment": "Dispneia progressiva com tosse seca em trabalhador da construção civil por 25 anos, com opacidades reticulares e placas pleurais calcificadas bilaterais, é asbestose. As placas pleurais são o marcador de exposição ao asbesto (indicam contato, não necessariamente doença), e a fibrose de predomínio basal define a pneumoconiose. Não há tratamento específico: a conduta é afastar a exposição, notificar como doença relacionada ao trabalho, oferecer reabilitação, vacinação e cessação de tabagismo, e vigiar o risco aumentado de câncer de pulmão e de mesotelioma.",
   "porAlt": [
    "Correta: asbestose, sugerida pelas placas pleurais calcificadas com fibrose intersticial em exposto.",
    "A paracoccidioidomicose acomete pulmão e mucosa oral, com padrão em asa de morcego, sem placas pleurais.",
@@ -78,7 +78,7 @@
   }
  },
  {
-  "q": "Um paciente de 25 anos está internado há 10 dias com politraumatismo devido a acidente de moto. Ele está acamado, com múltiplas escoriações na perna, e na face lateral da coxa direita — em região de projeção da articulação coxo-femoral. Apresenta febre e inapetência há 5 dias. Refere aparecimento súbito de dor intensa, há 3 dias, que não cede aos analgésicos comuns, acompanhada de área eritematosa e dolorosa à palpação, em região inguinal, estendendo-se ao terço proximal da face anterior da coxa. Constata-se que há limitação na amplitude do movimento da articulação coxo-femoral em virtude da dor. O exame de imagem mais indicado para o diagnóstico desse paciente é a",
+  "q": "Um paciente de 25 anos está internado há 10 dias com politraumatismo devido a acidente de moto. Ele está acamado, com múltiplas escoriações na perna, e na face lateral da coxa direita, em região de projeção da articulação coxo-femoral. Apresenta febre e inapetência há 5 dias. Refere aparecimento súbito de dor intensa, há 3 dias, que não cede aos analgésicos comuns, acompanhada de área eritematosa e dolorosa à palpação, em região inguinal, estendendo-se ao terço proximal da face anterior da coxa. Constata-se que há limitação na amplitude do movimento da articulação coxo-femoral em virtude da dor. O exame de imagem mais indicado para o diagnóstico desse paciente é a",
   "alts": [
    "radiografia simples",
    "ressonância magnética",
@@ -116,7 +116,7 @@
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Norma Técnica de Atenção Humanizada às Pessoas em Situação de Violência Sexual, 2015 e atualizações; PCDT de Profilaxia Pós-Exposição ao HIV, 2022",
+  "base": "Ministério da Saúde. Norma Técnica de Atenção Humanizada às Pessoas em Situação de Violência Sexual, 2015 e atualizações; PCDT de Profilaxia Pós-Exposição ao HIV, 2022",
   "coment": "O atendimento à pessoa em situação de violência sexual é urgência e não depende de boletim de ocorrência, exame pericial ou autorização judicial. Nas primeiras 72 horas oferecem-se contracepção de emergência com levonorgestrel em dose única, profilaxia das infecções sexualmente transmissíveis não virais em dose única, profilaxia pós-exposição ao HIV com antirretrovirais e vacinação e imunoglobulina para hepatite B conforme o status vacinal. O desconhecimento sorológico do agressor não posterga a profilaxia, e a notificação é compulsória e imediata.",
   "porAlt": [
    "Correta: levonorgestrel em dose única e profilaxia das infecções virais e não virais, independentemente do status do agressor.",
@@ -143,7 +143,7 @@
   "comp": "urg",
   "nivel": "r1",
   "base": "NICE guideline on low back pain and sciatica, 2020; American College of Physicians, avaliação da lombalgia com bandeiras vermelhas",
-  "coment": "Lombalgia acompanhada de fraqueza em membros inferiores, anestesia em sela, alteração do hábito intestinal e retenção urinária configura síndrome da cauda equina — emergência neurocirúrgica em que o tempo até a descompressão determina a recuperação esfincteriana. A conduta é ressonância magnética da coluna lombossacra imediatamente e avaliação cirúrgica; nenhum outro exame precede a imagem. Radiografia não avalia raízes, e investigar infecção urinária diante de retenção com anestesia em sela desvia do diagnóstico que ameaça função definitiva.",
+  "coment": "Lombalgia acompanhada de fraqueza em membros inferiores, anestesia em sela, alteração do hábito intestinal e retenção urinária configura síndrome da cauda equina. Emergência neurocirúrgica em que o tempo até a descompressão determina a recuperação esfincteriana. A conduta é ressonância magnética da coluna lombossacra imediatamente e avaliação cirúrgica; nenhum outro exame precede a imagem. Radiografia não avalia raízes, e investigar infecção urinária diante de retenção com anestesia em sela desvia do diagnóstico que ameaça função definitiva.",
   "porAlt": [
    "Radiografia não avalia raízes nem cone medular e não exclui compressão.",
    "A punção lombar é contraindicada antes de excluir lesão compressiva e não é o exame indicado.",
@@ -168,8 +168,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025; AHA scientific statement on measurement of blood pressure in humans, 2019",
-  "coment": "Antes de interpretar qualquer valor pressórico, é preciso garantir a técnica: manguito de tamanho adequado ao braço, paciente sentado com dorso apoiado e pés no chão, braço na altura do coração, após cinco minutos de repouso, sem falar durante a medida. Manguito estreito ou curto demais superestima a pressão de forma expressiva, sobretudo em pessoas com sobrepeso — erro sistemático e frequente. Só depois de confirmada a técnica correta faz sentido repetir a medida, indicar monitorização ambulatorial ou residencial e discutir tratamento.",
+  "base": "Diretriz Brasileira de Hipertensão Arterial: SBC/SBH/SBN, 2025; AHA scientific statement on measurement of blood pressure in humans, 2019",
+  "coment": "Antes de interpretar qualquer valor pressórico, é preciso garantir a técnica: manguito de tamanho adequado ao braço, paciente sentado com dorso apoiado e pés no chão, braço na altura do coração, após cinco minutos de repouso, sem falar durante a medida. Manguito estreito ou curto demais superestima a pressão de forma expressiva, sobretudo em pessoas com sobrepeso, erro sistemático e frequente. Só depois de confirmada a técnica correta faz sentido repetir a medida, indicar monitorização ambulatorial ou residencial e discutir tratamento.",
   "porAlt": [
    "A polissonografia não é o passo inicial, e o quadro descrito não caracteriza apneia do sono.",
    "A monitorização ambulatorial é útil, mas depois de garantir que a medida de consultório foi feita corretamente.",
@@ -195,7 +195,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "IDSA/ATS Guidelines for the Management of Hospital-acquired and Ventilator-associated Pneumonia, 2016; IDSA Clinical Practice Guideline for the Management of Candidiasis, 2016",
-  "coment": "Duas lições se cruzam aqui. Primeira: Candida isolada em secreção traqueal de paciente intubado representa colonização, e não pneumonia — tratar antifúngico nesse cenário não traz benefício e é uma das principais fontes de uso desnecessário de antifúngico na terapia intensiva. Segunda: o Staphylococcus aureus é sensível à oxacilina, e o tratamento de escolha para essa cepa é um betalactâmico antiestafilocócico, como a cefazolina ou a própria oxacilina — vancomicina é inferior no estafilococo sensível e deve ser reservada às cepas resistentes.",
+  "coment": "Duas lições se cruzam aqui. Primeira: Candida isolada em secreção traqueal de paciente intubado representa colonização, e não pneumonia. Tratar antifúngico nesse cenário não traz benefício e é uma das principais fontes de uso desnecessário de antifúngico na terapia intensiva. Segunda: o Staphylococcus aureus é sensível à oxacilina, e o tratamento de escolha para essa cepa é um betalactâmico antiestafilocócico, como a cefazolina ou a própria oxacilina. Vancomicina é inferior no estafilococo sensível e deve ser reservada às cepas resistentes.",
   "porAlt": [
    "Correta: cefazolina, betalactâmico adequado ao estafilococo sensível, sem tratar a colonização por Candida.",
    "Clindamicina é alternativa de segunda linha e não é a escolha para bacteremia ou pneumonia estafilocócica.",
@@ -221,7 +221,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "DSM-5-TR (APA, 2022); NICE guideline on eating disorders: recognition and treatment, 2020",
-  "coment": "Restrição alimentar deliberada com perda ponderal acentuada, exercício excessivo, distorção da imagem corporal e amenorreia secundária em adolescente caracterizam anorexia nervosa do tipo restritivo. O tratamento de primeira linha é psicoterapia — com destaque para as intervenções baseadas na família em adolescentes —, associada à reabilitação nutricional cuidadosa, pelo risco de síndrome de realimentação, e ao acompanhamento clínico de eletrólitos, função cardíaca e densidade óssea. Não há fármaco de primeira linha, e bupropiona é contraindicada em transtornos alimentares.",
+  "coment": "Restrição alimentar deliberada com perda ponderal acentuada, exercício excessivo, distorção da imagem corporal e amenorreia secundária em adolescente caracterizam anorexia nervosa do tipo restritivo. O tratamento de primeira linha é psicoterapia, com destaque para as intervenções baseadas na família em adolescentes, associada à reabilitação nutricional cuidadosa, pelo risco de síndrome de realimentação, e ao acompanhamento clínico de eletrólitos, função cardíaca e densidade óssea. Não há fármaco de primeira linha, e bupropiona é contraindicada em transtornos alimentares.",
   "porAlt": [
    "A bulimia envolve compulsões com comportamentos compensatórios, negados no relato, e bupropiona é contraindicada nesse grupo pelo risco de convulsão.",
    "O hipertireoidismo cursa com perda de peso apesar do apetite aumentado, com taquicardia e tremor.",
@@ -247,7 +247,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "EULAR/ACR classification criteria for systemic lupus erythematosus, 2019; Sociedade Brasileira de Reumatologia, consenso de lúpus, 2022",
-  "coment": "Poliartrite migratória e não erosiva em mulher jovem, com fadiga e recidiva após anti-inflamatório, deve levantar a hipótese de lúpus eritematoso sistêmico, e o anticorpo antinuclear é o exame de entrada: é o critério de entrada dos critérios de classificação de 2019 e tem sensibilidade muito alta, de modo que um resultado negativo torna o diagnóstico improvável. Confirmado o FAN reagente, seguem-se anticorpos específicos — anti-DNA nativo e anti-Sm —, complemento, hemograma, urina tipo 1 e função renal.",
+  "coment": "Poliartrite migratória e não erosiva em mulher jovem, com fadiga e recidiva após anti-inflamatório, deve levantar a hipótese de lúpus eritematoso sistêmico, e o anticorpo antinuclear é o exame de entrada: é o critério de entrada dos critérios de classificação de 2019 e tem sensibilidade muito alta, de modo que um resultado negativo torna o diagnóstico improvável. Confirmado o FAN reagente, seguem-se anticorpos específicos, anti-DNA nativo e anti-Sm, complemento, hemograma, urina tipo 1 e função renal.",
   "porAlt": [
    "O HLA-B27 se associa a espondiloartrites, com dor axial inflamatória e entesite.",
    "O fator reumatoide é pouco específico e a artrite reumatoide é aditiva e simétrica, não migratória.",
@@ -273,7 +273,7 @@
   "comp": "urg",
   "nivel": "r3",
   "base": "European guideline on diagnosis and treatment of hyponatraemia, 2014; ASCO/NCCN guidance on SIADH in malignancy",
-  "coment": "Câncer de pulmão de pequenas células é a causa clássica de síndrome de secreção inapropriada de hormônio antidiurético, e o paciente evoluiu com hiponatremia sintomática grave — rebaixamento de consciência e crise convulsiva. Nessa situação, o tratamento é solução salina a 3% em bólus ou infusão, visando elevar o sódio em 4 a 6 mEq/L rapidamente para cessar o sintoma neurológico, com correção total limitada a 8 a 10 mEq/L em 24 horas para evitar síndrome de desmielinização osmótica. Restrição hídrica é conduta da hiponatremia crônica assintomática.",
+  "coment": "Câncer de pulmão de pequenas células é a causa clássica de síndrome de secreção inapropriada de hormônio antidiurético, e o paciente evoluiu com hiponatremia sintomática grave. Rebaixamento de consciência e crise convulsiva. Nessa situação, o tratamento é solução salina a 3% em bólus ou infusão, visando elevar o sódio em 4 a 6 mEq/L rapidamente para cessar o sintoma neurológico, com correção total limitada a 8 a 10 mEq/L em 24 horas para evitar síndrome de desmielinização osmótica. Restrição hídrica é conduta da hiponatremia crônica assintomática.",
   "porAlt": [
    "Correta: salina hipertônica a 3%, tratamento da hiponatremia sintomática grave.",
    "Dexametasona trata edema por metástase cerebral, hipótese secundária diante de hiponatremia com convulsão.",
@@ -298,8 +298,8 @@
   "cenario": "amb",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline — Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016; recomendações sobre dose de estresse em insuficiência adrenal",
-  "coment": "Todo paciente com insuficiência adrenal precisa conhecer a regra do dia de doença: diante de febre ou infecção, a dose de hidrocortisona deve ser dobrada ou triplicada enquanto durar o quadro, retornando à dose habitual depois. Aqui há infecção de vias aéreas com febre de 38,3 °C, mas o paciente está em bom estado geral, sem vômito, sem diarreia e sem instabilidade — não há crise adrenal, e portanto não há indicação de hidrocortisona parenteral nem de internação. Vômitos, diarreia, hipotensão ou rebaixamento mudam a conduta para dose parenteral e hospitalização.",
+  "base": "Endocrine Society Clinical Practice Guideline. Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016; recomendações sobre dose de estresse em insuficiência adrenal",
+  "coment": "Todo paciente com insuficiência adrenal precisa conhecer a regra do dia de doença: diante de febre ou infecção, a dose de hidrocortisona deve ser dobrada ou triplicada enquanto durar o quadro, retornando à dose habitual depois. Aqui há infecção de vias aéreas com febre de 38,3 °C, mas o paciente está em bom estado geral, sem vômito, sem diarreia e sem instabilidade. Não há crise adrenal, e portanto não há indicação de hidrocortisona parenteral nem de internação. Vômitos, diarreia, hipotensão ou rebaixamento mudam a conduta para dose parenteral e hospitalização.",
   "porAlt": [
    "Manter a dose habitual durante infecção febril arrisca desencadear crise adrenal.",
    "Hospitalizar sem ajustar a dose combina o erro terapêutico com internação desnecessária.",

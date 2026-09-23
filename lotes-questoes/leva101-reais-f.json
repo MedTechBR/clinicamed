@@ -14,7 +14,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "Tokyo Guidelines 2018 para colangite aguda e colecistite; ACG Clinical Guideline on choledocholithiasis, 2019",
-  "coment": "Dor em hipocôndrio direito, febre e icterícia compõem a tríade de Charcot, que define colangite aguda, aqui por coledocolitíase com dilatação discreta das vias biliares. Pelas diretrizes de Tóquio, a colangite leve — sem disfunção orgânica e sem hipotensão — é tratada inicialmente com antibiótico e suporte clínico, reservando a drenagem biliar endoscópica para quem não responde em 24 horas ou já se apresenta em grau moderado a grave. A colecistectomia é feita depois, na mesma internação, após a resolução do quadro agudo.",
+  "coment": "Dor em hipocôndrio direito, febre e icterícia compõem a tríade de Charcot, que define colangite aguda, aqui por coledocolitíase com dilatação discreta das vias biliares. Pelas diretrizes de Tóquio, a colangite leve, sem disfunção orgânica e sem hipotensão, é tratada inicialmente com antibiótico e suporte clínico, reservando a drenagem biliar endoscópica para quem não responde em 24 horas ou já se apresenta em grau moderado a grave. A colecistectomia é feita depois, na mesma internação, após a resolução do quadro agudo.",
   "porAlt": [
    "A papilotomia de urgência é indicada na colangite moderada a grave ou na ausência de resposta ao tratamento clínico.",
    "A drenagem cirúrgica com dreno de Kehr foi substituída pela via endoscópica na maioria dos casos.",
@@ -41,8 +41,8 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, coqueluche, 2024; CDC guidance on pertussis treatment and postexposure prophylaxis",
-  "coment": "O tratamento da coqueluche é feito com macrolídeo — azitromicina, claritromicina ou eritromicina —, escolha que vale também para a quimioprofilaxia dos contatos próximos, sobretudo lactentes, gestantes no terceiro trimestre e quem convive com eles. O antibiótico encurta o período de transmissibilidade e, quando iniciado na fase catarral, atenua o quadro; iniciado na fase paroxística, altera pouco os sintomas mas ainda interrompe a cadeia de transmissão. Alternativa em intolerância é sulfametoxazol-trimetoprima. A doença é de notificação compulsória.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, coqueluche, 2024; CDC guidance on pertussis treatment and postexposure prophylaxis",
+  "coment": "O tratamento da coqueluche é feito com macrolídeo (azitromicina, claritromicina ou eritromicina), escolha que vale também para a quimioprofilaxia dos contatos próximos, sobretudo lactentes, gestantes no terceiro trimestre e quem convive com eles. O antibiótico encurta o período de transmissibilidade e, quando iniciado na fase catarral, atenua o quadro; iniciado na fase paroxística, altera pouco os sintomas mas ainda interrompe a cadeia de transmissão. Alternativa em intolerância é sulfametoxazol-trimetoprima. A doença é de notificação compulsória.",
   "porAlt": [
    "Fosfomicina é usada em infecção urinária não complicada.",
    "Quinolonas não são a classe de escolha e são evitadas em crianças.",
@@ -69,8 +69,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, vigilância do sarampo e da rubéola, 2024",
-  "coment": "Caso suspeito de rubéola — febre com exantema maculopapular, linfadenopatia retroauricular, occipital ou cervical, conjuntivite e artralgia — exige confirmação laboratorial obrigatória, com sorologia IgM e IgG, coleta de amostras para identificação viral e notificação imediata. Critério clínico isolado não confirma, pela sobreposição com outras doenças exantemáticas, e o vínculo epidemiológico só se aplica quando há caso confirmado laboratorialmente na cadeia de transmissão. A investigação inclui ainda busca ativa de casos e verificação da situação vacinal dos contatos.",
+  "base": "Ministério da Saúde (Guia de Vigilância em Saúde, vigilância do sarampo e da rubéola, 2024",
+  "coment": "Caso suspeito de rubéola) febre com exantema maculopapular, linfadenopatia retroauricular, occipital ou cervical, conjuntivite e artralgia. Exige confirmação laboratorial obrigatória, com sorologia IgM e IgG, coleta de amostras para identificação viral e notificação imediata. Critério clínico isolado não confirma, pela sobreposição com outras doenças exantemáticas, e o vínculo epidemiológico só se aplica quando há caso confirmado laboratorialmente na cadeia de transmissão. A investigação inclui ainda busca ativa de casos e verificação da situação vacinal dos contatos.",
   "porAlt": [
    "O vínculo epidemiológico depende de caso confirmado em laboratório, e o paciente nega contato.",
    "Correta: sorologia com pesquisa de IgM e IgG, obrigatória na vigilância da rubéola.",
@@ -97,12 +97,12 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Manual de Normas e Procedimentos para Vacinação, 2024; Programa Nacional de Imunizações, campanha anual de influenza",
-  "coment": "A vacina influenza é composta por vírus inativado, é segura em qualquer trimestre da gestação e a gestante é grupo prioritário: a vacinação protege a mãe da forma grave e transfere anticorpos ao recém-nascido, que só poderá ser vacinado a partir dos seis meses. A proteção não é duradoura — a composição da vacina muda a cada ano conforme as cepas circulantes e a imunidade declina —, de modo que a revacinação é anual. Vacina de vírus vivo atenuado é que seria contraindicada na gestação.",
+  "base": "Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação, 2024; Programa Nacional de Imunizações, campanha anual de influenza",
+  "coment": "A vacina influenza é composta por vírus inativado, é segura em qualquer trimestre da gestação e a gestante é grupo prioritário: a vacinação protege a mãe da forma grave e transfere anticorpos ao recém-nascido, que só poderá ser vacinado a partir dos seis meses. A proteção não é duradoura, a composição da vacina muda a cada ano conforme as cepas circulantes e a imunidade declina, de modo que a revacinação é anual. Vacina de vírus vivo atenuado é que seria contraindicada na gestação.",
   "porAlt": [
    "Não há restrição de trimestre: a vacina é recomendada em qualquer fase da gestação.",
    "A proteção da vacina influenza não dura anos; a revacinação é anual.",
-   "A vacina é indicada, e não evitada, na gestação — a gestante é grupo prioritário.",
+   "A vacina é indicada, e não evitada, na gestação, a gestante é grupo prioritário.",
    "Correta: revacinar, porque a composição muda a cada ano e a gestante é prioritária.",
    "Não há necessidade de aguardar a 12ª semana para vacinar contra influenza."
   ],
@@ -125,7 +125,7 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2024",
+  "base": "Ministério da Saúde, Manual de Recomendações para o Controle da Tuberculose no Brasil, 2ª edição atualizada, 2024",
   "coment": "O Manual do Ministério da Saúde quantifica o risco relativo de adoecimento por tuberculose nas populações mais vulneráveis, e a população em situação de rua é a de maior risco, várias dezenas de vezes superior ao da população geral, seguida por pessoas privadas de liberdade, pessoas vivendo com HIV e indígenas. A consequência prática é a busca ativa dirigida a esses grupos, com rastreio de sintomático respiratório, oferta de teste rápido molecular, investigação de infecção latente e estratégias de tratamento diretamente observado.",
   "porAlt": [
    "Indígenas têm risco aumentado, mas inferior ao da população em situação de rua.",
@@ -152,8 +152,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Política Nacional de Educação Popular em Saúde, 2013; Starfield, atributos da atenção primária",
-  "coment": "A educação popular em saúde parte do diálogo e do saber do próprio grupo, e não da transmissão vertical de informação. Diante de hesitação vacinal, a estratégia com melhor resultado é a roda de conversa que acolhe percepções positivas e negativas, porque só é possível responder a uma dúvida que foi enunciada — apresentar apenas as percepções favoráveis, ou apenas dados epidemiológicos em palestra, não alcança quem resiste. Isso corresponde aos atributos de orientação comunitária e competência cultural da atenção primária.",
+  "base": "Ministério da Saúde. Política Nacional de Educação Popular em Saúde, 2013; Starfield, atributos da atenção primária",
+  "coment": "A educação popular em saúde parte do diálogo e do saber do próprio grupo, e não da transmissão vertical de informação. Diante de hesitação vacinal, a estratégia com melhor resultado é a roda de conversa que acolhe percepções positivas e negativas, porque só é possível responder a uma dúvida que foi enunciada. Apresentar apenas as percepções favoráveis, ou apenas dados epidemiológicos em palestra, não alcança quem resiste. Isso corresponde aos atributos de orientação comunitária e competência cultural da atenção primária.",
   "porAlt": [
    "A palestra expositiva é vertical e não dialoga com as razões da recusa.",
    "Levantar somente as percepções positivas deixa de fora justamente as dúvidas que sustentam a hesitação.",
@@ -179,7 +179,7 @@
   "comp": "tto",
   "nivel": "r2",
   "base": "ACG Clinical Guideline: Ulcerative Colitis in Adults, 2019; ECCO guidelines on ulcerative colitis, 2022",
-  "coment": "Diarreia com sangue e muco, urgência e tenesmo, com evolução em surtos ao longo de um ano e perda ponderal, em ex-tabagista, é a apresentação da retocolite ulcerativa — doença que acomete o reto e se estende de forma contínua pelo cólon e cuja incidência é maior em ex-fumantes, ao contrário da doença de Crohn. No surto moderado a grave, o tratamento inclui corticoide sistêmico para indução, com mesalazina para doença leve a moderada e manutenção, e imunobiológico nos casos refratários ou corticodependentes.",
+  "coment": "Diarreia com sangue e muco, urgência e tenesmo, com evolução em surtos ao longo de um ano e perda ponderal, em ex-tabagista, é a apresentação da retocolite ulcerativa. Doença que acomete o reto e se estende de forma contínua pelo cólon e cuja incidência é maior em ex-fumantes, ao contrário da doença de Crohn. No surto moderado a grave, o tratamento inclui corticoide sistêmico para indução, com mesalazina para doença leve a moderada e manutenção, e imunobiológico nos casos refratários ou corticodependentes.",
   "porAlt": [
    "A doença de Crohn é descontínua, transmural e pode acometer todo o trato digestivo; infliximabe não é a indução inicial padrão aqui.",
    "A colite microscópica cursa com diarreia aquosa sem sangue e colonoscopia macroscopicamente normal.",
@@ -204,10 +204,10 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, esporotricose, 2024; consenso brasileiro de micoses subcutâneas, 2022",
-  "coment": "Úlcera de inoculação em extremidade seguida de nódulos que ascendem em trajeto linear pelo vaso linfático — padrão esporotricoide — em pessoa que lida com gatos é esporotricose, hoje com transmissão zoonótica predominante no Brasil e área urbana. O diagnóstico se confirma por cultura de material da lesão. O tratamento de escolha na forma cutaneolinfática é itraconazol por três a seis meses, mantido por semanas após a cura clínica; iodeto de potássio é alternativa e anfotericina B se reserva à doença disseminada. Manejo do animal e notificação fazem parte da conduta.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, esporotricose, 2024; consenso brasileiro de micoses subcutâneas, 2022",
+  "coment": "Úlcera de inoculação em extremidade seguida de nódulos que ascendem em trajeto linear pelo vaso linfático, padrão esporotricoide, em pessoa que lida com gatos é esporotricose, hoje com transmissão zoonótica predominante no Brasil e área urbana. O diagnóstico se confirma por cultura de material da lesão. O tratamento de escolha na forma cutaneolinfática é itraconazol por três a seis meses, mantido por semanas após a cura clínica; iodeto de potássio é alternativa e anfotericina B se reserva à doença disseminada. Manejo do animal e notificação fazem parte da conduta.",
   "porAlt": [
-   "Correta: esporotricose — úlcera com nódulos em trajeto linfático linear e contato com gatos.",
+   "Correta: esporotricose. Úlcera com nódulos em trajeto linfático linear e contato com gatos.",
    "A cromoblastomicose forma placas verrucosas de evolução muito lenta, sem disseminação linfática linear.",
    "A leishmaniose tegumentar produz úlcera de bordas elevadas e fundo granuloso, geralmente única e sem esse padrão ascendente.",
    "A paracoccidioidomicose acomete mucosa oral e pulmão em trabalhador rural, com quadro sistêmico."
@@ -230,7 +230,7 @@
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA — Diretrizes diagnósticas e terapêuticas do câncer de pulmão, 2022; ATS/IDSA guideline on community-acquired pneumonia, 2019",
+  "base": "INCA. Diretrizes diagnósticas e terapêuticas do câncer de pulmão, 2022; ATS/IDSA guideline on community-acquired pneumonia, 2019",
   "coment": "Pneumonia que recorre no mesmo local em tabagista pesado, com hemoptoicos, rouquidão e emagrecimento, deve levantar a hipótese de neoplasia pulmonar com obstrução brônquica, e a pneumonia é pós-obstrutiva. Ao exame, macicez em base com hipersonoridade acima sugere derrame pleural associado. A rouquidão indica acometimento do nervo laríngeo recorrente, sinal de doença localmente avançada. A investigação segue com tomografia de tórax, broncoscopia com biópsia e toracocentese com análise do líquido, incluindo citologia oncótica.",
   "porAlt": [
    "Silicose exige exposição ocupacional a sílica e não explica a recorrência focal com rouquidão.",
@@ -257,14 +257,14 @@
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Sociedade Brasileira de Dermatologia — consenso sobre reações adversas cutâneas graves, 2020; RegiSCAR criteria for DRESS",
-  "coment": "A síndrome DRESS combina exantema extenso, febre, edema facial, linfadenomegalia, eosinofilia e acometimento visceral — mais frequentemente hepático —, com início tardio, tipicamente de duas a oito semanas após o início do fármaco. Alopurinol, anticonvulsivantes aromáticos, sulfonamidas e vancomicina são os agentes clássicos. A conduta é suspender imediatamente o fármaco, iniciar corticoide sistêmico nos casos com acometimento de órgão, monitorar função hepática e renal por semanas e alertar sobre risco de reativação viral e de tireoidite tardia.",
+  "base": "Sociedade Brasileira de Dermatologia. Consenso sobre reações adversas cutâneas graves, 2020; RegiSCAR criteria for DRESS",
+  "coment": "A síndrome DRESS combina exantema extenso, febre, edema facial, linfadenomegalia, eosinofilia e acometimento visceral, mais frequentemente hepático, com início tardio, tipicamente de duas a oito semanas após o início do fármaco. Alopurinol, anticonvulsivantes aromáticos, sulfonamidas e vancomicina são os agentes clássicos. A conduta é suspender imediatamente o fármaco, iniciar corticoide sistêmico nos casos com acometimento de órgão, monitorar função hepática e renal por semanas e alertar sobre risco de reativação viral e de tireoidite tardia.",
   "porAlt": [
    "O eritema multiforme cursa com lesões em alvo, sem eosinofilia e acometimento hepático desse porte.",
    "Urticária medicamentosa produz placas fugazes e pruriginosas, sem febre, adenomegalia e hepatite.",
    "A síndrome de Stevens-Johnson cursa com acometimento de mucosas e descolamento epidérmico.",
    "A púrpura trombocitopênica idiopática cursa com plaquetopenia isolada e sangramento, sem esse quadro sistêmico.",
-   "Correta: DRESS — exantema, febre, edema facial, adenomegalia, eosinofilia e hepatite após alopurinol."
+   "Correta: DRESS. Exantema, febre, edema facial, adenomegalia, eosinofilia e hepatite após alopurinol."
   ],
   "fonte": {
    "banca": "ENARE (EBSERH/FGV)",
@@ -284,8 +284,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Sociedade Brasileira de Dermatologia — diretrizes de dermatite de contato, 2021; Ministério da Saúde, protocolo de dermatoses ocupacionais",
-  "coment": "Vesículas, eritema e fissuras nas mãos de profissional de saúde, com melhora nas férias e piora no retorno ao trabalho, caracterizam dermatite de contato ocupacional, que pode ser irritativa — por lavagem frequente, sabões, antissépticos — ou alérgica, com o látex das luvas entre os alérgenos clássicos. A melhora no afastamento é justamente o dado que reforça a relação com o trabalho, e não o que a afasta. A investigação inclui teste de contato quando se suspeita de mecanismo alérgico, e o manejo passa por proteção da barreira, emolientes, corticoide tópico e substituição do agente.",
+  "base": "Sociedade Brasileira de Dermatologia. Diretrizes de dermatite de contato, 2021; Ministério da Saúde, protocolo de dermatoses ocupacionais",
+  "coment": "Vesículas, eritema e fissuras nas mãos de profissional de saúde, com melhora nas férias e piora no retorno ao trabalho, caracterizam dermatite de contato ocupacional, que pode ser irritativa (por lavagem frequente, sabões, antissépticos) ou alérgica, com o látex das luvas entre os alérgenos clássicos. A melhora no afastamento é justamente o dado que reforça a relação com o trabalho, e não o que a afasta. A investigação inclui teste de contato quando se suspeita de mecanismo alérgico, e o manejo passa por proteção da barreira, emolientes, corticoide tópico e substituição do agente.",
   "porAlt": [
    "Fotodermatite exige relação com exposição solar, e o dorso das mãos não basta para concluí-la.",
    "Ceratose actínica é lesão pré-maligna de pele fotoexposta em idade mais avançada, não vesículas com prurido.",
@@ -310,8 +310,8 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Sociedade Brasileira de Angiologia e Cirurgia Vascular — diretrizes de úlcera venosa, 2022; NICE guideline on varicose veins",
-  "coment": "Edema vespertino de longa data, dermatite ocre e úlcera rasa em região maleolar interna compõem a úlcera venosa, a mais comum das úlceras de membros inferiores. O tratamento com maior impacto na cicatrização é a compressão — meia elástica de média a alta compressão ou bota de Unna —, associada à elevação dos membros, cuidado local da ferida e exercício de panturrilha. Antes de comprimir, é obrigatório afastar doença arterial periférica pelo índice tornozelo-braço, porque compressão em membro isquêmico causa necrose.",
+  "base": "Sociedade Brasileira de Angiologia e Cirurgia Vascular, diretrizes de úlcera venosa, 2022; NICE guideline on varicose veins",
+  "coment": "Edema vespertino de longa data, dermatite ocre e úlcera rasa em região maleolar interna compõem a úlcera venosa, a mais comum das úlceras de membros inferiores. O tratamento com maior impacto na cicatrização é a compressão, meia elástica de média a alta compressão ou bota de Unna, associada à elevação dos membros, cuidado local da ferida e exercício de panturrilha. Antes de comprimir, é obrigatório afastar doença arterial periférica pelo índice tornozelo-braço, porque compressão em membro isquêmico causa necrose.",
   "porAlt": [
    "Baixa compressão é insuficiente para reverter a hipertensão venosa e cicatrizar a úlcera.",
    "Correta: compressão de média intensidade associada à elevação dos membros.",
@@ -337,7 +337,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "NCCN Guidelines for Cutaneous Melanoma, 2025; INCA, diretrizes diagnósticas e terapêuticas do melanoma cutâneo, 2023",
-  "coment": "Melanoma com índice de Breslow de 4,5 mm e ulceração é, no mínimo, T4b, categoria de alto risco de doença metastática. Nesse cenário, o estadiamento por imagem de corpo — tomografia de tórax, abdome e pelve com contraste, e ressonância de crânio conforme o protocolo — precede as decisões cirúrgicas, porque a presença de metástase muda toda a estratégia. Confirmada a doença localizada, seguem-se ampliação de margens de 2 cm e pesquisa de linfonodo sentinela, além da discussão de terapia adjuvante com imunoterapia ou inibidores de BRAF e MEK.",
+  "coment": "Melanoma com índice de Breslow de 4,5 mm e ulceração é, no mínimo, T4b, categoria de alto risco de doença metastática. Nesse cenário, o estadiamento por imagem de corpo (tomografia de tórax, abdome e pelve com contraste, e ressonância de crânio conforme o protocolo) precede as decisões cirúrgicas, porque a presença de metástase muda toda a estratégia. Confirmada a doença localizada, seguem-se ampliação de margens de 2 cm e pesquisa de linfonodo sentinela, além da discussão de terapia adjuvante com imunoterapia ou inibidores de BRAF e MEK.",
   "porAlt": [
    "Margem de 1 cm é insuficiente para lesão com Breslow acima de 2 mm.",
    "A margem de 2 cm com linfonodo sentinela é correta, mas vem depois do estadiamento sistêmico em lesão T4b.",
@@ -362,8 +362,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Portaria GM/MS que atualiza a Lista Nacional de Notificação Compulsória, 2025; Guia de Vigilância em Saúde, esporotricose",
-  "coment": "A inclusão de um agravo na lista de notificação compulsória segue critérios clássicos de vigilância: magnitude, potencial de disseminação, transcendência, vulnerabilidade — isto é, existência de intervenção eficaz — e compromissos internacionais. A esporotricose reúne crescimento acelerado de casos com transmissão zoonótica urbana pelo gato doméstico, alto potencial de disseminação, acometimento de populações vulneráveis e possibilidade de intervenção, tanto no tratamento humano e animal quanto no manejo dos felinos. Notificar permite dimensionar o problema e organizar a resposta.",
+  "base": "Ministério da Saúde. Portaria GM/MS que atualiza a Lista Nacional de Notificação Compulsória, 2025; Guia de Vigilância em Saúde, esporotricose",
+  "coment": "A inclusão de um agravo na lista de notificação compulsória segue critérios clássicos de vigilância: magnitude, potencial de disseminação, transcendência, vulnerabilidade (isto é, existência de intervenção eficaz) e compromissos internacionais. A esporotricose reúne crescimento acelerado de casos com transmissão zoonótica urbana pelo gato doméstico, alto potencial de disseminação, acometimento de populações vulneráveis e possibilidade de intervenção, tanto no tratamento humano e animal quanto no manejo dos felinos. Notificar permite dimensionar o problema e organizar a resposta.",
   "porAlt": [
    "Correta: crescimento de casos, risco de disseminação, acometimento de populações vulneráveis e existência de intervenção eficaz.",
    "Restringir a justificativa a áreas urbanas e a profissionais de saúde animal não descreve os critérios de notificação.",
@@ -388,8 +388,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Portaria GM/MS nº 635/2023 — equipes Multiprofissionais na Atenção Primária à Saúde (eMulti); Política Nacional de Atenção Básica",
-  "coment": "As eMulti substituíram os antigos núcleos de apoio à saúde da família e atuam de forma complementar às equipes de atenção primária, com apoio matricial, cuidado compartilhado e atendimento conjunto, incluindo teleatendimento como parte do processo de trabalho. A composição é definida localmente a partir de uma lista ampla de categorias, que inclui médicos especialistas focais — cardiologia, dermatologia, endocrinologia, infectologia, psiquiatria, entre outras. O financiamento é tripartite, com incentivo federal específico, e a vinculação é à atenção primária.",
+  "base": "Portaria GM/MS nº 635/2023. Equipes Multiprofissionais na Atenção Primária à Saúde (eMulti); Política Nacional de Atenção Básica",
+  "coment": "As eMulti substituíram os antigos núcleos de apoio à saúde da família e atuam de forma complementar às equipes de atenção primária, com apoio matricial, cuidado compartilhado e atendimento conjunto, incluindo teleatendimento como parte do processo de trabalho. A composição é definida localmente a partir de uma lista ampla de categorias, que inclui médicos especialistas focais. Cardiologia, dermatologia, endocrinologia, infectologia, psiquiatria, entre outras. O financiamento é tripartite, com incentivo federal específico, e a vinculação é à atenção primária.",
   "porAlt": [
    "O teleatendimento está previsto e incorporado ao processo de trabalho das eMulti.",
    "As eMulti vinculam-se à atenção primária, e não a unidades de pronto atendimento e ambulatórios de especialidades.",

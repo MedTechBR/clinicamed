@@ -1,122 +1,122 @@
 [
  {
-  "q": "Paciente diabético com úlcera plantar de bordas calosas, indolor, sobre proeminência óssea. Qual é a conduta?",
+  "q": "Homem de 60 anos com diabetes há 20 anos tem úlcera plantar de 2 cm sob a cabeça do segundo metatarso há 3 meses, com bordas calosas, leito granuloso, indolor, sem secreção, eritema ou odor. Perda de sensibilidade ao monofilamento. Pulsos pediosos presentes, índice tornozelo-braquial de 1,0. Sondagem óssea negativa, radiografia normal. Usa sandália aberta. Hemoglobina glicada de 8,2%. Trabalha em pé como porteiro e mora sozinho. Qual é a conduta mais adequada?",
   "alts": [
-   "Apenas curativo oclusivo diário sem qualquer alívio da pressão local sobre a área ulcerada do pé.",
-   "Desbridamento, alívio de pressão e avaliação vascular, investigando sempre a presença de osteomielite.",
-   "Antibiótico sistêmico prolongado isolado como tratamento definitivo da úlcera plantar descrita agora.",
-   "Amputação imediata do membro em todos os casos de úlcera plantar em paciente com diabetes neste caso.",
-   "Manter deambulação habitual sem qualquer dispositivo de descarga sobre a região plantar acometida."
-  ],
-  "gab": 1,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "IWGDF Guidelines on the prevention and management of diabetes-related foot disease, 2023",
-  "coment": "A úlcera neuropática plantar exige três pilares: desbridamento do tecido desvitalizado e do calo circundante, alívio de pressão com dispositivo de descarga — sendo o gesso de contato total o padrão-ouro — e avaliação vascular para identificar isquemia associada. Investiga-se osteomielite quando a úlcera é profunda, sonda o osso ou não cicatriza. Antibiótico é indicado apenas quando há infecção clínica, e não em toda úlcera.",
-  "porAlt": [
-   "O curativo sem alívio de pressão não cicatriza a úlcera, pois a carga mecânica mantém a lesão.",
-   "Correta: desbridamento, alívio de pressão e avaliação vascular, com investigação de osteomielite.",
-   "O antibiótico isolado sem desbridamento e descarga não resolve a úlcera neuropática plantar.",
-   "A amputação é medida de exceção, e a maioria das úlceras cicatriza com tratamento adequado.",
-   "Manter a deambulação sem descarga perpetua a pressão que impede a cicatrização da lesão."
-  ]
- },
- {
-  "q": "Paciente com nevo melanocítico que apresenta mudança recente de cor, aumento de tamanho e sangramento. Qual é a conduta?",
-  "alts": [
-   "Encaminhar para avaliação dermatológica e biópsia excisional, pois a mudança recente é sempre sinal de alarme.",
-   "Observar por doze meses antes de qualquer avaliação, pois nevos mudam ao longo da vida do paciente agora.",
-   "Realizar crioterapia da lesão em consultório sem qualquer envio de material para exame histológico agora.",
-   "Prescrever corticoide tópico de alta potência sobre a lesão como tratamento inicial dessa alteração agora.",
-   "Realizar apenas fotografia da lesão e reavaliar somente após dois anos de acompanhamento clínico neste caso."
-  ],
-  "gab": 0,
-  "tema": "derma",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "NCCN Melanoma: Cutaneous, 2024; Sociedade Brasileira de Dermatologia — campanha de detecção precoce, 2023",
-  "coment": "A evolução — mudança de tamanho, cor, forma ou surgimento de sintomas como prurido e sangramento — é o critério mais importante do sistema ABCDE e, isoladamente, justifica a investigação de melanoma. A conduta é avaliação especializada com dermatoscopia e biópsia excisional com margem estreita, que preserva a espessura para estadiamento. Métodos destrutivos como crioterapia impedem o diagnóstico histológico e são inaceitáveis diante de suspeita.",
-  "porAlt": [
-   "Correta: avaliação especializada e biópsia excisional, pois a mudança recente é sinal de alarme.",
-   "Observar por doze meses permite progressão em profundidade e piora expressiva do prognóstico.",
-   "A crioterapia destrói a lesão sem histologia e inviabiliza o diagnóstico e o estadiamento corretos.",
-   "O corticoide tópico não trata lesão pigmentada suspeita e apenas retarda o diagnóstico correto.",
-   "A fotografia é útil no seguimento de lesões estáveis, e não diante de mudança já documentada."
-  ]
- },
- {
-  "q": "Paciente com eritema migratório após picada de carrapato em região endêmica, sem outros sintomas. Qual é a conduta?",
-  "alts": [
-   "Aguardar a soroconversão antes de iniciar qualquer antibiótico no paciente com a lesão descrita agora.",
-   "Prescrever apenas corticoide tópico sobre a lesão como tratamento definitivo do eritema descrito agora.",
-   "Iniciar antifúngico oral por quatro semanas, tratamento indicado para a lesão anular pós-picada agora.",
-   "Observar sem tratamento até o surgimento de manifestações articulares ou neurológicas evidentes agora.",
-   "Iniciar doxiciclina por via oral, sempre sem aguardar a confirmação sorológica do diagnóstico suspeitado."
+   "Antibiótico oral por 14 dias",
+   "Colagenase e manter a sandália aberta",
+   "Amputação do segundo pododáctilo",
+   "Revascularização do membro",
+   "Desbridamento e bota gessada de contato total"
   ],
   "gab": 4,
   "tema": "derma",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA/AAN/ACR Clinical Practice Guidelines for Lyme Disease, 2020 com revisão 2023",
-  "coment": "O eritema migratório é lesão patognomônica da fase precoce localizada da doença de Lyme e o diagnóstico é clínico em área endêmica, pois a sorologia costuma ser negativa nas primeiras semanas. O tratamento é doxiciclina por via oral por dez a catorze dias, com amoxicilina ou cefuroxima como alternativas em gestantes e crianças. Tratar precocemente previne as manifestações tardias articulares, neurológicas e cardíacas da doença.",
+  "base": "IWGDF Guidelines on offloading foot ulcers in persons with diabetes, 2023",
+  "coment": "Úlcera neuropática plantar sem infecção e com perfusão adequada tem como pilares o alívio de pressão (offloading) e o desbridamento. A IWGDF (2023) recomenda como primeira escolha o dispositivo de descarga não removível até o joelho, como a bota gessada de contato total, e desbridamento do calo e tecido desvitalizado. Sem sinais de infecção, antibiótico não é indicado. Controle glicêmico e educação sobre calçados completam. Perfusão preservada dispensa revascularização.",
   "porAlt": [
-   "A sorologia é frequentemente negativa nas primeiras semanas e não deve atrasar o tratamento.",
-   "O corticoide tópico não trata a infecção bacteriana responsável pela lesão cutânea descrita.",
-   "O antifúngico não tem ação sobre a espiroqueta causadora da doença transmitida pelo carrapato.",
-   "Aguardar manifestações tardias permite acometimento articular, neurológico e cardíaco evitável.",
-   "Correta: doxiciclina oral iniciada pelo quadro clínico, sem aguardar a confirmação sorológica."
+   "Sem sinais de infecção, antibiótico não é indicado.",
+   "Sem descarga da pressão, a úlcera não cicatriza.",
+   "Não há osteomielite ou necrose que justifique amputação.",
+   "Perfusão preservada dispensa revascularização.",
+   "Úlcera neuropática sem infecção: desbridamento e alívio de pressão com bota gessada de contato total."
   ]
  },
  {
-  "q": "Paciente com lesões vesicobolhosas tensas em tronco e membros, prurido intenso, em idoso, com sinal de Nikolsky negativo. Qual é o diagnóstico mais provável?",
+  "q": "Homem de 64 anos tem faixa pigmentada acastanhada longitudinal na unha do hálux direito há 1 ano, que se alargou de 2 para 5 mm, com bordas irregulares, cores variadas e pigmento estendendo-se para a dobra ungueal proximal. Nega trauma. Não tem micose confirmada. Sem linfonodos inguinais palpáveis. Pesa 78 kg e trabalha como pedreiro. Não tem melanoma na família. A lesão não sangra. Qual é a conduta mais adequada?",
   "alts": [
-   "Pênfigo vulgar clássico, que cursa com bolhas tensas e sinal de Nikolsky negativo em pacientes idosos.",
-   "Dermatite herpetiforme, condição definida por bolhas tensas em tronco com Nikolsky negativo no idoso.",
-   "Impetigo bolhoso do adulto, já quadro caracterizado por bolhas tensas pruriginosas difusas em idosos.",
-   "Penfigoide bolhoso, que cursa sempre com bolhas tensas e clivagem subepidérmica ao exame histológico.",
-   "Eritema multiforme maior, já definido por bolhas tensas difusas com sinal de Nikolsky sempre negativo."
+   "Antifúngico oral por 3 meses",
+   "Observar por mais 1 ano",
+   "Retirar a unha e descartar sem exame",
+   "Biópsia da matriz ungueal",
+   "Laser para clarear o pigmento"
   ],
   "gab": 3,
   "tema": "derma",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r3",
-  "base": "European Academy of Dermatology and Venereology guidelines on bullous pemphigoid, 2022; British Association of Dermatologists, 2023",
-  "coment": "O penfigoide bolhoso é a doença bolhosa autoimune mais frequente, típica de idosos, com bolhas tensas sobre base eritematosa ou pele normal, prurido intenso e sinal de Nikolsky negativo, porque a clivagem é subepidérmica. O pênfigo vulgar, ao contrário, tem clivagem intraepidérmica, bolhas flácidas, Nikolsky positivo e acometimento mucoso frequente. A confirmação usa imunofluorescência direta, e o tratamento é corticoide tópico potente ou sistêmico.",
+  "nivel": "r2",
+  "base": "Levit et al., The ABC rule for clinical detection of subungual melanoma, Journal of the American Academy of Dermatology, 2000; NCCN Guidelines: Cutaneous Melanoma, 2025",
+  "coment": "Melanoníquia longitudinal em adulto que se alarga, com bordas irregulares, múltiplas cores e pigmentação da dobra ungueal (sinal de Hutchinson), sugere melanoma subungueal, forma do melanoma acral lentiginoso. O regime ABCDEF ajuda: idade, banda acima de 3 mm e irregular, mudança, dedo (hálux, polegar), extensão (Hutchinson) e história familiar. A conduta é biópsia da matriz ungueal, origem do pigmento, por profissional experiente. Tratamento empírico e observação atrasam o diagnóstico, que frequentemente é tardio nessa localização.",
   "porAlt": [
-   "O pênfigo vulgar cursa com bolhas flácidas, Nikolsky positivo e acometimento mucoso frequente.",
-   "A dermatite herpetiforme cursa com vesículas agrupadas em superfícies extensoras e doença celíaca.",
-   "O impetigo bolhoso é infeccioso, localizado, e não produz o quadro difuso e crônico descrito.",
-   "Correta: bolhas tensas com Nikolsky negativo no idoso caracterizam o penfigoide bolhoso subepidérmico.",
-   "O eritema multiforme cursa com lesões em alvo e está associado a infecções ou fármacos."
+   "Pigmento com sinal de Hutchinson não é micose.",
+   "Esperar 1 ano atrasa o diagnóstico de melanoma.",
+   "Retirar a unha sem histologia perde o diagnóstico.",
+   "Melanoníquia suspeita com sinal de Hutchinson: biópsia da matriz ungueal.",
+   "Laser destrói o pigmento e impede o diagnóstico."
   ]
  },
  {
-  "q": "Paciente com hiperceratose e escurecimento aveludado em axilas e pescoço, com obesidade e resistência insulínica. Qual é a conduta?",
+  "q": "Mulher de 35 anos, cuidadora de gatos resgatados no Rio de Janeiro, foi arranhada há 4 semanas no dorso da mão. Surgiu nódulo ulcerado no local e, depois, nódulos em cadeia subindo pelo antebraço ao longo do trajeto linfático, pouco dolorosos. Sem febre ou acometimento pulmonar. Hemograma normal, não gestante, sem uso de fármacos. Cultura de secreção em andamento. Pesa 62 kg, sem doença hepática ou uso de fármacos com interação. Dois gatos da casa têm feridas no focinho. Qual é o tratamento mais adequado?",
   "alts": [
-   "Prescrever apenas corticoide tópico potente nas lesões como tratamento definitivo do quadro cutâneo agora.",
-   "Iniciar antibiótico sistêmico prolongado, tratamento indicado para o escurecimento cutâneo descrito agora.",
-   "Investigar e tratar a resistência insulínica, avaliando sempre a possibilidade de neoplasia oculta associada.",
-   "Indicar exérese cirúrgica das áreas acometidas como tratamento de escolha para as lesões descritas agora.",
-   "Prescrever antifúngico oral por três meses, tratamento indicado para a hiperpigmentação aveludada agora."
+   "Itraconazol oral por meses",
+   "Cefalexina por 10 dias",
+   "Anfotericina B endovenosa",
+   "Doxiciclina por 14 dias",
+   "Excisão cirúrgica dos nódulos"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Ministério da Saúde, Guia de Vigilância em Saúde: esporotricose humana, 2024; Orofino-Costa et al., Sporotrichosis: an update, Anais Brasileiros de Dermatologia, 2017",
+  "coment": "Lesão ulcerada no local da arranhadura com nódulos ascendentes pelo trajeto linfático (padrão esporotricoide), após contato com gatos, é esporotricose linfocutânea, hiperendêmica no Rio de Janeiro por Sporothrix brasiliensis. O tratamento de escolha é itraconazol oral 100 a 200 mg/dia, mantido até 2 a 4 semanas após a cura clínica (em geral 3 a 6 meses). Terbinafina é alternativa, e iodeto de potássio é opção em alguns casos. Anfotericina é para formas disseminadas ou graves. Deve-se orientar o manejo e o tratamento dos gatos.",
+  "porAlt": [
+   "Esporotricose linfocutânea por transmissão felina: itraconazol até semanas após a cura clínica.",
+   "Não é infecção bacteriana; cefalexina não trata fungo.",
+   "Anfotericina é para formas disseminadas.",
+   "Doxiciclina não trata esporotricose.",
+   "Cirurgia não é tratamento de esporotricose."
+  ]
+ },
+ {
+  "q": "Mulher de 81 anos tem prurido intenso há 2 meses e bolhas tensas sobre pele eritematosa em abdome, coxas e axilas, com sinal de Nikolsky negativo e sem lesões em mucosas. Acometimento de cerca de 30% da superfície. Biópsia com clivagem subepidérmica e eosinófilos; imunofluorescência direta com IgG e C3 lineares na zona da membrana basal. Diabetes e osteoporose. Clearance de 55 mL/min. Pesa 60 kg e mora com a filha, que pode aplicar o creme. Qual é o tratamento inicial mais adequado?",
+  "alts": [
+   "Prednisona 1 mg/kg/dia por 6 meses",
+   "Aciclovir oral por 7 dias",
+   "Clobetasol tópico no corpo todo",
+   "Antibiótico sistêmico isolado",
+   "Rituximabe como primeira linha"
   ],
   "gab": 2,
   "tema": "derma",
   "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "AAD clinical guidance on acanthosis nigricans, revisão 2023; Endocrine Society — obesity and insulin resistance, 2023",
-  "coment": "A acantose nigricans é marcador cutâneo de resistência insulínica, associada a obesidade, diabetes tipo 2, síndrome dos ovários policísticos e a alguns fármacos. O tratamento é o da condição de base: perda de peso, atividade física e controle metabólico melhoram as lesões. Início abrupto, extenso, em paciente magro e com acometimento de mucosas e palmas levanta suspeita de acantose nigricans maligna, associada a adenocarcinoma, sobretudo gástrico.",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Joly et al., A comparison of oral and topical corticosteroids in patients with bullous pemphigoid, NEJM, 2002; EADV Guidelines on bullous pemphigoid, 2022",
+  "coment": "Penfigoide bolhoso: idoso, prurido, bolhas tensas, Nikolsky negativo, clivagem subepidérmica e IgG/C3 lineares na membrana basal. Mesmo na doença extensa, o clobetasol tópico em todo o corpo (40 g/dia, reduzindo gradualmente) foi tão eficaz quanto a prednisona oral e com menor mortalidade e efeitos adversos (Joly, NEJM, 2002), sendo recomendado pela EADV (2022). Isso é especialmente relevante em idosa com diabetes e osteoporose. Doxiciclina, metotrexato e dupilumabe são poupadores. Rituximabe é para casos refratários.",
   "porAlt": [
-   "O corticoide tópico não trata a causa metabólica e não resolve a hiperpigmentação aveludada.",
-   "Não há infecção bacteriana envolvida no mecanismo da acantose nigricans descrita neste caso.",
-   "Correta: investigar e tratar a resistência insulínica, atento à forma associada a neoplasia oculta.",
-   "A exérese cirúrgica é desproporcional e não impede a recorrência enquanto a causa persistir.",
-   "O antifúngico não tem papel, pois a lesão não decorre de infecção fúngica da pele acometida."
+   "Corticoide oral em dose alta aumenta mortalidade e efeitos adversos em idosos.",
+   "Não é infecção viral.",
+   "Penfigoide bolhoso extenso em idosa: clobetasol tópico em todo o corpo.",
+   "Não há infecção bacteriana para tratar.",
+   "Rituximabe é para casos refratários."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos, magro (índice de massa corporal de 21 kg/m²), sem diabetes, tem há 3 meses escurecimento aveludado e espessado em axilas, pescoço e dorso das mãos, com lesões na mucosa oral e palmas espessadas e rugosas. Perdeu 9 kg, tem saciedade precoce e epigastralgia. Hemoglobina de 10,1 g/dL, ferritina baixa. Glicemia e insulina normais. Não fuma e bebe socialmente. Não usa medicamentos. Qual é a conduta mais adequada?",
+  "alts": [
+   "Metformina e dieta para resistência insulínica",
+   "Tratamento tópico com retinoide isolado",
+   "Dermatoscopia e observação clínica",
+   "Levotiroxina empírica",
+   "Investigar neoplasia com endoscopia"
+  ],
+  "gab": 4,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Wick e Patterson, Cancer-associated skin disorders, JAAD, 2019; Schwartz, Acanthosis nigricans, JAAD, 1994",
+  "coment": "Acantose nigricans comum associa-se a obesidade e resistência insulínica. Início súbito e extenso em idoso magro, sem resistência insulínica, com acometimento de mucosas e palmas (paquidermatoglifia, 'palma em tripa') e sintomas constitucionais sugere acantose nigricans maligna, síndrome paraneoplásica ligada principalmente a adenocarcinoma gástrico. Com perda de peso, saciedade precoce, epigastralgia e ferropenia, a investigação começa por endoscopia digestiva alta, seguida de estadiamento. As lesões podem regredir com o tratamento do tumor.",
+  "porAlt": [
+   "Não há resistência insulínica; o padrão é paraneoplásico.",
+   "Tratamento tópico não aborda a causa.",
+   "Observação atrasa o diagnóstico da neoplasia.",
+   "Não há hipotireoidismo.",
+   "Acantose nigricans maligna com sintomas digestivos: investigar neoplasia, começando por endoscopia digestiva alta."
   ]
  }
 ]

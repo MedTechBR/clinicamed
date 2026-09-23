@@ -1,146 +1,146 @@
 [
  {
-  "q": "Homem de 58 anos entra em parada cardiorrespiratória na emergência. O monitor mostra fibrilação ventricular. A equipe inicia compressões de alta qualidade e o desfibrilador está pronto. Segundo a diretriz vigente de suporte avançado, em que momento a adrenalina deve ser administrada?",
+  "q": "Homem de 58 anos entra em parada cardiorrespiratória enquanto aguardava atendimento na emergência. A parada foi presenciada pela equipe e as compressões começaram imediatamente. O monitor, conectado em 40 segundos, mostra fibrilação ventricular. O desfibrilador bifásico está disponível e carregado. Há dois profissionais realizando compressões em revezamento e um acesso venoso periférico já obtido. O paciente pesa cerca de 80 kg, não há via aérea avançada instalada e a ventilação está sendo feita com bolsa-válvula-máscara e oxigênio a 15 L/min. Qual é a sequência correta?",
   "alts": [
-   "Somente após as tentativas iniciais de desfibrilação falharem, com 1 mg a cada 3 a 5 minutos.",
-   "Imediatamente ao reconhecer a parada, antes até do primeiro choque ser aplicado no paciente.",
-   "Somente após vinte minutos de reanimação, quando o ritmo já tiver degenerado para assistolia.",
-   "Nunca em ritmo chocável, situação em que apenas a amiodarona tem indicação formal de uso hoje.",
-   "Substituída pela vasopressina, que oferece vantagem clara sobre a adrenalina nesse contexto."
+   "Desfibrilar, retomar compressões por 2 minutos e reavaliar",
+   "Checar pulso após o choque antes de retomar compressões",
+   "Adrenalina antes do primeiro choque",
+   "Intubar antes de desfibrilar",
+   "Amiodarona antes do primeiro choque"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Heart Association 2025 — Guidelines for CPR and Emergency Cardiovascular Care, suporte avançado no adulto",
-  "coment": "Em ritmo chocável, a prioridade absoluta é compressão de alta qualidade e desfibrilação precoce: a diretriz de 2025 orienta administrar adrenalina depois que as tentativas iniciais de desfibrilação falharem, e não junto dos primeiros choques. A dose é 1 mg a cada 3 a 5 minutos. Em ritmos não chocáveis — assistolia e atividade elétrica sem pulso — a lógica se inverte: a adrenalina deve ser dada o quanto antes, porque ali não há choque a priorizar. A vasopressina, isolada ou associada, não oferece vantagem como substituta da adrenalina.",
+  "base": "AHA 2025 (suporte avançado de vida: sequência em ritmo chocável",
+  "coment": "Em ritmo chocável, desfibrila-se e retomam-se as compressões imediatamente, sem checar pulso) a pausa reduz a pressão de perfusão coronariana conquistada. Reavalia-se o ritmo após dois minutos. Adrenalina depois do segundo choque, amiodarona ou lidocaína depois do terceiro; a via aérea avançada não interrompe o ciclo.",
   "porAlt": [
-   "Correta: em ritmo chocável a adrenalina entra após a falha das desfibrilações iniciais, na dose de 1 mg a cada 3 a 5 minutos.",
-   "Dar adrenalina antes do primeiro choque atrasa a única intervenção que reverte fibrilação ventricular precocemente.",
-   "Esperar vinte minutos contraria a recomendação e desperdiça a fase em que a droga ainda pode fazer diferença.",
-   "A adrenalina tem indicação em qualquer ritmo de parada; o que muda entre eles é o momento da administração.",
-   "A vasopressina, isolada ou combinada, não demonstrou vantagem sobre a adrenalina e não a substitui na parada."
+   "Correta: choque e retomada imediata das compressões.",
+   "Checar pulso logo após o choque desperdiça perfusão coronariana.",
+   "A adrenalina em ritmo chocável vem após o segundo choque.",
+   "A intubação não precede a desfibrilação.",
+   "A amiodarona entra após o terceiro choque."
   ]
  },
  {
-  "q": "Mulher de 44 anos é encontrada inconsciente e sem pulso. O monitor mostra atividade elétrica sem pulso. As compressões estão em curso e o acesso venoso foi obtido. Qual é a conduta quanto à adrenalina nesse ritmo?",
+  "q": "Mulher de 44 anos é encontrada inconsciente e sem pulso na enfermaria. As compressões foram iniciadas e o monitor mostra atividade elétrica organizada a 70 bpm sem pulso palpável. Ela estava internada por trombose venosa profunda extensa e havia se queixado de dispneia súbita minutos antes. Está em ventilação com bolsa-válvula-máscara, com acesso venoso periférico. O ultrassom à beira do leito mostra ventrículo direito dilatado e hipocinético. Qual é a conduta?",
   "alts": [
-   "Aguardar dois ciclos completos de compressão antes de administrar a primeira dose de adrenalina.",
-   "Aplicar um choque sincronizado antes de qualquer droga, mesmo sem ritmo chocável no monitor.",
-   "Administrar somente se a causa reversível já tiver sido identificada e corrigida pela equipe toda.",
-   "Preferir vasopressina em dose única, alternativa superior à adrenalina na atividade sem pulso.",
-   "Administrar assim que for possível, porque não há choque a ser priorizado nesse tipo de ritmo."
+   "Adrenalina, compressões e considerar trombólise",
+   "Desfibrilação imediata com 200 J",
+   "Cardioversão sincronizada",
+   "Marca-passo transcutâneo",
+   "Suspender a reanimação pela causa irreversível"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Heart Association 2025 — adrenalina precoce nos ritmos não chocáveis",
-  "coment": "Em atividade elétrica sem pulso e em assistolia, a diretriz orienta administrar adrenalina o quanto antes, porque não existe desfibrilação a priorizar e o benefício da droga é maior quanto mais precoce. Isso contrasta com o ritmo chocável, em que a adrenalina só entra depois das tentativas iniciais de choque. Em paralelo, a equipe deve procurar ativamente as causas reversíveis — hipovolemia, hipóxia, acidose, distúrbios de potássio, hipotermia, pneumotórax hipertensivo, tamponamento, toxinas, tromboses coronária e pulmonar —, mas essa busca corre junto e nunca atrasa a droga.",
+  "base": "AHA 2025. Ritmos não chocáveis e causas reversíveis",
+  "coment": "Atividade elétrica sem pulso é ritmo não chocável: compressões de alta qualidade e adrenalina a cada 3 a 5 minutos, enquanto se busca a causa reversível. Trombose venosa prévia, dispneia súbita e ventrículo direito dilatado apontam embolia pulmonar maciça. Cenário em que a trombólise durante a reanimação é recomendada, com manobras prolongadas por 60 a 90 minutos após a infusão.",
   "porAlt": [
-   "Aguardar dois ciclos atrasa sem motivo a única droga com indicação formal precoce nesse tipo de ritmo de parada.",
-   "Choque sincronizado não tem lugar na parada; atividade elétrica sem pulso e assistolia não são ritmos chocáveis.",
-   "A busca de causas reversíveis corre em paralelo à reanimação e jamais deve atrasar a administração da adrenalina.",
-   "A vasopressina não é superior à adrenalina e a diretriz não a recomenda como substituta em nenhum ritmo de parada.",
-   "Correta: em ritmo não chocável a adrenalina deve ser dada assim que possível, já que não há choque a ser priorizado."
+   "Correta: ritmo não chocável com causa reversível identificada.",
+   "Não se desfibrila atividade elétrica sem pulso.",
+   "A cardioversão exige pulso e ritmo organizado com perfusão.",
+   "O marca-passo não trata ausência de contração mecânica.",
+   "A causa é potencialmente reversível: suspender é precipitado."
   ]
  },
  {
-  "q": "Homem de 51 anos, sem comorbidades, tem medidas repetidas de pressão arterial em torno de 158/96 mmHg no consultório, confirmadas fora dele. O risco cardiovascular é alto pela presença de dislipidemia e história familiar precoce. Segundo a diretriz brasileira vigente, como iniciar o tratamento?",
+  "q": "Homem de 51 anos, sem comorbidades, tem medidas repetidas de pressão em torno de 158/96 mmHg no consultório, confirmadas por MRPA com média de 152/94 mmHg. É sedentário, tem índice de massa corporal de 29 kg/m², não fuma, e os exames mostram creatinina de 0,9 mg/dL, potássio de 4,1 mEq/L, glicemia de 96 mg/dL e LDL de 128 mg/dL. O eletrocardiograma é normal e não há albuminúria. Qual é a conduta inicial?",
   "alts": [
-   "Monoterapia em dose baixa por seis meses, reservando a segunda droga apenas se a meta não for alcançada depois.",
-   "Apenas mudanças de estilo de vida por um ano, adiando qualquer fármaco enquanto não houver lesão de órgão.",
-   "Três classes simultâneas desde a primeira consulta, esquema padrão para qualquer hipertensão de estágio 2.",
-   "Combinação de duas classes desde o início, de preferência em comprimido único, sempre com estilo de vida.",
-   "Betabloqueador isolado como primeira escolha, por ser a classe de melhor perfil nesse patamar de pressão."
+   "Associação de dois fármacos em comprimido único",
+   "Monoterapia com diurético tiazídico",
+   "Apenas mudança de estilo de vida por seis meses",
+   "Monoterapia com betabloqueador",
+   "Associação de três fármacos de imediato"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025, capítulo 7 (tratamento medicamentoso)",
-  "coment": "A diretriz brasileira de 2025 recomenda, com força FORTE, iniciar o tratamento da hipertensão com associação dupla de medicamentos em doses baixas, preferencialmente em comprimido único, para a MAIORIA dos pacientes — e não apenas nos de pressão mais alta. A monoterapia ficou com recomendação fraca e reservada a situações específicas: pressão de 130-139/80-89 mmHg com alto risco cardiovascular, hipertensão estágio 1 de baixo risco a critério médico, pacientes frágeis, muito idosos com 80 anos ou mais e hipotensão ortostática sintomática. As classes preferenciais são diurético tiazídico ou similar, inibidor da enzima conversora ou bloqueador do receptor, e bloqueador de canal de cálcio. A meta é pressão abaixo de 130/80 mmHg para todos os hipertensos, independentemente do risco cardiovascular ser baixo, moderado ou alto.",
+  "base": "SBC 2025 (hipertensão: início com dois fármacos no estágio 2",
+  "coment": "Hipertensão estágio 2 confirmada indica início com dois fármacos, preferencialmente em associação fixa) a combinação alcança a meta em mais pacientes, mais rápido, e melhora a adesão. As combinações preferenciais associam bloqueador do sistema renina-angiotensina a bloqueador de canal de cálcio ou a diurético tiazídico.",
   "porAlt": [
-   "A monoterapia tem recomendação fraca e é reservada a perfis específicos — frágil, muito idoso, estágio 1 de baixo risco —, o que não é o caso deste paciente de alto risco.",
-   "Adiar o fármaco por um ano em paciente de alto risco com estágio 2 deixa exposição pressórica acumulada sem necessidade.",
-   "Três classes de saída não é o padrão inicial; a escalada para o terceiro fármaco vem se a meta não for alcançada.",
-   "Correta: a diretriz brasileira de 2025 indica começar com associação dupla em doses baixas, de preferência em comprimido único, para a maioria dos pacientes.",
-   "O betabloqueador entra por indicação própria, como coronariopatia ou arritmia, e não como primeira escolha isolada."
+   "Correta: estágio 2 começa com dois fármacos em associação.",
+   "A monoterapia raramente alcança a meta no estágio 2.",
+   "Estilo de vida isolado por seis meses adia o controle necessário.",
+   "O betabloqueador não é primeira linha sem indicação específica.",
+   "Três fármacos de entrada não é a recomendação inicial."
   ]
  },
  {
-  "q": "Mulher de 67 anos em uso de três anti-hipertensivos em dose otimizada, incluindo diurético tiazídico, mantém pressão de 156/94 mmHg confirmada fora do consultório. A adesão foi verificada e não há uso de anti-inflamatórios. Qual é a próxima medida?",
+  "q": "Mulher de 67 anos usa losartana 100 mg, anlodipino 10 mg e hidroclorotiazida 25 mg em doses otimizadas há seis meses, com adesão confirmada por contagem de comprimidos. Mantém pressão de 162/98 mmHg em consultório e MAPA de vigília com média de 154/94 mmHg. Potássio de 3,2 mEq/L, creatinina de 1,0 mg/dL e relação aldosterona-renina elevada. A tomografia mostra nódulo adrenal esquerdo de 1,8 cm. Qual é a conduta?",
   "alts": [
-   "Acrescentar espironolactona, quarta droga com melhor evidência na hipertensão resistente comprovada.",
-   "Trocar as três classes por outras três, mantendo o mesmo número de fármacos no esquema terapêutico.",
-   "Iniciar investigação apenas com dosagem de cortisol sérico, adiando qualquer ajuste farmacológico agora.",
-   "Suspender o diurético, que nessa faixa etária costuma elevar a pressão em vez de reduzi-la no seguimento.",
-   "Aumentar todas as doses acima do máximo de bula antes de considerar acrescentar uma quarta classe."
+   "Investigar hiperaldosteronismo com cateterismo adrenal",
+   "Acrescentar espironolactona sem investigação adicional",
+   "Indicar adrenalectomia esquerda de imediato",
+   "Trocar a hidroclorotiazida por clortalidona",
+   "Encaminhar para denervação renal simpática"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; definição e manejo da hipertensão resistente",
-  "coment": "Hipertensão resistente é a que permanece acima da meta apesar de três classes em dose otimizada, uma delas diurético, confirmada fora do consultório e com adesão verificada — exatamente o caso. O quarto fármaco com melhor evidência é a espironolactona, apoiada em ensaio que a comparou a outras opções e mostrou superioridade na redução pressórica. O acompanhamento exige controle de potássio e função renal. Em paralelo, investiga-se hipertensão secundária, sobretudo hiperaldosteronismo primário, apneia do sono, doença renal e estenose de artéria renal, mas a investigação não adia a otimização do tratamento.",
+  "base": "SBC 2025. Hipertensão secundária: hiperaldosteronismo primário e cateterismo adrenal",
+  "coment": "Hipertensão resistente com hipocalemia espontânea, relação aldosterona-renina elevada e nódulo adrenal aponta hiperaldosteronismo primário. A tomografia não distingue adenoma funcionante de nódulo não funcionante com hiperplasia contralateral, e o cateterismo de veias adrenais é o exame que lateraliza a produção e decide entre cirurgia e tratamento clínico.",
   "porAlt": [
-   "Correta: na hipertensão resistente confirmada, a espironolactona é a quarta droga com melhor evidência de redução pressórica.",
-   "Trocar as classes sem acrescentar a quarta droga não resolve resistência e reinicia a titulação sem ganho esperado.",
-   "O cortisol isolado investiga uma causa pouco provável e adiar o ajuste mantém a paciente exposta à pressão elevada.",
-   "O diurético é peça central no esquema da hipertensão resistente; retirá-lo tende a piorar o controle pressórico.",
-   "Ultrapassar a dose máxima de bula soma efeito adverso sem ganho pressórico proporcional ao risco assumido."
+   "Correta: o cateterismo lateraliza e define cirurgia ou tratamento clínico.",
+   "Iniciar espironolactona antes mascara a dosagem e impede a investigação.",
+   "Operar sem lateralizar pode retirar uma adrenal não funcionante.",
+   "Trocar o tiazídico não investiga a causa secundária evidente.",
+   "A denervação vem depois de excluídas as causas secundárias."
   ]
  },
  {
-  "q": "Homem de 62 anos chega à emergência com pressão de 210/126 mmHg, cefaleia intensa, turvação visual e creatinina que subiu de 1,1 para 2,0 mg/dL em duas semanas, com hematúria. Está lúcido. Qual é a conduta correta?",
+  "q": "Homem de 62 anos chega à emergência com cefaleia intensa e turvação visual há seis horas. Pressão de 210/126 mmHg em ambos os braços, frequência de 92 bpm. A fundoscopia mostra papiledema e hemorragias em chama de vela. Creatinina de 2,4 mg/dL, subindo de 1,1 mg/dL há três meses, com hematúria dismórfica e proteinúria. Desidrogenase láctica elevada e esquizócitos no sangue periférico. Qual é a conduta?",
   "alts": [
-   "Prescrever captopril sublingual e liberar para casa assim que a pressão cair abaixo de 180/110 mmHg.",
-   "Baixar a pressão para valores normais na primeira hora, evitando qualquer atraso na correção do quadro.",
-   "Reduzir a pressão de forma controlada por via endovenosa, pois há lesão aguda de órgão-alvo em curso.",
-   "Apenas observar por seis horas sem medicação, já que o paciente está lúcido e sem déficit neurológico.",
-   "Iniciar anti-hipertensivo oral e agendar retorno ambulatorial em trinta dias para só então reavaliar."
+   "Redução da pressão com nitroprussiato intravenoso em ambiente monitorado",
+   "Captopril sublingual e reavaliação em uma hora",
+   "Redução rápida para menos de 140/90 mmHg em duas horas",
+   "Anti-hipertensivo oral e alta com retorno em 48 horas",
+   "Observação sem anti-hipertensivo até a creatinina estabilizar"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; emergência hipertensiva com lesão de órgão-alvo",
-  "coment": "Pressão muito elevada acompanhada de lesão aguda de órgão-alvo — aqui, injúria renal com hematúria e sintomas visuais — caracteriza emergência hipertensiva, que exige redução controlada por via endovenosa em ambiente monitorado. A meta é reduzir cerca de 20% a 25% da pressão arterial média na primeira hora, e não normalizar depressa: queda abrupta compromete a perfusão cerebral, coronária e renal, deslocada da curva de autorregulação de quem convive com pressão alta. Captopril sublingual foi abandonado justamente por produzir queda imprevisível e não controlável.",
+  "base": "SBC 2025. Emergências hipertensivas: hipertensão maligna e redução controlada",
+  "coment": "Papiledema com lesão renal aguda e microangiopatia trombótica caracteriza emergência hipertensiva com hipertensão maligna. O tratamento é intravenoso, titulável, em ambiente monitorado, com redução de até 25% da pressão arterial média na primeira hora. Queda mais rápida compromete a perfusão de órgãos com autorregulação já deslocada.",
   "porAlt": [
-   "O captopril sublingual produz queda imprevisível e foi abandonado; liberar para casa ignora a lesão renal em curso.",
-   "Normalizar a pressão na primeira hora provoca hipoperfusão de cérebro, coração e rim em quem tem autorregulação deslocada.",
-   "Correta: há lesão aguda de órgão-alvo, o que caracteriza emergência hipertensiva e exige redução controlada por via endovenosa.",
-   "Observar sem tratar diante de injúria renal aguda e sintomas visuais permite que a lesão de órgão progrida.",
-   "Retorno em trinta dias é conduta de urgência hipertensiva sem lesão de órgão, situação diferente da descrita aqui."
+   "Correta: fármaco intravenoso titulável, com redução controlada.",
+   "Captopril sublingual produz queda imprevisível e não é recomendado.",
+   "Normalizar em duas horas provoca isquemia cerebral e renal.",
+   "Alta com lesão de órgão-alvo em curso não é opção.",
+   "Deixar sem tratamento perpetua a lesão."
   ]
  },
  {
-  "q": "Durante a discussão de um caso, o preceptor pergunta ao residente qual é a diferença prática entre urgência e emergência hipertensiva. Qual resposta está correta?",
+  "q": "Mulher de 58 anos chega à emergência com pressão de 198/118 mmHg aferida em casa e cefaleia leve. Está lúcida, sem déficit neurológico, sem dor torácica ou dispneia. A fundoscopia não mostra papiledema, o eletrocardiograma é normal, a creatinina é de 1,0 mg/dL igual à de três meses atrás, a troponina é indetectável e a radiografia de tórax é normal. Ela havia suspendido os anti-hipertensivos por conta própria há uma semana. Qual é a conduta?",
   "alts": [
-   "A emergência é definida por pressão sistólica acima de 220 mmHg, independentemente de qualquer sintoma.",
-   "A urgência exige internação em unidade de terapia intensiva e redução pressórica por via endovenosa.",
-   "A diferença está no tempo de evolução: acima de doze horas de sintomas, todo quadro vira emergência.",
-   "A emergência tem lesão aguda de órgão-alvo; a urgência não, e o número da pressão não define a diferença.",
-   "São sinônimos na prática clínica atual, e ambos exigem a mesma velocidade de redução da pressão arterial."
+   "Reintroduzir anti-hipertensivo oral e reavaliar em 24 a 48 horas",
+   "Nitroprussiato intravenoso em terapia intensiva",
+   "Reduzir a pressão para menos de 140/90 mmHg antes da alta",
+   "Captopril sublingual seriado até normalizar",
+   "Internar para investigação de causa secundária"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; distinção entre urgência e emergência hipertensiva",
-  "coment": "A separação é clínica e não numérica: emergência hipertensiva é a elevação pressórica acompanhada de lesão aguda de órgão-alvo — encefalopatia, acidente vascular cerebral, edema agudo de pulmão, síndrome coronariana, dissecção de aorta, injúria renal aguda, eclâmpsia —, e exige redução controlada por via parenteral em ambiente monitorado. Urgência é a elevação importante sem lesão aguda de órgão, tratada com medicação oral e redução em 24 a 48 horas, em geral sem internação. Tratar urgência como emergência causa hipoperfusão iatrogênica; o contrário custa órgão.",
+  "base": "SBC 2025 (urgência e emergência hipertensiva: definição pela lesão de órgão-alvo",
+  "coment": "Sem lesão aguda de órgão-alvo, o quadro é urgência hipertensiva) pressão muito elevada sem dano em curso. A redução deve ser gradual, em 24 a 48 horas, com anti-hipertensivo oral e reavaliação ambulatorial precoce. A diferença entre urgência e emergência não está no número da pressão, e sim na presença de lesão aguda de órgão-alvo.",
   "porAlt": [
-   "Não existe corte numérico que defina emergência: pacientes com valores altíssimos podem estar sem lesão de órgão.",
-   "A urgência é tratada por via oral, com redução em 24 a 48 horas, e em geral sem necessidade de terapia intensiva.",
-   "O tempo de sintomas não converte urgência em emergência; o que converte é o surgimento de lesão aguda de órgão.",
-   "Correta: o que separa as duas é a presença de lesão aguda de órgão-alvo, e não o valor absoluto da pressão arterial.",
-   "São entidades distintas com velocidades de redução diferentes, e tratá-las igual gera dano em uma das direções."
+   "Correta: sem lesão aguda, redução gradual por via oral.",
+   "O intravenoso é para emergência com lesão de órgão-alvo.",
+   "Normalizar antes da alta expõe a hipoperfusão sem ganho.",
+   "O sublingual seriado produz quedas abruptas e imprevisíveis.",
+   "Não há indicação de internação, e a causa aqui é a suspensão do tratamento."
   ]
  }
 ]

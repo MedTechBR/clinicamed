@@ -1,242 +1,242 @@
 [
  {
-  "q": "Homem de 82 anos internado por pneumonia apresenta desatenção flutuante, desorganização do pensamento e alteração do nível de consciência iniciadas há um dia. Qual é a conduta inicial?",
+  "q": "Homem de 78 anos com demência com corpos de Lewy (flutuações, alucinações visuais bem formadas e parkinsonismo) é internado por infecção urinária e evolui com delirium agitado. Recebe ceftriaxona, está hidratado, sem retenção urinária ou constipação, com dor controlada. Medidas não farmacológicas não bastaram e ele tenta sair do leito à noite, com risco de queda. Usa rivastigmina transdérmica. QTc de 450 ms. Qual é a conduta farmacológica mais adequada?",
   "alts": [
-   "Buscar sempre causas do delirium e aplicar medidas não farmacológicas antes de qualquer sedativo.",
-   "Iniciar haloperidol em dose alta imediatamente, já medida de primeira linha para todo caso de delirium.",
-   "Prescrever benzodiazepínico de meia-vida longa para restaurar o ciclo de sono do paciente idoso.",
-   "Contenção física precoce, medida que reduz o tempo de delirium e previne complicações no idoso.",
-   "Solicitar tomografia de crânio em todos os casos antes de qualquer investigação de causa clínica."
-  ],
-  "gab": 0,
-  "tema": "geriatria",
-  "cenario": "enf",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "NICE guideline CG103 — Delirium, atualização 2023; American Geriatrics Society, revisão 2023",
-  "coment": "Delirium é disfunção cerebral aguda com causa quase sempre identificável: infecção, dor, retenção urinária, constipação, distúrbio hidroeletrolítico, hipoxemia, abstinência e fármacos, sobretudo anticolinérgicos, benzodiazepínicos e opioides. A abordagem começa por tratar a causa e aplicar medidas não farmacológicas: reorientação, presença de familiar, mobilização precoce, óculos e aparelho auditivo, higiene do sono e retirada de cateteres. Antipsicótico se reserva a agitação com risco.",
-  "porAlt": [
-   "Correta: identificar e tratar a causa, com medidas não farmacológicas antes de qualquer sedativo.",
-   "O antipsicótico não é primeira linha e se limita a agitação com risco ao paciente ou a terceiros.",
-   "O benzodiazepínico precipita e prolonga delirium, exceto na abstinência alcoólica documentada.",
-   "A contenção física aumenta agitação, lesão e tempo de delirium, sendo medida de último recurso.",
-   "A tomografia se reserva a trauma, sinal focal ou ausência de causa clínica após avaliação."
-  ]
- },
- {
-  "q": "Mulher de 78 anos com duas quedas nos últimos seis meses. Qual é a avaliação inicial mais adequada?",
-  "alts": [
-   "Solicitar apenas tomografia de crânio e liberar o acompanhamento clínico se o exame for normal agora.",
-   "Prescrever restrição de deambulação e uso de cadeira de rodas para prevenir novas quedas em casa.",
-   "Avaliação multifatorial com revisão de medicamentos e teste sempre padronizado de marcha e equilíbrio.",
-   "Iniciar apenas suplementação de cálcio, medida isolada capaz de reduzir a recorrência das quedas.",
-   "Solicitar apenas densitometria óssea, exame que identifica a causa das quedas nessa faixa etária."
-  ],
-  "gab": 2,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "World Falls Guidelines, 2022; USPSTF recommendation on falls prevention, 2024",
-  "coment": "Duas ou mais quedas no ano, ou uma queda com lesão, indicam avaliação multifatorial: revisão de medicamentos que aumentam risco, avaliação de marcha e equilíbrio com testes padronizados, força muscular, visão, hipotensão postural, cognição, calçado, ambiente domiciliar e vitamina D. A intervenção com melhor evidência é exercício estruturado com componente de equilíbrio e força. Restringir a marcha piora sarcopenia e aumenta o risco de novas quedas.",
-  "porAlt": [
-   "A tomografia normal não afasta as causas tratáveis de queda nem substitui a avaliação funcional.",
-   "Restringir a deambulação acelera sarcopenia e descondicionamento, aumentando o risco de quedas.",
-   "Correta: avaliação multifatorial com revisão de medicamentos e testes de marcha e equilíbrio.",
-   "O cálcio isolado não reduz quedas; a intervenção com melhor evidência é o exercício estruturado.",
-   "A densitometria estima risco de fratura, mas não identifica a causa das quedas do paciente."
-  ]
- },
- {
-  "q": "Paciente de 85 anos em uso de nove medicamentos, com sonolência e tontura. Qual instrumento orienta a revisão da prescrição?",
-  "alts": [
-   "Escala de coma de Glasgow seriada, já instrumento que orienta a retirada de medicamentos inadequados.",
-   "Índice tornozelo-braquial, medida que define quais fármacos devem ser suspensos nesse paciente.",
-   "Escore de Framingham, ferramenta desenhada para orientar a desprescrição no paciente idoso frágil.",
-   "Escala de Braden aplicada semanalmente, instrumento que orienta a revisão da lista de medicamentos.",
-   "Critérios de Beers e STOPP/START, aplicados sempre com desprescrição gradual e monitorada agora."
+   "Haloperidol 2 mg intramuscular",
+   "Risperidona 2 mg duas vezes ao dia",
+   "Suspender a rivastigmina",
+   "Diazepam 10 mg endovenoso",
+   "Quetiapina em dose baixa, por curto período"
   ],
   "gab": 4,
   "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "AGS Beers Criteria, atualização 2023; STOPP/START version 3, 2023",
-  "coment": "Polifarmácia com sintomas sugestivos de efeito adverso pede revisão sistemática. Os critérios de Beers listam medicamentos potencialmente inapropriados no idoso — benzodiazepínicos, anticolinérgicos, anti-inflamatórios, sulfonilureias de longa ação — e o STOPP/START acrescenta o outro lado, os medicamentos indicados que faltam. A desprescrição é gradual, um fármaco por vez, com pactuação e monitoramento de sintomas de retirada e de retorno da condição tratada.",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "NICE Guideline NG97: Dementia, 2018 (atualização 2023); McKeith et al., Diagnosis and management of dementia with Lewy bodies, Neurology, 2017",
+  "coment": "Pacientes com demência com corpos de Lewy ou doença de Parkinson têm sensibilidade grave a antipsicóticos bloqueadores dopaminérgicos: haloperidol e risperidona podem causar rigidez intensa, piora motora, síndrome neuroléptica maligna e morte. O NICE contraindica haloperidol nesses pacientes. Se um antipsicótico for inevitável, usa-se quetiapina (ou clozapina) em dose muito baixa e por curto período. Inibidor de colinesterase deve ser mantido, pois a suspensão pode piorar alucinações e cognição.",
   "porAlt": [
-   "A escala de Glasgow avalia nível de consciência e não tem relação com revisão de prescrição.",
-   "O índice tornozelo-braquial avalia doença arterial periférica, sem relação com a polifarmácia.",
-   "O escore de Framingham estima risco cardiovascular e não orienta retirada de medicamentos.",
-   "A escala de Braden estima risco de lesão por pressão, sem relação com revisão farmacológica.",
-   "Correta: Beers e STOPP/START orientam a identificação de fármacos inapropriados e a desprescrição."
+   "Haloperidol pode causar reação de sensibilidade grave na demência com corpos de Lewy.",
+   "Risperidona também bloqueia dopamina e piora o parkinsonismo.",
+   "Suspender a rivastigmina pode piorar alucinações e cognição.",
+   "Benzodiazepínico piora o delirium.",
+   "Demência com corpos de Lewy: se antipsicótico for inevitável, quetiapina em dose baixa por curto período."
   ]
  },
  {
-  "q": "Homem de 80 anos com perda de peso não intencional, fraqueza, lentidão da marcha, baixa atividade física e exaustão. Qual é a interpretação correta?",
+  "q": "Mulher de 78 anos teve 2 quedas nos últimos 6 meses, uma com escoriação no braço. Faz o teste Timed Up and Go em 16 segundos, com marcha lenta e alargada. Pressão arterial de 134/80 mmHg sentada e 128/76 mmHg em pé. Usa losartana e sinvastatina, sem psicotrópicos. Acuidade visual corrigida adequada, sem neuropatia periférica. Vitamina D de 34 ng/mL. Mora em casa térrea com tapetes. Qual intervenção tem maior evidência para reduzir novas quedas?",
   "alts": [
-   "Depressão maior isolada, diagnóstico que explica integralmente os cinco componentes descritos aqui.",
-   "Envelhecimento fisiológico normal, sem qualquer indicação de intervenção clínica ou nutricional agora.",
-   "Fragilidade pelo fenótipo de Fried, que indica sempre intervenção com exercício e suporte nutricional.",
-   "Demência em fase inicial, condição definida pelos cinco critérios descritos no enunciado do caso.",
-   "Insuficiência cardíaca descompensada, diagnóstico definido por esse conjunto de cinco achados agora."
+   "Vitamina D 50.000 UI mensal",
+   "Uso de protetor de quadril isolado",
+   "Restrição de sair de casa sozinha",
+   "Exercícios de equilíbrio e força",
+   "Suplemento proteico diário isolado"
   ],
-  "gab": 2,
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "World Guidelines for Falls Prevention and Management for Older Adults, Age and Ageing, 2022; Sherrington et al., Cochrane Review: Exercise for preventing falls in older people living in the community, 2019",
+  "coment": "Para idosos na comunidade com risco alto de queda, a diretriz mundial de quedas (2022) recomenda avaliação multifatorial e intervenção, e o exercício com treino de equilíbrio e força, progressivo, por pelo menos 3 horas por semana, é a medida com maior evidência de redução de quedas (Cochrane: cerca de 24%). Vitamina D só reduz quedas em quem tem deficiência, e doses altas intermitentes chegaram a aumentar quedas. A revisão do ambiente complementa. Restringir mobilidade acelera o descondicionamento.",
+  "porAlt": [
+   "Vitamina D sem deficiência não reduz quedas, e bolus mensal alto pode aumentá-las.",
+   "Protetor de quadril não previne a queda.",
+   "Restringir a mobilidade piora a força e o equilíbrio.",
+   "Exercício de equilíbrio e força, progressivo, é a intervenção com maior redução de quedas.",
+   "Proteína isolada não reduz quedas."
+  ]
+ },
+ {
+  "q": "Mulher de 83 anos começou anlodipino 10 mg há 4 meses para hipertensão. Dois meses depois surgiu edema bimaleolar e foi prescrita furosemida 40 mg. Agora tem incontinência urinária de urgência nova, tonturas ao levantar e sódio de 132 mEq/L. Pressão 112/64 mmHg sentada e 96/58 mmHg em pé. Creatinina subiu de 0,9 para 1,3 mg/dL. Sem insuficiência cardíaca ao ecocardiograma e sem hipoalbuminemia. Qual é a interpretação e a conduta mais adequada?",
+  "alts": [
+   "Insuficiência cardíaca oculta; aumentar a furosemida",
+   "Cascata de prescrição; rever anlodipino e furosemida",
+   "Bexiga hiperativa; iniciar oxibutinina",
+   "Hiponatremia por SIADH; restrição hídrica",
+   "Doença renal crônica; iniciar espironolactona"
+  ],
+  "gab": 1,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Fried frailty phenotype; ICFSR international clinical practice guidelines for identification and management of frailty, 2019; revisão 2023",
-  "coment": "O fenótipo de fragilidade de Fried tem cinco componentes: perda de peso não intencional, exaustão autorrelatada, fraqueza medida pela força de preensão, lentidão da marcha e baixo nível de atividade física. Três ou mais definem fragilidade, e um ou dois definem pré-fragilidade. A intervenção com melhor evidência é exercício resistido progressivo associado a aporte proteico adequado, além de revisão de medicamentos e busca de causas reversíveis.",
+  "base": "STOPP/START version 3, European Geriatric Medicine, 2023; McCarthy et al., Prescribing cascades, BMJ, 2022",
+  "coment": "Cascata de prescrição ocorre quando um efeito adverso é interpretado como nova doença e tratado com outro fármaco. O edema maleolar do anlodipino é dose-dependente, por vasodilatação arteriolar, e não responde bem a diurético. A furosemida gerou urgência urinária, hipotensão ortostática, hiponatremia e piora renal. A conduta é reduzir ou trocar o bloqueador de cálcio e suspender o diurético; a oxibutinina seria mais um degrau da cascata, com carga anticolinérgica. Critérios como STOPP/START ajudam a detectar esse padrão.",
   "porAlt": [
-   "A depressão pode coexistir e deve ser rastreada, mas não define os cinco componentes descritos.",
-   "Fragilidade não é envelhecimento normal: é síndrome com prognóstico próprio e tratamento definido.",
-   "Correta: o conjunto descreve o fenótipo de fragilidade, que indica exercício e suporte nutricional.",
-   "A demência é definida por declínio cognitivo com perda funcional, e não pelos critérios descritos.",
-   "A insuficiência cardíaca exige achados cardiovasculares que não estão descritos neste enunciado."
+   "O ecocardiograma não mostra insuficiência cardíaca, e mais diurético agrava os efeitos.",
+   "Edema por anlodipino tratado com furosemida: cascata de prescrição; reduzir o anlodipino e suspender o diurético.",
+   "Oxibutinina acrescentaria mais um fármaco anticolinérgico à cascata.",
+   "A hiponatremia se explica pelo diurético.",
+   "A piora renal é funcional, pela depleção de volume."
   ]
  },
  {
-  "q": "Mulher de 76 anos com incontinência urinária de urgência, sem infecção e sem resíduo pós-miccional elevado. Qual é o tratamento inicial?",
+  "q": "Homem de 80 anos perdeu 5 kg sem intenção em 1 ano, refere cansaço na maior parte dos dias, caminha a 0,6 m/s e tem força de preensão abaixo do ponto de corte para sexo e índice de massa corporal. Sai de casa pouco. Independente para atividades básicas, sem depressão (GDS-15 de 3), MEEM de 27 com 8 anos de escolaridade. TSH, hemograma, albumina e função renal normais. Qual é a classificação e a intervenção mais adequada?",
   "alts": [
-   "Terapia comportamental com treinamento vesical e exercícios sempre orientados de assoalho pélvico.",
-   "Iniciar oxibutinina em dose alta como primeira linha, por sua eficácia no idoso com incontinência.",
-   "Indicar sondagem vesical de demora para conforto e controle definitivo dos episódios de perda.",
-   "Encaminhar para cirurgia de sling suburetral, tratamento de escolha da incontinência de urgência.",
-   "Restringir a ingestão hídrica a meio litro por dia, medida inicial recomendada para essa condição."
+   "Fragilidade (Fried); exercício e proteína",
+   "Pré-fragilidade; apenas observar por 1 ano",
+   "Sarcopenia grave; iniciar testosterona",
+   "Depressão mascarada; iniciar sertralina",
+   "Fragilidade; megestrol para apetite"
   ],
   "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "International Conference of Frailty and Sarcopenia Research (ICFSR) Clinical Practice Guidelines on Frailty, 2019; AGS Beers Criteria, 2023",
+  "coment": "O fenótipo de Fried tem 5 critérios: perda de peso não intencional, exaustão, baixa atividade física, lentidão da marcha e fraqueza. Três ou mais definem fragilidade, 1 ou 2 pré-fragilidade; ele tem os 5. As diretrizes da ICFSR (2019) recomendam exercício multicomponente com resistência progressiva, suplementação proteica ou calórica quando há perda de peso ou desnutrição, e revisão da polifarmácia. Megestrol é inapropriado (Beers), e testosterona não é recomendada para fragilidade.",
+  "porAlt": [
+   "Cinco de 5 critérios de Fried: fragilidade; exercício multicomponente com resistência e suporte proteico.",
+   "Cinco critérios de Fried definem fragilidade, não pré-fragilidade.",
+   "Testosterona não é recomendada para fragilidade.",
+   "GDS-15 de 3 não sugere depressão.",
+   "Megestrol aumenta trombose e mortalidade em idosos."
+  ]
+ },
+ {
+  "q": "Mulher de 76 anos tem incontinência urinária de urgência há 1 ano, com 10 micções diárias e 2 noturnas. Urina tipo 1 sem infecção, resíduo pós-miccional de 40 mL. Fez 12 semanas de treinamento vesical, exercícios de assoalho pélvico e redução de cafeína, com melhora pequena. MoCA de 22, usa donepezila 10 mg. Pressão 128/76 mmHg, sem arritmia. Não tem glaucoma de ângulo fechado, e a creatinina é 0,9 mg/dL. Qual é o tratamento farmacológico mais adequado?",
+  "alts": [
+   "Oxibutinina 5 mg três vezes ao dia",
+   "Amitriptilina 25 mg à noite",
+   "Mirabegrona 25 mg ao dia",
+   "Tansulosina 0,4 mg ao dia",
+   "Desmopressina 0,2 mg à noite"
+  ],
+  "gab": 2,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "EAU Guidelines on Urinary Incontinence, 2024; AUA/SUFU guideline on overactive bladder, 2024",
-  "coment": "A incontinência de urgência é tratada inicialmente com medidas comportamentais: treinamento vesical com micções programadas, exercícios de assoalho pélvico, controle de cafeína e álcool, ajuste de diuréticos e tratamento de constipação. Se houver falha, prefere-se mirabegrona no idoso, porque antimuscarínicos como a oxibutinina têm carga anticolinérgica associada a confusão, retenção e declínio cognitivo. Sling trata incontinência de esforço, não de urgência.",
+  "base": "AUA/SUFU Guideline on the Diagnosis and Treatment of Idiopathic Overactive Bladder, 2024; AGS Beers Criteria, 2023",
+  "coment": "Após falha do tratamento comportamental na incontinência de urgência, o próximo passo é farmacológico. Antimuscarínicos como oxibutinina são fortemente anticolinérgicos, estão associados a declínio cognitivo e a risco de demência e antagonizam a donepezila (Beers 2023). A AUA/SUFU (2024) orienta discutir esse risco e preferir agonista beta-3 (mirabegrona ou vibegrona) em idosos, sobretudo com comprometimento cognitivo. Monitoriza-se a pressão com mirabegrona. Desmopressina tem alto risco de hiponatremia em idosos.",
   "porAlt": [
-   "Correta: terapia comportamental com treinamento vesical e exercícios de assoalho pélvico é a primeira linha.",
-   "A oxibutinina tem alta carga anticolinérgica e é evitada no idoso pelo risco cognitivo e de retenção.",
-   "A sonda de demora aumenta infecção e não é medida de conforto para incontinência sem retenção.",
-   "O sling suburetral trata incontinência de esforço, e não a incontinência de urgência descrita.",
-   "A restrição hídrica extrema causa desidratação e concentra a urina, agravando a urgência miccional."
+   "Oxibutinina é anticolinérgica, piora a cognição e antagoniza a donepezila.",
+   "Amitriptilina é anticolinérgica e inapropriada em idosos.",
+   "Urgência refratária ao tratamento comportamental em idosa com déficit cognitivo: agonista beta-3, como mirabegrona.",
+   "Tansulosina não trata bexiga hiperativa em mulheres.",
+   "Desmopressina causa hiponatremia grave em idosos."
   ]
  },
  {
-  "q": "Paciente de 79 anos com queixa de esquecimento progressivo há dois anos, com prejuízo para gerenciar as próprias finanças e medicações. Qual é a conduta inicial?",
+  "q": "Mulher de 79 anos, com 4 anos de escolaridade, é trazida pela filha por esquecimento progressivo há 2 anos. Passou a esquecer contas vencidas e errar a dose dos remédios, e a filha assumiu as finanças e a medicação. Continua tomando banho, vestindo-se e alimentando-se sozinha. MEEM de 19. GDS-15 de 2. B12, TSH, função renal, cálcio, glicemia e sorologia para sífilis normais. Ressonância com atrofia hipocampal bilateral. Qual é o diagnóstico mais provável?",
   "alts": [
-   "Iniciar inibidor de colinesterase imediatamente, sem qualquer investigação complementar prévia.",
-   "Atribuir o quadro ao envelhecimento normal e reavaliar somente após cinco anos de seguimento.",
-   "Avaliar cognição e funcionalidade, sempre excluindo causas reversíveis com exames laboratoriais.",
-   "Solicitar apenas tomografia de crânio, exame que estabelece isoladamente o diagnóstico etiológico.",
-   "Prescrever antipsicótico em dose baixa, medida inicial recomendada para o declínio cognitivo descrito."
+   "Comprometimento cognitivo leve amnéstico",
+   "Pseudodemência por depressão",
+   "Demência vascular pela escolaridade baixa",
+   "Demência leve, provável Alzheimer",
+   "Envelhecimento cognitivo normal"
   ],
-  "gab": 2,
+  "gab": 3,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "NICE guideline NG97 — Dementia, atualização 2023; Academia Brasileira de Neurologia, 2022",
-  "coment": "Declínio cognitivo com perda de funcionalidade caracteriza demência e exige avaliação estruturada: testes cognitivos e de funcionalidade, história com informante, exame neurológico e busca de causas reversíveis com hemograma, função renal e hepática, cálcio, TSH, vitamina B12, sorologias e neuroimagem estrutural. Só após caracterizar o quadro se define a etiologia e o tratamento, que inclui inibidor de colinesterase quando a doença de Alzheimer é provável.",
+  "base": "Academia Brasileira de Neurologia, Diagnóstico de doença de Alzheimer no Brasil, Dementia & Neuropsychologia, 2022; NIA-AA Revised Criteria for Alzheimer's Disease, 2024",
+  "coment": "O que separa comprometimento cognitivo leve de demência é a funcionalidade: perda de independência nas atividades instrumentais (finanças, medicações) por causa cognitiva define demência, mesmo com atividades básicas preservadas (estágio leve). Com 4 anos de escolaridade, o ponto de corte brasileiro do MEEM gira em torno de 24 a 25, e 19 é alterado. Declínio insidioso de memória, atrofia hipocampal e exames para causas reversíveis normais apontam doença de Alzheimer. Não há depressão pelo GDS.",
   "porAlt": [
-   "Tratar sem investigar arrisca perder causa reversível, como hipotireoidismo ou deficiência de B12.",
-   "O declínio com perda funcional não é envelhecimento normal e não deve ser apenas observado.",
-   "Correta: avaliar cognição e funcionalidade e excluir causas reversíveis antes de definir a etiologia.",
-   "A neuroimagem complementa a avaliação, mas isolada não estabelece o diagnóstico etiológico.",
-   "O antipsicótico não trata declínio cognitivo e aumenta mortalidade em pacientes com demência."
+   "Comprometimento cognitivo leve preserva as atividades instrumentais.",
+   "GDS-15 de 2 não sugere depressão.",
+   "Escolaridade baixa não define etiologia vascular; não há lesões vasculares.",
+   "Perda das atividades instrumentais por declínio cognitivo insidioso, com atrofia hipocampal: demência leve provavelmente por Alzheimer.",
+   "Perda funcional e MEEM alterado não são envelhecimento normal."
   ]
  },
  {
-  "q": "Homem de 84 anos, acamado, com lesão em região sacral de espessura parcial e leito rosado. Qual é a medida mais eficaz para evitar progressão?",
+  "q": "Homem de 84 anos, acamado após AVC, tem lesão sacral de 3 × 2 cm com perda parcial da espessura da pele, leito rosado e úmido, sem esfacelo, tecido necrótico ou exposição de tecido subcutâneo. Sem sinais de infecção ao redor. Escala de Braden de 11. Albumina de 3,1 g/dL, ingestão de metade das refeições. Recebe mudança de decúbito a cada 4 horas em colchão comum. Qual é o conjunto de medidas mais adequado?",
   "alts": [
-   "Aplicar calor local seco intermitente, medida que acelera a cicatrização de lesões por pressão.",
-   "Reposicionamento programado com superfície de redistribuição e sempre otimização do aporte proteico.",
-   "Manter a lesão exposta ao ar e sem cobertura, conduta que favorece a epitelização mais rápida agora.",
-   "Iniciar antibiótico sistêmico de amplo espectro em todos os casos de lesão por pressão superficial.",
-   "Realizar desbridamento cirúrgico amplo imediato, conduta indicada para lesão de espessura parcial."
+   "Desbridamento cirúrgico e antibiótico sistêmico",
+   "Estágio 2; curativo úmido, alívio de pressão, nutrição",
+   "Estágio 3; gaze seca e secador de cabelo",
+   "Estágio 1; massagem vigorosa sobre a área",
+   "Estágio 4; enxerto cutâneo precoce"
   ],
   "gab": 1,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "prev",
   "nivel": "r1",
-  "base": "EPUAP/NPIAP/PPPIA — Prevention and Treatment of Pressure Ulcers, 3ª edição, 2019, com revisão 2023",
-  "coment": "Lesão por pressão estágio dois, de espessura parcial, é prevenida e tratada por alívio da pressão: reposicionamento programado, superfície de redistribuição, proteção da pele com hidratação e barreira, manejo da umidade e aporte nutricional adequado, com atenção especial à ingestão de proteína e calorias. A cobertura mantém o meio úmido e protege. Antibiótico sistêmico só se houver infecção clínica, e desbridamento se houver tecido desvitalizado.",
+  "base": "NPIAP/EPUAP/PPPIA International Guideline: Prevention and Treatment of Pressure Ulcers/Injuries, 2019",
+  "coment": "Perda parcial da espessura com leito rosado e úmido, sem esfacelo ou tecido subcutâneo exposto, é lesão por pressão estágio 2 (NPIAP). O tratamento inclui curativo que mantenha o meio úmido (hidrocoloide, espuma ou filme), redistribuição de pressão com superfície de suporte e reposicionamento programado, proteção contra umidade e fricção, e avaliação nutricional com aporte proteico e calórico adequado. Braden de 12 ou menos indica risco alto. Massagem sobre proeminências e secagem do leito prejudicam a cicatrização.",
   "porAlt": [
-   "O calor local não acelera cicatrização e pode aumentar a demanda metabólica do tecido lesado.",
-   "Correta: alívio da pressão com reposicionamento, superfície adequada e aporte nutricional otimizado.",
-   "A exposição ao ar resseca o leito da ferida; o meio úmido controlado favorece a epitelização.",
-   "Antibiótico sistêmico sem sinais de infecção seleciona resistência e não acelera a cicatrização.",
-   "O desbridamento é indicado quando há tecido desvitalizado, ausente na lesão de espessura parcial."
+   "Lesão estágio 2 limpa não precisa de desbridamento nem antibiótico.",
+   "Estágio 2: curativo que mantém umidade, superfície de redistribuição de pressão, reposicionamento e nutrição.",
+   "Não há exposição de tecido subcutâneo, e secar o leito atrasa a cicatrização.",
+   "Há perda de pele, e massagem piora o dano.",
+   "Não há exposição de osso, tendão ou músculo."
   ]
  },
  {
-  "q": "Mulher de 74 anos com hipertensão, sem outras comorbidades, funcionalmente independente. Qual é o alvo pressórico recomendado?",
+  "q": "Mulher de 74 anos, hipertensa, independente, caminha 40 minutos por dia, MoCA de 28, sem quedas, diabetes ou doença renal. Usa losartana 50 mg e tem pressão média de 146/82 mmHg na monitorização residencial de 7 dias, sem hipotensão ortostática. Risco cardiovascular em 10 anos de 14% pelo PREVENT. Tolera bem a medicação e prefere reduzir o risco de AVC. Clearance de 72 mL/min e potássio de 4,4 mEq/L. Qual é o alvo pressórico mais adequado?",
   "alts": [
-   "Alvo abaixo de 160 por 100 mmHg, por não haver benefício em reduzir mais nessa faixa etária agora.",
-   "Alvo abaixo de 130 por 80 mmHg, buscado sempre com titulação gradual e atenção à hipotensão postural.",
-   "Alvo abaixo de 110 por 60 mmHg, com titulação rápida para reduzir o risco cardiovascular residual.",
-   "Nenhum alvo específico, pois a pressão não deve ser tratada em pacientes acima dos setenta anos.",
-   "Alvo definido apenas pela pressão de pulso isolada, sem considerar valores sistólico e diastólico."
+   "Abaixo de 130/80 mmHg, se tolerado",
+   "Abaixo de 150/90 mmHg, pela idade",
+   "Abaixo de 160/90 mmHg",
+   "Abaixo de 110/70 mmHg",
+   "Não tratar a hipertensão após 70 anos"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; ESC guidelines for hypertension, 2024",
-  "coment": "O idoso funcionalmente independente se beneficia do mesmo alvo dos demais adultos, abaixo de 130 por 80 mmHg, com base em ensaios que mostraram redução de eventos e de mortalidade com controle mais estrito. O que muda é a forma: titulação gradual, medida de pressão em pé para detectar hipotensão postural, atenção a quedas, função renal e eletrólitos. No idoso frágil ou com expectativa de vida limitada o alvo é individualizado, com metas menos rígidas.",
+  "base": "AHA/ACC Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults, 2025; SPRINT Research Group, NEJM, 2015",
+  "coment": "Em idosos independentes que vivem na comunidade, a redução intensiva da pressão reduziu eventos cardiovasculares e mortalidade (SPRINT, subgrupo de 75 anos ou mais; STEP, em chineses de 60 a 80 anos). A diretriz AHA/ACC de 2025 recomenda alvo abaixo de 130/80 mmHg também para idosos na comunidade, com atenção a hipotensão ortostática, quedas e função renal. Em idosos frágeis, institucionalizados ou com expectativa de vida limitada, o alvo é individualizado.",
   "porAlt": [
-   "Alvo de 160 por 100 mmHg deixa risco cardiovascular evitável sem tratamento adequado.",
-   "Correta: alvo abaixo de 130 por 80 mmHg com titulação gradual e vigilância de hipotensão postural.",
-   "Alvo de 110 por 60 mmHg aumenta hipotensão, quedas e piora da perfusão em órgãos-alvo.",
-   "A hipertensão tratada no idoso reduz acidente vascular cerebral, insuficiência cardíaca e óbito.",
-   "A pressão de pulso é marcador de rigidez arterial, mas não substitui as metas sistólica e diastólica."
+   "Idosa independente e sem fragilidade: alvo abaixo de 130/80 mmHg, se tolerado.",
+   "Alvo abaixo de 150/90 é antigo e deixa risco evitável na idosa independente.",
+   "Alvo frouxo demais para quem é independente e de risco elevado.",
+   "Alvo excessivamente baixo, com risco de hipotensão.",
+   "Tratar hipertensão em idosos reduz AVC e mortalidade."
   ]
  },
  {
-  "q": "Paciente de 88 anos com múltiplas comorbidades e expectativa de vida estimada em menos de dois anos. Qual é a conduta quanto ao rastreio de câncer colorretal?",
+  "q": "Homem de 88 anos com insuficiência cardíaca de fração reduzida classe III, doença renal crônica estágio 4 e DPOC com oxigênio domiciliar teve 2 internações nos últimos 6 meses. Precisa de ajuda para banho. Nunca fez colonoscopia. Não tem sangramento, anemia ou alteração do hábito intestinal. A filha leu que o rastreio de câncer colorretal salva vidas e pede colonoscopia. Tem clearance de 22 mL/min e usa furosemida em dose alta. Qual é a orientação mais adequada?",
   "alts": [
-   "Manter colonoscopia a cada cinco anos independentemente da expectativa de vida do paciente idoso já.",
-   "Substituir a colonoscopia por tomografia anual de abdome como rastreio nessa faixa de idade já.",
-   "Realizar colonoscopia anual, estratégia recomendada para compensar a idade avançada do paciente.",
-   "Manter o rastreio até os cem anos de idade em todos os pacientes, independentemente do prognóstico.",
-   "Suspender o rastreio, pois o benefício aparece sempre depois de dez anos de seguimento estimado."
+   "Colonoscopia, por ausência de rastreio prévio",
+   "Pesquisa de sangue oculto anual",
+   "Não rastrear, pelo benefício tardio",
+   "Colonografia por tomografia a cada 5 anos",
+   "Colonoscopia a cada 5 anos"
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "USPSTF Recommendation Statement: Screening for Colorectal Cancer, 2021",
+  "coment": "O USPSTF (2021) recomenda rastreio de 45 a 75 anos, decisão individualizada de 76 a 85 (considerando rastreio prévio e saúde) e não rastrear acima de 85 anos. O benefício de mortalidade aparece cerca de 10 anos depois, enquanto preparo, sedação e perfuração são mais arriscados em idosos com comorbidades graves. Com expectativa de vida claramente menor que 10 anos, rastrear expõe a dano sem benefício. Sintomas como sangramento ou anemia justificariam investigação diagnóstica, que é outra situação.",
+  "porAlt": [
+   "Acima de 85 anos e com expectativa de vida curta, o rastreio não traz benefício, mesmo sem rastreio prévio.",
+   "Qualquer método de rastreio segue a mesma lógica de benefício tardio.",
+   "Idade acima de 85 anos e comorbidades graves: não rastrear, pelo benefício só após cerca de 10 anos.",
+   "Colonografia também é rastreio e leva à colonoscopia se positiva.",
+   "Intervalos de rastreio não se aplicam sem indicação."
+  ]
+ },
+ {
+  "q": "Homem de 81 anos tem tonturas ao levantar e 1 quase-síncope. Pressão arterial deitado de 148/84 mmHg e, após 3 minutos em pé, 118/70 mmHg, com frequência passando de 72 para 90 bpm. Usa tansulosina 0,4 mg há 3 meses para hiperplasia prostática, trazodona 100 mg à noite, hidroclorotiazida 25 mg e losartana 50 mg. Sódio e hemoglobina normais, sem neuropatia ou doença de Parkinson. Qual é a primeira medida mais adequada?",
+  "alts": [
+   "Iniciar fludrocortisona 0,1 mg",
+   "Iniciar midodrina 2,5 mg três vezes ao dia",
+   "Suspender toda a medicação anti-hipertensiva",
+   "Solicitar tilt test antes de mudar a prescrição",
+   "Rever e reduzir os fármacos hipotensores"
   ],
   "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r3",
-  "base": "USPSTF colorectal cancer screening, 2021; ACS guideline, atualização 2024",
-  "coment": "O rastreio de câncer colorretal produz benefício com defasagem de aproximadamente dez anos entre o exame e a redução de mortalidade, enquanto o dano — preparo, sedação, perfuração, achados incidentais — é imediato. Em expectativa de vida inferior a esse intervalo, o rastreio causa mais dano que benefício. As diretrizes recomendam individualizar entre setenta e seis e oitenta e cinco anos e não rastrear acima disso, considerando expectativa e preferência.",
-  "porAlt": [
-   "Manter o rastreio sem considerar prognóstico expõe a dano imediato sem benefício alcançável.",
-   "A tomografia de abdome não é método de rastreio de câncer colorretal em nenhuma diretriz atual.",
-   "A colonoscopia anual não é intervalo de rastreio e multiplica os riscos do procedimento.",
-   "Não há recomendação de rastrear até os cem anos; acima de oitenta e cinco não se rastreia.",
-   "Correta: suspender o rastreio, pois o benefício só aparece após cerca de dez anos de seguimento."
-  ]
- },
- {
-  "q": "Homem de 81 anos com hipotensão postural sintomática. Qual é a primeira medida?",
-  "alts": [
-   "Iniciar fludrocortisona imediatamente em todos os casos, já antes de revisar a lista de medicamentos.",
-   "Restringir sal e água na dieta, medida inicial recomendada para o controle da hipotensão postural.",
-   "Prescrever repouso no leito por duas semanas, conduta que corrige a instabilidade hemodinâmica.",
-   "Revisar e reduzir fármacos hipotensores, sempre associando medidas não farmacológicas de suporte.",
-   "Iniciar betabloqueador em dose baixa, medida que já reduz a queda pressórica na posição em pé."
-  ],
-  "gab": 3,
-  "tema": "geriatria",
-  "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Autonomic Society/AAN consensus on orthostatic hypotension, revisão 2023; AGS Beers Criteria, 2023",
-  "coment": "A hipotensão postural no idoso é frequentemente iatrogênica: anti-hipertensivos, alfabloqueadores, nitratos, antidepressivos tricíclicos, antipsicóticos e diuréticos. A primeira medida é revisar e reduzir esses fármacos. Seguem-se medidas não farmacológicas: levantar em etapas, hidratação adequada, aumento da ingestão de sal quando não contraindicado, meia de compressão, elevação da cabeceira e manobras de contrapressão. Fludrocortisona e midodrina ficam para refratários.",
+  "base": "ESC Guidelines for the diagnosis and management of syncope, 2018; Consensus statement on the definition of orthostatic hypotension, Clinical Autonomic Research, 2011",
+  "coment": "Queda sistólica de 20 mmHg ou mais em 3 minutos em pé define hipotensão ortostática; o aumento de frequência cardíaca de 18 bpm sugere causa não neurogênica (razão Δ FC/Δ PAS acima de 0,5). A causa mais comum no idoso são medicamentos: alfabloqueador, trazodona e tiazídico. O primeiro passo é reduzir ou trocar os fármacos responsáveis, mantendo controle da hipertensão supina, com medidas como levantar em etapas, hidratação e meias compressivas. Fludrocortisona e midodrina ficam para hipotensão neurogênica ou refratária.",
   "porAlt": [
-   "A fludrocortisona é reservada a casos refratários, após revisão de medicamentos e medidas gerais.",
-   "Restringir sal e água agrava a hipotensão; o recomendado é aumentar a ingestão, se possível.",
-   "O repouso prolongado piora o descondicionamento e agrava a intolerância à posição ortostática.",
-   "Correta: revisar e reduzir os fármacos hipotensores, associando medidas não farmacológicas de suporte.",
-   "O betabloqueador não corrige hipotensão postural e pode reduzir ainda mais o débito cardíaco."
+   "Fludrocortisona piora a hipertensão supina e vem depois de rever fármacos.",
+   "Midodrina é para casos neurogênicos ou refratários.",
+   "Suspender tudo deixa a hipertensão supina sem controle.",
+   "O diagnóstico já foi feito à beira do leito.",
+   "Hipotensão ortostática induzida por fármacos: rever e reduzir tansulosina, trazodona e tiazídico."
   ]
  }
 ]

@@ -1,242 +1,242 @@
 [
  {
-  "q": "Homem de 55 anos com diabetes tipo 2, hemoglobina glicada de 8,4%, doença renal crônica com albuminúria e obesidade. Qual é a conduta?",
+  "q": "Homem de 55 anos com diabetes tipo 2 há 14 anos e índice de massa corporal de 32 kg/m² acompanha doença renal crônica. Usa metformina 1 g/dia, empagliflozina 10 mg/dia há 8 meses, losartana 100 mg/dia e atorvastatina. Pressão arterial 128/78 mmHg, hemoglobina glicada de 7,1%. Taxa de filtração glomerular estimada de 52 mL/min/1,73 m², estável; relação albumina/creatinina urinária de 480 mg/g, que era de 620 mg/g antes da empagliflozina. Potássio 4,6 mEq/L. Não tem insuficiência cardíaca. Qual é a conduta para reduzir ainda mais o risco renal e cardiovascular?",
   "alts": [
-   "Sulfonilureia isolada em dose plena, escolha preferencial para o paciente com doença renal e albuminúria.",
-   "Metformina associada a inibidor de SGLT2, sempre pelo benefício renal e cardiovascular demonstrado.",
-   "Insulina basal isolada como primeira escolha antes de qualquer antidiabético oral nesse paciente.",
-   "Apenas orientação dietética por doze meses antes de considerar qualquer tratamento medicamentoso.",
-   "Glitazona em dose plena, escolha preferencial pelo benefício renal em pacientes com albuminúria."
+   "Associar enalapril à losartana",
+   "Trocar empagliflozina por pioglitazona",
+   "Aumentar a losartana para 200 mg/dia",
+   "Associar espironolactona 50 mg/dia",
+   "Associar finerenona com potássio monitorado"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "KDIGO Clinical Practice Guideline for Diabetes Management in CKD, 2022; ADA Standards of Care in Diabetes, 2025; FIDELIO-DKD, NEJM, 2020",
+  "coment": "Na doença renal do diabetes com albuminúria persistente apesar de bloqueador do sistema renina-angiotensina em dose máxima e inibidor de SGLT2, KDIGO (2022) e ADA recomendam acrescentar finerenona, antagonista mineralocorticoide não esteroidal que reduziu progressão renal e eventos cardiovasculares nos estudos FIDELIO-DKD e FIGARO-DKD. Exige filtração de 25 mL/min/1,73 m² ou mais e potássio normal, com nova dosagem em 4 semanas. Agonista de GLP-1 (estudo FLOW, 2024) é outra camada de proteção renal.",
+  "porAlt": [
+   "Duplo bloqueio do sistema renina-angiotensina aumenta hipercalemia e lesão renal sem benefício.",
+   "Pioglitazona não tem proteção renal, e o inibidor de SGLT2 deve ser mantido.",
+   "A losartana já está na dose máxima estudada.",
+   "Espironolactona não tem ensaio de desfecho renal no diabetes e causa mais hipercalemia.",
+   "Albuminúria residual apesar de bloqueio máximo e SGLT2: finerenona reduz progressão renal e eventos cardiovasculares."
+  ]
+ },
+ {
+  "q": "Mulher de 78 anos com doença arterial coronária, angioplastia há 3 anos e angina estável aos grandes esforços, queixa-se de cansaço, constipação e ganho de 4 kg em 6 meses. TSH 42 mUI/L e T4 livre de 0,4 ng/dL (referência de 0,9 a 1,8), com anticorpo antitireoperoxidase positivo. Pesa 60 kg. Frequência cardíaca 58 bpm, pressão arterial 134/80 mmHg. Usa ácido acetilsalicílico, atorvastatina, bisoprolol e omeprazol. Eletrocardiograma sem alterações agudas. Qual é a conduta mais adequada?",
+  "alts": [
+   "Levotiroxina 100 µg/dia, dose plena pelo peso",
+   "Levotiroxina 25 µg/dia com aumento gradual",
+   "Liotironina oral pela resposta mais rápida",
+   "Aguardar nova dosagem em 3 meses",
+   "Levotiroxina endovenosa em internação"
   ],
   "gab": 1,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; KDIGO Diabetes Management in CKD, 2022; SBD Diretriz 2024",
-  "coment": "Em diabetes tipo 2 com doença renal crônica e albuminúria, os inibidores de SGLT2 são indicados independentemente da hemoglobina glicada, por reduzirem progressão da doença renal, internação por insuficiência cardíaca e morte cardiovascular. A metformina permanece como base enquanto a filtração glomerular for maior que 30 mL/min/1,73 m². Agonistas de GLP-1 são a escolha adicional quando se busca perda de peso e proteção cardiovascular.",
+  "base": "American Thyroid Association Guidelines for the Treatment of Hypothyroidism, 2014",
+  "coment": "No hipotireoidismo franco, adultos jovens e saudáveis podem começar pela dose plena estimada (cerca de 1,6 µg/kg/dia). Em idosos e em quem tem doença coronária, a ATA recomenda iniciar com 12,5 a 25 µg/dia e aumentar gradualmente, com TSH a cada 6 semanas, porque a reposição rápida eleva o consumo de oxigênio do miocárdio. O omeprazol reduz a absorção e pode exigir dose maior; o comprimido é tomado em jejum.",
   "porAlt": [
-   "A sulfonilureia causa hipoglicemia e ganho de peso, sem benefício renal ou cardiovascular provado.",
-   "Correta: metformina com inibidor de SGLT2, pelo benefício renal e cardiovascular demonstrado.",
-   "A insulina basal não é primeira escolha aqui e não oferece a proteção renal buscada neste caso.",
-   "Adiar por doze meses em paciente com glicada de 8,4% e doença renal permite progressão evitável.",
-   "A glitazona causa retenção hídrica e ganho de peso, sem o benefício renal atribuído ao SGLT2."
+   "Dose plena em coronariopata idosa pode precipitar angina e infarto.",
+   "Idosa com doença coronária: iniciar com 12,5 a 25 µg/dia e aumentar a cada 4 a 6 semanas conforme o TSH.",
+   "Liotironina aumenta o consumo de oxigênio do miocárdio e não é recomendada.",
+   "Hipotireoidismo franco e sintomático deve ser tratado agora.",
+   "Não há coma mixedematoso; via oral ambulatorial é adequada."
   ]
  },
  {
-  "q": "Mulher de 45 anos com TSH de 12 mUI/L e T4 livre baixo, com fadiga e ganho de peso. Qual é a conduta?",
+  "q": "Homem de 22 anos, sem diagnóstico prévio, chega com 10 dias de poliúria, polidipsia e perda de 7 kg e, há 1 dia, vômitos e sonolência. Pressão arterial 102/64 mmHg, frequência 124 bpm, respiração de Kussmaul. Glicemia 480 mg/dL, pH 7,02, bicarbonato 5 mEq/L, pCO₂ 17 mmHg, ânion gap 30 mEq/L, beta-hidroxibutirato 7,5 mmol/L, potássio 5,2 mEq/L, sódio 130 mEq/L, creatinina 1,6 mg/dL. Recebeu 1 litro de salina. O residente sugere bicarbonato pelo pH. Qual é a conduta?",
   "alts": [
-   "Iniciar metimazol em dose plena, tratamento indicado para o padrão hormonal descrito no enunciado.",
-   "Solicitar apenas ultrassonografia de tireoide e adiar o tratamento até o resultado do exame de imagem.",
-   "Prescrever apenas iodo em dose alta, medida suficiente para normalizar os hormônios tireoidianos.",
-   "Indicar tireoidectomia total, tratamento de escolha para o hipotireoidismo primário diagnosticado.",
-   "Iniciar levotiroxina em jejum e reavaliar sempre a função tireoidiana após seis a oito semanas."
-  ],
-  "gab": 4,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "American Thyroid Association guidelines for hypothyroidism, revisão 2023; SBEM — Consenso de hipotireoidismo, 2022",
-  "coment": "TSH elevado com T4 livre baixo define hipotireoidismo primário franco, cujo tratamento é levotiroxina, tipicamente 1,6 microgramas por quilo ao dia em adultos jovens sem cardiopatia, com dose inicial menor no idoso e no coronariopata. A absorção exige jejum, com intervalo de trinta a sessenta minutos antes do café e afastamento de cálcio, ferro e inibidores de bomba de prótons. O TSH é reavaliado em seis a oito semanas, tempo necessário para o novo equilíbrio.",
-  "porAlt": [
-   "O metimazol trata hipertireoidismo e agravaria ainda mais o hipotireoidismo descrito no caso.",
-   "A ultrassonografia avalia a morfologia e não deve atrasar a reposição hormonal já indicada.",
-   "O iodo isolado não trata hipotireoidismo primário e pode agravar a disfunção em alguns casos.",
-   "A tireoidectomia é tratamento de doença nodular ou hipertireoidismo, não do hipotireoidismo.",
-   "Correta: levotiroxina em jejum, com reavaliação do TSH após seis a oito semanas de tratamento."
-  ]
- },
- {
-  "q": "Paciente de 22 anos com poliúria, polidipsia, perda de peso, glicemia de 480 mg/dL, cetonemia positiva e pH de 7,15. Qual é a conduta inicial?",
-  "alts": [
-   "Iniciar insulina endovenosa antes de qualquer reposição volêmica ou avaliação do potássio sérico agora.",
-   "Reposição volêmica com salina isotônica e insulina regular endovenosa, sempre com reposição de potássio.",
-   "Administrar bicarbonato de sódio endovenoso de rotina em todos os casos com esse valor de pH arterial.",
-   "Prescrever apenas insulina subcutânea de ação lenta e reavaliar a glicemia em vinte e quatro horas.",
-   "Iniciar reposição de glicose endovenosa imediatamente, antes de qualquer insulina ser administrada."
-  ],
-  "gab": 1,
-  "tema": "endocrino",
-  "cenario": "uti",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "ADA/EASD consensus report on hyperglycaemic crises in adults, 2024; SBD Diretriz 2024",
-  "coment": "A cetoacidose diabética é tratada com três pilares simultâneos: reposição volêmica vigorosa com salina isotônica, insulina regular endovenosa em infusão contínua e reposição de potássio. O potássio total está depletado mesmo quando o sérico está normal ou alto, e a insulina o desloca para dentro da célula: por isso a insulina só é iniciada com potássio acima de 3,3 mEq/L. Bicarbonato não é rotina, ficando reservado a pH abaixo de 6,9 em alguns protocolos.",
-  "porAlt": [
-   "Iniciar insulina sem volume e sem checar potássio pode precipitar hipocalemia grave e arritmia.",
-   "Correta: volume com salina isotônica, insulina endovenosa e atenção contínua à reposição de potássio.",
-   "O bicarbonato não é rotina e pode agravar a acidose intracelular e a hipocalemia do paciente.",
-   "A insulina subcutânea de ação lenta isolada não controla a cetoacidose instalada nesse paciente.",
-   "A glicose só entra quando a glicemia cai para cerca de 200 mg/dL, mantendo a infusão de insulina."
-  ]
- },
- {
-  "q": "Mulher de 30 anos com perda de peso, tremor, taquicardia, exoftalmia e TSH suprimido com T4 livre elevado. Qual é o diagnóstico e a conduta inicial?",
-  "alts": [
-   "Tireoidite de Hashimoto, tratada com reposição de levotiroxina em dose plena desde o diagnóstico agora.",
-   "Hipotireoidismo central, condição que cursa com exoftalmia e supressão do TSH com T4 livre elevado.",
-   "Adenoma hipofisário produtor de TSH, definido por TSH suprimido com hormônios periféricos elevados.",
-   "Doença de Graves, tratada sempre com antitireoidiano e betabloqueador para controle sintomático inicial.",
-   "Carcinoma medular de tireoide, já que cursa com exoftalmia, TSH suprimido e T4 livre francamente elevado."
-  ],
-  "gab": 3,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism, 2016 com revisão 2023; SBEM, 2022",
-  "coment": "Hipertireoidismo com exoftalmia caracteriza doença de Graves, autoimune, mediada por anticorpos estimuladores do receptor de TSH. O tratamento inicial combina antitireoidiano — metimazol, exceto no primeiro trimestre de gestação, quando se usa propiltiouracila — e betabloqueador para controle de sintomas adrenérgicos. As alternativas definitivas são iodo radioativo, evitado na orbitopatia moderada a grave por poder agravá-la, e tireoidectomia.",
-  "porAlt": [
-   "A tireoidite de Hashimoto cursa com hipotireoidismo, o oposto do padrão hormonal descrito aqui.",
-   "O hipotireoidismo central cursa com T4 livre baixo, e não com o T4 elevado do enunciado.",
-   "O adenoma produtor de TSH cursa com TSH normal ou elevado, e não suprimido como no caso.",
-   "Correta: doença de Graves, tratada com antitireoidiano e betabloqueador para controle dos sintomas.",
-   "O carcinoma medular deriva das células C e não altera esse padrão hormonal nem causa exoftalmia."
-  ]
- },
- {
-  "q": "Homem de 50 anos com nódulo tireoidiano de 2 cm, TSH normal, sólido, hipoecogênico, com microcalcificações. Qual é a conduta?",
-  "alts": [
-   "Repetir a ultrassonografia em cinco anos, pois o nódulo descrito não apresenta qualquer risco relevante.",
-   "Iniciar levotiroxina supressiva, conduta indicada para reduzir o nódulo antes de qualquer punção agora.",
-   "Indicar tireoidectomia total imediata sem qualquer avaliação citológica prévia da lesão nodular agora.",
-   "Solicitar apenas cintilografia de tireoide, exame que estabelece o diagnóstico de malignidade nodular.",
-   "Punção aspirativa por agulha fina guiada por ultrassom, sempre pelas características de risco descritas."
-  ],
-  "gab": 4,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "American Thyroid Association Management Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, revisão 2023; ACR TI-RADS, 2017",
-  "coment": "Nódulo sólido, hipoecogênico e com microcalcificações é de alta suspeita nos sistemas de classificação por ultrassom, e a partir de um centímetro tem indicação de punção aspirativa por agulha fina guiada por ultrassom, com o resultado classificado pelo sistema Bethesda. O TSH normal afasta nódulo hiperfuncionante, o que torna a cintilografia dispensável, pois esta só é útil quando o TSH está suprimido. A terapia supressiva com levotiroxina foi abandonada.",
-  "porAlt": [
-   "As características descritas são de alta suspeita e não permitem seguimento espaçado sem punção.",
-   "A supressão com levotiroxina foi abandonada por ineficácia e risco de tireotoxicose iatrogênica.",
-   "A cirurgia sem citologia expõe o paciente a procedimento potencialmente desnecessário e mutilador.",
-   "A cintilografia só é útil com TSH suprimido e não diferencia lesão benigna de maligna no nódulo.",
-   "Correta: punção aspirativa guiada por ultrassom, indicada pelas características de alta suspeita."
-  ]
- },
- {
-  "q": "Mulher de 38 anos com hipertensão de difícil controle, hipocalemia espontânea e alcalose metabólica. Qual é a investigação inicial?",
-  "alts": [
-   "Dosagem isolada de cortisol salivar noturno, exame indicado para o rastreio do hiperaldosteronismo primário.",
-   "Cintilografia de paratireoides, exame que investiga a causa da hipocalemia e da hipertensão descrita.",
-   "Relação aldosterona-renina plasmática, sempre com atenção aos fármacos que interferem no resultado agora.",
-   "Dosagem isolada de hormônio tireoestimulante, exame que estabelece o diagnóstico do quadro descrito.",
-   "Apenas ultrassonografia de rins e vias urinárias, exame que confirma o hiperaldosteronismo primário."
+   "Bicarbonato de sódio 100 mEq em 2 horas",
+   "Bicarbonato até pH de 7,2 antes da insulina",
+   "Volume, insulina endovenosa e potássio, sem bicarbonato",
+   "Intubação para corrigir a acidose",
+   "Insulina subcutânea e soro de manutenção"
   ],
   "gab": 2,
   "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Primary Aldosteronism, 2016 com revisão 2022; Diretriz Brasileira de Hipertensão — SBC, 2025",
-  "coment": "Hipertensão resistente com hipocalemia espontânea e alcalose metabólica sugere hiperaldosteronismo primário, hoje reconhecido como a causa secundária mais frequente de hipertensão. O rastreio é a relação entre aldosterona e atividade de renina plasmática, colhida pela manhã com o paciente sentado, corrigindo hipocalemia antes e suspendendo espironolactona por quatro a seis semanas. Após confirmação, tomografia de adrenais e cateterismo de veias adrenais definem lateralização.",
-  "porAlt": [
-   "O cortisol salivar noturno rastreia síndrome de Cushing, hipótese distinta da sugerida neste caso.",
-   "A cintilografia de paratireoides investiga hiperparatireoidismo, que não explica o quadro descrito.",
-   "Correta: relação aldosterona-renina, com atenção aos fármacos e à correção prévia da hipocalemia.",
-   "O hormônio tireoestimulante avalia a tireoide e não investiga a causa suspeitada neste paciente.",
-   "A ultrassonografia renal não avalia a produção de aldosterona nem confirma o diagnóstico suspeitado."
-  ]
- },
- {
-  "q": "Paciente de 60 anos com fratura de vértebra após queda da própria altura e densitometria com T-escore de -2,8. Qual é a conduta?",
-  "alts": [
-   "Prescrever apenas cálcio e vitamina D isolados, medidas suficientes para prevenir novas fraturas ósseas.",
-   "Indicar apenas fisioterapia motora, sem qualquer tratamento medicamentoso específico para o osso.",
-   "Iniciar corticoide sistêmico em dose baixa, medida que aumenta a densidade mineral óssea do paciente.",
-   "Repetir a densitometria em cinco anos antes de considerar qualquer tratamento farmacológico específico.",
-   "Iniciar bisfosfonato com cálcio e vitamina D, sempre após avaliar causas secundárias de perda óssea."
-  ],
-  "gab": 4,
-  "tema": "endocrino",
-  "cenario": "amb",
+  "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Endocrine Society guideline on pharmacological management of osteoporosis, revisão 2023; SBEM/ABRASSO, 2022",
-  "coment": "Fratura por fragilidade define osteoporose estabelecida e indica tratamento independentemente do valor da densitometria. Os bisfosfonatos são a primeira linha, com alendronato ou risedronato orais e zoledronato endovenoso anual, sempre com cálcio e vitamina D adequados. Antes de iniciar, investigam-se causas secundárias: hiperparatireoidismo, deficiência de vitamina D, mieloma, hipertireoidismo e uso de corticoide. Fraturas vertebrais múltiplas indicam anabólico.",
+  "base": "Hyperglycemic crises in adults with diabetes: a consensus report (ADA, EASD, JBDS, AACE, DTS), Diabetes Care, 2024",
+  "coment": "Bicarbonato na cetoacidose não acelerou a resolução nem melhorou desfechos em estudos com pH entre 6,9 e 7,1, e pode causar hipocalemia, sobrecarga de sódio e piora da acidose no liquor. O consenso de 2024 reserva bicarbonato para pH abaixo de 7,0. A pCO₂ de 17 mmHg está dentro da compensação esperada pela fórmula de Winter (1,5 × 5 + 8 ± 2). Com potássio de 5,2 mEq/L, a insulina pode começar, e o potássio entra no soro quando cair abaixo de 5,0.",
   "porAlt": [
-   "Cálcio e vitamina D isolados são insuficientes para reduzir o risco de nova fratura por fragilidade.",
-   "A fisioterapia é complementar e não substitui o tratamento farmacológico com evidência de eficácia.",
-   "O corticoide reduz a densidade mineral óssea e é causa importante de osteoporose secundária.",
-   "Adiar o tratamento por cinco anos após fratura por fragilidade expõe a novas fraturas evitáveis.",
-   "Correta: bisfosfonato com cálcio e vitamina D, após investigação de causas secundárias de perda óssea."
+   "Com pH de 7,0 ou mais, bicarbonato não melhora desfecho e pode agravar hipocalemia e acidose liquórica.",
+   "Adiar a insulina para dar bicarbonato atrasa o tratamento da causa.",
+   "pH acima de 7,0: volume, insulina endovenosa e potássio quando abaixo de 5,0 mEq/L.",
+   "Há compensação respiratória adequada; intubar pode piorar a acidose.",
+   "Cetoacidose grave com sonolência exige insulina endovenosa."
   ]
  },
  {
-  "q": "Homem de 42 anos com fraqueza, hiperpigmentação cutânea, hipotensão, hiponatremia e hipercalemia. Qual é a suspeita e a conduta?",
+  "q": "Mulher de 30 anos com doença de Graves iniciou metimazol 30 mg/dia há 7 semanas. Procura o pronto-socorro com febre de 39,2 °C, odinofagia intensa e úlceras orais há 2 dias. Pressão arterial 108/66 mmHg, frequência 116 bpm. Hemograma: leucócitos 1.100/mm³, neutrófilos 180/mm³, hemoglobina 12,4 g/dL, plaquetas 210.000/mm³. TSH suprimido, T4 livre de 2,1 ng/dL (referência até 1,8 ng/dL). Não usa outros medicamentos. Qual é a conduta?",
   "alts": [
-   "Síndrome de Cushing, condição que cursa com hipotensão, hiponatremia e hiperpigmentação cutânea.",
-   "Insuficiência adrenal primária, tratada sempre com hidrocortisona e reposição volêmica com salina.",
-   "Hiperaldosteronismo primário, que cursa com hipercalemia, hiponatremia e hipotensão arterial persistente.",
-   "Diabetes insipidus central, quadro caracterizado por hiperpigmentação, hipotensão e hipercalemia.",
-   "Hipotireoidismo primário grave, definido por hiperpigmentação, hipercalemia e hipotensão arterial."
+   "Reduzir o metimazol para 10 mg/dia e reavaliar",
+   "Trocar por propiltiouracil e antibiótico oral",
+   "Manter o metimazol e iniciar filgrastim",
+   "Suspender o metimazol, internar e antibiótico endovenoso",
+   "Iodo radioativo imediato e manter o metimazol"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "endocrino",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline — Diagnosis and Treatment of Primary Adrenal Insufficiency, revisão 2023",
-  "coment": "A insuficiência adrenal primária cursa com deficiência de cortisol e aldosterona: fraqueza, hipotensão, hiponatremia, hipercalemia, e hiperpigmentação decorrente do excesso de ACTH, que estimula receptores de melanocortina na pele. Na crise adrenal o tratamento é imediato, com hidrocortisona endovenosa e reposição volêmica com salina isotônica e glicose, sem esperar confirmação laboratorial. O diagnóstico se confirma depois com cortisol basal e teste de estímulo.",
+  "base": "American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis, 2016",
+  "coment": "Agranulocitose ocorre em cerca de 0,2 a 0,5% dos usuários de tionamidas, geralmente nos primeiros 90 dias e com doses maiores. Febre com odinofagia exige hemograma imediato; neutrófilos abaixo de 500/mm³ indicam suspensão definitiva e tratamento como neutropenia febril, com antibiótico de amplo espectro endovenoso. Há reação cruzada com o propiltiouracil, que também fica contraindicado. O hipertireoidismo passa a ser controlado com betabloqueador e, depois, iodo radioativo ou tireoidectomia.",
   "porAlt": [
-   "A síndrome de Cushing cursa com hipertensão, hipocalemia e excesso de cortisol, o padrão inverso.",
-   "Correta: insuficiência adrenal primária, tratada com hidrocortisona e reposição volêmica imediata.",
-   "O hiperaldosteronismo cursa com hipertensão e hipocalemia, exatamente o oposto do descrito aqui.",
-   "O diabetes insipidus cursa com poliúria e hipernatremia, sem a hipercalemia descrita no caso.",
-   "O hipotireoidismo pode causar hiponatremia, mas não produz hiperpigmentação nem hipercalemia."
+   "Agranulocitose exige suspensão definitiva, não redução de dose.",
+   "Há reação cruzada entre as tionamidas; propiltiouracil é contraindicado.",
+   "Manter o fármaco causador prolonga a agranulocitose.",
+   "Agranulocitose por metimazol com febre: suspender em definitivo, internar e tratar como neutropenia febril.",
+   "Iodo radioativo não trata a urgência infecciosa, e o metimazol precisa ser suspenso."
   ]
  },
  {
-  "q": "Paciente com obesidade grau III e diabetes tipo 2 mal controlado apesar de tratamento otimizado. Qual é a conduta a considerar?",
+  "q": "Homem de 50 anos fez ultrassonografia de tireoide por palpar um nódulo. TSH 2,1 mUI/L. Nódulo de 1,8 cm no lobo esquerdo, sólido, isoecogênico, mais largo que alto, com margens lisas e sem focos ecogênicos (ACR TI-RADS 3, 3 pontos). Não há outros nódulos nem linfonodos suspeitos. Não tem história de irradiação cervical nem parentes com câncer de tireoide ou neoplasia endócrina múltipla. Está assintomático, sem disfagia ou rouquidão. Qual é a conduta?",
   "alts": [
-   "Prescrever apenas dieta hipocalórica isolada por vinte e quatro meses antes de qualquer outra medida.",
-   "Aumentar a dose de insulina indefinidamente como única estratégia para o controle glicêmico do paciente.",
-   "Avaliar indicação de cirurgia metabólica, considerada sempre em equipe multiprofissional especializada.",
-   "Indicar apenas atividade física supervisionada, medida isolada suficiente para reverter o quadro descrito.",
-   "Prescrever diurético em dose alta para reduzir o peso corporal e melhorar o controle metabólico agora."
+   "Nova ultrassonografia, sem punção agora",
+   "Punção aspirativa por agulha fina",
+   "Cintilografia com iodo radioativo",
+   "Lobectomia diagnóstica",
+   "Levotiroxina para reduzir o nódulo"
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACR Thyroid Imaging, Reporting and Data System (TI-RADS), 2017; American Thyroid Association Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, 2015",
+  "coment": "O ACR TI-RADS combina pontuação e tamanho. TR3 (levemente suspeito): punção a partir de 2,5 cm e acompanhamento a partir de 1,5 cm, com nova ultrassonografia em 1, 3 e 5 anos. TR4: punção a partir de 1,5 cm. TR5: a partir de 1 cm. O sistema reduz punções desnecessárias de nódulos de baixo risco, que são a maioria. Levotiroxina para suprimir nódulo não é recomendada.",
+  "porAlt": [
+   "TI-RADS 3 entre 1,5 e 2,4 cm: acompanhamento ultrassonográfico; punção só a partir de 2,5 cm.",
+   "Para TI-RADS 3, a punção é indicada a partir de 2,5 cm.",
+   "Com TSH normal, cintilografia não é indicada.",
+   "Cirurgia sem suspeita citológica ou compressão não é indicada.",
+   "Supressão com levotiroxina não é recomendada e expõe a efeitos adversos."
+  ]
+ },
+ {
+  "q": "Mulher de 44 anos tem hipertensão resistente e hipocalemia espontânea. A relação aldosterona/renina foi de 86 ng/dL por ng/mL/h, com aldosterona de 28 ng/dL e renina suprimida, e o teste de infusão salina confirmou hiperaldosteronismo primário (aldosterona de 14 ng/dL após 2 litros). A tomografia de adrenais com cortes finos não mostra nódulos. Ela deseja tratamento curativo, se possível, e aceita cirurgia. Não tem contraindicação a procedimentos. Qual é o próximo passo?",
+  "alts": [
+   "Espironolactona e encerrar a investigação",
+   "Cateterismo das veias adrenais",
+   "Adrenalectomia bilateral",
+   "Ressonância magnética de hipófise",
+   "Cintilografia com metaiodobenzilguanidina"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline: The Management of Primary Aldosteronism, 2016",
+  "coment": "Confirmado o hiperaldosteronismo primário, a tomografia afasta carcinoma, mas não distingue com segurança adenoma produtor de hiperplasia: microadenomas passam despercebidos, e nódulos não funcionantes são comuns. Para quem deseja e pode ser operado, a Endocrine Society recomenda cateterismo das veias adrenais antes de decidir adrenalectomia unilateral. Doença bilateral é tratada com antagonista mineralocorticoide.",
+  "porAlt": [
+   "Tomografia normal não afasta microadenoma; em quem deseja cirurgia, a lateralização deve ser pesquisada.",
+   "Hiperaldosteronismo confirmado em candidata a cirurgia: cateterismo das veias adrenais define se a produção é unilateral.",
+   "Adrenalectomia bilateral causa insuficiência adrenal definitiva.",
+   "Não há suspeita de doença hipofisária.",
+   "Metaiodobenzilguanidina serve ao feocromocitoma."
+  ]
+ },
+ {
+  "q": "Mulher de 71 anos sofreu fratura vertebral de T12 por esforço mínimo há 2 meses e outra, de L2, há 10 meses. Densitometria: escore T de −3,4 na coluna lombar e −2,9 no colo femoral. Não usa corticoide. Creatinina 0,8 mg/dL, cálcio 9,4 mg/dL, 25-hidroxivitamina D de 36 ng/mL, paratormônio e eletroforese de proteínas normais. Não teve infarto ou AVC, litíase, câncer ósseo ou radioterapia. Não usou medicação para osteoporose antes. Qual é o tratamento inicial mais adequado?",
+  "alts": [
+   "Alendronato oral 70 mg por semana",
+   "Raloxifeno 60 mg/dia por 5 anos",
+   "Anabólico seguido de antirreabsortivo",
+   "Cálcio e vitamina D sem outro fármaco",
+   "Terapia hormonal com estrogênio"
   ],
   "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ADA Standards of Care in Diabetes, 2025; IFSO/ASMBS indications for metabolic and bariatric surgery, 2022; SBD 2024",
-  "coment": "A cirurgia metabólica está indicada em obesidade com índice de massa corporal a partir de 35 kg/m², e pode ser considerada a partir de 30 kg/m² no diabetes tipo 2 de difícil controle, com taxas expressivas de remissão e redução de mortalidade. A avaliação é multiprofissional, com acompanhamento nutricional e psicológico e suplementação vitamínica permanente. Antes e depois, agonistas de GLP-1 e inibidores de SGLT2 seguem tendo papel no controle metabólico.",
+  "base": "AACE/ACE Clinical Practice Guidelines for the Diagnosis and Treatment of Postmenopausal Osteoporosis, 2020; Endocrine Society Guideline Update, 2020",
+  "coment": "Fratura nos últimos 12 meses, múltiplas fraturas vertebrais e escore T abaixo de −3,0 classificam risco muito alto de fratura. A AACE (2020) e a Endocrine Society (2020) recomendam iniciar com anabólico (teriparatida, abaloparatida ou romosozumabe), que reduziu mais fraturas que o risedronato e o alendronato nos ensaios VERO e ARCH, seguido de antirreabsortivo para manter o ganho. Romosozumabe deve ser evitado em quem teve infarto ou AVC no último ano.",
   "porAlt": [
-   "Dieta isolada por dois anos raramente sustenta perda suficiente nesse grau de obesidade.",
-   "Aumentar insulina indefinidamente promove ganho de peso e piora o ciclo metabólico do paciente.",
-   "Correta: avaliar indicação de cirurgia metabólica em equipe multiprofissional especializada.",
-   "A atividade física é essencial, mas isolada não produz a perda de peso necessária nesse grau.",
-   "Diuréticos reduzem água corporal e não gordura, sem qualquer benefício metabólico sustentado."
+   "Bisfosfonato é aceitável em alto risco, mas no risco muito alto o anabólico primeiro reduz mais fraturas.",
+   "Raloxifeno protege só vértebras e aumenta tromboembolismo.",
+   "Risco muito alto (fraturas recentes e múltiplas, escore T abaixo de −3): anabólico por tempo limitado e depois antirreabsortivo.",
+   "Cálcio e vitamina D são adjuvantes, não tratamento.",
+   "Estrogênio não é indicado para tratar osteoporose aos 71 anos."
   ]
  },
  {
-  "q": "Mulher de 28 anos com amenorreia, galactorreia e prolactina de 120 ng/mL, sem uso de medicamentos. Qual é a conduta?",
+  "q": "Homem de 42 anos chega com fraqueza, vômitos e dor abdominal há 3 dias. Há 6 meses perde peso e notou escurecimento da pele e das gengivas. Pressão arterial 78/44 mmHg, frequência 124 bpm, temperatura 37,8 °C. Sódio 121 mEq/L, potássio 6,1 mEq/L, glicemia 58 mg/dL, creatinina 1,9 mg/dL, eosinófilos 900/mm³. Eletrocardiograma com ondas T apiculadas, sem alargamento do QRS. Foram colhidos cortisol e ACTH. Qual é a conduta imediata?",
   "alts": [
-   "Iniciar contraceptivo combinado isolado, já tratamento de escolha para a hiperprolactinemia diagnosticada.",
-   "Ressonância de sela túrcica e tratamento com agonista dopaminérgico, sempre conforme o tamanho da lesão.",
-   "Indicar cirurgia transesfenoidal imediata a todos os pacientes com esse nível de prolactina sérica.",
-   "Prescrever levotiroxina em dose plena, já tratamento indicado para a galactorreia com amenorreia descrita.",
-   "Apenas observar sem qualquer investigação ou tratamento, pois o quadro descrito é sempre autolimitado."
+   "Aguardar o cortisol para iniciar corticoide",
+   "Dexametasona 4 mg e soro glicosado a 5%",
+   "Teste com cosintropina antes de tratar",
+   "Fludrocortisona e salina hipertônica a 3%",
+   "Hidrocortisona 100 mg endovenosa e salina isotônica"
   ],
-  "gab": 1,
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Endocrine Society Clinical Practice Guideline: Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016",
+  "coment": "Hiperpigmentação, hipotensão, hiponatremia, hipercalemia, hipoglicemia e eosinofilia sugerem insuficiência adrenal primária em crise. A Endocrine Society recomenda colher cortisol e ACTH e tratar imediatamente com hidrocortisona 100 mg endovenosa, seguida de 200 mg/dia, e salina isotônica (1 litro na primeira hora), com glicose para a hipoglicemia. Nessa dose, a hidrocortisona tem efeito mineralocorticoide suficiente, e a hipercalemia costuma corrigir com hidrocortisona e volume.",
+  "porAlt": [
+   "Esperar o resultado numa crise adrenal com choque aumenta a mortalidade.",
+   "Dexametasona não tem efeito mineralocorticoide, e soro glicosado sem sódio agrava hiponatremia e hipovolemia.",
+   "O teste pode ser feito depois; a crise é tratada primeiro.",
+   "Fludrocortisona é desnecessária com hidrocortisona em dose alta, e salina hipertônica não é indicada.",
+   "Crise adrenal: hidrocortisona 100 mg em bolus e salina isotônica com glicose, sem esperar exames."
+  ]
+ },
+ {
+  "q": "Homem de 46 anos com diabetes tipo 2 há 8 anos e índice de massa corporal de 33 kg/m² usa metformina 2 g/dia, empagliflozina 25 mg/dia, semaglutida 1 mg/semana e insulina glargina 40 U/dia, com boa adesão confirmada por nutricionista e endocrinologista. Hemoglobina glicada de 9,2% e peptídeo C de 2,4 ng/mL. Não tem transtorno alimentar, uso abusivo de álcool ou doença psiquiátrica descompensada. Deseja discutir outras opções de tratamento. Qual é a conduta a considerar?",
+  "alts": [
+   "Encaminhar para avaliação de cirurgia metabólica",
+   "Cirurgia só com índice de massa corporal de 40",
+   "Balão intragástrico como tratamento definitivo",
+   "Trocar semaglutida por sitagliptina",
+   "Pesquisar anti-GAD e suspender os orais"
+  ],
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline — Hyperprolactinemia, revisão 2023; Pituitary Society consensus, 2023",
-  "coment": "Hiperprolactinemia com amenorreia e galactorreia, após excluir gestação, fármacos e hipotireoidismo, exige ressonância de sela túrcica para caracterizar micro ou macroadenoma. O tratamento de primeira linha é agonista dopaminérgico, preferencialmente cabergolina, que normaliza a prolactina e reduz o tumor na maioria dos casos, restaurando a fertilidade. A cirurgia transesfenoidal se reserva a intolerância, resistência ao fármaco ou compressão de vias ópticas.",
+  "nivel": "r3",
+  "base": "ADA Standards of Care in Diabetes, seção 8, 2025; ASMBS/IFSO Guidelines on Indications for Metabolic and Bariatric Surgery, 2022",
+  "coment": "A ADA e a declaração da ASMBS/IFSO de 2022 recomendam considerar cirurgia metabólica em adultos com diabetes tipo 2 e índice de massa corporal de 30 a 34,9 kg/m² (27,5 a 32,4 em asiáticos) sem controle glicêmico apesar de tratamento clínico otimizado. Peptídeo C preservado indica reserva de célula beta e maior chance de remissão. A avaliação é feita por equipe multiprofissional, com triagem psiquiátrica e nutricional.",
   "porAlt": [
-   "O contraceptivo pode regularizar o ciclo, mas não trata o adenoma nem reduz a prolactina elevada.",
-   "Correta: ressonância de sela túrcica e agonista dopaminérgico conforme o tamanho da lesão encontrada.",
-   "A cirurgia se reserva a resistência, intolerância ao fármaco ou compressão das vias ópticas.",
-   "O hipotireoidismo deve ser excluído, mas não há indício dele e a levotiroxina não trata o adenoma.",
-   "Deixar sem tratamento mantém o hipogonadismo, com perda óssea e infertilidade associadas."
+   "Diabetes não controlado apesar de tratamento otimizado, com índice de massa corporal de 30 a 34,9: cirurgia metabólica pode ser considerada.",
+   "O limiar de 40 kg/m² é antigo; no diabetes mal controlado, o limiar é 30 kg/m².",
+   "Balão tem efeito transitório e não é tratamento de diabetes.",
+   "Trocar por inibidor de DPP-4 reduz a potência do tratamento.",
+   "Peptídeo C preservado e 8 anos de evolução não sugerem diabetes autoimune."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos tem cefaleia há 6 meses, perda de libido e redução do campo visual lateral. Ressonância: macroadenoma hipofisário de 4,2 cm com invasão do seio cavernoso e compressão do quiasma. Prolactina sérica de 38 ng/mL (referência até 15), testosterona total de 140 ng/dL, cortisol matinal de 9 µg/dL, T4 livre no limite inferior. Não usa medicamentos. O neurocirurgião pretende operar por considerar o tumor não funcionante. Qual é a conduta antes de decidir?",
+  "alts": [
+   "Operar, pois a prolactina baixa exclui prolactinoma",
+   "Dosar macroprolactina",
+   "Repetir a prolactina com diluição da amostra",
+   "Tratar como elevação por compressão da haste",
+   "Teste de estímulo com TRH"
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline: Diagnosis and Treatment of Hyperprolactinemia, 2011; Pituitary Society International Consensus Statement on prolactinomas, 2023",
+  "coment": "Em imunoensaios de dois sítios, concentrações muito altas de prolactina saturam os anticorpos e produzem resultado falsamente baixo (efeito gancho). Todo macroadenoma volumoso com prolactina apenas discretamente elevada deve ter a dosagem repetida com diluição de 1:100. Se a prolactina diluída vier na casa dos milhares, trata-se de macroprolactinoma, e a cabergolina pode evitar a cirurgia. Se continuar baixa, a elevação é por compressão da haste, típica de adenoma não funcionante, em geral abaixo de 100 ng/mL.",
+  "porAlt": [
+   "Prolactina pouco elevada num tumor gigante pode ser efeito gancho do ensaio.",
+   "Macroprolactina explica hiperprolactinemia sem tumor, não um valor baixo diante de macroadenoma.",
+   "Macroadenoma gigante com prolactina pouco elevada: diluir a amostra afasta o efeito gancho.",
+   "Compressão da haste só pode ser aceita depois de afastar o efeito gancho.",
+   "Teste com TRH não diferencia as causas e está em desuso."
   ]
  }
 ]

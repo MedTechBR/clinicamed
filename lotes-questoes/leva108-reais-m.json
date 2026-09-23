@@ -38,8 +38,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "US Multi-Society Task Force on Colorectal Cancer — Recommendations for Follow-up After Colonoscopy and Polypectomy, 2020",
-  "coment": "O intervalo de vigilância após polipectomia depende do número, do tamanho e da histologia dos pólipos. Aqui há sete adenomas, um deles maior que 10 mm e um com componente viloso — cada um desses critérios já classificaria a paciente como de alto risco, e a recomendação é repetir a colonoscopia em três anos. Intervalos de sete a dez anos se aplicam a exame normal ou a um ou dois adenomas tubulares pequenos com displasia de baixo grau. Ressecção cirúrgica não se justifica quando todos os pólipos foram removidos completamente por via endoscópica.",
+  "base": "US Multi-Society Task Force on Colorectal Cancer. Recommendations for Follow-up After Colonoscopy and Polypectomy, 2020",
+  "coment": "O intervalo de vigilância após polipectomia depende do número, do tamanho e da histologia dos pólipos. Aqui há sete adenomas, um deles maior que 10 mm e um com componente viloso. Cada um desses critérios já classificaria a paciente como de alto risco, e a recomendação é repetir a colonoscopia em três anos. Intervalos de sete a dez anos se aplicam a exame normal ou a um ou dois adenomas tubulares pequenos com displasia de baixo grau. Ressecção cirúrgica não se justifica quando todos os pólipos foram removidos completamente por via endoscópica.",
   "porAlt": [
    "Correta: repetir a colonoscopia em três anos, pelo número e pelas características dos adenomas.",
    "O intervalo de sete a dez anos vale para exame normal ou poucos adenomas pequenos de baixo risco.",
@@ -65,7 +65,7 @@
   "comp": "dx",
   "nivel": "r1",
   "base": "MDS Clinical Diagnostic Criteria for Parkinson’s Disease, 2015; Academia Brasileira de Neurologia, recomendações para doença de Parkinson",
-  "coment": "Bradicinesia associada a tremor de repouso e rigidez, com início assimétrico e progressão lenta, define parkinsonismo, e a presença de sintomas não motores prodrômicos — hiposmia, constipação e distúrbio comportamental do sono REM — reforça fortemente a doença de Parkinson. O diagnóstico é clínico; neuroimagem serve para afastar parkinsonismo secundário. O tratamento se apoia em levodopa, agonistas dopaminérgicos e inibidores enzimáticos, e a fisioterapia e o exercício estruturado têm efeito consistente na marcha e no equilíbrio.",
+  "coment": "Bradicinesia associada a tremor de repouso e rigidez, com início assimétrico e progressão lenta, define parkinsonismo, e a presença de sintomas não motores prodrômicos (hiposmia, constipação e distúrbio comportamental do sono REM) reforça fortemente a doença de Parkinson. O diagnóstico é clínico; neuroimagem serve para afastar parkinsonismo secundário. O tratamento se apoia em levodopa, agonistas dopaminérgicos e inibidores enzimáticos, e a fisioterapia e o exercício estruturado têm efeito consistente na marcha e no equilíbrio.",
   "porAlt": [
    "A demência vascular cursa com declínio cognitivo em degraus e sinais focais, e o paciente nega alteração cognitiva.",
    "O tremor essencial é postural e de ação, melhora com álcool e não vem com bradicinesia e rigidez.",
@@ -91,7 +91,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022; ACG guideline on eosinophilic esophagitis, 2025",
-  "coment": "Disfagia é sinal de alarme e, por si, indica endoscopia. Somada à falha de oito semanas de inibidor de bomba em dose dobrada, o exame indicado é a endoscopia digestiva alta com biópsias — inclusive de mucosa de aspecto normal, porque é assim que se diagnostica a esofagite eosinofílica, causa frequentemente perdida em adulto jovem rotulado como refluxo refratário. Manometria e pHmetria entram depois, se a endoscopia for normal e persistir a dúvida entre distúrbio motor e refluxo.",
+  "coment": "Disfagia é sinal de alarme e, por si, indica endoscopia. Somada à falha de oito semanas de inibidor de bomba em dose dobrada, o exame indicado é a endoscopia digestiva alta com biópsias, inclusive de mucosa de aspecto normal, porque é assim que se diagnostica a esofagite eosinofílica, causa frequentemente perdida em adulto jovem rotulado como refluxo refratário. Manometria e pHmetria entram depois, se a endoscopia for normal e persistir a dúvida entre distúrbio motor e refluxo.",
   "porAlt": [
    "A esofagomanometria investiga distúrbio motor, mas vem depois de excluir lesão estrutural e inflamatória.",
    "A pHmetria quantifica refluxo, e não é o primeiro exame diante de disfagia.",
@@ -116,8 +116,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, esquistossomose mansônica, 2024; PCDT de esquistossomose",
-  "coment": "Hematêmese e melena em paciente procedente de área endêmica, com história de contato com coleções de água doce onde há caramujos, sugerem forma hepatoesplênica da esquistossomose com hemorragia digestiva por varizes de esôfago. A investigação inicial combina ultrassonografia abdominal — que mostra a fibrose periportal de Symmers, achado característico e padronizado pela classificação de Niamey —, endoscopia digestiva alta para avaliar e tratar as varizes, e pesquisa de ovos nas fezes pelo método de Kato-Katz. O tratamento é praziquantel, além do manejo da hipertensão portal.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, esquistossomose mansônica, 2024; PCDT de esquistossomose",
+  "coment": "Hematêmese e melena em paciente procedente de área endêmica, com história de contato com coleções de água doce onde há caramujos, sugerem forma hepatoesplênica da esquistossomose com hemorragia digestiva por varizes de esôfago. A investigação inicial combina ultrassonografia abdominal (que mostra a fibrose periportal de Symmers, achado característico e padronizado pela classificação de Niamey), endoscopia digestiva alta para avaliar e tratar as varizes, e pesquisa de ovos nas fezes pelo método de Kato-Katz. O tratamento é praziquantel, além do manejo da hipertensão portal.",
   "porAlt": [
    "A intradermorreação não é usada na rotina diagnóstica e a ultrassonografia é essencial para avaliar a fibrose periportal.",
    "Correta: ultrassonografia abdominal, endoscopia digestiva alta e pesquisa de ovos nas fezes.",
@@ -143,7 +143,7 @@
   "comp": "dx",
   "nivel": "r1",
   "base": "Critérios de Roma IV; ACG Clinical Guideline: Management of Irritable Bowel Syndrome, 2021",
-  "coment": "Dor abdominal recorrente há anos, associada à evacuação e a mudança na forma das fezes, alternando constipação e fezes amolecidas, sem sangue, sem muco, sem perda de peso e sem sinais de alarme, preenche os critérios de Roma IV para síndrome do intestino irritável. É diagnóstico positivo, com investigação mínima dirigida — sorologia de doença celíaca e calprotectina fecal, conforme o subtipo. O manejo começa pela relação terapêutica e pela explicação do mecanismo, e inclui dieta orientada, exercício, manejo do estresse e fármaco conforme o sintoma dominante.",
+  "coment": "Dor abdominal recorrente há anos, associada à evacuação e a mudança na forma das fezes, alternando constipação e fezes amolecidas, sem sangue, sem muco, sem perda de peso e sem sinais de alarme, preenche os critérios de Roma IV para síndrome do intestino irritável. É diagnóstico positivo, com investigação mínima dirigida. Sorologia de doença celíaca e calprotectina fecal, conforme o subtipo. O manejo começa pela relação terapêutica e pela explicação do mecanismo, e inclui dieta orientada, exercício, manejo do estresse e fármaco conforme o sintoma dominante.",
   "porAlt": [
    "A doença celíaca deve ser afastada por sorologia, mas o quadro descrito não a sugere como diagnóstico principal.",
    "Não há sinais de alarme que sugiram neoplasia em paciente de 28 anos com quatro anos de sintomas estáveis.",
@@ -169,7 +169,7 @@
   "comp": "urg",
   "nivel": "r3",
   "base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021; ESGE guideline on non-variceal upper gastrointestinal haemorrhage, 2021",
-  "coment": "Ressangramento após terapia endoscópica bem-sucedida em úlcera péptica com estigma de alto risco é indicação de nova tentativa endoscópica, e não de cirurgia — a segunda endoscopia obtém hemostasia na maioria dos casos, com menos complicações que a abordagem cirúrgica. O inibidor de bomba intravenoso em infusão contínua é adjuvante obrigatório, mas não substitui a hemostasia mecânica ou térmica. Falhando a segunda endoscopia, as opções são embolização arterial por radiologia intervencionista e, por último, cirurgia.",
+  "coment": "Ressangramento após terapia endoscópica bem-sucedida em úlcera péptica com estigma de alto risco é indicação de nova tentativa endoscópica, e não de cirurgia. A segunda endoscopia obtém hemostasia na maioria dos casos, com menos complicações que a abordagem cirúrgica. O inibidor de bomba intravenoso em infusão contínua é adjuvante obrigatório, mas não substitui a hemostasia mecânica ou térmica. Falhando a segunda endoscopia, as opções são embolização arterial por radiologia intervencionista e, por último, cirurgia.",
   "porAlt": [
    "Gastrectomia total é desproporcional e não é a conduta de resgate inicial.",
    "A cirurgia por videolaparoscopia com antrectomia não é a primeira opção após ressangramento.",
@@ -195,7 +195,7 @@
   "comp": "dx",
   "nivel": "r3",
   "base": "ESC Guidelines on cardiomyopathies, 2023; AHA scientific statement on alcohol and cardiovascular health",
-  "coment": "Insuficiência cardíaca com dispneia, ortopneia, refluxo hepatojugular e edema em paciente de meia-idade com consumo alcoólico elevado e sustentado aponta para cardiomiopatia alcoólica — causa reversível de disfunção ventricular quando o consumo cessa, o que torna a abstinência parte do tratamento, ao lado da terapia otimizada da insuficiência cardíaca e da reposição de tiamina. A amiloidose é o diferencial sugerido pela síndrome do túnel do carpo, mas exigiria outros achados, como espessamento parietal com baixa voltagem no eletrocardiograma.",
+  "coment": "Insuficiência cardíaca com dispneia, ortopneia, refluxo hepatojugular e edema em paciente de meia-idade com consumo alcoólico elevado e sustentado aponta para cardiomiopatia alcoólica. Causa reversível de disfunção ventricular quando o consumo cessa, o que torna a abstinência parte do tratamento, ao lado da terapia otimizada da insuficiência cardíaca e da reposição de tiamina. A amiloidose é o diferencial sugerido pela síndrome do túnel do carpo, mas exigiria outros achados, como espessamento parietal com baixa voltagem no eletrocardiograma.",
   "porAlt": [
    "A amiloidose por transtirretina é diferencial relevante, sugerido pelo túnel do carpo, mas exigiria achados eletrocardiográficos e de imagem específicos.",
    "Correta: cardiomiopatia alcoólica, potencialmente reversível com abstinência.",
@@ -221,11 +221,11 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "ASGE guideline on the role of endoscopy in the evaluation of suspected choledocholithiasis, 2019; Tokyo Guidelines 2018",
-  "coment": "Dor biliar com icterícia e padrão laboratorial colestático — fosfatase alcalina e gama-GT elevadas com bilirrubina aumentada —, sem febre e sem leucocitose, indica coledocolitíase sem colangite. A ausência de febre afasta a tríade de Charcot, e a ausência de sinal de Murphy e de leucocitose afasta colecistite. A conduta é confirmar por colangiorressonância ou ecoendoscopia quando a probabilidade é intermediária, e proceder à colangiopancreatografia retrógrada com papilotomia quando é alta, seguida de colecistectomia na mesma internação.",
+  "coment": "Dor biliar com icterícia e padrão laboratorial colestático, fosfatase alcalina e gama-GT elevadas com bilirrubina aumentada, sem febre e sem leucocitose, indica coledocolitíase sem colangite. A ausência de febre afasta a tríade de Charcot, e a ausência de sinal de Murphy e de leucocitose afasta colecistite. A conduta é confirmar por colangiorressonância ou ecoendoscopia quando a probabilidade é intermediária, e proceder à colangiopancreatografia retrógrada com papilotomia quando é alta, seguida de colecistectomia na mesma internação.",
   "porAlt": [
    "A cólica biliar simples não cursa com icterícia e padrão colestático laboratorial.",
    "A colangite exigiria febre, ausente no caso, além da dor e da icterícia.",
-   "Correta: coledocolitíase — dor biliar com icterícia e colestase, sem febre.",
+   "Correta: coledocolitíase. Dor biliar com icterícia e colestase, sem febre.",
    "A colecistite aguda cursa com febre, leucocitose e sinal de Murphy, sem esse grau de colestase."
   ],
   "fonte": {
@@ -247,7 +247,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "ACG Clinical Guideline on Chronic Diarrhea, 2025; British Society of Gastroenterology guidelines on bile acid diarrhoea, 2018",
-  "coment": "Diarreia aquosa crônica, com despertar noturno — o que caracteriza doença orgânica —, em paciente colecistectomizada, com calprotectina e proteína C reativa normais, é o quadro típico de má absorção de sais biliares. Sem a vesícula, o fluxo biliar contínuo excede a capacidade de reabsorção ileal, e os sais biliares no cólon induzem secreção. O tratamento e ao mesmo tempo teste diagnóstico é o sequestrante — colestiramina, colestipol ou colesevelam. Muitos desses pacientes carregam por anos o rótulo de intestino irritável.",
+  "coment": "Diarreia aquosa crônica, com despertar noturno, o que caracteriza doença orgânica, em paciente colecistectomizada, com calprotectina e proteína C reativa normais, é o quadro típico de má absorção de sais biliares. Sem a vesícula, o fluxo biliar contínuo excede a capacidade de reabsorção ileal, e os sais biliares no cólon induzem secreção. O tratamento e ao mesmo tempo teste diagnóstico é o sequestrante, colestiramina, colestipol ou colesevelam. Muitos desses pacientes carregam por anos o rótulo de intestino irritável.",
   "porAlt": [
    "Amitriptilina é adjuvante da dor na síndrome do intestino irritável, e a diarreia noturna afasta quadro funcional.",
    "Correta: colestiramina, sequestrante de sais biliares, diagnóstica e terapêutica.",
@@ -272,8 +272,8 @@
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Endocrine Society Clinical Practice Guideline — Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016",
-  "coment": "Astenia, perda de peso, hipotensão postural, hiperpigmentação, hiponatremia, hipercalemia e hipoglicemia, com cortisol matinal baixo e ACTH muito elevado, fecham insuficiência adrenal primária — o ACTH alto localiza a lesão na adrenal e dispensa o teste de estímulo, que só seria necessário diante de cortisol indeterminado. O tratamento é reposição imediata de glicocorticoide e mineralocorticoide: hidrocortisona e fludrocortisona. Postergar para repetir exames arrisca crise adrenal, e reposição isolada de mineralocorticoide é insuficiente.",
+  "base": "Endocrine Society Clinical Practice Guideline, Diagnosis and Treatment of Primary Adrenal Insufficiency, 2016",
+  "coment": "Astenia, perda de peso, hipotensão postural, hiperpigmentação, hiponatremia, hipercalemia e hipoglicemia, com cortisol matinal baixo e ACTH muito elevado, fecham insuficiência adrenal primária. O ACTH alto localiza a lesão na adrenal e dispensa o teste de estímulo, que só seria necessário diante de cortisol indeterminado. O tratamento é reposição imediata de glicocorticoide e mineralocorticoide: hidrocortisona e fludrocortisona. Postergar para repetir exames arrisca crise adrenal, e reposição isolada de mineralocorticoide é insuficiente.",
   "porAlt": [
    "Repetir exames adia a reposição, e fludrocortisona isolada não substitui o glicocorticoide.",
    "Correta: iniciar hidrocortisona e fludrocortisona, com diagnóstico já estabelecido.",
@@ -298,8 +298,8 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Geriatrics Society — recomendações sobre desnutrição e restrição dietética em idosos; ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022",
-  "coment": "Perda de peso não intencional em idosa é evento de alto risco, associado a sarcopenia, quedas, internação e mortalidade. Dietas restritivas — hipossódicas e com restrição de carboidratos — reduzem palatabilidade e ingestão calórica e têm benefício marginal nessa faixa etária, motivo pelo qual as diretrizes recomendam flexibilizá-las para priorizar aporte energético e proteico. Também fazem parte da avaliação a triagem de disfagia sugerida pelos engasgos, a revisão de fármacos, a saúde bucal e o rastreio de causas orgânicas.",
+  "base": "American Geriatrics Society. Recomendações sobre desnutrição e restrição dietética em idosos; ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022",
+  "coment": "Perda de peso não intencional em idosa é evento de alto risco, associado a sarcopenia, quedas, internação e mortalidade. Dietas restritivas, hipossódicas e com restrição de carboidratos, reduzem palatabilidade e ingestão calórica e têm benefício marginal nessa faixa etária, motivo pelo qual as diretrizes recomendam flexibilizá-las para priorizar aporte energético e proteico. Também fazem parte da avaliação a triagem de disfagia sugerida pelos engasgos, a revisão de fármacos, a saúde bucal e o rastreio de causas orgânicas.",
   "porAlt": [
    "Trocar losartana por enalapril não resolve a perda de peso e acrescenta risco de tosse.",
    "Substituir metformina por inibidor de SGLT2 pode agravar a perda de peso.",
@@ -325,7 +325,7 @@
   "comp": "prev",
   "nivel": "r3",
   "base": "AASLD Practice Guidance on coagulation disorders in patients with cirrhosis, 2021; ASH guidelines for VTE prophylaxis in hospitalized patients, 2018",
-  "coment": "Cirrose não é estado de anticoagulação natural: o INR alargado reflete a queda dos fatores pró-coagulantes, mas os anticoagulantes naturais também caem, e o equilíbrio é instável — pacientes cirróticos internados têm risco aumentado de tromboembolismo venoso, inclusive de trombose portal. Por isso, INR alargado e plaquetopenia moderada não contraindicam profilaxia farmacológica, e a heparina de baixo peso molecular está indicada. A contraindicação real seria sangramento ativo ou plaquetas muito baixas, em geral abaixo de 50 mil.",
+  "coment": "Cirrose não é estado de anticoagulação natural: o INR alargado reflete a queda dos fatores pró-coagulantes, mas os anticoagulantes naturais também caem, e o equilíbrio é instável. Pacientes cirróticos internados têm risco aumentado de tromboembolismo venoso, inclusive de trombose portal. Por isso, INR alargado e plaquetopenia moderada não contraindicam profilaxia farmacológica, e a heparina de baixo peso molecular está indicada. A contraindicação real seria sangramento ativo ou plaquetas muito baixas, em geral abaixo de 50 mil.",
   "porAlt": [
    "A profilaxia mecânica isolada subestima o risco trombótico e não é a primeira escolha sem contraindicação farmacológica.",
    "Correta: heparina de baixo peso molecular, indicada apesar do INR alargado.",

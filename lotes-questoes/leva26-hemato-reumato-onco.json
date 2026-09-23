@@ -1,98 +1,98 @@
 [
  {
-  "q": "Homem de 72 anos tem fadiga e linfocitose persistente de 42.000/mm³, com linfócitos de aparência madura no esfregaço. A imunofenotipagem mostra população monoclonal de linfócitos B com CD5 e CD23 positivos. Não há anemia, plaquetopenia, sintomas B nem adenomegalia volumosa. Qual é a conduta?",
+  "q": "Homem de 72 anos com leucemia linfocítica crônica há 4 anos, em observação, tem agora hemoglobina de 9,1 g/dL (era 12,5 há 6 meses), plaquetas de 88 mil/mm³, linfócitos de 140 mil/mm³ e linfonodos cervicais de 5 cm. Coombs direto negativo, reticulócitos baixos. Hibridização mostra deleção 17p, com mutação de TP53. Clearance de 55 mL/min, sem cardiopatia. Tem fadiga que limita as caminhadas, sem febre ou perda de peso. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar quimioterapia imediata, indicada em toda leucemia linfocítica crônica no momento do diagnóstico.",
-   "Realizar transplante de medula óssea de imediato, único tratamento capaz de curar a doença nessa idade.",
-   "Prescrever corticoide contínuo em dose alta, capaz de normalizar a contagem de linfócitos do paciente.",
-   "Solicitar apenas mielograma seriado a cada mês, adiando qualquer decisão terapêutica por dois anos.",
-   "Acompanhamento sem tratamento, pois a doença em estágio inicial assintomático não exige terapia agora."
+   "Manter observação até sintomas B",
+   "Fludarabina, ciclofosfamida e rituximabe",
+   "Clorambucila oral isolada",
+   "Prednisona em dose alta contínua",
+   "Inibidor de BTK ou venetoclax-obinutuzumabe"
   ],
   "gab": 4,
   "tema": "hemato",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "International Workshop on Chronic Lymphocytic Leukemia, 2018 — critérios diagnósticos e de indicação de tratamento",
-  "coment": "A leucemia linfocítica crônica em estágio inicial e assintomática não se beneficia de tratamento precoce: os ensaios mostraram que tratar antes de haver indicação não prolonga a sobrevida e expõe a toxicidade. A conduta é vigilância ativa, com consultas e hemogramas periódicos. O tratamento é indicado diante de doença ativa: anemia ou plaquetopenia por infiltração medular, sintomas B, adenomegalia volumosa ou sintomática, esplenomegalia importante, ou duplicação rápida da contagem de linfócitos. A linfocitose isolada, por mais alta que seja, não é critério de tratamento.",
+  "base": "iwCLL Guidelines for diagnosis, indications for treatment, response assessment, and supportive management of CLL, Blood, 2018; NCCN Guidelines: CLL/SLL, 2025",
+  "coment": "O iwCLL (2018) indica tratamento na doença ativa: anemia progressiva abaixo de 10 g/dL ou plaquetas abaixo de 100 mil por infiltração medular, linfonodos de 10 cm ou mais ou progressivos, esplenomegalia volumosa, linfocitose que dobra em menos de 6 meses ou sintomas constitucionais. Com deleção 17p ou mutação de TP53, quimioimunoterapia tem resposta ruim e curta, e a escolha é terapia-alvo: inibidor de BTK contínuo (ibrutinibe, acalabrutinibe, zanubrutinibe) ou venetoclax com obinutuzumabe.",
   "porAlt": [
-   "Tratar todo paciente ao diagnóstico expõe à toxicidade sem ganho de sobrevida demonstrado em ensaio clínico.",
-   "O transplante tem indicações restritas na doença refratária e de alto risco, e não como conduta inicial nessa idade.",
-   "O corticoide contínuo não é tratamento da doença e traria imunossupressão adicional a um paciente já suscetível.",
-   "Mielograma mensal é invasivo e desnecessário: o acompanhamento se faz por clínica e hemograma periódicos.",
-   "Correta: em estágio inicial e assintomático, a conduta é vigilância ativa — tratar cedo não prolonga a sobrevida."
+   "Citopenias progressivas por infiltração já indicam tratamento.",
+   "Quimioimunoterapia tem resultado ruim com deleção 17p.",
+   "Clorambucila é inferior e ineficaz com TP53 mutado.",
+   "Corticoide isolado não trata a leucemia.",
+   "Doença ativa com TP53 mutado: terapia-alvo com inibidor de BTK ou venetoclax com obinutuzumabe."
   ]
  },
  {
-  "q": "Mulher de 34 anos com lúpus em uso de hidroxicloroquina e prednisona apresenta febre, dor lombar e disúria. Está com pressão de 96/58 mmHg, frequência de 118 bpm e leucócitos de 2.100/mm³. Qual é a preocupação principal e a conduta?",
+  "q": "Mulher de 34 anos com lúpus usa hidroxicloroquina, micofenolato e prednisona 15 mg/dia há 10 meses. Chega com febre de 39 °C, dor lombar e disúria. Pressão de 78/44 mmHg após 2 litros de cristaloide, frequência de 124 bpm, lactato de 4,8 mmol/L. Urina com piúria e nitrito positivo. Sem rash ou artrite novos. Complemento normal. Pesa 60 kg e a última dose de prednisona foi pela manhã. Qual é a conduta mais adequada?",
   "alts": [
-   "Atividade de lúpus isolada, tratada apenas com aumento imediato da dose de corticoide sistêmico.",
-   "Reação adversa à hidroxicloroquina, cuja suspensão resolve o quadro sem qualquer medida a mais.",
-   "Fibromialgia associada, que explica a dor e dispensa investigação infecciosa nesse contexto clínico.",
-   "Leucopenia benigna da doença, achado que afasta infecção bacteriana em paciente com lúpus ativo.",
-   "Sepse em paciente imunossuprimida, com antimicrobiano precoce e avaliação de insuficiência adrenal."
+   "Antibiótico, noradrenalina e hidrocortisona",
+   "Pulsoterapia com metilprednisolona pela atividade lúpica",
+   "Suspender a prednisona e iniciar antibiótico",
+   "Aumentar a dose do micofenolato",
+   "Imunoglobulina endovenosa isolada"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "reumato",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "EULAR 2023 — recommendations for the management of systemic lupus erythematosus; Harrison's, 22ª edição, 2025",
-  "coment": "Infecção é uma das principais causas de morte no lúpus, e o corticoide mascara sinais inflamatórios. Febre com foco urinário, hipotensão e taquicardia em paciente imunossuprimida deve ser tratada como sepse até prova em contrário: culturas e antimicrobiano precoce, com ressuscitação volêmica. A leucopenia pode ser da própria doença, mas não afasta infecção — ao contrário, agrava o risco. Também é preciso considerar insuficiência adrenal em quem usa corticoide crônico e enfrenta estresse agudo. Atribuir tudo à atividade de lúpus e apenas subir o corticoide é o erro que mata nesse cenário.",
+  "base": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock, 2021",
+  "coment": "Choque séptico de foco urinário em paciente imunossuprimida: antibiótico em até 1 hora após culturas, noradrenalina para PAM de 65 mmHg ou mais e controle de foco. Uso crônico de prednisona de 5 mg ou mais por mais de 3 semanas causa supressão do eixo; com choque, a Surviving Sepsis (2021) sugere hidrocortisona 200 mg/dia (50 mg a cada 6 horas), que também cobre a insuficiência adrenal relativa. Suspender o corticoide pode precipitar crise adrenal. Micofenolato é suspenso temporariamente na infecção grave. Complemento normal e ausência de sinais de atividade falam contra lúpus.",
   "porAlt": [
-   "Subir corticoide sem cobrir infecção em paciente hipotensa pode ser fatal; atividade de lúpus é diagnóstico de exclusão aqui.",
-   "A hidroxicloroquina não causa esse quadro agudo e suspendê-la não trataria a hipotensão nem o foco urinário.",
-   "Fibromialgia não causa febre nem hipotensão, e usá-la como explicação atrasaria o tratamento de uma sepse.",
-   "A leucopenia do lúpus não protege contra infecção; ela aumenta o risco e torna o quadro mais perigoso.",
-   "Correta: febre com hipotensão em imunossuprimida é sepse até prova em contrário, com antimicrobiano precoce e atenção à adrenal."
+   "Choque séptico em usuária crônica de corticoide: antibiótico, noradrenalina e hidrocortisona em dose de estresse.",
+   "Não há sinais de atividade lúpica; pulsoterapia agravaria a sepse.",
+   "Suspender o corticoide pode precipitar crise adrenal.",
+   "Aumentar imunossupressão na sepse é danoso.",
+   "Imunoglobulina não é tratamento do choque séptico."
   ]
  },
  {
-  "q": "Homem de 63 anos em tratamento de linfoma inicia quimioterapia e, 48 horas depois, apresenta potássio de 6,4 mEq/L, fósforo elevado, cálcio baixo, ácido úrico de 12 mg/dL e creatinina em elevação. Qual é o diagnóstico e a conduta?",
+  "q": "Homem de 63 anos com linfoma de Burkitt iniciou quimioterapia há 48 horas, com hidratação e alopurinol. Agora: potássio de 7,1 mEq/L com ondas T apiculadas, fósforo de 9,8 mg/dL, cálcio de 6,4 mg/dL, ácido úrico de 14 mg/dL e creatinina de 4,2 mg/dL (basal 1,0). Diurese de 150 mL em 12 horas, apesar de furosemida. Edema pulmonar incipiente com saturação de 91%. Qual é a conduta mais adequada?",
   "alts": [
-   "Síndrome de lise tumoral, tratada com hidratação vigorosa, rasburicase e correção dos distúrbios.",
-   "Nefrite intersticial pelo quimioterápico, cuja conduta é apenas corticoide em dose imunossupressora.",
-   "Hipercalcemia da malignidade, que explica a elevação da creatinina e o distúrbio eletrolítico do caso.",
-   "Insuficiência adrenal aguda, sugerida pela hipercalemia associada à elevação da creatinina sérica.",
-   "Rabdomiólise por imobilidade, hipótese preferida diante de hiperfosfatemia com hipocalcemia associada."
+   "Gluconato de cálcio pela hipercalemia, medidas para potássio e hemodiálise",
+   "Gluconato de cálcio para corrigir a hipocalcemia assintomática e manter",
+   "Aumentar a hidratação para 5 litros e aguardar",
+   "Bicarbonato em bolus e aguardar a diurese",
+   "Trocar alopurinol por febuxostate e observar"
   ],
   "gab": 0,
   "tema": "onco",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "British Committee for Standards in Haematology, 2015, e Harrison's, 22ª edição, 2025 — síndrome de lise tumoral",
-  "coment": "A tétrade — hipercalemia, hiperfosfatemia, hipocalcemia e hiperuricemia — surgindo em até 72 horas do início da quimioterapia em tumor de alta carga e alta taxa proliferativa define síndrome de lise tumoral. O tratamento é hidratação vigorosa para manter débito urinário, redução do ácido úrico com rasburicase nos casos de alto risco ou alopurinol na profilaxia, correção dos distúrbios eletrolíticos e monitorização estreita, com diálise se houver refratariedade. A hipocalcemia não deve ser corrigida agressivamente na presença de hiperfosfatemia, pelo risco de precipitação de cálcio e fósforo.",
+  "base": "Howard, Jones e Pui, The Tumor Lysis Syndrome, NEJM, 2011; KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012",
+  "coment": "Síndrome de lise tumoral clínica com hipercalemia com alteração eletrocardiográfica, oligúria refratária, hiperfosfatemia grave e congestão tem indicação de hemodiálise, que remove potássio, fósforo e ácido úrico. Enquanto se prepara, dá-se gluconato de cálcio para estabilizar a membrana (pela hipercalemia com alteração no eletrocardiograma) e insulina com glicose. Hipocalcemia assintomática não deve ser corrigida, pelo risco de precipitação de fosfato de cálcio. Rasburicase deve ser feita se não houver deficiência de G6PD. Mais volume piora a congestão.",
   "porAlt": [
-   "Correta: a tétrade eletrolítica após quimioterapia define lise tumoral, tratada com hidratação, rasburicase e correção dos distúrbios.",
-   "A nefrite intersticial não produz esse padrão eletrolítico característico nem essa cronologia tão próxima da quimioterapia.",
-   "A hipercalcemia da malignidade cursa com cálcio alto, e aqui o cálcio está baixo — o oposto do que a hipótese exige.",
-   "A insuficiência adrenal não explica hiperfosfatemia, hipocalcemia e hiperuricemia surgindo após a quimioterapia.",
-   "A rabdomiólise cursaria com creatinoquinase muito elevada e não tem relação temporal com o início do tratamento."
+   "Lise tumoral com hipercalemia no eletrocardiograma, oligúria e congestão: cálcio para a membrana, medidas para potássio e hemodiálise.",
+   "Repor cálcio pela hipocalcemia assintomática aumenta precipitação de fosfato de cálcio.",
+   "Mais volume com oligúria e edema pulmonar é perigoso.",
+   "Bicarbonato piora a hipocalcemia e a precipitação de fosfato.",
+   "Trocar o inibidor da xantina oxidase não resolve a urgência."
   ]
  },
  {
-  "q": "Mulher de 66 anos em uso crônico de prednisona por polimialgia reumática tem densitometria com escore T de -2,8 em coluna lombar, sem fratura prévia. Qual é a conduta correta?",
+  "q": "Mulher de 66 anos usa prednisona 10 mg/dia há 5 meses por polimialgia reumática, sem previsão de suspensão nos próximos meses. Densitometria com escore T de −2,8 na coluna lombar e −2,2 no colo femoral, sem fratura prévia. Vitamina D de 32 ng/mL, cálcio e creatinina normais, clearance de 68 mL/min. Sem refluxo, disfagia ou doença esofágica. Pesa 62 kg, não fuma e nunca teve quedas. Qual é a conduta mais adequada?",
   "alts": [
-   "Apenas suplementar cálcio e vitamina D, medida suficiente para reverter a perda óssea nesse caso.",
-   "Repetir a densitometria em cinco anos, adiando qualquer tratamento enquanto não houver fratura.",
-   "Suspender o corticoide de forma abrupta, única medida capaz de recuperar a densidade mineral óssea.",
-   "Iniciar bisfosfonato com cálcio e vitamina D, pela osteoporose induzida por corticoide já instalada.",
-   "Iniciar reposição hormonal estrogênica, primeira escolha para osteoporose induzida por corticoide."
+   "Apenas cálcio e vitamina D",
+   "Teriparatida como primeira escolha",
+   "Aguardar o fim do corticoide para decidir",
+   "Alendronato com cálcio e vitamina D",
+   "Calcitonina nasal diária"
   ],
   "gab": 3,
   "tema": "reumato",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "American College of Rheumatology, 2022 — Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis",
-  "coment": "O corticoide crônico é a causa mais comum de osteoporose secundária, e a perda óssea é mais rápida nos primeiros meses de uso. Com escore T de -2,8 em paciente sob corticoide, há indicação de tratamento farmacológico com bisfosfonato, associado a cálcio e vitamina D, que sozinhos não bastam. Também se recomenda usar a menor dose de corticoide pelo menor tempo possível, avaliar risco de queda e estimular exercício com carga. A suspensão abrupta do corticoide em uso crônico arrisca insuficiência adrenal e reativação da doença de base.",
+  "base": "ACR Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis, 2022",
+  "coment": "Osteoporose induzida por glicocorticoide: com prednisona de 2,5 mg/dia ou mais por mais de 3 meses, a ACR (2022) recomenda avaliar risco e, em adultos de 40 anos ou mais com escore T de −2,5 ou menos (risco alto), tratar com bisfosfonato oral como primeira linha, junto de cálcio e vitamina D. Anabólico (teriparatida) é preferido no risco muito alto (fraturas por fragilidade, escore T muito baixo ou dose alta de corticoide). A perda óssea é maior nos primeiros meses de corticoide, e esperar a suspensão atrasa a proteção.",
   "porAlt": [
-   "Cálcio e vitamina D são adjuvantes necessários, mas não revertem a perda óssea induzida pelo corticoide sozinhos.",
-   "Esperar a fratura para tratar inverte a lógica da prevenção, justamente quando o risco já está documentado.",
-   "A retirada abrupta do corticoide arrisca insuficiência adrenal e reativação da polimialgia que motivou o uso.",
-   "Correta: escore T de -2,8 em uso de corticoide indica bisfosfonato associado a cálcio e vitamina D.",
-   "A reposição estrogênica não é primeira escolha para essa indicação e traz riscos próprios nessa faixa etária."
+   "Cálcio e vitamina D isolados são insuficientes com escore T de −2,8.",
+   "Teriparatida é preferida no risco muito alto.",
+   "A perda óssea é maior nos primeiros meses; esperar é prejudicial.",
+   "Osteoporose com corticoide crônico: bisfosfonato oral com cálcio e vitamina D.",
+   "Calcitonina tem eficácia fraca e não é recomendada."
   ]
  }
 ]

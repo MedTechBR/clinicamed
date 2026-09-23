@@ -1,242 +1,242 @@
 [
  {
-  "q": "Paciente com acidente vascular cerebral isquêmico prévio, hipertenso e dislipidêmico. Qual é a prevenção secundária adequada?",
+  "q": "Homem de 64 anos teve AVC isquêmico por aterosclerose de artéria cerebral média há 2 meses, com sequela leve. Usa ácido acetilsalicílico 100 mg/dia, atorvastatina 20 mg/dia e losartana 50 mg/dia. Hoje, pressão arterial 142/88 mmHg, LDL-colesterol 104 mg/dL, hemoglobina glicada 5,8%; parou de fumar há 2 meses. Holter sem fibrilação atrial. Não tem diabetes, e a função renal e as enzimas hepáticas são normais. Qual é o ajuste de prevenção secundária mais adequado?",
   "alts": [
-   "Anticoagulação plena para todos os pacientes com acidente vascular cerebral isquêmico prévio, sem exceção.",
-   "Apenas controle pressórico isolado, medida suficiente para a prevenção secundária nesse perfil de paciente.",
-   "Apenas suplementação vitamínica contínua como estratégia de prevenção secundária de novo evento cerebral.",
-   "Nenhuma medida preventiva enquanto o paciente permanecer assintomático após o evento cerebrovascular agora.",
-   "Antiagregante, estatina de alta potência e controle pressórico, associados sempre à mudança de estilo de vida."
+   "Trocar ácido acetilsalicílico por varfarina",
+   "Manter doses, pois o LDL está abaixo de 130",
+   "Estatina de alta potência para LDL abaixo de 70",
+   "Suspender a losartana para evitar hipotensão",
+   "Associar clopidogrel por tempo indeterminado"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "prev",
-  "nivel": "r1",
-  "base": "AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and TIA, 2021 com revisão 2024",
-  "coment": "A prevenção secundária do acidente vascular cerebral isquêmico não cardioembólico combina antiagregante — ácido acetilsalicílico ou clopidogrel, com dupla antiagregação por curto período em eventos menores ou ataque isquêmico transitório de alto risco —, estatina de alta potência com meta de LDL abaixo de 70 mg/dL, controle pressórico rigoroso, controle glicêmico, cessação do tabagismo e atividade física regular. Anticoagulação se reserva à origem cardioembólica.",
+  "nivel": "r2",
+  "base": "AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack, 2021; Amarenco et al., Treat Stroke to Target, NEJM, 2020",
+  "coment": "Após AVC isquêmico de causa aterosclerótica, a AHA/ASA (2021) recomenda estatina de alta potência com meta de LDL abaixo de 70 mg/dL, com base no Treat Stroke to Target, que reduziu eventos vasculares em relação à meta de 90 a 110, acrescentando ezetimiba se necessário. A meta pressórica é abaixo de 130/80 mmHg. Antiagregação simples é mantida; dupla antiagregação fica restrita aos primeiros 21 a 90 dias em situações específicas.",
   "porAlt": [
-   "A anticoagulação se reserva à etiologia cardioembólica e aumenta risco hemorrágico sem essa indicação.",
-   "O controle pressórico isolado deixa de fora antiagregação e estatina, ambas com benefício comprovado.",
-   "As vitaminas não reduzem recorrência de acidente vascular cerebral em ensaios clínicos randomizados.",
-   "A ausência de sintomas não reduz o risco de recorrência, que é maior justamente após o primeiro evento.",
-   "Correta: antiagregante, estatina de alta potência e controle pressórico, com mudança de estilo de vida."
+   "Anticoagulação não é indicada no AVC aterotrombótico sem fibrilação atrial.",
+   "A meta após AVC aterosclerótico é LDL abaixo de 70 mg/dL.",
+   "AVC aterosclerótico: LDL abaixo de 70 mg/dL com estatina de alta potência e pressão abaixo de 130/80.",
+   "A pressão está acima da meta; o anti-hipertensivo deve ser intensificado.",
+   "Dupla antiagregação prolongada aumenta sangramento sem benefício."
   ]
  },
  {
-  "q": "Paciente com hemorragia intraparenquimatosa e pressão arterial de 200/110 mmHg nas primeiras horas. Qual é a conduta?",
+  "q": "Mulher de 76 anos em uso de apixabana 5 mg duas vezes ao dia por fibrilação atrial, com última dose há 3 horas, chega com hemiparesia direita e afasia iniciadas há 1 hora. Glasgow 13, pressão arterial 188/100 mmHg. Tomografia: hematoma lobar parietal esquerdo de 25 mL, sem extensão ventricular. Creatinina 1,0 mg/dL, plaquetas 220.000/mm³. Não há história de trauma, e o INR é de 1,2 com TTPa normal. Qual é a medida hemostática mais adequada?",
   "alts": [
-   "Manter a pressão elevada para preservar a perfusão cerebral em todos os pacientes com hemorragia cerebral agora.",
-   "Reduzir a pressão sistólica abaixo de 90 mmHg de forma rápida para conter a expansão do hematoma neste caso.",
-   "Reduzir a pressão sistólica de forma controlada para valores próximos de 140 mmHg, monitorando sempre o paciente.",
-   "Iniciar anticoagulação plena imediatamente como tratamento da hemorragia intraparenquimatosa descrita agora.",
-   "Realizar trombólise endovenosa como tratamento padrão da hemorragia intraparenquimatosa aguda nesse contexto."
-  ],
-  "gab": 2,
-  "tema": "neuro",
-  "cenario": "uti",
-  "comp": "urg",
-  "nivel": "r3",
-  "base": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage, 2022",
-  "coment": "Na hemorragia intracerebral espontânea com pressão sistólica entre 150 e 220 mmHg, a redução para cerca de 140 mmHg é segura e pode reduzir a expansão do hematoma, devendo ser feita de forma suave e sustentada, evitando grandes variações. Complementam o manejo a reversão de anticoagulação quando presente, o controle da pressão intracraniana, a prevenção de hipertermia e hiperglicemia e a avaliação neurocirúrgica conforme volume e localização.",
-  "porAlt": [
-   "Manter a pressão muito elevada favorece a expansão do hematoma nas primeiras horas do evento.",
-   "Reduzir abaixo de 90 mmHg compromete a perfusão cerebral e piora a lesão isquêmica secundária.",
-   "Correta: reduzir a sistólica de forma controlada para valores próximos de 140 mmHg com monitorização.",
-   "A anticoagulação é contraindicada e agrava diretamente o sangramento intracraniano em curso.",
-   "A trombólise é contraindicada na hemorragia e converteria o quadro em catástrofe neurológica."
-  ]
- },
- {
-  "q": "Paciente com epilepsia focal em uso de monoterapia com boa adesão mantém crises frequentes. Qual é o próximo passo?",
-  "alts": [
-   "Suspender toda medicação e observar clinicamente a evolução das crises pelos próximos seis meses neste caso.",
-   "Associar imediatamente quatro antiepilépticos diferentes em doses plenas para o controle das crises agora.",
-   "Indicar cirurgia de epilepsia após a falha de um único fármaco em monoterapia bem conduzida nesse contexto.",
-   "Otimizar a dose e considerar troca ou associação, reavaliando sempre o diagnóstico e os fatores desencadeantes.",
-   "Prescrever apenas benzodiazepínico contínuo como substituto do antiepiléptico atualmente em uso neste caso."
+   "Plasma fresco congelado 15 mL/kg",
+   "Vitamina K endovenosa",
+   "Protamina endovenosa",
+   "Concentrado de complexo protrombínico",
+   "Transfusão de plaquetas"
   ],
   "gab": 3,
   "tema": "neuro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "ILAE definition of drug-resistant epilepsy; NICE guideline NG217 — Epilepsies in children, young people and adults, 2022",
-  "coment": "Diante de crises persistentes, revisam-se adesão, dose, tipo de crise e diagnóstico, além de fatores desencadeantes como privação de sono, álcool e interações medicamentosas. Otimiza-se a dose até a máxima tolerada, e persistindo as crises, troca-se por outra monoterapia ou associa-se um segundo fármaco. Epilepsia farmacorresistente é definida pela falha de dois esquemas adequados e tolerados, ponto em que se avalia cirurgia em centro especializado.",
-  "porAlt": [
-   "Suspender a medicação expõe o paciente a crises mais frequentes e ao risco de estado de mal.",
-   "Associar quatro fármacos de uma vez multiplica efeitos adversos e interações sem ganho de controle.",
-   "A cirurgia é avaliada após a falha de dois esquemas adequados, e não de uma única monoterapia.",
-   "Correta: otimizar dose e considerar troca ou associação, revendo diagnóstico e fatores desencadeantes.",
-   "O benzodiazepínico contínuo não substitui o antiepiléptico e leva a tolerância e dependência."
-  ]
- },
- {
-  "q": "Paciente com esclerose múltipla remitente-recorrente apresenta surto com déficit motor incapacitante. Qual é a conduta no surto?",
-  "alts": [
-   "Suspender definitivamente a terapia modificadora de doença diante do primeiro surto do paciente agora.",
-   "Iniciar antibiótico de amplo espectro como tratamento padrão do surto de esclerose múltipla descrito.",
-   "Pulsoterapia com corticoide endovenoso em dose alta, mantendo sempre a terapia modificadora de doença.",
-   "Prescrever apenas analgésico e fisioterapia, sem qualquer corticoterapia no surto com déficit incapacitante.",
-   "Realizar plasmaférese como primeira linha em todos os surtos, antes de qualquer tentativa com corticoide."
-  ],
-  "gab": 2,
-  "tema": "neuro",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "ECTRIMS/EAN guideline on the pharmacological treatment of multiple sclerosis, revisão 2024; Academia Brasileira de Neurologia, 2022",
-  "coment": "O surto de esclerose múltipla com déficit incapacitante é tratado com pulsoterapia de metilprednisolona endovenosa, tipicamente um grama ao dia por três a cinco dias, que acelera a recuperação sem alterar o grau de sequela final. A terapia modificadora de doença é mantida e reavaliada, pois surtos frequentes indicam falha e necessidade de escalonamento. Plasmaférese se reserva a surtos graves sem resposta ao corticoide em dose alta.",
-  "porAlt": [
-   "Suspender a terapia modificadora após um surto aumenta o risco de novos surtos e de progressão.",
-   "O antibiótico não trata o surto desmielinizante, embora infecção deva ser afastada como gatilho.",
-   "Correta: pulsoterapia com corticoide endovenoso, mantendo e reavaliando a terapia modificadora.",
-   "Analgesia e fisioterapia são adjuvantes e não substituem a corticoterapia no surto incapacitante.",
-   "A plasmaférese é resgate para surtos graves refratários ao corticoide, e não primeira linha."
-  ]
- },
- {
-  "q": "Paciente com fraqueza flutuante que piora ao longo do dia, ptose e diplopia, com melhora ao repouso. Qual é o exame confirmatório?",
-  "alts": [
-   "Apenas tomografia de crânio sem contraste, exame que confirma o diagnóstico do quadro descrito nesse contexto.",
-   "Anticorpo antirreceptor de acetilcolina e eletroneuromiografia com estimulação repetitiva, avaliando sempre o timo.",
-   "Apenas dosagem de creatinoquinase sérica, exame que estabelece o diagnóstico da fraqueza flutuante neste caso.",
-   "Apenas eletroencefalograma de vigília, exame confirmatório do quadro de fraqueza muscular flutuante neste caso.",
-   "Apenas biópsia muscular de rotina como exame inicial e confirmatório do quadro clínico descrito nesse contexto."
-  ],
-  "gab": 1,
-  "tema": "neuro",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "EAN/AAN guidance on myasthenia gravis, revisão 2023; International consensus guidance for management of myasthenia gravis, atualização 2021",
-  "coment": "A miastenia gravis cursa com fraqueza flutuante e fatigabilidade, com predileção por musculatura ocular, bulbar e proximal, piorando ao esforço e melhorando ao repouso. A confirmação combina anticorpo antirreceptor de acetilcolina, positivo na maioria, ou anticorpo anti-MuSK nos soronegativos, e eletroneuromiografia com estimulação repetitiva mostrando decremento. Toda pessoa com o diagnóstico deve fazer tomografia de tórax para avaliar timoma.",
-  "porAlt": [
-   "A tomografia de crânio não avalia a junção neuromuscular acometida nessa doença autoimune.",
-   "Correta: anticorpo antirreceptor de acetilcolina com estimulação repetitiva e avaliação do timo.",
-   "A creatinoquinase é normal na miastenia, pois não há destruição muscular como nas miopatias.",
-   "O eletroencefalograma avalia atividade cortical e não a transmissão na junção neuromuscular.",
-   "A biópsia muscular avalia miopatias e não é o exame confirmatório da miastenia gravis."
-  ]
- },
- {
-  "q": "Paciente com cefaleia diária, piora ao deitar e ao esforço, com papiledema ao exame. Qual é a conduta?",
-  "alts": [
-   "Prescrever apenas analgésico comum e reavaliar clinicamente após trinta dias de acompanhamento ambulatorial.",
-   "Neuroimagem urgente e avaliação de hipertensão intracraniana, investigando sempre causa estrutural ou secundária.",
-   "Iniciar profilaxia de enxaqueca sem qualquer investigação por imagem no paciente com papiledema descrito agora.",
-   "Realizar punção lombar imediata antes de qualquer exame de imagem do sistema nervoso central nesse contexto.",
-   "Prescrever apenas colírio lubrificante para o papiledema e liberar o paciente sem investigação adicional agora."
-  ],
-  "gab": 1,
-  "tema": "neuro",
-  "cenario": "emg",
+  "cenario": "uti",
   "comp": "urg",
-  "nivel": "r2",
-  "base": "ICHD-3 red flags; AAN/AHS practice guidance on secondary headache, revisão 2023",
-  "coment": "Papiledema com cefaleia que piora ao deitar e ao esforço indica hipertensão intracraniana e é sinal de alarme absoluto. A conduta é neuroimagem urgente, preferencialmente ressonância com venografia, para excluir lesão expansiva, hidrocefalia e trombose venosa cerebral. Excluída causa estrutural, considera-se hipertensão intracraniana idiopática, cujo diagnóstico exige punção lombar com medida de pressão de abertura, feita somente após a imagem.",
+  "nivel": "r3",
+  "base": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage, 2022; Connolly et al., ANNEXA-I, NEJM, 2024",
+  "coment": "Na hemorragia intracraniana associada a inibidor do fator Xa (apixabana, rivaroxabana), a AHA/ASA (2022) recomenda andexanet alfa ou concentrado de complexo protrombínico de 4 fatores (cerca de 50 UI/kg) se a última dose foi nas últimas 18 horas, e carvão ativado se a ingestão foi há menos de 2 horas. O ANNEXA-I (2024) mostrou melhor controle hemostático com andexanet, com mais eventos trombóticos. Para dabigatrana, o reversor é o idarucizumabe. A pressão é reduzida para sistólica em torno de 140 mmHg.",
   "porAlt": [
-   "Analgésico e espera de trinta dias diante de papiledema podem custar a visão e a vida do paciente.",
-   "Correta: neuroimagem urgente para investigar causa estrutural ou secundária de hipertensão intracraniana.",
-   "Tratar como enxaqueca ignora um sinal de alarme que exige investigação estrutural imediata.",
-   "A punção antes da imagem arrisca herniação quando há lesão expansiva intracraniana não diagnosticada.",
-   "O papiledema é sinal de hipertensão intracraniana e não se trata com colírio lubrificante."
+   "Plasma não reverte inibidor do fator Xa de forma eficaz e traz volume.",
+   "Vitamina K não age sobre inibidores diretos do fator Xa.",
+   "Protamina reverte heparina, não apixabana.",
+   "Hemorragia intracraniana com inibidor do fator Xa recente: concentrado de complexo protrombínico de 4 fatores ou andexanet alfa.",
+   "Não há plaquetopenia nem antiagregante."
   ]
  },
  {
-  "q": "Paciente com polineuropatia simétrica distal em paciente diabético, com dor em queimação nos pés. Qual é o tratamento da dor?",
+  "q": "Mulher de 29 anos tem epilepsia focal com crises disperceptivas desde os 17 anos, com 3 a 4 crises por mês. Usou carbamazepina e depois lamotrigina em doses adequadas e por tempo suficiente, com boa adesão confirmada por níveis séricos, e hoje usa lamotrigina com levetiracetam. Ressonância de 3 tesla mostra esclerose hipocampal esquerda. Eletroencefalograma com descargas temporais esquerdas. Qual é a conduta mais adequada?",
   "alts": [
-   "Anti-inflamatório não hormonal contínuo como tratamento de primeira linha para a dor neuropática descrita.",
-   "Opioide potente em dose plena como primeira escolha no tratamento da dor neuropática diabética agora.",
-   "Apenas corticoide sistêmico contínuo como tratamento da polineuropatia dolorosa do paciente diabético.",
-   "Apenas complexo vitamínico B como tratamento de escolha para a dor neuropática do paciente diabético.",
-   "Duloxetina, pregabalina ou gabapentina, associadas sempre ao controle glicêmico e ao cuidado com os pés."
-  ],
-  "gab": 4,
-  "tema": "neuro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025, capítulo de neuropatia; AAN practice guideline on painful diabetic neuropathy, 2022",
-  "coment": "A dor da polineuropatia diabética responde a fármacos com ação sobre a dor neuropática: duloxetina, pregabalina, gabapentina e antidepressivos tricíclicos, escolhidos por comorbidades e perfil de efeitos adversos. Anti-inflamatórios têm eficácia limitada e risco renal no diabético. O controle glicêmico reduz a progressão, sobretudo no diabetes tipo 1, e o exame regular dos pés é indispensável para prevenir ulceração e amputação.",
-  "porAlt": [
-   "Anti-inflamatórios têm eficácia limitada na dor neuropática e risco renal no paciente diabético.",
-   "Opioides não são primeira escolha na dor neuropática crônica pelo risco de dependência e tolerância.",
-   "O corticoide não trata a polineuropatia diabética e piora o controle glicêmico do paciente.",
-   "O complexo B só tem papel quando há deficiência documentada, e não como analgésico neuropático.",
-   "Correta: duloxetina, pregabalina ou gabapentina, com controle glicêmico e cuidado regular dos pés."
-  ]
- },
- {
-  "q": "Paciente com quadro súbito de afasia e hemiparesia que reverteu completamente em 40 minutos. Qual é a conduta?",
-  "alts": [
-   "Liberar sem investigação, pois a reversão completa dos sintomas afasta qualquer risco de novo evento nesse contexto.",
-   "Investigar e iniciar prevenção secundária imediatamente, pois o risco de novo evento é sempre maior nos primeiros dias.",
-   "Agendar investigação ambulatorial eletiva para daqui a três meses, sem qualquer medida preventiva imediata neste caso.",
-   "Iniciar trombólise endovenosa mesmo com os sintomas já completamente revertidos no momento da avaliação neste caso.",
-   "Prescrever apenas analgésico e orientar retorno somente se os sintomas voltarem a se manifestar para este paciente."
-  ],
-  "gab": 1,
-  "tema": "neuro",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and TIA, 2021 com revisão 2024",
-  "coment": "O ataque isquêmico transitório é urgência: o risco de acidente vascular cerebral é maior nas primeiras quarenta e oito horas e nos primeiros sete dias. A conduta é investigação rápida com neuroimagem, avaliação de carótidas, eletrocardiograma e busca de fibrilação atrial, além de ecocardiograma quando indicado, com início imediato da prevenção secundária. Em eventos de alto risco pelo escore ABCD2, indica-se dupla antiagregação por curto período.",
-  "porAlt": [
-   "A reversão dos sintomas não afasta risco: o ataque transitório é justamente um aviso de evento maior.",
-   "Correta: investigar e iniciar prevenção secundária de imediato, pois o risco é máximo nos primeiros dias.",
-   "Adiar por três meses desperdiça a janela em que a prevenção secundária tem maior impacto absoluto.",
-   "A trombólise não se aplica a paciente sem déficit no momento da avaliação clínica.",
-   "Orientar retorno apenas se houver recidiva deixa sem prevenção o período de maior risco."
-  ]
- },
- {
-  "q": "Paciente com tremor de ação bilateral e simétrico das mãos, que melhora com álcool e tem história familiar. Qual é o tratamento?",
-  "alts": [
-   "Levodopa em dose plena como tratamento de escolha para o tremor de ação bilateral descrito no caso.",
-   "Propranolol ou primidona como primeira linha, indicados sempre quando há prejuízo funcional relevante.",
-   "Antipsicótico típico em dose alta como primeira linha para o tremor essencial com história familiar.",
-   "Corticoide sistêmico contínuo como tratamento de escolha para o tremor de ação bilateral e simétrico.",
-   "Estimular o consumo regular de álcool como estratégia terapêutica de longo prazo para o tremor descrito."
+   "Associar terceiro antiepiléptico e reavaliar em 1 ano",
+   "Encaminhar a centro de epilepsia para avaliação cirúrgica",
+   "Trocar a associação por fenobarbital isolado",
+   "Lamotrigina acima da dose máxima",
+   "Aguardar remissão espontânea após os 30 anos"
   ],
   "gab": 1,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "AAN practice guideline update on essential tremor, revisão 2023; Movement Disorder Society consensus, 2022",
-  "coment": "O tremor essencial é o distúrbio de movimento mais frequente, tipicamente bilateral, de ação e postural, com história familiar em boa parte dos casos e melhora transitória com álcool. O tratamento é indicado quando há prejuízo funcional, e a primeira linha é propranolol ou primidona, isolados ou combinados. Casos refratários e incapacitantes podem se beneficiar de estimulação cerebral profunda ou de ultrassom focalizado guiado por ressonância.",
+  "nivel": "r2",
+  "base": "Kwan et al., Definition of drug resistant epilepsy: ILAE consensus, Epilepsia, 2010; Wiebe et al., A randomized trial of surgery for temporal-lobe epilepsy, NEJM, 2001",
+  "coment": "A ILAE define epilepsia farmacorresistente como falha de 2 esquemas antiepilépticos tolerados, bem escolhidos e usados em dose adequada. A partir daí, a chance de ficar livre de crises com novos fármacos é pequena. Esses pacientes devem ser encaminhados a centro de epilepsia para videoeletroencefalograma e avaliação cirúrgica. Na epilepsia do lobo temporal com esclerose hipocampal, a cirurgia foi superior à continuação do tratamento clínico no ensaio de Wiebe (NEJM, 2001).",
   "porAlt": [
-   "A levodopa trata o parkinsonismo e não é eficaz no tremor essencial de ação e postural.",
-   "Correta: propranolol ou primidona em primeira linha quando há prejuízo funcional relevante.",
-   "Antipsicóticos podem causar tremor por parkinsonismo induzido e não tratam o tremor essencial.",
-   "O corticoide não tem qualquer papel no tratamento do tremor essencial descrito neste caso.",
-   "Estimular consumo regular de álcool cria risco de dependência e é conduta inaceitável."
+   "Após falha de 2 esquemas adequados, a chance de controle com novo fármaco é pequena.",
+   "Epilepsia farmacorresistente com esclerose hipocampal: avaliação cirúrgica em centro especializado.",
+   "Fenobarbital tem baixa chance de controle e mais efeitos adversos.",
+   "Exceder a dose máxima aumenta toxicidade sem ganho.",
+   "Epilepsia temporal com esclerose hipocampal raramente remite sozinha."
   ]
  },
  {
-  "q": "Paciente com rebaixamento de consciência, pupilas anisocóricas e postura de descerebração após trauma craniano. Qual é a conduta imediata?",
+  "q": "Mulher de 34 anos com esclerose múltipla remitente-recorrente, estável há 2 anos com natalizumabe, procura o pronto-socorro com piora da fraqueza da perna direita e da marcha há 1 dia, semelhante a um surto antigo. Tem febre de 38,4 °C, disúria e urgência urinária. Urina com leucocitúria e nitrito positivo. Sem déficits novos em outras regiões. Anticorpo contra o vírus JC negativo há 3 meses. Qual é a conduta?",
   "alts": [
-   "Medidas antiedema e neurocirurgia urgente, mantendo sempre normocapnia e evitando hipotensão e hipoxemia.",
-   "Aguardar a tomografia de controle em vinte e quatro horas antes de qualquer intervenção neurocirúrgica.",
-   "Hiperventilar de forma prolongada como principal medida terapêutica da hipertensão intracraniana descrita.",
-   "Administrar apenas analgésico e sedativo, sem qualquer avaliação neurocirúrgica ou medida antiedema.",
-   "Manter a cabeceira do leito abaixada e o pescoço fletido para melhorar a perfusão cerebral do paciente."
+   "Tratar a infecção e reavaliar, como pseudossurto",
+   "Metilprednisolona 1 g/dia por 5 dias",
+   "Plasmaférese de urgência",
+   "Suspender o natalizumabe pelo surto",
+   "Ressonância e pulsoterapia antes do antibiótico"
   ],
   "gab": 0,
+  "tema": "neuro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Brownlee et al., Diagnosis and management of multiple sclerosis, Lancet, 2017; Thompson et al., McDonald criteria 2017, Lancet Neurology, 2018",
+  "coment": "Pseudossurto é a piora transitória de sintomas prévios da esclerose múltipla desencadeada por febre, infecção, calor ou estresse, sem nova inflamação. Surto verdadeiro exige sintomas novos ou piorados por mais de 24 horas na ausência de febre ou infecção. Infecção urinária é o gatilho mais comum. A conduta é tratar a causa e reavaliar; persistindo o déficit sem febre, consideram-se ressonância e corticoide. Com natalizumabe, leucoencefalopatia multifocal progressiva deve ser lembrada diante de sintomas novos atípicos.",
+  "porAlt": [
+   "Piora de déficit antigo com febre e infecção urinária é pseudossurto: tratar a infecção e reavaliar sem febre.",
+   "Pulsoterapia em pseudossurto com infecção ativa não é indicada.",
+   "Plasmaférese é para surto grave refratário a corticoide.",
+   "Não há surto verdadeiro nem falha terapêutica.",
+   "Corticoide antes de tratar a infecção pode agravá-la."
+  ]
+ },
+ {
+  "q": "Mulher de 45 anos com miastenia gravis generalizada, anticorpo antirreceptor de acetilcolina positivo, em uso de piridostigmina 60 mg quatro vezes ao dia e prednisona 20 mg/dia, iniciou ciprofloxacino há 3 dias para infecção urinária. Hoje tem disfagia para líquidos, voz anasalada, ptose bilateral, fraqueza cervical e dispneia ao falar. Frequência respiratória 28 irpm, saturação 95% em ar ambiente, pCO₂ de 44 mmHg. Capacidade vital de 16 mL/kg. Sem fasciculações, sialorreia ou miose. Qual é a conduta?",
+  "alts": [
+   "Dobrar a piridostigmina e observar",
+   "Prednisona 80 mg em dose única já",
+   "Timectomia de urgência nesta semana",
+   "UTI, via aérea e plasmaférese ou imunoglobulina",
+   "Neostigmina endovenosa em bolus"
+  ],
+  "gab": 3,
   "tema": "neuro",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Brain Trauma Foundation Guidelines for the Management of Severe TBI, 4ª edição com atualização 2023; ATLS 11ª edição, 2024",
-  "coment": "Anisocoria com postura de descerebração indica herniação e exige ação imediata: elevação da cabeceira a trinta graus com pescoço neutro, sedação e analgesia adequadas, salina hipertônica ou manitol, controle de temperatura e glicemia, manutenção da pressão de perfusão cerebral e avaliação neurocirúrgica urgente para drenagem de lesão expansiva. A hiperventilação é medida temporária de resgate, nunca prolongada, por causar isquemia.",
+  "base": "International Consensus Guidance for Management of Myasthenia Gravis, 2020 update",
+  "coment": "Crise miastênica é fraqueza bulbar ou respiratória grave o bastante para exigir suporte ventilatório, frequentemente precipitada por infecção ou fármacos (fluoroquinolonas, aminoglicosídeos, magnésio, betabloqueadores). Capacidade vital abaixo de 20 mL/kg, pressão inspiratória pior que −30 cmH₂O e disfagia indicam intubação eletiva ou ventilação não invasiva em casos selecionados. O tratamento é plasmaférese ou imunoglobulina, suspensão do fármaco desencadeante e, em quem é intubado, pausa do anticolinesterásico para reduzir secreções. Corticoide em dose alta é iniciado com cautela.",
   "porAlt": [
-   "Correta: medidas antiedema e neurocirurgia urgente, com normocapnia e sem hipotensão ou hipoxemia.",
-   "Aguardar vinte e quatro horas diante de sinais de herniação permite dano cerebral irreversível.",
-   "A hiperventilação prolongada causa vasoconstrição e isquemia, sendo apenas resgate temporário.",
-   "Sedação isolada sem medidas antiedema e sem avaliação cirúrgica não trata a herniação em curso.",
-   "Cabeceira baixa e pescoço fletido aumentam a pressão intracraniana e agravam a herniação."
+   "Aumentar anticolinesterásico na crise pode causar crise colinérgica e aumenta secreções.",
+   "Corticoide em dose alta no início piora transitoriamente a miastenia.",
+   "Timectomia não é tratamento da crise.",
+   "Crise miastênica com capacidade vital abaixo de 20 mL/kg e fraqueza bulbar: terapia intensiva, suporte ventilatório precoce e plasmaférese ou imunoglobulina.",
+   "Anticolinesterásico endovenoso aumenta secreções e arrisca crise colinérgica."
+  ]
+ },
+ {
+  "q": "Mulher de 29 anos, no vigésimo dia pós-parto, tem cefaleia holocraniana progressiva há 5 dias, pior ao deitar e ao tossir, com vômitos e visão borrada. Hoje teve crise focal no braço esquerdo. Ao exame, papiledema bilateral e paresia leve do braço esquerdo. Pressão arterial 128/80 mmHg, afebril. Tomografia sem contraste com hiperdensidade no seio sagital superior e pequena hemorragia cortical frontal direita. Plaquetas normais. Qual é o exame e a conduta mais adequados?",
+  "alts": [
+   "Punção lombar para medir a pressão de abertura",
+   "Angiorressonância arterial e trombólise",
+   "Venografia por ressonância e anticoagulação",
+   "Suspender anticoagulação pela hemorragia",
+   "Arteriografia e clipagem de aneurisma"
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ESO Guideline for the diagnosis and treatment of cerebral venous thrombosis, 2017; AHA Scientific Statement: Diagnosis and Management of Cerebral Venous Thrombosis, 2024",
+  "coment": "Trombose venosa cerebral é mais comum em mulheres jovens, no puerpério, com uso de estrogênio ou trombofilia, e se apresenta com cefaleia de hipertensão intracraniana, papiledema, crises e déficits focais, às vezes com hemorragia por infarto venoso. O diagnóstico é confirmado por venografia por ressonância ou tomografia. A ESO e a AHA recomendam anticoagulação com heparina, de preferência de baixo peso molecular, mesmo com hemorragia intracerebral secundária, seguida de anticoagulante oral por 3 a 12 meses.",
+  "porAlt": [
+   "Punção lombar não é o exame diante de lesão com hemorragia; a suspeita é trombose venosa.",
+   "O problema é venoso, não arterial, e trombólise sistêmica não é indicada.",
+   "Puerpério, hipertensão intracraniana, crise e hemorragia com seio hiperdenso: trombose venosa cerebral; confirmar e anticoagular, mesmo com hemorragia.",
+   "A hemorragia venosa não contraindica anticoagulação na trombose venosa cerebral.",
+   "Não há padrão de hemorragia aneurismática."
+  ]
+ },
+ {
+  "q": "Homem de 62 anos com diabetes tipo 2 há 15 anos tem dor em queimação e choques nos pés há 1 ano, pior à noite, que atrapalha o sono. Monofilamento com perda de sensibilidade até o tornozelo e reflexos aquileus abolidos. Tem sintomas depressivos moderados (PHQ-9 de 14) e hipertensão controlada. Taxa de filtração glomerular de 38 mL/min/1,73 m², hemoglobina glicada de 7,6%. Vitamina B12 normal, sem uso de álcool. Qual é o tratamento inicial mais adequado para a dor?",
+  "alts": [
+   "Duloxetina 60 mg/dia",
+   "Pregabalina 300 mg duas vezes ao dia",
+   "Tramadol como primeira escolha",
+   "Amitriptilina 75 mg à noite",
+   "Carbamazepina em dose plena"
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ADA Standards of Care in Diabetes, seção 12, 2025; AAN Practice Guideline Summary: Treatment of Painful Diabetic Polyneuropathy, 2022",
+  "coment": "A ADA e a AAN (2022) recomendam como primeira linha para dor da neuropatia diabética os gabapentinoides (pregabalina, gabapentina), os inibidores da recaptação de serotonina e noradrenalina (duloxetina, venlafaxina) e os tricíclicos, escolhidos por comorbidades e efeitos adversos. Com depressão, a duloxetina trata as duas condições; é evitada com filtração abaixo de 30 mL/min/1,73 m². Gabapentinoides exigem ajuste renal. Opioides, incluindo tramadol, não são recomendados como primeira linha.",
+  "porAlt": [
+   "Dor neuropática diabética com depressão: duloxetina trata as duas condições e pode ser usada com filtração de 38.",
+   "Pregabalina é primeira linha, mas 600 mg/dia é dose excessiva para filtração de 38.",
+   "Opioides não são primeira escolha na dor neuropática crônica.",
+   "Amitriptilina 75 mg em idoso causa efeitos anticolinérgicos e arritmia.",
+   "Carbamazepina não é primeira linha na neuropatia diabética."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos, hipertenso e diabético, teve há 6 horas afasia e fraqueza da mão direita que duraram 40 minutos e reverteram completamente. Pressão arterial na chegada de 158/92 mmHg. ABCD2 de 6. Ressonância com difusão sem lesão aguda. Angiotomografia sem estenose carotídea ou intracraniana significativa. Eletrocardiograma em ritmo sinusal. Não usa antiagregante nem anticoagulante e não teve sangramento prévio. Qual é a conduta antitrombótica mais adequada?",
+  "alts": [
+   "AAS isolado por tempo indeterminado",
+   "Apixabana empírica",
+   "Clopidogrel isolado após 7 dias",
+   "Aguardar Holter para antiagregar",
+   "Dupla antiagregação por 21 dias"
+  ],
+  "gab": 4,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack, 2021; CHANCE, NEJM, 2013; POINT, NEJM, 2018",
+  "coment": "O risco de AVC após ataque isquêmico transitório concentra-se nos primeiros dias. Nos ensaios CHANCE e POINT, ácido acetilsalicílico com clopidogrel iniciados em até 24 horas em ataque isquêmico transitório de alto risco (ABCD2 de 4 ou mais) ou AVC menor reduziram novos AVCs, com benefício concentrado nas primeiras 3 semanas e mais sangramento se mantidos até 90 dias. A AHA/ASA recomenda dupla antiagregação por 21 dias, seguida de monoterapia, junto com investigação etiológica e controle de fatores de risco.",
+  "porAlt": [
+   "No ataque isquêmico transitório de alto risco, a dupla antiagregação precoce reduz AVC em relação ao AAS isolado.",
+   "Sem fibrilação atrial documentada, anticoagulação empírica não é indicada.",
+   "Iniciar só após 7 dias perde o período de maior risco.",
+   "O Holter é feito, mas não deve atrasar a antiagregação.",
+   "Ataque isquêmico transitório de alto risco: AAS e clopidogrel iniciados em 24 horas por 21 dias, depois antiagregante único."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos tem tremor nas duas mãos há 10 anos, que piora ao segurar uma xícara e ao escrever e melhora com uma taça de vinho. O pai tinha tremor semelhante. Exame com tremor postural e cinético simétrico, sem bradicinesia, rigidez ou tremor de repouso. TSH normal, sem uso de broncodilatadores ou valproato. Tem asma persistente em uso de corticoide inalatório. O tremor a impede de trabalhar como costureira. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Propranolol 80 mg/dia",
+   "Levodopa com carbidopa",
+   "Primidona em dose baixa e progressiva",
+   "Clonazepam contínuo como primeira opção de tratamento",
+   "Estimulação cerebral profunda já"
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AAN Evidence-based guideline update: Treatment of essential tremor, 2011; MDS Evidence-Based Review of treatments for essential tremor, 2019",
+  "coment": "Tremor essencial é postural e cinético, bilateral, com história familiar e melhora com álcool, sem sinais parkinsonianos. O tratamento é indicado quando há prejuízo funcional. Propranolol e primidona são primeira linha; na asma, o propranolol é contraindicado, e a primidona é iniciada com 12,5 a 25 mg à noite e aumentada devagar. Topiramato e gabapentina são alternativas. Casos refratários podem se beneficiar de estimulação cerebral profunda ou ultrassom focado.",
+  "porAlt": [
+   "Propranolol é primeira linha, mas contraindicado na asma.",
+   "Levodopa não trata tremor essencial.",
+   "Tremor essencial com prejuízo funcional e asma: primidona, iniciada em dose baixa para reduzir sedação e náusea.",
+   "Benzodiazepínicos são segunda linha, com risco de dependência.",
+   "Estimulação cerebral profunda é para tremor refratário a fármacos."
+  ]
+ },
+ {
+  "q": "Homem de 28 anos, vítima de queda de moto há 1 hora, chega intubado com Glasgow pré-intubação de 6. Pupila direita de 6 mm sem reação, esquerda de 3 mm reativa, e postura de extensão à esquerda. Pressão arterial 142/86 mmHg, frequência 62 bpm, saturação 99%, pCO₂ de 40 mmHg. Tomografia: hematoma subdural agudo direito de 14 mm com desvio de linha média de 9 mm. Glicemia 140 mg/dL, sódio 140 mEq/L. Qual é a conduta imediata?",
+  "alts": [
+   "Hiperventilação prolongada com pCO₂ de 25 mmHg",
+   "Terapia hiperosmolar e drenagem cirúrgica urgente",
+   "Dexametasona em dose alta",
+   "Nova tomografia em 6 horas",
+   "Hipotermia a 32 °C antes da cirurgia"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Brain Trauma Foundation Guidelines for the Management of Severe Traumatic Brain Injury, 4ª edição, 2016; CRASH trial, Lancet, 2004",
+  "coment": "Hematoma subdural agudo com espessura acima de 10 mm ou desvio de linha média acima de 5 mm tem indicação de drenagem cirúrgica, independentemente do Glasgow. Com anisocoria e postura anormal, a herniação exige medidas de ponte: cabeceira a 30 graus, sedação, manitol (0,5 a 1 g/kg) ou salina hipertônica e hiperventilação breve para pCO₂ de 30 a 35 mmHg até o centro cirúrgico. Evitar hipotensão e hipoxemia é essencial. Corticoide é contraindicado no trauma craniano.",
+  "porAlt": [
+   "Hiperventilação prolongada causa isquemia; só como ponte breve, com pCO₂ de 30 a 35.",
+   "Hematoma subdural acima de 10 mm com desvio e sinais de herniação: terapia hiperosmolar e drenagem neurocirúrgica imediata.",
+   "Corticoide aumentou mortalidade no trauma craniano (CRASH).",
+   "Sinais de herniação exigem ação imediata.",
+   "Hipotermia profilática não melhorou desfecho e atrasaria a cirurgia."
   ]
  }
 ]

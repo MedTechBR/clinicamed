@@ -1,242 +1,242 @@
 [
  {
-  "q": "Homem de 42 anos tem epigastralgia em queimação, pior em jejum e aliviada com alimentação, há dois meses. A endoscopia mostra úlcera duodenal e o teste de urease é positivo. Qual é a conduta?",
+  "q": "Homem de 42 anos teve úlcera duodenal de 8 mm, sem sangramento, com teste da urease positivo na biópsia antral. Tratou com amoxicilina 1 g, claritromicina 500 mg e omeprazol 20 mg duas vezes ao dia por 14 dias e manteve omeprazol 20 mg/dia por mais 4 semanas. Está assintomático, sem efeitos adversos, e toma o omeprazol até hoje. Não usa anti-inflamatório nem ácido acetilsalicílico. Quer saber se a bactéria foi erradicada. Qual é a forma correta de confirmar?",
   "alts": [
-   "Prescrever inibidor de bomba isolado por oito semanas, sem tratar a bactéria identificada agora.",
-   "Indicar cirurgia antirrefluxo, tratamento definitivo da úlcera duodenal associada à bactéria.",
-   "Erradicar Helicobacter pylori com esquema tríplice e confirmar a erradicação após o tratamento.",
-   "Prescrever antiácido de demanda e reavaliar em seis meses, sem erradicar o agente encontrado.",
-   "Iniciar corticoide sistêmico, medida que acelera a cicatrização das úlceras pépticas duodenais."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r1",
-  "base": "American College of Gastroenterology, 2024 — treatment of Helicobacter pylori infection",
-  "coment": "Úlcera péptica com Helicobacter pylori positivo tem indicação formal de erradicação, que cura a doença e reduz drasticamente a recorrência e o risco de complicação. O esquema mais usado no Brasil associa inibidor de bomba a dois antimicrobianos por catorze dias. A confirmação da erradicação é obrigatória, feita por teste respiratório ou antígeno fecal, pelo menos quatro semanas após o antimicrobiano e duas semanas após suspender o inibidor de bomba.",
-  "porAlt": [
-   "O inibidor isolado cicatriza a úlcera mas mantém a bactéria, com recorrência alta em poucos meses.",
-   "A cirurgia antirrefluxo trata refluxo, não úlcera duodenal por Helicobacter pylori.",
-   "Correta: erradicar a bactéria e confirmar a erradicação após o tratamento é a conduta indicada.",
-   "Antiácido de demanda não cicatriza a úlcera nem elimina a causa da doença péptica.",
-   "O corticoide não cicatriza úlcera péptica e aumenta o risco de complicação hemorrágica."
-  ]
- },
- {
-  "q": "Mulher de 28 anos tem dor abdominal em cólica, distensão e alternância entre diarreia e constipação há um ano, com alívio após evacuar. Não há perda de peso, sangramento nem anemia. Qual é o diagnóstico e a conduta?",
-  "alts": [
-   "Doença de Crohn, que deve ser confirmada por colonoscopia com biópsias seriadas de imediato.",
-   "Doença celíaca, cujo diagnóstico se firma apenas pelo padrão de alternância do hábito intestinal.",
-   "Câncer colorretal, hipótese principal diante de sintomas intestinais crônicos em adultos jovens.",
-   "Síndrome do intestino irritável pelos critérios de Roma, com manejo dietético e sintomático.",
-   "Colite pseudomembranosa, diagnosticada pela alternância entre diarreia e constipação relatada."
-  ],
-  "gab": 3,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "Critérios de Roma IV, 2016, e American College of Gastroenterology, 2021 — manejo da síndrome do intestino irritável",
-  "coment": "Os critérios de Roma IV definem a síndrome do intestino irritável por dor abdominal recorrente, ao menos um dia por semana nos últimos três meses, relacionada à evacuação ou associada a mudança na frequência ou na forma das fezes. A ausência de sinais de alarme — perda de peso, sangramento, anemia, febre, início após os 50 anos, história familiar de neoplasia ou doença inflamatória — sustenta o diagnóstico clínico sem investigação extensa. O manejo combina orientação dietética, incluindo dieta com baixo teor de oligossacarídeos fermentáveis, e tratamento sintomático.",
-  "porAlt": [
-   "A doença de Crohn cursa com sinais de alarme, que estão explicitamente ausentes nesta paciente.",
-   "A doença celíaca exige sorologia e biópsia duodenal, não se define pelo padrão do hábito intestinal.",
-   "Câncer colorretal em jovem sem sinal de alarme é improvável e não se sustenta como hipótese principal.",
-   "Correta: os critérios de Roma IV, sem sinais de alarme, permitem o diagnóstico clínico e o manejo sintomático.",
-   "A colite pseudomembranosa cursa com diarreia aguda associada a antimicrobiano, não com esse padrão."
-  ]
- },
- {
-  "q": "Homem de 60 anos tem disfagia progressiva para sólidos evoluindo para líquidos, com perda de 8 kg em três meses. É tabagista e etilista. Qual é a conduta inicial?",
-  "alts": [
-   "Esofagomanometria como primeiro exame, padrão-ouro para investigar disfagia progressiva.",
-   "Teste terapêutico com inibidor de bomba por oito semanas, adiando qualquer exame invasivo.",
-   "Endoscopia digestiva alta com biópsias, pela suspeita de neoplasia esofágica nesse contexto.",
-   "Radiografia contrastada de esôfago isolada, exame suficiente para excluir lesão neoplásica.",
-   "pHmetria de vinte e quatro horas, já exame inicial de escolha na disfagia com perda de peso."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "American College of Gastroenterology, 2022 — dysphagia evaluation; Harrison's, 22ª edição, 2025",
-  "coment": "Disfagia progressiva de sólidos para líquidos, com perda ponderal, em homem tabagista e etilista de 60 anos, é neoplasia esofágica até prova em contrário. O exame inicial é a endoscopia digestiva alta com biópsias, que visualiza, caracteriza e coleta material da lesão em um único procedimento. Manometria investiga distúrbios motores, como acalasia, que cursam com disfagia para sólidos e líquidos desde o início. Teste terapêutico é inadequado diante de sinal de alarme.",
-  "porAlt": [
-   "A manometria investiga distúrbio motor, que tem padrão de disfagia distinto do descrito no caso.",
-   "Teste terapêutico diante de sinal de alarme atrasa o diagnóstico de uma neoplasia potencialmente curável.",
-   "Correta: disfagia progressiva com perda de peso exige endoscopia com biópsias como exame inicial.",
-   "A radiografia contrastada pode sugerir a lesão, mas não permite biópsia nem exclui neoplasia.",
-   "A pHmetria avalia refluxo ácido e não tem papel na investigação inicial da disfagia progressiva."
-  ]
- },
- {
-  "q": "Mulher de 55 anos apresenta icterícia indolor, colúria, acolia fecal e vesícula palpável não dolorosa. Perdeu 10 kg em dois meses. Qual é a hipótese principal?",
-  "alts": [
-   "Coledocolitíase simples, que classicamente cursa com vesícula palpável e ausência total de dor.",
-   "Hepatite viral aguda, cuja apresentação típica inclui acolia fecal com vesícula palpável indolor.",
-   "Neoplasia periampular, sugerida pelo sinal de Courvoisier com icterícia indolor e perda de peso.",
-   "Cirrose hepática compensada, causa mais provável de icterícia obstrutiva nessa faixa etária.",
-   "Síndrome de Gilbert, que cursa com colúria, acolia e vesícula palpável em pacientes de meia-idade."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — icterícia obstrutiva e sinal de Courvoisier",
-  "coment": "O sinal de Courvoisier — vesícula palpável e indolor em paciente ictérico — sugere obstrução maligna da via biliar distal, tipicamente neoplasia de cabeça de pâncreas ou periampular, porque a obstrução se instala de forma progressiva e a vesícula se distende sem inflamação prévia. Na coledocolitíase, a vesícula costuma estar fibrosada por colecistite crônica e há dor. A investigação segue com tomografia ou ressonância com colangiografia e avaliação de ressecabilidade.",
-  "porAlt": [
-   "Na coledocolitíase há dor e a vesícula costuma estar fibrosada, não distendida e indolor.",
-   "A hepatite viral cursa com icterícia hepatocelular, sem vesícula palpável nem acolia persistente.",
-   "Correta: vesícula palpável indolor com icterícia e perda de peso sugere obstrução maligna periampular.",
-   "A cirrose compensada não cursa com icterícia obstrutiva nem com vesícula palpável indolor.",
-   "A síndrome de Gilbert cursa com hiperbilirrubinemia indireta leve, sem colúria, acolia ou perda de peso."
-  ]
- },
- {
-  "q": "Homem de 35 anos com doença de Crohn ileal em remissão pergunta sobre manutenção do tratamento. Já usou corticoide duas vezes no último ano para controlar surtos. Qual é a conduta?",
-  "alts": [
-   "Manter corticoide contínuo em dose baixa como terapia de manutenção de longo prazo na doença.",
-   "Não usar manutenção alguma e tratar apenas os surtos com corticoide quando eles ocorrerem agora.",
-   "Indicar ressecção cirúrgica do íleo de imediato, tratamento curativo da doença de Crohn ileal.",
-   "Introduzir terapia de manutenção poupadora de corticoide, evitando novos ciclos repetidos dele.",
-   "Prescrever apenas antiespasmódico de horário, suficiente para prevenir novos surtos da doença."
-  ],
-  "gab": 3,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "American College of Gastroenterology, 2018, e ECCO, 2020 — manejo da doença de Crohn",
-  "coment": "Corticoide não é terapia de manutenção na doença de Crohn: serve para induzir remissão e deve ser desmamado. Necessidade de dois ou mais ciclos por ano caracteriza dependência e indica introduzir terapia de manutenção poupadora — tiopurina, metotrexato ou biológico, conforme o perfil de risco. O corticoide crônico acumula osteoporose, diabetes, catarata, infecção e não previne recidiva. A cirurgia não cura a doença, que recidiva na anastomose.",
-  "porAlt": [
-   "Corticoide contínuo não mantém remissão e acumula osteoporose, diabetes, catarata e infecção.",
-   "Tratar apenas surtos perpetua a inflamação e o dano intestinal progressivo ao longo do tempo.",
-   "A cirurgia não cura a doença de Crohn, que recidiva na anastomose na maioria dos pacientes.",
-   "Correta: dois ciclos de corticoide no ano indicam terapia de manutenção poupadora de corticoide.",
-   "Antiespasmódico alivia cólica e não tem qualquer efeito sobre a inflamação transmural da doença."
-  ]
- },
- {
-  "q": "Mulher de 48 anos, obesa, tem transaminases discretamente elevadas e ultrassom com esteatose hepática. As sorologias virais são negativas e ela não usa álcool. Qual é a conduta inicial?",
-  "alts": [
-   "Solicitar biópsia hepática imediata em todos os pacientes com esteatose e transaminases alteradas.",
-   "Prescrever hepatoprotetor e reavaliar em um ano, sem qualquer estratificação de fibrose hepática.",
-   "Iniciar corticoide em dose imunossupressora, tratamento de escolha da esteatose metabólica.",
-   "Estratificar sempre a fibrose por métodos não invasivos e tratar peso, diabetes e risco agora.",
-   "Contraindicar qualquer atividade física, evitando a piora da lesão hepatocelular já instalada."
-  ],
-  "gab": 3,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "AASLD, 2023 — Practice Guidance on the clinical assessment and management of MASLD",
-  "coment": "Na doença hepática esteatótica associada à disfunção metabólica, o que define prognóstico é o grau de fibrose, e não o valor das transaminases. A conduta inicial é estratificar fibrose por métodos não invasivos, como escores baseados em exames laboratoriais e elastografia, e tratar de forma agressiva os determinantes metabólicos: perda de peso, controle de diabetes com fármacos de benefício hepático e cardiovascular, dislipidemia e pressão. A biópsia fica para casos duvidosos.",
-  "porAlt": [
-   "A biópsia não é necessária na maioria dos casos, pois métodos não invasivos estratificam bem a fibrose.",
-   "Hepatoprotetor sem estratificação nem tratamento metabólico não altera a história natural da doença.",
-   "O corticoide não trata esteatose metabólica e piora o controle glicêmico e o peso da paciente.",
-   "Correta: estratificar fibrose por métodos não invasivos e tratar os determinantes metabólicos é a conduta inicial.",
-   "A atividade física é parte central do tratamento e melhora a esteatose e a sensibilidade à insulina."
-  ]
- },
- {
-  "q": "Homem de 70 anos apresenta melena e hematêmese. Está com pressão de 96/58 mmHg e frequência de 118 bpm, sem hepatopatia conhecida. Além da ressuscitação, qual medida deve preceder a endoscopia?",
-  "alts": [
-   "Antibiótico profilático de amplo espectro, indicado em toda hemorragia digestiva alta do adulto.",
-   "Vasoconstritor esplâncnico em dose plena, indicado independentemente da causa do sangramento.",
-   "Inibidor de bomba de prótons endovenoso, iniciado antes da endoscopia digestiva alta agora.",
-   "Ácido tranexâmico em dose alta, medida que comprovadamente reduz a mortalidade nesse cenário.",
-   "Anticoagulação profilática plena, prevenindo trombose durante a internação por sangramento."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "European Society of Gastrointestinal Endoscopy, 2021 — nonvariceal upper gastrointestinal hemorrhage",
-  "coment": "Na hemorragia digestiva alta não varicosa, o inibidor de bomba de prótons endovenoso é iniciado antes da endoscopia: reduz achados de alto risco no exame e a necessidade de terapêutica endoscópica, ainda que não reduza isoladamente mortalidade ou ressangramento. Antibiótico profilático e vasoconstritor esplâncnico são indicados quando há cirrose ou suspeita de sangramento varicoso, o que não é o caso. O ácido tranexâmico não demonstrou benefício e associou-se a mais eventos trombóticos.",
-  "porAlt": [
-   "O antibiótico profilático é indicado em cirróticos que sangram, e não em toda hemorragia digestiva.",
-   "O vasoconstritor esplâncnico se aplica ao sangramento varicoso, com suspeita ou diagnóstico de cirrose.",
-   "Correta: o inibidor de bomba endovenoso antes da endoscopia reduz achados de alto risco no exame.",
-   "O ácido tranexâmico não reduziu mortalidade e associou-se a mais eventos trombóticos em ensaio grande.",
-   "Anticoagular profilaticamente durante sangramento ativo agrava a perda sanguínea do paciente."
-  ]
- },
- {
-  "q": "Mulher de 62 anos assintomática tem pesquisa de sangue oculto nas fezes positiva em rastreamento. Não há sintomas nem anemia. Qual é a conduta?",
-  "alts": [
-   "Repetir a pesquisa de sangue oculto em seis meses antes de indicar qualquer exame endoscópico.",
-   "Prescrever sulfato ferroso e reavaliar o hemograma, já sem investigar a origem do sangramento.",
-   "Colonoscopia diagnóstica, que é o exame indicado após sangue oculto positivo no rastreamento.",
-   "Solicitar apenas tomografia de abdome, exame que substitui a colonoscopia após teste positivo.",
-   "Tranquilizar a paciente, já que a ausência de sintomas exclui doença colorretal significativa."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Instituto Nacional de Câncer e US Preventive Services Task Force, 2021 — rastreamento de câncer colorretal",
-  "coment": "O rastreamento com pesquisa de sangue oculto nas fezes só faz sentido se o resultado positivo for seguido de colonoscopia diagnóstica — que localiza a lesão, permite biópsia e remove pólipos no mesmo procedimento. Repetir o teste ou tratar anemia empiricamente desperdiça o achado e atrasa o diagnóstico. A ausência de sintomas é esperada: o rastreamento existe justamente para detectar doença antes que ela se manifeste clinicamente.",
-  "porAlt": [
-   "Repetir o exame desperdiça um achado positivo e atrasa o diagnóstico de lesão potencialmente curável.",
-   "Repor ferro sem investigar mascara o sangramento e é um dos erros mais custosos da clínica.",
-   "Correta: sangue oculto positivo no rastreamento indica colonoscopia diagnóstica, que localiza e trata.",
-   "A tomografia não substitui a colonoscopia, que permite biópsia e polipectomia no mesmo tempo.",
-   "A ausência de sintomas é esperada no rastreamento e não exclui neoplasia colorretal inicial."
-  ]
- },
- {
-  "q": "Homem de 50 anos com pancreatite aguda biliar leve tem melhora clínica em 48 horas, com dieta oral bem tolerada. A ultrassonografia confirmou colelitíase. Qual é a conduta antes da alta?",
-  "alts": [
-   "Agendar a colecistectomia para daqui a seis meses, permitindo a resolução completa da inflamação.",
-   "Não indicar cirurgia alguma, uma vez que o episódio foi leve e houve boa resposta ao tratamento.",
-   "Colecistectomia na mesma internação, que reduz recorrência de pancreatite e complicações biliares.",
-   "Prescrever ácido ursodesoxicólico contínuo, que dissolve os cálculos e dispensa a cirurgia agora.",
-   "Indicar colangiopancreatografia endoscópica de rotina antes da alta, mesmo sem colangite associada."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "American College of Gastroenterology, 2024 — management of acute pancreatitis",
-  "coment": "Na pancreatite aguda biliar leve, a colecistectomia deve ser realizada na mesma internação, após a resolução do quadro: adiar a cirurgia expõe o paciente a risco elevado de recorrência de pancreatite, colecistite e coledocolitíase nas semanas seguintes. A colangiopancreatografia endoscópica não é rotina e fica reservada a colangite associada ou obstrução biliar persistente documentada. O ácido ursodesoxicólico não é alternativa à cirurgia nesse contexto.",
-  "porAlt": [
-   "Adiar seis meses expõe a recorrência de pancreatite, colecistite e coledocolitíase no intervalo.",
-   "Não operar mantém a causa do episódio, com risco alto de novo evento em poucas semanas.",
-   "Correta: na pancreatite biliar leve a colecistectomia é feita na mesma internação, reduzindo recorrência.",
-   "O ácido ursodesoxicólico não dissolve a maioria dos cálculos nem previne a recorrência do quadro.",
-   "A via endoscópica se reserva à colangite ou obstrução persistente, e não é rotina antes da alta."
-  ]
- },
- {
-  "q": "Mulher de 40 anos apresenta prurido, fadiga e fosfatase alcalina elevada com anticorpo antimitocôndria positivo. A bilirrubina está normal e não há uso de medicações hepatotóxicas. Qual é o diagnóstico e o tratamento?",
-  "alts": [
-   "Hepatite autoimune, já tratada com corticoide e azatioprina como terapia inicial de escolha aqui.",
-   "Colangite esclerosante primária, cujo marcador diagnóstico é o anticorpo antimitocôndria positivo.",
-   "Doença de Wilson, definida pela combinação de prurido com fosfatase alcalina elevada na mulher.",
-   "Hemocromatose hereditária, cujo diagnóstico é firmado pelo anticorpo antimitocôndria reagente.",
-   "Colangite biliar primária, tratada com ácido ursodesoxicólico como terapia de primeira linha."
+   "Sorologia IgG 4 semanas após o antibiótico",
+   "Teste respiratório hoje, mantendo o omeprazol",
+   "Nova endoscopia com biópsia para urease",
+   "Aguardar 6 meses e testar se houver sintomas",
+   "Teste respiratório 2 semanas sem omeprazol"
   ],
   "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "AASLD, 2018, e EASL, 2017 — Primary Biliary Cholangitis, diagnóstico e tratamento",
-  "coment": "Colestase crônica com fosfatase alcalina elevada e anticorpo antimitocôndria positivo, em mulher de meia-idade com prurido e fadiga, define colangite biliar primária. O tratamento de primeira linha é o ácido ursodesoxicólico, que melhora bioquímica e sobrevida livre de transplante; em resposta inadequada, acrescenta-se ácido obeticólico ou fibrato. O prurido é tratado com colestiramina e outras opções. O anticorpo antimitocôndria é bastante específico dessa doença.",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024; IV Consenso Brasileiro sobre Helicobacter pylori, 2018",
+  "coment": "A erradicação deve ser confirmada em todos os tratados, pelo menos 4 semanas depois do fim do antibiótico e após 2 semanas sem inibidor de bomba, com teste respiratório com ureia marcada, antígeno fecal ou, se houver indicação de endoscopia, biópsia. Sorologia não serve, porque os anticorpos persistem. Na úlcera duodenal não complicada não há necessidade de nova endoscopia; na gástrica, sim, pelo risco de neoplasia.",
   "porAlt": [
-   "A hepatite autoimune cursa com transaminases elevadas e outros autoanticorpos, não com esse padrão.",
-   "A colangite esclerosante tem padrão colangiográfico característico e não cursa com esse anticorpo.",
-   "A doença de Wilson cursa com achados neuropsiquiátricos e ceruloplasmina baixa, com outro perfil.",
-   "A hemocromatose é diagnosticada por saturação de transferrina e ferritina, não por autoanticorpo.",
-   "Correta: colestase com anticorpo antimitocôndria positivo é colangite biliar primária, tratada com ursodesoxicólico."
+   "Os anticorpos persistem por meses após a erradicação; sorologia não confirma cura.",
+   "O inibidor de bomba produz falso negativo no teste respiratório.",
+   "Úlcera duodenal não complicada não requer endoscopia de controle; o teste não invasivo basta.",
+   "A cura deve ser confirmada após todo tratamento, com ou sem sintomas.",
+   "Teste respiratório ou antígeno fecal, 4 semanas após o antibiótico e 2 semanas sem inibidor."
+  ]
+ },
+ {
+  "q": "Mulher de 28 anos tem há 14 meses dor abdominal em cólica 2 a 3 vezes por semana, que melhora ao evacuar, com fezes amolecidas e 3 a 4 evacuações por dia. Não há sangue nas fezes, perda de peso, febre, despertar noturno para evacuar nem uso recente de antibiótico. Sem história familiar de câncer colorretal ou doença inflamatória intestinal. Exame físico normal. Hemoglobina 12,9 g/dL e proteína C reativa 2 mg/L. Qual investigação é recomendada antes de firmar o diagnóstico?",
+  "alts": [
+   "Colonoscopia com biópsias seriadas do cólon",
+   "Teste respiratório para supercrescimento bacteriano",
+   "Sorologia para doença celíaca e calprotectina fecal",
+   "Tomografia de abdome com contraste",
+   "Endoscopia digestiva alta com biópsia gástrica"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome, 2021; Critérios de Roma IV, 2016",
+  "coment": "O quadro preenche os critérios de Roma IV para síndrome do intestino irritável com predomínio de diarreia. A diretriz do ACG (2021) recomenda estratégia de diagnóstico positivo, sem exames exaustivos, mas com sorologia para doença celíaca e calprotectina ou lactoferrina fecal na forma diarreica, que afastam doença celíaca e doença inflamatória intestinal. Colonoscopia fica para quem tem sinais de alarme ou idade de rastreamento.",
+  "porAlt": [
+   "Abaixo de 45 anos e sem sinais de alarme, colonoscopia de rotina não é recomendada.",
+   "A diretriz do ACG não recomenda teste respiratório de rotina na síndrome do intestino irritável.",
+   "Na forma diarreica, sorologia para celíaca e calprotectina ou lactoferrina fecal afastam as principais doenças orgânicas.",
+   "Imagem não acrescenta em quem preenche Roma IV sem sinais de alarme.",
+   "Não há sintoma dispéptico ou suspeita que justifique endoscopia alta."
+  ]
+ },
+ {
+  "q": "Homem de 38 anos tem há 3 anos disfagia para sólidos e líquidos desde o início, regurgitação noturna de alimento não digerido e perda de 6 kg. Endoscopia: esôfago discretamente dilatado com resíduo alimentar e transição esofagogástrica que cede à passagem do aparelho, sem lesão à retroflexão. Manometria de alta resolução: pressão de relaxamento integrada de 28 mmHg (normal abaixo de 15 mmHg), ausência de peristalse e pressurização panesofágica em 40% das deglutições. Qual é o diagnóstico e uma opção de tratamento adequada?",
+  "alts": [
+   "Espasmo esofágico distal; nitrato e antagonista de cálcio",
+   "Acalasia tipo II; miotomia endoscópica ou cirúrgica",
+   "Esôfago hipercontrátil; inibidor de bomba em dose dobrada",
+   "Esclerose sistêmica; procinético e inibidor de bomba",
+   "Obstrução funcional da junção; observação clínica"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Achalasia, 2020; Chicago Classification of Esophageal Motility Disorders v4.0, 2021",
+  "coment": "Pela classificação de Chicago 4.0, pressão de relaxamento integrada elevada com ausência de peristalse define acalasia; pressurização panesofágica em 20% ou mais das deglutições caracteriza o tipo II, o de melhor resposta a qualquer tratamento. Dilatação pneumática, miotomia de Heller laparoscópica com fundoplicatura e miotomia endoscópica peroral (POEM) têm eficácia semelhante nesse tipo. A endoscopia com retroflexão vem antes, para afastar pseudoacalasia por neoplasia da cárdia.",
+  "porAlt": [
+   "Espasmo distal tem contrações prematuras com relaxamento da junção preservado.",
+   "Relaxamento incompleto, aperistalse e pressurização panesofágica em 20% ou mais das deglutições: acalasia tipo II, que responde bem a miotomia ou dilatação.",
+   "Esôfago hipercontrátil tem contrações vigorosas, não ausência de peristalse.",
+   "Na esclerose sistêmica a junção fica hipotônica, e não com relaxamento incompleto.",
+   "Na obstrução funcional da junção a peristalse está preservada, o que não é o caso."
+  ]
+ },
+ {
+  "q": "Mulher de 64 anos tem icterícia indolor há 3 semanas, colúria, prurido e perda de 7 kg. Bilirrubina total 9,2 mg/dL, fosfatase alcalina 610 U/L, sem febre. A tomografia com protocolo de pâncreas mostra massa de 2,6 cm na cabeça do pâncreas, com dilatação do colédoco e do ducto pancreático, sem contato com artéria mesentérica superior, tronco celíaco ou veia porta, e sem metástases. Não há colangite. A duodenopancreatectomia está agendada para daqui a 10 dias. Qual é a conduta em relação à via biliar?",
+  "alts": [
+   "Prótese biliar por CPRE antes da cirurgia",
+   "Drenagem percutânea trans-hepática pré-operatória",
+   "Aguardar bilirrubina abaixo de 3 mg/dL para operar",
+   "Operar sem drenagem biliar pré-operatória",
+   "Colecistostomia percutânea para descompressão"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "NCCN Guidelines: Pancreatic Adenocarcinoma, 2024; van der Gaag et al., Preoperative biliary drainage for cancer of the head of the pancreas, NEJM, 2010",
+  "coment": "No tumor de cabeça de pâncreas ressecável com cirurgia prevista em poucas semanas, a drenagem biliar pré-operatória de rotina aumentou complicações graves (74% contra 39%) sem reduzir mortalidade no ensaio de van der Gaag (NEJM, 2010). Drenar fica indicado se houver colangite, prurido intratável, insuficiência renal, atraso da cirurgia ou plano de quimioterapia neoadjuvante, e então de preferência com prótese metálica por CPRE.",
+  "porAlt": [
+   "Drenagem pré-operatória de rotina aumentou complicações sem benefício no ensaio de van der Gaag (2010).",
+   "A via percutânea tem ainda mais complicações e não se justifica sem colangite.",
+   "Esperar a bilirrubina cair atrasa a ressecção de um tumor ressecável.",
+   "Tumor ressecável, sem colangite e com cirurgia próxima: operar sem drenagem.",
+   "Colecistostomia não descomprime adequadamente a via biliar e não tem indicação aqui."
+  ]
+ },
+ {
+  "q": "Homem de 35 anos com doença de Crohn ileocecal, sem fístulas, precisou de três cursos de prednisona no último ano e volta a ter 5 evacuações diárias e dor sempre que a dose cai abaixo de 15 mg/dia. Calprotectina fecal 780 µg/g; enterorressonância com inflamação em 15 cm do íleo terminal, sem estenose fixa. IGRA negativo, HBsAg e anti-HBc negativos, radiografia de tórax normal. Qual é a melhor estratégia de manutenção?",
+  "alts": [
+   "Infliximabe associado a azatioprina",
+   "Mesalazina oral 4 g/dia",
+   "Budesonida oral contínua",
+   "Metronidazol contínuo por 12 meses",
+   "Ciclosporina oral de manutenção"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ECCO Guidelines on Therapeutics in Crohn's Disease: Medical Treatment, 2020; ACG Clinical Guideline: Management of Crohn's Disease in Adults, 2018; Colombel et al., SONIC, NEJM, 2010",
+  "coment": "Dependência de corticoide com inflamação objetiva (calprotectina alta e atividade na enterorressonância) indica terapia avançada. No estudo SONIC, infliximabe com azatioprina produziu mais remissão sem corticoide que cada fármaco isolado, e a combinação também reduz a formação de anticorpos contra o infliximabe. O rastreio de tuberculose latente e hepatite B, já feito, é obrigatório antes do anti-TNF. Mesalazina não tem papel na manutenção da doença de Crohn.",
+  "porAlt": [
+   "Anti-TNF com tiopurina foi superior a cada um isolado na remissão sem corticoide (SONIC).",
+   "Mesalazina não tem eficácia na manutenção da doença de Crohn.",
+   "Budesonida não mantém remissão além de alguns meses e perpetua a dependência de corticoide.",
+   "Antibiótico contínuo não é tratamento de manutenção da doença luminal.",
+   "Ciclosporina não tem papel na doença de Crohn luminal."
+  ]
+ },
+ {
+  "q": "Mulher de 56 anos, com diabetes tipo 2 há 8 anos em uso de metformina, hipertensão e índice de massa corporal de 33 kg/m², tem ultrassonografia de abdome com esteatose hepática moderada e baço de tamanho normal. Consome menos de uma dose de álcool por semana. AST 48 U/L, ALT 52 U/L, gama-GT 70 U/L, plaquetas 180.000/mm³, albumina 4,1 g/dL, bilirrubina normal; sorologias para hepatites B e C negativas. O FIB-4 calculado é 2,1. Qual é o próximo passo na estratificação da fibrose?",
+  "alts": [
+   "Biópsia hepática para estadiar a fibrose",
+   "Repetir o FIB-4 em 2 a 3 anos",
+   "Elastografia hepática transitória",
+   "Ressonância com quantificação de gordura",
+   "Endoscopia para rastrear varizes"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AASLD Practice Guidance on the clinical assessment and management of MASLD, 2023; EASL-EASD-EASO Clinical Practice Guidelines on MASLD, 2024",
+  "coment": "Na doença hepática esteatótica associada a disfunção metabólica, o prognóstico depende da fibrose. A AASLD (2023) usa o FIB-4 como primeiro passo: abaixo de 1,3 o risco é baixo; entre 1,3 e 2,67 é indeterminado e exige um segundo teste, em geral elastografia transitória; acima de 2,67 o risco é alto e o paciente vai ao hepatologista. Rigidez hepática abaixo de 8 kPa afasta fibrose avançada com boa segurança.",
+  "porAlt": [
+   "Biópsia fica para resultados discordantes ou dúvida diagnóstica.",
+   "Repetir em 2 a 3 anos é a conduta para FIB-4 abaixo de 1,3.",
+   "FIB-4 entre 1,3 e 2,67 é indeterminado; o segundo passo é a elastografia.",
+   "Quantificar gordura não estima fibrose, que é o que define prognóstico.",
+   "Não há evidência de fibrose avançada que justifique rastreio de varizes."
+  ]
+ },
+ {
+  "q": "Homem de 70 anos, sem hepatopatia conhecida, chega com melena há 12 horas e um episódio de hematêmese. Usa naproxeno para dor lombar. Na admissão, pressão arterial 96/58 mmHg e frequência 118 bpm; após 1.000 mL de cristaloide, pressão 112/70 mmHg e frequência 96 bpm. Hemoglobina 8,1 g/dL, ureia 92 mg/dL, sem doença cardiovascular. Já recebe inibidor de bomba endovenoso. Qual é a conduta seguinte mais adequada?",
+  "alts": [
+   "Endoscopia em até 6 horas, pelo ganho de sobrevida",
+   "Endoscopia nas primeiras 24 horas",
+   "Transfundir para hemoglobina acima de 10 g/dL",
+   "Ácido tranexâmico endovenoso antes da endoscopia",
+   "Octreotida empírica até a endoscopia"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "ESGE Guideline: Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage, 2021; Lau et al., NEJM, 2020; HALT-IT, Lancet, 2020",
+  "coment": "Na hemorragia digestiva alta não varicosa, a ESGE recomenda ressuscitação, inibidor de bomba endovenoso em dose alta antes da endoscopia e endoscopia nas primeiras 24 horas. No ensaio de Lau (NEJM, 2020), a endoscopia em até 6 horas em pacientes de alto risco não reduziu mortalidade. A transfusão é restritiva: limiar de 7 g/dL sem doença cardiovascular e de 8 g/dL com ela. Ácido tranexâmico não tem indicação desde o HALT-IT (2020).",
+  "porAlt": [
+   "Endoscopia em até 6 horas não reduziu mortalidade em relação a 6 a 24 horas no ensaio de Lau (2020).",
+   "Após ressuscitação, a endoscopia deve ser feita nas primeiras 24 horas.",
+   "Sem doença cardiovascular, o limiar de transfusão é 7 g/dL, com alvo entre 7 e 9 g/dL.",
+   "Ácido tranexâmico não reduziu mortalidade e aumentou eventos trombóticos no HALT-IT.",
+   "Somatostatina e análogos são para suspeita de sangramento varicoso."
+  ]
+ },
+ {
+  "q": "Mulher de 62 anos, hipertensa e sem outras doenças, teve pesquisa imunoquímica de sangue oculto nas fezes positiva no rastreamento feito pela unidade básica. A colonoscopia seguinte foi completa até o ceco, com preparo adequado (escala de Boston 8), tempo de retirada de 9 minutos e endoscopista com taxa de detecção de adenomas de 32%, sem pólipos ou outras lesões. Ela não tem anemia, sintomas intestinais, perda de peso ou história familiar de câncer colorretal. Qual é o seguimento recomendado?",
+  "alts": [
+   "Repetir a pesquisa de sangue oculto anualmente",
+   "Nova colonoscopia em 3 anos",
+   "Colonografia por tomografia em 1 ano",
+   "Endoscopia alta e cápsula endoscópica",
+   "Retomar o rastreamento em 10 anos"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "US Multi-Society Task Force: Fecal Immunochemical Testing for Colorectal Cancer Screening, 2017; Colorectal Cancer Screening Recommendations, 2021",
+  "coment": "Teste imunoquímico positivo exige colonoscopia. Quando ela é completa, com bom preparo e tempo de retirada adequado, e não mostra lesões, a US Multi-Society Task Force recomenda retomar o rastreamento após 10 anos, sem repetir o teste imunoquímico no intervalo. Investigar trato digestivo alto ou delgado só se justifica com anemia ferropriva ou sintomas.",
+  "porAlt": [
+   "Após colonoscopia de alta qualidade normal, o teste anual não é retomado no intervalo.",
+   "Intervalo de 3 anos é para achados como adenoma avançado, ausentes aqui.",
+   "Colonoscopia normal e completa não exige imagem complementar.",
+   "Sem anemia ou sintomas, sangue oculto positivo não indica investigar trato alto ou delgado.",
+   "Colonoscopia de alta qualidade normal após teste imunoquímico positivo: novo rastreamento em 10 anos."
+  ]
+ },
+ {
+  "q": "Homem de 50 anos com pancreatite aguda biliar leve tinha na admissão bilirrubina total de 2,9 mg/dL, que caiu para 1,3 mg/dL no terceiro dia, com enzimas hepáticas também em queda. Está afebril, sem dor e tolerando dieta oral. Ultrassonografia com colelitíase e colédoco de 6 mm, sem cálculo visível. Não teve colangite. Não tem comorbidades que aumentem o risco cirúrgico. Qual é a conduta antes da alta?",
+  "alts": [
+   "CPRE antes da alta pela bilirrubina da admissão",
+   "Colecistectomia na mesma internação",
+   "Colecistectomia após 6 semanas",
+   "Ursodiol e cirurgia se houver recorrência",
+   "Esfincterotomia endoscópica profilática"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; da Costa et al., PONCHO, Lancet, 2015",
+  "coment": "No ensaio PONCHO (Lancet, 2015), a colecistectomia na mesma internação após pancreatite biliar leve reduziu readmissões por complicações biliares de 17% para 5%, sem aumentar a dificuldade cirúrgica. CPRE precoce só está indicada na colangite ou na obstrução biliar persistente; bilirrubina em queda sugere que o cálculo passou. Se restar suspeita de coledocolitíase, colangiorressonância, ecoendoscopia ou colangiografia intraoperatória esclarecem.",
+  "porAlt": [
+   "Sem colangite e com bilirrubina em queda, CPRE não é indicada; o cálculo provavelmente passou.",
+   "Pancreatite biliar leve: colecistectomia na mesma internação, avaliando a via biliar se houver suspeita de cálculo residual.",
+   "Adiar a cirurgia aumentou os eventos biliares no estudo PONCHO.",
+   "Ursodiol não previne recorrência de pancreatite biliar.",
+   "Esfincterotomia é alternativa apenas para quem não pode ser operado."
+  ]
+ },
+ {
+  "q": "Mulher de 49 anos tem prurido e fadiga há 8 meses. Fosfatase alcalina 390 U/L (limite superior de 120 U/L), gama-GT 280 U/L, ALT 54 U/L, bilirrubina total 0,8 mg/dL, albumina 4,1 g/dL, plaquetas 240.000/mm³. Anticorpo antimitocôndria reagente em título de 1:320. Ultrassonografia com vias biliares normais. Não usa medicamentos hepatotóxicos nem álcool. Qual é o diagnóstico e o tratamento?",
+  "alts": [
+   "Colangite esclerosante; colangiorressonância e ursodiol em dose alta",
+   "Hepatite autoimune; prednisona e azatioprina",
+   "Colangite biliar primária; ursodiol 13 a 15 mg/kg/dia",
+   "Colangite biliar primária; biópsia antes de tratar",
+   "Colestase por fármaco; suspender e observar"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "AASLD Practice Guidance: Primary Biliary Cholangitis, 2018, e atualização de 2021; EASL Clinical Practice Guidelines on Primary Biliary Cholangitis, 2017",
+  "coment": "Colangite biliar primária é diagnosticada com fosfatase alcalina elevada e anticorpo antimitocôndria positivo, sem necessidade de biópsia. O tratamento de primeira linha é ácido ursodesoxicólico 13 a 15 mg/kg/dia, com resposta avaliada em 6 a 12 meses pela fosfatase alcalina e pela bilirrubina. Resposta inadequada leva a terapia de segunda linha, com agonista de PPAR ou fibrato. Biópsia fica para antimitocôndria negativo ou suspeita de sobreposição com hepatite autoimune.",
+  "porAlt": [
+   "Antimitocôndria positivo com colestase define colangite biliar primária; ursodiol em dose alta é prejudicial na colangite esclerosante.",
+   "Transaminases pouco elevadas e perfil colestático não sugerem hepatite autoimune.",
+   "Fosfatase alcalina elevada com antimitocôndria positivo fecha o diagnóstico; ursodiol 13 a 15 mg/kg/dia.",
+   "Biópsia não é necessária com os dois critérios presentes; fica para antimitocôndria negativo ou sobreposição.",
+   "Não há uso de fármaco que explique o quadro."
   ]
  }
 ]

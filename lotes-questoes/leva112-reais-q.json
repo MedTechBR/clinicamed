@@ -13,7 +13,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "ESE/ENSAT Clinical Practice Guideline on the management of adrenal incidentalomas, 2023",
-  "coment": "Todo incidentaloma adrenal exige duas perguntas: é funcionante e é maligno? A densidade abaixo de 10 unidades Hounsfield sem contraste caracteriza adenoma rico em lipídios, de comportamento benigno. Já o cortisol de 2,5 µg/dL após 1 mg de dexametasona, com ACTH suprimido no limite inferior, define secreção autônoma de cortisol. Diante de comorbidades potencialmente atribuíveis ao excesso de cortisol — diabetes, hipertensão e fratura por fragilidade —, a diretriz recomenda considerar a adrenalectomia, que pode reverter parte desse dano metabólico e ósseo.",
+  "coment": "Todo incidentaloma adrenal exige duas perguntas: é funcionante e é maligno? A densidade abaixo de 10 unidades Hounsfield sem contraste caracteriza adenoma rico em lipídios, de comportamento benigno. Já o cortisol de 2,5 µg/dL após 1 mg de dexametasona, com ACTH suprimido no limite inferior, define secreção autônoma de cortisol. Diante de comorbidades potencialmente atribuíveis ao excesso de cortisol (diabetes, hipertensão e fratura por fragilidade), a diretriz recomenda considerar a adrenalectomia, que pode reverter parte desse dano metabólico e ósseo.",
   "porAlt": [
    "Correta: adrenalectomia, indicada pela secreção autônoma de cortisol com comorbidades atribuíveis.",
    "A densidade abaixo de 10 unidades Hounsfield já caracteriza adenoma, dispensando estadiamento oncológico.",
@@ -39,7 +39,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "WAO/EAACI Anaphylaxis Guidance, 2020; ASCIA/consensos sobre triptase sérica na anafilaxia",
-  "coment": "O diagnóstico de anafilaxia é clínico e o tratamento — adrenalina intramuscular na face lateral da coxa — não espera exame algum. Quando se busca confirmação laboratorial retrospectiva, o exame é a triptase sérica, que se eleva a partir de 30 minutos, atinge pico entre 1 e 2 horas e deve ser comparada a uma dosagem basal colhida 24 horas ou mais depois. A IgE específica identifica o alérgeno em investigação posterior, mas não confirma o episódio agudo, e a histamina tem meia-vida curta demais para uso prático.",
+  "coment": "O diagnóstico de anafilaxia é clínico e o tratamento, adrenalina intramuscular na face lateral da coxa, não espera exame algum. Quando se busca confirmação laboratorial retrospectiva, o exame é a triptase sérica, que se eleva a partir de 30 minutos, atinge pico entre 1 e 2 horas e deve ser comparada a uma dosagem basal colhida 24 horas ou mais depois. A IgE específica identifica o alérgeno em investigação posterior, mas não confirma o episódio agudo, e a histamina tem meia-vida curta demais para uso prático.",
   "porAlt": [
    "Cortisol não tem papel diagnóstico na anafilaxia.",
    "A IgE específica identifica sensibilização ao alérgeno, mas não confirma o evento agudo.",
@@ -65,7 +65,7 @@
   "comp": "urg",
   "nivel": "r3",
   "base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019; ensaio WAKE-UP, 2018",
-  "coment": "No acidente vascular cerebral do despertar, o horário de início é desconhecido e o critério de tempo não pode ser aplicado. A estratégia validada é a seleção por imagem: a incompatibilidade entre difusão e FLAIR na ressonância — lesão visível na difusão sem correspondente no FLAIR — indica evento com menos de 4,5 horas e autoriza a trombólise, como demonstrou o ensaio WAKE-UP. A trombectomia mecânica exigiria oclusão de grande vaso, que a angiotomografia não demonstrou neste caso.",
+  "coment": "No acidente vascular cerebral do despertar, o horário de início é desconhecido e o critério de tempo não pode ser aplicado. A estratégia validada é a seleção por imagem: a incompatibilidade entre difusão e FLAIR na ressonância, lesão visível na difusão sem correspondente no FLAIR, indica evento com menos de 4,5 horas e autoriza a trombólise, como demonstrou o ensaio WAKE-UP. A trombectomia mecânica exigiria oclusão de grande vaso, que a angiotomografia não demonstrou neste caso.",
   "porAlt": [
    "Correta: incompatibilidade difusão-FLAIR selecionando o paciente para trombólise química.",
    "A incompatibilidade clínico-radiológica orienta trombectomia em janelas estendidas, com oclusão de grande vaso.",
@@ -91,7 +91,7 @@
   "comp": "dx",
   "nivel": "r3",
   "base": "KDIGO Clinical Practice Guideline for Acute Kidney Injury, 2012; KDIGO 2021 Glomerular Diseases guideline (nefrite intersticial)",
-  "coment": "Lesão renal aguda progressiva em paciente que vinha usando anti-inflamatório não esteroide, sem sinais de obstrução nem de hipovolemia, sugere nefrite intersticial aguda medicamentosa — a tríade clássica de febre, rash e eosinofilia é pouco frequente, e a eosinofilúria tem baixa acurácia. A confirmação, quando a suspensão do fármaco não reverte o quadro e a creatinina continua subindo, é a biópsia renal, seguida de corticoide, que acelera a recuperação da função renal quando iniciado precocemente.",
+  "coment": "Lesão renal aguda progressiva em paciente que vinha usando anti-inflamatório não esteroide, sem sinais de obstrução nem de hipovolemia, sugere nefrite intersticial aguda medicamentosa. A tríade clássica de febre, rash e eosinofilia é pouco frequente, e a eosinofilúria tem baixa acurácia. A confirmação, quando a suspensão do fármaco não reverte o quadro e a creatinina continua subindo, é a biópsia renal, seguida de corticoide, que acelera a recuperação da função renal quando iniciado precocemente.",
   "porAlt": [
    "Correta: biópsia renal para confirmar nefrite intersticial e corticoide em dose imunossupressora.",
    "Hemoglobina glicada e insulina não explicam nem tratam a lesão renal aguda em curso.",
@@ -169,7 +169,7 @@
   "comp": "tto",
   "nivel": "r2",
   "base": "AASM Clinical Practice Guideline for the Treatment of Obstructive Sleep Apnea with Positive Airway Pressure, 2019; AASM guideline for the behavioral treatment of chronic insomnia, 2021",
-  "coment": "A paciente tem duas condições sobrepostas: apneia obstrutiva do sono grave, com índice de apneia e hipopneia de 45 eventos por hora, e insônia crônica — combinação conhecida como insônia comórbida à apneia, frequente e frequentemente subtratada. O tratamento adequado trata as duas: CPAP para a apneia e terapia cognitivo-comportamental para insônia, que é a primeira linha e supera o hipnótico em manutenção do efeito. Hipnóticos em apneia não tratada podem prolongar eventos respiratórios e agravar a dessaturação.",
+  "coment": "A paciente tem duas condições sobrepostas: apneia obstrutiva do sono grave, com índice de apneia e hipopneia de 45 eventos por hora, e insônia crônica. Combinação conhecida como insônia comórbida à apneia, frequente e frequentemente subtratada. O tratamento adequado trata as duas: CPAP para a apneia e terapia cognitivo-comportamental para insônia, que é a primeira linha e supera o hipnótico em manutenção do efeito. Hipnóticos em apneia não tratada podem prolongar eventos respiratórios e agravar a dessaturação.",
   "porAlt": [
    "Hipnótico não é primeira linha para insônia crônica e é problemático em apneia.",
    "Correta: CPAP para a apneia associado a terapia cognitivo-comportamental para a insônia.",
@@ -194,8 +194,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Lei nº 8.080/1990 e Lei nº 8.142/1990 — leis orgânicas da saúde; Decreto nº 7.508/2011",
-  "coment": "A Lei nº 8.142/1990 condiciona o repasse regular e automático de recursos federais do Sistema Único de Saúde à existência, em cada ente, de fundo de saúde, conselho de saúde com composição paritária entre usuários e demais segmentos, plano de saúde, relatório de gestão, contrapartida orçamentária e comissão de elaboração do plano de carreira, cargos e salários. Entre as alternativas, a que reúne dois desses requisitos essenciais é fundo de saúde somado a conselho paritário — o fundo garante a vinculação contábil do recurso e o conselho, o controle social.",
+  "base": "Lei nº 8.080/1990 e Lei nº 8.142/1990, leis orgânicas da saúde; Decreto nº 7.508/2011",
+  "coment": "A Lei nº 8.142/1990 condiciona o repasse regular e automático de recursos federais do Sistema Único de Saúde à existência, em cada ente, de fundo de saúde, conselho de saúde com composição paritária entre usuários e demais segmentos, plano de saúde, relatório de gestão, contrapartida orçamentária e comissão de elaboração do plano de carreira, cargos e salários. Entre as alternativas, a que reúne dois desses requisitos essenciais é fundo de saúde somado a conselho paritário. O fundo garante a vinculação contábil do recurso e o conselho, o controle social.",
   "porAlt": [
    "A comissão de plano de carreira é requisito, mas prontuário eletrônico não é condição para repasse.",
    "Plano diretor de regionalização é instrumento de organização regional, não requisito de repasse.",
@@ -208,7 +208,7 @@
   }
  },
  {
-  "q": "Uma associação de pacientes ostomizados de um município pressiona os gestores de saúde para a disponibilização — ou para o financiamento — de bolsas e de capacitação em cuidados com ostomias na atenção primária de saúde. Diante disso, uma médica de uma unidade básica de saúde decide levar a proposta para a reunião do conselho municipal de saúde (CMS). Nesse caso, no que diz respeito ao funcionamento desse conselho, é correto afirmar que",
+  "q": "Uma associação de pacientes ostomizados de um município pressiona os gestores de saúde para a disponibilização, ou para o financiamento, de bolsas e de capacitação em cuidados com ostomias na atenção primária de saúde. Diante disso, uma médica de uma unidade básica de saúde decide levar a proposta para a reunião do conselho municipal de saúde (CMS). Nesse caso, no que diz respeito ao funcionamento desse conselho, é correto afirmar que",
   "alts": [
    "a discussão a respeito dessa proposta deve ser feita na secretaria de saúde municipal, uma vez que a prerrogativa de proposição de novos serviços é do poder executivo",
    "a participação da associação é vedada nas reuniões, considerando-se que os participantes dos conselhos são trabalhadores e gestores da área da saúde",
@@ -221,7 +221,7 @@
   "comp": "prev",
   "nivel": "r2",
   "base": "Lei nº 8.142/1990; Resolução CNS nº 453/2012 sobre organização dos conselhos de saúde",
-  "coment": "O conselho de saúde é órgão colegiado permanente e deliberativo, com composição paritária — metade de usuários e metade dividida entre trabalhadores, gestores e prestadores — e competência para formular estratégias e controlar a execução da política de saúde, inclusive nos aspectos econômicos e financeiros. Associações de usuários podem propor pautas e participar. Aprovada a proposta no conselho, cabe à secretaria de saúde viabilizar a execução, incorporando-a ao planejamento e ao orçamento.",
+  "coment": "O conselho de saúde é órgão colegiado permanente e deliberativo, com composição paritária (metade de usuários e metade dividida entre trabalhadores, gestores e prestadores) e competência para formular estratégias e controlar a execução da política de saúde, inclusive nos aspectos econômicos e financeiros. Associações de usuários podem propor pautas e participar. Aprovada a proposta no conselho, cabe à secretaria de saúde viabilizar a execução, incorporando-a ao planejamento e ao orçamento.",
   "porAlt": [
    "A proposição não é prerrogativa exclusiva da secretaria: o conselho é espaço deliberativo com participação dos usuários.",
    "A participação de usuários é justamente a base da composição paritária do conselho.",
@@ -247,7 +247,7 @@
   "comp": "tto",
   "nivel": "r2",
   "base": "EULAR revised recommendations for the management of fibromyalgia, 2017; American College of Physicians, manejo da dor crônica musculoesquelética",
-  "coment": "Dor musculoesquelética difusa há seis meses, com provas inflamatórias normais, resposta apenas parcial a analgésico e contexto de luto recente, corresponde a dor crônica de mecanismo nociplástico, do espectro da fibromialgia. Entre as opções, a amitriptilina em dose baixa à noite é a que tem evidência nesse cenário: atua sobre dor e sono, os dois sintomas centrais. O tratamento, porém, não se resume ao fármaco — exercício progressivo, educação em dor e abordagem do sofrimento psíquico são o núcleo da conduta.",
+  "coment": "Dor musculoesquelética difusa há seis meses, com provas inflamatórias normais, resposta apenas parcial a analgésico e contexto de luto recente, corresponde a dor crônica de mecanismo nociplástico, do espectro da fibromialgia. Entre as opções, a amitriptilina em dose baixa à noite é a que tem evidência nesse cenário: atua sobre dor e sono, os dois sintomas centrais. O tratamento, porém, não se resume ao fármaco. Exercício progressivo, educação em dor e abordagem do sofrimento psíquico são o núcleo da conduta.",
   "porAlt": [
    "Correta: amitriptilina em dose baixa à noite, que atua sobre dor e sono.",
    "A fluoxetina não é a primeira escolha para dor com insônia proeminente.",
@@ -273,7 +273,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022",
-  "coment": "Esofagite erosiva grau C ou D de Los Angeles é doença de refluxo grave, com alta taxa de recidiva e risco de complicações — estenose, sangramento e esôfago de Barrett. Nessas classes, o inibidor de bomba de prótons é mantido em dose de manutenção de forma continuada, e não sob demanda, e recomenda-se endoscopia de controle após oito semanas de tratamento para documentar a cicatrização e pesquisar Barrett subjacente, que só se torna visível depois que a inflamação regride.",
+  "coment": "Esofagite erosiva grau C ou D de Los Angeles é doença de refluxo grave, com alta taxa de recidiva e risco de complicações. Estenose, sangramento e esôfago de Barrett. Nessas classes, o inibidor de bomba de prótons é mantido em dose de manutenção de forma continuada, e não sob demanda, e recomenda-se endoscopia de controle após oito semanas de tratamento para documentar a cicatrização e pesquisar Barrett subjacente, que só se torna visível depois que a inflamação regride.",
   "porAlt": [
    "Suspender o inibidor de bomba em esofagite grave leva a recidiva e complicações.",
    "Bloqueador H2 é menos eficaz e não substitui o inibidor de bomba nessa gravidade.",

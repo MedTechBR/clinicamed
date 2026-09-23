@@ -1,98 +1,98 @@
 [
  {
-  "q": "Homem de 45 anos, etilista, chega com dor epigástrica intensa irradiada para o dorso, vômitos e amilase cinco vezes acima do normal. Está com frequência de 104 bpm e pressão de 116/72 mmHg. Qual é a conduta inicial mais importante nas primeiras 24 horas?",
+  "q": "Homem de 45 anos, etilista, chega com dor epigástrica em faixa há 10 horas, vômitos e lipase de 1.900 U/L (referência até 60 U/L). Frequência cardíaca 104 bpm, pressão arterial 116/72 mmHg, saturação 97% em ar ambiente. Hematócrito 46%, ureia 48 mg/dL, creatinina 1,1 mg/dL. Ultrassonografia sem cálculos biliares. Não há sinais de sobrecarga de volume nem cardiopatia conhecida. Qual esquema de hidratação é o recomendado?",
   "alts": [
-   "Jejum absoluto prolongado por sete dias, com nutrição parenteral total desde a admissão hospitalar.",
-   "Antibiótico profilático de amplo espectro para todos, prevenindo a necrose pancreática infectada.",
-   "Tomografia de abdome imediata na admissão, exame que define a conduta das primeiras horas do caso.",
-   "Colangiopancreatografia endoscópica de urgência em todos os casos de pancreatite aguda instalada.",
-   "Hidratação venosa precoce com cristaloide balanceado, analgesia e dieta oral precoce em todos."
+   "Ringer lactato 20 mL/kg em bolus e 3 mL/kg/h por 48 h",
+   "Soro fisiológico a 250 mL/h fixos por 72 horas",
+   "Ringer lactato 10 mL/kg e 1,5 mL/kg/h, reavaliando",
+   "Hidroxietilamido para reduzir o volume infundido",
+   "Hidratação restrita até a tomografia afastar necrose"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American College of Gastroenterology, 2024 — Guidelines: Management of Acute Pancreatitis",
-  "coment": "As primeiras 24 horas definem o desfecho da pancreatite aguda, e a intervenção com maior impacto é a hidratação venosa precoce com cristaloide balanceado, em ritmo moderado e guiada por resposta, junto de analgesia eficaz. A nutrição enteral ou a dieta oral precoce, quando tolerada, é preferível ao jejum prolongado, que se associa a atrofia de mucosa e translocação bacteriana. Antibiótico profilático não é recomendado na pancreatite sem infecção documentada. A tomografia é mais útil após 72 horas para avaliar necrose, e a via endoscópica se reserva à colangite ou obstrução biliar persistente.",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; de-Madaria et al., WATERFALL, NEJM, 2022",
+  "coment": "O estudo WATERFALL (NEJM, 2022) comparou hidratação agressiva (20 mL/kg em bolus e 3 mL/kg/h) com moderada (10 mL/kg em bolus apenas se hipovolêmico e 1,5 mL/kg/h) e foi interrompido por mais sobrecarga de volume no braço agressivo, sem melhora de desfecho. A diretriz do ACG de 2024 passou a recomendar hidratação moderada, com Ringer lactato e reavaliação frequente. Analgesia adequada e dieta oral precoce assim que tolerada completam o manejo inicial.",
   "porAlt": [
-   "Jejum prolongado com nutrição parenteral foi abandonado: piora a barreira intestinal e não melhora o curso da doença.",
-   "A profilaxia antibiótica não reduz necrose infectada nem mortalidade, e seleciona germes resistentes sem benefício.",
-   "A tomografia precoce subestima a necrose, que leva dias para se delimitar, e não muda a conduta das primeiras horas.",
-   "A via endoscópica de urgência se reserva à colangite associada ou à obstrução biliar persistente, não a todos os casos.",
-   "Correta: hidratação precoce com cristaloide balanceado, analgesia e dieta oral precoce compõem o cuidado inicial que muda o desfecho."
+   "É o esquema agressivo do WATERFALL: mais sobrecarga de volume sem benefício clínico.",
+   "Volume fixo dispensa a reavaliação, e o soro fisiológico em grande volume causa acidose hiperclorêmica.",
+   "Hidratação moderada com cristaloide balanceado e reavaliação frequente, como no WATERFALL.",
+   "Hidroxietilamido aumenta lesão renal e não é indicado.",
+   "A tomografia não é necessária no primeiro dia e não deve atrasar a hidratação."
   ]
  },
  {
-  "q": "Mulher de 31 anos tem diarreia crônica com sangue, dor abdominal e perda de 6 kg em quatro meses. A colonoscopia mostra acometimento contínuo desde o reto até o cólon descendente, com friabilidade e úlceras superficiais. A biópsia confirma inflamação limitada à mucosa. Qual é o diagnóstico?",
+  "q": "Mulher de 64 anos tem há 5 meses diarreia aquosa, sem sangue, com 6 a 8 evacuações por dia, inclusive à noite, e perda de 3 kg. Usa omeprazol 20 mg/dia há 2 anos, sertralina 50 mg/dia e naproxeno eventual. Tem hipotireoidismo autoimune. Antitransglutaminase IgA negativa com IgA total normal, calprotectina fecal de 90 µg/g, TSH normal. Colonoscopia macroscopicamente normal; biópsias seriadas do cólon mostram banda de colágeno subepitelial de 18 µm e aumento de linfócitos na lâmina própria. Qual é a conduta?",
   "alts": [
-   "Doença de Crohn, sustentada pelo padrão contínuo e pela ausência de acometimento transmural aqui.",
-   "Colite infecciosa aguda, hipótese preferida diante de quatro meses de sintomas e perda ponderal.",
-   "Síndrome do intestino irritável, cujo diagnóstico é compatível com sangramento e emagrecimento.",
-   "Colite isquêmica crônica, achado esperado em mulheres jovens sem qualquer fator de risco vascular.",
-   "Retocolite ulcerativa, pelo acometimento contínuo desde o reto com inflamação restrita à mucosa."
+   "Mesalazina oral 3 g/dia",
+   "Budesonida oral 9 mg/dia e revisão dos fármacos",
+   "Prednisona 40 mg/dia por 8 semanas",
+   "Loperamida contínua como tratamento principal",
+   "Metronidazol por 14 dias"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AGA Institute Guideline on the Medical Management of Microscopic Colitis, 2016; European Guidelines on microscopic colitis (UEG and EMCG), 2021",
+  "coment": "Diarreia aquosa crônica com colonoscopia normal e banda de colágeno subepitelial acima de 10 µm nas biópsias define colite colagenosa, uma forma de colite microscópica, mais comum em mulheres acima de 50 anos, com doença autoimune e em uso de inibidor de bomba, inibidor seletivo de recaptação de serotonina ou anti-inflamatório. A AGA (2016) e a European Microscopic Colitis Group (2021) recomendam budesonida oral 9 mg/dia para indução e revisão dos fármacos associados. Mesalazina e prednisona são menos eficazes.",
+  "porAlt": [
+   "Mesalazina foi inferior à budesonida e não é recomendada na colite microscópica.",
+   "Budesonida induz remissão em cerca de 80% dos casos; suspender ou trocar omeprazol, sertralina e naproxeno quando possível.",
+   "Corticoide sistêmico tem mais efeitos adversos e resposta inferior à da budesonida.",
+   "Loperamida alivia sintomas leves, mas não trata a inflamação de um quadro com 6 a 8 evacuações.",
+   "Não há evidência de causa infecciosa, e antibiótico não trata colite microscópica."
+  ]
+ },
+ {
+  "q": "Mulher de 44 anos tem pirose e regurgitação há 2 anos. Usa omeprazol 20 mg duas vezes ao dia, 30 minutos antes do café e do jantar, há 10 semanas, com melhora de apenas 30%. Não tem disfagia, perda de peso, anemia ou vômitos. Endoscopia recente sem esofagite, sem hérnia hiatal e sem esôfago de Barrett, com biópsias esofágicas normais. Não há exame funcional prévio. Qual é o próximo passo?",
+  "alts": [
+   "Fundoplicatura laparoscópica pela refratariedade",
+   "Trocar para outro inibidor em dose dobrada",
+   "Manometria esofágica para confirmar refluxo",
+   "Baclofeno associado ao omeprazol",
+   "pHmetria prolongada com o inibidor suspenso"
   ],
   "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r2",
-  "base": "American College of Gastroenterology, 2019 — Ulcerative Colitis in Adults; Cecil Medicina, 26ª edição, 2022",
-  "coment": "A retocolite ulcerativa acomete o reto e se estende de forma contínua e proximal, com inflamação restrita à mucosa e submucosa — exatamente o descrito. A doença de Crohn tem acometimento descontínuo, com lesões salteadas, poupa frequentemente o reto, é transmural e pode acometer qualquer segmento do tubo digestivo, com fístulas e doença perianal. Colite infecciosa não se arrasta por meses com perda ponderal progressiva. Sangramento e emagrecimento são bandeiras vermelhas que afastam o diagnóstico de síndrome do intestino irritável, que é de exclusão e não cursa com esses achados.",
-  "porAlt": [
-   "A doença de Crohn tem padrão salteado e inflamação transmural, o oposto do que a colonoscopia e a biópsia mostraram.",
-   "Colite infecciosa é aguda e autolimitada; quatro meses de sintomas com perda ponderal apontam doença inflamatória.",
-   "Sangramento e emagrecimento são bandeiras vermelhas que excluem o diagnóstico de síndrome do intestino irritável.",
-   "Colite isquêmica ocorre em idosos com doença vascular, tipicamente no cólon esquerdo e de forma aguda, não crônica.",
-   "Correta: acometimento contínuo a partir do reto com inflamação limitada à mucosa caracteriza retocolite ulcerativa."
-  ]
- },
- {
-  "q": "Homem de 58 anos tem pirose três vezes por semana há seis meses, com regurgitação. Refere ainda disfagia progressiva para sólidos e perda de 5 kg no período. Qual é a conduta correta?",
-  "alts": [
-   "Iniciar inibidor de bomba por oito semanas e reavaliar, sem nenhum exame já neste primeiro momento.",
-   "Prescrever apenas medidas comportamentais, adiando exame e medicação por seis meses de observação.",
-   "Solicitar endoscopia digestiva alta: todo sinal de alarme junto de refluxo obriga a ver o esôfago.",
-   "Solicitar pHmetria esofágica como primeiro exame, mesmo diante de disfagia e perda de peso presentes.",
-   "Tratar empiricamente para infecção por Helicobacter pylori, sem qualquer investigação prévia do caso."
-  ],
-  "gab": 2,
-  "tema": "gastro",
-  "cenario": "amb",
-  "comp": "dx",
   "nivel": "r1",
-  "base": "American College of Gastroenterology, 2022 — Diagnosis and Management of Gastroesophageal Reflux Disease",
-  "coment": "Disfagia progressiva e perda de peso são sinais de alarme e mudam a conduta: o paciente com sintomas de refluxo e qualquer bandeira vermelha — disfagia, odinofagia, emagrecimento, anemia, sangramento, vômitos persistentes, história familiar de neoplasia — deve fazer endoscopia digestiva alta antes de tratamento empírico, para afastar esofagite grave, estenose, esôfago de Barrett e neoplasia. Na ausência de sinais de alarme, o teste terapêutico com inibidor de bomba por oito semanas é aceitável como estratégia inicial, com pHmetria reservada a casos duvidosos ou refratários.",
+  "base": "ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, 2022; Lyon Consensus 2.0, 2024",
+  "coment": "Sintomas típicos que não respondem a 8 semanas de inibidor em dose dobrada, com endoscopia sem esofagite LA grau B ou mais grave, Barrett ou estenose péptica, deixam o diagnóstico de doença do refluxo sem confirmação. A diretriz do ACG (2022) recomenda monitorização prolongada do pH esofágico sem o inibidor antes de escalar o tratamento. Se o refluxo já tivesse sido comprovado, o exame seria feito em uso do inibidor, com impedância. Parte desses pacientes tem pirose funcional ou hipersensibilidade ao refluxo.",
   "porAlt": [
-   "O teste terapêutico é aceitável só na ausência de sinais de alarme, que aqui estão presentes e mudam a conduta.",
-   "Adiar por seis meses um paciente com disfagia e emagrecimento pode atrasar o diagnóstico de neoplasia esofágica.",
-   "Correta: disfagia progressiva e perda de peso são sinais de alarme e indicam endoscopia antes do tratamento empírico.",
-   "A pHmetria não é o primeiro exame e não afasta lesão estrutural, que é justamente a preocupação neste caso.",
-   "Tratar Helicobacter sem investigar não responde à disfagia nem à perda ponderal, que exigem visualização direta."
+   "Cirurgia sem prova objetiva de refluxo tem alto risco de falha; muitos refratários têm pirose funcional.",
+   "Trocar de inibidor sem confirmar o diagnóstico prolonga um tratamento possivelmente inútil.",
+   "Manometria avalia motilidade e orienta a posição do cateter, mas não diagnostica refluxo.",
+   "Baclofeno tem papel limitado e só depois de refluxo comprovado.",
+   "Sem esofagite ou Barrett, o refluxo deve ser comprovado por monitorização de pH fora do inibidor, idealmente por 96 horas com cápsula."
   ]
  },
  {
-  "q": "Mulher de 55 anos, assintomática, sem história familiar de câncer colorretal e sem doença inflamatória intestinal, pergunta sobre rastreamento de câncer de intestino. Qual é a orientação correta segundo as diretrizes brasileiras vigentes?",
+  "q": "Mulher de 38 anos, assintomática, procura a unidade básica pedindo orientação sobre câncer colorretal. O pai teve adenocarcinoma de cólon sigmoide diagnosticado aos 52 anos e está vivo; a mãe e os dois irmãos não tiveram câncer, e não há casos de câncer de endométrio, ovário ou estômago na família, nem critérios clínicos para síndrome hereditária. Ela não fez exame do intestino até hoje, tem hábito intestinal normal e não usa medicações. Hemograma normal. Qual é a recomendação de rastreamento?",
   "alts": [
-   "Não há indicação de rastrear, pois sem história familiar o risco de câncer colorretal é desprezível.",
-   "O rastreamento começa apenas aos setenta anos de idade para pessoas de risco habitual como ela.",
-   "A colonoscopia deve ser repetida anualmente em todos os adultos, seja qual for o resultado já obtido.",
-   "Está na faixa de rastreamento, feito sempre por colonoscopia ou por pesquisa de sangue oculto.",
-   "Somente a tomografia de abdome é aceita como método de rastreamento de câncer colorretal no país."
+   "Colonoscopia aos 45 anos, a cada 10 anos",
+   "Colonoscopia aos 40 anos, a cada 5 anos",
+   "Sangue oculto anual a partir dos 50 anos",
+   "Colonoscopia aos 42 anos, a cada 10 anos",
+   "Teste genético antes de indicar colonoscopia"
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Instituto Nacional de Câncer e Sociedade Brasileira de Coloproctologia, 2024 — rastreamento de câncer colorretal",
-  "coment": "O rastreamento de câncer colorretal em risco habitual começa na faixa dos 45 a 50 anos e vai até cerca dos 75, com duas estratégias principais: pesquisa de sangue oculto nas fezes por método imunoquímico, anual ou bienal, com colonoscopia se positivo; ou colonoscopia como exame primário, repetida a cada dez anos quando normal. A maioria dos casos ocorre em pessoas sem história familiar, de modo que a ausência de parente afetado não dispensa o rastreamento. Colonoscopia anual só se justifica em situações específicas, como polipose ou síndromes hereditárias.",
+  "base": "US Multi-Society Task Force on Colorectal Cancer: Recommendations for Physicians and Patients, 2017, e atualização de 2021",
+  "coment": "Um parente de primeiro grau com câncer colorretal ou adenoma avançado diagnosticado antes dos 60 anos coloca o paciente em risco aumentado. A US Multi-Society Task Force recomenda colonoscopia a partir dos 40 anos ou 10 anos antes da idade do diagnóstico do parente mais jovem, o que ocorrer primeiro, repetida a cada 5 anos. Aqui, 40 anos vem antes de 42.",
   "porAlt": [
-   "A maior parte dos casos de câncer colorretal ocorre sem história familiar, de modo que a ausência dela não dispensa rastrear.",
-   "Começar aos setenta perde décadas de detecção precoce, justamente quando a remoção de pólipos previne o câncer.",
-   "Colonoscopia anual não é recomendada em risco habitual: o intervalo é de dez anos quando o exame é normal.",
-   "Correta: ela está na faixa de rastreamento de risco habitual, que admite sangue oculto imunoquímico ou colonoscopia.",
-   "A tomografia não é método de rastreamento de rotina; a colonografia tem indicações restritas e não substitui os métodos padrão."
+   "É a regra do risco habitual; parente de primeiro grau com câncer antes dos 60 anos aumenta o risco.",
+   "Início aos 40 anos ou 10 anos antes do caso mais jovem, o que vier primeiro, repetida a cada 5 anos.",
+   "Pesquisa de sangue oculto não é o método preferido nesse grupo de risco aumentado.",
+   "Aos 42 seria 10 anos antes do caso, mas 40 vem antes; e o intervalo é de 5 anos.",
+   "Sem critérios para síndrome hereditária, o teste genético não é pré-requisito do rastreamento."
   ]
  }
 ]

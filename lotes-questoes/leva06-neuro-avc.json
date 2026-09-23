@@ -2,18 +2,18 @@
  {
   "q": "Mulher de 66 anos chega à emergência 2 horas após início de hemiparesia direita e afasia. A tomografia de crânio não mostra hemorragia nem sinais precoces extensos, a glicemia é de 118 mg/dL e a pressão arterial é de 168/92 mmHg. O serviço dispõe de alteplase e de tenecteplase. Segundo a diretriz vigente de AVC isquêmico agudo, qual conduta é correta?",
   "alts": [
-   "Usar somente alteplase, porque a tenecteplase só é liberada em protocolos experimentais de pesquisa.",
-   "Adiar a trombólise até a angiotomografia, exame obrigatório antes de qualquer decisão de trombolisar.",
-   "Usar tenecteplase 0,25 mg/kg: ela substitui a alteplase em qualquer caso elegível até 4,5 horas.",
-   "Reduzir a pressão arterial abaixo de 120/80 mmHg antes de iniciar o trombolítico endovenoso agora.",
-   "Aguardar a ressonância magnética com difusão para confirmar a área isquêmica antes de trombolisar."
+   "Só alteplase: tenecteplase é experimental",
+   "Adiar até a angiotomografia",
+   "Tenecteplase 0,25 mg/kg em dose única",
+   "Baixar a pressão abaixo de 120/80 antes",
+   "Aguardar ressonância com difusão"
   ],
   "gab": 2,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "AHA/ASA 2026 — Guideline for the Early Management of Patients With Acute Ischemic Stroke",
+  "base": "AHA/ASA 2026, Guideline for the Early Management of Patients With Acute Ischemic Stroke",
   "coment": "A diretriz de 2026 consolidou a tenecteplase, na dose de 0,25 mg/kg com máximo de 25 mg, como alternativa plenamente aceitável à alteplase, que segue em 0,9 mg/kg com máximo de 90 mg, dentro da janela de até 4,5 horas. A vantagem prática da tenecteplase é o bolus único, que simplifica o fluxo e encurta o tempo porta-agulha, sobretudo quando há transferência para trombectomia. O limiar pressórico para trombolisar é 185/110 mmHg, e não valores de normotensão; baixar a pressão além disso reduz a perfusão da penumbra. Angiotomografia e ressonância não devem atrasar o trombolítico quando os critérios clínicos e a tomografia sem contraste já bastam.",
   "porAlt": [
    "A tenecteplase deixou de ser restrita a pesquisa: ensaios de não inferioridade sustentaram sua incorporação formal à recomendação atual.",
@@ -24,20 +24,20 @@
   ]
  },
  {
-  "q": "Homem de 58 anos acorda com fraqueza no braço esquerdo. Foi visto bem pela última vez ao deitar-se, oito horas antes, e o déficit foi percebido há 40 minutos. A tomografia sem contraste não mostra hemorragia. O hospital dispõe de ressonância magnética. Qual é a estratégia recomendada para decidir sobre a trombólise nesse paciente?",
+  "q": "Homem de 58 anos acorda com fraqueza no braço esquerdo. Foi visto bem pela última vez ao deitar-se, oito horas antes, e o déficit foi percebido há 40 minutos. A tomografia sem contraste não mostra hemorragia. O hospital dispõe de ressonância magnética. O NIHSS é de 6, a pressão arterial de 168/92 mmHg e a glicemia de 118 mg/dL. Não usa anticoagulante, não teve AVC nem cirurgia recente e as plaquetas são normais. Qual é a estratégia recomendada para decidir sobre a trombólise nesse paciente?",
   "alts": [
-   "Descartar a trombólise, já que o horário de início desconhecido exclui o paciente dessa opção.",
-   "Trombolisar de imediato, contando as oito horas desde o último momento em que ele foi visto bem.",
-   "Indicar apenas antiagregante e reavaliar em 24 horas com nova tomografia de crânio sem contraste.",
-   "Fazer ressonância e trombolisar somente se houver difusão positiva sem contrapartida no FLAIR.",
-   "Encaminhar direto à trombectomia sem exame vascular, dispensando qualquer estudo de imagem adicional."
+   "Excluir a trombólise pelo horário",
+   "Trombolisar contando 8 horas",
+   "Só antiagregante e nova tomografia",
+   "Ressonância: trombolisar se DWI-FLAIR discordante",
+   "Trombectomia sem estudo vascular"
   ],
   "gab": 3,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "AHA/ASA 2026 — seleção por imagem no AVC de horário de início desconhecido (dissociação difusão-FLAIR)",
+  "base": "AHA/ASA 2026. Seleção por imagem no AVC de horário de início desconhecido (dissociação difusão-FLAIR)",
   "coment": "O AVC ao despertar deixou de ser sinônimo de exclusão da trombólise. A diretriz de 2026 recomenda selecionar por imagem os pacientes com início desconhecido e déficit reconhecido há menos de quatro horas e meia: a ressonância que mostra lesão restrita à difusão sem tradução correspondente na sequência FLAIR indica lesão provavelmente com menos de 4,5 horas de evolução, e esses pacientes se beneficiam da trombólise. Contar o tempo a partir do último momento visto bem excluiria injustamente uma parcela grande de pacientes que ainda têm tecido salvável, e trombolisar sem essa seleção exporia outros a hemorragia sem benefício.",
   "porAlt": [
    "Horário de início desconhecido não exclui mais o paciente: existe seleção por imagem justamente para recuperar esses casos para o tratamento.",
@@ -48,27 +48,27 @@
   ]
  },
  {
-  "q": "Mulher de 74 anos chega com hemiparesia esquerda súbita há 3 horas e NIHSS de 4, sem incapacidade prévia. A tomografia não mostra hemorragia e a pressão está em 150/85 mmHg. O plantonista argumenta que o déficit é leve demais para trombolisar. Qual é a orientação da diretriz vigente sobre esse raciocínio?",
+  "q": "Mulher de 74 anos, independente, é trazida 2 horas e 40 minutos após início súbito de afasia de expressão e paresia leve da mão direita. Pressão arterial 168/92 mmHg, glicemia 124 mg/dL. NIHSS de 4 (afasia moderada e paresia leve), com dificuldade clara para se comunicar. Tomografia sem hemorragia e sem hipodensidade extensa (ASPECTS 10). Não usa anticoagulante; plaquetas 230.000/mm³. O plantonista considera o NIHSS baixo demais para trombolisar. A família confirma o horário de início. Qual é a conduta?",
   "alts": [
-   "Escores abaixo de seis pontos contraindicam a trombólise de modo absoluto em qualquer situação clínica.",
-   "A decisão passa a depender exclusivamente da idade, que acima de setenta anos exclui a trombólise.",
-   "O déficit leve exige aguardar 24 horas de observação clínica antes de qualquer decisão terapêutica.",
-   "Nenhum escore baixo, isoladamente, justifica negar a trombólise a uma paciente elegível como ela.",
-   "A trombólise só é admitida quando o escore ultrapassa dez pontos na avaliação inicial da emergência."
+   "Dupla antiagregação por 21 dias, sem trombólise",
+   "Aguardar 24 horas e repetir a tomografia",
+   "Reduzir a pressão abaixo de 140 antes de decidir",
+   "Trombólise endovenosa pelo déficit incapacitante",
+   "Heparina não fracionada em dose plena"
   ],
   "gab": 3,
   "tema": "neuro",
   "cenario": "emg",
-  "comp": "urg",
+  "comp": "tto",
   "nivel": "r2",
-  "base": "AHA/ASA 2026 — refinamento dos critérios de trombólise em déficits leves (NIHSS de 0 a 5)",
-  "coment": "A diretriz de 2026 formalizou que um escore NIHSS baixo, entre 0 e 5 pontos, não deve isoladamente motivar a decisão de não trombolisar. O que importa é se o déficit é incapacitante para aquele paciente: afasia, hemianopsia ou perda de destreza na mão dominante podem somar poucos pontos no escore e ainda assim comprometer a autonomia. A idade avançada por si só também não contraindica a trombólise, desde que a paciente tivesse independência funcional prévia. O raciocínio de recusar o tratamento apenas pelo número é uma das causas mais frequentes de subtratamento no AVC agudo.",
+  "base": "AHA/ASA Guidelines for the Early Management of Acute Ischemic Stroke, 2019; Chen et al., ARAMIS, JAMA, 2023",
+  "coment": "O que decide a trombólise no déficit leve não é o NIHSS, e sim se o déficit é incapacitante, ou seja, se impediria atividades básicas ou o trabalho, como afasia, hemianopsia ou fraqueza que impede a marcha. A AHA/ASA recomenda trombólise para déficit incapacitante dentro de 4,5 horas, com pressão abaixo de 185/110 mmHg. No déficit leve não incapacitante (PRISMS, ARAMIS), a trombólise não traz benefício, e a dupla antiagregação com ácido acetilsalicílico e clopidogrel por 21 dias é preferida.",
   "porAlt": [
-   "Não existe contraindicação absoluta por escore: a avaliação é se o déficit incapacita aquele paciente na sua função e no seu contexto.",
-   "A idade isolada não contraindica a trombólise; o que pesa é a independência funcional prévia e a ausência de contraindicações formais.",
-   "Observar por 24 horas desperdiça toda a janela terapêutica e transforma um déficit potencialmente reversível em sequela definitiva.",
-   "Correta: a diretriz é explícita ao dizer que o escore baixo, isoladamente, não justifica negar a trombólise a um paciente elegível.",
-   "Não há limiar superior de escore exigido para trombolisar; a régua é a elegibilidade clínica e temporal, não um número mínimo de pontos."
+   "Dupla antiagregação é para déficit leve não incapacitante; afasia que impede a comunicação é incapacitante.",
+   "Aguardar perde a janela de trombólise.",
+   "Pressão abaixo de 185/110 mmHg já permite trombólise.",
+   "Déficit incapacitante, mesmo com NIHSS baixo, dentro de 4,5 horas: trombólise com alteplase ou tenecteplase.",
+   "Anticoagulação plena não tem papel no AVC isquêmico agudo."
   ]
  }
 ]

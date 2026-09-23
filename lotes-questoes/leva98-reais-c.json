@@ -13,7 +13,7 @@
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "American Burn Association — Advanced Burn Life Support, 2023; Ministério da Saúde, Cartilha para tratamento de emergência das queimaduras",
+  "base": "American Burn Association: Advanced Burn Life Support, 2023; Ministério da Saúde, Cartilha para tratamento de emergência das queimaduras",
   "coment": "A fórmula de Parkland estima a reposição das primeiras 24 horas em queimadura extensa: 4 mL por quilo por porcentagem de superfície corporal queimada de Ringer lactato, metade nas primeiras 8 horas contadas a partir do momento da queimadura e a outra metade nas 16 horas seguintes. O valor calculado é ponto de partida: o ajuste real se faz pelo débito urinário, com meta de 0,5 mL por quilo por hora no adulto. Coloide não é a solução inicial, e a superfície é estimada por regra dos nove ou tabela de Lund-Browder, contando apenas segundo e terceiro graus.",
   "porAlt": [
    "Reposição de 2 mL por quilo por porcentagem subestima a necessidade e distribuir o volume igualmente ignora a maior perda das primeiras horas.",
@@ -40,12 +40,12 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Protocolo de vigilância da intoxicação por chumbo relacionada ao trabalho, 2023; CDC, Adult Blood Lead Epidemiology and Surveillance, 2022",
+  "base": "Ministério da Saúde. Protocolo de vigilância da intoxicação por chumbo relacionada ao trabalho, 2023; CDC, Adult Blood Lead Epidemiology and Surveillance, 2022",
   "coment": "Anemia hipocrômica e microcítica que não responde a seis meses de ferro oral, em trabalhador de reciclagem de baterias, com surgimento de alteração cognitiva, aponta para saturnismo. O chumbo inibe enzimas da síntese do heme, produzindo anemia com pontilhado basófilo nas hemácias, e causa neuropatia periférica, encefalopatia, dor abdominal em cólica e nefropatia. O exame que confirma é a plumbemia, e a conduta inclui afastamento imediato da exposição, notificação como doença relacionada ao trabalho e quelação nos casos com níveis elevados ou sintomas.",
   "porAlt": [
    "Mielograma não é o primeiro exame diante de exposição ocupacional tão sugestiva.",
    "Haptoglobina investiga hemólise, que não explica a microcitose refratária ao ferro nem a alteração cognitiva.",
-   "Correta: dosagem de chumbo sérico — a ocupação e a refratariedade ao ferro apontam saturnismo.",
+   "Correta: dosagem de chumbo sérico. A ocupação e a refratariedade ao ferro apontam saturnismo.",
    "O teste de Coombs avalia hemólise autoimune, fora do quadro descrito."
   ],
   "fonte": {
@@ -66,7 +66,7 @@
   "cenario": "emg",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Manual de Normas e Procedimentos para Vacinação, 2024; Guia de Vigilância em Saúde, profilaxia do tétano acidental",
+  "base": "Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação, 2024; Guia de Vigilância em Saúde, profilaxia do tétano acidental",
   "coment": "A profilaxia do tétano depende de dois eixos: o estado vacinal e o tipo de ferimento. Com esquema completo de três doses e última dose há menos de cinco anos, não se indica reforço nem soro, mesmo em ferimento de alto risco como queimadura. O reforço passa a ser indicado com esquema completo e última dose entre cinco e dez anos em ferimento de alto risco, ou acima de dez anos em qualquer ferimento. O soro ou imunoglobulina antitetânica se reserva a esquema incompleto ou desconhecido associado a ferimento de alto risco, ou a imunossuprimidos.",
   "porAlt": [
    "O reforço não é necessário com vacinação completa há apenas três anos.",
@@ -93,7 +93,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "Fleischner Society Guidelines for Management of Incidental Pulmonary Nodules, 2017; ACCP guidelines on pulmonary nodules",
-  "coment": "Nódulo pulmonar solitário com contorno regular e calcificação de padrão benigno — central, difusa, laminar ou em pipoca — tem probabilidade muito baixa de malignidade, ainda que o paciente seja tabagista. A conduta é acompanhamento ambulatorial, com comparação a exames antigos quando disponíveis; estabilidade radiológica por dois anos em nódulo sólido praticamente exclui neoplasia. Investigação invasiva se reserva a nódulo com características suspeitas: bordas espiculadas, ausência de calcificação benigna, crescimento documentado ou captação em PET-CT.",
+  "coment": "Nódulo pulmonar solitário com contorno regular e calcificação de padrão benigno (central, difusa, laminar ou em pipoca) tem probabilidade muito baixa de malignidade, ainda que o paciente seja tabagista. A conduta é acompanhamento ambulatorial, com comparação a exames antigos quando disponíveis; estabilidade radiológica por dois anos em nódulo sólido praticamente exclui neoplasia. Investigação invasiva se reserva a nódulo com características suspeitas: bordas espiculadas, ausência de calcificação benigna, crescimento documentado ou captação em PET-CT.",
   "porAlt": [
    "Ressecção cirúrgica é desproporcional para nódulo com calcificação de padrão benigno.",
    "Broncoscopia com biópsia tem baixo rendimento em nódulo periférico e não se justifica aqui.",
@@ -119,7 +119,7 @@
   "comp": "urg",
   "nivel": "r1",
   "base": "IDSA Practice Guidelines for Bacterial Meningitis; Ministério da Saúde, PCDT para Manejo da Infecção pelo HIV, 2024",
-  "coment": "A paciente apresenta sinais de hipertensão intracraniana — cefaleia progressiva, vômitos, papiledema bilateral, rebaixamento de consciência, hipertensão com bradicardia e respiração irregular, que compõem a tríade de Cushing. Nesse cenário, punção lombar antes de imagem pode precipitar herniação. A conduta é tomografia de crânio imediata, buscando lesão expansiva — em pessoa com HIV mal controlado, neurotoxoplasmose, linfoma primário do sistema nervoso central, tuberculoma ou criptococose. A punção, quando indicada, vem depois da imagem e com medida de pressão de abertura.",
+  "coment": "A paciente apresenta sinais de hipertensão intracraniana. Cefaleia progressiva, vômitos, papiledema bilateral, rebaixamento de consciência, hipertensão com bradicardia e respiração irregular, que compõem a tríade de Cushing. Nesse cenário, punção lombar antes de imagem pode precipitar herniação. A conduta é tomografia de crânio imediata, buscando lesão expansiva, em pessoa com HIV mal controlado, neurotoxoplasmose, linfoma primário do sistema nervoso central, tuberculoma ou criptococose. A punção, quando indicada, vem depois da imagem e com medida de pressão de abertura.",
   "porAlt": [
    "Punção lombar antes da imagem, com papiledema e sinais de hipertensão intracraniana, arrisca herniação.",
    "Eletroencefalograma não é a prioridade diante de sinais de efeito de massa.",
@@ -144,12 +144,12 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Sociedade Brasileira de Dermatologia — Consenso sobre farmacodermias, 2020; ANVISA, guia de farmacovigilância, 2021",
+  "base": "Sociedade Brasileira de Dermatologia: Consenso sobre farmacodermias, 2020; ANVISA, guia de farmacovigilância, 2021",
   "coment": "Exantema maculopapular pruriginoso surgido dias após a introdução de um anti-inflamatório, em paciente estável, sem acometimento de mucosa, sem febre, sem descamação e sem repercussão sistêmica, é a farmacodermia benigna mais comum. A conduta é suspender o fármaco suspeito, prescrever anti-histamínico oral e orientar o paciente a registrar a reação e evitar o agente no futuro. O que exige atenção redobrada são os sinais de gravidade: acometimento de mucosas, sinal de Nikolsky, febre alta, edema facial, eosinofilia e alteração hepática, que sugerem síndrome de Stevens-Johnson ou DRESS.",
   "porAlt": [
    "A doença do soro cursa com febre, artralgia e urticária cerca de uma a três semanas após a exposição, e manter o fármaco é sempre inadequado.",
    "Não há anafilaxia: o paciente está estável, sem hipotensão, broncoespasmo ou edema de via aérea.",
-   "Correta: farmacodermia — suspender o naproxeno e prescrever anti-histamínico por via oral.",
+   "Correta: farmacodermia. Suspender o naproxeno e prescrever anti-histamínico por via oral.",
    "A dermatite atópica é doença crônica com lesões em áreas flexurais, não um exantema agudo relacionado a fármaco."
   ],
   "fonte": {
@@ -171,8 +171,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American College of Physicians — Diagnosis and Treatment of Low Back Pain, 2017; NICE guideline on low back pain and sciatica",
-  "coment": "Dor toracolombar em paciente acima de 50 anos, tabagista pesado e etilista, com déficit sensitivo bilateral e sinais de estiramento radicular, reúne bandeiras vermelhas que afastam a lombalgia inespecífica. A investigação inicial combina exames simples de triagem — hemograma, velocidade de hemossedimentação, proteína C reativa e radiografia de tórax, buscando neoplasia e infecção — com ressonância magnética quando persiste a suspeita de compressão medular, infecção ou metástase. Pedir ressonância indiscriminadamente em toda dor lombar, por outro lado, gera achados degenerativos irrelevantes e cascata de exames.",
+  "base": "American College of Physicians. Diagnosis and Treatment of Low Back Pain, 2017; NICE guideline on low back pain and sciatica",
+  "coment": "Dor toracolombar em paciente acima de 50 anos, tabagista pesado e etilista, com déficit sensitivo bilateral e sinais de estiramento radicular, reúne bandeiras vermelhas que afastam a lombalgia inespecífica. A investigação inicial combina exames simples de triagem (hemograma, velocidade de hemossedimentação, proteína C reativa e radiografia de tórax, buscando neoplasia e infecção) com ressonância magnética quando persiste a suspeita de compressão medular, infecção ou metástase. Pedir ressonância indiscriminadamente em toda dor lombar, por outro lado, gera achados degenerativos irrelevantes e cascata de exames.",
   "porAlt": [
    "A investigação é necessária, mas o enunciado descreve dor de três semanas com sinais neurológicos: não é apenas questão de idade e tabagismo.",
    "A ressonância pode ser necessária, mas não substitui a triagem laboratorial e radiográfica que orienta a hipótese.",
@@ -259,7 +259,7 @@
   "coment": "Nódulo hepático sólido em mulher jovem, hipervascular na fase arterial, bem circunscrito e com cicatriz central, é a descrição típica da hiperplasia nodular focal, lesão benigna de origem hiperplásica que não tem potencial maligno nem risco relevante de sangramento. Quando a imagem é característica, sobretudo à ressonância com contraste hepatoespecífico, dispensa biópsia, e a conduta é conservadora, sem necessidade de suspender contraceptivo nem de seguimento prolongado. O principal diferencial é o adenoma hepático, que não tem cicatriz central e pode sangrar ou malignizar.",
   "porAlt": [
    "O adenoma hepático associa-se a contraceptivo, é heterogêneo e não apresenta cicatriz central típica.",
-   "Correta: hiperplasia nodular focal — lesão hipervascular bem delimitada com cicatriz central em paciente jovem.",
+   "Correta: hiperplasia nodular focal. Lesão hipervascular bem delimitada com cicatriz central em paciente jovem.",
    "O hepatocarcinoma ocorre em fígado cirrótico ou com hepatite crônica, com lavagem do contraste na fase tardia.",
    "O hemangioma tem captação globular periférica descontínua com preenchimento centrípeto.",
    "O colangiocarcinoma periférico costuma ter captação tardia e retração capsular, com quadro clínico distinto."
@@ -283,7 +283,7 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022",
+  "base": "Ministério da Saúde, PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022",
   "coment": "Múltiplas úlceras genitais pequenas, dolorosas e coalescentes, precedidas de pródromo de ardor local e com adenopatia inguinal, caracterizam o herpes genital, cujo tratamento do primeiro episódio é aciclovir 400 mg três vezes ao dia por 7 a 10 dias, iniciado o mais precocemente possível. Sífilis primária cursa com úlcera única e indolor; o cancro mole produz úlceras dolorosas com fundo sujo e adenopatia supurativa. Fazem parte da conduta o rastreio das demais infecções sexualmente transmissíveis, incluindo HIV e sífilis, e a orientação sobre recorrência e transmissão.",
   "porAlt": [
    "Ceftriaxona trata gonorreia e, em esquema específico, o cancro mole, não o herpes.",
@@ -310,7 +310,7 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Conselho Federal de Medicina — Código de Ética Médica, Resolução CFM 2.217/2018; Recomendação CFM sobre uso de aplicativos de mensagens",
+  "base": "Conselho Federal de Medicina. Código de Ética Médica, Resolução CFM 2.217/2018; Recomendação CFM sobre uso de aplicativos de mensagens",
   "coment": "O Conselho Federal de Medicina admite o uso de aplicativos de mensagem para discussão entre médicos, desde que o grupo seja restrito a profissionais médicos, que as informações sejam tratadas como confidenciais e que não extrapolem os limites do grupo. O sigilo é dever de cada participante, e não apenas do administrador. Compartilhar dados que permitam identificar o paciente, mesmo com autorização informal, é prática de risco, e o envio de imagens e resultados deve observar as mesmas cautelas do prontuário.",
   "porAlt": [
    "O uso do grupo não é vedado: a recomendação admite grupos restritos a médicos com dever de confidencialidade.",
@@ -336,7 +336,7 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Portaria Interministerial nº 1/2014 — Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP)",
+  "base": "Portaria Interministerial nº 1/2014, Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP)",
   "coment": "A PNAISP inclui a população privada de liberdade no Sistema Único de Saúde por meio de pactuação entre União, estados, Distrito Federal e municípios, com adesão voluntária dos entes e financiamento específico. As equipes de atenção primária prisional podem contar com profissionais de saúde mental, e o cuidado deve articular-se com a rede de atenção psicossocial do território. A responsabilidade sanitária pelo território inclui as unidades prisionais nele situadas, e a atenção segue os princípios de universalidade, integralidade e equidade.",
   "porAlt": [
    "Correta: a política se efetiva por pactuação entre União, estados e municípios, com adesão dos entes federados.",
@@ -362,7 +362,7 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Lei nº 10.778/2003 e Portaria de Consolidação nº 4 — notificação compulsória de violência interpessoal; Ministério da Saúde, Linha de cuidado para atenção a pessoas em situação de violência",
+  "base": "Lei nº 10.778/2003 e Portaria de Consolidação nº 4, notificação compulsória de violência interpessoal; Ministério da Saúde, Linha de cuidado para atenção a pessoas em situação de violência",
   "coment": "O relato configura violência psicológica e patrimonial por parceiro íntimo, com controle, humilhação e medo, o que já caracteriza violência doméstica independentemente de agressão física. A notificação de violência interpessoal é compulsória para todo serviço de saúde, tem caráter epidemiológico e de proteção e não depende de autorização da vítima nem equivale a denúncia policial. A conduta é acolher, notificar e manter acompanhamento longitudinal na própria unidade, construindo plano de segurança, sem medicalizar de imediato o sofrimento com benzodiazepínico.",
   "porAlt": [
    "Correta: notificar o agravo e manter o acompanhamento na própria unidade de saúde da família.",
@@ -389,9 +389,9 @@
   "comp": "prev",
   "nivel": "r2",
   "base": "Lei nº 8.080/1990 e Política Nacional de Atenção Básica (PNAB), Portaria nº 2.436/2017",
-  "coment": "Estabelecer critérios para priorizar visitas domiciliares significa oferecer mais recurso a quem tem maior necessidade, o que corresponde ao princípio da equidade — tratar de modo desigual os desiguais para reduzir injustiças no acesso. Universalidade diz respeito ao direito de todos ao sistema; integralidade, à oferta articulada de ações de promoção, prevenção, tratamento e reabilitação; e a autonomia é princípio bioético, não organizativo do sistema. Distinguir esses conceitos é cobrança recorrente nas provas de residência.",
+  "coment": "Estabelecer critérios para priorizar visitas domiciliares significa oferecer mais recurso a quem tem maior necessidade, o que corresponde ao princípio da equidade. Tratar de modo desigual os desiguais para reduzir injustiças no acesso. Universalidade diz respeito ao direito de todos ao sistema; integralidade, à oferta articulada de ações de promoção, prevenção, tratamento e reabilitação; e a autonomia é princípio bioético, não organizativo do sistema. Distinguir esses conceitos é cobrança recorrente nas provas de residência.",
   "porAlt": [
-   "Correta: equidade — priorizar quem tem maior necessidade na alocação das visitas.",
+   "Correta: equidade. Priorizar quem tem maior necessidade na alocação das visitas.",
    "Autonomia é princípio bioético da relação com o paciente, não princípio organizativo do sistema.",
    "Integralidade se refere à articulação de ações de promoção, prevenção, tratamento e reabilitação.",
    "Universalidade é a garantia de acesso de todos ao sistema, sem recorte de prioridade."

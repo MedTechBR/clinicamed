@@ -58,7 +58,18 @@ def main():
     i = s.index("=", s.index("window.BANCO"))
     (RAIZ / "banco.js").write_text(s[:i] + "=" + corpo + ";\n")
     A.carrega_banco()                                          # relê: se não parseia, o build quebra aqui
-    print("aplicadas %d questões · banco com %d" % (len(novas), len(q)))
+    # 23/09/2026: grava também nas levas. Até aqui só o banco.js mudava, e o monta_banco.py (que
+    # gera o banco.js A PARTIR das levas) revertia ~950 questões reescritas na primeira execução.
+    ini = 0
+    for arq in sorted((RAIZ / "lotes-questoes").glob("leva*.json")):
+        leva = json.loads(arq.read_text(encoding="utf-8"))
+        fatia = q[ini:ini + len(leva)]
+        ini += len(leva)
+        if fatia != leva:
+            arq.write_text(json.dumps(fatia, ensure_ascii=False, indent=1), encoding="utf-8")
+    if ini != len(q):
+        raise SystemExit("levas (%d) e banco (%d) com tamanhos diferentes: sincronizar antes" % (ini, len(q)))
+    print("aplicadas %d questões · banco com %d (levas sincronizadas)" % (len(novas), len(q)))
 
 
 if __name__ == "__main__":

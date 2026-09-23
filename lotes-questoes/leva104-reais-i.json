@@ -12,8 +12,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Epidemiologia clínica — medidas de efeito (redução absoluta de risco e número necessário para tratar); ensaio STELLAR (sotatercepte), 2023",
-  "coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Aqui, o risco de morte foi de 7 em 84 no grupo tratado, cerca de 8,3%, contra 13 em 86 no placebo, cerca de 15,1%. A redução absoluta é de aproximadamente 6,8 pontos percentuais, e o inverso disso resulta em torno de 15 — ou seja, tratar cerca de 15 pacientes para evitar um óbito. O erro clássico da questão é calcular sobre a redução relativa de risco, que aqui é de cerca de 45% e produziria um número muito diferente e sem sentido clínico.",
+  "base": "Epidemiologia clínica. Medidas de efeito (redução absoluta de risco e número necessário para tratar); ensaio STELLAR (sotatercepte), 2023",
+  "coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Aqui, o risco de morte foi de 7 em 84 no grupo tratado, cerca de 8,3%, contra 13 em 86 no placebo, cerca de 15,1%. A redução absoluta é de aproximadamente 6,8 pontos percentuais, e o inverso disso resulta em torno de 15, ou seja, tratar cerca de 15 pacientes para evitar um óbito. O erro clássico da questão é calcular sobre a redução relativa de risco, que aqui é de cerca de 45% e produziria um número muito diferente e sem sentido clínico.",
   "porAlt": [
    "Correta: cerca de 15 pacientes tratados para evitar um óbito, pelo inverso da redução absoluta de risco.",
    "O valor 53 não decorre do cálculo com esses dados.",
@@ -38,8 +38,8 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Diabetes Association — Standards of Care in Diabetes, 2025, capítulo de idosos; Diretriz da Sociedade Brasileira de Diabetes, 2024",
-  "coment": "Metas glicêmicas em idosos são individualizadas pela expectativa de vida, comorbidades e, sobretudo, pelo risco de hipoglicemia. A paciente tem 78 anos, doença cardiovascular estabelecida, doença renal crônica avançada e — o dado decisivo — dois episódios de hipoglicemia grave, que exigiram auxílio de terceiros, no último ano. Nesse perfil de saúde complexa, a meta apropriada é menos rigorosa, entre 7,5 e 8,5%, e o objetivo passa a ser evitar hipoglicemia e sintomas de hiperglicemia, com desintensificação do esquema, e não perseguir números baixos.",
+  "base": "American Diabetes Association. Standards of Care in Diabetes, 2025, capítulo de idosos; Diretriz da Sociedade Brasileira de Diabetes, 2024",
+  "coment": "Metas glicêmicas em idosos são individualizadas pela expectativa de vida, comorbidades e, sobretudo, pelo risco de hipoglicemia. A paciente tem 78 anos, doença cardiovascular estabelecida, doença renal crônica avançada e, o dado decisivo, dois episódios de hipoglicemia grave, que exigiram auxílio de terceiros, no último ano. Nesse perfil de saúde complexa, a meta apropriada é menos rigorosa, entre 7,5 e 8,5%, e o objetivo passa a ser evitar hipoglicemia e sintomas de hiperglicemia, com desintensificação do esquema, e não perseguir números baixos.",
   "porAlt": [
    "Meta entre 6,0 e 6,5% é inadequada e perigosa nesse perfil de alto risco de hipoglicemia.",
    "Meta entre 6,5 e 7,0% aplica-se a paciente jovem, hígido e sem risco de hipoglicemia.",
@@ -65,7 +65,7 @@
   "comp": "dx",
   "nivel": "r3",
   "base": "WHO Classification of Haematolymphoid Tumours, 5ª edição, 2022; NCCN Guidelines for Myelodysplastic Syndromes, 2025",
-  "coment": "Anemia macrocítica em idoso com reticulócitos inadequadamente baixos e alterações displásicas no esfregaço — neutrófilos hipossegmentados e hipogranulares, a anomalia de pseudo-Pelger-Huët — aponta para síndrome mielodisplásica. Antes de confirmar, é obrigatório excluir as causas reversíveis de macrocitose com displasia: deficiência de B12 e folato, álcool, hipotireoidismo, HIV e fármacos. A confirmação exige mielograma com biópsia, citogenética e painel molecular, que definem o risco e o tratamento.",
+  "coment": "Anemia macrocítica em idoso com reticulócitos inadequadamente baixos e alterações displásicas no esfregaço (neutrófilos hipossegmentados e hipogranulares, a anomalia de pseudo-Pelger-Huët) aponta para síndrome mielodisplásica. Antes de confirmar, é obrigatório excluir as causas reversíveis de macrocitose com displasia: deficiência de B12 e folato, álcool, hipotireoidismo, HIV e fármacos. A confirmação exige mielograma com biópsia, citogenética e painel molecular, que definem o risco e o tratamento.",
   "porAlt": [
    "Correta: síndrome mielodisplásica, sugerida pela displasia no esfregaço com reticulócitos baixos.",
    "A anemia megaloblástica é diferencial obrigatório, mas precisa ser afastada por dosagem de B12 e folato, e não explica a hipogranulação.",
@@ -91,7 +91,7 @@
   "comp": "prev",
   "nivel": "r3",
   "base": "ESC/ESA Guidelines on cardiovascular assessment and management of patients undergoing non-cardiac surgery, 2022; Diretriz de avaliação perioperatória da SBC, 2017",
-  "coment": "A avaliação perioperatória cruza dois eixos independentes. O risco do paciente é alto: doença arterial coronariana com revascularização recente, diabetes, hipertensão, tabagismo pesado, alteração de repolarização no eletrocardiograma e capacidade funcional limitada — dispneia aos moderados esforços indica menos de 4 equivalentes metabólicos. O risco do procedimento também é alto: cirurgia abdominal maior, de oito horas, com perda sanguínea estimada de até um litro. A combinação de paciente de alto risco com cirurgia de alto risco é o que define a necessidade de monitorização e planejamento reforçados.",
+  "coment": "A avaliação perioperatória cruza dois eixos independentes. O risco do paciente é alto: doença arterial coronariana com revascularização recente, diabetes, hipertensão, tabagismo pesado, alteração de repolarização no eletrocardiograma e capacidade funcional limitada. Dispneia aos moderados esforços indica menos de 4 equivalentes metabólicos. O risco do procedimento também é alto: cirurgia abdominal maior, de oito horas, com perda sanguínea estimada de até um litro. A combinação de paciente de alto risco com cirurgia de alto risco é o que define a necessidade de monitorização e planejamento reforçados.",
   "porAlt": [
    "Classificar ambos como moderados subestima tanto a doença coronariana recente quanto o porte da cirurgia.",
    "O risco do paciente não é moderado diante de revascularização há oito meses e baixa capacidade funcional.",
@@ -169,7 +169,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure, 2021 e atualização 2023; Diretriz brasileira de insuficiência cardíaca crônica, SBC",
-  "coment": "Na insuficiência cardíaca com fração de ejeção reduzida, os quatro pilares — inibidor do sistema renina-angiotensina, betabloqueador, antagonista mineralocorticoide e inibidor de SGLT2 — modificam mortalidade, e a meta é titulá-los até a dose máxima tolerada. O diurético de alça, ao contrário, apenas controla congestão e não muda prognóstico. Diante de hipotensão sintomática em paciente euvolêmico e em classe funcional II, a primeira medida é reduzir o diurético — dose alta de furosemida em paciente compensado é causa frequente de hipotensão —, preservando as drogas que salvam vida.",
+  "coment": "Na insuficiência cardíaca com fração de ejeção reduzida, os quatro pilares (inibidor do sistema renina-angiotensina, betabloqueador, antagonista mineralocorticoide e inibidor de SGLT2) modificam mortalidade, e a meta é titulá-los até a dose máxima tolerada. O diurético de alça, ao contrário, apenas controla congestão e não muda prognóstico. Diante de hipotensão sintomática em paciente euvolêmico e em classe funcional II, a primeira medida é reduzir o diurético, dose alta de furosemida em paciente compensado é causa frequente de hipotensão, preservando as drogas que salvam vida.",
   "porAlt": [
    "Suspender a espironolactona retira um fármaco que reduz mortalidade.",
    "Ivabradina não substitui o betabloqueador; entra como adição quando a frequência permanece alta em ritmo sinusal.",
@@ -194,7 +194,7 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Osteoporosis in Postmenopausal Women, 2019; diretrizes de acompanhamento metabólico pós-cirurgia bariátrica, 2020",
+  "base": "Endocrine Society Clinical Practice Guideline: Osteoporosis in Postmenopausal Women, 2019; diretrizes de acompanhamento metabólico pós-cirurgia bariátrica, 2020",
   "coment": "A paciente tem osteoporose com fratura por fragilidade, mas o passo inicial é corrigir a deficiência grave de vitamina D e a hipocalcemia relativa que sustentam o hiperparatireoidismo secundário. Iniciar bisfosfonato com vitamina D em 9 ng/mL provoca hipocalcemia sintomática. Após cirurgia bariátrica disabsortiva, a forma preferida é o citrato de cálcio, que independe de acidez gástrica para ser absorvido, ao contrário do carbonato. Repostos cálcio, vitamina D e normalizado o paratormônio, aí sim entra o antirreabsortivo.",
   "porAlt": [
    "Correta: citrato de cálcio com vitamina D primeiro, corrigindo a deficiência antes do antirreabsortivo.",
@@ -221,7 +221,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "AASLD Practice Guidance on MASLD, 2023; EASL-EASD-EASO Clinical Practice Guidelines on MASLD, 2024",
-  "coment": "Na doença hepática esteatótica associada a disfunção metabólica, o que determina o prognóstico é o grau de fibrose, não a esteatose nem o nível de transaminases — que podem estar normais em doença avançada. Por isso, todo paciente com esteatose e fator de risco metabólico deve ser estratificado, e o primeiro passo é o FIB-4, calculado com idade, plaquetas e transaminases. Valor baixo permite seguimento na atenção primária; valor intermediário ou alto leva à elastografia hepática e ao encaminhamento. A biópsia ficou reservada a casos selecionados.",
+  "coment": "Na doença hepática esteatótica associada a disfunção metabólica, o que determina o prognóstico é o grau de fibrose, não a esteatose nem o nível de transaminases. Que podem estar normais em doença avançada. Por isso, todo paciente com esteatose e fator de risco metabólico deve ser estratificado, e o primeiro passo é o FIB-4, calculado com idade, plaquetas e transaminases. Valor baixo permite seguimento na atenção primária; valor intermediário ou alto leva à elastografia hepática e ao encaminhamento. A biópsia ficou reservada a casos selecionados.",
   "porAlt": [
    "Correta: calcular o FIB-4, primeiro passo da estratificação de fibrose.",
    "A biópsia hepática não é o primeiro passo e se reserva a dúvida diagnóstica ou discordância entre métodos.",
@@ -247,7 +247,7 @@
   "comp": "prev",
   "nivel": "r2",
   "base": "American Geriatrics Society Beers Criteria, 2023; World Guidelines for Falls Prevention and Management in Older Adults, 2022",
-  "coment": "Tontura tipo desequilíbrio ao caminhar em idosa polimedicada, com hipotensão ortostática documentada — queda de 30 mmHg na sistólica ao ficar em pé —, exige antes de tudo revisar a prescrição. A amitriptilina é o alvo evidente: antidepressivo tricíclico, fortemente anticolinérgico, causa hipotensão ortostática, sedação, confusão e retenção urinária, e está entre os fármacos formalmente desaconselhados no idoso pelos critérios de Beers. Suspendê-la, com desmame, é a medida de maior impacto na prevenção de queda e fratura.",
+  "coment": "Tontura tipo desequilíbrio ao caminhar em idosa polimedicada, com hipotensão ortostática documentada, queda de 30 mmHg na sistólica ao ficar em pé, exige antes de tudo revisar a prescrição. A amitriptilina é o alvo evidente: antidepressivo tricíclico, fortemente anticolinérgico, causa hipotensão ortostática, sedação, confusão e retenção urinária, e está entre os fármacos formalmente desaconselhados no idoso pelos critérios de Beers. Suspendê-la, com desmame, é a medida de maior impacto na prevenção de queda e fratura.",
   "porAlt": [
    "A metformina não causa hipotensão ortostática, e a glicemia está adequada.",
    "O enalapril integra o tratamento da insuficiência cardíaca com fração de ejeção reduzida e não é o primeiro a sair.",

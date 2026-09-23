@@ -39,7 +39,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "DSM-5-TR (APA, 2022); NICE guideline on depression in adults, 2022",
-  "coment": "Anedonia e humor deprimido persistentes por dois meses, com repercussão funcional percebida por terceiros, definem um episódio depressivo. Os dois ataques de pânico isolados, sem esquiva agorafóbica e sem preocupação persistente com novas crises, não constituem transtorno de pânico: no DSM-5-TR eles são registrados como especificador de ataques de pânico associado ao transtorno de base. A distinção importa porque o tratamento se dirige à depressão — antidepressivo e psicoterapia — com atenção aos ataques, e não a um transtorno de ansiedade primário.",
+  "coment": "Anedonia e humor deprimido persistentes por dois meses, com repercussão funcional percebida por terceiros, definem um episódio depressivo. Os dois ataques de pânico isolados, sem esquiva agorafóbica e sem preocupação persistente com novas crises, não constituem transtorno de pânico: no DSM-5-TR eles são registrados como especificador de ataques de pânico associado ao transtorno de base. A distinção importa porque o tratamento se dirige à depressão, antidepressivo e psicoterapia, com atenção aos ataques, e não a um transtorno de ansiedade primário.",
   "porAlt": [
    "O transtorno de pânico exige crises recorrentes com preocupação persistente ou mudança de comportamento, e a agorafobia exige esquiva de situações, ausentes aqui.",
    "Não há relato de episódio de mania ou hipomania que caracterize transtorno bipolar.",
@@ -65,7 +65,7 @@
   "comp": "urg",
   "nivel": "r2",
   "base": "ESC Guidelines for the management of atrial fibrillation, 2024; ACC/AHA guideline on supraventricular tachycardia, 2015",
-  "coment": "Linha de base serrilhada com ondas F e intervalo RR irregular em frequência em torno de 125 bpm, em paciente estável, indica flutter atrial com condução variável. Estando estável, a conduta é controle de frequência com betabloqueador ou bloqueador de canal de cálcio não di-hidropiridínico, avaliação de anticoagulação pelo escore de risco e pela duração da arritmia, e busca de fatores precipitantes — álcool, distúrbio tireoidiano, distúrbio eletrolítico. A cardioversão elétrica sincronizada fica reservada à instabilidade hemodinâmica.",
+  "coment": "Linha de base serrilhada com ondas F e intervalo RR irregular em frequência em torno de 125 bpm, em paciente estável, indica flutter atrial com condução variável. Estando estável, a conduta é controle de frequência com betabloqueador ou bloqueador de canal de cálcio não di-hidropiridínico, avaliação de anticoagulação pelo escore de risco e pela duração da arritmia, e busca de fatores precipitantes, álcool, distúrbio tireoidiano, distúrbio eletrolítico. A cardioversão elétrica sincronizada fica reservada à instabilidade hemodinâmica.",
   "porAlt": [
    "Correta: controle de frequência com betabloqueador em paciente estável com flutter atrial.",
    "Desfibrilação é para fibrilação ventricular e taquicardia ventricular sem pulso; aqui, se fosse preciso, seria cardioversão sincronizada.",
@@ -91,7 +91,7 @@
   "comp": "urg",
   "nivel": "r1",
   "base": "ESC Guidelines for the diagnosis and management of pericardial diseases, 2015; AHA scientific statement on cardiac tamponade",
-  "coment": "Hipotensão, turgência jugular e bulhas hipofonéticas compõem a tríade de Beck, e o pulso paradoxal — queda da pressão sistólica maior que 10 mmHg na inspiração — somado à baixa voltagem no eletrocardiograma fecha a suspeita de tamponamento cardíaco, aqui provavelmente por derrame pericárdico neoplásico em paciente com linfoma. A conduta é ecocardiograma imediato, que confirma o derrame e o colapso de câmaras direitas, seguido de pericardiocentese, que é ao mesmo tempo diagnóstica e terapêutica. Reposição volêmica serve apenas como ponte enquanto se prepara a drenagem.",
+  "coment": "Hipotensão, turgência jugular e bulhas hipofonéticas compõem a tríade de Beck, e o pulso paradoxal, queda da pressão sistólica maior que 10 mmHg na inspiração, somado à baixa voltagem no eletrocardiograma fecha a suspeita de tamponamento cardíaco, aqui provavelmente por derrame pericárdico neoplásico em paciente com linfoma. A conduta é ecocardiograma imediato, que confirma o derrame e o colapso de câmaras direitas, seguido de pericardiocentese, que é ao mesmo tempo diagnóstica e terapêutica. Reposição volêmica serve apenas como ponte enquanto se prepara a drenagem.",
   "porAlt": [
    "Correta: ecocardiografia seguida de pericardiocentese, diante do tamponamento cardíaco.",
    "Trombolítico em tamponamento pode agravar o derrame por sangramento pericárdico.",
@@ -116,13 +116,13 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA — Diretrizes diagnósticas e terapêuticas do câncer de rim, 2021; EAU Guidelines on Renal Cell Carcinoma, 2024",
+  "base": "INCA. Diretrizes diagnósticas e terapêuticas do câncer de rim, 2021; EAU Guidelines on Renal Cell Carcinoma, 2024",
   "coment": "Lesão renal sólida, hipervascular ao contraste, é carcinoma de células renais até prova em contrário, e essa é a apresentação mais comum hoje: achado incidental em imagem pedida por outro motivo, em paciente sem hematúria e sem a tríade clássica. Não se faz biópsia de rotina em massa renal sólida com esse padrão; a conduta é estadiamento com tomografia de tórax e tratamento cirúrgico. Para tumor menor que 4 cm, a nefrectomia parcial é preferida à radical por preservar função renal com igual controle oncológico.",
   "porAlt": [
    "O sarcoma renal é raro e costuma se apresentar como massa volumosa e heterogênea.",
    "O linfoma renal geralmente é bilateral, infiltrativo e acompanha doença sistêmica.",
    "Metástase para o rim é incomum e pressupõe tumor primário conhecido.",
-   "Correta: carcinoma de células renais — massa sólida hipervascular, achado incidental frequente."
+   "Correta: carcinoma de células renais. Massa sólida hipervascular, achado incidental frequente."
   ],
   "fonte": {
    "banca": "Revalida (INEP/MEC)",
@@ -142,8 +142,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual de Instruções para o Preenchimento da Declaração de Óbito, 2022; Resolução CFM sobre atestado de óbito",
-  "coment": "Em morte natural ocorrida em domicílio, com doença conhecida e acompanhamento assistencial, quem atesta é o médico assistente — no caso, o médico de família que acompanhava o paciente —, e não o legista, cuja atuação se reserva a morte violenta ou suspeita. No preenchimento, a causa básica é a doença que iniciou a cadeia que levou ao óbito, registrada na última linha da parte I; aqui, a broncopneumonia que motivou a deterioração, tendo a doença pulmonar obstrutiva crônica como antecedente e as demais condições como contribuintes. Parada cardiorrespiratória é modo de morrer, jamais causa básica.",
+  "base": "Ministério da Saúde. Manual de Instruções para o Preenchimento da Declaração de Óbito, 2022; Resolução CFM sobre atestado de óbito",
+  "coment": "Em morte natural ocorrida em domicílio, com doença conhecida e acompanhamento assistencial, quem atesta é o médico assistente (no caso, o médico de família que acompanhava o paciente), e não o legista, cuja atuação se reserva a morte violenta ou suspeita. No preenchimento, a causa básica é a doença que iniciou a cadeia que levou ao óbito, registrada na última linha da parte I; aqui, a broncopneumonia que motivou a deterioração, tendo a doença pulmonar obstrutiva crônica como antecedente e as demais condições como contribuintes. Parada cardiorrespiratória é modo de morrer, jamais causa básica.",
   "porAlt": [
    "Morte natural com doença conhecida e acompanhamento não é caso de legista.",
    "Sepse como causa básica inverte a cadeia e o caso não é de competência do legista.",
@@ -169,7 +169,7 @@
   "comp": "dx",
   "nivel": "r3",
   "base": "AAN/ACP guidance on evaluation of distal symmetric polyneuropathy; diretrizes brasileiras de neuropatia diabética, 2023",
-  "coment": "A paciente tem neuropatia diabética estabelecida — monofilamento alterado, reflexos abolidos —, mas o dado que muda a conduta é a piora subaguda da fraqueza nas últimas duas semanas, a ponto de perder a marcha. Esse agravamento rápido não se explica por polineuropatia crônica e obriga a excluir compressão medular ou de cauda equina, o que exige ressonância magnética da coluna toracolombar. Radiografia não avalia medula, e o biotesiômetro apenas quantifica a sensibilidade vibratória já sabidamente alterada.",
+  "coment": "A paciente tem neuropatia diabética estabelecida (monofilamento alterado, reflexos abolidos), mas o dado que muda a conduta é a piora subaguda da fraqueza nas últimas duas semanas, a ponto de perder a marcha. Esse agravamento rápido não se explica por polineuropatia crônica e obriga a excluir compressão medular ou de cauda equina, o que exige ressonância magnética da coluna toracolombar. Radiografia não avalia medula, e o biotesiômetro apenas quantifica a sensibilidade vibratória já sabidamente alterada.",
   "porAlt": [
    "A radiografia não avalia medula, raízes nem disco de forma útil nesse contexto.",
    "A ressonância de encéfalo investiga lesão central alta, incompatível com arreflexia e hipotonia em membros inferiores.",
@@ -195,7 +195,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "Fleischner Society Guidelines for Management of Incidental Pulmonary Nodules, 2017; INCA, diretrizes diagnósticas e terapêuticas do câncer de pulmão, 2022",
-  "coment": "Nódulo sólido único de 18 mm em tabagista pesado é lesão de alto risco, e o exame inicial foi feito sem contraste. O passo esperado antes de qualquer procedimento invasivo é completar a caracterização com tomografia contrastada, avaliando realce, relação com estruturas vizinhas e linfonodos mediastinais — informação que orienta a escolha entre PET-CT, biópsia transtorácica, broncoscopia e ressecção. Acompanhamento anual é conduta de nódulo de baixo risco e seria inadequado aqui, e broncoscopia tem rendimento baixo em nódulo periférico.",
+  "coment": "Nódulo sólido único de 18 mm em tabagista pesado é lesão de alto risco, e o exame inicial foi feito sem contraste. O passo esperado antes de qualquer procedimento invasivo é completar a caracterização com tomografia contrastada, avaliando realce, relação com estruturas vizinhas e linfonodos mediastinais. Informação que orienta a escolha entre PET-CT, biópsia transtorácica, broncoscopia e ressecção. Acompanhamento anual é conduta de nódulo de baixo risco e seria inadequado aqui, e broncoscopia tem rendimento baixo em nódulo periférico.",
   "porAlt": [
    "Controle anual subestima um nódulo de 18 mm em tabagista pesado.",
    "A broncoscopia com lavado tem baixo rendimento em nódulo periférico, sem broncograma aéreo.",
@@ -220,8 +220,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "INCA — Diretrizes diagnósticas e terapêuticas do linfoma de Hodgkin e não Hodgkin, 2022; NCCN Guidelines for B-Cell Lymphomas",
-  "coment": "Linfadenomegalia progressiva, endurecida e fixa, em múltiplas cadeias, com sintomas B — febre acima de 38 °C, sudorese noturna e perda de mais de 10% do peso — e massa mediastinal, é linfoma até prova em contrário. O procedimento que fecha o diagnóstico é a biópsia excisional de linfonodo, que preserva a arquitetura ganglionar necessária à classificação histológica e à imuno-histoquímica. Punção aspirativa por agulha fina não é adequada para diagnóstico inicial de linfoma justamente por não permitir avaliar arquitetura.",
+  "base": "INCA. Diretrizes diagnósticas e terapêuticas do linfoma de Hodgkin e não Hodgkin, 2022; NCCN Guidelines for B-Cell Lymphomas",
+  "coment": "Linfadenomegalia progressiva, endurecida e fixa, em múltiplas cadeias, com sintomas B (febre acima de 38 °C, sudorese noturna e perda de mais de 10% do peso) e massa mediastinal, é linfoma até prova em contrário. O procedimento que fecha o diagnóstico é a biópsia excisional de linfonodo, que preserva a arquitetura ganglionar necessária à classificação histológica e à imuno-histoquímica. Punção aspirativa por agulha fina não é adequada para diagnóstico inicial de linfoma justamente por não permitir avaliar arquitetura.",
   "porAlt": [
    "Citomegalovírus causa linfonodomegalia com linfócitos atípicos, sem massa mediastinal volumosa e gânglios fixos.",
    "Correta: linfoma, com biópsia de linfonodo cervical para diagnóstico histológico.",
@@ -246,8 +246,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Conselho Federal de Medicina — Código de Ética Médica, Resolução CFM 2.217/2018, artigos 74 e 75; Estatuto da Criança e do Adolescente",
-  "coment": "O adolescente tem direito ao sigilo na consulta e à confidencialidade, mas esse direito cede quando há risco à própria vida ou à de terceiros, ou quando a ausência de comunicação impede o cuidado necessário. Duas internações por cetoacidose em três meses por recusa de insulina configuram risco concreto, e o Código de Ética autoriza — e o dever de cuidado exige — comunicar aos responsáveis. A boa prática é informar previamente o adolescente sobre a quebra, explicando o motivo, e mantê-lo como protagonista do plano de cuidado, com apoio de saúde mental.",
+  "base": "Conselho Federal de Medicina. Código de Ética Médica, Resolução CFM 2.217/2018, artigos 74 e 75; Estatuto da Criança e do Adolescente",
+  "coment": "O adolescente tem direito ao sigilo na consulta e à confidencialidade, mas esse direito cede quando há risco à própria vida ou à de terceiros, ou quando a ausência de comunicação impede o cuidado necessário. Duas internações por cetoacidose em três meses por recusa de insulina configuram risco concreto, e o Código de Ética autoriza, e o dever de cuidado exige, comunicar aos responsáveis. A boa prática é informar previamente o adolescente sobre a quebra, explicando o motivo, e mantê-lo como protagonista do plano de cuidado, com apoio de saúde mental.",
   "porAlt": [
    "Não houve infração: o sigilo do adolescente não é absoluto e cede diante de risco à vida.",
    "Correta: não houve infração ética, pois a situação envolve risco concreto à vida do paciente.",
@@ -273,10 +273,10 @@
   "comp": "dx",
   "nivel": "r1",
   "base": "EULAR revised recommendations for the management of fibromyalgia, 2017; Sociedade Brasileira de Reumatologia, diretrizes de fibromialgia, 2021",
-  "coment": "Dor difusa por mais de três meses, sono não reparador, fadiga ao acordar e exame físico com dor à palpação de múltiplos grupamentos musculares, sem sinovite e com provas de fase aguda e TSH normais, caracterizam fibromialgia. É diagnóstico clínico positivo, não de exclusão infinita, e o mecanismo é de sensibilização central. O tratamento de primeira linha é não farmacológico: exercício aeróbico progressivo, educação em dor e terapia cognitivo-comportamental, com fármaco adjuvante conforme o sintoma dominante — amitriptilina, duloxetina ou pregabalina. Opioide e corticoide não têm lugar.",
+  "coment": "Dor difusa por mais de três meses, sono não reparador, fadiga ao acordar e exame físico com dor à palpação de múltiplos grupamentos musculares, sem sinovite e com provas de fase aguda e TSH normais, caracterizam fibromialgia. É diagnóstico clínico positivo, não de exclusão infinita, e o mecanismo é de sensibilização central. O tratamento de primeira linha é não farmacológico: exercício aeróbico progressivo, educação em dor e terapia cognitivo-comportamental, com fármaco adjuvante conforme o sintoma dominante, amitriptilina, duloxetina ou pregabalina. Opioide e corticoide não têm lugar.",
   "porAlt": [
    "A polimiosite cursa com fraqueza proximal objetiva e elevação de enzimas musculares.",
-   "Correta: fibromialgia — dor difusa crônica, sono não reparador e exames normais.",
+   "Correta: fibromialgia. Dor difusa crônica, sono não reparador e exames normais.",
    "A síndrome de fadiga crônica tem a fadiga como sintoma central, com critérios próprios.",
    "A polimialgia reumática ocorre acima de 50 anos, com rigidez de cinturas e velocidade de hemossedimentação elevada."
   ],
@@ -299,7 +299,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "ATA Guidelines for Diagnosis and Management of Hyperthyroidism, 2016; Sociedade Brasileira de Endocrinologia e Metabologia, consenso de doença de Graves, 2013",
-  "coment": "Na doença de Graves, o hipertireoidismo é primário e autoimune: TSH suprimido com T4 livre e T3 elevados, anticorpo antirreceptor de TSH positivo, captação de iodo radioativo elevada e distribuição difusa do radiotraçador à cintilografia, correspondendo ao bócio difuso hipercaptante. Esse padrão separa Graves das tireotoxicoses por destruição glandular — tireoidite subaguda e tireotoxicose factícia —, em que a captação é baixa, distinção decisiva porque essas não respondem a droga antitireoidiana. A oftalmopatia reforça o diagnóstico clínico.",
+  "coment": "Na doença de Graves, o hipertireoidismo é primário e autoimune: TSH suprimido com T4 livre e T3 elevados, anticorpo antirreceptor de TSH positivo, captação de iodo radioativo elevada e distribuição difusa do radiotraçador à cintilografia, correspondendo ao bócio difuso hipercaptante. Esse padrão separa Graves das tireotoxicoses por destruição glandular, tireoidite subaguda e tireotoxicose factícia, em que a captação é baixa, distinção decisiva porque essas não respondem a droga antitireoidiana. A oftalmopatia reforça o diagnóstico clínico.",
   "porAlt": [
    "Na doença de Graves o anticorpo antirreceptor de TSH está elevado, não reduzido.",
    "A ultrassonografia mostra glândula difusamente aumentada e hipoecogênica com fluxo aumentado, não nódulos císticos difusos.",
@@ -324,8 +324,8 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "International Working Group on the Diabetic Foot — IWGDF Guidelines, 2023; Ministério da Saúde, Manual do pé diabético",
-  "coment": "A úlcera descrita é neuropática, plantar, sob área de pressão, com hiperqueratose ao redor, tecido de granulação e sem sinais de infecção ou de isquemia — os pulsos estão presentes e simétricos. O tratamento central é o alívio da pressão sobre a lesão, por adaptação de calçado, palmilha ou dispositivo de descarga, associado a desbridamento da hiperqueratose, curativo adequado e controle glicêmico. Sem retirar a carga do ponto ulcerado, nenhum curativo cicatriza, e é esse o erro mais comum no manejo ambulatorial.",
+  "base": "International Working Group on the Diabetic Foot: IWGDF Guidelines, 2023; Ministério da Saúde, Manual do pé diabético",
+  "coment": "A úlcera descrita é neuropática, plantar, sob área de pressão, com hiperqueratose ao redor, tecido de granulação e sem sinais de infecção ou de isquemia. Os pulsos estão presentes e simétricos. O tratamento central é o alívio da pressão sobre a lesão, por adaptação de calçado, palmilha ou dispositivo de descarga, associado a desbridamento da hiperqueratose, curativo adequado e controle glicêmico. Sem retirar a carga do ponto ulcerado, nenhum curativo cicatriza, e é esse o erro mais comum no manejo ambulatorial.",
   "porAlt": [
    "Simpatectomia lombar não tem indicação: não há isquemia, e os pulsos estão presentes.",
    "Enxerto de pele não se aplica a uma úlcera que ainda não teve a pressão aliviada.",
@@ -351,7 +351,7 @@
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "International Myeloma Working Group — critérios diagnósticos e da síndrome POEMS, 2014; consensos brasileiros de gamopatias monoclonais, 2022",
+  "base": "International Myeloma Working Group. Critérios diagnósticos e da síndrome POEMS, 2014; consensos brasileiros de gamopatias monoclonais, 2022",
   "coment": "Polineuropatia progressiva associada a organomegalia, ascite, hipertensão intracraniana com papiledema e síndrome consumptiva sugere gamopatia monoclonal com manifestação sistêmica, como a síndrome POEMS ou a amiloidose de cadeia leve. O passo diagnóstico é a eletroforese de proteínas séricas e urinárias com imunofixação, à procura de componente monoclonal, complementada pela dosagem de cadeias leves livres. Só depois se investiga o órgão-alvo por biópsia. Fechar o caso como doença do tecido conjuntivo e pulsar corticoide sem essa etapa retarda o diagnóstico.",
   "porAlt": [
    "Painel de autoanticorpos com pulsoterapia empírica não explica o conjunto e adia o diagnóstico correto.",
@@ -380,7 +380,7 @@
   "comp": "tto",
   "nivel": "r2",
   "base": "EULAR recommendations for the management of systemic lupus erythematosus, 2023; KDIGO Clinical Practice Guideline for the Management of Lupus Nephritis, 2024",
-  "coment": "Mulher jovem com anasarca, hipertensão, anemia, leucopenia com linfopenia, FAN em título elevado, anti-DNA e anti-Sm reagentes tem lúpus eritematoso sistêmico com provável nefrite lúpica, e o quadro de síndrome nefrótica com atividade sorológica exige imunossupressão. O tratamento começa com corticoide, associado a imunossupressor — micofenolato ou ciclofosfamida, com belimumabe ou voclosporina em esquemas atuais —, com biópsia renal indicada para definir a classe histológica. Hidroxicloroquina é medida de base para todo paciente com lúpus, mas isolada não trata a nefrite ativa.",
+  "coment": "Mulher jovem com anasarca, hipertensão, anemia, leucopenia com linfopenia, FAN em título elevado, anti-DNA e anti-Sm reagentes tem lúpus eritematoso sistêmico com provável nefrite lúpica, e o quadro de síndrome nefrótica com atividade sorológica exige imunossupressão. O tratamento começa com corticoide, associado a imunossupressor (micofenolato ou ciclofosfamida, com belimumabe ou voclosporina em esquemas atuais), com biópsia renal indicada para definir a classe histológica. Hidroxicloroquina é medida de base para todo paciente com lúpus, mas isolada não trata a nefrite ativa.",
   "porAlt": [
    "Correta: corticoide, associado a imunossupressor, diante de lúpus com acometimento renal ativo.",
    "Eritropoetina não trata a anemia da doença inflamatória ativa nem a nefrite.",
@@ -408,12 +408,12 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; escore BISAP (Wu et al., 2008)",
-  "coment": "O escore BISAP prevê mortalidade na pancreatite aguda nas primeiras 24 horas e reúne cinco itens, um ponto cada: ureia nitrogenada sérica acima de 25 mg/dL, alteração do estado mental, presença de síndrome da resposta inflamatória sistêmica, idade acima de 60 anos e derrame pleural à imagem. Glicemia não faz parte dele — aparece nos critérios de Ranson, com os quais o BISAP é frequentemente confundido. A vantagem do BISAP é usar dados disponíveis à admissão, sem esperar as 48 horas exigidas pelo escore de Ranson.",
+  "coment": "O escore BISAP prevê mortalidade na pancreatite aguda nas primeiras 24 horas e reúne cinco itens, um ponto cada: ureia nitrogenada sérica acima de 25 mg/dL, alteração do estado mental, presença de síndrome da resposta inflamatória sistêmica, idade acima de 60 anos e derrame pleural à imagem. Glicemia não faz parte dele. Aparece nos critérios de Ranson, com os quais o BISAP é frequentemente confundido. A vantagem do BISAP é usar dados disponíveis à admissão, sem esperar as 48 horas exigidas pelo escore de Ranson.",
   "porAlt": [
    "Derrame pleural integra o escore.",
    "Ureia nitrogenada acima de 25 mg/dL integra o escore.",
    "Idade acima de 60 anos integra o escore.",
-   "Correta: glicemia acima de 200 mg/dL não faz parte do BISAP — é critério de Ranson.",
+   "Correta: glicemia acima de 200 mg/dL não faz parte do BISAP, é critério de Ranson.",
    "Alteração do estado mental integra o escore."
   ],
   "fonte": {
@@ -434,7 +434,7 @@
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "KDIGO e KDOQI — recomendações sobre complicações agudas da hemodiálise; Sociedade Brasileira de Nefrologia, diretrizes de hemodiálise, 2021",
+  "base": "KDIGO e KDOQI. Recomendações sobre complicações agudas da hemodiálise; Sociedade Brasileira de Nefrologia, diretrizes de hemodiálise, 2021",
   "coment": "Hipotensão com flush facial e sibilância nos primeiros minutos de uma sessão de hemodiálise caracteriza a reação de hipersensibilidade do tipo A ao dialisador, classicamente atribuída ao óxido de etileno usado na esterilização ou a componentes da membrana, e agravada pelo uso concomitante de inibidor da enzima conversora com membranas de alto fluxo. A conduta é interromper a sessão imediatamente, não devolver o sangue do circuito e tratar como anafilaxia, com adrenalina se houver comprometimento respiratório ou circulatório. Nas sessões seguintes, troca-se o tipo de dialisador.",
   "porAlt": [
    "A embolia gasosa cursa com dor torácica súbita, dispneia e alteração neurológica, sem flush e sibilância.",

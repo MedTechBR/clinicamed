@@ -1,146 +1,146 @@
 [
  {
-  "q": "Homem de 64 anos, ex-tabagista, tem dispneia aos médios esforços e ecocardiograma com fração de ejeção de 44%. Segundo a diretriz europeia vigente de insuficiência cardíaca, como esse paciente é classificado quanto ao fenótipo?",
+  "q": "Homem de 64 anos, ex-tabagista e hipertenso, refere dispneia aos médios esforços há seis meses, com discreto edema vespertino. Está com pressão de 136/82 mmHg, frequência de 76 bpm, sem estertores e com turgência jugular normal. O ecocardiograma mostra fração de ejeção de 44%, átrio esquerdo de 44 mm e disfunção diastólica grau II. O NT-proBNP é de 640 pg/mL e a creatinina de 1,1 mg/dL. Qual é a classificação e a conduta inicial?",
   "alts": [
-   "Insuficiência cardíaca com fração de ejeção levemente reduzida, categoria mantida na faixa de 41% a 49%.",
-   "Insuficiência cardíaca com fração de ejeção preservada, uma vez que o valor está acima do limite de 40%.",
-   "Insuficiência cardíaca com fração de ejeção recuperada, categoria aplicada a qualquer valor entre 40% e 50%.",
-   "Não caracteriza insuficiência cardíaca, porque só se define a síndrome com fração de ejeção abaixo de 40%.",
-   "Insuficiência cardíaca com fração de ejeção reduzida, categoria que passou a englobar tudo abaixo de 50%."
+   "Fração levemente reduzida: iniciar inibidor do SGLT2",
+   "Fração preservada: apenas controlar a pressão",
+   "Fração reduzida: iniciar as quatro classes",
+   "Sem insuficiência cardíaca: investigar causa pulmonar",
+   "Fração levemente reduzida: apenas diurético se congestão"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "tit",
-  "base": "ESC 2026 — Guidelines for the management of heart failure (eliminação do fenótipo de fração levemente reduzida)",
-  "coment": "A diretriz europeia de 2026 eliminou o fenótipo de fração de ejeção levemente reduzida. Restaram dois: fração reduzida, definida por fração de ejeção abaixo de 50%, e fração preservada, com fração de 50% ou mais. O argumento foi fisiopatológico e terapêutico: a faixa antes chamada de levemente reduzida compartilha mecanismo com a reduzida e responde ao mesmo tratamento, de modo que separá-las criava uma categoria sem consequência prática. A diretriz também adotou quatro estágios, de A a D, reforçando prevenção e identificação precoce, e substituiu o termo insuficiência cardíaca aguda por descompensada.",
+  "base": "ESC 2021/2023. Insuficiência cardíaca: fenótipo de fração levemente reduzida",
+  "coment": "Fração de ejeção entre 41% e 49% define insuficiência cardíaca de fração levemente reduzida, e o quadro clínico com NT-proBNP elevado confirma o diagnóstico. Os inibidores do SGLT2 são a classe com benefício demonstrado em todo o espectro de fração de ejeção e entram como recomendação nesse fenótipo, junto ao tratamento das comorbidades.",
   "porAlt": [
-   "A faixa de 41% a 49% era a antiga fração levemente reduzida, categoria justamente eliminada nesta atualização.",
-   "A fração preservada agora exige valor de 50% ou mais, de modo que 44% não se enquadra nessa definição atual.",
-   "Fração recuperada descreve quem tinha fração baixa e melhorou com tratamento, não uma faixa numérica fixa.",
-   "O corte de 40% pertence a versões antigas; a síndrome se define pelo quadro clínico somado à alteração estrutural.",
-   "Correta: com a mudança de 2026, tudo abaixo de 50% é fração reduzida, e a categoria intermediária deixou de existir."
+   "Correta: 44% é levemente reduzida, e o inibidor do SGLT2 atravessa todo o espectro.",
+   "Preservada exige fração de 50% ou mais.",
+   "Reduzida exige fração de 40% ou menos.",
+   "O NT-proBNP elevado com o quadro clínico sustenta o diagnóstico.",
+   "Diurético trata congestão, não modifica prognóstico."
   ]
  },
  {
-  "q": "Mulher de 58 anos tem insuficiência cardíaca com fração de ejeção de 32%, classe funcional II, pressão de 118/72 mmHg, frequência de 74 bpm, potássio de 4,3 mEq/L e taxa de filtração glomerular de 62 mL/min/1,73 m². Está apenas em uso de furosemida. Quais classes compõem a terapia medicamentosa fundamental que ela deve receber?",
+  "q": "Mulher de 58 anos com miocardiopatia dilatada tem fração de ejeção de 32% e classe funcional II. Usa enalapril 10 mg duas vezes ao dia, carvedilol 12,5 mg duas vezes ao dia e espironolactona 25 mg, todas há três meses. Pressão de 118/72 mmHg, frequência de 68 bpm, creatinina de 1,0 mg/dL, potássio de 4,3 mEq/L e sem congestão. Não é diabética. Qual é o próximo passo?",
   "alts": [
-   "Betabloqueador, inibidor da neprilisina com bloqueador do receptor, antagonista mineralocorticoide e inibidor de SGLT2.",
-   "Apenas diurético de alça em dose otimizada, com betabloqueador acrescentado somente se surgir taquicardia sintomática.",
-   "Digoxina associada a diurético tiazídico, esquema que segue sendo a base do tratamento da fração de ejeção reduzida.",
-   "Bloqueador de canal de cálcio associado a nitrato oral, combinação preferida para reduzir a pós-carga nesse cenário.",
-   "Amiodarona em dose de manutenção somada a anticoagulante oral, indicadas a toda fração de ejeção abaixo de 35% hoje."
+   "Trocar o enalapril por sacubitril-valsartana e iniciar inibidor do SGLT2",
+   "Manter o esquema e reavaliar em seis meses",
+   "Iniciar digoxina para melhorar sintomas",
+   "Acrescentar hidralazina com nitrato",
+   "Indicar cardiodesfibrilador imediatamente"
   ],
   "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESC 2026 — terapia medicamentosa fundamental na insuficiência cardíaca com fração reduzida",
-  "coment": "A terapia medicamentosa fundamental na fração de ejeção reduzida tem quatro componentes: betabloqueador; inibidor da enzima conversora, inibidor da neprilisina com bloqueador do receptor ou bloqueador do receptor de angiotensina; antagonista do receptor mineralocorticoide; e inibidor de SGLT2. As quatro classes têm efeito aditivo sobre mortalidade e devem ser iniciadas cedo, em doses baixas e tituladas em paralelo, em vez de sequencialmente ao longo de meses. O diurético trata congestão e alivia sintoma, mas não altera sobrevida. A diretriz de 2026 ainda tornou classe I o antagonista mineralocorticoide na insuficiência cardíaca crônica independentemente da fração de ejeção.",
+  "base": "ESC 2021/2023, insuficiência cardíaca: quatro pilares e substituição por ARNI",
+  "coment": "Com pressão e função renal preservadas, a troca do inibidor da enzima conversora por sacubitril-valsartana reduz mortalidade além do que o inibidor oferece, e o inibidor do SGLT2 é indicado independentemente de diabetes. Completar os quatro pilares antecede qualquer decisão sobre dispositivo, que se reavalia após três meses de terapia otimizada.",
   "porAlt": [
-   "Correta: os quatro pilares são betabloqueador, bloqueio do sistema renina-angiotensina, antagonista mineralocorticoide e inibidor de SGLT2.",
-   "O diurético de alça alivia congestão e sintoma, mas não reduz mortalidade; deixar a paciente só com ele é subtratamento grave.",
-   "A digoxina hoje é adjuvante para controle de sintomas e frequência, e o tiazídico não faz parte da base terapêutica atual.",
-   "Bloqueadores de canal de cálcio não di-hidropiridínicos são evitados na fração reduzida por efeito inotrópico negativo.",
-   "Amiodarona e anticoagulante não são indicados apenas pela fração baixa; dependem de arritmia e de risco embólico próprios."
+   "Correta: completa os quatro pilares antes de qualquer outra medida.",
+   "Manter esquema incompleto por seis meses desperdiça benefício disponível.",
+   "A digoxina alivia sintoma, mas não é o próximo passo com pilares incompletos.",
+   "Hidralazina com nitrato entra na intolerância ao bloqueio do sistema.",
+   "A avaliação para desfibrilador vem depois dos três meses de terapia otimizada."
   ]
  },
  {
-  "q": "Homem de 71 anos tem insuficiência cardíaca com fração de ejeção de 56%, índice de massa corporal de 36 kg/m², dispneia aos esforços e edema de membros inferiores. Já usa inibidor de SGLT2 e antagonista mineralocorticoide. Segundo a diretriz vigente, que terapia adicional pode ser considerada?",
+  "q": "Homem de 71 anos, hipertenso, refere dispneia aos esforços habituais e edema de tornozelos. Índice de massa corporal de 36 kg/m², pressão de 148/88 mmHg, frequência de 78 bpm, com estertores discretos em bases. O ecocardiograma mostra fração de ejeção de 56%, hipertrofia ventricular esquerda e pressão de enchimento elevada; o NT-proBNP é de 720 pg/mL. Não é diabético e a taxa de filtração glomerular é de 62 mL/min/1,73 m². Qual é a conduta com maior evidência de benefício?",
   "alts": [
-   "Betabloqueador em dose plena, que nesse fenótipo demonstra redução consistente de mortalidade cardiovascular.",
-   "Digoxina em dose de manutenção, indicada como terapia de base para todo paciente com fração preservada.",
-   "Anticoagulação oral plena, recomendada a todos os pacientes com esse fenótipo independentemente do ritmo.",
-   "Agonista do receptor de GLP-1, semaglutida ou tirzepatida, considerado em todo paciente com obesidade.",
-   "Bloqueador de canal de cálcio di-hidropiridínico, considerado o quarto pilar do tratamento nesse fenótipo."
+   "Iniciar inibidor do SGLT2",
+   "Iniciar digoxina em dose baixa",
+   "Iniciar betabloqueador para a hipertrofia",
+   "Indicar apenas restrição de sódio",
+   "Iniciar nitrato de ação prolongada"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2026 — recomendação classe IIa de semaglutida ou tirzepatida na fração preservada com obesidade",
-  "coment": "Na fração de ejeção preservada, a base medicamentosa passou a ser antagonista mineralocorticoide somado a inibidor de SGLT2. A diretriz de 2026 acrescentou recomendação classe IIa para semaglutida ou tirzepatida em pacientes com fração preservada e obesidade, apoiada em ensaios que mostraram melhora de sintomas, de capacidade funcional e de qualidade de vida nesse fenótipo — em que a obesidade não é comorbidade acessória, e sim parte do mecanismo. O betabloqueador não tem benefício de mortalidade demonstrado na fração preservada e é usado por indicação própria, como controle de frequência.",
+  "base": "ESC 2023, insuficiência cardíaca de fração preservada: EMPEROR-Preserved e DELIVER",
+  "coment": "Na insuficiência cardíaca de fração preservada, os inibidores do SGLT2 são a única classe com redução consistente do desfecho combinado de morte cardiovascular e internação, demonstrada nos ensaios EMPEROR-Preserved e DELIVER. Com obesidade associada, os análogos de GLP-1 entraram como opção adicional na diretriz de 2026.",
   "porAlt": [
-   "O betabloqueador não demonstrou redução de mortalidade na fração preservada; entra por indicação própria, não como pilar.",
-   "A digoxina não é terapia de base na fração preservada e pode ser mal tolerada, sobretudo no idoso com função renal limítrofe.",
-   "A anticoagulação depende de fibrilação atrial ou de outra indicação específica, e não do fenótipo de insuficiência cardíaca.",
-   "Correta: a diretriz de 2026 passou a considerar semaglutida ou tirzepatida na fração preservada quando há obesidade associada.",
-   "Não há quarto pilar com bloqueador de canal de cálcio; essa classe não integra o tratamento de base desse fenótipo."
+   "Correta: é a classe com benefício demonstrado nesse fenótipo.",
+   "A digoxina não tem benefício demonstrado na fração preservada.",
+   "O betabloqueador não modifica desfecho nesse fenótipo.",
+   "A restrição de sódio é medida adjuvante, não a de maior evidência.",
+   "O nitrato piorou o desempenho funcional no ensaio NEAT-HFpEF."
   ]
  },
  {
-  "q": "Homem de 69 anos chega à emergência com dispneia em repouso, estertores até terços médios, ortopneia e saturação de 88% em ar ambiente. A pressão é de 168/96 mmHg e há insuficiência cardíaca conhecida. Qual é a conduta inicial correta?",
+  "q": "Homem de 69 anos chega à emergência com dispneia intensa em repouso iniciada há duas horas. Está sentado, com tiragem, sudorese e agitação. Pressão de 196/112 mmHg, frequência de 128 bpm, saturação de 82% em ar ambiente, estertores crepitantes até os ápices e ortopneia. A radiografia mostra congestão bilateral em asa de borboleta. Não há dor torácica e o eletrocardiograma mostra sobrecarga ventricular esquerda sem supradesnivelamento. Qual é a conduta inicial?",
   "alts": [
-   "Expansão volêmica com cristaloide, para melhorar a pré-carga e o débito cardíaco desse paciente.",
-   "Betabloqueador endovenoso em bolus, para reduzir de imediato a frequência e o consumo de oxigênio.",
-   "Ventilação não invasiva com vasodilatador endovenoso e diurético de alça, tratando a congestão.",
-   "Apenas oxigênio por cateter nasal, adiando qualquer droga até que o ecocardiograma seja realizado.",
-   "Morfina endovenosa em dose alta como primeira medida, por reduzir a ansiedade e a pré-carga logo."
+   "Ventilação não invasiva e nitrato intravenoso",
+   "Reposição volêmica e oxigênio por cateter",
+   "Intubação orotraqueal imediata",
+   "Dobutamina em dose baixa",
+   "Furosemida oral e observação"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ESC 2026 — insuficiência cardíaca descompensada, perfil congestivo com pressão elevada",
-  "coment": "O quadro é insuficiência cardíaca descompensada com congestão pulmonar e pressão elevada, o perfil que mais se beneficia de vasodilatador. A conduta reúne ventilação não invasiva, que reduz o trabalho respiratório e a pré e a pós-carga, vasodilatador endovenoso titulado e diurético de alça para a congestão. Expandir volume nesse perfil piora o edema pulmonar. O betabloqueador endovenoso na descompensação aguda com congestão pode precipitar choque, e a morfina caiu em desuso pela associação com maior necessidade de ventilação invasiva e pior desfecho.",
+  "base": "ESC 2021. Insuficiência cardíaca aguda: edema agudo hipertensivo",
+  "coment": "É edema agudo hipertensivo: a pressão muito elevada produz redistribuição de volume para o pulmão. A ventilação não invasiva com pressão positiva melhora a oxigenação e reduz o trabalho respiratório e a necessidade de intubação; o vasodilatador intravenoso reduz a pós-carga rapidamente. O diurético entra, mas o paciente costuma estar euvolêmico e a pressão é o alvo principal.",
   "porAlt": [
-   "Expandir volume em paciente com edema pulmonar agrava a congestão e a hipoxemia — é o oposto do que o quadro pede.",
-   "Betabloqueador endovenoso na descompensação com congestão franca pode precipitar choque cardiogênico nesse paciente.",
-   "Correta: no perfil congestivo com pressão elevada, a combinação de ventilação não invasiva, vasodilatador e diurético é o padrão.",
-   "Adiar o tratamento até o ecocardiograma é perder tempo: a conduta inicial da congestão é clínica e não depende do exame.",
-   "A morfina foi associada a mais intubação e pior desfecho na descompensação, e deixou de ser medida inicial recomendada."
+   "Correta: pressão positiva e vasodilatador atacam o mecanismo.",
+   "Volume piora a congestão.",
+   "A intubação fica reservada à falha da ventilação não invasiva ou rebaixamento.",
+   "Inotrópico é para o perfil frio, e a pressão aqui está muito elevada.",
+   "A via oral não tem lugar no edema agudo."
   ]
  },
  {
-  "q": "Paciente com insuficiência cardíaca e fração de ejeção de 28% está em uso das quatro classes fundamentais em dose otimizada há seis meses. Mantém classe funcional III, ritmo sinusal, frequência de 78 bpm e QRS de 158 ms com padrão de bloqueio de ramo esquerdo. Qual é a próxima medida indicada?",
+  "q": "Homem de 60 anos com miocardiopatia isquêmica mantém fração de ejeção de 28% após seis meses de sacubitril-valsartana, carvedilol, espironolactona e dapagliflozina em doses-alvo. Está em classe funcional II, sem internações no período, com pressão de 112/70 mmHg, frequência de 64 bpm em ritmo sinusal e QRS de 104 ms. A expectativa de vida com boa qualidade excede um ano. Qual é a conduta?",
   "alts": [
-   "Aumentar a dose do diurético de alça até que os sintomas de classe funcional III desapareçam por fim.",
-   "Terapia de ressincronização cardíaca, indicada nesse padrão de condução com sintomas persistentes.",
-   "Suspender o betabloqueador, cuja bradicardia relativa explicaria a limitação funcional que ele apresenta.",
-   "Iniciar dobutamina em infusão contínua domiciliar, medida que melhora a sobrevida nesse cenário clínico.",
-   "Indicar transplante cardíaco de imediato, sem antes considerar qualquer terapia por dispositivo cardíaco."
+   "Indicar cardiodesfibrilador para prevenção primária",
+   "Indicar ressincronização cardíaca",
+   "Iniciar amiodarona profilática",
+   "Manter apenas a terapia medicamentosa",
+   "Encaminhar para transplante cardíaco"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESC 2026 — terapia por dispositivo na insuficiência cardíaca com fração reduzida e QRS alargado",
-  "coment": "Paciente sintomático apesar de terapia medicamentosa fundamental otimizada, em ritmo sinusal, com fração de ejeção reduzida e QRS alargado com morfologia de bloqueio de ramo esquerdo, é o perfil de maior benefício da ressincronização cardíaca: melhora sintomas, reduz internação e reduz mortalidade, com resposta tanto maior quanto mais largo o QRS e mais típica a morfologia. Aumentar diurético trata congestão, não a dissincronia. A dobutamina contínua é medida paliativa em doença avançada, associada a arritmia, e não melhora sobrevida. O transplante é considerado depois de esgotadas as terapias estabelecidas.",
+  "base": "ESC 2021, insuficiência cardíaca: desfibrilador na prevenção primária isquêmica",
+  "coment": "Fração de ejeção igual ou inferior a 35% após pelo menos três meses de terapia otimizada, em paciente sintomático de etiologia isquêmica e com expectativa de vida superior a um ano, é indicação de classe I de desfibrilador para prevenção primária de morte súbita. O QRS estreito afasta a ressincronização.",
   "porAlt": [
-   "Subir o diurético alivia congestão mas não corrige a dissincronia ventricular que limita este paciente já otimizado.",
-   "Correta: sintomas persistentes com fração reduzida, ritmo sinusal e bloqueio de ramo esquerdo largo indicam ressincronização.",
-   "Retirar o betabloqueador em fração reduzida piora o prognóstico; a frequência de 78 bpm não caracteriza bradicardia.",
-   "A dobutamina contínua é recurso paliativo na doença avançada, com mais arritmia e sem ganho de sobrevida demonstrado.",
-   "O transplante entra depois das terapias estabelecidas, entre elas o dispositivo que este paciente ainda não recebeu."
+   "Correta: etiologia isquêmica, fração ≤ 35% após terapia otimizada.",
+   "A ressincronização exige QRS de pelo menos 130 ms, e aqui é de 104 ms.",
+   "A amiodarona não reduz mortalidade na prevenção primária.",
+   "Manter só medicamento deixa de fora a prevenção de morte súbita indicada.",
+   "Ele está em classe II sem internações: não é insuficiência cardíaca avançada."
   ]
  },
  {
-  "q": "Mulher de 63 anos, hipertensa e diabética, é atendida em consulta de rotina sem sintomas cardiovasculares. O eletrocardiograma é normal e o ecocardiograma mostra hipertrofia ventricular esquerda com fração de ejeção de 60%. Segundo o estadiamento adotado pela diretriz vigente, em que estágio ela se encontra e o que isso implica?",
+  "q": "Mulher de 63 anos, hipertensa e diabética em uso de metformina e losartana, comparece a consulta de rotina sem sintomas cardiovasculares. Pressão de 134/82 mmHg, frequência de 72 bpm, índice de massa corporal de 29 kg/m². O eletrocardiograma de rotina mostra ritmo sinusal com onda Q de 0,04 s e 3 mm de profundidade em DII, DIII e aVF, com ondas T achatadas nessas derivações. Ela nega dor torácica atual ou passada. Qual é a conduta?",
   "alts": [
-   "Estágio A, porque a ausência de sintomas exclui qualquer alteração estrutural relevante no coração.",
-   "Estágio C, uma vez que a hipertrofia ventricular equivale a sintomas manifestos de insuficiência.",
-   "Estágio D, reservado a quem apresenta hipertrofia ventricular associada a diabetes de longa data.",
-   "Fora do estadiamento, que se aplica apenas a pacientes já sintomáticos e em acompanhamento regular.",
-   "Estágio B, com doença estrutural sem sintomas, o que já indica intervir para evitar a progressão."
+   "Investigar isquemia com exame não invasivo",
+   "Considerar achado normal e repetir em um ano",
+   "Iniciar dupla antiagregação empírica",
+   "Solicitar coronariografia imediata",
+   "Atribuir a alteração ao diabetes e observar"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "ESC 2026 — estadiamento em quatro estágios (A a D) e ênfase em prevenção",
-  "coment": "A diretriz de 2026 adotou quatro estágios: A, para quem tem fatores de risco sem doença estrutural ou sintomas; B, para doença estrutural ou funcional sem sintomas, situação antes chamada de pré-insuficiência cardíaca; C, para quem tem ou teve sintomas; e D, para doença avançada e refratária. A paciente tem hipertrofia ventricular sem sintomas, portanto estágio B — e a mensagem prática do estadiamento é exatamente essa: o estágio B pede intervenção, com controle rigoroso de pressão e escolha de hipoglicemiante com benefício cardiovascular, para impedir a progressão ao estágio sintomático.",
+  "base": "ESC 2024 (síndromes coronarianas crônicas: onda Q patológica e infarto silencioso",
+  "coment": "Ondas Q patológicas em derivações contíguas sugerem infarto prévio, possivelmente silencioso) apresentação mais frequente em diabéticos por neuropatia autonômica. O achado muda a estratificação de risco e exige investigação de isquemia e de função ventricular antes de qualquer decisão terapêutica.",
   "porAlt": [
-   "O estágio A é o de fatores de risco sem alteração estrutural, e a hipertrofia já demonstra acometimento do órgão.",
-   "O estágio C exige sintomas atuais ou pregressos de insuficiência cardíaca, que esta paciente não apresenta.",
-   "O estágio D descreve doença avançada e refratária ao tratamento, situação muito distante do quadro atual dela.",
-   "O estadiamento cobre desde quem apenas tem risco, justamente para orientar prevenção antes do primeiro sintoma.",
-   "Correta: doença estrutural sem sintomas é estágio B, e a diretriz enfatiza intervir aí para evitar a progressão."
+   "Correta: a onda Q patológica exige investigação, mesmo sem sintoma.",
+   "Onda Q de 3 mm em derivações contíguas não é variante normal.",
+   "Antiagregação dupla sem diagnóstico não se justifica.",
+   "O invasivo não é o primeiro passo em assintomática.",
+   "Atribuir ao diabetes sem investigar é justamente perder o infarto silencioso."
   ]
  }
 ]

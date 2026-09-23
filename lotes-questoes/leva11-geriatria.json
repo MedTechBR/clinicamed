@@ -1,74 +1,74 @@
 [
  {
-  "q": "Mulher de 81 anos, com insônia crônica, chega ao ambulatório em uso de clonazepam há oito anos, prescrito por outro serviço. Teve duas quedas no último ano, sem fratura, e refere sonolência diurna. Mora sozinha e é independente para atividades básicas. Qual é a conduta mais apropriada?",
+  "q": "Mulher de 81 anos com insônia crônica usa clonazepam 2 mg à noite há 8 anos, prescrito por outro serviço. Teve 2 quedas no último ano, sem fratura, e refere sonolência pela manhã. Mora sozinha, independente para atividades básicas, MoCA de 25. Não tem transtorno de ansiedade ativo, epilepsia ou uso de álcool. Aceita reduzir o remédio desde que não fique sem dormir. Qual é o plano de desprescrição mais adequado?",
   "alts": [
-   "Manter a dose atual e acrescentar zolpidem à noite, para melhorar a qualidade do sono dela.",
-   "Substituir por um benzodiazepínico de meia-vida mais longa, que costuma provocar menos queda.",
-   "Planejar a retirada gradual do benzodiazepínico, associando medidas de higiene do sono.",
-   "Suspender o clonazepam de forma abrupta hoje, já que a droga é inadequada para essa idade.",
-   "Acrescentar um anti-histamínico de primeira geração à noite, opção mais segura para idosos."
+   "Suspender o clonazepam hoje e prescrever zolpidem",
+   "Trocar por amitriptilina 25 mg à noite",
+   "Manter a dose pela dependência estabelecida",
+   "Reduzir 25% a cada 2 semanas, com terapia para insônia",
+   "Reduzir 50% por semana até suspender em 2 semanas"
+  ],
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Pottie et al., Deprescribing benzodiazepine receptor agonists: evidence-based clinical practice guideline, Canadian Family Physician, 2018; AGS Beers Criteria, 2023",
+  "coment": "Benzodiazepínicos em idosos aumentam quedas, fraturas, delirium e acidentes (Beers 2023). A diretriz canadense de desprescrição sugere reduzir cerca de 25% a cada 2 semanas e, perto do fim, 12,5% a cada 2 semanas, com pausas se surgirem sintomas de abstinência, e associar terapia cognitivo-comportamental para insônia, que aumenta o sucesso. Suspensão abrupta após uso prolongado pode causar abstinência e convulsão. Zolpidem e antidepressivo tricíclico trazem riscos semelhantes ou maiores.",
+  "porAlt": [
+   "Suspensão abrupta arrisca abstinência, e zolpidem também aumenta quedas.",
+   "Amitriptilina é fortemente anticolinérgica e inapropriada em idosos.",
+   "O tempo de uso não impede a desprescrição, que é bem-sucedida na maioria.",
+   "Retirada gradual de cerca de 25% a cada 2 semanas, com terapia cognitivo-comportamental para insônia.",
+   "Redução tão rápida após 8 anos de uso favorece abstinência."
+  ]
+ },
+ {
+  "q": "Homem de 84 anos, no terceiro dia de internação por pneumonia, desenvolveu delirium hiperativo. Já foram corrigidas hiponatremia e retenção urinária, a dor está controlada, os óculos e o aparelho auditivo estão com ele e a família permanece junto. Na madrugada, tenta arrancar o acesso e golpear a equipe, sem aceitar reorientação verbal. Não tem doença de Parkinson ou demência com corpos de Lewy. QTc de 440 ms. Qual é a conduta mais adequada?",
+  "alts": [
+   "Contenção mecânica prolongada até o amanhecer",
+   "Lorazepam endovenoso em dose plena",
+   "Prometazina 50 mg intramuscular",
+   "Quetiapina 100 mg por 3 meses",
+   "Haloperidol 0,5 mg, pelo menor tempo"
+  ],
+  "gab": 4,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "NICE Guideline CG103: Delirium: prevention, diagnosis and management in hospital and long-term care, 2023; AGS Beers Criteria, 2023",
+  "coment": "Medidas não farmacológicas e correção das causas são a base do tratamento do delirium. O NICE admite antipsicótico apenas quando o paciente está muito angustiado ou oferece risco a si ou a outros e a abordagem não farmacológica falhou: haloperidol na menor dose eficaz (por exemplo, 0,5 mg), pelo menor tempo possível (em geral até 1 semana), com monitorização de QTc e sinais extrapiramidais. Benzodiazepínico piora e prolonga o delirium, exceto na abstinência alcoólica ou de benzodiazepínicos. Contenção aumenta agitação e lesões.",
+  "porAlt": [
+   "Contenção prolongada aumenta agitação, lesões e duração do delirium.",
+   "Benzodiazepínico piora o delirium fora de abstinência.",
+   "Prometazina é anticolinérgica e piora a confusão.",
+   "Não se mantém antipsicótico por meses após o episódio.",
+   "Risco para si e outros apesar de medidas não farmacológicas: haloperidol em dose baixa, pelo menor tempo."
+  ]
+ },
+ {
+  "q": "Mulher de 78 anos com adenocarcinoma de cólon estádio III, operada há 4 semanas, é avaliada para quimioterapia adjuvante. Performance status ECOG 1 no relato da oncologia. Na consulta, refere ter parado de fazer compras sozinha, perdeu 6% do peso em 3 meses, tem 2 quedas recentes, usa 10 medicamentos e mora só. O escore de rastreio G8 foi 11. Qual é a conduta mais adequada antes de definir o esquema?",
+  "alts": [
+   "Iniciar o esquema padrão, pois ECOG 1 basta",
+   "Contraindicar a quimioterapia pela idade",
+   "Avaliação geriátrica ampla para orientar o tratamento",
+   "Reduzir a dose em 50% sem nova avaliação",
+   "Encaminhar diretamente para cuidados de fim de vida"
   ],
   "gab": 2,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "AGS Beers Criteria 2023 — medicamentos potencialmente inapropriados em idosos",
-  "coment": "Os critérios de Beers listam os benzodiazepínicos entre os medicamentos potencialmente inapropriados em idosos, por aumentarem comprometimento cognitivo, delirium, quedas e fraturas — e esta paciente já apresenta o desfecho que se queria evitar. A conduta correta é a desprescrição planejada, com redução gradual, tipicamente de 10% a 25% da dose a cada duas a quatro semanas, associada a terapia cognitivo-comportamental para insônia, que é a intervenção de primeira linha. A retirada abrupta após anos de uso pode provocar abstinência com ansiedade de rebote e convulsão. Zolpidem e anti-histamínicos de primeira geração constam da mesma lista e não são alternativas seguras.",
+  "nivel": "r3",
+  "base": "ASCO Guideline: Practical Assessment and Management of Vulnerabilities in Older Patients Receiving Chemotherapy, 2018 (atualização 2023); Mohile et al., GAP70+, Lancet, 2021",
+  "coment": "Performance status subestima vulnerabilidades em idosos. A ASCO (2018, atualizada em 2023) recomenda avaliação geriátrica para pessoas de 65 anos ou mais que vão receber quimioterapia, cobrindo função, quedas, comorbidades, cognição, depressão, nutrição, suporte social e polifarmácia. G8 de 14 ou menos indica vulnerabilidade. A avaliação prediz toxicidade grave e, em ensaios (GAP70+, GAIN), intervenções guiadas por ela reduziram toxicidade sem piorar sobrevida. Idade isolada não contraindica tratamento.",
   "porAlt": [
-   "O zolpidem consta da mesma lista de medicamentos inapropriados e associa-se a queda e fratura, somando risco em vez de resolver.",
-   "Meia-vida longa é justamente o que piora o acúmulo e a sonolência residual no idoso, com mais queda, e não menos.",
-   "Correta: desprescrição gradual com medidas não farmacológicas é a conduta indicada diante de quedas e sonolência em uso crônico.",
-   "A retirada abrupta após oito anos de uso arrisca abstinência, com ansiedade de rebote, insônia grave e até convulsão.",
-   "Anti-histamínicos de primeira geração são fortemente anticolinérgicos e constam da lista de inapropriados por delirium e retenção."
-  ]
- },
- {
-  "q": "Homem de 84 anos, internado há três dias por pneumonia, apresenta início agudo de desorientação, com flutuação ao longo do dia, desatenção e inversão do ciclo sono-vigília. Não há déficit focal novo e a tomografia de crânio é normal. Qual é a abordagem inicial correta?",
-  "alts": [
-   "Iniciar haloperidol de horário para todos os dias da internação, prevenindo novos episódios.",
-   "Buscar e corrigir todas as causas, com medidas ambientais e de reorientação como primeira linha.",
-   "Prescrever benzodiazepínico à noite, que seria a droga de escolha no manejo inicial do quadro.",
-   "Solicitar ressonância de crânio com contraste antes de qualquer intervenção terapêutica dele.",
-   "Instituir contenção mecânica no leito de rotina, garantindo a segurança do paciente à noite."
-  ],
-  "gab": 1,
-  "tema": "geriatria",
-  "cenario": "enf",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "AGS Beers Criteria 2023 e diretrizes de delirium do American Geriatrics Society, 2015 (reafirmadas)",
-  "coment": "O quadro é delirium: início agudo, curso flutuante, desatenção e alteração do nível de consciência. O tratamento é a correção da causa — infecção, dor, retenção urinária, constipação, distúrbio hidroeletrolítico, droga nova — somada a medidas não farmacológicas: reorientação, mobilização precoce, óculos e aparelho auditivo disponíveis, higiene do sono, presença de familiar. Antipsicótico é reservado para agitação que ameaça a segurança, na menor dose e pelo menor tempo, nunca de horário profilático. Benzodiazepínico piora o delirium, exceto na abstinência alcoólica. Contenção mecânica de rotina agrava agitação e aumenta lesão.",
-  "porAlt": [
-   "Antipsicótico de horário como profilaxia não reduz delirium e acrescenta risco cardiovascular e extrapiramidal ao idoso.",
-   "Correta: a base do tratamento é corrigir a causa e aplicar medidas não farmacológicas de reorientação e higiene do sono.",
-   "Benzodiazepínico agrava o delirium na imensa maioria dos casos; a exceção é o delirium por abstinência alcoólica.",
-   "A tomografia já é normal e não há déficit focal: pedir ressonância antes de tratar atrasa a correção da causa real.",
-   "A contenção mecânica de rotina aumenta agitação, lesão de pele e tempo de delirium, além de ferir a dignidade do paciente."
-  ]
- },
- {
-  "q": "Durante a consulta de um homem de 79 anos com hipertensão, diabetes e artrose, o residente aplica um instrumento que avalia funcionalidade, cognição, humor, mobilidade, nutrição, suporte social e medicamentos em uso, para então definir o plano de cuidado. Que abordagem é essa e qual sua principal utilidade?",
-  "alts": [
-   "Anamnese dirigida por aparelhos, que substitui com vantagem a avaliação funcional do idoso.",
-   "Triagem de fragilidade isolada, cujo único objetivo é decidir sobre internação de longa duração.",
-   "Escala prognóstica de mortalidade, usada apenas para definir quem recebe cuidados paliativos.",
-   "Avaliação geriátrica ampla, que identifica problemas não detectados na consulta convencional.",
-   "Rastreamento oncológico ampliado, que orienta quais exames de imagem devem ser solicitados."
-  ],
-  "gab": 3,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r1",
-  "base": "Diretrizes de avaliação geriátrica ampla — Ministério da Saúde, Caderno de Atenção Básica nº 19, e AGS 2023",
-  "coment": "A avaliação geriátrica ampla é multidimensional: examina funcionalidade nas atividades básicas e instrumentais, cognição, humor, mobilidade e risco de queda, nutrição, continência, visão e audição, suporte social e medicamentos em uso. Seu valor está em revelar o que a consulta orientada por queixa não alcança — declínio cognitivo inicial, depressão, sarcopenia, polifarmácia, isolamento —, condições que mudam o plano terapêutico e predizem desfecho melhor que o diagnóstico isolado. É ferramenta de planejamento do cuidado, não escala prognóstica nem critério para institucionalização.",
-  "porAlt": [
-   "A anamnese por aparelhos não capta funcionalidade, cognição, humor nem suporte social, que são os eixos que mudam o plano.",
-   "A avaliação vai muito além de triar fragilidade e não tem como finalidade decidir internação de longa permanência.",
-   "Não se trata de escala prognóstica: o objetivo é planejar o cuidado, e não selecionar quem recebe cuidados paliativos.",
-   "Correta: é a avaliação geriátrica ampla, cuja força está em detectar problemas que a consulta orientada por queixa não revela.",
-   "Rastreamento oncológico é apenas um item possível do plano, e não o objetivo de uma avaliação multidimensional."
+   "ECOG subestima vulnerabilidades como quedas, perda de peso e polifarmácia.",
+   "Idade isolada não contraindica quimioterapia.",
+   "Idosa com G8 alterado antes de quimioterapia: avaliação geriátrica ampla para prever toxicidade e adaptar o plano.",
+   "Reduzir dose sem avaliar vulnerabilidades é arbitrário.",
+   "Câncer estádio III operado tem intenção curativa."
   ]
  }
 ]

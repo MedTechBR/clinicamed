@@ -13,7 +13,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "ATA Guidelines for the Treatment of Hypothyroidism, 2014; NICE guideline on depression in adults, 2022",
-  "coment": "Quadro depressivo com fadiga, ganho de peso, sonolência, constipação e irregularidade menstrual, refratário a antidepressivo em dose plena, aponta para depressão secundária a causa orgânica — aqui, hipotireoidismo. Antes de rotular como depressão resistente e escalonar psicofármaco, a investigação obrigatória inclui TSH e T4 livre, hemograma, glicemia, função renal e hepática, vitamina B12 e revisão de fármacos. Corrigir a causa costuma resolver ou atenuar substancialmente o humor, e manter apenas o antidepressivo mantém a paciente sintomática.",
+  "coment": "Quadro depressivo com fadiga, ganho de peso, sonolência, constipação e irregularidade menstrual, refratário a antidepressivo em dose plena, aponta para depressão secundária a causa orgânica, aqui, hipotireoidismo. Antes de rotular como depressão resistente e escalonar psicofármaco, a investigação obrigatória inclui TSH e T4 livre, hemograma, glicemia, função renal e hepática, vitamina B12 e revisão de fármacos. Corrigir a causa costuma resolver ou atenuar substancialmente o humor, e manter apenas o antidepressivo mantém a paciente sintomática.",
   "porAlt": [
    "O transtorno depressivo persistente exige humor deprimido por pelo menos dois anos e não explica os achados sistêmicos.",
    "Correta: transtorno depressivo secundário a doença orgânica, com hipotireoidismo como principal suspeita.",
@@ -26,7 +26,7 @@
   }
  },
  {
-  "q": "Um homem de 68 anos, portador de enfisema pulmonar e de fibrilação atrial (FA) permanente, encontra-se internado na sala vermelha de uma unidade de pronto-atendimento em razão de exacerbação aguda de doença pulmonar obstrutiva crônica. Subitamente, ele apresenta dessaturação e apneia. A equipe observa que o paciente encontra-se em parada cardiorrespiratória, a despeito de manter o ritmo de FA — agora em alta resposta ventricular. Iniciados os procedimentos de reanimação cardiopulmonar, é constatada turgência jugular e ausência de expansibilidade em hemitórax direito, mesmo com a ventilação com bolsa-máscara; além disso, a percussão local revela timpanismo. Já foi administrada uma dose de 1 mg de epinefrina intravenosa. Diante do quadro desse paciente, a conduta indicada é",
+  "q": "Um homem de 68 anos, portador de enfisema pulmonar e de fibrilação atrial (FA) permanente, encontra-se internado na sala vermelha de uma unidade de pronto-atendimento em razão de exacerbação aguda de doença pulmonar obstrutiva crônica. Subitamente, ele apresenta dessaturação e apneia. A equipe observa que o paciente encontra-se em parada cardiorrespiratória, a despeito de manter o ritmo de FA, agora em alta resposta ventricular. Iniciados os procedimentos de reanimação cardiopulmonar, é constatada turgência jugular e ausência de expansibilidade em hemitórax direito, mesmo com a ventilação com bolsa-máscara; além disso, a percussão local revela timpanismo. Já foi administrada uma dose de 1 mg de epinefrina intravenosa. Diante do quadro desse paciente, a conduta indicada é",
   "alts": [
    "proceder à imediata cardioversão elétrica da fibrilação atrial",
    "realizar toracocentese imediata no 5º espaço intercostal direito",
@@ -39,7 +39,7 @@
   "comp": "urg",
   "nivel": "r1",
   "base": "AHA Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care, 2020 e atualização 2025; ATLS, 10ª edição",
-  "coment": "Parada cardiorrespiratória com atividade elétrica sem pulso, turgência jugular, ausência de expansibilidade e timpanismo em um hemitórax indica pneumotórax hipertensivo — uma das causas reversíveis que devem ser buscadas ativamente durante a reanimação. Em paciente com enfisema, o pneumotórax por ruptura de bolha é complicação conhecida. O tratamento é imediato e não espera radiografia: descompressão por punção com agulha, seguida de drenagem torácica. Nenhuma dose adicional de fármaco reverte a parada enquanto a causa mecânica persistir.",
+  "coment": "Parada cardiorrespiratória com atividade elétrica sem pulso, turgência jugular, ausência de expansibilidade e timpanismo em um hemitórax indica pneumotórax hipertensivo. Uma das causas reversíveis que devem ser buscadas ativamente durante a reanimação. Em paciente com enfisema, o pneumotórax por ruptura de bolha é complicação conhecida. O tratamento é imediato e não espera radiografia: descompressão por punção com agulha, seguida de drenagem torácica. Nenhuma dose adicional de fármaco reverte a parada enquanto a causa mecânica persistir.",
   "porAlt": [
    "Cardioversão não trata atividade elétrica sem pulso, e a fibrilação atrial não é a causa da parada.",
    "Correta: descompressão torácica imediata pelo pneumotórax hipertensivo.",
@@ -64,7 +64,7 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Diabetes Association — Standards of Care in Diabetes, 2025; KDIGO 2024 CKD guideline; Diretriz da Sociedade Brasileira de Diabetes, 2024",
+  "base": "American Diabetes Association. Standards of Care in Diabetes, 2025; KDIGO 2024 CKD guideline; Diretriz da Sociedade Brasileira de Diabetes, 2024",
   "coment": "Paciente com diabetes tipo 2, doença cardiovascular aterosclerótica estabelecida e albuminúria elevada tem indicação de inibidor de SGLT2 independentemente do valor da hemoglobina glicada: a classe reduz mortalidade cardiovascular, hospitalização por insuficiência cardíaca e progressão da doença renal. A conduta soma-se ao controle glicêmico, e não o substitui. Confirmar a albuminúria em nova amostra faz parte do seguimento, mas não deve atrasar o início do fármaco, e proteinúria de 24 horas foi substituída pela relação albumina-creatinina em amostra isolada.",
   "porAlt": [
    "Manter apenas metformina e pedir proteinúria de 24 horas adia uma indicação já estabelecida.",
@@ -90,8 +90,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Endocrine Society Clinical Practice Guideline — Pheochromocytoma and Paraganglioma, 2014; Diretriz Brasileira de Hipertensão Arterial, 2025",
-  "coment": "A tríade de cefaleia, sudorese e palpitação com hipertensão paroxística em paciente jovem é a apresentação clássica do feocromocitoma, e o rastreio se faz por metanefrinas fracionadas plasmáticas livres ou urinárias de 24 horas — elevadas mais de duas a três vezes acima do limite, como aqui, o diagnóstico é bioquímico e o passo seguinte é localizar o tumor por tomografia ou ressonância de abdome. No tratamento, o bloqueio alfa-adrenérgico precede obrigatoriamente o betabloqueio: inverter a ordem provoca crise hipertensiva por vasoconstrição sem oposição.",
+  "base": "Endocrine Society Clinical Practice Guideline: Pheochromocytoma and Paraganglioma, 2014; Diretriz Brasileira de Hipertensão Arterial, 2025",
+  "coment": "A tríade de cefaleia, sudorese e palpitação com hipertensão paroxística em paciente jovem é a apresentação clássica do feocromocitoma, e o rastreio se faz por metanefrinas fracionadas plasmáticas livres ou urinárias de 24 horas. Elevadas mais de duas a três vezes acima do limite, como aqui, o diagnóstico é bioquímico e o passo seguinte é localizar o tumor por tomografia ou ressonância de abdome. No tratamento, o bloqueio alfa-adrenérgico precede obrigatoriamente o betabloqueio: inverter a ordem provoca crise hipertensiva por vasoconstrição sem oposição.",
   "porAlt": [
    "O hipertireoidismo está afastado: TSH e hormônios tireoidianos estão dentro da faixa de referência.",
    "Correta: feocromocitoma, com metanefrina e normetanefrina urinárias muito elevadas.",
@@ -143,7 +143,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "European guideline on chronic pruritus, 2019; American Geriatrics Society Beers Criteria, 2023",
-  "coment": "Prurido crônico sem lesão cutânea primária, com exames de função renal e hepática e hemograma normais, obriga a revisar a prescrição antes de qualquer terapia sintomática. O tramadol é opioide, e o prurido induzido por opioide é mecanismo bem estabelecido, mediado centralmente e não histaminérgico — daí a resposta pobre a anti-histamínico. A conduta é retirar o agente causal, substituindo-o por analgésico simples, e só depois considerar gabapentinoide ou outra terapia dirigida se o sintoma persistir.",
+  "coment": "Prurido crônico sem lesão cutânea primária, com exames de função renal e hepática e hemograma normais, obriga a revisar a prescrição antes de qualquer terapia sintomática. O tramadol é opioide, e o prurido induzido por opioide é mecanismo bem estabelecido, mediado centralmente e não histaminérgico. Daí a resposta pobre a anti-histamínico. A conduta é retirar o agente causal, substituindo-o por analgésico simples, e só depois considerar gabapentinoide ou outra terapia dirigida se o sintoma persistir.",
   "porAlt": [
    "Hidratação e corticoide tópico tratam a xerose e as escoriações, mas não a causa do prurido.",
    "Correta: substituir o tramadol, opioide reconhecidamente causador de prurido crônico.",
@@ -169,9 +169,9 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "DSM-5-TR (APA, 2022); NICE guideline on generalised anxiety disorder and panic disorder, 2020",
-  "coment": "A agorafobia se define pelo medo e pela esquiva de situações das quais possa ser difícil escapar ou obter ajuda caso ocorra uma crise — transporte público, elevadores, filas, espaços fechados ou abertos, multidões. Evitar o elevador especificamente por medo de ter uma crise e não conseguir sair é o desenho exato desse diagnóstico, distinto da claustrofobia, em que o temor recai sobre o ambiente fechado em si. O tratamento combina terapia cognitivo-comportamental com exposição e antidepressivo, sendo a exposição o componente que reverte a esquiva.",
+  "coment": "A agorafobia se define pelo medo e pela esquiva de situações das quais possa ser difícil escapar ou obter ajuda caso ocorra uma crise. Transporte público, elevadores, filas, espaços fechados ou abertos, multidões. Evitar o elevador especificamente por medo de ter uma crise e não conseguir sair é o desenho exato desse diagnóstico, distinto da claustrofobia, em que o temor recai sobre o ambiente fechado em si. O tratamento combina terapia cognitivo-comportamental com exposição e antidepressivo, sendo a exposição o componente que reverte a esquiva.",
   "porAlt": [
-   "Correta: agorafobia — esquiva por medo de não conseguir escapar ou obter ajuda durante uma crise.",
+   "Correta: agorafobia. Esquiva por medo de não conseguir escapar ou obter ajuda durante uma crise.",
    "Na claustrofobia o medo é do ambiente fechado em si, e não da impossibilidade de socorro em uma crise.",
    "A ansiedade generalizada é preocupação persistente e difusa, e o enunciado afirma não haver queixas entre as crises.",
    "A fobia específica se dirige a um objeto ou situação delimitada, sem a lógica da crise e do socorro."
@@ -182,20 +182,20 @@
   }
  },
  {
-  "q": "Homem, 58 anos de idade, procura atendimento por dispneia. A médica residente, que realizou o atendimento, observou a presença de um achado clínico que favoreceu, significativamente, a possibilidade de se tratar de um caso de insuficiência cardíaca. A partir da análise da tabela, assinale a alternativa que contém o achado clínico observado.\n(Cada alternativa traz: Sinal clínico — Sensibilidade (%); Especificidade (%); Razão de verossimilhança positiva; Razão de verossimilhança negativa.)",
+  "q": "Homem, 58 anos de idade, procura atendimento por dispneia. A médica residente, que realizou o atendimento, observou a presença de um achado clínico que favoreceu, significativamente, a possibilidade de se tratar de um caso de insuficiência cardíaca. A partir da análise da tabela, assinale a alternativa que contém o achado clínico observado.\n(Cada alternativa traz: Sinal clínico (Sensibilidade (%); Especificidade (%); Razão de verossimilhança positiva; Razão de verossimilhança negativa.)",
   "alts": [
-   "Hepatomegalia — Sensibilidade 3,2%; Especificidade 97%; RV+ 1,07; RV- 1,00",
-   "Terceira bulha — Sensibilidade 10%; Especificidade 85%; RV+ 0,67; RV- 1,06",
-   "Estertores — Sensibilidade 29%; Especificidade 77%; RV+ 1,26; RV- 0,92",
-   "Reflexo abdomino jugular — Sensibilidade 33%; Especificidade 94%; RV+ 5,50; RV- 0,71"
+   "Hepatomegalia) Sensibilidade 3,2%; Especificidade 97%; RV+ 1,07; RV- 1,00",
+   "Terceira bulha (Sensibilidade 10%; Especificidade 85%; RV+ 0,67; RV- 1,06",
+   "Estertores) Sensibilidade 29%; Especificidade 77%; RV+ 1,26; RV- 0,92",
+   "Reflexo abdomino jugular: Sensibilidade 33%; Especificidade 94%; RV+ 5,50; RV- 0,71"
   ],
   "gab": 3,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "JAMA Rational Clinical Examination — Does this dyspneic patient have congestive heart failure?; ESC Guidelines for heart failure, 2021",
-  "coment": "A razão de verossimilhança positiva é o que mede quanto um achado aumenta a probabilidade da doença: valores acima de 5 produzem mudança importante, e acima de 10, decisiva. Entre os sinais listados, o refluxo abdominojugular tem razão de verossimilhança positiva de 5,5 — o único que desloca de forma relevante a probabilidade de insuficiência cardíaca. Sensibilidade baixa com especificidade alta é o padrão dos sinais que servem para confirmar, não para excluir: a ausência deles não afasta o diagnóstico, como mostram as razões de verossimilhança negativas próximas de 1.",
+  "base": "JAMA Rational Clinical Examination. Does this dyspneic patient have congestive heart failure?; ESC Guidelines for heart failure, 2021",
+  "coment": "A razão de verossimilhança positiva é o que mede quanto um achado aumenta a probabilidade da doença: valores acima de 5 produzem mudança importante, e acima de 10, decisiva. Entre os sinais listados, o refluxo abdominojugular tem razão de verossimilhança positiva de 5,5. O único que desloca de forma relevante a probabilidade de insuficiência cardíaca. Sensibilidade baixa com especificidade alta é o padrão dos sinais que servem para confirmar, não para excluir: a ausência deles não afasta o diagnóstico, como mostram as razões de verossimilhança negativas próximas de 1.",
   "porAlt": [
    "Hepatomegalia tem razão de verossimilhança positiva de 1,07, praticamente sem efeito sobre a probabilidade.",
    "A terceira bulha, na tabela apresentada, tem razão de verossimilhança positiva menor que 1, o que reduziria a probabilidade.",
@@ -221,7 +221,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "IDSA guidelines on intravascular catheter-related infection e sobre uso racional de antimicrobianos; ANVISA, critérios diagnósticos de infecção relacionada à assistência à saúde, 2017",
-  "coment": "Estafilococo coagulase-negativo isolado em um único frasco, de um único par de hemoculturas, com o par restante negativo, é quase sempre contaminação de coleta, e não bacteriemia verdadeira — que exigiria crescimento em dois ou mais frascos de sítios diferentes ou tempo de positivação sugestivo. O paciente tem quadro de pneumonia hospitalar após oito dias de internação, e a terapia deve cobrir esse foco, com esquema antipseudomonas. Tratar o contaminante com vancomicina expõe a nefrotoxicidade e a pressão seletiva sem benefício.",
+  "coment": "Estafilococo coagulase-negativo isolado em um único frasco, de um único par de hemoculturas, com o par restante negativo, é quase sempre contaminação de coleta, e não bacteriemia verdadeira. Que exigiria crescimento em dois ou mais frascos de sítios diferentes ou tempo de positivação sugestivo. O paciente tem quadro de pneumonia hospitalar após oito dias de internação, e a terapia deve cobrir esse foco, com esquema antipseudomonas. Tratar o contaminante com vancomicina expõe a nefrotoxicidade e a pressão seletiva sem benefício.",
   "porAlt": [
    "Ceftriaxona com azitromicina cobre pneumonia comunitária, inadequada após oito dias de internação.",
    "Correta: piperacilina com tazobactam, cobrindo pneumonia hospitalar, sem tratar o provável contaminante.",
@@ -247,7 +247,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "MDS Clinical Diagnostic Criteria for Parkinson’s Disease, 2015; American Geriatrics Society Beers Criteria, 2023",
-  "coment": "Parkinsonismo de instalação subaguda durante internação, simétrico e progressivo, é fortemente sugestivo de causa medicamentosa — ao contrário da doença de Parkinson idiopática, que é assimétrica e insidiosa. Os agentes são bloqueadores dopaminérgicos: metoclopramida, bromoprida, haloperidol, flunarizina, cinarizina e antipsicóticos típicos. A conduta é suspender o fármaco, com melhora habitual em semanas a meses, ainda que possa demorar. Carvedilol, losartana e clonazepam não bloqueiam receptores dopaminérgicos e não causam parkinsonismo.",
+  "coment": "Parkinsonismo de instalação subaguda durante internação, simétrico e progressivo, é fortemente sugestivo de causa medicamentosa. Ao contrário da doença de Parkinson idiopática, que é assimétrica e insidiosa. Os agentes são bloqueadores dopaminérgicos: metoclopramida, bromoprida, haloperidol, flunarizina, cinarizina e antipsicóticos típicos. A conduta é suspender o fármaco, com melhora habitual em semanas a meses, ainda que possa demorar. Carvedilol, losartana e clonazepam não bloqueiam receptores dopaminérgicos e não causam parkinsonismo.",
   "porAlt": [
    "O clonazepam pode causar sedação e ataxia, mas não parkinsonismo.",
    "O carvedilol pode causar tremor postural leve, não a tríade de rigidez, bradicinesia e tremor de repouso.",
@@ -273,7 +273,7 @@
   "comp": "tto",
   "nivel": "r2",
   "base": "KDIGO Clinical Practice Guideline on Blood Pressure Management in CKD, 2021; Sociedade Brasileira de Nefrologia, diretrizes de hemodiálise",
-  "coment": "Em paciente dialítico, a hipertensão persistente é, na maioria das vezes, expressão de sobrecarga de volume — peso acima do peso seco —, e não de falha de anti-hipertensivo. Por isso, a etapa fundamental do exame físico é pesar o paciente e compará-lo ao peso seco, junto da avaliação de turgência jugular, edema e ausculta pulmonar, para reajustar a ultrafiltração na próxima sessão. Acrescentar fármaco sem corrigir o volume trata o número e não o mecanismo, e a cefaleia relatada é a habitual do paciente, sem sinais de emergência hipertensiva.",
+  "coment": "Em paciente dialítico, a hipertensão persistente é, na maioria das vezes, expressão de sobrecarga de volume, peso acima do peso seco, e não de falha de anti-hipertensivo. Por isso, a etapa fundamental do exame físico é pesar o paciente e compará-lo ao peso seco, junto da avaliação de turgência jugular, edema e ausculta pulmonar, para reajustar a ultrafiltração na próxima sessão. Acrescentar fármaco sem corrigir o volume trata o número e não o mecanismo, e a cefaleia relatada é a habitual do paciente, sem sinais de emergência hipertensiva.",
   "porAlt": [
    "O fundo de olho é útil na suspeita de emergência hipertensiva, que não se caracteriza aqui.",
    "Correta: medir o peso e compará-lo ao peso seco, para reajustar a ultrafiltração.",

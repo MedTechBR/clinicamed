@@ -1,242 +1,242 @@
 [
  {
-  "q": "Paciente idoso com sarcopenia e perda de massa muscular progressiva. Qual é a intervenção com melhor evidência?",
+  "q": "Mulher de 81 anos refere dificuldade para levantar da cadeira e abrir potes. SARC-F de 6. Força de preensão de 14 kg. Teste de levantar da cadeira 5 vezes em 17 segundos. Velocidade de marcha de 0,7 m/s. Índice de massa corporal de 24 kg/m². DXA com massa muscular apendicular de 5,1 kg (índice abaixo do corte para mulheres). Sem doença neurológica, hipotireoidismo ou uso de corticoide. Pelo EWGSOP2, qual é a classificação?",
   "alts": [
-   "Repouso prolongado com dieta hipocalórica como estratégia principal de manejo da sarcopenia no idoso neste caso.",
-   "Suplementação isolada de vitamina C em dose alta como intervenção de escolha para a sarcopenia descrita agora.",
-   "Uso de anabolizante hormonal contínuo como primeira linha de tratamento da sarcopenia em pacientes idosos agora.",
-   "Restrição proteica rigorosa da dieta para reduzir a sobrecarga renal do paciente idoso com sarcopenia agora.",
-   "Exercício resistido progressivo com aporte proteico adequado, mantendo sempre acompanhamento nutricional regular."
-  ],
-  "gab": 4,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "EWGSOP2 consensus on sarcopenia, 2019 com revisão 2023; ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022",
-  "coment": "A sarcopenia é definida por baixa força muscular associada a baixa quantidade ou qualidade de músculo, com desempenho físico reduzido indicando gravidade. A intervenção com melhor evidência é o exercício resistido progressivo, associado a aporte proteico adequado, tipicamente de 1,0 a 1,2 gramas por quilo ao dia no idoso saudável e mais em situações de doença. Avalia-se também vitamina D, causas secundárias e revisão de medicamentos que contribuem.",
-  "porAlt": [
-   "Repouso e restrição calórica aceleram a perda de massa muscular no paciente idoso sarcopênico.",
-   "A vitamina C isolada não tem evidência de benefício no tratamento da sarcopenia do idoso.",
-   "Anabolizantes não são primeira linha e trazem efeitos adversos relevantes nessa população.",
-   "A restrição proteica agrava a sarcopenia; o idoso necessita de aporte proteico maior, não menor.",
-   "Correta: exercício resistido progressivo com aporte proteico adequado e acompanhamento nutricional."
-  ]
- },
- {
-  "q": "Paciente idoso com múltiplas comorbidades apresenta prescrição com potencial interação medicamentosa grave. Qual é a conduta?",
-  "alts": [
-   "Manter a prescrição inalterada e apenas orientar o paciente a observar o surgimento de efeitos adversos agora.",
-   "Acrescentar um novo fármaco para tratar cada efeito adverso que surgir da interação identificada nesse contexto.",
-   "Suspender todos os medicamentos simultaneamente, sem qualquer avaliação individual de cada indicação neste caso.",
-   "Encaminhar ao especialista sem qualquer revisão da prescrição durante o atendimento realizado hoje neste caso.",
-   "Revisar a prescrição e ajustar ou substituir os fármacos envolvidos, priorizando sempre segurança e benefício real."
-  ],
-  "gab": 4,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r2",
-  "base": "AGS Beers Criteria, 2023; STOPP/START version 3, 2023",
-  "coment": "A revisão de prescrição no idoso com polifarmácia identifica interações, duplicidades, fármacos sem indicação atual e cascatas de prescrição. A conduta é ajustar doses, substituir por alternativas mais seguras ou suspender de forma gradual o que não traz benefício, sempre pactuando com o paciente e reavaliando. Acrescentar fármaco para tratar efeito adverso de outro é a cascata de prescrição, um dos erros mais comuns e evitáveis na geriatria.",
-  "porAlt": [
-   "Manter a prescrição com interação grave conhecida expõe o paciente a dano previsível e evitável.",
-   "Acrescentar fármacos para tratar efeitos adversos configura a cascata de prescrição a ser evitada.",
-   "Suspender tudo simultaneamente impede identificar responsabilidades e pode descompensar condições.",
-   "O encaminhamento não substitui a revisão da prescrição, que compete ao médico assistente.",
-   "Correta: revisar a prescrição e ajustar ou substituir os fármacos, priorizando segurança e benefício real."
-  ]
- },
- {
-  "q": "Paciente idoso com dor crônica não oncológica pergunta sobre opioide de uso contínuo. Qual é a orientação?",
-  "alts": [
-   "Iniciar opioide potente de uso contínuo como primeira linha para toda dor crônica não oncológica no idoso neste caso.",
-   "Não oferecer qualquer tratamento para a dor crônica no idoso, dada a ausência de opções seguras disponíveis agora.",
-   "Prescrever anti-inflamatório não hormonal contínuo em dose alta como primeira escolha no paciente idoso neste caso.",
-   "Prescrever benzodiazepínico contínuo como tratamento de escolha da dor crônica não oncológica no idoso neste caso.",
-   "Priorizar medidas não farmacológicas e analgésicos mais seguros, reservando sempre o opioide a situações selecionadas."
-  ],
-  "gab": 4,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "CDC Clinical Practice Guideline for Prescribing Opioids for Pain, 2022; AGS Beers Criteria, 2023",
-  "coment": "Na dor crônica não oncológica, as diretrizes priorizam tratamento não farmacológico — exercício, fisioterapia, terapia cognitivo-comportamental — e fármacos não opioides, com opioide reservado a casos selecionados em que o benefício supera os riscos, na menor dose e pelo menor tempo, com metas funcionais definidas. No idoso, anti-inflamatórios contínuos trazem risco digestivo, renal e cardiovascular, e benzodiazepínicos combinados a opioides aumentam a mortalidade.",
-  "porAlt": [
-   "O opioide não é primeira linha na dor crônica não oncológica e traz riscos relevantes no idoso.",
-   "Existem opções seguras e eficazes, e não tratar a dor crônica prejudica função e qualidade de vida.",
-   "Anti-inflamatórios contínuos no idoso trazem risco digestivo, renal e cardiovascular importante.",
-   "O benzodiazepínico não é analgésico e sua associação a opioides aumenta a mortalidade.",
-   "Correta: priorizar medidas não farmacológicas e analgésicos mais seguros, com opioide em casos selecionados."
-  ]
- },
- {
-  "q": "Paciente idoso institucionalizado apresenta perda de peso não intencional de 8% em seis meses. Qual é a conduta?",
-  "alts": [
-   "Atribuir a perda de peso exclusivamente ao envelhecimento e não realizar qualquer investigação adicional.",
-   "Iniciar imediatamente nutrição parenteral total em todos os idosos com perda de peso não intencional agora.",
-   "Prescrever apenas estimulante de apetite sem qualquer investigação das causas da perda ponderal observada.",
-   "Indicar sonda nasoenteral imediatamente em todos os casos de perda de peso não intencional no idoso agora.",
-   "Investigar causas clínicas, medicamentosas e sociais, avaliando sempre deglutição, humor e acesso ao alimento."
-  ],
-  "gab": 4,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r2",
-  "base": "ESPEN guideline on clinical nutrition and hydration in geriatrics, 2022; AGS guidance on unintentional weight loss, revisão 2023",
-  "coment": "Perda de peso não intencional acima de cinco por cento em seis meses é sinal de alarme e exige investigação sistemática: neoplasia, infecção crônica, doença tireoidiana, depressão, demência, disfagia, dor, saúde bucal precária, fármacos que reduzem apetite ou alteram o paladar, e fatores sociais como insegurança alimentar e isolamento. A abordagem é multidimensional, e intervenções nutricionais invasivas só entram após identificar e tratar as causas reversíveis.",
-  "porAlt": [
-   "A perda de peso não é parte do envelhecimento normal e sempre exige investigação sistemática.",
-   "A nutrição parenteral tem indicações restritas e não é a resposta inicial à perda ponderal.",
-   "O estimulante de apetite sem investigar mascara a causa e não corrige o problema de base.",
-   "A sonda não é conduta inicial e não substitui a investigação das causas reversíveis da perda.",
-   "Correta: investigar causas clínicas, medicamentosas e sociais, avaliando deglutição, humor e acesso ao alimento."
-  ]
- },
- {
-  "q": "Paciente idoso com doença avançada e prognóstico limitado tem múltiplos medicamentos preventivos de longo prazo. Qual é a conduta?",
-  "alts": [
-   "Manter todos os medicamentos preventivos indefinidamente, independentemente do prognóstico do paciente idoso agora.",
-   "Suspender abruptamente todos os medicamentos, incluindo os que controlam sintomas do paciente com doença avançada.",
-   "Desprescrever preventivos cujo benefício excede a expectativa de vida, mantendo sempre o foco em sintomas e conforto.",
-   "Acrescentar novos medicamentos preventivos para reduzir o risco cardiovascular de longo prazo do paciente agora já.",
-   "Manter apenas os medicamentos preventivos e suspender os que controlam sintomas para reduzir a polifarmácia agora."
+   "Sarcopenia provável, sem confirmação",
+   "Sarcopenia confirmada",
+   "Sarcopenia grave",
+   "Fragilidade isolada, sem sarcopenia",
+   "Força normal, sem sarcopenia"
   ],
   "gab": 2,
   "tema": "geriatria",
   "cenario": "amb",
-  "comp": "prev",
+  "comp": "dx",
   "nivel": "r3",
-  "base": "AGS Beers Criteria, 2023; Deprescribing.org guidelines, revisão 2023; ANCP — Manual de Cuidados Paliativos, 2021",
-  "coment": "Medicamentos preventivos têm tempo até o benefício: estatina em prevenção primária, bisfosfonato e controle glicêmico rígido levam anos para produzir ganho. Quando a expectativa de vida é menor que esse intervalo, o paciente carrega os efeitos adversos e o custo sem alcançar o benefício, e a desprescrição é apropriada. Já os fármacos que controlam sintomas — analgésicos, antieméticos, broncodilatadores — devem ser mantidos ou otimizados.",
+  "base": "Cruz-Jentoft et al., Sarcopenia: revised European consensus on definition and diagnosis (EWGSOP2), Age and Ageing, 2019",
+  "coment": "O EWGSOP2 (2019) define sarcopenia provável pela força baixa (preensão abaixo de 16 kg em mulheres ou levantar da cadeira 5 vezes em mais de 15 segundos), confirmada pela massa muscular baixa (DXA ou bioimpedância) e grave quando há também desempenho físico baixo (velocidade de marcha de 0,8 m/s ou menos, entre outros). Ela preenche os 3. O tratamento é treino de resistência progressivo com aporte proteico adequado (1,0 a 1,2 g/kg/dia), sem fármaco aprovado.",
   "porAlt": [
-   "Manter todos os preventivos entrega efeitos adversos sem alcançar o benefício, que é tardio.",
-   "Suspender tudo abruptamente inclui fármacos de sintomas e provoca sofrimento evitável.",
-   "Correta: desprescrever preventivos cujo benefício excede a expectativa, focando em sintomas e conforto.",
-   "Acrescentar preventivos com prognóstico limitado amplia a polifarmácia sem qualquer ganho.",
-   "Inverter as prioridades retira justamente o que traz alívio e mantém o que não trará benefício."
+   "A massa muscular baixa já confirma o diagnóstico.",
+   "Confirmada, mas o desempenho físico baixo a torna grave.",
+   "Força baixa, massa baixa e marcha de 0,7 m/s: sarcopenia grave pelo EWGSOP2.",
+   "Sarcopenia e fragilidade podem coexistir; aqui os critérios de sarcopenia estão presentes.",
+   "Preensão de 14 kg está abaixo do corte de 16 kg para mulheres."
   ]
  },
  {
-  "q": "Paciente com câncer de mama em tratamento hormonal adjuvante pergunta sobre saúde óssea. Qual é a conduta?",
+  "q": "Homem de 79 anos com insuficiência cardíaca de fração reduzida usa enalapril 10 mg duas vezes ao dia, espironolactona 25 mg e carvedilol. Potássio de 5,0 mEq/L e clearance de 42 mL/min. Tem cistite não complicada (disúria, polaciúria, sem febre ou dor lombar), e a urocultura anterior mostrou Escherichia coli sensível a sulfametoxazol-trimetoprima, nitrofurantoína e fosfomicina. Pesa 70 kg e não tem alergias conhecidas. Qual é o antibiótico mais adequado?",
   "alts": [
-   "Não realizar qualquer avaliação óssea, pois o tratamento hormonal não afeta a densidade mineral do osso agora.",
-   "Suspender o tratamento hormonal adjuvante em todas as pacientes por causa do risco de perda óssea associada agora.",
-   "Prescrever apenas exercício aeróbico leve como única medida de proteção óssea durante o tratamento hormonal agora.",
-   "Avaliar densidade mineral óssea e repor cálcio e vitamina D, considerando sempre antirreabsortivo conforme o risco.",
-   "Iniciar corticoide sistêmico contínuo como estratégia de proteção óssea durante a hormonioterapia adjuvante agora."
+   "Sulfametoxazol-trimetoprima por 3 dias",
+   "Ciprofloxacino por 7 dias",
+   "Sulfametoxazol-trimetoprima em dose dobrada",
+   "Fosfomicina 3 g dose única",
+   "Amoxicilina por 7 dias"
   ],
   "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AGS Beers Criteria, 2023 (interações fármaco-fármaco); IDSA Guideline for Acute Uncomplicated Cystitis and Pyelonephritis in Women, 2011",
+  "coment": "Trimetoprima bloqueia o canal epitelial de sódio no néfron distal, como a amilorida, e reduz a excreção de potássio. Somado a IECA e espironolactona, com clearance reduzido e potássio já de 5,0, causa hipercalemia grave e aumento de morte súbita (Beers 2023 lista essa interação). Fosfomicina em dose única é segura aqui. Nitrofurantoína é aceitável acima de 30 mL/min pelo Beers 2023, mas fosfomicina evita a questão. Fluoroquinolona tem efeitos adversos graves em idosos e deve ser poupada na cistite.",
+  "porAlt": [
+   "Trimetoprima com IECA e espironolactona causa hipercalemia grave.",
+   "Fluoroquinolona deve ser poupada na cistite pelos efeitos adversos graves.",
+   "Dose maior de trimetoprima agrava ainda mais a hipercalemia.",
+   "Cistite em idoso com IECA, espironolactona e potássio limítrofe: fosfomicina dose única, evitando trimetoprima.",
+   "Amoxicilina tem alta resistência em Escherichia coli."
+  ]
+ },
+ {
+  "q": "Mulher de 80 anos tem dor crônica no joelho direito por osteoartrite, que limita suas caminhadas. Usou paracetamol 3 g/dia com pouco alívio. Tem hipertensão controlada, clearance de 48 mL/min e história de hemorragia digestiva há 5 anos. Pede tramadol, que uma vizinha usa. Sem derrame articular importante. Índice de massa corporal de 29 kg/m². Não tem dispepsia atual e mora sozinha, independente. Qual é o tratamento farmacológico mais adequado para o próximo passo?",
+  "alts": [
+   "Diclofenaco tópico no joelho",
+   "Tramadol 50 mg a cada 6 horas contínuo",
+   "Naproxeno oral 500 mg duas vezes ao dia",
+   "Oxicodona de liberação prolongada",
+   "Prednisona 10 mg/dia"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACR/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, 2019; CDC Clinical Practice Guideline for Prescribing Opioids for Pain, 2022",
+  "coment": "O ACR (2019) recomenda fortemente AINE tópico na osteoartrite de joelho, que é preferível ao oral em idosos pela absorção sistêmica baixa e menor risco gastrointestinal, renal e cardiovascular. Com história de hemorragia digestiva e clearance reduzido, AINE oral é inapropriado. O ACR recomenda contra opioides de longo prazo; tramadol aumenta quedas, delirium, hiponatremia e hipoglicemia em idosos. Exercício, perda de peso e infiltração com corticoide complementam.",
+  "porAlt": [
+   "Osteoartrite de joelho em idosa de risco: diclofenaco tópico, somado a exercício e perda de peso.",
+   "Opioide contínuo tem mais dano que benefício na osteoartrite.",
+   "AINE oral com hemorragia digestiva prévia e clearance reduzido é inapropriado.",
+   "Opioide forte de uso contínuo não é indicado na osteoartrite.",
+   "Corticoide oral não é recomendado na osteoartrite."
+  ]
+ },
+ {
+  "q": "Mulher de 85 anos, moradora de instituição de longa permanência, perdeu 8% do peso em 6 meses. Tem demência moderada, próteses dentárias mal adaptadas, come sozinha no quarto e deixa metade do prato. Iniciou donepezila há 5 meses. GDS-15 aplicada pela cuidadora sugere sintomas depressivos. TSH, glicemia, hemograma e função renal normais. Sem disfagia à avaliação fonoaudiológica. Pesa 46 kg e tem albumina de 3,4 g/dL. Qual é a conduta mais adequada?",
+  "alts": [
+   "Megestrol 400 mg/dia para apetite",
+   "Gastrostomia para nutrição plena",
+   "Dronabinol para estimular o apetite",
+   "Tomografia de corpo inteiro para neoplasia oculta",
+   "Corrigir prótese, assistir refeições, rever donepezila"
+  ],
+  "gab": 4,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESPEN Guideline on clinical nutrition and hydration in geriatrics, 2022; AGS Beers Criteria, 2023",
+  "coment": "Perda de peso não intencional em idosos institucionalizados costuma ser multifatorial: saúde bucal, comer sozinho, falta de assistência, depressão e medicamentos (inibidores de colinesterase causam anorexia e perda de peso). A conduta é corrigir os fatores tratáveis: ajuste de próteses, refeições assistidas em grupo, suplementos orais, revisão da donepezila e tratamento da depressão (mirtazapina pode ajudar apetite e sono). Megestrol e dronabinol têm efeitos adversos importantes e estão no Beers. Investigação ampla de neoplasia sem sinais direcionadores tem baixo rendimento.",
+  "porAlt": [
+   "Megestrol aumenta trombose e mortalidade, e o ganho é sobretudo de gordura e líquido.",
+   "Gastrostomia não é indicada na demência sem esgotar causas tratáveis.",
+   "Dronabinol causa sedação e confusão em idosos.",
+   "Rastreio amplo sem sinais direcionadores tem baixo rendimento.",
+   "Perda de peso multifatorial: ajustar prótese, refeições assistidas, rever donepezila e tratar depressão."
+  ]
+ },
+ {
+  "q": "Homem de 84 anos com câncer de pulmão metastático em progressão, sem mais tratamento oncológico, expectativa de vida estimada em 3 meses, PPS de 40%. Usa atorvastatina 40 mg (prevenção primária), alendronato, AAS 100 mg sem doença cardiovascular, vitamina D e omeprazol. Tem disfagia leve para comprimidos grandes e quer tomar menos remédios. Sem dispepsia. Mora com a esposa e está lúcido, capaz de decidir. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter todos os preventivos",
+   "Trocar a atorvastatina por rosuvastatina",
+   "Suspender estatina, alendronato e AAS",
+   "Suspender o omeprazol e manter o restante",
+   "Aumentar a estatina para dose alta"
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Kutner et al., Safety and benefit of discontinuing statin therapy in the setting of advanced, life-limiting illness, JAMA Internal Medicine, 2015; STOPPFrail version 2, 2021",
+  "coment": "Com prognóstico de meses, fármacos cujo benefício leva anos (estatina em prevenção primária, bisfosfonato, AAS em prevenção primária) deixam de trazer ganho e aumentam carga de comprimidos e efeitos adversos. No ensaio de Kutner (JAMA Intern Med, 2015), suspender estatina em pacientes com expectativa de vida limitada foi seguro e melhorou a qualidade de vida. Alendronato tem risco de lesão esofágica com disfagia. O foco passa a ser controle de sintomas. Omeprazol sem indicação também pode ser retirado.",
+  "porAlt": [
+   "Preventivos de benefício tardio não ajudam com prognóstico de meses.",
+   "Trocar a estatina mantém tratamento sem benefício.",
+   "Prognóstico de meses: suspender estatina, alendronato e AAS de prevenção primária.",
+   "Mantém os fármacos de maior carga e menor benefício.",
+   "Intensificar estatina não tem sentido nesse prognóstico."
+  ]
+ },
+ {
+  "q": "Mulher de 61 anos, na pós-menopausa, com câncer de mama luminal A operado, vai iniciar letrozol adjuvante por 5 anos. Densitometria de base: escore T de −2,1 no colo femoral e −1,8 na coluna. Sem fratura prévia. Índice de massa corporal de 21 kg/m², tabagista, mãe com fratura de quadril. Vitamina D de 24 ng/mL, cálcio e creatinina normais. Saúde dentária em dia. Qual é a conduta mais adequada para a saúde óssea?",
+  "alts": [
+   "Vitamina D, cálcio e zoledronato ou denosumabe",
+   "Apenas repetir densitometria ao final dos 5 anos",
+   "Trocar letrozol por tamoxifeno para evitar perda óssea",
+   "Teriparatida durante todo o tratamento",
+   "Suspender o letrozol pelo risco ósseo"
+  ],
+  "gab": 0,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "ASCO Clinical Practice Guideline on management of osteoporosis in survivors of adult cancers, revisão 2023; NCCN Breast Cancer, 2024",
-  "coment": "Inibidores de aromatase reduzem drasticamente o estrogênio circulante e aceleram a perda óssea, aumentando o risco de fratura, enquanto o tamoxifeno tem efeito protetor no osso da mulher pós-menopausa. A conduta inclui densitometria basal e seriada, reposição adequada de cálcio e vitamina D, exercício com carga e uso de bisfosfonato ou denosumabe conforme o risco de fratura, com benefício adicional de redução de recorrência óssea em alguns cenários.",
+  "base": "ASCO Guideline: Management of Osteoporosis in Survivors of Adult Cancers With Nonmetastatic Disease, 2019; Gnant et al., ABCSG-18, Lancet, 2015",
+  "coment": "Inibidores de aromatase aceleram a perda óssea e aumentam fraturas. A ASCO (2022) e o consenso europeu recomendam antirreabsortivo para mulheres em inibidor de aromatase com escore T abaixo de −2,0 ou com 2 ou mais fatores de risco (idade acima de 65, tabagismo, índice de massa baixo, história familiar de fratura de quadril, corticoide). Ácido zoledrônico a cada 6 meses ou denosumabe 60 mg a cada 6 meses (ABCSG-18 reduziu fraturas); bisfosfonato adjuvante também reduz recidiva óssea na pós-menopausa. Repor vitamina D e cálcio e revisar a saúde dentária.",
   "porAlt": [
-   "Os inibidores de aromatase aceleram a perda óssea e aumentam o risco de fratura na paciente.",
-   "Suspender a hormonioterapia retira benefício oncológico central por um risco que é manejável.",
-   "O exercício é adjuvante importante, mas não substitui a avaliação e o tratamento farmacológico.",
-   "Correta: avaliar densidade óssea, repor cálcio e vitamina D e indicar antirreabsortivo conforme o risco.",
-   "O corticoide causa perda óssea e agravaria exatamente o problema que se busca prevenir."
+   "Inibidor de aromatase com escore T abaixo de −2,0: vitamina D, cálcio e antirreabsortivo.",
+   "Escore T de −2,1 e fatores de risco não permitem esperar 5 anos.",
+   "Tamoxifeno tem menos benefício oncológico na pós-menopausa.",
+   "Teriparatida é contraindicada com risco de metástase óssea e radioterapia.",
+   "O letrozol reduz recidiva e deve ser mantido."
   ]
  },
  {
-  "q": "Paciente com câncer em quimioterapia pergunta sobre vacinação contra influenza. Qual é a orientação?",
+  "q": "Mulher de 48 anos com câncer de mama inicia quimioterapia com doxorrubicina e ciclofosfamida a cada 21 dias em abril, na campanha de influenza. Não tomou a vacina deste ano. Mora com o marido e uma filha de 8 meses. Nunca teve alergia a vacinas ou Guillain-Barré. Sem febre. Pergunta se pode vacinar e se a família deve vacinar. Pesa 64 kg e trabalha em escola. O primeiro ciclo está marcado para daqui a 10 dias. Qual é a orientação mais adequada?",
   "alts": [
-   "Não vacinar, pois pacientes em quimioterapia não podem receber qualquer tipo de vacina durante o tratamento.",
-   "Vacinar apenas com vacina de vírus vivo atenuado, que confere resposta imune superior nesse contexto agora.",
-   "Vacinar apenas após dois anos do término da quimioterapia em todos os pacientes oncológicos tratados agora.",
-   "Vacinar imediatamente após cada infusão de quimioterapia para aproveitar o pico de imunossupressão agora.",
-   "Vacinar com vacina inativada, preferindo sempre o momento de melhor recuperação hematológica entre os ciclos."
+   "Contraindicar vacinas durante toda a quimioterapia",
+   "Vacina de vírus vivo atenuado nasal",
+   "Vacinar só após o fim do tratamento",
+   "Vacina inativada já, antes do ciclo, e nos contactantes",
+   "Vacinar apenas a filha, não a paciente"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "onco",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "IDSA Clinical Practice Guideline for Vaccination of the Immunocompromised Host, revisão 2023; Ministério da Saúde — CRIE, 2023",
-  "coment": "Pacientes em quimioterapia têm risco aumentado de complicações por influenza e devem ser vacinados com vacina inativada, que é segura em imunossuprimidos. Vacinas de vírus vivo atenuado são contraindicadas. A resposta imune é melhor quando a vacina é aplicada em momento de recuperação hematológica, tipicamente antes do próximo ciclo, e recomenda-se também vacinar os contatos domiciliares, estratégia conhecida como proteção por cocoon.",
+  "base": "IDSA Clinical Practice Guideline for Vaccination of the Immunocompromised Host, 2013; SBIm, Calendário de Vacinação de Pacientes Especiais, 2024/2025",
+  "coment": "Pacientes em quimioterapia devem receber vacina inativada contra influenza anualmente. A IDSA (2013) e a ASCO sugerem aplicá-la idealmente pelo menos 2 semanas antes do início ou entre ciclos, afastada do nadir, embora a resposta possa ser menor. Vacinas de vírus vivo são contraindicadas no imunossuprimido. Contactantes domiciliares devem ser vacinados (a filha a partir de 6 meses), o que protege a paciente. Evitar vacinar deixa sem proteção uma paciente de alto risco de complicações.",
   "porAlt": [
-   "Vacinas inativadas são seguras e indicadas em pacientes imunossuprimidos por quimioterapia.",
-   "Vacinas de vírus vivo atenuado são contraindicadas em pacientes imunossuprimidos pelo tratamento.",
-   "Aguardar dois anos deixa o paciente desprotegido justamente no período de maior vulnerabilidade.",
-   "Aplicar no pico de imunossupressão reduz a resposta imune e o benefício obtido com a vacina.",
-   "Correta: vacina inativada, aplicada preferencialmente em momento de melhor recuperação hematológica."
+   "Vacinas inativadas são indicadas durante a quimioterapia.",
+   "Vacina de vírus vivo é contraindicada na imunossupressão.",
+   "Esperar o fim deixa a paciente sem proteção na temporada.",
+   "Vacina inativada o quanto antes do primeiro ciclo (ou entre ciclos, longe do nadir) e vacinação dos contactantes.",
+   "A paciente é a de maior risco e deve ser vacinada."
   ]
  },
  {
-  "q": "Paciente com câncer avançado e delirium hiperativo na fase final de vida. Qual é a conduta?",
+  "q": "Homem de 72 anos com câncer de pâncreas em fase final, prognóstico de dias, está em casa com equipe de cuidados paliativos. Tem delirium hiperativo com agitação intensa e sofrimento evidente há 24 horas. Causas reversíveis tratáveis foram abordadas (retenção urinária, dor, opioide trocado), e haloperidol até 5 mg/dia não controlou. A família e o paciente, antes, disseram que a prioridade era conforto. Está com hipodermóclise e cateter vesical. Pesa 55 kg. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar sedação profunda contínua imediatamente em todos os pacientes com delirium hiperativo na fase final agora.",
-   "Prescrever benzodiazepínico isolado em dose alta como primeira escolha para o delirium hiperativo descrito agora.",
-   "Manter contenção física prolongada como principal medida de manejo do delirium hiperativo no fim da vida agora.",
-   "Buscar causas reversíveis e usar antipsicótico se necessário, mantendo sempre medidas ambientais e apoio à família.",
-   "Não realizar qualquer intervenção, pois o delirium na fase final de vida nunca causa sofrimento ao paciente agora."
+   "Contenção mecânica contínua",
+   "Sedação paliativa proporcional com midazolam",
+   "Transferir para UTI e intubar",
+   "Suspender todos os fármacos e observar",
+   "Aumentar haloperidol para 30 mg/dia"
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "onco",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "ESMO Clinical Practice Guidelines on delirium in adult cancer patients, revisão 2023; ANCP — Manual de Cuidados Paliativos, 2021",
-  "coment": "O delirium no fim da vida é frequente e angustiante para o paciente e a família. A abordagem começa por buscar causas potencialmente reversíveis compatíveis com os objetivos de cuidado — fármacos, retenção urinária, constipação, dor, hipercalcemia, infecção — e aplicar medidas ambientais e de reorientação, com apoio e explicação à família. Antipsicótico em dose baixa é usado quando há sofrimento ou risco, e a sedação paliativa fica para o delirium refratário.",
+  "base": "EAPC recommended framework for the use of sedation in palliative care, 2009; Academia Nacional de Cuidados Paliativos, Manual de Cuidados Paliativos, 2021",
+  "coment": "Delirium refratário com sofrimento intenso nos últimos dias de vida, após abordar causas reversíveis e falhar o antipsicótico, é uma das principais indicações de sedação paliativa: redução intencional e proporcional do nível de consciência para aliviar sintoma refratário, com consentimento. O midazolam subcutâneo ou endovenoso, titulado, é o fármaco de escolha, podendo associar levomepromazina ou clorpromazina. Não abrevia a vida quando proporcional (EAPC 2009) e é amparada no Brasil pela Resolução CFM nº 1.805/2006.",
   "porAlt": [
-   "A sedação contínua se reserva ao delirium verdadeiramente refratário às medidas anteriores.",
-   "O benzodiazepínico isolado pode agravar o delirium hiperativo, exceto na abstinência alcoólica.",
-   "A contenção física prolongada aumenta agitação e lesões, sendo medida de último recurso.",
-   "Correta: buscar causas reversíveis e usar antipsicótico se necessário, com medidas ambientais e apoio familiar.",
-   "O delirium causa sofrimento intenso ao paciente e à família e sempre exige abordagem ativa."
+   "Contenção aumenta agitação e sofrimento.",
+   "Delirium refratário nos últimos dias: sedação paliativa proporcional com midazolam.",
+   "Medidas invasivas contrariam o plano de conforto.",
+   "Suspender tudo deixa o sofrimento sem controle.",
+   "Doses muito altas de haloperidol aumentam efeitos extrapiramidais sem benefício."
   ]
  },
  {
-  "q": "Paciente com carcinoma hepatocelular único de 3 cm em fígado cirrótico com função preservada. Qual é a conduta?",
+  "q": "Homem de 61 anos com cirrose por hepatite C tratada tem nódulo hepático único de 3 cm com hiperrealce arterial e washout na ressonância (LI-RADS 5). Child-Pugh A5, bilirrubina de 0,9 mg/dL, plaquetas de 160 mil/mm³, sem varizes esofágicas e gradiente de pressão portal abaixo de 10 mmHg. ECOG 0, sem invasão vascular ou metástases. Pesa 80 kg, não bebe e está na lista de espera de transplante há 1 mês. Alfafetoproteína de 45 ng/mL. Qual é a conduta mais adequada?",
   "alts": [
-   "Indicar apenas cuidados paliativos exclusivos em todos os pacientes com carcinoma hepatocelular diagnosticado neste caso já.",
-   "Iniciar quimioterapia sistêmica convencional como tratamento de primeira escolha para o nódulo único descrito neste caso.",
-   "Aguardar o crescimento do nódulo além de cinco centímetros antes de qualquer intervenção terapêutica indicada neste caso.",
-   "Prescrever apenas hepatoprotetor de venda livre como tratamento do carcinoma hepatocelular diagnosticado nesse contexto já.",
-   "Avaliar tratamento com intenção curativa por equipe multidisciplinar, considerando sempre ressecção, ablação ou transplante."
+   "Biópsia obrigatória antes de tratar",
+   "Sorafenibe oral contínuo",
+   "Apenas seguimento com ultrassonografia",
+   "Quimioembolização paliativa como primeira escolha",
+   "Ressecção ou ablação com intenção curativa"
   ],
   "gab": 4,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "AASLD Practice Guidance on hepatocellular carcinoma, 2023; EASL Clinical Practice Guidelines, 2025; critérios de Milão",
-  "coment": "O carcinoma hepatocelular em estágio inicial — nódulo único até cinco centímetros, ou até três nódulos de até três centímetros, com função hepática preservada e bom estado funcional — é potencialmente curável. As opções são ressecção, ablação percutânea e transplante hepático, este indicado dentro dos critérios de Milão e que trata simultaneamente o tumor e a cirrose. A decisão é multidisciplinar e considera função hepática, hipertensão portal e comorbidades.",
+  "base": "BCLC strategy for prognosis prediction and treatment recommendation: The 2022 update, Journal of Hepatology, 2022; AASLD Practice Guidance on HCC, 2023",
+  "coment": "Em cirrose, nódulo acima de 1 cm com hiperrealce arterial e washout (LI-RADS 5) confirma carcinoma hepatocelular sem biópsia. Tumor único de até 5 cm (BCLC 0 ou A), com função preservada, ECOG 0 e sem hipertensão portal clinicamente significativa, é candidato a tratamento curativo: ressecção cirúrgica ou ablação (radiofrequência ou micro-ondas, especialmente em lesões até 3 cm), com transplante como opção pelos critérios de Milão. Quimioembolização é para estádio intermediário, e terapia sistêmica para avançado.",
   "porAlt": [
-   "O estágio descrito é potencialmente curável e não corresponde a indicação de paliação exclusiva.",
-   "A quimioterapia convencional tem eficácia limitada e não é a primeira escolha nesse estágio inicial.",
-   "Aguardar o crescimento retira o paciente do estágio curável e piora drasticamente o prognóstico.",
-   "Hepatoprotetores não têm efeito sobre o tumor e apenas atrasam o tratamento potencialmente curativo.",
-   "Correta: avaliar tratamento com intenção curativa por equipe multidisciplinar, com ressecção, ablação ou transplante."
+   "LI-RADS 5 em cirrótico dispensa biópsia.",
+   "Terapia sistêmica é para doença avançada.",
+   "Observar tumor tratável com intenção curativa é inadequado.",
+   "Quimioembolização é para estádio intermediário.",
+   "Carcinoma hepatocelular único de 3 cm, Child A, sem hipertensão portal: ressecção ou ablação curativa."
   ]
  },
  {
-  "q": "Paciente com câncer de pulmão avançado com mutação driver identificada. Qual é a implicação terapêutica?",
+  "q": "Mulher de 55 anos, nunca fumou, tem adenocarcinoma de pulmão estádio IV com metástases ósseas e 2 metástases cerebrais pequenas assintomáticas. Sequenciamento de nova geração: deleção do éxon 19 do EGFR. PD-L1 de 60%. ECOG 1. Função hepática e renal normais. QTc de 430 ms. Pesa 60 kg e não tem sintomas neurológicos. Mora com o marido. Qual é o tratamento de primeira linha mais adequado?",
   "alts": [
-   "Indicar quimioterapia convencional isolada, pois a identificação de mutação não altera a conduta terapêutica agora.",
-   "Indicar apenas radioterapia torácica isolada como tratamento definitivo do câncer de pulmão avançado descrito agora.",
-   "Indicar apenas cuidados paliativos exclusivos em todos os pacientes com mutação driver identificada no tumor agora.",
-   "Indicar cirurgia de ressecção pulmonar ampla em todos os pacientes com doença avançada e mutação driver neste caso.",
-   "Indicar terapia-alvo específica, que oferece sempre melhor resposta e tolerabilidade que a quimioterapia convencional."
+   "Pembrolizumabe isolado pelo PD-L1",
+   "Platina e pemetrexede isolados",
+   "Osimertinibe oral em primeira linha",
+   "Radioterapia de crânio total primeiro",
+   "Gefitinibe com pembrolizumabe"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "onco",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "NCCN Non-Small Cell Lung Cancer, 2024; ESMO Clinical Practice Guidelines on metastatic NSCLC, 2023",
-  "coment": "A pesquisa de alterações moleculares no carcinoma pulmonar não pequenas células avançado é obrigatória, incluindo EGFR, ALK, ROS1, BRAF, KRAS G12C, MET, RET e NTRK, além da expressão de PD-L1. A presença de mutação driver indica terapia-alvo específica, com taxas de resposta e sobrevida livre de progressão superiores às da quimioterapia e melhor tolerabilidade. O tratamento é personalizado e a repetição da pesquisa na progressão pode revelar resistência tratável.",
+  "base": "NCCN Guidelines: Non-Small Cell Lung Cancer, 2025; Soria et al., FLAURA, NEJM, 2018",
+  "coment": "Adenocarcinoma com mutação ativadora de EGFR (deleção do éxon 19 ou L858R) deve ser tratado em primeira linha com inibidor de tirosina quinase, preferencialmente osimertinibe (FLAURA: maior sobrevida e boa penetração no sistema nervoso central), podendo associar quimioterapia (FLAURA2) ou amivantamabe com lazertinibe (MARIPOSA). Imunoterapia isolada tem baixa eficácia em tumores com EGFR mutado, mesmo com PD-L1 alto, e associação de imunoterapia com inibidor de EGFR causa pneumonite grave. Metástases cerebrais pequenas assintomáticas podem ser tratadas com osimertinibe e vigilância.",
   "porAlt": [
-   "A identificação de mutação driver muda completamente a conduta e o prognóstico do paciente.",
-   "A radioterapia isolada não é tratamento sistêmico e não controla a doença metastática avançada.",
-   "A doença avançada com mutação driver tem tratamento sistêmico eficaz e não é apenas paliativa.",
-   "A cirurgia não é indicada na doença avançada com disseminação já estabelecida.",
-   "Correta: terapia-alvo específica, com melhor resposta e tolerabilidade que a quimioterapia convencional."
+   "Imunoterapia isolada é pouco eficaz com EGFR mutado, mesmo com PD-L1 alto.",
+   "Platina isolada é inferior ao inibidor de EGFR.",
+   "EGFR com deleção do éxon 19: osimertinibe em primeira linha.",
+   "Metástases pequenas assintomáticas respondem ao osimertinibe, evitando radioterapia de crânio total.",
+   "Inibidor de EGFR com anti-PD-1 aumenta pneumonite grave."
   ]
  }
 ]

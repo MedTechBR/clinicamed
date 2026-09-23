@@ -1,242 +1,242 @@
 [
  {
-  "q": "Paciente com doença pulmonar obstrutiva crônica estável pergunta sobre vacinação. Qual é a orientação?",
+  "q": "Mulher de 67 anos com DPOC moderada, estável, vem à consulta de rotina. Recebeu vacina contra influenza há 14 meses, dTpa há 12 anos e esquema primário de covid-19. Nunca recebeu vacina pneumocócica ou contra vírus sincicial respiratório. Não tem imunossupressão nem asplenia. Teve 1 exacerbação com internação no inverno passado. Mora com o neto de 2 meses. Sem alergia a componentes vacinais e sem febre no dia. Pela Sociedade Brasileira de Imunizações, qual é a orientação mais adequada?",
   "alts": [
-   "Apenas influenza anual, única vacina indicada para pacientes com doença pulmonar obstrutiva crônica agora.",
-   "Nenhuma vacina é indicada, pois a doença pulmonar obstrutiva crônica contraindica toda imunização agora.",
-   "Apenas vacina contra febre amarela, indicada especificamente para pacientes com doença pulmonar crônica.",
-   "Influenza anual, pneumocócica, coqueluche e demais vacinas indicadas, mantendo sempre a caderneta atualizada.",
-   "Apenas vacinas de vírus vivo atenuado, que conferem proteção superior nesse grupo de pacientes crônicos."
+   "Apenas influenza anual, pela idade",
+   "Pneumocócica polissacarídica 23 isolada a cada 2 anos",
+   "Contraindicar vacinas de vírus vivo e aguardar",
+   "Influenza, pneumocócica conjugada, VSR, covid-19 e dTpa",
+   "Apenas covid-19, pelo esquema primário incompleto"
   ],
   "gab": 3,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "GOLD Report, 2025; Ministério da Saúde — Manual dos Centros de Referência para Imunobiológicos Especiais, 2023",
-  "coment": "A vacinação reduz exacerbações e internações na doença pulmonar obstrutiva crônica. Recomendam-se influenza anual, vacina pneumocócica conforme o esquema disponível, vacina contra coqueluche em quem não recebeu na vida adulta, vacina contra covid-19 conforme o calendário vigente e, quando disponível, vacina contra o vírus sincicial respiratório em faixas etárias indicadas. A doença não contraindica imunização e é justamente indicação de prioridade.",
+  "base": "SBIm, Calendário de Vacinação do Idoso, 2025/2026; GOLD Report, 2025",
+  "coment": "Pessoas com DPOC devem receber influenza anual, vacina pneumocócica (conjugada de maior valência, como VPC20, ou esquema sequencial VPC13 ou VPC15 seguida de VPP23), vacina contra vírus sincicial respiratório a partir de 60 anos com doença pulmonar crônica, reforço de covid-19 e dTpa (que também protege o lactente contra coqueluche). O GOLD 2025 reforça essas recomendações. Nenhuma dessas vacinas é de vírus vivo.",
   "porAlt": [
-   "A influenza é essencial, mas não é a única vacina recomendada para esse grupo de pacientes.",
-   "A doença crônica não contraindica vacinas e é indicação prioritária de imunização.",
-   "A febre amarela segue a indicação por área de risco e não é específica dessa doença pulmonar.",
-   "Correta: influenza anual, pneumocócica, coqueluche e demais vacinas indicadas, com caderneta atualizada.",
-   "Vacinas de vírus vivo exigem cautela em imunossuprimidos e não são preferíveis por princípio."
+   "DPOC indica várias vacinas além da influenza.",
+   "VPP23 isolada e repetida a cada 2 anos não é o esquema recomendado.",
+   "Essas vacinas não são de vírus vivo.",
+   "DPOC aos 67 anos: influenza anual, pneumocócica conjugada, VSR, reforço de covid-19 e dTpa.",
+   "O calendário da DPOC vai além da covid-19."
   ]
  },
  {
-  "q": "Paciente com tosse crônica e escarro purulento diário, com tomografia mostrando dilatação brônquica. Qual é a investigação etiológica inicial?",
+  "q": "Homem de 36 anos tem tosse com escarro purulento diário há 3 anos e 3 pneumonias no período. Tomografia com bronquiectasias cilíndricas difusas, de predomínio central e nos lobos superiores, com impactação mucoide. Tem asma desde a infância, com piora recente apesar de corticoide inalatório. Não fuma, sem infertilidade conhecida, sem sinusite crônica grave. Eosinófilos de 900 células/µL. Saturação de 95%, sem baqueteamento digital. Qual é o conjunto mínimo de investigação etiológica mais adequado?",
   "alts": [
-   "Não investigar qualquer causa, pois as bronquiectasias nunca têm etiologia identificável no paciente adulto agora.",
-   "Investigar imunodeficiência, fibrose cística e causas pós-infecciosas, colhendo sempre cultura de escarro dirigida.",
-   "Realizar apenas espirometria como investigação etiológica completa das bronquiectasias identificadas no exame.",
-   "Indicar biópsia pulmonar cirúrgica de rotina como investigação inicial de todas as bronquiectasias no adulto agora.",
-   "Solicitar apenas radiografia simples de tórax como investigação etiológica das bronquiectasias diagnosticadas."
+   "Cultura de escarro para bactérias comuns apenas",
+   "Biópsia pulmonar cirúrgica por videotoracoscopia",
+   "Teste do suor e genotipagem como únicos exames",
+   "Broncoscopia com biópsia transbrônquica e lavado",
+   "Hemograma, imunoglobulinas, IgE para Aspergillus e culturas"
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ERS guidelines for the management of adult bronchiectasis, 2017 com revisão 2023; BTS guideline, 2019",
-  "coment": "Identificar a causa das bronquiectasias muda o tratamento em parte relevante dos casos. A investigação mínima inclui dosagem de imunoglobulinas, pesquisa de aspergilose broncopulmonar alérgica com IgE e IgE específica, teste do suor e pesquisa genética para fibrose cística quando o contexto sugere, avaliação de refluxo e aspiração, e busca de causa pós-infecciosa. A cultura de escarro identifica colonização, sobretudo por Pseudomonas, que muda o prognóstico.",
+  "base": "ERS Guidelines for the management of adult bronchiectasis, 2017; ISHAM-ABPA Working Group Guidelines, 2024",
+  "coment": "A ERS (2017) recomenda para todo adulto com bronquiectasias um conjunto mínimo: hemograma com diferencial, imunoglobulinas séricas (IgG, IgA, IgM), pesquisa de aspergilose broncopulmonar alérgica (IgE total e IgE específica ou teste cutâneo para Aspergillus) e cultura de escarro para bactérias e micobactérias. Aqui, asma com piora, bronquiectasias centrais, impactação mucoide e eosinofilia apontam fortemente para aspergilose broncopulmonar alérgica, tratada com corticoide oral e, em casos selecionados, itraconazol.",
   "porAlt": [
-   "Muitos casos têm causa identificável, e o achado muda o tratamento e o prognóstico do paciente.",
-   "Correta: investigar imunodeficiência, fibrose cística e causas pós-infecciosas, com cultura de escarro dirigida.",
-   "A espirometria avalia a função, mas não identifica a etiologia das bronquiectasias diagnosticadas.",
-   "A biópsia cirúrgica é invasiva e não é investigação inicial da etiologia das bronquiectasias.",
-   "A radiografia é pouco sensível e não substitui a investigação etiológica sistemática indicada."
+   "Cultura isolada deixa de investigar causas tratáveis.",
+   "Biópsia não é necessária na investigação etiológica.",
+   "Fibrose cística é investigada em casos selecionados, não como exame único.",
+   "Biópsia transbrônquica não investiga a etiologia das bronquiectasias.",
+   "Conjunto mínimo da ERS: hemograma, imunoglobulinas, IgE total e específica para Aspergillus e culturas, com forte suspeita de aspergilose."
   ]
  },
  {
-  "q": "Paciente com síndrome nefrótica apresenta dor torácica súbita e dispneia. Qual é a preocupação principal?",
+  "q": "Mulher de 49 anos tem nefropatia membranosa primária com anti-PLA2R positivo, proteinúria de 9 g/dia e albumina sérica de 1,9 g/dL, diagnosticada há 3 semanas. Filtração de 82 mL/min/1,73 m². Usa losartana e furosemida. Não tem história de sangramento, úlcera, anemia ou plaquetopenia, e o escore de risco de sangramento é baixo. Não teve trombose até o momento. Qual é a conduta mais adequada em relação ao risco trombótico?",
   "alts": [
-   "Tromboembolismo pulmonar pelo estado de hipercoagulabilidade, exigindo sempre investigação e anticoagulação dirigida.",
-   "Crise asmática desencadeada pela proteinúria, principal complicação aguda esperada na síndrome nefrótica neste caso.",
-   "Pneumonia bacteriana instalada em minutos, hipótese mais provável na síndrome nefrótica com dor torácica neste caso.",
-   "Refluxo gastroesofágico agudizado, principal causa de dor torácica súbita no paciente com síndrome nefrótica agora.",
-   "Anemia ferropriva descompensada, causa habitual de dispneia súbita em pacientes com síndrome nefrótica neste caso."
+   "Nenhuma profilaxia até ocorrer trombose",
+   "Ácido acetilsalicílico isolado",
+   "Anticoagulação profilática com albumina baixa",
+   "Doppler venoso semanal de rastreio",
+   "Filtro de veia cava profilático"
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases, 2021",
+  "coment": "A síndrome nefrótica, especialmente por nefropatia membranosa, causa hipercoagulabilidade por perda urinária de antitrombina e aumento de fatores pró-coagulantes, com trombose de veia renal e tromboembolismo pulmonar mais frequentes nos primeiros 6 meses. A KDIGO (2021) sugere anticoagulação profilática na membranosa com albumina abaixo de 2,0 a 2,5 g/dL quando o risco de sangramento é baixo, usando ferramentas que pesam os dois riscos. Anticoagulantes diretos têm menos evidência nesse contexto.",
+  "porAlt": [
+   "Membranosa com albumina abaixo de 2,0 a 2,5 g/dL tem risco trombótico alto nos primeiros meses.",
+   "Antiagregante é opção quando o risco de sangramento é alto, não para este risco venoso.",
+   "Membranosa com albumina abaixo de 2,0 g/dL e baixo risco de sangramento: anticoagulação profilática enquanto persistir a hipoalbuminemia.",
+   "Rastrear com Doppler não previne o evento.",
+   "Filtro de veia cava não tem papel profilático."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos com doença renal crônica G4 (filtração de 19 mL/min/1,73 m²) tem fósforo de 5,9 mg/dL. A nutricionista revisa o diário alimentar: consome todos os dias refrigerante de cola, salsicha, presunto, queijo processado e pães industrializados, além de feijão, arroz integral e castanhas. Ingestão proteica estimada de 0,8 g/kg/dia. Cálcio 8,9 mg/dL, potássio 4,6 mEq/L, paratormônio 180 pg/mL. Qual orientação dietética reduz mais o fósforo absorvido?",
+  "alts": [
+   "Suspender feijão, arroz integral e castanhas",
+   "Reduzir a proteína para 0,3 g/kg/dia",
+   "Restringir frutas e verduras",
+   "Evitar industrializados com aditivos de fosfato",
+   "Aumentar o consumo de laticínios"
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "KDOQI Clinical Practice Guideline for Nutrition in CKD: 2020 Update; KDIGO Clinical Practice Guideline Update for CKD-MBD, 2017",
+  "coment": "A biodisponibilidade do fósforo varia com a fonte: o inorgânico dos aditivos (ácido fosfórico, polifosfatos) é absorvido em até 90%; o orgânico de carnes e laticínios, em 40 a 60%; e o vegetal, ligado ao fitato, em menor proporção. A diretriz de nutrição da KDOQI (2020) recomenda considerar a fonte do fósforo e reduzir alimentos processados antes de restringir alimentos naturais. Procurar 'fosf' na lista de ingredientes é orientação prática.",
+  "porAlt": [
+   "O fósforo vegetal está ligado ao fitato e é pouco absorvido; retirar leguminosas piora a dieta.",
+   "Proteína muito baixa sem acompanhamento arrisca desnutrição.",
+   "Frutas e verduras têm pouco fósforo, e o potássio está normal.",
+   "Aditivos de fosfato inorgânico em cola, embutidos e queijos processados têm absorção de até 90%.",
+   "Laticínios têm muito fósforo."
+  ]
+ },
+ {
+  "q": "Mulher de 26 anos tem cãibras, fadiga e parestesias desde a adolescência. Pressão arterial 100/64 mmHg. Potássio 2,9 mEq/L, magnésio 1,2 mg/dL, bicarbonato 30 mEq/L, cálcio sérico normal. Urina: cloreto 60 mEq/L, potássio 50 mEq/L e cálcio de 24 horas de 30 mg (baixo). Renina e aldosterona elevadas. Pesquisa de diuréticos na urina negativa em duas amostras. Não tem vômitos nem usa laxativos. Qual é o diagnóstico mais provável?",
+  "alts": [
+   "Síndrome de Gitelman",
+   "Síndrome de Bartter",
+   "Vômitos autoinduzidos",
+   "Hiperaldosteronismo primário",
+   "Síndrome de Liddle"
   ],
   "gab": 0,
   "tema": "nefro",
-  "cenario": "enf",
+  "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "KDIGO Glomerular Diseases Guideline, 2021 com revisão 2024; ISTH guidance on nephrotic syndrome and thrombosis, 2023",
-  "coment": "A síndrome nefrótica cria estado de hipercoagulabilidade pela perda urinária de antitrombina e outros anticoagulantes naturais, aumento de fatores procoagulantes e hiperviscosidade, com risco elevado de trombose venosa profunda, tromboembolismo pulmonar e trombose de veia renal, esta última mais associada à nefropatia membranosa. Albumina muito baixa aumenta o risco, e a anticoagulação profilática é considerada em pacientes selecionados de alto risco.",
+  "base": "Blanchard et al., Gitelman syndrome: consensus and guidance from a KDIGO Controversies Conference, Kidney International, 2017",
+  "coment": "Hipocalemia com alcalose metabólica e pressão normal ou baixa se investiga pelo cloreto urinário: baixo (abaixo de 20 mEq/L) sugere vômitos; alto sugere diurético ou tubulopatia. Pesquisa de diurético negativa leva às síndromes de Bartter (defeito na alça, semelhante à furosemida, com calciúria normal ou alta) e de Gitelman (defeito no cotransportador sódio-cloro do túbulo distal, semelhante ao tiazídico, com hipocalciúria e hipomagnesemia), esta mais comum em adolescentes e adultos. O tratamento é reposição de potássio e magnésio.",
   "porAlt": [
-   "Correta: tromboembolismo pulmonar pela hipercoagulabilidade, exigindo investigação e anticoagulação.",
-   "A proteinúria não desencadeia crise asmática nem explica a dor torácica súbita descrita.",
-   "A pneumonia bacteriana não se instala em minutos, evoluindo tipicamente ao longo de dias.",
-   "O refluxo não é a preocupação principal diante de dor torácica súbita em paciente nefrótico.",
-   "A anemia ferropriva não causa dispneia de instalação súbita nesse contexto clínico descrito."
+   "Pressão normal, hipomagnesemia, hipocalciúria, cloreto urinário alto e pesquisa de diurético negativa: defeito do cotransportador sódio-cloro.",
+   "Bartter se parece com uso de furosemida, com calciúria normal ou alta.",
+   "Vômitos produzem cloreto urinário baixo.",
+   "Hiperaldosteronismo primário tem hipertensão e renina suprimida.",
+   "Liddle tem hipertensão com renina e aldosterona baixas."
   ]
  },
  {
-  "q": "Paciente com doença renal crônica e hiperfosfatemia persistente apesar de dieta. Qual é a conduta?",
+  "q": "Homem de 66 anos com diabetes tipo 2 há 18 anos e doença renal crônica G3a (filtração de 52 mL/min/1,73 m²) usa metformina, linagliptina e anlodipino. Não usa IECA, bloqueador do receptor, espironolactona, anti-inflamatório nem trimetoprima. Potássio de 5,8 mEq/L em dosagens repetidas, bicarbonato 18 mEq/L, cloreto 110 mEq/L, sódio 138 mEq/L, ânion gap 10 mEq/L, pH urinário 5,2. Renina e aldosterona baixas; cortisol normal. Qual é o diagnóstico?",
   "alts": [
-   "Aumentar a oferta de fósforo na dieta para corrigir o desequilíbrio mineral do paciente renal crônico neste caso.",
-   "Iniciar apenas cálcio em dose alta sem qualquer monitorização do produto cálcio-fósforo no paciente neste caso.",
-   "Indicar diálise imediata a todos os pacientes com hiperfosfatemia persistente apesar da dieta adequada neste caso.",
-   "Prescrever apenas diurético de alça em dose alta como tratamento definitivo da hiperfosfatemia persistente agora.",
-   "Iniciar quelante de fósforo com as refeições, preferindo sempre os isentos de cálcio conforme o perfil do paciente."
+   "Acidose tubular distal (tipo 1)",
+   "Acidose tubular proximal (tipo 2)",
+   "Acidose tubular tipo 4 hiporreninêmica",
+   "Insuficiência adrenal primária",
+   "Acidose lática por metformina"
   ],
-  "gab": 4,
-  "tema": "nefro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "KDIGO Clinical Practice Guideline Update for CKD-MBD, 2017 com revisão 2023",
-  "coment": "A hiperfosfatemia na doença renal crônica associa-se a calcificação vascular, hiperparatireoidismo secundário e mortalidade. Após restrição dietética, sobretudo de aditivos com fósforo inorgânico, altamente absorvível, indica-se quelante administrado junto às refeições. As diretrizes sugerem restringir o uso de quelantes à base de cálcio pelo risco de calcificação vascular, preferindo sevelâmer ou lantânio quando disponíveis, com monitorização periódica dos parâmetros.",
-  "porAlt": [
-   "Aumentar o fósforo agrava a hiperfosfatemia e acelera a calcificação vascular do paciente.",
-   "Cálcio em dose alta sem monitorização favorece calcificação vascular e doença óssea adinâmica.",
-   "A diálise não é indicada apenas pela hiperfosfatemia quando o manejo clínico ainda é possível.",
-   "O diurético de alça não é tratamento da hiperfosfatemia na doença renal crônica avançada.",
-   "Correta: quelante de fósforo com as refeições, preferindo os isentos de cálcio conforme o perfil."
-  ]
- },
- {
-  "q": "Paciente com hipomagnesemia sintomática e hipocalemia refratária à reposição de potássio. Qual é a conduta?",
-  "alts": [
-   "Aumentar indefinidamente a dose de potássio sem qualquer reposição de magnésio no paciente refratário agora.",
-   "Repor magnésio antes de insistir no potássio, pois a hipomagnesemia perpetua sempre a perda renal de potássio.",
-   "Suspender toda reposição eletrolítica e apenas observar a evolução espontânea dos distúrbios identificados.",
-   "Administrar cálcio endovenoso como tratamento de escolha da hipocalemia refratária à reposição de potássio.",
-   "Prescrever apenas diurético de alça em dose alta como estratégia de correção dos distúrbios eletrolíticos."
-  ],
-  "gab": 1,
-  "tema": "nefro",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "Brenner and Rector's The Kidney, 12ª edição, 2024; UpToDate revisão sobre hipomagnesemia, 2024",
-  "coment": "A hipomagnesemia causa perda renal de potássio ao remover a inibição dos canais ROMK no néfron distal, tornando a hipocalemia refratária enquanto o magnésio não é corrigido. Por isso, diante de hipocalemia que não responde à reposição, dosa-se e repõe-se magnésio primeiro. Causas comuns incluem diuréticos, inibidores de bomba de prótons, diarreia crônica, alcoolismo e fármacos como anfotericina, aminoglicosídeos e inibidores de calcineurina.",
-  "porAlt": [
-   "Aumentar potássio sem corrigir o magnésio mantém a perda renal e a refratariedade do distúrbio.",
-   "Correta: repor magnésio primeiro, pois a hipomagnesemia perpetua a perda renal de potássio.",
-   "Suspender a reposição diante de distúrbio sintomático expõe o paciente a arritmia e convulsão.",
-   "O cálcio não corrige a hipocalemia e não resolve o mecanismo da refratariedade descrita.",
-   "O diurético de alça aumenta a perda de potássio e magnésio, agravando os dois distúrbios."
-  ]
- },
- {
-  "q": "Paciente em uso de lítio desenvolve poliúria e urina hipotônica sem resposta à desmopressina. Qual é o diagnóstico?",
-  "alts": [
-   "Diabetes insipidus central clássico, condição definida pela ausência de resposta à administração de desmopressina.",
-   "Diabetes insipidus nefrogênico induzido pelo lítio, exigindo sempre reavaliação do fármaco e do balanço hídrico.",
-   "Síndrome da secreção inapropriada de antidiurético, quadro caracterizado por poliúria com urina hipotônica.",
-   "Glomerulonefrite rapidamente progressiva, condição definida por poliúria hipotônica sem resposta ao hormônio.",
-   "Nefrolitíase obstrutiva bilateral, quadro caracterizado por poliúria com urina hipotônica e sem resposta ao hormônio."
-  ],
-  "gab": 1,
+  "gab": 2,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Endocrine Society/ESE clinical practice guideline on diabetes insipidus, 2023; KDIGO guidance on drug-induced kidney disease, revisão 2023",
-  "coment": "O lítio é a causa medicamentosa mais frequente de diabetes insipidus nefrogênico, por resistência tubular à ação do hormônio antidiurético, o que explica a ausência de resposta à desmopressina — que distingue a forma nefrogênica da central, esta sim responsiva. A conduta envolve discutir com a psiquiatria a manutenção ou substituição do lítio, garantir acesso livre à água, e considerar amilorida, que reduz a entrada de lítio na célula tubular.",
+  "base": "Brenner and Rector's The Kidney, 11ª edição, 2020; KDIGO Controversies Conference on potassium homeostasis, 2020",
+  "coment": "A acidose tubular tipo 4 é a mais comum em adultos: hipercalemia com acidose leve de ânion gap normal, pH urinário capaz de ficar abaixo de 5,5 e redução da amoniogênese pela própria hipercalemia. A causa mais frequente é o hipoaldosteronismo hiporreninêmico da nefropatia diabética com filtração só levemente reduzida; fármacos como IECA, bloqueadores, espironolactona, trimetoprima, heparina, inibidores de calcineurina e anti-inflamatórios são outras causas. O tratamento inclui dieta, diurético, bicarbonato e, se necessário, ligante de potássio ou fludrocortisona.",
   "porAlt": [
-   "A forma central responde à desmopressina, justamente o que não ocorre neste paciente descrito.",
-   "Correta: diabetes insipidus nefrogênico induzido pelo lítio, com reavaliação do fármaco e do balanço hídrico.",
-   "A secreção inapropriada de antidiurético cursa com oligúria e urina concentrada, o oposto do caso.",
-   "A glomerulonefrite rapidamente progressiva cursa com hematúria e queda rápida da função renal.",
-   "A obstrução bilateral cursa com hidronefrose e alteração da função, e não com esse padrão."
+   "A tipo 1 cursa com hipocalemia e pH urinário acima de 5,5.",
+   "A tipo 2 cursa com hipocalemia.",
+   "Acidose com ânion gap normal e hipercalemia em diabético com renina e aldosterona baixas: hipoaldosteronismo hiporreninêmico.",
+   "Cortisol normal afasta insuficiência adrenal.",
+   "Acidose lática tem ânion gap aumentado."
   ]
  },
  {
-  "q": "Paciente com rim único funcionante pergunta sobre uso de anti-inflamatório para dor crônica. Qual é a orientação?",
+  "q": "Mulher de 72 anos com doença renal crônica G4 (filtração de 22 mL/min/1,73 m²) e osteoartrite de joelhos tem dor moderada que limita a caminhada. Usa paracetamol 500 mg apenas quando dói, com pouca melhora. Não tem hepatopatia nem consome álcool. Pergunta se pode usar o diclofenaco oral que a vizinha recomendou. Não tem úlcera péptica nem usa anticoagulante. Qual é a orientação analgésica mais adequada?",
   "alts": [
-   "Usar anti-inflamatório não hormonal continuamente sem qualquer restrição no paciente com rim único funcionante.",
-   "Evitar anti-inflamatórios não hormonais e buscar sempre alternativas analgésicas com menor risco renal associado.",
-   "Usar apenas anti-inflamatório em dose dobrada para compensar a redução da massa renal do paciente neste caso.",
-   "Suspender toda analgesia, pois o paciente com rim único não pode receber qualquer tipo de analgésico neste caso.",
-   "Usar anti-inflamatório apenas por via tópica em dose alta e contínua, sem qualquer risco sistêmico associado."
+   "Diclofenaco oral por 2 semanas com hidratação",
+   "Paracetamol regular e diclofenaco tópico",
+   "Morfina oral de liberação imediata",
+   "Celecoxibe, por ser seletivo e poupar o rim",
+   "Codeína em dose plena"
   ],
   "gab": 1,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "KDIGO Chronic Kidney Disease Guideline, 2024; NKF guidance on analgesic use in kidney disease, revisão 2023",
-  "coment": "Anti-inflamatórios não hormonais reduzem prostaglandinas vasodilatadoras e comprometem a perfusão glomerular, além de poderem causar nefrite intersticial e necrose de papila. Em paciente com rim único ou função reduzida, devem ser evitados, sobretudo de forma contínua. As alternativas incluem paracetamol, analgesia tópica em áreas localizadas, medidas não farmacológicas como exercício e fisioterapia e, em dor neuropática, fármacos específicos ajustados à função renal.",
+  "base": "KDIGO Clinical Practice Guideline for the Evaluation and Management of CKD, 2024; ACR/Arthritis Foundation Guideline for the Management of Osteoarthritis, 2019",
+  "coment": "Anti-inflamatórios orais, inclusive os seletivos da COX-2, devem ser evitados com filtração abaixo de 30 mL/min/1,73 m² pelo risco de lesão renal aguda, hipercalemia e retenção hídrica. Paracetamol em horário regular é a primeira escolha, e o anti-inflamatório tópico, recomendado pelo ACR na osteoartrite de joelho, tem absorção sistêmica pequena. Se for necessário opioide, preferem-se os de menor acúmulo renal, como hidromorfona ou buprenorfina, evitando morfina e codeína.",
   "porAlt": [
-   "O uso contínuo em rim único ameaça diretamente a única reserva funcional do paciente.",
-   "Correta: evitar anti-inflamatórios e buscar alternativas analgésicas com menor risco renal.",
-   "Dobrar a dose multiplica o risco renal sem qualquer justificativa fisiológica ou clínica.",
-   "Existem alternativas analgésicas seguras, e suspender toda analgesia deixa o paciente sem tratamento.",
-   "A via tópica reduz mas não elimina a absorção sistêmica quando usada em dose alta e contínua."
+   "Anti-inflamatório oral na doença renal G4 arrisca lesão renal aguda, hipercalemia e retenção de sódio.",
+   "Paracetamol em horário regular e anti-inflamatório tópico, de absorção sistêmica baixa, são a opção mais segura.",
+   "Metabólitos da morfina se acumulam na doença renal e causam sedação e mioclonias.",
+   "Inibidores seletivos da COX-2 têm a mesma nefrotoxicidade.",
+   "Codeína tem metabólitos ativos que se acumulam na doença renal."
   ]
  },
  {
-  "q": "Paciente com hipercalcemia de 12,5 mg/dL e PTH suprimido, sem neoplasia conhecida. Qual é a investigação?",
+  "q": "Mulher de 44 anos tem fadiga, poliúria e tosse seca há 4 meses. Cálcio total 12,5 mg/dL, albumina 4,0 g/dL, fósforo 4,2 mg/dL, paratormônio 8 pg/mL (suprimido), proteína relacionada ao paratormônio indetectável, 25-hidroxivitamina D de 28 ng/mL e 1,25-di-hidroxivitamina D de 110 pg/mL (referência até 75). Eletroforese de proteínas normal. Tomografia de tórax com linfonodomegalia hilar bilateral simétrica e micronódulos perilinfáticos. Creatinina 1,4 mg/dL. Qual é o mecanismo mais provável?",
   "alts": [
-   "Investigar neoplasia oculta e causas independentes do paratormônio, dosando sempre vitamina D e proteína relacionada.",
-   "Concluir hiperparatireoidismo primário e encaminhar diretamente à cirurgia sem qualquer investigação adicional agora.",
-   "Não investigar qualquer causa, pois a hipercalcemia com paratormônio suprimido nunca tem causa identificável agora.",
-   "Solicitar apenas cintilografia de paratireoides como única investigação da hipercalcemia com paratormônio suprimido.",
-   "Iniciar reposição de cálcio para corrigir o desequilíbrio mineral identificado nos exames do paciente neste caso."
+   "Hiperparatireoidismo primário",
+   "Hipercalcemia humoral da malignidade",
+   "Intoxicação por vitamina D suplementar",
+   "Produção de calcitriol por granuloma",
+   "Metástases ósseas osteolíticas"
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline: Treatment of Hypercalcemia of Malignancy in Adults, 2022; Minisola et al., The diagnosis and management of hypercalcaemia, BMJ, 2015",
+  "coment": "Hipercalcemia com paratormônio suprimido é independente do paratormônio. O passo seguinte é dosar proteína relacionada ao paratormônio, 25-hidroxivitamina D e 1,25-di-hidroxivitamina D. A 1,25 elevada com 25 normal indica produção extrarrenal de calcitriol por macrófagos ativados, como na sarcoidose, tuberculose e linfomas, em que a 1-alfa-hidroxilase não é regulada pelo cálcio. O tratamento da hipercalcemia da sarcoidose é hidratação, redução de cálcio e vitamina D e glicocorticoide.",
+  "porAlt": [
+   "Paratormônio suprimido afasta causa paratireoidiana.",
+   "Proteína relacionada ao paratormônio indetectável afasta a forma humoral.",
+   "Na intoxicação exógena, a 25-hidroxivitamina D está muito elevada.",
+   "Paratormônio suprimido, 25 normal e 1,25 alta com adenopatia hilar: calcitriol produzido pelo granuloma da sarcoidose.",
+   "Metástases líticas não elevam calcitriol."
+  ]
+ },
+ {
+  "q": "Homem de 50 anos recebeu transplante renal de doador falecido há 4 meses, com creatinina basal de 1,2 mg/dL. Usa tacrolimo, micofenolato e prednisona. Hoje a creatinina é de 1,8 mg/dL, sem febre, dor no enxerto ou redução da diurese. Nível de tacrolimo de 7 ng/mL, dentro do alvo. Urina com leucocitúria discreta e urocultura negativa. Doppler sem obstrução ou estenose de artéria. PCR para poliomavírus BK no plasma de 50.000 cópias/mL. Qual é a conduta?",
+  "alts": [
+   "Pulso de metilprednisolona para rejeição",
+   "Biópsia do enxerto e redução da imunossupressão",
+   "Aumentar o tacrolimo e o micofenolato",
+   "Aciclovir endovenoso por 14 dias",
+   "Transplantectomia do enxerto"
+  ],
+  "gab": 1,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Hirsch et al., BK polyomavirus in solid organ transplantation: AST Infectious Diseases Community of Practice guidelines, Clinical Transplantation, 2019",
+  "coment": "A nefropatia por poliomavírus BK ocorre sobretudo no primeiro ano de transplante e se manifesta como elevação silenciosa da creatinina. Viremia persistente acima de 10.000 cópias/mL caracteriza nefropatia presumida; a biópsia confirma e afasta rejeição concomitante. Não há antiviral eficaz: o tratamento é reduzir a imunossupressão, em geral diminuindo ou suspendendo o micofenolato e baixando o alvo do inibidor de calcineurina, com carga viral seriada.",
+  "porAlt": [
+   "Pulso de corticoide sem confirmar rejeição agravaria a replicação viral.",
+   "Viremia por BK acima de 10.000 cópias/mL com disfunção do enxerto: biópsia e redução da imunossupressão.",
+   "Aumentar a imunossupressão favorece a replicação do BK.",
+   "Aciclovir não tem atividade contra poliomavírus.",
+   "Não há perda do enxerto que justifique retirá-lo."
+  ]
+ },
+ {
+  "q": "Homem de 56 anos com cirrose alcoólica e ascite tem creatinina de 1,1 para 2,6 mg/dL em 5 dias. Os diuréticos foram suspensos e ele recebeu albumina 1 g/kg/dia por 2 dias, sem melhora (creatinina de 2,8 mg/dL). Sem choque, nefrotóxicos recentes, proteinúria acima de 500 mg/dia ou hematúria; ultrassonografia renal normal. Paracentese sem peritonite. Saturação 97% em ar ambiente, sem congestão pulmonar. MELD 29. Pressão arterial média de 72 mmHg. Qual é o tratamento?",
+  "alts": [
+   "Terlipressina com albumina",
+   "Dopamina em dose renal",
+   "Furosemida com albumina",
+   "Hemodiálise imediata isolada",
+   "Octreotida isolada"
   ],
   "gab": 0,
-  "tema": "nefro",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "Endocrine Society guidance on hypercalcemia, revisão 2023; Fifth International Workshop on Primary Hyperparathyroidism, 2022",
-  "coment": "Hipercalcemia com paratormônio suprimido aponta causa independente da paratireoide: malignidade, por proteína relacionada ao paratormônio ou por metástase óssea, doenças granulomatosas com produção de calcitriol, intoxicação por vitamina D ou por cálcio, hipertireoidismo, imobilização prolongada e fármacos. A investigação inclui dosagem de proteína relacionada ao paratormônio, vitamina D e seus metabólitos, eletroforese de proteínas e imagem dirigida.",
-  "porAlt": [
-   "Correta: investigar neoplasia oculta e causas independentes do paratormônio, com dosagens dirigidas.",
-   "O hiperparatireoidismo primário cursa com paratormônio elevado ou inapropriadamente normal.",
-   "A hipercalcemia com paratormônio suprimido tem causas bem definidas e investigáveis.",
-   "A cintilografia de paratireoides não faz sentido quando o paratormônio já está suprimido.",
-   "Repor cálcio agrava diretamente a hipercalcemia já estabelecida no paciente."
-  ]
- },
- {
-  "q": "Paciente com transplante renal apresenta elevação de creatinina no terceiro mês pós-transplante. Qual é a conduta?",
-  "alts": [
-   "Aumentar empiricamente a imunossupressão sem qualquer investigação da causa da disfunção do enxerto neste caso.",
-   "Suspender toda a imunossupressão diante de qualquer elevação de creatinina no paciente transplantado renal.",
-   "Investigar rejeição, toxicidade e infecção com biópsia quando indicada, dosando sempre nível do imunossupressor.",
-   "Indicar retirada imediata do enxerto em todos os casos de elevação de creatinina no pós-transplante neste caso.",
-   "Prescrever apenas diurético em dose alta como tratamento da elevação de creatinina no paciente transplantado."
-  ],
-  "gab": 2,
-  "tema": "nefro",
-  "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "KDIGO Clinical Practice Guideline for the Care of Kidney Transplant Recipients, revisão 2023; The Transplantation Society guidance, 2023",
-  "coment": "A disfunção do enxerto renal exige diagnóstico diferencial sistemático: rejeição aguda celular ou mediada por anticorpos, toxicidade por inibidor de calcineurina, infecção — sobretudo por vírus BK e citomegalovírus —, obstrução urinária, trombose vascular, desidratação e recidiva da doença de base. A avaliação combina nível sérico do imunossupressor, ultrassonografia com doppler, pesquisa viral e biópsia do enxerto, que frequentemente é decisiva.",
-  "porAlt": [
-   "Aumentar a imunossupressão sem diagnóstico agrava toxicidade e infecção, se forem essas as causas.",
-   "Suspender toda a imunossupressão precipita rejeição aguda e perda do enxerto transplantado.",
-   "Correta: investigar rejeição, toxicidade e infecção com biópsia quando indicada e dosar o imunossupressor.",
-   "A retirada do enxerto é medida extrema e não é conduta diante de disfunção investigável e tratável.",
-   "O diurético não trata rejeição nem toxicidade e pode agravar a hipoperfusão do enxerto."
-  ]
- },
- {
-  "q": "Paciente com síndrome hepatorrenal tipo 1 em cirrose descompensada. Qual é o tratamento?",
-  "alts": [
-   "Diurético em dose alta como tratamento de escolha da síndrome hepatorrenal em cirrose descompensada agora.",
-   "Restrição hídrica extrema isolada como tratamento definitivo da síndrome hepatorrenal do paciente cirrótico.",
-   "Terlipressina com albumina, avaliando sempre a indicação de transplante hepático como tratamento definitivo.",
-   "Anti-inflamatório não hormonal em dose plena para melhorar a perfusão renal do paciente com cirrose agora.",
-   "Aguardar a recuperação espontânea da função renal sem qualquer intervenção no paciente com cirrose agora."
-  ],
-  "gab": 2,
   "tema": "nefro",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "EASL Clinical Practice Guidelines on decompensated cirrhosis, 2018 com atualização 2023; AASLD practice guidance, 2021",
-  "coment": "A síndrome hepatorrenal é lesão renal funcional por vasoconstrição renal intensa secundária à vasodilatação esplâncnica da cirrose avançada. O tratamento é vasoconstritor esplâncnico — terlipressina, a opção com melhor evidência — associado a albumina, após suspender diuréticos e nefrotóxicos e afastar outras causas de lesão renal e infecção. O tratamento definitivo é o transplante hepático, e a diálise serve de ponte em candidatos selecionados.",
+  "base": "AASLD Practice Guidance on ascites and hepatorenal syndrome, 2021; Wong et al., CONFIRM trial, NEJM, 2021",
+  "coment": "Pelos critérios do International Club of Ascites, lesão renal aguda por síndrome hepatorrenal exige aumento de creatinina sem resposta a 2 dias de suspensão de diuréticos e albumina 1 g/kg, sem choque, nefrotóxicos ou sinais de lesão estrutural. O tratamento é vasoconstritor com albumina: terlipressina é a primeira escolha, e noradrenalina em terapia intensiva é alternativa. A terlipressina aumenta insuficiência respiratória e deve ser evitada com hipoxemia ou sobrecarga de volume. O tratamento definitivo é o transplante hepático.",
   "porAlt": [
-   "Os diuréticos são suspensos na síndrome hepatorrenal, pois agravam a hipovolemia efetiva.",
-   "A restrição hídrica extrema agrava a hipoperfusão renal e não trata o mecanismo vasoconstritor.",
-   "Correta: terlipressina com albumina, avaliando o transplante hepático como tratamento definitivo.",
-   "Os anti-inflamatórios agravam a vasoconstrição renal e são formalmente contraindicados aqui.",
-   "A síndrome hepatorrenal tipo 1 tem prognóstico ruim sem tratamento e não se resolve espontaneamente."
+   "Síndrome hepatorrenal: terlipressina com albumina, monitorando saturação e sobrecarga, e avaliação para transplante.",
+   "Dopamina em dose renal não tem benefício.",
+   "Diurético agravaria a hipovolemia efetiva.",
+   "Diálise é ponte para transplante em não respondedores, não tratamento inicial isolado.",
+   "Octreotida isolada não é eficaz."
   ]
  }
 ]

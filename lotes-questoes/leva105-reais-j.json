@@ -12,8 +12,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Epidemiologia clínica — número necessário para tratar; ensaios RE-LY (2009), ROCKET-AF (2011) e ARISTOTLE (2011)",
-  "coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Com incidência de 4,7% no braço do novo fármaco e 8% no comparador, a redução absoluta é de 3,3 pontos percentuais, e o inverso de 0,033 resulta em aproximadamente 30 pacientes tratados para evitar um desfecho a mais. Note que a redução relativa é de cerca de 41% — número que impressiona mais e por isso costuma ser destacado —, mas é a redução absoluta que traduz o benefício concreto para a população tratada e permite comparar intervenções.",
+  "base": "Epidemiologia clínica, número necessário para tratar; ensaios RE-LY (2009), ROCKET-AF (2011) e ARISTOTLE (2011)",
+  "coment": "O número necessário para tratar é o inverso da redução absoluta de risco. Com incidência de 4,7% no braço do novo fármaco e 8% no comparador, a redução absoluta é de 3,3 pontos percentuais, e o inverso de 0,033 resulta em aproximadamente 30 pacientes tratados para evitar um desfecho a mais. Note que a redução relativa é de cerca de 41%, número que impressiona mais e por isso costuma ser destacado, mas é a redução absoluta que traduz o benefício concreto para a população tratada e permite comparar intervenções.",
   "porAlt": [
    "O valor 7 corresponderia a uma redução absoluta muito maior que a observada.",
    "O valor 25 corresponderia a uma redução absoluta de 4 pontos percentuais.",
@@ -39,7 +39,7 @@
   "comp": "dx",
   "nivel": "r3",
   "base": "EAACI/GA²LEN/EDF/WAO guideline for the definition, classification, diagnosis and management of urticaria, 2022",
-  "coment": "Urticária com angioedema recorrente em paciente que usa anti-inflamatório não esteroide sob demanda aponta para reação de hipersensibilidade não alérgica a essa classe — mecanismo farmacológico, por inibição da cicloxigenase e desvio para leucotrienos, que afeta todos os anti-inflamatórios inibidores da COX-1, e não apenas o fármaco específico. A associação eventual com camarão é coincidência frequente: alergia alimentar verdadeira reproduz o quadro de forma consistente e costuma surgir minutos após a ingestão. Não há anafilaxia, já que faltam broncoespasmo, sintomas gastrointestinais e hipotensão.",
+  "coment": "Urticária com angioedema recorrente em paciente que usa anti-inflamatório não esteroide sob demanda aponta para reação de hipersensibilidade não alérgica a essa classe. Mecanismo farmacológico, por inibição da cicloxigenase e desvio para leucotrienos, que afeta todos os anti-inflamatórios inibidores da COX-1, e não apenas o fármaco específico. A associação eventual com camarão é coincidência frequente: alergia alimentar verdadeira reproduz o quadro de forma consistente e costuma surgir minutos após a ingestão. Não há anafilaxia, já que faltam broncoespasmo, sintomas gastrointestinais e hipotensão.",
   "porAlt": [
    "Correta: urticária com angioedema desencadeada por anti-inflamatório não esteroide.",
    "A alergia alimentar seria reprodutível e consistente a cada exposição, não em duas de oito ocasiões.",
@@ -91,7 +91,7 @@
   "comp": "tto",
   "nivel": "r2",
   "base": "ACG Clinical Guideline on Chronic Diarrhea, 2025; American Geriatrics Society Beers Criteria, 2023",
-  "coment": "Diarreia crônica é sintoma cuja causa mais frequente, e mais barata de resolver, é medicamentosa. A diacereína, usada em osteoartrite, tem a diarreia como efeito adverso muito comum, dose-dependente e reversível com a suspensão. Antes de investigar com colonoscopia ou tratar sintomaticamente, a conduta é revisar a prescrição e retirar o agente suspeito — no caso, também há omeprazol e sertralina, igualmente associados a diarreia. Loperamida sem diagnóstico mascara o quadro, e probióticos não têm indicação nesse contexto.",
+  "coment": "Diarreia crônica é sintoma cuja causa mais frequente, e mais barata de resolver, é medicamentosa. A diacereína, usada em osteoartrite, tem a diarreia como efeito adverso muito comum, dose-dependente e reversível com a suspensão. Antes de investigar com colonoscopia ou tratar sintomaticamente, a conduta é revisar a prescrição e retirar o agente suspeito, no caso, também há omeprazol e sertralina, igualmente associados a diarreia. Loperamida sem diagnóstico mascara o quadro, e probióticos não têm indicação nesse contexto.",
   "porAlt": [
    "Loperamida trata o sintoma sem esclarecer nem remover a causa.",
    "Probióticos não têm papel estabelecido na diarreia medicamentosa.",
@@ -116,8 +116,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Blood — Duffy-null associated neutrophil count (DANC) e ASH/ASCP consenso sobre faixas de referência de neutrófilos, 2023",
-  "coment": "Neutropenia leve, isolada, persistente e assintomática em adulto saudável, sem infecções de repetição, sem alteração das demais séries e sem sinais sistêmicos, corresponde na maioria das vezes à neutropenia constitucional associada ao fenótipo Duffy-nulo, comum em pessoas de ascendência africana. Trata-se de variação da normalidade, e não de doença: a reserva medular é normal e não há risco infeccioso aumentado. Reconhecê-la evita mielograma desnecessário, adiamento de quimioterapia e exclusão indevida de tratamentos — motivo pelo qual as faixas de referência foram revistas.",
+  "base": "Blood, Duffy-null associated neutrophil count (DANC) e ASH/ASCP consenso sobre faixas de referência de neutrófilos, 2023",
+  "coment": "Neutropenia leve, isolada, persistente e assintomática em adulto saudável, sem infecções de repetição, sem alteração das demais séries e sem sinais sistêmicos, corresponde na maioria das vezes à neutropenia constitucional associada ao fenótipo Duffy-nulo, comum em pessoas de ascendência africana. Trata-se de variação da normalidade, e não de doença: a reserva medular é normal e não há risco infeccioso aumentado. Reconhecê-la evita mielograma desnecessário, adiamento de quimioterapia e exclusão indevida de tratamentos. Motivo pelo qual as faixas de referência foram revistas.",
   "porAlt": [
    "A avaliação de medula óssea é invasiva e desnecessária diante de neutropenia isolada e assintomática.",
    "Correta: fenotipagem do sistema Duffy, que identifica a neutropenia constitucional benigna.",
@@ -142,13 +142,13 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Dengue: diagnóstico e manejo clínico, adulto e criança, 2024; Guia de Vigilância em Saúde",
+  "base": "Ministério da Saúde. Dengue: diagnóstico e manejo clínico, adulto e criança, 2024; Guia de Vigilância em Saúde",
   "coment": "Febre com mialgia e cefaleia por cinco dias, com prova do laço positiva, em paciente estável, é dengue do grupo B: sem sinais de alarme, mas com sangramento espontâneo induzido, o que exige hemograma e observação até o resultado. A conduta reúne hidratação oral, sintomático sem anti-inflamatório, hemograma, orientação sobre sinais de alarme com retorno imediato e notificação. Em área sem casos autóctones prévios, o achado dispara resposta de vigilância: notificação imediata, investigação e reforço do controle vetorial no território, com envolvimento do agente de combate a endemias.",
   "porAlt": [
    "Azitromicina e corticoide não tratam covid-19 e não têm indicação neste quadro.",
    "Anti-inflamatório está contraindicado enquanto dengue não for afastada, pelo risco de sangramento.",
    "A ageusia e a prova do laço positiva não apontam zika, e a conduta descrita ignora o manejo do próprio paciente.",
-   "Correta: dengue — hidratação, hemograma, notificação e reforço do controle vetorial."
+   "Correta: dengue. Hidratação, hemograma, notificação e reforço do controle vetorial."
   ],
   "fonte": {
    "banca": "Revalida (INEP/MEC)",
@@ -168,7 +168,7 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Chikungunya: manejo clínico, 2023; Sociedade Brasileira de Reumatologia, recomendações para artropatia pós-chikungunya",
+  "base": "Ministério da Saúde: Chikungunya: manejo clínico, 2023; Sociedade Brasileira de Reumatologia, recomendações para artropatia pós-chikungunya",
   "coment": "Quadro febril agudo com exantema, conjuntivite e poliartralgia que evolui com artrite persistente por mais de três meses caracteriza a fase crônica da chikungunya, cuja artropatia é simétrica, acomete pequenas articulações e pode ser incapacitante. Persistindo apesar de analgésico e anti-inflamatório, a recomendação é escalonar para droga modificadora do curso da doença, sendo o metotrexato a de escolha, com hidroxicloroquina e sulfassalazina como alternativas ou associações, e corticoide em curso curto na transição. Acompanhamento reumatológico e reabilitação completam o manejo.",
   "porAlt": [
    "A citomegalovirose não cursa com artrite persistente por meses nesse padrão.",
@@ -194,8 +194,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; Protocolo de sífilis na gestação",
-  "coment": "O seguimento pós-tratamento da sífilis é feito com teste não treponêmico quantitativo — o VDRL ou o RPR —, cujo título deve cair; espera-se queda de pelo menos duas diluições em três meses e de quatro diluições em seis meses, e a ausência dessa queda ou um novo aumento indicam falha ou reinfecção. Na gestante, o controle é mensal até o parto, pelo risco de sífilis congênita. Os testes treponêmicos — TPHA e FTA-Abs — permanecem reagentes por toda a vida na maioria dos casos e por isso não servem para seguimento.",
+  "base": "Ministério da Saúde. PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; Protocolo de sífilis na gestação",
+  "coment": "O seguimento pós-tratamento da sífilis é feito com teste não treponêmico quantitativo, o VDRL ou o RPR, cujo título deve cair; espera-se queda de pelo menos duas diluições em três meses e de quatro diluições em seis meses, e a ausência dessa queda ou um novo aumento indicam falha ou reinfecção. Na gestante, o controle é mensal até o parto, pelo risco de sífilis congênita. Os testes treponêmicos, TPHA e FTA-Abs, permanecem reagentes por toda a vida na maioria dos casos e por isso não servem para seguimento.",
   "porAlt": [
    "Correta: VDRL quantitativo, com controle mensal na gestante.",
    "O TPHA permanece reagente indefinidamente e não monitora resposta ao tratamento.",
@@ -221,7 +221,7 @@
   "comp": "tto",
   "nivel": "r1",
   "base": "IDSA/ESCMID Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women; Ministério da Saúde, protocolo de infecção do trato urinário na atenção primária, 2023",
-  "coment": "Disúria, polaciúria, urgência e dor suprapúbica, sem febre, sem dor lombar e sem sinais sistêmicos, em mulher jovem sem comorbidade, caracterizam cistite aguda não complicada — diagnóstico clínico, que dispensa urocultura de rotina e não exige aguardar exame para tratar. O tratamento de primeira linha é nitrofurantoína por cinco dias, com fosfomicina em dose única ou sulfametoxazol-trimetoprima como alternativas conforme o perfil local de resistência. Quinolonas são evitadas nesse cenário pelo perfil de efeitos adversos e pela necessidade de preservá-las.",
+  "coment": "Disúria, polaciúria, urgência e dor suprapúbica, sem febre, sem dor lombar e sem sinais sistêmicos, em mulher jovem sem comorbidade, caracterizam cistite aguda não complicada. Diagnóstico clínico, que dispensa urocultura de rotina e não exige aguardar exame para tratar. O tratamento de primeira linha é nitrofurantoína por cinco dias, com fosfomicina em dose única ou sulfametoxazol-trimetoprima como alternativas conforme o perfil local de resistência. Quinolonas são evitadas nesse cenário pelo perfil de efeitos adversos e pela necessidade de preservá-las.",
   "porAlt": [
    "Correta: cistite aguda não complicada tratada com nitrofurantoína.",
    "Não há critérios de infecção alta: faltam febre, dor lombar e sinais sistêmicos, e a quinolona não é primeira escolha.",
@@ -246,8 +246,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Sociedade Brasileira de Imunizações — Calendário de vacinação do adulto e do idoso, 2025; Ministério da Saúde, Manual dos Centros de Referência para Imunobiológicos Especiais",
-  "coment": "A paciente já teve sarampo, caxumba, rubéola, varicela e hepatite A, o que confere imunidade natural e torna dispensáveis as vacinas correspondentes. Resta a vacina contra herpes-zóster, indicada justamente a quem já teve varicela — porque o vírus permanece latente nos gânglios e reativa com a idade e com a imunossenescência —, com recomendação a partir dos 50 anos e reforçada em diabéticos. A vacina recombinante é preferida e pode ser usada em imunossuprimidos, enquanto a atenuada é contraindicada nesse grupo.",
+  "base": "Sociedade Brasileira de Imunizações. Calendário de vacinação do adulto e do idoso, 2025; Ministério da Saúde, Manual dos Centros de Referência para Imunobiológicos Especiais",
+  "coment": "A paciente já teve sarampo, caxumba, rubéola, varicela e hepatite A, o que confere imunidade natural e torna dispensáveis as vacinas correspondentes. Resta a vacina contra herpes-zóster, indicada justamente a quem já teve varicela, porque o vírus permanece latente nos gânglios e reativa com a idade e com a imunossenescência, com recomendação a partir dos 50 anos e reforçada em diabéticos. A vacina recombinante é preferida e pode ser usada em imunossuprimidos, enquanto a atenuada é contraindicada nesse grupo.",
   "porAlt": [
    "A paciente teve caxumba e tem imunidade natural.",
    "A hepatite A prévia confere imunidade duradoura.",
@@ -272,8 +272,8 @@
   "cenario": "amb",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Diretrizes para vigilância, atenção e eliminação da hanseníase, 2022; WHO Guidelines for the diagnosis, treatment and prevention of leprosy",
-  "coment": "Nódulos cutâneos múltiplos, dolorosos e eritematosos, com febre, artrite e madarose, cuja histologia mostra vasculite leucocitoclástica sobre granulomas, caracterizam o eritema nodoso hansênico, a reação hansênica tipo 2, mediada por imunocomplexos e típica das formas multibacilares. É urgência: pode cursar com neurite, orquite, irite e dano neural permanente. O tratamento é talidomida — proibida para mulheres em idade fértil sem controle rigoroso do risco teratogênico — associada a corticoide quando há neurite ou acometimento visceral, mantendo-se a poliquimioterapia.",
+  "base": "Ministério da Saúde. Diretrizes para vigilância, atenção e eliminação da hanseníase, 2022; WHO Guidelines for the diagnosis, treatment and prevention of leprosy",
+  "coment": "Nódulos cutâneos múltiplos, dolorosos e eritematosos, com febre, artrite e madarose, cuja histologia mostra vasculite leucocitoclástica sobre granulomas, caracterizam o eritema nodoso hansênico, a reação hansênica tipo 2, mediada por imunocomplexos e típica das formas multibacilares. É urgência: pode cursar com neurite, orquite, irite e dano neural permanente. O tratamento é talidomida, proibida para mulheres em idade fértil sem controle rigoroso do risco teratogênico, associada a corticoide quando há neurite ou acometimento visceral, mantendo-se a poliquimioterapia.",
   "porAlt": [
    "Correta: reação hansênica tipo 2, o eritema nodoso hansênico, com vasculite sobre granulomas.",
    "A granulomatose com poliangiíte cursa com acometimento de vias aéreas e rins, com ANCA positivo.",

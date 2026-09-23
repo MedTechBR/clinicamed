@@ -1,146 +1,146 @@
 [
  {
-  "q": "Homem de 76 anos com insuficiência cardíaca classe funcional IV, três internações no último ano e dependência para atividades básicas é acompanhado no ambulatório. O médico se pergunta se deve acionar cuidados paliativos. Qual instrumento orienta essa decisão?",
+  "q": "Homem de 76 anos com insuficiência cardíaca de fração reduzida (18%), classe funcional IV apesar de terapia otimizada, teve 3 internações por descompensação no último ano. Tem clearance de 28 mL/min, perdeu 7 kg em 6 meses e precisa de ajuda para banho e vestir-se. Não é candidato a transplante ou dispositivo de assistência ventricular. O médico não se surpreenderia se ele morresse em 12 meses. Qual instrumento e conduta são mais adequados?",
   "alts": [
-   "A pergunta surpresa, questionando se causaria surpresa a morte deste paciente nos próximos doze meses.",
-   "O escore de Glasgow, que estabelece qual é o momento adequado para iniciar a abordagem paliativa.",
-   "A dosagem seriada de peptídeo natriurético, único marcador validado para indicar cuidado paliativo.",
-   "A idade acima de setenta e cinco anos, critério suficiente e isolado para indicar acompanhamento paliativo.",
-   "A ausência de tratamento modificador disponível, condição obrigatória para acionar a equipe paliativa."
+   "Aguardar sintomas refratários de fim de vida",
+   "SPICT-BR positivo; abordagem paliativa integrada",
+   "NYHA isolada; encaminhar para transplante",
+   "Escore de Charlson; alta ambulatorial",
+   "PPS de 90%; manter apenas seguimento habitual"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Instrumentos de identificação em cuidados paliativos e Resolução CFM nº 1.805/2006",
-  "coment": "A pergunta surpresa — eu ficaria surpreso se este paciente morresse nos próximos doze meses? — é o instrumento de triagem mais difundido para identificar quem se beneficia de abordagem paliativa. Resposta negativa indica avaliação, e isso não significa suspender tratamento modificador algum: cuidado paliativo é cuidado ativo que corre em paralelo. Somam-se indicadores gerais, como declínio funcional progressivo, perda de peso, internações repetidas e dependência, e indicadores específicos por doença. Esperar que não haja mais tratamento disponível é justamente o erro que atrasa o cuidado.",
+  "base": "Supportive and Palliative Care Indicators Tool (SPICT-BR), validação brasileira, 2019; ESC Guidelines for heart failure, 2021 (atualização 2023)",
+  "coment": "O SPICT (versão brasileira validada) combina indicadores gerais (internações não planejadas, dependência, perda de peso, sintomas persistentes) com indicadores específicos (na insuficiência cardíaca, classe III ou IV com dispneia ou dor em repouso), além da pergunta surpresa. Positivo, orienta revisar tratamento, planejar cuidados antecipados, controlar sintomas e discutir preferências, junto com o tratamento cardiológico. Cuidados paliativos não esperam a fase final nem excluem terapia modificadora da doença.",
   "porAlt": [
-   "Correta: a pergunta surpresa é o instrumento de triagem, e resposta negativa indica avaliação paliativa desde já.",
-   "A escala de coma de Glasgow mede nível de consciência e não tem qualquer papel na indicação de cuidados paliativos.",
-   "Não existe biomarcador isolado que defina indicação de cuidado paliativo; a decisão é clínica e multidimensional.",
-   "A idade isolada não indica cuidado paliativo: o que indica é a trajetória da doença e o sofrimento associado.",
-   "Cuidado paliativo corre em paralelo ao tratamento modificador e não exige que ele tenha se esgotado."
+   "Cuidados paliativos devem começar antes da fase final.",
+   "Indicadores gerais e específicos positivos no SPICT-BR: abordagem paliativa integrada ao cuidado cardiológico.",
+   "Ele não é candidato a transplante, e NYHA isolada não identifica necessidade paliativa.",
+   "Charlson estima mortalidade, não orienta cuidados paliativos.",
+   "Dependência para atividades básicas não é compatível com PPS de 90%."
   ]
  },
  {
-  "q": "Paciente com câncer metastático em uso de morfina de liberação prolongada 60 mg a cada doze horas apresenta dor bem controlada, mas evolui com mioclonias e sonolência excessiva. A função renal piorou nas últimas semanas. Qual é a conduta apropriada?",
+  "q": "Mulher de 68 anos com câncer de pulmão metastático usa morfina oral de liberação prolongada 60 mg a cada 12 horas, com dor bem controlada. Nas últimas 2 semanas, com creatinina subindo de 1,0 para 2,3 mg/dL (clearance de 22 mL/min), surgiram mioclonias, sonolência e alucinações visuais. Sem hipercalcemia, infecção ou metástases cerebrais novas. Não há disfagia. Pesa 58 kg e usa morfina de resgate 1 a 2 vezes por dia. Qual é a troca de opioide mais adequada?",
   "alts": [
-   "Aumentar a dose de morfina, pois a sonolência indica que a dor não está adequadamente controlada.",
-   "Suspender todo opioide de forma abrupta e reavaliar a dor do paciente ao longo das próximas horas.",
-   "Rotacionar para outro opioide, reduzindo em vinte e cinco a cinquenta por cento a dose equianalgésica.",
-   "Associar benzodiazepínico em dose alta para controlar as mioclonias sem alterar o esquema opioide.",
-   "Manter a morfina e apenas acrescentar naloxona em dose baixa para reverter a sonolência excessiva."
+   "Aumentar a morfina para 90 mg a cada 12 horas",
+   "Codeína 60 mg a cada 4 horas",
+   "Tramadol 100 mg a cada 6 horas",
+   "Fentanil transdérmico 25 µg/h, com resgate",
+   "Fentanil transdérmico 100 µg/h"
+  ],
+  "gab": 3,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "NCCN Clinical Practice Guidelines: Adult Cancer Pain, 2025; ESMO Clinical Practice Guidelines: Management of cancer pain in adult patients, 2018",
+  "coment": "Neurotoxicidade por opioide (mioclonias, sonolência, alucinações) com piora renal decorre do acúmulo de metabólitos da morfina (morfina-3 e 6-glicuronídeos). A conduta é hidratar, tratar a causa e rotacionar para opioide sem metabólitos ativos renais relevantes, como fentanil, metadona ou buprenorfina. Morfina oral de 120 mg/dia corresponde, pela tabela conservadora do fabricante, a fentanil 25 µg/h (faixa de 60 a 134 mg/dia), o que já incorpora a redução de 25 a 50% pela tolerância cruzada incompleta. Codeína e tramadol também dependem do rim.",
+  "porAlt": [
+   "Aumentar a morfina piora a neurotoxicidade.",
+   "Codeína é metabolizada em morfina e acumula na insuficiência renal.",
+   "Tramadol acumula no rim e reduz o limiar convulsivo.",
+   "Neurotoxicidade por morfina com insuficiência renal: rotacionar para fentanil transdérmico 25 µg/h, com resgate.",
+   "Dose muito acima da equivalência, com risco de depressão respiratória."
+  ]
+ },
+ {
+  "q": "Mulher de 81 anos com DPOC muito grave (VEF₁ de 24%) em terapia tripla otimizada, reabilitação concluída e oxigênio domiciliar, tem dispneia intensa em repouso, mMRC 4, que a impede de conversar. Saturação de 93% com 2 L/min. Sem broncoespasmo, congestão, anemia ou infecção. Clearance de 55 mL/min. Não usa opioide. Deseja ficar em casa e priorizar conforto. Qual é a conduta farmacológica mais adequada para o sintoma?",
+  "alts": [
+   "Morfina oral em dose baixa titulada",
+   "Aumentar o oxigênio para saturação de 98%",
+   "Diazepam 10 mg de horário",
+   "Prednisona 40 mg contínua",
+   "Morfina 10 mg endovenosa de horário"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ASCO Guideline: Management of Dyspnea in Advanced Cancer, 2021; ATS Official Clinical Policy Statement: Palliative Management of Dyspnea Crisis, 2013",
+  "coment": "Dispneia refratária em doença avançada responde a opioide sistêmico em dose baixa: a ASCO (2021) e a ATS recomendam morfina oral de liberação imediata, por exemplo 2,5 a 5 mg a cada 4 horas conforme necessidade (ou 10 mg/dia de liberação prolongada), titulada, com laxante e reavaliação. Em doses baixas não há depressão respiratória clinicamente relevante. Ventilador direcionado à face ajuda. Oxigênio acima do necessário não alivia dispneia sem hipoxemia, e benzodiazepínico isolado não é primeira linha.",
+  "porAlt": [
+   "Dispneia refratária em doença avançada: morfina oral em dose baixa titulada, com laxante.",
+   "Saturação alta não alivia dispneia e pode reter CO₂.",
+   "Benzodiazepínico não é primeira linha e aumenta sedação e quedas.",
+   "Corticoide contínuo não trata dispneia refratária e causa efeitos adversos.",
+   "Dose e via desproporcionais para quem nunca usou opioide."
+  ]
+ },
+ {
+  "q": "Mulher de 84 anos com Alzheimer avançado, internada por pneumonia aspirativa, piora com saturação de 84% em máscara. Há 3 anos, ainda com capacidade, registrou em prontuário diretiva antecipada recusando intubação e ressuscitação. A filha que mora com ela concorda com a diretiva, mas o filho que chegou de outro estado exige que tudo seja feito. Não há procurador nomeado. Está sonolenta, com frequência respiratória de 32 irpm e uso de musculatura acessória. Qual é a conduta mais adequada?",
+  "alts": [
+   "Intubar, pois a família discorda",
+   "Aguardar consenso familiar antes de decidir",
+   "Respeitar a diretiva e acolher os filhos",
+   "Acionar a justiça antes de qualquer decisão",
+   "Intubar e extubar depois da reunião familiar"
   ],
   "gab": 2,
   "tema": "geriatria",
-  "cenario": "amb",
+  "cenario": "enf",
   "comp": "tto",
   "nivel": "tit",
-  "base": "WHO Guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults, 2018; Harrison's, 22ª edição, 2025",
-  "coment": "Mioclonias e sonolência excessiva com dor controlada indicam neurotoxicidade por opioide, agravada aqui pela piora da função renal, que faz acumular metabólitos ativos da morfina. A conduta é a rotação de opioide: converte-se pela tabela de equianalgesia e reduz-se de vinte e cinco a cinquenta por cento a dose calculada, por tolerância cruzada incompleta, escolhendo agente com metabolismo mais seguro na insuficiência renal, como fentanil ou metadona — esta com cautela, pela meia-vida longa. Hidratação e revisão de outros fármacos sedativos completam a conduta. Suspender abruptamente causa dor e abstinência.",
+  "base": "Resolução CFM nº 1.995/2012 (diretivas antecipadas de vontade); Resolução CFM nº 1.805/2006",
+  "coment": "A Resolução CFM nº 1.995/2012 reconhece as diretivas antecipadas de vontade: registradas pelo médico no prontuário, prevalecem sobre qualquer outro parecer não médico, inclusive o desejo dos familiares. O médico mantém as medidas de conforto (controle de dispneia com opioide, oxigênio se confortar, cuidado com secreções) e acolhe a família, explicando a vontade da paciente. Ortotanásia é amparada pela Resolução CFM nº 1.805/2006. Ação judicial não é necessária para cumprir diretiva válida.",
   "porAlt": [
-   "Aumentar a dose agrava a neurotoxicidade em paciente cuja dor já está controlada e que acumula metabólitos.",
-   "Suspender abruptamente provoca dor intensa e síndrome de abstinência, sem resolver a causa do problema.",
-   "Correta: o quadro é neurotoxicidade por acúmulo de metabólitos; roda-se o opioide reduzindo a dose calculada em 25% a 50%.",
-   "Benzodiazepínico soma sedação e não trata a causa, que é o acúmulo do opioide na insuficiência renal.",
-   "A naloxona reverteria a analgesia e precipitaria abstinência, sendo reservada à depressão respiratória grave."
+   "A discordância familiar não anula a diretiva antecipada.",
+   "Não se suspendem medidas de conforto à espera de consenso.",
+   "Diretiva antecipada registrada prevalece sobre a vontade dos familiares: cumprir, controlar sintomas e acolher a família.",
+   "Diretiva válida não exige autorização judicial.",
+   "Intubar contraria a vontade expressa da paciente."
   ]
  },
  {
-  "q": "Mulher de 81 anos com doença pulmonar avançada refere dispneia intensa em repouso. A saturação está em 95% em ar ambiente e não há broncoespasmo, congestão nem infecção. Qual é a conduta com melhor evidência para o sintoma?",
+  "q": "Homem de 79 anos com câncer de pâncreas metastático, com prognóstico estimado em horas a dias, está inconsciente, sem sinais de desconforto, frequência respiratória de 18 irpm, sem febre. Há 6 horas apresenta respiração ruidosa pelo acúmulo de secreção na orofaringe, que angustia a esposa. Recebe 1.500 mL/dia de soro por hipodermóclise. Sem edema pulmonar ao exame. A esposa pergunta se ele está sufocando. Qual é a conduta mais adequada?",
   "alts": [
-   "Oxigênio suplementar em alto fluxo, medida mais eficaz mesmo quando a saturação está preservada.",
-   "Opioide em dose baixa, tratamento de escolha para a sensação de dispneia refratária nesse contexto.",
-   "Broncodilatador inalatório em série contínua, independentemente da ausência de broncoespasmo agora.",
-   "Corticoide sistêmico em dose alta, que alivia a dispneia refratária em pacientes sem doença inflamatória.",
-   "Benzodiazepínico isolado em dose plena, primeira escolha para dispneia em doença pulmonar avançada."
-  ],
-  "gab": 1,
-  "tema": "geriatria",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — manejo da dispneia refratária em doença avançada",
-  "coment": "O opioide em dose baixa é o tratamento de escolha da dispneia refratária: reduz a percepção de falta de ar por ação central, sem depressão respiratória clinicamente relevante nas doses usadas. O oxigênio só alivia quando há hipoxemia — nesta paciente, com saturação de 95%, não há benefício. Uma medida não farmacológica com efeito real é o ar corrente no rosto, com ventilador. O benzodiazepínico entra como adjuvante quando há componente ansioso importante, mas não é primeira escolha isolada. Broncodilatador e corticoide tratam mecanismos específicos, ausentes no caso.",
-  "porAlt": [
-   "O oxigênio alivia dispneia apenas quando há hipoxemia; com saturação de 95% não traz benefício demonstrado.",
-   "Correta: o opioide em dose baixa é o tratamento de escolha da dispneia refratária, mesmo sem hipoxemia.",
-   "Sem broncoespasmo, o broncodilatador não atua sobre o mecanismo da dispneia desta paciente em repouso.",
-   "O corticoide tem papel quando há inflamação ou obstrução, e não como tratamento da dispneia refratária.",
-   "O benzodiazepínico é adjuvante do componente ansioso e não substitui o opioide como primeira escolha."
-  ]
- },
- {
-  "q": "Durante reunião familiar, os filhos de uma paciente com demência avançada e pneumonia aspirativa de repetição perguntam ao médico se devem autorizar intubação caso ela piore. Qual é a postura correta do profissional?",
-  "alts": [
-   "Transferir integralmente a decisão à família, apresentando apenas as opções sem qualquer recomendação.",
-   "Ouvir os valores da família e então fazer uma recomendação médica fundamentada sobre o plano de cuidado.",
-   "Decidir sozinho pela limitação e comunicar a decisão já tomada, sem envolver a família na conversa.",
-   "Perguntar diretamente se a família quer que se faça tudo, deixando a escolha ao encargo dos filhos.",
-   "Adiar a conversa para o momento em que houver deterioração clínica aguda dentro da internação atual."
+   "Aspiração traqueal profunda de horário",
+   "Decúbito lateral, menos hidratação e explicação",
+   "Furosemida 40 mg endovenosa de horário",
+   "Antibiótico de amplo espectro e fisioterapia",
+   "Aumentar a hidratação para fluidificar a secreção"
   ],
   "gab": 1,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "tit",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018, e Resolução CFM nº 1.805/2006 sobre ortotanásia",
-  "coment": "A reunião de definição de objetivos de cuidado tem uma sequência: investigar o que a família compreende, explorar valores e o que o paciente consideraria aceitável, e então oferecer uma recomendação médica fundamentada. Transferir a decisão crua — perguntar se a família quer que se faça tudo — é injusto, ininteligível e produz culpa e decisões piores. Decidir sozinho e apenas comunicar retira a família do processo. Adiar para o momento da deterioração transforma uma deliberação cuidadosa em decisão sob pânico. Recomendar não é impor: a família permanece com a palavra final.",
+  "nivel": "r2",
+  "base": "NICE Guideline NG31: Care of dying adults in the last days of life, 2015 (atualização 2017); Cochrane Review: Interventions for noisy breathing in patients near to death, 2022",
+  "coment": "Respiração ruidosa terminal decorre de secreções na orofaringe que o paciente inconsciente não elimina, e em geral não causa desconforto a ele. O manejo é explicar à família, reposicionar em decúbito lateral, reduzir ou suspender hidratação artificial e evitar aspiração profunda, que é invasiva. Anticolinérgico (butilbrometo de escopolamina subcutâneo) pode ser usado, idealmente cedo, embora as evidências de benefício sejam limitadas (revisão Cochrane).",
   "porAlt": [
-   "Apresentar opções sem recomendação sobrecarrega a família com uma responsabilidade técnica que é do médico.",
-   "Correta: ouvir valores e então recomendar de forma fundamentada é o que a boa prática e a ética exigem nessa conversa.",
-   "Decidir sozinho e comunicar retira a família do processo e ignora os valores do próprio paciente.",
-   "Perguntar se querem que se faça tudo é a formulação que mais gera culpa e que menos informa a decisão.",
-   "Adiar para a deterioração aguda impede a deliberação cuidadosa e leva a decisões tomadas sob pânico."
+   "Aspiração profunda é desconfortável e estimula mais secreção.",
+   "Respiração ruidosa terminal: decúbito lateral, menos hidratação, explicação à família e anticolinérgico se necessário.",
+   "Sem congestão pulmonar, diurético não é indicado.",
+   "Antibiótico não traz conforto na fase final e não trata o fenômeno.",
+   "Mais hidratação aumenta as secreções."
   ]
  },
  {
-  "q": "Paciente em fase final de vida, com prognóstico de dias, apresenta secreção respiratória ruidosa que angustia a família. Está sonolento, sem sinais de desconforto. Qual é a conduta adequada?",
+  "q": "Homem de 67 anos com câncer de pulmão metastático, em cuidados paliativos exclusivos e com expectativa de vida de dias, tem dispneia intensa e agitação refratárias a morfina em doses crescentes, benzodiazepínico, oxigênio e ventilador portátil. Em momento de lucidez, junto com a esposa, pediu para não sofrer no fim. A equipe discute sedação, e um residente pergunta se isso seria eutanásia. A família está presente e em acordo. Qual é a resposta correta?",
   "alts": [
-   "Aspirar a via aérea de forma vigorosa e repetida, medida mais eficaz para eliminar a secreção residual.",
-   "Aumentar a hidratação endovenosa, corrigindo a desidratação que provoca o espessamento da secreção.",
-   "Iniciar antimicrobiano de amplo espectro, presumindo pneumonia como causa da secreção observada.",
-   "Intubar o paciente para proteção de via aérea, evitando a broncoaspiração da secreção acumulada.",
-   "Reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar o fenômeno à família."
+   "É eutanásia, vedada pelo Código de Ética Médica",
+   "Sedação paliativa proporcional a sintoma refratário é lícita",
+   "É permitida só com autorização judicial",
+   "É distanásia, por prolongar o processo de morrer",
+   "É lícita apenas com dose que abrevie a vida"
   ],
-  "gab": 4,
-  "tema": "geriatria",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "Manejo de sintomas nos últimos dias de vida — bibliografia de cuidados paliativos e Resolução CFM nº 1.805/2006",
-  "coment": "A secreção respiratória terminal resulta do acúmulo de secreções em paciente que perdeu o reflexo de deglutição, e incomoda muito mais quem ouve do que o próprio paciente, que está sonolento e sem desconforto. A conduta combina reposicionamento, redução ou suspensão da hidratação artificial — que aumenta a secreção —, anticolinérgico e, sobretudo, explicação à família. A aspiração vigorosa é desconfortável e estimula mais secreção. Hidratar mais piora o quadro. Antimicrobiano e intubação são intervenções desproporcionais que prolongam o processo de morrer sem benefício.",
-  "porAlt": [
-   "A aspiração vigorosa causa desconforto e estimula ainda mais a produção de secreção nesse contexto.",
-   "Aumentar a hidratação piora a secreção respiratória e o edema, sem qualquer benefício ao paciente.",
-   "Presumir pneumonia e iniciar antimicrobiano é intervenção desproporcional diante do prognóstico de dias.",
-   "A intubação prolonga o processo de morrer sem benefício e configura obstinação terapêutica.",
-   "Correta: reposicionar, reduzir hidratação artificial, usar anticolinérgico e explicar à família é a conduta indicada."
-  ]
- },
- {
-  "q": "Um residente pergunta ao preceptor qual a diferença entre ortotanásia e eutanásia, diante de um paciente terminal em que se discute suspender a ventilação mecânica mantendo conforto. Qual é a resposta correta?",
-  "alts": [
-   "Ortotanásia é não prolongar artificialmente o morrer e é lícita; eutanásia é provocar a morte e é ilegal.",
-   "São sinônimos na prática médica atual e ambas permanecem vedadas pela legislação brasileira vigente.",
-   "Ortotanásia é a antecipação da morte a pedido do paciente, prevista em resolução do conselho federal.",
-   "Eutanásia é a suspensão de suporte artificial, permitida quando há consentimento expresso da família.",
-   "Ambas são permitidas desde que registradas em prontuário e assinadas por dois médicos assistentes do caso."
-  ],
-  "gab": 0,
+  "gab": 1,
   "tema": "sus",
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Resolução CFM nº 1.805/2006 (ortotanásia) e Código de Ética Médica, Resolução CFM nº 2.217/2018",
-  "coment": "Ortotanásia é permitir que a morte ocorra no seu tempo, sem prolongar artificialmente o processo de morrer: suspender ou não iniciar tratamento fútil, mantendo todo o cuidado de conforto. É lícita e amparada por resolução do Conselho Federal de Medicina. Eutanásia é o ato de provocar a morte para aliviar sofrimento, e é ilegal no Brasil. Distanásia é o oposto da ortotanásia — prolongar o morrer com tratamentos que apenas adiam a morte e aumentam o sofrimento — e deve ser evitada. A sedação paliativa, que reduz a consciência de forma proporcional para aliviar sintoma refratário, é lícita porque a intenção é aliviar, não abreviar.",
+  "base": "Academia Nacional de Cuidados Paliativos, Manual de Cuidados Paliativos, 2ª edição, 2012; European Association for Palliative Care framework for the use of sedation in palliative care, 2009",
+  "coment": "Sedação paliativa é a redução intencional do nível de consciência, com fármacos titulados até o alívio de sintoma refratário (dispneia, delirium, dor) em paciente com doença avançada e morte próxima, com consentimento do paciente ou representante. Difere da eutanásia pela intenção (aliviar, não matar), pela dose proporcional e pelo desfecho: estudos não mostram abreviação da sobrevida. Eutanásia é crime no Brasil; ortotanásia e sedação paliativa são práticas éticas.",
   "porAlt": [
-   "Correta: ortotanásia é não prolongar artificialmente o morrer, sendo lícita; eutanásia é provocar a morte, e é ilegal.",
-   "Não são sinônimos, e a ortotanásia é expressamente amparada por resolução do Conselho Federal de Medicina.",
-   "Antecipar a morte a pedido do paciente corresponde a suicídio assistido ou eutanásia, e não à ortotanásia.",
-   "Suspender suporte artificial fútil mantendo conforto é ortotanásia, e não eutanásia, ainda que haja consentimento.",
-   "A eutanásia permanece ilegal no país independentemente de registro em prontuário ou de número de assinaturas."
+   "A intenção da sedação paliativa é aliviar sintoma refratário, não causar a morte.",
+   "Sedação titulada ao alívio de sintoma refratário em fim de vida, com consentimento, é prática ética distinta da eutanásia.",
+   "Não há exigência de autorização judicial.",
+   "Distanásia é prolongar o morrer com tratamentos fúteis, o oposto disso.",
+   "Dose com intenção de abreviar a vida seria eutanásia."
   ]
  }
 ]

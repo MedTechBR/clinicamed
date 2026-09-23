@@ -1,242 +1,242 @@
 [
  {
-  "q": "Mulher de 44 anos internada em terapia intensiva por cetoacidose diabética recebe hidratação e insulina intravenosa contínua. Após seis horas, a glicemia é de 210 mg/dL, o pH é de 7,22 e o ânion-gap permanece elevado. Qual é a conduta?",
+  "q": "Mulher de 44 anos com diabetes tipo 1 está na terapia intensiva por cetoacidose diabética precipitada por pielonefrite. Recebeu 2 litros de salina isotônica, insulina regular endovenosa a 0,1 U/kg/h e cloreto de potássio. Após 6 horas, glicemia 210 mg/dL, pH 7,22, bicarbonato 12 mEq/L, ânion gap 20 mEq/L, potássio 4,1 mEq/L e beta-hidroxibutirato 3,1 mmol/L. Está consciente, ainda com vômitos. Qual é a conduta?",
   "alts": [
-   "Associar solução glicosada e manter a insulina até a resolução completa do ânion-gap elevado.",
-   "Suspender a insulina intravenosa porque a glicemia já se aproxima do valor considerado seguro.",
-   "Trocar imediatamente para insulina subcutânea de ação intermediária e liberar dieta por via oral.",
-   "Administrar bicarbonato de sódio intravenoso para acelerar a correção da acidose metabólica dela.",
-   "Reduzir a hidratação intravenosa pela metade para evitar sobrecarga de volume nesse momento."
+   "Soro glicosado a 5% e manter a insulina endovenosa",
+   "Suspender a insulina pela glicemia abaixo de 250",
+   "Trocar para insulina subcutânea basal e correção",
+   "Bicarbonato de sódio até pH acima de 7,3",
+   "Reduzir a insulina a 0,02 U/kg/h sem glicose"
   ],
   "gab": 0,
   "tema": "endocrino",
   "cenario": "uti",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "American Diabetes Association — Standards of Care in Diabetes, 2025; consenso ADA/EASD sobre crises hiperglicêmicas, 2024",
-  "coment": "O critério de resolução da cetoacidose diabética não é a glicemia, e sim o fechamento do ânion-gap com normalização do bicarbonato e do pH. Quando a glicemia atinge cerca de 200 a 250 mg/dL, associa-se solução glicosada e mantém-se a infusão de insulina, que é o que interrompe a cetogênese. A transição para insulina subcutânea só ocorre após a resolução, com sobreposição de uma a duas horas. Bicarbonato se reserva a pH abaixo de 6,9.",
+  "nivel": "r2",
+  "base": "Hyperglycemic crises in adults with diabetes: a consensus report (ADA, EASD, JBDS, AACE, DTS), Diabetes Care, 2024",
+  "coment": "Na cetoacidose, a glicemia cai antes de a cetose se resolver. Quando fica abaixo de 250 mg/dL, o consenso de 2024 (ADA, EASD, JBDS, AACE, DTS) orienta acrescentar dextrose a 5% ou 10% e manter a insulina, reduzindo a taxa para cerca de 0,05 U/kg/h se necessário, até a resolução: pH de 7,3 ou mais, bicarbonato de 18 mEq/L ou mais e beta-hidroxibutirato abaixo de 0,6 mmol/L. Suspender a insulina porque a glicemia caiu é o erro clássico.",
   "porAlt": [
-   "Correta: associar glicose e manter a insulina até a resolução do ânion-gap e da acidose.",
-   "Suspender a insulina com ânion-gap ainda elevado permite a retomada imediata da cetogênese.",
-   "A transição para insulina subcutânea antes da resolução leva à recidiva da cetoacidose diabética.",
-   "O bicarbonato não melhora desfecho e se reserva a acidose extrema, com pH abaixo de seis vírgula nove.",
-   "Reduzir a hidratação sem sinais de congestão prolonga a hipoperfusão e atrasa a correção do quadro."
+   "Glicemia abaixo de 250 mg/dL com cetose ativa: acrescentar glicose e manter insulina até a resolução.",
+   "Suspender a insulina com beta-hidroxibutirato de 3,1 mmol/L perpetua a cetoacidose.",
+   "A transição para subcutânea exige resolução da cetoacidose e aceitação oral.",
+   "Bicarbonato não é indicado com pH acima de 7,0.",
+   "Dose muito baixa e sem glicose não interrompe a cetogênese."
   ]
  },
  {
-  "q": "Homem de 40 anos admitido em terapia intensiva após queda de altura, com escala de coma de Glasgow de 7, apresenta pressão arterial de 88 por 50 mmHg e saturação de 87% em ar ambiente. Qual é a prioridade imediata no cuidado neurointensivo?",
+  "q": "Homem de 40 anos é admitido após queda de 6 metros. Está com Glasgow de 7, pupilas isocóricas e reativas, pressão de 96/60 mmHg, frequência de 118 bpm e saturação de 90% em máscara. Foi intubado na sala de emergência. A tomografia de crânio mostra hematoma subdural agudo de 6 mm com desvio de linha média de 3 mm e edema difuso. O FAST é negativo e a radiografia de pelve é normal. Qual é o alvo de pressão de perfusão cerebral e a conduta?",
   "alts": [
-   "Administrar manitol em todos os casos de traumatismo grave logo na chegada, antes da tomografia.",
-   "Manter hiperventilação profilática sustentada para reduzir a pressão intracraniana desse paciente.",
-   "Prescrever corticoide em dose alta para reduzir o edema cerebral associado ao traumatismo dele.",
-   "Adiar a intubação orotraqueal até que a tomografia de crânio seja realizada e devidamente interpretada.",
-   "Corrigir hipoxemia e hipotensão, que são as principais causas de lesão cerebral secundária evitável."
+   "Manter pressão de perfusão entre 60 e 70 mmHg, evitando hipotensão",
+   "Manter pressão arterial média abaixo de 70 mmHg para reduzir edema",
+   "Hiperventilar de rotina para pressão parcial de dióxido de carbono de 25 mmHg",
+   "Corticoide em dose alta para reduzir o edema",
+   "Restringir volume para reduzir a pressão intracraniana"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Brain Trauma Foundation — Guidelines for the Management of Severe Traumatic Brain Injury, 4ª edição, 2016; ATLS, 10ª edição, 2018",
-  "coment": "No traumatismo cranioencefálico grave, hipóxia e hipotensão são os determinantes mais fortes de lesão secundária e de mortalidade, e corrigi-los tem prioridade sobre qualquer terapia dirigida à pressão intracraniana. Escala de coma igual ou inferior a 8 indica via aérea definitiva. Manitol e salina hipertônica são usados diante de sinais de hipertensão intracraniana ou herniação, a hiperventilação profilática sustentada é deletéria por vasoconstrição, e corticoide aumentou mortalidade no ensaio CRASH.",
+  "base": "Brain Trauma Foundation e ATLS 11ª edição, 2018. TCE grave",
+  "coment": "No trauma cranioencefálico grave, o alvo de pressão de perfusão cerebral é de 60 a 70 mmHg, e uma única queda de pressão sistólica abaixo de 90 mmHg dobra a mortalidade. As prioridades são evitar hipotensão e hipóxia, manter normocapnia, cabeceira elevada e analgesia adequada. A hiperventilação profilática causa vasoconstrição e isquemia; o corticoide aumentou mortalidade no CRASH.",
   "porAlt": [
-   "O manitol se destina a sinais de hipertensão intracraniana, e não ao uso indiscriminado na chegada.",
-   "A hiperventilação profilática sustentada reduz o fluxo sanguíneo cerebral e agrava a isquemia.",
-   "O corticoide aumentou a mortalidade no traumatismo cranioencefálico no ensaio clínico CRASH.",
-   "Escala de coma igual ou menor que oito indica via aérea definitiva antes de qualquer transporte.",
-   "Correta: corrigir hipoxemia e hipotensão, principais causas de lesão cerebral secundária evitável."
+   "Correta: proteger a perfusão é a medida de maior impacto.",
+   "Baixar a pressão reduz a perfusão cerebral e agrava a lesão secundária.",
+   "A hiperventilação de rotina causa isquemia.",
+   "O corticoide aumentou mortalidade no ensaio CRASH.",
+   "Restringir volume favorece hipotensão, que é o que mais mata."
   ]
  },
  {
-  "q": "Paciente de 65 anos em terapia intensiva por sepse de foco pulmonar, no terceiro dia, apresenta melhora clínica, sem vasopressor, com procalcitonina em queda e cultura identificando pneumococo sensível. Qual é a conduta antimicrobiana?",
+  "q": "Mulher de 65 anos está no terceiro dia de UTI por choque séptico de foco pulmonar, iniciado com meropeném e vancomicina. Hoje está sem vasopressor, afebril há 36 horas, extubada, com procalcitonina caindo de 18 para 4 ng/mL. Hemoculturas: Streptococcus pneumoniae sensível à penicilina (CIM de 0,03). Pesquisa de MRSA nasal negativa. Clearance de 70 mL/min, sem alergias. Pesa 64 kg e não tem derrame pleural na ultrassonografia. Qual é a conduta antimicrobiana mais adequada?",
   "alts": [
-   "Manter o esquema de amplo espectro por catorze dias completos para prevenir a recidiva do quadro.",
-   "Associar um segundo antimicrobiano para ampliar a cobertura mesmo com a melhora já observada.",
-   "Suspender todos os antimicrobianos imediatamente porque o paciente apresentou melhora clínica.",
-   "Descalonar para antimicrobiano de espectro estreito e programar duração total curta e definida.",
-   "Trocar o esquema por antifúngico empírico devido ao tempo de internação em terapia intensiva."
+   "Descalonar para penicilina, total de 5 a 7 dias",
+   "Manter meropeném e vancomicina por 14 dias",
+   "Suspender todos os antibióticos hoje",
+   "Trocar para linezolida por 10 dias",
+   "Acrescentar azitromicina ao meropeném"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "infecto",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign, 2021; IDSA/SHEA — Implementing an Antibiotic Stewardship Program, 2016",
-  "coment": "Com identificação do agente e melhora clínica, a conduta é o descalonamento para o antimicrobiano de menor espectro eficaz, medida central dos programas de uso racional de antimicrobianos, que reduz seleção de resistência, toxicidade e custo sem prejudicar desfecho. A duração deve ser a mais curta possível conforme o sítio e a resposta, geralmente de cinco a sete dias em pneumonia com boa evolução, apoiada por parâmetros clínicos e, quando disponível, pela curva de procalcitonina.",
+  "base": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock, 2021; IDSA/SHEA Guidelines for Implementing an Antibiotic Stewardship Program, 2016",
+  "coment": "Com agente identificado e sensível e melhora clínica, a Surviving Sepsis (2021) e os programas de gestão de antimicrobianos recomendam descalonar para o espectro mais estreito eficaz: pneumococo sensível à penicilina pode ser tratado com penicilina cristalina ou ampicilina (ou amoxicilina oral quando possível). Pesquisa nasal de MRSA negativa permite suspender vancomicina. Pneumonia pneumocócica com boa resposta dispensa cursos longos: 5 a 7 dias no total, guiados pela estabilidade clínica, com procalcitonina apoiando a suspensão.",
   "porAlt": [
-   "Manter amplo espectro por tempo prolongado seleciona resistência sem melhorar o desfecho clínico.",
-   "Ampliar a cobertura diante de melhora e agente identificado contraria o uso racional de antimicrobianos.",
-   "Suspender antes de completar o curso adequado ao sítio expõe o paciente à recidiva da infecção.",
-   "Correta: descalonar para espectro estreito e definir a menor duração eficaz para o sítio tratado.",
-   "Não há elementos que sugiram infecção fúngica invasiva a justificar antifúngico empírico agora."
+   "Pneumococo sensível com melhora: descalonar para penicilina ou ampicilina, total de 5 a 7 dias.",
+   "Manter amplo espectro sem necessidade gera resistência e toxicidade.",
+   "Três dias é curto para pneumonia grave com bacteremia.",
+   "Linezolida não é indicada para pneumococo sensível.",
+   "Somar macrolídeo ao carbapenêmico não é necessário com agente definido."
   ]
  },
  {
-  "q": "Homem de 30 anos internado em terapia intensiva por politrauma, no quinto dia, recebe nutrição enteral plena após período de jejum prolongado e evolui com hipofosfatemia grave, hipocalemia e hipomagnesemia. Qual é o diagnóstico e a conduta?",
+  "q": "Homem de 30 anos está na terapia intensiva no quinto dia após politrauma, em ventilação mecânica e nutrição enteral plena por sonda nasogástrica há três dias. Apresenta resíduo gástrico de 400 mL em duas aferições, distensão abdominal e um episódio de vômito. Está hemodinamicamente estável, sem vasopressor, com ruídos hidroaéreos reduzidos e sem sinais de peritonite. A radiografia de abdome mostra distensão gástrica sem pneumoperitônio. Qual é a conduta?",
   "alts": [
-   "Síndrome de realimentação: aumentar a oferta calórica rapidamente para corrigir o catabolismo dele.",
-   "Insuficiência adrenal aguda: iniciar hidrocortisona intravenosa e suspender a dieta enteral plena.",
-   "Sepse de foco abdominal: ampliar o espectro antimicrobiano e suspender a nutrição enteral plena.",
-   "Lesão renal aguda: indicar terapia renal substitutiva imediata para corrigir os distúrbios iônicos.",
-   "Síndrome de realimentação: reduzir a oferta calórica, repor eletrólitos e administrar tiamina."
+   "Procinético e considerar sonda pós-pilórica",
+   "Suspender a dieta e iniciar nutrição parenteral",
+   "Aumentar a velocidade de infusão da dieta",
+   "Manter a dieta sem mudanças e reavaliar em 48 horas",
+   "Realizar gastrostomia endoscópica"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ASPEN Consensus Recommendations for Refeeding Syndrome, 2020; ESPEN guideline on clinical nutrition in the intensive care unit, 2023",
-  "coment": "A síndrome de realimentação ocorre quando se reintroduz aporte calórico em paciente desnutrido ou após jejum prolongado: o pico de insulina desloca fósforo, potássio e magnésio para o intracelular, produzindo a tríade de hipofosfatemia, hipocalemia e hipomagnesemia, com risco de arritmia, insuficiência respiratória e morte. O manejo é reduzir a oferta calórica, repor eletrólitos de forma agressiva, administrar tiamina antes e durante a reintrodução e progredir a dieta lentamente com monitorização diária.",
+  "base": "ASPEN/SCCM 2016 (terapia nutricional no paciente crítico",
+  "coment": "Intolerância gástrica com resíduo elevado e distensão é manejada com procinético) metoclopramida ou eritromicina, e, na persistência, com posicionamento pós-pilórico da sonda, que permite manter a via enteral. A parenteral é reservada à falha da enteral, porque a via enteral preserva a barreira intestinal e reduz infecção.",
   "porAlt": [
-   "Aumentar rapidamente o aporte calórico agrava o deslocamento iônico e pode ser fatal nesse contexto.",
-   "A insuficiência adrenal cursa com hiponatremia e hipercalemia, padrão oposto ao descrito no caso.",
-   "O quadro eletrolítico surgiu com a reintrodução da dieta e não caracteriza foco infeccioso abdominal.",
-   "Os distúrbios se corrigem com reposição e ajuste da dieta, sem indicação de diálise neste momento.",
-   "Correta: síndrome de realimentação, com redução da oferta calórica, reposição iônica e tiamina."
+   "Correta: procinético e via pós-pilórica mantêm a nutrição enteral.",
+   "A parenteral é para falha da enteral, que ainda não foi tentada.",
+   "Aumentar a velocidade agrava a intolerância.",
+   "Manter sem mudança com vômito arrisca aspiração.",
+   "A gastrostomia não resolve gastroparesia e é desproporcional."
   ]
  },
  {
-  "q": "Mulher de 58 anos em terapia intensiva por choque séptico, sedada e em ventilação mecânica, apresenta pressão arterial média de 70 mmHg com noradrenalina, tempo de enchimento capilar de quatro segundos e lactato de 4,5 mmol/L. Qual é a interpretação e a conduta?",
+  "q": "Mulher de 58 anos está na terapia intensiva por choque séptico de foco urinário, sedada e em ventilação mecânica. No terceiro dia, apresenta débito urinário de 0,2 mL/kg/h nas últimas seis horas, creatinina de 3,8 mg/dL (subindo de 1,0 mg/dL na admissão), potássio de 6,4 mEq/L com ondas T apiculadas ao eletrocardiograma, pH de 7,18 e bicarbonato de 12 mEq/L. Está sem vasopressor e sem responsividade a volume, com balanço hídrico positivo de 6 litros. Qual é a conduta?",
   "alts": [
-   "A perfusão está adequada porque a pressão arterial média alcançou o alvo estabelecido pela diretriz.",
-   "O lactato elevado indica sempre a necessidade imediata de transfundir concentrado de hemácias ao paciente.",
-   "O tempo de enchimento capilar não tem valor na avaliação da perfusão do paciente em choque séptico.",
-   "Persiste hipoperfusão tecidual apesar da pressão adequada: reavaliar volemia, débito e foco infeccioso.",
-   "A conduta correta é elevar a pressão arterial média acima de noventa mmHg em todos os pacientes sépticos."
+   "Iniciar terapia de substituição renal",
+   "Nova expansão volêmica com cristaloide",
+   "Furosemida em dose alta em bolus",
+   "Aguardar 24 horas antes de decidir",
+   "Bicarbonato de sódio isolado"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign, 2021; ensaio ANDROMEDA-SHOCK, 2019",
-  "coment": "Pressão arterial média no alvo não garante perfusão adequada. Tempo de enchimento capilar prolongado e lactato elevado indicam hipoperfusão persistente, e a conduta é reavaliar responsividade a volume, função cardíaca por ecocardiografia à beira do leito, adequação do controle do foco e do antimicrobiano. O ensaio ANDROMEDA-SHOCK mostrou que a ressuscitação guiada pelo tempo de enchimento capilar é ao menos tão eficaz quanto a guiada por lactato, com menos disfunção orgânica.",
+  "base": "KDIGO 2012, lesão renal aguda: indicações de terapia de substituição renal",
+  "coment": "A indicação de diálise na lesão renal aguda não é o valor da creatinina, e sim as complicações refratárias: hipercalemia com repercussão eletrocardiográfica, acidose metabólica grave, hipervolemia refratária, uremia sintomática e algumas intoxicações. Aqui há hipercalemia com alteração no traçado, acidose e sobrecarga. A diálise está indicada, sem esperar.",
   "porAlt": [
-   "Atingir o alvo pressórico não assegura perfusão tecidual adequada nos pacientes com choque séptico.",
-   "O lactato elevado reflete hipoperfusão e metabolismo, e não indica transfusão por si só nesse caso.",
-   "O tempo de enchimento capilar é parâmetro validado e útil para guiar a ressuscitação no choque.",
-   "Correta: há hipoperfusão apesar da pressão no alvo, exigindo reavaliação de volemia, débito e foco.",
-   "Elevar a pressão média acima do necessário aumenta dose de vasopressor e eventos adversos."
+   "Correta: complicações refratárias indicam substituição renal.",
+   "Mais volume com balanço positivo de 6 litros agrava a congestão.",
+   "O diurético não corrige a hipercalemia com repercussão nem a acidose.",
+   "Esperar com T apiculada é arriscar arritmia fatal.",
+   "O bicarbonato isolado não resolve a sobrecarga nem a uremia."
   ]
  },
  {
-  "q": "Paciente de 61 anos internado em terapia intensiva por acidente vascular cerebral hemorrágico apresenta pressão arterial sistólica de 195 mmHg nas primeiras horas, sem sinais de hipertensão intracraniana refratária. Qual é a conduta pressórica?",
+  "q": "Homem de 61 anos, hipertenso, chega 2 horas após hemiplegia esquerda súbita. Tomografia: hematoma talâmico direito de 14 mL, sem extensão ventricular e sem hidrocefalia. Pressão arterial 195/105 mmHg, frequência 78 bpm, Glasgow 14. Não usa anticoagulante nem antiagregante; plaquetas e coagulograma normais. Glicemia 138 mg/dL, temperatura 36,8 °C. Está acordado e obedece a comandos. Qual é a meta pressórica inicial mais adequada?",
   "alts": [
-   "Manter a pressão arterial elevada de forma permissiva para garantir a perfusão cerebral do paciente.",
-   "Reduzir a pressão sistólica para abaixo de cem mmHg o mais rapidamente possível após a admissão dele.",
-   "Iniciar anti-hipertensivo apenas por via oral, evitando qualquer medicação intravenosa em infusão contínua.",
-   "Aguardar a estabilização espontânea da pressão sem intervenção nas primeiras quarenta e oito horas.",
-   "Reduzir a pressão sistólica de forma controlada para a faixa de cento e quarenta mmHg com monitorização."
-  ],
-  "gab": 4,
-  "tema": "neuro",
-  "cenario": "uti",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage, 2022; ensaios INTERACT2 e ATACH-2",
-  "coment": "Na hemorragia intracerebral espontânea com pressão sistólica entre 150 e 220 mmHg, a redução controlada para cerca de 140 mmHg é segura e associa-se a melhor desfecho funcional, desde que feita com agente titulável e monitorização, evitando quedas abruptas e variabilidade pressórica, que se associam a piora. Completam o cuidado a reversão de anticoagulação quando presente, o controle glicêmico e térmico, a profilaxia de tromboembolismo após estabilização e a avaliação neurocirúrgica.",
-  "porAlt": [
-   "Manter a pressão muito elevada favorece a expansão do hematoma nas primeiras horas do evento.",
-   "Quedas abruptas e excessivas comprometem a perfusão cerebral e associam-se a piores desfechos.",
-   "A via oral não permite titulação adequada na fase aguda, em que se usa infusão intravenosa contínua.",
-   "Não intervir permite expansão do hematoma, principal determinante de deterioração neurológica precoce.",
-   "Correta: redução controlada da pressão sistólica para cerca de cento e quarenta mmHg com monitorização."
-  ]
- },
- {
-  "q": "Homem de 74 anos em terapia intensiva, em ventilação mecânica há dez dias, apresenta fraqueza muscular difusa e simétrica ao despertar da sedação, com dificuldade de desmame e reflexos reduzidos, sem lesão estrutural em neuroimagem. Qual é a principal hipótese e a conduta?",
-  "alts": [
-   "Fraqueza adquirida na unidade de terapia intensiva: mobilização precoce e revisão de sedação e corticoide.",
-   "Acidente vascular cerebral extenso: indicar trombólise mesmo com a neuroimagem sem qualquer alteração.",
-   "Síndrome de Guillain-Barré: iniciar imunoglobulina intravenosa empírica antes de qualquer investigação.",
-   "Miastenia gravis descompensada: prescrever piridostigmina em dose alta e suspender o desmame ventilatório.",
-   "Intoxicação por bloqueador neuromuscular: administrar sugamadex mesmo sem registro de uso recente dele."
-  ],
-  "gab": 0,
-  "tema": "neuro",
-  "cenario": "uti",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "ATS/ERS/ESICM statement on ICU-acquired weakness; PADIS Guidelines, 2018",
-  "coment": "A fraqueza adquirida na terapia intensiva combina polineuropatia e miopatia do paciente crítico e se manifesta por fraqueza difusa, simétrica e proximal, com dificuldade de desmame, sendo fatores de risco sepse, imobilidade, hiperglicemia, sedação profunda, corticoide e bloqueador neuromuscular. A prevenção e o tratamento se apoiam em mobilização precoce, sedação leve com interrupção diária, controle glicêmico, nutrição adequada e minimização dos agentes implicados, com reabilitação prolongada após a alta.",
-  "porAlt": [
-   "Correta: fraqueza adquirida na terapia intensiva, com mobilização precoce e revisão de sedação e fármacos.",
-   "A neuroimagem sem alterações e a fraqueza simétrica difusa afastam evento cerebrovascular focal agudo.",
-   "A síndrome de Guillain-Barré exigiria contexto e investigação com líquor e eletroneuromiografia antes.",
-   "A miastenia cursa com fraqueza flutuante e fatigável, com acometimento ocular e bulbar característico.",
-   "Não há relato de uso recente de bloqueador neuromuscular que justifique reversão farmacológica agora."
-  ]
- },
- {
-  "q": "Mulher de 50 anos internada em terapia intensiva por leucemia aguda em quimioterapia de indução evolui com potássio de 6,4 mEq/L, fósforo elevado, cálcio baixo, ácido úrico elevado e creatinina em ascensão. Qual é o diagnóstico e a conduta?",
-  "alts": [
-   "Síndrome de lise tumoral: hidratação vigorosa, controle do potássio e rasburicase conforme o risco.",
-   "Síndrome de lise tumoral: restringir líquidos e alcalinizar a urina de forma sistemática em todos.",
-   "Nefrite intersticial aguda: iniciar corticoide em dose imunossupressora e suspender quimioterapia.",
-   "Insuficiência adrenal aguda: iniciar hidrocortisona e repor volume com solução salina isotônica.",
-   "Hipercalcemia da malignidade: iniciar bisfosfonato intravenoso e hidratação com salina isotônica."
-  ],
-  "gab": 0,
-  "tema": "onco",
-  "cenario": "uti",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "ASCO/NCCN guidance on tumor lysis syndrome; British Committee for Standards in Haematology guideline on tumour lysis syndrome, 2015",
-  "coment": "A síndrome de lise tumoral combina hipercalemia, hiperfosfatemia, hipocalcemia e hiperuricemia com lesão renal aguda, e ocorre tipicamente em neoplasias de alta carga e alta taxa de proliferação após o início do tratamento. O manejo inclui hidratação intravenosa vigorosa, monitorização laboratorial frequente, tratamento da hipercalemia, alopurinol na profilaxia e rasburicase nos casos de alto risco ou já estabelecidos, com atenção à deficiência de G6PD. A alcalinização urinária deixou de ser recomendada de rotina.",
-  "porAlt": [
-   "Correta: síndrome de lise tumoral, com hidratação vigorosa, controle do potássio e rasburicase se indicada.",
-   "A restrição de líquidos agrava a lesão renal, e a alcalinização de rotina não é mais recomendada.",
-   "A nefrite intersticial não explica o conjunto de distúrbios iônicos característicos descrito no caso.",
-   "A insuficiência adrenal não cursa com hiperfosfatemia e hiperuricemia com lesão renal desse padrão.",
-   "O cálcio está baixo neste caso, o que exclui a hipótese de hipercalcemia associada à malignidade."
-  ]
- },
- {
-  "q": "Paciente de 68 anos em terapia intensiva por choque séptico com disfunção de múltiplos órgãos, sem resposta a três dias de tratamento otimizado, tem prognóstico reservado. A família pergunta sobre limitar intervenções. Qual é a conduta ética adequada?",
-  "alts": [
-   "Manter todas as intervenções disponíveis independentemente do prognóstico e da vontade manifestada.",
-   "Suspender imediatamente todos os cuidados, inclusive analgesia e sedação, após a decisão da família.",
-   "Conduzir reunião familiar, esclarecer prognóstico e definir metas de cuidado com registro em prontuário.",
-   "Delegar integralmente a decisão à família, sem oferecer qualquer recomendação médica sobre as intervenções.",
-   "Registrar apenas verbalmente a decisão tomada, sem necessidade de documentação formal em prontuário."
+   "Não tratar enquanto abaixo de 220 mmHg",
+   "Sistólica abaixo de 110 mmHg",
+   "Sistólica entre 130 e 150 mmHg",
+   "Nitroprussiato para média de 60 mmHg",
+   "Reduzir 50% na primeira hora"
   ],
   "gab": 2,
-  "tema": "sus",
+  "tema": "neuro",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage, 2022",
+  "coment": "Na hemorragia intraparenquimatosa com sistólica entre 150 e 220 mmHg, a AHA/ASA (2022) considera razoável reduzir para 140 mmHg, mantendo entre 130 e 150, iniciando em até 2 horas e atingindo a meta em 1 hora, com controle suave e contínuo, porque a variabilidade pressórica piora o desfecho. Reduzir abaixo de 130 mmHg é potencialmente danoso. INTERACT2 e ATACH-2 sustentam essa faixa.",
+  "porAlt": [
+   "Com sistólica entre 150 e 220, reduzir para cerca de 140 é seguro e pode melhorar a recuperação.",
+   "Queda abaixo de 130 mmHg associou-se a pior desfecho.",
+   "Hemorragia com sistólica entre 150 e 220 mmHg: meta em torno de 140, mantendo entre 130 e 150, com redução suave.",
+   "Queda tão acentuada arrisca isquemia.",
+   "Quedas grandes e abruptas pioram a perfusão e o desfecho."
+  ]
+ },
+ {
+  "q": "Homem de 74 anos está na terapia intensiva há 12 dias por choque séptico de foco pulmonar com síndrome do desconforto respiratório agudo; recebeu bloqueador neuromuscular por 48 horas, hidrocortisona e sedação profunda. Ao reduzir a sedação, está acordado e colaborativo, mas tem fraqueza difusa e simétrica, mais proximal, com reflexos reduzidos, face poupada e sensibilidade preservada. Escore MRC de 36/60. Falhou no teste de respiração espontânea. Glicemias entre 140 e 250 mg/dL. Qual é o diagnóstico mais provável e a conduta?",
+  "alts": [
+   "Guillain-Barré; imunoglobulina endovenosa",
+   "AVC de tronco; ressonância urgente",
+   "Miastenia gravis; piridostigmina",
+   "Mielopatia compressiva; ressonância de coluna",
+   "Fraqueza adquirida na UTI; reabilitação precoce"
+  ],
+  "gab": 4,
+  "tema": "neuro",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "American Thoracic Society Clinical Practice Guideline: The Diagnosis of Intensive Care Unit-acquired Weakness in Adults, 2014; PADIS Guideline, 2018",
+  "coment": "A fraqueza adquirida na UTI (polineuropatia e miopatia do doente crítico) é diagnosticada clinicamente com MRC abaixo de 48/60 em avaliações repetidas, em paciente acordado, após excluir outras causas. Fatores de risco: sepse, disfunção de múltiplos órgãos, imobilidade, hiperglicemia, corticoide e bloqueador neuromuscular. Prolonga a ventilação e a internação. Prevenção e tratamento são mobilização e fisioterapia precoces, controle glicêmico e sedação mínima; eletroneuromiografia ajuda nos casos duvidosos.",
+  "porAlt": [
+   "Guillain-Barré não começa nesse contexto e costuma acometer a face, com dissociação proteinocitológica.",
+   "Fraqueza simétrica difusa não é padrão de AVC.",
+   "Miastenia teria ptose, fatigabilidade e face acometida.",
+   "Mielopatia teria nível sensitivo.",
+   "Fraqueza simétrica após sepse, bloqueador, corticoide e hiperglicemia, com MRC abaixo de 48: polineuromiopatia do doente crítico."
+  ]
+ },
+ {
+  "q": "Homem de 24 anos com leucemia linfoblástica aguda de células T, leucócitos de 128 mil/mm³, LDH de 2.400 U/L (limite 250) e massa mediastinal, vai iniciar quimioterapia de indução amanhã. Creatinina de 1,0 mg/dL, ácido úrico de 7,4 mg/dL, potássio de 4,3 mEq/L, fósforo de 4,0 mg/dL. Pesquisa de deficiência de G6PD negativa. Diurese preservada, sem insuficiência cardíaca. Pesa 70 kg. Qual é a prevenção de síndrome de lise tumoral mais adequada?",
+  "alts": [
+   "Hidratação oral e alopurinol",
+   "Bicarbonato para alcalinizar a urina",
+   "Nenhuma prevenção até surgir alteração laboratorial",
+   "Hidratação endovenosa vigorosa e rasburicase",
+   "Furosemida em dose alta e restrição hídrica"
+  ],
+  "gab": 3,
+  "tema": "onco",
   "cenario": "uti",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Resolução CFM nº 1.805/2006 e Código de Ética Médica (Resolução CFM nº 2.217/2018); ANCP, Manual de Cuidados Paliativos, 2021",
-  "coment": "Diante de doença grave e irreversível, é eticamente permitido limitar ou suspender procedimentos que prolonguem a vida sem trazer benefício, respeitando a vontade do paciente ou de seu representante. A conduta correta é a reunião familiar estruturada, com esclarecimento do prognóstico, escuta de valores e preferências, recomendação médica explícita e registro em prontuário. Medidas de conforto — analgesia, sedação, higiene e presença — nunca são suspensas, e ortotanásia não se confunde com eutanásia.",
+  "base": "Cairo et al., Recommendations for the evaluation of risk and prophylaxis of tumour lysis syndrome, British Journal of Haematology, 2010; Jones et al., BSH guidelines for management of tumour lysis syndrome, 2015",
+  "coment": "Leucemia linfoblástica aguda com leucócitos acima de 100 mil/mm³ e LDH acima de 2 vezes o normal é de alto risco para síndrome de lise tumoral. Nesse grupo, recomenda-se hidratação endovenosa vigorosa (cerca de 2,5 a 3 L/m²/dia, buscando diurese de 80 a 100 mL/m²/h) e rasburicase profilática, que degrada o ácido úrico já formado, desde que não haja deficiência de G6PD (risco de hemólise e metemoglobinemia). Alopurinol é suficiente no risco intermediário. Alcalinização urinária não é mais recomendada, pois favorece precipitação de fosfato de cálcio.",
   "porAlt": [
-   "Manter intervenções sem benefício contra a vontade manifestada configura obstinação terapêutica.",
-   "Medidas de conforto como analgesia e sedação jamais são suspensas na limitação de suporte avançado.",
-   "Correta: reunião familiar com esclarecimento, definição compartilhada de metas e registro em prontuário.",
-   "Transferir integralmente a decisão à família sem recomendação médica aumenta a sobrecarga moral dela.",
-   "O registro formal em prontuário é obrigatório e protege o paciente, a família e a equipe assistente."
+   "Hidratação oral e alopurinol são insuficientes no alto risco.",
+   "Alcalinização favorece precipitação de fosfato de cálcio.",
+   "A prevenção deve começar antes da quimioterapia.",
+   "Alto risco de lise tumoral sem deficiência de G6PD: hidratação endovenosa vigorosa e rasburicase.",
+   "Restringir líquidos aumenta o risco de lesão renal."
   ]
  },
  {
-  "q": "Homem de 47 anos internado em terapia intensiva por pancreatite alcoólica evolui, no segundo dia de abstinência, com tremores, sudorese, taquicardia, agitação e alucinações visuais. Qual é a conduta mais adequada?",
+  "q": "Mulher de 81 anos, com demência avançada e dependência total, está na terapia intensiva há 9 dias por choque séptico com disfunção de 4 órgãos, em ventilação mecânica, hemodiálise e noradrenalina em dose crescente, sem resposta ao tratamento otimizado. SOFA de 16. Não há diretiva antecipada de vontade. Os três filhos relatam que ela dizia não querer 'viver ligada a aparelhos'. A equipe já discutiu o caso e concorda que não há perspectiva de recuperação. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar haloperidol isolado em dose alta como tratamento principal da abstinência alcoólica dele.",
-   "Iniciar benzodiazepínico guiado por escala de sintomas e repor tiamina antes de qualquer glicose.",
-   "Administrar glicose hipertônica antes da tiamina para corrigir rapidamente a hipoglicemia dele.",
-   "Prescrever clonidina isolada, sem benzodiazepínico, para controlar os sintomas autonômicos dele.",
-   "Aguardar a resolução espontânea do quadro, mantendo apenas hidratação e observação clínica dele."
+   "Reunião familiar e plano de limitação terapêutica registrado",
+   "Manter todas as medidas até a parada cardíaca",
+   "Desligar o ventilador sem conversar com a família",
+   "Pedir autorização judicial para limitar o suporte",
+   "Transferir para outra UTI para segunda opinião obrigatória"
   ],
-  "gab": 1,
+  "gab": 0,
+  "tema": "sus",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Conselho Federal de Medicina, Resolução n. 1.805, 2006; Código de Ética Médica, Resolução CFM n. 2.217, 2018",
+  "coment": "A ortotanásia, limitação ou suspensão de tratamentos que apenas prolongam o processo de morrer em doença grave e incurável, é ética e legal no Brasil (Resolução CFM 1.805/2006 e Código de Ética Médica, artigo 41). A decisão considera a vontade do paciente, expressa antes ou relatada pelos representantes, é construída em reunião com a família, registrada em prontuário e acompanhada de cuidados paliativos plenos. Distanásia e eutanásia são vedadas.",
+  "porAlt": [
+   "Doença grave e irreversível: limitar ou suspender tratamentos que prolongam o morrer, respeitando a vontade relatada, com cuidados paliativos e registro.",
+   "Manter tudo contraria a vontade relatada e prolonga sofrimento (distanásia).",
+   "A decisão é compartilhada com a família e registrada, não unilateral.",
+   "Não há exigência legal de autorização judicial para ortotanásia.",
+   "Segunda opinião é direito, não obrigação."
+  ]
+ },
+ {
+  "q": "Homem de 47 anos internado na UTI por pancreatite alcoólica está no terceiro dia de abstinência, com delirium tremens: agitação intensa, alucinações visuais, febre de 38,2 °C, frequência de 128 bpm e pressão de 168/98 mmHg. Recebeu 260 mg de diazepam endovenoso em 6 horas, com CIWA-Ar persistindo acima de 25. Já recebeu tiamina. Glicose, sódio e magnésio corrigidos. Respira espontaneamente, saturação de 95%. Qual é a conduta mais adequada?",
+  "alts": [
+   "Haloperidol 10 mg endovenoso como monoterapia",
+   "Suspender o benzodiazepínico e observar",
+   "Clonidina endovenosa isolada",
+   "Fenobarbital endovenoso em UTI",
+   "Álcool etílico endovenoso contínuo"
+  ],
+  "gab": 3,
   "tema": "psiq",
   "cenario": "uti",
   "comp": "urg",
-  "nivel": "r2",
-  "base": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management, 2020; diretrizes brasileiras de manejo da síndrome de abstinência alcoólica",
-  "coment": "A síndrome de abstinência alcoólica grave, com alucinações e instabilidade autonômica, é tratada com benzodiazepínico titulado por escala de sintomas, como a CIWA-Ar, que reduz convulsão e delirium tremens. A tiamina parenteral deve ser administrada antes de qualquer infusão de glicose, para prevenir encefalopatia de Wernicke, e mantida em doses altas por dias. Antipsicótico é adjuvante para alucinação persistente, nunca substituto do benzodiazepínico, e reduz o limiar convulsivo.",
+  "nivel": "r3",
+  "base": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management, 2020",
+  "coment": "Abstinência alcoólica resistente a benzodiazepínicos (em geral, acima de 50 mg de diazepam em 1 hora ou 200 mg em 3 a 4 horas sem controle) indica adjuvante GABAérgico: fenobarbital endovenoso ou propofol, este último com intubação. A ASAM (2020) recomenda fenobarbital ou propofol em UTI para abstinência refratária. Antipsicótico isolado reduz o limiar convulsivo e não trata a abstinência, podendo ser só adjuvante para alucinações. Clonidina e dexmedetomidina controlam sintomas autonômicos, mas não previnem convulsões ou delirium. Álcool endovenoso não é recomendado.",
   "porAlt": [
-   "O haloperidol isolado não previne convulsão, reduz o limiar convulsivo e não trata a abstinência.",
-   "Correta: benzodiazepínico guiado por escala de sintomas, com tiamina parenteral antes da glicose.",
-   "Glicose antes da tiamina pode precipitar encefalopatia de Wernicke no paciente etilista crônico.",
-   "A clonidina controla sintomas adrenérgicos, mas não previne convulsão nem delirium tremens.",
-   "Não tratar a abstinência grave expõe o paciente a convulsão, delirium tremens e alta mortalidade."
+   "Antipsicótico isolado reduz o limiar convulsivo e não trata a abstinência.",
+   "Suspender o tratamento com delirium tremens ativo aumenta mortalidade.",
+   "Clonidina não previne convulsão nem delirium.",
+   "Delirium tremens refratário a benzodiazepínico: fenobarbital endovenoso em UTI.",
+   "Álcool endovenoso não é tratamento recomendado."
   ]
  }
 ]

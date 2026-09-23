@@ -1,242 +1,242 @@
 [
  {
-  "q": "Homem de 68 anos apresenta tremor de repouso assimétrico em mão direita, bradicinesia e rigidez em roda denteada, com marcha em pequenos passos. Não usa neurolépticos. Qual é o diagnóstico e a conduta?",
+  "q": "Homem de 68 anos tem há 1 ano tremor de repouso na mão direita, lentidão para abotoar a camisa e arrasta o pé direito. Ao exame, bradicinesia, rigidez em roda denteada assimétrica e hipomimia, sem sinais cerebelares, disautonomia grave ou paralisia do olhar vertical. Não usa neurolépticos nem metoclopramida. Não consegue mais trabalhar como marceneiro. Tem leve comprometimento da memória recente. A família pergunta se ele deve começar remédio agora. Qual é o tratamento inicial mais adequado?",
   "alts": [
-   "Tremor essencial, definido pelo tremor de repouso assimétrico com rigidez em roda denteada.",
-   "Parkinsonismo vascular, cujo diagnóstico dispensa qualquer exame de imagem complementar.",
-   "Doença de Parkinson, tratada sempre com levodopa ou agonista dopaminérgico conforme idade.",
-   "Atrofia de múltiplos sistemas, sugerida apenas pela presença de bradicinesia e de rigidez.",
-   "Doença de Huntington, caracterizada por tremor de repouso e marcha em pequenos passos."
+   "Pramipexol como primeira escolha pela idade",
+   "Levodopa associada a carbidopa",
+   "Biperideno para o tremor",
+   "Adiar o tratamento para evitar discinesias",
+   "Selegilina isolada"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "MDS Evidence-Based Medicine Review: Treatments for the Motor Symptoms of Parkinson's Disease, 2018; NICE guideline NG71, 2017; Verschuur et al., LEAP, NEJM, 2019",
+  "coment": "Doença de Parkinson com impacto funcional deve ser tratada. Em idosos, especialmente com alteração cognitiva, levodopa com carbidopa ou benserazida é a primeira escolha, por ser a mais eficaz e causar menos efeitos neuropsiquiátricos que os agonistas dopaminérgicos. O estudo LEAP mostrou que iniciar a levodopa cedo não acelera a doença nem as complicações motoras. Anticolinérgicos devem ser evitados em idosos.",
+  "porAlt": [
+   "Agonistas dopaminérgicos em idosos com alteração cognitiva causam alucinações, sonolência e transtornos de impulso.",
+   "Parkinson com prejuízo funcional em idoso: levodopa com inibidor da dopa-descarboxilase.",
+   "Anticolinérgicos pioram a cognição em idosos.",
+   "Adiar a levodopa não previne discinesia (LEAP).",
+   "Inibidores da MAO-B têm efeito modesto para esse grau de incapacidade."
+  ]
+ },
+ {
+  "q": "Mulher de 32 anos teve neurite óptica esquerda há 6 semanas, com recuperação parcial. Ressonância de crânio e medula: 4 lesões ovoides periventriculares, 1 justacortical e 1 medular cervical, nenhuma com realce por gadolínio. Não teve outros episódios. Anticorpos antiaquaporina 4 e anti-MOG negativos. Líquor com 4 células/mm³, proteína normal e bandas oligoclonais presentes no líquor e ausentes no soro. Qual é a interpretação pelos critérios de McDonald?",
+  "alts": [
+   "Síndrome clinicamente isolada, sem diagnóstico",
+   "Neuromielite óptica soronegativa",
+   "Esclerose múltipla, pelas bandas oligoclonais",
+   "Encefalomielite disseminada aguda",
+   "Necessário novo surto para confirmar"
   ],
   "gab": 2,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r2",
-  "base": "Movement Disorder Society, critérios diagnósticos 2015; Harrison's, 22ª edição, 2025",
-  "coment": "Bradicinesia associada a tremor de repouso ou rigidez, de forma assimétrica e com boa resposta à levodopa, define doença de Parkinson pelos critérios vigentes. O tratamento é sintomático: levodopa é a droga mais eficaz, e agonistas dopaminérgicos são alternativa em pacientes mais jovens, pesando risco de sonolência e transtornos do controle de impulso. Tremor essencial é postural e de ação, bilateral, sem bradicinesia nem rigidez.",
-  "porAlt": [
-   "O tremor essencial é postural e de ação, bilateral, e não cursa com bradicinesia ou rigidez.",
-   "O parkinsonismo vascular tem instalação em degraus e exige imagem para demonstrar as lesões.",
-   "Correta: o quadro é doença de Parkinson, tratada com levodopa ou agonista conforme idade e perfil.",
-   "A atrofia de múltiplos sistemas cursa com disautonomia proeminente e má resposta à levodopa.",
-   "A doença de Huntington cursa com coreia e alterações psiquiátricas, não com tremor de repouso."
-  ]
- },
- {
-  "q": "Mulher de 32 anos apresenta episódios recorrentes de déficits neurológicos focais, com neurite óptica prévia e lesões desmielinizantes periventriculares na ressonância. Qual é o diagnóstico e a base do tratamento?",
-  "alts": [
-   "Esclerose múltipla, com terapia modificadora da doença iniciada sempre de forma precoce.",
-   "Enxaqueca com aura, cujo diagnóstico se firma pelas lesões periventriculares na ressonância.",
-   "Acidente vascular cerebral de repetição, tratado apenas com antiagregante e estatina potente.",
-   "Epilepsia focal refratária, definida pela recorrência de déficits neurológicos transitórios.",
-   "Neuropatia periférica desmielinizante, que cursa com neurite óptica e lesões periventriculares."
-  ],
-  "gab": 0,
-  "tema": "neuro",
-  "cenario": "amb",
-  "comp": "tto",
   "nivel": "r3",
-  "base": "Critérios de McDonald 2017, revisados; Harrison's, 22ª edição, 2025 — esclerose múltipla",
-  "coment": "Episódios neurológicos recorrentes separados no tempo e no espaço, com neurite óptica e lesões desmielinizantes típicas na ressonância, definem esclerose múltipla pelos critérios de McDonald. O tratamento tem dois eixos: pulso de corticoide nos surtos e terapia modificadora da doença iniciada precocemente, que reduz surtos, lesões novas e acúmulo de incapacidade. Quanto mais cedo se inicia a terapia modificadora, melhor o prognóstico funcional a longo prazo.",
+  "base": "Thompson et al., Diagnosis of multiple sclerosis: 2017 revisions of the McDonald criteria, Lancet Neurology, 2018",
+  "coment": "Pelos critérios de McDonald, após um evento clínico típico, esclerose múltipla exige disseminação no espaço (lesões em pelo menos 2 das áreas periventricular, cortical ou justacortical, infratentorial e medular) e no tempo. A disseminação no tempo pode vir de lesões simultâneas com e sem realce, de nova lesão em ressonância posterior ou de bandas oligoclonais específicas do líquor, incluídas na revisão de 2017. O diagnóstico precoce permite iniciar a terapia modificadora da doença.",
   "porAlt": [
-   "Correta: o quadro é esclerose múltipla, e a terapia modificadora deve ser iniciada precocemente.",
-   "A enxaqueca com aura pode ter lesões inespecíficas, mas não cursa com neurite óptica e surtos focais.",
-   "Eventos vasculares em jovem sem fator de risco e com neurite óptica prévia apontam desmielinização.",
-   "A epilepsia cursa com crises estereotipadas, e não com déficits focais persistentes e lesões desmielinizantes.",
-   "A neuropatia periférica não causa lesões periventriculares nem neurite óptica no sistema nervoso central."
+   "Com disseminação no espaço e bandas oligoclonais, o diagnóstico já é de esclerose múltipla.",
+   "Padrão periventricular e bandas oligoclonais favorecem esclerose múltipla.",
+   "Disseminação no espaço pela ressonância e bandas oligoclonais substituem a disseminação no tempo: esclerose múltipla.",
+   "Encefalomielite disseminada aguda é monofásica, com encefalopatia e lesões grandes.",
+   "Pelos critérios de 2017, não é preciso esperar novo surto."
   ]
  },
  {
-  "q": "Homem de 55 anos chega com cefaleia occipital, rigidez de nuca, febre de 38,8 °C e rebaixamento leve. A tomografia é normal e o líquor mostra 800 células com predomínio de neutrófilos, glicose baixa e proteína elevada. Qual é a conduta?",
+  "q": "Homem de 58 anos, previamente hígido, chega com febre de 39 °C, cefaleia, rigidez de nuca e confusão há 18 horas. Pressão arterial 118/70 mmHg. Sem déficit focal, papiledema ou convulsão; Glasgow 13. Hemoculturas colhidas. Tomografia normal. Líquor com 1.800 células/mm³ e 90% de neutrófilos, proteína 240 mg/dL e glicose 18 mg/dL, com glicemia de 120 mg/dL. Bacterioscopia ainda não liberada. Qual é o tratamento empírico?",
   "alts": [
-   "Suspender o antimicrobiano e aguardar a cultura, já que o quadro pode ser de origem viral.",
-   "Iniciar aciclovir isolado, cobertura adequada para o padrão liquórico descrito neste paciente.",
-   "Prescrever apenas analgesia e observação, uma vez que a tomografia de crânio veio normal.",
-   "Manter sempre antimicrobiano empírico com dexametasona, ajustando conforme cultura do líquor.",
-   "Indicar corticoide isolado em dose alta, sem antimicrobiano, pelo padrão inflamatório do líquor."
+   "Ceftriaxona isolada, aguardando a cultura",
+   "Aciclovir e ceftriaxona sem corticoide",
+   "Penicilina cristalina e dexametasona",
+   "Ceftriaxona, vancomicina, ampicilina e dexametasona",
+   "Meropeném isolado em dose de meningite"
   ],
   "gab": 3,
   "tema": "neuro",
   "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r1",
-  "base": "Infectious Diseases Society of America, 2004, e Harrison's, 22ª edição, 2025 — meningite bacteriana",
-  "coment": "Líquor com pleocitose neutrofílica, glicose baixa e proteína elevada é padrão de meningite bacteriana e exige antimicrobiano empírico imediato, com dexametasona administrada antes ou junto da primeira dose, que reduz sequela auditiva e mortalidade na etiologia pneumocócica. O esquema empírico cobre pneumococo e meningococo, com ampicilina acrescentada em idosos e imunossuprimidos pela cobertura de Listeria. O ajuste vem com cultura e sensibilidade.",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESCMID guideline: diagnosis and treatment of acute bacterial meningitis, 2016; IDSA Practice Guidelines for the Management of Bacterial Meningitis, 2004",
+  "coment": "Na meningite bacteriana comunitária, IDSA e ESCMID recomendam cefalosporina de terceira geração com vancomicina (onde há pneumococo com sensibilidade reduzida) e, acima de 50 anos, em imunossuprimidos ou etilistas, ampicilina para Listeria monocytogenes. Dexametasona 10 mg a cada 6 horas por 4 dias, iniciada antes ou com a primeira dose do antibiótico, reduz mortalidade e sequelas na meningite pneumocócica. Tomografia antes da punção só é necessária com déficit focal, papiledema, convulsão, imunossupressão ou rebaixamento importante, e não deve atrasar o antibiótico.",
   "porAlt": [
-   "Suspender antimicrobiano com esse padrão liquórico é conduta com mortalidade elevada em poucas horas.",
-   "O aciclovir cobre encefalite herpética, cujo líquor tem predomínio linfocitário e glicose normal.",
-   "Analgesia isolada em meningite bacteriana permite evolução para choque e óbito em horas.",
-   "Correta: o padrão liquórico é bacteriano e exige antimicrobiano empírico com dexametasona, ajustado pela cultura.",
-   "O corticoide é adjuvante e nunca substitui o antimicrobiano no tratamento da meningite bacteriana."
+   "Acima de 50 anos, é preciso cobrir Listeria e associar dexametasona.",
+   "Sem corticoide perde-se o benefício na meningite pneumocócica, e falta cobertura para Listeria.",
+   "Penicilina não cobre pneumococo resistente.",
+   "Acima de 50 anos: ceftriaxona e vancomicina, ampicilina para Listeria e dexametasona com a primeira dose.",
+   "Meropeném isolado não é o esquema recomendado e dispensa a dexametasona."
   ]
  },
  {
-  "q": "Mulher de 72 anos apresenta fraqueza progressiva ascendente em membros inferiores há cinco dias, com arreflexia e parestesias, após quadro diarreico. A força respiratória está reduzida. Qual é o diagnóstico e a conduta?",
+  "q": "Mulher de 52 anos com síndrome de Guillain-Barré diagnosticada há 2 dias, após diarreia, recebe imunoglobulina endovenosa. Hoje tem tetraparesia grau 2, fraqueza facial bilateral, voz fraca e dificuldade para tossir e deglutir saliva. Frequência respiratória 26 irpm, saturação 95% em ar ambiente, pCO₂ de 42 mmHg. Capacidade vital de 14 mL/kg e pressão inspiratória máxima de −22 cmH₂O. Pressão arterial oscilando entre 90/60 e 180/100 mmHg. Qual é a conduta?",
   "alts": [
-   "Síndrome de Guillain-Barré, com monitorização respiratória e imunoglobulina ou plasmaférese.",
-   "Miastenia gravis, definida pela fraqueza ascendente com arreflexia após quadro infeccioso prévio.",
-   "Acidente vascular medular, cuja apresentação típica é a fraqueza ascendente simétrica e arreflexa.",
-   "Polimiosite aguda, já sugerida pela arreflexia e pelas parestesias distais em membros inferiores.",
-   "Esclerose lateral amiotrófica, que cursa com instalação em dias e arreflexia global generalizada."
+   "Ventilação não invasiva e observação na enfermaria",
+   "Aguardar hipercapnia para intubar",
+   "Intubação eletiva em terapia intensiva",
+   "Pulso de metilprednisolona",
+   "Plasmaférese associada à imunoglobulina"
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — síndrome de Guillain-Barré",
-  "coment": "Fraqueza flácida ascendente, simétrica, com arreflexia e parestesias, instalada em dias após infecção — clássica após diarreia por Campylobacter —, define a síndrome de Guillain-Barré. O ponto crítico do manejo é a monitorização respiratória seriada, com capacidade vital forçada e pressões inspiratórias, porque a falência ventilatória é a principal causa de morte e pode ser súbita. O tratamento é imunoglobulina endovenosa ou plasmaférese; corticoide isolado não é eficaz.",
+  "base": "European Academy of Neurology/Peripheral Nerve Society Guideline on diagnosis and treatment of Guillain-Barré syndrome, 2023",
+  "coment": "Na síndrome de Guillain-Barré, até 30% dos pacientes precisam de ventilação mecânica. A regra 20/30/40 (capacidade vital abaixo de 20 mL/kg, pressão inspiratória máxima pior que −30 cmH₂O, pressão expiratória máxima abaixo de 40 cmH₂O) indica risco de falência respiratória, e fraqueza bulbar e disautonomia aumentam esse risco. A intubação deve ser eletiva, antes da hipercapnia ou hipoxemia, que são tardias. Ventilação não invasiva é desaconselhada. Imunoglobulina ou plasmaférese, não ambas, são o tratamento; corticoide não funciona.",
   "porAlt": [
-   "Correta: o quadro é Guillain-Barré, exigindo monitorização respiratória e imunoglobulina ou plasmaférese.",
-   "A miastenia cursa com fatigabilidade e reflexos preservados, sem o padrão ascendente arreflexo descrito.",
-   "O acidente vascular medular tem instalação súbita com nível sensitivo, e não progressão em dias.",
-   "A polimiosite cursa com fraqueza proximal e elevação de creatinoquinase, com reflexos preservados.",
-   "A esclerose lateral amiotrófica evolui em meses, com sinais de neurônio motor superior associados."
+   "Ventilação não invasiva não é segura com disfagia e tosse ineficaz.",
+   "Hipercapnia é tardia na insuficiência neuromuscular; esperar aumenta o risco de parada.",
+   "Capacidade vital abaixo de 20 mL/kg, pressão inspiratória pior que −30, disfagia e disautonomia: intubação eletiva em terapia intensiva.",
+   "Corticoide não é eficaz na síndrome de Guillain-Barré.",
+   "Associar plasmaférese à imunoglobulina não traz benefício."
   ]
  },
  {
-  "q": "Homem de 60 anos, hipertenso, apresenta cefaleia súbita intensa com rebaixamento e hemiparesia esquerda. A tomografia mostra hematoma putaminal à direita com 40 mL e desvio de linha média. Qual é a conduta inicial?",
+  "q": "Homem de 66 anos, hipertenso, chega 3 horas após vertigem súbita, vômitos, cefaleia occipital e incapacidade de ficar em pé. Glasgow 13, caindo para 11 na última hora, com paralisia do olhar conjugado para a esquerda. Tomografia: hematoma cerebelar esquerdo de 3,8 cm, compressão do quarto ventrículo e dilatação dos ventrículos laterais. Pressão arterial 186/102 mmHg. Não usa anticoagulante; coagulograma e plaquetas normais. Plaquetas 190.000/mm³. Qual é a conduta?",
   "alts": [
-   "Iniciar trombolítico endovenoso imediatamente, conduta padrão em todo acidente vascular cerebral.",
-   "Controlar sempre a pressão de forma cuidadosa, reverter coagulopatia e avaliar neurocirurgia.",
-   "Iniciar anticoagulação plena para prevenir a expansão do hematoma intraparenquimatoso descrito.",
-   "Prescrever apenas analgesia e observação clínica, sem qualquer controle pressórico específico.",
-   "Indicar punção lombar de urgência para confirmar o diagnóstico antes de qualquer intervenção."
+   "Controle pressórico e tomografia em 24 horas",
+   "Evacuação cirúrgica do hematoma",
+   "Derivação ventricular externa isolada",
+   "Manitol e dexametasona",
+   "Hiperventilação prolongada"
   ],
   "gab": 1,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "AHA/ASA 2022 — Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage",
-  "coment": "No acidente vascular cerebral hemorrágico, os pilares iniciais são o controle pressórico cuidadoso, a reversão de coagulopatia ou de anticoagulação quando presente, o manejo da pressão intracraniana e a avaliação neurocirúrgica conforme localização, volume e nível de consciência. Trombolítico e anticoagulação são catastróficos nesse contexto, e a punção lombar é contraindicada diante de efeito de massa com desvio de linha média.",
+  "base": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage, 2022",
+  "coment": "Na hemorragia cerebelar, a AHA/ASA (2022) recomenda evacuação cirúrgica imediata, com ou sem derivação ventricular, em pacientes com deterioração neurológica, compressão do tronco encefálico ou hidrocefalia obstrutiva, ou com volume de 15 mL ou mais. Derivação ventricular isolada, sem evacuação, não é recomendada. O controle pressórico para sistólica em torno de 140 mmHg acompanha. Nos hematomas supratentoriais profundos, a cirurgia aberta de rotina não mostrou benefício.",
   "porAlt": [
-   "O trombolítico é para o acidente vascular isquêmico e agrava de forma fatal um hematoma já instalado.",
-   "Correta: controle pressórico cuidadoso, reversão de coagulopatia e avaliação neurocirúrgica compõem a conduta.",
-   "A anticoagulação expande o hematoma e é formalmente contraindicada nesse cenário clínico.",
-   "Observar sem controlar pressão permite a expansão do hematoma nas primeiras horas.",
-   "A punção lombar é contraindicada diante de efeito de massa com desvio de linha média."
+   "Hematoma cerebelar maior que 3 cm com piora neurológica e hidrocefalia exige cirurgia.",
+   "Hemorragia cerebelar com deterioração, compressão do tronco ou hidrocefalia: evacuação cirúrgica imediata.",
+   "Derivação isolada, sem evacuar, é desaconselhada pelo risco de herniação ascendente.",
+   "Corticoide não tem papel na hemorragia intraparenquimatosa.",
+   "Hiperventilação é ponte temporária, não tratamento."
   ]
  },
  {
-  "q": "Mulher de 28 anos tem crises de cefaleia unilateral pulsátil precedidas por escotomas cintilantes que duram vinte minutos. Usa anticoncepcional oral combinado e é tabagista. Qual é a orientação sobre a contracepção?",
+  "q": "Mulher de 28 anos tem enxaqueca com aura visual (escotomas cintilantes de 20 minutos, seguidos de cefaleia pulsátil) 2 vezes por mês. Usa anticoncepcional oral combinado com 30 µg de etinilestradiol há 5 anos e fuma 10 cigarros por dia. Pressão arterial 118/74 mmHg, sem outras doenças. Não deseja engravidar nos próximos anos e quer manter contracepção eficaz. Não tem hipertensão, diabetes ou trombofilia conhecida. Qual é a orientação sobre a contracepção?",
   "alts": [
-   "Suspender sempre o combinado, pelo risco de acidente vascular na enxaqueca com aura agora.",
-   "Manter o combinado e apenas acrescentar profilaxia com betabloqueador para as crises dela.",
-   "Trocar por combinado de dose mais alta, que reduz a frequência das crises com aura relatadas.",
-   "Manter tudo como está, pois a enxaqueca com aura não altera o risco vascular dessa paciente.",
-   "Suspender apenas o tabagismo, mantendo o combinado, que é seguro em qualquer tipo de enxaqueca."
+   "Trocar para método sem estrogênio",
+   "Manter o combinado e parar de fumar",
+   "Trocar para combinado com 20 µg",
+   "Manter o combinado com ácido acetilsalicílico",
+   "Anel vaginal combinado de baixa dose"
   ],
   "gab": 0,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Organização Mundial da Saúde — Critérios Médicos de Elegibilidade para uso de contraceptivos, 2015; International Headache Society",
-  "coment": "Enxaqueca com aura é categoria 4 nos critérios de elegibilidade para contraceptivo hormonal combinado, ou seja, risco inaceitável: o estrogênio aumenta de forma significativa o risco de acidente vascular cerebral isquêmico nessas pacientes, e o tabagismo multiplica esse risco. A conduta é suspender o combinado e oferecer método sem estrogênio — progestágeno isolado, dispositivo intrauterino ou método de barreira —, além de apoio intensivo à cessação do tabagismo.",
+  "base": "WHO Medical Eligibility Criteria for Contraceptive Use, 2015; US Medical Eligibility Criteria for Contraceptive Use, CDC, 2024",
+  "coment": "Enxaqueca com aura aumenta o risco de AVC isquêmico, e estrogênio e tabagismo multiplicam esse risco. Pelos critérios médicos de elegibilidade da OMS e do CDC, métodos com estrogênio (pílula, adesivo, anel) são categoria 4, ou seja, contraindicados, em qualquer idade na enxaqueca com aura. As opções são DIU de cobre ou hormonal, implante e progestágeno isolado. A cessação do tabagismo deve ser oferecida.",
   "porAlt": [
-   "Correta: enxaqueca com aura contraindica o contraceptivo combinado pelo risco de acidente vascular isquêmico.",
-   "Manter o combinado mantém o risco vascular elevado, que a profilaxia da enxaqueca não reduz.",
-   "Doses mais altas de estrogênio aumentam ainda mais o risco vascular nessas pacientes.",
-   "A enxaqueca com aura eleva o risco de acidente vascular, sobretudo somada a estrogênio e tabaco.",
-   "Cessar o tabagismo é essencial, mas o combinado permanece contraindicado na enxaqueca com aura."
+   "Enxaqueca com aura é categoria 4 para estrogênio: usar DIU, implante ou progestágeno isolado.",
+   "Mesmo sem tabagismo, a aura contraindica estrogênio.",
+   "Reduzir a dose de estrogênio não elimina o risco.",
+   "Antiagregante não neutraliza o risco de AVC.",
+   "Anel vaginal também contém estrogênio."
   ]
  },
  {
-  "q": "Homem de 45 anos apresenta cefaleias em salvas, unilaterais, periorbitárias, de dor excruciante, com lacrimejamento e rinorreia ipsilaterais, durando uma hora e recorrendo diariamente. Qual é o tratamento agudo de escolha?",
+  "q": "Homem de 45 anos, tabagista, está no terceiro dia de um novo período de cefaleia em salvas: crises diárias de dor periorbitária direita excruciante, com lacrimejamento, rinorreia e ptose ipsilaterais, durando 60 minutos, 2 vezes por dia, geralmente à noite. Os períodos anteriores duraram de 6 a 8 semanas. Oxigênio a 100% sob máscara aborta as crises. Eletrocardiograma normal. Não tem doença cardíaca conhecida. Qual é o tratamento preventivo de escolha?",
   "alts": [
-   "Analgésico simples por via oral, tratamento de escolha para a crise de cefaleia em salvas.",
-   "Oxigênio em alto fluxo sob máscara e triptano subcutâneo, sempre no início da crise agora.",
-   "Corticoide em dose alta por via oral, medida de escolha para abortar a crise já instalada.",
-   "Opioide de liberação prolongada, primeira opção para dor excruciante desse tipo de cefaleia.",
-   "Carbamazepina em dose plena, tratamento agudo padrão nas cefaleias trigeminoautonômicas."
+   "Propranolol 80 mg/dia",
+   "Amitriptilina 25 mg/dia",
+   "Topiramato 100 mg/dia",
+   "Verapamil com eletrocardiograma seriado",
+   "Sumatriptana oral diária como prevenção"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "International Headache Society e American Headache Society, 2021 — cefaleias trigeminoautonômicas",
-  "coment": "A cefaleia em salvas é a mais dolorosa das cefaleias primárias e responde a dois tratamentos agudos de eficácia comprovada: oxigênio a alto fluxo sob máscara com reservatório e triptano por via subcutânea ou nasal, ambos com início rápido — essencial, porque a crise dura de quinze minutos a três horas. Analgésicos orais e opioides são ineficazes pela latência. O verapamil é a profilaxia de escolha, e o corticoide serve como ponte até a profilaxia agir.",
+  "base": "European Academy of Neurology guidelines on the treatment of cluster headache, 2023; American Headache Society evidence-based guideline on cluster headache treatment, 2016",
+  "coment": "A cefaleia em salvas é tratada em três frentes: crise aguda (oxigênio a 100% em alto fluxo e sumatriptana subcutânea ou zolmitriptana nasal), tratamento de transição (corticoide oral ou bloqueio do nervo occipital maior) e preventivo. Verapamil é o preventivo de primeira linha, iniciado com 240 mg/dia e aumentado conforme resposta, com eletrocardiograma antes de cada aumento pelo risco de bloqueio atrioventricular e bradicardia. Lítio é alternativa.",
   "porAlt": [
-   "Analgésico oral tem latência longa demais para uma crise que dura de quinze minutos a três horas.",
-   "Correta: oxigênio em alto fluxo e triptano subcutâneo são os tratamentos agudos com eficácia comprovada.",
-   "O corticoide serve como terapia de transição até a profilaxia agir, e não para abortar a crise aguda.",
-   "O opioide é ineficaz e traz dependência numa doença de crises repetidas e diárias por semanas.",
-   "A carbamazepina é tratamento da neuralgia do trigêmeo, não da cefaleia em salvas."
+   "Betabloqueador não é eficaz na cefaleia em salvas.",
+   "Amitriptilina não tem papel nas salvas.",
+   "Topiramato tem evidência fraca e não é primeira escolha.",
+   "Verapamil é a profilaxia de escolha; doses altas exigem eletrocardiograma antes de cada aumento.",
+   "Triptano oral diário não previne crises e expõe a uso excessivo."
   ]
  },
  {
-  "q": "Mulher de 65 anos apresenta perda visual monocular indolor e transitória, com duração de dez minutos, e recuperação completa. Tem hipertensão e dislipidemia. Qual é a conduta?",
+  "q": "Mulher de 65 anos, hipertensa e dislipidêmica, teve há 5 dias perda visual monocular esquerda indolor, como uma cortina descendo, que durou 10 minutos e resolveu completamente. Exame neurológico e fundoscopia normais. Eletrocardiograma em ritmo sinusal. Angiotomografia de vasos cervicais: estenose de 75% na carótida interna esquerda pelos critérios NASCET, com placa irregular, e de 30% na direita. Ressonância de crânio sem infarto. Usa losartana e está sem antiagregante. O Doppler de carótidas feito na unidade básica confirmou os achados. Qual é a conduta mais adequada?",
   "alts": [
-   "Tranquilizar e reavaliar em seis meses, uma vez que a visão retornou completamente ao normal.",
-   "Investigar sempre como ataque isquêmico transitório, com imagem vascular e prevenção secundária.",
-   "Prescrever colírio lubrificante e encaminhar apenas ao oftalmologista de rotina no ambulatório.",
-   "Iniciar corticoide em dose alta empiricamente, sem qualquer investigação vascular complementar.",
-   "Solicitar apenas campimetria e liberar, sem qualquer avaliação de carótidas ou de coração agora."
+   "Antiagregante e estatina, sem intervenção",
+   "Anticoagulação plena por 3 meses",
+   "Endarterectomia esquerda nas próximas 2 semanas",
+   "Angioplastia da carótida direita",
+   "Repetir o Doppler de carótidas em 6 meses"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "neuro",
-  "cenario": "emg",
-  "comp": "urg",
+  "cenario": "amb",
+  "comp": "tto",
   "nivel": "r2",
-  "base": "AHA/ASA 2021 — Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack",
-  "coment": "Amaurose fugaz é um ataque isquêmico transitório da circulação retiniana e carrega o mesmo risco de acidente vascular cerebral subsequente de qualquer outro ataque transitório — risco máximo nas primeiras 48 horas. A investigação é urgente: imagem cerebral e vascular, avaliação de carótidas, eletrocardiograma e rastreio de fibrilação atrial, além de perfil metabólico. Institui-se prevenção secundária imediata com antiagregante e estatina, e a endarterectomia é avaliada quando há estenose carotídea significativa.",
+  "base": "AHA/ASA Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack, 2021; ESVS Clinical Practice Guidelines on the Management of Atherosclerotic Carotid and Vertebral Artery Disease, 2023",
+  "coment": "Amaurose fugaz é ataque isquêmico transitório retiniano. Estenose carotídea sintomática de 70 a 99% (NASCET) tem indicação de endarterectomia, que reduz AVC de forma importante, com maior benefício quando feita em até 2 semanas do evento e em centro com risco perioperatório abaixo de 6%. Angioplastia com stent é alternativa em anatomia desfavorável ou risco cirúrgico alto. A terapia clínica (antiagregante, estatina de alta potência, pressão abaixo de 130/80 mmHg) é mantida.",
   "porAlt": [
-   "A recuperação completa é a regra no ataque transitório, e não afasta o risco alto de acidente vascular.",
-   "Correta: amaurose fugaz é ataque isquêmico transitório e exige investigação urgente e prevenção secundária.",
-   "Tratar como problema ocular local ignora a origem vascular e o risco iminente de evento cerebral.",
-   "O corticoide empírico só teria papel na arterite temporal, que exige achados clínicos específicos.",
-   "A campimetria não investiga a origem vascular do evento nem previne o acidente vascular subsequente."
+   "Estenose sintomática de 70 a 99% tem grande benefício da revascularização além da terapia clínica.",
+   "Anticoagulação não é superior à antiagregação na doença carotídea aterosclerótica.",
+   "Amaurose fugaz com estenose ipsilateral de 70 a 99%: endarterectomia, idealmente em até 2 semanas, com terapia clínica otimizada.",
+   "A carótida direita não é a sintomática e tem estenose leve.",
+   "O risco de AVC é maior nos primeiros dias; adiar perde o benefício."
   ]
  },
  {
-  "q": "Homem de 70 anos com fibrilação atrial e AVC isquêmico extenso há três dias está estável. A equipe discute quando reiniciar a anticoagulação oral. Qual é o princípio que orienta a decisão?",
+  "q": "Homem de 70 anos com fibrilação atrial não anticoagulada teve AVC isquêmico extenso de artéria cerebral média esquerda há 2 dias, sem trombólise por chegada tardia. Tomografia de controle com infarto que acomete todo o território cortical da artéria cerebral média, sem transformação hemorrágica. Está estável, com NIHSS de 16. CHA₂DS₂-VA de 4, creatinina normal, sem sangramento prévio. A equipe discute quando iniciar anticoagulante direto. Pressão arterial 138/82 mmHg, sem disfagia grave, e a família deseja o tratamento. Qual é a conduta mais adequada?",
   "alts": [
-   "Reiniciar a anticoagulação nas primeiras seis horas em todos os pacientes com fibrilação atrial.",
-   "O tamanho do infarto e o risco de transformação hemorrágica definem sempre o momento de reiniciar.",
-   "Nunca reiniciar anticoagulação após acidente vascular isquêmico em portadores de fibrilação atrial.",
-   "Reiniciar somente após seis meses, prazo fixo para qualquer paciente independentemente do infarto.",
-   "Substituir definitivamente a anticoagulação por antiagregante, que tem eficácia equivalente aqui."
+   "Iniciar apixabana hoje, no segundo dia",
+   "Aguardar 3 meses para iniciar",
+   "Heparina plena endovenosa já, como ponte",
+   "Iniciar apixabana por volta do sexto ou sétimo dia",
+   "Oclusão de apêndice atrial em vez de anticoagular"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "neuro",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "tit",
-  "base": "AHA/ASA 2026 e ESC 2024 — reintrodução de anticoagulação após acidente vascular isquêmico na fibrilação atrial",
-  "coment": "A reintrodução da anticoagulação após acidente vascular isquêmico em paciente com fibrilação atrial equilibra dois riscos opostos: recorrência embólica se demorar e transformação hemorrágica se antecipar. O critério orientador é o tamanho do infarto e a presença de transformação hemorrágica na imagem de controle, com infartos pequenos permitindo reintrodução mais precoce e extensos exigindo mais tempo. Antiagregante não substitui a anticoagulação na prevenção embólica da fibrilação atrial.",
+  "base": "Fischer et al., Early versus Later Anticoagulation for Stroke with Atrial Fibrillation (ELAN), NEJM, 2023",
+  "coment": "O ensaio ELAN (NEJM, 2023) comparou início precoce e tardio de anticoagulante direto após AVC por fibrilação atrial, conforme o tamanho do infarto: o precoce foi em até 48 horas no infarto pequeno ou moderado e no dia 6 ou 7 no infarto grande; o tardio, nos dias 3 a 4, 6 a 7 e 12 a 14, respectivamente. O início precoce não aumentou hemorragia sintomática e teve tendência a menos eventos. Heparina em ponte não é recomendada.",
   "porAlt": [
-   "Reiniciar em seis horas num infarto extenso arrisca transformação hemorrágica com desfecho catastrófico.",
-   "Correta: o tamanho do infarto e o risco de transformação hemorrágica definem quando reiniciar a anticoagulação.",
-   "Não reiniciar mantém o paciente sem proteção contra novo evento embólico, que é altamente provável.",
-   "Prazo fixo de seis meses ignora a variação entre infartos pequenos e extensos na decisão clínica.",
-   "O antiagregante é bem menos eficaz que o anticoagulante na prevenção de embolia da fibrilação atrial."
+   "No infarto grande, o início precoce do ELAN foi no dia 6 ou 7; o segundo dia vale para infartos pequenos.",
+   "Aguardar meses expõe a alto risco de recorrência embólica.",
+   "Heparina plena em ponte aumenta transformação hemorrágica sem reduzir recorrência.",
+   "Infarto extenso: iniciar anticoagulante direto por volta do dia 6 ou 7, após imagem sem hemorragia.",
+   "Oclusão do apêndice é para quem não pode anticoagular."
   ]
  },
  {
-  "q": "Mulher de 40 anos apresenta ptose palpebral e diplopia que pioram ao fim do dia e melhoram com repouso, sem alteração pupilar. A força melhora após repouso prolongado. Qual é a hipótese e o exame confirmatório?",
+  "q": "Mulher de 40 anos tem há 3 meses ptose palpebral alternante e diplopia que pioram ao fim do dia, além de cansaço ao mastigar. Ao exame, ptose que piora com o olhar sustentado para cima, pupilas normais, força proximal com fatigabilidade e reflexos normais. Anticorpo antirreceptor de acetilcolina positivo em título alto. Estimulação repetitiva com decremento de 18%. TSH normal. Capacidade vital normal. Não tem disfagia, dispneia ou fraqueza cervical, e não usa medicamentos que pioram a transmissão neuromuscular. Qual exame complementar deve ser feito a seguir?",
   "alts": [
-   "Paralisia do terceiro nervo craniano por aneurisma, sugerida pela ptose com pupila preservada agora.",
-   "Miastenia gravis, confirmada sempre por anticorpo antirreceptor de acetilcolina e eletroneuromiografia.",
-   "Esclerose múltipla com neurite óptica, confirmada pela flutuação diurna dos sintomas oculares agora.",
-   "Doença de Graves com oftalmopatia, definida pela fatigabilidade muscular ao longo do dia neste caso.",
-   "Distrofia muscular de cinturas, que cursa com ptose flutuante e diplopia de predomínio vespertino."
+   "Ressonância de crânio com contraste",
+   "Tomografia de tórax para timoma",
+   "Biópsia muscular",
+   "Punção lombar com bandas",
+   "Anticorpo anticanal de cálcio"
   ],
   "gab": 1,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — miastenia gravis",
-  "coment": "Fatigabilidade muscular com piora ao longo do dia e melhora com repouso, acometendo musculatura ocular com ptose e diplopia e poupando a pupila, é a apresentação clássica da miastenia gravis. A confirmação se faz por anticorpo antirreceptor de acetilcolina, com anticorpo anti-MuSK nos soronegativos, e por estudo eletrofisiológico com estimulação repetitiva ou eletromiografia de fibra única. Investiga-se timoma por tomografia de tórax em todos os casos.",
+  "base": "International Consensus Guidance for Management of Myasthenia Gravis, 2020 update; Wolfe et al., MGTX, NEJM, 2016",
+  "coment": "Com anticorpo antirreceptor de acetilcolina positivo e decremento na estimulação repetitiva, o diagnóstico de miastenia gravis está confirmado. Todo paciente deve fazer imagem do mediastino (tomografia ou ressonância) para timoma, presente em 10 a 15%, cuja ressecção é obrigatória. Timectomia também é indicada na miastenia generalizada com anticorpo positivo sem timoma entre 18 e 50 anos, pelo ensaio MGTX. A função tireoidiana é avaliada pela associação com doença autoimune.",
   "porAlt": [
-   "A paralisia do terceiro nervo por aneurisma cursa com midríase e dor, sem flutuação ao longo do dia.",
-   "Correta: fatigabilidade com ptose e diplopia poupando pupila é miastenia, confirmada por anticorpo e eletrofisiologia.",
-   "A esclerose múltipla não cursa com fatigabilidade flutuante diária desse padrão ocular característico.",
-   "A oftalmopatia de Graves cursa com proptose e retração palpebral, e não com ptose fatigável.",
-   "As distrofias de cinturas acometem musculatura proximal de membros e poupam a musculatura ocular."
+   "Ptose e diplopia flutuantes com anticorpo positivo não sugerem lesão encefálica.",
+   "Miastenia confirmada: imagem do tórax para timoma e avaliação de timectomia.",
+   "Biópsia muscular não é necessária para o diagnóstico.",
+   "Líquor não contribui na miastenia.",
+   "Anticorpo anticanal de cálcio é para Lambert-Eaton, com reflexos reduzidos."
   ]
  }
 ]

@@ -12,8 +12,8 @@
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AABB — Transfusion Reactions: guidelines and hemovigilance; Ministério da Saúde, Guia para o uso de hemocomponentes, 2024",
-  "coment": "Febre com calafrios ao final ou logo após a transfusão, em paciente estável, sem icterícia, sem hemoglobinúria e sem alteração respiratória ou radiológica, caracteriza reação febril não hemolítica — a reação transfusional mais comum, causada por citocinas acumuladas na bolsa e por anticorpos contra leucócitos do doador. Ainda assim, a conduta obrigatória é interromper a transfusão, conferir identificação do paciente e da bolsa e excluir hemólise e contaminação bacteriana antes de atribuir o quadro à forma benigna. A leucorredução previne a recorrência.",
+  "base": "AABB: Transfusion Reactions: guidelines and hemovigilance; Ministério da Saúde, Guia para o uso de hemocomponentes, 2024",
+  "coment": "Febre com calafrios ao final ou logo após a transfusão, em paciente estável, sem icterícia, sem hemoglobinúria e sem alteração respiratória ou radiológica, caracteriza reação febril não hemolítica. A reação transfusional mais comum, causada por citocinas acumuladas na bolsa e por anticorpos contra leucócitos do doador. Ainda assim, a conduta obrigatória é interromper a transfusão, conferir identificação do paciente e da bolsa e excluir hemólise e contaminação bacteriana antes de atribuir o quadro à forma benigna. A leucorredução previne a recorrência.",
   "porAlt": [
    "A sobrecarga circulatória cursa com dispneia, hipertensão, turgência jugular e congestão radiológica.",
    "A TRALI cursa com hipoxemia e infiltrado bilateral novo, ausentes com radiografia normal.",
@@ -39,9 +39,9 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "NCCN Guidelines for Acute Myeloid Leukemia, 2025; INCA, diretrizes diagnósticas e terapêuticas das leucemias agudas",
-  "coment": "Pancitopenia com neutropenia grave, plaquetopenia acentuada, sangramento mucoso, febre e presença de células anômalas com nucléolos evidentes no esfregaço indica leucemia aguda com blastos circulantes. O alargamento do tempo de protrombina com fibrinogênio baixo levanta a suspeita de coagulação intravascular disseminada, característica da leucemia promielocítica aguda — emergência hematológica em que o ácido transretinoico deve ser iniciado à suspeita, antes da confirmação genética, junto com suporte transfusional agressivo. A confirmação é por mielograma com imunofenotipagem e citogenética.",
+  "coment": "Pancitopenia com neutropenia grave, plaquetopenia acentuada, sangramento mucoso, febre e presença de células anômalas com nucléolos evidentes no esfregaço indica leucemia aguda com blastos circulantes. O alargamento do tempo de protrombina com fibrinogênio baixo levanta a suspeita de coagulação intravascular disseminada, característica da leucemia promielocítica aguda. Emergência hematológica em que o ácido transretinoico deve ser iniciado à suspeita, antes da confirmação genética, junto com suporte transfusional agressivo. A confirmação é por mielograma com imunofenotipagem e citogenética.",
   "porAlt": [
-   "Correta: leucemia aguda — pancitopenia com células anômalas e coagulopatia associada.",
+   "Correta: leucemia aguda. Pancitopenia com células anômalas e coagulopatia associada.",
    "A anemia megaloblástica cursa com macrocitose e pancitopenia, mas não com blastos nem coagulopatia de consumo.",
    "A aplasia medular não apresenta células anômalas no sangue periférico.",
    "A septicemia pode causar coagulopatia, mas não explica as células com nucléolos evidentes no esfregaço."
@@ -65,7 +65,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "EAU Guidelines on Non-muscle-invasive Bladder Cancer, 2024; INCA, diretrizes de câncer de bexiga",
-  "coment": "Hematúria em homem acima de 50 anos, tabagista e com exposição ocupacional a corantes e solventes — aminas aromáticas, presentes na indústria de tintas — é câncer de bexiga até prova em contrário, e infecções urinárias de repetição em homem são elas próprias um alerta. A investigação obrigatória combina cistoscopia com biópsia das lesões e imagem do trato urinário superior, tipicamente uroTC. Citologia urinária complementa, mas não substitui a cistoscopia, que é o exame que faz o diagnóstico.",
+  "coment": "Hematúria em homem acima de 50 anos, tabagista e com exposição ocupacional a corantes e solventes (aminas aromáticas, presentes na indústria de tintas) é câncer de bexiga até prova em contrário, e infecções urinárias de repetição em homem são elas próprias um alerta. A investigação obrigatória combina cistoscopia com biópsia das lesões e imagem do trato urinário superior, tipicamente uroTC. Citologia urinária complementa, mas não substitui a cistoscopia, que é o exame que faz o diagnóstico.",
   "porAlt": [
    "Nefrolitíase não explica disúria com hematúria persistente por meses e não se investiga primariamente por ressonância.",
    "Correta: tumor de bexiga, investigado por cistoscopia com biópsia.",
@@ -91,7 +91,7 @@
   "comp": "urg",
   "nivel": "r1",
   "base": "AASLD Position Paper on Acute Liver Failure, 2023; nomograma de Rumack-Matthew (1975) e diretrizes de manejo da intoxicação por paracetamol",
-  "coment": "Ingestão de 35 g de paracetamol é dose amplamente tóxica — acima de 150 mg/kg —, e o antídoto é a N-acetilcisteína, que reconstitui a glutationa e é altamente eficaz quando iniciada nas primeiras 8 a 10 horas. Com quatro horas de ingestão, cabe também o carvão ativado, cujo benefício é maior nas primeiras duas horas mas persiste em ingestão maciça. Não se espera dosagem sérica nem elevação de transaminases para tratar: a nível sérico se usa para orientar a manutenção, e a hepatotoxicidade só aparece após 24 a 48 horas, quando o antídoto já perdeu grande parte da eficácia.",
+  "coment": "Ingestão de 35 g de paracetamol é dose amplamente tóxica, acima de 150 mg/kg, e o antídoto é a N-acetilcisteína, que reconstitui a glutationa e é altamente eficaz quando iniciada nas primeiras 8 a 10 horas. Com quatro horas de ingestão, cabe também o carvão ativado, cujo benefício é maior nas primeiras duas horas mas persiste em ingestão maciça. Não se espera dosagem sérica nem elevação de transaminases para tratar: a nível sérico se usa para orientar a manutenção, e a hepatotoxicidade só aparece após 24 a 48 horas, quando o antídoto já perdeu grande parte da eficácia.",
   "porAlt": [
    "A hemodiálise não é a conduta inicial e se reserva a intoxicação maciça com acidose e coma.",
    "Correta: N-acetilcisteína associada a carvão ativado, sem aguardar exames.",
@@ -116,11 +116,11 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "OMS — Critérios Médicos de Elegibilidade para uso de contraceptivos, 2015; EULAR recommendations for women’s health in SLE and APS, 2017",
-  "coment": "Na síndrome do anticorpo antifosfolípide, com ou sem lúpus, o contraceptivo combinado com estrogênio é categoria 4 dos critérios de elegibilidade — risco inaceitável, por aumento adicional do risco trombótico —, e isso vale para qualquer via, incluindo adesivo transdérmico. A opção mais segura e mais eficaz é o dispositivo intrauterino com levonorgestrel, que além de contracepção de longa duração reduz o sangramento menstrual, aspecto relevante em paciente anticoagulada. O dispositivo de cobre é seguro do ponto de vista trombótico, mas tende a aumentar o fluxo menstrual.",
+  "base": "OMS. Critérios Médicos de Elegibilidade para uso de contraceptivos, 2015; EULAR recommendations for women’s health in SLE and APS, 2017",
+  "coment": "Na síndrome do anticorpo antifosfolípide, com ou sem lúpus, o contraceptivo combinado com estrogênio é categoria 4 dos critérios de elegibilidade (risco inaceitável, por aumento adicional do risco trombótico), e isso vale para qualquer via, incluindo adesivo transdérmico. A opção mais segura e mais eficaz é o dispositivo intrauterino com levonorgestrel, que além de contracepção de longa duração reduz o sangramento menstrual, aspecto relevante em paciente anticoagulada. O dispositivo de cobre é seguro do ponto de vista trombótico, mas tende a aumentar o fluxo menstrual.",
   "porAlt": [
    "O dispositivo de cobre é aceitável, mas aumenta o fluxo menstrual em paciente em uso de varfarina.",
-   "Correta: sistema intrauterino com levonorgestrel — sem estrogênio, eficaz e com redução do sangramento.",
+   "Correta: sistema intrauterino com levonorgestrel, sem estrogênio, eficaz e com redução do sangramento.",
    "Contraceptivo combinado com etinilestradiol é contraindicado na síndrome antifosfolípide.",
    "O adesivo combinado também contém estrogênio e mantém o risco trombótico."
   ],
@@ -168,8 +168,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas — Portaria MS nº 254/2002; Política Nacional de Saúde Integral das Populações do Campo, da Floresta e das Águas, 2013",
-  "coment": "Os distritos sanitários especiais indígenas são unidades organizacionais definidas por critérios etnoculturais e pela distribuição demográfica tradicional dos povos, e por isso seus limites podem atravessar fronteiras de municípios e de estados — diferentemente do território das equipes de saúde da família, que segue o recorte municipal e a adscrição populacional. Reconhecer essa diferença é o que permite articular o subsistema de atenção à saúde indígena com a rede do Sistema Único de Saúde sem sobrepor ou deixar vazios assistenciais.",
+  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas: Portaria MS nº 254/2002; Política Nacional de Saúde Integral das Populações do Campo, da Floresta e das Águas, 2013",
+  "coment": "Os distritos sanitários especiais indígenas são unidades organizacionais definidas por critérios etnoculturais e pela distribuição demográfica tradicional dos povos, e por isso seus limites podem atravessar fronteiras de municípios e de estados. Diferentemente do território das equipes de saúde da família, que segue o recorte municipal e a adscrição populacional. Reconhecer essa diferença é o que permite articular o subsistema de atenção à saúde indígena com a rede do Sistema Único de Saúde sem sobrepor ou deixar vazios assistenciais.",
   "porAlt": [
    "Correta: a delimitação dos distritos indígenas segue a distribuição demográfica tradicional e pode não coincidir com limites estaduais.",
    "A demarcação de terras não elimina conflitos nem situações de vulnerabilidade.",

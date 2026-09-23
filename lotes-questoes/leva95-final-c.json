@@ -1,122 +1,122 @@
 [
  {
-  "q": "Paciente com hipertensão recém-diagnosticada e pressão de 145/92 mmHg, sem lesão de órgão-alvo e risco cardiovascular baixo. Qual é a conduta inicial?",
+  "q": "Mulher de 46 anos, sem comorbidades, tem pressão de 145/92 mmHg em três medidas de consultório e MAPA com média de vigília de 138/88 mmHg. Não fuma, o índice de massa corporal é de 26 kg/m², a glicemia de jejum é de 92 mg/dL, o LDL-colesterol é de 118 mg/dL e a creatinina é de 0,8 mg/dL. O eletrocardiograma é normal, não há albuminúria e o risco cardiovascular calculado é baixo. Qual é a conduta inicial?",
   "alts": [
-   "Iniciar imediatamente três anti-hipertensivos em dose plena para todo paciente com esse nível pressórico.",
-   "Não realizar qualquer intervenção nem reavaliação em pacientes com esse nível de pressão arterial medido.",
-   "Mudança de estilo de vida com reavaliação programada, iniciando sempre fármaco se a meta não for atingida.",
-   "Iniciar apenas diurético em dose alta como monoterapia definitiva sem qualquer mudança de estilo de vida.",
-   "Confirmar o diagnóstico apenas com uma única medida de consultório, sem qualquer avaliação complementar."
+   "Estilo de vida e reavaliar em três meses",
+   "Iniciar dois anti-hipertensivos em associação fixa",
+   "Iniciar monoterapia com diurético tiazídico agora",
+   "Iniciar estatina e anti-hipertensivo simultaneamente",
+   "Repetir a MAPA em um ano sem intervenção"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "cardio",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC, 2025; ESC hypertension guidelines, 2024",
-  "coment": "Em hipertensão estágio 1 com risco cardiovascular baixo e sem lesão de órgão-alvo, inicia-se com mudança de estilo de vida — redução de sódio, dieta DASH, perda de peso, atividade física regular, moderação de álcool e cessação do tabagismo — com reavaliação em três a seis meses, iniciando fármaco se a meta não for alcançada. O diagnóstico deve ser confirmado com medidas repetidas e, preferencialmente, com monitorização residencial ou ambulatorial da pressão.",
+  "base": "SBC 2025, hipertensão: estágio 1 de risco baixo e tratamento não farmacológico",
+  "coment": "Hipertensão estágio 1 confirmada por MAPA, em paciente de risco cardiovascular baixo e sem lesão de órgão-alvo, permite começar por mudança de estilo de vida com reavaliação em três meses. Restrição de sódio, dieta DASH, atividade física, controle do peso e do álcool. Persistindo acima da meta, inicia-se farmacoterapia.",
   "porAlt": [
-   "Três fármacos de início é desproporcional para hipertensão estágio 1 de baixo risco cardiovascular.",
-   "Não intervir nem reavaliar permite progressão para lesão de órgão-alvo silenciosa e evitável.",
-   "Correta: mudança de estilo de vida com reavaliação programada e fármaco se a meta não for atingida.",
-   "O diurético isolado sem mudança de estilo de vida perde a intervenção de base do tratamento.",
-   "Uma única medida de consultório não confirma o diagnóstico de hipertensão arterial sistêmica."
+   "Correta: risco baixo e estágio 1 autorizam a tentativa não farmacológica.",
+   "A associação de dois fármacos é o início no estágio 2 ou no risco alto.",
+   "A monoterapia é possível, mas não antes de tentar o estilo de vida no risco baixo.",
+   "Não há indicação de estatina com risco baixo e esse perfil lipídico.",
+   "Um ano sem intervenção deixa a hipertensão confirmada sem tratamento."
   ]
  },
  {
-  "q": "Paciente com asma e rinite alérgica persistente mal controlada. Qual é a implicação no manejo?",
+  "q": "Mulher de 26 anos com asma alérgica usa budesonida-formoterol 160/4,5 µg duas vezes ao dia e conforme sintomas, com boa técnica e adesão. Mantém sintomas diurnos 3 vezes por semana e despertares noturnos. Tem obstrução nasal, espirros e rinorreia diários há 2 anos, sem tratamento. Teste cutâneo positivo para ácaros. VEF₁ de 81% do previsto. Não fuma, sem refluxo sintomático. Qual é a medida mais adequada antes de aumentar a etapa da asma?",
   "alts": [
-   "Tratar a rinite melhora o controle da asma, exigindo sempre abordagem conjunta das duas vias aéreas.",
-   "Tratar a rinite não interfere de forma alguma no controle da asma do paciente com as duas condições.",
-   "Suspender o tratamento da asma e tratar apenas a rinite alérgica persistente do paciente descrito.",
-   "Tratar a rinite apenas com antibiótico contínuo por seis meses como estratégia de controle da asma.",
-   "Suspender qualquer tratamento até que uma das duas condições se resolva espontaneamente no paciente."
+   "Omalizumabe como próxima medida",
+   "Montelucaste isolado no lugar da budesonida-formoterol",
+   "Corticoide oral por 10 dias",
+   "Anti-histamínico de primeira geração à noite",
+   "Corticoide intranasal para a rinite"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "pneumo",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "GINA, 2025; ARIA guidelines on allergic rhinitis and its impact on asthma, revisão 2023",
-  "coment": "O conceito de via aérea única reconhece que rinite e asma compartilham mecanismo inflamatório e se influenciam mutuamente: a rinite não tratada é uma das causas mais frequentes de asma mal controlada, junto com má adesão, técnica inalatória incorreta, refluxo, obesidade e exposição a alérgenos. O tratamento da rinite com corticoide nasal e controle ambiental melhora sintomas de asma e reduz exacerbações, e a abordagem deve ser conjunta.",
+  "base": "Global Initiative for Asthma (GINA), Global Strategy for Asthma Management and Prevention, 2025; ARIA Guidelines, 2019",
+  "coment": "Rinite alérgica é comorbidade frequente e fator de mau controle da asma, e o GINA recomenda revisar comorbidades antes de aumentar a etapa. Corticoide intranasal controla a rinite e melhora sintomas da asma. Em pacientes sensibilizados a ácaros com rinite e asma e VEF₁ acima de 70%, a imunoterapia sublingual com ácaros pode ser acrescentada. Biológico fica para asma grave após otimizar tratamento e comorbidades.",
   "porAlt": [
-   "Correta: tratar a rinite melhora o controle da asma, exigindo abordagem conjunta das duas vias aéreas.",
-   "As duas condições compartilham mecanismo inflamatório e se influenciam mutuamente no paciente.",
-   "Suspender o tratamento da asma expõe o paciente a exacerbações graves e potencialmente fatais.",
-   "O antibiótico contínuo não trata rinite alérgica, que é doença inflamatória e não infecciosa.",
-   "Nenhuma das duas condições se resolve espontaneamente, e ambas exigem tratamento adequado."
+   "Biológico é para asma grave após otimizar tratamento e comorbidades.",
+   "Montelucaste isolado é menos eficaz que o esquema atual.",
+   "Corticoide oral não trata a comorbidade que perpetua o mau controle.",
+   "Anti-histamínico de primeira geração causa sedação e controla pouco a obstrução.",
+   "Rinite não tratada piora a asma: corticoide intranasal antes de aumentar a etapa."
   ]
  },
  {
-  "q": "Paciente com doença renal crônica e anemia com ferritina de 60 ng/mL e saturação de transferrina de 12%. Qual é a conduta?",
+  "q": "Homem de 64 anos em hemodiálise há 3 anos, com diabetes e doença coronária, usa alfaepoetina 8.000 UI por semana e ferro endovenoso de manutenção. A hemoglobina subiu de 10,8 para 12,6 g/dL em 2 meses. Ferritina 520 ng/mL, saturação de transferrina 32%. Pressão arterial pré-diálise de 156/88 mmHg, maior que nos meses anteriores. Não há sangramento. Não houve mudança no peso seco nem na prescrição de diálise. Qual é a conduta?",
   "alts": [
-   "Iniciar agente estimulador da eritropoese sem qualquer reposição prévia de ferro nesse paciente anêmico neste caso.",
-   "Transfundir hemácias como primeira medida em todos os pacientes renais com esse perfil de anemia para este paciente.",
-   "Repor ferro antes de considerar agente estimulador da eritropoese, monitorando sempre os índices do metabolismo do ferro.",
-   "Não realizar qualquer intervenção, pois esse perfil de ferro é considerado normal na doença renal crônica neste caso.",
-   "Prescrever apenas ácido fólico isolado como tratamento definitivo da anemia da doença renal crônica descrita agora."
+   "Manter a dose para chegar a 13 g/dL",
+   "Suspender o ferro e manter a eritropoetina",
+   "Reduzir a eritropoetina, sem passar de 11,5 g/dL",
+   "Aumentar o ferro pela ferritina",
+   "Transfundir se cair abaixo de 11 g/dL"
   ],
   "gab": 2,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "KDIGO Clinical Practice Guideline for Anemia in CKD, revisão 2023",
-  "coment": "Na doença renal crônica, considera-se deficiência de ferro passível de reposição quando a saturação de transferrina está igual ou abaixo de trinta por cento e a ferritina igual ou abaixo de quinhentos nanogramas por mililitro, critérios mais amplos que os da população geral pelo estado inflamatório. Repor ferro primeiro pode corrigir a anemia sem necessidade de agente estimulador da eritropoese, e melhora a resposta quando este é necessário.",
+  "base": "KDIGO Clinical Practice Guideline for Anemia in CKD, 2012; Pfeffer et al., TREAT, NEJM, 2009",
+  "coment": "Os ensaios CHOIR, CREATE e TREAT mostraram que buscar hemoglobina normal com estimuladores da eritropoese aumenta AVC, hipertensão, trombose de acesso e eventos cardiovasculares, sem ganho relevante. A KDIGO recomenda, em geral, não usar estimulador para manter hemoglobina acima de 11,5 g/dL e não buscar intencionalmente valores acima de 13 g/dL. Aumento maior que 1 g/dL em 4 semanas também indica reduzir a dose em cerca de 25%.",
   "porAlt": [
-   "Iniciar o estimulador sem ferro adequado produz resposta insuficiente e desperdiça o tratamento.",
-   "A transfusão não é primeira medida e favorece aloimunização, prejudicando futuro transplante.",
-   "Correta: repor ferro antes de considerar agente estimulador, monitorando os índices do metabolismo do ferro.",
-   "Esse perfil indica deficiência de ferro passível de reposição pelos critérios da doença renal crônica.",
-   "O ácido fólico não corrige a deficiência de ferro nem a de eritropoetina dessa anemia."
+   "Hemoglobina de 13 g/dL com estimulador aumentou AVC, trombose de acesso e eventos cardiovasculares.",
+   "O ferro não explica a subida; o ajuste é na eritropoetina.",
+   "Com estimulador, não ultrapassar 11,5 g/dL; subida rápida e hipertensão pedem redução de dose.",
+   "Ferritina acima de 500 e saturação acima de 30% não indicam mais ferro.",
+   "Transfusão com hemoglobina de 11 é desnecessária."
   ]
  },
  {
-  "q": "Paciente com hipertireoidismo por doença de Graves deseja engravidar. Qual é a orientação?",
+  "q": "Mulher de 29 anos com doença de Graves há 18 meses, em uso de metimazol 15 mg/dia, deseja engravidar no próximo ano. Duas tentativas de reduzir a dose resultaram em recidiva. Tem bócio difuso de 60 g, TRAb 5 vezes acima do limite superior e oftalmopatia leve inativa. Não fuma. A função tireoidiana atual é normal. Pergunta qual é a melhor estratégia antes de engravidar. Qual é a orientação mais adequada?",
   "alts": [
-   "Controlar a função tireoidiana antes da concepção e ajustar sempre o antitireoidiano conforme o trimestre gestacional.",
-   "Engravidar imediatamente sem qualquer controle prévio da função tireoidiana no paciente com doença de Graves agora.",
-   "Manter metimazol em dose alta durante todo o primeiro trimestre, período de maior segurança desse fármaco neste caso.",
-   "Indicar iodo radioativo imediatamente antes da concepção, sem qualquer intervalo de espera após o tratamento agora.",
-   "Suspender todo tratamento durante a gestação, pois o hipertireoidismo não afeta o desfecho gestacional neste caso."
+   "Manter metimazol e engravidar sem mudanças",
+   "Iodo radioativo e engravidar no mês seguinte",
+   "Suspender o metimazol ao engravidar",
+   "Trocar por propiltiouracil por 18 meses",
+   "Tireoidectomia total antes da gestação"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "American Thyroid Association Guidelines for the Diagnosis and Management of Thyroid Disease During Pregnancy, 2017 com revisão 2023",
-  "coment": "O hipertireoidismo não controlado na gestação aumenta perda fetal, prematuridade, pré-eclâmpsia e crise tireotóxica, e a gravidez deve ser planejada com a função controlada. No primeiro trimestre prefere-se propiltiouracila, pelo menor risco de embriopatia associada ao metimazol, trocando-se para metimazol a partir do segundo trimestre pela hepatotoxicidade da propiltiouracila. O iodo radioativo exige intervalo de pelo menos seis meses antes da concepção.",
+  "base": "American Thyroid Association Guidelines for Hyperthyroidism, 2016; ATA Guidelines for Thyroid Disease During Pregnancy and the Postpartum, 2017",
+  "coment": "Mulheres com doença de Graves que planejam gestação devem discutir terapia definitiva antes. A ATA observa que o iodo radioativo tende a elevar o TRAb por meses, com risco de doença fetal, e exige esperar 6 meses para engravidar; com TRAb alto, a tireoidectomia é preferível, feita com antecedência e com o TRAb acompanhado depois. Após a cirurgia, a paciente engravida em uso de levotiroxina, sem exposição a antitireoidianos.",
   "porAlt": [
-   "Correta: controlar a função antes da concepção e ajustar o antitireoidiano conforme o trimestre.",
-   "Engravidar sem controle aumenta perda fetal, prematuridade e risco de crise tireotóxica materna.",
-   "O metimazol no primeiro trimestre associa-se a embriopatia, preferindo-se a propiltiouracila.",
-   "O iodo radioativo exige intervalo de pelo menos seis meses antes da concepção da paciente.",
-   "O hipertireoidismo não controlado afeta gravemente o desfecho gestacional e fetal."
+   "Manter tionamida expõe o embrião no primeiro trimestre, e o risco de recidiva é alto.",
+   "Após iodo radioativo, a gestação deve esperar pelo menos 6 meses, e o TRAb pode subir.",
+   "Com TRAb alto e recidivas, suspender causa hipertireoidismo materno e fetal.",
+   "Propiltiouracil por longo prazo tem risco de hepatotoxicidade grave.",
+   "TRAb alto, bócio grande e recidivas em quem planeja gestação: cirurgia antes, sem antitireoidiano na gravidez."
   ]
  },
  {
-  "q": "Paciente com dor abdominal difusa e distensão, sem eliminação de gases e fezes há dois dias, com ruídos aumentados. Qual é a conduta?",
+  "q": "Mulher de 63 anos, com histerectomia por laparotomia há 15 anos, chega com dor abdominal em cólica, vômitos e parada de eliminação de gases há 36 horas. Afebril, frequência 94 bpm, pressão arterial 130/80 mmHg, abdome distendido e timpânico, com ruídos aumentados e sem peritonismo. Leucócitos 10.200/mm³, lactato 1,2 mmol/L. Tomografia: obstrução de delgado com ponto de transição no íleo, sem sinais de isquemia, pneumatose ou líquido livre. Não há hérnias ao exame. Qual é a conduta inicial?",
   "alts": [
-   "Prescrever laxante estimulante em dose alta como primeira conduta diante do quadro obstrutivo descrito no caso já.",
-   "Prescrever apenas analgésico e liberar o paciente sem qualquer investigação por imagem do abdome distendido agora.",
-   "Iniciar dieta oral livre imediatamente para estimular o trânsito intestinal do paciente com o quadro descrito agora.",
-   "Indicar colonoscopia de urgência como primeiro exame em todos os pacientes com suspeita de obstrução intestinal.",
-   "Investigar obstrução intestinal com imagem e iniciar suporte, avaliando sempre a necessidade de abordagem cirúrgica."
+   "Laparotomia exploradora nas próximas horas",
+   "Colonoscopia descompressiva",
+   "Sonda nasogástrica e contraste hidrossolúvel",
+   "Neostigmina endovenosa",
+   "Laxante osmótico por via oral"
   ],
-  "gab": 4,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "emg",
-  "comp": "urg",
+  "comp": "tto",
   "nivel": "r2",
-  "base": "WSES guidelines on small bowel obstruction, revisão 2023; ACS guidance on acute abdomen, 2023",
-  "coment": "Parada de eliminação de gases e fezes com distensão e ruídos aumentados sugere obstrução intestinal mecânica. A conduta inclui jejum, sonda nasogástrica para descompressão, reposição volêmica e correção eletrolítica, e imagem — tomografia de abdome com contraste é o exame de escolha, definindo o nível, a causa e sinais de sofrimento de alça. Sinais de estrangulamento, peritonite ou falha do tratamento conservador indicam abordagem cirúrgica.",
+  "base": "Bologna guidelines for diagnosis and management of adhesive small bowel obstruction, World Society of Emergency Surgery, 2017",
+  "coment": "Obstrução de delgado por brida sem sinais de sofrimento de alça (febre, taquicardia importante, peritonismo, lactato elevado, isquemia na tomografia) é tratada inicialmente sem cirurgia: jejum, sonda nasogástrica, hidratação e correção eletrolítica. As diretrizes de Bolonha recomendam contraste hidrossolúvel, que é diagnóstico e terapêutico: a presença no cólon em até 24 horas prediz resolução. Falha em 72 horas ou sinais de estrangulamento indicam cirurgia.",
   "porAlt": [
-   "O laxante estimulante em obstrução mecânica agrava a dor e pode precipitar perfuração intestinal.",
-   "Liberar sem investigar arrisca estrangulamento de alça, isquemia e perfuração com peritonite.",
-   "A dieta oral em obstrução aumenta a distensão, o vômito e o risco de broncoaspiração.",
-   "A colonoscopia não é o primeiro exame e pode ser perigosa diante de obstrução com distensão.",
-   "Correta: investigar com imagem e iniciar suporte, avaliando a necessidade de abordagem cirúrgica."
+   "Sem isquemia ou peritonite, a obstrução por brida começa com tratamento não operatório.",
+   "A obstrução é de delgado; colonoscopia não descomprime.",
+   "Descompressão, hidratação e contraste hidrossolúvel: se chega ao cólon em 24 horas, a resolução sem cirurgia é provável.",
+   "Neostigmina é para pseudo-obstrução colônica aguda (síndrome de Ogilvie).",
+   "Laxante oral com vômitos e obstrução mecânica está contraindicado."
   ]
  }
 ]

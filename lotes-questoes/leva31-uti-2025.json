@@ -1,19 +1,19 @@
 [
  {
-  "q": "Homem de 54 anos com pneumonia grave está em cateter nasal de alto fluxo a 55 L/min, com saturação de 91% e fração inspirada de oxigênio de 0,7. O ultrassom pulmonar mostra opacidades bilaterais e o quadro começou há quatro dias. Não há evidência de causa cardiogênica. Segundo a definição vigente, o paciente tem síndrome do desconforto respiratório agudo?",
+  "q": "Homem de 54 anos com pneumonia grave está em cateter nasal de alto fluxo a 55 L/min, com saturação de 91% e fração inspirada de oxigênio de 0,7. O ultrassom pulmonar mostra opacidades bilaterais e o quadro começou há quatro dias. Não há evidência de causa cardiogênica. A frequência respiratória é de 30 irpm, a pressão de 112/68 mmHg e o ecocardiograma à beira do leito mostra fração de ejeção preservada, sem sobrecarga de câmaras esquerdas. Não há gasometria arterial disponível no momento. Segundo a definição vigente, o paciente tem síndrome do desconforto respiratório agudo?",
   "alts": [
-   "Não, porque o diagnóstico exige ventilação mecânica invasiva com pressão expiratória final positiva.",
-   "Sim, pois a definição global de 2024 passou a incluir o alto fluxo e a oximetria como critérios.",
-   "Não, uma vez que a imagem precisa ser tomográfica e o ultrassom não é aceito como critério válido.",
-   "Sim, mas somente se a gasometria arterial confirmar relação entre oxigênio e fração menor que 300.",
-   "Não, porque o quadro de quatro dias ultrapassa a janela temporal exigida para o diagnóstico atual."
+   "Não: exige ventilação invasiva com PEEP",
+   "Sim: a definição de 2024 aceita alto fluxo e oximetria",
+   "Não: a imagem precisa ser tomográfica",
+   "Sim, só com gasometria arterial",
+   "Não: 4 dias excede a janela"
   ],
   "gab": 1,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "dx",
   "nivel": "tit",
-  "base": "ESICM/ATS/SCCM 2024 — A New Global Definition of Acute Respiratory Distress Syndrome",
+  "base": "ESICM/ATS/SCCM 2024, A New Global Definition of Acute Respiratory Distress Syndrome",
   "coment": "A definição global de 2024 expandiu os critérios de Berlim em quatro pontos: passou a incluir o cateter nasal de alto fluxo com fluxo mínimo acima de 30 L/min, aceitou a razão entre saturação e fração inspirada abaixo de 315 como marcador de hipoxemia quando a saturação está abaixo de 97%, acrescentou o ultrassom como modalidade de imagem aceita e, em locais de poucos recursos, dispensou exigência de pressão expiratória final, fluxo mínimo e dispositivo específico. Aqui a razão entre saturação e fração é 130, o fluxo é adequado, a imagem é bilateral e o quadro está dentro de uma semana.",
   "porAlt": [
    "A exigência de ventilação invasiva era de Berlim; a categoria de síndrome não intubada foi criada justamente para esses casos.",
@@ -24,123 +24,123 @@
   ]
  },
  {
-  "q": "Mulher de 62 anos, 1,60 m, com síndrome do desconforto respiratório agudo, será ventilada. Ela pesa 92 kg. Qual é a base de cálculo do volume corrente na ventilação protetora e por quê?",
+  "q": "Mulher de 62 anos, 1,60 m e 95 kg, será ventilada por síndrome do desconforto respiratório agudo secundária a pneumonia aspirativa. A relação entre pressão parcial de oxigênio e fração inspirada é de 130, com infiltrados bilaterais e sem evidência de causa cardiogênica. O peso predito calculado pela altura é de 52 kg. Está sedada, sem esforço respiratório, hemodinamicamente estável. Qual é o volume corrente inicial?",
   "alts": [
-   "Peso real aferido na balança, que reflete melhor a demanda metabólica desta paciente com obesidade.",
-   "Peso ideal calculado pelo índice de massa corporal alvo, ajustado conforme a idade e o sexo dela.",
-   "Peso predito pela altura, porque o volume pulmonar depende da estatura e não da massa corporal.",
-   "Média entre o peso real e o predito, ajuste indicado especificamente para pacientes com obesidade.",
-   "Peso seco estimado após diurese, medida usada para calcular o volume corrente na fase de desmame."
+   "Cerca de 310 mL, por 6 mL/kg de peso predito",
+   "Cerca de 570 mL, por 6 mL/kg de peso real corporal",
+   "Cerca de 520 mL, por 10 mL/kg de peso predito",
+   "Cerca de 950 mL, por 10 mL/kg de peso real corporal",
+   "Ajustar pelo volume que normalize o dióxido de carbono"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ESICM/ATS/SCCM 2024 e diretrizes de ventilação protetora — volume corrente por peso predito",
-  "coment": "O volume corrente na ventilação protetora é calculado sobre o peso predito, derivado da altura e do sexo, e não sobre o peso real. A razão é anatômica: o volume pulmonar acompanha a estatura, não a massa gorda. Usar o peso real numa paciente com obesidade entrega volumes muito acima do alvo de 6 mL/kg, produzindo lesão induzida pela ventilação justamente em quem tem pulmão vulnerável. Para 1,60 m, o peso predito fica em torno de 52 kg em mulher, o que corresponde a aproximadamente 310 mL — bem distante dos 550 mL que sairiam do peso real.",
+  "base": "ARDS Network, N Engl J Med 2000 (volume corrente sobre peso predito",
+  "coment": "O volume corrente na ventilação protetora é calculado sobre o peso PREDITO, que depende apenas da altura e do sexo) o pulmão não cresce com a obesidade. Com 52 kg de peso predito, 6 mL/kg resultam em cerca de 310 mL. Usar o peso real, aqui, entregaria quase o dobro e produziria lesão induzida pela ventilação.",
   "porAlt": [
-   "O peso real numa paciente obesa entrega volume muito acima do alvo e produz lesão induzida pela ventilação.",
-   "Não se usa peso ideal por índice de massa corporal: a fórmula do peso predito parte diretamente da altura e do sexo.",
-   "Correta: usa-se o peso predito pela altura, porque o volume pulmonar acompanha a estatura e não a massa corporal.",
-   "Não existe recomendação de média entre peso real e predito para calcular volume corrente na ventilação protetora.",
-   "Peso seco é conceito de balanço hídrico e de diálise, sem relação com o cálculo do volume corrente protetor."
+   "Correta: 6 mL/kg sobre o peso predito de 52 kg.",
+   "O peso real não determina o tamanho do pulmão.",
+   "10 mL/kg abandona a estratégia protetora.",
+   "Combina os dois erros: volume alto sobre peso real.",
+   "Normalizar o dióxido de carbono às custas de volume alto é o oposto da hipercapnia permissiva."
   ]
  },
  {
-  "q": "Paciente em choque séptico está com pressão arterial média de 67 mmHg em noradrenalina, mas mantém tempo de enchimento capilar de 5 segundos, livedo em joelhos e lactato em elevação. Segundo o consenso europeu vigente de choque, como interpretar essa situação?",
+  "q": "Homem de 67 anos está em choque séptico de foco pulmonar na terapia intensiva, após ressuscitação volêmica adequada e antibiótico apropriado. Mantém pressão arterial média de 67 mmHg em noradrenalina 0,25 mcg/kg/min, mas persiste com lactato de 4,2 mmol/L, extremidades frias, livedo em joelhos e débito urinário de 0,3 mL/kg/h. O ecocardiograma mostra contratilidade preservada e a variação de pressão de pulso é de 7%. Qual é a interpretação e a conduta?",
   "alts": [
-   "A meta foi atingida e a conduta correta é apenas observar, pois os sinais de pele são subjetivos demais.",
-   "A meta numérica foi atingida mas a perfusão não, e o alvo deve ser individualizado nesse paciente.",
-   "O alvo pressórico deve ser reduzido para poupar vasopressor, já que a pressão média está acima de 65.",
-   "A perfusão cutânea não integra a monitorização recomendada e não deve orientar decisão terapêutica.",
-   "O lactato elevado indica sempre falha da noradrenalina, que deve ser substituída por adrenalina agora."
+   "Hipoperfusão persistente: reavaliar foco e associar vasopressina",
+   "Perfusão adequada: manter conduta e reavaliar em 12 horas",
+   "Responsividade a volume: expandir com mais 30 mL/kg",
+   "Disfunção sistólica: iniciar dobutamina em dose baixa",
+   "Excesso de vasopressor: reduzir a noradrenalina pela metade"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "tit",
-  "base": "ESICM 2025 — consenso de choque circulatório e monitorização hemodinâmica",
-  "coment": "O consenso recomenda individualizar o alvo de pressão arterial, sugerindo inicialmente pressão média de pelo menos 65 mmHg, com faixa de 65 a 70 mmHg no choque séptico e alvo de pelo menos 80 mmHg no traumatismo cranioencefálico com Glasgow igual ou menor que 8. Também recomenda avaliação seriada da perfusão tecidual e, especificamente, monitorização da perfusão cutânea pelo tempo de enchimento capilar, complementada por temperatura da pele e livedo. Quando a meta numérica é atingida mas a perfusão permanece ruim, o alvo daquele paciente não era 65 — e a reavaliação inclui débito cardíaco, volume e controle de foco.",
+  "base": "Surviving Sepsis Campaign 2021/2026. Alvos de perfusão além da pressão",
+  "coment": "Pressão arterial média na meta não significa perfusão adequada. Lactato elevado, livedo, extremidades frias e oligúria indicam hipoperfusão tecidual persistente, e a primeira pergunta é se o foco está controlado. A causa mais comum de refratariedade. A vasopressina é associada para poupar catecolamina, e o tempo de enchimento capilar é marcador útil de seguimento.",
   "porAlt": [
-   "O tempo de enchimento capilar é recomendação formal de monitorização, e não um dado subjetivo a ser ignorado.",
-   "Correta: o consenso manda individualizar o alvo, e perfusão ruim com pressão na meta indica que aquele alvo era insuficiente.",
-   "Reduzir o alvo diante de hipoperfusão evidente agrava a lesão de órgão que a ressuscitação pretende evitar.",
-   "A perfusão cutânea integra explicitamente as recomendações de monitorização regional do consenso vigente.",
-   "O lactato tem múltiplas causas e não indica por si troca de vasopressor; a adrenalina traz mais arritmia e lactato."
+   "Correta: a pressão na meta não exclui hipoperfusão; reavaliar foco.",
+   "Lactato de 4,2 com livedo e oligúria não é perfusão adequada.",
+   "A variação de 7% indica que ele não responde mais a volume.",
+   "A contratilidade está preservada: inotrópico não se justifica.",
+   "Reduzir o vasopressor com hipoperfusão agrava o quadro."
   ]
  },
  {
-  "q": "Em paciente com choque e cateter venoso central e arterial, a equipe observa saturação venosa central de 74% com diferença veno-arterial de pressão parcial de gás carbônico de 9 mmHg. Como interpretar esse conjunto?",
+  "q": "Homem de 54 anos está na terapia intensiva em choque, com cateter venoso central em veia cava superior e linha arterial. Após ressuscitação volêmica, mantém pressão arterial média de 66 mmHg em noradrenalina, lactato de 4,5 mmol/L, extremidades frias e enchimento capilar de 5 segundos. A saturação venosa central é de 55% e a hemoglobina é de 11,0 g/dL, com saturação arterial de 97%. O ecocardiograma mostra fração de ejeção de 30%. Qual é a interpretação e a conduta?",
   "alts": [
-   "Indica perfusão plenamente adequada, já que a saturação venosa central acima de setenta exclui hipofluxo.",
-   "Aponta hiperóxia tecidual por oferta excessiva de oxigênio, exigindo redução imediata da fração inspirada.",
-   "Reflete apenas erro de coleta, pois os dois marcadores nunca podem apontar direções opostas no choque.",
-   "Confirma anemia grave como causa isolada do quadro, indicando transfusão imediata de concentrado.",
-   "Sugere débito cardíaco insuficiente para o consumo, apesar da saturação venosa aparentemente normal."
+   "Débito cardíaco insuficiente: iniciar inotrópico",
+   "Anemia grave: transfundir hemácias",
+   "Hipoxemia: aumentar a fração inspirada de oxigênio",
+   "Consumo elevado: aprofundar a sedação",
+   "Hipovolemia: expandir com mais volume"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ESICM 2025 — monitorização da perfusão regional, saturação venosa central e Pv-aCO₂",
-  "coment": "O consenso recomenda medidas seriadas da saturação venosa central em pacientes com cateter venoso central e, quando há também cateter arterial, medida seriada da diferença veno-arterial de pressão parcial de gás carbônico. Uma diferença alargada, acima de cerca de 6 mmHg, indica fluxo insuficiente para lavar o gás carbônico produzido pelos tecidos — mesmo quando a saturação venosa central parece tranquilizadora. É o marcador que desmascara o débito insuficiente em pacientes cuja saturação venosa está normal por má distribuição de fluxo, situação comum na sepse.",
+  "base": "Surviving Sepsis Campaign 2021. Saturação venosa central e oferta de oxigênio",
+  "coment": "Saturação venosa central baixa significa extração aumentada de oxigênio, e as causas são oferta insuficiente ou consumo elevado. Com saturação arterial de 97% e hemoglobina de 11 g/dL, os componentes de oxigenação e transporte estão adequados. Sobra o débito cardíaco, e a fração de ejeção de 30% confirma. A conduta é inotrópico, tipicamente dobutamina.",
   "porAlt": [
-   "Saturação venosa normal não exclui hipofluxo: na sepse ela pode estar normal por má distribuição do fluxo sanguíneo.",
-   "Hiperóxia tecidual não é o que a diferença alargada indica; ela sinaliza estagnação de fluxo, e não excesso de oferta.",
-   "Os dois marcadores medem coisas diferentes e podem divergir legitimamente — é justamente aí que a Pv-aCO₂ agrega.",
-   "A anemia altera a oferta, mas não explica isoladamente a diferença alargada nem indica transfusão sem outros dados.",
-   "Correta: diferença veno-arterial alargada aponta fluxo insuficiente para lavar o gás carbônico, apesar da saturação venosa normal."
+   "Correta: oferta limitada pelo débito, com disfunção sistólica confirmada.",
+   "Hemoglobina de 11 g/dL não justifica transfusão nesse contexto.",
+   "A saturação arterial de 97% já está adequada.",
+   "Sedar reduz consumo, mas não corrige a disfunção sistólica que é a causa.",
+   "Não há indicação de mais volume com fração de ejeção de 30%."
   ]
  },
  {
-  "q": "Homem de 58 anos em parada cardiorrespiratória por atividade elétrica sem pulso recebe compressões de alta qualidade e acesso venoso. Um residente sugere administrar bicarbonato de sódio e cálcio empiricamente para melhorar a chance de retorno da circulação. Qual é a orientação da diretriz vigente?",
+  "q": "Homem de 58 anos está em parada cardiorrespiratória por atividade elétrica sem pulso há seis minutos, recebendo compressões de alta qualidade e ventilação com bolsa-válvula-máscara. Já recebeu duas doses de adrenalina. Estava internado por diarreia com desidratação grave e insuficiência renal, com último potássio de 7,2 mEq/L e eletrocardiograma prévio mostrando ondas T apiculadas com QRS alargado. Qual é a conduta específica?",
   "alts": [
-   "Ambos devem ser administrados de rotina, por corrigirem a acidose e estabilizarem a membrana já.",
-   "Apenas o bicarbonato é recomendado de rotina, ficando o cálcio reservado às paradas prolongadas.",
-   "Apenas o cálcio é recomendado de rotina, ficando o bicarbonato restrito à parada por afogamento.",
-   "Ambos são recomendados desde que a parada ultrapasse vinte minutos de reanimação sem resposta alguma.",
-   "Nenhum dos dois de rotina: a administração rotineira de ambos não é recomendada na parada do adulto."
+   "Gluconato de cálcio e medidas para hipercalemia",
+   "Desfibrilação imediata com 200 J bifásicos",
+   "Bicarbonato de sódio como medida isolada",
+   "Marca-passo transcutâneo em frequência alta",
+   "Suspender a reanimação por tempo prolongado"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AHA 2025 — Part 9: Adult Advanced Life Support, recomendações classe 3 contra uso rotineiro",
-  "coment": "A diretriz de 2025 é explícita: a administração rotineira de cálcio, de bicarbonato de sódio e de magnésio não é recomendada em adultos em parada cardiorrespiratória, todas com classificação de ausência de benefício. A palavra decisiva é rotina — essas drogas permanecem indicadas em situações específicas, como cálcio e bicarbonato na hipercalemia, bicarbonato na intoxicação por antidepressivo tricíclico e magnésio na torsades de pointes. O que muda desfecho na parada é compressão de alta qualidade, desfibrilação precoce quando o ritmo é chocável e a busca ativa de causa reversível.",
+  "base": "AHA 2025. Causas reversíveis na atividade elétrica sem pulso",
+  "coment": "Na atividade elétrica sem pulso a busca pela causa reversível é o que muda o desfecho. Aqui a hipercalemia grave com alteração eletrocardiográfica prévia é a causa mais provável: administra-se gluconato de cálcio para estabilizar a membrana, seguido de insulina com glicose, bicarbonato e planejamento de diálise. Compressões e adrenalina seguem em paralelo.",
   "porAlt": [
-   "Dar os dois de rotina contraria recomendação explícita e desvia a equipe do que realmente muda desfecho.",
-   "O bicarbonato de rotina foi justamente uma das práticas desaconselhadas, com classificação de ausência de benefício.",
-   "O cálcio de rotina também não é recomendado; sua indicação é específica, como na hipercalemia documentada.",
-   "Não há limiar de tempo que converta essas drogas em conduta de rotina durante a reanimação do adulto.",
-   "Correta: a diretriz de 2025 não recomenda o uso rotineiro de cálcio, bicarbonato nem magnésio na parada do adulto."
+   "Correta: causa reversível identificada, com tratamento específico.",
+   "Atividade elétrica sem pulso não é ritmo chocável.",
+   "O bicarbonato isolado não estabiliza a membrana como o cálcio.",
+   "O marca-passo não trata ausência de contração mecânica.",
+   "O ritmo é organizado e a causa é reversível: não se suspende."
   ]
  },
  {
-  "q": "Paciente é reanimado com sucesso após parada por fibrilação ventricular e permanece comatoso doze horas depois, ainda sob efeito de sedação. A família pergunta sobre o prognóstico neurológico. Qual é a conduta correta?",
+  "q": "Homem de 61 anos foi reanimado após parada por fibrilação ventricular e permanece comatoso 12 horas depois, em ventilação mecânica, sem sedação há quatro horas e sem bloqueio neuromuscular. Não responde a estímulo doloroso, os reflexos pupilares estão presentes e não há mioclonias. A temperatura é de 36,8 °C sob controle ativo, a pressão de 120/72 mmHg e a glicemia de 160 mg/dL. A família pergunta sobre o prognóstico neurológico. Qual é a conduta?",
   "alts": [
-   "Definir o prognóstico agora pelo exame neurológico, confiável já nas primeiras horas após a parada.",
-   "Adiar a definição prognóstica, que deve ser multimodal e tardia, sem efeito residual de sedativo.",
-   "Basear a decisão apenas na duração da reanimação, parâmetro isolado suficiente para prever o desfecho.",
-   "Solicitar somente tomografia de crânio e decidir pelo resultado desse exame isolado nas próximas horas.",
-   "Suspender o suporte se não houver resposta motora em vinte e quatro horas, prazo definido em diretriz."
+   "Adiar a prognosticação para depois de 72 horas, com avaliação multimodal",
+   "Definir prognóstico agora pelo exame neurológico",
+   "Suspender o suporte pela ausência de resposta a estímulo",
+   "Realizar apenas eletroencefalograma e decidir",
+   "Repetir a tomografia de crânio e decidir em 24 horas"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "prev",
   "nivel": "r3",
-  "base": "AHA 2025 — cuidados pós-parada e prognóstico neurológico multimodal",
-  "coment": "A definição prognóstica após parada cardiorrespiratória deve ser multimodal e tardia, combinando exame neurológico seriado, eletroencefalograma, potenciais evocados somatossensitivos, biomarcadores e neuroimagem, sempre depois de afastado o efeito residual de sedativos e bloqueadores neuromusculares. Prognosticar cedo, com sedação em curso, produz profecia autorrealizável: a limitação de suporte baseada em um exame não confiável causa o desfecho que ela previu. Enquanto isso, o cuidado pós-parada segue: evitar hiperóxia e hipoxemia, tratar hipotensão, controlar temperatura e prevenir febre.",
+  "base": "AHA 2025 e ERC, prognosticação neurológica pós-parada",
+  "coment": "A prognosticação neurológica pós-parada só é confiável após pelo menos 72 horas do retorno da circulação, em paciente sem sedação residual, hipotermia ou bloqueio neuromuscular, e deve ser multimodal. Exame neurológico, eletroencefalograma, potenciais evocados somatossensitivos, enolase neurônio-específica e imagem. Nenhum achado isolado nas primeiras horas autoriza decisão de limitação.",
   "porAlt": [
-   "O exame neurológico nas primeiras horas, sob sedação, não prediz desfecho e não deve fundamentar decisão.",
-   "Correta: o prognóstico é multimodal e tardio, feito apenas depois de afastado o efeito residual de sedação.",
-   "A duração da reanimação é um dado entre vários e nunca deve ser usada isoladamente para prognosticar.",
-   "A tomografia isolada tem valor limitado nas primeiras horas e não substitui a avaliação multimodal.",
-   "Não existe prazo fixo de vinte e quatro horas para suspender suporte: a decisão exige avaliação completa e tardia."
+   "Correta: multimodal e depois de 72 horas.",
+   "O exame nas primeiras horas não prediz desfecho de forma confiável.",
+   "Suspender o suporte agora é decisão precipitada e irreversível.",
+   "Nenhum exame isolado basta para prognosticar.",
+   "A tomografia isolada não define prognóstico."
   ]
  }
 ]

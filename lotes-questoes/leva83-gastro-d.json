@@ -1,242 +1,242 @@
 [
  {
-  "q": "Paciente com cirrose e primeiro episódio de ascite. Qual é a conduta inicial?",
+  "q": "Mulher de 59 anos com cirrose por vírus C e ascite, em uso de espironolactona 200 mg/dia e furosemida 80 mg/dia há 3 semanas, retorna com cãibras e fraqueza. Perdeu 4 kg no período, sem edema e com ascite pequena ao exame. Pressão arterial 98/60 mmHg. Sódio 122 mEq/L (134 mEq/L há 3 semanas), potássio 5,4 mEq/L, creatinina 1,9 mg/dL (0,9 mg/dL antes dos diuréticos). Afebril; paracentese com 60 polimorfonucleares/mm³. Qual é a conduta?",
   "alts": [
-   "Paracentese de grande volume diária como tratamento inicial de escolha do primeiro episódio de ascite agora.",
-   "Restrição de sódio com diurético combinado, monitorando sempre peso, eletrólitos e função renal do paciente.",
-   "Restrição hídrica extrema isolada como primeira medida no paciente cirrótico com ascite de início recente.",
-   "Iniciar albumina endovenosa isolada, sem qualquer diurético ou restrição de sódio na dieta do paciente.",
-   "Indicar transplante hepático imediato em todos os pacientes com primeiro episódio de ascite por cirrose."
+   "Reduzir a furosemida e manter a espironolactona",
+   "Restrição hídrica de 1 litro e manter diuréticos",
+   "Suspender diuréticos e albumina 1 g/kg por 2 dias",
+   "Terlipressina com albumina desde já",
+   "Tolvaptano para corrigir o sódio"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "gastro",
-  "cenario": "amb",
+  "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "EASL Clinical Practice Guidelines on decompensated cirrhosis, 2018 com atualização 2023; AASLD practice guidance on ascites, 2021",
-  "coment": "O tratamento inicial da ascite por cirrose combina restrição de sódio, em torno de dois gramas por dia, com diurético, tipicamente espironolactona associada a furosemida em proporção que preserva o potássio. Monitoram-se peso diário, eletrólitos e função renal, com perda ponderal alvo de até meio quilo por dia sem edema periférico. Restrição hídrica se reserva à hiponatremia significativa, e paracentese de grande volume é para ascite tensa ou refratária.",
+  "base": "EASL Clinical Practice Guidelines for decompensated cirrhosis, 2018; AASLD Practice Guidance on ascites and hepatorenal syndrome, 2021",
+  "coment": "Perda de peso excessiva, hipotensão, hiponatremia, hipercalemia e creatinina dobrada após diuréticos caracterizam lesão renal aguda pré-renal com hiponatremia hipovolêmica. EASL e AASLD recomendam suspender todos os diuréticos e expandir com albumina 1 g/kg/dia por 2 dias. Se a creatinina não melhorar e não houver outra causa, o diagnóstico passa a ser lesão renal aguda por síndrome hepatorrenal, tratada com terlipressina e albumina.",
   "porAlt": [
-   "A paracentese diária não é tratamento inicial e expõe a complicações e perda proteica repetida.",
-   "Correta: restrição de sódio com diurético combinado e monitorização de peso, eletrólitos e função renal.",
-   "A restrição hídrica extrema se reserva à hiponatremia e não é a medida inicial da ascite.",
-   "A albumina é adjuvante em situações específicas e não substitui diurético e restrição de sódio.",
-   "O transplante é avaliado na doença avançada, e não indicado pelo primeiro episódio de ascite."
+   "Com lesão renal aguda, sódio abaixo de 125 mEq/L e potássio alto, todos os diuréticos devem ser suspensos.",
+   "Restrição hídrica não trata hiponatremia hipovolêmica por diurético, e manter diuréticos agrava a lesão renal.",
+   "Lesão renal aguda por diurético: suspender e expandir com albumina por 2 dias antes de pensar em síndrome hepatorrenal.",
+   "Terlipressina só entra se não houver resposta à suspensão dos diuréticos e à albumina.",
+   "Tolvaptano tem alerta de hepatotoxicidade, não é recomendado na cirrose e não corrige a causa."
   ]
  },
  {
-  "q": "Paciente com doença celíaca em dieta sem glúten mantém sintomas e sorologia persistentemente positiva. Qual é a primeira hipótese?",
+  "q": "Mulher de 34 anos recebeu diagnóstico de doença celíaca há 14 meses, com antitransglutaminase IgA de 180 U/mL (referência abaixo de 10 U/mL) e atrofia vilositária Marsh 3b. Diz seguir dieta sem glúten, mas mantém distensão e 3 evacuações amolecidas por dia. Hoje a antitransglutaminase IgA é de 64 U/mL. Almoça em restaurante por quilo nos dias úteis e usa um suplemento importado. Ferritina 14 ng/mL. Qual é a causa mais provável e a conduta inicial?",
   "alts": [
-   "Doença celíaca refratária verdadeira, hipótese mais provável e frequente na persistência dos sintomas.",
-   "Diagnóstico incorreto de doença celíaca, que deve ser descartado imediatamente sem qualquer investigação.",
-   "Necessidade de aumentar a ingestão de glúten para induzir tolerância imunológica progressiva ao antígeno.",
-   "Exposição inadvertida ao glúten, causa mais frequente de persistência dos sintomas nesses pacientes.",
-   "Indicação imediata de corticoide sistêmico contínuo sem qualquer revisão da dieta seguida pelo paciente."
+   "Celíaca refratária tipo II; tipar linfócitos intraepiteliais",
+   "Linfoma associado a enteropatia; tomografia de abdome",
+   "Diagnóstico inicial incorreto; repetir biópsia com glúten",
+   "Exposição inadvertida ao glúten; revisão com nutricionista",
+   "Insuficiência pancreática; enzimas pancreáticas empíricas"
   ],
   "gab": 3,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "ACG Clinical Guideline: Diagnosis and Management of Celiac Disease, 2023",
-  "coment": "A causa mais frequente de sintomas persistentes na doença celíaca é a exposição inadvertida ao glúten, muitas vezes por contaminação cruzada, medicamentos, alimentos industrializados e refeições fora de casa, o que exige revisão detalhada com nutricionista especializado. Outras causas incluem intolerância à lactose, supercrescimento bacteriano, colite microscópica e síndrome do intestino irritável associada. A doença celíaca refratária verdadeira é rara e diagnóstico de exclusão.",
+  "base": "ACG Clinical Guideline Update: Diagnosis and Management of Celiac Disease, 2023",
+  "coment": "A causa mais comum de sintomas persistentes na doença celíaca é a exposição continuada ao glúten, muitas vezes inadvertida (contaminação cruzada em refeições fora de casa, suplementos, medicamentos). A sorologia costuma negativar entre 6 e 24 meses de dieta rigorosa; continuar positiva sugere ingestão. O ACG (2023) recomenda revisar a dieta com nutricionista experiente antes de investigar outras causas ou doença celíaca refratária, que exige atrofia persistente após 12 meses de dieta comprovadamente estrita.",
   "porAlt": [
-   "A doença celíaca refratária verdadeira é rara e diagnóstico de exclusão, não a primeira hipótese.",
-   "O diagnóstico não deve ser descartado sem investigação, e a sorologia positiva o sustenta.",
-   "A reintrodução de glúten agrava a lesão intestinal e é contraindicada nesses pacientes.",
-   "Correta: exposição inadvertida ao glúten é a causa mais frequente de persistência dos sintomas.",
-   "O corticoide não é indicado antes de revisar a dieta e excluir a exposição inadvertida."
+   "Refratária exige atrofia persistente após 12 meses de dieta rigorosa confirmada; sorologia ainda positiva aponta exposição.",
+   "Linfoma é raro e não explica a sorologia persistentemente positiva.",
+   "Sorologia muito alta com Marsh 3b confirmou o diagnóstico.",
+   "Sorologia em queda mas ainda positiva após um ano, com refeições fora de casa, indica ingestão de glúten; a revisão da dieta vem primeiro.",
+   "Insuficiência pancreática é causa possível, mas é investigada depois de afastar exposição ao glúten."
   ]
  },
  {
-  "q": "Paciente com pancreatite aguda biliar leve já resolvida. Qual é a conduta para prevenir recorrência?",
+  "q": "Mulher de 86 anos, com insuficiência cardíaca de fração de ejeção de 25%, doença renal crônica estágio 4 e dependência parcial para atividades diárias, teve pancreatite aguda biliar leve, resolvida em 4 dias. A ultrassonografia mostra múltiplos cálculos na vesícula; a colangiorressonância não mostra cálculos no colédoco. A equipe de anestesia classificou o risco cirúrgico como proibitivo, e paciente e família preferem evitar cirurgia. Qual é a conduta para reduzir a recorrência?",
   "alts": [
-   "Colecistectomia eletiva apenas depois de um ano da alta hospitalar em todos os pacientes com pancreatite biliar já.",
-   "Colecistectomia na mesma internação, pois adiá-la aumenta sempre o risco de novo episódio no intervalo agora.",
-   "Manter apenas dieta com baixo teor de gordura como única medida preventiva de novos episódios de pancreatite.",
-   "Prescrever antibiótico profilático contínuo por seis meses como prevenção de recorrência da pancreatite biliar.",
-   "Não realizar qualquer intervenção, pois a pancreatite biliar não recorre após o primeiro episódio resolvido."
+   "Esfincterotomia endoscópica por CPRE",
+   "Colecistectomia laparoscópica na mesma internação",
+   "Ácido ursodesoxicólico contínuo como alternativa",
+   "Colecistostomia percutânea definitiva",
+   "Dieta pobre em gordura, sem outro procedimento"
   ],
-  "gab": 1,
+  "gab": 0,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "prev",
-  "nivel": "r2",
-  "base": "American Gastroenterological Association guideline on acute pancreatitis, 2024; IAP/APA guidelines, revisão 2023",
-  "coment": "Na pancreatite aguda biliar leve, a colecistectomia deve ser realizada na mesma internação, pois o risco de novo episódio, colecistite ou colangite no intervalo até a cirurgia eletiva é elevado, chegando a cerca de vinte por cento em seis semanas. Ensaio clínico demonstrou redução de complicações com a cirurgia precoce. Em pancreatite grave com coleções, a cirurgia é adiada até a resolução do processo inflamatório.",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024; AGA Clinical Practice Guideline on Initial Management of Acute Pancreatitis, 2018",
+  "coment": "Na pancreatite biliar leve, a colecistectomia na mesma internação é o padrão, pois adiá-la aumenta a recorrência. Quando o risco cirúrgico é proibitivo, ACG e AGA consideram a esfincterotomia endoscópica uma alternativa: ela reduz novos episódios de pancreatite, embora não previna colecistite nem cólica biliar.",
   "porAlt": [
-   "Aguardar um ano expõe o paciente a recorrência precoce, colecistite e colangite no intervalo.",
-   "Correta: colecistectomia na mesma internação, pois adiar aumenta o risco de novo episódio.",
-   "A dieta isolada não previne a migração de cálculos nem a recorrência da pancreatite biliar.",
-   "O antibiótico profilático não previne a recorrência, que depende da remoção da vesícula.",
-   "A pancreatite biliar recorre com frequência elevada quando a vesícula não é removida."
+   "Em quem não pode ser operado, a esfincterotomia endoscópica reduz a recorrência de pancreatite biliar.",
+   "Seria o padrão, mas o risco cirúrgico foi considerado proibitivo.",
+   "Ursodiol não previne pancreatite biliar recorrente de forma confiável.",
+   "Colecistostomia é ponte na colecistite aguda, não prevenção de pancreatite.",
+   "Dieta não impede a migração de cálculos."
   ]
  },
  {
-  "q": "Paciente com hepatite B crônica, HBeAg negativo, carga viral elevada e transaminases persistentemente alteradas. Qual é a conduta?",
+  "q": "Mulher de 64 anos com hepatite B crônica HBeAg negativo tem DNA do HBV de 28.000 UI/mL e ALT de 96 U/L (limite superior de 35 U/L) em três dosagens ao longo de 9 meses. Elastografia de 9,8 kPa. Tem doença renal crônica com taxa de filtração glomerular estimada de 44 mL/min/1,73 m² e osteoporose com fratura vertebral prévia. Anti-HIV não reagente. Não recebeu tratamento para hepatite B antes. Qual antiviral é o mais adequado?",
   "alts": [
-   "Iniciar antiviral com tenofovir ou entecavir, mantendo sempre rastreio de carcinoma hepatocelular no seguimento.",
-   "Não tratar, pois a hepatite B crônica com HBeAg negativo nunca requer tratamento antiviral específico agora.",
-   "Iniciar interferon convencional como tratamento de escolha atual para todos os pacientes com hepatite B crônica.",
-   "Prescrever apenas hepatoprotetor de venda livre como tratamento da hepatite B crônica com carga viral elevada.",
-   "Indicar transplante hepático imediato para todos os pacientes com hepatite B crônica e carga viral elevada."
+   "Tenofovir desoproxila",
+   "Lamivudina em dose ajustada",
+   "Entecavir ou tenofovir alafenamida",
+   "Interferon peguilado por 48 semanas",
+   "Adefovir dipivoxila"
   ],
-  "gab": 0,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Hepatite B e Coinfecções, 2024; EASL Clinical Practice Guidelines on hepatitis B, 2017 com revisão 2023",
-  "coment": "A hepatite B crônica HBeAg negativa com carga viral elevada e transaminases alteradas configura hepatite ativa e tem indicação de tratamento com análogo de nucleotídeo ou nucleosídeo de alta barreira genética, como tenofovir ou entecavir, geralmente por tempo prolongado. Independentemente do tratamento, mantém-se rastreio semestral de carcinoma hepatocelular em grupos de risco, pois a hepatite B pode causar o tumor mesmo sem cirrose estabelecida.",
+  "base": "EASL Clinical Practice Guidelines on the management of hepatitis B virus infection, 2017; AASLD Update on Prevention, Diagnosis, and Treatment of Chronic Hepatitis B, 2018",
+  "coment": "HBeAg negativo com DNA acima de 2.000 UI/mL, ALT elevada e fibrose ao menos moderada indica tratamento. A primeira linha são os antivirais de alta barreira genética: entecavir, tenofovir desoproxila e tenofovir alafenamida. Na doença renal crônica ou na osteoporose, EASL e AASLD preferem entecavir, com dose ajustada à filtração, ou tenofovir alafenamida, pela menor toxicidade renal e óssea que a do tenofovir desoproxila. Lamivudina e adefovir não são mais recomendados.",
   "porAlt": [
-   "Correta: antiviral com tenofovir ou entecavir, mantendo rastreio semestral de carcinoma hepatocelular.",
-   "A forma HBeAg negativa com atividade tem indicação clara de tratamento antiviral específico.",
-   "O interferon convencional foi amplamente substituído pelos análogos de alta barreira genética.",
-   "Hepatoprotetores não suprimem a replicação viral nem reduzem a progressão da doença hepática.",
-   "O transplante se reserva a doença hepática avançada, e não a toda hepatite crônica ativa."
+   "Tenofovir desoproxila tem toxicidade renal e óssea e deve ser evitado com doença renal e osteoporose.",
+   "Lamivudina tem alta taxa de resistência e não é primeira linha.",
+   "Alta barreira genética e menor toxicidade renal e óssea: entecavir ajustado à filtração ou tenofovir alafenamida.",
+   "Interferon tem baixa resposta, muitos efeitos adversos e pouco uso nessa idade.",
+   "Adefovir é nefrotóxico e pouco potente."
   ]
  },
  {
-  "q": "Paciente com colite ulcerativa em atividade grave, com mais de seis evacuações sanguinolentas ao dia, febre e taquicardia. Qual é a conduta?",
+  "q": "Homem de 31 anos com retocolite ulcerativa extensa foi internado com 10 evacuações sanguinolentas por dia, frequência de 104 bpm, temperatura de 37,9 °C e hemoglobina de 9,8 g/dL. Pesquisa de Clostridioides difficile negativa e biópsia retal sem citomegalovírus. Recebe metilprednisolona 60 mg/dia endovenosa e enoxaparina profilática. No terceiro dia, mantém 9 evacuações com sangue, e a proteína C reativa é de 62 mg/L. Radiografia de abdome sem dilatação colônica. Qual é a conduta?",
   "alts": [
-   "Internar com corticoide endovenoso e profilaxia de trombose, avaliando sempre resposta em três a cinco dias.",
-   "Manter tratamento ambulatorial com mesalazina oral isolada em todos os casos de colite ulcerativa grave já.",
-   "Prescrever antidiarreico em dose plena para reduzir o número de evacuações nesse paciente com colite grave.",
-   "Iniciar antibiótico de amplo espectro isolado como tratamento definitivo da colite ulcerativa em atividade grave.",
-   "Indicar colectomia total imediata em todos os pacientes na primeira apresentação de colite ulcerativa grave."
+   "Manter a metilprednisolona por mais 7 dias",
+   "Resgate com infliximabe e avaliação cirúrgica",
+   "Metilprednisolona em pulso de 1 g/dia",
+   "Associar azatioprina como terapia de resgate",
+   "Mesalazina oral 4,8 g/dia com o corticoide"
   ],
-  "gab": 0,
+  "gab": 1,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ECCO-ESGAR guidelines on ulcerative colitis, 2022; AGA Clinical Practice Guideline on moderate to severe UC, revisão 2024",
-  "coment": "A colite aguda grave, definida pelos critérios de Truelove e Witts, é emergência com risco de megacólon tóxico e perfuração. O manejo inclui internação, corticoide endovenoso, hidratação, correção eletrolítica, profilaxia de tromboembolismo — o risco é alto mesmo com sangramento intestinal —, exclusão de infecção por Clostridioides difficile e citomegalovírus e avaliação de resposta em três a cinco dias, quando se decide por terapia de resgate ou colectomia.",
+  "base": "ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment, 2022; Travis et al., Predicting outcome in severe ulcerative colitis, Gut, 1996",
+  "coment": "Colite aguda grave pelos critérios de Truelove e Witts é tratada com corticoide endovenoso, profilaxia de tromboembolismo e exclusão de C. difficile e citomegalovírus. No terceiro dia, mais de 8 evacuações, ou 3 a 8 com proteína C reativa acima de 45 mg/L (critério de Oxford), predizem cerca de 85% de colectomia. A ECCO recomenda resgate com infliximabe ou ciclosporina e avaliação cirúrgica conjunta; sem resposta em 4 a 7 dias, colectomia.",
   "porAlt": [
-   "Correta: internação com corticoide endovenoso e profilaxia de trombose, com avaliação em poucos dias.",
-   "A mesalazina oral isolada é insuficiente para a colite aguda grave com repercussão sistêmica.",
-   "O antidiarreico pode precipitar megacólon tóxico e é contraindicado na colite aguda grave.",
-   "O antibiótico isolado não trata a inflamação, embora infecção associada deva ser afastada.",
-   "A colectomia é indicada na falha do tratamento clínico ou em complicações, não de imediato."
+   "Prolongar corticoide sem resposta atrasa o resgate e aumenta a mortalidade operatória.",
+   "Mais de 8 evacuações no terceiro dia prevê colectomia: resgate com infliximabe ou ciclosporina, com o cirurgião acompanhando.",
+   "Pulso de corticoide não tem benefício sobre a dose padrão.",
+   "Azatioprina leva meses para agir e não serve de resgate.",
+   "Mesalazina não acrescenta na colite aguda grave."
   ]
  },
  {
-  "q": "Paciente com suspeita de intolerância à lactose relata distensão e diarreia após laticínios. Qual é a conduta inicial?",
+  "q": "Mulher de 26 anos atribui ao leite a distensão abdominal e as evacuações amolecidas que tem há 1 ano, e já retirou os laticínios por conta própria, com melhora parcial. Perdeu 5 kg no período, sem intenção. Hemoglobina 10,4 g/dL, volume corpuscular médio 74 fL, ferritina 8 ng/mL. Ciclos menstruais de fluxo normal. Tem hipotireoidismo autoimune em uso de levotiroxina. Não há sangue nas fezes. Qual é a conduta mais adequada?",
   "alts": [
-   "Indicar biópsia intestinal imediata em todos os pacientes com sintomas após consumo de laticínios agora.",
-   "Excluir permanentemente todos os laticínios da dieta sem qualquer teste de reintrodução ou avaliação nutricional.",
-   "Prescrever corticoide sistêmico contínuo como tratamento de escolha para a intolerância à lactose suspeitada.",
-   "Prescrever antibiótico de amplo espectro por dez dias como tratamento inicial da intolerância à lactose.",
-   "Retirada temporária da lactose com reintrodução programada, avaliando sempre a correlação com os sintomas."
+   "Teste respiratório do hidrogênio com lactose",
+   "Manter a dieta sem lactose e repor ferro",
+   "Colonoscopia com biópsias do cólon",
+   "Lactase em cápsulas e reavaliar em 3 meses",
+   "Antitransglutaminase IgA e IgA total"
   ],
   "gab": 4,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "dx",
-  "nivel": "r1",
-  "base": "ACG Clinical Guideline on chronic diarrhea, revisão 2023; NIH consensus on lactose intolerance, revisão 2022",
-  "coment": "A intolerância à lactose é avaliada inicialmente pela retirada temporária da lactose por duas a quatro semanas com reintrodução programada, observando a correlação com os sintomas, ou por teste respiratório com hidrogênio expirado quando disponível. A exclusão permanente e total não é necessária: a maioria tolera pequenas quantidades, sobretudo com alimentos, e a enzima lactase exógena permite consumo. Importa afastar doença celíaca, que pode cursar com intolerância secundária.",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline Update: Diagnosis and Management of Celiac Disease, 2023; British Society of Gastroenterology guidelines for the investigation of chronic diarrhoea in adults, 2018",
+  "coment": "Intolerância à lactose isolada não causa perda de peso nem anemia ferropriva. Esses achados, junto com doença autoimune da tireoide, sugerem má absorção por doença celíaca, que lesa a borda em escova e produz hipolactasia secundária. O primeiro passo é antitransglutaminase IgA com IgA total, com a paciente consumindo glúten, e biópsia duodenal se positiva.",
   "porAlt": [
-   "A biópsia intestinal não é necessária para o diagnóstico de intolerância à lactose simples.",
-   "A exclusão permanente e total é desnecessária e compromete o aporte de cálcio na dieta.",
-   "O corticoide não trata deficiência enzimática e adiciona toxicidade sem qualquer benefício.",
-   "O antibiótico não trata intolerância à lactose, que decorre de deficiência da enzima lactase.",
-   "Correta: retirada temporária com reintrodução programada, avaliando a correlação com os sintomas."
+   "Confirmar hipolactasia não explicaria a perda de peso e a anemia; ela pode ser secundária.",
+   "Tratar o sintoma deixa sem diagnóstico uma provável doença celíaca.",
+   "Sem sangramento ou alarme colônico, colonoscopia não é o primeiro exame.",
+   "Suplementar lactase ignora os sinais de má absorção.",
+   "Perda de peso, anemia ferropriva e autoimunidade tireoidiana: rastrear doença celíaca, que causa intolerância à lactose secundária."
   ]
  },
  {
-  "q": "Paciente com doença diverticular apresenta dor em fossa ilíaca esquerda, febre e leucocitose, sem sinais de peritonite. Qual é a conduta?",
+  "q": "Homem de 58 anos tem dor em fossa ilíaca esquerda há 4 dias, febre de 38,3 °C e leucócitos de 16.500/mm³. Abdome doloroso à palpação profunda na fossa ilíaca esquerda, sem defesa generalizada. Pressão arterial 128/78 mmHg, frequência 96 bpm. Tomografia de abdome: diverticulite de sigmoide com abscesso pélvico de 5 cm, bem delimitado, sem ar livre ou líquido livre na cavidade (Hinchey II). Não é imunossuprimido e fez colonoscopia normal há 2 anos. Qual é a conduta mais adequada?",
   "alts": [
-   "Indicar colectomia de urgência em todos os pacientes com diverticulite aguda e febre com leucocitose nesse contexto.",
-   "Confirmar por tomografia e tratar conforme a gravidade, considerando sempre manejo ambulatorial em casos selecionados.",
-   "Realizar colonoscopia imediata na fase aguda como exame de escolha para confirmar o diagnóstico do quadro neste caso.",
-   "Prescrever apenas analgésico e liberar sem qualquer avaliação por imagem ou tratamento antimicrobiano neste caso.",
-   "Prescrever apenas laxante estimulante em dose alta como tratamento inicial da diverticulite aguda descrita agora."
+   "Antibiótico oral ambulatorial por 7 dias",
+   "Sigmoidectomia com colostomia de urgência",
+   "Colonoscopia na internação para afastar câncer",
+   "Antibiótico endovenoso e drenagem percutânea",
+   "Observação clínica sem antibiótico"
   ],
-  "gab": 1,
+  "gab": 3,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ACG Clinical Guideline on the management of acute diverticulitis, 2021; WSES guidelines, revisão 2023",
-  "coment": "O diagnóstico de diverticulite aguda é confirmado por tomografia de abdome com contraste, que também estratifica a gravidade e identifica abscesso, perfuração e fístula. Casos não complicados em pacientes imunocompetentes e sem comorbidades podem ser manejados ambulatorialmente, e evidências recentes mostram que muitos dispensam antibiótico. Colonoscopia é contraindicada na fase aguda por risco de perfuração, sendo realizada semanas depois para excluir neoplasia.",
+  "base": "AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis, 2021; ASCRS Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis, 2020",
+  "coment": "Diverticulite complicada por abscesso menor que 3 cm costuma responder a antibiótico endovenoso. Abscessos de 3 cm ou mais, como este, pedem drenagem percutânea guiada por tomografia junto com o antibiótico, reservando cirurgia para falha ou peritonite. Colonoscopia após a fase aguda fica para quem não tem exame recente de qualidade. Na diverticulite não complicada em imunocompetente, o antibiótico pode ser usado de forma seletiva.",
   "porAlt": [
-   "A cirurgia de urgência se reserva a complicações como perfuração livre e peritonite generalizada.",
-   "Correta: confirmar por tomografia e tratar conforme a gravidade, com manejo ambulatorial quando possível.",
-   "A colonoscopia na fase aguda é contraindicada pelo risco de perfuração do segmento inflamado.",
-   "Liberar sem imagem nem tratamento perde complicações como abscesso e perfuração contida.",
-   "O laxante estimulante agrava a dor e o risco de perfuração no segmento agudamente inflamado."
+   "Abscesso de 5 cm não se resolve com antibiótico oral ambulatorial.",
+   "Sem peritonite generalizada, cirurgia de urgência não é a primeira escolha.",
+   "Colonoscopia na fase aguda arrisca perfuração, e há exame normal recente.",
+   "Abscesso de 3 cm ou mais: antibiótico endovenoso e drenagem guiada por imagem.",
+   "Observação sem antibiótico serve à diverticulite não complicada, não ao abscesso."
   ]
  },
  {
-  "q": "Paciente com sangramento digestivo baixo volumoso e instabilidade hemodinâmica. Qual é a conduta inicial?",
+  "q": "Homem de 76 anos, em uso de ácido acetilsalicílico, chega com três episódios de sangue vermelho vivo e coágulos pelo reto nas últimas 2 horas. Pressão arterial 84/50 mmHg e frequência de 122 bpm, que melhoram só em parte após 2 litros de cristaloide e duas unidades de hemácias. Hemoglobina 7,8 g/dL, ureia 38 mg/dL, creatinina 1,0 mg/dL. Sem hepatopatia. Continua eliminando sangue vivo na sala de emergência. Qual é o próximo passo diagnóstico?",
   "alts": [
-   "Estabilizar e investigar a fonte com angiotomografia ou colonoscopia, excluindo sempre origem digestiva alta.",
-   "Realizar colonoscopia imediata sem qualquer preparo ou estabilização hemodinâmica prévia do paciente agora.",
-   "Indicar colectomia total imediata em todos os casos de sangramento digestivo baixo com instabilidade agora.",
-   "Prescrever apenas antifibrinolítico oral como tratamento definitivo do sangramento digestivo baixo volumoso.",
-   "Aguardar a cessação espontânea do sangramento por quarenta e oito horas antes de qualquer investigação agora."
+   "Angiotomografia de abdome",
+   "Colonoscopia após preparo nas primeiras 24 horas",
+   "Cintilografia com hemácias marcadas",
+   "Colectomia subtotal de urgência",
+   "Retossigmoidoscopia na sala de emergência"
   ],
   "gab": 0,
   "tema": "gastro",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r3",
-  "base": "ACG Clinical Guideline on the management of patients with acute lower gastrointestinal bleeding, 2023; ESGE guideline, 2021",
-  "coment": "No sangramento digestivo baixo com instabilidade, a prioridade é a ressuscitação com acessos calibrosos, reposição volêmica e transfusão com estratégia restritiva. É obrigatório excluir origem digestiva alta, que responde por parte dos casos de hematoquezia volumosa, com passagem de sonda nasogástrica ou endoscopia alta. A angiotomografia identifica sangramento ativo e orienta embolização, e a colonoscopia é feita após preparo quando o paciente estabiliza.",
+  "base": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023; ESGE Guideline on diagnosis and management of acute lower gastrointestinal bleeding, 2021",
+  "coment": "Hematoquezia com instabilidade hemodinâmica persistente e sangramento em curso pede angiotomografia de abdome como primeiro exame, pela diretriz do ACG (2023): ela localiza o sangramento ativo e orienta embolização transcateter. Ureia normal torna improvável fonte alta, que deve ser considerada quando a relação ureia/creatinina está elevada. Colonoscopia com preparo é o exame inicial no paciente estabilizado. Cirurgia fica para falha das outras medidas.",
   "porAlt": [
-   "Correta: estabilizar e investigar a fonte, excluindo origem alta antes de assumir sangramento baixo.",
-   "A colonoscopia sem preparo e sem estabilização tem baixo rendimento e alto risco no instável.",
-   "A colectomia é medida de exceção, após falha das abordagens endoscópica e angiográfica.",
-   "O antifibrinolítico não controla sangramento digestivo baixo ativo com instabilidade hemodinâmica.",
-   "Aguardar quarenta e oito horas em paciente instável permite choque hemorrágico e óbito."
+   "Sangramento ativo com instabilidade: a angiotomografia localiza o ponto e orienta a embolização.",
+   "Colonoscopia é o exame de escolha no paciente estável; aqui há sangramento ativo e instabilidade.",
+   "Cintilografia é lenta e localiza mal.",
+   "Cirurgia sem localizar o sangramento tem alta mortalidade e ressangramento.",
+   "Retossigmoidoscopia não avalia o cólon proximal, fonte frequente de sangramento volumoso."
   ]
  },
  {
-  "q": "Paciente com esôfago de Barrett sem displasia em endoscopia de rastreio. Qual é a conduta?",
+  "q": "Homem de 57 anos, com obesidade central e sintomas de refluxo há 20 anos, fez endoscopia que mostrou mucosa colunar estendendo-se 4 cm acima da junção esofagogástrica, com extensão circunferencial de 2 cm (Praga C2M4). As biópsias pelo protocolo de Seattle mostram metaplasia intestinal sem displasia, confirmada por um segundo patologista. Usa omeprazol 20 mg/dia e está assintomático. Qual é a conduta?",
   "alts": [
-   "Indicar esofagectomia imediata em todos os pacientes com esôfago de Barrett sem displasia identificada agora.",
-   "Vigilância endoscópica programada com inibidor de bomba de prótons, definindo sempre o intervalo pela extensão.",
-   "Não realizar qualquer seguimento, pois o esôfago de Barrett não aumenta o risco de adenocarcinoma esofágico.",
-   "Realizar ablação por radiofrequência em todos os pacientes com esôfago de Barrett sem qualquer displasia agora.",
-   "Prescrever apenas antiácido de demanda e alta definitiva sem qualquer programação de novo exame endoscópico."
+   "Ablação por radiofrequência preventiva",
+   "Esofagectomia pelo risco de adenocarcinoma",
+   "Nova endoscopia com biópsias em 3 anos",
+   "Endoscopia anual com biópsias",
+   "Alta da vigilância com inibidor contínuo"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "gastro",
   "cenario": "amb",
   "comp": "prev",
-  "nivel": "r3",
-  "base": "ACG Clinical Guideline on the Diagnosis and Management of Barrett's Esophagus, 2022; AGA Clinical Practice Update, 2024",
-  "coment": "O esôfago de Barrett é metaplasia intestinal do esôfago distal e fator de risco para adenocarcinoma, com risco anual baixo na ausência de displasia. A conduta é vigilância endoscópica com biópsias em quatro quadrantes, com intervalo definido pela extensão do segmento, tipicamente de três a cinco anos sem displasia, associada a inibidor de bomba de prótons. Displasia de baixo ou alto grau indica terapia endoscópica, geralmente ablação por radiofrequência.",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Barrett's Esophagus, 2022",
+  "coment": "Esôfago de Barrett sem displasia progride para adenocarcinoma em cerca de 0,2 a 0,5% ao ano. A diretriz do ACG (2022) recomenda vigilância com biópsias pelo protocolo de Seattle a cada 3 a 5 anos se o segmento for menor que 3 cm e a cada 3 anos se for de 3 cm ou mais, como aqui (M4). Ablação é reservada à displasia; na displasia de baixo grau confirmada, é a opção preferida.",
   "porAlt": [
-   "A esofagectomia é cirurgia de grande porte e não se indica na ausência de displasia ou neoplasia.",
-   "Correta: vigilância endoscópica programada com inibidor de bomba, com intervalo definido pela extensão.",
-   "O Barrett aumenta o risco de adenocarcinoma e por isso justifica programa de vigilância definido.",
-   "A ablação é indicada diante de displasia, e não em todo Barrett sem alteração displásica.",
-   "Alta definitiva sem vigilância perde a progressão para displasia em fase ainda tratável."
+   "Ablação não é indicada no Barrett sem displasia pelo baixo risco de progressão.",
+   "Esofagectomia não tem papel sem displasia de alto grau ou câncer.",
+   "Barrett sem displasia de 3 cm ou mais: vigilância endoscópica a cada 3 anos.",
+   "Intervalo anual é para displasia de baixo grau não tratada.",
+   "Segmento longo tem risco de progressão que justifica vigilância."
   ]
  },
  {
-  "q": "Paciente com hepatite alcoólica grave e escore de Maddrey acima de 32, sem infecção ativa. Qual é a conduta?",
+  "q": "Homem de 44 anos, etilista pesado até 3 semanas atrás, foi internado com icterícia progressiva, febre baixa e hepatomegalia dolorosa. Bilirrubina total 18,2 mg/dL, AST 210 U/L, ALT 84 U/L, INR 2,1, creatinina 0,9 mg/dL; MELD 26 e função discriminante de Maddrey de 58. Infecção foi afastada com hemoculturas, urocultura, paracentese e radiografia de tórax. Iniciou prednisolona 40 mg/dia. No sétimo dia, a bilirrubina é de 17,6 mg/dL e o escore de Lille é 0,62. Qual é a conduta?",
   "alts": [
-   "Corticoide sistêmico com suporte nutricional e abstinência, avaliando sempre a resposta pelo escore de Lille.",
-   "Manter o consumo de álcool em dose reduzida durante o tratamento da hepatite alcoólica grave do paciente.",
-   "Iniciar antibiótico de amplo espectro isolado como tratamento específico da hepatite alcoólica grave descrita.",
-   "Indicar transplante hepático imediato em todos os pacientes com hepatite alcoólica grave, sem qualquer critério.",
-   "Prescrever apenas hepatoprotetor de venda livre como tratamento definitivo da hepatite alcoólica grave agora."
+   "Manter prednisolona até completar 28 dias",
+   "Trocar a prednisolona por pentoxifilina",
+   "Dobrar a prednisolona para 80 mg/dia",
+   "Associar N-acetilcisteína e manter 28 dias",
+   "Suspender a prednisolona pela falta de resposta"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "gastro",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "EASL Clinical Practice Guidelines on alcohol-related liver disease, 2018 com revisão 2023; AASLD practice guidance, 2020",
-  "coment": "Na hepatite alcoólica grave, definida por escore de Maddrey igual ou superior a 32, o corticoide reduz a mortalidade em curto prazo em pacientes selecionados, desde que afastadas infecção ativa, sangramento digestivo não controlado e insuficiência renal grave. A resposta é avaliada pelo escore de Lille no sétimo dia, e a ausência de resposta indica suspensão. São essenciais a abstinência absoluta, o suporte nutricional intensivo e a reposição de tiamina.",
+  "base": "EASL Clinical Practice Guidelines: Management of alcohol-related liver disease, 2018; AASLD Practice Guidance: Diagnosis and Treatment of Alcohol-Associated Liver Diseases, 2019",
+  "coment": "Hepatite alcoólica grave (Maddrey de 32 ou mais, ou MELD acima de 20) sem infecção é tratada com prednisolona 40 mg/dia por 28 dias. O escore de Lille no sétimo dia mede a resposta: acima de 0,45 indica não resposta, com sobrevida em 6 meses em torno de 25%, e o corticoide deve ser suspenso. Nesses pacientes, EASL e AASLD aceitam discutir transplante hepático precoce em centros com critérios estritos de seleção.",
   "porAlt": [
-   "Correta: corticoide com suporte nutricional e abstinência, avaliando a resposta pelo escore de Lille.",
-   "Manter qualquer consumo de álcool impede a recuperação e piora diretamente o prognóstico.",
-   "O antibiótico é necessário se houver infecção, mas não é o tratamento específico da hepatite alcoólica.",
-   "O transplante nessa indicação segue critérios rigorosos e não é indicado indiscriminadamente.",
-   "Hepatoprotetores não têm eficácia demonstrada e não reduzem a mortalidade nesse quadro grave."
+   "Lille acima de 0,45 indica não resposta; manter só acrescenta risco de infecção.",
+   "Pentoxifilina não melhora a sobrevida e não serve de resgate.",
+   "Aumentar a dose não recupera a resposta e eleva o risco de infecção.",
+   "N-acetilcisteína foi estudada associada desde o início; prolongar corticoide sem resposta não é recomendado.",
+   "Lille de 0,62 no sétimo dia: não respondedor; suspender o corticoide e discutir transplante precoce."
   ]
  }
 ]

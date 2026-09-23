@@ -1,242 +1,242 @@
 [
  {
-  "q": "Paciente com diabetes tipo 2 e obesidade em uso de metformina, com hemoglobina glicada de 7,8% e IMC de 34 kg/m². Qual é o próximo passo?",
+  "q": "Homem de 48 anos com diabetes tipo 2 e índice de massa corporal de 34 kg/m² usa metformina 2 g/dia, com hemoglobina glicada de 7,8%. Taxa de filtração glomerular de 90 mL/min/1,73 m², sem albuminúria nem doença cardiovascular. O irmão teve carcinoma medular de tireoide, e o paciente tem mutação do gene RET confirmada, em acompanhamento para tireoidectomia. Não tem infecções urinárias ou genitais de repetição. Qual é o segundo fármaco mais adequado?",
   "alts": [
-   "Acrescentar sulfonilureia em dose plena, escolha preferencial pelo efeito favorável sobre o peso corporal.",
-   "Acrescentar insulina basal isolada como próxima escolha pelo efeito favorável sobre o peso do paciente obeso.",
-   "Acrescentar glitazona em dose plena, escolha preferencial pela perda de peso associada ao seu uso agora.",
-   "Acrescentar agonista de GLP-1, que reduz sempre a glicemia e promove perda de peso relevante nesse perfil.",
-   "Manter apenas metformina e reavaliar somente após vinte e quatro meses de acompanhamento ambulatorial."
+   "Semaglutida semanal",
+   "Tirzepatida semanal",
+   "Dapagliflozina",
+   "Glibenclamida",
+   "Pioglitazona"
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ADA Standards of Care in Diabetes, 2025; SBD Diretriz 2024",
-  "coment": "Quando a perda de peso é objetivo terapêutico relevante no diabetes tipo 2, os agonistas de GLP-1 e a tirzepatida são as classes preferidas, com redução expressiva de peso e de hemoglobina glicada, além de benefício cardiovascular demonstrado para vários agentes da classe. Sulfonilureias, glitazonas e insulina promovem ganho de peso, e sulfonilureias e insulina também aumentam o risco de hipoglicemia nesse paciente.",
+  "base": "ADA Standards of Care in Diabetes, seções 8 e 9, 2025",
+  "coment": "Agonistas do receptor de GLP-1 e tirzepatida causaram tumores de células C em roedores e têm contraindicação em bula para quem tem história pessoal ou familiar de carcinoma medular de tireoide ou neoplasia endócrina múltipla tipo 2. Nesses pacientes, a ADA orienta escolher outra classe: inibidor de SGLT2 reduz glicemia e peso de forma modesta e protege rim e coração. Sulfonilureia e pioglitazona aumentam o peso.",
   "porAlt": [
-   "A sulfonilureia promove ganho de peso e hipoglicemia, sendo desfavorável no paciente obeso.",
-   "A insulina basal promove ganho de peso e não é a melhor escolha quando se busca emagrecimento.",
-   "A glitazona promove ganho de peso por retenção hídrica e acúmulo de tecido adiposo subcutâneo.",
-   "Correta: agonista de GLP-1, que reduz glicemia e promove perda de peso relevante nesse perfil.",
-   "Manter apenas metformina com glicada de 7,8 por cento deixa o paciente fora da meta por dois anos."
+   "Agonista de GLP-1 é contraindicado com história pessoal ou familiar de carcinoma medular de tireoide ou neoplasia endócrina múltipla tipo 2.",
+   "Tirzepatida tem a mesma contraindicação.",
+   "Sem poder usar incretina, inibidor de SGLT2 reduz glicemia, peso e risco cardiorrenal.",
+   "Sulfonilureia aumenta o peso e causa hipoglicemia.",
+   "Pioglitazona aumenta o peso e retém líquido."
   ]
  },
  {
-  "q": "Paciente com deficiência de vitamina D confirmada e osteoporose. Qual é a conduta?",
+  "q": "Mulher de 74 anos com osteoporose, operada de fratura de quadril há 3 semanas, tem indicação de ácido zoledrônico 5 mg endovenoso antes da alta. Exames: cálcio total 8,5 mg/dL, albumina 3,6 g/dL, fósforo 2,6 mg/dL, 25-hidroxivitamina D de 9 ng/mL, paratormônio de 98 pg/mL, taxa de filtração glomerular de 52 mL/min/1,73 m². Não tem doença de má absorção nem usa anticonvulsivantes. Qual é a conduta antes da infusão?",
   "alts": [
-   "Repor vitamina D com cálcio adequado antes e durante o antirreabsortivo, monitorando sempre os níveis séricos.",
-   "Iniciar o antirreabsortivo sem qualquer correção prévia da deficiência de vitamina D identificada no paciente.",
-   "Repor apenas cálcio isolado em dose alta, sem qualquer reposição de vitamina D no paciente com osteoporose.",
-   "Repor vitamina D em dose única muito elevada anualmente como estratégia preferencial nesse paciente agora.",
-   "Não repor nada, pois a deficiência de vitamina D não interfere no tratamento da osteoporose diagnosticada."
+   "Aplicar o ácido zoledrônico hoje, antes da alta",
+   "Repor vitamina D e adiar a infusão",
+   "Trocar por denosumabe hoje",
+   "Contraindicar bisfosfonato pela filtração",
+   "Iniciar teriparatida com o cálcio baixo"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Endocrine Society Clinical Practice Guideline: Pharmacological Management of Osteoporosis in Postmenopausal Women, 2019; Lyles et al., HORIZON Recurrent Fracture Trial, NEJM, 2007",
+  "coment": "Antes de antirreabsortivo potente, como ácido zoledrônico ou denosumabe, vitamina D e cálcio devem estar repostos: com deficiência grave, a inibição súbita da reabsorção óssea remove a fonte de cálcio que o paratormônio vinha mobilizando, e ocorre hipocalcemia, às vezes sintomática. O paratormônio elevado aqui é secundário. Repõe-se colecalciferol e cálcio, com reavaliação em algumas semanas. Após fratura de quadril, o ácido zoledrônico reduziu nova fratura e mortalidade no HORIZON-RFT.",
+  "porAlt": [
+   "Com vitamina D de 9 ng/mL, a infusão pode causar hipocalcemia sintomática.",
+   "Deficiência grave de vitamina D com hiperparatireoidismo secundário: repor e aplicar quando vitamina D e cálcio estiverem adequados.",
+   "Denosumabe também causa hipocalcemia na deficiência de vitamina D.",
+   "Ácido zoledrônico é contraindicado com filtração abaixo de 35 mL/min, o que não é o caso.",
+   "Teriparatida não é a solução para hipocalcemia por deficiência de vitamina D."
+  ]
+ },
+ {
+  "q": "Mulher de 46 anos tem nódulo tireoidiano de 2,2 cm, sólido, hipoecogênico e de margens lisas (ACR TI-RADS 4). TSH normal. A punção aspirativa mostrou atipia de significado indeterminado (Bethesda III), com amostra adequada. Não há linfonodos suspeitos, história de irradiação ou câncer de tireoide na família. Não tem sintomas compressivos. Está preocupada e pergunta se precisa operar agora. Qual é a conduta mais adequada?",
+  "alts": [
+   "Tireoidectomia total imediata",
+   "Alta e nova ultrassonografia em 5 anos",
+   "Iodo radioativo para ablação do nódulo",
+   "Levotiroxina supressiva e punção em 1 ano",
+   "Repetir a punção ou fazer teste molecular"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "The 2023 Bethesda System for Reporting Thyroid Cytopathology, Thyroid, 2023; American Thyroid Association Guidelines for Thyroid Nodules, 2015",
+  "coment": "Na terceira edição do sistema de Bethesda (2023), a categoria III (atipia de significado indeterminado) tem risco de malignidade de cerca de 13 a 30%. A ATA recomenda repetir a punção ou fazer teste molecular; se persistir indeterminado, a decisão entre vigilância e lobectomia diagnóstica considera a ultrassonografia, a preferência da paciente e o risco clínico. Tireoidectomia total não é o passo inicial.",
+  "porAlt": [
+   "Com risco de malignidade de 13 a 30%, cirurgia total imediata é excessiva.",
+   "Resultado indeterminado não permite alta.",
+   "Iodo radioativo não tem papel no nódulo com citologia indeterminada.",
+   "Supressão com levotiroxina não é recomendada.",
+   "Bethesda III: repetir a punção ou usar teste molecular; se persistir, considerar lobectomia diagnóstica."
+  ]
+ },
+ {
+  "q": "Homem de 44 anos com hipertensão paroxística, cefaleia e palpitações tem metanefrinas plasmáticas livres 6 vezes acima do limite e massa adrenal direita de 4,5 cm com densidade de 38 unidades Hounsfield. A cintilografia não mostra doença extra-adrenal. Pressão arterial 168/102 mmHg, frequência 96 bpm, glicemia de jejum de 112 mg/dL. A adrenalectomia laparoscópica está marcada para daqui a 3 semanas. Qual é o preparo pré-operatório adequado?",
+  "alts": [
+   "Bloqueio alfa, sal e líquidos, depois betabloqueador",
+   "Betabloqueador isolado para a frequência",
+   "Propranolol primeiro e doxazosina só na véspera",
+   "Nenhum preparo, pela via laparoscópica",
+   "Anlodipino isolado no dia da cirurgia"
   ],
   "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "Endocrine Society guideline on vitamin D, 2024; Endocrine Society guideline on osteoporosis, revisão 2023",
-  "coment": "A deficiência de vitamina D deve ser corrigida antes e durante o tratamento antirreabsortivo, porque o bisfosfonato e sobretudo o denosumabe podem precipitar hipocalcemia sintomática em paciente com vitamina D baixa e cálcio insuficiente. A reposição usa colecalciferol em esquema diário ou semanal, com monitorização dos níveis séricos e do cálcio. Doses únicas anuais muito elevadas foram associadas a aumento de quedas e fraturas em ensaios clínicos.",
-  "porAlt": [
-   "Correta: repor vitamina D com cálcio adequado antes e durante o antirreabsortivo, monitorando os níveis.",
-   "Iniciar antirreabsortivo com vitamina D baixa pode precipitar hipocalcemia sintomática grave.",
-   "O cálcio isolado sem vitamina D tem absorção prejudicada e não corrige o distúrbio de base.",
-   "Doses únicas anuais muito elevadas foram associadas a aumento de quedas e de fraturas.",
-   "A deficiência interfere diretamente na eficácia e na segurança do tratamento da osteoporose."
-  ]
- },
- {
-  "q": "Paciente com nódulo tireoidiano e citologia Bethesda III, indeterminada. Qual é a conduta?",
-  "alts": [
-   "Indicar tireoidectomia total imediata em todos os pacientes com citologia indeterminada na primeira punção.",
-   "Ignorar completamente o resultado e não realizar qualquer seguimento do nódulo tireoidiano identificado agora.",
-   "Iniciar levotiroxina supressiva como tratamento definitivo do nódulo com citologia indeterminada descrita agora.",
-   "Repetir a punção ou considerar teste molecular, definindo sempre a conduta em avaliação conjunta com o paciente.",
-   "Iniciar iodo radioativo imediatamente em todos os pacientes com citologia indeterminada em nódulo tireoidiano."
-  ],
-  "gab": 3,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "dx",
   "nivel": "r3",
-  "base": "American Thyroid Association Guidelines for Thyroid Nodules and Differentiated Thyroid Cancer, revisão 2023; Bethesda System, 3ª edição, 2023",
-  "coment": "A categoria Bethesda III — atipia de significado indeterminado — tem risco intermediário de malignidade e admite três caminhos: repetir a punção aspirativa, aplicar teste molecular quando disponível, ou realizar lobectomia diagnóstica. A escolha considera o risco ultrassonográfico, o tamanho, a idade, comorbidades e a preferência do paciente. A tireoidectomia total imediata é desproporcional para a maioria, pois grande parte desses nódulos é benigna.",
+  "base": "Endocrine Society Clinical Practice Guideline: Pheochromocytoma and Paraganglioma, 2014",
+  "coment": "A Endocrine Society recomenda preparar todo feocromocitoma funcionante com bloqueio alfa-adrenérgico por 7 a 14 dias, com metas de pressão abaixo de 130/80 mmHg sentado e sistólica acima de 90 mmHg em pé, associado a dieta rica em sal e líquidos para reexpandir o volume e reduzir a hipotensão após a retirada do tumor. Betabloqueador entra apenas depois do bloqueio alfa, para taquicardia. Bloqueador de canal de cálcio é complemento ou alternativa.",
   "porAlt": [
-   "A tireoidectomia total imediata é desproporcional, pois a maioria desses nódulos é benigna.",
-   "Ignorar citologia indeterminada perde o diagnóstico de carcinoma em parte relevante dos casos.",
-   "A terapia supressiva foi abandonada por ineficácia e risco de tireotoxicose iatrogênica.",
-   "Correta: repetir a punção ou usar teste molecular, definindo a conduta em decisão conjunta com o paciente.",
-   "O iodo radioativo trata hipertireoidismo e não tem papel diante de citologia indeterminada."
+   "Bloqueio alfa por 7 a 14 dias, dieta rica em sal e líquidos e betabloqueador só depois, se houver taquicardia.",
+   "Betabloqueador isolado deixa o estímulo alfa sem oposição e pode causar crise hipertensiva.",
+   "Iniciar beta antes do alfa é o erro clássico: vasoconstrição sem oposição.",
+   "A manipulação do tumor libera catecolaminas em qualquer via de acesso.",
+   "Bloqueador de canal pode complementar, mas não é preparo isolado de véspera."
   ]
  },
  {
-  "q": "Paciente com feocromocitoma confirmado será submetido a cirurgia. Qual é o preparo pré-operatório?",
+  "q": "Mulher de 42 anos tem púrpura palpável em pernas há 5 dias, algumas lesões com 24 horas de evolução, artralgia de tornozelos e dor abdominal leve. Iniciou amoxicilina há 10 dias por sinusite. Pressão de 128/80 mmHg. Sem hemoptise ou déficit neurológico. Hemograma com plaquetas normais. Pesa 64 kg e não tem doenças prévias. Urina escura notada ontem. Qual é a investigação inicial mais adequada?",
   "alts": [
-   "Iniciar betabloqueador isolado antes de qualquer bloqueio alfa-adrenérgico no preparo desse paciente agora.",
-   "Operar sem qualquer preparo farmacológico em todos os pacientes com feocromocitoma confirmado nesse contexto.",
-   "Iniciar apenas diurético em dose alta como preparo pré-operatório do paciente com feocromocitoma neste caso.",
-   "Bloqueio alfa-adrenérgico iniciado com antecedência, acrescentando sempre betabloqueador apenas depois do alfa.",
-   "Iniciar apenas restrição hídrica rigorosa como único preparo pré-operatório no paciente com feocromocitoma."
-  ],
-  "gab": 3,
-  "tema": "endocrino",
-  "cenario": "amb",
-  "comp": "prev",
-  "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Pheochromocytoma and Paraganglioma, revisão 2023",
-  "coment": "O preparo pré-operatório do feocromocitoma exige bloqueio alfa-adrenérgico iniciado dez a catorze dias antes, tipicamente com fenoxibenzamina ou doxazosina, associado a dieta rica em sal e hidratação para restaurar o volume plasmático contraído. O betabloqueador só é acrescentado depois do bloqueio alfa estabelecido: usado antes, permite vasoconstrição alfa sem oposição e pode precipitar crise hipertensiva grave, edema pulmonar e óbito.",
-  "porAlt": [
-   "O betabloqueador antes do alfa permite vasoconstrição sem oposição e pode precipitar crise grave.",
-   "Operar sem preparo expõe a crise hipertensiva intraoperatória com risco elevado de morte.",
-   "O diurético agrava a contração de volume já presente e não substitui o bloqueio adrenérgico.",
-   "Correta: bloqueio alfa iniciado com antecedência, com betabloqueador acrescentado somente depois.",
-   "A restrição hídrica é o oposto do indicado: o preparo inclui expansão de volume com sal e líquidos."
-  ]
- },
- {
-  "q": "Paciente com vasculite cutânea de pequenos vasos com púrpura palpável em membros inferiores. Qual é a conduta inicial?",
-  "alts": [
-   "Prescrever apenas corticoide tópico sobre as lesões como tratamento definitivo da vasculite cutânea descrita agora.",
-   "Iniciar antibiótico de amplo espectro empírico como tratamento de escolha da púrpura palpável identificada agora.",
-   "Não realizar qualquer investigação, pois a vasculite cutânea nunca se associa a acometimento sistêmico neste caso.",
-   "Investigar causa secundária e acometimento sistêmico, avaliando sempre função renal e sedimento urinário do paciente.",
-   "Iniciar imunossupressão intensa em todos os casos antes de qualquer investigação da causa subjacente neste caso."
+   "Apenas suspender o antibiótico e observar",
+   "Arteriografia abdominal seletiva",
+   "Biópsia renal imediata",
+   "Biópsia recente com imunofluorescência e urina",
+   "Tomografia de corpo inteiro"
   ],
   "gab": 3,
   "tema": "derma",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "EULAR recommendations for management of vasculitis, 2022; British Association of Dermatologists guideline on cutaneous vasculitis, revisão 2023",
-  "coment": "A púrpura palpável indica vasculite leucocitoclástica de pequenos vasos, que pode ser limitada à pele ou manifestação cutânea de doença sistêmica. A investigação busca causas — infecções, fármacos, doenças autoimunes, crioglobulinemia, neoplasia — e avalia acometimento sistêmico, sobretudo renal, com creatinina e sedimento urinário procurando hematúria dismórfica e proteinúria. O tratamento vai de suporte e retirada do agente causal a imunossupressão nos casos sistêmicos.",
+  "base": "Chapel Hill Consensus Conference Nomenclature of Vasculitides, 2012; EULAR/PRINTO/PRES e SHARE: IgA vasculitis recommendations, 2019",
+  "coment": "Púrpura palpável sugere vasculite de pequenos vasos. A investigação inicial busca confirmar, classificar e procurar acometimento sistêmico: biópsia de lesão recente (menos de 24 a 48 horas) para histologia e imunofluorescência direta (depósitos de IgA sugerem vasculite por IgA, com risco renal maior em adultos), urina tipo 1 com sedimento, creatinina, hemograma e, conforme o quadro, complemento, ANCA, crioglobulinas, hepatites B e C e HIV. Dor abdominal e artralgia reforçam a hipótese de vasculite por IgA. Suspende-se o fármaco suspeito.",
   "porAlt": [
-   "O corticoide tópico não trata a causa nem avalia o acometimento sistêmico potencialmente grave.",
-   "O antibiótico empírico não trata a vasculite, embora infecção possa ser o gatilho a investigar.",
-   "A vasculite cutânea pode ser a manifestação inicial de doença sistêmica com risco renal e pulmonar.",
-   "Correta: investigar causa secundária e acometimento sistêmico, com atenção à função renal e ao sedimento.",
-   "A imunossupressão intensa sem investigar pode ser desnecessária e mascarar a causa subjacente."
+   "Sem investigar, pode-se perder acometimento renal.",
+   "Arteriografia é para vasculite de vasos médios, como poliarterite nodosa.",
+   "Biópsia renal depende de alterações urinárias ou renais.",
+   "Púrpura palpável: biópsia de lesão recente com imunofluorescência e avaliação renal com urina e creatinina.",
+   "Tomografia de corpo inteiro não é passo inicial."
   ]
  },
  {
-  "q": "Paciente com úlcera crônica em maléolo medial, com edema, hiperpigmentação e dermatite de estase. Qual é o tratamento?",
+  "q": "Mulher de 66 anos tem úlcera de 4 cm no maléolo medial esquerdo há 5 meses, rasa, com leito granuloso e exsudato moderado, sobre pele com hiperpigmentação, lipodermatosclerose e edema que piora ao fim do dia. Varizes calibrosas. Pulsos pediosos palpáveis, índice tornozelo-braquial de 0,95. Sem sinais de infecção. Diabetes controlado. Pesa 82 kg e trabalha em pé. Não tem trombose venosa prévia conhecida. Qual é o tratamento mais adequado?",
   "alts": [
-   "Aplicar apenas antibiótico tópico diário sem qualquer terapia compressiva na úlcera venosa crônica descrita.",
-   "Indicar amputação do membro em todos os pacientes com úlcera venosa crônica em maléolo medial neste caso.",
-   "Prescrever apenas repouso absoluto prolongado no leito como tratamento definitivo da úlcera venosa crônica.",
-   "Terapia compressiva com cuidados da ferida, avaliando sempre o índice tornozelo-braquial antes de comprimir.",
-   "Aplicar compressão máxima imediata sem qualquer avaliação prévia da perfusão arterial do membro acometido."
+   "Compressão de 30 a 40 mmHg e curativo",
+   "Antibiótico oral por 14 dias e curativo seco",
+   "Repouso absoluto no leito por 4 semanas",
+   "Revascularização arterial",
+   "Amputação abaixo do joelho"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "derma",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "SVS/AVF Clinical Practice Guidelines on venous leg ulcers, revisão 2023; NICE guidance on leg ulcer management, 2023",
-  "coment": "A úlcera venosa localiza-se tipicamente na região do maléolo medial, com bordas irregulares, exsudato e sinais de insuficiência venosa crônica como edema, hiperpigmentação e lipodermatoesclerose. O tratamento central é a terapia compressiva, que acelera a cicatrização e reduz recorrência, associada a cuidados da ferida e elevação do membro. Antes de comprimir é obrigatório avaliar o índice tornozelo-braquial, pois doença arterial contraindica a compressão.",
+  "base": "ESVS Clinical Practice Guidelines on the Management of Chronic Venous Disease of the Lower Limbs, 2022; Gohel et al., EVRA, NEJM, 2018",
+  "coment": "Úlcera venosa (localização maleolar medial, hiperpigmentação, lipodermatosclerose, edema e varizes) tem como pilar a terapia compressiva, com 30 a 40 mmHg no tornozelo (bandagens multicamadas ou meias), após excluir doença arterial significativa: índice tornozelo-braquial de 0,8 ou mais permite compressão plena. Curativo adequado ao exsudato, elevação periódica e exercícios da panturrilha complementam. A SVS/AVF (2014) e a ESVS (2022) recomendam avaliar ablação do refluxo venoso superficial precocemente, o que acelera a cicatrização e reduz recidiva (EVRA). Sem infecção, antibiótico não é indicado.",
   "porAlt": [
-   "O antibiótico tópico não trata a hipertensão venosa que mantém a úlcera aberta e recidivante.",
-   "A amputação não é conduta na úlcera venosa, que cicatriza com compressão adequada e cuidados.",
-   "O repouso prolongado agrava o descondicionamento e não substitui a terapia compressiva.",
-   "Correta: terapia compressiva com cuidados da ferida, após avaliar o índice tornozelo-braquial.",
-   "Comprimir sem avaliar a perfusão arterial pode causar isquemia e necrose no membro acometido."
+   "Úlcera venosa com índice tornozelo-braquial de 0,95: compressão de 30 a 40 mmHg e curativo.",
+   "Sem infecção, antibiótico não ajuda.",
+   "Repouso absoluto não é recomendado; elevação periódica e exercícios ajudam.",
+   "Não há doença arterial significativa.",
+   "Não há indicação de amputação."
   ]
  },
  {
-  "q": "Paciente internado em estado grave apresenta lesões cutâneas purpúricas em placas com necrose central e uso recente de anticoagulante. Qual é a suspeita?",
+  "q": "Mulher de 48 anos iniciou varfarina 10 mg/dia há 4 dias por trombose venosa profunda, sem heparina associada. Surgem placas dolorosas, eritematosas, que evoluem para púrpura e bolhas hemorrágicas com necrose central em mamas e coxas. INR de 2,4. Plaquetas de 230 mil/mm³, sem uso de heparina prévia. Pesa 70 kg e tem clearance de 90 mL/min. Não tem câncer ativo. A mãe teve trombose aos 40 anos. Qual é a hipótese e a conduta mais adequada?",
   "alts": [
-   "Dermatite de contato alérgica, condição definida por placas purpúricas com necrose central em paciente grave.",
-   "Necrose cutânea associada a anticoagulante, exigindo sempre suspensão do fármaco e avaliação de coagulopatia.",
-   "Psoríase em placas descompensada, quadro caracterizado por lesões purpúricas necróticas após anticoagulação.",
-   "Pitiríase versicolor extensa, condição definida por placas purpúricas necróticas em paciente internado grave.",
-   "Acne fulminante do adulto, quadro caracterizado por placas purpúricas com necrose central após anticoagulante."
+   "Trombocitopenia induzida por heparina; argatrobana",
+   "Calcifilaxia; tiossulfato de sódio",
+   "Necrose por varfarina; suspender e repor proteína C",
+   "Vasculite por IgA; prednisona",
+   "Celulite; cefalexina e manter varfarina"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "derma",
-  "cenario": "uti",
+  "cenario": "enf",
   "comp": "dx",
   "nivel": "r3",
-  "base": "British Association of Dermatologists guidance on cutaneous necrosis, revisão 2023; ISTH guidance on warfarin-induced skin necrosis, 2023",
-  "coment": "A necrose cutânea induzida por varfarina ocorre nos primeiros dias de uso, por queda rápida da proteína C antes dos fatores procoagulantes, com trombose de vênulas dérmicas e placas purpúricas dolorosas que evoluem para necrose, tipicamente em áreas ricas em tecido adiposo. A heparina também causa necrose cutânea, associada à trombocitopenia induzida por heparina. A conduta é suspender o fármaco, investigar coagulopatia e oferecer anticoagulação alternativa.",
+  "base": "Nazarian et al., Warfarin-induced skin necrosis, JAAD, 2009; ACCP Antithrombotic Therapy for VTE Disease, 2012",
+  "coment": "Necrose cutânea induzida por varfarina ocorre nos primeiros 3 a 5 dias, em áreas ricas em gordura (mamas, coxas, nádegas), por queda rápida da proteína C (meia-vida curta) antes dos fatores II e X, criando estado pró-trombótico transitório, especialmente com dose de ataque alta, sem heparina e em deficiência de proteína C. Conduta: suspender a varfarina, dar vitamina K, anticoagular com heparina e repor proteína C (concentrado ou plasma fresco). Previne-se com sobreposição de heparina por pelo menos 5 dias e doses iniciais sem ataque alto. Investiga-se deficiência de proteína C.",
   "porAlt": [
-   "A dermatite de contato é eritematosa e pruriginosa, localizada na área exposta, sem necrose extensa.",
-   "Correta: necrose cutânea associada a anticoagulante, com suspensão do fármaco e avaliação de coagulopatia.",
-   "A psoríase cursa com placas eritematodescamativas e não produz necrose cutânea purpúrica.",
-   "A pitiríase versicolor é infecção fúngica superficial com máculas hipocrômicas, sem necrose.",
-   "A acne fulminante cursa com lesões inflamatórias em face e tronco, sem relação com anticoagulante."
+   "Não houve exposição à heparina e as plaquetas são normais.",
+   "Calcifilaxia ocorre em doença renal crônica avançada.",
+   "Necrose por varfarina nos primeiros dias: suspender, vitamina K, heparina e reposição de proteína C.",
+   "Lesões necróticas em áreas gordurosas no início da varfarina não sugerem vasculite por IgA.",
+   "Não é infecção, e manter varfarina agrava a necrose."
   ]
  },
  {
-  "q": "Paciente com depressão e doença cardiovascular estabelecida precisa de antidepressivo. Qual é a escolha mais segura?",
+  "q": "Homem de 62 anos teve infarto com supradesnivelamento de ST há 6 semanas, tratado com angioplastia. Fração de ejeção de 45%. Usa AAS, clopidogrel, atorvastatina, metoprolol e ramipril. Tem depressão maior moderada (PHQ-9 de 16) há 1 mês, sem ideação suicida. QTc de 440 ms. Sem sangramento prévio. Pesa 82 kg e não tem hiponatremia. Mora com a esposa e voltou a caminhar. Qual é o antidepressivo mais adequado?",
   "alts": [
-   "Antidepressivo tricíclico em dose plena como escolha preferencial no paciente com doença cardiovascular estabelecida.",
-   "Não tratar a depressão, pois o tratamento é contraindicado em pacientes com doença cardiovascular conhecida agora.",
-   "Benzodiazepínico contínuo em monoterapia como substituto seguro do antidepressivo nesse perfil de paciente agora.",
-   "Inibidor seletivo da recaptação de serotonina, preferido sempre pelo perfil cardiovascular mais favorável do grupo.",
-   "Antipsicótico típico em dose alta como escolha preferencial para tratar a depressão no paciente cardiopata agora."
+   "Amitriptilina 75 mg",
+   "Citalopram 40 mg",
+   "Sertralina 50 mg",
+   "Venlafaxina 300 mg",
+   "Bupropiona 300 mg"
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "AHA scientific statement on depression and coronary heart disease, revisão 2023; APA Practice Guideline for Major Depressive Disorder, 2023",
-  "coment": "A depressão é comum após eventos cardiovasculares e associa-se a pior adesão, pior qualidade de vida e maior mortalidade, o que torna o tratamento necessário. Os inibidores seletivos da recaptação de serotonina, sobretudo sertralina e escitalopram, têm o melhor perfil de segurança cardiovascular e foram estudados nesse contexto. Tricíclicos são evitados por efeitos anticolinérgicos, hipotensão postural, prolongamento do QT e risco arrítmico.",
+  "base": "Glassman et al., SADHART, JAMA, 2002; AHA Science Advisory: Depression and Coronary Heart Disease, 2008",
+  "coment": "Depressão após infarto é frequente e piora o prognóstico cardiovascular. Sertralina é a escolha mais estudada, segura e eficaz em síndrome coronariana aguda (SADHART), com pouco efeito em QTc, pressão e frequência cardíaca; citalopram também foi estudado (CREATE), mas acima de 20 a 40 mg prolonga QTc. Tricíclicos são contraindicados após infarto (arritmogênicos, hipotensão). Venlafaxina em dose alta eleva pressão. Com dupla antiagregação, orienta-se sobre maior risco de sangramento com ISRS, considerando inibidor de bomba. Psicoterapia e reabilitação cardíaca complementam.",
   "porAlt": [
-   "Os tricíclicos prolongam o QT, causam hipotensão postural e aumentam o risco arrítmico.",
-   "A depressão piora a adesão e o prognóstico cardiovascular, e o tratamento é necessário e seguro.",
-   "O benzodiazepínico não trata depressão e traz risco de dependência sem benefício antidepressivo.",
-   "Correta: inibidor seletivo da recaptação de serotonina, com melhor perfil de segurança cardiovascular.",
-   "O antipsicótico típico não é tratamento da depressão e prolonga o intervalo QT do paciente."
+   "Tricíclico após infarto é arritmogênico.",
+   "Citalopram em dose alta prolonga QTc.",
+   "Depressão pós-infarto: sertralina, a mais estudada e segura (SADHART).",
+   "Venlafaxina em dose alta eleva a pressão.",
+   "Bupropiona tem menos dados nesse cenário e eleva pressão."
   ]
  },
  {
-  "q": "Paciente com sintomas depressivos e hipotireoidismo recém-diagnosticado, ainda sem tratamento. Qual é a conduta?",
+  "q": "Mulher de 38 anos tem humor deprimido, fadiga, sonolência, lentificação, ganho de 5 kg, constipação e pele seca há 4 meses. PHQ-9 de 14, sem ideação suicida. TSH de 42 mUI/L, T4 livre de 0,4 ng/dL, anti-TPO positivo. Sem história psiquiátrica prévia. Não está grávida. Sem cardiopatia. Pesa 68 kg, trabalha como bancária e mora com o marido. Colesterol total de 280 mg/dL. Qual é a conduta mais adequada?",
   "alts": [
-   "Iniciar antidepressivo isolado sem qualquer tratamento do hipotireoidismo recém-diagnosticado no paciente agora.",
-   "Não tratar nenhuma das duas condições até que o paciente apresente sintomas graves de qualquer uma delas agora.",
-   "Iniciar antipsicótico em dose alta como tratamento inicial dos sintomas depressivos no paciente hipotireóideo agora.",
-   "Tratar o hipotireoidismo e reavaliar os sintomas depois, mantendo sempre avaliação do risco de suicídio em paralelo.",
-   "Suspender qualquer investigação e apenas observar o paciente por doze meses antes de qualquer tratamento agora."
+   "Levotiroxina e reavaliar o humor",
+   "Antidepressivo e tireoide em 1 ano",
+   "Lítio para a depressão",
+   "Internação psiquiátrica",
+   "Liotironina isolada em dose alta"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "APA Practice Guideline for Major Depressive Disorder, 2023; American Thyroid Association guidelines for hypothyroidism, revisão 2023",
-  "coment": "O hipotireoidismo pode causar ou agravar sintomas depressivos, e por isso é uma das causas orgânicas obrigatoriamente afastadas na avaliação de depressão. Diante de hipotireoidismo recém-diagnosticado, trata-se a disfunção tireoidiana e reavaliam-se os sintomas após a normalização hormonal, que pode levar semanas. Isso não significa deixar o paciente sem cuidado: a avaliação de risco de suicídio e o suporte permanecem, e sintomas graves exigem tratamento simultâneo.",
+  "base": "ATA Guidelines for the Treatment of Hypothyroidism, 2014; APA Practice Guideline for Major Depressive Disorder, 2010",
+  "coment": "Hipotireoidismo primário franco (TSH alto e T4 livre baixo) por tireoidite de Hashimoto causa sintomas depressivos, fadiga e lentificação que costumam melhorar com eutireoidismo. A conduta é levotiroxina (dose plena de cerca de 1,6 µg/kg em jovem sem cardiopatia) e reavaliação do humor após normalizar TSH, em 6 a 8 semanas. Se os sintomas depressivos persistirem com eutireoidismo, trata-se a depressão. Sem ideação suicida ou gravidade, não há indicação de internação. Lítio pode piorar o hipotireoidismo.",
   "porAlt": [
-   "Tratar apenas com antidepressivo deixa ativa uma causa orgânica reversível dos sintomas.",
-   "Não tratar nenhuma das condições deixa o paciente sem cuidado diante de duas condições tratáveis.",
-   "O antipsicótico não é tratamento inicial da depressão e não corrige a disfunção tireoidiana.",
-   "Correta: tratar o hipotireoidismo e reavaliar os sintomas, mantendo a avaliação de risco em paralelo.",
-   "Observar por doze meses sem tratar prolonga o sofrimento e o risco associado ao quadro."
+   "Hipotireoidismo franco com sintomas depressivos: levotiroxina e reavaliar o humor após eutireoidismo.",
+   "Tratar só a depressão ignora a causa orgânica tratável.",
+   "Lítio pode agravar o hipotireoidismo.",
+   "Não há gravidade que indique internação.",
+   "Liotironina isolada não é o tratamento de reposição padrão."
   ]
  },
  {
-  "q": "Paciente com quadro psicótico agudo apresenta febre, rigidez e uso recente de substância estimulante. Qual é a conduta inicial?",
+  "q": "Homem de 22 anos chega agitado, paranoide e com alucinações após usar cocaína em grande quantidade em festa há 4 horas. Temperatura de 40,2 °C, frequência de 146 bpm, pressão de 192/110 mmHg, midríase, sudorese profusa, CPK de 4.500 U/L. Sem rigidez em cano de chumbo, sem uso de antipsicóticos ou serotoninérgicos. Glicemia normal. Pesa 75 kg e não tem doenças conhecidas. Qual é a conduta inicial mais adequada?",
   "alts": [
-   "Assumir transtorno psicótico primário e iniciar antipsicótico sem qualquer investigação clínica complementar agora.",
-   "Encaminhar diretamente para internação psiquiátrica sem qualquer avaliação clínica ou laboratorial prévia neste caso.",
-   "Prescrever apenas benzodiazepínico e liberar o paciente sem qualquer investigação de causa orgânica associada agora.",
-   "Investigar causa orgânica e intoxicação antes de assumir causa psiquiátrica, oferecendo sempre suporte clínico imediato.",
-   "Aguardar a resolução espontânea do quadro por vinte e quatro horas antes de qualquer investigação clínica neste caso."
+   "Haloperidol intramuscular como primeira medida",
+   "Metoprolol endovenoso para a taquicardia",
+   "Contenção mecânica isolada sem sedação",
+   "Benzodiazepínico, resfriamento e hidratação",
+   "Dantroleno como primeira linha"
   ],
   "gab": 3,
   "tema": "psiq",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "AAEP Project BETA guidelines on medical evaluation of agitation, revisão 2022; APA guideline on schizophrenia, 2020",
-  "coment": "Psicose de início agudo com febre, rigidez e uso de substância exige investigação clínica antes de assumir causa psiquiátrica primária: intoxicação e abstinência, infecção do sistema nervoso central, encefalite autoimune, distúrbio metabólico e eletrolítico, hipoglicemia, hipertireoidismo, síndrome serotoninérgica e síndrome neuroléptica maligna. Sinais de alarme são início súbito, idade atípica, febre, alteração de consciência, sinais focais e alterações vitais.",
+  "base": "Richards et al., Treatment of cocaine cardiovascular toxicity: a systematic review, Clinical Toxicology, 2016; AHA Scientific Statement: Management of Cocaine-Associated Chest Pain, 2008",
+  "coment": "Toxicidade simpatomimética grave por cocaína com hipertermia, agitação e rabdomiólise é emergência: benzodiazepínicos endovenosos em doses repetidas são a base (reduzem agitação, taquicardia, hipertensão e produção de calor), com resfriamento ativo e hidratação para rabdomiólise. Antipsicóticos reduzem o limiar convulsivo e prejudicam a termorregulação, ficando como segunda linha. Betabloqueador isolado pode causar estimulação alfa sem oposição. Contenção sem sedação aumenta hipertermia e acidose. Após estabilizar, investigam-se outras causas orgânicas.",
   "porAlt": [
-   "Assumir causa psiquiátrica primária diante de febre e rigidez pode perder condição clínica grave.",
-   "A internação psiquiátrica sem avaliação clínica deixa sem diagnóstico uma emergência médica.",
-   "Liberar sem investigar febre e rigidez arrisca desfecho fatal por causa orgânica não identificada.",
-   "Correta: investigar causa orgânica e intoxicação antes de assumir causa psiquiátrica, com suporte imediato.",
-   "Aguardar vinte e quatro horas com febre e rigidez permite progressão de uma condição potencialmente letal."
+   "Antipsicótico reduz limiar convulsivo e piora termorregulação.",
+   "Betabloqueador isolado arrisca estímulo alfa sem oposição.",
+   "Contenção sem sedação agrava hipertermia e rabdomiólise.",
+   "Intoxicação simpatomimética com hipertermia: benzodiazepínico, resfriamento e hidratação.",
+   "Dantroleno não é tratamento de primeira linha nessa intoxicação."
   ]
  }
 ]

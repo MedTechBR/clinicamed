@@ -1,98 +1,98 @@
 [
  {
-  "q": "Mulher de 24 anos com diabetes tipo 1 chega com vômitos, dor abdominal e respiração profunda. A glicemia é de 480 mg/dL, pH 7,12, bicarbonato 8 mEq/L, cetonemia positiva e potássio sérico de 3,1 mEq/L. Qual é a conduta inicial correta quanto à insulina?",
+  "q": "Mulher de 24 anos com diabetes tipo 1 chega com vômitos há 2 dias, dor abdominal e respiração profunda. Pressão arterial 98/60 mmHg, frequência 118 bpm. Glicemia 480 mg/dL, pH 7,12, bicarbonato 8 mEq/L, ânion gap 26 mEq/L, beta-hidroxibutirato 6,2 mmol/L, sódio 131 mEq/L, potássio 3,1 mEq/L, creatinina 1,3 mg/dL. Eletrocardiograma com ondas U. Já iniciou salina isotônica. Qual é a conduta em relação à insulina?",
   "alts": [
-   "Iniciar insulina em bolus alto imediatamente, já que a acidose é grave e exige correção mais rápida.",
-   "Iniciar insulina subcutânea de ação lenta como medida isolada, dispensando qualquer via endovenosa.",
-   "Adiar a insulina e repor potássio primeiro, porque abaixo de 3,3 mEq/L a insulina agrava a hipocalemia.",
-   "Iniciar insulina apenas quando a glicemia ultrapassar 600 mg/dL, patamar que define a sua indicação.",
-   "Corrigir a acidose com bicarbonato antes da insulina, porque o pH abaixo de 7,2 exige essa correção."
+   "Insulina regular 0,1 U/kg em bolus e infusão contínua",
+   "Insulina ultrarrápida subcutânea a cada 2 horas",
+   "Insulina e potássio infundidos juntos, sem esperar",
+   "Bicarbonato antes da insulina pelo pH de 7,12",
+   "Adiar a insulina e repor potássio primeiro"
   ],
-  "gab": 2,
+  "gab": 4,
   "tema": "endocrino",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "tit",
-  "base": "American Diabetes Association, Standards of Care 2026, e consenso ADA/EASD 2024 sobre crises hiperglicêmicas",
-  "coment": "Na cetoacidose diabética, a insulina desloca potássio para o intracelular e pode precipitar arritmia fatal se o potássio inicial já estiver baixo. Por isso a regra: com potássio abaixo de 3,3 mEq/L, repõe-se potássio antes de iniciar a insulina, mantendo a hidratação. Com potássio entre 3,3 e 5,2, inicia-se insulina e repõe-se potássio junto. Acima de 5,2, inicia-se a insulina sem reposição, monitorando. O bicarbonato não é recomendado de rotina, ficando reservado a pH muito baixo, e o tratamento essencial é volume, insulina e correção eletrolítica.",
+  "base": "Hyperglycemic crises in adults with diabetes: a consensus report (ADA, EASD, JBDS, AACE, DTS), Diabetes Care, 2024",
+  "coment": "Apesar do déficit corporal total de potássio, na cetoacidose o potássio sérico costuma vir normal ou alto pela acidose e pela falta de insulina. Quando já vem baixo, a insulina o desloca para dentro das células e pode precipitar arritmia e fraqueza respiratória. O consenso de 2024 recomenda adiar a insulina e repor potássio enquanto ele estiver abaixo de 3,5 mEq/L, mantendo a hidratação; entre 3,5 e 5,0 mEq/L, repõe-se junto com a insulina.",
   "porAlt": [
-   "Bolus alto de insulina com potássio de 3,1 mEq/L pode precipitar arritmia grave; a hipocalemia precede qualquer insulina.",
-   "A cetoacidose exige insulina por via endovenosa em infusão contínua, com titulação, e não apenas insulina basal.",
-   "Correta: com potássio abaixo de 3,3 mEq/L repõe-se potássio antes da insulina, que agravaria a hipocalemia e o risco de arritmia.",
-   "O diagnóstico não depende do valor da glicemia: existe cetoacidose euglicêmica, sobretudo em uso de inibidor de SGLT2.",
-   "O bicarbonato não é rotina e não precede a insulina; a acidose se resolve com volume, insulina e correção de eletrólitos."
+   "Insulina com potássio de 3,1 mEq/L desloca potássio para a célula e pode causar arritmia grave.",
+   "Via subcutânea não é adequada na cetoacidose grave com hipotensão, e o problema do potássio continua.",
+   "Iniciar insulina com hipocalemia e ondas U arrisca arritmia, mesmo com reposição simultânea.",
+   "Bicarbonato não é indicado com pH acima de 7,0 e piora a hipocalemia.",
+   "Potássio abaixo de 3,5 mEq/L: repor antes e só então iniciar a insulina."
   ]
  },
  {
-  "q": "Homem de 68 anos, diabético tipo 2 em uso de dapagliflozina, chega com náusea, dor abdominal e respiração acidótica. A glicemia é de 190 mg/dL, pH 7,18, bicarbonato de 11 mEq/L e cetonemia fortemente positiva. Qual é a interpretação correta?",
+  "q": "Homem de 68 anos com diabetes tipo 2 em uso de metformina e dapagliflozina 10 mg/dia fez colecistectomia há 3 dias, com jejum prolongado no pós-operatório. Chega com náusea, dor abdominal e taquipneia. Glicemia 190 mg/dL, pH 7,18, bicarbonato 11 mEq/L, ânion gap 24 mEq/L, beta-hidroxibutirato 5,4 mmol/L, lactato 1,6 mmol/L, creatinina 1,1 mg/dL, lipase normal. Não consome álcool. Qual é a interpretação e a conduta?",
   "alts": [
-   "Acidose láctica pela metformina, hipótese confirmada apenas pela glicemia próxima do valor normal.",
-   "Cetoacidose euglicêmica pelo inibidor de SGLT2, que deve ser suspenso e tratada como cetoacidose.",
-   "Quadro sem relação com o diabetes, uma vez que a glicemia abaixo de 250 mg/dL exclui cetoacidose.",
-   "Cetose de jejum fisiológica, condição benigna que não exige tratamento nem suspensão de fármacos.",
-   "Estado hiperglicêmico hiperosmolar, definido pela cetonemia positiva com acidose metabólica grave."
+   "Acidose lática por metformina; hemodiálise",
+   "Cetose de jejum; dieta e observação",
+   "Cetoacidose euglicêmica; insulina com glicose",
+   "Acidose por pancreatite; hidratação isolada",
+   "Cetoacidose alcoólica; tiamina e glicose"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "endocrino",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "r3",
-  "base": "American Diabetes Association, Standards of Care 2026 — cetoacidose euglicêmica em uso de inibidor de SGLT2",
-  "coment": "A cetoacidose euglicêmica é armadilha diagnóstica clássica em usuários de inibidores de SGLT2: a glicosúria induzida pela droga mantém a glicemia relativamente baixa enquanto a cetogênese avança, de modo que o médico que exige glicemia acima de 250 mg/dL para pensar em cetoacidose deixa o diagnóstico passar. O tratamento é o mesmo — volume, insulina endovenosa com glicose associada para permitir a infusão de insulina sem hipoglicemia, e correção eletrolítica —, somado à suspensão do inibidor de SGLT2. O estado hiperosmolar, por definição, cursa com glicemia muito alta e sem cetoacidose significativa.",
+  "base": "Hyperglycemic crises in adults with diabetes: a consensus report, Diabetes Care, 2024; ADA Standards of Care in Diabetes, 2025",
+  "coment": "Inibidores de SGLT2 podem causar cetoacidose com glicemia abaixo de 250 mg/dL, sobretudo com jejum, cirurgia, doença aguda ou redução de insulina. O diagnóstico depende de medir cetonas e gasometria mesmo com glicemia pouco elevada. O tratamento é o da cetoacidose: suspender o inibidor, hidratar e dar insulina endovenosa com dextrose desde o início. A ADA recomenda suspender o inibidor 3 dias antes de cirurgias programadas (4 dias para a ertugliflozina).",
   "porAlt": [
-   "A acidose láctica pela metformina cursa com lactato elevado e sem cetonemia fortemente positiva como neste caso.",
-   "Correta: é cetoacidose euglicêmica pelo inibidor de SGLT2, que deve ser suspenso, com tratamento igual ao da cetoacidose clássica.",
-   "Exigir glicemia acima de 250 mg/dL para diagnosticar cetoacidose é exatamente o erro que essa apresentação revela.",
-   "A cetose de jejum não produz acidose metabólica com bicarbonato de 11 mEq/L nem esse grau de sintomas.",
-   "O estado hiperosmolar cursa com glicemia muito elevada, osmolaridade alta e sem cetoacidose significativa."
+   "Lactato normal afasta acidose lática.",
+   "Cetose de jejum não produz pH de 7,18 nem bicarbonato de 11 mEq/L.",
+   "Inibidor de SGLT2 com jejum e cirurgia: cetoacidose com glicemia abaixo de 250; suspender o fármaco e tratar com insulina e dextrose.",
+   "Lipase normal afasta pancreatite, e hidratação isolada não interrompe a cetogênese.",
+   "Não há consumo de álcool; o desencadeante é o inibidor de SGLT2."
   ]
  },
  {
-  "q": "Mulher de 52 anos tem TSH de 0,01 mUI/L, T4 livre elevado, bócio difuso, exoftalmia e tremor. A cintilografia mostra captação difusa e aumentada. Qual é o diagnóstico e a primeira linha de tratamento no Brasil?",
+  "q": "Mulher de 31 anos com doença de Graves em uso de metimazol 10 mg/dia descobre gestação de 6 semanas. Está clinicamente eutireoidiana, com T4 livre no limite superior da normalidade e TSH de 0,05 mUI/L. Anticorpo antirreceptor de TSH (TRAb) 3 vezes acima do limite superior. Não tem hepatopatia. O bócio é pequeno e não há sintomas compressivos. Pesa 62 kg, frequência cardíaca de 84 bpm e está sem oftalmopatia ativa. Pergunta se pode continuar o comprimido que já toma, pois está bem. Qual é a conduta em relação ao antitireoidiano?",
   "alts": [
-   "Tireoidite subaguda, tratada apenas com anti-inflamatório e observação por algumas semanas.",
-   "Bócio multinodular tóxico, cuja cirurgia imediata é o único tratamento definitivo possível.",
-   "Doença de Graves, com metimazol como primeira escolha na maioria dos pacientes adultos.",
-   "Hipotireoidismo primário, tratado com levotiroxina em dose plena ajustada por peso corporal.",
-   "Adenoma hipofisário produtor de TSH, hipótese sustentada pelo valor suprimido do hormônio."
+   "Trocar para propiltiouracil até cerca de 16 semanas",
+   "Manter metimazol na mesma dose toda a gestação",
+   "Suspender o antitireoidiano pelo risco fetal",
+   "Iodo radioativo após o primeiro trimestre",
+   "Aumentar o metimazol para normalizar o TSH"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "endocrino",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "American Thyroid Association, 2016 — Guidelines for Diagnosis and Management of Hyperthyroidism; Cecil, 26ª edição, 2022",
-  "coment": "A combinação de tireotoxicidade, bócio difuso, oftalmopatia e captação difusa aumentada define doença de Graves. As três opções de tratamento são droga antitireoidiana, iodo radioativo e cirurgia; no Brasil, o metimazol é a escolha inicial na maioria dos adultos, por eficácia e por permitir remissão em parte dos pacientes. O propiltiouracil fica reservado ao primeiro trimestre da gestação e à crise tireotóxica. O betabloqueador alivia sintomas adrenérgicos enquanto a droga age. A oftalmopatia moderada a grave pesa contra o iodo radioativo, que pode agravá-la.",
+  "base": "American Thyroid Association Guidelines for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum, 2017",
+  "coment": "Metimazol no primeiro trimestre está associado a embriopatia (aplasia cútis, atresia de coanas e de esôfago). A ATA (2017) recomenda propiltiouracil no primeiro trimestre, considerando voltar ao metimazol depois pelo risco de hepatotoxicidade do propiltiouracil. O alvo é T4 livre no limite superior da normalidade com a menor dose possível, porque os antitireoidianos atravessam a placenta. TRAb elevado exige vigilância de hipertireoidismo fetal.",
   "porAlt": [
-   "A tireoidite subaguda cursa com captação baixa à cintilografia e dor cervical, não com captação difusa aumentada.",
-   "O bócio multinodular tóxico mostra captação heterogênea em nódulos, e não o padrão difuso descrito no exame.",
-   "Correta: o quadro é doença de Graves, e o metimazol é a primeira escolha para a maioria dos adultos no país.",
-   "O TSH suprimido com T4 livre elevado indica hipertireoidismo, o oposto de hipotireoidismo primário.",
-   "No adenoma produtor de TSH o hormônio estaria normal ou elevado, e não suprimido como neste caso."
+   "Metimazol no primeiro trimestre associa-se a embriopatia; propiltiouracil é preferido até cerca de 16 semanas.",
+   "Manter metimazol na organogênese expõe a malformações.",
+   "Com TRAb alto, suspender arrisca recidiva materna e hipertireoidismo fetal.",
+   "Iodo radioativo é contraindicado na gestação.",
+   "O alvo é T4 livre no limite superior com a menor dose; TSH suprimido é aceitável."
   ]
  },
  {
-  "q": "Homem de 74 anos, diabético tipo 2, é trazido com desidratação grave e rebaixamento de consciência. A glicemia é de 890 mg/dL, osmolaridade de 340 mOsm/kg, pH de 7,34, bicarbonato de 20 mEq/L e cetonemia fracamente positiva. Qual é a prioridade do tratamento inicial?",
+  "q": "Homem de 74 anos com diabetes tipo 2 é trazido com 5 dias de poliúria, pouca ingestão de líquidos e sonolência progressiva. Pressão arterial 96/58 mmHg, frequência 112 bpm, mucosas secas. Glicemia 890 mg/dL, sódio 142 mEq/L, potássio 4,6 mEq/L, ureia 110 mg/dL, creatinina 2,2 mg/dL, pH 7,34, bicarbonato 20 mEq/L, beta-hidroxibutirato 0,9 mmol/L e osmolalidade efetiva calculada de 333 mOsm/kg. Qual é a estratégia inicial?",
   "alts": [
-   "Insulina em bolus alto antes de qualquer volume, para reduzir a glicemia com a máxima rapidez.",
-   "Bicarbonato endovenoso imediato, indicado já pela osmolaridade muito elevada que ele apresenta.",
-   "Solução glicosada isotônica de início, para prevenir a hipoglicemia que costuma seguir o quadro.",
-   "Reposição volêmica vigorosa, pilar do tratamento desse quadro por causa do déficit hídrico enorme.",
-   "Restrição hídrica rigorosa, porque a osmolaridade elevada reflete excesso de água corporal total."
+   "Insulina 0,1 U/kg/h na chegada, antes dos fluidos",
+   "Salina isotônica primeiro, com insulina em dose baixa depois",
+   "Salina a 0,45% em bolus para baixar o sódio",
+   "Bicarbonato de sódio e insulina em bolus",
+   "Restrição hídrica pelo risco de edema cerebral"
   ],
-  "gab": 3,
+  "gab": 1,
   "tema": "endocrino",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "American Diabetes Association, Standards of Care 2026 — estado hiperglicêmico hiperosmolar",
-  "coment": "O estado hiperglicêmico hiperosmolar difere da cetoacidose por cursar com glicemia muito mais alta, osmolaridade elevada, acidose discreta ou ausente e cetonemia mínima, porque resta insulina suficiente para conter a cetogênese. O déficit de água costuma ser de 8 a 10 litros, e a reposição volêmica é o pilar do tratamento — corrige perfusão, reduz a glicemia por diluição e por melhora da filtração, e antecede a insulina, que só entra depois de iniciada a hidratação e com potássio conhecido. A mortalidade é maior que a da cetoacidose, sobretudo no idoso.",
+  "base": "JBDS-IP Guideline: The management of the hyperosmolar hyperglycaemic state in adults, 2022; Hyperglycemic crises in adults with diabetes: a consensus report, Diabetes Care, 2024",
+  "coment": "No estado hiperglicêmico hiperosmolar, o déficit de água passa de 8 a 12 litros e a reposição de volume, por si, reduz a glicemia. A JBDS e o consenso de 2024 orientam começar com salina isotônica e usar insulina em dose baixa (cerca de 0,05 U/kg/h) quando a glicemia deixar de cair só com fluido, a menos que haja cetonemia significativa. A queda da osmolalidade deve ser gradual, de 3 a 8 mOsm/kg/h, para evitar mielinólise e edema cerebral.",
   "porAlt": [
-   "Insulina antes do volume agrava a hipovolemia ao deslocar água para o intracelular, com risco de colapso circulatório.",
-   "O bicarbonato não tem indicação aqui: a acidose é discreta e o problema central é hiperosmolaridade com desidratação.",
-   "Solução glicosada de início agravaria a hiperglicemia; ela entra depois, quando a glicemia cair a determinado patamar.",
-   "Correta: o déficit hídrico é enorme e a reposição volêmica é o pilar inicial, antes e junto de qualquer insulina.",
-   "A osmolaridade elevada reflete falta de água, não excesso; restringir líquido pioraria gravemente a perfusão."
+   "Insulina antes do volume desloca água para as células e pode agravar a hipotensão.",
+   "Estado hiperosmolar: fluido é o pilar, e a insulina em dose baixa entra quando a glicemia para de cair.",
+   "Solução hipotônica em bolus derruba a osmolalidade rápido demais.",
+   "Não há acidose que justifique bicarbonato.",
+   "O déficit de água é grande; restringir agrava choque e lesão renal."
   ]
  }
 ]

@@ -14,7 +14,7 @@
   "comp": "tto",
   "nivel": "r2",
   "base": "ESC Guidelines for the management of atrial fibrillation (AF-CARE), 2024; ACC/AHA/ACCP/HRS atrial fibrillation guideline, 2023",
-  "coment": "Fibrilação atrial associada a estenose mitral moderada a grave (ou a prótese valvar mecânica) é a chamada FA valvar, e nela a anticoagulação é feita com antagonista da vitamina K — varfarina com INR alvo entre 2 e 3 —, não com anticoagulante oral direto. Os ensaios que aprovaram os DOACs excluíram esse grupo, e o estudo INVICTUS, que testou rivaroxabana contra varfarina justamente em doença reumática mitral, mostrou desfecho pior com o DOAC. A paciente ainda soma um evento cerebrovascular prévio, o que torna a anticoagulação plena obrigatória.",
+  "coment": "Fibrilação atrial associada a estenose mitral moderada a grave (ou a prótese valvar mecânica) é a chamada FA valvar, e nela a anticoagulação é feita com antagonista da vitamina K, varfarina com INR alvo entre 2 e 3, não com anticoagulante oral direto. Os ensaios que aprovaram os DOACs excluíram esse grupo, e o estudo INVICTUS, que testou rivaroxabana contra varfarina justamente em doença reumática mitral, mostrou desfecho pior com o DOAC. A paciente ainda soma um evento cerebrovascular prévio, o que torna a anticoagulação plena obrigatória.",
   "porAlt": [
    "A rivaroxabana é anticoagulante oral direto, e o INVICTUS mostrou desfecho cardiovascular pior que a varfarina na doença mitral reumática.",
    "Antiagregação com aspirina não previne cardioembolia na fibrilação atrial e foi abandonada como alternativa à anticoagulação.",
@@ -41,10 +41,10 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025; ESC guidelines for the management of elevated blood pressure and hypertension, 2024",
+  "base": "Diretriz Brasileira de Hipertensão Arterial: SBC/SBH/SBN, 2025; ESC guidelines for the management of elevated blood pressure and hypertension, 2024",
   "coment": "A combinação de edema agudo de pulmão hipertensivo súbito (flash pulmonary edema), hipertensão que se torna refratária, lesão renal aguda desencadeada por bloqueador do receptor de angiotensina e sopro abdominal aponta para estenose de artéria renal aterosclerótica. A queda da filtração após bloqueio do sistema renina-angiotensina ocorre porque a angiotensina II mantinha a pressão de filtração no glomérulo pós-estenótico. O paciente tem aterosclerose difusa documentada nas carótidas, o que reforça a etiologia; o rastreio se faz com dúplex de artérias renais, angiotomografia ou angiorressonância.",
   "porAlt": [
-   "Correta: estenose de artéria renal — edema pulmonar súbito, hipertensão refratária, lesão renal após BRA e sopro abdominal em paciente com aterosclerose difusa.",
+   "Correta: estenose de artéria renal. Edema pulmonar súbito, hipertensão refratária, lesão renal após BRA e sopro abdominal em paciente com aterosclerose difusa.",
    "A doença de Kawasaki é vasculite da infância com acometimento coronariano, incompatível com esta apresentação.",
    "A arterite de Takayasu acomete tipicamente mulheres jovens, com claudicação de membros, assimetria de pulsos e sopros em grandes vasos.",
    "O hiperaldosteronismo primário cursa com hipertensão e hipocalemia, mas não explica a queda da função renal após o bloqueador nem o sopro abdominal.",
@@ -69,11 +69,11 @@
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, botulismo, 2024; CDC clinical guidelines for botulism, 2021",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, botulismo, 2024; CDC clinical guidelines for botulism, 2021",
   "coment": "O quadro é de botulismo: pródromo gastrointestinal seguido de acometimento de pares cranianos (ptose, diplopia, disfagia, disartria, visão turva) e paralisia flácida simétrica e descendente, com disautonomia (boca seca, retenção urinária, hipotensão sem taquicardia compensatória), sensibilidade preservada e nível de consciência mantido durante toda a evolução. A insuficiência respiratória é a causa de morte, e a conduta é suporte ventilatório precoce, antitoxina botulínica o mais cedo possível e notificação imediata, por se tratar de agravo de vigilância e de possível surto alimentar.",
   "porAlt": [
    "A meningite bacteriana cursa com febre, rigidez de nuca e rebaixamento de consciência, ausentes neste caso.",
-   "Correta: botulismo — paralisia flácida descendente com pares cranianos, disautonomia e consciência preservada após pródromo gastrointestinal.",
+   "Correta: botulismo. Paralisia flácida descendente com pares cranianos, disautonomia e consciência preservada após pródromo gastrointestinal.",
    "A síndrome de Guillain-Barré causa paralisia tipicamente ascendente com arreflexia, frequentemente com parestesias, e sem a disautonomia colinérgica de boca seca, midríase e retenção que marca o botulismo.",
    "A doença de Lyme cursa com eritema migratório, artrite e paralisia facial, e não com paralisia descendente aguda.",
    "Na raiva há encefalite com agitação, hidrofobia e alteração do nível de consciência, o que não ocorreu aqui."
@@ -97,13 +97,13 @@
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, leptospirose, 2024; OPAS/OMS, diretrizes de leptospirose humana",
-  "coment": "A tríade de icterícia rubínica, lesão renal aguda e hemorragia pulmonar define a síndrome de Weil, forma grave da leptospirose. Reforçam o diagnóstico a mialgia intensa em panturrilhas, a hemorragia conjuntival, a elevação de CPK, a plaquetopenia e a lesão renal com perda de capacidade de concentração urinária, que caracteristicamente cursa com hipocalemia. O tratamento da forma grave é penicilina cristalina ou ceftriaxona, iniciado sem aguardar sorologia, associado a suporte intensivo, diálise precoce e ventilação protetora — a hemorragia alveolar é a principal causa de óbito.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, leptospirose, 2024; OPAS/OMS, diretrizes de leptospirose humana",
+  "coment": "A tríade de icterícia rubínica, lesão renal aguda e hemorragia pulmonar define a síndrome de Weil, forma grave da leptospirose. Reforçam o diagnóstico a mialgia intensa em panturrilhas, a hemorragia conjuntival, a elevação de CPK, a plaquetopenia e a lesão renal com perda de capacidade de concentração urinária, que caracteristicamente cursa com hipocalemia. O tratamento da forma grave é penicilina cristalina ou ceftriaxona, iniciado sem aguardar sorologia, associado a suporte intensivo, diálise precoce e ventilação protetora. A hemorragia alveolar é a principal causa de óbito.",
   "porAlt": [
    "A febre maculosa cursa com exantema que se inicia em punhos e tornozelos e evolui para palmas e plantas, e o tratamento é doxiciclina imediata.",
    "A endocardite infecciosa cursa com febre arrastada, sopro novo e fenômenos embólicos, sem essa evolução hepatorrenal e pulmonar em dias.",
    "A dengue grave cursa com extravasamento plasmático e choque no período crítico, sem a icterícia rubínica e a lesão renal com hipocalemia descritas.",
-   "Correta: leptospirose com síndrome de Weil — icterícia rubínica, lesão renal aguda e hemorragia pulmonar após quadro febril com mialgia em panturrilhas.",
+   "Correta: leptospirose com síndrome de Weil. Icterícia rubínica, lesão renal aguda e hemorragia pulmonar após quadro febril com mialgia em panturrilhas.",
    "Infecção urinária não explica icterícia, hemorragia pulmonar e mialgia de panturrilhas."
   ],
   "fonte": {
@@ -126,10 +126,10 @@
   "comp": "dx",
   "nivel": "r1",
   "base": "Global Initiative for Asthma (GINA), 2026; Diretrizes da Sociedade Brasileira de Pneumologia e Tisiologia para manejo da asma, 2020",
-  "coment": "Sintomas respiratórios variáveis — tosse seca, chiado e dispneia — com piora noturna e desencadeados por exposição a irritante, em adulta jovem com sibilos difusos à ausculta e sem febre ou perda de peso, configuram o padrão clínico da asma. O diagnóstico é confirmado pela demonstração de limitação variável ao fluxo aéreo, idealmente pela espirometria com prova broncodilatadora. Afastar o tabagismo passivo faz parte do tratamento, e a asma leve não deve ser tratada apenas com broncodilatador de resgate isolado, e sim com esquema contendo corticoide inalatório.",
+  "coment": "Sintomas respiratórios variáveis (tosse seca, chiado e dispneia) com piora noturna e desencadeados por exposição a irritante, em adulta jovem com sibilos difusos à ausculta e sem febre ou perda de peso, configuram o padrão clínico da asma. O diagnóstico é confirmado pela demonstração de limitação variável ao fluxo aéreo, idealmente pela espirometria com prova broncodilatadora. Afastar o tabagismo passivo faz parte do tratamento, e a asma leve não deve ser tratada apenas com broncodilatador de resgate isolado, e sim com esquema contendo corticoide inalatório.",
   "porAlt": [
    "A rinossinusite cursa com obstrução nasal, secreção e dor facial, e a mucosa nasal está descrita como normal.",
-   "Correta: asma — sintomas variáveis com piora noturna, gatilho irritante e sibilos difusos, sem febre nem perda ponderal.",
+   "Correta: asma. Sintomas variáveis com piora noturna, gatilho irritante e sibilos difusos, sem febre nem perda ponderal.",
    "A DPOC exige exposição cumulativa relevante e ocorre em faixa etária mais avançada, com obstrução persistente e pouco reversível.",
    "A tuberculose cursa tipicamente com tosse por três semanas ou mais, febre vespertina, sudorese noturna e perda de peso, ausentes aqui.",
    "A pneumonia adquirida na comunidade cursa com febre e achados focais de consolidação, não com sibilância difusa sem febre."
@@ -153,7 +153,7 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025",
+  "base": "Diretriz Brasileira de Hipertensão Arterial, SBC/SBH/SBN, 2025",
   "coment": "O diagnóstico de hipertensão arterial exige pressão igual ou superior a 140 por 90 mmHg em pelo menos duas ocasiões distintas, com técnica adequada, ou confirmação por monitorização ambulatorial ou residencial. O paciente traz cinco aferições registradas ao longo do último ano, todas acima do limiar, o que já satisfaz o critério e dispensa nova confirmação. Sedentarismo e história familiar são fatores de risco que aumentam a probabilidade da doença, mas não fazem diagnóstico, assim como uma única medida isolada em pronto atendimento não o faz.",
   "porAlt": [
    "Uma medida isolada em atendimento de urgência, muitas vezes em contexto de dor ou ansiedade, não estabelece o diagnóstico.",
@@ -168,7 +168,7 @@
   }
  },
  {
-  "q": "Uma paciente de 62 anos de idade foi encaminhada ao ambulatório de nefrologia de um hospital universitário para ajuste no tratamento anti-hipertensivo, em razão de suposta nefropatia hipertensiva estágio 3. A paciente tem hipertensão arterial sistêmica (HAS) há longa data e faz tratamento com hidroclorotiazida 25 mg/dia e anlodipino 10 mg duas vezes ao dia. Recentemente, seus exames de sangue revelaram pequena retenção de escórias nitrogenadas, sendo o cálculo estimado da taxa de filtração glomerular de 54 ml/min/1,73 m². Exame urinário revelou a presença de microalbuminúria (120 mg/g de creatinina em amostra isolada de urina; valor de referência: 30 mg/g de creatinina na urina). No exame físico, os níveis tensionais se encontravam em 150 x 90 mmHg no membro superior (MS) direito e em 148 x 92 mmHg no MS esquerdo. Considerando-se o risco cardiovascular da paciente, os níveis tensionais observados na consulta e a presença de dano renal crônico em estágio 3 (da classificação KDIGO — do inglês Kidney Disease: Improving Global Outcomes), em relação ao esquema terapêutico em curso, a conduta correta seria",
+  "q": "Uma paciente de 62 anos de idade foi encaminhada ao ambulatório de nefrologia de um hospital universitário para ajuste no tratamento anti-hipertensivo, em razão de suposta nefropatia hipertensiva estágio 3. A paciente tem hipertensão arterial sistêmica (HAS) há longa data e faz tratamento com hidroclorotiazida 25 mg/dia e anlodipino 10 mg duas vezes ao dia. Recentemente, seus exames de sangue revelaram pequena retenção de escórias nitrogenadas, sendo o cálculo estimado da taxa de filtração glomerular de 54 ml/min/1,73 m². Exame urinário revelou a presença de microalbuminúria (120 mg/g de creatinina em amostra isolada de urina; valor de referência: 30 mg/g de creatinina na urina). No exame físico, os níveis tensionais se encontravam em 150 x 90 mmHg no membro superior (MS) direito e em 148 x 92 mmHg no MS esquerdo. Considerando-se o risco cardiovascular da paciente, os níveis tensionais observados na consulta e a presença de dano renal crônico em estágio 3 (da classificação KDIGO, do inglês Kidney Disease: Improving Global Outcomes), em relação ao esquema terapêutico em curso, a conduta correta seria",
   "alts": [
    "adicionar inibidor da enzima conversora ou bloqueador do receptor de angiotensina II",
    "trocar a hidroclorotiazida por diurético de alça e aumentar a dose do bloqueador de canal de cálcio",
@@ -180,7 +180,7 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease; Diretriz Brasileira de Hipertensão Arterial — SBC, 2025",
+  "base": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease; Diretriz Brasileira de Hipertensão Arterial, SBC, 2025",
   "coment": "Em doença renal crônica com albuminúria e pressão acima da meta, o bloqueio do sistema renina-angiotensina com inibidor da enzima conversora ou bloqueador do receptor de angiotensina é o pilar do tratamento: além do efeito anti-hipertensivo, reduz a albuminúria e retarda a progressão da doença renal. Espera-se elevação da creatinina de até 30% após o início, que não motiva suspensão, com controle de potássio e função renal em uma a duas semanas. A associação a inibidor de SGLT2 é hoje recomendada nesse mesmo perfil por reduzir desfechos renais e cardiovasculares.",
   "porAlt": [
    "Correta: acrescentar bloqueador do sistema renina-angiotensina, que reduz pressão, albuminúria e progressão da doença renal.",
@@ -206,8 +206,8 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose — SBC, 2017 e atualizações; ESC/EAS Guidelines for the management of dyslipidaemias, 2019",
-  "coment": "A queixa de mialgia difusa surgida duas semanas após a introdução de um fármaco em paciente hipertenso com exames alterados aponta para sintoma muscular associado a estatina, prescrita por dislipidemia. A conduta é dosar creatinoquinase, afastar rabdomiólise, revisar interações medicamentosas e causas que aumentam o risco — hipotireoidismo, doença renal, uso de fibrato — e, em geral, suspender temporariamente, reintroduzindo em dose menor, em dias alternados ou com outra estatina. Suspender definitivamente sem tentativa de reintrodução priva o paciente de redução de risco cardiovascular.",
+  "base": "Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose: SBC, 2017 e atualizações; ESC/EAS Guidelines for the management of dyslipidaemias, 2019",
+  "coment": "A queixa de mialgia difusa surgida duas semanas após a introdução de um fármaco em paciente hipertenso com exames alterados aponta para sintoma muscular associado a estatina, prescrita por dislipidemia. A conduta é dosar creatinoquinase, afastar rabdomiólise, revisar interações medicamentosas e causas que aumentam o risco (hipotireoidismo, doença renal, uso de fibrato) e, em geral, suspender temporariamente, reintroduzindo em dose menor, em dias alternados ou com outra estatina. Suspender definitivamente sem tentativa de reintrodução priva o paciente de redução de risco cardiovascular.",
   "porAlt": [
    "A obesidade não motiva prescrição de fármaco que cause mialgia nesse contexto.",
    "Correta: a dislipidemia justifica a prescrição de estatina, cujo efeito adverso mais frequente é o sintoma muscular.",
@@ -233,7 +233,7 @@
   "comp": "dx",
   "nivel": "r3",
   "base": "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases",
-  "coment": "O quadro reúne os quatro elementos da síndrome nefrótica — proteinúria acima de 3,5 g em 24 horas, hipoalbuminemia, edema e dislipidemia — em paciente com adenocarcinoma recém-diagnosticado. Em adultos com neoplasia sólida, a glomerulopatia paraneoplásica mais associada é a nefropatia membranosa, e nessa forma secundária o anticorpo anti-PLA2R costuma ser negativo, ao contrário da forma primária. O tratamento da neoplasia frequentemente melhora a proteinúria, e o manejo de suporte inclui bloqueio do sistema renina-angiotensina, restrição de sódio e atenção ao risco trombótico elevado.",
+  "coment": "O quadro reúne os quatro elementos da síndrome nefrótica (proteinúria acima de 3,5 g em 24 horas, hipoalbuminemia, edema e dislipidemia) em paciente com adenocarcinoma recém-diagnosticado. Em adultos com neoplasia sólida, a glomerulopatia paraneoplásica mais associada é a nefropatia membranosa, e nessa forma secundária o anticorpo anti-PLA2R costuma ser negativo, ao contrário da forma primária. O tratamento da neoplasia frequentemente melhora a proteinúria, e o manejo de suporte inclui bloqueio do sistema renina-angiotensina, restrição de sódio e atenção ao risco trombótico elevado.",
   "porAlt": [
    "Hipertensão portal por metástase hepática causaria ascite com albumina baixa, mas não proteinúria maciça nem urina espumosa.",
    "Angioedema é súbito, localizado e sem proteinúria.",
@@ -259,7 +259,7 @@
   "comp": "urg",
   "nivel": "r1",
   "base": "AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke, 2019 e atualizações; Diretrizes da Sociedade Brasileira de Doenças Cerebrovasculares, 2023",
-  "coment": "Trata-se de acidente vascular cerebral isquêmico com déficit instalado há cerca de duas horas e tomografia sem hemorragia, dentro da janela de 4,5 horas para trombólise endovenosa com alteplase. Nenhum dado do caso configura contraindicação: a pressão de 160 por 100 mmHg está abaixo do teto de 185 por 110 mmHg, e a hiperglicemia contraindica apenas quando há hipoglicemia abaixo de 50 mg/dL, que não é o caso. Cardiopatia embólica por fibrilação atrial é a etiologia provável, mas a anticoagulação é decisão posterior — o que muda o prognóstico funcional agora é reperfundir.",
+  "coment": "Trata-se de acidente vascular cerebral isquêmico com déficit instalado há cerca de duas horas e tomografia sem hemorragia, dentro da janela de 4,5 horas para trombólise endovenosa com alteplase. Nenhum dado do caso configura contraindicação: a pressão de 160 por 100 mmHg está abaixo do teto de 185 por 110 mmHg, e a hiperglicemia contraindica apenas quando há hipoglicemia abaixo de 50 mg/dL, que não é o caso. Cardiopatia embólica por fibrilação atrial é a etiologia provável, mas a anticoagulação é decisão posterior, o que muda o prognóstico funcional agora é reperfundir.",
   "porAlt": [
    "Cardioversão química na fase aguda do acidente vascular cerebral não é indicada e traz risco embólico adicional.",
    "Correta: trombólise endovenosa com alteplase, com déficit de duas horas e tomografia sem hemorragia.",
@@ -284,13 +284,13 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde/INCA — Diretrizes para a detecção precoce do câncer de próstata, 2023; USPSTF prostate cancer screening statement, 2018",
-  "coment": "O Ministério da Saúde e o INCA não recomendam o rastreamento populacional de câncer de próstata com PSA ou toque retal, por não haver evidência de que o benefício supere os danos — sobrediagnóstico, biópsias desnecessárias, incontinência e disfunção erétil. Além disso, rastreamento só faz sentido em quem tem expectativa de vida suficiente para se beneficiar, em geral acima de dez anos, o que não é o caso de um paciente de 83 anos com cardiopatia grave. A conduta correta é não rastrear e concentrar o cuidado no controle dos fatores de risco e na qualidade de vida.",
+  "base": "Ministério da Saúde/INCA. Diretrizes para a detecção precoce do câncer de próstata, 2023; USPSTF prostate cancer screening statement, 2018",
+  "coment": "O Ministério da Saúde e o INCA não recomendam o rastreamento populacional de câncer de próstata com PSA ou toque retal, por não haver evidência de que o benefício supere os danos. Sobrediagnóstico, biópsias desnecessárias, incontinência e disfunção erétil. Além disso, rastreamento só faz sentido em quem tem expectativa de vida suficiente para se beneficiar, em geral acima de dez anos, o que não é o caso de um paciente de 83 anos com cardiopatia grave. A conduta correta é não rastrear e concentrar o cuidado no controle dos fatores de risco e na qualidade de vida.",
   "porAlt": [
    "A ultrassonografia transretal não é exame de rastreamento, e sim de apoio à biópsia.",
    "Toque retal e PSA constituem justamente o rastreamento que o Ministério da Saúde não recomenda.",
    "PSA isolado tem os mesmos problemas de sobrediagnóstico e não está indicado como rastreio.",
-   "Correta: não indicar rastreamento — não é recomendado pelo Ministério da Saúde e a expectativa de vida do paciente não comporta benefício."
+   "Correta: não indicar rastreamento. Não é recomendado pelo Ministério da Saúde e a expectativa de vida do paciente não comporta benefício."
   ],
   "fonte": {
    "banca": "Revalida (INEP/MEC)",
@@ -310,7 +310,7 @@
   "cenario": "amb",
   "comp": "urg",
   "nivel": "r1",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025; Diretriz da SBC sobre síndromes coronarianas agudas, 2021",
+  "base": "Diretriz Brasileira de Hipertensão Arterial: SBC/SBH/SBN, 2025; Diretriz da SBC sobre síndromes coronarianas agudas, 2021",
   "coment": "Pressão muito elevada acompanhada de dor torácica, dispneia e alteração do nível de consciência não é urgência hipertensiva assintomática, e sim emergência hipertensiva com suspeita de síndrome coronariana aguda em curso. Na unidade básica, a conduta é monitorizar, obter eletrocardiograma se disponível, administrar ácido acetilsalicílico e acionar transporte imediato para serviço com capacidade de reperfusão. Reduzir a pressão de forma ambulatorial ou aguardar melhora na sala de observação retarda o tratamento do evento que ameaça a vida.",
   "porAlt": [
    "Reduzir a pressão em 24 a 48 horas com seguimento ambulatorial é a conduta da urgência hipertensiva sem lesão de órgão-alvo, o oposto deste caso.",
@@ -336,7 +336,7 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "ATS/IDSA Clinical Practice Guideline — Community-acquired Pneumonia in Adults, 2019; Diretrizes brasileiras para pneumonia adquirida na comunidade — SBPT, 2018",
+  "base": "ATS/IDSA Clinical Practice Guideline (Community-acquired Pneumonia in Adults, 2019; Diretrizes brasileiras para pneumonia adquirida na comunidade) SBPT, 2018",
   "coment": "Trata-se de pneumonia adquirida na comunidade em paciente com comorbidades (hipertensão e diabetes), porém sem critérios de gravidade: está lúcido, com frequência respiratória de 20, pressão preservada e saturação de 96%, o que corresponde a CURB-65 zero e permite tratamento ambulatorial. Na presença de comorbidade, o esquema oral recomendado é betalactâmico com inibidor de betalactamase associado a macrolídeo, ou uma quinolona respiratória isolada. Monoterapia com macrolídeo é reservada a paciente previamente hígido em região com baixa resistência do pneumococo.",
   "porAlt": [
    "Azitromicina isolada é opção apenas para paciente sem comorbidades, pela resistência do pneumococo aos macrolídeos.",

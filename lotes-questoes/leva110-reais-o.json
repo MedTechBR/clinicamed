@@ -13,10 +13,10 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "ELN recommendations for the management of chronic myeloid leukemia, 2020; WHO Classification of Haematolymphoid Tumours, 5ª edição, 2022",
-  "coment": "Leucocitose acentuada com desvio escalonado à esquerda — mieloblastos, promielócitos, mielócitos e metamielócitos presentes em pequena proporção —, associada a basofilia, eosinofilia, trombocitose e esplenomegalia volumosa, é o quadro característico da leucemia mieloide crônica. A basofilia é a pista mais específica. A confirmação é a detecção do cromossomo Philadelphia ou do rearranjo BCR-ABL1 por citogenética, FISH ou PCR, e o tratamento com inibidores de tirosinoquinase transformou a doença em condição de sobrevida próxima à da população geral.",
+  "coment": "Leucocitose acentuada com desvio escalonado à esquerda (mieloblastos, promielócitos, mielócitos e metamielócitos presentes em pequena proporção), associada a basofilia, eosinofilia, trombocitose e esplenomegalia volumosa, é o quadro característico da leucemia mieloide crônica. A basofilia é a pista mais específica. A confirmação é a detecção do cromossomo Philadelphia ou do rearranjo BCR-ABL1 por citogenética, FISH ou PCR, e o tratamento com inibidores de tirosinoquinase transformou a doença em condição de sobrevida próxima à da população geral.",
   "porAlt": [
    "A leucemia mielomonocítica crônica cursa com monocitose persistente acima de mil por milímetro cúbico.",
-   "Correta: leucemia mieloide crônica — desvio escalonado com basofilia, trombocitose e esplenomegalia.",
+   "Correta: leucemia mieloide crônica. Desvio escalonado com basofilia, trombocitose e esplenomegalia.",
    "A leishmaniose visceral cursa com pancitopenia, e não com leucocitose e trombocitose.",
    "A mielofibrose primária cursa com quadro leucoeritroblástico, hemácias em lágrima e citopenias."
   ],
@@ -39,7 +39,7 @@
   "comp": "dx",
   "nivel": "r3",
   "base": "European guideline on chronic pruritus, 2019; NCCN Guidelines for Hodgkin Lymphoma, 2025",
-  "coment": "Prurido crônico sem lesão cutânea primária é chamado prurido de origem indeterminada e obriga a investigar causa sistêmica: doença renal, hepática, tireoidiana, HIV, deficiência de ferro, fármacos e neoplasia. Afastadas as causas metabólicas e infecciosas, e diante de leucocitose com eosinofilia em idoso, a hipótese que se impõe é linfoma — o prurido pode preceder o diagnóstico em meses, especialmente no linfoma de Hodgkin. A investigação segue com exame minucioso de linfonodos, imagem de tórax, abdome e pelve, e biópsia excisional se houver linfonodo acessível.",
+  "coment": "Prurido crônico sem lesão cutânea primária é chamado prurido de origem indeterminada e obriga a investigar causa sistêmica: doença renal, hepática, tireoidiana, HIV, deficiência de ferro, fármacos e neoplasia. Afastadas as causas metabólicas e infecciosas, e diante de leucocitose com eosinofilia em idoso, a hipótese que se impõe é linfoma. O prurido pode preceder o diagnóstico em meses, especialmente no linfoma de Hodgkin. A investigação segue com exame minucioso de linfonodos, imagem de tórax, abdome e pelve, e biópsia excisional se houver linfonodo acessível.",
   "porAlt": [
    "Correta: linfoma, principal neoplasia associada a prurido sem lesão cutânea primária.",
    "A escabiose produz lesões primárias, túneis e acometimento de contatos domiciliares.",
@@ -64,8 +64,8 @@
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, Guidelines for diagnosing and managing cryptococcal disease, 2022",
-  "coment": "Leveduras encapsuladas na tinta da China em pessoa com HIV e CD4 muito baixo confirmam meningite criptocócica. A indução de escolha, quando não há flucitosina nem formulação lipídica de anfotericina, é anfotericina B desoxicolato 1 mg/kg/dia associada a fluconazol 800 mg/dia por duas semanas, seguida de consolidação e manutenção com fluconazol. Igualmente decisivo é o controle da hipertensão intracraniana com punções lombares de alívio repetidas — a principal causa de morte precoce —, e o início da terapia antirretroviral deve ser adiado por quatro a seis semanas.",
+  "base": "Ministério da Saúde. PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, Guidelines for diagnosing and managing cryptococcal disease, 2022",
+  "coment": "Leveduras encapsuladas na tinta da China em pessoa com HIV e CD4 muito baixo confirmam meningite criptocócica. A indução de escolha, quando não há flucitosina nem formulação lipídica de anfotericina, é anfotericina B desoxicolato 1 mg/kg/dia associada a fluconazol 800 mg/dia por duas semanas, seguida de consolidação e manutenção com fluconazol. Igualmente decisivo é o controle da hipertensão intracraniana com punções lombares de alívio repetidas, a principal causa de morte precoce, e o início da terapia antirretroviral deve ser adiado por quatro a seis semanas.",
   "porAlt": [
    "Fluconazol em monoterapia tem eficácia inferior na indução e maior mortalidade.",
    "A dose de anfotericina desoxicolato na indução é 1 mg/kg/dia quando associada ao fluconazol nesse esquema.",
@@ -91,7 +91,7 @@
   "comp": "prev",
   "nivel": "r3",
   "base": "ACR Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases, 2022; Sociedade Brasileira de Imunizações, calendário do paciente imunossuprimido, 2025",
-  "coment": "Antes de iniciar um inibidor de TNF, atualiza-se o calendário vacinal, priorizando as vacinas não vivas — que podem ser aplicadas mesmo sob imunossupressão — e evitando as vacinas de vírus vivo atenuado, contraindicadas durante o bloqueio de TNF. Meningocócica ACWY é inativada e recomendada; a vacina recombinante contra herpes-zóster também é não viva e está indicada, ao contrário da versão atenuada. Febre amarela é vacina de vírus vivo, e a dengue disponível no Brasil também é atenuada, ambas contraindicadas nesse cenário.",
+  "coment": "Antes de iniciar um inibidor de TNF, atualiza-se o calendário vacinal, priorizando as vacinas não vivas, que podem ser aplicadas mesmo sob imunossupressão, e evitando as vacinas de vírus vivo atenuado, contraindicadas durante o bloqueio de TNF. Meningocócica ACWY é inativada e recomendada; a vacina recombinante contra herpes-zóster também é não viva e está indicada, ao contrário da versão atenuada. Febre amarela é vacina de vírus vivo, e a dengue disponível no Brasil também é atenuada, ambas contraindicadas nesse cenário.",
   "porAlt": [
    "Febre amarela é vacina de vírus vivo atenuado, contraindicada sob imunossupressão.",
    "A vacina de dengue disponível é atenuada, também contraindicada.",
@@ -117,7 +117,7 @@
   "comp": "prev",
   "nivel": "r3",
   "base": "CONSORT extension for non-inferiority trials, 2012; ensaio OVIVA (antibiótico oral versus intravenoso em infecção osteoarticular), 2019",
-  "coment": "Em ensaios de não inferioridade, a conclusão exige que todo o intervalo de confiança fique acima da margem pré-especificada, e a análise por protocolo é tão ou mais importante que a por intenção de tratar — nela, a intenção de tratar tende a diluir diferenças e favorecer artificialmente a conclusão de não inferioridade. Aqui, o intervalo da análise por protocolo, de 0,76 a 1,02, cruza a margem de 0,80, de modo que a não inferioridade não fica demonstrada de forma consistente nas duas análises, que é o padrão exigido.",
+  "coment": "Em ensaios de não inferioridade, a conclusão exige que todo o intervalo de confiança fique acima da margem pré-especificada, e a análise por protocolo é tão ou mais importante que a por intenção de tratar. Nela, a intenção de tratar tende a diluir diferenças e favorecer artificialmente a conclusão de não inferioridade. Aqui, o intervalo da análise por protocolo, de 0,76 a 1,02, cruza a margem de 0,80, de modo que a não inferioridade não fica demonstrada de forma consistente nas duas análises, que é o padrão exigido.",
   "porAlt": [
    "A análise por intenção de tratar isolada não basta em ensaio de não inferioridade.",
    "A análise por protocolo não deve ser evitada: em não inferioridade ela é essencial e costuma ser mais conservadora.",
@@ -143,7 +143,7 @@
   "comp": "urg",
   "nivel": "r3",
   "base": "AASLD Practice Guidance on acute kidney injury and hepatorenal syndrome in cirrhosis, 2021; International Club of Ascites, critérios de LRA-SHR",
-  "coment": "Lesão renal aguda progressiva em cirrótico com ascite, sódio urinário muito baixo, sem resposta à expansão volêmica e após suspensão de diuréticos, com infecção em tratamento e sem choque, caracteriza síndrome hepatorrenal — antes chamada tipo 1, hoje lesão renal aguda com fenótipo hepatorrenal. O tratamento é vasoconstritor esplâncnico, terlipressina, associado à albumina, com monitorização de isquemia e sobrecarga volêmica. Norepinefrina em terapia intensiva é alternativa, e o transplante hepático é o tratamento definitivo.",
+  "coment": "Lesão renal aguda progressiva em cirrótico com ascite, sódio urinário muito baixo, sem resposta à expansão volêmica e após suspensão de diuréticos, com infecção em tratamento e sem choque, caracteriza síndrome hepatorrenal. Antes chamada tipo 1, hoje lesão renal aguda com fenótipo hepatorrenal. O tratamento é vasoconstritor esplâncnico, terlipressina, associado à albumina, com monitorização de isquemia e sobrecarga volêmica. Norepinefrina em terapia intensiva é alternativa, e o transplante hepático é o tratamento definitivo.",
   "porAlt": [
    "Correta: terlipressina associada a albumina, tratamento da síndrome hepatorrenal.",
    "Corticoide não tem papel nesse quadro.",
@@ -194,8 +194,8 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "GOLD — Global Strategy for the Diagnosis, Management and Prevention of COPD, 2026",
-  "coment": "Doença pulmonar obstrutiva crônica com VEF1 muito reduzido e duas exacerbações no último ano define grupo E na classificação GOLD. A terapia recomendada é broncodilatador duplo de longa duração — beta-2 agonista associado a antimuscarínico —, e o corticoide inalatório só se acrescenta quando os eosinófilos estão acima de 300 células por microlitro ou há asma associada, o que não é o caso, com 380 células apenas se aproximando do limiar em contagem isolada. Corticoide oral crônico não tem indicação, e metilxantina foi relegada a última linha por toxicidade.",
+  "base": "GOLD. Global Strategy for the Diagnosis, Management and Prevention of COPD, 2026",
+  "coment": "Doença pulmonar obstrutiva crônica com VEF1 muito reduzido e duas exacerbações no último ano define grupo E na classificação GOLD. A terapia recomendada é broncodilatador duplo de longa duração, beta-2 agonista associado a antimuscarínico, e o corticoide inalatório só se acrescenta quando os eosinófilos estão acima de 300 células por microlitro ou há asma associada, o que não é o caso, com 380 células apenas se aproximando do limiar em contagem isolada. Corticoide oral crônico não tem indicação, e metilxantina foi relegada a última linha por toxicidade.",
   "porAlt": [
    "Metilxantina é opção de última linha por estreita margem terapêutica.",
    "Corticoide oral contínuo não é tratamento de manutenção na doença pulmonar obstrutiva crônica.",
@@ -221,7 +221,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "IDSA Clinical Practice Guidelines for the Diagnosis and Management of Intravascular Catheter-Related Infection, 2009 e atualizações; KDOQI vascular access guidelines, 2019",
-  "coment": "Bacteremia por Staphylococcus aureus relacionada a cateter de longa permanência exige três decisões. Primeira, o antimicrobiano: sendo sensível à oxacilina, o tratamento é betalactâmico — oxacilina ou cefazolina —, superior à vancomicina nessa situação. Segunda, o cateter: em S. aureus, a remoção é mandatória, e o selo antibiótico não é aceitável como estratégia de salvamento. Terceira, a busca de foco metastático: ecocardiograma para endocardite, fundo de olho para endoftalmite, e duração de pelo menos duas a quatro semanas conforme a resposta e as complicações.",
+  "coment": "Bacteremia por Staphylococcus aureus relacionada a cateter de longa permanência exige três decisões. Primeira, o antimicrobiano: sendo sensível à oxacilina, o tratamento é betalactâmico, oxacilina ou cefazolina, superior à vancomicina nessa situação. Segunda, o cateter: em S. aureus, a remoção é mandatória, e o selo antibiótico não é aceitável como estratégia de salvamento. Terceira, a busca de foco metastático: ecocardiograma para endocardite, fundo de olho para endoftalmite, e duração de pelo menos duas a quatro semanas conforme a resposta e as complicações.",
   "porAlt": [
    "Vancomicina é inferior ao betalactâmico em cepa sensível, e manter o cateter com selo é inadequado em S. aureus.",
    "A remoção do cateter está correta, mas vancomicina não é a escolha para cepa sensível à oxacilina.",
@@ -246,7 +246,7 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Hepatite B e Coinfecções, 2024; EASL Clinical Practice Guidelines on hepatitis B, 2017",
+  "base": "Ministério da Saúde. PCDT para Hepatite B e Coinfecções, 2024; EASL Clinical Practice Guidelines on hepatitis B, 2017",
   "coment": "HBsAg e HBeAg positivos com carga viral muito alta, transaminases normais, ausência de fibrose e paciente jovem e assintomático caracterizam a fase de infecção crônica HBeAg-positiva, antigamente chamada de imunotolerância. Nessa fase não há indicação de tratamento: a atividade inflamatória é mínima e a chance de soroconversão sustentada com antiviral é baixa. A conduta é vigilância ativa, com ALT e carga viral a cada três a seis meses, avaliação periódica de fibrose e rastreio de hepatocarcinoma conforme o perfil de risco, tratando quando a ALT se elevar.",
   "porAlt": [
    "Lamivudina tem alta taxa de resistência e não é escolha atual.",
@@ -272,8 +272,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Profilaxia Pré-Exposição (PrEP) de Risco à Infecção pelo HIV, 2022; OMS, guidelines on HIV prevention",
-  "coment": "A profilaxia pré-exposição é segura na gestação e deve ser mantida em quem permanece sob risco — no caso, parceria sorodiferente com carga viral nem sempre indetectável e uso irregular de preservativo. A conduta é manter a PrEP, testar para HIV e demais infecções sexualmente transmissíveis e reforçar a adesão. Não se suspende a profilaxia para depois reiniciar, nem se troca por profilaxia pós-exposição em quem já está em uso regular e adequado da pré-exposição; a PEP se destina a quem não estava protegido.",
+  "base": "Ministério da Saúde. PCDT para Profilaxia Pré-Exposição (PrEP) de Risco à Infecção pelo HIV, 2022; OMS, guidelines on HIV prevention",
+  "coment": "A profilaxia pré-exposição é segura na gestação e deve ser mantida em quem permanece sob risco, no caso, parceria sorodiferente com carga viral nem sempre indetectável e uso irregular de preservativo. A conduta é manter a PrEP, testar para HIV e demais infecções sexualmente transmissíveis e reforçar a adesão. Não se suspende a profilaxia para depois reiniciar, nem se troca por profilaxia pós-exposição em quem já está em uso regular e adequado da pré-exposição; a PEP se destina a quem não estava protegido.",
   "porAlt": [
    "Suspender a PrEP na gestação retira a proteção justamente em período de risco aumentado.",
    "Trocar PrEP por PEP não faz sentido em quem já usa a profilaxia pré-exposição de forma regular.",
@@ -298,8 +298,8 @@
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "Abordagem sistemática dos distúrbios ácido-base — Berend et al., NEJM, 2014; ATS/ESICM/SCCM guideline on mechanical ventilation in ARDS, 2023",
-  "coment": "O pH de 7,49 define alcalemia, e a PaCO₂ de 19 mmHg identifica o distúrbio primário como alcalose respiratória por hiperventilação — a paciente está com frequência de 32 e hipoxemia. O bicarbonato baixo representa compensação metabólica e, possivelmente, um distúrbio metabólico associado, que a análise do ânion-gap ajudaria a esclarecer. O tratamento é da causa: suporte ventilatório e correção da hipoxemia e do trabalho respiratório. Administrar bicarbonato em paciente alcalêmico agravaria o distúrbio.",
+  "base": "Abordagem sistemática dos distúrbios ácido-base: Berend et al., NEJM, 2014; ATS/ESICM/SCCM guideline on mechanical ventilation in ARDS, 2023",
+  "coment": "O pH de 7,49 define alcalemia, e a PaCO₂ de 19 mmHg identifica o distúrbio primário como alcalose respiratória por hiperventilação. A paciente está com frequência de 32 e hipoxemia. O bicarbonato baixo representa compensação metabólica e, possivelmente, um distúrbio metabólico associado, que a análise do ânion-gap ajudaria a esclarecer. O tratamento é da causa: suporte ventilatório e correção da hipoxemia e do trabalho respiratório. Administrar bicarbonato em paciente alcalêmico agravaria o distúrbio.",
   "porAlt": [
    "Acetazolamida não trata alcalose respiratória e agrava a acidose metabólica associada.",
    "Correta: alcalose respiratória, tratada com suporte ventilatório e correção da causa.",
@@ -324,8 +324,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Manual de Recomendações para o Controle da Tuberculose no Brasil, 2024; PCDT para Manejo da Infecção pelo HIV em Adultos, 2024",
-  "coment": "Em pessoa vivendo com HIV, o tratamento da infecção latente por tuberculose está indicado quando a prova tuberculínica é igual ou maior que 5 mm, quando há contato com caso de tuberculose ativa, quando houve tratamento prévio de tuberculose ou radiografia com cicatriz, e — independentemente do resultado da prova — quando a contagem de CD4 é igual ou inferior a 350 células. Com CD4 de 249 e doença ativa excluída, a indicação está posta. O esquema pode ser isoniazida por seis a nove meses ou rifapentina com isoniazida semanal por três meses.",
+  "base": "Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil, 2024; PCDT para Manejo da Infecção pelo HIV em Adultos, 2024",
+  "coment": "Em pessoa vivendo com HIV, o tratamento da infecção latente por tuberculose está indicado quando a prova tuberculínica é igual ou maior que 5 mm, quando há contato com caso de tuberculose ativa, quando houve tratamento prévio de tuberculose ou radiografia com cicatriz, e, independentemente do resultado da prova, quando a contagem de CD4 é igual ou inferior a 350 células. Com CD4 de 249 e doença ativa excluída, a indicação está posta. O esquema pode ser isoniazida por seis a nove meses ou rifapentina com isoniazida semanal por três meses.",
   "porAlt": [
    "Ter apresentado doença definidora de aids não é, por si, o critério que indica o tratamento da infecção latente.",
    "Correta: CD4 abaixo de 350 indica o tratamento independentemente do resultado da prova tuberculínica.",
@@ -351,7 +351,7 @@
   "comp": "prev",
   "nivel": "r2",
   "base": "USPSTF Lung Cancer Screening Recommendation Statement, 2021; GOLD 2026; Ministério da Saúde, diretrizes de oxigenoterapia domiciliar prolongada",
-  "coment": "O paciente tem carga tabágica de 50 anos-maço, cessou há cinco anos e está na faixa etária de rastreio — critérios preenchidos para tomografia de tórax de baixa dose anual, único método com redução comprovada de mortalidade por câncer de pulmão. A oxigenoterapia domiciliar exige PaO₂ igual ou inferior a 55 mmHg, ou entre 56 e 59 com cor pulmonale ou policitemia, o que não se aplica com PaO₂ de 62. A reabilitação pulmonar independe de corrigir a hipoxemia, e o esquema vacinal descrito não pede reforço anual de pneumocócica.",
+  "coment": "O paciente tem carga tabágica de 50 anos-maço, cessou há cinco anos e está na faixa etária de rastreio. Critérios preenchidos para tomografia de tórax de baixa dose anual, único método com redução comprovada de mortalidade por câncer de pulmão. A oxigenoterapia domiciliar exige PaO₂ igual ou inferior a 55 mmHg, ou entre 56 e 59 com cor pulmonale ou policitemia, o que não se aplica com PaO₂ de 62. A reabilitação pulmonar independe de corrigir a hipoxemia, e o esquema vacinal descrito não pede reforço anual de pneumocócica.",
   "porAlt": [
    "A oxigenoterapia domiciliar exige PaO₂ igual ou inferior a 55 mmHg, ou 56 a 59 com repercussão.",
    "A vacina pneumocócica polissacarídica não é de reforço anual.",
@@ -376,8 +376,8 @@
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Surviving Sepsis Campaign — International Guidelines for Management of Sepsis and Septic Shock, 2021",
-  "coment": "Paciente em pós-operatório de grande porte que evolui com sonolência, taquicardia, hipotensão e hipoxemia tem sepse até prova em contrário. As medidas imediatas são o pacote de primeira hora: coletar culturas antes do antibiótico, iniciar antimicrobiano de amplo espectro precocemente, ressuscitação volêmica e dosagem de lactato, com busca ativa do foco — no caso, sítio cirúrgico, pulmão e dispositivos. Analgesia adequada faz parte do cuidado. A boa funcionalidade prévia não sustenta, neste momento, a decisão por limitação de suporte.",
+  "base": "Surviving Sepsis Campaign. International Guidelines for Management of Sepsis and Septic Shock, 2021",
+  "coment": "Paciente em pós-operatório de grande porte que evolui com sonolência, taquicardia, hipotensão e hipoxemia tem sepse até prova em contrário. As medidas imediatas são o pacote de primeira hora: coletar culturas antes do antibiótico, iniciar antimicrobiano de amplo espectro precocemente, ressuscitação volêmica e dosagem de lactato, com busca ativa do foco, no caso, sítio cirúrgico, pulmão e dispositivos. Analgesia adequada faz parte do cuidado. A boa funcionalidade prévia não sustenta, neste momento, a decisão por limitação de suporte.",
   "porAlt": [
    "Hipocalcemia é possível após cirurgia cervical, mas não explica hipotensão com sonolência e hipoxemia.",
    "Correta: analgesia, coleta de culturas e antibioticoterapia precoce, pelo quadro séptico.",
@@ -403,7 +403,7 @@
   "comp": "dx",
   "nivel": "r3",
   "base": "IARC Monographs on human papillomavirus; NCCN Guidelines for Head and Neck Cancers, 2025",
-  "coment": "Carcinoma de células escamosas com imuno-histoquímica positiva para citoqueratina 5/6, p63 e p40, em mulher jovem não tabagista, com doença metastática de sítio primário oculto e acometimento cervical, aponta para tumor associado ao papilomavírus humano — a etiologia que explica o aumento dos carcinomas de orofaringe em pacientes jovens e sem exposição ao tabaco, com prognóstico melhor. A pesquisa de p16 por imuno-histoquímica é o marcador substituto usado na prática. Hepatite C associa-se a linfoma e hepatocarcinoma; Epstein-Barr, ao carcinoma de nasofaringe.",
+  "coment": "Carcinoma de células escamosas com imuno-histoquímica positiva para citoqueratina 5/6, p63 e p40, em mulher jovem não tabagista, com doença metastática de sítio primário oculto e acometimento cervical, aponta para tumor associado ao papilomavírus humano. A etiologia que explica o aumento dos carcinomas de orofaringe em pacientes jovens e sem exposição ao tabaco, com prognóstico melhor. A pesquisa de p16 por imuno-histoquímica é o marcador substituto usado na prática. Hepatite C associa-se a linfoma e hepatocarcinoma; Epstein-Barr, ao carcinoma de nasofaringe.",
   "porAlt": [
    "O vírus da hepatite C associa-se a hepatocarcinoma e a linfoma, não a carcinoma escamoso.",
    "Correta: papilomavírus humano, causa crescente de carcinoma escamoso em jovens não tabagistas.",

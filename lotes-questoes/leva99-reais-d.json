@@ -13,7 +13,7 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Política Nacional de Saúde da Pessoa Idosa e Caderno de Atenção Domiciliar, 2023; ANCP, Manual de Cuidados Paliativos, 2021",
+  "base": "Ministério da Saúde. Política Nacional de Saúde da Pessoa Idosa e Caderno de Atenção Domiciliar, 2023; ANCP, Manual de Cuidados Paliativos, 2021",
   "coment": "Em demência avançada com paciente acamada e estável, cuidada em casa por familiar, o plano terapêutico singular se organiza em torno de dois eixos: manter o acompanhamento longitudinal pela equipe de atenção primária, que já responde pelo território, e cuidar de quem cuida. A sobrecarga do cuidador é fator de risco para adoecimento próprio e para falha do cuidado, e deve ser avaliada de forma sistemática, com instrumentos como a escala de Zarit. Encaminhamentos para reabilitação não têm objetivo realista nesse estágio e fragmentam o cuidado sem benefício.",
   "porAlt": [
    "Reabilitação e encaminhamento à geriatria não mudam o curso da demência avançada em paciente acamada e estável.",
@@ -69,7 +69,7 @@
   "comp": "tto",
   "nivel": "r1",
   "base": "International Classification of Headache Disorders (ICHD-3); American Headache Society consensus statement, 2021",
-  "coment": "Cefaleia unilateral, pulsátil, de 6 a 10 horas, com fotofobia e fonofobia e precedida de escotomas visuais, recorrente há anos e com exame neurológico normal, é migrânea com aura. O tratamento da crise de intensidade moderada a grave, ou com resposta insuficiente a analgésico simples, é o triptano, associado a antiemético quando há náusea. Sem sinais de alarme, não há indicação de neuroimagem. Com frequência crescente de crises ou uso excessivo de analgésico, entra a profilaxia — topiramato, propranolol, amitriptilina, candesartana ou anticorpo anti-CGRP.",
+  "coment": "Cefaleia unilateral, pulsátil, de 6 a 10 horas, com fotofobia e fonofobia e precedida de escotomas visuais, recorrente há anos e com exame neurológico normal, é migrânea com aura. O tratamento da crise de intensidade moderada a grave, ou com resposta insuficiente a analgésico simples, é o triptano, associado a antiemético quando há náusea. Sem sinais de alarme, não há indicação de neuroimagem. Com frequência crescente de crises ou uso excessivo de analgésico, entra a profilaxia. Topiramato, propranolol, amitriptilina, candesartana ou anticorpo anti-CGRP.",
   "porAlt": [
    "Correta: migrânea com aura, tratada na crise com triptano.",
    "A cefaleia tensional é bilateral, em peso, sem aura, náusea ou fotofobia proeminente.",
@@ -94,8 +94,8 @@
   "cenario": "enf",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, síndrome de Guillain-Barré e arboviroses, 2024; diretrizes brasileiras de neuropatias periféricas inflamatórias",
-  "coment": "Fraqueza flácida ascendente, simétrica e progressiva, com arreflexia distal e parestesias, surgindo cerca de uma a duas semanas após quadro exantemático febril, é a apresentação típica da síndrome de Guillain-Barré, cuja associação com arboviroses e com infecções gastrointestinais é bem estabelecida. A avaliação inclui líquor com dissociação proteinocitológica, eletroneuromiografia e, sobretudo, medida seriada da capacidade vital — a insuficiência respiratória é o risco imediato. O tratamento é imunoglobulina ou plasmaférese; corticoide isolado não funciona.",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, síndrome de Guillain-Barré e arboviroses, 2024; diretrizes brasileiras de neuropatias periféricas inflamatórias",
+  "coment": "Fraqueza flácida ascendente, simétrica e progressiva, com arreflexia distal e parestesias, surgindo cerca de uma a duas semanas após quadro exantemático febril, é a apresentação típica da síndrome de Guillain-Barré, cuja associação com arboviroses e com infecções gastrointestinais é bem estabelecida. A avaliação inclui líquor com dissociação proteinocitológica, eletroneuromiografia e, sobretudo, medida seriada da capacidade vital. A insuficiência respiratória é o risco imediato. O tratamento é imunoglobulina ou plasmaférese; corticoide isolado não funciona.",
   "porAlt": [
    "A miastenia gravis cursa com fraqueza flutuante e fatigável, com ptose e diplopia, e reflexos preservados.",
    "Correta: síndrome de Guillain-Barré após quadro exantemático, com fraqueza ascendente e arreflexia.",
@@ -121,7 +121,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "CID-11 (OMS, 2022) e DSM-5-TR (APA, 2022), transtornos por uso de substâncias; Ministério da Saúde, Guia prático de matriciamento em saúde mental, 2011",
-  "coment": "O padrão descrito — episódios repetidos de consumo pesado com prejuízo funcional pontual, cerca de duas vezes por mês, sem tolerância, sem abstinência, sem fissura e com funcionamento preservado entre os episódios — caracteriza uso nocivo, ou padrão de consumo de risco, e não dependência. A distinção orienta a conduta: aqui cabem intervenção breve motivacional, rastreio com AUDIT e seguimento na atenção primária. Os sintomas depressivos que se seguem à intoxicação são transitórios e não configuram episódio depressivo, que exige duração mínima de duas semanas.",
+  "coment": "O padrão descrito. Episódios repetidos de consumo pesado com prejuízo funcional pontual, cerca de duas vezes por mês, sem tolerância, sem abstinência, sem fissura e com funcionamento preservado entre os episódios, caracteriza uso nocivo, ou padrão de consumo de risco, e não dependência. A distinção orienta a conduta: aqui cabem intervenção breve motivacional, rastreio com AUDIT e seguimento na atenção primária. Os sintomas depressivos que se seguem à intoxicação são transitórios e não configuram episódio depressivo, que exige duração mínima de duas semanas.",
   "porAlt": [
    "Correta: uso nocivo de álcool, com prejuízo episódico e sem critérios de dependência.",
    "A dependência exige tolerância, abstinência, fissura ou perda de controle persistente, ausentes aqui.",
@@ -147,11 +147,11 @@
   "comp": "prev",
   "nivel": "r1",
   "base": "Leavell e Clark, níveis de prevenção (1976); Ministério da Saúde, Política Nacional de Promoção da Saúde, revisão de 2018",
-  "coment": "A prevenção secundária atua em quem já tem a doença, para detectá-la precocemente ou evitar recorrência e progressão — é o caso da antiagregação após um evento cerebrovascular. A prevenção primária evita a doença em quem ainda não a tem; a terciária busca reduzir incapacidade e reabilitar quem já tem sequela; e a quaternária protege o paciente do excesso de intervenção médica, evitando iatrogenia e sobrediagnóstico. Essa taxonomia é cobrada com frequência e se distingue pelo momento da história natural em que a ação incide.",
+  "coment": "A prevenção secundária atua em quem já tem a doença, para detectá-la precocemente ou evitar recorrência e progressão. É o caso da antiagregação após um evento cerebrovascular. A prevenção primária evita a doença em quem ainda não a tem; a terciária busca reduzir incapacidade e reabilitar quem já tem sequela; e a quaternária protege o paciente do excesso de intervenção médica, evitando iatrogenia e sobrediagnóstico. Essa taxonomia é cobrada com frequência e se distingue pelo momento da história natural em que a ação incide.",
   "porAlt": [
    "A prevenção primária evita a ocorrência da doença em quem ainda não a tem.",
    "A prevenção terciária busca reduzir incapacidade e reabilitar quem já apresenta sequela.",
-   "Correta: prevenção secundária — evitar recorrência em paciente que já teve o evento.",
+   "Correta: prevenção secundária. Evitar recorrência em paciente que já teve o evento.",
    "A prevenção quaternária protege o paciente do excesso de intervenção médica."
   ],
   "fonte": {
@@ -173,7 +173,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "MDS evidence-based review on treatments for Parkinson’s disease, 2024; American Geriatrics Society Beers Criteria, 2023",
-  "coment": "Paciente com doença de Parkinson que passa a apresentar declínio cognitivo e alucinações visuais tem, como primeira medida, a revisão dos fármacos com potencial de piorar cognição e psicose. O anticolinérgico — biperideno — é o primeiro a sair: tem baixa eficácia motora, é formalmente desaconselhado no idoso pelos critérios de Beers e é a causa mais evitável de confusão e alucinação nesse contexto. Só depois se considera reduzir agonista dopaminérgico e, persistindo o quadro, prescrever inibidor da colinesterase para a demência e quetiapina ou clozapina para a psicose.",
+  "coment": "Paciente com doença de Parkinson que passa a apresentar declínio cognitivo e alucinações visuais tem, como primeira medida, a revisão dos fármacos com potencial de piorar cognição e psicose. O anticolinérgico, biperideno, é o primeiro a sair: tem baixa eficácia motora, é formalmente desaconselhado no idoso pelos critérios de Beers e é a causa mais evitável de confusão e alucinação nesse contexto. Só depois se considera reduzir agonista dopaminérgico e, persistindo o quadro, prescrever inibidor da colinesterase para a demência e quetiapina ou clozapina para a psicose.",
   "porAlt": [
    "Suspender a levodopa piora o parkinsonismo e não é o primeiro passo diante de alucinação.",
    "Correta: suspender o biperideno, anticolinérgico desaconselhado no idoso e principal culpado pela piora cognitiva e pelas alucinações.",
@@ -198,12 +198,12 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA — Diretrizes diagnósticas e terapêuticas de sarcomas ósseos, 2022; NCCN Guidelines for Bone Cancer",
-  "coment": "Dor óssea progressiva, com piora noturna, massa palpável em região metafisária de osso longo, febre e perda de peso em adolescente ou adulto jovem alto é a apresentação clássica do osteossarcoma. A investigação começa por radiografia — que mostra lesão agressiva com reação periosteal em raios de sol e triângulo de Codman —, segue com ressonância do segmento para estadiamento local, tomografia de tórax para metástases pulmonares e biópsia realizada em centro de referência, no trajeto da futura cirurgia. O tratamento combina quimioterapia neoadjuvante, cirurgia e quimioterapia adjuvante.",
+  "base": "INCA. Diretrizes diagnósticas e terapêuticas de sarcomas ósseos, 2022; NCCN Guidelines for Bone Cancer",
+  "coment": "Dor óssea progressiva, com piora noturna, massa palpável em região metafisária de osso longo, febre e perda de peso em adolescente ou adulto jovem alto é a apresentação clássica do osteossarcoma. A investigação começa por radiografia, que mostra lesão agressiva com reação periosteal em raios de sol e triângulo de Codman, segue com ressonância do segmento para estadiamento local, tomografia de tórax para metástases pulmonares e biópsia realizada em centro de referência, no trajeto da futura cirurgia. O tratamento combina quimioterapia neoadjuvante, cirurgia e quimioterapia adjuvante.",
   "porAlt": [
    "Calo ósseo não cursa com febre, perda ponderal e massa progressiva.",
    "Osteopenia não produz tumoração palpável nem dor progressiva com febre.",
-   "Correta: osteossarcoma — investigação com ressonância e biópsia, com tratamento que inclui quimioterapia.",
+   "Correta: osteossarcoma. Investigação com ressonância e biópsia, com tratamento que inclui quimioterapia.",
    "Lesão por esforço repetitivo não explica massa, febre e emagrecimento."
   ],
   "fonte": {
@@ -225,7 +225,7 @@
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r3",
-  "base": "American Psychiatric Association — Practice Guideline for the Treatment of Patients With Schizophrenia, 2020; UpToDate/consensos sobre síndrome neuroléptica maligna",
+  "base": "American Psychiatric Association. Practice Guideline for the Treatment of Patients With Schizophrenia, 2020; UpToDate/consensos sobre síndrome neuroléptica maligna",
   "coment": "A síndrome neuroléptica maligna combina hipertermia, rigidez muscular generalizada, disautonomia e alteração do nível de consciência, com elevação acentuada de creatinoquinase e risco de rabdomiólise e lesão renal. O tratamento é suspender imediatamente o agente antidopaminérgico, oferecer suporte intensivo com resfriamento e hidratação vigorosa e, nos casos moderados a graves, associar dantroleno, que age no músculo, e agonista dopaminérgico como bromocriptina ou amantadina. Benzodiazepínico ajuda na agitação e na rigidez, e eletroconvulsoterapia é opção refratária.",
   "porAlt": [
    "Correta: dantroleno e bromocriptina, associados à suspensão do agente e ao suporte intensivo.",
@@ -253,8 +253,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r1",
-  "base": "Ministério da Saúde — manual do Prontuário Eletrônico do Cidadão (e-SUS APS), 2023; Weed, problem-oriented medical record (1968)",
-  "coment": "No registro clínico orientado por problemas, organizado pelo método SOAP, o campo Subjetivo reúne o que o paciente relata — sintomas, preocupações, contexto; o Objetivo reúne o que o profissional mede ou observa, como sinais vitais, medidas antropométricas e achados de exame físico e complementares; a Avaliação traz a hipótese e a interpretação; e o Plano descreve conduta, exames solicitados e orientações. Sinais vitais e medidas antropométricas são, portanto, dado objetivo, e o medo e a insônia relatados são conteúdo subjetivo relevante, não descartável.",
+  "base": "Ministério da Saúde. Manual do Prontuário Eletrônico do Cidadão (e-SUS APS), 2023; Weed, problem-oriented medical record (1968)",
+  "coment": "No registro clínico orientado por problemas, organizado pelo método SOAP, o campo Subjetivo reúne o que o paciente relata, sintomas, preocupações, contexto; o Objetivo reúne o que o profissional mede ou observa, como sinais vitais, medidas antropométricas e achados de exame físico e complementares; a Avaliação traz a hipótese e a interpretação; e o Plano descreve conduta, exames solicitados e orientações. Sinais vitais e medidas antropométricas são, portanto, dado objetivo, e o medo e a insônia relatados são conteúdo subjetivo relevante, não descartável.",
   "porAlt": [
    "Sinais vitais e medidas antropométricas não são relato do paciente, e sim dado medido.",
    "A Avaliação registra hipótese e interpretação, não os dados brutos medidos.",
@@ -280,7 +280,7 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Rede de Atenção Psicossocial (RAPS), Portaria nº 3.088/2011; Guia prático de matriciamento em saúde mental",
+  "base": "Ministério da Saúde. Rede de Atenção Psicossocial (RAPS), Portaria nº 3.088/2011; Guia prático de matriciamento em saúde mental",
   "coment": "Depressão com resposta insuficiente após seis meses de tratamento que evolui com sintomas psicóticos e ideação suicida sem plano configura caso de maior complexidade, que exige cuidado intensivo mas não internação imediata: a paciente mantém vínculo, tem suporte familiar e não apresenta risco iminente. O dispositivo adequado da Rede de Atenção Psicossocial é o Centro de Atenção Psicossocial, com equipe multiprofissional, que oferece acompanhamento intensivo em regime aberto e articula-se com a unidade básica por matriciamento. Internação se reserva a risco iminente ou falha do cuidado territorial.",
   "porAlt": [
    "Apenas trocar a medicação na unidade básica subestima a gravidade do quadro com sintomas psicóticos e ideação suicida.",
@@ -307,7 +307,7 @@
   "comp": "tto",
   "nivel": "r2",
   "base": "NICE guideline on generalised anxiety disorder and panic disorder, 2020; Ministério da Saúde, Caderno de Atenção Básica de Saúde Mental",
-  "coment": "Ataques recorrentes de ansiedade intensa desencadeados por sair de casa, com esquiva que limita atividades cotidianas, caracterizam transtorno de pânico com agorafobia. O tratamento com melhor evidência combina psicoterapia estruturada — terapia cognitivo-comportamental com exposição — e ajuste do antidepressivo, cuja dose de sertralina pode ser titulada progressivamente, já que dez semanas com resposta parcial em dose inicial indicam subtratamento. Benzodiazepínico pode ser usado por período curto na crise, mas como estratégia isolada mantém a esquiva e cria dependência.",
+  "coment": "Ataques recorrentes de ansiedade intensa desencadeados por sair de casa, com esquiva que limita atividades cotidianas, caracterizam transtorno de pânico com agorafobia. O tratamento com melhor evidência combina psicoterapia estruturada, terapia cognitivo-comportamental com exposição, e ajuste do antidepressivo, cuja dose de sertralina pode ser titulada progressivamente, já que dez semanas com resposta parcial em dose inicial indicam subtratamento. Benzodiazepínico pode ser usado por período curto na crise, mas como estratégia isolada mantém a esquiva e cria dependência.",
   "porAlt": [
    "Benzodiazepínico isolado com encaminhamento à emergência psiquiátrica é desproporcional e não trata a esquiva.",
    "Manter a mesma dose diante de resposta parcial após dez semanas perpetua o subtratamento.",
@@ -332,7 +332,7 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas — Portaria MS nº 254/2002; Ministério da Saúde, diretrizes do Subsistema de Atenção à Saúde Indígena",
+  "base": "Política Nacional de Atenção à Saúde dos Povos Indígenas: Portaria MS nº 254/2002; Ministério da Saúde, diretrizes do Subsistema de Atenção à Saúde Indígena",
   "coment": "A política de saúde indígena exige atenção diferenciada, com respeito às práticas e à organização social de cada povo, e participação da comunidade nas decisões sobre o próprio cuidado. Uma intervenção comunitária construída com as lideranças, na própria aldeia, em roda de conversa que pactua os próximos passos com os participantes, é coerente com esses princípios e com o controle social. Palestras expositivas no polo base, planejadas apenas pela equipe, deslocam o cuidado para fora do território e reproduzem um modelo vertical que a política afasta.",
   "porAlt": [
    "Correta: roda de conversa na aldeia, construída com as lideranças e pactuando os próximos passos com os participantes.",

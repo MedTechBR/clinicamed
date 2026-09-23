@@ -13,7 +13,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "ESC Guidelines for the management of adult congenital heart disease, 2020; AHA/ACC guideline for the management of adults with congenital heart disease, 2018",
-  "coment": "Desdobramento fixo da segunda bulha — que não varia com a respiração — é o achado semiológico característico da comunicação interatrial, porque o shunt esquerda-direita mantém sobrecarga constante do ventrículo direito e retarda o fechamento pulmonar em todas as fases do ciclo respiratório. A dispneia progressiva em adulto jovem completa o quadro. O risco clássico é a embolia paradoxal: um trombo venoso atravessa o defeito e alcança a circulação sistêmica, causando acidente vascular cerebral em paciente jovem sem outros fatores de risco.",
+  "coment": "Desdobramento fixo da segunda bulha, que não varia com a respiração, é o achado semiológico característico da comunicação interatrial, porque o shunt esquerda-direita mantém sobrecarga constante do ventrículo direito e retarda o fechamento pulmonar em todas as fases do ciclo respiratório. A dispneia progressiva em adulto jovem completa o quadro. O risco clássico é a embolia paradoxal: um trombo venoso atravessa o defeito e alcança a circulação sistêmica, causando acidente vascular cerebral em paciente jovem sem outros fatores de risco.",
   "porAlt": [
    "A estenose pulmonar causa sopro sistólico ejetivo com clique e desdobramento amplo, mas variável.",
    "A estenose mitral cursa com ruflar diastólico e primeira bulha hiperfonética.",
@@ -38,8 +38,8 @@
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "Diretriz Brasileira de Hipertensão Arterial — SBC/SBH/SBN, 2025; AHA scientific statement on hypertensive crises",
-  "coment": "Elevação pressórica grave com confusão mental e papiledema caracteriza emergência hipertensiva com encefalopatia — lesão aguda de órgão-alvo que exige internação em ambiente monitorizado e redução controlada da pressão por via intravenosa, com nitroprussiato de sódio ou nicardipina, buscando queda de 20 a 25% na primeira hora, e não normalização abrupta, que causa isquemia. O contexto sugere ainda rebote pela suspensão da clonidina, agravado pelo betabloqueio sem alfabloqueio prévio — mecanismo idêntico ao erro cometido no feocromocitoma.",
+  "base": "Diretriz Brasileira de Hipertensão Arterial: SBC/SBH/SBN, 2025; AHA scientific statement on hypertensive crises",
+  "coment": "Elevação pressórica grave com confusão mental e papiledema caracteriza emergência hipertensiva com encefalopatia, lesão aguda de órgão-alvo que exige internação em ambiente monitorizado e redução controlada da pressão por via intravenosa, com nitroprussiato de sódio ou nicardipina, buscando queda de 20 a 25% na primeira hora, e não normalização abrupta, que causa isquemia. O contexto sugere ainda rebote pela suspensão da clonidina, agravado pelo betabloqueio sem alfabloqueio prévio. Mecanismo idêntico ao erro cometido no feocromocitoma.",
   "porAlt": [
    "Intubar e dosar enzimas cardíacas não é a prioridade diante de encefalopatia hipertensiva com papiledema.",
    "Correta: monitorização, acesso venoso e anti-hipertensivo intravenoso titulável, com redução controlada.",
@@ -64,7 +64,7 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "INCA/Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020; US Public Health Service, Treating Tobacco Use and Dependence",
+  "base": "INCA/Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020; US Public Health Service, Treating Tobacco Use and Dependence",
   "coment": "O programa brasileiro de cessação do tabagismo é estruturado em abordagem cognitivo-comportamental, preferencialmente em grupo, com quatro sessões iniciais semanais e manutenção, associada a farmacoterapia conforme o grau de dependência. O formato em grupo funciona pela interação, pelo apoio mútuo e pelo compartilhamento de estratégias, com resultados equivalentes ou superiores ao atendimento individual e melhor custo-efetividade. Aconselhamento e medicação são eficazes isoladamente e mais eficazes em conjunto, e intervenções mais intensas produzem maiores taxas de abstinência.",
   "porAlt": [
    "Intervenções mais intensas produzem taxas de abstinência maiores que a intervenção breve.",
@@ -91,7 +91,7 @@
   "comp": "dx",
   "nivel": "r2",
   "base": "NCCN Guidelines for Hodgkin Lymphoma, 2025; INCA, diretrizes diagnósticas e terapêuticas do linfoma de Hodgkin, 2022",
-  "coment": "Linfonodo cervical firme, indolor e persistente, com prurido generalizado, calafrios recorrentes e taquicardia em adulta jovem, aponta para linfoma — o prurido e os sintomas B são apresentação típica do Hodgkin. Nesse cenário, aguardar resolução, tratar com antibiótico ou prescrever corticoide são condutas prejudiciais: o corticoide, em especial, pode induzir remissão parcial e comprometer o diagnóstico histológico. A conduta é biópsia excisional do linfonodo, que preserva a arquitetura necessária ao diagnóstico e à classificação.",
+  "coment": "Linfonodo cervical firme, indolor e persistente, com prurido generalizado, calafrios recorrentes e taquicardia em adulta jovem, aponta para linfoma. O prurido e os sintomas B são apresentação típica do Hodgkin. Nesse cenário, aguardar resolução, tratar com antibiótico ou prescrever corticoide são condutas prejudiciais: o corticoide, em especial, pode induzir remissão parcial e comprometer o diagnóstico histológico. A conduta é biópsia excisional do linfonodo, que preserva a arquitetura necessária ao diagnóstico e à classificação.",
   "porAlt": [
    "A sorologia para mononucleose não explica três meses de evolução com prurido e linfonodo endurecido.",
    "Antibiótico trata adenite bacteriana, que seria dolorosa e de curta evolução.",
@@ -117,7 +117,7 @@
   "comp": "prev",
   "nivel": "r3",
   "base": "AASLD Practice Guidance on coagulation disorders in patients with cirrhosis, 2021; ASH/ISTH guidance on periprocedural management in liver disease",
-  "coment": "Na cirrose, o INR alargado não prediz risco de sangramento: ele mede apenas os fatores pró-coagulantes, enquanto os anticoagulantes naturais também estão reduzidos, mantendo um equilíbrio instável. Por isso, corrigir INR com plasma ou complexo protrombínico antes de procedimento é prática abandonada — não reduz sangramento, causa sobrecarga de volume e eleva a pressão portal. Transfusão de plaquetas se discute em contagens muito baixas, em geral abaixo de 50 mil, o que não é o caso, e a vitamina K só ajuda quando há deficiência associada.",
+  "coment": "Na cirrose, o INR alargado não prediz risco de sangramento: ele mede apenas os fatores pró-coagulantes, enquanto os anticoagulantes naturais também estão reduzidos, mantendo um equilíbrio instável. Por isso, corrigir INR com plasma ou complexo protrombínico antes de procedimento é prática abandonada. Não reduz sangramento, causa sobrecarga de volume e eleva a pressão portal. Transfusão de plaquetas se discute em contagens muito baixas, em geral abaixo de 50 mil, o que não é o caso, e a vitamina K só ajuda quando há deficiência associada.",
   "porAlt": [
    "Vitamina K corrige deficiência específica, e não a coagulopatia da hepatopatia crônica.",
    "Plasma ou complexo protrombínico não reduz sangramento e aumenta volume e pressão portal.",
@@ -143,8 +143,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "INCA/Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020; Miller e Rollnick, entrevista motivacional",
-  "coment": "A paciente tem dependência muito elevada pelo teste de Fagerström, motivação para cessar em estágio pré-contemplativo e diagnóstico recente de câncer de pulmão — condição em que parar de fumar melhora resposta ao tratamento, cicatrização e sobrevida. A abordagem indicada combina entrevista motivacional, para trabalhar a ambivalência sem confronto, apoio cognitivo-comportamental e farmacoterapia plena, que na dependência elevada costuma associar reposição de nicotina em duas formas ou reposição combinada a bupropiona ou vareniclina.",
+  "base": "INCA/Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo, 2020; Miller e Rollnick, entrevista motivacional",
+  "coment": "A paciente tem dependência muito elevada pelo teste de Fagerström, motivação para cessar em estágio pré-contemplativo e diagnóstico recente de câncer de pulmão. Condição em que parar de fumar melhora resposta ao tratamento, cicatrização e sobrevida. A abordagem indicada combina entrevista motivacional, para trabalhar a ambivalência sem confronto, apoio cognitivo-comportamental e farmacoterapia plena, que na dependência elevada costuma associar reposição de nicotina em duas formas ou reposição combinada a bupropiona ou vareniclina.",
   "porAlt": [
    "Correta: entrevista motivacional com suporte comportamental e farmacoterapia adequada.",
    "Cigarro eletrônico não é estratégia aprovada de cessação no Brasil e é proibido pela ANVISA.",
@@ -171,7 +171,7 @@
   "comp": "dx",
   "nivel": "r1",
   "base": "ASH Guidelines for Management of Venous Thromboembolism: Diagnosis of VTE, 2018; ESC Guidelines on acute pulmonary embolism, 2019",
-  "coment": "Dor, edema progressivo e aumento de sensibilidade em membro inferior de paciente com neoplasia ativa configuram alta probabilidade clínica de trombose venosa profunda — o câncer é um dos principais fatores de risco, tanto pela doença quanto pelo tratamento. Com probabilidade alta pelo escore de Wells, o exame indicado é a ultrassonografia com Doppler, e o dímero-D perde utilidade, pois já está elevado na maioria dos pacientes oncológicos. Confirmada a trombose, a anticoagulação preferida hoje é com anticoagulante oral direto ou heparina de baixo peso molecular.",
+  "coment": "Dor, edema progressivo e aumento de sensibilidade em membro inferior de paciente com neoplasia ativa configuram alta probabilidade clínica de trombose venosa profunda. O câncer é um dos principais fatores de risco, tanto pela doença quanto pelo tratamento. Com probabilidade alta pelo escore de Wells, o exame indicado é a ultrassonografia com Doppler, e o dímero-D perde utilidade, pois já está elevado na maioria dos pacientes oncológicos. Confirmada a trombose, a anticoagulação preferida hoje é com anticoagulante oral direto ou heparina de baixo peso molecular.",
   "porAlt": [
    "A flebografia é invasiva e foi substituída pela ultrassonografia com Doppler.",
    "A arteriografia investiga doença arterial, e o pulso está presente.",
@@ -197,7 +197,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "ESPEN practical guideline: Clinical Nutrition in Cancer, 2021; consenso brasileiro de nutrição em oncologia",
-  "coment": "As metas nutricionais em oncologia se calculam pelo peso: 25 a 30 quilocalorias por quilo por dia e 1 a 1,5 grama de proteína por quilo por dia, podendo chegar a 2 gramas em depleção acentuada. Para 70 kg, isso corresponde a cerca de 2.000 quilocalorias e cerca de 100 gramas de proteína. Perda de 10% do peso caracteriza risco nutricional elevado e justifica intervenção precoce, com suplementação oral e, quando insuficiente, terapia enteral — a desnutrição reduz tolerância à quimioterapia, aumenta toxicidade e piora o desfecho cirúrgico.",
+  "coment": "As metas nutricionais em oncologia se calculam pelo peso: 25 a 30 quilocalorias por quilo por dia e 1 a 1,5 grama de proteína por quilo por dia, podendo chegar a 2 gramas em depleção acentuada. Para 70 kg, isso corresponde a cerca de 2.000 quilocalorias e cerca de 100 gramas de proteína. Perda de 10% do peso caracteriza risco nutricional elevado e justifica intervenção precoce, com suplementação oral e, quando insuficiente, terapia enteral. A desnutrição reduz tolerância à quimioterapia, aumenta toxicidade e piora o desfecho cirúrgico.",
   "porAlt": [
    "Correta: cerca de 2.000 quilocalorias e 100 gramas de proteína, pelo cálculo por quilo de peso.",
    "Duzentos gramas de proteína excedem largamente a recomendação máxima de 2 g/kg.",
@@ -222,8 +222,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Epidemiologia — viés de aferição em estudos caso-controle; Rothman, Modern Epidemiology, 4ª edição, 2021",
-  "coment": "A razão de chances compara a chance de exposição entre casos e controles. Se os controles subestimam sistematicamente o tabagismo por desejabilidade social, a exposição medida no grupo controle fica artificialmente baixa, o denominador da razão diminui e a razão de chances resulta maior que a verdadeira — ou seja, superestimada. Trata-se de viés de aferição diferencial, e a maneira de reduzi-lo é usar medidas objetivas, como cotinina, ou coleta padronizada e cega quanto ao desfecho.",
+  "base": "Epidemiologia. Viés de aferição em estudos caso-controle; Rothman, Modern Epidemiology, 4ª edição, 2021",
+  "coment": "A razão de chances compara a chance de exposição entre casos e controles. Se os controles subestimam sistematicamente o tabagismo por desejabilidade social, a exposição medida no grupo controle fica artificialmente baixa, o denominador da razão diminui e a razão de chances resulta maior que a verdadeira, ou seja, superestimada. Trata-se de viés de aferição diferencial, e a maneira de reduzi-lo é usar medidas objetivas, como cotinina, ou coleta padronizada e cega quanto ao desfecho.",
   "porAlt": [
    "Correta: a razão de chances será superestimada, porque a exposição nos controles é subnotificada.",
    "A subestimação da razão ocorreria se os casos é que subnotificassem a exposição.",
@@ -249,7 +249,7 @@
   "comp": "tto",
   "nivel": "r3",
   "base": "NCCN Guidelines for Antiemesis, 2025; ASCO Antiemetics Guideline Update, 2020",
-  "coment": "Em êmese por quimioterapia altamente emetogênica que persiste apesar de esquema tríplice com antagonista de receptor de serotonina, corticoide e antagonista de neurocinina-1, a adição recomendada é a olanzapina — que bloqueia múltiplos receptores envolvidos na êmese e mostrou superioridade em ensaios randomizados, tanto na fase aguda quanto na tardia. O esquema quádruplo passou a ser padrão nesses regimes. Metoclopramida, haloperidol e anti-histamínicos permanecem como opções de resgate, com evidência inferior.",
+  "coment": "Em êmese por quimioterapia altamente emetogênica que persiste apesar de esquema tríplice com antagonista de receptor de serotonina, corticoide e antagonista de neurocinina-1, a adição recomendada é a olanzapina. Que bloqueia múltiplos receptores envolvidos na êmese e mostrou superioridade em ensaios randomizados, tanto na fase aguda quanto na tardia. O esquema quádruplo passou a ser padrão nesses regimes. Metoclopramida, haloperidol e anti-histamínicos permanecem como opções de resgate, com evidência inferior.",
   "porAlt": [
    "Metoclopramida é opção de resgate com evidência inferior à olanzapina nesse cenário.",
    "Haloperidol é alternativa de resgate, não a adição preferida ao esquema profilático.",
@@ -274,8 +274,8 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r3",
-  "base": "Epidemiologia clínica — interpretação de hazard ratio e intervalo de confiança; ensaio CHALLENGE de exercício estruturado em câncer de cólon, 2025",
-  "coment": "O hazard ratio de 0,72 indica redução de 28% no risco relativo do desfecho, e o intervalo de confiança de 95% entre 0,55 e 0,94 não inclui o valor nulo de 1, o que significa significância estatística. A diferença absoluta de sobrevida livre de doença em cinco anos, de 80,3% contra 73,9%, são 6,4 pontos percentuais — magnitude clinicamente relevante para uma intervenção não farmacológica, segura e de baixo custo. Ensaio randomizado com quase 900 pacientes e seguimento de quase oito anos é desenho adequado para esse desfecho.",
+  "base": "Epidemiologia clínica. Interpretação de hazard ratio e intervalo de confiança; ensaio CHALLENGE de exercício estruturado em câncer de cólon, 2025",
+  "coment": "O hazard ratio de 0,72 indica redução de 28% no risco relativo do desfecho, e o intervalo de confiança de 95% entre 0,55 e 0,94 não inclui o valor nulo de 1, o que significa significância estatística. A diferença absoluta de sobrevida livre de doença em cinco anos, de 80,3% contra 73,9%, são 6,4 pontos percentuais. Magnitude clinicamente relevante para uma intervenção não farmacológica, segura e de baixo custo. Ensaio randomizado com quase 900 pacientes e seguimento de quase oito anos é desenho adequado para esse desfecho.",
   "porAlt": [
    "Randomização protege contra viés de seleção, e o problema levantado não se aplica.",
    "Quase oito anos de seguimento é tempo adequado para sobrevida livre de doença nesse cenário.",
@@ -300,8 +300,8 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; CDC STI Treatment Guidelines, 2021",
-  "coment": "Alteração de personalidade com desinibição, associada a pupilas mióticas que não reagem à luz — pupila de Argyll Robertson — e a comprometimento do cordão posterior, com perda vibratória e sinal de Romberg, é a apresentação da neurossífilis nas formas parética e tabética. O exame que confirma é a punção lombar com VDRL no líquido cefalorraquidiano, ao lado de celularidade e proteína. O tratamento é penicilina cristalina intravenosa por 14 dias, e a demência da neurossífilis é uma das poucas causas potencialmente reversíveis.",
+  "base": "Ministério da Saúde. PCDT para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis, 2022; CDC STI Treatment Guidelines, 2021",
+  "coment": "Alteração de personalidade com desinibição, associada a pupilas mióticas que não reagem à luz, pupila de Argyll Robertson, e a comprometimento do cordão posterior, com perda vibratória e sinal de Romberg, é a apresentação da neurossífilis nas formas parética e tabética. O exame que confirma é a punção lombar com VDRL no líquido cefalorraquidiano, ao lado de celularidade e proteína. O tratamento é penicilina cristalina intravenosa por 14 dias, e a demência da neurossífilis é uma das poucas causas potencialmente reversíveis.",
   "porAlt": [
    "O eletroencefalograma não estabelece esse diagnóstico.",
    "A deficiência de folato não explica a pupila de Argyll Robertson.",
@@ -326,8 +326,8 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "OMS — AUDIT: Guidelines for Use in Primary Care, 2ª edição, 2001; Ministério da Saúde, Guia de intervenção breve para uso de álcool, 2021",
-  "coment": "O AUDIT rastreia uso problemático de álcool: escores de 8 a 15 indicam uso de risco, 16 a 19 uso nocivo e 20 ou mais sugerem provável dependência, com indicação de avaliação e tratamento. O escore de 22 é, portanto, rastreamento positivo em faixa de dependência. O manejo combina intervenção breve e psicoterapia com farmacoterapia — naltrexona ou acamprosato, ambos de primeira linha —, e a situação exige ainda orientação explícita sobre dirigir, dado que se trata de exame admissional para motorista profissional.",
+  "base": "OMS. AUDIT: Guidelines for Use in Primary Care, 2ª edição, 2001; Ministério da Saúde, Guia de intervenção breve para uso de álcool, 2021",
+  "coment": "O AUDIT rastreia uso problemático de álcool: escores de 8 a 15 indicam uso de risco, 16 a 19 uso nocivo e 20 ou mais sugerem provável dependência, com indicação de avaliação e tratamento. O escore de 22 é, portanto, rastreamento positivo em faixa de dependência. O manejo combina intervenção breve e psicoterapia com farmacoterapia (naltrexona ou acamprosato, ambos de primeira linha), e a situação exige ainda orientação explícita sobre dirigir, dado que se trata de exame admissional para motorista profissional.",
   "porAlt": [
    "Escore de 22 é rastreamento positivo, e não negativo, e a farmacoterapia não é dispensável.",
    "Correta: rastreamento positivo, com orientação sobre direção e oferta de naltrexona ou acamprosato.",

@@ -13,8 +13,8 @@
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, guidelines on advanced HIV disease",
-  "coment": "Piora clínica com febre, linfadenomegalia com necrose central e fistulização, infiltrado reticulonodular e espessamento ileal cerca de um mês após o início da terapia antirretroviral em paciente com CD4 muito baixo caracteriza síndrome inflamatória de reconstituição imune, quase sempre desmascarando tuberculose ou micobacteriose. A conduta é manter a terapia antirretroviral — suspendê-la agrava a imunossupressão e a mortalidade —, investigar e tratar a infecção subjacente e associar corticoide, que reduz sintomas e necessidade de internação na reconstituição associada a tuberculose.",
+  "base": "Ministério da Saúde. PCDT para Manejo da Infecção pelo HIV em Adultos, 2024; OMS, guidelines on advanced HIV disease",
+  "coment": "Piora clínica com febre, linfadenomegalia com necrose central e fistulização, infiltrado reticulonodular e espessamento ileal cerca de um mês após o início da terapia antirretroviral em paciente com CD4 muito baixo caracteriza síndrome inflamatória de reconstituição imune, quase sempre desmascarando tuberculose ou micobacteriose. A conduta é manter a terapia antirretroviral, suspendê-la agrava a imunossupressão e a mortalidade, investigar e tratar a infecção subjacente e associar corticoide, que reduz sintomas e necessidade de internação na reconstituição associada a tuberculose.",
   "porAlt": [
    "Suspender a terapia antirretroviral em doença avançada aumenta a mortalidade e não resolve a reação inflamatória.",
    "Linfoma é diferencial, mas o contexto temporal e o padrão necrótico apontam para reconstituição imune com micobactéria; a biópsia não muda a conduta imediata.",
@@ -41,7 +41,7 @@
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "IDSA/CDC — Guidelines for Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV, 2024; Ministério da Saúde, Manual de precauções e isolamento hospitalar, 2022",
+  "base": "IDSA/CDC. Guidelines for Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV, 2024; Ministério da Saúde, Manual de precauções e isolamento hospitalar, 2022",
   "coment": "Herpes-zóster em paciente gravemente imunossuprimido por pulsoterapia com corticoide e ciclofosfamida, acometendo o ramo oftálmico, tem risco elevado de disseminação cutânea e visceral e de complicação ocular. A conduta é internar, iniciar aciclovir por via parenteral e manter precaução de contato somada à precaução respiratória para aerossóis enquanto houver risco de disseminação, porque o zóster disseminado transmite varicela. O acometimento do ramo oftálmico exige ainda avaliação oftalmológica pelo risco de ceratite e uveíte.",
   "porAlt": [
    "Aciclovir oral domiciliar é insuficiente em imunossupressão grave com acometimento oftálmico e risco de disseminação.",
@@ -75,7 +75,7 @@
    "A hemocromatose cursa com sobrecarga de ferro, diabetes e hiperpigmentação, sem parkinsonismo em jovem.",
    "A hepatite autoimune não explica o quadro neurológico extrapiramidal nem responde a quelação de cobre.",
    "A colangite esclerosante primária cursa com colestase e associação com doença inflamatória intestinal.",
-   "Correta: doença de Wilson — hepatopatia, hemólise com Coombs negativo e disfunção dos gânglios da base, tratada com quelação e zinco.",
+   "Correta: doença de Wilson. Hepatopatia, hemólise com Coombs negativo e disfunção dos gânglios da base, tratada com quelação e zinco.",
    "A síndrome de Budd-Chiari é obstrução do fluxo venoso hepático, com ascite e hepatomegalia dolorosa, sem manifestação neurológica."
   ],
   "fonte": {
@@ -100,7 +100,7 @@
   "base": "ASAS/EULAR recommendations for the management of axial spondyloarthritis, 2022; Sociedade Brasileira de Reumatologia, consenso de espondiloartrites",
   "coment": "Lombalgia e dor sacroilíaca com mais de três meses em paciente jovem, com rigidez matinal que melhora com exercício, dor que desperta na segunda metade da noite e redução da expansibilidade torácica constituem o padrão de dor lombar inflamatória da espondiloartrite axial, cujo protótipo é a espondilite anquilosante. A investigação inclui radiografia de sacroilíacas, ressonância quando a radiografia é normal, proteína C reativa e HLA-B27. O tratamento começa com exercício e anti-inflamatório, escalonando para imunobiológico anti-TNF ou anti-IL-17 na doença ativa persistente.",
   "porAlt": [
-   "Correta: espondilite anquilosante — dor lombar inflamatória crônica em jovem, com rigidez que melhora ao exercício e redução da expansibilidade torácica.",
+   "Correta: espondilite anquilosante. Dor lombar inflamatória crônica em jovem, com rigidez que melhora ao exercício e redução da expansibilidade torácica.",
    "A artrite reumatoide acomete predominantemente pequenas articulações periféricas de forma simétrica e poupa o esqueleto axial.",
    "A esclerose sistêmica cursa com fenômeno de Raynaud, espessamento cutâneo e acometimento visceral.",
    "A doença de Crohn pode associar-se a espondiloartrite, mas exige manifestação intestinal, ausente no enunciado.",
@@ -126,7 +126,7 @@
   "comp": "dx",
   "nivel": "r3",
   "base": "EASL Clinical Practice Guidelines on porphyrias, 2022; Ministério da Saúde, PCDT de hepatite C, 2024",
-  "coment": "A porfiria cutânea tardia é a porfiria mais comum e a única em que o tratamento consiste em flebotomias seriadas e hidroxicloroquina em dose baixa, associadas à eliminação dos fatores desencadeantes — hepatite C, álcool, estrogênio, sobrecarga de ferro e HIV. Manifesta-se por fragilidade cutânea, bolhas e cicatrizes em áreas fotoexpostas, sobretudo no dorso das mãos, com hipertricose malar. O tratamento da hepatite C com antivirais de ação direta melhora a porfiria, o que confirma o vínculo etiológico neste caso.",
+  "coment": "A porfiria cutânea tardia é a porfiria mais comum e a única em que o tratamento consiste em flebotomias seriadas e hidroxicloroquina em dose baixa, associadas à eliminação dos fatores desencadeantes. Hepatite C, álcool, estrogênio, sobrecarga de ferro e HIV. Manifesta-se por fragilidade cutânea, bolhas e cicatrizes em áreas fotoexpostas, sobretudo no dorso das mãos, com hipertricose malar. O tratamento da hepatite C com antivirais de ação direta melhora a porfiria, o que confirma o vínculo etiológico neste caso.",
   "porAlt": [
    "A porfiria aguda intermitente cursa com crises de dor abdominal e manifestação neuropsiquiátrica, sem lesão cutânea, e o tratamento é hemina e glicose.",
    "A protoporfiria eritropoiética causa dor e queimação imediata à exposição solar, iniciando na infância.",
@@ -153,7 +153,7 @@
   "cenario": "uti",
   "comp": "dx",
   "nivel": "r3",
-  "base": "Ministério da Saúde — Guia de Vigilância em Saúde, leptospirose, 2024; KDIGO, lesão renal aguda",
+  "base": "Ministério da Saúde. Guia de Vigilância em Saúde, leptospirose, 2024; KDIGO, lesão renal aguda",
   "coment": "A lesão renal da leptospirose é uma nefrite tubulointersticial aguda, com acometimento predominante do túbulo, o que explica dois achados típicos e cobrados: a poliúria com incapacidade de concentrar a urina e a hipocalemia, incomum em outras causas de lesão renal aguda, em que a tendência é reter potássio. A gravidade renal se soma à icterícia e à hemorragia pulmonar na síndrome de Weil, e o tratamento inclui antibiótico precoce, correção volêmica cuidadosa e diálise indicada de forma precoce.",
   "porAlt": [
    "A necrose tubular aguda é o padrão da lesão isquêmica ou tóxica clássica, e não o achado característico da leptospirose.",
@@ -181,7 +181,7 @@
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r3",
-  "base": "Ministério da Saúde — PCDT para Hepatite C e Coinfecções, 2024; EASL recommendations on treatment of hepatitis C",
+  "base": "Ministério da Saúde. PCDT para Hepatite C e Coinfecções, 2024; EASL recommendations on treatment of hepatitis C",
   "coment": "No retratamento da hepatite C após falha a antiviral de ação direta, o protocolo do Ministério da Saúde indica esquema que combine inibidor de protease com inibidor de NS5A e sofosbuvir, ou seja, sofosbuvir associado a glecaprevir/pibrentasvir, por 12 semanas em cirrose compensada Child-Pugh A. Repetir esquema semelhante ao que falhou tende a esbarrar em variantes de resistência. Inibidores de protease são contraindicados na cirrose descompensada Child-Pugh B ou C, ponto que precisa ser checado antes da prescrição.",
   "porAlt": [
    "Correta: associação de sofosbuvir a glecaprevir/pibrentasvir por 12 semanas, esquema de resgate recomendado após falha a antiviral de ação direta.",
@@ -209,12 +209,12 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "INCA — Diretrizes diagnósticas e terapêuticas do melanoma cutâneo, 2023; NCCN Guidelines for Cutaneous Melanoma",
-  "coment": "Lesão pigmentada de crescimento lento com bordas irregulares, coloração heterogênea, ulceração e linfonodo axilar palpável em área fotoexposta de trabalhador rural preenche os critérios de suspeição para melanoma. A conduta é biópsia excisional com margens estreitas para definir o índice de Breslow, seguida de ampliação de margens conforme a espessura e pesquisa do linfonodo sentinela — que, com linfonodo clinicamente palpável, dá lugar à confirmação por punção e ao esvaziamento quando positiva. Curetagem, eletrocoagulação e crioterapia destroem a lesão e impedem o estadiamento histológico.",
+  "base": "INCA. Diretrizes diagnósticas e terapêuticas do melanoma cutâneo, 2023; NCCN Guidelines for Cutaneous Melanoma",
+  "coment": "Lesão pigmentada de crescimento lento com bordas irregulares, coloração heterogênea, ulceração e linfonodo axilar palpável em área fotoexposta de trabalhador rural preenche os critérios de suspeição para melanoma. A conduta é biópsia excisional com margens estreitas para definir o índice de Breslow, seguida de ampliação de margens conforme a espessura e pesquisa do linfonodo sentinela. Que, com linfonodo clinicamente palpável, dá lugar à confirmação por punção e ao esvaziamento quando positiva. Curetagem, eletrocoagulação e crioterapia destroem a lesão e impedem o estadiamento histológico.",
   "porAlt": [
    "O carcinoma basocelular é perolado com telangiectasias e raramente dá linfonodo palpável.",
    "O queratoacantoma cresce em semanas e não se trata com antibiótico.",
-   "Correta: melanoma — excisão cirúrgica com margens e avaliação do linfonodo.",
+   "Correta: melanoma. Excisão cirúrgica com margens e avaliação do linfonodo.",
    "O dermatofibroma é nódulo firme e estável, e observar uma lesão ulcerada em crescimento perde o diagnóstico.",
    "Eletrocoagulação e curetagem destroem a peça e inviabilizam a medida do Breslow, mesmo se fosse carcinoma espinocelular."
   ],
@@ -237,7 +237,7 @@
   "cenario": "enf",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis, 2020; ACG guideline on diverticular disease",
+  "base": "American Society of Colon and Rectal Surgeons. Clinical Practice Guidelines for the Treatment of Left-Sided Colonic Diverticulitis, 2020; ACG guideline on diverticular disease",
   "coment": "Diverticulite aguda complicada por abscesso pericólico maior que 3 a 4 cm é tratada com antibioticoterapia intravenosa associada a drenagem percutânea guiada por imagem, estratégia que controla o foco, evita cirurgia de urgência e permite, quando indicada, uma ressecção eletiva posterior em melhores condições. Abscessos menores costumam responder apenas ao antibiótico. A cirurgia de urgência fica reservada à peritonite difusa, à perfuração livre e à falha do tratamento clínico e da drenagem.",
   "porAlt": [
    "Tratamento ambulatorial é inadequado diante de abscesso de 6 cm.",
@@ -265,7 +265,7 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "Ministério da Saúde — Caderneta de Saúde da Pessoa Idosa e diretrizes de cuidados paliativos, 2023; ANCP, Manual de Cuidados Paliativos",
+  "base": "Ministério da Saúde. Caderneta de Saúde da Pessoa Idosa e diretrizes de cuidados paliativos, 2023; ANCP, Manual de Cuidados Paliativos",
   "coment": "Idoso com demência avançada, imobilidade grau IV e alta dependência corresponde ao perfil de fragilidade em que a meta do cuidado deixa de ser reabilitação ou controle metabólico rigoroso e passa a ser conforto, prevenção de complicações e qualidade de vida. Metas glicêmicas e pressóricas devem ser afrouxadas pelo risco de hipoglicemia, hipotensão e queda, e a desprescrição de fármacos sem benefício no horizonte de vida restante é parte do tratamento. Reconhecer esse paciente como candidato a cuidados paliativos é o que organiza todas as demais decisões.",
   "porAlt": [
    "Controle rigoroso de pressão e glicemia nesse perfil aumenta o risco de hipoglicemia, hipotensão e queda sem benefício.",
@@ -293,7 +293,7 @@
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r1",
-  "base": "Diretriz da Sociedade Brasileira de Diabetes, 2024; American Diabetes Association — Standards of Care in Diabetes, 2025",
+  "base": "Diretriz da Sociedade Brasileira de Diabetes, 2024; American Diabetes Association, Standards of Care in Diabetes, 2025",
   "coment": "O diagnóstico de diabetes exige glicemia de jejum igual ou superior a 126 mg/dL, hemoglobina glicada igual ou superior a 6,5% ou glicemia de duas horas no teste de tolerância igual ou superior a 200 mg/dL, sempre confirmados por um segundo exame alterado em ocasião distinta, salvo quando há sintomas clássicos com glicemia casual igual ou superior a 200 mg/dL. Duas glicemias de jejum em datas diferentes, ambas acima de 126 mg/dL, satisfazem o critério. Glicemia capilar não serve para diagnóstico, e glicada entre 5,7 e 6,4% indica pré-diabetes.",
   "porAlt": [
    "Correta: duas glicemias de jejum em datas distintas, de 136 e 152 mg/dL, confirmam o diagnóstico.",
@@ -321,7 +321,7 @@
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "International Working Group on the Diabetic Foot — IWGDF Guidelines, 2023; Ministério da Saúde, Manual do pé diabético",
+  "base": "International Working Group on the Diabetic Foot: IWGDF Guidelines, 2023; Ministério da Saúde, Manual do pé diabético",
   "coment": "A estratificação do risco do pé diabético combina três elementos: perda da sensibilidade protetora, doença arterial periférica e presença de deformidade, úlcera ou amputação prévia. Sem nenhum deles, a paciente é de risco muito baixo, categoria zero, e a recomendação é reavaliação anual com educação sobre autoexame, calçado adequado e cuidados com as unhas. À medida que surgem neuropatia, deformidade, doença arterial ou história de úlcera, a categoria sobe e o intervalo de reavaliação encurta progressivamente até três meses.",
   "porAlt": [
    "O grau I pressupõe perda da sensibilidade protetora ou doença arterial periférica.",

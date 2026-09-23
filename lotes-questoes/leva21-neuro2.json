@@ -1,98 +1,98 @@
 [
  {
-  "q": "Mulher de 52 anos chega com cefaleia de início súbito, descrita como a pior da vida, atingindo intensidade máxima em segundos, com rigidez de nuca. A tomografia de crânio sem contraste, feita quatro horas depois, é normal. Qual é a conduta?",
+  "q": "Mulher de 45 anos chega 3 horas após cefaleia de início súbito durante exercício, com intensidade máxima em 1 minuto. Não perdeu a consciência nem teve convulsão; exame neurológico normal e sem rigidez de nuca. Pressão arterial 138/84 mmHg. Tomografia de crânio sem contraste, em aparelho de múltiplos detectores e laudada por neurorradiologista, feita 3 horas e 20 minutos após o início, sem sangue. Qual é a interpretação quanto à hemorragia subaracnoidea?",
   "alts": [
-   "Liberar com analgesia oral, uma vez que a tomografia normal afasta com segurança causa estrutural.",
-   "Solicitar eletroencefalograma como próximo exame, para investigar a origem da dor referida por ela.",
-   "Tratar como enxaqueca com triptano e reavaliar em ambulatório dentro das próximas quatro semanas.",
-   "Iniciar corticoide em dose máxima empiricamente, cobrindo arterite temporal nessa faixa etária.",
-   "Realizar punção lombar em busca de xantocromia, pois a tomografia normal não exclui a hemorragia."
+   "Tomografia em até 6 horas praticamente afasta a hemorragia",
+   "Punção lombar é obrigatória após tomografia normal",
+   "Angiografia digital é o próximo exame necessário",
+   "Repetir a tomografia em 24 horas",
+   "Ressonância de crânio antes da alta hospitalar"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "dx",
-  "nivel": "tit",
-  "base": "American Headache Society, 2019, e Harrison's Principles of Internal Medicine, 22ª edição, 2025",
-  "coment": "Cefaleia em trovoada — início súbito com pico em segundos — obriga a excluir hemorragia subaracnóidea. A tomografia sem contraste tem sensibilidade próxima de 100% nas primeiras seis horas, mas cai progressivamente depois disso; quando a suspeita é forte e a tomografia é normal, a punção lombar em busca de xantocromia e hemácias que não clareiam segue indicada, idealmente após 12 horas do início. Angiotomografia é alternativa em protocolos específicos. Liberar o paciente sem completar a investigação é o erro que precede o ressangramento, que costuma ser fatal.",
+  "nivel": "r2",
+  "base": "ACEP Clinical Policy: Critical Issues in the Evaluation and Management of Adult Patients Presenting With Acute Headache, 2019; Perry et al., BMJ, 2011",
+  "coment": "Estudos de Perry e metanálises mostraram que tomografia de múltiplos detectores feita em até 6 horas do início da cefaleia, interpretada por radiologista experiente, em paciente com exame neurológico normal, tem sensibilidade próxima de 100% para hemorragia subaracnoidea. A política clínica do ACEP (2019) aceita afastar o diagnóstico nesse cenário sem punção lombar. Após 6 horas, é necessária punção (idealmente após 12 horas, para xantocromia) ou angiotomografia. Vasoconstrição reversível e dissecção seguem no diferencial se a suspeita persistir.",
   "porAlt": [
-   "A tomografia perde sensibilidade após as primeiras horas e não afasta hemorragia subaracnóidea neste cenário.",
-   "O eletroencefalograma não tem papel na investigação de cefaleia em trovoada com suspeita de hemorragia.",
-   "Tratar como enxaqueca ignora o padrão de início súbito, que é justamente a bandeira vermelha do quadro.",
-   "A arterite temporal cursa com cefaleia subaguda em maiores de 50 anos, e não com início explosivo em segundos.",
-   "Correta: a suspeita de hemorragia subaracnóidea com tomografia normal exige punção lombar em busca de xantocromia."
+   "Tomografia moderna em até 6 horas, laudada por neurorradiologista, com exame normal tem sensibilidade próxima de 100%.",
+   "Após 6 horas a punção passa a ser necessária; antes disso, com esses critérios, não.",
+   "Angiografia digital não é exame de exclusão inicial.",
+   "Repetir a tomografia não aumenta a sensibilidade de forma útil.",
+   "Ressonância não é necessária para afastar a hemorragia nesse cenário."
   ]
  },
  {
-  "q": "Homem de 28 anos teve o primeiro episódio de crise tônico-clônica generalizada, com duração de dois minutos, sem trauma nem uso de drogas. Está recuperado, com exame neurológico normal, ressonância normal e eletroencefalograma sem alterações epileptiformes. Qual é a conduta?",
+  "q": "Homem de 28 anos teve a primeira crise tônico-clônica generalizada, de 2 minutos, após noite sem dormir, sem trauma, álcool ou drogas. Está recuperado, com exame neurológico normal. Glicemia, sódio, cálcio e magnésio normais. Ressonância de crânio normal e eletroencefalograma com privação de sono sem descargas epileptiformes. Não há história familiar de epilepsia. Trabalha como motorista de aplicativo. Não usa medicações. Qual é a conduta?",
   "alts": [
-   "Iniciar antiepiléptico em todos os casos de primeira crise, independentemente do resultado dos exames.",
-   "Não iniciar nenhum antiepiléptico e orientar restrições e retorno, pois a recorrência é menos provável.",
-   "Internar para observação por trinta dias, período mínimo de vigilância após uma primeira crise assim.",
-   "Solicitar apenas dosagem de prolactina para confirmar que a crise foi de origem realmente epiléptica.",
-   "Iniciar dois antiepilépticos desde o começo, esquema que reduz mais a chance de nova crise no futuro."
+   "Iniciar levetiracetam por 2 anos",
+   "Iniciar fenitoína e suspender após 6 meses sem crise",
+   "Não iniciar antiepiléptico e orientar direção e riscos",
+   "Valproato pela crise generalizada",
+   "Internar para videoeletroencefalograma de 72 horas"
   ],
-  "gab": 1,
+  "gab": 2,
   "tema": "neuro",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r3",
-  "base": "American Academy of Neurology, 2015 — Evidence-based guideline: management of an unprovoked first seizure in adults",
-  "coment": "Após uma primeira crise não provocada com exame neurológico, imagem e eletroencefalograma normais, o risco de recorrência em dois anos é de cerca de 30% a 40%, e iniciar antiepiléptico reduz a chance de crise a curto prazo sem melhorar o prognóstico a longo prazo. A decisão é individualizada e considera profissão, direção veicular e preferência do paciente. Quando há lesão estrutural na imagem, alteração epileptiforme no eletroencefalograma, crise noturna ou déficit neurológico, o risco de recorrência sobe muito e o tratamento passa a ser recomendado.",
+  "base": "AAN/AES Evidence-based Guideline: Management of an Unprovoked First Seizure in Adults, 2015",
+  "coment": "Após primeira crise não provocada, a AAN e a AES (2015) estimam recorrência de 21 a 45% em 2 anos, maior com lesão estrutural, eletroencefalograma epileptiforme, crise durante o sono ou lesão cerebral prévia. Tratar de imediato reduz a recorrência nos 2 primeiros anos em cerca de 35%, sem melhorar a remissão a longo prazo, e expõe a efeitos adversos. Com exames normais, a decisão é compartilhada e costuma-se não tratar. A direção de veículos fica suspensa pelo período previsto na legislação.",
   "porAlt": [
-   "Tratar toda primeira crise expõe o paciente a efeitos adversos sem melhorar o prognóstico a longo prazo.",
-   "Correta: com exames normais o risco de recorrência é menor e não se inicia antiepiléptico de rotina após a primeira crise.",
-   "Não há indicação de internação prolongada em paciente recuperado, com exame e investigação normais.",
-   "A prolactina tem janela curta e valor limitado, e não é o exame que define a conduta após a primeira crise.",
-   "Iniciar dois fármacos de saída é conduta de epilepsia refratária, e não de primeira crise não provocada."
+   "Com exames normais, o risco de recorrência não obriga tratar; tratar não muda o prognóstico a longo prazo.",
+   "Fenitoína não é indicada, e não há diagnóstico de epilepsia.",
+   "Primeira crise com ressonância e eletroencefalograma normais: sem antiepiléptico, com orientação sobre direção, sono e segurança.",
+   "Valproato é teratogênico e não indicado sem diagnóstico de epilepsia.",
+   "Videoeletroencefalograma prolongado não é necessário após a primeira crise."
   ]
  },
  {
-  "q": "Mulher de 76 anos apresenta declínio de memória há dois anos, com dificuldade progressiva para nomear objetos e desorientação em locais conhecidos. Não há flutuação, alucinação nem parkinsonismo. A investigação afastou causas reversíveis. Qual é a hipótese mais provável e a conduta inicial?",
+  "q": "Mulher de 79 anos é trazida pela filha por esquecimento progressivo há 1 ano e episódios de confusão. Usa oxibutinina 5 mg três vezes ao dia para incontinência urinária há 18 meses, amitriptilina 25 mg à noite para insônia e prometazina ocasional. MoCA de 19/30. TSH, vitamina B12, sódio, cálcio e glicemia normais; sorologia para sífilis negativa. Ressonância com atrofia cortical leve e poucas lesões de substância branca. Qual é a conduta mais adequada?",
   "alts": [
-   "Demência por corpos de Lewy, hipótese sustentada pela ausência de flutuação e de sintoma parkinsoniano.",
-   "Demência vascular, definida sempre pelo padrão progressivo e insidioso do declínio cognitivo relatado.",
-   "Delirium crônico, condição que se instala ao longo de anos em pacientes idosos institucionalizados.",
-   "Doença de Alzheimer, sempre combinando medida não farmacológica e inibidor de colinesterase hoje.",
-   "Depressão maior isolada, que explica todo declínio cognitivo em idosos e dispensa outra investigação."
+   "Donepezila e diagnóstico de Alzheimer",
+   "Memantina associada à rivastigmina",
+   "Haloperidol para a confusão",
+   "Retirar anticolinérgicos e reavaliar a cognição",
+   "PET amiloide antes de qualquer mudança"
   ],
   "gab": 3,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "National Institute on Aging e Alzheimer's Association, 2011, critérios revisados; Cecil Medicina, 26ª edição, 2022",
-  "coment": "O padrão insidioso e progressivo, com perda de memória episódica seguida de alteração de linguagem e de orientação espacial, é típico de doença de Alzheimer. Corpos de Lewy cursaria com flutuação cognitiva, alucinações visuais bem formadas e parkinsonismo; demência vascular costuma ter curso em degraus e fatores de risco vasculares; e depressão pode causar déficit cognitivo, mas o quadro tende a melhorar com tratamento. O manejo combina intervenção não farmacológica — estimulação, exercício, ajuste ambiental, apoio ao cuidador — com inibidor de colinesterase, e exige rever a lista de medicamentos anticolinérgicos.",
+  "base": "American Geriatrics Society Beers Criteria, 2023; NICE guideline NG97: Dementia, 2018",
+  "coment": "Fármacos com alta carga anticolinérgica (oxibutinina, antidepressivos tricíclicos, anti-histamínicos de primeira geração) causam déficit de memória e atenção e confusão em idosos, e constam dos critérios de Beers como potencialmente inapropriados. Na avaliação de declínio cognitivo, a revisão de medicamentos vem antes do rótulo de demência. A conduta é retirar ou substituir (por exemplo, mirabegrona para bexiga hiperativa e higiene do sono) e repetir a avaliação cognitiva após algumas semanas.",
   "porAlt": [
-   "A demência por corpos de Lewy exige flutuação, alucinação visual ou parkinsonismo, justamente o que o enunciado nega.",
-   "A demência vascular costuma ter curso em degraus, com achados focais e fatores de risco vasculares proeminentes.",
-   "Delirium é agudo e flutuante por definição; não existe delirium que se instale ao longo de dois anos de evolução.",
-   "Correta: o padrão insidioso com memória episódica, linguagem e orientação aponta Alzheimer, tratado com medidas não farmacológicas e inibidor de colinesterase.",
-   "A depressão pode causar déficit cognitivo, mas não explica sozinha a progressão descrita e a investigação já foi feita."
+   "Antes de firmar demência, anticolinérgicos, causa reversível de déficit cognitivo, devem ser retirados.",
+   "Associar fármacos para demência sem diagnóstico firmado é inadequado.",
+   "Antipsicótico em idosa com déficit cognitivo aumenta mortalidade e piora a cognição.",
+   "Oxibutinina, amitriptilina e prometazina somam alta carga anticolinérgica: retirar e reavaliar em semanas.",
+   "Biomarcador não substitui a correção de causa reversível evidente."
   ]
  },
  {
-  "q": "Homem de 43 anos tem crises de cefaleia pulsátil unilateral, com fotofobia, fonofobia e náusea, três a quatro vezes por mês, cada uma durando um dia inteiro e incapacitando-o para o trabalho. Usa analgésico comum sem alívio adequado. Qual é a conduta?",
+  "q": "Homem de 43 anos tem enxaqueca sem aura com 5 crises por mês, cada uma durando 1 dia e o impedindo de trabalhar, apesar de tratamento agudo com naproxeno e sumatriptana, usados em 6 dias por mês. Tem hipertensão (148/94 mmHg sem tratamento), asma persistente moderada e teve cálculo renal há 1 ano. Índice de massa corporal de 31 kg/m². Não tem depressão nem insônia. Qual é a opção de profilaxia mais adequada?",
   "alts": [
-   "Manter apenas analgésico comum em dose maior, aumentando a frequência de uso conforme a dor piora.",
-   "Solicitar ressonância de crânio antes de qualquer tratamento, exame obrigatório em toda enxaqueca.",
-   "Prescrever opioide de uso regular, que é a melhor opção para crises frequentes e incapacitantes.",
-   "Iniciar profilaxia sem tratamento agudo, pois medicação de crise é dispensável quando há profilaxia.",
-   "Prescrever tratamento agudo específico e iniciar profilaxia, pela frequência e pela incapacidade."
+   "Propranolol 80 mg/dia",
+   "Topiramato 100 mg/dia",
+   "Valproato de sódio 500 mg/dia",
+   "Flunarizina 10 mg/dia",
+   "Candesartana 16 mg/dia"
   ],
   "gab": 4,
   "tema": "neuro",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "American Headache Society, 2021 — consensus statement on integrating new migraine treatments; Cecil, 26ª edição, 2022",
-  "coment": "A enxaqueca tem dois eixos de tratamento. O agudo usa anti-inflamatório ou triptano, tomado cedo na crise. A profilaxia é indicada quando há quatro ou mais dias de dor por mês, ou quando as crises são incapacitantes ou não respondem bem ao tratamento agudo — o caso descrito —, com opções como betabloqueador, topiramato, amitriptilina, candesartana e, em falha, anticorpos contra o CGRP. Neuroimagem não é necessária na enxaqueca típica sem bandeira vermelha. O uso frequente de analgésico comum leva à cefaleia por uso excessivo de medicação, que perpetua o quadro.",
+  "base": "AAN/AHS Evidence-based guideline update: Pharmacologic treatment for episodic migraine prevention in adults, 2012; American Headache Society Consensus Statement, 2021",
+  "coment": "Profilaxia de enxaqueca é indicada com 4 ou mais dias de cefaleia por mês, crises incapacitantes ou falha do tratamento agudo. A escolha segue as comorbidades: propranolol na hipertensão sem asma, topiramato na obesidade sem litíase, amitriptilina na insônia ou depressão. Candesartana tem evidência de ensaios clínicos na prevenção da enxaqueca e trata a hipertensão sem piorar asma, cálculo renal ou peso. O efeito é avaliado após 2 a 3 meses.",
   "porAlt": [
-   "Aumentar a frequência do analgésico comum leva à cefaleia por uso excessivo, que agrava e cronifica o quadro.",
-   "A enxaqueca típica sem bandeira vermelha dispensa neuroimagem, que não deve atrasar o início do tratamento.",
-   "Opioide na enxaqueca traz risco de dependência e de cefaleia por uso excessivo, sem vantagem sobre o triptano.",
-   "A profilaxia reduz frequência mas não elimina crises, de modo que o tratamento agudo continua necessário.",
-   "Correta: crises frequentes e incapacitantes indicam associar tratamento agudo específico e profilaxia regular."
+   "Betabloqueador não seletivo é contraindicado na asma.",
+   "Topiramato aumenta o risco de litíase renal.",
+   "Valproato aumenta peso e tem mais efeitos adversos.",
+   "Flunarizina aumenta peso e pode causar depressão e parkinsonismo.",
+   "Candesartana previne enxaqueca e trata a hipertensão, sem piorar asma, cálculo ou peso."
   ]
  }
 ]

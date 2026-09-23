@@ -1,98 +1,98 @@
 [
  {
-  "q": "Um paciente de 58 anos com diabetes descompensado é atendido na unidade básica e precisa de consulta com endocrinologista, que só existe no município-sede da região. O médico da equipe não sabe como encaminhar. Qual instrumento organiza esse fluxo no SUS?",
+  "q": "Homem de 58 anos com diabetes descompensado é atendido na unidade básica de um município de 9.000 habitantes e precisa de consulta com endocrinologista e de exames que só existem no município-sede, a 80 km. A unidade básica não tem acesso a sistema de regulação próprio. A secretaria municipal discute com a Comissão Intergestores Regional como organizar essas referências. Pelo Decreto 7.508/2011, uma Região de Saúde deve conter, no mínimo, quais ações e serviços?",
   "alts": [
-   "A livre escolha do usuário, que pode se apresentar diretamente em qualquer serviço do país.",
-   "O poder discricionário do médico assistente, que define sozinho para onde encaminhar o caso.",
-   "A ordem de chegada em fila única nacional, gerida diretamente pelo Ministério da Saúde hoje.",
-   "O plano municipal de saúde isolado, que independe de cada pactuação com outros municípios.",
-   "O contrato organizativo da ação pública e a pactuação regional das referências entre gestores."
+   "Apenas atenção primária e vigilância sanitária",
+   "Hospital de alta complexidade e transplantes",
+   "Atenção primária, urgência e hospital de ensino",
+   "Primária, urgência, psicossocial, especializada, hospitalar e vigilância",
+   "Só os serviços que o município mantém sozinho"
   ],
-  "gab": 4,
+  "gab": 3,
   "tema": "sus",
   "cenario": "amb",
-  "comp": "prev",
+  "comp": "dx",
   "nivel": "r2",
-  "base": "Decreto nº 7.508/2011 e Lei nº 8.080/1990 — região de saúde, mapa da saúde e COAP",
-  "coment": "O Decreto nº 7.508/2011 organizou a regionalização: a região de saúde reúne municípios limítrofes, com serviços mínimos definidos, e as referências para os pontos de maior densidade tecnológica são pactuadas entre os gestores nas comissões intergestores, formalizando-se no contrato organizativo da ação pública da saúde. O usuário entra pelas portas de entrada definidas — atenção primária, urgência, atenção psicossocial e serviços especiais de acesso aberto — e o percurso subsequente segue a pactuação, não a escolha individual do profissional nem a livre apresentação em qualquer serviço.",
+  "base": "Decreto n. 7.508, de 28 de junho de 2011; Lei n. 8.080, de 19 de setembro de 1990",
+  "coment": "O Decreto 7.508/2011, que regulamenta a Lei 8.080/1990, define a Região de Saúde como espaço geográfico contínuo de municípios limítrofes que deve conter, no mínimo, ações e serviços de atenção primária, urgência e emergência, atenção psicossocial, atenção ambulatorial especializada e hospitalar, e vigilância em saúde. A pactuação entre gestores ocorre na Comissão Intergestores Regional, e as referências são organizadas em redes de atenção, com a atenção primária como porta de entrada ordenadora.",
   "porAlt": [
-   "A universalidade garante acesso, mas o percurso segue as portas de entrada e a pactuação regional definidas em norma.",
-   "O encaminhamento segue fluxo pactuado; não é decisão isolada do profissional, que atua dentro da rede organizada.",
-   "Não existe fila única nacional gerida pelo Ministério: a regulação é pactuada em âmbito regional e estadual.",
-   "O plano municipal existe, mas é justamente a pactuação intermunicipal que viabiliza o acesso ao que falta no município.",
-   "Correta: as referências regionais são pactuadas entre gestores e formalizadas no contrato organizativo da ação pública."
+   "A região precisa de mais do que atenção primária e vigilância.",
+   "Alta complexidade e transplantes não são exigência mínima de cada região.",
+   "Hospital de ensino não é requisito.",
+   "O decreto exige atenção primária, urgência e emergência, atenção psicossocial, atenção especializada e hospitalar, e vigilância em saúde.",
+   "A região existe justamente para garantir o que o município isolado não oferece."
   ]
  },
  {
-  "q": "Homem de 82 anos, com demência avançada e acamado, é internado pela quarta vez no ano por broncoaspiração. A família pergunta sobre traqueostomia e nutrição por sonda para prolongar a vida. Qual abordagem é a mais apropriada?",
+  "q": "Homem de 82 anos com Alzheimer avançado (FAST 7c), acamado, sem comunicação verbal, é internado pela quarta vez no ano por pneumonia aspirativa. Perdeu 10% do peso em 6 meses. A videofluoroscopia mostra aspiração de líquidos finos. A família pergunta se a gastrostomia evitará novas pneumonias e prolongará a vida. Não há diretiva antecipada. Recebe dieta pastosa, com ingestão de metade das refeições, e tem lesão por pressão sacral estágio 2. Pelas evidências disponíveis, qual é a orientação mais adequada?",
   "alts": [
-   "Indicar traqueostomia e gastrostomia de imediato, medidas que já prolongam comprovadamente a vida.",
-   "Decidir sozinho pela limitação terapêutica e apenas comunicar a decisão já tomada para a família.",
-   "Conduzir reunião de definição de objetivos de cuidado, discutindo prognóstico e valores do paciente.",
-   "Transferir a decisão inteiramente à família, sem oferecer qualquer recomendação médica sobre o caso.",
-   "Adiar a discussão para o momento em que houver parada cardiorrespiratória durante a internação."
+   "Alimentação assistida pela boca, em plano de conforto",
+   "Gastrostomia, que evita novas pneumonias",
+   "Sonda nasoenteral definitiva, que prolonga a sobrevida",
+   "Jejum completo e hidratação endovenosa contínua",
+   "Gastrostomia, que evita lesões por pressão"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "geriatria",
   "cenario": "enf",
   "comp": "tto",
   "nivel": "tit",
-  "base": "American Geriatrics Society, 2014, posicionamento sobre alimentação por sonda na demência avançada; Beers 2023",
-  "coment": "Na demência avançada, a nutrição por sonda não reduz aspiração, não melhora cicatrização de úlceras, não prolonga a vida e associa-se a maior uso de contenção. A conduta correta não é decidir sozinho nem transferir a decisão crua à família: é conduzir uma reunião de definição de objetivos de cuidado, na qual se explica o prognóstico, se investiga o que o paciente valorizava, e se faz uma recomendação médica fundamentada. Adiar a conversa para o momento da parada transforma uma decisão ponderada em decisão feita sob pânico, no pior contexto possível.",
+  "base": "American Geriatrics Society Feeding Tubes in Advanced Dementia Position Statement, 2014; Mitchell, Advanced Dementia, NEJM, 2015",
+  "coment": "Na demência avançada, a alimentação por sonda não prolonga a sobrevida, não previne pneumonia aspirativa (secreções orais e refluxo continuam sendo aspirados), não melhora o estado funcional nem cicatriza lesões por pressão, e está associada a agitação, contenção e uso de serviços de urgência. A AGS (2014) recomenda alimentação cuidadosa assistida pela boca, com consistência adaptada, como a abordagem centrada no conforto e no prazer. A decisão é compartilhada, com base nos valores do paciente.",
   "porAlt": [
-   "A sonda de alimentação na demência avançada não reduz aspiração nem prolonga a vida, e a traqueostomia não muda isso.",
-   "Decidir sozinho e apenas comunicar retira a família do processo e fere o cuidado centrado na pessoa e na sua história.",
-   "Correta: a reunião de objetivos de cuidado permite alinhar prognóstico, valores do paciente e recomendação médica.",
-   "Entregar a decisão sem recomendação sobrecarrega a família com culpa e abandona o papel técnico do médico.",
-   "Adiar para o momento da parada obriga a decidir sob pânico, quando a deliberação cuidadosa não é mais possível."
+   "Demência avançada com disfagia: alimentação assistida pela boca com consistência ajustada, dentro de um plano de conforto.",
+   "Gastrostomia não previne aspiração na demência avançada.",
+   "Sonda não prolonga a sobrevida nesse contexto.",
+   "Jejum e hidratação endovenosa contínua não trazem conforto nem benefício.",
+   "Sonda não previne nem cicatriza lesões por pressão."
   ]
  },
  {
-  "q": "Mulher de 79 anos usa nove medicamentos, entre eles amitriptilina para insônia, diazepam para ansiedade e um anti-inflamatório contínuo para dor no joelho. Teve uma queda com fratura de punho. Qual é a abordagem correta?",
+  "q": "Mulher de 79 anos usa 9 medicamentos, entre eles amitriptilina 25 mg para insônia, diazepam 10 mg à noite há anos, naproxeno contínuo para artrose de joelho, omeprazol, losartana, anlodipino, metformina, atorvastatina e AAS em prevenção primária. Teve queda com fratura de punho. Pressão 118/70 mmHg sentada e 102/62 mmHg em pé. Clearance de 48 mL/min. Mora com o marido e é independente para atividades básicas. Qual é a sequência de desprescrição mais adequada?",
   "alts": [
-   "Manter todos os medicamentos e acrescentar cálcio, evitando mexer em prescrição de outros colegas.",
-   "Substituir a amitriptilina por outro antidepressivo tricíclico, mantendo o benzodiazepínico atual.",
-   "Suspender todos os nove fármacos de uma só vez, para simplificar rapidamente o esquema da paciente.",
-   "Desprescrever de forma estruturada, retirando todos os fármacos de maior risco de queda e dano.",
-   "Acrescentar um antipsicótico à noite, medida indicada para reduzir o risco de novas quedas noturnas."
+   "Suspender todos os 9 fármacos no mesmo dia",
+   "Manter os fármacos e prescrever vitamina D",
+   "Trocar diazepam por alprazolam e manter os demais",
+   "Suspender apenas a atorvastatina e o omeprazol",
+   "Priorizar os de maior risco, um por vez"
   ],
-  "gab": 3,
+  "gab": 4,
   "tema": "geriatria",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "AGS Beers Criteria 2023 — medicamentos potencialmente inapropriados e risco de queda no idoso",
-  "coment": "Amitriptilina, benzodiazepínico e anti-inflamatório contínuo constam entre os medicamentos potencialmente inapropriados no idoso, e os três aumentam risco de queda — o desfecho que já ocorreu. A desprescrição deve ser estruturada: listar todos os fármacos, identificar os de maior risco e menor benefício, retirar um de cada vez com plano de redução gradual quando houver risco de abstinência, e acompanhar. Retirar tudo de uma vez arrisca abstinência e descompensação. Trocar por outro tricíclico não resolve, porque a classe inteira é anticolinérgica e sedativa.",
+  "base": "AGS Beers Criteria, 2023; STOPP/START version 3, European Geriatric Medicine, 2023",
+  "coment": "A desprescrição estruturada prioriza os fármacos de maior dano e menor benefício: amitriptilina (anticolinérgica, sedativa, hipotensão ortostática), diazepam (meia-vida longa, quedas), naproxeno contínuo (sangramento, lesão renal, piora pressórica) e AAS em prevenção primária aos 79 anos (sangramento sem benefício líquido). Retira-se um por vez para atribuir efeitos, com redução gradual de benzodiazepínico e tricíclico e alternativas não farmacológicas ou mais seguras (terapia cognitivo-comportamental para insônia, analgésico tópico, exercício).",
   "porAlt": [
-   "Manter tudo e apenas somar cálcio ignora a causa da queda e acrescenta mais um item à polifarmácia existente.",
-   "Trocar por outro tricíclico mantém o efeito anticolinérgico e sedativo que contribuiu para a queda da paciente.",
-   "Suspender nove fármacos de uma vez arrisca abstinência e descompensação das condições que motivaram cada um.",
-   "Correta: desprescrição estruturada, priorizando os fármacos de maior risco de queda, é a resposta à fratura já ocorrida.",
-   "Antipsicótico à noite aumenta queda, sedação e mortalidade no idoso, sendo o oposto do que o caso pede."
+   "Suspender tudo de uma vez causa abstinência e rebotes sem saber o que foi responsável.",
+   "Manter os fármacos de risco deixa o risco de queda.",
+   "Alprazolam continua sendo benzodiazepínico inapropriado.",
+   "Estatina não é a maior causa de dano nessa prescrição.",
+   "Priorizar amitriptilina, diazepam, naproxeno e AAS, retirando um por vez e gradualmente os que exigem."
   ]
  },
  {
-  "q": "Durante o plantão, um paciente de 47 anos recusa internação apesar de indicação clínica clara, dizendo que precisa trabalhar. Está lúcido, orientado e compreende os riscos que lhe foram explicados. Qual é a conduta correta do médico?",
+  "q": "Homem de 47 anos, pedreiro, tem celulite extensa na perna esquerda com febre de 38,2 °C, sem sinais de sepse (pressão arterial 128/80 mmHg, lactato 1,4 mmol/L), e tem indicação de antibiótico endovenoso com internação. Está lúcido, orientado e repete com as próprias palavras os riscos explicados, mas recusa internar porque precisa trabalhar para sustentar a família. Não há iminente risco de morte. Mora a 3 km do hospital e tem telefone. Qual é a conduta?",
   "alts": [
-   "Internar compulsoriamente com apoio da segurança, pois a indicação clínica prevalece sobre a vontade.",
-   "Registrar a recusa esclarecida em prontuário, oferecendo alternativas e mantendo a porta aberta.",
-   "Chamar a polícia para levar o paciente à internação, procedimento previsto na recusa de tratamento.",
-   "Encerrar o atendimento e negar qualquer assistência futura, já que ele recusou a conduta indicada.",
-   "Solicitar autorização de um familiar para internar, o que supre a recusa manifestada pelo paciente."
+   "Internar contra a vontade pelo risco de complicação",
+   "Chamar a polícia para garantir a internação",
+   "Dar alta sem prescrição, pois recusou o tratamento",
+   "Exigir assinatura de termo e encerrar o atendimento",
+   "Respeitar a recusa, registrar e oferecer alternativa oral"
   ],
-  "gab": 1,
+  "gab": 4,
   "tema": "sus",
   "cenario": "emg",
   "comp": "tto",
-  "nivel": "r1",
-  "base": "Código de Ética Médica, Resolução CFM nº 2.217/2018 — autonomia do paciente e registro da recusa",
-  "coment": "Paciente adulto, lúcido e capaz tem direito de recusar internação, mesmo com indicação clínica. O papel do médico é assegurar que a decisão seja informada — explicar o quadro, os riscos concretos da recusa e as alternativas possíveis —, registrar tudo em prontuário de forma detalhada e oferecer plano alternativo com orientação de retorno. A internação involuntária tem hipóteses específicas e restritas, e não se aplica ao paciente capaz que discorda. Familiar não supre a vontade de adulto capaz, e negar assistência futura configura abandono.",
+  "nivel": "r2",
+  "base": "Código de Ética Médica, Resolução CFM n. 2.217, 2018; Conselho Federal de Medicina, Resolução n. 2.232, 2019",
+  "coment": "O Código de Ética Médica (artigos 22, 24 e 31) veda ao médico desrespeitar o direito do paciente de decidir livremente sobre práticas diagnósticas e terapêuticas, salvo em iminente risco de morte. Diante da recusa de adulto capaz e bem informado, a conduta é registrar o esclarecimento e a decisão, oferecer a melhor alternativa possível (aqui, antibiótico oral com reavaliação precoce) e manter a porta aberta para retorno. A Resolução CFM 2.232/2019 regula a recusa terapêutica.",
   "porAlt": [
-   "A indicação clínica não autoriza internar à força paciente capaz; isso configuraria constrangimento ilegal.",
-   "Correta: registrar a recusa esclarecida, oferecer alternativas e manter a porta aberta é o que a ética e a boa prática exigem.",
-   "O acionamento policial não é procedimento para recusa de tratamento por paciente adulto lúcido e capaz.",
-   "Negar assistência futura por discordância configura abandono e é vedado pelo Código de Ética Médica.",
-   "A autorização de familiar não substitui a vontade de adulto capaz, que decide sobre o próprio corpo."
+   "Internar adulto capaz contra a vontade, sem risco iminente de morte, fere a autonomia.",
+   "Não há base legal para coerção nesse caso.",
+   "Recusar a internação não retira o direito ao melhor tratamento possível fora dela.",
+   "Termo de recusa não substitui o cuidado nem encerra a responsabilidade médica.",
+   "Adulto capaz e esclarecido, sem risco iminente de morte: respeitar, registrar, prescrever antibiótico oral e garantir retorno."
   ]
  }
 ]

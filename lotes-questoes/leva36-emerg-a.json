@@ -1,242 +1,242 @@
 [
  {
-  "q": "Homem de 45 anos é trazido após acidente automobilístico, com hipotensão, taquicardia e distensão abdominal. A avaliação primária mostra via aérea pérvia e murmúrio simétrico. Qual é a prioridade após o controle da via aérea e da ventilação?",
+  "q": "Homem de 45 anos é trazido após colisão automobilística em alta velocidade. Está com pressão de 84/50 mmHg, frequência de 128 bpm, pele fria e pálida, Glasgow de 15 e abdome distendido com dor difusa. O murmúrio vesicular é simétrico, a traqueia é central e a pelve é estável. Recebeu 1000 mL de cristaloide aquecido, com elevação transitória da pressão para 100/60 mmHg e queda em seguida. O FAST mostra líquido livre em espaço hepatorrenal. Qual é a conduta?",
   "alts": [
-   "Solicitar tomografia de corpo inteiro antes de qualquer reposição volêmica ou hemocomponente.",
-   "Administrar grande volume de cristaloide isolado até normalizar completamente a pressão arterial.",
-   "Controlar toda hemorragia e repor com sangue, buscando a fonte com exame dirigido e com imagem.",
-   "Iniciar vasopressor em dose alta como primeira medida para corrigir a hipotensão traumática.",
-   "Aguardar avaliação da cirurgia sem qualquer intervenção, mantendo o paciente em observação."
+   "Laparotomia exploradora e protocolo de transfusão maciça",
+   "Tomografia de abdome com contraste",
+   "Repetir expansão com mais 2000 mL de cristaloide",
+   "Lavado peritoneal diagnóstico",
+   "Observação com reavaliação seriada"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "ATLS — Advanced Trauma Life Support, 11ª edição, 2024; avaliação primária e choque hemorrágico",
-  "coment": "No trauma, a letra C da avaliação primária significa controlar hemorragia e restaurar circulação. A ressuscitação moderna prioriza hemocomponentes em vez de grandes volumes de cristaloide, que diluem fatores de coagulação, agravam a coagulopatia e a hipotermia. A busca da fonte é dirigida: tórax, abdome, pelve, retroperitônio e ossos longos, com ultrassom à beira do leito. O paciente instável não vai à tomografia — vai ao centro cirúrgico ou tem a fonte controlada primeiro.",
+  "base": "ATLS 11ª edição, 2018. Resposta à volemia e controle de danos",
+  "coment": "Resposta transitória à volemia com FAST positivo indica sangramento intra-abdominal ativo. A conduta é controle cirúrgico imediato, com acionamento do protocolo de transfusão maciça e reanimação com hemocomponentes em proporção equilibrada, limitando o cristaloide para não agravar a coagulopatia dilucional.",
   "porAlt": [
-   "Paciente instável não deve ir à tomografia: a imagem só entra depois da estabilização inicial.",
-   "Grandes volumes de cristaloide agravam coagulopatia, hipotermia e acidose, a tríade letal do trauma.",
-   "Correta: controlar a hemorragia e repor com hemocomponentes, buscando a fonte de forma dirigida.",
-   "O vasopressor não substitui volume e sangue no choque hemorrágico, e mascara a hipovolemia real.",
-   "Aguardar sem intervir em choque hemorrágico permite a progressão para parada por exsanguinação."
+   "Correta: sangramento ativo com resposta transitória vai ao centro cirúrgico.",
+   "A tomografia é para o estável.",
+   "Mais cristaloide agrava a tríade letal sem controlar a fonte.",
+   "O lavado peritoneal foi substituído pelo FAST.",
+   "Observar sangramento ativo é inaceitável."
   ]
  },
  {
-  "q": "Mulher de 26 anos chega com edema de lábios e língua, urticária generalizada, sibilos e pressão de 82/48 mmHg, minutos após ingerir amendoim. Qual é a primeira conduta e a via?",
+  "q": "Mulher de 26 anos, com alergia conhecida a amendoim, chega 20 minutos após ingerir bolo em festa. Apresenta edema de lábios e língua, urticária generalizada, sibilos difusos, náusea e sensação de morte iminente. Está com pressão de 78/42 mmHg, frequência de 132 bpm, frequência respiratória de 30 irpm e saturação de 90% em ar ambiente. Está consciente, com estridor incipiente e dificuldade para engolir a própria saliva. Qual é a conduta imediata?",
   "alts": [
-   "Adrenalina por via subcutânea no braço, que é a via de escolha para reação anafilática grave.",
-   "Corticoide endovenoso em dose alta como primeira droga, já por reverter rapidamente o quadro.",
-   "Adrenalina intramuscular na face anterolateral da coxa, antes de qualquer outra medicação.",
-   "Anti-histamínico endovenoso isolado, suficiente para reverter o broncoespasmo e a hipotensão.",
-   "Expansão volêmica isolada com cristaloide, adiando a adrenalina até a chegada do especialista."
+   "Adrenalina intramuscular na coxa",
+   "Corticoide intravenoso em dose alta",
+   "Anti-histamínico intravenoso isolado",
+   "Adrenalina subcutânea no braço acometido",
+   "Nebulização com salbutamol isolada"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "World Allergy Organization anaphylaxis guidance, 2020; GINA 2026 para asma com anafilaxia",
-  "coment": "A adrenalina intramuscular na face anterolateral da coxa é a primeira e insubstituível medida da anafilaxia, na dose de 0,3 a 0,5 mg no adulto, repetível a cada 5 a 15 minutos. A via intramuscular na coxa atinge pico sérico mais rápido que a subcutânea ou o deltoide. Corticoide e anti-histamínico são adjuvantes e não revertem obstrução de via aérea nem choque. O atraso da adrenalina é o principal fator associado a morte por anafilaxia, e não existe contraindicação absoluta ao seu uso nesse contexto.",
+  "base": "WAO 2020, anafilaxia: adrenalina intramuscular como primeira linha",
+  "coment": "Anafilaxia com comprometimento respiratório e hipotensão tem tratamento único de primeira linha: adrenalina intramuscular no vasto lateral da coxa, 0,01 mg/kg até 0,5 mg, repetível a cada 5 a 15 minutos. Decúbito com elevação de membros inferiores, oxigênio e volume completam o atendimento. O edema de língua com estridor exige preparo para via aérea difícil.",
   "porAlt": [
-   "A via subcutânea tem absorção mais lenta e errática, sendo inferior à intramuscular na coxa.",
-   "O corticoide leva horas para agir e não reverte a obstrução de via aérea nem a hipotensão.",
-   "Correta: adrenalina intramuscular na face anterolateral da coxa é a primeira medida da anafilaxia.",
-   "O anti-histamínico age sobre prurido e urticária, sem efeito sobre broncoespasmo ou choque.",
-   "Adiar a adrenalina é o principal fator associado a morte por anafilaxia em todas as séries."
+   "Correta: primeira linha, sem substituto.",
+   "O corticoide tem início lento e não atua na fase aguda.",
+   "O anti-histamínico trata urticária, não o colapso.",
+   "A via subcutânea tem absorção errática no choque.",
+   "O broncodilatador é adjuvante, não trata a anafilaxia."
   ]
  },
  {
-  "q": "Homem de 62 anos é encontrado inconsciente. A glicemia capilar é de 32 mg/dL e ele usa glibenclamida. Após correção com glicose hipertônica, recupera a consciência. Qual é a conduta seguinte?",
+  "q": "Homem de 62 anos, diabético em uso de glibenclamida 10 mg ao dia e com doença renal crônica estágio 3, é encontrado inconsciente pela esposa. A glicemia capilar é de 32 mg/dL. Após glicose hipertônica intravenosa recupera a consciência, mas duas horas depois a glicemia volta a 48 mg/dL, apesar de soro glicosado a 10% em infusão contínua. Está com pressão de 132/78 mmHg, frequência de 88 bpm e creatinina de 2,1 mg/dL. Qual é a conduta?",
   "alts": [
-   "Liberar imediatamente após a recuperação, já que a hipoglicemia foi prontamente corrigida agora.",
-   "Prescrever octreotide como primeira medida, dispensando qualquer observação hospitalar posterior.",
-   "Manter infusão de glicose e observar por tempo prolongado, pelo risco de hipoglicemia recorrente.",
-   "Suspender apenas a glibenclamida e liberar, sem necessidade de observação clínica adicional neste caso.",
-   "Iniciar corticoide em dose alta para prevenir a recorrência do episódio hipoglicêmico grave neste caso."
+   "Internar, manter glicose e considerar octreotide",
+   "Alta após a segunda correção, com orientação alimentar",
+   "Suspender apenas a glibenclamida e liberar",
+   "Administrar glucagon intramuscular e observar 2 horas",
+   "Iniciar insulina em dose baixa para estabilizar"
   ],
-  "gab": 2,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "American Diabetes Association, Standards of Care 2026 — hipoglicemia por sulfonilureia",
-  "coment": "A hipoglicemia por sulfonilureia de longa ação, como a glibenclamida, recorre com frequência depois da correção inicial, porque a meia-vida da droga e de seus metabólitos ultrapassa em muito a duração do bolus de glicose — sobretudo em idosos e na insuficiência renal. Esses pacientes exigem infusão contínua de glicose e observação prolongada, tipicamente de 24 a 48 horas. O octreotide é uma opção adjuvante em hipoglicemia refratária por sulfonilureia, por inibir a secreção de insulina, mas não substitui a observação.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017. Hipoglicemia por sulfonilureia e octreotide",
+  "coment": "A hipoglicemia por sulfonilureia é prolongada e recorrente, especialmente com meia-vida alargada pela doença renal. Esses pacientes exigem internação e observação por pelo menos 24 a 48 horas, com infusão contínua de glicose. O octreotide inibe a liberação pancreática de insulina e é o tratamento indicado na hipoglicemia refratária por sulfonilureia.",
   "porAlt": [
-   "Liberar após um bolus de glicose ignora a meia-vida longa da droga e a recorrência esperada do quadro.",
-   "O octreotide é adjuvante em casos refratários, e nunca substitui a observação hospitalar necessária.",
-   "Correta: sulfonilureia de longa ação causa hipoglicemia recorrente e exige glicose contínua com observação.",
-   "Suspender a droga é necessário, mas a que já está circulando continua causando hipoglicemia por horas.",
-   "O corticoide não previne hipoglicemia por sulfonilureia e não tem indicação nesse contexto clínico."
+   "Correta: internar, manter glicose e usar octreotide na recorrência.",
+   "Dar alta com recorrência documentada é conduta perigosa.",
+   "Suspender o fármaco não reverte o que já está circulando.",
+   "O glucagon tem efeito breve e pode estimular mais insulina.",
+   "Insulina em hipoglicemia é erro grave."
   ]
  },
  {
-  "q": "Mulher de 55 anos chega com vômitos incoercíveis e desidratação grave. Está com pressão de 88/54 mmHg, mucosas secas, turgor reduzido e oligúria há doze horas. Qual é a conduta inicial?",
+  "q": "Mulher de 55 anos chega com vômitos incoercíveis há três dias, sem diarreia, incapaz de aceitar líquidos. Está com mucosas secas, turgor reduzido, pressão de 88/54 mmHg em decúbito, frequência de 122 bpm e débito urinário ausente há 12 horas. Os exames mostram sódio de 148 mEq/L, potássio de 2,8 mEq/L, cloro de 92 mEq/L, bicarbonato de 34 mEq/L, ureia de 92 mg/dL e creatinina de 1,9 mg/dL. Qual é o distúrbio e a conduta inicial?",
   "alts": [
-   "Reposição com solução glicosada a cinco por cento, mais fisiológica para corrigir desidratação.",
-   "Iniciar vasopressor de imediato, antes de qualquer reposição volêmica, para elevar a pressão.",
-   "Prescrever apenas antiemético e reavaliar em seis horas, sem qualquer reposição endovenosa.",
-   "Repor com solução hipertônica a três por cento, corrigindo o déficit de volume mais rápido.",
-   "Reposição volêmica com cristaloide isotônico, com reavaliação frequente da resposta clínica."
+   "Alcalose metabólica hipoclorêmica: salina isotônica com potássio",
+   "Acidose metabólica: bicarbonato intravenoso",
+   "Alcalose respiratória: reduzir a frequência respiratória",
+   "Hiponatremia dilucional: restrição hídrica",
+   "Acidose respiratória: ventilação não invasiva"
   ],
-  "gab": 4,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "tto",
   "nivel": "r1",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — ressuscitação volêmica na hipovolemia",
-  "coment": "Na hipovolemia por perdas digestivas, a reposição é feita com cristaloide isotônico — salina ou solução balanceada —, em alíquotas com reavaliação frequente de perfusão, pressão, diurese e sinais de congestão. Solução glicosada distribui-se por toda a água corporal e expande muito pouco o intravascular, sendo inadequada para ressuscitação. Salina hipertônica tem indicações específicas, como hiponatremia sintomática e hipertensão intracraniana. O vasopressor só entra depois de volume adequado, salvo hipotensão ameaçadora.",
+  "base": "Distúrbios ácido-base, alcalose metabólica responsiva ao cloro (revisão UpToDate 2025)",
+  "coment": "A perda de suco gástrico leva embora hidrogênio, cloro e potássio, produzindo alcalose metabólica hipoclorêmica e hipocalêmica, com contração de volume que perpetua o distúrbio. O tratamento é reposição de volume com salina isotônica e potássio. É a chamada alcalose responsiva ao cloro, corrigida ao restaurar volume e cloreto.",
   "porAlt": [
-   "A glicosada se distribui por toda a água corporal e praticamente não expande o intravascular.",
-   "O vasopressor sem volume mascara a hipovolemia e piora a perfusão de órgãos periféricos.",
-   "Antiemético isolado não corrige o déficit de volume nem a hipoperfusão já instalada.",
-   "A hipertônica é reservada a hiponatremia sintomática e hipertensão intracraniana, não à hipovolemia.",
-   "Correta: cristaloide isotônico com reavaliação frequente é a base da reposição na hipovolemia."
+   "Correta: bicarbonato alto com cloro e potássio baixos, corrigidos com salina e potássio.",
+   "O bicarbonato está elevado: não há acidose metabólica.",
+   "Não há dado de hiperventilação como causa primária.",
+   "O sódio está em 148 mEq/L: é hipernatremia, não hiponatremia.",
+   "Não há hipercapnia nem insuficiência ventilatória."
   ]
  },
  {
-  "q": "Homem de 70 anos chega com dor abdominal difusa intensa, desproporcional ao exame físico, e história de fibrilação atrial sem anticoagulação. O lactato está em 4,8 mmol/L e o abdome é pouco doloroso à palpação. Qual é a principal hipótese?",
+  "q": "Homem de 70 anos, hipertenso e com fibrilação atrial sem anticoagulação, chega com dor abdominal difusa de início súbito há seis horas, de forte intensidade e contínua, com dois episódios de vômito. Ao exame, o abdome é flácido e pouco doloroso à palpação, sem defesa, com ruídos hidroaéreos diminuídos, desproporcional à dor referida. Está com pressão de 122/74 mmHg, frequência de 112 bpm irregular, lactato de 5,0 mmol/L, leucócitos de 21.000/mm³ e acidose metabólica. Qual é a hipótese e a conduta?",
   "alts": [
-   "Isquemia mesentérica aguda por embolia, que cursa com dor desproporcional ao exame físico.",
-   "Diverticulite aguda não complicada, que explica a dor difusa e a elevação do lactato sérico.",
-   "Gastroenterite viral, hipótese preferida diante de dor abdominal difusa em pacientes idosos.",
-   "Constipação intestinal crônica agudizada, causa mais comum de dor abdominal nessa faixa etária.",
-   "Pancreatite aguda leve, já que tipicamente cursa com abdome pouco doloroso e lactato elevado."
+   "Isquemia mesentérica: angiotomografia imediata",
+   "Obstrução intestinal: sonda e radiografia seriada",
+   "Pancreatite aguda: amilase e tomografia em 72 horas",
+   "Diverticulite aguda: antibiótico e tratamento clínico",
+   "Gastroenterite aguda: hidratação e antiemético"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "dx",
   "nivel": "tit",
-  "base": "Harrison's Principles of Internal Medicine, 22ª edição, 2025 — isquemia mesentérica aguda",
-  "coment": "A tríade clássica da isquemia mesentérica aguda é dor abdominal intensa e desproporcional aos achados do exame físico, fator de risco embólico — fibrilação atrial sem anticoagulação é o exemplo clássico — e acidose com lactato elevado. O diagnóstico se faz com angiotomografia de abdome, e o atraso é a principal causa de mortalidade, que permanece alta. Nas fases iniciais, o abdome é surpreendentemente inocente à palpação; quando surgem peritonite e defesa, já há necrose transmural instalada.",
+  "base": "AGA 2000 e ESTES 2016. Isquemia mesentérica aguda",
+  "coment": "Dor desproporcional ao exame físico, em idoso com fibrilação atrial não anticoagulada, com lactato elevado e acidose, é isquemia mesentérica aguda até prova em contrário, provavelmente embólica, por oclusão da artéria mesentérica superior. A angiotomografia com fases arterial e venosa deve ser feita imediatamente: o prognóstico depende do tempo até a revascularização.",
   "porAlt": [
-   "Correta: dor desproporcional ao exame com fator embólico e lactato elevado define isquemia mesentérica.",
-   "A diverticulite tem dor localizada, geralmente em fossa ilíaca esquerda, com sinais inflamatórios locais.",
-   "Gastroenterite não explica lactato elevado nem dor intensa em paciente com fator de risco embólico.",
-   "Constipação não causa lactato elevado e não justifica dor desproporcional em paciente com fibrilação.",
-   "A pancreatite cursa com dor epigástrica intensa à palpação e elevação de amilase e lipase."
+   "Correta: o desproporcional é a assinatura da isquemia mesentérica.",
+   "A obstrução cursa com distensão, parada de eliminação e ruídos aumentados.",
+   "A dor da pancreatite é epigástrica em faixa, e adiar imagem 72 horas é inadequado.",
+   "A diverticulite tem dor localizada em fossa ilíaca esquerda com defesa.",
+   "Gastroenterite não explica lactato de 5,0 mmol/L com acidose."
   ]
  },
  {
-  "q": "Mulher de 40 anos com cetoacidose diabética em tratamento apresenta, após seis horas de insulina endovenosa, glicemia de 240 mg/dL com pH de 7,20 e cetonemia ainda positiva. Qual é a conduta?",
+  "q": "Mulher de 40 anos com cetoacidose diabética está em tratamento há seis horas com insulina regular em bomba de infusão e reposição volêmica. Apresenta agora fraqueza muscular difusa, parestesias e extrassístoles frequentes ao monitor. A glicemia caiu de 480 para 260 mg/dL, o pH está em 7,26, o bicarbonato em 14 mEq/L e o ânion gap em 18. O potássio, que era de 4,2 mEq/L na admissão, está agora em 2,9 mEq/L. O débito urinário é adequado. Qual é a conduta?",
   "alts": [
-   "Suspender a insulina agora, pois a glicemia já caiu abaixo do limiar de duzentos e cinquenta.",
-   "Aumentar a insulina sem glicose associada, acelerando a queda da glicemia até a normalização.",
-   "Iniciar bicarbonato de sódio de rotina, indicado sempre que o pH ficar abaixo de sete e trinta.",
-   "Acrescentar solução glicosada e manter a insulina até a resolução completa da cetoacidose.",
-   "Trocar a insulina endovenosa por subcutânea de longa ação, encerrando a fase aguda do tratamento."
+   "Suspender a insulina, repor potássio e retomar depois",
+   "Manter a insulina e repor potássio em paralelo",
+   "Administrar bicarbonato de sódio intravenoso",
+   "Aumentar a infusão de insulina para fechar o ânion gap",
+   "Suspender a hidratação para concentrar o potássio"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "emergencias",
   "cenario": "uti",
   "comp": "tto",
   "nivel": "r3",
-  "base": "American Diabetes Association, Standards of Care 2026 — manejo da cetoacidose diabética",
-  "coment": "O alvo do tratamento da cetoacidose não é a glicemia, e sim a resolução da cetoacidose: pH acima de 7,30, bicarbonato acima de 18 e fechamento do ânion gap. Quando a glicemia chega a cerca de 200 a 250 mg/dL e a acidose persiste, acrescenta-se solução glicosada e mantém-se a insulina em infusão, para continuar suprimindo a cetogênese sem causar hipoglicemia. Suspender a insulina nesse ponto interrompe a supressão da cetogênese e faz a cetoacidose recrudescer. O bicarbonato não é rotina.",
+  "base": "SBD 2026 e ADA. Potássio no tratamento da cetoacidose diabética",
+  "coment": "A insulina desloca potássio para o intracelular e a cetoacidose já cursa com déficit corporal total, mesmo quando o valor inicial parece normal. Com potássio abaixo de 3,3 mEq/L a insulina deve ser SUSPENSA até a reposição corrigir o valor. Manter a infusão nesse patamar arrisca arritmia fatal e fraqueza da musculatura respiratória.",
   "porAlt": [
-   "Suspender a insulina com cetonemia ativa faz a cetoacidose recrudescer, prolongando a internação.",
-   "Aumentar insulina sem glicose associada leva a hipoglicemia sem acelerar a resolução da acidose.",
-   "O bicarbonato não é indicado de rotina e fica reservado a acidose muito grave, com pH bem menor.",
-   "Correta: acrescentar glicose e manter a insulina até fechar o ânion gap e resolver a acidose.",
-   "A transição para subcutânea só ocorre após resolução da cetoacidose e com sobreposição das vias."
+   "Correta: abaixo de 3,3 mEq/L, suspender a insulina e repor primeiro.",
+   "Manter a insulina com potássio de 2,9 mEq/L é o erro que mata.",
+   "O bicarbonato só entra com pH abaixo de 6,9 e agrava a hipocalemia.",
+   "Aumentar a insulina agrava a hipocalemia.",
+   "Suspender a hidratação piora a perfusão sem corrigir o potássio."
   ]
  },
  {
-  "q": "Homem de 35 anos é trazido com rebaixamento do nível de consciência, pupilas puntiformes e frequência respiratória de 6 irpm. Há relato de uso de opioide. Qual é a conduta imediata?",
+  "q": "Homem de 35 anos é trazido por familiares com rebaixamento do nível de consciência iniciado há cerca de uma hora. Está com Glasgow de 7, pupilas puntiformes e pouco reativas, frequência respiratória de 7 irpm, saturação de 84% em ar ambiente, pressão de 110/68 mmHg e frequência de 62 bpm. A glicemia capilar é de 102 mg/dL e não há sinais de trauma. A família relata uso de analgésico opioide prescrito após cirurgia recente. Qual é a conduta imediata?",
   "alts": [
-   "Intubar imediatamente sem tentar antídoto, conduta padrão em toda depressão respiratória grave.",
-   "Administrar flumazenil, antídoto indicado na intoxicação por opioide com rebaixamento grave.",
-   "Aguardar a eliminação espontânea da droga, mantendo apenas monitorização em ambiente seguro.",
-   "Prescrever carvão ativado por sonda como medida inicial, mesmo com o paciente rebaixado neste caso.",
-   "Assegurar ventilação e administrar naloxona, titulando a dose conforme a resposta respiratória."
-  ],
-  "gab": 4,
-  "tema": "emergencias",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r1",
-  "base": "Medicina de Emergência: Abordagem Prática, USP, 19ª edição; Harrison's, 22ª edição, 2025",
-  "coment": "A tríade de rebaixamento do nível de consciência, miose puntiforme e depressão respiratória caracteriza intoxicação por opioide. A conduta é assegurar ventilação e administrar naloxona, titulada para restaurar a respiração sem precipitar abstinência abrupta — o alvo é a frequência respiratória, não o despertar completo. A meia-vida da naloxona é curta e pode ser inferior à do opioide, exigindo doses repetidas ou infusão contínua. O flumazenil é antídoto de benzodiazepínico e pode precipitar convulsão.",
-  "porAlt": [
-   "A intubação pode ser evitada quando a naloxona reverte a depressão respiratória com segurança.",
-   "O flumazenil reverte benzodiazepínico e pode precipitar convulsão, sem efeito sobre opioide.",
-   "Aguardar a eliminação espontânea mantém a hipoventilação e o risco de parada respiratória.",
-   "Carvão ativado em paciente rebaixado sem via aérea protegida arrisca aspiração pulmonar grave.",
-   "Correta: garantir ventilação e titular naloxona pela resposta respiratória é a conduta imediata."
-  ]
- },
- {
-  "q": "Mulher de 68 anos chega com febre, tosse produtiva e confusão. A frequência respiratória é de 32 irpm, a pressão é de 88/56 mmHg e a ureia está elevada. Qual escore orienta a decisão sobre o local de tratamento e o que ele indica aqui?",
-  "alts": [
-   "O escore de Wells, já que estratifica a gravidade da pneumonia e define o local de tratamento dela.",
-   "O escore de Glasgow, instrumento validado para decidir internação em pneumonia comunitária neste caso.",
-   "O CURB-65, que com quatro critérios presentes indica internação e avaliação de terapia intensiva.",
-   "O escore de Child-Pugh, usado para estimar a gravidade das infecções respiratórias no idoso neste caso.",
-   "O escore de Framingham, que orienta a necessidade de internação nas pneumonias comunitárias neste caso."
-  ],
-  "gab": 2,
-  "tema": "emergencias",
-  "cenario": "emg",
-  "comp": "dx",
-  "nivel": "r1",
-  "base": "American Thoracic Society 2025 — Diagnosis and Management of Community-acquired Pneumonia",
-  "coment": "O CURB-65 pontua confusão, ureia elevada, frequência respiratória de 30 irpm ou mais, pressão baixa (sistólica abaixo de 90 ou diastólica de 60 ou menos) e idade de 65 anos ou mais. A paciente reúne quatro critérios, o que indica internação com forte consideração de terapia intensiva. Escores auxiliam mas não substituem o julgamento clínico, que pesa comorbidades, suporte social e capacidade de tomar medicação em casa. Os demais escores citados pertencem a outros contextos clínicos.",
-  "porAlt": [
-   "O escore de Wells estima probabilidade de embolia pulmonar, sem relação com gravidade de pneumonia.",
-   "A escala de Glasgow mede nível de consciência e não estratifica gravidade de pneumonia comunitária.",
-   "Correta: o CURB-65 com quatro critérios indica internação e avaliação de terapia intensiva.",
-   "O Child-Pugh estima gravidade de hepatopatia crônica, sem aplicação em infecção respiratória.",
-   "O escore de Framingham estima risco cardiovascular, sem qualquer papel na decisão de internar."
-  ]
- },
- {
-  "q": "Homem de 50 anos com queimadura de segundo grau em 30% da superfície corporal chega ao pronto-socorro duas horas após o acidente. Qual é a base do manejo inicial das primeiras vinte e quatro horas?",
-  "alts": [
-   "Antibiótico profilático sistêmico de amplo espectro, prevenindo infecção da queimadura.",
-   "Corticoide sistêmico em dose alta, reduzindo o edema e a resposta inflamatória da queimadura.",
-   "Restrição hídrica rigorosa, evitando o edema tecidual que agrava a lesão térmica instalada.",
-   "Reposição volêmica calculada por fórmula, ajustada pela diurese, com analgesia adequada.",
-   "Desbridamento cirúrgico completo imediato, antes de qualquer reposição volêmica endovenosa."
-  ],
-  "gab": 3,
-  "tema": "emergencias",
-  "cenario": "emg",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "ATLS — Advanced Trauma Life Support, 11ª edição, 2024; manejo inicial do grande queimado",
-  "coment": "O manejo inicial do grande queimado se apoia em reposição volêmica calculada por fórmula, tipicamente com cristaloide, metade nas primeiras oito horas contadas do momento da queimadura, e o restante nas dezesseis horas seguintes. O ajuste real é feito pela diurese, mirando 0,5 mL/kg/h no adulto — a fórmula é ponto de partida, não meta rígida. Somam-se analgesia adequada, controle de temperatura, avaliação de via aérea diante de suspeita de lesão inalatória e profilaxia antitetânica. Antibiótico sistêmico profilático não é indicado.",
-  "porAlt": [
-   "O antibiótico sistêmico profilático não reduz infecção no queimado e seleciona germes resistentes.",
-   "O corticoide não faz parte do manejo do grande queimado e aumenta o risco infeccioso.",
-   "Restringir volume no grande queimado leva a hipoperfusão e aprofunda a lesão térmica existente.",
-   "Correta: reposição calculada por fórmula e ajustada pela diurese, com analgesia, é a base inicial.",
-   "O desbridamento tem seu tempo cirúrgico, mas nunca precede a estabilização volêmica inicial."
-  ]
- },
- {
-  "q": "Mulher de 30 anos chega com crise convulsiva tônico-clônica que já dura oito minutos, sem recuperação da consciência entre os episódios. Qual é a conduta imediata?",
-  "alts": [
-   "Benzodiazepínico endovenoso, sempre a primeira linha no estado de mal epiléptico instalado.",
-   "Fenitoína isolada como primeira droga, sem benzodiazepínico prévio, no estado de mal convulsivo.",
-   "Aguardar a resolução espontânea por mais dez minutos antes de qualquer intervenção farmacológica.",
-   "Contenção física isolada, garantindo a segurança da paciente sem administrar qualquer droga.",
-   "Punção lombar imediata antes de qualquer tratamento, para definir a etiologia da crise atual."
+   "Ventilar com bolsa-válvula-máscara e administrar naloxona",
+   "Intubação orotraqueal imediata sem antídoto",
+   "Flumazenil intravenoso em bolus",
+   "Tomografia de crânio antes de qualquer medida",
+   "Carvão ativado por sonda nasogástrica"
   ],
   "gab": 0,
   "tema": "emergencias",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r1",
-  "base": "American Epilepsy Society, 2016, e Harrison's, 22ª edição, 2025 — estado de mal epiléptico",
-  "coment": "Crise com mais de cinco minutos de duração, ou crises sem recuperação da consciência entre elas, define estado de mal epiléptico e exige tratamento imediato. A primeira linha é benzodiazepínico — diazepam ou midazolam endovenoso, ou midazolam intramuscular quando não há acesso —, seguido de droga de segunda linha como fenitoína, fosfenitoína, valproato ou levetiracetam. Em paralelo, corrigem-se causas imediatas: glicemia, eletrólitos, febre e intoxicação. Quanto maior a duração, menor a chance de resposta e maior a lesão neuronal.",
+  "base": "Manual de Toxicologia Clínica COVISA 2017 (síndrome opioide",
+  "coment": "A tríade de rebaixamento, miose puntiforme e bradipneia define a síndrome opioide. A prioridade é ventilar) a morte vem da hipoventilação, e administrar naloxona titulada até restaurar a ventilação adequada, não a consciência plena. Com a resposta ao antídoto, a intubação frequentemente se torna desnecessária.",
   "porAlt": [
-   "Correta: o benzodiazepínico endovenoso é a primeira linha do estado de mal epiléptico.",
-   "A fenitoína é droga de segunda linha e não substitui o benzodiazepínico na abordagem inicial.",
-   "Esperar mais dez minutos prolonga a crise, reduz a resposta ao tratamento e agrava a lesão neuronal.",
-   "A contenção isolada não interrompe a atividade epiléptica e pode causar lesão osteomuscular.",
-   "A punção lombar pode ser necessária depois, mas jamais precede o controle da crise em curso."
+   "Correta: ventilar e reverter, nessa ordem.",
+   "A intubação costuma ser evitável com o antídoto.",
+   "O flumazenil é para benzodiazepínico e não atua aqui.",
+   "A imagem não precede o tratamento de síndrome tóxica reconhecível.",
+   "O carvão não tem papel com a via aérea desprotegida e rebaixamento."
+  ]
+ },
+ {
+  "q": "Mulher de 68 anos, hipertensa, chega com febre há dois dias, tosse produtiva e confusão mental nova. Está com frequência respiratória de 32 irpm, pressão de 88/56 mmHg, frequência de 116 bpm, temperatura de 38,9 °C e saturação de 89% em ar ambiente. A ureia é de 68 mg/dL, os leucócitos de 19.200/mm³ e a radiografia mostra consolidação em lobo inferior esquerdo com pequeno derrame. Qual é a pontuação no CURB-65 e a conduta?",
+  "alts": [
+   "Quatro pontos: internação, avaliar terapia intensiva",
+   "Um ponto: tratamento ambulatorial com amoxicilina",
+   "Dois pontos: internação em enfermaria por 48 horas",
+   "Zero ponto: alta com reavaliação em 72 horas",
+   "Três pontos: enfermaria, dispensando culturas"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "BTS 2009 e IDSA/ATS 2019, pneumonia comunitária: CURB-65",
+  "coment": "O CURB-65 soma confusão, ureia acima de 50 mg/dL, frequência respiratória igual ou maior que 30 irpm, pressão sistólica abaixo de 90 mmHg ou diastólica igual ou menor que 60 mmHg, e idade igual ou maior que 65 anos. Aqui há confusão, ureia de 68, frequência de 32 e idade de 68. Quatro pontos, com mortalidade alta e indicação de internação com avaliação para terapia intensiva.",
+  "porAlt": [
+   "Correta: quatro critérios preenchidos, com indicação de cuidado intensivo.",
+   "Um ponto não corresponde aos critérios presentes.",
+   "Dois pontos subestima a gravidade deste caso.",
+   "Zero ponto seria paciente sem nenhum critério.",
+   "Três pontos também subestima, e culturas estão indicadas na grave."
+  ]
+ },
+ {
+  "q": "Homem de 50 anos, 80 kg, chega ao pronto-socorro duas horas após incêndio, com queimaduras de segundo grau em tronco anterior, membros superiores e coxas, estimadas em 30% da superfície corporal pela regra dos nove. As lesões são róseas, dolorosas e com flictenas. Está com pressão de 112/70 mmHg, frequência de 108 bpm, Glasgow de 15, sem rouquidão, fuligem ou queimadura de vibrissas. Qual é o volume de reposição nas primeiras 24 horas e como distribuí-lo?",
+  "alts": [
+   "9.600 mL de Ringer lactato, metade nas primeiras 8 horas",
+   "4.800 mL de salina isotônica, distribuídos igualmente",
+   "2.400 mL de Ringer lactato em 24 horas",
+   "9.600 mL de coloide nas primeiras 8 horas",
+   "Reposição apenas oral, por estar consciente"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ATLS 11ª edição, 2018. Fórmula de Parkland",
+  "coment": "A fórmula de Parkland prevê 4 mL por quilo por porcentagem de superfície queimada nas primeiras 24 horas: 4 × 80 × 30 = 9.600 mL de Ringer lactato. Metade é infundida nas primeiras 8 horas contadas do momento da queimadura, não da chegada, e o restante nas 16 horas seguintes, com ajuste pela diurese de 0,5 a 1 mL/kg/h.",
+  "porAlt": [
+   "Correta: cálculo e distribuição corretos, com contagem desde a lesão.",
+   "O volume está subestimado e a distribuição, errada.",
+   "Corresponde a 1 mL/kg por porcentagem, muito abaixo do necessário.",
+   "Coloide nas primeiras 24 horas não é o padrão inicial.",
+   "A via oral é insuficiente em queimadura de 30%."
+  ]
+ },
+ {
+  "q": "Mulher de 30 anos, epiléptica em uso irregular de carbamazepina, chega em crise tônico-clônica generalizada que já dura oito minutos, sem recuperação da consciência entre os abalos. Está com saturação de 88%, frequência de 128 bpm, pressão de 138/84 mmHg, temperatura de 37,4 °C e glicemia capilar de 96 mg/dL. Tem acesso venoso periférico. Não há sinais de trauma ou febre. Qual é a conduta imediata?",
+  "alts": [
+   "Benzodiazepínico intravenoso em dose adequada",
+   "Fenitoína intravenosa como primeira medida",
+   "Tomografia de crânio antes de medicar",
+   "Intubação orotraqueal imediata",
+   "Glicose hipertônica intravenosa"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "American Epilepsy Society 2016. Estado de mal epiléptico",
+  "coment": "Crise com mais de cinco minutos de duração define estado de mal epiléptico e exige tratamento imediato. A primeira linha é benzodiazepínico em dose adequada, diazepam ou midazolam intravenoso, e a subdose é o erro mais comum. A segunda linha, com fenitoína, fosfenitoína, valproato ou levetiracetam, vem depois da falha do benzodiazepínico.",
+  "porAlt": [
+   "Correta: benzodiazepínico em dose adequada é a primeira linha.",
+   "A fenitoína é segunda linha, após o benzodiazepínico.",
+   "A imagem não precede o controle da crise.",
+   "A intubação entra na falha do controle ou na via aérea comprometida.",
+   "A glicemia já está normal."
   ]
  }
 ]

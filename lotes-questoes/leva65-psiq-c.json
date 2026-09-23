@@ -1,242 +1,242 @@
 [
  {
-  "q": "Paciente com transtorno por uso de álcool deseja parar de beber e já está abstinente há uma semana. Qual medicação tem indicação para manutenção da abstinência?",
+  "q": "Homem de 50 anos com transtorno por uso de álcool está abstinente há 7 dias após desintoxicação e quer medicação para não recair. Usa tramadol 50 mg a cada 8 horas há 1 ano por lombalgia crônica. Transaminases normais, clearance de 90 mL/min. Não tem cirrose. Participa de grupo de apoio. Pesa 78 kg e trabalha como motorista. Não tem depressão ou ideação suicida. Qual é o fármaco mais adequado para prevenção de recaída?",
   "alts": [
-   "Benzodiazepínico contínuo por tempo indeterminado como estratégia de manutenção da abstinência alcoólica.",
-   "Antipsicótico típico em dose alta, tratamento de escolha para a manutenção da abstinência do álcool.",
-   "Apenas orientação verbal na consulta, sem qualquer medicação ou acompanhamento estruturado agora.",
-   "Naltrexona ou acamprosato, associados sempre a intervenção psicossocial estruturada e acompanhamento.",
-   "Antidepressivo tricíclico em dose plena como tratamento específico da dependência de álcool agora."
+   "Acamprosato 666 mg 3 vezes ao dia",
+   "Naltrexona 50 mg/dia",
+   "Dissulfiram sem consentimento",
+   "Diazepam de manutenção",
+   "Topiramato sem titulação"
   ],
-  "gab": 3,
+  "gab": 0,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "APA Practice Guideline for the Pharmacological Treatment of Patients With Alcohol Use Disorder, revisão 2023; Ministério da Saúde, 2022",
-  "coment": "Naltrexona e acamprosato são os fármacos de primeira linha para manutenção da abstinência no transtorno por uso de álcool, com evidência de redução de recaída, sempre associados a intervenção psicossocial. O dissulfiram é opção em contextos com supervisão da tomada. Benzodiazepínicos servem à fase de abstinência aguda, por poucos dias, e seu uso prolongado é contraindicado pelo risco de dependência cruzada e de recaída.",
+  "base": "APA Practice Guideline for the Pharmacological Treatment of Patients With Alcohol Use Disorder, 2018",
+  "coment": "Naltrexona e acamprosato são primeira linha na prevenção de recaída do transtorno por uso de álcool (APA 2018). Naltrexona, antagonista opioide, é contraindicada em quem usa opioides (precipita abstinência e bloqueia a analgesia) e em hepatite aguda ou insuficiência hepática. Acamprosato é seguro com opioides e hepatopatia, exigindo ajuste na doença renal (contraindicado com clearance de 30 mL/min ou menos). Dissulfiram exige consentimento e adesão supervisionada. Benzodiazepínico de manutenção é contraindicado. Topiramato é opção de segunda linha com titulação lenta.",
   "porAlt": [
-   "O benzodiazepínico contínuo gera dependência cruzada e aumenta o risco de recaída no álcool.",
-   "O antipsicótico não tem indicação para manutenção da abstinência e traz efeitos adversos relevantes.",
-   "A orientação isolada é insuficiente diante de um transtorno com alta taxa de recaída precoce.",
-   "Correta: naltrexona ou acamprosato associados a intervenção psicossocial e acompanhamento regular.",
-   "O tricíclico trata depressão associada, mas não é tratamento específico da dependência alcoólica."
+   "Uso de tramadol e função renal normal: acamprosato para prevenção de recaída.",
+   "Naltrexona é contraindicada em usuário de opioide.",
+   "Dissulfiram sem consentimento é antiético e perigoso.",
+   "Benzodiazepínico de manutenção aumenta dependência e risco com álcool.",
+   "Topiramato exige titulação lenta e é segunda linha."
   ]
  },
  {
-  "q": "Paciente com transtorno de pânico apresenta crises recorrentes com medo de morrer e evitação de locais públicos. Qual é o tratamento inicial?",
+  "q": "Mulher de 27 anos tem ataques súbitos de palpitação, falta de ar, formigamento e medo de morrer, 3 vezes por semana há 4 meses, e passou a evitar ônibus e shopping. Eletrocardiograma, TSH, glicemia e hemograma normais, sem uso de cafeína excessiva ou drogas. Tentou escitalopram 10 mg em outro serviço e parou no terceiro dia por piora da ansiedade e inquietação. Pesa 56 kg e não tem doenças conhecidas. Qual é o tratamento mais adequado?",
   "alts": [
-   "Antidepressivo serotoninérgico com terapia cognitivo-comportamental, iniciando sempre com dose baixa.",
-   "Benzodiazepínico contínuo em monoterapia por tempo indeterminado como tratamento de escolha do quadro.",
-   "Antipsicótico atípico em dose plena como primeira linha para o transtorno de pânico com evitação.",
-   "Apenas orientação para evitar completamente todas as situações que desencadeiam as crises descritas.",
-   "Estabilizador de humor em dose plena, tratamento de primeira escolha para as crises de pânico recorrentes."
+   "Clonazepam contínuo como base",
+   "Propranolol 40 mg isolado",
+   "Bupropiona 150 mg/dia",
+   "Evitar os locais e aguardar",
+   "ISRS em dose baixa e terapia cognitiva"
   ],
-  "gab": 0,
+  "gab": 4,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r1",
-  "base": "NICE guideline CG113, revisão 2023; APA Practice Guideline for Panic Disorder, revisão 2022",
-  "coment": "O transtorno de pânico é tratado com inibidor seletivo da recaptação de serotonina e terapia cognitivo-comportamental com exposição, ambos com evidência robusta. O antidepressivo é iniciado em dose baixa, porque pacientes com pânico são especialmente sensíveis à piora inicial da ansiedade. Benzodiazepínico pode ser usado por poucas semanas na fase inicial, evitando uso contínuo. Reforçar a evitação piora a doença ao consolidar o comportamento.",
+  "base": "NICE Clinical Guideline CG113: Generalised anxiety disorder and panic disorder in adults, 2011 (atualização 2020); APA Practice Guideline for Panic Disorder, 2009",
+  "coment": "Transtorno de pânico com agorafobia: primeira linha é inibidor seletivo de serotonina (ou venlafaxina) e/ou terapia cognitivo-comportamental com exposição. Pacientes com pânico são sensíveis à ativação inicial, por isso inicia-se com metade da dose usual (por exemplo, escitalopram 5 mg ou sertralina 25 mg), aumentando após 1 a 2 semanas, com orientação sobre a piora transitória. Benzodiazepínico pode ser usado por poucas semanas como ponte, não como tratamento principal. Bupropiona não é eficaz no pânico. Esquiva mantém o transtorno.",
   "porAlt": [
-   "Correta: antidepressivo serotoninérgico iniciado em dose baixa, associado a terapia cognitivo-comportamental.",
-   "O benzodiazepínico em monoterapia prolongada gera dependência e não trata o transtorno de base.",
-   "O antipsicótico atípico não é primeira linha e traz risco metabólico sem benefício correspondente.",
-   "Reforçar a evitação consolida o comportamento e agrava a incapacidade associada ao transtorno.",
-   "O estabilizador de humor é indicado no transtorno bipolar, e não no transtorno de pânico."
+   "Benzodiazepínico contínuo gera dependência e não é tratamento principal.",
+   "Propranolol não previne ataques de pânico.",
+   "Bupropiona não é eficaz e pode piorar a ansiedade.",
+   "A esquiva mantém e agrava a agorafobia.",
+   "Pânico com intolerância à ativação: ISRS em dose inicial baixa e terapia cognitivo-comportamental."
   ]
  },
  {
-  "q": "Paciente com transtorno bipolar em uso de lítio pergunta sobre monitorização. Qual é a conduta correta?",
+  "q": "Homem de 35 anos com transtorno bipolar tipo I vai iniciar lítio após episódio maníaco. Pesa 80 kg, sem outras doenças. Não usa diuréticos, IECA ou AINE. Primeira dose de 300 mg duas vezes ao dia será hoje à noite. Mora com a esposa e trabalha como técnico de informática. TSH e creatinina nunca foram dosados. Não fuma e não bebe. Qual é o plano de exames e monitorização mais adequado?",
   "alts": [
-   "Dosar apenas a litemia uma única vez no início do tratamento, sem qualquer monitorização posterior.",
-   "Monitorar apenas o hemograma completo trimestral, exame suficiente para o acompanhamento do lítio.",
-   "Não realizar qualquer exame, pois o lítio não exige monitorização laboratorial durante o uso crônico.",
-   "Dosar litemia periodicamente e monitorar sempre função renal e tireoidiana ao longo do tratamento.",
-   "Monitorar apenas a glicemia de jejum anual como único exame necessário no seguimento do paciente."
+   "Litemia anual em qualquer horário",
+   "Litemia 2 horas após a primeira dose",
+   "Exames basais e litemia de vale em 5 a 7 dias",
+   "Só função hepática a cada 3 meses",
+   "Nenhum exame sem sintomas"
   ],
-  "gab": 3,
+  "gab": 2,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "prev",
   "nivel": "r2",
-  "base": "NICE guideline CG185 — Bipolar disorder, revisão 2023; CANMAT/ISBD guidelines, 2018 com atualização 2023",
-  "coment": "O lítio tem janela terapêutica estreita e exige monitorização: litemia colhida doze horas após a última dose, inicialmente a cada uma a duas semanas até a estabilização e depois a cada três a seis meses. Monitoram-se também função renal, por risco de doença renal crônica e diabetes insípido nefrogênico, função tireoidiana, pelo risco de hipotireoidismo, e calcemia. Anti-inflamatórios, tiazídicos e desidratação elevam a litemia.",
+  "base": "CANMAT and ISBD Guidelines for the management of patients with bipolar disorder, 2018; NICE Clinical Guideline CG185: Bipolar disorder, 2014 (atualização 2023)",
+  "coment": "Antes do lítio: creatinina e clearance, eletrólitos, TSH, cálcio, ECG (acima de 40 anos ou cardiopatia), peso e, em mulheres, beta-hCG. A litemia é colhida 12 horas após a última dose (vale), 5 a 7 dias após o início ou cada ajuste, até estabilizar (alvo de manutenção em geral 0,6 a 0,8 mEq/L), e depois a cada 3 a 6 meses; função renal e tireoidiana a cada 6 a 12 meses, cálcio anualmente. Deve-se orientar sobre sinais de toxicidade, hidratação e interações (tiazídicos, IECA, AINE).",
   "porAlt": [
-   "A dosagem única no início não detecta variações que ocorrem ao longo de anos de tratamento.",
-   "O hemograma não é o exame central da monitorização do lítio, que exige litemia e função renal.",
-   "O lítio tem janela terapêutica estreita e exige monitorização laboratorial regular e sistemática.",
-   "Correta: litemia periódica com monitorização de função renal e tireoidiana durante todo o tratamento.",
-   "A glicemia isolada não avalia os órgãos afetados pela toxicidade crônica do lítio no organismo."
+   "Litemia anual e fora do vale é insuficiente e não interpretável.",
+   "Coletas no pico e no primeiro dia não refletem o estado de equilíbrio.",
+   "Início de lítio: creatinina, TSH, cálcio e ECG antes; litemia de vale 5 a 7 dias depois.",
+   "O lítio afeta rim, tireoide e paratireoide, não o fígado.",
+   "A monitorização é necessária mesmo sem sintomas."
   ]
  },
  {
-  "q": "Paciente idoso apresenta insônia crônica e solicita medicação para dormir. Qual é a conduta inicial?",
+  "q": "Mulher de 72 anos tem dificuldade para iniciar e manter o sono há 1 ano, 4 noites por semana, com cansaço diurno. Diário de sono: deita às 21 horas, adormece à meia-noite, acorda às 3 horas, volta a dormir das 4 às 6h30 e fica na cama até as 7 horas (cerca de 5,5 horas de sono em 10 na cama, eficiência de 55%). Cochila 1 hora à tarde. Sem ronco, apneias, pernas inquietas ou depressão (GDS-15 de 2). Pede um remédio para dormir. Qual é a conduta inicial mais adequada?",
   "alts": [
-   "Prescrever benzodiazepínico de meia-vida longa como primeira escolha para o idoso com insônia crônica agora.",
-   "Prescrever anti-histamínico sedativo contínuo como primeira escolha no tratamento da insônia do idoso agora.",
-   "Terapia cognitivo-comportamental para insônia, considerada sempre a primeira linha antes de qualquer fármaco.",
-   "Prescrever antipsicótico atípico em dose baixa como primeira linha para a insônia crônica descrita agora.",
-   "Orientar consumo de álcool antes de dormir como estratégia inicial para a indução do sono no idoso agora."
-  ],
-  "gab": 2,
-  "tema": "psiq",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "AASM Clinical Practice Guideline for the Treatment of Chronic Insomnia in Adults, 2021; AGS Beers Criteria, 2023",
-  "coment": "A terapia cognitivo-comportamental para insônia é a primeira linha em adultos, incluindo idosos, com eficácia sustentada superior à dos hipnóticos a longo prazo e sem os riscos associados. Os componentes incluem restrição de sono, controle de estímulos, higiene do sono e reestruturação cognitiva. Benzodiazepínicos, anti-histamínicos com efeito anticolinérgico e antipsicóticos são potencialmente inapropriados no idoso pelos critérios de Beers.",
-  "porAlt": [
-   "Benzodiazepínicos de meia-vida longa são potencialmente inapropriados no idoso pelo risco de quedas.",
-   "Anti-histamínicos sedativos têm carga anticolinérgica associada a confusão e retenção urinária.",
-   "Correta: terapia cognitivo-comportamental para insônia é a primeira linha, antes de qualquer fármaco.",
-   "O antipsicótico aumenta mortalidade no idoso e não é tratamento de primeira linha para insônia.",
-   "O álcool fragmenta o sono e piora a qualidade do descanso, agravando a insônia a médio prazo."
-  ]
- },
- {
-  "q": "Paciente com transtorno obsessivo-compulsivo com rituais que consomem várias horas por dia. Qual é o tratamento inicial?",
-  "alts": [
-   "Benzodiazepínico contínuo em monoterapia como tratamento de escolha para os rituais compulsivos descritos.",
-   "Antipsicótico típico em dose alta como primeira linha para o transtorno obsessivo-compulsivo grave agora.",
-   "Apenas orientação para resistir aos rituais, sem qualquer medicação ou psicoterapia estruturada neste caso.",
-   "Inibidor seletivo da recaptação de serotonina em dose alta com terapia de exposição e prevenção de resposta.",
-   "Estabilizador de humor em dose plena como tratamento inicial das obsessões e compulsões descritas agora."
-  ],
-  "gab": 3,
-  "tema": "psiq",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "APA Practice Guideline for the Treatment of Patients With Obsessive-Compulsive Disorder, revisão 2023; NICE CG31, revisão 2022",
-  "coment": "O transtorno obsessivo-compulsivo responde a inibidores seletivos da recaptação de serotonina em doses habitualmente mais altas que as usadas na depressão, com latência de resposta mais longa, de dez a doze semanas, e à terapia de exposição com prevenção de resposta, que é a psicoterapia de escolha. Casos refratários podem receber potencialização com antipsicótico atípico em dose baixa. Benzodiazepínico não trata os sintomas nucleares.",
-  "porAlt": [
-   "O benzodiazepínico não trata obsessões nem compulsões e traz risco de dependência ao paciente.",
-   "O antipsicótico típico não é primeira linha, sendo o atípico usado apenas como potencialização.",
-   "A orientação isolada é insuficiente diante de sintomas que consomem várias horas do dia.",
-   "Correta: inibidor da recaptação de serotonina em dose alta com exposição e prevenção de resposta.",
-   "O estabilizador de humor não é o tratamento indicado para o transtorno obsessivo-compulsivo."
-  ]
- },
- {
-  "q": "Paciente jovem apresenta agitação psicomotora intensa em pronto-socorro, com risco de agressão. Qual é a abordagem inicial?",
-  "alts": [
-   "Contenção física imediata em todos os casos de agitação psicomotora atendidos no pronto-socorro agora.",
-   "Sedação profunda de rotina com dose alta de benzodiazepínico antes de qualquer tentativa de abordagem verbal.",
-   "Desescalonamento verbal e ambiente seguro, reservando sempre a contenção química aos casos sem resposta.",
-   "Isolamento do paciente em sala fechada e sem qualquer monitorização durante todo o período da crise.",
-   "Alta imediata do paciente agitado, já encaminhando-o ao acompanhamento ambulatorial em trinta dias agora."
-  ],
-  "gab": 2,
-  "tema": "psiq",
-  "cenario": "emg",
-  "comp": "urg",
-  "nivel": "r2",
-  "base": "AAEP Project BETA guidelines on agitation, revisão 2022; Ministério da Saúde — manejo da agitação psicomotora, 2021",
-  "coment": "O manejo da agitação começa pelo desescalonamento verbal e pela organização de um ambiente seguro, com equipe treinada, redução de estímulos, postura não confrontativa e oferta de medicação oral. A contenção química entra quando o desescalonamento falha, preferindo antipsicótico e benzodiazepínico conforme a etiologia. A contenção física é último recurso, por tempo mínimo, com monitorização e registro. Causas orgânicas devem ser afastadas.",
-  "porAlt": [
-   "A contenção física é último recurso, e não a abordagem inicial de todo paciente agitado.",
-   "A sedação profunda de rotina antes da abordagem verbal expõe a riscos e impede a avaliação clínica.",
-   "Correta: desescalonamento verbal e ambiente seguro, com contenção química apenas na ausência de resposta.",
-   "Isolar sem monitorização é inseguro e impede a detecção de causas orgânicas potencialmente graves.",
-   "Dar alta a paciente agitado com risco de agressão expõe o paciente e terceiros a dano evitável."
-  ]
- },
- {
-  "q": "Paciente com depressão sem resposta após oito semanas de antidepressivo em dose adequada. Qual é o próximo passo?",
-  "alts": [
-   "Suspender todo tratamento medicamentoso e apenas observar clinicamente pelos próximos seis meses.",
-   "Revisar adesão e diagnóstico, otimizando dose ou trocando sempre a classe do antidepressivo em uso.",
-   "Associar benzodiazepínico em dose alta como próxima etapa no tratamento da depressão sem resposta.",
-   "Aumentar o antidepressivo até dez vezes a dose máxima recomendada em bula para obter resposta agora.",
-   "Indicar eletroconvulsoterapia imediata em todos os pacientes sem resposta após oito semanas de tratamento."
-  ],
-  "gab": 1,
-  "tema": "psiq",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "APA Practice Guideline for Major Depressive Disorder, revisão 2023; CANMAT guidelines, 2023",
-  "coment": "Diante de resposta insuficiente após quatro a oito semanas em dose adequada, o passo inicial é revisar adesão, dose, diagnóstico e comorbidades — uso de substâncias, hipotireoidismo, bipolaridade não reconhecida e fatores psicossociais. Confirmada a falha, as estratégias são otimizar a dose, trocar de antidepressivo ou potencializar com lítio, antipsicótico atípico ou psicoterapia. Eletroconvulsoterapia se reserva a casos graves ou refratários a múltiplas tentativas.",
-  "porAlt": [
-   "Suspender o tratamento sem alternativa deixa o paciente sem cobertura terapêutica por meses.",
-   "Correta: revisar adesão e diagnóstico, otimizando a dose ou trocando a classe do antidepressivo.",
-   "O benzodiazepínico não trata a depressão e apenas adiciona risco de dependência ao paciente.",
-   "Ultrapassar de forma grosseira a dose máxima aumenta a toxicidade sem ganho de eficácia.",
-   "A eletroconvulsoterapia se reserva a casos graves ou refratários a múltiplas tentativas adequadas."
-  ]
- },
- {
-  "q": "Paciente em uso de inibidor seletivo da recaptação de serotonina apresenta agitação, hipertermia, hiper-reflexia e clônus após associação de outro fármaco serotoninérgico. Qual é a conduta?",
-  "alts": [
-   "Aumentar a dose do antidepressivo para reduzir a agitação e a hipertermia apresentadas pelo paciente agora.",
-   "Suspender os agentes serotoninérgicos e oferecer suporte, considerando sempre benzodiazepínico para a agitação.",
-   "Iniciar antipsicótico típico em dose alta como tratamento de escolha para o quadro clínico descrito agora.",
-   "Administrar antibiótico de amplo espectro isolado, tratamento indicado para a hipertermia observada agora.",
-   "Manter todos os fármacos e apenas observar clinicamente por vinte e quatro horas antes de agir neste caso."
-  ],
-  "gab": 1,
-  "tema": "psiq",
-  "cenario": "uti",
-  "comp": "urg",
-  "nivel": "r3",
-  "base": "Sternbach and Hunter criteria; UpToDate revisão sobre síndrome serotoninérgica, 2024; Critical Care review, 2023",
-  "coment": "A síndrome serotoninérgica cursa com alteração de estado mental, hiperatividade autonômica e alterações neuromusculares, sendo o clônus, sobretudo em membros inferiores, o achado mais característico. Instala-se em horas após a introdução ou o aumento de agente serotoninérgico. O tratamento é suspender todos os agentes, oferecer suporte com hidratação e resfriamento, e usar benzodiazepínico para agitação e rigidez. Ciproeptadina é opção nos casos moderados a graves.",
-  "porAlt": [
-   "Aumentar a dose agrava diretamente a síndrome e pode levar a hipertermia maligna e óbito.",
-   "Correta: suspender os agentes serotoninérgicos e oferecer suporte, com benzodiazepínico para a agitação.",
-   "O antipsicótico típico pode agravar a rigidez e a hipertermia por bloqueio dopaminérgico adicional.",
-   "O antibiótico não trata a hipertermia de origem tóxica desencadeada pelo excesso serotoninérgico.",
-   "Manter os fármacos por vinte e quatro horas permite a progressão para forma grave e potencialmente fatal."
-  ]
- },
- {
-  "q": "Paciente com transtorno de estresse pós-traumático após acidente grave, com revivências e evitação há seis meses. Qual é o tratamento de primeira linha?",
-  "alts": [
-   "Psicoterapia focada no trauma, associada sempre a antidepressivo serotoninérgico quando houver indicação.",
-   "Benzodiazepínico contínuo em monoterapia como tratamento de primeira linha do transtorno descrito agora.",
-   "Antipsicótico típico em dose alta como tratamento inicial das revivências relatadas pelo paciente agora.",
-   "Orientação para evitar completamente qualquer lembrança do trauma como principal estratégia terapêutica.",
-   "Estabilizador de humor em dose plena como tratamento de primeira escolha para o quadro descrito agora já."
+   "Terapia cognitivo-comportamental para insônia",
+   "Zolpidem 10 mg à noite",
+   "Amitriptilina 25 mg à noite",
+   "Clonazepam 0,5 mg à noite",
+   "Melatonina em dose alta isolada"
   ],
   "gab": 0,
   "tema": "psiq",
   "cenario": "amb",
   "comp": "tto",
   "nivel": "r2",
-  "base": "NICE guideline NG116 — Post-traumatic stress disorder, revisão 2023; APA/ISTSS guidelines, 2023",
-  "coment": "O tratamento de primeira linha do transtorno de estresse pós-traumático é psicoterapia focada no trauma, como terapia cognitivo-comportamental focada no trauma ou dessensibilização e reprocessamento por movimentos oculares. Antidepressivos serotoninérgicos, como sertralina e paroxetina, são indicados quando a psicoterapia não está disponível, é recusada ou há comorbidade depressiva. Benzodiazepínicos são desaconselhados por piorarem desfechos e dificultarem a extinção do medo.",
+  "base": "ACP Clinical Guideline: Management of Chronic Insomnia Disorder in Adults, 2016; AASM Clinical Practice Guideline: Behavioral and psychological treatments for chronic insomnia, 2021",
+  "coment": "O American College of Physicians (2016) e a AASM (2021) recomendam terapia cognitivo-comportamental para insônia como tratamento inicial da insônia crônica, com eficácia duradoura superior à dos hipnóticos. Seus componentes incluem restrição do tempo na cama (aqui, a paciente passa 10 horas na cama e dorme cerca de 5,5), controle de estímulos, eliminação de cochilos, higiene do sono e reestruturação cognitiva, podendo ser digital. Hipnóticos Z, benzodiazepínicos e tricíclicos aumentam quedas, fraturas e confusão em idosos (Beers 2023).",
   "porAlt": [
-   "Correta: psicoterapia focada no trauma, com antidepressivo serotoninérgico associado quando indicado.",
-   "O benzodiazepínico é desaconselhado por piorar desfechos e dificultar a extinção do medo condicionado.",
-   "O antipsicótico típico não é primeira linha e traz risco extrapiramidal sem benefício correspondente.",
-   "A evitação é parte do transtorno e reforçá-la impede a habituação necessária à recuperação.",
-   "O estabilizador de humor não é o tratamento de primeira escolha para esse transtorno específico."
+   "Insônia crônica em idosa: terapia cognitivo-comportamental com restrição de tempo na cama.",
+   "Hipnótico Z em idosa aumenta quedas e fraturas.",
+   "Amitriptilina é anticolinérgica e inapropriada em idosos.",
+   "Benzodiazepínico aumenta quedas e prejuízo cognitivo.",
+   "Melatonina tem efeito pequeno e não substitui a terapia comportamental."
   ]
  },
  {
-  "q": "Paciente com anorexia nervosa e índice de massa corporal de 13 kg/m², bradicárdico e hipotenso, inicia realimentação. Qual é o principal risco a monitorar?",
+  "q": "Homem de 23 anos tem pensamentos intrusivos de contaminação e rituais de lavagem que consomem 4 horas por dia há 2 anos, com lesões nas mãos e prejuízo na faculdade. Reconhece que são excessivos. Y-BOCS de 28. Sem tiques, psicose ou uso de substâncias. Usa sertralina 50 mg há 12 semanas, com melhora mínima e boa tolerância. Não fez psicoterapia. Qual é a conduta mais adequada?",
   "alts": [
-   "Hiperglicemia grave isolada, principal complicação metabólica esperada no início da realimentação.",
-   "Hipercalcemia refratária, complicação mais frequente e temida do início do suporte nutricional descrito.",
-   "Hipernatremia grave, principal alteração hidroeletrolítica associada à realimentação nesse contexto.",
-   "Síndrome de realimentação com hipofosfatemia, monitorando sempre eletrólitos durante os primeiros dias.",
-   "Alcalose respiratória sustentada, complicação metabólica mais temida no início do suporte nutricional."
+   "Manter 50 mg por mais 6 meses",
+   "Trocar por clonazepam 2 mg",
+   "Associar haloperidol já",
+   "Sertralina até 200 mg e exposição",
+   "Eletroconvulsoterapia"
   ],
   "gab": 3,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "APA Practice Guideline for the Treatment of Patients With Obsessive-Compulsive Disorder, 2007 (Guideline Watch 2013)",
+  "coment": "Transtorno obsessivo-compulsivo exige doses de inibidor seletivo de serotonina frequentemente mais altas que na depressão (sertralina até 200 mg, fluoxetina até 60 a 80 mg) e ensaio de 8 a 12 semanas na dose máxima tolerada. A terapia cognitivo-comportamental com exposição e prevenção de resposta é primeira linha isolada ou combinada (APA). Antipsicótico em dose baixa (risperidona, aripiprazol) é potencializador após falha de ISRS em dose adequada. Benzodiazepínicos não tratam TOC. Eletroconvulsoterapia não é indicada.",
+  "porAlt": [
+   "Dose de 50 mg é baixa para TOC.",
+   "Benzodiazepínico não trata TOC.",
+   "Potencialização com antipsicótico vem após dose adequada de ISRS.",
+   "TOC com resposta mínima: otimizar a sertralina até 200 mg e iniciar exposição com prevenção de resposta.",
+   "Eletroconvulsoterapia não é indicada para TOC."
+  ]
+ },
+ {
+  "q": "Homem de 30 anos em surto psicótico está agitado no pronto-socorro, gritando e ameaçando a equipe com uma cadeira. Tentativas de desescalonamento verbal por 10 minutos falharam, e ele recusa medicação oral. Sem suspeita de intoxicação por álcool, sem cardiopatia conhecida. Pesa 80 kg. Não há acesso venoso. A equipe de segurança está presente. O paciente não tem histórico de reações a antipsicóticos. Glicemia capilar de 104 mg/dL. Qual é a conduta mais adequada?",
+  "alts": [
+   "Contenção mecânica prolongada sem medicação",
+   "Diazepam 10 mg intramuscular",
+   "Clorpromazina endovenosa em bolus",
+   "Liberar o paciente pela recusa",
+   "Haloperidol e midazolam intramusculares"
+  ],
+  "gab": 4,
+  "tema": "psiq",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Associação Brasileira de Psiquiatria, Consenso Brasileiro sobre Manejo da Agitação Psicomotora, 2019; NICE Guideline NG10: Violence and aggression, 2015",
+  "coment": "Após falha do desescalonamento verbal, com risco iminente, a tranquilização rápida intramuscular é indicada. O consenso brasileiro de agitação psicomotora (ABP, 2019) sugere haloperidol 5 mg com midazolam 7,5 a 15 mg intramusculares (ou haloperidol com prometazina), com reavaliação em 30 a 60 minutos, monitorização de sinais vitais, saturação e sinais extrapiramidais. Contenção mecânica, se necessária, é breve, com prescrição e vigilância. Diazepam intramuscular tem absorção errática. Clorpromazina endovenosa causa hipotensão grave.",
+  "porAlt": [
+   "Contenção prolongada sem tratamento aumenta lesões e sofrimento.",
+   "Diazepam intramuscular tem absorção errática.",
+   "Clorpromazina endovenosa causa hipotensão grave.",
+   "Paciente psicótico agitado com risco não pode ser liberado.",
+   "Agitação grave após falha verbal: haloperidol com midazolam intramusculares, com monitorização."
+  ]
+ },
+ {
+  "q": "Mulher de 45 anos com depressão maior recorrente usou sertralina 200 mg por 10 semanas e depois venlafaxina 225 mg por 10 semanas, com boa adesão confirmada, sem resposta (PHQ-9 de 20 para 18). Sem sintomas psicóticos, mania, uso de álcool ou hipotireoidismo. Faz psicoterapia. Sem ideação suicida atual. Pesa 70 kg, sem cardiopatia ou doença renal. Mora com o marido e 2 filhos. Nunca teve episódio de hipomania. Qual é a conduta mais adequada?",
+  "alts": [
+   "Trocar para um terceiro ISRS",
+   "Manter venlafaxina por mais 6 meses sem mudança",
+   "Potencializar com aripiprazol ou lítio",
+   "Associar clonazepam como tratamento principal",
+   "Suspender todos os antidepressivos"
+  ],
+  "gab": 2,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "CANMAT Clinical Guidelines for the Management of Adults with Major Depressive Disorder, 2023 update",
+  "coment": "Falha de 2 antidepressivos em dose e tempo adequados, com adesão confirmada, define depressão resistente ao tratamento. O CANMAT (2023) recomenda como estratégias de primeira linha a potencialização com aripiprazol, brexpiprazol ou risperidona, e o lítio é alternativa bem estabelecida; também se consideram escetamina intranasal, estimulação magnética transcraniana e eletroconvulsoterapia, conforme gravidade. Trocar para um terceiro fármaco da mesma classe tem baixa chance de resposta. Benzodiazepínico não trata depressão.",
+  "porAlt": [
+   "Terceiro ISRS após 2 falhas tem baixa chance de resposta.",
+   "Manter o esquema sem resposta prolonga o sofrimento.",
+   "Depressão resistente após 2 antidepressivos: potencializar com aripiprazol ou lítio.",
+   "Benzodiazepínico não trata depressão.",
+   "Suspender tudo deixa depressão grave sem tratamento."
+  ]
+ },
+ {
+  "q": "Homem de 42 anos usa sertralina 150 mg há 1 ano. Após cirurgia de joelho, recebeu tramadol 100 mg a cada 6 horas e ondansetrona. Dezoito horas depois, tem agitação, sudorese, diarreia, tremor, midríase, hiper-reflexia e clônus inducível em membros inferiores, mais intenso que nos superiores. Temperatura de 38,6 °C, frequência de 124 bpm. Sem rigidez em cano de chumbo. Qual é a conduta mais adequada?",
+  "alts": [
+   "Suspender, benzodiazepínico e ciproeptadina",
+   "Dantroleno endovenoso 2,5 mg/kg",
+   "Haloperidol 5 mg para a agitação",
+   "Aumentar o tramadol para a dor",
+   "Bromocriptina oral 2,5 mg"
+  ],
+  "gab": 0,
   "tema": "psiq",
   "cenario": "enf",
   "comp": "urg",
   "nivel": "r3",
-  "base": "NICE guideline NG69 — Eating disorders, revisão 2023; ASPEN consensus recommendations for refeeding syndrome, 2020",
-  "coment": "A síndrome de realimentação decorre do desvio intracelular de fósforo, potássio e magnésio quando a oferta de carboidrato reativa a secreção de insulina em paciente desnutrido. A hipofosfatemia é a alteração central e pode causar insuficiência cardíaca, arritmia, fraqueza respiratória, rabdomiólise e convulsão. A prevenção é iniciar com oferta calórica baixa, repor tiamina antes da oferta de glicose e monitorar eletrólitos diariamente nos primeiros dias.",
+  "base": "Boyer e Shannon, The Serotonin Syndrome, NEJM, 2005; Dunkley et al., The Hunter Serotonin Toxicity Criteria, QJM, 2003",
+  "coment": "Clônus inducível com agitação ou sudorese, após associação de serotoninérgicos (sertralina, tramadol, ondansetrona), preenche os critérios de Hunter para síndrome serotoninérgica, com predomínio em membros inferiores. Conduta: suspender todos os serotoninérgicos, benzodiazepínicos para agitação e hiperatividade neuromuscular, hidratação e, em casos moderados a graves, ciproeptadina (12 mg de ataque e depois 2 mg a cada 2 horas se necessário). Hipertermia acima de 41 °C exige sedação, paralisia e intubação. Dantroleno e bromocriptina são da síndrome neuroléptica maligna, e antipsicóticos podem piorar.",
   "porAlt": [
-   "A hiperglicemia pode ocorrer, mas não é a complicação central e temida da realimentação.",
-   "A hipercalcemia não é a alteração característica da síndrome de realimentação nesse contexto.",
-   "A hipernatremia não é a alteração típica; o problema central é o desvio intracelular de fósforo.",
-   "Correta: síndrome de realimentação com hipofosfatemia, exigindo monitorização eletrolítica diária.",
-   "A alteração central é metabólica e eletrolítica, e não um distúrbio respiratório do equilíbrio ácido-base."
+   "Síndrome serotoninérgica: suspender serotoninérgicos, benzodiazepínico e ciproeptadina se necessário.",
+   "Dantroleno é para síndrome neuroléptica maligna ou hipertermia maligna.",
+   "Antipsicótico pode piorar a hipertermia e mascarar o quadro.",
+   "Tramadol é serotoninérgico e agrava a síndrome.",
+   "Bromocriptina é agonista dopaminérgico e pode piorar."
+  ]
+ },
+ {
+  "q": "Mulher de 34 anos sobreviveu a acidente grave de carro há 7 meses. Tem pesadelos, flashbacks, evita dirigir e passar pela rodovia, hipervigilância e sobressaltos. PCL-5 de 52. Sem psicose, uso de álcool ou risco suicida. Um colega prescreveu alprazolam 1 mg duas vezes ao dia há 3 meses, sem melhora. Tem acesso a psicólogo pelo plano. Pesa 60 kg, trabalha como vendedora externa e precisa voltar a dirigir. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Aumentar o alprazolam para 2 mg",
+   "Debriefing psicológico em sessão única",
+   "Quetiapina como primeira linha",
+   "Psicoterapia focada no trauma",
+   "Aguardar remissão espontânea"
+  ],
+  "gab": 3,
+  "tema": "psiq",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "VA/DoD Clinical Practice Guideline for the Management of Posttraumatic Stress Disorder and Acute Stress Disorder, 2023",
+  "coment": "Para transtorno de estresse pós-traumático, a diretriz VA/DoD (2023) recomenda como primeira linha psicoterapias focadas no trauma: terapia de processamento cognitivo, exposição prolongada e EMDR. Farmacoterapia (sertralina, paroxetina, venlafaxina) é alternativa quando a psicoterapia não está disponível ou não é aceita. Benzodiazepínicos são desaconselhados: não tratam o transtorno, podem piorar o prognóstico e interferir na terapia de exposição. Debriefing em sessão única logo após o trauma não previne e pode piorar.",
+  "porAlt": [
+   "Benzodiazepínico não trata TEPT e pode piorar o prognóstico.",
+   "Debriefing em sessão única não previne nem trata TEPT.",
+   "Quetiapina não é primeira linha.",
+   "TEPT: psicoterapia focada no trauma (processamento cognitivo, exposição ou EMDR) e retirada gradual do benzodiazepínico.",
+   "Com 7 meses e sintomas intensos, a remissão espontânea é pouco provável."
+  ]
+ },
+ {
+  "q": "Mulher de 19 anos com anorexia nervosa restritiva, índice de massa corporal de 13 kg/m², pesando 36 kg, com ingestão quase nula há 3 semanas, é internada. Frequência de 42 bpm, pressão de 84/52 mmHg, potássio de 3,1 mEq/L, fósforo de 2,6 mg/dL, magnésio de 1,6 mg/dL. QTc de 470 ms. Vai iniciar realimentação. Mora com os pais, que a trouxeram. Glicemia de 62 mg/dL. Qual é o plano mais adequado?",
+  "alts": [
+   "Dieta de 2.500 kcal/dia desde o início",
+   "Normalizar eletrólitos antes de alimentar",
+   "Parenteral total de 35 kcal/kg/dia",
+   "Soro glicosado 10% por 3 dias",
+   "5 a 10 kcal/kg/dia, tiamina e eletrólitos"
+  ],
+  "gab": 4,
+  "tema": "psiq",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "NICE Clinical Guideline CG32: Nutrition support for adults, 2006 (atualização 2017); NICE Guideline NG69: Eating disorders, 2017",
+  "coment": "Índice de massa corporal abaixo de 16, ingestão negligível por mais de 10 dias e eletrólitos baixos antes de alimentar conferem risco alto de síndrome de realimentação: a insulina liberada com o carboidrato desloca fósforo, potássio e magnésio para dentro das células, com arritmias, insuficiência cardíaca e morte. O NICE (CG32) recomenda iniciar com no máximo 10 kcal/kg/dia (5 kcal/kg/dia com índice de massa abaixo de 14), aumentando lentamente em 4 a 7 dias, com tiamina antes e durante, reposição de fósforo, potássio e magnésio e monitorização diária. Glicose isolada precipita a síndrome.",
+  "porAlt": [
+   "Aporte alto inicial precipita síndrome de realimentação.",
+   "Não se adia a alimentação; repõe-se durante.",
+   "Parenteral em dose plena aumenta o risco de realimentação.",
+   "Glicose isolada sem eletrólitos e tiamina precipita a síndrome.",
+   "Alto risco de realimentação: iniciar com 5 a 10 kcal/kg/dia, tiamina e reposição de eletrólitos monitorizada."
   ]
  }
 ]

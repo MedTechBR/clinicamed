@@ -1,242 +1,242 @@
 [
  {
-  "q": "Paciente com doença renal crônica estágio 5 apresenta pericardite urêmica e encefalopatia. Qual é a conduta?",
+  "q": "Homem de 54 anos com doença renal crônica estágio 5, ainda sem diálise, chega com dor torácica pleurítica, sonolência e asterixe. Ureia 310 mg/dL, creatinina 11,2 mg/dL, potássio 5,6 mEq/L, bicarbonato 15 mEq/L. Atrito pericárdico à ausculta. Ecocardiograma: derrame pericárdico moderado, sem colapso de câmaras. Pressão arterial 150/90 mmHg, sem pulso paradoxal. Plaquetas 180.000/mm³. Está em lista de preparo para fístula arteriovenosa, sem cateter de diálise, pesa 68 kg e tem hemoglobina de 8,9 g/dL. Qual é a conduta?",
   "alts": [
-   "Indicar terapia dialítica de urgência, pois esses achados configuram sempre indicação absoluta de diálise.",
-   "Aumentar apenas a dose do diurético de alça como medida principal para o controle dos sintomas urêmicos.",
-   "Prescrever anti-inflamatório não hormonal em dose plena para o tratamento da pericardite urêmica descrita.",
-   "Aguardar a queda espontânea da ureia por sete dias antes de qualquer indicação de terapia substitutiva.",
-   "Iniciar apenas restrição proteica extrema como tratamento definitivo das manifestações urêmicas do paciente."
+   "Hemodiálise urgente, com mínimo de heparina",
+   "Colchicina e ibuprofeno",
+   "Pericardiocentese imediata",
+   "Aguardar a fístula para iniciar diálise",
+   "Prednisona em dose alta"
   ],
   "gab": 0,
   "tema": "nefro",
   "cenario": "uti",
   "comp": "urg",
   "nivel": "r2",
-  "base": "KDIGO Chronic Kidney Disease Guideline, 2024; Brenner and Rector's The Kidney, 12ª edição, 2024",
-  "coment": "As indicações clássicas de diálise de urgência são acidose metabólica refratária, distúrbios eletrolíticos graves, sobretudo hipercalemia refratária, intoxicações dialisáveis, sobrecarga volêmica refratária e uremia sintomática, esta representada por pericardite, encefalopatia, sangramento urêmico e náuseas incoercíveis. Pericardite urêmica e encefalopatia são indicações absolutas e não devem aguardar a evolução espontânea.",
+  "base": "Brenner and Rector's The Kidney, 11ª edição, 2020; ESC Guidelines for the diagnosis and management of pericardial diseases, 2015",
+  "coment": "Pericardite urêmica, encefalopatia urêmica, sangramento urêmico, hipercalemia ou acidose refratárias e sobrecarga de volume refratária são indicações de diálise urgente. A pericardite costuma melhorar em 1 a 2 semanas de diálise intensiva. Recomenda-se diálise sem heparina ou com dose mínima, pelo risco de hemopericárdio, e vigilância ecocardiográfica para tamponamento. Anti-inflamatórios e colchicina têm papel limitado.",
   "porAlt": [
-   "Correta: pericardite e encefalopatia urêmicas configuram indicação absoluta de diálise de urgência.",
-   "O diurético não remove as toxinas urêmicas responsáveis pela pericardite e pela encefalopatia.",
-   "O anti-inflamatório agrava a função renal e não trata a causa da pericardite, que é a uremia.",
-   "Aguardar sete dias em uremia sintomática grave permite tamponamento cardíaco e coma urêmico.",
-   "A restrição proteica é medida crônica e não reverte manifestações urêmicas já instaladas."
+   "Pericardite e encefalopatia urêmicas indicam diálise urgente, com heparina mínima pelo risco de hemopericárdio.",
+   "Anti-inflamatório não trata a causa e é nefrotóxico.",
+   "Sem tamponamento, pericardiocentese não é necessária.",
+   "Adiar a diálise arrisca tamponamento e morte.",
+   "Corticoide não trata pericardite urêmica."
   ]
  },
  {
-  "q": "Paciente com doença renal crônica avançada apresenta acidose metabólica com bicarbonato de 16 mEq/L. Qual é a conduta?",
+  "q": "Mulher de 67 anos com doença renal crônica G4 (filtração de 21 mL/min/1,73 m²) por nefropatia hipertensiva vem à consulta. Refere perda de massa muscular e cansaço. Bicarbonato venoso de 16 mEq/L em três dosagens, potássio 5,2 mEq/L, sódio 139 mEq/L, cloreto 110 mEq/L. Pressão arterial 134/82 mmHg, sem edema e sem insuficiência cardíaca. Usa losartana e anlodipino. Qual é a conduta para a acidose?",
   "alts": [
-   "Não tratar a acidose, pois ela não tem qualquer repercussão clínica em pacientes com doença renal crônica.",
-   "Prescrever apenas dieta hiperproteica como estratégia de correção da acidose metabólica identificada agora.",
-   "Iniciar diálise imediata a todos os pacientes com esse valor isolado de bicarbonato sérico no exame agora.",
-   "Repor bicarbonato de sódio por via oral, pois a correção reduz sempre a progressão renal e a perda muscular.",
-   "Administrar cloreto de amônio por via oral como tratamento da acidose metabólica do paciente renal agora."
-  ],
-  "gab": 3,
-  "tema": "nefro",
-  "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "KDIGO Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease, 2024",
-  "coment": "A acidose metabólica crônica na doença renal acelera a progressão renal, promove catabolismo muscular, agrava a doença óssea e associa-se a maior mortalidade. As diretrizes recomendam repor bicarbonato oral para manter o bicarbonato sérico acima de 22 mEq/L, com atenção à sobrecarga de sódio e ao controle pressórico. Dieta rica em frutas e vegetais reduz a carga ácida. Dieta hiperproteica aumenta a produção de ácido e é contraproducente.",
-  "porAlt": [
-   "A acidose crônica tem repercussão clara: acelera perda de função renal e de massa muscular.",
-   "A dieta hiperproteica aumenta a carga ácida e agrava a acidose metabólica do paciente renal.",
-   "A diálise não é indicada apenas pelo valor de bicarbonato quando a acidose é corrigível clinicamente.",
-   "Correta: repor bicarbonato oral, pois a correção reduz progressão renal e catabolismo muscular.",
-   "O cloreto de amônio é acidificante e agravaria de forma direta a acidose já instalada."
-  ]
- },
- {
-  "q": "Paciente apresenta hipocalemia de 2,4 mEq/L com alcalose metabólica e hipertensão arterial. Qual é a investigação inicial?",
-  "alts": [
-   "Dosar apenas o hormônio tireoestimulante como investigação inicial da hipocalemia com hipertensão arterial.",
-   "Solicitar apenas ultrassonografia de tireoide como exame inicial para investigar o distúrbio eletrolítico.",
-   "Dosar aldosterona e renina plasmáticas, avaliando sempre causas de excesso de mineralocorticoide no paciente.",
-   "Iniciar reposição de potássio e não realizar qualquer investigação da causa do distúrbio identificado agora.",
-   "Solicitar apenas eletroencefalograma como investigação inicial da hipocalemia grave com alcalose metabólica."
+   "Observar, pois a acidose é esperada nessa fase",
+   "Iniciar hemodiálise pela acidose",
+   "Bicarbonato de sódio oral",
+   "Acetazolamida oral diária",
+   "Dieta rica em proteína animal"
   ],
   "gab": 2,
   "tema": "nefro",
   "cenario": "amb",
-  "comp": "dx",
-  "nivel": "r3",
-  "base": "Endocrine Society Clinical Practice Guideline — Primary Aldosteronism, revisão 2022; KDIGO controversies on potassium, 2020",
-  "coment": "A tríade de hipocalemia, alcalose metabólica e hipertensão aponta excesso de mineralocorticoide, sendo o hiperaldosteronismo primário a causa mais frequente. A investigação inicia com a relação entre aldosterona e renina plasmáticas, corrigindo a hipocalemia antes da coleta, porque ela suprime a secreção de aldosterona e pode gerar falso-negativo. Diferenciais incluem síndrome de Cushing, estenose de artéria renal e uso de alcaçuz e corticoides.",
-  "porAlt": [
-   "O hormônio tireoestimulante não explica a associação de hipocalemia, alcalose e hipertensão.",
-   "A ultrassonografia de tireoide não investiga o eixo renina-angiotensina-aldosterona do paciente.",
-   "Correta: dosar aldosterona e renina para investigar excesso de mineralocorticoide como causa do quadro.",
-   "Repor potássio sem investigar deixa ativa a causa e o distúrbio recorre após a suspensão.",
-   "O eletroencefalograma não avalia distúrbio eletrolítico nem sua causa endócrina subjacente."
-  ]
- },
- {
-  "q": "Paciente com nefrolitíase de repetição por cálculo de oxalato de cálcio. Qual é a medida preventiva de maior impacto?",
-  "alts": [
-   "Restringir de forma drástica o cálcio da dieta, medida de maior impacto na prevenção de novos cálculos agora.",
-   "Restringir completamente a ingestão de líquidos para reduzir a formação de cristais na urina do paciente.",
-   "Iniciar antibiótico profilático contínuo como medida preventiva de novos episódios de nefrolitíase agora.",
-   "Aumentar a ingestão hídrica para volume urinário acima de dois litros por dia, mantendo sempre dieta adequada.",
-   "Prescrever apenas analgésico de uso contínuo como estratégia de prevenção de novos episódios de cólica agora."
-  ],
-  "gab": 3,
-  "tema": "nefro",
-  "cenario": "amb",
-  "comp": "prev",
+  "comp": "tto",
   "nivel": "r2",
-  "base": "AUA Guideline on Medical Management of Kidney Stones, revisão 2023; EAU Guidelines on Urolithiasis, 2024",
-  "coment": "A medida preventiva de maior impacto na nefrolitíase é o aumento da ingestão hídrica, buscando volume urinário acima de dois a dois litros e meio por dia. Acrescentam-se redução de sódio, moderação de proteína animal e manutenção da ingestão normal de cálcio na dieta: restringir cálcio aumenta a absorção intestinal de oxalato e paradoxalmente eleva o risco de novos cálculos. Citrato de potássio e tiazídico são indicados conforme a avaliação metabólica.",
+  "base": "KDIGO Clinical Practice Guideline for the Evaluation and Management of CKD, 2024",
+  "coment": "A acidose metabólica da doença renal crônica causa catabolismo muscular e doença óssea e se associa a progressão renal. A KDIGO (2024) sugere tratamento farmacológico com bicarbonato persistentemente abaixo de 18 mEq/L, com bicarbonato de sódio oral e atenção a sobrecarga de sódio, edema e pressão. Dieta com mais vegetais e frutas reduz a carga ácida, com cautela pelo potássio.",
   "porAlt": [
-   "Restringir cálcio aumenta a absorção de oxalato e paradoxalmente eleva o risco de novos cálculos.",
-   "Restringir líquidos concentra a urina e é exatamente o oposto da medida preventiva indicada.",
-   "O antibiótico profilático não previne cálculo de oxalato, que não tem origem infecciosa.",
-   "Correta: aumentar a ingestão hídrica para volume urinário acima de dois litros por dia.",
-   "O analgésico trata a crise dolorosa, mas não previne a formação de novos cálculos renais."
+   "Bicarbonato persistentemente abaixo de 18 mEq/L deve ser tratado.",
+   "Acidose leve e isolada não é indicação de diálise.",
+   "Acidose metabólica persistente na doença renal: bicarbonato de sódio oral, com atenção a volume e pressão.",
+   "Acetazolamida causa acidose.",
+   "Proteína animal aumenta a carga ácida."
   ]
  },
  {
-  "q": "Paciente com síndrome nefrítica aguda, hematúria com cilindros hemáticos, hipertensão e edema, duas semanas após faringite. Qual é a conduta?",
+  "q": "Homem de 52 anos tem hipertensão recente (164/100 mmHg), fraqueza e cãibras. Potássio 2,6 mEq/L, bicarbonato 32 mEq/L, sódio 144 mEq/L, creatinina normal e potássio urinário de 45 mEq/L. Renina plasmática suprimida e aldosterona de 2 ng/dL (baixa). Cortisol matinal e ACTH normais. Não usa diurético nem corticoide. Há 3 meses consome todos os dias balas e chás de alcaçuz natural. Não há história familiar de hipertensão precoce. Qual é o diagnóstico mais provável?",
   "alts": [
-   "Iniciar imunossupressão em dose alta imediatamente em todos os pacientes com esse quadro clínico descrito agora.",
-   "Indicar diálise imediata em todos os casos de síndrome nefrítica com hematúria e hipertensão arterial agora.",
-   "Prescrever apenas anti-inflamatório não hormonal contínuo como tratamento da síndrome nefrítica descrita agora.",
-   "Iniciar dieta hiperproteica e hipersódica para compensar as perdas urinárias observadas nesse paciente agora.",
-   "Tratamento de suporte com restrição de sal e controle pressórico, monitorando sempre a função renal do paciente."
+   "Hiperaldosteronismo primário",
+   "Estenose de artéria renal",
+   "Síndrome de Bartter clássica",
+   "Síndrome de Cushing adrenal",
+   "Excesso aparente de mineralocorticoide por alcaçuz"
   ],
   "gab": 4,
   "tema": "nefro",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "KDIGO Glomerular Diseases Guideline, 2021 com revisão 2024; UpToDate revisão sobre glomerulonefrite pós-infecciosa, 2024",
-  "coment": "A glomerulonefrite pós-estreptocócica surge de uma a três semanas após faringite ou de três a seis semanas após piodermite, com hematúria, cilindros hemáticos, hipertensão, edema e consumo de complemento C3, que se normaliza em oito a doze semanas. O tratamento é de suporte: restrição de sal e água, diurético e anti-hipertensivo, com antibiótico se houver infecção ativa. A imunossupressão não é indicada, e o prognóstico no adulto costuma ser bom.",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Endocrine Society Clinical Practice Guideline: The Management of Primary Aldosteronism, 2016; Williams Textbook of Endocrinology, 14ª edição, 2020",
+  "coment": "Hipertensão com hipocalemia e alcalose metabólica sugere excesso de atividade mineralocorticoide. Com renina alta, pensa-se em doença renovascular; com renina baixa e aldosterona alta, hiperaldosteronismo primário; com renina e aldosterona baixas, outro agonista do receptor: ácido glicirrízico do alcaçuz, que inibe a 11-beta-hidroxiesteroide desidrogenase tipo 2 e deixa o cortisol ativar o receptor, síndrome de Liddle, deficiências enzimáticas adrenais ou Cushing. Suspender o alcaçuz corrige o quadro em semanas.",
   "porAlt": [
-   "A imunossupressão não é indicada na forma pós-infecciosa típica e expõe a toxicidade evitável.",
-   "A diálise se indica por critérios clínicos específicos, ausentes na maioria desses pacientes.",
-   "O anti-inflamatório agrava a função renal e a hipertensão em paciente com glomerulonefrite ativa.",
-   "Dieta hipersódica agrava o edema e a hipertensão, sendo o oposto da orientação adequada.",
-   "Correta: suporte com restrição de sal, controle pressórico e monitorização da função renal."
+   "No hiperaldosteronismo primário a aldosterona está alta.",
+   "Estenose renal eleva renina e aldosterona.",
+   "Bartter cursa sem hipertensão e com renina e aldosterona altas.",
+   "Cortisol e ACTH normais afastam Cushing.",
+   "Hipertensão, hipocalemia e alcalose com renina e aldosterona suprimidas e consumo de alcaçuz: excesso aparente de mineralocorticoide."
   ]
  },
  {
-  "q": "Paciente com hipernatremia de 158 mEq/L por privação de água em idoso acamado. Qual é a conduta?",
+  "q": "Homem de 44 anos teve três episódios de cálculo de oxalato de cálcio em 4 anos. Cálcio sérico e paratormônio normais, sem doença intestinal. Urina de 24 horas: volume de 1,3 litro, cálcio 360 mg, oxalato 38 mg, citrato 620 mg, sódio 240 mEq e ácido úrico 650 mg. Consome muito sal e evita laticínios desde o primeiro cálculo. Qual é a conduta preventiva mais adequada?",
   "alts": [
-   "Repor água livre de forma gradual, evitando sempre queda superior ao limite seguro em vinte e quatro horas.",
-   "Corrigir o sódio rapidamente para valores normais nas primeiras quatro horas de atendimento do paciente.",
-   "Administrar salina hipertônica endovenosa para corrigir o distúrbio eletrolítico identificado no exame.",
-   "Restringir toda oferta de líquidos até a normalização espontânea do sódio sérico do paciente idoso agora.",
-   "Administrar apenas diurético de alça em dose alta como tratamento principal da hipernatremia descrita."
-  ],
-  "gab": 0,
-  "tema": "nefro",
-  "cenario": "enf",
-  "comp": "tto",
-  "nivel": "r2",
-  "base": "European clinical practice guidance on dysnatraemias, revisão 2023; Brenner and Rector's The Kidney, 12ª edição, 2024",
-  "coment": "A hipernatremia por perda ou privação de água é corrigida com reposição de água livre, por via oral ou com solução glicosada ou hipotônica endovenosa, calculando o déficit e somando as perdas contínuas. A correção deve ser gradual, com queda de até dez a doze miliequivalentes por litro em vinte e quatro horas na forma crônica, para evitar edema cerebral. Em hipovolemia importante, restaura-se primeiro o volume com solução isotônica.",
-  "porAlt": [
-   "Correta: repor água livre de forma gradual, respeitando o limite de correção em vinte e quatro horas.",
-   "Corrigir rapidamente em poucas horas na forma crônica pode causar edema cerebral e convulsão.",
-   "A salina hipertônica eleva ainda mais o sódio e agrava diretamente o distúrbio do paciente.",
-   "Restringir líquidos mantém e agrava a hipernatremia por privação de água já instalada.",
-   "O diurético de alça aumenta a perda de água livre e pode agravar a hipernatremia existente."
-  ]
- },
- {
-  "q": "Paciente em hemodiálise crônica apresenta fósforo elevado e paratormônio muito elevado. Qual é a conduta?",
-  "alts": [
-   "Aumentar a oferta de fósforo na dieta para corrigir o desequilíbrio mineral identificado no paciente dialítico.",
-   "Controlar o fósforo com dieta e quelante, associando sempre tratamento do hiperparatireoidismo secundário.",
-   "Suspender a diálise até a normalização espontânea do fósforo e do paratormônio séricos do paciente agora.",
-   "Prescrever apenas cálcio em dose alta e sem qualquer monitorização do produto cálcio-fósforo sérico agora.",
-   "Iniciar bisfosfonato endovenoso como tratamento de escolha do hiperparatireoidismo secundário dialítico."
+   "Restringir o cálcio da dieta abaixo de 400 mg/dia",
+   "Mais água, menos sódio, cálcio normal e tiazídico",
+   "Alopurinol isolado pelo ácido úrico",
+   "Citrato de potássio isolado",
+   "Vitamina C em dose alta diária"
   ],
   "gab": 1,
   "tema": "nefro",
   "cenario": "amb",
-  "comp": "tto",
-  "nivel": "r3",
-  "base": "KDIGO Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of CKD-MBD, 2017 com revisão 2023",
-  "coment": "O distúrbio mineral e ósseo da doença renal crônica exige controle do fósforo com restrição dietética e quelantes, preferindo os isentos de cálcio quando há hipercalcemia ou calcificação vascular, associado ao tratamento do hiperparatireoidismo secundário com calcitriol, análogos da vitamina D ou calcimiméticos. A paratireoidectomia é indicada em hiperparatireoidismo grave refratário. Bisfosfonatos são evitados na função renal muito reduzida.",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "AUA Guideline: Medical Management of Kidney Stones, 2014, com revisão de 2019; EAU Guidelines on Urolithiasis, 2024",
+  "coment": "Na litíase por oxalato de cálcio recorrente, a urina de 24 horas orienta a prevenção. A AUA recomenda volume urinário de pelo menos 2,5 litros por dia para todos. Hipercalciúria se trata com restrição de sódio, que reduz a calciúria, ingestão normal de cálcio (1.000 a 1.200 mg/dia), que liga o oxalato no intestino, e tiazídico se persistir. Evitar laticínios paradoxalmente aumenta o risco de cálculo.",
   "porAlt": [
-   "Aumentar o fósforo agrava a hiperfosfatemia, a calcificação vascular e o estímulo à paratireoide.",
-   "Correta: controlar o fósforo com dieta e quelante e tratar o hiperparatireoidismo secundário.",
-   "Suspender a diálise agrava a retenção de fósforo e as demais manifestações urêmicas do paciente.",
-   "Cálcio em dose alta sem monitorização favorece calcificação vascular e doença óssea adinâmica.",
-   "Os bisfosfonatos são evitados na função renal muito reduzida e não tratam o hiperparatireoidismo."
+   "Restringir cálcio aumenta a absorção de oxalato e o risco de cálculo.",
+   "Hipercalciúria com baixo volume urinário e dieta rica em sódio: diurese acima de 2,5 litros, menos sódio, cálcio normal e tiazídico.",
+   "Alopurinol é para hiperuricosúria quando a hipercalciúria não é o problema principal.",
+   "O citrato urinário está normal.",
+   "Vitamina C em dose alta aumenta o oxalato urinário."
   ]
  },
  {
-  "q": "Paciente com lesão renal aguda e ultrassonografia mostrando hidronefrose bilateral. Qual é a conduta imediata?",
+  "q": "Homem de 19 anos teve glomerulonefrite aguda 2 semanas após faringite, com edema, hipertensão, hematúria com cilindros hemáticos e C3 baixo, tratada com restrição de sal e diurético. Doze semanas depois, persistem hematúria dismórfica e proteinúria de 1,4 g/dia, a creatinina subiu para 1,3 mg/dL (1,0 na alta) e o C3 continua baixo (48 mg/dL; referência acima de 90), com C4 normal. Antiestreptolisina O em queda. FAN negativo e sorologias para hepatites B e C negativas. Qual é a conduta?",
   "alts": [
-   "Iniciar diurético em dose alta como primeira medida para aumentar o fluxo urinário do paciente.",
-   "Desobstruir a via urinária com urgência, pois a causa pós-renal é sempre potencialmente reversível.",
-   "Restringir líquidos e aguardar a resolução espontânea da hidronefrose bilateral identificada no exame.",
-   "Iniciar imunossupressão em dose alta como tratamento da lesão renal aguda com hidronefrose bilateral.",
-   "Aguardar sete dias de observação clínica antes de qualquer tentativa de desobstrução da via urinária."
+   "Manter observação, pois o C3 normaliza em até 1 ano",
+   "Penicilina benzatina mensal",
+   "Prednisona empírica por 8 semanas",
+   "Biópsia renal para glomerulopatia por C3",
+   "Tonsilectomia eletiva"
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases, 2021",
+  "coment": "Na glomerulonefrite pós-estreptocócica, o C3 volta ao normal em 6 a 8 semanas, a hematúria macroscópica e a hipertensão regridem em semanas e a proteinúria diminui progressivamente. C3 persistentemente baixo além de 8 a 12 semanas, proteinúria significativa ou piora da função indicam biópsia, pela suspeita de glomerulopatia por C3, que pode se manifestar após infecção e decorre de desregulação da via alternativa do complemento.",
+  "porAlt": [
+   "O C3 da pós-estreptocócica normaliza em até 8 semanas; persistência além disso sugere outra doença.",
+   "Profilaxia antibiótica não altera a glomerulonefrite.",
+   "Corticoide empírico sem diagnóstico histológico não é indicado.",
+   "C3 baixo após 8 a 12 semanas, com proteinúria e perda de função: biópsia para glomerulopatia por C3.",
+   "Tonsilectomia não tem papel aqui."
+  ]
+ },
+ {
+  "q": "Mulher de 88 anos, dependente para atividades diárias, é trazida após 4 dias de diarreia e pouca ingestão. Está sonolenta, com pressão arterial de 76/44 mmHg, frequência de 124 bpm, extremidades frias e enchimento capilar de 5 segundos. Sódio 158 mEq/L, potássio 3,2 mEq/L, creatinina 2,4 mg/dL, lactato 4,1 mmol/L, glicemia 110 mg/dL. Pesa 50 kg. Sem sinais de congestão pulmonar. Não usa diuréticos nem tem história de diabetes insípido. Qual é a primeira conduta com fluidos?",
+  "alts": [
+   "Soro glicosado a 5% em infusão rápida",
+   "Salina a 0,45% a 250 mL/h",
+   "Cristaloide isotônico em bolus até perfusão adequada",
+   "Água livre por sonda nasogástrica",
+   "Salina a 3% para evitar queda do sódio"
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Adrogué e Madias, Hypernatremia, NEJM, 2000; Sterns, Disorders of plasma sodium, NEJM, 2015",
+  "coment": "Na hipernatremia com instabilidade hemodinâmica, a prioridade é a perfusão: bolus de cristaloide isotônico (salina ou solução balanceada, que para essa paciente já são hipotônicas em relação ao plasma e começam a reduzir o sódio) até corrigir o choque. Estabilizada, calcula-se o déficit de água livre e repõe-se com fluido hipotônico, com queda do sódio de até 10 a 12 mEq/L em 24 horas, somando as perdas da diarreia e repondo potássio.",
+  "porAlt": [
+   "Soro glicosado não expande o intravascular e baixaria o sódio rápido demais.",
+   "Solução hipotônica em ritmo baixo não corrige o choque.",
+   "Choque hipovolêmico com hipernatremia: restaurar a perfusão com cristaloide isotônico e, depois, corrigir a água livre devagar.",
+   "Água por sonda não trata o choque e arrisca aspiração em paciente sonolenta.",
+   "Salina hipertônica agravaria a hipernatremia."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos em hemodiálise há 4 anos usa carbonato de cálcio 1 g com cada refeição e calcitriol 0,25 µg/dia. Exames: cálcio 10,6 mg/dL, fósforo 6,8 mg/dL, paratormônio 420 pg/mL (limite superior de 65), fosfatase alcalina normal. Radiografia de mãos com calcificação arterial. Tem bom controle de volume e dialisa 4 horas, três vezes por semana. Ganho de peso interdialítico de 1,8 kg, Kt/V de 1,4 e albumina de 3,9 g/dL. Qual é a conduta mais adequada?",
+  "alts": [
+   "Trocar o carbonato por sevelamer e rever o calcitriol",
+   "Dobrar o carbonato de cálcio",
+   "Aumentar o calcitriol para baixar o paratormônio",
+   "Paratireoidectomia eletiva",
+   "Suspender todos os quelantes de fósforo"
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "KDIGO Clinical Practice Guideline Update for CKD-Mineral and Bone Disorder, 2017",
+  "coment": "A KDIGO (2017) recomenda restringir quelantes à base de cálcio em adultos com doença renal crônica, principalmente com hipercalcemia ou calcificação vascular, e evitar hipercalcemia. O alvo de paratormônio na diálise é de 2 a 9 vezes o limite superior do ensaio, e aqui ele está dentro. A conduta é trocar por quelante sem cálcio (sevelamer ou lantânio), reduzir ou suspender o calcitriol, orientar menos fósforo de aditivos e otimizar a diálise.",
+  "porAlt": [
+   "Hipercalcemia com calcificação vascular: quelante sem cálcio e redução do calcitriol; o paratormônio está no alvo.",
+   "Mais cálcio agravaria hipercalcemia e calcificação.",
+   "Paratormônio entre 2 e 9 vezes o limite não exige mais calcitriol, que eleva cálcio e fósforo.",
+   "Não há hiperparatireoidismo grave refratário.",
+   "Sem quelante, o fósforo subiria ainda mais."
+  ]
+ },
+ {
+  "q": "Mulher de 48 anos com carcinoma de colo uterino estádio IIIB, em tratamento, chega com oligúria e náusea. Creatinina 5,2 mg/dL (0,9 mg/dL há 2 meses), potássio 6,0 mEq/L, bicarbonato 17 mEq/L. Ultrassonografia: hidronefrose bilateral moderada a grave, com bexiga vazia após sondagem, que drenou 60 mL. Tomografia sem contraste mostra massa pélvica envolvendo os dois ureteres distais. Pressão arterial 138/82 mmHg. Ela deseja seguir o tratamento oncológico. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter a sonda vesical e aguardar a diurese",
+   "Nefrostomia percutânea bilateral",
+   "Hemodiálise isolada, sem abordar a obstrução",
+   "Furosemida em dose alta",
+   "Tomografia com contraste para detalhar a massa"
   ],
   "gab": 1,
   "tema": "nefro",
   "cenario": "emg",
   "comp": "urg",
   "nivel": "r2",
-  "base": "KDIGO Acute Kidney Injury Guideline, atualização 2024; EAU Guidelines on Urological Infections and obstruction, 2024",
-  "coment": "A hidronefrose bilateral aponta lesão renal aguda pós-renal, cuja reversibilidade depende do tempo de obstrução. A conduta é desobstruir com urgência, por sonda vesical quando a obstrução é baixa, ou por nefrostomia percutânea ou cateter duplo J quando é alta. Após a desobstrução, é comum a poliúria pós-obstrutiva, exigindo reposição cuidadosa de volume e monitorização de eletrólitos para evitar hipovolemia e distúrbios graves.",
+  "base": "Campbell-Walsh-Wein Urology, 12ª edição, 2020",
+  "coment": "Hidronefrose bilateral com bexiga vazia indica obstrução acima da bexiga. A causa pós-renal é potencialmente reversível, e a função costuma recuperar se a obstrução é aliviada em dias a poucas semanas. Na compressão extrínseca por neoplasia pélvica, o cateter duplo J retrógrado falha com frequência, e a nefrostomia percutânea é em geral preferida. A decisão considera o prognóstico oncológico e a vontade da paciente, e a diurese pós-obstrutiva deve ser antecipada.",
   "porAlt": [
-   "O diurético não vence a obstrução mecânica e pode agravar a distensão do sistema coletor.",
-   "Correta: desobstruir a via urinária com urgência, pois a causa pós-renal é potencialmente reversível.",
-   "Restringir líquidos não resolve a obstrução e agrava a hipoperfusão renal do paciente.",
-   "A imunossupressão não trata obstrução mecânica das vias urinárias identificada no exame.",
-   "Aguardar sete dias transforma uma lesão reversível em perda funcional definitiva do parênquima."
+   "A obstrução é ureteral, acima da bexiga; sonda vesical não resolve.",
+   "Obstrução ureteral bilateral por neoplasia pélvica: desobstruir, em geral por nefrostomia percutânea.",
+   "Diálise sem desobstruir deixa sem tratamento a causa reversível.",
+   "Diurético não vence obstrução mecânica.",
+   "Contraste iodado nessa situação não acrescenta à decisão imediata."
   ]
  },
  {
-  "q": "Paciente com creatinina estável e albuminúria persistente de 40 mg/g em duas amostras, sem outras alterações. Qual é a interpretação?",
+  "q": "Homem de 46 anos, hipertenso, faz exames de rotina. Taxa de filtração glomerular estimada pela CKD-EPI 2021 de 96 mL/min/1,73 m². Relação albumina/creatinina urinária de 40 mg/g, repetida com 45 mg/g após 4 meses, sem exercício intenso, febre ou infecção urinária nas coletas. Sedimento urinário e ultrassonografia renal normais. Pressão arterial 142/90 mmHg sem tratamento. Não é diabético. Não tem história familiar de doença renal nem usa anti-inflamatórios. Qual é a interpretação?",
   "alts": [
-   "Resultado normal, que dispensa qualquer seguimento ou intervenção sobre fatores de risco do paciente agora.",
-   "Necessidade de diálise imediata diante da presença de albuminúria persistente nas duas amostras avaliadas.",
-   "Indicação de biópsia renal imediata em todos os pacientes com esse nível de albuminúria persistente agora.",
-   "Doença renal crônica em estágio inicial, exigindo sempre controle de fatores de risco e seguimento programado.",
-   "Contraindicação absoluta ao uso de qualquer bloqueador do sistema renina-angiotensina nesse paciente agora."
+   "Normal, pois a filtração está acima de 90",
+   "Albuminúria transitória sem significado",
+   "Doença renal crônica G2A1",
+   "Doença renal crônica G1A2",
+   "Síndrome nefrótica incipiente"
   ],
   "gab": 3,
   "tema": "nefro",
   "cenario": "amb",
   "comp": "dx",
   "nivel": "r2",
-  "base": "KDIGO Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease, 2024",
-  "coment": "A doença renal crônica é definida por alterações estruturais ou funcionais presentes por mais de três meses, e a albuminúria acima de 30 mg/g já preenche esse critério mesmo com filtração glomerular normal. A classificação combina categoria de filtração e de albuminúria, e essa faixa corresponde a albuminúria moderadamente aumentada. A conduta é controlar pressão, glicemia e lipídeos, evitar nefrotóxicos e considerar bloqueio do sistema renina-angiotensina.",
+  "base": "KDIGO Clinical Practice Guideline for the Evaluation and Management of CKD, 2024",
+  "coment": "Doença renal crônica é definida por filtração abaixo de 60 mL/min/1,73 m² ou por marcador de lesão renal (albuminúria de 30 mg/g ou mais, alterações no sedimento, na imagem ou na histologia) por mais de 3 meses. A classificação KDIGO combina filtração (G1 a G5) e albuminúria (A1 abaixo de 30, A2 de 30 a 300, A3 acima de 300 mg/g). Albuminúria moderada é marcador de risco renal e cardiovascular e, com hipertensão, indica IECA ou bloqueador do receptor de angiotensina.",
   "porAlt": [
-   "Albuminúria persistente acima de 30 mg/g não é resultado normal e define doença renal crônica.",
-   "A diálise depende de critérios clínicos e de função renal muito reduzida, ausentes neste caso.",
-   "A biópsia é indicada em situações específicas, e não em toda albuminúria moderadamente aumentada.",
-   "Correta: doença renal crônica inicial, exigindo controle de fatores de risco e seguimento programado.",
-   "O bloqueio do sistema renina-angiotensina é justamente indicado para reduzir a albuminúria."
+   "Filtração normal não afasta doença renal quando há marcador de lesão por mais de 3 meses.",
+   "Albuminúria em duas medidas com 4 meses de intervalo não é transitória.",
+   "Filtração acima de 90 é G1, e albuminúria de 30 a 300 mg/g é A2.",
+   "Albuminúria de 30 a 300 mg/g por mais de 3 meses com filtração acima de 90: G1A2.",
+   "Nefrótica exige proteinúria acima de 3,5 g/dia e hipoalbuminemia."
   ]
  },
  {
-  "q": "Paciente em uso de vancomicina e piperacilina-tazobactam evolui com elevação de creatinina. Qual é a conduta?",
+  "q": "Homem de 63 anos, 90 kg, internado por bacteriemia por Staphylococcus aureus resistente à meticilina com foco em cateter, recebe vancomicina 1,5 g de 12/12 horas guiada por vale entre 15 e 20 mg/L, além de piperacilina-tazobactam iniciada empiricamente. No quinto dia, a creatinina sobe de 0,9 para 1,6 mg/dL, com vale de vancomicina de 24 mg/L. Hemoculturas de controle negativas; nenhum gram-negativo isolado. Qual é a conduta mais adequada?",
   "alts": [
-   "Manter as doses plenas de ambos os fármacos e apenas repetir a creatinina ao término do tratamento.",
-   "Aumentar a dose da vancomicina para compensar a menor excreção renal observada no paciente internado.",
-   "Suspender toda antibioticoterapia mesmo com infecção grave em curso, sem qualquer substituição do esquema.",
-   "Iniciar diálise imediata em todos os pacientes com qualquer elevação de creatinina nesse esquema já.",
-   "Revisar a indicação e ajustar ou substituir os fármacos, monitorando sempre nível sérico e função renal."
+   "Manter os dois antibióticos e hidratar",
+   "Trocar a vancomicina por gentamicina",
+   "Manter vancomicina e trocar piperacilina por meropeném",
+   "Suspender a vancomicina sem substituto",
+   "Suspender a piperacilina e guiar a vancomicina por AUC"
   ],
   "gab": 4,
   "tema": "nefro",
   "cenario": "enf",
   "comp": "tto",
-  "nivel": "r2",
-  "base": "KDIGO Acute Kidney Injury Guideline, atualização 2024; IDSA/ASHP vancomycin therapeutic monitoring consensus, 2020",
-  "coment": "A associação de vancomicina com piperacilina-tazobactam está associada a maior incidência de lesão renal aguda do que cada fármaco isolado. Diante da elevação da creatinina, revisa-se a necessidade real de cada agente, ajusta-se a dose pela função renal, monitora-se o nível sérico da vancomicina, preferindo o alvo por área sob a curva, e considera-se a substituição por alternativa menos nefrotóxica conforme o germe e o sítio da infecção.",
+  "nivel": "r3",
+  "base": "ASHP/IDSA/PIDS/SIDP Consensus Guideline: Therapeutic Monitoring of Vancomycin for Serious MRSA Infections, 2020",
+  "coment": "A diretriz de 2020 da ASHP, IDSA, PIDS e SIDP abandonou o alvo de vale de 15 a 20 mg/L nas infecções graves por MRSA e recomenda dosar a vancomicina pela área sob a curva de 24 horas (400 a 600 mg·h/L), estimada por software bayesiano ou por duas concentrações, com menor nefrotoxicidade e eficácia semelhante. A associação com piperacilina-tazobactam se associou a mais lesão renal aguda em estudos observacionais, e o betalactâmico sem indicação deve ser suspenso. Daptomicina é alternativa se a função renal continuar piorando.",
   "porAlt": [
-   "Manter doses plenas com função renal em queda acumula o fármaco e agrava a lesão renal.",
-   "Aumentar a dose eleva o nível sérico e a toxicidade, agravando diretamente a lesão renal aguda.",
-   "Suspender toda cobertura em infecção grave sem substituir expõe o paciente a desfecho fatal.",
-   "A diálise se indica por critérios clínicos, e não pela simples elevação da creatinina sérica.",
-   "Correta: revisar a indicação, ajustar ou substituir os fármacos e monitorar nível sérico e função renal."
+   "Manter vale de 24 mg/L e betalactâmico sem indicação perpetua a nefrotoxicidade.",
+   "Aminoglicosídeo é nefrotóxico e não trata bacteriemia por MRSA como monoterapia.",
+   "Sem gram-negativo, não há razão para manter betalactâmico de amplo espectro.",
+   "Bacteriemia por MRSA precisa de tratamento eficaz.",
+   "Suspender o betalactâmico desnecessário e ajustar a vancomicina por área sob a curva, com menor nefrotoxicidade."
   ]
  }
 ]
