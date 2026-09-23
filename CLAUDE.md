@@ -5,6 +5,23 @@ App pessoal do Matheus, três públicos no mesmo banco: **título de especialist
 residência**. Herda a arquitetura do TráfegoTítulo/RadioTítulo e o cronograma vivo do
 quiz-enare-farmacia.
 
+## Camada "viva" (23/09/2026, cm-v97) — a direção visual VIGENTE
+
+Quinta rodada de layout. Pedido: "muito quadrado, tudo da mesma cor e pouco dinâmico". A camada está no
+FIM do `<style>` (bloco "camada viva") e sobrescreve as anteriores; as de cima ficaram como base.
+- **Cor por seção:** `body[data-aba]` define `--ac` (Início índigo, Questões azul, Simulado laranja, Prática
+  verde, Leituras violeta, Cartões âmbar, Desempenho ciano, Turma rosa, Ajustes cinza). Botões, anel,
+  barras, aba ativa e selo do título usam `--ac`. Barra lateral clara com o ícone de cada aba em círculo
+  da sua cor (`--c` no botão, via `COR_ABA` em `montaAbas`). Leituras e áreas usam `corArea()`.
+- **Forma:** cartões de 22–28 px, botões e filtros em pílula, letras das alternativas e ícones em círculo.
+- **Movimento:** `vivo(sec)` (entrada escalonada, `data-conta` contadores, `data-w`/`data-h`/`data-off`
+  barras e anel que se preenchem), `entraQuestao()` (questão desliza na direção da navegação), acerto
+  pulsa com sinal de certo, erro treme, cartão vira, combo "N seguidas", `confete()` ao bater a meta.
+  `prefers-reduced-motion` desliga tudo.
+- **Início:** herói índigo com anel da meta, 14 dias, 4 indicadores coloridos, "Onde focar" (clicar filtra a
+  área), leituras em carrossel, atalhos em pílula e meta diária.
+- Continua fora: gradiente, emoji, fonte baixada da web (a Inter é local, em `assets/fonts`).
+
 ## Interface moderna (17/09/2026, cm-v92) — substitui a "prova impressa"
 
 O Matheus reprovou a cm-v76 por "extremamente simples" e pediu algo moderno. Direção atual:

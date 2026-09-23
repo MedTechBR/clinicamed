@@ -755,6 +755,280 @@ body{font-size:14px;line-height:1.55;letter-spacing:0}h1,h2,h3{letter-spacing:-.
 @media(min-width:900px) and (max-width:1180px){:root{--lado:76px}.marca{padding:0 0 26px}.mesaEstudo{grid-template-columns:minmax(0,1fr) 220px}nav.abas button{padding:9px 0}}
 @media(max-width:899px){.mesaEstudo{grid-template-columns:1fr}.estudoMargem{margin-top:0}}
 @media(max-width:640px){main{padding:20px 14px calc(28px + var(--nav))}.pgTitulo h1{font-size:22px}.sessaoTexto,.estudoBiblioteca,.estudoMargem{padding:17px}.mesaEstudo{gap:16px}.sessaoTexto{margin-bottom:16px}.sessaoTexto h3{font-size:18px}.trechoQuestao{font-size:14px}.indiceSecao{gap:8px}.indiceSecao>span{font-size:11px}#sec-questoes #qCartao .cx{padding:18px 15px}.enun{font-size:16px}.alt{font-size:14px}.listaL{padding:4px 16px}.marca{font-family:var(--sans)}}
+
+/* ============================================================
+   23/09/2026, cm-v97: camada "viva". Pedido do Matheus: "muito quadrado, tudo da mesma cor e
+   pouco dinâmico". Três eixos:
+   1. forma: cartões com cantos de 22 px, botões e filtros em pílula, letras e ícones em círculo;
+   2. cor: cada seção tem a sua (--ac, definida por body[data-aba]); a barra lateral mostra as
+      cores de todas; indicadores em blocos tingidos, cada um de uma cor;
+   3. movimento: entrada escalonada das telas, contadores, anel e barras que se preenchem,
+      acerto que pulsa, erro que treme, cartão que vira, confete ao bater a meta.
+   Sem gradiente e sem emoji. Movimento reduzido respeitado no fim do bloco.
+   ============================================================ */
+:root{
+  --papel:#F5F6FB; --sup:#FFFFFF; --sup2:#F1F3F9; --sup3:#E7EAF3;
+  --ink:#141827; --ink2:#5D6579; --ink3:#9098AB; --linha:#E6E9F2; --linhaF:#D3D8E5;
+  --c-indigo:#5B5BF0; --c-azul:#2F7BF6; --c-laranja:#F76E1E; --c-verde:#11A870; --c-violeta:#8E5AF2;
+  --c-ambar:#F2A007; --c-ciano:#0AA5C2; --c-rosa:#E8468E; --c-cinza:#667085; --c-vermelho:#E5484D;
+  --ac:var(--c-indigo); --acSup:#EEEEFF; --acInk:#4343D6;
+  --brand:var(--ac); --brandInk:var(--acInk); --brandSup:var(--acSup); --brandTxt:#fff;
+  --ok:#0E9F6E; --okSup:#E3F8EF; --err:#E5484D; --errSup:#FFECEC;
+  --rG:22px; --r:14px;
+  --sombra:0 1px 2px rgba(20,24,39,.04),0 4px 14px rgba(20,24,39,.05);
+  --sombraM:0 10px 30px rgba(20,24,39,.10),0 2px 6px rgba(20,24,39,.05);
+  --mola:cubic-bezier(.34,1.56,.64,1);
+}
+:root[data-tema="escuro"]{
+  --papel:#0D1017; --sup:#161B26; --sup2:#1C2230; --sup3:#252D3E;
+  --ink:#EDF0F7; --ink2:#A3ABBE; --ink3:#6F7892; --linha:#252C3B; --linhaF:#343D51;
+  --acSup:#23244A; --acInk:#A9A9FF; --brandTxt:#0D1017;
+  --okSup:#0F2A20; --errSup:#34181A;
+  --sombra:0 1px 2px rgba(0,0,0,.4); --sombraM:0 12px 30px rgba(0,0,0,.5);
+}
+@media(prefers-color-scheme:dark){:root:not([data-tema="claro"]){
+  --papel:#0D1017; --sup:#161B26; --sup2:#1C2230; --sup3:#252D3E;
+  --ink:#EDF0F7; --ink2:#A3ABBE; --ink3:#6F7892; --linha:#252C3B; --linhaF:#343D51;
+  --acSup:#23244A; --acInk:#A9A9FF; --brandTxt:#0D1017;
+  --okSup:#0F2A20; --errSup:#34181A;
+  --sombra:0 1px 2px rgba(0,0,0,.4); --sombraM:0 12px 30px rgba(0,0,0,.5);
+}}
+/* cor da seção: a mesma variável pinta título, botões, anel, barra de progresso e aba ativa */
+body[data-aba="inicio"]{--ac:var(--c-indigo)}
+body[data-aba="questoes"]{--ac:var(--c-azul)}
+body[data-aba="simulado"]{--ac:var(--c-laranja)}
+body[data-aba="pratica"]{--ac:var(--c-verde)}
+body[data-aba="leituras"]{--ac:var(--c-violeta)}
+body[data-aba="cartoes"]{--ac:var(--c-ambar)}
+body[data-aba="painel"]{--ac:var(--c-ciano)}
+body[data-aba="turma"]{--ac:var(--c-rosa)}
+body[data-aba="ajustes"]{--ac:var(--c-cinza)}
+body[data-aba]{--acSup:color-mix(in srgb,var(--ac) 12%,var(--sup));--acInk:color-mix(in srgb,var(--ac) 80%,var(--ink))}
+:root[data-tema="escuro"] body[data-aba]{--acSup:color-mix(in srgb,var(--ac) 20%,var(--sup));--acInk:color-mix(in srgb,var(--ac) 70%,#fff)}
+@media(prefers-color-scheme:dark){:root:not([data-tema="claro"]) body[data-aba]{--acSup:color-mix(in srgb,var(--ac) 20%,var(--sup));--acInk:color-mix(in srgb,var(--ac) 70%,#fff)}}
+
+body{background:var(--papel);font-size:14.5px}
+h1,h2,h3{letter-spacing:-.02em}
+
+/* ---------- barra lateral clara, com a cor de cada seção ---------- */
+@media(min-width:900px){
+  header{background:var(--sup)!important;border-right:1px solid var(--linha)!important}
+  .topo{padding:22px 14px 16px!important}
+  .marca{color:var(--ink)!important;font-size:18px!important;padding:0 8px 24px!important}
+  .marca .logo{background:var(--c-indigo)!important;color:#fff!important;border:0!important;border-radius:50%!important;width:34px!important;height:34px!important;
+    box-shadow:0 6px 16px color-mix(in srgb,var(--c-indigo) 35%,transparent)}
+  .navGrupo{color:var(--ink3)!important;font-size:11px!important;font-weight:600;letter-spacing:.06em!important;text-transform:uppercase;padding:18px 12px 8px!important}
+  nav.abas{gap:3px}
+  nav.abas button{color:var(--ink2)!important;border-radius:999px!important;min-height:42px!important;padding:5px 14px 5px 6px!important;gap:12px!important;font-size:14px!important;font-weight:500!important;box-shadow:none!important;
+    transition:background .2s,color .2s,transform .15s}
+  nav.abas button .ti{width:32px;height:32px;border-radius:50%;display:grid!important;place-items:center;font-size:17px!important;
+    background:color-mix(in srgb,var(--c) 13%,transparent);color:var(--c);transition:transform .25s var(--mola),background .2s}
+  nav.abas button:hover{background:var(--sup2)!important;color:var(--ink)!important}
+  nav.abas button:hover .ti{transform:scale(1.1) rotate(-6deg)}
+  nav.abas button[aria-selected=true]{background:color-mix(in srgb,var(--c) 12%,var(--sup))!important;color:color-mix(in srgb,var(--c) 75%,var(--ink))!important;font-weight:650!important}
+  nav.abas button[aria-selected=true] .ti{background:var(--c);color:#fff;box-shadow:0 6px 14px color-mix(in srgb,var(--c) 40%,transparent)}
+  .contador{border-color:var(--linha)!important}
+  .contador .btIco,.contador .btConta{color:var(--ink2)!important;border-radius:999px!important}
+  .contador .btIco:hover,.contador .btConta:hover{background:var(--sup2)!important;color:var(--ink)!important}
+  .contador kbd{background:var(--sup2)!important;border-color:var(--linhaF)!important;color:var(--ink2)!important}
+  main{max-width:1240px!important;padding:34px 40px 64px!important}
+}
+@media(min-width:900px) and (max-width:1180px){
+  nav.abas button{padding:5px!important;justify-content:center!important;width:44px;margin:0 auto}
+  .navGrupo{display:none!important}
+}
+/* celular: barra inferior com o ícone da aba ativa em pílula colorida */
+@media(max-width:640px){
+  nav.abas button .ti{transition:transform .25s var(--mola),background .2s,color .2s}
+  nav.abas button[aria-selected="true"] .ti{background:var(--c)!important;color:#fff!important;transform:translateY(-2px)}
+  nav.abas button[aria-selected="true"]{color:color-mix(in srgb,var(--c) 75%,var(--ink))!important}
+  .marca .logo{background:var(--c-indigo)!important;color:#fff!important;border-radius:50%!important}
+}
+
+/* ---------- título de página com selo colorido ---------- */
+.pgTitulo{display:grid;grid-template-columns:auto 1fr;column-gap:16px;align-items:center;margin-bottom:26px!important}
+.pgTitulo .selo{grid-row:span 2;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:var(--ac);color:#fff;font-size:25px;
+  box-shadow:0 10px 24px color-mix(in srgb,var(--ac) 35%,transparent);animation:pop .5s var(--mola) both}
+.pgTitulo h1{font-size:27px!important;font-weight:700!important;letter-spacing:-.03em!important;margin:0}
+.pgTitulo p{margin:3px 0 0!important;font-size:14px!important;color:var(--ink2)}
+
+/* ---------- superfícies e controles ---------- */
+.cx,.sessaoTexto,.estudoBiblioteca,.estudoMargem,.listaL,#sec-questoes #qCartao .cx{border-radius:var(--rG)!important;border:1px solid var(--linha)!important;box-shadow:var(--sombra)!important;background:var(--sup)}
+.cx+.cx{border-top:1px solid var(--linha)}
+.bt{border-radius:999px!important;min-height:42px!important;padding:9px 20px!important;font-weight:600!important;font-size:14px!important;background:var(--ac);border-color:var(--ac);color:#fff;
+  box-shadow:0 6px 16px color-mix(in srgb,var(--ac) 28%,transparent)!important;transition:transform .15s var(--mola),box-shadow .2s,filter .2s}
+.bt:hover{background:var(--ac);border-color:var(--ac);filter:brightness(1.07);transform:translateY(-1px);box-shadow:0 10px 22px color-mix(in srgb,var(--ac) 34%,transparent)!important}
+.bt:active{transform:scale(.96)}
+.bt.sec{background:var(--sup);color:var(--ink);border-color:var(--linhaF);box-shadow:none!important}
+.bt.sec:hover{background:var(--sup2);border-color:var(--linhaF);filter:none}
+.bt.mini{min-height:34px!important;padding:5px 14px!important;font-size:13px!important}
+.bt:disabled{transform:none;box-shadow:none!important}
+select,input[type=text],input[type=number],input[type=search],input[type=email],input:not([type]),textarea{border-radius:14px!important}
+select:focus,input:focus,textarea:focus{border-color:var(--ac)!important;box-shadow:0 0 0 4px color-mix(in srgb,var(--ac) 16%,transparent)!important}
+.maisF>summary,.fToggle{border-radius:999px}
+#sec-questoes>.cx:first-child{border-radius:999px!important;padding:10px 22px!important}
+#sec-questoes>.cx.filtros.aberto{border-radius:var(--rG)!important;padding:18px 22px!important}
+.fToggle .resumo{background:var(--acSup);color:var(--acInk);padding:4px 12px;border-radius:999px;font-size:13px;font-weight:600}
+.barra,.qProg,.progL{height:8px!important;border-radius:999px!important;background:var(--sup3)!important;overflow:hidden}
+.barra i,.qProg i,.progL i{border-radius:999px!important;background:var(--ac);transition:width 1s cubic-bezier(.22,1,.36,1)}
+.pilula.ok,.pilula.er{border-radius:999px!important;padding:3px 10px!important}
+.kpi{border-radius:18px!important;background:color-mix(in srgb,var(--k,var(--ac)) 10%,var(--sup))!important;border:0!important;padding:16px 18px!important}
+.kpi b{color:color-mix(in srgb,var(--k,var(--ac)) 80%,var(--ink));font-size:26px!important}
+.grade2 .kpi:nth-child(4n+1){--k:var(--c-azul)}.grade2 .kpi:nth-child(4n+2){--k:var(--c-verde)}
+.grade2 .kpi:nth-child(4n+3){--k:var(--c-laranja)}.grade2 .kpi:nth-child(4n+4){--k:var(--c-violeta)}
+.grade2{gap:14px!important}
+.modal{border-radius:26px!important}
+.faixa{border-radius:999px!important;padding:12px 20px!important}
+
+/* ---------- questão ---------- */
+#sec-questoes #qCartao .cx{padding:30px 34px!important}
+.qTopo{border-bottom:0!important;margin-bottom:18px!important;padding-bottom:0!important}
+.qNum{background:var(--acSup);color:var(--acInk)!important;padding:6px 14px;border-radius:999px;font-weight:600}
+.qNum b{color:var(--acInk)!important}
+.qEstado{border-radius:999px!important;padding:5px 12px!important}
+.btMarca{border-radius:50%!important;width:40px!important;height:40px!important;transition:transform .2s var(--mola),background .2s}
+.btMarca:hover{transform:scale(1.08)}
+.btMarca.on{background:var(--c-ambar)!important;color:#fff!important;animation:pop .4s var(--mola)}
+.qCombo{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:700;background:color-mix(in srgb,var(--c-laranja) 14%,var(--sup));color:var(--c-laranja);animation:pop .45s var(--mola)}
+.enun{font-size:17px!important;line-height:1.75!important}
+#alts{gap:12px!important}
+.alt{border-radius:18px!important;border:1.5px solid var(--linha)!important;padding:14px 16px!important;background:var(--sup)!important;
+  transition:transform .18s var(--mola),border-color .15s,background .15s,box-shadow .2s!important}
+.alt .let{border-radius:50%!important;width:34px!important;height:34px!important;min-width:34px!important;flex:0 0 34px!important;font-size:14px!important;font-weight:700!important;
+  background:var(--sup2)!important;color:var(--ink2)!important;transition:background .2s,color .2s,transform .25s var(--mola)!important}
+.alt:not([disabled]):hover{border-color:var(--ac)!important;background:var(--acSup)!important;transform:translateX(4px);box-shadow:0 6px 18px color-mix(in srgb,var(--ac) 14%,transparent)!important}
+.alt:not([disabled]):hover .let{background:var(--ac)!important;color:#fff!important;transform:scale(1.08)}
+.alt:not([disabled]):active{transform:scale(.985)}
+.alt.certa,.alt.certa[disabled]:hover{background:var(--okSup)!important;border-color:var(--ok)!important;animation:acerto .55s var(--mola)}
+.alt.errada,.alt.errada[disabled]:hover{background:var(--errSup)!important;border-color:var(--err)!important;animation:treme .45s}
+.alt.certa .let{background:var(--ok)!important;color:#fff!important;font-size:0!important}
+.alt.certa .let::before{content:"";width:14px;height:8px;border-left:3px solid #fff;border-bottom:3px solid #fff;transform:translateY(-2px) rotate(-45deg);animation:marca .45s var(--mola) .1s both}
+.alt.errada .let{background:var(--err)!important;color:#fff!important}
+.expl{animation:desliza .35s ease both;margin-left:66px!important}
+.coment{border-radius:20px!important;animation:desliza .45s ease both}
+.coment.ok{background:var(--okSup)!important;border:1px solid color-mix(in srgb,var(--ok) 30%,transparent)!important}
+.coment.er{background:var(--errSup)!important;border:1px solid color-mix(in srgb,var(--err) 30%,transparent)!important}
+.coment .pilula{background:var(--sup);border-radius:999px;padding:3px 10px}
+.linha>.pilula+.pilula:before{content:none!important}
+.qPe{border-top:0!important;padding-top:6px!important}
+#qCartao.entra .cx{animation:entraQ .4s cubic-bezier(.22,1,.36,1) both}
+#qCartao.entra.volta .cx{animation-name:entraQv}
+
+/* ---------- leituras ---------- */
+.listaL{padding:10px!important;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;background:transparent!important;border:0!important;box-shadow:none!important}
+.listaL h3.grupo{grid-column:1/-1;padding:14px 6px 2px!important;font-size:15px!important;color:var(--ink)!important}
+.listaL .itemL{background:var(--sup)!important;border:1px solid var(--linha)!important;border-radius:20px!important;padding:18px 18px 16px!important;box-shadow:var(--sombra);position:relative;overflow:hidden;
+  transition:transform .2s var(--mola),box-shadow .2s!important;border-top:1px solid var(--linha)!important}
+.listaL .itemL::before{content:"";position:absolute;left:0;top:0;right:0;height:5px;background:var(--ca,var(--ac))}
+.listaL .itemL:hover{transform:translateY(-4px);box-shadow:var(--sombraM)!important;background:var(--sup)!important}
+.listaL .itemL h3{font-size:16.5px!important}
+
+/* ---------- cartões ---------- */
+#sec-cartoes .heroCard,#sec-cartoes .cx{border-radius:26px!important}
+#verso .coment{animation:vira .5s cubic-bezier(.22,1,.36,1) both;transform-origin:top}
+
+/* ---------- tela Início ---------- */
+.vIni{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px}
+.vIni>*{min-width:0}
+.vHero{grid-column:span 8;position:relative;overflow:hidden;border-radius:28px;padding:30px 32px;background:var(--c-indigo);color:#fff;
+  display:flex;gap:24px;align-items:center;box-shadow:0 18px 40px color-mix(in srgb,var(--c-indigo) 30%,transparent)}
+.vHero .bola{position:absolute;border-radius:50%;background:#fff;opacity:.09;pointer-events:none}
+.vHero .b1{width:260px;height:260px;right:-70px;top:-90px;animation:flutua 9s ease-in-out infinite}
+.vHero .b2{width:130px;height:130px;right:170px;bottom:-60px;opacity:.07;animation:flutua 7s ease-in-out infinite reverse}
+.vHero .b3{width:46px;height:46px;left:44%;top:18px;opacity:.12;animation:flutua 6s ease-in-out infinite}
+.vHero .txt{flex:1;min-width:0;position:relative}
+.vHero small{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;background:rgba(255,255,255,.16);padding:5px 12px;border-radius:999px}
+.vHero h2{font-size:30px;line-height:1.15;margin:14px 0 8px;font-weight:750;letter-spacing:-.03em;color:#fff}
+.vHero p{margin:0 0 20px;opacity:.86;font-size:14.5px;max-width:46ch;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.vHero .bt{background:#fff!important;color:var(--c-indigo)!important;border-color:#fff!important;box-shadow:0 8px 20px rgba(0,0,0,.18)!important}
+.vHero .bt.sec{background:rgba(255,255,255,.14)!important;color:#fff!important;border-color:rgba(255,255,255,.3)!important;box-shadow:none!important}
+.vHero .acoesH{display:flex;gap:10px;flex-wrap:wrap}
+.vAnel{position:relative;width:150px;height:150px;flex:0 0 auto}
+.vAnel svg{transform:rotate(-90deg)}
+.vAnel .arco{transition:stroke-dashoffset 1.4s cubic-bezier(.22,1,.36,1)}
+.vAnel .val{position:absolute;inset:0;display:grid;place-content:center;text-align:center}
+.vAnel .val b{font-size:36px;font-weight:800;line-height:1;letter-spacing:-.03em}
+.vAnel .val span{font-size:12px;opacity:.85;margin-top:4px}
+.vMeta{grid-column:span 4;border-radius:28px;padding:22px 24px;background:var(--sup);border:1px solid var(--linha);box-shadow:var(--sombra);display:flex;flex-direction:column}
+.vMeta h3{margin:0;font-size:15px}
+.vMeta .sub{font-size:12.5px;color:var(--ink2);margin-top:2px}
+.vSemana{display:flex;align-items:flex-end;gap:7px;height:118px;margin:auto 0 0;padding-top:16px}
+.vSemana div{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end}
+.vSemana i{width:100%;border-radius:999px;background:var(--sup3);min-height:8px;height:0;transition:height 1s cubic-bezier(.22,1,.36,1)}
+.vSemana i.cheio{background:var(--c-indigo)}.vSemana i.parcial{background:color-mix(in srgb,var(--c-indigo) 45%,var(--sup3))}
+.vSemana i.hoje{background:var(--c-laranja)}
+.vSemana span{font-size:11px;color:var(--ink3);font-weight:600}
+.vStats{grid-column:1/-1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.vStat{--k:var(--c-azul);border-radius:24px;padding:18px 20px;background:color-mix(in srgb,var(--k) 11%,var(--sup));border:1px solid color-mix(in srgb,var(--k) 18%,transparent);
+  display:flex;gap:14px;align-items:center;cursor:pointer;text-align:left;color:var(--ink);transition:transform .2s var(--mola),box-shadow .2s;font:inherit}
+.vStat:hover{transform:translateY(-4px);box-shadow:0 12px 26px color-mix(in srgb,var(--k) 22%,transparent)}
+.vStat .ic{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--k);color:#fff;font-size:22px;flex:0 0 auto;box-shadow:0 8px 18px color-mix(in srgb,var(--k) 35%,transparent)}
+.vStat b{display:block;font-size:26px;font-weight:800;line-height:1.1;letter-spacing:-.03em;color:color-mix(in srgb,var(--k) 75%,var(--ink))}
+.vStat span{font-size:12.5px;color:var(--ink2);font-weight:500}
+.vStat.fogo .ic i{animation:chama 1.6s ease-in-out infinite;transform-origin:50% 90%}
+.vFoco,.vLer{grid-column:span 6;border-radius:28px;padding:22px 24px;background:var(--sup);border:1px solid var(--linha);box-shadow:var(--sombra)}
+.vTit{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.vTit h3{margin:0;font-size:16px}
+.vTit button{margin-left:auto;background:var(--sup2);border:0;border-radius:999px;padding:6px 12px;font-size:12.5px;font-weight:600;color:var(--ink2);cursor:pointer}
+.vTit button:hover{background:var(--acSup);color:var(--acInk)}
+.vArea{display:grid;grid-template-columns:36px minmax(0,1fr) 46px;gap:12px;align-items:center;padding:9px 0;cursor:pointer;border-radius:14px}
+.vArea:hover .nm{color:var(--ca)}
+.vArea .dot{width:36px;height:36px;border-radius:50%;background:color-mix(in srgb,var(--ca) 15%,var(--sup));color:var(--ca);display:grid;place-items:center;font-weight:800;font-size:13px}
+.vArea .nm{font-weight:600;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .2s}
+.vArea .barra{margin-top:6px}.vArea .barra i{background:var(--ca)!important}
+.vArea .tx{text-align:right;font-weight:800;font-size:14px;font-variant-numeric:tabular-nums}
+.vLeit{display:flex;gap:12px;overflow-x:auto;padding:4px 2px 8px;scroll-snap-type:x mandatory}
+.vLeit button{scroll-snap-align:start;flex:0 0 220px;text-align:left;border:1px solid var(--linha);background:var(--sup);border-radius:20px;padding:16px;cursor:pointer;
+  position:relative;overflow:hidden;color:var(--ink);font:inherit;transition:transform .2s var(--mola),box-shadow .2s}
+.vLeit button::before{content:"";position:absolute;inset:0 0 auto 0;height:5px;background:var(--ca)}
+.vLeit button:hover{transform:translateY(-4px);box-shadow:var(--sombraM)}
+.vLeit small{display:block;font-size:11.5px;font-weight:700;color:var(--ca);text-transform:uppercase;letter-spacing:.04em;margin:4px 0 6px}
+.vLeit b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:14.5px;line-height:1.35;min-height:2.7em}
+.vLeit .progL{margin-top:12px}.vLeit .progL i{background:var(--ca)!important}
+.vLeit em{display:block;font-style:normal;font-size:12px;color:var(--ink2);margin-top:6px}
+.vAtalhos{grid-column:1/-1;display:flex;gap:10px;flex-wrap:wrap}
+.vAtalhos button{--k:var(--c-azul);display:inline-flex;align-items:center;gap:9px;border:0;border-radius:999px;padding:10px 18px 10px 10px;font:inherit;font-weight:600;font-size:13.5px;cursor:pointer;
+  background:color-mix(in srgb,var(--k) 12%,var(--sup));color:color-mix(in srgb,var(--k) 80%,var(--ink));transition:transform .2s var(--mola)}
+.vAtalhos button:hover{transform:translateY(-2px) scale(1.02)}
+.vAtalhos button i{width:30px;height:30px;border-radius:50%;background:var(--k);color:#fff;display:grid;place-items:center;font-size:16px}
+.vAtalhos select{border-radius:999px!important;min-height:40px}
+
+/* ---------- movimento ---------- */
+.anima>*{animation:sobe .55s cubic-bezier(.22,1,.36,1) both;animation-delay:calc(var(--i,0) * 60ms)}
+@keyframes sobe{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{transform:scale(.4);opacity:0}100%{transform:scale(1);opacity:1}}
+@keyframes marca{0%{transform:translateY(-2px) rotate(-45deg) scale(.2);opacity:0}100%{transform:translateY(-2px) rotate(-45deg) scale(1);opacity:1}}
+@keyframes acerto{0%{transform:scale(1)}35%{transform:scale(1.025)}100%{transform:scale(1)}}
+@keyframes treme{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(2px)}}
+@keyframes desliza{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+@keyframes entraQ{from{opacity:0;transform:translateX(26px)}to{opacity:1;transform:none}}
+@keyframes entraQv{from{opacity:0;transform:translateX(-26px)}to{opacity:1;transform:none}}
+@keyframes flutua{0%,100%{transform:translate(0,0)}50%{transform:translate(-14px,12px)}}
+@keyframes chama{0%,100%{transform:scale(1) rotate(0)}30%{transform:scale(1.12) rotate(-5deg)}60%{transform:scale(.96) rotate(4deg)}}
+@keyframes vira{from{opacity:0;transform:perspective(700px) rotateX(-70deg)}to{opacity:1;transform:none}}
+.confete{position:fixed;inset:0;pointer-events:none;z-index:200}
+.bt .ti{display:inline-block!important;font-size:17px}
+
+/* ---------- responsivo ---------- */
+@media(max-width:1100px){.vHero{grid-column:1/-1}.vMeta{grid-column:1/-1}.vFoco,.vLer{grid-column:1/-1}.vStats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){
+  .vIni{gap:14px}
+  .vHero{flex-direction:column-reverse;align-items:flex-start;padding:24px 22px;border-radius:24px}
+  .vHero h2{font-size:24px}.vAnel{width:120px;height:120px;align-self:center}.vAnel svg{width:120px;height:120px}.vAnel .val b{font-size:28px}
+  .vHero .acoesH .bt{flex:1;white-space:nowrap;padding:9px 14px!important}
+  .vSemana{height:78px;gap:5px}
+  .vMeta .sub{margin-bottom:4px}
+  .vStats{gap:10px}.vStat{padding:14px;gap:10px;border-radius:20px}.vStat .ic{width:38px;height:38px;font-size:18px}.vStat b{font-size:21px}
+  .vFoco,.vLer,.vMeta{padding:18px;border-radius:24px}
+  .pgTitulo .selo{width:44px;height:44px;font-size:21px}.pgTitulo h1{font-size:23px!important}
+  #sec-questoes #qCartao .cx{padding:20px 16px!important}
+  .alt{padding:12px!important;border-radius:16px!important}.alt .let{width:30px!important;height:30px!important;min-width:30px!important;flex-basis:30px!important}
+  .expl{margin-left:12px!important}
+  .alt:not([disabled]):hover{transform:none}
+  .listaL{grid-template-columns:1fr;padding:0!important}
+}
+@media(prefers-reduced-motion:reduce){.anima>*,.vHero .bola,.vStat.fogo .ic i,#qCartao.entra .cx,.alt,.coment,.expl,#verso .coment,.pgTitulo .selo{animation:none!important}
+  .vAnel .arco,.barra i,.vSemana i{transition:none!important}}
 </style>
 
 <header>
@@ -803,15 +1077,15 @@ body{font-size:14px;line-height:1.55;letter-spacing:0}h1,h2,h3{letter-spacing:-.
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed",linha:"provas"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=96"></script>
-<script src="provas.js?v=96"></script>
-<script src="banco.js?v=96"></script>
-<script src="flash.js?v=96"></script>
-<script src="pratica.js?v=96"></script>
-<script src="leituras.js?v=96"></script>
-<script src="indice-leituras.js?v=96"></script>
-<script src="nuvem.js?v=96"></script>
-<script src="turma.js?v=96"></script>
+<script src="taxonomia.js?v=97"></script>
+<script src="provas.js?v=97"></script>
+<script src="banco.js?v=97"></script>
+<script src="flash.js?v=97"></script>
+<script src="pratica.js?v=97"></script>
+<script src="leituras.js?v=97"></script>
+<script src="indice-leituras.js?v=97"></script>
+<script src="nuvem.js?v=97"></script>
+<script src="turma.js?v=97"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -1033,9 +1307,10 @@ document.addEventListener("click",e=>{
 });
 function montaAbas(){
   const GRUPO={inicio:"Estudo",painel:"Acompanhamento"};
+  const COR_ABA={inicio:"indigo",questoes:"azul",simulado:"laranja",pratica:"verde",leituras:"violeta",cartoes:"ambar",painel:"ciano",turma:"rosa",ajustes:"cinza"};
   $("#abas").innerHTML=ABAS.map(([id,n,ic])=>(GRUPO[id]?`<div class="navGrupo">${GRUPO[id]}</div>`:"")+
-    `<button role="tab" aria-label="${esc(n)}" title="${esc(n)}" data-aba="${id}" aria-selected="false"${ABAS_RESTRITAS.includes(id)?" hidden":""}${ABAS_PRIM.includes(id)?" data-prim":""}><i class="ti ti-${ic}" aria-hidden="true"></i><span>${n}</span></button>`).join("")
-    +`<button data-aba="mais" aria-selected="false" hidden><i class="ti ti-dots" aria-hidden="true"></i><span>Mais</span></button>`;
+    `<button role="tab" aria-label="${esc(n)}" title="${esc(n)}" data-aba="${id}" style="--c:var(--c-${COR_ABA[id]||"indigo"})" aria-selected="false"${ABAS_RESTRITAS.includes(id)?" hidden":""}${ABAS_PRIM.includes(id)?" data-prim":""}><i class="ti ti-${ic}" aria-hidden="true"></i><span>${n}</span></button>`).join("")
+    +`<button data-aba="mais" aria-selected="false" hidden style="--c:var(--c-cinza)"><i class="ti ti-dots" aria-hidden="true"></i><span>Mais</span></button>`;
   const mais=$('#abas [data-aba="mais"]');
   mais.hidden=!matchMedia("(max-width:640px)").matches;
   mais.onclick=abreMais;
@@ -1060,13 +1335,16 @@ function tiraTituloRepetido(id){
   $$(`#sec-${id} h2, #sec-${id} h3`).slice(0,2).forEach(h=>{if(h.textContent.trim()===t)h.remove()});
 }
 function irAba(id){
-  {const t=TITULOS[id]?TITULOS[id]():null;$("#pgTitulo").innerHTML=t?`<h1>${esc(t[0])}</h1><p>${esc(t[1])}</p>`:""}
+  document.body.dataset.aba=id;
+  {const t=TITULOS[id]?TITULOS[id]():null, ic=(ABAS.find(a=>a[0]===id)||[])[2];
+   $("#pgTitulo").innerHTML=t?`${ic?`<span class="selo" aria-hidden="true"><i class="ti ti-${ic}"></i></span>`:""}<h1>${esc(t[0])}</h1><p>${esc(t[1])}</p>`:""}
   $$("#abas button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.aba===id||(b.dataset.aba==="mais"&&!ABAS_PRIM.includes(id)))));
   ABAS.forEach(([a])=>$("#sec-"+a).hidden=(a!==id));
   document.body.classList.toggle("lendo",id==="leituras"&&!!ST.cfg.lendo);
   ST.cfg.aba=id;salva("cfg",ST.cfg);
   PINTA[id]();
   tiraTituloRepetido(id);
+  vivo($("#sec-"+id));
   if(id!=="leituras")window.scrollTo(0,0);
 }
 
@@ -1429,13 +1707,18 @@ function pintaCartaoQuestao(q,l,i){
    </div>
   </div>`;
   $("#btFav").onclick=()=>{ST.fav[q._ch]=!ST.fav[q._ch];if(!ST.fav[q._ch])delete ST.fav[q._ch];salva("fav",ST.fav);pintaCartaoQuestao(q,l,i)};
-  $("#btAnt").onclick=()=>{ST.pos.chq=l[i-1]._ch;salva("pos",ST.pos);pintaQuestoes()};
-  $("#btProx").onclick=()=>{ST.pos.chq=l[i+1]._ch;salva("pos",ST.pos);pintaQuestoes()};
+  $("#btAnt").onclick=()=>{ST.pos.chq=l[i-1]._ch;salva("pos",ST.pos);pintaQuestoes();entraQuestao(true)};
+  $("#btProx").onclick=()=>{ST.pos.chq=l[i+1]._ch;salva("pos",ST.pos);pintaQuestoes();entraQuestao(false)};
   $$("#alts .alt").forEach(b=>b.onclick=()=>responde(q,+b.dataset.j,l,i));
 }
 function responde(q,j,l,i){
   const ok=j===q.gab;
+  const meta=Math.max(5,+(ST.cfg.meta||20)), antes=ST.atividade[dataISO()]||0;
   registraResposta(q,j,ok,"estudo");
+  COMBO=ok?COMBO+1:0;
+  {const t=$(".qTopo"),v=$(".qCombo");if(v)v.remove();
+   if(t&&COMBO>=2){const c=document.createElement("span");c.className="qCombo";c.innerHTML=`<i class="ti ti-flame"></i>${COMBO} seguidas`;t.insertBefore(c,$("#btFav"))}}
+  if(antes<meta&&antes+1>=meta){confete();UI.banner("ok",`Meta do dia batida: ${meta} questões.`)}
   $$("#alts .alt").forEach(b=>{
     const k=+b.dataset.j;
     b.disabled=true;
@@ -1861,7 +2144,7 @@ function cartaoLeitura(l){
   const pg=ST.prog[l.f]||0;
   const estado=ST.lidas[l.f]?'<span class="lido"><i class="ti ti-check"></i>lida</span>'
               :pg>0?`<span class="lido">${pg}% lido</span>`:"";
-  return `<article class="itemL" data-ler="${esc(l.f)}" tabindex="0" role="button">
+  return `<article class="itemL" data-ler="${esc(l.f)}" tabindex="0" role="button" style="--ca:${corArea(l.area)}">
     <h3>${esc(l.t)}<i class="ti ti-arrow-up-right" aria-hidden="true"></i></h3>
     <p class="resumoL">${esc(l.s)}</p>
     <div class="metaL"><span>${esc(NOME[l.area]||l.area||"")}</span><span>${esc(l.tipo||"")}</span><span>${l.min} min</span>${estado}</div>
@@ -1934,9 +2217,9 @@ function pintaCartoes(){
   $("#btVirar").onclick=()=>{
     $("#verso").innerHTML=`<div class="coment">${esc(c.b)}</div>`;
     $("#btVirar").outerHTML=`<div class="linha">
-      <button class="bt sec" data-q="0">errei</button>
-      <button class="bt sec" data-q="3">difícil</button>
-      <button class="bt" data-q="5">fácil</button></div>`;
+      <button class="bt" data-q="0" style="--ac:var(--c-vermelho)"><i class="ti ti-x"></i>errei</button>
+      <button class="bt" data-q="3" style="--ac:var(--c-ambar)"><i class="ti ti-mood-empty"></i>difícil</button>
+      <button class="bt" data-q="5" style="--ac:var(--c-verde)"><i class="ti ti-check"></i>fácil</button></div>`;
     $$("[data-q]").forEach(b=>b.onclick=()=>{avaliaCartao(i,+b.dataset.q);atividade(1);pintaCartoes()});
   };
 }
@@ -1974,39 +2257,120 @@ function diasSeguidos(){
   while(ST.atividade[dataISO(d)]){n++;d.setDate(d.getDate()-1)}
   return n;
 }
+/* ---------- movimento: entrada escalonada, contadores, barras e anéis ---------- */
+let COMBO=0;
+function vivo(sec){
+  if(!sec)return;
+  const alvo=sec.querySelector(".vIni")||sec;
+  alvo.classList.remove("anima");void alvo.offsetWidth;alvo.classList.add("anima");
+  [...alvo.children].forEach((c,k)=>c.style.setProperty("--i",Math.min(k,12)));
+  const reduz=matchMedia("(prefers-reduced-motion:reduce)").matches;
+  sec.querySelectorAll("[data-conta]").forEach(el=>{
+    const fim=+el.dataset.conta, suf=el.dataset.suf||"";
+    if(reduz||!fim){el.textContent=fim+suf;return}
+    const t0=performance.now(),d=900;
+    const passo=t=>{const p=Math.min(1,(t-t0)/d),e=1-Math.pow(1-p,3);el.textContent=Math.round(fim*e)+suf;if(p<1)requestAnimationFrame(passo)};
+    requestAnimationFrame(passo);
+  });
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+    sec.querySelectorAll("[data-w]").forEach(el=>el.style.width=el.dataset.w);
+    sec.querySelectorAll("[data-h]").forEach(el=>el.style.height=el.dataset.h);
+    sec.querySelectorAll("[data-off]").forEach(el=>el.style.strokeDashoffset=el.dataset.off);
+  }));
+}
+function entraQuestao(volta){
+  const c=$("#qCartao");if(!c)return;
+  c.classList.remove("entra","volta");void c.offsetWidth;c.classList.add("entra");if(volta)c.classList.add("volta");
+}
+/* confete leve em canvas: 1,4 s, some sozinho; nada se movimento reduzido */
+function confete(){
+  if(matchMedia("(prefers-reduced-motion:reduce)").matches)return;
+  const cv=document.createElement("canvas");cv.className="confete";document.body.appendChild(cv);
+  const W=cv.width=innerWidth*devicePixelRatio,H=cv.height=innerHeight*devicePixelRatio,x=cv.getContext("2d");
+  const cores=["#5B5BF0","#2F7BF6","#F76E1E","#11A870","#8E5AF2","#F2A007","#E8468E","#0AA5C2"];
+  const ps=[...Array(140)].map(()=>({x:W/2+(Math.random()-.5)*W*.3,y:H*.35,vx:(Math.random()-.5)*26*devicePixelRatio,vy:(-Math.random()*22-6)*devicePixelRatio,
+    s:(6+Math.random()*7)*devicePixelRatio,r:Math.random()*6,vr:(Math.random()-.5)*.4,c:cores[Math.random()*cores.length|0],f:Math.random()<.5}));
+  const t0=performance.now();
+  const q=t=>{const el=t-t0;x.clearRect(0,0,W,H);
+    ps.forEach(p=>{p.vy+=.9*devicePixelRatio;p.vx*=.985;p.x+=p.vx;p.y+=p.vy;p.r+=p.vr;x.save();x.translate(p.x,p.y);x.rotate(p.r);x.globalAlpha=Math.max(0,1-el/1600);x.fillStyle=p.c;
+      if(p.f)x.fillRect(-p.s/2,-p.s/4,p.s,p.s/2);else{x.beginPath();x.arc(0,0,p.s/3,0,7);x.fill()}x.restore()});
+    if(el<1600)requestAnimationFrame(q);else cv.remove()};
+  requestAnimationFrame(q);
+}
+
+/* ================= aba INÍCIO (23/09: colorida e em movimento) ================= */
 function pintaInicio(){
-  const meta=Math.max(5,+(ST.cfg.meta||20)), hoje=ST.atividade[dataISO()]||0;
+  const meta=Math.max(5,+(ST.cfg.meta||20)), hoje=ST.atividade[dataISO()]||0, feito=Math.min(1,hoje/meta);
   const fq=(ST.pos&&ST.pos.fq)||{}, qAtual=ST.pos&&ST.pos.chq?QIDX.get(ST.pos.chq):null;
-  const pendentes=LEITURAS.filter(l=>l.f&&!ST.lidas[l.f]&&ST.prog[l.f]>0&&ST.prog[l.f]<95)
-    .sort((a,b)=>ST.prog[b.f]-ST.prog[a.f]).slice(0,3);
-  const leituras=pendentes.length?pendentes:LEITURAS.filter(l=>l.f).slice(0,3);
+  const seq=diasSeguidos();
+  let acertos=0,tent=0;Object.values(ST.resp).forEach(r=>r.hist.forEach(h=>{tent++;if(h.ok)acertos++}));
+  const vistas=Object.keys(ST.resp).length, devs=devidos().length;
+  const R=62,C=2*Math.PI*R;
+  const h=new Date().getHours(), sauda=h<12?"Bom dia":h<18?"Boa tarde":"Boa noite";
+  const dias=[...Array(14)].map((_,k)=>{const d=new Date();d.setDate(d.getDate()-13+k);const iso=dataISO(d);
+    return {iso,n:ST.atividade[iso]||0,l:"DSTQQSS"[d.getDay()],hoje:k===13}});
+  const maxD=Math.max(meta,...dias.map(x=>x.n));
+  const pendentes=LEITURAS.filter(l=>l.f&&!ST.lidas[l.f]&&ST.prog[l.f]>0&&ST.prog[l.f]<95).sort((a,b)=>ST.prog[b.f]-ST.prog[a.f]);
+  const leituras=(pendentes.length?pendentes:LEITURAS.filter(l=>l.f&&!ST.lidas[l.f])).slice(0,8);
+  const foco=estatArea().slice(0,5);
+  const areaAtual=qAtual?(NOME[qAtual.tema]||"Clínica médica"):(fq.area?NOME[fq.area]:"Todas as áreas");
+  $("#pgTitulo").innerHTML="";
   $("#sec-inicio").innerHTML=`
-  <div class="mesaEstudo">
-   <div class="estudoConteudo">
-    <section class="sessaoTexto" aria-labelledby="sessaoTitulo">
-     <div class="indiceSecao"><h2 id="sessaoTitulo">Questões</h2><span>${qAtual?"Sessão em andamento":BANCO.length+" questões comentadas"}</span></div>
-     <h3>${esc(qAtual?(NOME[qAtual.tema]||"Clínica médica"):(NOME[fq.area]||"Todas as especialidades"))}</h3>
-     ${qAtual?`<p class="trechoQuestao">${esc(qAtual.q)}</p>`:`<p class="sessaoDescricao">Selecione uma especialidade ou abra o banco completo.</p>`}
-     <button class="bt estudoAbrir" data-ir="questoes">${qAtual?"Retomar questão":"Abrir questões"}<span aria-hidden="true"> →</span></button>
-    </section>
-    <section class="estudoBiblioteca" aria-labelledby="estudoLeituras">
-     <div class="indiceSecao"><h2 id="estudoLeituras">${pendentes.length?"Leituras em andamento":"Da biblioteca"}</h2><button class="textoAcao" data-ir="biblioteca">Ver todas <span aria-hidden="true">↗</span></button></div>
-     ${leituras.map(l=>`<button class="leituraLinha" data-ir="leitura" data-f="${esc(l.f)}"><span class="leituraDados">${esc(NOME[l.area]||l.area)} · ${l.min} min${ST.prog[l.f]?` · ${ST.prog[l.f]}% lido`:""}</span><span class="leituraNome">${esc(l.t)}</span><span class="leituraResumo">${esc(l.s)}</span><span class="leituraSeta" aria-hidden="true">↗</span></button>`).join("")}
-    </section>
+  <div class="vIni">
+   <section class="vHero">
+    <span class="bola b1"></span><span class="bola b2"></span><span class="bola b3"></span>
+    <div class="txt">
+     <small><i class="ti ti-sparkles"></i>${sauda} · ${new Date().toLocaleDateString("pt-BR",{weekday:"long",day:"numeric",month:"long"})}</small>
+     <h2>${hoje>=meta?"Meta do dia cumprida":qAtual?"Continue de onde parou":"Vamos começar?"}</h2>
+     <p>${qAtual?`${esc(areaAtual)}: ${esc(qAtual.q)}`:`${BANCO.length} questões comentadas, ${LEITURAS.filter(l=>l.f).length} leituras e ${FLASH.length} cartões.`}</p>
+     <div class="acoesH">
+      <button class="bt" data-ir="questoes"><i class="ti ti-player-play"></i>${qAtual?"Retomar questão":"Começar questões"}</button>
+      <button class="bt sec" data-ir="simulado"><i class="ti ti-stopwatch"></i>Simulado</button>
+     </div>
+    </div>
+    <div class="vAnel" aria-label="${hoje} de ${meta} questões hoje">
+     <svg width="150" height="150" viewBox="0 0 150 150">
+      <circle cx="75" cy="75" r="${R}" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="13"/>
+      <circle class="arco" cx="75" cy="75" r="${R}" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round"
+       stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${C.toFixed(1)}" data-off="${(C*(1-feito)).toFixed(1)}"${feito?"":' opacity="0"'}/></svg>
+     <div class="val"><b data-conta="${hoje}">0</b><span>de ${meta} hoje</span></div>
+    </div>
+   </section>
+   <section class="vMeta">
+    <h3>Últimas duas semanas</h3>
+    <div class="sub">${dias.reduce((a,x)=>a+x.n,0)} questões respondidas</div>
+    <div class="vSemana">${dias.map(x=>`<div title="${x.iso}: ${x.n}"><i class="${x.hoje?"hoje":x.n>=meta?"cheio":x.n?"parcial":""}" data-h="${Math.max(8,Math.round(x.n/maxD*86))}px"></i><span>${x.l}</span></div>`).join("")}</div>
+   </section>
+   <div class="vStats">
+    <button class="vStat fogo" style="--k:var(--c-laranja)" data-ir="painel"><span class="ic"><i class="ti ti-flame"></i></span><span><b data-conta="${seq}">0</b><span>${seq===1?"dia seguido":"dias seguidos"}</span></span></button>
+    <button class="vStat" style="--k:var(--c-verde)" data-ir="painel"><span class="ic"><i class="ti ti-target-arrow"></i></span><span><b data-conta="${pct(acertos,tent)}" data-suf="%">0</b><span>acerto geral</span></span></button>
+    <button class="vStat" style="--k:var(--c-azul)" data-ir="questoes"><span class="ic"><i class="ti ti-list-check"></i></span><span><b data-conta="${vistas}">0</b><span>de ${BANCO.length} vistas</span></span></button>
+    <button class="vStat" style="--k:var(--c-ambar)" data-ir="cartoes"><span class="ic"><i class="ti ti-cards"></i></span><span><b data-conta="${devs}">0</b><span>cartões para hoje</span></span></button>
    </div>
-   <aside class="estudoMargem" aria-label="Ferramentas de estudo">
-    <h2>Praticar</h2>
-    <button class="linhaFerramenta" data-ir="erros"><span>Revisar erros</span><span>${ST.erros.length}</span></button>
-    <button class="linhaFerramenta" data-ir="cartoes"><span>Cartões para hoje</span><span>${devidos().length}</span></button>
-    <button class="linhaFerramenta" data-ir="simulado"><span>Simulado</span><span aria-hidden="true">↗</span></button>
-    <button class="linhaFerramenta" data-ir="pratica"><span>Estações práticas</span><span aria-hidden="true">↗</span></button>
-    <details class="estudoProgresso"><summary>Meta e acompanhamento</summary><p>${hoje} de ${meta} questões hoje.</p>
-     <label class="cmp">Meta diária<select id="iMeta">${[...new Set([10,20,30,40,60,80,meta])].sort((a,b)=>a-b).map(v=>`<option value="${v}"${v===meta?" selected":""}>${v} questões</option>`).join("")}</select></label>
-     <button class="textoAcao" data-ir="painel">Ver desempenho →</button>
-    </details>
-   </aside>
+   <section class="vFoco">
+    <div class="vTit"><h3>Onde focar</h3><button data-ir="painel">Desempenho</button></div>
+    ${foco.map(a=>`<div class="vArea" style="--ca:${corArea(a.t.id)}" data-area="${a.t.id}">
+      <span class="dot">${esc(a.t.nome.slice(0,2))}</span>
+      <span><span class="nm">${esc(a.t.nome)}</span><div class="barra"><i style="width:0" data-w="${Math.max(3,Math.round(a.cob*100))}%"></i></div></span>
+      <span class="tx" style="color:${a.taxa===null?"var(--ink3)":a.taxa>=.7?"var(--ok)":"var(--err)"}">${a.taxa===null?"—":Math.round(a.taxa*100)+"%"}</span></div>`).join("")}
+   </section>
+   <section class="vLer">
+    <div class="vTit"><h3>${pendentes.length?"Continue lendo":"Para ler"}</h3><button data-ir="biblioteca">Biblioteca</button></div>
+    <div class="vLeit">${leituras.map(l=>`<button style="--ca:${corArea(l.area)}" data-ir="leitura" data-f="${esc(l.f)}">
+      <small>${esc(NOME[l.area]||l.area)}</small><b>${esc(l.t)}</b><em>${l.min} min${ST.prog[l.f]?` · ${ST.prog[l.f]}% lido`:""}</em>
+      <div class="progL"><i style="width:0" data-w="${ST.prog[l.f]||0}%"></i></div></button>`).join("")}</div>
+   </section>
+   <div class="vAtalhos">
+    <button style="--k:var(--c-vermelho)" data-ir="erros"><i class="ti ti-refresh-alert"></i>Revisar erros (${ST.erros.length})</button>
+    <button style="--k:var(--c-verde)" data-ir="pratica"><i class="ti ti-stethoscope"></i>Estações práticas</button>
+    <button style="--k:var(--c-violeta)" data-ir="biblioteca"><i class="ti ti-book-2"></i>Biblioteca</button>
+    <button style="--k:var(--c-ciano)" data-ir="painel"><i class="ti ti-chart-bar"></i>Desempenho</button>
+    <label class="cmp" style="flex-direction:row;align-items:center;gap:8px;margin-left:auto">Meta diária
+     <select id="iMeta">${[...new Set([10,20,30,40,60,80,meta])].sort((a,b)=>a-b).map(v=>`<option value="${v}"${v===meta?" selected":""}>${v} questões</option>`).join("")}</select></label>
+   </div>
   </div>`;
-  $("#iMeta").onchange=e=>{ST.cfg.meta=+e.target.value;salva("cfg",ST.cfg);$(".estudoProgresso p").textContent=hoje+" de "+ST.cfg.meta+" questões hoje."};
+  $("#iMeta").onchange=e=>{ST.cfg.meta=+e.target.value;salva("cfg",ST.cfg);pintaInicio();vivo($("#sec-inicio"))};
+  $$("#sec-inicio .vArea").forEach(b=>b.onclick=()=>{ST.pos.fq={...filtroAtual(),area:b.dataset.area};ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);irAba("questoes")});
   $$("#sec-inicio [data-ir]").forEach(b=>b.onclick=()=>{
     const v=b.dataset.ir;
     if(v==="erros"){ST.pos.fq={...filtroAtual(),modo:"erros"};ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);irAba("questoes")}
