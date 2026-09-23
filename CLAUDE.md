@@ -21,6 +21,9 @@ FIM do `<style>` (bloco "camada viva") e sobrescreve as anteriores; as de cima f
 - **Início:** herói índigo com anel da meta, 14 dias, 4 indicadores coloridos, "Onde focar" (clicar filtra a
   área), leituras em carrossel, atalhos em pílula e meta diária.
 - Continua fora: gradiente, emoji, fonte baixada da web (a Inter é local, em `assets/fonts`).
+- **cm-v98, questão inteira na tela:** na aba Questões o `#pgTitulo` fica só para leitor de tela, filtros finos,
+  cartão até 1000 px, alternativas de ~46 px. Em 1512×763 (a tela dele) 97% do banco mostra enunciado + todas as
+  alternativas sem rolar (medido 1 a cada 7). Não voltar a engordar o topo da aba Questões.
 
 ## Interface moderna (17/09/2026, cm-v92) — substitui a "prova impressa"
 
