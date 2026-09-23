@@ -1027,6 +1027,27 @@ select:focus,input:focus,textarea:focus{border-color:var(--ac)!important;box-sha
   .alt:not([disabled]):hover{transform:none}
   .listaL{grid-template-columns:1fr;padding:0!important}
 }
+/* 23/09/2026, cm-v98: a questão inteira cabe na tela ao abrir. Em 1512×763 o título da página,
+   a barra de filtros e alternativas de 65 px empurravam as alternativas D e E para baixo da dobra.
+   Na aba Questões o título vira só leitura de tela (a barra lateral já diz onde se está), a barra de
+   filtros afina, o cartão alarga e as alternativas ficam mais baixas sem perder a área de toque. */
+body[data-aba=questoes] main{padding-top:18px!important}
+body[data-aba=questoes] #pgTitulo{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);margin:0!important}
+#sec-questoes{max-width:1000px!important}
+#sec-questoes>.cx:first-child{padding:6px 8px 6px 20px!important;margin-bottom:12px!important}
+#sec-questoes>.cx.filtros.aberto{padding:14px 20px!important}
+#sec-questoes #qCartao .cx{padding:20px 30px 22px!important}
+#sec-questoes .qTopo{margin-bottom:12px!important}
+#sec-questoes .enun{margin:0 0 16px!important;line-height:1.65!important}
+#sec-questoes #alts{gap:8px!important}
+#sec-questoes .alt{padding:8px 14px!important;min-height:46px}
+#sec-questoes .alt .let{width:30px!important;height:30px!important;min-width:30px!important;flex-basis:30px!important;font-size:13px!important}
+#sec-questoes .qPe{margin-top:16px!important}
+@media(max-width:760px){
+  body[data-aba=questoes] main{padding-top:12px!important}
+  #sec-questoes #qCartao .cx{padding:16px 14px 18px!important}
+  #sec-questoes .alt{padding:8px 11px!important}
+}
 @media(prefers-reduced-motion:reduce){.anima>*,.vHero .bola,.vStat.fogo .ic i,#qCartao.entra .cx,.alt,.coment,.expl,#verso .coment,.pgTitulo .selo{animation:none!important}
   .vAnel .arco,.barra i,.vSemana i{transition:none!important}}
 </style>
@@ -1077,15 +1098,15 @@ select:focus,input:focus,textarea:focus{border-color:var(--ac)!important;box-sha
 <script src="/_mtfb.js"></script>
 <script>window.MT_APP={id:"clinicamed",name:"ClínicaMed",linha:"provas"};</script>
 <script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=97"></script>
-<script src="provas.js?v=97"></script>
-<script src="banco.js?v=97"></script>
-<script src="flash.js?v=97"></script>
-<script src="pratica.js?v=97"></script>
-<script src="leituras.js?v=97"></script>
-<script src="indice-leituras.js?v=97"></script>
-<script src="nuvem.js?v=97"></script>
-<script src="turma.js?v=97"></script>
+<script src="taxonomia.js?v=98"></script>
+<script src="provas.js?v=98"></script>
+<script src="banco.js?v=98"></script>
+<script src="flash.js?v=98"></script>
+<script src="pratica.js?v=98"></script>
+<script src="leituras.js?v=98"></script>
+<script src="indice-leituras.js?v=98"></script>
+<script src="nuvem.js?v=98"></script>
+<script src="turma.js?v=98"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
