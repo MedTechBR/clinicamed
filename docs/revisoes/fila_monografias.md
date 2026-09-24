@@ -8,7 +8,7 @@ Onda 1: [x] insuficiencia-cardiaca [x] avc-isquemico [x] pneumonia-duracao [x] d
 Onda 2: [x] asma [x] drc [x] lesao-renal-aguda [x] eletrolitos [x] cirrose [x] hemorragia-digestiva
 Onda 3: [x] tuberculose [x] hiv [x] meningites-e-encefalites [x] infeccoes-hospitalares [x] antimicrobianos [x] emergencias-glicemicas
 Onda 4: [x] tireoide [x] adrenal-hipofise [x] valvopatias [x] cardiomiopatias [x] hipertensao-secundaria [x] anemias
-Onda 5: [x] hemostasia [ ] transfusao-hemoterapia [x] neoplasias-hematologicas [ ] hemoglobinopatias [ ] pancreatite-vias-biliares [ ] dii
+Onda 5: [x] hemostasia [x] transfusao-hemoterapia [x] neoplasias-hematologicas [x] hemoglobinopatias [ ] pancreatite-vias-biliares [ ] dii
 Onda 6: [ ] hepatites-masld [ ] disfagia-esofago [ ] diarreia-ma-absorcao [ ] epilepsia [ ] cefaleias [ ] coma-e-hipertensao-intracraniana
 Onda 7: [ ] demencias-parkinson [ ] doencas-neuromusculares [ ] esclerose-multipla [ ] tontura-e-vertigem [ ] artrite-reumatoide [ ] lupus-vasculites
 Onda 8: [ ] cristais-espondilo [ ] sjogren-esclerose-miopatias [ ] dor-musculoesqueletica [ ] glomerulopatias [ ] nefrolitiase-itu [ ] dialise-e-transplante
@@ -22,3 +22,4 @@ Onda 14: [ ] derma-clinica [ ] raras-abordagem [ ] raras-deposito-metabolicas [ 
 ## Recados para redatores futuros (achados cruzados)
 - febre-origem-indeterminada: profilaxia de endocardite fora da boca pode ser considerada (ESC 2023, IIb C) no alto risco em procedimento invasivo respiratório, digestivo, geniturinário, de pele ou musculoesquelético; no transplante cardíaco a ESC 2023 também traz IIb (não só a AHA). Alinhar com valvopatias.html.
 - Endocardite: a fonte de verdade no app é valvopatias.html (ESC 2023).
+- Hemoterapia: a Portaria GM/MS 11.685, de 02/07/2026 (vigente a partir de 30/09/2026), revoga os Anexos IV a VII da Portaria de Consolidação 5 (antiga Portaria 158/2016). Leituras que citem a 158/2016 devem ser alinhadas a transfusao-hemoterapia.html.
