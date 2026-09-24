@@ -234,9 +234,9 @@ window.LEITURAS=[
  {f:"rim-e-farmacos.html", tipo:"KDIGO e Beers 2023", area:"nefro", min:24,
   t:"Rim e fármacos",
   s:"Medida da função renal, ajuste de dose, mecanismos de nefrotoxicidade, nefrotóxicos frequentes, contraste iodado e gadolínio, nefrite intersticial aguda, distúrbios eletrolíticos por fármacos, elevações de creatinina que não são lesão e prevenção hospitalar, segundo KDIGO e critérios de Beers 2023."},
- {f:"rim-nas-doencas-sistemicas.html", tipo:"KDIGO 2021/2024 e consensos", area:"nefro", min:24,
+ {f:"rim-nas-doencas-sistemicas.html", tipo:"KDIGO 2022 e 2025, IMWG 2023, ISSHP 2021 · monografia", area:"nefro", min:75,
   t:"O rim nas doenças sistêmicas e nas doenças hereditárias",
-  s:"Acometimento renal no mieloma e gamopatias, amiloidose, nefrite lúpica, vasculites e síndrome pulmão-rim, microangiopatias trombóticas e diabetes, além de doença renal policística, outras nefropatias hereditárias e uropatia obstrutiva, segundo KDIGO 2021/2024 e consensos."},
+  s:"Doença renal do diabetes pelo KDIGO 2022, nefroesclerose e doença ateroembólica, rim do mieloma pelo IMWG 2023, amiloidose AL e AA e gamopatias de significado renal, rim no HIV, nas hepatites e na endocardite, microangiopatias trombóticas e crise renal esclerodérmica, sarcoidose e hipercalcemia, rim na gestação pelo ISSHP 2021, anemia falciforme, obstrução e refluxo, doenças císticas pelo KDIGO 2025 e Fabry."},
 
  {grupo:"Gastroenterologia e hepatologia", sub:"do sangramento ao fígado"},
  {f:"cirrose.html", tipo:"Baveno VIII, EASL e AASLD · monografia", area:"gastro", min:75,
