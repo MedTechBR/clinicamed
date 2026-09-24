@@ -276,9 +276,9 @@ window.LEITURAS=[
   s:"Sinais de suspeição, diagnóstico e encaminhamento dos cânceres de pulmão, mama, colorretal e próstata, além de estômago, esôfago e fígado, primário oculto e marcadores, síndromes hereditárias e comunicação, segundo INCA, NCCN e ESMO."},
 
  {grupo:"Geriatria e cuidados paliativos", sub:"o idoso não se apresenta pelo órgão"},
- {f:"sindromes-geriatricas.html", tipo:"AGS e World Falls Guidelines", area:"geriatria", min:21,
+ {f:"sindromes-geriatricas.html", tipo:"World Falls Guidelines 2022, ICFSR, EWGSOP2, OMS ICOPE 2024 · monografia", area:"geriatria", min:75,
   t:"Síndromes geriátricas",
-  s:"Avaliação geriátrica ampla, fragilidade, quedas, delirium, polifarmácia e desprescrição, incontinência urinária, imobilidade e lesão por pressão, sarcopenia e perda de peso, metas terapêuticas e prevenção no idoso, segundo AGS e World Falls Guidelines."},
+  s:"Síndromes geriátricas no ambulatório pela OMS (ICOPE 2024), World Falls Guidelines 2022, ICFSR, EWGSOP2, AUA/SUFU 2024 e ADA 2026: capacidade intrínseca, avaliação geriátrica ampla, fragilidade, sarcopenia, quedas, hipotensão ortostática, incontinência, imobilidade, sentidos, perda de peso, iatrogenia, sono, metas, vacinas e planejamento antecipado de cuidados."},
  {f:"paliativos.html", tipo:"CFM e OMS", area:"geriatria", min:18,
   t:"Cuidados paliativos",
   s:"Cuidados paliativos segundo CFM e OMS: indicação, medida de funcionalidade e prognóstico, comunicação, reunião de objetivos de cuidado, tratamento da dor e da dispneia, últimos dias de vida e distinções éticas."},
