@@ -15,7 +15,7 @@ Onda 8: [x] cristais-espondilo [x] sjogren-esclerose-miopatias [x] dor-musculoes
 Onda 9: [x] rim-e-farmacos [x] rim-nas-doencas-sistemicas [x] intoxicacoes [x] politraumatizado [x] via-aerea-e-intubacao [x] ventilacao-mecanica
 Onda 10: [x] sedacao-analgesia-delirium [x] nutricao-do-paciente-critico [x] depressao-ansiedade [x] bipolar-e-psicofarmacos [x] psicose-agitacao-substancias [x] insonia-e-sono
 Onda 11: [x] idoso-hospitalizado [x] polifarmacia-desprescricao [x] sindromes-geriatricas [x] paliativos [x] canceres-mais-comuns [x] rastreamento-cancer
-Onda 12: [x] emergencias-oncologicas [x] toxicidade-oncologica [x] febre-origem-indeterminada [ ] infeccoes-tropicais [ ] ist [ ] vacinacao-do-adulto
+Onda 12: [x] emergencias-oncologicas [x] toxicidade-oncologica [x] febre-origem-indeterminada [x] infeccoes-tropicais [ ] ist [ ] vacinacao-do-adulto
 Onda 13: [ ] doencas-intersticiais [ ] hipertensao-pulmonar-sono [ ] prova-de-funcao-pulmonar [ ] tosse-cronica-e-bronquiectasias [ ] dermatoses-comuns [ ] farmacodermias-graves
 Onda 14: [ ] derma-clinica [ ] raras-abordagem [ ] raras-deposito-metabolicas [ ] raras-sistemicas [ ] sus-principios [ ] etica-medica
 
@@ -23,3 +23,4 @@ Onda 14: [ ] derma-clinica [ ] raras-abordagem [ ] raras-deposito-metabolicas [ 
 - febre-origem-indeterminada: profilaxia de endocardite fora da boca pode ser considerada (ESC 2023, IIb C) no alto risco em procedimento invasivo respiratório, digestivo, geniturinário, de pele ou musculoesquelético; no transplante cardíaco a ESC 2023 também traz IIb (não só a AHA). Alinhar com valvopatias.html.
 - Endocardite: a fonte de verdade no app é valvopatias.html (ESC 2023).
 - Hemoterapia: a Portaria GM/MS 11.685, de 02/07/2026 (vigente a partir de 30/09/2026), revoga os Anexos IV a VII da Portaria de Consolidação 5 (antiga Portaria 158/2016). Leituras que citem a 158/2016 devem ser alinhadas a transfusao-hemoterapia.html.
+- derma-clinica: hanseníase, contatos. A rifampicina em dose única para contatos NÃO está no PCDT 2022 nem no Guia de Vigilância 2024 (Conitec pediu exclusão em 2020); conduta nacional = exame dos contatos + BCG. Alinhar com infeccoes-tropicais.html#hanseniase.
