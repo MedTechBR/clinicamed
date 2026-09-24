@@ -6,8 +6,8 @@ valida_leituras → bump → commit/push). Marcar [x] ao publicar.
 
 Onda 1: [x] insuficiencia-cardiaca [x] avc-isquemico [x] pneumonia-duracao [x] dengue [x] diabetes-tipo2 [x] dpoc
 Onda 2: [x] asma [x] drc [x] lesao-renal-aguda [x] eletrolitos [x] cirrose [x] hemorragia-digestiva
-Onda 3: [x] tuberculose [x] hiv [x] meningites-e-encefalites [x] infeccoes-hospitalares [ ] antimicrobianos [x] emergencias-glicemicas
-Onda 4: [ ] tireoide [x] adrenal-hipofise [ ] valvopatias [ ] cardiomiopatias [ ] hipertensao-secundaria [ ] anemias
+Onda 3: [x] tuberculose [x] hiv [x] meningites-e-encefalites [x] infeccoes-hospitalares [x] antimicrobianos [x] emergencias-glicemicas
+Onda 4: [x] tireoide [x] adrenal-hipofise [ ] valvopatias [ ] cardiomiopatias [ ] hipertensao-secundaria [ ] anemias
 Onda 5: [ ] hemostasia [ ] transfusao-hemoterapia [ ] neoplasias-hematologicas [ ] hemoglobinopatias [ ] pancreatite-vias-biliares [ ] dii
 Onda 6: [ ] hepatites-masld [ ] disfagia-esofago [ ] diarreia-ma-absorcao [ ] epilepsia [ ] cefaleias [ ] coma-e-hipertensao-intracraniana
 Onda 7: [ ] demencias-parkinson [ ] doencas-neuromusculares [ ] esclerose-multipla [ ] tontura-e-vertigem [ ] artrite-reumatoide [ ] lupus-vasculites
