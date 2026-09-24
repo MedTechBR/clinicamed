@@ -22,7 +22,7 @@ pdftotext -layout "~/Documents/Livros/<arquivo>.pdf" fontes/<nome>.txt
 | ESICM/ATS/SCCM — Nova definição global de SDRA | 2024 | leituras `sdra.html` e `ventilacao-mecanica.html` |
 | ESICM — Choque circulatório e monitorização hemodinâmica | 2025 | leitura `choque-circulatorio.html` |
 | GINA — Global Strategy for Asthma | 2026 | leva 2 |
-| GOLD — Global Strategy for COPD | 2026 | leva 2 |
+| GOLD — Global Strategy for COPD (v1.3, 8 dez 2025; texto em `fontes/DPOC_-_GOLD_2026_Global_Strategy_Report.txt`) | 2026 | leva 2; leitura `dpoc.html` (monografia, 24/09/2026) |
 | ESC — Arritmias ventriculares e morte súbita | 2022 | leitura `arritmias-ventriculares.html` |
 | ESC — Taquicardia supraventricular | 2019 | leitura `taquiarritmias.html` (sem versão mais nova) |
 | ACC/AHA/HRS — Bradiarritmias e distúrbios de condução | 2018 | leitura `bradiarritmias-e-marcapasso.html` (sem versão mais nova) |

@@ -1,4 +1,43 @@
-# Brief para escrever uma monografia do ClínicaMed
+# Brief para escrever uma monografia do ClínicaMed (versão 24/09/2026)
+
+> **O que mudou desde 07/09 (vale acima de qualquer trecho antigo abaixo):**
+> - **Cabeçalho do HTML** é o de hoje: sem Google Fonts; `<link rel="stylesheet" href="_leitura.css?v=99"><script src="_leitura.js?v=99"></script>`
+>   (copie as 4 primeiras linhas de `leituras/parada-cardiaca.html`). Índice é `<nav class="toc"><b>Sumário</b>`.
+>   **h2 SEM numeração.** As duas últimas seções são `<h2 id="armadilhas">Erros frequentes</h2>` e
+>   `<h2 id="autoteste">Perguntas de revisão</h2>`, depois `a.vaiQuestoes` e `<footer>`.
+> - **ECG sintético está aposentado.** Só existem figuras reais `real-*.svg` (catálogo real em
+>   `leituras/fig/_catalogo_real.json`), esquemas `rx-*`, `us-*`, `fig-*`. Rode `ls leituras/fig/*.svg`.
+>   A legenda descreve o que o traçado MOSTRA, cita o laudo do banco, sem número medido por nós.
+>   ECG que não existir: não desenhe, anote no relatório.
+> - **SVG inline** próprio é bem-vindo para esquema (fisiopatologia, anatomia simples, linha do tempo,
+>   comparação): fonte `-apple-system,system-ui,sans-serif` (nunca Figtree), cores `var(--ink)` etc.,
+>   texto que NÃO vaza do viewBox (texto de SVG não quebra linha: quebre à mão). Confira renderizando.
+> - **Fluxogramas: largura do desenho ≤ ~720 px** (senão a letra encolhe na coluna de 664 px). Prefira
+>   `flowchart TD`, rótulos curtos, no máximo 3 nós lado a lado; divida em dois se precisar. Meça:
+>   abra `http://localhost:8711/leituras/<slug>.html` e leia `viewBox.baseVal.width` de cada
+>   `pre.mermaid svg` (servidor: `python3 servir.py &` na pasta, se não estiver no ar), ou use Chrome
+>   headless. Nenhum pode ter "Syntax error".
+> - **Escrita:** sem travessão (— ou –) em prosa, título, legenda (só em célula vazia de tabela e rótulo de
+>   mermaid); sem emoji; sem "é importante ressaltar/vale destacar/neste contexto"; sem sigla ou diretriz
+>   inventada. Diretriz VIGENTE em setembro de 2026, conferida (fonte + ano) em `fontes/` ou na web.
+>   Função renal = CKD-EPI 2021. Classe/nível só transcritos da fonte.
+> - **O texto atual já passou por revisão clínica em 23/09/2026** (relatórios em
+>   `docs/revisoes/leituras-2026-09-23/`; procure o slug com grep para ver o que foi corrigido e as
+>   LACUNAS listadas). Use-o como base: não reintroduza nada que foi corrigido e cubra as lacunas.
+> - **Para não travar** (houve travamentos por saída longa): escreva o HTML POR SEÇÕES. Crie o arquivo com
+>   o cabeçalho e a primeira seção, depois acrescente uma seção por vez (Edit ou python curto que
+>   insere antes de `<a class="vaiQuestoes"`), cada acréscimo com no máximo ~900 palavras. Nunca um
+>   Write gigante. Abra no máximo uma imagem por vez.
+> - **Rascunho SÓ SEU:** vários redatores rodam ao mesmo tempo. Todo arquivo temporário (scripts de
+>   inserção, trechos, PNGs) vai em `/private/tmp/claude-501/-Users-matheusparente/d51ccb09-be43-4e60-9a61-a91a40317e8f/scratchpad/mono-<slug>/`,
+>   nunca na raiz do scratchpad nem com nome genérico (em 24/09 um script sobrescrito jogou texto do AVC
+>   dentro do diabetes). Todo script de inserção deve checar o NOME do arquivo-alvo antes de escrever.
+> - **Entrada do índice:** `leituras/_entradas_<slug>.json` (mesmo formato abaixo). Mantenha o mesmo
+>   `f`, a mesma `area` e o mesmo arquivo `leituras/<slug>.html`. Kicker e `tipo` terminam em
+>   `· monografia` (ou `· abordagem sindrômica`).
+> - **Temas amplos** (vários assuntos numa leitura, ex.: doenças raras, dermatoses, SUS, ética): 3.500–5.000
+>   palavras, com uma seção por doença/eixo que cai em prova.
+
 
 Você vai reescrever (ou criar) leituras do ClínicaMed no formato **monografia**. Leia este brief
 inteiro antes de escrever a primeira linha.
