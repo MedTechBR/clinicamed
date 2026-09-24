@@ -257,9 +257,9 @@ window.LEITURAS=[
  {f:"disfagia-esofago.html", tipo:"ACG 2022, Lyon 2.0, Chicago 4.0, ACG 2025 · monografia", area:"gastro", min:75,
   t:"Disfagia, refluxo e doenças do esôfago",
   s:"Da queixa de \"comida parando\" ao diagnóstico: disfagia orofaríngea e esofágica, sinais de alarme, doença do refluxo pelos critérios de Lyon 2.0 e pelas diretrizes ACG e AGA de 2022 (diagnóstico, inibidor de bomba, refratariedade, sintomas extraesofágicos e desprescrição), esôfago de Barrett, esofagite eosinofílica pela ACG 2025, distúrbios motores pela classificação de Chicago 4.0, acalasia e megaesôfago chagásico, esofagites medicamentosa e infecciosa, câncer de esôfago, corpo estranho, cáusticos e dispepsia funcional. O texto diz, em cada tema, o que muda a conduta e com que força a fonte recomenda."},
- {f:"diarreia-ma-absorcao.html", tipo:"ACG e AGA", area:"gastro", min:21,
-  t:"Diarreia crônica e síndromes de má absorção",
-  s:"Diarreia crônica segundo ACG e AGA: classificação em aquosa, gordurosa e inflamatória, sinais de alarme e primeira etapa de investigação, doença celíaca, síndrome do intestino irritável, supercrescimento bacteriano, má absorção de sais biliares e reposição de carências."},
+ {f:"diarreia-ma-absorcao.html", tipo:"IDSA, ACG, BSG e AGA · monografia", area:"gastro", min:75,
+  t:"Diarreia e síndromes de má absorção",
+  s:"Diarreia aguda pela IDSA 2017, ACG 2016 e painel do viajante de 2017; diarreia crônica por mecanismo pela BSG 2018 e AGA 2019; doença celíaca pela ACG 2023 e ESsCD 2019; intestino irritável por Roma IV, ACG 2021 e AGA 2022; colite microscópica, sais biliares, supercrescimento bacteriano, intolerâncias, insuficiência pancreática (AGA 2023), fármacos e tumores neuroendócrinos."},
 
  {grupo:"Oncologia", sub:"reconhecer e rastrear"},
  {f:"emergencias-oncologicas.html", tipo:"IDSA, ASCO, ESMO e NICE", area:"onco", min:21,
