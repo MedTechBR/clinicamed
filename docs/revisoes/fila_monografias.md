@@ -17,7 +17,7 @@ Onda 10: [x] sedacao-analgesia-delirium [x] nutricao-do-paciente-critico [x] dep
 Onda 11: [x] idoso-hospitalizado [x] polifarmacia-desprescricao [x] sindromes-geriatricas [x] paliativos [x] canceres-mais-comuns [x] rastreamento-cancer
 Onda 12: [x] emergencias-oncologicas [x] toxicidade-oncologica [x] febre-origem-indeterminada [x] infeccoes-tropicais [x] ist [x] vacinacao-do-adulto
 Onda 13: [x] doencas-intersticiais [x] hipertensao-pulmonar-sono [x] prova-de-funcao-pulmonar [x] tosse-cronica-e-bronquiectasias [x] dermatoses-comuns [x] farmacodermias-graves
-Onda 14: [x] derma-clinica [x] raras-abordagem [x] raras-deposito-metabolicas [ ] raras-sistemicas [ ] sus-principios [ ] etica-medica
+Onda 14: [x] derma-clinica [x] raras-abordagem [x] raras-deposito-metabolicas [ ] raras-sistemicas [x] sus-principios [ ] etica-medica
 
 ## Recados para redatores futuros (achados cruzados)
 - febre-origem-indeterminada: profilaxia de endocardite fora da boca pode ser considerada (ESC 2023, IIb C) no alto risco em procedimento invasivo respiratório, digestivo, geniturinário, de pele ou musculoesquelético; no transplante cardíaco a ESC 2023 também traz IIb (não só a AHA). Alinhar com valvopatias.html.

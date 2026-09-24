@@ -313,9 +313,9 @@ window.LEITURAS=[
   s:"Insônia e outros transtornos do sono segundo a ICSD-3-TR, as diretrizes da AASM (2017, 2021, 2023 e 2024), da Associação Brasileira do Sono (2023), a diretriz europeia (2023) e a ACP (2016): fisiologia e ritmo circadiano, avaliação com diário, ISI e Epworth, terapia cognitivo-comportamental, hipnóticos e sua retirada, sonolência excessiva e narcolepsia, pernas inquietas, parassonias, trabalho em turnos, sono no hospital e direção."},
 
  {grupo:"SUS, ética e epidemiologia", sub:"o que cai e quase ninguém estuda"},
- {f:"sus-principios.html", tipo:"Lei 8.080, PNAB e MS", area:"sus", min:21,
+ {f:"sus-principios.html", tipo:"Constituição, Lei 8.080 e MS 2026 · monografia", area:"sus", min:66,
   t:"SUS e atenção primária",
-  s:"Princípios e legislação do SUS, atributos da atenção primária, redes de atenção e regulação, vigilância e notificação compulsória, indicadores do sistema, epidemiologia clínica (sensibilidade, valor preditivo, NNT, intervalo de confiança), desenhos de estudo e vieses."},
+  s:"SUS pela letra da lei: Constituição, Leis 8.080 e 8.142, Decreto 7.508, financiamento até o cofinanciamento da APS de 2024, atenção primária, redes e regulação, notificação compulsória pela lista de 2026, saúde suplementar, judicialização pelos Temas 6 e 1234 do STF, equidade e epidemiologia."},
  {f:"etica-medica.html", tipo:"CFM e legislação", area:"sus", min:21,
   t:"Ética médica",
   s:"Princípios da bioética, autonomia e capacidade, consentimento, sigilo e exceções, o adolescente, prontuário e atestado, declaração de óbito, fim de vida (ortotanásia, distanásia, eutanásia, diretivas antecipadas), erro médico e conflito de interesse, segundo CFM e legislação."},
