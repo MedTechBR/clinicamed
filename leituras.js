@@ -316,9 +316,9 @@ window.LEITURAS=[
  {f:"sus-principios.html", tipo:"Constituição, Lei 8.080 e MS 2026 · monografia", area:"sus", min:66,
   t:"SUS e atenção primária",
   s:"SUS pela letra da lei: Constituição, Leis 8.080 e 8.142, Decreto 7.508, financiamento até o cofinanciamento da APS de 2024, atenção primária, redes e regulação, notificação compulsória pela lista de 2026, saúde suplementar, judicialização pelos Temas 6 e 1234 do STF, equidade e epidemiologia."},
- {f:"etica-medica.html", tipo:"CFM e legislação", area:"sus", min:21,
+ {f:"etica-medica.html", tipo:"CFM e legislação 2026 · monografia", area:"sus", min:62,
   t:"Ética médica",
-  s:"Princípios da bioética, autonomia e capacidade, consentimento, sigilo e exceções, o adolescente, prontuário e atestado, declaração de óbito, fim de vida (ortotanásia, distanásia, eutanásia, diretivas antecipadas), erro médico e conflito de interesse, segundo CFM e legislação."},
+  s:"Bioética e Código de Ética Médica, lidos no texto do CFM e das leis vigentes em setembro de 2026: capacidade e recusa terapêutica, consentimento, criança e adolescente, sigilo e notificação, prontuário e atestado, telemedicina e LGPD, publicidade, declaração de óbito, morte encefálica e doação, fim de vida, aborto legal e objeção de consciência, responsabilidade profissional e pesquisa."},
 
  {grupo:"Doenças raras", sub:"individualmente raras, coletivamente comuns"},
  {f:"raras-abordagem.html", tipo:"Portaria GM/MS 199/2014 e ACMG/AMP 2015 · abordagem sindrômica", area:"sus", min:62,
