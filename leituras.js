@@ -182,9 +182,9 @@ window.LEITURAS=[
  {f:"vacinacao-do-adulto.html", tipo:"PNI/Ministério da Saúde e SBIm", area:"infecto", min:25,
   t:"Vacinação do adulto e profilaxias pós-exposição",
   s:"Vacinação do adulto segundo PNI e SBIm: princípios, calendário, idoso, imunossuprimido, preparo para imunobiológico e transplante, comorbidades, gestante e profissional de saúde, e profilaxias pós-exposição para tétano, raiva e material biológico."},
- {f:"ist.html", tipo:"PCDT-IST 2022 e CDC 2021", area:"infecto", min:23,
+ {f:"ist.html", tipo:"PCDT-IST 2022 e CDC 2021 · monografia", area:"infecto", min:72,
   t:"Infecções sexualmente transmissíveis",
-  s:"Infecções sexualmente transmissíveis segundo o PCDT-IST 2022 e o CDC 2021: abordagem sindrômica, úlceras genitais, sífilis, corrimentos uretral, cervical e vaginal, doença inflamatória pélvica, HPV, hepatites e HIV, prevenção combinada, parcerias, rastreio e notificação."},
+  s:"Infecções sexualmente transmissíveis pelo PCDT-IST do Ministério da Saúde (2022, vigente em 2026), pelo CDC 2021 e pela diretriz de doxiciclina pós-exposição de 2024: abordagem sindrômica e etiológica, rastreamento, sífilis do estágio ao seguimento, neurossífilis, gestante e sífilis congênita, uretrites e cervicites, úlceras genitais, doença inflamatória pélvica, corrimentos vaginais, HPV, hepatites, mpox, DoxiPEP, violência sexual, parcerias e notificação."},
 
  {grupo:"Neurologia", sub:"as decisões com relógio"},
  {f:"avc-isquemico.html", tipo:"AHA/ASA 2026 · monografia", area:"neuro", min:75,
