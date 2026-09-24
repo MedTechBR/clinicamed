@@ -9,7 +9,7 @@ Onda 2: [x] asma [x] drc [x] lesao-renal-aguda [x] eletrolitos [x] cirrose [x] h
 Onda 3: [x] tuberculose [x] hiv [x] meningites-e-encefalites [x] infeccoes-hospitalares [x] antimicrobianos [x] emergencias-glicemicas
 Onda 4: [x] tireoide [x] adrenal-hipofise [x] valvopatias [x] cardiomiopatias [x] hipertensao-secundaria [x] anemias
 Onda 5: [x] hemostasia [x] transfusao-hemoterapia [x] neoplasias-hematologicas [x] hemoglobinopatias [x] pancreatite-vias-biliares [x] dii
-Onda 6: [x] hepatites-masld [x] disfagia-esofago [x] diarreia-ma-absorcao [x] epilepsia [ ] cefaleias [x] coma-e-hipertensao-intracraniana
+Onda 6: [x] hepatites-masld [x] disfagia-esofago [x] diarreia-ma-absorcao [x] epilepsia [x] cefaleias [x] coma-e-hipertensao-intracraniana
 Onda 7: [x] demencias-parkinson [ ] doencas-neuromusculares [x] esclerose-multipla [ ] tontura-e-vertigem [ ] artrite-reumatoide [ ] lupus-vasculites
 Onda 8: [ ] cristais-espondilo [ ] sjogren-esclerose-miopatias [ ] dor-musculoesqueletica [ ] glomerulopatias [ ] nefrolitiase-itu [ ] dialise-e-transplante
 Onda 9: [ ] rim-e-farmacos [ ] rim-nas-doencas-sistemicas [ ] intoxicacoes [ ] politraumatizado [ ] via-aerea-e-intubacao [ ] ventilacao-mecanica
