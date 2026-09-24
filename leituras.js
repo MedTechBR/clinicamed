@@ -208,9 +208,9 @@ window.LEITURAS=[
  {f:"tontura-e-vertigem.html", tipo:"GRACE-3 e Bárány Society", area:"neuro", min:23,
   t:"Tontura e vertigem no pronto-socorro",
   s:"Tontura e vertigem no pronto-socorro segundo a diretriz GRACE-3 e a Bárány Society: as três síndromes vestibulares, exame HINTS, sinais de alarme, vertigem posicional paroxística benigna, neurite vestibular, doença de Ménière, causas centrais, tontura não vestibular e tratamento."},
- {f:"esclerose-multipla.html", tipo:"McDonald 2024 e PCDT/MS", area:"neuro", min:24,
+ {f:"esclerose-multipla.html", tipo:"McDonald 2024 e PCDT/MS 2024 · monografia", area:"neuro", min:75,
   t:"Esclerose múltipla e doenças desmielinizantes",
-  s:"Esclerose múltipla e doenças desmielinizantes segundo os critérios de McDonald 2024 e o PCDT: síndromes de apresentação, critérios diagnósticos, ressonância e líquor, formas evolutivas, tratamento do surto, terapias modificadoras, tratamento sintomático, neuromielite óptica e MOGAD."},
+  s:"Esclerose múltipla do primeiro surto ao tratamento de longo prazo: fenótipos de Lublin, síndrome clinicamente isolada e radiológica isolada, os critérios de McDonald 2024 com nervo óptico, sinal da veia central, lesões de borda paramagnética e cadeias leves kappa, o diagnóstico diferencial com neuromielite óptica e MOGAD, surto e pseudossurto, cada terapia modificadora pela eficácia e pelo risco, a estratégia de escalonamento contra a alta eficácia precoce, gestação, vacinação e as linhas do PCDT de 2024."},
 
  {grupo:"Nefrologia", sub:"aguda e crônica"},
  {f:"eletrolitos.html", tipo:"ESE/ESICM/ERA 2014 e UKKA 2020 · monografia", area:"nefro", min:75,
