@@ -28,6 +28,9 @@
 >   o cabeçalho e a primeira seção, depois acrescente uma seção por vez (Edit ou python curto que
 >   insere antes de `<a class="vaiQuestoes"`), cada acréscimo com no máximo ~900 palavras. Nunca um
 >   Write gigante. Abra no máximo uma imagem por vez.
+> - **Cota de buscas web: no máximo 12 WebSearch por monografia** (a sessão tem teto de ~200 somando todos
+>   os redatores). Prefira `WebFetch` direto em fonte conhecida (PubMed, PMC, site da sociedade, gov.br) e
+>   o texto local em `fontes/`. Se a cota acabar, não escreva de memória: marque "a conferir" no relatório.
 > - **Rascunho SÓ SEU:** vários redatores rodam ao mesmo tempo. Todo arquivo temporário (scripts de
 >   inserção, trechos, PNGs) vai em `/private/tmp/claude-501/-Users-matheusparente/d51ccb09-be43-4e60-9a61-a91a40317e8f/scratchpad/mono-<slug>/`,
 >   nunca na raiz do scratchpad nem com nome genérico (em 24/09 um script sobrescrito jogou texto do AVC
