@@ -321,9 +321,9 @@ window.LEITURAS=[
   s:"Princípios da bioética, autonomia e capacidade, consentimento, sigilo e exceções, o adolescente, prontuário e atestado, declaração de óbito, fim de vida (ortotanásia, distanásia, eutanásia, diretivas antecipadas), erro médico e conflito de interesse, segundo CFM e legislação."},
 
  {grupo:"Doenças raras", sub:"individualmente raras, coletivamente comuns"},
- {f:"raras-abordagem.html", tipo:"Política Nacional e ACMG", area:"sus", min:21,
+ {f:"raras-abordagem.html", tipo:"Portaria GM/MS 199/2014 e ACMG/AMP 2015 · abordagem sindrômica", area:"sus", min:62,
   t:"Abordagem das doenças raras",
-  s:"Definição e relevância das doenças raras, bandeiras vermelhas, padrões clínicos recorrentes, história familiar, investigação do básico ao genômico, doenças raras tratáveis, política nacional e acesso, comunicação e acompanhamento, segundo Política Nacional e ACMG."},
+  s:"Abordagem geral do adulto com suspeita de doença rara: definição e epidemiologia pela Orphanet e pela Rede Nacional de Doenças Raras, odisseia diagnóstica, Política Nacional (Portaria GM/MS 199/2014) e serviços de referência do SUS, sinais de alerta, heredograma e padrões de herança, escolha do teste genético, classificação de variantes pelo ACMG/AMP 2015, aconselhamento genético, LGPD, triagem neonatal ampliada (Lei 14.154/2021), medicamentos órfãos, judicialização e transição do cuidado pediátrico para o adulto."},
  {f:"raras-deposito-metabolicas.html", tipo:"PCDT e consensos", area:"endocrino", min:23,
   t:"Doenças de depósito e metabólicas do adulto",
   s:"Doenças de Fabry, Gaucher e Pompe de início tardio, doença de Wilson, hemocromatose hereditária, deficiência de alfa-1-antitripsina, porfirias agudas, homocistinúria e doenças mitocondriais do adulto, com o exame diagnóstico e o tratamento de cada uma, segundo PCDT e consensos."},
