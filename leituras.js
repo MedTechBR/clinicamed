@@ -106,9 +106,9 @@ window.LEITURAS=[
   s:"Doença falciforme no adulto pelo PCDT do Ministério da Saúde (2024) e pela ASH (2019 a 2021), das complicações agudas à hidroxiureia, transfusão e gestação; traço falciforme e HbSC; talassemias pela TIF 2025, talassemia menor contra ferropenia e quelação de ferro pelo PCDT de 2026."},
 
  {grupo:"Reumatologia", sub:"quando o órgão define o tratamento"},
- {f:"artrite-reumatoide.html", tipo:"EULAR 2025", area:"reumato", min:21,
+ {f:"artrite-reumatoide.html", tipo:"EULAR 2025, ACR 2021 e PCDT 2026 · monografia", area:"reumato", min:73,
   t:"Artrite reumatoide",
-  s:"Artrite reumatoide segundo a EULAR 2025: suspeita e investigação, critérios ACR/EULAR, princípios do tratamento, metotrexato e corticoide como ponte, biológicos e sintéticos alvo-específicos, alerta dos inibidores de JAK, rastreio antes do imunobiológico, manifestações extra-articulares e redução na remissão."},
+  s:"Artrite reumatoide pela EULAR 2025, pela ACR 2021 e pelo PCDT de 2026: abordagem da poliartrite, critérios de 2010, anticorpos e imagem, índices de atividade, metotrexato e corticoide, biológicos, inibidores de JAK, rastreio antes do imunobiológico, manifestações extra-articulares, risco cardiovascular, gestação e redução na remissão."},
  {f:"lupus-vasculites.html", tipo:"EULAR 2023 e 2025, ACR/EULAR 2022 · monografia", area:"reumato", min:75,
   t:"Lúpus e vasculites",
   s:"Lúpus eritematoso sistêmico pelos critérios EULAR/ACR 2019 e pelo tratamento da EULAR 2023, nefrite lúpica pela EULAR 2025 e pelo ACR 2024, lúpus neuropsiquiátrico, síndrome antifosfolípide e gestação; vasculites pela nomenclatura de Chapel Hill 2012 e pelos critérios ACR/EULAR 2022: arterite de células gigantes e Takayasu (EULAR 2025), poliarterite nodosa, vasculites associadas ao ANCA (EULAR 2022, KDIGO 2024), vasculite por IgA, crioglobulinemia e Behçet; doença de Still do adulto (EULAR/PReS 2024)."},
