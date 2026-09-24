@@ -70,9 +70,9 @@ window.LEITURAS=[
  {f:"politraumatizado.html", tipo:"ATLS 11ª edição, 2025 · monografia", area:"emergencias", min:74,
   t:"Abordagem inicial ao politraumatizado",
   s:"Politraumatizado pelo ATLS 11ª edição (2025), do ponto de vista do emergencista: pré-hospitalar, xABCDE com torniquete, via aérea, descompressão torácica, choque hemorrágico, tranexâmico, transfusão maciça e REBOA, traumatismo craniano, FAST, eFAST e tomografia, NEXUS e regra canadense, lesões que não podem passar, síndrome compartimental, queimados, gestante e idoso anticoagulado, com a diretriz europeia de sangramento no trauma de 2023."},
- {f:"nutricao-do-paciente-critico.html", tipo:"ESPEN 2023 e ASPEN/SCCM", area:"emergencias", min:22,
+ {f:"nutricao-do-paciente-critico.html", tipo:"ESPEN 2023 e ASPEN 2022 · monografia", area:"emergencias", min:74,
   t:"Nutrição e metabolismo no paciente crítico",
-  s:"Nutrição do paciente crítico segundo ESPEN 2023 e ASPEN/SCCM: metabolismo da fase aguda, triagem de risco, via, momento de início, quantidade de calorias e proteína, monitorização, síndrome de realimentação, situações particulares, controle glicêmico e micronutrientes."},
+  s:"Nutrição do paciente crítico pela ESPEN 2023 e pela ASPEN 2022, com os ensaios que as sustentam: fases metabólicas, triagem e GLIM, calorimetria, enteral precoce e choque, metas de caloria e proteína, parenteral, intolerância, realimentação, glicemia, micronutrientes, situações especiais, disfagia pós-extubação, enfermaria, idoso e fim de vida."},
 
  {grupo:"Endocrinologia e metabologia", sub:"a área que mais mudou de lógica"},
  {f:"diabetes-tipo2.html", tipo:"ADA 2026 + SBD · monografia", area:"endocrino", min:75,
