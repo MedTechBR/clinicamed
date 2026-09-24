@@ -50,6 +50,11 @@ def le_sinal(caminho_hea):
         dat = p.read_bytes()
         n = len(cs)
         fmt = cs[0]["fmt"]
+        if "+" in fmt:
+            # "16+24": formato 16 com deslocamento em bytes — o .mat da base Chapman–Ningbo
+            # (ecg-arrhythmia) traz 24 bytes de cabeçalho MATLAB antes do sinal
+            fmt, desl = fmt.split("+")
+            dat = dat[int(desl):]
         if fmt == "16":
             cru = struct.unpack("<%dh" % (len(dat) // 2), dat)
             for k, c in enumerate(cs):

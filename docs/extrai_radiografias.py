@@ -126,7 +126,9 @@ saidas["foto-pa-perfil"] = painel(
     [(corta_borda(abre("s039-003")), "frente (PA)"),
      (corta_borda(abre("s039-004")), "perfil")])
 
-saidas["foto-nodulo"] = painel("foto-nodulo", [(abre("s048-001"), "")])
+# 23/09/2026: "foto-nodulo" (s048-001) saiu: prancha de livro-texto (painéis A/B em tipografia
+# editorial e setas de atlas), não imagem do acervo. Não reintroduzir.
+# saidas["foto-nodulo"] = painel("foto-nodulo", [(abre("s048-001"), "")])
 
 saidas["foto-pneumotorax-pneumectomia"] = painel(
     "foto-pneumotorax-pneumectomia",

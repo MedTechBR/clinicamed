@@ -1,6 +1,6 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Parada cardiorrespiratória no adulto (AHA 2025)</title>
-<link rel="stylesheet" href="_leitura.css?v=98"><script src="_leitura.js?v=98"></script>
+<link rel="stylesheet" href="_leitura.css?v=99"><script src="_leitura.js?v=99"></script>
 <div class="wrap">
 <p class="kicker">Emergências e terapia intensiva · 60 min · AHA 2025, Parte 9 · monografia</p>
 <h1>Parada cardiorrespiratória no adulto</h1>
@@ -31,7 +31,7 @@
 <li><b>Avaliação rápida de estabilidade antes de qualquer fármaco.</b> O texto gasta páginas descrevendo como a má perfusão de órgão se manifesta, porque é isso, e não o ritmo isoladamente, que dirige o tratamento.</li>
 <li><b>Cardioversão de fibrilação e flutter atrial com energia inicial de 200 J ou mais.</b> Começar baixo e escalar perdeu espaço.</li>
 <li><b>Regras de término de esforços reescritas por escopo de prática</b> (suporte básico, avançado, ou regra universal), e o CO₂ expirado <b>não pode</b> ser usado sozinho para encerrar uma reanimação.</li>
-<li><b>Mudança de vetor e desfibrilação sequencial dupla não estão estabelecidas</b> para a fibrilação ventricular refratária ao choque. A despeito do entusiasmo que o estudo DOSE-VF gerou.</li>
+<li><b>Mudança de vetor e desfibrilação sequencial dupla não estão estabelecidas</b> para a fibrilação ventricular refratária ao choque, a despeito do entusiasmo que o estudo DOSE-VF gerou.</li>
 <li><b>RCP com cabeceira elevada é desencorajada</b> fora de ensaios clínicos.</li>
 <li><b>Procedimentos obsoletos foram removidos</b>, o exemplo dado é a administração de fármacos pelo tubo traqueal.</li>
 <li><b>Ultrassom à beira do leito pode ser considerado</b> para diagnosticar causa reversível, por profissional experiente, <b>se não interromper a RCP</b>.</li>
@@ -53,23 +53,23 @@
 <div class="fluxo"><div class="leg"><b>Fluxograma 1</b>Suporte avançado de vida no adulto. A espinha dorsal do algoritmo de 2025</div>
 <pre class="mermaid">
 flowchart TD
-  A["Parada confirmada: sem resposta, sem respiração normal, sem pulso"] --> B["Iniciar RCP de qualidade<br/>O2 na maior fração viável · monitor/desfibrilador"]
-  B --> C{"Ritmo?"}
-  C -->|"FV / TV sem pulso"| D["Choque único<br/>(energia do fabricante; se desconhecida, a máxima)"]
-  D --> E["RCP 2 min · acesso IV (IO se falhar)"]
-  E --> F{"Ritmo chocável?"}
-  F -->|"sim"| G["Choque → RCP 2 min<br/>Adrenalina 1 mg após falha dos choques iniciais, a cada 3–5 min"]
-  G --> H{"Ritmo chocável?"}
-  H -->|"sim"| I["Choque → RCP 2 min<br/>Amiodarona 300 mg (depois 150 mg) ou lidocaína 1–1,5 mg/kg<br/>Tratar causas reversíveis"]
+  A["Parada confirmada<br/>sem resposta, sem respiração<br/>normal, sem pulso"] --> B["RCP de qualidade · O2<br/>monitor e desfibrilador"]
+  B --> C{"Ritmo<br/>chocável?"}
+  C -->|"sim: FV ou TVSP"| D["Choque único<br/>energia do fabricante<br/>ou a máxima"]
+  D --> E["RCP 2 min<br/>acesso IV, ou IO"]
+  E --> F{"Chocável?"}
+  F -->|"sim"| G["Choque · RCP 2 min<br/>adrenalina 1 mg<br/>a cada 3–5 min"]
+  G --> H{"Chocável?"}
+  H -->|"sim"| I["Choque · RCP 2 min<br/>amiodarona 300 mg<br/>ou lidocaína<br/>causas reversíveis"]
   I --> F
-  C -->|"Assistolia / AESP"| J["RCP 2 min · acesso IV<br/>Adrenalina 1 mg o quanto antes, a cada 3–5 min"]
-  J --> K{"Ritmo chocável?"}
+  C -->|"não: assistolia<br/>ou AESP"| J["RCP 2 min · acesso<br/>adrenalina 1 mg já,<br/>a cada 3–5 min"]
+  J --> K{"Chocável?"}
   K -->|"sim"| D
-  K -->|"não"| L["RCP 2 min · tratar causas reversíveis (5 H e 5 T)"]
+  K -->|"não"| L["RCP 2 min<br/>5 H e 5 T"]
   L --> K
-  F -->|"não"| M{"Sinais de retorno da circulação?"}
+  F -->|"não"| M{"Retorno da<br/>circulação?"}
   H -->|"não"| M
-  M -->|"sim"| N["Cuidados pós-parada"]
+  M -->|"sim"| N["Cuidados<br/>pós-parada"]
   M -->|"não"| L
 </pre></div>
 
@@ -84,7 +84,7 @@ flowchart TD
 <tr><td>Gasometria arterial durante a RCP: benefício incerto</td><td class="c"><span class="cls c2b">2b</span><span class="niv">C-LD</span></td></tr>
 <tr><td>RCP com cabeceira elevada fora de ensaio clínico</td><td class="c"><span class="cls c3">3: sem benefício</span><span class="niv">C-LD</span></td></tr>
 </table>
-<p>O CO₂ expirado é o parâmetro que a prova mais explora, e vale entender por quê. Ele reflete o fluxo pulmonar, que na parada é gerado pelas compressões; por isso se correlaciona com profundidade e velocidade de retorno do tórax. Um valor <b>persistentemente abaixo de 10 mmHg</b> associa-se a mau prognóstico; um <b>salto súbito maior que 10 mmHg</b> costuma indicar retorno da circulação. Embora o retorno também possa ocorrer com elevações menores. E ele é confundido por tudo o que muda a ventilação-minuto: hiperventilação, adrenalina, bicarbonato, troca de via aérea, e a própria causa da parada.</p>
+<p>O CO₂ expirado é o parâmetro que a prova mais explora, e vale entender por quê. Ele reflete o fluxo pulmonar, que na parada é gerado pelas compressões; por isso se correlaciona com profundidade e velocidade de retorno do tórax. Um valor <b>persistentemente abaixo de 10 mmHg</b> associa-se a mau prognóstico; um <b>salto súbito maior que 10 mmHg</b> costuma indicar retorno da circulação, embora o retorno também possa ocorrer com elevações menores. E ele é confundido por tudo o que muda a ventilação-minuto: hiperventilação, adrenalina, bicarbonato, troca de via aérea, e a própria causa da parada.</p>
 <div class="cx armadilha"><b>Onde o CO₂ expirado engana</b>Ele é <b>componente</b> de uma decisão multimodal, nunca a decisão. Em paciente intubado, um valor que não passa de 10 mmHg após 20 minutos de suporte avançado pode entrar na conta de encerrar esforços (2b). Em paciente <b>não intubado</b>, nenhum valor de corte, em momento algum, deve ser usado como indicação de parar (3: dano). Repetir isso nas alternativas é o jeito mais fácil de ganhar a questão.</div>
 
 <h2 id="desfib">Desfibrilação</h2>
@@ -139,7 +139,7 @@ flowchart TD
 <li><b>Lidocaína</b> 1–1,5 mg/kg IV/IO; segunda dose 0,5–0,75 mg/kg.</li>
 <li><b>Sulfato de magnésio</b> só na torsades de pointes recorrente com QT longo. Não é fármaco de parada indiferenciada.</li>
 </ul></div>
-<p>O cálcio merece explicação porque a mudança foi de direção. O ensaio COCA, de 2021, randomizou cálcio contra placebo na parada extra-hospitalar e não achou benefício, com tendência a dano; registros de parada intra-hospitalar mostram pior desfecho com cálcio, confundidos pelo fato de ele ser dado como último recurso em reanimações prolongadas. O resultado é <b>classe 3</b> para o uso rotineiro. Isso não revoga o cálcio na hipercalemia, na hipocalcemia documentada ou na intoxicação por bloqueador de canal de cálcio. Situações em que ele é tratamento da causa, não fármaco de parada. O mesmo raciocínio vale para o bicarbonato: sem benefício de rotina, com lugar na hipercalemia e na intoxicação por tricíclicos.</p>
+<p>O cálcio merece explicação porque a mudança foi de direção. O ensaio COCA, de 2021, randomizou cálcio contra placebo na parada extra-hospitalar e não achou benefício, com tendência a dano; registros de parada intra-hospitalar mostram pior desfecho com cálcio, confundidos pelo fato de ele ser dado como último recurso em reanimações prolongadas. O resultado é <b>classe 3</b> para o uso rotineiro. Isso não revoga o cálcio na hipercalemia, na hipocalcemia documentada ou na intoxicação por bloqueador de canal de cálcio, situações em que ele é tratamento da causa, não fármaco de parada. O mesmo raciocínio vale para o bicarbonato: sem benefício de rotina, com lugar na hipercalemia e na intoxicação por tricíclicos.</p>
 <div class="cx chave"><b>A frase que resume a farmacologia de 2025</b>Na parada, os fármacos com recomendação positiva são <b>adrenalina</b> (1) e, no ritmo chocável refratário, <b>amiodarona ou lidocaína</b> (2b). Tudo o mais (vasopressina, esteroides, cálcio, bicarbonato, magnésio, atropina) ou é sem benefício, ou é incerto, ou é tratamento de uma causa específica.</div>
 
 <h2 id="viaaerea">Via aérea durante a parada</h2>
@@ -158,7 +158,7 @@ flowchart TD
 <p>Dois detalhes que rendem alternativa. Primeiro, a capnografia de onda foi <b>100% específica</b> para confirmar o tubo nos estudos citados; a sensibilidade cai em parada prolongada, quando o fluxo pulmonar é tão baixo que quase não há CO₂ para detectar. Tubo correto com capnografia plana existe, tubo esofágico com onda de CO₂ sustentada não. Segundo, a intubação pode ser feita sem parar as compressões, mas na prática interrompe; no ritmo chocável, em que RCP e choque precoce dominam o prognóstico, adiar a via aérea avançada é a decisão certa. No não chocável, quando RCP e adrenalina já estão otimizadas, a via aérea entra antes.</p>
 
 <h2 id="causas">Causas reversíveis e o ultrassom à beira do leito</h2>
-<p>O mnemônico continua o mesmo,<b>hipovolemia, hipóxia, hidrogênio (acidose), hipo/hipercalemia, hipotermia; tensão (pneumotórax), tamponamento, toxinas, trombose pulmonar e trombose coronariana</b>, e a diretriz de 2025 dedica ao ultrassom o espaço que a prática já lhe deu:</p>
+<p>O mnemônico continua o mesmo (<b>hipovolemia, hipóxia, hidrogênio (acidose), hipo/hipercalemia, hipotermia; tensão (pneumotórax), tamponamento, toxinas, trombose pulmonar e trombose coronariana</b>), e a diretriz de 2025 dedica ao ultrassom o espaço que a prática já lhe deu:</p>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th></tr>
 <tr><td>Ultrassom à beira do leito para diagnosticar causas reversíveis durante a reanimação: não bem estabelecido</td><td class="c"><span class="cls c2b">2b</span><span class="niv">C-LD</span></td></tr>
@@ -186,25 +186,27 @@ flowchart TD
 <tr><td>Intubado: CO₂ expirado que não supera 10 mmHg após 20 minutos de suporte avançado pode ser considerado <b>como um componente</b> de abordagem multimodal</td><td class="c"><span class="cls c2b">2b</span><span class="niv">C-LD</span></td></tr>
 <tr><td><b>Não intubado</b>: nenhum valor de corte de CO₂ expirado, em qualquer momento, deve ser usado como indicação de encerrar</td><td class="c"><span class="cls c3">3: dano</span><span class="niv">C-EO</span></td></tr>
 </table>
-<p>A regra universal não tem especificidade adequada aos 6 minutos de reanimação, mas passa de <b>99% de especificidade por volta de 15 minutos</b>, e aos 20 minutos identifica mais de 99% dos sobreviventes. Reduzindo pela metade os transportes fúteis. E há populações em que <b>nenhuma dessas regras foi validada</b>: intoxicação, trauma e parada intra-hospitalar. Uma questão que aplique a regra de término a um jovem com overdose de opioide está errada por definição.</p>
+<p>A regra universal não tem especificidade adequada aos 6 minutos de reanimação, mas passa de <b>99% de especificidade por volta de 15 minutos</b>, reduzindo pela metade os transportes, e aos 20 minutos de reanimação identificou mais de 99% dos sobreviventes numa análise retrospectiva. E há populações em que <b>nenhuma dessas regras foi validada</b>: intoxicação, trauma e parada intra-hospitalar. Uma questão que aplique a regra de término a um jovem com overdose de opioide está errada por definição.</p>
 
 <div class="fluxo"><div class="leg"><b>Fluxograma 2</b>Término de esforços na parada extra-hospitalar, por escopo de prática</div>
 <pre class="mermaid">
 flowchart TD
-  A["Parada extra-hospitalar em reanimação"] --> B{"População validada?<br/>(não: intoxicação, trauma, intra-hospitalar)"}
-  B -->|"não"| Z["Regras NÃO se aplicam — decisão clínica individual"]
-  B -->|"sim"| C{"Presenciada pela equipe?<br/>Algum choque?<br/>Algum retorno da circulação?"}
-  C -->|"qualquer sim"| D["Continuar / transportar"]
-  C -->|"todos não"| E{"Escopo da equipe"}
-  E -->|"suporte básico"| F["Regra BLS satisfeita → término (classe 1)"]
-  E -->|"sistema em camadas"| G["Regra universal satisfeita → término razoável (2a)"]
-  E -->|"suporte avançado"| H{"Presenciada por leigo?<br/>RCP por leigo?"}
-  H -->|"qualquer sim"| D
-  H -->|"ambos não"| I["Regra ALS satisfeita → término razoável (2a)<br/>Se intubado: CO2 expirado ≤10 mmHg aos 20 min pesa como um componente (2b)"]
+  A["Parada extra-hospitalar<br/>em reanimação"] --> B{"População validada?<br/>não vale para intoxicação,<br/>trauma, intra-hospitalar"}
+  B -->|"sim"| C{"Presenciada pela equipe?<br/>Algum choque?<br/>Algum retorno?"}
+  B -->|"não"| Z["Regras NÃO se aplicam<br/>decisão individual"]
+  C -->|"qualquer sim"| D["Continuar<br/>ou transportar"]
+  C -->|"todos não"| E{"Equipe só de<br/>suporte básico?"}
+  E -->|"não"| K{"Sistema em<br/>camadas?"}
+  E -->|"sim"| F["Regra BLS<br/>término: classe 1"]
+  K -->|"sim"| G["Regra universal<br/>término: 2a"]
+  K -->|"não: avançado"| H{"Presenciada por leigo?<br/>RCP por leigo?"}
+  H -->|"ambos não"| I["Regra ALS<br/>término: 2a"]
+  H -->|"qualquer sim"| D2["Continuar<br/>ou transportar"]
+  I --> J["Intubado: CO2 expirado<br/>≤ 10 mmHg aos 20 min<br/>pesa como componente, 2b"]
 </pre></div>
 
 <h2 id="taqui">Taquicardias com pulso</h2>
-<p>A primeira decisão é a mesma de sempre,<b>há instabilidade atribuível à taquicardia?</b>, e a diretriz de 2025 insiste em que hipotensão, alteração aguda do sensório, sinais de choque, dor torácica isquêmica e insuficiência cardíaca aguda são os marcadores. A segunda é a largura do QRS. A terceira, no QRS largo, é se ele é regular e monomórfico.</p>
+<p>A primeira decisão é a mesma de sempre (<b>há instabilidade atribuível à taquicardia?</b>), e a diretriz de 2025 insiste em que hipotensão, alteração aguda do sensório, sinais de choque, dor torácica isquêmica e insuficiência cardíaca aguda são os marcadores. A segunda é a largura do QRS. A terceira, no QRS largo, é se ele é regular e monomórfico.</p>
 <h3>QRS largo</h3>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th></tr>
@@ -234,20 +236,18 @@ flowchart TD
 <tr><td>Diltiazem ou verapamil IV na taquicardia regular estável</td><td class="c"><span class="cls c2a">2a</span><span class="niv">B-R</span></td></tr>
 <tr><td>β-bloqueador IV na taquicardia regular estável</td><td class="c"><span class="cls c2a">2a</span><span class="niv">C-LD</span></td></tr>
 </table>
-<p>A manobra vagal que funciona é a <b>Valsalva modificada</b> do ensaio REVERT: sopro contra resistência por 15 segundos sentado, seguido de decúbito com elevação passiva das pernas. Quase o triplo de reversão da Valsalva convencional. A massagem carotídea exige cautela em quem pode ter aterosclerose carotídea. A adenosina tem meia-vida de segundos e perde efeito se infundida lentamente em veia periférica distal: bólus rápido, seguido de flush, em veia proximal, com o paciente avisado do rubor e da sensação de morte iminente, e com o traçado correndo, porque a pausa que ela produz é a que faz o diagnóstico de flutter ou fibrilação.</p>
+<p>A manobra vagal que funciona é a <b>Valsalva modificada</b> do ensaio REVERT: sopro contra resistência por 15 segundos sentado, seguido de decúbito com elevação passiva das pernas, com cerca de 2,5 vezes a taxa de reversão da Valsalva convencional. A massagem carotídea exige cautela em quem pode ter aterosclerose carotídea. A adenosina tem meia-vida de segundos e perde efeito se infundida lentamente em veia periférica distal: bólus rápido, seguido de flush, em veia proximal, com o paciente avisado do rubor e da sensação de morte iminente, e com o traçado correndo, porque a pausa que ela produz é a que faz o diagnóstico de flutter ou fibrilação.</p>
 
 <div class="fluxo"><div class="leg"><b>Fluxograma 3</b>Taquicardia com pulso, as três perguntas em ordem</div>
 <pre class="mermaid">
 flowchart TD
-  A["Taquicardia com pulso"] --> B{"Instabilidade causada pela taquicardia?<br/>hipotensão · sensório · choque · dor isquêmica · IC aguda"}
-  B -->|"sim"| C{"Polimórfica?"}
-  C -->|"sim"| C1["Choque NÃO sincronizado imediato"]
-  C -->|"não"| C2["Cardioversão sincronizada<br/>FA/flutter: começar em ≥200 J"]
-  B -->|"não"| D{"QRS largo (≥0,12 s)?"}
-  D -->|"não"| E["Vagal (Valsalva modificada) → adenosina<br/>→ diltiazem/verapamil ou β-bloqueador"]
-  D -->|"sim"| F{"Regular e monomórfica?"}
-  F -->|"sim"| G["Adenosina pode ajudar a diagnosticar<br/>Amiodarona, procainamida ou sotalol<br/>Sem resposta: cardioversão sincronizada"]
-  F -->|"não"| H["Irregular: pensar em FA pré-excitada ou FA com aberrância<br/>Sem adenosina, sem verapamil/diltiazem, sem β-bloqueador, sem amiodarona se pré-excitada<br/>Instável ou dúvida: cardioversão"]
+  A["Taquicardia com pulso"] --> B{"Instabilidade causada<br/>pela taquicardia?<br/>hipotensão · sensório<br/>choque · dor isquêmica<br/>IC aguda"}
+  B -->|"sim"| C["Polimórfica: choque<br/>NÃO sincronizado<br/>Demais: cardioversão<br/>sincronizada<br/>FA: começar em ≥ 200 J"]
+  B -->|"não"| D{"QRS ≥ 0,12 s?"}
+  D -->|"não"| E["Valsalva modificada<br/>→ adenosina<br/>→ diltiazem, verapamil<br/>ou β-bloqueador"]
+  D -->|"sim"| F{"Regular e<br/>monomórfica?"}
+  F -->|"sim"| G["Adenosina ajuda<br/>no diagnóstico<br/>amiodarona, procainamida<br/>ou sotalol<br/>falha: cardioversão"]
+  F -->|"não"| H["Pensar em FA<br/>pré-excitada<br/>sem bloqueador do nó AV<br/>dúvida: cardioversão"]
 </pre></div>
 
 <h2 id="fa">Fibrilação e flutter atrial com resposta rápida</h2>
@@ -279,7 +279,7 @@ flowchart TD
 <tr><td>Marca-passo transvenoso temporário é razoável quando a bradicardia é refratária</td><td class="c"><span class="cls c2a">2a</span></td></tr>
 <tr><td>Marca-passo imediato pode ser considerado no bloqueio AV de alto grau instável quando não há acesso IV/IO</td><td class="c"><span class="cls c2b">2b</span><span class="niv">C-EO</span></td></tr>
 </table>
-<p>As causas que a diretriz lista para a bradicardia sintomática são isquemia, hipóxia, hipertonia vagal, distúrbio metabólico e fármacos ou toxinas. Β-bloqueador, bloqueador de canal de cálcio, digoxina, organofosforado. A atropina foi eficaz em série pré-hospitalar de bradicardia sintomática, mas <b>não tem lugar na parada</b>: acrescentá-la ao tratamento da assistolia e da atividade elétrica sem pulso não melhorou desfecho, e ela saiu do algoritmo de parada há mais de uma década. No bloqueio de alto grau com QRS largo, em que o escape é infranodal, a atropina tende a falhar, e o marca-passo transcutâneo com sedação, checando <b>captura mecânica pelo pulso</b>, não só o espícula no monitor, é a ponte.</p>
+<p>As causas que a diretriz lista para a bradicardia sintomática são isquemia, hipóxia, hipertonia vagal, distúrbio metabólico e fármacos ou toxinas (β-bloqueador, bloqueador de canal de cálcio, digoxina, organofosforado). A atropina foi eficaz em série pré-hospitalar de bradicardia sintomática, mas <b>não tem lugar na parada</b>: acrescentá-la ao tratamento da assistolia e da atividade elétrica sem pulso não melhorou desfecho, e ela saiu do algoritmo de parada há mais de uma década. No bloqueio de alto grau com QRS largo, em que o escape é infranodal, a atropina tende a falhar, e o marca-passo transcutâneo com sedação, checando <b>captura mecânica pelo pulso</b>, não só a espícula no monitor, é a ponte.</p>
 
 <div class="fluxo"><div class="leg"><b>Fluxograma 4</b>Bradicardia com pulso</div>
 <pre class="mermaid">

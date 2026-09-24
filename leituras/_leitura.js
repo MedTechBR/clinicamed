@@ -103,4 +103,47 @@
     mermaid.run({nodes:pres}).catch(function(e){console.warn("mermaid",e)});
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){desenha()});else desenha();
+
+  /* ---- ampliar figura e fluxograma (23/09/2026) ----
+     Na coluna de 664 px, 16 dos 38 fluxogramas saíam com letra efetiva abaixo de 11 px (um deles com
+     4,7 px) e os ECGs de 12 derivações ficam miúdos no celular. Tocar abre a peça no quadro inteiro,
+     no tamanho em que a letra se lê (fluxograma: largura natural do desenho; ECG: pelo menos 1100 px),
+     com rolagem para os lados, + e − para ampliar, Esc ou X para fechar. */
+  var AMP=null;
+  function txtDe(el){return (el.innerText||el.textContent).replace(/\s+/g," ").trim()}
+  function fechaAmp(){ if(AMP){AMP.remove();AMP=null;document.documentElement.classList.remove("ampliando")} }
+  function abreAmp(peca,legenda,larguraBase){
+    fechaAmp();
+    var ov=document.createElement("div");ov.className="amp";ov.setAttribute("role","dialog");ov.setAttribute("aria-modal","true");
+    ov.innerHTML='<div class="ampBarra"><span class="ampLeg"></span><button type="button" data-z="-1" aria-label="Diminuir">−</button><button type="button" data-z="1" aria-label="Ampliar">+</button><button type="button" data-z="0" aria-label="Fechar">×</button></div><div class="ampArea"><div class="ampPeca"></div></div>';
+    ov.querySelector(".ampLeg").textContent=legenda||"";
+    var caixa=ov.querySelector(".ampPeca"); caixa.appendChild(peca);
+    var area=ov.querySelector(".ampArea");
+    var cabe=Math.max(280,innerWidth-32), w=Math.max(cabe,larguraBase||cabe);
+    function aplicaW(){ caixa.style.width=Math.round(w)+"px" }
+    aplicaW();
+    ov.addEventListener("click",function(e){
+      var b=e.target.closest("button");
+      if(b){var z=+b.dataset.z; if(!z){fechaAmp();return}
+        var cx=(area.scrollLeft+area.clientWidth/2)/area.scrollWidth, cy=(area.scrollTop+area.clientHeight/2)/area.scrollHeight;
+        w=Math.min(4000,Math.max(cabe*0.6,w*(z>0?1.35:1/1.35))); aplicaW();
+        area.scrollLeft=cx*area.scrollWidth-area.clientWidth/2; area.scrollTop=cy*area.scrollHeight-area.clientHeight/2; return}
+      if(e.target===area||e.target===ov)fechaAmp();
+    });
+    document.body.appendChild(ov); AMP=ov; document.documentElement.classList.add("ampliando");
+    ov.querySelector('[data-z="0"]').focus({preventScroll:true});
+  }
+  addEventListener("keydown",function(e){ if(e.key==="Escape")fechaAmp() });
+  document.addEventListener("click",function(e){
+    if(AMP)return;
+    var fig=e.target.closest(".fig"), fl=e.target.closest(".fluxo");
+    if(fig){ var im=fig.querySelector("img"); if(!im)return;
+      var leg=fig.querySelector("figcaption"), c=im.cloneNode(); c.removeAttribute("width");c.removeAttribute("height");
+      var ecg=fig.classList.contains("ecg")||/\/(real-|ecg-|tira-)/.test(im.getAttribute("src")||"");
+      abreAmp(c,leg?txtDe(leg):"",ecg?1100:Math.min(1400,(im.naturalWidth||600)*1.6)); return }
+    if(fl){ var sv=fl.querySelector("pre.mermaid svg"); if(!sv)return;
+      var vb=sv.viewBox&&sv.viewBox.baseVal, c2=sv.cloneNode(true);
+      c2.removeAttribute("style");c2.setAttribute("width","100%");c2.removeAttribute("height");
+      var lg=fl.querySelector(".leg"); abreAmp(c2,lg?txtDe(lg):"",vb&&vb.width?vb.width*1.05:0) }
+  });
 })();

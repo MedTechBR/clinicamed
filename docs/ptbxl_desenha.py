@@ -55,7 +55,7 @@ def _norma(sig):
 def desenha(nome, seg=2.5, titulo="", nota="", ritmo="II"):
     sig, fs = ptbxl.le_sinal(nome)
     return desenha_sinal(sig, fs, seg=seg, titulo=titulo, nota=nota, ritmo=ritmo,
-                         fonte="PTB-XL (PhysioNet), CC BY 4.0 — registro " + nome.replace("_hr", ""))
+                         fonte="PTB-XL (PhysioNet), CC BY 4.0, registro " + nome.replace("_hr", ""))
 
 
 def desenha_sinal(sig, fs, seg=2.5, titulo="", nota="", ritmo="II", fonte="", ini=0.0):
@@ -98,9 +98,13 @@ def desenha_sinal(sig, fs, seg=2.5, titulo="", nota="", ritmo="II", fonte="", in
 
     for c, col in enumerate(ORDEM):
         for r, d in enumerate(col):
-            x0 = mx + c * colw + (7 if c == 0 else 2)
+            # 23/09/2026: cada coluna cabe na SUA faixa de 62,5 mm. Antes toda coluna durava 2,5 s
+            # a partir de um recuo (7 mm na primeira, 2 mm nas outras) e invadia a vizinha em 5 mm:
+            # na junção I→aVR, II→aVL etc. os dois traçados se cruzavam.
+            rec = 7 if c == 0 else 1.5
+            x0 = mx + c * colw + rec
             y0 = my + r * rowh + rowh / 2
-            o.append(traco(d, x0, y0, int(c * seg * fs), seg))
+            o.append(traco(d, x0, y0, int(c * seg * fs), (colw - rec - 1.5) / gf.MM_S))
             if c == 0:
                 o.append(_calib(mx + 1, y0, ganho))
             o.append(f'<text x="{x0+1:.1f}" y="{my+r*rowh+5:.1f}" font-family="Figtree,'
@@ -122,7 +126,7 @@ def desenha_sinal(sig, fs, seg=2.5, titulo="", nota="", ritmo="II", fonte="", in
 def tira(nome, deriv="II", seg=8.0, titulo="", nota=""):
     sig, fs = ptbxl.le_sinal(nome)
     return tira_sinal(sig[deriv], fs, deriv=deriv, seg=seg, titulo=titulo, nota=nota,
-                      fonte="PTB-XL (PhysioNet), CC BY 4.0 — registro " + nome.replace("_hr", ""))
+                      fonte="PTB-XL (PhysioNet), CC BY 4.0, registro " + nome.replace("_hr", ""))
 
 
 def tira_sinal(canal, fs, deriv="II", seg=8.0, titulo="", nota="", fonte="", ini=0.0):
@@ -139,18 +143,32 @@ def tira_sinal(canal, fs, deriv="II", seg=8.0, titulo="", nota="", fonte="", ini
          f'<text x="{mx}" y="{my-4:.0f}" font-family="Figtree,system-ui,sans-serif" font-size="4.2" '
          f'font-weight="600" fill="#23272E">{gf.esc(titulo)}</text>']
     if nota:
-        o.append(f'<text x="{W-4:.0f}" y="{my-4:.0f}" text-anchor="end" font-family="Figtree,'
-                 f'system-ui,sans-serif" font-size="3.4" fill="#5E646B">{gf.esc(nota)}</text>')
+        # 23/09/2026: título longo + nota longa se sobrepunham (Mobitz I, bigeminismo). Estimativa
+        # de largura pela contagem de caracteres; se não couberem na mesma linha, a nota vai para o
+        # rodapé, alinhada à direita, e o rodapé da fonte encurta para caber.
+        cabe = len(titulo) * 4.2 * 0.56 + len(nota) * 3.4 * 0.5 + 8 < W - mx - 4
+        if cabe:
+            o.append(f'<text x="{W-4:.0f}" y="{my-4:.0f}" text-anchor="end" font-family="Figtree,'
+                     f'system-ui,sans-serif" font-size="3.4" fill="#5E646B">{gf.esc(nota)}</text>')
+        else:
+            H += 5
+            o[2] = f'<rect width="{W:.0f}" height="{H:.0f}" fill="#FFF8F7"/>'
+            o[0] = o[0].replace(f'viewBox="0 0 {W:.0f} {H-5:.0f}"', f'viewBox="0 0 {W:.0f} {H:.0f}"')
+            o.append(f'<text x="{W-4:.0f}" y="{H-3:.0f}" text-anchor="end" font-family="Figtree,'
+                     f'system-ui,sans-serif" font-size="3.4" fill="#23272E">{gf.esc(nota)}</text>')
     y0 = my + 23
+    # a tira começa 8 mm depois da borda (pulso de calibração); antes durava seg inteiros e passava
+    # 8 mm do papel, cortada pela borda do quadro
     xy = gf._rala([(mx + 8 + i / fs * gf.MM_S, y0 - v[i] * ganho)
-                   for i in range(min(len(v), int(seg * fs)))])
+                   for i in range(min(len(v), int((seg - 9 / gf.MM_S) * fs)))])
     o.append('<polyline fill="none" stroke="#23272E" stroke-width=".45" stroke-linejoin="round" '
              'points="' + " ".join(f"{x:.2f},{y:.2f}" for x, y in xy) + '"/>')
     o.append(_calib(mx + 1, y0, ganho))
     o.append(f'<text x="{mx+9:.0f}" y="{my+5:.0f}" font-family="Figtree,system-ui,sans-serif" '
              f'font-size="3.6" font-weight="600" fill="#23272E">{ROTULO.get(deriv, deriv)}</text>')
     g = "10 mm/mV" if ganho == gf.MM_MV else "5 mm/mV"
-    o.append(f'<text x="{mx}" y="{H-3:.0f}" font-family="Figtree,system-ui,sans-serif" '
+    yf = H - 3 if (not nota or cabe) else H - 8
+    o.append(f'<text x="{mx}" y="{yf:.0f}" font-family="Figtree,system-ui,sans-serif" '
              f'font-size="3.2" fill="#5E646B">25 mm/s · {g} · {gf.esc(fonte)}</text>')
     o.append('</svg>')
     return "".join(o)

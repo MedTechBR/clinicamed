@@ -1,6 +1,6 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Fibrilação atrial</title>
-<link rel="stylesheet" href="_leitura.css?v=98"><script src="_leitura.js?v=98"></script>
+<link rel="stylesheet" href="_leitura.css?v=99"><script src="_leitura.js?v=99"></script>
 <div class="wrap">
 <p class="kicker">Cardiologia · 75 min · ESC 2024 · monografia</p>
 <h1>Fibrilação atrial</h1>
@@ -27,7 +27,7 @@
 </ol></nav>
 
 <h2 id="mudou">Mudanças da diretriz de 2024</h2>
-<p>A fibrilação atrial multiplica por <b>cinco</b> o risco de AVC isquêmico, e <b>um em cada cinco</b> AVCs está associado a ela; o risco de desenvolvê-la ao longo da vida chega a <b>um em três</b> no idoso. Daí a tese do documento: a arritmia é o desfecho visível de uma doença atrial com causa quase sempre tratável, e cuidar só do ritmo é tratar a metade barata do problema. O <b>AF-CARE</b> são quatro domínios percorridos sempre e em ordem,<b>[C]</b> comorbidades, <b>[A]</b> evitar AVC, <b>[R]</b> reduzir sintomas, <b>[E]</b> reavaliação dinâmica.</p>
+<p>A fibrilação atrial multiplica por <b>cinco</b> o risco de AVC isquêmico, e <b>um em cada cinco</b> AVCs está associado a ela; o risco de desenvolvê-la ao longo da vida chega a <b>um em três</b> no idoso. Daí a tese do documento: a arritmia é o desfecho visível de uma doença atrial com causa quase sempre tratável, e cuidar só do ritmo é tratar a metade barata do problema. O <b>AF-CARE</b> são quatro domínios percorridos sempre e em ordem: <b>[C]</b> comorbidades, <b>[A]</b> evitar AVC, <b>[R]</b> reduzir sintomas, <b>[E]</b> reavaliação dinâmica.</p>
 <ol class="passos">
 <li><b>CHA₂DS₂-VA substitui o CHA₂DS₂-VASc</b>: sai o ponto do sexo, máximo 8.</li>
 <li><b>Dose reduzida de direto sem critério formal é classe III</b>, a subdose ganhou nome de erro.</li>
@@ -45,7 +45,7 @@ flowchart TD
   C --> B["[A] Evitar AVC<br/>CHA₂DS₂-VA · corrigir fatores<br/>de sangramento modificáveis"]
   B --> D{"CHA₂DS₂-VA"}
   D -->|"2 ou mais"| E["Anticoagular · classe I"]
-  D -->|"igual a 1"| F["Anticoagular após decisão compartilhada · IIa"]
+  D -->|"igual a 1"| F["Anticoagular após decisão<br/>compartilhada · IIa"]
   D -->|"zero"| G["Sem anticoagulante agora<br/>reavaliar periodicamente"]
   E --> R["[R] Reduzir sintomas<br/>frequência sempre · ritmo se indicado"]
   F --> R
@@ -60,7 +60,7 @@ flowchart TD
 <figure class="fig"><div class="zoom"><img src="fig/real-fa.svg" alt="Tira de ritmo de paciente com fibrilação atrial"></div>
 <figcaption><b>Figura 1.</b> Fibrilação atrial em traçado de paciente: nenhuma onda P organizada, só ondulação da linha de base, e RR irregularmente irregulares. RR regulares num paciente “em fibrilação” sugerem bloqueio atrioventricular total com escape, ou taquicardia atrial com condução fixa.</figcaption></figure>
 
-<p>A diretriz <b>exige documentação eletrocardiográfica</b> antes de estratificar e tratar: ECG de 12 derivações, ou dispositivo de uma ou múltiplas derivações que produza traçado,<b>não serve</b> vestível de fotopletismografia. Em monitorização ambulatorial, <b>30 segundos ou mais</b> já indicam preocupação clínica; nos dispositivos implantados, <i>episódio atrial de alta frequência</i> dura mais de 5 minutos com frequência atrial <b>≥170 bpm</b> e precisa de inspeção visual, porque parte é artefato.</p>
+<p>A diretriz <b>exige documentação eletrocardiográfica</b> antes de estratificar e tratar: ECG de 12 derivações, ou dispositivo de uma ou múltiplas derivações que produza traçado; vestível de fotopletismografia <b>não serve</b>. Em monitorização ambulatorial, <b>30 segundos ou mais</b> já indicam preocupação clínica; nos dispositivos implantados, <i>episódio atrial de alta frequência</i> dura mais de 5 minutos com frequência atrial <b>≥170 bpm</b> e precisa de inspeção visual, porque parte é artefato.</p>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th></tr>
 <tr><td>Eletrocardiograma para estabelecer o diagnóstico e iniciar o tratamento</td><td class="c"><span class="cls c1">I</span><span class="niv">A</span></td></tr>
@@ -76,7 +76,7 @@ flowchart TD
 <div class="cx armadilha"><b>“Fibrilação atrial valvar” é termo obsoleto</b>A diretriz manda abandoná-lo. O que restringe o anticoagulante direto é uma lista curta: <b>prótese valvar mecânica</b> e <b>estenose mitral moderada a grave</b>. Insuficiência mitral, bioprótese, inclusive mitral, e implante valvar aórtico transcateter não restringem: nesses o direto é preferencial.</div>
 
 <h2 id="rastreio">Rastreamento e o dispositivo vestível</h2>
-<p>A forma de rastrear importa: o rastreamento de <b>ponto único</b>, um ECG na consulta, uma vez,<b>não aumenta</b> a detecção. O que aumenta detecção e prescrição de anticoagulante é o rastreamento <b>prolongado</b>: no STROKESTOP, ECG de derivação única duas vezes ao dia por duas semanas aos 75 e 76 anos reduziu discretamente morte, AVC, embolia e sangramento grave (razão de risco 0,96).</p>
+<p>A forma de rastrear importa: o rastreamento de <b>ponto único</b> (um ECG na consulta, uma vez) <b>não aumenta</b> a detecção. O que aumenta detecção e prescrição de anticoagulante é o rastreamento <b>prolongado</b>: no STROKESTOP, ECG de derivação única duas vezes ao dia por duas semanas aos 75 e 76 anos reduziu discretamente morte, AVC, embolia e sangramento grave (razão de risco 0,96).</p>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th></tr>
 <tr><td>Revisão do eletrocardiograma <b>por médico</b> para dar o diagnóstico definitivo</td><td class="c"><span class="cls c1">I</span><span class="niv">B</span></td></tr>
@@ -108,7 +108,7 @@ flowchart TD
 <li><b>Peso: reduzir ≥10%</b>, no ensaio de referência o alvo era IMC &lt;27 kg/m²; a bariátrica também vale com IMC ≥35 kg/m² e complicações.</li>
 <li><b>Álcool: ≤30 g por semana</b>, não por dia. É um dos números mais cobrados.</li>
 </ul></div>
-<div class="cx armadilha"><b>Questionário de apneia não basta</b>Aplicar STOP-Bang, dar negativo e encerrar é o que a classe III mira: nesses pacientes os escores de sintoma vão mal, e o teste confirmatório deve ser feito quando houver suspeita clínica. Note a assimetria,<b>tratar</b> a apneia é apenas IIb B, mas <b>rastrear mal</b> é classe III.</div>
+<div class="cx armadilha"><b>Questionário de apneia não basta</b>Aplicar STOP-Bang, dar negativo e encerrar é o que a classe III mira: nesses pacientes os escores de sintoma vão mal, e o teste confirmatório deve ser feito quando houver suspeita clínica. Note a assimetria: <b>tratar</b> a apneia é apenas IIb B, mas <b>rastrear mal</b> é classe III.</div>
 
 <h2 id="a">[A] Risco tromboembólico e o escore sem o ponto do sexo</h2>
 <div class="cx chave"><b>CHA₂DS₂-VA substitui o CHA₂DS₂-VASc</b>O ponto do sexo feminino saiu e o máximo caiu de 9 para <b>8</b>. As razões: o sexo feminino é <b>modificador de risco dependente da idade</b>, não fator de risco em si; as diretrizes europeias já usavam limiares diferentes por sexo, o que na prática era o CHA₂DS₂-VA; e o critério excluía pessoas não binárias ou transgênero.</div>
@@ -122,7 +122,7 @@ flowchart TD
 <tr><td><b>V</b> doença vascular</td><td>Coronariopatia (infarto, angina, revascularização, doença significativa em imagem) <b>ou</b> doença vascular periférica, incluindo claudicação, intervenção sobre a aorta abdominal e placa aórtica complexa</td><td>1</td></tr>
 <tr><td><b>A</b> idade 65–74 anos</td><td>Excludente com o item anterior</td><td>1</td></tr>
 </table></div>
-<p>O poder preditivo de <b>todos</b> os escores é modesto, e a diretriz pede que se pesem marcadores fora da conta. Câncer, doença renal crônica, troponina, peptídeo natriurético, aumento atrial. O limiar aceito para anticoagular gira em torno de <b>0,6% a 1,0% de eventos por ano</b>.</p>
+<p>O poder preditivo de <b>todos</b> os escores é modesto, e a diretriz pede que se pesem marcadores fora da conta: câncer, doença renal crônica, troponina, peptídeo natriurético, aumento atrial. O limiar aceito para anticoagular gira em torno de <b>0,6% a 1,0% de eventos por ano</b>.</p>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th></tr>
 <tr><td>Anticoagulação oral na fibrilação <b>clínica</b> de risco embólico elevado</td><td class="c"><span class="cls c1">I</span><span class="niv">A</span></td></tr>
@@ -140,19 +140,14 @@ flowchart TD
 <div class="fluxo"><div class="leg"><b>Fluxograma 2</b>Decisão de anticoagulação, o que decide, o que não decide e quem anticoagula fora do escore</div>
 <pre class="mermaid">
 flowchart TD
-  A["FA clínica documentada em ECG"] --> B{"Cardiomiopatia hipertrófica<br/>ou amiloidose cardíaca?"}
-  B -->|"sim"| C["Anticoagular sempre<br/>independente do escore · classe I"]
-  B -->|"não"| D["Calcular CHA₂DS₂-VA<br/>sem ponto por sexo"]
-  D --> E{"Pontuação"}
-  E -->|"2 ou mais"| F["Anticoagular · classe I"]
-  E -->|"igual a 1"| G["Anticoagular após decisão compartilhada · IIa"]
-  E -->|"zero"| H["Sem anticoagulante agora<br/>reavaliar em intervalos definidos"]
-  C --> I{"Prótese mecânica ou estenose<br/>mitral moderada a grave?"}
-  F --> I
-  G --> I
-  I -->|"sim"| J["Antagonista da vitamina K<br/>INR alvo 2,0 a 3,0"]
-  I -->|"não"| K["Anticoagulante oral direto<br/>DOSE PLENA salvo critério de bula"]
-  J --> L["Corrigir fatores de sangramento modificáveis<br/>PA · álcool · AINE · anemia · rim"]
+  A["FA clínica em ECG"] --> B{"CMH ou amiloidose<br/>cardíaca?"}
+  B -->|"sim · anticoagular<br/>sempre · classe I"| I
+  B -->|"não"| E{"CHA₂DS₂-VA<br/>sem ponto por sexo"}
+  E -->|"zero"| H["Sem anticoagulante<br/>reavaliar periodicamente"]
+  E -->|"anticoagular<br/>1 · IIa, decisão compartilhada<br/>2 ou mais · classe I"| I{"Prótese mecânica<br/>ou estenose mitral<br/>moderada a grave?"}
+  I -->|"sim"| J["Varfarina<br/>INR 2,0 a 3,0"]
+  I -->|"não"| K["Direto em DOSE PLENA<br/>salvo critério de bula"]
+  J --> L["Corrigir sangramento modificável<br/>PA · álcool · AINE · anemia · rim"]
   K --> L
 </pre></div>
 
@@ -174,12 +169,12 @@ flowchart TD
 <tr><td><b>Edoxabana</b></td><td>60 mg 1×/dia</td><td><b>Qualquer</b> um: clearance 15–50 mL/min; peso ≤60 kg; ciclosporina, dronedarona, eritromicina ou cetoconazol</td><td>30 mg 1×/dia</td></tr>
 <tr><td><b>Rivaroxabana</b></td><td>20 mg 1×/dia, com alimento</td><td>Clearance 15–49 mL/min</td><td>15 mg 1×/dia</td></tr>
 </table></div>
-<p class="legenda">Tabela 11: a dose plena é a regra; a redução é exceção com critério escrito.</p>
+<p class="legenda">Tabela 11 da diretriz: a dose plena é a regra; a redução é exceção com critério escrito.</p>
 <div class="cx armadilha"><b>A subdose ganhou nome de erro</b>A redução inapropriada é frequente e <b>aumenta o AVC sem reduzir o sangramento</b>, o pior dos dois mundos. Reduzir “porque o paciente é idoso e frágil”, sem critério formal, é a classe III: fragilidade, quedas e idade isolada não são critério de redução de nenhum dos quatro fármacos.</div>
 <div class="dose"><b>Função renal, monitorização e interações</b>
 <ul>
 <li>Eficácia e segurança sobre a varfarina se mantêm com <b>clearance &gt;30 mL/min</b>; doses reduzidas são aprovadas na Europa com 15–29 mL/min, exceto dabigatrana.</li>
-<li><b>Dabigatrana é contraindicada com filtração &lt;30 mL/min/1,73 m².</b></li>
+<li><b>Dabigatrana é contraindicada com clearance &lt;30 mL/min.</b></li>
 <li>Medir o nível só ajuda em <b>sangramento grave, cirurgia urgente e evento tromboembólico apesar de adesão</b>.</li>
 <li>Evitar indutores potentes (carbamazepina, fenitoína, rifampicina) e inibidores potentes (itraconazol, cetoconazol, ritonavir).</li>
 </ul></div>
@@ -234,7 +229,7 @@ flowchart TD
 </ul></div>
 
 <h2 id="ritmo">Controle de ritmo</h2>
-<p>“Escolher entre frequência e ritmo” é dicotomia de prova; na prática a maioria recebe combinação. O que aumentou o peso do controle de ritmo foi o <b>EAST-AFNET 4</b>, implementá-lo no primeiro ano após o diagnóstico reduziu morte cardiovascular, AVC e internação, com 80% tratados por antiarrítmico e não por ablação, somado ao <b>CASTLE-AF</b> e ao <b>CASTLE-HTx</b> na fração reduzida. O <b>CABANA</b>, em contraponto, não mostrou diferença de mortalidade.</p>
+<p>“Escolher entre frequência e ritmo” é dicotomia de prova; na prática a maioria recebe combinação. O que aumentou o peso do controle de ritmo foi o <b>EAST-AFNET 4</b>: implementá-lo no primeiro ano após o diagnóstico reduziu morte cardiovascular, AVC e internação, com 80% tratados por antiarrítmico e não por ablação, somado ao <b>CASTLE-AF</b> e ao <b>CASTLE-HTx</b> na fração reduzida. O <b>CABANA</b>, em contraponto, não mostrou diferença de mortalidade.</p>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th></tr>
 <tr><td>Cardioversão elétrica na instabilidade hemodinâmica aguda ou em piora</td><td class="c"><span class="cls c1">I</span><span class="niv">C</span></td></tr>
@@ -247,23 +242,23 @@ flowchart TD
 <pre class="mermaid">
 flowchart TD
   A["FA com resposta ventricular rápida"] --> B{"Instabilidade hemodinâmica?"}
-  B -->|"sim"| C["Cardioversão sincronizada IMEDIATA<br/>anticoagular assim que possível · classe I"]
+  B -->|"sim"| C["Cardioversão sincronizada<br/>IMEDIATA · classe I<br/>anticoagular assim que possível"]
   B -->|"não"| D["Tratar a causa aguda<br/>sepse · congestão · tireoide"]
   D --> E{"Fração de ejeção"}
-  E -->|"acima de 40%"| F["Betabloqueador OU diltiazem OU verapamil<br/>digoxina isolada ou associada"]
-  E -->|"40% ou menos"| G["Betabloqueador e/ou digoxina<br/>NÃO usar verapamil ou diltiazem"]
+  E -->|"acima de 40%"| F["Betabloqueador OU<br/>diltiazem OU verapamil<br/>digoxina isolada ou associada"]
+  E -->|"40% ou menos"| G["Betabloqueador e/ou digoxina<br/>NÃO usar verapamil<br/>ou diltiazem"]
   F --> H["Alvo inicial leniente<br/>repouso abaixo de 110 bpm"]
   G --> H
   H --> I{"Segue sintomático ou<br/>suspeita de taquicardiomiopatia?"}
-  I -->|"não"| J["Manter controle de frequência<br/>seguir o AF-CARE"]
+  I -->|"não"| J["Manter controle<br/>de frequência<br/>seguir o AF-CARE"]
   I -->|"sim"| K["Controle mais estrito<br/>e discutir controle de ritmo"]
   K --> L{"Paroxística?"}
-  L -->|"sim"| M["Ablação é PRIMEIRA LINHA<br/>ou antiarrítmico conforme substrato"]
-  L -->|"não"| N["Antiarrítmico conforme substrato<br/>ablação se refratário ou intolerante"]
+  L -->|"sim"| M["Ablação é PRIMEIRA LINHA<br/>ou antiarrítmico<br/>conforme substrato"]
+  L -->|"não"| N["Antiarrítmico<br/>conforme substrato<br/>ablação se refratário<br/>ou intolerante"]
 </pre></div>
 
 <h2 id="cardioversao">Cardioversão e a regra das 24 horas</h2>
-<div class="cx chave"><b>A janela encolheu: 24 horas, não 48</b>O início “definido” raramente é conhecido de verdade, e o risco embólico é baixo apenas numa janela bem mais curta que 48 horas. Resultado: <b>não se cardioverte se a duração for maior que 24 horas</b>, a menos que haja 3 semanas de anticoagulação terapêutica ou transesofágico excluindo trombo. As 48 horas continuam na diretriz com outro papel. É a janela em que se pode <b>esperar</b> a reversão espontânea no paciente estável.</div>
+<div class="cx chave"><b>A janela encolheu: 24 horas, não 48</b>O início “definido” raramente é conhecido de verdade, e o risco embólico é baixo apenas numa janela bem mais curta que 48 horas. Resultado: <b>não se cardioverte se a duração for maior que 24 horas</b>, a menos que haja 3 semanas de anticoagulação terapêutica ou transesofágico excluindo trombo. As 48 horas continuam na diretriz com outro papel: é a janela em que se pode <b>esperar</b> a reversão espontânea no paciente estável.</div>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th></tr>
 <tr><td>Diretos preferenciais à varfarina em quem vai à cardioversão</td><td class="c"><span class="cls c1">I</span><span class="niv">A</span></td></tr>
@@ -282,7 +277,7 @@ flowchart TD
 <li><b>Depois das 4 semanas</b>: quem manda é o CHA₂DS₂-VA, não o sucesso da cardioversão.</li>
 </ol>
 <h3>Cardioversão farmacológica</h3>
-<p>É menos eficaz que a elétrica, e os números estão inflados pela reversão espontânea: 76% a 83% dos casos de início recente revertem sozinhos. 55% a 66% já em 24 horas.</p>
+<p>É menos eficaz que a elétrica, e os números estão inflados pela reversão espontânea: 76% a 83% dos casos de início recente revertem sozinhos, 55% a 66% já em 24 horas.</p>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th></tr>
 <tr><td><b>Flecainida ou propafenona</b> IV no início recente, <b>excluindo</b> hipertrofia grave, fração reduzida e coronariopatia</td><td class="c"><span class="cls c1">I</span><span class="niv">A</span></td></tr>
@@ -295,9 +290,9 @@ flowchart TD
 <ul>
 <li><b>Flecainida</b> oral 200–300 mg ou IV 1–2 mg/kg em 10 min (50–60% em 3 h) e <b>propafenona</b> oral 450–600 mg ou IV 1,5–2 mg/kg em 10 min (45–55%): vetadas em doença estrutural ou coronariana, Brugada e clearance &lt;35 mL/min; <b>nunca no flutter</b>; parar a infusão se o QRS alargar &gt;25%.</li>
 <li><b>Amiodarona</b> 300 mg IV em 30–60 min, depois 900–1 200 mg em 24 h: 44%, de horas a dias.</li>
-<li><b>Ibutilida</b> 1 mg em 10 min, repetível: 31–51% na fibrilação, <b>60–75% no flutter</b>; só em unidade coronariana, 4 h de monitorização pelo <i>torsades</i>. <b>Vernakalant</b> 3 mg/kg em 10 min, depois 2 mg/kg. Cerca de 50%, dos mais rápidos.</li>
+<li><b>Ibutilida</b> 1 mg em 10 min, repetível: 31–51% na fibrilação, <b>60–75% no flutter</b>; só em unidade coronariana, 4 h de monitorização pelo <i>torsades</i>. <b>Vernakalant</b> 3 mg/kg em 10 min, depois 2 mg/kg: cerca de 50%, dos mais rápidos.</li>
 </ul></div>
-<div class="cx armadilha"><b>Classe IC exige bloqueio nodal junto</b>Flecainida e propafenona podem organizar a fibrilação em <b>flutter</b>, que então conduz <b>1:1</b> pelo nó. 250 a 300 bpm com QRS já alargado pela droga, pior que a arritmia original. Por isso a diretriz manda associar bloqueador do nó a quem recebe classe IC, e proíbe classe IC para reverter flutter estabelecido.</div>
+<div class="cx armadilha"><b>Classe IC exige bloqueio nodal junto</b>Flecainida e propafenona podem organizar a fibrilação em <b>flutter</b>, que então conduz <b>1:1</b> pelo nó, com resposta ventricular muito rápida e QRS já alargado pela droga, pior que a arritmia original. Por isso a diretriz manda associar bloqueador do nó a quem recebe classe IC, e proíbe classe IC para reverter flutter estabelecido.</div>
 <div class="ancora"><b>Questão-âncora</b>Homem de 64 anos, hipertenso, palpitações “desde ontem à tarde”, cerca de 30 horas. Estável, 128 bpm, sem anticoagulação prévia. O plantonista pede o carrinho para cardioverter.<details><summary>Cardioverte hoje?</summary><p>Não sem preparo. Acima de 24 horas (este é o número da ESC 2024, não 48) cardioverter sem anticoagulação apropriada ou sem transesofágico é <b>classe III</b>. As saídas legítimas são 3 semanas de anticoagulação antes, ou transesofágico agora excluindo trombo; nos dois caminhos, <b>4 semanas depois</b>, e manutenção pelo CHA₂DS₂-VA, aqui já 1 pela hipertensão. Só se cardioverte de imediato na instabilidade.</p></details></div>
 
 <h2 id="antiarritmicos">Antiarrítmicos escolhidos pelo substrato</h2>
@@ -364,7 +359,7 @@ flowchart TD
 <p>O precipitante mais comum é a <b>sepse</b>, com prevalência de 9% a 20%, e a arritmia que ela desencadeia <b>recorre após a alta em um terço a metade</b> dos pacientes. Álcool em libação, drogas ilícitas, queimadura, trauma, choque, pericardite e miocardite completam a lista. O risco tromboembólico parece ser <b>o mesmo</b> dos demais: considerar anticoagulação de longo prazo (IIa C) em risco elevado, <b>depois de corrigido o gatilho</b>.</p>
 <h3>Fibrilação atrial pré-excitada</h3>
 <figure class="fig"><div class="zoom"><img src="fig/real-fa-pre-excitada.svg" alt="Eletrocardiograma de paciente com fibrilação atrial pré-excitada"></div>
-<figcaption><b>Figura 2.</b> A tríade da fibrilação pré-excitada, em traçado de paciente com WPW conhecido: irregular, rápida e com QRS largo de morfologia variável. Cada batimento é uma mistura diferente de condução pela via acessória e pelo nó. Bloquear o nó empurra tudo pela via acessória e pode degenerar em fibrilação ventricular.</figcaption></figure>
+<figcaption><b>Figura 2.</b> A tríade da fibrilação pré-excitada, em traçado de paciente com WPW conhecido: irregular, rápida e com QRS de largura e morfologia variáveis: a maioria larga, pela via acessória, entremeada de alguns estreitos, conduzidos pelo nó. Cada batimento é uma mistura diferente de condução pela via acessória e pelo nó. Bloquear o nó empurra tudo pela via acessória e pode degenerar em fibrilação ventricular.</figcaption></figure>
 <ol class="passos">
 <li><b>Comprometimento hemodinâmico: cardioversão elétrica imediata.</b> Estável, <b>evitar toda droga moduladora do nó atrioventricular</b>, a nota da tabela de fármacos de frequência é explícita: todos são contraindicados no Wolff-Parkinson-White, <b>inclusive a amiodarona intravenosa</b>.</li>
 <li>Cardioversão farmacológica com <b>ibutilida</b> ou <b>flecainida</b>; propafenona com cautela pelo efeito nodal, e <b>amiodarona deve ser evitada</b> pela ação retardada.</li>
@@ -372,7 +367,7 @@ flowchart TD
 <h3>Flutter atrial</h3>
 <figure class="fig"><div class="zoom"><img src="fig/real-flutter.svg" alt="Tira de ritmo de paciente com flutter atrial e condução 2:1"></div>
 <figcaption><b>Figura 3.</b> Flutter atrial com condução 2:1, em traçado de paciente: ondas atriais em dente de serra, sem linha isoelétrica entre elas, a cerca de 300 por minuto; com condução 2:1 a resposta fica regular e perto de 150 bpm. Taquicardia regular a 150 é flutter até prova em contrário, e as ondas aparecem melhor nas derivações inferiores e em V1.</figcaption></figure>
-<p>Incidência de 88 por 100 000 pessoas-ano, 317 acima dos 50 anos, e <b>mais da metade dos pacientes com flutter desenvolverá fibrilação atrial</b>. Comorbidades e anticoagulação espelham as da fibrilação. O controle de frequência é <b>difícil</b> mesmo com combinação, e o <b>controle de ritmo costuma ser a primeira abordagem</b>: a ablação do istmo cavotricúspide é superior aos antiarrítmicos. Recorrência de flutter é incomum após bloqueio bidirecional, mas <b>50% a 70% manifestam fibrilação atrial no seguimento</b>, ablacionar o flutter não encerra a reavaliação dinâmica nem, por si, a anticoagulação.</p>
+<p>Incidência de 88 por 100 000 pessoas-ano, 317 acima dos 50 anos, e <b>mais da metade dos pacientes com flutter desenvolverá fibrilação atrial</b>. Comorbidades e anticoagulação espelham as da fibrilação. O controle de frequência é <b>difícil</b> mesmo com combinação, e o <b>controle de ritmo costuma ser a primeira abordagem</b>: a ablação do istmo cavotricúspide é superior aos antiarrítmicos. Recorrência de flutter é incomum após bloqueio bidirecional, mas <b>50% a 70% manifestam fibrilação atrial no seguimento</b>: ablacionar o flutter não encerra a reavaliação dinâmica nem, por si, a anticoagulação.</p>
 
 <h2 id="armadilhas">Erros frequentes</h2>
 <ul>
@@ -396,7 +391,7 @@ flowchart TD
 <details><summary>Paciente com amiloidose cardíaca e CHA₂DS₂-VA de 1. Anticoagula?</summary>
 <p>Sim, classe I B, <b>independentemente do escore</b>, idem cardiomiopatia hipertrófica.</p></details>
 <details><summary>Quando o direto não pode substituir a varfarina?</summary>
-<p><b>Prótese mecânica</b> e <b>estenose mitral moderada a grave</b>. Bioprótese, valva aórtica transcateter e insuficiência mitral não restringem. “fibrilação atrial valvar” é termo aposentado.</p></details>
+<p><b>Prótese mecânica</b> e <b>estenose mitral moderada a grave</b>. Bioprótese, valva aórtica transcateter e insuficiência mitral não restringem. “Fibrilação atrial valvar” é termo aposentado.</p></details>
 <details><summary>Homem de 78 anos, 70 kg, creatinina 1,6 mg/dL, em apixabana. Reduz a dose?</summary>
 <p>Não: preenche <b>um</b> critério e a apixabana exige <b>dois de três</b>. Reduzir seria a subdose classe III.</p></details>
 <details><summary>Fibrilação há 3 dias, estável, sem anticoagulação. Cardioverte hoje?</summary>
@@ -408,9 +403,9 @@ flowchart TD
 <details><summary>FA com angioplastia não complicada: quanto tempo de tripla?</summary>
 <p>Suspender o ácido acetilsalicílico em <b>até 1 semana</b> e seguir com direto mais clopidogrel até 12 meses (I A). Com risco isquêmico alto, tripla além de 1 semana, total <b>≤1 mês</b> (IIa C). Depois, anticoagulante isolado.</p></details>
 <details><summary>Taquicardia irregular, muito rápida, QRS largo variável, jovem pré-excitado. O que não fazer?</summary>
-<p>Nenhum bloqueador do nó, betabloqueador, verapamil, diltiazem, digoxina e <b>amiodarona IV</b>. Instável: cardioversão imediata; estável: ibutilida ou flecainida.</p></details>
+<p>Nenhum bloqueador do nó: betabloqueador, verapamil, diltiazem, digoxina e <b>amiodarona IV</b>. Instável: cardioversão imediata; estável: ibutilida ou flecainida.</p></details>
 <details><summary>AVC em uso correto de rivaroxabana plena: acrescenta aspirina ou troca a droga?</summary>
-<p>Nenhum: ambos são classe III B. A conduta é <b>investigação ampla</b> (IIa B). Causa não cardioembólica, fatores vasculares, dose, adesão.</p></details>
+<p>Nenhum: ambos são classe III B. A conduta é <b>investigação ampla</b> (IIa B): causa não cardioembólica, fatores vasculares, dose, adesão.</p></details>
 
 <a class="vaiQuestoes" href="../index.html?area=cardio#questoes">Treinar questões de cardiologia</a>
 

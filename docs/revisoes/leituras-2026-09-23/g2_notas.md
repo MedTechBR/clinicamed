@@ -1,0 +1,5 @@
+# notas g2 (rascunho)
+FEITO: artrite (escrita; EULAR 2025 conferida 5 princ/9 rec), avc (AHA 2026: déficit não incapacitante classe 3, perfusão 4,5-9h, PA pós-EVT, critérios EVT, basilar), bipolar (OFC 2ª linha CANMAT, cariprazina, mania def), dengue (MS 6ª ed ainda vigente, fluxograma 02/2024; escrita), epilepsia (ILAE 2025 classificação, pergunta 1 incoerente com tabela, refs NCS 2012/AES 2016), hiv (PCDT 2024: TARV até 7 dias na TB, meningite TB 4-6 sem, DTG 50 12/12 até 2 sem após, TPT CD4<=350 3HP), intox (escrita), meningites (dexa ESCMID 4h, OMS 2025 listéria >60), nefro-itu (IDSA 2025 cUTI 5-7d FQ/7d, homem não automaticamente complicado), polifarmácia (exemplo CKD-EPI errado 40->~56, ADA 2026 metas idoso, apixabana 80a/60kg).
+FEITO ventilacao: kicker/dek/footer -> ESICM 2023 + ATS 2024 (Qadir AJRCCM 2024;209:24); leituras.js linha 64 tipo "ATS/ESICM/SCCM 2023 e AMIB" precisa mesma troca (não editei). Escrita 5 frases.
+FALTA: choque, radiografia-torax, relatório.
+choque: vasopressina 0,25-0,5 era dose de NORA, não de vasopressina (corrigido); adrenalina 1ª linha na disfunção cardíaca SSC 2026 rec 58

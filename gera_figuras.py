@@ -681,7 +681,7 @@ def radiologia():
                 f'<rect width="{w}" height="{h}" fill="#FFFFFF"/>'
                 f'<text class="t" x="10" y="20">{titulo}</text>{base()}{corpo}</svg>', legenda)
     F = {}
-    F["rx-normal"] = wrap("rx-normal", "Radiografia de tórax — esquema normal",
+    F["rx-normal"] = wrap("rx-normal", "Radiografia de tórax: esquema normal",
         coracao() + '<path d="M108 150 q14 10 18 26 M192 150 q-14 10 -18 26" stroke="#5E646B" stroke-width="1.4" fill="none"/>'
         '<text class="k" x="196" y="196">hilo</text><text class="k" x="196" y="286">seio costofrênico</text>'
         '<text class="k" x="60" y="240">coração &lt; metade do tórax</text>',
@@ -703,16 +703,36 @@ def radiologia():
         '<text class="k" x="176" y="120" fill="#C6453D">mediastino desviado</text>',
         "Linha pleural visível, ausência de trama vascular além dela e desvio do mediastino para o lado oposto — o hipertensivo se trata antes da radiografia.")
 
+    # 23/09: Kerley B = traços curtos HORIZONTAIS que partem da pleura lateral das bases (antes eram
+    # mediais, sobre o coração); vasos de lobo superior mais calibrosos que os de base (redistribuição);
+    # rótulos na margem direita com linha-guia, sem cruzar traço nem borda cardíaca.
+    kerley = [(234, 53.7), (242, 53.8), (250, 54.1), (258, 54.6), (266, 55.4)]   # (y, parede interna)
+    vasos_sup = ["M114 160 C 106 136 98 118 88 100", "M106 136 C 98 126 88 120 78 118", "M110 150 C 108 128 108 110 112 94"]
+    vasos_inf = ["M112 180 C 100 200 90 220 82 240", "M116 184 C 110 210 106 230 104 250"]
+    def espelho(d):     # reflete x em torno da linha média (x = 150): "M114 160 C ..." -> "M186 160 C ..."
+        tk = d.replace("M", "M ").replace("C", "C ").split()
+        out, par = [], 0
+        for t in tk:
+            if t.isalpha(): out.append(t); continue
+            out.append(f"{300 - float(t):g}" if par % 2 == 0 else t); par += 1
+        return " ".join(out).replace("M ", "M")
     F["rx-congestao"] = wrap("rx-congestao", "Congestão pulmonar",
         '<path d="M126 154 C 120 200 126 240 142 262 C 168 278 204 272 212 256 C 202 220 194 184 186 156 C 180 140 156 136 142 142 C 132 147 127 148 126 154 Z" fill="#F1F1EC" stroke="#5E646B" stroke-width="1.8"/>'
-        + "".join(f'<path d="M{70+i*8} {250+ (i%3)*8} h16" stroke="#0B6A72" stroke-width="1.8"/>' for i in range(6))
-        + "".join(f'<path d="M{216-i*8} {250+ (i%3)*8} h16" stroke="#0B6A72" stroke-width="1.8"/>' for i in range(6))
         + '<ellipse cx="118" cy="168" rx="20" ry="12" fill="#E3F1F1" opacity=".8"/>'
         '<ellipse cx="182" cy="168" rx="20" ry="12" fill="#E3F1F1" opacity=".8"/>'
-        '<text class="k" x="16" y="262">linhas B de Kerley</text>'
-        '<text class="k" x="176" y="150">infiltrado peri-hilar</text>'
-        '<text class="k" x="40" y="216">área cardíaca aumentada</text>',
-        "Cardiomegalia, redistribuição para os ápices, infiltrado peri-hilar em asa de borboleta e linhas B de Kerley nas bases.")
+        + "".join(f'<path d="{d}" stroke="#5E646B" stroke-width="2.8" stroke-linecap="round" fill="none"/>'
+                  f'<path d="{espelho(d)}" stroke="#5E646B" stroke-width="2.8" stroke-linecap="round" fill="none"/>' for d in vasos_sup)
+        + "".join(f'<path d="{d}" stroke="#5E646B" stroke-width="1" fill="none"/>' for d in vasos_inf)
+        + '<path d="M196 180 C 202 190 208 198 212 204" stroke="#5E646B" stroke-width="1" fill="none"/>'
+        + "".join(f'<path d="M{x:g} {y} h13 M{300-x:g} {y} h-13" stroke="#0B6A72" stroke-width="1.8"/>' for y, x in kerley)
+        + '<g stroke="#5E646B" stroke-width=".8" fill="none">'
+          '<path d="M262 100 H226 L 214 102"/><path d="M262 158 H230 L 196 162"/><path d="M262 222 H205"/></g>'
+        '<text class="k" x="266" y="98">redistribuição</text><text class="k" x="266" y="111">para os ápices</text>'
+        '<text class="k" x="266" y="162">infiltrado peri-hilar</text>'
+        '<text class="k" x="266" y="219">área cardíaca</text><text class="k" x="266" y="232">aumentada</text>'
+        '<text class="k" x="256" y="250">linhas B</text><text class="k" x="256" y="263">de Kerley</text>',
+        "Cardiomegalia, redistribuição para os ápices, infiltrado peri-hilar em asa de borboleta e linhas B de Kerley nas bases.",
+        w=392)
 
     F["rx-consolidacao"] = wrap("rx-consolidacao", "Consolidação lobar",
         coracao() + '<path d="M60 150 q40 -14 82 -6 l-4 76 q-44 8 -84 -4 z" fill="#E3F1F1" stroke="#0B6A72" stroke-width="1.8"/>'
@@ -729,31 +749,47 @@ def radiologia():
                 f'<rect width="{w}" height="{h}" fill="#FFFFFF"/>'
                 f'<text class="t" x="10" y="20">{titulo}</text>{corpo}</svg>', legenda)
 
-    praia = ('<rect x="16" y="32" width="288" height="180" fill="#111"/>'
-             '<rect x="16" y="32" width="288" height="52" fill="#2A2A2A"/>'
-             + "".join(f'<path d="M16 {40+i*10}h288" stroke="#666" stroke-width="1.3"/>' for i in range(5))
-             + '<path d="M16 88h288" stroke="#EEE" stroke-width="2.4"/>'
-             + "".join(f'<circle cx="{20+ (i*7)%286}" cy="{96+(i*13)%110}" r="1.4" fill="#BBB" opacity=".8"/>' for i in range(220))
-             + '<text class="k" x="24" y="56" fill="#EEE">linhas paralelas (parede)</text>'
-             '<text class="k" x="24" y="120" fill="#EEE">areia (pulmão deslizando)</text>'
-             '<text class="k" x="200" y="84" fill="#EEE">linha pleural</text>')
-    F["us-praia"] = us("us-praia", "Ultrassom pulmonar em modo M — sinal da praia", praia,
-        "Deslizamento pleural presente: acima da pleura, linhas paralelas; abaixo, aspecto granular. Afasta pneumotórax naquele ponto.")
-
-    codigo = ('<rect x="16" y="32" width="288" height="180" fill="#111"/>'
-              + "".join(f'<path d="M16 {40+i*10}h288" stroke="#666" stroke-width="1.3"/>' for i in range(17))
-              + '<path d="M16 88h288" stroke="#EEE" stroke-width="2.4"/>'
-              + '<text class="k" x="24" y="140" fill="#EEE">linhas paralelas até o fim</text>'
-              '<text class="k" x="200" y="84" fill="#EEE">linha pleural</text>')
-    F["us-codigo-barras"] = us("us-codigo-barras", "Ultrassom pulmonar em modo M — código de barras", codigo,
-        "Sem deslizamento pleural: as linhas paralelas continuam abaixo da pleura. Sugere pneumotórax — confirme achando o ponto pulmonar.")
+    # 23/09/2026: "praia" e "código de barras" viraram UMA figura comparativa. As duas antigas
+    # tinham rótulo verde-escuro sobre preto (ilegível), título com travessão vazando do quadro e
+    # nunca foram usadas; a leitura de derrame/pneumotórax usava uma foto parada de ultrassom, que
+    # não mostra deslizamento e ainda trazia artefatos verticais que se confundem com linha B.
+    def modo_m(x0, deslizando):
+        g = [f'<rect x="{x0}" y="56" width="260" height="196" rx="4" fill="#101010"/>']
+        for i in range(6):   # parede torácica: imóvel, linhas horizontais nas duas situações
+            g.append(f'<path d="M{x0} {64+i*9}h260" stroke="#{"8A8A8A" if i%2 else "5E5E5E"}" stroke-width="{1.6 if i%3 else 1.1}"/>')
+        g.append(f'<path d="M{x0} 118h260" stroke="#F2F2F2" stroke-width="3"/>')
+        if deslizando:       # areia: pontos espalhados, sem linhas
+            for i in range(420):
+                cx = x0 + 4 + (i * 97 + (i * i) % 23) % 252
+                cy = 126 + (i * 61 + (i * 7) % 13) % 120
+                g.append(f'<circle cx="{cx}" cy="{cy}" r="{1.3 + (i % 3) * .35:.2f}" fill="#B8B8B8" opacity="{.45 + (i % 4) * .12:.2f}"/>')
+        else:                # código de barras: as linhas seguem abaixo da pleura
+            for i in range(14):
+                g.append(f'<path d="M{x0} {128+i*8.6:.1f}h260" stroke="#{"8A8A8A" if i%2 else "5E5E5E"}" stroke-width="{1.6 if i%3 else 1.1}"/>')
+        return "".join(g)
+    mm = ('<rect width="640" height="300" fill="#FFFFFF"/>'
+          '<text class="t" x="16" y="30">Modo M do ultrassom pulmonar: o pulmão desliza ou não</text>'
+          '<text class="n" x="16" y="94">parede</text><text class="n" x="16" y="122">pleura</text>'
+          '<text class="n" x="16" y="190">pulmão</text>'
+          '<path d="M66 118h14" stroke="#23272E" stroke-width="1.2"/>'
+          + modo_m(88, True) + modo_m(366, False) +
+          '<text class="v" x="218" y="276" text-anchor="middle">Normal: sinal da praia</text>'
+          '<text class="r" x="496" y="276" text-anchor="middle">Pneumotórax: código de barras</text>')
+    F["us-modo-m"] = ("Modo M: sinal da praia e código de barras",
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" '
+        'aria-label="Modo M do ultrassom pulmonar: sinal da praia no pulmão normal e código de barras no pneumotórax">'
+        '<style>text{font-family:-apple-system,system-ui,sans-serif}.t{font-size:15px;font-weight:600;fill:#23272E}'
+        '.n{font-size:12.5px;font-weight:600;fill:#23272E}.v{font-size:13.5px;font-weight:700;fill:#1D7A46}'
+        '.r{font-size:13.5px;font-weight:700;fill:#B23A33}</style>' + mm + '</svg>',
+        "Acima da pleura, linhas paralelas nas duas situações. Abaixo, aspecto granular quando o pulmão desliza "
+        "(praia) e as mesmas linhas paralelas quando não desliza (código de barras).")
 
     linhasb = ('<path d="M160 34 L36 214 H284 Z" fill="#111"/>'
                '<path d="M60 78 h200" stroke="#EEE" stroke-width="2.6"/>'
                + "".join(f'<path d="M160 40 L{78+i*32} 214" stroke="#DDD" stroke-width="4" opacity=".75"/>' for i in range(5))
                + '<text class="k" x="196" y="70" fill="#EEE">linha pleural</text>'
                '<text class="k" x="176" y="150" fill="#EEE">linhas B</text>')
-    F["us-linhas-b"] = us("us-linhas-b", "Ultrassom pulmonar — linhas B", linhasb,
+    F["us-linhas-b"] = us("us-linhas-b", "Ultrassom pulmonar: linhas B", linhasb,
         "Artefatos verticais que partem da pleura, apagam as linhas A e acompanham o deslizamento. Três ou mais num espaço = síndrome intersticial.")
     return F
 
@@ -886,21 +922,21 @@ def radiologia_torax():
 
     # 3. PA x AP e índice cardiotorácico -----------------------------------------------------------
     p = []
-    p.append(f'<g transform="translate(22,44)"><rect width="266" height="152" rx="10" fill="none" stroke="{CL}"/>'
-             f'<text class="n" x="12" y="22">PA — de pé, tubo atrás</text>'
+    p.append(f'<g transform="translate(22,44)"><rect width="266" height="172" rx="10" fill="none" stroke="{CL}"/>'
+             f'<text class="n" x="12" y="22">PA: de pé, tubo atrás</text>'
              f'<circle cx="30" cy="76" r="7" fill="{INK2}"/>'
              f'<path d="M38 76 L 190 46 M38 76 L190 128" stroke="{INK2}" stroke-width="1.1" stroke-dasharray="4 3"/>'
              f'<rect x="190" y="36" width="8" height="102" fill="#EFEFEA" stroke="{INK2}"/>'
              f'<ellipse cx="158" cy="88" rx="24" ry="17" fill="#E3F1F1" stroke="{BR}" stroke-width="1.8"/>'
-             f'<text class="k" x="12" y="140">coração encostado no filme → tamanho real</text></g>')
-    p.append(f'<g transform="translate(310,44)"><rect width="290" height="152" rx="10" fill="none" stroke="{CL}"/>'
-             f'<text class="n" x="12" y="22">AP — no leito, tubo à frente</text>'
+             f'<text class="k" x="12" y="162">coração encostado no filme → tamanho real</text></g>')
+    p.append(f'<g transform="translate(310,44)"><rect width="290" height="172" rx="10" fill="none" stroke="{CL}"/>'
+             f'<text class="n" x="12" y="22">AP: no leito, tubo à frente</text>'
              f'<circle cx="30" cy="76" r="7" fill="{INK2}"/>'
              f'<path d="M38 76 L 214 30 M38 76 L214 140" stroke="{INK2}" stroke-width="1.1" stroke-dasharray="4 3"/>'
              f'<rect x="214" y="24" width="8" height="122" fill="#EFEFEA" stroke="{INK2}"/>'
              f'<ellipse cx="112" cy="86" rx="18" ry="13" fill="#E3F1F1" stroke="{BR}" stroke-width="1.8"/>'
              f'<ellipse cx="186" cy="84" rx="30" ry="22" fill="none" stroke="{RED}" stroke-width="1.8" stroke-dasharray="4 3"/>'
-             f'<text class="r" x="12" y="140">coração longe do filme → projetado maior</text></g>')
+             f'<text class="r" x="12" y="162">coração longe do filme → projetado maior</text></g>')
     p.append(f'<g transform="translate(40,232)">'
              f'<path d="M0 40 H250" stroke="{INK2}" stroke-width="1.4"/>'
              f'<path d="M0 28 V54 M250 28 V54" stroke="{INK2}" stroke-width="2"/>'
@@ -917,12 +953,15 @@ def radiologia_torax():
 
     # 4. Lobos: PA e perfil --------------------------------------------------------------------------
     l = [torax(18, 46, 1.14, dentro=(
-        f'<path d="M25 106 C 62 122 88 132 97 136" fill="none" stroke="{BR}" stroke-width="2" stroke-dasharray="5 4"/>'
-        f'<path d="M33 156 C 60 146 82 140 97 138" fill="none" stroke="{BR}" stroke-width="2" stroke-dasharray="5 4"/>'
-        f'<path d="M183 118 C 154 136 128 148 114 154" fill="none" stroke="{BR}" stroke-width="2" stroke-dasharray="5 4"/>'
-        f'<text class="k" x="42" y="74">LSD</text><text class="k" x="34" y="132">LM</text>'
-        f'<text class="k" x="36" y="180">LID</text>'
-        f'<text class="k" x="150" y="78">LSE</text><text class="k" x="152" y="182">LIE</text>'
+        f'<path d="M26 106 C 40 107 56 108 70 110" fill="none" stroke="{BR}" stroke-width="2" stroke-dasharray="5 4"/>'
+        f'<path d="M28 166 C 50 158 72 150 89 146" fill="none" stroke="{BR}" stroke-width="2" stroke-dasharray="5 4"/>'
+        f'<path d="M138 122 C 158 124 174 136 182 150 C 178 164 168 176 156 184 C 150 162 144 142 138 122 Z" '
+        f'fill="{BR}" fill-opacity=".14" stroke="{BR}" stroke-opacity=".7" stroke-width="1"/>'
+        f'<path d="M176 160 L 196 170" stroke="{INK2}" stroke-width=".8"/>'
+        f'<text class="k" x="198" y="176">língula</text>'
+        f'<text class="k" x="42" y="74">LSD</text><text class="k" x="34" y="134">LM</text>'
+        f'<text class="k" x="36" y="186">LID</text>'
+        f'<text class="k" x="150" y="78">LSE</text><text class="k" x="165" y="194">LIE</text>'
         f'<text class="l" x="14" y="240">frente (PA)</text>'))]
     l.append(f'<g transform="translate(316,46) scale(1.14)">'
              f'<path d="M34 16 C 10 44 6 106 12 158 C 16 184 22 192 28 196" fill="none" stroke="{INK2}" stroke-width="1.5"/>'
@@ -935,7 +974,7 @@ def radiologia_torax():
              f'<text class="l" x="10" y="232">perfil direito</text></g>')
     l.append(txt(16, 344, "A cissura horizontal só existe à direita. É por isso que o lobo médio é a chave do sinal da silhueta: "
                           "é o único que encosta na borda direita do coração.", "l", larg=98))
-    F["rx-lobos"] = moldura("Onde cada lobo encosta — a base do sinal da silhueta", "".join(l),
+    F["rx-lobos"] = moldura("Onde cada lobo encosta: a base do sinal da silhueta", "".join(l),
         "Na incidência de frente os lobos se sobrepõem; o perfil os separa. Guardar o que cada lobo toca vale mais do que decorar o desenho das cissuras.")
 
     # 5. Sinal da silhueta ----------------------------------------------------------------------------
@@ -946,7 +985,7 @@ def radiologia_torax():
     s.append(f'<text class="n" x="28" y="320">Lobo médio: encosta no coração</text>')
     s.append(txt(28, 338, "A opacidade apaga a borda direita do coração; a cúpula continua nítida.", "l", larg=44))
     s.append(torax(330, 46, 1.10, dentro=(
-        f'<path d="M34 152 C 60 148 88 154 102 164 L 98 192 C 64 200 38 190 30 180 Z" fill="{BR}" opacity=".26"/>'
+        f'<path d="M22 150 C 52 144 82 150 96 162 L 104 192 C 84 216 46 212 23 190 C 21 176 21 162 22 150 Z" fill="{BR}" opacity=".26"/>'
         f'<path d="M92 118 C 88 152 94 186 106 200" fill="none" stroke="{OK}" stroke-width="3.2"/>'
         f'<path d="M23 190 C 46 212 84 216 104 192" fill="none" stroke="{RED}" stroke-width="3.2" stroke-dasharray="4 4"/>')))
     s.append(f'<text class="n" x="334" y="320">Lobo inferior: encosta no diafragma</text>')
@@ -966,21 +1005,23 @@ def radiologia_torax():
         f'<path d="M105 18 C 100 62 94 104 90 144" stroke="{RED}" stroke-width="2.8" fill="none"/>'
         f'<path d="M23 172 C 46 194 84 198 104 176" stroke="{RED}" stroke-width="2.8" fill="none"/>'
         + "".join(f'<path d="M{36+i*2} {58+i*17} q {58-i*3} {-14-i} {116-i*6} 0" fill="none" stroke="{RED}" stroke-width="1.5" opacity=".65"/>' for i in range(5))
-        + f'<text class="r" x="6" y="52">arcos aproximados</text>' 
-        + f'<text class="r" x="112" y="46">traqueia puxada</text>'
+        + f'<text class="r" x="30" y="60" text-anchor="end">arcos</text>'
+        + f'<text class="r" x="30" y="73" text-anchor="end">aproximados</text>'
+        + f'<text class="r" x="116" y="8">traqueia puxada</text>'
         f'<text class="r" x="6" y="214">cúpula elevada</text>')))
     a.append(f'<text class="n" x="334" y="320">Atelectasia: perda de volume</text>')
-    a.append(txt(334, 338, "Tudo é atraído PARA a opacidade — traqueia, cissura, cúpula, hilo e arcos.", "l", larg=46))
-    F["rx-consolidacao-atelectasia"] = moldura("Opacidade que empurra × opacidade que puxa", "".join(a),
+    a.append(txt(334, 338, "Tudo é atraído PARA a opacidade: traqueia, cissura, cúpula, hilo e arcos.", "l", larg=46))
+    F["rx-consolidacao-atelectasia"] = moldura("Consolidação não desloca; atelectasia puxa", "".join(a),
         "A pergunta que separa as duas em cinco segundos: para onde foram as estruturas móveis? Atelectasia puxa; derrame volumoso e massa empurram; consolidação não desloca nada.")
 
     # 7. S de Golden -------------------------------------------------------------------------------------
     g = [torax(30, 46, 1.20, dentro=(
-        f'<path d="M32 56 C 62 48 88 56 100 72 C 96 92 88 104 76 112 C 58 122 38 112 28 100 Z" fill="{BR}" opacity=".28"/>'
+        f'<path d="M28 100 C 40 84 56 82 68 94 C 78 104 88 106 100 72 L 97 20 C 66 22 38 54 28 100 Z" fill="{BR}" opacity=".28"/>'
         f'<path d="M28 100 C 40 84 56 82 68 94 C 78 104 88 106 100 72" fill="none" stroke="{RED}" stroke-width="3.4"/>'
         f'<circle cx="92" cy="86" r="14" fill="#EFEFEA" stroke="{RED}" stroke-width="2.4"/>'
         f'<text class="r" x="112" y="90">massa</text>'
-        f'<text class="l" x="30" y="140">lobo colapsado</text>'))]
+        f'<text class="l" x="58" y="50" style="fill:{INK}">lobo</text>'
+        f'<text class="l" x="45" y="62" style="fill:{INK}">colapsado</text>'))]
     g.append(f'<text class="n" x="330" y="86">A cissura do lobo colapsado faz um S,</text>')
     g.append(f'<text class="n" x="330" y="104">não uma linha reta</text>')
     g.append(txt(330, 130, "A parte côncava é o colapso puxando; a parte convexa é a massa que obstrui o "
@@ -995,7 +1036,7 @@ def radiologia_torax():
     # 8. Volume do derrame -----------------------------------------------------------------------------
     d = []
     for i, (inc, vol, nota) in enumerate(
-            [("perfil", "≈ 50 mL", "apaga o seio costofrênico posterior — só o perfil mostra"),
+            [("perfil", "≈ 50 mL", "apaga o seio costofrênico posterior: só o perfil mostra"),
              ("PA", "≈ 200 mL", "apaga o seio costofrênico lateral, já com menisco"),
              ("PA", "≈ 500 mL", "o menisco sobe e apaga a cúpula diafragmática")]):
         x = 22 + i * 200
@@ -1021,24 +1062,27 @@ def radiologia_torax():
         d.append(f'<g transform="translate({x},44) scale(.78)">{corpo}</g>')
         d.append(f'<text class="n" x="{x+4}" y="244">{vol} · {inc}</text>')
         d.append(txt(x + 4, 262, nota, "l", larg=30))
-    d.append(txt(16, 344, "Regra de Blackmore: cerca de 50 mL para aparecer no perfil, 200 mL na PA e 500 mL para apagar a "
+    d.append(txt(16, 344, "Volumes aproximados: cerca de 50 mL para aparecer no perfil, 200 mL na PA e 500 mL para apagar a "
                           "cúpula. Abaixo disso, só ultrassom ou tomografia enxergam.", "l", larg=98))
     F["rx-derrame-volume"] = moldura("Quanto líquido cada incidência enxerga", "".join(d),
         "Derrame pequeno não é derrame ausente: a PA de pé só o mostra a partir de cerca de 200 mL, enquanto o ultrassom à beira do leito detecta poucos mililitros e ainda guia a punção.")
 
     # 9. Pneumotórax de pé x deitado ---------------------------------------------------------------------
     n = [torax(24, 46, 1.10, dentro=(
-        f'<path d="M74 44 C 48 78 42 130 46 172 L 26 174 C 20 128 26 76 50 40 Z" fill="{RED}" opacity=".10"/>'
+        f'<path d="M74 44 C 48 78 42 130 46 172 L 22 172 C 21 150 22 124 26 104 L 29 89.5 L 33.5 76 L 39 64 '
+        f'L 46 53 L 54 43 L 62.6 34 L 72 27 Z" fill="{RED}" opacity=".10"/>'
         f'<path d="M74 44 C 48 78 42 130 46 172" fill="none" stroke="{RED}" stroke-width="3"/>'
         f'<text class="r" x="80" y="40">linha pleural</text>'
-        f'<text class="l" x="14" y="120">ar</text>'))]
+        f'<text class="r" x="28" y="120">ar</text>'))]
     n.append(f'<text class="n" x="28" y="320">De pé: o ar sobe para o ápice</text>')
     n.append(txt(28, 338, "Linha pleural fina paralela à parede, sem trama vascular além dela.", "l", larg=46))
     n.append(torax(330, 46, 1.10, dentro=(
         f'<path d="M23 190 C 38 208 54 214 68 214 L 70 196 C 52 196 36 188 25 178 Z" fill="{RED}" opacity=".18"/>'
         f'<path d="M23 190 C 38 210 56 216 70 215" fill="none" stroke="{RED}" stroke-width="3.2"/>'
         f'<text class="r" x="34" y="232">sulco profundo</text>'
-        f'<text class="l" x="118" y="56">ápice sem linha</text>')))
+        f'<path d="M36 22 L 60 44" stroke="{INK2}" stroke-width=".8"/>'
+        f'<text class="l" x="34" y="14" text-anchor="end">ápice</text>'
+        f'<text class="l" x="34" y="26" text-anchor="end">sem linha</text>')))
     n.append(f'<text class="n" x="334" y="320">Deitado: o ar vai para a base anterior</text>')
     n.append(txt(334, 338, "Sinal do sulco profundo: seio costofrênico escuro e alongado, sem linha apical.", "l", larg=46))
     F["rx-pneumotorax-deitado"] = moldura("Pneumotórax: onde o ar aparece muda com a posição", "".join(n),
@@ -1055,18 +1099,20 @@ def radiologia_torax():
     pp.append(txt(316, 168, "Sentar o paciente por 5 a 10 minutos antes do disparo.", "k", larg=44))
     pp.append(f'<text class="a" x="316" y="212">Não confundir com o sinal de Chilaiditi:</text>')
     pp.append(txt(316, 230, "alça de cólon interposta entre fígado e diafragma, com haustrações visíveis dentro do ar.", "l", larg=44))
-    pp.append(txt(16, 344, "Ausência de ar livre na radiografia não exclui perfuração — a tomografia é bem mais sensível.", "l", larg=98))
+    pp.append(txt(16, 344, "Ausência de ar livre na radiografia não exclui perfuração; a tomografia é bem mais sensível.", "l", larg=98))
     F["rx-pneumoperitonio"] = moldura("Ar livre sob o diafragma", "".join(pp),
         "Faixa de ar entre a cúpula e o fígado, com o diafragma nitidamente desenhado dos dois lados. Só aparece com o paciente vertical, e sua ausência não afasta perfuração.")
 
     # 11. Pontos cegos ------------------------------------------------------------------------------------------
-    zonas = [(105, 40, 40, 20, "Ápices", "atrás da clavícula e do primeiro arco"),
-             (128, 152, 30, 36, "Região retrocardíaca", "o coração esconde o lobo inferior esquerdo"),
-             (60, 196, 42, 16, "Abaixo das cúpulas", "bases pulmonares, câmara gástrica, ar livre"),
-             (82, 96, 26, 18, "Hilos", "massa e linfonodo somem no emaranhado vascular"),
-             (176, 124, 18, 46, "Parede e partes moles", "pneumotórax fino, mama, enfisema de subcutâneo")]
+    zonas = [((76, 134), 48, 18, 14, "Ápices", "atrás da clavícula e do primeiro arco"),
+             ((128,), 152, 30, 36, "Região retrocardíaca", "o coração esconde o lobo inferior esquerdo"),
+             ((60,), 196, 42, 16, "Abaixo das cúpulas", "bases pulmonares, câmara gástrica, ar livre"),
+             ((76, 140), 102, 13, 17, "Hilos", "massa e linfonodo somem no emaranhado vascular"),
+             ((176,), 124, 18, 46, "Parede e partes moles", "pneumotórax fino, mama, enfisema de subcutâneo")]
+    # 23/09: ápices e hilos são PARES (antes uma elipse só, sobre a traqueia)
     corpo_b = "".join(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="{AMB}" opacity=".16" '
-                      f'stroke="{AMB}" stroke-width="1.4" stroke-dasharray="4 3"/>' for cx, cy, rx, ry, _, _ in zonas)
+                      f'stroke="{AMB}" stroke-width="1.4" stroke-dasharray="4 3"/>'
+                      for xs, cy, rx, ry, _, _ in zonas for cx in xs)
     b = [torax(24, 46, 1.16, dentro=corpo_b)]
     for i, (_, _, _, _, nome, sub) in enumerate(zonas):
         yy = 66 + i * 56
@@ -1079,18 +1125,24 @@ def radiologia_torax():
         "Depois do ABCDE, uma segunda passada obrigatória por ápices, região retrocardíaca, abaixo das cúpulas, hilos e parede torácica.")
 
     # 12. Tubos e cateteres --------------------------------------------------------------------------------------
+    # 23/09: CVC agora desce pela borda DIREITA do mediastino (esquerda da imagem) até a junção
+    # cavoatrial; SNG cruza o diafragma e termina sob a cúpula ESQUERDA (direita da imagem); dreno
+    # de tórax desenhado de fato, em roxo, porque o vermelho antigo coincidia com os brônquios.
+    DRN = "#6B4FA0"
     t = [torax(24, 46, 1.20, dentro=(
         f'<path d="M105 16 V62" stroke="{BR}" stroke-width="3.6"/>'
         f'<path d="M100 62 h10" stroke="{BR}" stroke-width="3.6"/>'
-        f'<path d="M105 72 L80 90 M105 72 L131 88" stroke="{RED}" stroke-width="1.6" opacity=".5"/>'
-        f'<path d="M113 16 C 118 62 122 112 118 156 C 116 178 113 190 111 200" stroke="{AMB}" stroke-width="2.6" fill="none"/>'
-        f'<circle cx="111" cy="202" r="3.6" fill="{AMB}"/>'
-        f'<path d="M152 38 C 142 60 130 78 122 92" stroke="{OK}" stroke-width="2.6" fill="none"/>'
-        f'<circle cx="122" cy="92" r="3.6" fill="{OK}"/>'))]
+        f'<path d="M113 16 C 116 70 112 150 110 198 C 112 216 128 230 146 234" stroke="{AMB}" stroke-width="2.6" fill="none"/>'
+        f'<circle cx="146" cy="234" r="3.6" fill="{AMB}"/>'
+        f'<path d="M36 36 C 60 40 80 46 88 58 C 91 72 91 92 90 108" stroke="{OK}" stroke-width="2.6" fill="none"/>'
+        f'<circle cx="90" cy="110" r="3.6" fill="{OK}"/>'
+        f'<path d="M208 154 L 188 146 C 178 120 164 82 142 52" stroke="{DRN}" stroke-width="3.4" fill="none"/>'
+        + "".join(f'<circle cx="{x}" cy="{y}" r="1.3" fill="#FFFFFF"/>' for x, y in ((180, 122), (170, 96), (158, 72)))
+        + f'<circle cx="142" cy="52" r="3.6" fill="{DRN}"/>'))]
     linhas = [(BR, "Tubo orotraqueal", "ponta a 5 ± 2 cm da carina, com o pescoço em posição neutra; flexão e extensão movem a ponta cerca de 2 cm"),
               (AMB, "Sonda nasogástrica", "desce na linha média, corta a carina, cruza o diafragma e a ponta fica abaixo da cúpula esquerda"),
               (OK, "Cateter venoso central", "ponta no terço distal da veia cava superior, perto da junção com o átrio direito"),
-              (RED, "Dreno de tórax", "todos os orifícios laterais dentro da pleura; ar sobe, líquido desce")]
+              (DRN, "Dreno de tórax", "no pneumotórax, ponta no ápice, anterior; todos os orifícios laterais dentro da pleura")]
     for i, (cor, nome, sub) in enumerate(linhas):
         yy = 66 + i * 70
         t.append(f'<path d="M300 {yy-9} h24" stroke="{cor}" stroke-width="3.6"/>')
@@ -1118,17 +1170,20 @@ def esquemas():
     for i in range(6): p.append(f'<path d="M70 {60+i*36}H520"/>')
     for i in range(7): p.append(f'<path d="M{70+i*75} 60V240"/>')
     p.append('</g>')
-    p.append('<path d="M70 240 C 150 236, 190 200, 235 150 C 280 100, 340 78, 430 70 C 470 67, 500 66, 520 66" fill="none" stroke="#0B6A72" stroke-width="2.6"/>')
-    p.append('<path d="M235 150 L235 240" stroke="#C6453D" stroke-width="1.4" stroke-dasharray="4 3"/>')
-    p.append('<path d="M430 70 L430 240" stroke="#C6453D" stroke-width="1.4" stroke-dasharray="4 3"/>')
-    p.append('<text class="k" x="196" y="256">ponto de inflexão inferior</text>')
-    p.append('<text class="k" x="392" y="256">ponto de inflexão superior</text>')
-    p.append('<text class="l" x="70" y="276">PEEP abaixo dele: colapso e reabertura a cada ciclo</text>')
-    p.append('<text class="l" x="70" y="292">Pressão de platô acima dele: hiperdistensão do alvéolo aberto</text>')
+    # 23/09/2026: o ponto de inflexão inferior estava no meio da subida; ele é o JOELHO de baixo, onde a
+    # complacência aumenta de repente (recrutamento). A curva agora tem dois joelhos nítidos e um trecho reto.
+    p.append('<path d="M70 236 C 120 235, 158 228, 178 208 L 362 94 C 388 78, 420 70, 460 67 C 490 65, 510 65, 520 65" fill="none" stroke="#0B6A72" stroke-width="2.6"/>')
+    p.append('<circle cx="178" cy="208" r="4.5" fill="#C6453D"/><circle cx="380" cy="82" r="4.5" fill="#C6453D"/>')
+    p.append('<path d="M178 208 L178 240" stroke="#C6453D" stroke-width="1.4" stroke-dasharray="4 3"/>')
+    p.append('<path d="M380 82 L380 240" stroke="#C6453D" stroke-width="1.4" stroke-dasharray="4 3"/>')
+    p.append('<text class="k" x="188" y="228">ponto de inflexão inferior</text>')
+    p.append('<text class="k" x="390" y="104">ponto de inflexão superior</text>')
+    p.append('<text class="l" x="295" y="258" text-anchor="middle">pressão de vias aéreas</text>')
     p.append('<text class="l" x="16" y="150" transform="rotate(-90 16 150)">volume</text>')
-    p.append('<text class="l" x="280" y="316">pressão de vias aéreas</text>')
+    p.append('<text class="l" x="70" y="284">PEEP abaixo do inferior: colapso e reabertura a cada ciclo.</text>')
+    p.append('<text class="l" x="70" y="302">Platô acima do superior: hiperdistensão do alvéolo já aberto.</text>')
     F["fig-curva-pv"] = ("Curva pressão-volume do sistema respiratório",
-        cx(560, 330, "Curva pressão-volume: onde a PEEP e o platô precisam ficar", "".join(p),
+        cx(560, 318, "Curva pressão-volume: onde a PEEP e o platô precisam ficar", "".join(p),
            "Curva pressão-volume com pontos de inflexão inferior e superior"))
 
     # Capnografia
@@ -1140,7 +1195,8 @@ def esquemas():
     c.append('<text class="k" x="250" y="96">platô alveolar</text>')
     c.append('<text class="k" x="300" y="200">queda inspiratória</text>')
     c.append('<text class="l" x="16" y="150" transform="rotate(-90 16 150)">CO₂ expirado</text>')
-    c.append('<text class="l" x="70" y="260">O valor do fim do platô é o CO₂ expirado que se lê no monitor. Traçado achatado com via aérea correta = fluxo pulmonar baixo.</text>')
+    c.append('<text class="l" x="70" y="252">O valor do fim do platô é o CO₂ expirado que se lê no monitor.</text>')
+    c.append('<text class="l" x="70" y="270">Traçado achatado com via aérea correta = fluxo pulmonar baixo.</text>')
     F["fig-capnografia"] = ("Capnografia de onda normal",
         cx(560, 280, "Capnografia: as quatro fases de uma onda normal", "".join(c),
            "Curva de capnografia com fase de subida, platô alveolar e queda inspiratória"))
@@ -1158,10 +1214,12 @@ def esquemas():
     t.append('<text class="l" x="196" y="192">repetir em 3 h · ECG · eco</text>')
     t.append('<path d="M160 114 L250 150" stroke="#5E646B" stroke-width="1.4" marker-end="url(#a)"/>')
     t.append('<path d="M400 114 L320 150" stroke="#5E646B" stroke-width="1.4"/>')
-    t.append('<text class="l" x="60" y="240">Variação entre as duas medidas = lesão AGUDA. Valor alto e estável, sem variação = lesão crônica.</text>')
-    t.append('<text class="l" x="60" y="258">Infarto exige lesão aguda MAIS evidência de isquemia: sintoma, ECG, imagem ou angiografia.</text>')
+    # 23/09/2026: a 1ª linha passava da borda (texto de SVG não quebra sozinho); agora em 3 linhas
+    t.append('<text class="l" x="60" y="238">Variação entre as duas medidas = lesão AGUDA.</text>')
+    t.append('<text class="l" x="60" y="256">Valor alto e estável, sem variação = lesão crônica.</text>')
+    t.append('<text class="l" x="60" y="274">Infarto exige lesão aguda MAIS evidência de isquemia: sintoma, ECG, imagem ou angiografia.</text>')
     F["fig-troponina"] = ("Troponina ultrassensível no caminho 0/1 h",
-        cx(560, 280, "Troponina ultrassensível: o que cada resultado decide", "".join(t),
+        cx(560, 296, "Troponina ultrassensível: o que cada resultado decide", "".join(t),
            "Esquema do algoritmo 0/1 hora da troponina ultrassensível"))
     return F
 

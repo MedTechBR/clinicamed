@@ -44,7 +44,8 @@ saidas = {
     "foto-us-normal": painel("foto-us-normal", [("us-095", "")], larg=1000),
     "foto-us-derrame": painel("foto-us-derrame", [("us-101", "")], larg=1000),
     "foto-us-linhas-b": painel("foto-us-linhas-b", [("us-096", "")], larg=620),
-    "foto-us-pneumotorax": painel("foto-us-pneumotorax", [("us-104", "")], larg=760),
+    # "foto-us-pneumotorax" (us-104) saiu em 23/09/2026: imagem parada não mostra deslizamento, os
+    # artefatos verticais confundiam com linha B e havia o logotipo do aparelho. Usar us-modo-m.svg.
     "foto-us-linha-pleural": painel("foto-us-linha-pleural", [("us-091", "")], larg=560),
 }
 tot = 0

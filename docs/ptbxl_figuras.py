@@ -9,6 +9,9 @@ nenhum número medido por ela vai para legenda.
 Atribuição exigida pela CC BY 4.0 (já impressa no rodapé de cada figura e no rodapé da leitura):
   Wagner P, et al. PTB-XL, a large publicly available electrocardiography dataset.
   Sci Data 2020;7:154. · Goldberger AL, et al. Circulation 2000;101(23):e215.
+  Base "ecg-arrhythmia" (Mobitz I e BAVT): Zheng J, Guo H, Chu H. A large scale 12-lead
+  electrocardiogram database for arrhythmia study (v1.0.0). PhysioNet 2022, CC BY 4.0.
+  doi:10.13026/wgex-er52 · Zheng J, et al. Sci Data 2020;7:48.
 
 Uso: python3 docs/ptbxl_figuras.py
 """
@@ -27,10 +30,13 @@ FIGS = [
     ("real-normal",    "ptbxl", "00014_hr", "12", None, 0, "Eletrocardiograma normal", "ritmo sinusal · P antes de cada QRS"),
     ("real-sae",       "ptbxl", "01328_hr", "12", None, 0, "Sobrecarga atrial esquerda", "P entalhada em DII · componente negativo em V1"),
     ("real-sad",       "ptbxl", "03269_hr", "12", None, 0, "Sobrecarga atrial direita", "P apiculada em DII, DIII e aVF"),
-    ("real-hve",       "ptbxl", "00138_hr", "12", None, 0, "Sobrecarga ventricular esquerda", "voltagem alta com padrão de strain"),
-    ("real-bav1",      "ptbxl", "00209_hr", "tira", "II", 0, "Bloqueio AV de primeiro grau", "todo P conduz · PR longo e fixo"),
-    ("real-mobitz1",   "ptbxl", "01222_hr", "tira", "II", 0, "Bloqueio AV de segundo grau, Mobitz I", "laudo: bloqueio de 2º grau tipo Wenckebach"),
-    ("real-bavt",      "ptbxl", "00959_hr", "tira", "V5", 0, "Bloqueio AV total", "laudo: bloqueio completo com escape ventricular"),
+    ("real-hve",       "ptbxl", "00138_hr", "12", None, 0, "Sobrecarga ventricular esquerda", "voltagem alta, sem padrão de strain"),
+    ("real-bav1",      "ptbxl", "00209_hr", "tira", "II", 0, "Bloqueio AV de primeiro grau", "toda P conduz · PR longo e fixo"),
+    # 23/09/2026: Mobitz I e BAVT trocados — o 01222 (DII) era ruidoso e o 00959 (V5) tinha QRS
+    # estreito e P quase invisível, com legenda falando em escape de QRS largo. Os novos vêm da base
+    # Chapman–Ningbo, rotulada por cardiologistas com códigos SNOMED no #Dx do cabeçalho.
+    ("real-mobitz1",   "ecgarr", "JS12429", "tira", "II", 0.5, "Bloqueio AV de segundo grau, Mobitz I", "anotação: BAV de 2º grau tipo I"),
+    ("real-bavt",      "ecgarr", "JS12521", "tira", "V6", 0, "Bloqueio AV total", "anotação: BAV total, escape ventricular"),
     ("real-bre",       "ptbxl", "00346_hr", "12", None, 0, "Bloqueio de ramo esquerdo", "QRS ≥ 120 ms · R entalhada em I, aVL, V5 e V6"),
     ("real-brd",       "ptbxl", "00680_hr", "12", None, 0, "Bloqueio de ramo direito", "rSR' em V1 · S empastada em I, V5 e V6"),
     ("real-fa",        "ptbxl", "08215_hr", "tira", "II", 0, "Fibrilação atrial", "sem onda P · RR irregularmente irregular"),
@@ -54,10 +60,11 @@ FIGS = [
 ]
 
 FONTE = {
-    "ptbxl": ("PTB-XL (PhysioNet), CC BY 4.0 — registro ", lambda r: r.replace("_hr", "")),
-    "ptbdb": ("PTB Diagnostic ECG Database (PhysioNet), ODC-BY 1.0 — ", lambda r: r.replace("_", "/")),
-    "mitdb": ("MIT-BIH Arrhythmia Database (PhysioNet), ODC-BY 1.0 — registro ", lambda r: r),
-    "vfdb":  ("MIT-BIH Malignant Ventricular Ectopy Database (PhysioNet), ODC-BY 1.0 — registro ", lambda r: r),
+    "ptbxl": ("PTB-XL (PhysioNet), CC BY 4.0, registro ", lambda r: r.replace("_hr", "")),
+    "ptbdb": ("PTB Diagnostic ECG Database (PhysioNet), ODC-BY 1.0, ", lambda r: r.replace("_", "/")),
+    "mitdb": ("MIT-BIH Arrhythmia Database (PhysioNet), ODC-BY 1.0, registro ", lambda r: r),
+    "vfdb":  ("MIT-BIH VFDB (PhysioNet), ODC-BY 1.0, registro ", lambda r: r),
+    "ecgarr": ("Chapman–Ningbo 12-lead ECG (PhysioNet), CC BY 4.0, registro ", lambda r: r),
 }
 CACHE2 = pathlib.Path.home() / "Documents/Claude/_physionet"
 

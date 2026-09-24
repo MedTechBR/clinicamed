@@ -142,6 +142,34 @@ e mostra a matriz cenário × competência (lacuna ali costuma ser jeito de pens
   desregistrar (`getRegistrations().then(rs=>rs.map(r=>r.unregister()))`) e limpar `caches` antes
   de recarregar — foi o que fez o app mostrar 42 questões depois de o banco já ter 48.
 
+## Revisão de qualidade das leituras, figuras e fluxogramas (23/09/2026)
+
+Pedido: "revise a qualidade dos textos de ler e das imagens e fluxogramas". Oito revisores em paralelo
+(brief em scratchpad, resumido aqui), cada um conferindo diretriz vigente com fonte e ano.
+- **Texto:** mais de 160 correções clínicas conferidas (as mais graves: raiva com observação do cão/gato
+  por 10 dias; STF 2024 sobre transfusão em Testemunha de Jeová; CAD/EHH com números da ADA 2009 sob o
+  rótulo do consenso de 2024; mutação da HbS invertida; "antes e depois" liberado pela CFM 2.336/2023;
+  atropina antes da triagem no transplantado; nitroglicerina "5–15 mg/h", erro impresso na própria
+  tabela da diretriz brasileira 2025, trocado pela dose AHA/ACC; reversão de anticoagulante no
+  sangramento digestivo pela ACG/CAG 2022). Siglas de diretriz inventadas removidas (AAN/AHA na tontura,
+  AAN/NORDIC, ACG de diarreia crônica, ASA/AAAAI). Cirrose atualizada ao Baveno VIII (2026) SÓ no que
+  os resumos confirmam; zona intermediária, alvo transfusional e critérios de TIPS preemptivo seguem
+  marcados "pelo Baveno VII" até alguém ler o texto integral.
+- **Fluxogramas:** 16 dos 38 saíam com letra efetiva < 11 px (o pior, 4,7 px). Todos refeitos para
+  largura ≤ ~740 px (TD, rótulos curtos, divididos quando preciso); hoje 41. Tocar em figura ou
+  fluxograma abre ampliado (`_leitura.js`, bloco "ampliar"). Medir de novo com o laço de iframes
+  (viewBox.width de cada `pre.mermaid svg`) sempre que mexer.
+- **Figuras:** ECG de 12 derivações tinha as colunas invadindo a vizinha em 5 mm (corrigido em
+  `docs/ptbxl_desenha.py`); tira de ritmo passava da borda; título e nota se sobrepunham (a nota desce
+  para o rodapé quando não cabe). Nota da HVE dizia "strain" que o traçado não tem. Foto de penetração
+  com rótulos sub/super TROCADOS (corrigido na imagem e na legenda). Foto do nódulo era prancha de
+  livro-texto: removida. Foto de ultrassom do pneumotórax (parada, com artefato que parece linha B e
+  logotipo do aparelho) trocada pelo esquema novo `us-modo-m.svg` (praia × código de barras).
+  Curva P-V com o ponto de inflexão inferior no meio da subida: redesenhada.
+- **Profundidade:** só ~16 leituras estão no nível monografia; a maioria das outras tem 1.200 a 1.900
+  palavras e ficou classificada como superficial para prova de título (lacunas listadas nos relatórios
+  da revisão). Aprofundar é o próximo trabalho grande, se ele pedir.
+
 ## Formato "monografia" das leituras (07/09/2026)
 
 Pedido do Matheus: "maior texto nas leituras (maioria ainda extremamente superficial quando comparada
@@ -273,6 +301,17 @@ Regras que ficaram: quem afirma o diagnóstico é o laudo/anotação do banco; a
 de paciente" e cita o laudo quando útil; nenhum número medido por mim vai para legenda; figura de
 ensino só entra se o achado for legível de relance (por isso o BAVT do PTB-XL foi lido em V5, e o
 Mobitz II virou "BAV 2:1" do MIT-BIH com a legenda explicando por que 2:1 não se classifica).
+
+**23/09/2026 — Mobitz I e BAVT trocados** (revisão: o 00959/V5 tinha QRS estreito e P quase
+invisível sob legenda de "escape de QRS largo"; o 01222/DII era ruidoso). Vieram da base
+**Chapman–Ningbo (`ecg-arrhythmia` no PhysioNet, CC BY 4.0, doi:10.13026/wgex-er52)**: 45 mil ECGs de
+12 derivações com rótulos SNOMED no `#Dx` do `.hea`, sinal em `.mat` formato `16+24` (lido por
+`docs/wfdb.py`). BAVT = JS12521 em V6 (taquicardia sinusal + BAV total + escape ventricular: várias P
+por QRS, QRS largo entalhado); Mobitz I = JS12429 em DII a partir de 0,5 s. Cache em
+`_physionet/ecgarr/`. Cuidado ao garimpar ali: JS12519 (rótulo de BAVT) tem P:QRS quase 2:1 com
+intervalo P–QRS quase fixo e se lê como bloqueio 2:1; e vários 3AVB vêm com código de marca-passo
+(10370003). PTB-XL não tem TEP rotulado; o `real-tep` ficou (candidatos 15877 e 16263 vistos e não
+adotados: laudo ambíguo entre isquemia e sobrecarga de VD, ou ganho pela metade apagando a T).
 
 ### Segunda rodada: a TV monomórfica parecia TSV (08/09/2026)
 

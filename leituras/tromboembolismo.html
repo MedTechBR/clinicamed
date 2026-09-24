@@ -1,6 +1,6 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Tromboembolismo pulmonar agudo (AHA/ACC 2026)</title>
-<link rel="stylesheet" href="_leitura.css?v=98"><script src="_leitura.js?v=98"></script>
+<link rel="stylesheet" href="_leitura.css?v=99"><script src="_leitura.js?v=99"></script>
 <div class="wrap">
 <p class="kicker">Pneumologia e cardiologia · 75 min · AHA/ACC 2026 · monografia</p>
 <h1>Tromboembolismo pulmonar agudo</h1>
@@ -89,24 +89,27 @@
 <div class="fluxo"><div class="leg"><b>Fluxograma 1</b>Do sintoma ao diagnóstico. A via que evita tomografia sem perder TEP</div>
 <pre class="mermaid">
 flowchart TD
-  A["Suspeita de TEP"] --> B{"Instabilidade hemodinâmica?"}
-  B -->|"sim"| C["Eco à beira do leito e angiotomografia<br/>anticoagular já se risco de sangramento baixo"]
+  A["Suspeita de TEP"] --> B{"Instabilidade<br/>hemodinâmica?"}
+  B -->|"sim"| C["Eco à beira do leito<br/>e angiotomografia<br/>anticoagular já se<br/>sangramento baixo"]
   B -->|"não"| D["Probabilidade pré-teste<br/>Wells · Genebra · gestalt"]
-  D -->|"baixa e os 8 critérios PERC preenchidos"| E["TEP excluído"]
-  D -->|"baixa ou intermediária · abaixo de 50%"| F["D-dímero: ajustado à idade ou YEARS"]
-  D -->|"alta · acima de 50%"| G["Angiotomografia"]
-  F -->|"abaixo do limiar aplicável"| E
+  D -->|"baixa e PERC 8 de 8"| E["TEP excluído"]
+  D -->|"baixa ou<br/>intermediária"| F["D-dímero ajustado<br/>à idade ou YEARS"]
+  D -->|"alta, acima de 50%"| G["Angiotomografia"]
+  F -->|"abaixo do limiar"| E
   F -->|"acima do limiar"| G
-  G -->|"não é possível fazer"| H["Cintilografia V/Q · preferir SPECT"]
-  G -->|"positiva"| I["TEP confirmado · estratificar"]
+  G -->|"inviável"| H["Cintilografia V/Q<br/>preferir SPECT"]
+  G -->|"positiva"| I["TEP confirmado<br/>estratificar"]
   H -->|"positiva"| I
-  G -->|"negativa"| J["TEP excluído · sem ultrassom venoso"]
+  G -->|"negativa"| J["TEP excluído<br/>sem ultrassom venoso"]
 </pre></div>
 
 <h2 id="gravidade">Gravidade</h2>
-<p>Confirmado o TEP, quatro camadas definem a categoria: <b>escore clínico</b>, <b>biomarcadores</b>, <b>imagem do ventrículo direito</b> e <b>hemodinâmica</b>, esta última é o que separa D de E.</p>
+<p>Confirmado o TEP, quatro camadas definem a categoria: <b>escore clínico</b>, <b>biomarcadores</b>, <b>imagem do ventrículo direito</b> e <b>hemodinâmica</b>, esta última separa D de E.</p>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th><th>Nível</th></tr>
+<tr><td>Categorias <b>A e B</b>: <b>Hestia, PESI e/ou sPESI</b> para identificar baixo risco de evento a curto prazo</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">B-R</span></td></tr>
+<tr><td>Estáveis em categorias <b>C e D</b>: escore validado específico de TEP para identificar maior risco</td><td class="c"><span class="cls c2a">2a</span></td><td class="c"><span class="niv">B-NR</span></td></tr>
+<tr><td>Estáveis em categorias <b>C e D</b>: NEWS ou NEWS2 como alternativa de vigilância</td><td class="c"><span class="cls c2b">2b</span></td><td class="c"><span class="niv">B-NR</span></td></tr>
 <tr><td>Categoria <b>C</b>: medir <b>ao menos um biomarcador cardíaco</b>, troponina ou peptídeo natriurético</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">B-NR</span></td></tr>
 <tr><td>No ecocardiograma, reportar os parâmetros de disfunção do VD, razão VD/VE, diâmetro diastólico, <b>TAPSE</b>, pressão sistólica estimada, hipocinesia da parede livre poupando o ápice (<b>sinal de McConnell</b>), velocidade sistólica tricúspide, movimento septal paradoxal e colapso da cava</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">B-NR</span></td></tr>
 </table>
@@ -126,7 +129,7 @@ flowchart TD
 </table></div>
 <p>Na <b>tomografia</b>, VD/VE ≥ 1,0 tem sensibilidade de 85% e especificidade de 72%; a ≥ 0,9, 92% e 56%. O <b>desvio septal</b> é muito específico (0,98) e pouco sensível (0,31), confirma, não afasta. No <b>sinal de McConnell</b>, o ápice é tracionado pela contração do ventrículo esquerdo normal enquanto a parede livre, sob pós-carga que subiu de repente e sem hipertrofia adaptativa, falha. É isso que o torna sugestivo de sobrecarga <b>aguda</b>.</p>
 <figure class="fig"><div class="zoom"><img src="fig/real-tep.svg" alt="Eletrocardiograma de paciente com taquicardia sinusal e padrão S1Q3"></div>
-<figcaption><b>Figura 1.</b> Sobrecarga aguda de ventrículo direito em traçado de paciente (laudo do banco: taquicardia sinusal com S em DI e Q em DIII): o padrão <b>S1Q3T3</b> e a inversão de T nas precordiais direitas, que reflete isquemia relativa da parede livre do VD sob pós-carga alta. Podem vir com bloqueio de ramo direito novo. O ponto que a prova cobra: tudo isso aparece numa minoria dos casos. O ECG normal não afasta TEP.</figcaption></figure>
+<figcaption><b>Figura 1.</b> Traçado de paciente com taquicardia sinusal e padrão <b>S1Q3</b> (laudo do banco: S em DI e Q em DIII). Na sobrecarga aguda do ventrículo direito o padrão pode vir completo, S1Q3T3, com inversão de T de V1 a V4 e bloqueio de ramo direito novo; este traçado não tem inversão de T nas precordiais direitas, e o achado mais comum no TEP é justamente a taquicardia sinusal. O ponto que a prova cobra: esses sinais aparecem numa minoria dos casos, e o ECG normal não afasta TEP.</figcaption></figure>
 
 <h2 id="categorias">As categorias A a E</h2>
 <p>Categoria e subcategoria vêm do <b>indicador mais grave</b> presente, e o paciente <b>transita entre categorias</b> ao longo da internação: é classificação dinâmica, não carimbo de admissão.</p>
@@ -162,7 +165,7 @@ flowchart TD
 <line x1="14" y1="396" x2="766" y2="396" stroke="var(--linha)" stroke-width="1"></line>
 <text class="k" x="14" y="415">Modificador R: hipoxemia, taquipneia ou necessidade de oxigênio, ex. C3R, D2R. Em E-R, insuficiência respiratória = ventilação com pressão positiva</text>
 </svg><figcaption><b>Figura 2.</b> As cinco categorias da AHA/ACC 2026. A e B decidem <b>onde o paciente fica</b>; C acrescenta <b>biomarcador e ventrículo direito</b>; D introduz a <b>pré-falência</b>, exatamente onde a classificação antiga era cega; E é a falência instalada. O modificador R corre em paralelo, porque a deterioração respiratória acontece em qualquer degrau.</figcaption></figure>
-<p><b>A</b> é o TEP achado por acaso, sem suspeita clínica. O assintomático com câncer de pulmão cuja tomografia de estadiamento mostra TEP subsegmentar. <b>B</b> é o sintomático com escore baixo. Dor pleurítica após artroplastia de quadril, sPESI 0, TEP segmentar sem aumento de VD. <b>C</b> é o sintomático com escore elevado, e as subcategorias reconhecem a ausência ou presença de disfunção cardiopulmonar por biomarcadores e por tamanho ou função do ventrículo direito; <b>C1R</b> é a mulher com câncer de mama, dispneia súbita, taquicardia e hipoxemia, TEP lobar bilateral <b>sem</b> aumento de VD e <b>sem</b> troponina elevada.</p>
+<p><b>A</b> é o TEP achado por acaso, sem suspeita clínica, como no assintomático com câncer de pulmão cuja tomografia de estadiamento mostra TEP subsegmentar. <b>B</b> é o sintomático com escore baixo, por exemplo dor pleurítica após artroplastia de quadril, sPESI 0, TEP segmentar sem aumento de VD. <b>C</b> é o sintomático com escore elevado, e as subcategorias reconhecem a ausência ou presença de disfunção cardiopulmonar por biomarcadores e por tamanho ou função do ventrículo direito; <b>C1R</b> é a mulher com câncer de mama, dispneia súbita, taquicardia e hipoxemia, TEP lobar bilateral <b>sem</b> aumento de VD e <b>sem</b> troponina elevada.</p>
 <p><b>D</b> é o estado pré-falência, a contribuição mais original do esquema. <b>D1</b>: hipotensão <b>transitória ou recorrente</b>, inclusive relativa à pressão habitual, breve ou responsiva a volume, <b>sem</b> hipoperfusão; <b>D2</b>: a mesma hipotensão <b>com</b> marcador de hipoperfusão. A prova de volume é de <b>500 a 1000 mL</b>. <b>E</b> é a falência instalada: <b>E1</b>, choque cardiogênico (SCAI SHOCK C); <b>E2</b>, choque refratário ou parada sem retorno após <b>30 minutos</b> de reanimação.</p>
 <div class="cx chave"><b>O que caracteriza choque normotenso</b>Hipoperfusão isolada, sem hipotensão, por qualquer um destes: <b>lactato acima de 2 mmol/L</b>, lesão renal aguda, diurese abaixo de 0,5 mL/kg/h, alteração do sensório, <b>índice cardíaco ≤ 2,2 L/min/m²</b> ou <b>pressão arterial média abaixo de 60 mmHg</b>. No registro FLASH, a prevalência de hipoperfusão isolada no risco intermediário foi de <b>34%</b>, um em cada três dos que a classificação antiga chamaria de estáveis.</div>
 <div class="ancora"><b>Questão-âncora</b>Mulher de 62 anos, TEP bilateral, pressão 96/58 (habitual 140/85), FC 118, saturação 91% com 4 L/min, lactato 3,1, creatinina de 0,9 para 1,4. Recebeu 500 mL e a pressão voltou a 112/70. Categoria e consequência?<details><summary>Leitura</summary><b>D2R.</b> Hipotensão transitória, inclusive relativa, que respondeu a volume, mas com <b>marcadores de hipoperfusão</b>: lactato acima de 2 e lesão renal aguda. É D2, não C, e não é "estável"; o R vem da hipoxemia. Consequência: internação com monitorização, acionamento do PERT, e terapia avançada passa a ser algo que <b>pode ser considerado</b>, classe 2b.</details></div>
@@ -170,6 +173,10 @@ flowchart TD
 <h2 id="onde">Local de tratamento</h2>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th><th>Nível</th></tr>
+<tr><td>Diagnóstico no consultório ou na emergência: usar uma ferramenta de decisão (<b>Hestia, PESI ou sPESI</b>) para identificar quem pode ser tratado em casa</td><td class="c"><span class="cls c2a">2a</span></td><td class="c"><span class="niv">B-R</span></td></tr>
+<tr><td>Categorias <b>A e B</b> selecionadas: <b>tratamento ambulatorial</b> é opção razoável em vez da internação, quando o risco de evento em 90 dias é baixo e isso está de acordo com os objetivos do paciente; exige acesso imediato ao anticoagulante e seguimento rápido e confiável</td><td class="c"><span class="cls c2a">2a</span></td><td class="c"><span class="niv">B-R</span></td></tr>
+<tr><td>Em <b>trombólise</b>, sistêmica ou por cateter: internar em unidade de monitorização próxima, UTI ou cuidados intermediários</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">C-EO</span></td></tr>
+<tr><td>Categorias <b>C a E</b>: avaliação por <b>equipe multidisciplinar de resposta ao TEP</b> (PERT) para melhorar a entrega do cuidado hospitalar</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">B-NR</span></td></tr>
 </table>
 <p>Os números da alta precoce: mortalidade em 30 dias de <b>0,30%</b>, recorrência de <b>0,57%</b> e sangramento maior de <b>0,45%</b>. O HOME-PE comparou triagem pelo Hestia contra sPESI sem diferença no composto e mostrou que o <b>julgamento do médico sobrepôs a regra</b>, mais vezes contra o sPESI, porque o Hestia já embute as razões médicas e sociais que impedem a alta. A avaliação por <b>equipe de resposta ao TEP</b> é classe 1 de C a E, mas para <b>entrega do cuidado</b>: quanto a mortalidade, os dados são mistos.</p>
 
@@ -192,7 +199,7 @@ flowchart TD
 <h2 id="suporte">Suporte hemodinâmico e a armadilha da intubação</h2>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th><th>Nível</th></tr>
-<tr><td>Choque cardiogênico por TEP,<b>D2 a E2</b>: <b>vasopressores e/ou inotrópicos</b> para melhorar débito e perfusão</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
+<tr><td>Choque cardiogênico por TEP, <b>D2 a E2</b>: <b>vasopressores e/ou inotrópicos</b> para melhorar débito e perfusão</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
 <tr><td>Categorias <b>C a E</b>: <b>sedação profunda e ventilação mecânica não devem ser realizadas</b>, salvo necessidade clínica</td><td class="c"><span class="cls c3">3: Harm</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
 </table>
 <p>A última recomendação é a que mais muda a beira do leito. Há <b>relação causal</b> entre sedação e descompensação na disfunção de ventrículo direito: a sedação abole a resposta simpática que sustentava a pressão, e a pressão positiva reduz o retorno venoso e aumenta a resistência vascular pulmonar, daí a parada na indução. A conduta não é evitar intubar, é <b>chegar preparado</b>, com vasopressor, inotrópico e ECMO disponíveis (classe 1). A <b>dobutamina até 10 µg/kg/min</b> aumenta o índice cardíaco às custas da resistência sistêmica, e é adjuvante à noradrenalina em E1 e E2 e agente inicial no choque normotenso. Volume, quando indicado, é <b>cauteloso, até 500 mL</b>.</p>
@@ -201,10 +208,11 @@ flowchart TD
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th><th>Nível</th></tr>
 <tr><td>Categorias <b>E1 e E2</b> com risco de sangramento aceitável: <b>trombólise sistêmica somada à anticoagulação é razoável</b> sobre anticoagulação isolada, para reduzir mortalidade e recorrência</td><td class="c"><span class="cls c2a">2a</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
+<tr><td>Categorias <b>D1 e D2</b> com risco de sangramento aceitável: trombólise somada à anticoagulação <b>pode ser considerada</b> para evitar deterioração</td><td class="c"><span class="cls c2b">2b</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
 <tr><td>Categoria <b>C3</b>: o uso sobre anticoagulação isolada é <b>incerto</b></td><td class="c"><span class="cls c2b">2b</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
 <tr><td>Categorias <b>A1 a C2</b>: a trombólise sistêmica <b>não deve ser usada</b>, pelo aumento de sangramento maior e hemorragia intracraniana</td><td class="c"><span class="cls c3">3: Harm</span></td><td class="c"><span class="niv">B-R</span></td></tr>
 </table>
-<div class="dose"><b>Doses</b><ul><li><b>Alteplase, padrão: 100 mg em 2 horas</b>, o mais usado; não há comparação direta entre trombolíticos.</li><li><b>Dose reduzida: 25 a 50 mg.</b> Um randomizado em TEP com instabilidade ou obstrução maciça mostrou <b>50 mg com eficácia semelhante e melhor segurança</b> que 100 mg. A evidência ainda é pequena e majoritariamente não cega, o <b>PEITHO-3</b> está em curso.</li><li><b>Regime acelerado 0,6 mg/kg em 15 minutos, máximo 50 mg</b>, não aprovado formalmente, usado na instabilidade extrema, como parada cardíaca.</li><li>Estreptoquinase e uroquinase saíram da prática; a tenecteplase não tem aprovação para TEP.</li></ul></div>
+<div class="dose"><b>Doses</b><ul><li><b>Alteplase, padrão: 100 mg em 2 horas</b>, o mais usado; não há comparação direta entre trombolíticos.</li><li><b>Dose reduzida: 25 a 50 mg.</b> Um randomizado em TEP com instabilidade ou obstrução maciça mostrou <b>50 mg com eficácia semelhante e melhor segurança</b> que 100 mg. A evidência ainda é pequena e majoritariamente não cega; o <b>PEITHO-3</b> está em curso.</li><li><b>Regime acelerado 0,6 mg/kg em 15 minutos, máximo 50 mg</b>, não aprovado formalmente, usado na instabilidade extrema, como parada cardíaca.</li><li>Estreptoquinase e uroquinase saíram da prática; a tenecteplase não tem aprovação para TEP.</li></ul></div>
 <div class="rolagem"><table class="criterio">
 <tr><th>Contraindicações à fibrinólise. Lista da diretriz europeia de 2019</th></tr>
 <tr><td><b>Absolutas:</b> acidente vascular cerebral hemorrágico ou de origem desconhecida em qualquer momento · acidente vascular cerebral isquêmico nos últimos <b>6 meses</b> · neoplasia do sistema nervoso central · trauma maior, cirurgia ou traumatismo craniano nas últimas <b>3 semanas</b> · diátese hemorrágica · sangramento ativo</td></tr>
@@ -222,27 +230,30 @@ flowchart TD
 <div class="fluxo"><div class="leg"><b>Fluxograma 2</b>Da categoria ao tratamento, o que cada degrau recebe</div>
 <pre class="mermaid">
 flowchart TD
-  A["TEP confirmado<br/>anticoagular salvo contraindicação absoluta"] --> B{"Hipotensão persistente ou choque?"}
-  B -->|"sim"| C["Categoria E · PERT · vasopressor"]
-  B -->|"não"| D{"Hipotensão transitória ou choque normotenso?"}
-  D -->|"sim"| E["Categoria D · PERT · monitorização"]
-  D -->|"não"| F{"Escore de gravidade elevado?<br/>PESI acima de 85 · sPESI ≥ 1 · Hestia ≥ 1"}
-  F -->|"sim"| H["Categoria C · lactato · biomarcador · imagem do VD<br/>internar"]
-  F -->|"não"| G{"Sintomático?"}
-  G -->|"não · achado incidental"| I["Categoria A · alta da emergência para casa"]
-  G -->|"sim · escore baixo"| J["Categoria B · alta precoce"]
-  C --> K{"E1 ou E2?"}
-  K -->|"E1"| L["Razoável: trombólise sistêmica ou por cateter<br/>trombectomia · embolectomia"]
-  K -->|"E2 refratário"| M["ECMO venoarterial se há recurso"]
-  E --> N["Pode considerar terapia avançada<br/>volume até 500 mL · dobutamina se D2"]
-  H --> O["C3 com PAM abaixo de 80: pensar em escalar<br/>trombólise de A1 a C2 faz MAL"]
+  A["TEP confirmado<br/>anticoagular salvo<br/>contraindicação absoluta"] --> B{"Hipotensão persistente<br/>ou choque?"}
+  B -->|"sim"| C["Categoria E · PERT<br/>vasopressor<br/>E1: trombólise sistêmica<br/>ou por cateter, trombectomia,<br/>embolectomia: 2a<br/>E2: trombólise 2a<br/>ECMO venoarterial 2a"]
+  B -->|"não"| D{"Hipotensão transitória<br/>ou choque normotenso?"}
+  D -->|"não"| G{"Sintomático?"}
+  D -->|"sim"| E["Categoria D · PERT<br/>volume até 500 mL<br/>dobutamina se D2<br/>terapia avançada: 2b"]
+  G -->|"não · incidental"| I["Categoria A<br/>alta para casa"]
+  G -->|"sim"| F{"Escore elevado?<br/>PESI > 85 · sPESI ≥ 1<br/>Hestia ≥ 1"}
+  F -->|"sim"| H["Categoria C · internar<br/>biomarcador e VD<br/>C3 com PAM < 80:<br/>pensar em escalar"]
+  F -->|"não"| J["Categoria B<br/>alta precoce"]
+  H --> O["Trombólise sistêmica<br/>A1 a C2: faz MAL<br/>C3: incerta, 2b"]
 </pre></div>
 
 <h2 id="filtro">Filtro de veia cava</h2>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th><th>Nível</th></tr>
+<tr><td>Quem <b>não tolera anticoagulação</b> e precisa de filtro: filtro <b>recuperável</b> em vez de permanente</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">B-R</span></td></tr>
+<tr><td>Filtro recuperável: tentar a <b>retirada</b> assim que o risco de TEP cair e a anticoagulação for tolerada</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
+<tr><td>Quem não tolera anticoagulação: o filtro pode ser útil para reduzir a recorrência de curto prazo</td><td class="c"><span class="cls c2a">2a</span></td><td class="c"><span class="niv">B-R</span></td></tr>
+<tr><td>Com filtro implantado: programa estruturado de seguimento para aumentar a retirada e detectar complicações</td><td class="c"><span class="cls c2a">2a</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
+<tr><td>Categorias <b>D e E</b> em terapia avançada (trombólise, cateter, trombectomia, embolectomia): benefício do filtro incerto</td><td class="c"><span class="cls c2b">2b</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
+<tr><td>Recorrência apesar de anticoagulação terapêutica otimizada, categorias B a E: o filtro pode ser considerado</td><td class="c"><span class="cls c2b">2b</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
+<tr><td>Paciente <b>já anticoagulado</b>: filtro de rotina <b>não deve ser colocado</b></td><td class="c"><span class="cls c3">3: Harm</span></td><td class="c"><span class="niv">A</span></td></tr>
 </table>
-<p>O PREPIC, que estudou filtros recuperáveis em pacientes <b>já anticoagulados</b>, não encontrou benefício adicional. A conclusão prática é dura e útil: o filtro deve ser <b>altamente seletivo</b>, para contraindicação persistente à anticoagulação ou risco extremo de recorrência. Colocado "para proteger" quem já está anticoagulado, ele só adiciona risco de longo prazo. Trombose no sítio, migração, fratura, perfuração.</p>
+<p>O PREPIC mostrou que o filtro permanente aumenta trombose venosa profunda e da cava ao longo do tempo sem melhorar a sobrevida; o PREPIC2, que estudou filtros recuperáveis em pacientes <b>já anticoagulados</b>, não encontrou benefício adicional. A conclusão prática é dura e útil: o filtro deve ser <b>altamente seletivo</b>, para contraindicação persistente à anticoagulação ou risco extremo de recorrência. Colocado "para proteger" quem já está anticoagulado, ele só adiciona risco de longo prazo: trombose no sítio, migração, fratura, perfuração.</p>
 
 <h2 id="duracao">Duração da anticoagulação e o TEP não provocado</h2>
 <p>O tratamento tem três fases: <b>iniciação</b>, <b>tratamento inicial</b>, de <b>3 a 6 meses</b>, e <b>fase estendida</b>, a continuação além disso <b>sem data prevista para parar</b>. A decisão se toma ao fim da fase inicial e depende quase inteiramente de uma pergunta: qual era o fator de risco.</p>
@@ -264,30 +275,38 @@ flowchart TD
 <div class="fluxo"><div class="leg"><b>Fluxograma 3</b>Quanto tempo anticoagular. A decisão que se toma no terceiro mês</div>
 <pre class="mermaid">
 flowchart TD
-  A["Fim da fase inicial · 3 a 6 meses"] --> B{"Qual era o fator de risco?"}
-  B -->|"maior reversível<br/>cirurgia ≥ 30 min · fratura · internação ≥ 72 h no leito"| C["PARAR · classe 1"]
-  B -->|"menor reversível<br/>cirurgia curta · estrogênio · periparto"| D["DECISÃO COMPARTILHADA · classe 2a"]
-  B -->|"persistente<br/>câncer · autoimune · doença inflamatória intestinal"| E["CONTINUAR · classe 1"]
-  B -->|"nenhum fator identificável"| F["CONTINUAR · classe 1 nível A"]
-  E --> G{"Câncer?"}
-  F --> H["Oral direto · MEIA DOSE<br/>apixabana 2,5 mg 2x ou rivaroxabana 10 mg"]
-  G -->|"sim"| I["Oral direto OU heparina"]
-  G -->|"não"| H
-  D --> J["Se continuar: mesmo esquema"]
-  H --> K["Reavaliar periodicamente · classe 1"]
+  A["Fim da fase inicial<br/>3 a 6 meses"] --> B{"Fator maior<br/>reversível?"}
+  B -->|"sim"| C["PARAR · classe 1<br/>cirurgia ≥ 30 min, fratura,<br/>internação ≥ 72 h no leito"]
+  B -->|"não"| D{"Fator menor<br/>reversível?"}
+  D -->|"não"| F["CONTINUAR · classe 1<br/>fator persistente<br/>ou nenhum fator"]
+  D -->|"sim"| E["DECISÃO COMPARTILHADA<br/>classe 2a<br/>cirurgia curta, estrogênio,<br/>periparto"]
+  F --> G{"Câncer?"}
+  G -->|"sim"| I["Oral direto<br/>ou heparina"]
+  G -->|"não"| H["Oral direto em MEIA DOSE<br/>apixabana 2,5 mg 2x/dia<br/>ou rivaroxabana 10 mg/dia"]
+  E -->|"se continuar"| H
+  H --> K["Reavaliar periodicamente<br/>classe 1"]
   I --> K
 </pre></div>
 
 <h2 id="gestacao">TEP na gestação</h2>
-<p><b>Diagnóstico.</b> A detecção em gestantes investigadas é baixa,<b>4,1%</b> de angiotomografias positivas numa metanálise recente, o que torna a exclusão valiosa. O <b>YEARS adaptado à gestação</b> pode identificar quem não precisa de imagem (2b, B-NR): dois estudos prospectivos tiveram falha de <b>0,0%</b> e <b>0,21%</b> em três meses. O adaptado tem um passo a mais: gestante com <b>sintomas de membro inferior</b> e <b>ultrassom de compressão positivo</b> pode ser tratada sem imagem torácica. Sendo a imagem necessária e a <b>radiografia normal</b>, a angiotomografia de baixa dose é razoável sobre a cintilografia de perfusão de baixa dose.</p>
+<p><b>Diagnóstico.</b> A detecção em gestantes investigadas é baixa: <b>4,1%</b> de angiotomografias positivas numa metanálise recente, o que torna a exclusão valiosa. O <b>YEARS adaptado à gestação</b> pode identificar quem não precisa de imagem (2b, B-NR): dois estudos prospectivos tiveram falha de <b>0,0%</b> e <b>0,21%</b> em três meses. O adaptado tem um passo a mais: gestante com <b>sintomas de membro inferior</b> e <b>ultrassom de compressão positivo</b> pode ser tratada sem imagem torácica. Sendo a imagem necessária e a <b>radiografia normal</b>, a angiotomografia de baixa dose é razoável sobre a cintilografia de perfusão de baixa dose.</p>
 <p><b>Tratamento e planejamento.</b> Heparina de baixo peso molecular ou não fracionada (classe 1, C-LD); orais diretos e varfarina são <b>3: Harm</b>. Na <b>amamentação</b>, heparina ou varfarina vencem o oral direto, que pode passar ao leite. Medir anti-Xa de pico por trimestre <b>não está bem estabelecido</b>. Diante de <b>sangramento uterino anormal</b> em usuária de anticoagulante, discutir manejo médico, esquemas alternativos e intervenções ginecológicas <b>em vez de suspender a anticoagulação</b> (2a, C-LD).</p>
 <div class="ancora"><b>Questão-âncora</b>Gestante de 28 semanas, dispneia e dor pleurítica há um dia, sem edema de perna, sem hemoptise, e TEP é a hipótese principal do plantonista. Radiografia normal. Sequência?<details><summary>Leitura</summary>Ela tem <b>um</b> item do YEARS, "TEP é o diagnóstico mais provável", então o limiar é <b>500 µg/L</b>. Acima dele, com radiografia normal, a escolha é a <b>angiotomografia de baixa dose</b>. Confirmado, trata-se com <b>heparina de baixo peso molecular</b>: oral direto e varfarina são 3: Harm.</details></div>
 
 <h2 id="sequelas">Seguimento e hipertensão pulmonar tromboembólica crônica</h2>
 <table class="rec">
 <tr><th>Recomendação</th><th>Classe</th><th>Nível</th></tr>
+<tr><td>Consulta na <b>primeira semana</b> após a alta: educação, barreiras à anticoagulação, adesão e sangramento</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
+<tr><td>Consulta <b>até os 3 meses</b> para decidir a duração da anticoagulação e procurar sintomas persistentes</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">C-EO</span></td></tr>
+<tr><td>Perguntar sobre dispneia e limitação funcional <b>em toda consulta por pelo menos 1 ano</b></td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
+<tr><td>Na fase estendida, <b>reavaliar periodicamente</b> risco e benefício de manter a anticoagulação</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">B-NR</span></td></tr>
+<tr><td>Dispneia ou limitação após <b>≥ 3 meses</b> de anticoagulação terapêutica: investigar <b>doença tromboembólica pulmonar crônica</b></td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">B-NR</span></td></tr>
+<tr><td>Na investigação, <b>ecocardiograma e cintilografia de perfusão</b> em vez do ecocardiograma isolado</td><td class="c"><span class="cls c2a">2a</span></td><td class="c"><span class="niv">B-NR</span></td></tr>
+<tr><td>Manter a anticoagulação até concluir a investigação, salvo sangramento de alto risco</td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">B-NR</span></td></tr>
+<tr><td>Doença crônica com hipertensão pulmonar: encaminhar a <b>centro com experiência</b></td><td class="c"><span class="cls c1">1</span></td><td class="c"><span class="niv">C-LD</span></td></tr>
+<tr><td>Tomografia ou PET-CT de rotina para procurar câncer oculto</td><td class="c"><span class="cls c3">3: No Benefit</span></td><td class="c"><span class="niv">A</span></td></tr>
 </table>
-<p>O <b>momento</b> de investigar tem base empírica: no FOCUS, o <b>tempo mediano até o diagnóstico</b> de doença tromboembólica crônica com hipertensão pulmonar foi de <b>129 dias</b>, e a obstrução vascular <b>não muda depois dos 3 meses</b>, esperar mais só atrasa. A cintilografia de perfusão vem junto ao ecocardiograma porque o defeito persiste mesmo com pressões normais, e o ecocardiograma isolado deixa passar a doença crônica sem hipertensão pulmonar. Que também merece centro experiente, onde endarterectomia e angioplastia pulmonar por balão melhoram a capacidade funcional em casos selecionados.</p>
+<p>O <b>momento</b> de investigar tem base empírica: no FOCUS, o <b>tempo mediano até o diagnóstico</b> de doença tromboembólica crônica com hipertensão pulmonar foi de <b>129 dias</b>, e a obstrução vascular <b>não muda depois dos 3 meses</b>, esperar mais só atrasa. A cintilografia de perfusão vem junto ao ecocardiograma porque o defeito persiste mesmo com pressões normais, e o ecocardiograma isolado deixa passar a doença crônica sem hipertensão pulmonar, que também pode se beneficiar de centro experiente (2a, C-LD), onde endarterectomia e angioplastia pulmonar por balão melhoram a capacidade funcional em casos selecionados.</p>
 
 <h2 id="armadilhas">Erros frequentes</h2>
 <ol class="passos">
@@ -303,7 +322,7 @@ flowchart TD
 <li><b>Monitorar de rotina a heparina de baixo peso molecular baseada no peso</b>, 3: No Benefit, nível A; e quando se monitora, colhe-se o <b>pico</b>, 3 a 5 horas após a dose.</li>
 <li><b>Sedar e intubar quem tem disfunção de VD sem vasopressor pronto</b>, 3: Harm de C a E salvo necessidade clínica.</li>
 <li><b>Encher o ventrículo direito</b>: o volume é cauteloso, até 500 mL, e só em D1 e D2 com suspeita de pré-carga reduzida.</li>
-<li><b>Colocar filtro de veia cava em quem está anticoagulado</b>, o PREPIC não mostrou benefício.</li>
+<li><b>Colocar filtro de veia cava em quem está anticoagulado</b>: 3: Harm, nível A; o PREPIC2 não mostrou benefício.</li>
 <li><b>Suspender a anticoagulação aos 3 meses no TEP não provocado</b>: recorrência de 30% a 40% em 10 anos; continuar é classe 1 nível A, com meia dose.</li>
 <li><b>Estender a anticoagulação após fator maior reversível</b>, quando a classe 1 é parar.</li>
 <li><b>Tratar recorrência em vigência de anticoagulação como falha do fármaco</b> sem investigar adesão, absorção e interação.</li>

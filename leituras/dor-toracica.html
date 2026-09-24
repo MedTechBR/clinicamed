@@ -1,6 +1,6 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dor torácica aguda</title>
-<link rel="stylesheet" href="_leitura.css?v=98"><script src="_leitura.js?v=98"></script>
+<link rel="stylesheet" href="_leitura.css?v=99"><script src="_leitura.js?v=99"></script>
 <div class="wrap">
 <p class="kicker">Emergências e terapia intensiva · 50 min · abordagem sindrômica · AHA/ACC 2021, 2022, 2025 e 2026</p>
 <h1>Dor torácica aguda</h1>
@@ -28,7 +28,7 @@
 <ol class="passos">
 <li><b>Estável ou instável?</b> Pressão, frequência, saturação, perfusão periférica, sensório. Instabilidade muda a rota: monitor, acesso, desfibrilador ao lado, e a investigação corre em paralelo com o tratamento.</li>
 <li><b>Eletrocardiograma de 12 derivações em até 10 minutos</b> da chegada, lido por quem decide. Supradesnivelamento de ST ou bloqueio de ramo esquerdo novo com clínica compatível abre a rota de reperfusão <b>antes</b> de qualquer troponina.</li>
-<li><b>Traçado não diagnóstico com suspeita alta ou dor persistente: repetir</b>, traçados seriados, derivações posteriores (V7–V9) e direitas (V3R–V4R), porque o infarto posterior e o de ventrículo direito escapam do padrão convencional.</li>
+<li><b>Traçado não diagnóstico com suspeita alta ou dor persistente: repetir</b>, com traçados seriados, derivações posteriores (V7–V9) e direitas (V3R–V4R), porque o infarto posterior e o de ventrículo direito escapam do padrão convencional.</li>
 <li><b>Troponina ultrassensível na chegada</b>, com a hora de início dos sintomas anotada. O caminho de decisão depende do intervalo.</li>
 <li><b>Radiografia de tórax</b> (pneumotórax, mediastino alargado, congestão, pneumonia) e, quando disponível, <b>ultrassom à beira do leito</b>: derrame pericárdico, ventrículo direito dilatado, deslizamento pleural, linhas B, aorta ascendente.</li>
 <li><b>Perguntar ativamente pelas outras cinco causas fatais</b> antes de rotular como coronariana ou como benigna. É aqui que a dissecção e a embolia são perdidas.</li>
@@ -56,27 +56,32 @@
 <div class="fluxo"><div class="leg"><b>Fluxograma 1</b>Dor torácica aguda. A triagem de decisão nos primeiros minutos</div>
 <pre class="mermaid">
 flowchart TD
-  A["Dor torácica aguda"] --> B{"Instável?<br/>choque · hipoxemia grave · sensório · arritmia"}
-  B -->|"sim"| C["Monitor, acesso, desfibrilador · eco à beira do leito<br/>tratar o que o eco e o exame mostram: pneumotórax, tamponamento, VD, VE"]
+  A["Dor torácica aguda"] --> B{"Instável?"}
+  B -->|"sim"| C["Monitor, acesso, desfibrilador<br/>eco à beira do leito:<br/>pneumotórax, tamponamento,<br/>VD, VE"]
   B -->|"não"| D["ECG em ≤ 10 min"]
   C --> D
-  D --> E{"Supra de ST ou BRE novo com clínica?"}
-  E -->|"sim"| F["Reperfusão: angioplastia primária ou fibrinólise<br/>não esperar troponina · pensar em dissecção antes de anticoagular"]
-  E -->|"não"| G["Troponina ultrassensível 0 h + repetir ECG<br/>Perguntar pelos outros cinco: dissecção, embolia, pneumotórax, tamponamento, esôfago"]
-  G --> H{"Suspeita de síndrome aórtica?<br/>dor súbita rasgando, dorso, pulsos, sopro, déficit"}
-  H -->|"sim"| I["ADD-RS: > 1 → angio-TC de aorta<br/>≤ 1 → D-dímero: < 500 afasta; ≥ 500 → angio-TC"]
-  H -->|"não"| J{"Suspeita de embolia?<br/>pleurítica, dispneia, taquicardia, hipoxemia, síncope"}
-  J -->|"sim"| K["Probabilidade pré-teste (Wells/Geneva/gestalt)<br/>baixa e PERC negativo → afastada<br/>baixa/intermediária → D-dímero ajustado à idade ou YEARS<br/>alta ou D-dímero positivo → angio-TC pulmonar"]
-  J -->|"não"| L["Caminho de decisão coronariano<br/>troponina 0/1 h ou 0/2 h + escore (ex.: HEART)"]
-  L --> M{"Risco"}
-  M -->|"baixo: MACE 30 d < 1%"| N["Alta sem teste urgente · seguimento ambulatorial"]
-  M -->|"intermediário"| O["Teste funcional ou anatômico (angio-TC de coronárias)"]
-  M -->|"alto ou troponina em ascensão"| P["Internar · antitrombóticos · estratégia invasiva"]
+  D --> E{"Supra de ST<br/>ou BRE novo?"}
+  E -->|"sim"| F["Reperfusão sem<br/>esperar troponina<br/>pensar em dissecção<br/>antes de anticoagular"]
+  E -->|"não"| G["Troponina 0 h · ECG seriado<br/>buscar as outras cinco<br/>causas fatais"]
+  G --> H{"Suspeita de<br/>síndrome aórtica?"}
+  H -->|"sim"| I["ADD-RS > 1: angio-TC<br/>ADD-RS ≤ 1: D-dímero<br/>< 500 afasta<br/>≥ 500: angio-TC"]
+  H -->|"não"| J{"Suspeita de<br/>embolia?"}
+  J -->|"sim"| K["Probabilidade pré-teste<br/>baixa: PERC<br/>baixa ou intermediária:<br/>D-dímero ajustado<br/>ou YEARS<br/>alta ou D-dímero<br/>positivo: angio-TC"]
+  J -->|"não"| L["Caminho coronariano<br/>Fluxograma 2"]
+</pre></div>
+
+<div class="fluxo"><div class="leg"><b>Fluxograma 2</b>Dor torácica aguda. O caminho de decisão coronariano</div>
+<pre class="mermaid">
+flowchart TD
+  L["Troponina 0/1 h ou 0/2 h<br/>+ escore clínico, ex.: HEART"] --> M{"Risco?"}
+  M -->|"baixo: MACE<br/>30 d < 1%"| N["Alta sem<br/>teste urgente<br/>seguimento<br/>ambulatorial"]
+  M -->|"intermediário"| O["Teste funcional<br/>ou angio-TC<br/>de coronárias"]
+  M -->|"alto ou troponina<br/>em ascensão"| P["Internar<br/>antitrombóticos<br/>estratégia invasiva"]
 </pre></div>
 
 <h2 id="sca">Síndrome coronariana aguda</h2>
 <p>O que a diretriz de 2025 exige está no capítulo de síndromes coronarianas desta biblioteca; aqui importa a <b>porta de entrada</b>. O eletrocardiograma é o exame de triagem, e ele é <b>dinâmico</b>: um traçado normal na chegada não afasta oclusão coronariana em quem continua com dor, e a repetição em 15 a 30 minutos, ou a qualquer mudança de sintoma, é obrigatória. O infarto posterior aparece como infra de ST em V1–V3 com R alta. As derivações V7–V9 mostram o supra; o de ventrículo direito acompanha o infarto inferior e se vê em V4R, e muda a conduta (evitar nitrato, dar volume).</p>
-<p>A troponina ultrassensível se interpreta por <b>caminho de decisão</b>, não por valor isolado: uma medida na chegada e outra em 1 ou 2 horas, com limiares de exclusão e de inclusão próprios de cada ensaio, combinada com um escore clínico. O ensaio ESC 0/1 h, citado pela diretriz de 2025, é o mais estudado; o HEART é o escore que a diretriz de 2021 usa como exemplo. A lógica é a mesma em todos: <b>concentração muito baixa na chegada</b> em quem tem mais de 3 horas de sintoma, ou <b>ausência de variação</b> entre as duas medidas, exclui infarto com valor preditivo negativo acima de 99%; <b>elevação alta ou variação grande</b> inclui; o meio-termo observa com nova dosagem em 3 horas.</p>
+<p>A troponina ultrassensível se interpreta por <b>caminho de decisão</b>, não por valor isolado: uma medida na chegada e outra em 1 ou 2 horas, com limiares de exclusão e de inclusão próprios de cada ensaio, combinada com um escore clínico. O algoritmo ESC 0/1 h, citado pela diretriz de 2025, é o mais estudado; o HEART é o escore que a diretriz de 2021 usa como exemplo. A lógica é a mesma em todos: <b>concentração muito baixa na chegada</b> em quem tem mais de 3 horas de sintoma, ou <b>ausência de variação</b> entre as duas medidas, exclui infarto com valor preditivo negativo acima de 99%; <b>elevação alta ou variação grande</b> inclui; o meio-termo observa com nova dosagem em 3 horas.</p>
 <div class="rolagem"><table class="criterio">
 <tr><th>Situação</th><th>Interpretação</th></tr>
 <tr><td>Troponina ultrassensível abaixo do limite de detecção na chegada, sintoma há mais de 3 horas, eletrocardiograma normal</td><td>Infarto excluído com uma medida; seguir para estratificação de risco</td></tr>
@@ -85,7 +90,7 @@ flowchart TD
 <tr><td>Elevação alta e estável, sem variação</td><td>Lesão miocárdica crônica (doença renal, insuficiência cardíaca, cardiomiopatia): não é infarto por si só</td></tr>
 <tr><td>Zona de observação</td><td>Nova dosagem em 3 horas; eletrocardiograma repetido; ecocardiograma se dúvida</td></tr>
 </table></div>
-<div class="cx chave"><b>A frase que organiza a troponina</b>Infarto é lesão miocárdica <b>aguda</b> (troponina em ascensão ou queda) <b>com</b> evidência de isquemia, sintoma, eletrocardiograma, imagem ou angiografia. Troponina alta sem variação é lesão crônica; variação sem isquemia é lesão aguda de outra causa. A troponina diz "houve dano"; quem diz "foi isquemia" é o resto.</div>
+<div class="cx chave"><b>A frase que organiza a troponina</b>Infarto é lesão miocárdica <b>aguda</b> (troponina em ascensão ou queda) <b>com</b> evidência de isquemia (sintoma, eletrocardiograma, imagem ou angiografia). Troponina alta sem variação é lesão crônica; variação sem isquemia é lesão aguda de outra causa. A troponina diz "houve dano"; quem diz "foi isquemia" é o resto.</div>
 <div class="ancora"><b>Questão-âncora</b>Mulher de 62 anos, diabética, "mal-estar" e dispneia há 2 horas, sem dor. Eletrocardiograma com infra de ST de 1 mm em V4–V6. Troponina ultrassensível de chegada no limite superior. <details><summary>Leitura</summary>Apresentação <b>possivelmente cardíaca</b>, não "atípica". Diabética com equivalente isquêmico e alteração dinâmica de ST: repetir eletrocardiograma, segunda troponina em 1 h, e tratar como síndrome coronariana sem supra desde já se a variação confirmar. A ausência de dor não reduz a probabilidade nesta paciente; aumenta o atraso se for interpretada como benigna.</details></div>
 
 <h2 id="dissec">Síndrome aórtica aguda</h2>
@@ -100,7 +105,7 @@ flowchart TD
 <div><b>ADD-RS ≤ 1</b>D-dímero: <b>abaixo de 500 ng/mL</b> afasta a síndrome aórtica com segurança (estratégia validada no estudo ADvISED, com taxa de falha abaixo de 0,5%); <b>≥ 500 ng/mL</b> pede angiotomografia.</div>
 <div><b>ADD-RS &gt; 1</b>Imagem definitiva <b>direta</b>, sem D-dímero: angiotomografia de aorta com contraste (sensibilidade e especificidade muito altas); ecocardiograma transesofágico no instável; ressonância quando as duas não são possíveis.</div>
 </div>
-<p>O tratamento começa na sala de emergência e a prova cobra a ordem: <b>β-bloqueador intravenoso primeiro</b>, para frequência de <b>60 a 80 bpm</b>, e só depois vasodilatador se a pressão sistólica não chegar a <b>menos de 120 mmHg</b>, vasodilatar antes do β-bloqueio produz taquicardia reflexa e aumenta a força de cisalhamento sobre a parede. O alvo é a pressão mais baixa que mantém perfusão de órgão. Dissecção de <b>tipo A</b> (aorta ascendente) é cirúrgica imediata; de <b>tipo B</b> não complicada, tratamento clínico, com intervenção se houver ruptura, má perfusão, extensão, expansão, dor intratável ou hipertensão não controlada.</p>
+<p>O tratamento começa na sala de emergência e a prova cobra a ordem: <b>β-bloqueador intravenoso primeiro</b>, para frequência de <b>60 a 80 bpm</b>, e só depois vasodilatador se a pressão sistólica não chegar a <b>menos de 120 mmHg</b>; vasodilatar antes do β-bloqueio produz taquicardia reflexa e aumenta a força de cisalhamento sobre a parede. O alvo é a pressão mais baixa que mantém perfusão de órgão. Dissecção de <b>tipo A</b> (aorta ascendente) é cirúrgica imediata; de <b>tipo B</b> não complicada, tratamento clínico, com intervenção se houver ruptura, má perfusão, extensão, expansão, dor intratável ou hipertensão não controlada.</p>
 <div class="cx armadilha"><b>Três armadilhas da dissecção</b>(1) Eletrocardiograma com supra de ST inferior: a dissecção pode ocluir a coronária direita. A "reperfusão" com fibrinolítico é catastrófica; pulso, pressão nos dois braços e alargamento mediastinal antes do trombolítico. (2) D-dímero "normal" num ADD-RS de 2 ou 3 <b>não</b> afasta: o D-dímero só decide no baixo risco. (3) Radiografia de tórax normal em até um quarto das dissecções.</div>
 
 <h2 id="tep">Embolia pulmonar</h2>
@@ -129,14 +134,14 @@ flowchart TD
 
 <h2 id="outros">Pleura, pericárdio, esôfago e parede torácica</h2>
 <div class="compara">
-<div><b>Pericardite aguda</b>Diagnóstico com <b>dois de quatro</b>: dor pleurítica que melhora sentado e inclinado; atrito pericárdico; supra de ST difuso côncavo com infra de PR; derrame novo ou aumentado. Troponina elevada indica miopericardite. Anti-inflamatório em dose plena com <b>colchicina</b> por 3 meses; o que interna é febre alta, curso subagudo, derrame volumoso ou tamponamento, imunossupressão, anticoagulação e troponina alta.</div>
+<div><b>Pericardite aguda</b>A diretriz europeia de 2025 exige a <b>dor pericárdica característica</b> (pleurítica, melhora sentado e inclinado) <b>mais pelo menos um</b> de: atrito pericárdico; supra de ST difuso côncavo com infra de PR; derrame novo ou aumentado; marcadores inflamatórios elevados; inflamação pericárdica na ressonância ou tomografia. O antigo "dois de quatro" foi substituído. Troponina elevada indica miopericardite. Anti-inflamatório em dose plena com <b>colchicina</b> por 3 meses; o que interna é febre alta, curso subagudo, derrame volumoso ou tamponamento, imunossupressão, anticoagulação e troponina alta.</div>
 <div><b>Pneumotórax</b>Espontâneo primário no jovem longilíneo, secundário na DPOC. O hipertensivo é diagnóstico clínico e a descompressão não espera radiografia. No não hipertensivo, o manejo depende do tamanho e dos sintomas: observação, aspiração ou dreno.</div>
 <div><b>Esôfago</b>Espasmo e refluxo imitam angina e até respondem a nitrato; a ruptura (Boerhaave) vem depois de vômito, com enfisema subcutâneo e sepse rápida. Tomografia com contraste oral e cirurgia.</div>
 <div><b>Parede torácica</b>Costocondrite, fratura, herpes-zóster antes da erupção. Dor reprodutível à palpação reduz a probabilidade de causa grave, mas não a exclui: pacientes com infarto também têm dor à palpação em uma minoria dos casos.</div>
 </div>
 
 <h2 id="baixo">Paciente de baixo risco</h2>
-<p>A diretriz de 2021 diz com todas as letras: dor torácica aguda com risco de eventos cardíacos maiores em 30 dias <b>abaixo de 1%</b>, troponinas ultrassensíveis negativas num caminho de decisão validado, eletrocardiograma sem isquemia, escore clínico baixo,<b>pode não precisar de teste cardíaco urgente</b>. Isso significa alta com seguimento, não internação para "estratificar". O risco <b>intermediário</b> recebe teste funcional ou anatômico, e a <b>angiotomografia de coronárias</b> é uma opção especialmente útil em quem não tem doença coronariana conhecida; o risco <b>alto</b> vai para a angiografia invasiva. O paciente estável participa da decisão, com custos, radiação e alternativas expostas.</p>
+<p>A diretriz de 2021 diz com todas as letras: dor torácica aguda com risco de eventos cardíacos maiores em 30 dias <b>abaixo de 1%</b> (troponinas ultrassensíveis negativas num caminho de decisão validado, eletrocardiograma sem isquemia, escore clínico baixo) <b>pode não precisar de teste cardíaco urgente</b>. Isso significa alta com seguimento, não internação para "estratificar". O risco <b>intermediário</b> recebe teste funcional ou anatômico, e a <b>angiotomografia de coronárias</b> é uma opção especialmente útil em quem não tem doença coronariana conhecida; o risco <b>alto</b> vai para a angiografia invasiva. O paciente estável participa da decisão, com custos, radiação e alternativas expostas.</p>
 <div class="cx chave"><b>Alta segura é um diagnóstico ativo</b>Ela exige que as três rotas fatais tenham sido percorridas (coronariana afastada pelo caminho de decisão, aórtica afastada pelo ADD-RS com ou sem D-dímero, embolia afastada por probabilidade, PERC ou D-dímero) e que o paciente saia sabendo por que voltar. "Não deu nada" não é conclusão; "dor não cardíaca, embolia e dissecção afastadas por critério" é.</div>
 
 <h2 id="armadilhas">Erros frequentes</h2>
@@ -164,7 +169,7 @@ flowchart TD
 <details><summary>5. Quando o PERC pode ser aplicado e o que ele dispensa?</summary>Só em probabilidade baixa (gestalt &lt; 15%, Wells &lt; 2); com os oito critérios presentes dispensa D-dímero e imagem.</details>
 <details><summary>6. Qual o limiar de D-dímero ajustado à idade e a classe dessa estratégia?</summary>Idade × 10 µg/L acima de 50 anos, em probabilidade baixa/intermediária; classe 2a, nível B-R.</details>
 <details><summary>7. Como funciona o YEARS?</summary>Três itens (sinais de TVP, hemoptise, embolia como diagnóstico mais provável). Nenhum: D-dímero &lt; 1000 afasta; um ou mais: &lt; 500 afasta. Classe 2a; versão gestacional 2b.</details>
-<details><summary>8. Critérios de pericardite aguda?</summary>Dois de quatro: dor característica, atrito, alterações eletrocardiográficas típicas, derrame novo ou aumentado.</details>
+<details><summary>8. Critérios de pericardite aguda?</summary>Pela ESC 2025, dor pericárdica característica mais pelo menos um de: atrito, alterações eletrocardiográficas típicas, derrame novo ou aumentado, marcadores inflamatórios elevados ou inflamação pericárdica na ressonância ou tomografia.</details>
 <details><summary>9. O que define lesão miocárdica crônica versus infarto na troponina?</summary>Crônica: elevada e estável. Infarto: ascensão ou queda com evidência de isquemia. Variação sem isquemia: lesão aguda de outra causa.</details>
 <details><summary>10. Quem pode ter alta sem teste cardíaco urgente?</summary>Risco de MACE em 30 dias abaixo de 1% por caminho de decisão validado, com as rotas aórtica e embólica também percorridas.</details>
 
@@ -175,7 +180,7 @@ flowchart TD
 <li>Rao SV, O'Donoghue ML, Ruel M, et al. 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes. Circulation. 2025.</li>
 <li>Isselbacher EM, Preventza O, Black JH, et al. 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease. Circulation. 2022;146:e334–e482.</li>
 <li>Nazerian P, Mueller C, Soeiro AM, et al. Diagnostic accuracy of the aortic dissection detection risk score plus D-dimer for acute aortic syndromes (ADvISED). Circulation. 2018;137:250–258.</li>
-<li>AHA/ACC Guideline for the Management of Acute Pulmonary Embolism. Circulation. 2026 (seção de avaliação diagnóstica: probabilidade pré-teste, PERC, D-dímero ajustado à idade, YEARS, angiotomografia).</li>
-<li>Adler Y, Charron P, Imazio M, et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36:2921–2964.</li>
+<li>2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults. Circulation. 2026 (seção de avaliação diagnóstica: probabilidade pré-teste, PERC, D-dímero ajustado à idade, YEARS, angiotomografia).</li>
+<li>2025 ESC Guidelines for the management of myocarditis and pericarditis. Eur Heart J. 2025;46:3952 e seguintes.</li>
 </ol></footer>
 </div>
