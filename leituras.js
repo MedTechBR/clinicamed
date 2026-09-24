@@ -121,6 +121,9 @@ window.LEITURAS=[
  {f:"dor-musculoesqueletica.html", tipo:"ACP 2017, NICE, ACR 2019, EULAR, CDC 2022 · monografia", area:"reumato", min:74,
   t:"Dor musculoesquelética, lombalgia, fibromialgia e osteoporose",
   s:"Lombalgia aguda e crônica, ciática, cauda equina, cervicalgia, radiculopatia e mielopatia cervical, ombro doloroso, osteoartrite, fibromialgia, polimialgia reumática, dor regional complexa, osteoporose e uso de opioide na dor crônica, pelas diretrizes vigentes: ACP 2017, NICE NG59 (revisão de 2026), AO Spine 2017, ACR e OARSI 2019, EULAR, Endocrine Society, SBEM e ABRASSO, USPSTF 2025 e CDC 2022."},
+ {f:"raras-sistemicas.html", tipo:"EULAR/PReS 2024, ACR/EULAR 2019, ESC 2024 · monografia", area:"reumato", min:65,
+  t:"Doenças raras sistêmicas",
+  s:"Doenças raras do adulto, uma por seção: autoinflamatórias e VEXAS (EULAR/PReS 2024), amiloidose, IgG4 (ACR/EULAR 2019), histiocitoses, HLH, mastocitose (OMS 2022), Castleman e POEMS, angioedema hereditário (diretriz internacional 2026 e PCDT), Marfan e Ehlers-Danlos (ESC 2024), telangiectasia hemorrágica, neurofibromatose tipo 1, esclerose tuberosa, imunodeficiência primária, sarcoidose extrapulmonar e policondrite."},
 
  {grupo:"Pneumologia", sub:"diretrizes de 2026"},
  {f:"radiografia-torax.html", tipo:"Fleischner Society 2024 · monografia", area:"pneumo", min:89,
