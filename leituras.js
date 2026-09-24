@@ -271,9 +271,9 @@ window.LEITURAS=[
  {f:"toxicidade-oncologica.html", tipo:"ASCO, NCCN e ESMO", area:"onco", min:24,
   t:"Toxicidade do tratamento oncológico",
   s:"Toxicidade do tratamento oncológico segundo ASCO, NCCN e ESMO: graduação, neutropenia febril e outras toxicidades hematológicas, náusea e vômito, mucosite e diarreia, imunoterapia, terapia-alvo e cardiotoxicidade, neuropatia, extravasamento, cateter e o sobrevivente."},
- {f:"canceres-mais-comuns.html", tipo:"INCA, NCCN e ESMO", area:"onco", min:25,
+ {f:"canceres-mais-comuns.html", tipo:"INCA 2026, ESMO, ASCO e NCCN · monografia", area:"onco", min:76,
   t:"Cânceres mais comuns",
-  s:"Sinais de suspeição, diagnóstico e encaminhamento dos cânceres de pulmão, mama, colorretal e próstata, além de estômago, esôfago e fígado, primário oculto e marcadores, síndromes hereditárias e comunicação, segundo INCA, NCCN e ESMO."},
+  s:"Os cânceres mais frequentes do adulto no nível do clínico, pela estimativa do INCA 2026 e por diretrizes da ESMO, da ASCO e do NCCN: suspeição, investigação, TNM, ECOG, intenção de tratamento, biomarcadores, linhas de tratamento e complicações de pulmão, mama, colorretal, próstata, estômago, esôfago, fígado, pâncreas, colo do útero e pele, com síndromes paraneoplásicas, primário desconhecido, síndromes hereditárias e o sobrevivente."},
 
  {grupo:"Geriatria e cuidados paliativos", sub:"o idoso não se apresenta pelo órgão"},
  {f:"sindromes-geriatricas.html", tipo:"World Falls Guidelines 2022, ICFSR, EWGSOP2, OMS ICOPE 2024 · monografia", area:"geriatria", min:75,
