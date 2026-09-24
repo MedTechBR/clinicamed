@@ -3,10 +3,10 @@
    versão velha e a correção vira fantasma.
    Estáticos usam stale-while-revalidate: bump de versão não basta quando a borda do CDN
    devolve conteúdo velho para o precache. HTML é network-first. */
-const CACHE="cm-v135", FONTES="cm-fontes-v1", LIVROS="cm-livros-v1";
-const PRE=["./assets/fonts/inter-400.ttf","./assets/fonts/inter-500.ttf","./assets/fonts/inter-600.ttf","./assets/fonts/inter-700.ttf","./","./index.html","./taxonomia.js?v=135","./provas.js?v=135","./banco.js?v=135","./flash.js?v=135",
-           "./pratica.js?v=135","./leituras.js?v=135","./nuvem.js?v=135","./turma.js?v=135","./indice-leituras.js?v=135","./manifest.webmanifest",
-           "./leituras/_leitura.css?v=135","./leituras/_leitura.js?v=135"];
+const CACHE="cm-v136", FONTES="cm-fontes-v1", LIVROS="cm-livros-v1";
+const PRE=["./assets/fonts/inter-400.ttf","./assets/fonts/inter-500.ttf","./assets/fonts/inter-600.ttf","./assets/fonts/inter-700.ttf","./","./index.html","./taxonomia.js?v=136","./provas.js?v=136","./banco.js?v=136","./flash.js?v=136",
+           "./pratica.js?v=136","./leituras.js?v=136","./nuvem.js?v=136","./turma.js?v=136","./indice-leituras.js?v=136","./manifest.webmanifest",
+           "./leituras/_leitura.css?v=136","./leituras/_leitura.js?v=136"];
 /* As figuras (leituras/fig/*.svg) NÃO entram no precache — são 41 arquivos e 291 KB, e nem toda
    leitura usa todas. Elas caem no cache pela regra geral de estáticos (stale-while-revalidate)
    na primeira vez que a leitura abre online, e a partir daí funcionam offline. */

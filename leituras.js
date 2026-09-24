@@ -290,9 +290,9 @@ window.LEITURAS=[
   s:"Declínio funcional hospitalar, admissão preventiva, delirium, imobilidade e quedas, lesão por pressão, nutrição e disfagia, sonda, incontinência e constipação, apresentação atípica da doença aguda, alta e transição de cuidado, metas de cuidado, segundo NICE, AGS e Ministério da Saúde."},
 
  {grupo:"Psiquiatria e dermatologia na clínica", sub:"as duas que o clínico resolve"},
- {f:"depressao-ansiedade.html", tipo:"APA, NICE e MS", area:"psiq", min:23,
+ {f:"depressao-ansiedade.html", tipo:"CANMAT 2023, NICE NG222 e ACP 2023 · monografia", area:"psiq", min:75,
   t:"Depressão, ansiedade e risco de suicídio no consultório do clínico",
-  s:"Depressão, ansiedade e risco de suicídio na clínica geral segundo APA, NICE e Ministério da Saúde: diagnóstico, rastreio de mania, tratamento e resposta insuficiente, avaliação do risco de suicídio, transtornos de ansiedade, obsessivo-compulsivo e estresse pós-traumático, benzodiazepínicos e interações."},
+  s:"Depressão, ansiedade e risco de suicídio na clínica geral segundo CANMAT 2023, NICE NG222 e ACP 2023: rastreio, DSM-5-TR, bipolaridade e luto, plano de segurança, escolha e dose do antidepressivo, resistência, escetamina e eletroconvulsoterapia, efeitos adversos, populações especiais, ansiedade, benzodiazepínicos e sintomas somáticos."},
  {f:"psicose-agitacao-substancias.html", tipo:"Project BETA e APA", area:"psiq", min:22,
   t:"Psicose, agitação e substâncias",
   s:"Emergência psiquiátrica segundo Project BETA e APA: exclusão de causa orgânica, agitação, primeiro episódio psicótico, antipsicóticos, síndrome neuroléptica maligna e distonia aguda, mania, lítio, álcool e outras substâncias, redução de danos e internação involuntária."},

@@ -13,7 +13,7 @@ Onda 6: [x] hepatites-masld [x] disfagia-esofago [x] diarreia-ma-absorcao [x] ep
 Onda 7: [x] demencias-parkinson [x] doencas-neuromusculares [x] esclerose-multipla [x] tontura-e-vertigem [x] artrite-reumatoide [x] lupus-vasculites
 Onda 8: [x] cristais-espondilo [x] sjogren-esclerose-miopatias [x] dor-musculoesqueletica [x] glomerulopatias [x] nefrolitiase-itu [x] dialise-e-transplante
 Onda 9: [x] rim-e-farmacos [x] rim-nas-doencas-sistemicas [x] intoxicacoes [x] politraumatizado [x] via-aerea-e-intubacao [x] ventilacao-mecanica
-Onda 10: [x] sedacao-analgesia-delirium [x] nutricao-do-paciente-critico [ ] depressao-ansiedade [ ] bipolar-e-psicofarmacos [ ] psicose-agitacao-substancias [ ] insonia-e-sono
+Onda 10: [x] sedacao-analgesia-delirium [x] nutricao-do-paciente-critico [x] depressao-ansiedade [ ] bipolar-e-psicofarmacos [ ] psicose-agitacao-substancias [ ] insonia-e-sono
 Onda 11: [ ] idoso-hospitalizado [ ] polifarmacia-desprescricao [ ] sindromes-geriatricas [ ] paliativos [ ] canceres-mais-comuns [ ] rastreamento-cancer
 Onda 12: [ ] emergencias-oncologicas [ ] toxicidade-oncologica [ ] febre-origem-indeterminada [ ] infeccoes-tropicais [ ] ist [ ] vacinacao-do-adulto
 Onda 13: [ ] doencas-intersticiais [ ] hipertensao-pulmonar-sono [ ] prova-de-funcao-pulmonar [ ] tosse-cronica-e-bronquiectasias [ ] dermatoses-comuns [ ] farmacodermias-graves
