@@ -285,9 +285,9 @@ window.LEITURAS=[
  {f:"polifarmacia-desprescricao.html", tipo:"Beers 2023 e STOPP/START v3 · monografia", area:"geriatria", min:75,
   t:"Polifarmácia e desprescrição",
   s:"Polifarmácia e desprescrição no idoso segundo os critérios de Beers 2023 da American Geriatrics Society, os critérios STOPP/START versão 3 e as diretrizes canadenses do deprescribing.org: epidemiologia, farmacologia do envelhecimento, cascatas de prescrição, carga anticolinérgica, interações, revisão estruturada, retirada classe por classe, adesão, reconciliação na transição de cuidado e decisão compartilhada."},
- {f:"idoso-hospitalizado.html", tipo:"NICE, AGS e Ministério da Saúde", area:"geriatria", min:23,
+ {f:"idoso-hospitalizado.html", tipo:"NICE, World Falls, ACS/AGS e Beers 2023 · monografia", area:"geriatria", min:75,
   t:"O idoso hospitalizado",
-  s:"Declínio funcional hospitalar, admissão preventiva, delirium, imobilidade e quedas, lesão por pressão, nutrição e disfagia, sonda, incontinência e constipação, apresentação atípica da doença aguda, alta e transição de cuidado, metas de cuidado, segundo NICE, AGS e Ministério da Saúde."},
+  s:"O idoso internado segundo NICE, World Falls Guidelines, ACS/AGS e Beers 2023: avaliação funcional e de fragilidade na admissão, apresentação atípica, declínio funcional, prevenção de delirium e de quedas, dispositivos, nutrição, lesão por pressão, dor, anticoagulação, perioperatório, alta segura, diretivas antecipadas e violência contra a pessoa idosa."},
 
  {grupo:"Psiquiatria e dermatologia na clínica", sub:"as duas que o clínico resolve"},
  {f:"depressao-ansiedade.html", tipo:"CANMAT 2023, NICE NG222 e ACP 2023 · monografia", area:"psiq", min:75,
