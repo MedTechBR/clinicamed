@@ -118,9 +118,9 @@ window.LEITURAS=[
  {f:"sjogren-esclerose-miopatias.html", tipo:"ACR/EULAR 2016, 2013 e 2017, EULAR 2023, ERS/EULAR 2026 · monografia", area:"reumato", min:75,
   t:"Sjögren, esclerose sistêmica e miopatias inflamatórias",
   s:"Doença de Sjögren (critérios ACR/EULAR 2016, tratamento EULAR por órgão e gravidade, linfoma e gestação com anti-Ro), Raynaud primário e secundário com capilaroscopia, esclerose sistêmica (critérios ACR/EULAR 2013, formas, autoanticorpos, úlceras, crise renal, doença intersticial e hipertensão pulmonar pelo DETECT, segundo a EULAR 2023 e a ERS/EULAR 2026), miopatias inflamatórias (critérios EULAR/ACR 2017, anticorpos, rastreio de câncer pelo IMACS 2023, miopatia necrosante por estatina, corpos de inclusão e tratamento) e doença mista do tecido conjuntivo."},
- {f:"dor-musculoesqueletica.html", tipo:"EULAR, ACP e SBR", area:"reumato", min:21,
-  t:"Dor musculoesquelética, fibromialgia e lombalgia",
-  s:"Mecanismos de dor, dor inflamatória versus mecânica, lombalgia e seu tratamento, dor periarticular regional, osteoartrite, fibromialgia e polimialgia reumática, segundo EULAR, ACP e SBR."},
+ {f:"dor-musculoesqueletica.html", tipo:"ACP 2017, NICE, ACR 2019, EULAR, CDC 2022 · monografia", area:"reumato", min:74,
+  t:"Dor musculoesquelética, lombalgia, fibromialgia e osteoporose",
+  s:"Lombalgia aguda e crônica, ciática, cauda equina, cervicalgia, radiculopatia e mielopatia cervical, ombro doloroso, osteoartrite, fibromialgia, polimialgia reumática, dor regional complexa, osteoporose e uso de opioide na dor crônica, pelas diretrizes vigentes: ACP 2017, NICE NG59 (revisão de 2026), AO Spine 2017, ACR e OARSI 2019, EULAR, Endocrine Society, SBEM e ABRASSO, USPSTF 2025 e CDC 2022."},
 
  {grupo:"Pneumologia", sub:"diretrizes de 2026"},
  {f:"radiografia-torax.html", tipo:"Fleischner Society 2024 · monografia", area:"pneumo", min:89,
