@@ -324,9 +324,9 @@ window.LEITURAS=[
  {f:"raras-abordagem.html", tipo:"Portaria GM/MS 199/2014 e ACMG/AMP 2015 · abordagem sindrômica", area:"sus", min:62,
   t:"Abordagem das doenças raras",
   s:"Abordagem geral do adulto com suspeita de doença rara: definição e epidemiologia pela Orphanet e pela Rede Nacional de Doenças Raras, odisseia diagnóstica, Política Nacional (Portaria GM/MS 199/2014) e serviços de referência do SUS, sinais de alerta, heredograma e padrões de herança, escolha do teste genético, classificação de variantes pelo ACMG/AMP 2015, aconselhamento genético, LGPD, triagem neonatal ampliada (Lei 14.154/2021), medicamentos órfãos, judicialização e transição do cuidado pediátrico para o adulto."},
- {f:"raras-deposito-metabolicas.html", tipo:"PCDT e consensos", area:"endocrino", min:23,
+ {f:"raras-deposito-metabolicas.html", tipo:"PCDT 2020 a 2025 e consensos · monografia", area:"endocrino", min:62,
   t:"Doenças de depósito e metabólicas do adulto",
-  s:"Doenças de Fabry, Gaucher e Pompe de início tardio, doença de Wilson, hemocromatose hereditária, deficiência de alfa-1-antitripsina, porfirias agudas, homocistinúria e doenças mitocondriais do adulto, com o exame diagnóstico e o tratamento de cada uma, segundo PCDT e consensos."},
+  s:"As doenças raras que o clínico de adulto precisa reconhecer porque têm tratamento específico: Fabry, Gaucher tipo 1, Pompe de início tardio e mucopolissacaridoses, porfirias agudas e porfiria cutânea tarda, hemocromatose, Wilson, deficiência de alfa-1-antitripsina, hiperamonemia por defeito do ciclo da ureia, doenças mitocondriais, amiloidose hereditária por transtirretina e hipofosfatasia. Para cada uma, a pista clínica, o exame que decide, o erro que atrasa o diagnóstico e o que o SUS oferece segundo os PCDT vigentes."},
  {f:"raras-sistemicas.html", tipo:"Consensos internacionais", area:"reumato", min:25,
   t:"Doenças raras sistêmicas",
   s:"Amiloidose, sarcoidose, doença relacionada a IgG4, linfo-histiocitose hemofagocítica, febres periódicas e doenças autoinflamatórias, Behçet, mastocitose, doença de Castleman e POEMS e imunodeficiência primária no adulto, segundo consensos internacionais."}
