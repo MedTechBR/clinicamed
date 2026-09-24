@@ -35,6 +35,8 @@
 >   inserção, trechos, PNGs) vai em `/private/tmp/claude-501/-Users-matheusparente/d51ccb09-be43-4e60-9a61-a91a40317e8f/scratchpad/mono-<slug>/`,
 >   nunca na raiz do scratchpad nem com nome genérico (em 24/09 um script sobrescrito jogou texto do AVC
 >   dentro do diabetes). Todo script de inserção deve checar o NOME do arquivo-alvo antes de escrever.
+> - **Links entre leituras:** outras leituras apontam para âncoras da sua (`grep -o '<slug>.html#[a-z0-9-]*' leituras/*.html`).
+>   Mantenha essas âncoras (ids) na versão nova e rode `python3 docs/confere_links_cruzados.py` antes de terminar.
 > - **Entrada do índice:** `leituras/_entradas_<slug>.json` (mesmo formato abaixo). Mantenha o mesmo
 >   `f`, a mesma `area` e o mesmo arquivo `leituras/<slug>.html`. Kicker e `tipo` terminam em
 >   `· monografia` (ou `· abordagem sindrômica`).
