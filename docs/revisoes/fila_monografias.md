@@ -16,7 +16,7 @@ Onda 9: [x] rim-e-farmacos [x] rim-nas-doencas-sistemicas [x] intoxicacoes [x] p
 Onda 10: [x] sedacao-analgesia-delirium [x] nutricao-do-paciente-critico [x] depressao-ansiedade [x] bipolar-e-psicofarmacos [x] psicose-agitacao-substancias [x] insonia-e-sono
 Onda 11: [x] idoso-hospitalizado [x] polifarmacia-desprescricao [x] sindromes-geriatricas [x] paliativos [x] canceres-mais-comuns [x] rastreamento-cancer
 Onda 12: [x] emergencias-oncologicas [x] toxicidade-oncologica [x] febre-origem-indeterminada [x] infeccoes-tropicais [x] ist [x] vacinacao-do-adulto
-Onda 13: [ ] doencas-intersticiais [x] hipertensao-pulmonar-sono [ ] prova-de-funcao-pulmonar [ ] tosse-cronica-e-bronquiectasias [ ] dermatoses-comuns [ ] farmacodermias-graves
+Onda 13: [ ] doencas-intersticiais [x] hipertensao-pulmonar-sono [x] prova-de-funcao-pulmonar [ ] tosse-cronica-e-bronquiectasias [ ] dermatoses-comuns [ ] farmacodermias-graves
 Onda 14: [ ] derma-clinica [ ] raras-abordagem [ ] raras-deposito-metabolicas [ ] raras-sistemicas [ ] sus-principios [ ] etica-medica
 
 ## Recados para redatores futuros (achados cruzados)
