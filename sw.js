@@ -3,15 +3,22 @@
    versão velha e a correção vira fantasma.
    Estáticos usam stale-while-revalidate: bump de versão não basta quando a borda do CDN
    devolve conteúdo velho para o precache. HTML é network-first. */
-const CACHE="cm-v162", FONTES="cm-fontes-v1", LIVROS="cm-livros-v1";
-const PRE=["./assets/fonts/inter-400.ttf","./assets/fonts/inter-500.ttf","./assets/fonts/inter-600.ttf","./assets/fonts/inter-700.ttf","./","./index.html","./taxonomia.js?v=162","./provas.js?v=162","./banco.js?v=162","./flash.js?v=162",
-           "./pratica.js?v=162","./leituras.js?v=162","./nuvem.js?v=162","./turma.js?v=162","./indice-leituras.js?v=162","./manifest.webmanifest",
-           "./leituras/_leitura.css?v=162","./leituras/_leitura.js?v=162"];
+const CACHE="cm-v163", FONTES="cm-fontes-v1", LIVROS="cm-livros-v1";
+const PRE=["./assets/fonts/inter-400.ttf","./assets/fonts/inter-500.ttf","./assets/fonts/inter-600.ttf","./assets/fonts/inter-700.ttf","./","./index.html","./taxonomia.js?v=163","./provas.js?v=163","./banco.js?v=163","./flash.js?v=163",
+           "./pratica.js?v=163","./leituras.js?v=163","./mtsync.js?v=163","./nuvem.js?v=163","./turma.js?v=163","./indice-leituras.js?v=163","./manifest.webmanifest",
+           "./leituras/_leitura.css?v=163","./leituras/_leitura.js?v=163"];
+/* SDK da conta (Firebase 10.13.2), vendorizado. Fica no balde FONTES, que sobrevive ao bump:
+   sem ele o app não abre offline depois de um deploy, e baixar 515 KB a cada versão é
+   desperdício. Sem "./" de propósito: o bump.py não versiona, e o mtsync pede estes caminhos. */
+const VENDOR=["vendor/firebase-app-compat.js","vendor/firebase-auth-compat.js","vendor/firebase-firestore-compat.js"];
 /* As figuras (leituras/fig/*.svg) NÃO entram no precache — são 41 arquivos e 291 KB, e nem toda
    leitura usa todas. Elas caem no cache pela regra geral de estáticos (stale-while-revalidate)
    na primeira vez que a leitura abre online, e a partir daí funcionam offline. */
 self.addEventListener("install",e=>{
-  e.waitUntil(caches.open(CACHE).then(c=>Promise.allSettled(PRE.map(u=>c.add(u)))).then(()=>self.skipWaiting()));
+  e.waitUntil(Promise.all([
+    caches.open(CACHE).then(c=>Promise.allSettled(PRE.map(u=>c.add(u)))),
+    caches.open(FONTES).then(c=>Promise.allSettled(VENDOR.map(u=>c.match(u).then(h=>h||c.add(u)))))
+  ]).then(()=>self.skipWaiting()));
 });
 self.addEventListener("activate",e=>{
   e.waitUntil(caches.keys().then(ks=>Promise.all(
@@ -40,6 +47,12 @@ self.addEventListener("fetch",e=>{
     })); return;
   }
   if(url.origin!==location.origin)return;
+  if(url.pathname.includes("/vendor/firebase-")){
+    e.respondWith(caches.open(FONTES).then(async c=>{
+      const hit=await c.match(req,{ignoreSearch:true}); if(hit)return hit;
+      const r=await fetch(req); if(r.ok)c.put(req,r.clone()); return r;
+    })); return;
+  }
   /* HTML é network-first, mas AGORA GUARDA o que baixou. Antes não guardava: o app abria offline
      e as 97 leituras não — a leitura caía no fallback e servia o index.html DENTRO do iframe, que
      é o app inteiro dentro da leitura. O fallback usa caches.match global de propósito, para achar

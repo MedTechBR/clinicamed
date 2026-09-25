@@ -1,90 +1,34 @@
 /* ================================================================
-   ClínicaMed — conta MedTech e sincronização entre aparelhos.
+   ClínicaMed — conta MedTech e sincronização (versão de 25/09/2026).
 
-   Login é OBRIGATÓRIO desde 07/09/2026: a coordenação acompanha o
-   desempenho dos residentes, e quem estuda sem conta não aparece para
-   ninguém. Quem já entrou uma vez neste aparelho continua entrando SEM
-   internet — a sessão do Firebase fica gravada aqui e o módulo do login
-   está no cache do service worker. Sem nunca ter entrado e sem rede, o
-   app não abre, e diz isso com todas as letras.
+   Todo o trabalho pesado está no mtsync.js (cópia de ~/Documents/Claude/_mtsync/, testado
+   por `node _mtsync/teste.js`): portão de login, um documento por item na nuvem, fila
+   offline do próprio Firestore e recebimento em tempo real. Aqui ficam só as coisas do
+   ClínicaMed:
+     - quais chaves sincronizam e de que tipo são;
+     - o resumo que a coordenação lê (users/{uid}/apps/clinicamed_resumo);
+     - a migração, uma vez por conta, do formato antigo (um pacote só em apps/clinicamed);
+     - o chip do cabeçalho e o bloco "Conta" de Ajustes.
 
-   Por que NÃO usamos o MT.save cru do _mtauth.js: ele grava o estado
-   inteiro num doc só (setDoc merge) — isso é last-write-wins, e foi
-   exatamente assim que o Granaê apagou dados. Aqui o que chega da nuvem é
-   MESCLADO item a item, com carimbo por item e lápide para exclusão, e só
-   depois gravado. O MT.save é usado apenas como transporte, já com o
-   resultado da mesclagem pronto.
+   Pedido do Matheus (25/09): o app só abre logado, a sincronização é automática e o
+   cliente nunca precisa fazer backup. Por isso não há mais exportar/importar/restaurar.
 
-   O QUE SINCRONIZA (progresso de verdade):
-     resp, fav, flash, treino, lidas, atividade, sim, contest, erros
-   O QUE NÃO SINCRONIZA (tela deste aparelho):
-     cfg (aba aberta, tema, filtros), pos (posição na lista), simativo
-     (simulado em andamento). Sincronizar isso teleportaria a tela do
-     outro celular para cá no meio do estudo.
+   NÃO sincronizam (são a tela deste aparelho): cfg (aba, tema, filtros), pos, simativo.
+   erros é derivado de resp: é recalculado quando chegam respostas de outro aparelho.
    ================================================================ */
 const NUVEM=(function(){
 
-/* mapas chave→valor: carimbo por item, lápide na exclusão */
-const MAPAS=["resp","fav","flash","treino","lidas","prog"];
-/* listas com identidade própria: união pelo campo, sem carimbo */
-const LISTAS={sim:"quando",contest:"quando"};
-/* atividade é {dia:n} e se resolve pelo maior; erros é DERIVADO de resp */
-const SINC=[...MAPAS,"atividade",...Object.keys(LISTAS),"erros"];
+const COLECOES={
+  resp:{tipo:"hist",teto:60},
+  fav:{tipo:"mapa"}, flash:{tipo:"mapa"}, treino:{tipo:"mapa"}, lidas:{tipo:"mapa"}, prog:{tipo:"mapa"},
+  atividade:{tipo:"soma"},
+  sim:{tipo:"lista",id:"quando",ordena:(a,b)=>String(a.quando).localeCompare(String(b.quando))},
+  contest:{tipo:"lista",id:"quando",teto:60,ordena:(a,b)=>String(b.quando).localeCompare(String(a.quando))}
+};
 
-const TETO_AVISO=800*1024, TETO_DURO=950*1024;   /* doc do Firestore: 1 MB */
+let coord=null, ultimoResumo="", resumoT=null;
 
-let CAR={}, LAP={}, FOTO={};          /* carimbos, lápides, retrato do último estado visto */
-let usuario=null, modo="local", aplicando=false, ultimoEnv="", ultimoSync=null, pend=null, avisouTeto=false;
-/* O MT.save do _mtauth.js EMITE o pacote para os ouvintes de MT.onData (síncrono, antes de
-   gravar na nuvem). Sem estas duas travas, o nosso próprio envio voltava como "dado novo",
-   a mesclagem chamava envia() de novo e a recursão só parava no estouro de pilha — mais de
-   mil gravações por toque, tela presa por segundos. */
-let enviando=false, reenviar=false, eco=null;
-
-const clona=o=>JSON.parse(JSON.stringify(o));
-/* JSON.stringify depende da ORDEM das chaves, e a mesclagem monta o objeto em ordens
-   diferentes em cada aparelho (aqui as locais primeiro, lá as remotas). Comparar assim faria
-   os dois acharem que houve mudança a cada rodada e ficarem se reenviando o mesmo estado
-   para sempre. Daí a serialização estável, com as chaves ordenadas. */
-function estavel(o){
-  if(o===null||typeof o!=="object")return JSON.stringify(o);
-  if(Array.isArray(o))return "["+o.map(estavel).join(",")+"]";
-  return "{"+Object.keys(o).sort().map(k=>JSON.stringify(k)+":"+estavel(o[k])).join(",")+"}";
-}
-const igual=(a,b)=>estavel(a)===estavel(b);
-function leMeta(k){try{return JSON.parse(localStorage.getItem(k))||{}}catch(e){return {}}}
-function gravaMeta(){try{localStorage.setItem(PREF+"car",JSON.stringify(CAR));
-  localStorage.setItem(PREF+"lap",JSON.stringify(LAP))}catch(e){}}
-
-/* ---------- carimbo: chamado a CADA salva(), sem tocar nos pontos de escrita ----------
-   Diferença contra o retrato em memória: o que mudou ganha carimbo, o que sumiu ganha
-   lápide. Sem lápide, o item excluído aqui volta do outro aparelho na mesclagem. */
-function carimba(k,v){
-  if(!MAPAS.includes(k)){ if(SINC.includes(k))FOTO[k]=clona(v); return }
-  const ag=Date.now(), ant=FOTO[k]||{}, car=CAR[k]||(CAR[k]={}), lap=LAP[k]||(LAP[k]={});
-  if(!aplicando){
-    Object.keys(v).forEach(ch=>{ if(!(ch in ant)||!igual(ant[ch],v[ch])){car[ch]=ag;delete lap[ch]} });
-    Object.keys(ant).forEach(ch=>{ if(!(ch in v)){lap[ch]=ag;delete car[ch]} });
-    gravaMeta();
-  }
-  FOTO[k]=clona(v);
-}
-
-/* ---------- mesclagem ---------- */
-function uneHist(a,b){
-  const ha=((a||{}).hist)||[], hb=((b||{}).hist)||[];
-  if(!ha.length&&!hb.length)return null;
-  const vis=new Set(), out=[];
-  ha.concat(hb).forEach(r=>{const id=(r&&r.ts)||(r&&r.d+"|"+r.alt+"|"+r.ok);
-    if(id===undefined||vis.has(id))return; vis.add(id); out.push(r)});
-  out.sort((x,y)=>(x.ts||0)-(y.ts||0));
-  return {...(a||{}),...(b||{}),hist:out.slice(-60)};
-}
-function maiorCarimbo(a,b){const o={...(a||{})};
-  Object.keys(b||{}).forEach(k=>{if(!(k in o)||b[k]>o[k])o[k]=b[k]});return o}
-/* erros não se mescla: ele é consequência de resp. Uma questão fica na lista de erros
-   enquanto tiver algum erro no histórico e menos de 2 acertos seguidos no fim — que é
-   exatamente a regra do registraResposta(). Derivar evita ressuscitar erro já vencido. */
+/* ---------- erros derivados de resp (mesma regra do registraResposta) ---------- */
 function derivaErros(resp){
   const out=[];
   Object.keys(resp||{}).forEach(ch=>{
@@ -96,62 +40,9 @@ function derivaErros(resp){
   return out;
 }
 
-function mescla(rem){
-  if(!rem||typeof rem!=="object"||rem.ap!=="clinicamed")return false;
-  const rd=rem.d||{}, rc=rem.c||{}, rl=rem.l||{};
-  let mudou=false;
-  aplicando=true;
-  try{
-    MAPAS.forEach(k=>{
-      const loc=ST[k]||{}, rv=rd[k]||{};
-      if(!rv||typeof rv!=="object")return;
-      const cl=CAR[k]||{}, cr=rc[k]||{}, ll=LAP[k]||{}, lr=rl[k]||{}, out={};
-      const chaves=new Set(Object.keys(loc).concat(Object.keys(rv)));
-      chaves.forEach(ch=>{
-        /* item que existe mas nunca foi carimbado (dado anterior à nuvem) vale 1:
-           mais que "não existe" (0) e menos que qualquer escrita datada. */
-        const tl=(ch in loc)?(cl[ch]||1):0, tr=(ch in rv)?(cr[ch]||1):0;
-        const lap=Math.max(ll[ch]||0, lr[ch]||0);
-        if(lap>Math.max(tl,tr))return;                 /* apagado depois de escrito */
-        if(k==="resp"){const u=uneHist(loc[ch],rv[ch]); if(u)out[ch]=u; return}
-        out[ch]= tr>tl ? rv[ch] : ((ch in loc)?loc[ch]:rv[ch]);
-      });
-      CAR[k]=maiorCarimbo(cl,cr); LAP[k]=maiorCarimbo(ll,lr);
-      if(!igual(out,loc)){ST[k]=out;salva(k,out);mudou=true}
-    });
-
-    /* atividade: dois aparelhos no mesmo dia não têm como saber o que é sobreposto;
-       o maior é o único palpite que nunca infla o número. */
-    const ra=rd.atividade;
-    if(ra&&typeof ra==="object"){
-      const out={...(ST.atividade||{})};
-      Object.keys(ra).forEach(d=>{const n=+ra[d]||0; if(n>(out[d]||0))out[d]=n});
-      if(!igual(out,ST.atividade)){ST.atividade=out;salva("atividade",out);mudou=true}
-    }
-
-    Object.keys(LISTAS).forEach(k=>{
-      const campo=LISTAS[k], loc=Array.isArray(ST[k])?ST[k]:[], rv=Array.isArray(rd[k])?rd[k]:[];
-      const vis=new Set(), out=[];
-      loc.concat(rv).forEach(it=>{const id=it&&it[campo]; if(!id||vis.has(id))return;vis.add(id);out.push(it)});
-      out.sort((a,b)=>String(a[campo]).localeCompare(String(b[campo])));
-      if(k==="contest"){out.reverse(); out.splice(60)}
-      if(!igual(out,loc)){ST[k]=out;salva(k,out);mudou=true}
-    });
-
-    const er=derivaErros(ST.resp);
-    if(!igual(er,ST.erros)){ST.erros=er;salva("erros",er);mudou=true}
-    gravaMeta();
-  } finally { aplicando=false }
-  return mudou;
-}
-
 /* ---------- resumo para a coordenação ----------------------------------
-   Quem tem o banco de questões é o cliente: só aqui a chave da resposta vira área do
-   edital. Então o resumo é calculado no aparelho e publicado num doc PEQUENO e separado
-   (apps/clinicamed_resumo). A coordenação lê esse doc — nunca o caderno de respostas:
-   ela acompanha desempenho, não o que a pessoa respondeu em cada questão.
-   "acertos" conta questão cuja ÚLTIMA tentativa foi certa, igual ao painel do aluno;
-   "respondidas" conta todas as tentativas, inclusive as repetidas. */
+   Calculado no aparelho (só aqui a chave da resposta vira área do edital) e publicado num
+   doc pequeno e separado. A coordenação lê esse doc, nunca o caderno de respostas. */
 function resumo(){
   const resp=ST.resp||{}, porArea={};
   let tentativas=0, unicas=0, acertos=0;
@@ -173,154 +64,148 @@ function resumo(){
     diasAtivos:dias.length, ultimos7, ultimaAtividade:dias[dias.length-1]||"",
     porArea, versao:(typeof V!=="undefined")?V:""};
 }
-let ultimoResumo="", coord=null;
+function agendaResumo(){ clearTimeout(resumoT); resumoT=setTimeout(publicaResumo,4000) }
 async function publicaResumo(){
-  if(!usuario||!window.MT||!MT._fb)return;
+  const u=MTS.usuario; if(!u||!MTS.db)return;
   const r=resumo(), s=JSON.stringify(r);
   if(s===ultimoResumo)return;
   try{
-    const {db,F}=MT._fb;
-    await F.setDoc(F.doc(db,"users",usuario.uid,"apps","clinicamed_resumo"),
-      {json:s, atualizadoEm:new Date().toISOString(),
-       nome:usuario.displayName||"", email:usuario.email||""},{merge:true});
+    await MTS.db.collection("users").doc(u.uid).collection("apps").doc("clinicamed_resumo")
+      .set({json:s, atualizadoEm:new Date().toISOString(), nome:u.displayName||"", email:u.email||""},{merge:true});
     ultimoResumo=s;
   }catch(e){ console.warn("nuvem: resumo não publicado",e) }
 }
-/* A pessoa tem de PODER SABER que é acompanhada. A coordenação grava este doc na área
-   dela quando a inclui na turma, e o app mostra isso em Ajustes. */
+/* A pessoa tem de PODER SABER que é acompanhada: a coordenação grava este doc na área dela. */
 async function leCoord(){
-  if(!usuario||!window.MT||!MT._fb){coord=null;return}
-  try{ const {db,F}=MT._fb;
-    const s=await F.getDoc(F.doc(db,"users",usuario.uid,"apps","clinicamed_coord"));
-    coord=s.exists()?s.data():null;
+  const u=MTS.usuario; if(!u||!MTS.db){coord=null;return}
+  try{ const s=await MTS.db.collection("users").doc(u.uid).collection("apps").doc("clinicamed_coord").get();
+    coord=s.exists?s.data():null;
   }catch(e){ coord=null }
 }
 
-/* ---------- transporte ---------- */
-function pacote(){
-  const d={}; SINC.forEach(k=>{if(ST[k]!==undefined)d[k]=ST[k]});
-  const c={},l={}; MAPAS.forEach(k=>{if(CAR[k])c[k]=CAR[k];if(LAP[k])l[k]=LAP[k]});
-  return {v:1,ap:"clinicamed",t:Date.now(),d,c,l};
+/* ---------- migração do formato antigo (uma vez por conta) ----------
+   Até 24/09 a nuvem guardava tudo num pacote só: users/{uid}/apps/clinicamed = {json}.
+   Um aparelho que nunca abriu a versão nova ainda pode ter progresso só lá. Mescla aqui:
+   histórico unido, o resto pelo carimbo antigo, listas unidas pelo "quando". */
+async function legado(ctx){
+  const ref=ctx.db.collection("users").doc(ctx.uid).collection("apps").doc("clinicamed");
+  const snap=await Promise.race([ref.get({source:"server"}),new Promise((_,f)=>setTimeout(()=>f(new Error("tempo")),9000))]);
+  if(!snap.exists)return true;
+  let rem; try{rem=JSON.parse(snap.data().json||"null")}catch(e){return true}
+  if(!rem||rem.ap!=="clinicamed")return true;
+  const rd=rem.d||{}, rc=rem.c||{}, rl=rem.l||{};
+  let cl={},ll={}; try{cl=JSON.parse(localStorage.getItem(PREF+"car"))||{};ll=JSON.parse(localStorage.getItem(PREF+"lap"))||{}}catch(e){}
+  const N=MTS.NUCLEO;
+  ["resp","fav","flash","treino","lidas","prog"].forEach(k=>{
+    const loc=ST[k]||{}, rv=rd[k]; if(!rv||typeof rv!=="object")return;
+    const out={...loc}, car=cl[k]||{}, cr=rc[k]||{}, lapL=ll[k]||{}, lapR=rl[k]||{};
+    Object.keys(rv).forEach(ch=>{
+      const tl=(ch in loc)?(car[ch]||1):0, tr=cr[ch]||1, lap=Math.max(lapL[ch]||0,lapR[ch]||0);
+      if(lap>Math.max(tl,tr))return;
+      if(k==="resp"){const h=N.uneEntradas(((loc[ch]||{}).hist)||[],((rv[ch]||{}).hist)||[],0,60);
+        if(h.length)out[ch]={...(loc[ch]||{}),...(rv[ch]||{}),hist:h}; return}
+      if(!(ch in loc)||tr>tl)out[ch]=rv[ch];
+    });
+    if(N.estavel(out)!==N.estavel(loc)){ST[k]=out;ARM.save(PREF+k,out)}
+  });
+  /* atividade só entra se o motor ainda não começou: depois disso a contagem é por aparelho */
+  if(!ctx.depois&&rd.atividade&&typeof rd.atividade==="object"){
+    const out={...(ST.atividade||{})};
+    Object.keys(rd.atividade).forEach(d=>{const n=+rd.atividade[d]||0;if(n>(out[d]||0))out[d]=n});
+    ST.atividade=out;ARM.save(PREF+"atividade",out);
+  }
+  [["sim",false],["contest",true]].forEach(([k,desc])=>{
+    const loc=Array.isArray(ST[k])?ST[k]:[], rv=Array.isArray(rd[k])?rd[k]:[]; if(!rv.length)return;
+    const vis=new Set(),out=[];
+    loc.concat(rv).forEach(it=>{const id=it&&it.quando;if(!id||vis.has(id))return;vis.add(id);out.push(it)});
+    out.sort((a,b)=>String(a.quando).localeCompare(String(b.quando))); if(desc){out.reverse();out.splice(60)}
+    ST[k]=out;ARM.save(PREF+k,out);
+  });
+  const er=derivaErros(ST.resp); ST.erros=er; ARM.save(PREF+"erros",er);
+  return true;
 }
-async function envia(){
-  if(!usuario||!window.MT)return;
-  if(enviando){reenviar=true;return}                 /* já há um envio no ar: repete ao terminar */
-  const p=pacote(), s=JSON.stringify(p);
-  const corpo=estavel({...p,t:0});                 /* o carimbo t muda sempre; fora da comparação */
-  if(corpo===ultimoEnv)return;
-  if(s.length>TETO_DURO){UI.banner("erro",`Seu progresso passou de ${Math.round(s.length/1024)} KB e não cabe mais num registro da nuvem. Exporte o backup em Ajustes — a gravação local segue normal.`,true);return}
-  if(s.length>TETO_AVISO&&!avisouTeto){avisouTeto=true;
-    UI.banner("avi",`O progresso já ocupa ${Math.round(s.length/1024)} KB dos 1000 KB que cabem na nuvem.`)}
-  enviando=true; eco=p;
-  try{ await MT.save(p); ultimoEnv=corpo; ultimoSync=new Date(); pintaChip(); publicaResumo() }
-  catch(e){ console.warn("nuvem: falha ao enviar",e); pintaChip("erro") }
-  finally{ enviando=false; eco=null; if(reenviar){reenviar=false;agenda()} }
+
+/* ---------- apagar o que é da conta que saiu ---------- */
+async function limparLocal(){
+  try{Object.keys(localStorage).filter(k=>k.startsWith(PREF)&&k!==PREF+"tema").forEach(k=>localStorage.removeItem(k))}catch(e){}
+  try{Object.keys(localStorage).filter(k=>k.startsWith("mt_clinicamed")).forEach(k=>localStorage.removeItem(k))}catch(e){}
+  try{if(ARM.db)ARM.db.close()}catch(e){}
+  await new Promise(r=>{try{const q=indexedDB.deleteDatabase("cm-db");q.onsuccess=q.onerror=q.onblocked=()=>r()}catch(e){r()}});
 }
-function agenda(){ if(!usuario)return; clearTimeout(pend); pend=setTimeout(envia,2500) }
+
+/* ---------- chegou algo de outro aparelho ---------- */
+function aoReceber(cols){
+  if(cols.includes("resp")){const er=derivaErros(ST.resp);ST.erros=er;ARM.save(PREF+"erros",er)}
+  /* repinta só telas de consulta: redesenhar a questão aberta tiraria a pessoa do lugar */
+  const aba=(ST.cfg||{}).aba;
+  if(["inicio","painel","ajustes","leituras","cartoes"].includes(aba)&&typeof PINTA!=="undefined"&&PINTA[aba])PINTA[aba]();
+  agendaResumo();
+}
 
 /* ---------- chip do cabeçalho ---------- */
-function pintaChip(estado){
+function pintaChip(){
   const b=document.getElementById("btConta"); if(!b)return;
-  if(modo!=="nuvem"){b.hidden=true;return}
-  b.hidden=false;
-  if(usuario){
-    const nome=(usuario.displayName||usuario.email||"conta").split(/[ @]/)[0];
-    b.innerHTML=`<i class="ti ti-${estado==="erro"?"cloud-off":"cloud-check"}" aria-hidden="true"></i><span>${nome.replace(/[<>&]/g,"")}</span>`;
-    b.title=estado==="erro"?"Falha ao sincronizar — toque para ver":"Sincronizado com sua conta MedTech";
-    b.classList.add("logado");
-  } else { b.innerHTML=`<i class="ti ti-user-circle" aria-hidden="true"></i><span>Entrar</span>`; b.title="Entrar na conta MedTech"; b.classList.remove("logado") }
-  /* Trocador SÓ da linha MedTech Provas (o _mtauth v20 filtra pela linha do MT_APP). O trocador
-     antigo listava farmácia e gestão dentro de um app para médicos; o Matheus vetou em 07/09. */
-  const m=document.getElementById("btLinha");
-  if(m){m.hidden=!(usuario&&window.MT&&typeof MT.openSwitcher==="function");m.onclick=()=>MT.openSwitcher()}
-}
-function abreLogin(){
-  if(!window.MT)return;
-  if(!document.getElementById("mt-auth")&&window.__mtMountAuth)window.__mtMountAuth();
+  const u=MTS.usuario; if(!u){b.hidden=true;return}
+  b.hidden=false; b.classList.add("logado");
+  const s=MTS._sit, d=MTS.descreve(s);
+  const ico=d.cl==="erro"?"cloud-exclamation":d.cl==="pend"?(s.online?"cloud-upload":"cloud-off"):"cloud-check";
+  const nome=(u.displayName||u.email||"conta").split(/[ @]/)[0];
+  b.innerHTML=`<i class="ti ti-${ico}" aria-hidden="true"></i><span>${nome.replace(/[<>&]/g,"")}</span>`;
+  b.title=d.txt;
+  const m=document.getElementById("btLinha"); if(m)m.hidden=true;
 }
 
-/* ---------- trava de entrada ----------
-   libera() só é chamada com usuário confirmado. barra() escreve o motivo na própria
-   trava, em vez de deixar o app aberto: a alternativa silenciosa seria alguém estudar
-   fora da conta e não aparecer para a coordenação. */
-function libera(){
-  document.documentElement.classList.remove("travado");
-  const el=document.getElementById("cmTrava"); if(el)el.remove();
-}
-function barra(txt,botao){
-  const el=document.getElementById("cmTrava"); if(!el)return;
-  document.documentElement.classList.add("travado");
-  el.hidden=false;
-  const g=document.getElementById("cmTravaGiro"); if(g)g.hidden=!!txt;
-  const p=document.getElementById("cmTravaTxt"); if(p)p.textContent=txt||"Verificando sua conta MedTech…";
-  const b=document.getElementById("cmTravaBt"); if(!b)return;
-  b.hidden=!botao; b.innerHTML="";
-  if(botao){const x=document.createElement("button");x.className="bt";x.textContent=botao.txt;
-    x.onclick=botao.acao;b.appendChild(x)}
-}
-/* Deslogado, a trava sai da frente para o login do _mtauth aparecer — mas a rolagem
-   continua presa, porque o app inteiro segue atrás. */
-function esperaLogin(){
-  const el=document.getElementById("cmTrava"); if(el)el.hidden=true;
-  document.documentElement.classList.add("travado");
+function contaMarkup(){
+  const u=MTS.usuario; if(!u)return `<p class="mini">Abrindo sua conta…</p>`;
+  const d=MTS.descreve();
+  const cor=d.cl==="erro"?"var(--erro,#b42318)":d.cl==="pend"?"var(--ink2)":"var(--brandInk)";
+  return `<p class="mini">Conectado como <b>${esc(u.displayName||u.email||"")}</b>${u.displayName&&u.email?` (${esc(u.email)})`:""}.</p>
+   <p class="mini" id="ctSit" style="margin-top:6px;color:${cor}">${esc(d.txt)}</p>
+   <p class="mini" style="margin-top:6px">Tudo o que você faz é salvo sozinho na sua conta enquanto estuda, e aparece igual no celular e no computador. Sem internet, o app continua funcionando e envia depois.</p>
+   ${coord?`<p class="mini" style="margin-top:6px;padding:8px 10px;background:var(--aviSup);border-radius:8px">
+     <b>A coordenação acompanha seu desempenho neste app.</b> ${esc(coord.coordenador||"")}
+     ${coord.turma?`incluiu você na turma ${esc(coord.turma)}`:"incluiu você na turma"} e vê o resumo do seu estudo:
+     quantas questões você fez, o acerto por área, leituras concluídas, simulados e há quanto tempo você não entra.
+     O que você respondeu em cada questão <b>não</b> aparece para ninguém.</p>`:""}
+   <div class="linha" style="margin-top:10px"><button class="bt sec" id="btSair">Sair da conta</button>
+    <a class="bt sec" href="/provas.html">MedTech Provas</a></div>`;
 }
 
 /* ---------- boot ---------- */
-/* O _mtauth.js é <script type="module">, e módulo é diferido: roda DEPOIS de todo script
-   clássico da página, inclusive do boot. Por isso esperamos o window.MT aparecer em vez de
-   testá-lo uma vez só. Se ele nunca chegar (raiz do site fora do ar, primeira visita offline),
-   o app continua inteiro em modo local. */
-function esperaMT(ms){return new Promise(res=>{const t0=Date.now();
-  (function tenta(){ if(window.MT)return res(window.MT);
-    if(Date.now()-t0>ms)return res(null); setTimeout(tenta,60) })()})}
-
-/* síncrono, chamado logo depois do carregaEstado(): o retrato precisa existir ANTES da
-   primeira gravação, senão o primeiro salva() dataria o estado inteiro como novidade. */
-function init(){
-  CAR=leMeta(PREF+"car"); LAP=leMeta(PREF+"lap"); FOTO={};
-  SINC.forEach(k=>{if(ST[k]!==undefined)FOTO[k]=clona(ST[k])});
-}
-async function boot(){
-  init();
-  const semConta=m=>{modo="local";pintaChip();
-    barra(m,{txt:"Tentar de novo",acao:()=>location.reload()})};
-  await esperaMT(12000);
-  if(!window.MT||window.MT.mode!=="cloud")
-    return semConta("Não consegui carregar a conta MedTech. O ClínicaMed pede login, e para o primeiro acesso neste aparelho é preciso estar conectado. Depois disso ele abre sem internet.");
-  try{ await MT.ready }catch(e){
-    return semConta("A conta MedTech não respondeu. Verifique a conexão e tente de novo.") }
-  if(!MT._fb) return semConta("A conta MedTech não respondeu. Verifique a conexão e tente de novo.");
-  modo="nuvem";
-  const {A,auth}=MT._fb;
-  A.onAuthStateChanged(auth,u=>{
-    usuario=u||null;
-    if(u){ libera();
-      leCoord().then(()=>{if(typeof pintaAjustes==="function"&&(ST.cfg||{}).aba==="ajustes")pintaAjustes()});
-      if(typeof TURMA!=="undefined")TURMA.boot(); }
-    else { ultimoEnv="";ultimoResumo="";ultimoSync=null;coord=null;
-      esperaLogin();
-      if(typeof TURMA!=="undefined")TURMA.esconde(); }
+function boot(){
+  MTS.aoMudarSituacao(s=>{
     pintaChip();
-    if(typeof pintaAjustes==="function"&&ST.cfg.aba==="ajustes")pintaAjustes();
+    const el=document.getElementById("ctSit"); if(el){const d=MTS.descreve(s);el.textContent=d.txt}
+    if(!s.pendentes&&!s.enviando)agendaResumo();
   });
-  MT.onData(rem=>{
-    if(!usuario)return;
-    if(rem===eco){pintaChip();return}                /* eco do nosso próprio MT.save: nada a mesclar */
-    const mudou=mescla(rem);
-    ultimoSync=new Date();
-    if(mudou&&typeof repinta==="function")repinta();
-    envia();                       /* devolve o que o outro lado ainda não tem */
-    pintaChip();
+  MTS.iniciar({
+    app:"clinicamed", nome:"ClínicaMed", pref:PREF, vendor:"vendor/",
+    cores:(()=>{const c=getComputedStyle(document.documentElement);const g=k=>c.getPropertyValue(k).trim();
+      return {cor:g("--brand")||"#0B6A72",sobrecor:g("--brandTxt")||"#fff",fundo:g("--papel")||"#fff",texto:g("--ink")||"#1d2433",suave:g("--ink2")||"#5b6475",borda:g("--linhaF")||"#d5d9e0",campo:g("--papel")||"#fff"}})(),
+    colecoes:COLECOES,
+    ler:c=>ST[c],
+    gravar:(c,v)=>{ST[c]=v;ARM.save(PREF+c,v)},
+    aoReceber,
+    legado,
+    limparLocal,
+    /* primeiro contato da versão nova num aparelho que tinha outra conta aberta (a chave
+       mt_clinicamed_<uid> do login antigo diz de quem era): não herda o progresso alheio */
+    aoEntrar(u){
+      leCoord().then(()=>{if((ST.cfg||{}).aba==="ajustes")pintaAjustes()});
+      if(typeof TURMA!=="undefined")TURMA.boot();
+      pintaChip();
+      if((ST.cfg||{}).aba==="ajustes")pintaAjustes();
+    }
   });
-  addEventListener("visibilitychange",()=>{if(document.visibilityState==="hidden"){clearTimeout(pend);envia()}});
-  pintaChip();
 }
+/* conta que era de outra pessoa no login antigo: resolve antes do MTS decidir */
+(function(){try{
+  if(localStorage.getItem(PREF+"mts_uid"))return;
+  const antigos=Object.keys(localStorage).filter(k=>/^mt_clinicamed_.+/.test(k)).map(k=>k.slice("mt_clinicamed_".length));
+  if(antigos.length===1)localStorage.setItem(PREF+"mts_uid",antigos[0]);
+}catch(e){}})();
 
-/* mescla/pacote saem expostos de propósito: é por eles que a sincronização é testada fora do
-   navegador (scratchpad/teste_merge.js) e inspecionada no console quando algo não bate. */
-return {init,boot,carimba,agenda,abreLogin,mescla,pacote,
-  get modo(){return modo}, get usuario(){return usuario},
-  get ultimoSync(){return ultimoSync}, get coord(){return coord}, resumo,
-  sair(){ if(window.MT&&MT.signOut)MT.signOut() },
-  entrar:abreLogin};
+return {boot, mudou:k=>{if(COLECOES[k])MTS.mudou(k)}, resumo, pintaChip, contaMarkup,
+  get usuario(){return MTS.usuario}, get coord(){return coord},
+  sair(){MTS.sair()}};
 })();

@@ -12,14 +12,11 @@
    o RESUMO de cada aluno. O caderno de respostas de ninguém sai de lá.
    ================================================================ */
 const TURMA=(function(){
-let ehChefe=false, dados=null, carregando=false, erro="", Fn=null, so="", fora=null, buscandoFora=false;
+let ehChefe=false, dados=null, carregando=false, erro="", so="", fora=null, buscandoFora=false;
 
 async function chamar(op,extra){
-  if(!window.MT||!MT._fb)throw new Error("Conta MedTech indisponível.");
-  if(!Fn)Fn=await import("https://www.gstatic.com/firebasejs/10.13.2/firebase-functions.js");
-  const f=Fn.getFunctions(MT._fb.app,"southamerica-east1");
-  const r=await Fn.httpsCallable(f,"clinicamed")({op,...(extra||{})});
-  return r.data;
+  if(typeof MTS==="undefined"||!MTS.usuario)throw new Error("Conta MedTech indisponível.");
+  return MTS.chamar("clinicamed",{op,...(extra||{})});
 }
 function botao(){return document.querySelector('#abas button[data-aba="turma"]')}
 function mostra(v){const b=botao(); if(b)b.hidden=!v}

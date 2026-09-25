@@ -14,10 +14,11 @@
 <script>
 /* tema antes do CSS para não piscar */
 (function(){try{var t=localStorage.getItem("cm_tema")||"auto";
-if(t==="claro"||t==="escuro")document.documentElement.setAttribute("data-tema",t);}catch(e){}
-/* trava a rolagem já aqui: o #cmTrava cobre a tela até a conta ser confirmada */
-document.documentElement.classList.add("travado");})();
+if(t==="claro"||t==="escuro")document.documentElement.setAttribute("data-tema",t);}catch(e){}})();
 </script>
+<!-- conta + sincronização (cópia de ~/Documents/Claude/_mtsync/mtsync.js). Síncrono no <head>:
+     o portão cobre a tela antes do primeiro pixel do app e só sai com a conta confirmada. -->
+<script src="mtsync.js?v=163"></script>
 <!-- gramática visual do ecossistema: tokens da raiz do site + ícones Tabler (nunca emoji) -->
 <link rel="stylesheet" href="/_mttokens.css?v=2">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3/dist/tabler-icons.min.css">
@@ -1098,34 +1099,15 @@ body[data-aba=questoes] #pgTitulo{position:absolute!important;width:1px;height:1
 </main>
 <div class="faixas" id="faixas"></div>
 
-<!-- trava de entrada: some quando a conta MedTech confirma o usuário -->
-<div id="cmTrava">
- <div class="marca">
-  <svg width="34" height="24" viewBox="0 0 52 24" fill="none" aria-hidden="true">
-   <path d="M1 16h9l3-9 4 15 4-20 4 14 3-6h5l3 6h11" stroke="var(--brand)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-  </svg>
-  ClínicaMed
- </div>
- <div class="giro" id="cmTravaGiro"></div>
- <p id="cmTravaTxt">Verificando sua conta MedTech…</p>
- <div class="linha" id="cmTravaBt" hidden></div>
-</div>
-
-<!-- conta MedTech: mesma origem do site principal, então a sessão é compartilhada com os
-     outros apps do ecossistema. Se a raiz não responder (offline), window.MT não existe e o
-     app segue inteiro em modo local — o nuvem.js trata isso. -->
-<script src="/_mtfb.js"></script>
-<script>window.MT_APP={id:"clinicamed",name:"ClínicaMed",linha:"provas"};</script>
-<script type="module" src="/_mtauth.js"></script>
-<script src="taxonomia.js?v=162"></script>
-<script src="provas.js?v=162"></script>
-<script src="banco.js?v=162"></script>
-<script src="flash.js?v=162"></script>
-<script src="pratica.js?v=162"></script>
-<script src="leituras.js?v=162"></script>
-<script src="indice-leituras.js?v=162"></script>
-<script src="nuvem.js?v=162"></script>
-<script src="turma.js?v=162"></script>
+<script src="taxonomia.js?v=163"></script>
+<script src="provas.js?v=163"></script>
+<script src="banco.js?v=163"></script>
+<script src="flash.js?v=163"></script>
+<script src="pratica.js?v=163"></script>
+<script src="leituras.js?v=163"></script>
+<script src="indice-leituras.js?v=163"></script>
+<script src="nuvem.js?v=163"></script>
+<script src="turma.js?v=163"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -1211,7 +1193,7 @@ const ARM={
    try{raw=localStorage.getItem(k)}catch(e){falhou=true;this.travas[k]="leitura falhou: "+e.message}
    if(raw===null&&!falhou)return fb;
    if(!falhou){try{return JSON.parse(raw)}catch(e){this.travas[k]="JSON corrompido"}}
-   UI.banner("erro",`Falha ao ler ${k}. Gravação BLOQUEADA nessa chave para não apagar dados. Exporte o backup em Ajustes.`,true);
+   UI.banner("erro",`Falha ao ler ${k} neste aparelho. Para não apagar nada, essa parte não será gravada até reabrir o app; o que já está na sua conta continua salvo.`,true);
    return fb},
  save(k,v){
    if(this.travas[k]){UI.banner("erro",`Não gravei ${k}: a leitura falhou neste boot (proteção contra sobrescrita).`);return false}
@@ -1262,9 +1244,9 @@ function carregaEstado(){ST={
   prog:ARM.load(PREF+"prog",{})
 }}
 /* Único funil de gravação do app — por isso o carimbo da nuvem nasce aqui, e não espalhado
-   por cada ponto de escrita. NUVEM.carimba compara com o retrato anterior e datas o que mudou. */
+   por cada ponto de escrita. NUVEM.mudou avisa o mtsync, que compara com o que a nuvem já tem. */
 function salva(k,v){const ok=ARM.save(PREF+k,v);
-  if(ok&&typeof NUVEM!=="undefined"){NUVEM.carimba(k,v);NUVEM.agenda()}
+  if(ok&&typeof NUVEM!=="undefined")NUVEM.mudou(k);
   return ok}
 /* redesenha a aba aberta — usado quando a nuvem traz novidade do outro aparelho */
 function repinta(){const a=(ST.cfg||{}).aba;if(PINTA[a])PINTA[a]()}
@@ -1530,7 +1512,7 @@ function diasPara(iso){if(!iso)return null;
   return Math.round((d-h)/864e5)}
 const provaPorId=id=>PROVAS.find(p=>p.id===id)||PROVAS[0];
 /* deslogado o chip abre o login; logado ele leva para Ajustes, onde está o estado da conta */
-$("#btConta").onclick=()=>{ if(NUVEM.usuario)irAba("ajustes"); else NUVEM.entrar() };
+$("#btConta").onclick=()=>irAba("ajustes");
 $("#btTema").onclick=()=>{
   const seq=["auto","claro","escuro"],at=ST.cfg.tema||"auto",nv=seq[(seq.indexOf(at)+1)%3];
   ST.cfg.tema=nv;salva("cfg",ST.cfg);aplicaTema();
@@ -2509,26 +2491,6 @@ async function pintaOffline(){
     pintaOffline();
   };
 }
-function contaMarkup(){
-  if(typeof NUVEM==="undefined"||NUVEM.modo!=="nuvem")
-    return `<p class="mini">A conta MedTech não respondeu neste carregamento (offline, ou o site principal fora do ar). O app segue inteiro, gravando só neste aparelho.</p>`;
-  const u=NUVEM.usuario;
-  if(!u)return `<p class="mini">Sessão encerrada. Entre de novo para continuar.</p>
-    <div class="linha" style="margin-top:10px"><button class="bt" id="btEntrar">Entrar</button></div>`;
-  const s=NUVEM.ultimoSync;
-  return `<p class="mini">Conectado como <b>${esc(u.displayName||u.email||"")}</b>${u.displayName&&u.email?` (${esc(u.email)})`:""}.
-    ${s?`Última sincronização às ${String(s.getHours()).padStart(2,"0")}:${String(s.getMinutes()).padStart(2,"0")}.`:"Sincronizando…"}</p>
-   ${NUVEM.coord?`<p class="mini" style="margin-top:6px;padding:8px 10px;background:var(--aviSup);border-radius:8px">
-     <b>A coordenação acompanha seu desempenho neste app.</b> ${esc(NUVEM.coord.coordenador||"")}
-     ${NUVEM.coord.turma?`incluiu você na turma ${esc(NUVEM.coord.turma)}`:"incluiu você na turma"} e vê o resumo do seu estudo:
-     quantas questões você fez, o acerto por área, leituras concluídas, simulados e há quanto tempo você não entra.
-     O que você respondeu em cada questão <b>não</b> aparece para ninguém.</p>`:""}
-   <p class="mini" style="margin-top:6px">Sincronizam: respostas, favoritas, cartões, estações, leituras lidas, simulados e contestações.
-    Não sincronizam: aba aberta, filtros, tema e simulado em andamento, que são a tela deste aparelho.
-    O que chega do outro aparelho é <b>mesclado</b> item a item; nada é sobrescrito em bloco.</p>
-   <div class="linha" style="margin-top:10px"><button class="bt sec" id="btSair">Sair da conta</button>
-    <a class="bt sec" href="/provas.html">MedTech Provas</a></div>`;
-}
 async function pintaAjustes(){
   $("#sec-ajustes").innerHTML=`
   <div class="cx">
@@ -2549,24 +2511,12 @@ async function pintaAjustes(){
   </div>
   <div class="cx">
    <h3 style="margin:0 0 8px">Conta</h3>
-   ${contaMarkup()}
+   ${NUVEM.contaMarkup()}
   </div>
   <div class="cx">
    <h3 style="margin:0 0 8px">Uso sem internet</h3>
    <p class="mini">O app abre sem rede depois do primeiro acesso, e guarda sozinho toda leitura que você abrir. Para levar a <b>biblioteca inteira</b> para o plantão (todas as leituras e as figuras), baixe de uma vez, de preferência no wi-fi: são cerca de 2,6 MB.</p>
    <div id="cxOff" style="margin-top:10px"><p class="mini">verificando…</p></div>
-  </div>
-  <div class="cx">
-   <h3 style="margin:0 0 8px">Dados</h3>
-   <p class="mini">O estudo é gravado neste aparelho (localStorage espelhado em IndexedDB) e sincronizado com a sua conta, então o mesmo progresso aparece no celular e no computador. Depois do primeiro acesso, o app abre e funciona sem internet. O que você fizer offline sobe na próxima vez que houver rede. O backup exportado continua valendo a pena: é o único que fica fora do navegador e da nuvem.</p>
-   <div class="linha" style="margin-top:10px">
-    <button class="bt" id="btExp">Exportar backup</button>
-    <button class="bt sec" id="btImp">Importar backup</button>
-    <button class="bt sec" id="btSnap">Criar ponto de restauração</button>
-    <input type="file" id="arqImp" accept="application/json" hidden>
-   </div>
-   <div id="listaBk" style="margin-top:12px"></div>
-   <p class="mini" style="margin-top:12px">Armazenamento persistente: ${ARM.persistOK===true?"concedido pelo navegador":ARM.persistOK===false?"NÃO concedido (o navegador pode limpar os dados sob pressão de espaço)":"desconhecido"}.</p>
   </div>
   <div class="cx">
    <h3 style="margin:0 0 8px">Contestações que você enviou</h3>
@@ -2585,40 +2535,12 @@ async function pintaAjustes(){
   </div>`;
   $$("[data-tema]").forEach(b=>b.onclick=()=>{ST.cfg.tema=b.dataset.tema;salva("cfg",ST.cfg);aplicaTema();pintaAjustes()});
   pintaOffline();
-  if($("#btEntrar"))$("#btEntrar").onclick=()=>NUVEM.entrar();
-  if($("#btSair"))$("#btSair").onclick=()=>{
-    if(confirm("Sair da conta? O ClínicaMed pede login, então a tela de entrada volta. O progresso já sincronizado continua na nuvem."))NUVEM.sair()};
-  $("#btExp").onclick=()=>{
-    const blob=new Blob([JSON.stringify(ARM.exporta())],{type:"application/json"});
-    const a=document.createElement("a");a.href=URL.createObjectURL(blob);
-    a.download=`clinicamed-backup-${dataISO()}.json`;a.click();
-    setTimeout(()=>URL.revokeObjectURL(a.href),4000);
-  };
-  $("#btImp").onclick=()=>$("#arqImp").click();
-  $("#arqImp").onchange=async e=>{
-    const f=e.target.files[0];if(!f)return;
-    try{const n=await ARM.importa(JSON.parse(await f.text()));
-      if(n===null)return UI.banner("erro","Esse arquivo não é um backup do ClínicaMed.");
-      carregaEstado();UI.banner("ok",`${n} chaves restauradas.`);pintaAjustes();
-    }catch(err){UI.banner("erro","Não consegui ler o arquivo: "+err.message)}
-  };
-  $("#btSnap").onclick=async()=>{await ARM.snapshot("manual");UI.banner("ok","Ponto de restauração criado.");pintaAjustes()};
-  const bks=await ARM.listaBackups();
-  $("#listaBk").innerHTML=bks.length?`<div class="rolagem"><table>
-    <tr><th>Quando</th><th>Origem</th><th>Chaves</th><th></th></tr>
-    ${bks.map(b=>`<tr><td>${esc(b.quando.replace("T"," ").slice(0,16))}</td><td>${esc(b.motivo)}</td><td>${b.n}</td>
-      <td><button class="bt sec mini" data-bk="${b.id}">restaurar</button></td></tr>`).join("")}</table></div>`
-    :`<p class="mini">Nenhum ponto de restauração ainda.</p>`;
+  if($("#btSair"))$("#btSair").onclick=()=>{ if(confirm("Sair da conta? O ClínicaMed pede login, então a tela de entrada volta. Seu progresso fica salvo na conta."))NUVEM.sair() };
   $$("[data-reenv]").forEach(b=>b.onclick=()=>{const c=ST.contest[+b.dataset.reenv];
     location.href=`mailto:${EMAIL_MEDTECH}?subject=${encodeURIComponent(c.assunto)}&body=${encodeURIComponent(c.corpo)}`});
   $$("[data-copiar]").forEach(b=>b.onclick=async()=>{const c=ST.contest[+b.dataset.copiar];
     try{await navigator.clipboard.writeText(`Para: ${EMAIL_MEDTECH}\nAssunto: ${c.assunto}\n\n${c.corpo}`);
       UI.banner("ok","Copiado.")}catch(e){UI.banner("avi","Não consegui copiar neste navegador.")}});
-  $$("[data-bk]").forEach(b=>b.onclick=async()=>{
-    if(!confirm("Restaurar este ponto? O estado atual é salvo antes, como ponto de restauração."))return;
-    const ok=await ARM.restaura(+b.dataset.bk);
-    if(ok){carregaEstado();UI.banner("ok","Backup restaurado.");pintaAjustes()}else UI.banner("erro","Não consegui restaurar.");
-  });
 }
 
 /* ================= boot ================= */
@@ -2626,9 +2548,8 @@ async function pintaAjustes(){
   carregaEstado();
   await ARM.boot();
   carregaEstado();
-  NUVEM.init();   /* retrato do estado antes da primeira gravação (carimbos da nuvem) */
-  if(ARM.recuperado)UI.banner("ok",`Recuperei ${ARM.recuperado.n} chaves do espelho interno (backup de ${String(ARM.recuperado.quando).slice(0,10)}). Seus dados voltaram.`,true);
   aplicaTema();
+  NUVEM.boot();   /* portão de login + sincronização automática (mtsync.js) */
   matchMedia("(prefers-color-scheme:dark)").addEventListener("change",()=>{if((ST.cfg.tema||"auto")==="auto")aplicaTema()});
   montaAbas();
   /* deep-link das leituras: ../index.html?area=<tema>#questoes aplica o filtro e limpa a URL.
@@ -2644,7 +2565,6 @@ async function pintaAjustes(){
   /* atalho do toque longo no ícone (manifest shortcuts): ?ir=<aba> */
   const irPar=par.get("ir");
   if(irPar&&PINTA[irPar]){ST.cfg.aba=irPar;salva("cfg",ST.cfg);history.replaceState(null,"",location.pathname)}
-  NUVEM.boot();   /* não bloqueia: o app já está de pé; a nuvem entra quando responder */
   if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
   window.__cm={ST,ARM,BANCO,QIDX,chaveQ,embaralha,espalhaTemas,irAba,estatArea,V};
 })();
