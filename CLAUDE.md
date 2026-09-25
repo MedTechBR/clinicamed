@@ -1,5 +1,13 @@
 # ClínicaMed — plataforma de estudo de Clínica Médica
 
+
+> **25/09/2026 — conta e sincronização trocadas (SUBSTITUI o que este arquivo diz sobre `sync.js`/`nuvem.js`/`MT.save`).**
+> O app só abre logado e salva sozinho durante o uso. Motor único em `~/Documents/Claude/_mtsync/`
+> (`mtsync.js`; ler o README de lá): um documento por item em `users/{uid}/apps/<app>/sync/`, fila offline
+> do Firestore, recebimento em tempo real, migração única do formato antigo. Sem exportar/importar/restaurar
+> backup na interface. Mexeu no motor: `node _mtsync/teste.js` e copiar para os quatro apps.
+> Aqui: `nuvem.js` virou só a configuração (coleções, resumo da coordenação, migração); `turma.js` chama a função `clinicamed` por HTTP (`MTS.chamar`). `teste_nuvem.js` foi apagado.
+
 App pessoal do Matheus, três públicos no mesmo banco: **título de especialista (TECM)**,
 **provas de acesso a subespecialidades clínicas (R+)** e **o residente estudando durante a
 residência**. Herda a arquitetura do TráfegoTítulo/RadioTítulo e o cronograma vivo do
