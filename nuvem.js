@@ -20,7 +20,7 @@ const NUVEM=(function(){
 
 const COLECOES={
   resp:{tipo:"hist",teto:60},
-  fav:{tipo:"mapa"}, flash:{tipo:"mapa"}, treino:{tipo:"mapa"}, lidas:{tipo:"mapa"}, prog:{tipo:"mapa"},
+  fav:{tipo:"mapa"}, flash:{tipo:"mapa"}, sinal:{tipo:"mapa"}, treino:{tipo:"mapa"}, lidas:{tipo:"mapa"}, prog:{tipo:"mapa"},
   atividade:{tipo:"soma"},
   sim:{tipo:"lista",id:"quando",ordena:(a,b)=>String(a.quando).localeCompare(String(b.quando))},
   contest:{tipo:"lista",id:"quando",teto:60,ordena:(a,b)=>String(b.quando).localeCompare(String(a.quando))}
@@ -139,6 +139,8 @@ function aoReceber(cols){
   /* repinta só telas de consulta: redesenhar a questão aberta tiraria a pessoa do lugar */
   const aba=(ST.cfg||{}).aba;
   if(["inicio","painel","ajustes","leituras","cartoes"].includes(aba)&&typeof PINTA!=="undefined"&&PINTA[aba])PINTA[aba]();
+  /* bandeira da questão aberta acompanha o outro aparelho sem redesenhar a questão */
+  if(cols.includes("sinal")&&typeof SINAL!=="undefined"&&ST.pos&&ST.pos.chq)SINAL.repinta(ST.pos.chq);
   agendaResumo();
 }
 

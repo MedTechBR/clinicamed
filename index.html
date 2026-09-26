@@ -18,7 +18,7 @@ if(t==="claro"||t==="escuro")document.documentElement.setAttribute("data-tema",t
 </script>
 <!-- conta + sincronização (cópia de ~/Documents/Claude/_mtsync/mtsync.js). Síncrono no <head>:
      o portão cobre a tela antes do primeiro pixel do app e só sai com a conta confirmada. -->
-<script src="mtsync.js?v=165"></script>
+<script src="mtsync.js?v=166"></script>
 <!-- gramática visual do ecossistema: tokens da raiz do site + ícones Tabler (nunca emoji) -->
 <link rel="stylesheet" href="/_mttokens.css?v=2">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3/dist/tabler-icons.min.css">
@@ -1062,6 +1062,7 @@ body[data-aba=questoes] #pgTitulo{position:absolute!important;width:1px;height:1
   #sec-questoes #qCartao .cx{padding:12px 11px 14px!important}
   #sec-questoes .qTopo{margin-bottom:8px!important;gap:6px!important}
   #sec-questoes #btFav{width:32px!important;height:32px!important}
+  #sec-questoes #btSinal{min-width:32px;min-height:32px;height:32px;padding:0 6px}
   #sec-questoes .enun{font-size:15.5px!important;line-height:1.5!important;margin:0 0 12px!important}
   #sec-questoes #alts{gap:6px!important}
   #sec-questoes .alt{padding:6px 10px 6px 8px!important;min-height:44px;font-size:14px!important;line-height:1.4!important;gap:10px!important}
@@ -1077,6 +1078,16 @@ body[data-aba=questoes] #pgTitulo{position:absolute!important;width:1px;height:1
 label.cmp>.mtt-btn{width:100%;justify-content:space-between;border-radius:14px;background:var(--papel);color:var(--ink);font-size:15px}
 label.cmp:has(>.mtt-btn){min-width:min(260px,100%);max-width:100%}
 .mtt-pai .mtt-busca{border-radius:12px!important}
+/* 26/09/2026: sinalizar questão (mtsinal.js). Texto sobre a cor da aba em preto pelo mesmo motivo do filtro (ciano do
+   Painel: branco 2,93:1, preto 7,17). O vermelho --err (#E5484D) dá 3,91:1 no claro e 4,40 no escuro como TEXTO
+   (tipo na lista, bandeira ligada): escurecido no claro (5,16 sobre --papel) e clareado no escuro (6,88). */
+.msn-btn,.msn-pai,.msn-lista{--msn-sobre:#000;--msn-borda:var(--linhaF);--msn-cor-alerta:#C62A2F}
+:root[data-tema="escuro"] :is(.msn-btn,.msn-pai,.msn-lista){--msn-cor-alerta:#FF7B7F}
+@media(prefers-color-scheme:dark){:root:not([data-tema="claro"]) :is(.msn-btn,.msn-pai,.msn-lista){--msn-cor-alerta:#FF7B7F}}
+.qTopo .msn-btn{margin-left:auto;border:1px solid var(--linha);background:var(--sup);color:var(--ink2);opacity:1}
+.qTopo .msn-btn+.btMarca{margin-left:0}
+.qTopo .msn-btn.msn-on{color:var(--msn-alerta);border-color:currentColor}
+.msn-pai textarea{border-radius:12px!important;background:var(--papel)}
 </style>
 
 <header>
@@ -1106,16 +1117,17 @@ label.cmp:has(>.mtt-btn){min-width:min(260px,100%);max-width:100%}
 </main>
 <div class="faixas" id="faixas"></div>
 
-<script src="taxonomia.js?v=165"></script>
-<script src="provas.js?v=165"></script>
-<script src="banco.js?v=165"></script>
-<script src="flash.js?v=165"></script>
-<script src="pratica.js?v=165"></script>
-<script src="leituras.js?v=165"></script>
-<script src="indice-leituras.js?v=165"></script>
-<script src="nuvem.js?v=165"></script>
-<script src="turma.js?v=165"></script>
-<script src="mtfiltro.js?v=165"></script>
+<script src="taxonomia.js?v=166"></script>
+<script src="provas.js?v=166"></script>
+<script src="banco.js?v=166"></script>
+<script src="flash.js?v=166"></script>
+<script src="pratica.js?v=166"></script>
+<script src="leituras.js?v=166"></script>
+<script src="indice-leituras.js?v=166"></script>
+<script src="nuvem.js?v=166"></script>
+<script src="turma.js?v=166"></script>
+<script src="mtfiltro.js?v=166"></script>
+<script src="mtsinal.js?v=166"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -1169,7 +1181,7 @@ const UI={banner(tipo,msg,fixa){
 
 /* ---------- blindagem de armazenamento ----------
    load() que falha TRAVA a gravação da chave: melhor não salvar do que salvar vazio por cima. */
-const CHAVES=["resp","fav","flash","erros","cfg","sim","simativo","pos","treino","atividade","lidas","contest","prog"].map(k=>PREF+k);
+const CHAVES=["resp","fav","flash","erros","cfg","sim","simativo","pos","treino","atividade","lidas","contest","prog","sinal"].map(k=>PREF+k);
 const LIVROS="cm-livros-v1";   /* balde do service worker que guarda leituras e figuras */
 const ARM={
  db:null,travas:{},tsBackup:0,recuperado:null,persistOK:null,
@@ -1249,13 +1261,33 @@ function carregaEstado(){ST={
   erros:ARM.load(PREF+"erros",[]), cfg:ARM.load(PREF+"cfg",{}), sim:ARM.load(PREF+"sim",[]),
   simativo:ARM.load(PREF+"simativo",null), pos:ARM.load(PREF+"pos",{}), treino:ARM.load(PREF+"treino",{}),
   atividade:ARM.load(PREF+"atividade",{}), lidas:ARM.load(PREF+"lidas",{}), contest:ARM.load(PREF+"contest",[]),
-  prog:ARM.load(PREF+"prog",{})
+  prog:ARM.load(PREF+"prog",{}), sinal:ARM.load(PREF+"sinal",{})
 }}
 /* Único funil de gravação do app — por isso o carimbo da nuvem nasce aqui, e não espalhado
    por cada ponto de escrita. NUVEM.mudou avisa o mtsync, que compara com o que a nuvem já tem. */
 function salva(k,v){const ok=ARM.save(PREF+k,v);
   if(ok&&typeof NUVEM!=="undefined")NUVEM.mudou(k);
   return ok}
+/* Sinalizar questão com erro (26/09/2026). Pedido do Matheus: "está faltando um campo para sinalizar questões
+   com erro". Componente compartilhado mtsinal.js (window.MTSinal; fonte única em ~/Documents/Claude/_mtsinal/,
+   não editar a cópia daqui). O estado é ST.sinal {chave da questão (_ch): {tipo, nota, ts, q, tema, extra}},
+   gravado pelo funil salva() e sincronizado como coleção "mapa" (nuvem.js; tirar a bandeira propaga).
+   Cada mudança também vai à caixa central da administração (função mtSinal, medtechbr.com.br/sinalizacoes.html),
+   com o token da conta; sem rede ou sem login fica na fila localStorage["msn_fila:clinicamed"].
+   Convive com o "Discordo desta questão" (mailto, ST.contest), que continua existindo. */
+const SINAL=MTSinal.cria({
+  app:"ClínicaMed",
+  le:()=>ST.sinal,
+  grava:obj=>{ST.sinal=obj;salva("sinal",obj)},
+  central:{app:"clinicamed",token:()=>typeof MTS!=="undefined"&&MTS.usuario&&MTS.usuario.getIdToken()}
+});
+/* o que ajuda a achar a questão no banco: procedência (banca e edição, ou autoral) e a letra do gabarito como aparece na tela */
+function extraSinal(q){
+  /* mesmo rótulo da pílula de procedência do feedback ("Revalida 2021", "ENARE 2025/2026") */
+  const f=q.fonte, proc=!f?"autoral":f.prova?f.banca.replace(/\s*\(.*$/,"")+" "+f.prova.replace(/^Revalida /,""):f.banca+" "+(f.ano||"");
+  return `${proc} · gabarito ${letraDe(q,q.gab)}`;
+}
+function bandeira(el,q){if(el)SINAL.botao(el,{chave:q._ch,q:q.q,tema:NOME[q.tema]||q.tema,extra:extraSinal(q)})}
 /* redesenha a aba aberta — usado quando a nuvem traz novidade do outro aparelho */
 function repinta(){const a=(ST.cfg||{}).aba;if(PINTA[a])PINTA[a]()}
 function atividade(n){const d=dataISO();ST.atividade[d]=(ST.atividade[d]||0)+n;salva("atividade",ST.atividade)}
@@ -1497,7 +1529,7 @@ function pintaBusca(q,fecha){
     grupo("Estações",r.estacoes,e=>`<button class="hit" data-est="${esc(e.id)}">${marca(e.t||e.titulo||"",qn)}</button>`);
   $$("#resBusca [data-ler]").forEach(b=>b.onclick=()=>{fecha();ST.cfg.lendo=b.dataset.ler;ST.cfg.secao=b.dataset.sec||null;salva("cfg",ST.cfg);irAba("leituras")});
   $$("#resBusca [data-q]").forEach(b=>b.onclick=()=>{fecha();
-    ST.pos.fq={area:"",areas:[],cen:"",comp:"",niv:"",modo:"todas",proc:""};ST.pos.assq=null;ST.pos.chq=b.dataset.q;salva("pos",ST.pos);irAba("questoes")});
+    abreQuestaoEm({area:"",areas:[],cen:"",comp:"",niv:"",modo:"todas",proc:""},b.dataset.q)});
   $$("#resBusca [data-card]").forEach(b=>b.onclick=()=>{fecha();irAba("cartoes")});
   $$("#resBusca [data-est]").forEach(b=>b.onclick=()=>{fecha();ST.cfg.estacao=b.dataset.est;salva("cfg",ST.cfg);irAba("pratica")});
 }
@@ -1665,6 +1697,7 @@ function aplicaFiltro(f=filtroAtual()){
   if(f.modo==="erros")l=l.filter(q=>ST.erros.includes(q._ch));
   if(f.modo==="fav")l=l.filter(q=>ST.fav[q._ch]);
   if(f.modo==="novas")l=l.filter(q=>!respostaDe(q));
+  if(f.modo==="sinal")l=l.filter(q=>ST.sinal[q._ch]);
   /* procedência: `fonte` só existe na questão copiada de prova real (banca+ano) */
   if(f.proc==="real")l=l.filter(q=>q.fonte);
   if(f.proc==="autoral")l=l.filter(q=>!q.fonte);
@@ -1674,6 +1707,14 @@ function aplicaFiltro(f=filtroAtual()){
 /* A ordem embaralhada é refeita quando a assinatura muda. Mesma forma de antes, com a área como a lista
    ordenada e unida por "|": com uma área (ou nenhuma) a assinatura é idêntica à antiga, então ninguém
    perde a posição na lista ao atualizar o app. */
+/* Abre a aba Questões com um filtro novo PARADA numa questão. A ordem tem de ser refeita antes de pôr a
+   questão: ordemQuestoes() com assinatura nova volta a posição para a 1ª da lista embaralhada (antes a busca
+   caía na 1ª questão do banco, não na que foi clicada). */
+function abreQuestaoEm(fq,ch){
+  ST.pos.fq=fq;ST.pos.assq=null;ST.pos.chq=null;
+  const l=ordemQuestoes(); if(ch&&l.some(q=>q._ch===ch))ST.pos.chq=ch;
+  salva("pos",ST.pos);irAba("questoes");
+}
 const assinaturaFiltro=()=>{const f=filtroAtual();
   return JSON.stringify({area:[...f.areas].sort().join("|"),cen:f.cen,comp:f.comp,niv:f.niv,modo:f.modo,proc:f.proc})};
 function ordemQuestoes(){
@@ -1700,7 +1741,7 @@ function pintaQuestoes(){
   const i=l.findIndex(q=>q._ch===ST.pos.chq), q=l[i];
   const opt=(arr,v,vazio)=>`<option value="">${vazio}</option>`+arr.map(o=>
     `<option value="${o.id}"${o.id===v?" selected":""}>${esc(o.nome)}</option>`).join("");
-  const resumoF=[nomeAreas(f.areas,"todas as áreas"),f.modo&&f.modo!=="todas"?{novas:"não respondidas",erros:"meus erros",fav:"marcadas"}[f.modo]:null].filter(Boolean).join(" · ");
+  const resumoF=[nomeAreas(f.areas,"todas as áreas"),f.modo&&f.modo!=="todas"?{novas:"não respondidas",erros:"meus erros",fav:"marcadas",sinal:"sinalizadas"}[f.modo]:null].filter(Boolean).join(" · ");
   /* Seis seletores abertos competiam com o enunciado pela atenção. Ficam à vista os dois que se
      mexem todo dia — área e conjunto —; cenário, competência, nível e procedência entram em
      "mais filtros", que abre quando algum deles está em uso. */
@@ -1712,6 +1753,7 @@ function pintaQuestoes(){
       <option value="novas"${f.modo==="novas"?" selected":""}>ainda não respondidas</option>
       <option value="erros"${f.modo==="erros"?" selected":""}>meus erros</option>
       <option value="fav"${f.modo==="fav"?" selected":""}>marcadas</option>
+      <option value="sinal"${f.modo==="sinal"?" selected":""}>sinalizadas com erro</option>
     </select></label>
     <details class="maisF"${extraAtivo?" open":""}><summary>mais filtros${extraAtivo?" <span class=\"pt\"></span>":""}</summary>
      <label class="cmp">Cenário<select id="fCen">${opt(CEN,f.cen,"todos")}</select></label>
@@ -1753,6 +1795,7 @@ function pintaCartaoQuestao(q,l,i){
     <span class="qNum">Questão <b class="num">${i+1}</b> de <span class="num">${l.length}</span></span>
     <span class="qProg"><i style="width:${Math.max(1,Math.round((i+1)/l.length*100))}%"></i></span>
     ${ja?`<span class="qEstado ${ja.ok?"ok":"er"}">${ja.ok?"acertou":"errou"}<span class="qUlt"> da última vez</span></span>`:""}
+    <button id="btSinal"></button>
     <button class="btMarca${ST.fav[q._ch]?" on":""}" id="btFav" title="${ST.fav[q._ch]?"Desmarcar":"Marcar para revisar"}" aria-pressed="${!!ST.fav[q._ch]}"><i class="ti ti-bookmark${ST.fav[q._ch]?"-filled":""}"></i></button>
    </div>
    <p class="enun">${esc(q.q)}</p>
@@ -1765,6 +1808,7 @@ function pintaCartaoQuestao(q,l,i){
     <span class="atalhos"><kbd>A</kbd>–<kbd>E</kbd> responder <kbd>←</kbd><kbd>→</kbd> navegar</span>
    </div>
   </div>`;
+  bandeira($("#btSinal"),q);
   $("#btFav").onclick=()=>{ST.fav[q._ch]=!ST.fav[q._ch];if(!ST.fav[q._ch])delete ST.fav[q._ch];salva("fav",ST.fav);pintaCartaoQuestao(q,l,i)};
   $("#btAnt").onclick=()=>{ST.pos.chq=l[i-1]._ch;salva("pos",ST.pos);pintaQuestoes();entraQuestao(true)};
   $("#btProx").onclick=()=>{ST.pos.chq=l[i+1]._ch;salva("pos",ST.pos);pintaQuestoes();entraQuestao(false)};
@@ -1952,11 +1996,13 @@ function pintaResultadoSim(s){
     $("#revisao").innerHTML=s.qs.map((ch,k)=>{const q=QIDX.get(ch),r=s.res[ch],ok=r===q.gab;
       return `<div class="cx"><div class="linha" style="gap:6px">
         <span class="pilula ${ok?"ok":"er"}">${k+1}. ${ok?"acertou":r===undefined?"em branco":"errou"}</span>
-        <span class="pilula b">${esc(NOME[q.tema]||q.tema)}</span></div>
+        <span class="pilula b">${esc(NOME[q.tema]||q.tema)}</span>
+        <button class="simSinal" data-ch="${esc(ch)}" style="margin-left:auto"></button></div>
        <p class="enun">${esc(q.q)}</p>
        ${ordemAlts(q).map((j,p)=>`<div class="alt${j===q.gab?" certa":(j===r?" errada":"")}">
          <span class="let">${LETRAS[p]}</span><span>${esc(q.alts[j])}</span></div>`).join("")}
        <div class="coment">${esc(q.coment)}<div class="base">Âncora: ${esc(q.base)}</div></div></div>`}).join("");
+    $$("#revisao .simSinal").forEach(b=>bandeira(b,QIDX.get(b.dataset.ch)));
     $("#btRevisar").disabled=true;
   };
 }
@@ -2491,6 +2537,10 @@ function pintaPainel(){
       <div class="coment"><b>Correta: ${letraDe(q,q.gab)}.</b> ${esc(q.alts[q.gab])}<br><br>${esc(q.coment)}
        <div class="base">Âncora: ${esc(q.base)}</div></div></details>`}).join("")}
    <button class="bt mini" id="btTreinarErros" style="margin-top:8px">Treinar só os erros</button></div>`:""}
+  <div class="cx" id="cxSinal"><h3 style="margin:0 0 4px">Questões sinalizadas</h3>
+   <p class="mini" style="margin:0 0 10px">As que você marcou com a bandeira por achar um erro. Elas vão para a equipe que revisa o banco.</p>
+   <div id="pSinal"></div>
+   ${SINAL.total()?`<button class="bt sec mini" id="btTreinarSinal" style="margin-top:4px">Ver só as sinalizadas em Questões</button>`:""}</div>
   <div class="cx">
    <h3 style="margin:0 0 12px">Estações, leituras, cartões e simulados</h3>
    <div class="grade2">
@@ -2503,6 +2553,13 @@ function pintaPainel(){
   if($("#btTreinarErros"))$("#btTreinarErros").onclick=()=>{
     ST.pos.fq={area:"",areas:[],cen:"",comp:"",niv:"",modo:"erros"};ST.pos.assq=null;ST.pos.chq=null;
     salva("pos",ST.pos);irAba("questoes")};
+  /* abrir uma sinalizada: conjunto "sinalizadas", sem outros filtros, parado nela */
+  const abreSinal=ch=>abreQuestaoEm({area:"",areas:[],cen:"",comp:"",niv:"",modo:"sinal",proc:""},ch);
+  SINAL.lista($("#pSinal"),{abreQuestao:ch=>{
+    if(!QIDX.has(ch))return UI.banner("avi","Essa questão foi corrigida ou saiu do banco depois que você a sinalizou.");
+    abreSinal(ch)}});
+  /* a lista se redesenha sozinha ao tirar itens; o botão não, então confere na hora */
+  if($("#btTreinarSinal"))$("#btTreinarSinal").onclick=()=>SINAL.total()?abreSinal(null):pintaPainel();
 }
 
 /* ================= aba AJUSTES ================= */
