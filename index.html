@@ -18,7 +18,7 @@ if(t==="claro"||t==="escuro")document.documentElement.setAttribute("data-tema",t
 </script>
 <!-- conta + sincronização (cópia de ~/Documents/Claude/_mtsync/mtsync.js). Síncrono no <head>:
      o portão cobre a tela antes do primeiro pixel do app e só sai com a conta confirmada. -->
-<script src="mtsync.js?v=163"></script>
+<script src="mtsync.js?v=165"></script>
 <!-- gramática visual do ecossistema: tokens da raiz do site + ícones Tabler (nunca emoji) -->
 <link rel="stylesheet" href="/_mttokens.css?v=2">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3/dist/tabler-icons.min.css">
@@ -1070,6 +1070,13 @@ body[data-aba=questoes] #pgTitulo{position:absolute!important;width:1px;height:1
 }
 @media(prefers-reduced-motion:reduce){.anima>*,.vHero .bola,.vStat.fogo .ic i,#qCartao.entra .cx,.alt,.coment,.expl,#verso .coment,.pgTitulo .selo{animation:none!important}
   .vAnel .arco,.barra i,.vSemana i{transition:none!important}}
+/* 25/09/2026: filtro de várias áreas (mtfiltro.js). O botão-resumo ocupa o lugar do <select> com a mesma cara.
+   Texto sobre a cor da aba em PRETO: branco dá 3,97:1 no azul, 3,06 no verde e 2,14 no âmbar; preto dá
+   5,28 / 6,86 / 4,89 (violeta) / 9,81 — medido, as cores de aba não mudam no escuro. */
+.mtt-btn,.mtt-pai{--mtt-borda:var(--linhaF);--mtt-campo:var(--papel);--mtt-sobre:#000}
+label.cmp>.mtt-btn{width:100%;justify-content:space-between;border-radius:14px;background:var(--papel);color:var(--ink);font-size:15px}
+label.cmp:has(>.mtt-btn){min-width:min(260px,100%);max-width:100%}
+.mtt-pai .mtt-busca{border-radius:12px!important}
 </style>
 
 <header>
@@ -1099,15 +1106,16 @@ body[data-aba=questoes] #pgTitulo{position:absolute!important;width:1px;height:1
 </main>
 <div class="faixas" id="faixas"></div>
 
-<script src="taxonomia.js?v=163"></script>
-<script src="provas.js?v=163"></script>
-<script src="banco.js?v=163"></script>
-<script src="flash.js?v=163"></script>
-<script src="pratica.js?v=163"></script>
-<script src="leituras.js?v=163"></script>
-<script src="indice-leituras.js?v=163"></script>
-<script src="nuvem.js?v=163"></script>
-<script src="turma.js?v=163"></script>
+<script src="taxonomia.js?v=165"></script>
+<script src="provas.js?v=165"></script>
+<script src="banco.js?v=165"></script>
+<script src="flash.js?v=165"></script>
+<script src="pratica.js?v=165"></script>
+<script src="leituras.js?v=165"></script>
+<script src="indice-leituras.js?v=165"></script>
+<script src="nuvem.js?v=165"></script>
+<script src="turma.js?v=165"></script>
+<script src="mtfiltro.js?v=165"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -1489,7 +1497,7 @@ function pintaBusca(q,fecha){
     grupo("Estações",r.estacoes,e=>`<button class="hit" data-est="${esc(e.id)}">${marca(e.t||e.titulo||"",qn)}</button>`);
   $$("#resBusca [data-ler]").forEach(b=>b.onclick=()=>{fecha();ST.cfg.lendo=b.dataset.ler;ST.cfg.secao=b.dataset.sec||null;salva("cfg",ST.cfg);irAba("leituras")});
   $$("#resBusca [data-q]").forEach(b=>b.onclick=()=>{fecha();
-    ST.pos.fq={area:"",cen:"",comp:"",niv:"",modo:"todas",proc:""};ST.pos.assq=null;ST.pos.chq=b.dataset.q;salva("pos",ST.pos);irAba("questoes")});
+    ST.pos.fq={area:"",areas:[],cen:"",comp:"",niv:"",modo:"todas",proc:""};ST.pos.assq=null;ST.pos.chq=b.dataset.q;salva("pos",ST.pos);irAba("questoes")});
   $$("#resBusca [data-card]").forEach(b=>b.onclick=()=>{fecha();irAba("cartoes")});
   $$("#resBusca [data-est]").forEach(b=>b.onclick=()=>{fecha();ST.cfg.estacao=b.dataset.est;salva("cfg",ST.cfg);irAba("pratica")});
 }
@@ -1631,10 +1639,29 @@ function abreContestacao(ctx){
 const NREAIS=BANCO.filter(q=>q.fonte).length;
 /* bancas com contagem, para o filtro de procedência (a mais numerosa primeiro) */
 const BANCAS=Object.entries(BANCO.reduce((m,q)=>{if(q.fonte)m[q.fonte.banca]=(m[q.fonte.banca]||0)+1;return m},{})).sort((a,b)=>b[1]-a[1]);
-function filtroAtual(){const f=ST.pos.fq||{};return {area:f.area||"",cen:f.cen||"",comp:f.comp||"",niv:f.niv||"",modo:f.modo||"todas",proc:f.proc||""}}
-function aplicaFiltro(){
-  const f=filtroAtual();
-  let l=BANCO.filter(q=>(!f.area||q.tema===f.area)&&(!f.cen||q.cenario===f.cen)&&(!f.comp||q.comp===f.comp)&&(!f.niv||q.nivel===f.niv));
+/* Filtro de VÁRIAS áreas (25/09/2026). Pedido do Matheus: "conseguirmos filtrar alguns temas (hoje só é
+   possível filtrar 1 tema por vez)". Componente compartilhado mtfiltro.js (window.MTTemas, fonte única em
+   ~/Documents/Claude/_mtfiltro/ — não editar a cópia daqui).
+   O estado passou de string para LISTA: pos.fq.areas, cfg.fcs (cartões), cfg.fps (prática), cfg.fl.areas
+   (leituras). A chave antiga (string) continua gravada com a PRIMEIRA área da lista, para que uma versão
+   anterior aberta no mesmo aparelho (aba velha, SW atrasado) ainda leia algo coerente. Na leitura, a lista
+   só vale se a primeira dela bater com a string; se não bater, quem gravou por último foi a versão antiga
+   e a string vence. cfg e pos são deste aparelho: não sincronizam com a nuvem (ver nuvem.js).
+   A lista é guardada na ordem da taxonomia, então a primeira é estável. Vazia = todas. */
+const IDS_TAX=TAX.map(t=>t.id);
+function ordAreas(ids){const s=new Set(MTTemas.lista(ids));return IDS_TAX.filter(id=>s.has(id))}
+function leAreas(lista,str){str=str||"";return ordAreas(Array.isArray(lista)&&(lista[0]||"")===str?lista:MTTemas.lista(str))}
+const nomeAreas=(ids,todas)=>!ids.length?todas:ids.length===1?(NOME[ids[0]]||ids[0]):ids.length+" áreas";
+function seletorAreas(el,o){
+  if(!el)return null;
+  return MTTemas.monta(el,{titulo:"Áreas",rotuloTodos:"Todas as áreas",item:["área","áreas"],...o});
+}
+const NQ_AREA=BANCO.reduce((m,q)=>(m[q.tema]=(m[q.tema]||0)+1,m),{});
+function filtroAtual(){const f=ST.pos.fq||{}, areas=leAreas(f.areas,f.area);
+  return {area:areas[0]||"",areas,cen:f.cen||"",comp:f.comp||"",niv:f.niv||"",modo:f.modo||"todas",proc:f.proc||""}}
+function aplicaFiltro(f=filtroAtual()){
+  const as=new Set(f.areas);
+  let l=BANCO.filter(q=>(!as.size||as.has(q.tema))&&(!f.cen||q.cenario===f.cen)&&(!f.comp||q.comp===f.comp)&&(!f.niv||q.nivel===f.niv));
   if(f.modo==="erros")l=l.filter(q=>ST.erros.includes(q._ch));
   if(f.modo==="fav")l=l.filter(q=>ST.fav[q._ch]);
   if(f.modo==="novas")l=l.filter(q=>!respostaDe(q));
@@ -1644,7 +1671,11 @@ function aplicaFiltro(){
   if(f.proc.startsWith("b:"))l=l.filter(q=>q.fonte&&q.fonte.banca===f.proc.slice(2));
   return l;
 }
-const assinaturaFiltro=()=>JSON.stringify(filtroAtual());
+/* A ordem embaralhada é refeita quando a assinatura muda. Mesma forma de antes, com a área como a lista
+   ordenada e unida por "|": com uma área (ou nenhuma) a assinatura é idêntica à antiga, então ninguém
+   perde a posição na lista ao atualizar o app. */
+const assinaturaFiltro=()=>{const f=filtroAtual();
+  return JSON.stringify({area:[...f.areas].sort().join("|"),cen:f.cen,comp:f.comp,niv:f.niv,modo:f.modo,proc:f.proc})};
 function ordemQuestoes(){
   const lista=aplicaFiltro(), ass=assinaturaFiltro();
   if(ST.pos.assq!==ass||!Array.isArray(ST.pos.ordq)||!ST.pos.ordq.length){
@@ -1669,13 +1700,13 @@ function pintaQuestoes(){
   const i=l.findIndex(q=>q._ch===ST.pos.chq), q=l[i];
   const opt=(arr,v,vazio)=>`<option value="">${vazio}</option>`+arr.map(o=>
     `<option value="${o.id}"${o.id===v?" selected":""}>${esc(o.nome)}</option>`).join("");
-  const resumoF=[f.area?NOME[f.area]:"todas as áreas",f.modo&&f.modo!=="todas"?{novas:"não respondidas",erros:"meus erros",fav:"marcadas"}[f.modo]:null].filter(Boolean).join(" · ");
+  const resumoF=[nomeAreas(f.areas,"todas as áreas"),f.modo&&f.modo!=="todas"?{novas:"não respondidas",erros:"meus erros",fav:"marcadas"}[f.modo]:null].filter(Boolean).join(" · ");
   /* Seis seletores abertos competiam com o enunciado pela atenção. Ficam à vista os dois que se
      mexem todo dia — área e conjunto —; cenário, competência, nível e procedência entram em
      "mais filtros", que abre quando algum deles está em uso. */
   const extraAtivo=!!(f.cen||f.comp||f.niv||f.proc);
   $("#sec-questoes").innerHTML=filtroBox("q",`${l.length} · ${esc(resumoF)}`,`
-    <label class="cmp">Área<select id="fArea">${opt(TAX,f.area,"todas as áreas")}</select></label>
+    <label class="cmp">Área<button type="button" id="fArea"></button></label>
     <label class="cmp">Conjunto<select id="fModo">
       <option value="todas"${f.modo==="todas"?" selected":""}>todas</option>
       <option value="novas"${f.modo==="novas"?" selected":""}>ainda não respondidas</option>
@@ -1696,7 +1727,11 @@ function pintaQuestoes(){
     <button class="bt sec mini" id="btEmb">Embaralhar</button>
     <div class="mini" style="flex-basis:100%">${l.length} ${l.length===1?"questão":"questões"} no filtro${l.length?`. Você está na ${i+1}ª`:""}</div>`)
   +`<div id="qCartao"></div>`;
-  $("#fArea").onchange=e=>mudaFiltro("area",e.target.value);
+  seletorAreas($("#fArea"),{
+    opcoes:TAX.map(t=>({id:t.id,nome:t.nome,n:NQ_AREA[t.id]||0})),
+    selecionados:f.areas,
+    conta:ids=>aplicaFiltro({...f,areas:ids}).length,   /* com conjunto, cenário, nível etc. aplicados */
+    aoMudar:ids=>mudaFiltro("areas",ids)});
   $("#fCen").onchange=e=>mudaFiltro("cen",e.target.value);
   $("#fComp").onchange=e=>mudaFiltro("comp",e.target.value);
   $("#fNiv").onchange=e=>mudaFiltro("niv",e.target.value);
@@ -1705,7 +1740,9 @@ function pintaQuestoes(){
   $("#btEmb").onclick=()=>{ST.pos.assq=null;salva("pos",ST.pos);pintaQuestoes()};
   pintaCartaoQuestao(q,l,i);
 }
-function mudaFiltro(k,v){const f=filtroAtual();f[k]=v;ST.pos.fq=f;ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);pintaQuestoes()}
+function mudaFiltro(k,v){const f=filtroAtual();
+  if(k==="areas"||k==="area"){f.areas=ordAreas(v);f.area=f.areas[0]||""}else f[k]=v;
+  ST.pos.fq=f;ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);pintaQuestoes()}
 function pintaCartaoQuestao(q,l,i){
   const alvo=$("#qCartao");
   if(!q){alvo.innerHTML=`<div class="cx"><p class="vazio">Nenhuma questão neste filtro. Troque o conjunto ou tire alguma restrição.</p></div>`;return}
@@ -1930,8 +1967,8 @@ function pintaPratica(){
   const ativo=ST.cfg.estacao&&PRATICA.find(e=>e.id===ST.cfg.estacao);
   if(ativo)return pintaEstacao(ativo);
   const feitas=Object.keys(ST.treino).length;
-  const fp=ST.cfg.fp||"";
-  const lista=fp?PRATICA.filter(e=>e.area===fp):PRATICA;
+  const fps=leAreas(ST.cfg.fps,ST.cfg.fp), sfp=new Set(fps);
+  const lista=fps.length?PRATICA.filter(e=>sfp.has(e.area)):PRATICA;
   $("#sec-pratica").innerHTML=`
   <div class="cx">
    <h2 style="margin:0 0 6px">Estações de proficiência clínica</h2>
@@ -1942,11 +1979,8 @@ function pintaPratica(){
     <div class="kpi"><b>${notaMediaEstacoes()}</b><span>nota média (0 a 5)</span></div>
    </div>
    <div class="linha" style="margin-top:12px">
-    <label class="cmp">Área<select id="pArea">
-      <option value="">todas as áreas</option>
-      ${TAX.filter(x=>PRATICA.some(e=>e.area===x.id)).map(x=>`<option value="${x.id}"${x.id===fp?" selected":""}>${esc(x.nome)} (${PRATICA.filter(e=>e.area===x.id).length})</option>`).join("")}
-    </select></label>
-    ${fp?`<button class="bt sec mini" id="pLimpa" style="align-self:flex-end">limpar</button>`:""}
+    <label class="cmp">Área<button type="button" id="pArea"></button></label>
+    ${fps.length?`<button class="bt sec mini" id="pLimpa" style="align-self:flex-end">limpar</button>`:""}
     <span class="mini" style="margin-left:auto;align-self:flex-end">${lista.length} de ${PRATICA.length}</span>
    </div>
   </div>
@@ -1961,8 +1995,12 @@ function pintaPratica(){
      <p class="mini">${esc(e.abertura.slice(0,150))}…</p>
      <button class="bt mini" data-est="${e.id}" style="margin-top:9px">${t?"treinar de novo":"iniciar estação"}</button>
     </div>`}).join("")}</div>`;
-  if($("#pArea"))$("#pArea").onchange=e=>{ST.cfg.fp=e.target.value;salva("cfg",ST.cfg);pintaPratica()};
-  if($("#pLimpa"))$("#pLimpa").onclick=()=>{ST.cfg.fp="";salva("cfg",ST.cfg);pintaPratica()};
+  const poeFps=ids=>{const a=ordAreas(ids);ST.cfg.fps=a;ST.cfg.fp=a[0]||"";salva("cfg",ST.cfg);pintaPratica()};
+  seletorAreas($("#pArea"),{
+    opcoes:TAX.filter(x=>PRATICA.some(e=>e.area===x.id)).map(x=>({id:x.id,nome:x.nome,n:PRATICA.filter(e=>e.area===x.id).length})),
+    selecionados:fps, unidade:["estação","estações"],
+    aoMudar:poeFps});
+  if($("#pLimpa"))$("#pLimpa").onclick=()=>poeFps([]);
   $$("[data-est]").forEach(b=>b.onclick=()=>{ST.cfg.estacao=b.dataset.est;ST.cfg.etapa=0;ST.cfg.iniEst=Date.now();salva("cfg",ST.cfg);pintaPratica()});
 }
 function notaMediaEstacoes(){const v=Object.values(ST.treino);if(!v.length)return "—";
@@ -2085,13 +2123,14 @@ function pintaLeituras(){
     return;
   }
   document.body.classList.remove("lendo");
-  const fl=ST.cfg.fl||(ST.cfg.fl={area:"",busca:"",so:""});
+  const fl=ST.cfg.fl||(ST.cfg.fl={area:"",areas:[],busca:"",so:""});
+  const fla=leAreas(fl.areas,fl.area), sfl=new Set(fla);
   const todas=LEITURAS.filter(l=>l.f);
   // areas que realmente tem leitura, na ordem de peso do edital
   const comLeitura=TAX.filter(t=>todas.some(l=>l.area===t.id));
   const termo=(fl.busca||"").trim().toLowerCase();
-  const casa=l=>{
-    if(fl.area && l.area!==fl.area) return false;
+  const casa=(l,sa=sfl)=>{
+    if(sa.size && !sa.has(l.area)) return false;
     if(fl.so==="naolidas" && ST.lidas[l.f]) return false;
     if(fl.so==="lidas" && !ST.lidas[l.f]) return false;
     if(termo){
@@ -2100,10 +2139,10 @@ function pintaLeituras(){
     }
     return true;
   };
-  const vis=todas.filter(casa);
+  const vis=todas.filter(l=>casa(l));
   const minVis=vis.reduce((s,l)=>s+(l.min||0),0);
   const lidasVis=vis.filter(l=>ST.lidas[l.f]).length;
-  const filtrando=!!(fl.area||termo||fl.so);
+  const filtrando=!!(fla.length||termo||fl.so);
   // com filtro ativo, some com os separadores de secao e mostra lista corrida
   const lista = filtrando
     ? vis.map(cartaoLeitura).join("")
@@ -2117,12 +2156,9 @@ function pintaLeituras(){
   <div class="cx filtros filtroL${ab?" aberto":""}" data-fk="l">
    <h2 style="margin:0 0 10px">Leituras</h2>
    <input id="lBusca" type="search" placeholder="Buscar tema, diretriz, palavra do resumo…" value="${esc(fl.busca||"")}" style="width:100%">
-   <button class="fToggle" type="button" aria-expanded="${ab}" style="margin-top:8px"><i class="ti ti-adjustments-horizontal"></i>Filtros<span class="resumo">${fl.area?esc(NOME[fl.area]):"todas as áreas"}${fl.so?" · "+(fl.so==="lidas"?"lidas":"não lidas"):""}</span><i class="ti ti-chevron-down seta"></i></button>
+   <button class="fToggle" type="button" aria-expanded="${ab}" style="margin-top:8px"><i class="ti ti-adjustments-horizontal"></i>Filtros<span class="resumo">${esc(nomeAreas(fla,"todas as áreas"))}${fl.so?" · "+(fl.so==="lidas"?"lidas":"não lidas"):""}</span><i class="ti ti-chevron-down seta"></i></button>
    <div class="linha fCorpo">
-    <label class="cmp">Área<select id="lArea">
-      <option value="">todas as áreas</option>
-      ${comLeitura.map(t=>`<option value="${t.id}"${t.id===fl.area?" selected":""}>${esc(t.nome)} (${todas.filter(l=>l.area===t.id).length})</option>`).join("")}
-    </select></label>
+    <label class="cmp">Área<button type="button" id="lArea"></button></label>
     <label class="cmp">Mostrar<select id="lSo">
       <option value=""${!fl.so?" selected":""}>todas</option>
       <option value="naolidas"${fl.so==="naolidas"?" selected":""}>ainda não lidas</option>
@@ -2141,8 +2177,12 @@ function pintaLeituras(){
   </div>`
   :`<div class="cx"><p class="vazio">Nenhuma leitura publicada ainda. As leituras entram por <code>leituras.js</code> + um arquivo em <code>leituras/</code>.</p></div>`;
   const aplica=(k,v)=>{ST.cfg.fl[k]=v;salva("cfg",ST.cfg);pintaLeituras()};
-  const limpa=()=>{ST.cfg.fl={area:"",busca:"",so:""};salva("cfg",ST.cfg);pintaLeituras()};
-  if($("#lArea"))$("#lArea").onchange=e=>aplica("area",e.target.value);
+  const limpa=()=>{ST.cfg.fl={area:"",areas:[],busca:"",so:""};salva("cfg",ST.cfg);pintaLeituras()};
+  seletorAreas($("#lArea"),{
+    opcoes:comLeitura.map(t=>({id:t.id,nome:t.nome,n:todas.filter(l=>l.area===t.id).length})),
+    selecionados:fla, unidade:["leitura","leituras"],
+    conta:ids=>todas.filter(l=>casa(l,new Set(ids))).length,   /* com busca e lidas/não lidas aplicadas */
+    aoMudar:ids=>{const a=ordAreas(ids);ST.cfg.fl.areas=a;ST.cfg.fl.area=a[0]||"";salva("cfg",ST.cfg);pintaLeituras()}});
   if($("#lSo"))$("#lSo").onchange=e=>aplica("so",e.target.value);
   if($("#lLimpa"))$("#lLimpa").onclick=limpa;
   if($("#lLimpa2"))$("#lLimpa2").onclick=limpa;
@@ -2203,27 +2243,28 @@ function ajustaQuadro(){const f=$("#quadroLeitura");if(!f)return;
 function cartaoDe(i){return ST.flash[i]||(ST.flash[i]={n:0,ef:2.5,int:0,prox:dataISO()})}
 function devidos(){return FLASH.map((c,i)=>({c,i,e:cartaoDe(i)})).filter(x=>x.e.prox<=dataISO())}
 function pintaCartoes(){
-  const fc=ST.cfg.fc||"";
+  const fcs=leAreas(ST.cfg.fcs,ST.cfg.fc), sfc=new Set(fcs);
   const todosDev=devidos();
-  const d=fc?todosDev.filter(x=>x.c.tema===fc):todosDev;
+  const d=fcs.length?todosDev.filter(x=>sfc.has(x.c.tema)):todosDev;
   // o seletor mostra a area e quantos cartoes dela estao vencidos hoje
   const areasCard=TAX.filter(x=>FLASH.some(c=>c.tema===x.id));
   const barra=`
    <div class="linha" style="margin-bottom:10px">
-    <label class="cmp">Área<select id="cArea">
-      <option value="">todas as áreas (${todosDev.length} hoje)</option>
-      ${areasCard.map(x=>{const n=todosDev.filter(y=>y.c.tema===x.id).length;
-        return `<option value="${x.id}"${x.id===fc?" selected":""}>${esc(x.nome)} · ${n} hoje</option>`}).join("")}
-    </select></label>
-    ${fc?`<button class="bt sec mini" id="cLimpa" style="align-self:flex-end">limpar</button>`:""}
+    <label class="cmp">Área<button type="button" id="cArea"></button></label>
+    ${fcs.length?`<button class="bt sec mini" id="cLimpa" style="align-self:flex-end">limpar</button>`:""}
    </div>`;
   const liga=()=>{
-    if($("#cArea"))$("#cArea").onchange=e=>{ST.cfg.fc=e.target.value;salva("cfg",ST.cfg);pintaCartoes()};
-    if($("#cLimpa"))$("#cLimpa").onclick=()=>{ST.cfg.fc="";salva("cfg",ST.cfg);pintaCartoes()};
+    const poeFcs=ids=>{const a=ordAreas(ids);ST.cfg.fcs=a;ST.cfg.fc=a[0]||"";salva("cfg",ST.cfg);pintaCartoes()};
+    /* n = cartões da área que vencem hoje (o que o seletor antigo mostrava) */
+    seletorAreas($("#cArea"),{
+      opcoes:areasCard.map(x=>({id:x.id,nome:x.nome,n:todosDev.filter(y=>y.c.tema===x.id).length})),
+      selecionados:fcs, unidade:["cartão para hoje","cartões para hoje"],
+      aoMudar:poeFcs});
+    if($("#cLimpa"))$("#cLimpa").onclick=()=>poeFcs([]);
   };
   if(!d.length){
     $("#sec-cartoes").innerHTML=`<div class="cx"><h2 style="margin:0 0 8px">Cartões</h2>${barra}
-      <p class="vazio">${fc?"Nenhum cartão desta área vence hoje.":`Nada para revisar hoje. São ${FLASH.length} cartões no total; volte amanhã.`}</p></div>`;
+      <p class="vazio">${fcs.length?`Nenhum cartão ${fcs.length===1?"desta área":"dessas áreas"} vence hoje.`:`Nada para revisar hoje. São ${FLASH.length} cartões no total; volte amanhã.`}</p></div>`;
     return liga();
   }
   const {c,i}=d[0];
@@ -2335,7 +2376,7 @@ function pintaInicio(){
   const pendentes=LEITURAS.filter(l=>l.f&&!ST.lidas[l.f]&&ST.prog[l.f]>0&&ST.prog[l.f]<95).sort((a,b)=>ST.prog[b.f]-ST.prog[a.f]);
   const leituras=(pendentes.length?pendentes:LEITURAS.filter(l=>l.f&&!ST.lidas[l.f])).slice(0,8);
   const foco=estatArea().slice(0,5);
-  const areaAtual=qAtual?(NOME[qAtual.tema]||"Clínica médica"):(fq.area?NOME[fq.area]:"Todas as áreas");
+  const areaAtual=qAtual?(NOME[qAtual.tema]||"Clínica médica"):nomeAreas(leAreas(fq.areas,fq.area),"Todas as áreas");
   $("#pgTitulo").innerHTML="";
   $("#sec-inicio").innerHTML=`
   <div class="vIni">
@@ -2392,12 +2433,12 @@ function pintaInicio(){
    </div>
   </div>`;
   $("#iMeta").onchange=e=>{ST.cfg.meta=+e.target.value;salva("cfg",ST.cfg);pintaInicio();vivo($("#sec-inicio"))};
-  $$("#sec-inicio .vArea").forEach(b=>b.onclick=()=>{ST.pos.fq={...filtroAtual(),area:b.dataset.area};ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);irAba("questoes")});
+  $$("#sec-inicio .vArea").forEach(b=>b.onclick=()=>{ST.pos.fq={...filtroAtual(),area:b.dataset.area,areas:[b.dataset.area]};ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);irAba("questoes")});
   $$("#sec-inicio [data-ir]").forEach(b=>b.onclick=()=>{
     const v=b.dataset.ir;
     if(v==="erros"){ST.pos.fq={...filtroAtual(),modo:"erros"};ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);irAba("questoes")}
     else if(v==="leitura"){ST.cfg.lendo=b.dataset.f;salva("cfg",ST.cfg);irAba("leituras")}
-    else if(v==="biblioteca"){ST.cfg.lendo=null;ST.cfg.fl={area:"",busca:"",so:""};salva("cfg",ST.cfg);irAba("leituras")}
+    else if(v==="biblioteca"){ST.cfg.lendo=null;ST.cfg.fl={area:"",areas:[],busca:"",so:""};salva("cfg",ST.cfg);irAba("leituras")}
     else irAba(v);
   });
 }
@@ -2460,7 +2501,7 @@ function pintaPainel(){
    </div>
   </div>`;
   if($("#btTreinarErros"))$("#btTreinarErros").onclick=()=>{
-    ST.pos.fq={area:"",cen:"",comp:"",niv:"",modo:"erros"};ST.pos.assq=null;ST.pos.chq=null;
+    ST.pos.fq={area:"",areas:[],cen:"",comp:"",niv:"",modo:"erros"};ST.pos.assq=null;ST.pos.chq=null;
     salva("pos",ST.pos);irAba("questoes")};
 }
 
@@ -2556,7 +2597,7 @@ async function pintaAjustes(){
      O parâmetro é `area` e não `tema` para não colidir com o ?tema= do claro/escuro. */
   const par=new URLSearchParams(location.search), areaLink=par.get("area");
   if(areaLink&&TAX.some(t=>t.id===areaLink)){
-    ST.pos.fq={area:areaLink,cen:"",comp:"",niv:"",modo:"todas"};
+    ST.pos.fq={area:areaLink,areas:[areaLink],cen:"",comp:"",niv:"",modo:"todas"};
     ST.pos.assq=null;ST.pos.chq=null;salva("pos",ST.pos);ST.cfg.aba="questoes";ST.cfg.lendo=null;salva("cfg",ST.cfg);
     history.replaceState(null,"",location.pathname);
   }
