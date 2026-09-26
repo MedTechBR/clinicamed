@@ -129,6 +129,7 @@ async function legado(ctx){
 async function limparLocal(){
   try{Object.keys(localStorage).filter(k=>k.startsWith(PREF)&&k!==PREF+"tema").forEach(k=>localStorage.removeItem(k))}catch(e){}
   try{Object.keys(localStorage).filter(k=>k.startsWith("mt_clinicamed")).forEach(k=>localStorage.removeItem(k))}catch(e){}
+  try{localStorage.removeItem("msn_fila:clinicamed")}catch(e){}   /* fila das sinalizações: não pode sair com o login da conta nova */
   try{if(ARM.db)ARM.db.close()}catch(e){}
   await new Promise(r=>{try{const q=indexedDB.deleteDatabase("cm-db");q.onsuccess=q.onerror=q.onblocked=()=>r()}catch(e){r()}});
 }
